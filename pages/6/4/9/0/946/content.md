@@ -1,4 +1,7 @@
 
+> This entry is about topologized [[preorders]] also known as *Alexandroff spaces*, named after [[Paul Alexandroff]]. For [[length spaces]] behaving like having [[sectional curvature]] bounded below see instead at *[[Alexandrov space]]*, named after [[Alexander Alexandrov]]. 
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
