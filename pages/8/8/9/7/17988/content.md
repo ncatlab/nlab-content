@@ -146,6 +146,8 @@ Unitarity, causality and stability in Asymptotic Safety:
 
 * Alessia Platania _Causality, unitarity and stability in quantum gravity: a non-perturbative perspective_ ([arXiv:2206.04072](https://arxiv.org/abs/2206.04072))
 
+* Benjamin Knorr, Alessia Platania _Unearthing the intersections: positivity bounds, weak gravity conjecture, and asymptotic safety landscapes from photon-graviton flows_ ([2405.08860](https://arxiv.org/abs/2405.08860))
+
 Review on early-universe cosmology in the context of asymptotic safety:
 
 * Alessia Platania, *From renormalization group flows to cosmology*, Front.in Phys. 8 (2020) 188 &lbrack;[arXiv:2003.13656](https://arxiv.org/abs/2003.13656)&rbrack;
@@ -173,8 +175,7 @@ Relation to String Theory:
 
 * Renata Ferrero, [[Martin Reuter]], *On the possibility of a novel (A)dS/CFT relationship emerging in Asymptotic Safety* &lbrack;[arXiv:2205.12030](https://arxiv.org/abs/2205.12030)&rbrack;
 
-
-
+* Benjamin Knorr, Alessia Platania _Unearthing the intersections: positivity bounds, weak gravity conjecture, and asymptotic safety landscapes from photon-graviton flows_ ([2405.08860](https://arxiv.org/abs/2405.08860))
 
 
 
