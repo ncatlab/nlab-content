@@ -4,7 +4,7 @@ __Zbigniew Semadeni__ is a Polish mathematician. His work is mainly in [[functio
 
 The following monograph has many ideas emphasising the [[duality between algebra and geometry|duality]] between [[function algebras]] and [[topological spaces]] and including many early ideas in [[noncommutative geometry]]. Unfortunately only the first volume ever appeared.
 
-* Zbigniew Semadeni, _Banach spaces of continuous functions_, vol. I, [gBooks](http://books.google.com/books/about/Banach_spaces_of_continuous_functions.html?id=vCDvAAAAMAAJ)
+* Zbigniew Semadeni, _Banach spaces of continuous functions_, vol. I, 1971 [gBooks](http://books.google.com/books/about/Banach_spaces_of_continuous_functions.html?id=vCDvAAAAMAAJ)
 
 * [[Zbigniew Semadeni]], _Schauder bases in Banach spaces of continuous functions_, Springer Lecture Notes in Mathematics 918. Berlin 2008.
 
