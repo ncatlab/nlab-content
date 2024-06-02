@@ -22,6 +22,10 @@ On the [[Oka principle]]:
 
 * [[Mikhail Gromov]], _Oka's principle for holomorphic sections of elliptic bundles_, J. Amer. Math. Soc. __2__ (1989), 851&#8211;-897 ([doi:10.2307/1990897](https://doi.org/10.2307/1990897))
 
+On [[Alexandrov spaces]]:
+
+* Yu. Burago, [[Mikhail Gromov|M. Gromov]], [[Grigori Perelman|G. Perelman]], _Alexandrov spaces with curvature bounded below_, Russ. Math. Surveys 1992. [pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/386.pdf)
+
 See also:
 
 * _Pseudo holomorphic curves in symplectic manifolds_, Inventiones Mathematicae __82__, n. 2 (1985) 307&#8211;347.
