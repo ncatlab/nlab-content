@@ -94,10 +94,13 @@ in learning the subject rather then only the goals and supposed content matter. 
 * Lingguo Bu, Robert Schoen (eds.), _Model centered learning_, Pathways to mathematical understanding using geogebra, vol. 6 of Modeling and simulations for learning and instruction
 * Jennifer A. Kaminski, Vladimir M. Sloutsky, Andrew F. Heckle, _The advantage of abstract examples in learning math_, [Science Magayibe 2012 pdf](https://promathmedia.files.wordpress.com/2013/02/2-1-the-advantage-of-abstract-examples-in-learning-math2.pdf)
 
+Discussing elementary mathematical notions avoiding "pleasure principle" in education: 
+
+* Carl E. Linderholm, _Mathematics made difficult_, Wolfe Publishing 1972
+
 The following epistemiology of math article offers also discussion on educational issues and has related bibliography
 
-* Zbigniew Semadeni, _The triple nature of mathematics:
-deep ideas, surface representations, formal models_, [article](https://www.researchgate.net/publication/228925441_The_triple_nature_of_mathematics_deep_ideas_surface_representations_formal_models)
+* [[Zbigniew Semadeni]], _The triple nature of mathematics: deep ideas, surface representations, formal models_, [article](https://www.researchgate.net/publication/228925441_The_triple_nature_of_mathematics_deep_ideas_surface_representations_formal_models)
 
 Cognitive, linguistic and cultural aspects of mathematics (which are of relevance for learning) are emphasized in
 
