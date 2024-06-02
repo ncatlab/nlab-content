@@ -11,4 +11,4 @@ Every (paracompact Hausdorff) [[differentiable manifold]] can be equipped with a
 * [[Dusa McDuff]], [[Dietmar Salamon]], _Introduction to symplectic topology_, 2 ed. Oxford Mathematical Monographs 1998. x+486 pp.
 * [[Yong-Geun Oh]], _Symplectic topology and Floer homology_, [pdf](http://www.math.wisc.edu/~oh/all.pdf)
  {#Oh}
-* _Pseudo holomorphic curves in symplectic manifolds_, Inventiones Mathematicae __82__, n. 2 (1985) 307&#8211;347.
+* [[Mikhail Gromov]]: _Pseudo holomorphic curves in symplectic manifolds_, Inventiones Mathematicae __82__ 2 (1985) 307--347 &lbrack;[pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/945.pdf), [doi:10.1007/BF01388806](https://doi.org/10.1007/BF01388806)&rbrack;
