@@ -492,7 +492,7 @@ See also at _[[opetopic type theory]]_.
 
 Discussion of sheet diagrams for [[rig categories]] is in
 
-* {#CDH} Cole Comfort, Antonin Delpeuch, [[Jules Hedges]], _Sheet diagrams for bimonoidal categories_, ([arXiv:2010.13361](https://arxiv.org/abs/2010.13361))
+* {#CDH} [[Cole Comfort]], [[Antonin Delpeuch]], [[Jules Hedges]], _Sheet diagrams for bimonoidal categories_, ([arXiv:2010.13361](https://arxiv.org/abs/2010.13361))
 
 Discussion of the use of string diagrams to treat [[universal constructions]] such as [[limits]], [[Kan extensions]], and [[ends]]:
 
