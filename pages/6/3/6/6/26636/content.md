@@ -1,6 +1,8 @@
 
 * [arXiv page](https://arxiv.org/search/?searchtype=author&query=Joshua%20Lackman)
 
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=292964)
+
 * [ResearchGate page](https://www.researchgate.net/profile/Joshua-Lackman)
 
 
