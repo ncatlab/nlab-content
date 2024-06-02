@@ -25,6 +25,13 @@ On [[enriched category theory]] and [[cosmoi]]:
 
 * {#Street80} [[Ross Street]], *Cosmoi of internal categories*, Transactions of the American Mathematical Society **258** 2 (1980) 271-318 &lbrack;[doi:10.2307/1998059](https://doi.org/10.2307/1998059)&rbrack;
 
+On [[sketches]] in the generality of [[internalization]] into [[2-categories]]:
+
+* {#Street76} [[Ross Street]], _Complete objects relative to a theory_ (1976) &lbrack;[pdf](http://science.mq.edu.au/~street/Sketch.pdf), [[Street-CompleteObjects.pdf:file]]&rbrack;
+
+* [[Ross Street]], *Pointwise extensions and sketches in bicategories* &lbrack;[arXiv:1409.6427](https://arxiv.org/abs/1409.6427)&rbrack;
+
+
 On [[topos theory]]:
 
 * [[Ross Street]], _A survey of topos theory_, lecture notes (1978) &lbrack;[pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf), [[Street-SurveyToposTheory.pdf:file]]&rbrack;
@@ -40,6 +47,10 @@ Introducing the notion of [[traced monoidal categories]]:
 
 
 * {#Street81} [[Ross Street]], *Cauchy characterization of enriched categories*, Rend. Sem. Mat. Fis. Milano 51 (1981): 217-233, Reprints in Theory and Applications of Categories, **4** (2004) 1-16 &lbrack;[tac:tr4](http://www.tac.mta.ca/tac/reprints/articles/4/tr4abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/4/tr4.pdf)&rbrack;
+
+On the [[Gray tensor product]] for [[2-categories]]:
+
+* [[Ross Street]], _Gray's tensor product of 2-categories_, (February 1982) &lbrack;[pdf](http://maths.mq.edu.au/~street/GrayTensor.pdf)&rbrack;
 
 
 Introducing the notion of *[[orientals]]*:
@@ -356,8 +367,6 @@ On [[monoidal categories]]:
 
 * [[Ross Street]], _Kan extensions and cartesian monoidal categories_, Seminarberichte Nr. 87, 2015, pp. 89-96. &lbrack;[doi:10.18445/20180829-120304-0](https://doi.org/10.18445/20180829-120304-0)&rbrack;
 
-* [[Ross Street]], _Pointwise extensions and sketches in bicategories_, 2014. &lbrack;[arXiv:1409.6427](https://arxiv.org/abs/1409.6427)&rbrack;
-
 * [[Ross Street]], _Weighted Tensor Products of Joyal Species, Graphs, and Charades_, SIGMA, Vol. 12, No. 005, 2016. &lbrack;[doi:10.3842/SIGMA.2016.005](https://doi.org/10.3842/SIGMA.2016.005)&rbrack;
 
 * [[Hans-E. Porst]] and [[Ross Street]], _Generalizations of the Sweedler Dual_, Applied Categorical Structures, Vol. 24, 2016, pp. 619–647. &lbrack;[doi:10.1007/s10485-016-9450-2](https://doi.org/10.1007/s10485-016-9450-2)&rbrack;
@@ -392,11 +401,9 @@ On [[monoidal categories]]:
 
 * [[Ross Street]], _The core groupoid can suffice_, 2022. &lbrack;[arXiv:2208.11332](https://arxiv.org/abs/2208.11332)&rbrack;
 
-## Notes
 
-* [[Ross Street]], _Complete objects relative to a theory_, June 1976 ([pdf](http://maths.mq.edu.au/~street/Sketch.pdf))
 
-* [[Ross Street]], _Gray's tensor product of 2-categories_, February 1982, ([pdf](http://maths.mq.edu.au/~street/GrayTensor.pdf))
+
 
 category: people
 
