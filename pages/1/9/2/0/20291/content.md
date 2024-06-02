@@ -27,7 +27,15 @@ A [[topological space]] is metacompact if every [[countable set|countable]] [[op
 
 * [Metacompact](https://topology.jdabbs.com/properties/P000031), $\pi$-Base.
 
-
-[[!redirects metacompact spaces]]
-
+[[!redirects metacompact]]
 [[!redirects metacompactness]]
+[[!redirects metacompact spaces]]
+[[!redirects Metacompact space]]
+[[!redirects Metacompact spaces]]
+[[!redirects metacompact topological space]]
+[[!redirects metacompact topological spaces]]
+[[!redirects Metacompact topological space]]
+[[!redirects Metacompact topological spaces]]
+[[!redirects metacompactum]]
+[[!redirects metacompactums]]
+[[!redirects metacompacta]]
