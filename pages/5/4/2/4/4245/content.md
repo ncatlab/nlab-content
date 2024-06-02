@@ -77,7 +77,7 @@ Fukaya categories are named after:
 
 Monographs:
 
-* [[Kenji Fukaya]] Yong-Geun Oh, Hiroshi Ohta, Karo Ono, _Lagrangian intersection Floer theory - anomaly and obstruction_, Studies in Advanced Mathematocs **46**, AMS (2009)  &lbrack;[ISBN:978-0-8218-5253-8](https://bookstore.ams.org/amsip-46/)&rbrack;
+* [[Kenji Fukaya]], [[Yong-Geun Oh]], Hiroshi Ohta, Karo Ono, _Lagrangian intersection Floer theory - anomaly and obstruction_, Studies in Advanced Mathematocs **46**, AMS (2009)  &lbrack;[ISBN:978-0-8218-5253-8](https://bookstore.ams.org/amsip-46/)&rbrack;
 
 * [[Paul Seidel]], *Fukaya categories and Picard-Lefschetz theory*, EMS (2008) &lbrack;[doi:10.4171/063](https://doi.org/10.4171/063)&rbrack;
 
