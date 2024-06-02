@@ -331,6 +331,9 @@ On distributive laws for [[relative monads]]:
 
 * [[Gabriele Lobbia]], *Distributive Laws for Relative Monads*, Applied Categorical Structures **31** 19 (2023)  &lbrack;[doi:10.1007/s10485-023-09716-1](https://doi.org/10.1007/s10485-023-09716-1), [arXiv:2007.12982](https://arxiv.org/abs/2007.12982)&rbrack;
 
+Invertible distributive laws are considered in Lemma 4.12 of:
+
+* [[Bob Rosebrugh]], [[Richard J. Wood]], *Distributive Adjoint Strings*, Theory and Applications of Categories, **1** 6 (1995) 119-145 &lbrack;[tac:1-06](http://www.tac.mta.ca/tac/volumes/1995/n6/1-06abs.html)&rbrack;
 
 [[!redirects distributive laws]]
 [[!redirects mixed distributive law]]
