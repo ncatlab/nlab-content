@@ -12,25 +12,25 @@ __Mikhail Gromov__ (&#1052;&#1080;&#1093;&#1072;&#1080;&#1083; &#1051;&#1077;&#1
 
 On [[symplectic geometry]]:
 
-* [[Mikhail Gromov]]: _Pseudo holomorphic curves in symplectic manifolds_, Inventiones Mathematicae __82__ 2 (1985) 307-347 &lbrack;[pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/945.pdf), [doi:10.1007/BF01388806](https://doi.org/10.1007/BF01388806)&rbrack;
+* [[Mikhail Gromov]]: _Pseudo holomorphic curves in symplectic manifolds_, Inventiones Mathematicae __82__ 2 (1985) 307--347 &lbrack;[pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/945.pdf), [doi:10.1007/BF01388806](https://doi.org/10.1007/BF01388806)&rbrack;
 
 
 On the [[h-principle]] and [[microflexible sheaves]]:
 
 * [[Mikhail Gromov]], _Partial differential relations_, Ergebn. Math. Grenzgeb. (3), 9, Springer (1986) ([doi:10.1007/978-3-662-02267-2](https://link.springer.com/book/10.1007/978-3-662-02267-2))
 
-* [[Mikhail Gromov]], _A topological technique for the construction of solutions of differential equations and inequalities_, Proc. Int. Congress Math. Nice 1970, vol. 2, 221-225 ([djvu w OCR](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0221.0226.ocr.djvu), [pdf](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0221.0226.ocr.pdf))
+* [[Mikhail Gromov]], _A topological technique for the construction of solutions of differential equations and inequalities_, Proc. Int. Congress Math. Nice 1970, vol. 2, 221--225 ([djvu w OCR](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0221.0226.ocr.djvu), [pdf](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0221.0226.ocr.pdf))
 
 * [[Mikhail Gromov]], Papers on h-principle: geometric methods for solving partial differential equations/inequalities and the homotopy structure in the spaces of their solutions, [list](http://www.ihes.fr/~gromov/topics/topic2.html) (with some links)
 
 
 On the [[Oka principle]]:
 
-* [[Mikhail Gromov]], _Oka's principle for holomorphic sections of elliptic bundles_, J. Amer. Math. Soc. __2__ (1989), 851&#8211;-897 ([doi:10.2307/1990897](https://doi.org/10.2307/1990897))
+* [[Mikhail Gromov]], _Oka's principle for holomorphic sections of elliptic bundles_, J. Amer. Math. Soc. __2__ (1989), 851--897 ([doi:10.2307/1990897](https://doi.org/10.2307/1990897))
 
 On [[Alexandrov spaces]]:
 
-* [[Yuri Burago]], [[Mikhail Gromov]], [[Grigori Perelman]], *Alexandrov spaces with curvature bounded below*, Russ. Math. Surveys **41** 3 (1992) 1-54 &lbrack;[doi:10.1070/RM1992v047n02ABEH000877](https://doi.org/10.1070%2FRM1992v047n02ABEH000877), [pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/386.pdf)&rbrack;
+* [[Yuri Burago]], [[Mikhail Gromov]], [[Grigori Perelman]], *Alexandrov spaces with curvature bounded below*, Russ. Math. Surveys **41** 3 (1992) 1--54 &lbrack;[doi:10.1070/RM1992v047n02ABEH000877](https://doi.org/10.1070/RM1992v047n02ABEH000877), [pdf](https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/386.pdf)&rbrack;
 
 
 Gromov also researches connections between [[mathematics]], [[biology]], and sees [[n-categories]] as the structures in mathematics closest to what is going on in the mind. see:
