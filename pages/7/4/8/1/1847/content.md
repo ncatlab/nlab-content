@@ -366,6 +366,8 @@ Discussion of paracompactness of [[CW-complexes]] includes
 [[!redirects paracompact spaces]]
 [[!redirects paracompact topological space]]
 [[!redirects paracompact topological spaces]]
+[[!redirects Paracompact topological space]]
+[[!redirects Paracompact topological spaces]]
 [[!redirects paracompactum]]
 [[!redirects paracompactums]]
 [[!redirects paracompacta]]
