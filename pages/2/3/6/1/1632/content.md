@@ -95,14 +95,14 @@ However, this is not a characterization of Arens regularity; Young also observed
 
 Named after [[Stefan Banach]].
 
-* Zbigniew Semadeni, _Banach spaces of continuous functions_, vol. I, [gBooks](http://books.google.com/books/about/Banach_spaces_of_continuous_functions.html?id=vCDvAAAAMAAJ)
+* [[Zbigniew Semadeni]], _Banach spaces of continuous functions_, vol. I, [gBooks](http://books.google.com/books/about/Banach_spaces_of_continuous_functions.html?id=vCDvAAAAMAAJ)
 
 
 * N. Landsman, _Mathematical topics between classical and quantum mechanics_, Springer
 
-* Walter Rudin, _Functional analysis_
+* [[Walter Rudin]], _Functional analysis_
 
-* Richard V. Kadison, John R. Ringrose, _Fundamentals of the theory of operator algebras_
+* [[Richard Kadison|Richard V. Kadison]], John R. Ringrose, _Fundamentals of the theory of operator algebras_
 
 * F. F. Bonsall, J. Duncan, _Complete normed algebras_
 
