@@ -457,11 +457,12 @@ Discussion of sketches the generality of [[enriched category theory]]:
 
 Discussion in the generality of [[internalization]] into [[2-categories]]:
 
+* {#Street76} [[Ross Street]], _Complete objects relative to a theory_ (1976) &lbrack;[pdf](http://science.mq.edu.au/~street/Sketch.pdf), [[Street-CompleteObjects.pdf:file]]&rbrack;
+
 * {#KinoshitaPowerTakeyama99} [[Yoshiki Kinoshita]], [[John Power]], Makoto Takeyama, *Sketches*, Journal of Pure and Applied Algebra **143** 1-3 (1999) 275-291 \[<a href="https://doi.org/10.1016/S0022-4049(98)00114-5">doi:10.1016/S0022-4049(98)00114-5</a>\]
 
 * [[Ross Street]], *Pointwise extensions and sketches in bicategories* &lbrack;[arXiv:1409.6427](https://arxiv.org/abs/1409.6427)&rbrack;
 
-* [[Ross Street]], _Complete objects relative to a theory_, [pdf](http://science.mq.edu.au/~street/Sketch.pdf)
 
 Generalising the approach of [Kinoshita, Power & Takeyama 1999](#KinoshitaPowerTakeyama99), a notion of sketch relative to an [[algebraic weak factorisation system]] is defined in:
 
