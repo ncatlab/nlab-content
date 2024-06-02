@@ -4,7 +4,7 @@
 
 On [[A-infinity categories]]:
 
-* Yong-Geun Oh, [[Hiro Lee Tanaka]], _$A_\infty$-categories, their $\infty$-categories, and their localizations_ ([arXiv:2003.05806](https://arxiv.org/abs/2003.05806))
+* [[Yong-Geun Oh]], [[Hiro Lee Tanaka]], _$A_\infty$-categories, their $\infty$-categories, and their localizations_ ([arXiv:2003.05806](https://arxiv.org/abs/2003.05806))
 
 
 On [[poset-stratified spaces]]:
