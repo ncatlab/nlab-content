@@ -857,22 +857,22 @@ $$
 defines a category $C *^k D$ with $Obj(C *^k D) = Obj(C) \sqcup Obj(D)$ and with [[hom set]] given by
 
 $$
-  Hom_{C^{op} \times D}(X,Y)
+  Hom_{C *^k D}(X,Y)
   = 
   \left\{
     \array{
       Hom_C(X,Y) & if X, Y \in C
       \\
-      Hom_{D}(X,Y) & if X,Y \in D
+      Hom_D(X,Y) & if X,Y \in D
       \\
-      k(X,Y) & if X \in C and Y \in D
+      \left\{k(X,Y)\right\} & if X \in C and Y \in D
       \\
       \emptyset & otherwise
     }
   \right.
 $$
 
-($k(X,Y)$ is also called the _[[heteromorphisms]]_).
+($k(X,Y)$ is also called a _[[heteromorphism]]_).
 
 This category naturally comes with a functor to the [[interval]] category
 
@@ -884,7 +884,7 @@ $$
 Now, every functor $L : C \to D$ induces a [[profunctor]]
 
 $$
-  k_L(X,Y) = Hom_D(L(X), Y)
+  k^L(X,Y) = Hom_D(L(X), Y)
 $$
 
 and every functor $R : D \to C$ induces a [[profunctor]]
