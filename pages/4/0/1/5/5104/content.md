@@ -75,7 +75,7 @@ Let $V$ be a [[topological vector space]] and $B \subseteq V$ a subset.
 
 * Enflo, P. (1973). A counterexample to the approximation problem in Banach spaces. _Acta Math._, _130_, 309--317.
 
-* Semadeni, Z. (1982). _Schauder bases in Banach spaces of continuous functions_ (Vol. 918). Lecture Notes in Mathematics. Berlin: Springer-Verlag.
+* [[Zbigniew Semadeni]], _Schauder bases in Banach spaces of continuous functions_, Springer Lecture Notes in Mathematics 918. Berlin 2008.
 
 
 category: functional analysis
