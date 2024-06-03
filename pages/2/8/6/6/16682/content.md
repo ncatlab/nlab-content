@@ -32,7 +32,7 @@ One of the technical issues in the [[phenomenology|phenomenological]] viability 
 
 See also:
 
-* Wikipedia, _[Doublet&#8211;triplet splitting problem](https://en.wikipedia.org/wiki/Doublet&#8211;triplet_splitting_problem)_
+* Wikipedia, _[Doublet&#8211;triplet splitting problem](https://en.wikipedia.org/wiki/Doublet%E2%80%93triplet_splitting_problem)_
 
 Possible resolution for GUT-models in the context of [[M-theory on G2-manifolds]] is discussed in
 
