@@ -111,7 +111,7 @@ Textbook accounts include
 
 Tables showing the parallels between number fields and function fields are in
 
-* {#Goss92} [[David Goss]] _Dictionary_, in David Goss, David R. Hayes, Michael Rosen (eds.) _The Arithmetic of Function Fields_, Ohio State Univ. Math. Res. Inst. Publ., 2, de Gruyter, Berlin, 1992,  pp. 475-482, 
+* {#Goss92} [[David Goss]], _Dictionary_, in David Goss, David R. Hayes, Michael Rosen (eds.) _The Arithmetic of Function Fields_, Ohio State Univ. Math. Res. Inst. Publ., 2, de Gruyter, Berlin, 1992,  pp. 475-482, 
 
 * {#Poonen06} [[Bjorn Poonen]], section 2.6 of _Lectures on rational points on curves_, 2006 ([pdf](http://math.mit.edu/~poonen/papers/curves.pdf))
 
