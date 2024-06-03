@@ -24,9 +24,9 @@ The term _Grothendieck group_ has two closely related meanings:
 * [Grothendieck group of stable infinity-categories](#OfStableCategories)
 
 
-In its restricted sense the Grothedieck group of a commutative monoid (i.e. of a commutative [[semi-group]] with [[unitality|unit]]) $A$ is a specific presentation of its [[group completion]], given as a certain [[group]] structure on a [[quotient]] of the [[Cartesian product]] $A \times A$. This is such that applied to the additive monoid of [[natural numbers]] $\mathbb{N}$ it produces the additive group of [[integers]] $\mathbb{Z}$ represented by pairs of natural numbers $(n_+, n_-)$ subject to an [[equivalence relation]] which identifies them with their [[difference]] $n_+ - n_-$.
+In its restricted sense the Grothedieck group of a commutative monoid (i.e. of a commutative [[semi-group]] with [[unitality|unit]]) $A$ is a specific presentation of its [[group completion]], given as a certain [[group]] structure on a [[quotient]] of the [[Cartesian product]] $A \times A$. This is such that applied to the additive monoid of [[natural numbers]] $\mathbb{N}$ it produces the additive group of [[integers]] $\mathbb{Z}$ represented by pairs of natural numbers $(n_+, n_-)$ subject to an [[equivalence relation]] such that the class of $(n_+, n_-)$ corresponds to the [[difference]] $n_+ - n_-$.
 
-A vaguely similar procedure applied to [[decategorification|isomorphism classes]] of certain [[Quillen exact category|Quillen exact categories]] happens to compute a group that is called the [[algebraic K-theory]] of these categories. See [[K-theory]] for some general abstract nonsense behind this.
+A vaguely similar procedure applied to [[decategorification|isomorphism classes]] of objects in a [[Quillen exact category]] computes a group that is called the [[algebraic K-theory]] of that category. See [[K-theory]] for some general abstract nonsense behind this.
 
 Notably, the Grothendieck group completion of the [[decategorification]] of the category of [[topological vector bundles]] on some ([[compact Hausdorff space|compact Hausdorff]]) [[topological space]] $X$ produces the group known as the [[topological K-theory]] of $X$.
 
