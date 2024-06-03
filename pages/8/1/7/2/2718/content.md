@@ -1,5 +1,5 @@
 
-Pavol &#352;evera is a mathematical physicist originally from Bratislava.
+Pavol Ševera is a mathematical physicist originally from Bratislava.
 
 * [website](http://fyzikus.fmph.uniba.sk/typo/index.php?id=433)
 
@@ -13,7 +13,7 @@ On [[Courant algebroids]]:
 On [[symplectic Lie n-algebroids]]:
 
 
-* Pavol &#352;evera, _[[Some title containing the words "homotopy" and "symplectic", e.g. this one]]_, based on a talk at "Poisson 2000", CIRM Marseille, June 2000; ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
+* Pavol Ševera, _[[Some title containing the words "homotopy" and "symplectic", e.g. this one]]_, based on a talk at "Poisson 2000", CIRM Marseille, June 2000; ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
 
 On [[non-abelian T-duality]]:
 
@@ -40,4 +40,4 @@ On [[duality in physics|duality]] for [[higher gauge theories]], subsuming [[non
 
 category: people
 
-[[!redirects Pavol Ševera]]
+[[!redirects Pavol Severa]]
