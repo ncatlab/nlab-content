@@ -31,5 +31,10 @@ On [[Skyrmion]] models for the [[carbon]] 12 [[atomic nucleus]]:
 
 * Christoph Adam, [[Carlos Naya]], Andrzej Wereszczyński, *Carbon-12 in the generalized Skyrme model* &lbrack;[arXiv:2401.08778](https://arxiv.org/abs/2401.08778)&rbrack;
 
+On [[Skyrmions]] with [[rho-mesons|$\rho$-mesons]]:
+
+* Miguel Huidobro, [[Paul Leask]], [[Carlos Naya]], Andrzej Wereszczynski, *Compressibility of dense nuclear matter in the $\rho$-meson variant of the Skyrme model* \[<a href="https://arxiv.org/abs/2405.20757">arXiv:2405.20757</a>\]
+
+
 
 category: people
