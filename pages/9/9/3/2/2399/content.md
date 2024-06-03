@@ -126,7 +126,7 @@ regular stable maps_,  Math. Z.  259  (2008),  no. 3, 525--574 ([doi](http://dx.
 
 * Joachim Kock, Israel Vainsencher, _An invitation to quantum cohomology. Kontsevich's formula for rational plane curves_, Progress in Mathematics, 249. Birkh&#228;user Boston, Inc., Boston, MA, 2007. xiv+159 pp. 
 
-* Dusa McDuff, Dietmar Salamon, _Introduction to symplectic topology_, 2 ed. Oxford Mathematical Monographs 1998. x+486 pp.
+* [[Dusa McDuff]], [[Dietmar Salamon]], _Introduction to symplectic topology_, 2 ed. Oxford Mathematical Monographs 1998. x+486 pp.
 
 * Sheldon Katz, _Enumerative geometry and string theory_, Student Math. Library __32__. IAS/Park City AMS & IAS 2006. xiv+206 pp.
 
