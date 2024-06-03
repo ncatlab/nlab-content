@@ -37,28 +37,12 @@ Thanks for your support!
 ## Available funds
  {#AvailableFunds}
 
-As of 05 May 2022 the funds available to the nLab due to donations are 
+As of 06 June 2024 the funds available to the nLab due to donations are about
 
-* 7280.59 USD .
-
-
+* 6,100 USD.
 
 
-## Expenditures
- {#Expenditures}
 
-Since then we have spent:
-
-* 3 $\times$ 400 USD
-
-  on payment of a temporary sysadmin.
-
-* 504 EUR
-
-  paying a software company to help with the server migration.
-
-
-The full expected cost of (at least) $\sim$ 4000 EUR was saved, since the enlarged [[nlabmeta:technical board|technical team]] kindly took care of the necessary server migration themselves.
 
   
 
