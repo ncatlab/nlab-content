@@ -177,7 +177,7 @@ Tom Leinster at nCafe [here](http://golem.ph.utexas.edu/category/2010/03/a_persp
 * Klain, [[Gian-Carlo Rota]], _Introduction to geometric probability_
 
 
-* John C. Baez, Jacob D. Biamonte, _A course on
+* [[John C. Baez]], Jacob D. Biamonte, _A course on
 quantum techniques for stochastic mechanics_, [pdf](http://math.ucr.edu/home/baez/stoch_stable.pdf)
 
 Discussion from a perspective of [[formal logic]]/[[type theory]] is in 
