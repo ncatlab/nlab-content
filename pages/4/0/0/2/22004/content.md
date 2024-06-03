@@ -23,6 +23,11 @@ On [[Skyrmions]] via [[rational maps]]:
 
 * [[Derek Harland]], [[Paul Sutcliffe]], *Rational Skyrmions* &lbrack;[arXiv:2307.09355](https://arxiv.org/abs/2307.09355)&rbrack;
 
+On [[Skyrmions]] stabilized by [[omega-meson|$\omega$-mesons]]:
+
+* [[Derek Harland]], [[Paul Leask]], [[Martin Speight]], *Skyrmion crystals stabilized by $\omega$-mesons* &lbrack;[arXiv:2404.11287](https://arxiv.org/abs/2404.11287)&rbrack;
+
+
 
 
 
