@@ -56,7 +56,7 @@ A real __symplectic manifold__ $X$ is
 +-- {: .num_note #TangentCotangentIsomorphism}
 ###### Remark
 
-The non-degenracy of the symplectic form implies that it defines an [[isomorphism]]
+The non-degeneracy of the symplectic form implies that it defines an [[isomorphism]]
 
 $$
   \omega(-,-) : \Gamma(T X) \to \Gamma(T^* X)
