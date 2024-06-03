@@ -400,7 +400,7 @@ This is an [[equivalence of categories]].
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[small category]] that has [[finite colimits]] and let $\mathcal{I}$ be a small category. Then the canonical functor
+Let $\mathcal{C}$ be a [[small category]] that has [[finite colimits]] and let $\mathcal{I}$ be a finite category. Then the canonical functor
 
 $$Ind(\mathcal{C}^{\mathcal{I}}) \to Ind(\mathcal{C})^{\mathcal{I}}$$
 
