@@ -16,7 +16,6 @@ See also
 
 
 
-
 #### Inclusion of the $\omega$-meson
   {#SkyrmeModelWithOmegaMesonsReferences}
 
@@ -37,7 +36,7 @@ Discussion of [[nucleon]] [[phenomenology]] for the $\omega$-stabilized Skyrme m
 
 * {#GudnasonSpeight20} [[Sven Bjarke Gudnason]], [[James Martin Speight]], _Realistic classical binding energies in the $\omega$-Skyrme model_ ([arXiv:2004.12862](https://arxiv.org/abs/2004.12862))
 
-* Derek Harland, Paul Leask, [[Martin Speight]], *Skyrmion crystals stabilized by $\omega$-mesons* &lbrack;[arXiv:2404.11287](https://arxiv.org/abs/2404.11287)&rbrack;
+* [[Derek Harland]], [[Paul Leask]], [[Martin Speight]], *Skyrmion crystals stabilized by $\omega$-mesons* &lbrack;[arXiv:2404.11287](https://arxiv.org/abs/2404.11287)&rbrack;
 
 
 
@@ -56,8 +55,11 @@ Discussion for [[phenomenology]] of light [[atomic nuclei]]:
 
 * {#NayaSutcliffe18b} [[Carlos Naya]], [[Paul Sutcliffe]], _Skyrmions in models with pions and rho_, JHEP 05 (2018) 174 ([arXiv:1803.06098](https://arxiv.org/abs/1803.06098))
 
-
   APS Synopsis: _[Revamping the Skyrmion Model](https://physics.aps.org/synopsis-for/10.1103/PhysRevLett.121.232002)_, 2018 
+
+See also:
+
+* Miguel Huidobro, [[Paul Leask]], [[Carlos Naya]], Andrzej Wereszczynski, *Compressibility of dense nuclear matter in the $\rho$-meson variant of the Skyrme model* \[<a href="https://arxiv.org/abs/2405.20757">arXiv:2405.20757</a>\]
 
 
 #### Inclusion of the $\omega$- and $\rho$-meson
