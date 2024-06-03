@@ -438,7 +438,11 @@ $$
 
 * [[homology sphere]]
 
+* [[rational homology sphere]]
+
 * [[homotopy sphere]]
+
+* [[rational homotopy sphere]]
 
 * [[sphere packing]]
 
