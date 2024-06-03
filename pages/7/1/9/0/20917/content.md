@@ -11,7 +11,7 @@
 
 * [[homotopy groups of spheres]]
 
-* [[homotopy sphere]], [[Cohomotopy]]
+* [[homotopy sphere]], [[rational homotopy sphere]], [[Cohomotopy]]
 
 * [[spherical fibration]], [[twisted Cohomotopy]]
 
