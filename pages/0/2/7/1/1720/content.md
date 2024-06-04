@@ -44,7 +44,7 @@ More in detail this means the following.
 A model category is right proper if for every weak equivalence $f : A \to B$ in $W\subset Mor(C)$ and every fibration $h : C \to B$ the pullback $h^* f : A \times_B C \to C$ in
 $$
   \array{
-    A \times_C B &\longrightarrow& A
+    A \times_B C &\longrightarrow& A
     \\
     \;\;\big\downarrow{}^{\mathrlap{\Rightarrow h^* f \in W}} 
     && 
