@@ -19,7 +19,7 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 
 * [[Luc Illusie]]
 
-* Uwe Jannsen, [[Jacobi|Charles Gustave Jacob Jacobi]], Aise Johan de Jong, [[Dominic Joyce]]
+* Uwe Jannsen, [[Carl Gustav Jacob Jacobi]], Aise Johan de Jong, [[Dominic Joyce]]
 
 * [[Dmitry Kaledin]], [[Mikhail Kapranov]], [[Anton Kapustin]], [[Masaki Kashiwara]], [[Kazuya Kato]], [[Ludmil Katzarkov]], [[Yujiro Kawamata]], [[Kiran Kedlaya]], [[Bernhard Keller]], [[Alexander Kuznetsov]], [[Felix Klein]],[[Steven Kleiman]], [[David Knudson]], [[Kunihiko Kodaira]], Janos Koll&#225;r, [[Maxim Kontsevich]]
 
