@@ -8,6 +8,11 @@ Early occurence of the argument that later came to be known as the *[[Eilenberg 
 
 * {#Mazur61} [[Barry C. Mazur]], _On embeddings of spheres_,  Acta Mathematica **105** 1–2 (1961) 1–17   &lbrack;[doi:10.1007/BF02559532](https://doi.org/10.1007%2FBF02559532)&rbrack;
 
+Proving the main conjecture of [[Iwasawa theory]]:
+
+* {#MazurWiles84} [[Barry Mazur]] and [[Andrew Wiles]], _Class fields of abelian extensions of $\mathbb{Q}$_, Invent. Math. 76 (1984) 179–330 &lbrack;[eudml:143124](https://eudml.org/doc/143124), MR0742853&rbrack;
+
+
 Introducing [[Artin-Mazur formal groups]]:
 
 * {#ArtinMazur77} [[Michael Artin]], [[Barry Mazur]], _Formal Groups Arising from Algebraic Varieties_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure, S&#233;r. 4, 10 no. 1 (1977), p. 87-131  ([numdam:ASENS_1977_4_10_1_87_0](http://www.numdam.org/item?id=ASENS_1977_4_10_1_87_0), [MR56:15663](http://www.ams.org/mathscinet-getitem?mr=56:15663))
