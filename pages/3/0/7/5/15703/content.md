@@ -38,7 +38,7 @@ $$g_{i}(v^{s}-1)=L_{p}(\omega^{1-i},s)$$
 
 where $v$ is the topological generator of $1+p\mathbb{Z}_{p}$ which is the evaluation of the p-adic cyclotomic character on the topological generator of $\Gamma$ and $L_{p}(\omega^{1-i},s)$ is the Kubota-Leopoldt p-adic zeta function.
 
-The main conjecture of Iwasawa theory was proved in [MazurWiles84](#MazurWiles84). It generalizes the _Herbrand-Ribet theorem_. The method of proof for the main conjecture of Iwasawa theory also follows similar ideas to the proof of the converse to Herbrand's theorem in [Ribet76](#Ribet76).
+The main conjecture of Iwasawa theory was proved by [Mazur & Wiles 1984](#MazurWiles84). It generalizes the _Herbrand-Ribet theorem_. The method of proof for the main conjecture of Iwasawa theory also follows similar ideas to the proof of the converse to Herbrand's theorem in [Ribet76](#Ribet76).
 
 ## Relation to Arithmetic Topology
 
@@ -63,7 +63,7 @@ See also:
 
 The main conjecture of Iwasawa theory was proved in
 
-* {#MazurWiles84}[[Barry Mazur]] and [[Andrew Wiles]], _Class fields of abelian extensions of $\mathbb{Q}$_, Invent. Math. 76 (1984), 179–330. MR0742853
+* {#MazurWiles84} [[Barry Mazur]] and [[Andrew Wiles]], _Class fields of abelian extensions of $\mathbb{Q}$_, Invent. Math. 76 (1984) 179–330 &lbrack;[eudml:143124](https://eudml.org/doc/143124), MR0742853&rbrack;
 
 The proof of the converse to Herbrand's theorem is in
 
