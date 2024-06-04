@@ -214,9 +214,13 @@ On Weyl-Kondo semimetals:
 * Hsin-Hua Lai, Sarah E. Grefe, Silke Paschen, Qimiao Si, *Weyl–Kondo semimetal in heavy-fermion systems*, PNAS **115** 1 (2017) 93-97 &lbrack;[doi:10.1073/pnas.1715851115](https://doi.org/10.1073/pnas.1715851115)&rbrack;
 
 
-
 * Lei Chen, C. Setty, H. Hu et al.: *Topological Semimetal driven by Strong Correlations and Crystalline Symmetry*,  
 Nat. Phys. **18** 1341–1346 (2022) &lbrack;[arXiv:2107.10837](https://arxiv.org/abs/2107.10837), [doi:10.1038/s41567-022-01743-4](https://doi.org/10.1038/s41567-022-01743-4)&rbrack
+
+and background on "heavy fermions":
+
+* Norbert Grewe, Frank Steglich, *Heavy fermions*, Chapter 97 in: *Handbook on the Physics and Chemistry of Rare Earths*
+**14 (1991) 343-474 \[<a href="https://doi.org/10.1016/S0168-1273(05)80103-5">doi:10.1016/S0168-1273(05)80103-5</a>\]
 
 
 
