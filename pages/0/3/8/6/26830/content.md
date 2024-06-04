@@ -28,3 +28,6 @@ Collected papers:
 * [[Shimura variety]]
 
 category: people
+
+
+[[!redirects Goro Shimura]]
