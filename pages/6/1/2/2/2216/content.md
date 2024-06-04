@@ -69,7 +69,7 @@ Other references
 * Filippo Bonchi, Alessandro Di Giorgio, Nathan Haydon and Paweł Sobociński. _Diagrammatic algebra of first
 order logic_ To appear at LICS, 2024, &lbrack;[arXiv:2401.07055](https://arxiv.org/abs/2401.07055)&rbrack;
 
-* Filippo Bonchi, Alessandro Di Giorgio, Davide Trotta, _When Lawvere meets Peirce: an equational presentation of boolean hyperdoctrines_ &lbrack;[arXiv:2404.18795](https://arxiv.org/abs/:2404.18795)&rbrack;
+* Filippo Bonchi, Alessandro Di Giorgio, Davide Trotta, _When Lawvere meets Peirce: an equational presentation of boolean hyperdoctrines_ &lbrack;[arXiv:2404.18795](https://arxiv.org/abs/2404.18795)&rbrack;
 
 
 
