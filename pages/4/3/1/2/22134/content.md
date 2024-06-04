@@ -27,7 +27,7 @@ and via a [[Dijkgraaf-Witten theory]] (like [[Chern-Simons theory]] but with [[d
 * [[Carlos Mochon]], *Anyon computers with smaller groups*, Phys. Rev. A **69** 032306 (2004) $[$[arXiv:quant-ph/0306063](https://arxiv.org/abs/quant-ph/0306063), [doi:10.1103/PhysRevA.69.032306](https://doi.org/10.1103/PhysRevA.69.032306)$]$
 
 
-Textbook accounts:
+Monographs:
 
 * [[Zhenghan Wang]], *Topological Quantum Computation*, CBMS Regional Conference Series in Mathematics **112**, AMS 2010 ([ISBN-13: 978-0-8218-4930-9](http://www.ams.org/publications/authors/books/postpub/cbms-112), [pdf](http://web.math.ucsb.edu/~zhenghwa/data/course/cbms.pdf))
 
