@@ -105,7 +105,7 @@ of any class category is an [[elementary topos]].
 
 * {#JM} [[André Joyal]], [[Ieke Moerdijk]], _Algebraic set theory_.  Cambridge University Press, 1995.  ISBN 0-521-55830-1. 
 
-* [[Steve Awodey]], _An outline of algebraic set theory_.
+* [[Steve Awodey]], _An outline of algebraic set theory_.  [PDF](https://www.phil.cmu.edu/projects/ast/Papers/awodey_outline.pdf)
 
 [[!redirects category with class structure]]
 [[!redirects categories with class structure]]
