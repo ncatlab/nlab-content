@@ -29,7 +29,7 @@ and via a [[Dijkgraaf-Witten theory]] (like [[Chern-Simons theory]] but with [[d
 
 Monographs:
 
-* [[Zhenghan Wang]], *Topological Quantum Computation*, CBMS Regional Conference Series in Mathematics **112**, AMS 2010 ([ISBN-13: 978-0-8218-4930-9](http://www.ams.org/publications/authors/books/postpub/cbms-112), [pdf](http://web.math.ucsb.edu/~zhenghwa/data/course/cbms.pdf))
+* [[Zhenghan Wang]], *Topological Quantum Computation*, CBMS Regional Conference Series in Mathematics **112**, AMS 2010 ([ISBN-13: 978-0-8218-4930-9](https://bookstore.ams.org/cbms-112), [pdf](http://web.math.ucsb.edu/~zhenghwa/data/course/cbms.pdf))
 
 * [[Jiannis K. Pachos]], *Introduction to Topological Quantum Computation*, Cambridge University Press (2012) $[$[doi:10.1017/CBO9780511792908](https://doi.org/10.1017/CBO9780511792908)$]$
 
