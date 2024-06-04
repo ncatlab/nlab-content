@@ -14,6 +14,8 @@ Introducing the notion of [[algebraic stacks]] and (what came to be called) [[De
 
 * {#DeligneMumford69} [[Pierre Deligne]], [[David Mumford]], *The irreducibility of the space of curves of given genus*, Publications Math&#233;matiques de l'IH&#201;S (Paris) **36**   (1969) 75-109 &lbrack;[doi:10.1007/BF02684599](https://doi.org/10.1007/BF02684599), [numdam:PMIHES_1969__36__75_0](http://www.numdam.org/item?id=PMIHES_1969__36__75_0)&rbrack;
 
+On [[algebraic surfaces]]:
 
+* [[Oscar Zariski]], Shreeram S. Abhyankar, [[Joseph Lipman]], [[David Mumford]] (eds.), _Algebraic surfaces, Classics in mathematics_ (second supplemented ed.) (2004) [1935], Berlin, New York: Springer-Verlag, [ISBN 978-3-540-58658-6](https://link.springer.com/book/10.1007/978-3-642-61991-5), MR 0469915
 
 category:people
