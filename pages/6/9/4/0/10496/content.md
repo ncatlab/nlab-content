@@ -275,7 +275,12 @@ Int. J. Mod. Phys. B7, 4227 (1993).
 
 ### Examples of topologically ordered materials
 
-Definite examples of topologically ordered materials remain somewhat elusive, but a few candidates have been discussed:
+Definite examples of topologically ordered materials remain somewhat elusive, but a few candidates have been discussed.
+
+> &lbrack;[Manning-Coe & Bradlyn 2023](#Manning-CoeBradlyn23):&rbrack; outside of the [[fractional quantum Hall effect]], the connection between the microscopic Hamiltonian for interacting electrons and the topological order of the ground state remains elusive.
+
+* {#Manning-CoeBradlyn23} Dmitry Manning-Coe, Barry Bradlyn, *Ground state stability, symmetry, and degeneracy in Mott insulators with long range interactions*, Phys. Rev. B **108** 165136 (2023) &lbrack;[arXiv:2306.00221](https://arxiv.org/abs/2306.00221), [doi:10.1103/PhysRevB.108.165136](https://doi.org/10.1103/PhysRevB.108.165136)&rbrack;
+
 
 Argument that [[superconductors]] are actually topologically ordered phases:
 
