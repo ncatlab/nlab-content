@@ -64,6 +64,15 @@ Other references
 
 * {#BSS18} Filippo Bonchi, Jens Seeber, Pawel Sobocinski, _Graphical Conjunctive Queries_, ([arXiv:1804.07626](https://arxiv.org/abs/1804.07626))
 
+* Nathan Haydon and Paweł Sobociński, _Compositional diagrammatic first-order logic_, in A.-V. Pietarinen, P. Chapman, L. Bosveld-de Smet, V. Giardino, J. Corter, and S. Linker, editors, Diagrammatic Representation and Inference, pages 402–418, Cham, 2020. Springer International Publishing, &lbrack;[pdf](https://www.ioc.ee/~pawel/papers/peirce.pdf)&rbrack;
+
+* Filippo Bonchi, Alessandro Di Giorgio, Nathan Haydon and Paweł Sobociński. _Diagrammatic algebra of first
+order logic_ To appear at LICS, 2024, &lbrack;[arXiv:2401.07055](https://arxiv.org/abs/2401.07055)&rbrack;
+
+* Filippo Bonchi, Alessandro Di Giorgio, Davide Trotta, _When Lawvere meets Peirce: an equational presentation of boolean hyperdoctrines_ &lbrack;[arXiv:2404.18795](https://arxiv.org/abs/:2404.18795)&rbrack;
+
+
+
 [[!redirects C.S. Peirce]]
 [[!redirects Charles Peirce]]
 [[!redirects Charles S. Peirce]]
