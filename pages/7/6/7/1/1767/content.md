@@ -46,7 +46,7 @@ We can assign each $g \in GC$ the map $\rho_g$ by $1_A \mapsto g$. It is easily 
 
 Every [[coalgebra]] is special case of a [[coring]].
 
-The grouplike elements in a $k$-[[Hopf algebra]] form a [[group]]. Indeed, a Hopf algebra $H$ is just a group over the category of coalgebras over $k$, so the set of grouplike elements $\mathrm{Hom}_{k\text{-}\mathsf{CoAlg}}(k,H)$ is canonically a group.
+The grouplike elements in a $k$-[[Hopf algebra]] form a [[group]]. Indeed, a Hopf algebra $H$ is just a group over the category of coalgebras over $k$ (the monoidal structure $\otimes$ is even the categorical product), so the set of grouplike elements $\mathrm{Hom}_{k\text{-}\mathsf{CoAlg}}(k,H)$ is canonically a group.
 
 ## Relation to differential graded algebras
 
