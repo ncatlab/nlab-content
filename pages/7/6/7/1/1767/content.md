@@ -28,12 +28,25 @@ it is clear that this is a map of $A$-bimodules. Now $(\rho\otimes id_C)(1_A\oti
 
 Conversely, let $(A,\rho)$ be a right $C$-comodule. Then one checks that $\rho(1_A)\in A\otimes_A C \cong C$ is a grouplike.
 
-For the left comodules the story is similar, e.g. $\rho(a) = ag$. 
+For the left comodules the story is similar, e.g. $\rho(a) = ag$.
+
+Note that coring homomorphisms send grouplike elements to grouplike elements. This can be assembled into a functor, and moreover, this functor is representable.
+
+\begin{theorem}
+
+The functor $G : A\text{-}\mathsf{CoRing} \to \mathsf{Set}$ is representable: $G \cong \mathrm{Hom}_{A\text{-}\mathsf{CoRing}}(A,-)$.
+
+\end{theorem}
+
+*Proof.*
+
+We can assign each $g \in GC$ the map $\rho_g$ by $1_A \mapsto g$. It is easily checked that this is indeed a map of coalgebras, and the inverse is to take the image of $1_A$. The assignments are immediately checked to be natural and to be inverses of each other.
+ 
 ### Special case: grouplike elements in coalgebras
 
 Every [[coalgebra]] is special case of a [[coring]].
 
-The grouplike elements in a $k$-[[Hopf algebra]] form a [[group]]. (Can this fact be [[categorification|categorified]] ??)
+The grouplike elements in a $k$-[[Hopf algebra]] form a [[group]]. Indeed, a Hopf algebra $H$ is just a group over the category of coalgebras over $k$, so the set of grouplike elements $\mathrm{Hom}_{k\text{-}\mathsf{CoAlg}}(k,H)$ is canonically a group.
 
 ## Relation to differential graded algebras
 
