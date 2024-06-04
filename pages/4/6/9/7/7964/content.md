@@ -436,11 +436,11 @@ Discussion of [[gauge-Higgs unification]] in [[Spin(11)]]-[[GUT]] ("SO(11)-GUT")
 
 * S. Rajpoot and P. Sithikong, _Implications of the $SO(12)$ gauge symmetry for grand unification_, Phys. Rev. D 23, 1649 (1981) ([doi:10.1103/PhysRevD.23.1649](https://doi.org/10.1103/PhysRevD.23.1649))
 
-* {#NomuraSato08} Takaaki Nomura, Joe Sato, _Standard(-like) Model from an $SO(12)$ Grand Unified Theory in six-dimensions with $S^2$ extra-space_, Nucl.Phys.B811:109-122, 2009 ([arXiv:0810.0898](https://arxiv.org/abs/0810.0898))
+* {#NomuraSato08} [[Takaaki Nomura]], Joe Sato, _Standard(-like) Model from an $SO(12)$ Grand Unified Theory in six-dimensions with $S^2$ extra-space_, Nucl.Phys.B811:109-122, 2009 ([arXiv:0810.0898](https://arxiv.org/abs/0810.0898))
 
-* {#Nomura09} Takaaki Nomura, _Physics beyond the standard model with $S^2$ extra-space_, 2009 ([pdf](http://krishna.th.phy.saitama-u.ac.jp/joe/doctor/nomura-doctor.pdf), [[NomuraSO12GUT.pdf:file]])
+* {#Nomura09} [[Takaaki Nomura]], _Physics beyond the standard model with $S^2$ extra-space_, 2009 ([pdf](http://krishna.th.phy.saitama-u.ac.jp/joe/doctor/nomura-doctor.pdf), [[NomuraSO12GUT.pdf:file]])
 
-* {#ChiangNomuraSato11} Cheng-Wei Chiang, Takaaki Nomura, Joe Sato, _Gauge-Higgs unification models in six dimensions with $S^2/\mathbb{Z}_2$ extra space and GUT gauge symmetry_ ([arXiv:1109.5835](https://arxiv.org/abs/1109.5835))
+* {#ChiangNomuraSato11} Cheng-Wei Chiang, [[Takaaki Nomura]], Joe Sato, _Gauge-Higgs unification models in six dimensions with $S^2/\mathbb{Z}_2$ extra space and GUT gauge symmetry_ ([arXiv:1109.5835](https://arxiv.org/abs/1109.5835))
 
 
 ### In string theory
