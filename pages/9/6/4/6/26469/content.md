@@ -126,7 +126,7 @@ We have that
 ## Regular conditional distributions
 
 A Markov kernel can be seen as a [[probability measure]] which depends [[measurable function|measurably]] on a parameter. 
-Therefore, together with the idea of [[conditional expectation]], they a very useful tool to talk about [[conditional probability]] without incurring into paradoxes. Let's see how.
+Therefore, together with the idea of [[conditional expectation]], it's a very useful tool to talk about [[conditional probability]] without incurring paradoxes. Let's see how.
 
 Let $(X,\mathcal{A},p)$ be a [[probability space]], and consider a sub-[[sigma-algebra]] $\mathcal{B}\subseteq\mathcal{A}$. 
 Recall that 
