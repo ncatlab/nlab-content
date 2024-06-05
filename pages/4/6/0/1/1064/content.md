@@ -17,6 +17,7 @@
 =--
 =--
 
+
 * table of contents
 {: toc}
 
@@ -49,7 +50,9 @@ Pre-abelian and abelian categories are sometimes called (AB1) and (AB2) categori
 * AB5: an (AB3) category in which [[filtered colimits]] of [[exact sequence]]s exist and are exact;
 
 * AB6: an (AB3) category such that
+
   * For any object $A$ in the category and any family $(B^j)_{j\in J}$ of increasing directed families of $B^i=(B_i^j)_{i\in I_j}$ of [[subobject]]s $B^j$ of $A$, we have $\bigcap_{j\in J}\left(\sum_{i\in I_j}B_j^i\right)=\sum_{(i_j)\in \prod I_j}\left(\bigcap_{j\in J}B_{i_j}^i\right)$. 
+
   * Notice that this implies that inf for any family of subobjects exists.
 
 We have a chain of implications AB6$\Rightarrow$AB5$\Rightarrow$AB4, see ([Nicolae Popescu 1973, Sect. 2.8, Corollaries 8.9, 8.13](#Popescu73)).
@@ -61,7 +64,8 @@ There are further refinements along these lines. In particular
 * [[Grothendieck category]]: an (AB5) category with a [[generator]].
 
 \begin{theorem}
-**([Nicolae Popescu 1973, Sect. 2.8, Theorem 8.6](#Popescu73)).**
+**([Nicolae Popescu 1973, Sect. 2.8, Theorem 8.6](#Popescu73))**
+\linebreak
 Let $\mathcal{C}$ be an AB3-category. The following assertions are equivalent:
 
    1. $\mathcal{C}$ is AB5.
@@ -83,6 +87,7 @@ $$
 X=\sum_{F \in T}\left(X \cap X_F\right)
 $$
 $T$ being the set of all finite subsets of $I$.
+
 \end{theorem}
 
 
@@ -120,7 +125,7 @@ Various generic classes of examples of additive and abelian categories are of re
 
 ## References
 
-* {#Popescu73} [[Nicolae Popescu]], _[[Abelian categories with applications to rings and modules]]_, London Mathematical Society Monographs 3*, Academic Press (1973)
+* {#Popescu73} [[Nicolae Popescu]], _[[Abelian categories with applications to rings and modules]]_, London Mathematical Society Monographs **3**, Academic Press (1973)
 
 
 [[!redirects additive or abelian categories]]
