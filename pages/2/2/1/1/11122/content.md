@@ -45,6 +45,10 @@ Every instance of class comprehension can be built out of a few, based on the lo
 
 * [[Gerhard Osius]], _Kategorielle Mengenlehre: Eine Charakterisierung der Kategorie der Klassen und Abbildungen_ , Math. Ann. **210** (1974) pp.171-196. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002309939))
 
+An expository account is given in
+
+* [[Elliott Mendelson]], _Introduction to mathematical logic_, 5th edition, ISBN-13: 978-1-58488-876-5, ISBN-10: 1-58488-876-8.
+
 [[!redirects NBG]]
 [[!redirects NBG set theory]]
 [[!redirects Neumann-Bernays-Gödel set theory]]
