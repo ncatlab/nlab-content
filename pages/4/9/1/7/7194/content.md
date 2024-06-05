@@ -11,7 +11,7 @@ The article
 
   _Topology, Geometry and Quantum Field Theory_, 
 
-  Cambridge University Press (2002) 
+  Cambridge University Press (2002) 405-420
 
   [arXiv:0712.0157](http://arxiv.org/abs/0712.0157)
 
