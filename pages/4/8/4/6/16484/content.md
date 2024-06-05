@@ -9,7 +9,7 @@ This page compiles pointers related to:
 
   \linebreak
 
-  London Mathematical Society Monographs **3* 
+  London Mathematical Society Monographs **3** 
 
   Academic Press (1973) 
 
