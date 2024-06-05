@@ -7,6 +7,6 @@ A [[10j symbol]] is a spin(4) [[spin network]] containing five vertices and ten 
 
 ##References
 
-* J. Daniel Christensen and Greg Egan, _An  Efficient  Algorithm  for the  Riemannian 10j Symbols._ [arxiv:gr-qc/0110045v3](http://arxiv.org/abs/gr-qc/0110045v3)
+* [[J. Daniel Christensen]] and [[Greg Egan]], _An  Efficient  Algorithm  for the  Riemannian 10j Symbols._ [arxiv:gr-qc/0110045v3](http://arxiv.org/abs/gr-qc/0110045v3)
 
-* Baez, John C., J. Daniel Christensen, and Greg Egan. _Asymptotics of 10j Symbols_ Classical and Quantum Gravity 19, no. 24 (December 21, 2002): 6489–6513. [https://doi.org/10.1088/0264-9381/19/24/315.](https://arxiv.org/abs/gr-qc/0208010) 
+* [[John C. Baez]], [[J. Daniel Christensen]], and [[Greg Egan]]. _Asymptotics of 10j Symbols_ Classical and Quantum Gravity 19, no. 24 (December 21, 2002): 6489–6513. [arXiv:gr-qc/0208010](https://arxiv.org/abs/gr-qc/0208010) 
