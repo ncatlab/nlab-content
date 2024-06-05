@@ -166,7 +166,7 @@ About work to avoid the Reeh-Schlieder theorem and its counter intuitive implica
 The observation that the Reeh-Schlieder property describes what elsewhere is called the _operator-state correspondence_ is made explicit for instance in footnote 14 on page 34 of
 
 * [[Bert Schroer]], _Particle Physics and QFT at the Turn of the Century:
-Old principles with new concepts ([pdf](http://cds.cern.ch/record/367824/files/9810080.pdf))
+Old principles with new concepts ([pdf](http://cds.cern.ch/record/367824/files/9810080.pdf),[arXiv](https://arxiv.org/abs/hep-th/9810080v3) page 32)
 {#Schroer}
 
 [[!redirects Reeh-Schlieder Theorem]]
