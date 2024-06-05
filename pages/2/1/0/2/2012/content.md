@@ -63,7 +63,7 @@ Introduction and overview:
 * O. Babelon, D. Bernard, M. Talon, _Introduction to classical integrable systems_, Cambridge Univ. Press 2003.
 * V.E. Korepin, N. M. Bogoliubov, A. G. Izergin, _Quantum inverse scattering method and correlation functions_, Cambridge Univ. Press 1997.
 
-* Wikipedia, [Integralble system](http://en.wikipedia.org/wiki/Integrable_system) 
+* Wikipedia, [Integrable system](http://en.wikipedia.org/wiki/Integrable_system) 
 
 See also:
 
