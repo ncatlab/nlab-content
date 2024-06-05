@@ -383,6 +383,8 @@ Formulating the [[Born rule]]:
 
 Introducing the [[Hilbert space]]-formulation (and the [[projection postulate]]):
 
+* Von Neumann's 1927 Trilogy on the Foundations of Quantum Mechanics (annotated translations by Anthony Duncan) &lbrack;[arXiv:2406.02149](https://arxiv.org/abs/2406.02149)&rbrack;
+
 * [[John von Neumann]]: 
 
   *Mathematische Grundlagen der Quantenmechanik*, Springer (1932, 1971) &lbrack;[doi:10.1007/978-3-642-96048-2](https://link.springer.com/book/10.1007/978-3-642-96048-2)&rbrack;
