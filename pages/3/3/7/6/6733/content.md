@@ -736,12 +736,12 @@ Discussion of open M5-branes ending on [[M9-branes]] in a [[Yang monopole]] is i
 
 The fact that the worldvolume theory of the M5-brane should support fields that are [[self-dual higher gauge theory|self-dual]] [[connections on a 2-bundle]] ($\sim$ a [[gerbe]]) is discussed in 
 
-* {#Witten07} [[Edward Witten]], _[[Conformal field theory in four and six dimensions]]_, in [[Ulrike Tillmann]], _Topology, Geometry and Quantum Field Theory: Proceedings of the 2002 Oxford Symposium in Honour of the 60th Birthday of Graeme Segal_,  London Mathematical Society Lecture Note Series (2004) ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
+* {#Witten07} [[Edward Witten]], _[[Conformal field theory in four and six dimensions]]_, in: [[Ulrike Tillmann]], _Topology, Geometry and Quantum Field Theory: Proceedings of the 2002 Oxford Symposium in Honour of the 60th Birthday of Graeme Segal_, London Mathematical Society Lecture Note Series (2004) 405-420 &lbrack;[arXiv:0712.0157](http://arxiv.org/abs/0712.0157), [doi:10.1017/CBO9780511526398.017](https://doi.org/10.1017/CBO9780511526398.017)&rbrack;
  
 
 as well as sections 3 and 4 of 
 
-* {#Witten09} [[Edward Witten]], _Geometric Langlands From Six Dimensions_ ([arXiv:0905.2720](http://arxiv.org/abs/0905.2720))
+* {#Witten09} [[Edward Witten]], _Geometric Langlands From Six Dimensions_ &lbrack;[arXiv:0905.2720](http://arxiv.org/abs/0905.2720)&rbrack;
  
 
 Proposals for how to implement this are for instance in
