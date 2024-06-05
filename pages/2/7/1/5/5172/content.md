@@ -25,6 +25,8 @@ On [[Hermitian operators]] and introducing the formal definition of [[Hilbert sp
 
 On the mathematical foundations of [[quantum mechanics]] based on [[Hilbert spaces]] [[space of quantum states|of quantum states]]:
 
+* Von Neumann's 1927 Trilogy on the Foundations of Quantum Mechanics (annotated translations by Anthony Duncan) &lbrack;[arXiv:2406.02149](https://arxiv.org/abs/2406.02149)&rbrack;
+
 * {#HilbertvonNeumannNordheim} [[David Hilbert]], [[John von Neumann]], [[Lothar W. Nordheim]], *Über die Grundlagen der Quantenmechanik*,  Math. Ann. **98** (1928) 1–30 &lbrack;[doi:10.1007/BF01451579](https://doi.org/10.1007/BF01451579)&rbrack;
 
 Proving the [[Stone-von Neumann theorem]]:
