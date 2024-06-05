@@ -714,7 +714,7 @@ Precursor developments:
 
 The top-down Sakai-Sugimoto model is due to 
 
-* {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Low energy hadron physics in holographic QCD_, Progr. Theor. Phys. 113: 843-882, 2005 ([arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141))
+* {#SakaiSugimoto04} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _Low energy hadron physics in holographic QCD_, Progr. Theor. Phys. **113** (2005) 843-882 &lbrack;[arXiv:hep-th/0412141](https://arxiv.org/abs/hep-th/0412141), [doi:10.1143/PTP.113.843](https://doi.org/10.1143/PTP.113.843)&rbrack;
 
 * {#SakaiSugimoto05} [[Tadakatsu Sakai]], [[Shigeki Sugimoto]], _More on a holographic dual of QCD_, Progr. Theor. Phys. 114: 1083-1118, 2005 ([arXiv:hep-th/0507073](https://arxiv.org/abs/hep-th/0507073))
 
@@ -724,7 +724,7 @@ along the lines of
 
 and based on 
 
-* {#Witten98} [[Edward Witten]], _Anti-de Sitter Space, Thermal Phase Transition, And Confinement In Gauge Theories_, Adv. Theor. Math. Phys.2:505-532, 1998 ([arXiv:hep-th/9803131](https://arxiv.org/abs/hep-th/9803131))
+* {#Witten98} [[Edward Witten]], *Anti-de Sitter Space, Thermal Phase Transition, And Confinement In Gauge Theories*, Adv. Theor. Math. Phys. **2** 3 (1998) 505-532 &lbrack;[arXiv:hep-th/9803131](https://arxiv.org/abs/hep-th/9803131), [doi:10.4310/ATMP.1998.v2.n3.a3](https://dx.doi.org/10.4310/ATMP.1998.v2.n3.a3)&rbrack;
 
 further developed in 
 
