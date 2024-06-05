@@ -116,6 +116,9 @@ Famously the solutions to [[self-dual Yang-Mills theory]] in [[dimension]] 4 can
 
 ## References
 
+> See also the references at *[[M5-brane]]*.
+
+
 ### General
 
 The first indication of a 6d theory with a self-dual 2-form field appears in  
@@ -133,7 +136,7 @@ General survey:
 * {#Moore12} [[Greg Moore]], _Applications of the six-dimensional (2,0) theories to Physical Mathematics_, [Felix Klein lectures Bonn (2012)](http://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/applications-of-the-six-dimensional-20-theories-to-physical-mathematics/) ([pdf](http://www.physics.rutgers.edu/~gmoore/FelixKleinLectureNotes.pdf), [[MooreKleinLectures12.pdf:file]])
 
 
-* {#Workshop14}  [[Qiaochu Yuan]]: _[lecture notes](https://math.berkeley.edu/~qchu/Notes/6d/)_ for _[Mathematical Aspects of Six-Dimensional Quantum Field Theories](http://www.math.northwestern.edu/~celliott/workshop/)_, Berkeley, December 8th-12th, 2014 at the University of California, Berkeley
+* {#Workshop14}  [[Qiaochu Yuan]]: _[lecture notes](https://web.archive.org/web/20150513204032/https://math.berkeley.edu/~qchu/Notes/6d/)_ for _[Mathematical Aspects of Six-Dimensional Quantum Field Theories](http://www.math.northwestern.edu/~celliott/workshop/)_, Berkeley, December 8th-12th, 2014 at the University of California, Berkeley
 
 Discussion of [[anomaly cancellation]]:
 
@@ -143,22 +146,24 @@ Discussion of [[anomaly cancellation]]:
 
 Review of construction from [[F-theory]] [[KK-compactification]]:
 
-* {#HeckmanRudelius18} [[Jonathan Heckman]], [[Tom Rudelius]], _Top Down Approach to 6D SCFTs_, J. Phys. A: Math. Theor. 52 093001 2018 ([arXiv:1805.06467](https://arxiv.org/abs/1805.06467), [doi:10.1088/1751-8121/aafc81](https://doi.org/10.1088/1751-8121/aafc81))
+* {#HeckmanRudelius18} [[Jonathan Heckman]], [[Tom Rudelius]], _Top Down Approach to 6D SCFTs_, J. Phys. A: Math. Theor. **52** (2018) 093001  &lbrack;[arXiv:1805.06467](https://arxiv.org/abs/1805.06467), [doi:10.1088/1751-8121/aafc81](https://doi.org/10.1088/1751-8121/aafc81)&rbrack;
+
+On the absence of [[perturbation theory]]:
+
+* Chi-Ming Chang, *5d and 6d SCFTs Have No Weak Coupling Limit*, J. High Energ. Phys. **2019** 16 (2019) &lbrack;[arXiv:1810.04169](https://arxiv.org/abs/1810.04169), <a href="https://doi.org/10.1007/JHEP09(2019)016">doi:10.1007/JHEP09(2019)016</a>&rbrack;
 
 New approach to construction of candidate [[Lagrangian densities]] for [[D=6 N=(2,0) SCFTs]]:
 
-
-* [[Neil Lambert]], _$(2,0)$ Lagrangian Structures_, Physics Letters B Volume 798, 10 November 2019, 134948 ([arXiv:1908.10752](https://arxiv.org/abs/1908.10752))
+* [[Neil Lambert]], _$(2,0)$ Lagrangian Structures_, Physics Letters B **798** (2019) 134948 &lbrack;[arXiv:1908.10752](https://arxiv.org/abs/1908.10752)&rbrack;
 
 
  
-See also the references and discussion at _[[M5-brane]]_.
 
 ### Compactification to 5d super-Yang-Mills
 
 [[KK-compactification]] on [[circle]] [[fibers]] to [[D=5 super Yang-Mills theory]] is discussed in (see also at [[Perry-Schwarz Lagrangian]]):
 
-* [[Nathan Seiberg]], Sec. 7 of _Notes on Theories with 16 Supercharges_, Nucl. Phys. Proc. Suppl. 67:158-171, 1998 ([arXiv:hep-th/9705117](https://arxiv.org/abs/hep-th/9705117))
+* [[Nathan Seiberg]], Sec. 7 of: _Notes on Theories with 16 Supercharges_, Nucl. Phys. Proc. Suppl. 67 (1998) 158-171 &lbrack;[arXiv:hep-th/9705117](https://arxiv.org/abs/hep-th/9705117)&rbrack;
 
 * {#Douglas11} [[Michael Douglas]], _On D=5 super Yang-Mills theory and (2,0) theory_, JHEP 1102:011, 2011 ([arXiv:1012.2880](https://arxiv.org/abs/1012.2880))
 
