@@ -141,13 +141,18 @@ open access (2023) &lbrack;[doi:10.1017/9781009401654](https://doi.org/10.1017/9
 
 Outlook from the point of view of [[causal perturbation theory]]/[[locally covariant perturbative quantum field theory]] is in
 
-* {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
+* {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of: _Quantum fields in curved spacetime_, Physics Reports **574** (2015) 1-35 &lbrack;[arXiv:1401.2026](https://arxiv.org/abs/1401.2026), [doi:10.1016/j.physrep.2015.02.001](https://doi.org/10.1016/j.physrep.2015.02.001)&rbrack;
+
 
 The case of [[scalar field theory]] (such as [[phi^n-theory|$\phi^n$-theory]]):
 
 * {#Serone18} Marco Serone, from 2:46 on in _A look at $\phi^4_2$ using perturbation theory_ (January 2018) &lbrack;[recording](https://www.youtube.com/watch?v=J4nxvY1rOhI)&
 
 * {#BuchholtzFredenhagen20} [[Detlev Buchholz]], [[Klaus Fredenhagen]], _A $C^\ast$-algebraic approach to interacting quantum field theories_,  Commun. Math. Phys. **377** (2020) 947–969  &lbrack;[arXiv:1902.06062](https://arxiv.org/abs/1902.06062), [doi:10.1007/s00220-020-03700-9](https://doi.org/10.1007/s00220-020-03700-9)&rbrack;
+
+Relevance of non-perturbative methods in [[condensed matter theory]] and [[quantum information theory]] ([[topological quantum computation]]):
+
+*  Alvaro Ferraz, [[Kumar S. Gupta]], Gordon W. Semenoff, Pasquale Sodano (eds): *Strongly Coupled Field Theories for Condensed Matter and Quantum Information Theory*, Springer Proceedings in Physics **239**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-35473-2](https://doi.org/10.1007/978-3-030-35473-2), [pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-35473-2.pdf)&rbrack;
 
 
 Lectures notes for non-perturbative [[supersymmetry|supersymmetric]] QFT (such as in [[AdS-CFT]]) includes
