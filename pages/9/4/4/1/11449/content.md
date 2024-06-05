@@ -25,7 +25,7 @@ The [[generalized cohomology theory]] [[Brown representability theorem|represent
 
 This is supposed to be the [[generalized cohomology theory]] which measures [[D-brane charge]] in [[type I string theory]]/on [[orientifold planes]].
 
-## Propertis
+## Properties
 
 ### Homotopy groups
  {#HomotopyGroups}
