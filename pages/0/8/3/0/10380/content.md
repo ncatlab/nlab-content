@@ -40,7 +40,9 @@ On [[geometric logic]] [[internal logic|internal to]] [[Grothendieck toposes]]:
 
 * [[Steven Vickers]], *Continuity and geometric logic*, Journal of Applied Logic Volume 12, Issue 1, March 2014, Pages 14-27 ([doi:10.1016/j.jal.2013.07.004](https://doi.org/10.1016/j.jal.2013.07.004))
 
+## Talks
 
+* [[Steve Vickers]], *The Fundamental Theorem of Calculus: point-free*, talk at the Topos Institute Colloquium, 30 May 2024 ([video](https://www.youtube.com/watch?v=L6LPEFteLts), [slides](https://topos.site/events/topos-colloquium/slides/2024-05-30.pdf))
 
 category:people 
 
