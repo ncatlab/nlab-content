@@ -244,6 +244,8 @@ For the [[type II string theory]]-version see at _[[NS5-brane]]_ the sectoin _[N
  {#References}
 
 
+* {#Duff99} [[Mike Duff]], chapter 2 of: _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP (1999) &lbrack;[ISBN:9780750306720 ](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720)&rbrack;
+
 
  
 [[!include fundamental M2-brane sigma-model -- references]]
