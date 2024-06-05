@@ -410,9 +410,9 @@ A large body of references is organized at the
 * [String Theory Wiki](http://www.stringwiki.org/w/index.php?title=String_Theory_Wiki)
 
 
-A quick survey of the big picture as of 2016 is in 
+A quick survey of the big picture as of 2016:
 
-* {#Sen16} [[Ashoke Sen]], _What is string theory?_, talk at YITP50, Stony Brook 2016 ([pdf](http://media.scgp.stonybrook.edu/presentations/2016/20161010_Sen.pdf))
+* {#Sen16} [[Ashoke Sen]], _What is string theory?_, talk at YITP50, Stony Brook 2016 &lbrack;[pdf](http://media.scgp.stonybrook.edu/presentations/2016/20161010_Sen.pdf), [[Sen-WhatIsStringTheory.pdf:file]]&rbrack;
 
 Survey of the status of string theory as a theory of [[quantum gravity]]:
 
