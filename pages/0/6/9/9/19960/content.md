@@ -737,7 +737,8 @@ reviewed in:
 
 * [[Shigeki Sugimoto]], _Holographic QCD -- Status and perspectives_, 2012 ([[Sugimoto12.pdf:file]])
 
-* {#Rebhan14} [[Anton Rebhan]], _The Witten-Sakai-Sugimoto model: A brief review and some recent results_, 3rd International Conference on New Frontiers in Physics, Kolymbari, Crete, 2014 ([arXiv:1410.8858](https://arxiv.org/abs/1410.8858))
+* {#Rebhan14} [[Anton Rebhan]], *The Witten-Sakai-Sugimoto model: A brief review and some recent results*, in Proceedings of: *3rd International Conference on New Frontiers in Physics, Kolymbari, Crete 2014*,  EPJ Web of Conferences
+**95** 02005 (2015) &lbrack;[arXiv:1410.8858](https://arxiv.org/abs/1410.8858), [doi:10.1051/epjconf/20159502005 ](https://doi.org/10.1051/epjconf/20159502005 )&rbrack;
 
 * {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_,  World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
 
