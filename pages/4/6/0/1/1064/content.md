@@ -52,11 +52,38 @@ Pre-abelian and abelian categories are sometimes called (AB1) and (AB2) categori
   * For any object $A$ in the category and any family $(B^j)_{j\in J}$ of increasing directed families of $B^i=(B_i^j)_{i\in I_j}$ of [[subobject]]s $B^j$ of $A$, we have $\bigcap_{j\in J}\left(\sum_{i\in I_j}B_j^i\right)=\sum_{(i_j)\in \prod I_j}\left(\bigcap_{j\in J}B_{i_j}^i\right)$. 
   * Notice that this implies that inf for any family of subobjects exists.
 
+We have a chain of implications AB6$\Rightarrow$AB5$\Rightarrow$AB4, see ([Nicolae Popescu 1973, Sect. 2.8, Corollaries 8.9, 8.13](#Popescu73)).
+
 The concepts (AB3--AB6) also have dual forms (AB3\*--AB6\*).
 
 There are further refinements along these lines. In particular
 
 * [[Grothendieck category]]: an (AB5) category with a [[generator]].
+
+\begin{theorem}
+**([Nicolae Popescu 1973, Sect. 2.8, Theorem 8.6](#Popescu73)).**
+Let $\mathcal{C}$ be an AB3-category. The following assertions are equivalent:
+
+   1. $\mathcal{C}$ is AB5.
+
+   2. For any direct set $\left\{X_i\right\}_i$ of subobjects of any object $X$, the unique morphism $j: \varinjlim X_i \rightarrow X$ defined such that $j u_i=j_i$, (where $u_i: X_i \rightarrow \varinjlim X_i$ are structural morphisms and $j_i: X_i \rightarrow X$ are canonical inclusions) is an iso-
+
+   3. Let $X$ be any object, $\left\{X_i\right\}_i$ a direct set of subobjects, and $X^{\prime}$ a subobject of $X$. Then:
+$$
+\sum_i\left(X_i \cap X^{\prime}\right)=\left(\sum_i X_i\right) \cap X^{\prime}
+$$
+
+   4. Let $f: Y \rightarrow X$ be a morphism and $\left\{X_i\right\}_i$ a direct set of subobjects of $X$. Then:
+$$
+f^{-1}\left(\sum_i X_i\right)=\sum_i f^{-1}\left(X_i\right)
+$$
+
+   5. Let $\left\{X_i\right\}_{i \in I}$ be a set of objects. For any finite subset $F$ of $I$, we denote by $X_F$ image of canonical morphism $u_F: \coprod_{i^{\prime} \in F} X_{i^{\prime}} \rightarrow \coprod_i X_i$, defined such that $u_F u_{i^{\prime}}{ }^{\prime}=u_{i^{\prime}}$, where $u_{i^{\prime}}{ }^{\prime}$ and $u_{i^{\prime}}$ are respectively structural morphisms. Then for any subobject $X$ of $\coprod_i X_i$ we have:
+$$
+X=\sum_{F \in T}\left(X \cap X_F\right)
+$$
+$T$ being the set of all finite subsets of $I$.
+\end{theorem}
 
 
 ## Further refinements
@@ -90,6 +117,10 @@ Various generic classes of examples of additive and abelian categories are of re
 * [[category of chain complexes]]
 * [[derived category]]
 * [[stable (infinity,1)-category]]
+
+## References
+
+* {#Popescu73} [[Nicolae Popescu]], _[[Abelian categories with applications to rings and modules]]_, London Mathematical Society Monographs 3*, Academic Press (1973)
 
 
 [[!redirects additive or abelian categories]]
