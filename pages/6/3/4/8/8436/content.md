@@ -97,6 +97,11 @@ In terms of [[quantum field theory]]:
 
 * Eduardo C. Marino, *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
 
+With an emphasis on [[non-perturbative quantum field theory]]:
+
+*  Alvaro Ferraz, [[Kumar S. Gupta]], Gordon W. Semenoff, Pasquale Sodano (eds.): *Strongly Coupled Field Theories for Condensed Matter and Quantum Information Theory*, Springer Proceedings in Physics **239**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-35473-2](https://doi.org/10.1007/978-3-030-35473-2), [pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-35473-2.pdf)&rbrack;
+
+
 
 Lecture notes:
 
