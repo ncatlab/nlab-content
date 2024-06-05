@@ -420,9 +420,9 @@ The observation that the remaing anomaly  (eq:RemainingAnomaly) vanishes if one 
 
 ### Survey
 
-The history as of the 1990 is reviewed in 
+The history as of the 1990 is reviewed in:
 
-* {#Duff99} [[Mike Duff]], chapter II of _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
+* {#Duff99} [[Mike Duff]], chapter 3 of: _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP (1999) &lbrack;[ISBN:9780750306720 ](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720)&rbrack;
 
 Further reviews and general accounts include
 
