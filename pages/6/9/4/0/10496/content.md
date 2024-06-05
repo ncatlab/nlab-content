@@ -257,6 +257,9 @@ Further review:
 
   > (an interview with [[Xiao-Gang Wen]])
 
+* V. Yu. Irkhin, Yu. N. Skryabin, *Topological states in strongly correlated systems*, Journal of Superconductivity and Novel Magnetism, **35** 8 (2022) 2141-2151 &lbrack;[arXiv:2209.04336](https://arxiv.org/abs/2209.04336), [doi:10.1007/s10948-022-06251-3](https://doi.org/10.1007/s10948-022-06251-3)&rbrack;
+
+
 See also:
 
 * Wikipedia: [topological order](http://en.wikipedia.org/wiki/Topological_order)
