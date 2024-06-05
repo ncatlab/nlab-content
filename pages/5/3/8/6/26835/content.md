@@ -1,9 +1,12 @@
+
+\tableofcontents
+
 ## Idea 
 
-A determinant of a square matrix with commutative entries can be expanded into a sum of signed products of all maximal minors in a chosen proper subset
-of the sets rows (or columns) with the complementary minors. 
+The [[determinant]] of a [[square matrix]] with [[commutative ring|commutative]] entries can be expanded into a [[sum]] of signed products of all maximal [[minors]] in a chosen proper subset
+of the sets of rows (or columns) with the complementary minors. 
 
-Analogous formulas hold for quantum determinants.
+Analogous formulas hold for [[quantum determinants]].
 
 ## Laplace expansion identity
 
