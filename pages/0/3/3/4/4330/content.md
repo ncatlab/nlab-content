@@ -37,7 +37,7 @@ The composition of such functors defines a monoidal product on $C^{S^{op}}$ call
 
 ## History and references
 
-In Richard P. Stanley's book _Enumerative Combinatorics_, he discusses the origin of the term 'plethysm' in Volume 2, Appendix 2.  He says that the term was introduced in 
+In [[Richard P. Stanley]]'s book _Enumerative Combinatorics_, he discusses the origin of the term 'plethysm' in Volume 2, Appendix 2.  He says that the term was introduced in 
 
 * [[D. E.  Littlewood]], _Invariant theory, tensors and group characters_, Philos. Trans. Roy. Soc. London. Ser. A. **239**, (1944), 305--365.
 
@@ -45,13 +45,17 @@ The term 'plethysm' was suggested to Littlewood by M. L. Clark after the Greek w
 
 Some aspects of plethysm appear (partly through exercises) in the textbook W. Fulton, J. Harris, _Representation theory_.
 
-* A. M. Garsia, G. Tesler, _Plethystic formulas for Macdonald $q, t$-Kostka coefficients_, Advances in Math. __123__ (1996) 144&#8211;222, [MR1420484](http://www.ams.org/mathscinet-getitem?mr=1420484); A. M. Garsia, J. Remmel, _Plethystic formulas and positivity for $q,t$-Kostka coefficients_, Mathematical essays in honor of Gian-Carlo Rota (Cambridge, MA, 1996), 245&#8211;262, Progr. Math. __161__, Birkh&#228;user  1998, [MR99j:05189d](http://www.ams.org/mathscinet-getitem?mr=1627327)
+* A. M. Garsia, G. Tesler, _Plethystic formulas for Macdonald $q, t$-Kostka coefficients_, Advances in Math. __123__ (1996) 144&#8211;222, [MR1420484](http://www.ams.org/mathscinet-getitem?mr=1420484); A. M. Garsia, J. Remmel, _Plethystic formulas and positivity for $q,t$-Kostka coefficients_, Mathematical essays in honor of [[Gian-Carlo Rota]] (Cambridge, MA, 1996), 245--262, Progr. Math. __161__, Birkh&#228;user  1998, [MR99j:05189d](http://www.ams.org/mathscinet-getitem?mr=1627327)
 
 For an application in the study of [[characteristic classes]] see
 
-* Dragutin Svrtan, _New plethysm operation, Chern characters of exterior and symmetric powers with applications to Stiefel-Whitney classes of Grassmannians_, Conference on Formal Power Series and Algebraic Combinatorics (Bordeaux, 1991).  Theoret. Comput. Sci.  __117__ (1993),  no. 1-2, 289--301, &lt;http://dx.doi.org/10.1016/0304-3975(93)90320-S>
+* Dragutin Svrtan, _New plethysm operation, Chern characters of exterior and symmetric powers with applications to Stiefel-Whitney classes of Grassmannians_, Conference on Formal Power Series and Algebraic Combinatorics (Bordeaux, 1991).  Theoret. Comput. Sci.  __117__ (1993),  no. 1-2, 289--301, <a href="https://doi.org/10.1016/0304-3975(93)90320-S">doi</a>
 
 An application in a counting problem:
 
-*  Thomas Kahle, Mateusz Michalek, _Plethysm and lattice point counting_ [arxiv/1408.5708](http://arxiv.org/abs/1408.5708)
+*  Thomas Kahle, Mateusz Michalek, _Plethysm and lattice point counting_, Found. Comput. Math. 16 (2016) 1241--1261 [arxiv/1408.5708](https://arxiv.org/abs/1408.5708) [doi](https://doi.org/10.1007/s10208-015-9275-7)
+
+Categorified:
+
+* [[John Baez]], [[Joe Moeller]], [[Todd Trimble]], Schur functors and categorified plethysm, [arXiv:2106.00190](https://arxiv.org/abs/2106.00190)
      
