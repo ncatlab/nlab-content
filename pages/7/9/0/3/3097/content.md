@@ -25,6 +25,8 @@ In that vein, I just introduced the term 'punny', although it is a clich&#233;.
 
 * Micah Goldblum, Jonas Geiping, Avi Schwarzschild, Michael Moeller, Tom Godstein, _Truth or backpropaganda? An empirical investigation of deep learning theory_, [arxiv:/1910.00359](https://arxiv.org/abs/1910.00359) accepted conference paper at ICLR 2020 (the notion and the word formation of "backpropaganda" are akin to the central ingredient of the modern "deep learning" algorithms, _backpropagation_)
 
+* P. Vámos, _The missing axiom of matroid theory is lost forever_, J. London Math. Soc. 2nd Ser. __18__ (3): 403--408 (1978) [doi](https://doi.org/10.1112/jlms/s2-18.3.403) MR 0518224.
+
 Several more candidates of similar character are listed in the responses to MO question [most-memorable-titles](http://mathoverflow.net/questions/44326/most-memorable-titles).
 See also MathOverflow [parodies-of-abstruse-mathematical-writing](http://mathoverflow.net/questions/199926/parodies-of-abstruse-mathematical-writing).
 
