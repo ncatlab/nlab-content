@@ -128,7 +128,7 @@ On the apparent resolution of the [missing satellite problem](https://en.wikiped
 
 ### General
 
-Review includes
+Review:
 
 * {#Einasto09} Jaan Einasto, _Dark matter_ ([arXiv:0901.0632](https://arxiv.org/abs/0901.0632)) 2009
 
@@ -144,9 +144,14 @@ Review includes
 
 * {#Hooper18} [[Daniel Hooper]], _In Defense of Dark Matter_, 2018 ([web](http://online.kitp.ucsb.edu/online/cdm-c18/hooper/))
 
+A comprehensive review (on 510 pages):
+
+* Marco Cirelli, [[Alessandro Strumia]], Jure Zupan, *Dark Matter* &lbrack;[arXiv:2406.01705](https://arxiv.org/abs/2406.01705)&rbrack;
+
+
 Discussion of possible matter representations that could serve as dark matter:
 
-* Marco Cirelli, Nicolao Fornengo, [[Alessandro Strumia]], _Minimal Dark Matter_, Nucl.Phys.B753:178-194, 2006 ([arXiv:hep-ph/0512090](https://arxiv.org/abs/hep-ph/0512090))
+* Marco Cirelli, Nicolao Fornengo, [[Alessandro Strumia]], _Minimal Dark Matter_, Nucl. Phys. B **753** (2006) 178-194 &lbrack;[arXiv:hep-ph/0512090](https://arxiv.org/abs/hep-ph/0512090)&rbrack;
 
 Discussion of [[neutrino]]-dark matter: 
 
