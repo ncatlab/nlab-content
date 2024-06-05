@@ -21,15 +21,16 @@
 
 ## Idea ##
 
-The *Reeh-Schlieder theorem* is a [[theorem]] about [[local nets]] in the [[Haag-Kastler approach]] to [[quantum field theory]]. It states that for certain nets the set of vectors $\mathcal{M}(\mathcal{O}) \Omega$ (local algebra of a bounded open set applied to the vacuum vector, see [[Haag-Kastler vacuum representation]] for definitions and details) is dense in the given [[state]] space, a [[Hilbert space]] $\mathcal{H}$.
+The *Reeh-Schlieder theorem* is a [[theorem]] about [[local nets of observables]] in the [[Haag-Kastler approach]] to  [[quantum field theory]] ([[AQFT]]). It states that for certain nets the set of [[vectors]] $\mathcal{M}(\mathcal{O}) \Omega$ (local algebra of a bounded open set applied to the vacuum vector, cf. *[[Haag-Kastler vacuum representation]]* for definitions and details) is [[dense subset|dense]] in the given [[space of quantum states|state space]], a [[Hilbert space]] $\mathcal{H}$.
 
-The Reeh-Schlieder theorem can be proven to be valid in the [[Haag-Kastler vacuum representation]], but the statement itself is sometimes used as an axiom and called the **Reeh-Schlieder property** in this case.
+The Reeh-Schlieder theorem can be proven to be valid in the [[Haag-Kastler vacuum representation]], but the statement itself is sometimes used as an [[axiom]] and called the **Reeh-Schlieder property** in this case.
 
-The Reeh-Schlieder theorem is of central importance for the mathematical structure theory of the [[Haag-Kastler approach]]. The _physical interpretation_ is counterintuitive and therefore to a certain degree controversial: Intuitively one might expect that for a localized observable $A \in \mathcal{M}(\mathcal{O})$ the vector $A \Omega$ should be localized in $\mathcal{O}$, that is the state should look like the vacuum in the causal complement of $\mathcal{O}$. But the Reeh-Schlieder theorem says that every, arbitrary state can be approximated by states of the kind $A \Omega$. This shows that the concept of _localized states_ is nontrivial in [[AQFT]] and needs to be handled with care.
+The Reeh-Schlieder theorem is of central importance for the mathematical structure theory of the [[Haag-Kastler approach]]. The _physical interpretation_ is counterintuitive and therefore to a certain degree controversial: Intuitively one might expect that for a localized observable $A \in \mathcal{M}(\mathcal{O})$ the vector $A \Omega$ should be localized in $\mathcal{O}$, that is the state should look like the vacuum in the [[causal complement]] of $\mathcal{O}$. But the Reeh-Schlieder theorem says that every, arbitrary state can be approximated by states of the kind $A \Omega$. This shows that the concept of _localized states_ is nontrivial in [[AQFT]] and needs to be handled with care.
 
-Complementary statements about the asymptotic "vacuum-like appearance" of localized observables exist, too, and are commonly called [[cluster theorem]]s.
+Complementary statements about the asymptotic "vacuum-like appearance" of localized observables exist, too, and are commonly referred to as *cluster theorems*.
 
-In other parts of the physics literature, notably in the context of [[CFT]], the Reeh-Schlieder property is also called the **state-operator correspondence**. See also the remark in ([Schroer, footnote 14, page 34](#Schroer)).
+In other parts of the physics literature, notably in the context of [[conformal field theory]], the Reeh-Schlieder property is also called the **state-operator correspondence**. See also the remark by [Schroer, footnote 14, page 34](#Schroer).
+
 
 ## Abstract ##
 
@@ -38,18 +39,20 @@ We state the theorem for a vacuum representation on [[Minkowski spacetime]]. Sin
 ## Definition ##
 All necessary definitions can be found at [[Haag-Kastler vacuum representation]].
 
-## the Theorem ##
+## Statement
+
 Both the statement and the proof we mention here refer to the [[Haag-Kastler vacuum representation]], but both the statement and the proof can be generalized resp. translated to different contexts, like e.g. to a [[Wightman theory]], to more general spacetimes and to other states than the vacuum vector.
 
-+-- {: .un_theorem}
-###### Reeh-Schlieder
+\begin{theorem}
+**(Reeh-Schlieder)**
+\linebreak
 In the [[Haag-Kastler vacuum representation]] the vacuum vector $\Omega$ is [[cyclic vector|cyclic]] and [[separating vector|separating]] for every local algebra $\mathcal{M}(\mathcal{O})$.
+\end{theorem}
 
-=--
+The following proof does not strive for maximal generality, for example we specialize to $d = 4$ dimensions. The generalization to other dimensions can be done by the reader. We will comment on which part of the axioms of the vacuum representation are actually used below.
 
 +-- {: .proof}
 ###### Proof
-This proof does not strive for maximal generality, for example we specialize to $d = 4$ dimensions. The generalization to other dimensions can be done by the reader. We will comment on which part of the axioms of the vacuum representation are actually used below.
 
 First some preliminary observations:
 
@@ -62,7 +65,9 @@ $$
 We may restrict the domain of integration to the closure of the forward lightcone $cloV_+$ by the spectrum condition. The spectral measure can be used to define operators for $z = x + i y \in \mathcal{R}^4 + i V_+$ via
 
 $$
-U(z) := \int_{cloV_+} e^{i \langle z, k\rangle} \mathcal{P}(k)
+  U(z) 
+  \;\coloneqq\; 
+  \int_{cloV_+} e^{i \langle z, k\rangle} \mathcal{P}(k)
 $$
 
 The dominated convergence theorem for spectral integrals (see [[Banach space]]) tells us that the strong limit of the left side of the following equation exists and is equal to the right side:
@@ -72,7 +77,10 @@ $$
 
 Next we choose a vector $u \in \mathcal{H}$ from our Hilbert space, a bounded operator $A$ on $\mathcal{H}$ and form the complex-valued function
 $$
-f_{u, A}(z) := \langle u, U(z) A \Omega \rangle
+  f_{u, A}(z) 
+  \;\coloneqq\; 
+  \langle u, U(z) A \Omega \rangle
+  \,,
 $$
 
 which is holomorphic on $\mathcal{R}^4 + i V_+$ by definition and continuous on $\mathcal{R}^4 + i (V_+ \cup \{0 \}) $ by our last observation.
@@ -165,9 +173,8 @@ About work to avoid the Reeh-Schlieder theorem and its counter intuitive implica
 
 The observation that the Reeh-Schlieder property describes what elsewhere is called the _operator-state correspondence_ is made explicit for instance in footnote 14 on page 34 of
 
-* [[Bert Schroer]], _Particle Physics and QFT at the Turn of the Century:
-Old principles with new concepts ([pdf](http://cds.cern.ch/record/367824/files/9810080.pdf),[arXiv](https://arxiv.org/abs/hep-th/9810080v3) page 32)
-{#Schroer}
+* {#Schroer} [[Bert Schroer]], _Particle Physics and QFT at the Turn of the Century: Old principles with new concepts &lbrack;[pdf](http://cds.cern.ch/record/367824/files/9810080.pdf),[arXiv:hep-th/9810080](https://arxiv.org/abs/hep-th/9810080)&rbrack;
+
 
 [[!redirects Reeh-Schlieder Theorem]]
 [[!redirects Reeh-Schlieder property]]
