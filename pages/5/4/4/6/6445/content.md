@@ -179,7 +179,7 @@ On the axiomatization of [[infinite set|infinite]] matroids:
 
 Further references:
 
-* Wikipedia [matroid](http://en.wikipedia.org/wiki/Matroid), [Mn&#235;v's universality theorem](http://en.wikipedia.org/wiki/Mnev%27s_universality_theorem), [oriented matroid](http://en.wikipedia.org/wiki/Oriented_matroid)
+* Wikipedia [matroid](http://en.wikipedia.org/wiki/Matroid), [Mn&#235;v's universality theorem](http://en.wikipedia.org/wiki/Mnev%27s_universality_theorem), [oriented matroid](http://en.wikipedia.org/wiki/Oriented_matroid), [matroid minor](https://en.wikipedia.org/wiki/Matroid_minor)
 
 
 * J. Oxley, _What is a matroid_, [pdf](http://www.math.lsu.edu/~oxley/survey4.pdf)
@@ -190,15 +190,17 @@ Further references:
 * Eric Katz, Sam Payne, _Realization space for [[tropical geometry|tropical]] fans_, [pdf](http://users.math.yale.edu/~sp547/pdf/Realization-spaces.pdf)
 * Nikolai E. Mnev, _The universality theorems on the classification problem of configuration varieties and convex polytopes varieties_, pp. 527-543, in "Topology and geometry: Rohlin Seminar." Edited by O. Ya. Viro. Lecture Notes in Mathematics, __1346__, Springer 1988; _A lecture on universality theorem_ (in Russian) [pdf](http://club.pdmi.ras.ru/~panina/9.pdf)
 * Talal Ali Al-Hawary, _Free objects in the category of geometries_, [pdf](http://www.emis.de/journals/HOA/IJMMS/Volume26_12/770.pdf)
-* Talal Ali Al-Hawary, D. George McRae, _Toward an elementary axiomatic theory of the category of LP-matroids_, Applied Categorical Structures __11__: 157&#8211;169, 2003, [doi](http://dx.doi.org/10.1023/A:1023557229668)
+* Talal Ali Al-Hawary, D. George McRae, _Toward an elementary axiomatic theory of the category of LP-matroids_, Applied Categorical Structures __11__: 157&#8211;169, 2003, [doi](https://doi.org/10.1023/A:1023557229668)
 * Hirokazu Nishimura, Susumu Kuroda, _A lost mathematician, Takeo Nakasawa: the forgotten father of matroid theory_ 1996, 2009
-* William H. Cunningham, _Matching, matroids, and extensions_, Math. Program., Ser. B __91__: 515&#8211;542 (2002) [doi](http://dx.doi.org/10.1007/s101070100256)
-* L. Lov&#225;sz, _Matroid matching and some applications_, J. Combinatorial Theory B __28__, 208&#8211;236 (1980)
+* William H. Cunningham, _Matching, matroids, and extensions_, Math. Program., Ser. B __91__: 515&#8211;542 (2002) [doi](https://doi.org/10.1007/s101070100256)
+* L. Lov&#225;sz, _Matroid matching and some applications_, J. Combinatorial Theory B __28__, 208--236 (1980)
 * A. Bj&#246;rner, M. Las Vergnas, B. Sturmfels, N. White, G.M. Ziegler,  _Oriented matroids_, Cambridge Univ. Press 1993, 2000, [view at reslib.com](http://reslib.com/book/Oriented_Matroids)
-* Matthew Baker, _Matroids over hyperfields_, [arxiv/1601.01204](http://arxiv.org/abs/1601.01204)
-* David Marker, _Model Theory: An Introduction_, Graduate Texts in Math. 217, Springer-Verlag New York, 2002. 
-* Tom Braden, Carl Mautner, _Matroidal Schur algebras_, [arxiv/1609.04507](http://arxiv.org/abs/1609.04507)
-* P. S. Kung, _A Source Book in Matroid Theory_, Birkh&#228;user, Boston, 1986.
+* Matthew Baker, _Matroids over hyperfields_, [arxiv/1601.01204](https://arxiv.org/abs/1601.01204)
+* David Marker, _Model theory: an introduction_, Graduate Texts in Math. __217__, Springer-Verlag New York, 2002. 
+* Tom Braden, Carl Mautner, _Matroidal Schur algebras_, [arxiv/1609.04507](https://arxiv.org/abs/1609.04507)
+* P. S. Kung, _A source book in matroid theory_, Birkh&#228;user, Boston, 1986.
+* Jim Geelen, Bert Gerards, Geoff Whittle, _Towards a structure theory for matrices and matroids_ , ICM 2006 Proceedings 827--842 [pdf](https://homepages.ecs.vuw.ac.nz/~whittle/pubs/towards_a_structure_theory_for_matrices_and_matroids.pdf)
+* [[I. M. Gelfand]], R. M. Goresky, R. D. MacPherson, _Combinatorial geometries, convex polyhedra, and Schubert cells_, Adv. Math. __63 (1987) 301--316 
 
 category: combinatorics, model theory
 
