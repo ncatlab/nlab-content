@@ -199,6 +199,9 @@ The basic [[BPS states]] of 11d SuGra are
 
 ## References
 
+* {#Duff99} [[Mike Duff]], chapter 1 of: _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP (1999) &lbrack;[ISBN:9780750306720 ](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720)&rbrack;
+
+
 ### General
 
 That there is a maximal dimension $d = 11$ in which supergravity may exist was found in 
