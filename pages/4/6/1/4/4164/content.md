@@ -21,7 +21,11 @@
 
 ## Idea ##
 
-The *Reeh-Schlieder theorem* is a [[theorem]] about [[local nets of observables]] in the [[Haag-Kastler approach]] to  [[quantum field theory]] ([[AQFT]]). It states that for certain nets the set of [[vectors]] $\mathcal{M}(\mathcal{O}) \Omega$ (local algebra of a bounded open set applied to the vacuum vector, cf. *[[Haag-Kastler vacuum representation]]* for definitions and details) is [[dense subset|dense]] in the given [[space of quantum states|state space]], a [[Hilbert space]] $\mathcal{H}$.
+The *Reeh-Schlieder theorem* is a [[theorem]] about [[local nets of observables]] in the [[Haag-Kastler approach]] to  [[quantum field theory]] ([[AQFT]]). It states that for certain nets the set of [[vectors]] $\mathcal{M}(\mathcal{O}) \Omega \hookrightarrow \mathcal{H}$ 
+
+> (the local [[linear operator|operator]] [[algebra of observables]] $\mathcal{M}$ for a [[bounded set|bounded]] [[open subset]] $\mathcal{O}$ of [[spacetime]] applied to the [[vacuum state]] $\Omega$, cf. *[[Haag-Kastler vacuum representation]]* for definitions and details) 
+
+is [[dense subset|dense]] in the given [[space of quantum states|state space]], a [[Hilbert space]] $\mathcal{H}$.
 
 The Reeh-Schlieder theorem can be proven to be valid in the [[Haag-Kastler vacuum representation]], but the statement itself is sometimes used as an [[axiom]] and called the **Reeh-Schlieder property** in this case.
 
