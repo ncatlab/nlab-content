@@ -12,7 +12,7 @@ That the pure [[pion]]-[[Skyrmion]]-model of [[baryons]] is approximately the [[
 
 with a [[hyperbolic space]]-variant in:
 
-* [[Michael Atiyah]], [[Paul Sutcliffe]], _Skyrmions, instantons, mass and curvature_,  	Phys. Lett. B605 (2005) 106-114 ([arXiv:hep-th/0411052](https://arxiv.org/abs/hep-th/0411052))
+* [[Michael Atiyah]], [[Paul Sutcliffe]], _Skyrmions, instantons, mass and curvature_, Phys. Lett. B605 (2005) 106-114 ([arXiv:hep-th/0411052](https://arxiv.org/abs/hep-th/0411052))
 
 Further discussion of this approximation:
 
@@ -99,7 +99,7 @@ More on [[mesons]] in [[holographic QCD]]:
 
 An alternative scenario of derivation of 4d [[Skyrmions]] by [[KK-compactification]] of [[D=5 Yang-Mills theory]], now on a [[closed interval]], motivated by [[M5-branes]] instead of by [[D4/D8-brane intersections]] as in the [[Sakai-Sugimoto model]], is discussed in:
 
-* {#IvanovaLechtenfeldPopov18} [[Tatiana Ivanova]], [[Olaf Lechtenfeld]], [[Alexander Popov]], _Skyrme model from 6d $\mathcal{N}= (2,0)$ theory_, Physics Letters B Volume 783, 10 August 2018, Pages 222-226 ([arXiv:1805.07241](https://arxiv.org/abs/1805.07241))
+* {#IvanovaLechtenfeldPopov18} [[Tatiana Ivanova]], [[Olaf Lechtenfeld]], [[Alexander Popov]], _Skyrme model from 6d $\mathcal{N}= (2,0)$ theory_, Physics Letters B **783** (2018), 222-226 \[<a href="https://doi.org/10.1016/j.physletb.2018.06.052">doi:10.1016/j.physletb.2018.06.052</a>, [arXiv:1805.07241](https://arxiv.org/abs/1805.07241)\]
 
 following
 
