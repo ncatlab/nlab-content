@@ -493,7 +493,7 @@ The [exposition of the Traditional formulation](#TraditionalFormulation) in the 
 
 * [[Greg Egan]], _[Induced representations](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html#c023252)_
 
-* [[John Baez]] _[Reply](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html#c023258)_
+* [[John Baez]], _[Reply](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html#c023258)_
 
 and related discussion is in
 
