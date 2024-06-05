@@ -251,8 +251,6 @@ Further review:
 
 * [[Xiao-Gang Wen]], _An introduction of topological order_ 2009 ([pdf slides](http://dao.mit.edu/~wen/talks/09QHtop.pd), [article](http://dao.mit.edu/~wen/topartS3.pdf))
 
-* Michel Fruchart, David Carpentier, _An Introduction to Topological Insulators_, Comptes Rendus Physique 14 (2013) 779-815 ([arXiv:1310.0255](http://arxiv.org/abs/1310.0255))
-
 * [[Philip Ball]], *Making the world from topological order*, National Science Review **6** 2 (2019) 227–230 $[$[doi:10.1093/nsr/nwy116](https://doi.org/10.1093/nsr/nwy116)$]$
 
   > (an interview with [[Xiao-Gang Wen]])
