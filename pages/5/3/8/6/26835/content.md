@@ -6,11 +6,11 @@
 The [[determinant]] of a [[square matrix]] with [[commutative ring|commutative]] entries can be expanded into a [[sum]] of signed products of all maximal [[minors]] in a chosen proper subset
 of the sets of rows (or columns) with the complementary minors. 
 
-Analogous formulas hold for [[quantum determinants]].
+Analogous formulas hold for [[quantum determinant]]s.
 
 ## Laplace expansion identity
 
-Let $A$ be a quadratic $n\times n$-matrix with entries in a commutative ring $R$ and $K,L\subset \{1,\ldots,n\}$, $\hat{K} = \{1,\ldots,n\}\backslash K$ and $card(K) =card(L) = m$. Denote by $A^J_I$ the submatrix of $A$ with rows in $I$ and columns in $J$ for $I,J\subset\{1,\ldots,n\}$. Then
+Let $A$ be a quadratic $n\times n$-matrix with entries in a commutative ring $R$ and $K,L\subset \{1,\ldots,n\}$, $\hat{K} = \{1,\ldots,n\}\backslash K$ and $card(K) =card(L) = m$. Denote by $A^I_J$ the submatrix of $A$ with rows in $I$ and columns in $J$ for $I,J\subset\{1,\ldots,n\}$. Then
 \[ \begin{array}{l}
  (-1)^{l(L\star \hat{L})} \delta^L_K\, det(T) = 
 \sum_{card(J) = m} (-1)^{l(J\star \hat{J})} \,
