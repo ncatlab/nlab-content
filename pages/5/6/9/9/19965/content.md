@@ -30,10 +30,13 @@ On [[flavour anomalies]]:
 
   J. High Energ. Phys. (2017) 2017 ([arXiv:1704.05438](https://arxiv.org/abs/1704.05438))
 
+On [[dark matter]]:
+
+* Marco Cirelli, [[Alessandro Strumia]], Jure Zupan, *Dark Matter* &lbrack;[arXiv:2406.01705](https://arxiv.org/abs/2406.01705)&rbrack;
 
 
 
-## related $n$Lab entries
+## Related entries
 
 * [[Higgs field]]
 
