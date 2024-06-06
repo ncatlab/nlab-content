@@ -70,7 +70,7 @@ Let $\mathcal{C}$ be an AB3-category. The following assertions are equivalent:
 
    1. $\mathcal{C}$ is AB5.
 
-   2. For any direct set $\left\{X_i\right\}_i$ of subobjects of any object $X$, the unique morphism $j: \varinjlim X_i \rightarrow X$ defined such that $j u_i=j_i$, (where $u_i: X_i \rightarrow \varinjlim X_i$ are structural morphisms and $j_i: X_i \rightarrow X$ are canonical inclusions) is an iso-
+   2. For any direct set $\left\{X_i\right\}_i$ of subobjects of any object $X$, the unique morphism $j: \underset{\rightarrow}{\lim} X_i \rightarrow X$ defined such that $j u_i=j_i$, (where $u_i: X_i \rightarrow \underset{\rightarrow}{\lim} X_i$ are structural morphisms and $j_i: X_i \rightarrow X$ are canonical inclusions) is an isomorphism of $\underset{\rightarrow}{\lim} X_i$ onto $\sum_i X_i$.
 
    3. Let $X$ be any object, $\left\{X_i\right\}_i$ a direct set of subobjects, and $X^{\prime}$ a subobject of $X$. Then:
 $$
