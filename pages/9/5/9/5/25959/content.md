@@ -1,9 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Idea
 
-MV-algebras are the algebraic semantics for [[propositional logic|propositional]] [[Łukasiewicz logic]]. 
+MV-algebras constitute the algebraic [[semantics]] for [[propositional logic|propositional]] [[Łukasiewicz logic]]. 
 
 ## Definition
 
@@ -25,4 +35,6 @@ An MV-algebra [[homomorphism]] between MV-algebras $A$ and $B$ is a [[function]]
 
 ## References
 
-* Wikipedia, [MV-algebra](https://en.wikipedia.org/wiki/MV-algebra)
+* Wikipedia, *[MV-algebra](https://en.wikipedia.org/wiki/MV-algebra)*
+
+[[!redirects MV-algebras]]
