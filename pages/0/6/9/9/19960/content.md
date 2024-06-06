@@ -659,14 +659,13 @@ NB: These computations so far all use just the field theory in the bulk, not yet
 
 * {#AHI12} Sinya Aoki, [[Koji Hashimoto]], [[Norihiro Iizuka]], _Matrix Theory for Baryons: An Overview of Holographic QCD for Nuclear Physics_, Reports on Progress in Physics, Volume 76, Number 10 ([arxiv:1203.5386](https://arxiv.org/abs/1203.5386))
 
-
 * Youngman Kim, Ik Jae Shin, Takuya Tsukioka, _Holographic QCD: Past, Present, and Future_, Progress in Particle and Nuclear Physics **68** (2013) 55-112 &lbrack;[arXiv:1205.4852](https://arxiv.org/abs/1205.4852)&rbrack;
 
 * {#Erlich14} [[Joshua Erlich]], *An Introduction to Holographic QCD for Nonspecialists*, Contemporary Physics, **56** 2 (2015) &lbrack;[arXiv:1407.5002](https://arxiv.org/abs/1407.5002), [doi:10.1080/00107514.2014.942079](https://doi.org/10.1080/00107514.2014.942079)&rbrack;
 
-* {#Guijosa16} Alberto Guijosa, _QCD, with Strings Attached_, IJMPE Vol. 25, No. 10 (2016) 1630006 ([arXiv:1611.07472](https://arxiv.org/abs/1611.07472))
+* {#Guijosa16} Alberto Guijosa, _QCD, with Strings Attached_, IJMPE Vol. 25, No. 10 (2016) 1630006 &lbrack;[arXiv:1611.07472](https://arxiv.org/abs/1611.07472)&rbrack;
 
-* [[Mannque Rho]], [[Ismail Zahed]] (eds.) Chapter 4 of: _[[The Multifaceted Skyrmion]]_,  World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
+* [[Mannque Rho]], [[Ismail Zahed]] (eds.) Part 4 "String Theory" of: _[[The Multifaceted Skyrmion]]_,  World Scientific (2016) &lbrack;[doi:10.1142/9710](https://doi.org/10.1142/9710)&rbrack;
 
 * Sophia K Domokos, Robert Bell, Trinh La, Patrick Mazza, *A Pedagogical Introduction to Holographic Hadrons*, published as: *Holographic hadron masses in the language of quantum mechanics*,  European Journal of Physics **42** 6 (2021) 065801 &lbrack;[arXiv:2106.13136](https://arxiv.org/abs/2106.13136), [doi:10.1088/1361-6404/ac1abb](https://iopscience.iop.org/article/10.1088/1361-6404/ac1abb)&rbrack;
 
