@@ -40,7 +40,7 @@ A number of examples of taut functors can be deduced by applying the following o
 
 +-- {: .num_prop} 
 ###### Proposition 
-Let $T: \mathcal{C} \to \mathcal{D}$ be a functor that preserves weak pullbacks, and assume epis in $D$ are [[regular epimorphism|regular]]. Then $T$ is taut. 
+Let $T: \mathcal{C} \to \mathcal{D}$ be a functor that preserves weak pullbacks, and assume $D$ has pullbacks. Then $T$ is taut. 
 =-- 
 
 +-- {: .proof} 
@@ -53,7 +53,7 @@ A & \stackrel{1_A}{\to} & A \\
 A & \underset{i}{\to} & B
 }$$ 
 
-is a pullback. By hypothesis, the canonical map $\phi: T(A) \to T(A) \times_{T(B)} T(A)$ is (regular) epic, but it is also monic because its composition with either projection $T(A) \times_{T(B)} T(A) \to T(A)$ is the identity. Therefore $\phi$ is an isomorphism, i.e., applying $T$ to the displayed pullback is a pullback, and this forces $T(i)$ to be monic. 
+is a pullback. By hypothesis, the canonical map $\phi: T(A) \to T(A) \times_{T(B)} T(A)$ is a split epimorphism (see [[weak limit|here]]). But it is also monic because its composition with either projection $T(A) \times_{T(B)} T(A) \to T(A)$ is the identity. Therefore $\phi$ is an isomorphism, i.e., applying $T$ to the displayed pullback is a pullback, and this forces $T(i)$ to be monic. 
 
 Now if 
 
@@ -64,7 +64,7 @@ A & \underset{i}{\to} & C
 }$$ 
 
 is a pullback with $i$ monic, we have that $j$ and therefore $T(j)$ is monic. 
-The canonical map $\phi: T(P) \to T(A) \times_{T(C)} T(B)$ is (regular) epic, but also monic, since the mono $T(j)$ factors through it. Thus $\phi$ is an isomorphism, which completes the proof. 
+The canonical map $\phi: T(P) \to T(A) \times_{T(C)} T(B)$ is split epic, but also monic, since the mono $T(j)$ factors through it. Thus $\phi$ is an isomorphism, which completes the proof. 
 =-- 
 
 A similar proof shows that weakly cartesian natural transformations are also taut. 
