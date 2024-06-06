@@ -34,5 +34,11 @@ relation to [[Reidemeister torsion]]:
 
 * [[Dongmin Gang]], Seonhwa Kim, Seokbeom Yoon,  _Adjoint Reidemeister torsions from wrapped M5-branes_ ([arXiv:1911.10718](https://arxiv.org/abs/1911.10718))
 
+Arguments realizing [[anyon|anyonic]] [[topological order]] in the [[worldvolume]]-[[quantum field theory|field theory]] on [[M5-branes]], via [[KK-compactification]] on [[closed manifold|closed]] [[3-manifolds]] ([[Seifert manifolds]]) analogous to the [[3d-3d correspondence]] (which instead uses [[hyperbolic 3-manifolds]]):
+
+* Gil Young Cho, [[Dongmin Gang]], Hee-Cheol Kim: *M-theoretic Genesis of Topological Phases*, J. High Energ. Phys. **2020** 115 (2020) \[<a href="https://arxiv.org/abs/2007.01532">arXiv:2007.01532</a>, <a href=" https://doi.org/10.1007/JHEP11(2020)115">doi:10.1007/JHEP11(2020)115</a>\]
+
+
+
 
 category: people
