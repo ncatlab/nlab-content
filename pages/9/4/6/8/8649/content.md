@@ -125,7 +125,7 @@ General review and further discussion:
 
 * [[Yakov Shnir]], Section 2.1 of: *Magnetic Monopoles*, Springer 2005 ([ISBN:978-3-540-29082-7](https://www.springer.com/gp/book/9783540252771))
 
-* {#FreedMooreSegal07} [Freed, Moore & Segal 2007, p. 7](#FreedMooreSegal07)
+*  [Freed, Moore & Segal 2007, p. 7](#FreedMooreSegal07)
 
 * {#Heras18} Ricardo Heras, _Dirac quantisation condition: a comprehensive review_, Contemp. Phys. 59, 331 (2018) ([arXiv:1810.13403](https://arxiv.org/abs/1810.13403))
 
