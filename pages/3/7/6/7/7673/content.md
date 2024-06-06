@@ -662,13 +662,11 @@ A category with families structure is constructed on the $(2,1)$-category of all
 
 An equivalence between contextual categories and [B-systems](#Voevodsky14) is in:
 
-* [[Benedikt Ahrens]], Jacopo Emmenegger, [[Paige Randall North]], [[Egbert Rijke]], _B-systems and C-systems are equivalent_ ([arXiv:2111.09948](https://arxiv.org/abs/2111.09948))
+* [[Benedikt Ahrens]], Jacopo Emmenegger, [[Paige Randall North]], [[Egbert Rijke]], _Algebraic Presentations of Dependent Type Theories_ ([arXiv:2111.09948](https://arxiv.org/abs/2111.09948))
 
 
 [[!redirects category-theoretic semantics of dependent types]]
 
-
-[[!redirects categorical model of dependent types]]
 
 [[!redirects categorical model of dependent type theory]]
 [[!redirects categorical models of dependent type theory]]
