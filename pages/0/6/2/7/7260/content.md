@@ -102,6 +102,8 @@ In any case, as far as the _observable_ universe is concerned, two facts are wor
 ## References
  {#References}
 
+### General
+
 * Wikipedia _[Observable universe](http://en.wikipedia.org/wiki/Observable_universe)_
 
 
@@ -158,10 +160,30 @@ More technical discussion of cosmic horizons contains
 
 * [[George Ellis]], T. Rothman: _Lost Horizons_, 1993 ([scribd](http://de.scribd.com/doc/235971566/G-F-R-Ellis-T-Rothman-Lost-Horizons))
 
-
 A sketch of a comprehensive picture had been proposed in 
 
 * [[Erich Jantsch]], _[[The Self-Organizing Universe]]_ (1980)
+
+### Cosmic topology
+ {#ReferencesCosmicTopology}
+
+On the possibility that [[spacetime]] is a [[manifold]] of non-trivial [[topological space|topology]] (cosmic topology):
+
+* Marc Lachièze-Rey , Jean-Pierre Luminet, *Cosmic Topology*, Phys. Rept. **254** (1995) 135-214 &lbrack;[arXiv:gr-qc/9605010](https://arxiv.org/abs/gr-qc/9605010), <a href="https://doi.org/10.1016/0370-1573(94)00085-H">doi:10.1016/0370-1573(94)00085-H</a>&rbrack;
+
+* Neil J. Cornish, David N. Spergel, Glenn D. Starkman, Eiichiro Komatsu, *Constraining the Topology of the Universe*, Phys. Rev. Lett. **92** (2004) 201302 &lbrack;[arXiv:astro-ph/0310233](https://arxiv.org/abs/astro-ph/0310233), [doi:10.1103/PhysRevLett.92.201302](https://doi.org/10.1103/PhysRevLett.92.201302)&rbrack;
+
+* Jean-Pierre Luminet, *The Status of Cosmic Topology after Planck Data*,  Universe **2** 1 (2016) 1 &lbrack;[doi:10.3390/universe2010001](https://doi.org/10.3390/universe2010001)&rbrack;
+
+* Jaspreet Sandhu, *Cosmic Topology* &lbrack;[arXiv:1612.04157](https://arxiv.org/abs/1612.04157)&rbrack;
+
+
+* Scholarpedia, *[Cosmic Topology](http://www.scholarpedia.org/article/Cosmic_Topology)*
+
+* Yashar Akrami et al., *Promise of Future Searches for Cosmic Topology*, Phys. Rev. Lett. **132** 17 (2024) 171501 &lbrack;[arXiv:2210.11426](https://arxiv.org/abs/2210.11426), [doi:10.1103/PhysRevLett.132.171501](https://doi.org/10.1103/PhysRevLett.132.171501)&rbrack;
+
+* *[The Universe’s Topology May Not Be Simple](https://physics.aps.org/articles/v17/74)*, Physics **17** 74 (2024)
+
 
 
 [[!redirects cosmic horizon]]
