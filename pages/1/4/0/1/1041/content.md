@@ -288,7 +288,7 @@ Textbook accounts:
 
 * [[Saunders MacLane]], Chapter VIII of: _[[Categories for the Working Mathematician]]_ (1978)
 
-* A. J. Berrick and M. E. Keating, *Categories and Modules, with K-theory in View*, Cambridge Studies in Advanced Mathematics **67**, Cambridge University Press (2000
+* A. J. Berrick and M. E. Keating, *Categories and Modules, with K-theory in View*, Cambridge Studies in Advanced Mathematics **67**, Cambridge University Press (2000)
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], Section 8 of: *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
 
