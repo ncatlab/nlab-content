@@ -531,7 +531,7 @@ based on the non-covariant form of the [[self-dual higher gauge field|self-duali
 
 * {#Schwarz97} [[John Schwarz]], _Coupling a Self-Dual Tensor to Gravity in Six Dimensions_, Phys. Lett. B395:191-195, 1997 ([cds:317663](http://cds.cern.ch/record/317663), <a href="https://doi.org/10.1016/S0370-2693(97)00094-4">doi:10.1016/S0370-2693(97)00094-4</a>)
 
-* {#APPS97a} [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_, Nucl.Phys. B496 (1997) 191-214 ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
+* {#APPS97a} [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_, Nucl. Phys. B **496** (1997) 191-214 &lbrack;[arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166), <a href="https://doi.org/10.1016/S0550-3213(97)00227-7">doi:10.1016/S0550-3213(97)00227-7</a>&rbrack;
 
 
 Discussion of the equivalence of these superficially different action functionals is in 
@@ -567,14 +567,14 @@ The computation of the small fluctuations of this GS-type sigma-model around a s
 
 A review with emphasis on the coupling to the [[M2-brane]]:
 
-* [[Ergin Sezgin]], P. Sundell, _Aspects of the M5-Brane_ &lbrack;[arXiv:hep-th/9902171](http://arxiv.org/abs/hep-th/9902171)&rbrack;
+* [[Ergin Sezgin]], P. Sundell, _Aspects of the M5-Brane_, in Proceedings of *Nonperturbative aspects of strings, branes and supersymmetry* (1998) 369-389 &lbrack;[arXiv:hep-th/9902171](http://arxiv.org/abs/hep-th/9902171), [InSpire:483085](https://inspirehep.net/literature/483085)&rbrack;
 
 
 Further developments:
 
-* [[Pichet Vanichchapongjaroen]], *Covariant M5-brane action with self-dual 3-form* ([arXiv:2011.14384](https://arxiv.org/abs/2011.14384))
+* [[Pichet Vanichchapongjaroen]], *Covariant M5-brane action with self-dual 3-form*, J. High Energ. Phys. **2021** 39 (2021)  &lbrack;[arXiv:2011.14384](https://arxiv.org/abs/2011.14384), <a href="https://doi.org/10.1007/JHEP05(2021)039">doi:10.1007/JHEP05(2021)039</a>&rbrack;
 
-* Sukŗti Bansal, *Manifestly Covariant Polynomial M5-brane Lagrangians* &lbrack;[arXiv:2307.13449](https://arxiv.org/abs/2307.13449)&rbrack;
+* Sukŗti Bansal, *Manifestly Covariant Polynomial M5-brane Lagrangians*,  J. High Energ. Phys. **2024** 87 (2024)  &lbrack;[arXiv:2307.13449](https://arxiv.org/abs/2307.13449), <a href="https://doi.org/10.1007/JHEP01(2024)087">doi:10.1007/JHEP01(2024)087</a>&rbrack;
 
 
 
