@@ -160,13 +160,13 @@ Via [[bicategories of fractions]]:
 
 * [[Dorette A. Pronk]], Section 2 of: _Etendues and stacks as bicategories of fractions_, Comp. Math. **102** 3 (1996) pp.243-303. ([numdam:CM_1996__102_3_243_0](http://www.numdam.org/item/?id=CM_1996__102_3_243_0))
 
-Another related construction
+Another construction:
 
-* M. E. Descotte, E. J. Dubuc, M. Szyld, _A localization of bicategories via homotopies_, Theory and Applications of Categories __35__, 2020, No. 23, 845--874, [TAC](http://tac.mta.ca/tac/volumes/35/23/35-23abs.html) [[zoranskoda:MR4112764]]
+* [[Maria E. Descotte]], [[Eduardo J. Dubuc]], M. Szyld, _A localization of bicategories via homotopies_, Theory and Applications of Categories __35__ 23 (2020) 845-874 &lbrack;[tac:2020](http://tac.mta.ca/tac/volumes/35/23/35-23abs.html) [[zoranskoda:MR4112764]]&rbrack;
 
-Yer another related subject
+* [[Maria E. Descotte]], [[Eduardo J. Dubuc]], M. Szyld, _Model bicategories and their homotopy bicategories_, Adv. Math. B __404__ (2022) 108455 &lbrack;[arXiv:1805.07749](https://arxiv.org/abs/1805.07749) [doi:10.1016/j.aim.2022.108455](https://doi.org/10.1016/j.aim.2022.108455)&rbrack;
 
-* M. E. Descotte, [[E. J. Dubuc]], M. Szyld, _Model bicategories and their homotopy bicategories_, Adv. Math. __404__B, (2022) 108455 [arXiv:1805.07749](https://arxiv.org/abs/1805.07749) [doi](https://doi.org/10.1016/j.aim.2022.108455)
+
 
 [[!redirects localizations of a 2-category]]
 [[!redirects localizations of 2-categories]]
