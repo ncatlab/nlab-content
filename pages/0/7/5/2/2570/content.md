@@ -297,6 +297,11 @@ The formulation of Gram-Schmidt via [[Gaussian elimination]] is due to
 
 * {#PursellTrimble91} [[Lyle E. Pursell]], S. Y. Trimble, *Gram-Schmidt orthogonalization by Gauss elimination*, The American Mathematical Monthly  **98** 6 (1991) 544-549 &lbrack;[doi:10.1080/00029890.1991.11995755](https://doi.org/10.1080/00029890.1991.11995755), [jstor:2324877](https://www.jstor.org/stable/2324877)&rbrack;
 
+Evident generalization to the case of [[indefinite bilinear form|indefinite]] [[inner product spaces]]:
+
+* [[Barrett O'Neill]], Lem. 2.24 (p. 50) of: *Semi-Riemannian Geometry With Applications to Relativity*, Pure and Applied Mathematics **103**, Academic Press (1983) &lbrack;[ISBN:9780125267403](https://shop.elsevier.com/books/semi-riemannian-geometry-with-applications-to-relativity/oneill/978-0-12-526740-3)&rbrack;
+
+
 
 [[!redirects Gram–Schmidt process]]
 [[!redirects Gram--Schmidt process]]
