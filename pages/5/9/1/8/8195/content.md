@@ -71,6 +71,10 @@ In the context of the [[homotopy 2-category of (∞,1)-categories]] and [[formal
 
 * {#RiehlVerity21} [[Emily Riehl]], [[Dominic Verity]], Chapter 1 of: *Elements of $\infty$-Category Theory*, 2021- ([pdf](https://math.jhu.edu/~eriehl/elements.pdf))
 
+In the context of homotopy 2-categories of [[model categories]] (in variation of the [[homotopy category of a model category]]):
+
+* [[Eduardo J. Dubuc]], Jacqueline Girabel,  *The 2-localization of a model category*, Theory and Applications of Categories **40** 18 (2024) 537-574 &lbrack;[arXiv:2208.00314](https://arxiv.org/abs/2208.00314), [tac:40-18](http://www.tac.mta.ca/tac/volumes/40/18/40-18abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/40/18/40-18.pdf)&rbrack;
+
 
 [[!redirects homotopy 2-categories]]
 
