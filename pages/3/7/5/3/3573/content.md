@@ -2,5 +2,3 @@ A version of Koszul type resolutions appear in attempts to do quantizations; nam
 
 
 See [[nlab:BV theory|BV "theory" in nlab]]
-
-[[!redirects BV quantization]]
