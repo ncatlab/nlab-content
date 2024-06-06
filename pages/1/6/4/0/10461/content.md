@@ -64,6 +64,10 @@ A proposal for classifying [[symmetry protected topological phases|symmetry-prot
 
 * {#BBCW19} [[Maissam Barkeshli]], [[Parsa Bonderson]], [[Meng Cheng]], [[Zhenghan Wang]], *Symmetry Fractionalization, Defects, and Gauging of Topological Phases*, Phys. Rev. B **100** 115147 (2019) $[$[arXiv:1410.4540](https://arxiv.org/abs/1410.4540), [doi:10.1103/PhysRevB.100.115147](https://doi.org/10.1103/PhysRevB.100.115147), [talk pdf](http://helper.ipam.ucla.edu/publications/stq2015/stq2015_12401.pdf)$]$
 
+Argument realizing [[anyon|anyonic]] [[topological order]] in the [[worldvolume]]-[[quantum field theory|field theory]] on [[M5-branes]] via [[KK-compactification]] on [[closed manifold|closed]] [[3-manifolds]] ([[Seifert manifolds]]) analogous to the [[3d-3d correspondence]] (which instead uses [[hyperbolic 3-manifolds]]):
+
+* [[Shawn X. Cui]], [[Yang Qiu]], [[Zhenghan Wang]], *From Three Dimensional Manifolds to Modular Tensor Categories*, Commun. Math. Phys. **397** (2023) 1191–1235 \[<a href="https://doi.org/10.1007/s00220-022-04517-4">doi:10.1007/s00220-022-04517-4</a>, [arXiv:2101.01674](https://arxiv.org/abs/2101.01674)\]
+
 
 On [[quantum adiabatic theorem|adiabatic transformations]] of certain 2d [[topological insulators]]:
 
