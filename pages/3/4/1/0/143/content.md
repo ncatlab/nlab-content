@@ -159,7 +159,7 @@ This is also called the **[[descent]] condition** for descent along the covering
 +-- {: .num_remark}
 ###### Remark
 
-For many examples of sites that appear in practice -- but by far not for all -- it happens that the pullback presheaves $j(U_j) \times_{j(U)} \times j(U_k)$ are themselves again representable, hence that the [[pullback]] $U_j \times_U U_k$ exists already in $C$, even before passing to the [[Yoneda embedding]]. 
+For many examples of sites that appear in practice -- but by far not for all -- it happens that the pullback presheaves $j(U_j) \times_{j(U)} j(U_k)$ are themselves again representable, hence that the [[pullback]] $U_j \times_U U_k$ exists already in $C$, even before passing to the [[Yoneda embedding]]. 
 
 In this special case we may apply the [[Yoneda lemma]] once more to deduce
 
