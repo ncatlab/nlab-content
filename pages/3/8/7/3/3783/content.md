@@ -214,16 +214,17 @@ The original article:
 
 * [[Roy Kerr]], _Gravitational Field of a Spinning Mass as an Example of Algebraically Special Metrics_, Phys. Rev. Lett. 11, 237 (1963) ([doi:10.1103/PhysRevLett.11.237](https://doi.org/10.1103/PhysRevLett.11.237))
 
+Most textbooks on [[general relativity]] have chapter about the Kerr spacetime. 
 
-Most textbooks about [[General Relativity]] have chapter about the Kerr spacetime, here is a monograph that specializes on the topic:
+Monograph:
 
-* Barrett O'Neill, _The geometry of Kerr black holes._ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0828.53078&format=complete))
+* [[Barrett O'Neill]], *The geometry of Kerr black holes*, Dover (2014) &lbrack;[ISBN:9780486493428](https://store.doverpublications.com/products/9780486493428), [zmath:0828.53078](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0828.53078&format=complete)&rbrack;
 
-A good survey is also in
+Further survey:
 
 * Project F, _The spinning black hole_ ([pdf](http://www.eftaylor.com/pub/SpinNEW.pdf))
 
-See also
+See also:
 
 * Wikipedia, _[Kerr spacetime](http://en.wikipedia.org/wiki/Kerr_spacetime)_
 
