@@ -683,6 +683,8 @@ Review:
 
 * {#Park} J. Park, _Pursuing the quantum world_ ([pdf](http://cds.cern.ch/record/638963/files/0308130.pdf))
 
+* [[Pavel Mnev]]. *Lectures on Batalin-Vilkovisky formalism and its applications in topological quantum field theory* (2017). ([arXiv:1707.08096](https://www.arxiv.org/abs/1707.08096)).
+
 * [[Alberto S. Cattaneo]], [[Pavel Mnev]], [[Michele Schiavina]], *BV Quantization*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2307.07761](https://arxiv.org/abs/2307.07761)&rbrack;
 
  
