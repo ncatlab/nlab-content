@@ -119,7 +119,7 @@ Discussion of [[small N corrections]] specifically in [[holographic QCD]]:
 
 * Csaba Csaki, [[Matthew Reece]], John Terning, _The AdS/QCD Correspondence: Still Undelivered_, JHEP 0905:067, 2009 ([arXiv:0811.3001](https://arxiv.org/abs/0811.3001))
 
-* Salvatore Baldino, [[Stefano Bolognesi]], Sven Bjarke Gudnason, Deniz Koksal, _A Solitonic Approach to Holographic Nuclear Physics_, Phys. Rev. D 96, 034008 (2017) ([arXiv:1703.08695](https://arxiv.org/abs/1703.08695))
+* Salvatore Baldino, [[Stefano Bolognesi]], [[Sven Bjarke Gudnason]], Deniz Koksal, _A Solitonic Approach to Holographic Nuclear Physics_, Phys. Rev. D **96** 034008 (2017) &lbrack;[arXiv:1703.08695](https://arxiv.org/abs/1703.08695), [doi:10.1103/PhysRevD.96.034008](https://doi.org/10.1103/PhysRevD.96.034008)&rbrack;
 
 
 * [[Edward Witten]], *Some Milestones in the Study of Confinement*, talk at *[[Prospects in Theoretical Physics 2023 -- Understanding Confinement]]*, IAS (2023) &lbrack;[web](https://www.ias.edu/video/some-milestones-study-confinement), [YT](https://youtu.be/TvIz-6YOdKs)&rbrack;
