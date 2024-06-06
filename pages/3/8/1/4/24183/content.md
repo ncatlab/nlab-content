@@ -10,7 +10,6 @@ The origin of the claim is:
 
 * {#Kitaev06} [[Alexei Kitaev]], Section 8 and Appendix E of: *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 $[$[doi:10.1016/j.aop.2005.10.005](https://doi.org/10.1016/j.aop.2005.10.005)$]$
 
-
 Early accounts re-stating this claim (without attribution):
 
 * [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], pp. 28 of: *Non-Abelian Anyons and Topological Quantum Computation*, Rev. Mod. Phys. **80** 1083 (2008) $[$[arXiv:0707.1888] (http://arxiv.org/abs/0707.1889), [doi:10.1103/RevModPhys.80.1083](https://doi.org/10.1103/RevModPhys.80.1083)$]$
@@ -57,6 +56,7 @@ An argument that the statement at least for [[SU(2)-anyons]] does follow from an
 * [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>,[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\] 
 
 #### In string/M-theory
+  {#AnyonicOrderInMTheoryReferences}
 
 Arguments realizing such anyonic topological order in the [[worldvolume]]-[[quantum field theory|field theory]] on [[M5-branes]]:
 
@@ -64,7 +64,12 @@ Via [[KK-compactification]] on [[closed manifold|closed]] [[3-manifolds]] ([[Sei
 
 * Gil Young Cho, [[Dongmin Gang]], Hee-Cheol Kim: *M-theoretic Genesis of Topological Phases*, J. High Energ. Phys. **2020** 115 (2020) \[<a href="https://arxiv.org/abs/2007.01532">arXiv:2007.01532</a>, <a href=" https://doi.org/10.1007/JHEP11(2020)115">doi:10.1007/JHEP11(2020)115</a>\]
 
-* Shawn X. Cui, Yang Qiu, [[Zhenghan Wang]], *From Three Dimensional Manifolds to Modular Tensor Categories*, Commun. Math. Phys. **397** (2023) 1191–1235 \[<a href="https://doi.org/10.1007/s00220-022-04517-4">doi:10.1007/s00220-022-04517-4</a>, [arXiv:2101.01674](https://arxiv.org/abs/2101.01674)\]
+* [[Shawn X. Cui]], Paul Gustafson, [[Yang Qiu]], Qing Zhang, *From Torus Bundles to Particle-Hole Equivariantization*, Lett Math Phys **112** 15 (2022) \[<a href="https://doi.org/10.1007/s11005-022-01508-3">doi:10.1007/s11005-022-01508-3</a>, [arXiv:2106.01959](https://arxiv.org/abs/2106.01959)\]
+
+* [[Shawn X. Cui]], [[Yang Qiu]], [[Zhenghan Wang]], *From Three Dimensional Manifolds to Modular Tensor Categories*, Commun. Math. Phys. **397** (2023) 1191–1235 \[<a href="https://doi.org/10.1007/s00220-022-04517-4">doi:10.1007/s00220-022-04517-4</a>, [arXiv:2101.01674](https://arxiv.org/abs/2101.01674)\]
+
+* [[Federico Bonetti]], [[Sakura Schäfer-Nameki]], Jingxiang Wu, *$MTC[M_3,G]$: 3d Topological Order Labeled by Seifert Manifolds* \[<a href="https://arxiv.org/abs/2403.03973">arXiv:2403.03973</a>\]
+
 
 Via [[3-brane in 6d|3-brane]] [[defect branes|defects]]:
 
