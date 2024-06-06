@@ -163,6 +163,20 @@ Applied to computation of [[Bekenstein-Hawking entropy]] for [[black holes in st
 
 * Francesco Benini, Dongmin Gang, Leopoldo A. Pando Zayas, _Rotating Black Hole Entropy from M5 Branes_ ([arXiv:1909.11612](https://arxiv.org/abs/1909.11612))
 
+### Anyonic topological order
+
+Arguments realizing [[anyon|anyonic]] [[topological order]] in the [[worldvolume]]-[[quantum field theory|field theory]] on [[M5-branes]] via [[KK-compactification]] on [[closed manifold|closed]] [[3-manifolds]] ([[Seifert manifolds]]) analogous to the [[3d-3d correspondence]] (which instead uses [[hyperbolic 3-manifolds]]):
+
+* Gil Young Cho, [[Dongmin Gang]], Hee-Cheol Kim: *M-theoretic Genesis of Topological Phases*, J. High Energ. Phys. **2020** 115 (2020) \[<a href="https://arxiv.org/abs/2007.01532">arXiv:2007.01532</a>, <a href=" https://doi.org/10.1007/JHEP11(2020)115">doi:10.1007/JHEP11(2020)115</a>\]
+
+* [[Shawn X. Cui]], Paul Gustafson, [[Yang Qiu]], Qing Zhang, *From Torus Bundles to Particle-Hole Equivariantization*, Lett Math Phys **112** 15 (2022) \[<a href="https://doi.org/10.1007/s11005-022-01508-3">doi:10.1007/s11005-022-01508-3</a>, [arXiv:2106.01959](https://arxiv.org/abs/2106.01959)\]
+
+* [[Shawn X. Cui]], [[Yang Qiu]], [[Zhenghan Wang]], *From Three Dimensional Manifolds to Modular Tensor Categories*, Commun. Math. Phys. **397** (2023) 1191–1235 \[<a href="https://doi.org/10.1007/s00220-022-04517-4">doi:10.1007/s00220-022-04517-4</a>, [arXiv:2101.01674](https://arxiv.org/abs/2101.01674)\]
+
+* [[Federico Bonetti]], [[Sakura Schäfer-Nameki]], Jingxiang Wu, *$MTC[M_3,G]$: 3d Topological Order Labeled by Seifert Manifolds* \[<a href="https://arxiv.org/abs/2403.03973">arXiv:2403.03973</a>\]
+
+
+
 [[!redirects 3d-3d correspondences]]
 
 [[!redirects 3d-3d relation]]
