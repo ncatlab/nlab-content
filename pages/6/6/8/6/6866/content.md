@@ -41,6 +41,14 @@ A review of effective actions in the [[background field formalism]] is in sectio
 * Darren Trevor Grasso, _Higher order contributions to the effective action of $\mathcal{N} = 2$ and $4$ supersymmetric Yang-Mills theories from heat kernel techniques in superspace_ Thesis (2007) ([web](	
 http://repository.uwa.edu.au:80/R/-∞func=dbin-jump-full&object_id=9240&current_base=GEN01-INS01))
 
+In the context of the [[BV-BRST formalism]] see e.g.
+
+* [[Kevin Costello]]. *Renormalisation and the Batalin-Vilkovisky formalism* (2007). ([arXiv:0706.1533](https://arxiv.org/abs/0706.1533)).
+
+* [[Pavel Mnev]]. *Discrete BF theory* (2008). ([arXiv:0809.1160](https://www.arxiv.org/abs/0809.1160)).
+
+
+
 [[!redirects effective action functionals]]
 
 
