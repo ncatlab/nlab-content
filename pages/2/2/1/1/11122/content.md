@@ -1,17 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
 
-NBG or von Neumann–Bernays–Gödel set theory is a [[material set theory]]. It is a conservative extension of [[ZFC]] and its ontology includes [[proper classes]], like [[MK]]. But unlike [[ZFC]] and [[MK]], NBG can be finitely axiomatized.
+Neumann–Bernays–Gödel set theory (NBG) is a [[material set theory]]: a [[conservative extension]] of [[ZFC]] whose ontology includes [[proper classes]], like [[MK]]. But unlike [[ZFC]] and [[MK]], NBG can be finitely axiomatized.
 
 
 ## History
 
-[[Georg Cantor]] was well acquainted with the phenomenon that some collections are 'too big' to be sets and in his late years made a distinction between _consistent_ and _inconsistent multitudes_, the former comprising sets, but his ideas were confined to private letters to (Jourdain and) Dedekind that were not published until 1932.
+[[Georg Cantor]] was well acquainted with the phenomenon that some collections are 'too big' to be sets. In his late years he made a distinction between _consistent_ and _inconsistent multitudes_, the former comprising sets, but his ideas were confined to private letters to (Jourdain and) Dedekind that were not published until 1932.
 
-[[John von Neumann]] began $NBG$ in the 1920s ([von Neumann 1925](#vN1925), [von Neumann 1928](#vN1928)), but his version was unwieldy.  [[Paul Bernays]] and [[Kurt Gödel]] simplified it later.  It also illustrates Gödel's theorem that any [[first-order theory]] has a [[conservative extension]] with a finite axiomatization.
+[[John von Neumann]] began work on NBG in the 1920s ([von Neumann 1925](#vN1925), [von Neumann 1928](#vN1928)), but his version was unwieldy. [[Paul Bernays]] and [[Kurt Gödel]] simplified it later, also illustrating Gödel's theorem that any [[first-order theory]] has a [[conservative extension]] with a finite axiomatization.
 
 
 ## Axioms
@@ -45,9 +57,9 @@ Every instance of class comprehension can be built out of a few, based on the lo
 
 * [[Gerhard Osius]], _Kategorielle Mengenlehre: Eine Charakterisierung der Kategorie der Klassen und Abbildungen_ , Math. Ann. **210** (1974) pp.171-196. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002309939))
 
-An expository account is given in
+An expository account:
 
-* [[Elliott Mendelson]], _Introduction to mathematical logic_, 5th edition, ISBN-13: 978-1-58488-876-5, ISBN-10: 1-58488-876-8.
+* [[Elliott Mendelson]], _Introduction to mathematical logic_, van Nostrand (1964) CRC Press (1987, 2015) &lbrack;[ark:/13960/t60663n9w](https://archive.org/details/introductiontoma0000mend/), [doi:10.1007/978-1-4615-7288-6](https://doi.org/10.1007/978-1-4615-7288-6), [ISBN:9781482237726](https://www.routledge.com/Introduction-to-Mathematical-Logic/Mendelson/p/book/9781482237726), <a href="https://sistemas.fciencias.unam.mx/~lokylog/images/Notas/la_aldea_de_la_logica/Libros_notas_varios/L_02_MENDELSON,%20E%20-%20Introduction%20to%20Mathematical%20Logic,%206th%20Ed%20-%20CRC%20Press%20(2015).pdf">pdf</a>, ISBN-13:978-1-58488-876-5, ISBN-10:1-58488-876-8&rbrack;
 
 [[!redirects NBG]]
 [[!redirects NBG set theory]]
