@@ -856,10 +856,16 @@ Review:
 
 * {#GoerssJardine99} [[Paul Goerss]], [[Rick Jardine]], section II.1 of _[[Simplicial homotopy theory]]_ Birkh&#228;user 1999, 2009
 
-
 * *[[Introduction to Homotopy Theory]]*, [this Section](Introduction+to+Homotopy+Theory#TheHomotopyCategory)
 
   > (where the above material is mostly taken from)
+
+
+The [[higher category theory|higher]] variant of [[homotopy 2-categories]] of model categories:
+
+* [[Eduardo J. Dubuc]], Jacqueline Girabel  *The 2-localization of a model category*, Theory and Applications of Categories **40** 18 (2024) 537-574 &lbrack;[arXiv:2208.00314](https://arxiv.org/abs/2208.00314), [tac:40-18](http://www.tac.mta.ca/tac/volumes/40/18/40-18abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/40/18/40-18.pdf)&rbrack;
+
+
 
 [[!redirects homotopy categories of model categories]]
 
