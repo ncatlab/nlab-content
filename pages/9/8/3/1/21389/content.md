@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[holographic QCD]] and the need for [[small N limit|small $N$]]:
+
+* Salvatore Baldino, [[Stefano Bolognesi]], [[Sven Bjarke Gudnason]], Deniz Koksal, _A Solitonic Approach to Holographic Nuclear Physics_, Phys. Rev. D **96** 034008 (2017) &lbrack;[arXiv:1703.08695](https://arxiv.org/abs/1703.08695), [doi:10.1103/PhysRevD.96.034008](https://doi.org/10.1103/PhysRevD.96.034008)&rbrack;
+
+
 On [[Skyrmions]] in view of the [[complex Hopf fibration]]:
 
 * {#GudnasonNitta20} [[Sven Bjarke Gudnason]], [[Muneto Nitta]], _Linking number of vortices as baryon number_ ([arXiv:2002.01762](https://arxiv.org/abs/2002.01762), [spire:1778698/](http://inspirehep.net/record/1778698/))
