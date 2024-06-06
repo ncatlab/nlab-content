@@ -92,6 +92,15 @@ Lecture notes:
 
 * [[Kirill Krasnov]], *Formulations of General Relativity*, PIRSA lecture series (Feb 2019) &lbrack;part 1:[doi:10.48660/19020079](https://doi.org/10.48660/19020079), 2:[doi:10.48660/19020080](https://doi.org/10.48660/19020080), 3:[doi:10.48660/19020081](https://doi.org/10.48660/19020081), 4:[doi:10.48660/19020082](https://doi.org/10.48660/19020082)&rbrack;
 
+Background on [[pseudo-Riemannian manifold|pseudo-]][[Riemannian geometry]]:
+
+* [[Barrett O'Neill]], *Semi-Riemannian Geometry With Applications to Relativity*, Pure and Applied Mathematics **103**, Academic Press (1983) &lbrack;[ISBN:9780125267403](https://shop.elsevier.com/books/semi-riemannian-geometry-with-applications-to-relativity/oneill/978-0-12-526740-3)&rbrack;
+
+* [[Shlomo Sternberg]], *Semi-Riemannian Geometry and General Relativity* (2003) &lbrack;[pdf](https://people.math.harvard.edu/~shlomo/docs/semi_riemannian_geometry.pdf), [ark:/13960/t5m927d2v](https://archive.org/details/Shlomo_Sternberg__SemiRiemann_Geometry_and_General_Relativity/)&rbrack;
+
+* [[Shlomo Sternberg]], *Curvature in Mathematical Physics*, Dover (2012) &lbrack;[ISBN:9780486478555](https://store.doverpublications.com/products/9780486478555)&rbrack;
+
+
 Emphasis on [[mathematical physics]]
 
 * [[Alan Coley]], _Mathematical General Relativity_ ([arXiv:1807.08628](https://arxiv.org/abs/1807.08628))
