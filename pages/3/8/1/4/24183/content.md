@@ -28,7 +28,7 @@ Further discussion (mostly review and mostly without attribution):
 
 * [[Tian Lan]], *A Classification of (2+1)D Topological Phases with Symmetries* $[$[arXiv:1801.01210](https://arxiv.org/abs/1801.01210)$]$
 
-* *From categories to anyons: a travelogue* $[$[arXiv:1811.06670](https://arxiv.org/abs/1811.06670)$]$
+* *From categories to anyons: a travelogue* \[<a href="https://arxiv.org/abs/1811.06670">arXiv:1811.06670</a>\]
 
 * [[Colleen Delaney]], *A categorical perspective on symmetry, topological order, and quantum information* (2019) $[$[pdf](https://crdelane.pages.iu.edu/dissertationch1-5.pdf), [uc:5z384290](https://escholarship.org/uc/item/5z384290)$]$
 
@@ -48,16 +48,28 @@ Further discussion (mostly review and mostly without attribution):
 * Willie Aboumrad, *Quantum computing with anyons: an F-matrix and braid calculator* $[$[arXiv:2212.00831](https://arxiv.org/abs/2212.00831)$]$
 
 
-
 Emphasis that the expected description of [[anyons]] by [[braided fusion categories]] had remained [[folklore]], together with a list of minimal assumptions that would need to be shown:
 
-* {#Valera21} [[Sachin J. Valera]], *Fusion Structure from Exchange Symmetry in (2+1)-Dimensions*, Annals of Physics **429** (2021) $[$
-[arXiv:2004.06282](https://arxiv.org/abs/2004.06282), [doi:10.1016/j.aop.2021.168471](https://doi.org/10.1016/j.aop.2021.168471)$]$
-
+* {#Valera21} [[Sachin J. Valera]], *Fusion Structure from Exchange Symmetry in (2+1)-Dimensions*, Annals of Physics **429** (2021) \[<a href="https://doi.org/10.1016/j.aop.2021.168471">doi:10.1016/j.aop.2021.168471</a>, [arXiv:2004.06282](https://arxiv.org/abs/2004.06282)\]
 
 An argument that the statement at least for [[SU(2)-anyons]] does follow from an enhancement of the [[K-theory classification of topological phases of matter]] to interacting [[topological order]]:
 
-* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. (20223) $[$[arXiv:2206.13563](https://arxiv.org/abs/2206.13563), [doi:10.1142/S0129055X23500010](https://doi.org/10.1142/S0129055X23500010)$]$
+* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>,[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\] 
+
+#### In string/M-theory
+
+Arguments realizing such anyonic topological order in the [[worldvolume]]-[[quantum field theory|field theory]] on [[M5-branes]]:
+
+Via [[KK-compactification]] on [[closed manifold|closed]] [[3-manifolds]] ([[Seifert manifolds]]) analogous to the [[3d-3d correspondence]] (which instead uses [[hyperbolic 3-manifolds]]):
+
+* Gil Young Cho, [[Dongmin Gang]], Hee-Cheol Kim: *M-theoretic Genesis of Topological Phases*, J. High Energ. Phys. **2020** 115 (2020) \[<a href="https://arxiv.org/abs/2007.01532">arXiv:2007.01532</a>, <a href=" https://doi.org/10.1007/JHEP11(2020)115">doi:10.1007/JHEP11(2020)115</a>\]
+
+* Shawn X. Cui, Yang Qiu, [[Zhenghan Wang]], *From Three Dimensional Manifolds to Modular Tensor Categories*, Commun. Math. Phys. **397** (2023) 1191–1235 \[<a href="https://doi.org/10.1007/s00220-022-04517-4">doi:10.1007/s00220-022-04517-4</a>, [arXiv:2101.01674](https://arxiv.org/abs/2101.01674)\]
+
+Via [[3-brane in 6d|3-brane]] [[defect branes|defects]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic defect branes in TED K-theory|Anyonic Defect Branes and Conformal Blocks in Twisted Equivariant Differential K-Theory]]*, Reviews in Mathematical Physics **35** 06 (2023) 2350009 \[<a href="https://arxiv.org/abs/2203.11838">arXiv:2203.11838</a>, <a href="https://doi.org/10.1142/S0129055X23500095">doi:10.1142/S0129055X23500095</a>\]
+
 
 
 #### Further discussion
