@@ -118,8 +118,7 @@ E) This does not do justice to my work, and does not corresponds to the true his
 
 ## References
 
-* [[Eduardo Dubuc]], _Sur les mod&#232;les de la g&#233;om&#233;trie diff&#233;rentielle synth&#233;tique_, [[Cahiers|Cahiers de Topologie et Geometrie Differentielle]] Vol. XX-3 
-(1979) ([numdam:CTGDC_1979__20_3_231_0](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0))
+* [[Eduardo Dubuc]], _Sur les mod&#232;les de la g&#233;om&#233;trie diff&#233;rentielle synth&#233;tique_, [[Cahiers|Cahiers de Topologie et Geometrie Differentielle]] Vol. XX-3 (1979) &lbrack;[numdam:CTGDC_1979__20_3_231_0](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)&rbrack;
 
 * [[Eduardo Dubuc]], _Schemas $C^\infty$_, "Prepublications de la Universite de Montreal" 80-81 edited by  G. Reyes (1980).
 
