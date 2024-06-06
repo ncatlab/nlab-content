@@ -103,8 +103,6 @@ Resolved image of the direct vicinity of the [[event horizon]] of the [[black ho
 
 * [[Croatian black hole school]], 2010
 
-* Barrett O'Neill, _The geometry of Kerr black holes_
-
 * S. Chandrasekhar, _The mathematical theory of black holes_
 
 * G. T. Horowitz, A. Strominger, _Counting states of near-extremal black holes_, Phys. Rev. Lett. 77 (1996) 2368&#8211;2371, [hep-th/9602051](http://arxiv.org/abs/hep-th/9602051).
