@@ -91,8 +91,15 @@ With focus on [[special holonomy]]:
 
 * [[Simon Salamon]], *Riemannian Geometry and Holonomy Groups*, Research Notes in Mathematics **201**, Longman (1989)
 
+With focus on [[pseudo-Riemannian manifolds]] and application to [[special relativity|special]] and [[general relativity]] ([[gravity]]):
 
-With an eye towards application in [[mathematical physics]]:
+* [[Barrett O'Neill]], *Semi-Riemannian Geometry With Applications to Relativity*, Pure and Applied Mathematics **103**, Academic Press (1983) &lbrack;[ISBN:9780125267403](https://shop.elsevier.com/books/semi-riemannian-geometry-with-applications-to-relativity/oneill/978-0-12-526740-3)&rbrack;
+
+* [[Shlomo Sternberg]], *Semi-Riemannian Geometry and General Relativity* (2003) &lbrack;[pdf](https://people.math.harvard.edu/~shlomo/docs/semi_riemannian_geometry.pdf), [ark:/13960/t5m927d2v](https://archive.org/details/Shlomo_Sternberg__SemiRiemann_Geometry_and_General_Relativity/)&rbrack;
+
+* [[Shlomo Sternberg]], *Curvature in Mathematical Physics*, Dover (2012) &lbrack;[ISBN:9780486478555](https://store.doverpublications.com/products/9780486478555)&rbrack;
+
+Generally with an eye towards applications in [[mathematical physics]]:
 
 * [[Mikio Nakahara]], Chapter 6 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
