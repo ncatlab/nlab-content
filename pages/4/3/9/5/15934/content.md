@@ -34,5 +34,10 @@ On the [[3d-3d correspondence]] for Seifert manifolds:
 
 [[!redirects Seifert 3-manifolds]]
 
+[[!redirects Seifert manifold]]
+[[!redirects Seifert manifolds]]
+
 [[!redirects Seifert fiber space]]
 [[!redirects Seifert fiber spaces]]
+
+
