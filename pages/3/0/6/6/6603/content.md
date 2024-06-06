@@ -22,8 +22,14 @@ On [[group theory]] and [[physics]]:
 
 * {#Sternberg94} [[Shlomo Sternberg]], *Group Theory and Physics*, Cambridge University Press 1994 ([ISBN:9780521558853](https://www.cambridge.org/gb/academic/subjects/mathematics/algebra/group-theory-and-physics?format=PB&isbn=9780521558853))
 
+On [[pseudo-Riemannian manifold|semi-]][[Riemannian geometry]] with applications to [[special relativity]] and [[general relativity]] ([[gravity]]):
 
-## Related $n$Lab entries
+* [[Shlomo Sternberg]], *Semi-Riemannian Geometry and General Relativity* (2003) &lbrack;[pdf](https://people.math.harvard.edu/~shlomo/docs/semi_riemannian_geometry.pdf), [ark:/13960/t5m927d2v](https://archive.org/details/Shlomo_Sternberg__SemiRiemann_Geometry_and_General_Relativity/)&rbrack;
+
+* [[Shlomo Sternberg]], *Curvature in Mathematical Physics*, Dover (2012) &lbrack;[ISBN:9780486478555](https://store.doverpublications.com/products/9780486478555)&rbrack;
+
+
+## Related entries
 
 * [[differential geometry]], [[G-structure]]
 
