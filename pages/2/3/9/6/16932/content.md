@@ -131,9 +131,10 @@ Original articles:
 Review: 
 
 * Jonatan Nordebo, _The Reissner-Nordström metric_, 2016 ([pdf](https://www.diva-portal.org/smash/get/diva2:912393/FULLTEXT01.pdf), [diva2:912393](http://umu.diva-portal.org/smash/record.jsf?pid=diva2%3A912393&dswid=7103))
-
  
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Reissner%E2%80%93Nordstr%C3%B6m_metric">Reissner-Nordstr&#246;m metric</a>_
+
+* *Reissner-Nordström geometry* &lbrack;[astronuclphysics.info/Gravitace3-5.htm](https://astronuclphysics.info/Gravitace3-5.htm)&rbrack;
 
 That the [[near horizon geometry]] of the [[extremal black hole|extremal]] Reissner-Nordström black hole in 4d ins 2d [[anti de Sitter spacetime]] times the [[2-sphere]], $AdS_2 \times S^2$, was observed in 
 
