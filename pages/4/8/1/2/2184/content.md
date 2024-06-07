@@ -262,6 +262,8 @@ Textbooks:
 
 * {#DiestelGraphTheoryFourthEd} [[Reinhard Diestel]], *Graph Theory*, Graduate Texts in Mathematics **173** 5th edition (2017) &lbrack;[website](https://diestel-graph-theory.com/), [doi:10.1007/978-3-662-53622-3](https://doi.org/10.1007/978-3-662-53622-3)]
 
+* Teo Banica. *Graphs and their symmetries* (2024). ([arXiv:2406.03664](https://arxiv.org/abs/2406.03664)).
+
 Other references:
 
 * [[Bill Lawvere]] (1989), _Qualitative distinctions between some toposes of generalized graphs_, in Categories in computer science and logic (Boulder, CO,   1987), volume 92 of _Contemporary Mathematics_, 261--299. American Mathematical Society, Providence, RI.
@@ -280,6 +282,7 @@ Other references:
 * {#Kock2016BM} [[Joachim Kock]], Cospan construction of the graph category of Borisov and Manin, [arXiv:1611.10342](https://arxiv.org/abs/1611.10342)
 
 * Martin Schmidt, _Functorial Approach to Graph and Hypergraph Theory_, ([arXiv:1907.02574](https://arxiv.org/abs/1907.02574))
+
 
 See also [[quiver#references|quiver - references]].
 
