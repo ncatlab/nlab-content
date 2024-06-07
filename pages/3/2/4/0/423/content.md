@@ -1460,8 +1460,10 @@ The following is an (incomplete) list of available $n$Lab entries related to top
 * [[convenient category of topological spaces]], [[compactly generated space]]
 * [[nice topological space]], [[nice category of spaces]]
 * [[pointless topology]], [[locale]], [[cover]], [[site]], [[ringed space]]
-[[sphere]]
+
 * [[Sierpinski space]], [[Warsaw circle]]
+
+* [[cosmic topology]]
 
 See also [[examples in topology]].
 
