@@ -77,6 +77,12 @@ Let $\mathcal{C}$ be a small category with finite coproducts and products. The f
 
 =--
 
+## Related concepts
+
+- [[locally strongly finitely presentable category]]
+- [[free cocompletion]]
+- [[ind-object]]
+
 ## References
 
 *  {#AdamekRosickyVitale10} [[Jiri Adamek]], [[Jiri Rosicky]], [[Enrico Vitale]], _What are sifted colimits?_, TAC **23** (2010) pp. 251&#8211;260. ([web](http://www.tac.mta.ca/tac/volumes/23/13/23-13abs.html)) 
