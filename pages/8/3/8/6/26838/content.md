@@ -1,4 +1,5 @@
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=288745)
 
 ## Selected writings
 
