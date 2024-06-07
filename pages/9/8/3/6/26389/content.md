@@ -1294,6 +1294,7 @@ This is now a [[discrete group]]. Its [[group algebra]] serves as an algebra of 
 
   * [[flux compactification]]
 
+* [[cosmic topology]]
 
 ## References
 
