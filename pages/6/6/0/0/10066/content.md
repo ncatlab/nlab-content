@@ -13,6 +13,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -373,7 +374,7 @@ This is never an [[isomorphism]], unless $G$ is the trivial group. But the [[Ati
 ### Rationalization
  {#Rationalization}
 
-[[!include incarnations of rational equivariant topological K-theory -- table ]]
+[[!include incarnations of rational equivariant topological K-theory -- table]]
 
 ### Equivariant Chern-character
 
