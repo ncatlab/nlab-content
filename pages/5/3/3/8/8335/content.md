@@ -31,6 +31,8 @@ It has been argued ([Higan-Rees 79](#HiganRees79)) that observation of a absorpt
 
 * [[cosmology]], [[standard model of cosmology]]
 
+* [[cosmic topology]]
+
 * [[inhomogeneous cosmology]]
 
 * [[dark radiation]]
