@@ -168,7 +168,7 @@ that preserve filtered colimits.
 
 If $D$ is the doctrine of finite products,
 then $D$-filtered colimits are precisely [[sifted colimits]]
-and the $D$-filtered cocompletion of $C$ is $Sind(C)$,
+and the $D$-filtered cocompletion of $C$ is [[sind-object|$Sind(C)$]],
 the [[nonabelian derived category]] of $C$.
 
 According to Definition 4.5 in [ALRalg](#ALRalg),
