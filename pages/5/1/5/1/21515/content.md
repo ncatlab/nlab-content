@@ -44,7 +44,7 @@ Or rather, [Moerdijk 02, p. 18](#Moerdijk02) observes that the Chen-Ruan cohomol
 
 for the followup statement that the [[abelian sheaf cohomology]] of $X/G$ with coefficient sheaf $\underline{A}$ being "[[locally constant sheaf|locally constant]] except for dependence on [[isotropy groups]]" is equivalently [[Bredon cohomology]] of $X$ with coefficients in $G/H \mapsto \underline{A}_x$ for $Isotr_x = H$. This identification of the coefficient systems is Prop. 6.5 b) in:
 
-* {#Honkasalo88} [[Hannu Honkasalo]], _Equivariant Alexander-Spanier cohomology_,  Mathematica Scandinavia,  63, 179-195, 1988 ([doi:10.7146/math.scand.a-12232](https://doi.org/10.7146/math.scand.a-12232))
+* {#Honkasalo88} [[Hannu Honkasalo]], _Equivariant Alexander-Spanier cohomology_,  Mathematica Scandinavia **63** (1988) 179-195 \[<a href="https://doi.org/10.7146/math.scand.a-12232">doi:10.7146/math.scand.a-12232</a>\]
 
 See also Section 4.3 of
 
