@@ -23,7 +23,7 @@ Under *cosmological electromagnetism* one understands (the study of) [[electroma
 
 ## Relation to cosmic topology
 
-Of particular interest for cosmic electromagnetism would be non-[[simply connected topological space|simply-connected]] [[cosmic topology]] (such as the [[3-torus]] or a [[lens space]] but not the [[3-sphere]]) since these could support locally trivial but globally non-trivial [[electromagnetic fields]] (namely with vanishing electromagnetic [[flux density]] but still non-trivial [[holonomy]]/[[monodromy]] around non-conctracticle cosmological [[curves]]) such as discussed in the [[Aharonov-Bohm effect]].
+Of particular interest for cosmic electromagnetism would be non-[[simply connected topological space|simply-connected]] [[cosmic topology]] (such as the [[3-torus]] or a [[lens space]] but not the [[3-sphere]]) since these could support locally trivial but globally non-trivial [[electromagnetic fields]] (namely with vanishing electromagnetic [[flux density]] but still non-trivial [[holonomy]]/[[monodromy]] around non-contractible cosmological [[curves]]) such as discussed in the [[Aharonov-Bohm effect]].
 
 Moreover, [[lens space]]-topology with its [[integral cohomology|integral]] [[torsion group|torsion]]-[[cohomology group]] in degree 2 (cf. [there](lens+space#eq:IntegralCohomologyOfLensSpace)) would even support "[[fractional M2-brane|fractional]]" such [[electromagnetic fields]] (for which certain integer multiples of the field would vanish), which would *in principle* be detectable by an [[uncertainty principle]] for [[quantum observables]] on the cosmic [[electromagnetic field]] &lbrack;[Freed, Moore & Segal 2007b, p. 29](uncertainty+of+fluxes#FreedMooreSegal07b)&rbrack;.
 
