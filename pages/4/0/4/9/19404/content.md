@@ -2158,7 +2158,7 @@ Discussion for the [[7-sphere]] with application to [[near horizon geometries]] 
 
 ### Topological spherical space form
 
-General quotients of $n$-spheres by finite group actions that are (free and) just required to be continuous are known as *topological spherical space forms*:
+General quotients of [[n-sphere|$n$-spheres]] by [[finite group|finite]] [[group actions]] that are (free and) just required to be continuous are known as *topological spherical space forms*:
 
 * {#MadsenThomasWall76} [[Ib Madsen]], [[Charles B. Thomas]], [[C. T. C. Wall]], *The topological spherical space form problem II: existence of free actions*, Topology Volume 15, Issue 4, 1976, Pages 375-382 (<a href="https://doi.org/10.1016/0040-9383(76)90031-8">doi:10.1016/0040-9383(76)90031-8</a>)
 
@@ -2167,6 +2167,14 @@ General quotients of $n$-spheres by finite group actions that are (free and) jus
 Review:
 
 * [[Ian Hambleton]], _Topological spherical space forms_, Handbook of Group Actions (Vol. II), ALM 32 (2014), 151-172. International Press, Beijing-Boston ([arXiv:1412.8187](https://arxiv.org/abs/1412.8187), [ISBN:9781571463012](https://www.intlpress.com/site/pub/pages/books/items/00000439/index.php))
+
+Discussion as candidates for [[cosmic topology]]:
+
+
+* {#ALS05} [[Ralf Aurich]], [[Sven Lustig]], [[Frank Steiner]], *CMB Anisotropy of Spherical Spaces*, Class. Quant. Grav. **22** (2005) 3443-3460 &lbrack;[arXiv:astro-ph/0504656](https://www.arxiv.org/abs/astro-ph/0504656), [doi:10.1088/0264-9381/22/17/006](https://doi.org/10.1088/0264-9381/22/17/006)&rbrack;
+
+* [[Ralf Aurich]], [[Sven Lustig]], [[Frank Steiner]], *The circles-in-the-sky signature for three spherical universes*, Monthly Notices of the Royal Astronomical Society **369** 1 (2006) 240–248 &lbrack;[doi:10.1111/j.1365-2966.2006.10296.x](https://doi.org/10.1111/j.1365-2966.2006.10296.x),  [arXiv:astro-ph/0510847](https://arxiv.org/abs/astro-ph/0510847)&rbrack;
+
 
 ### Smooth spherical space forms
 
