@@ -101,11 +101,45 @@ for all $i=0,\ldots, d$.
 
 In both theorems, the same $n$ for both lens spaces is a necessary condition for them to be [[homeomorphic]] or [[homotopy equivalent]] as follows with their respective [[fundamental group]].
 
-### Homotopy theory
+### Cohomology
+ {#Cohomology}
+
+The [[ordinary cohomology|ordinary]] [[integral cohomology]] of the lens space $L(n,q) \coloneqq S^{2n+1}/(\mathbb{Z}/q)$ is &lbrack;e.g. [Maxim, p. 2](#Maxim)&rbrack;:
+
+\[
+  \label{IntegralCohomologyOfLensSpace}
+  H^i
+  \big(
+    L(n,q)
+    ;\,
+    \mathbb{Z}
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  \left\{
+    \begin{array}{lcl}
+      \mathbb{Z} &\vert& i = 0
+      \\
+      \mathbb{Z}\!/\!q &\vert& i = 2j \leq 2n
+      \\
+      \mathbb{Z} &\vert& i = 2n + 1
+      \\
+      0 &\vert& \text{otherwise,}
+    \end{array}
+  \right.
+\]
+
+(where $\mathbb{Z}\!/\!q$ is the [[cyclic group]] or [[order of a group|order]] $q$, hence a [[torsion group]]).
+
+
+### Homotopy
 
 Lens spaces are the only [[3-manifolds]] with [[finite group|finite]], [[cyclic group|cyclic]], [[trivial group|non-trivial]] [[fundamental group]]. The reverse direction of this statement (that a 3-manifold with such a fundamental group must be a lens space) is closely related to the [[Poincaré conjecture]].
 
 Lens spaces are important in [[geometric topology]]. They offer the simplest examples of [[smooth manifolds]] which cannot be distinguished by [[homotopy theory]].
+
+
 
 ### Via Dehn surgery
 
@@ -152,10 +186,6 @@ In the context of [[orbifolds]]:
 
 * Michel Boileau, Steven Boyer, Radu Cebanu, Genevieve S. Walsh, Section 3 of: _Knot commensurability and the Berge conjecture_, Geom. Topol. 16 (2012) 625-664 ([arXiv:1008.1034](https://arxiv.org/abs/1008.1034))
 
-On the [[3d-3d correspondence]] for lens spaces:
-
-* [[Du Pei]], Chapter III of: _3d-3d correspondence for Seifert manifolds_, 2016 ([spire:1469350](https://inspirehep.net/literature/1469350), [pdf](https://inspirehep.net/files/d509ff9e32448da3a5674f286b93224a))
-
 On classification of lens spaces:
 
 * {#Olum53} [[Paul Olum]], _Mappings of manifolds and the notion of degree_, Ann. of Math. (2) *58* (1953), p. 458–480. [JSTOR:1969748](https://www.jstor.org/stable/1969748)
@@ -166,7 +196,16 @@ On classification of lens spaces:
 
 On the [[ordinary cohomology]] of lens spaces:
 
-* Laurentio-George Maxim, *Cohomology of Lens Spaces* &lbrack;[pdf](https://people.math.wisc.edu/~lmaxim/753f13w7.pdf), [[Maxim-CohomologyOfLensSpaces.pdf:file]]&rbrack;
+* {#Maxim} Laurentio-George Maxim, *Cohomology of Lens Spaces* &lbrack;[pdf](https://people.math.wisc.edu/~lmaxim/753f13w7.pdf), [[Maxim-CohomologyOfLensSpaces.pdf:file]]&rbrack;
+
+On lens spaces in [[cosmic topology]]:
+
+* {#AurichLustig12} Ralf Aurich, Sven Lustig, *A survey of lens spaces and large-scale CMB anisotropy*, Mon. Not. Roy. Astron. Soc. **424** (2012) 1556-1562 &lbrack;[arXiv:1203.4086](https://arxiv.org/abs/1203.4086), [doi:10.1111/j.1365-2966.2012.21363.x](https://doi.org/10.1111/j.1365-2966.2012.21363.x)&rbrack;
+
+On the [[3d-3d correspondence]] for lens spaces:
+
+* [[Du Pei]], Chapter III of: _3d-3d correspondence for Seifert manifolds_, 2016 ([spire:1469350](https://inspirehep.net/literature/1469350), [pdf](https://inspirehep.net/files/d509ff9e32448da3a5674f286b93224a))
+
 
 
 [[!redirects lens spaces]]
