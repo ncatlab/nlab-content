@@ -88,6 +88,8 @@ where the _density parameter_ $\Omega$ consists of the contribution
 
 * [[cosmic inflation]]
 
+* [[cosmic topology]]
+
 * [[standard model of cosmology]]
 
 * [[structure formation]]
