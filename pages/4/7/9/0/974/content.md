@@ -436,6 +436,8 @@ Given a class of morphisms $\Sigma$ in a locally presentable category, the answe
 
 ## Related concepts
 
+* [[ind-object]]
+
 * [[PrCat]], [[Pr(∞,1)Cat]], [[Ho(CombModCat)]]
 
 * Another notion of "presentable category" is that of an _[[equationally presentable category]]_.
