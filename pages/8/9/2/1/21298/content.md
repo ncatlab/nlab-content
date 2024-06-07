@@ -39,9 +39,11 @@
 
   * [[multiverse]]
 
+* [[cosmic microwave background radiation]]
+
 * [[dark matter]], [[fuzzy dark matter]]
 
-* [[cosmic microwave background radiation]]
+* [[cosmic topology]], [[cosmic electromagnetism]]
 
 * [[quantum cosmology]], [[quantum gravity]]
 
