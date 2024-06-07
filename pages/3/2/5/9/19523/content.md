@@ -232,6 +232,8 @@ However, this may be over-interpreting the realism of these simple models. Accor
 
 * [[structure formation]]
 
+* [[cosmic topology]]
+
 ## References
 
 ### General
@@ -292,12 +294,12 @@ Critical review of [[dark energy]] in the standard model of cosmology:
 * {#GreenWald15} Stephen R. Green, [[Robert Wald]], _Comments on Backreaction_ ([arXiv:1506.06452](https://arxiv.org/abs/1506.06452))
 
 
-* {#BuchertEtAl15} [[Thomas Buchert]] et. al, _Is there proof that backreaction of inhomogeneities is irrelevant in cosmology?_, Class. Quantum Grav. 32 215021, 2015 ([arXiv:1505.07800](https://arxiv.org/abs/1505.07800))
+* {#BuchertEtAl15} [[Thomas Buchert]], [[Syksy Räsänen]], [[Boudewijn F. Roukema]] et al.: _Is there proof that backreaction of inhomogeneities is irrelevant in cosmology?_, Class. Quantum Grav. **32** (2015) 215021 &lbrack;[arXiv:1505.07800](https://arxiv.org/abs/1505.07800), [doi:10.1088/0264-9381/32/21/215021](https://iopscience.iop.org/article/10.1088/0264-9381/32/21/215021)&rbrack;
 
-  exposition in _[The Universe is inhomogeneous. Does it matter?](https://cqgplus.com/2016/01/20/the-universe-is-inhomogeneous-does-it-matter/)_ CQG+, 2016
+  exposition in: _[The Universe is inhomogeneous. Does it matter?](https://cqgplus.com/2016/01/20/the-universe-is-inhomogeneous-does-it-matter/)_ CQG+ (2016)
 
 
-* {#OstrowskiRoukema15} Jan J. Ostrowski, Boudewijn F. Roukema, _On the Green and Wald formalism_, The Fourteenth Marcel Grossmann Meeting ([arXiv:1512.02947](https://arxiv.org/abs/1512.02947), [talk slides pdf](https://cosmoback.sciencesconf.org/data/program/Ostrowski.pdf))
+* {#OstrowskiRoukema15} Jan J. Ostrowski, [[Boudewijn F. Roukema]], _On the Green and Wald formalism_, The Fourteenth Marcel Grossmann Meeting &lbrack;[arXiv:1512.02947](https://arxiv.org/abs/1512.02947), [talk slides pdf](https://cosmoback.sciencesconf.org/data/program/Ostrowski.pdf)&rbrack;
 
 * {#GreenWald16} Stephen Green, [[Robert Wald]], _A Simple, Heuristic Derivation of our "No Backreaction" Results_, Classical and Quantum Gravity, Volume 33, Number 12, 2016 ([arXiv:1601.06789](https://arxiv.org/abs/1601.06789))
 
