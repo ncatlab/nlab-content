@@ -237,6 +237,10 @@ One can ask for the notion of free cocompletion in the wider context of [[higher
 
 * [[conservative cocompletion]]
 
+* [[ind-object]]
+
+* [[sind-object]]
+
 ## References 
 
 * {#DayLack} [[Brian Day]], [[Steve Lack]], _Limits of small functors_ ([web](https://arxiv.org/abs/math/0610439))
