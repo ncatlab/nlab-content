@@ -48,6 +48,8 @@ The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 
 * [[Einstein-Maxwell theory]]
 
+* [[cosmic electromagnetism]]
+
 * [[Born-Infeld theory]]
 
 * [[vector meson dominance]]
