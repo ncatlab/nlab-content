@@ -879,7 +879,7 @@ $$
   X
 $$
 
-for some [[injection]] $\iota$.
+for some [[order]]-preserving [[injection]] $\iota$.
 
 =--
 
