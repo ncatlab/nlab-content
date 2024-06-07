@@ -100,6 +100,8 @@ This is possible because $\mathbb{R}^2 - \{0\}$ is not [[simply connected topolo
 
 * [[Dirac charge quantization]], [[magnetic monopole]]
 
+* [[cosmic topology]]
+
 * anyonic [[braid group statistics]] as Aharanov-Bohm effect for a *[[fictitious gauge field]]*
 
 ## References
