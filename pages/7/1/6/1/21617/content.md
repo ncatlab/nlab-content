@@ -36,7 +36,7 @@ $$
 $$
 
 
-of a [[n-sphere|(2d+1)-dimensional sphere]] by a [[free action]] of a [[finite group|finite]] [[cyclic group]] $\mathbb{Z}_n$; specifically --- under the identification of $S^{2d+1}$ with the [[unit sphere]] in the [[real vector space]] underlying $\mathbb{C}^{d+1}$ --- by the [[action]] induced from a [[linear representation]] of the form
+of a [[n-sphere|(2d+1)-dimensional sphere]] by a [[free action]] of a [[finite group|finite]] [[cyclic group]] $\mathbb{Z}_n$ (cf. *[[group actions on spheres]]*); specifically --- under the identification of $S^{2d+1}$ with the [[unit sphere]] in the [[real vector space]] [[underlying]] $\mathbb{C}^{d+1}$ --- by the [[action]] induced from a [[linear representation]] of the form
 
 $$
   \array{
@@ -56,18 +56,26 @@ $$
     \big)
     &\mapsto&
     \Big(
-      \exp( 2 \pi \mathrm{i} \tfrac{l_0}{n} ) \cdot z_0
-      ,
+      \exp\big( 
+        2 \pi \mathrm{i} \tfrac{l_0}{n} 
+      \big) 
+      \cdot z_0
+      ,\,
       \cdots
-      ,
-      \exp( 2 \pi \mathrm{i} \tfrac{l_d}{n} ) \cdot z_d
+      ,\,
+      \exp\big( 
+        2 \pi \mathrm{i} \tfrac{l_d}{n} 
+      \big) 
+      \cdot z_d
     \Big)
+    \,m
   }
 $$
 
-for [[natural numbers]] $l_i$ [[coprime integer|coprime]] to $n$: $gcd(l_i,n) = 1$.
+for [[natural numbers]] $l_i \in \mathbb{N}$ [[coprime integer|coprime]] to $n$: $gcd(l_i,n) = 1$.
 
 Often this is considered by default for $2d + 1 = 3$, in which case lens spaces are examples of [[3-manifolds]], and as such are in some sense the simplest after the [[3-sphere]] $S^{3}$ and the [[product manifold]] $S^{2} \times S^{1}$ of the [[2-sphere]] with the [[circle]]. 
+
 
 ## Properties
 
@@ -104,7 +112,7 @@ In both theorems, the same $n$ for both lens spaces is a necessary condition for
 ### Cohomology
  {#Cohomology}
 
-The [[ordinary cohomology|ordinary]] [[integral cohomology]] of the lens space $L(n,q) \coloneqq S^{2n+1}/(\mathbb{Z}/q)$ is &lbrack;e.g. [Maxim, p. 2](#Maxim)&rbrack;:
+The [[ordinary cohomology|ordinary]] [[integral cohomology]] of the lens space $L(n,q) \coloneqq L\big(n,\{q,q, \cdots, q\}\big)$ is &lbrack;e.g. [Maxim, p. 2](#Maxim)&rbrack;:
 
 \[
   \label{IntegralCohomologyOfLensSpace}
