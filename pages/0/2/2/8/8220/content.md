@@ -25,52 +25,7 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 
 ## Related entries
 
-[[cosmology -- contents]]
-
-* [[redshift]], [[comoving time]]
-
-* [[gravity]], [[standard model of particle physics]]
-
-* [[observable universe]]
-
-  * [[hydrogen line]]
-
-* [[big bang]], [[steady state model of cosmology]]
-
-* [[FRW model]], [[standard model of cosmology]]
-
-* [[QCD cosmology]]
-
-* [[structure formation]]
-
-* [[cosmological constant]], [[dark energy]]
-
-  * [[inhomogeneous cosmology]]
-
-  * [[Witten's Dark Fantasy]]
-
-* [[dark matter]], [[fuzzy dark matter]]
-
-* [[cosmic inflation]]
-
-  * [[chaotic inflation]], [[multiverse]]
-
-* [[cosmic microwave background radiation]]
-
-* [[quantum cosmology]], [[quantum gravity]]
-
-* [[Kaluza-Klein compactification]]
-
-* [[Randall-Sundrum model]]
-
-* [intersecting D-brane model cosmology](intersecting+D-brane+model#Cosmology)
-
-* [[brane gas cosmology]]
-
-* [[ekpyrotic cosmology]]
-
-
-* [string theory FAQ -- Does string theory tell us anything about cosmology?](string+theory+FAQ#InsightsIntoCosmology)
+[[!nclude cosmology -- contents]]
 
 
 ## References
