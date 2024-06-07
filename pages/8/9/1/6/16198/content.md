@@ -85,6 +85,8 @@ Review includes
 
 * [[Hans-Peter Nilles]], _Hidden Sector Supergravity Breakdown_, Nucl. Phys. Proc. Suppl. 101 (2001) 237-250 ([arXiv:hep-ph/0106063](https://arxiv.org/abs/hep-ph/0106063))
 
+* Yael Shadmi, Yuri Shirman. *Dynamical supersymmetry breaking.* Reviews of Modern Physics 72, no. 1 (2000): 25. ([doi](https://doi.org/10.1103/RevModPhys.72.25)) ([arXiv:hep-th/9907225](https://www.arxiv.org/abs/hep-th/9907225))
+
 * Yael Shadmi, _Supersymmetry breaking_ ([arXiv:hep-th/0601076](http://arxiv.org/abs/hep-th/0601076)) 
 
 * [[Matteo Bertolini]], _Supersymmetry breaking_ ([pdf](http://people.sissa.it/~bertmat/lect7.pdf))
