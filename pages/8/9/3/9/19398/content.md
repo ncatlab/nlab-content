@@ -441,9 +441,17 @@ Given an continuous [[action]] of the [[circle group]] on the [[topological spac
 
 (...)
 
+
+## Related concepts
+
+* [[lens space]]
+
+
+
 ## Literature
 
-See also the references at *[[spherical space form]]*.
+> See also the references at *[[spherical space form]]*.
+
 
 ### Characterization of finite free actions by homeomorphisms
 
@@ -533,6 +541,7 @@ Further discussion of these actions of $Spin(8)$ on the [[7-sphere]] is in
 * [[Paul de Medeiros]], [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
 where they are related to the [[black brane|black]] [[M2-brane]] [[BPS state|BPS]]-solutions of [[11-dimensional supergravity]] at [[ADE-singularities]].
+
 
 ### Discussion of circle-actions
 
