@@ -44,7 +44,7 @@ The key technical point is the claim that a careful analysis of [[D=4 N=1 superg
 ### Closed spatial slices
  {#ClosedSpatialSlices}
 
-The concrete realization of [[Witten's Dark Fantasy]] in the [[F-theory]] [[model (in theoretical physics)|model]] of [Heckmann-Lawrie-Lin-Zoccarato1 18](#HeckmannLawrieLinZoccarato118) is a [[cosmology]] where spatial slices are [[closed manifold|closed]] and in fact of the [[topology]] of the [[3-sphere]]:
+The concrete realization of [[Witten's Dark Fantasy]] in the [[F-theory]] [[model (in theoretical physics)|model]] of [Heckmann-Lawrie-Lin-Zoccarato1 18](#HeckmannLawrieLinZoccarato118) is a [[cosmology]] where spatial slices are [[closed manifold|closed]] and in fact of the ([[cosmic topology|cosmic]]) [[topology]] of the [[3-sphere]]:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/PixelatedSpatialSliceInWittenDarkFantasyModel.jpg" width="700">
