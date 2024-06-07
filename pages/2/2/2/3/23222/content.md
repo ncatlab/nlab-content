@@ -24,8 +24,19 @@ A _locally strongly finitely presentable category_ is like a [[locally finitely 
 
 Locally strongly finitely presentable category are precisely those categories equivalent to [[varieties of algebras]].
 
+## Definition
+
+A category $C$ satisfying (any of) the following equivalent conditions is said to be __locally strongly finitely presentable__ (or **lsfp**):
+
+1. $C$ is the [[free cocompletion]] of a [[small category]] with [[finite coproducts]] under [[sifted colimits]]: see [[sind-object]].
+1. $C$ has all small [[colimit|colimits]], the category $C_{sfp}$ is [[essentially small category|essentially small]], and any object in $C$ is a [[sifted colimit]] of the canonical diagram of strongly finitely presentable objects mapping into it.
+1. $C$ is the category of models for an [[algebraic theory]].
+1. $C$ is the category of models for a finite product [[sketch]].
+1. $C_{sfp}$ has finite coproducts, and the restricted [[Yoneda embedding]] $C\hookrightarrow [C_{sfp}^{op},Set]$ identifies $C$ with the category of finite-product-preserving functors $C_{fp}^{op} \to Set$.
+
 ## Related pages
 
+- [[sind-object]]
 - [[locally finitely presentable category]]
 - [[sifted category]]
 
