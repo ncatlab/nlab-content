@@ -23,10 +23,9 @@ Poisson-Lie T-duality may also be made manifest at the level of [[type II superg
 
 ## As a partial duality of string theory
 
-While ordinary abelian [[T-duality]] is supposedly a full [[duality in string theory]], in particular in that it is an equivalence on the [[string perturbation series]] to all orders of the squared [[string length]]/[[Regge slope]] $\alpha'$ and the [[string coupling constant]] $g_s$, it has apparently been shown by [[Martin Roček]] (citation?) that there are topological [[obstructions]] at higher [[genus of a surface|genus]] for non-abelian T-duality, letting it break down in higher orders of $g_s$; and already a genus-0 ([[tree level]]) it apparently breaks down for the [[open string]] (i.e. on punctured [[disks]]) at some order of $\alpha'$. 
+While ordinary abelian [[T-duality]] is supposedly a full [[duality in string theory]], in particular in that it is an equivalence on the [[string perturbation series]] to all orders of the squared [[string length]]/[[Regge slope]] $\alpha'$ and the [[string coupling constant]] $g_s$, it has apparently been shown by [[Martin Roček]] ([Rocek 93](#Rocek93)) that there are topological [[obstructions]] at higher [[genus of a surface|genus]] for non-abelian T-duality, letting it break down in higher orders of $g_s$; and already a genus-0 ([[tree level]]) it apparently breaks down for the [[open string]] (i.e. on punctured [[disks]]) at some order of $\alpha'$. 
 
 But see [Hassler 20](#Hassler20), [Borsato-Wulff 20](#BorsatoWulff20).
-
 
 
 
@@ -81,8 +80,9 @@ Discussion of non-abelian T-duality from a comprehensive picture of [[higher dif
 
 See also
 
-* {#FraserManolopoulosSfetsos18} Benjo Fraser, Dimitrios Manolopoulos, [[Konstantinos Sfetsos]], _Non-Abelian T-duality and Modular Invariance_ ([arXiv:1805.03657](https://arxiv.org/abs/1805.03657))
+* {#Rocek93} Amit Giveon, [[Martin Roček]], _On Nonabelian Duality_ ([arXiv:hep-th/9308154](https://www.arxiv.org/abs/hep-th/9308154))
 
+* {#FraserManolopoulosSfetsos18} Benjo Fraser, Dimitrios Manolopoulos, [[Konstantinos Sfetsos]], _Non-Abelian T-duality and Modular Invariance_ ([arXiv:1805.03657](https://arxiv.org/abs/1805.03657))
 
 * Francesco Bascone, Franco Pezzella, Patrizia Vitale, _Poisson-Lie T-Duality of WZW Model via Current Algebra Deformation_ ([arXiv:2004.12858](https://arxiv.org/abs/2004.12858))
 
