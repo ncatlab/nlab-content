@@ -131,6 +131,10 @@ and described in terms of [[linear logic]] and the [[geometry of interactions]]:
 * [[Daniel Murfet]], _The cut operation on matrix factorisations_, Journal of Pure and Applied Algebra
 **222** 7 (2018) 1911-1955 &lbrack;[arXiv:1402.4541](https://arxiv.org/abs/1402.4541), [doi:10.1016/j.jpaa.2017.08.014](https://doi.org/10.1016/j.jpaa.2017.08.014)&rbrack;
 
+A proposed Landau-Ginzburg model for strict 2-groups:
+
+* Ruizhi Liu, Ran Luo, Yi-Nan Wang. *Higher-Matter and Landau-Ginzburg Theory of Higher-Group Symmetries* (2024). ([arXiv:2406.03974](https://arxiv.org/abs/2406.03974)).
+
 
 Orbifolds of defects are studied in
 
