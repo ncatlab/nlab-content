@@ -62,6 +62,8 @@ See at _[[distributivity of products and colimits]]_.
 
 ## See also
 
+* [[sind-object]], an object in the [[free cocompletion]] under sifted colimits
+
 * [[sifted (infinity,1)-colimit|sifted $(\infty,1)$-colimit]]
 
 * [[finite product]]
