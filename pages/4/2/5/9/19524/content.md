@@ -25,9 +25,9 @@ On [[inhomogeneous cosmology]]:
 
 * {#Buchert11} [[Thomas Buchert]], _Toward physical cosmology: focus on inhomogeneous geometry and its non-perturbative effects_, Class.Quant.Grav.28:164007, 2011 ([arXiv:1103.2016](https://arxiv.org/abs/1103.2016))
 
-* {#BuchertEtAl15} [[Thomas Buchert]] et. al, _Is there proof that backreaction of inhomogeneities is irrelevant in cosmology?_, Class. Quantum Grav. 32 215021, 2015 ([arXiv:1505.07800](https://arxiv.org/abs/1505.07800))
+* {#BuchertEtAl15} [[Thomas Buchert]], [[Syksy Räsänen]], [[Boudewijn F. Roukema]] et al.: _Is there proof that backreaction of inhomogeneities is irrelevant in cosmology?_, Class. Quantum Grav. **32** (2015) 215021 &lbrack;[arXiv:1505.07800](https://arxiv.org/abs/1505.07800), [doi:10.1088/0264-9381/32/21/215021](https://iopscience.iop.org/article/10.1088/0264-9381/32/21/215021)&rbrack;
 
-  exposition in _[The Universe is inhomogeneous. Does it matter?](https://cqgplus.com/2016/01/20/the-universe-is-inhomogeneous-does-it-matter/)_ CQG+, 2016
+  exposition in: _[The Universe is inhomogeneous. Does it matter?](https://cqgplus.com/2016/01/20/the-universe-is-inhomogeneous-does-it-matter/)_ CQG+ (2016)
 
 * Léo Brunswic, [[Thomas Buchert]], _Gauss-Bonnet-Chern approach to the averaged Universe_, Class. Quantum Grav. 37 (2020) 215022 ([arXiv:2002.08336](https://arxiv.org/abs/2002.08336))
 
