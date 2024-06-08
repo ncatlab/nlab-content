@@ -48,8 +48,13 @@ if $L$ is linearly ordered and the underlying set $C = L^\mathbb{N}$ is regarded
 
 * $c \lt c'$ if $h(c) \lt h(c')$ or ($h(c) = h(c')$ and $t(c) \lt t(c')$). 
 
-For the special case $L = \mathbb{N}$, the terminal coalgebra $\mathbb{N}^\mathbb{N}$ with this lexicographic order is order-isomorphic to the real interval $[0, \infty)$. This isomorphism is described more precisely [here](/nlab/show/continued+fraction#PavPratt). 
+For the special case $L = \mathbb{N}$, the terminal coalgebra $\mathbb{N}^\mathbb{N}$ with this lexicographic order is order-isomorphic to the real interval $[0, \infty)$. This isomorphism is described more precisely [here](/nlab/show/continued+fraction#PavPratt).
 
+## References
+
+A categorical analysis of the lexicographic order is given in:
+
+* Reinhard Börger, Walter Tholen, and Anna Tozzi, _Lexicographic sums and fibre-faithful maps_, Applied Categorical Structures 1 (1993): 59-83.
 
 [[!redirects lexicographic ordering]] 
 [[!redirects dictionary order]] 
