@@ -1,6 +1,14 @@
 
-* [website](http://www.physics.rutgers.edu/~gmoore)
-* wikipedia: [Greg Moore (physicist)](https://en.wikipedia.org/wiki/Gregory_W._Moore)
+* [personal page](http://www.physics.rutgers.edu/~gmoore)
+
+* [institute page](https://physics.rutgers.edu/people/faculty-list/faculty-profile/moore-greg)
+
+* [Wikipedia page](https://en.wikipedia.org/wiki/Gregory_W._Moore)
+
+* [InSpire page](https://inspirehep.net/authors/996922)
+
+* [GoogleScholar page](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Greg+Moore&btnG=)
+
 
 ## Selected writings
 
