@@ -100,7 +100,8 @@ The [[automorphism 2-group]] of the [[T-duality 2-group]] (and hence potentially
 
 Introduction and review:
 
-* [[Konrad Waldorf]], *Stacks, Gerbes and T-Duality*, talk notes, Adelaide (2019) &lbrack;[pdf](http://math.konradwaldorf.de/www/link.php?lg=en&link=257&savename=Waldorf-Stacks-Gerbes-and-T-Duality.pdf)&rbrack;
+* [[Konrad Waldorf]], *Stacks, Gerbes and T-Duality*, talk notes, Adelaide (2019) ([[waldorf19notes.pdf:file]])
+
 
 Proposals for further generalization ([[connection on a 2-bundle|2-connections]] and further [[non-geometric backgrounds]]):
 
