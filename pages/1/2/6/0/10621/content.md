@@ -1,4 +1,4 @@
-Sergei Novikov (Russian: Серге́й Петро́вич Но́виков) is a Russian mathematician, Fields medalist (1970).
+Sergei Novikov (Russian: Серге́й Петро́вич Но́виков) was a Russian mathematician, (20 March 1938 – 6 June 2024), Fields medalist (1970).
 
 * <a href="https://en.wikipedia.org/wiki/Sergei_Novikov_(mathematician)">Wikipedia entry</a>
 
