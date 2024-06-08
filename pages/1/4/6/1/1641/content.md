@@ -9,7 +9,6 @@
 =--
 =--
 
-# Topological categories
 * table of contents
 {: toc}
 
