@@ -41,7 +41,7 @@ Where a [[smooth manifold]] is a [[space]] locally modeled on [[Cartesian spaces
 
 This turns out to be broadly captured ([Moerdijk-Pronk 97](#MoerdijkPronk97), [Moerdijk 02](#Moerdijk02)) by saying that an orbifold is a [[proper groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoid]]. ([[Morita equivalence|Morita equivalent]] Lie groupoids correspond to the same orbifolds.)
 
-The word _orbifold_ was introduced in ([Thurston 1992](#Thurston)), while the original name was _$V$-manifold_ ([Satake](#Satake)), and was taken in a more restrictive sense, assuming that the [[actions]] of [[finite groups]] on the charts are always [[effective group action|effective]]. Nowadays these are called _effective orbifolds_ and those which are global quotients by a finite group are _[[global quotient orbifolds]]_.  
+The word _orbifold_ was introduced in ([Thurston 1992](#Thurston92)), while the original name was _$V$-manifold_ ([Satake](#Satake)), and was taken in a more restrictive sense, assuming that the [[actions]] of [[finite groups]] on the charts are always [[effective group action|effective]]. Nowadays these are called _effective orbifolds_ and those which are global quotients by a finite group are _[[global quotient orbifolds]]_.  
 
 There is also a notion of finite stabilizers in [[algebraic geometry]]. A singular variety is called an (algebraic) _orbifold_ if it has only so-called _orbifold singularities_.
 
@@ -160,13 +160,13 @@ The original articles:
 
 * [[Ichiro Satake]], _The Gauss&#8211;Bonnet theorem for $V$-manifolds_, J. Math. Soc. Japan 9 (1957), 464&#8211;492 ([euclid:1261153826](https://projecteuclid.org/euclid.jmsj/1261153826))
 
-* {#Thurston} [[William Thurston]], _Three-dimensional geometry and topology,_ preliminary draft, University of Minnesota, Minnesota, (1992)
-  
-  which in completed and revised form is available as his book: 
+* {#Thurston92} [[William Thurston]]: *Three-dimensional geometry and topology*, preliminary draft, University of Minnesota (1992) &lbrack;1979: [ark:/13960/t3714t34v](https://archive.org/details/ThurstonTheGeometryAndTopologyOfThreeManifolds/mode/2up), 1991:  [[Thurston-3dGeometry-1991.pdf:file]], 2002: [pdf](https://www.math.unl.edu/~jkettinger2/thurston.pdf), [[Thurston-3dGeometry-2002.pdf:file]]&rbrack;
+   
+  the first three chapters of which are published in expanded form as:
 
-  _The Geometry and Topology of Three-Manifolds;_ ([web](http://library.msri.org/books/gt3m/))
+* [[William Thurston]]: _The Geometry and Topology of Three-Manifolds_, Princeton University Press (1997) &lbrack;[ISBN:9780691083049](https://press.princeton.edu/books/hardcover/9780691083049/three-dimensional-geometry-and-topology-volume-1), [Wikipedia page](https://en.wikipedia.org/wiki/The_geometry_and_topology_of_three-manifolds)&rbrack;
 
-  in particular the orbifold discussion is in [chapter 13](http://library.msri.org/books/gt3m/PDF/13.pdf)
+  in particular orbifolds are discussed in [chapter 13](http://library.msri.org/books/gt3m/PDF/13.pdf)
 
 * [[André Haefliger]], _Groupoides d'holonomie et classifiants_, Astérisque no. 116 (1984), p. 70-97 ([numdam:AST_1984__116__70_0/](http://www.numdam.org/item/AST_1984__116__70_0/))
 
@@ -205,11 +205,11 @@ See also
 
 * Wikipedia,  _[Orbifolds](http://en.wikipedia.org/wiki/Orbifold)_ 
 
-  (which is mainly tailored toward [Thurston's approach](#Thurston)). 
+  (which is mainly tailored toward [Thurston's approach](#Thurston92)). 
 
-Additional examples:
+On [[good orbifolds]]:
 
-* {#Lange24} Christian Lange. *Good, but not very good orbifolds* (2024). ([arXiv:2404.14234](https://arxiv.org/abs/2404.14234)).
+* {#Lange24} Christian Lange: *Good, but not very good orbifolds* &lbrack;[arXiv:2404.14234](https://arxiv.org/abs/2404.14234)&rbrack;
 
 
 Textbook account:
