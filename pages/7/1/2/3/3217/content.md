@@ -609,27 +609,31 @@ The notion of foliated manifolds was introduced in the 1950s, motivated from [[p
 
 * [[Eli Cartan]], _Sur l'int&#233;gration des &#233;quations diff&#233;rentiels completement int&#233;grable_, Oeuvres Compl&#232;tes, Pt. II, Vol. I, 555-561.
 
-A discussion in [[differential geometry]] is in
+Early discussion:
 
-* Robert Hermann, _On the differential geometry of foliations_, Annals of Mathematics, Second Series, Vol. 72, No. 3 pp. 445-457 ([jstor](http://www.jstor.org/stable/1970226))
+* Robert Hermann, _On the differential geometry of foliations_, Annals of Mathematics, Second Series **72** 3 (1960) 445-457 &lbrack;[jstor:1970226](http://www.jstor.org/stable/1970226)&rbrack;
 
-A textbook account with a view to the modern formulation in [[Lie groupoid]] theory is 
+* [[William Thurston]]: *The theory of foliations of codimension greater than one*, Comm. Math. Helv. **49** (1974) 214-231 &lbrack;[eudml:139581](https://eudml.org/doc/139581), [doi:10.1007/BF02566730](https://doi.org/10.1007/BF02566730)&rbrack;
 
-* [[Ieke Moerdijk]], [[Janez Mr?un]], _[[Introduction to foliations and Lie groupoids]]_, Cambridge Studies in Advanced Mathematics __91__, 2003. x+173 pp. ISBN: 0-521-83197-0
- {#MoerdijkMrcun}
+* [[William Thurston]]: *Existence of codimension-one foliations*, Annals of Math. **104** (1976) 249-268 &lbrack;[jstor:1971047](https://www.jstor.org/stable/1971047), [doi:10.2307/1971047](https://doi.org/10.2307/1971047)&rbrack;
 
-Foliations in [[Lie groupoid]] theory are discussed in more detail in 
 
-* [[Marius Crainic]], [[Ieke Moerdijk]], _Foliation groupoids and their cyclic homology_ ([arXiv:math/0003119](http://arxiv.org/abs/math/0003119))
- {#CrainicMoerdijk}
 
-The corresponding [[groupoid algebras]] are discussed in chapter 2, section 8 of 
+Discussion in terms of [[Lie groupoids]]:
 
-* [[Alain Connes]], _[[Noncommutative Geometry]]_
+* {#MoerdijkMrcun} [[Ieke Moerdijk]], [[Janez Mrcun]], _[[Introduction to foliations and Lie groupoids]]_, Cambridge Studies in Advanced Mathematics __91__ (2003) &lbrack;ISBN: 0-521-83197-0&rbrack;
+ 
+* {#CrainicMoerdijk} [[Marius Crainic]], [[Ieke Moerdijk]], _Foliation groupoids and their cyclic homology_ &lbrack;[arXiv:math/0003119](http://arxiv.org/abs/math/0003119)&rbrack;
+ 
+The corresponding [[groupoid algebras]]:  
 
-See also
+* [[Alain Connes]], chapter 2, section 8 of: _[[Noncommutative Geometry]]_
 
-* [wikipedia](http://en.wikipedia.org/wiki/Foliation), Springer Online Enc. of Math.: [foliation](http://eom.springer.de/F/f040740.htm)
+See also:
+
+* Wikipedia, *[Foliation](http://en.wikipedia.org/wiki/Foliation)* 
+
+* [[Encyclopedia of Mathematics]]: *[Foliation](http://eom.springer.de/F/f040740.htm)*
 
 A survey by Fuks in Russian Itogi:
 
