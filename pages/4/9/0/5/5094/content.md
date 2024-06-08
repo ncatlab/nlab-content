@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On the [[lexicographic order]]:
+
+* [[Reinhard Börger]], [[Walter Tholen]], Anna Tozzi: _Lexicographic sums and fibre-faithful maps_, Applied Categorical Structures **1** (1993) 59-83 &lbrack;[doi:10.1007/BF00872986](https://doi.org/10.1007/BF00872986)&rbrack;
+
+
 On ([[monadic descent|monadic]]) [[descent]]:
 
 * {#JanelidzeTholen94} [[George Janelidze]], [[Walter Tholen]], *Facets of descent I*, Applied Categorical Structures **2** 3 (1994) 245-281 &lbrack;[doi:10.1007/BF00878100](https://doi.org/10.1007/BF00878100)&rbrack;
