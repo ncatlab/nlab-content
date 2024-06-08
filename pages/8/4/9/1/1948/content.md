@@ -48,7 +48,7 @@ If either of these choices defines a model structure on $[D,C]$, we call it the 
 The projective model structure can be regarded as a right-[[transferred model structure]].  This yields the following basic result on its existence.
 
 \\begin{theorem}\label{ExistenceOfProjectiveStructureOnEnrichedFunctors}
-**(existence and cofibrant generation of projective structure on enriched fuinctors)**
+**(existence and cofibrant generation of projective structure on enriched functors)**
 \linebreak
 Given
 
