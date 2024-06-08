@@ -753,7 +753,7 @@ or
 
 * fall back to the HTML tag
 
-  `<a href="url">text</a>`
+  `<a href="url">link text</a>`
 
 
 For example
