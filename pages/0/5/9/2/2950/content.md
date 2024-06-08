@@ -1,6 +1,6 @@
 
 * [website](http://www.physics.rutgers.edu/~gmoore)
-* wikipedia: [Greg Moore (physicist)](https://en.wikipedia.org/wiki/Greg_Moore_(physicist))
+* wikipedia: [Greg Moore (physicist)](https://en.wikipedia.org/wiki/Gregory_W._Moore)
 
 ## Selected writings
 
