@@ -109,7 +109,7 @@ The map $h: X \to X D$ may be viewed as a homotopy. Again, turning to the topolo
 
 +-- {: .num_remark #rem}
 ###### Remark 
-Definition \ref{acyclic} gives an *absolute* notion of acyclicity, in the sense that if $X: \Delta_a^{op} \to \mathbf{C}$ carries an acyclic structure $h: X \to X D$ and $G: \mathbf{C} \to \mathbf{C}'$ is any functor, then $G X$ automatically carries an acyclic structure $G h: F X \to F X D$. (For example, $G X$ becomes acyclic in a standard model category sense under any functor $G: \mathbf{C} \to Set$.) 
+Definition \ref{acyclic} gives an *absolute* notion of acyclicity, in the sense that if $X: \Delta_a^{op} \to \mathbf{C}$ carries an acyclic structure $h: X \to X D$ and $G: \mathbf{C} \to \mathbf{C}'$ is any functor, then $G X$ automatically carries an acyclic structure $G h: G X \to G X D$. (For example, $G X$ becomes acyclic in a standard model category sense under any functor $G: \mathbf{C} \to Set$.) 
 =-- 
 
 ### Resolutions 
