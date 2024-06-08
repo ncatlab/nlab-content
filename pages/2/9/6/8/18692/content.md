@@ -228,11 +228,6 @@ of $\mathsf{Weil}_1$.
     M \propto (X \mapsto XY): M \propto R[X]/X^2 \to M\propto R[X,Y](X^2,Y^2)
   \]
 
-
-### Tangent Structure as a Weighted Limit
-
-
-Using a theorem due to [[Richard Wood]], a
 ## References
 
 The definition is due to
