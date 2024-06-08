@@ -16,20 +16,30 @@
 
 ## Idea 
 
-The _lexicographic order_ is a generalization of the order in which words are listed in a dictionary, according to the order of letters where the spelling of two words first differs. 
+In [[order theory]], the _lexicographic order_ is a generalization of the order in which words are listed in a dictionary, according to the order of the first letters for which the spelling of two words differs. 
 
 ## Definition 
 
 +-- {: .num_defn} 
 ###### Definition 
-Let $\{L_i\}_{i \in I}$ be a [[well-ordered set|well-ordered]] family of [[strict total order|strictly totally ordered sets]]. The **lexicographic order** on the [[product]] of sets $L = \prod_{i \in I} L_i$ is the [[strict total order]] defined as follows: if $x, y \in L$ and $x \neq y$, then $x \lt y$ iff $x_i \lt y_i$ where $i$ is the least element in the set $\{j \in I: x_j \neq y_j\}$. 
+
+Let $\{L_i\}_{i \in I}$ be a [[well-ordered set|well-ordered]] [[indexed set|family]] of [[strict total order|strictly totally ordered sets]]. The **lexicographic order** on the [[Cartesian product]] of sets $L = \prod_{i \in I} L_i$ is the [[strict total order]] defined as follows: if $x, y \in L$ and $x \neq y$, then $x \lt y$ iff $x_i \lt y_i$ where $i$ is the [[least element]] in the set $\{j \in I \colon x_j \neq y_j\}$. 
+
 =-- 
 
-While this notion is most often seen for strict total orders, it can be applied also toward more general [[relations]]. For example, one might apply the construction to sets equipped with a transitive relation $\lt$, dropping the [[strict total order|trichotomy assumption]]. 
+While this notion is most often seen for strict total orders, it can be applied also toward more general [[relations]]. For example, one might apply the construction to sets equipped with a [[transitive relation]] $\lt$, dropping the [[strict total order|trichotomy assumption]]. 
 
-Often this notion is extended to subsets of $\prod_{i \in I} L_i$ as well. For instance, the [[free monoid]] $S^\ast$ on a linearly ordered set $S$ can be embedded in a countable power 
+Often this notion is extended to [[subsets]] of $\prod_{i \in I} L_i$ as well. For instance, the [[free monoid]] $S^\ast$ on a [[linear order|linearly ordered]] set $S$ can be embedded in a countable power 
 
-$$i \colon S^\ast \hookrightarrow (1 + S)^\mathbb{N} = \prod_{n \in \mathbb{N}} (1 + S)$$ 
+$$
+  i \;\colon\; 
+  S^\ast 
+  \xhookrightarrow{\phantom{--}} 
+  (1 + S)^\mathbb{N} 
+  \;=\; 
+  \prod_{n \in \mathbb{N}} (1 + S)
+  \,,
+$$ 
 
 where $1 + S$ is the result of freely adjoining a bottom element $e$ to $S$, and for each finite list $(s_1, \ldots, s_k)$ we have 
 
@@ -39,7 +49,7 @@ Then the lexicographic order on $S^\ast$ is the one inherited from its embedding
 
 +-- {: .num_remark #antidictionary} 
 ###### Remark 
-The decision to freely adjoin a _bottom_ element $e$ is of course purely a convention, based on the ordinary dictionary convention that the Scrabble word AAH should come after AA. Alternatively, we could equally well deem that $e$ is a freely adjoined top element, so that AA comes after AAH; this might be called the "anti-dictionary" convention. 
+The decision to freely adjoin a _[[bottom]]_ element $e$ is of course purely a convention, based on the ordinary dictionary convention that the Scrabble word AAH should come after AA. Alternatively, we could equally well deem that $e$ is a freely adjoined top element, so that AA comes after AAH; this might be called the "anti-dictionary" convention. 
 =-- 
 
 ### Corecursive definition 
@@ -52,9 +62,9 @@ For the special case $L = \mathbb{N}$, the terminal coalgebra $\mathbb{N}^\mathb
 
 ## References
 
-A categorical analysis of the lexicographic order is given in:
+A [[category theory|category theoretic]] analysis of lexicographic order:
 
-* [[Reinhard Börger]], [[Walter Tholen]], and Anna Tozzi, _Lexicographic sums and fibre-faithful maps_, Applied Categorical Structures 1 (1993): 59-83, [doi:10.1007/BF00872986](https://doi.org/10.1007/BF00872986).
+* [[Reinhard Börger]], [[Walter Tholen]], Anna Tozzi: _Lexicographic sums and fibre-faithful maps_, Applied Categorical Structures **1** (1993) 59-83 &lbrack;[doi:10.1007/BF00872986](https://doi.org/10.1007/BF00872986)&rbrack;
 
 [[!redirects lexicographic ordering]] 
 [[!redirects dictionary order]] 
