@@ -18,7 +18,7 @@ The notion of a *cocartesian coclosed category* is [[abstract duality|dual]] to 
 
 ## Definition 
 
-A **cocartesian coclosed category** is a [[locally cocartesian coclosed category]] $C$ with an [[initial object]]. Equivalently, it is a category $C$ with [[finite coproducts]] and [[coexponential objects]]. 
+A **cocartesian coclosed category** is a category $C$ with [[finite coproducts]] and [[coexponential objects]]. 
 
 ## Properties
 
