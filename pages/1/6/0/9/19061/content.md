@@ -17,19 +17,19 @@
 
 ## Idea
 
-What has come to be called _nonabelian T-duality_ ([de la Ossa-Quevedo 92](#OssaQuevedo92)) or _Poisson-Lie T-Duality_ (due to [Klimcik-Ševera 95](#KlimcikSevera95), [von Unge 02](#vonUnge02)) is a generalization of [[T-duality]] from [[fiber bundles]] equipped with an [[abelian group]] of [[isometries]] ([[torus]] [[bundles]]) to those with a [[nonabelian group]] of isometries.
+What has come to be called _nonabelian T-duality_ ([de la Ossa-Quevedo 1992](#OssaQuevedo92)) or _Poisson-Lie T-Duality_ (due to [Klimcik-Ševera 1995](#KlimcikSevera95), [von Unge 02](#vonUnge02)) is a generalization of [[T-duality]] from [[fiber bundles]] equipped with an [[abelian group]] of [[isometries]] ([[torus]] [[bundles]]) to those with a [[nonabelian group]] of isometries.
 
 Poisson-Lie T-duality may also be made manifest at the level of [[type II supergravity ]] in the framework of [[double field theory]] on [[Lie group|group manifolds]]. Using this framework both the NS/NS sector and the R/R sector are captured, and this allows to derive the transformation of the [[RR fields]] for full Poisson-Lie T-duality ([Hassler 17](#Hassler17)).
 
 ## As a partial duality of string theory
 
-While ordinary abelian [[T-duality]] is supposedly a full [[duality in string theory]], in particular in that it is an equivalence on the [[string perturbation series]] to all orders of the squared [[string length]]/[[Regge slope]] $\alpha'$ and the [[string coupling constant]] $g_s$, it has apparently been shown by [[Martin Roček]] ([Rocek 93](#Rocek93)) that there are topological [[obstructions]] at higher [[genus of a surface|genus]] for non-abelian T-duality, letting it break down in higher orders of $g_s$; and already a genus-0 ([[tree level]]) it apparently breaks down for the [[open string]] (i.e. on punctured [[disks]]) at some order of $\alpha'$. 
+While ordinary abelian [[T-duality]] is supposedly a full [[duality in string theory]], in particular in that it is an equivalence on the [[string perturbation series]] to all orders of the squared [[string length]]/[[Regge slope]] $\alpha'$ and the [[string coupling constant]] $g_s$, it was early on shown by [Giveon & Roček 1993](#Rocek93) that there are topological [[obstructions]] at higher [[genus of a surface|genus]] for non-abelian T-duality, letting it break down in higher orders of $g_s$; and already a genus-0 ([[tree level]]) it breaks down for the [[open string]] (i.e. on punctured [[disks]]) at some order of $\alpha'$. 
 
 But see [Hassler 20](#Hassler20), [Borsato-Wulff 20](#BorsatoWulff20).
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[topological T-duality]]
 
@@ -37,15 +37,18 @@ But see [Hassler 20](#Hassler20), [Borsato-Wulff 20](#BorsatoWulff20).
 
 ## References
 
-The original articles are
+The original articles:
 
-* {#OssaQuevedo92} Xenia C. de la Ossa, Fernando Quevedo, _Duality Symmetries from Non--Abelian Isometries in String Theories_, Nucl.Phys. B403 (1993) 377-394 ([hep-th/9210021](http://xxx.lanl.gov/abs/hep-th/9210021))
+* {#OssaQuevedo92} Xenia C. de la Ossa, Fernando Quevedo, _Duality Symmetries from Non--Abelian Isometries in String Theories_, Nucl.Phys. B **403** (1993) 377-394 &lbrack;[hep-th/9210021](https://arxiv.org/abs/hep-th/9210021)&rbrack;
 
-* {#KlimcikSevera95} [[Ctirad Klimcik]], [[Pavol Ševera]], _Dual non-Abelian duality and the Drinfeld double_, Physics Letters B, Volume 351, Issue 4, 1 June 1995, Pages 455-462 (<a href="https://doi.org/10.1016/0370-2693(95)00451-P">doi:10.1016/0370-2693(95)00451-P</a>)
+* {#Rocek93} [[Amit Giveon]], [[Martin Roček]], *On Nonabelian Duality*, Nucl. Phys. B **421** (1994) 173-190
+&lbrack;[arXiv:hep-th/9308154](https://www.arxiv.org/abs/hep-th/9308154), <a href="https://doi.org/10.1016/0550-3213(94)90230-5"</a>&rbrack;
 
-* {#vonUnge02} [[Rikard von Unge]], _Poisson-Lie T-plurality_,  Journal of High Energy Physics, Volume 2002, JHEP07 (2002) ([arXiv:hep-th/0205245](https://arxiv.org/abs/hep-th/0205245))
+* {#KlimcikSevera95} [[Ctirad Klimcik]], [[Pavol Ševera]], _Dual non-Abelian duality and the Drinfeld double_, Physics Letters B **351** 4 (1995) 455-462 &lbrack;<a href="https://doi.org/10.1016/0370-2693(95)00451-P">doi:10.1016/0370-2693(95)00451-P</a>&rbrack;
 
-Review includes
+* {#vonUnge02} [[Rikard von Unge]], _Poisson-Lie T-plurality_,  Journal of High Energy Physics **2002** JHEP07 (2002) &lbrack;[arXiv:hep-th/0205245](https://arxiv.org/abs/hep-th/0205245)&rbrack;
+
+Review:
 
 * I. Petr, _From Buscher Duality to Poisson‐Lie T‐Plurality on Supermanifolds_, AIP Conference Proceedings 1307, 119 (2010) (<a href="https://doi.org/10.1063/1.3527407">doi:10.1063/1.3527407</a>)
 
@@ -80,7 +83,6 @@ Discussion of non-abelian T-duality from a comprehensive picture of [[higher dif
 
 See also
 
-* {#Rocek93} Amit Giveon, [[Martin Roček]], _On Nonabelian Duality_ ([arXiv:hep-th/9308154](https://www.arxiv.org/abs/hep-th/9308154))
 
 * {#FraserManolopoulosSfetsos18} Benjo Fraser, Dimitrios Manolopoulos, [[Konstantinos Sfetsos]], _Non-Abelian T-duality and Modular Invariance_ ([arXiv:1805.03657](https://arxiv.org/abs/1805.03657))
 
