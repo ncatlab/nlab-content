@@ -10,6 +10,11 @@ Early discussion of [[connected objects]] (then called *coprime objects*):
 * [[Reinhard Börger]], _Multicoreflective subcategories and coprime objects_, Topology and its Applications **33** 2 (1989) 127-142 &lbrack;[pdf](https://core.ac.uk/download/pdf/81149450.pdf)&rbrack;
 
 
+On the [[lexicographic order]]:
+
+* [[Reinhard Börger]], [[Walter Tholen]], Anna Tozzi: _Lexicographic sums and fibre-faithful maps_, Applied Categorical Structures **1** (1993) 59-83 &lbrack;[doi:10.1007/BF00872986](https://doi.org/10.1007/BF00872986)&rbrack;
+
+
 
 On [[superconvex spaces]]:
 
