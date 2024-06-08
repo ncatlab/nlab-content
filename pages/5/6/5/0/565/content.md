@@ -225,6 +225,7 @@ A similar way to use Isbell's result applies to show that a really vast number o
 
 ## Related concepts
 
+* [[topological concrete category]]
 * [[concrete object]]
 * [[amnestic functor]]  (for many usual concrete categories, the forgetful functor happens to be amnestic)
 * [[function extensionality]]
