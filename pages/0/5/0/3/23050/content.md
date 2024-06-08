@@ -10,7 +10,7 @@ A _residuated lattice_ is an algebra, $L=(L,\wedge,\vee, \cdot, \backslash, /,1)
 
 * for all $a,b,c\in L$,
 
-$$(ab\le c)\Leftrightarrow (b\le a \backslash c)\Leftrightarrow (a\le c / b).$$
+$$(a b\le c)\Leftrightarrow (b\le a \backslash c)\Leftrightarrow (a\le c / b).$$
 
 ##Examples
 
