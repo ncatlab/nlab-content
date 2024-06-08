@@ -394,24 +394,34 @@ $\,$
 
 ## References
 
-The notion appears as a model for [[homotopy types]] in
+The category of sheaves of the site of smooth manifolds appears as a model for [[homotopy types]] in
 
 * [[Denis-Charles Cisinski]], Ch. 6 in: *Faisceaux localement asph&eacute;riques* (2003) &lbrack;[pdf](https://cisinski.app.uni-regensburg.de/mtest2.pdf), [[Cisinski-FaisceauxLocAsph.pdf:file]]&rbrack;
 
-and in the context of [[smooth ∞-groupoids]] in
+and in the context of [[simplicial homotopy theory]] in:
 
 * [[Daniel Dugger]], section 3.4, from page 29 on in:  _Sheaves and Homotopy Theory_ &lbrack;[web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf)&rbrack;
 
   > (the [[point of a topos|topos points]] of $Sh(Diff)$ are discussed there in example 4.1.2 on p. 36, mentioned before on p. 31)
 
-and then more explicitly, as a [[cohesive topos]] using the small site [[CartSp]], in
+The equivalent incarnation over the smaller site [[CartSp]] and discussion as a [[cohesive topos]] appears in
 
-* [[Urs Schreiber]], Def. 1.2.197 of: _[[schreiber:differential cohomology in a cohesive topos]]_
+* {#Schreiber13} [[Urs Schreiber]], Def. 1.2.16, Def. 1.3.58 of: _[[schreiber:differential cohomology in a cohesive topos]]_ &lbrack;[arXiv:1310.7930](https://arxiv.org/abs/1310.7930)&rbrack;
 
 
-Lecture notes:
+{#TerminologyOrigin} The terminology "smooth set" is due to
 
-* [[Urs Schreiber]]: _[[geometry of physics -- smooth sets]]_
+* nLab: *[[smooth set]]* --- from [revision 10](https://ncatlab.org/nlab/revision/diff/smooth+set/10) on (Feb 2013)
+
+* [Schreiber 2013](#dcct), [§1.2.2, p. 48](https://arxiv.org/pdf/1310.7930v1#page=48)
+
+  (which otherwise speaks of "smooth [[0-types]]")
+
+* [[Urs Schreiber]]: *[[geometry of physics -- smooth sets]]* --- from [revision 3](https://ncatlab.org/nlab/revision/diff/geometry+of+physics+--+smooth+sets/3) on (Nov 2014)
+
+* [[Igor Khavkine]], [[Urs Schreiber]], Def. 2.1 in: _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ &lbrack;[arXiv:1701.06238](https://arxiv.org/abs/1701.06238)&rbrack;
+
+
 
 Discussion of smooth sets as a [[convenient category of spaces|convenient category]] for [[variational calculus]] of [[Lagrangian quantum field theory|Lagrangian]] [[classical field theory]]:
 
