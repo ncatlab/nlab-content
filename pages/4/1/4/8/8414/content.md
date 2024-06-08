@@ -54,7 +54,7 @@ For the special case $L = \mathbb{N}$, the terminal coalgebra $\mathbb{N}^\mathb
 
 A categorical analysis of the lexicographic order is given in:
 
-* Reinhard Börger, Walter Tholen, and Anna Tozzi, _Lexicographic sums and fibre-faithful maps_, Applied Categorical Structures 1 (1993): 59-83.
+* [[Reinhard Börger]], [[Walter Tholen]], and Anna Tozzi, _Lexicographic sums and fibre-faithful maps_, Applied Categorical Structures 1 (1993): 59-83, [doi:10.1007/BF00872986](https://doi.org/10.1007/BF00872986).
 
 [[!redirects lexicographic ordering]] 
 [[!redirects dictionary order]] 
