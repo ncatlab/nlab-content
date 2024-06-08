@@ -765,6 +765,15 @@ produces
 :  [Monad (category theory)#Monads and adjunctions](http://en.wikipedia.org/wiki/Monad_%28category_theory%29#Monads_and_adjunctions)
 
 
+Alternatively, reference-style links handle parentheses correctly:
+
+    [Monad (category theory)#Monads and adjunctions][1]
+
+    [1]: http://en.wikipedia.org/wiki/Monad_(category_theory)#Monads_and_adjunctions
+
+produces
+:  [Monad (category theory)#Monads and adjunctions][1]
+[1]: http://en.wikipedia.org/wiki/Monad_(category_theory)#Monads_and_adjunctions
 
 ### How to add a floating table of contents
 
