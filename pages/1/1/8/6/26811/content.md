@@ -15,5 +15,12 @@ On [[anyons]]:
 &lbrack;[doi:10.1103/PhysRevB.87.235120](https://doi.org/10.1103/PhysRevB.87.235120), [arXiv:1303.4290](https://arxiv.org/abs/1303.4290)&rbrack;
 
 
+On [[Kitaev materials]] ([[spin liquids]]):
+
+* [[Simon Trebst]], *Kitaev Materials*,  &lbrack;[arXiv:1701.07056](https://arxiv.org/abs/1701.07056)&rbrack;
+
+* [[Simon Trebst]], Ciarán Hickey: *Kitaev Materials*, Physics Reports **950** (2022) 1-37 &lbrack;[doi:10.1016/j.physrep.2021.11.003](https://doi.org/10.1016/j.physrep.2021.11.003)&rbrack;
+
+
 category: people
 
