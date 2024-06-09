@@ -1017,6 +1017,9 @@ This construction carries over to the wider context of monoidal monads, see [[te
 
 See (more generally) [[commutative monad|examples of commutative monads]].
 
+## Related pages
+
+* [[tensor product theory]]
 
 ## References
 
