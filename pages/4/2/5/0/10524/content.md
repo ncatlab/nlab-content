@@ -31,6 +31,9 @@ Graphene is one of the [[solid]] [[phase of matter|phases]] of [[carbon]], appea
 
 ## Related concepts
 
+* [[goldene]]
+
+* [[quantum material]]
 
 ## References
 
