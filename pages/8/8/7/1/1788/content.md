@@ -1,10 +1,19 @@
 
-[Monad (category theory)#Monads and adjunctions][1]
 
-[1]: http://en.wikipedia.org/wiki/Monad_(category_theory)#Monads_and_adjunctions
+## Idea
 
-quantum magic states:
+In [[solid state physics]], *goldene* refers to atomic monolayers of [[gold]]; the term being a riff on *[[graphene]]* which refers to atomic monolayers of [[carbon]].
 
-* Sergei Bravyi, [[Alexei Kitaev]], *Universal Quantum Computation with ideal Clifford gates and noisy ancillas*, Phys. Rev. A **71** 022316 (2005) &lbrack;[arXiv:quant-ph/0403025](https://arxiv.org/abs/quant-ph/0403025), [doi:10.1103/PhysRevA.71.022316](https://doi.org/10.1103/PhysRevA.71.022316)&rbrack;
+## References
 
+Claims of synthesis of goldene:
 
+* Sudhir Kumar Sharma, Sudhir Kumar Sharma, Renu Pasricha, James Weston, Thomas Blanton, and [[Ramesh Jagannathan]]: *Synthesis of Self-Assembled Single Atomic Layer Gold Crystals-Goldene*, ACS Appl. Mater. Interfaces **14** 49 (2022) 54992–55003 &lbrack;[doi:10.1021/acsami.2c19743](https://doi.org/10.1021/acsami.2c19743)&rbrack;
+
+* Shun Kashiwaya, Yuchn Shi, Jun Lu, J. et al.: *Synthesis of goldene comprising single-atom layer gold*, Nat. Synth (2024) &lbrack;[doi:10.1038/s44160-024-00518-4](https://doi.org/10.1038/s44160-024-00518-4)&rbrack;
+
+See also: 
+
+* Wikipedia, *[Goldene](https://en.wikipedia.org/wiki/Goldene)*
+
+* SciTechDaily, *[Researchers Develop “Goldene” – A New Form of Ultra-Thin Gold With Semiconductor Properties](https://scitechdaily.com/researchers-develop-goldene-a-new-form-of-ultra-thin-gold-with-semiconductor-properties/)* (April 2024) 
