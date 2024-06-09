@@ -22,7 +22,7 @@ By a _linear extension_ of $P$ of size $n$, we mean an [[order-preserving functi
 To see that
 $$\Omega_P(n) = |Hom(P,(n))|$$
 defines a [[polynomial]] in $n$, first observe that any function $P \to (n)$ factors as a [[surjection]] from $P$ onto some $(k) = \{ 1 \lt \cdots \lt k \}$ (where $k \le n$), followed by an [[injection]] from $(k)$ to $(n)$. The total number of order-preserving functions from $P$ to $(n)$ can therefore be calculated explicitly as 
-$$\Omega_P(n) = \sum_{k=1}^{|P|} e_k \binom{n}{k}$$
+$$\Omega_P(n) = \sum_{k=0}^{|P|} e_k \binom{n}{k}$$
 where $e_k$ is the number of surjective order-preserving functions from $P$ to $(k)$. Hence $\Omega_P(n)$ is a polynomial of degree equal to the cardinality of $P$.
 
 ## Examples
