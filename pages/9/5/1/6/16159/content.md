@@ -86,7 +86,7 @@ $$
 
 * {#Boole1853} [[George Boole]], _An Investigation of the Laws of Thought_, (1853) (retyped [pdf](http://www.gutenberg.org/files/15114/15114-pdf.pdf))
 
-* {#SozeauTabareau} Matthieu Sozeau and Nicolas Tabareau, _Univalence For Free_ ([pdf](http://www.emn.fr/z-info/ntabareau/univalence_for_free/main.pdf))
+* {#SozeauTabareau} Matthieu Sozeau and Nicolas Tabareau, _Univalence For Free_ ([pdf](https://hal.science/hal-00786589v2/file/main.pdf))
 
 * {#Voevodsky14} [[Vladimir Voevodsky]], _Foundations of Mathematics: their past, present and future, Part II_, ([slides](https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/2014_09_Bernays_2%20presentation.pdf))
 
