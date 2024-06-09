@@ -742,18 +742,23 @@ Since the Instiki code for hyperlinks
 
       [link text](url)
 
-uses parenthesis, the parser gets confused when the `url` itself contains parenthesis. To work around this one can
+uses parenthesis, the parser apparently gets confused when the `url` itself contains parenthesis. To work around this one can
 
 * "escape" the parenthesis by replacing in the `url`
 
   "`(...)`" by "`%28...%29`" 
-
 
 or
 
 * fall back to the HTML tag
 
   `<a href="url">link text</a>`
+
+or 
+
+* use reference-style links
+
+  `[link text][1]` $\;$ `[1]: url`
 
 
 For example
@@ -764,16 +769,18 @@ produces
 
 :  [Monad (category theory)#Monads and adjunctions](http://en.wikipedia.org/wiki/Monad_%28category_theory%29#Monads_and_adjunctions)
 
-
-Alternatively, reference-style links handle parentheses correctly:
+or
 
     [Monad (category theory)#Monads and adjunctions][1]
 
     [1]: http://en.wikipedia.org/wiki/Monad_(category_theory)#Monads_and_adjunctions
 
-produces
+produces again
+
 :  [Monad (category theory)#Monads and adjunctions][1]
 [1]: http://en.wikipedia.org/wiki/Monad_(category_theory)#Monads_and_adjunctions
+
+
 
 ### How to add a floating table of contents
 
