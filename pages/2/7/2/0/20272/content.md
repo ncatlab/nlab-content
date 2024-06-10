@@ -15,7 +15,13 @@
 
 ## Idea
 
-A [[manifold]] of [[dimension]] 5
+A [[manifold]] of [[dimension of a manifold|dimension]] 5
+
+## Examples
+
+* [[5-sphere]]
+
+* [[Wu manifold]]
 
 
 ## Related concepts
@@ -24,10 +30,6 @@ A [[manifold]] of [[dimension]] 5
 
 [[!include low dimensional manifolds -- table]]
 
-## Examples
-
-* [[5-sphere]]
-* [[Wu manifold]]
 
 ## References
 
