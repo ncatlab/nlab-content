@@ -215,6 +215,23 @@ Note that if $k^* f^* \to h^* g^*$ is not an isomorphism, then there is only one
 
 If $f^*$ and $h^*$ have *right* adjoints $f_*$ and $h_*$, there is also a dual Beck--Chevalley condition saying that the mate $g^* f_* \to h_* k^*$ is an isomorphism.  By adjointness, if $f^*$ and $h^*$ have right adjoints and $g^*$ and $k^*$ have left adjoints, then $g^* f_* \to h_* k^*$ is an isomorphism if and only if $k_! h^* \to f^* g_!$ is.
 
+This proves the following statement.
+
+\begin{corollary}
+\label{DualExactSquare}
+Consider a square
+$$\array{A & \overset{g^*}{\to} & C\\
+  ^{f^*}\downarrow &\swArrow& \downarrow^{h^*}\\
+  B & \underset{k^*}{\to} & D}$$
+that satisfies the Beck-Chevalley condition (meaning that $k_! h^* \to f^* g_!$ is invertible).
+Assume that the vertical functors have right adjoints.
+Then the opposite square
+$$\array{A^\op & \overset{f^*}{\to} & B^\op \\
+  ^{g^*}\downarrow &\swArrow& \downarrow^{k^*}\\
+  C^\op & \underset{h^*}{\to} & D^\op}$$
+satisfies the Beck-Chevalley condition (meaning that $g^* f_* \to h_* k^*$ is invertible).
+\end{corollary}
+
 ### For bifibrations
 
 Originally, the Beck-Chevalley condition was introduced in ([B&#233;nabou-Roubaud, 1970](#BenabouRoubaud70)) for [[bifibrations]] over a base category with pullbacks. In *loc.cit.* they call this condition **Chevalley condition** because he introduced it in his 1964 seminar. 
@@ -459,7 +476,6 @@ This elementary example \ref{BeckChevalleyForPreImageBetweenPowerSets} actually 
 ### Systems of functor categories
  {#PullbacksOfOpfibrations}
 
-
 \begin{proposition}
 \label{BCForPresheavesOnPullbacksOfOpfibrations}
 Given 
@@ -487,9 +503,9 @@ Given
 
    (hence presenting a [[2-pullback]]/[[homotopy pullback]], see Rem. \ref{PullbackOfOpfibrationModelsTwoPullback} below),
 
-1. $\mathcal{C}$ any [[category]] with all [[small colimits]]
+1. $\mathcal{C}$ any [[category]] with all [[small colimits]],
 
-then the induced diagram of [[functor categories]]
+the square of categories induced from \eqref{StrictPullbackOfOpfibration} by forming forming [[functor categories]] valued in $\mathcal{C}$ satisfies the Beck-Chevalley condition, meaning that the induced natural transformation 
 
 $$
   \array{
@@ -498,7 +514,7 @@ $$
     [D, \mathcal{C}]
     \\
     \Big\downarrow\mathrlap{{}^{\psi_!}} 
-      && 
+      &\seArrow& 
     \Big\downarrow\mathrlap{{}^{\phi_!}}
     \\
     [C', \mathcal{C}] 
@@ -507,16 +523,9 @@ $$
   }
 $$
 
-(for $(-)^\ast$ denoting [[precomposition]] and $(-)_!$ denoting [[left Kan extension]]) 
-
-satisfies the Beck-Chevalley condition, in that there is a [[natural isomorphism]]
-
-$$
-  \psi_! \circ \beta^* 
-  \;\simeq\; \alpha^* \circ \phi_!
-  \,.
-$$
+(for $(-)^\ast$ denoting [[precomposition]] and $(-)_!$ denoting [[left Kan extension]]) is invertible.
 \end{proposition}
+
 For this statement in the more general context of [[quasicategories]] see [Joyal (2008), prop. 11.6](#Joyal08).
 \begin{proof}
 The proof relies on two observations:
