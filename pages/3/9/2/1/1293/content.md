@@ -4,10 +4,14 @@ Along with [[J. Daniel Christensen]], he presented an algorithm, written in C++,
 
 There are famously [no pictures of him on the web](http://gregegan.customer.netspace.net.au/images/GregEgan.htm).
 
+##Selected writings
+
+* [[J. Daniel Christensen]] and [[Greg Egan]], _An  Efficient  Algorithm  for the  Riemannian 10j Symbols_ [arxiv:gr-qc/0110045v3](http://arxiv.org/abs/gr-qc/0110045v3)
+
+* [[John C. Baez]], [[J. Daniel Christensen]], and [[Greg Egan]]. _Asymptotics of 10j Symbols_ Classical and Quantum Gravity 19, no. 24 (December 21, 2002): 6489–6513. [arXiv:gr-qc/0208010](https://arxiv.org/abs/gr-qc/0208010)
+
+Explanation, visualisation and calculation of the first homology of the [[Hantzsche-Wendt manifold]]:
+
+* {#Egan23} [[Greg Egan]], _[Loops Across Space](https://www.gregegan.net/DIDICOSM/Loops/Loops.html)_ (2023)
+
 category: people
-
-##References
-
-* J. Daniel Christensen and Greg Egan, _An  Efficient  Algorithm  for the  Riemannian 10j Symbols_ [arxiv:gr-qc/0110045v3](http://arxiv.org/abs/gr-qc/0110045v3)
-
-* Baez, John C., J. Daniel Christensen, and Greg Egan. _Asymptotics of 10j Symbols_ Classical and Quantum Gravity 19, no. 24 (December 21, 2002): 6489–6513. [https://doi.org/10.1088/0264-9381/19/24/315.](https://arxiv.org/abs/gr-qc/0208010)
