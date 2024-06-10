@@ -153,7 +153,10 @@ More in detail, this yields the following identifications:
 
 Lecture notes:
 
-* {#tomDieck09} [[Tammo tom Dieck]], _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf), [[tomDieckRepresentationTheory.pdf:file]])
+* [[Pavel Etingof]], Oleg Golberg, Sebastian Hensel, Tiankai Liu, Alex Schwendner, [[Dmitry Vaintrob]], Elena Yudovina:
+*Introduction to representation theory*, Student Mathematical Library **59**, AMS (2011) &lbrack;[arXiv:0901.0827](https://arxiv.org/abs/0901.0827), [ams:stml-59](https://bookstore.ams.org/stml-59)&rbrack;
+
+* {#tomDieck09} [[Tammo tom Dieck]], _Representation theory_ (2009) &lbrack;[pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf), [[tomDieckRepresentationTheory.pdf:file]]&rbrack;
 
 * {#Teleman05} [[Constantin Teleman]], _Representation theory_, lecture notes 2005 ([pdf](https://math.berkeley.edu/~teleman/math/RepThry.pdf))
 
