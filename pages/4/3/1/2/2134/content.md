@@ -21,7 +21,8 @@ The lemma consists of two parts that depend on different assumptions (a distinct
 
 1. The first statement applies over _every_ [[ground field]]: 
 
-   It says that there are no non-[[zero morphism|zero]] [[homomorphisms]] between distinct (i.e. non-[[isomorphism|isomorphic]]) [[irreducible representations]] 
+   It says that there are no non-[[zero morphism|zero]] [[homomorphisms]] between distinct (i.e. non-[[isomorphism|isomorphic]]) [[irreducible representations]] and any non-zero morphism among
+isomorphic irreducibles is an isomorphism. 
 
 1. The second statement applies only in the special case that the [[ground field]] is an [[algebraically closed field]] (such as the [[complex numbers]]) and that the [[representations]] are [[finite dimensional vector space|finite-dimensional]]: 
 
