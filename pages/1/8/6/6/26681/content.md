@@ -64,7 +64,12 @@ Given an orthocompact space $X$, the [[product space]] $X\times[0,1]$ is orthoco
 * {#Dontchev98} Julian Dontchev, _Orthocompactness and semi-stratifiability in the density topology_. [arXiv:math/9809069](https://arxiv.org/abs/math/9809069)
 * {#Scott75} B. M. Scott, _Towards a product theory for orthocompactness_, "Studies in Topology", N.M. Stavrakas and K.R. Allen, eds (1975), 517–537.
 
+See also:
+
+* Wikipedia, _[Orthocompact space](https://en.wikipedia.org/wiki/Orthocompact_space)_
+
 [[!redirects orthocompact]]
+[[!redirects orthocompactness]]
 [[!redirects orthocompact spaces]]
 
 [[!redirects countably orthocompact]]
