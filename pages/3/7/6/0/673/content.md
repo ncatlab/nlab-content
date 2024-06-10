@@ -36,11 +36,11 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 * _Rigid models for 2-gerbes I: Chern-Simons geometry_ (2022) arXiv:[2209.05521](https://arxiv.org/abs/2209.05521). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]. (submitted for publication)
 
-* _Homotopy types of topological stacks of categories_ (2009/2022) arXiv:[2204.02778](https://arxiv.org/abs/2204.02778) (this paper was written when I was a PhD student, in 2008/09, but only polished and released on the arXiv in 2022). (submitted for publication)
-
 
 
 ### Papers
+
+* _Homotopy types of topological stacks of categories_, [New York Journal of Mathematics](https://nyjm.albany.edu/), to appear (2024). arXiv:[2204.02778](https://arxiv.org/abs/2204.02778) (this paper was written when I was a PhD student, in 2008/09, but only polished and released on the arXiv in 2022). 
 
 
 * _Substructural fixed-point theorems and the diagonal argument: theme and variations_, [Compositionality](https://compositionality-journal.org/) **5**, 8 (2023), doi:[10.32408/compositionality-5-8](https://doi.org/10.32408/compositionality-5-8), arXiv:[2110.00239](https://arxiv.org/abs/2110.00239). 
