@@ -56,6 +56,21 @@ The _[[geometrization conjecture]]_ says that every closed 3-manifold can be dec
 
 The _[[virtually fibered conjecture]]_ says that every closed, irreducible, atoroidal 3-manifold with infinite fundamental group has a finite cover which is a surface bundle over the circle.
 
+## Examples
+
+* [[3-sphere]]/[[SU(2)]]
+
+* $O(3)$ and [[SO(3)]]
+
+* [[lens space]]
+
+* [[Hantzsche-Wendt manifold]]
+
+* [[Seifert manifold]]
+
+* [[hyperbolic 3-manifold]]
+
+
 ## Related concepts
 
 * [[atoroidal 3-manifold]]
@@ -84,11 +99,6 @@ The _[[virtually fibered conjecture]]_ says that every closed, irreducible, ator
 
 [[!include low dimensional manifolds -- table]]
 
-## Examples
-
-* [[3-sphere]]/[[SU(2)]]
-* $O(3)$ and [[SO(3)]]
-* [[Hantzsche-Wendt manifold]]
 
 ## References
 
