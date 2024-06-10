@@ -18,6 +18,8 @@ Comprehensive review of expected [[top-down model building|top-down construction
 
 * [[Jonathan J. Heckman]], [[Tom Rudelius]], *Top Down Approach to 6D SCFTs*, J. Phys. A: Math. Theor. **52** 9 (2019) 093001 &lbrack;[arXiv:1805.06467](https://arxiv.org/abs/1805.06467), [doi:10.1088/1751-8121/aafc81](https://doi.org/10.1088/1751-8121/aafc81)&rbrack;
 
+* [[Jonathan J. Heckman]], Omar F. Ramadan, Jeremy Sakstein, *First Constraints on a Pixelated Universe in Light of DESI* &lbrack;[arXiv:2406.04408](https://arxiv.org/abs/2406.04408)&rbrack;
+
 
 Relating [[M-theory on Spin(7)-manifolds]] with [[F-theory on Spin(7)-manifolds]] via [[Higgs bundles]]:
 
@@ -29,7 +31,7 @@ On the [[swampland cobordism conjecture]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[SCFT]], [[string theory]], [[F-theory]]. 
 
