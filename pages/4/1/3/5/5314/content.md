@@ -21,7 +21,13 @@ By [[Gavin Wraith]], at the nForum [in this post](https://nforum.ncatlab.org/dis
 >
 > In those days it was knots and sphere-packing. Later came games. For years he had a running exchange of puzzles with someone in the North of England who made them as toys. He was very hands-on: popper beads for demonstrating knots and links, and strange wooden devices for calculating the touching-graph of circle-packings using pennies and a ruler to shove them up tight. 
 >
-> The last time I saw him not in the Mill Lane maths department tearoom he was tiling his kitchen floor with Penrose kites and darts. My mother used to babysit his daughters. Some of the faculty at Cambridge thought that he was a disturbing influence on their students; not serious enough. 
+> The last time I saw him not in the Mill Lane maths department tearoom he was tiling his kitchen floor with Penrose kites and darts. My mother used to babysit his daughters. Some of the faculty at Cambridge thought that he was a disturbing influence on their students; not serious enough.
+
+## Selected writings
+
+On platycosms (including the [[Hantzsche-Wendt manifold]]):
+
+* {#ConwayRossetti03} [[John Conway]] and Jean-Paul Rossetti, _Describing the platycosms_ (2003), [arXiv:math/0311476](https://arxiv.org/abs/math/0311476)
 
 ## Related entries
 
