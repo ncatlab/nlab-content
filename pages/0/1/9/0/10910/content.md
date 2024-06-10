@@ -94,3 +94,6 @@ On [[scattering amplitudes]] in [[pure spinor]]-formalism:
 [[!redirects 10d super Yang-Mills theory]]
 
 [[!redirects 10d SYM]]
+[[!redirects D=10 SYM]]
+
+
