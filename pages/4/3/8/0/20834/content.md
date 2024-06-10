@@ -21,7 +21,7 @@
 
 ## Idea
 
-What has been called _Witten's Dark Fantasy_ (in [Heckmann-Lawrie-Lin-Zoccarato 19, Section 8](#HeckmannLawrieLinZoccarato19)) is an argument, going back to [Witten 95a](#Witten95a), [Witten 95b, Sec. 3](#Witten95b), [Witten 00, p. 7](#Witten00), for the existence of [[non-perturbative effect|non-perturbative]] _non-_[[supersymmetry|supersymmetric]] 4d [[string vacua]]/[[string phenomenology]] with fundamentally _vanishing_ [[cosmological constant]] (i.e. vanishing "[[dark energy]]").
+What has been called _Witten's Dark Fantasy_ (in [Heckmann, Lawrie, Lin & Zoccarato 19, Section 8](#HeckmannLawrieLinZoccarato19)) is an argument, going back to [Witten 95a](#Witten95a), [Witten 95b, Sec. 3](#Witten95b), [Witten 00, p. 7](#Witten00), for the existence of [[non-perturbative effect|non-perturbative]] _non-_[[supersymmetry|supersymmetric]] 4d [[string vacua]]/[[string phenomenology]] with fundamentally _vanishing_ [[cosmological constant]] (i.e. vanishing "[[dark energy]]").
 
 The original idea was formulated in terms of 3d [[M-theory on 8-manifolds]] decompactified at strong coupling to 4d via [[duality between M-theory and type IIA string theory]] (recall the [[super 2-brane in 4d]]).
 
@@ -113,11 +113,9 @@ A detailed implementation of the idea in [[F-theory on Spin(7)-manifolds]] is de
 
 * {#BonettiGrimmPugh13b} [[Federico Bonetti]], [[Thomas Grimm]], [[Eran Palti]], [[Tom Pugh]], _F-Theory on $Spin(7)$ Manifolds: Weak-Coupling Limit_, JHEP 02 (2014) 076 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
 
-* {#HeckmannLawrieLinZoccarato118} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, [[Gianluca Zoccarato]], _F-theory and Dark Energy_, Fortschritte der Physik **67** 10 (2019) 1900057
-&lbrack;[arXiv:1811.01959](https://arxiv.org/abs/1811.01959), [doi:10.1002/prop.201900057]( https://doi.org/10.1002/prop.201900057)&rbrack;
+* {#HeckmannLawrieLinZoccarato19} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, [[Gianluca Zoccarato]], _F-theory and Dark Energy_, Fortschritte der Physik **67** 10 (2019) 1900057 &lbrack;[arXiv:1811.01959](https://arxiv.org/abs/1811.01959), [doi:10.1002/prop.201900057]( https://doi.org/10.1002/prop.201900057)&rbrack;
 
-* {#HeckmanLawrieLinSaksteinZoccarato19} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Jeremy Sakstein, [[Gianluca Zoccarato]], _Pixelated Dark Energy_, Fortsch. d. Physik 
-**67** 11 (2019) 1900071 &lbrack;[arXiv:1901.10489](https://arxiv.org/abs/1901.10489), [doi:10.1002/prop.201900071]( https://doi.org/10.1002/prop.201900071)&rbrack;
+* {#HeckmanLawrieLinSaksteinZoccarato19} [[Jonathan Heckman]], Craig Lawrie, Ling Lin, Jeremy Sakstein, [[Gianluca Zoccarato]], _Pixelated Dark Energy_, Fortsch. d. Physik **67** 11 (2019) 1900071 &lbrack;[arXiv:1901.10489](https://arxiv.org/abs/1901.10489), [doi:10.1002/prop.201900071]( https://doi.org/10.1002/prop.201900071)&rbrack;
 
 * [[Jonathan J. Heckman]], Omar F. Ramadan, Jeremy Sakstein, *First Constraints on a Pixelated Universe in Light of DESI* &lbrack;[arXiv:2406.04408](https://arxiv.org/abs/2406.04408)&rbrack;
 
