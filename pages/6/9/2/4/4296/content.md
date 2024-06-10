@@ -82,7 +82,13 @@ The _[[virtually fibered conjecture]]_ says that every closed, irreducible, ator
 
 * [[associative submanifold]]
 
-* [[2-manifold]], [[4-manifold]], [[8-manifold]]
+[[!include low dimensional manifolds -- table]]
+
+## Examples
+
+* [[3-sphere]]/[[SU(2)]]
+* $O(3)$ and [[SO(3)]]
+* [[Hantzsche-Wendt manifold]]
 
 ## References
 
