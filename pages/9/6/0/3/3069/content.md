@@ -223,13 +223,12 @@ Consider a square
 $$\array{A & \overset{g^*}{\to} & C\\
   ^{f^*}\downarrow &\swArrow& \downarrow^{h^*}\\
   B & \underset{k^*}{\to} & D}$$
-that satisfies the Beck-Chevalley condition (meaning that $k_! h^* \to f^* g_!$ is invertible).
-Assume that the vertical functors have right adjoints.
-Then the opposite square
-$$\array{A^\op & \overset{f^*}{\to} & B^\op \\
-  ^{g^*}\downarrow &\swArrow& \downarrow^{k^*}\\
-  C^\op & \underset{h^*}{\to} & D^\op}$$
-satisfies the Beck-Chevalley condition (meaning that $g^* f_* \to h_* k^*$ is invertible).
+such that $g^*$ and $k^*$ have left adjoints and $f^*$ and $h^*$ have right adjoints.
+The square satisfies the Beck-Chevalley condition (meaning that $k_! h^* \to f^* g_!$ is invertible) exactly if the opposite square
+$$\array{A^\op & \overset{(f^\op)^*}{\to} & B^\op \\
+  ^{(g^\op)^*}\downarrow &\swArrow& \downarrow^{(k^\op)^*}\\
+  C^\op & \underset{(h^\op)^*}{\to} & D^\op}$$
+satisfies the Beck-Chevalley condition (meaning that $(h^\op)_! (k^op)^* \to (g^\op)^* (f^\op)_!$, i.e., $g^* f_* \to h_* k^*$, is invertible).
 \end{corollary}
 
 ### For bifibrations
