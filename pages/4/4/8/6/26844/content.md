@@ -14,6 +14,8 @@ On possible signatures of non-trivial [[cosmic topology]] in the [[cosmic microw
 
 * {#AurichLustig12b} [[Ralf Aurich]], [[Sven Lustig]], *A survey of lens spaces and large-scale CMB anisotropy*, Mon. Not. Roy. Astron. Soc. **424** (2012) 1556-1562 &lbrack;[arXiv:1203.4086](https://arxiv.org/abs/1203.4086), [doi:10.1111/j.1365-2966.2012.21363.x](https://doi.org/10.1111/j.1365-2966.2012.21363.x)&rbrack;
 
+Application of the [[Hantzsche-Wendt manifold]] in [[cosmic topology]]:
 
+* {#AurichLustig14} [[Ralf Aurich]] and [[Sven Lustig]], _The Hantzsche-Wendt Manifold in Cosmic Topology_ (2014), [arXiv:1403.2190](https://arxiv.org/abs/1403.2190)
 
 category: people
