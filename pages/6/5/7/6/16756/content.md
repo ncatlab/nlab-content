@@ -26,6 +26,9 @@ On the [[Nicolai map]]:
 * [[Olaf Lechtenfeld]], *The Nicolai-map approach to supersymmetry* &lbrack;[arXiv:2309.00481](https://arxiv.org/abs/2309.00481)&rbrack;
 
 
+* [[Olaf Lechtenfeld]], *Nicolai maps for super Yang-Mills on the light cone* &lbrack;[arXiv:2406.04406](https://arxiv.org/abs/2406.04406)&rbrack;
+
+
 
 On [[Sasakian manifolds]] and [[quiver gauge theory]]:
 
