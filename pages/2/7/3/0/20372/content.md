@@ -8,7 +8,9 @@ Proposal for understanding [[D=6 N=(1,0) SCFTs]] as [[higher gauge theories]] fo
 
 * [[Christian Saemann]], [[Lennart Schmidt]], _The Non-Abelian Self-Dual String and the $(2,0)$-Theory_ ([arXiv:1705.02353](https://arxiv.org/abs/1705.02353))
 
-* [[Christian Saemann]], [[Lennart Schmidt]], _Towards an M5-Brane Model I: A 6d Superconformal Field Theory_, J. Math. Phys. 59 (2018) 043502 ([arxiv:1712.06623](https://arxiv.org/abs/1712.06623))
+* [[Christian Saemann]], [[Lennart Schmidt]], _Towards an M5-Brane Model I: A 6d Superconformal Field Theory_, J. Math. Phys. 59 (2018) 043502 &lbrack;[arXiv:1712.06623](https://arxiv.org/abs/1712.06623), [doi:10.1063/1.5026545](https://doi.org/10.1063/1.5026545)&rbrack;
+
+* [[Christian Saemann]], [[Lennart Schmidt]], *Towards an M5-Brane Model II: Metric String Structures*, Fortschr. Phys. **68** (2020) 2000051 &lbrack;[arXiv:1908.08086](https://arxiv.org/abs/1908.08086), [doi:10.1002/prop.202000051](https://doi.org/10.1002/prop.202000051)&rbrack;
 
 
 
