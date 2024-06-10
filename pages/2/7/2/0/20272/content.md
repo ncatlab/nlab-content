@@ -24,6 +24,11 @@ A [[manifold]] of [[dimension]] 5
 
 [[!include low dimensional manifolds -- table]]
 
+## Examples
+
+* [[5-sphere]]
+* [[Wu manifold]]
+
 ## References
 
 * {#CadekVanzura93} [[Martin Čadek]], [[Jiří Vanžura]], _On the classification of oriented vector bundles over 5-complexes_, Czechoslovak Mathematical Journal, Vol. 43 (1993), No. 4, 753–764 ([dml:128427](https://dml.cz/handle/10338.dmlcz/128427))
