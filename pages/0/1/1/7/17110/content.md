@@ -22,6 +22,8 @@ a [[manifold]] of [[dimension]] 4.
 
 * [[4-sphere]]
 
+* $U(2)$
+
 * [[spacetime]]
 
 ## Properties
@@ -73,7 +75,7 @@ Now
 
 * [[Donaldson-Thomas invariants]]
 
-* [[2-manifold]], [[3-manifold]], [[8-manifold]]
+[[!include low dimensional manifolds -- table]]
 
 ## References
 
