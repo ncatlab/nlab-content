@@ -33,8 +33,6 @@ Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]
 
 * [[Klein bottle]]
 
-* [[3-manifold]], [[4-manifold]], [[8-manifold]]
-
 ## Related concepts
 
 * [[differential geometry of curves and surfaces]]
@@ -55,7 +53,7 @@ Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]
 
 * [[minimal surface]]
 
-* [[3-manifold]], [[4-manifold]], [[8-manifold]]
+[[!include low dimensional manifolds -- table]]
 
 ## References
 
