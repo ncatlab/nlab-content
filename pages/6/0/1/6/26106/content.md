@@ -64,6 +64,11 @@ On the Nicolai map for the [[CP^N sigma-model|$\mathbb{C}P^n$ sigma-model]]:
 
 * [[Lorenzo Casarin]], [[Olaf Lechtenfeld]], [[Maximilian Rupprecht]], *Nicolai maps with four-fermion interactions* &lbrack;[arXiv:2310.19946](https://arxiv.org/abs/2310.19946)&rbrack;
 
+For [[D=4 SYM]] and [[D=10 SYM]] in [[light cone gauge]]:
+
+* [[Olaf Lechtenfeld]], *Nicolai maps for super Yang-Mills on the light cone* &lbrack;[arXiv:2406.04406](https://arxiv.org/abs/2406.04406)&rbrack;
+
+
 
 [[!redirects Nicolai maps]]
 
