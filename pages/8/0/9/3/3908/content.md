@@ -21,6 +21,12 @@ On [[fusion categories]]:
 
 * {#DrinfeldGelakiNikshychOstrik10} [[Vladimir Drinfeld]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], *On braided fusion categories I*, Selecta Mathematica. New Series 16 (2010), no. 1, 1–119 ([doi:10.1007/s00029-010-0017-z](https://doi.org/10.1007/s00029-010-0017-z))
 
+On [[representation theory]]:
+
+* [[Pavel Etingof]], Oleg Golberg, Sebastian Hensel, Tiankai Liu, Alex Schwendner, [[Dmitry Vaintrob]], Elena Yudovina:
+*Introduction to representation theory*, Student Mathematical Library **59**, AMS (2011) &lbrack;[arXiv:0901.0827](https://arxiv.org/abs/0901.0827), [ams:stml-59](https://bookstore.ams.org/stml-59)&rbrack;
+
+
 On [[Frobenius exact categories]]:
 
 * {#EtingofOstrik21} [[Pavel Etingof]], [[Victor Ostrik]], *On the Frobenius functor for symmetric tensor categories in positive characteristic*, J. f&uuml;r die reine und angewandte Mathematik **773** (2021) 165–198 $[$[arXiv:1912.12947](https://arxiv.org/abs/1912.12947)$]$
