@@ -28,8 +28,8 @@ namely the [[quotient space]] of the [[3-torus]] $T^3$ by the antipodal [[group 
 
 ## Properties
 
-* The [[holonomy group]] of the Hantzsche-Wendt manifold is $\mathbb{Z}_2^2$. ([MiatelloRossetti99]({#MiatelloRossetti99}))
-* The first [[homology group]] of the Hantzsche-Wendt manifold is $\mathbb{Z}_4^2$. ([Conway & Rossetti 03, p. 23]({#ConwayRossetti03}), [Egan 23]({#Egan23}))
+* The [[holonomy group]] of the Hantzsche-Wendt manifold is $\mathbb{Z}_2^2$. ([Miatello & Rossetti 99](#MiatelloRossetti99))
+* The first [[homology group]] of the Hantzsche-Wendt manifold is $\mathbb{Z}_4^2$. ([Conway & Rossetti 03, p. 23](#ConwayRossetti03), [Egan 23](#Egan23))
 
 ## Generalizations
 
