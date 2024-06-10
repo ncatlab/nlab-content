@@ -50,7 +50,16 @@ The [[field]] of [[rational numbers]] $\mathbb{Q}$ is $\sigma$-compact, but not 
 
 * [[orthocompact space]]
 
+## References
+
+See also:
+
+* Wikipedia, _[Hemicompact space](https://en.wikipedia.org/wiki/Hemicompact_space)_
+* π-Base, _[Hemicompact](https://topology.pi-base.org/properties/P000111)
+
+
 [[!redirects hemicompact]]
+[[!redirects hemicompactness]]
 [[!redirects hemicompact spaces]]
 
 [[!redirects countably hemicompact]]
