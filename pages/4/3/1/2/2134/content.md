@@ -33,9 +33,9 @@ The lemma consists of two parts that depend on different assumptions (a distinct
 
 Let $G$ be a [[group]]. In the following:
 
-* *representation* means _[[linear representation]] of $G$_, linear over some [[ground field]]. 
+* *representation* means _[[linear representation]] of $G$_, linear over some [[ground field]],
 
-* *finite dimensional representation* means that the underlying [[vector space]] is a [[finite-dimensional vector space]].
+* *finite dimensional representation* means that the [[underlying]] [[vector space]] is a [[finite-dimensional vector space]],
 
 * an *[[irreducible representation]]* is one whose only $G$-[[invariant]] [[subspaces]] ([[fixed point spaces]]) are the trivial degenerate cases: the [[zero object|zero]]-subspace and the full space itself.
 
@@ -47,7 +47,7 @@ Let $G$ be a [[group]]. In the following:
 
    It follows that the [[endomorphism ring]] of an [[irreducible representation]] is a [[division ring]].
 
-2. {#SecondItem} In the case that the [[ground field]] is an [[algebraically closed field]]; [[endomorphisms]] $\phi \;\colon\; V \to V$ of a [[finite-dimensional vector space|finite dimensional]] [[irreducible representations]] $V$ are a multiple $c \cdot id$ of the [[identity morphism|identity operator]]. 
+2. {#SecondItem} In the case that the [[ground field]] is an [[algebraically closed field]], [[endomorphisms]] $\phi \;\colon\; V \to V$ of a [[finite-dimensional vector space|finite dimensional]] [[irreducible representations]] $V$ are a multiples $c \cdot id$ of the [[identity morphism|identity operator]]. 
 
    In other words, nontrivial automorphisms of irreducible representations, _a priori_ possible by [(1)](#FirstItem), are ruled out over algebraically closed fields.  
 
@@ -254,7 +254,10 @@ The statement of Schur's lemma applies also to objects which are stable with res
 
 Named after *[[Issai Schur]]*.
 
-Lecture notes include:
+Lecture notes:
+
+* [[Pavel Etingof]], Oleg Golberg, Sebastian Hensel, Tiankai Liu, Alex Schwendner, [[Dmitry Vaintrob]], Elena Yudovina: Prop. 1.16 & Cor. 1.17 in: *Introduction to representation theory*, Student Mathematical Library **59**, AMS (2011) &lbrack;[arXiv:0901.0827](https://arxiv.org/abs/0901.0827), [ams:stml-59](https://bookstore.ams.org/stml-59)&rbrack;
+
 
 * {#tomDieck09} [[Tammo tom Dieck]], §1.1.2 in: _Representation theory_ (2009) &lbrack;[pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf), [[tomDieckRepresentationTheory.pdf:file]]&rbrack;
 
