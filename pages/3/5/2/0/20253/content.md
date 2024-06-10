@@ -279,6 +279,13 @@ From the point of view of [[M-theory on 8-manifolds]], these [[8-manifolds]] $X$
 
 
 
+## Examples
+
+* [[8-sphere]]
+
+* [[SU(3)]]
+
+
 ## Related concepts
 
 * [[M-theory on 8-manifolds]]
@@ -287,10 +294,6 @@ From the point of view of [[M-theory on 8-manifolds]], these [[8-manifolds]] $X$
 
 [[!include low dimensional manifolds -- table]]
 
-## Examples
-
-* [[8-sphere]]
-* [[SU(3)]]
 
 ## References
 
