@@ -16,15 +16,15 @@
 
 A __$\sigma$-complete lattice__ is a [[lattice]] $(L, \leq, \bot, \vee, \top, \wedge)$ with a function
 
-$$\Vee_{n:\mathbb{N}} (-)(n): (\mathbb{N} \to L) \to L$$
+$$\Vee_{i:\mathbb{N}} (-)(i): (\mathbb{N} \to L) \to L$$
 
 such that 
 
 * for all natural numbers $n \in \mathbb{N}$ and sequences $s: \mathbb{N} \to L$
-$$ s(n) \leq \Vee_{n:\mathbb{N}} s(n)$$
+$$ s(n) \leq \Vee_{i:\mathbb{N}} s(i)$$
 
-* for all elements $x \in L$ and sequences $s: \mathbb{N} \to L$ if $s(n) \leq x)$ for all natural numbers $n \in \mathbb{N}$, then 
-$$\Vee_{n:\mathbb{N}} s(n) \leq x$$
+* for all elements $x \in L$ and sequences $s: \mathbb{N} \to L$, if $s(n) \leq x$ for all natural numbers $n \in \mathbb{N}$, then 
+$$\Vee_{i:\mathbb{N}} s(i) \leq x$$
 
 ## See also ##
 
