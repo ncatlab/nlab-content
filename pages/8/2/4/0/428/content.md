@@ -15,10 +15,10 @@
 
 ## Idea 
 
-The **bar construction** takes an [[algebra]] $(A, \rho)$ of a [[monad]] $(T, \mu, \epsilon)$ on a category to the [[augmented simplicial object|augmented]] [[simplicial object]] in the [[Eilenberg-Moore category]] of that monad whose structure maps are given by the structure maps of the monad and its action on its algebra:
+The **bar construction** takes an [[algebra]] $(A, \rho)$ of a [[monad]] $(T, \mu, \epsilon)$ on a category $C$ to an [[augmented simplicial object|augmented]] [[simplicial object]] $Bar_T(A)$ in the [[Eilenberg-Moore category]] $C^T$ of that monad.  The face and degeneracy maps of this augmented simplicial object are given by the structure maps of the monad and its action on the algebra $A$:
 
 $$
-  \mathrm{B}(T,A)
+  Bar_T(A) :=
   \coloneqq
   \left(
     \cdots
@@ -30,7 +30,20 @@ $$
     \,.
 $$
 
-This simplicial object can be viewed as a [[resolution]] of $A$, in a sense explained below. 
+If we apply the forgetful functor $U : C^T \to C$ to $Bar_T(A)$, we get an augmented simplicial object in $C$ called the **bar resolution** of $A$:
+
+$$
+  U Bar_T(A) = \left(
+    \cdots
+    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
+    U T T A
+    \stackrel{\stackrel{U (\mu \cdot Id_A)}{\longrightarrow}}{\stackrel{U(T \cdot \rho)}{\longrightarrow}}
+    U T A \stackrel{U \rho}{\longrightarrow} U A
+  \right)
+    \,.
+$$
+
+This is called a [[resolution]] of $A$ because it is contractible to the underlying $C$-object $U A \in C$, in a certain sense clarified by the "acyclic structure" explained below.  Moreover the bar resolution has a universal property: it is initial among resolutions of $A$, as explained in Theorem \ref{universal}. 
 
 ## Definition 
 
