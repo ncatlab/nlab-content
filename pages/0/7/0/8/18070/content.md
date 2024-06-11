@@ -1571,7 +1571,7 @@ The [[Cohomotopy charge map]] ("electric field map", "scanning map") and hence t
 
 * {#May72} [[Peter May]], *The geometry of iterated loop spaces*, Springer (1972) &lbrack;[doi:10.1007/BFb0067491](https://link.springer.com/book/10.1007/BFb0067491), [pdf](https://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf)&rbrack;
 
-* {#Segal73} [[Graeme Segal]], *Configuration-spaces and iterated loop-spaces*, Invent. Math. __21__ (1973), 213&#8211;221.  ([doi:10.1007/BF01390197](https://doi.org/10.1007/BF01390197), [pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf), MR 0331377)
+* {#Segal73} [[Graeme Segal]], *Configuration-spaces and iterated loop-spaces*, Invent. Math. **21** (1973) 213-221  &lbrack;[doi:10.1007/BF01390197](https://doi.org/10.1007/BF01390197), [pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf), MR 0331377&rbrack;
 
 Generalization of these constructions and results is due to
 
