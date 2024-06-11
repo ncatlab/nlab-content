@@ -36,6 +36,11 @@ On [[topos theory]]:
 
 * [[Ross Street]], _A survey of topos theory_, lecture notes (1978) &lbrack;[pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf), [[Street-SurveyToposTheory.pdf:file]]&rbrack;
 
+On [[flexible limits]]:
+
+* {#BirdKellyPowerStreet89} [[Greg J. Bird]], [[Max Kelly]], [[John Power]], [[Ross Street]], _Flexible limits for 2-categories_, Journal of Pure and Applied Algebra **61** 1 (1989) 1-27 \[<a href="https://doi.org/10.1016/0022-4049(89)90065-0">doi:10.1016/0022-4049(89)90065-0</a>\]
+
+
 
 Introducing the notion of [[traced monoidal categories]]:
 
@@ -193,7 +198,6 @@ On [[monoidal categories]]:
 
 * [[Brian Day]] and [[Ross Street]], _Localisation of locally presentable categories_, Journal of Pure and Applied Algebra, Vol. 58, No. 3, 1989, pp. 227-233. &lbrack;<a href="https://doi.org/10.1016/0022-4049(89)90038-8">doi:10.1016/0022-4049(89)90038-8</a>&rbrack;
 
-* [[G. J. Bird]], [[G. M. Kelly]], [[A. J. Power]], and [[Ross Street]], _Flexible limits for 2-categories_, Journal of Pure and Applied Algebra, Vol. 61, No. 1, 1989, pp. 1-27. &lbrack;<a href="https://doi.org/10.1016/0022-4049(89)90065-0">doi:10.1016/0022-4049(89)90065-0</a>&rbrack;
 
 
 * [[Brian Day]] and [[Ross Street]], _Localisations of locally presentable categories II_, Journal of Pure and Applied Algebra, Vol. 63, No. 3, 1990, pp. 225-229. &lbrack;<a href="https://doi.org/10.1016/0022-4049(90)90068-S">doi:10.1016/0022-4049(90)90068-S</a>&rbrack;
