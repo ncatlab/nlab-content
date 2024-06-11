@@ -236,6 +236,9 @@ Application to [[Bose-Einstein condensates]], [[superfluidity]] and [[vortices]]
 
 * Markus A. G. Amano, Minoru Eto, *Holographic Global Vortices with Novel Boundary Conditions* &lbrack;[arXiv:2404.03212](https://arxiv.org/abs/2404.03212)&rbrack;
 
+* Zi-Qiang Zhao, Zhang-Yu Nie, Jing-Fei Zhang, Xin Zhang, Matteo Baggioli, *Dynamical and thermodynamic crossovers in the supercritical region of a holographic superfluid model* &lbrack;[arXiv:2406.05345](https://arxiv.org/abs/2406.05345)&rbrack;
+
+
 
 
 
@@ -257,6 +260,9 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
   > (relation to [[holographic entanglement entropy]])
 
 * Chi-Hsien Tai, Wen-Yu Wen, *A study of layered holographic superconductor* &lbrack;[arXiv:2405.07535](https://arxiv.org/abs/2405.07535)&rbrack;
+
+* Jhony A. Herrera-Mendoza, Alfredo Herrera-Aguilar, Daniel F. Higuita-Borja, Julio A. Méndez-Zavaleta, Felipe Pérez-Rodríguez, Jia-Xin Yin, *Effects of rotation and anisotropy on the properties of type-II holographic superconductors* &lbrack;[arXiv:2406.05351](https://arxiv.org/abs/2406.05351)&rbrack;
+
 
 
 On [[strange metals]], high $T_c$-[[superconductors]] and [[AdS/CMT duality]]:
