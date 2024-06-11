@@ -49,12 +49,12 @@ The standard diagonal inclusion of a [[global field]] (such as a [[number field]
 
   * [[lattice gauge theory]]
 
+
 ## References
 
 * [[Peter Engel]], [[Louis Michel]], [[Marjorie Senechal]], *Lattice Geometry*, IHES/P/04/45 (2004) $[$[pdf](https://cds.cern.ch/record/859509/files/cer-002542451.pdf), [cds:859509](https://cds.cern.ch/record/859509)$]$ 
 
-
-* [[Andries E. Brouwer]], _Lattices_, Course notes (2002) $[$[pdf](http://www.win.tue.nl/~aeb/latt/lattices.pdf)$]$
+* [[Andries E. Brouwer]], *Lattices*, Course notes (2002) &lbrack;[pdf](http://www.win.tue.nl/~aeb/latt/lattices.pdf), [[Brouwer-Lattices.pdf:file]]&rbrack;
 
 * [[John Conway]], N. Sloane, _Low dimensional lattices I: Quadratic forms of small determinant_
 
