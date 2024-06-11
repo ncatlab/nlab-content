@@ -43,7 +43,7 @@ $$
     \,.
 $$
 
-This is called a [[resolution]] of $A$ because it is contractible to the underlying $C$-object $U A \in C$, in a certain sense clarified by the "acyclic structure" of Defn. \ref{acyclic}.  Moreover the bar resolution has a universal property: it is initial among resolutions of $A$, as explained in Theorem \ref{universal}. 
+This is called a [[resolution]] of $A$ because it is equipped with a [[simplicial homotopy equivalence]] to the underlying $C$-object $U A \in C$, in a sense clarified by the "acyclic structure" of Defn. \ref{acyclic}.  Moreover the bar resolution of $A$ has a universal property: it is initial among resolutions of $A$, as explained in Theorem \ref{universal}. 
 
 ## Definition 
 
