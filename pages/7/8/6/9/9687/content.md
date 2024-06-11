@@ -265,6 +265,11 @@ In relation to [[conformal symmetry]] and [[AdS-CFT duality]] (see also at *[[Ad
 
 * E. G. Timoshenko, *Boundary Effects and Confinement in the Theory of Nonabelian Gauge Fields*, PhD thesis (1995) &lbrack;[arXiv:2405.13189](https://arxiv.org/abs/2405.13189)&rbrack;
 
+See also:
+
+* M.S. Lukashov, Yu.A. Simonov, *New ideas in nonperturbative QCD -- I* &lbrack;[arXiv:2406.05584](https://arxiv.org/abs/2406.05584)&rbrack;
+
+
 
 
 
