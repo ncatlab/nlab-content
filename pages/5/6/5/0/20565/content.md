@@ -5,7 +5,7 @@
 
 ## Idea
 
-The [[conjecture]] that the densest [[sphere packing]] in 3-dimesnions is given by spheres centered on the cubical lattice.
+The [[conjecture]] that the densest [[sphere packing]] in 3-dimensions is given by spheres centered on the cubical lattice.
 
 Proven with [[computer proof assistants]] by the [[Flyspeck project]].
 
