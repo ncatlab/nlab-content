@@ -68,6 +68,12 @@ On [[reflective factorization systems]]:
 * {#CHK} C. Cassidy, M. H&#233;bert, [[Max Kelly]], _Reflective subcategories, localizations, and factorization systems_,  J. Austral. Math Soc. (Series A) 38 (1985), 287--329 ([doi:10.1017/S1446788700023624](https://doi.org/10.1017/S1446788700023624))
  
 * {#CJKP} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures 5 (1997), 1--58 ([doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444))
+
+On [[flexible limits]]:
+
+* {#BirdKellyPowerStreet89} [[Greg J. Bird]], [[Max Kelly]], [[John Power]], [[Ross Street]], _Flexible limits for 2-categories_, Journal of Pure and Applied Algebra **61** 1 (1989) 1-27 \[<a href="https://doi.org/10.1016/0022-4049(89)90065-0">doi:10.1016/0022-4049(89)90065-0</a>\]
+
+
  
 On [[monoid objects in monoidal categories]]:
 
@@ -155,7 +161,6 @@ On [[monadicity]] over [[graphs]] of [[categories]] with (co)limits:
 1. Elementary observations on 2-categorical limits, Bulletin Austral. Math. Soc. 39 (1989) 301–317.
 1. (with R. Blackwell and A. J. Power) Two dimensional monad theory, J. Pure Appl. Algebra 59 (1989) 1–41.
 
-1. (with G. J. Bird, A. J. Power and R. H. Street) Flexible limits for 2-categories, J. Pure Appl. Algebra 61 (1989) 1–27.
 1. (with A. Carboni and R. J. Wood) A 2-categorical approach to change of base and geometric morphisms I, Cahiers de topologieet géométrie différentielle catégoriques 32 (1991) 47–95.
 1. A note on relations relative to a factorization system, Lecture Notes in Math. 1448 (Springer-Verlag, 1991) 249–261.
 1. On clubs and data-type constructors, in Applications of Categories to Computer Science (Proc. LMS Symposium, Durham 1991) (Cambridge Univ. Press 1992) 163–190.
