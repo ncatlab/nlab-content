@@ -1210,13 +1210,13 @@ A minimum consistency condition for this to make sense (we will consider further
 
 $$
   \array{
-     c && \mathbf{X}(d)
+     c && \mathbf{X}(c)
      \\
      {}^{\mathllap{ f }}\big\downarrow
        &&
      \big\uparrow{}^{\mathrlap{ \mathbf{X}(f) \, \text{"=}(-)\circ f\text{"}}}
      \\
-     d && \mathbf{X}(c)
+     d && \mathbf{X}(d)
   }
 $$
 
@@ -1333,7 +1333,7 @@ $$
      \\
      \{f\}
      &\longrightarrow&
-     \big\{ \eta_Y(F) = \mathbf{Y}(f)( \eta_X(id_X) ) \big\}
+     \big\{ \eta_Y(f) = \mathbf{Y}(f)( \eta_X(id_X) ) \big\}
   }
 $$
 
@@ -1504,7 +1504,7 @@ $\,$
 ### Adjunctions
   {#Adjunctions}
 
-The concepts of [[categories]], [[functors]] and [[natural transformations]] constiture the "language of categories". This language now allows to formulate the concept of _[[adjoint functors]]_ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) and more generally that of _[[adjunctions]]_ (Def. \ref{AdjunctionInA2Category} below. This is concept that [[category theory]], as a theory, is all about.
+The concepts of [[categories]], [[functors]] and [[natural transformations]] constitute the "language of categories". This language now allows to formulate the concept of _[[adjoint functors]]_ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) and more generally that of _[[adjunctions]]_ (Def. \ref{AdjunctionInA2Category} below. This is concept that [[category theory]], as a theory, is all about.
 
 Part of the data involved in an [[adjunction]] is its _[[adjunction unit]]_ and _[[adjunction counit]]_ (Def. \ref{AdjunctionUnitFromHomIsomorphism} below) and depending on their behaviour special cases of [[adjunctions]] are identified (Prop. \ref{FullyFaithfulAndInvertibleAdjoints} below), which we discuss in detail in following sections:
 
@@ -1579,9 +1579,9 @@ $$
   }
 $$
 
-which is [[natural bijection|natural]] in $c$ and $d$.  This isomorphism is called the _adjunction hom-isomorphism_ and the [[image]] $\widetilde f$ of amorphism $f$ under this bijections is called the _[[adjunct]]_ of $f$. Conversely, $f$ is called the _[[adjunct]]_ of $\widetilde f$.
+which is [[natural bijection|natural]] in $c$ and $d$.  This isomorphism is called the _adjunction hom-isomorphism_ and the [[image]] $\widetilde f$ of a morphism $f$ under this bijections is called the _[[adjunct]]_ of $f$. Conversely, $f$ is called the _[[adjunct]]_ of $\widetilde f$.
 
-Naturality here means that for every [[morphism]] $g \colon c_2 \to c_1$ in $\mathcal{C}$ and for every [[morphisms]] $h\colon d_1\to d_2$ in $\mathcal{D}$, the resulting square
+Naturality here means that for every pair of [[morphism|morphisms]] $g \colon c_2 \to c_1$ in $\mathcal{C}$ and $h\colon d_1\to d_2$ in $\mathcal{D}$, the resulting square
 
 \[
   \label{NaturalitySquareForAdjointnessOfFunctors}
@@ -1633,10 +1633,10 @@ $$
 Given a pair of [[adjoint functors]]
 
 $$
-  \mathcal{C}
+  \mathcal{D}
     \underoverset
       {\underset{R}{\longrightarrow}}{\overset{L}{\longleftarrow}}{\bot}
-  \mathcal{D}
+  \mathcal{C}
 $$
 
 according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, one says that
@@ -1661,7 +1661,7 @@ according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, one s
 ###### Remark
 **([[adjoint triples]])**
 
-It happens that there are subsequence [[adjoint functors]]:
+It happens that there are subsequences of [[adjoint functors]]:
 
 If two functors are [[adjoint functors|adjoint]] to each other as in Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, we also say that we have an _[[adjoint pair]]_:
 
