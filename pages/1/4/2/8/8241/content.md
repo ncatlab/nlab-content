@@ -16,14 +16,18 @@ An [[integral lattice]] whose _discriminant_ is +1 or -1.
 
 ## Related concepts
 
+
 * [[modular integral lattice]]
 
 
 ## References
 
-* {#Borcherds99} [[Richard Borcherds]], _The Leech lattice and other lattices_ ([arXiv:math.NT/9911195](http://arxiv.org/abs/math.NT/9911195))
+* [[Andries E. Brouwer]], *Lattices*, Course notes (2002) &lbrack;[pdf](http://www.win.tue.nl/~aeb/latt/lattices.pdf), [[Brouwer-Lattices.pdf:file]]&rbrack;
 
 * Wikipedia, _[Unimodular lattice](http://en.wikipedia.org/wiki/Unimodular_lattice)_
+
+* {#Borcherds99} [[Richard Borcherds]], _The Leech lattice and other lattices_ ([arXiv:math.NT/9911195](http://arxiv.org/abs/math.NT/9911195))
+
 
 
 
