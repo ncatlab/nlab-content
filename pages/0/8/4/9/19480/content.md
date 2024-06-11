@@ -1661,7 +1661,7 @@ according to Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, one s
 ###### Remark
 **([[adjoint triples]])**
 
-It happens that there are subsequences of [[adjoint functors]]:
+It happens that there are sequences of [[adjoint functors]]:
 
 If two functors are [[adjoint functors|adjoint]] to each other as in Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}, we also say that we have an _[[adjoint pair]]_:
 
@@ -1670,7 +1670,7 @@ $$
   \,.
 $$
 
-If one of these has yet another adjoint in the other direction, we speak of an _[[adjoint triple]]_
+It may happen that one functor $C$ participates on the right and on the left of two such [[adjoint pairs]] $L \,\dashv\, C$ and $C \,\dashv\, R$  (not the same "$L$" and "$R$" as before!) in which case one may speak of an  _[[adjoint triple]]_:
 
 \[
   \label{AdjointTriple}
@@ -1682,18 +1682,22 @@ Below in Example \ref{AdjunctionofAdjunction} we identify adjoint triples as _ad
 
 Similarly there are [[adjoint quadruples]], etc.
 
-Notice that in the case of an [[adjoint triple]] (eq:AdjointTriple), the [[adjunction unit]] of $C \dashv R$ and the [[adjunction counit]] of $L \dashv R$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}) provide, for each object $X$ in the [[domain]] of $C$, a [[diagram]]
+Notice that in the case of an [[adjoint triple]] (eq:AdjointTriple), the [[adjunction unit]] of $C \dashv R$ and the [[adjunction counit]] of $L \dashv C$ (Def. \ref{AdjunctionUnitFromHomIsomorphism}) provide, for each object $X$ in the [[domain]] of $C$, a [[diagram]]
 
 \[
   \label{OppositeExtremesAdjointTriple}
-  L(C(X))
-   \overset{ \phantom{AA} \epsilon_X \phantom{AA} }{\longrightarrow}
+  L\big(C(X)\big)
+   \overset
+     { \phantom{AA} \epsilon_X \phantom{AA} }
+     { \longrightarrow }
   X
-    \overset{ \phantom{AA} \eta_X \phantom{AA} }{\longrightarrow}
-  R(C(X))
+   \overset
+     { \phantom{AA} \eta_X \phantom{AA} }
+     { \longrightarrow }
+  R\big(C(X)\big)
 \]
 
-which is usefully thought of as exhibiting the nature of $X$ as being in between two _opposite extreme aspects_ $L(C(X))$ and $R(C(X))$ of $X$. This is illustrated by the following examples, and formalized by the concept of _[[modalities]]_ that we turn to in Def. \ref{ModalOperator} below.
+which is usefully thought of as exhibiting the nature of $X$ as being in between two _opposite extreme aspects_ $L\big(C(X)\big)$ and $R\big(C(X)\big)$ of $X$. This is illustrated by the following examples, and formalized by the concept of _[[modalities]]_ that we turn to in Def. \ref{ModalOperator} below.
 
 =--
 
@@ -1753,20 +1757,28 @@ since floor and ceiling preserve the ordering relation.
 Now in view of the identification of [[preorders]] with [[thin categories]] in Example \ref{PartiallyOrderedSetsAsSmallCategories}, the hom-isomorphism (eq:HomIsomorphismForAdjointFunctors) defining [[adjoint functors]] of the form $\iota \dashv \lfloor(-)\rfloor$ says for all $n \in \mathbb{Z}$ and $x \in \mathbb{R}$, that we have
 
 $$
-  \underset{ \in \mathbb{Z}}{\underbrace{n \leq \lfloor x \rfloor}}
-  \;\Leftrightarrow\;
-  \underset{ \in \mathbb{R}}{\underbrace{n \leq x }}
+  \underset
+    { \in \mathbb{Z}}
+    {\underbrace{n \leq \lfloor x \rfloor}}
+  \;\;\;\Leftrightarrow\;\;\;
+  \underset
+    { \in \mathbb{R}}
+    {\underbrace{n \leq x }}
   \,.
 $$
 
 This is clearly already the defining condition on the [[floor]] function $\lfloor x \rfloor$.
 
-Similarly, the  hom-isomorphism defining [[adjoint functors]] of the form $\lceil(-)\rceil \dashv \iota$ says that for all $n \in \mathbb{Z}$ and $x \in \mathbb{R}$, we have
+Similarly, the hom-isomorphism defining [[adjoint functors]] of the form $\lceil(-)\rceil \dashv \iota$ says that for all $n \in \mathbb{Z}$ and $x \in \mathbb{R}$, we have
 
 $$
-  \underset{ \in \mathbb{Z}}{\underbrace{\lceil x \rceil \leq n}}
-  \;\Leftrightarrow\;
-  \underset{ \in \mathbb{R}}{\underbrace{x \leq n }}
+  \underset
+    { \in \mathbb{Z}}
+    {\underbrace{\lceil x \rceil \leq n}}
+    \;\;\;\Leftrightarrow\;\;\;
+  \underset
+    { \in \mathbb{R}}
+    {\underbrace{x \leq n }}
   \,.
 $$
 
@@ -1954,7 +1966,7 @@ $$
 
 
 
-Chasing the [[identity morphism]] $id_{C Y}$ through this diagram, yields the claimed equality, as shown on the right. Here we use that the left [[adjunct]] of the [[identity morphism]] is the [[adjunction counit]], as shown.
+Chasing the [[identity morphism]] $id_{C Y}$ through this diagram yields the claimed equality, as shown on the right. Here we use that the [[left adjunct]] of the [[identity morphism]] is the [[adjunction counit]], as shown.
 
 The second equality is [[formal duality|fomally dual]]:
 
@@ -1995,14 +2007,11 @@ $$
 \end{proof}
 
 
+\linebreak
 
+\linebreak
 
-
-$\,$
-
-$\,$
-
-We now consider a **sequence of equivalent reformulations** of the condition of adjointness.
+We now turn to a **sequence of equivalent reformulations** of the condition of adjointness.
 
 +-- {: .num_prop #GeneralAdjunctsInTermsOfAdjunctionUnitCounit}
 ###### Proposition
