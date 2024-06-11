@@ -19,7 +19,7 @@
 
 ## Idea
 
-__Koszul duality__ (named after [[Jean-Louis Koszul]]) is a duality and phenomenon generalizing the duality between the symmetric and exterior algebra of a vector space to so-called quadratic [[differential graded algebra]]s (which can be obtained as a free dga module an ideal of relations which live in degree 2). For a pair of Koszul dual algebras, there is a correspondence between certain parts of their derived categories (precise formulation involves some finiteness conditions). In a setup in which one of the algebras is replaced by a cocomplete dg coalgebra, there is a formulation free of finiteness conditions, but involving [[twisting cochain]] (see that entry).
+__Koszul duality__ (named after [[Jean-Louis Koszul]]) is a duality and phenomenon generalizing the duality between the symmetric and exterior algebra of a vector space to so-called quadratic [[differential graded algebra]]s (which can be obtained as a free dga modulo an ideal of relations which live in degree 2). For a pair of Koszul dual algebras, there is a correspondence between certain parts of their derived categories (precise formulation involves some finiteness conditions). In a setup in which one of the algebras is replaced by a cocomplete dg coalgebra, there is a formulation free of finiteness conditions, but involving [[twisting cochain]] (see that entry).
 
 
 ## On operads
