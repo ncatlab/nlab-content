@@ -24,7 +24,7 @@ $$
     \cdots
     \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
     T T A
-    \stackrel{\stackrel{\mu \cdot Id_A}{\longrightarrow}}{\stackrel{T \cdot \rho}{\longrightarrow}}
+    \stackrel{\stackrel{\mu \cdot Id_A}{\longrightarrow}}{\stackrel{\phantom{A} T \cdot \rho \phantom{A}}{\longrightarrow}}
     T A \stackrel{\rho}{\longrightarrow} A
   \right)
     \,.
@@ -37,13 +37,13 @@ $$
     \cdots
     \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
     U T T A
-    \stackrel{\stackrel{U (\mu \cdot Id_A)}{\longrightarrow}}{\stackrel{U(T \cdot \rho)}{\longrightarrow}}
+    \stackrel{\stackrel{U (\mu \cdot Id_A)}{\longrightarrow}}{\stackrel{\phantom{A} U(T \cdot \rho) \phantom{A}}{\longrightarrow}}
     U T A \stackrel{U \rho}{\longrightarrow} U A
   \right)
     \,.
 $$
 
-This is called a [[resolution]] of $A$ because it is contractible to the underlying $C$-object $U A \in C$, in a certain sense clarified by the "acyclic structure" explained below.  Moreover the bar resolution has a universal property: it is initial among resolutions of $A$, as explained in Theorem \ref{universal}. 
+This is called a [[resolution]] of $A$ because it is contractible to the underlying $C$-object $U A \in C$, in a certain sense clarified by the "acyclic structure" of Defn. \ref{acyclic}.  Moreover the bar resolution has a universal property: it is initial among resolutions of $A$, as explained in Theorem \ref{universal}. 
 
 ## Definition 
 
