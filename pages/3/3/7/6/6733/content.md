@@ -730,7 +730,7 @@ See also ([Witten 11](#Witten11)).
 
 Discussion of open M5-branes ending on [[M9-branes]] in a [[Yang monopole]] is in 
 
-* [[Eric Bergshoeff]], [[Gary Gibbons]], [[Paul Townsend]], _Open M5-branes_, Phys.Rev.Lett.97:231601 2006 ([arXiv:hep-th/0607193](http://arxiv.org/abs/hep-th/0607193))
+* [[Eric Bergshoeff]], [[Gary Gibbons]], [[Paul Townsend]], _Open M5-branes_, Phys. Rev. Lett. **97** (2006) 231601  &lbrack;[arXiv:hep-th/0607193](http://arxiv.org/abs/hep-th/0607193), [arXiv:10.1103/PhysRevLett.97.231601](https://doi.org/10.1103/PhysRevLett.97.231601)&rbrack;
 
 
 
