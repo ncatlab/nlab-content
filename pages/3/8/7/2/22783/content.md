@@ -653,6 +653,10 @@ Here:
 * $\sigma_\ast$ is the [[total simplicial set]]-functor ([[right adjoint]] to pre-composition with [[ordinal sum]]).
 
 
+### As a bar construction
+
+One may understand the construction of $W G$ (Def. \ref{WGInComponents}) as an example of the [[bar construction]] for the [[monad]] that forms [[free construction|free]] $G$-actions, see [there](bar+construction#UniversalPrincipalBundle) for more.
+
 ## Properties
 
 In all of the following, $G$ is any simplicial group.
