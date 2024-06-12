@@ -15,10 +15,12 @@
 
 ## Idea 
 
-The **bar construction** takes an [[algebra]] $(A, \rho)$ of a [[monad]] $(T, \mu, \epsilon)$ on a category $C$ to an [[augmented simplicial object|augmented]] [[simplicial object]] $Bar_T(A)$ in the [[Eilenberg-Moore category]] $C^T$ of that monad.  The face and degeneracy maps of this augmented simplicial object are given by the structure maps of the monad and its action on the algebra $A$:
+The bar construction takes an algebra $A$ of a monad and systematically "puffs it up", replacing it with a simplicial object $Bar_T(A)$ in which all equations in the original algebra are replaced by 1-simplices, all equations between equations (called [[syzygies]]) are replaced by 2-simplices, and so on.  
+
+More precisely, the **bar construction** takes an [[algebra]] $(A, \rho)$ of a [[monad]] $(T, \mu, \epsilon)$ on a category $C$ to an [[augmented simplicial object|augmented]] [[simplicial object]] $Bar_T(A)$ in the [[Eilenberg-Moore category]] $C^T$ of that monad.  The face and degeneracy maps of this augmented simplicial object are given by the structure maps of the monad and its action on the algebra $A$:
 
 $$
-  Bar_T(A) :=
+  Bar_T(A)
   \coloneqq
   \left(
     \cdots
@@ -44,6 +46,8 @@ $$
 $$
 
 This is called a [[resolution]] of $A$ because it is equipped with a [[simplicial homotopy equivalence]] to the underlying $C$-object $U A \in C$, in a sense clarified by the "acyclic structure" of Defn. \ref{acyclic}.  Moreover the bar resolution of $A$ has a universal property: it is initial among resolutions of $A$, as explained in Theorem \ref{universal}. 
+
+Here we distinguish between the bar construction and the bar resolution, although the terms are often used interchangeably. It is worth noting that the bar _construction_ $Bar_T(A)$ is not, in general, simplicially homotopy equivalent to $A$ in the category of simplicial objects in $C^T$.  Only after applying the forgetful functor $U \colon C^T \to C$ do we obtain a key feature of the bar _resolution_: the simplicial homotopy equivalence $U Bar_T(A) \simeq U A$.
 
 ## Definition 
 
