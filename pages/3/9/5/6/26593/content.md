@@ -89,6 +89,7 @@ meaning that the joint distribution $q$ is the product of its marginals.
 
 * {#fritzmarkov} [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, Advances of Mathematics 370, 2020. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
 
+* [[Alex Simpson]], *Equivalence and Conditional Independence in Atomic Sheaf Logic* ([arXiv:2405.11073](https://arxiv.org/abs/2405.11073))
 
 category: probability
 
