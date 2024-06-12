@@ -7,6 +7,10 @@ On the [[superembedding approach]] for [[super p-branes|super $p$-branes]]/[[Gre
 
 * {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B **446** (1995) 79-118 &lbrack;[arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113)&rbrack;
 
+and in view of [[supersymmetry breaking]]:
+
+* [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], *Superembeddings, Partial Supersymmetry Breaking and Superbranes*, Nucl. Phys. B **591** (2000) 109-138 &lbrack;[arXiv:hep-th/0007048](https://arxiv.org/abs/hep-th/0007048), <a href="https://doi.org/10.1016/S0550-3213(00)00569-1">doi:10.1016/S0550-3213(00)00569-1</a>&rbrack;
+
 
 On [[self-dual higher gauge fields]]:
 
