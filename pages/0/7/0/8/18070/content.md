@@ -1584,11 +1584,19 @@ Generalization of these constructions and results is due to
 
 Generalization to [[equivariant homotopy theory]]:
 
-* {#RourkeSanderson00} [[Colin Rourke]], [[Brian Sanderson]], _Equivariant Configuration Spaces_, J. London Math. Soc. 62 (2000) 544-552 ([arXiv:math/9712216](https://arxiv.org/abs/math/9712216))
+* {#RourkeSanderson00} [[Colin Rourke]], [[Brian Sanderson]], _Equivariant Configuration Spaces_, J. London Math. Soc. **62** (2000) 544-552 &lbrack;[arXiv:math/9712216](https://arxiv.org/abs/math/9712216), [doi:10.1112/S0024610700001241 ](https://doi.org/10.1112/S0024610700001241)&rbrack;
 
 and strengthening in the special case $G = \mathbb{Z}/2$:
 
-* {#Xicotencatl06} Miguel Xicoténcatl, *On $\mathbb{Z}_2$-equivariant loop spaces*, Recent developments in algebraic topology, 183—191, Contemp. Math. 407, 2006 ([pdf](https://ncatlab.org/schreiber/files/Xicotencatl_EquivariantLoopSpaces.pdf))
+* {#Xicotencatl06} Miguel Xicoténcatl, *On $\mathbb{Z}_2$-equivariant loop spaces*, in: *Recent developments in algebraic topology*, Contemp. Math. **407** (2006) 183—191 &lbrack;[pdf](https://ncatlab.org/schreiber/files/Xicotencatl_EquivariantLoopSpaces.pdf)&rbrack;
+
+partly based on
+
+* [[Henning Hauschild]]: *Zerspaltung &auml;quivarianter Homotopiemengen*, Math. Ann. **230** (1977) 279-292 &lbrack;[[Hauschild-EquivariantHomotopy.pdf:file]]&rbrack;
+
+
+
+Zerspaltung quivarianter Homotopiemengen
 
 The relevant construction for the [[group completion]] of the configuration space
 
