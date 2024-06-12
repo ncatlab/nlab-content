@@ -47,7 +47,9 @@ $$
 
 This is called a [[resolution]] of $A$ because it is equipped with a [[simplicial homotopy equivalence]] to the underlying $C$-object $U A \in C$, in a sense clarified by the "acyclic structure" of Defn. \ref{acyclic}.  Moreover the bar resolution of $A$ has a universal property: it is initial among resolutions of $A$, as explained in Theorem \ref{universal}. 
 
-Here we distinguish between the bar construction and the bar resolution, although the terms are often used interchangeably. It is worth noting that the bar _construction_ $Bar_T(A)$ is not, in general, simplicially homotopy equivalent to $A$ in the category of simplicial objects in $C^T$.  Only after applying the forgetful functor $U \colon C^T \to C$ do we obtain a key feature of the bar _resolution_: the simplicial homotopy equivalence $U Bar_T(A) \simeq U A$.
+Here we distinguish between the bar construction and the bar resolution, although the terms are often used interchangeably. It is worth noting that the bar _construction_ $Bar_T(A)$ is not, in general, simplicially homotopy equivalent to $A$ in the category of simplicial objects in $C^T$.  Only after applying the forgetful functor $U \colon C^T \to C$ do we obtain a key feature of the bar _resolution_: the simplicial homotopy equivalence $U Bar_T(A) \simeq U A$.  
+
+(Above we are identifying objects in a category, either $A \in C^T$ or $U A \in C$, with simplicial objects in that category that are "discrete".)
 
 ## Definition 
 
@@ -90,7 +92,7 @@ In the notation of [[two-sided bar constructions]], the bar construction would b
 
 ### D&#233;calage 
 
-To explain the sense in which $U Bar_T(A)$ is an *acyclic resolution* of (the constant simplicial object) $A$, we recall the fundamental [[décalage]] construction. Very simply, putting 
+To explain the sense in which $U Bar_T(A)$ is a *resolution* of (the constant simplicial object) $A$, we recall the fundamental [[décalage]] construction. Very simply, putting 
 
 $$D = [1] + (-): \Delta_a^{op} \to \Delta_a^{op}$$ 
 
