@@ -178,8 +178,12 @@ Relation to $\tau$-functions is discussed in
 
 Other articles:
 
-* Andr&#225;s C. L&#337;rincz, Claudiu Raicu, Uli Walther, Jerzy Weyman, _Bernstein-Sato polynomials for maximal minors and sub-maximal Pfaffians_, [arxiv/1601.06688](http://arxiv.org/abs/1601.06688)
-* M. Spera, _A C*–algebraic approach to determinants and Pfaffians, Acta Cosmologica Fasc. XXI-2, (1995) 203–208.
+* Andr&#225;s C. L&#337;rincz, Claudiu Raicu, Uli Walther, Jerzy Weyman, _Bernstein-Sato polynomials for maximal minors and sub-maximal Pfaffians_, [arxiv/1601.06688](https://arxiv.org/abs/1601.06688)
+* [[Mauro Spera]], _A C*–algebraic approach to determinants and Pfaffians, Acta Cosmologica Fasc. XXI-2, (1995) 203--208.
+* [[Donald E. Knuth]], _Overlapping Pfaffians_, Electronic Journal of Combinatorics __3__:2 (1996) [pdf](https://www.emis.de/journals/EJC/Volume_3/PDFFiles/v3i2r5.pdf)
+
+> A combinatorial construction proves an identity for the product of the Pfaffian of a skew-symmetric matrix by the Pfaffian of one of its submatrices. Several applications
+of this identity are followed by a brief history of Pfaffians.
 
 ### Euler forms
 
