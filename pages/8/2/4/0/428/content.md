@@ -378,7 +378,7 @@ $$
   \,. 
 $$
 
-The [[quotient]] $B G \coloneqq (E G)/G$ is known as the [[simplicial classifying space]] of $G$ (also denoted $\overline{W}G$), and its [[topological realization]] is a [[topological space|topological]] [[classifying space]] for $G$-[[principal bundles]]. Finally the topological realization of the map of the quotient [[coprojection]] $E G \to B G$ is the "[[universal principal bundle|universal]] ([[simplicial principal bundle|simplicial]]) $G$-[[principal bundle]]".  
+The [[quotient]] $B G \coloneqq (E G)/G$ is known as the [[simplicial classifying space]] of $G$ (also denoted $\overline{W}G$), and its [[topological realization]] is a [[topological space|topological]] [[classifying space]] for $G$-[[principal bundles]]. Finally the topological realization of the quotient map $E G \to B G$ is the "[[universal principal bundle|universal]] $G$-[[principal bundle]]".  
 
 The simplicial set $B G$ is also the [[simplicial nerve]] of the *[[delooping groupoid]]* of $G$.
 
