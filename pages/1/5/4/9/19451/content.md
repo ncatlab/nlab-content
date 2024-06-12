@@ -70,6 +70,15 @@ This use of "lax" and "oplax" in the biased case is justified by the fact that *
 
 The above definitions are complete except for the coherence axioms.  In the unbiased case these can be deduced from the general notion of lax algebra.  In the biased cases, the axioms are roughly the same as those in MacLane's original definition of monoidal category: one pentagon, three unit triangles, and one unit-unit axiom.  (Kelly's later reduction of these to one pentagon and one unit triangle relies on invertibility of the constraints.)  In all cases it is possible to orient all of these axioms so as to make sense.
 
+## Normalisation
+
+\begin{theorem}
+**([Lack and Street 2014](#LS14), Theorem 8.1)**
+The inclusion of right-normal left-skew monoidal categories (i.e. those for which the right unitor is invertible) and [[lax monoidal functors]] into left-skew monoidal categories admits a partial right [[pseudoadjoint]], defined on those skew  monoidal categories with [[reflexive coequalisers]] preserved by tensoring on the right, sending a skew monoidal category $C$ to the skew monoidal category $C^I$ of $I$-[[modules]].
+\end{theorem}
+
+Consequently, any skew monoidal category with such coequalisers may be replaced by a right-normal skew monoidal category with the same monoids.
+
 ## Related notions
 
 First note that all kinds of lax monoidal categories can be generalized to **lax monoids** in a [[monoidal bicategory]].  Using this generalization, we can make connections to many other kinds of monoidal structures:
@@ -97,6 +106,8 @@ Skew monoidal closed structures on the category of [[Gray categories]] are consi
 Lax monoidal categories are called **multitensors** in:
 
 * [[Michael Batanin]] and [[Mark Weber]], _Algebras of higher operads as enriched categories_, Applied Categorical Structures 19 (2011): 93-135.
+
+* {#LS14} [[Stephen Lack]] and [[Ross Street]], _On monads and warpings_, Cahiers de topologie et géométrie différentielle, Vol. 55, No. 4, 2014, pp. 244-266. &lbrack;[pdf](http://cahierstgdc.com/wp-content/uploads/2017/05/LackStreet_55-4.pdf)&rbrack;
 
 [[!redirects lax monoidal category]]
 [[!redirects unbiased lax monoidal category]]
