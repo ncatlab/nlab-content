@@ -41,12 +41,16 @@ On [[kappa-symmetry]] explained via the [[superembedding approach]]:
 
 On the [[Green-Schwarz action functional]] for the [[M5-brane]]:
 
-
 * [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On the equivalence of different formulations of the M Theory five--brane_, Phys. Lett. B408 (1997) 135-141 ([arXiv:hep-th/9703127](http://arxiv.org/abs/hep-th/9703127))
 
 * {#PST97} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _Covariant Action for a D=11 Five-Brane with the Chiral Field_, Phys. Lett. B398 (1997) 41 ([arXiv:hep-th/9701037](https://arxiv.org/abs/hep-th/9701037))
 
 * Sheng-Lan Ko, [[Dmitri Sorokin]], Pichet Vanichchapongjaroen, _The M5-brane action revisited_, JHEP11(2013)072 ([arXiv:1308.2231](https://arxiv.org/abs/1308.2231))
+
+On [[super p-brane]] [[sigma models]] perturbed around the [[asymptotic boundary]] of their own [[black brane]] [[near horizon geometry]] (related to [[AdS-CFT duality]]):
+
+* {#PastiSorokinTonin99} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], *Branes in Super-AdS Backgrounds and Superconformal Theories*, Proceedings, *International Workshop on Supersymmetries and Quantum Symmetries (SQS'99)*, Moscow (July 27-31, 1999) &lbrack;[arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076), [inspire:511348](https://inspirehep.net/literature/511348)&rbrack;
+
 
 On [[type II supergravity]]:
 
