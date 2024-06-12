@@ -31,7 +31,7 @@ For $G$ a model for an [[∞-group]], there is often a model for the [[universal
 
 ## For ordinary groups {#OrdinaryGroups}
 
-For $G$ an ordinary bare [[group]], the [[action groupoid]] $\mathbf{E}G = G//G$ of the right multiplcation action of $G$ on itself 
+For $G$ an ordinary bare [[group]], the [[action groupoid]] $\mathbf{E}G = G \sslash G$ of the right multiplcation action of $G$ on itself 
 
 $$
   G//G
