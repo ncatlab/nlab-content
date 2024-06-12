@@ -17,7 +17,6 @@
 =--
 =--
 
-# Saturated classes of limits
 * table of contents
 {:toc}
 
@@ -73,7 +72,7 @@ The following examples are all for $V=Set$, restricted to the conical case.
 
 There are also interesting examples for other $V$.
 
-* When $V=Cat$, the classes of [[PIE-limits]] and [[flexible limits]] are saturated.  The former is, essentially by definition, the saturation of the class containing products, [[inserters]], and [[equifiers]].  The latter can be proven to be the saturation of the class containing products, inserters, equifiers, and [[splitting of idempotents]].
+* When $V=Cat$, the classes of [[PIE-limits]], [[flexible limits]], and [[semiflexible limits]] are saturated.  The first class is, essentially by definition, the saturation of the class containing products, [[inserters]], and [[equifiers]].  The second class can be proven to be the saturation of the class containing products, inserters, equifiers, and [[splitting of idempotents]]. A similar characterisation of the third is not known.
 
 * When $V=F$ is the category of [[fully faithful functors]], so that a $V$-category is an [[F-category]], the class of $w$-[[rigged weight|rigged weights]] is saturated (for any of $w=p$, $l$, or $c$ denoting pseudo, lax, or colax).
 
