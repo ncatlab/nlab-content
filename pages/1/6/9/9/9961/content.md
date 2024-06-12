@@ -199,9 +199,17 @@ reviewed in
 
 ### Topological effects and instantons
 
-Discussion of [[instantons]] in lattice QCd
+Discussion of [[instantons]] in lattice QCD:
 
 * {#Gruber13} Florian Gruber, _Topology in dynamical Lattice QCD simulations_, 2013 ([web](http://epub.uni-regensburg.de/27631/), [pdf](http://epub.uni-regensburg.de/27631/1/dissertation.pdf))
+
+and via the [[homotopy theory]] of [[bundle gerbes]]:
+
+* Jing-Yuan Chen, *Instanton Density Operator in Lattice QCD from Higher Category Theory* &lbrack;[arXiv:2406.06673](https://arxiv.org/abs/2406.06673)&rbrack;
+
+
+
+
 
 ### For super Yang-Mills theories
   {#ForSuperYangMills}
