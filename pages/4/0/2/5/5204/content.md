@@ -54,6 +54,7 @@ A PIE-limit is one whose [[weighted limit|weight]] is PIE.  [Power and Robinson]
 ## Related pages
 
 * [[flexible limit]]
+* [[semiflexible limit]]
 
 ## References
 
