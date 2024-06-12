@@ -105,7 +105,7 @@ $$\array{X\cdot F_P \partial_n & \overset{\overline{x}}{\to} & F_{\lt n} C\\
 
 This definition is not quite correct as written, because it assumes in the definition of $(\lt n)$-computads not just that the categories $k Cptd_P$ are defined with adjunctions to $P Alg$, but that they are related by suitable functors as $k$ varies that commute with these adjunctions.  Thus, formally speaking it has to be phrased as a definition of a [[functor]], rather than a function, by well-founded recursion, as explained [here](http://www.staff.science.uu.nl/~ooste110/realizability/wellffunctors.pdf).  We leave the details to the reader.
 
-For example, if $\mathcal{I} = \mathcal{P}\times \mathcal{P}$, where $\mathcal{P} = (1 \rightrightarrows 0)$, then there is a monad on $\mathcal{I}$ whose algebras are double categories, and in this way we can obtain a notion of "double computad".
+For example, if $\mathcal{I} = \mathcal{P}\times \mathcal{P}$, where $\mathcal{P} = (1 \rightrightarrows 0)$, then there is a monad on $Set^{\mathcal{I}}$ whose algebras are double categories, and in this way we can obtain a notion of "double computad".
 
 
 ## Computads, presheaves and opetopes ##
