@@ -25,6 +25,9 @@ On [[first-order set theory]] and [[categorical logic]]:
 
 * [[Steve Awodey]], [[Carsten Butz]], [[Alex Simpson]], [[Thomas Streicher]], *Relating first-order set theories, toposes and categories of classes*, Annals of Pure and Applied Logic **165** 2 (2014) 428-502 &lbrack;[doi:10.1016/j.apal.2013.06.004](https://doi.org/10.1016/j.apal.2013.06.004)&rbrack;
 
+## Talks
+
+* [[Alex Simpson]], *Three toposes for probability and randomness*, talk at the Topos Institute Colloquium, 6 June 2024 ([video](https://www.youtube.com/watch?v=Y1RkPhwJ0Mo), [slides](https://topos.site/events/topos-colloquium/slides/2024-06-06.pdf))
 
 ## Related $n$Lab entries
 
