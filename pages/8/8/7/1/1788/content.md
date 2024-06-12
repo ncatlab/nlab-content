@@ -1,5 +1,6 @@
 
 
+
 ## Idea
 
 In [[solid state physics]], *goldene* refers to atomic monolayers of [[gold]]; the term being a riff on *[[graphene]]* which refers to atomic monolayers of [[carbon]].
