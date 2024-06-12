@@ -39,6 +39,10 @@ Formulation of ([[Lagrangian densities]] for) [[type II supergravity]] with "dem
 
 * [[Gianguido Dall'Agata]], [[Kurt Lechner]], [[Mario Tonin]], *$D=10$, $N=IIB$ Supergravity: Lorentz-invariant actions and duality*, JHEP 9807:017 (1998) &lbrack;[arXiv:hep-th/9806140](https://arxiv.org/abs/hep-th/9806140), [doi:10.1088/1126-6708/1998/07/017](https://doi.org/10.1088/1126-6708/1998/07/017)&rbrack;
 
+On [[super p-brane]] [[sigma models]] perturbed around the [[asymptotic boundary]] of their own [[black brane]] [[near horizon geometry]] (related to [[AdS-CFT duality]]):
+
+* {#PastiSorokinTonin99} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], *Branes in Super-AdS Backgrounds and Superconformal Theories*, Proceedings, *International Workshop on Supersymmetries and Quantum Symmetries (SQS'99)*, Moscow (July 27-31, 1999) &lbrack;[arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076), [inspire:511348](https://inspirehep.net/literature/511348)&rbrack;
+
 
 
 ## Related entries
