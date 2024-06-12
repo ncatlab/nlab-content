@@ -202,6 +202,11 @@ Discussion of instantons in [[lattice gauge theory]] includes
 
 * {#Gruber13} Florian Gruber, _Topology in dynamical Lattice QCD simulations_, 2013 ([web](http://epub.uni-regensburg.de/27631/), [pdf](http://epub.uni-regensburg.de/27631/1/dissertation.pdf))
 
+and via the [[homotopy theory]] of [[bundle gerbes]]:
+
+* Jing-Yuan Chen, *Instanton Density Operator in Lattice QCD from Higher Category Theory* &lbrack;[arXiv:2406.06673](https://arxiv.org/abs/2406.06673)&rbrack;
+
+
 
 Discussion of the $\eta'$-mass from instantons includes
 
@@ -223,7 +228,7 @@ Relation to the [[scanning map]] and [[configuration spaces of points]] in:
 
 The construction of [[Skyrmions]] from [[instantons]] is due to 
 
-* {#AtiyahManton89} [[Michael Atiyah]], [[Nick S. Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
+* {#AtiyahManton89} [[Michael Atiyah]], [[Nicholar S. Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
 
 The relation between [[skyrmions]], [[instantons]], [[calorons]], [[solitons]] and [[monopoles]] is usefully reviewed and further developed in 
 
