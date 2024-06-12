@@ -15,9 +15,9 @@
 
 ## Idea 
 
-The bar construction takes an algebra $A$ of a monad and systematically "puffs it up", replacing it with a simplicial object $Bar_T(A)$ in which all equations in the original algebra are replaced by 1-simplices, all equations between equations (called [[syzygies]]) are replaced by 2-simplices, and so on.  
+In [[categorical algebra]], the *bar construction* takes an [[algebra over a monad|algebra]] $A$ of a [[monad]] and systematically "puffs it up", replacing it with a [[simplicial object]] $Bar_T(A)$ in which all [[equations]] in the original algebra are replaced by [[1-simplices]], all equations between equations (called [[syzygies]]) are replaced by [[2-simplices]], and so on.  
 
-More precisely, the **bar construction** takes an [[algebra]] $(A, \rho)$ of a [[monad]] $(T, \mu, \epsilon)$ on a category $C$ to an [[augmented simplicial object|augmented]] [[simplicial object]] $Bar_T(A)$ in the [[Eilenberg-Moore category]] $C^T$ of that monad.  The face and degeneracy maps of this augmented simplicial object are given by the structure maps of the monad and its action on the algebra $A$:
+More precisely, the bar construction takes an [[algebra over a monad|algebra]] $(A, \rho)$ of a [[monad]] $(T, \mu, \epsilon)$ on a [[category]] $C$ to an [[augmented simplicial object|augmented]] [[simplicial object]] $Bar_T(A)$ in the [[Eilenberg-Moore category]] $C^T$ of that monad.  The face and degeneracy maps of this augmented simplicial object are given by the structure maps of the monad and its action on the algebra $A$:
 
 $$
   Bar_T(A)
@@ -32,7 +32,7 @@ $$
     \,.
 $$
 
-If we apply the forgetful functor $U : C^T \to C$ to $Bar_T(A)$, we get an augmented simplicial object in $C$ called the **bar resolution** of $A$:
+If we apply the [[forgetful functor]] $U : C^T \to C$ to $Bar_T(A)$, we get an augmented simplicial object in $C$ called the **bar resolution** of $A$:
 
 $$
   U Bar_T(A) = \left(
