@@ -45,7 +45,7 @@ $$
     \,.
 $$
 
-This is called a [[resolution]] of $A$ because it is equipped with a [[simplicial homotopy equivalence]] to the underlying $C$-object $U A \in C$, in a sense clarified by the "acyclic structure" of Defn. \ref{acyclic}.  Moreover the bar resolution of $A$ has a universal property: it is initial among resolutions of $A$, as explained in Theorem \ref{universal}. 
+This is called a [[resolution]] of $A$ because it is equipped with a [[simplicial homotopy equivalence]] to the underlying $C$-object $U A \in C$, in a sense clarified by the "acyclic structure" of Definition \ref{acyclic}.  Moreover the bar resolution of $A$ has a universal property: it is initial among resolutions of $A$, as explained in Theorem \ref{universal}. 
 
 Here we distinguish between the bar construction and the bar resolution, although the terms are often used interchangeably. It is worth noting that the bar _construction_ $Bar_T(A)$ is not, in general, simplicially homotopy equivalent to $A$ in the category of simplicial objects in $C^T$.  Only after applying the forgetful functor $U \colon C^T \to C$ do we obtain a key feature of the bar _resolution_: the simplicial homotopy equivalence $U Bar_T(A) \simeq U A$.  
 
@@ -345,6 +345,17 @@ This completes the proof.
 
 ## Special cases
 
+### For the trivial $G$-set
+
+There is a monad $T$ on $Set$ whose algebras are $G$-sets, given by
+
+$$ T(X) = G \times X$$
+
+The terminal $G$-set $1$, namely the one-point set with a trivial action of $G$, is an algebra for this monad $T$.    The bar construction takes any algebra of any monad and turns it into a simplicial object in the category of algebras of that monad.  Applying this to $\ast$ we get a simplicial $G$-set $Bar_T(1)$.  By Theorem \ref{universal}, the underlying simplicial set of $Bar_T(1)$ is contractible.  This simplicial set, the bar resolution $U Bar_T(1)$, is often called $E G$.
+
+The geometric realization of the simplicial set $B G = E G/G$ is called the [[classifying space]] of $G$, and the geometric realization of the map $E G \to B G$ is the "universal $G$-bundle".  The simplicial set $B G$ is also the nerve of a groupoid called the 
+[delooping](delooping#delooping_of_a_group_to_a_groupoid) of $G$.
+
 ### For modules over an algebra
 
 Let $A$ be a commutative [[associative algebra]]s over some [[ring]] $k$. Write $A Mod$ for the category of [[connective chain complex|connective]] [[chain complex]]es of [[module]]s over $A$.
@@ -374,7 +385,7 @@ $$
 
 Under the [[Moore complex]] functor of the [[Dold-Kan correspondence]] this is identified with a [[chain complex]] whose [[differential]] is given by the alternating sums of the face maps indicated above. 
 
-This chain complex is what originally was called the **bar complex** in [[homological algebra]]. Because the first authors denoted its elements using a notation involving vertical bars ([Ginzburg](#Ginzburg))!!
+This chain complex is what originally was called the **bar complex** in [[homological algebra]]. It got its name because the first authors denoted its elements using a notation involving vertical bars ([Ginzburg](#Ginzburg)).
 
 This chain complex provides a resolution that computes the [[Tor]]
 
