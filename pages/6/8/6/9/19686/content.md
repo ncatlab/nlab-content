@@ -25,6 +25,8 @@ Permutation matrices represent [[linear permutation representations]] in their c
 
 * [[permutation]]
 
+* [[alternating sign matrix]]
+
 * [[triangular matrix]]
 
 * [[diagonal matrix]]
