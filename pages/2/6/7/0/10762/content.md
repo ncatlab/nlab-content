@@ -104,9 +104,9 @@ The generalization to [[equivariant cohomology]] ([[equivariant K-theory]]) is d
 
 * [[Tammo tom Dieck]], theorem 11.3.8 in _[[Transformation Groups and Representation Theory]]_ Lecture Notes in Mathematics 766 Springer 1979
 
-* Z. Fiedorowicz, H. Hauschild, [[Peter May]], theorem 0.4 of _Equivariant algebraic K-theory_, _Equivariant algebraic K-theory_, Algebraic K-Theory. Springer, Berlin, Heidelberg, 1982. 23-80 ([pdf](http://math.uchicago.edu/~may/PAPERS/40.pdf))
+* [[Zbigniew Fiedorowicz]], [[Henning Hauschild]], [[Peter May]], *Equivariant algebraic K-theory*, in: *Algebraic K-Theory*,  Lecture Notes in Mathematics **967**, Springer (1982) 23-80 &lbrack;[doi:10.1007/BFb0061898](https://doi.org/10.1007/BFb0061898), [pdf](http://math.uchicago.edu/~may/PAPERS/40.pdf)&rbrack;
 
-* Henning Hauschild, [[Stefan Waner]], theorem 0.1 of _The equivariant Dold theorem mod $k$ and the Adams conjecture_, Illinois J. Math. Volume 27, Issue 1 (1983), 52-66. ([euclid:1256065410](https://projecteuclid.org/euclid.ijm/1256065410))
+* [[Henning Hauschild]], [[Stefan Waner]], *The equivariant Dold theorem mod $k$ and the Adams conjecture*, Illinois J. Math. **27** 1 (1983) 52-66. &lbrack;[euclid:1256065410](https://projecteuclid.org/euclid.ijm/1256065410)&rbrack
 
 * Kuzuhisa Shimakawa, _Note on the equivariant $K$-theory spectrum_, Publ. RIMS, Kyoto Univ. **29** (1993), 449-453 ([pdf](http://www.ems-ph.org/journals/show_pdf.php?issn=0034-5318&vol=29&iss=3&rank=5), [doi](https://doi.org/10.2977/prims/1195167052))
 
