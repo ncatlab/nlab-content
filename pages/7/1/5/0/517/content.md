@@ -29,6 +29,11 @@ On [[infinite loop spaces]]:
 
   _Infinite loop space theory revisited_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/28.pdf))
 
+On [[equivariant algebraic K-theory]]:
+
+* [[Zbigniew Fiedorowicz]], [[Henning Hauschild]], [[Peter May]], *Equivariant algebraic K-theory*, in: *Algebraic K-Theory*,  Lecture Notes in Mathematics **967**, Springer (1982) 23-80 &lbrack;[doi:10.1007/BFb0061898](https://doi.org/10.1007/BFb0061898), [pdf](http://math.uchicago.edu/~may/PAPERS/40.pdf)&rbrack;
+
+
 On [[E-infinity spaces|$E_\infty$-spaces]] and [[E-infinity ring spectra|$E_\infty$-ring sectra]]:
 
 * {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], [[Mark Steinberger]] (with contributions by [[James McClure|J.E. McClure]]), _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics  **1213** (1986) &lbrack;[pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf), [doi:10.1007/BFb0075778](https://link.springer.com/book/10.1007/BFb0075778)&rbrack;
