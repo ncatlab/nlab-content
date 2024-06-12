@@ -2,6 +2,11 @@ __Donald E. Knuth__ is an American computer scientist and a mathematician, a pro
 
 * [website](https://www-cs-faculty.stanford.edu/~knuth/)
 
+* Donald E. Knuth, _Overlapping Pfaffians_, Electronic Journal of Combinatorics __3__:2 (1996) [pdf](https://www.emis.de/journals/EJC/Volume_3/PDFFiles/v3i2r5.pdf)
+
+> A combinatorial construction proves an identity for the product of the Pfaffian of a skew-symmetric matrix by the Pfaffian of one of its submatrices. Several applications
+of this identity are followed by a brief history of Pfaffians.
+
 [[!redirects Donald E. Knuth]]
 [[!redirects Don Knuth]]
 
