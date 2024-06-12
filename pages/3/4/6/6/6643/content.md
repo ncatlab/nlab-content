@@ -49,9 +49,10 @@ The [[split idempotent|splitting of idempotents]] is flexible, but not PIE.  Mor
 ## Related pages
 
 * Flexible limits may be characterised as the **persistent** [[double limits]].
-
-* [[coherence theorem for bicategories with finite limits]]
+* [[semiflexible limit]]
 * [[PIE-limit]]
+* [[coherence theorem for bicategories with finite limits]]
+
 
 ## References
 
