@@ -1,6 +1,7 @@
 __Mauro Spera__ is an Italian mathematical phycisist. Much of his research is about differential geometry applied to quantum mechanics and applications. 
 
 * [web](https://docenti.unicatt.it/ppd2/en/docenti/21065/mauro-spera/ricerca)
+* [gScholar](https://scholar.google.com/citations?user=nMmq_IQAAAAJ)
 
 ## Selected works
 
