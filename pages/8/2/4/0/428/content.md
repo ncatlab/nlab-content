@@ -345,36 +345,42 @@ This completes the proof.
 
 ## Special cases
 
-### For the trivial $G$-set
+### The classifying space and universal bundle of a group
 
-There is a monad $T$ on $Set$ whose algebras are $G$-sets, given by
+There is a monad $T$ on $Set$ whose algebras are left $G$-sets, given by
 
-$$ T(X) = G \times X$$
+$$ T X = G \times X$$
 
-The terminal $G$-set $1$, namely the one-point set with a trivial action of $G$, is an algebra for this monad $T$.    The bar construction takes any algebra of any monad and turns it into a simplicial object in the category of algebras of that monad.  Applying this to $\ast$ we get a simplicial $G$-set $Bar_T(1)$.  By Theorem \ref{universal}, the underlying simplicial set of $Bar_T(1)$ is contractible.  This simplicial set, the bar resolution $U Bar_T(1)$, is often called $E G$.
+The terminal $G$-set $1$, namely the one-point set with a trivial action of $G$, is an algebra for this monad $T$.    The bar construction takes any algebra of any monad and turns it into a simplicial object in the category of algebras of that monad.  Applying this to $1$ we get an augmented simplicial $G$-set $Bar_T(1)$.  By Theorem \ref{universal}, the underlying simplicial set $U Bar_T(1)$ is contractible.  This simplicial set is often called $E G$.  
+
+Working through the details, we see that the set of $n$-simplices of $E G$ is $G^{n+1}$, and all the face maps $\partial_i \colon G^{n+1} \to G^n$ are given by multiplying successive entries in the $(n+1)$-tuple, except for the last face map, which encodes the trivial action of $G$ on $1$:
+
+$$  \partial_i (g_0, g_1, \dots, g_n) = (g_0, \dots, g_i g_{i+1}, \dots, g_n) $$
+
+for $i = 0, \dots, n-1$, while
+
+$$ \partial_n (g_0, g_1, \dots, g_n) = (g_0, g_1, \dots, g_{n-1}) . $$
 
 The geometric realization of the simplicial set $B G = E G/G$ is called the [[classifying space]] of $G$, and the geometric realization of the map $E G \to B G$ is the "universal $G$-bundle".  The simplicial set $B G$ is also the nerve of a groupoid called the 
 [delooping](delooping#delooping_of_a_group_to_a_groupoid) of $G$.
 
 ### For modules over an algebra
 
-Let $A$ be a commutative [[associative algebra]]s over some [[ring]] $k$. Write $A Mod$ for the category of [[connective chain complex|connective]] [[chain complex]]es of [[module]]s over $A$.
+Let $A$ be a commutative [[associative algebra]]s over some [[ring]] $k$. Write $A Mod$ for the category of right [[module]]s over $A$.
 
-For $N$ a right module, also $N \otimes_k A$ is canonically a module. This construction extends to a functor
+For $M$ a right module, also $M \otimes_k A$ is canonically a right module. This construction extends to a functor
 
 $$
-  A \otimes_k (-) : 
+  T = (-) \otimes_k A : 
     A Mod 
       \to 
     A Mod 
   \,.
 $$
 
-The [[monoid]]-structure on $A$ makes this a [[monad]] in [[Cat]]: the monad product and unit are given by the product and unit in $A$.
+The [[monoid]] structure on $A$ makes $T$ into a [[monad]] on $A Mod$: the monad product and unit are given by the product and unit in $A$.
 
-For $N$ a module its right action $\rho :N \otimes A \to N$ makes the module an [[algebra over a monad|algebra over this monad]].
-
-The bar construction $\mathrm{B}(A,N)$ is then the simplicial module
+For any right $A$-module $M$, the action $\rho \colon M \otimes A \to N$ makes $M$ into an algebra of the monad $T$.  The bar construction $Bar_T(A)$ is then the simplicial $A$-module
 
 $$
   \cdots
@@ -383,14 +389,14 @@ $$
   \,.
 $$
 
-Under the [[Moore complex]] functor of the [[Dold-Kan correspondence]] this is identified with a [[chain complex]] whose [[differential]] is given by the alternating sums of the face maps indicated above. 
+Under the [[Moore complex]] functor of the [[Dold-Kan correspondence]], this simplicial $A$-module is identified with a [[chain complex]] of $A$-modules whose [[differential]] is given by the alternating sums of the face maps indicated above. 
 
 This chain complex is what originally was called the **bar complex** in [[homological algebra]]. It got its name because the first authors denoted its elements using a notation involving vertical bars ([Ginzburg](#Ginzburg)).
 
-This chain complex provides a resolution that computes the [[Tor]]
+This chain complex provides a free resolution of $A$, which can be used to compute the [[Tor]] group
 
 $$
-  Tor(N, A \times A)
+  Tor(M, A \times A)
   \,.
 $$
 
@@ -450,9 +456,6 @@ The compositional structure of the bar construction of several monads, as well a
 
 
 [[!redirects bar constructions]]
-
 [[!redirects bar complex]]
-
-
 [[!redirects bar resolution]]
 [[!redirects bar resolutions]]
