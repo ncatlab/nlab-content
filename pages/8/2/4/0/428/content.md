@@ -346,23 +346,41 @@ This completes the proof.
 ## Special cases
 
 ### The classifying space and universal bundle of a group
+ {#UniversalPrincipalBundle}
 
-There is a monad $T$ on $Set$ whose algebras are left $G$-sets, given by
+There is a monad $T$ on [[Set|$Set$]] whose algebras are left [[G-set|$G$-sets]], given by
 
-$$ T X = G \times X$$
+$$ 
+  T X \,=\, G \times X
+  \,.
+$$
 
-The terminal $G$-set $1$, namely the one-point set with a trivial action of $G$, is an algebra for this monad $T$.    The bar construction takes any algebra of any monad and turns it into a simplicial object in the category of algebras of that monad.  Applying this to $1$ we get an augmented simplicial $G$-set $Bar_T(1)$.  By Theorem \ref{universal}, the underlying simplicial set $U Bar_T(1)$ is contractible.  This simplicial set is often called $E G$.  
+The [[terminal object|terminal]] $G$-set $1$, namely the [[singleton set]] equipped with the [[trivial action]] of $G$, is an [[algebra over a monad|algebra for this monad]] $T$.    
+
+Now recalling that the bar construction takes any algebra of any monad and turns it into a simplicial object in the category of algebras of that monad, write $Bar_T(1)$ for the augmented simplicial set obtained by applying this to $1 \in G Set$.  
+
+By Theorem \ref{universal}, its [[underlying]] [[simplicial set]] $U Bar_T(1)$ is [[contractible homotopy type|contractible]].  This simplicial set is often denoted $E G$ (and as such known as the [[universal principal bundle|universal]] [[simplicial principal bundle|simplicial]] $G$-[[principal bundle]]) or $W G$ (see [here](simplicial+classifying+space#WGInComponents) at *[[simplicial classifying space]]*).
 
 Working through the details, we see that the set of $n$-simplices of $E G$ is $G^{n+1}$, and all the face maps $\partial_i \colon G^{n+1} \to G^n$ are given by multiplying successive entries in the $(n+1)$-tuple, except for the last face map, which encodes the trivial action of $G$ on $1$:
 
-$$  \partial_i (g_0, g_1, \dots, g_n) = (g_0, \dots, g_i g_{i+1}, \dots, g_n) $$
+$$  
+  \partial_i (g_0, g_1, \dots, g_n) 
+   \;=\; 
+  (g_0, \dots, g_i g_{i+1}, \dots, g_n) 
+$$
 
 for $i = 0, \dots, n-1$, while
 
-$$ \partial_n (g_0, g_1, \dots, g_n) = (g_0, g_1, \dots, g_{n-1}) . $$
+$$ 
+  \partial_n (g_0, g_1, \dots, g_n) 
+    \;=\; 
+  (g_0, g_1, \dots, g_{n-1})
+  \,. 
+$$
 
-The geometric realization of the simplicial set $B G = E G/G$ is called the [[classifying space]] of $G$, and the geometric realization of the map $E G \to B G$ is the "universal $G$-bundle".  The simplicial set $B G$ is also the nerve of a groupoid called the 
-[delooping](delooping#delooping_of_a_group_to_a_groupoid) of $G$.
+The [[quotient]] $B G \coloneqq (E G)/G$ is known as the [[simplicial classifying space]] of $G$ (also denoted $\overline{W}G$), and its [[topological realization]] is a [[topological space|topological]] [[classifying space]] for $G$-[[principal bundles]]. Finally the topological realization of the map of the quotient [[coprojection]] $E G \to B G$ is the "[[universal principal bundle|universal]] ([[simplicial principal bundle|simplicial]]) $G$-[[principal bundle]]".  
+
+The simplicial set $B G$ is also the [[simplicial nerve]] of the *[[delooping groupoid]]* of $G$.
 
 ### For modules over an algebra
 
