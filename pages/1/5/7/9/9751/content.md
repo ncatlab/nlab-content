@@ -33,6 +33,11 @@ On the [[superembedding approach]] for [[super p-branes|super $p$-branes]]/[[Gre
 
 * [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
+and in view of [[supersymmetry breaking]]:
+
+* [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], *Superembeddings, Partial Supersymmetry Breaking and Superbranes*, Nucl. Phys. B **591** (2000) 109-138 &lbrack;[arXiv:hep-th/0007048](https://arxiv.org/abs/hep-th/0007048), <a href="https://doi.org/10.1016/S0550-3213(00)00569-1">doi:10.1016/S0550-3213(00)00569-1</a>&rbrack;
+
+
 On [[kappa-symmetry]] explained via the [[superembedding approach]]:
 
 * {#SorokinTkachVolkov89} [[Dmitri Sorokin]], [[Vladimir Tkach]], [[Dmitrij Volkov]], _Superparticles, twistors and Siegel symmetry_, Mod. Phys. Lett. A **4** 10 (1989) 901-908 &lbrack;[spire:271923](http://inspirehep.net/record/271923), [doi:10.1142/S0217732389001064](https://doi.org/10.1142/S0217732389001064)&rbrack;
