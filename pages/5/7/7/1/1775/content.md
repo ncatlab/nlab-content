@@ -130,7 +130,24 @@ This is [[Higher Topos Theory|HTT, prop. 6.1.2.6, item 4'']] with [[Higher Topos
 If one requires the above condition only for those partitions that are order-preserving, then this yields the definition of a (pre-)[[category object in an (∞,1)-category]].
 
 =--
++-- {: .num_remark}
+###### Remark
 
+It is not immediately clear that a groupoid object in the above sense recovers the classical notion of a [[groupoid object]] in a [[1-category]]. This can be deduced in the following way. Let $[2]=S\cup S'$ be the partition with $S=\{0,1\}$ and $S'=\{1,2\}$. On the other hand, let $[2]=T\cup T'$ be the partition with $T=\{0,1\}$ and $T'=\{0,2\}$. Both partitions present $A_2$ as being equivalent to $A_1\times_{A_0} A_1$, but the projection maps are different. Specifically, we have two pullback diagrams:
+
+$$
+\array{
+A_1\times_{A_0} A^1 & \overset{A(d_0)}\to & A_1 & & A_1\times_{A_0} A_1&\overset{A(d_0)}\to & A_1\\
+A(d_2)\downarrow & & A(d_1)\downarrow & & A(d_1)\downarrow && A(d_0)\downarrow\\
+A_1 & \overset{A(d_0)}\to & A_0 && A_1 & \overset{A(d_0)}\to & A_0
+}
+$$
+
+In the first diagram, the upper horizontal arrow is projection onto the second coordinate and the left vertical arrow is the projection map onto the first coordinate. The bottom horizontal map is the "domain" map and the right vertical arrow is the "codomain" map. This is the "usual" Segal diagram. In the second diagram, the upper horizontal map is still projection onto the second coordinate, but the left vertical map is the "compose" map. Then the other two maps are necessarily both the "domain" morphism. Because these both present the pullback $A_1\times_{A_0}A_1$, there must be an equivalence $\phi\colon A_1\times_{A_0}A_1\overset{\simeq}\to A_1\times_{A_0}A_1$ which is compatible with the morphisms in the respective diagrams. This is sometimes called the [[shear map]], though it differs from the one used to define a [[torsor]].
+
+If we assume that the codomain of the functor $A$ is [[set]] and write $\phi(f,g)=(\phi_0(f,g),\phi_1(f,g))$ then this means that $\phi_0(f,g)\phi_1(f,g)=f$ and $\phi_1(f,g)=g$. Hence $\phi_0(f,g) g=f$. In particular, setting $f=id_{A_0}$ gives $\phi_0(f,g)$ as an inverse for $g$. It follows that every morphism of the category object $A$ is invertible. To produce the actual inversion morphism we take the composite $A_1\overset{A(s_0)}\to A_1\times_{A_0}A_1\overset{\phi}\to A_1\times_{A_0}A_1\overset{A(d_0)}\to A_1$. 
+
+=--
 
 +-- {: .num_defn}
 ###### Definition 
@@ -208,7 +225,7 @@ $$
 
 over the simplicial diagram $A : \Delta^{op} \to C$ is the corresponding **$(\infty,1)$-quotient**.
 
-If we are given a [[model category]] [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-category]] $C$, then this [[(∞,1)-colimit]] is presented by a [[homotopy colimit]] over the corresponding simplicial diagraM a **homotopy quotient** .
+If we are given a [[model category]] [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-category]] $C$, then this [[(∞,1)-colimit]] is presented by a [[homotopy colimit]] over the corresponding simplicial diagram a **homotopy quotient** .
 
 =--
 
