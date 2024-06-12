@@ -48,7 +48,7 @@ This appears at ([Johnstone, p. 369](#Johnstone)).
 +-- {: .num_prop}
 ###### Proposition
 
-Write [[Topos]]$/\mathcal{S}$ for the [[slice 2-category]] of toposes over $\mathcal{S}$. This is a [[full sub-2-category]] $\mathcal{S}$-indexed toposes
+Write [[Topos]]$/\mathcal{S}$ for the [[slice 2-category]] of toposes over $\mathcal{S}$. This is a [[full sub-2-category]] of the 2-category of$\mathcal{S}$-indexed toposes:
 
 $$
   Topos/{\mathcal{S}} \hookrightarrow Topos_{\mathcal{S}}
