@@ -1,7 +1,7 @@
 
+Andy Tonks is a British mathematicain who works in the Departamento de Álgebra, Geometría y Topología Universidad de Málaga, Málaga, Spain.
 
-
-* [website](https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/andy-tonks)
+* [website](https://www.uma.es/departments/teachers/MGhIamZ1Umx6VGZybS9Qb3ZuRXQvdz09/)
 
 * [thesis (Bangor, 1993)](https://groupoids.org.uk/pdffiles/tonksthesis.pdf)
 
@@ -31,6 +31,9 @@ See also:
 * Imma G&#225;lvez, [[Vassily Gorbounov]], Andrew Tonks, _Homotopy Gerstenhaber structures and vertex algebras_, [math/0611231.QA](https://arxiv.org/abs/math/0611231)
 
 * [[Imma Gálvez-Carrillo]], [[Joachim Kock]], Andrew Tonks, _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
+
+* [[Daniel Carranza]], [[Chris Kapulkin]], Andrew Tonks, _The Hurewicz theorem for cubical homology_, Mathematische Zeitschrift (2023) 305:61 [Doi](https://doi.org/10.1007/s00209-023-03352-0), [earlier ArXiv preprint](https://arxiv.org/abs/2207.12500)
+
 
 ## Related entries
 
