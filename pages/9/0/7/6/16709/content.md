@@ -28,6 +28,9 @@ On a reformulation of the four-colour theorem as a statement about typing in lam
 
 * [[Noam Zeilberger]], _A theory of linear typings as flows on 3-valent graphs_ ([arXiv:1804.10540](https://arxiv.org/abs/1804.10540)).
 
+Fawcett showed that the four-color theorem is equivalent to the existence of a [[left adjoint]] (that is, preserving epimorphisms) from [[planar graphs]] to [[Set]]:
+
+* [[Barry Fawcett]], [A categorical characterization of the four-colour theorem](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/015EC22C4E8E4A9D37497F1C4FDD3D6D/S0008439500023456a.pdf/a-categorical-characterization-of-the-four-colour-theorem.pdf), Canad. Math. Bull. Vol 29 (4), 1986.
 
 [[!redirects four-color theorem]]
 
