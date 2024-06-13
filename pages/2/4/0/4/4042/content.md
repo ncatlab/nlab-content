@@ -75,7 +75,7 @@ Perhaps the most general [[set theory|set-theoretically]] based construction of 
 
 * [[Max Kelly]] and [[John Power]], ["Adjunctions whose counits are coequalizers, and presentations of finitary enriched monads"](http://www.sciencedirect.com/science/article/pii/0022404993900928)
 
-* [[Steve Lack]], ["On the monadicity of finitary monads"](http://www.maths.usyd.edu.au/res/Catecomb/Lack/1997-29.html)
+* [[Steve Lack]], ["On the monadicity of finitary monads"](https://www.maths.usyd.edu.au/u/ResearchReports/Catecomb/Lack/1997-29.html)
 
 * {#GambinoHyland04} [[Nicola Gambino]], [[Martin Hyland]], section 6 of _Wellfounded trees and dependent polynomial functors_. In Types for proofs and programs, volume 3085 of Lecture Notes in Comput. Sci., pages 210-225 Springer (2004) &lbrack;[web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.98.4534)&rbrack;
  
