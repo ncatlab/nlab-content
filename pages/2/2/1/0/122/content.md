@@ -141,10 +141,9 @@ $$
     \\
     &=
     (c_1,a) \stackrel{(Id, (a\to b))}{\to} (c_1,b) 
-    \stackrel{(f,Id}{\to}
+    \stackrel{(f,Id)}{\to}
     (c_2, b)
   \end{aligned}
-  \,.
 $$
 
 Here the right side is more conveniently depicted as a commuting square
@@ -159,7 +158,6 @@ $$
      \\
      (c_1,b) &\stackrel{(f,Id)}{\to}& (c_2,b)
   }
-  \,.
 $$
 
 So a natural transformation between functors $C \to D$ is given by the images of such squares in $D$. By tracing back the way the hom-isomorphism works, one finds that the image of such a square in $D$ for a natural transformation $\alpha : F \to G$ is the naturality square from above:
