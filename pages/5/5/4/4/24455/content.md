@@ -103,6 +103,8 @@ See also:
 * _["Very lax" 2
 -dimensional co/limits](https://mathoverflow.net/questions/386414/very-lax-2-dimensional-co-limits)_, MathOverflow
 
+* _[Lax universality for lax limits](https://mathoverflow.net/questions/44463/lax-universality-for-lax-limits)_, MathOverflow
+
 * {#MS89} MacDonald, Stone, _[Soft adjunction between 2-categories](https://www.sciencedirect.com/science/article/pii/0022404989901278)_, Journal of Pure and Applied Algebra, **60** (1989)
 
 * {#Capucci22} [[Matteo Capucci]], _The Universal Property of External Choice_ (2022) &lbrack;[pdf](https://matteocapucci.files.wordpress.com/2022/03/main.pdf)&rbrack;
