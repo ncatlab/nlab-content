@@ -1445,6 +1445,11 @@ Application to [[thermal field theory|thermal]] [[QCD]]:
 
 * Qingxuan Fu, Song He, Li Li, Zhibin Li, *Revisiting holographic model for thermal and dense QCD with a critical point* &lbrack;[arXiv:2404.12109](https://arxiv.org/abs/2404.12109)&rbrack;
 
+### Application to anomalies
+
+* Domingo Gallegos, [[Matti Järvinen]], Eamonn Weitz, *Chiral Separation Effect from Holographic QCD* &lbrack;[arXiv:2406.07617](https://arxiv.org/abs/2406.07617)&rbrack;
+
+
 
 
 
