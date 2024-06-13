@@ -33,6 +33,10 @@ On the [[quark gluon plasma]] described via [[holographic QCD]]:
 
 * Jesús Cruz Rojas, [[Tuna Demircik]], [[Matti Järvinen]], *Modulated instabilities and the $AdS_2$ point in dense holographic matter* &lbrack;[arXiv:2405.02399](https://arxiv.org/abs/2405.02399)&rbrack;
 
+On the [[chiral anomaly]] IN [[QCD]] via [[holographic QCD]]:
+
+* Domingo Gallegos, [[Matti Järvinen]], Eamonn Weitz, *Chiral Separation Effect from Holographic QCD* &lbrack;[arXiv:2406.07617](https://arxiv.org/abs/2406.07617)&rbrack;
+
 
 
 
