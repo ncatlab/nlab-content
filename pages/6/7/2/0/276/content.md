@@ -524,15 +524,17 @@ a variety in the category of all simplicial groups.
 Crossed complexes were defined by Blakers in 1948 (following a suggestion of [[Samuel Eilenberg]]) and developed by Whitehead in 1949 and 1950 (but these authors used different terminology). They were applied by [[Johannes Huebschmann]] to [[group cohomology]] in 1980. They were further developed in  series of articles by Ronnie Brown and collaborators in the context of [[nonabelian algebraic topology]], and partly because they were found equivalent to a form of (strict) cubical $\omega$-groupoid with _connections_. This equivalence enabled a number of new results, including van Kampen type theorems and monoidal closed structures for crossed complexes. 
 
 
-Textbook treatment is in 
+Monographs: 
 
 * [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _[[Nonabelian Algebraic Topology]]_
 
 * [[Tim Porter]], _[[timporter:crossed menagerie|Crossed Menagerie]]_ .
 
-A survey of the use of crossed complexes is in 
+Survey:
 
 * [[Ronnie Brown]], _Crossed complexes and homotopy groupoids as non commutative tools for higher dimensional local-to-global problems_,  to appear in Michiel Hazewinkel (ed.), Handbook of Algebra, volume 6, Elsevier, 2008/2009. ([arxiv:math.AT/0212274 v7](http://arxiv.org/abs/math.AT/0212274)).
+
+* [[Andrew Tonks]]: *Theory and Applications of Crossed Complexes*, PhD thesis, Bangor (1993) &lbrack;[pdf](https://groupoids.org.uk/pdffiles/tonksthesis.pdf), [[Tonks-CrossedComplexes.pdf:file]]&rbrack;
 
 
 The equivalence of [[strict omega-groupoid|strict omega-groupoids]] and crossed complexes is discussed in 
