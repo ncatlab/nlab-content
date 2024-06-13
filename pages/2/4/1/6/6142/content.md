@@ -16,9 +16,9 @@
 
 ## Idea
 
-__Gel'fand-Raikov theorem__ (&#1043;&#1077;&#1083;&#1100;&#1092;&#1072;&#1085;&#1076;-&#1056;&#1072;&#1081;&#1082;&#1086;&#1074;) The [[irreducible representation|irreducible]] [[unitary representation]]s of a [[locally compact topological group]] $G$ separates its points. 
+The __Gel'fand-Raikov theorem__ (&#1043;&#1077;&#1083;&#1100;&#1092;&#1072;&#1085;&#1076;-&#1056;&#1072;&#1081;&#1082;&#1086;&#1074;) says that the  [[irreducible representation|irreducible]] [[unitary representations]] of a [[locally compact topological group]] $G$ separate its points. 
 
-In other words, for any two group elements $g,h\in G$ there exist an irreducible unitary representation $\rho : G\to U(H)$ such that $\rho(g)\neq \rho(h)$. 
+In other words, for any two group elements $g, h\in G$ there exist an irreducible unitary representation $\rho \colon G \to U(H)$ such that $\rho(g)\neq \rho(h)$. 
 
 ## Related concepts
 
