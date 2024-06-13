@@ -73,16 +73,16 @@ A statement and proof of both a spin-statistics and a [[PCT theorem]] in the [[a
 
 Geometric proofs of spin-statistics via [[configuration spaces of points]] (related to the [[Atiyah-Sutcliffe conjecture]]):
 
-* {#BerryRobbins97} [[Michael V. Berry]], [[Jonathan M. Robbins]], *Indistinguishability for quantum particles: spin, statistics and the geometric phase*, Proceedings of the Royal Society A **453** 1963 (1997) 1771-1790 ([doi:10.1098/rspa.1997.0096](https://doi.org/10.1098/rspa.1997.0096))
+* {#BerryRobbins97} [[Michael V. Berry]], [[Jonathan M. Robbins]], *Indistinguishability for quantum particles: spin, statistics and the geometric phase*, Proceedings of the Royal Society A **453** 1963 (1997) 1771-1790 &lbrack;[doi:10.1098/rspa.1997.0096](https://doi.org/10.1098/rspa.1997.0096)&rbrack;
 
-* A.F. Reyes-Lega, C. Benavides, *Remarks on the Configuration Space Approach to Spin-Statistics*,  Found Phys (2010) 40: 1004-1029 ([arXiv:0911.0579](https://arxiv.org/abs/0911.0579))
+* A. F. Reyes-Lega, C. Benavides, *Remarks on the Configuration Space Approach to Spin-Statistics*,  Found Phys **40** (2010) 1004-1029 &lbrack;[arXiv:0911.0579](https://arxiv.org/abs/0911.0579), [doi:10.1007/s10701-009-9397-3](https://doi.org/10.1007/s10701-009-9397-3)&rbrack;
 
 
 Generalization for [[AQFT on curved spacetime]] is in 
 
-* {#Verch01} [[Rainer Verch]], _A spin-statistics theorem for quantum fields on curved spacetime manifolds in a generally covariant framework_, Communications in Mathematical Physics October 2001, Volume 223, Issue 2, pp 261&#8211;288 ([arXiv:math-ph/0102035](http://arxiv.org/abs/math-ph/0102035), [doi:10.1007/s002200100526](http://dx.doi.org/10.1007/s002200100526))
+* {#Verch01} [[Rainer Verch]], _A spin-statistics theorem for quantum fields on curved spacetime manifolds in a generally covariant framework_, Communications in Mathematical Physics, **223** 2 (2001) 261-288 &lbrack;[arXiv:math-ph/0102035](http://arxiv.org/abs/math-ph/0102035), [doi:10.1007/s002200100526](http://dx.doi.org/10.1007/s002200100526)&rbrack;
 
-Discussion relating the spin-statistics theorem to [[extended topological field theory]], [[categorification]] (via [[2-rings]]) and [[Deligne's theorem on tensor categories]] is in 
+Discussion relating the spin-statistics theorem to [[extended topological field theory]], [[categorification]] (via [[2-rings]]) and [[Deligne's theorem on tensor categories]]:
 
 * {#JohnsonFreyd15} [[Theo Johnson-Freyd]], _Spin, statistics, orientations, unitarity_, Algebraic and Geometric Topology &lbrack;[arXiv:1507.06297](https://arxiv.org/abs/1507.06297)&rbrack;
 
