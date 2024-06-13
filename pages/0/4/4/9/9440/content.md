@@ -16,6 +16,11 @@ On a [[calculus of fractions]] generalized from categories to [[quasi-categories
 
 * [[Daniel Carranza]], [[Chris Kapulkin]], [[Zachery Lindsey]], *Calculus of Fractions for Quasicategories* &lbrack;[arXiv:2306.02218](https://arxiv.org/abs/2306.02218)&rbrack;
 
+On a simple proof of the [[Hurewicz theorem]] for [[cubical sets]],
+
+* [[Daniel Carranza]], [[Chris Kapulkin]], [[Andrew Tonks]], _The Hurewicz theorem for cubical homology_, Mathematische Zeitschrift (2023) 305:61 [Doi](https://doi.org/10.1007/s00209-023-03352-0), [earlier ArXiv preprint](https://arxiv.org/abs/2207.12500)
+
+
 exposition:
 
 * [[Chris Kapulkin]], *Calculus of Fractions for Quasicategories (Part I)*, [talk at](CQTS#KapulkinOct2023) [[CQTS]] (18 Oct 2023) &lbrack;video:[YT](https://youtu.be/96ViSKAuApc)&rbrack;
