@@ -48,7 +48,7 @@ for the followup statement that the [[abelian sheaf cohomology]] of $X/G$ with c
 
 See also Section 4.3 of
 
-* {#SzaboValentino07} [[Richard Szabo]], [[Alessandro Valentino]], _Ramond-Ramond Fields, Fractional Branes and Orbifold Differential K-Theory_, Commun. Math. Phys. 294:647-702, 2010 ([arXiv:0710.2773](https://arxiv.org/abs/0710.2773))
+* {#SzaboValentino07} [[Richard Szabo]], [[Alessandro Valentino]], *Ramond-Ramond Fields, Fractional Branes and Orbifold Differential K-Theory*, Commun. Math. Phys. **294** (2010) 647-702 \[<a href="https://doi.org/10.1007/s00220-009-0975-1">doi:10.1007/s00220-009-0975-1</a>, [arXiv:0710.2773](https://arxiv.org/abs/0710.2773)\]
 
 
 
