@@ -154,6 +154,10 @@ Application to [[baryogenesis]] is due to
 
 * [[Gerard 't Hooft]], _Computation of the quantum effects due to a four-dimensional pseudoparticle_, Phys. Rev. D14:3432-3450 (1976).
 
+Via [[holographic QCD]]:
+
+* Domingo Gallegos, [[Matti Järvinen]], Eamonn Weitz, *Chiral Separation Effect from Holographic QCD* &lbrack;[arXiv:2406.07617](https://arxiv.org/abs/2406.07617)&rbrack;
+
 
 
 
