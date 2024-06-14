@@ -15,9 +15,15 @@ On [[multi-trace operators]] in the [[AdS/CFT correspondence]]:
 
 * [[Eric D'Hoker]], [[Daniel Freedman]], [[Samir Mathur]], A. Matusis, [[Leonardo Rastelli]], _Extremal Correlators in the AdS/CFT Correspondence_, in: _[[The many faces of the superworld]]_ ([arXiv:hep-th/9908160](https://arxiv.org/abs/hep-th/9908160))
 
-On [[black brane|black]] [[M2-M5 brane bound states]]:
+On [[half-BPS solutions]] in [[D=11 supergravity]] 
+
+* {#HEGKS08} [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, Paul Sorba, _Half-BPS supergravity solutions and superalgebras_, JHEP 0812:047 (2008) &lbrack;[arXiv:0810.1484](http://arxiv.org/abs/0810.1484), [doi:10.1088/1126-6708/2008/12/047](https://iopscience.iop.org/article/10.1088/1126-6708/2008/12/047)&rbrack;
+
+
+and [[black brane|black]] [[M2-M5 brane bound states]]:
 
 * [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, _Exact Half-BPS Flux Solutions in M-theory I, Local Solutions_, JHEP 0808:028, 2008 ([arXiv:0806.0605](https://arxiv.org/abs/0806.0605))
+
 
 
 Discussion of [[BTZ black hole|BTZ]] [[black hole entropy]] and more generally of [[holographic entanglement entropy]] in [[3d quantum gravity]]/[[AdS3/CFT2]] via [[Wilson line observables]] in [[Chern-Simons theory]]:
