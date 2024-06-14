@@ -38,7 +38,7 @@ In the first case one speaks of _color branes_, in the second of _flavor branes_
 | **[[gauge bosons]]** | [[gluons]] <br/>  ([[gauge group]]-[[local symmetry]])  | [[mesons]] <br/> ([[flavor physics|flavor]]-[[hidden local symmetry]]) |
 | **[[fermions]]** | [[quarks]] | [[baryons]] |
 
-In common constructions of [[holographic QCD]] in the [[large-N limit]] (large number of [[color charges]]) in which the [[AdS/QCD correspondence]] applies, [[color branes]] are modeled  as $N_c \ggt 1$ [[black branes]] while [[flavor branes]] are modeled as $N_f \sim 1$ [[probe branes]] ([Karch-Katz 02](#KarchKatz02)).
+In common constructions of [[holographic QCD]] in the [[large-N limit]] (large number of [[color charges]]) in which the [[AdS/QCD correspondence]] applies, [[color branes]] are modeled  as $N_c \gg 1$ [[black branes]] while [[flavor branes]] are modeled as $N_f \sim 1$ [[probe branes]] ([Karch-Katz 02](#KarchKatz02)).
 
 From [Ouyang 03, p. 2](#Ouyang03):
 
