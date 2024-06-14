@@ -137,8 +137,10 @@ In some [[foundations of mathematics]], a _[[subset]]_ of a set $S$ is just a _[
 
 
 
-\linebreak
-\linebreak
+## References
+ {#References}
+
+> &lbrack;[[Urs Schreiber]]:&rbrack; In June 2018, while lecturing at Nesin Math Village (*[[schreiber:Categories and Toposes]]*) my co-lecturer [Murad Özaydın](https://math.ou.edu/profile?mozaydin) at some point said that "*A quiver is a digraph with attitude.*" Later it occurred to me that it may be entertaining and maybe even useful (for newcomers) to make explicit more examples of this kind of situation, so I coined the general term of "concept with an attitude" in [Oct 2018](https://ncatlab.org/nlab/revision/concept+with+an+attitude/1).
 
 
 [[!redirects concepts with an attitude]]
