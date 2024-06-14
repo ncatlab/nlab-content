@@ -727,6 +727,7 @@ The relation of the M5-brane to the [[D4-brane]] and the [[D=5 super Yang-Mills 
 See also ([Witten 11](#Witten11)).
 
 ### Open M5-branes
+ {#OpenM5BranesReferences}
 
 Discussion of open M5-branes stretching between [[M9-branes]] and ending in a [[Yang monopole]]:
 
