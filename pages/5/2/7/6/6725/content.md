@@ -183,9 +183,9 @@ The original articles are
 
 * {#HoravaWitten95} [[Petr Hořava]], [[Edward Witten]], _Heterotic and Type I string dynamics from eleven dimensions_, Nucl. Phys. B **460** (1996) 506 &lbrack;[arXiv:hep-th/9510209](http://arxiv.org/abs/hep-th/9510209), <a href="https://doi.org/10.1016/0550-3213(95)00621-4">doi:10.1016/0550-3213(95)00621-4</a>&rbrack;
 
-* [[Edward Witten]], _Strong Coupling Expansion Of Calabi-Yau Compactification_, Nucl. Phys.B 471:135-158, 1996 ([arXiv:hep-th/9602070](https://arxiv.org/abs/hep-th/9602070))
+* [[Edward Witten]], _Strong Coupling Expansion Of Calabi-Yau Compactification_, Nucl. Phys. B **471** (1996) 135-158 &lbrack;[arXiv:hep-th/9602070](https://arxiv.org/abs/hep-th/9602070)&rbrack;
 
-* {#HoravaWitten96} [[Petr Hořava]], [[Edward Witten]],  _Eleven dimensional supergravity on a manifold with boundary_, Nucl. Phys. B475 (1996) 94 ([arXiv:hep-th/9603142](http://arxiv.org/abs/hep-th/9603142))
+* {#HoravaWitten96} [[Petr Hořava]], [[Edward Witten]],  _Eleven dimensional supergravity on a manifold with boundary_, Nucl. Phys. B **475** (1996) 94 &lbrack;[arXiv:hep-th/9603142](http://arxiv.org/abs/hep-th/9603142)&rbrack;
  
 
 Review is in 
@@ -234,7 +234,7 @@ After [[KK-reduction]] to [[5d supergravity]] there is a corresponding 5d mechan
 
 Discussion of the [[duality between heterotic and type I string theory]] includes
 
-* {#APT98} I. Antoniadis, H. Partouche, T.R. Taylor, _Lectures on Heterotic-Type I Duality_, Nucl.Phys.Proc.Suppl. 61A (1998) 58-71; Nucl.Phys.Proc.Suppl. 67 (1998) 3-1
+* {#APT98} I. Antoniadis, H. Partouche, T. R. Taylor, _Lectures on Heterotic-Type I Duality_, Nucl.Phys.Proc.Suppl. 61A (1998) 58-71; Nucl.Phys.Proc.Suppl. 67 (1998) 3-1
 
 Discussion of [[string phenomenology]] in Horava-Witten theory:
 
@@ -299,15 +299,15 @@ Generalization to [[M-theory on S1/G_HW times H/G_ADE]]:
 
 * Zygmunt Lalak, Steven Thomas, _Gaugino Condensation, Moduli Potentials and Supersymmetry Breaking in M-Theory Models_ ([hep-th/9707223](https://arxiv.org/abs/hep-th/9707223))
 
-* V. Kaplunovsky, [[Jacob Sonnenschein]],[[Stefan Theisen]], S. Yankielowicz, _On the Duality between Perturbative Heterotic Orbifolds and M-Theory on $T^4/Z_N$_ ([arXiv:hep-th/9912144](https://arxiv.org/abs/hep-th/9912144))
+* V. Kaplunovsky, [[Jacob Sonnenschein]], [[Stefan Theisen]], [[Shimon Yankielowicz]], _On the Duality between Perturbative Heterotic Orbifolds and M-Theory on $T^4/Z_N$_ &lbrack;[arXiv:hep-th/9912144](https://arxiv.org/abs/hep-th/9912144)&rbrack;
 
-* {#GKSTY02} E. Gorbatov, V.S. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
+* {#GKSTY02} E. Gorbatov, [[Vadim Kaplunovsky]], [[Jacob Sonnenschein]], [[Stefan Theisen]], [[Shimon Yankielowicz]], _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015 (2002) &lbrack;[arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135)&rbrack;
 
-* {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP12(2014)003 ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
+* {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_, JHEP12(2014)003 &lbrack;[arXiv:1404.0711](https://arxiv.org/abs/1404.0711)&rbrack;
 
 
 
-* {#DHTV14} Michele Del Zotto, [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], Section 6 of: _6d Conformal Matter_, JHEP02(2015)054 ([arXiv:1407.6359](https://arxiv.org/abs/1407.6359))
+* {#DHTV14} [[Michele Del Zotto]], [[Jonathan Heckman]], [[Alessandro Tomasiello]], [[Cumrun Vafa]], Section 6 of: _6d Conformal Matter_, JHEP02(2015)054 &lbrack;[arXiv:1407.6359](https://arxiv.org/abs/1407.6359)&rbrack;
 
 * {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Example 2.2.7 of: _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, CMP (2019) ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](http://link.springer.com/article/10.1007/s00220-019-03442-3))
 
