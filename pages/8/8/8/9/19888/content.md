@@ -22,6 +22,11 @@ On [[graph-indexed configuration spaces of points]]:
 
 * [[Sadok Kallel]], *The Homotopy Type of Graph Configuration Spaces*, [talk at](Center+for+Quantum+and+Topological+Systems#KallelOct2023) [[CQTS]] (Oct 2023) &lbrack;slides:[[Kallel-GraphConfiguration.pdf:file]], [YT](https://youtu.be/eNdPBkjA-eQ)&rbrack;
 
+Review of [[configuration spaces of points]] and their relation to [[Cohomotopy]] via the [[scanning map]]:
+
+* [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024)
+
+
 
 ## Related entries
 
