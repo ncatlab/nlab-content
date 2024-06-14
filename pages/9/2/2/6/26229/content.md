@@ -256,6 +256,10 @@ On elliptic [[quantum groups]]:
 
 * [[Hitoshi Konno]], *Elliptic Quantum Groups*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2405.11193](https://arxiv.org/abs/2405.11193)&rbrack;
 
+On [[configuration spaces of points]] and their relation to [[Cohomotopy]] via [[scanning maps]]:
+
+* [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024)
+
 
 
 (...)
