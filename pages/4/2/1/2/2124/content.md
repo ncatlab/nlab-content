@@ -168,15 +168,24 @@ In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds of 1/2 BP
 
 The BPS bound derives its name from the discussion of [[magnetic monopoles]] in 4-dimensional [[Yang-Mills theory]] in 
 
-* (E. B. Bogomol'nyj) [[Е. Б. Богомольный]], _&#1059;&#1089;&#1090;&#1086;&#1081;&#1095;&#1080;&#1074;&#1086;&#1089;&#1090;&#1100; &#1082;&#1083;&#1072;&#1089;&#1089;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1088;&#1077;&#1096;&#1077;&#1085;&#1080;&#1081;_, &#1071;&#1076;. &#1060;&#1080;&#1079;. __24__ (1976) 449--454 (_Stability of slassical solutions_, Sov. J. Nucl. Phys. 24 (1976), 449); _Stability of slassical solutions_, Yad. Fiz. 24 (1976) 861
+* [[Е. Б. Богомольный]], _&#1059;&#1089;&#1090;&#1086;&#1081;&#1095;&#1080;&#1074;&#1086;&#1089;&#1090;&#1100; &#1082;&#1083;&#1072;&#1089;&#1089;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1088;&#1077;&#1096;&#1077;&#1085;&#1080;&#1081;_, &#1071;&#1076;. &#1060;&#1080;&#1079; __24__ (1976) 449-454
 
-* M. K. Prasad, [[Charles Sommerfield]], _Exact classical solution for 't Hooft monopole and the Julia-Zee dyon_, Phys. Rev. Lett. __35__ (1975) 760--762.
+  Engl. tanslation:
+
+  [[Evgeny B. Bogomolnyj]], *Stability of classical solutions*, Sov. J. Nucl. Phys. **24** (1976) 449  and Yad. Fiz. 24 (1976) 861-870 &lbrack;[spire:101280](https://inspirehep.net/literature/101280)&rbrack;
+
+  reprinted in:
+
+  *Solitons and Particles*, World Scientific (1984) 389-394 &lbrack;[doi:10.1142/0046](https://doi.org/10.1142/0046)&rbrack;
+
+* [[Manoj K. Prasad]], [[Charles Sommerfield]], *Exact classical solution for 't Hooft monopole and the Julia-Zee dyon*, Phys. Rev. Lett. __35__ (1975) 760-762 &lbrack;[doi:10.1103/PhysRevLett.35.760](https://doi.org/10.1103/PhysRevLett.35.760)&rbrack;
+
 
 The extension of the term "BPS-saturated state" from this case to situations in [[string theory]] seems to have happened in 
 
-* {#Witten95} [[Edward Witten]], around (2.5) of _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](https://arxiv.org/abs/hep-th/9503124))
+* {#Witten95} [[Edward Witten]], around (2.5) of _[[String Theory Dynamics In Various Dimensions]]_, Nucl. Phys. B **443** (1995) 85-126 &lbrack;[arXiv:hep-th/9503124](https://arxiv.org/abs/hep-th/9503124)&rbrack;
 
-The original article identifying the role of BPS states in supersymmetric field theory is
+The original article identifying the role of BPS states in [[supersymmetry|supersymmetric]] [[field theory]]:
 
 * [[Edward Witten]], [[David Olive]], _Supersymmetry algebras that include topological charges_ (2002) ([journal](http://www.sciencedirect.com/science/article/pii/037026937890357X))
 
@@ -187,16 +196,13 @@ Exposition and review includes
 * {#Dimofte10} [[Tudor Dimofte]], _Refined BPS invariants, Chern-Simons theory, and the quantum dilogarithm_, 2010 ([pdf](http://thesis.library.caltech.edu/5808/1/DimofteTDofficial.pdf), [web](http://thesis.library.caltech.edu/5808/))
 
 
-Further developments are in
+Further developments:
 
-*  [[Jeffrey Harvey]], [[Greg Moore]], _Algebras, BPS states, and strings_, Nucl.Phys.B463:315--368 (1996) ([doi](http://doi.org/10.1016/0550-3213%2895%2900605-2)); [hep-th/9510182](https://arxiv.org/abs/hep-th/9510182); 
+*  [[Jeffrey Harvey]], [[Greg Moore]], _Algebras, BPS states, and strings_, Nucl.Phys. B **463** (1996) 315-368 &lbrack;[doi:10.1016/0550-3213%2895%2900605-2](http://doi.org/10.1016/0550-3213%2895%2900605-2), [hep-th/9510182](https://arxiv.org/abs/hep-th/9510182)&rbrack; 
 
 *  [[Jeffrey Harvey]], [[Greg Moore]], _On the algebras of BPS states_, Comm. Math. Phys. __197__ (1998), 489&#8211;-519, [doi](https://doi.org/10.1007/s002200050461), [hep-th/9609017](https://arxiv.org/abs/hep-th/9609017).
 
-
-
-* [[Ali Chamseddine]], M. S. Volkov, _Non-abelian BPS
-monopoles in $N=4$ gauged supergravity_, Physical Review Letters 79: 3343&#8211;3346 (1997) [hep-th/9707176](http://arxiv.org/abs/hep-th/9707176).
+* [[Ali Chamseddine]], M. S. Volkov, *Non-abelian BPS monopoles in $\mathcal{N}=4$ gauged supergravity*, Physical Review Letters **79** 3343&-3346 (1997) &lbrack;[hep-th/9707176](http://arxiv.org/abs/hep-th/9707176)&rbrack;
 
 * [[Steven Weinberg]], _The quantum theory of fields_, vol. II
 
@@ -204,7 +210,7 @@ monopoles in $N=4$ gauged supergravity_, Physical Review Letters 79: 3343&#8211;
 
 * [[Davide Gaiotto]], [[Gregory Moore]], [[Andrew Neitzke]], _Wall-crossing, Hitchin systems, and the WKB approximation_, [arxiv:0907.3987](https://arxiv.org/abs/0907.3987)
 
-* R. Pandharipande, R.P. Thomas, _Stable pairs and BPS invariants_, [arXiv:0711.3899](https://arxiv.org/abs/0711.3899)
+* R. Pandharipande, R. P. Thomas, _Stable pairs and BPS invariants_, [arXiv:0711.3899](https://arxiv.org/abs/0711.3899)
 
 * [[Markus Reineke]], _Cohomology of quiver moduli, functional equations, and integrality of Donaldson-Thomas type invariants_, Compositio Mathematica __147__:3 (2011) 943--964 [doi](https://doi.org/10.1112/S0010437X1000521X) [arXiv:0903.0261](https://arXiv.org/abs/0903.0261)
 
@@ -237,14 +243,13 @@ A survey of progress on the most general picture is in
 
 Discussion of extremal/BPS [[black branes]] in [[supergravity]] (especially in [[11-dimensional supergravity]] and 10d [[type II supergravity]]) includes
 
-* {#Stelle98} [[Kellogg Stelle]], _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
+* {#Stelle98} [[Kellogg Stelle]], _BPS Branes in Supergravity_, in: *Quantum Field Theory: Perspective and Prospective*, NATO Science Series **530**, Springer (1999) &lbrack;[arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116), [doi:10.1007/978-94-011-4542-8_12](https://doi.org/10.1007/978-94-011-4542-8_12)&rbrack;
 
-* {#GauntlettHull99} [[Jerome Gauntlett]], [[Chris Hull]], _BPS states with extra supersymmetry_, JHEP 0001 (2000) 004 ([arXiv:hep-th/9909098](https://arxiv.org/abs/hep-th/9909098) [doi](https://doi.org/10.1088/1126-6708/2000/01/004))
-
+* {#GauntlettHull99} [[Jerome Gauntlett]], [[Chris Hull]], _BPS states with extra supersymmetry_, JHEP 0001 (2000) 004 &lbrack;[arXiv:hep-th/9909098](https://arxiv.org/abs/hep-th/9909098) [doi:10.1088/1126-6708/2000/01/004](https://doi.org/10.1088/1126-6708/2000/01/004)&rbrack;
 
 * {#EHKNT07} [[Francois Englert]], [[Laurent Houart]], [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065 (2007) &lbrack;[arXiv:hep-th/0703285](https://arxiv.org/abs/hep-th/0703285)&rbrack;
 
-* Andrew Callister, [[Douglas Smith]], _Topological BPS charges in 10 and 11-dimensional supergravity_, Phys. Rev. D78:065042,2008 ([arXiv:0712.3235](https://arxiv.org/abs/0712.3235))
+* Andrew Callister, [[Douglas Smith]], _Topological BPS charges in 10 and 11-dimensional supergravity_, Phys. Rev. D **78** 065042 (2008) &lbrack;[arXiv:0712.3235](https://arxiv.org/abs/0712.3235)&rbrack;
 
 * Andrew Callister, [[Douglas Smith]], _Topological charges in $SL(2,\mathbb{R})$ covariant massive 11-dimensional and Type IIB SUGRA_, Phys.Rev.D80:125035,2009 ([arXiv:0907.3614](http://arxiv.org/abs/0907.3614))
 
@@ -262,11 +267,11 @@ see also
 
 * [[Jerome Gauntlett]], _Intersecting Branes_ ([hep-th/9705011](https://arxiv.org/abs/hep-th/9705011))
 
-* [[Igor Bandos]], [[José de Azcarraga]], [[José Izquierdo]], [[Jerzy Lukierski]], _BPS states in M-theory and twistorial constituents_, Phys.Rev.Lett. __86__:4451-4454,2001 ([arXiv:hep-th/0101113](https://arxiv.org/abs/hep-th/0101113))
+* [[Igor Bandos]], [[José de Azcárraga]], [[José Izquierdo]], [[Jerzy Lukierski]], _BPS states in M-theory and twistorial constituents_, Phys. Rev. Lett. __86__ (2001) 4451-4454 &lbrack;[arXiv:hep-th/0101113](https://arxiv.org/abs/hep-th/0101113)&rbrack;
 
-* U. Gran, [[Jan Gutowski]], [[George Papadopoulos]], _Classification, geometry and applications of supersymmetric backgrounds_ ([arXiv:1808.07879](https://arxiv.org/abs/1808.07879))
+* [[Ulf Gran]], [[Jan Gutowski]], [[George Papadopoulos]], _Classification, geometry and applications of supersymmetric backgrounds_ &lbrack;[arXiv:1808.07879](https://arxiv.org/abs/1808.07879)&rbrack;
 
-Semiclassical approach
+Semiclassical approach:
 
 * T. Daniel Brennan, [[Gregory W. Moore]], _A note on the semiclassical formulation of BPS states in four-dimensional N = 2 theories_, Prog. Theor. Exp. Phys. 2016, 12C110 (19 pages) [doi](https://doi.org/10.1093/ptep/ptw159)
 
@@ -285,11 +290,11 @@ Discussion of more general classification of solutions to [[supergravity]] prese
  
 * [[Jerome Gauntlett]], Stathis Pakis, _The Geometry of $D=11$ Killing Spinors_, JHEP 0304 (2003) 039 ([arXiv:hep-th/0212008](http://arxiv.org/abs/hep-th/0212008))
 
-* {#HEGKS08} [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, Paul Sorba, _Half-BPS supergravity solutions and superalgebras_, JHEP0812:047, 2008 ([arXiv:0810.1484](http://arxiv.org/abs/0810.1484))
+* {#HEGKS08} [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, Paul Sorba, _Half-BPS supergravity solutions and superalgebras_, JHEP 0812:047 (2008) &lbrack;[arXiv:0810.1484](http://arxiv.org/abs/0810.1484), [doi:10.1088/1126-6708/2008/12/047](https://iopscience.iop.org/article/10.1088/1126-6708/2008/12/047)&rbrack;
 
 The conceptual identification of the relevant brane-charge extension of the [[supersymmetry]] algebra as that of the [[conserved currents]] of the [[Green-Schwarz super p-brane sigma models]] for branes is due to
 
-* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], [[José Izquierdo|J. M. Izquierdo, [[Paul Townsend]], _Topological extensions of the supersymmetry algebra for extended objects_, Phys. Rev. Lett. __63__ (1989) 2443 ([spire](https://inspirehep.net/record/26393?ln=en))
+* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], [[José Izquierdo|J. M. Izquierdo]], [[Paul Townsend]], _Topological extensions of the supersymmetry algebra for extended objects_, Phys. Rev. Lett. __63__ (1989) 2443 &lbrack;[spire](https://inspirehep.net/record/26393?ln=en)&rbrack;
 
 reviewed in  
 
@@ -345,4 +350,7 @@ Discussion of relation of [[M5-brane]] BPS states to [[knot invariants]] include
 
 [[!redirects BPS solution]]
 [[!redirects BPS solutions]]
+
+[[!redirects half-BPS solution]]
+[[!redirects half-BPS solutions]]
 
