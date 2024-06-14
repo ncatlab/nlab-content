@@ -39,7 +39,7 @@ Monographs:
 
 Review:
 
-* [[Louis Kauffman]], *Quantum Topology and Quantum Computing*, in: [[Samuel J. Lomonaco]] (ed.), *Quantum Computation: A Grand Mathematical Challenge for the Twenty-First Century and the Millennium*, Proceedings of Symposia in Applied Mathematics **58**, AMS (2002) &lbrack;[pdf](https://redirect.cs.umbc.edu/~lomonaco/ams/lecturenotes/Kauffman.pdf), [doi:10.1090/psapm/058](https://doi.org/10.1090/psapm/058)&rbrack;
+* [[Louis Kauffman]], *Quantum Topology and Quantum Computing*, in: [[Samuel J. Lomonaco]] (ed.), *Quantum Computation: A Grand Mathematical Challenge for the Twenty-First Century and the Millennium*, Proceedings of Symposia in Applied Mathematics **58**, AMS (2002) \[<a href="https://redirect.cs.umbc.edu/~lomonaco/ams/lecturenotes/Kauffman.pdf">pdf</a>, [doi:10.1090/psapm/058](https://doi.org/10.1090/psapm/058)\]
 
   > (in relation to [[quantum topology]])
 
@@ -90,6 +90,10 @@ Simulation of [[Ising anyons]] in a lattice of ordinary [[superconductor|superco
 
 * T. Andersen et al. *Observation of non-Abelian exchange statistics on a superconducting processor* $[$[arXiv:2210.10255](https://arxiv.org/abs/2210.10255)$]$
 
+
+Discussion via [[homotopy type theory]]:
+
+* [[David Jaz Myers]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Topological Quantum Gates in Homotopy Type Theory]]*, Comm. Math. Phys. (2024) \[<a href="https://arxiv.org/abs/2303.02382">arXiv:2303.02382</a>\]
 
 [[!include braid group representations -- references]]
 
