@@ -5,9 +5,10 @@
 
 On [[configuration spaces of points]]:
 
-* {#FadellNeuwirth62} [[Edward Fadell]], [[Lee Neuwirth]], *Configuration spaces*, Math. Scand. __10__ (1962) 111-118 $[$[doi:10.7146/math.scand.a-10517](https://doi.org/10.7146/math.scand.a-10517), [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126)$]$
+* {#FadellNeuwirth62} [[Edward Fadell]], [[Lee Neuwirth]], *Configuration spaces*, Math. Scand. __10__ (1962) 111-118 &lbrack;[doi:10.7146/math.scand.a-10517](https://doi.org/10.7146/math.scand.a-10517), [[FadellNeuwirth-ConfigSpaces.pdf:file]], [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126)&rbrack;
 
 * [[Edward Fadell]], [[Sufian Husseini]], _Geometry and topology of configuration spaces_, Springer Monographs in Mathematics (2001), [MR2002k:55038](http://www.ams.org/mathscinet-getitem?mr=2002k:55038), xvi+313 
+
 
 On [[loop spaces]] of [[configuration spaces of points]]:
 
