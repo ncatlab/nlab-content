@@ -223,7 +223,11 @@ Discussion of [[higher curvature corrections]]:
 
 * Hao-Yuan Chang, [[Ergin Sezgin]], Yoshiaki Tanii, *Dimensional reduction of higher derivative heterotic supergravity* ([arXiv:2110.13163](https://arxiv.org/abs/2110.13163))
 
+On non-supersymemtric [[branes]] in heterotic string theory:
 
+* [[Justin Kaidi]], [[Kantaro Ohmori]], [[Yuji Tachikawa]], [[Kazuya Yonekura]], *Non-supersymmetric heterotic branes* &lbrack;[arXiv:2303.17623](https://arxiv.org/abs/2303.17623)&rbrack; 
+
+* [[Justin Kaidi]], *Non-Supersymmetric Heterotic Branes*, talk at TH String Theory Seminar (Nov 2023) &lbrack;[cds:2881994](https://cds.cern.ch/record/2881994)&rbrack;
 
 
 ### Orbifold and orientifold compactifications
