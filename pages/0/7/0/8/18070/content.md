@@ -1523,12 +1523,13 @@ there regarded as [[group action|acting]] on [[Riemann surfaces]] forming [[bran
 
 The concept of configuration spaces is then re-discovered/re-vived by:
 
-* {#FadellNeuwirth62} [[Edward Fadell]], [[Lee Neuwirth]], *Configuration spaces*, Math. Scand. __10__ (1962) 111-118 $[$[doi:10.7146/math.scand.a-10517](https://doi.org/10.7146/math.scand.a-10517), [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126)$]$
+* {#FadellNeuwirth62} [[Edward Fadell]], [[Lee Neuwirth]], *Configuration spaces*, Math. Scand. __10__ (1962) 111-118 &lbrack;[doi:10.7146/math.scand.a-10517](https://doi.org/10.7146/math.scand.a-10517), [[FadellNeuwirth-ConfigSpaces.pdf:file]], [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126)&rbrack;
 
 * {#FoxNeuwirth62} [[Ralph H. Fox]], [[Lee Neuwirth]], *The braid groups*, Math. Scand. **10** (1962) 119-126
-$[$[doi:10.7146/math.scand.a-10518](https://doi.org/10.7146/math.scand.a-10518), [pdf](https://www.mscand.dk/article/view/10518/8539), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)$]$
+&lbrack;[doi:10.7146/math.scand.a-10518](https://doi.org/10.7146/math.scand.a-10518), [pdf](https://www.mscand.dk/article/view/10518/8539), [[FoxNeuwirth-BraidGroups.pdf:file]], [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)&rbrack;
 
   > (focus on the resulting [[braid groups]])
+
 
 See also early occurences in [[physics]], listed [below](#ReferencesInQuantumFieldTheory).
 
@@ -1548,6 +1549,8 @@ General accounts:
 
 * {#Williams20} [[Lucas Williams]], *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8. ([arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8))
 
+* [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024)
+
 
 In relation to the [[space of finite subsets]]:
 
@@ -1558,7 +1561,7 @@ In relation to the [[space of finite subsets]]:
 
 The [[algebra over an operad|algebra]]-[[structure]] of configuration spaces over [[little n-disk operads]]/[[Fulton-MacPherson operads]]:
 
-* {#Markl99} [[Martin Markl]], _A compactification  of  the  real  configuration  space  as  an  operadic completion, J. Algebra 215 (1999), no. 1, 185–204
+* {#Markl99} [[Martin Markl]], *A compactification  of  the  real  configuration  space  as  an  operadic completion*, J. Algebra **215** 1 (1999) 185–204 &lbrack;[arXiv:hep-th/9608067](https://arxiv.org/abs/hep-th/9608067), [doi:10.1006/jabr.1998.7709](https://doi.org/10.1006/jabr.1998.7709)&rbrack;
 
 On topological complexity of [[configuration space]]:
 
