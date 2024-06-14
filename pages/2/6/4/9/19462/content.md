@@ -54,6 +54,8 @@ $$
 
 ## Related entries
 
+* [[counting quantifier]]
+
 * [[model theory]]
 
 * [[second-order logic]]
