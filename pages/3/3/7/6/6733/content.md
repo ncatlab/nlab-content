@@ -728,10 +728,15 @@ See also ([Witten 11](#Witten11)).
 
 ### Open M5-branes
 
-Discussion of open M5-branes ending on [[M9-branes]] in a [[Yang monopole]] is in 
+Discussion of open M5-branes stretching between [[M9-branes]] and ending in a [[Yang monopole]]:
 
 * [[Eric Bergshoeff]], [[Gary Gibbons]], [[Paul Townsend]], _Open M5-branes_, Phys. Rev. Lett. **97** (2006) 231601  &lbrack;[arXiv:hep-th/0607193](http://arxiv.org/abs/hep-th/0607193), [arXiv:10.1103/PhysRevLett.97.231601](https://doi.org/10.1103/PhysRevLett.97.231601)&rbrack;
 
+The corresponding non-supersymmetric 4-branes as seen in [[heterotic string theory]]:
+
+* [[Justin Kaidi]], [[Kantaro Ohmori]], [[Yuji Tachikawa]], [[Kazuya Yonekura]], *Non-supersymmetric heterotic branes* &lbrack;[arXiv:2303.17623](https://arxiv.org/abs/2303.17623)&rbrack; 
+
+* [[Justin Kaidi]], *Non-Supersymmetric Heterotic Branes*, talk at TH String Theory Seminar (Nov 2023) &lbrack;[cds:2881994](https://cds.cern.ch/record/2881994)&rbrack;
 
 
 
