@@ -1,6 +1,7 @@
 
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Charles_M._Sommerfield)
 
-* [webpage](http://physics.yale.edu/people/charles-sommerfield)
+* [InSpire page](https://inspirehep.net/authors/988097)
 
 ## Selected writings
 
