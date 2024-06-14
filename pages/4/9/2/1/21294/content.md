@@ -30,6 +30,11 @@ On [[anomaly cancellation]] via the [[Green-Schwarz mechanism]] from the point o
 
 * [[Yasunori Lee]], [[Kantaro Ohmori]], [[Yuji Tachikawa]], *Matching higher symmetries across Intriligator-Seiberg duality* ([arXiv:2108.05369](https://arxiv.org/abs/2108.05369))
 
+On non-[[supersymmetry|supersymmetric]] [[branes]] in [[heterotic string theory]]:
+
+* [[Justin Kaidi]], [[Kantaro Ohmori]], [[Yuji Tachikawa]], [[Kazuya Yonekura]], *Non-supersymmetric heterotic branes* &lbrack;[arXiv:2303.17623](https://arxiv.org/abs/2303.17623)&rbrack; 
+
+
 
 
 category: people
