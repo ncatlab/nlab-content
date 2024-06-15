@@ -47,9 +47,10 @@ In [[solid state physics]], by a *quantum material* one means -- broadly and som
 
 ## References
 
-Textbook accounts:
+Monographs
 
 * [[Tudor D. Stanescu]], *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
+
 
 Surveys:
 
@@ -57,16 +58,19 @@ Surveys:
 
 * US Department of Energy -- Office of Science, *Basic Reseacrh Needs for Quantum Materials* (2017) &lbrack;[pdf](https://science.osti.gov/-/media/bes/pdf/brochures/2017/Quantum_Materials_Brochure.pdf), [[DOE-QuantumMaterials.pdf:file]]&rbrack;
 
+* Peter Fulde, *Correlated Electrons in Quantum Matter*, World Scientific (2012) &lbrack;[doi:10.1142/8419](https://doi.org/10.1142/8419), [pdf](https://www.pks.mpg.de/fileadmin/user_upload/MPIPKS/group_pages/Electronic_Correlations/BOOK_Aktualisierung_Oct19.pdf)&rbrack;
+
 * Feliciano Giustino et al., *The 2021 quantum materials roadmap*, J. Phys. Mater. 3 042006 (2020) ([doi:10.1088/2515-7639/abb74e](https://iopscience.iop.org/article/10.1088/2515-7639/abb74e))
 
 * Nicholas R. Glavin, Pulickel M. Ajayan, Swastik Kar, *The Age of Quantum Materials*, Advanced Materials **35** special issue 27 (2023) &lbrack;[doi:10.1002/adma.202204928](https://doi.org/10.1002/adma.202204928&rbrack;
 
 
-* Wikipedia, *[Quantum materials](https://en.wikipedia.org/wiki/Quantum_materials)*
-
 See also:
 
 * Wikipedia, *[Quantum materials](https://en.wikipedia.org/wiki/Quantum_materials)*
+
+* Wikipedia, *[Quantum materials](https://en.wikipedia.org/wiki/Quantum_materials)*
+
 
 
 [[!redirects quantum materials]]
