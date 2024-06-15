@@ -26,10 +26,12 @@ A __unitary representation__ of a [[locally compact topological group]] $G$ on a
 
 ## References
 
+* {#Dixmier77} [[Jacques Dixmier]], Chapter 13 of: *$C^\ast$-algebras*, North Holland (1977) &lbrack;ch2:[[Dixmier-CStarAlgebras-PosForms.pdf:file]], ch13:[[Dixmier-CStarAlgebras-UnitaryReps.pdf:file]]&rbrack;
+
 * [[Gerald B. Folland]], *A course in abstract harmonic analysis*, Studies in Advanced Mathematics. CRC Press (1995) &lbrack;[pdf](https://sv.20file.org/up1/1415_0.pdf), [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)&rbrack;
 
-
 * Jeffrey Adams, Marc van Leeuwen, Peter Trapa, David A. Vogan Jr, _Unitary representations of real reductive groups_ ([arXiv:1212.2192](http://arxiv.org/abs/1212.2192))
+
 
 
 [[!redirects unitary representations]]
