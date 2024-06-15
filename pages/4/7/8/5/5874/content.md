@@ -115,6 +115,10 @@ exhibiting the moduli stack of smooth stable unitary bundles as the homotopy fib
 ## References
  {#References}
 
-* [[Jacques Dixmier]], [[Adrien Douady]], _Champs continus d'espaces hilbertiens et de $C^*$-algebres_, Bull. Soc. Math. France 91 (1963), 227&#8211;-284
+* [[Jacques Dixmier]], [[Adrien Douady]], _Champs continus d'espaces hilbertiens et de $C^*$-algebres_, Bull. Soc. Math. France **91** (1963) 227-284 &lbrack;[numdam:10.24033/bsmf.1596](http://www.numdam.org/articles/10.24033/bsmf.1596), [pdf](http://www.numdam.org/item/10.24033/bsmf.1596.pdf)&rbrack;
 
-* [[Jacques Dixmier]], _Les $C^*$-alg\'ebres et leurs repr&#233;sentations, Gauthier--Villars, Paris, 1969
+* [[Jacques Dixmier]], _Les $C^*$--algébres et leurs représentations, Gauthier--Villars (1969)
+
+
+[[!redirects Dixmier-Douady classes]]
+
