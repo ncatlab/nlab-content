@@ -480,7 +480,7 @@ Discussion under the name "positive linear functionals":
 
 * {#Steward76} [[James D. Steward]], *Positive definite functions and generalizations, an historical survey*, The Rocky Mountain Journal of Mathematics **6** 3 (1976) 409-434 &lbrack;[jstor:44236118](https://www.jstor.org/stable/44236118)&rbrack;
 
-* {#Dixmier77} [[Jacques Dixmier]], §2 of: *$C^\ast$-algebras*, North Holland (1977)
+* {#Dixmier77} [[Jacques Dixmier]], Chapter 2 of: *$C^\ast$-algebras*, North Holland (1977) &lbrack;ch2:[[Dixmier-CStarAlgebras-PosForms.pdf:file]], ch13:[[Dixmier-CStarAlgebras-UnitaryReps.pdf:file]]&rbrack;
 
 * {#Murphy90} [[Gerard Murphy]], §3.3 in: _$C^\ast$-algebras and Operator Theory_, Academic Press (1990) &lbrack;[doi:10.1016/C2009-0-22289-6](https://doi.org/10.1016/C2009-0-22289-6)&rbrack;
 
