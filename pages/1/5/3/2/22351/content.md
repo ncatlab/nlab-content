@@ -182,7 +182,7 @@ This is due to [Palais 61, Prop. 2.3.1](#Palais61), recalled as [Karppinen 2016,
   The thrust of [Palais 61](#Palais61) is to state Prop. \ref{ExistenceOfSlicesInProperActionsOnLocallyCompactSpaces} without the assumption that $X$ be [[locally compact topological space|locally compact]], in which case the definition of "[[proper action]]" needs to be strengthened ("[Palais proper action](proper+action#PalaisProperness)", [Palais 61, Def. 1.2.2](#Palais61)). Under the assumption of local compactness, Palais' more general statement reduces as above, see [Karppinen 2016, Rem. 5.2.4](#Karppinen16).
 \end{remark}
 
-When the group $G$ is [[compact topological group|compact]] then the condition on the $G$-space $X$ may be relaxed:
+When the group $G$ is [[compact Lie group|compact]] then the condition on the $G$-space $X$ may be relaxed:
 
 \begin{prop}\label{ExistenceOfSlicesInCompactGroupActionsOnCompletelyRegularSpaces}
 **(existence of local slices for [[compact topological group|compact group]] actions on [[completely regular spaces]])** 
@@ -190,7 +190,7 @@ When the group $G$ is [[compact topological group|compact]] then the condition o
 
 Let 
 
-* $G$ be a [[compact topological group]] 
+* $G$ be a [[compact Lie group]] 
 
 * $X$ a [[completely regular topological space]].
 
