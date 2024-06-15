@@ -1591,15 +1591,13 @@ Generalization to [[equivariant homotopy theory]]:
 
 and strengthening in the special case $G = \mathbb{Z}/2$:
 
-* {#Xicotencatl06} Miguel Xicoténcatl, *On $\mathbb{Z}_2$-equivariant loop spaces*, in: *Recent developments in algebraic topology*, Contemp. Math. **407** (2006) 183—191 &lbrack;[pdf](https://ncatlab.org/schreiber/files/Xicotencatl_EquivariantLoopSpaces.pdf)&rbrack;
+* {#Xicotencatl06} [[Miguel A. Xicoténcatl]], *On $\mathbb{Z}_2$-equivariant loop spaces*, in: *Recent developments in algebraic topology*, Contemp. Math. **407**, AMS (2006) 183—191 &lbrack;[ams:CONM/407](https://bookstore.ams.org/CONM/407), [[Xicotencatl_EquivariantLoopSpaces.pdf:file]]&rbrack;
 
 partly based on
 
 * [[Henning Hauschild]]: *Zerspaltung &auml;quivarianter Homotopiemengen*, Math. Ann. **230** (1977) 279-292 &lbrack;[[Hauschild-EquivariantHomotopy.pdf:file]]&rbrack;
 
 
-
-Zerspaltung quivarianter Homotopiemengen
 
 The relevant construction for the [[group completion]] of the configuration space
 
