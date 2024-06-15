@@ -91,6 +91,8 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 * [[surface knot]]
 
+* [[boxed knot]], [[knot sum]]
+
 * [[MKR dictionary]] in [[arithmetic topology]]
 
 * [[chord diagram]]
@@ -130,6 +132,8 @@ General:
 * [[Nick Gilbert]], [[Tim Porter]], *Knots and surfaces*, Oxford University Press (1994) &lbrack;[ISBN:9780198514909](https://global.oup.com/academic/product/knots-and-surfaces-9780198514909?cc=de&lang=en&)&rbrack;
 
 * [[Dale Rolfsen]], _Knots and links_, AMS Chelsea __346__ (2003) &lbrack;[ams:chel-346-h](https://bookstore.ams.org/chel-346-h), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/rolfsen.pdf)&rbrack;
+
+* {#Sossinsky23} [[Alexei B. Sossinsky]], *Knots, Links and Their Invariants: An Elementary Course in Contemporary Knot Theory*, The Student Mathematical Library **101**, AMS (2023) &lbrack;[doi:10.1090/stml/101](https://doi.org/10.1090/stml/101)&rbrack;
 
 
 Historically, a motivation for [[Peter Tait]] to start thinking about classification of [[knots]] was the book 
