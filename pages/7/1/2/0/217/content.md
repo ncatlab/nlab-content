@@ -154,7 +154,7 @@ An informative discussion of the pros and cons of Lawvere's approach can be foun
 
 Palmgren's ideas can be found here:
 
-*  [[Erik Palmgren]], _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_ , Ann. Pure. App. Logic **163** no.10 (2012) 1384-1399. ([pdf](http://www.math.uu.se/~palmgren/cetcs.pdf)) {#Palmgren}
+* [[Erik Palmgren]], _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_, Annals of Pure and Applied Logic **163** 10 (2012) 1384-1399 (2009) &lbrack;[doi:10.1016/j.apal.2012.01.011](https://doi.org/10.1016/j.apal.2012.01.011), [arXiv:1201.6272](https://arxiv.org/abs/1201.6272)&rbrack;
 
 For the relation between the theory of well-pointed toposes and **weak Zermelo set theory** as elucidated by work of [[Julian Cole|J. Cole]], [[Barry Mitchell]], and [[Gerhard Osius|G. Osius]] in the early 1970s see
 
