@@ -332,7 +332,7 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
 
 Monographs:
 
-* {#Dixmier77} [[Jacques Dixmier]], *$C^\ast$-algebras*, North Holland (1977)
+* {#Dixmier77} [[Jacques Dixmier]], Chapter 2 of: *$C^\ast$-algebras*, North Holland (1977) &lbrack;ch2:[[Dixmier-CStarAlgebras-PosForms.pdf:file]], ch13:[[Dixmier-CStarAlgebras-UnitaryReps.pdf:file]]&rbrack;
 
 * {#KadisonRingrose} [[Richard V. Kadison]], [[John R. Ringrose]], _Fundamentals of the theory of operator algebras_, chapter 4 in: Vol I *Elementary Theory*, Graduate Studies in Mathematics **15**, AMS 1997 ([ISBN:978-0-8218-0819-1](https://bookstore.ams.org/gsm-15), [ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0888.46039&format=complete))
 
