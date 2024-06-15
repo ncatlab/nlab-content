@@ -142,6 +142,17 @@ References which consider quantum gates operating by (nonabelian) geometric Berr
 
 * Logan W. Cooke et al., *Demonstration of Floquet engineered non-Abelian geometric phase for holonomic quantum computing*, Phys. Rev. Research **6** 013057 (2024) &lbrack;[arXiv:2307.12957](https://arxiv.org/abs/2307.12957), [doi:10.1103/PhysRevResearch.6.013057](https://doi.org/10.1103/PhysRevResearch.6.013057)&rbrack;
 
+Realization of non-abelian holonomy on degenerate ground states in [[photonic waveguide arrays]]:
+
+* Julien Pinske, Lucas Teuber, Stefan Scheel: *Highly degenerate photonic waveguide structures for holonomic computation*, Phys. Rev. A **101** 062314 (2020) &lbrack;[doi:10.1103/PhysRevA.101.062314](https://doi.org/10.1103/PhysRevA.101.062314)&rbrack;
+
+* Vera Neef, Julien Pinske, Friederike Klauck, Lucas Teuber, Mark Kremer et al.: *Experimental Realization of a non-Abelian $U(3)$ Holonomy*, in: *2021 Conference on Lasers and Electro-Optics (CLEO)*, IEEE (2021) &lbrack;[ieee:9572414](https://ieeexplore.ieee.org/document/9572414)&rbrack;
+
+* Julien Pinske, Stefan Scheel, *Symmetry-protected non-Abelian geometric phases in optical waveguides with nonorthogonal modes*, Phys. Rev. A **105** 013507 (2022) &lbrack;[doi:10.1103/PhysRevA.105.013507](https://doi.org/10.1103/PhysRevA.105.013507), [arXiv:2105.04859](https://arxiv.org/abs/2105.04859)&rbrack;
+
+* Vera Neef, Julien Pinske, Friederike Klauck, Lucas Teuber, Mark Kremer, Max Ehrhardt, Matthias Heinrich, Stefan Scheel Alexander Szameit: *Three-dimensional non-Abelian quantum holonomy*, Nat. Phys. **19** (2023) 30–34 &lbrack;[doi:10.1038/s41567-022-01807-5](https://doi.org/10.1038/s41567-022-01807-5)&rbrack;
+
+
 
 ### In topological quantum computation
 
