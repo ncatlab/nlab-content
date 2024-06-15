@@ -136,11 +136,11 @@ References which consider quantum gates operating by (nonabelian) geometric Berr
 
 * L. M. Duan, J. I. Cirac, P. Zoller, *Geometric Manipulation of Trapped Ions for Quantum Computation*, Science **292** (2001) 1695 &lbrack;[arXiv:quant-ph/0111086](https://arxiv.org/abs/quant-ph/0111086), [doi:10.1126/science.1058835](https://doi.org/10.1126/science.1058835)&rbrack;
 
-* Jiang Zhang, Thi Ha Kyaw, Stefan Filipp, Leong-Chuan Kwek, Erik Sjöqvist, Dianmin Tong, *Geometric and holonomic quantum computation* &lbrack;[arXiv:2110.03602](https://arxiv.org/abs/2110.03602)&rbrack;
+* Jiang Zhang, Thi Ha Kyaw, Stefan Filipp, Leong-Chuan Kwek, Erik Sjöqvist, Dianmin Tong, *Geometric and holonomic quantum computation*, Physics Reports **1027** (2023) 1-53 &lbrack;[arXiv:2110.03602](https://arxiv.org/abs/2110.03602), [doi:10.1016/j.physrep.2023.07.004](https://doi.org/10.1016/j.physrep.2023.07.004)&rbrack;
 
-* Daniel Turyansky et al., *Inertial geometric quantum logic gates* &lbrack;[arXiv:2303.13674](https://arxiv.org/abs/2303.13674)&rbrack;
+* Daniel Turyansky et al., *Inertial geometric quantum logic gates*, Physical Review Applied **21** 054033 (2024) &lbrack;[arXiv:2303.13674](https://arxiv.org/abs/2303.13674), [doi:10.1103/PhysRevApplied.21.054033](https://doi.org/10.1103/PhysRevApplied.21.054033)&rbrack;
 
-* Logan W. Cooke et al., *Demonstration of Floquet engineered non-Abelian geometric phase for holonomic quantum computing* &lbrack;[arXiv:2307.12957](https://arxiv.org/abs/2307.12957)&rbrack;
+* Logan W. Cooke et al., *Demonstration of Floquet engineered non-Abelian geometric phase for holonomic quantum computing*, Phys. Rev. Research **6** 013057 (2024) &lbrack;[arXiv:2307.12957](https://arxiv.org/abs/2307.12957), [doi:10.1103/PhysRevResearch.6.013057](https://doi.org/10.1103/PhysRevResearch.6.013057)&rbrack;
 
 
 ### In topological quantum computation
