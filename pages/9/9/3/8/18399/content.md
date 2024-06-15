@@ -51,7 +51,7 @@ $$
 
 * [[exotic smooth structure]]
 
-* [[twisted connected sum]]
+* [[knot sum]]
 
 * [[twisted connected sum G2-manifolds]]
 
