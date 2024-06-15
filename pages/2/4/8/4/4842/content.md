@@ -235,7 +235,6 @@ In other words, in [[characteristic zero]], the [[graded vector space]] of [[unf
 
 [[!include chord diagrams and weight systems -- table]]
 
-
 * [[Kontsevich integral]]
 
 * [[universal Vassiliev invariant]]
@@ -246,6 +245,7 @@ In other words, in [[characteristic zero]], the [[graded vector space]] of [[unf
 
 * [[singularity]] 
 
+* [[knot sum]]
 
 
 ## References 
@@ -258,7 +258,7 @@ The original articles are
 
 * {#Kontsevich93} [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf), [[KontsevichVassilievInvariants93.pdf:file]])
 
-* {#BarNatan95} [[Dror Bar-Natan]], _On the Vassiliev knot invariants_, Topology Volume 34, Issue 2, April 1995, Pages 423-472 (<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf))
+* {#BarNatan95} [[Dror Bar-Natan]], *On the Vassiliev knot invariants*, Topology **34** 2 (1995) 423-472 &lbrack;<a href="https://doi.org/10.1016/0040-9383(95)93237-2">doi:10.1016/0040-9383(95)93237-2</a>, [pdf](https://www.math.toronto.edu/drorbn/papers/OnVassiliev/OnVassiliev.pdf)&rbrack;
 
 Lecture notes:
 
