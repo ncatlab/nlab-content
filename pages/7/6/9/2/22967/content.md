@@ -48,13 +48,13 @@ The Atiyah-Sutcliffe conjecture has been [[proof|proven]] for $n = 3$ in [Atiyah
 
 The origin of the question in investigation of the [[spin-statistics theorem]]:
 
-* {#BerryRobbins97} [[Michael V. Berry]], [[Jonathan M. Robbins]], *Indistinguishability for quantum particles: spin, statistics and the geometric phase*, Proceedings of the Royal Society A **453** 1963 (1997) 1771-1790 ([doi:10.1098/rspa.1997.0096](https://doi.org/10.1098/rspa.1997.0096))
+* {#BerryRobbins97} [[Michael V. Berry]], [[Jonathan M. Robbins]], *Indistinguishability for quantum particles: spin, statistics and the geometric phase*, Proceedings of the Royal Society A **453** 1963 (1997) 1771-1790 &lbrack;[doi:10.1098/rspa.1997.0096](https://doi.org/10.1098/rspa.1997.0096)&rbrack;
 
 First form and first checks of the conjecture:
 
-* {#Atiyah00} [[Michael F. Atiyah]], _The geometry of classical particles_, in Surveys in Differential Geometry, Surv. Differ. Geom. __7__, Int. Press 2000, 1–15 ([doi:10.4310/SDG.2002.v7.n1.a1](https://doi.org/10.4310/SDG.2002.v7.n1.a1))
+* {#Atiyah00} [[Michael F. Atiyah]], *The geometry of classical particles*, in Surveys in Differential Geometry, Surv. Differ. Geom. __7__, Int. Press (2000) 1–15 &lbrack;[doi:10.4310/SDG.2002.v7.n1.a1](https://doi.org/10.4310/SDG.2002.v7.n1.a1)&rbrack;
 
-* {#Atiyah01} [[Michael F. Atiyah]], _Configurations of points_, R. Soc. Lond. Philos. Trans. Ser. A, Math. Phys. Eng. Sci. 359 (2001) 1375–1387 ([doi:10.1098/rsta.2001.0840](https://doi.org/10.1098/rsta.2001.0840))
+* {#Atiyah01} [[Michael F. Atiyah]], _Configurations of points_, R. Soc. Lond. Philos. Trans. Ser. A, Math. Phys. Eng. Sci. 359 (2001) 1375–1387 &lbrack;[doi:10.1098/rsta.2001.0840](https://doi.org/10.1098/rsta.2001.0840))&rbrack;
 
 Generalization of the [[codomain]] to [[flag manifolds]] of other [[compact Lie groups]]:
 
