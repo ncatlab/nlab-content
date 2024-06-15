@@ -3,9 +3,14 @@
 
 ## Selected writings
 
-On [[C-star algebras|$C^\ast$-algebras]]:
+Introducing what came to be called the *[[Dixmier-Douady class]]*:
 
-* {#Dixmier77} [[Jacques Dixmier]], *$C^\ast$-algebras*, North Holland (1977)
+* [[Jacques Dixmier]], [[Adrien Douady]]: _Champs continus d'espaces hilbertiens et de $C^*$-algebres_, Bull. Soc. Math. France **91** (1963) 227-284 &lbrack;[numdam:10.24033/bsmf.1596](http://www.numdam.org/articles/10.24033/bsmf.1596), [pdf](http://www.numdam.org/item/10.24033/bsmf.1596.pdf)&rbrack;
+
+
+On [[C-star algebras|$C^\ast$-algebras]], [[states on star-algebras]], [[unitary representations]], ...
+
+* {#Dixmier77} [[Jacques Dixmier]], Chapter 13 of: *$C^\ast$-algebras*, North Holland (1977) &lbrack;ch2:[[Dixmier-CStarAlgebras-PosForms.pdf:file]], ch13:[[Dixmier-CStarAlgebras-UnitaryReps.pdf:file]]&rbrack;
 
 
 ## Related entries 
