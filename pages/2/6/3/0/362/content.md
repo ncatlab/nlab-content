@@ -31,7 +31,7 @@ where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, 
 
 * When considered with this monoidal structure, $2Cat$ is often called $Gray$.  [[Gray-category|Gray-categories]], or categories [[enriched category|enriched]] over $Gray$, are a model for [[semi-strict infinity-category|semi-strict]] 3-categories.  Categories enriched over $2Cat$ with its cartesian product are _strict_ 3-categories, which are not as useful.  This is one precise sense in which the Gray tensor product is "more correct" than the cartesian product.
 
-* $Gray$ is a rare example of a non-[[cartesian monoidal category|cartesian]] monoidal category whose unit object is nevertheless the terminal object --- that is, a [[semicartesian monoidal category]].
+* $Gray$ is an example of a [[semicartesian monoidal category]], i.e. a non-[[cartesian monoidal category|cartesian]] monoidal category whose unit object is nevertheless the terminal object.
 
 * There are also versions of the Gray tensor product in which pseudonatural transformations are replaced by lax or oplax ones.  (In fact, these were the ones originally defined by Gray.)
 
