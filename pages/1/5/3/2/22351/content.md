@@ -182,7 +182,7 @@ This is due to [Palais 61, Prop. 2.3.1](#Palais61), recalled as [Karppinen 2016,
   The thrust of [Palais 61](#Palais61) is to state Prop. \ref{ExistenceOfSlicesInProperActionsOnLocallyCompactSpaces} without the assumption that $X$ be [[locally compact topological space|locally compact]], in which case the definition of "[[proper action]]" needs to be strengthened ("[Palais proper action](proper+action#PalaisProperness)", [Palais 61, Def. 1.2.2](#Palais61)). Under the assumption of local compactness, Palais' more general statement reduces as above, see [Karppinen 2016, Rem. 5.2.4](#Karppinen16).
 \end{remark}
 
-When the group $G$ is [[compact Lie group|compact]] then the condition on the $G$-space $X$ may be relaxed:
+When the group $G$ is [[compact Lie group|compact Lie]] then the condition on the $G$-space $X$ may be relaxed:
 
 \begin{prop}\label{ExistenceOfSlicesInCompactGroupActionsOnCompletelyRegularSpaces}
 **(existence of local slices for [[compact topological group|compact group]] actions on [[completely regular spaces]])** 
@@ -200,8 +200,12 @@ Then for every point $x \in X$ there exists a slice through $x$ (Def. \ref{Slice
 \end{prop}
 This is due to [Mostow 1957, Thm. 2.1](#Mostow57), reproved as [Palais 60b, Cor. 1.7.19](#Palais60b). It is also a special case of [Palais 61, Prop. 2.3.1](#Palais61), using that compact group actions on completely regular spaces are "Cartan actions" in the sense of Palais (by [Karppinen 2016, Prop. 5.1.7](#Karppinen16)).
 
-
 For [[smooth manifold|smooth]] [[G-manifolds]] the $H$-space $S$ may be taken to be a [[linear representation]] (e.g. [tomDieck 87, Thm. 5.6](#tomDieck87)).
+
+\begin{remark}\label{NeedForAssumptionOfLieGroup}
+  The assumption of a [[Lie group]] in Prop. \ref{ExistenceOfSlicesInCompactGroupActionsOnCompletelyRegularSpaces} seems to be necessary. A [[counterexample]] for $G$ just a [[compact topological group]] may be extracted from [Williams 1963](#Williams63).
+\end{remark}
+
 
 ## Examples and applications
 
@@ -248,7 +252,7 @@ $$
 
 
 \begin{example}
-If time evolution on some [[Lorentzian manifold]] is given as an $\mathbb{R}^1$-action with [[timelike]] flow lines, then slices ("1-slices") for this action are known as *[[Cauchy surfaces]]*.
+If [[time]] evolution on some [[Lorentzian manifold]] is given as an $\mathbb{R}^1$-action with [[timelike]] flow lines, then slices ("1-slices") for this action are known as *[[Cauchy surfaces]]*.
 \end{example}
 
 ### Principal bundles
@@ -337,7 +341,7 @@ $
 which is the [[local section]] that exhibits the [[local trivialization]].)
 \end{proof}
 
-As a corollary:
+As a [[corollary]]:
 
 \begin{prop}\label{FreeAndProperLieGroupActionsOnLCHSpacesArePrincipal}
 **([[free action|free]] and [[proper action|proper]] [[Lie group]] [[group action|actions]] on [[locally compact Hausdorff spaces]] are [[locally trivial bundle|locally trivial]])**
@@ -360,6 +364,7 @@ Then the [[quotient space]] [[coprojection]] $P \xrightarrow{q} P/G$ is a $G$-[[
   Due to Prop. \ref{FreeAndProperLieGroupActionsOnLCHSpacesArePrincipal}, some authors *define* a $G$-[[principal bundle]] to be a free and proper action on a locally compact Hausdorff space, without mentioning local trivializability (e.g. [Raeburn & Williams 1991, Def. 2.1](https://www.jstor.org/stable/24896249 )).
 \end{remark}
 
+
 ## Related concepts
 
 * [[topological G-space]], [[G-manifold]]
@@ -372,37 +377,38 @@ Then the [[quotient space]] [[coprojection]] $P \xrightarrow{q} P/G$ is a $G$-[[
 
 * [[equivariant Tietze extension theorem]]
 
+
 ## References
 
 Original discussion:
 
-* [[Andrew Gleason]], _Spaces With a Compact Lie Group of Transformations_, Proceedings of the American Mathematical Society Proceeding, Vol. 1, No. 1 (Feb., 1950), pp. 35-43 ([jstor:2032430](https://www.jstor.org/stable/2032430), [doi:10.2307/2032430](https://doi.org/10.2307/2032430))
+* [[Andrew Gleason]], _Spaces With a Compact Lie Group of Transformations_, Proceedings of the American Mathematical Society Proceeding **1** 1 (1950) 35-4 &lbrack;[jstor:2032430](https://www.jstor.org/stable/2032430), [doi:10.2307/2032430](https://doi.org/10.2307/2032430)&rbrack;
 
-* [[Deane Montgomery]], [[Chung Tao Yang]], _The existence of a slice_, Ann. of Math. 65 (1957), 108-116 ([jstor:1969667](https://www.jstor.org/stable/1969667), [doi:10.2307/1969667](https://doi.org/10.2307/1969667))
+* [[Deane Montgomery]], [[Chung Tao Yang]], _The existence of a slice_, Ann. of Math. **65** (1957) 108-116 &lbrack;[jstor:1969667](https://www.jstor.org/stable/1969667), [doi:10.2307/1969667](https://doi.org/10.2307/1969667)&rbrack;
 
-* {#Mostow57} [[George Mostow]], _Equivariant embeddings in Euclidean space_,  Ann. of Math. 65 (1957), 432-446 ([jhir:1774.2/46183](http://jhir.library.jhu.edu/handle/1774.2/46183), [pdf scan](https://jscholarship.library.jhu.edu/bitstream/handle/1774.2/46183/Mostow_Mar57.pdf?sequence=1&isAllowed=y))
+* {#Mostow57} [[George Mostow]], _Equivariant embeddings in Euclidean space_,  Ann. of Math. **65** (1957)  432-446 &lbrack;[jhir:1774.2/46183](http://jhir.library.jhu.edu/handle/1774.2/46183), [pdf scan](https://jscholarship.library.jhu.edu/bitstream/handle/1774.2/46183/Mostow_Mar57.pdf?sequence=1&isAllowed=y)&rbrack;
 
-* {#Palais60} [[Richard Palais]], _Slices and equivariant embeddings_, chapter VIII in: [[Armand Borel]] (ed.), _Seminar on Transformation Groups_, Annals of Mathematics Studies 46, Princeton University Press 1960 ([jstor:j.ctt1bd6jxd](https://www.jstor.org/stable/j.ctt1bd6jxd))
+* {#Palais60} [[Richard Palais]], _Slices and equivariant embeddings_, chapter VIII in: [[Armand Borel]] (ed.), _Seminar on Transformation Groups_, Annals of Mathematics Studies **46**, Princeton University Press (1960) &lbrack;[jstor:j.ctt1bd6jxd](https://www.jstor.org/stable/j.ctt1bd6jxd)&rbrack;
 
-* {#Palais60b} [[Richard Palais]], Section 1.7 of: *The classification of $G$-spaces*, Memoirs of the AMS, **36**, 1960 ([ISBN:978-0-8218-9979-3](https://bookstore.ams.org/memo-1-36) [pdf](http://vmm.math.uci.edu/PalaisPapers/ClassificationOfG-Spaces.pdf), [[Palais_ClassificationOfGSpaces.pdf:file]])
-
-
-* {#Palais61} [[Richard Palais]], _On the Existence of Slices for Actions of Non-Compact Lie Groups_, Annals of Mathematics Second Series, Vol. 73, No. 2 (Mar., 1961), pp. 295-323 ([jstor:1970335](https://www.jstor.org/stable/1970335), [doi:10.2307/1970335](https://doi.org/10.2307/1970335), [pdf](http://vmm.math.uci.edu/ExistenceOfSlices.pdf))
+* {#Palais60b} [[Richard Palais]], Section 1.7 of: *The classification of $G$-spaces*, Memoirs of the AMS **36*, AMS (1960) &lbrack;[ISBN:978-0-8218-9979-3](https://bookstore.ams.org/memo-1-36) [pdf](http://vmm.math.uci.edu/PalaisPapers/ClassificationOfG-Spaces.pdf), [[Palais_ClassificationOfGSpaces.pdf:file]]&rbrack;
 
 
+* {#Palais61} [[Richard Palais]], _On the Existence of Slices for Actions of Non-Compact Lie Groups_, Annals of Mathematics Second Series **73** 2 (1961) 295-323 &lbrack;[jstor:1970335](https://www.jstor.org/stable/1970335), [doi:10.2307/1970335](https://doi.org/10.2307/1970335), [pdf](http://vmm.math.uci.edu/ExistenceOfSlices.pdf)&rbrack;
 
-* {#Bredon72} [[Glen Bredon]], Section II.4 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN:9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+* {#Bredon72} [[Glen Bredon]], Section II.4 of: _[[Introduction to compact transformation groups]]_, Academic Press (1972) &lbrack;[ISBN:9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf)&rbrack;
 
 
 Review:
 
-* {#Karppinen16} [[Sini Karppinen]], _The existence of slices in $G$-spaces, when $G$ is a Lie group_, Helsinki 2016 ([hdl:10138/190707](http://hdl.handle.net/10138/190707))
+* {#Karppinen16} [[Sini Karppinen]], _The existence of slices in $G$-spaces, when $G$ is a Lie group_, Helsinki (2016) &lbrack;[hdl:10138/190707](http://hdl.handle.net/10138/190707)&rbrack;
 
 See also:
 
-* {#tomDieck87} [[Tammo tom Dieck]], Section I.5 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
+* {#tomDieck87} [[Tammo tom Dieck]], Section I.5 of: _[[Transformation Groups]]_, de Gruyter (1987)  &lbrack;[doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372)&rbrack;
 
-* [[Sergey Antonyan]], *Characterizing slices for proper actions of locally compact groups*, Topology and its Applications Volume 239, 15 April 2018, Pages 152-159 ([arXiv:1702.08093](https://arxiv.org/abs/1702.08093), [doi:10.1016/j.topol.2018.02.026](https://doi.org/10.1016/j.topol.2018.02.026))
+* [[Sergey Antonyan]], *Characterizing slices for proper actions of locally compact groups*, Topology and its Applications **239** (2018) 152-159 &lbrack;[arXiv:1702.08093](https://arxiv.org/abs/1702.08093), [doi:10.1016/j.topol.2018.02.026](https://doi.org/10.1016/j.topol.2018.02.026)&rbrack;
+
+* {#Williams63} R. F. Williams, *A useful functor and three famous examples in topology*, Trans. Amer. Math. Soc. **106** (1963) 319-329 &lbrack;[tran:1963-106-02/S0002-9947-1963-0146832-0](https://www.ams.org/journals/tran/1963-106-02/S0002-9947-1963-0146832-0), [pdf](https://www.ams.org/journals/tran/1963-106-02/S0002-9947-1963-0146832-0/S0002-9947-1963-0146832-0.pdf)&rbrack;
 
 Discussion for [[G-CW complexes]]:
 
