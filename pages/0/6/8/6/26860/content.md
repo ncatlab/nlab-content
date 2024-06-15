@@ -61,7 +61,7 @@ The connected sum operation is [[associative]] and [[commutative]]:
 There are no [[inverse elements]] under the connected sum operation,
 i.e.,
 $K # K' = \circ \implies K = K' = \circ $,
-where $\circ $ is the unknot.
+where $\circ $ is the [[unknot]].
 
 \end{theorem}
 
