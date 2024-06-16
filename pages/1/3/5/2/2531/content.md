@@ -205,7 +205,7 @@ These are categories of sheaves on the full category $\mathbb{L} = (C^\infty Rin
 
 The notion of microlinear space in the above fashion is due to
 
-* F. Bergeron, (1980)
+* F. Bergeron, Objet infinitésimal en géométrie différentielle synthétique, Exposé 10 in Rapport de Recherches du Dépt. de Math. et de Stat. 80-11 and 80-12, Université de Montréal, 1980.
 
 and was studied further under the name _strong infinitesimal linearity_
 
