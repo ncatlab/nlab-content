@@ -21,7 +21,7 @@ Models of theoretical [[physics]] are often given in the form of [[differential 
 
 In [[classical mechanics]], a sort of integrability follows if there are generalized "angle-action" coordinates; the evolution of a system is then of a very special form, hence such "[[Liouville integrability]]" (existence of a maximal [[Poisson manifold|Poisson]]-commuting invariants) leads to a special type of global structure of orbits. In addition to finite-dimensional integrable models, many classical PDEs of mathematical physics can be exactly solved, which can often be expressed in terms of infinite-dimensional Hamiltonian systems. There are many methods and approaches which are often simultaneously applicable, and under some assumptions essentially equivalent; we list just keywords: Lax pairs, bihamiltonian systems, spectral curve, classical r-matrix, inverse scattering method, [[Riemann-Hilbert problem|Riemann--Hilbert method]] and Birkhoff decomposition (which also provide connections to the subject of special functions)...
 
-Much of the knowledge about the algebras of differential operators on curves has been obtained from research on Calogero--Moser systems and generalizations (and their connections to the KP hierarchy). An important class of integrable systems are special cases of [[Hitchin fibration|Hitchin system]].
+Much of the knowledge about the algebras of differential operators on curves has been obtained from research on Calogero--Moser systems and generalizations (and their connections to the [[KP hierarchy]]). An important class of integrable systems are special cases of [[Hitchin fibration|Hitchin system]].
 
 
 ## Quantum integrability
@@ -39,7 +39,7 @@ were invented with a view toward quantum integrable systems systematizing analog
 
 * [[spin chain]], [[Toda lattice]], [[Bethe ansatz]]
 
-* [[sine-Gordon model]]
+* [[sine-Gordon model]], [[KdV equation]], [[KP equation]]
 
 * [[quasitriangular bialgebra]], [[Yangian]], [[quantum group]] 
 
@@ -78,11 +78,11 @@ See also:
 
 * A.Levin, M.Olshanetsky, A.Smirnov, A.Zotov, _Characteristic classes and integrable systems. General construction_, [arxiv/1006.0702](https://arxiv.org/abs/1006.0702)
 
-* Yuji Kodama, Lauren Williams, _KP solitons, total positivity, and cluster algebras_, Proc. Natl. Acad. Sci. [arxiv/1105.4170](https://arxiv.org/abs/1105.4170), [doi](doi:10.1073/pnas.1102627108)
+* Yuji Kodama, Lauren Williams, _KP solitons, total positivity, and cluster algebras_, Proc. Natl. Acad. Sci. 108 (22) 8984--8989 [arxiv/1105.4170](https://arxiv.org/abs/1105.4170) [doi](https://doi.org/10.1073/pnas.1102627108) 
 
-* Pierre Van Moerbeke, [[David Mumford]], _The spectrum of difference operators and algebraic curves_, Acta Math. __143__, n. 1, 93-154, [MR80e:58028](https://mathscinet.ams.ormathscinet-getitem?mr=533894), [doi](https://doi.org/10.1007/BF02392090)
+* Pierre Van Moerbeke, [[David Mumford]], _The spectrum of difference operators and algebraic curves_, Acta Math. __143__, n. 1, 93--154, [MR80e:58028](https://mathscinet.ams.ormathscinet-getitem?mr=533894), [doi](https://doi.org/10.1007/BF02392090)
 
-* [[Boris Dubrovin|B. A. Dubrovin]], _Completely integrable Hamiltonian systems that are associated with matrix operators, and Abelian varieties_, Funkcional. Anal. i Prilo&#382;en. __11__ (1977), no. 4, 28-41, 96, [MR0650114](http://www.ams.org/mathscinet-getitem?mr=0650114)
+* [[Boris Dubrovin|B. A. Dubrovin]], _Completely integrable Hamiltonian systems that are associated with matrix operators, and Abelian varieties_, Funkcional. Anal. i Prilo&#382;en. __11__ (1977), no. 4, 28--41, 96, [MR0650114](http://www.ams.org/mathscinet-getitem?mr=0650114)
 
 * [[Boris A. Dubrovin]], _Integrable systems and Riemann surfaces lecture notes_, [pdf](http://people.sissa.it/
 ~dubrovin/rsnleq_web.pdf)
