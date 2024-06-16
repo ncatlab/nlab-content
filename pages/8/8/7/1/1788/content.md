@@ -1,4 +1,18 @@
 
+On [[T-duality]] in the [[K-theory classification of topological phases of matter]], related to [[Fourier transform]] between [[crystals]] and their [[Brillouin torus]]:
+
+Review: 
+
+* [[Guo Chuan Thiang]], *K-theory and T-duality of topological phases*, Adelaide (2018) &lbrack;[[Thiang-KTheoryTopPhases.pdf:file]]&rbrack;
+
+* [[Keith C. Hannabuss]], *T-duality and the bulk-boundary correspondence*, Journal of Geometry and Physics
+**124** (2018) 421-435 \[<a href="https://doi.org/10.1016/j.geomphys.2017.11.016">doi:10.1016/j.geomphys.2017.11.016</a>, [arXiv:1704.00278](https://arxiv.org/abs/1704.00278)\]
+
+
+
+
+***
+
 [[spin-statistics via configuration spaces -- references]]
 
 $\gg$
