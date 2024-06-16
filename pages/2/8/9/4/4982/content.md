@@ -21,6 +21,8 @@ __Hydrodynamics__ is the dynamics of liquids, i.e. of low compressible fluids. I
 
 * [[Navier-Stokes equation]]
 
+* [[Kadomtsev-Petviashvili equation]]
+
 * [[magnetohydrodynamics]]
 
 * [[phase of matter]]
