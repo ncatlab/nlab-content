@@ -275,8 +275,7 @@ Int. J. Mod. Phys. B7, 4227 (1993). (for topological order described by [[TQFT]]
 
 * {#Freed14} [[Daniel Freed]], _Short-range entanglement and invertible field theories_ ([arXiv:1406.7278](http://arxiv.org/abs/1406.7278))
 
-* Guo Chuan Thiang, _On the K-theoretic classification of topological phases of matter_,
-[arXiv:1406.7366](http://arxiv.org/abs/1406.7366)
+* [[Guo Chuan Thiang]], _On the K-theoretic classification of topological phases of matter_ &lbrack;[arXiv:1406.7366](http://arxiv.org/abs/1406.7366)&rbrack;
 
 * [[Edward Witten]], _Fermion path integrals and topological phases_, [arxiv/1508.04715](http://arxiv.org/abs/1508.04715)
 
@@ -354,11 +353,13 @@ Via [[higher gauge theory|higher]] [[lattice gauge theory]]:
 
 ### Conference and seminar cycles
 
-* seminar in Koeln [Topological states of matter](http://www.thp.uni-koeln.de/trebst/Lectures/2012-TopoSeminar.html)
-* Topological Phases of Matter: Simons Center, June 10-14, 2013, videos [available](http://scgp.stonybrook.edu/archives/3464)
-* A. Kitaev, _On the classification of short-range entangled states_, [video](http://scgp.stonybrook.edu/archives/7874)
+* Markus Garst, Achim Rosch, [[Simon Trebst]]: *[Topological states of matter](http://www.thp.uni-koeln.de/trebst/Lectures/2012-TopoSeminar.html)*
 
-* CECAM 2013, Topological Phases in Condensed Matter and Cold Atom Systems: towards quantum computations [description](http://www.cecam.org/workshop-867.html)
+* Simons Center: *Topological Phases of Matter*, June 10-14, 2013 &lbrack;[scgp:3464](http://scgp.stonybrook.edu/archives/3464)&rbrack;
+
+* [[Alexei Kitaev]], _On the classification of short-range entangled states_, [video](http://scgp.stonybrook.edu/archives/7874)
+
+* CECAM 2013: *Topological Phases in Condensed Matter and Cold Atom Systems: towards quantum computations* &lbrack;[webpage](http://www.cecam.org/workshop-867.html)&rbrack;
 
 
 [[!redirects topological phases of matter]]
