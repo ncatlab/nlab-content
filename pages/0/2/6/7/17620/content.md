@@ -3,9 +3,11 @@
 
 * [institute webpage](https://www.maths.ox.ac.uk/people/keith.hannabuss)
 
-## related $n$Lab entries
+## Related entries
 
 * [[topological T-duality]]
 
 
 category: people
+
+[[!redirects Keith C. Hannabus]]
