@@ -38,6 +38,8 @@ proteins.
 
   [[black hole]], [[black brane]]
 
+* [[Kadomtsev-Petviashvili equation]]
+
 ## Refereneces
 
 > (See also the general references at *[[non-perturbative quantum field theory]]*.)
