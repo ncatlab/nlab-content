@@ -1,8 +1,14 @@
-__A. P. Balachandran__ is an indian-american theoretical physicist, retired from the Syracuse University. 
+
+__Aiyalam Parameswaran Balachandran__ is an Indian-American theoretical physicist, retired from the Syracuse University. 
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/A._P._Balachandran)
 
+
 ## Selected writings
+
+On the [[spin-statistics theorem]] for [[non-relativistic particles]] via the [[topology]] of their [[configuration spaces of points]]:
+
+* [[Aiyalam P. Balachandran]], A. Daughton, Z. C. Gu, [[Giuseppe Marmo]], [[Rafael D. Sorkin]] *Spin statistics theorems without relativity or field theory*, Int. J. Mod. Phys. A **8** (1993) 2993-3044 &lbrack;[doi:10.1142/S0217751X93001223](https://doi.org/10.1142/S0217751X93001223)&rbrack;
 
 On the notion of [[entropy]] in [[quantum probability theory]]:
 
@@ -12,10 +18,14 @@ On the notion of [[entropy]] in [[quantum probability theory]]:
 
 On [[fiber bundles in physics]]:
 
-* [[A. P. Balachandran]], G. Marmo, B.-S. Skagerstam, A. Stern, _Gauge Symmetries and Fibre Bundles_, Lect. Notes in Physics 188, Springer-Verlag, Berlin, 1983 ([arXiv:1702.08910](https://arxiv.org/abs/1702.08910))
+* [[Aiyalam P. Balachandran]], [[Giuseppe Marmo]], [[Bo-Sture Skagerstam]], A. Stern, _Gauge Symmetries and Fibre Bundles_, Lect. Notes in Physics **188** Springer (1983) &lbrack;[arXiv:1702.08910](https://arxiv.org/abs/1702.08910)&rbrack;
+
+and with emphasis on [[solitons]] and [[Skyrmions]]:
+
+* [[Aiyalam P. Balachandran]], [[Giuseppe Marmo]], [[Bo-Sture Skagerstam]]: *Classical Topology and Quantum States*, World Scientific (1991) &lbrack;[doi:10.1142/1180](https://doi.org/10.1142/1180)&rbrack;
 
 
-## Related $n$Lab pages
+## Related entries
 
 * [[fiber bundles in physics]]
 
@@ -26,3 +36,5 @@ On [[fiber bundles in physics]]:
 * [[Hopf fibration]]
 
 category: people
+
+[[!redirects Aiyalam P. Balachandran]]
