@@ -163,7 +163,7 @@ A modern approach from classical via Grothendieck up to [[categorical Galois the
 
 The application of a general Tannakian theorem of Saavaedra Rivano, as corrected by Deligne, to the "[[differential Galois theory]]" for differential instead of algebraic equations is in the last chapter of Deligne's [[Catégories Tannakiennes]].
 
-* [[George Janelidze]], Dietmar Schumacher, [[Ross Street]], _Galois theory in variable categories_, Applied Categorical Structures __1__, Number 1, 103-110, DOI:
+* [[George Janelidze]], Dietmar Schumacher, [[Ross Street]], _Galois theory in variable categories_, Applied Categorical Structures __1__, Number 1, 103-110, DOI: [10.1007/BF00872989](https://doi.org/10.1007/BF00872989)
 * Federico G. Lastaria, _On separable algebras in Grothendieck Galois theory_, Le Matematiche 51:3, 1996, [link](http://www.dmi.unict.it/ojs/index.php/lematematiche/article/view/464/0)
 
 
