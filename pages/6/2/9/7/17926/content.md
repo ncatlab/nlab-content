@@ -29,6 +29,17 @@ For the time being see at _[[1d WZW model]]_.
 
 * [[rigid body dynamics]]
 
+## References
+
+### General
+
+(...)
+
+### Spin-statistics theorem
+
+[[!include spin-statistics via configuration spaces -- references]]
+
+
 [[!redirects non-relativistic particles]]
 
 [[!redirects nonrelativistic particle]]
