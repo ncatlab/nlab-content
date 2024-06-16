@@ -17,7 +17,7 @@
 
 ## Definition
 
-In [[dependent type theory]], a **definitional isomorphism** or **judgmental isomorphism** between two types $A$ and $B$ consists of functions $f:A \to B$ and $f^{-1}:B \to A$ such that given any term $x:A$, the term $f^{-1}(f(x))$ is [[judgmental equality|judgmentally equal]] to $x$ and given any term $y:B$, the term $f(f^{-1}(y))$ is definitionally equal to $y$.  In symbols, 
+In [[dependent type theory]], a **definitional isomorphism** or **defintional section-retraction** or **judgmental isomorphism** between two types $A$ and $B$ consists of functions $f:A \to B$ and $f^{-1}:B \to A$ such that given any term $x:A$, the term $f^{-1}(f(x))$ is [[judgmental equality|judgmentally equal]] to $x$ and given any term $y:B$, the term $f(f^{-1}(y))$ is definitionally equal to $y$.  In symbols, 
 $$x:A \vdash f^{-1}(f(x)) \equiv x:A \quad \mathrm{and} \quad y:B \vdash f(f^{-1}(y)) \equiv y:B$$
 
 If the dependent type theory has [[identity types]], definitional isomorphisms are, in particular, [[equivalences in type theory|equivalences]] since the [[homotopies]] and [[coherence law]] for (half-adjoint) equivalences are derivable from the judgmental equalities in definitional isomorphisms. 
@@ -72,10 +72,17 @@ However, the dependent type theory will no longer have [[decidable equality]] if
 
 ## References
 
+Definitional isomorphism is called "definitional section-retraction" in:
+
+* {#ACKS24} [[Thorsten Altenkirch]], [[Yorgo Chamoun]], [[Ambrus Kaposi]], [[Michael Shulman]], *Internal parametricity, without an interval*, Proceedings of the ACM on Programming Languages (POPL) **8** (2024) 2340-2369 &lbrack;[arXiv:2307.06448](https://arxiv.org/abs/2307.06448), [doi:10.1145/3632920](https://doi.org/10.1145/3632920)&rbrack;
+
 The proof assistant [[Narya]] makes use of definitional isomorphisms to characterize identity/bridge types.
 
 [[!redirects definitional isomorphism]]
 [[!redirects definitional isomorphisms]]
+
+[[!redirects definitional section-retraction]]
+[[!redirects definitional section-retractions]]
 
 [[!redirects judgmental isomorphism]]
 [[!redirects judgmental isomorphisms]]
