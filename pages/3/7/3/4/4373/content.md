@@ -38,19 +38,21 @@ For this to make sense in a given [[category]] $C$, we not only need a good noti
 
 One general abstract way to define an _embedding_ morphism is to say that this is equivalently a [[regular monomorphism]].
 
-If the ambient category has finite [[limit]]s and [[colimit]]s, then this is equivalently an [[effective monomorphism]]. In terms of this we recover a formalization of the above idea, that an embedding is an iso onto its _image_ :
+If the ambient category has [[finite limits]] and [[finite colimits]], then this is equivalently an [[effective monomorphism]]. In terms of this we recover a formalization of the above idea, that an embedding is an iso onto its _image_ :
 
 For a [[morphism]] $f : X \to Y$ in $C$ the definition of [image as an equalizer](http://ncatlab.org/nlab/show/image#AsEqualizer) says that the [[image]] of $f$ is
 
 $$
-  im f := \lim_\leftarrow ( Y \stackrel{\to}{\to} Y \coprod_X Y) 
+  im f 
+    \coloneqq 
+  \lim_\leftarrow ( Y \stackrel{\to}{\to} Y \coprod_X Y) 
   \,.
 $$ 
 
 In particular we have a factorization of $f$ as
 
 $$
-  f : X \stackrel{\tilde f}{\to} im f \hookrightarrow Y
+  f \colon X \stackrel{\tilde f}{\to} im f \hookrightarrow Y
   \,,
 $$
 
@@ -68,11 +70,18 @@ A morphism $U \to X$ of [[topological space]]s is a regular monomorphism precise
 
 * [[embedding of smooth manifolds]]
 
+### In $Sch$
+
+* [[Plücker embedding]]
+
 ## Related concepts
 
 * [[embedding type]]
+
 * [[embedding in type theory]]
-* [[decidable embedding]]
+
+
+
 
 [[!redirects embedding]]
 [[!redirects embeddings]]
