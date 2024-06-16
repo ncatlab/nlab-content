@@ -1848,10 +1848,14 @@ Discussion of spaces of configurations of points "in general position", where no
 
 
 
-### In quantum field theory
+### In quantum (field) theory
  {#ReferencesInQuantumFieldTheory}
 
-In [[physics]] ([[solid state physics]]/[[particle physics]]) the configuration space of points appears early on in the discussion of [[anyon statistics]], originally in:
+
+[[!include spin-statistics via configuration spaces -- references]]
+
+
+In [[solid state physics]]/[[particle physics]] the configuration space of points appears early on in the discussion of [[anyon statistics]], originally in:
 
 * [[Michael G. G. Laidlaw]], [[Cécile Morette DeWitt]], *Feynman Functional Integrals for Systems of Indistinguishable Particles*, Phys. Rev. D **3** (1971) 1375 $[$[doi:10.1103/PhysRevD.3.1375](https://doi.org/10.1103/PhysRevD.3.1375)$]$
 
