@@ -25,6 +25,9 @@ On the [[Hurewicz theorem]] for [[cubical set|cubical]] [[ordinary homology|homo
 
 * [[Daniel Carranza]], [[Chris Kapulkin]], [[Andrew Tonks]]: *The Hurewicz theorem for cubical homology*, Mathematische Zeitschrift **305** 61 (2023)  &lbrack;[doi:10.1007/s00209-023-03352-0](https://doi.org/10.1007/s00209-023-03352-0), [arXiv:2207.12500](https://arxiv.org/abs/2207.12500)&rbrack;
 
+An indepedent treatment of [[2-Segal space]]s as decomposition spaces
+
+* [[Imma Gálvez-Carrillo]], [[Joachim Kock]], Andrew Tonks, _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
 
 See also:
 
@@ -38,14 +41,14 @@ See also:
 
 * Imma G&#225;lvez, [[Vassily Gorbounov]], Andrew Tonks, _Homotopy Gerstenhaber structures and vertex algebras_, [math/0611231.QA](https://arxiv.org/abs/math/0611231)
 
-* [[Imma Gálvez-Carrillo]], [[Joachim Kock]], Andrew Tonks, _Decomposition spaces, incidence algebras and Möbius inversion_, [arXiv:1404.3202](https://arxiv.org/abs/1404.3202)
-
 
 ## Related entries
 
 * [[Eilenberg-Zilber theorem]]
 
 * [[homotopy BV-algebra]]
+
+* [[2-Segal space]]
 
 
 category: people
