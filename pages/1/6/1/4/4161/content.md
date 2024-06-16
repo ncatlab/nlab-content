@@ -66,17 +66,19 @@ A statement and proof of both a spin-statistics and a [[PCT theorem]] in the [[a
 
 * {#GuidoLongo94} [[Daniele Guido]], [[Roberto Longo]], *An Algebraic Spin and Statistics Theorem*, Commun. Math.Phys. **172** (1995) 517-534 &lbrack;[arXiv:funct-an/9406005] (http://arxiv.org/abs/funct-an/9406005), [doi:10.1007/BF02101806](https://doi.org/10.1007/BF02101806)&rbrack;
 
-Geometric proofs of spin-statistics via [[configuration spaces of points]] (related to the [[Atiyah-Sutcliffe conjecture]]):
-
-* {#BerryRobbins97} [[Michael V. Berry]], [[Jonathan M. Robbins]], *Indistinguishability for quantum particles: spin, statistics and the geometric phase*, Proceedings of the Royal Society A **453** 1963 (1997) 1771-1790 &lbrack;[doi:10.1098/rspa.1997.0096](https://doi.org/10.1098/rspa.1997.0096)&rbrack;
-
-* A. F. Reyes-Lega, C. Benavides, *Remarks on the Configuration Space Approach to Spin-Statistics*,  Found Phys **40** (2010) 1004-1029 &lbrack;[arXiv:0911.0579](https://arxiv.org/abs/0911.0579), [doi:10.1007/s10701-009-9397-3](https://doi.org/10.1007/s10701-009-9397-3)&rbrack;
+ 
+[[!include spin-statistics via configuration spaces -- references]]
 
 Generalization for [[AQFT on curved spacetime]] is in 
 
 * {#Verch01} [[Rainer Verch]], _A spin-statistics theorem for quantum fields on curved spacetime manifolds in a generally covariant framework_, Communications in Mathematical Physics, **223** 2 (2001) 261-288 &lbrack;[arXiv:math-ph/0102035](http://arxiv.org/abs/math-ph/0102035), [doi:10.1007/s002200100526](http://dx.doi.org/10.1007/s002200100526)&rbrack;
 
-Some brief exposition:
+General review:
+
+* [[Bernd Kuckert]], *The Classical and Quantum Roots of Pauli’s Spin-statistics Relation*, in: *Quantum Analogues: From Phase Transitions to Black Holes and Cosmology*, Lecture Notes in Physics **718**, Springer (2007) 207-228 &lbrack;[doi:10.1007/3-540-70859-6_8](https://doi.org/10.1007/3-540-70859-6_8)&rbrack;
+
+
+Brief exposition:
 
 * [[John Baez]], *Spin, Statistics, CPT and All That Jazz* (2012) &lbrack;[web](http://math.ucr.edu/home/baez/spin_stat.html)&rbrack;
  
