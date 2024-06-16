@@ -13,6 +13,9 @@ On the [[spin-statistics theorem]] for [[non-relativistic particles]] via the [[
 
 * [[Andrés F. Reyes-Lega]], C. Benavides, *Remarks on the Configuration Space Approach to Spin-Statistics*,  Found Phys **40** (2010) 1004-1029 &lbrack;[arXiv:0911.0579](https://arxiv.org/abs/0911.0579), [doi:10.1007/s10701-009-9397-3](https://doi.org/10.1007/s10701-009-9397-3)&rbrack;
 
+* [[Andrés F. Reyes-Lega]], N. A. Papadopoulos, *On the Geometry of the Berry-Robbins Approach to Spin-Statistics*, Found Phys **40** (2010)  829-851 \[<a href="https://doi.org/10.1007/s10701-009-9365-y">doi:10.1007/s10701-009-9365-y</a>, <a href="https://arxiv.org/abs/0910.1659">arXiv:0910.1659</a>\]
+
+
 * [[Andrés F. Reyes-Lega]]: *On the geometry of quantum indistinguishability*, J. Phys. A: Math. Theor. **44** 33 (2011) 325308 \[<a href="https://iopscience.iop.org/article/10.1088/1751-8113/44/32/325308">doi:10.1088/1751-8113/44/32/325308</a>, [arXiv:1112.6300](https://arxiv.org/abs/1112.6300)\]
 
 
