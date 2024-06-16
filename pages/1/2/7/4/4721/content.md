@@ -31,10 +31,9 @@ A celebrated new proof is due to
 
 * {#Mirzakhani07b} [[Maryam Mirzakhani]], _Weil-Petersson Volumes And Intersection Theory On The Moduli Space Of Curves_, Journal of the American Mathematical Society 20 (2007) 1-23
 
-Some of the other newer approaches to the proof:
+Another proof building on the fact that double Hurwitz numbers satisfy the KP hierarchy and their relation to moduli spaces
 
-
-* M. E. Kazarian, S. K. Lando, _An algebro-geometric proof of Witten's conjecture_
+* M. E. Kazarian, S. K. Lando, _An algebro-geometric proof of Witten's conjecture_, arXiv:[math/0601760](https://arxiv.org/abs/math/0601760)
 
 and also versions for higher spin
 
