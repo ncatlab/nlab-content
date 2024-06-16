@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -90,6 +89,8 @@ A **PCT theorem** in this context is a theorem that states sufficient conditions
 
 ## Related concepts
 
+* [[spin-statistics theorem]]
+
 * [[antiparticle]], 
 
 * [[charge sector]], [[DHR category]]
@@ -108,11 +109,15 @@ Proof from the [[Wightman axioms]]:
 
 * Res Jost: _Eine Bemerkung zum CPT Theorem_ Helv. Phys. Acta 30 (1957), p.409-416
 
-Textbook accounts of this formulation in [[algebraic quantum field theory]]:
+Monographs on this formulation in [[algebraic quantum field theory]]:
 
 * [[Raymond F. Streater]], [[Arthur S. Wightman]], *PCT, Spin and Statistics, and All That*, Princeton University Press (1989, 2000) &lbrack;[ISBN:9780691070629](https://press.princeton.edu/books/paperback/9780691070629/pct-spin-and-statistics-and-all-that), [jstor:j.ctt1cx3vcq](https://www.jstor.org/stable/j.ctt1cx3vcq)&rbrack;
 
 * {#Strocchi13} [[Franco Strocchi]], §4.3 in: _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
+
+See also:
+
+* [[Jonathan Bain]]: *CPT Invariance and the Spin-Statistics Connection*, Oxford University Press (2016) \[<a href="https://global.oup.com/academic/product/cpt-invariance-and-the-spin-statistics-connection-9780198728801">ISBN:9780198728801</a>\]
 
 On the [[PCT theorem]] for [[local observables]] in [[algebraic quantum field theory]]:
 
