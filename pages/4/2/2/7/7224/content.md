@@ -29,7 +29,7 @@ Fix a functor $J\colon A \to E$. Then, for a functor
 to have a _left $J$-relative adjoint_ (or _left $J$-adjoint_) means that there is a functor 
 
 \[ 
-	L \colon C \longrightarrow E
+	L \colon A \longrightarrow E
 \]
 
 and a [[natural isomorphism]] of the form
