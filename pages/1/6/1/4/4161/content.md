@@ -14,7 +14,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -48,28 +47,24 @@ In the [[Haag-Kastler approach]] ("[[algebraic quantum field theory]]") the [[Bi
 
 The original formulation of the spin-statistics theorem:
 
-* {#Fierz39} [[Markus Fierz]],  _&#220;ber die relativistische Theorie kr&#228;ftefreier Teilchen mit beliebigem Spin_. Helvetica Physica Acta. 12 (1): 3&#8211;37. (1939) [doi:10.5169/seals-110930](https://dx.doi.org/10.5169%2Fseals-110930)
+* {#Fierz39} [[Markus Fierz]],  *Über die relativistische Theorie kräftefreier Teilchen mit beliebigem Spin*, Helvetica Physica Acta. **12** 1 (1939) 3-37 &lbrack;[doi:10.5169/seals-110930](https://doi.org/10.5169/seals-110930), [[Fierz-SpinStatistics.pdf:file]]&rbrack;
 
-* {#Pauli40} [[Wolfgang Pauli]], _The connection between spin and statistics_, Phys. Rev. 58, 716&#8211;722 (1940)
+* {#Pauli40} [[Wolfgang Pauli]], *The connection between spin and statistics*, Phys. Rev. **58** (1940) 716-722 &lbrack;[doi:10.1103/PhysRev.58.716](https://doi.org/10.1103/PhysRev.58.716)&rbrack;
 
-Textbook accounts:
+An argument via [[Dirac charge quantization]] is offered in:
+
+* [[Richard Feynman]], pp. 48 in: *The reason for antiparticles*, in: [[Richard Feynman]] and [[Steven Weinberg]]: *Elementary Particles and the Laws of Physics: The 1986 Dirac Memorial Lectures*, Cambridge U. Press (1987) &lbrack;[doi:10.1017/CBO9781107590076](https://doi.org/10.1017/CBO9781107590076)&rbrack; 
+
+
+Monographs:
 
 * [[Raymond F. Streater]], [[Arthur S. Wightman]], *PCT, Spin and Statistics, and All That*, Princeton University Press (1989, 2000) &lbrack;[ISBN:9780691070629](https://press.princeton.edu/books/paperback/9780691070629/pct-spin-and-statistics-and-all-that), [jstor:j.ctt1cx3vcq](https://www.jstor.org/stable/j.ctt1cx3vcq)&rbrack;
 
 * {#Strocchi13} [[Franco Strocchi]], §4.2 in: _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
 
+A statement and proof of both a spin-statistics and a [[PCT theorem]] in the [[axiom|axiomatics]] of [[algebraic quantum field theory]]:
 
-The proof, which goes back originally to Fermi. There is also a more intuitive approach based on topology. One can see hints of it in Feynman's lecture here:
-
-* [[Richard Feynman]] and [[Steven Weinberg]], _Elementary Particles and the Laws of Physics_ , the 1986 Dirac Memorial Lectures, Cambridge U. Press, Cambridge, 1987. 
-
-Exposition:
-
-* [[John Baez]], _Spin, Statistics, CPT and All That Jazz_ ([web](http://math.ucr.edu/home/baez/spin_stat.html))
- 
-A statement and proof of both a spin-statistics and a [[PCT theorem]] in the [[axiom|axiomatic]] of [[algebraic quantum field theory]] is in
-
-* {#GuidoLongo94} [[Daniele Guido]], [[Roberto Longo]], _An Algebraic Spin and Statistics Theorem_ ([arXiv:funct-an/9406005] (http://arxiv.org/abs/funct-an/9406005))
+* {#GuidoLongo94} [[Daniele Guido]], [[Roberto Longo]], *An Algebraic Spin and Statistics Theorem*, Commun. Math.Phys. **172** (1995) 517-534 &lbrack;[arXiv:funct-an/9406005] (http://arxiv.org/abs/funct-an/9406005), [doi:10.1007/BF02101806](https://doi.org/10.1007/BF02101806)&rbrack;
 
 Geometric proofs of spin-statistics via [[configuration spaces of points]] (related to the [[Atiyah-Sutcliffe conjecture]]):
 
@@ -77,10 +72,14 @@ Geometric proofs of spin-statistics via [[configuration spaces of points]] (rela
 
 * A. F. Reyes-Lega, C. Benavides, *Remarks on the Configuration Space Approach to Spin-Statistics*,  Found Phys **40** (2010) 1004-1029 &lbrack;[arXiv:0911.0579](https://arxiv.org/abs/0911.0579), [doi:10.1007/s10701-009-9397-3](https://doi.org/10.1007/s10701-009-9397-3)&rbrack;
 
-
 Generalization for [[AQFT on curved spacetime]] is in 
 
 * {#Verch01} [[Rainer Verch]], _A spin-statistics theorem for quantum fields on curved spacetime manifolds in a generally covariant framework_, Communications in Mathematical Physics, **223** 2 (2001) 261-288 &lbrack;[arXiv:math-ph/0102035](http://arxiv.org/abs/math-ph/0102035), [doi:10.1007/s002200100526](http://dx.doi.org/10.1007/s002200100526)&rbrack;
+
+Some brief exposition:
+
+* [[John Baez]], *Spin, Statistics, CPT and All That Jazz* (2012) &lbrack;[web](http://math.ucr.edu/home/baez/spin_stat.html)&rbrack;
+ 
 
 Discussion relating the spin-statistics theorem to [[extended topological field theory]], [[categorification]] (via [[2-rings]]) and [[Deligne's theorem on tensor categories]]:
 
@@ -92,4 +91,4 @@ and via [[hermitian functorial field theory]]:
 
 * [[Luuk Stehouwer]], _The categorical spin-statistics theorem_ &lbrack;[arXiv:2403.02282](https://arxiv.org/abs/2403.02282)&rbrack;
 
-
+[[!redirects spin-statistics theorems]]
