@@ -14,6 +14,8 @@ $$
 
 This is one of the main examples in the study of [[integrable systems]].
 
+It is a part of KdV hierarchy of integrable equations which in turn generalizes to [[KP hierarchy]].
+
 ## Related entries
 
 * [[Witten conjecture]]
@@ -25,3 +27,6 @@ This is one of the main examples in the study of [[integrable systems]].
 [[!redirects KdV equation]]
 
 [[!redirects Korteweg-de Vries integrable hierarchy]]
+[[!redirects KdV hierarchy]]
+[[!redirects Korteweg-de Vries hierarchy]]
+
