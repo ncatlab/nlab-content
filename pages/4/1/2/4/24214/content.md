@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On the [[Kadomtsev-Petviashvili equation]]:
+
+* [[Etsuro Date]], [[Michio Jimbo]], [[Masaki Kashiwara]], [[Tetsuji Miwa]], _Operator approach to the Kadomtsev-Petviashvili equation -- Transformation groups for soliton equations. III_, J. Phys. Soc. Jpn. **50** (1980) 3806-3812 &lbrack;[doi:10.1143/JPSJ.50.3806](https://journals.jps.jp/doi/abs/10.1143/JPSJ.50.3806)&rbrack;
+
+
 On [[holonomic quantum fields]]:
 
 * [[Tetsuji Miwa]], [[Michio Jimbo]], *Introduction to holonomic quantum fields*, pp. 28--36 in: _The Riemann problem, complete integrability and arithmetic applications_, Lec. Notes in Math. **925**, Springer (1982) $[$[doi:10.1007/BFb0093497](http://dx.doi.org/10.1007/BFb0093497)$]$
