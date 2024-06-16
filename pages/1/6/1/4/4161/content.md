@@ -77,6 +77,7 @@ General review:
 
 * [[Bernd Kuckert]], *The Classical and Quantum Roots of Pauli’s Spin-statistics Relation*, in: *Quantum Analogues: From Phase Transitions to Black Holes and Cosmology*, Lecture Notes in Physics **718**, Springer (2007) 207-228 &lbrack;[doi:10.1007/3-540-70859-6_8](https://doi.org/10.1007/3-540-70859-6_8)&rbrack;
 
+* [[Jonathan Bain]]: *CPT Invariance and the Spin-Statistics Connection*, Oxford University Press (2016) \[<a href="https://global.oup.com/academic/product/cpt-invariance-and-the-spin-statistics-connection-9780198728801">ISBN:9780198728801</a>, <a href="https://doi.org/10.1093/acprof:oso/9780198728801.001.0001">doi:10.1093/acprof:oso/9780198728801.001.0001</a>\]
 
 Brief exposition:
 
