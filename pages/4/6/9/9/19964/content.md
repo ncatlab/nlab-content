@@ -235,11 +235,16 @@ The original articles:
 * {#AdkinsNappiWitten83} [[Gregory Adkins]], [[Chiara Nappi]], [[Edward Witten]], *Static Properties of Nucleons in the Skyrme Model*, Nucl. Phys. B **228** (1983) 552 &lbrack;[spire:190174](http://inspirehep.net/record/190174), <a href="https://doi.org/10.1016/0550-3213(83)90559-X">doi:10.1016/0550-3213(83)90559-X</a>&rbrack;
 
 
-Textbook accounts:
+Monographs:
 
 * {#RhoZahed16} [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific (2016) &lbrack;[doi:10.1142/9710](https://doi.org/10.1142/9710)&rbrack;
 
 * {#Manton22} [[Nicholas Manton]], *Skyrmions – A Theory of Nuclei*, World Scientific (2022) &lbrack;[doi:10.1142/q0368 ](https://doi.org/10.1142/q0368)&rbrack;
+
+Focus on the underlying [[topology]]:
+
+* [[Aiyalam P. Balachandran]], [[Giuseppe Marmo]], [[Bo-Sture Skagerstam]]: *Classical Topology and Quantum States*, World Scientific (1991) &lbrack;[doi:10.1142/1180](https://doi.org/10.1142/1180)&rbrack;
+
 
 
 Other review:
