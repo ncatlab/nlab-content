@@ -260,10 +260,11 @@ The geometry of the fiber product of two torus fiber bundles with a [[circle 2-b
 
 ## References
 
+### In string theory
+
 The observation of T-duality is attributed to 
 
-* [[Thomas Buscher]], _A symmetry of the string background field equations,
-Phys. Lett. B 194 (1987) 59 (<a href="https://doi.org/10.1016/0370-2693(87)90769-6">doi:10.1016/0370-2693(87)90769-6</a>)
+* [[Thomas Buscher]], _A symmetry of the string background field equations, Phys. Lett. B 194 (1987) 59 (<a href="https://doi.org/10.1016/0370-2693(87)90769-6">doi:10.1016/0370-2693(87)90769-6</a>)
 
 * [[Thomas Buscher]], _Path integral derivation of quantum duality in nonlinear sigma models_, Phys. Lett. B 201 (1988) 466 (<a href="https://doi.org/10.1016/0370-2693(88)90602-8">doi:10.1016/0370-2693(88)90602-8</a>)
 
@@ -380,6 +381,10 @@ Lift of T-duality from [[string theory]] to a [[SL(2,Z)]]-[[U-duality]] acting o
 
 * [[Maria P. Garcia del Moral]], J. M. Pena, [[Alvaro Restuccia]], *Aspects of the T-duality construction for the Supermembrane theory*, J. Phys.: Conf. Ser. **720** (2016) 012025 &lbrack;[arXiv:1504.06907](https://arxiv.org/abs/1504.06907), [doi:10.1088/1742-6596/720/1/012025](https://doi.org/10.1088/1742-6596/720/1/012025)&rbrack;
 
+
+### In topological phases of matter
+
+[[!include T-duality in K-theory classification of topological phases -- references]]
 
 
 
