@@ -46,9 +46,12 @@ The Atiyah-Sutcliffe conjecture has been [[proof|proven]] for $n = 3$ in [Atiyah
 
 ## References
 
-The origin of the question in investigation of the [[spin-statistics theorem]]:
+The origin of the question in investigation of the [[spin-statistics theorem]] for [[non-relativistic particles]]:
 
 * {#BerryRobbins97} [[Michael V. Berry]], [[Jonathan M. Robbins]], *Indistinguishability for quantum particles: spin, statistics and the geometric phase*, Proceedings of the Royal Society A **453** 1963 (1997) 1771-1790 &lbrack;[doi:10.1098/rspa.1997.0096](https://doi.org/10.1098/rspa.1997.0096)&rbrack;
+
+* [[Michael V. Berry]], [[Jonathan M. Robbins]]: *Quantum indistinguishability: alternative constructions of the transported basis*, J. Phys. A: Math. Gen. **33** (2000) L207 \[<a href="https://iopscience.iop.org/article/10.1088/0305-4470/33/24/101">doi:10.1088/0305-4470/33/24/101</a>, [pdf](https://michaelberryphysics.wordpress.com/wp-content/uploads/2013/07/berry319.pdf)\]
+
 
 First form and first checks of the conjecture:
 
