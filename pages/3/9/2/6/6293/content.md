@@ -11,6 +11,11 @@ and the [[Born-Pauli rule]]:
 
 * [[Wolfgang Pauli]], *Über Gasentartung und Paramagnetismus*, Zeitschrift für Physik: A Hadrons and nuclei **41** (1927) 81–102 &lbrack;[doi:10.1007/BF01391920](https://doi.org/10.1007/BF01391920)&rbrack;
 
+Early discussion of the [[spin-statistics theorem]]:
+
+* [[Wolfgang Pauli]], *The connection between spin and statistics*, Phys. Rev. **58** (1940) 716-722 &lbrack;[doi:10.1103/PhysRev.58.716](https://doi.org/10.1103/PhysRev.58.716)&rbrack;
+
+
 ## Concepts
 
 * [[Pauli exclusion principle]]
