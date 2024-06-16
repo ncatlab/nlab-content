@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On the [[Kadomtsev-Petviashvili equation]]:
+
+* [[Etsuro Date]], [[Michio Jimbo]], [[Masaki Kashiwara]], [[Tetsuji Miwa]], _Operator approach to the Kadomtsev-Petviashvili equation -- Transformation groups for soliton equations. III_, J. Phys. Soc. Jpn. **50** (1980) 3806-3812 &lbrack;[doi:10.1143/JPSJ.50.3806](https://journals.jps.jp/doi/abs/10.1143/JPSJ.50.3806)&rbrack;
+
+
 On [[microlocalization]] of [[abelian sheaves]] and [[Grothendieck's yoga of six operations]]:
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _Sheaves on manifolds_, Grundlehren **292**, Springer (1990) &lbrack;[doi:10.1007/978-3-662-02661-8](https://doi.org/10.1007/978-3-662-02661-8)&rbrack;
