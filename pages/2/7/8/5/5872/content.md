@@ -32,12 +32,23 @@ reviewed in:
 * [[Varghese Mathai]], *T-duality for loop spaces, or equivalently for the 1D sigma model*,  talk  at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#Mathai2023)*, NYU Abu Dhabi (Jan  2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Mathai2023)&rbrack;
 
 
+On [[T-duality]] in the [[K-theory classification of topological phases of matter]], related to the [[Fourier transform]] between [[crystals]] and their [[Brillouin torus]]:
+
+* [[Varghese Mathai]], [[Guo Chuan Thiang]], *T-Duality of Topological Insulators*, J.Phys.A: Math. Theor. **48** (2015) 42FT02 \[<a href="https://doi.org/10.1088/1751-8113/48/42/42FT02">doi:10.1088/1751-8113/48/42/42FT02</a>\]
+
+* [[Varghese Mathai]], [[Guo Chuan Thiang]], *T-duality simplifies bulk-boundary correspondence: some higher dimensional cases*, Annales Henri Poincaré **17** 12 (2016) 3399-3424 \[<a href="https://doi.org/10.1007/s00023-016-0505-6">doi:10.1007/s00023-016-0505-6</a>, [arXiv:1506.04492](https://arxiv.org/abs/1506.04492)\]
+
+* [[Keith C. Hannabuss]], [[Varghese Mathai]], [[Guo Chuan Thiang]], *T-duality trivializes bulk-boundary correspondence: the parametrised case*, Adv. Theor. Math. Phys. **20** (2016) 1193-1226 \[<a href="https://doi.org/10.4310/ATMP.2016.v20.n5.a8">doi:10.4310/ATMP.2016.v20.n5.a8</a>, [arXiv:1510.04785](https://arxiv.org/abs/1510.04785)\]
+
+* [[Keith C. Hannabuss]], [[Varghese Mathai]], [[Guo Chuan Thiang]], *T-duality simplifies bulk-boundary correspondence: the noncommutative case*, Lett. Math. Phys. **108** 5 (2018) 1163-1201 \[<a href="https://doi.org/10.1007/s11005-017-1028-x">doi:10.1007/s11005-017-1028-x</a>, [arXiv:1603.00116](https://arxiv.org/abs/1603.00116)\]
+
+
+
 Aspects of the classification of [[semi-metals]] seen in [[ordinary cohomology]]:
 
 * [[Varghese Mathai]], [[Guo Chuan Thiang]], *Global topology of Weyl semimetals and Fermi arcs*, J. Phys. A: Math. Theor. **50** (2017) 11LT01 ([arXiv:1607.02242](https://arxiv.org/abs/1607.02242),  [doi:10.1088/1751-8121/aa59b2](https://doi.org/10.1088/1751-8121/aa59b2))
 
-* [[Varghese Mathai]], [[Guo Chuan Thiang]], *Differential Topology of Semimetals*,
-Commun. Math. Phys. **355** (2017) 561–602, ([arXiv:1611.08961](https://arxiv.org/abs/1611.08961), [doi:10.1007/s00220-017-2965-z](https://doi.org/10.1007/s00220-017-2965-z))
+* [[Varghese Mathai]], [[Guo Chuan Thiang]], *Differential Topology of Semimetals*, Commun. Math. Phys. **355** (2017) 561–602, ([arXiv:1611.08961](https://arxiv.org/abs/1611.08961), [doi:10.1007/s00220-017-2965-z](https://doi.org/10.1007/s00220-017-2965-z))
 
 
 On the [[Witten genus]]:
