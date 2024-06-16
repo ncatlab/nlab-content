@@ -1774,10 +1774,12 @@ Discussion of [[homotopy groups]] of configuration spaces:
 
 ### Rational homotopy type
 
-Discussion of the [[rational homotopy type]]:
+Discussion of the [[rational homotopy type]] of configuration spaces of points:
 
 * [[Igor Kriz]], _On the Rational Homotopy Type of Configuration Spaces_, Annals of Mathematics
-Second Series, Vol. 139, No. 2 (Mar., 1994), pp. 227-237 ([jstor:2946581](https://www.jstor.org/stable/2946581))
+Second Series **139** 2 (1994) 227-237 &lbrack;[jstor:2946581](https://www.jstor.org/stable/2946581)&rbrack;
+
+* {#Idrissi21} [[Najib Idrissi]], *Real homotopy of configuration spaces*, Peccot Lecture, Collège de France, March & May 2020, Spinger (2022) &lbrack;[doi:10.1007/978-3-031-04428-1](https://doi.org/10.1007/978-3-031-04428-1), [webpage](https://idrissi.eu/research/peccot), [hal:03821309](https://hal.science/hal-03821309)&rbrack;
 
 
 
@@ -1790,15 +1792,15 @@ That the [[de Rham cohomology]] of (the [[Fulton-MacPherson compactification]] o
 nicely reviewed in [Lambrechts-Volic 14](#LambrechtsVolic14)
 
 
-Further discussion of the graph complex as a model for the [[de Rham cohomology]] of  [[configuration spaces of points]] is in
+Further discussion of [[graph complexes]] as models for the [[de Rham cohomology]] of  [[configuration spaces of points]]:
 
-* Najib Idrissi, _The Lambrechts-Stanley Model of Configuration Spaces_, Invent. Math, 2018 ([arXiv:1608.08054](https://arxiv.org/abs/1608.08054), [doi:10.1007/s00222-018-0842-9](https://dx.doi.org/10.1007/s00222-018-0842-9))
+* [[Najib Idrissi]], _The Lambrechts-Stanley Model of Configuration Spaces_, Invent. Math (2018) &lbrack;[arXiv:1608.08054](https://arxiv.org/abs/1608.08054), [doi:10.1007/s00222-018-0842-9](https://dx.doi.org/10.1007/s00222-018-0842-9)&rbrack;
 
 * {#CamposWillwacher16} [[Ricardo Campos]], [[Thomas Willwacher]], _A model for configuration spaces of points_ ([arXiv:1604.02043](https://arxiv.org/abs/1604.02043))
 
-* [[Ricardo Campos]], Najib Idrissi, [[Pascal Lambrechts]], [[Thomas Willwacher]], _Configuration Spaces of Manifolds with Boundary_ ([arXiv:1802.00716](https://arxiv.org/abs/1802.00716))
+* [[Ricardo Campos]], [[Najib Idrissi]], [[Pascal Lambrechts]], [[Thomas Willwacher]], _Configuration Spaces of Manifolds with Boundary_ &lbrack;[arXiv:1802.00716](https://arxiv.org/abs/1802.00716)&rbrack;
 
-* [[Ricardo Campos]], Julien Ducoulombier, Najib Idrissi, [[Thomas Willwacher]], _A model for framed configuration spaces of points_ ([arXiv:1807.08319](https://arxiv.org/abs/1807.08319))
+* [[Ricardo Campos]], Julien Ducoulombier, [[Najib Idrissi]], [[Thomas Willwacher]], _A model for framed configuration spaces of points_ &lbrack;[arXiv:1807.08319](https://arxiv.org/abs/1807.08319)&rbrack;
 
 
 ### Loop spaces of configuration spaces of points
@@ -1900,7 +1902,6 @@ with full details and proofs in
 see also
 
 * {#CamposIdrissiLambrechtsWillwacher18} [[Ricardo Campos]], [[Najib Idrissi]], [[Pascal Lambrechts]], [[Thomas Willwacher]], _Configuration Spaces of Manifolds with Boundary_ ([arXiv:1802.00716](https://arxiv.org/abs/1802.00716))
-* {#Idrissi21} [[Najib Idrissi]], [_Real homotopy of configuration spaces_](https://idrissi.eu/research/peccot)
 
 A systematic development of [[Euclidean field theory|Euclidean]] [[perturbative quantum field theory]] with [[n-point functions]] considered as [[smooth functions]] on [[Fulton-MacPherson compactifications]]/[[wonderful compactifications]] of [[configuration spaces of points]] and more generally of subspace arrangements is due to 
 
