@@ -19,6 +19,9 @@ Commun. Math. Phys. **355** (2017) 561–602, ([arXiv:1611.08961](https://arxiv.
 
 On [[T-duality]] in the [[K-theory classification of topological phases of matter]]:
 
+* [[Guo Chuan Thiang]], *K-theory and T-duality of topological phases*, Adelaide (2018) &lbrack;[[Thiang-KTheoryTopPhases.pdf:file]]&rbrack;
+
+
 * [[Kiyonori Gomi]], [[Guo Chuan Thiang]], *Crystallographic T-duality*. J.Geom.Phys **139** (2019) 50-77 &lbrack;[arXiv:1806.11385](https://arxiv.org/abs/1806.11385), [doi:10.1016/j.geomphys.2019.01.002](https://doi.org/10.1016/j.geomphys.2019.01.002)&rbrack;
 
 
