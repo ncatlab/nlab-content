@@ -1551,6 +1551,11 @@ General accounts:
 
 * [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024)
 
+In relation to [[braid groups]]:
+
+* {#Birman75} [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press (1975) &lbrack;[ISBN:9780691081496](https://press.princeton.edu/books/paperback/9780691081496/braids-links-and-mapping-class-groups-am-82-volume-82), [preview pdf](https://api.pageplace.de/preview/DT0400.9781400881420_A26691398/preview-9781400881420_A26691398.pdf)&rbrack;
+
+
 
 In relation to the [[space of finite subsets]]:
 
