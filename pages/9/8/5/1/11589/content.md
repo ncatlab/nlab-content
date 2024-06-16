@@ -12,18 +12,16 @@ interpreted in terms of infinite Grassmanians (fermionic approach) then the Hiro
 
 ## Literature
 
-* R. Hirota, _Exact solution of the Korteweg-de Vries equation for multiple
-collisions of solitons_, Phys. Rev. Lett., 27, 1192 (1971).
-* R. Hirota, _Discrete analogue of a generalized Toda equation_, J. Phys. Soc. Japan 50 (1981) 3785-3791.
+* R. Hirota, _Exact solution of the Korteweg-de Vries equation for multiple collisions of solitons_, Phys. Rev. Lett. __27__, 1192 (1971).
+* R. Hirota, _Discrete analogue of a generalized Toda equation_, J. Phys. Soc. Japan __50__ (1981) 3785-3791.
 * T. Miwa, _On Hirota's difference equations_, Proc. Japan Acad. 58 (1982) 9-12 [euclid](http://projecteuclid.org/euclid.pja/1195516178)
-* S. Saito, _String theories and Hirota's bilinear diference equation_, Pys. Rev. Lett. 59 (1987) 1798&#8211;1801.
+* S. Saito, _String theories and Hirota's bilinear diference equation_, Pys. Rev. Lett. 59 (1987) 1798--1801.
 * A. Zabrodin, _Bethe ansatz and Hirota equation in integrable models_, [arxiv/1211.4428](http://arxiv.org/abs/1211.4428)
-* G. Segal, G. Wilson, _Loop groups and equations of KdV type_, Inst. Hautes Etudes Sci. Publ. Math. 61 (1985) 5&#8211;65.
+* [[Graeme Segal]], [[George Wilson]], _Loop groups and equations of KdV type_, Inst. Hautes Etudes Sci. Publ. Math. __61__ (1985) 5--65.
 
 #### Relation to Y-systems
 
-* A. Kuniba, T. Nakanishi, J. Suzuki, _T-systems and Y-systems in integrable
-systems_, J. Phys. A 44 (2011) 103001.
+* A. Kuniba, T. Nakanishi, J. Suzuki, _T-systems and Y-systems in integrable systems_, J. Phys. A 44 (2011) 103001.
 * S. Leurent, [Hirota equation and Q-functions](http://www.normalesup.org/~sleurent/talks/2011_ENS.pdf), slides
 
 [[!redirects Hirota bilinear equation]]
