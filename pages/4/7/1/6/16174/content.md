@@ -116,7 +116,7 @@ $$
 
 =--
 
-This is originally due to [Segal 71](#Segal71), a detailed proof is given by [tom Dieck 79, theorem 7.6.7, 8.5.1](#tomDieck79). See also [Lück 05, theorem 1.13](#Lueck05), [tom Dieck-Petrie 78](#tomDieckPetrie78).
+This is originally due to [Segal 71](#Segal71), [Segal 78, p. 2](#Segal78), a detailed proof is given by [tom Dieck 79, theorem 7.6.7, 8.5.1](#tomDieck79). See also [Lück 05, theorem 1.13](#Lueck05), [tom Dieck-Petrie 78](#tomDieckPetrie78).
 
 From a broader perspective, this statement is a special case of [[tom Dieck splitting]] of [[equivariant suspension spectra]] (e.g. [Schwede 15, theorem 6.14](#Schwede15)), see [there](tom+Dieck+splitting#OfFixedPointSpectraOfEquivariantSuspensionSpectra). 
 
@@ -255,9 +255,12 @@ See also
 * {#Schanuel91} [[Stephen Schanuel]], 1991, _Negative sets have Euler characteristic and dimension_, in: Proc. Como 1990. Lecture Notes in Mathematics, vol. 1488. Springer-Verlag, Berlin, pp. 379&#8211;385.
 
 
-Discussion in relation to [[equivariant stable cohomotopy]] and the [[Segal-Carlsson completion theorem]] is in
+Discussion in relation to [[equivariant stable cohomotopy]] and the [[Segal-Carlsson completion theorem]]:
 
-* {#Segal71} [[Graeme Segal]], _Equivariant stable homotopy theory_, In Actes du Congr&egrave;s International des Math &eacute;maticiens (Nice, 1970), Tome 2 , pages 59–63. Gauthier-Villars, Paris, 1971 ([[SegalEquivariantStableHomotopyTheory.pdf:file]])
+* {#Segal71} [[Graeme Segal]], _Equivariant stable homotopy theory_, In Actes du Congr&egrave;s International des Math &eacute;maticiens (Nice, 1970), Tome 2,  Gauthier-Villars, Paris (1971) 59–63 &lbrack;[[SegalEquivariantStableHomotopyTheory.pdf:file]]&rbrack;
+
+* {#Segal78} [[Graeme Segal]], p. -2- of: *Some results in equivariant homotopy theory* (1978) &lbrack;scan: [web](https://homepages.warwick.ac.uk/~maaac/segal.html), [[Segal-EquivariantHT.pdf:file]]&rbrack;
+
 
 * {#tomDieckPetrie78} [[Tammo tom Dieck]], T. Petrie, _Geometric modules over the Burnside ring_, Invent. Math. 47 (1978) 273-287;
 chapter 10 in: _[[Transformation Groups and Representation Theory]]_  ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-geometric.pdf))
