@@ -414,5 +414,8 @@ is symmetric in its tangential indices $b_i$. This symmetric [[tensor]] on $\Sig
 [[!redirects Darboux coframe]]
 [[!redirects Darboux coframes]]
 
+[[!redirects second fundamental form]]
+[[!redirects second fundamental forms]]
+
 
 
