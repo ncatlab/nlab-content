@@ -1,13 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Matrix factorizations
 * table of contents
 {: toc}
 
 There are two different meanings of phrase "matrix factorization" which are closely related
 
-* (typically canonical) [[matrix decomposition]]s of matrices into products of matrices of specific kind, like [[Gauss decomposition]], [[polar decomposition]], LU-decomposition etc. 
+* (typically canonical) [[matrix decomposition|matrix decompositions]] of [[matrices]] into [[matrix product|products of matrices]] of specific kind, like [[Gauss decomposition]], [[polar decomposition]], [[QR decomposition]], [[LU-decomposition]] etc. 
 
-* decomposition of a ring element, understood as a diagonal matrix, as a product of matrices over a ring, in the sense of Eisenbud and followers. 
+* decomposition of an element of a [[ring]], understood as a multiple of an [[identity matrix]], as a product of matrices over that ring, in the sense of Eisenbud and followers. 
 
 This entry is dedicated to the latter as it concerns appearance of certain categories in mathematical physics. 
 
@@ -40,6 +51,8 @@ Note that if $(\phi,\psi)$ is a matrix factorization of $x$, then $x$ annihilate
 ## Literature
 
 * [[David Eisenbud]], _Homological algebra on a complete intersection, with an application to group representations_, Trans. Amer. Math. Soc. __260__:35-64 (1980) [doi](https://doi.org/10.1090/S0002-9947-1980-0570778-7)
+
+* Wikipedia, *[Matrix factorization of a polynomial](https://en.wikipedia.org/wiki/Matrix_factorization_of_a_polynomial)*
 
 * [[Tobias Dyckerhoff]], _Compact generators in the categories of matrix factorizations_,  Duke Math. J. 159(2): 223-274 (2011) [doi](https://doi.org/10.1215/00127094-1415869) [arXiv:0904.4713](https://arxiv.org/abs/0904.4713)
 
