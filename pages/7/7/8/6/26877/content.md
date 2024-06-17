@@ -36,7 +36,7 @@ This may and often is also referred to as *[[matrix factorization]]*, which howe
 
 Relation of matrix decompositions to flows of [[integrable systems]]:
 
-* P. Deift, L. C. Li, C.Tomei, _Matrix factorizations and integrable systems_, Commun. Pure Appl. Math. __42__ 4  443--521 (1989) &lbrack;[doi:10.1002/cpa.3160420405](https://doi.org/10.1002/cpa.3160420405)&rbrack;
+* P. Deift, L. C. Li, C.Tomei, _Matrix factorizations and integrable systems_, Commun. Pure Appl. Math. __42__ 4 (1989) 443-521 &lbrack;[doi:10.1002/cpa.3160420405](https://doi.org/10.1002/cpa.3160420405)&rbrack;
 
 
 [[!redirects matrix decompositions]]
