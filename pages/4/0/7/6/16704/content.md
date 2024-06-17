@@ -25,6 +25,10 @@ On the [[limited principle of omniscience]] in [[CZF]]:
 
 * {#Rathjen13} [[Michael Rathjen]], *Constructive Zermelo-Fraenkel set theory and the limited principle of omniscience*. &lbrack;[arXiv:1302.3037](https://arxiv.org/abs/1302.3037)&rbrack;
 
+On the [[regular extension axiom]] in [[CZF]]:
+
+* [[Michael Rathjen]] and [[Robert Lubarsky]], *On the regular extension axiom and its variants*, [PDF](http://www1.maths.leeds.ac.uk/~rathjen/REA.pdf)
+
 ## Related entries
 
 * [[constructive set theory]]
