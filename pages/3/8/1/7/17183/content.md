@@ -1,4 +1,23 @@
-__Quantum linear semigroups__ are [[bialgebra]]s which are deformations of bialgebras of coordinate functions on the groups of $n\times n$-matrices for some $n$. They belong to the class of [[matrix bialgebra]]s. The usual notation for the one-parametric version is $\mathcal{O}(M_q(n))$ or sometimes simply $\mathcal{M}_q(n)$.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+\tableofcontents
+
+
+## Idea
+
+
+__Quantum linear semigroups__ are [[bialgebras]] which are [[deformations]] of bialgebras of [[coordinate functions]] on the [[groups]] of $n\times n$ [[invertible matrices]] for some $n \in \mathbb{N}$. They belong to the class of [[matrix bialgebras]]. 
+
+The usual notation for the one-parametric version is $\mathcal{O}(M_q(n))$ or sometimes simply $\mathcal{M}_q(n)$.
 
 Suppose we are given $n\times n$ matrices $P = (p_{ij})$ and 
 $Q = (q_{ij})$ with invertible entries in the ground field $F$, 
@@ -31,14 +50,27 @@ In these conventions, the 1-parametric version $\mathcal{O}(M_q(F))$ is obtained
 a special case when $P = Q$ and
 $q_{ij} = q$ for $i \lt j$ and $q_{ij} = q^{-1}$ for $i \gt j$.
 
-__Quantum linear groups__ are Hopf algebras which are quantum deformations of Hopf algebras of coordinate functions on the general linear group or special linear group. There exist one parametric and many parametric versions as well as super analogues. They belong to the class of [[matrix Hopf algebra]]s.
+__Quantum linear groups__ are [[Hopf algebras]] which are quantum deformations of Hopf algebras of coordinate functions on the [[general linear group]] or [[special linear group]]. There exist one parametric and many parametric versions as well as super analogues. They belong to the class of [[matrix Hopf algebra]]s.
 
 The usual notation for one-parametric versions is $\mathcal{O}(GL_q(n))$, $\mathcal{O}(SL_q(n))$ and variants thereof.
 
 
-## Bibliography
 
-* related $n$Lab pages: [[quantum group]], [[quantum Gauss decomposition]], [[quantized function algebra]], [[general linear group]], [[quantum determinant]]
+## Related entries
+
+* [[quantum group]]
+
+* [[quantum Gauss decomposition]]
+
+* [[quantized function algebra]]
+
+* [[general linear group]]
+
+* [[quantum determinant]]
+
+
+## Literature
+
 * [[Yu. I. Manin]], _Quantum groups and non-commutative geometry_, CRM, Montreal 1988.
 * [[Yu. I. Manin]], _Multiparametric quantum deformation of the general linear supergroup_, Comm. Math. Phys. __123__ (1989) 163--175.
 * B. Parshall, J.Wang, _Quantum linear groups_, Mem. Amer. Math. Soc. 89(1991), No. 439, vi+157 pp. 
@@ -55,3 +87,5 @@ International Math. Res. Notices 2008, rnn063-8;
 * Hans Plesner Jakobsen, Hechun Zhang, _The center of the quantized matrix algebra_, J. Algebra __196__:2 (1997) 458-474 [doi](https://doi.org/10.1006/jabr.1997.7121)
 * K.R. Goodearl, E.S. Letzter, _Prime factor algebras of the coordinate ring of quantum matrices_, Proc. Amer. Math. Soc. __121__ (1994) 1017--1025 [doi](https://doi.org/10.1090/S0002-9939-1994-1211579-1)
 * S. Launois, T. H. Lenagan, B. M. Nolan, _Total positivity is a quantum phenomenon: the Grassmannian case_, Memoirs of the Amer. Math. Soc. 1448 (2023) 123 p. 
+
+[[!redirects quantum linear groups]]
