@@ -155,7 +155,7 @@ Traditional lecture notes include
 
 * [[Atish Dabholkar]], _Lectures on Orientifolds and Duality_, In *Trieste 1997, High energy physics and cosmology* 128-191 ([arXiv:hep-th/9804208](https://arxiv.org/abs/hep-th/9804208), [spire:454332](https://inspirehep.net/literature/454332))
 
-* Carlo Angelantonj, [[Augusto Sagnotti]], _Open Strings_, Phys. Rept. 371:1-150,2002; Erratum ibid.376:339-405, 2003 ([arXiv:hep-th/0204089](https://arxiv.org/abs/hep-th/0204089))
+* [[Carlo Angelantonj]], [[Augusto Sagnotti]], _Open Strings_, Phys. Rept. 371:1-150,2002; Erratum ibid.376:339-405, 2003 ([arXiv:hep-th/0204089](https://arxiv.org/abs/hep-th/0204089))
 
 Textbook discussion is in
 
