@@ -18,7 +18,7 @@ On [[NS5-brane]]-[[brane intersections|intersections]] with [[D-branes]]:
 
 On the [[Riemann hypothesis and physics]]:
 
-* {#ACER11} Carlo Angelantonj, Matteo Cardella, [[Shmuel Elitzur]], [[Eliezer Rabinovici]], *Vacuum stability, string density of states and the Riemann zeta function*, JHEP **1102** 024 (2011) &lbrack;[arXiv:1012.5091](http://arxiv.org/abs/1012.5091)&rbrack;
+* {#ACER11} [[Carlo Angelantonj]], Matteo Cardella, [[Shmuel Elitzur]], [[Eliezer Rabinovici]], *Vacuum stability, string density of states and the Riemann zeta function*, JHEP **1102** 024 (2011) &lbrack;[arXiv:1012.5091](http://arxiv.org/abs/1012.5091)&rbrack;
 
 
 category: people
