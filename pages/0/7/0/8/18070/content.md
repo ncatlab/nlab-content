@@ -1602,6 +1602,7 @@ partly based on
 
 * [[Henning Hauschild]]: *Zerspaltung &auml;quivarianter Homotopiemengen*, Math. Ann. **230** (1977) 279-292 &lbrack;[[Hauschild-EquivariantHomotopy.pdf:file]]&rbrack;
 
+* [[Graeme Segal]], *Some results in equivariant homotopy theory* (1978) &lbrack;scan: [web](https://homepages.warwick.ac.uk/~maaac/segal.html), [[Segal-EquivariantHT.pdf:file]]&rbrack;
 
 
 The relevant construction for the [[group completion]] of the configuration space
