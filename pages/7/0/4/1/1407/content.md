@@ -404,6 +404,10 @@ Lecture notes:
 
 * C. Maccaferri, F. Marino, B. Valsesia, *Introduction to String Theory* &lbrack;[arXiv:2311.18111](https://arxiv.org/abs/2311.18111)&rbrack;
 
+See also:
+
+* [[Carlo Angelantonj]], [[Ioannis Florakis]], *A Lightning Introduction to String Theory*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2406.09508](https://arxiv.org/abs/2406.09508)&rbrack;
+
 
 A large body of references is organized at the
 
