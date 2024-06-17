@@ -109,7 +109,7 @@ Discussion of non-[[supersymmetry|supersymmetric]]: [[GUT]] models:
 See also:
 
 
-* {#AngelantonjFlorakis18} Carlo Angelantonj, Ioannis Florakis, _GUT Scale Unification in Heterotic Strings_ ([arXiv:1812.06915](https://arxiv.org/abs/1812.06915))
+* {#AngelantonjFlorakis18} [[Carlo Angelantonj]], [[Ioannis Florakis]], *GUT Scale Unification in Heterotic Strings*, Physics Letters B **789** (2019) 496-501 \[<a href="https://doi.org/10.1016/j.physletb.2018.12.054">doi:10.1016/j.physletb.2018.12.054</a>[arXiv:1812.06915](https://arxiv.org/abs/1812.06915)\]
 
 
 #### The $SemiSpin(32)$-heterotic string
