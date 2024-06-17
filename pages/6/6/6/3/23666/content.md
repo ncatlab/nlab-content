@@ -102,7 +102,7 @@ Adil Attar, Igor Boettcher
 
 ### For interacting electrons
 
-* Yuejin Guo, Jean-Marc Langlois and William A. Goddard , *Electronic Structure and Valence-Bond Band Structure of Cuprate Superconducting Materials*, New Series, **239** 4842 (1988) 896-899 &lbrack;[jstor:1700316](https://www.jstor.org/stable/1700316)&rbrack;
+* Yuejin Guo, Jean-Marc Langlois and William A. Goddard, *Electronic Structure and Valence-Bond Band Structure of Cuprate Superconducting Materials*, New Series, **239** 4842 (1988) 896-899 &lbrack;[jstor:1700316](https://www.jstor.org/stable/1700316)&rbrack;
 
 * Jingsan Hu, Jianfei Gu, Weiyi Zhang, *Bloch’s band structures of a pair of interacting electrons in simple one- and two-dimensional lattices*, Physics Letters A **414** (2021) 127634 &lbrack;[doi:10.1016/j.physleta.2021.127634](https://doi.org/10.1016/j.physleta.2021.127634)&rbrack;
 
