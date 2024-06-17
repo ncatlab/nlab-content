@@ -423,7 +423,7 @@ The idea of equivariant [[topological K-theory]] and the [[Atiyah-Segal completi
 
 * [[Michael Atiyah]], [[Friedrich Hirzebruch]], _Vector bundles and homogeneous spaces_, Proc. Sympos. Pure Math., Vol. III, American Mathematical Society, Providence, R.I., 1961, 3, 7–38 ([[AtiyahHirzebruch61.pdf:file]])
 
-* {#Segal68} [[Graeme Segal]], _Equivariant K-theory_, Inst. Hautes Etudes Sci. Publ. Math.  No. 34 (1968) p. 129-151 ([numdam:PMIHES_1968__34__129_0](http://www.numdam.org/item/PMIHES_1968__34__129_0))
+* {#Segal68} [[Graeme Segal]], *Equivariant K-theory*, Inst. Hautes Etudes Sci. Publ. Math.  **34** (1968) 129-151 &lbrack;[numdam:PMIHES_1968__34__129_0](http://www.numdam.org/item/PMIHES_1968__34__129_0)&rbrack;
 
 * {#SegalAtiyah69} [[Michael Atiyah]], [[Graeme Segal]], _Equivariant K-theory and completion_, J. Differential Geometry 3 (1969), 1&#8211;18. 
 ([euclid:jdg/1214428815](https://projecteuclid.org/euclid.jdg/1214428815), MR 0259946)
