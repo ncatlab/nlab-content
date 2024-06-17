@@ -1,10 +1,11 @@
 <div style="float:right;margin:0 20px 10px 20px;" markdown="1"><img width = "250" src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Graeme_Segal.jpeg/225px-Graeme_Segal.jpeg" alt="Graeme Segal in Berkely, 1982" /><br />[Wikimedia Commons image](http://commons.wikimedia.org/wiki/File:Graeme_Segal.jpeg), taken by [[George Bergman]] in 1982</div>
 
 
-* [website](https://www.maths.ox.ac.uk/people/graeme.segal)
+* [institute page](https://www.maths.ox.ac.uk/people/graeme.segal)
 
-* [wikipedia entry](http://en.wikipedia.org/wiki/Graeme_Segal)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Graeme_Segal)
 
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=27142)
 
 
 ## Selected writings
@@ -17,22 +18,17 @@ On the [[representation rings]] of [[compact Lie groups]]:
 
 * {#Segal68} [[Graeme Segal]], _The representation ring of a compact Lie group_, Publications Math&#233;matiques de l'Institut des Hautes &#201;tudes Scientifiques, January 1968, Volume 34, Issue 1, pp 113-128 ([numdam:PMIHES_1968__34__113_0](http://www.numdam.org/item/?id=PMIHES_1968__34__113_0))
 
-
-On the [[group completion theorem]]:
-
-* {#McDuffSegal76} [[Dusa McDuff]], [[Graeme Segal]], _Homology fibrations and the “group-completion” theorem_, Invent. Math. __31__:3 (1976) 279--284 ([doi:10.1007/BF01403148](https://doi.org/10.1007/BF01403148))
-
 On [[equivariant K-theory]]:
 
-* {#Segal68} [[Graeme Segal]], _Equivariant K-theory_, Inst. Hautes Etudes Sci. Publ. Math.  No. 34 (1968) p. 129-151 
+* {#Segal68} [[Graeme Segal]], *Equivariant K-theory*, Inst. Hautes Etudes Sci. Publ. Math.  **34** (1968) 129-151 &lbrack;[numdam:PMIHES_1968__34__129_0](http://www.numdam.org/item/PMIHES_1968__34__129_0)&rbrack;
 
 On the [[Atiyah-Segal completion theorem]]:
 
-* [[Michael Atiyah]], [[Graeme Segal]], _Equivariant $K$-theory and completion_,  J. Differential Geom. Volume 3, Number 1-2 (1969), 1-18. ([Euclid](http://projecteuclid.org/euclid.jdg/1214428815))
+* [[Michael Atiyah]], [[Graeme Segal]], _Equivariant $K$-theory and completion_,  J. Differential Geom. Volume 3, Number 1-2 (1969) 1-18 &lbrack;[euclid:jdg/1214428815](http://projecteuclid.org/euclid.jdg/1214428815)&rbrack;
 
 On [[equivariant stable homotopy theory]] and the isomorphism between the [[Burnside ring]] and the [[equivariant stable Cohomotopy]] of the point:
 
-* {#Segal71} [[Graeme Segal]], _Equivariant stable homotopy theory_, Actes du Congr&#232;s International des Math&#233;maticiens (Nice, 1970), Tome 2, pp. 59--63. Gauthier-Villars, Paris, 1971 ([[SegalEquivariantStableHomotopyTheory.pdf:file]])
+* {#Segal71} [[Graeme Segal]], _Equivariant stable homotopy theory_, Actes du Congr&#232;s International des Math&#233;maticiens (Nice, 1970), Tome 2, Gauthier-Villars, Paris (1971) 59-63 &lbrack;[[SegalEquivariantStableHomotopyTheory.pdf:file]]&rbrack;
 
 On [[configuration spaces of points]] from [[iterated loop spaces]]:
 
@@ -47,14 +43,24 @@ On [[K-theory of permutative categories]], [[Gamma spaces]] as models for [[conn
 * {#Segal74} [[Graeme Segal]], _Categories and cohomology theories_, Topology vol 13, pp.  293-312,  1974  (<a href="https://doi.org/10.1016/0040-9383(74)90022-6">doi:10.1016/0040-9383(74)90022-6</a>, [pdf](http://ncatlab.org/nlab/files/SegalCategoriesAndCohomologyTheories.pdf))
 
 
+On the [[group completion theorem]]:
+
+* {#McDuffSegal76} [[Dusa McDuff]], [[Graeme Segal]], _Homology fibrations and the “group-completion” theorem_, Invent. Math. __31__ 3 (1976) 279-284 &lbrack;[doi:10.1007/BF01403148](https://doi.org/10.1007/BF01403148)&rbrack;
+
+
+On [[equivariant homotopy theory]]:
+
+* [[Graeme Segal]], *Some results in equivariant homotopy theory* (1978) &lbrack;scan: [web](https://homepages.warwick.ac.uk/~maaac/segal.html), [[Segal-EquivariantHT.pdf:file]]&rbrack;
+
+
 Proving the [[equivariant Whitehead theorem]]:
 
-* {#JamesSegal78}  [[Ioan James]], [[Graeme Segal]], Theorem 1.1 in: _On equivariant homotopy type_, Topology __17__:3, 1978, 267--272 (<a href="https://doi.org/10.1016/0040-9383(78)90030-7">doi:10.1016/0040-9383(78)90030-7</a>)
+* {#JamesSegal78}  [[Ioan James]], [[Graeme Segal]], Theorem 1.1 in: _On equivariant homotopy type_, Topology __17__ 3 (1978) 267-272 &lbrack;<a href="https://doi.org/10.1016/0040-9383(78)90030-7">doi:10.1016/0040-9383(78)90030-7</a>&rbrack;
 
 
 On the [[homotopy type of spaces of rational functions]] from the [[Riemann sphere]] to itself (related to the [[moduli space of monopoles]] in $\mathbb{R}^3$ and to the [[configuration space of points]] in $\mathbb{R}^2$):
 
-* [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. __143__ (1979), 39-72 ([euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033))
+* [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. __143__ (1979) 39-72 &lbrack;[euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033)&rbrack;
 
 * [[Ralph L. Cohen]], [[John D. S. Jones]], [[Graeme B. Segal]], *Stability for holomorphic spheres and Morse theory*, in: K. Grove, I. H. Madsen, E. K. Pedersen (eds.) *Geometry and Topology: Aarhus*, Contemporary Mathematics
 Volume: 258;  ([arXiv:math/9904185](https://arxiv.org/abs/math/9904185), [ ISBN:978-0-8218-2158-9](https://bookstore.ams.org/conm-258))
