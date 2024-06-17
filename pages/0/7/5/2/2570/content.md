@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -26,9 +25,9 @@ In terms of [[matrix|matrices]], the Gram--Schmidt process is a procedure of fac
 
 1. $U$ is an [[orthogonal matrix|orthogonal]] (or [[unitary matrix|unitary]]) matrix.
 
-As such, this is a special case of the more general [[Iwasawa decomposition]] for (connected) [[semisimple Lie group|semisimple]] [[Lie groups]]. In the case of real matrices, decomposition into the orthogonal and upper triangular is often denoted $Q R$ and called __QR decomposition__ or QR factorization.
+As such, this provides [[matrix decomposition]] in specialization of the more general [[Iwasawa decomposition]] for (connected) [[semisimple Lie group|semisimple]] [[Lie groups]]. In the case of [[real numbers|real]] matrices, decomposition into an orthogonal and upper triangular matrix is often denoted $Q R$ and called _[[QR decomposition]]_ or *QR factorization*.
 
-Since the factorization depends smoothly on the parameters, the Gram--Schmidt procedure enables the [[G-structure|reduction of the structure group]] of an inner product [[vector bundle]] (e.g., the [[tangent bundle]] of a [[Riemannian manifold]] or a [[Kähler manifold]]) from $GL_n$ to the [[orthogonal group]] $O_n$ (or the [[unitary group]] $U_n$). 
+Since the factorization depends [[smooth function|smoothly]] on the parameters, the Gram--Schmidt procedure enables the [[G-structure|reduction of the structure group]] of an inner product [[vector bundle]] (e.g., the [[tangent bundle]] of a [[Riemannian manifold]] or a [[Kähler manifold]]) from $GL_n$ to the [[orthogonal group]] $O_n$ (or the [[unitary group]] $U_n$). 
 
 
 ## Gram--Schmidt process on Hilbert spaces 
@@ -281,6 +280,8 @@ Analogous statements hold for each symmetric group $S_n$.
 
 ## Related entries
 
+* [[QR decomposition]]
+
 * [[Hermite normal form]]
 
 * [[Smith normal form]]
@@ -302,9 +303,6 @@ Evident generalization to the case of [[indefinite bilinear form|indefinite]] [[
 
 * [[Barrett O'Neill]], Lem. 2.24 (p. 50) of: *Semi-Riemannian Geometry With Applications to Relativity*, Pure and Applied Mathematics **103**, Academic Press (1983) &lbrack;[ISBN:9780125267403](https://shop.elsevier.com/books/semi-riemannian-geometry-with-applications-to-relativity/oneill/978-0-12-526740-3)&rbrack;
 
-Relation of the QR decomposition (and some other matrix decompositions) to flows of [[integrable system]]s is in
-
-* P. Deift, L. C. Li, C.Tomei, _Matrix factorizations and integrable systems_, Commun. Pure Appl. Math. __42__(4) 443--521 (1989) [doi](https://doi.org/10.1002/cpa.3160420405)
 
 [[!redirects Gram–Schmidt process]]
 [[!redirects Gram--Schmidt process]]
@@ -325,5 +323,8 @@ Relation of the QR decomposition (and some other matrix decompositions) to flows
 
 [[!redirects Gram-Schmidt orthogonalization]]
 [[!redirects Gram-Schmidt orthogonalizations]]
-[[!redirects QR decomposition]]
-[[!redirects QR factorization]]
+
+
+
+
+
