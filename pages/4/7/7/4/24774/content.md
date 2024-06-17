@@ -75,6 +75,13 @@ On [[D-branes]]:
 
 \linebreak
 
+On [[string theory]]:
+
+* [[Carlo Angelantonj]], [[Ioannis Florakis]], *A Lightning Introduction to String Theory*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2406.09508](https://arxiv.org/abs/2406.09508)&rbrack;
+
+
+\linebreak
+
 On the [[pure spinor]] [[Berkovits superstring]]:
 
 * [[Nathan Berkovits]], [[Carlos R. Mafra]], *Pure spinor formulation of the superstring and its applications*, in *[[Handbook of Quantum Gravity]]* (2023) &lbrack;[arXiv:2210.10510](https://arxiv.org/abs/2210.10510)&rbrack;
