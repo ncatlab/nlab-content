@@ -1,54 +1,96 @@
-#Contents#
-* the following line creates the automatic table of contents
-{:toc}
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Linear algebra
++-- {: .hide}
+[[!include higher linear algebra - contents]]
+=--
+#### Operator algebra
++-- {: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
 
 
 ## Idea ##
-This page is about the polar decomposition of [[bounded operators]] on [[Hilbert spaces]]. Any complex number $z$ has a representation as $z = r e^{i \phi}$ with $r \in \mathbb{R}, r \ge 0$ being the absolute value of $z$ and the complex number $e^{i \phi}$ of norm $1$ being the modulus, or the complex sign, of $z$. The polar decomposition of a bounded operator is a generalization of this representation. 
+
+The *polar decomposition* of [[bounded operators]] (on some [[Hilbert space]]) generalizes the decomposition of [[complex numbers]] $z$ as products $z = r e^{i \phi}$ with $r \in \mathbb{R}, r \ge 0$ being the [[absolute value]] of $z$ and the complex number $e^{i \phi}$ of norm $1$ being the modulus, or the complex sign, of $z$. 
 
 
 ## Definition ##
-Let $\mathcal{H}$ be a [[Hilbert space]] and $S_1, S_2$ be closed linear subspaces.
+
+Let $\mathcal{H}$ be a [[Hilbert space]] and $S_1, S_2$ be 
+[[closed subset|closed]] [[linear subspaces]].
 
 +-- {: .un_def}
 ###### Definition
-An unitary isomorphism
+
+A [[unitary map|unitary]] [[isomorphism]]
 $$
-   U: S_1 \to S_2
+   U \,\colon\, S_1 \longrightarrow S_2
 $$
 is called a **partial isometry** with **initial space** $S_1$ and **final space** or range $S_2$
 =--
 
-Let $T$ be a bounded operator on $\mathcal{H}$
+Let $T$ be a [[bounded operator]] on $\mathcal{H}$
 
-+-- {: .un_def}
-###### Definitions
-The positive operator 
+\begin{definition}
+
+The [[positive operator]] 
 $$
-   |T| := (T^*T)^{\frac{1}{2}}
+   |T| \,\coloneqq\, \big(T^* T\big)^{\frac{1}{2}}
 $$
 is called the **modulus** of T.
-=--
+
+\end{definition}
 
 
-## The Theorem ##
-For every bounded operator $T$ on $\mathcal{H}$ there exists a unique partial isometry $U$ such that
+
+## Properties ##
+
+### Existence
+
+\begin{proposition}
+For every [[bounded operator]] $T$ on $\mathcal{H}$ there exists a unique partial isometry $U$ such that
 
 1. U has initial space $\overline{R(|T|)}$ and range $\overline{R(T)}$
 
 2. $T = U |T| = U (T^*T)^{\frac{1}{2}}$
 
-## Properties ##
-We have stated the theorem for the [[operator algebra]] $\mathcal{B}(\mathcal{H})$ only, for a general [[C-star algebra]] $C$ it need not hold because the partial isometry $U$ need not be contained in $C$. 
+\end{proposition}
 
-This is true however for every [[von Neumann algebra]].
 
-## Examples ##
+\begin{remark}
+Beware that this statement does not generalize from algebras of [[bounded operators]] $\mathcal{B}(\mathcal{H})$ to general [[C-star algebra|$C^\ast$-algebras]] $C$, because the partial isometry $U$ need not be contained in $C$. 
+
+However, the analog statement is again true for [[von Neumann algebras]].
+\end{remark}
+
+## Related entries
+
+* [[matrix decomposition]]
+
+  * [[Gauss decomposition]]
+
+  * [[QR decomposition]]
+
+  * [[LU decomposition]]
+
 
 ## References ##
-Most textbooks about operators on Hilbert spaces mention the polar decomposition, for example it can be found in the beginning of
 
-* Kadison, Ringrose: _Fundamentals of the Theory of Operator Algebras_ , volume 2, _Advanced Theory_
+Most textbooks on [[operator algebra]] and [[Hilbert spaces]] mention the polar decomposition, for example it can be found in the beginning of
 
-* wikipedia [polar decomposition](http://en.wikipedia.org/wiki/Polar_decomposition)
+* [[Richard V. Kadison]], [[John R. Ringrose]], _Fundamentals of the theory of operator algebras_,  Vol II *Advanced Theory*, Graduate Studies in Mathematics **16**, AMS 1997 &lbrack;[ISBN:978-0-8218-0820-7](https://bookstore.ams.org/gsm-16)&rbrack;
+
+See also:
+
+* Wikipedia, [Polar decomposition](http://en.wikipedia.org/wiki/Polar_decomposition)
+
+
 [[!redirects polar decompositions]]
