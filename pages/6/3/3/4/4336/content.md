@@ -29,6 +29,8 @@ Note that if the structure on X is such that matrix multiplication is associativ
 
 * [[matrix multiplication]], [[matrix calculus]]
 
+* [[matrix decomposition]]
+
 * [[square matrix]]
 
 * [[diagonal matrix]]
