@@ -48,7 +48,7 @@ On the [[group completion theorem]]:
 * {#McDuffSegal76} [[Dusa McDuff]], [[Graeme Segal]], _Homology fibrations and the “group-completion” theorem_, Invent. Math. __31__ 3 (1976) 279-284 &lbrack;[doi:10.1007/BF01403148](https://doi.org/10.1007/BF01403148)&rbrack;
 
 
-On [[equivariant homotopy theory]]:
+On [[equivariant homotopy theory]] motivated by equivariant [[iterated loop spaces]] and [[configuration spaces of points]]:
 
 * [[Graeme Segal]], *Some results in equivariant homotopy theory* (1978) &lbrack;scan: [web](https://homepages.warwick.ac.uk/~maaac/segal.html), [[Segal-EquivariantHT.pdf:file]]&rbrack;
 
