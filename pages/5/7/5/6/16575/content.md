@@ -105,11 +105,13 @@ This may be used to understand the [[gauge enhancement]] to [[E8]]-[[gauge group
 
 The idea that on $N$ coincident D-branes there is gauge enhancement to $U(N)$-gauge field theory is due to 
 
-* {#Witten95} [[Edward Witten]], section 3 of _Bound States Of Strings And $p$-Branes_, Nucl.Phys.B460:335-350, 1996 ([arXiv:hep-th/9510135](https://arxiv.org/abs/hep-th/9510135))
+* {#Witten95} [[Edward Witten]], section 3 of: _Bound States Of Strings And $p$-Branes_, Nucl. Phys. B **460** (1996) 335-350 \[<a href="https://doi.org/10.1016/0550-3213(95)00610-9">doi:10.1016/0550-3213(95)00610-9</a>, [arXiv:hep-th/9510135](https://arxiv.org/abs/hep-th/9510135)\]
 
-There, this is called an "obvious guess" (first line on p. 8). Subsequently,  most authors cite this obvious guess as a fact; for instance the review 
+There, this is an "obvious guess" (first line on [p. 8](https://arxiv.org/pdf/hep-th/9510135#page=8)). 
 
-* {#Myers03} [[Robert Myers]], section 3 of _Nonabelian Phenomena on D-branes_, Class.Quant.Grav. 20 (2003) ([arXiv:hep-th/0303072](https://arxiv.org/abs/hep-th/0303072))
+Subsequently,  most authors cite this obvious guess as a fact; for instance the review:
+
+* {#Myers03} [[Robert Myers]], section 3 of: _Nonabelian Phenomena on D-branes_, Class. Quant. Grav. **20** (2003) &lbrack;[arXiv:hep-th/0303072](https://arxiv.org/abs/hep-th/0303072), [doi:10.1088/0264-9381/20/12/302](https://doi.org/10.1088/0264-9381/20/12/302)&rbrack;
 
 Discussion in terms of [[boundary conformal field theory]] is in
 
