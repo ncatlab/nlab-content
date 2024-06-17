@@ -434,6 +434,8 @@ See also:
 
 * [[Graeme Segal]], *Some results in equivariant homotopy theory* (1978) &lbrack;scan: [web](https://homepages.warwick.ac.uk/~maaac/segal.html), [[Segal-EquivariantHT.pdf:file]]&rbrack;
 
+  > (on equivariant [[iterated loop spaces]] and [[configuration spaces of points]])
+
 * {#Waner80} [[Stefan Waner]], _Equivariant Homotopy Theory and Milnor's Theorem_, Transactions of the American Mathematical Society Vol. 258, No. 2 (Apr., 1980), pp. 351-368 ([JSTOR](http://www.jstor.org/stable/1998061))
 
 Specifically with an eye towards equivariant [[differential topology]] (such as [[Pontryagin-Thom construction]] for [[equivariant cohomotopy]]):
