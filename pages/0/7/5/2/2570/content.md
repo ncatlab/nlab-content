@@ -26,7 +26,7 @@ In terms of [[matrix|matrices]], the Gram--Schmidt process is a procedure of fac
 
 1. $U$ is an [[orthogonal matrix|orthogonal]] (or [[unitary matrix|unitary]]) matrix.
 
-As such, this is a special case of the more general [[Iwasawa decomposition]] for (connected) [[semisimple Lie group|semisimple]] [[Lie groups]]. 
+As such, this is a special case of the more general [[Iwasawa decomposition]] for (connected) [[semisimple Lie group|semisimple]] [[Lie groups]]. In the case of real matrices, decomposition into the orthogonal and upper triangular is often denoted $Q R$ and called __QR decomposition__ or QR factorization.
 
 Since the factorization depends smoothly on the parameters, the Gram--Schmidt procedure enables the [[G-structure|reduction of the structure group]] of an inner product [[vector bundle]] (e.g., the [[tangent bundle]] of a [[Riemannian manifold]] or a [[Kähler manifold]]) from $GL_n$ to the [[orthogonal group]] $O_n$ (or the [[unitary group]] $U_n$). 
 
@@ -291,17 +291,20 @@ Analogous statements hold for each symmetric group $S_n$.
 
 See also 
 
-* Wikipedia, _[Gram-Schmidt process](https://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt_process)_
+* Wikipedia, _[Gram-Schmidt process](https://en.wikipedia.org/wiki/Gram%E2%80%93Schmidt_process)_, 
+_[QR decomposition](https://en.wikipedia.org/wiki/QR_decomposition)_
 
 The formulation of Gram-Schmidt via [[Gaussian elimination]] is due to
 
-* {#PursellTrimble91} [[Lyle E. Pursell]], S. Y. Trimble, *Gram-Schmidt orthogonalization by Gauss elimination*, The American Mathematical Monthly  **98** 6 (1991) 544-549 &lbrack;[doi:10.1080/00029890.1991.11995755](https://doi.org/10.1080/00029890.1991.11995755), [jstor:2324877](https://www.jstor.org/stable/2324877)&rbrack;
+* {#PursellTrimble91} [[Lyle E. Pursell]], S. Y. Trimble, *Gram-Schmidt orthogonalization by Gauss elimination*, The American Mathematical Monthly  **98** 6 (1991) 544--549 &lbrack;[doi:10.1080/00029890.1991.11995755](https://doi.org/10.1080/00029890.1991.11995755), [jstor:2324877](https://www.jstor.org/stable/2324877)&rbrack;
 
 Evident generalization to the case of [[indefinite bilinear form|indefinite]] [[inner product spaces]]:
 
 * [[Barrett O'Neill]], Lem. 2.24 (p. 50) of: *Semi-Riemannian Geometry With Applications to Relativity*, Pure and Applied Mathematics **103**, Academic Press (1983) &lbrack;[ISBN:9780125267403](https://shop.elsevier.com/books/semi-riemannian-geometry-with-applications-to-relativity/oneill/978-0-12-526740-3)&rbrack;
 
+Relation of the QR decomposition (and some other matrix decompositions) to flows of [[integrable system]]s is in
 
+* P. Deift, L. C. Li, C.Tomei, _Matrix factorizations and integrable systems_, Commun. Pure Appl. Math. __42__(4) 443--521 (1989) [doi](https://doi.org/10.1002/cpa.3160420405)
 
 [[!redirects Gram–Schmidt process]]
 [[!redirects Gram--Schmidt process]]
@@ -322,3 +325,5 @@ Evident generalization to the case of [[indefinite bilinear form|indefinite]] [[
 
 [[!redirects Gram-Schmidt orthogonalization]]
 [[!redirects Gram-Schmidt orthogonalizations]]
+[[!redirects QR decomposition]]
+[[!redirects QR factorization]]
