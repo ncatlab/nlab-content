@@ -28,7 +28,7 @@
 
 ## Idea
 
-The [[zeta function]] naturally associated to a [[Riemann surface]]/[[complex curve]], hence the [[zeta function of an elliptic differential operator]] for the [[Laplace operator]] on the Riemann surface (and hence hence essentially the [[Feynman propagator]] for the [[scalar fields]] on that surface) is directly analogous to the zeta functions associated with [[arithmetic curves]], notably the [[Artin L-functions]].
+The [[zeta function]] naturally associated to a [[Riemann surface]]/[[complex curve]], hence the [[zeta function of an elliptic differential operator]] for the [[Laplace operator]] on the Riemann surface (and hence essentially the [[Feynman propagator]] for the [[scalar fields]] on that surface) is directly analogous to the zeta functions associated with [[arithmetic curves]], notably the [[Artin L-functions]].
 
 ([Minakshisundaram-Pleijel 49](#MinakshisundaramPleijel49)) considered the [[zeta function of an elliptic differential operator]] for the [[Laplace operator]] on a [[Riemann surface]].
 
