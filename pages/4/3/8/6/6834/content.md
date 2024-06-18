@@ -83,7 +83,7 @@ $$
   \,.
 $$
 
-But for $p \geq 0$ then a crucial new effect appears: these gauge transformations, being higher differential forms themselves, have "[[higher gauge transformation|gauge-of-gauge transformations]]" between them, given by lower degree forms.
+But for $p \gt 0$ then a crucial new effect appears: these gauge transformations, being higher differential forms themselves, have "[[higher gauge transformation|gauge-of-gauge transformations]]" between them, given by lower degree forms.
 
 This phenomenon implies that higher gauge fields have a rich _global_ ("topological") structure, witnessed by the higher analog of their [[instanton sectors]]. Namely, while a higher gauge field to which a [[p-brane]] may couple is _locally_ given by a $(p+1)$-form $A_{p+1}$, as one moves across [[coordinate charts]] this form gauge transforms by a $p$-form, which then itself, as one passes along two charts, transforms by a $(p-1)$-form, and so on.
 
