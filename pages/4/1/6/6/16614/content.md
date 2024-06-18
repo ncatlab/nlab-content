@@ -17,7 +17,7 @@
 ## Idea
 
 \begin{definition}
-A _harmonic map_ is a [[smooth function]] $f \colon X \longrightarrow Y$ between a [[pair]] $(X,g_X)$, $(X,g_Y)$ of  [[Riemannian manifolds]] which is a [[critical point]] of the Dirichlet [[kinetic energy]] [[functional]]
+A _harmonic map_ is a [[smooth function]] $f \colon X \longrightarrow Y$ between a [[pair]] $(X,g_X)$, $(Y,g_Y)$ of  [[Riemannian manifolds]] which is a [[critical point]] of the Dirichlet [[kinetic energy]] [[functional]]
 
 \[
   \label{EnergyFunctional}
@@ -25,7 +25,7 @@ A _harmonic map_ is a [[smooth function]] $f \colon X \longrightarrow Y$ between
     \;\coloneqq\; 
   \tfrac{1}{2}
   \textstyle{\int_{X}} \Vert \mathrm{d} f\Vert^2 dVol_X
-  \,.
+  \,,
 \]
 
 where 
@@ -56,13 +56,15 @@ The analogous formula makes sense for [[pseudo-Riemannian manifolds]] where (eq:
 
 * Wikipedia, _[Harmonic map](https://en.wikipedia.org/wiki/Harmonic_map)_
 
-Discussion in the context of [[action functionals]] for [[theory (physics)|theories of physics]] includes
+Discussion in the context of [[action functionals]] for [[theory (physics)|theories of physics]] (nonlinear [[sigma models]]):
 
-* [[Charles Misner]], _Harmonic maps as models for physical theories_, Phys. Rev. D 18, 4510 (1978) ([spire](http://inspirehep.net/record/137431/))
+* [[Charles Misner]], _Harmonic maps as models for physical theories_, Phys. Rev. D **18** 4510 (1978) &lbrack[spire:137431](http://inspirehep.net/record/137431)&rbrack;
 
-Discussion in the context of [[integrable systems]] includes
+Discussion in the context of [[integrable systems]]:
 
-* [[Shabnam Beheshti]], A. Shadi Tahvildar-Zadeh, _Integrability and Vesture for Harmonic Maps into Symmetric Spaces_ ([arXiv:1209.1383](http://arxiv.org/abs/1209.1383))
+* [[Shabnam Beheshti]], A. Shadi Tahvildar-Zadeh, _Integrability and Vesture for Harmonic Maps into Symmetric Spaces_ &lbrack;[arXiv:1209.1383](http://arxiv.org/abs/1209.1383)&rbrack;
+
+
 
 [[!redirects harmonic maps]]
 
