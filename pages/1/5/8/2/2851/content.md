@@ -47,13 +47,13 @@ The subset of matrices $G \in GL_n(k)$ for which such a decomposition exists (an
 
 The decomposition of matrices for any $w$ is also at times  called a Gauss decomposition, in which case for $w=1$ one speaks of the *main cell*. 
 
-The group $GL_n(k)$ is *[[open cover|covered]]* by [[factorial|$n!$]] such open subsets, this is the *Gauss of global decomposition* of $GL_n$. 
+The group $GL_n(k)$ is *[[open cover|covered]]* by [[factorial|$n!$]] such open subsets, this is the *Gauss global decomposition* of $GL_n$. 
 
 In a similar manner one may discuss [[subgroups]] of $GL_n$ by inducing the decomposition from $GL_n$. 
 
 In the case of [[special linear group|$SL_n(\mathbb{C})$]], and some other cases, the matrices corresponding to $U$ in the decomposition for $w=1$ are forming the corresponding (lower) [[Borel subgroup]].
 
-This should be distinguished from the [[Bruhat decomposition]] where one wants $G = U w A$ instead of $G = w U A$. Except for the case when $w=1$ when the two decompositions coincide, the matrices which decompose for given $w$ make a subset of higher [[codimension]], hence nonprincipal (that is $w\neq 1$) Bruhat cells are not open. Furthermore, while in Gauss case  the cells make a cover of $GL_n$, in Bruhat case they make a partition of $GL_n$ into disjoint subsets of elements. 
+This should be distinguished from the [[Bruhat decomposition]] where one wants $G = U w A$ instead of $G = w U A$. Except for the case when $w=1$ when the two decompositions coincide, the matrices which decompose for given $w$ make a subset of higher [[codimension]], hence nonprincipal (that is $w\neq 1$) Bruhat cells are not open. Furthermore, while in Gauss case  the cells make an open cover of $GL_n$, in Bruhat case they make a partition of $GL_n$ into disjoint subsets of elements. 
 
 If $B$ is a subgroup of lower triangular matrices, then for the fixed $w$, the entries of $U$ as a function of $G$ in the decomposition $g=wUA$ are the coordinates on the patch in $GL_n/B$ evaluated at the coset of $g$. The decomposition therefore for fixed $w$ corresponds to the trivialization of the principal $B$-bundle $GL_n\to GL_n/B$ over the open Gauss cell corresponding to $w$.
 
