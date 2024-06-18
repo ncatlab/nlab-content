@@ -25,7 +25,7 @@
 
 ### General
 
-The _Cohomotopy charge map_ is the [[function]] that assigns to a [[configuration space (mathematics)|configuration]] of [[normally framed submanifolds]] of [[codimension]] $n$ their total [[charge]] as measured in $n$-[[Cohomotopy]]-[[generalized cohomology|cohomology theory]].
+The _Cohomotopy charge map_ (terminology due to [SS22, Rem. 2.6](#SS22IntBranes)) is the [[function]] that assigns to a [[configuration space (mathematics)|configuration]] of [[normally framed submanifolds]] of [[codimension]] $n$ their total [[charge]] as measured in $n$-[[Cohomotopy]]-[[generalized cohomology|cohomology theory]].
 
 Concretely, this is the function which assigns to a [[normally framed submanifold]] its **asymptotic normal distance function**, namely the [[distance]] from the [[submanifold]] measured 
 
@@ -365,6 +365,9 @@ See also:
 * {#Knudsen18} [[Ben Knudsen]], _Configuration spaces in algebraic topology_ ([arXiv:1803.11165](https://arxiv.org/abs/1803.11165))
 
 * {#SatiSchreiber19} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
+
+* {#SS22IntBranes} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Differential Cohomotopy implies intersecting brane observables]]*, Adv. Theor. Math. Phys. **26** 4 (2022) \[<a href="https://dx.doi.org/10.4310/ATMP.2022.v26.n4.a4">doi:10.4310/ATMP.2022.v26.n4.a4</a>[arXiv:1912.10425](https://arxiv.org/abs/1912.10425)\]
+
 
 [[!redirects cohomotopy charge map]]
 [[!redirects cohomotopy charge maps]]
