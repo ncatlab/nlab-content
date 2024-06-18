@@ -70,7 +70,7 @@ The "doubly supersymmetric geometric approach" ([Bandos, Pasti, Sorokin, Tonin &
 
    where $P \coloneqq \tfrac{1}{2}(1 + \Gamma_{p+1} \cdots \Gamma_d)$ is the corresponding transversal fermionic projector and $\psi$ are the fermionic components of the co-frame field on $\Sigma$.
 
-Here we may observe that a co-frame satisfying the bosonic "super-embedding condition" (eq:BosonicSuperEmbeddingCondition) is algebraically what is known in the mathematical literature as a (higher dimensional) *[[Darboux coframe]]* for the given [[immersion]], see [there](Riemannian+immersion#DarbouxCoFramePullingBackToCoframeOnImmersedManifold).
+Here we may observe &lbrack;[GSS24, §2](#GSS24)&rbrack; that a co-frame satisfying the bosonic "super-embedding condition" (eq:BosonicSuperEmbeddingCondition) is algebraically what is known in the mathematical literature as a (higher dimensional) *[[Darboux coframe]]* for the given [[immersion]], see [there](Riemannian+immersion#DarbouxCoFramePullingBackToCoframeOnImmersedManifold).
 
 Crucially, the would-be fermionic Darboux-condition $\phi^\ast \overline{P} \Psi = 0$ is *not* imposed (analogous to how the [[superspace]]-formulation of the target [[supergravity]] imposes the [[supergravity torsion constraint|torsion constraint]] just on the bosonic coframe components): Remarkably, it turns out that the freedom in violating this would-be constraint accounts exactly for the presence of [[flux densities]] of [[higher gauge fields]] on the [[super p-brane|brane]]'s [[worldvolume]] for the [[D-branes]] (with their [[Chan-Paton gauge field]]) and for the [[M5-brane]] (with its [[self-dual higher gauge theory|self-dual]] [[B-field]] in the [[D=6 N=(2,0) SCFT]]).
 
@@ -224,6 +224,8 @@ and a more elaborate discussion originates with:
 
 Review:
 
+* [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], *Superbrane actions and geometrical approach*, in: *Supersymmetry and Quantum Field Theory*, Lecture Notes in Physics **509**, Springer (1998) 79-91 &lbrack;[doi:10.1007/BFb0105231](https://doi.org/10.1007/BFb0105231)&rbrack;
+
 * [[Igor Bandos]], *Superembedding approach and generalized action in String/M-theory*, in: *Supersymemtries and Quantum Symmetries*, Lecture Notes in Physics **524**, Springer (1999) &lbrack;[arXiv:hep-th/9807202](https://arxiv.org/abs/hep-th/9807202), [doi:10.1007/BFb0104595](https://doi.org/10.1007/BFb0104595)&rbrack;
 
 * {#Sorokin01} [[Dmitri Sorokin]], *Introduction to the Superembedding Description of Superbranes*, AIP Conference Proceedings **589** 98 (2001) &lbrack;[arXiv:hep-th/0105102](https://arxiv.org/abs/hep-th/0105102), [doi:10.1063/1.1419318](https://doi.org/10.1063/1.1419318)&rbrack;
@@ -236,10 +238,14 @@ Discussion in view of [[supersymmetry breaking]]:
 
 * [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], *Superembeddings, Partial Supersymmetry Breaking and Superbranes*, Nucl. Phys. B **591** (2000) 109-138 &lbrack;[arXiv:hep-th/0007048](https://arxiv.org/abs/hep-th/0007048), <a href="https://doi.org/10.1016/S0550-3213(00)00569-1">doi:10.1016/S0550-3213(00)00569-1</a>&rbrack;
 
-
 Related discussion in the bosonic situation:
 
 * [[Igor Bandos]], Wolfgang Kummer, *P-Branes, Poisson-Sigma-Models and Embedding Approach to $(p+1)$-Dimensional Gravity*, Int. J. Mod. Phys. A **14** (1999) 4881-4914 &lbrack;[arXiv:hep-th/9703099](https://arxiv.org/abs/hep-th/9703099), [doi:10.1142/S0217751X99002311](https://doi.org/10.1142/S0217751X99002311)&rbrack;
+
+Reformulation of "super-embeddings" via a supergeometric [[Darboux coframe]]-condition:
+
+* {#GSS24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], §2 in: *[[schreiber:Flux Quantization on M5-Branes]]* &lbrack;[arXiv:2406.11304](https://arxiv.org/abs/2406.11304)&rbrack;
+
 
 
 ### $\kappa$-Symmetry
