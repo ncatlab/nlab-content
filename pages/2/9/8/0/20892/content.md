@@ -16,11 +16,11 @@ The following is a list of references that involve ([[weight systems]] on) [[cho
 
 For a unifying perspective (via [[Hypothesis H]]) and further pointers, see:
 
-* {#SatiSchreiber19c} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Differential Cohomotopy implies intersecting brane observables]]*, Adv. Theor. Math. Phys. **26** 4 (2022) &lbrack;[arXiv:1912.10425](https://arxiv.org/abs/1912.10425)&rbrack;
+* {#SatiSchreiber19c} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Differential Cohomotopy implies intersecting brane observables]]*, Adv. Theor. Math. Phys. **26** 4 (2022) \[<a href="https://dx.doi.org/10.4310/ATMP.2022.v26.n4.a4">doi:10.4310/ATMP.2022.v26.n4.a4</a>[arXiv:1912.10425](https://arxiv.org/abs/1912.10425)\]
 
 * {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]* Lett. Math. Phys. **113** 112 (2023) \[<a href="https://arxiv.org/abs/2105.02871">arXiv:2105.02871</a>, [doi:10.1007/s11005-023-01725-4](https://doi.org/10.1007/s11005-023-01725-4)\]
 
-* {#Collari2023} [[Carlo Collari]], *A note on weight systems which are quantum states*, Can. Math. Bull. (2023) $[$[arXiv:2210.05399](https://arxiv.org/abs/2210.05399), [doi:10.4153/S0008439523000206](https://doi.org/10.4153/S0008439523000206)$]$
+* {#Collari2023} [[Carlo Collari]], *A note on weight systems which are quantum states*, Can. Math. Bull. (2023) \[<a href="https://doi.org/10.4153/S0008439523000206">doi:10.4153/S0008439523000206</a>[arXiv:2210.05399](https://arxiv.org/abs/2210.05399)\]
 
 Review:
 
