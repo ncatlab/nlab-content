@@ -16,7 +16,7 @@
 
 There are two different meanings of phrase "matrix factorization" which are closely related
 
-* (typically canonical) [[matrix decomposition|matrix decompositions]] of [[matrices]] into [[matrix product|products of matrices]] of specific kind, like [[Gauss decomposition]], [[polar decomposition]], [[QR decomposition]], [[LU-decomposition]] etc. 
+* (typically canonical) [[matrix decomposition|matrix decompositions]] of [[matrices]] into [[matrix product|products of matrices]] of specific kind, like [[Gauss decomposition]], [[polar decomposition]], [[QR decomposition]], [[LU decomposition]] etc. 
 
 * decomposition of an element of a [[ring]], understood as a multiple of an [[identity matrix]], as a product of matrices over that ring, in the sense of Eisenbud and followers. 
 
