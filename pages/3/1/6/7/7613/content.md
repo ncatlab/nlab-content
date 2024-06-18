@@ -463,15 +463,15 @@ Despite the magic and mystery, the relation to the original abbreviation for _me
 
 Early articles clarifying the relation to [[type II string theory]] now known as [[F-theory]]:
 
-* {#Schwarz95} [[John Schwarz]], _The Power of M Theory_, Phys.Lett. B367 (1996) 97-103 ([arXiv:hep-th/9510086](http://arxiv.org/abs/hep-th/9510086))
+* {#Schwarz95} [[John Schwarz]], _The Power of M Theory_, Phys.Lett. B **367** (1996) 97-103 &lbrack;<a href="https://doi.org/10.1016/0370-2693(95)01429-2">doi:10.1016/0370-2693(95)01429-2</a>, [arXiv:hep-th/9510086](http://arxiv.org/abs/hep-th/9510086)&rbrack;
 
-* {#Johnson97} [[Clifford Johnson]], _From M-theory to F-theory, with Branes_, Nucl.Phys. B507 (1997) 227-244 ([arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155))
+* {#Johnson97} [[Clifford Johnson]], _From M-theory to F-theory, with Branes_, Nucl. Phys. B **507** (1997) 227-244 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(97)00550-6">doi:10.1016/S0550-3213(97)00550-6</a>[arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155)&rbrack;
 
-The relation also to the [[heterotic string]] was understood in ([Horava-Witten 95](#HoravaWitten95))&#10075; see at _[[Horava-Witten theory]]_.
+The relation also to the [[heterotic string]] was understood in [Hořava & Witten 95](#HoravaWitten95) see at _[[Horava-Witten theory]]_.
 
 Early review:
 
-* [[Paul Townsend]], _Four Lectures on M-theory_,  in: Proceedings of the ICTP summer school on High Energy Physics and Cosmology, Trieste, June 1996. ([arXiv:hep-th/9612121](http://arxiv.org/abs/hep-th/9612121))
+* [[Paul Townsend]], _Four Lectures on M-theory_,  in: Proceedings of the ICTP summer school on High Energy Physics and Cosmology, Trieste (1996) &lbrack;[arXiv:hep-th/9612121](http://arxiv.org/abs/hep-th/9612121)&rbrack;
 
 * {#ObersPioline98} [[Niels A. Obers]], [[Boris Pioline]], *U-duality and M-Theory*, Phys. Rept. **318** (1999) 113-225 &lbrack;[arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039), <a href="https://doi.org/10.1016/S0370-1573(99)00004-6">doi:10.1016/S0370-1573(99)00004-6</a>&rbrack;
 
