@@ -181,7 +181,7 @@ constitute a local frame on $\Sigma$. We may summarize this by saying that a loc
 \]
 (cf. [Griffiths & Harris 1979 (1.13)](#GriffithsHarris79)).
 
-Incidentally, this situation (eq:DarbouxCoframePullsBackToCoframe) of Darboux co-frames, when lifted/applied to the bosonic coframe components of [[super spacetimes]], has later come to be known as the "embedding condition" in the "[[super-embedding approach]]" to [[super p-branes]] &lbrack;[Sorokin 2000 (4.36-37)](super-embedding+approach#Sorokin00); [Bandos 2011 (2.6-2.9)](super-embedding+approach#Bandos11); [Bandos & Sorokin 2023 (5.13-14)](super-embedding+approach#BandosSorokin23)&rbrack;, strenghtening the original "geometrodynamical condition" of [Bandos et al. 1995 (2.23)](super-embedding+formalism#BPSTV95), which is just the first condition in (eq:DarbouxCoframePullsBackToCoframe).
+Incidentally, we may observe with [GSS24, §2](superembedding+formalism#GSS24) that this situation (eq:DarbouxCoframePullsBackToCoframe) of Darboux co-frames, when lifted/applied to the bosonic coframe components of [[super spacetimes]], has later come to be known as the "embedding condition" in the "[[super-embedding approach]]" to [[super p-branes]] &lbrack;[Sorokin 2000 (4.36-37)](super-embedding+approach#Sorokin00); [Bandos 2011 (2.6-2.9)](super-embedding+approach#Bandos11); [Bandos & Sorokin 2023 (5.13-14)](super-embedding+approach#BandosSorokin23)&rbrack;, strenghtening the original "geometrodynamical condition" of [Bandos et al. 1995 (2.23)](super-embedding+formalism#BPSTV95), which is just the first condition in (eq:DarbouxCoframePullsBackToCoframe).
 \end{remark}
 
 
