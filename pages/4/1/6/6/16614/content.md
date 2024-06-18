@@ -9,24 +9,50 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A _harmonic map_ is a [[smooth function]] $f \colon X \longrightarrow Y$ between two [[Riemannian manifolds]] $(X,g_X)$, $(X,g_Y)$ which is a [[critical point]] of the Dirichlet [[kinetic energy]] [[functional]]
+\begin{definition}
+A _harmonic map_ is a [[smooth function]] $f \colon X \longrightarrow Y$ between a [[pair]] $(X,g_X)$, $(X,g_Y)$ of  [[Riemannian manifolds]] which is a [[critical point]] of the Dirichlet [[kinetic energy]] [[functional]]
 
-$$
-  E(f) \coloneqq \int_{X} \Vert d f\Vert^2 dVol_X
+\[
+  \label{EnergyFunctional}
+  E(f) 
+    \;\coloneqq\; 
+  \tfrac{1}{2}
+  \textstyle{\int_{X}} \Vert \mathrm{d} f\Vert^2 dVol_X
   \,.
-$$
+\]
 
-where $d f \in \Gamma (T^\ast X \otimes \phi^\ast T Y)$ is the [[derivative]], where the [[norm]] is given jointly by the metrics of $X$ and $Y$ and where the [[volume form]] is that of $X$.
+where 
 
-This is a standard [[kinetic action]] [[action functional]] for [[sigma models]], the _[[Polyakov action]]_.
+* $\mathrm{d} f \in \Gamma \big(T^\ast X \otimes \phi^\ast T Y\big)$ is the ([[exterior derivative|exterior]]) [[derivative]],
+
+* the [[norm]] $\Vert-\Vert$ is given jointly by the metrics of $X$ and $Y$,
+
+* the [[volume form]] $dVol$ is that of $X$.
+
+\end{definition}
+(e.g. [Lin & Wang 2008, Def. 1.1.1](#LinWang08); [Jost 2017, Def. 9.1.2](#Jost17))
+
+\begin{remark}
+The analogous formula makes sense for [[pseudo-Riemannian manifolds]] where (eq:EnergyFunctional) is the  standard [[kinetic action]] [[action functional]] -- the _[[Polyakov action]]_ -- for [[relativistic field theory|relativistic]] non-linear [[sigma models]] (such as for the [[relativistic particle]], [[string]] or [[membrane]], etc.)
+\end{remark}
+
+
+## Related concepts
+
+* [[second fundamental form]]
 
 ## References
+
+* {#LinWang08} Fanghua Lin,  Changyou Wang: *The Analysis of Harmonic Maps and Their Heat Flows*, World Scientific (2008) &lbrack;[doi:10.1142/6679](https://doi.org/10.1142/6679)&rbrack;
+
+* {#Jost17} [[Jürgen Jost]], Ch. 9 in: *Riemannian Geometry and Geometric Analysis*, Springer (2017) &lbrack;[doi:10.1007/978-3-319-61860-9](https://doi.org/10.1007/978-3-319-61860-9)&rbrack;
 
 * Wikipedia, _[Harmonic map](https://en.wikipedia.org/wiki/Harmonic_map)_
 
