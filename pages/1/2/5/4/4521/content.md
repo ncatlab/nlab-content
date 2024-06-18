@@ -1,6 +1,6 @@
 [[!redirects Joao Faria Martins]]
 
-* [website](http://www1.maths.leeds.ac.uk/~pmtjfa/index.html)
+* [website](https://joaofariamartins.github.io/)
 
 ## Selected writings
 
