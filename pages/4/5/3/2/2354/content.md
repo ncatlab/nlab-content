@@ -86,7 +86,7 @@ This means that
 
    in which the triangles commute up to [[2-isomorphism]], there exists a [[1-morphism]] $u\colon Z \to P$ and 2-isomorphisms $p u \cong v$ and $q u \cong w$ which are [[coherence|coherent]] with the given ones above, and 
 
-2. given any [[pair]] pf morphisms $u,t\colon Z \to P$ and 2-morphisms $\alpha\colon p u \to p t$ and $\beta\colon q u \to q t$ such that $f \alpha = g \beta$ (modulo the given isomorphism $f p \cong g q$), there exists a unique 2-cell $\gamma\colon u \to t$ such that $p \gamma = \alpha$ and $q \gamma = \beta$.
+2. given any [[pair]] of morphisms $u,t\colon Z \to P$ and 2-morphisms $\alpha\colon p u \to p t$ and $\beta\colon q u \to q t$ such that $f \alpha = g \beta$ (modulo the given isomorphism $f p \cong g q$), there exists a unique 2-cell $\gamma\colon u \to t$ such that $p \gamma = \alpha$ and $q \gamma = \beta$.
 
 To see that these definitions are equivalent, we observe that both assert the [[representable functor|representability]] of some [[2-functor]] (where "representability" is understood in the 2-categorical "up-to-equivalence" sense), and that the corresponding 2-functors are equivalent.
 
