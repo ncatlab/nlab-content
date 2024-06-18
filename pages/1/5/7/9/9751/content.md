@@ -25,6 +25,8 @@ On the [[superembedding approach]] for [[super p-branes|super $p$-branes]]/[[Gre
 
 * {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B **446** (1995) 79-118 &lbrack;[arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113)&rbrack;
 
+* [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], *Superbrane actions and geometrical approach*, in: *Supersymmetry and Quantum Field Theory*, Lecture Notes in Physics **509**, Springer (1998) 79-91 &lbrack;[doi:10.1007/BFb0105231](https://doi.org/10.1007/BFb0105231)&rbrack;
+
 * {#Sorokin99} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys.Rept.329:1-101, 2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
 
 * {#Sorokin01} [[Dmitri Sorokin]], _Introduction to the Superembedding Description of Superbranes_, AIP Conference Proceedings 589, 98 (2001) ([arXiv:hep-th/0105102](https://arxiv.org/abs/hep-th/0105102))
