@@ -25,9 +25,13 @@ However, as in the classical case, more true meaning can be given to the decompo
 
 ## Literature
 
+* E. V. Damaskinsky, P. P. Kulish, M. A. Sokolov, _Gauss decomposition for quantum groups and supergroups_, arXiv:[q-alg/9505001](https://arxiv.org/abs/q-alg/9505001)
+
+The fact that global quantum Gauss decomposition gives a covering of a noncommutative principal bundle is stated as theorem 9 in 
+
 * {#Skoda03} Zoran &#352;koda, _Localizations for construction of quantum coset spaces_, [math.QA/0301090](http://front.math.ucdavis.edu/math.QA/0301090), in "Noncommutative geometry and Quantum groups", W.Pusz,  P.M. Hajac, eds. Banach Center Publications vol.61, pp. 265--298, Warszawa 2003. 
 
-and the Ore condition for not only $S_w$, but any (multiplicative set) of quantum minors is proved in 
+The Ore condition for not only $S_w$, but any (multiplicative set) of quantum minors is proved in 
 
 * Zoran &#352;koda, _Every quantum minor generates an Ore set_, International Math. Res. Notices 2008, rnn063-8; [math.QA/0604610](http://arxiv.org/abs/math.QA/0604610). 
 
