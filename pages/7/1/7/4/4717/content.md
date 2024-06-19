@@ -39,10 +39,25 @@ Unit and counit of an adjunction satisfy the [[triangle identities]].
 
 An [[adjunct]] is given by precomposition with a unit or postcomposition with a counit.
 
+By [this Prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints) at *[[adjoint functor]]*:
 
-The left adjoint $L : X \to Y$ is [[fully faithful]] (i.e. a [[coreflection]]) if and only if the unit $\eta : id_X \to R \circ L$ is a [[natural isomorphism]] (if and only if $id_X \cong R \circ L$ by Lemma A1.1.1 of the [[Elephant]]). Dually, the right adjoint $R : Y \to X$ is fully faithful (i.e. a [[reflective subcategory|reflection]]) if and only if the counit $\epsilon : L \circ R \to id_Y$ is a natural isomorphism. (See [this Prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints) at *[[adjoint functor]]*.)
+* The left adjoint $L \colon X \to Y$ is [[fully faithful]] (i.e. a [[coreflection]]) if and only if the unit $\eta : id_X \to R \circ L$ is a [[natural isomorphism]] (if and only if $id_X \cong R \circ L$ by Lemma A1.1.1 of the [[Elephant]]). 
 
-If the unit is the identity, $L$ is sometimes termed __lari__ ("left adjoint right inverse"); whilst $R$ is termed __rali__ ("right adjoint left inverse"). Dually, if the counit is the identity, $L$ is sometimes termed __lali__ ("left adjoint left inverse"); whilst $R$ is termed __rari__ ("right adjoint right inverse"). All four classes of functor are closed under composition, and contain the equivalences.
+* Dually, the right adjoint $R \colon Y \to X$ is fully faithful (i.e. a [[reflective subcategory|reflection]]) if and only if the counit $\epsilon \colon L \circ R \to id_Y$ is a natural isomorphism.
+
+If the unit is the [[identity morphism]] then sometimes
+
+* {#lari} $L$ is termed __lari__ ("left adjoint right inverse"); 
+
+* {#rali} $R$ is termed __rali__ ("right adjoint left inverse"). 
+
+Dually, if the [[counit of an adjunction|counit]] is the [[identity morphism]] then sometimes
+
+* $L$ is termed __lali__ ("left adjoint left inverse"); 
+
+* $R$ is termed __rari__ ("right adjoint right inverse"). 
+
+All four classes of functor are closed under composition, and contain the equivalences.
 
 ### Relation to monads
 
@@ -68,7 +83,7 @@ Every [[adjunction]] $(L \dashv R)$ gives rise to a [[monad]] $T \coloneqq R \ci
 
 ## References
 
-In the following, a rali with invertible counit is called a **surjective equivalence**:
+In the following, a [rali](#rali) with invertible counit is called a **surjective equivalence**:
 
 * {#BirdKellyPowerStreet89} [[Greg J. Bird]], [[Max Kelly]], [[John Power]], [[Ross Street]], _Flexible limits for 2-categories_, Journal of Pure and Applied Algebra **61** 1 (1989) 1-27 \[<a href="https://doi.org/10.1016/0022-4049(89)90065-0">doi:10.1016/0022-4049(89)90065-0</a>\]
 
