@@ -331,7 +331,7 @@ $$
   \end{array}
 $$
 
-Then the [[pullback of differential forms|pullback]] of the torsion constraint (eq:TorsionConstraintOnTarget) is equivalent to thid pair of conditions on $\Sigma$:
+Then the [[pullback of differential forms|pullback]] of the torsion constraint (eq:TorsionConstraintOnTarget) is equivalent to the following pair of conditions on $\Sigma$:
 
 $$
   \left\{
@@ -351,15 +351,22 @@ The first one just says that $\omega$ is the torsion-free connection with respec
 
 The second one says that the skew symmetric part ${&#8545;}^a_{[b_1 b_2]} = 0$ vanishes, hence that
 
-$$
+\[
+  \label{TheSecondFundamentalForm}
   {&#8545;}^a_{b_1 b_2}
   \;=\;
   {&#8545;}^a_{b_2 b_1}
-$$
+\]
 
 is symmetric in its tangential indices $b_i$. This symmetric [[tensor]] on $\Sigma$ is called the **second fundamental form** of the immersion $\phi$.
 
 (e.g. [Berger, Bryant & Griffiths 1983, p. 819](#BergerBryantGriffiths83); [Chavel 1993 (II.2.12)](#Chavel93); [Wang 2024, Def. 2.2](#Wang24); for alternative discussion not using co-frames see also [Chavel 1993 §II.2](#Chavel93); [Lee 2018, pp. 225](Riemannian+geometry#Lee18))
+
+\begin{remark}\label{TerminologySecondFundamentalForm}
+**(terminology)**
+Historically, by the "first fundamental form" authors used to refer to the pullback of the [[metric tensor]] along an immersion. While this usage is no longer practiced, the term "second fundamental form" for (eq:TheSecondFundamentalForm) has become standard.
+\end{remark}
+([Lee 2018, pp. 227](Riemannian+geometry#Lee18))
 
 
 ## References
