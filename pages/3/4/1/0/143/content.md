@@ -801,9 +801,14 @@ A concise and contemporary overview can be found in
 
 * {#CentazzoVitale04}C. Centazzo, [[Enrico Vitale|E. M. Vitale]], _Sheaf theory_ , pp.311-358 in Pedicchio, Tholen (eds.), _Categorical Foundations_ , Cambridge UP 2004. ([draft](https://perso.uclouvain.be/enrico.vitale/chapter7.pdf))
 
-The book by Kashiwara and Schapira discusses sheaves with motivation from [[homological algebra]], [[abelian sheaf cohomology]] and [[homotopy theory]], leading over in the last chapter to the notion of [[stack]].
+With motivation from [[homological algebra]], [[abelian sheaf cohomology]] and [[homotopy theory]], leading over in the last chapter to the notion of [[stack]]:
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
+
+Lecture notes:
+
+* {#Schapira23} [[Pierre Schapira]], *An Introduction to Categories and Sheaves*, lecture notes (2023) &lbrack;[pdf](https://webusers.imj-prg.fr/~pierre.schapira/LectNotes/CatShv.pdf), [[Schapira-Sheaves.pdf:file]]&rbrack;
+
 
 A quick pedagogical introduction with an eye towards the generalization to [[(∞,1)-sheaves]] is in 
 
