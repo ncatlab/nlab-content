@@ -66,7 +66,11 @@ Every [[adjunction]] $(L \dashv R)$ gives rise to a [[monad]] $T \coloneqq R \ci
 
 * [[adjunct]]
 
+## References
 
+In the following, a rali with invertible counit is called a **surjective equivalence**:
+
+* {#BirdKellyPowerStreet89} [[Greg J. Bird]], [[Max Kelly]], [[John Power]], [[Ross Street]], _Flexible limits for 2-categories_, Journal of Pure and Applied Algebra **61** 1 (1989) 1-27 \[<a href="https://doi.org/10.1016/0022-4049(89)90065-0">doi:10.1016/0022-4049(89)90065-0</a>\]
 
 [[!redirects unit of an adjunction]]
 [[!redirects unit of the adjunction]]
