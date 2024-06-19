@@ -40,6 +40,11 @@ This means that a topological crystalline insulator phase observed in the [[bulk
 
   > (explicit relation to [[equivariant K-theory]] in appendix B)
 
+See also:
+
+* Jian-Hao Zhang, Shang-Qiang Ning, Yang Qi, Zheng-Cheng Gu, *Construction and classification of crystalline topological superconductor and insulators in three-dimensional interacting fermion systems* &lbrack;[arXiv:2204.13558](https://arxiv.org/abs/2204.13558)&rbrack;
+
+
 
 ### Review
 
