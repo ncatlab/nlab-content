@@ -63,6 +63,6 @@ This is an [[entire analytic function]] on $\mathbb{C}^n$.
 
 ## References
 
-* {#Hoermander90} [[Lars Hörmander]], section 2.3 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
+* {#Hoermander90} [[Lars Hörmander]], section 7.3 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
 
 [[!redirects Fourier-Laplace transforms]]
