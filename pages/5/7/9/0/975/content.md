@@ -18,7 +18,6 @@
 =--
 
 
-
 This entry provides links related to the book
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], 
@@ -37,9 +36,9 @@ on basics of [[category theory]] and the foundations of [[homological algebra]] 
 
 See also the related lecture notes:
 
-* [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+* [[Pierre Schapira]], _Categories and homological algebra_ (2011) &lbrack;[pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf)&rbrack;
 
-* [[Pierre Schapira]], *An Introduction to Categories and Sheaves*, lecture notes (2023) &lbrack;[pdf](https://webusers.imj-prg.fr/~pierre.schapira/LectNotes/CatShv.pdf)&rbrack;
+* {#Schapira23} [[Pierre Schapira]], *An Introduction to Categories and Sheaves*, lecture notes (2023) &lbrack;[pdf](https://webusers.imj-prg.fr/~pierre.schapira/LectNotes/CatShv.pdf), [[Schapira-Sheaves.pdf:file]]&rbrack;
 
 
 **Summary**
