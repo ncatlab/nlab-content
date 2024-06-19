@@ -449,6 +449,7 @@ Given an continuous [[action]] of the [[circle group]] on the [[topological spac
 
 
 ## Literature
+ {#Literature}
 
 > See also the references at *[[spherical space form]]*.
 
