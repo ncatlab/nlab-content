@@ -512,7 +512,7 @@ It's a bit odd that the full final statement does not seem to be stated there ex
 
 Letcure notes:
 
-* [[Pierre Schapira]], *An Introduction to Categories and Sheaves*, lecture notes (2023) &lbrack;[pdf](https://webusers.imj-prg.fr/~pierre.schapira/LectNotes/CatShv.pdf)&rbrack;
+* {#Schapira23} [[Pierre Schapira]], *An Introduction to Categories and Sheaves*, lecture notes (2023) &lbrack;[pdf](https://webusers.imj-prg.fr/~pierre.schapira/LectNotes/CatShv.pdf), [[Schapira-Sheaves.pdf:file]]&rbrack;
 
 
 
