@@ -27,7 +27,7 @@ On [[category theory]] and [[sheaf and topos theory]]:
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
-* [[Pierre Schapira]], *An Introduction to Categories and Sheaves*, lecture notes (2023) &lbrack;[pdf](https://webusers.imj-prg.fr/~pierre.schapira/LectNotes/CatShv.pdf)&rbrack;
+* {#Schapira23} [[Pierre Schapira]], *An Introduction to Categories and Sheaves*, lecture notes (2023) &lbrack;[pdf](https://webusers.imj-prg.fr/~pierre.schapira/LectNotes/CatShv.pdf), [[Schapira-Sheaves.pdf:file]]&rbrack;
 
 
 On [[Alexander Grothendieck]]'s *[[Récoltes et semailles]]*:
