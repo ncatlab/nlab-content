@@ -1157,6 +1157,9 @@ nuclear binding energy via the [[nuclear matrix model]]:
 
 * [[Koji Hashimoto]], [[Yoshinori Matsuo]], _Nuclear binding energy in holographic QCD_ ([arXiv:2103.03563](https://arxiv.org/abs/2103.03563))
 
+See also:
+
+* Federico Castellani, *Nucleon electric and magnetic polarizabilities in Holographic QCD* &lbrack;[arXiv:2402.07553](https://arxiv.org/abs/2402.07553)&rbrack;
 
 
 
