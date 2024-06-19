@@ -50,9 +50,15 @@ The analogous formula makes sense for [[pseudo-Riemannian manifolds]] where (eq:
 
 ## References
 
+
 * {#LinWang08} Fanghua Lin,  Changyou Wang: *The Analysis of Harmonic Maps and Their Heat Flows*, World Scientific (2008) &lbrack;[doi:10.1142/6679](https://doi.org/10.1142/6679)&rbrack;
 
+* [[Frédéric Hélein]], John C. Wood: *Harmonic maps*, in: *Handbook of Global Analysis*, Elsevier (2008) 417-491 \[<a href="https://doi.org/10.1016/B978-044452833-9.50009-7">doi:10.1016/B978-044452833-9.50009-7</a>, [pdf](https://math.jhu.edu/~js/Math748/helein.harmonic.pdf)\]
+
+
 * {#Jost17} [[Jürgen Jost]], Ch. 9 in: *Riemannian Geometry and Geometric Analysis*, Springer (2017) &lbrack;[doi:10.1007/978-3-319-61860-9](https://doi.org/10.1007/978-3-319-61860-9)&rbrack;
+
+
 
 * Wikipedia, _[Harmonic map](https://en.wikipedia.org/wiki/Harmonic_map)_
 
