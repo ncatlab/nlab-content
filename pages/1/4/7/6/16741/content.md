@@ -117,6 +117,8 @@ Conversely, assume all $\mathcal{F}\to\mathcal{E}$ are m-skeletal. Then the surj
 
 ## References
 
+* Igor Arrieta, _The DeMorganization of a Locale_ , arXiv:2406.12486 (2024). ([abstract](https://arxiv.org/abs/2406.12486))
+
 * {#Caramello09}[[Olivia Caramello]], _De Morgan classifying toposes_ , Adv. in Math. **222** (2009) pp.2117-2144. ([arXiv:0808.1519](http://arxiv.org/abs/0808.1519))
 
 * {#Caramello12a}[[Olivia Caramello]], _Universal models and definability_ , Math. Proc. Cam. Phil. Soc. (2012) pp.279-302. ([arXiv:0906.3061](http://arxiv.org/abs/0906.3061))
