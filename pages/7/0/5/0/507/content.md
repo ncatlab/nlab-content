@@ -12,23 +12,23 @@
 
 This page collects material related to the book
 
-* [[Peter Johnstone]]
+* [[Peter Johnstone]]:
+
+  \linebreak
 
   **Sketches of an Elephant -- A Topos Theory Compendium**
 
+  \linebreak
 
-  Oxford University Press 2002
+  Oxford University Press (2002)
 
-  Volume 1 ([ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259))
+  Volume 1: [ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259)
                   
-  Volume 2 ([ISBN:9780198515982](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198515982))
+  Volume 2: [ISBN:9780198515982](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198515982)
+
+  Volume 3: (long announced, yet to be published)
 
 on [[topos theory]].
-
-
-Like _Gravitation_, the title can be taken to refer not only to the subject matter but also to the immense size and scope of the book itself. Like _The Lord of the Rings_, it consists of 6 parts arranged evenly into 3 volumes (but without appendices). Actually, Volume&#160;3 has not yet been published (so who knows? it may have appendices after all!).
-
-The _Elephant_ is a good reference for anything related to topos theory, and we may often cite it here. However, it introduced many terminological changes, some of which may not be widely accepted or even known. (Fortunately, it will tell you about these in the text.)
 
 
 #Contents#
@@ -663,6 +663,9 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 #### F4.4 Independence of the axiom of choice
 
 * [[axiom of choice]]
+
+
+
 
 category: reference
 
