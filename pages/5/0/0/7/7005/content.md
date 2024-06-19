@@ -345,6 +345,18 @@ In this section we assume that the universe is a Tarski universe. [[Axiom K]] st
 
 It is frequently stated that the univalence axiom and axiom K are inconsistent with each other. However, this is only true if the Tarski universe $U$ has internal univalent Tarski universes $V:U$ where the type $T(V)$ has terms $A:T(V)$ such that $T_V(A)$ is an [[h-set]] which is not an [[h-proposition]], such as the [[booleans type]]. As a result, $T(V)$ can be proven to not be a set, causing axiom K for $U$ to be inconsistent with the existence of $V:U$ and univalence. 
 
+### Univalence and excluded middle
+ {#UnivalenceLEM}
+ {#UnivalenceExcludedMiddle}
+
+The [[univalence axiom]] is consistent with [[excluded middle]]. This is because the principle of excluded middle as traditionally defined in mathematics is about [[propositions]] or [[(-1)-truncated]] types. 
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_A:\mathrm{isProp}(A) \to (A \vee (A \to \emptyset))}$$
+The semantics of dependent type theory with excluded middle and universes satisfying the univalence axiom are [[boolean topos|boolean]] [[(infinity,1)-topos|$(\infty, 1)$-toposes]]. 
+
+However, there is a global choice axiom which is inconsistent with univalence:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{gc}_A:A + (A \to \emptyset)}$$
+This is sometimes called "excluded middle" in the [[propositions as types]] interpretation of type theory, where the principle of excluded middle is reinterpreted so that types are used instead of [[mere propositions]]. But this choice principle is a much stronger axiom than excluded middle, being of comparable strength to a [[choice operator]] and implying that every type is an [[h-set]]; hence inconsistent with the univalence axiom. 
+
 ### Canonicity and homotopy canonicity
  {#Canonicity}
 
