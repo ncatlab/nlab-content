@@ -585,7 +585,7 @@ a closed string propagating without interaction.
 * covariant configuration bundle $E = \Sigma \times X$.
 
 
-We will work out the covariant Hamiltonian formalism (also known as the **[[de Donder-Weyl formalism]]**) for this example in detail. We follow here the exposition found in ([H&#233;lein 02](#Helein02)).
+We will work out the covariant Hamiltonian formalism (also known as the **[[de Donder-Weyl formalism]]**) for this example in detail. We follow here the exposition found in [H&#233;lein 02](#Helein02).
 
 For simplicity we will only consider the case where $\Sigma$ is the
 cylinder $\mathbb{R}\times S^1$ and $X$ is $d$-dimensional Minkowski spacetime, $\mathbb{R}^{1,d-1}$.
@@ -745,21 +745,21 @@ A comprehensive source on covariant field theory with plenty of further referenc
 
 Much of the material in the [section on covariant field theory](#extendedphasespace) is based on this.
 
-Other discussions include
+Further discussions:
 
-* {#Helein02} [[Frédéric Hélein]], _Hamiltonian formalisms for multidimensional calculus of variations and perturbation theory_ ([arXiv:math-ph/0212036](http://arxiv.org/abs/math-ph/0212036))
+* {#Helein02} [[Frédéric Hélein]], *Hamiltonian formalisms for multidimensional calculus of variations and perturbation theory* &lbrack;[arXiv:math-ph/0212036](http://arxiv.org/abs/math-ph/0212036)&rbrack;
   
-* [[Narciso Román-Roy]], _Multisymplectic Lagrangian and Hamiltonian formalisms of classical field theories, SIGMA 5 (2009), 100 ([journal](http://www.emis.de/journals/SIGMA/2009/100/), [arXiv:math-ph/0506022](http://arxiv.org/abs/math-ph/0506022)) 
+* [[Narciso Román-Roy]], *Multisymplectic Lagrangian and Hamiltonian formalisms of classical field theories*, SIGMA **5** (2009) 100 &lbrack;<a href="https://doi.org/10.3842/SIGMA.2009.100">doi;10.3842/SIGMA.2009.100</a>, [arXiv:math-ph/0506022](http://arxiv.org/abs/math-ph/0506022)&rbrack;
 
 
 The relation to [[covariant phase space]] methods is discussed in 
 
-* [[Frédéric Hélein]], _Multisymplectic formalism and the covariant phase_ ([arXiv:1106.2086](http://arxiv.org/abs/1106.2086))
-  {#Helein}
+* {#Hélein11} [[Frédéric Hélein]], *Multisymplectic formalism and the covariant phase*, in *Variational Problems in Differential Geometry*, Cambridge University Press (2011) 94-126  \[<a href="https://doi.org/10.1017/CBO9780511863219.007">doi:10.1017/CBO9780511863219.007</a>, [arXiv:1106.2086](http://arxiv.org/abs/1106.2086)\]
+  
 
-A discussion of [[Hamiltonian n-forms]] as [[observables]] is in 
+A discussion of [[Hamiltonian n-forms|Hamiltonian $n$-forms]] as [[observables]] is in 
 
-* [[Frédéric Hélein]], _The notion of observable in the covariant Hamiltonian formalism for the calculus of variations with several variables_ ([arXiv:math-ph/0401047](http://arxiv.org/abs/math-ph/0401047))
+* [[Frédéric Hélein]], *The notion of observable in the covariant Hamiltonian formalism for the calculus of variations with several variables*, Adv. Theor. Math. Phys. **8** (2004) 735-777 \[<a href="https://dx.doi.org/10.4310/ATMP.2004.v8.n4.a4">doi:10.4310/ATMP.2004.v8.n4.a4</a>, [arXiv:math-ph/0401047](http://arxiv.org/abs/math-ph/0401047)\]
 
 Other texts include
 
