@@ -105,7 +105,7 @@ A monograph that aims to be more expository, focusing on [[presheaf toposes]]:
 * [[Marie La Palme Reyes]], [[Gonzalo E. Reyes]], [[Houman Zolfaghari]], _Generic figures and their glueings.  A constructive approach to functor categories_, Polimetrica (2008) &lbrack;[pdf](https://marieetgonzalo.files.wordpress.com/2004/06/generic-figures.pdf), ISBN:8876990046&rbrack;
 
 
-### Textbooks
+### Monographs
  {#Textbooks}
 
 * {#Johnstone77} [[Peter Johnstone]], _Topos theory_, London Math. Soc. Monographs __10__, Acad. Press 1977, xxiii+367 pp. (Available as Dover Reprint, Mineola 2014)
@@ -116,7 +116,7 @@ A monograph that aims to be more expository, focusing on [[presheaf toposes]]:
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], *[[Sheaves in Geometry and Logic]]*, Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
 
-* [[Francis Borceux]], _[[Handbook of Categorical Algebra]] 3 - Categories of Sheaves_, Cambridge UP 1994 ([ISBN:9780521061247](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/handbook-categorical-algebra-volume-3?format=PB))
+* {#Borceux94} [[Francis Borceux]], _[[Handbook of Categorical Algebra]] 3 - Categories of Sheaves_, Cambridge UP (1994) &lbrack;[ISBN:9780521061247](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/handbook-categorical-algebra-volume-3?format=PB), [doi:10.1017/CBO9780511525872](https://doi.org/10.1017/CBO9780511525872)&rbrack;
 
 * [[Peter Johnstone]], *[[Elephant|Sketches of an elephant: a topos theory compendium]]*, 2002
 
