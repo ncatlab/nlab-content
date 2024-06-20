@@ -27,7 +27,7 @@
 
 [Wikipedia](http://en.wikipedia.org/wiki/Main_Page) enforces its entries to adopt an [NPOV](http://en.wikipedia.org/wiki/NPOV) -- a _neutral point of view_.  This is appropriate for an encyclopedia.
 
-However, [[About|the nLab is not Wikipedia]], nor is it an encyclopedia, although it does aspire to provide a useful reference in many areas (among its other purposes).  In particular, the $n$Lab *has* a particular point of view, which we may call the **$n$POV**, the _[[higher algebra|higher algebraic]]_, [[homotopy theory|homotopical]], or _[[higher category theory|n-]] [[category theory|categorical]] point of view_.
+However, [[About|the nLab is not Wikipedia]], nor is it an encyclopedia, although it does aspire to provide a useful reference in many areas (among its other purposes).  In particular, many parts of the $n$Lab *have* a particular point of view, which we may call the **$n$POV**, the _[[higher algebra|higher algebraic]]_, [[homotopy theory|homotopical]], or _[[higher category theory|n-]] [[category theory|categorical]] point of view_.
 
 To some extent the $n$POV is just the observation that [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]] and [[higher category theory]], have a plethora of useful applications.
 
@@ -38,11 +38,11 @@ To some extent the $n$POV is just the observation that [[higher algebra]], [[hom
 
 ## Idea
 
-Around the [[HomePage|nLab]] it is believed that [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]] and [[higher category theory]] provide a point of view on [[Mathematics]], [[Physics]] and [[Philosophy]] which is a valuable unifying point of view for the understanding of the concepts involved.
+Around the [[HomePage|nLab]] it is widely believed that [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]] and [[higher category theory]] provide a point of view on [[Mathematics]], [[Physics]] and [[Philosophy]] which is a valuable unifying point of view for the understanding of the concepts involved.
 
-So at the $n$Lab, we don't care so much about being neutral.  Although we don't want to offend people unnecessarily, we are also not ashamed about writing from this particular point of view.  There are certainly other valid points of view on mathematics, but describing them and being neutral towards them is not the purpose of the $n$Lab.  Rather, the $n$Lab starts from the premise that higher algebra, homotopy theory, type theory, category theory and higher category theory are a true and useful point of view, and one of its aims is to expose this point of view generally and in a multitude of examples, and thereby accumulate evidence for it.
+In particular, at the $n$Lab, there is no commitment to being neutral.  There are certainly other valid points of view on mathematics, but describing them and being neutral towards them is not the purpose of the $n$Lab.  Rather, the $n$Lab starts from the premise that higher algebra, homotopy theory, type theory, category theory and higher category theory are a useful point of view, and one of its aims is to expose this point of view generally and in a multitude of examples, and thereby accumulate evidence for it.
 
-If you feel skeptical about the $n$-point of view, you may want to ignore the $n$Lab. Or you may want to take its content as a contribution to a discussion on what is behind the claim that higher algebra, homotopy theory, type theory, and/or category theory is the right language to describe the world, or at least the world of mathematical ideas.
+If you feel skeptical about the $n$-point of view, you should still find the $n$Lab useful, as the largest site for detailed category-theoretic information online. You are very much welcome to contribute relevant content even if you are such a skeptic.
 
 ### Category theory
 
