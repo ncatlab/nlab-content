@@ -130,7 +130,7 @@ On the other hand, more recently the variant of the [[AQFT]] axioms known as _[[
 ## List of theorems invoked
  {#ListOfTheoremsInvoked}
 
-For reference, the following lists that theorems about the standard foundations of quantum mechanics that are being referred to [above](QuantumPhaseSpaceAsJordanGeometry):
+For reference, the following lists those theorems about the standard foundations of quantum mechanics that are being referred to [above](#QuantumPhaseSpaceAsJordanGeometry):
 
 * [[Gleason's theorem]]
 
