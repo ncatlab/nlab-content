@@ -23,6 +23,10 @@ A lattice-ordered abelian group or l-group is an [[ordered abelian group]] whose
 
 ## Definition
 
+### Classical definition
+
+A __lattice-ordered abelian group__ or __abelian l-group__ is an [[ordered group | ordered abelian group]] $(G,\le)$ such that every pair $a,b \in G$ admits a [[meet]] $a \wedge b$ in the underlying poset ([Gilmer 1992](#Gilmer92), p. 158). 
+
 ### With the join operation
 
 A __lattice-ordered abelian group__ or __abelian l-group__ is an [[abelian group]] $G$ with a binary [[join]] operation $(-)\vee(-):G \times G \to G$ such that $(G, \vee)$ is a [[commutative magma|commutative]] [[idempotent]] [[semigroup]], and 
@@ -110,6 +114,8 @@ An example of a lattice-ordered abelian group that is not totally ordered is the
 * [[Peter Freyd]], *Algebraic real analysis*, Theory and Applications of Categories, Vol. 20, 2008, No. 10, pp 215-306 ([tac:20-10](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
 
 * [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
+
+* {#Gilmer92}[[Robert Gilmer]]: *Multiplicative Ideal Theory*, Queen's Papers in Pure and Applied Mathematics (1992)
 
 [[!redirects abelian l-group]]
 [[!redirects abelian l-groups]]
