@@ -37,11 +37,12 @@ where
 * the [[volume form]] $dVol$ is that of $X$.
 
 \end{definition}
-(e.g. [Lin & Wang 2008, Def. 1.1.1](#LinWang08); [Jost 2017, Def. 9.1.2](#Jost17))
+(due to [Eells & Sampson 1964, §1-§2](#EellsSampson64); review includes [Baird & Wood 2003, §3.3](#BairdWood03); [Lin & Wang 2008, Def. 1.1.1](#LinWang08); [Jost 2017, Def. 9.1.2](#Jost17))
 
 \begin{remark}
 The analogous formula makes sense for [[pseudo-Riemannian manifolds]] where (eq:EnergyFunctional) is the  standard [[kinetic action]] [[action functional]] -- the _[[Polyakov action]]_ -- for [[relativistic field theory|relativistic]] non-linear [[sigma models]] (such as for the [[relativistic particle]], [[string]] or [[membrane]], etc.)
 \end{remark}
+
 
 
 ## Related concepts
@@ -50,17 +51,31 @@ The analogous formula makes sense for [[pseudo-Riemannian manifolds]] where (eq:
 
 ## References
 
+Original discussion:
+
+* {#EellsSampson64} [[James Eells]], [[Joseph H. Sampson]], *Harmonic Mappings of Riemannian Manifolds*, American Journal of Mathematics **86** 1 (1964) 109-160 &lbrack;[doi:10.2307/2373037](https://doi.org/10.2307/2373037), [jstor:2373037](https://www.jstor.org/stable/2373037)&rbrack;
+
+
+
+On the history of the concept:
+
+* Yuan-Jen Chiang, Andrea Ratto: *Paying Tribute to James Eells and Joseph H. Sampson: In Commemoration of the Fiftieth Anniversary of Their Pioneering Work on Harmonic Maps*, Notices of the AMS **62** 4 (2015) &lbrack;[pdf](https://www.ams.org/notices/201504/rnoti-p388.pdf), full issue: [pdf](http://www.ams.org/notices/201504/201504FullIssue.pdf)&rbrack;
+
+Review and textbooks:
+
+* {#BairdWood03} [[Paul Baird]], [[John C. Wood]]: *Harmonic Morphisms Between Riemannian Manifolds*, Oxford University Press (2003) &lbrack;[doi:10.1093/acprof:oso/9780198503620.001.0001](https://doi.org/10.1093/acprof:oso/9780198503620.001.0001)&rbrack;
 
 * {#LinWang08} Fanghua Lin,  Changyou Wang: *The Analysis of Harmonic Maps and Their Heat Flows*, World Scientific (2008) &lbrack;[doi:10.1142/6679](https://doi.org/10.1142/6679)&rbrack;
 
-* [[Frédéric Hélein]], John C. Wood: *Harmonic maps*, in: *Handbook of Global Analysis*, Elsevier (2008) 417-491 \[<a href="https://doi.org/10.1016/B978-044452833-9.50009-7">doi:10.1016/B978-044452833-9.50009-7</a>, [pdf](https://math.jhu.edu/~js/Math748/helein.harmonic.pdf)\]
-
+* [[Frédéric Hélein]], [[John C. Wood]]: *Harmonic maps*, in: *Handbook of Global Analysis*, Elsevier (2008) 417-491 \[<a href="https://doi.org/10.1016/B978-044452833-9.50009-7">doi:10.1016/B978-044452833-9.50009-7</a>, [pdf](https://math.jhu.edu/~js/Math748/helein.harmonic.pdf)\]
 
 * {#Jost17} [[Jürgen Jost]], Ch. 9 in: *Riemannian Geometry and Geometric Analysis*, Springer (2017) &lbrack;[doi:10.1007/978-3-319-61860-9](https://doi.org/10.1007/978-3-319-61860-9)&rbrack;
 
-
-
 * Wikipedia, _[Harmonic map](https://en.wikipedia.org/wiki/Harmonic_map)_
+
+Extensive bibliography:
+
+* *Harmonic Maps Bibliography* &lbrack;[people.bath.ac.uk/feb/harmonic.html](https://people.bath.ac.uk/feb/harmonic.html)&rbrack;
 
 Discussion in the context of [[action functionals]] for [[theory (physics)|theories of physics]] (nonlinear [[sigma models]]):
 
