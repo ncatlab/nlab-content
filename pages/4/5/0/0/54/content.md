@@ -42,27 +42,30 @@ For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+
 
 ## selected talks
 
-* **[[schreiber:Topological Quantum Gates from M-Theory|Topological Quantum Gates from M-Theory]]** 
+* **[[schreiber:Higher Topos Theory in Physics]]**
 
-  [talk at](M-Theory+and+Mathematics#Schreiber2023): *[M-Theory and Mathematics 2023](M-Theory+and+Mathematics#2023)*
-  
-  video: [YT](https://www.youtube.com/watch?v=Ob9tOgWumPI)
+  [talk in](https://researchseminars.org/talk/CaTheoryZulip/5/): [Zulip Category Theory Seminar](https://researchseminars.org/seminar/CaTheoryZulip) (Jun 2024)
 
-<center>
-<a href="https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2023">
-<img src="https://ncatlab.org/nlab/files/MTheoryAndMathematics2023Title.jpg" width="560"/>
-</a>
-</center>
+  video: [YT](https://youtu.be/Gr_BCr1rYVM)
 
-> $\phantom{------}$ (logo adapted from [JMP **62** (2021) 042301](https://arxiv.org/abs/2002.11093))
+* **[Topological Quantum Programming with Linear Homotopy Types](/schreiber/show/Topological+Quantum+Gates+in+Homotopy+Type+Theory#HoTTEST2024)**
 
-\linebreak
+  talk at: *[Homotopy Type Theory Electronic Seminar,](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html)*, 02 Feb 2024
 
-* **[[schreiber:Topological Quantum Programming in TED-K]]**
+  video: [YT](https://youtu.be/Wnm3yCUzNb0)
 
-  [talk at](https://planqc2022.hotcrp.com/paper/33): *[PlanQC 2022](https://icfp22.sigplan.org/home/planqc-2022)*
+* **[[schreiber:Introduction to Hypothesis H|Introduction to Quantum Hypothesis H]]**
 
-  video: [YT](https://www.youtube.com/watch?v=hDwXQVcloB8&feature=emb_logo)
+  talk at: *[M-Theory and Mathematics 2024](https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2024)*, Jan 2024
+
+  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_ysnxjdbb?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_ysnxjdbb)
+
+* **[[schreiber:Higher Topos Theory in Physics]]**
+
+  talk at: [Wolfram Science Winter School](https://education.wolfram.com/winter-school/), Jan 2024
+
+  video: [YT](https://youtu.be/GD20W6vxMI4)
+
 
 * **[[schreiber:Topological Quantum Gates in Homotopy Type Theory|Topological Quantum Gates in Homotopy Type Theory]]**
 
@@ -76,21 +79,22 @@ For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+
 
   video: [YT](https://youtu.be/wNhoAiITJQs)
 
-  and talk at: [Wolfram Science Winter School 2024](https://education.wolfram.com/winter-school/)
+* **[[schreiber:Topological Quantum Gates from M-Theory|Topological Quantum Gates from M-Theory]]** 
 
-  video: [YT](https://youtu.be/GD20W6vxMI4)
+  [talk at](M-Theory+and+Mathematics#Schreiber2023): *[M-Theory and Mathematics 2023](M-Theory+and+Mathematics#2023)*
+  
+  video: [YT](https://www.youtube.com/watch?v=Ob9tOgWumPI)
 
-* **[Topological Quantum Programming with Linear Homotopy Types](/schreiber/show/Topological+Quantum+Gates+in+Homotopy+Type+Theory#HoTTEST2024)**
+* **[[schreiber:Topological Quantum Programming in TED-K]]**
 
-  talk at: *[Homotopy Type Theory Electronic Seminar,](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottest.html)*, 02 Feb 2024
+  [talk at](https://planqc2022.hotcrp.com/paper/33): *[PlanQC 2022](https://icfp22.sigplan.org/home/planqc-2022)*
 
-  video: [YT](https://youtu.be/Wnm3yCUzNb0)
+  video: [YT](https://www.youtube.com/watch?v=hDwXQVcloB8&feature=emb_logo)
 
-* **[[schreiber:Introduction to Hypothesis H|Introduction to Quantum Hypothesis H]]**
 
-  video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_ysnxjdbb?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_ysnxjdbb)
 
-  talk at *[M-Theory and Mathematics 2024](https://ncatlab.org/nlab/show/M-Theory+and+Mathematics#2024)*, Jan 2024
+
+
 
 ## publications
 
@@ -143,9 +147,10 @@ recent monograph:
 
 ## research wiki
 
-<a href="http://ncatlab.org/nlab/show/HomePage"><div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://i.stack.imgur.com/1hvpz.png" alt="nLab banner" /></div></a>
+<a href="http://ncatlab.org/nlab/show/HomePage"><div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="/nlab/files/OldnLabBanner.jpg" alt="nLab banner" /></div></a>
 
-I like to put math/phys information into context. <br/> For that purpose I had started (in Nov 2008) 
+
+I enjoy putting math/phys information into context. <br/> For that purpose I had started (in Nov 2008) 
 
 * *[[Home Page|the $n$Lab research wiki project]]*
 
