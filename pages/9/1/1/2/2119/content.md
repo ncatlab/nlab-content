@@ -17,15 +17,17 @@
 
 ## Setup and definition ##
 
-Given a [[continuous map]] $\pi : E\to B$ of [[topological spaces]], one constructs the __[[mapping cocylinder]]__ $Cocyl(\pi)$ as the [[pullback]] 
+Given a [[continuous map]] $\pi \colo E \to B$ of [[topological spaces]], one constructs the __[[mapping cocylinder]]__ $Cocyl(\pi)$ as the [[pullback]] 
 
 $$
   \array{
-    Cocyl(\pi) &\overset{pr_{\mathcal{P}(B)}}\to & \mathcal{P}(B)
+    Cocyl(\pi) 
+      &\overset{pr_{\mathcal{P}(B)}}\longrightarrow 
+    & \mathcal{P}(B)
     \\
-    \pr_E\downarrow && \downarrow
+    \mathllap{{}^{\pr_E}}\Big\downarrow && \Big\downarrow
     \\
-    E & \stackrel{\pi}\to & B
+    E & \underset{\pi}\longrightarrow & B
   }
 $$  
 
@@ -80,12 +82,13 @@ If $\pi$ is a smooth principal bundle equipped with a distribution of horizontal
 
 ## References
 
-The original article is 
+The original article:
 
-* [[Witold Hurewicz]], _On the concept of fiber space_, Proc. Nat. Acad. Sci. USA __41__ (1955) 956--961; MR0073987 (17,519e) [PNAS,pdf](http://www.pnas.org/content/41/11/956.full.pdf).
+* [[Witold Hurewicz]], _On the concept of fiber space_, Proc. Nat. Acad. Sci. USA __41__ (1955) 956-961 &lbrack;[PNAS pdf](http://www.pnas.org/content/41/11/956.full.pdf), MR0073987 (17,519e)&rbrack;
 
-A review is for instance in 
+Review:
 
-* [[James Eells]], Jr., _Fibring spaces of maps_, in Richard Anderson (ed.) _Symposium on infinite-dimensional topology_
+* [[James Eells]], Jr.: *Fibring spaces of maps*, in: Richard Anderson (ed.) *Symposium on infinite-dimensional topology*, Annals of Mathematics Studies **69**, Princeton University Press (1972, 2016) 43-57 &lbrack;[ISBN:9780691080871](https://press.princeton.edu/books/paperback/9780691080871/symposium-on-infinite-dimensional-topology-am-69-volume-69), [[Eells-FibringSpaces.pdf:file]]&rbrack;
+
 
 [[!redirects Hurewicz connections]]
