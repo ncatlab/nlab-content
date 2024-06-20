@@ -24,7 +24,7 @@ and to [[observables]] given by [[Hamiltonian n-forms|Hamiltonian $n$-forms]]:
 
 On [[harmonic maps]]:
 
-* [[Frédéric Hélein]], John C. Wood: *Harmonic maps*, in: *Handbook of Global Analysis*, Elsevier (2008) 417-491 \[<a href="https://doi.org/10.1016/B978-044452833-9.50009-7">doi:10.1016/B978-044452833-9.50009-7</a>, [pdf](https://math.jhu.edu/~js/Math748/helein.harmonic.pdf)\]
+* [[Frédéric Hélein]], [[John C. Wood]]: *Harmonic maps*, in: *Handbook of Global Analysis*, Elsevier (2008) 417-491 \[<a href="https://doi.org/10.1016/B978-044452833-9.50009-7">doi:10.1016/B978-044452833-9.50009-7</a>, [pdf](https://math.jhu.edu/~js/Math748/helein.harmonic.pdf)\]
 
 
 
