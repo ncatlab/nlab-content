@@ -24,7 +24,7 @@
 
 A **2-monad** is a [[monad]] on a [[2-category]], or more generally a monad _in_ a [[3-category]].  This concept manifests at varying levels of strictness:
 
-* For a _strict 2-monad_ (which classically is called a simply a "2-monad"), the 2-category $K$ is a [[strict 2-category]], the functor $T:K\to K$ is a [[strict 2-functor]], and the transformations $\mu$ and $\eta$ are [[strict 2-natural transformation]]s and satisfy their laws strictly.  This is the same as a $Cat$-[[enriched category theory|enriched]] monad.  Strict 2-monads live naturally in [[strict 3-category|strict 3-categories]].
+* For a _strict 2-monad_ (which classically is called simply a "2-monad"), the 2-category $K$ is a [[strict 2-category]], the functor $T:K\to K$ is a [[strict 2-functor]], and the transformations $\mu$ and $\eta$ are [[strict 2-natural transformation]]s and satisfy their laws strictly.  This is the same as a $Cat$-[[enriched category theory|enriched]] monad.  Strict 2-monads live naturally in [[strict 3-category|strict 3-categories]].
 
 * For a fully _weak 2-monad_, $K$ is a weak 2-category (such as a [[bicategory]]), $T$ is a weak (aka pseudo) 2-functor, and $\mu$ and $\eta$ are pseudo natural transformations that satisfy their laws up to specified isomorphisms satisfying coherence conditions.  Weak 2-monads live naturally in fully weak 3-categories (or [[tricategory|tricategories]])
 
