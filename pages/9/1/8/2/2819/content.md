@@ -185,12 +185,12 @@ The original article:
 * [[Witold Hurewicz]], _On the concept of fiber space_, Proc. Nat. Acad. Sci. USA __41__ (1955) 956--961; ([doi:10.1073%2Fpnas.41.11.956](https://dx.doi.org/10.1073%2Fpnas.41.11.956), [jstor:89187](https://www.jstor.org/stable/89187), [pdf](http://www.pnas.org/content/41/11/956.full.pdf). MR0073987)
 
 
-A decent review of Hurewicz fibrations, [[Hurewicz connections]] and related issues is in 
+Review of Hurewicz fibrations, [[Hurewicz connections]] and related issues:
 
-* [[James Eells]], Jr., _Fibring spaces of maps_, in Richard Anderson (ed.) _Symposium on infinite-dimensional topology_
+* [[James Eells]], Jr.: *Fibring spaces of maps*, in: Richard Anderson (ed.) *Symposium on infinite-dimensional topology*, Annals of Mathematics Studies **69**, Princeton University Press (1972, 2016) 43-57 &lbrack;[ISBN:9780691080871](https://press.princeton.edu/books/paperback/9780691080871/symposium-on-infinite-dimensional-topology-am-69-volume-69), [[Eells-FibringSpaces.pdf:file]]&rbrack;
+
 
 Textbook accounts:
-
 
 * {#tDKP70} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], Chapter II of: *Homotopietheorie*, Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
 
