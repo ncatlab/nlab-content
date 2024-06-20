@@ -366,7 +366,7 @@ is symmetric in its tangential indices $b_i$. This symmetric [[tensor]] on $\Sig
 **(terminology)**
 Historically, by the "first fundamental form" authors used to refer to the pullback of the [[metric tensor]] along an immersion. While this usage is no longer practiced, the term "second fundamental form" for (eq:TheSecondFundamentalForm) has become standard.
 \end{remark}
-([Lee 2018, pp. 227](Riemannian+geometry#Lee18))
+(cf. [Chavel 1993, Rem. II..1](#Chavel93); [Lee 2018, pp. 227](Riemannian+geometry#Lee18))
 
 
 ## References
