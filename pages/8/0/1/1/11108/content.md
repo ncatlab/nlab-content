@@ -97,7 +97,7 @@ Textbook accounts:
 
 See also:
 
-* Wikipedia, _[Bra-ket notation](http://en.wikipedia.org/wiki/Bra&#8211;ket_notation)_
+* Wikipedia, _[Bra-ket notation](http://en.wikipedia.org/wiki/Bra-ket_notation)_
 
 Discussion in the (broader) context of [[string diagram]]-calculus for [[dagger compact categories]] (cf. *[[quantum information theory via dagger-compact categories]]*):
 
