@@ -345,6 +345,9 @@ On dicretization of path integrals for [[AKSZ sigma-models]]:
   
 * [[Joshua Lackman]], *A Groupoid Construction of Functional Integrals*, [talk at](CQTS#Lackman24) [[CQTS]] (Feb 2024) &lbrack;video:[kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_57ywhlbg?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_57ywhlbg)&rbrack;
 
+* [[Joshua Lackman]], *A Mathematical Definition of Path Integrals on Symplectic Manifolds* &lbrack;[arXiv:2406.14547](https://arxiv.org/abs/2406.14547)&rbrack;
+
+
 ### Stochastic integration theory
 
 The following articles use the integration over [[Wiener measures]] on [[stochastic processes]] for formalizing the path ingegral.
