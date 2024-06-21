@@ -464,7 +464,7 @@ this makes it immediate that
 In words, the computation (eq:ComputingScndFundFormViaCovDerivatives) shows that the covariant derivative on $X$ of and along tangent vectors to $\Sigma$ is that on $\Sigma$ plus the contribution of the second fundamental form, hence their difference extracts the latter. 
 \end{proof}
 \begin{remark}
-**(further alternative perspectives)**
+**(further alternative expressions)**
 \linebreak
 As the proof (eq:ComputingScndFundFormViaCovDerivatives) of Prop. \ref{FromCoframeVersionOfScndFundFormToCoDevVersion} shows, the second fundamental form extracts the normal component of the ambient covariant derivative of and along tangential vectors:
 $$
@@ -501,19 +501,98 @@ $$
   \,.
 $$
 This is how it appears in [Baird & Wood 2003 (3.2.1)](#BairdWood03).
+
+Finally, one may write out the covariant derivatives in a [[coordinate chart]] in terms of the [[Christoffel symbols]] $L_{l}{}^m{}_n$ for the [[Levi-Civita connection]] on $X$, and those $\Gamma_i{}^l{}_j$ of the pullback connection to $\Sigma$:
+
+\[
+  \label{SecondFundamentalFormInCoordinates}
+  \begin{array}{l}
+    {&#8545;}^k_{i j}
+    \\
+    \;=\;
+    \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+    \nabla^X_{\partial_i}
+    \mathrm{d}\phi(
+      \partial_j
+    )
+    \;\;\;\;\;\;\;\;\;\;\;\;
+    -
+    \mathrm{d}\phi\big(
+      \nabla^\Sigma_{\partial_i} \partial_j
+    \big)
+    \\
+    \;=\;
+    \overbrace{
+      \partial_i 
+      \partial_j \phi^l
+      +
+      L_{m}{}^l{}_n 
+      (\partial_i \phi^m) (\partial_j \phi^n)
+    }
+    -
+    \overbrace{
+       \Gamma_{i}{}^k{}_j \partial_k \phi^l
+    }
+    \\
+    \;=\;
+    \partial_i 
+    \partial_j \phi^l
+    -
+    \Gamma_{i}{}^k{}_j \partial_k \phi^l
+    +
+    L_{m}{}^l{}_n 
+    (\partial_i \phi^m) (\partial_j \phi^n)
+    \,.
+  \end{array}
+\]
+In this guise the second fundamental form is originally given in [Eells & Sampson 1964 (p. 118 with p. 111)](#EellsSampson64), reviewed by [Baird & Wood 2003 (3.2.2)](#BairdWood03).
 \end{remark}
+From (eq:SecondFundamentalFormInCoordinates) we have immediately obtain:
+\begin{proposition}
+  The contraction (trace) of the second fundamental form on $\Sigma$ is 
+  $$
+    \begin{array}{l}
+      \eta^{a b} {&#8545;}^k_{a b}
+      \;=\;
+      g^{i j} {&#8545;}^k_{i j}
+      \\
+      \;=\;
+      \underbrace{
+      g^{i j}
+      \big(
+        \partial_i 
+        \partial_j \phi^l
+        -
+        \Gamma_{i}{}^k{}_j \partial_k \phi^l
+      \big)
+      }_{ \Delta \phi^l }
+        +
+      g^{i j}
+      (\partial_i \phi^m) (\partial_j \phi^n)    
+      L_{m}{}^l{}_n 
+      \,,
+    \end{array}
+  $$ 
+  where "$\Delta$" denotes the [[Laplace operator]] on $\Sigma$.
+\end{proposition}
+
+The vanishing of this expression characterizes $\phi$ as a [[harmonic map]].
 
 
 
 
 
 
-## References
+## Literature
+ {#Literature}
 
 * {#Cartan26} [[Élie Cartan]] (translated by Vladislav Goldberg from Cartan's lectures at the Sorbonne in 1926–27): Part E of: *Riemannian Geometry in an Orthogonal Frame*, World Scientific (2001) &lbrack;[doi:10.1142/4808](https://doi.org/10.1142/4808), [pdf](https://softbank.iust.ac.ir/MathBooks/c/Cartan%20-%20Riemannian%20Geometry%20in%20an%20Orthogonal%20Frame.pdf)&rbrack;
 
-
 * {#Sternberg64} [[Shlomo Sternberg]], _Lectures on differential geometry_, Prentice-Hall (1964), AMS (1983) &lbrack;ISBNJ:978-0-8218-1385-0, [ams:chel-316](https://bookstore.ams.org/chel-316), [ark:/13960/t1pg9dv6k](https://archive.org/details/lecturesondiffer0000ster)&rbrack;
+
+* {#EellsSampson64} [[James Eells]], [[Joseph H. Sampson]], *Harmonic Mappings of Riemannian Manifolds*, American Journal of Mathematics **86** 1 (1964) 109-160 &lbrack;[doi:10.2307/2373037](https://doi.org/10.2307/2373037), [jstor:2373037](https://www.jstor.org/stable/2373037)&rbrack;
+
+
 
 * {#Guggenheimer77} [[Heinrich W. Guggenheimer]], *Differential Geometry*, Dover (1977) &lbrack;[isbn:9780486634333](https://store.doverpublications.com/products/9780486634333), [ark:/13960/t9t22sk9n](https://archive.org/details/differentialgeom0000gugg/)&rbrack;
 
