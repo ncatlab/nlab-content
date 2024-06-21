@@ -35,3 +35,5 @@ In the case for the [[natural numbers type]] homotopy canonicity states that eve
 * [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]], *Canonicity and homotopy canonicity for cubical type theory*, Logical Methods in Computer Science, Volume 18, Issue 1 (February 3, 2022) lmcs:9043, ([doi:10.46298/lmcs-18%281%3A28%292022](https://doi.org/10.46298/lmcs-18%281%3A28%292022), [arXiv:1902.06572](https://arxiv.org/abs/1902.06572))
 
 * [[Benno van den Berg]], [[Martijn den Besten]], *Quadratic type checking for objective type theory* ([arXiv:2102.00905](https://arxiv.org/abs/2102.00905))
+
+* [[Christian Sattler]], *Homotopy canonicity of homotopy type theory*. Talk at the International Conference on Homotopy Type Theory 2019. ([slides](https://hott.github.io/HoTT-2019/conf-slides/Sattler.pdf))
