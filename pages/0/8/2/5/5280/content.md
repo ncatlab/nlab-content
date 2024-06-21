@@ -79,8 +79,8 @@ This classic proof is substantially the proof given in Johnstone's [[Elephant]],
 
 $$FinSet^C,$$ 
 
-but this is a non-Boolean topos provided that $C$ is any [[finite category]] that is not a [[groupoid]], e.g., $C = \mathbf{2}$. But that being said, $EM$ is certainly the most natural supposition to make. In fact EM does constructively follow from the Cantor-Schroeder-Bernstein statement provided that a [[natural numbers object]] exists; see [Pradic and Brown, 2019](#PB19).
-A proof that in a topos CSB+NNO implies Booleanness is outlined in [Freyd  1994](#Freyd94).
+but this is a non-Boolean, non-[[Grothendieck topos|Grothendieck]] topos provided that $C$ is any [[finite category]] that is not a [[groupoid]], e.g., $C = \mathbf{2}$. But that being said, $EM$ is certainly the most natural supposition to make. In fact EM does constructively follow from the Cantor-Schroeder-Bernstein statement provided that a [[natural numbers object]] exists (for instance in a Grothendieck topos); see [Pradic and Brown, 2019](#PB19).
+A proof that in a topos CSB+NNO implies Booleanness is outlined in [Freyd  1994](#Freyd94), using the stronger hypothesis that the monomorphisms have retractions.
 
 ### Alternative construction of a fixed point {#alt}
 
