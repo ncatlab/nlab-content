@@ -44,6 +44,11 @@ On the [[Morava K-theory]] of [[iterated loop spaces]] of [[spheres]] and on [[s
 
 * [[Douglas Ravenel]], *What we still don't know about loop spaces of spheres*, in: [[Mark Mahowald]], [[Stewart Priddy]] (eds.), *Homotopy Theory via Algebraic Geometry and Group Representations*, Contemporary Mathematics **220**, AMS 1998  ([pdf](https://people.math.rochester.edu/faculty/doug/mypapers/loop.pdf), [[Ravenel_LoopSpacesOfSpheres.pdf:file]], [doi:10.1090/conm/220](http://dx.doi.org/10.1090/conm/220))
 
+On generalized ([[transchromatic character|transchromatic]]) [[group characters]] via [[complex oriented cohomology theory]]:
+
+* {#HopkinsKuhnRavenel00} [[Michael Hopkins]], [[Nicholas Kuhn]], [[Douglas Ravenel]], *Generalized group characters and complex oriented cohomology theories*, J. Amer. Math. Soc. **13** (2000) 553-594 &lbrack;[doi:10.1090/S0894-0347-00-00332-5](https://doi.org/10.1090/S0894-0347-00-00332-5), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/hkr.pdf)&rbrack;
+
+
 Solving the [[Arf-Kervaire invariant problem]] with methods of [[equivariant stable homotopy theory]]:
 
 * {#HillHopkinsRavenel21} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], *Equivariant Stable Homotopy Theory and the Kervaire Invariant Problem*, New Mathematical Monographs, Cambridge University Press (2021) &lbrack;[doi:10.1017/9781108917278](https://doi.org/10.1017/9781108917278)&rbrack;
