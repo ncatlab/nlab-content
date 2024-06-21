@@ -43,6 +43,18 @@ where
 The analogous formula makes sense for [[pseudo-Riemannian manifolds]] where (eq:EnergyFunctional) is the  standard [[kinetic action]] [[action functional]] -- the _[[Polyakov action]]_ -- for [[relativistic field theory|relativistic]] non-linear [[sigma models]] (such as for the [[relativistic particle]], [[string]] or [[membrane]], etc.)
 \end{remark}
 
+## Properties
+ {#Properties}
+
+In the terminology discussed at *[[Riemannian immersion]] -- [Properties](Riemannian+immersion#Properties)* we have:
+
+\begin{theorem}\label{HarmonicEquation}
+**(harmonic equation)**
+\linebreak
+A [[Riemannian immersion]] $\phi \colon \Sigma \to X$ is a harmonic map if and only if it has vanishing *[tension field](Riemannian+immersion#TensionField)*, hence iff its [second fundamental form](Riemannian+immersion#TensionField) has vanishing trace.
+\end{theorem}
+([Eells & Sampson 1964 pp. 116](#EellsSampson64), [Baird & Wood 2003 Thm. 3.3.3](#BairdWood03))
+
 
 
 ## Related concepts
