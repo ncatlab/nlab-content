@@ -20,9 +20,9 @@
 +-- {: .num_defn}
 ###### Definition
 
-Let $E$ be a [[locally small category]] with all small [[colimits]]. An object $e$ of $E$ is called **tiny**, **small-[[projective object]]** ([Kelly, &#167;5.5](#Kelly)) if the [[hom-functor]] $E(e, -) : E \to Set$ preserves small colimits. It is called **absolutely presentable** if the functor preserves all colimits.
+Let $E$ be a [[locally small category]] with all small [[colimits]]. An object $e$ of $E$ is called **tiny** or  **small-[[projective object|projective]]** ([Kelly 1982, &#167;5.5](#Kelly82)) if the [[hom-functor]] $E(e, -) \colon E \to Set$ [[preserved colimit|preserves]] [[small colimits]]. It is called **absolutely presentable** if the functor preserves all colimits.
 
-More generally, for $V$ a [[cosmos]] and $E$ a $V$-[[enriched category]], $e \in E$ is called tiny if $E(e,-) : E \to V$ preserves all small colimits.
+More generally, for $V$ a [[cosmos]] and $E$ a $V$-[[enriched category]], $e \in E$ is called tiny if $E(e,-) \colon E \to V$ preserves all small colimits.
 =--
 
 +-- {: .num_remark}
@@ -366,21 +366,20 @@ has an extra right adjoint by prop \ref{SliceOverAtomicObject}. The extra left a
 
 ## References
 
-The term _small projective object_ is used in  section 5.5. of 
+The term _small projective object_ is used in: 
 
-* [[Max Kelly]], _Basic Concepts of Enriched Category Theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
-{#Kelly}
+* {#Kelly82} [[Max Kelly]], section 5.5. of: _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
 Tiny objects in presheaf categories ([[Cauchy complete categories|Cauchy completion]]) are discussed in
 
-* [[Francis Borceux]] and D. Dejean, _Cauchy completion in category theory_  Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;goriques, 27:133&#8211;146, (1986) ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_2_133_0))
-  {#BorceuxDejean}
+* {#BorceuxDejean} [[Francis Borceux]] and D. Dejean, _Cauchy completion in category theory_  Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;goriques, 27:133&#8211;146, (1986) &lbrack;[numdam:CTGDC_1986__27_2_133_0](http://www.numdam.org/item?id=CTGDC_1986__27_2_133_0)&rbrack;
+  
 
-* David Yetter, _On right adjoints to exponential functors_ [link](https://www.sciencedirect.com/science/article/pii/0022404987900776)
+* [[David Yetter]]: _On right adjoints to exponential functors_, Journal of Pure and Applied Algebra **45** 3 (1987) 287-304 &lbrack;<a href="https://doi.org/10.1016/0022-4049(87)90077-6">doi:10.1016/0022-4049(87)90077-6</a>&rbrack;
 
 The term "atomic object" or rather "a.t.o.m" is suggested in 
 
-* {#Lawvere97} [[William Lawvere]], _[[Toposes of laws of motion]]_, 1997
+* {#Lawvere97} [[William Lawvere]], _[[Toposes of laws of motion]]_ (1997)
  
 A [[modal type theory]] for tiny objects:
 
