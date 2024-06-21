@@ -27,20 +27,18 @@
 
 [Wikipedia](http://en.wikipedia.org/wiki/Main_Page) enforces its entries to adopt an [NPOV](http://en.wikipedia.org/wiki/NPOV) -- a _neutral point of view_.  This is appropriate for an encyclopedia.
 
-However, [[About|the nLab is not Wikipedia]], nor is it an encyclopedia, although it does aspire to provide a useful reference in many areas (among its other purposes).  In particular, many parts of the $n$Lab *have* a particular point of view, which we may call the **$n$POV**, the _[[higher algebra|higher algebraic]]_, [[homotopy theory|homotopical]], or _[[higher category theory|n-]] [[category theory|categorical]] point of view_.
+However, [[About|the nLab is not Wikipedia]], nor is it an encyclopedia, although it does aspire to provide a useful reference in many areas (among its other purposes).  In particular, many parts of the $n$Lab *have* a particular point of view, which we may call the **$n$-point of view** ($n$POV) or the **[[higher structures]] point of view**, encompassing [[higher algebra|higher algebraic]], [[homotopy theory|homotopical]], or [[higher category theory|n-]] [[category theory|categorical]] point of views.
 
-To some extent the $n$POV is just the observation that [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]] and [[higher category theory]], have a plethora of useful applications.
+To some extent the $n$POV is just the observation that [[homotopy theory]]/[[algebraic topology]], ([[homotopy type theory|homotopy]]) [[type theory]], ([[higher category theory|higher]]) [[category theory]] and ([[higher algebra|higher]]) [[categorical algebra]] have a plethora of useful applications.
 
 
-# $n$POV
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
-Around the [[HomePage|nLab]] it is widely believed that [[higher algebra]], [[homotopy theory]], [[type theory]], [[category theory]] and [[higher category theory]] provide a point of view on [[Mathematics]], [[Physics]] and [[Philosophy]] which is a valuable unifying point of view for the understanding of the concepts involved.
+Around the [[HomePage|nLab]] it is widely believed that [[homotopy theory]]/[[algebraic topology]], ([[homotopy type theory|homotopy]]) [[type theory]], ([[higher category theory|higher]]) [[category theory]] and ([[higher algebra|higher]]) [[categorical algebra]] provide a point of view on [[Mathematics]], [[Physics]] and [[Philosophy]] which is a valuable unifying point of view for the understanding of the concepts involved.
 
-In particular, at the $n$Lab, there is no commitment to being neutral.  There are certainly other valid points of view on mathematics, but describing them and being neutral towards them is not the purpose of the $n$Lab.  Rather, the $n$Lab starts from the premise that higher algebra, homotopy theory, type theory, category theory and higher category theory are a useful point of view, and one of its aims is to expose this point of view generally and in a multitude of examples, and thereby accumulate evidence for it.
+In particular, at the $n$Lab, there is no commitment to being neutral.  There are certainly other valid points of view on mathematics, but describing them and being neutral towards them is not the purpose of the $n$Lab.  Rather, the $n$Lab starts from the premise that homotopy theory/algebraic topology, (homotopy) type theory, (higher) category theory and (higher) categorical algebra are a useful point of view, and one of its aims is to expose this point of view generally and in a multitude of examples, and thereby accumulate evidence for it.
 
 If you feel skeptical about the $n$-point of view, you should still find the $n$Lab useful, as the largest site for detailed category-theoretic information online. You are very much welcome to contribute relevant content even if you are such a skeptic.
 
@@ -85,6 +83,8 @@ For an (incomplete) list of examples of topics for which the $n$POV has proven t
 
 category: meta
 
+
+[[!redirects higher structures point of view]]
 
 [[!redirects n-category point of view]]
 [[!redirects n-categorial point of view]]
