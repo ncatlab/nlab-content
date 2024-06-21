@@ -16,7 +16,7 @@
 
 ## Definition ##
 
-Given a [[commutative monoid]] $(M, \cdot, 1)$, we say that [[element]] $a \in M$ *divides* $b \in M$ ($a \vert b$) if there exists an element $c \in M$ such that $a \cdot c = b$ and $c \cdot a = b$. If the commutative monoid has an [[absorbing element]] $0$, then for all $a \in M$, $a \vert 0$. 
+Given a [[commutative monoid]] $(M, \cdot, 1)$, we say that [[element]] $a \in M$ *divides* $b \in M$ ($a \vert b$) if there exists an element $c \in M$ such that $a \cdot c = b$. If the commutative monoid has an [[absorbing element]] $0$, then for all $a \in M$, $a \vert 0$. 
 
 \begin{definition}
 A [[commutative ring]] $R$ is a **GCD ring** if for every [[element]] $a \in R$ and $b \in R$, there is an element $c \in R$ such that $c \vert a$ and $c \vert b$, and for every other element $d \in R$ such that $d \vert a$ and $d \vert b$, $d \vert c$. 
