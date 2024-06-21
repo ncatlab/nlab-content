@@ -10,7 +10,7 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
-=--
+=-- 
 =--
 
 
@@ -93,21 +93,19 @@ A further advantage of crude monadicity is this: while in general the composite 
 
 ### Duskin's monadicity theorem
 
-Duskin's monadicity theorem gives a different sufficient, but not necessary, condition which refers only to quotients of [[congruences]].  
+Duskin's monadicity theorem gives a different sufficient condition, which is necessary under light conditions on the categories involved and which refers only to quotients of [[congruences]].  
 
 
 \begin{theorem}\label{DuskinMonadicityTheorem}
 **(Duskin monadicity theorem)**
 \linebreak
-A functor $U \colon D \to C$ is [[monadic functor|monadic]] if
+A functor $U \colon D \to C$ between finitely complete categories is [[monadic functor|monadic]] if
 
 1. $U$ has a [[left adjoint]],
 
-1. $D$ and $C$ are [[finitely complete category|finitely 
-complete]],
-
 1. $U$ [[created limit|creates]] [[coequalizers]] for [[congruences]] in $D$ whose [[images]] in $C$ have [[split coequalizers]].
 
+If $C$ admits all coequalizers of [[contractible pairs]] then these conditions are also necessary.
 \end{theorem}
 
 We can weaken the hypothesis a bit further to obtain the theorem:
