@@ -19,17 +19,17 @@
 
 ## Idea
 
-A lattice-ordered abelian group or l-group is an [[ordered abelian group]] whose order forms a [[lattice]]. Here, we assume that lattices do not have top or bottom elements, because otherwise the only such object is the [[trivial group]]. 
+A *lattice-ordered abelian group* or *l-group* is an [[ordered abelian group]] whose [[order]] forms a [[lattice]]. (Here we assume that lattices do not need to have [[top]] or [[bottom]] elements, because otherwise the only such object is the [[trivial group]].)
 
 ## Definition
 
 ### Classical definition
 
-A __lattice-ordered abelian group__ or __abelian l-group__ is an [[ordered group | ordered abelian group]] $(G,\le)$ such that every pair $a,b \in G$ admits a [[meet]] $a \wedge b$ in the underlying poset ([Gilmer 1992](#Gilmer92), p. 158). 
+A __lattice-ordered abelian group__ or __abelian l-group__ is an [[ordered group|ordered abelian group]] $(G,\le)$ such that every [[pair]] of [[elements]] $a,b \in G$ admits a [[meet]] $a \wedge b$ in the [[underlying]] [[poset]] ([Gilmer 1992](#Gilmer92), p. 158). 
 
 ### With the join operation
 
-A __lattice-ordered abelian group__ or __abelian l-group__ is an [[abelian group]] $G$ with a binary [[join]] operation $(-)\vee(-):G \times G \to G$ such that $(G, \vee)$ is a [[commutative magma|commutative]] [[idempotent]] [[semigroup]], and 
+A __lattice-ordered abelian group__ or __abelian l-group__ is an [[abelian group]] $G$ with a binary [[join]] operation $(-)\vee(-)\colon G \times G \to G$ such that $(G, \vee)$ is a [[commutative magma|commutative]] [[idempotent]] [[semigroup]], and 
 
 * for all $a \in G$, $b \in G$, $c \in G$, $a \vee b = b$ implies that $(a + c) \vee (b + c) = b + c$ and $(c + a) \vee (c + b) = c + b$
 
@@ -45,10 +45,11 @@ $$
   ramp(a) \coloneqq a \vee 0, 
 $$
 
-and the absolute value is defined as 
+and the [[absolute value]] is defined as 
 
 $$
   \vert a \vert \coloneqq a \vee -a
+  \,.
 $$
 
 The order relation is defined as in all pseudolattices: $a \leq b$ if $a = a \wedge b$. 
