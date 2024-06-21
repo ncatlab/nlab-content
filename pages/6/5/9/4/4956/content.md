@@ -60,7 +60,7 @@ _Differentiation_ in more conceptual terms is a [[functor]] $d : Diff \to Diff$ 
 
 * a manifold $X$ to its [[tangent bundle]] $T X$; recall that the points of $T X$ are [[ordered pairs]] $(x, v)$ where $x \in X$ and $v$ is a [[tangent vector]] at $x$, i.e., an (augmented) [[derivation]] $v: C^\infty(X) \to \mathbb{R}$ on the [[associative unital algebra|algebra]] of smooth functions, augmented by evaluation $ev_x: C^\infty(X) \to \mathbb{R}$ at $x$;
 
-* a [[smooth function]] $f : X \to Y$ to its differential $d f : T X \to T Y$:
+* a [[smooth function]] $f \colon X \to Y$ to its differential $d f : T X \to T Y$ (cf. *[[pushforward of vector fields]]*):
 
   if $\gamma : [-1,1] \to X$ is a path in $X$ that represents a vector $v \in T_x X$, then $(d f)(v) \in T_{f(x)} Y$ is the vector represented by the path
   $[-1,1] \stackrel{\gamma}{\to} X \stackrel{f}{\to} Y$. 
