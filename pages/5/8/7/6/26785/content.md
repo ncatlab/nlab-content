@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -26,6 +27,11 @@ The *isometric immersion/embedding problem* is to find isometric immersions/embe
 
 
 ## Properties
+ {#Properties}
+
+Key properties of Riemannian immersion --- such as [whether](#HarmonicImmersion) they are [[harmonic map|harmonic]] --- are encoded in a [[tensor]] called their "[second fundamental form](#SecondFundamentalForm)", which is most immediately expressed in terms of a [local Darboux coframe field](#AdaptedDarbouxCoframes) adapted to the immerison.
+
+\linebreak
 
 For the following purpose:
 
@@ -63,12 +69,12 @@ $$
   pr_2^\ast E^b
 $$
 
-(where we use the [[Einstein summation convention]], throughout).
+where we use the [[Einstein summation convention]], throughout.
 
-A [[pair]] of such local co-frames is regarded as equivalent if their induced metric tensors agree on the common refinement of their respective open covers.
+A [[pair]] of such local co-frames is regarded as equivalent if their induced metric tensors agree on the common [refinement](refinement#RefinementOfOpenCovers) of their respective [[open covers]].
 \end{definition}
 
-
+\linebreak
 
 ### Local Darboux (co-)frame field
  {#AdaptedDarbouxCoframes}
@@ -269,6 +275,7 @@ and which is Darboux by the block-diagonal structure of $\big(e^a_\mu\big)$.
 In particular, an immersion $\iota \colon \Sigma \hookrightarrow X$ of Riemannian manifolds is isometric iff around each point $\iota(\sigma)$ any of its Darboux coframe fields pull back to locally induce the given metric on $\Sigma$.
 \end{remark}
 
+\linebreak
 
 ### Second fundamental form
  {#SecondFundamentalForm}
@@ -367,7 +374,8 @@ The second one says that the skew symmetric part ${&#8545;}^a_{[b_1 b_2]} = 0$ v
 
 is symmetric in its tangential indices $b_i$. This symmetric [[tensor]] on $\Sigma$ is called the **second fundamental form** of the immersion $\phi$.
 
-(e.g. [Berger, Bryant & Griffiths 1983, p. 819](#BergerBryantGriffiths83); [Chavel 1993 (II.2.12)](#Chavel93); [Wang 2024, Def. 2.2](#Wang24))
+(e.g. [Willmore 1996, p. 125-126](#Willmore96), [Berger, Bryant & Griffiths 1983, p. 819](#BergerBryantGriffiths83); [Chavel 1993 (II.2.12)](#Chavel93); [Wang 2024, Def. 2.2](#Wang24))
+
 
 \begin{remark}\label{TerminologySecondFundamentalForm}
 **(terminology)**
@@ -378,7 +386,7 @@ Historically, by the "first fundamental form" authors used to refer to the pullb
 
 {#SecondFundamentalFormViaCovDerOfVectorFields} In much of the literature the second fundamental form is alternatively  expressed instead in terms of [[covariant derivatives]] of and along tangential [[vector fields]] (e.g.: [Chavel 1993 §II.2](#Chavel93); [Baird & Wood 2003, §3.2](#BairdWood03); [Lee 2018, pp. 225](Riemannian+geometry#Lee18)), via the following proposition
 
-> (which must be well-known, but for which I do not currently know a reference that would make it explicit):
+> (which is well-known but seems hard to cite explicitly, cf. maybe [Willmore 1996, p. 126](#Willmore96)):
 
 \begin{proposition}
   \label{FromCoframeVersionOfScndFundFormToCoDevVersion}
@@ -463,6 +471,7 @@ this makes it immediate that
 \]
 In words, the computation (eq:ComputingScndFundFormViaCovDerivatives) shows that the covariant derivative on $X$ of and along tangent vectors to $\Sigma$ is that on $\Sigma$ plus the contribution of the second fundamental form, hence their difference extracts the latter. 
 \end{proof}
+
 \begin{remark}
 **(further alternative expressions)**
 \linebreak
@@ -473,7 +482,9 @@ $$
   (\nabla^X_v w)^\perp
   \,.
 $$
-In this form it appears for instance in [Chavel 1993, (II.2.2)](#Chavel93).
+In this form it appears for instance in [Kobayashi & Nomizu 1963 §VII.3](#KobayashiNomizu63), [Chavel 1993 (II.2.2)](#Chavel93), the relation to (eq:SecondFundamentalFormAsDifferenceOfCovariantDerivatives) is made explicit by [Baird & Wood 2003 Def. 3.2.3](#BairdWood03), cf also [Willmore 1996, p. 126](#Willmore96). 
+
+
 
 Alternatively, the [[pushforward of vector fields]] $\mathrm{d}\phi$ may be understood as a [[section]] of the [[tensor product of vector bundles|tensor product]] [[vector bundle]]
 $$
@@ -500,7 +511,7 @@ $$
   \nabla \mathrm{d}\phi
   \,.
 $$
-This is how it appears in [Baird & Wood 2003 (3.2.1)](#BairdWood03).
+This is how it appears in [Eells & Sampson 1964 p. 123](#EellsSampson64), [Baird & Wood 2003 (3.2.1)](#BairdWood03).
 
 Finally, one may write out the covariant derivatives in a [[coordinate chart]] in terms of the [[Christoffel symbols]] $L_{l}{}^m{}_n$ for the [[Levi-Civita connection]] on $X$, and those $\Gamma_i{}^l{}_j$ of the pullback connection to $\Sigma$:
 
@@ -545,27 +556,52 @@ Finally, one may write out the covariant derivatives in a [[coordinate chart]] i
     \,.
   \end{array}
 \]
-In this guise the second fundamental form is originally given in [Eells & Sampson 1964 (p. 118 with p. 111)](#EellsSampson64) following [Eisenhart 1925, §43](#Eisenhart25), reviewed by [Baird & Wood 2003 (3.2.2)](#BairdWood03).
+In this guise the second fundamental form is originally given in [Eells & Sampson 1964 (p. 118 & 123 with p. 111)](#EellsSampson64) following [Eisenhart 1925, §43](#Eisenhart25), reviewed by [Baird & Wood 2003 (3.2.2)](#BairdWood03).
 \end{remark}
-From (eq:SecondFundamentalFormInCoordinates) we have immediately obtain:
-\begin{proposition}
-  The contraction (trace) of the second fundamental form on $\Sigma$ is 
+
+\begin{remark}
+If the fundamental form &#8545; of a Riemannian immersion $\phi \colon, \Sigma \to X$ vanishes, then [[geodesics]] in $\Sigma$ are taken by $\phi$ to geodesics in $X$, hence such $\phi$ is said to be *totally geodesic* &lbrack;[Eells & Sampson 1964 p. 126](#EellsSampson64), [Baird & Wood 2003 Def. 3.2.1](#BairdWood03)&rbrack;.
+\end{remark}
+
+\linebreak
+
+### Tension field
+
+\begin{definition}
+\label{TensionField}
+The *tension field* of the immersion $\phi$ is the contraction (trace) of the [second fundamental form](#SecondFundamentalForm):
+
+$$
+  \tau^k
+  \;\coloneqq\;
+  \eta^{a b} \, {&#8545;}^k_{a b}
+    \;=\;
+  g^{i j} \, {&#8545;}^k_{i j}
+  \,.
+$$
+From (eq:SecondFundamentalFormInCoordinates) we have immediately the coordinate expression
   $$
     \begin{array}{l}
-      \eta^{a b} {&#8545;}^k_{a b}
+      \tai^k
       \;=\;
-      g^{i j} {&#8545;}^k_{i j}
+      \eta^{a b} \, {&#8545;}^k_{a b}
+      \;=\;
+      g^{i j} \, {&#8545;}^k_{i j}
       \\
       \;=\;
-      \underbrace{
-      g^{i j}
-      \big(
-        \partial_i 
-        \partial_j \phi^l
-        -
-        \Gamma_{i}{}^k{}_j \partial_k \phi^l
-      \big)
-      }_{ \Delta \phi^l }
+      \underset
+      {\Delta \phi^l}
+      {
+        \underbrace{
+          g^{i j}
+          \big(
+            \partial_i 
+            \partial_j \phi^l
+            -
+            \Gamma_{i}{}^k{}_j \partial_k \phi^l
+          \big)
+        }
+      }
         +
       g^{i j}
       (\partial_i \phi^m) (\partial_j \phi^n)    
@@ -574,13 +610,23 @@ From (eq:SecondFundamentalFormInCoordinates) we have immediately obtain:
     \end{array}
   $$ 
   where "$\Delta$" denotes the [[Laplace operator]] on $\Sigma$.
-\end{proposition}
+\end{definition}
+([Eells & Sampson 1964 (5)](#EellsSampson64), [Baird & Wood 2003 Def. 3.2.4](#BairdWood03))
 
-The vanishing of this expression characterizes $\phi$ as a [[harmonic map]].
+\linebreak
+
+### Harmonic immersions
+  {#HarmonicImmersion}
+
+\begin{theorem}\label{HarmonicEquation}
+**(harmonic equation)**
+\linebreak
+The vanishing of the tension field $\tau$ (Def. \ref{TensionField}) characterizes Riemannian immersion which are [[harmonic maps]].
+\end{theorem}
+([Eells & Sampson 1964 pp. 116](#EellsSampson64), [Baird & Wood 2003 Thm. 3.3.3](#BairdWood03))
 
 
-
-
+\linebreak
 
 
 ## Literature
@@ -590,6 +636,10 @@ The vanishing of this expression characterizes $\phi$ as a [[harmonic map]].
 * {#Eisenhart25} [[Luther P. Eisenhart]], Chapter IV of: *Riemannian Geometry*, Princeton University Press (1925, 1950) &lbrack;[ISBN:9780691023533](https://press.princeton.edu/books/paperback/9780691023533/riemannian-geometry), [ark:/13960/t47q47r0k](https://archive.org/details/in.ernet.dli.2015.524829), [pdf](http://www.uop.edu.pk/ocontents/Eisenhart-RiemannianGeometry.pdf)&rbrack;
 
 * {#Cartan26} [[Élie Cartan]] (translated by Vladislav Goldberg from Cartan's lectures at the Sorbonne in 1926–27): Part E of: *Riemannian Geometry in an Orthogonal Frame*, World Scientific (2001) &lbrack;[doi:10.1142/4808](https://doi.org/10.1142/4808), [pdf](https://softbank.iust.ac.ir/MathBooks/c/Cartan%20-%20Riemannian%20Geometry%20in%20an%20Orthogonal%20Frame.pdf)&rbrack;
+
+
+* {#KobayashiNomizu63} [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], Chapter VII in: _Foundations of differential geometry_, Volume 1 (1963), Volume 2 (1969) Interscience Publishers, reprint: Wiley Classics Library (1996) &lbrack;[ISBN:978-0-470-55558-3](https://www.wiley.com/en-us/Foundations+of+Differential+Geometry%2C+2+Volume+Set-p-9780470555583), [Wikipedia entry](https://en.wikipedia.org/wiki/Foundations_of_Differential_Geometry)&rbrack; 
+
 
 * {#Sternberg64} [[Shlomo Sternberg]], _Lectures on differential geometry_, Prentice-Hall (1964), AMS (1983) &lbrack;ISBN:978-0-8218-1385-0, [ams:chel-316](https://bookstore.ams.org/chel-316), [ark:/13960/t1pg9dv6k](https://archive.org/details/lecturesondiffer0000ster)&rbrack;
 
@@ -609,6 +659,9 @@ The vanishing of this expression characterizes $\phi$ as a [[harmonic map]].
 * {#Yang92} Kichoon Yang, *Embeddings of $G$-Structures*, chapter VII in: *Exterior Differential Systems and Equivalence Problems*, Mathematics and its Applications **73**, Kluwer (1992), Spinger (1992) &lbrack;[doi:10.1007/978-94-015-8068-7_7](https://doi.org/10.1007/978-94-015-8068-7_7)&rbrack;
 
 * {#Chavel93} [[Isaac Chavel]], *Riemannian Submanifolds*, §II.2 in: *Riemannian geometry -- A modern introduction*, Cambridge University Press (1993) &lbrack;[doi:10.1017/CBO9780511616822](https://doi.org/10.1017/CBO9780511616822)&rbrack;
+
+* {#Willmore96} [[Thomas J. Willmore]], Chapter 4 in: *Riemannian Geometry*, Oxford University Press (1996) &lbrack;[ISBN:9780198514923](https://global.oup.com/academic/product/riemannian-geometry-9780198514923?cc=de&lang=en&), [ark:/13960/t4jn0093w](https://archive.org/details/riemanniangeomet0000will)&rbrack;
+
 
 * {#BairdWood03} [[Paul Baird]], [[John C. Wood]]: *Harmonic Morphisms Between Riemannian Manifolds*, Oxford University Press (2003) &lbrack;[doi:10.1093/acprof:oso/9780198503620.001.0001](https://doi.org/10.1093/acprof:oso/9780198503620.001.0001)&rbrack;
 
@@ -630,6 +683,8 @@ The vanishing of this expression characterizes $\phi$ as a [[harmonic map]].
 * {#Wang24} [[Zuoqin Wang]], *The method of moving frames*, Lecture 11 in: *Riemannian geometry* (2024) &lbrack;[webpage](http://staff.ustc.edu.cn/~wangzuoq/Courses/24S-RiemGeom/), [pdf](http://staff.ustc.edu.cn/~wangzuoq/Courses/24S-RiemGeom/Notes/Lec11.pdf), [[Wang-MovingFrames.pdf:file]]&rbrack;
 
 
+\linebreak
+
 
 [[!redirects Riemannian immersions]]
 
@@ -647,6 +702,9 @@ The vanishing of this expression characterizes $\phi$ as a [[harmonic map]].
 
 [[!redirects second fundamental form]]
 [[!redirects second fundamental forms]]
+
+[[!redirects tension field]]
+[[!redirects tension fields]]
 
 
 
