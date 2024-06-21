@@ -79,7 +79,7 @@ Introduction and review:
 
 Original articles:
 
-* {#HopkinsKuhnRavenel00} [[Michael Hopkins]], [[Nicholas Kuhn]], [[Douglas Ravenel]], _Generalized group characters and complex oriented cohomology theories_, J. Amer. Math. Soc. 13 (2000), 553-594 ([publisher](http://www.ams.org/journals/jams/2000-13-03/S0894-0347-00-00332-5/), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/hkr.pdf))
+* {#HopkinsKuhnRavenel00} [[Michael Hopkins]], [[Nicholas Kuhn]], [[Douglas Ravenel]], *Generalized group characters and complex oriented cohomology theories*, J. Amer. Math. Soc. **13** (2000) 553-594 &lbrack;[doi:10.1090/S0894-0347-00-00332-5](https://doi.org/10.1090/S0894-0347-00-00332-5), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/hkr.pdf)&rbrack;
 
 * {#Stapleton11} [[Nathaniel Stapleton]], _Transchromatic generalized character maps_, Algebr. Geom. Topol. 13 (2013) 171-203 ([arXiv:1110.3346](https://arxiv.org/abs/1110.3346), [euclid:agt/1513715495](https://projecteuclid.org/euclid.agt/1513715495))
 
