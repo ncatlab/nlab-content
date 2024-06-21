@@ -70,7 +70,7 @@ A [[pair]] of such local co-frames is regarded as equivalent if their induced me
 
 
 
-### Adapted Darboux (co-)frames
+### Local Darboux (co-)frame field
  {#AdaptedDarbouxCoframes}
 
 Given a [[Riemannian manifold]] $(X,g)$ of [[dimension of a manifold|dimension]] $D$, then 
@@ -273,6 +273,12 @@ In particular, an immersion $\iota \colon \Sigma \hookrightarrow X$ of Riemannia
 ### Second fundamental form
  {#SecondFundamentalForm}
 
+The "second fundamental form" (on the terminology cf. Rem. \ref{TerminologySecondFundamentalForm} below) of a Riemannian  immersion $\Sigma \xrightarrow{\phantom{-}} X$ measures the transversal change of [[tangent vectors]] to $\Sigma$, under their tangential [[parallel transport|transport]] along $\Sigma$ inside $X$.
+
+We first discuss the second fundamental form in terms of [local Darboux co-frame fields](#AdaptedDarbouxCoframes), where its definition is most immediate, and then extract equivalent expressions in terms of [[covariant derivatives]].
+
+\linebreak
+
 Given $X$ a [[Riemannian manifold]] and $\phi \colon \Sigma \to X$ an [[immersion]], choose a Darboux co-frame field $E \equiv (E^a)_{a =1}^{dim(X)}$ (which exists by Prop. \ref{ExistenceOfDarbouxFrames}), hence so that
 
 $$
@@ -372,7 +378,7 @@ Historically, by the "first fundamental form" authors used to refer to the pullb
 
 {#SecondFundamentalFormViaCovDerOfVectorFields} In much of the literature the second fundamental form is alternatively  expressed instead in terms of [[covariant derivatives]] of and along tangential [[vector fields]] (e.g.: [Chavel 1993 §II.2](#Chavel93); [Baird & Wood 2003, §3.2](#BairdWood03); [Lee 2018, pp. 225](Riemannian+geometry#Lee18)), via the following proposition
 
-> (which must be well-known, but for which I do not currently know any reference that would make it explicit):
+> (which must be well-known, but for which I do not currently know a reference that would make it explicit):
 
 \begin{proposition}
   \label{FromCoframeVersionOfScndFundFormToCoDevVersion}
@@ -389,10 +395,11 @@ when regarded as a [[tensor]], namely as a morphism of [[vector bundles]] from t
 
 \[
   \label{SecondFundamentalFormAsDifferenceOfCovariantDerivatives}
-  {&#8545;}(v,w) \;=\;
-  \nabla^X_{v} \mathrm{d}\phi(w) 
+  {&#8545;}(v,w) 
+    \;=\;
+  \nabla^X_{v} \, \mathrm{d}\phi(w) 
   \;-\;
-  \mathrm{d}\phi\big( \nabla^\Sigma_v w \big) 
+  \mathrm{d}\phi\big( \nabla^\Sigma_v \, w \big) 
   \,.
 \]
 \end{proposition}
@@ -432,7 +439,8 @@ Remembering that for tangential $b_1, b_2$ we set
 
 this makes it immediate that
 
-$$
+\[
+  \label{ComputingScndFundFormViaCovDerivatives}
   \begin{array}{l}
     \nabla^X_{b_1} \mathrm{d}\phi(v_{b_2})
     -
@@ -452,21 +460,20 @@ $$
     \text{II}^a_{b_1 b_2} v_a
     \mathrlap{\,.}
   \end{array}
-$$
-
-In words: The covariant derivative on $X$ of and along tangent vectors to $\Sigma$ is that on $\Sigma$ plus the contribution of the second fundamental form, hence their difference extracts the latter. 
+\]
+In words, the computation (eq:ComputingScndFundFormViaCovDerivatives) shows that the covariant derivative on $X$ of and along tangent vectors to $\Sigma$ is that on $\Sigma$ plus the contribution of the second fundamental form, hence their difference extracts the latter. 
 \end{proof}
 \begin{remark}
 **(further alternative perspectives)**
 \linebreak
-As the proof of Prop. \ref{FromCoframeVersionOfScndFundFormToCoDevVersion} shows, the second fundamental form extracts the normal component of the ambient covariant derivative of and along tangential vectors:
+As the proof (eq:ComputingScndFundFormViaCovDerivatives) of Prop. \ref{FromCoframeVersionOfScndFundFormToCoDevVersion} shows, the second fundamental form extracts the normal component of the ambient covariant derivative of and along tangential vectors:
 $$
   \text{II}(v,w) 
   \;=\;
   (\nabla^X_v w)^\perp
   \,.
 $$
-In this form it is shown for instance by [Chavel 1993, (II.2.2)](#Chavel93).
+In this form it appears for instance in [Chavel 1993, (II.2.2)](#Chavel93).
 
 Alternatively, the [[pushforward of vector fields]] $\mathrm{d}\phi$ may be understood as a [[section]] of the [[tensor product of vector bundles|tensor product]] [[vector bundle]]
 $$
