@@ -114,6 +114,9 @@ An example of a connected atomic topos without a [[point of a topos|point]] is g
 
 * {#Johnstone}[[Peter Johnstone]], _[[Sketches of an Elephant]] vol. 2_ , Oxford UP 2002. (section C3.5, pp.684-695)
 
+* {#Marq24}[[Jérémie Marquès]], _Atomic Toposes with Co-Well-Founded Categories of Atoms_ , arXiv:2406.14346 (2024). ([abstract](https://arxiv.org/abs/2406.14346))
+
+
 [[!redirects Atomic topos]]
 [[!redirects atomic toposes]]
 [[!redirects atomic topoi]]
