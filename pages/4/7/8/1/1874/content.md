@@ -16,7 +16,7 @@
 
 ## Idea
 
-In general, let $U = (U_i)_{i: I}$ and $V = (V_j)_{j: J}$ be two families of [[objects]] of some [[category]] $C$.  We say that $V$ is a __refinement__ of $U$ if there is a [[function]] $f: J \to I$ of indices and a [[morphism]] $V_j \to U_{f(j)}$ for each $j \in J$.
+In general, let $U = (U_i)_{i \colon I}$ and $V = (V_j)_{j \colon J}$ be two [[families]] ([[indexed sets]]) of [[objects]] of some [[category]] $C$.  We say that $V$ is a __refinement__ of $U$ if there is a [[function]] $f \colon J \to I$ of indices and a [[morphism]] $V_j \to U_{f(j)}$ for each $j \in J$.
 
 A common special case is the concept of refinement of [[open covers]], example \ref{RefinementOfOpenCovers} below.
 
@@ -67,7 +67,7 @@ Actually, this definition is slightly weaker than the previous one in the absenc
 +-- {: .num_example #RefinementOfOpenCovers}
 ###### Example
 **(refinement of [[open covers]])
-
+\linebreak
 Special cases of example \ref{RefinementOfSystemsOfSubsets} include refinement of [[filters]] and refinement of [[open covers]] of [[topological spaces]].
 
 
