@@ -11,6 +11,10 @@ Introducing the notion of [[weighted limits]] in [[enriched category theory]]:
 
 * [[Francis Borceux]], [[Gregory Maxwell Kelly]], *A notion of limit for enriched categories*, Bulletin of the Australian Mathematical Society **12** 1 (1975) 49-72 &lbrack;[doi:10.1017/S0004972700023637](https://doi.org/10.1017/S0004972700023637)&rbrack;
 
+On [[monadicity theorems]]:
+
+* [[Francis Borceux]], [[Brian Day]], *A monadicity theorem*, Bulletin of the Australian Mathematical Society **17** 2 (1977)  291-296 &lbrack;[doi:10.1017/S0004972700010480](https://doi.org/10.1017/S0004972700010480)&rbrack;
+
 
 On [[algebra]] [[internalization|internal]] to a [[localic topos]]:
 
