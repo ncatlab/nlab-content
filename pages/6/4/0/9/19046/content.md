@@ -93,6 +93,8 @@ This occurs as lemma 5.1 in Johnstone-Joyal ([1982](#JJ82), p.287).
 
 * An example of the latter is the [[Sierpinski topos]] $\mathcal{S}^2$. Here the exponential $\mathcal{F}^{\mathcal{S}^2}$ classifies the [[theory of model homomorphisms|theory of $\mathbb{T}$-model homorphisms]] (with $\mathbb{T}$ the [[geometric theory]] classified by $\mathcal{F}$) i.e. the theory $\mathbb{T}^2$ such that $Mod_{\mathbb{T}^2}(\mathcal{E})=Mod_\mathbb{T}(\mathcal{E})^2$.
 
+* The [[Malitz-Gregory topos]] is [[locally finitely presentable category|locally finitely presentable]] but has not [[point of a topos|enough points]] (cf. Marquès [2024](#Marq24)) whence it shows that there are  exponentiable toposes failing to have enough points as well.
+
 ##Remarks on duality
 
 It is worthwhile to muse a bit about $\mathcal{S}[\mathbb{O}]^\mathcal{E}$: 
@@ -212,9 +214,11 @@ An exponentiable Grothendieck topos $\mathcal{E}$ is called _tiny_ (or _infinite
 
 * {#J02}[[Peter Johnstone]], _Sketches of an Elephant vols. 1&2_ , CUP 2002. (sections B4.3 pp.432-438, C4.4 pp.745-754)
 
-* {#JJ82}[[Peter Johnstone]], [[André Joyal]], _Continuous categories and exponentiable toposes_ ,  JPAA **25** (1982) pp.255-296.
+* {#JJ82}[[Peter Johnstone]], [[André Joyal]], _Continuous categories and exponentiable toposes_ , JPAA **25** (1982) pp.255-296.
 
 * {#Lurie18}[[Jacob Lurie]], _Spectral Algebraic Geometry_ , ms. Harvard University 2018. (section 21.1.6)
+
+* {#Marq24}[[Jérémie Marquès]], _Atomic Toposes with Co-Well-Founded Categories of Atoms_ , arXiv:2406.14346 (2024). ([abstract](https://arxiv.org/abs/2406.14346))
 
 * [[Susan Niefield]], _Exponentiable Morphisms: posets, spaces, locales and Grothendieck toposes_ , TAC **8** (2001) pp.16-32. ([abstract](http://www.tac.mta.ca/tac/volumes/8/n2/8-02abs.html))
 
