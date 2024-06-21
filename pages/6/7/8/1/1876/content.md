@@ -83,14 +83,20 @@ On [[comonads in computer science]]:
 * {#KRU20} [[Shin-ya Katsumata]], Exequiel Rivas, [[Tarmo Uustalu]], LICS (2020) 604-618 *Interaction laws of monads and comonads* &lbrack;[arXiv:1912.13477](https://arxiv.org/abs/1912.13477), [doi:10.1145/3373718.3394808](https://doi.org/10.1145/3373718.3394808)&rbrack;
 
 ### Game comonads in logic
+ {#GameComonads}
 
-These comonads encode positions in back-and-forth games and bisimulations in various types of fragments of first-order and modal logics. See, for example, the [[Ehrenfeucht-Fraïssé comonad]].
+Comonads encode positions in back-and-forth [[games]] and [[bisimulations]] in various [[fragments]] of [[first order logic|first-order]] and [[modal logics]]. See, for example, the *[[Ehrenfeucht-Fraïssé comonad]]*.
 
 * [[Samson Abramsky]]. _Structure and Power: an emerging landscape._ Fundamenta Informaticae 186(1-4) : 1–26, 2022 ([doi:10.3233/FI-222116](https://doi.org/10.3233/FI-222116), [arXiv:quant-ph/2206.07393](http://arxiv.org/abs/quant-ph/2206.07393))
+
 * {#AbramskyShah} [[Samson Abramsky]] and [[Nihil Shah]], _Relating Structure and Power: Comonadic Semantics for Computational Resources_ ([arXiv:1806.09031](https://arxiv.org/abs/1806.09031))
+
 * [[Samson Abramsky]], Anuj Dawar, and Pengming Wang. _The pebbling comonad in finite model theory._ 32nd Annual ACM/IEEE Symposium on Logic in Computer Science (LICS). IEEE, 2017 ([arXiv:1704.05124](https://arxiv.org/abs/1704.05124))
+
 * [[Samson Abramsky]] and Dan Marsden. _Comonadic semantics for guarded fragments._ 36th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS). IEEE, 2021. ([arXiv:2008.11094](https://arxiv.org/abs/2008.11094))
+
 * Adam Ó Conghaile and Anuj Dawar. _Game Comonads & Generalised Quantifiers._ 29th EACSL Annual Conference on Computer Science Logic. 2021. ([arXiv:2006.16039](https://arxiv.org/abs/2006.16039))
+
 * Yoàv Montacute and Nihil Shah. _The pebble-relation comonad in finite model theory._ Proceedings of the 37th Annual ACM/IEEE Symposium on Logic in Computer Science. 2022. ([arXiv:2110.08196](https://arxiv.org/abs/2110.08196))
 
 
