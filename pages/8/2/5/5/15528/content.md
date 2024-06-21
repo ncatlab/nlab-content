@@ -27,7 +27,13 @@ In constructive mathematics, there are different types of integral domains, yiel
 
 ## Properties
 
-Every [[GCD domain]] of dimension at most 1 is a Bézout domain. 
+Every Bézout domain is a [[GCD domain]]. 
+\begin{proof}
+Let $R$ be a Bézout domain and let $a,b \in R$. There exists $c \in R$ such that $aR+bR=cR$. We see that $c$ divides $a$ and $b$, and that for every $r \in R$, if $r$ divides $a$ and $b$, then $r$ divides $c$. Therefore, $c$ is a gcd of $a$ and $b$.
+\end{proof} 
+
+Every GCD domain of dimension at most 1 is a Bézout domain.
+
 
 ### In classical mathematics
 
