@@ -3,9 +3,17 @@
 
 ## Selected writings
 
-On [[monads]] in [[universal algebra]] and ([[cohomology|co-]])[[homology]]-theory:
+* [[Fred Linton]], _Some aspects of equational categories_, Proceedings of the Conference on Categorical Algebra, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4_3](https://doi.org/10.1007/978-3-642-99902-4_3)&rbrack;
 
-* [[Fred Linton]], §7 in: *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
+
+On [[monads]] in [[universal algebra]] and ([[cohomology|co-]])[[homology]]-theory ([[functorial semantics]]):
+
+* [[Fred Linton]], *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
+
+* [[Fred Linton]], _Applied functorial semantics, I_, Annali di Matematica Pura ed Applicata **86** (1970) 1-13 &lbrack;[doi:10.1007/BF02415703](https://doi.org/10.1007/BF02415703)&rbrack;
+
+* [[Fred Linton]], _Applied functorial semantics, II_, in: *[[Seminar on Triples and Categorical Homology Theory]]: ETH 1966/67*, Lecture Notes in Mathematics **80**, Springer (1969) 53-74 &lbrack;[doi:10.1007/BFb0083081](https://doi.org/10.1007/BFb0083081)&rbrack;
+
 
 in:
 
