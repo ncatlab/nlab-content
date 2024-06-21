@@ -196,10 +196,15 @@ In conclusion, every [[proposition]] [[proof|proven]] in homtopy type theory yie
 
 If one wishes to prove statements that hold only in some class of $\infty$-toposes, then one needs to add further [[axioms]] to HoTT that characterize these classes. For instance adding [[higher modalities]] that define [[cohesive homotopy type theory]] make it a language that proves theorems which hold in all [[cohesive (∞,1)-toposes]].
 
-
-
 ### What is meant by a "computational interpretation of univalence"? 
 
+Some type theorists care about [[canonicity]], which is essentially having [[terms]] of [[types]] be [[judgmentally equal]] to [[canonical forms]]. For example, the canonical form of terms in the natural numbers is either $0$ or $s(n)$ where $n$ is a canonical form of the natural numbers, and the canonical form of terms in identity types is reflexivity. Canonicity is an important computational trait for [[dependent type theories]] to have as it makes implementing the type theory in a [[proof assistant]] easier. 
+
+However, the [[univalence axiom]] in [[Martin-Löf type theory]] causes some terms of [[identity types]] to not be [[judgmentally equal]] to the canonical form of reflexivity, which breaks canonicity. As a result, some type theorists have looked for alternative dependent type theories which have both canonicity and the univalence axiom, such as [[cubical type theory]] and [[higher observational type theory]], the latter of which is still a work in progress as of 2024. 
+
+Alternatively, [[Vladimir Voevodsky]] proposed a variant of canonicity called [[homotopy canonicity]] which replaces the [[judgmental equality]] of terms to canonical forms with [[identifications]] of terms with canonical forms: there is an identification between every term of a type and a canonical form, and there is an effective algorithm to compute such identifications (see [Sattler 2019](https://hott.github.io/HoTT-2019/conf-slides/Sattler.pdf)). In this sense, the [[univalence axiom]] is computationally valid since it satisfies [[homotopy canonicity]]. 
+
+More generally, many axioms which break canonicity still satisfy homotopy canonicity, such as [[function extensionality]], [[UIP]] and [[axiom K]], [[propositional extensionality]], [[descent]], and [[univalence]]. However, [[excluded middle]] and the [[axiom of choice]] still break homotopy canonicity, so any computational interpretation of dependent type theory based on [[homotopy canonicity]] remains [[constructive mathematics|constructive]]. 
 
 ### What are higher inductive types?
 
@@ -207,6 +212,7 @@ If one wishes to prove statements that hold only in some class of $\infty$-topos
 
 ### Is it possible to define higher coinductive types?
 
+Yes, it is currently possible to define higher [[coinductive types]] as homotopy-[[terminal coalgebras for an endofunctor]]. Homotopy-terminal coalgebras for an endofunctor are like the usual notion of terminal coalgebra for an endofunctior, but where equality is expressed via the [[identity type]] instead of [[judgmental equality]] and uniqueness is expressed via [[contractible type|contractibility]] in the definition. However, the resulting higher coinductive types will only have typal [[beta-conversion]] and [[eta-conversion]] rules, since only the typal versions are derivable from the universal property of homotopy-terminal coalgebras for an endofunctor as expressed in dependent type theory. 
 
 ### In what sense does homotopy type theory already contain logic?
 
