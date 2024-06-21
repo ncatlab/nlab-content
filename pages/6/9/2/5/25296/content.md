@@ -1,5 +1,4 @@
 
-
 ### Spin resonance qbits
  {#SpinResonanceQBitsReferences}
 
@@ -28,11 +27,13 @@ See also:
 
 Exposition, review and outlook:
 
-* [[Raymond Laflamme]], [[Emanuel Knill]], et al., *Introduction to NMR Quantum Information Processing*, Proceedings of the International School of Physics "Enrico Fermi" **148** Experimental Quantum Computation and Information $[$[arXiv;quant-ph/0207172](https://arxiv.org/abs/quant-ph/0207172)$]$
+* [[Raymond Laflamme]], [[Emanuel Knill]], et al., *Introduction to NMR Quantum Information Processing*, Proceedings of the International School of Physics "Enrico Fermi" **148** Experimental Quantum Computation and Information \[<a href="https://arxiv.org/abs/quant-ph/0207172">arXiv:quant-ph/0207172</a>\]
 
+* [[Asif Equbal]], *Molecular spin qubits for future quantum technology*, talk at [[CQTS]] (Nov 2022) \[slides: [[Equbal-CQTS-Nov2022.pdf:file]], video: [rec](https://nyu.zoom.us/rec/play/YTjIGL-Bevb1H44UuL-ZimXdxph5cffddWpP3H4ZsuRT2xu3OrnTbC0NZLsKedUGwS68DJ8onVFPAETb.rreoi7Wt6uXFyaYN?continueMode=true&_x_zm_rtaid=e0VPIMlfT9KlVd_wiaOq6A.1669794985784.11f8cd37091ebf6bdd2a878668e26cd6&_x_zm_rhtaid=404)\]
 
-* [[Asif Equbal]], *Molecular spin qubits for future quantum technology*, talk at [[CQTS]] (Nov 2022) $[$slides: [[Equbal-CQTS-Nov2022.pdf:file]], video: [rec](https://nyu.zoom.us/rec/play/YTjIGL-Bevb1H44UuL-ZimXdxph5cffddWpP3H4ZsuRT2xu3OrnTbC0NZLsKedUGwS68DJ8onVFPAETb.rreoi7Wt6uXFyaYN?continueMode=true&_x_zm_rtaid=e0VPIMlfT9KlVd_wiaOq6A.1669794985784.11f8cd37091ebf6bdd2a878668e26cd6&_x_zm_rhtaid=404)$]$
+* [[Jonathan A. Jones]], *Controlling NMR spin systems for quantum computation*, Spectroscopy **140**–**141** (2024) 49-85 \[<a href="https://doi.org/10.1016/j.pnmrs.2024.02.002">doi:10.1016/j.pnmrs.2024.02.002</a>, [arXiv:2402.01308](https://arxiv.org/abs/2402.01308)\]
 
+  > "Nuclear magnetic resonance is arguably both the best available quantum technology for implementing simple quantum computing experiments and the worst technology for building large scale quantum computers that has ever been seriously put forward. After a few years of rapid growth, leading to an implementation of Shor’s quantum factoring algorithm in a seven-spin system, the field started to reach its natural limits and further progress became challenging. \[...\] the user friendliness of NMR implementations means that they remain popular for proof-of-principle demonstrations of simple quantum information protocols."
 
 See also:
 
