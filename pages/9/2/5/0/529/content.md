@@ -274,6 +274,10 @@ Then $k[G]$ is a [[semi-simple algebra]] precisely if the [[order]] of $G$ is no
 
 =--
 
+The following is proven in ([Gilmer 1992](#Gilmer92), p. 163). 
+\begin{theorem}
+Let $G$ be an abelian group and $R$ a commutative ring. Then $R[G]$ is an [[integral domain]] iff $R$ is an integral domain and $G$ is [[torsion-free]].
+\end{theorem}
 
 ### Of central extensions & Twisted group algebras
  {#OfCentralExtensionsAndTwistedGroupAlgebras}
@@ -559,6 +563,9 @@ On the [[supersymmetry|supersymmetric]] [[WZW model]] using group algebra:
 
 * [[Matthias Blau]], [[George Thompson]], *Equivariant Kähler Geometry and Localization in the $G/G$ Model*, Nucl. Phys. B **439** (1995) 367-394 &lbrack;<a href="https://doi.org/10.1016/0550-3213(95)00058-Z">doi:10.1016/0550-3213(95)00058-Z</a>, [arXiv:hep-th/9407042](https://arxiv.org/abs/hep-th/9407042)&rbrack;
 
+Group algebras play a role in the relation between [[ordered abelian groups]] and divisibility in [[integral domains]]:
+
+* {#Gilmer92}[[Robert Gilmer]]: *Multiplicative Ideal Theory*, Queen's Papers in Pure and Applied Mathematics (1992)
 
 [[!redirects group algebras]]
 
