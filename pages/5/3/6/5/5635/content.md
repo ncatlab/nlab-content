@@ -230,12 +230,13 @@ Relation to [[D=3 N=2 super Yang-Mills theory]]:
 * Cyril Closset, Osama Khlaif, *Grothendieck lines in 3d $\mathcal{N}=2$ SQCD and the quantum K-theory of the Grassmannian* &lbrack;[arXiv:2309.06980](https://arxiv.org/abs/2309.06980)&rbrack;
 
 
-For more references see also those listed in 
+More references are listed in:
 
 * W. Gu, [[Leonardo C. Mihalcea]], [[Eric Sharpe]], H. Zou, *Quantum K theory of symplectic Grassmannians* &lbrack;[arXiv:2008.04909](https://arxiv.org/abs/2008.04909)
 
+See also:
 
-
+* Wei Gu, Jirui Guo, Leonardo Mihalcea, Yaoxiong Wen, Xiaohan Yan, *A correspondence between the quantum K theory and quantum cohomology of Grassmannians* &lbrack;[arXiv:2406.13739](https://arxiv.org/abs/2406.13739)&rbrack;
 
 
 
