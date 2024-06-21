@@ -1,5 +1,64 @@
 
 $$
+  {&#8545;} \text{II}
+$$
+
+Given an immersion $\phi \colon \Sigma \xrightarrow{\;} X$,
+
+Let $(v_a)_{a = 1}^{dim X}$ be a local Darboux frame of $X$, so that $(v_a)_{a =1}^{dim \Sigma}$ is a local frame on $\Sigma$, to be called the *tangential* frame vectors (the others being the *transversal* ones).
+
+It follows for any $\sigma \in \Sigma$ inside the given chart that pushforward of vector field in this linear basis is just the canonical injection
+
+\[
+  \label{PushforwardOfDarbouxFrame}
+  \begin{array}{rcc}
+    \mathrm{d}\phi_\sigma 
+      \;\colon\; 
+    T_\sigma \Sigma
+    &\xrightarrow{\phantom{--}}&
+    T_{\phi(\sigma)} X
+    \\
+    v_a(\sigma) &\mapsto& v_a(\sigma)
+    \mathrlap{\,.}
+  \end{array}
+\]
+
+For tangential $b_1, b_2$ we set
+\begin{equation}
+  \label{PullbackOfConnection}
+  \phi^\ast \Omega_{b_1}{}^a{}_{b_2}
+  \;\equiv\;
+  \begin{array}{ll}
+    \omega_{b_1}{}^a{}_{b_2} & \text{tangential}\; a
+    \\   
+    \text{II}^a_{b_1 b_2} & \text{transversal}\; a
+  \end{array}
+\end{equation}
+
+This makes it immediate that
+
+$$
+  \begin{array}{l}
+    \nabla^X_{b_1} \mathrm{d}\phi(v_{b_2})
+    -
+    \mathrm{d}\phi\big( \nabla^\Sigma_{b_1} v_{b_2} \big)
+    \\
+    \;=\;
+    \nabla^X_{b_1} v_{b_2} 
+    -
+    \nabla^\Sigma_{b_1} v_{b_2}
+    \\
+    \;=\;
+    \phi^\ast \Omega_{b_1}{}^{a}{}_{b_2} v_a
+    -
+    \omega_{b_1}{}^a{}_{b_2} v_a
+    \\
+    \;=\;
+    \text{II}^a_{b_1 b_2} v_a
+  \end{array}
+$$
+
+$$
   (\partial_{a_1} e^r_{a_2}) v_{r}
   +
   \Omega_{a_1}{}^{a'_2}{}_{a_2} V_{a'_2}
