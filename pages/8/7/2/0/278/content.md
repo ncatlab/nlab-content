@@ -110,6 +110,8 @@ $\,$
 ## References
  {#References}
 
+> See also references at *[[Riemannian geometry]]*.
+
 
 ### Diff geometry of curves and surfaces
  {#ReferencesDiffGeometryOfCurvesAndSurfaces}
