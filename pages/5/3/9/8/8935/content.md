@@ -41,7 +41,11 @@ $$
 
 If one doesn't have [[type universes]] in the type theory, then axiom K has to be expressed as an [[inference rule]], and thus is called the **K-rule**:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, p:\mathrm{Id}_A(x,x) \vdash P(x, p) \; \mathrm{type}}{\Gamma \vdash K_A:\prod_{x:A} P(x, \mathrm{refl}_A(x)) \to \prod_{h:\mathrm{Id}_A(x,x)} P(x, h)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, p:\mathrm{Id}_A(x,x) \vdash P(x, p) \; \mathrm{type}}{\Gamma \vdash K_{A, P(-, -)}:\prod_{x:A} P(x, \mathrm{refl}_A(x)) \to \prod_{h:\mathrm{Id}_A(x,x)} P(x, h)}$$
+
+The associated judgmental [[computation rule]] for the $K$-rule is
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, p:\mathrm{Id}_A(x,x) \vdash P(x, p) \; \mathrm{type}}{\Gamma, x:A, d:P(x, \mathrm{refl}_A(x)) \vdash K_{A, P(-, -)}(x, d, \mathrm{refl}_A(x)) \equiv d:P(x, \mathrm{refl}_A(x))}$$
 
 ### Using the circle type
 
@@ -64,7 +68,11 @@ This states that the function type $S^1 \to A$ is a [[positive copy]] of $A$, an
 
 If one doesn't have [[type universes]] in the type theory, then axiom K has to be expressed as an [[inference rule]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, p:S^1 \to A \vdash P(p) \; \mathrm{type}}{\Gamma \vdash K_A^{\prime}:\prod_{x:A} P(\lambda i:S^1.x) \to \prod_{p:S^1 \to A} P(p)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, p:S^1 \to A \vdash P(p) \; \mathrm{type}}{\Gamma \vdash K_{A, P(-)}^{\prime}:\prod_{x:A} P(\lambda i:S^1.x) \to \prod_{p:S^1 \to A} P(p)}$$
+
+The associated judgmental [[computation rule]] for the above rule is
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, p:\mathrm{Id}_A(x,x) \vdash P(x, p) \; \mathrm{type}}{\Gamma, x:A, d:P(\lambda i:S^1.x) \vdash K_{A, P(-, -)}(x, d, \lambda i:S^1.x) \equiv d:P(\lambda i:S^1.x)}$$
 
 ## Properties
 
