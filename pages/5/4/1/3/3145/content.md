@@ -41,6 +41,10 @@ On the [[Conner-Floyd isomorphism]] for the [[Atiyah-Bott-Shapiro orientation]] 
 
 * {#HopkinsHovey92} [[Michael Hopkins]], [[Mark Hovey]], _Spin cobordism determines real K-theory_, Mathematische Zeitschrift volume 210, pages 181–196 (1992) ([doi:10.1007/BF02571790](https://doi.org/10.1007/BF02571790), [[HopkinsHoveyCobordismK.pdf:file]])
 
+On generalized ([[transchromatic character|transchromatic]]) [[group characters]] via [[complex oriented cohomology theory]]:
+
+* {#HopkinsKuhnRavenel00} [[Michael Hopkins]], [[Nicholas Kuhn]], [[Douglas Ravenel]], *Generalized group characters and complex oriented cohomology theories*, J. Amer. Math. Soc. **13** (2000) 553-594 &lbrack;[doi:10.1090/S0894-0347-00-00332-5](https://doi.org/10.1090/S0894-0347-00-00332-5), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/hkr.pdf)&rbrack;
+
 
 On [[elliptic genera]], the [[Witten genus]] and the [[string orientation of tmf]]:
 
