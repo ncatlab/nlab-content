@@ -54,7 +54,9 @@ In [[index theory]]:
 
 ## References
 
-Named after:
+> See also the references at *[[differential geometry]]*.
+
+Riemannian geometry is named after:
 
 * [[Bernhard Riemann]], *[[Über die Hypothesen, welche der Geometrie zu Grunde liegen]]*, Göttingen (1845) &lbrack;[doi:10.1007/978-3-642-35121-1](https://doi.org/10.1007/978-3-642-35121-1)&rbrack;
 
@@ -72,7 +74,11 @@ Original discussion via [[Cartan geometry]] of [[coframe fields]]:
 
 Modern monographs:
 
+* {#KobayashiNomizu63} [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], Chapter IV onwards in: _Foundations of differential geometry_, Volume 1 (1963), Volume 2 (1969) Interscience Publishers, reprint: Wiley Classics Library (1996) &lbrack;[ISBN:978-0-470-55558-3](https://www.wiley.com/en-us/Foundations+of+Differential+Geometry%2C+2+Volume+Set-p-9780470555583), [Wikipedia entry](https://en.wikipedia.org/wiki/Foundations_of_Differential_Geometry)&rbrack; 
+
 * [[William M. Boothby]], *An introduction to differentiable manifolds and Riemannian geometry*, Academic Press (1975, 1986), Elsevier (2002) &lbrack;[ISBN:9780121160517](https://shop.elsevier.com/books/an-introduction-to-differentiable-manifolds-and-riemannian-geometry-revised/boothby/978-0-08-057475-2), [pdf](https://aetemad.iut.ac.ir/sites/aetemad.iut.ac.ir/files/files_course/william_m._boothby_an_introduction_to_differentibookfi.org_.pdf)&rbrack;
+
+* [[Thomas J. Willmore]], *Riemannian Geometry*, Oxford University Press (1996) &lbrack;[ISBN:9780198514923](https://global.oup.com/academic/product/riemannian-geometry-9780198514923?cc=de&lang=en&), [ark:/13960/t4jn0093w](https://archive.org/details/riemanniangeomet0000will)&rbrack;
 
 * {#Lee97} [[John M. Lee]], _Riemannian manifolds. An introduction to curvature_, Graduate Texts in Mathematics **176** Springer (1997) &lbrack;ISBN: 0-387-98271-X&rbrack;
 
