@@ -33,6 +33,8 @@ The _Schanuel topos_ is the [[sheaf topos]] $Sh(FinSet^{op}_{mono},J)$ where $Fi
 
 * The Schanuel topos $Sh(FinSet^{op}_{mono},J)$ is [[atomic topos|atomic]] over $Set$ ([[Stephen Schanuel|S. Schanuel]], cf. (Wraith 1978), p.335) hence Boolean. This fact can be viewed as a reflex of the _urelements_ in Fraenkel-Mostowski set theory.
 
+* The Schanuel topos $Sh(FinSet^{op}_{mono},J)$ is [[locally finitely presentable category|locally finitely presentable]] since is category of atoms is [[co-well-founded category|co-well-founded]] (cf. Marquès [2024](#Marq24)).
+
 * $Sh(FinSet^{op}_{mono},J)$ is the [[classifying topos]] $Set[D_\infty]$ for the [[theory of decidable objects#Infinite decidable objects|theory of infinite decidable objects]] $D_\infty$ i.e. for a Grothendieck topos $\mathcal{E}$ geometric morphisms $\mathcal{E}\to Sh(FinSet^{op}_{mono},J)$ correspond to infinite [[decidable objects]] in $\mathcal{E}$. $Sh(FinSet^{op}_{mono},J)$ is equivalent to $Sh_{\neg\neg}([FinSet_mono,Set])$ where $[FinSet_mono,Set]$ classifies [[decidable object|decidable objects]].
 
 * $Sh(FinSet^{op}_{mono},J)$ is the [[category of G-sets|category of continuous actions for the group]] of bijections of $N$ equipped with the topology derived from the product topology for $\prod_{N}N\quad .$
@@ -77,11 +79,15 @@ For some information on the history of the Schanuel topos see section 10 of Menn
 
 * [[Saunders Mac Lane|S. Mac Lane]], [[Ieke Moerdijk|I. Moerdijk]], _Sheaves in Geometry and Logic_, Springer Heidelberg 1994. (pp.155, 158)
 
+* {#Marq24}[[Jérémie Marquès]], _Atomic Toposes with Co-Well-Founded Categories of Atoms_ , arXiv:2406.14346 (2024). ([abstract](https://arxiv.org/abs/2406.14346))
+
 * {#Menni03}[[Matías Menni]], _About N-quantifiers_ , Appl. Cat. Struc. **11** (2003) pp.421-445. ([preprint](https://sites.google.com/site/matiasmenni/newQuantifiers.pdf?attredirects=0))
 
 * {#Menni09}[[Matías Menni]], _Algebraic categories whose projectives are explicitly free_ , TAC **22** no.20 (2009) pp.509-541. ([abstract](http://www.tac.mta.ca/tac/volumes/22/20/22-20abs.html))
 
 * John Myhill, _Recursive equivalence types and combinatorial functions_ , Bull. Amer. Math. Soc. **64** (1958) pp.373-376.
+
+* [[Andrew Pitts|Andrew M. Pitts]], _Nominal Sets - Names and Symmetry in Computer Science_ , Cambridge UP 2013. (Section 6.3)
 
 * [[Alex Simpson]], _Equivalence and Conditional Independence in Atomic Sheaf Logic_, arXiv:2405.11073 (2024). ([abstract](https://arxiv.org/abs/2405.11073))
 
