@@ -60,13 +60,17 @@ Named after:
 
   Engl. transl: [[William Clifford]]: *[[On the hypotheses which underlie geometry]]*, Nature **VIII** (1873) 183-184 &lbrack;[doi:10.1007/978-3-319-26042-6](https://doi.org/10.1007/978-3-319-26042-6)&rbrack;
 
+Early monograph:
+
+* [[Luther P. Eisenhart]], *Riemannian Geometry*, Princeton University Press (1925, 1950) &lbrack;[ISBN:9780691023533](https://press.princeton.edu/books/paperback/9780691023533/riemannian-geometry), [ark:/13960/t47q47r0k](https://archive.org/details/in.ernet.dli.2015.524829), [pdf](http://www.uop.edu.pk/ocontents/Eisenhart-RiemannianGeometry.pdf)&rbrack;
+
 Original discussion via [[Cartan geometry]] of [[coframe fields]]:
 
 * [[Élie Cartan]] (translated by Vladislav Goldberg from Cartan's lectures at the Sorbonne in 1926–27): *Riemannian Geometry in an Orthogonal Frame*, World Scientific (2001) &lbrack;[doi:10.1142/4808](https://doi.org/10.1142/4808), [pdf](https://softbank.iust.ac.ir/MathBooks/c/Cartan%20-%20Riemannian%20Geometry%20in%20an%20Orthogonal%20Frame.pdf)&rbrack;
 
 * [[Élie Cartan]] (translated by Robert Hermann from Cartan's lectures in 1951): *Geometry of Riemannian Spaces*, Lie Groups: History, Frontiers and Applications **XIII**, Math Sci Press (1983) &lbrack;[ark:/13960/s28rzmj9xrv](https://archive.org/details/geometryofrieman0013cart)&rbrack;
 
-Monographs:
+Modern monographs:
 
 * [[William M. Boothby]], *An introduction to differentiable manifolds and Riemannian geometry*, Academic Press (1975, 1986), Elsevier (2002) &lbrack;[ISBN:9780121160517](https://shop.elsevier.com/books/an-introduction-to-differentiable-manifolds-and-riemannian-geometry-revised/boothby/978-0-08-057475-2), [pdf](https://aetemad.iut.ac.ir/sites/aetemad.iut.ac.ir/files/files_course/william_m._boothby_an_introduction_to_differentibookfi.org_.pdf)&rbrack;
 
