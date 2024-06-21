@@ -33,9 +33,11 @@ See the article *[[derivations of smooth functions are vector fields]]*.
 
 * [[flow of a vector field]]
 
-* [[differential form]]
+* [[pushforward of vector fields]]
 
 * [[derivations of smooth functions are vector fields]]
+
+* [[differential form]]
 
 * [[frame field]]
 
