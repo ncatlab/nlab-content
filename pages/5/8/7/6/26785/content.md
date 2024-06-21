@@ -556,7 +556,7 @@ Finally, one may write out the covariant derivatives in a [[coordinate chart]] i
     \,.
   \end{array}
 \]
-In this guise the second fundamental form is originally given in [Eells & Sampson 1964 (p. 118 & 123 with p. 111)](#EellsSampson64) following [Eisenhart 1925, §43](#Eisenhart25), reviewed by [Baird & Wood 2003 (3.2.2)](#BairdWood03).
+In this guise the second fundamental form was originally given in [Eells & Sampson 1964 (p. 118 & 123 with p. 111)](#EellsSampson64) following [Eisenhart 1925, §43](#Eisenhart25), reviewed by [Baird & Wood 2003 (3.2.2)](#BairdWood03).
 \end{remark}
 
 \begin{remark}
