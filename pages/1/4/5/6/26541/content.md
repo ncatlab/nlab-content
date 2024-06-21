@@ -29,7 +29,11 @@ On [[predicative mathematics]]:
 
 *  [[Nik Weaver]], [papers on conceptualism](https://web.archive.org/web/20100616093000/https://www.math.wustl.edu/~nweaver/conceptualism.html).
 
+* [[Nik Weaver]], *Predicativity beyond Gamma_0* ([arXiv:math/0509244](https://arxiv.org/abs/math/0509244))
 
+* [[Nik Weaver]], *Predicative well-ordering* ([arXiv:1811.03543](https://arxiv.org/abs/1811.03543))
+
+* [[Nik Weaver]], *Hierarchies of Tarskian truth predicates* ([arXiv:2202.00851](https://arxiv.org/abs/2202.00851))
 
 category: people
 
