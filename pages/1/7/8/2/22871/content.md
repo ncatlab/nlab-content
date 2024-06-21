@@ -40,3 +40,13 @@ Let $\mathcal{R}(\sigma)$ be as above.
 * {#AbramskyShah} [[Samson Abramsky]] and [[Nihil Shah]],
 _Relating Structure and Power: Comonadic Semantics for Computational Resources_ ([arXiv:1806.09031](https://arxiv.org/abs/1806.09031))
 
+Similar game comonads, for other logic fragments:
+
+* [[Samson Abramsky]], Anuj Dawar, and Pengming Wang. _The pebbling comonad in finite model theory._ 32nd Annual ACM/IEEE Symposium on Logic in Computer Science (LICS). IEEE, 2017 ([arXiv:1704.05124](https://arxiv.org/abs/1704.05124))
+* [[Samson Abramsky]] and Dan Marsden. _Comonadic semantics for guarded fragments._ 36th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS). IEEE, 2021. ([arXiv:2008.11094](https://arxiv.org/abs/2008.11094))
+* Adam Ó Conghaile and Anuj Dawar. _Game Comonads & Generalised Quantifiers._ 29th EACSL Annual Conference on Computer Science Logic. 2021. ([arXiv:2006.16039](https://arxiv.org/abs/2006.16039))
+* Yoàv Montacute and Nihil Shah. _The pebble-relation comonad in finite model theory._ Proceedings of the 37th Annual ACM/IEEE Symposium on Logic in Computer Science. 2022. ([arXiv:2110.08196](https://arxiv.org/abs/2110.08196))
+
+A survey on game comonads and their usage:
+
+* [[Samson Abramsky]]. _Structure and Power: an emerging landscape._ Fundamenta Informaticae 186(1-4) : 1–26, 2022 ([doi:10.3233/FI-222116](https://doi.org/10.3233/FI-222116), [arXiv:quant-ph/2206.07393](http://arxiv.org/abs/quant-ph/2206.07393))
