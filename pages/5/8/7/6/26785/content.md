@@ -545,7 +545,7 @@ Finally, one may write out the covariant derivatives in a [[coordinate chart]] i
     \,.
   \end{array}
 \]
-In this guise the second fundamental form is originally given in [Eells & Sampson 1964 (p. 118 with p. 111)](#EellsSampson64), reviewed by [Baird & Wood 2003 (3.2.2)](#BairdWood03).
+In this guise the second fundamental form is originally given in [Eells & Sampson 1964 (p. 118 with p. 111)](#EellsSampson64) following [Eisenhart 1925, §43](#Eisenhart25), reviewed by [Baird & Wood 2003 (3.2.2)](#BairdWood03).
 \end{remark}
 From (eq:SecondFundamentalFormInCoordinates) we have immediately obtain:
 \begin{proposition}
@@ -586,9 +586,12 @@ The vanishing of this expression characterizes $\phi$ as a [[harmonic map]].
 ## Literature
  {#Literature}
 
+
+* {#Eisenhart25} [[Luther P. Eisenhart]], Chapter IV of: *Riemannian Geometry*, Princeton University Press (1925, 1950) &lbrack;[ISBN:9780691023533](https://press.princeton.edu/books/paperback/9780691023533/riemannian-geometry), [ark:/13960/t47q47r0k](https://archive.org/details/in.ernet.dli.2015.524829), [pdf](http://www.uop.edu.pk/ocontents/Eisenhart-RiemannianGeometry.pdf)&rbrack;
+
 * {#Cartan26} [[Élie Cartan]] (translated by Vladislav Goldberg from Cartan's lectures at the Sorbonne in 1926–27): Part E of: *Riemannian Geometry in an Orthogonal Frame*, World Scientific (2001) &lbrack;[doi:10.1142/4808](https://doi.org/10.1142/4808), [pdf](https://softbank.iust.ac.ir/MathBooks/c/Cartan%20-%20Riemannian%20Geometry%20in%20an%20Orthogonal%20Frame.pdf)&rbrack;
 
-* {#Sternberg64} [[Shlomo Sternberg]], _Lectures on differential geometry_, Prentice-Hall (1964), AMS (1983) &lbrack;ISBNJ:978-0-8218-1385-0, [ams:chel-316](https://bookstore.ams.org/chel-316), [ark:/13960/t1pg9dv6k](https://archive.org/details/lecturesondiffer0000ster)&rbrack;
+* {#Sternberg64} [[Shlomo Sternberg]], _Lectures on differential geometry_, Prentice-Hall (1964), AMS (1983) &lbrack;ISBN:978-0-8218-1385-0, [ams:chel-316](https://bookstore.ams.org/chel-316), [ark:/13960/t1pg9dv6k](https://archive.org/details/lecturesondiffer0000ster)&rbrack;
 
 * {#EellsSampson64} [[James Eells]], [[Joseph H. Sampson]], *Harmonic Mappings of Riemannian Manifolds*, American Journal of Mathematics **86** 1 (1964) 109-160 &lbrack;[doi:10.2307/2373037](https://doi.org/10.2307/2373037), [jstor:2373037](https://www.jstor.org/stable/2373037)&rbrack;
 
