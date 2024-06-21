@@ -19,6 +19,10 @@ Proving [[Day's reflection theorem]]:
 
 * {#Day72} [[Brian Day]], *A reflection theorem for closed categories*, Journal of Pure and Applied Algebra **2** 1 (1972) 1-11. &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90021-7">doi:10.1016/0022-4049(72)90021-7</a>&rbrack;
 
+On [[monadicity theorems]]:
+
+* [[Francis Borceux]], [[Brian Day]], *A monadicity theorem*, Bulletin of the Australian Mathematical Society **17** 2 (1977)  291-296 &lbrack;[doi:10.1017/S0004972700010480](https://doi.org/10.1017/S0004972700010480)&rbrack;
+
 
 On [[monoidal 2-categories]], [[braided monoidal 2-categories]], [[sylleptic monoidal 2-categories]] and [[symmetric monoidal 2-categories]] (and [[pseudomonoids]]):
 
