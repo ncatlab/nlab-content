@@ -314,7 +314,8 @@ Now let $\Omega$ be the unique [[torsion of a metric connection|torsion]]-free c
 
 and denote the [[pullback of differential forms|pullback]] of its tangential and transversal components, respectively, by
 
-$$
+\[
+  \label{SecondFundamentalFormViaCoframeFields}
   \begin{array}{cccl}
     \omega^a{}_b 
       &\coloneqq& 
@@ -329,7 +330,7 @@ $$
     \text{for transversal}\;a\;\text{and tangential}\;b_2
     \,.
   \end{array}
-$$
+\]
 
 Then the [[pullback of differential forms|pullback]] of the torsion constraint (eq:TorsionConstraintOnTarget) is equivalent to the following pair of conditions on $\Sigma$:
 
@@ -360,13 +361,144 @@ The second one says that the skew symmetric part ${&#8545;}^a_{[b_1 b_2]} = 0$ v
 
 is symmetric in its tangential indices $b_i$. This symmetric [[tensor]] on $\Sigma$ is called the **second fundamental form** of the immersion $\phi$.
 
-(e.g. [Berger, Bryant & Griffiths 1983, p. 819](#BergerBryantGriffiths83); [Chavel 1993 (II.2.12)](#Chavel93); [Wang 2024, Def. 2.2](#Wang24); for alternative discussion not using local Darboux co-frames see also [Chavel 1993 §II.2](#Chavel93); [Baird & Wood 2003, §3.2](#BairdWood03); [Lee 2018, pp. 225](Riemannian+geometry#Lee18))
+(e.g. [Berger, Bryant & Griffiths 1983, p. 819](#BergerBryantGriffiths83); [Chavel 1993 (II.2.12)](#Chavel93); [Wang 2024, Def. 2.2](#Wang24))
 
 \begin{remark}\label{TerminologySecondFundamentalForm}
 **(terminology)**
 Historically, by the "first fundamental form" authors used to refer to the pullback of the [[metric tensor]] along an immersion. While this usage is no longer practiced, the term "second fundamental form" for (eq:TheSecondFundamentalForm) has become standard.
 \end{remark}
 (cf. [Chavel 1993, Rem. II..1](#Chavel93); [Lee 2018, pp. 227](Riemannian+geometry#Lee18))
+
+
+{#SecondFundamentalFormViaCovDerOfVectorFields} In much of the literature the second fundamental form is alternatively  expressed instead in terms of [[covariant derivatives]] of and along tangential [[vector fields]] (e.g.: [Chavel 1993 §II.2](#Chavel93); [Baird & Wood 2003, §3.2](#BairdWood03); [Lee 2018, pp. 225](Riemannian+geometry#Lee18)), via the following proposition
+
+> (which must be well-known, but for which I do not currently know any reference that would make it explicit):
+
+\begin{proposition}
+  \label{FromCoframeVersionOfScndFundFormToCoDevVersion}
+  The second fundamental form obtained from a local Darboux coframe field as in (eq:SecondFundamentalFormViaCoframeFields),
+when regarded as a [[tensor]], namely as a morphism of [[vector bundles]] from the [[tensor product of vector bundles|tensor product]] of the [[tangent bundle]] of $\Sigma$ to the [[normal bundle]] of $X$ relative to $\phi$
+  $$
+    {&#8545;} \;\colon\;
+    T\Sigma \otimes T \Sigma 
+      \xrightarrow{\;}
+    N_\phi X
+    \,,
+  $$
+  is given by [[covariant derivatives]] of [[vector fields]] as follows:
+
+\[
+  \label{SecondFundamentalFormAsDifferenceOfCovariantDerivatives}
+  {&#8545;}(v,w) \;=\;
+  \nabla^X_{v} \mathrm{d}\phi(w) 
+  \;-\;
+  \mathrm{d}\phi\big( \nabla^\Sigma_v w \big) 
+  \,.
+\]
+\end{proposition}
+\begin{proof}
+  Let $(v_a)_{a = 1}^{dim X}$ be a local Darboux *frame* of $X$, so that $(v_a)_{a =1}^{dim \Sigma}$ is a local frame on $\Sigma$ (called the *tangential* frame vectors, the others being the *transversal* ones).
+
+It follows that pushforward of vector field in this Darboux basis is just the canonical injection
+
+\[
+  \label{PushforwardOfDarbouxFrame}
+  \begin{array}{rcc}
+    \mathrm{d}\phi_\sigma 
+      \;\colon\; 
+    T_\sigma \Sigma
+    &\xrightarrow{\phantom{--}}&
+    T_{\phi(\sigma)} X
+    \\
+    v_a(\sigma) &\mapsto& v_a(\sigma)
+  \end{array}
+\]
+
+(shown for any $\sigma \in \Sigma$ inside the given chart).
+
+Remembering that for tangential $b_1, b_2$ we set
+\begin{equation}
+  \label{PullbackOfConnection}
+  \phi^\ast \Omega_{b_1}{}^a{}_{b_2}
+  \;\equiv\;
+  \left\{
+  \begin{array}{ll}
+    \omega_{b_1}{}^a{}_{b_2} & \text{tangential}\; a
+    \\   
+    {&#8545;}^a_{b_1 b_2} & \text{transversal}\; a
+  \end{array}
+  \right.
+\end{equation}
+
+this makes it immediate that
+
+$$
+  \begin{array}{l}
+    \nabla^X_{b_1} \mathrm{d}\phi(v_{b_2})
+    -
+    \mathrm{d}\phi\big( \nabla^\Sigma_{b_1} v_{b_2} \big)
+    \\
+    \;=\;
+    \nabla^X_{b_1} v_{b_2} 
+    -
+    \nabla^\Sigma_{b_1} v_{b_2}
+    \\
+    \;=\;
+    \phi^\ast \Omega_{b_1}{}^{a}{}_{b_2} v_a
+    -
+    \omega_{b_1}{}^a{}_{b_2} v_a
+    \\
+    \;=\;
+    \text{II}^a_{b_1 b_2} v_a
+    \mathrlap{\,.}
+  \end{array}
+$$
+
+In words: The covariant derivative on $X$ of and along tangent vectors to $\Sigma$ is that on $\Sigma$ plus the contribution of the second fundamental form, hence their difference extracts the latter. 
+\end{proof}
+\begin{remark}
+**(further alternative perspectives)**
+\linebreak
+As the proof of Prop. \ref{FromCoframeVersionOfScndFundFormToCoDevVersion} shows, the second fundamental form extracts the normal component of the ambient covariant derivative of and along tangential vectors:
+$$
+  \text{II}(v,w) 
+  \;=\;
+  (\nabla^X_v w)^\perp
+  \,.
+$$
+In this form it is shown for instance by [Chavel 1993, (II.2.2)](#Chavel93).
+
+Alternatively, the [[pushforward of vector fields]] $\mathrm{d}\phi$ may be understood as a [[section]] of the [[tensor product of vector bundles|tensor product]] [[vector bundle]]
+$$
+  \mathrm{d}\phi
+  \;\in\;
+  \Gamma\big(
+    T\Sigma^\ast \otimes \phi^\ast T X
+  \big)
+  \,,
+$$
+whence the expression (eq:SecondFundamentalFormAsDifferenceOfCovariantDerivatives) may be understood as the induced [[covariant derivative]] on that tensor bundle
+$$ 
+  (\nabla \mathrm{d}\phi)(v,w)
+  \;\coloneqq\;
+  \nabla^X_{v} \mathrm{d}\phi(w) 
+  \;-\;
+  \mathrm{d}\phi\big( \nabla^\Sigma_v w \big) 
+  \,.
+$$
+In this sense the second fundamental form is simply expressed as
+$$
+  {&#8545;}
+  \;=\;
+  \nabla \mathrm{d}\phi
+  \,.
+$$
+This is how it appears in [Baird & Wood 2003 (3.2.1)](#BairdWood03).
+\end{remark}
+
+
+
+
 
 
 ## References
