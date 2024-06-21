@@ -10,6 +10,11 @@ __John Williford Duskin__ (1937-2020) was a [[category theory|category theorist]
 
 ## Selected writings
 
+On the [[Beck monadicity theorem]]:
+
+* [[Jack Duskin]], _Variations on Beck's tripleability criterion_, in: *Reports of the Midwest Category Seminar III*, Lecture Notes in Mathematics **106**, Springer (1969) &lbrack;[doi:10.1007/BFb0059143](https://doi.org/10.1007/BFb0059143)&rbrack;
+
+
 On [[monadic cohomology]]:
 
 *  {#Duskin75} [[John Duskin]], *Simplicial methods and the interpretation of "triple" cohomology"*  Memoirs  of the AMS **163**, Amer. Math. Soc. (1975) &lbrack;[ISBN:978-1-4704-0645-5](https://bookstore.ams.org/memo-3-163)&rbrack;
