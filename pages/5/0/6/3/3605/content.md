@@ -32,10 +32,13 @@ On [[quantum logic]] as the [[linear logic]] [[internal language]] of [[symmetri
 * {#AbramskyBrandenburger11} [[Samson Abramsky]], [[Adam Brandenburger]], _The Sheaf-Theoretic Structure Of Non-Locality and Contextuality_, New Journal of Physics **13** (2011) 113036 &lbrack;[arXiv:1102.0264](https://arxiv.org/abs/1102.0264), [doi:10.1088/1367-2630/13/11/113036](https://doi.org/10.1088/1367-2630/13/11/113036)&rbrack;
 
 
-
 On [[simplicial complexes]] treated in [[homotopy type theory]]:
 
 * Maximilian Doré, [[Samson Abramsky]], _Towards Simplicial Complexes in Homotopy Type Theory_ ([pdf](https://hott-uf.github.io/2020/HoTTUF_2020_paper_11.pdf))
 
+
+On game comonads, e.g. the [[Ehrenfeucht-Fraïssé comonad]],
+
+* [[Samson Abramsky]]. _Structure and Power: an emerging landscape._ Fundamenta Informaticae 186(1-4) : 1–26, 2022 ([doi:10.3233/FI-222116](https://doi.org/10.3233/FI-222116), [arXiv:quant-ph/2206.07393](http://arxiv.org/abs/quant-ph/2206.07393))
 
 category: people
