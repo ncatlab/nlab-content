@@ -204,7 +204,7 @@ However, the [[univalence axiom]] in [[Martin-Löf type theory]] causes some ter
 
 Alternatively, [[Vladimir Voevodsky]] proposed a variant of canonicity called [[homotopy canonicity]] which replaces the [[judgmental equality]] of terms to canonical forms with [[identifications]] of terms with canonical forms: there is an identification between every term of a type and a canonical form, and there is an effective algorithm to compute such identifications (see [Sattler 2019](https://hott.github.io/HoTT-2019/conf-slides/Sattler.pdf)). In this sense, the [[univalence axiom]] is computationally valid since it satisfies [[homotopy canonicity]]. 
 
-More generally, many axioms which break canonicity still satisfy homotopy canonicity, such as [[function extensionality]], [[UIP]] and [[axiom K]], [[propositional extensionality]], [[descent]], and [[univalence]]. However, [[excluded middle]] and the [[axiom of choice]] still break homotopy canonicity, so any computational interpretation of dependent type theory based on [[homotopy canonicity]] remains [[constructive mathematics|constructive]]. 
+More generally, many axioms which break canonicity still satisfy homotopy canonicity, such as [[function extensionality]], [[UIP]] and typal [[axiom K]], [[propositional extensionality]], [[descent]], and [[univalence]]. However, [[excluded middle]] and the [[axiom of choice]] still break homotopy canonicity, so any computational interpretation of dependent type theory based on [[homotopy canonicity]] remains [[constructive mathematics|constructive]]. 
 
 ### What are higher inductive types?
 
