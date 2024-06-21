@@ -92,9 +92,25 @@ The order relation is defined as $a \leq b$ if $ramp(a - b) = 0$.
 
 ## Examples
 
-All [[total order|totally ordered]] abelian groups, such as the [[integers]], the [[rational numbers]], and the [[real numbers]], are lattice-ordered abelian groups. 
+- All [[total order|totally ordered]] abelian groups, such as the [[integers]], the [[rational numbers]], and the [[real numbers]], are lattice-ordered abelian groups. 
 
-An example of a lattice-ordered abelian group that is not totally ordered is the abelian group of [[Gaussian integers]] with $ramp(1) \coloneqq 1$ and $ramp(i) \coloneqq i$. 
+- An example of a lattice-ordered abelian group that is not totally ordered is the abelian group of [[Gaussian integers]] with $ramp(1) \coloneqq 1$ and $ramp(i) \coloneqq i$. 
+
+- Let $R$ be an integral domain, $F(R)$ its field of fraction and $U(R)$ its group of units. The *group of divisibility* of $R$ ([Gilmer 1992](#Gilmer92), p.174), denoted $D(R)$, is defined as 
+$$
+D(R) = \frac{F(R) \backslash \{0\}}{U(R)}
+$$
+The abelian group $D(R)$ becomes an ordered abelian group if we define an order as follows: for every $rU(R),sU(R) \in D(R)$, we say that $rU(R) \le sU(R)$ iff $sr^{-1} \in R$.
+
+\begin{proposition}[ [Gilmer 1992](#Gilmer92), p.174 ]
+Let $R$ be an integral domain. Then $D(R)$ is a lattice-ordered abelian group iff $R$ is a [[GCD domain]].
+\end{proposition}
+
+## Jaffard-Ohm-Kaplansky theorem
+
+\begin{theorem}[ [Gilmer 1992](#Gilmer92), p.215 ]
+Every lattice-ordered abelian group $G$ is order-isomorphic to the group of divisibility of a [[Bézout domain]] i.e. there exists a Bézout domain $R$ and a group isomorphism $f:G \rightarrow D(R)$ such that $g \le h \Leftrightarrow f(g) \le f(h)$. 
+\end{theorem}
 
 ## Related concepts
 
