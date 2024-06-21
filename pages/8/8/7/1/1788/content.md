@@ -1,5 +1,27 @@
 
 $$
+  \begin{array}{l}
+    \nabla^X_{\partial_i}
+    \mathrm{d}\phi(
+      \partial_j
+    )
+    -
+    \mathrm{d}\phi\big(
+      \nabla^\Sigma_{\partial_i} \partial_j
+    \big)
+    \\
+    \;=\;
+    \partial_i 
+    \partial_j \phi^l
+    +
+    L_{m}{}^l{}_n 
+    (\partial_i \phi^m) (\partial_j \phi^n)
+    -
+    \Gamma_{i}{}^k{}_j \partial_k \phi^l
+  \end{array}
+$$
+
+$$
   {&#8545;} \text{II}
 $$
 
