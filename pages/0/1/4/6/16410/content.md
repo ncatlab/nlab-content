@@ -155,6 +155,10 @@ In view of [[alpha']] [[higher curvature corrections]]:
   > "We show that the resulting higher-derivative $\alpha'$-corrections forbid the existence of de Sitter vacua, at least in regimes where string-loop corrections can be neglected."
 
 
+* [[Liam McAllister]], Jakob Moritz, Richard Nally, Andreas Schachner, *Candidate de Sitter Vacua* &lbrack;[arXiv:2406.13751](https://arxiv.org/abs/2406.13751)&rbrack;
+
+  > "Finding vacua that demonstrably survive subleading corrections, and in which the quantization conditions are completely understood, is an important open problem for which this work has prepared the foundations."
+
 
 On  [[de Sitter spacetime]] [[cosmology]] realized in [[brane world models]] in ambient $\sim$[[anti de Sitter spacetime|AdS]]-[[bulk]] [[spacetime]]:
 
