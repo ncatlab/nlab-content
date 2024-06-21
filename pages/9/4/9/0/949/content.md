@@ -169,6 +169,12 @@ Constructive mathematics generally requires great care with anything after the m
    *  [Predicativity in constructive set theory](http://plato.stanford.edu/entries/set-theory-constructive/#PreConSetThe).
    *  [Predicativism](http://plato.stanford.edu/entries/philosophy-mathematics/index.html#Pre)
 
+* [[Nik Weaver]], *Predicativity beyond Gamma_0* ([arXiv:math/0509244](https://arxiv.org/abs/math/0509244))
+
+* [[Nik Weaver]], *Predicative well-ordering* ([arXiv:1811.03543](https://arxiv.org/abs/1811.03543))
+
+* [[Nik Weaver]], *Hierarchies of Tarskian truth predicates* ([arXiv:2202.00851](https://arxiv.org/abs/2202.00851))
+
 Discussion of [[predicative toposes]] is in 
 
 * [[Ieke Moerdijk]], [[Erik Palmgren]], _Type theories, toposes and constructive set theory: predicative aspects of [[algebraic set theory]]_ Ann. Pure Appl. Logic, 114(1-3):155&#8211;201, 2002
