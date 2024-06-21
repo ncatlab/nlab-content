@@ -358,22 +358,21 @@ Textbook accounts:
 
 Further references:
 
-
 * [[FGA explained]], [[SGA 1]]
 
-* [[Fred Linton]], _Some aspects of equational categories_, Proceedings of the Conference on Categorical Algebra. Springer 1966.
+* [[Fred Linton]], _Some aspects of equational categories_, Proceedings of the Conference on Categorical Algebra, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4_3](https://doi.org/10.1007/978-3-642-99902-4_3)&rbrack;
 
-* [[Jack Duskin]], _Variations on Beck's tripleability criterion_, Reports of the Midwest Category Seminar III. Springer Berlin Heidelberg, 1969.
+* [[Jack Duskin]], _Variations on Beck's tripleability criterion_, in: *Reports of the Midwest Category Seminar III*, Lecture Notes in Mathematics **106**, Springer (1969) &lbrack;[doi:10.1007/BFb0059143](https://doi.org/10.1007/BFb0059143)&rbrack;
 
-* [[Fred Linton]], _Applied functorial semantics, 1_, Annali di Matematica Pura ed Applicata 86 (1970): 1-13.
+* [[Fred Linton]], _Applied functorial semantics, I_, Annali di Matematica Pura ed Applicata **86** (1970) 1-13 &lbrack;[doi:10.1007/BF02415703](https://doi.org/10.1007/BF02415703)&rbrack;
 
-* [[Fred Linton]], _Applied functorial semantics, II_, Seminar on Triples and Categorical Homology Theory: ETH 1966/67. Springer Berlin Heidelberg, 1969.
+* [[Fred Linton]], _Applied functorial semantics, II_, in: *[[Seminar on Triples and Categorical Homology Theory]]: ETH 1966/67*, Lecture Notes in Mathematics **80**, Springer (1969) 53-74 &lbrack;[doi:10.1007/BFb0083081](https://doi.org/10.1007/BFb0083081)&rbrack;
 
-* [[Francis Borceux]] and [[Brian Day]], _A monadicity theorem_, Bulletin of the Australian Mathematical Society 17.2 (1977): 291-296.
+* [[Francis Borceux]], [[Brian Day]], *A monadicity theorem*, Bulletin of the Australian Mathematical Society **17** 2 (1977)  291-296 &lbrack;[doi:10.1017/S0004972700010480](https://doi.org/10.1017/S0004972700010480)&rbrack;
 
-* Yasuo Kawahara, _A Relation Theoretic Proof of a Tripleability Theorem Over Exact Categories_, Bulletin of the Kyushu Institute of Technology. Mathematics, natural science 25 (1978): 31-40.
+* Yasuo Kawahara, _A Relation Theoretic Proof of a Tripleability Theorem Over Exact Categories_, Bulletin of the Kyushu Institute of Technology. Mathematics, Natural Science **25** (1978) 31-40 &lbrack;[pdf](https://core.ac.uk/download/pdf/147423834.pdf)&rbrack;
 
-* [[Francis Borceux]] and [[Brian Day]], _Universal algebra in a closed category_, Journal of Pure and Applied Algebra 16.2 (1980): 133-147.
+* [[Francis Borceux]], [[Brian Day]], _Universal algebra in a closed category_, Journal of Pure and Applied Algebra **16** 2 (1980)  133-147 \[<a href="https://doi.org/10.1016/0022-4049(80)90012-2">doi:10.1016/0022-4049(80)90012-2</a>\]
 
 * {#BenabouRoubaud70} [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, Ser. A **270**  (1970) 96-98 &lbrack;[gallica:12148/bpt6k480298g/f100](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), [[BenabouRoubaud-MonadesEtDescente.pdf:file]],   English translation (by [[Peter Heinig]]): [MO:q/279152](https://mathoverflow.net/q/279152)&rbrack;
 
