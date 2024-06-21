@@ -365,8 +365,15 @@ Further references:
 
 * [[Jack Duskin]], _Variations on Beck's tripleability criterion_, Reports of the Midwest Category Seminar III. Springer Berlin Heidelberg, 1969.
 
+* [[Fred Linton]], _Applied functorial semantics, 1_, Annali di Matematica Pura ed Applicata 86 (1970): 1-13.
+
+* [[Fred Linton]], _Applied functorial semantics, II_, Seminar on Triples and Categorical Homology Theory: ETH 1966/67. Springer Berlin Heidelberg, 1969.
+
+* [[Francis Borceux]] and [[Brian Day]], _A monadicity theorem_, Bulletin of the Australian Mathematical Society 17.2 (1977): 291-296.
 
 * Yasuo Kawahara, _A Relation Theoretic Proof of a Tripleability Theorem Over Exact Categories_, Bulletin of the Kyushu Institute of Technology. Mathematics, natural science 25 (1978): 31-40.
+
+* [[Francis Borceux]] and [[Brian Day]], _Universal algebra in a closed category_, Journal of Pure and Applied Algebra 16.2 (1980): 133-147.
 
 * {#BenabouRoubaud70} [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, Ser. A **270**  (1970) 96-98 &lbrack;[gallica:12148/bpt6k480298g/f100](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), [[BenabouRoubaud-MonadesEtDescente.pdf:file]],   English translation (by [[Peter Heinig]]): [MO:q/279152](https://mathoverflow.net/q/279152)&rbrack;
 
