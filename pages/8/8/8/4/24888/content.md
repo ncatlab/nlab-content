@@ -18,7 +18,7 @@
 ## Idea
  {#Idea}
 
-Axioms of [[cohesion]] are certain [[axioms]] added to any [[spatial type theory]] in order to define the [[shape modality]] for [[cohesive homotopy type theory]]. In particular, the *axiom of real cohesion* plays a role in defining [[real-cohesive homotopy type theory]] (the setting for [[classical homotopy theory]] and [[algebraic topology]]), and the *axiom of affine cohesion* plays a role in defining [[A1-cohesive homotopy type theory|$\mathbb{A}^1$-cohesive homotopy type theory]] (the setting for [[A1-homotopy theory|$\mathbb{A}^1$-homotopy theory]]), where the [[affine line]] $\mathbb{A}^1$ plays the role that $\mathbb{R}$ does in real-cohesive homotopy type theory. Affine cohesion could hypothetically also be used in defining a cohesive version of [[Mitchell Riley]]'s [[bunched logic|bunched]] [[linear homotopy type theory]] (the setting for [[stable homotopy theory]]) for the purposes of doing [[motivic homotopy theory]]. 
+Axioms of [[cohesion]] are certain [[axioms]] added to any [[spatial type theory]] in order to define the [[shape modality]] for [[cohesive homotopy type theory]]. In particular, the *axiom of real cohesion* plays a role in defining [[real-cohesive homotopy type theory]] (the setting for [[classical homotopy theory]] and [[algebraic topology]]). 
 
 ## Definition
 
@@ -67,7 +67,6 @@ There are a number of axioms which in general could be called an axiom of cohesi
 | $C_1$ | punctual cohesion/punctual [[locally ∞-connected (∞,1)-topos|local connectedness]] | [[localization of a type|localization]] at a [[pointed type]] $R$ |  |
 | $C_2$ | contractible codiscreteness | [[localization of a type|localization]] at a non-trivial [[bi-pointed type|bi-pointed]] [[h-set]] $R$ |  |
 |  | discrete cohesion | [[localization of a type|localization]] at a [[contractible type]] $R$ |  |
-|  | affine cohesion/algebraic cohesion/$\mathbb{A}^1$-cohesion | [[localization of a type|localization]] at an [[affine line]] $\mathbb{A}^1$ |  |
 |  | [[compact connectedness]] | [[localization of a type|localization]] at a [[type]] $R$ | the [[type of booleans]] $\mathbb{2}$ is discrete |
 |  | [[continuum]] cohesion | [[localization of a type|localization]] at a [[Hausdorff space]] $R$ | $\mathbb{2}$ is discrete. |
 |  | [[metric continuum]] cohesion | [[localization of a type|localization]] at a [[metric space]] $R$ | $\mathbb{2}$ is discrete. |
@@ -123,18 +122,6 @@ There are a number of axioms which in general could be called an axiom of cohesi
 [[!redirects axiom of unit interval cohesion]]
 [[!redirects axioms of unit interval cohesion]]
 
-[[!redirects A1-cohesion]]
-[[!redirects axiom of A1-cohesion]]
-[[!redirects axioms of A1-cohesion]]
-
-[[!redirects affine cohesion]]
-[[!redirects axiom of affine cohesion]]
-[[!redirects axioms of affine cohesion]]
-
-[[!redirects algebraic cohesion]]
-[[!redirects axiom of algebraic cohesion]]
-[[!redirects axioms of algebraic cohesion]]
-
 [[!redirects smooth cohesion]]
 [[!redirects axiom of smooth cohesion]]
 [[!redirects axioms of smooth cohesion]]
@@ -144,7 +131,5 @@ There are a number of axioms which in general could be called an axiom of cohesi
 [[!redirects axiom C2]]
 [[!redirects axiom R-flat]]
 [[!redirects axiom R flat]]
-[[!redirects axiom A1-flat]]
-[[!redirects axiom A1 flat]]
 [[!redirects axiom [0, 1]-flat]]
 [[!redirects axiom [0, 1] flat]]
