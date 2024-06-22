@@ -58,6 +58,8 @@ engl. transl. __21__ (1991), pp. 51--58.
 
 * I.M. Gel'fand, V.S. Retakh, _Quasideterminants I_, Selecta Mathematica, N. S. 3 (1997) no.4, pp. 517--546; [doi](https://doi.org/10.1007/s000290050019)
 
+* [[Israel Gelfand]], Sergei Gelfand, [[Vladimir Retakh]], Robert Lee Wilson, _Quasideterminants_, Advances in Mathematics 193 (2005) 56--141 [doi](https://doi.org/10.1016/j.aim.2004.03.018)
+
 * D.Krob, B.Leclerc, _Minor identities for quasi-determinants and quantum determinants_, Comm. Math. Phys. 169 (1995) 1--23 [doi](https://doi.org/10.1007/BF02101594)
 arXiv:[hep-th/9411194](https://arxiv.org/pdf/hep-th/9411194)
 
