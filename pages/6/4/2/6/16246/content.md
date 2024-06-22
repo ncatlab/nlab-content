@@ -29,11 +29,21 @@ On the [[swampland cobordism conjecture]]:
 
 * [[Markus Dierigl]], [[Jonathan Heckman]], _On the Swampland Cobordism Conjecture and Non-Abelian Duality Groups_, Physical Review D 2021 ([arXiv:2012.00013](https://arxiv.org/abs/2012.00013))
 
+On [[spin chain]]-aspected claimed to appear in [[D=6 N=(2,0) SCFT]] in the [[BMN limit]] of the [[AdS-CFT duality|dual]] [[anti de Sitter spacetime|$AdS_7 \times S^4/\Gamma_{ADE}$]]:
+
+* Florent Baume, [[Jonathan J. Heckman]], Craig Lawrie, *6D SCFTs, 4D SCFTs, Conformal Matter, and Spin Chains*, Nuclear Physics B **967** (2021) 115401 &lbrack;[doi:10.1016/j.nuclphysb.2021.115401](https://doi.org/10.1016/j.nuclphysb.2021.115401), [arXiv:2007.07262](https://arxiv.org/abs/2007.07262)&rbrack;
+
+* [[Jonathan J. Heckman]], *Qubit construction in 6D SCFTs*, Physics Letters B **811** (2020) 135891 &lbrack;[doi:10.1016/j.physletb.2020.135891](https://doi.org/10.1016/j.physletb.2020.135891), [arXiv:2007.08545](https://arxiv.org/abs/2007.08545)&rbrack;
+
 
 
 ## Related entries
 
-* [[SCFT]], [[string theory]], [[F-theory]]. 
+* [[SCFT]]
+
+* [[string theory]]
+
+* [[F-theory]]. 
 
 
 
