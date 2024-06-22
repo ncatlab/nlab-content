@@ -13,7 +13,7 @@ Currently, I am in Tallinn in the [compositionality](https://compose.ioc.ee) gro
 
 Here's a list of the papers I've written: [link](https://arxiv.org/search/math?searchtype=author&query=Loregian%2C+F)
 
-[This](http://tetrapharmakon.github.io) is my personal website. It's way more up to date than the nLab... 
+[This](http://tetrapharmakon.github.io) is my personal website. It's way more up to date than this page here... 
 
 Write me an email any time!
 
@@ -55,6 +55,10 @@ On [[t-structures]] and [[reflective factorization systems]]:
 On the [[adjoint functor theorem]] in the context of [[lax-idempotent 2-monads]]:
 
 * {#ALL23} [[Nathanael Arkor]], [[Ivan Di Liberti]], [[Fosco Loregian]], _Adjoint functor theorems for lax-idempotent pseudomonads_, &lbrack;[arXiv:2306.10389](https://arxiv.org/abs/2306.10389)&rbrack;
+
+A [[formal category theory|formal category theoretic]] account of [[Gabriel-Ulmer dualities]] using [[KZ-doctrines]]:
+
+* {#DL18} [[Ivan Di Liberti]], [[Fosco Loregian]], *Accessibility and Presentability in 2-Categories*, Journal of Pure and Applied Algebra **227** 1 (2023) &lbrack;[arXiv:1804.08710](https://arxiv.org/abs/1804.08710), [doi:10.1016/j.jpaa.2022.107155](https://doi.org/10.1016/j.jpaa.2022.107155)&rbrack;
 
 
 ## Related entries
