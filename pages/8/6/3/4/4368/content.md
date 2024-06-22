@@ -7,8 +7,13 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
@@ -16,6 +21,8 @@
 
 
 ## The idea
+
+### Plain case
 
 **Gabriel--Ulmer duality** says that there is an [[biequivalence|equivalence of]] [[2-categories]]  
 
@@ -28,7 +35,7 @@ $$
 
 where [[Lex]] is the 2-category of:
 
-* small [[finitely complete categories]], 
+* [[small category|small]] [[finitely complete categories]], 
 
 * [[finite limit]]$\:$ [[preserved limit|preserving]] [[functors]], and 
 
@@ -42,22 +49,48 @@ and LFP is the 2-category of
 
 * [[natural transformations]].
 
-The idea is that an object $C \in Lex$ can be thought of as an [[essentially algebraic theory]], which has a category of [[model|models]] $Lex(C,Set)$.  Gabriel--Ulmer duality says that this category of models is locally finitely presentable, all LFP categories arise in this way, and we can recover the theory $C$ from its category of models. There are similar dualities for other classes of theory such as [[regular theories]]. 
+The idea is that an [[object]] $C \in Lex$ can be thought of as an [[essentially algebraic theory]], which has a category of [[model|models]] $Lex(C,Set)$.  
+Gabriel--Ulmer duality says that this category of models is locally finitely presentable, all LFP categories arise in this way, and that we can recover the theory $C$ from its category of models. 
 
-A version of Gabriel-Ulmer duality for [[enriched category theory]] was proved by [[Max Kelly]] (see [Lack & Tendas 2020](#LackTendas20)). Let $\mathcal{V}$ be a symmetric monoidal closed complete and cocomplete category which is locally finitely presentable as a closed category. Then let $\mathcal{V}$-$Lex$ be the 2-category of finitely complete $\mathcal{V}$-categories ($\mathcal{V}$-categories with finite weighted limits), finite limit preserving $\mathcal{V}$-functors, and $\mathcal{V}$-natural transformations, and $\mathcal{V}$-$LFP$ the 2-category of locally finitely presentable $\mathcal{V}$-categories, right adjoint $\mathcal{V}$-functors that preserve filtered colimits, and $\mathcal{V}$-natural transformations. Then there is a biequivalence
+This duality may be exhibited as the 2-[[Chu construction]] $Chu(Cat,Set)$.
+
+There are similar dualities for other classes of theory such as [[regular theories]]. 
+
+### Enriched case
+
+A version of Gabriel-Ulmer duality for [[enriched category theory]] was proved by [[Max Kelly]] (see [Lack & Tendas 2020](#LackTendas20)):
+
+For [[base of enrichment]] $\mathcal{V}$ which is  a [[symmetric monoidal closed category]] which is [[complete and cocomplete category|complete and cocomplete]] and [[locally finitely presentable category|locally finitely presentable]] as a [[closed category]], consider:
+
+1. $\mathcal{V}$-$Lex$ the 2-category of 
+
+   * finitely complete [[enriched category|$\mathcal{V}$-categories]] ($\mathcal{V}$-categories with finite [[weighted limits]]), 
+
+   * [[finite limit]] [[preserved limit|preserving]] [[enriched functor|$\mathcal{V}$-functors]], 
+
+   * [[enriched natural transformation|$\mathcal{V}$-natural transformations]], 
+
+1. $\mathcal{V}$-$LFP$ the 2-category of 
+
+   * [[locally finitely presentable category|locally finitely presentable]] [[enriched category|$\mathcal{V}$-categories]],
+
+   *  [[right adjoint|right]] [[enriched adjoint functor|adjoint $\mathcal{V}$-functors]] that preserve [[filtered colimits]],
+
+   * [[enriched natural transformations|$\mathcal{V}$-natural transformations]]. 
+
+Then there is a [[biequivalence]]
 $$ 
   \begin{matrix}
     \mathcal{V}-Lex^{op} 
       & \longrightarrow&  
     \mathcal{V}-LFP 
     \\
-    C & \mapsto & Lex(C, \mathcal{V}). 
+    C & \mapsto & Lex(C, \mathcal{V})
+    \,.
   \end{matrix}
 $$
 
 For instance, in the [[truth value]]-[[enriched category theory|enriched]] case, the duality is between [[meet semilattices]] and [[algebraic lattices]]. 
-
-Gabriel-Ulmer duality is also exhibited by the 2-[[Chu construction]], $Chu(Cat,Set)$.
 
 ## References
 
@@ -83,7 +116,7 @@ A [[2-category theory|2-category theoretic]] analogue:
 
 A [[formal category theory|formal category theoretic]] account using [[KZ-doctrines]]:
 
-* {#DL18} [[Ivan Di Liberti]], [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_, Journal of Pure and Applied Algebra **227** 1 (2023) &lbrack;[arXiv:1804.08710](https://arxiv.org/abs/1804.08710)&rbrack;
+* {#DL18} [[Ivan Di Liberti]], [[Fosco Loregian]], *Accessibility and Presentability in 2-Categories*, Journal of Pure and Applied Algebra **227** 1 (2023) &lbrack;[arXiv:1804.08710](https://arxiv.org/abs/1804.08710), [doi:10.1016/j.jpaa.2022.107155](https://doi.org/10.1016/j.jpaa.2022.107155)&rbrack;
 
 Discussion the context of [[enriched category theory]]:
 
@@ -106,8 +139,12 @@ For a connection to [[Tannaka duality]] theory see
 For a discussion of an $\infty$-version of Gabriel-Ulmer duality between finitely complete and idempotent complete $(\infty, 1)$-categories and locally finitely presentable $(\infty, 1)$-categories see this [MO discussion](https://mathoverflow.net/q/293031/447).
 
 
-
+[[!redirects Gabriel-Ulmer dualities]]
 
 [[!redirects Gabriel-Ulmer duality]]
 [[!redirects Gabriel–Ulmer duality]]
 [[!redirects Gabriel--Ulmer duality]]
+
+
+
+
