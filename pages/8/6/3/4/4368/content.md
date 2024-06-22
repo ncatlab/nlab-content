@@ -10,13 +10,14 @@
 =--
 =--
 
+#Contents#
 * table of contents
 {: toc}
 
 
 ## The idea
 
-**Gabriel--Ulmer duality** says that there is an [[equivalence of categories|equivalence]] of [[2-categories]] (or in other words, a [[biequivalence]]) 
+**Gabriel--Ulmer duality** says that there is an [[biequivalence|equivalence of]] [[2-categories]]  
 
 $$ 
 \begin{matrix}
@@ -43,49 +44,54 @@ and LFP is the 2-category of
 
 The idea is that an object $C \in Lex$ can be thought of as an [[essentially algebraic theory]], which has a category of [[model|models]] $Lex(C,Set)$.  Gabriel--Ulmer duality says that this category of models is locally finitely presentable, all LFP categories arise in this way, and we can recover the theory $C$ from its category of models. There are similar dualities for other classes of theory such as [[regular theories]]. 
 
-A version of Gabriel--Ulmer duality for [[enriched category theory]] was proved by [[Max Kelly]] (see [LackTendas](#LackTendas)). Let $\mathcal{V}$ be a symmetric monoidal closed complete and cocomplete category which is locally finitely presentable as a closed category. Then let $\mathcal{V}$-$Lex$ be the 2-category of finitely complete $\mathcal{V}$-categories ($\mathcal{V}$-categories with finite weighted limits), finite limit preserving $\mathcal{V}$-functors, and $\mathcal{V}$-natural transformations, and $\mathcal{V}$-$LFP$ the 2-category of locally finitely presentable $\mathcal{V}$-categories, right adjoint $\mathcal{V}$-functors that preserve filtered colimits, and $\mathcal{V}$-natural transformations. Then there is a biequivalence
+A version of Gabriel-Ulmer duality for [[enriched category theory]] was proved by [[Max Kelly]] (see [Lack & Tendas 2020](#LackTendas20)). Let $\mathcal{V}$ be a symmetric monoidal closed complete and cocomplete category which is locally finitely presentable as a closed category. Then let $\mathcal{V}$-$Lex$ be the 2-category of finitely complete $\mathcal{V}$-categories ($\mathcal{V}$-categories with finite weighted limits), finite limit preserving $\mathcal{V}$-functors, and $\mathcal{V}$-natural transformations, and $\mathcal{V}$-$LFP$ the 2-category of locally finitely presentable $\mathcal{V}$-categories, right adjoint $\mathcal{V}$-functors that preserve filtered colimits, and $\mathcal{V}$-natural transformations. Then there is a biequivalence
 $$ 
-\begin{matrix}
-\mathcal{V}-Lex^{op} & \to &  \mathcal{V}-LFP \\
-  C      & \mapsto & Lex(C, \mathcal{V}). 
-\end{matrix}
+  \begin{matrix}
+    \mathcal{V}-Lex^{op} 
+      & \longrightarrow&  
+    \mathcal{V}-LFP 
+    \\
+    C & \mapsto & Lex(C, \mathcal{V}). 
+  \end{matrix}
 $$
 
-For instance, in the [[truth value]]-enriched case, the duality is between [[meet semilattices]] and [[algebraic lattices]]. 
+For instance, in the [[truth value]]-[[enriched category theory|enriched]] case, the duality is between [[meet semilattices]] and [[algebraic lattices]]. 
 
-Gabriel-Ulmer duality is a duality exhibited by the 2-[[Chu construction]], $Chu(Cat,Set)$.
+Gabriel-Ulmer duality is also exhibited by the 2-[[Chu construction]], $Chu(Cat,Set)$.
 
 ## References
 
 The original source is:
 
-* [[Peter Gabriel]], [[Friedrich Ulmer]], _Lokal Praesentierbare Kategorien_, Springer Lecture Notes in Mathematics **221**, Berlin, 1971. 
+* [[Peter Gabriel]], [[Friedrich Ulmer]], _Lokal präsentierbare Kategorien_, Lecture Notes in Mathematics **221**, Springer (1971) &lbrack;[doi:10.1007/BFb0059396](https://doi.org/10.1007/BFb0059396)&rbrack;
 
 A careful discussion and proof of the biequivalence is in
 
-* [[Jiri Adamek]], Hans-Eberhard Porst, _Algebraic Theories of Quasivarieties_ ,  J. Algebra **208** (1998) pp.379-398.
+* [[Jiří Adámek]], [[Hans-Eberhard Porst]], *Algebraic Theories of Quasivarieties*,  J. Algebra **208** (1998) 379-398 &lbrack;[doi:10.1006/jabr.1998.7499](https://doi.org/10.1006/jabr.1998.7499), [pdf](https://user.math.uni-bremen.de/porst/dvis/AlgTheocorr.pdf)&rbrack;
 
-Some other general treatments of Gabriel-Ulmer duality (and generalizations to other [[doctrine|doctrines]]):
+Some other general treatments of Gabriel-Ulmer duality (and generalizations to other [[doctrines]]):
 
-* C. Centazzo, [[E. M. Vitale]], _A duality relative to a limit doctrine_, Theory and Appl. of Categories __10__, No. 20, 2002, 486&#8211;497, [pdf](http://www.tac.mta.ca/tac/volumes/10/20/10-20.pdf)
+* C. Centazzo, [[Enrico M. Vitale]], *A duality relative to a limit doctrine*, Theory and Appl. of Categories __10__ 20 (2002) 486-497 lbrack;[tac:10-20](http://www.tac.mta.ca/tac/volumes/10/20/10-20abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/10/20/10-20.pdf)&rbrack;
 
-* [[Stephen Lack]], [[John Power]], _Gabriel--Ulmer duality and Lawvere Theories enriched over a general base_, [pdf](http://maths.mq.edu.au/~slack/papers/jfp.pdf)
+* [[Stephen Lack]], [[John Power]], _Gabriel-Ulmer duality and Lawvere Theories enriched over a general base_, Journal of Functional Programming **19** 3-4 (2009) 265-286 &lbrack;[doi:10.1017/S0956796809007254]( https://doi.org/10.1017/S0956796809007254), [pdf](http://maths.mq.edu.au/~slack/papers/jfp.pdf)&rbrack;
 
-* [[M. Makkai]], [[A. Pitts]], _Some results on locally finitely presentable categories_, Trans. Amer. Math. Soc. __299__ (1987), 473-496, [MR88a:03162](http://www.ams.org/mathscinet-getitem?mr=869216), [doi](http://dx.doi.org/10.2307/2000508), [pdf](http://www.ams.org/journals/tran/1987-299-02/S0002-9947-1987-0869216-2/S0002-9947-1987-0869216-2.pdf)
+* [[Michael Makkai]], [[Andrew Pitts]], *Some results on locally finitely presentable categories*, Trans. Amer. Math. Soc. **299** (1987) 473-496 &lbrack;[doi:10.2307/2000508](http://dx.doi.org/10.2307/2000508), [pdf](http://www.ams.org/journals/tran/1987-299-02/S0002-9947-1987-0869216-2/S0002-9947-1987-0869216-2.pdf), [MR88a:03162](http://www.ams.org/mathscinet-getitem?mr=869216)&rbrack;
 
-For a 2-dimensional analogue see the slides from a 2010 talk by Makkai: [pdf](http://www.math.mcgill.ca/makkai/scans/2010Washington0001.pdf)
+A [[2-category theory|2-category theoretic]] analogue:
 
-A formal-categorical account using [[KZ-doctrines]] can be found in
+* [[Michael Makkai]], *Gabriel-Ulmer duality*, talk at ASL annual meeting (2010) &lbrack;scan: [pdf](http://www.math.mcgill.ca/makkai/scans/2010Washington0001.pdf), [[Makkai-GabrielUlmerDuality.pdf:file]]&rbrack;
 
-* {#DL18} [[Ivan Di Liberti]], [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_, Journal of Pure and Applied Algebra 227.1 (2023)([arXiv:1804.08710](https://arxiv.org/abs/1804.08710))
+A [[formal category theory|formal category theoretic]] account using [[KZ-doctrines]]:
 
-For a discussion of Gabriel--Ulmer duality and related dualities in the context of [[enriched category theory]] see 
+* {#DL18} [[Ivan Di Liberti]], [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_, Journal of Pure and Applied Algebra **227** 1 (2023) &lbrack;[arXiv:1804.08710](https://arxiv.org/abs/1804.08710)&rbrack;
 
-* {#LackTendas} [[Stephen Lack]], [[Giacomo Tendas]], _Enriched regular theories_, J. Pure Appl. Alg. __226__, n. 6 (2020) 106268, ([arXiv:1907.02301](https://arxiv.org/abs/1907.02301), [doi:10.1016/j.jpaa.2019.106268](https://doi.org/10.1016/j.jpaa.2019.106268))
+Discussion the context of [[enriched category theory]]:
+
+* {#LackTendas20} [[Stephen Lack]], [[Giacomo Tendas]], _Enriched regular theories_, J. Pure Appl. Alg. __226__, n. 6 (2020) 106268, ([arXiv:1907.02301](https://arxiv.org/abs/1907.02301), [doi:10.1016/j.jpaa.2019.106268](https://doi.org/10.1016/j.jpaa.2019.106268))
 
 This discusses (see Theorem 2.1) Kelly's original result for $V$-[[enriched categories]], where $V$ is a closed symmetric monoidal category whose underlying category $V_0$ is locally small, complete and cocomplete, in section 9 (cf. theorem 9.8) of
 
-* [[Max Kelly]], _Structures defined by finite limits in the enriched context_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle cat&#233;goriques, **23** no. 1 (1982), pp. 3-42, [MR648793](http://www.ams.org/mathscinet-getitem?mr=648793),[numdam](http://www.numdam.org/item?id=CTGDC_1982__23_1_3_0)
+* [[Max Kelly]], _Structures defined by finite limits in the enriched context_, [[Cahiers]] de Topologie et G&#233;om&#233;trie Diff&#233;rentielle cat&#233;goriques, **23** 1 (1982) 3-42 &lbrack;[numdam](http://www.numdam.org/item?id=CTGDC_1982__23_1_3_0), [MR648793](http://www.ams.org/mathscinet-getitem?mr=648793)&rbrack;
 
 For an extension of Gabriel--Ulmer duality to a duality between [[Cauchy-complete]] [[clans]] and [[locally finitely presentable categories]] equipped with a well-behaved kind of [[weak factorization system]] see
 
@@ -98,6 +104,10 @@ For a connection to [[Tannaka duality]] theory see
 * [[Brian Day]], _Enriched Tannaka duality_, JPAA __108__ (1996) pp.17-22, [MR97d:18008](http://www.ams.org/mathscinet-getitem?mr=1382240) <a href="http://dx.doi.org/10.1016/0022-4049(95)00039-9">doi</a>
 
 For a discussion of an $\infty$-version of Gabriel-Ulmer duality between finitely complete and idempotent complete $(\infty, 1)$-categories and locally finitely presentable $(\infty, 1)$-categories see this [MO discussion](https://mathoverflow.net/q/293031/447).
+
+Exposition and application to [[topoi]]:
+
+* [[Federica Pasqualone]], *Gabriel-Ulmer Duality for Topoi, An Introduction* &lbrack;[arXiv:2406.04965](https://arxiv.org/abs/2406.04965)&rbrack;
 
 
 
