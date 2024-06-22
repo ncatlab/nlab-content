@@ -24,9 +24,11 @@ The [[Ricci flat]] pp-wave spacetimes are examples of [[universal spacetimes]].
 ### As Penrose limits
  {#AsPenroseLimits}
 
-Every [[spacetime]] looks like a pp-wave near a [[lightlike]] [[geodesic]]. This is called the _Penrose limit_. (see [Blau 11](#Blau11)).
+Every [[spacetime]] looks like a pp-wave near a [[lightlike]] [[geodesic]]. This is due to [Penrose 1976](#Penrose76) and hence came to be called the _Penrose limit_ (review includes [Blau 11](#Blau11)).
 
 Notice that Penrose limits of [[Einstein manifolds]] are [[Ricci flat]] ([Philip 2005, Prop. 3.4.1](#Philip05), [Philip 2006, Prop. 3](#Philip06), review in [Blau 2011](#Blau11), [p. 41](https://ncatlab.org/nlab/files/BlauPlaneWavesAndPenroseLimit.pdf#page=41)).
+
+{#MaximallySupersymmetric11dExample} For example, the Penrose limits of both the [[black brane|black]] [[M2-brane]] solution $AdS_4 \times S^7$ as well as the [[black brane|black]] [[M5-brane]] solution $AdS_7 \times S^4$ of [[D=11 supergravity]] are &lbrack;[BFHP 2002](#BlauFigueroaHullPapadopoulos02), [BMN 2002, §2](#BerensteinMaldacenaNastase02)&rbrack; the (same) pp-wave spacetime originally found by [Kowalski-Glikman 1984](#Kowalski-Glikman84), [Figueroa & Papadopoulos 2001](#FigueroaPapadopoulos01).
 
 
 ### Relation to BMN matrix model
@@ -47,6 +49,10 @@ The _[[BMN matrix model]]_ ([BMN 02, Section 5 and Appendix B](#BerensteinMaldac
 
 ### General
 
+Introducing what came to be known as the *Penrose limit* for producing pp-wave spacetimes:
+
+* {#Penrose76} [[Roger Penrose]], *Any Space-Time has a Plane Wave as a Limit*, in *Differential Geometry and Relativity*, Mathematical Physics and Applied Mathematics **3**, Springer (1976) 271–275 &lbrack;[doi:10.1007/978-94-010-1508-0_23](https://doi.org/10.1007/978-94-010-1508-0_23), [pdf](https://link.springer.com/content/pdf/10.1007/978-94-010-1508-0_23.pdf)&rbrack;
+
 Lecture notes
 
 * {#Blau11} [[Matthias Blau]], _Plane waves and Penrose limits_ (2011) &lbrack;[pdf](http://www.blau.itp.unibe.ch/lecturesPP.pdf), [[BlauPlaneWavesAndPenroseLimit.pdf:file]]&rbrack;
@@ -62,6 +68,23 @@ Detailed mathematical discussion:
 * {#Philip05} [[Simon Philip]], *Plane-wave limits and homogeneous M-theory backgrounds*, PhD thesis, Edinburgh (2005) &lbrack;[pdf](https://www.era.lib.ed.ac.uk/bitstream/handle/1842/15645/Philip2005.Pdf?sequence=1), [[PhilipPlaneWave05.pdf:file]]&rbrack;
 
 * {#Philip06} [[Simon Philip]], *Penrose limits of homogeneous spaces*, Journal of Geometry and Physics **56** 9 (2006) 1516-1533 &lbrack;[doi:10.1016/j.geomphys.2005.08.002](https://doi.org/10.1016/j.geomphys.2005.08.002), [doi:math/0405506](https://arxiv.org/abs/math/0405506)&rbrack;
+
+### Examples
+ {#ReferencesExamples}
+
+The maximally supersymmetric pp-wave solution of [[D=11 supergravity]] is due to:
+
+* {#Kowalski-Glikman84} Jerzy Kowalski-Glikman, *Vacuum states in supersymmetric Kaluza-Klein theory*, Physics Letters B **134** 3–4 (1984) 194-196 &lbrack;<a href="https://doi.org/10.1016/0370-2693(84)90669-5">doi:10.1016/0370-2693(84)90669-5</a>, [InSpire:202143](https://inspirehep.net/literature/202143)&rbrack;
+
+* {#FigueroaPapadopoulos01} [[José Figueroa-O’Farrill]], [[George Papadopoulos]], *Homogeneous fluxes, branes and a maximally supersymmetric solution of M-theory*, JHEP 0108:036 (2001) &lbrack;[arXiv:hep-th/0105308](https://arxiv.org/abs/hep-th/0105308), [doi:10.1088/1126-6708/2001/08/036](https://doi.org/10.1088/1126-6708/2001/08/036)&rbrack;
+
+Its realization as a [[Penrose limit]] of both the [[black brane|black]] [[M2-brane]] solution $AdS_4 \times S^7$ as well as the [[black brane|black]] [[M5-brane]] solution $AdS_7 \times S^4$ is due to 
+
+* {#BlauFigueroaHullPapadopoulos02} [[Matthias Blau]], [[José Figueroa-O’Farrill]], [[Christopher Hull]], [[George Papadopoulos]], *Penrose limits and maximal supersymmetry*, Class. Quant. Grav. **19** (2002) L87-L95 &lbrack;[arXiv:hep-th/0201081](https://arxiv.org/abs/hep-th/0201081), [doi:10.1088/0264-9381/19/10/101](https://doi.org/10.1088/0264-9381/19/10/101)&rbrack;
+
+* [BMN 2002, §2](#BerensteinMaldacenaNastase02)
+
+
 
 ### pp-Wave Super spacetimes
 {#EnhancementToSuperSpacetime} 
