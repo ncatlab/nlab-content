@@ -56,6 +56,13 @@ On [[duality in string theory]] ([[U-duality]]):
 
 * [[Chris Hull]], [[Paul Townsend]], Section 6 of _Unity of Superstring Dualities_, Nucl.Phys.B438:109-137, 1995 ([arXiv:hep-th/9410167](https://arxiv.org/abs/hep-th/9410167))
 
+
+Showing that the maximally supersymmetric [[pp-wave]] solution of [[D=11 supergravity]] is a [[Penrose limit]] of both the [[black brane|black]] [[M2-brane]] solution $AdS_4 \times S^7$ as well as the [[black brane|black]] [[M5-brane]] solution $AdS_7 \times S^4$:
+
+* [[Matthias Blau]], [[José Figueroa-O’Farrill]], [[Christopher Hull]], [[George Papadopoulos]], *Penrose limits and maximal supersymmetry*, Class. Quant. Grav. **19** (2002) L87-L95 &lbrack;[arXiv:hep-th/0201081](https://arxiv.org/abs/hep-th/0201081), [doi:10.1088/0264-9381/19/10/101](https://doi.org/10.1088/0264-9381/19/10/101)&rbrack;
+
+
+
 Introducing the [[generalized Scherk-Schwarz mechanism]]:
 
 * [[Atish Dabholkar]], [[Chris Hull]], _Duality Twists, Orbifolds, and Fluxes_, JHEP 0309:054, 2003 ([arXiv:hep-th/0210209](https://arxiv.org/abs/hep-th/0210209))
