@@ -60,9 +60,11 @@ General discussion:
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], sections II.2.6, II.3.2-3, II.5, and V.4.4 in: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;ch II.2: [[CastellaniDAuriaFre-ChII2.pdf:file]], ch II.3: [[CastellaniDAuriaFre-ChII3.pdf:file]], ch II.5: [[CastellaniDAuriaFre-ChII5.pdf:file]], ch V.4: [[CastellaniDAuriaFre-ChV4.pdf:file]]&rbrack;
 
 
-* [[Renata Kallosh]], J. Rahmfeld, A. Rajaraman, *Near Horizon Superspace*, JHEP 9809:002 (1998) &lbrack;[arXiv:hep-th/9805217](https://arxiv.org/abs/hep-th/9805217)&rbrack;
+* [[Renata Kallosh]], J. Rahmfeld, [[Arvind Rajaraman]], *Near Horizon Superspace*, JHEP 9809:002 (1998) &lbrack;[arXiv:hep-th/9805217](https://arxiv.org/abs/hep-th/9805217), [doi:10.1088/1126-6708/1998/09/002](https://doi.org/10.1088/1126-6708/1998/09/002)&rbrack;
 
-* [[Antoine Van Proeyen]], sections 4.5, 4.7 of _Tools for supersymmetry_ ([arXiv:hep-th/9910030](https://arxiv.org/abs/hep-th/9910030))
+* [[Piet Claus]], [[Renata Kallosh]], *Superisometries of the $adS* \times S$ Superspace*, JHEP 9903:014 (1999) &lbrack;[arXiv:hep-th/9812087](https://arxiv.org/abs/hep-th/9812087), [doi:10.1088/1126-6708/1999/03/014](https://doi.org/10.1088/1126-6708/1999/03/014)&rbrack;
+
+* [[Antoine Van Proeyen]], sections 4.5, 4.7 of: _Tools for supersymmetry_ &lbrack;[arXiv:hep-th/9910030](https://arxiv.org/abs/hep-th/9910030)&rbrack;
 
 * {#KTM22} Sergei Kuzenko, Gabriele Tartaglino-Mazzucchelli, *Supertwistor realisations of AdS superspaces*, The European Physical Journal C **82** 2 (2022) 146 &lbrack;[doi:10.1140/epjc/s10052-022-10072-y](https://doi.org/10.1140/epjc/s10052-022-10072-y), [arXiv:2108.03907](https://arxiv.org/abs/2108.03907)&rbrack;
 
