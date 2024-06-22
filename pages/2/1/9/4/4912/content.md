@@ -5,7 +5,7 @@
 
 On [[The Rising Sea]]-analogy by [[Alexander Grothendieck]]:
 
-* {#MacLarty03} [[Colin McLarty]], _The Rising Sea: Grothendieck on simplicity and generality I_, 2003 ([pdf](http://www.cwru.edu/artsci/phil/RisingSea.pdf))
+* {#MacLarty03} [[Colin McLarty]], _The Rising Sea: Grothendieck on simplicity and generality I_, 2003 ([pdf](https://www.landsburg.com/grothendieck/mclarty1.pdf))
 
 
 On the history of [[topos theory]]:
