@@ -72,15 +72,16 @@ conversely, if $\triangleright$ is any binary operation, then these equations de
 
 ## Related concepts 
 
-* [[rack]] 
+* [[rack]]
+* [[symmetric space]] 
 
 ## References 
 
 These are some general references:
 
-* [[Alissa Crans]], _Lie 2-Algebras_, Chapter 3.1: Shelves, Racks, Spindles and Quandles, Ph.D. thesis, U.C. Riverside, 2004.  ([pdf](https://arxiv.org/abs/math/0409602)).
+* [[Alissa Crans]], _Lie 2-algebras_, Chapter 3.1: Shelves, Racks, Spindles and Quandles, Ph.D. thesis, U.C. Riverside, 2004.  ([pdf](https://arxiv.org/abs/math/0409602)).
 
-* [[Patrick Dehornoy]], _Braids and Self-Distributivity_, Progress in Mathematics 192, Birkh&#228;user Verlag, 2000. 
+* [[Patrick Dehornoy]], _Braids and self-distributivity_, Progress in Mathematics 192, Birkh&#228;user Verlag, 2000. 
 
 These develop the connection between the free shelf on one generator and elementary embeddings in set theory:
 
@@ -97,6 +98,8 @@ These develop the connection between the free shelf on one generator and element
 For a popularized account of this material, see:
 
 * John Baez, [Shelves and the infinite](https://johncarlosbaez.wordpress.com/2016/05/06/shelves-and-the-infinite/).
+
+category: algebra
 
 [[!redirects shelves]]
 [[!redirects left shelf]]
