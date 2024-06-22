@@ -1,6 +1,9 @@
 
+* [personal page](http://www.jjheckman.com)
 
-* [webpage](http://www.jjheckman.com)
+* [InSpire page](https://inspirehep.net/authors/1045268)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=WiMCJycAAAAJ&hl=en)
 
 ## Selected writings
 
