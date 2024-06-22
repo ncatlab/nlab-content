@@ -90,7 +90,6 @@ $$\frac{\Xi \vert \Gamma, x:\flat A \vdash C \; \mathrm{type} \quad \Xi \vert ()
 A [[cohesive homotopy type theory]] is a spatial homotopy type theory which additionally has an [[axiom of cohesion]] and a [[shape modality]]. Examples of this include
 
 * [[real-cohesive homotopy type theory]]
-* [[A1-cohesive homotopy type theory]]
 
 ## See also
 
