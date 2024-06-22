@@ -26,3 +26,12 @@ As [[condensed mathematics]] is conjectured to take place in fractured (infinity
 * [[fractured (infinity,1)-topos]]
 
 * [[modal type theory]], [[homotopy type theory]], [[cohesive homotopy type theory]]
+
+[[!redirects fractured type theory]]
+[[!redirects fractured type theories]]
+
+[[!redirects fractured dependent type theory]]
+[[!redirects fractured dependent type theories]]
+
+[[!redirects fractured homotopy type theory]]
+[[!redirects fractured homotopy type theories]]
