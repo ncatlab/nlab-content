@@ -37,6 +37,11 @@ On [[type II supergravity]]:
 
 * {#BNS04} [[Igor Bandos]], [[Alexei Nurmagambetov]], [[Dmitri Sorokin]], _Various Faces of Type IIA Supergravity_, Nucl. Phys. B676 (2004) 189-228 ([arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153))
 
+Re-deriving the [[BMN matrix model]] via the [[superembedding formalism]]:
+
+* [[Igor A. Bandos]], *Multiple M0-brane equations in eleven dimensional pp-wave superspace and BMN matrix model*, Phys. Rev. D **85** 126005 (2012) &lbrack;[arXiv:1202.5501](https://arxiv.org/abs/1202.5501), [doi:10.1103/PhysRevD.85.126005](https://doi.org/10.1103/PhysRevD.85.126005)&rbrack;
+
+
 On [[double supergeometry]]:
 
 * {#Bandos15} [[Igor Bandos]], _Superstring in doubled superspace_, Physics Letters B Volume 751, 17 December 2015, Pages 408-412 ([arXiv:1507.07779](https://arxiv.org/abs/1507.07779))
