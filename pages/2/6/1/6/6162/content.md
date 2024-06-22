@@ -10,6 +10,11 @@ __Andrew Mawdesley Pitts__ is a professor of theoretical computer science at Cam
 
 * _Tripos theory in retrospect_, [pdf](http://www.cl.cam.ac.uk/~amp12/papers/tritr/tritr.pdf)
 
+On [[Gabriel-Ulmer duality]]:
+
+* [[Michael Makkai]], [[Andrew Pitts]], *Some results on locally finitely presentable categories*, Trans. Amer. Math. Soc. **299** (1987) 473-496 &lbrack;[doi:10.2307/2000508](http://dx.doi.org/10.2307/2000508), [pdf](http://www.ams.org/journals/tran/1987-299-02/S0002-9947-1987-0869216-2/S0002-9947-1987-0869216-2.pdf), [MR88a:03162](http://www.ams.org/mathscinet-getitem?mr=869216)&rbrack;
+
+
 On [[categorical semantics]] and the [[categorical model of dependent types]]:
 
 * [[Andrew M. Pitts]], *Categorical logic*, in *[[Handbook of Logic in Computer Science]]* **5** Oxford Univ. Press (2000) 39-128 &lbrack;[doi:10.1093/oso/9780198537816.003.0002](https://doi.org/10.1093/oso/9780198537816.003.0002), [pdf](https://www.cl.cam.ac.uk/~amp12/papers/catl/catl.pdf), [MR1859470](http://www.ams.org/mathscinet-getitem?mr=1859470)&rbrack;
