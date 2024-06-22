@@ -8,6 +8,7 @@ Ji&#345;&#237; Ad&#225;mek is a pure [[category theory|category theorist]]. One 
 
 * [old website](https://web.archive.org/web/20180819015939/https://www.tu-braunschweig.de/iti/mitarbeiter/adamek/)
 
+
 ## Selected writings
 
 On [[automata]] via tools from [[category theory]]:
@@ -19,6 +20,11 @@ On [[automata]] via tools from [[category theory]]:
 On [[Scott-complete categories]]:
 
 * [[Jiří Adámek]], *A categorical generalization of Scott domains*, Mathematical Structures in Computer Science **7** 5  (1997) 419 - 443 &lbrack;[doi:10.1017/S0960129597002351](https://doi.org/10.1017/S0960129597002351)&rbrack;
+
+On [[Gabriel-Ulmer duality]]:
+
+* [[Jiří Adámek]], [[Hans-Eberhard Porst]], *Algebraic Theories of Quasivarieties*,  J. Algebra **208** (1998) 379-398 &lbrack;[doi:10.1006/jabr.1998.7499](https://doi.org/10.1006/jabr.1998.7499), [pdf](https://user.math.uni-bremen.de/porst/dvis/AlgTheocorr.pdf)&rbrack;
+
 
 On [[category theory]] with emphasis on [[concrete categories]]:
 
