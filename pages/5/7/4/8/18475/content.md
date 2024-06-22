@@ -128,7 +128,7 @@ and its application to condensed matter physics_,  D-ITP Advanced Topics in Theo
 
 * {#Amoretti17} [[Andrea Amoretti]], _Condensed Matter Applications of AdS/CFT: Focusing on strange metals_, 2017 ([spire:1610363](http://inspirehep.net/record/1610363), [[AmorettiStrangeMetals.pdf:file]])
 
-* [[Horatiu Nastase]], *String Theory Methods for Condensed Matter Physics*, Cambridge University Press (2017) &lbrack;[doi:10.1017/9781316847978](https://doi.org/10.1017/9781316847978) &rbrack;
+* [[Horatiu Nastase]], *String Theory Methods for Condensed Matter Physics*, Cambridge University Press (2017) &lbrack;[doi:10.1017/9781316847978](https://doi.org/10.1017/9781316847978), toc: [pdf](https://assets.cambridge.org/97811071/80383/frontmatter/9781107180383_frontmatter.pdf)&rbrack;
 
 * [[Hong Liu]], [[Julian Sonner]], _Quantum many-body physics from a gravitational lens_, Nature Rev. Phys. **2** (2020)  615-633 &lbrack;[arXiv:2004.06159](https://arxiv.org/abs/2004.06159), [doi:10.1038/s42254-020-0225-1](https://doi.org/10.1038/s42254-020-0225-1)&rbrack;
 
