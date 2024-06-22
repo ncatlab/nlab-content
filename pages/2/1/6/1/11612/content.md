@@ -54,7 +54,10 @@ The M-wave may [[brane intersection|intersect]] [[black brane|black]] [[M2-brane
 
 * [[José Figueroa-O'Farrill]], [[Joan Simón]], section 2 of _Supersymmetric Kaluza-Klein reductions of M-waves and MKK-monopoles_, Class. Quant. Grav.19:6147-6174, 2002 ([arXiv:hep-th/0208108](https://arxiv.org/abs/hep-th/0208108))
 
-* {#Philip05} Simon Philip, _Plane-wave limits and homogeneous M-theory backgrounds_, 2005 ([pdf](https://www.era.lib.ed.ac.uk/bitstream/handle/1842/15645/Philip2005.Pdf?sequence=1), [[PhilipPlaneWave05.pdf:file]])
+* {#Philip05} [[Simon Philip]], *Plane-wave limits and homogeneous M-theory backgrounds*, PhD thesis, Edinburgh (2005) &lbrack;[pdf](https://www.era.lib.ed.ac.uk/bitstream/handle/1842/15645/Philip2005.Pdf?sequence=1), [[PhilipPlaneWave05.pdf:file]]&rbrack;
+
+* {#Philip06} [[Simon Philip]], *Penrose limits of homogeneous spaces*, Journal of Geometry and Physics **56** 9 (2006) 1516-1533 &lbrack;[doi:10.1016/j.geomphys.2005.08.002](https://doi.org/10.1016/j.geomphys.2005.08.002), [doi:math/0405506](https://arxiv.org/abs/math/0405506)&rbrack;
+
 
 * {#BPST09} [[David Berman]], Malcolm J. Perry, [[Ergin Sezgin]], Daniel C. Thompson, _Boundary Conditions for Interacting Membranes_, JHEP 1004:025, 2010 ([arXiv:0912.3504](https://arxiv.org/abs/0912.3504))
 
