@@ -84,7 +84,6 @@ These taboos are unprovable in constructive homotopy type theory, but they may b
 These taboos are unprovable in discrete [[cohesive homotopy type theory]] (i.e. the setting for plain homotopy type theory):
 
 * [[axiom of real cohesion]]
-* [[axiom of A1-cohesion]]
 
 ## Related entries
 
