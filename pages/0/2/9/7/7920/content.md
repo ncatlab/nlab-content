@@ -75,6 +75,9 @@ The original result is due to:
 
 * {#Lurie09} [[Jacob Lurie]], Sec. 3.2 of: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
+Intuition of Lurie's construction is discussed in:
+
+* {#direct} MathOverflow: _[Why is the straightening functor the analogue of the Grothendieck construction?](https://mathoverflow.net/q/322763)_
 
 Further discussion:
 
