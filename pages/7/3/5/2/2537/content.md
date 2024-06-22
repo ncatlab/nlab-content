@@ -16,6 +16,8 @@ __Israel Moiseevich Gel'fand__ (&#1048;&#1079;&#1088;&#1072;&#1080;&#1083;&#1100
 
 * [[Gel'fand triple]]
 
+* Gelfand-Retakh theory of [[quasideterminant]]s
+
 He is the author of a 6-volume treatise on [[distribution]] theory (various volumes in collaboration with Shilov, Vilenkin, Graev).
 
 ## Selected writings
@@ -40,6 +42,19 @@ Introducing the [[GNS construction]]:
 One of the first comprehensive series of texts on [[generalized functions]] (also known as a [[distributions]]):
 
 * [[Israel M. Gelfand]], [[Georgiy E. Shilov]], *Generalized Functions* Vol. 1-6 (1958), Acad. Press  (1966-1968), AMS (2016) &lbrack;[ISBN:978-1-4704-2885-3](https://bookstore.ams.org/view?ProductCode=CHELGELFSET)&rbrack;
+
+On [[quasideterminants]]
+
+* [[I. M. Gel'fand]], [[V. Retakh|V. S. Retakh]], _Determinants of matrices over noncommutative rings_, Funct.Anal.Appl. __25__ (1991), no.2, pp. 91--102.
+engl. transl. __21__ (1991), pp. 51--58. 
+
+* I.M. Gel'fand, V.S. Retakh, A theory of noncommutative determinants and characteristic functions of graphs, Funct.Anal.Appl. __26__ (1992), no.4, pp. 231--246.
+
+* I.M. Gel'fand, V.S. Retakh, _Quasideterminants I_, Selecta Mathematica, N. S. 3 (1997) no.4, pp. 517--546; [doi](https://doi.org/10.1007/s000290050019)
+
+* [[Israel Gelfand]], Sergei Gelfand, [[Vladimir Retakh]], Robert Lee Wilson, _Quasideterminants_, Advances in Mathematics 193 (2005) 56--141 [doi](https://doi.org/10.1016/j.aim.2004.03.018)
+
+* Israel Gelfand, Daniel Krob, Alain Lascoux, [[Bernard Leclerc]], [[Vladimir Retakh]], J.-Y. Thibon, _Noncommutative symmetric functions_, Adv. in Math. __112__ (2) (1995) 218--348
 
 category: people
 
