@@ -1138,7 +1138,7 @@ For the [[M2-brane]]:
 
 For the [[M2-brane]] and the [[M5-brane]]:
 
-* {#Claus98} P. Claus, _Super M-brane actions in $adS_4 \times S^7$ and $adS_7 \times S^4$_, Phys. Rev. D59 (1999) 066003 ([arXiv:hep-th/9809045](http://arxiv.org/abs/hep-th/9809045))
+* {#Claus98} [[Piet Claus]], *Super M-brane actions in $adS_4 \times S^7$ and $adS_7 \times S^4$*, Phys. Rev. D **59** (1999) 066003 &lbrack;[arXiv:hep-th/9809045](http://arxiv.org/abs/hep-th/9809045), [doi:10.1103/PhysRevD.59.066003](https://doi.org/10.1103/PhysRevD.59.066003)&rbrack;
 
 * Makoto Sakaguchi, Kentaroh Yoshida, _Open M-branes on $AdS_{4/7} \times S^{7/4}$ Revisited_,  Nucl.Phys. B714 (2005) 51-66 ([arXiv:hep-th/0405109](http://arxiv.org/abs/hep-th/0405109))
 
@@ -1241,11 +1241,11 @@ for the [[M2-brane]]:
 
 for the [[M5-brane]]:
 
-* {#ClausKalloshProeyen97} Piet Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl. Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
+* {#ClausKalloshProeyen97} [[Piet Claus]], [[Renata Kallosh]], [[Antoine Van Proeyen]], *M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions*, Nucl. Phys. B **518** (1998) 117-150 &lbrack;[arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161), <a href="https://doi.org/10.1016/S0550-3213(98)00137-0">doi:10.1016/S0550-3213(98)00137-0</a>&rbrack;
 
 and more generally:
 
-* {#ClausKalloshKumarTownsend98} Piet Claus, [[Renata Kallosh]], J. Kumar, [[Paul Townsend]], [[Antoine Van Proeyen]], _Conformal Theory of M2, D3, M5 and 'D1+D5' Branes_, JHEP 9806 (1998) 004 ([arXiv:hep-th/9801206](http://arxiv.org/abs/hep-th/9801206))
+* {#ClausKalloshKumarTownsend98} [[Piet Claus]], [[Renata Kallosh]], J. Kumar, [[Paul Townsend]], [[Antoine Van Proeyen]], _Conformal Theory of M2, D3, M5 and 'D1+D5' Branes_, JHEP 9806 (1998) 004 ([arXiv:hep-th/9801206](http://arxiv.org/abs/hep-th/9801206))
 
 ### Conserved current algebra
  {#ReferencesConservedCurrentAlgebra}
