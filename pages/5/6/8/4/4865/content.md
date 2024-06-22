@@ -329,7 +329,9 @@ Classification of symmetric solutions:
 
 * [[José Figueroa-O'Farrill]], _Symmetric M-Theory Backgrounds_, Open Physics **11** 1 (2013) 1-36 &lbrack;[arXiv:1112.4967](http://arxiv.org/abs/1112.4967), [doi:10.2478/s11534-012-0160-6](https://doi.org/10.2478/s11534-012-0160-6)&rbrack;
 
-* Linus Wulff, _All symmetric space solutions of eleven-dimensional supergravity_ ([arXiv:1611.06139](https://arxiv.org/abs/1611.06139))
+* Linus Wulff, *All symmetric space solutions of eleven-dimensional supergravity*, Journal of Physics A: Mathematical and Theoretical **50** 24 (2017) 245401 &lbrack;[arXiv:1611.06139](https://arxiv.org/abs/1611.06139), [doi:10.1088/1751-8121/aa70b6](https://iopscience.iop.org/article/10.1088/1751-8121/aa70b6)&rbrack;
+
+
 
 Discussion of [[black branes]] and [[BPS states]] includes
 
