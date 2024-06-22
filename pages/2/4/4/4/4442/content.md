@@ -414,14 +414,14 @@ Discussion of how [[Green-Schwarz action functionals]] for super $p$-branes in A
 
 and was further developed in
 
-* {#ClausKalloshProeyen97} Piet Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl. Phys. B **518** (1998) 117-150 &lbrack;[arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161), <a href="https://doi.org/10.1016/S0550-3213(98)00137-0">doi:10.1016/S0550-3213(98)00137-0</a>&rbrack;
+* {#ClausKalloshProeyen97} [[Piet Claus]], [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl. Phys. B **518** (1998) 117-150 &lbrack;[arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161), <a href="https://doi.org/10.1016/S0550-3213(98)00137-0">doi:10.1016/S0550-3213(98)00137-0</a>&rbrack;
 
-* Piet Claus, [[Renata Kallosh]], J. Kumar, [[Paul K. Townsend]], [[Antoine Van Proeyen]], *Conformal Theory of M2, D3, M5 and "D1+D5" Branes*, JHEP 9806 (1998) 004 &lbrack;[arXiv:hep-th/9801206](https://arxiv.org/abs/hep-th/9801206), [doi:10.1088/1126-6708/1998/06/004](https://doi.org/10.1088/1126-6708/1998/06/004)&rbrack;
+* [[Piet Claus]], [[Renata Kallosh]], J. Kumar, [[Paul K. Townsend]], [[Antoine Van Proeyen]], *Conformal Theory of M2, D3, M5 and "D1+D5" Branes*, JHEP 9806 (1998) 004 &lbrack;[arXiv:hep-th/9801206](https://arxiv.org/abs/hep-th/9801206), [doi:10.1088/1126-6708/1998/06/004](https://doi.org/10.1088/1126-6708/1998/06/004)&rbrack;
 
 
 * {#DGGGTT98} [[Gianguido Dall'Agata]], Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, [[Mario Trigiante]], _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl. Phys.B **542** (1999) 157-194 &lbrack;[arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115), <a href="https://doi.org/10.1016/S0550-3213(98)00765-2">doi:10.1016/S0550-3213(98)00765-2</a>&rbrack;
 
-* {#ClausKalloshKumarTownsend98} Piet Claus, [[Renata Kallosh]], J. Kumar, [[Paul Townsend]], [[Antoine Van Proeyen]], _Conformal Theory of M2, D3, M5 and 'D1+D5' Branes_, JHEP 9806 (1998) 004 ([arXiv:hep-th/9801206](http://arxiv.org/abs/hep-th/9801206))
+* {#ClausKalloshKumarTownsend98} [[Piet Claus]], [[Renata Kallosh]], J. Kumar, [[Paul Townsend]], [[Antoine Van Proeyen]], _Conformal Theory of M2, D3, M5 and 'D1+D5' Branes_, JHEP 9806 (1998) 004 ([arXiv:hep-th/9801206](http://arxiv.org/abs/hep-th/9801206))
 
 * {#PastiSorokinTonin99} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], *Branes in Super-AdS Backgrounds and Superconformal Theories*, Proceedings, *International Workshop on Supersymmetries and Quantum Symmetries (SQS'99)*, Moscow (July 27-31, 1999) &lbrack;[arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076), [inspire:511348](https://inspirehep.net/literature/511348)&rbrack;
 
