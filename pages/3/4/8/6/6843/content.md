@@ -31,6 +31,18 @@ On [[charge quantization]] of [[D-branes]] in ([[relative cohomology|relative]])
 
 * [[José Figueroa-O’Farrill]], [[Sonia Stanciu]], *D-brane charge, flux quantisation and relative (co)homology*, JHEP 0101 (2001) 006 &lbrack;[arXiv:hep-th/0008038](https://arxiv.org/abs/hep-th/0008038), [doi:10.1088/1126-6708/2001/01/006](https://doi.org/10.1088/1126-6708/2001/01/006)&rbrack;
 
+
+On maximally supersymemtric solutions to [[D=11 supergravity]], including the [[pp-wave]] solution:
+
+* [[José Figueroa-O’Farrill]], [[George Papadopoulos]], *Homogeneous fluxes, branes and a maximally supersymmetric solution of M-theory*, JHEP 0108:036 (2001) &lbrack;[arXiv:hep-th/0105308](https://arxiv.org/abs/hep-th/0105308), [doi:10.1088/1126-6708/2001/08/036](https://doi.org/10.1088/1126-6708/2001/08/036)&rbrack;
+
+
+Showing that the maximally supersymmetric [[pp-wave]] solution of [[D=11 supergravity]] is a [[Penrose limit]] of both the [[black brane|black]] [[M2-brane]] solution $AdS_4 \times S^7$ as well as the [[black brane|black]] [[M5-brane]] solution $AdS_7 \times S^4$:
+
+* [[Matthias Blau]], [[José Figueroa-O’Farrill]], [[Christopher Hull]], [[George Papadopoulos]], *Penrose limits and maximal supersymmetry*, Class. Quant. Grav. **19** (2002) L87-L95 &lbrack;[arXiv:hep-th/0201081](https://arxiv.org/abs/hep-th/0201081), [doi:10.1088/0264-9381/19/10/101](https://doi.org/10.1088/0264-9381/19/10/101)&rbrack;
+
+
+
 On [[pp-wave]] [[Penrose limits]] of [[homogeneous space|homogeneous]] [[spacetimes]]:
 
 * [[José Figueroa-O'Farrill]], [[Patrick Meessen]], [[Simon Philip]], *Homogeneity and plane-wave limits*,  Journal of High Energy Physics **2005** JHEP05 (2005) &lbrack;[arXiv:hep-th/0504069](https://arxiv.org/abs/hep-th/0504069), [doi:10.1088/1126-6708/2005/05/050](https://doi.org/10.1088/1126-6708/2005/05/050)&rbrack;
