@@ -31,6 +31,10 @@ On [[formal category theory]]:
 
 * [[Ivan Di Liberti]], [[Fosco Loregian]], _On the unicity of formal category theories_ &lbrack;[arXiv:1901.01594](https://arxiv.org/abs/1901.01594)&rbrack;
 
+A [[formal category theory|formal category theoretic]] account of [[Gabriel-Ulmer dualities]] using [[KZ-doctrines]]:
+
+* {#DL18} [[Ivan Di Liberti]], [[Fosco Loregian]], *Accessibility and Presentability in 2-Categories*, Journal of Pure and Applied Algebra **227** 1 (2023) &lbrack;[arXiv:1804.08710](https://arxiv.org/abs/1804.08710), [doi:10.1016/j.jpaa.2022.107155](https://doi.org/10.1016/j.jpaa.2022.107155)&rbrack;
+
 
 
 ## Related entries
