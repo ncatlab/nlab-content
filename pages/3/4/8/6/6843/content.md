@@ -31,6 +31,10 @@ On [[charge quantization]] of [[D-branes]] in ([[relative cohomology|relative]])
 
 * [[José Figueroa-O’Farrill]], [[Sonia Stanciu]], *D-brane charge, flux quantisation and relative (co)homology*, JHEP 0101 (2001) 006 &lbrack;[arXiv:hep-th/0008038](https://arxiv.org/abs/hep-th/0008038), [doi:10.1088/1126-6708/2001/01/006](https://doi.org/10.1088/1126-6708/2001/01/006)&rbrack;
 
+On [[pp-wave]] [[Penrose limits]] of [[homogeneous space|homogeneous]] [[spacetimes]]:
+
+* [[José Figueroa-O'Farrill]], [[Patrick Meessen]], [[Simon Philip]], *Homogeneity and plane-wave limits*,  Journal of High Energy Physics **2005** JHEP05 (2005) &lbrack;[arXiv:hep-th/0504069](https://arxiv.org/abs/hep-th/0504069), [doi:10.1088/1126-6708/2005/05/050](https://doi.org/10.1088/1126-6708/2005/05/050)&rbrack;
+
 
 On [[M2-brane 3-algebras]] in the [[BLG model]] for coincident [[M2-branes]]:
 
