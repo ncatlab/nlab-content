@@ -17,13 +17,13 @@
 
 ## Idea
 
-A [[module]] over a [[ring]] whose underlying [[abelian group]] has trivial [[torsion subgroup]] is called _torsion-free_.
+A [[module]] (say over a [[ring]]) whose [[underlying]] [[abelian group]] has trivial [[torsion subgroup]] is called _torsion-free_.
 
 ## Definition 
 
 ### Torsion-free $\mathbb{Z}$-modules
 
-In classical mathematics, a **torsion-free $\mathbb{Z}$-module** or **torsion free [[abelian group]]** $M$ could be defined using a variant of the zero-divisor property characteristic of [[integral domains]]: for all $r$ in $\mathbb{Z}$ and $m$ in $M$, if $r m = 0$, then $r = 0$ or $m = 0$, or the [[contrapositive]], if $r \neq 0$ and $m \neq 0$, then $r m \neq 0$. 
+In classical mathematics, a **torsion-free $\mathbb{Z}$-module** or **torsion free [[abelian group]]** $M$ may be defined using a variant of the zero-divisor property characteristic of [[integral domains]]: for all $r$ in $\mathbb{Z}$ and $m$ in $M$, if $r m = 0$, then $r = 0$ or $m = 0$, or the [[contrapositive]], if $r \neq 0$ and $m \neq 0$, then $r m \neq 0$. 
 
 There is also an equivalent definition: a **torsion-free $\mathbb{Z}$-module** $M$ or **torsion free abelian group** is such that right multiplication by $m$ is injective if $m \neq 0$ and left multiplication by $r$ is injective if $r \neq 0$, where "multiplication" refers to the $\mathbb{Z}$-action. 
 
@@ -95,9 +95,9 @@ $3 \Rightarrow 1$. Let $r \in R$ be a regular element and $x \in M$ such that $r
 
 ## References
 
-* Shizuo Endo, On semi-hereditary rings, J. Math. Soc. Japan Vol. 13, No. 2, 1961
+* Shizuo Endo, *On semi-hereditary rings*, J. Math. Soc. Japan Vol. **13** 2 (1961) &lbrack;[doi:10.2969/jmsj/01320109](https://doi.org/10.2969/jmsj/01320109)&rbrack;
 
-See also 
+See also :
 
 + Wikipedia, _[Torsion-free module](https://en.wikipedia.org/wiki/Torsion-free_module)_
 
