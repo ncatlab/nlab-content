@@ -105,9 +105,6 @@ For a connection to [[Tannaka duality]] theory see
 
 For a discussion of an $\infty$-version of Gabriel-Ulmer duality between finitely complete and idempotent complete $(\infty, 1)$-categories and locally finitely presentable $(\infty, 1)$-categories see this [MO discussion](https://mathoverflow.net/q/293031/447).
 
-Exposition and application to [[topoi]]:
-
-* [[Federica Pasqualone]], *Gabriel-Ulmer Duality for Topoi, An Introduction* &lbrack;[arXiv:2406.04965](https://arxiv.org/abs/2406.04965)&rbrack;
 
 
 
