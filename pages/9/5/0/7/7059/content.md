@@ -236,6 +236,8 @@ We give the [[Coq]]-formalization of [Differential cohomology](http://ncatlab.or
 
 * [[A1-cohesive homotopy type theory]]
 
+* [[fractured homotopy type theory]]
+
 * [[geometric homotopy type theory]]
 
 * [[modal homotopy type theory]]
