@@ -274,9 +274,10 @@ Then $k[G]$ is a [[semi-simple algebra]] precisely if the [[order]] of $G$ is no
 
 =--
 
-The following is proven in ([Gilmer 1992](#Gilmer92), p. 163). 
+The following is proven in [Gilmer 1992](#Gilmer92), p. 163:
+ 
 \begin{theorem}
-Let $G$ be an abelian group and $R$ a commutative ring. Then $R[G]$ is an [[integral domain]] iff $R$ is an integral domain and $G$ is [[torsion-free]].
+Let $A$ be an [[abelian group]] and $R$ a [[commutative ring]]. Then $R[A]$ is an [[integral domain]] iff $R$ is an integral domain and $A$ is [[torsion-free]].
 \end{theorem}
 
 ### Of central extensions & Twisted group algebras
