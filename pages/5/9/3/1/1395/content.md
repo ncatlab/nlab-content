@@ -11,6 +11,13 @@ __Michael Makkai__ (Hungarian original __Mih&#225;ly Makkai__) is a Canadian mat
 
 ## Selected writings
 
+On [[Gabriel-Ulmer duality]]:
+
+* [[Michael Makkai]], [[Andrew Pitts]], *Some results on locally finitely presentable categories*, Trans. Amer. Math. Soc. **299** (1987) 473-496 &lbrack;[doi:10.2307/2000508](http://dx.doi.org/10.2307/2000508), [pdf](http://www.ams.org/journals/tran/1987-299-02/S0002-9947-1987-0869216-2/S0002-9947-1987-0869216-2.pdf), [MR88a:03162](http://www.ams.org/mathscinet-getitem?mr=869216)&rbrack;
+
+* [[Michael Makkai]], *Gabriel-Ulmer duality*, talk at ASL annual meeting (2010) &lbrack;scan: [pdf](http://www.math.mcgill.ca/makkai/scans/2010Washington0001.pdf), [[Makkai-GabrielUlmerDuality.pdf:file]]&rbrack;
+
+
 On [[accessible categories]] and [[categorical semantics|categorical]] [[model theory]] via [[sketches]]:
 
 * {#MakkaiPare} [[Michael Makkai]], [[Robert Paré]],  _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics 104. American Mathematical Society, Rhode Island (1989) ([ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104))
@@ -21,7 +28,7 @@ Introducing [[cellular categories]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 
 * [[FOLDS]]
