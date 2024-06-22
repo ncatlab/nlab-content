@@ -79,7 +79,7 @@ On the enhancement of pp-wave spacetimes to [[super spacetimes]]:
 ### BMN limit: AdS/CFT in the pp-wave limit
  {#ReferencesBMNLimit}
 
-The [[AdS-CFT|AdS/CFT dual]] to the pp-wave [[Penrose limit]] of [[anti de Sitter spacetime|AdS]]-spacetimes is the *BMN limit* of [[super Yang-Mills theory]], due to
+The [[AdS-CFT|AdS/CFT dual]] to the pp-wave [[Penrose limit]] of [$AdS_5 \times S^5$](AdS-CFT+correspondence#AdS5CFT4)-spacetimes is the *BMN limit* of [[super Yang-Mills theory]] (governed by [[spin chain]]-dynamics), due to:
 
 * {#BerensteinMaldacenaNastase02} [[David Berenstein]], [[Juan Maldacena]], [[Horatiu Nastase]], *Strings in flat space and pp waves from $\mathcal{N}=4$ Super Yang Mills*, JHEP 0204 (2002) 013 &lbrack;[arXiv:hep-th/0202021](https://arxiv.org/abs/hep-th/0202021), [doi:10.1088/1126-6708/2002/04/013](https://doi.org/10.1088/1126-6708/2002/04/013)&rbrack;
 
@@ -96,6 +96,12 @@ Further references as of 2010 are listed at:
 Review in the context of the [[AdS/CMT correspondence]]:
 
 * [[Horatiu Nastase]], Chapter 28 of: *String Theory Methods for Condensed Matter Physics*, Cambridge University Press (2017) &lbrack;[doi:10.1017/9781316847978](https://doi.org/10.1017/9781316847978), toc: [pdf](https://assets.cambridge.org/97811071/80383/frontmatter/9781107180383_frontmatter.pdf)&rbrack;
+
+Analogous phenomena claimed for pp-wave limits of [$AdS_7 \times S^4/\Gamma_{ADE}$](AdS-CFT+correspondence#AdS7CFT6) and [[spin chains]] in the dual [[D=6 N=(2,0) SCFT]]:
+
+* Florent Baume, [[Jonathan J. Heckman]], Craig Lawrie, *6D SCFTs, 4D SCFTs, Conformal Matter, and Spin Chains*, Nuclear Physics B **967** (2021) 115401 &lbrack;[doi:10.1016/j.nuclphysb.2021.115401](https://doi.org/10.1016/j.nuclphysb.2021.115401), [arXiv:2007.07262](https://arxiv.org/abs/2007.07262)&rbrack;
+
+* [[Jonathan J. Heckman]], *Qubit construction in 6D SCFTs*, Physics Letters B **811** (2020) 135891 &lbrack;[doi:10.1016/j.physletb.2020.135891](https://doi.org/10.1016/j.physletb.2020.135891), [arXiv:2007.08545](https://arxiv.org/abs/2007.08545)&rbrack;
 
 
 
