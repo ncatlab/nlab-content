@@ -29,11 +29,20 @@ On [[black brane|black]]$\,$[[D8-brane]]-solutions in [[massive type IIA supergr
 * {#BergshoessdeRooGreenPapadopoulosTownsend96} [[Eric Bergshoeff]], [[Mees de Roo]], [[Michael Green]], [[George Papadopoulos]], [[Paul Townsend]], _Duality of Type II 7-branes and 8-branes_, Nucl. Phys. B470:113-135, 1996 ([arXiv:hep-th/9601150](https://arxiv.org/abs/hep-th/9601150))
 
 
+On maximally supersymemtric solutions to [[D=11 supergravity]], including the [[pp-wave]] solution:
+
+* [[José Figueroa-O’Farrill]], [[George Papadopoulos]], *Homogeneous fluxes, branes and a maximally supersymmetric solution of M-theory*, JHEP 0108:036 (2001) &lbrack;[arXiv:hep-th/0105308](https://arxiv.org/abs/hep-th/0105308), [doi:10.1088/1126-6708/2001/08/036](https://doi.org/10.1088/1126-6708/2001/08/036)&rbrack;
+
+
+Showing that the maximally supersymmetric [[pp-wave]] solution of [[D=11 supergravity]] is a [[Penrose limit]] of both the [[black brane|black]] [[M2-brane]] solution $AdS_4 \times S^7$ as well as the [[black brane|black]] [[M5-brane]] solution $AdS_7 \times S^4$:
+
+* [[Matthias Blau]], [[José Figueroa-O’Farrill]], [[Christopher Hull]], [[George Papadopoulos]], *Penrose limits and maximal supersymmetry*, Class. Quant. Grav. **19** (2002) L87-L95 &lbrack;[arXiv:hep-th/0201081](https://arxiv.org/abs/hep-th/0201081), [doi:10.1088/0264-9381/19/10/101](https://doi.org/10.1088/0264-9381/19/10/101)&rbrack;
 
 
 
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[exceptional geometry]]
 
