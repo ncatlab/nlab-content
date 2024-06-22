@@ -52,6 +52,9 @@ On the other hand, [[de Sitter spacetimes]] (instead of anti-de Sitter) do not h
 
 ## References
 
+> See also the references at *[Green-Schwarz sigma-model -- References -- AdS backgrounds](Green-Schwarz+action+functional#ReferencesAdSBackgrounds)*.
+
+
 General discussion:
 
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], sections II.2.6, II.3.2-3, II.5, and V.4.4 in: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;ch II.2: [[CastellaniDAuriaFre-ChII2.pdf:file]], ch II.3: [[CastellaniDAuriaFre-ChII3.pdf:file]], ch II.5: [[CastellaniDAuriaFre-ChII5.pdf:file]], ch V.4: [[CastellaniDAuriaFre-ChV4.pdf:file]]&rbrack;
@@ -86,13 +89,11 @@ The super 3-cocycle for the [[Green-Schwarz superstring]] on $\frac{SU(2,2 \vert
 
 * {#MetsaevTseytlin98} [[Ruslan Metsaev]], [[Arkady Tseytlin]], _Type IIB superstring action in $AdS_5 \times S^5$ background_, Nucl. Phys.B **533** (1998) 109-126 &lbrack;[arXiv:hep-th/9805028](https://arxiv.org/abs/hep-th/9805028)&rbrack;
 
-However, a supersymmetric trivialization of this cocycle seems to have been obtained in 
+However, a supersymmetric trivialization of this cocycle seems to have been obtained (according to [arxiv:1808.04470, p. 5 and equation (5.5)](https://arxiv.org/abs/1808.04470), but check)
+in:
 
 * {#RoibanSiegel00} Radu Roiban, [[Warren Siegel]], _Superstrings on $AdS_5 \times S^5$ supertwistor space_, JHEP 0011:024, 2000 ([arXiv:hep-th/0010104](https://arxiv.org/abs/hep-th/0010104))
 
-(according to [arxiv:1808.04470, p. 5 and equation (5.5)](https://arxiv.org/abs/1808.04470), but check).
-
-See also the references at _[Green-Schwarz sigma-model -- References -- AdS backgrounds](Green-Schwarz+action+functional#ReferencesAdSBackgrounds)_ 
 
 
 
