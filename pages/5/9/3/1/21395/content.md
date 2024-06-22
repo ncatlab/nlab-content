@@ -29,3 +29,6 @@ where $D$ is a [[small category]] has a [[limit]] and a [[colimit]] in $C$.
 * [[M-complete category]]
 
 [[!redirects bicomplete categories]]
+
+[[!redirects complete and cocomplete category]]
+[[!redirects complete and cocomplete categories]]
