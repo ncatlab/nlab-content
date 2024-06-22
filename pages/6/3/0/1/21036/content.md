@@ -23,3 +23,5 @@ On [[M5-branes]] in the [[BMN matrix model]]:
 * [[Juan Maldacena]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], _Transverse Fivebranes in Matrix Theory_, JHEP 0301:038, 2003 ([arXiv:hep-th/0211139](https://arxiv.org/abs/hep-th/0211139))
 
 category: people
+
+[[!redirects Mohammad M. Sheikh-Jabbari]]
