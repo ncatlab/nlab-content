@@ -1,6 +1,6 @@
 ### pp-Waves as Penrose limits of $AdS_p \times S^q$ spacetimes
 
-Discussion of [[pp-wave spacetimes]] as [[Penrose limits]] ([[Inönü-Wigner contractions]]) of [[anti de Sitter spacetime|AdSp]] [[product manifold|x]] [[n-sphere|S^q]] spacetimes and of the corresponding limit of [[AdS-CFT duality]]:
+Dedicated discussion of [[pp-wave spacetimes]] as [[Penrose limits]] ([[Inönü-Wigner contractions]]) of [[anti de Sitter spacetime|AdSp]] [[product manifold|x]] [[n-sphere|S^q]] spacetimes and of the corresponding limit of [[AdS-CFT duality]]:
 
 * {#BerensteinMaldacenaNastase02} [[David Berenstein]], [[Juan Maldacena]], [[Horatiu Nastase]], Section 2 of: _Strings in flat space and pp waves from $\mathcal{N} = 4$ Super Yang Mills_, JHEP 0204 (2002) 013 ([arXiv:hep-th/0202021](https://arxiv.org/abs/hep-th/0202021))
 
