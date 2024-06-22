@@ -458,7 +458,7 @@ That the near horizon geometry of [[black branes]] in [[11-dimensional supergrav
 
 The observation that the resulting [[isometry group]] is the bosonic body of one of the [[orthosymplectic super groups]] is due to
 
-* P. Claus, [[Renata Kallosh]], J. Kumar, [[Paul Townsend]], [[Antoine Van Proeyen]], _Conformal Theory of M2, D3, M5 and D1+D5 Branes_, JHEP 9806 (1998) 004 &lbrack;[arXiv:hep-th/9801206](https://arxiv.org/abs/hep-th/9801206)&rbrack;
+* [[Piet Claus]], [[Renata Kallosh]], J. Kumar, [[Paul Townsend]], [[Antoine Van Proeyen]], _Conformal Theory of M2, D3, M5 and D1+D5 Branes_, JHEP 9806 (1998) 004 &lbrack;[arXiv:hep-th/9801206](https://arxiv.org/abs/hep-th/9801206)&rbrack;
 
 A decent account is in 
 
