@@ -29,6 +29,10 @@ On [[Beck's theorem]] for [[pseudomonads]] ([[higher monadic descent]]):
 
 * I. J. Le Creurer, [[Francisco Marmolejo]], [[Enrico M. Vitale]], _Beck's theorem for pseudo-monads_, J. Pure Appl. Algebra **173** 3 (2002) 293-313 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00038-5">doi:10.1016/S0022-4049(02)00038-5</a>&rbrack;
 
+On [[Gabriel-Ulmer duality]] for general [[doctrines]]:
+
+* C. Centazzo, [[Enrico M. Vitale]], *A duality relative to a limit doctrine*, Theory and Appl. of Categories __10__ 20 (2002) 486-497 lbrack;[tac:10-20](http://www.tac.mta.ca/tac/volumes/10/20/10-20abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/10/20/10-20.pdf)&rbrack;
+
 
 On [[algebraic theories]]:
 
