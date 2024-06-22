@@ -16,6 +16,11 @@ On [[general relativity]] ([[gravity]]):
 
 * [[Matthias Blau]], _Lecture notes on [[general relativity]]_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
 
+Showing that the maximally supersymmetric [[pp-wave]] solution of [[D=11 supergravity]] is a [[Penrose limit]] of both the [[black brane|black]] [[M2-brane]] solution $AdS_4 \times S^7$ as well as the [[black brane|black]] [[M5-brane]] solution $AdS_7 \times S^4$:
+
+* [[Matthias Blau]], [[José Figueroa-O’Farrill]], [[Christopher Hull]], [[George Papadopoulos]], *Penrose limits and maximal supersymmetry*, Class. Quant. Grav. **19** (2002) L87-L95 &lbrack;[arXiv:hep-th/0201081](https://arxiv.org/abs/hep-th/0201081), [doi:10.1088/0264-9381/19/10/101](https://doi.org/10.1088/0264-9381/19/10/101)&rbrack;
+
+
 On [[pp-wave spacetimes]] and [[Penrose limits]]:
 
 * [[Matthias Blau]], _Plane waves and Penrose limits_, 2011 ([pdf](http://www.blau.itp.unibe.ch/lecturesPP.pdf), [[BlauPlaneWavesAndPenroseLimit.pdf:file]])
