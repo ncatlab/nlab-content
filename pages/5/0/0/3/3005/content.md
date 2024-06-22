@@ -122,16 +122,19 @@ Duskin actually gave a slightly more precise version only assuming the categorie
 
 ### Monadicity over Set
 
-In the case when the base category $C$ is [[Set]], one can further refine the requisite conditions.  Linton proved that a functor $U\colon D\to Set$ is monadic if and only if
+In the case when the base category $C$ is [[Set]], one can further refine the requisite conditions.  Linton proved that a functor $U\colon D\to Set$ is monadic if and only if:
 
-1. $U$ has a left adjoint,
+1. $U$ has a [[left adjoint]],
+
 1. $D$ admits [[kernel pairs]] and [[coequalizers]],
-1. A [[parallel pair]] $R \rightrightarrows S$ in $D$ is a kernel pair if and only if its image under $U$ is so, and
+
+1. A [[parallel pair]] $R \rightrightarrows S$ in $D$ is a kernel pair if and only if its [[image]] under $U$ is so,
+
 1. A morphism $A\to B$ in $D$ is a [[regular epimorphism]] if and only if its image under $U$ is so.
 
 ### Strict monadicity
 
-The version of the monadicity theorem given in [[Categories Work]] uses a notion of "creation of limits" which fails to observe the [[principle of equivalence]], concluding that the comparison functor is an *isomorphism* of categories, rather than merely an equivalence.  But the versions mentioned above can be found in the exercises. 
+The version of the monadicity theorem given in [[Categories for the Working Mathematician|MacLane 1971]] uses a notion of "creation of limits" which fails to observe the [[principle of equivalence]], concluding that the comparison functor is an *isomorphism* of categories, rather than merely an equivalence.  But the versions mentioned above can be found in the exercises. 
 
 Note however that if $U: D \to C$ is an [[amnestic functor|amnestic]] [[isofibration]], then $U$ is monadic iff it is strictly monadic. For an application of this observation, see for example the discussion of algebraically free monads at [[free monad]]. 
 
