@@ -14,7 +14,12 @@ On the [[BMN matrix model]]:
 
 On the [[BMN matrix model]] as a [[KK-compactification]] of [[D=4 N=4 super Yang-Mills theory]] on the [[3-sphere]]:
 
-* [[Nakwoo Kim]], [[Thomas Klose]], [[Jan Plefka]], _Plane-wave Matrix Theory from N=4 Super Yang-Mills on $\mathbb{R} \times S^3$_, Nucl. Phys. B671:359-382, 2003 ([arXiv:hep-th/0306054](https://arxiv.org/abs/hep-th/0306054))
+* [[Nakwoo Kim]], [[Thomas Klose]], [[Jan Plefka]], _Plane-wave Matrix Theory from $\mathcal{N}=4$ Super Yang-Mills on $\mathbb{R} \times S^3$_, Nucl. Phys. B **671** (2003) 359-382 &lbrack;[arXiv:hep-th/0306054](https://arxiv.org/abs/hep-th/0306054)&rbrack;
+
+On the [[BMN limit]] of the [[AdS-CFT correspondence]]:
+
+* [[Jan Plefka]], *Lectures on the Plane-Wave String/Gauge Theory Duality*, Fortsch. Phys. **52** (2004) 264-301 &lbrack;[arXiv:hep-th/0307101](https://arxiv.org/abs/hep-th/0307101), [doi:10.1002/prop.200310121](https://doi.org/10.1002/prop.200310121)&rbrack;
+
 
 On [[higher curvature corrections]] in [[D=11 supergravity]]/[[M-theory]] via analysis of [[superparticle]] [[scattering amplitudes]]:
 
