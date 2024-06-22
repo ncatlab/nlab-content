@@ -61,13 +61,18 @@ The original articles:
 
   > (which is otherwise about [[single trace operators]] in the [[AdS/CFT correspondence]]).
 
-* {#DSJVR02} [[Keshav Dasgupta]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], _Matrix Perturbation Theory For M-theory On a PP-Wave_, JHEP 0205:056, 2002 ([arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185))
+* [[Keshav Dasgupta]], [[Mohammad M. Sheikh-Jabbari]], [[Mark Van Raamsdonk]]: *Matrix Perturbation Theory For M-theory On a PP-Wave*,  J. High Energy Physics **2002** JHEP05 (2002) &lbrack;[arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185), [doi:10.1088/1126-6708/2002/05/056](https://iopscience.iop.org/article/10.1088/1126-6708/2002/05/056)&rbrack;
 
-* [[Nakwoo Kim]], [[Jan Plefka]], _On the Spectrum of PP-Wave Matrix Theory_, Nucl. Phys. B643:31-48, 2002 ([arXiv:hep-th/0207034](https://arxiv.org/abs/hep-th/0207034))
+* [[Nakwoo Kim]], [[Jan Plefka]], _On the Spectrum of PP-Wave Matrix Theory_, Nucl. Phys. B **643** (2002) 31-48 &lbrack;[arXiv:hep-th/0207034](https://arxiv.org/abs/hep-th/0207034)&rbrack;
 
-* [[Keshav Dasgupta]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], _Protected Multiplets of M-Theory on a Plane Wave_, JHEP 0209:021, 2002 ([arXiv:hep-th/0207050](https://arxiv.org/abs/hep-th/0207050))
+* [[Keshav Dasgupta]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], _Protected Multiplets of M-Theory on a Plane Wave_, JHEP 0209:021 (2002) &lbrack;[arXiv:hep-th/0207050](https://arxiv.org/abs/hep-th/0207050), [doi:10.1088/1126-6708/2002/09/021](https://doi.org/10.1088/1126-6708/2002/09/021)&rbrack;
 
-* [[Nakwoo Kim]], [[Jeong-Hyuck Park]], _Superalgebra for M-theory on a pp-wave_, Phys.Rev. D66 (2002) 106007 ([arXiv:hep-th/0207061](https://arxiv.org/abs/hep-th/0207061))
+* [[Nakwoo Kim]], [[Jeong-Hyuck Park]], _Superalgebra for M-theory on a pp-wave_, Phys.Rev. D **66** (2002) 106007 &lbrack;[arXiv:hep-th/0207061](https://arxiv.org/abs/hep-th/0207061)&rbrack;
+
+Re-derivation via the [[superembedding formalism]]:
+
+* [[Igor A. Bandos]], *Multiple M0-brane equations in eleven dimensional pp-wave superspace and BMN matrix model*, Phys. Rev. D **85** 126005 (2012) &lbrack;[arXiv:1202.5501](https://arxiv.org/abs/1202.5501), [doi:10.1103/PhysRevD.85.126005](https://doi.org/10.1103/PhysRevD.85.126005)&rbrack;
+
 
 Review:
 
