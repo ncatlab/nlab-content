@@ -18,15 +18,26 @@
 
 (...)
 
-## Related concepts
+
+## Examples
 
 * [[Heisenberg model]]
+
+* [[Kitaev spin chain]]
+
+* (...)
+
+
+## Related concepts
+
+* [[solid state physics]]
 
 * [[Bethe ansatz]]
 
 * [[integrable system]]
 
-* [[Kitaev spin chain]]
+* [[BMN limit]]
+
 
 ## References
 
@@ -41,6 +52,10 @@ Review:
 The original articles:
 
 * [[Hans Bethe]], _Zur Theorie der Metalle_, Z. Phys.71, 205 (1931) ([doi:10.1007/BF01341708](https://doi.org/10.1007/BF01341708))
+
+Lecture notes:
+
+* Andreas Schadschneider, Götz S. Uhrig: Part II of: *Strongly Correlated Systems in Solid State Physics*, lecture notes (2004) &lbrack;[pdf](https://www.thp.uni-koeln.de/~as/Mypage/PSfiles/Korrel/korrel.pdf), [[SchadschneiderUhrig-StronglyCorrelated.pdf:file]]&rbrack;
 
 Further development:
 
