@@ -11,5 +11,8 @@ Introducing [[reductive dual pairs]] (later also: *[[Howe duality]]*):
 
 * [[Roger Howe]], *Transcending classical invariant theory*, J. Amer. Math. Soc. **2** (1989) 535-552 &lbrack;[doi:10.2307%2F1990942](https://doi.org/10.2307%2F1990942)&rbrack;
 
+Relation to the [[Capelli identity]]
+
+* [[Roger Howe]], T. Umeda, _The Capelli identity, the double commutant theorem, and multiplicity-free actions_, Math. Ann. __290__ (1991) 565--619
 
 category: people
