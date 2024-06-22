@@ -127,7 +127,7 @@ The first indication of a 6d theory with a self-dual 2-form field appears in
 
 Derivation of the abelian 6d theory to low order as the small fluctuations of the [[Green-Schwarz sigma-model]] of the [[M5-brane]] around a solution embedding as the asymptotic boundary of the [[AdS-spacetime]] [[near-horizon geometry]] of a [[black brane|black]] 5-brane is due to 
 
-* {#ClausKalloshProeyen97} P. Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl. Phys. B **518** (1998) 117-150 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(98)00137-0">doi:10.1016/S0550-3213(98)00137-0</a>, [arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161)&rbrack;
+* {#ClausKalloshProeyen97} [[Piet Claus]], [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl. Phys. B **518** (1998) 117-150 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(98)00137-0">doi:10.1016/S0550-3213(98)00137-0</a>, [arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161)&rbrack;
 
 General survey:
 
