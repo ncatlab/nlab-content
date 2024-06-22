@@ -13,6 +13,9 @@
 * table of contents
 {:toc}
 
+## Warning ##
+
+The following definitions don't correspond to the ones in [Lombardi, Quitté 2010](#Lombardi,Quitté10). In this reference, a GCD ring is defined as a ring such that every pair of [[regular elements]] admits a GCD. 
 
 ## Definition ##
 
@@ -50,6 +53,6 @@ The last definition implies that GCD rings are [[algebraic theory|algebraic]].
 
 ## References ##
 
-* [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
+* {#Lombardi,Quitté10}[[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
 [[!redirects GCD rings]]
