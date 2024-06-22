@@ -129,8 +129,6 @@ In the case when the base category $C$ is [[Set]], one can further refine the re
 1. A [[parallel pair]] $R \rightrightarrows S$ in $D$ is a kernel pair if and only if its image under $U$ is so, and
 1. A morphism $A\to B$ in $D$ is a [[regular epimorphism]] if and only if its image under $U$ is so.
 
-There are other versions of this theorem, including generalizations to monadicity over [[presheaf categories]], which can be viewed as analogues of [[Giraud's theorem]].
-
 ### Strict monadicity
 
 The version of the monadicity theorem given in [[Categories Work]] uses a notion of "creation of limits" which fails to observe the [[principle of equivalence]], concluding that the comparison functor is an *isomorphism* of categories, rather than merely an equivalence.  But the versions mentioned above can be found in the exercises. 
