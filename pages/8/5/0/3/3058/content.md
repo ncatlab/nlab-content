@@ -55,11 +55,14 @@ In later part of his mathematical career, Gabriel worked on representation theor
 
 * [[Gabriel-Ulmer duality]] 
 
+* [[Gabriel-Oberst duality]]
+
 * Gabriel-Rosenberg [[reconstruction theorem]], 
 
 * Gabriel-Zisman [[localization]] 
 
 
+category: people
 
 [[!redirects Gabriel]]
 [[!redirects Peter Gabriel]]
