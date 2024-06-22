@@ -40,7 +40,7 @@ Around the [[HomePage|nLab]] it is widely believed that [[homotopy theory]]/[[al
 
 In particular, at the $n$Lab, there is no commitment to being neutral.  There are certainly other valid points of view on mathematics, but describing them and being neutral towards them is not the purpose of the $n$Lab.  Rather, the $n$Lab starts from the premise that homotopy theory/algebraic topology, (homotopy) type theory, (higher) category theory and (higher) categorical algebra are a useful point of view, and one of its aims is to expose this point of view generally and in a multitude of examples, and thereby accumulate evidence for it.
 
-If you feel skeptical about the $n$-point of view, you should still find the $n$Lab useful, as the largest site for detailed category-theoretic information online. You are very much welcome to contribute relevant content even if you are such a skeptic.
+If you feel skeptical about the $n$-point of view, you should still find the $n$Lab useful, as the largest site for detailed category-theoretic and homotopy-theoretic information online. You are very much welcome to contribute relevant content even if you are such a skeptic.
 
 
 ### Category theory
