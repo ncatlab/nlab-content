@@ -5,6 +5,12 @@ Rodolfo Russo is reader in theoretical [[physics]] at Queen Mary College, London
 
 ## Selected writings
 
+On the [[BMN limit]] of the [[AdS-CFT correspondence]]:
+
+* [[Rodolfo Russo]], Alessandro Tanzini, *The Duality between IIB String Theory on PP-wave and $\mathcal{N}=4$ SYM: a Status Report*, Class. Quant. Grav. **21** (2004) S1265-2196 &lbrack;[arXiv:hep-th/0401155](https://arxiv.org/abs/hep-th/0401155), [doi:10.1088/0264-9381/21/10/001](https://doi.org/10.1088/0264-9381/21/10/001)&rbrack;
+
+
+
 On [[AdS-CFT duality|AdS-CFT dual]] [[type II supergravity]]-solutions corresponding to [[D1-D5-P bound states]] ("[[superstrata]]"):
 
 * [[Iosif Bena]], [[Stefano Giusto]], [[Rodolfo Russo]], [[Masaki Shigemori]], [[Nicholas P. Warner]], *Habemus Superstratum! A constructive proof of the existence of superstrata*, JHEP 1505 (2015) 110 &lbrack;[arXiv:1503.01463](https://arxiv.org/abs/1503.01463)&rbrack;
