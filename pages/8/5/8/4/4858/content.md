@@ -6,14 +6,13 @@ Roger Penrose is a [[mathematical physics|mathematical physicist]] at University
 
 He made fundamental contributions to the study of mathematical [[general relativity]], such as the [[Penrose-Hawking theorem]] and the discovery of the [[twistor space]] description of [[spacetime]] geometry.
 
+
 #Contents#
 * table of contents
 {:toc}
 
-## Selected thoughts
+## Selected writings
 
-### Penrose graphical notation (string diagrams)
- {#PenroseGraphicalNotation}
 
 On [[Penrose graphical notation]] ([[string diagrams]]) for [[tensor]]-calculus:
 
@@ -25,6 +24,12 @@ On [[Penrose graphical notation]] ([[string diagrams]]) for [[tensor]]-calculus:
 
 * [[Roger Penrose]], [[Wolfgang Rindler]], appendix (p. 424-434) of: _Spinors and space-time -- Volume 1: Two-spinor calculus and relativistic fields_, Cambridge University Press 1984 ([doi:10.1017/CBO9780511564048](https://doi.org/10.1017/CBO9780511564048))
 
+Introducing what came to be called the [[Penrose limit]] for obtaining [[pp-wave]] [[spacetimes]]:
+
+* {#Penrose76} [[Roger Penrose]], *Any Space-Time has a Plane Wave as a Limit*, in *Differential Geometry and Relativity*, Mathematical Physics and Applied Mathematics **3**, Springer (1976) 271–275 &lbrack;[doi:10.1007/978-94-010-1508-0_23](https://doi.org/10.1007/978-94-010-1508-0_23), [pdf](https://link.springer.com/content/pdf/10.1007/978-94-010-1508-0_23.pdf)&rbrack;
+
+
+## Further selected thoughts
 
 ### Mind-Maths-Matter
  {#MindMathsMatter}
