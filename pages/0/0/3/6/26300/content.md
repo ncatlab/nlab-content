@@ -24,6 +24,10 @@ A kind of local generalization of *[[cohesive (infinity,1)-toposes|cohesive $\in
 
 * Apparently [[condensed mathematics]] takes place in fractured $\infty$-topoi, see at *[[condensed local contractibility]]*.
 
+## Related concepts
+
+* [[fractured homotopy type theory]]
+
 ## References
 
 * [[Jacob Lurie]], *Fractured $\infty$-Topoi*, Chapter 20 in: *[[Spectral Algebraic Geometry]]*
