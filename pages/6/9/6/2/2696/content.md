@@ -24,16 +24,14 @@
 
 ## Classical case
 
-The classical **Whitehead theorem** asserts that 
+The classical **Whitehead theorem** asserts that:
 
-+-- {: .num_theorem }
-###### Theorem (Whitehead)
-
+\begin{theorem}
+([Whitehead 1949](#Whitehead49))
 Every [[weak homotopy equivalence]] between [[CW-complexes]] is a [[homotopy equivalence]].
+\end{theorem}
 
-=--
-
-(See also the discussion at [[m-cofibrant space]]).
+(See also the discussion at *[[m-cofibrant space]]*).
 
 Using the [[homotopy hypothesis]]-theorem this may be reformulated:
 
@@ -141,13 +139,13 @@ Whitehead's principle does hold, however, for maps between [[homotopy n-types]] 
 
 ## References
 
-Originally proved by [[J. H. C. Whitehead]]:
+The original theorem for maps between [[CW complexes]]:
 
-* [[J. H. C. Whitehead]], _Combinatorial homotopy.  I_, Bulletin of the American Mathematical Society 55:3 (1949), 213–246.  [doi](http://dx.doi.org/10.1090/s0002-9904-1949-09175-9).
+* {#Whitehead49} [[J. H. C. Whitehead]], *Combinatorial homotopy.  I*, Bulletin of the American Mathematical Society **55** 3 (1949) 213–245 &lbrack;[doi:10.1090/s0002-9904-1949-09175-9](http://dx.doi.org/10.1090/s0002-9904-1949-09175-9), [pdf](https://www.ams.org/journals/bull/1949-55-03/S0002-9904-1949-09175-9/S0002-9904-1949-09175-9.pdf)&rbrack;
 
-The simplicial version is due to [[Daniel M. Kan]], see Theorem 7.2 in
+The version in [[simplicial homotopy theory]] is due to:
 
-* [[Daniel M. Kan]], _On c.s.s. categories_, Boletín de la Sociedad Matemática Mexicana 2 (1957), 82–94.  [PDF](https://dmitripavlov.org/scans/kan-on-css-categories.pdf).
+* [[Daniel M. Kan]], Theorem 7.2 in: *On c.s.s. categories*, Boletín de la Sociedad Matemática Mexicana **2** (1957) 82–94  &lbrack;<a href="https://www.boletin.math.org.mx/pdf/2/2/BSMM(2).2.82-94.pdf">pdf</a>, [pdf](https://dmitripavlov.org/scans/kan-on-css-categories.pdf)&rbrack;
 
 
 Review:
