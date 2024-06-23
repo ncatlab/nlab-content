@@ -325,20 +325,24 @@ shown in any super-chart:
       \;=\;
       \rho_{a b} \, e^{a} \, e^b
       \,+\,
-      \Big(
-      -\tfrac{1}{6}
-      \,
-      \tfrac{1}{3!}
-      (G_4)_{a b_1 b_2 b_3}
-      \,\Gamma^{a b_1 b_2 b_3}\,
-      \,
-      +
-      \tfrac{1}{12}
-      \,
-      \tfrac{1}{4!}
-      (G_4)_{b_1 \cdots b_4}
-      \,\Gamma^{a b_1 \cdots b_4}\,
-      \Big)
+      \underset{ H_a }{
+        \underbrace{
+          \Big(
+            \tfrac{1}{6}
+            \,
+            \tfrac{1}{3!}
+            (G_4)_{a b_1 b_2 b_3}
+            \,\Gamma^{a b_1 b_2 b_3}\,
+            \,
+            -
+            \tfrac{1}{12}
+            \,
+            \tfrac{1}{4!}
+            (G_4)_{b_1 \cdots b_4}
+            \,\Gamma^{a b_1 \cdots b_4}\,
+          \Big)
+        }
+      }
       \psi
       \, 
       e^a
@@ -364,7 +368,7 @@ shown in any super-chart:
   \end{array}
 \]
 \end{lemma}
-This is essentially [CDF91, (III.8.44-49 & 60b)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre).
+This is essentially the claim in [CDF91 (III.8.44-49 & 60b)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre); full proof is given in [GSS24, Lem. 3.2](D=11+supergravity#GiotopoulosSatiSchreiber24).
 \begin{proof}
   The general expansion of $\rho$ in the super-vielbein basis is of the form 
   $$
@@ -1058,5 +1062,5 @@ which is  manifestly the claimed [[Hodge duality]] relation.
 \end{lemma}
 Cf. e.g. [CDF91, (III.8.54-60)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre); full details are given in [GSS24, Lem. 3.8](D=11+supergravity#GiotopoulosSatiSchreiber24).
 
-In conlcusion, the above lemmas give Thm. \ref{11dSuGraEOMFromSuperFluxIdentity}.
+In conclusion, the above lemmas give Thm. \ref{11dSuGraEOMFromSuperFluxIdentity}.
 
