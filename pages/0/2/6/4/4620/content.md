@@ -160,6 +160,8 @@ There are various other results that are equivalent to the principles of omnisci
 
 * Bolzano-Weierstrass compactness of the [[unit interval]] holds if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
+* The [[boolean domain]] is a [[sigma-algebra]] if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
+
 ## Related statements
 
 There are various other results that are related to the principles of omniscience. Here are a few:
