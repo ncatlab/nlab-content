@@ -28,16 +28,23 @@ Every [[spacetime]] looks like a pp-wave near a [[lightlike]] [[geodesic]]. This
 
 Notice that Penrose limits of [[Einstein manifolds]] are [[Ricci flat]] ([Philip 2005, Prop. 3.4.1](#Philip05), [Philip 2006, Prop. 3](#Philip06), review in [Blau 2011](#Blau11), [p. 41](https://ncatlab.org/nlab/files/BlauPlaneWavesAndPenroseLimit.pdf#page=41)).
 
-{#MaximallySupersymmetric11dExample} For example, the Penrose limits of both the [[black brane|black]] [[M2-brane]] solution $AdS_4 \times S^7$ as well as the [[black brane|black]] [[M5-brane]] solution $AdS_7 \times S^4$ of [[D=11 supergravity]] are &lbrack;[BFHP 2002](#BlauFigueroaHullPapadopoulos02), [BMN 2002, §2](#BerensteinMaldacenaNastase02)&rbrack; the (same) pp-maximally supersymmetric pp-wave spacetime originally found by [Kowalski-Glikman 1984 (9)](#Kowalski-Glikman84), [Figueroa & Papadopoulos 2001 (12,14)](#FigueroaPapadopoulos01):
+{#MaximallySupersymmetric11dExample} For example, the Penrose limit of both the [[black brane|black]] [[M2-brane]] solution $AdS_4 \times S^7$ as well as the [[black brane|black]] [[M5-brane]] solution $AdS_7 \times S^4$ of [[D=11 supergravity]] are &lbrack;[BFHP 2002](#BlauFigueroaHullPapadopoulos02), [BMN 2002, §2](#BerensteinMaldacenaNastase02)&rbrack; the (same) pp-maximally supersymmetric pp-wave spacetime originally found by [Kowalski-Glikman 1984 (9)](#Kowalski-Glikman84), [Figueroa-O'Farrill & Papadopoulos 2001 (12,14)](#FigueroaPapadopoulos01), discussed [below](#MaximallySuSyWaveIn11D).
 
-### Examples
 
-\begin{example}\label{MaximallySuSyWaveIn11D}
-**(maximally supersymmetric pp-wave in 11d SuGra)**
+### Relation to BMN matrix model
+
+The _[[BMN matrix model]]_ ([BMN 02, Section 5 and Appendix B](#BerensteinMaldacenaNastase02)) is a deformation of the [[BFSS matrix model]] by [[mass]]-terms which correspond to a deformation of the 11d [[Minkowski spacetime]] background to the maximally supersymmetric pp-wave (discussed [below](#MaximallySuSyWaveIn11D)).
+
 \linebreak
-The maximally supersymmetric pp-wave solution of [[D=11 supergravity]] is given as follows &lbrack;[Kowalski-Glikman 1984 (0)](#Kowalski-Glikman84), [Figueroa & Papadopoulos 2001 (12,14)](#FigueroaPapadopoulos01)&rbrack;:
 
-Consider on the [[vector space]]/[[smooth manifold]] $\mathbb{R}^{1,10}$ with its canonical [[linear basis]]/[[coordinate functions]] $(x^a)_{a=0}^{10}$ and the corresponding [[light cone gauge]] basis, defined by
+## Examples
+
+### Maximally supersymmetric pp-wave in 11d
+ {#MaximallySuSyWaveIn11D}
+
+The maximally supersymmetric pp-wave solution of [[D=11 supergravity]] is given as follows &lbrack;[Kowalski-Glikman 1984 (9)](#Kowalski-Glikman84), [Figueroa-O'Farrill & Papadopoulos 2001 (12,14)](#FigueroaPapadopoulos01)&rbrack;:
+
+Consider on the [[vector space]]/[[smooth manifold]] $\mathbb{R}^{11}$ with its canonical [[linear basis]]/[[coordinate functions]] $(x^a)_{a=0}^{10}$ and the corresponding [[light cone gauge]] basis, defined by
 
 $$
   \begin{array}{lcl}
@@ -183,7 +190,7 @@ $$
 
 From this one finds that the [[torsion of a Cartan connection|torsion]]-free [[spin connection]] $\omega$ for this co-frame field, characterized by
 $$
-  \mathrm{d} e^a - \omega^a{}_b \cdot e^b 
+  \mathrm{d} e^a - \omega^a{}_b \, e^b 
   \;=\;
   0
   \,,
@@ -191,13 +198,13 @@ $$
 has as only non-vanishing components \[cf. [Bandos 2012 (3.5)](#Bandos12)\]:
 $$
   \begin{array}{l}
-    \omega^{+ i} \;=\; - \omega^{i +}
+    \omega^{- i} \;=\; - \omega^{i -}
     \;=\;
-    (\mu/3)^2 \, x^i \, e^+
+    (\mu/3)^2 \, x^i \, e^-
     \\
-    \omega^{+ j} \;=\; - \omega^{j +}
+    \omega^{- j} \;=\; - \omega^{j -}
     \;=\;
-    (\mu/6)^2 \, x^j \, e^+
+    (\mu/6)^2 \, x^j \, e^-
     \,,
   \end{array}
 $$
@@ -214,8 +221,9 @@ $$
   &=&
   \;\;\;\;\;\;\;\;\;\;\;\;
   \omega^+{}_{i} \, \mathrm{e}^i 
-  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
   \,+\,
+  \;
   \omega^+{}_{j} \, \mathrm{e}^j
   \,.
   \end{array}
@@ -340,18 +348,14 @@ $$
 $$
 
 is indeed satisfied by the pp-wave spacetime (eq:MetricTensorOfMaximalSuSyWaveIn11d) with the C-field flux (eq:CFieldFLuxDensityForMaximalSuSyWaveIn11d).
-\end{example}
+
+
+### The M-wave in 11d
+
+A half BPS pp-wave solution of [[D=11 supergravity]].
+See at  *[[M-wave]]*.
 
 \linebreak
-
-### Relation to BMN matrix model
-
-The _[[BMN matrix model]]_ ([BMN 02, Section 5 and Appendix B](#BerensteinMaldacenaNastase02)) is a deformation of the [[BFSS matrix model]] by [[mass]]-terms which correspond to a deformation of the [[Minkowski spacetime]] background to a [[pp-wave spacetime]]. 
-
-
-## Examples
-
-* [[M-wave]]
 
 ## Related concepts
 
@@ -380,7 +384,9 @@ Detailed mathematical discussion:
 
 * {#Philip05} [[Simon Philip]], *Plane-wave limits and homogeneous M-theory backgrounds*, PhD thesis, Edinburgh (2005) &lbrack;[pdf](https://www.era.lib.ed.ac.uk/bitstream/handle/1842/15645/Philip2005.Pdf?sequence=1), [[PhilipPlaneWave05.pdf:file]]&rbrack;
 
-* {#Philip06} [[Simon Philip]], *Penrose limits of homogeneous spaces*, Journal of Geometry and Physics **56** 9 (2006) 1516-1533 &lbrack;[doi:10.1016/j.geomphys.2005.08.002](https://doi.org/10.1016/j.geomphys.2005.08.002), [doi:math/0405506](https://arxiv.org/abs/math/0405506)&rbrack;
+* {#Philip06} [[Simon Philip]], *Penrose limits of homogeneous spaces*, Journal of Geometry and Physics **56** 9 (2006) 1516-1533 &lbrack;[doi:10.1016/j.geomphys.2005.08.002](https://doi.org/10.1016/j.geomphys.2005.08.002), [arXiv:math/0405506](https://arxiv.org/abs/math/0405506)&rbrack;
+
+\linebreak
 
 ### Examples
  {#ReferencesExamples}
