@@ -1,25 +1,19 @@
 
 $$
-  \mathrm{d}s^2
-  \;\equiv\;
-  -
-  \mathrm{d}x^-\, \mathrm{d}x^+ 
-  -
-  \big(
-    (\mu/3)^2 x^i x_i
-    +
-    (\mu/6)^2 x^j x_j
-  \big)
-  \mathrm{d}x^+ \, \mathrm{d}x^+
-  +
-  \mathrm{d}x^i\, \mathrm{d}x^i
-  +
-  \mathrm{d}x^j \, \mathrm{d}x^j
-  \,,
-  \;\;\;\;
-  \begin{array}{l}
-    i \in \{1, 2, 3\}
-    \\
-    j \in \{4,5,6,7,8,9\}
+  \begin{array}{ccl}
+  \mathrm{d}e^+
+  &=&
+  \,-\,
+  (\mu/3)^2 x_i \, \mathrm{d}x^i \otimes e^-
+  \,-\,
+  (\mu/6)^2 x_j \, \mathrm{d}x^j \otimes e^-
+  \\
+  &=&
+  \;\;\;\;\;\;\;\;\;\;\;\;
+  \omega^+{}_{i} \, \mathrm{e}^i 
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \,+\,
+  \omega^+{}_{j} \, \mathrm{e}^j
+  \,.
   \end{array}
 $$
