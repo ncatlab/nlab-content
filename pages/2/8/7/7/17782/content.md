@@ -32,12 +32,12 @@ Notice that Penrose limits of [[Einstein manifolds]] are [[Ricci flat]] ([Philip
 
 ### Examples
 
-\begin{example}
+\begin{example}\label{MaximallySuSyWaveIn11D}
 **(maximally supersymmetric pp-wave in 11d SuGra)**
 \linebreak
 The maximally supersymmetric pp-wave solution of [[D=11 supergravity]] &lbrack;[Kowalski-Glikman 1984 (0)](#Kowalski-Glikman84), [Figueroa & Papadopoulos 2001 (12,14)](#FigueroaPapadopoulos01)&rbrack; has [[metric tensor]] of the form
 \[
-  \label{MetricTensorOfMaximalSuSuWaveIn11d}
+  \label{MetricTensorOfMaximalSuSyWaveIn11d}
   \begin{array}{lcl}
   \mathrm{d}s^2
   &\equiv&
@@ -71,7 +71,8 @@ The maximally supersymmetric pp-wave solution of [[D=11 supergravity]] &lbrack;[
   \end{array}
 \]
 supported by a [[supergravity C-field|C-field]] [[flux density]] of the form
-$$
+\[
+  \label{CFieldFLuxDensityForMaximalSuSyWaveIn11d}
   F
   \;=\;
   \mu 
@@ -79,7 +80,7 @@ $$
   \mathrm{d}x^- 
   \, \mathrm{d}x^1 \, \mathrm{d}x^2 \, \mathrm{d}x^3
   \,,
-$$
+\]
 for given parameter $\mu \in \mathbb{R}$.
 
 Consider on the [[vector space]] $\mathbb{R}^{1,10}$ with its canonical [[linear basis]] $(x^a)_{a=0}^{10}$ the [[light cone gauge]] basis
@@ -123,14 +124,14 @@ $$
   \end{array}
 $$
 
-Then a choice of [[coframe field]] for (eq:MetricTensorOfMaximalSuSuWaveIn11d) is (cf. [Bandos 2012 (3.4)](#Bandos12))
+Then a choice of orthonormal [[coframe field]] for (eq:MetricTensorOfMaximalSuSyWaveIn11d) is (cf. [Bandos 2012 (3.4)](#Bandos12))
 
 $$
   \begin{array}{lcl}
     e^+ 
     &\coloneqq&
     \mathrm{d}x^+ 
-    \,+\,
+    \,-\,
     \tfrac{1}{2}
     \big(
       (\mu/3)^2 \, x^i x_i
@@ -164,6 +165,157 @@ $$
   e^{9} \otimes e^9
   \,.
 $$
+
+From this one finds that the [[torsion of a Cartan connection|torsion]]-free [[spin connection]] $\omega$ for this co-frame field, characterized by
+$$
+  \mathrm{d} e^a - \omega^a{}_b \cdot e^b 
+  \;=\;
+  0
+  \,,
+$$
+has as only non-vanishing components (cf. [Bandos 2012 (3.5)](#Bandos12)):
+$$
+  \begin{array}{l}
+    \omega^{+ i} \;=\; - \omega^{i +}
+    \;=\;
+    (\mu/3)^2 \, x^i \, e^+
+    \\
+    \omega^{+ j} \;=\; - \omega^{j +}
+    \;=\;
+    (\mu/6)^2 \, x^j \, e^+
+    \,,
+  \end{array}
+$$
+with which
+$$
+  \begin{array}{ccl}
+  \mathrm{d}e^+
+  &=&
+  \,-\,
+  (\mu/3)^2 x_i \, \mathrm{d}x^i \otimes e^-
+  \,-\,
+  (\mu/6)^2 x_j \, \mathrm{d}x^j \otimes e^-
+  \\
+  &=&
+  \;\;\;\;\;\;\;\;\;\;\;\;
+  \omega^+{}_{i} \, \mathrm{e}^i 
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \,+\,
+  \omega^+{}_{j} \, \mathrm{e}^j
+  \,.
+  \end{array}
+$$
+From this, the only non-vanishing contribution in  
+
+* the [[curvature 2-form]] $R^{a b} \,\equiv\, \mathrm{d}\omega^{a b} - \omega^a{}_c \omega^{c b}$ is (cf. [Bandos 2012 (3.6)](#Bandos12)):
+  $$
+    \begin{array}{l}
+      R^{+ i}
+      \,=\,
+      - R^{i +}
+      \;=\;
+      \mathrm{d} \omega^{+ i}
+      \;=\;
+      (\mu/3)^2 \, e^i \, e^-
+      \\
+      R^{+ j}
+      \,=\,
+      -
+      R^{j +}
+      \;=\;
+      \mathrm{d} \omega^{+ j}
+      \;=\;
+      (\mu/6)^2 \, e^j \, e^-
+      \,.
+    \end{array}
+  $$
+
+* the [[Riemann tensor]] ($R^{a b} = \tfrac{1}{2}R^{a b}{}_{c_1 c_2} e^{c_1} e^{c_2}$) is (cf. [Bandos 2012 (3.7)](#Bandos12)):
+  $$
+    \begin{array}{l}
+      R^{+ i_1}\,{}_{i_2 -}
+      \;=\;
+      \delta^{i_1}_{i_2} (\mu/3)^2 
+      \\
+      R^{+ j_1}\,{}_{j_2 -}
+      \;=\;
+      \delta^{j_1}_{j_2} (\mu/6)^2 
+      \,.
+    \end{array}
+  $$
+
+* the [[Ricci tensor]] $R_{a b} \coloneqq \eta_{a a'} R^{a' c}{}_{b c}$ is
+
+  \[
+    \label{RicciTensorOfMaximalSuSyWaveIn11d}
+    Ric_{- -}
+    \;=\;
+    -\mu^2/3
+    -\mu^2/6
+    \,=\,
+    -\tfrac{1}{2}\mu^2
+    \,.
+  \]
+
+* the [[scalar curvature]] $\mathrm{R} \equiv \eta^{a b}Ric_{a b}$ is
+
+  $$
+    \mathrm{R} \;=\; 0
+    \,,
+  $$
+
+* the [[Einstein tensor]] $G_{a b} = Ric_{a b} - \tfrac{1}{2} \mathrm{R} \eta_{a b}$ is again
+
+  \[
+    \label{EinsteinTensorOfMaximalSuSyWaveIn11d}
+    G_{- -}
+    \;=\;
+    -\mu^2/3
+    -\mu^2/6
+    \,=\,
+    -\tfrac{1}{2}\mu^2
+    \,.
+  \]
+
+
+On the other hand, the non-vanishing contribution in the [[energy momentum tensor]] 
+$$
+  T_{\mu \nu}
+  \;=\;
+  \big(
+    \tfrac{1}{8}
+    F_{\mu_1 \cdots \mu_s}
+    F^{\mu_1 \cdots \mu_s}
+    \,
+    g_{\mu \nu}
+    -
+    F_{\mu \, \mu_1 \cdots \mu_{s-1}}
+    F_{\nu}{}^{ \mu_1 \cdots \mu_{s-1} }
+  \big)
+$$
+of the [[supergravity C-field|C-field]] (eq:CFieldFLuxDensityForMaximalSuSyWaveIn11d) is
+\[
+  \begin{array}{lcl}
+    T_{- -}
+    &=&
+    -
+    \mu^2
+    \epsilon_{i_1 i_2 i_3}
+    \,
+    \epsilon^{i_1 i_2 i_3}
+    \\
+    &=&
+    -
+    6
+    \mu^2
+    \,.
+  \end{array}
+\]
+
+This shows that the [[Einstein equation]] $G_{a b} = T_{a b}$ is satisfied 
+
+> (up to a conventional rescaling of $F$...)
+
 \end{example}
 
 \linebreak
