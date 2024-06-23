@@ -33,7 +33,7 @@ A [[field (physics)|field]] configuration of the [[physical theory]] of _gravity
 
 (This parameterization of the gravitational field is called the [[first-order formulation of gravity]].) The component $E$ of the connection is the [[vielbein]] that encodes a [[pseudo-Riemannian metric]] $g = E \cdot E$ on $X$ and makes $X$ a [[pseudo-Riemannian manifold]]. Its quanta are the [[graviton]]s.
 
-The [[non-propagating field]] $\Omega$ is the [[spin connection]].
+The "non-propagating field" $\Omega$ is the [[spin connection]].
 
 The [[action functional]] on the space of such connection which defines the [[classical field theory]] of gravity is the [[Einstein-Hilbert action]].
 
