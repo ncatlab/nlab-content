@@ -28,14 +28,57 @@ Every [[spacetime]] looks like a pp-wave near a [[lightlike]] [[geodesic]]. This
 
 Notice that Penrose limits of [[Einstein manifolds]] are [[Ricci flat]] ([Philip 2005, Prop. 3.4.1](#Philip05), [Philip 2006, Prop. 3](#Philip06), review in [Blau 2011](#Blau11), [p. 41](https://ncatlab.org/nlab/files/BlauPlaneWavesAndPenroseLimit.pdf#page=41)).
 
-{#MaximallySupersymmetric11dExample} For example, the Penrose limits of both the [[black brane|black]] [[M2-brane]] solution $AdS_4 \times S^7$ as well as the [[black brane|black]] [[M5-brane]] solution $AdS_7 \times S^4$ of [[D=11 supergravity]] are &lbrack;[BFHP 2002](#BlauFigueroaHullPapadopoulos02), [BMN 2002, §2](#BerensteinMaldacenaNastase02)&rbrack; the (same) pp-maximally supersymmetric pp-wave spacetime originally found by [Kowalski-Glikman 1984 (0)](#Kowalski-Glikman84), [Figueroa & Papadopoulos 2001 (12,14)](#FigueroaPapadopoulos01):
+{#MaximallySupersymmetric11dExample} For example, the Penrose limits of both the [[black brane|black]] [[M2-brane]] solution $AdS_4 \times S^7$ as well as the [[black brane|black]] [[M5-brane]] solution $AdS_7 \times S^4$ of [[D=11 supergravity]] are &lbrack;[BFHP 2002](#BlauFigueroaHullPapadopoulos02), [BMN 2002, §2](#BerensteinMaldacenaNastase02)&rbrack; the (same) pp-maximally supersymmetric pp-wave spacetime originally found by [Kowalski-Glikman 1984 (9)](#Kowalski-Glikman84), [Figueroa & Papadopoulos 2001 (12,14)](#FigueroaPapadopoulos01):
 
 ### Examples
 
 \begin{example}\label{MaximallySuSyWaveIn11D}
 **(maximally supersymmetric pp-wave in 11d SuGra)**
 \linebreak
-The maximally supersymmetric pp-wave solution of [[D=11 supergravity]] &lbrack;[Kowalski-Glikman 1984 (0)](#Kowalski-Glikman84), [Figueroa & Papadopoulos 2001 (12,14)](#FigueroaPapadopoulos01)&rbrack; has [[metric tensor]] of the form
+The maximally supersymmetric pp-wave solution of [[D=11 supergravity]] is given as follows &lbrack;[Kowalski-Glikman 1984 (0)](#Kowalski-Glikman84), [Figueroa & Papadopoulos 2001 (12,14)](#FigueroaPapadopoulos01)&rbrack;:
+
+Consider on the [[vector space]]/[[smooth manifold]] $\mathbb{R}^{1,10}$ with its canonical [[linear basis]]/[[coordinate functions]] $(x^a)_{a=0}^{10}$ and the corresponding [[light cone gauge]] basis, defined by
+
+$$
+  \begin{array}{lcl}
+    x^- 
+      &\coloneqq& 
+    (-x^0 + x^{10})/\sqrt{2}
+    \\
+    x^+ 
+      &\coloneqq& 
+    \phantom{+}(x^0 + x^{10})/\sqrt{2}
+    \\
+    x^i 
+      &\coloneqq& 
+    \;\phantom{+}x^a\; \;\text{for}\; a = i \in \{1,2,3\}
+    \\
+    x^j 
+      &\coloneqq& 
+    \;\phantom{+}x^a\; \;\text{for}\; a = j \in \{4,5,6,7,8,9\}
+  \end{array}
+$$
+
+in terms of which the [[Minkowski metric]] $\eta_{a b} \coloneqq \mathrm{diag}\big(-1,+1, +1, \cdots, +1\big)_{a b}$ has components
+
+$$
+  \begin{array}{lcl}
+    \eta_{+ +} \,=\, \eta_{- -}
+    &=&
+    0
+    \\
+    \eta_{- +} \,=\, \eta_{+ -}
+    &\coloneqq&
+    1
+    \\  
+    \eta_{i_1 i_2} &\coloneqq& diag(1,1,1)_{i_1 i_2}
+    \\
+    \eta_{j_1 j_2} &\coloneqq& diag(1,1,1,1,1,1)_{j_1 j_2}
+    \,.
+  \end{array}
+$$
+
+Now on $\mathbb{R}^{1,10}$ regarded as a [[coordinate chart]], the pp-wave under consideration has [[metric tensor]] of the form
 \[
   \label{MetricTensorOfMaximalSuSyWaveIn11d}
   \begin{array}{lcl}
@@ -65,6 +108,7 @@ The maximally supersymmetric pp-wave solution of [[D=11 supergravity]] &lbrack;[
   \;\;
   \begin{array}{l}
     i \,\in\, \{1,2,3\}
+    \mathrlap{\,,}
     \\
     j \,\in\, \{4,5,6,7,8,9\}
     \mathrlap{\,,}
@@ -74,57 +118,28 @@ supported by a [[supergravity C-field|C-field]] [[flux density]] of the form
 \[
   \label{CFieldFLuxDensityForMaximalSuSyWaveIn11d}
   F
-  \;=\;
+  \;\equiv\;
   \mu 
+  \sqrt{2}
   \;
   \mathrm{d}x^- 
   \, \mathrm{d}x^1 \, \mathrm{d}x^2 \, \mathrm{d}x^3
+  \;\;=\;\;
+
+  \mu
+  \,
+  \mathrm{d}x^{10} \,
+  \mathrm{d}x^1 \, \mathrm{d}x^2 \, \mathrm{d}x^3
+  -
+  \mu
+  \,
+  \mathrm{d}x^{0} \,
+  \mathrm{d}x^1 \, \mathrm{d}x^2 \, \mathrm{d}x^3
   \,,
 \]
 for given parameter $\mu \in \mathbb{R}$.
 
-Consider on the [[vector space]] $\mathbb{R}^{1,10}$ with its canonical [[linear basis]] $(x^a)_{a=0}^{10}$ the [[light cone gauge]] basis
-
-$$
-  \begin{array}{lcl}
-    x^- 
-      &\coloneqq& 
-    (-x^0 + x^1)/\sqrt{2}
-    \\
-    x^+ 
-      &\coloneqq& 
-    \phantom{+}(x^0 + x^1)/\sqrt{2}
-    \\
-    x^i 
-      &\coloneqq& 
-    \phantom{+}x^a \;\text{for}\; a = i \in \{1,2,3\}
-    \\
-    x^j 
-      &\coloneqq& 
-    \phantom{+}x^a \;\text{for}\; a = j \in \{4,5,6,7,8,9\}
-  \end{array}
-$$
-
-in terms of which the [[Minkowski metric]] $\eta_{a b} \coloneqq \mathrm{diag}\big(-1,+1, +1, \cdots, +1\big)_{a b}$ has components
-
-$$
-  \begin{array}{lcl}
-    \eta_{+ +} \,=\, \eta_{- -}
-    &=&
-    0
-    \\
-    \eta_{- +} \,=\, \eta_{+ -}
-    &\coloneqq&
-    1
-    \\  
-    \eta_{i_1 i_2} &\coloneqq& diag(1,1,1)_{i_1 i_2}
-    \\
-    \eta_{j_1 j_2} &\coloneqq& diag(1,1,1,1,1,1)_{j_1 j_2}
-    \,.
-  \end{array}
-$$
-
-Then a choice of orthonormal [[coframe field]] for (eq:MetricTensorOfMaximalSuSyWaveIn11d) is (cf. [Bandos 2012 (3.4)](#Bandos12))
+A compatible choice of orthonormal [[coframe field]] for (eq:MetricTensorOfMaximalSuSyWaveIn11d) is \[cf. [Bandos 2012 (3.4)](#Bandos12)\]
 
 $$
   \begin{array}{lcl}
@@ -173,7 +188,7 @@ $$
   0
   \,,
 $$
-has as only non-vanishing components (cf. [Bandos 2012 (3.5)](#Bandos12)):
+has as only non-vanishing components \[cf. [Bandos 2012 (3.5)](#Bandos12)\]:
 $$
   \begin{array}{l}
     \omega^{+ i} \;=\; - \omega^{i +}
@@ -207,7 +222,7 @@ $$
 $$
 From this, the only non-vanishing contribution in  
 
-* the [[curvature 2-form]] $R^{a b} \,\equiv\, \mathrm{d}\omega^{a b} - \omega^a{}_c \omega^{c b}$ is (cf. [Bandos 2012 (3.6)](#Bandos12)):
+* the [[curvature 2-form]] $R^{a b} \,\equiv\, \mathrm{d}\omega^{a b} - \omega^a{}_c \omega^{c b}$ is \[cf. [Bandos 2012 (3.6)](#Bandos12)\]:
   $$
     \begin{array}{l}
       R^{+ i}
@@ -226,11 +241,11 @@ From this, the only non-vanishing contribution in
       \mathrm{d} \omega^{+ j}
       \;=\;
       (\mu/6)^2 \, e^j \, e^-
-      \,.
+      \,,
     \end{array}
   $$
 
-* the [[Riemann tensor]] ($R^{a b} = \tfrac{1}{2}R^{a b}{}_{c_1 c_2} e^{c_1} e^{c_2}$) is (cf. [Bandos 2012 (3.7)](#Bandos12)):
+* the [[Riemann tensor]] ($R^{a b} = \tfrac{1}{2}R^{a b}{}_{c_1 c_2} e^{c_1} e^{c_2}$) is \[cf. [Bandos 2012 (3.7)](#Bandos12)\]:
   $$
     \begin{array}{l}
       R^{+ i_1}\,{}_{i_2 -}
@@ -240,7 +255,7 @@ From this, the only non-vanishing contribution in
       R^{+ j_1}\,{}_{j_2 -}
       \;=\;
       \delta^{j_1}_{j_2} (\mu/6)^2 
-      \,.
+      \,,
     \end{array}
   $$
 
@@ -254,7 +269,7 @@ From this, the only non-vanishing contribution in
     -\mu^2/6
     \,=\,
     -\tfrac{1}{2}\mu^2
-    \,.
+    \,,
   \]
 
 * the [[scalar curvature]] $\mathrm{R} \equiv \eta^{a b}Ric_{a b}$ is
@@ -282,23 +297,26 @@ On the other hand, the non-vanishing contribution in the [[energy momentum tenso
 $$
   T_{\mu \nu}
   \;=\;
+  -
   \big(
+    F_{\mu \, \mu_1 \cdots \mu_{s-1}}
+    F_{\nu}{}^{ \mu_1 \cdots \mu_{s-1} }
+    -
     \tfrac{1}{8}
     F_{\mu_1 \cdots \mu_s}
     F^{\mu_1 \cdots \mu_s}
     \,
     g_{\mu \nu}
-    -
-    F_{\mu \, \mu_1 \cdots \mu_{s-1}}
-    F_{\nu}{}^{ \mu_1 \cdots \mu_{s-1} }
   \big)
 $$
 of the [[supergravity C-field|C-field]] (eq:CFieldFLuxDensityForMaximalSuSyWaveIn11d) is
 \[
+  \label{EnergyMomentumOfCFieldInMaximalSuSyWaveIn11d}
   \begin{array}{lcl}
     T_{- -}
     &=&
     -
+    2
     \mu^2
     \epsilon_{i_1 i_2 i_3}
     \,
@@ -306,16 +324,22 @@ of the [[supergravity C-field|C-field]] (eq:CFieldFLuxDensityForMaximalSuSyWaveI
     \\
     &=&
     -
-    6
+    12
     \mu^2
     \,.
   \end{array}
 \]
 
-This shows that the [[Einstein equation]] $G_{a b} = T_{a b}$ is satisfied 
+Comparison of (eq:EinsteinTensorOfMaximalSuSyWaveIn11d) with (eq:EnergyMomentumOfCFieldInMaximalSuSyWaveIn11d) shows that the [[Einstein equation]] of [[D=11 supergravity]] \[cf. [here](D=11+N=1+supergravity#eq:TheEinsteinEquation)\]
 
-> (up to a conventional rescaling of $F$...)
+$$
+  G_{a b} 
+  \;=\; 
+  \tfrac{1}{24}
+  T_{a b}
+$$
 
+is indeed satisfied by the pp-wave spacetime (eq:MetricTensorOfMaximalSuSyWaveIn11d) with the C-field flux (eq:CFieldFLuxDensityForMaximalSuSyWaveIn11d).
 \end{example}
 
 \linebreak
