@@ -28,8 +28,145 @@ Every [[spacetime]] looks like a pp-wave near a [[lightlike]] [[geodesic]]. This
 
 Notice that Penrose limits of [[Einstein manifolds]] are [[Ricci flat]] ([Philip 2005, Prop. 3.4.1](#Philip05), [Philip 2006, Prop. 3](#Philip06), review in [Blau 2011](#Blau11), [p. 41](https://ncatlab.org/nlab/files/BlauPlaneWavesAndPenroseLimit.pdf#page=41)).
 
-{#MaximallySupersymmetric11dExample} For example, the Penrose limits of both the [[black brane|black]] [[M2-brane]] solution $AdS_4 \times S^7$ as well as the [[black brane|black]] [[M5-brane]] solution $AdS_7 \times S^4$ of [[D=11 supergravity]] are &lbrack;[BFHP 2002](#BlauFigueroaHullPapadopoulos02), [BMN 2002, §2](#BerensteinMaldacenaNastase02)&rbrack; the (same) pp-wave spacetime originally found by [Kowalski-Glikman 1984](#Kowalski-Glikman84), [Figueroa & Papadopoulos 2001](#FigueroaPapadopoulos01).
+{#MaximallySupersymmetric11dExample} For example, the Penrose limits of both the [[black brane|black]] [[M2-brane]] solution $AdS_4 \times S^7$ as well as the [[black brane|black]] [[M5-brane]] solution $AdS_7 \times S^4$ of [[D=11 supergravity]] are &lbrack;[BFHP 2002](#BlauFigueroaHullPapadopoulos02), [BMN 2002, §2](#BerensteinMaldacenaNastase02)&rbrack; the (same) pp-maximally supersymmetric pp-wave spacetime originally found by [Kowalski-Glikman 1984 (0)](#Kowalski-Glikman84), [Figueroa & Papadopoulos 2001 (12,14)](#FigueroaPapadopoulos01):
 
+### Examples
+
+\begin{example}
+**(maximally supersymmetric pp-wave in 11d SuGra)**
+\linebreak
+The maximally supersymmetric pp-wave solution of [[D=11 supergravity]] &lbrack;[Kowalski-Glikman 1984 (0)](#Kowalski-Glikman84), [Figueroa & Papadopoulos 2001 (12,14)](#FigueroaPapadopoulos01)&rbrack; has [[metric tensor]] of the form
+\[
+  \label{MetricTensorOfMaximalSuSuWaveIn11d}
+  \begin{array}{lcl}
+  \mathrm{d}s^2
+  &\equiv&
+  2
+  \, 
+  \mathrm{d}x^- \otimes \mathrm{d}x^+ 
+  \,-\,
+  \big(
+    (\mu/3)^2 x^i x_i
+    +
+    (\mu/6)^2 x^j x_j
+  \big)
+  \,
+  \mathrm{d}x^- \otimes \mathrm{d}x^-
+  \\
+  &&
+  \,+\,
+  \mathrm{d}x^i \otimes \mathrm{d}x_i
+  \,+\,
+  \mathrm{d}x^j \otimes \mathrm{d}x_j
+  \,,
+  \end{array}
+  \;\;
+  \text{where}
+  \;\;
+  \begin{array}{l}
+    i \,\in\, \{1,2,3\}
+    \\
+    j \,\in\, \{4,5,6,7,8,9\}
+    \mathrlap{\,,}
+  \end{array}
+\]
+supported by a [[supergravity C-field|C-field]] [[flux density]] of the form
+$$
+  F
+  \;=\;
+  \mu 
+  \;
+  \mathrm{d}x^- 
+  \, \mathrm{d}x^1 \, \mathrm{d}x^2 \, \mathrm{d}x^3
+  \,,
+$$
+for given parameter $\mu \in \mathbb{R}$.
+
+Consider on the [[vector space]] $\mathbb{R}^{1,10}$ with its canonical [[linear basis]] $(x^a)_{a=0}^{10}$ the [[light cone gauge]] basis
+
+$$
+  \begin{array}{lcl}
+    x^- 
+      &\coloneqq& 
+    (-x^0 + x^1)/\sqrt{2}
+    \\
+    x^+ 
+      &\coloneqq& 
+    \phantom{+}(x^0 + x^1)/\sqrt{2}
+    \\
+    x^i 
+      &\coloneqq& 
+    \phantom{+}x^a \;\text{for}\; a = i \in \{1,2,3\}
+    \\
+    x^j 
+      &\coloneqq& 
+    \phantom{+}x^a \;\text{for}\; a = j \in \{4,5,6,7,8,9\}
+  \end{array}
+$$
+
+in terms of which the [[Minkowski metric]] $\eta_{a b} \coloneqq \mathrm{diag}\big(-1,+1, +1, \cdots, +1\big)_{a b}$ has components
+
+$$
+  \begin{array}{lcl}
+    \eta_{+ +} \,=\, \eta_{- -}
+    &=&
+    0
+    \\
+    \eta_{- +} \,=\, \eta_{+ -}
+    &\coloneqq&
+    1
+    \\  
+    \eta_{i_1 i_2} &\coloneqq& diag(1,1,1)_{i_1 i_2}
+    \\
+    \eta_{j_1 j_2} &\coloneqq& diag(1,1,1,1,1,1)_{j_1 j_2}
+    \,.
+  \end{array}
+$$
+
+Then a choice of [[coframe field]] for (eq:MetricTensorOfMaximalSuSuWaveIn11d) is (cf. [Bandos 2012 (3.4)](#Bandos12))
+
+$$
+  \begin{array}{lcl}
+    e^+ 
+    &\coloneqq&
+    \mathrm{d}x^+ 
+    \,+\,
+    \tfrac{1}{2}
+    \big(
+      (\mu/3)^2 \, x^i x_i
+      \,+\,
+      (\mu/6)^2 \, x^j x_j
+    \big)
+    \,
+    \mathrm{d}x^-
+    \\
+    e^-
+    &\coloneqq&
+    \mathrm{d}x^-
+    \\
+    e^i &\coloneqq& \mathrm{d}x^i
+    \\
+    e^j &\coloneqq& \mathrm{d}x^j
+  \end{array}
+$$
+in that
+$$
+  \mathrm{d}s^2
+  \;=\;
+  2 \, e^- \otimes e^+
+  \,+\,
+  e^1 \otimes e^1 
+  \,+\,
+  e^2 \otimes e^2
+  \,+\,
+  \cdots
+  \,+\,
+  e^{9} \otimes e^9
+  \,.
+$$
+\end{example}
+
+\linebreak
 
 ### Relation to BMN matrix model
 
@@ -93,7 +230,7 @@ On the enhancement of pp-wave spacetimes to [[super spacetimes]]:
 
 * [[Keshav Dasgupta]], [[Mohammad M. Sheikh-Jabbari]], [[Mark Van Raamsdonk]], §2.2 in: *Matrix Perturbation Theory For M-theory On a PP-Wave*,  J. High Energy Physics **2002** JHEP05 (2002) &lbrack;[arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185), [doi:10.1088/1126-6708/2002/05/056](https://iopscience.iop.org/article/10.1088/1126-6708/2002/05/056)&rbrack;
 
-* [[Igor A. Bandos]], p. 7 of: *Multiple M0-brane equations in eleven dimensional pp-wave superspace and BMN matrix model*, Phys. Rev. D **85** 126005 (2012) &lbrack;[arXiv:1202.5501](https://arxiv.org/abs/1202.5501), [doi:10.1103/PhysRevD.85.126005](https://doi.org/10.1103/PhysRevD.85.126005)&rbrack;
+* {#Bandos12} [[Igor A. Bandos]], p. 7 of: *Multiple M0-brane equations in eleven dimensional pp-wave superspace and BMN matrix model*, Phys. Rev. D **85** 126005 (2012) &lbrack;[arXiv:1202.5501](https://arxiv.org/abs/1202.5501), [doi:10.1103/PhysRevD.85.126005](https://doi.org/10.1103/PhysRevD.85.126005)&rbrack;
 
 
 [[!include pp-waves as Penrose limits of AdS spacetimes -- references]]
