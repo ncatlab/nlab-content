@@ -155,6 +155,9 @@ $$Tr_{A,B}^X(f)(a)\ \ \ = \ \ \ let\ (b,x)=f(a,x)\ in\ b$$
 
   This is an example of a cartesian category with a parameterized fixed point operator ([Hasegawa 1997](#Hasegawa97)).
 
+
+* Let $M$ be a [[cancellative monoid| cancellative commutative monoid]]. Write $\mid$ the divisibility relation i.e. for every $a,b \in M$, we write $a \mid b$ iff there exists $c \in M$ such that $b=ca$. Then $(M, \mid)$ is a [[preordered set]], as such it is a [[thin category]]. Moreover $(M, \mid)$ becomes a monoidal category if we define $a \otimes b = ab$ for every $a,b \in M$, with monoidal unit the unit $1$ of the monoid. Note that tensor product of morphisms is obtained via the compatibility of the multiplication with divisibility: if $a \mid b$ and $c \mid d$, then $ac \mid bd$. This monoidal category is traced since if $ac \mid bc$, then $a \mid b$. In particular if $R$ is an integral domain, then $(R \backslash \{0\}, \mid, \cdot, 1)$ is a traced (symmetric) monoidal category. 
+
 ## Properties
 
 ### Relation to compact closed categories
