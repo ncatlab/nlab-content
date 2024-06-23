@@ -23,22 +23,28 @@
 {: toc}
 
 ## Idea
+ {#Idea}
 
-In a strict sense of the term, a **function** is a [[homomorphism]] $f \colon S \to T$ of [[sets]]: a prescription which takes any [[element]] $s \in S$ to a unique element $f(s) \in T$, this also called the *[[value]]* of the function at $s$.
+A *function* $f \colon S \to T$ from a [[set]] $S$ (the *[[domain]]*) to a [[set]] $T$ (the *[[codomain]]*) is a prescription which takes any [[element]] $s \in S$ to a unique element $f(s) \in T$. One also says that:
 
+* $f(s)$ is the  *[[value]]* of the function at $s$, 
 
-Instead of "function" one also speaks of _[[map]]_ or _mapping_, but those terms are used in other ways in other contexts. 
+* $f(s) \in T$ is *a function of $s \in S$*,
 
-A function from a [[set]] $A$ to a set $B$ is determined by giving, for each element of $A$, a specified element of $B$.  The process of passing from elements of $A$ to elements of $B$ is called [[function application]].  The set $A$ is called the [[domain]] of $f$, and $B$ is called its [[codomain]].
+and the process of assigning $f(s)$ to $s$ is also called *[[function application]]*.
 
-A function is sometimes called a __total function__ to distinguish it from a [[partial function]].
+For emphasis one sometimes speaks of *total functions* to distinguish from *[[partial functions]]* which need not be defined for all [[elements]] $s$ of their [[domain]] [[set]] $S$.
 
+Famous and historically important examples of functions map specifically between sets of [[numbers]] (such as the *[[trigonometric functions]]*, *[[zeta functions]]*, etc.). This specialization of the term goes so far that the term *function theory* is generally understood to refer specifically to [[analysis]] over the [[real number|real]] or [[complex numbers]] (cf. *[[complex analysis]]*).
 
-More generally, every [[morphism]] between [[objects]] in a [[category]] may be thought of as a function in a generalized sense. This generalized use of the word is wide spread (and justified) in [[type theory]], where for $S$ and $T$ two [[types]], there is a [[function type]] denoted $S \to T$ and then the expression $f : S \to T$ means that $f$ is a [[term]] of [[function type]], hence is a function. 
+Instead of "functions" one also speaks of _[[maps]]_ or _mappings_, but these terms are often understood to refer to functions which respect [[extra structure]], hence which are [[homomorphisms]] (for instance *[[continuous maps]]* are functions that respect [[topology|topological]] structure). 
+See also  [further alternative terminology](#AlternativeTerminology) below.
+ 
+Hence one may say that functions are *homomorphisms of plain sets*. Indeed, functions are the *[[morphisms]]* in the [[category]] *[[Set]]* whose [[objects]] are [[sets]]. Conversely this means that every [[morphism]] between [[objects]] in any [[category]] may be thought of as a function in a generalized sense. 
 
-In this generalized sense, functions between sets are the [[morphisms]] in the [[category]] [[Set]].  This is [[cartesian closed category|cartesian closed]], and the [[function type]] $S \to T$ is then the [[function set]].
+This generalized use of the word is wide spread (and justified) in [[type theory]], where for $S$ and $T$ two [[types]], there is a [[function type]] denoted $S \to T$ such that the [[judgement]] $f \colon S \to T$ means that $f$ is a [[term]] of [[function type]], hence is a function. 
 
-For more on this more general use of "function" see at _[[function type]]_.
+Back in [[categorical semantics]], the [[function type]] becomes the [[internal hom]], which in [[Set]] is the [[function set]] of all functions with given [[domain]] and [[codomain]]. From this perspective a function is an [[element]] of a [[function set]] or generally a [[generalized element]] of an [[internal hom]]-[[object]] ([[exponential object]]).
 
 
 ## Foundations
@@ -50,6 +56,15 @@ The formal definition of a function depends on the [[foundations]] chosen.
 * In [[material set theory]], a function $f$ is often defined to be a set of [[ordered pairs]] such that for every $x$, there is at most one $y$ such that $(x,y)\in f$.  The [[domain]] of $f$ is then the set of all $x$ for which there exists some such $y$.  This definition is not entirely satisfactory since it does not determine the codomain (since not every element of the codomain may be in the [[image]]); thus to be completely precise it is better to define a function to be an ordered triple $(f,A,B)$ where $A$ is the domain and $B$ the codomain.
 
 * In [[structural set theory]], the role of functions depends on the particular axiomatization chosen.  In [[ETCS]], functions are among the undefined things, whereas in [[SEAR]], functions are defined to be particular relations (which in turn are undefined things).
+
+\begin{remark}
+\label{FunctionsOfSetsAsTrees}
+**(functions as trees)**
+\linebreak
+Functions of sets may be identified with [[rooted trees]] of height 2 by treating the [[domain]] as the [[vertices]] of height 2, the [[codomain]] as the vertices of height 1, and letting every height 2 vertex have a single [[edge]] to (have its parent be) the [[value]] it is sent to by the function. 
+
+This is a special case of the equivalence between rooted trees and [[presheaves]] on $\mathbb{N}$ (see [there](tree#AsFunctors)).
+\end{remark}
 
 ### In dependent type theory
 
@@ -116,7 +131,8 @@ In [[ZFC]] for example, proper classes are by design not formal objects in the t
 
 Such technical hacks can be avoided by choosing a different foundations. For example, Mac Lane in his [[Categories for the Working Mathematician]] assumes ZFC with a [[universe]] in which some sets are considered large, such as the set of small sets, so that a category like $Set$ (the category of small sets) is again a formal object of the theory. 
 
-## Alternative terms 
+## Alternative terminology
+ {#AlternativeTerminology}
 
 Useful terms, more or less synonymous with *function*, are *assignment*, _assignation_ or more specifically *assignation on objects*. These do not have standard meanings but are useful to signal to readers that the domain of the 'function' under consideration is large, or that one is more interested in [[functorial]] extensions of this partial assignation (cf. e.g. Richard Garner, Homomorphisms of higher categories, Adv. Math. 224 (2010) 2269-2311 for many examples). In mathematical writing "assignment" is usually synonymous with _[[function]]_ or _[[map]]_ or "mapping". For example one might speak of "assigning to each positive number its square root" to refer to the function $\sqrt{(-)} \colon \mathbb{R}_{\geq 0} \to \mathbb{R}$. 
 
@@ -124,9 +140,7 @@ Authors may resort to verb forms such as "assigns" or "associates" or "sends" in
 
 Sometimes the word "assignment" is understood more generally as _[[relation]]_, often when authors define a function to be something that "assigns unique values" (for instance  [here](https://books.google.de/books?id=jYniBQAAQBAJ&pg=PA27&lpg=PA27&dq=function+map+assignment+mathematics&source=bl&ots=2aHFjcZ3c9&sig=1HkugZIeSQdnV70U5gjSx_H21ug&hl=en&sa=X&ved=0ahUKEwjpxuPey6nUAhWIfhoKHe9BDy0Q6AEIVTAJ#v=onepage&q=function%20map%20assignment%20mathematics&f=false)). 
 
-## As Trees
 
-Functions can also be viewed as [[tree | rooted trees]] of height 2 by treating the domain as the vertices of height 2, the codomain as the vertices of height 1, and letting every height 2 vertex have its parent be the value it is sent to by the function. This is a special case of the equivalence between rooted trees and [[presheaf | presheaves]] on $\mathbb{N}$.
 
 ## Examples
 
