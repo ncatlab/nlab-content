@@ -62,7 +62,7 @@ General discussion:
 
 * [[Renata Kallosh]], J. Rahmfeld, [[Arvind Rajaraman]], *Near Horizon Superspace*, JHEP 9809:002 (1998) &lbrack;[arXiv:hep-th/9805217](https://arxiv.org/abs/hep-th/9805217), [doi:10.1088/1126-6708/1998/09/002](https://doi.org/10.1088/1126-6708/1998/09/002)&rbrack;
 
-* [[Piet Claus]], [[Renata Kallosh]], *Superisometries of the $adS* \times S$ Superspace*, JHEP 9903:014 (1999) &lbrack;[arXiv:hep-th/9812087](https://arxiv.org/abs/hep-th/9812087), [doi:10.1088/1126-6708/1999/03/014](https://doi.org/10.1088/1126-6708/1999/03/014)&rbrack;
+* [[Piet Claus]], [[Renata Kallosh]], *Superisometries of the $adS \times S$ Superspace*, JHEP 9903:014 (1999) &lbrack;[arXiv:hep-th/9812087](https://arxiv.org/abs/hep-th/9812087), [doi:10.1088/1126-6708/1999/03/014](https://doi.org/10.1088/1126-6708/1999/03/014)&rbrack;
 
 * [[Antoine Van Proeyen]], sections 4.5, 4.7 of: _Tools for supersymmetry_ &lbrack;[arXiv:hep-th/9910030](https://arxiv.org/abs/hep-th/9910030)&rbrack;
 
