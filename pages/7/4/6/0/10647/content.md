@@ -15,12 +15,17 @@
 
 ## Idea
 
-Formally, Ricci curvature $Ric$ of a [[Riemannian manifold]] is a symmetric [[tensor|rank-2 tensor]] obtained by contraction from the [[Riemann curvature]]. Geometrically one may think $Ric(v, w)$ as the first order approximation of the infinitesimal behavior of the surface spanned by $v$ and $w$. This is made explicit by the following formula for the volume element around some point
+Formally, the *Ricci curvature* $Ric$ of a [[Riemannian manifold]] is a symmetric [[tensor|rank-2 tensor]] obtained by [[tensor contraction|contraction]] from the [[Riemann curvature]]. Geometrically one may think $Ric(v, w)$ as the first order approximation of the infinitesimal behavior of the [[surface]] spanned by [[vectors]] $v$ and $w$. This is made explicit by the following formula for the volume element around some point
 $$
- d\mu _{g}=\left[1-{\tfrac {1}{6}}Ric_{jk}x^{j}x^{k}+O\left(|x|^{3}\right)\right]d\mu _{Euclidean}
+ d\mu _{g}
+  \;=\;
+  \left[1-{\tfrac {1}{6}}Ric_{jk}x^{j}x^{k}+O\left(|x|^{3}\right)\right]d\mu _{Euclidean}
 $$
 
-([[Einstein summation convention]]). A [[spacetime]] with vanishing Ricci curvature is also called _Ricci flat_.
+(where we are using the [[Einstein summation convention]]). 
+
+A [[spacetime]] with vanishing Ricci curvature is also called _Ricci flat_.
+
 
 ## Properties
 
