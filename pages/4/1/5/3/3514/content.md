@@ -40,9 +40,9 @@ On the [[Hopf invariant]]:
 
 * [[J. H. C. Whitehead]], _An expression of Hopf ’s invariant as an integral_, Proc. Nat. Acad. Sci. U. S. A.33 (1947), 117–123 ([jstor:87688](https://www.jstor.org/stable/87688))
 
-Introducing [[crossed modules]] (and [[crossed homomorphisms]]) as models for [[homotopy types]]:
+Proving the [[Whitehead theorem]] andntroducing [[crossed modules]] (and their [[crossed homomorphisms]]) as models for [[homotopy types]]:
 
-* [[J. H. C. Whitehead]], _Combinatorial homotopy I_ , Bull. Amer. Math. Soc, 55, (1949), 213–245.
+* {#Whitehead49} [[J. H. C. Whitehead]], *Combinatorial homotopy.  I*, Bulletin of the American Mathematical Society **55** 3 (1949) 213–245 &lbrack;[doi:10.1090/s0002-9904-1949-09175-9](http://dx.doi.org/10.1090/s0002-9904-1949-09175-9), [pdf](https://www.ams.org/journals/bull/1949-55-03/S0002-9904-1949-09175-9/S0002-9904-1949-09175-9.pdf)&rbrack;
 
 * {#Whitehead49} [[J. H. C. Whitehead]], _Combinatorial Homotopy II_, Bull. Amer. Math. Soc., 55, (1949), 453 – 496 ([euclid:1183513797](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-55/issue-5/Combinatorial-homotopy-II/bams/1183513797.full))
 
