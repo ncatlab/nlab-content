@@ -40,7 +40,7 @@ of the set $G/H$ of [[cosets]].
 
 If $H$ is a subgroup of $G$, the coset projection $-H: G\to G/H$ sends an element $g$ of $G$ to its orbit $gH$. 
 
-If $s : G/H\to G$ is a section of the coset projection $-H: G\to G/H$, then $G/H \times H \to G$ given by $( g H , h )\mapsto s( g H ) h^{-1}$ is a bijection. Its inverse is given by the set map $G\to G/H \times H$ given by $g\mapsto ( g H , g^{-1} s( g H ) )$. Note that the induced product projections $G\to G/H$ conincides with the coset projection.
+If $s : G/H\to G$ is a section of the coset projection $-H: G\to G/H$, then $G/H \times H \to G$ given by $( g H , h )\mapsto s( g H ) h^{-1}$ is a bijection. Its inverse is given by the set map $G\to G/H \times H$ given by $g\mapsto ( g H , g^{-1} s( g H ) )$. Note that the induced product projections $G\to G/H$ coincides with the coset projection.
 
 This argument can be internalized to a group object $G$ and a subgroup object $G$ in a category $C$. In this case, the coset projection $-H: G\to G/H$ is the coequalizer of the action on $G$ by multiplication of $H$. The coset projection need not have a section. However, in case such sections exist, each section $s$ of the coset projection, the above argument internalized yields an isomorphism 
 $$
