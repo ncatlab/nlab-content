@@ -383,7 +383,7 @@ $$
   \end{array}
 $$
 
-This is the result originally reported in [Freund & Rubin 1980 (7)](#FreundRubin80) (the case where their $g_s$ is Lorentzian, so that $det(g_s)$ is negative --- except that they seem to drop the joint factor of $(s-1)!$; but for $s=2$ the factor disappears and we get their equation (4) on the nose.)
+This is the result originally reported in [Freund & Rubin 1980 (7)](#FreundRubin80) (the case where their $g_s$ is Lorentzian, so that $det(g_s)$ is negative --- except that they seem to drop the joint factor of $(s-1)!$; but for $s=2$ the factor disappears and we get their equation (4) on the nose).
 
 {#Conclusion} By comparison with (eq:CosmologicalConstantAndScalarCurvature) this means that for the maximally extended solution
 
