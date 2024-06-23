@@ -17,12 +17,12 @@
 
 ## Idea
 
-One of the types of [[BPS states]] of [[11-dimensional supergravity]] is a [[pp-wave spacetime|pp-]][[gravitational wave]]-solution called the _M-wave_ ([Hull 84](#Hull84)). 
-Survey includes ([Philip 05, p. 94](#Philip05), [Bandos 12](#Bandos12)).
+One of the types of [[BPS states]] of [[11-dimensional supergravity]] is a [[pp-wave spacetime|pp-]][[gravitational wave]]-solution called the _M-wave_ ([Hull 1984](#Hull84)). 
+Survey includes [Philip 2005 p. 94](#Philip05), [Bandos 12](#Bandos12).
 
-Under the [[duality between M-theory and type IIA string theory]] the M-wave becomes the [[black brane|black]] [[D0-brane]] under [[double dimensional reduction]] ([Bergshoeff-Townsend 96](#BergshoeffTwonsend96)).
+Under the [[duality between M-theory and type IIA string theory]] the M-wave becomes the [[black brane|black]] [[D0-brane]] under [[double dimensional reduction]] ([Bergshoeff & Townsend 1996](#BergshoeffTwonsend96)).
 
-The [[bound states]] of M-waves and [[M5-branes]] are argued to correspond to [[self-dual string]] [[instanton]] solutions in the [[6d (2,0)-superconformal QFT]] [[worldsheet]] theory of the M5 in ([Chu-Isono 12](#ChuIsono13)).
+The [[bound states]] of M-waves and [[M5-branes]] are argued to correspond to [[self-dual string]] [[instanton]] solutions in the [[6d (2,0)-superconformal QFT]] [[worldsheet]] theory of the M5 ([Chu & Isono 2012](#ChuIsono13)).
 
 
 ## Properties
@@ -56,7 +56,7 @@ The M-wave may [[brane intersection|intersect]] [[black brane|black]] [[M2-brane
 
 * {#Philip05} [[Simon Philip]], *Plane-wave limits and homogeneous M-theory backgrounds*, PhD thesis, Edinburgh (2005) &lbrack;[pdf](https://www.era.lib.ed.ac.uk/bitstream/handle/1842/15645/Philip2005.Pdf?sequence=1), [[PhilipPlaneWave05.pdf:file]]&rbrack;
 
-* {#Philip06} [[Simon Philip]], *Penrose limits of homogeneous spaces*, Journal of Geometry and Physics **56** 9 (2006) 1516-1533 &lbrack;[doi:10.1016/j.geomphys.2005.08.002](https://doi.org/10.1016/j.geomphys.2005.08.002), [doi:math/0405506](https://arxiv.org/abs/math/0405506)&rbrack;
+* {#Philip06} [[Simon Philip]], *Penrose limits of homogeneous spaces*, Journal of Geometry and Physics **56** 9 (2006) 1516-1533 &lbrack;[doi:10.1016/j.geomphys.2005.08.002](https://doi.org/10.1016/j.geomphys.2005.08.002), [arXiv:math/0405506](https://arxiv.org/abs/math/0405506)&rbrack;
 
 
 * {#BPST09} [[David Berman]], Malcolm J. Perry, [[Ergin Sezgin]], Daniel C. Thompson, _Boundary Conditions for Interacting Membranes_, JHEP 1004:025, 2010 ([arXiv:0912.3504](https://arxiv.org/abs/0912.3504))
