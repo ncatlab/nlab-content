@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On supersymmetric solutions to [[D=11 supergravity]]:
+
+* [[Tetsuji Kimura]], *Eleven-dimensional Supergravities on Maximally Supersymmetric Backgrounds*, TK-NOTE/03-11 (2003-2014) &lbrack;[pdf](https://www2.yukawa.kyoto-u.ac.jp/~tetsuji.kimura/NOTEs/sugra-note.pdf), [[Kimura-11dSugraBackgrounds.pdf:file]]&rbrack;
+
+
 On [[RR-field tadpole cancellation]] on [[orbifolds]]:
 
 * [[Tetsuji Kimura]], Mitsuhisa Ohta, Kei-Jiro Takahashi, _Type IIA orientifolds and orbifolds on non-factorizable tori_, Nucl. Phys. B **798** (2008) 89-123 &lbrack;[arXiv:0712.2281](https://arxiv.org/abs/0712.2281), [doi:10.1016/j.nuclphysb.2008.01.030](https://doi.org/10.1016/j.nuclphysb.2008.01.030)&rbrack;
