@@ -18,7 +18,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -322,7 +321,9 @@ See also
 
 * {#Page83} [[Don Page]], _Classical stability of round and squashed seven-spheres in eleven-dimensional supergravity_, Phys. Rev. D 28, 2976 (1983) ([spire:14480](http://inspirehep.net/record/14480) [doi:10.1103/PhysRevD.28.2976](https://doi.org/10.1103/PhysRevD.28.2976))
 
-* [[Ergin Sezgin]], _11D Supergravity on $AdS_4 \times S^7$ versus $AdS_7 \times S^4$_ ([arXiv:2003.01135](https://arxiv.org/abs/2003.01135))
+* [[Ergin Sezgin]], _11D Supergravity on $AdS_4 \times S^7$ versus $AdS_7 \times S^4$_ &lbrack;[arXiv:2003.01135](https://arxiv.org/abs/2003.01135)&rbrack;
+
+* [[Tetsuji Kimura]], *Eleven-dimensional Supergravities on Maximally Supersymmetric Backgrounds*, TK-NOTE/03-11 (2003-2014) &lbrack;[pdf](https://www2.yukawa.kyoto-u.ac.jp/~tetsuji.kimura/NOTEs/sugra-note.pdf), [[Kimura-11dSugraBackgrounds.pdf:file]]&rbrack;
 
 
 Classification of symmetric solutions:
