@@ -54,7 +54,7 @@ The following proposition treats the interactions of gcd, lcm and $0$.
 \begin{proposition}
 Let $R$ be an integral domain.
 
-* Let $r \in R$. Then $gcd(r,0)=lcm(r,0)=r$.
+* Let $r \in R$. Then $gcd(r,0)=r$ and $lcm(r,0)=0$.
 
 * Let $a,b \in R$. Then, $gcd(a,b)$ exists and is equal to $0$ iff both $a$ and $b$ are zero.
 
@@ -63,7 +63,7 @@ Let $R$ be an integral domain.
 \end{proposition}
 \begin{proof}
 
-* We have that $r$ divides both $r$ and $0$. If $s$ divides both $r$ and $0$, then in particular $s$ divides $r$. Therefore $gcd(r,0)=r$. We have that both $r$ and $0$ divides $0$. If both $r$ and $0$ divides $s$, then in particular $r$ divides $s$. Therefore $lcm(r,0)=r$.
+* We have that $r$ divides both $r$ and $0$. If $s$ divides both $r$ and $0$, then in particular $s$ divides $r$. Therefore $gcd(r,0)=r$. We have that both $r$ and $0$ divides $0$. If both $r$ and $0$ divides $s$, then in particular $0$ divides $s$. Therefore $lcm(r,0)=0$.
 
 * If $gcd(a,b)=0$, then both $a$ and $b$ are zero since $gcd(a,b)$ divides both of them. If both $a$ and $b$ are zero, we already know from the previous point that $gcd(a,b)=0$.
 
