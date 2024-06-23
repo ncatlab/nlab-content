@@ -1013,8 +1013,9 @@ which is  manifestly the claimed [[Hodge duality]] relation.
 \end{proof}
  
 \begin{lemma}\label{SuperCFieldBianchiImpliesSuGraEoM}
-  Given the Bianchi identities for $G_4^s$ (eq:BianchiIdentityForG4sInComponents) and $G_7^s$ (eq:BianchiIdentityForG7sInComponents), the supergravity fields satisfy their [[Einstein equations]] with these source terms:
-$$
+  Given the Bianchi identities for $G_4^s$ (eq:BianchiIdentityForG4sInComponents) and $G_7^s$ (eq:BianchiIdentityForG7sInComponents), the supergravity fields satisfy their [[Einstein equations]] with source the [[energy momentum tensor]] of the [[supergravity C-field|C-field]]:
+\[
+  \label{TheEinsteinEquation}
   \begin{array}{l}
     \mathrm{d}\, G_4^s \;=\;0
     \,,
@@ -1030,15 +1031,17 @@ $$
       \delta^a_b\, 
       R^{m n}_{m n}
       \;=\;
-      \tfrac{3}{4! \cdot 4!}
+      -
+      \tfrac{1}{23}
       \Big(
-      \delta^a_b
       \,
-      (G_4)^{c_1 \cdots c_4}
-      (G_4)_{c_1 \cdots c_4}
-      -8
       (G_4)^a{c_1 \cdots c_3}
       (G_4)_{b c_1 \cdots c_3}
+      -
+      \tfrac{1}{8}
+      (G_4)^{c_1 \cdots c_4}
+      (G_4)_{c_1 \cdots c_4}
+      \delta^a_b
       \;\;\;\;
       ({\color{darkblue}\text{Einstein equation}})
       \\
@@ -1051,9 +1054,9 @@ $$
     \end{array}
     \right.
   \end{array}
-$$
+\]
 \end{lemma}
-Essentially this has been claimed in [CDF91, (III.8.54-60)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre).
+Cf. e.g. [CDF91, (III.8.54-60)](D'Auria-Fre+formulation+of+supergravity#CastellaniDAuriaFre); full details are given in [GSS24, Lem. 3.8](D=11+supergravity#GiotopoulosSatiSchreiber24).
 
 In conlcusion, the above lemmas give Thm. \ref{11dSuGraEOMFromSuperFluxIdentity}.
 
