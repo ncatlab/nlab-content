@@ -121,15 +121,15 @@ where $s,t,u \in R$.
 
 We claim that $s$ is a gcd of $a$ and $b$.
 
-We can write in the field of fractions of $R$:
+We can thus write:
 $$
-a=\frac{ab}{lcm(a,b)}\cdot\frac{lcm(a,b)}{b}=su
+ab=ats
 $$
 and
 $$
-b=\frac{ab}{lcm(a,b)}\cdot\frac{lcm(a,b)}{a}=st
+ab=bus
 $$
-Therefore, $s$ divides both $a$ and $b$. 
+from which it follows that $b=ts$ and $a=us$. Therefore, $s$ divides both $a$ and $b$. 
 
 Suppose now that $v \in R$ is such that $v$ divides both $a$ and $b$. Then $v$ is nonzero. Moreover, $v \mid ab$. Write $ab=kv$ where $k \in R$. We have that $a \mid k$ (since $v \mid b$) and $b \mid k$ (since $v \mid a$). Therefore, $lcm(a,b) \mid k$. Write $k=lcm(a,b)l$ where $l \in R$. We obtain $ab=lcm(a,b)lv$. Hence, $lcm(a,b)s=lcm(a,b)lv$. Since both $a$ and $b$ are nonzero, we have that $lcm(a,b)$ is nonzero. It follows that $s=lv$. Therefore $v \mid s$. 
 
