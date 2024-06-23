@@ -1,7 +1,7 @@
 
 **[[gravity]], [[supergravity]]**
 
-## Formalism
+**Formalism**
 
 * [[Poincaré Lie algebra]]
 
@@ -16,7 +16,7 @@
   * [[spacetime]]
 
 
-## Definition
+**Definition**
 
 * [[Einstein-Hilbert action]], [[Einstein's equations]], [[general relativity]]
 
@@ -24,7 +24,8 @@
 
   * [[gravity as a BF-theory]], [[Plebanski formulation of gravity]], [[teleparallel gravity]]
 
-## Spacetime configurations
+
+**Spacetime configurations**
 
 * [[spacetime]]
 
@@ -36,7 +37,8 @@
 
   * [[Kerr spacetime]]
 
-## Properties
+
+**Properties**
 
 * [[Kaluza-Klein mechanism]]
 
@@ -48,7 +50,8 @@
 
 * [[weak gravity conjecture]]
 
-## Spacetimes
+
+**Spacetimes**
 
 * [[standard model of cosmology]]
 
@@ -82,7 +85,7 @@
 
 
 
-## Quantum theory
+**Quantum theory**
 
 * [[quantum gravity]]
 
