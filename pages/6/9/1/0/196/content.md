@@ -124,6 +124,9 @@ Authors may resort to verb forms such as "assigns" or "associates" or "sends" in
 
 Sometimes the word "assignment" is understood more generally as _[[relation]]_, often when authors define a function to be something that "assigns unique values" (for instance  [here](https://books.google.de/books?id=jYniBQAAQBAJ&pg=PA27&lpg=PA27&dq=function+map+assignment+mathematics&source=bl&ots=2aHFjcZ3c9&sig=1HkugZIeSQdnV70U5gjSx_H21ug&hl=en&sa=X&ved=0ahUKEwjpxuPey6nUAhWIfhoKHe9BDy0Q6AEIVTAJ#v=onepage&q=function%20map%20assignment%20mathematics&f=false)). 
 
+## As Trees
+
+Functions can also be viewed as [[tree | rooted trees]] of height 2 by treating the domain as the vertices of height 2, the codomain as the vertices of height 1, and letting every height 2 vertex have its parent be the value it is sent to by the function. This is a special case of the equivalence between rooted trees and [[presheaf | presheaves]] on $\mathbb{N}$.
 
 ## Examples
 
