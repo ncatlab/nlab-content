@@ -124,7 +124,7 @@ Now on $\mathbb{R}^{1,10}$ regarded as a [[coordinate chart]], the pp-wave under
 supported by a [[supergravity C-field|C-field]] [[flux density]] of the form
 \[
   \label{CFieldFLuxDensityForMaximalSuSyWaveIn11d}
-  F
+  G_4
   \;\equiv\;
   \mu 
   \sqrt{2}
@@ -146,6 +146,9 @@ supported by a [[supergravity C-field|C-field]] [[flux density]] of the form
 \]
 for given parameter $\mu \in \mathbb{R}$.
 
+\linebreak
+
+**The Cartan connection.**
 A compatible choice of orthonormal [[coframe field]] for (eq:MetricTensorOfMaximalSuSyWaveIn11d) is \[cf. [Bandos 2012 (3.4)](#Bandos12)\]
 
 $$
@@ -188,7 +191,7 @@ $$
   \,.
 $$
 
-From this one finds that the [[torsion of a Cartan connection|torsion]]-free [[spin connection]] $\omega$ for this co-frame field, characterized by
+From this one finds that the [[torsion of a Cartan connection|torsion]]-free "[[spin connection]]" $\omega$ for this co-frame field, characterized by
 $$
   \mathrm{d} e^a - \omega^a{}_b \, e^b 
   \;=\;
@@ -196,23 +199,24 @@ $$
   \,,
 $$
 has as only non-vanishing components \[cf. [Bandos 2012 (3.5)](#Bandos12)\]:
-$$
+\[
+  \label{SpinConnectionForMaximallySuSyWaveIn11d}
   \begin{array}{l}
-    \omega^{- i} \;=\; - \omega^{i -}
+    \omega^{+ i} \;=\; - \omega^{i +}
     \;=\;
     (\mu/3)^2 \, x^i \, e^-
     \\
-    \omega^{- j} \;=\; - \omega^{j -}
+    \omega^{+ j} \;=\; - \omega^{j +}
     \;=\;
     (\mu/6)^2 \, x^j \, e^-
     \,,
   \end{array}
-$$
-with which
+\]
+with which indeed
 $$
   \begin{array}{ccl}
   \mathrm{d}e^+
-  &=&
+  &\equiv&
   \,-\,
   (\mu/3)^2 x_i \, \mathrm{d}x^i \otimes e^-
   \,-\,
@@ -221,13 +225,17 @@ $$
   &=&
   \;\;\;\;\;\;\;\;\;\;\;\;
   \omega^+{}_{i} \, \mathrm{e}^i 
-  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
   \,+\,
-  \;
+  \;\;\;\;
   \omega^+{}_{j} \, \mathrm{e}^j
   \,.
   \end{array}
 $$
+
+\linebreak
+
+**The curvature and Einstein tensor.**
 From this, the only non-vanishing contribution in  
 
 * the [[curvature 2-form]] $R^{a b} \,\equiv\, \mathrm{d}\omega^{a b} - \omega^a{}_c \omega^{c b}$ is \[cf. [Bandos 2012 (3.6)](#Bandos12)\]:
@@ -300,19 +308,21 @@ From this, the only non-vanishing contribution in
     \,.
   \]
 
+\linebreak
 
+**The energy-momentum and Einstein equation**.
 On the other hand, the non-vanishing contribution in the [[energy momentum tensor]] 
 $$
   T_{\mu \nu}
   \;=\;
   -
   \big(
-    F_{\mu \, \mu_1 \cdots \mu_{s-1}}
-    F_{\nu}{}^{ \mu_1 \cdots \mu_{s-1} }
+    (G_4)_{\mu \, \mu_1 \cdots \mu_{s-1}}
+    (G_4)_{\nu}{}^{ \mu_1 \cdots \mu_{s-1} }
     -
     \tfrac{1}{8}
-    F_{\mu_1 \cdots \mu_s}
-    F^{\mu_1 \cdots \mu_s}
+    (G_4)_{\mu_1 \cdots \mu_s}
+    (G_4)^{\mu_1 \cdots \mu_s}
     \,
     g_{\mu \nu}
   \big)
@@ -348,6 +358,107 @@ $$
 $$
 
 is indeed satisfied by the pp-wave spacetime (eq:MetricTensorOfMaximalSuSyWaveIn11d) with the C-field flux (eq:CFieldFLuxDensityForMaximalSuSyWaveIn11d).
+
+\linebreak
+
+**Extension to super-spacetime.**
+We discuss lifting the maximally supersymmetric 11d pp-wave spacetime to a [[super spacetime]].
+
+For that purpose, enhance the underlying [[coordinate chart]] $\mathbb{R}^{11}$ to the [[supermanifold]] $\mathbb{R}^{1,10\vert \mathbf{32}}$ with odd coordinate functions $\big(\theta^\alpha\big)_{\alpha = 1}^{32}$.
+
+\linebreak
+
+**The gravitino super-torsion.**
+The odd co-frame component of the [[gravitino]] field strength 
+$$
+  \rho
+  \;\coloneqq\;
+  \mathrm{d}
+  \psi
+  \,-\,
+  \tfrac{1}{4}
+  \omega^{a b} \Gamma_{a b}
+  \psi  
+$$
+in a [[D=11 supergravity]] solution is fixed as a [[function]] of the [[flux density]] $(G_4)$ as (see [this Prop.](D=11+supergravity#BianchiIdentityForG4sInComponents)):
+\[
+  \label{RecallingSupeGravitinoFieldInMaximalSuSyWaveIn11d}
+  \begin{array}{l}
+    \rho
+    \;=\;
+    \tfrac{1}{2} \rho_{a b} \, e^a \, e^b
+    +
+    H_a \psi \, e^b
+    \\
+    H_a 
+      \;\coloneqq\;
+    \tfrac{1}{6}
+    \tfrac{1}{3!}
+    (G_4)_{a\, b_1 b_2 b_3}
+    \Gamma^{b_1 b_2 b_3}
+    -
+    \tfrac{1}{12}
+    \tfrac{1}{4!}
+    (G_4)^{b_1 \cdots b_4}
+    \Gamma_{a\, b_1 \cdots b_4}
+    \,.
+  \end{array}
+\]
+
+We need to complete the [[coframe field]] $e$ to a [[super coframe field]] $(e,\psi)$ and 
+find a [[superfield]] extension the [[spin connection]] $\omega$ (eq:SpinConnectionForMaximallySuSyWaveIn11d) such that this equation (eq:RecallingSupeGravitinoFieldInMaximalSuSyWaveIn11d) holds.
+
+To this end, define &lbrack;[DSV 2002 (2.14)](#DSV02), [Bandos 2012 (3.17)](#Bandos12)&rbrack;
+$$
+  \begin{array}{l}
+    \mathrm{D}
+    \theta^\alpha
+    \;\coloneqq\;
+    \mathrm{d}\theta^\alpha
+    -
+    \tfrac{1}{4}
+    \omega^{a b} (\Gamma_{a b} \theta)^\alpha
+    \pm
+    H_a \theta \, e^a
+    \\
+    \;=\;
+    \mathrm{d}\theta^\alpha
+    \,-\,
+    \tfrac{1}{2}
+    (\mu/3)^2 x^i (\Gamma_{+ i} \theta)^\alpha \, e^-
+    \,-\,
+    \tfrac{1}{2}
+    (\mu/6)^2 x^j (\Gamma_{+ j} \theta)^\alpha \, e^-
+    \,-\,
+    \big(
+    \tfrac{1}{6}
+    \tfrac{1}{3!}
+    (G_4)_{a\, b_1 b_2 b_3}
+    \Gamma^{b_1 b_2 b_3}
+    -
+    \tfrac{1}{12}
+    \tfrac{1}{4!}
+    (G_4)^{b_1 \cdots b_4}
+    \Gamma_{a\, b_1 \cdots b_4}
+    \big)
+    \theta\, e^a
+    \,,
+  \end{array}
+$$
+where in the second line we inserted (eq:SpinConnectionForMaximallySuSyWaveIn11d) and (eq:CFieldFLuxDensityForMaximalSuSyWaveIn11d) via (eq:RecallingSupeGravitinoFieldInMaximalSuSyWaveIn11d),
+and set &lbrack;[DSV 2002 (2.10)](#DSV02), [Bandos 2012 (3.14)](#Bandos12)&rbrack;
+$$
+  \begin{array}{l}
+  \psi
+  \;\coloneqq\;
+  D \theta
+  + \cdots
+  \,.
+  \end{array}
+$$
+
+(...)
+
 
 
 ### The M-wave in 11d
@@ -410,7 +521,7 @@ Its realization as a [[Penrose limit]] of both the [[black brane|black]] [[M2-br
 
 On the enhancement of pp-wave spacetimes to [[super spacetimes]]:
 
-* [[Keshav Dasgupta]], [[Mohammad M. Sheikh-Jabbari]], [[Mark Van Raamsdonk]], §2.2 in: *Matrix Perturbation Theory For M-theory On a PP-Wave*,  J. High Energy Physics **2002** JHEP05 (2002) &lbrack;[arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185), [doi:10.1088/1126-6708/2002/05/056](https://iopscience.iop.org/article/10.1088/1126-6708/2002/05/056)&rbrack;
+* {#DSV02} [[Keshav Dasgupta]], [[Mohammad M. Sheikh-Jabbari]], [[Mark Van Raamsdonk]], §2.2 in: *Matrix Perturbation Theory For M-theory On a PP-Wave*,  J. High Energy Physics **2002** JHEP05 (2002) &lbrack;[arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185), [doi:10.1088/1126-6708/2002/05/056](https://iopscience.iop.org/article/10.1088/1126-6708/2002/05/056)&rbrack;
 
 * {#Bandos12} [[Igor A. Bandos]], p. 7 of: *Multiple M0-brane equations in eleven dimensional pp-wave superspace and BMN matrix model*, Phys. Rev. D **85** 126005 (2012) &lbrack;[arXiv:1202.5501](https://arxiv.org/abs/1202.5501), [doi:10.1103/PhysRevD.85.126005](https://doi.org/10.1103/PhysRevD.85.126005)&rbrack;
 
