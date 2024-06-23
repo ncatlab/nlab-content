@@ -269,7 +269,8 @@ for some $f \in \mathbb{R}$, and all other components vanishing.
 
 Then its [[energy-momentum tensor]] 
 
-$$
+\[
+  \label{EnergyMomentumTensorOfHigherGaugeField}
   T_{\mu \nu}
   \;=\;
   \big(
@@ -282,7 +283,7 @@ $$
     F_{\mu \, \mu_1 \cdots \mu_{s-1}}
     F_{\nu}{}^{ \mu_1 \cdots \mu_{s-1} }
   \big)
-$$
+\]
 
 has non-vanishing components
 
