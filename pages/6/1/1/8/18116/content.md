@@ -1,8 +1,10 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Eduard_Heine)
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Heine-Borel theorem]]
+
+* [[Heine-Cantor theorem]]
 
 category: people
