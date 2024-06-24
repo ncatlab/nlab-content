@@ -17,7 +17,7 @@
 
 ## Definition
 
-In [[dependent type theory]], a **definitional isomorphism** or **judgmental isomorphism** between two types $A$ and $B$ consists of functions $f:A \to B$ and $f^{-1}:B \to A$ such that given any term $x:A$, the term $f^{-1}(f(x))$ is [[judgmental equality|judgmentally equal]] to $x$ and given any term $y:B$, the term $f(f^{-1}(y))$ is definitionally equal to $y$.  In symbols, 
+In [[dependent type theory]], a **definitional isomorphism** or **judgmental isomorphism** between two types $A$ and $B$ consists of functions $f:A \to B$ and $f^{-1}:B \to A$ such that given any term $x:A$, the term $f^{-1}(f(x))$ is [[judgmental equality|judgmentally equal]] to $x$ and given any term $y:B$, the term $f(f^{-1}(y))$ is judgmentally equal to $y$.  In symbols, 
 $$x:A \vdash f^{-1}(f(x)) \equiv x:A \quad \mathrm{and} \quad y:B \vdash f(f^{-1}(y)) \equiv y:B$$
 
 If the dependent type theory has [[identity types]], definitional isomorphisms are, in particular, [[equivalences in type theory|equivalences]] since the [[homotopies]] and [[coherence law]] for (half-adjoint) equivalences are derivable from the judgmental equalities in definitional isomorphisms. 
