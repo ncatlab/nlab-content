@@ -11,5 +11,8 @@ Master's thesis:
 * [[derived algebraic geometry]]
 * [[algebraic stacks]]
 
+
+category: people
+
 [[!redirects Adeel Khan Yusufzai]]
 [[!redirects Adeel Ahmad Khan]]
