@@ -1,10 +1,24 @@
-[[!redirects Microscopic AdS-CFT via p-brane sigma-models -- references]]
-
 
 ### Microscopic AdS/CFT via $p$-brane sigma-models
  {#ReferencesMicroscopicAdSCFTViapBraneSigmaModesl}
 
-Over a decade before the [modern formulation](AdS-CFT+correspondence#ReferencesOriginModernAdSCFTDUality) of the [[AdS-CFT correspondence]], a candicate "microscopic" explanation was observed: Placing a [[sigma-model]] [[super p-brane|super $p$-brane]] (hence a "light" [[brane]] without [[backreaction]]) along the [[near horizon geometry]] (an [[anti de Sitter spacetime|AdS]] [[supergravity]] solution) of its own [[black brane]] incarnation  (hence the "heavy" incarnation of the same brane, causing [[backreaction]]), its [[worldvolume]] fluctuations (after [[super-diffeomorphism]] [[gauge fixing]]) are described by the corresponding [[superconformal field theory]] (exhibited by [[superconformal multiplets]] such as "*[[supersingletons]]*").
+Over a decade before the [modern formulation](AdS-CFT+correspondence#ReferencesOriginModernAdSCFTDUality) of the [[AdS-CFT correspondence]], a candicate "microscopic" explanation was observed: 
+
+\begin{imagefromfile}
+    "file_name": "pBraneNearBlackBrane-240624.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 0,
+        "right": 0, 
+        "left": 15
+    }
+\end{imagefromfile}
+
+
+[[immersion|Immersing]] the [[worldvolume]] of a [[sigma-model]] [[super p-brane|super $p$-brane]] (hence a "light" [[brane]] without [[backreaction]]) along the [[near horizon geometry]] (an [[anti de Sitter spacetime|AdS]] [[supergravity]] solution) of its own [[black brane]] incarnation  (hence the "heavy" incarnation of the same brane, causing [[backreaction]]), its [[worldvolume]] fluctuations (after [[super-diffeomorphism]] [[gauge fixing]]) are described by the corresponding [[superconformal field theory]] (exhibited by [[superconformal multiplets]] such as "*[[supersingletons]]*").
 
 The original observation for the [[M2-brane]]:
 
