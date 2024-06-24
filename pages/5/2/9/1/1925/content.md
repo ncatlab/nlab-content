@@ -117,7 +117,7 @@ $$
 from the category [[Grp]] of [[groups]] to that of heaps,
 which is [[essentially surjective functor|essentially surjective]], meaning that, up to [[isomorphism]] all heaps arise in this way.
 
-In fact, there is a converse functor
+In fact, there is also a functor
 $$
   Aut 
    \,\colon\,
@@ -140,6 +140,7 @@ such that
 \end{proposition}
 This group $Aut(H)$ is called the *automorphism group* of the heap $H$.
 \begin{proof}
+
 Given a heap $H$, the claimed automorphism group  $Aut(H)$ is described, up to [[isomorphism]], by any of the following constructions:
 
 1. Choosing any [[element]] $\mathrm{e} \in H$, then the [[binary operation]]
@@ -240,7 +241,36 @@ Finally, the second constructions is manifestly functorial.
 ### Relation to torsors
  {#HeapsAndTorsors}
 
-The automorphism group $Aut(H)$ in (eq:PrinIsEssentiallySurjective) comes equipped with a canonical [[group action]] on $H$, as is most clear from the third definition (eq:GroupActionInThirdModel).  
+Given a group $G$, a $G$-[[torsor]] is a nonempty set $X$ with a free and transitive action of $G$, which we may write as
+
+$$ \begin{array}{ccl}
+G \times X &\to& X \\
+(g, x) &\mapsto& g x 
+\end{array}
+$$
+
+Equivalently, a $G$-torsor is a set $X$ with an [[group action|action]] of the group $G$ but also a "division" operation
+
+$$ \begin{array}{ccl}
+X \times X &\to& G \\
+(x, y) &\mapsto& x/y
+\end{array}
+$$
+
+obeying
+
+$$ (x/y) y = x $$
+
+Given a group $G$ together with a $G$-torsor $X$, we can make $X$ into a heap by giving it the ternary operation
+
+$$ \begin{array}{ccl}
+X \times X \times X &\to& G \\
+(x, y, z) &\mapsto& (x/y) z
+\end{array}
+$$
+
+Conversely, from any heap $H$ we can construct a group $G$ together with a $G$-torsor whose underlying set is $H$ itself.
+To see this, note that the group $G = Aut(H)$ (eq:PrinIsEssentiallySurjective) comes equipped with a canonical [[group action]] on $H$, as is most clear from the third definition (eq:GroupActionInThirdModel).  
 
 This action is 
 
@@ -307,9 +337,11 @@ _Cogroups and co-rings in categories of associative rings_, Ch.IV, paragraph 22,
 
 * [[Peter T. Johnstone]], _The ‘closed subgroup theorem’ for localic herds and pregroupoids_, Journal of Pure and Applied Algebra 70 (1991) 97-106.  [doi](http://dx.doi.org/10.1016/0022-4049(91)90010-y).
 
-* wikipedia:[heap](https://en.wikipedia.org/wiki/Heap_%28mathematics%29) (mathematics)
+* Wikipedia:[heap](https://en.wikipedia.org/wiki/Heap_%28mathematics%29) (mathematics)
 
-* [[John Baez]] on [Heaps and torsors](http://www.math.ucr.edu/home/baez/torsors.html)
+* [[John Baez]], [Torsors made easy](http://math.ucr.edu/home/baez/torsors.html)
+
+* [[John Baez]], [The group with no elements](https://golem.ph.utexas.edu/category/2020/08/the_group_with_no_elements.html).
 
 * [[Lukáš Vokřínek]], _Heaps and unpointed stable homotopy theory_, [arXiv](https://arxiv.org/abs/1312.1709v1).
 
