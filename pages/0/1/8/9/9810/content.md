@@ -25,7 +25,7 @@ A [[functor]] from a [[category]] to a [[site]] induces a [[Grothendieck topolog
 
 \begin{definition}
 \label{InducedTopology}
-Let $u \colon B \to C$ be a functor with $C$ a [[site]]. The **induced topology** on $B$ by $u$ is the finest one such that $u$ is a [[continuous functor]], i.e. such that the map $G \mapsto G \circ u$ takes [[sheaves]] on $C$ to sheaves on $B$.
+Let $u \colon B \to C$ be a functor with $C$ a [[site]]. The **induced topology** on $B$ by $u$ is the finest one such that $u$ is a [[cover-preserving functor|continuous functor]], i.e. such that the map $G \mapsto G \circ u$ takes [[sheaves]] on $C$ to sheaves on $B$.
 \end{definition}
 
 The classical comparison lemma ([Verdier 1972](#Verdier72)):
