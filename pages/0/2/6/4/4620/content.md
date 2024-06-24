@@ -138,7 +138,7 @@ In the context of [[homotopy type theory]], the various principles of omniscienc
 
 ## Analytic versions {#analytic}
 
-Bishop introduced the above principles of omniscience to show that certain results in pointwise [[analysis]] could not be constructive, by showing that these results implied a principle of omniscience.  The principles of omniscience that appear directly in analysis are these:
+Bishop introduced the above principles of omniscience to show that certain results in pointwise [[analysis]] could not be constructive, by showing that these results implied a principle of omniscience. The principles of omniscience that appear directly in analysis are these:
 
 *  The __analytic LPO__ states that the usual [[apartness relation]] on the set $\mathbb{R}$ of [[real numbers]] is [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for the real numbers ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that the real numbers form a [[discrete field]].
 
@@ -146,9 +146,29 @@ Bishop introduced the above principles of omniscience to show that certain resul
 
 *  The __analytic LLPO__ states that the usual order on $\mathbb{R}$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for the real numbers.
 
-The analytic principles of omniscience imply the corresponding ones for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did).  In any case, if we use the [[modulated Cantor real numbers]] (sequential real numbers), then the sequential-analytic principles of omniscience are the same as those for natural numbers.
+The analytic principles of omniscience imply the corresponding ones for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did). (Note that we need not accept $WCC$ to see that an analytic result implies a principle of omniscience and so cannot be constructively valid.)
 
-(Note that we need not accept $WCC$ to see that an analytic result implies a principle of omniscience and so cannot be constructively valid.)
+However, there are many different notions of real numbers in [[constructive mathematics]], so there are many different notions of the analytic principles of omniscience. So let us define a real number field $R$ to be an [[lattice-ordered ring|lattice-ordered]] [[Archimedean ordered field|Archimedean ordered]] [[field extension]] of the field of (sequential, modulated) [[Cantor real numbers]] $\mathrm{R}_C$. Thus, given a real number field $R$ one has unique [[ring homomorphisms]] of real number fields
+$$\mathbb{R}_C \hookrightarrow R \hookrightarrow \mathbb{R}_D$$
+where $\mathbb{R}_D$ is the field of [[Dedekind real numbers]]. In general the ring homomorphisms are not provably [[isomorphisms]] unless the [[Dedekind real numbers]] and [[Cauchy real numbers]] coincide. 
+
+For each real number field $R$, one has similar statements of the analytic principles of omniscience: 
+
+*  The __$R$-analytic LPO__ states that the usual [[apartness relation]] on the real number field $R$ [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for the real number field $R$ ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that the real number field $R$ is a [[discrete field]].
+
+* The __$R$-analytic WLPO__ states that the real number field $R$ has [[decidable equality]].
+
+*  The __$R$-analytic LLPO__ states that the lattice order on $R$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for the real number field $R$.
+
+One has a hierarchy of analytic principles of omniscience, where
+
+* The (sequential-, modulated-, Cantor-, Cauchy-) analytic principles of omniscience is the weakest and equivalent to the corresponding principles of omniscience for the natural numbers;
+
+* The Dedekind-analytic principle of omniscience is the strongest. 
+
+* For any other real number field $R$ which is neither equivalent to the Cauchy real numbers or the Dedekind real numbers, the corresponding $R$-analytic principles of omniscience are intermediate in strength between the Cauchy-analytic principles of omniscence and the Dedekind-analytic principles of omniscience. 
+
+* Suppose that there are two real number fields $R$ and $R'$ such that $R'$ is a [[field extension]] of $R$. Then each $R'$-analytic principle of omniscience imply the respective $R$-analytic principle of omniscience. 
 
 ## Equivalent statements
 
