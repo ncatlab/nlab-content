@@ -62,25 +62,22 @@ This duality of the brane picture is at the heart of the [[AdS/CFT correspondenc
 
 
 ## References
+ {#References}
 
-### General
+By "black branes" one mostly refers to -- generally higher-dimensional -- singular solutions of theories of [[supergravity]], referenced below at 
+
+* *[Black branes in supergravity](#ReferencesGeneral)*
+
+But closely related discussion has historically been had on the possibility of identifying [[electrons]] and other [[fundamental particles]] with [[Kerr-Newman black hole|Kerr-Newman]] [[black holes]] ("black 0-branes"):
+
+
+[[!include matching KN-black holes to elementary particles -- references]]
+
+
+
+
+### Black branes in supergravity
  {#ReferencesGeneral}
-
-Historical precursor discussion, regarding the [[electron]] as if a [[black hole]]:
-
-* {#EinsteinInfeldHoffmann39} [[Albert Einstein]], [[Leopold Infeld]], B. Hoffmann, _The gravitational equations and the problem of motion_, Annals of Mathematics **39** 1 (1938) &lbrack;[doi:10.2307/1968714](https://doi.org/10.2307/1968714), [jstor:1968714](https://www.jstor.org/stable/1968714)&rbrack;
-
-Seminal observation that the gyromagnetic ratio of the [[Kerr-Newman black hole]] is 2, just as the for [[electron]] (cf. at *[[anomalous magnetic moment]]*):
-
-* Brandon Carter, p. 1562 of: *Global Structure of the Kerr Family of Gravitational Fields*, Phys. Rev. **174** (1968) 1559 &lbrack;[doi:10.1103/PhysRev.174.1559](https://doi.org/10.1103/PhysRev.174.1559)&rbrack;
-
-See also:
-
-* Wikipedia, _[Black hole electron](https://en.wikipedia.org/wiki/Black_hole_electron)_
-
-* Alexander Burinskii, *The Dirac-Kerr-Newman electron*, Gravit. Cosmol. **14** (2008) 109–122 &lbrack;[doi:10.1134/S0202289308020011](https://doi.org/10.1134/S0202289308020011), [arXiv:hep-th/0507109](https://arxiv.org/abs/hep-th/0507109)&rbrack;
-
-\linebreak
 
 Original articles on black branes in [[supergravity]] (and thereby in [[string theory|string]]/[[M-theory]]):
 
