@@ -168,6 +168,8 @@ A [[composite]] of uniformly continuous maps is uniformly continuous, as is any 
 
 * [[modulus of continuity]]
 
+* [[Heine-Cantor theorem]]
+
 [[!redirects uniform continuity]]
 [[!redirects uniformly continuous]]
 [[!redirects uniformly continuous map]]
