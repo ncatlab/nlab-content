@@ -219,6 +219,11 @@ Global structure:
 * Brandon Carter, *Global Structure of the Kerr Family of Gravitational Fields*, Phys. Rev. **174** (1968) 1559 &lbrack;[doi:10.1103/PhysRev.174.1559](https://doi.org/10.1103/PhysRev.174.1559)&rbrack;
 
 
+and sources (cf. at *[[black brane]]*):
+
+* Werner Israel, *Source of the Kerr Metric*, Phys. Rev. D **2** 641 (1970) &lbrack;[doi:10.1103/PhysRevD.2.641](https://doi.org/10.1103/PhysRevD.2.641)&rbrack;
+
+
 Most textbooks on [[general relativity]] have chapter about the Kerr spacetime. 
 
 Monograph:
