@@ -142,7 +142,7 @@ Bishop introduced the above principles of omniscience to show that certain resul
 
 *  The __analytic LPO__ states that the usual [[apartness relation]] on the set $\mathbb{R}$ of [[real numbers]] is [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for the real numbers ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that the real numbers form a [[discrete field]].
 
-* The __analytic WLPO__ states that $\mathbb{R}$ has [[decidable equality]].
+* The __analytic WLPO__ states that $\mathbb{R}$ has [[decidable equality]], or that the partial order on the real numbers is [[decidable]] ($x \leq y$ or $\neg (x \leq y)$). 
 
 *  The __analytic LLPO__ states that the usual order on $\mathbb{R}$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for the real numbers.
 
@@ -156,19 +156,37 @@ For each real number field $R$, one has similar statements of the analytic princ
 
 *  The __$R$-analytic LPO__ states that the usual [[apartness relation]] on the real number field $R$ [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for the real number field $R$ ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that the real number field $R$ is a [[discrete field]].
 
-* The __$R$-analytic WLPO__ states that the real number field $R$ has [[decidable equality]].
+* The __$R$-analytic WLPO__ states that the real number field $R$ has [[decidable equality]], or that the partial order on $R$ is [[decidable]] ($x \leq y$ or $\neg (x \leq y)$). 
 
 *  The __$R$-analytic LLPO__ states that the lattice order on $R$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for the real number field $R$.
 
 One has a hierarchy of analytic principles of omniscience, where
 
-* The (sequential-, modulated-, Cantor-, Cauchy-) analytic principles of omniscience is the weakest and equivalent to the corresponding principles of omniscience for the natural numbers;
+* The (sequential-, modulated-, Cantor-, Cauchy-, $\mathbb{R}_C$-) analytic principles of omniscience is the weakest and equivalent to the corresponding principles of omniscience for the natural numbers;
 
-* The Dedekind-analytic principle of omniscience is the strongest. 
+* The (Dedekind-, $\mathbb{R}_D$-)analytic principle of omniscience is the strongest. 
 
 * For any other real number field $R$ which is neither equivalent to the Cauchy real numbers or the Dedekind real numbers, the corresponding $R$-analytic principles of omniscience are intermediate in strength between the Cauchy-analytic principles of omniscence and the Dedekind-analytic principles of omniscience. 
 
-* Suppose that there are two real number fields $R$ and $R'$ such that $R'$ is a [[field extension]] of $R$. Then each $R'$-analytic principle of omniscience imply the respective $R$-analytic principle of omniscience. 
+* Suppose that there are two real number fields $R$ and $R'$ such that $R'$ is a [[field extension]] of $R$. Then each $R'$-analytic principle of omniscience implies the respective $R$-analytic principle of omniscience. 
+
+Finally, one has the following: Let $\Sigma \subseteq \Omega$ be the [[initial object|initial]] [[sigma-frame]] of [[truth values]], from which one can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts in $\Sigma^\mathbb{Q} \times \Sigma^\mathbb{Q}$. Then, 
+
+\begin{theorem}
+The WLPO for natural numbers, the $\mathbb{R}_C$-analytic WLPO, and the $\mathbb{R}_\Sigma$-analytic WLPO are equivalent to each other. 
+\end{theorem}
+
+\begin{proof}
+The WLPO for natural numbers is equivalent to the [[boolean domain]] $\mathbb{2}$ being the initial sigma-frame of truth values $\Sigma \coloneqq \mathbb{2}$. This implies that one can use the booleans to construct $\mathbb{R}_\Sigma$. In turn, the WLPO implies the $\mathbb{R}_\Sigma$-analytic WLPO, since the partial order relation $\leq$ on $\mathbb{R}_\Sigma$ is defined as a [[universal quantification]] over the rational numbers, which is [[decidable]] because of WLPO and the fact that the rational numbers are in bijection with the natural numbers. Since $\mathbb{R}_\Sigma$ is built out of (decidable) Dedekind cuts, it is [[sequentially Cauchy complete]] and the [[Cauchy real numbers]] $\mathrm{R}_C$ are a subfield of $\mathbb{R}_\Sigma$. Thus, the $\mathbb{R}_C$-analytic WLPO holds as well, since any subset of a set with decidable equality itself has decidable equality. Finally, the $\mathbb{R}_C$-analytic WLPO is equivalent to the WLPO for natural numbers, which is sufficient to establish that the converses of the above implications hold. 
+\end{proof} 
+
+\begin{theorem}
+The LPO for natural numbers, the $\mathbb{R}_C$-analytic LPO, and the $\mathbb{R}_\Sigma$-analytic LPO are equivalent to each other. 
+\end{theorem}
+
+\begin{proof}
+The LPO for natural numbers implies the WLPO for natural numbers, which implies that one can use the booleans to construct $\mathbb{R}_\Sigma$ as above. The LPO implies the $\mathbb{R}_\Sigma$-analytic LPO, since the [[pseudo-order]] relation $\lt$ on $\mathbb{R}_\Sigma$ is defined as an [[existential quantification]] over the rational numbers, which is [[decidable]] because of LPO and the fact that the rational numbers are in bijection with the natural numbers. The $\mathbb{R}_\Sigma$-analytic LPO implies that every real number in $\mathbb{R}_\Sigma$ comes with the structure of a [[locator]], which implies that $\mathbb{R}_C$ and $\mathbb{R}_\Sigma$ are isomorphic as real number fields. Thus, the $\mathbb{R}_\Sigma$-analytic LPO and $\mathbb{R}_C$-analytic LPO are equivalent to each other. Finally, the $\mathbb{R}_C$-analytic LPO is equivalent to the LPO for natural numbers, which is sufficient to establish that the converses of the above implications hold. 
+\end{proof}
 
 ## Equivalent statements
 
@@ -180,7 +198,7 @@ There are various other results that are equivalent to the principles of omnisci
 
 * Bolzano-Weierstrass compactness of the [[unit interval]] holds if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
-* The [[boolean domain]] is a [[sigma-frame]] if and only if $\mathrm{WLPO}_\mathbb{N}$ holds. 
+* The [[boolean domain]] is the [[initial object|initial]] [[sigma-frame]] of [[truth values]] if and only if $\mathrm{WLPO}_\mathbb{N}$ holds. 
 
 ## Related statements
 
