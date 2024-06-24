@@ -52,16 +52,16 @@ Finally we mention genuine
 ### Standard definition
  {#StandardDefinition}
 
-+-- {: .num_defn}
-###### Definition
 
+\begin{definition}\label{TheStandardDefinition}
 A **topological space** is a [[set]] $X$ equipped with a set of [[subsets]] 
 $U \subset X$, called the **[[open sets]]**, which are closed under 
 
-1. finite [[intersections]] 
+1. finite [[intersections]],
+
 1. arbitrary [[unions]].  
 
-=--
+\end{definition}
 
 +-- {: .num_remark}
 ###### Remark
