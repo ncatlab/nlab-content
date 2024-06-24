@@ -39,6 +39,8 @@ Let $X = \prod_{n \to \alpha} X_n$ be an internal set, and let $\mathcal{F}_X$ b
 
 * Fedor Petrov, *"countable" topology*, MathOverflow ([web](https://mathoverflow.net/questions/173255/countable-topology))
 
+* Balazs Szegedy, *Gowers norms, regularization and limits of functions on abelian groups*. ([arXiv:1010.6211](https://arxiv.org/abs/1010.6211))
+
 * [[Vitaly Bergelson]], [[Terence Tao]], *Multiple recurrence in quasirandom groups*. ([arXiv:1211.6372](https://arxiv.org/abs/1211.6372))
 
 [[!redirects sigma-topology]]
