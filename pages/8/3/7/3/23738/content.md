@@ -158,7 +158,7 @@ Let $R$ be a GCD domain. We already know that $gcd(ma,mb)=m \cdot gcd(a,b)$ for 
 Let $R$ be a GCD domain. Let $a,b \in R$ and let $m \in R$. Then $lcm(ma,mb)=m\cdot lcm(a,b)$ (up to multiplication by a unit).
 \end{proposition}
 \begin{proof}
-If $m=0$ then the two sides of the equation are zero. We can thus suppose that all of $m$ is nonzero.
+If $m=0$ then the two sides of the equation are zero. We can thus suppose that $m$ is nonzero.
 
 1. We know that $a \mid lcm(a,b)$, that $b \mid lcm(a,b)$. Therefore, $ma \mid m\cdot lcm(a,b)$ and $mb \mid m\cdot lcm(a,b)$. Hence $\lcm(ma,mb) \mid m\cdot lcm(a,b)$.
 
@@ -170,6 +170,8 @@ where $u \in R$. Hence both $ma$ and $mb$ divides $mu$. Since $m$ is nonzero, we
 
 From the two previous points, we conclude that $lcm(ma,mb)$ and $m \cdot lcm(a,b)$ are associated. 
 \end{proof}
+
+The compatibility of the product with gcd's and lcm's implies that the multiplicative monoid of an integral domain is a [[prelattice-ordered commutative monoid]].
 
 ### Other properties
 
