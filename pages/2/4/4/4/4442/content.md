@@ -42,7 +42,7 @@ A quick way to see that the [[supersymmetric]]-cases of AdS/CFT for [[near horiz
 
 [[!include superconformal symmetry -- table]]
 
-It had already been observed in ([Duff-Sutton 88](#DuffSutton88), see [Duff 98](#Duff98), [Duff 99](#Duff99)) that the field theory of small perturbation  of a [[Green-Schwarz sigma-model]] for a [[fundamental brane]] stretched over the [[asymptotic boundary]] of the [[AdS spacetime|AdS]] [[near horizon geometry]] of its own [[black brane]]-incarnation is, after [[diffeomorphism]] [[gauge fixing]], a [[conformal field theory]]. This was further developed in [Claus-Kallosh-Proeyen 97](#ClausKalloshProeyen97), [DGGGTT 98](#DGGGTT98), [Claus-Kallosh-Kumar-Townsend 98](#ClausKalloshKumarTownsend98), [Pasti-Sorokin-Tonin 99](#PastiSorokinTonin99). See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)
+It had already been observed by [Bergshoeff, Duff, Pope & Sezgin](#BDPS87) and [Duff & Sutton 1988](#DuffSutton88) (see also [Duff 1998](#Duff98), [Duff 1999](#Duff99)) that the field theory of small perturbation  of a [[Green-Schwarz sigma-model]] for a [[fundamental brane]] stretched over the [[asymptotic boundary]] of the [[AdS spacetime|AdS]] [[near horizon geometry]] of its own [[black brane]]-incarnation is, after [[diffeomorphism]] [[gauge fixing]], a [[conformal field theory]]. This was further developed in [Claus, Kallosh & Proeyen 1997](#ClausKalloshProeyen97), [DGGGTT 98](#DGGGTT98), [Claus-Kallosh, Kumar & Townsend 1998](#ClausKalloshKumarTownsend98), [Pasti, Sorokin & Tonin 1999](#PastiSorokinTonin99). See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)
 
 More recently, for the archetypical case of AdS/CFT relating [[N=4 D=4 super Yang-Mills theory]] to [[type IIB string theory]] on [[super anti-de Sitter spacetime]] $AdS_5 \times S^5$, fine detailed checks of the correspondence have been performed ([Beisert et al. 10](#BeisertEtAl10), [Escobedo 12](#Escobedo12)), see the section _[Checks](#Checks)_ below. 
 
@@ -252,7 +252,7 @@ That therefore not an abelian, but this _nonabelian_ [[higher dimensional Chern-
 Its gauge field is hence locally and ignoring the flux quantization subtleties a pair consisting of the abelian 3-form field $C$ and a [[Spin group]] $Spin(6,1)$-valued [[connection on a bundle|connection]] (see _[[supergravity C-field]] for global descriptions of such pairs). Or maybe rather  $Spin(6,2)$ to account for the constraint that the configurations are to be asymptotic [[anti de Sitter spacetimes]] (in analogy to the well-understood situation in [[3d quantum gravity]], see there for more details).
 
 
-{#CommentSezginSundell} Indeed, in ([SezginSundell 2002, section 7](#SezginSundell)) more detailed arguments are given that the 7-dimensional dual to the free 6d theory is a [[higher spin gauge theory]] for a higher spin [[gauge group]] extending the ([[superconformal group|super]]) [[conformal group]] $SO(6,2)$.
+{#CommentSezginSundell} Indeed, in [Sezgin &Sundell 2002, section 7](#SezginSundell) more detailed arguments are given that the 7-dimensional dual to the free 6d theory is a [[higher spin gauge theory]] for a higher spin [[gauge group]] extending the ([[superconformal group|super]]) [[conformal group]] $SO(6,2)$.
 
 A [[non-perturbative quantum field theory|non-perturbative]] description of this nonabelian [[7d Chern-Simons theory]] as a [[local prequantum field theory]] (hence defined [[non-perturbative quantum field theory|non-perturbatively]] on the global [[moduli stack]] of [[field (physics)|fields]] ([[twisted differential string structures]], in fact)) was discussed in ([FSS 12a](#FSS12a), [FSS 12b](#FSS12b)).
 
@@ -408,9 +408,11 @@ See also:
 * {#Giraldo12} Carlos Andrés Cardona Giraldo, _Correlation functions in AdS/CFT correspondence_, 2012 ([spire:1652794](inspirehep.net/record/1652794), [pdf](https://digital.bl.fcen.uba.ar/download/tesis/tesis_n5179_CardonaGiraldo.pdf))
 
 
-Discussion of how [[Green-Schwarz action functionals]] for super $p$-branes in AdS target spaces induce, after [[diffeomorphism]] [[gauge fixing]], superconformal field theory on the [[worldvolumes]] (see _[[singleton representation]]_) goes back to
+Discussion of how [[Green-Schwarz action functionals]] for super $p$-branes in AdS target spaces induce, after [[diffeomorphism]] [[gauge fixing]], [[superconformal field theory]] on the [[worldvolumes]] (see _[[singleton representation]]_) goes back to
 
-* {#DuffSutton88} [[Mike Duff]], C. Sutton, _The Membrane at the End of the Universe_, New Sci. 118 (1988) 67-71 ([spire:268230](http://inspirehep.net/record/268230?ln=en))
+* {#BDPS87} [[Eric Bergshoeff]], [[Michael Duff]], [[Christopher Pope]], [[Ergin Sezgin]]: *Supersymmetric Supermembrane Vacua and Singletons*, Phys. Lett. B **199** (1987) 69-74 \[<a href="https://doi.org/10.1016/0370-2693(87)91465-1">doi:10.1016/0370-2693(87)91465-1</a>, [InSpire:250244](https://inspirehep.net/literature/250244)\]
+
+* {#DuffSutton88} [[Mike Duff]], Christine Sutton, *The Membrane at the End of the Universe*, New Sci. **118** (1988) 67-71 &lbrack;[spire:268230](http://inspirehep.net/record/268230)&rbrack;
 
 and was further developed in
 
