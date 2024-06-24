@@ -33,6 +33,10 @@ Survey of [[string phenomenology]]:
 
 * [[Fernando Marchesano]], [[Gary Shiu]], [[Timo Weigand]], *The Standard Model from String Theory: What Have We Learned?* &lbrack;[arXiv:2401.01939](https://arxiv.org/abs/2401.01939)&rbrack;
 
+On [[neutrino]] [[masses]] in [[type IIA string theory]] [[orientifold]] models:
+
+* Gonzalo F. Casas, [[Luis E. Ibáñez]], [[Fernando Marchesano]], *On small Dirac Neutrino Masses in String Theory* &lbrack;[arXiv:2406.14609](https://arxiv.org/abs/2406.14609)&rbrack;
+
 
 ## Related entries
 
@@ -43,5 +47,8 @@ Survey of [[string phenomenology]]:
 * [[Yukawa coupling]]
 
 * [[Fukaya category]]
+
+
+
 
 category: people
