@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -379,6 +378,19 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 
 ## References
+ {#References}
+
+Long before the modern formulation of the AdS/CFT correspondence, referenced below at
+
+* *[The origin of modern AdS/CFT duality](#ReferencesOriginModernAdSCFTDUality)*
+
+there were developments that must be regarded at least as precursors, referenced at
+
+* *[Polyakov gauge-string duality](#PolyakovGaugeStringDualityReferences)*
+
+* *[Microscopic AdS-CFT via p-brane sigma-models](#ReferencesMicroscopicAdSCFTViapBraneSigmaModesl)*
+
+
 
 
 [[!include Polyakov gauge-string duality -- references]]
@@ -386,65 +398,40 @@ One proposal for a formalization of a toy version in the context of [[AQFT]] is 
 
 
 
-### Original articles on AdS/CFT duality
 
-The rough conjecture originates in:
+[[!include microscopic AdS-CFT via p-brane sigma-models -- references]]
 
-* {#Maldacena97a} [[Juan Maldacena]], _The Large $N$ limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. 2:231, 1998 ([hep-th/9711200](http://arxiv.org/abs/hep-th/9711200))
 
-* {#Maldacena97b} [[Juan Maldacena]], _Wilson loops in Large $N$ field theories_, Phys. Rev. Lett. __80__ (1998) 4859 ([hep-th/9803002](http://arxiv.org/abs/hep-th/9803002))
 
-The actual rule for matching [[bulk field theory|bulk]] [[states]] to [[generating functions]] for [[boundary field theory|boundary]] [[correlators]]/[[n-point functions]] is due to
+
+
+### The origin of modern AdS/CFT duality
+ {#ReferencesOriginModernAdSCFTDUality}
+
+The modern guise of AdS/CFT duality as a conjectured [[duality in string theory|duality]] between [[string theory|string]]/[[M-theory]] [[near horizon geometry|near]] [[black branes]] and  [[superconformal field theories]] *on* the [[worldvolume]] of these branes, at least in a suitable [[large-N limit]], is due to:
+
+* {#Maldacena97a} [[Juan Maldacena]], _The Large $N$ limit of superconformal field theories and supergravity_, Adv. Theor. Math. Phys. **2** (1998) 231 &lbrack;[hep-th/9711200](http://arxiv.org/abs/hep-th/9711200), [doi:10.4310/ATMP.1998.v2.n2.a1](https://doi.org/10.4310/ATMP.1998.v2.n2.a1), [inspire:451647](https://inspirehep.net/literature/451647)&rbrack;
+
+* {#Maldacena97b} [[Juan Maldacena]], _Wilson loops in Large $N$ field theories_, Phys. Rev. Lett. **80** (1998) 4859 &lbrack;[hep-th/9803002](http://arxiv.org/abs/hep-th/9803002), [doi:10.1103/PhysRevLett.80.4859](https://doi.org/10.1103/PhysRevLett.80.4859)&rbrack;
+
+
+An  actual rule for matching, under this [[duality in string theory|duality]], [[bulk field theory|bulk]] [[states]] to [[generating functions]] for [[boundary field theory|boundary]] [[correlators]]/[[n-point functions]] was then given by
 
 * {#GubserKlebanovPolyakov98} [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], around (12) of: *Gauge theory correlators from non-critical string theory*, Physics Letters B **428** 105-114 (1998) &lbrack;[hep-th/9802109](http://arxiv.org/abs/hep-th/9802109), <a href="https://doi.org/10.1016/S0370-2693(98)00377-3">doi:10.1016/S0370-2693(98)00377-3</a>&rbrack;
 
+* {#Witten98} [[Edward Witten]], around (2.11) of _Anti-de Sitter space and holography_, Advances in Theoretical and Mathematical Physics **2** (1998) 253-291 &lbrack;[hep-th/9802150](http://arxiv.org/abs/hep-th/9802150), [doi:10.4310/ATMP.1998.v2.n2.a2](https://dx.doi.org/10.4310/ATMP.1998.v2.n2.a2), [spire:467400](https://inspirehep.net/literature/467400)&rbrack;
 
-* {#Witten98} [[Edward Witten]], around (2.11) of _Anti-de Sitter space and holography_, Advances in Theoretical and Mathematical Physics 2: 253&#8211;291, 1998 ([hep-th/9802150](http://arxiv.org/abs/hep-th/9802150))
+now often called "the holographic disctionary" or just "the dictionary" (e.g. [Taylor 2023](#Taylor23)).
 
 See also:
+
+* Wikipedia, _[AdS/CFT correspondence](http://en.wikipedia.org/wiki/AdS/CFT_correspondence)_
 
 * [[Tom Banks]], [[Michael Douglas]], [[Gary Horowitz]], [[Emil Martinec]], _AdS Dynamics from Conformal Field Theory_ ([arXiv:hep-th/9808016](https://arxiv.org/abs/hep-th/9808016), [spire:474214](http://inspirehep.net/record/474214))
 
 * {#Giraldo12} Carlos Andrés Cardona Giraldo, _Correlation functions in AdS/CFT correspondence_, 2012 ([spire:1652794](inspirehep.net/record/1652794), [pdf](https://digital.bl.fcen.uba.ar/download/tesis/tesis_n5179_CardonaGiraldo.pdf))
 
 
-Discussion of how [[Green-Schwarz action functionals]] for super $p$-branes in AdS target spaces induce, after [[diffeomorphism]] [[gauge fixing]], [[superconformal field theory]] on the [[worldvolumes]] (see _[[singleton representation]]_) goes back to
-
-* {#BDPS87} [[Eric Bergshoeff]], [[Michael Duff]], [[Christopher Pope]], [[Ergin Sezgin]]: *Supersymmetric Supermembrane Vacua and Singletons*, Phys. Lett. B **199** (1987) 69-74 \[<a href="https://doi.org/10.1016/0370-2693(87)91465-1">doi:10.1016/0370-2693(87)91465-1</a>, [InSpire:250244](https://inspirehep.net/literature/250244)\]
-
-* {#DuffSutton88} [[Mike Duff]], Christine Sutton, *The Membrane at the End of the Universe*, New Sci. **118** (1988) 67-71 &lbrack;[spire:268230](http://inspirehep.net/record/268230)&rbrack;
-
-and was further developed in
-
-* {#ClausKalloshProeyen97} [[Piet Claus]], [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl. Phys. B **518** (1998) 117-150 &lbrack;[arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161), <a href="https://doi.org/10.1016/S0550-3213(98)00137-0">doi:10.1016/S0550-3213(98)00137-0</a>&rbrack;
-
-* [[Piet Claus]], [[Renata Kallosh]], J. Kumar, [[Paul K. Townsend]], [[Antoine Van Proeyen]], *Conformal Theory of M2, D3, M5 and "D1+D5" Branes*, JHEP 9806 (1998) 004 &lbrack;[arXiv:hep-th/9801206](https://arxiv.org/abs/hep-th/9801206), [doi:10.1088/1126-6708/1998/06/004](https://doi.org/10.1088/1126-6708/1998/06/004)&rbrack;
-
-
-* {#DGGGTT98} [[Gianguido Dall'Agata]], Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, [[Mario Trigiante]], _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl. Phys.B **542** (1999) 157-194 &lbrack;[arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115), <a href="https://doi.org/10.1016/S0550-3213(98)00765-2">doi:10.1016/S0550-3213(98)00765-2</a>&rbrack;
-
-* {#ClausKalloshKumarTownsend98} [[Piet Claus]], [[Renata Kallosh]], J. Kumar, [[Paul Townsend]], [[Antoine Van Proeyen]], _Conformal Theory of M2, D3, M5 and 'D1+D5' Branes_, JHEP 9806 (1998) 004 ([arXiv:hep-th/9801206](http://arxiv.org/abs/hep-th/9801206))
-
-* {#PastiSorokinTonin99} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], *Branes in Super-AdS Backgrounds and Superconformal Theories*, Proceedings, *International Workshop on Supersymmetries and Quantum Symmetries (SQS'99)*, Moscow (July 27-31, 1999) &lbrack;[arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076), [inspire:511348](https://inspirehep.net/literature/511348)&rbrack;
-
-* C. Grojean, J. Mourad, *Super fivebranes near the boundary of $AdS)7 \times S^4$*, Nuclear Physics B **567** 1–2 (2000) 133-150 \[<a href="https://doi.org/10.1016/S0550-3213(99)00335-1">doi:10.1016/S0550-3213(99)00335-1</a>, [arXiv:hep-th/9903164](https://arxiv.org/abs/hep-th/9903164)\]
-
-Review is in:
-
-* {#Duff98} [[Mike Duff]], *Anti-de Sitter space, branes, singletons, superconformal field theories and all that*, Int. J. Mod. Phys. A **14** (1999) 815-844 &lbrack;[arXiv:hep-th/9808100](https://arxiv.org/abs/hep-th/9808100), [doi:10.1142/S0217751X99000403](https://doi.org/10.1142/S0217751X99000403)&rbrack;
-
-* {#Duff99} [[Mike Duff]], *TASI Lectures on Branes, Black Holes and Anti-de Sitter Space* &lbrack;[arXiv:hep-th/9912164](https://arxiv.org/abs/hep-th/9912164)&rbrack;
-
-
-The resulting [[superconformal algebra|super-conformal]] [[Green-Schwarz sigma-model|brane scan]]:
-
-* {#BlencoweDuff88} [[Miles P. Blencowe]], [[Mike Duff]], _Supersingletons_, Physics letters B, **203** 3(1988) 229-236 ([cds:184143](http://cds.cern.ch/record/184143), <a href="http://dx.doi.org/10.1016/0370-2693(88)90544-8">doi:10.1016/0370-2693(88)90544-8</a>)
-
-* {#Duff09} [[Michael Duff]], _Near-horizon brane-scan revived_,  Nucl. Phys. B 810:193-209, 2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
-
-* [[Michael Duff]],  *The conformal brane-scan: an update* ([arXiv:2112.13784](https://arxiv.org/abs/2112.13784))
-
-See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)_.
 
 Sketch of a derivation of AdS/CFT:
 
@@ -454,18 +441,19 @@ Sketch of a derivation of AdS/CFT:
 
 
 
-Further references include:
+See also:
  
 
 * [[Edward Witten]], _Three-dimensional gravity revisited_, [arxiv/0706.3359](http://arxiv.org/abs/0706.3359)
 
-* C.R. Graham, [[Edward Witten]], _Conformal anomaly of submanifold observables in AdS/CFT correspondence_, [hepth/9901021](http://arxiv.org/abs/hep-th/9901021).
+* C. R. Graham, [[Edward Witten]], _Conformal anomaly of submanifold observables in AdS/CFT correspondence_, [hepth/9901021](http://arxiv.org/abs/hep-th/9901021).
 
 * [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012))
 
 Via [[exceptional field theory]]:
 
 * Oscar Varela, _Super-Chern-Simons spectra from Exceptional Field Theory_ ([arXiv:2010.09743](https://arxiv.org/abs/2010.09743))
+
 
 ### Introductions and surveys
 
@@ -507,11 +495,8 @@ Surveys and introductions:
 
 * Nirmalya Kajuri, _ST4 Lectures on Bulk Reconstruction_ ([arXiv:2003.00587](https://arxiv.org/abs/2003.00587))
 
+* {#Taylor23} Marika Taylor, *Introduction to AdS/CFT and Holography -- The holographic dictionary*, lecture at *pre-SUSY school 2023* &lbrack;[cern:1214657](https://indico.cern.ch/event/1214657), slides: [pdf](https://indico.cern.ch/event/1214657/sessions/480000/attachments/2690349/4676064/susy1.pdf), video: [session 1](https://southampton.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0f0a6c21-0bc9-42ae-9274-b03e00a8fde3), [sessions 2, 3](https://southampton.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c7e64fe5-675c-4f94-96f2-b03f0083f0d3)&rbrack;
 
-
-See also
-
-* Wikipedia, _[AdS/CFT correspondence](http://en.wikipedia.org/wiki/AdS/CFT_correspondence)_
 
 Review of [[Yangian]] symmetry:
 
