@@ -14,7 +14,6 @@
 =--
 
 
-
 # Contents
 * table of contents
 {: toc}
@@ -181,18 +180,15 @@ Discussion of [[neutrino]] [[masses]] in [[leptoquark]]-[[model (in theoretical 
 
 * {#BGV19} Innes Bigaran, John Gargalionis, Raymond R. Volkas, _A near-minimal leptoquark model for reconciling flavour anomalies and generating radiative neutrino masses_ ([arXiv:1906.01870](https://arxiv.org/abs/1906.01870))
 
-Attempts to explain the [[flavour anomalies]] with right-handed neutrinos:
-
-* Carlo Marzo, Luca Marzola, Martti Raidal, _Common explanation to the $R_{K^{(\ast)}}$, $R_{K^{(\ast)}}$ and $\epsilon'/\epsilon$ anomalies in a 3HDM+$\nu_R$ and connections to neutrino physics_ ([arXiv:1901.08290](https://arxiv.org/abs/1901.08290))
-
-* Luigi Delle Rose, Shaaban Khalil, Simon J.D. King, Stefano Moretti, _$R_K$ and $R_{K^\ast}$ in an Aligned 2HDM with Right-Handed Neutrinos_ ([arXiv:1903.11146](https://arxiv.org/abs/1903.11146))
-
-* Rusa Mandal, Clara Murgui, Ana Peñuelas, [[Antonio Pich]], _The role of right-handed neutrinos in $b \to c \tau \bar \nu$ anomalies_ ([arXiv:2004.06726](https://arxiv.org/abs/2004.06726))
-
 
 Discussion of neutrino masses in [[M-theory on G2-manifolds]]:
 
 * Eric Gonzalez, [[Gordon Kane]], Khoa Nguyen, *Neutrino mass matrices from localization in M-theory on G2 orbifold* ([arXiv:2107.12893](https://arxiv.org/abs/2107.12893))
+
+On neutrino masses in [[type IIA string theory]] [[orientifold]] models:
+
+* Gonzalo F. Casas, [[Luis E. Ibáñez]], [[Fernando Marchesano]], *On small Dirac Neutrino Masses in String Theory* &lbrack;[arXiv:2406.14609](https://arxiv.org/abs/2406.14609)&rbrack;
+
 
 
 
