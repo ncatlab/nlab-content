@@ -64,20 +64,6 @@ as $P$ is decidable.
 
 * $LLPO$ follows from $LPO$, but not conversely. 
 
-## Analytic versions {#analytic}
-
-Bishop introduced the above principles of omniscience to show that certain results in pointwise [[analysis]] could not be constructive, by showing that these results implied a principle of omniscience.  The principles of omniscience that appear directly in analysis are these:
-
-*  The __analytic LPO__ states that the usual [[apartness relation]] on the set $\mathbb{R}$ of [[real numbers]] is [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for the real numbers ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that the real numbers form a [[discrete field]].
-
-* The __analytic WLPO__ states that $\mathbb{R}$ has [[decidable equality]].
-
-*  The __analytic LLPO__ states that the usual order on $\mathbb{R}$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for the real numbers.
-
-The analytic principles of omniscience imply the corresponding ones for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did).  In any case, if we use the [[modulated Cantor real numbers]] (sequential real numbers), then the sequential-analytic principles of omniscience are the same as those for natural numbers.
-
-(Note that we need not accept $WCC$ to see that an analytic result implies a principle of omniscience and so cannot be constructively valid.)
-
 ## In the internal logic
 
 In [[set theory]], there are actually two different notions of logic: there is the external predicate logic used to define the set theory itself, and there is the internal predicate logic induced by the set operations on [[subsingletons]] and [[injections]]. In particular, 
@@ -150,6 +136,20 @@ In the context of [[homotopy type theory]], the various principles of omniscienc
 
 * In <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates WLPO from LLPO.
 
+## Analytic versions {#analytic}
+
+Bishop introduced the above principles of omniscience to show that certain results in pointwise [[analysis]] could not be constructive, by showing that these results implied a principle of omniscience.  The principles of omniscience that appear directly in analysis are these:
+
+*  The __analytic LPO__ states that the usual [[apartness relation]] on the set $\mathbb{R}$ of [[real numbers]] is [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for the real numbers ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that the real numbers form a [[discrete field]].
+
+* The __analytic WLPO__ states that $\mathbb{R}$ has [[decidable equality]].
+
+*  The __analytic LLPO__ states that the usual order on $\mathbb{R}$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for the real numbers.
+
+The analytic principles of omniscience imply the corresponding ones for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did).  In any case, if we use the [[modulated Cantor real numbers]] (sequential real numbers), then the sequential-analytic principles of omniscience are the same as those for natural numbers.
+
+(Note that we need not accept $WCC$ to see that an analytic result implies a principle of omniscience and so cannot be constructively valid.)
+
 ## Equivalent statements
 
 There are various other results that are equivalent to the principles of omniscience. Here are a few:
@@ -160,7 +160,7 @@ There are various other results that are equivalent to the principles of omnisci
 
 * Bolzano-Weierstrass compactness of the [[unit interval]] holds if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
-* The [[boolean domain]] is a [[sigma-algebra]] if and only if $\mathrm{WLPO}_\mathbb{N}$ holds. 
+* The [[boolean domain]] is a [[sigma-frame]] if and only if $\mathrm{WLPO}_\mathbb{N}$ holds. 
 
 ## Related statements
 
