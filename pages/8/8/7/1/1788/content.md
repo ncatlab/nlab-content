@@ -1,6 +1,8 @@
 
 [[Microscopic AdS-CFT via p-brane sigma-models -- references]]
 
+[[pBraneNearBlackBrane-240624.jpg:file]]
+
 
 ### Microscopic AdS/CFT via $p$-brane sigma-models
  {#ReferencesMicroscopicAdSCFTViapBraneSigmaModesl}
