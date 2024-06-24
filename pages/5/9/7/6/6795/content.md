@@ -8,12 +8,17 @@
 
 * [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=262756)
 
+
 ## Selected writings
 
 On [[D=7 supergravity]]:
 
 * [[Ergin Sezgin]], [[Abdus Salam]], *Maximal extended supergravity theory in seven dimensions*, Physics Letters B
 **118** 4–6 (1982) 359-364 &lbrack;<a href="https://doi.org/10.1016/0370-2693(82)90204-0">doi:10.1016/0370-2693(82)90204-0</a>&rbrack;
+
+On the emergence of [[superconformal field theory]] in the perturbations of the [[super-membrane]] [[Green-Schwarz sigma model]] around a classical solution stretched along the [[asymptotic boundary]] of [[anti de Sitter spacetime]]:
+
+* {#BDPS87} [[Eric Bergshoeff]], [[Michael Duff]], [[Christopher Pope]], [[Ergin Sezgin]]: *Supersymmetric Supermembrane Vacua and Singletons*, Phys. Lett. B **199** (1987) 69-74 \[<a href="https://doi.org/10.1016/0370-2693(87)91465-1">doi:10.1016/0370-2693(87)91465-1</a>, [InSpire:250244](https://inspirehep.net/literature/250244)\]
 
 
 On [[supergravity]]:
