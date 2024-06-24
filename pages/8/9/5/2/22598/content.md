@@ -143,7 +143,7 @@ $$
   \underset{
     { i \in \{1, \cdots, rows(\lambda)\} }
     \atop
-    {j \in \{1, \cdots, \lambda_j\}}
+    {j \in \{1, \cdots, \lambda_i\}}
   }{\prod}
   \frac{
     1 - q^{N + content(i,j)}
