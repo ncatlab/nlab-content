@@ -21,7 +21,7 @@
 
 ## Idea
 
-> This disappearance and regeneration of space in time and of time in space is motion;&#8211; a becoming, which, however, is itself just as much immediately the identically existing unity of both, or matter. ([PdN&#167;261](Science+of+Logic#PN261))
+> "This disappearance and regeneration of space in time and of time in space is motion;&#8211; a becoming, which, however, is itself just as much immediately the identically existing unity of both, or matter." &lbrack;[PdN&#167;261](Science+of+Logic#PN261)&rbrack;
 
 ### General
 
@@ -66,6 +66,8 @@ For instance models such as the [[G2-MSSM]] consist entirely of pure [[11d super
 
 ## References
 
+### General
+
 Early speculation of similar nature is due to 
 
 * [[William Clifford]], *[[On the Space-Theory of Matter]]*, Proceedings of the Cambridge Philosophical Society **2** (1864-1876 - Printed 1876) 157-158 reprinted in: *The Concepts of Space and Time* Boston Studies in the Philosophy of Science **22** Springer (1976) &lbrack;[doi:10.1007/978-94-010-1727-5_50](https://doi.org/10.1007/978-94-010-1727-5_50)&rbrack;
@@ -90,4 +92,11 @@ See also:
 * Return of the Wheeler wormhole [pdf](http://www.gravityresearchfoundation.org/pdf/awarded/1990/vissar.pdf)
 
 * [Spin 1/2 from gravity](http://prl.aps.org/abstract/PRL/v44/i17/p1100_1), 
+
+
+
+
+[[!include matching KN-black holes to elementary particles -- references]]
+
+
 
