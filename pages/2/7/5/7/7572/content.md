@@ -214,7 +214,7 @@ in $\mathbb{R}^n$ is clearly a bounded subset, and hence so is $S$.
 
 * [[Jordan curve theorem]]
 
-
+* [[Heine-Cantor theorem]]
 
 
 ## References
