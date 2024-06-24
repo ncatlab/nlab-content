@@ -221,33 +221,11 @@ The map $\mathcal{F}X / \hat{q} \rightarrow \mathcal{F}( \mathcal{U}(A))$ specif
  We would like to extend the free space adjunction $\mathcal{F} \dashv \mathcal{U}$ with an adjunction $\mathcal{P}: \mathbf{Std} \leftrightarrows \mathbf{SCvx}: \mathbf{\Sigma}$
 such that the composite is the Giry monad on $\mathbf{Std}$. The category $\mathbf{SCvx}_{\star}$ denotes some subcategory of $\mathbf{SCvx}$ so that the adjunction can be constructed.  If such an adjunction exists the counit of the adjunction says every space $A$  is the quotient of a free space, i.e., $A$ is the coequalizer of a parallel pair of maps into a free space.    To illustrate this consider the following elementary example.
  
- The coequalizer of the pair of points $\frac{1}{3}: \mathbf{1} \rightarrow [0,1]$ and $\frac{2}{3}: \mathbf{1} \rightarrow [0,1]$, where $[0,1] \cong \mathbf{P}{\mathbf{2}}$.  The coequalizer of those pair of points is the discrete space  $A=\{0,u,1\}$ with the structure defined by $p u + (1-p) 0 = u$ for all $p \in (0,1]$, $p u + (1-p) 1 = u$ for all $p \in (0,1]$, and $p 0 + (1-p) 1 = u$ for all $p \in (0,1)$.  
+ The coequalizer of the pair of points $\frac{1}{3}: \mathbf{1} \rightarrow [0,1]$ and $\frac{2}{3}: \mathbf{1} \rightarrow [0,1]$, where $[0,1] \cong \mathbf{P}{\mathbf{2}}$, is the discrete superconvex space  $A=\{0,u,1\}$ with the structure defined by $p u + (1-p) 0 = u$ for all $p \in (0,1]$, $p u + (1-p) 1 = u$ for all $p \in (0,1]$, and $p 0 + (1-p) 1 = u$ for all $p \in (0,1)$.  
 
-If the functor $\mathbf{\Sigma}: \mathbf{SCvx}_{\star} \rightarrow \mathbf{Std}$ exists  it should recognize that that superconvex space arises as a quotient space of $\mathcal{P}{\mathbf{2}}$, and hence should have the barycenter map $\epsilon_A: \mathcal{P}{\mathbf{2}} \rightarrow A$ given by
-the mapping $\delta_0 \mapsto 0$, $\delta_1 \mapsto 1$, and $r \delta_0 + (1-r) \delta_1 \mapsto u$ for all $r \in (0,1)$.
+If the functor $\mathbf{\Sigma}: \mathbf{SCvx}_{\star} \rightarrow \mathbf{Std}$ exists then it follows that that superconvex space arises as a quotient space of $\mathcal{P}{\mathbf{2}}$, and hence should have the barycenter map $\epsilon_A: \mathcal{P}{\mathbf{2}} \rightarrow A$ given by
+the mapping $\delta_0 \mapsto 0$, $\delta_1 \mapsto 1$, and $r \delta_0 + (1-r) \delta_1 \mapsto u$ for all $r \in (0,1)$.  More specifically, we need to show the pair $(\epsilon_A, \mathbf{2})$ specifies a universal arrow from the functor $\mathcal{P}$ to the object $A$.  The proof that this is indeed a universal arrow from $\mathcal{P}$ to the object $A$ makes use of ideals, i.e., if $X$ is any measurable space and $f: \mathcal{P}X \rightarrow A$ is a countably affine map then $f^{-1}(\{u\})$ is an ideal in $\mathcal{P}X$. (See the above example concerning ideals in $\mathcal{P}X$.)
 
-Let $\mathbf{\Omega}$ denote the full subcategory of $\mathbf{SCvx}$ consisting of the two objects $\mathbb{N}$ and $\Delta_{\mathbb{N}}$, and let $\iota:\mathbf{\Omega} \rightarrow \mathbf{SCvx}$ be the inclusion functor.  
-
-If we look at the category $A \downarrow \iota$ there are two countably affine maps, 
-\begin{equation}
-\begin{array}{lcccc}
-\phi_{0,u} &:& A & \rightarrow & \mathbb{N} \\
-&:& a & \mapsto & \left\{ \begin{array}{ll} 0 & for \, a \in \{0,u\} \\ 1 & for \, a=1 \end{array} \right.
-\end{array}
-\end{equation}
-and 
-\begin{equation}
-\begin{array}{lcccc}
-\phi_{1,u} &:& A & \rightarrow & \mathbb{N} \\
-&:& a & \mapsto & \left\{ \begin{array}{ll} 0 & for \, a \in \{1,u\} \\ 1 & for \, a=0 \end{array} \right.
-\end{array},
-\end{equation}
-from which every other countably affine map  $A \rightarrow \mathbb{N}$ can be obtained by composing either $\phi_{0,u}$ or $\phi_{1,u}$
- with a monotonic function $\phi: \mathbb{N} \rightarrow \mathbb{N}$.  Because $A$ is discrete there are no non-constant countably affine maps $A \rightarrow \Delta_{\mathbb{N}}$.
-  
- The coequalizer of those two maps yields the discrete space $\mathbf{2}$ for which $\mathcal{P}{\mathbf{2}}$ is the space we are trying to find - it is the smallest free space such that there is a countably affine map  $\mathcal{P}{\mathbf{2}} \rightarrow A$.
- 
- Whether probing a space $A$ with arrows to objects and products of objects  in $\mathbf{\Omega}$  is sufficient is unknown but a clue is given in the fact that every standard space is $\mathbf{Std}$-isomorphic to either $[0,1]$ or a countable discrete space. Hence $\mathbf{SCvx}_{\star}$ should intuitively consists of quotients of $\prod_{i \in \mathbb{N}} \Delta_{\mathbb{N}}$ (and smaller) - the countability condition being the critical condition. That condition rules out spaces such as $\prod_{i \in [0,1]}\Delta_{\mathbb{N}}$ and the pathological space of Example 5.4.
 
 \end{example} 
 
