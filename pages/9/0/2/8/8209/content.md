@@ -174,7 +174,7 @@ Discussion of the quark gluon-plasma in [[cosmology]] as the [[phase of matter]]
 
 Description via [[geometric engineering of QFTs|geometric engineering]] of [[QCD]] on [[intersecting branes]] ("[[holographic QCD]]" see also at [[string theory results applied elsewhere]]):
 
-Expositions and reviews include
+Exposition and review:
 
 * Pavel Kovtun, _Quark-Gluon Plasma and String Theory_, RHIC news (2009) ([blog entry](http://www.bnl.gov/rhic/news/091107/story2.asp))
 
@@ -188,14 +188,19 @@ Expositions and reviews include
 
 * Jorge Casalderrey-Solana, Hong Liu, [[David Mateos]], Krishna Rajagopal, Urs Achim Wiedemann, _Gauge/string duality, hot QCD and heavy ion collisions_, Cambridge University Press, 2014 ([arXiv:1101.0618](https://arxiv.org/abs/1101.0618))
 
+* {#Natsuume15} [[Makoto Natsuume]], Section 12 in: *AdS/CFT Duality User Guide*, Lecture Notes in Physics **903**, Springer (2015) &lbrack;[arXiv:1409.3575](https://arxiv.org/abs/1409.3575), [doi:10.1007/978-4-431-55441-7](https://doi.org/10.1007/978-4-431-55441-7)&rbrack;
+
+
 and specifically via "[[improved holographic QCD]]"
 
-* {#GKMMN10} Umut Gürsoy, [[Elias Kiritsis]], Liuba Mazzanti, Georgios Michalogiorgakis, Francesco Nitti, _Improved Holographic QCD_, Lect.Notes Phys.828:79-146,2011 ([arXiv:1006.5461](https://arxiv.org/abs/1006.5461))
+* {#GKMMN10} Umut Gürsoy, [[Elias Kiritsis]], Liuba Mazzanti, Georgios Michalogiorgakis, Francesco Nitti, _Improved Holographic QCD_, Lect. Notes Phys. **828** (2011) 79-146 &lbrack;[arXiv:1006.5461](https://arxiv.org/abs/1006.5461)&rbrack;
+
+
 
 
 Holographic discussion of the [[shear viscosity]] of the quark-gluon plasma goes back to
 
-* {#PolicastroSonStarinets01} [[Giuseppe Policastro]], D.T. Son, A.O. Starinets, _Shear viscosity of strongly coupled $N=4$ supersymmetric Yang-Mills plasma_, Phys. Rev. Lett.87:081601, 2001 ([arXiv:hep-th/0104066](http://arxiv.org/abs/hep-th/0104066))
+* {#PolicastroSonStarinets01} [[Giuseppe Policastro]], D.T. Son, A.O. Starinets, _Shear viscosity of strongly coupled $N=4$ supersymmetric Yang-Mills plasma_, Phys. Rev. Lett. **87** 081601 (2001) &lbrack;[arXiv:hep-th/0104066](http://arxiv.org/abs/hep-th/0104066)&rbrack;
 
 
 Other original articles include:
