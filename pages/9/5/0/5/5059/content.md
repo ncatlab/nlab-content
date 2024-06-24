@@ -1217,35 +1217,15 @@ Discussion including also the [[RR-field]] background includes
 
 * R. R. Metsaev, _Type IIB Green-Schwarz superstring in plane wave Ramond-Ramond background_ ([arXiv:hep-th/0112044](http://arxiv.org/abs/hep-th/0112044))
 
-### Relation to AdS-CFT
- {#ReferencesRelationToAdSCFT}
-
-The emergence of [[conformal field theory]] in the perturbations of the [[super-membrane]] around a classical solution stretched along the [[asymptotic boundary]] of [[anti de Sitter spacetime]] is due to 
-
-* {#DuffSutton88} [[Mike Duff]], C. Sutton, _The Membrane at the End of the Universe_, New Sci. 118 (1988) 67-71 ([spire:268230](http://inspirehep.net/record/268230?ln=en))
-
-predating the modern formulation of the [[AdS-CFT correspondence]]. The relation was amplified in 
-
-* {#Duff98} [[Mike Duff]], _Anti-de Sitter space, branes, singletons, superconformal field theories and all that_, Int. J. Mod. Phys. A14:815-844, 1999 ([arXiv:hep-th/9808100](https://arxiv.org/abs/hep-th/9808100))
-
-with more recent developments summarized in [Duff 2021](#Duff21).
 
 
-Further discussion of how Green-Schwarz action functionals for super $p$-branes in [[anti de Sitter spacetimes]] induce -- after restricting to small fluctuations about a background solution and after [[diffeomorphism]] [[gauge fixing]] -- superconformal field theory on the [[worldvolumes]] -- the [[AdS-CFT correspondence]] -- includes
 
-for the [[M2-brane]]:
+[[!include microscopic AdS-CFT via p-brane sigma-models -- references]]
 
-* {#AFFFTT98} Gianguido Dall'Agata, Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl. Phys. B542:157-194, 1999 ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
 
-* {#PastiSorokinTonin99} [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Branes in Super-AdS Backgrounds and Superconformal Theories_, Talk given by D.S. at the International Workshop "Supersymmetry and Quantum Symmetries", JINR, Dubna, Russia, July 26-31, 1999 ([arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076))
 
-for the [[M5-brane]]:
 
-* {#ClausKalloshProeyen97} [[Piet Claus]], [[Renata Kallosh]], [[Antoine Van Proeyen]], *M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions*, Nucl. Phys. B **518** (1998) 117-150 &lbrack;[arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161), <a href="https://doi.org/10.1016/S0550-3213(98)00137-0">doi:10.1016/S0550-3213(98)00137-0</a>&rbrack;
 
-and more generally:
-
-* {#ClausKalloshKumarTownsend98} [[Piet Claus]], [[Renata Kallosh]], J. Kumar, [[Paul Townsend]], [[Antoine Van Proeyen]], _Conformal Theory of M2, D3, M5 and 'D1+D5' Branes_, JHEP 9806 (1998) 004 ([arXiv:hep-th/9801206](http://arxiv.org/abs/hep-th/9801206))
 
 ### Conserved current algebra
  {#ReferencesConservedCurrentAlgebra}
