@@ -148,7 +148,7 @@ Bishop introduced the above principles of omniscience to show that certain resul
 
 The analytic principles of omniscience imply the corresponding ones for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did). (Note that we need not accept $WCC$ to see that an analytic result implies a principle of omniscience and so cannot be constructively valid.)
 
-However, there are many different notions of real numbers in [[constructive mathematics]], so there are many different notions of the analytic principles of omniscience. So let us define a real number field $R$ to be an [[lattice-ordered ring|lattice-ordered]] [[Archimedean ordered field|Archimedean ordered]] [[field extension]] of the field of (sequential, modulated) [[Cantor real numbers]] $\mathrm{R}_C$. Thus, given a real number field $R$ one has unique [[ring homomorphisms]] of real number fields
+However, there are many different notions of real numbers in [[constructive mathematics]], so there are many different notions of the analytic principles of omniscience. So let us define a real number field $R$ to be an [[lattice-ordered ring|lattice-ordered]] [[Archimedean ordered field|Archimedean ordered]] [[field extension]] of the field of (sequential, modulated) [[Cauchy real numbers]] $\mathrm{R}_C$. Thus, given a real number field $R$ one has unique [[ring homomorphisms]] of real number fields
 $$\mathbb{R}_C \hookrightarrow R \hookrightarrow \mathbb{R}_D$$
 where $\mathbb{R}_D$ is the field of [[Dedekind real numbers]]. In general the ring homomorphisms are not provably [[isomorphisms]] unless the [[Dedekind real numbers]] and [[Cauchy real numbers]] coincide. 
 
@@ -170,14 +170,14 @@ One has a hierarchy of analytic principles of omniscience, where
 
 * Suppose that there are two real number fields $R$ and $R'$ such that $R'$ is a [[field extension]] of $R$. Then each $R'$-analytic principle of omniscience implies the respective $R$-analytic principle of omniscience. 
 
-Finally, one has the following: Let $\Sigma \subseteq \Omega$ be the [[initial object|initial]] [[sigma-frame]] of [[truth values]], from which one can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts in $\Sigma^\mathbb{Q} \times \Sigma^\mathbb{Q}$. Then, 
+Finally, one has the following: Let $\Sigma \subseteq \Omega$ be the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] of [[truth values]], from which one can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts in $\Sigma^\mathbb{Q} \times \Sigma^\mathbb{Q}$. Then, 
 
 \begin{theorem}
 The WLPO for natural numbers, the $\mathbb{R}_C$-analytic WLPO, and the $\mathbb{R}_\Sigma$-analytic WLPO are equivalent to each other. 
 \end{theorem}
 
 \begin{proof}
-The WLPO for natural numbers is equivalent to the [[boolean domain]] $\mathbb{2}$ being the initial sigma-frame of truth values $\Sigma \coloneqq \mathbb{2}$. This implies that one can use the booleans to construct $\mathbb{R}_\Sigma$. In turn, the WLPO implies the $\mathbb{R}_\Sigma$-analytic WLPO, since the partial order relation $\leq$ on $\mathbb{R}_\Sigma$ is defined as a [[universal quantification]] over the rational numbers, which is [[decidable]] because of WLPO and the fact that the rational numbers are in bijection with the natural numbers. Since $\mathbb{R}_\Sigma$ is built out of (decidable) Dedekind cuts, it is [[sequentially Cauchy complete]] and the [[Cauchy real numbers]] $\mathrm{R}_C$ are a subfield of $\mathbb{R}_\Sigma$. Thus, the $\mathbb{R}_C$-analytic WLPO holds as well, since any subset of a set with decidable equality itself has decidable equality. Finally, the $\mathbb{R}_C$-analytic WLPO is equivalent to the WLPO for natural numbers, which is sufficient to establish that the converses of the above implications hold. 
+The WLPO for natural numbers is equivalent to the [[boolean domain]] $\mathbb{2}$ being the initial $\sigma$-frame of truth values $\Sigma \coloneqq \mathbb{2}$. This implies that one can use the booleans to construct $\mathbb{R}_\Sigma$. In turn, the WLPO implies the $\mathbb{R}_\Sigma$-analytic WLPO, since the partial order relation $\leq$ on $\mathbb{R}_\Sigma$ is defined as a [[universal quantification]] over the rational numbers, which is [[decidable]] because of WLPO and the fact that the rational numbers are in bijection with the natural numbers. Since $\mathbb{R}_\Sigma$ is built out of (decidable) Dedekind cuts, it is [[sequentially Cauchy complete]] and the [[Cauchy real numbers]] $\mathrm{R}_C$ are a subfield of $\mathbb{R}_\Sigma$. Thus, the $\mathbb{R}_C$-analytic WLPO holds as well, since any subset of a set with decidable equality itself has decidable equality. Finally, the $\mathbb{R}_C$-analytic WLPO is equivalent to the WLPO for natural numbers, which is sufficient to establish that the converses of the above implications hold. 
 \end{proof} 
 
 \begin{theorem}
@@ -198,7 +198,7 @@ There are various other results that are equivalent to the principles of omnisci
 
 * Bolzano-Weierstrass compactness of the [[unit interval]] holds if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
-* The [[boolean domain]] is the [[initial object|initial]] [[sigma-frame]] of [[truth values]] if and only if $\mathrm{WLPO}_\mathbb{N}$ holds. 
+* The [[boolean domain]] is the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] of [[truth values]] if and only if $\mathrm{WLPO}_\mathbb{N}$ holds. 
 
 ## Related statements
 
@@ -220,7 +220,7 @@ There are various other results that are related to the principles of omniscienc
 
 * Assuming that [[Set]] is a [[Boolean topos]], then $LPO_{\mathbb{N}}$ (the LPO for natural numbers) holds in any [[presheaf topos]] over $Set$ and indeed in any [[locally connected topos]] over $Set$, essentially since then $2^N$ is a constant object.
 
-* The LPO for natural numbers fails in Johnstone's [[topological topos]], due to its internal continuity principle.  Hence, the analytic LPO also fails, since the modulated Cantor reals and Dedekind reals coincide in this topos.  However, the (analytic) LLPO holds, as a consequence of the preservation of finite closed unions by the inclusion of sequential spaces.
+* The LPO for natural numbers fails in Johnstone's [[topological topos]], due to its internal continuity principle.  Hence, the analytic LPO also fails, since the modulated Cauchy reals and Dedekind reals coincide in this topos.  However, the (analytic) LLPO holds, as a consequence of the preservation of finite closed unions by the inclusion of sequential spaces.
 
 ## References
 
