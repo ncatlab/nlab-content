@@ -160,7 +160,7 @@ Let $R$ be a GCD domain. Let $a,b \in R$ and let $m \in R$. Then $lcm(ma,mb)=m\c
 \begin{proof}
 If $m=0$ then the two sides of the equation are zero. We can thus suppose that all of $m$ is nonzero.
 
-1. We know that $a \mid lcm(a,b)$, that $b \mid lcm(a,b)$. Therefore, $ma \mid m\cdot lcm(a,b)$ and $mb \mid m\cdots lcm(a,b)$. Hence $\lcm(ma,mb) \mid m\cdots lcm(a,b)$.
+1. We know that $a \mid lcm(a,b)$, that $b \mid lcm(a,b)$. Therefore, $ma \mid m\cdot lcm(a,b)$ and $mb \mid m\cdot lcm(a,b)$. Hence $\lcm(ma,mb) \mid m\cdot lcm(a,b)$.
 
 1. We know that $m \mid ma$, therefore $m \mid lcm(ma,mb)$. It follows that we can write:
 $$
@@ -168,7 +168,7 @@ lcm(ma,mb)=mu
 $$
 where $u \in R$. Hence both $ma$ and $mb$ divides $mu$. Since $m$ is nonzero, we obtain that both $a$ and $b$ divides $u$. Hence, $lcm(a,b) \mid u$. By multiplying by $m$, we obtain that $m \cdot lcm(a,b) \mid lcm(ma,mb)$.
 
-From the two previous points, we conclude that $lcm(ma,mb)$ and $m \cdots lcm(a,b)$ are associated. 
+From the two previous points, we conclude that $lcm(ma,mb)$ and $m \cdot lcm(a,b)$ are associated. 
 \end{proof}
 
 ### Other properties
