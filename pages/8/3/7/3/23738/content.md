@@ -28,7 +28,7 @@ Let $R$ be an integral domain and let $a,b \in R$. We call **gcd** of $a$ and $b
 
 \end{definition}
 
-In other words, a gcd of $a$ and $b$ is a [[join]] in the [[preordered set]] $(R,\mid)$ i.e. a [[cartesian product]] of $a$ and $b$ in $(R,\mid)$ seen as [[thin category]].
+In other words, a gcd of $a$ and $b$ is a [[meet]] in the [[preordered set]] $(R,\mid)$ i.e. a [[cartesian product]] of $a$ and $b$ in $(R,\mid)$ seen as [[thin category]].
 
 It follows from the properties of cartesian products that a gcd is unique up to isomorphism in the category $(R,\mid)$ and that every element isomorphic to a gcd of $a$ and $b$ is also a gcd of $a$ and $b$. 
 
@@ -40,6 +40,8 @@ A **GCD domain** is an [[integral domain]] $R$ such that every pair $a,b \in R$ 
 
 ## Properties
 
+### Equivalence between GCD domain and LCM domain
+
 \begin{definition}
 Let $R$ be an integral domain and let $a,b \in R$. We call **lcm** of $a$ and $b$ an element $lcm(a,b) \in R$ such that:
 
@@ -48,7 +50,7 @@ Let $R$ be an integral domain and let $a,b \in R$. We call **lcm** of $a$ and $b
 1. for every element $r \in R$, if both $a$ and $b$ divide $r$, then $lcm(a,b)$ divides $r$.
 
 \end{definition}
-As for the gcd, an lcm of $a$ and $b$ is just a [[meet]] in the preordered set $(R,\mid)$. Therefore, if an lcm of $a$ and $b$ exists, then the lcm's of $a$ and $b$ are exactly the products of this first lcm by any invertible element.
+As for the gcd, an lcm of $a$ and $b$ is just a [[join]] in the preordered set $(R,\mid)$. Therefore, if an lcm of $a$ and $b$ exists, then the lcm's of $a$ and $b$ are exactly the products of this first lcm by any invertible element.
 
 The following proposition treats the interactions of gcd, lcm and $0$.
 \begin{proposition}
@@ -83,7 +85,7 @@ If $m=0$ then, we have $gcd(ma,mb)=0=m\cdot gcd(a,b)$. We can therefore suppose 
 
 1. We know that $m$ divides both $ma$ and $mb$. Therefore, $m \mid gcd(ma,mb)$. It follows that $gcd(ma,mb)=mu$ for some $u \in R$. It follows that $mu$ divides both $ma$ and $mb$ i.e. there exists $s,t \in R$ such that $ma=msu$ and $mb=mtu$. Since $m$ is nonzero, we deduce that $a=su$ and $b=tu$. Thus $u$ divides both $a$ and $b$. Hence, $u \mid gcd(a,b)$. By multiplying by $m$, we obtain that $gcd(ma,mb) \mid m\cdot gcd(a,b)$. 
 
-From the two previous points, we deduce that $gcd(ma,mb)$ and $m\cdot  gcd(a,b)$ are associated.
+From the two previous points, we deduce that $gcd(ma,mb)$ and $m \cdot  gcd(a,b)$ are associated.
 \end{proof}
 
 We can now prove that:
@@ -148,7 +150,30 @@ We can therefore state:
 Let $R$ be an integral domain. Then $R$ is a GCD domain iff every pair of elements of $R$ admits an lcm.
 \end{corollary}
 
-Every GCD domain of [[Krull dimension|dimension]] at most 1 is a [[Bézout domain]]. 
+### Properties of gcd's and lcm's
+
+Let $R$ be a GCD domain. We already know that $gcd(ma,mb)=m \cdot gcd(a,b)$ for every $a,b,m \in R$. The same is true for lcm's.
+
+\begin{proposition}
+Let $R$ be a GCD domain. Let $a,b \in R$ and let $m \in R$. Then $lcm(ma,mb)=m\cdot lcm(a,b)$ (up to multiplication by a unit).
+\end{proposition}
+\begin{proof}
+If $m=0$ then the two sides of the equation are zero. We can thus suppose that all of $m$ is nonzero.
+
+1. We know that $a \mid lcm(a,b)$, that $b \mid lcm(a,b)$. Therefore, $ma \mid m\cdot lcm(a,b)$ and $mb \mid m\cdots lcm(a,b)$. Hence $\lcm(ma,mb) \mid m\cdots lcm(a,b)$.
+
+1. We know that $m \mid ma$, therefore $m \mid lcm(ma,mb)$. It follows that we can write:
+$$
+lcm(ma,mb)=mu
+$$
+where $u \in R$. Hence both $ma$ and $mb$ divides $mu$. Since $m$ is nonzero, we obtain that both $a$ and $b$ divides $u$. Hence, $lcm(a,b) \mid u$. By multiplying by $m$, we obtain that $m \cdot lcm(a,b) \mid lcm(ma,mb)$.
+
+From the two previous points, we conclude that $lcm(ma,mb)$ and $m \cdots lcm(a,b)$ are associated. 
+\end{proof}
+
+### Other properties
+
+Every GCD domain of [[Krull dimension|dimension]] at most 1 is a [[Bézout domain]].
 
 ## Examples
 
