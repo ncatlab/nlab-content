@@ -27,6 +27,10 @@ See also:
 
 \linebreak
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Students
 
 Among Duff's former students is [[Hisham Sati]].
@@ -118,7 +122,9 @@ On [[double dimensional reduction]] of the [[super-membrane]] (the [[M2-brane]])
 
 * {#DuffHoweInamiStelle87} [[Michael Duff]], [[Paul Howe]], T. Inami, [[Kellogg Stelle]], _Superstrings in $D=10$ from Supermembranes in $D=11$_, Phys. Lett. B191 (1987) 70 and in [[Michael Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 205-206 (1987) ([spire](http://inspirehep.net/record/245249))
 
-On the emergence of [[conformal field theory]] in the perturbations of the [[super-membrane]] around a classical solution stretched along the [[asymptotic boundary]] of [[anti de Sitter spacetime]]
+On the emergence of [[superconformal field theory]] in the perturbations of the [[super-membrane]] [[Green-Schwarz sigma model]] around a classical solution stretched along the [[asymptotic boundary]] of [[anti de Sitter spacetime]]:
+
+* {#BDPS87} [[Eric Bergshoeff]], [[Michael Duff]], [[Christopher Pope]], [[Ergin Sezgin]]: *Supersymmetric Supermembrane Vacua and Singletons*, Phys. Lett. B **199** (1987) 69-74 \[<a href="https://doi.org/10.1016/0370-2693(87)91465-1">doi:10.1016/0370-2693(87)91465-1</a>, [InSpire:250244](https://inspirehep.net/literature/250244)\]
 
 * {#DuffSutton88} [[Mike Duff]], C. Sutton, _The Membrane at the End of the Universe_, New Sci. 118 (1988) 67-71 ([spire:268230](http://inspirehep.net/record/268230?ln=en))
 
