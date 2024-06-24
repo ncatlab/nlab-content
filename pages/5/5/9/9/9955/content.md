@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On the emergence of [[superconformal field theory]] in the perturbations of the [[super-membrane]] [[Green-Schwarz sigma model]] around a classical solution stretched along the [[asymptotic boundary]] of [[anti de Sitter spacetime]]:
+
+* {#BDPS87} [[Eric Bergshoeff]], [[Michael Duff]], [[Christopher Pope]], [[Ergin Sezgin]]: *Supersymmetric Supermembrane Vacua and Singletons*, Phys. Lett. B **199** (1987) 69-74 \[<a href="https://doi.org/10.1016/0370-2693(87)91465-1">doi:10.1016/0370-2693(87)91465-1</a>, [InSpire:250244](https://inspirehep.net/literature/250244)\]
+
+
 On [[double dimensional reduction]] of the [[M5-brane]] to the [[D4-brane]]:
 
 * [[Eric Bergshoeff]], [[Mees de Roo]], [[Tomas Ortin]], *The Eleven-dimensional Five-brane*, Phys. Lett. B **386** (1996) 85-90 &lbrack;[arXiv:hep-th/9606118](https://arxiv.org/abs/hep-th/9606118), <a href="https://doi.org/10.1016/0370-2693(96)00913-6">doi:10.1016/0370-2693(96)00913-6</a>&rbrack;
