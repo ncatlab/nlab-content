@@ -487,11 +487,13 @@ Surveys and introductions:
 
 * [[Joseph Polchinski]], _Introduction to Gauge/Gravity Duality_ ([arXiv:1010.6134](https://arxiv.org/abs/1010.6134))
 
-* {#Natsuume15} [[Makoto Natsuume]], _AdS/CFT Duality User Guide_, Lecture Notes in Physics 903, Springer 2015 ([arXiv:1409.3575](https://arxiv.org/abs/1409.3575))
+* {#Natsuume15} [[Makoto Natsuume]], *AdS/CFT Duality User Guide*, Lecture Notes in Physics **903**, Springer (2015) &lbrack;[arXiv:1409.3575](https://arxiv.org/abs/1409.3575), [doi:10.1007/978-4-431-55441-7](https://doi.org/10.1007/978-4-431-55441-7)&rbrack;
 
 * Sebastian De Haro, Daniel R. Mayerson, [[Jeremy Butterfield]], _Conceptual Aspects of Gauge/Gravity Duality_, Foundations of Physics (2016), 46 (11), pp. 1381-1425 ([arXiv:1509.09231](https://arxiv.org/abs/1509.09231))
 
-* Johanna Erdmenger, _Introduction to Gauge/Gravity Duality_,  	PoS (TASI2017) 001 ([arXiv:1807.09872](https://arxiv.org/abs/1807.09872))
+* {#Erdmenger18} [[Johanna Erdmenger]], _Introduction to Gauge/Gravity Duality_, PoS [TASI2017](https://inspirehep.net/conferences/1591386) (2018) 001 &lbrack;[arXiv:1807.09872](https://arxiv.org/abs/1807.09872), [doi:10.22323/1.305.0001](https://doi.org/10.22323/1.305.0001)&rbrack;
+
+  > (focus on [[holographic entanglement entropy]] and [[AdS/CMT duality]])
 
 * Nirmalya Kajuri, _ST4 Lectures on Bulk Reconstruction_ ([arXiv:2003.00587](https://arxiv.org/abs/2003.00587))
 
