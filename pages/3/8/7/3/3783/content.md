@@ -214,6 +214,11 @@ The original article:
 
 * [[Roy Kerr]], _Gravitational Field of a Spinning Mass as an Example of Algebraically Special Metrics_, Phys. Rev. Lett. 11, 237 (1963) ([doi:10.1103/PhysRevLett.11.237](https://doi.org/10.1103/PhysRevLett.11.237))
 
+Global structure:
+
+* Brandon Carter, *Global Structure of the Kerr Family of Gravitational Fields*, Phys. Rev. **174** (1968) 1559 &lbrack;[doi:10.1103/PhysRev.174.1559](https://doi.org/10.1103/PhysRev.174.1559)&rbrack;
+
+
 Most textbooks on [[general relativity]] have chapter about the Kerr spacetime. 
 
 Monograph:
