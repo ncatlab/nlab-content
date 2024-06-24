@@ -11,42 +11,60 @@
 =--
 
 
+
 #Content#
 * table of contents
 {:toc}
+
+__this is under construction__
 
 ## Idea
 
 An __indexing system__  is a combinatorial datum which uniquely determines an [[N-∞ operad]].
 
-## Definition
+## Definitions
 
+### Indexing systems
 In the following definition, fix $\mathcal{T}$ an [[orbital ∞-category]] and $\mathbb{F}_{\mathcal{T}} \coloneqq \mathcal{T}^{\amalg}$ its finite-coproduct closure;
 for instance, $\mathcal{T}$ may be the [[orbit category]] of a finite group, in which case $\mathbb{F}_{\mathcal{O}_G}$ is the category of finite [[G-sets]].
 
 \begin{definition}
-  A subcategory $I \subset \mathbb{F}_{\mathcal{T}}$ is called an __indexing system__ if 
+  A full $G$-subcategory $\underline{\mathbb{F}}_I \subset \underline{\mathbb{F}}_{\mathcal{T}}$ is called a __weak indexing system__ if
 
-1. ($\Sigma$-action) $I$ contains the [[core]] $\mathbb{F}_{\mathcal{T}}^{\simeq}$.
+1. (objects) whenever the $V$-value $\mathbb{F}_{I,V}$ is nonempty, it contains the $V$-set $*_V$.
 
-2. (Segal condition and restrictions) $I$ is stable under binary coproducts and pullbacks along arbitrary morphisms.
+2. (composition) for all $S \in \underline{\mathbb{F}}_I$, $\underline{\mathbb{F}}_I \subset \underline{\mathbb{F}}_{\mathcal{T}}$ is closed under $S$-indexed coproducts.
 
-3. (Binary multiplications) $I$ contains the fold map $\nabla:2 \cdot V \rightarrow V$ for all $V \in \mathcal{T}$.
+    $\underline{\mathbb{F}}_I$ is called an __indexing system__ if, additionally,
+
+3. (coproducts) for all $n \in \mathbb{N}$ and $V \in \mathcal{T}$, $n \cdot *_V \in \mathbb{F}_{I,V}$
 
 \end{definition}
 
-## Equivalent characterizations
-### Sub-symmetric monoidal categories
-Recall that [[induced representation |induction]] yields an equivalence $\mathbb{F}_H \simeq \mathbb{F}_{G, /[G/H]}$ for each subgroup $H \subset G$.
-Given $I \subset \mathbb{F}_G$ an indexing system, and $H \subset G$ we refer to the corresponding subcategory 
-$$
-  \mathbb{F}_{I,H} \coloneqq I_{/[G/H]} \simeq \mathbb{F}_{G, /[G/H]} \simeq \mathbb{F}_H.
-$$
-The following was proved in [Blumberg-Hill 16](#Blumberg16).
+###Indexing categories
+\begin{definition}
+  A subcategory $I \subset \mathbb{F}_{\mathcal{T}}$ is called a __weak indexing category__ if it satisfies the following conditions:
+
+1. (restriction-stability) morphisms in $I$ is stable under pullbacks along arbitrary maps in $\mathbb{F}_{\mathcal{T}}$. 
+
+2. (Segal condition) A pair of maps $T \rightarrow S$ and $T' \rightarrow S'$ are in $I$ if and only if their coproduct $T \sqcup T' \rightarrow S \sqcup S'$ is in $I$; and
+
+3. ($\Sigma$-action) $I$ contains all automorphisms of its objects.
+
+A weak indexing category $I \subset \mathbb{F}_{\mathcal{T}}$ is called an __indexing category__ if it contains the fold map $n \cdot V \rightarrow V$ for all $V \in \cT$ and $n \in \mathbb{N}$.
+\end{definition}
+
+Given $I$ a weak indexing category, we may define a full $\mathcal{T}$-subcategory 
+\[
+  (\underline{\mathbb{F}}_I)_V \coloneqq \{S \mid \Ind_V^{\mathcal{T}} S \rightarrow V \in I\} \subset \mathbb{F}_{V}.
+\]
+
 \begin{theorem}
-  There is a unique $G$-subcategory $\underline{\mathbb{F}}_I \subset \underline{\mathbb{F}}_G$;
-  furthermore, this outlines an equivalence between the poset of indexing systems and the poset of full $G$-subcategories which contain trivial $H$-sets and are closed under coproducts, finite limits, and self-induction.
+  The assignment $I \mapsto \underline{\mathbb{F}}_I$ furnishes an equivalence between the posets of weak indexing categories and weak indexing systems;
+   this restricts to an equivalence between indexing categories and indexing systems.
 \end{theorem}
+
+
 
 ### Transfer systems
 Let $\mathrm{Sub}(G)$ be the subgroup lattice of $G$.
@@ -61,10 +79,12 @@ $$
 $$
 \end{theorem}
 
+
+
+## Properties
 ### $N_\infty$-operads.
 The poset of subcommutative [[G-∞ operads]] containing $\mathbb{E}_\infty$ corresponds with $\mathrm{Index}_G$; these are called [[N-∞ operads]] (see the linked page for details).
 
-## Properties
 (...)
 
 
@@ -91,5 +111,6 @@ Over [[orbital categories]],
 * [[Denis Nardin]], [[Jay Shah]], _Parametrized and equivariant higher algebra_, (2022) ([arxiv:2203.00072](https://arxiv.org/abs/2203.00072))
 [[!redirects equivariant symmetric monoidal categories]]
 
+* [[Natalie Stewart]], _Orbital categories and weak indexing systems_ [(draft)](https://nataliesstewart.github.io/files/windex_draft.pdf) 
 
 [[!redirects indexing systems]]
