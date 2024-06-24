@@ -234,6 +234,8 @@ In fact, every closed subspace $K \hookrightarrow C$ admits a retraction. There 
 
 ## References
 
+Named after [[Georg Cantor]].
+
 
 * [[Friedhelm Waldhausen]], p. 3-4 in _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
 
