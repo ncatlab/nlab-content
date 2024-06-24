@@ -63,19 +63,26 @@ This duality of the brane picture is at the heart of the [[AdS/CFT correspondenc
 
 ## References
 
+### General
+ {#ReferencesGeneral}
 
-### Prehistory
+Historical precursor discussion, regarding the [[electron]] as if a [[black hole]]:
 
-* {#EinsteinInfeldHoffmann39} [[Albert Einstein]], [[Leopold Infeld]], B. Hoffmann, _The gravitational equations and the problem of motion_, Annals of Mathematics, Vol 39, No. 1, 1938
+* {#EinsteinInfeldHoffmann39} [[Albert Einstein]], [[Leopold Infeld]], B. Hoffmann, _The gravitational equations and the problem of motion_, Annals of Mathematics **39** 1 (1938) &lbrack;[doi:10.2307/1968714](https://doi.org/10.2307/1968714), [jstor:1968714](https://www.jstor.org/stable/1968714)&rbrack;
 
-See also
+Seminal observation that the gyromagnetic ratio of the [[Kerr-Newman black hole]] is 2, just as the for [[electron]] (cf. at *[[anomalous magnetic moment]]*):
+
+* Brandon Carter, p. 1562 of: *Global Structure of the Kerr Family of Gravitational Fields*, Phys. Rev. **174** (1968) 1559 &lbrack;[doi:10.1103/PhysRev.174.1559](https://doi.org/10.1103/PhysRev.174.1559)&rbrack;
+
+See also:
 
 * Wikipedia, _[Black hole electron](https://en.wikipedia.org/wiki/Black_hole_electron)_
 
+* Alexander Burinskii, *The Dirac-Kerr-Newman electron*, Gravit. Cosmol. **14** (2008) 109–122 &lbrack;[doi:10.1134/S0202289308020011](https://doi.org/10.1134/S0202289308020011), [arXiv:hep-th/0507109](https://arxiv.org/abs/hep-th/0507109)&rbrack;
 
-### General
+\linebreak
 
-Original articles:
+Original articles on black branes in [[supergravity]] (and thereby in [[string theory|string]]/[[M-theory]]):
 
 * [[Michael Duff]], [[Ramzi R. Khuri]], [[Jian Xin Lu]], *String and Fivebrane Solitons: Singular or Non-singular?*, Nucl.Phys. B **377** (1992) 281-294 &lbrack;[arXiv:hep-th/9112023](https://arxiv.org/abs/hep-th/9112023), <a href="https://doi.org/10.1016/0550-3213(92)90025-7">doi:10.1016/0550-3213(92)90025-7</a>&rbrack;
 
@@ -136,6 +143,11 @@ Further developments include
 * [[Roberto Emparan]], [[Troels Harmark]], [[Vasilis Niarchos]], [[Niels A. Obers]], *Essentials of Blackfold Dynamics*, JHEP 1003 063 (2010) &lbrack;[arXiv:0910.1601](https://arxiv.org/abs/0910.1601), <a href="https://doi.org/10.1007/JHEP03(2010)063">doi:10.1007/JHEP03(2010)063</a>&rbrack;
 
 * [[Roberto Emparan]], [[Troels Harmark]], [[Vasilis Niarchos]], [[Niels A. Obers]], *Blackfolds in Supergravity and String Theory*, JHEP 1108 (2011) 154 &lbrack;[arXiv:1106.4428](https://arxiv.org/abs/1106.4428)<a href="https://doi.org/10.1007/JHEP08(2011)154">doi:10.1007/JHEP08(2011)154</a>&rbrack;
+
+
+
+[[!include microscopic AdS-CFT via p-brane sigma-models -- references]]
+
 
 
 [[!redirects black branes]]
