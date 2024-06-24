@@ -206,7 +206,7 @@ There are various other results that are equivalent to the principles of omnisci
 
 There are various other results that are related to the principles of omniscience. Here are a few:
 
-* In the presence of [[weak countable choice]], [[existential quantifier|there exists]] a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) for every [[Cauchy real number]] iff $\mathrm{LLPO}_\mathbb{N}$ holds; there exists a radix expansion for every [[Dedekind real number]] has iff the analytic $\mathrm{LLPO}$ holds. Without [[weak countable choice]], [[Lifschitz realizability]] gives a model in which $\mathrm{LLPO}_\mathbb{N}$ holds but it is not true that there exists a radix expansion in any base for every [[Cauchy real number]], which implies that there are models in which the analytic LLPO holds but it is not true that there exists a radix expansion in any base for every [[Dedekind real number]]. See [[Andrew Swan]]'s answer to [Birchfield (2024)](#Swan24). In addition, the analytic $\mathrm{LLPO}$ holds for the [[Dedekind real numbers]] in [[condensed sets]], but every function from the Dedekind real numbers to the [[boolean domain]] $\mathbb{2}$ is a [[constant function]], which implies that it is not true that there exists a radix expansion in any base for every [[Dedekind real number]]. 
+* In the presence of [[weak countable choice]], [[existential quantifier|there exists]] a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) for every [[Cauchy real number]] iff $\mathrm{LLPO}_\mathbb{N}$ holds; there exists a radix expansion for every [[Dedekind real number]] has iff the analytic $\mathrm{LLPO}$ holds. Without [[weak countable choice]], [[Lifschitz realizability]] gives a model in which $\mathrm{LLPO}_\mathbb{N}$ holds but it is not true that there exists a radix expansion in any base for every [[Cauchy real number]], which implies that there are models in which the analytic LLPO holds but it is not true that there exists a radix expansion in any base for every [[Dedekind real number]]. See [[Andrew Swan]]'s answer to [Birchfield (2024)](#Birchfield24). In addition, the analytic $\mathrm{LLPO}$ holds for the [[Dedekind real numbers]] in [[condensed sets]], but every function from the Dedekind real numbers to the [[boolean domain]] $\mathbb{2}$ is a [[constant function]], which implies that it is not true that there exists a radix expansion in any base for every [[Dedekind real number]]. 
 
 * In the presence of [[countable choice]], $\mathrm{LLPO}_\mathbb{N}$ is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic. See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri10).
 
@@ -234,7 +234,9 @@ There are various other results that are related to the principles of omniscienc
 
 * {#Mehkeri10} David Feldman (2010) on Math.Overflow, [Radix notation and toposes](http://mathoverflow.net/questions/49775/radix-notation-and-toposes/)
 
-* {#Swan24} Madeleine Birchfield (2024) on Category Theory Zulip, [Radix expansions in constructive mathematics](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Radix.20expansions.20in.20constructive.20mathematics)
+* {#Birchfield24} Madeleine Birchfield et al. (2024) on Category Theory Zulip, [Radix expansions in constructive mathematics](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Radix.20expansions.20in.20constructive.20mathematics)
+
+* Madeleine Birchfield, Andrew Swan (2024) on Category Theory Zulip, [LPO and sigma-frame structure on booleans](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/LPO.20and.20sigma-frame.20structure.20on.20booleans)
 
 * {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
