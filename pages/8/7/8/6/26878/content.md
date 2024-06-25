@@ -46,6 +46,8 @@ QR decompositions may be computed via
 
   * [[LU decomposition]]
 
+* [[Iwasawa decomposition]]
+
 ## Literature
 
 * Wikipedia, *[QR decomposition](https://en.wikipedia.org/wiki/QR_decomposition)*
