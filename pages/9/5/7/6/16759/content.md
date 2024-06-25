@@ -73,7 +73,7 @@ on [[M-theory]]
 
 On [[black branes]], [[BPS-states]] of intersecting M-branes, 
 
-* [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl.Phys.B475:149-163,1996 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035))
+* [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl. Phys. B **475** (1996) 149-163 &lbrack;[arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035)&rbrack;
 
 as well as [[black holes in string theory]] and [[Bekenstein-Hawking entropy]]
 
