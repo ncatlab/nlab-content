@@ -28,11 +28,15 @@ On the [[Poisson sigma-model]]:
  
 * [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and deformation quantization_, Mod. Phys. Lett. A 16, 179--190 (2001) [hep-th/0102208](http://arxiv.org/abs/hep-th/0102208)
 
-
 * [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and symplectic groupoids_ , (ed. [[Klaas Landsman]], M. Pflaum, M. Schlichenmeier), Progress in Mathematics 198, 61--93 (Birkh&#228;user, 2001)
 [math.SG/0003023](http://arxiv.org/abs/math/0003023).
 
 * [[Alberto Cattaneo]], [[Giovanni Felder]], _On the AKSZ formulation of the Poisson sigma model_, Lett. Math. Phys. 56, 163--179 (2001) [math.QA/0102108](http://arxiv.org/abs/math/0102108).
+
+On [[Poisson algebras]] [[internalization|internal]] to [[graded vector spaces]] (such as [[Gerstenhaber algebras]]):
+
+* {#CattaneoFiorenzaLongoni06} [[Alberto S. Cattaneo]], [[Domenico Fiorenza]], Riccardo Longoni, *Graded Poisson Algebras*, in: *Encyclopedia of Mathematical Physics*, Elsevier (2006) 560-567 &lbrack;[arXiv:1811.07395](https://arxiv.org/abs/1811.07395), [doi:10.1016/B0-12-512666-2/00434-X](https://doi.org/10.1016/B0-12-512666-2/00434-X)&rbrack;
+
 
 On [[BV-BRST formalism]] compatible with decomposing [[spacetime]] into pieces ([[BV-BFV formalism]]):
 
