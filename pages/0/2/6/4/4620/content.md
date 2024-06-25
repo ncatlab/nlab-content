@@ -170,24 +170,16 @@ One has a hierarchy of analytic principles of omniscience, where
 
 * Suppose that there are two real number fields $R$ and $R'$ such that $R'$ is a [[field extension]] of $R$. Then each $R'$-analytic principle of omniscience implies the respective $R$-analytic principle of omniscience. 
 
-Finally, one has the following: Let $\Sigma \subseteq \Omega$ be the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] of [[truth values]], from which one can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts in $\Sigma^\mathbb{Q} \times \Sigma^\mathbb{Q}$. Also, let $\mathbb{R}_H$ be the [[HoTT book real numbers]], which are the initial [[sequentially Cauchy complete space|sequentially Cauchy complete]] [[Archimedean ordered field]]. One has ring homomorphisms
+Finally, one has the following: Let $\Sigma$ be the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]. It is a subset of the [[set of truth values]], which implies that one can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts in $\Sigma^\mathbb{Q} \times \Sigma^\mathbb{Q}$. Also, let $\mathbb{R}_H$ be the [[HoTT book real numbers]], which are the initial [[sequentially Cauchy complete space|sequentially Cauchy complete]] [[Archimedean ordered field]]. One has ring homomorphisms
 $$\mathrm{R}_C \hookrightarrow \mathrm{R}_H \hookrightarrow \mathrm{R}_\Sigma \hookrightarrow \mathrm{R}_D$$
 Then, 
-
-\begin{theorem}
-The WLPO for natural numbers, the $\mathbb{R}_C$-analytic WLPO, the $\mathbb{R}_H$-analytic WLPO, and the $\mathbb{R}_\Sigma$-analytic WLPO are equivalent to each other. 
-\end{theorem}
-
-\begin{proof}
-The WLPO for natural numbers is equivalent to the [[boolean domain]] $\mathbb{2}$ being the initial $\sigma$-frame of truth values $\Sigma \coloneqq \mathbb{2}$. This implies that one can use the booleans to construct $\mathbb{R}_\Sigma$. In turn, the WLPO implies the $\mathbb{R}_\Sigma$-analytic WLPO, since the partial order relation $\leq$ on $\mathbb{R}_\Sigma$ is defined as a [[universal quantification]] over the rational numbers, which is [[decidable]] because of WLPO and the fact that the rational numbers are in bijection with the natural numbers. Since $\mathbb{R}_\Sigma$ is built out of (decidable) Dedekind cuts, it is [[sequentially Cauchy complete]] and both the [[Cauchy real numbers]] $\mathrm{R}_C$ and the [[HoTT book real numbers]] $\mathbb{R}_H$ are subfields of $\mathbb{R}_\Sigma$. Thus, the $\mathbb{R}_C$-analytic WLPO and $\mathbb{R}_H$-analytic WLPO hold as well, since any subset of a set with decidable equality itself has decidable equality. Finally, the $\mathbb{R}_C$-analytic WLPO is equivalent to the WLPO for natural numbers, which is sufficient to establish that the converses of the above implications hold. 
-\end{proof} 
 
 \begin{theorem}
 The LPO for natural numbers, the $\mathbb{R}_C$-analytic LPO, the $\mathbb{R}_H$-analytic LPO, and the $\mathbb{R}_\Sigma$-analytic LPO are equivalent to each other. 
 \end{theorem}
 
 \begin{proof}
-The LPO for natural numbers implies the WLPO for natural numbers, which implies that one can use the booleans to construct $\mathbb{R}_\Sigma$ as above. The LPO implies the $\mathbb{R}_\Sigma$-analytic LPO, since the [[pseudo-order]] relation $\lt$ on $\mathbb{R}_\Sigma$ is defined as an [[existential quantification]] over the rational numbers, which is [[decidable]] because of LPO and the fact that the rational numbers are in bijection with the natural numbers. The $\mathbb{R}_\Sigma$-analytic LPO implies that every real number in $\mathbb{R}_\Sigma$ comes with the structure of a [[locator]], which implies that $\mathbb{R}_C$, $\mathbb{R}_H$, and $\mathbb{R}_\Sigma$ are isomorphic as real number fields. Thus, the $\mathbb{R}_\Sigma$-analytic LPO, $\mathbb{R}_H$-analytic LPO, and $\mathbb{R}_C$-analytic LPO are equivalent to each other. Finally, the $\mathbb{R}_C$-analytic LPO is equivalent to the LPO for natural numbers, which is sufficient to establish that the converses of the above implications hold. 
+The LPO for natural numbers is equivalent to the [[boolean domain]] $\mathbb{2}$ being the initial $\sigma$-frame $\Sigma \coloneqq \mathbb{2}$. This implies that one can use the booleans to construct $\mathbb{R}_\Sigma$. The LPO also implies the $\mathbb{R}_\Sigma$-analytic LPO, since the [[pseudo-order]] relation $\lt$ on $\mathbb{R}_\Sigma$ is defined as an [[existential quantification]] over the rational numbers, which is [[decidable]] because of LPO and the fact that the rational numbers are in bijection with the natural numbers. The $\mathbb{R}_\Sigma$-analytic LPO implies that every real number in $\mathbb{R}_\Sigma$ comes with the structure of a [[locator]], which implies that $\mathbb{R}_C$, $\mathbb{R}_H$, and $\mathbb{R}_\Sigma$ are isomorphic as real number fields. Thus, the $\mathbb{R}_\Sigma$-analytic LPO, $\mathbb{R}_H$-analytic LPO, and $\mathbb{R}_C$-analytic LPO are equivalent to each other. Finally, the $\mathbb{R}_C$-analytic LPO is equivalent to the LPO for natural numbers, which is sufficient to establish that the converses of the above implications hold. 
 \end{proof}
 
 ## Equivalent statements
@@ -200,7 +192,7 @@ There are various other results that are equivalent to the principles of omnisci
 
 * [[sequentially compact space|Sequential compactness]] of the [[unit interval]] holds if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
-* The [[boolean domain]] is the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] of [[truth values]] if and only if $\mathrm{WLPO}_\mathbb{N}$ holds. 
+* The [[boolean domain]] is the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
 ## Related statements
 
