@@ -192,7 +192,7 @@ There are various other results that are equivalent to the principles of omnisci
 
 * [[sequentially compact space|Sequential compactness]] of the [[unit interval]] holds if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
-* The [[boolean domain]] is the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
+* The [[boolean domain]] is a [[sigma-frame|$\sigma$-frame]] if and only if $\mathrm{WLPO}_\mathbb{N}$ holds, and it is the [[initial object|initial]] $\sigma$-frame if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
 ## Related statements
 
