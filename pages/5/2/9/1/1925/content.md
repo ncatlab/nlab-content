@@ -168,7 +168,7 @@ Given a heap $H$, the claimed [[structure group]]  $Str(H)$ is described, up to 
    $$
      (a,b) \,\sim\, (a',b')
      \;\;\;\;\text{iff}\;\;\;\;
-     t(a,a',b') \,=\, b
+     t(a,b,b') \,=\, a'
    $$  
 
    (the idea is to think of the pair $(a,b)$ as the representative of $a b^{-1}$)
@@ -216,31 +216,35 @@ Given a heap $H$, the claimed [[structure group]]  $Str(H)$ is described, up to 
 
 It remains to see that these constructions all agree and are functorial.
 
-First to see that the [[equivalence relations]] used in the second and third construction agree, notice that 
+First to show that the [[equivalence relation]] used in the second construction is symmetric, and that it coincides with that implicitly used in the first construction, notice that 
 the following are equivalent:
 
-* (i) the bijections $t(\cdot,a,b)$ and $t(\cdot,a',b')$ coincide
+* (i) the bijections $t(a,b,-)$ and $t(a',b',-)$ coincide
 
-* (ii) $t(a,a',b') = b$,
+* (ii) $t(a,b,b') = a'$
 
-* (iii) $t(b,b',a') = a$.
+* (iii) $t(a',b',b) = a$
 
 Namely:
 
 (ii) follows from (i) and $t(a,a,b) = b$.
 
-(iii) follows from (ii) by applying $t(\cdot,b',a')$ on the
-right. Similarly (ii) follows from (iii).
+(ii) implies (iii) as follows.  Given $t(a,b,b') = a'$, we have
+$t(t(a,b,b'),b',b) = t(a',b',b)$, but 
+
+$$ t(t(a,b,b'),b',b) = t(a,b,t(b',b',b)) = t(a,b,b) = a$$
+
+so $t(a',b',b) = a$.   (iii) implies (ii) by a similar argument.
 
 (i) follows from (ii) by the calculation:
-\[ t(x,a',b') = t(t(x,a,a),a',b')= t(x,a,t(a,a',b'))
- = t(x,a,b).\]
+\[ t(a',b',x) = t(a',b',t(b,b,x))= t(t(a',b',b),b,x)
+t(a,b,x)\]
 
-Since the composition laws are also easily seen to agree, we have that the second two constructions of $Str(H)$ are canonically isomorphic.  
+Since the composition laws can also be seen to agree, the second two constructions of $Str(H)$ are canonically isomorphic.  
 
 To compare them to the first construction, observe that for a fixed $\mathrm{e} \in H$, any equivalence class contains a unique pair of the form $(\mathrm{e},a)$.  (If $(b,c)$ is in the equivalence class, then $a$ is determined by $a = t(\mathrm{e},b,c)$.)  This sets up a bijection between the first two constructions, which we can easily show is an isomorphism.
 
-Finally, the second constructions is manifestly functorial.
+Finally, the second construction is manifestly functorial.
 \end{proof}
 
 
