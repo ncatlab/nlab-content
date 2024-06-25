@@ -7,6 +7,11 @@ Father of [[Henri Cartan]].
 
 ## Selected writings
 
+Introducing what came to be known as *[[Maurer-Cartan forms]]*:
+
+* [[Élie Cartan]], *Sur la structure des groupes infinis de transformation*, Annales scientifiques de l’É.N.S. 3e série, tome 21 (1904) 153-206 &lbrack;[numdam:ASENS_1904_3_21__153_0](http://www.numdam.org/item?id=ASENS_1904_3_21__153_0)&rbrack;
+
+
 Introducing the re-formulation of [[Riemannian geometry]] that came to be known as *[[Cartan geometry]]* via [[Cartan structural equations]] for [[curvature]] and [[torsion]] of [[Cartan moving frames]] and [[Cartan connections]]:
 
 * {#Cartan22} [[Élie Cartan]], *Sur une généralisation de la notion de courbure de Riemann et les espaces á torsion*, C. R. Acad. Sci. **174** (1922) 593-595 .
@@ -40,6 +45,9 @@ as reviewed in
 
 * [[Cartan's magic formula]]
 
+* [[Maurer-Cartan equation]]
+
+* [[Maurer-Cartan form]]
 
 [[!redirects Elie Cartan]]
 [[!redirects É. Cartan]]
