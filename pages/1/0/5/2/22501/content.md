@@ -15,7 +15,7 @@
 
 ## Idea
 
-Schur-Weyl duality is a relation between the [[finite-dimensional vector space|finite-dimensional]] [[irreducible representations]] of the [[general linear groups]] $GL(k)$ and of the [[symmetric group]] $Sym(n)$.
+Schur-Weyl duality (also called Frobenius-Schur duality) is a relation between the [[finite-dimensional vector space|finite-dimensional]] [[irreducible representations]] of the [[general linear groups]] $GL(k)$ and of the [[symmetric group]] $Sym(n)$.
 
 Concretely, for $k, n \in \mathbb{N}$ consider the $k \times n$-dimensional [[complex vector space]]; regarded as a [[tensor product of vector spaces|tensor product]] of $n$ copies of $\mathbb{C}^n$:
 
@@ -74,6 +74,7 @@ Here the [[direct sum]] is indexed by [[partitions]] $\lambda$ of $n$ by $k$ [[p
 * [[representation theory of the symmetric group]]
 
 * [[Schur-Weyl measure]]
+* [[Howe duality]]
 
 ## References 
 
@@ -103,9 +104,12 @@ In the [[AdS-CFT correspondence]]:
 
 * [[Sanjaye Ramgoolam]], *Schur-Weyl duality as an instrument of Gauge-String duality*, AIPConf. Proc. 1031:255-265, 2008 ([arXiv:0804.2764](https://arxiv.org/abs/0804.2764))
 
+A general mechanism behind the similar dualities is discussed in
 
-
+* [[Georgia Benkart]], _Commuting actions -- A tale of two groups_, in: Lie Algebras and Their Representations, Contemp. Math. __194__ (1996) 1--46 
 
 
 [[!redirects Schur Weyl duality]]
+
+[[!redirects Frobenius-Schur duality]]
 
