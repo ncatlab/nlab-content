@@ -42,7 +42,7 @@ On the other hand, [[de Sitter spacetimes]] (instead of anti-de Sitter) do not h
 
 ## Properties
 
-Explicit formulas for [[super Cartan geometry|super]] [[Cartan connections]] for $AdS_4 \times S^7$ and $AdS_7 \times S^4$ are given in [dWPPS 98, p. 156](#dWPPS98), following [Kallosh, Rahmfeld & Rajaraman 1998](#KalloshRahmfeldRajaraman98) and [Claus & Kallosh 1999](#ClausKallosh99), see also [Claus 1998](#Claus98) (reviewed in [Wang 2023](#Wang23)).
+Explicit formulas for [[super Cartan geometry|super]] [[Cartan connections]] for $AdS_4 \times S^7$ and $AdS_7 \times S^4$ are given in [dWPPS 98, p. 156](#dWPPS98), following [Kallosh, Rahmfeld & Rajaraman 1998](#KalloshRahmfeldRajaraman98) and [Claus & Kallosh 1999](#ClausKallosh99), see also [Claus 1998](#Claus98) (reviewed in [Wang 2023, §4.4](#Wang23)).
 
 
 
@@ -95,7 +95,7 @@ Specifically concerning super-$AdS_4 \times S^7$ ([[superspace|super]]-[[near ho
 
 Review:
 
-* {#Wang23} Zihan Wang, *A review on $D=11$ supergravity and M2-brane*, MSc thesis (2023) &lbrack;[](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2023/Zihan-Wang-Dissertation.pdf)&rbrack;
+* {#Wang23} Zihan Wang, *A review on $D=11$ supergravity and M2-brane*, MSc thesis (2023) &lbrack;[pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2023/Zihan-Wang-Dissertation.pdf), [[Wang-M2Brane.pdf:file]]&rbrack;
 
 
 The super 3-cocycle for the [[Green-Schwarz superstring]] on $\frac{SU(2,2 \vert 5)}{Spin(4,1)\times SO(5)}$ is originally due to 
@@ -105,7 +105,7 @@ The super 3-cocycle for the [[Green-Schwarz superstring]] on $\frac{SU(2,2 \vert
 However, a supersymmetric trivialization of this cocycle seems to have been obtained (according to [arxiv:1808.04470, p. 5 and equation (5.5)](https://arxiv.org/abs/1808.04470), but check)
 in:
 
-* {#RoibanSiegel00} Radu Roiban, [[Warren Siegel]], _Superstrings on $AdS_5 \times S^5$ supertwistor space_, JHEP 0011:024, 2000 ([arXiv:hep-th/0010104](https://arxiv.org/abs/hep-th/0010104))
+* {#RoibanSiegel00} [[Radu Roiban]], [[Warren Siegel]], _Superstrings on $AdS_5 \times S^5$ supertwistor space_, JHEP 0011:024 (2000) &lbrack;[arXiv:hep-th/0010104](https://arxiv.org/abs/hep-th/0010104), [doi:10.1088/1126-6708/2000/11/024](https://doi.org/10.1088/1126-6708/2000/11/024)&rbrack;
 
 
 
