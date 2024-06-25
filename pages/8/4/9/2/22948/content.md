@@ -5,9 +5,14 @@
 
 ## Selected writings
 
-Introducing the [[Maurer-Cartan equation]]:
+Introducing what came to be known as the [[Maurer-Cartan equation]]:
 
-* [[Ludwig Maurer]], _&#220;ber allgemeinere Invarianten-Systeme_, M&#252;nch. Ber. __18__ (1888), 103-150.
+* [[Ludwig Maurer]], _Über allgemeinere Invarianten-Systeme_, Münchener Berichte **18** (1888) 103-150
+
+
+## Related entries
+
+* [[Maurer-Cartan form]]
 
 
 category: people
