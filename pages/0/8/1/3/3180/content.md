@@ -27,6 +27,10 @@ On [[topological order]], [[braided fusion categories]] and the [[holographic pr
 
 * [[Liang Kong]], *Topological Wick Rotation and Holographic Dualities*, talk at [[CQTS]] (Oct 2022) &lbrack;[[Kong-TalkAtCQTS-20221019.pdf:file]]&rbrack;
 
+Discussion of the [[Levin-Wen model]] as an [[extended TQFT|extended]] [[3d TQFT]] formulated using [[tensor categories]]:
+
+* [[Alexei Kitaev]], [[Liang Kong]], _Levin-Wen models and tensor categories_ &lbrack;<a href="https://ncatlab.org/nlab/files/Kitaev-Kong.pdf">pdf</a>&rbrack;
+
 
 ## Related entries
 
