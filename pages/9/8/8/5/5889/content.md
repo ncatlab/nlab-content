@@ -67,9 +67,19 @@ On [[homogeneous spaces]] with the same [[rational cohomology]] as a [[product s
 * [[Linus Kramer]], _Homogeneous Spaces, Tits Buildings, and Isoparametric Hypersurface_,  Memoirs of the American Mathematical Society number 752 ([arXiv:math/0109133] (http://arxiv.org/abs/math/0109133), [doi:10.1090/memo/0752](http://dx.doi.org/10.1090/memo/0752), [GoogleBooks](http://books.google.com/books?id=SA8O6ihrDFkC&printsec=frontcover&hl=de&source=gbs_v2_summary_r&cad=0#v=onepage&q=&f=false))
 
 
-The following article has categorical analysis of relation between the total space of a principal bundle and of the corresponding quotient space both for the classical case and for noncommutative generalizations:
+A [[category theory|category theoretic]] analysis of relation between the total space of a principal bundle and of the corresponding quotient space both for the classical case and for [[noncommutative geometry|noncommutative]] generalizations:
 
-* [[Tomasz Brzeziński]], _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics 35(1D): 13-27, 2010 [arxiv:0912.0213](http://uk.arxiv.org/abs/0912.0213); _Quantum group differentials, bundles and gauge theory_, Encyclopedia of Mathematical Physics, Acad. Press. 2006, pp. 236&#8211;244
-[doi](http://dx.doi.org/10.1016/B0-12-512666-2/00050-X)
+* [[Tomasz Brzeziński]], _On synthetic interpretation of quantum principal bundles_, AJSE D - Mathematics **35** 1D  (2010) 13-27 &lbrack;[arxiv:0912.0213](http://uk.arxiv.org/abs/0912.0213)&rbrack;
+
+* [[Tomasz Brzeziński]], _Quantum group differentials, bundles and gauge theory_, Encyclopedia of Mathematical Physics, Acad. Press. (2006) 236-244 &lbrack;[doi:10.1016/B0-12-512666-2/00050-X](http://dx.doi.org/10.1016/B0-12-512666-2/00050-X)&rbrack;
+
+On [[coset spaces]] ([[homogeneous spaces]]) and their [[Maurer-Cartan forms]] in application to [[first-order formulation of gravity|first-order formulation]] of ([[supergravity|super]]-)[[gravity]]:
+
+* [[Leonardo Castellani]], [[L. J. Romans]], [[Nicholas P. Warner]], *Symmetries of coset spaces and Kaluza-Klein supergravity*, Annals of Physics **157** 2 (1984) 394-407 \[<a href="https://doi.org/10.1016/0003-4916(84)90066-6">doi:10.1016/0003-4916(84)90066-6</a>\]
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], §I.6 in: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], ch I.6: [[CastellaniDAuriaFre-ChI6.pdf:file]]
+
+* {#Castellani01} [[Leonardo Castellani]], *On G/H geometry and its use in M-theory compactifications*, Annals Phys. **287** (2001) 1-13 &lbrack;[arXiv:hep-th/9912277](https://arxiv.org/abs/hep-th/9912277), [doi:10.1006/aphy.2000.6097](https://doi.org/10.1006/aphy.2000.6097)&rbrack;
+
 
 [[!redirects homogeneous spaces]]
