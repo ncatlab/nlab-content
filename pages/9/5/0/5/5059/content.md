@@ -899,20 +899,19 @@ Textbook discussion of the Green-Schwarz version of the [[heterotic string]] is 
 
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], vol 3, section VI.9.7 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-There is also a kind of review in
+Comprehensive review:
 
-* [[Joan Simón]], _Brane Effective Actions, Kappa-Symmetry and Applications_, Living Reviews in Relativity ([arXiv:1110.2422](http://arxiv.org/abs/1110.2422))
+* [[Joan Simón]], *Brane Effective Actions, Kappa-Symmetry and Applications*,  Living Reviews in Relativity **15** 3 (2012)  &lbrack;[arXiv:1110.2422](http://arxiv.org/abs/1110.2422), [doi:10.12942/lrr-2012-3](https://doi.org/10.12942/lrr-2012-3)&rbrack;
 
 Quantization of the Green-Schwarz string using [[pure spinors]] is discussed in
 
-* P. A. Grassi, G. Policastro, [[Peter van Nieuwenhuizen]], _An Introduction to the Covariant Quantization of Superstrings_, Class.Quant.Grav. 20 (2003) S395-S410 ([arXiv:hep-th/0302147](https://arxiv.org/abs/hep-th/0302147))
+* [[Pietro A. Grassi]], [[Giuseppe Policastro]], [[Peter van Nieuwenhuizen]], _An Introduction to the Covariant Quantization of Superstrings_, Class. Quant. Grav. **20** (2003) 395-410 &lbrack;[arXiv:hep-th/0302147](https://arxiv.org/abs/hep-th/0302147)&rbrack;
 
-* P.A. Grassi, Y. Oz, _Non-Critical Covariant Superstrings_ ([arXiv:hep-th/0507168](https://arxiv.org/abs/hep-th/0507168))
+* [[Pietro A. Grassi]], Y. Oz, *Non-Critical Covariant Superstrings* &lbrack;[arXiv:hep-th/0507168](https://arxiv.org/abs/hep-th/0507168)&rbrack;
 
+Review in the [[superembedding approach]]
 
-Review from the bigger perspective that also includes worlsheet supermanifolds is in
-
-* {#Sorokin99} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys.Rept.329:1-101,2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
+* {#Sorokin99} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys. Rept. **329** (2000) 1-101 &lbrack;[arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142)&rbrack;
 
 The observation that the Green-Schwarz action functional is an example of a [[WZW-model]] on [[super-Minkowski spacetime]] is due to
 
