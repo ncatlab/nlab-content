@@ -32,8 +32,8 @@ The original article is
 
 * [[Michael Levin]], [[Xiao-Gang Wen]], *String-net condensation: A physical mechanism for topological phases*, Phys.Rev. B **71** (2005) 045110 $[$[arXiv:cond-mat/0404617](http://arxiv.org/abs/cond-mat/0404617)$]$
 
-A discussion of the Levin-Wen model as an [[extended TQFT|extended]] [[3d TQFT]] formulated using [[tensor categories]] is in 
+Discussion of the Levin-Wen model as an [[extended TQFT|extended]] [[3d TQFT]] formulated using [[tensor categories]]:
 
-* [[Alexei Kitaev]], [[Liang Kong]], _Levin-Wen models and tensor categories_ ([[Kitaev-Kong.pdf:file]]).
+* [[Alexei Kitaev]], [[Liang Kong]], _Levin-Wen models and tensor categories_ &lbrack;<a href="https://ncatlab.org/nlab/files/Kitaev-Kong.pdf">pdf</a>&rbrack;
 
 [[!redirects Levin-Wen models]]
