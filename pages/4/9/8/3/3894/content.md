@@ -21,7 +21,7 @@
 
 ## Idea
 
-A **G-structure** on an $n$-[[manifold]] $M$, for a given structure group $G$, is a $G$-subbundle of the [[frame bundle]] (of the [[tangent bundle]]) of $M$. 
+A **G-structure** on an $n$-[[manifold]] $M$, for a given [[structure group]] $G$, is a $G$-subbundle of the [[frame bundle]] (of the [[tangent bundle]]) of $M$. 
 
 Equivalently, this means that a $G$-structure is a choice of [[reduction of structure groups|reduction]] of the canonical structure group [[general linear group|GL(n)]] of the [[principal bundle]] to which the [[tangent bundle]] is [[associated bundle|associated]] along the given inclusion $G \hookrightarrow GL(n)$.
 
@@ -329,6 +329,10 @@ See the list at [[twisted differential c-structure]].
 \linebreak
 
 ## Related concepts
+
+* [[structure group]]
+
+* [[reduction of structure groups]]
 
 * [[special holonomy]]
 
