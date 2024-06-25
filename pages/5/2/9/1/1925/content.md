@@ -19,7 +19,7 @@
 
 In [[algebra]], a _heap_ is an algebraic [[structure]] which is almost that of a [[group]] structure but without the specification of a [[neutral element]].  
 
-While closely related to notions such as *[[affine spaces]]*, *[[principal homogeneous spaces]]* and *[[torsors]]*, the concept of heaps is simpler in the sense that it postulates just a single set with a single [[ternary]] operation obeying two [[axioms]] (see Def. \ref{TheDefinition} below).
+While closely related to notions such as *[[affine space]]*, *[[principal homogeneous space]]* and *[[torsor]]*, the concept of heap is simpler in the sense that it postulates just a single set with a single [[ternary]] operation obeying two [[axioms]] (see Def. \ref{TheDefinition} below).
 
 Concretely, any [[group]] gives a heap where this ternary operation is defined from the group's [[binary operation]] $(\text{-})\cdot(\text{-})$ and [[inverse element|inversion]] $(-)^{-1}$ by 
 
@@ -171,7 +171,7 @@ Given a heap $H$, the claimed [[structure group]]  $Str(H)$ is described, up to 
      t(a,a',b') \,=\, b
    $$  
 
-   (the idea is to think of the pair $(a,b)$ as the representative of $a^{-1} \cdot b$)
+   (the idea is to think of the pair $(a,b)$ as the representative of $a b^{-1}$)
 
    and take the [[binary operation]] on the group to be given on representatives by
 
@@ -195,7 +195,7 @@ Given a heap $H$, the claimed [[structure group]]  $Str(H)$ is described, up to 
 
    \[
       \label{GroupActionInThirdModel}
-      t(-,a,b) \,\colon\, H \rightarrow H
+      t(a,b,-) \,\colon\, H \rightarrow H
       \,,
    \]
 
@@ -204,9 +204,9 @@ Given a heap $H$, the claimed [[structure group]]  $Str(H)$ is described, up to 
    Notice here that 
 
    \[ 
-      t(-,c,d) \cdot_{Str(H)} t(-, a,b) 
+      t(c,d,-) \cdot_{Str(H)} t(a,b,-) 
       \;=\;
-      t\big(t(-,c,d),a,b\big) \;=\; t\big(-,c,t(d,a,b)\big)
+      t\big(c,d,t(a,b,-)\big) \;=\; t\big(t(c,d,a),b,-\big)
       \,, 
    \]
 
