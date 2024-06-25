@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -206,10 +207,55 @@ See at _[[Chern character]]_ for more on this, and see at _[[differential cohomo
 
 ## References
 
-The [[synthetic differential geometry|synthetic]] view on the Maurer-Cartan form is discussed in
+### General
 
-* [[Anders Kock]], _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+Named after
 
-The synthetic Maurer-Cartan form itself appears in example 3.7.2. The synthetic vanishing of its curvature is corollary 6.7.2.
+* [[Ludwig Maurer]], _Über allgemeinere Invarianten-Systeme_, Münchener Berichte **18** (1888) 103-150
+
+and 
+
+* [[Élie Cartan]], *Sur la structure des groupes infinis de transformation*, Annales scientifiques de l’É.N.S. 3e série, tome 21 (1904) 153-206 &lbrack;[numdam:ASENS_1904_3_21__153_0](http://www.numdam.org/item?id=ASENS_1904_3_21__153_0)&rbrack;
+
+Introductions in the broader context of [[Cartan geometry]]:
+
+* [[Richard W. Sharpe]], §3 in: *An introduction to Cartan Geometries*, Proceedings of the 21st Winter School "Geometry and Physics", Circolo Matematico di Palermo (2002) 61-75 &lbrack;[eudml:220395](https://eudml.org/doc/220395), [dml:701688](http://dml.cz/dmlcz/701688)&rbrack;
+
+* [[Benjamin McKay]], pp. 3 of: *An introduction to Cartan geometries*, Proceedings of the 21st Winter School "Geometry and Physics", Palermo (2002) &lbrack;[arXiv:2302.14457](https://arxiv.org/abs/2302.14457), [eudml:220395](https://eudml.org/doc/220395)&rbrack;
+
+* Raphaël Alexandre, Elisha Falbel, §3.1.1 in: *Introduction to Cartan geometry* (2023) &lbrack;[pdf](https://webusers.imj-prg.fr/~elisha.falbel/poly.pdf), [pdf](https://webusers.imj-prg.fr/~elisha.falbel/poly.pdf)&rbrack;
+
+
+See also:
+
+* Wikipedia, *[Maurer-Cartan form](https://en.wikipedia.org/wiki/Maurer%E2%80%93Cartan_form)*
+
+Discussion in [[synthetic differential geometry]]:
+
+*  {#Kock10} [[Anders Kock]], Ex. 3.7.2 & Cor. 6.7.2 in: *Synthetic geometry of manifolds*, Cambridge Tracts in Mathematics **180** (2010) &lbrack;[doi:10.1017/CBO9780511691690](https://doi.org/10.1017/CBO9780511691690), [pdf](https://tildeweb.au.dk/au76680/SGM-final.pdf)&rbrack;
+
+Discussion via [[Lie algebroids]] and [[Lie groupoids]]:
+
+* Anthony D. Blaom, *A Characterisation of Smooth Maps into a Homogeneous Space*, SIGMA **18** (2022) 029 &lbrack;[arXiv:1702.02717](https://arxiv.org/abs/1702.02717), [doi:10.3842/SIGMA.2022.029](https://doi.org/10.3842/SIGMA.2022.029)&rbrack;
+
+
+
+### On coset spaces
+ {#ReferencesOnCosetSpaces}
+
+Discussion of MC forms in the generality on [[coset spaces]] ([[homogeneous spaces]]):
+
+* Wikipedia, *[Maurer-Cartan form -- On a homogeneous space](https://en.wikipedia.org/wiki/Maurer%E2%80%93Cartan_form#On_a_homogeneous_space)*
+
+In application to [[first-order formulation of gravity|first-order formulation]] of ([[supergravity|super]]-)[[gravity]]:
+
+* [[Leonardo Castellani]], [[L. J. Romans]], [[Nicholas P. Warner]], *Symmetries of coset spaces and Kaluza-Klein supergravity*, Annals of Physics **157** 2 (1984) 394-407 \[<a href="https://doi.org/10.1016/0003-4916(84)90066-6">doi:10.1016/0003-4916(84)90066-6</a>, [spire:193940](https://inspirehep.net/literature/193940)\]
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], §I.6.6 in: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], ch I.6: [[CastellaniDAuriaFre-ChI6.pdf:file]]
+
+* {#Castellani01} [[Leonardo Castellani]], *On G/H geometry and its use in M-theory compactifications*, Annals Phys. **287** (2001) 1-13 &lbrack;[arXiv:hep-th/9912277](https://arxiv.org/abs/hep-th/9912277), [doi:10.1006/aphy.2000.6097](https://doi.org/10.1006/aphy.2000.6097)&rbrack;
+
+
 
 [[!redirects Maurer-Cartan forms]]
+
