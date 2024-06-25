@@ -95,6 +95,8 @@ If the Coxeter group W is finite, the building is called **spherical**. The reas
 
 ## Related concepts
 
+* [[Tits system]]
+
 * [[Bruhat-Tits tree]]
 
 * [[p-adic AdS/CFT correspondence]]
