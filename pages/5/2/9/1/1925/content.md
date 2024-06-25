@@ -19,9 +19,9 @@
 
 In [[algebra]], a _heap_ is an algebraic [[structure]] which is almost that of a [[group]] structure but without the specification of a [[neutral element]].  
 
-While related to notions such as *[[affine space]]*, *[[principal homogeneous space]]* and *[[torsor]]*, the concept of heap is simpler in the sense that it postulates just a single set with a single ternary operation obeying two [[axioms]]. 
+While closely related to notions such as *[[affine spaces]]*, *[[principal homogeneous spaces]]* and *[[torsors]]*, the concept of heaps is simpler in the sense that it postulates just a single set with a single [[ternary]] operation obeying two [[axioms]] (see Def. \ref{TheDefinition} below).
 
-Concretely, any [[group]] gives a heap where this ternary operation is defined from the binary group operation $(\text{-})\cdot(\text{-})$ by 
+Concretely, any [[group]] gives a heap where this ternary operation is defined from the group's [[binary operation]] $(\text{-})\cdot(\text{-})$ and [[inverse element|inversion]] $(-)^{-1}$ by 
 
 \[
   \label{HeapOperationInAGroup}
@@ -32,11 +32,18 @@ Concretely, any [[group]] gives a heap where this ternary operation is defined f
   a \cdot b^{-1} \cdot c
 \]  
 
-and every heap arises this way, up to [[isomorphism]], from a group called its *automorphism group* (Prop. \ref{PrinIsEssentiallySurjective} below).  
+and every heap arises this way, up to [[isomorphism]] (cf. Prop. \ref{PrinIsEssentiallySurjective} below) from a group that may be called its *[[structure group]]*.  
 
-However, the category of heaps is not equivalent to the category of groups.  Instead, it is equivalent to the category of pairs consisting of a torsor $G$ and a $G$-torsor $H$.  On the one hand, for any heap $H$ the set of maps $t(h,h',-): H \to H$ forms a group $G$ under composition, and the underlying set $H$ of the heap becomes a $G$-torsor.  On the other hand, given a group $G$ and a $G$-torsor $H$ we can make $H$ into a heap as follows: given elements $a,b,c \in H$ let $t(a,b,c) = g c$ where $g$ is the unique $g \in G$ with $gb = a$. 
+However, the [[category]] of heaps (Def. \ref{CategoryOfHeaps} below) is not [[equivalence of categories|equivalent]] to the [[Grp|category of groups]]. Instead:
 
-There is also a dual version of the concept of heap, see at *[[quantum heap]]*.
+\begin{proposition}  
+The [[category]] of heaps (Def. \ref{CategoryOfHeaps}) is [[equivalence of categories|equivalent]] to the evident category of [[pairs]] consisting of a [[group]] $G$ and a $G$-torsor $H$. 
+\end{proposition}
+\begin{proof}
+ On the one hand, for any heap $H$, choosing any element $h' \in H$, the [[endofunctions]] $t(h,h',-) \colon H \to H$ for $h \in H$ constitute a group $G$ under [[composition]], and the [[underlying]] set $H$ of the heap manifestly carries the [[structure]] of a $G$-torsor. On the other hand, given a group $G$ and a $G$-torsor $H$ we can make $H$ into a heap as follows: given elements $a,b,c \in H$ let $t(a,b,c) = g c$ where $g$ is the unique $g \in G$ with $g b = a$. 
+\end{proof}
+
+There is also a [[duality|dual]] version of the concept of heap, see at *[[quantum heap]]*.
 
 \begin{remark}\label{Disambiguation}
 **(disambiguation)**
@@ -51,16 +58,20 @@ nor with
 
 \end{remark}
 
+
 \begin{remark}\label{Synonyms}
 **(synonyms)**
 \linebreak
 There are also a number of synonyms for the term 'heap'; [below](#HeapsAndTorsors) we consider '[[torsor]]' in this light.  In Russian one term for a heap is 'груда' ('gruda') meaning a heap of soil; this is a pun as it is parallel to the Russian word 'группа' ('gruppa') meaning a group: forgetting the unit element is sort of creating an amorphous version.  This term also appears in English as 'groud'. In universal algebra the standard name is __associative Malcev algebra__ (in various spellings, including Mal'cev, Mal'tsev and Maltsev), other names include __herd__.
 \end{remark}
 
+There is an oidification ([[horizontal categorification]]) of heaps, sometimes called _heapoids_. 
+
 
 ## Definition
 
 \begin{definition}
+\label{TheDefinition}
 A __heap__ $(H,t)$ is a [[inhabited set|nonempty]] [[set]] $H$ equipped with a ternary operation $t \colon H \times H \times H\to H$ satisfying the following two relations
 
 1. $ t(b,b,c) = c = t(c,b,b)$,
@@ -76,14 +87,19 @@ $$
   t(a,b,c) = t(c,b,a)
 $$
 
-A **heap [[homomorphism]]**, of course, is a function that preserves the ternary operations.  This defines a [[category]] $Heap$ of heaps. 
+\begin{definition}
+\label{CategoryOfHeaps}
+A *[[homomorphism]]* of heaps $f \colon H \to H'$ is, of course, a [[function]] of the [[underlying]] [[set]] which respects the ternary operations.  
+
+This defines a [[category]] $Heap$ whose [[objects]] are heaps and whose [[morphisms]] are heap homomorphisms.
+\end{definition}
 
 The [[hom-sets]] of the [[full subcategory]] $AbHeap$ of abelian heaps inherit an abelian heap structure from the pointwise operation in the codomain: given $f,g,h\colon H \to G$, the function $a\mapsto t_G(f(a),g(a),h(a))$ is again a heap homomorphism. 
 
 ## Properties
 
-### Automorphism groups of heaps
- {#AutomorphismsGroupsOfHeaps}
+### Structure groups of heaps
+ {#StructureGroupsOfHeaps}
 
 As indicated in (eq:HeapOperationInAGroup) a [[group]] $G$ becomes a heap by setting
 
@@ -130,10 +146,9 @@ such that
    which however are *not* [[natural transformation|natural]] (whence we do *not* have an [[equivalence of categories]]).
 
 \end{proposition}
-This group $Aut(H)$ is called the *automorphism group* of the heap $H$.
+This group $Aut(H)$ is called the *structure group* of the heap $H$.
 \begin{proof}
-
-Given a heap $H$, the claimed automorphism group  $Aut(H)$ is described, up to [[isomorphism]], by any of the following constructions:
+Given a heap $H$, the claimed [[structure group]]  $Aut(H)$ is described, up to [[isomorphism]], by any of the following constructions:
 
 1. Choosing any [[element]] $\mathrm{e} \in H$, then the [[binary operation]]
 
@@ -145,7 +160,7 @@ Given a heap $H$, the claimed automorphism group  $Aut(H)$ is described, up to [
 
    constitutes a [[group]] [[structure]] on $H$, with [[neutral element]] $\mathrm{e}$. 
 
-   This serves as the required automorphism group: $Aut(H) \,\coloneqq\, (H, \cdot)$.
+   This serves as the required structure group: $Aut(H) \,\coloneqq\, (H, \cdot)$.
 
 
 2. Take the [[underlying set]] of $Aut(H)$ to be that of [[equivalence classes]] of [[pairs]] $(a,b) \in H\times H$, subject to the [[equivalence relation]] 
@@ -312,33 +327,45 @@ Likewise, the full mapping space $Map(\Sigma X,Y)$ can be turned into an (∞,1)
 
 See Vokřínek {#Vokrinek} for more information.
 
-## References and remarks
+## Related concepts 
 
-Related notions: [[torsor]], [[affine space]], [[Mal'cev variety]], [[truss]]
+* [[torsor]]
 
-* [[Christopher D. Hollings]], [[Mark V. Lawson]], _Wagner’s theory of generalised heaps_, 2017, Springer.  [doi](https://doi.org/10.1007/978-3-319-63621-4)
+* [[affine space]]
 
-* [[A. K. Sushkevich]], _Theory of generalised groups_, DNTVU, Kharkov-Kiev (1937) (Russian original: [[А. К. Сушкевич]], _Теория обобщенных групп_, Государственное научно-техническое издательство Украины, 1937).
+* [[Mal'cev variety]]
 
-* G.M. Bergman, A.O. Hausknecht,
-_Cogroups and co-rings in categories of associative rings_, Ch.IV, paragraph 22, p.95ff, AMS 1996.
-
-* Z. &#352;koda, _Quantum heaps, cops and heapy categories_, Mathematical Communications 12, No. 1, pp. 1--9 (2007); arXiv:[math.QA/0701749](http://arxiv.org/abs/math.QA/0701749)
-
-* Thomas Booker, [[Ross Street]], _Torsors, herds and flocks_, J. Algebra 330 (2011) 346--374 [pdf](https://core.ac.uk/download/pdf/81154582.pdf) [arXiv:0912.4551](https://arxiv.org/abs/0912.4551)
-
-* [[Peter T. Johnstone]], _The ‘closed subgroup theorem’ for localic herds and pregroupoids_, Journal of Pure and Applied Algebra 70 (1991) 97-106.  [doi](http://dx.doi.org/10.1016/0022-4049(91)90010-y).
-
-* Wikipedia:[heap](https://en.wikipedia.org/wiki/Heap_%28mathematics%29) (mathematics)
-
-* [[John Baez]], [Torsors made easy](http://math.ucr.edu/home/baez/torsors.html)
-
-* [[John Baez]], [The group with no elements](https://golem.ph.utexas.edu/category/2020/08/the_group_with_no_elements.html).
-
-* [[Lukáš Vokřínek]], _Heaps and unpointed stable homotopy theory_, [arXiv](https://arxiv.org/abs/1312.1709v1).
+* [[truss]]
 
 
-There is an oidification ([[horizontal categorification]]) of a heap, sometimes called a _heapoid_. 
+## References
+
+* [[A. K. Sushkevich]], *Theory of generalised groups*, DNTVU, Kharkov-Kiev (1937) (Russian original: [[А. К. Сушкевич]], _Теория обобщенных групп_, Государственное научно-техническое издательство Украины, 1937).
+
+* [[Peter T. Johnstone]], _The ‘closed subgroup theorem’ for localic herds and pregroupoids_, Journal of Pure and Applied Algebra **70** (1991) 97-106 \[<a href="http://dx.doi.org/10.1016/0022-4049(91)90010-y">doi:10.1016/0022-4049(91)90010-y</a>\]
+
+* G. M. Bergman, A.O. Hausknecht, Ch.IV §22 pp 95 in:
+*Cogroups and co-rings in categories of associative rings*, AMS (1996) &lbrack;[ams:surv-45](https://bookstore.ams.org/surv-45)&rbrack;
+
+* [[Christopher D. Hollings]], [[Mark V. Lawson]], *Wagner’s theory of generalised heaps*, Springer (2017)  &lbrack;[doi:10.1007/978-3-319-63621-4](https://doi.org/10.1007/978-3-319-63621-4)&rbrack;
+
+* [[Zoran Škoda]], _Quantum heaps, cops and heapy categories_, Mathematical Communications **12** 1  (2007) 1-9 &lbrack;[math.QA/0701749](http://arxiv.org/abs/math.QA/0701749)&rbrack;
+
+* Thomas Booker, [[Ross Street]], _Torsors, herds and flocks_, J. Algebra **330** (2011) 346-374 &lbrack;[pdf](https://core.ac.uk/download/pdf/81154582.pdf) [arXiv:0912.4551](https://arxiv.org/abs/0912.4551)&rbrack;
+
+
+Review:
+
+* Wikipedia: *<a href="https://en.wikipedia.org/wiki/Heap_%28mathematics%29">Heap (mathematics)</a>*
+
+* [[John Baez]], *[Torsors made easy](http://math.ucr.edu/home/baez/torsors.html)* (2009)
+
+* [[John Baez]], *[The group with no elements](https://golem.ph.utexas.edu/category/2020/08/the_group_with_no_elements.html)* (2020)
+
+In the context of [[stable homotopy theory]]:
+
+* [[Lukáš Vokřínek]], *Heaps and unpointed stable homotopy theory*, Archivum Mathematicum **50** 5 (2014) 323-332 &lbrack;[arXiv:1312.1709](https://arxiv.org/abs/1312.1709), [doi:10.5817/AM2014-5-323](http://dx.doi.org/10.5817/AM2014-5-323)&rbrack;
+
 
 category: algebra
 
