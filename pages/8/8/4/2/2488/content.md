@@ -474,7 +474,7 @@ in $C$. The claim follows now with the above result that $L \circ \tau_{\leq n} 
 By the fact that the truncation functor $\tau_{\leq n}$ is a [[left adjoint]], one obtains canonical morphisms
 
 $$
-  \tau_{\leq n}A  \to A
+  A  \to \tau_{\leq n}A
 $$
 
 as the [[adjunct]] of the [[identity]] on $A$, and then by iteration also canonical morphisms
