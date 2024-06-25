@@ -1,6 +1,11 @@
 
 ## Selected writings
 
+On [[coset spaces]] ([[homogeneous spaces]]) and their [[Maurer-Cartan forms]] in application to [[first-order formulation of gravity|first-order formulation]] of ([[supergravity|super]]-)[[gravity]]:
+
+* [[Leonardo Castellani]], [[L. J. Romans]], [[Nicholas P. Warner]], *Symmetries of coset spaces and Kaluza-Klein supergravity*, Annals of Physics **157** 2 (1984) 394-407 \[<a href="https://doi.org/10.1016/0003-4916(84)90066-6">doi:10.1016/0003-4916(84)90066-6</a>\]
+
+
 Introducing [[massive type IIA supergravity]] ("[[Romans supergravity]]"):
 
 * {#Romans86} [[L. J. Romans]], _Massive $N = 2a$ supergravity in ten dimensions_ , Physics Letters B Volume 169, Issue 4, 3 April 1986, Pages 374-380 (<a href="https://doi.org/10.1016/0370-2693(86)90375-8">doi:10.1016/0370-2693(86)90375-8</a>, [spire:17727](http://inspirehep.net/record/17727))
