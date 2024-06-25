@@ -640,7 +640,7 @@ For $d = 11$ then
 
 =--
 
-([D'Auria & Fr&#233; 1982b (3.13) and (3.28) ](#DAuriaFre82b); [Naito, Osada & Kukui 1986, (2.27) and (2.28)](#NaitoOsadaKukui86))
+([D'Auria & Fr&#233; 1982b (3.13) and (3.28) ](#DAuriaFre82b); [Naito, Osada & Fukui 1986, (2.27) and (2.28)](#NaitoOsadaKukui86))
 
 +-- {: .proof}
 ###### Proof
