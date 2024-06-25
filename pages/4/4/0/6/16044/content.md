@@ -36,7 +36,7 @@ Am *Iwasawa decomposition* is an [[analytic function|analytic]] [[diffeomorphism
 
    * $n$ is a certain [[nilpotent Lie algebra|nilpotent]] Lie subalgebra of $p$ with $p \simeq a\oplus n$ as [[vector spaces]]. 
 
-The Iwasawa decomposition generalization the [[QR decomposition]] of [[matrices]]. 
+The Iwasawa decomposition generalizes a statement expressing the [[QR decomposition]] of [[matrices]]. 
 
 ## References
 
