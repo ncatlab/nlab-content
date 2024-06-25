@@ -24,9 +24,11 @@ For $G$ a [[group]] and $P$ a $G$-[[torsor]], $G$ is also called the *structure 
 
 This usage is particularly common in the case that $G$ is a geometric [[group]] (e.g. a [[topological group]] or [[Lie group]]) and $P \to X$ a $G$-[[principal bundle]].
 
-More generally, and less tautologically, if $V \to X$ is a $G$-[[associated bundle]] then one says that $V$ has *structure group* $G$.
+More generally, and less tautologically, if $V \to X$ is a $G$-[[associated bundle]] then one says that $V$ has *structure group* $G$. 
 
-In [[physics]], with these bundles understood as [[field bundles]] (cf. *[[fiber bundles in physics]]*) the stucture gorup is called the *[[gauge group]]*.
+In particular when $V = T X$ is a [[tangent bundle]] with structure group $G$ one also says that $X$ is equipped with *[[G-structure]]*. 
+
+In [[physics]], with these bundles understood as [[field bundles]] (cf. *[[fiber bundles in physics]]*) the structure gorup is called the *[[gauge group]]*.
 
 
 ## Related concepts
