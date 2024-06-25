@@ -81,7 +81,7 @@ $$\frac{\Gamma \vdash a:A \quad \Gamma \vdash I \; \mathrm{type} \quad \Gamma \v
 
 ### For the real numbers
 
-For covers over the [[real numbers]], one can use a generalized defintion and simply work with pairs of ratonal numbers numbers $(q, r):\mathbb{Q} \times \mathbb{Q}$ and arbitrary functions $\mathcal{F}:I to \mathbb{Q} \times \mathbb{Q}$ instead of embeddings. 
+For covers over the [[real numbers]], one can use a generalized defintion and simply work with pairs of ratonal numbers numbers $(q, r):\mathbb{Q} \times \mathbb{Q}$ and arbitrary functions $\mathcal{F}:I \to \mathbb{Q} \times \mathbb{Q}$ instead of embeddings. 
 
 We first define the following relations and operations on pairs of rational numbers:
 
