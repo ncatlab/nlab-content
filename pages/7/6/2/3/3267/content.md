@@ -15,7 +15,7 @@ and its foundations (including [[2-category]] theory):
 
 On [[BGG resolution]]
 
-* [[Ofer Gabber]], [[Anthony Joseph]], _On the Bernstein-Gelfand-Gelfand resolution and the Duflo sum formula_, Compositio Math. __43__ (1981) 107--131
+* [[Ofer Gabber]], [[Anthony Joseph]], _On the Bernstein-Gelfand-Gelfand resolution and the Duflo sum formula_, Compositio Math. __43__ (1981) 107--131 [numdam](http://www.numdam.org/item/CM_1981__43_1_107_0)
 
 ## Related nLab entries
 
