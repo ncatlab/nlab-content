@@ -9,12 +9,19 @@ On the [[D'Auria-Fré-Regge formulation of supergravity]]:
 
 * {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], *Gauging of $d = 11$ supergravity?*, Annals of Physics **146** 1 (1983) 35-77 &lbrack;[spire:11998](https://inspirehep.net/literature/11998), <a href="https://doi.org/10.1016/0003-4916(83)90052-0">doi:10.1016/0003-4916(83)90052-0</a>&rbrack;
 
-
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
 * [[Leonardo Castellani]], *Supergravity in the group-geometric framework: a primer*, Fortschr. Phys. **66** 4 (2018) &lbrack;[arXiv:1802.03407](https://arxiv.org/abs/1802.03407), [doi:10.1002/prop.201800014]( https://doi.org/10.1002/prop.201800014)&rbrack;
 
 * [[Leonardo Castellani]], *Group manifold approach to supergravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.04318](https://arxiv.org/abs/2211.04318)&rbrack;
+
+
+On [[coset spaces]] ([[homogeneous spaces]]) and their [[Maurer-Cartan forms]] in application to [[first-order formulation of gravity|first-order formulation]] of ([[supergravity|super]]-)[[gravity]]:
+
+* [[Leonardo Castellani]], [[L. J. Romans]], [[Nicholas P. Warner]], *Symmetries of coset spaces and Kaluza-Klein supergravity*, Annals of Physics **157** 2 (1984) 394-407 \[<a href="https://doi.org/10.1016/0003-4916(84)90066-6">doi:10.1016/0003-4916(84)90066-6</a>\]
+
+* {#Castellani01} [[Leonardo Castellani]], *On G/H geometry and its use in M-theory compactifications*, Annals Phys. **287** (2001) 1-13 &lbrack;[arXiv:hep-th/9912277](https://arxiv.org/abs/hep-th/9912277), [doi:10.1006/aphy.2000.6097](https://doi.org/10.1006/aphy.2000.6097)&rbrack;
+
 
 Discussion of the [[Hodge star operator]] on [[supermanifolds]] (in terms of [[picture changing operators]] and integral top-forms for [[integration over supermanifolds]]):
 
