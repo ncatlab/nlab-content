@@ -405,6 +405,16 @@ Discussion in [[(infinity,1)-topos theory|$\infty$-topos theory]]:
 
 * {#SatiSchreiber21} [[Hisham Sati]], [[Urs Schreiber]], Ex. 3.2.35 ([p. 104](https://arxiv.org/pdf/2112.13654.pdf#page=104)) of: *[[schreiber:Equivariant principal infinity-bundles]]* &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
 
+On [[coset spaces]] ([[homogeneous spaces]]) and their [[Maurer-Cartan forms]] in application to [[first-order formulation of gravity|first-order formulation]] of ([[supergravity|super]]-)[[gravity]]:
+
+* [[Leonardo Castellani]], [[L. J. Romans]], [[Nicholas P. Warner]], *Symmetries of coset spaces and Kaluza-Klein supergravity*, Annals of Physics **157** 2 (1984) 394-407 \[<a href="https://doi.org/10.1016/0003-4916(84)90066-6">doi:10.1016/0003-4916(84)90066-6</a>\]
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], §I.6 in: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], ch I.6: [[CastellaniDAuriaFre-ChI6.pdf:file]]
+
+* {#Castellani01} [[Leonardo Castellani]], *On G/H geometry and its use in M-theory compactifications*, Annals Phys. **287** (2001) 1-13 &lbrack;[arXiv:hep-th/9912277](https://arxiv.org/abs/hep-th/9912277), [doi:10.1006/aphy.2000.6097](https://doi.org/10.1006/aphy.2000.6097)&rbrack;
+
+
+
 
 [[!redirects coset]]
 [[!redirects cosets]]
