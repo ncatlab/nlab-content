@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[coset spaces]] ([[homogeneous spaces]]) and their [[Maurer-Cartan forms]] in application to [[first-order formulation of gravity|first-order formulation]] of ([[supergravity|super]]-)[[gravity]]:
+
+* [[Leonardo Castellani]], [[L. J. Romans]], [[Nicholas P. Warner]], *Symmetries of coset spaces and Kaluza-Klein supergravity*, Annals of Physics **157** 2 (1984) 394-407 \[<a href="https://doi.org/10.1016/0003-4916(84)90066-6">doi:10.1016/0003-4916(84)90066-6</a>\]
+
+
 On [[gauged supergravity|gauged]] [[D=7 supergravity]]:
 
 * M. Pernici, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], [[Nicholas Warner]], _Noncompact Gauging and Critical Points of Maximal Supergravity in Seven Dimensions_, Nucl. Phys. B249 (1985) 381 (<a href="https://doi.org/10.1016/0550-3213(85)90046-X">doi:10.1016/0550-3213(85)90046-X>doi:10.1016/0550-3213(85)90046-X</a>)
