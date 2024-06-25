@@ -130,7 +130,7 @@ Discussion of [[small N corrections]] specifically in [[holographic QCD]]:
 
   > [36:15](https://youtu.be/TvIz-6YOdKs?t=2175): "I suspect the [[large N limit|$1/N$-expansion]] works reasonably well for many aspects of [[baryons]]. However, as for mesons, it is easy to point to things that won't work well for baryons. In particular, among other things, I don't think the [[large N limit|$1/N$ expansion]] will be successful for [[nuclei]] as opposed to individual [[nucleons]]."
 
-  > [37:12](https://youtu.be/TvIz-6YOdKs?t=2232): "I don' t think the phenomenological models used by nuclear physicists would have any success at of if the [[large N limit]] was a good description of [[nuclei]]."
+  > [37:12](https://youtu.be/TvIz-6YOdKs?t=2232): "I don' t think the phenomenological models used by nuclear physicists would have any success at all if the [[large N limit]] was a good description of [[nuclei]]."
 
 
 
