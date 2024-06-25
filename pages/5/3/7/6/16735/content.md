@@ -3,6 +3,9 @@
 
 ## Selected writings
 
+On [[Green-Schwarz superstrings]] on [[super anti de Sitter spacetime]] $AdS_5 \times S^5$:
+
+* {#RoibanSiegel00} [[Radu Roiban]], [[Warren Siegel]], *Superstrings on $AdS_5 \times S^5$ supertwistor space*, JHEP 0011:024 (2000) &lbrack;[arXiv:hep-th/0010104](https://arxiv.org/abs/hep-th/0010104), [doi:10.1088/1126-6708/2000/11/024](https://doi.org/10.1088/1126-6708/2000/11/024)&rbrack;
 
 
 Discussion of [[D4-branes]] [[polarized brane|polarizing]] into [[NS5-branes]]:
