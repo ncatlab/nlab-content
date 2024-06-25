@@ -84,6 +84,11 @@ On [[higher gauge theory]]:
 
 * [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
+On coherent states, Iwasawa decomposition and dressing orbits for quantum groups
+
+* [[Branislav Jurčo]], P. Šťovíček, _Quantum dressing orbits on compact groups_, Commun. Math. Physics __152__ (1993) 97--126 [doi](https://doi.org/10.1007/BF02097059)
+* [[Branislav Jurčo]], P. &#352;tovi&#269;ek, [Coherent states for quantum compact groups](http://projecteuclid.org/euclid.cmp/1104288026), Comm. Math. Phys. __182__ (1996) 221--251; [hep-th/9403114](https://arXiv.org/abs/hep-th/9403114); 
+
 
 category: people
 
