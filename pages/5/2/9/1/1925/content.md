@@ -19,10 +19,9 @@
 
 In [[algebra]], a _heap_ is an algebraic [[structure]] which is almost that of a [[group]] structure but without the specification of a [[neutral element]].  
 
-While notions such as *[[affine spaces]]*, *[[principal homogeneous spaces]]* are very similar,
-the concrete definition of heaps is more direct and simpler in the sense that it postulates just a single ternary operation satisfying just two [[axioms]]. 
+While related to notions such as *[[affine space]]*, *[[principal homogeneous space]]* and *[[torsor]]*, the concept of heap is simpler in the sense that it postulates just a single set with a single ternary operation obeying two [[axioms]]. 
 
-Concretely, for heaps [[underlying]] a [[group]] [[structure]], this ternary operation is defined from the binary group operation $(\text{-})\cdot(\text{-})$ by 
+Concretely, any [[group]] gives a heap where this ternary operation is defined from the binary group operation $(\text{-})\cdot(\text{-})$ by 
 
 \[
   \label{HeapOperationInAGroup}
@@ -33,17 +32,11 @@ Concretely, for heaps [[underlying]] a [[group]] [[structure]], this ternary ope
   a \cdot b^{-1} \cdot c
 \]  
 
-and every heap arises this way, up to [[isomorphism]], from a group called its *automorphism group* (Prop. \ref{PrinIsEssentiallySurjective} below). 
+and every heap arises this way, up to [[isomorphism]], from a group called its *automorphism group* (Prop. \ref{PrinIsEssentiallySurjective} below).  
 
-{#HowToThinkAboutT} The discussion there (eq:BinaryOperationInSecondModel) shows that one may usefully think of this heap operation (eq:HeapOperationInAGroup) as bracketed to the right
+However, the category of heaps is not equivalent to the category of groups.  Instead, it is equivalent to the category of pairs consisting of a torsor $G$ and a $G$-torsor $H$.  On the one hand, for any heap $H$ the set of maps $t(h,h',-): H \to H$ forms a group $G$ under composition, and the underlying set $H$ of the heap becomes a $G$-torsor.  On the other hand, given a group $G$ and a $G$-torsor $H$ we can make $H$ into a heap as follows: given elements $a,b,c \in H$ let $t(a,b,c) = g c$ where $g$ is the unique $g \in G$ with $gb = a$. 
 
-$$
-  t(a,b,c) \,=\, a \cdot \big( b^{-1} \cdot c \big)
-$$
-
-and thought of as the action of group elements $a$ on elements of its [[underlying]] [[torsor]], which reduces to the group action on itself (eq:BinaryOperationInFirstModel) once the otherwise arbitrary origin "$b$" of this torsor is (re-)identified with the [[neutral element]].  Indeed, the category of heaps is equivalent to the category of pairs consisting of a group and a torsor for that group.
-
-There is also a dual version of this concept, see at *[[quantum heap]]*.
+There is also a dual version of the concept of heap, see at *[[quantum heap]]*.
 
 \begin{remark}\label{Disambiguation}
 **(disambiguation)**
