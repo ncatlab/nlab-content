@@ -22,7 +22,7 @@
 ## Idea
 
 
-> In the wake of the movement of ideas which followed the [[general relativity|general theory of relativity]], I was led to introduce the notion of new geometries, more general than [[Riemannian geometry]], and playing with respect to the different [[Klein geometries]] the same role as the [[Riemannian geometries]] play with respect to [[Euclidean space]]. The vast synthesis that I realized in this way depends  of course on the ideas of [[Felix Klein|Klein]] formulated in his celebrated [[Erlangen program|Erlangen programme]] while at the same time going far beyond it since it includes [[Riemannian geometry]], which had formed a completely isolated branch of geometry, within the compass of a very general scheme in which the notion of [[group]] still plays a fundamental role. 
+> "In the wake of the movement of ideas which followed the [[general relativity|general theory of relativity]], I was led to introduce the notion of new geometries, more general than [[Riemannian geometry]], and playing with respect to the different [[Klein geometries]] the same role as the [[Riemannian geometries]] play with respect to [[Euclidean space]]. The vast synthesis that I realized in this way depends  of course on the ideas of [[Felix Klein|Klein]] formulated in his celebrated [[Erlangen program|Erlangen programme]] while at the same time going far beyond it since it includes [[Riemannian geometry]], which had formed a completely isolated branch of geometry, within the compass of a very general scheme in which the notion of [[group]] still plays a fundamental role."
 
 > &lbrack;[[Élie Cartan]] 1939, as quoted in [Sharpe 1997, p. 171](#Sharpe97)&rbrack;
 
@@ -306,6 +306,7 @@ Introductions:
 
 * [[Benjamin McKay]], *An introduction to Cartan geometries*, Proceedings of the 21st Winter School "Geometry and Physics", Palermo (2002) &lbrack;[arXiv:2302.14457](https://arxiv.org/abs/2302.14457), [eudml:220395](https://eudml.org/doc/220395)&rbrack;
 
+* Raphaël Alexandre, Elisha Falbel, *Introduction to Cartan geometry* (2023) &lbrack;[pdf](https://webusers.imj-prg.fr/~elisha.falbel/poly.pdf), [pdf](https://webusers.imj-prg.fr/~elisha.falbel/poly.pdf)&rbrack;
 
 Monographs:
 
