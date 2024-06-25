@@ -62,7 +62,12 @@ Introducing the notion of [[short-range entanglement]] in [[quantum materials]]:
 
 * {#Kitaev11} [[Alexei Kitaev]], *Toward Topological Classification of Phases with Short-range Entanglement*, talk at KITP (2011) $[$[video](https://online.kitp.ucsb.edu/online/topomat11/kitaev/)$]$
 
-* {#Kitaev13} [[Alexei Kitaev]], *On the Classification of Short-Range Entangled States*, talk at Simons Center (2013) $[$[video](https://scgp.stonybrook.edu/archives/7874)$]$
+* {#Kitaev13} [[Alexei Kitaev]], *On the Classification of Short-Range Entangled States*, talk at Simons Center (2013) &lbrack;[video](https://scgp.stonybrook.edu/archives/7874)&rbrack;
+
+Discussion of the [[Levin-Wen model]] as an [[extended TQFT|extended]] [[3d TQFT]] formulated using [[tensor categories]]:
+
+* [[Alexei Kitaev]], [[Liang Kong]], _Levin-Wen models and tensor categories_ &lbrack;<a href="https://ncatlab.org/nlab/files/Kitaev-Kong.pdf">pdf</a>&rbrack;
+
 
 
 category: people
