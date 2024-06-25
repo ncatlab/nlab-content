@@ -63,6 +63,11 @@ Currently revising:
 
 ## Selected writings
 
+On [[Poisson algebras]] [[internalization|internal]] to [[graded vector spaces]] (such as [[Gerstenhaber algebras]]):
+
+* {#CattaneoFiorenzaLongoni06} [[Alberto S. Cattaneo]], [[Domenico Fiorenza]], Riccardo Longoni, *Graded Poisson Algebras*, in: *Encyclopedia of Mathematical Physics*, Elsevier (2006) 560-567 &lbrack;[arXiv:1811.07395](https://arxiv.org/abs/1811.07395), [doi:10.1016/B0-12-512666-2/00434-X](https://doi.org/10.1016/B0-12-512666-2/00434-X)&rbrack;
+
+
 On [[t-structures]] and [[reflective factorization systems]]:
 
 * [[Domenico Fiorenza]], [[Fosco Loregian]], *$t$-Structures are normal torsion theories*, Appl Categor Struct **24** (2016) 181–208 &lbrack;[arxiv:1408.7003](http://arxiv.org/abs/1408.7003), [doi:10.1007/s10485-015-9393-z](https://doi.org/10.1007/s10485-015-9393-z)&rbrack; 
