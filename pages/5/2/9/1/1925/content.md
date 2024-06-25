@@ -41,15 +41,14 @@ $$
   t(a,b,c) \,=\, a \cdot \big( b^{-1} \cdot c \big)
 $$
 
-and thought of as the action of group elements $a$ on elements of its [[underlying]] [[torsor]], which reduces to the group action on itself (eq:BinaryOperationInFirstModel) once the otherwise arbitrary origin "$b$" of this torsor is (re-)identified with the [[neutral element]].
-
+and thought of as the action of group elements $a$ on elements of its [[underlying]] [[torsor]], which reduces to the group action on itself (eq:BinaryOperationInFirstModel) once the otherwise arbitrary origin "$b$" of this torsor is (re-)identified with the [[neutral element]].  Indeed, the category of heaps is equivalent to the category of pairs consisting of a group and a torsor for that group.
 
 There is also a dual version of this concept, see at *[[quantum heap]]*.
 
 \begin{remark}\label{Disambiguation}
 **(disambiguation)**
 \linebreak
-Heaps in the sense of algebra should not be confused with wither
+Heaps in the sense of algebra should not be confused with either
 
 * [heaps](http://en.wikipedia.org/wiki/Heap) in the sense of theoretical [[computer science]], 
 
@@ -62,7 +61,7 @@ nor with
 \begin{remark}\label{Synonyms}
 **(synonyms)**
 \linebreak
-There are also a number of synonyms for the term 'heap'; [below](#HeapsAndTorsors) we consider '[[torsor]]' in this light.  In Russian one term for a heap is 'груда' ('gruda') meaning a heap of soil; this is a pun as it is parallel to the russian word 'группа' ('gruppa') meaning a group: forgetting the unit element is sort of creating an amorphous version.  This term also appears in English as 'groud'. In universal algebra the standard name is __associative Malcev algebra__ (in various spellings, including Mal'cev, Mal'tsev and Maltsev), other names include __herd__.
+There are also a number of synonyms for the term 'heap'; [below](#HeapsAndTorsors) we consider '[[torsor]]' in this light.  In Russian one term for a heap is 'груда' ('gruda') meaning a heap of soil; this is a pun as it is parallel to the Russian word 'группа' ('gruppa') meaning a group: forgetting the unit element is sort of creating an amorphous version.  This term also appears in English as 'groud'. In universal algebra the standard name is __associative Malcev algebra__ (in various spellings, including Mal'cev, Mal'tsev and Maltsev), other names include __herd__.
 \end{remark}
 
 
