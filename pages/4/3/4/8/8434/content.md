@@ -34,6 +34,6 @@ The original article is
 
 A discussion of the Levin-Wen model as an [[extended TQFT|extended]] [[3d TQFT]] formulated using [[tensor categories]] is in 
 
-* [[Alexei Kitaev]], [[Liang Kong]], _Levin-Wen models and tensor categories_ ([pdf](https://ochicken.top/Library/Physics/Quantum_Computation_and_Quantum_Information/2011.12%20Liang%20Kong_%20Levin-Wen_model_and_tensor_categories.pdf))
+* [[Alexei Kitaev]], [[Liang Kong]], _Levin-Wen models and tensor categories_ ([[Kitaev-Kong.pdf:file]]).
 
 [[!redirects Levin-Wen models]]
