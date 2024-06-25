@@ -127,7 +127,7 @@ which is [[essentially surjective functor|essentially surjective]], meaning that
 
 In fact, there is also a functor
 $$
-  Aut 
+  Str 
    \,\colon\,
   Heap \longrightarrow Grp
 $$
@@ -136,19 +136,19 @@ such that
 
 1. there exist [[natural isomorphisms|natural]] group isomorphisms of the form
 
-   $Aut\big(Prin(G)\big) \,\cong\, G$ 
+   $Str\big(Prin(G)\big) \,\cong\, G$ 
 
 
 1. there exist heap isomorphisms of the form 
 
-   $Prin\big(Aut(H)\big) \,\cong\, H$  
+   $Prin\big(Str(H)\big) \,\cong\, H$  
   
    which however are *not* [[natural transformation|natural]] (whence we do *not* have an [[equivalence of categories]]).
 
 \end{proposition}
-This group $Aut(H)$ is called the *structure group* of the heap $H$.
+This group $Str(H)$ is called the *structure group* of the heap $H$.
 \begin{proof}
-Given a heap $H$, the claimed [[structure group]]  $Aut(H)$ is described, up to [[isomorphism]], by any of the following constructions:
+Given a heap $H$, the claimed [[structure group]]  $Str(H)$ is described, up to [[isomorphism]], by any of the following constructions:
 
 1. Choosing any [[element]] $\mathrm{e} \in H$, then the [[binary operation]]
 
@@ -160,10 +160,10 @@ Given a heap $H$, the claimed [[structure group]]  $Aut(H)$ is described, up to 
 
    constitutes a [[group]] [[structure]] on $H$, with [[neutral element]] $\mathrm{e}$. 
 
-   This serves as the required structure group: $Aut(H) \,\coloneqq\, (H, \cdot)$.
+   This serves as the required structure group: $Str(H) \,\coloneqq\, (H, \cdot)$.
 
 
-2. Take the [[underlying set]] of $Aut(H)$ to be that of [[equivalence classes]] of [[pairs]] $(a,b) \in H\times H$, subject to the [[equivalence relation]] 
+2. Take the [[underlying set]] of $Str(H)$ to be that of [[equivalence classes]] of [[pairs]] $(a,b) \in H\times H$, subject to the [[equivalence relation]] 
 
    $$
      (a,b) \,\sim\, (a',b')
@@ -183,7 +183,7 @@ Given a heap $H$, the claimed [[structure group]]  $Aut(H)$ is described, up to 
      \,.
    \] 
 
-   This again defines a group $Aut(H)$. 
+   This again defines a group $Str(H)$. 
 
    Notice that: 
 
@@ -191,7 +191,7 @@ Given a heap $H$, the claimed [[structure group]]  $Aut(H)$ is described, up to 
 
    * the [[neutral element]] is (the equivalence class of) $(a,a)$ (for any $a$).
 
-3. Finally, $Aut(H)$ is realized also as an actual [[subgroup]] of the [[symmetric group]] on the [[underlying set]] of  $H$, analogously to [[Cayley's theorem]] for groups.  We take the elements of $Aut(H)$ to be set [[bijections]] of the form 
+3. Finally, $Str(H)$ is realized also as an actual [[subgroup]] of the [[symmetric group]] on the [[underlying set]] of  $H$, analogously to [[Cayley's theorem]] for groups.  We take the elements of $Str(H)$ to be set [[bijections]] of the form 
 
    \[
       \label{GroupActionInThirdModel}
@@ -204,15 +204,15 @@ Given a heap $H$, the claimed [[structure group]]  $Aut(H)$ is described, up to 
    Notice here that 
 
    \[ 
-      t(-,c,d) \cdot_{Aut(H)} t(-, a,b) 
+      t(-,c,d) \cdot_{Str(H)} t(-, a,b) 
       \;=\;
       t\big(t(-,c,d),a,b\big) \;=\; t\big(-,c,t(d,a,b)\big)
       \,, 
    \]
 
-   so that $Aut(H)$ is closed under this operation.  
+   so that $Str(H)$ is closed under this operation.  
 
-   The first axiom of a  heap shows that $Aut(H)$ contains the [[neutral element]] $t(-,x,x)$, for any  $x$), and the [[inverse element]] of $t(\cdot,a,b)$ is $t(\cdot,b,a)$; thus  $Aut(H)$ is a subgroup of the symmetric group of $H$.
+   The first axiom of a  heap shows that $Str(H)$ contains the [[neutral element]] $t(-,x,x)$, for any  $x$), and the [[inverse element]] of $t(\cdot,a,b)$ is $t(\cdot,b,a)$; thus  $Str(H)$ is a subgroup of the symmetric group of $H$.
 
 It remains to see that these constructions all agree and are functorial.
 
@@ -236,7 +236,7 @@ right. Similarly (ii) follows from (iii).
 \[ t(x,a',b') = t(t(x,a,a),a',b')= t(x,a,t(a,a',b'))
  = t(x,a,b).\]
 
-Since the composition laws are also easily seen to agree, we have that the second two constructions of $Aut(H)$ are canonically isomorphic.  
+Since the composition laws are also easily seen to agree, we have that the second two constructions of $Str(H)$ are canonically isomorphic.  
 
 To compare them to the first construction, observe that for a fixed $\mathrm{e} \in H$, any equivalence class contains a unique pair of the form $(\mathrm{e},a)$.  (If $(b,c)$ is in the equivalence class, then $a$ is determined by $a = t(\mathrm{e},b,c)$.)  This sets up a bijection between the first two constructions, which we can easily show is an isomorphism.
 
@@ -277,7 +277,7 @@ X \times X \times X &\to& G \\
 $$
 
 Conversely, from any heap $H$ we can construct a group $G$ together with a $G$-torsor whose underlying set is $H$ itself.
-To see this, note that the group $G = Aut(H)$ (eq:PrinIsEssentiallySurjective) comes equipped with a canonical [[group action]] on $H$, as is most clear from the third definition (eq:GroupActionInThirdModel).  
+To see this, note that the group $G = Str(H)$ (eq:PrinIsEssentiallySurjective) comes equipped with a canonical [[group action]] on $H$, as is most clear from the third definition (eq:GroupActionInThirdModel).  
 
 This action is 
 
@@ -291,7 +291,7 @@ and
 
   since if $t(a,b,c) = a$ then by the previous statement $t(x,b,c) = x$ for each $x$, and in particular $t(b,b,c) = b$ and also $t(b,b,c) = c$.  
 
-Therefore, $H$ is an $Aut(H)$-[[torsor]] (over a point).  
+Therefore, $H$ is an $Str(H)$-[[torsor]] (over a point).  
 
 Conversely, any [[torsor]] $H$ over a group $G$ becomes a heap, by defining 
 
