@@ -86,6 +86,6 @@ $$
 ## References
 
 * Wikipedia, _[Bruhat decomposition](http://en.wikipedia.org/wiki/Bruhat_decomposition)_
-
+* The Bruhat decomposition, chapter 27 in Daniel Bump, _Lie groups_, Graduate Texts in Mathematics __225__, [doi](https://doi.org/10.1007/978-1-4614-8024-2)
 
 [[!redirects Bruhat decompositions]]
