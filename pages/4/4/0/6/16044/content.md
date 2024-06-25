@@ -46,7 +46,7 @@ Named after:
 
 See also:
 
-* Daniel Bump, _The Iwasawa decomposition_, in: *Lie Groups*, Graduate Texts in Mathematics __225__, Springer (2004) &lbrack;[doi:10.1007/978-1-4757-4094-3_29](https://doi.org/10.1007/978-1-4757-4094-3_29)&rbrack;
+* [[Daniel Bump]], _The Iwasawa decomposition_, in: *Lie Groups*, Graduate Texts in Mathematics __225__, Springer (2004) &lbrack;[doi:10.1007/978-1-4757-4094-3_29](https://doi.org/10.1007/978-1-4757-4094-3_29)&rbrack;
 
 * [[eom]], *[Iwasawa decomposition](https://encyclopediaofmath.org/wiki/Iwasawa_decomposition)*
 
