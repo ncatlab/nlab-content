@@ -20,17 +20,19 @@ For a [[local ring]] to be *regular* is a kind of a smoothness condition.
 
 ## Definition
 
-A __regular local ring__ $R$ is a [[Noetherian ring|Noetherian]] [[commutative ring|commutative]] [[unital ring|unital]] [[local ring]] whose [[Krull dimension]] agrees with the minimal number of generators of its [[maximal ideal]] $I$, equivalently whise Krull dimension equals $dim_k (I/I^2)$ where $k = R/I$ is the [[residue field]] of $R$. 
+A __regular local ring__ $R$ is a [[Noetherian ring|Noetherian]] [[commutative ring|commutative]] [[unital ring|unital]] [[local ring]] whose [[Krull dimension]] agrees with the minimal number of generators of its [[maximal ideal]] $I$, equivalently whose Krull dimension equals $dim_k (I/I^2)$ where $k = R/I$ is the [[residue field]] of $R$. 
 
 A [[Noetherian ring|Noetherian]] [[local ring]] is regular iff its [[global dimension]] is [[finite number|finite]]; it follows that its [[global dimension|global]] and [[Krull dimension]] coincide. 
 
-
+A Noetherian commutative ring $R$ (not necessarily local) is regular if for all prime ideals $p\subset R$ the localization $R_p$ is a regular local ring. 
 
 ## Properties
 
 ### Relation to other classes
 
 Every regular local ring is a [[complete intersection ring]] and a fortiori a [[Cohen-Macaulay ring]].
+
+A useful noncommutative analogue of a regular Noetherian ring is the notion of [[Artin-Schelter regular ring]].
 
 ## References
 
