@@ -31,7 +31,7 @@ In [[group theory]], by the "*holomorph*" $Hol(G)$ of a ([[discrete group|discre
 
 ## References
 
-* [[Marshall Hall]], §6.3 in: *The Theory of Groups*, Macmillan (1959), AMS Chelsea (1976), Dover (2018) &lbrack;[ISBN:978-0-8218-1967-8](https://bookstore.ams.org/view?ProductCode=CHEL/288), [ISBN:9780486816906](https://store.doverpublications.com/products/9780486816906)&rbrack;
+* [[Marshall Hall]], §6.3 in: *The Theory of Groups*, Macmillan (1959), AMS Chelsea (1976), Dover (2018) &lbrack;[ISBN:978-0-8218-1967-8](https://bookstore.ams.org/view?ProductCode=CHEL/288), [ISBN:978-0-4868-1690-6](https://store.doverpublications.com/products/9780486816906)&rbrack;
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Holomorph_(mathematics)">Holomorph (mathematics)</a>*
 
