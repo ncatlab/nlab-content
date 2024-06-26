@@ -18,10 +18,13 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-Donaldson theory studies [[4-manifolds]] using the moduli space of the anti-self-dual [[Yang-Mills equations]] (ASDYM equations), which require a [[principal bundle]] with a compact gauge group over the 4-manifold. [[Simon Donaldson]] first used this method in 1983 in [Donaldson 83](#Donaldson83) (with additionaly using [[simply connected|simple-connectedness]]) and later in 1987 in [Donaldson 87](#Donaldson87) (without using [[simply connected|simple-connectedness]]) to prove [[Donaldson's theorem]].
+*Donaldson theory* is concerned with [[4-manifolds]] using the [[moduli space]] the anti-self-dual [[Yang-Mills equations]] (ASDYM equations), which require a [[principal bundle]] with a [[compact Lie group|compact]] [[gauge group]] $G$ over the [[4-manifold]]. 
 
-Donaldson theory was later surpassed by [[Seiberg-Witten theory]] since [[Donaldson invariants]] often give weaker results than [[Seiberg-Witten invariants]] and the former often requires an additional [[compactification]] of the moduli space. Nonetheless, there are still unsolved problems in Donaldson theory including the [[Witten conjecture]] and the Atiyah-Floer conjecture.
+This method is named after and was first used by [Donaldson 1983](#Donaldson83) (assuming [[simply connected|simply-connected]] $G$) and [Donaldson 1987](#Donaldson87) (without that restriction) to prove [[Donaldson's theorem]].
+
+Donaldson theory was later surpassed by [[Seiberg-Witten theory]], since [[Donaldson invariants]] often give weaker results than [[Seiberg-Witten invariants]] and the former often requires an additional [[compactification]] of the [[moduli space]]. Nonetheless, there are still unsolved problems in Donaldson theory including the [[Witten conjecture]] and the Atiyah-Floer conjecture.
 
 ## Properties
 
