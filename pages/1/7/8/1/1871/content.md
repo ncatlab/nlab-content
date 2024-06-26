@@ -241,7 +241,7 @@ on topological solutions with different co-dimension (instantons, monopoles, vor
 
 Some of the material used here has been taken from 
 
-* [TP.SE](http://theoreticalphysics.stackexchange.com/), _[Which exact solutions of the classical Yang-Mills equations are known?](http://theoreticalphysics.stackexchange.com/questions/317/which-exact-solutions-of-the-classical-yang-mills-equations-are-known)_ 
+* [P.SE](http://physics.stackexchange.com/), _[Which exact solutions of the classical Yang-Mills equations are known?](https://physics.stackexchange.com/questions/27309/which-exact-solutions-of-the-classical-yang-mills-equations-are-known)_ 
 
 Another model featuring Yang-Mills fields has been proposed by Curci and Ferrari, see [[Curci-Ferrari model]].
 
