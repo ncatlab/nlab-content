@@ -70,3 +70,7 @@ are [[differential 1-forms]] which may jointly be understood as taking [[Lie alg
 [[!redirects Cartan structural relations]]
 [[!redirects Cartan structural relation]]
 
+[[!redirects structural relations]]
+[[!redirects structural relation]]
+
+
