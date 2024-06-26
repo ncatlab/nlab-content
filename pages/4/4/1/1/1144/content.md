@@ -970,7 +970,7 @@ For instance the [[4-sphere]] has rational homotopy in degree 4 and 7. The one i
  {#QuillenApproach}
 
 
-We briefly review Quillen's approach to rational homotopy theory ([Quillen 69](#Quillen69)), see for instance ([Griffith-Morgan 13, chapter 17](#GriffithMorgan13)) .
+We briefly review Quillen's approach to rational homotopy theory ([Quillen 1969](#Quillen69)), see for instance [Griffiths & Morgan 2013, chapter 17](#GriffithsMorgan13).
 
 The following sequence of six consecutive functors, each of which is a [[Quillen equivalence]], takes one from a [[n-connected space|1-connected]] rational space $X$ to a [[dg-Lie algebra]].
 
@@ -1245,7 +1245,7 @@ On this non-nilpotent generalization see also:
 
 Emphasis of the role of [[de Rham complexes]] of [[smooth manifolds]])
 
-* {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], *Rational Homotopy Theory and Differential Forms*,  Progress in Mathematics **16**, Birkhauser (2013) &lbrack;[doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4)&rbrack;
+* {#GriffithsMorgan13} [[Phillip Griffiths]], [[John Morgan]], *Rational Homotopy Theory and Differential Forms*,  Progress in Mathematics **16**, Birkhauser (2013) &lbrack;[doi:10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4)&rbrack;
 
 
 
