@@ -48,13 +48,15 @@ There are many generalizations and related structures; for example the vertical 
 
 ## Literature
 
-Lecture notes
+Lecture notes:
 
 * [[James Milne]], *Group theory* (2021) &lbrack;[web](https://www.jmilne.org/math/CourseNotes/gt.html), [pdf](https://www.jmilne.org/math/CourseNotes/GT.pdf)&rbrack;
 
-Textbook accounts
+Monographs:
 
-in general 
+in general:
+
+* [[Marshall Hall]], *The Theory of Groups*, Macmillan (1959), AMS Chelsea (1976), Dover (2018) &lbrack;[ISBN:978-0-8218-1967-8](https://bookstore.ams.org/view?ProductCode=CHEL/288), [ISBN:9780486816906](https://store.doverpublications.com/products/9780486816906)&rbrack;
 
 * [[Joseph J. Rotman]], *An Introduction to the Theory of Groups*, Springer (1995) &lbrack;[doi:10.1007/978-1-4612-4176-8](https://doi.org/10.1007/978-1-4612-4176-8), [pdf](https://eclass.uoa.gr/modules/document/file.php/MATH676/Rotman%20An%20introduction%20to%20the%20theory%20of%20groups.pdf)&rbrack;
 
