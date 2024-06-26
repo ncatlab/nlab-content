@@ -32,7 +32,7 @@ where $L_4$ is the fourth [[Drinfeld-Kohno Lie algebra]] and $c=-a-b$.
 +-- {: .num_remark}
 ###### Remark
 
-The set of "0-associators" is the what is called the _[[Grothendieck-Teichmueller group]]_. This acts freely on the set of Drinfeld associators.
+The set of "0-associators" is what is called the _[[Grothendieck-Teichmueller group]]_. This acts freely on the set of Drinfeld associators.
 
 =--
 
