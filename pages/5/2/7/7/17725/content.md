@@ -48,9 +48,11 @@ Given a dominance $\Sigma$, we say that a set $I$ is **overt** if $\Sigma$ is cl
 
 * The singleton $\{\top\}$ is a dominance, for which only singletons are overt.
 
-* The set $\{\bot,\top\}$ is a dominance.  This is the smallest dominance such that the empty set is overt.  (In [[classical mathematics]], of course, this and the previous example are the only two dominances, and the theory trivializes.)
+* The [[boolean domain]] $\{\bot,\top\}$ is a dominance.  This is the smallest dominance such that the empty set is overt.  (In [[classical mathematics]], of course, this and the previous example are the only two dominances, and the theory trivializes.)
 
-* The set of all truth values of the form $\exists n, f(n) = 1$ for some function $f:\mathbb{N}\to \mathbf{2}$ is often a dominance, though this may not be provable without further assumptions.  For instance, this is the case if we assume [[countable choice]] or (perhaps) the [[propositional axiom of choice]].  When it is a dominance, this is the smallest dominance such that $\mathbb{N}$ is overt; it is called the **Rosolini dominance**.  Equivalently, it is the set of truth values of the form $x\gt 0$ for some [[Cauchy real number]] $x$.
+* The [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma$ is a dominance: the unique $\sigma$-frame [[homomorphism]] from $\Sigma$ to the [[frame of truth values]] $\Omega$ is an [[injection]], meaning that $\Sigma$ is a (structural) [[subset]] of $\Omega$. This is the smallest dominance such that the [[natural numbers]] $\mathbb{N}$ is overt. 
+
+* The set of all truth values of the form $\exists n, f(n) = 1$ for some function $f:\mathbb{N}\to \mathbf{2}$ is often a dominance, though this may not be provable without further assumptions. For instance, this is the case if we assume [[countable choice]] or (perhaps) the [[propositional axiom of choice]]. When it is a dominance, this is the smallest dominance such that $\mathbb{N}$ is overt; it is called the **Rosolini dominance**.  Equivalently, it is the set of truth values of the form $x\gt 0$ for some [[Cauchy real number]] $x$.
 
 * The set of all truth values of the form $x\gt 0$ for some [[Dedekind real number]] $x$ is also often a dominance, though this also may not be provable without further assumptions.
 
