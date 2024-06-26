@@ -10,7 +10,7 @@ This becomes important in [[constructive mathematics]] when we have multiple dif
 
 * or in rings with a [[tight apartness relation]], the elements apart from zero being regular, 
 
-* or in rings with [[decidable equality]], where both notions coincide
+* or in rings with [[decidable relation|decidable]] tight apartness, where both notions coincide
 
 Instead of having to constantly distinguish between different notions of unique factorization domains, we could simply generalize to unique factorization rings. 
 
