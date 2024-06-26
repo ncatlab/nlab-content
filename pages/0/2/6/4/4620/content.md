@@ -194,6 +194,8 @@ There are various other results that are equivalent to the principles of omnisci
 
 * The [[boolean domain]] is a [[sigma-frame|$\sigma$-frame]] if and only if $\mathrm{WLPO}_\mathbb{N}$ holds, and it is the [[initial object|initial]] $\sigma$-frame if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
+* The [[Cauchy real numbers]] are isomorphic to the [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff $\mathrm{LPO}_\mathbb{N}$ holds. See [Feldman (2010)](#Mehkeri10). The same is true of the [[Escardo-Simpson real numbers]] or $\Sigma$-[[Dedekind real numbers]] where $\Sigma$ is the initial $\sigma$-frame, since those coincide with the Cauchy real numbers iff $\mathrm{LPO}_\mathbb{N}$ holds. 
+
 ## Related statements
 
 There are various other results that are related to the principles of omniscience. Here are a few:
