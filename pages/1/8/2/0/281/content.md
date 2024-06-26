@@ -56,16 +56,19 @@ which may be written $Aut(x)$ if the category $C$ is understood.  Up to equivale
 
 ## References
 
+* [[Marshall Hall]], §6 in: *The Theory of Groups*, Macmillan (1959), AMS Chelsea (1976), Dover (2018) &lbrack;[ISBN:978-0-8218-1967-8](https://bookstore.ams.org/view?ProductCode=CHEL/288), [ISBN:9780486816906](https://store.doverpublications.com/products/9780486816906)&rbrack;
+
 Discussion of automorphism groups [[internalization|internal]] to [[sheaf toposes]] ("automorphism sheaves"):
 
-* [[Simon Henry]], [MO:a/262687](https://mathoverflow.net/a/262687/381)
+* [[Robert Friedman]], [[John W. Morgan]], §2.1 in: *Automorphism sheaves, spectral covers, and the Kostant and Steinberg sections*, Contemporary Mathematics **322** (2003)  217-244 &lbrack;[arXiv:math/0209053](https://arxiv.org/abs/math/0209053)&rbrack;
 
-* Robert Friedman, John W. Morgan, §2.1 in: *Automorphism sheaves, spectral covers, and the Kostant and Steinberg sections* &lbrack;[arXiv:math/0209053](https://arxiv.org/abs/math/0209053)&rbrack;
+* [[Simon Henry]] (2017) &lbrack;[MO:a/262687](https://mathoverflow.net/a/262687/381)&rbrack;
 
 
 [[!redirects automorphisms]]
 [[!redirects automorphism group]]
 [[!redirects automorphism groups]]
+
 
 [[!redirects group of automorphisms]]
 [[!redirects groups of automorphisms]]
