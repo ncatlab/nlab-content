@@ -22,10 +22,14 @@ For $C$ any [[2-category]] and $c \in C$ any object of it, the category $Aut_C(c
 
 If $C$ is a [[strict 2-category]] there is the notion of strict [[automorphism 2-group]]. See there for more details on that case.
 
-For instance if $C = Grp_2 \subset Grpd$ is the 2-category of [[group]] obtained by regarding groups as one-object [[groupoid]]s, then for $H \in Grp$ a group, its automorphism 2-group obtained this way is the strict 2-group
+For instance if $C = Grp_2 \subset Grpd$ is the 2-category of [[group]] obtained by regarding groups as one-object [[groupoids]] ([[delooping groupoids]]), then for $H \in Grp$ a group, its automorphism 2-group obtained this way is the strict 2-group
 
 $$
-  AUT(H) := Aut_{Grp_2}(H)
+  AUT(H) 
+   \;\coloneqq\; 
+  Aut_{Grp_2}(H)
+   \;\coloneq\;
+  Aut(\mathbf{B}H)
 $$
 
 corresponding to the [[crossed module]] $(H \stackrel{Ad}{\to} Aut(H))$, where $Aut(H)$ is the ordinary [[automorphism group]] of $H$.
@@ -36,6 +40,8 @@ See [[inner automorphism 2-group]].
 
 ## Related concepts
 
+* [[holomorph]]
+
 * [[group]], [[∞-group]],
 
 * [[automorphism group]], [[automorphism ∞-group]],
@@ -43,6 +49,8 @@ See [[inner automorphism 2-group]].
 * [[center]], [[center of an ∞-group]]
 
 * [[outer automorphism group]], [[outer automorphism ∞-group]]
+
+
 
 
 [[!redirects automorphism 2-groups]]
