@@ -21,6 +21,8 @@ Usual [[flag variety|flag varieties]] are [[projective varieties]], hence they h
 
 * Mitsuyasu Hashimoto, Takahiro Hayashi, _Quantum multilinear algebra_, Tohoku Math. J. (2) __44__, n. 4 (1992), 471--521, [euclid](http://projecteuclid.org/euclid.tmj/1178227246)
 
+* I. Heckenberger, S. Kolb, _The locally finite part of the dual coalgebra of quantized irreducible flag manifolds_, Proc. London Math. Soc. (3), __89__ (2004) 457--484; _De Rham complex for quantized irreducible flag manifolds_, J. Algebra __305__ (2006) 704--741
+
 [[!redirects quantum flag manifold]]
 [[!redirects quantum flag manifolds]]
 [[!redirects quantum flag variety]]
