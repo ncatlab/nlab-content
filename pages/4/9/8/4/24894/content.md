@@ -53,6 +53,7 @@ The [[shape modality]] in $\mathbb{R}$-cohesive homotopy type theory is then def
 
 * [[cohesive homotopy type theory]]
 * [[axiom of real cohesion]]
+* [[Euclidean-topological infinity-groupoid]]
 
 ## References
 
