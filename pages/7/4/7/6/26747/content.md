@@ -33,6 +33,8 @@ Parametric dependent type theories are distinguished by the kind of parametricit
 
   * [[modal type theory]]
 
+  * [[cohesive type theory]]
+
   * [[observational type theory]]
 
   * [[higher observational type theory]]
