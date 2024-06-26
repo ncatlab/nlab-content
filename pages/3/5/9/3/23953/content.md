@@ -34,6 +34,8 @@ Note that despite the name, synthetic Tait computability is not a subfield of [[
 
 * [[cubical type theory]]
 
+* [[parametricity]]
+
 ## References
 
 * [[Jonathan Sterling]], _First Steps in Synthetic Tait Computability: The Objective Metatheory of Cubical Type Theory_, ([PhD thesis](https://www.jonmsterling.com/pdfs/sterling:2021:thesis.pdf))
@@ -41,6 +43,8 @@ Note that despite the name, synthetic Tait computability is not a subfield of [[
 * [[Jonathan Sterling]], _Naïve logical relations in synthetic Tait computability_, ([pdf](https://www.jonmsterling.com/papers/sterling-2022-naive.pdf))
 
 Further references are documented on [Jon Sterling's personal website](https://www.jonmsterling.com/jms-005T.xml).
+
+* {#Aberle24} [[C.B. Aberlé]], *Parametricity via Cohesion* &lbrack;[arXiv:2404.03825](https://arxiv.org/abs/2404.03825)&rbrack; 
 
 [[!redirects synthetic Tait computability theory]]
 
