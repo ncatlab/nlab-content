@@ -310,7 +310,9 @@ Exposition in:
 * [[David Jaz Myers]], *Simplicial, Differential, and Equivariant Homotopy Type Theory*, talk at [[CQTS]] (Jan 2023) &lbrack;video: [rec](https://nyu.zoom.us/rec/play/uk0LXy5ub2YUpJPhYq5p7GvpZ2I8_CZaWHSpWvZgwuUyHeWjXgUj2AQd21K1WSJo90V5DrE0BVhl7NuB.QbyHhtPHaJVQUj2A?continueMode=true&_x_zm_rtaid=Xyx9WZFLQzyRzu0Oh-2mNQ.1675318497581.13147cc7929a947e978b29124a207f98&_x_zm_rhtaid=938)&rbrack;
 
 
+For [[parametricity]] in cohesive homotopy type theory:
 
+* {#Aberle24} [[C.B. Aberlé]], *Parametricity via Cohesion* &lbrack;[arXiv:2404.03825](https://arxiv.org/abs/2404.03825)&rbrack; 
 
 [[!redirects cohesive type theory]]
 [[!redirects cohesive type theories]]
