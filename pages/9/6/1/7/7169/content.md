@@ -118,3 +118,6 @@ Discussion of the intersection pairing in [[ordinary differential cohomology]] a
 
 [[!redirects intersection number]]
 [[!redirects intersection numbers]]
+
+[[!redirects intersection form]]
+[[!redirects intersection forms]]
