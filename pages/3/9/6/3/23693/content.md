@@ -19,9 +19,9 @@ $$a \wedge \Vee_{n:\mathbb{N}} s(n) = \Vee_{n:\mathbb{N}} a \wedge s(n)$$
 
 ## Examples ##
 
-* [[Rosolini dominance]], denoted as $\Sigma$ or $1_\bot$, is the initial $\sigma$-frame. 
+* [[Sierpinski space]], denoted as $\Sigma$ or $1_\bot$, is the initial $\sigma$-frame. 
 
-* [[Sierpinski space]]
+* Assuming the [[axiom of countable choice]], the [[Rosolini dominance]]
 
 * The [[intrinsic topology]] on a set $A$, which is the [[function set]] $\Sigma^A$
 
