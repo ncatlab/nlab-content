@@ -64,6 +64,7 @@ The __Jordan--Brouwer separation theorem__ states that, in the [[Cartesian space
 
 * Wikipedia, _[Jordan curve theorem](https://en.wikipedia.org/wiki/Jordan_curve_theorem)_
 
+* [[Ryuji Maehara]], *The Jordan Curve Theorem Via the Brouwer Fixed Point Theorem*, The American Mathematical Monthly, 91(10), 641–643. ([doi:10.1080/00029890.1984.11971517](https://doi.org/10.1080/00029890.1984.11971517))
 
 [[!redirects Jordan curve theorem]]
 [[!redirects Jordan Curve Theorem]]
