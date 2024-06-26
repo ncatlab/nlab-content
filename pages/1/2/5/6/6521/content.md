@@ -9,6 +9,11 @@ Simon Donaldson is professor for pure [[mathematics]] at Imperial College London
 ## Selected writings
  {#SelectedWritings}
 
+Proof of [[Donaldson's theorem]], which laid the basis for [[Donaldson theory]]:
+
+* {#Donaldson83} [[Simon Donaldson]]. _An application of gauge theory to four-dimensional topology_. In: Journal of Differential Geometry. 18. Jahrgang, Nr. 2, 1. Januar 1983, [doi:10.4310/jdg/1214437665](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-18/issue-2/An-application-of-gauge-theory-to-four-dimensional-topology/10.4310/jdg/1214437665.full)
+* {#Donaldson87} [[Simon Donaldson]]. _The orientation of Yang-Mills moduli spaces and 4-manifold topology_. In: Journal of Differential Geometry. 26. Jahrgang, Nr. 3, 1. Januar 1987, [doi:10.4310/jdg/1214441485](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-26/issue-3/The-orientation-of-Yang-Mills-moduli-spaces-and-4-manifold/10.4310/jdg/1214441485.full)
+
 On [[Nahm's equations]] and the [[moduli space of monopoles]]:
 
 * [[Simon Donaldson]], _Nahm's Equations and the Classification of Monopoles_, Comm. Math. Phys., Volume 96, Number 3 (1984), 387-407, ([euclid:cmp.1103941858](https://projecteuclid.org/euclid.cmp/1103941858))
