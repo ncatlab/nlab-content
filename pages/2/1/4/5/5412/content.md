@@ -352,7 +352,7 @@ In particular, this equivalence shows that _slices of presheaf toposes are presh
 For $(f^* \dashv f_*) : \mathcal{T} \to \mathcal{E}$ a [[geometric morphism]] of toposes and $X \in \mathcal{E}$ any [[object]], there is an induced geometric morphism between the slice-toposes
 
 $$
-  (f^*/X \dashv f_*) : \mathcal{T}/f^*X \to \mathcal{E}/X
+  (f^*/X \dashv f_*/X) : \mathcal{T}/f^*X \to \mathcal{E}/X
   \,,
 $$
 
