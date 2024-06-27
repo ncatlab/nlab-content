@@ -28,6 +28,8 @@ See at _[[geometry of physics -- supergeometry]]_ [this example](geometry+of+phy
 
 ## Related concepts
 
+* [[Wess-Zumino gauge]]
+
 * [[superpotential]]
 
 ## References
