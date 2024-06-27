@@ -48,7 +48,6 @@ This allows us to define discreteness for non-crisp types: a type $A$ is **discr
 
 The [[shape modality]] in $\mathbb{R}$-cohesive homotopy type theory is then defined as the $\mathbb{R}$-localization $\esh(A) \coloneqq \mathcal{L}_{\mathbb{R}}(A)$, which ensures that the shape of $\mathbb{R}$ itself is a [[contractible type]]. 
 
-
 ## See also
 
 * [[cohesive homotopy type theory]]
@@ -58,6 +57,10 @@ The [[shape modality]] in $\mathbb{R}$-cohesive homotopy type theory is then def
 ## References
 
 * [[Mike Shulman]], *Brouwer's fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+
+Note that all uses of axiom T in the above paper can be replaced with the use of the apartness relation of the Dedekind real numbers; i.e. the functions are strongly extensional and $\epsilon$-$\delta$ continuous (theorems 11.5 and 11.6) or the function is apart from the input parameter $f(z) \# z$ (theorems 12.3 and 12.4). 
+
+Also all uses of the axiom of choice in the above paper (theorem 8.27) can be replaced with the use of countable choice or LEM, since those imply theorem 8.29 which is sufficient to prove the Cauchy reals to be Cauchy complete. 
 
 [[!redirects real-cohesive homotopy type theory]]
 [[!redirects real cohesive homotopy type theory]]
