@@ -68,6 +68,11 @@ For [[D=4 SYM]] and [[D=10 SYM]] in [[light cone gauge]]:
 
 * [[Olaf Lechtenfeld]], *Nicolai maps for super Yang-Mills on the light cone* &lbrack;[arXiv:2406.04406](https://arxiv.org/abs/2406.04406)&rbrack;
 
+For [[super Yang-Mills theory]] in [[light cone gauge]]:
+
+* Nipun Bhave, Saurabh Pant, *Nicolai maps and uniqueness in the light-cone gauge* &lbrack;[arXiv:2406.18238](https://arxiv.org/abs/2406.18238)&rbrack;
+
+
 
 
 [[!redirects Nicolai maps]]
