@@ -393,7 +393,7 @@ Textbook accounts:
 
   > "Gravity exists, so if there is any truth to supersymmetry then any realistic supersymmetry theory must eventually be enlarged to a supersymmetric theory of matter and gravitation, known as supergravity. Supersymmetry without supergravity is not an option, though it may be a good approximation at energies far below the Planck scale."
 
-* [[Antoine Van Proeyen]], [[Daniel Freedman]], _Supergravity_, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139026833]( https://doi.org/10.1017/CBO9781139026833)&rbrack;
+* [[Daniel Freedman]], [[Antoine Van Proeyen]]: _Supergravity_, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139026833]( https://doi.org/10.1017/CBO9781139026833)&rbrack;
 
 * [[Pietro Fré]], Ch 6 in: *Black Holes, Cosmology and Introduction to Supergravity*, volume 2 of: *Gravity, a Geometrical Course*, Springer (2013) &lbrack;[doi:10.1007/978-94-007-5443-0](https://doi.org/10.1007/978-94-007-5443-0)&rbrack;
 
