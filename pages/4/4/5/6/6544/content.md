@@ -23,7 +23,7 @@
 The traditional notion of _recursion_ over the [[natural numbers]] $\mathbb{N}$ is a way of defining a [[function]] out of $\mathbb{N}$ by specifying the image of *[[zero|$0$]]* (the "initial value") along with a way to obtain each *[[successor|successive]]* value from the previous one(s).  
 The study of functions on the [[natural numbers]] which can or cannot be defined using only recursion -- *[[recursive functions]]* -- is the topic of [[computability theory]] and has deep connections with the [[formal logic]] of [[Peano arithmetic]].
 
-More generally, recursion is a way of defining a function on any mathematical object which is "defined inductively" (in a way analogous to how the [[natural numbers]] are characterized by [[zero]] and [[successor]]).  In place of the "initial value" and "successor step", a general definition by recursion consists of giving one "clause" for each "constructor" of the inductively defined object.
+More generally, recursion is a way of defining a function on any mathematical object which is "defined [[induction|inductively]]" (in a way analogous to how the [[natural numbers]] are characterized by [[zero]] and [[successor]]).  In place of the "initial value" and "successor step", a general definition by recursion consists of giving one "clause" for each "constructor" of the inductively defined object.
 
 Recursion is formalized in [[type theory]] by the notion of _[[inductive type]]_ (and the corresponding [[elimination rule]])  and, equivalently, in [[category theory]] by the notion of _[[initial algebra of an endofunctor]]_.  For $F$ an [[endofunctor]], a [[morphism]] of the form $F(X) \to X$ determines a collection of _constructors_ and the _recursion principle_ is the statement that there is a (unique) morphism $f : A \to X$ from the [[initial object|initial]] such structure $F(A) \to A$.  This $f$ is the corresponding _recursively defined function_.
 
@@ -107,7 +107,7 @@ Dually, there is a notion of [[corecursion]] on a [[coinduction|coinductive stru
 
 See also:
 
-* Wikipedia, <a href="https://en.m.wikipedia.org/wiki/Recursion_(computer_science)">Recursion (computer science)</a>
+* Wikipedia, *<a href="https://en.m.wikipedia.org/wiki/Recursion_(computer_science)">Recursion (computer science)</a>*
 
 Discussion in [[type theory]]:
 
