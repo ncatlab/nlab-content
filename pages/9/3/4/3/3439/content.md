@@ -32,7 +32,11 @@ See _[[A first idea of quantum field theory]]_ the chapter _[Gauge fixing](A+fir
 
 * Feynman gauge
 
-* light cone gauge
+* [[light cone gauge]]
+
+* [[Wess-Zumino gauge]]
+
+
 
 ## Related concepts
 
