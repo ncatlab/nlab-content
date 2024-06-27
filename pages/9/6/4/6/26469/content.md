@@ -23,7 +23,7 @@ A **Markov kernel** (also called **transition kernel**, **stochastic kernel**, o
 It can be thought of as a generalization of a [[stochastic map]] outside the finite discrete case.
 (Sometimes the term "stochastic map" is itself used to denote a Markov kernel.)
 
-Markov kernels, in the form of regular conditional distributions (see [below](#regular_conditional_distributions)) are also the standard setting for talking about [[conditional probability]] outside of the discrete setting.
+Markov kernels, in the form of regular conditional distributions (see [below](#regular_conditional_distributions)) are also the standard setting for talking about [[conditional probability]] outside of the discrete case (and without incurring in paradoxes).
 
 Markov kernels and their categories are among the basic building blocks of [[categorical probability]].
 
@@ -126,7 +126,7 @@ We have that
 ## Regular conditional distributions
 
 A Markov kernel can be seen as a [[probability measure]] which depends [[measurable function|measurably]] on a parameter. 
-Therefore, together with the idea of [[conditional expectation]], it's a very useful tool to talk about [[conditional probability]] without incurring paradoxes. Let's see how.
+Therefore, together with the idea of [[conditional expectation]], it's a very useful tool to talk about [[conditional probability]] without incurring into paradoxes. Let's see how.
 
 Let $(X,\mathcal{A},p)$ be a [[probability space]], and consider a sub-[[sigma-algebra]] $\mathcal{B}\subseteq\mathcal{A}$. 
 Recall that 
