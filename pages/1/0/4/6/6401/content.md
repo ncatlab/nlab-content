@@ -48,7 +48,7 @@ Monographs:
 
 * {#GatesGrisaruRocekSiegel83} [[Jim Gates]] Jr, [[Marcus Grisaru]], [[Martin Roček]], [[Warren Siegel]], _Superspace, or One thousand and one lessons in supersymmetry_, Front. Phys. **58** (1983) 1-548 &lbrack;[arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200), [inspire:195126](https://inspirehep.net/literature/195126)&rbrack;
 
-* [[Ioseph L. Buchbinder]], [[Sergei M. Kuzenko]], *Ideas and Methods of Supersymmetry and Supergravity -- or: A Walk Through Superspace*, IoP (1995) &lbrack;[doi:10.1201/9780367802530](https://doi.org/10.1201/9780367802530), [inspire:1946734](https://inspirehep.net/literature/1946734)&rbrack;
+* [[Ioseph L. Buchbinder]], [[Sergei M. Kuzenko]], *Ideas and Methods of Supersymmetry and Supergravity -- or: A Walk Through Superspace*, IoP (1995) &lbrack;[doi:10.1201/9780367802530](https://doi.org/10.1201/9780367802530), [oapen:20.500.12657/50874](https://library.oapen.org/handle/20.500.12657/50874), [inspire:1946734](https://inspirehep.net/literature/1946734)&rbrack;
 
 The formulation of [[supergravity]] on [[super spacetime]] [[supermanifolds]]: 
 
