@@ -32,6 +32,8 @@ In the sense of [[integrability of G-structures]], Riemann normal coordinates ex
 
 * [[Walker coordinates]]
 
+* [[Wess-Zumino gauge]]
+
 ## References
 
 ### General
@@ -59,10 +61,13 @@ specifically to [[D=11 supergravity]]:
 
 * {#Tsimpis04} [[Dimitrios Tsimpis]], *Curved 11D supergeometry*, JHEP11 (2004) 087 &lbrack;[doi:10.1088/1126-6708/2004/11/087](https://iopscience.iop.org/article/10.1088/1126-6708/2004/11/087), [arXiv:hep-th/0407244](https://arxiv.org/abs/hep-th/0407244)&rbrack;
 
-
-
+  > where a version of fermionic Riemann normal coordinates are thought of as the "most natural generalization" of [[Wess-Zumino gauge]].
 
 
 
 
 [[!redirects normal coordinates]]
+
+[[!redirects super-Riemann normal coordinates]]
+[[!redirects normal super-coordinates]]
+
