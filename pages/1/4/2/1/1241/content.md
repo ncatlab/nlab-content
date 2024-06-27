@@ -314,6 +314,11 @@ On [[division algebra|division-algebraic]] relations in GUT-[[broken symmetry|sy
 
 * [[Nichol Furey]], *An Algebraic Roadmap of Particle Theories, Part III: Intersections* &lbrack;[arXiv:2312.14207](https://arxiv.org/abs/2312.14207)&rbrack;
 
+See also
+
+* Mario Fernández Navarro, Stephen F. King, Avelino Vicente, *Tri-unification: a separate $SU(5)$ for each fermion family* &lbrack;[arXiv:2311.05683](https://arxiv.org/abs/2311.05683)&rbrack;
+
+
 
 
 
