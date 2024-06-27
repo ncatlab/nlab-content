@@ -72,7 +72,7 @@ There is an oidification ([[horizontal categorification]]) of heaps, sometimes c
 
 \begin{definition}
 \label{TheDefinition}
-A __heap__ $(H,t)$ is a [[inhabited set|nonempty]] [[set]] $H$ equipped with a ternary operation $t \colon H \times H \times H\to H$ satisfying the following two relations
+A __heap__ $(H,t)$ is a [[inhabited set]] $H$ equipped with a ternary operation $t \colon H \times H \times H\to H$ satisfying the following two relations
 
 1. $ t(b,b,c) = c = t(c,b,b)$,
 
