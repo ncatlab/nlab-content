@@ -14,6 +14,8 @@
 
 ## Related concepts
 
+* [[D=4 Yang-Mills theory]]
+
 * [[super Yang-Mills theory]]
 
   * [[N=2 D=4 super Yang-Mills theory]]
