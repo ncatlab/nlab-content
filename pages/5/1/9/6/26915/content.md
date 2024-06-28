@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -22,12 +23,33 @@ _D=2 [[Yang-Mills theory]]_ (D=2 YM theory) studies the [[Yang-Mills equations]]
 
 ## Basics
 
-Let $G$ be a [[Lie group]] and $E\twoheadrightarrow B$ be a [[principal bundle|principal $G$-bundle]] with $B$ an [[orientable]] [[Riemannian manifold|Riemannian]] [[2-manifold]]. Let $A\in\Omega_{\operatorname{Ad}}^1(E,\mathfrak{g})\cong\Omega^1(B,\operatorname{Ad}(E))$ be a [[connection]] and $F_A:=\mathrm{d}_AA=\mathrm{d}A+[A\wedge A]\in\Omega_{\operatorname{Ad}}^2(E,\mathfrak{g})\cong\Omega^2(B,\operatorname{Ad}(E))$ be its [[curvature]]. [[Chern-Weil theory]] implies:
+Consider
+
+* $G$ a [[Lie group]] 
+
+* $B$ an [[orientable]] [[Riemannian manifold|Riemannian]] [[2-manifold]],
+
+* $E\twoheadrightarrow B$ a [[principal bundle|principal $G$-bundle]]
+
+* $A\in\Omega_{\operatorname{Ad}}^1(E,\mathfrak{g})\cong\Omega^1(B,\operatorname{Ad}(E))$ a [[connection]] 
+
+* $F_A \coloneqq \mathrm{d}_AA=\mathrm{d}A+[A\wedge A]\in\Omega_{\operatorname{Ad}}^2(E,\mathfrak{g})\cong\Omega^2(B,\operatorname{Ad}(E))$ its [[curvature]]. 
+
+[[Chern-Weil theory]] implies:
+
 $$
-\langle c_1(E),[B]\rangle
-=\langle c_1(\operatorname{Ad}(E)),[B]\rangle
-=-\frac{i}{2\pi}\int_B\operatorname{tr}(F_A)
-\in\mathbb{Z}.
+  \big\langle c_1(E),[B] \big\rangle
+  =
+  \Big\langle 
+    c_1\big(\operatorname{Ad}(E)\big),
+    [B] 
+  \Big\rangle
+  =
+  -\frac{i}{2\pi}
+  \int_B\operatorname{tr}(F_A)
+  \;\in\;
+  \mathbb{Z}
+  \,,
 $$
 
 ## Application on the 2-sphere
