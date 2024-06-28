@@ -22,7 +22,7 @@
 +-- {: .num_theorem #KoszulMalgrangeTheorem}
 ###### Theorem 
 
-[[holomorphic vector bundle|Holomorphic vector bundles]] over a ([[compact topological space|compact]]) [[complex manifold]] $X$ are equivalently [[complex vector bundles]] $E$ which are equipped with a holomorphically [[flat connection]] $\nabla$, hence with a [[covariant derivative]] 
+[[holomorphic vector bundle|Holomorphic vector bundles]] over a ([[compact topological space|compact]]) [[complex manifold]] $X$ are equivalently [[complex vector bundles]] $E$ which are equipped with a "holomorphically flat" connection $\nabla$, hence with a [[covariant derivative]] 
 
 $$
   \bar \partial_E \colon \Gamma(E)\longrightarrow \Gamma(E) \otimes_{C^\infty(X, \mathbb{C})}\Omega^{0,1}(X)
@@ -33,6 +33,8 @@ such that $\bar \partial_E \circ \bar \partial_E = 0$, hence with a compatible [
 The analogous statement is true for generalization of vector bundles to [[chain complexes]] of [[module sheaves]] with [[coherent cohomology]].
 
 =--
+
+(For a discussion on this use of the terminology "holomorphically flat", see [this MO question](https://mathoverflow.net/questions/236370/confusion-surrounding-the-koszul-malgrange-theorem).)
 
 For [[complex vector bundles]] over [[complex varieties]] this statement is due to [[Alexander Grothendieck]] and ([Koszul-Malgrange 58](#KoszulMalgrange58)), recalled for instance as ([Pali 06, theorem 1](#Pali06)). It may be understood as a special case of the [[Newlander-Nirenberg theorem]], see ([Delzant-Py 10, section 6](#DelzantPy10)), which also generalises the proof to [[infinite-dimensional manifold|infinite-dimensional]] vector bundles. Over [[Riemann surfaces]], see [below](#OverRiemannSurfaces), the statement was highlighted in ([Atiyah-Bott 83](#AtiyahBott83)) in the context of the [[Narasimhan-Seshadri theorem]]. 
 
