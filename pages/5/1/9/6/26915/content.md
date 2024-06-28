@@ -33,7 +33,7 @@ Consider
 
 * $A\in\Omega_{\operatorname{Ad}}^1(E,\mathfrak{g})\cong\Omega^1(B,\operatorname{Ad}(E))$ a [[connection]] 
 
-* $F_A \coloneqq \mathrm{d}_AA=\mathrm{d}A+[A\wedge A]\in\Omega_{\operatorname{Ad}}^2(E,\mathfrak{g})\cong\Omega^2(B,\operatorname{Ad}(E))$ its [[curvature]]. 
+* $F_A \coloneqq \mathrm{d}_A A=\mathrm{d}A+[A\wedge A]\in\Omega_{\operatorname{Ad}}^2(E,\mathfrak{g})\cong\Omega^2(B,\operatorname{Ad}(E))$ its [[curvature]]. 
 
 [[Chern-Weil theory]] implies:
 
@@ -68,6 +68,8 @@ Given an $m\in\mathbb{Z}$, the corresponding [[principal bundle]] is given by [[
 ## Related concepts
 
 * [[D=2 QCD]]
+* [[D=4 Yang-Mills theory]]
+* [[D=5 Yang-Mills theory]]
 
 [[!redirects Two-dimensional Yang--Mills theory]]
 [[!redirects Yang--Mills theory in two dimensions]]
