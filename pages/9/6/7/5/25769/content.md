@@ -21,6 +21,6 @@ On the [[large-N limit]]:
 category: people
 
 
+[[!redirects A. Migdal]]
 [[!redirects Alexander Migdal]]
 [[!redirects Alexander Arkadyevich Migdal]]
-
