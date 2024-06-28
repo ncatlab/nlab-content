@@ -79,5 +79,39 @@ Given an $m\in\mathbb{Z}$, the corresponding [[principal bundle]] is given by [[
 * [[D=4 Yang-Mills theory]]
 * [[D=5 Yang-Mills theory]]
 
+## References
+
+The original reference:
+
+* [[A. Migdal]], _Recursion equations in gauge field theories_, Zh. Eksp. Teor. Fiz. 69 (1975), 810–822 (Sov. Phys. JETP 42, 413–418).  [PDF](http://jetp.ras.ru/cgi-bin/dn/e_042_03_0413.pdf).
+
+Further developments:
+
+* Ninoslav E. Bralić, _Exact computation of loop averages in two-dimensional Yang-Mills theory_, Phys. Rev. D 22:12 (1980), 3090–3103.  [doi:10.1103/PhysRevD.22.3090](https://doi.org/10.1103/PhysRevD.22.3090).
+
+* V. A. Kazakov, I. K. Kostov, _Non-linear strings in two-dimensional U(∞) gauge theory_, Nuclear Physics B 176:1 (1980), 199–215.  [doi][1]
+
+[1]: https://doi.org/10.1016/0550-3213(80)90072-3
+
+* Leonard Gross, Christopher King, Ambar Sengupta, _Two dimensional Yang-Mills theory via stochastic differential equations_, Annals of Physics 194:1 (1989), 65–112.  [doi][1]
+
+[1]: https://doi.org/10.1016/0003-4916(89)90032-8
+
+* B. Ye. Rusakov, _LOOP AVERAGES AND PARTITION FUNCTIONS IN U(N) GAUGE THEORY ON TWO-DIMENSIONAL MANIFOLDS_, Modern Physics Letters A 5:9 (1990), 693–703.  [doi](https://doi.org/10.1142/S0217732390000780).
+
+* Dana S. Fine, _Quantum Yang-Mills on the two-sphere_, Communications in Mathematical Physics 134 (1990), 273–292.  [doi](https://doi.org/10.1007/BF02097703).
+
+* Dana S. Fine, _Quantum Yang-Mills on a Riemann surface_, Communications in Mathematical Physics 140 (1991), 321–338.  [doi](https://doi.org/10.1007/BF02099502).
+
+* Ambar Sengupta, _The Yang-Mills measure for $S^2$_, Journal of Functional Analysis 108:2 (1992), 231–273.  [doi][1]
+
+[1]: https://doi.org/10.1016/0022-1236(92)90025-E
+
+* Ambar Sengupta, _Quantum Gauge Theory on Compact Surfaces_, Annals of Physics 221:1 (1993), 17–52.  [doi](https://doi.org/10.1006/aphy.1993.1002)
+
+* [[Matthias Blau]], George Thompson, _QUANTUM YANG-MILLS THEORY ON ARBITRARY SURFACES_, International Journal of Modern Physics A 7:16 (1992), 3781–3806.  [doi](https://doi.org/10.1142/S0217751X9200168X).
+
+* [[Edward Witten]], _Two-dimensional gauge theories revisited_, Journal of Geometry and Physics 9:4 (1992), 303–368.  [arXiv:hep-th/9204083](https://arxiv.org/abs/hep-th/9204083). [doi:10.1016/0393-0440(92)90034-X](https://doi.org/10.1016/0393-0440(92)90034-X).
+
 [[!redirects Two-dimensional Yang--Mills theory]]
 [[!redirects Yang--Mills theory in two dimensions]]
