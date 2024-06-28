@@ -56,3 +56,34 @@ The resulting [[superconformal algebra|super-conformal]] [[brane scan]]:
 
 * [[Michael Duff]],  *The conformal brane-scan: an update*,  J. High Energ. Phys. **2022** 54 (2022) \[<a href="https://doi.org/10.1007/JHEP06(2022)054">doi:10.1007/JHEP06(2022)054</a>, <a href="https://arxiv.org/abs/2112.13784">arXiv:2112.13784</a>\]
 
+Related:
+
+* Hironori Mori, Satoshi Yamaguchi, §3 in: *M5-branes and Wilson Surfaces in AdS7/CFT6 Correspondence*, Phys. Rev. D **90** (2014) 026005 \[<a href="https://doi.org/10.1103/PhysRevD.90.026005">doi:10.1103/PhysRevD.90.026005</a>, [arXiv:1404.0930](https://arxiv.org/abs/1404.0930)\]
+
+
+Analogous discussion for embeddings with less supersymmetry, corresponding to [[defect QFT|defects]]
+
+* Nadav Drukker, Simone Giombi, [[Arkady A. Tseytlin]], Xinan Zhou, *Defect CFT in the 6d $(2,0)$ theory from M2 brane dynamics in $AdS_7 \times S^4$*,  J. High Energ. Phys. **2020** 101 (2020) \[<a href="https://doi.org/10.1007/JHEP07(2020)101">doi:10.1007/JHEP07(2020)101</a>, [arXiv:2004.04562](https://arxiv.org/abs/2004.04562)\]
+
+* Varun Gupta, *Holographic M5 branes in $\mathrm{AdS}_7 \times S^4$* \[<a href="https://doi.org/10.1007/JHEP12(2021)032">doi:10.1007/JHEP12(2021)032</a>, [arXiv:2109.08551](https://arxiv.org/abs/2109.08551)\]
+
+* Varun Gupta, *More Holographic M5 branes in $\mathrm{AdS}_7 \times S^4$, Phys. Lett. B **853** (2024) 138650 \[<a href="https://doi.org/10.1016/j.physletb.2024.138650">doi:10.1016/j.physletb.2024.138650</a>, [arXiv:2301.02528](https://arxiv.org/abs/2301.02528)\]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
