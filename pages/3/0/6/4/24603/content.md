@@ -20,6 +20,11 @@ counterparts, J. Math. Phys. 36 (1995) 2030--2052.
 
 * L. K. Hadjiivanov, R. R. Paunov, I. T. Todorov, _$U_q$-covariant oscillators and vertex operators_, J. Math. Phys. __33__, 1379 (1992) [doi](https://doi.org/10.1063/1.529713) 
 
+On [[conformal field theory]] (including discussion of [[conformal compactification]]):
+
+* {#NikolovTodorov04} Nikolay M. Nikolov, [[Ivan T. Todorov]], *Lectures on Elliptic Functions and Modular Forms in Conformal Field Theory*, in: *[Modern Mathematical Physocs](https://inspirehep.net/literature/885417)*, Proceedings of: *[3rd Summer School in Modern Mathematical Physics (MPHYS3)](https://inspirehep.net/conferences/976156)* (2004) 1-93 &lbrack;[arXiv:math-ph/0412039](http://arxiv.org/abs/math-ph/0412039), [InSpire:674206](https://inspirehep.net/literature/674206)&rbrack;
+
+
 category: people
 
 [[!redirects Ivan T. Todorov]]
