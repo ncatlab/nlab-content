@@ -40,6 +40,9 @@ Introducing [[holographic light front QCD]]:
 
 Review:
 
+* [[Stanley J. Brodsky]], [[Guy F. de Teramond]], *AdS/CFT and Light-Front QCD*, in: *Search for the “Totally Unexpected” in the LHC Era*, Proceedings of the *International School of Subnuclear Physics, Erice 2007*, World Scientific (2009) 139-176/183 &lbrack;[arXiv:0802.0514](https://arxiv.org/abs/0802.0514), [doi:10.1142/7586](https://doi.org/10.1142/7586), discussion: [[BrodskyTeramond-AdSCFTLectureDiscussion.pdf:file]]&rbrack;
+
+
 * [[Stanley Brodsky]], [[Guy de Teramond]],  [[Hans Günter Dosch]], [[Joshua Erlich]], _Light-Front Holographic QCD and Emerging Confinement_, Physics Reports Volume 584, 8 July 2015, Pages 1-105 ([arXiv:1407.8131](https://arxiv.org/abs/1407.8131))
 
 * [[Stanley Brodsky]], [[Guy de Teramond]], [[Hans Günter Dosch]], _Light-Front Holography and Supersymmetric Conformal Algebra: A Novel Approach to Hadron Spectroscopy, Structure, and Dynamics_ ([arXiv:2004.07756](https://arxiv.org/abs/2004.07756))
