@@ -43,7 +43,7 @@ More generally, one may define the anti de Sitter space of signature $(p,q)$ as 
 
 (...)
 
-in _horospheric coordinates_ the AdS [[metric tensor]] is
+in _horospheric coordinates_ &lbrack;e.g. [Gibbons 2000 (12)](#Gibbons00)&rbrack; the AdS [[metric tensor]] is
 
 $$
   g_{AdS}
@@ -88,7 +88,8 @@ $$
 
 ### Conformal boundary
 
-(...)
+(...) *[[conformal boundary]]* (...) &lbrack;e.g. [Frances 2011](#Frances11)&rbrack;
+
 
 ### Holography
 
@@ -142,7 +143,10 @@ Reviews:
 
 * [[Matthias Blau]], chapter 38 of: _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
 
-* [[Gary Gibbons]], _Anti-de-Sitter spacetime and its uses_ ([arXiv:1110.1206](http://arxiv.org/abs/1110.1206))
+* {#Gibbons00} [[Gary Gibbons]], *Anti-de-Sitter spacetime and its uses*, in: *Mathematical and Quantum Aspects of Relativity and Cosmology*, Lecture Notes in Physics **537**, Springer (2000)  &lbrack;[arXiv:1110.1206](http://arxiv.org/abs/1110.1206), [doi:10.1007/3-540-46671-1_5](https://doi.org/10.1007/3-540-46671-1_5)&rbrack;
+
+* {#Frances11} [[Charles Frances]], *The conformal boundary of anti-de Sitter space-times*, in: *AdS/CFTCorrespondence: Einstein Metrics and Their Conformal Boundaries*, IRMA Lectures in Mathematical and Theoretical Physics, EMS (2011) 205-216 &lbrack;[ems:irma/9/206](https://ems.press/books/irma/9/206), [hal:03195056](https://hal.science/hal-03195056), [pdf](https://hal.science/hal-03195056v1/document)&rbrack;
+
 
 * {#Natsuume15} [[Makoto Natsuume]], section 6 of: _AdS/CFT Duality User Guide_, Lecture Notes in Physics 903, Springer 2015 ([arXiv:1409.3575](https://arxiv.org/abs/1409.3575))
 
@@ -157,8 +161,6 @@ Further discussion:
 
 * Abdelghani Zeghib, _On closed anti de Sitter spacetimes_, Math. Ann. 310, 695&#8211;716 (1998) ([pdf](http://www.umpa.ens-lyon.fr/~zeghib/Anti.de.Sitter.pdf))
 
-
-* C. Frances, _The conformal boundary of anti-de Sitter space-times_, in  _AdS/CFT correspondence: Einstein metrics and their conformal boundaries_ , 205--216, IRMA Lect. Math. Theor. Phys., 8, Eur. Math. Soc., Z&#252;rich, 2005 ([pdf](http://mahery.math.u-psud.fr/~frances/ads-cft2.pdf))
 
 * Jiri Podolsky, Ondrej Hruska, _Yet another family of diagonal metrics for de Sitter and anti-de Sitter spacetimes_, Phys. Rev. D 95, 124052 (2017) ([arXiv:1703.01367](https://arxiv.org/abs/1703.01367))
 
