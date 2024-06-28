@@ -161,6 +161,8 @@ Solutions to the [[equations of motion]] of self-dual Yang-Mills theory are natu
 
 ## Related concepts
 
+* [D=4 Yang-Mills theory]]
+
 * [[Bogomolny equation]], [[Nahm equation]]
 
 * [[self-dual higher gauge theory]]
