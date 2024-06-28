@@ -19,6 +19,10 @@
 
 First considered in ['t Hooft 74](#tHooft74), whence also called the _'t Hooft model_.
 
+## Related concepts
+
+* [[D=2 Yang-Mills theory]]
+
 ## References
 
 ### General 
@@ -94,6 +98,4 @@ On [[D=2 Yang-Mills theory]] as the [[effective field theory]] of a [[string the
 
 [[!redirects 't Hooft model]]
 [[!redirects 't Hooft models]]
-
-[[!redirects D=2 Yang-Mills theory]]
 
