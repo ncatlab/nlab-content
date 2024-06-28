@@ -1,8 +1,20 @@
 
-* [webpage](https://www.thphys.uni-heidelberg.de/~dosch/)
+* [personal page](https://www.thphys.uni-heidelberg.de/~dosch/)
+
+* [Wikipedia entry](https://de.wikipedia.org/wiki/Hans_G%C3%BCnter_Dosch)
+
+* [InSpire page](https://inspirehep.net/authors/1011494)
+
+* [GoogleScholar page](https://scholar.google.de/citations?user=SWYsUmIAAAAJ&hl=en)
+
+
 
 
 ## Selected writings
+
+On [[AdS/CFT duality]] and [[AdS/QCD duality]]:
+
+* [[Hans Günter Dosch]], *A Practical Guide to AdS/CFT*, lecture notes (2009) &lbrack;[pdf](https://www.thphys.uni-heidelberg.de/~dosch/wuhantot.pdf), [[Dosch-AdSCFT.pdf:file]]&rbrack;
 
 On [[holographic light front QCD]]:
 
