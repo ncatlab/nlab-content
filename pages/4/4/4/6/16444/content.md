@@ -55,14 +55,20 @@ A conformal compactification, of _complexified_ [[Minkowski spacetime]] $\mathbb
 
 * Valentina, _Conformal compactifications_ &lbrack;[[Valentina-ConformalCompactifications.pdf:file]]&rbrack; 
 
-* Jörg Frauendiener, *Conformal Infinity*,  Living Rev. Relativ. **7** 1 (2004) &lbrack;[doi:10.12942/lrr-2004-1](https://doi.org/10.12942/lrr-2004-1)&rbrack;
-
 
 * {#NikolovTodorov04} Nikolay M. Nikolov, [[Ivan T. Todorov]], §4.2 in: *Lectures on Elliptic Functions and Modular Forms in Conformal Field Theory*, in: *[Modern Mathematical Physocs](https://inspirehep.net/literature/885417)*, Proceedings of: *[3rd Summer School in Modern Mathematical Physics (MPHYS3)](https://inspirehep.net/conferences/976156)* (2004) 1-93 &lbrack;[arXiv:math-ph/0412039](http://arxiv.org/abs/math-ph/0412039), [InSpire:674206](https://inspirehep.net/literature/674206)&rbrack;
 
 * {#FioresiLledoVaradarajan07} Rita Fioresi, Maria A. Lledo, [[Veeravalli Varadarajan]], _The Minkowski and conformal superspaces_, J. Math. Phys. **48** (2007) 113505 &lbrack;[arXiv:math/0609813](https://arxiv.org/abs/math/0609813), [doi:10.1142/8972](https://doi.org/10.1142/8972)&rbrack;
 
 * {#Wong09} Willie Wong, _Conformal compactification of space-time_ ([web](https://qnlw.info/post/conformal-compactification-spacetime/)) (2009).
+
+
+On conformal boundaries:
+
+* Jörg Frauendiener, *Conformal Infinity*,  Living Rev. Relativ. **7** 1 (2004) &lbrack;[doi:10.12942/lrr-2004-1](https://doi.org/10.12942/lrr-2004-1)&rbrack;
+
+* C. A. Ballon Bayona, Nelson R. F. Braga, *Anti-de Sitter boundary in Poincaré coordinates*, Gen. Rel. Grav. **39** (2007) 1367-1379 &lbrack;[arXiv:hep-th/0512182](https://arxiv.org/abs/hep-th/0512182), [doi:10.1007/s10714-007-0446-y](https://doi.org/10.1007/s10714-007-0446-y)&rbrack;
+
 
 * {#Frances11} [[Charles Frances]], *The conformal boundary of anti-de Sitter space-times*, in: *AdS/CFTCorrespondence: Einstein Metrics and Their Conformal Boundaries*, IRMA Lectures in Mathematical and Theoretical Physics, EMS (2011) 205-216 &lbrack;[ems:irma/9/206](https://ems.press/books/irma/9/206), [hal:03195056](https://hal.science/hal-03195056), [pdf](https://hal.science/hal-03195056v1/document)&rbrack;
 
