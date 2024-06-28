@@ -11,7 +11,8 @@ On the [[Green-Schwarz sigma-model]] for the [[M5-brane]]:
 
 On [[AdS/CFT]] for the [[M5-brane]]:
 
-* [[Alexei Nurmagambetov]], I. Y. Park, _On the M5 and the AdS7/CFT6 Correspondence_ ([arXiv:hep-th/0110192](http://arxiv.org/abs/hep-th/0110192))
+* [[Alexei Nurmagambetov]], I. Y. Park *On the M5 and the $\mathrm{AdS}_7/CFT_6$ correspondence*, Physics Letters B
+**524** 1–2 (2002) 185-191 \[<a href="https://doi.org/10.1016/S0370-2693(01)01375-2">doi:10.1016/S0370-2693(01)01375-2</a>, [arXiv:hep-th/0110192](https://arxiv.org/abs/hep-th/0110192)\]
 
 On [[type II supergravity]]:
 
