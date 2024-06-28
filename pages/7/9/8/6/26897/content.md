@@ -44,6 +44,9 @@ Further discussion including also [[M5-branes]] and [[D-branes]]:
 
 * C. Grojean, J. Mourad, *Super fivebranes near the boundary of $AdS_7 \times S^4$*, Nuclear Physics B **567** 1–2 (2000) 133-150 \[<a href="https://doi.org/10.1016/S0550-3213(99)00335-1">doi:10.1016/S0550-3213(99)00335-1</a>, [arXiv:hep-th/9903164](https://arxiv.org/abs/hep-th/9903164)\]
 
+* [[Alexei Nurmagambetov]], I. Y. Park *On the M5 and the $\mathrm{AdS}_7/CFT_6$ correspondence*, Physics Letters B
+**524** 1–2 (2002) 185-191 \[<a href="https://doi.org/10.1016/S0370-2693(01)01375-2">doi:10.1016/S0370-2693(01)01375-2</a>, [arXiv:hep-th/0110192](https://arxiv.org/abs/hep-th/0110192)\]
+
 Review:
 
 * {#Duff98} [[Mike Duff]], *Anti-de Sitter space, branes, singletons, superconformal field theories and all that*, Int. J. Mod. Phys. A **14** (1999) 815-844 \[<a href="https://doi.org/10.1142/S0217751X99000403">doi:10.1142/S0217751X99000403</a>, [arXiv:hep-th/9808100](https://arxiv.org/abs/hep-th/9808100)\]
