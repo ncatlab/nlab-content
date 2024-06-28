@@ -76,6 +76,8 @@ Given an $m\in\mathbb{Z}$, the corresponding [[principal bundle]] is given by [[
 ## Related concepts
 
 * [[D=2 QCD]]
+* [[D=4 Yang-Mills theory]]
+* [[D=5 Yang-Mills theory]]
 
 [[!redirects Two-dimensional Yang--Mills theory]]
 [[!redirects Yang--Mills theory in two dimensions]]
