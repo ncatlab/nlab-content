@@ -25,7 +25,7 @@ with some review and outlook in
 
 On the [[AdS/CFT correspondence]]:
 
-* Sebastian De Haro, Daniel R. Mayerson, [[Jeremy Butterfield]], _Conceptual Aspects of Gauge/Gravity Duality_, Foundations of Physics (2016), 46 (11), pp. 1381-1425 ([arXiv:1509.09231](https://arxiv.org/abs/1509.09231))
+* [[Sebastian De Haro]], Daniel R. Mayerson, [[Jeremy Butterfield]], *Conceptual Aspects of Gauge/Gravity Duality*, Foundations of Physics **46** 11 (2016) 1381-1425 &lbrack;[arXiv:1509.09231](https://arxiv.org/abs/1509.09231), [doi:10.1007/s10701-016-0037-4](https://doi.org/10.1007/s10701-016-0037-4)&rbrack;
 
 On [[black holes in string theory]] and [[black hole entropy]]:
 
