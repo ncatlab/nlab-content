@@ -53,7 +53,7 @@ $$
 $$
   \langle \alpha, \beta \rangle
   :=
-  \int_X (\alpha\mid \beta) vol
+  \textstyle{\int_X} (\alpha\mid \beta) vol
  \,.
 $$
 
@@ -73,7 +73,7 @@ $$
   = 
   (\alpha \mid \beta) vol_g, 
   \qquad 
-  \forall \alpha,\beta \in \bigwedge^k X
+  \forall \alpha,\beta \in \textstyle{\bigwedge^k} X
   \,,
 $$
 
@@ -84,7 +84,7 @@ Therefore in terms of the Hodge operator the [[Hodge inner product]] reads
 $$
   \langle \alpha , \beta\rangle
   = 
-  \int_X \alpha \wedge \star \beta
+  \textstyle{\int_X} \alpha \wedge \star \beta
   \,.
 $$
 
