@@ -18,10 +18,10 @@ A cluster algebra of rank $n$ comes equipped with some subsets of size $n$ calle
 
 * Arkady Berenstein, Andrei Zelevinsky, _Quantum cluster algebras_, [math.QA/0404446](http://arxiv.org/abs/math/0404446)
 
-* K. Goodearl, M. Yakimov, _Quantum cluster algebras and quantum nilpotent algebras_
-Proc Natl Acad Sci USA 111(27):9696-703  (2014) [doi](https://doi.org/10.1073/pnas.1313071111)
+* [[K. R. Goodearl]], M. T. Yakimov, _Quantum cluster algebras and quantum nilpotent algebras_
+Proc Natl Acad Sci USA 111(27):9696--9703  (2014) [doi](https://doi.org/10.1073/pnas.1313071111)
 
-* B. Keller, _Cluster algebras, quiver representations and triangulated categories_, [arXiv:0807.1960](http://arXiv.org/abs/0807.1960) [MR2681708](http://www.ams.org/mathscinet-getitem?mr=2681708)
+* [[Bernhard Keller]], _Cluster algebras, quiver representations and triangulated categories_, [arXiv:0807.1960](http://arXiv.org/abs/0807.1960) [MR2681708](http://www.ams.org/mathscinet-getitem?mr=2681708)
 
 * Lots of links at [Cluster algebras portal](http://www.math.lsa.umich.edu/~fomin/cluster.html) including to the Fomin's [course slides](http://www.math.lsa.umich.edu/~fomin/nordfjordeid.html).
 
