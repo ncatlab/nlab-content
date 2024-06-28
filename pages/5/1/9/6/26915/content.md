@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -83,7 +84,7 @@ Given an $m\in\mathbb{Z}$, the corresponding [[principal bundle]] is given by [[
 
 The original reference:
 
-* [[A. Migdal]], _Recursion equations in gauge field theories_, Zh. Eksp. Teor. Fiz. 69 (1975), 810–822 (Sov. Phys. JETP 42, 413–418).  [PDF](http://jetp.ras.ru/cgi-bin/dn/e_042_03_0413.pdf).
+* [[Alexander A. Migdal]], *Recursion equations in gauge field theories*, Zh. Eksp. Teor. Fiz. **69** (1975) 810–822 (Sov. Phys. JETP 42, 413–418) &lbrack;[pdf](http://jetp.ras.ru/cgi-bin/dn/e_042_03_0413.pdf), [[Migdal-RecursionInGauge.pdf:file]] [spire:100330](https://inspirehep.net/literature/100330)&rbrack;
 
 Further developments:
 
@@ -103,13 +104,11 @@ Further developments:
 
 * Dana S. Fine, _Quantum Yang-Mills on a Riemann surface_, Communications in Mathematical Physics 140 (1991), 321–338.  [doi](https://doi.org/10.1007/BF02099502).
 
-* Ambar Sengupta, _The Yang-Mills measure for $S^2$_, Journal of Functional Analysis 108:2 (1992), 231–273.  [doi][1]
-
-[1]: https://doi.org/10.1016/0022-1236(92)90025-E
+* Ambar Sengupta, _The Yang-Mills measure for $S^2$_, Journal of Functional Analysis **108**  2 (1992) 231–273 &lbrack;<a href="https://doi.org/10.1016/0022-1236(92)90025-E">doi;10.1016/0022-1236(92)90025-E</a>&rbrack;
 
 * Ambar Sengupta, _Quantum Gauge Theory on Compact Surfaces_, Annals of Physics 221:1 (1993), 17–52.  [doi](https://doi.org/10.1006/aphy.1993.1002)
 
-* [[Matthias Blau]], George Thompson, _QUANTUM YANG-MILLS THEORY ON ARBITRARY SURFACES_, International Journal of Modern Physics A 7:16 (1992), 3781–3806.  [doi](https://doi.org/10.1142/S0217751X9200168X).
+* [[Matthias Blau]], [[George Thompson]], *Quantum Yang-Mills theory on arbitrary surfaces*, International Journal of Modern Physics A **7** 16 (1992) 3781–3806 &lbrack;[doi:10.1142/S0217751X9200168X](https://doi.org/10.1142/S0217751X9200168X)&rbrack;
 
 * [[Edward Witten]], _Two-dimensional gauge theories revisited_, Journal of Geometry and Physics 9:4 (1992), 303–368.  [arXiv:hep-th/9204083](https://arxiv.org/abs/hep-th/9204083). [doi:10.1016/0393-0440(92)90034-X](https://doi.org/10.1016/0393-0440(92)90034-X).
 
