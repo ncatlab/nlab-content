@@ -6,7 +6,9 @@ $M$ is itself injective, then it is uniform iff it is indecomposable.
 
 An arbitrary $R$-module $M$ has finite rank if and only if it has an essential submodule which is a finite direct sum of uniform submodules.
 
-* K. R. Goodearl, R. B. Warfield Jr. _An introduction to noncommutative Noetherian rings_, London Math. Soc. Student Texts 61, 2nd ed. 2004
+## References
+
+* [[K. R. Goodearl]], R. B. Warfield Jr. _An introduction to noncommutative Noetherian rings_, London Math. Soc. Student Texts 61, 2nd ed. 2004
 
 category: algebra
 [[!redirects uniform modules]]
