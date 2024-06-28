@@ -138,11 +138,11 @@ and as such validates the [[Ryu-Takayanagi formula]] for [[holographic entanglem
 
 Review:
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 1, chapter I.3.8 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 1, chapter I.3.8 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], ch I.3: [[CastellaniDAuriaFre-ChI3.pdf:file]],&rbrack;
 
 * [[Ingemar Bengtsson]], _Anti-de Sitter space_, lecture notes (1998) &lbrack;[[Bengtsson98.pdf:file]]&rbrack;
 
-* [[Matthias Blau]], chapter 38 of: _Lecture notes on general relativity_ &lbrack;[web](http://www.blau.itp.unibe.ch/GRLecturenotes.html)&rbrack;
+* [[Matthias Blau]], chapter 37 of: _Lecture notes on general relativity_ &lbrack;[web](http://www.blau.itp.unibe.ch/GRLecturenotes.html)&rbrack;
 
 * {#Gibbons00} [[Gary Gibbons]], *Anti-de-Sitter spacetime and its uses*, in: *Mathematical and Quantum Aspects of Relativity and Cosmology*, Lecture Notes in Physics **537**, Springer (2000)  &lbrack;[arXiv:1110.1206](http://arxiv.org/abs/1110.1206), [doi:10.1007/3-540-46671-1_5](https://doi.org/10.1007/3-540-46671-1_5)&rbrack;
 
