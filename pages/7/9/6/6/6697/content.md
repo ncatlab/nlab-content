@@ -29,10 +29,14 @@
 Up to [[isometry]], the **anti de Sitter spacetime** of [[dimension]] $d$, $AdS_d$, is the [[pseudo-Riemannian manifold]] whose underlying [[manifold]] is the [[submanifold]] of the [[Minkowski spacetime]] $\mathbb{R}^{d-1,2}$ that solves the equation
 
 $$
-  \sum_{i = 1}^{d-1} (x_i)^2 - (x_d)^ 2 - (x_0)^2 = -R^2
+  \textstyle{\sum_{i = 1}^{d-1}} 
+  (x_i)^2 - (x_d)^ 2 - (x_0)^2 
+  \;=\; 
+  - R^2
+  \,,
 $$
 
-for some $R \neq 0$ (the "radius" of the spacetime) and equipped with the metric induced from the ambient metric, where $\{x^0, x^1, x^2, \cdots, x^d\}$ denote the canonical [[coordinates]]. $AdS_d$ is [[homeomorphic]] to $\mathbb{R}^{d-1} \times S^1$, and its isometry group is $O(d-1, 2)$.
+for some $R \neq 0$ (the "radius" of the spacetime) and equipped with the [[metric tensor]] induced from the ambient metric, where $\{x^0, x^1, x^2, \cdots, x^d\}$ denote the canonical [[coordinates]]. $AdS_d$ is [[homeomorphic]] to $\mathbb{R}^{d-1} \times S^1$, and its isometry group is $O(d-1, 2)$.
 
 More generally, one may define the anti de Sitter space of signature $(p,q)$ as isometrically embedded in the space $\mathbb{R}^{p,q+1}$ with coordinates $(x_1, ..., x_p, t_1, \ldots, t_{q+1})$ as the sphere $\sum_{i=1}^p x_i^2 - \sum_{j=1}^{q+1} t_j^2 = -R^2$.
 
@@ -40,51 +44,246 @@ More generally, one may define the anti de Sitter space of signature $(p,q)$ as 
 
 ## Properties
 
+
 ### Coordinate charts
+ {#CoordinateCharts}
 
-(...)
+A comprehesive account of the AdS [[metric tensor]] in various [[coordinate charts]] is given in [Blau §39.3](#Blau).
 
-in _horospheric coordinates_ &lbrack;e.g. [Gibbons 2000 (12)](#Gibbons00)&rbrack; the AdS [[metric tensor]] is
+\linebreak
 
+**Poincaré and horospheric coordinates** (e.g. [Blau §39.3.7](#Blau)).
+Consider the [[Cartesian space]] $\mathbb{R}^{1+p}$ with its canonical [[coordinate functions]]
 $$
-  g_{AdS}
+  X^a 
+   \;\colon\; 
+  \mathbb{R}^{1+p} 
+    \xrightarrow{\phantom{-}}  
+  \mathbb{R}
+  \,,
+  \;\;\;
+  a \in \{0,1,\cdots, p\}
+$$
+and denote its standard [[Minkowski spacetime|Minkowski]] [[metric tensor]] by
+$$
+  d s^2_{\mathbb{R}^{1,p}}
+  \;\coloneqq\;
+  \textstyle{\sum_{a = 0}^p}
+  \mathrm{d}X^a \otimes \mathrm{d}X^a
+  \,.
+$$
+Moreover consider $\mathbb{R}^{1+p} \times \mathbb{R}_{\gt 0}$ equipped with the pullback of the above coordinate function as well as with
+$$
+  r
+  \;\colon\;
+  \mathbb{R}^{1+p} \times \mathbb{R}_{\gt 0}
+  \twoheadrightarrow
+  \mathbb{R}_{\gt 0}
+  \hookrightarrow
+  \mathbb{R}
+  \,.
+$$
+
+
+Then there is a chart of $AdS_{p+2}$ of the form
+$$
+  \iota
+  \;\colon\;
+  \mathbb{R}^{1+p} \times \mathbb{R}_{\gt 0}
+  \xhookrightarrow{\phantom{--}}
+  AdS_{p+2}
+$$
+such that the pullback of the AdS metric tensor is
+\[
+  \label{MetricInPoincareCoordinatesI}
+  \iota^\ast \mathrm{d}s^2_{AdS}
   \;=\;
-  \frac{1}{z^2}
-  \left(
-    g_{(\mathbb{R}^{p,1})} + (d z)^2 
-  \right)
-$$
+  \tfrac{r^2}{R^2}
+  \mathrm{d}s^2_{\mathbb{R}^{1,d}}
+  \,+\,
+  \tfrac{R^2}{r^2} 
+  \mathrm{d}r^2
+  \,.
+\]
 
-In terms of
+This is the form of the AdS-metric which arises naturally as the [[near horizon geometry]] of [[black branes|black]] [[p-branes]] in [[supergravity]] (e.g. [AFFHS98 (5)](near-horizon+geometry#AFFHS98)). The black brane [[singularity]] itself would be at $r = 0$.
 
+In slight variation, in terms of
 $$
-  y \coloneqq 1/z 
+  z \,\coloneqq\, 1/r
+  \,,
+  \;\;\;
+  \text{hence}
+  \;\;\;
+  r = z^{-1}
+  \,,
+  \;\;
+  \mathrm{d}r 
+    \;=\; 
+  -\tfrac{1}{z^2} 
+    \mathrm{dz} \;\;
 $$
-
-this becomes
-
-$$
-  g_{AdS}
+the metric (eq:MetricInPoincareCoordinatesI) becomes
+\[
+  \label{MetricInPoincareCoordinatesII}
+  \iota^\ast \mathrm{d}s^2_{AdS}
   \;=\;
-  y^2 \, g_{(\mathbb{R}^{p,1})} + \frac{1}{y^2}(d y)^2 
+  \frac{R^2}{z^2}
+  \big(
+    \tfrac{1}{R^4}
+    \mathrm{d}s^2_{\mathbb{R}^{1,d}}
+    \,+\,
+    \mathrm{d}z^2
+  \big)
+  \,.
+\]
+
+This is called *horospheric coordinates* by [Gibbons 2000 (12)](#Gibbons00).
+
+On the other hand, in terms of
 $$
-
-and with 
-
+  \rho \;\coloneqq\; ln r
+  \,,
+  \;\; \text{hence} \;\;
+  r = e^\rho
+  \,,
+  \;\;
+  \mathrm{d}r = r \, \mathrm{d}\rho
 $$
-  y \coloneqq \tfrac{1}{n} r^n
-$$
-
-for $n \neq 0$
-
-we get
-
-$$
-  g_{AdS}
+the metric (eq:MetricInPoincareCoordinatesI) becomes
+\[
+  \label{MetricInPoincareCoordinatesIII}
+  \iota^\ast \mathrm{d}s^2_{AdS}
   \;=\;
-  \tfrac{1}{n^2}r^{2n} \, g_{(\mathbb{R}^{p,1})} + \frac{1}{r^2}(d r)^2 
+  \tfrac{e^{2\rho}}{R^2}
+  \mathrm{d}s^2_{\mathbb{R}^{1,d}}
+  \,+\,
+  R^2
+  \mathrm{d}\rho^2
+  \,.
+\]
+This is called *horospheric coordinates* in [arXiv:1412.2054 (37)](https://arxiv.org/abs/1412.2054).
+
+
+\linebreak
+
+### Cartan geometry
+ {#CartanGeometry}
+
+We spell out the [[curvature]] tensors of anti de Sitter spacetime, using a [[Cartan connection]] (i.e. [[first order formulation of gravity|first order formulation]]).
+
+An evident choice of an orthonormal [[coframe field]] for the AdS metric in Poincaré coordinates (eq:MetricInPoincareCoordinatesI) is
+$$
+  \begin{array}{ccll}
+    E^a &\coloneqq& \tfrac{r}{R} \mathrm{d}X^a  
+    & a \in \{0,1, \cdots, d\}
+    \\
+    E^{p'} &\coloneqq& \tfrac{R}{r} \mathrm{d}r
+  \end{array}
+$$
+in that 
+$$
+  \iota^\ast \mathrm{d}s^2_{AdS_{p+2}}
+  \;=\;
+  \eta_{a b} E^a \otimes E^b
+  +
+  E^{p'} \otimes E^{p'}
+  \,.
 $$
 
+> (no sum over $p'$ -- this is meant to be the index *value* corresponding to the radial direction)
+
+The [[torsion of a Cartan connection|torsion]]-free [[spin connection]] $\Omega$ for this [[coframe field]], characterized by
+\[
+  \label{SpinConnection}
+  \begin{array}{ccl}
+    \mathrm{d}E^a &=& \Omega^a{}_b \, E^b
+    \\
+    \mathrm{d}E^{p'} &=& \Omega^{p'}{}_b \, E^b 
+    \mathrlap{\,,}
+  \end{array}
+\]
+has non-vanishing components
+$$
+  \Omega^{a p'} \,=\, - \Omega^{p' a}
+  \;=\;
+  - \tfrac{r}{R^2} \mathrm{d}X^a
+  \,.
+$$
+
+The corresponding [[curvature]] [[differential 2-form|2-form]]
+$$
+  \begin{array}{l}
+    R^{a_1 a_2}
+    \;=\;
+    -
+    \Omega^{a_1}{}_{p'} \Omega^{p' a_2}
+    \\
+    R^{a d'}
+    \;\coloneqq\;
+    \mathrm{d}\Omega^{a p'}
+  \end{array}
+$$
+has non-vanishing components
+$$
+  \begin{array}{l}
+    R^{a_1 a_2}
+    \;=\;
+    - \tfrac{r^2}{R^4} \mathrm{d}X^{a_1}\, \mathrm{d}X^{a_2}
+    \;=\;
+    - \tfrac{1}{R^2} E^{a_1} \, E^{a_2}
+    \\
+    R^{a p'} \,=\, - R^{p' a} 
+    \;=\;
+    - \tfrac{1}{R^2} \mathrm{d}X^a 
+    \;=\; 
+    - \tfrac{1}{R^2} E^a \, E^{p'}
+    \,.
+  \end{array}
+$$
+Hence the [[Riemann tensor]] has non-vanishing components
+$$
+  \begin{array}{ccl}
+    R^{a_1 a_2}{}_{b_1 b_2}
+    &=&
+    + \tfrac{1}{R^2} \delta^{a_1 a_2}_{b_1 b_2}
+    \\
+    R^{a p'}{}_{b p'}
+    &=&
+    + \tfrac{1}{R^2} \delta^a{}_b 
+    \mathrlap{\,,}
+  \end{array}
+$$
+so that the [[Ricci tensor]] is proportional to the metric,
+as befits an [[Einstein manifold]]:
+$$
+  \begin{array}{ccl}
+    Ric_{a_1 a_2}
+    &\coloneqq&
+    R_{a_1}{}^{b}{}_{a_2 b}
+    \,+\,
+    R_{a_1}{}^{p'}{}_{a_2 p'}
+    \;=\;
+    \tfrac{p}{R^2} \, \eta_{a_1 a_2}
+    + 
+    \tfrac{1}{R^2} \, \eta_{a_1 a_2}
+    \\
+    &=& \tfrac{p+1}{R^2} \, \eta_{a_1 a_2}
+    \\
+    Ric_{p' p'} 
+    &\coloneqq&
+    R_{p'}{}^b{}_{p' b}
+    \\
+    &=&
+    \tfrac{p+1}{R^2}
+    \,.
+  \end{array}
+$$
+
+> The above convention $\mathrm{d}E^a = + \Omega^a{}_b \, E^b$ (eq:SpinConnection) makes this come out positive, following the old convention by [Freund & Rubin 1980](Freund-Rubin+compactification#FreundRubin80), see [there](Freund-Rubin+compactification#TheGeneralFreundRubinSolution).
+
+
+\linebreak
 
 
 ### Conformal boundary
@@ -142,7 +341,7 @@ Review:
 
 * [[Ingemar Bengtsson]], _Anti-de Sitter space_, lecture notes (1998) &lbrack;[[Bengtsson98.pdf:file]]&rbrack;
 
-* [[Matthias Blau]], chapter 37 of: _Lecture notes on general relativity_ &lbrack;[web](http://www.blau.itp.unibe.ch/GRLecturenotes.html)&rbrack;
+* {#Blau} [[Matthias Blau]], chapter 37 of: _Lecture notes on general relativity_ &lbrack;[web](http://www.blau.itp.unibe.ch/GRLecturenotes.html)&rbrack;
 
 * {#Gibbons00} [[Gary Gibbons]], *Anti-de-Sitter spacetime and its uses*, in: *Mathematical and Quantum Aspects of Relativity and Cosmology*, Lecture Notes in Physics **537**, Springer (2000)  &lbrack;[arXiv:1110.1206](http://arxiv.org/abs/1110.1206), [doi:10.1007/3-540-46671-1_5](https://doi.org/10.1007/3-540-46671-1_5)&rbrack;
 
