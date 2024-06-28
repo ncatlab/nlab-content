@@ -69,9 +69,11 @@ The relation of the techniques of the pioneers of infinitesimal calculus and the
 
 A collection of articles on XX-century mathematics is in
 
-* Michele Audin (editor), _[[Matériaux pour l’histoire des mathématiques au XXe siècle]]_ - Actes du colloque à la mémoire de Jean Dieudonné (Nice 1996) Séminaires & Congrès. Numèro 3. Paris (Socièté Mathématique de France). 1998. 283 pp.
+* [[Michele Audin]] (editor), _[[Matériaux pour l’histoire des mathématiques au XXe siècle]]_ - Actes du colloque à la mémoire de Jean Dieudonné (Nice 1996) Séminaires & Congrès. Numèro 3. Paris (Socièté Mathématique de France). 1998. 283 pp.
 
 * Glenn Shafer, Vladimir Vovk, _The sources of Kolmogorov’s Grundbegriffe_, Statistical Science 21(1) [doi](https://dx.doi.org/10.1214/088342305000000467) [arXiv:math/0606533](http://arxiv.org/abs/math/0606533)
 
+* Israel Kleiner, _From numbers to rings:
+The early history of ring theory_, Elem. Math. __53__ (1998) 18--35 [pdf](https://ems.press/content/serial-article-files/45056)
 
 [[!redirects history]]
