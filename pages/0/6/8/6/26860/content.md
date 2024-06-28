@@ -46,7 +46,7 @@ classes]] of [[boxed knots]] and the [[isotopy]] classes of oriented knots.
 
 \end{proposition}
 
-This bijection gives the connected sum of two ordinary knots.
+This bijection gives the connected sum of pairs of ordinary knots.
 
 ## Properties
 
@@ -65,6 +65,11 @@ where $\circ $ is the [[unknot]].
 
 \end{theorem}
 
+## Related concepts
+
+* [[composite knot]]
+
+* [[prime knot]]
 
 
 ## References
