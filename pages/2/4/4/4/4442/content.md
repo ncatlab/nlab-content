@@ -491,22 +491,24 @@ Surveys and introductions:
 
 * [[Joseph Polchinski]], _Introduction to Gauge/Gravity Duality_ ([arXiv:1010.6134](https://arxiv.org/abs/1010.6134))
 
+* {#Herzog15} [[Christopher Herzog]], *AdS/CFT*, lecture notes (2015) &lbrack;[pdf](http://insti.physics.sunysb.edu/~cpherzog/stringtheory/AdSCFT.pdf), [[Herzog-AdSCFT.pdf:file]]&rbrack;
+
 * {#Natsuume15} [[Makoto Natsuume]], *AdS/CFT Duality User Guide*, Lecture Notes in Physics **903**, Springer (2015) &lbrack;[arXiv:1409.3575](https://arxiv.org/abs/1409.3575), [doi:10.1007/978-4-431-55441-7](https://doi.org/10.1007/978-4-431-55441-7)&rbrack;
 
-* Sebastian De Haro, Daniel R. Mayerson, [[Jeremy Butterfield]], _Conceptual Aspects of Gauge/Gravity Duality_, Foundations of Physics (2016), 46 (11), pp. 1381-1425 ([arXiv:1509.09231](https://arxiv.org/abs/1509.09231))
+* [[Sebastian De Haro]], Daniel R. Mayerson, [[Jeremy Butterfield]], *Conceptual Aspects of Gauge/Gravity Duality*, Foundations of Physics **46** 11 (2016) 1381-1425 &lbrack;[arXiv:1509.09231](https://arxiv.org/abs/1509.09231), [doi:10.1007/s10701-016-0037-4](https://doi.org/10.1007/s10701-016-0037-4)&rbrack;
 
 * {#Erdmenger18} [[Johanna Erdmenger]], _Introduction to Gauge/Gravity Duality_, PoS [TASI2017](https://inspirehep.net/conferences/1591386) (2018) 001 &lbrack;[arXiv:1807.09872](https://arxiv.org/abs/1807.09872), [doi:10.22323/1.305.0001](https://doi.org/10.22323/1.305.0001)&rbrack;
 
   > (focus on [[holographic entanglement entropy]] and [[AdS/CMT duality]])
 
-* Nirmalya Kajuri, _ST4 Lectures on Bulk Reconstruction_ ([arXiv:2003.00587](https://arxiv.org/abs/2003.00587))
+* Nirmalya Kajuri, _ST4 Lectures on Bulk Reconstruction_ &lbrack;[arXiv:2003.00587](https://arxiv.org/abs/2003.00587)&rbrack;
 
 * {#Taylor23} Marika Taylor, *Introduction to AdS/CFT and Holography -- The holographic dictionary*, lecture at *pre-SUSY school 2023* &lbrack;[cern:1214657](https://indico.cern.ch/event/1214657), slides: [pdf](https://indico.cern.ch/event/1214657/sessions/480000/attachments/2690349/4676064/susy1.pdf), video: [session 1](https://southampton.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0f0a6c21-0bc9-42ae-9274-b03e00a8fde3), [sessions 2, 3](https://southampton.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c7e64fe5-675c-4f94-96f2-b03f0083f0d3)&rbrack;
 
 
 Review of [[Yangian]] symmetry:
 
-* [[Alessandro Torrielli]], _Yangians, S-matrices and AdS/CFT_, J. Phys. A44: 263001, 2011 ([arXiv:1104.2474](http://arxiv.org/abs/1104.2474))
+* [[Alessandro Torrielli]], _Yangians, S-matrices and AdS/CFT_, J. Phys. A **44** 263001 (2011) &lbrack;[arXiv:1104.2474](http://arxiv.org/abs/1104.2474)&rbrack;
 
 ### Lattice gauge theory computations
 
@@ -740,7 +742,7 @@ Applications of AdS-CFT to the [[quark-gluon plasma]] of [[QCD]]:
 
 
 
-Expositions and reviews include
+Expositions and reviews:
 
 * Pavel Kovtun, _Quark-Gluon Plasma and String Theory_, RHIC news (2009) ([blog entry](http://www.bnl.gov/rhic/news/091107/story2.asp))
 
@@ -838,7 +840,6 @@ On the [[deep learning]] algorithm on [[neural networks]] as analogous to the [[
 
 [[!redirects AdS-CFT duality]]
 [[!redirects AdS/CFT duality]]
-
 
 
 [[!redirects AdS7-CFT6]]
