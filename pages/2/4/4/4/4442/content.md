@@ -196,7 +196,7 @@ as well as their [[Minkowski spacetime]] and plane wave limits. These are the ma
 
 We list some of the conjectured statements and their evidence concerning the case of $AdS_7/CFT_6$-duality.
 
-The hypothesis ([Maldacena 97, section 3.1](#Maldacena97a)) (see ([Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 6.1.1](#AharonyGubserMaldacenaOoguriOz99)) for a review) 
+The hypothesis of [Maldacena 1997, section 3.1](#Maldacena97a) (for review see ([Aharony, Gubser, Maldacena, Ooguri & Oz 1999, section 6.1.1](#AharonyGubserMaldacenaOoguriOz99)) 
 is that 
 
 * the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of $N$ coincident [[M5-branes]] 
