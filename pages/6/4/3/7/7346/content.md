@@ -129,5 +129,5 @@ To cement this further, the following statement is offered in [Harris](#Harris) 
 A map between complex projective varieties of dimension $n$ which is a bijection and has injective derivative at every point is an isomorphism. 
 =-- 
 
-
+category: algebra
 [[!redirects Nakayama lemma]]
