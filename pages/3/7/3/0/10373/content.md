@@ -14,6 +14,13 @@ If $R$ is a ring a (say, left) $R$-module $M\neq 0$ is [[uniform module|uniform]
 * wikipedia [essential extension](https://en.wikipedia.org/wiki/Essential_extension)
 * [[K. R. Goodearl]], R. B. Warfield, _An introduction to noncommutative Noetherian rings_, London Math. Society Student Texts __16__ (1st ed,), 1989, xviii+303 pp.; or __61__ (2nd ed.), 2004, xxiv+344 pp. 
 
+In
+ 
+* [[Jiří Adámek]], [[Horst Herrlich]], [[Jiří Rosický]], [[Walter Tholen]], _Injective hulls are not natural_, Algebra univers. 48 (2002) 379--388 [doi](https://doi.org/10.1007/s000120200006)
+
+the following generalization is considered. A morphism h in a class $H$ of morphisms in a category $C$ is $H$-essential if for every morphism $g$, the composite
+$g\circ h$ lies in $H$ only if $g$ does. If $H$ is the class of monomorphisms we get the standard notion of an essential extension.
+
 
 category: algebra, operator algebras
 
