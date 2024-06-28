@@ -30,7 +30,7 @@ $$
 =8\langle c_2(P),[X]\rangle
 -3(1-b_1(X)+b_+(X))
 $$
-with the second [[Chern class]] $c_2(P)\in H^4(X;\mathbb{Z})$, the [[fundamental class]] $[X]\in H_4(X;\mathbb{Z})$ given by the orientation of $X$, the Kronecker pairing $\lange-,-\rangle\colon H^4(X;\mathbb{Z})\times H_4(X;\mathbb{Z})rightarrow\mathbb{Z}$ (which is often obmitted), the first [[Betti number]] $b_1(X)=\dim H_1(X;\mathbb{R})$ and the dimension $b_+(X)$ of the positive definite subspace of $H_2(X;\mathbb{R})$ with respect to the [[intersection form]].
+with the second [[Chern class]] $c_2(P)\in H^4(X;\mathbb{Z})$, the [[fundamental class]] $[X]\in H_4(X;\mathbb{Z})$ given by the orientation of $X$, the Kronecker pairing $\langle-,-\rangle\colon H^4(X;\mathbb{Z})\times H_4(X;\mathbb{Z})\rightarrow\mathbb{Z}$ (which is often obmitted), the first [[Betti number]] $b_1(X)=\dim H_1(X;\mathbb{R})$ and the dimension $b_+(X)$ of the positive definite subspace of $H^2(X;\mathbb{R})$ with respect to the [[intersection form]].
 
 If considering a [[simply connected]] $X$ as in the original version, then $H_1(X;\mathbb{Z})\cong\pi_1(X)^\mathrm{ab}$ and hence $b_1(X)=0$, which simplifies the formula. Consider a principal $SU(2)$-bundle $P$ with $\langle c_2(P),[X]\rangle=1$, hence $\dim\mathcal{M}^-=5$. Reducible connections modulo gauge, which are the singularities of $\mathcal{M}^-$, correspond to decompositions $P\times_{SU(2)}\mathbb{C}^2\cong L\oplus L^{-1}$ with a complex line bundle $L\twoheadrightarrow X$, which implies:
 $$
