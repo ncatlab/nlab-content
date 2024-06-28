@@ -25,7 +25,7 @@ A _conformal compactification_ is an [[embedding]] of a non-[[compact topologica
 
 The (or rather, _any_) conformal compactification $\overline{M}$ of (flat) [[Minkowski space]] $M = \mathbb{R}^{n,1}$ is important in various treatments of behaviour at infinity of physics thereon (see e.g. _[[Penrose-Hawking theorem]]_).
 
-Section 4.2 of ([Nikolov-Todorov](#NikolovTodorov)) gives a thorough geometric discussion of the construction and gives explicit expressions in coordinates, and shows that (the underlying manifold of) this $\overline{M}$ is in fact $(S^n\times S^1)/\{\pm 1\}$, for a specific embedding of $S^n\times S^1$ in $\mathbb{R}^{n+1,2}$, and the action by scalar multiplication.
+Section 4.2 of [Nikolov & Todorov 2004](#NikolovTodorov04) gives a thorough geometric discussion of the construction and gives explicit expressions in coordinates, and shows that (the underlying manifold of) this $\overline{M}$ is in fact $(S^n \times S^1)/\{\pm 1\}$, for a specific embedding of $S^n\times S^1$ in $\mathbb{R}^{n+1,2}$, and the action by scalar multiplication.
 
 Let $q(x,t)$ be the standard indefinite quadratic form of signature $(n,1)$ on $\mathbb{R}^{n,1}$ and define the following map $\mathbb{R}^{n,1} \to \mathbb{R}^{n+1,2} \simeq \mathbb{R}^{n,1}\times \mathbb{R}^{1,1}$:
 $$
@@ -53,16 +53,25 @@ A conformal compactification, of _complexified_ [[Minkowski spacetime]] $\mathbb
 
 * [[Roger Penrose]], _Relativistic Symmetry Groups_, in A.O.Barut (ed.), _Group Theory in Non-Linear Problems: Lectures Presented at the NATO Advanced Study Institute on Mathematical Physics_  (1974)
 
-* Valentina, _Conformal compactifications_ ([pdf](http://www.fysik.su.se/~ingemar/relteori/valentinamaster.pdf) -- link appears to be dead)
+* Valentina, _Conformal compactifications_ &lbrack;[[Valentina-ConformalCompactifications.pdf:file]]&rbrack; 
 
-* J&#246;rg Frauendiener, _Conformal Infinity_ ([living reviews](https://doi.org/10.12942/lrr-2004-1))
+* Jörg Frauendiener, *Conformal Infinity*,  Living Rev. Relativ. **7** 1 (2004) &lbrack;[doi:10.12942/lrr-2004-1](https://doi.org/10.12942/lrr-2004-1)&rbrack;
 
-* {#NikolovTodorov} Nikolay M. Nikolov, Ivan T. Todorov, _Lectures on Elliptic Functions and Modular Forms in Conformal Field Theory_, arXiv:[math-ph/0412039](http://arxiv.org/abs/math-ph/0412039)
- ([inspirehep pdf](http://inspirehep.net/record/674206/files/page1.pdf)).
 
-* {#FioresiLledoVaradarajan07} R. Fioresi, M. A. Lledo, [[Veeravalli Varadarajan]], _The Minkowski and conformal superspaces_, J.Math.Phys.48:113505,2007 ([arXiv:math/0609813](https://arxiv.org/abs/math/0609813))
+* {#NikolovTodorov04} Nikolay M. Nikolov, [[Ivan T. Todorov]], §4.2 in: *Lectures on Elliptic Functions and Modular Forms in Conformal Field Theory*, in: *[Modern Mathematical Physocs](https://inspirehep.net/literature/885417)*, Proceedings of: *[3rd Summer School in Modern Mathematical Physics (MPHYS3)](https://inspirehep.net/conferences/976156)* (2004) 1-93 &lbrack;[arXiv:math-ph/0412039](http://arxiv.org/abs/math-ph/0412039), [InSpire:674206](https://inspirehep.net/literature/674206)&rbrack;
+
+* {#FioresiLledoVaradarajan07} Rita Fioresi, Maria A. Lledo, [[Veeravalli Varadarajan]], _The Minkowski and conformal superspaces_, J. Math. Phys. **48** (2007) 113505 &lbrack;[arXiv:math/0609813](https://arxiv.org/abs/math/0609813), [doi:10.1142/8972](https://doi.org/10.1142/8972)&rbrack;
 
 * {#Wong09} Willie Wong, _Conformal compactification of space-time_ ([web](https://qnlw.info/post/conformal-compactification-spacetime/)) (2009).
 
+* {#Frances11} [[Charles Frances]], *The conformal boundary of anti-de Sitter space-times*, in: *AdS/CFTCorrespondence: Einstein Metrics and Their Conformal Boundaries*, IRMA Lectures in Mathematical and Theoretical Physics, EMS (2011) 205-216 &lbrack;[ems:irma/9/206](https://ems.press/books/irma/9/206), [hal:03195056](https://hal.science/hal-03195056), [pdf](https://hal.science/hal-03195056v1/document)&rbrack;
 
 [[!redirects conformal compactifications]]
+
+[[!redirects conformal boundary]]
+
+
+[[!redirects conformal boundaries]]
+
+
+
