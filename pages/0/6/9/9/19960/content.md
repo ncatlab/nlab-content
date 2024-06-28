@@ -637,10 +637,11 @@ NB: These computations so far all use just the field theory in the bulk, not yet
 
 #### Review and introduction
 
-* {#Aharony02} [[Ofer Aharony]], _The non-AdS/non-CFT correspondence, or three different paths to QCD_, Progress in string, field and particle theory. Springer, Dordrecht, 2003. 3-24 ([arXiv:hep-th/0212193](https://arxiv.org/abs/hep-th/0212193))
+Concerning the modern formulation of QCD via [[AdS/CFT duality]]:
 
-* [[Stanley J. Brodsky]], [[Guy F. de Teramond]], *AdS/CFT and Light-Front QCD*, in: *Search for the “Totally Unexpected” in the LHC Era*, Proceedings of the *International School of Subnuclear Physics, Erice 2007*,World Scientific (2009) &lbrack;[arXiv:0802.0514](https://arxiv.org/abs/0802.0514), [doi:10.1142/7586](https://doi.org/10.1142/7586)&rbrack;
+* {#Aharony02} [[Ofer Aharony]], *The non-AdS/non-CFT correspondence, or three different paths to QCD*, in: *Progress in string, field and particle theory*, Springer, (2003) 3-24 &lbrack;[arXiv:hep-th/0212193](https://arxiv.org/abs/hep-th/0212193), [doi:10.1007/978-94-010-0211-0](https://doi.org/10.1007/978-94-010-0211-0)&rbrack;
 
+* [[Stanley J. Brodsky]], [[Guy F. de Teramond]], *AdS/CFT and Light-Front QCD*, in: *Search for the “Totally Unexpected” in the LHC Era*, Proceedings of the *International School of Subnuclear Physics, Erice 2007*, World Scientific (2009) 139-176/183 &lbrack;[arXiv:0802.0514](https://arxiv.org/abs/0802.0514), [doi:10.1142/7586](https://doi.org/10.1142/7586), discussion: [[BrodskyTeramond-AdSCFTLectureDiscussion.pdf:file]]&rbrack;
 
 * [[Hans Günter Dosch]], *A Practical Guide to AdS/CFT*, lecture notes (2009) &lbrack;[pdf](https://www.thphys.uni-heidelberg.de/~dosch/wuhantot.pdf), [[Dosch-AdSCFT.pdf:file]]&rbrack;
 
