@@ -19,7 +19,7 @@ A [[functor]] $F \colon C \to D$ is __pseudomonic__ if it is:
 
 1. [[faithful functor|faithful]]; that is, for any [[pair]] of [[objects]] $x,y\in C$ the component [[function]] $F \colon Hom_C(x,y) \to Hom_D(F x,F y)$ between [[hom-sets]] is [[injective function|injective]],
 
-2. _[[full functor|full]] on [[isomorphisms]]_, meaning that for any [[pair]] of [[objects]] $x,y\in C$ the [[function]] $F \colon Iso_C(x,y) \to Iso_D(F x, F y)$ betwee the [[subsets]] of [[isomorphisms]] is [[surjective]] (hence [[bijective]]).
+2. _[[full functor|full]] on [[isomorphisms]]_, meaning that for any [[pair]] of [[objects]] $x,y\in C$ the [[function]] $F \colon Iso_C(x,y) \to Iso_D(F x, F y)$ between the [[subsets]] of [[isomorphisms]] is [[surjective]] (hence [[bijective]]).
 
 Arguably, pseudomonic functors are precisely the functors for which it makes sense to say that $A$ is uniquely determined by $F A$ up to unique isomorphism.  However, we do not really need faithfulness for this; bijectivity on isos suffices.
 
