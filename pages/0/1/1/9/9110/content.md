@@ -174,6 +174,11 @@ implying
 
 
 ### The general Freund-Rubin solution
+ {#TheGeneralFreundRubinSolution}
+
+We spell out the main argument due to [Freund & Rubin 1980](#FreundRubin80).
+
+\linebreak
 
 Consider a $D \geq 3$-dimensional [[spacetime]] which is the [[product manifold|product]] 
 
