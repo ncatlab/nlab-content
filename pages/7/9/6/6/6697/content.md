@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {: toc}
@@ -135,22 +136,23 @@ and as such validates the [[Ryu-Takayanagi formula]] for [[holographic entanglem
 
 ### General
 
-Reviews:
+Review:
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 1, chapter I.3.8 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-* [[Ingemar Bengtsson]], _Anti-de Sitter space_, lecture notes 1998 ([[Bengtsson98.pdf:file]])
+* [[Ingemar Bengtsson]], _Anti-de Sitter space_, lecture notes (1998) &lbrack;[[Bengtsson98.pdf:file]]&rbrack;
 
-* [[Matthias Blau]], chapter 38 of: _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
+* [[Matthias Blau]], chapter 38 of: _Lecture notes on general relativity_ &lbrack;[web](http://www.blau.itp.unibe.ch/GRLecturenotes.html)&rbrack;
 
 * {#Gibbons00} [[Gary Gibbons]], *Anti-de-Sitter spacetime and its uses*, in: *Mathematical and Quantum Aspects of Relativity and Cosmology*, Lecture Notes in Physics **537**, Springer (2000)  &lbrack;[arXiv:1110.1206](http://arxiv.org/abs/1110.1206), [doi:10.1007/3-540-46671-1_5](https://doi.org/10.1007/3-540-46671-1_5)&rbrack;
 
 * {#Frances11} [[Charles Frances]], *The conformal boundary of anti-de Sitter space-times*, in: *AdS/CFTCorrespondence: Einstein Metrics and Their Conformal Boundaries*, IRMA Lectures in Mathematical and Theoretical Physics, EMS (2011) 205-216 &lbrack;[ems:irma/9/206](https://ems.press/books/irma/9/206), [hal:03195056](https://hal.science/hal-03195056), [pdf](https://hal.science/hal-03195056v1/document)&rbrack;
 
+* {#Natsuume15} [[Makoto Natsuume]], section 6 of: _AdS/CFT Duality User Guide_, Lecture Notes in Physics **903** Springer (2015) &lbrack;[arXiv:1409.3575](https://arxiv.org/abs/1409.3575), [doi:10.1007/978-4-431-55441-7](https://doi.org/10.1007/978-4-431-55441-7)&rbrack;
 
-* {#Natsuume15} [[Makoto Natsuume]], section 6 of: _AdS/CFT Duality User Guide_, Lecture Notes in Physics 903, Springer 2015 ([arXiv:1409.3575](https://arxiv.org/abs/1409.3575))
+* Leszek M. Sokolowski, _The bizarre anti-de Sitter spacetime_, International Journal of Geometric Methods in Modern Physics **13** 9 (2016) 1630016 &lbrack;[arXiv:1611.01118](https://arxiv.org/abs/1611.01118)&rbrack;
 
-* Leszek M. Sokolowski, _The bizarre anti-de Sitter spacetime_, International Journal of Geometric Methods in Modern Physics 13 no.9 (2016) 1630016 ([arXiv:1611.01118](https://arxiv.org/abs/1611.01118))
+* Ricard M. Calvo, *Geometry of (Anti-)De Sitter space-time* (2018) &lbrack;[pdf](https://diposit.ub.edu/dspace/bitstream/2445/125099/1/Monge%20Calvo%20Ricard.pdf), [[Calvo-AdS.pdf:file]]&rbrack;
 
 
 See also:
