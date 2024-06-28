@@ -18,6 +18,11 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 * [[Sean Hartnoll]], [[Christopher Herzog]], [[Gary 
  Horowitz]], _Building an AdS/CFT superconductor_, Phys. Rev. Lett. 101:031601, 2008 ([arXiv:0803.3295](https://arxiv.org/abs/0803.3295))
 
+On [[AdS/CFT duality]]:
+
+* {#Herzog15} [[Christopher Herzog]], *AdS/CFT*, lecture notes (2015) &lbrack;[pdf](http://insti.physics.sunysb.edu/~cpherzog/stringtheory/AdSCFT.pdf), [[Herzog-AdSCFT.pdf:file]]&rbrack;
+
+
 category: people
 
 [[!redirects Christopher P. Herzog]]
