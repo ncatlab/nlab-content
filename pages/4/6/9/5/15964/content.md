@@ -67,7 +67,7 @@ in the topos $\mathbf{H}$ is called a __standard function__, precisely if
        \Rightarrow
        \left(
          \underset{i}{max} {\vert g(\vec x)_i - g(\vec y)_i \vert}
-         \lt \delta
+         \lt \epsilon
        \right)
      \right)
    $$
