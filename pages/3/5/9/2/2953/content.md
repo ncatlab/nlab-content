@@ -80,7 +80,7 @@ Discussion in general [[concrete categories]]:
 
 See also:
 
-* Ad&#225;mek, Herrlich, Rosick&#253;, Tholen; 2002; [Injective hulls are not natural](http://www.iti.cs.tu-bs.de/~adamek/injective.hulls.AHRT.ps)
+* [[Jiří Adámek]], [[Horst Herrlich]], [[Jiří Rosický]], [[Walter Tholen]], _Injective hulls are not natural_, Algebra univers. 48 (2002) 379--388 [doi](https://doi.org/10.1007/s000120200006) [pdf](https://link.springer.com/content/pdf/10.1007/s000120200006.pdf) [ps](http://www.iti.cs.tu-bs.de/~adamek/injective.hulls.AHRT.ps) 
 * Jinzhog Xu; 1996; Flat Covers of Modules, SLNM 1634.
 * [[Walter Tholen]], "Essential weak factorization systems".  *Contributions to General Algebra* 13 (2001) 321-333.  [ps](http://www.math.yorku.ca/~tholen/newessential.ps).
 
