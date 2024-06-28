@@ -52,6 +52,8 @@ Specifically the _[[AGT correspondence]]_ expresses this relation in terms of th
 
 ## Related concepts
 
+* [[D=4 Yang-Mills theory]]
+
 * [[quiver gauge theory]], [[fractional D-brane]]
 
 * [[super Yang-Mills theory]]
