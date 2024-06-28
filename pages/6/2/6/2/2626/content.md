@@ -123,11 +123,14 @@ Expositions:
 
 General:
 
-* [[R. H. Crowell]], [[R. H. Fox]], _Introduction to knot theory_, Springer, Graduate Texts 57, 1963.
+* [[R. H. Crowell]], [[R. H. Fox]], _Introduction to knot theory_, Graduate Texts **57**, Springer (1963)
 
 * G. Burde, H. Zieschang, _Knots_, De Gruyter (1989).
 
-* [[Michael Atiyah]], _The Geometry and Physics of Knots_,  Cambridge University Press 1990 ([doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868))
+* [[Michael Atiyah]], _The Geometry and Physics of Knots_,  Cambridge University Press (1990) &lbrack;[doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868)&rbrack;
+
+* Colin C. Adams, *The Knot Book -- An elementary Introduction to the Mathematical Theory of Knots*,  W. H. Freedman and Co. (1994) &lbrack;[ISBN:978-0-8218-3678-1](https://bookstore.ams.org/KNOT)&rbrack;
+
 
 * [[Nick Gilbert]], [[Tim Porter]], *Knots and surfaces*, Oxford University Press (1994) &lbrack;[ISBN:9780198514909](https://global.oup.com/academic/product/knots-and-surfaces-9780198514909?cc=de&lang=en&)&rbrack;
 
