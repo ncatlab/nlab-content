@@ -1,4 +1,6 @@
 
+$\twoheadrightarrow$
+
 $$
   \mathrm{d}
   \exp(t \overline{\theta} Q )
