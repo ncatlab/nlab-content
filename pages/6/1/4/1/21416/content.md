@@ -47,6 +47,10 @@ This way, via the equivalence between [[D4-D8-brane intersections]] with [[insta
 
 ## Related concepts
 
+* [[D=2 Yang-Mills theory]]
+
+* [[D=4 Yang-Mills theory]]
+
 * [[D=5 Maxwell theory]]
 
 * [[D=5 super Yang-Mills theory]]
