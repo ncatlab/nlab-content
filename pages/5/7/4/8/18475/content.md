@@ -100,6 +100,8 @@ The original article (according to [ZLSS15, p. ix](#ZaanenLiuSunSchalm15)), rega
 
 Monographs:
 
+* Antonio S. T.  Pires, *AdS/CFT correspondence in condensed matter*, Morgan & Claypool (2014) &lbrack;[doi:10.1088/978-1-627-05309-9](https://doi.org/10.1088/978-1-627-05309-9), [arXiv:1006.5838](http://arxiv.org/abs/1006.5838)&rbrack;
+
 * {#ZaanenLiuSunSchalm15} [[Jan Zaanen]], [[Yan Liu]], [[Ya-Wen Sun]], [[Koenraad Schalm]], *Holographic Duality in Condensed Matter Physics*, Cambridge University Press (2015) &lbrack;[doi:10.1017/CBO9781139942492](https://doi.org/10.1017/CBO9781139942492)&rbrack;
 
 * {#HartnollLucasSachdev16} [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], _Holographic quantum matter_, MIT Press (2018) &lbrack;[arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [ISBN:9780262348010](https://mitpress.ublish.com/book/holographic-quantum-matter)&rbrack;
@@ -111,8 +113,6 @@ Reviews and lectures:
 * [[Sean Hartnoll]], _Lectures on holographic methods for condensed matter physics_, Class. Quant. Grav. **26** 224002, 2009 &lbrack;[arXiv:0903.3246](https://arxiv.org/abs/0903.3246)&rbrack;
 
 * [[John McGreevy]], *Holographic duality with a view toward many-body physics*, Adv. High Energy Phys. 723105 (2010) &lbrack;[arXiv:0909.0518](https://arxiv.org/abs/0909.0518), [doi:10.1155/2010/723105](https://doi.org/10.1155/2010/723105)&rbrack;
-
-* A. Pires, _AdS/CFT correspondence in condensed matter_ ([arXiv:1006.5838](http://arxiv.org/abs/1006.5838))
 
 * [[Subir Sachdev]], _Condensed matter and AdS/CFT_ ([arXiv:1002.2947](http://arxiv.org/abs/1002.2947))
 
