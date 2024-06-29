@@ -9,6 +9,12 @@
 
 * [[Cantor's theorem]]
 
+* [[diagonal argument]]
+
+* [[Cantor's paradox]]
+
 * [[Heine-Cantor theorem]]
+
+* [[Cantor-Schroeder-Bernstein theorem]]
 
 category: people
