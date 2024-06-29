@@ -3,7 +3,7 @@
 
 In [[algebra]] one speaks of *internal* direct sums for [[direct sums]] of [[subobjects]] of a given [[object]] that are themselves again canonically subobjects of that object. 
 
-In contrast to this situation, the ordinary direct sum is sometimes called the *[[external direct sum]]*.
+In contrast to this situation, the ordinary direct sum is sometimes called the *[[external direct sum]]*. $\mathcal{n}$
 
 ## Definition
 
