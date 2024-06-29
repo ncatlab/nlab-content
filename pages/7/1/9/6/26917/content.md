@@ -13,7 +13,7 @@
 
 ## Definition
 
-Given a left and right [[Noetherian ring]], its *Goldie rank* is the maximum number of nonzero [[direct summands]] of its left (or right) [[ideals]]. In other words, the Goldie rank of a Noetherian ring is $n$ if it contains an internal direct sum of $n$ nonzero submodules but no direct sum of $n+1$ nonzero submodules. 
+Given a left and right [[Noetherian ring]], its *Goldie rank* is the maximum number of nonzero [[internal direct summands]] of its left (or right) [[ideals]]. In other words, the Goldie rank of a Noetherian ring $R$ is $n$ if $R$ contains an [[internal direct sum]] of $n$ non-[[zro object|zero]] [[submodules]] but no internal direct sum of $n+1$ nonzero submodules. 
 
 The same definition may be used for the Goldie rank of "finite rank" modules, where it is also called Goldie dimension and uniform dimension. Here by finite rank one means that the [[injective hull]] is a direct sum of a finite direct sum of indecomposables. An alternative definition is this: a finite rank module $M$ has Goldie rank $n$ if the injective hull $E(M)$ is a direct sum of n uniform submodules.
 
