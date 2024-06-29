@@ -1,6 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
+
+
 ### Idea
 
-An Ore extension of a unital ring $R$ is certain generalization of the ring $R[T]$ of polynomials in one variable $T$ with coefficients in $R$. While keeping the left $R$-module structure intact, unlike in the polynomial ring, the coefficients in $R$ and the indeterminate $T$ do not need to commute, but rather commute up to a skew-derivation. A skew-polynomial ring is a special case. 
+An *Ore extension* of a [[unital ring]] $R$ is certain generalization of the ring $R[T]$ of [[polynomials]] in one [[variable]] $T$ with [[coefficients]] in $R$. 
+
+While keeping the left $R$-[[module]]-[[structure]] intact, unlike in the polynomial ring, the coefficients in $R$ and the indeterminate $T$ do not need to commute, but rather commute up to a skew-derivation. A skew-polynomial ring is a special case. 
 
 ### Definition
 
