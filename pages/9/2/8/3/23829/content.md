@@ -12,6 +12,10 @@ On the [[adiabatic quantum computation|adiabaticity]] of [[topological quantum c
 
 * {#ChengGalitskiDasSarma11} [[Meng Cheng]], [[Victor Galitski]], [[Sankar Das Sarma]], *Non-adiabatic Effects in the Braiding of Non-Abelian Anyons in Topological Superconductors*, Phys. Rev. B **84** (2011) 104529 $[$[arXiv:1106.2549](https://arxiv.org/abs/1106.2549), [doi:10.1103/PhysRevB.84.104529](https://doi.org/10.1103/PhysRevB.84.104529)$]$
 
+On [[Levin-Wen models]]:
+
+* Liang Chang, [[Meng Cheng]], [[Shawn X. Cui]], Yuting Hu, Wei Jin, Ramis Movassagh, Pieter Naaijkens, [[Zhenghan Wang]], Amanda Young: *On Enriching the Levin-Wen model with Symmetry*, J. Phys. A: Math. Theor. **48** (2016) 12FT01  &lbrack;[arXiv:1412.6589](https://arxiv.org/abs/1412.6589)&rbrack;
+
 
 
 On [[symmetry protected topological phases]] and their [[topological orders]]:
