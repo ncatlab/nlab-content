@@ -78,6 +78,14 @@ Critical analysis:
 
 * [[Gil Kalai]], Yosef Rinott, Tomer Shoham, *Google's 2019 "Quantum Supremacy" Claims: Data, Documentation, and Discussion* &lbrack;[arXiv:2210.12753](https://arxiv.org/abs/2210.12753)&rbrack;
 
+Classical computations competing with these claims:
+
+* Zhao et al.: *Leapfrogging Sycamore: Harnessing 1432 GPUs for 7× Faster Quantum Random Circuit Sampling* &lbrack;[arXiv:2406.18889](https://arxiv.org/abs/2406.18889)&rbrack;
+
+  > "Here we report an energy-efficient classical simulation algorithm, using 1432 GPUs &lbrack;which is&rbrack; 7 times faster than *Sycamore* 53 qubits experiment."
+
+  > arXiv Comments: "This work was completed on August 2023. A further 50x improvement has been achieved and will be posted on arXiv shortly"
+
 
 {#ExperimentalReview} Review and status reports:
 
