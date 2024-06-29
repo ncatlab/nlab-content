@@ -236,3 +236,21 @@ Discussion of [[round chord diagrams]] organizing [[Dyson-Schwinger equations]]:
 Review in:
 
 * Ali Assem Mahmoud, Section 3 of: *On the Enumerative Structures in Quantum Field Theory* ([arXiv:2008.11661](https://arxiv.org/abs/2008.11661))
+
+#### Other
+
+Appearance of [[horizontal chord diagrams]] in discussion of [[neutrino]] interactions in [[supernovae]]:
+
+* Duff Neill, Hanqing Liu, Joshua Martin, Alessandro Roggero:
+*Scattering Neutrinos, Spin Models, and Permutations* \[<a href="https://arxiv.org/abs/2406.18677">arXiv:2406.18677</a>\]
+
+
+    
+
+
+
+
+
+
+
+
