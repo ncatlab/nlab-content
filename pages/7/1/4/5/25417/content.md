@@ -23,7 +23,9 @@
 
 ## Idea
 
-In [[mathematics]], the term *quantum topology* is used for the [[low-dimensional topology]] (such as [[knot theory]]) and related [[algebra]] (such as [[quantum groups]]) which is informed by [[Chern-Simons theory|Chern-Simons]] [[topological quantum field theory|topological]] [[quantum field theory]], and its various facets and generalizations.
+In [[mathematics]], the term *quantum topology* is used for the [[low-dimensional topology]] (such as [[knot theory]]) and related [[algebra]] (such as [[quantum groups]]) which is informed by [[Chern-Simons theory|Chern-Simons]] [[topological quantum field theory|topological]] [[quantum field theory]], and its various facets and generalizations. 
+
+In practice, the subject overlaps with the subject of [[quantum algebra]] (including in classifications at arXiv).
 
 ## References
 
