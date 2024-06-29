@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
+
+
 ## Idea
 
 A bialgebroid may be viewed as a multiobject generalization of a concept of a [[bialgebra]], or a possibly noncommutative generalization of a space-algebra dual version of the concept of an internal category in spaces.
@@ -78,4 +93,9 @@ J. Algebra __296__ (2006), no. 2, 348&#8211;384, [math.QA/0311316](http://arxiv.
 There is also a notion of quasibialgebroid, where the coassociativity is weakened by a [[bialgebra cocycle|bialgebroid 3-cocycle]]. See also [[Hopf algebroid]]. 
 
 [[!redirects bialgebroids]]
+
 [[!redirects associative bialgebroid]]
+[[!redirects associative bialgebroids]]
+
+
+
