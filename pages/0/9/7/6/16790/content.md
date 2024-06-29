@@ -445,22 +445,21 @@ That the near horizon geometry of [[black branes]] in [[11-dimensional supergrav
 * {#GibbonsTownsend93} [[Gary Gibbons]], [[Paul Townsend]], *Vacuum interpolation in supergravity via super p-branes*, Phys. Rev. Lett. **71** (1993) 3754-3757 &lbrack;[arXiv:hep-th/9307049](https://arxiv.org/abs/hep-th/9307049), [doi:10.1103/PhysRevLett.71.3754](https://doi.org/10.1103/PhysRevLett.71.3754)&rbrack;
 
 
+* {#DuffGibbonsTownsend94} [[Mike Duff]], [[Gary Gibbons]], [[Paul Townsend]], *Macroscopic superstrings as interpolating solitons*, Phys. Lett. B **332** (1994) 32 \[<a href="https://doi.org/10.1016/0370-2693(94)91260-2">doi:10.1016/0370-2693(94)91260-2</a>, [arXiv:hep-th/9405124](https://arxiv.org/abs/hep-th/9405124)\]
 
-* {#DuffGibbonsTownsend94} [[Mike Duff]], [[Gary Gibbons]], [[Paul Townsend]], _Macroscopic superstrings as interpolating solitons_, Phys. Lett. B. 332 (1994) 32 ([arXiv:hep-th/9405124](https://arxiv.org/abs/hep-th/9405124))
-
-* {#GibbonsHorowitzTownend95} [[Gary Gibbons]], [[Gary Horowitz]], [[Paul Townsend]], _Higher-dimensional resolution of dilatonic black hole singularities_, Class. Quant. Grav. 12 (1995) 297 ([arXiv:hep-th/9410073](https://arxiv.org/abs/hep-th/9410073))
+* {#GibbonsHorowitzTownend95} [[Gary Gibbons]], [[Gary Horowitz]], [[Paul Townsend]], _Higher-dimensional resolution of dilatonic black hole singularities_, Class. Quant. Grav. **12** (1995) 297 &lbrack;[arXiv:hep-th/9410073](https://arxiv.org/abs/hep-th/9410073)&rbrack;
 
 * [[Gary Gibbons]], *Antigravitating black hole solitons with scalar hair in $N=4$ supergravity*, Nucl. Phys. B **207** 2 (1982) 337-349 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90170-5">doi:10.1016/0550-3213(82)90170-5</a>&rbrack;
 
 * [[Renata Kallosh]], [[Amanda Peet]], *Dilaton black holes near the horizon*, Phys. Rev. B **46**, (1992) R5223(R) &lbrack;[doi:10.1103/PhysRevD.46.R5223](https://doi.org/10.1103/PhysRevD.46.R5223)&rbrack;
 
-* [[Sergio Ferrara]], [[Gary Gibbons]], [[Renata Kallosh]], Nucl. Phys. B500, (1997) 75;
+* [[Sergio Ferrara]], [[Gary Gibbons]], [[Renata Kallosh]], *Black Holes and Critical Points in Moduli Space*, Nucl. Phys. B **500** (1997) 75-93  \[<a href="https://doi.org/10.1016/S0550-3213(97)00324-6">doi:10.1016/S0550-3213(97)00324-6</a>[arXiv:hep-th/9702103](https://arxiv.org/abs/hep-th/9702103)\]
 
-The observation that the resulting [[isometry group]] is the bosonic body of one of the [[orthosymplectic super groups]] is due to
+The observation that the resulting [[isometry group]] is the [[bosonic body]] of an [[orthosymplectic super group]]:
 
 * [[Piet Claus]], [[Renata Kallosh]], J. Kumar, [[Paul Townsend]], [[Antoine Van Proeyen]], _Conformal Theory of M2, D3, M5 and D1+D5 Branes_, JHEP 9806 (1998) 004 &lbrack;[arXiv:hep-th/9801206](https://arxiv.org/abs/hep-th/9801206)&rbrack;
 
-A decent account is in 
+A decent account is in:
 
 * {#AFFHS98} [[Bobby Acharya]], [[Jose Figueroa-O'Farrill]], [[Chris Hull]], B. Spence, *Branes at conical singularities and holography*, Adv. Theor. Math. Phys. **2** (1999) 1249-1286 &lbrack;[arXiv:hep-th/9808014](https://arxiv.org/abs/hep-th/9808014), [spire:474212](https://inspirehep.net/literature/474212), [doi:10.4310/ATMP.1998.v2.n6.a2](https://dx.doi.org/10.4310/ATMP.1998.v2.n6.a2)&rbrack;
 
