@@ -443,7 +443,7 @@ The M5 was first found as a [[black brane]] of [[11-dimensional supergravity]] (
 
 That this metric, as well as that of every black $p$ brane for _odd_ $p$, is completely non-singular was observed in 
 
-* [[Gary Gibbons]], [[Gary Horowitz]], [[Paul Townsend]], p. 15 of _Higher-dimensional resolution of dilatonic black hole singularities_, Class. Quant. Grav. 12:297-318, 1995 ([arXiv:hep-th/9410073](https://arxiv.org/abs/hep-th/9410073))
+* [[Gary Gibbons]], [[Gary Horowitz]], [[Paul Townsend]], p. 15 of: *Higher-dimensional resolution of dilatonic black hole singularities*, Class. Quant. Grav. **12** (1995) 297-318 &lbrack;[arXiv:hep-th/9410073](https://arxiv.org/abs/hep-th/9410073), [doi:10.1088/0264-9381/12/2/004](https://doi.org/10.1088/0264-9381/12/2/004)&rbrack;
 
 Classification of more general M5-brane [[ADE-singularities]] is in  
 
