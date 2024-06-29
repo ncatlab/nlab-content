@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[Levin-Wen models]]:
+
+* Liang Chang, [[Meng Cheng]], [[Shawn X. Cui]], Yuting Hu, Wei Jin, Ramis Movassagh, Pieter Naaijkens, [[Zhenghan Wang]], Amanda Young: *On Enriching the Levin-Wen model with Symmetry*, J. Phys. A: Math. Theor. **48** (2016) 12FT01  &lbrack;[arXiv:1412.6589](https://arxiv.org/abs/1412.6589)&rbrack;
+
+
 On [[extended TQFT]]:
 
 * [[Shawn X. Cui]], *Higher Categories and Topological Quantum Field Theories*, Quantum Topology **10** 4 (2019) 593-676 &lbrack;[arXiv:1610.07628] (https://arxiv.org/abs/1610.07628), [doi:10.4171/QT/128](https://doi.org/10.4171/QT/128)&rbrack;
