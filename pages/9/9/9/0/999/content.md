@@ -236,7 +236,7 @@ In non-additive contexts, the above definition is not right.  For instance, with
 ### Compact objects in $Top$
  {#CompactObjectsInTop}
 
-Recall the above example of [[compact space|compact topological spaces]].  Notice that the statement which one might expect, that a [}topological space]] $X$ is [[compact space|compact]] if it is a compact object in [[Top]], is not quite right in general.
+Recall the above example of [[compact space|compact topological spaces]].  Notice that the statement which one might expect, that a [[topological space]] $X$ is [[compact space|compact]] if it is a compact object in [[Top]], is not quite right in general.
 
 A [[counterexample]] is given for instance in [Hovey (1999), page 49](#Hovey99), which itself was corrected by Don Stanley (see the [errata](http://hopf.math.purdue.edu/Hovey/model-err.pdf) of that book). See also the blog discussion 
 [here](http://golem.ph.utexas.edu/category/2009/05/journal_club_geometric_infinit_3.html#c023790).
