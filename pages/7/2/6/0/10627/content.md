@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,9 +24,12 @@ This terminology is (for the special case of [[Grassmann algebras]] at least) du
 
 ## References
 
-* {#DeWitt92} [[Bryce DeWitt]], _Supermanifolds_, 1992
+* {#DeWitt92} [[Bryce DeWitt]], *Supermanifolds*, Monographs on Mathematical Physics, Cambridge University Press (1984) &lbrack;[doi:10.1017/CBO9780511564000](https://doi.org/10.1017/CBO9780511564000)&rbrack;  
 
 
 
 [[!redirects body]]
 [[!redirects bodies]]
+
+[[!redirects bosonic body]]
+[[!redirects bosonic bodies]]
