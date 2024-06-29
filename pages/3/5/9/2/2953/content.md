@@ -31,6 +31,7 @@ Beware that, in general, there is no way of making the assignment of the injecti
 * In [[Ab]] every object has an injective hull. The embedding $\mathbb{Z} \hookrightarrow \mathbb{Q}$ is an example.
 * In the category [[Field]] of [[fields]] and algebraic field extensions, every object has an injective hull, its [[algebraic closure]].
 * In the category of metric spaces and [[short map]]s, the injective hull is a standard construction also known as the [[tight span]] (see [Wikipedia](http://en.wikipedia.org/wiki/Tight_span)).
+* Given a ring $R$, the category $R-Mod$ of left $R$-modules has an injective envelope. Moreover, every essential monomorphism whose domain is an injective $R$-module is an isomorphism. Injective envelope of $M$ is a terminal object in a subcategory of the undercategory $M/R-Mod$ consisting of essential morphisms (these terminal objects are called maximal essential extensions).
 
 ## Generalization
 
