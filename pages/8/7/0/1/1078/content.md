@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Direct sums and weak direct products
 * table of contents
 {: toc}
@@ -185,10 +186,11 @@ In the category of [[Banach spaces]] (with [[short linear maps]]), the direct su
 
 
 ## Internal direct sums
+ {#InternalDirectSum}
 
-Given an object $B$ and a [[family of subobjects]] $A_i$ of $B$ (or more generally a family of morphisms $A_i \to B$, or equivalently a map $\coprod_i A_i \to B$), suppose that the direct sum $\bigoplus_i A_i$ exists.  Suppose further that the map $\coprod_i A_i \to B$ factors through the map $\coprod_i A_i \to \bigoplus_i A_i$ (which means that it factors uniquely if $\coprod_i A_i \to \bigoplus_i A_i$ is [[epimorphism|epic]], as it must be in a regular category).  Finally, suppose that the (or a) quotient map $\bigoplus_i A_i \to B$ is [[isomorphism|isic]].  Then we say that $B$ is the __internal direct sum__ of the $A_i$.
+Given an object $B$ and a [[family]] of [[subobjects]] $A_i$ of $B$ (or more generally a family of morphisms $A_i \to B$, or equivalently a map $\coprod_i A_i \to B$), suppose that the direct sum $\bigoplus_i A_i$ exists.  Suppose further that the map $\coprod_i A_i \to B$ factors through the map $\coprod_i A_i \to \bigoplus_i A_i$ (which means that it factors uniquely if $\coprod_i A_i \to \bigoplus_i A_i$ is an [[epimorphism]], as it must be in a [[regular category]]).  Finally, suppose that the (or a) [[quotient map]] $\bigoplus_i A_i \to B$ is an [[isomorphism]].  Then we say that $B$ is the __[[internal direct sum]]__ of the $A_i$.
 
-In contrast, the abstractly defined direct sum $\bigoplus_i A_i$ may be called an __external direct sum__.  These terms are usually used with [[concrete categories]] where the $A_i$ may either be given independently (for an external direct sum) or as subsets of some ambient space (either $B$ or something of which $B$ is a subset) for an internal direct sum.  In too abstract a context, there is no difference: on the one hand, any internal direct sum is a fortiori isomorphic to any external direct sum; on the other hand, given an external direct sum, there is a natural map $\coprod_i A_i \to \bigoplus_i A_i$, relative to which the external direct sum is an internal direct sum.
+In contrast, the abstractly defined direct sum $\bigoplus_i A_i$ may be called an __external direct sum__.  These terms are usually used with [[concrete categories]] where the $A_i$ may either be given independently (for an external direct sum) or as [[subsets]] of some ambient space (either $B$ or something of which $B$ is a subset) for an internal direct sum.  In too abstract a context, there is no difference: on the one hand, any internal direct sum is a fortiori isomorphic to any external direct sum; on the other hand, given an external direct sum, there is a natural map $\coprod_i A_i \to \bigoplus_i A_i$, relative to which the external direct sum is an internal direct sum.
 
 
 ## Related concepts
@@ -209,7 +211,6 @@ In contrast, the abstractly defined direct sum $\bigoplus_i A_i$ may be called a
 [[!redirects direct summand]]
 [[!redirects direct summands]]
 
-[[!redirects internal direct sum]]
 [[!redirects external direct sum]]
 
 [[!redirects weak direct product]]
