@@ -1,10 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
+
+
 ## Idea
 
-Quantum nilpotent algebras are a class of [[associative algebra]]s which are defined as iterated [[Ore extension]]s of a special type.
+Quantum nilpotent algebras are a class of [[associative algebras]] which are defined as iterated [[Ore extensions]] of a special type.
 
 ## Definition
 
-Let $K$ be a ground ring. An iterated Ore extension
+Let $K$ be a [[ground ring]]. An iterated [[Ore extension]]
 $$
 K[x_1][x_2;\sigma_2,\delta_2][x_3;\sigma_3,\delta_3]\cdots
 [x_n;\sigma_n,\delta_n]
