@@ -54,6 +54,11 @@ On [[number theory|number theoretic]] aspects of [[modular tensor categories]]:
 
 * {#DavidovichHaggeWang2013} [[Orit Davidovich]], [[Tobias Hagge]], [[Zhenghan Wang]], _On Arithmetic Modular Categories_, arXiv preprit, 2013 &lbrack;[arXiv:1305.2229](https://arxiv.org/abs/1305.2229)&rbrack;
 
+On [[Levin-Wen models]]:
+
+* Liang Chang, [[Meng Cheng]], [[Shawn X. Cui]], Yuting Hu, Wei Jin, Ramis Movassagh, Pieter Naaijkens, [[Zhenghan Wang]], Amanda Young: *On Enriching the Levin-Wen model with Symmetry*, J. Phys. A: Math. Theor. **48** (2016) 12FT01  &lbrack;[arXiv:1412.6589](https://arxiv.org/abs/1412.6589)&rbrack;
+
+
 On [[braid group representations]] (specifically the [[Burau representation]] and its relation to the [[Alexander polynomial]]) and their application to [[topological quantum computation]]:
 
 * [[Colleen Delaney]], [[Eric C. Rowell]], [[Zhenghan Wang]], *Local unitary representations of the braid group and their applications to quantum computing*, Revista Colombiana de Matemáticas(2017), 50 (2):211 ([arXiv:1604.06429](https://arxiv.org/abs/1604.06429), [doi:10.15446/recolma.v50n2.62211](http://dx.doi.org/10.15446/recolma.v50n2.62211))
