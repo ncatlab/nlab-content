@@ -85,7 +85,7 @@ In particular, an [[involutive Hopf algebra]] (Def. \ref{InvolutiveHopfAlgebra})
 
 +-- {: .proof}
 ###### Proof (algebra part)
-In Sweedler notation, for any $g,h\in A$, 
+In [[Sweedler notation]], for any $g,h\in A$, 
 
 $$S((h g)_{(1)}) (h g)_{(2)} = \epsilon(h g)$$ 
 
