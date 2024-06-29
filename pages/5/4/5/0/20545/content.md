@@ -128,17 +128,17 @@ On [[D=6 N=(1,0) SCFTs]] via [[geometric engineering of QFT|geometric engineerin
 
 * {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_, JHEP05 (2019)203 ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
-* Ibrahima Bah, Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
+* [[Ibrahima Bah]], Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017) 050 &lbrack;[arXiv:1704.07389](https://arxiv.org/abs/1704.07389)&rbrack;
 
 ### KK-Compactification to $D=4$ $\mathcal{N} = 1$ SYM
 
 The [[KK-compactification]] specifically of the [[D=6 N=(1,0) SCFT]] to [[D=4 N=1 super Yang-Mills]]:
 
-* Ibrahima Bah, Christopher Beem, Nikolay Bobev, Brian Wecht, _Four-Dimensional SCFTs from M5-Branes_ ([arXiv:1203.0303](http://arxiv.org/abs/1203.0303))
+* [[Ibrahima Bah]], [[Christopher Beem]], Nikolay Bobev, Brian Wecht, _Four-Dimensional SCFTs from M5-Branes_ &lbrack;[arXiv:1203.0303](http://arxiv.org/abs/1203.0303)&rbrack;
 
 * Shlomo S. Razamat, [[Cumrun Vafa]], Gabi Zafrir, _$4d$ $\mathcal{N} = 1$ from $6d (1,0)$_, J. High Energ. Phys. (2017) 2017: 64 ([arXiv:1610.09178](https://arxiv.org/abs/1610.09178))
 
-* Ibrahima Bah, [[Amihay Hanany]], Kazunobu Maruyoshi, Shlomo S. Razamat, Yuji Tachikawa, Gabi Zafrir, _$4d$ $\mathcal{N}=1$ from $6d$ $\mathcal{N}=(1,0)$ on a torus with fluxes_ ([arXiv:1702.04740](https://arxiv.org/abs/1702.04740))
+* [[Ibrahima Bah]], [[Amihay Hanany]], Kazunobu Maruyoshi, Shlomo S. Razamat, [[Yuji Tachikawa]], Gabi Zafrir, _$4d$ $\mathcal{N}=1$ from $6d$ $\mathcal{N}=(1,0)$ on a torus with fluxes_ &lbrack;[arXiv:1702.04740](https://arxiv.org/abs/1702.04740)&rbrack;
 
 * Hee-Cheol Kim, Shlomo S. Razamat, [[Cumrun Vafa]], Gabi Zafrir, _E-String Theory on Riemann Surfaces_, Fortsch. Phys. ([arXiv:1709.02496](https://arxiv.org/abs/1709.02496))
 
