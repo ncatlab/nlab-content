@@ -275,7 +275,7 @@ $$ (x/y) y = x $$
 Given a group $G$ together with a $G$-torsor $X$, we can make $X$ into a heap by giving it the ternary operation
 
 $$ \begin{array}{ccl}
-X \times X \times X &\to& G \\
+X \times X \times X &\to& X \\
 (x, y, z) &\mapsto& (x/y) z
 \end{array}
 $$
