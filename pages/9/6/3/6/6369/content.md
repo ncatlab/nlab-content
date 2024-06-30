@@ -76,7 +76,7 @@ The main direction in algebraic number theory is the [[class field theory]] whic
 
 * [[Albrecht Fröhlich]], Martin J. Taylor, _Algebraic number theory_, Cambridge Studies in Advanced Mathematics **27** (1993)
 
-* [[Serge Lang]], _Algebraic number theory_, Graduate Texts in Mathematics **110**, Springer (1994) &lbrack;[doi:10.1007/978-1-4612-0853-2](https://doi.org/10.1007/978-1-4612-0853-2)&rbrack;
+* [[Serge Lang]], _Algebraic number theory_, Graduate Texts in Mathematics **110**, Springer (1970, 1986, 1994, 2000) &lbrack;[doi:10.1007/978-1-4612-0853-2](https://doi.org/10.1007/978-1-4612-0853-2)&rbrack;
 
 * [[James Milne]], *Algebraic number theory* (2020) &lbrack;[pdf](https://www.jmilne.org/math/CourseNotes/ANT.pdf)&rbrack;
 
