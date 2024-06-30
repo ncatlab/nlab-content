@@ -20,7 +20,10 @@
 
 ## Idea
 
-_D=2 [[Yang-Mills theory]]_ (D=2 YM theory) studies the [[Yang-Mills equations]] over a base [[manifold]] with [[dimension]] $D=2$. This special case allows the definition of the _Yang-Mills measure_.
+*D=2 [[Yang-Mills theory]]* (D=2 YM theory) studies the [[Yang-Mills equations]] over a base [[manifold]] with [[dimension]] $D=2$. This special case allows the definition of the _Yang-Mills measure_.
+
+As with ordinary 4d [[Yang-Mills theory]] being the basis of [[quantum chromodynamics]] (QCD), so coupling suitable [[fermion]] [[field (physics)|physics]] ("[[quarks]]") to $D=2$ Yang-Mills theory leads to the "'t Hooft model" also called *[[D=2 QCD]]*.
+
 
 ## Basics
 
@@ -77,10 +80,14 @@ Given an $m\in\mathbb{Z}$, the corresponding [[principal bundle]] is given by [[
 ## Related concepts
 
 * [[D=2 QCD]]
+
 * [[D=4 Yang-Mills theory]]
+
 * [[D=5 Yang-Mills theory]]
 
 ## References
+
+> See also the references at *[[D=2 QCD]]*.
 
 The original reference:
 
@@ -88,57 +95,62 @@ The original reference:
 
 Further developments:
 
-* Ninoslav E. Bralić, _Exact computation of loop averages in two-dimensional Yang-Mills theory_, Phys. Rev. D 22:12 (1980), 3090–3103.  [doi:10.1103/PhysRevD.22.3090](https://doi.org/10.1103/PhysRevD.22.3090).
+* Ninoslav E. Bralić, _Exact computation of loop averages in two-dimensional Yang-Mills theory_, Phys. Rev. D **22** 12 (1980) 3090–3103 &lbrack;[doi:10.1103/PhysRevD.22.3090](https://doi.org/10.1103/PhysRevD.22.3090)&rbrack;
 
-* V. A. Kazakov, I. K. Kostov, _Non-linear strings in two-dimensional U(∞) gauge theory_, Nuclear Physics B 176:1 (1980), 199–215.  [doi][1]
+* V. A. Kazakov, I. K. Kostov, _Non-linear strings in two-dimensional U(∞) gauge theory_, Nuclear Physics B **176** 1 (1980) 199–215 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90072-3">doi:10.1016/0550-3213(80)90072-3</a>&rbrack;
 
-[1]: https://doi.org/10.1016/0550-3213(80)90072-3
+* Leonard Gross, Christopher King, Ambar Sengupta, _Two dimensional Yang-Mills theory via stochastic differential equations_, Annals of Physics 194:1 (1989) 65–112 &lbrack;<a href="https://doi.org/10.1016/0003-4916(89)90032-8">doi:10.1016/0003-4916(89)90032-8</a>&rbrack;
 
-* Leonard Gross, Christopher King, Ambar Sengupta, _Two dimensional Yang-Mills theory via stochastic differential equations_, Annals of Physics 194:1 (1989), 65–112.  [doi][1]
+* B. Ye. Rusakov, _Loop averages and partition functions in $U(N)$ gauge theory on two-dimensional manifolds_, Modern Physics Letters A **5** 9 (1990) 693–703 &lbrack;[doi:10.1142/S0217732390000780](https://doi.org/10.1142/S0217732390000780)&rbrack;
 
-[1]: https://doi.org/10.1016/0003-4916(89)90032-8
+* Dana S. Fine, _Quantum Yang-Mills on the two-sphere_, Communications in Mathematical Physics **134** (1990) 273–292  &lbrack;[doi:10.1007/BF02097703](https://doi.org/10.1007/BF02097703)&rbrack;
 
-* B. Ye. Rusakov, _LOOP AVERAGES AND PARTITION FUNCTIONS IN U(N) GAUGE THEORY ON TWO-DIMENSIONAL MANIFOLDS_, Modern Physics Letters A 5:9 (1990), 693–703.  [doi](https://doi.org/10.1142/S0217732390000780).
-
-* Dana S. Fine, _Quantum Yang-Mills on the two-sphere_, Communications in Mathematical Physics 134 (1990), 273–292.  [doi](https://doi.org/10.1007/BF02097703).
-
-* Dana S. Fine, _Quantum Yang-Mills on a Riemann surface_, Communications in Mathematical Physics 140 (1991), 321–338.  [doi](https://doi.org/10.1007/BF02099502).
+* Dana S. Fine, _Quantum Yang-Mills on a Riemann surface_, Communications in Mathematical Physics **140** (1991) 321–338.  &lbrack;[doi:10.1007/BF02099502](https://doi.org/10.1007/BF02099502)&rbrack;
 
 * Ambar Sengupta, _The Yang-Mills measure for $S^2$_, Journal of Functional Analysis **108**  2 (1992) 231–273 &lbrack;<a href="https://doi.org/10.1016/0022-1236(92)90025-E">doi;10.1016/0022-1236(92)90025-E</a>&rbrack;
 
-* Ambar Sengupta, _Quantum Gauge Theory on Compact Surfaces_, Annals of Physics 221:1 (1993), 17–52.  [doi](https://doi.org/10.1006/aphy.1993.1002)
+* Ambar Sengupta, _Quantum Gauge Theory on Compact Surfaces_, Annals of Physics **221** 1 (1993) 17–52 &lbrack;[doi:10.1006/aphy.1993.1002](https://doi.org/10.1006/aphy.1993.1002)&rbrack;
 
 * [[Matthias Blau]], [[George Thompson]], *Quantum Yang-Mills theory on arbitrary surfaces*, International Journal of Modern Physics A **7** 16 (1992) 3781–3806 &lbrack;[doi:10.1142/S0217751X9200168X](https://doi.org/10.1142/S0217751X9200168X)&rbrack;
 
-* [[Edward Witten]]. On quantum gauge theories in two dimensions. *Commun.Math. Phys*. 141, 153–209 (1991). ([doi](https://doi.org/10.1007/BF02100009)).
+* [[Edward Witten]]. On quantum gauge theories in two dimensions, *Commun.Math. Phys*. **141** (1991) 153–209 &lbrack;[doi:10.1007/BF02100009](https://doi.org/10.1007/BF02100009)&rbrack;
 
-* [[Edward Witten]], _Two-dimensional gauge theories revisited_, Journal of Geometry and Physics 9:4 (1992), 303–368.  [arXiv:hep-th/9204083](https://arxiv.org/abs/hep-th/9204083). [doi:10.1016/0393-0440(92)90034-X](https://doi.org/10.1016/0393-0440(92)90034-X).
+* [[Edward Witten]], _Two-dimensional gauge theories revisited_, Journal of Geometry and Physics **9** 4 (1992) 303–368 &lbrack;[arXiv:hep-th/9204083](https://arxiv.org/abs/hep-th/9204083), [doi:10.1016/0393-0440(92)90034-X](https://doi.org/10.1016/0393-0440(92)90034-X)&rbrack;
 
-* Stefan Cordes, [[Gregory Moore]], [[Sanjaye Ramgoolam]]. *Lectures on 2D Yang-Mills Theory, Equivariant Cohomology and Topological Field Theories* (1994). ([hep-th/9411210](https://arxiv.org/abs/hep-th/9411210)).
+* Stefan Cordes, [[Gregory Moore]], [[Sanjaye Ramgoolam]]. *Lectures on 2D Yang-Mills Theory, Equivariant Cohomology and Topological Field Theories* (1994) &lbrack;[hep-th/9411210](https://arxiv.org/abs/hep-th/9411210)&rbrack;
 
-On its relation to [[string theory]], the "Gross-Taylor model":
+On [[D=2 QCD]] 
 
-* [[David Gross]]. *Two Dimensional QCD as a String Theory* (1992). ([hep-th/9212149](https://arxiv.org/abs/hep-th/9212149)).
+* {#tHooft74} [[Gerard ’t Hooft]], *A Two-Dimensional Model For Mesons*, Nucl. Phys. B **75** (1974) 461-470 &lbrack;<a href="https://doi.org/10.1016/0550-3213(74)90088-1">doi:10.1016/0550-3213(74)90088-1</a>&rbrack;
 
-* [[David Gross]], [[Washington Taylor]], “Two-dimensional QCD is a string theory,” Nucl. Phys. B400 (1993). ([hep-th/9301068](https://arxiv.org/abs/hep-th/9301068)).
+* [[Michael Douglas]], Keke Li, [[Matthias Staudacher]], *Generalized Two-Dimensional QCD*, Nucl.Phys. B **420** (1994) 118-140 &lbrack;[arXiv:hep-th/9401062](https://arxiv.org/abs/hep-th/9401062), <a href="https://doi.org/10.1016/0550-3213(94)90377-8">doi:10.1016/0550-3213(94)90377-8</a>&rbrack;
 
-* [[David Gross]], [[Washington Taylor]], “Twists and Wilson loops in the string theory of two-dimensional QCD,” Nucl. Phys. B 403 (1993) 395-452. ([hep-th/9303046](https://arxiv.org/abs/hep-th/9303046)).
+* [[Emanuel Katz]], Gustavo Marques Tavares, Yiming Xu, _A solution of 2D QCD at Finite $N$ using a conformal basis_ &lbrack;[arxiv:1405.6727](https://arxiv.org/abs/1405.6727)&rbrack;
 
-and the [[Petr Hořava|Hořava model]]
 
-* [[Petr Hořava]]. *Topological Strings and QCD in Two Dimensions* (1993). ([hep-th/9311156](https://arxiv.org/abs/hep-th/9311156)).
+and its relation to [[string theory]], the "Gross-Taylor model":
 
-* [[Petr Hořava]]. *Topological Rigid String Theory and Two Dimensional QCD* (1995). ([hep-th/9507060](https://arxiv.org/abs/hep-th/9507060)).
+* [[David Gross]]. *Two Dimensional QCD as a String Theory*, Nuclear Physics B **400** 1–3 (1993) 161-180 &lbrack;[hep-th/9212149](https://arxiv.org/abs/hep-th/9212149), <a href="https://doi.org/10.1016/0550-3213(93)90402-B">doi:10.1016/0550-3213(93)90402-B</a>&rbrack;
+
+* [[David Gross]], [[Washington Taylor]], *Two Dimensional QCD is a String Theory*, Nucl. Phys. B **400** (1993) 181-210 &lbrack;[arxiv:hep-th/9301068](https://arxiv.org/abs/hep-th/9301068), <a href="https://doi.org/10.1016/0550-3213(93)90403-C">doi:10.1016/0550-3213(93)90403-C</a>&rbrack;
+
+* [[David Gross]], [[Washington Taylor]], *Twists and Wilson loops in the string theory of two-dimensional QCD*, Nucl. Phys. B **403** (1993) 395-452 &lbrack;[hep-th/9303046](https://arxiv.org/abs/hep-th/9303046), <a href="https://doi.org/10.1016/0550-3213(93)90042-N">doi:10.1016/0550-3213(93)90042-N</a>&rbrack;
+
+and the [[Petr Hořava|Hořava model]]:
+
+* [[Petr Hořava]], *Topological Strings and QCD in Two Dimensions* (1993) &lbrack;[hep-th/9311156](https://arxiv.org/abs/hep-th/9311156), [spire](https://inspirehep.net/literature/360453)&rbrack;
+
+* [[Petr Hořava]]. *Topological Rigid String Theory and Two Dimensional QCD*, Nucl.Phys. B **463** (1996) 238-286 &lbrack;[hep-th/9507060](https://arxiv.org/abs/hep-th/9507060), <a href="https://doi.org/10.1016/0550-3213(96)00036-3">doi:10.1016/0550-3213(96)00036-3</a> &rbrack;
 
 In the context of [[generalized global symmetry|generalized global symmetries]]:
 
-* Mendel Nguyen, Yuya Tanizaki, Mithat Ünsal. *Non-invertible 1-form symmetry and Casimir scaling in 2d Yang-Mills theory* (2021). ([arXiv:2104.01824](https://arxiv.org/abs/2104.01824)).
+* Mendel Nguyen, Yuya Tanizaki, Mithat Ünsal. *Non-invertible 1-form symmetry and Casimir scaling in 2d Yang-Mills theory* (2021) &lbrack;[arXiv:2104.01824](https://arxiv.org/abs/2104.01824)&rbrack;
 
-* [[Tony Pantev]], [[Eric Sharpe]]. *Decomposition and the Gross-Taylor string theory* (2023). ([arXiv:2307.08729](https://arxiv.org/abs/2307.08729)).
+* [[Tony Pantev]], [[Eric Sharpe]]. *Decomposition and the Gross-Taylor string theory* (2023) &lbrack;[arXiv:2307.08729](https://arxiv.org/abs/2307.08729)&rbrack;
 
-In the more general context of volume-dependent theories see:
+In the more general context of volume-dependent theories:
 
-* Richard Wedeen. *Volume-Dependent Field Theories* (2024). ([arXiv:2402.06691](https://arxiv.org/abs/2402.06691)).
+* Richard Wedeen. *Volume-Dependent Field Theories* (2024). &lbrack;[arXiv:2402.06691](https://arxiv.org/abs/2402.06691)&rbrack;
 
 
 
