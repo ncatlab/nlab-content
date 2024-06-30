@@ -69,18 +69,21 @@ Notice that the double quotients appearing here are by the [[Weil uniformization
 
 ## References
 
-* [[Serge Lang]], _Algebraic number theory_, GTM 110, Springer 1970, 1986, 1994, 2000
+* [[Serge Lang]], _Algebraic number theory_, Graduate Texts in Mathematics **110**, Springer (1970, 1986, 1994, 2000) &lbrack;[doi:10.1007/978-1-4612-0853-2](https://doi.org/10.1007/978-1-4612-0853-2)&rbrack;
 
-* {#NSW08}[[Jurgen Neukirch, Alexander Schmidt, Kay Wingberg]], Cohomology of Number Fields 2nd Addition, Springer 2008
+* {#NSW08} Jürgen Neukirch, Alexander Schmidt, Kay Wingberg: *Cohomology of Number Fields*, 2nd Addition, Springer (2008) &lbrack;[doi:10.1007/978-3-540-37889-1](https://doi.org/10.1007/978-3-540-37889-1)&rbrack;
 
 * {#Snyder02} [[Noah Snyder]], section 2.3 of _Artin L-Functions: A Historical Approach_, 2002 ([pdf](https://web.archive.org/web/20120204005924/http://www.math.columbia.edu/~nsnyder/thesismain.pdf))
 
-* Wikipedia: en:[Artin reciprocity law](http://en.wikipedia.org/wiki/Artin_reciprocity_law), de:[Artinsches_Reziprozitaetsgesetz](http://de.wikipedia.org/wiki/Artinsches_Reziprozit%C3%A4tsgesetz)
+* Wikipedia: *[Artin reciprocity law](http://en.wikipedia.org/wiki/Artin_reciprocity_law)*, 
 
-A discussion with an eye towards [[geometric class field theory]] is in 
+* Wikipedia, *[Artinsches_Reziprozitaetsgesetz](http://de.wikipedia.org/wiki/Artinsches_Reziprozit%C3%A4tsgesetz)*
+
+A discussion with an eye towards [[geometric class field theory]]:
 
 * {#Toth11} Peter Toth, _Geometric abelian class field theory_, 2011 ([web](http://dspace.library.uu.nl/handle/1874/206061))
 
 [[!redirects Artin's reciprocity law]]
 
 [[!redirects Artin reciprocity]]
+
