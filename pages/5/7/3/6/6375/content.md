@@ -42,7 +42,7 @@ $$
 
 For $K = \mathbb{Q}$ this is also the statement of the [[Kronecker-Weber theorem]], and together this is a starting point of the [[Langlands correspondence]] [[conjecture]], see there for more.
 
-For $K$ a [[function field]] the map is no longer surjective, but yields on the quotient by the [[restricted product]]  $\prod_v \mathcal{O}_v^\times$ an injection with dense image
+For $K$ a [[function field]] the map is no longer surjective, and is instead a injection with dense image
 
 $$
   K^\times \backslash \mathbb{I}_K / \prod_v \mathcal{O}_v^\times
@@ -50,6 +50,8 @@ $$
   Gal(K^{ab}/K)
   \,.
 $$
+
+moreover, the cokernel is isomorphic to $\hat{\mathbb{Z}}/\mathbb{Z}$ ([See Cohomology of Number Fields, p. 443](#NSW08))
 
 ([e.g. Toth 11, p. 3](#Toth11))
 
@@ -68,6 +70,8 @@ Notice that the double quotients appearing here are by the [[Weil uniformization
 ## References
 
 * [[Serge Lang]], _Algebraic number theory_, GTM 110, Springer 1970, 1986, 1994, 2000
+
+* {#NSW08}[[Jurgen Neukirch, Alexander Schmidt, Kay Wingberg]], Cohomology of Number Fields 2nd Addition, Springer 2008
 
 * {#Snyder02} [[Noah Snyder]], section 2.3 of _Artin L-Functions: A Historical Approach_, 2002 ([pdf](https://web.archive.org/web/20120204005924/http://www.math.columbia.edu/~nsnyder/thesismain.pdf))
 
