@@ -71,7 +71,7 @@ Notice that the double quotients appearing here are by the [[Weil uniformization
 
 * [[Serge Lang]], _Algebraic number theory_, Graduate Texts in Mathematics **110**, Springer (1970, 1986, 1994, 2000) &lbrack;[doi:10.1007/978-1-4612-0853-2](https://doi.org/10.1007/978-1-4612-0853-2)&rbrack;
 
-* {#NSW08} Jürgen Neukirch, Alexander Schmidt, Kay Wingberg: *Cohomology of Number Fields*, 2nd Addition, Springer (2008) &lbrack;[doi:10.1007/978-3-540-37889-1](https://doi.org/10.1007/978-3-540-37889-1)&rbrack;
+* {#NSW08} Jürgen Neukirch, Alexander Schmidt, Kay Wingberg: *Cohomology of Number Fields*, 2nd edition, Springer (2008) &lbrack;[doi:10.1007/978-3-540-37889-1](https://doi.org/10.1007/978-3-540-37889-1)&rbrack;
 
 * {#Snyder02} [[Noah Snyder]], section 2.3 of _Artin L-Functions: A Historical Approach_, 2002 ([pdf](https://web.archive.org/web/20120204005924/http://www.math.columbia.edu/~nsnyder/thesismain.pdf))
 
