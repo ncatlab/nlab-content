@@ -27,7 +27,7 @@
 <img src="https://ncatlab.org/nlab/files/SomePrimes.jpg" width="60"/>
 </div>
 
-A _prime number_ is a nonzero [[natural number]] that cannot be written as a [[multiplication|product]] of finitely many natural numbers (all) other than itself, hence a natural number greater than 1 that is [[division|divisible]] only by 1 and itself.
+A _prime number_ is a [[natural number]] greater than 1 that cannot be written as a [[multiplication|product]] of finitely many natural numbers (all) other than itself, hence a natural number greater than 1 that is [[division|divisible]] only by 1 and itself.
 
 Equivalently, a _prime number_ is a [[natural number]] $A$ such that $A$ is not equal to 1, and for all natural numbers $B$ and $C$, $A = B \cdot C$ implies that either $B$ is equal to 1 or $C$ is equal to 1. 
 
