@@ -180,53 +180,9 @@ modulo the relations
 \end{equation}
  so that the sole necessary axiom of a superconvex space is satisfied. 
 
-One important aspect of the free space adjunction is that it implies
 
-*Lemma* Let $X$ be an arbitrary set and $\mathcal{F}X$ the free superconvex space on $X$.  Let the quotient map $\widehat{q}: \mathcal{F}{X} \rightarrow A$ be the coequalizer of  the parallel pair $\mathbf{1}_{\mathcal{F}{X}}, k: \mathcal{F}{X} \rightarrow \mathcal{F}{X}$.     Then the quotient of the free space is the free space of the quotient, $\mathcal{F}X / \widehat{q} \cong \mathcal{F}(X/q)$
-
-\begin{centre} 
-\begin{tikzpicture}
-    \node  (X)   at   (0,0)   {$X$};
-    \node  (Xq)  at  (0, -1.5)  {$X/q$};
-    \node  (UFX) at  (3,0)    {$\mathcal{U}(\mathcal{F}(X))$};
-    \node  (UA)  at  (3, -1.5)  {$\mathcal{U}(A)$};
-    \node  (c)   at  (.5, -2.5)   {in $\mathbf{Set}$};
-    \draw[->, above] (X) to node {$\eta_X$} (UFX);
-    \draw[->>,left] (X) to node [xshift=-3pt,yshift=-3pt]{$q$} (UA);
-    \draw[->>,right] (UFX) to node {$\mathcal{U}(\widehat{q})$} (UA);
-    
-    \node  (FX)  at  (5.5,0)  {$\mathcal{F}{X}$};
-    \node  (A)    at  (5.5, -1.5)  {$A \cong \mathcal{F}{X}/\widehat{q}$};
-    \node   (d)   at   (5.5, -2.5)  {in $\mathbf{SCvx}$};
-    \draw[->>,right] (FX) to node {$\widehat{q}$} (A);
-    
-    \draw[->>,left,dashed] (X) to node {$\pi$} (Xq);
-    \draw[>->>,below,dashed] (Xq) to node {$\widetilde{q}$} (UA);
-    
-\end{tikzpicture}
-\end{centre}
-*Proof*
-The quotient map $\widehat{q}:\mathcal{F}X \rightarrow A$  is, up to isomorphism, just $\widehat{q}:\mathcal{F}X \rightarrow \mathcal{F}X/\widehat{q}$.  Because the quotient map is countably affine it  is completely specified by where it sends the elements $1 x \in \mathcal{F}X$.  Because $q(x) = \widehat{q}(\eta_X(x)) = \widehat{q}(1x) = [1 x]_{\widehat{q}}=[k (1 x)]_{\widehat{q}}$ we have
-\begin{equation}
-\hat{q}(\sum_{i \in \mathbb{N}} p_i x_i)=\sum_{i \in \mathbb{N}} p_i 
- [1 x_i]_{\hat{q}} = \sum_{i \in \mathbb{N}} p_i q(x_i).  
-\end{equation}
-The function $q$ specifies an equivalence relation on $X$, yielding the set $X/q$. Because $q$ is surjective we can thus endow the set $X/q$ with the superconvex space structure of $A$ using the bijective map of sets $\widetilde{q}: X/q \rightarrow \mathcal{U}(A)$.  Hence the above equation extends (trivially) on the right  by  $\sum_{i \in \mathbb{N}} p_i q(x_i) = \sum_{i \in \mathbb{N}} p_i \, \widetilde{q}([x_i]_q) =  \widetilde{q}(\sum_{i \in \mathbb{N}} p_i [x_i]_q )$.  
-The map $\mathcal{F}X / \hat{q} \rightarrow \mathcal{F}( \mathcal{U}(A))$ specified by $\sum_{i \in \mathbb{N}}p_i [1 x_i]_{\widehat{q}} \mapsto \sum_{i \in \mathbb{N}}p_i \widetilde{q}( [x_i]_q )$ specifies  a $\mathbf{SCvx}$-isomorphism.  By the isomorphism $\widetilde{q}$ we can write this as $\mathcal{F}{X}/\widehat{q} \cong \mathcal{F}(X/q)$.  That completes the proof.
-    
- Now let $X$ denote a standard measurable space, so $\mathcal{G}{X}$ is standard also. Forgetting the measurable structure on $\mathcal{G}{X}$ we can take the free space of that set, $\mathcal{F}( \mathcal{U}( \mathcal{G}{X}))$ which consist of all countable affine sums $\int_{\mathbb{N}} \mathbf{P} \, d\mathbf{p}$ for all $\mathbf{P} \in \mathbf{Set}(\mathbb{N}, \mathcal{U}(\mathcal{G}{X}))$ and all $\mathbf{p} \in \mathcal{G}{\mathbb{N}}$.  These countable affine sums are  defined pointwise $(\int_{\mathbb{N}} \mathbf{P} \, d\mathbf{p})U := \sum_{i \in \mathbb{N}} p_i P_i(U)$ for all $U \in \Sigma_X$. 
-  
- We observe that the free space $\mathcal{F}(\mathcal{U}(\mathcal{G}{X}))$ can also be viewed as the image of the functor $\mathcal{P}: \mathbf{Meas} \rightarrow \mathbf{SCvx}$ on $X$, where $\mathcal{P}$  is the Giry monad (functor) viewed as a functor into $\mathbf{SCvx}$.  
-
- We would like to extend the free space adjunction $\mathcal{F} \dashv \mathcal{U}$ with an adjunction $\mathcal{P}: \mathbf{Std} \leftrightarrows \mathbf{SCvx}: \mathbf{\Sigma}$
-such that the composite is the Giry monad on $\mathbf{Std}$. The category $\mathbf{SCvx}_{\star}$ denotes some subcategory of $\mathbf{SCvx}$ so that the adjunction can be constructed.  If such an adjunction exists the counit of the adjunction says every space $A$  is the quotient of a free space, i.e., $A$ is the coequalizer of a parallel pair of maps into a free space.    To illustrate this consider the following elementary example.
- 
- The coequalizer of the pair of points $\frac{1}{3}: \mathbf{1} \rightarrow [0,1]$ and $\frac{2}{3}: \mathbf{1} \rightarrow [0,1]$, where $[0,1] \cong \mathbf{P}{\mathbf{2}}$, is the discrete superconvex space  $A=\{0,u,1\}$ with the structure defined by $p u + (1-p) 0 = u$ for all $p \in (0,1]$, $p u + (1-p) 1 = u$ for all $p \in (0,1]$, and $p 0 + (1-p) 1 = u$ for all $p \in (0,1)$.  
-
-If the functor $\mathbf{\Sigma}: \mathbf{SCvx}_{\star} \rightarrow \mathbf{Std}$ exists then it follows that that superconvex space arises as a quotient space of $\mathcal{P}{\mathbf{2}}$, and hence should have the barycenter map $\epsilon_A: \mathcal{P}{\mathbf{2}} \rightarrow A$ given by
-the mapping $\delta_0 \mapsto 0$, $\delta_1 \mapsto 1$, and $r \delta_0 + (1-r) \delta_1 \mapsto u$ for all $r \in (0,1)$.  More specifically, we need to show the pair $(\epsilon_A, \mathbf{2})$ specifies a universal arrow from the functor $\mathcal{P}$ to the object $A$.  The proof that this is indeed a universal arrow from $\mathcal{P}$ to the object $A$ makes use of ideals, i.e., if $X$ is any measurable space and $f: \mathcal{P}X \rightarrow A$ is a countably affine map then $f^{-1}(\{u\})$ is an ideal in $\mathcal{P}X$. (See the above example concerning ideals in $\mathcal{P}X$.)
-
-
+Since the notion of "superconvex spaces" generalizes the idea of *[[convex spaces]]* by replacing [[finite set|finite]] affine [[sums]] with [[countable set|countable]] affine sums, we note that the free space construction generalizes the *Distribution monad* on the category of sets, for which the category of algebras is the category of *convex spaces*.  In short, the distribution monad $D$ on a set $X$ consists of all affine sums of elements of $X$, and if $f:X \rightarrow Y$ is a function then $D(f)$ is the ''pushforward probability measure'' (which coincides with the affine map on an affine sum).  By replacing (finite) affine sums with countable affine sums we obtain the monad $\hat{D}$ on $\mathbf{Set}$ defined by $\hat{D}(X)$ consisting of all countable affine sums of elements of $X$,  and for the function $f:X \rightarrow Y$ we have once again the pushforward map, which is in fact a countably affine map.  Now a quick glance at the proof that the category of algebras for the *Distribution monad* is the category of convex spaces, quickly shows that upon replacing the term finite sums with 
+the term countable affine sums yields the result that the category of algebras for the monad obtained from the adjunction given by the free space construction defined above is the category of superconvex spaces.
 \end{example} 
 
 
