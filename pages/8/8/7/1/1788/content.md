@@ -1,13 +1,15 @@
+[ref](#abc)
 
-* V. A. Kazakov, I. K. Kostov, _Non-linear strings in two-dimensional U(∞) gauge theory_, Nuclear Physics B 176:1 (1980), 199–215.  [doi][1]
 
-[1]: https://doi.org/10.1016/0550-3213(80)90072-3
+* V. A. Kazakov, I. K. Kostov, _Non-linear strings in two-dimensional U(∞) gauge theory_, Nuclear Physics B 176:1 (1980), 199–215.  [doi][ghi]
 
-* Leonard Gross, Christopher King, Ambar Sengupta, _Two dimensional Yang-Mills theory via stochastic differential equations_, Annals of Physics 194:1 (1989), 65–112.  [doi][1]
+[ghi]: https://doi.org/10.1016/0550-3213(80)90072-3
 
-[1]: https://doi.org/10.1016/0003-4916(89)90032-8
+* Leonard Gross, Christopher King, Ambar Sengupta, _Two dimensional Yang-Mills theory via stochastic differential equations_, Annals of Physics 194:1 (1989), 65–112.  [doi][def]
 
-* Ambar Sengupta, _The Yang-Mills measure for $S^2$_, Journal of Functional Analysis 108:2 (1992), 231–273.  [doi][1]
+[def]: https://doi.org/10.1016/0003-4916(89)90032-8
 
-[1]: https://doi.org/10.1016/0022-1236(92)90025-E
+* {#abc} Ambar Sengupta, _The Yang-Mills measure for $S^2$_, Journal of Functional Analysis 108:2 (1992), 231–273.  [doi][abc]
+
+[abc]: https://doi.org/10.1016/0022-1236(92)90025-E
 
