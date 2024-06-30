@@ -110,7 +110,37 @@ Further developments:
 
 * [[Matthias Blau]], [[George Thompson]], *Quantum Yang-Mills theory on arbitrary surfaces*, International Journal of Modern Physics A **7** 16 (1992) 3781–3806 &lbrack;[doi:10.1142/S0217751X9200168X](https://doi.org/10.1142/S0217751X9200168X)&rbrack;
 
+* [[Edward Witten]]. On quantum gauge theories in two dimensions. *Commun.Math. Phys*. 141, 153–209 (1991). ([doi](https://doi.org/10.1007/BF02100009)).
+
 * [[Edward Witten]], _Two-dimensional gauge theories revisited_, Journal of Geometry and Physics 9:4 (1992), 303–368.  [arXiv:hep-th/9204083](https://arxiv.org/abs/hep-th/9204083). [doi:10.1016/0393-0440(92)90034-X](https://doi.org/10.1016/0393-0440(92)90034-X).
+
+* Stefan Cordes, [[Gregory Moore]], [[Sanjaye Ramgoolam]]. *Lectures on 2D Yang-Mills Theory, Equivariant Cohomology and Topological Field Theories* (1994). ([hep-th/9411210](https://arxiv.org/abs/hep-th/9411210)).
+
+On its relation to [[string theory]], the "Gross-Taylor model":
+
+* [[David Gross]]. *Two Dimensional QCD as a String Theory* (1992). ([hep-th/9212149](https://arxiv.org/abs/hep-th/9212149)).
+
+* [[David Gross]], [[Washington Taylor]], “Two-dimensional QCD is a string theory,” Nucl. Phys. B400 (1993). ([hep-th/9301068](https://arxiv.org/abs/hep-th/9301068)).
+
+* [[David Gross]], [[Washington Taylor]], “Twists and Wilson loops in the string theory of two-dimensional QCD,” Nucl. Phys. B 403 (1993) 395-452. ([hep-th/9303046](https://arxiv.org/abs/hep-th/9303046)).
+
+and the [[Petr Hořava|Hořava model]]
+
+* [[Petr Hořava]]. *Topological Strings and QCD in Two Dimensions* (1993). ([hep-th/9311156](https://arxiv.org/abs/hep-th/9311156)).
+
+* [[Petr Hořava]]. *Topological Rigid String Theory and Two Dimensional QCD* (1995). ([hep-th/9507060](https://arxiv.org/abs/hep-th/9507060)).
+
+In the context of [[generalized global symmetry|generalized global symmetries]]:
+
+* Mendel Nguyen, Yuya Tanizaki, Mithat Ünsal. *Non-invertible 1-form symmetry and Casimir scaling in 2d Yang-Mills theory* (2021). ([arXiv:2104.01824](https://arxiv.org/abs/2104.01824)).
+
+* [[Tony Pantev]], [[Eric Sharpe]]. *Decomposition and the Gross-Taylor string theory* (2023). ([arXiv:2307.08729](https://arxiv.org/abs/2307.08729)).
+
+In the more general context of volume-dependent theories see:
+
+* Richard Wedeen. *Volume-Dependent Field Theories* (2024). ([arXiv:2402.06691](https://arxiv.org/abs/2402.06691)).
+
+
 
 [[!redirects Two-dimensional Yang--Mills theory]]
 [[!redirects Yang--Mills theory in two dimensions]]
