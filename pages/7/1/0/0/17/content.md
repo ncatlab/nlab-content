@@ -761,7 +761,7 @@ or
   `[link text][1]` $\;$ `[1]: url`
 
 
-  But beware that you need to replace "1" here by a distinct number for every distinct url (which also means that this syntax is tedious and error-prone when copy-and-pasting of material.)
+  > Of course, you need to replace "1" here by a distinct number for every distinct url on a given page (which also means that this syntax is tedious and error-prone, especially when copy-and-pasting material).
 
 
 For example
