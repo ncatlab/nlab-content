@@ -45,7 +45,7 @@ For $K = \mathbb{Q}$ this is also the statement of the [[Kronecker-Weber theorem
 For $K$ a [[function field]] the map is no longer surjective, and is instead a injection with dense image
 
 $$
-  K^\times \backslash \mathbb{I}_K / \prod_v \mathcal{O}_v^\times
+  K^\times \backslash \mathbb{I}_K
   \hookrightarrow
   Gal(K^{ab}/K)
   \,.
