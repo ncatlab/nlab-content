@@ -27,19 +27,34 @@ First considered in ['t Hooft 74](#tHooft74), whence also called the _'t Hooft m
 
 ### General 
 
+> See also the references at *[[D=2 Yang-Mills theory]]*.
+
 The original account is:
 
-* {#tHooft74} [[Gerard ’t Hooft]], _A Two-Dimensional Model For Mesons_, Nucl. Phys. B75, 461 (1974) (<a href="https://doi.org/10.1016/0550-3213(74)90088-1">doi:10.1016/0550-3213(74)90088-1</a>)
+* {#tHooft74} [[Gerard ’t Hooft]], *A Two-Dimensional Model For Mesons*, Nucl. Phys. B **75** (1974) 461-470 &lbrack;<a href="https://doi.org/10.1016/0550-3213(74)90088-1">doi:10.1016/0550-3213(74)90088-1</a>&rbrack;
 
-See also:
+Further discussion:
 
+* [[Michael Douglas]], Keke Li, [[Matthias Staudacher]], *Generalized Two-Dimensional QCD*, Nucl.Phys. B **420** (1994) 118-140 &lbrack;[arXiv:hep-th/9401062](https://arxiv.org/abs/hep-th/9401062), <a href="https://doi.org/10.1016/0550-3213(94)90377-8">doi:10.1016/0550-3213(94)90377-8</a>&rbrack;
 
-* [[David Gross]], [[Washington Taylor]], _Two Dimensional QCD is a String Theory_, Nucl. Phys. B400:181-210, 1993 ([arxiv:hep-th/9301068](https://arxiv.org/abs/hep-th/9301068))
+* [[Emanuel Katz]], Gustavo Marques Tavares, Yiming Xu, _A solution of 2D QCD at Finite $N$ using a conformal basis_ &lbrack;[arxiv:1405.6727](https://arxiv.org/abs/1405.6727)&rbrack;
 
-* [[Michael Douglas]], Keke Li, Matthias Staudacher, _Generalized Two-Dimensional QCD_ ([arXiv:hep-th/9401062](https://arxiv.org/abs/hep-th/9401062))
+### As a string theory
 
+The understanding of 2d QCD as the [[effective field theory]] of a [[string theory]] ("Gross-Taylor model"):
 
-* [[Emanuel Katz]], Gustavo Marques Tavares, Yiming Xu, _A solution of 2D QCD at Finite $N$ using a conformal basis_ ([arxiv:1405.6727](https://arxiv.org/abs/1405.6727))
+* [[David Gross]]. *Two Dimensional QCD as a String Theory*, Nuclear Physics B **400** 1–3 (1993) 161-180 &lbrack;[hep-th/9212149](https://arxiv.org/abs/hep-th/9212149), <a href="https://doi.org/10.1016/0550-3213(93)90402-B">doi:10.1016/0550-3213(93)90402-B</a>&rbrack;
+
+* [[David Gross]], [[Washington Taylor]], *Two Dimensional QCD is a String Theory*, Nucl. Phys. B **400** (1993) 181-210 &lbrack;[arxiv:hep-th/9301068](https://arxiv.org/abs/hep-th/9301068), <a href="https://doi.org/10.1016/0550-3213(93)90403-C">doi:10.1016/0550-3213(93)90403-C</a>&rbrack;
+
+* [[David Gross]], [[Washington Taylor]], *Twists and Wilson loops in the string theory of two-dimensional QCD*, Nucl. Phys. B **403** (1993) 395-452 &lbrack;[hep-th/9303046](https://arxiv.org/abs/hep-th/9303046), <a href="https://doi.org/10.1016/0550-3213(93)90042-N">doi:10.1016/0550-3213(93)90042-N</a>&rbrack;
+
+and the [[Petr Hořava|Hořava model]]:
+
+* [[Petr Hořava]], *Topological Strings and QCD in Two Dimensions* (1993) &lbrack;[hep-th/9311156](https://arxiv.org/abs/hep-th/9311156), [spire](https://inspirehep.net/literature/360453)&rbrack;
+
+* [[Petr Hořava]]. *Topological Rigid String Theory and Two Dimensional QCD*, Nucl.Phys. B **463** (1996) 238-286 &lbrack;[hep-th/9507060](https://arxiv.org/abs/hep-th/9507060), <a href="https://doi.org/10.1016/0550-3213(96)00036-3">doi:10.1016/0550-3213(96)00036-3</a> &rbrack;
+
 
 ### In Ads/CFT
 
