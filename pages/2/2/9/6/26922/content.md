@@ -35,7 +35,7 @@ Finally, the following property, called the "diamond property", enforces the ide
 
 \begin{definition}
   \label{AbstractPolytope}
-  An **abstract polytope** is a rank-wise strongly connected [[(0,1)-category]] (Def. \ref{RankwiseStronglyConnected}) with [[initial object|initial]] and [[terminal objects]] which satisfies the diamond property (Def. \ref{DiamondProperty}.
+  An **abstract polytope** is a rank-wise strongly connected [[(0,1)-category]] (Def. \ref{RankwiseStronglyConnected}) with [[initial object|initial]] and [[terminal objects]] which satisfies the diamond property (Def. \ref{DiamondProperty}).
 \end{definition}
 
 The [[subobject]] category of a [[set]] with $n+1$ elements is the abstract polytope representing the rank $n$ [[simplex]].
