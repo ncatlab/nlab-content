@@ -227,7 +227,7 @@ See also:
 
 * Alfonso Ballon-Bayona, Luis A. H. Mamani, Alex S. Miranda, Vilson T. Zanchin, *Effective holographic models for QCD: Thermodynamics and viscosity coefficients* ([arXiv:2103.14188](https://arxiv.org/abs/2103.14188))
 
-* Nelson R. F. Braga, Octavio C. Junqueira, *Hawking-Page transition in holographic QCD at finite density* &lbrack;[arXiv:2404.04683](https://arxiv.org/abs/2404.04683)&rbrack;
+* [[Nelson R. F. Braga]], Octavio C. Junqueira, *Hawking-Page transition in holographic QCD at finite density*, Phys. Lett. B **855** (2024) 138813 &lbrack;[arXiv:2404.04683](https://arxiv.org/abs/2404.04683), [doi:10.1016/j.physletb.2024.138813](https://doi.org/10.1016/j.physletb.2024.138813)&rbrack;
 
 * {#JokelaJärvinenPiispa24} [[Niko Jokela]], [[Matti Järvinen]], Aleksi Piispa, *Refining holographic models of the quark-gluon plasma* &lbrack;[arXiv:2405.02394](https://arxiv.org/abs/2405.02394)&rbrack;
 
