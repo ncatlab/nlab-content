@@ -145,7 +145,7 @@ For [[supergravity]]:
 * Mehmet Ozkan, Yi Pang, [[Ergin Sezgin]], *Higher Derivative Supergravities in Diverse Dimensions* &lbrack;[arXiv:2401.08945](https://arxiv.org/abs/2401.08945)&rbrack;
 
 
-### Higher curvature corrections to $D=4$ supergravity
+### For $D=4$ supergravity
 
 Discussion of [[higher curvature corrections]] to [[D=4 supergravity]]:
 
@@ -153,11 +153,26 @@ Relation to [[quintessence]]:
 
 * [[Fotis Farakos]], _Quintessence from higher curvature supergravity_ ([arXiv:2003.09366](https://arxiv.org/abs/2003.09366))
 
+On [[small N corrections]] in [[ABJM theory]] and [[higher curvature corrections]] in the [[AdS/CFT duality|AdS/CFT dual]] [[D=4 supergravity]]:
+
+* [[Nikolay Bobev]], Anthony M. Charles, [[Kiril Hristov]], Valentin Reys, *The Unreasonable Effectiveness of Higher-Derivative Supergravity in $AdS_4$ Holography*, Phys. Rev. Lett. **125** 131601 (2020) \[<a href="https://doi.org/10.1103/PhysRevLett.125.131601">doi:10.1103/PhysRevLett.125.131601</a>, [arXiv:2006.09390](https://arxiv.org/abs/2006.09390)\]
+
+* [[Nikolay Bobev]], Anthony M. Charles, [[Dongmin Gang]], [[Kiril Hristov]], Valentin Reys, *Higher-Derivative Supergravity, Wrapped M5-branes, and Theories of Class $\mathcal{R}$*,  J. High Energ. Phys. **2021** 58 (2021) \[<a href="https://doi.org/10.1007/JHEP04(2021)058">doi:10.1007/JHEP04(2021)058</a>, [arXiv:2011.05971](https://arxiv.org/abs/2011.05971)\]
+
+* [[Kiril Hristov]], *ABJM at finite $N$ via 4d supergravity*,  J. High Energ. Phys. **2022** 190 (2022) \[<a href="https://doi.org/10.1007/JHEP10(2022)190">doi:10.1007/JHEP10(2022)190</a>, [arXiv:2204.02992](https://arxiv.org/abs/2204.02992)\]
+
+
+### For $D=5$ supergravity
+
+Discussion for [[D=5 supergravity]]:
+
+Analysis via computer algebra:
+
+* Gregory Gold, Saurish Khandelwal, Gabriele Tartaglino-Mazzucchelli, *Supergravity Component Reduction with Computer Algebra* &lbrack;[arXiv:2406.19687](https://arxiv.org/abs/2406.19687)&rbrack;
 
 
 
-
-### Higher curvature corrections to heterotic supergravity
+### For $D=10$ heterotic supergravity
 
 On higher curvature corrections to [[heterotic supergravity]]:
 
