@@ -1,5 +1,8 @@
 
-* [webpage](http://www.perimeterinstitute.ca/people/dmitri-sorokin)
+
+* [InSpire page](https://inspirehep.net/authors/988026)
+
+* [GoogleScholar page](https://scholar.google.it/citations?user=Xq-eCjAAAAAJ&hl=en)
 
 ## Selected writings
 
