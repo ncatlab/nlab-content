@@ -2,11 +2,13 @@
 
 * [School staff page](http://www.ms.unimelb.edu.au/Personnel/profile.php?PC_id=662)
 
-## Research program
-
-* (with [[Matthew Ando]]), _Subtle symmetries and the refined Monster_, ([pdf](https://researchers.ms.unimelb.edu.au/~nganter@unimelb/research_program_ganter.pdf))
 
 ## Selected writings
+
+On [[Johnson-Wilson spectrum|$E(1)$]]-[[Bousfield localization of spectra|local]] [[stable homotopy theory]]:
+
+* [[Nora Ganter]]: _Smash products of $E(1)$-local spectra at an odd prime_, [[Cahiers]] Topol. Geom. Differ. Categ. __48__ 1 (2007) 3-54 &lbrack;[math.CT/0410589](http://arxiv.org/abs/math/0410589), [numdam:CTGDC_2007__48_1_3_0](http://www.numdam.org/item/?id=CTGDC_2007__48_1_3_0)&rbrack;
+
 
 On [[Tate K-theory]] and [[equivariant elliptic cohomology]]:
 
@@ -25,9 +27,12 @@ On [[Tate K-theory]] and [[equivariant elliptic cohomology]]:
 
 On [[2-representations]]:
 
-* _Inner products of 2-representations_, [http://arxiv.org/abs/1110.1711](http://arxiv.org/abs/1110.1711)
+* [[Nora Ganter]], [[Mikhail Kapranov]]: _Representation and character theory in 2-categories_, Adv. Math. __217__ 5 (2008) 2268-2300 &lbrack;[math.AT/0602510](http://arxiv.org/abs/math/0602510), [doi:10.1016/j.aim.2007.10.004](https://doi.org/10.1016/j.aim.2007.10.004)&rbrack;
 
-* [[Nora Ganter]], [[Mikhail Kapranov]], _Representation and character theory in 2-categories_, Adv. Math. __217__ (2008), no. 5, 2268-2300, [math.AT/0602510](http://arxiv.org/abs/math/0602510); _Symmetric and exterior powers of categories_, [arxiv/1110.4753](http://arxiv.org/abs/1110.4753)
+* [[Nora Ganter]], [[Mikhail Kapranov]]: _Symmetric and exterior powers of categories_, Journal of Transformation Groups **19** 1 (2014) 57-103 &lbrack;[arxiv/1110.4753](http://arxiv.org/abs/1110.4753), [doi:10.1007/s00031-014-9255-z](https://doi.org/10.1007/s00031-014-9255-z)&rbrack;
+
+* [[Nora Ganter]]: *Inner products of 2-representations*, Advances in Mathematics **285** (2015) 301-351 &lbrack;[arXiv:1110.1711](http://arxiv.org/abs/1110.1711) [doi:10.1016/j.aim.2015.05.015](https://doi.org/10.1016/j.aim.2015.05.015)&rbrack;
+
 
 On [[2-group]]-[[higher central extensions|extensions]] by the [[circle 2-group]]:
 
@@ -41,14 +46,15 @@ of [[finite subgroups of SU(2)]] (to [[Platonic 2-groups]]):
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, Higher Structures 1(1):122-146, 2017 ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192), [hs:30](https://journals.mq.edu.au/index.php/higher_structures/article/view/30))
 
 
+On the [[Monster group]] via ([[Platonic 2-group|Platonic]]) [[2-groups]]:
 
-See also:
+* [[Nora Ganter]], *Subtle Symmetries and the Refined Monster*, project description (2018) \[<a href="https://researchers.ms.unimelb.edu.au/~nganter@unimelb/research_program_ganter.pdf">pdf</a>, [[Ganter-SubtleSymMonster.pdf:file]]\]
 
-* _Smash products of E(1)-local spectra at an odd prime_, Cah. Topol. Geom. Differ. Categ. __48__ (2007), no.1, 3-54, [math.CT/0410589](http://arxiv.org/abs/math/0410589)
-
-A discussion of how the properties of the [[Monster group]] may be considered as deriving from those of a certain [[2-group]]:
 
 * [[Nora Ganter]], _Looking for a Refined Monster_ &lbrack;[arXiv:2405.16410](https://arxiv.org/abs/2405.16410)&rbrack;
+
+
+
 
 category: people
 
