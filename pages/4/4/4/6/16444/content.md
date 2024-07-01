@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -62,8 +63,11 @@ A conformal compactification, of _complexified_ [[Minkowski spacetime]] $\mathbb
 
 * {#Wong09} Willie Wong, _Conformal compactification of space-time_ ([web](https://qnlw.info/post/conformal-compactification-spacetime/)) (2009).
 
+On conformal compactification via [[Cartan geometry]]:
 
-On conformal boundaries:
+* Daniel Platt: *Conformal Geodesics in Cartan Calculus*, MSc thesis (2017) &lbrack;[pdf](https://edoc.hu-berlin.de/bitstream/handle/18452/22955/master_platt_daniel.pdf), [[Platt-ConformalGeodesics.pdf:file]]&rbrack;
+
+On conformal boundaries, mostly in the context of the [[AdS/CFT correspondence]]:
 
 * [[Edward Witten]], [[Shing-Tung Yau]], *Connectedness Of The Boundary In The AdS/CFT Correspondence*, Adv. Theor. Math. Phys. **3** (1999) 1635-1655 &lbrack;[arXiv:hep-th/9910245](https://arxiv.org/abs/hep-th/9910245), [doi:10.4310/ATMP.1999.v3.n6.a1](https://dx.doi.org/10.4310/ATMP.1999.v3.n6.a1)&rbrack;
 
