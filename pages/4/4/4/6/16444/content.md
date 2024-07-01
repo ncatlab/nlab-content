@@ -65,9 +65,13 @@ A conformal compactification, of _complexified_ [[Minkowski spacetime]] $\mathbb
 
 On conformal boundaries:
 
+* [[Edward Witten]], [[Shing-Tung Yau]], *Connectedness Of The Boundary In The AdS/CFT Correspondence*, Adv. Theor. Math. Phys. **3** (1999) 1635-1655 &lbrack;[arXiv:hep-th/9910245](https://arxiv.org/abs/hep-th/9910245), [doi:10.4310/ATMP.1999.v3.n6.a1](https://dx.doi.org/10.4310/ATMP.1999.v3.n6.a1)&rbrack;
+
+* [[Henrique Boschi-Filho]], [[Nelson R. F. Braga]]: *Compact AdS space, brane geometry, and the AdS/CFT correspondence*, Phys. Rev. D **66** 025005 (2002) &lbrack;[doi:10.1103/PhysRevD.66.025005](https://doi.org/10.1103/PhysRevD.66.025005), [arXiv:hep-th/0112196](https://arxiv.org/abs/hep-th/0112196)&rbrack;
+
 * Jörg Frauendiener, *Conformal Infinity*,  Living Rev. Relativ. **7** 1 (2004) &lbrack;[doi:10.12942/lrr-2004-1](https://doi.org/10.12942/lrr-2004-1)&rbrack;
 
-* C. A. Ballon Bayona, Nelson R. F. Braga, *Anti-de Sitter boundary in Poincaré coordinates*, Gen. Rel. Grav. **39** (2007) 1367-1379 &lbrack;[arXiv:hep-th/0512182](https://arxiv.org/abs/hep-th/0512182), [doi:10.1007/s10714-007-0446-y](https://doi.org/10.1007/s10714-007-0446-y)&rbrack;
+* {#BayonaBraga07} C. A. Ballon Bayona, [[Nelson R. F. Braga]], *Anti-de Sitter boundary in Poincaré coordinates*, Gen. Rel. Grav. **39** (2007) 1367-1379 &lbrack;[arXiv:hep-th/0512182](https://arxiv.org/abs/hep-th/0512182), [doi:10.1007/s10714-007-0446-y](https://doi.org/10.1007/s10714-007-0446-y)&rbrack;
 
 
 * {#Frances11} [[Charles Frances]], *The conformal boundary of anti-de Sitter space-times*, in: *AdS/CFTCorrespondence: Einstein Metrics and Their Conformal Boundaries*, IRMA Lectures in Mathematical and Theoretical Physics, EMS (2011) 205-216 &lbrack;[ems:irma/9/206](https://ems.press/books/irma/9/206), [hal:03195056](https://hal.science/hal-03195056), [pdf](https://hal.science/hal-03195056v1/document)&rbrack;
