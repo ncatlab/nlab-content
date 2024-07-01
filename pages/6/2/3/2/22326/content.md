@@ -63,10 +63,18 @@ Via [[type IIB supergravity]]:
 
 #### Via the ABJM M2-brane model
 
-
 From the [[ABJM  model]] for the [[M2-brane]]:
 
-* Damon J. Binder, [[Shai Chester]], Silviu S. Pufu, _Absence of $D^4 R^4$ in M-Theory From ABJM_ ([arXiv:1808.10554](https://arxiv.org/abs/1808.10554))
+* Damon J. Binder, [[Shai Chester]], Silviu S. Pufu, _Absence of $D^4 R^4$ in M-Theory From ABJM_ &lbrack;[arXiv:1808.10554](https://arxiv.org/abs/1808.10554)&rbrack;
+
+In terms of [[D=4 supergravity]]:
+
+* [[Nikolay Bobev]], Anthony M. Charles, [[Kiril Hristov]], Valentin Reys, *The Unreasonable Effectiveness of Higher-Derivative Supergravity in $AdS_4$ Holography*, Phys. Rev. Lett. **125** 131601 (2020) \[<a href="https://doi.org/10.1103/PhysRevLett.125.131601">doi:10.1103/PhysRevLett.125.131601</a>, [arXiv:2006.09390](https://arxiv.org/abs/2006.09390)\]
+
+* [[Nikolay Bobev]], Anthony M. Charles, [[Dongmin Gang]], [[Kiril Hristov]], Valentin Reys, *Higher-Derivative Supergravity, Wrapped M5-branes, and Theories of Class $\mathcal{R}$*,  J. High Energ. Phys. **2021** 58 (2021) \[<a href="https://doi.org/10.1007/JHEP04(2021)058">doi:10.1007/JHEP04(2021)058</a>, [arXiv:2011.05971](https://arxiv.org/abs/2011.05971)\]
+
+* [[Kiril Hristov]], *ABJM at finite $N$ via 4d supergravity*,  J. High Energ. Phys. **2022** 190 (2022) \[<a href="https://doi.org/10.1007/JHEP10(2022)190">doi:10.1007/JHEP10(2022)190</a>, [arXiv:2204.02992](https://arxiv.org/abs/2204.02992)\]
+
 
 #### See also
 
