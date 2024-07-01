@@ -31,14 +31,17 @@ If $\sigma$ is an injective endomorphism of $R$, and $d$ a $\sigma$-derivation $
 $$
 T \cdot r = \sigma(r) T + d(r), \,\,\,\,\forall r\in R. 
 $$
-$R[T]$ with this ring structure is called the Ore extension of $R$. 
+$R[T]$ with this ring structure is called the Ore extension of $R$ and denoted $R[T;\sigma,d]$. 
 If $d = 0$ identically, then we say that $R[T]$ is a __skew polynomial ring__. 
+
+An Ore extension of an Ore extension of...(finitely many times) is called an iterated Ore extension. See [[quantum nilpotent algebra]] for an example.
 
 ### Literature
 
-* K. R. Goodearl, R. B. Warfield, _An introduction to noncommutative Noetherian rings_, London Math. Society Student Texts __61__, Camb. Univ. Press. 
+* [[K. R. Goodearl]], R. B. Warfield, _An introduction to noncommutative Noetherian rings_, London Math. Society Student Texts __61__, Camb. Univ. Press. 
 * Louis H. Rowen, _Ring theory_, student edition, Acad. Press 1991, sec. 1.6
 * wikipedia [Ore extension](http://en.wikipedia.org/wiki/Ore_extension) 
 
 [[!redirects skew-polynomial ring]]
+[[!redirects Ore extensions]]
  
