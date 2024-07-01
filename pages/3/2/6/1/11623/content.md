@@ -1,4 +1,5 @@
 
+* [InSpire page](https://inspirehep.net/authors/1009501)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Daniel_Z._Freedman)
 
@@ -9,6 +10,11 @@ One of the co-discoverers of [[supergravity]] ([[4d supergravity]]).
 Introducing [[4d supergravity]]:
 
 * {#FreedmanNieuwenhuizenFerrara76} [[Daniel Freedman]], [[Peter van Nieuwenhuizen]], [[Sergio Ferrara]], _Progress toward a theory of supergravity_, Phys. Rev. D13 (1976) 3214 ([doi.org/10.1103/PhysRevD.13.3214](https://doi.org/10.1103/PhysRevD.13.3214))
+
+Early discussion of [[quantum field theory]] [[quantum field theory on curved spacetimes|on]] [[anti de Sitter spacetimes]]:
+
+* Peter Breitenlohner, [[Daniel Z. Freedman]], *Positive energy in anti-de Sitter backgrounds and gauged extended supergravity*, Physics Letters B **115** 3 (1982) 197-201 &lbrack;<a href="https://doi.org/10.1016/0370-2693(82)90643-8">doi:10.1016/0370-2693(82)90643-8</a>&rbrack;
+
 
 On [[supergravity]]:
 
@@ -22,3 +28,5 @@ On [[multi-trace operators]] in the [[AdS/CFT correspondence]]:
 
 
 category: people
+
+[[!redirects Daniel Z. Freedman]]
