@@ -75,6 +75,14 @@ See also at _[[finite subgroup of SU(2)]] -- [Discrete torsion](finite+rotation+
 
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, Higher Structures 1(1):122-146, 2017 ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192), [hs:30](https://journals.mq.edu.au/index.php/higher_structures/article/view/30))
 
+In relation to the [[Monster group]]:
+
+
+* [[Nora Ganter]], *Subtle Symmetries and the Refined Monster*, project description (2018) \[<a href="https://researchers.ms.unimelb.edu.au/~nganter@unimelb/research_program_ganter.pdf">pdf</a>, [[Ganter-SubtleSymMonster.pdf:file]]\]
+
+* [[Nora Ganter]], _Looking for a Refined Monster_ &lbrack;[arXiv:2405.16410](https://arxiv.org/abs/2405.16410)&rbrack;
+
+
 [[!redirects Platonic 2-groups]]
 
 [[!redirects platonic 2-group]]
