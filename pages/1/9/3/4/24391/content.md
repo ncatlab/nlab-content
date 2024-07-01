@@ -177,7 +177,11 @@ We denote the bijective correspondence $\SCvx(\Delta_{\mathbb{N}}, A) \cong  \Se
 \begin{lemma} A function $f \colon \mathbb{N} \rightarrow \mathbb{N}$ is a countably affine map if and only if $f$ is monotone, $i \lt j$ implies $f(i) \le f(j)$.
 \end{lemma}
 \begin{proof}
-Necessary condition.  Suppose that $f: \mathbb{N} \rightarrow \mathbb{N}$ is a countably affine map.  Let $i \lt j$. By the superconvex space structure on $\mathbb{N}$ it follows, for all $\alpha \in (0,1)$, that  $\alpha i + (1-\alpha) j = i$ .  If $f$ is not monotone then there exist a pair of elements $i,j \in \mathbb{N}$ such that $i \lt j$ with $f(j) \lt f(i)$.  This implies, for all $\alpha \in (0,1)$, that $f(j)= \alpha f(i) + (1-\alpha) f(j) \lt   f(\alpha i + (1-\alpha) j ) =f(i)$, which contradicts our hypothesis that $f$ is a countably affine map.
+Necessary condition.  Suppose that $f: \mathbb{N} \rightarrow \mathbb{N}$ is a countably affine map.  Let $i \lt j$. By the superconvex space structure on $\mathbb{N}$ it follows, for all $\alpha \in (0,1)$, that  $\alpha i + (1-\alpha) j = i$ .  If $f$ is not monotone then there exist a pair of elements $i,j \in \mathbb{N}$ such that $i \lt j$ with $f(j) \lt f(i)$.  This implies, for all $\alpha \in (0,1)$, that 
+$$
+f(j)= \alpha f(i) + (1-\alpha) f(j) \lt   f(\alpha i + (1-\alpha) j ) =f(i),
+$$
+which contradicts our hypothesis that $f$ is a countably affine map.
  
 Sufficient condition. Suppose $f$ is a monotone function, and
  that we are given an arbitrary countably affine sum $\sum_{i \in \mathbb{N}} p_i i = n$ in $\mathbb{N}$, so that for all $i=0,1,\ldots,n-1$ we have $p_i=0$.  Since the condition defining the superconvex structure is conditioned on the property $p_i \ne 0$, the countably affine sum is not changed  by removing any number of terms $i$ in the countable sum whose coefficient $p_i=0$.  Hence 
