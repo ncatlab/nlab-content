@@ -435,11 +435,17 @@ Further reviews and general accounts include
 
 #### Unwrapped
 
-The M5 was first found as a [[black brane]] of [[11-dimensional supergravity]] (the [[black fivebrane]]) in 
+The M5 was first found as a [[black brane]] of [[11-dimensional supergravity]] (the [[black fivebrane]]) in:
 
 * {#Gueven92} [[Rahmi Gueven]], _Black $p$-brane solutions of $D = 11$ supergravity theory_, Phys. Lett. B276 (1992) 49 (<a href="https://doi.org/10.1016/0370-2693(92)90540-K">doi:10.1016/0370-2693(92)90540-K</a>, [spire:338203](http://inspirehep.net/record/338203))
 
-  also in: [[Mike Duff]] (ed.),  _[[The World in Eleven Dimensions]]_ 135-141
+  also in: 
+
+  [[Mike Duff]] (ed.),  _[[The World in Eleven Dimensions]]_ (1999) 135-141
+
+see also
+
+* {#DuffLu94} [[Michael Duff]], [[Jian Xin Lu]], p. 36 of: *Black and super $p$-branes in diverse dimensions*, Nucl. Phys. B **416** (1994) 301-334 &lbrack;[arXiv:hep-th/9306052](http://arxiv.org/abs/hep-th/9306052), <a href="https://doi.org/10.1016/0550-3213(94)90586-X">doi:10.1016/0550-3213(94)90586-X</a>&rbrack;
 
 That this metric, as well as that of every black $p$ brane for _odd_ $p$, is completely non-singular was observed in 
 
