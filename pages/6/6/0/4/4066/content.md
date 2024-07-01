@@ -112,6 +112,10 @@ Possible relation to [[bosonic M-theory]]:
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "80" src="http://t0.gstatic.com/images?q=tbn:nJNML0QhNiejuM:http://open.salon.com/files/cookie-monster3-7769871237963363.jpg
 " alt="The Monster" /></div>
 
+A discussion of how the properties of the Monster group may be considered as deriving from those of a certain [[2-group]]:
+
+* [[Nora Ganter]], _Looking for a Refined Monster_ &lbrack;[arXiv:2405.16410](https://arxiv.org/abs/2405.16410)&rbrack;
+
 
 
 [[!redirects Monster]]
