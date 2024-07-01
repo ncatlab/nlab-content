@@ -56,19 +56,27 @@ On the [[logical equivalence]] between the [[four-colour theorem]] and a stateme
 
 ### In AdS/CFT
 
+Discussion in the context of [[AdS/CFT duality]].
+
 #### General
 
+* B. Basso, _Cusp anomalous dimension in planar maximally supersymmetric Yang-Mills theory_ &lbrack;[spire:858223](http://inspirehep.net/record/858223)&rbrack;
 
-* B. Basso, _Cusp anomalous dimension in planar maximally supersymmetric Yang-Mills theory_ ([spire:858223](http://inspirehep.net/record/858223))
+  > "The result &lbrack;(29)&rbrack; coincides exactly with the recent two-loop stringy correction computed in [Alday-Maldacena 07](https://arxiv.org/abs/0708.0672), providing a striking confirmation of the AdS/CFT correspondence."
 
-  > "The result $[$(29)$]$ coincides exactly with the recent two-loop stringy correction computed in [Alday-Maldacena 07](https://arxiv.org/abs/0708.0672), providing a striking confirmation of the AdS/CFT correspondence."
-
-* David Jorrin, Nicolas Kovensky, Martin Schvellinger,  _Towards $1/N$ corrections to deep inelastic scattering from the gauge/gravity duality_, JHEP 04 (2016) 113 ([arXiv:1601.01627](https://arxiv.org/abs/1601.01627))
+* David Jorrin, Nicolas Kovensky, Martin Schvellinger,  _Towards $1/N$ corrections to deep inelastic scattering from the gauge/gravity duality_, JHEP 04 (2016) 113 &lbrack;[arXiv:1601.01627](https://arxiv.org/abs/1601.01627)&rbrack;
 
 
 Discussion of [[small N corrections]] via a [[lattice QFT]]-Ansatz on the AdS side of [[AdS2/CFT1]]:
 
-* Richard C. Brower, Cameron V. Cogburn, A. Liam Fitzpatrick, Dean Howarth, Chung-I Tan, _Lattice Setup for Quantum Field Theory in $AdS_2$_ ([arXiv:1912.07606](https://arxiv.org/abs/1912.07606))
+* Richard C. Brower, Cameron V. Cogburn, A. Liam Fitzpatrick, Dean Howarth, Chung-I Tan, _Lattice Setup for Quantum Field Theory in $AdS_2$_ &lbrack;[arXiv:1912.07606](https://arxiv.org/abs/1912.07606)&rbrack;
+
+Discussion of finite-$N$ AdS-duals of [[ABJM theory]] via [[D=4 supergravity]] with [[higher curvature corrections]]:
+
+* [[Kiril Hristov]], *ABJM at finite $N$ via 4d supergravity*,  J. High Energ. Phys. **2022** 190 (2022) &lbrack;[arXiv:2204.02992](https://arxiv.org/abs/2204.02992), <a href="https://doi.org/10.1007/JHEP10(2022)190">doi:10.1007/JHEP10(2022)190</a>&rbrack;
+
+
+
 
 #### Via conformal bootstrap
 
