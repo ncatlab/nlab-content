@@ -65,7 +65,7 @@ Discussion of glueballs in [[holographic QCD]] ([[AdS/QCD]]):
 
 * {#BrowerMathurTan00} Richard C. Brower, [[Samir Mathur]], Chung-I Tan, _Glueball Spectrum for QCD from AdS Supergravity Duality_, Nucl. Phys. B587:249-276, 2000 ([arXiv:hep-th/0003115](https://arxiv.org/abs/hep-th/0003115))
 
-* Alex S. Miranda, C. A. Ballon Bayona, Henrique Boschi-Filho, Nelson R. F. Braga, _Glueballs at finite temperature from AdS/QCD_, Nucl. Phys. Proc. Suppl. 199:107-112, 2010 ([arXiv:0910.4319](https://arxiv.org/abs/0910.4319))
+* Alex S. Miranda, C. A. Ballon Bayona, [[Henrique Boschi-Filho]], [[Nelson R. F. Braga]], _Glueballs at finite temperature from AdS/QCD_, Nucl. Phys. Proc. Suppl. **199** (2010) 107-112 &lbrack;[arXiv:0910.4319](https://arxiv.org/abs/0910.4319), [doi:10.1016/j.nuclphysbps.2010.02.013](https://doi.org/10.1016/j.nuclphysbps.2010.02.013)&rbrack;
 
 * Xue-Feng Li, Ailin Zhang, _Scalar glueball in a soft-wall model of AdS/QCD_,  Chinese Physics C, Volume 38, Number 1 ([arXiv:1309.7154](https://arxiv.org/abs/1309.7154))
 
