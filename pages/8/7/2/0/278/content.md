@@ -196,13 +196,13 @@ Lecture notes:
 * [[Liviu Nicolaescu]], _Lectures on the Geometry of Manifolds_, 2018 ([pdf](https://www3.nd.edu/~lnicolae/Lectures.pdf))
 
  
-An introduction with an eye towards applications in [[physics]], specifically to [[gravity]] and [[gauge theory]]:
+Introductions with an eye towards applications in ([[mathematical physics|mathematical]])[[physics]], specifically to [[gravity]] and [[gauge theory]]:
 
-* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377), [website](http://www.math.ucsd.edu/~tfrankel/) with errata and preface for 3rd edition)&rbrack;
 
-* [[Chris Isham]], _[[Modern Differential Geometry for Physicists]]_
+* [[Chris Isham]]: *[[Modern Differential Geometry for Physicists]]*, Lecture Notes in Physics **61**, World Scientific  (1999, 2001) &lbrack;[doi:10.1142/0894](https://doi.org/10.1142/0894), [pdf](https://cdn.preterhuman.net/texts/science_and_technology/physics/Mathematical_Physics/Modern%20Differential%20Geometry%20for%20Physicists%202nd%20ed.,%20-%20C.%20Isham.pdf), [pdf](https://homepages.uc.edu/~herronda/Diff_Geometry/DG4physics.pdf)&rbrack;
 
-A discussion in the context of [[Frölicher spaces]] and [[diffeological spaces]] is in 
+A discussion in the context of [[Frölicher spaces]] and [[diffeological spaces]]:
 
 * [[Andreas Kriegl]], [[Peter Michor]], _[[The convenient setting of global analysis]]_, Math. Surveys and Monographs __53__, Amer. Math. Soc. 1997. 618 pages
 
