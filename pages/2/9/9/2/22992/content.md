@@ -14,5 +14,9 @@ On [[anomaly cancellation]] via the [[Green-Schwarz mechanism]] from a [[higher 
 
 * [[Francesco Benini]], [[Clay Cordova]], [[Po-Shen Hsin]], *On 2-Group Global Symmetries and Their Anomalies*,  J. High Energ. Phys. **2019** 118 (2019) ([arXiv:1803.09336](https://arxiv.org/abs/1803.09336), <a href="https://doi.org/10.1007/JHEP03(2019)118">doi:10.1007/JHEP03(2019)118</a>)
 
+On the [[AdS/CFT correspondence]]:
+
+* [[Francesco Benini]]: *Brief Introduction to AdS/CFT* SISSA lecture (2022) &lbrack;[pdf](https://www.sissa.it/tpp/phdsection/OnlineResources/16/SISSA_AdSCFT_course2022.pdf), [[Benini-AdSCFTLecture.pdf:file]]&rbrack; 
+
 
 category: people
