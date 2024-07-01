@@ -104,8 +104,13 @@ Rigorous discussion in view of the [[mass gap problem]]:
 
 Visualization:
 
-* James Biddle et al. _Publicising Lattice Field Theory through Visualisation_ ([arXiv:1903.08308](https://arxiv.org/abs/1903.08308))
+* James Biddle et al., *Publicising Lattice Field Theory through Visualisation* &lbrack;[arXiv:1903.08308](https://arxiv.org/abs/1903.08308)&rbrack;
 
+See also:
+
+* Wikipedia, _[Lattice gauge theory](https://en.wikipedia.org/wiki/Lattice_gauge_theory)_
+
+* Wikipedia, _[Lattice QCD](https://en.wikipedia.org/wiki/Lattice_QCD)_
 
 
 
@@ -114,11 +119,11 @@ Relation to [[string theory]]/[[M-theory]] (such as via [[BFSS matrix model]]) i
 * {#Hanada16} [[Masanori Hanada]], _What lattice theorists can do for superstring/M-theory_,  International Journal of Modern Physics A Vol. 31, No. 22, 1643006 (2016)  ([arXiv:1604.05421](https://arxiv.org/abs/1604.05421))
 
 
-See also 
 
-* Wikipedia, _[Lattice gauge theory](https://en.wikipedia.org/wiki/Lattice_gauge_theory)_
+With strong [[electromagnetic field|electromagnetic]] [[background fields]]:
 
-* Wikipedia, _[Lattice QCD](https://en.wikipedia.org/wiki/Lattice_QCD)_
+* Gergely Endrodi, *QCD with background electromagnetic fields on the lattice: a review* &lbrack;[arXiv:2406.19780](https://arxiv.org/abs/2406.19780)&rbrack;
+
 
 For [[topological phases of matter]] via [[higher gauge theory|higher]] lattice gauge theory:
 
