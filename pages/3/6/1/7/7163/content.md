@@ -5,7 +5,15 @@
 
 * [[set theory]]
 
+* [[cardinal number]]
+
+* [[order-type]]
+
+* [[ordinal number]]
+
 * [[Cantor space]]
+
+* [[perfect space]]
 
 * [[Cantor's theorem]]
 
@@ -16,5 +24,7 @@
 * [[Heine-Cantor theorem]]
 
 * [[Cantor-Schroeder-Bernstein theorem]]
+
+* [[Cantor cube]]
 
 category: people
