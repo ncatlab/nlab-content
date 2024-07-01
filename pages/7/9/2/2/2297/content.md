@@ -46,7 +46,7 @@ See also:
 
 * _Smash products of E(1)-local spectra at an odd prime_, Cah. Topol. Geom. Differ. Categ. __48__ (2007), no.1, 3-54, [math.CT/0410589](http://arxiv.org/abs/math/0410589)
 
-A discussion of how the properties of the Monster group may be considered as deriving from those of a certain [[2-group]]:
+A discussion of how the properties of the [[Monster group]] may be considered as deriving from those of a certain [[2-group]]:
 
 * [[Nora Ganter]], _Looking for a Refined Monster_ &lbrack;[arXiv:2405.16410](https://arxiv.org/abs/2405.16410)&rbrack;
 
