@@ -82,7 +82,7 @@ of **locally constant [[shape of an (infinity,1)-topos|shape]]**.
 +-- {: .num_defn}
 ###### Definition
 
-For $\mathbf{H}$ a locally $\infty$-connected $(\infty,1)$-topos and $X \in \mathbf{H}$ an [[object]], we call $\Pi X \in $ [[∞Grpd]] the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] of $X$. The ([[categorical homotopy groups in an (∞,1)-topos|categorical]]) [[homotopy group]]s of $\Pi(X)$ we call the [[geometric homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of $X$
+For $\mathbf{H}$ a locally $\infty$-connected $(\infty,1)$-topos and $X \in \mathbf{H}$ an [[object]], we call $\Pi X \in $ [[∞Grpd]] the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] of $X$. The ([[categorical homotopy groups in an (∞,1)-topos|categorical]]) [[homotopy group]]s of $\Pi(X)$ are called the [[geometric homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of $X$
 
 $$
   \pi_\bullet^{geom}(X) := \pi_\bullet(\Pi (X))
