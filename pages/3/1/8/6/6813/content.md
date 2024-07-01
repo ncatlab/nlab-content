@@ -102,18 +102,18 @@ The observation that black $p$-branes metric for _odd_ $p$ are completely non-si
 
 The suggestion that extremal/[[BPS state]] black branes are the strong coupling incarnation of fundamental branes originates in 
 
-* {#HullTownsend94} [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_, Nucl.Phys.B438:109-137,1995 ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
+* {#HullTownsend94} [[Chris Hull]], [[Paul Townsend]], *Unity of Superstring Dualities*, Nucl. Phys. B **438** (1995) 109-137 &lbrack;[arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167)&rbrack;
 
-* {#Witten95} [[Edward Witten]], bottom of p. 6 of _String Theory Dynamics In Various Dimensions_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+* {#Witten95} [[Edward Witten]], p. 6 (bottom) of: _String Theory Dynamics In Various Dimensions_, Nucl. Phys. B **443** (1995) 85-126 &lbrack;[arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124)&rbrack;
 
-Review includes,
+Review:
 
-* {#Duff99} [[Mike Duff]], chapter 5 of _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
+* {#Duff99} [[Mike Duff]], chapter 5 of: _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP (1999) &lbrack;[ISBN:9780750306720](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720)&rbrack;
 
 
-* {#Stelle98} [[Kellogg Stelle]], around section 3.3. of *BPS Branes in Supergravity*, in: *Quantum Field Theory: Perspective and Prospective*, NATO Science Series **530** (1999) 257-351 &lbrack;[arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116), [doi:10.1007/978-94-011-4542-8_12](https://doi.org/10.1007/978-94-011-4542-8_12)&rbrack;
+* {#Stelle98} [[Kellogg Stelle]], around section 3.3 of: *BPS Branes in Supergravity*, in: *Quantum Field Theory: Perspective and Prospective*, NATO Science Series **530** (1999) 257-351 &lbrack;[arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116), [doi:10.1007/978-94-011-4542-8_12](https://doi.org/10.1007/978-94-011-4542-8_12)&rbrack;
 
-* [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, section 1.3 of _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
+* [[Ofer Aharony]], S. S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, section 1.3 of _Large N Field Theories, String Theory and Gravity_ &lbrack;[arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)&rbrack;
 
 * {#Mohaupt00} [[Thomas Mohaupt]], _Black holes in supergravity and string theory_, Class. Quantum Grav. 17 (2000) 3429&#8211;3482 ([pdf](http://www.itp.uni-hannover.de/~giulini/papers/BlackHoleSeminar/Mohaupt_CQG_2000.pdf))
 
