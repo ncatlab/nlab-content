@@ -473,7 +473,7 @@ Surveys and introductions:
 
 * [[Jens L. Petersen]], _Introduction to the Maldacena Conjecture on AdS/CFT_, Int. J. Mod. Phys. A **14** (1999) 3597-3672 &lbrack;[hep-th/9902131](http://arxiv.org/abs/hep-th/9902131), [doi:10.1142/S0217751X99001676](http://dx.doi.org/10.1142/S0217751X99001676)&rbrack;
 
-* {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys. Rept. **323**  183-386 (2000) $[$<a href="https://doi.org/10.1016/S0370-1573(99)00083-6">doi:10.1016/S0370-1573(99)00083-6</a>, [arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)$]$
+* {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys. Rept. **323**  183-386 (2000) &lbrack;<a href="https://doi.org/10.1016/S0370-1573(99)00083-6">doi:10.1016/S0370-1573(99)00083-6</a>, [arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)&rbrack;
 
 * {#Anderson04} Michael T. Anderson, _Geometric aspects of the AdS/CFT correspondence_ ([arXiv:hep-th/0403087](https://arxiv.org/abs/hep-th/0403087)) 
 
@@ -483,7 +483,9 @@ Surveys and introductions:
 
 * [[Jan de Boer]], _Introduction to AdS/CFT correspondence_, [pdf](http://www-library.desy.de/preparch/desy/proc/proc02-02/Proceedings/pl.6/deboer_pr.pdf)
 
-* [[Gary Horowitz]], [[Joseph Polchinski]], _Gauge/gravity duality_ ([gr-qc/0602037](http://arxiv.org/abs/gr-qc/0602037))
+* [[Gary Horowitz]], [[Joseph Polchinski]], _Gauge/gravity duality_ &lbrack;[gr-qc/0602037](http://arxiv.org/abs/gr-qc/0602037)&rbrack;
+
+* [[Alberto Zaffaroni]], *Introduction to the AdS/CFT correspondence*, [LACES](https://laces.web.cern.ch/LACES19/index19.html) lectures (2009) &lbrack;[pdf](https://laces.web.cern.ch/laces09/notes/dbranes/lezionilosanna.pdf), [[Zaffaroni-AdSCFTLectures.pdf:file]]&rbrack;
 
 * [[Hans Günter Dosch]], *A Practical Guide to AdS/CFT*, lecture notes (2009) &lbrack;[pdf](https://www.thphys.uni-heidelberg.de/~dosch/wuhantot.pdf), [[Dosch-AdSCFT.pdf:file]]&rbrack;
 
@@ -501,7 +503,9 @@ Surveys and introductions:
 
   > (focus on [[holographic entanglement entropy]] and [[AdS/CMT duality]])
 
-* Nirmalya Kajuri, _ST4 Lectures on Bulk Reconstruction_ &lbrack;[arXiv:2003.00587](https://arxiv.org/abs/2003.00587)&rbrack;
+* Nirmalya Kajuri, *ST4 Lectures on Bulk Reconstruction* &lbrack;[arXiv:2003.00587](https://arxiv.org/abs/2003.00587)&rbrack;
+
+* [[Francesco Benini]]: *Brief Introduction to AdS/CFT* SISSA lecture (2022) &lbrack;[pdf](https://www.sissa.it/tpp/phdsection/OnlineResources/16/SISSA_AdSCFT_course2022.pdf), [[Benini-AdSCFTLecture.pdf:file]]&rbrack; 
 
 * {#Taylor23} Marika Taylor, *Introduction to AdS/CFT and Holography -- The holographic dictionary*, lecture at *pre-SUSY school 2023* &lbrack;[cern:1214657](https://indico.cern.ch/event/1214657), slides: [pdf](https://indico.cern.ch/event/1214657/sessions/480000/attachments/2690349/4676064/susy1.pdf), video: [session 1](https://southampton.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0f0a6c21-0bc9-42ae-9274-b03e00a8fde3), [sessions 2, 3](https://southampton.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c7e64fe5-675c-4f94-96f2-b03f0083f0d3)&rbrack;
 
