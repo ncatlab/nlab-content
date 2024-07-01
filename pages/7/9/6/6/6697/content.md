@@ -138,7 +138,8 @@ the metric (eq:MetricInPoincareCoordinatesI) becomes
   \,.
 \]
 
-This is called *horospheric coordinates* by [Gibbons 2000 (12)](#Gibbons00).
+cf. e.g. [Bayona & Braga 2007 (11)](conformal+boudnary#BayonaBraga07).
+(These are called *horospheric coordinates* by [Gibbons 2000 (12)](#Gibbons00).)
 
 On the other hand, in terms of
 $$
