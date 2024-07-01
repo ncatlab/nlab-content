@@ -109,13 +109,20 @@ Possible relation to [[bosonic M-theory]]:
 * [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], *Monstrous M-theory*, Symmetry **15** 2 (2023) 490; &lbrack;[doi:10.3390/sym15020490](https://doi.org/10.3390/sym15020490), [arXiv:2008.06742](https://arxiv.org/abs/2008.06742)&rbrack;
 
 
-<div style="float:right;margin:0 20px 10px 20px;"><img width = "80" src="http://t0.gstatic.com/images?q=tbn:nJNML0QhNiejuM:http://open.salon.com/files/cookie-monster3-7769871237963363.jpg
-" alt="The Monster" /></div>
+Discussion of aspects of the Monster group via ([[Platonic 2-group|Platonic]]) [[2-groups]]:
 
-A discussion of how the properties of the Monster group may be considered as deriving from those of a certain [[2-group]]:
+* [[Nora Ganter]], *Subtle Symmetries and the Refined Monster*, project description (2018) \[<a href="https://researchers.ms.unimelb.edu.au/~nganter@unimelb/research_program_ganter.pdf">pdf</a>, [[Ganter-SubtleSymMonster.pdf:file]]\]
 
 * [[Nora Ganter]], _Looking for a Refined Monster_ &lbrack;[arXiv:2405.16410](https://arxiv.org/abs/2405.16410)&rbrack;
 
+
+
+
+
+
+
+<div style="float:right;margin:0 20px 10px 20px;"><img width = "80" src="http://t0.gstatic.com/images?q=tbn:nJNML0QhNiejuM:http://open.salon.com/files/cookie-monster3-7769871237963363.jpg
+" alt="The Monster" /></div>
 
 
 [[!redirects Monster]]
