@@ -1198,7 +1198,11 @@ JHEP 1008:007,2010 ([arxiv:1003.3698](https://arxiv.org/abs/1003.3698))
 
 ### Glueball physics
 
+
 * {#Suzuki01} Kenji Suzuki, _D0-D4 system and $QCD_{3+1}$_, Phys.Rev. D63 (2001) 084011 ([arXiv:hep-th/0001057](https://arxiv.org/abs/hep-th/0001057))
+
+* Alex S. Miranda, C. A. Ballon Bayona, [[Henrique Boschi-Filho]], [[Nelson R. F. Braga]], _Glueballs at finite temperature from AdS/QCD_, Nucl. Phys. Proc. Suppl. **199** (2010) 107-112 &lbrack;[arXiv:0910.4319](https://arxiv.org/abs/0910.4319), [doi:10.1016/j.nuclphysbps.2010.02.013](https://doi.org/10.1016/j.nuclphysbps.2010.02.013)&rbrack;
+
 
 * S.S. Afonin, A.D. Katanaeva, _Glueballs and deconfinement temperature in AdS/QCD_ ([arXiv:1809.07730](https://arxiv.org/abs/1809.07730))
 
@@ -1270,7 +1274,7 @@ See also:
 
 * Si-wen Li, Yi-peng Zhang, *Correlation function of fundamental fermion in holographic QCD* &lbrack;[arXiv:2307.13357](https://arxiv.org/abs/2307.13357)&rbrack;
 
-* Nelson R. F. Braga, Octavio C. Junqueira, *Hawking-Page transition in holographic QCD at finite density* &lbrack;[arXiv:2404.04683](https://arxiv.org/abs/2404.04683)&rbrack;
+* [[Nelson R. F. Braga]], Octavio C. Junqueira, *Hawking-Page transition in holographic QCD at finite density*, Phys. Lett. B **855** (2024) 138813 &lbrack;[arXiv:2404.04683](https://arxiv.org/abs/2404.04683), [doi:10.1016/j.physletb.2024.138813](https://doi.org/10.1016/j.physletb.2024.138813)&rbrack;
 
 * {#JokelaJärvinenPiispa24} [[Niko Jokela]], [[Matti Järvinen]], Aleksi Piispa, *Refining holographic models of the quark-gluon plasma* &lbrack;[arXiv:2405.02394](https://arxiv.org/abs/2405.02394)&rbrack;
 
