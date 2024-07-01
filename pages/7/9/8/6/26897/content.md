@@ -70,7 +70,7 @@ Analogous discussion for embeddings with less supersymmetry, corresponding to [[
 
 * Varun Gupta, *Holographic M5 branes in $\mathrm{AdS}_7 \times S^4$*,  J. High Energ. Phys. **2021** 32 (2021) \[<a href="https://doi.org/10.1007/JHEP12(2021)032">doi:10.1007/JHEP12(2021)032</a>, [arXiv:2109.08551](https://arxiv.org/abs/2109.08551)\]
 
-* Varun Gupta, *More Holographic M5 branes in $\mathrm{AdS}_7 \times S^4$, Phys. Lett. B **853** (2024) 138650 \[<a href="https://doi.org/10.1016/j.physletb.2024.138650">doi:10.1016/j.physletb.2024.138650</a>, [arXiv:2301.02528](https://arxiv.org/abs/2301.02528)\]
+* Varun Gupta, *More Holographic M5 branes in $\mathrm{AdS}_7 \times S^4$*, Phys. Lett. B **853** (2024) 138650 \[<a href="https://doi.org/10.1016/j.physletb.2024.138650">doi:10.1016/j.physletb.2024.138650</a>, [arXiv:2301.02528](https://arxiv.org/abs/2301.02528)\]
 
 
 
