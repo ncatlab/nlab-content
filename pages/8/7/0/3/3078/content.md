@@ -18,6 +18,12 @@ On [[Rozansky-Witten invariants]]:
 
 * {#Kapranov99} [[Mikhail Kapranov]], _Rozansky&#8211;Witten invariants via Atiyah classes_,  Compositio Math.  __115__ (1999), no. 1, 71--113 ([MR2000h:57056](http://www.ams.org/mathscinet-getitem?mr=2000h:57056), [doi](http://dx.doi.org/10.1023/A:1000664527238), [alg-geom/9704009](http://arxiv.org/abs/alg-geom/9704009))
 
+On [[2-representations]]:
+
+* [[Nora Ganter]], [[Mikhail Kapranov]]: _Representation and character theory in 2-categories_, Adv. Math. __217__ 5 (2008) 2268-2300 &lbrack;[math.AT/0602510](http://arxiv.org/abs/math/0602510), [doi:10.1016/j.aim.2007.10.004](https://doi.org/10.1016/j.aim.2007.10.004)&rbrack;
+
+* [[Nora Ganter]], [[Mikhail Kapranov]]: _Symmetric and exterior powers of categories_, Journal of Transformation Groups **19** 1 (2014) 57-103 &lbrack;[arxiv/1110.4753](http://arxiv.org/abs/1110.4753), [doi:10.1007/s00031-014-9255-z](https://doi.org/10.1007/s00031-014-9255-z)&rbrack;
+
 
 Discussion of [[superalgebra]] as induced from free groupal symmetric monoidal categories ([[abelian 2-groups]]) and hence ultimately from the [[sphere spectrum]] (cf. *[[super 2-algebra]]* and *[[spectral superscheme]]*):  
 
