@@ -13,6 +13,8 @@
 
 * [Yau Mathematical Science Center](https://ymsc.tsinghua.edu.cn/en/)
 
+
+
 ## Selected writings
 
 Establishing what came to be called *[[Calabi-Yau manifolds]]*:
@@ -24,6 +26,13 @@ On the [[mirror map]]:
 
 * S. Hosono, [[Albrecht Klemm]], [[Stefan Theisen]], [[Shing-Tung Yau]], _Mirror symmetry, mirror map and applications to Calabi-Yau hypersurfaces_, Commun. Math. Phys. __167__ (1995) 301-350 &lbrack;[doi:10.1007/BF02100589](https://doi.org/10.1007/BF02100589), [arXiv:hep-th/9308122](https://arxiv.org/abs/hep-th/9308122)
 &rbrack;
+
+On [[conformal boundaries]] in the [[AdS/CFT correspondence]]:
+
+* [[Edward Witten]], [[Shing-Tung Yau]], *Connectedness Of The Boundary In The AdS/CFT Correspondence*, Adv. Theor. Math. Phys. **3** (1999) 1635-1655 &lbrack;[arXiv:hep-th/9910245](https://arxiv.org/abs/hep-th/9910245), [doi:10.4310/ATMP.1999.v3.n6.a1](https://dx.doi.org/10.4310/ATMP.1999.v3.n6.a1)&rbrack;
+
+
+
 
 On [[moduli spaces of curves]]/[[moduli spaces of Riemann surfaces]] with emphasis on their [[orbifold]]-structure:
 
@@ -40,14 +49,17 @@ On a rigorous [[proof]] of [[moduli stabilization]] of vacuum [[spacetimes]], re
 
 * {#AndersonBlueWyattYau20} [[Lars Andersson]], [[Pieter Blue]], [[Zoe Wyatt]], [[Shing-Tung Yau]], _Global stability of spacetimes with supersymmetric compactifications_ ([arXiv:2006.00824](https://arxiv.org/abs/2006.00824))
 
-On [[mirror map]]
+On the [[mirror map]]:
 
 * [[Bong H. Lian]], [[Shing-Tung Yau]], _Arithmetic properties of mirror map and quantum coupling_, Commun. Math. Phys. __176__ (1996) 163--191 [doi](https://doi.org/10.1007/BF02099367)
+
 * B. Lian, S-T. Yau, _Mirror symmetry, rational curves on algebraic manifolds and hypergeometric series_, 163--183 in: XIth International Congress of Mathematical Physics (Paris 1994), Daniel Iagolnitzer (eds.), Intern. Press 1995
+
 * [[Bong H. Lian]], [[Shing-Tung Yau]], _Mirror maps, modular relations and hypergeometric series I_, arXiv:[hep-th/9507151](https://arxiv.org/pdf/hep-th/9507151)
+
 * [[Bong H. Lian]], [[Shing-Tung Yau]], _Mirror maps, modular relations and hypergeometric series II_, arXiv:[hep-th/9507153](https://arxiv.org/abs/hep-th/9507153) Nuclear Physics B - Proc. Suppl. __46__:1--3 (1996) 248--262 <a href="https://doi.org/10.1016/0920-5632(96)00026-6">doi</a>
 
-## related $n$Lab entries
+## Related entries
 
 * [[Calabi-Yau manifold]]
 
