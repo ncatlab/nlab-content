@@ -331,9 +331,10 @@ and as such validates the [[Ryu-Takayanagi formula]] for [[holographic entanglem
 
 * [[AdS/CFT correspondence]], [[AdS/QCD correspondence]]
 
+
 ## References
 
-### General
+### Geometry
 
 Review:
 
@@ -364,6 +365,15 @@ Further discussion:
 
 
 * Jiri Podolsky, Ondrej Hruska, _Yet another family of diagonal metrics for de Sitter and anti-de Sitter spacetimes_, Phys. Rev. D 95, 124052 (2017) ([arXiv:1703.01367](https://arxiv.org/abs/1703.01367))
+
+### Quantum field theory
+ {#ReferencedQuantumFieldTheory}
+
+Discussion of ([[scalar field|scalar]]) [[quantum field theory]] [[quantum field theory on curved spacetimes|on AdS backgrounds]]:
+
+* S. J. Avis, [[Chris J. Isham]], D. Storey: *Quantum field theory in anti-de Sitter space-time*, Phys. Rev. D **18** 3565 (1978) &lbrack;[doi:10.1103/PhysRevD.18.3565](https://doi.org/10.1103/PhysRevD.18.3565)&rbrack;
+
+* Peter Breitenlohner, [[Daniel Z. Freedman]], *Positive energy in anti-de Sitter backgrounds and gauged extended supergravity*, Physics Letters B **115** 3 (1982) 197-201 &lbrack;<a href="https://doi.org/10.1016/0370-2693(82)90643-8">doi:10.1016/0370-2693(82)90643-8</a>&rbrack;
 
 Discussion of thermal [[Wick rotation]] on global [[anti-de Sitter spacetime]]  (which is already periodic in _real_ time) to [[Euclidean field theory]] with periodic _imaginary_ time is in
 
