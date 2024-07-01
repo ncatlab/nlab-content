@@ -1,12 +1,20 @@
-Chris Isham is an Emeritus Professor and Senior Research Investigator at Imperial College, London.
 
-* [website](https://www.imperial.ac.uk/people/c.isham) 
 
-* [biography](http://en.wikipedia.org/wiki/Christopher_Isham) (brief)
+Chris J. Isham is an Emeritus Professor and Senior Research Investigator at Imperial College, London.
 
-* Section 3 of: *Chris Isham: mentor, colleague, friend*, by [[Michael Duff]] ([arXiv:2112.13722](https://arxiv.org/abs/2112.13722))
+* [institute page](https://www.imperial.ac.uk/people/c.isham) 
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Christopher_Isham)
+
+* [[Michael Duff]]: *Chris Isham: mentor, colleague, friend* &lbrack;[arXiv:2112.13722](https://arxiv.org/abs/2112.13722), [inspire:1997285](https://inspirehep.net/literature/1997285)&rbrack;
+
 
 ## Selected writings
+
+Early discussion of [[scalar field|scalar]] [[quantum field theory]] [[quantum field theory on curved spacetimes|on]] [[anti de Sitter spacetimes]]:
+
+* S. J. Avis, [[Chris J. Isham]], D. Storey: *Quantum field theory in anti-de Sitter space-time*, Phys. Rev. D **18** 3565 (1978) &lbrack;[doi:10.1103/PhysRevD.18.3565](https://doi.org/10.1103/PhysRevD.18.3565)&rbrack;
+
 
 On [[supersymmetry]] and [[G-structure]] (notably [[Spin(7)-structure]] in [[M-theory on 8-manifolds]]):
 
@@ -54,7 +62,7 @@ On [[differential geometry]] in [[mathematical physics]]:
 
 * _[[Modern Differential Geometry for Physicists]]_
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Kochen-Specker theorem]]
 
@@ -66,3 +74,7 @@ On [[differential geometry]] in [[mathematical physics]]:
 category: people
 
 [[!redirects Christopher Isham]]
+
+[[!redirects Chris J. Isham]]
+[[!redirects Christopher J. Isham]]
+
