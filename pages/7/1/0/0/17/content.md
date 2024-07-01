@@ -756,12 +756,13 @@ or
 
 or 
 
+
 * {#ReferenceStyleLinks} use reference-style links
 
   `[link text][1]` $\;$ `[1]: url`
 
 
-  > Of course, you need to replace "1" here by a distinct number for every distinct url on a given page (which also means that this syntax is tedious and error-prone, especially when copy-and-pasting material).
+  > Of course, you need to replace "1" here by a *distinct* number (or alphanumeric string) for every distinct url on a given page (which also means that this syntax is error-prone, especially when copy-and-pasting material).
 
 
 For example
