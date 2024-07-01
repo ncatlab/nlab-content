@@ -412,7 +412,7 @@ when regarded as a [[tensor]], namely as a morphism of [[vector bundles]] from t
 \]
 \end{proposition}
 \begin{proof}
-  Let $(v_a)_{a = 1}^{dim X}$ be a local Darboux *frame* of $X$, so that $(v_a)_{a =1}^{dim \Sigma}$ is a local frame on $\Sigma$ (called the *tangential* frame vectors, the others being the *transversal* ones).
+  Let $(v_a)_{a = 1}^{dim X}$ be a local Darboux *frame* (eq:DarbouxFrameProperty) on $X$, so that $(v_a)_{a =1}^{dim \Sigma}$ is a local frame on $\Sigma$ (called the *tangential* frame vectors, the others being the *transversal* ones).
 
 It follows that pushforward of vector field in this Darboux basis is just the canonical injection
 
@@ -482,7 +482,7 @@ $$
   (\nabla^X_v w)^\perp
   \,.
 $$
-In this form it appears for instance in [Kobayashi & Nomizu 1963 §VII.3](#KobayashiNomizu63), [Chavel 1993 (II.2.2)](#Chavel93), the relation to (eq:SecondFundamentalFormAsDifferenceOfCovariantDerivatives) is made explicit by [Baird & Wood 2003 Def. 3.2.3](#BairdWood03), cf also [Willmore 1996, p. 126](#Willmore96). 
+In this form it appears for instance in [Kobayashi & Nomizu 1963 §VII.3](#KobayashiNomizu63), [Chavel 1993 (II.2.2)](#Chavel93); the relation to (eq:SecondFundamentalFormAsDifferenceOfCovariantDerivatives) is made explicit by [Baird & Wood 2003 Def. 3.2.3](#BairdWood03), cf also [Willmore 1996, p. 126](#Willmore96). 
 
 
 
@@ -559,16 +559,19 @@ Finally, one may write out the covariant derivatives in a [[coordinate chart]] i
 In this guise the second fundamental form was originally given in [Eells & Sampson 1964 (p. 118 & 123 with p. 111)](#EellsSampson64) following [Eisenhart 1925, §43](#Eisenhart25), reviewed by [Baird & Wood 2003 (3.2.2)](#BairdWood03).
 \end{remark}
 
-\begin{remark}
+\begin{remark}\label{TotallyGeodesicImmersion}
+**(totally geodesic immersions)**
+\linebreak
 If the fundamental form &#8545; of a Riemannian immersion $\phi \colon, \Sigma \to X$ vanishes, then [[geodesics]] in $\Sigma$ are taken by $\phi$ to geodesics in $X$, hence such $\phi$ is said to be *totally geodesic* &lbrack;[Eells & Sampson 1964 p. 126](#EellsSampson64), [Baird & Wood 2003 Def. 3.2.1](#BairdWood03)&rbrack;.
 \end{remark}
 
 \linebreak
 
 ### Tension field
+ {#TensionField}
 
 \begin{definition}
-\label{TensionField}
+\label{TheTensionField}
 The *tension field* of the immersion $\phi$ is the contraction (trace) of the [second fundamental form](#SecondFundamentalForm):
 
 $$
@@ -582,7 +585,7 @@ $$
 From (eq:SecondFundamentalFormInCoordinates) we have immediately the coordinate expression
   $$
     \begin{array}{l}
-      \tai^k
+      \tau^k
       \;=\;
       \eta^{a b} \, {&#8545;}^k_{a b}
       \;=\;
@@ -621,7 +624,7 @@ From (eq:SecondFundamentalFormInCoordinates) we have immediately the coordinate 
 \begin{theorem}\label{HarmonicEquation}
 **(harmonic equation)**
 \linebreak
-The vanishing of the tension field $\tau$ (Def. \ref{TensionField}) characterizes Riemannian immersion which are [[harmonic maps]].
+The vanishing of the tension field $\tau$ (Def. \ref{TheTensionField}) characterizes Riemannian immersion which are [[harmonic maps]].
 \end{theorem}
 ([Eells & Sampson 1964 pp. 116](#EellsSampson64), [Baird & Wood 2003 Thm. 3.3.3](#BairdWood03))
 
