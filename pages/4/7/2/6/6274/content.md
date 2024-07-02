@@ -61,7 +61,7 @@ Discussion of [[conformal structure]] as  [[G-structure]]:
 * Maks A. Akivis, Vladislav V. Goldberg, _Conformal and Grassmann structures_, Differential Geom. Appl. 8 (1998) no. 2 177-203 ([arXiv:math/9805107](https://arxiv.org/abs/math/9805107))
 
 
-Discussion of conformal [[Cartan geometry]] ([[parabolic geometry]]) includes
+Discussion of conformal [[Cartan geometry]] ([[parabolic geometry]]):
 
 * {#CapSlovak09} [[Andreas Čap]], [[Jan Slovák]], sections 1.1.5, 1.6 of _Parabolic Geometries I -- Background and General Theory_, AMS 2009
 
@@ -73,14 +73,18 @@ Discussion of conformal [[Cartan geometry]] ([[parabolic geometry]]) includes
 
 * Sean Curry, A. Rod Gover, _An introduction to conformal geometry and tractor calculus, with a view to applications in general relativity_, 2014, ([ 	arXiv:1412.7559](http://arxiv.org/abs/1412.7559))
 
-A survey of the field as of 2007 is in 
+A survey of the field as of 2007:
 
+* A. Rod Gover, [[Andreas Čap]], _Conformal and CR geometry: Spectral and nonlocal aspects_ (2007) &lbrack;[pdf](https://www.birs.ca/workshops/2007/07rit132/report07rit132.pdf)&rbrack;
 
-* A. Rod Gover, [[Andreas Čap]], _Conformal and CR geometry: Spectral and nonlocal aspects_ [pdf](https://www.birs.ca/workshops/2007/07rit132/report07rit132.pdf)
+Discussion with an eye towards combination with [[spin geometry]]:
 
-Discussion with an eye towards combination with [[spin geometry]] is in 
+* [[Pierre Anglès]], _Conformal Groups in Geometry and Spin Structures_, Progress in Mathematical Physics (2008)
 
-* [[Pierre Anglès]], _Conformal Groups in Geometry and Spin Structures_, Progress in Mathematical Physics 2008
+Application to [[gravity]] ([[general relativity]]):
+
+* [[Juan A. Valiente Kroon]]: *Conformal Methods in General Relativity*, Cambridge University Press (2017, 2022) &lbrack;[doi:10.1017/9781009291309](https://doi.org/10.1017/9781009291309), [oapen:20.500.12657/59217](https://library.oapen.org/handle/20.500.12657/59217), [pdf](https://library.oapen.org/bitstream/id/548cfabe-a25b-4562-b95e-aa2894525f32/9781009291309.pdf)&rbrack;
+
 
 
 [[!redirects conformal geometries]]
