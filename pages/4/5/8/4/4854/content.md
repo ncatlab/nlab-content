@@ -57,7 +57,8 @@ For details see at _[[geometry of physics -- A first idea of quantum field theor
 
 ## References
 
-Named after _[[Hermann Minkowski]]_.
+Named after _[[Hermann Minkowski]]_. See the references at *[[Minkowski spacetime]]*.
+
 
 [[!redirects Minkowski metrics]]
 
