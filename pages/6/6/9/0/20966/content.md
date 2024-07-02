@@ -16,7 +16,7 @@
 
 ## Idea 
 
-The special case of [[AdS/CFT duality]] in dimensions 2/1. The reason why this is called "nearly" AdS2/CFT1 is because in the degenerate low dimensions the [[field theory]] of this duality isn't [[conformal field theory|conformal]] and the [[gravity]] isn't in [[anti de Sitter spacetime]]. 
+The special case of [[AdS/CFT duality]] in dimensions 2/1. is called *"nearly" AdS2/CFT1* because in these degenerate low dimensions the [[quantum field theory]] in duality is not quite  [[conformal field theory|conformal]] and the ambient [[spacetime]]  is not quite asymptotically [[anti de Sitter spacetime|anti de Sitter]]. 
 
 ## References
 
