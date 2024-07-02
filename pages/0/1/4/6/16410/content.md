@@ -61,9 +61,15 @@ This admits different spatial slicings of relevance:
 
 * Marcus Spradlin, [[Andrew Strominger]], Anastasia Volovich, _Les Houches Lectures on De Sitter Space_ ([arXiv:hep-th/0110007](https://arxiv.org/abs/hep-th/0110007))
 
-See also
+See also:
 
 * Wikipedia, _[de Sitter space](http://en.wikipedia.org/wiki/De_Sitter_space)_
+
+With focus on methods of [[conformal geometry]]:
+
+* [[Juan A. Valiente Kroon]], chapter 15 of: *Conformal Methods in General Relativity*, Cambridge University Press (2017, 2022) &lbrack;[doi:10.1017/9781009291309](https://doi.org/10.1017/9781009291309), [oapen:20.500.12657/59217](https://library.oapen.org/handle/20.500.12657/59217), [pdf](https://library.oapen.org/bitstream/id/548cfabe-a25b-4562-b95e-aa2894525f32/9781009291309.pdf)&rbrack;
+
+
 
 Further discussion of the [[de Sitter group]] and its [[representation theory]]:
 
