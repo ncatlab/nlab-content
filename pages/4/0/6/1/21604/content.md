@@ -3,9 +3,10 @@
 
 ## Selected writings
 
-On [[supergeometry]] ([[supermanifolds]], [[super Lie groups]]) from the perspective of [[functorial geometry]]:
+On [[supergeometry]] ([[supermanifolds]], [[super Lie groups]], [[supersymmetry]]) from the perspective of [[functorial geometry]]:
 
-* [[Claudio Carmeli]], Lauren Caston, [[Rita Fioresi]], _Mathematical Foundations of Supersymmetry_, EMS Series of Lectures in Mathematics Volume: 15; 2011; 263 pp; ( [ISBN:978-3-03719-097-5](https://bookstore.ams.org/emsserlec-15/), [arXiv:0710.5742](https://arxiv.org/abs/0710.5742))
+* [[Claudio Carmeli]], [[Lauren Caston]], [[Rita Fioresi]]: *Mathematical foundations of supersymmetry*, EMS Series of Lectures in Mathematics, EMS (2011) &lbrack;[ems:elm/97](https://ems.press/books/elm/97), [doi:10.4171/097](https://doi.org/10.4171/097), [epdf](https://epdf.tips/mathematical-foundations-of-supersymmetry.html), short draft: [arXiv:0710.5742](https://arxiv.org/abs/0710.5742)&rbrack;
+
 
 
 category: people
