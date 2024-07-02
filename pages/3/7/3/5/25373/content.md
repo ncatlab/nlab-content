@@ -70,6 +70,9 @@ Using (motivating) the [[ZX-calculus]] for formalizing measurement-based quantum
 
 * [[Ross Duncan]], *A graphical approach to measurement-based quantum computing* &lbrack;[arXiv:1203.6242](https://arxiv.org/abs/1203.6242) video exposition:[YT](https://youtu.be/E_zH9C0ds8c?t=648)&rbrack;
 
+Proposed relation to [[gauge theory]]:
+
+* Gabriel Wong, [[Robert Raussendorf]], [[Bartlomiej Czech]]: *The Gauge Theory of Measurement-Based Quantum Computation* &lbrack;[arXiv:2207.10098](https://arxiv.org/abs/2207.10098)&rbrack;
 
 
 
