@@ -7,7 +7,7 @@ David Berman is professor in theoretical [[physics]] at Queen Mary University of
 
 On [[M-branes]]:
 
-* [[David Berman]]: p. 20 in: *M-theory branes and their interactions*, Phys. Rept. **456** (2008) 89-126 &lbrack;[arXiv:0710.1707](https://arxiv.org/abs/0710.1707), [doi:10.1016/j.physrep.2007.10.002](https://doi.org/10.1016/j.physrep.2007.10.002)&rbrack;
+* [[David Berman]]: *M-theory branes and their interactions*, Phys. Rept. **456** (2008) 89-126 &lbrack;[arXiv:0710.1707](https://arxiv.org/abs/0710.1707), [doi:10.1016/j.physrep.2007.10.002](https://doi.org/10.1016/j.physrep.2007.10.002)&rbrack;
 
 
 On [[boundary conditions]] for interacting [[M2-branes]] in regarding through the [[ABJM model]]:
