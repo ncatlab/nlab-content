@@ -136,7 +136,7 @@ Textbook accounts:
 
   > on [[black holes]], [[cosmology]] and the ([[D'Auria-Fré formulation of supergravity|D'Auria-Fré formulation of]]) [[supergravity]]
 
-Background on [[pseud-Riemannian manifolds|pseudo-]][[Riemannian geometry]]:
+Background on [[pseudo-Riemannian manifolds|pseudo-]][[Riemannian geometry]]:
 
 * [[Barrett O'Neill]], *Semi-Riemannian Geometry With Applications to Relativity*, Pure and Applied Mathematics **103**, Academic Press (1983) &lbrack;[ISBN:9780125267403](https://shop.elsevier.com/books/semi-riemannian-geometry-with-applications-to-relativity/oneill/978-0-12-526740-3)&rbrack;
 
@@ -156,6 +156,12 @@ Lecture notes:
 See also 
 
 * {#Coley18} [[Alan Coley]], _Mathematical General Relativity_ ([arXiv:1807.08628](https://arxiv.org/abs/1807.08628))
+
+With focus on methods of [[conformal geometry]] ([[conformal boundaries]], [[conformal compactification]]):
+
+* [[Juan A. Valiente Kroon]]: *Conformal Methods in General Relativity*, Cambridge University Press (2017, 2022) &lbrack;[doi:10.1017/9781009291309](https://doi.org/10.1017/9781009291309), [oapen:20.500.12657/59217](https://library.oapen.org/handle/20.500.12657/59217), [pdf](https://library.oapen.org/bitstream/id/548cfabe-a25b-4562-b95e-aa2894525f32/9781009291309.pdf)&rbrack;
+
+
 
 On gravity in relation to [[thermodynamics]]:
 
