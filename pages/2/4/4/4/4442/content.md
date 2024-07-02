@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -457,7 +458,6 @@ Via [[exceptional field theory]]:
 
 ### Introductions and surveys
 
-Surveys and introductions:
 
 * [[Edward Witten]], *Baryons and Branes in Anti de Sitter Space* talk at *[String98](https://online.kitp.ucsb.edu/online/strings98/)* (1998) &lbrack;[web](https://online.kitp.ucsb.edu/online/strings98/witten/)&rbrack;
 
@@ -475,13 +475,15 @@ Surveys and introductions:
 
 * {#AharonyGubserMaldacenaOoguriOz99} [[Ofer Aharony]], [[Steven Gubser]], [[Juan Maldacena]], [[Hirosi Ooguri]], [[Yaron Oz]], _Large $N$ Field Theories, String Theory and Gravity_, Phys. Rept. **323**  183-386 (2000) &lbrack;<a href="https://doi.org/10.1016/S0370-1573(99)00083-6">doi:10.1016/S0370-1573(99)00083-6</a>, [arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111)&rbrack;
 
-* {#Anderson04} Michael T. Anderson, _Geometric aspects of the AdS/CFT correspondence_ ([arXiv:hep-th/0403087](https://arxiv.org/abs/hep-th/0403087)) 
+* [[Jan de Boer]], *Introduction to AdS/CFT correspondence*, talk at [SUSY02](http://www-library.desy.de/preparch/desy/proc/proc02-02/SUSY-Start.html) (2002) &lbrack;[pdf](http://www-library.desy.de/preparch/desy/proc/proc02-02/Proceedings/pl.6/deboer_pr.pdf), [[deBoer-IntroAdSCFT.pdf:file]]&rbrack;
 
-* [[Horatiu Nastase]], _Introduction to AdS-CFT_ ([arXiv:0712.0689](http://arxiv.org/abs/0712.0689))
+* {#Anderson04} Michael T. Anderson, _Geometric aspects of the AdS/CFT correspondence_ &lbrack;[arXiv:hep-th/0403087](https://arxiv.org/abs/hep-th/0403087)&rbrack;
 
-* [[Horatiu Nastase]], _Introduction to AdS/CFT correspondence_, Cambridge University Press, 2015 ([cds:1984145](http://cds.cern.ch/record/1984145), [doi:10.1017/CBO9781316090954](https://doi.org/10.1017/CBO9781316090954))
+* [[Christopher P. Herzog]], [[Igor R. Klebanov]]: *AdS/CFT Correspondence*, Encyclopedia of Mathematical Physics, Academic Press (2006) 174-183 &lbrack;[doi:10.1016/B0-12-512666-2/00245-5](https://doi.org/10.1016/B0-12-512666-2/00245-5)&rbrack;
 
-* [[Jan de Boer]], _Introduction to AdS/CFT correspondence_, [pdf](http://www-library.desy.de/preparch/desy/proc/proc02-02/Proceedings/pl.6/deboer_pr.pdf)
+* [[Horatiu Nastase]], _Introduction to AdS-CFT_ &lbrack;[arXiv:0712.0689](http://arxiv.org/abs/0712.0689)&rbrack;
+
+* [[Horatiu Nastase]], *Introduction to AdS/CFT correspondence*, Cambridge University Press (2015) &lbrack;[cds:1984145](http://cds.cern.ch/record/1984145), [doi:10.1017/CBO9781316090954](https://doi.org/10.1017/CBO9781316090954)&rbrack;
 
 * [[Gary Horowitz]], [[Joseph Polchinski]], _Gauge/gravity duality_ &lbrack;[gr-qc/0602037](http://arxiv.org/abs/gr-qc/0602037)&rbrack;
 
