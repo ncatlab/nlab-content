@@ -87,15 +87,13 @@ It is also worth mentioning some non-examples.
 
 ## References
 
-* Albert and [[Max Kelly|Kelly]], "The closure of a class of colimits", J. Pure. App. Alg. 51 (1988), 1--17
- {#AK}
+* {#AK} M. H. Albert and [[G. Max Kelly]]: *The closure of a class of colimits*, J. Pure. App. Alg. **51** (1988) 1-17 \[<a href="https://doi.org/10.1016/0022-4049(88)90073-4">doi:10.1016/0022-4049(88)90073-4</a>\]
+ 
+* {#KP} [[Max Kelly]] and [[Robert Paré]]: *A note on the Albert-Kelly paper 'The closure of a class of colimits'*, JPAA 51 (1988) 19-25 \[<a href="https://doi.org/10.1016/0022-4049(88)90074-6">doi;10.1016/0022-4049(88)90074-6</a>\]
+ 
+* [[G. Max Kelly]] and V. Schmitt, _Notes on enriched categories with colimits of some class_, Theory and Applications of Categories 14 (2005) 399–423 \[<a href="http://www.tac.mta.ca/tac/volumes/14/17/14-17abs.html">tac:14-17</a>[arXiv:math/0501383](https://arxiv.org/abs/math/0501383)\]
 
-* [[Max Kelly]] and [[Robert Paré]], "A note on the Albert-Kelly paper 'The closure of a class of colimits'", JPAA 51 (1988), 19--25
- {#KP}
-
-* [[Max Kelly]] and V. Schmitt, _Notes on enriched categories with colimits of some class_, Theory and Applications of Categories 14 (2005) 399–423.
-
-* [[Charles Rezk]], _Free colimit completion in $\infty $-categories_, [arXiv:2210.08582](https://arxiv.org/abs/2210.08582) (2022).
+* [[Charles Rezk]], _Free colimit completion in $\infty$-categories_ &lbrack[arXiv:2210.08582](https://arxiv.org/abs/2210.08582)&rbrack (2022).
 
 [[!redirects saturated class of limits]]
 [[!redirects saturated classes of limits]]
