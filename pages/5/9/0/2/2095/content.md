@@ -8,7 +8,13 @@ Charles Wells is Professor Emeritus of Mathematics at
 
 * [publications](http://www.cwru.edu/artsci/math/wells/pub/papers.html)
 
+
 ## Selected writings:
+
+On the [[categorical wreath product]]:
+
+* [[Charles Wells]]: _A Krohn-Rhodes theorem for categories_, J. Algebra **64** 1 (1980) 37-45 \[<a href="https://doi.org/10.1016/0021-8693(80)90130-1">doi:10.1016/0021-8693(80)90130-1</a>\]
+
 
 Exposition of [[sheaf toposes]]:
 
