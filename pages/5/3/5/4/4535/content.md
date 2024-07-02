@@ -31,6 +31,11 @@ Described for instance by [[Kruskal–Szekeres coordinates]].
 
 * Wikipedia, _[Schwarzschild metric](https://en.wikipedia.org/wiki/Schwarzschild_metric)_
 
+With attention to its [[conformal geometry]] ([[conformal boundary]]):
+
+* [[Juan A. Valiente Kroon]]: *Conformal Methods in General Relativity*, Cambridge University Press (2017, 2022) &lbrack;[doi:10.1017/9781009291309](https://doi.org/10.1017/9781009291309), [oapen:20.500.12657/59217](https://library.oapen.org/handle/20.500.12657/59217), [pdf](https://library.oapen.org/bitstream/id/548cfabe-a25b-4562-b95e-aa2894525f32/9781009291309.pdf)&rbrack;
+
+
 In higher dimensions:
 
 * F.R. Tangherlini, _Schwarzschild field in $n$ dimensions and the dimensionality of space problem_, Nuovo Cim. 27 (1963) 636.
