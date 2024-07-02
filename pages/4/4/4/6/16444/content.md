@@ -61,7 +61,9 @@ A conformal compactification, of _complexified_ [[Minkowski spacetime]] $\mathbb
 
 * {#FioresiLledoVaradarajan07} Rita Fioresi, Maria A. Lledo, [[Veeravalli Varadarajan]], _The Minkowski and conformal superspaces_, J. Math. Phys. **48** (2007) 113505 &lbrack;[arXiv:math/0609813](https://arxiv.org/abs/math/0609813), [doi:10.1142/8972](https://doi.org/10.1142/8972)&rbrack;
 
-* {#Wong09} Willie Wong, _Conformal compactification of space-time_ ([web](https://qnlw.info/post/conformal-compactification-spacetime/)) (2009).
+* {#Wong09} Willie Wong, _Conformal compactification of space-time_ (2009) &lbrack;[web](https://qnlw.info/post/conformal-compactification-spacetime/)&rbrack;
+
+* [[Juan A. Valiente Kroon]]: *Conformal Methods in General Relativity*, Cambridge University Press (2017, 2022) &lbrack;[doi:10.1017/9781009291309](https://doi.org/10.1017/9781009291309), [oapen:20.500.12657/59217](https://library.oapen.org/handle/20.500.12657/59217), [pdf](https://library.oapen.org/bitstream/id/548cfabe-a25b-4562-b95e-aa2894525f32/9781009291309.pdf)&rbrack;
 
 On conformal compactification via [[Cartan geometry]]:
 
