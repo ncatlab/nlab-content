@@ -14,6 +14,11 @@ On [[gauge theory]] ([[Yang-Mills theory]]):
 
 * [[Yuri Makeenko]], *Methods of contemporary gauge theory*, Cambridge Monographs on Math. Physics, Cambridge University Press (2002) &lbrack;[doi:10.1017/CBO9780511535147]( https://doi.org/10.1017/CBO9780511535147), [gBooks](http://books.google.com/books?id=9W-W2w75ulAC)&rbrack;
 
+On the [[Nambu-Goto action]] in relation to [[Liouville theory]]:
+
+* [[Yuri Makeenko]], *The Nambu-Goto string as higher-derivative Liouville theory* &lbrack;[arXiv:2407.01136](https://arxiv.org/abs/2407.01136)&rbrack;
+
+
 
 category: people
 
