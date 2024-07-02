@@ -107,9 +107,13 @@ Emphasis on [[mathematical physics]]
 
 * José Natário, _Mathematical relativity_ ([arXiv:2003.02855](https://arxiv.org/abs/2003.02855))
 
+With focus on methods of [[conformal geometry]] ([[conformal boundaries]], [[conformal compactification]]):
+
+* [[Juan A. Valiente Kroon]]: *Conformal Methods in General Relativity*, Cambridge University Press (2017, 2022) &lbrack;[doi:10.1017/9781009291309](https://doi.org/10.1017/9781009291309), [oapen:20.500.12657/59217](https://library.oapen.org/handle/20.500.12657/59217), [pdf](https://library.oapen.org/bitstream/id/548cfabe-a25b-4562-b95e-aa2894525f32/9781009291309.pdf)&rbrack;
+
+
 
 Introductory exposition:
-
 
 
 * [[John Baez]], [The General Relativity Tutorial](http://math.ucr.edu/home/baez/gr/gr.html)
