@@ -56,6 +56,14 @@ On [[sketches]] and [[locally presentable categories]] in the generality of [[en
 
 * {#Kelly82} [[G. Max Kelly]], *Structures defined by finite limits in the enriched context, I*, Cahiers de topologie et géométrie différentielle **23** 1 (1982)  3-42 &lbrack;[numdam:CTGDC_1982__23_1_3_0](http://archive.numdam.org/item/CTGDC_1982__23_1_3_0)&rbrack;
 
+On [[saturated classes of colimits]]:
+
+* {#AK} M. H. Albert and [[G. Max Kelly]]: *The closure of a class of colimits*, J. Pure. App. Alg. **51** (1988) 1-17 \[<a href="https://doi.org/10.1016/0022-4049(88)90073-4">doi:10.1016/0022-4049(88)90073-4</a>\]
+ 
+* {#KP} [[Max Kelly]] and [[Robert Paré]]: *A note on the Albert-Kelly paper 'The closure of a class of colimits'*, JPAA 51 (1988) 19-25 \[<a href="https://doi.org/10.1016/0022-4049(88)90074-6">doi;10.1016/0022-4049(88)90074-6</a>\]
+ 
+* [[G. Max Kelly]] and V. Schmitt, _Notes on enriched categories with colimits of some class_, Theory and Applications of Categories 14 (2005) 399–423 \[<a href="http://www.tac.mta.ca/tac/volumes/14/17/14-17abs.html">tac:14-17</a>[arXiv:math/0501383](https://arxiv.org/abs/math/0501383)\]
+
 
 On [[essential localizations]]:
 
@@ -146,7 +154,9 @@ On [[monadicity]] over [[graphs]] of [[categories]] with (co)limits:
 1. Two addenda to the author’s transfinite constructions article, Bulletin Austral. Math. Soc. 26 (1982) 221–237.
 1. (with S. Kasangian and F. Rossi) Cofibrations and the realization of nondeterministic automata, Cahiers de topologie et géométrie différentielle 24 (1983) 23–46.
 1. (with E. J. Dubuc) A presentation of topoias algebraic relative to categories or graphs, J. Algebra 81 (1983) 420–433.
+
 1. A note on the generalized reflexion of Guitart and Lair, Cahiers de topologie et géométrie différentielle 24 (1983) 155–159.
+
 1. (with F. Rossi) Topological categories with many symmetric monoidal closed structures, Bulletin Austral. Math. Soc. 31 (1985) 41–59.
 1. (with C. Cassidy and M. Hébert) Reflective subcategories, localizations and factorization systems, J. Austral. Math. Soc. 38 (Series A) (1985) 287–329; Corrigenda Ibid. 41 (1986) 286.
 1. (with G. B. Im) On classes of morphisms closed under limits, J. Korean Math. Soc. 23 (1986) 1–18.
@@ -156,8 +166,8 @@ On [[monadicity]] over [[graphs]] of [[categories]] with (co)limits:
 1. (with F. Borceux) On locales of localizations, J. Pure Appl. Algebra 46 (1987) 1–34.
 1. (with G. B. Im) Adjoint-triangle theorems for conservative functors, Bulletin Austral. Math. Soc. 36 (1987) 133–136.
 1. On the ordered set of reflective subcategories, Bulletin Austral. Math. Soc. 36 (1987) 137–152.
-1. (with M. H. Albert) The closure of a class of colimits, J. Pure Appl. Algebra 51 (1988) 1–17.
-1. (with R. Paré) A note on the Albert-Kelly paper “The closure of a class of colimits”, J. Pure Appl. Algebra 51 (1988) 19–25.
+
+
 1. Elementary observations on 2-categorical limits, Bulletin Austral. Math. Soc. 39 (1989) 301–317.
 1. (with R. Blackwell and A. J. Power) Two dimensional monad theory, J. Pure Appl. Algebra 59 (1989) 1–41.
 
