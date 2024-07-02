@@ -65,6 +65,9 @@ which hence introduced the terminology "Hopf-Wess-Zumino term". Followup to this
 
 * [[Alex Arvanitakis]], Section 4.1 of _Brane Wess-Zumino terms from AKSZ and exceptional generalised geometry as an $L_\infty$-algebroid_, Advances in Theoretical and Mathematical Physics Volume 23 (2019) Number 5 ([arXiv:1804.07303](https://arxiv.org/abs/1804.07303), [doi:10.4310/ATMP.2019.v23.n5.a1](https://dx.doi.org/10.4310/ATMP.2019.v23.n5.a1))
 
+see also:
+
+* [[David Berman]]: p. 20 in: *M-theory branes and their interactions*, Phys. Rept. **456** (2008) 89-126 &lbrack;[arXiv:0710.1707](https://arxiv.org/abs/0710.1707), [doi:10.1016/j.physrep.2007.10.002](https://doi.org/10.1016/j.physrep.2007.10.002)&rbrack;
 
 More on the relation to the Hopf invariant in
 
