@@ -15,6 +15,14 @@ On [[category]]-valued [[stacks]] ([[2-sheaves]]) as [[internal categories]] in 
 * {#BungePare} [[Marta Bunge]], [[Robert Paré]], _Stacks and equivalence of indexed categories_, [[Cahiers|Cahiers de Top. et Géom. Diff. Catég]] **20** 4 (1979) 373-399 &lbrack;[numdam:CTGDC_1979__20_4_373_0](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0)&rbrack;
  
 
+
+On [[saturated classes of colimits]]:
+ 
+* {#KP} [[Max Kelly]] and [[Robert Paré]]: *A note on the Albert-Kelly paper 'The closure of a class of colimits'*, JPAA 51 (1988) 19-25 \[<a href="https://doi.org/10.1016/0022-4049(88)90074-6">doi;10.1016/0022-4049(88)90074-6</a>\]
+ 
+
+
+
 On [[accessible categories]] and [[categorical semantics|categorical]] [[model theory]] via [[sketches]]:
 
 * {#MakkaiPare} [[Michael Makkai]], [[Robert Paré]],  _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989 ([ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104))
