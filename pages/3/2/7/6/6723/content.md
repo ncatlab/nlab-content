@@ -1,8 +1,11 @@
 
-* [wikipedia entry](http://en.wikipedia.org/wiki/Igor_Klebanov)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Igor_Klebanov)
+
+* [GoogleScholar page](https://scholar.google.de/citations?user=Af7B25UAAAAJ&hl=en)
+
+
 
 ## Selected writings
-
 
 
 Inclusion of heavy [[flavor (particle physics)|flavors]] ([[strange quarks]]/[[kaons]], etc.) into the [[Skyrme model]]:
@@ -40,9 +43,18 @@ On [[double trace operators]] in [[AdS/CFT]]:
 
 * [[Steven Gubser]], [[Igor Klebanov]], _A universal result on central charges in the presence of double-trace deformations_, Nucl. Phys. B656 (2003) 23-36 ([arXiv:hep-th/0212138](https://arxiv.org/abs/hep-th/0212138))
 
+
+On [[AdS/CFT duality]]:
+
+* [[Christopher P. Herzog]], [[Igor R. Klebanov]]: *AdS/CFT Correspondence*, Encyclopedia of Mathematical Physics, Academic Press (2006) 174-183 &lbrack;[doi:10.1016/B0-12-512666-2/00245-5](https://doi.org/10.1016/B0-12-512666-2/00245-5)&rbrack;
+
+
 On the [[confinement]]/[[mass gap]]-problem in [[holographic QCD]]:
 
 * {#Klebanov21} [[Igor Klebanov]], *Remarks on Color Confinement*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021/) ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/DiscussionConfinementKlebanov.pdf), [video](https://youtu.be/B9NI2LE7d68?t=262))
 
 
 category: people
+
+[[!redirects Igor R. Klebanov]]
+
