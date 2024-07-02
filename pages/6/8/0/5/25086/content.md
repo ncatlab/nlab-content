@@ -7,7 +7,13 @@
 
 On [[quantum information theory]] in view of [[AdS-CFT duality]] ([[holographic entanglement entropy]]):
 
-* [[Bowen Chen]], [[Bartlomiej Czech]], [[Zi-zhi Wang]], *Quantum Information in Holographic Duality*, Rept. Prog. Phys. **85** (2022) 4, 046001 &lbrack;[arXiv:2108.09188](https://arxiv.org/abs/2108.09188), [doi:10.1088/1361-6633/ac51b5](https://doi.org/10.1088/1361-6633/ac51b5)&rbrack;
+* [[Bowen Chen]], [[Bartlomiej Czech]], [[Zi-zhi Wang]], *Quantum Information in Holographic Duality*, Rept. Prog. Phys. **85** 4 (2022) 046001 &lbrack;[arXiv:2108.09188](https://arxiv.org/abs/2108.09188), [doi:10.1088/1361-6633/ac51b5](https://doi.org/10.1088/1361-6633/ac51b5)&rbrack;
+
+On [[measurement-based quantum computation]] in relation to [[gauge theory]]:
+
+* Gabriel Wong, [[Robert Raussendorf]], [[Bartlomiej Czech]]: *The Gauge Theory of Measurement-Based Quantum Computation* &lbrack;[arXiv:2207.10098](https://arxiv.org/abs/2207.10098)&rbrack;
+
+
 
 category: people
 
