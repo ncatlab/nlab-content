@@ -53,11 +53,16 @@ and had been settled by the time of
 
 * [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], (17) in: _Covariant Action for a $D=11$ Five-Brane with the Chiral Field_, Phys. Lett. B **398** (1997) 41 &lbrack;[arXiv:hep-th/9701037](https://arxiv.org/abs/hep-th/9701037), <a href="https://doi.org/10.1016/S0370-2693(97)00188-3">doi:10.1016/S0370-2693(97)00188-3</a>&rbrack;
 
-The resemblence of the first summand of the term to the [[Whitehead integral formula]] for the [[Hopf invariant]] was noticed in
+The resemblence of the first summand of the term to the [[Whitehead integral formula]] for the [[Hopf invariant]] was noticed and hence the terminology "Hopf-Wess-Zumino term" was introduced in:
 
 * {#Intriligator00} [[Kenneth Intriligator]], _Anomaly Matching and a Hopf-Wess-Zumino Term in 6d, $\mathcal{N}= (2,0)$ Field Theories_, Nucl. Phys. B **581** (2000) 257-273 &lbrack;[arXiv:hep-th/0001205](https://arxiv.org/abs/hep-th/0001205), <a href="https://doi.org/10.1016/S0550-3213(00)00148-6">doi:10.1016/S0550-3213(00)00148-6</a>&rbrack;
 
-which hence introduced the terminology "Hopf-Wess-Zumino term". Followup to this terminology includes
+by observing that the "scalar" fields on the M5-brane worldvolume parameterize a map to the [[4-sphere]], as previously highlighted in
+
+* [[Ori Ganor]], Lubos Motl, p. 5-6 in: *Equations of the (2,0) Theory and Knitted Fivebranes*, JHEP 9805:009 (1998) &lbrack;[arXiv:hep-th/9803108](https://arxiv.org/abs/hep-th/9803108), [doi:10.1088/1126-6708/1998/05/009](https://doi.org/10.1088/1126-6708/1998/05/009)&rbrack;
+
+
+Articles following this terminology "Hopf-Wess-Zumino term":
 
 * {#KalkkinenStelle02} [[Jussi Kalkkinen]], [[Kellogg Stelle]], Section 3.2 of: _Large Gauge Transformations in M-theory_, J. Geom. Phys. **48** (2003) 100-132 &lbrack;[arXiv:hep-th/0212081](https://arxiv.org/abs/hep-th/0212081), <a href="https://doi.org/10.1016/S0393-0440(03)00027-5">doi:10.1016/S0393-0440(03)00027-5</a>&rbrack;
 
