@@ -111,6 +111,11 @@ Discussion of the Nambu-Goto action and [[Polyakov action]] on [[worldsheets]] w
 
 * {#MartinoliSchiavina22} S. Martinoli, [[Michele Schiavina]], *BV analysis of Polyakov and Nambu–Goto theories with boundary*,  Lett. Math. Phys. **112** 35 (2022) &lbrack;[doi:10.1007/s11005-022-01526-1](https://doi.org/10.1007/s11005-022-01526-1), [arXiv:2106.02983](https://arxiv.org/abs/2106.02983)&rbrack;
 
+Relation of the Nambu-Goto string to [[Liouville theory]]:
+
+* [[Yuri Makeenko]], *The Nambu-Goto string as higher-derivative Liouville theory* &lbrack;[arXiv:2407.01136](https://arxiv.org/abs/2407.01136)&rbrack;
+
+
 [[!redirects Nambu-Gotō action]]
 
 [[!redirects tension]]
