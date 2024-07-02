@@ -1090,11 +1090,12 @@ More mathematical accounts:
 
 * [[Yuri Manin]], Chapter 5 in: *[[Gauge Field Theory and Complex Geometry]]*, Grundlehren der Mathematischen Wissenschaften **289**, Springer (1988) &lbrack;[doi:10.1007/978-3-662-07386-5](https://doi.org/10.1007/978-3-662-07386-5)&rbrack;
 
-* {#Varadarajan04} [[Veeravalli Varadarajan]], section 3.1 of  _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society Providence, R.I 2004 ([doi:10.1090/cln/011](http://dx.doi.org/10.1090/cln/011))
-
-* C. Carmeli, L. Caston, R. Fioresi, _Mathematical foundation of supersymmetry_, with an appendix by I. Dimitrov, EMS Series of Lectures in Mathematics (European Mathematical Society, Zurich, 2011) ([arXiv:0710.5742](https://arxiv.org/abs/0710.5742))
-
 * {#Freed99} [[Daniel Freed]], _[[Five lectures on supersymmetry]]_, AMS (1999)
+
+* {#Varadarajan04} [[Veeravalli Varadarajan]], *[[Supersymmetry for mathematicians]]: An introduction*, Courant lecture notes in mathematics, American Mathematical Society Providence (2004) &lbrack;[doi:10.1090/cln/011](http://dx.doi.org/10.1090/cln/011)&rbrack;
+
+* [[Claudio Carmeli]], [[Lauren Caston]], [[Rita Fioresi]]: *Mathematical foundations of supersymmetry*, EMS Series of Lectures in Mathematics, EMS (2011) &lbrack;[ems:elm/97](https://ems.press/books/elm/97), [doi:10.4171/097](https://doi.org/10.4171/097), [epdf](https://epdf.tips/mathematical-foundations-of-supersymmetry.html), short draft: [arXiv:0710.5742](https://arxiv.org/abs/0710.5742)&rbrack;
+
 
 also ([Deligne-Freed 99](#DeligneFreed99)).
 
