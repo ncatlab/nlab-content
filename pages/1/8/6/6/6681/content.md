@@ -60,7 +60,7 @@ Proposing [[ER = EPR]]:
 
 General aspects of [[nearly AdS2-CFT1]] ([[JT-gravity]]/matrix models):
 
-* [[Juan Maldacena]], [[Douglas Stanford]], [[Zhenbin Yang]], _Conformal symmetry and its breaking in two dimensional Nearly Anti-de-Sitter space_ ([arXiv:1606.01857](https://arxiv.org/abs/1606.01857))
+* [[Juan Maldacena]], [[Douglas Stanford]], [[Zhenbin Yang]], *Conformal symmetry and its breaking in two dimensional Nearly Anti-de-Sitter space*, Progress of Theoretical and Experimental Physics, **2016** 12 (2016)  &lbrack;[arXiv:1606.01857](https://arxiv.org/abs/1606.01857), [doi:10.1093/ptep/ptw124](https://doi.org/10.1093/ptep/ptw124)&rbrack;
 
 
 Argument that the image of *[[wormhole]] traversal* under [[AdS-CFT duality]] is *[[quantum teleportation]]*:
