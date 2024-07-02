@@ -355,10 +355,14 @@ Review:
 
 * Ricard M. Calvo, *Geometry of (Anti-)De Sitter space-time* (2018) &lbrack;[pdf](https://diposit.ub.edu/dspace/bitstream/2445/125099/1/Monge%20Calvo%20Ricard.pdf), [[Calvo-AdS.pdf:file]]&rbrack;
 
-
 See also:
 
 * Wikipedia, _[anti de Sitter space](http://en.wikipedia.org/wiki/Anti_de_Sitter_space)_
+
+With attention to the [[conformal geometry]]:
+
+* [[Juan A. Valiente Kroon]]: chapter 17 of: *Conformal Methods in General Relativity*, Cambridge University Press (2017, 2022) &lbrack;[doi:10.1017/9781009291309](https://doi.org/10.1017/9781009291309), [oapen:20.500.12657/59217](https://library.oapen.org/handle/20.500.12657/59217), [pdf](https://library.oapen.org/bitstream/id/548cfabe-a25b-4562-b95e-aa2894525f32/9781009291309.pdf)&rbrack;
+
 
 Further discussion:
 
