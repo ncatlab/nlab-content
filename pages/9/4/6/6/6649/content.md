@@ -93,6 +93,9 @@ It is also worth mentioning some non-examples.
 * [[Max Kelly]] and [[Robert Paré]], "A note on the Albert-Kelly paper 'The closure of a class of colimits'", JPAA 51 (1988), 19--25
  {#KP}
 
+* [[Max Kelly]] and V. Schmitt, _Notes on enriched categories with colimits of some class_, Theory and Applications of Categories 14 (2005) 399–423.
+
+* [[Charles Rezk]], _Free colimit completion in $\infty $-categories_, [arXiv:2210.08582](https://arxiv.org/abs/2210.08582) (2022).
 
 [[!redirects saturated class of limits]]
 [[!redirects saturated classes of limits]]
