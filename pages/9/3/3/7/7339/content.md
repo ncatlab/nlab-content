@@ -5,14 +5,19 @@
 
 On [[D=3 N=2 super Yang-Mills theory]]:
 
-* [[Jan de Boer]], [[Kentaro Hori]], [[Yaron Oz]], _Dynamics of N=2 Supersymmetric Gauge Theories in Three Dimensions_, Nucl. Phys. B500:163-191, 1997 ([arXiv:hep-th/9703100](https://arxiv.org/abs/hep-th/9703100))
+* [[Jan de Boer]], [[Kentaro Hori]], [[Yaron Oz]], _Dynamics of N=2 Supersymmetric Gauge Theories in Three Dimensions_, Nucl. Phys. B500:163-191 (1997) &lbrack;[arXiv:hep-th/9703100](https://arxiv.org/abs/hep-th/9703100)&rbrack;
 
 
 On [[mirror symmetry]] between [[Higgs branches]]/[[Coulomb branches]] of [[D=3 N=4 super Yang-Mills theory]] (with emphasis of [[Hilbert schemes of points]]):
 
-* [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], _Mirror Symmetry in Three-Dimensional Gauge Theories, Quivers and D-branes_, Nucl. Phys. B493:101-147, 1997 ([arXiv:hep-th/9611063](https://arxiv.org/abs/hep-th/9611063))
+* [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], _Mirror Symmetry in Three-Dimensional Gauge Theories, Quivers and D-branes_, Nucl. Phys. B493:101-147 (1997) &lbrack;[arXiv:hep-th/9611063](https://arxiv.org/abs/hep-th/9611063)&rbrack;
 
 * [[Jan de Boer]], [[Kentaro Hori]], [[Hirosi Ooguri]], [[Yaron Oz]], Zheng Yin, _Mirror Symmetry in Three-Dimensional Gauge Theories, $SL(2,\mathbb{Z})$ and D-Brane Moduli Spaces_, Nucl. Phys. B493:148-176, 1997 ([arXiv:hep-th/9612131](https://arxiv.org/abs/hep-th/9612131))
+
+On the [[AdS/CFT correspondence]]:
+
+* [[Jan de Boer]], *Introduction to AdS/CFT correspondence*, talk at [SUSY02](http://www-library.desy.de/preparch/desy/proc/proc02-02/SUSY-Start.html) (2002) &lbrack;[pdf](http://www-library.desy.de/preparch/desy/proc/proc02-02/Proceedings/pl.6/deboer_pr.pdf), [[deBoer-IntroAdSCFT.pdf:file]]&rbrack;
+
 
 
 On [[topological M-theory]] and [[D=7 Chern-Simons theory]]:
