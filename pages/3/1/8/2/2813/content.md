@@ -3,7 +3,10 @@
 
 ## Selected writings
 
-(...)
+On [[categorical wreath products]] of the [[simplex category]] and [[iterated loop spaces]]:
+
+* {#Berger} [[Clemens Berger]], _Iterated wreath product of the simplex category and iterated loop spaces_, Advances in Mathematics **213** 1 (2007) 230-270 &lbrack;[arXiv:math/0512575](http://arxiv.org/abs/math/0512575), [doi:10.1016/j.aim.2006.12.006](https://doi.org/10.1016/j.aim.2006.12.006)&rbrack;
+  
 
 On [[generalized Reedy categories]]:
 
