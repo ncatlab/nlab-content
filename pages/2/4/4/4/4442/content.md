@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -479,7 +478,7 @@ Via [[exceptional field theory]]:
 
 * {#Anderson04} Michael T. Anderson, _Geometric aspects of the AdS/CFT correspondence_ &lbrack;[arXiv:hep-th/0403087](https://arxiv.org/abs/hep-th/0403087)&rbrack;
 
-* [[Christopher P. Herzog]], [[Igor R. Klebanov]]: *AdS/CFT Correspondence*, Encyclopedia of Mathematical Physics, Academic Press (2006) 174-183 &lbrack;[doi:10.1016/B0-12-512666-2/00245-5](https://doi.org/10.1016/B0-12-512666-2/00245-5)&rbrack;
+* [[Christopher P. Herzog]], [[Igor R. Klebanov]]: *AdS/CFT Correspondence*, Encyclopedia of Mathematical Physics, Academic Press (2006) 174-183 &lbrack;[doi:10.1016/B0-12-512666-2/00245-5](https://doi.org/10.1016/B0-12-512666-2/00245-5), [[HerzogKlebanov-AdSCFT.pdf:file]]&rbrack;
 
 * [[Horatiu Nastase]], _Introduction to AdS-CFT_ &lbrack;[arXiv:0712.0689](http://arxiv.org/abs/0712.0689)&rbrack;
 
