@@ -14,7 +14,7 @@ Regarding [[AdS4/CFT3-duality]] from a [[condensed matter physics]]-perspective 
 
 On [[AdS/CFT duality]]:
 
-* [[Christopher P. Herzog]], [[Igor R. Klebanov]]: *AdS/CFT Correspondence*, Encyclopedia of Mathematical Physics, Academic Press (2006) 174-183 &lbrack;[doi:10.1016/B0-12-512666-2/00245-5](https://doi.org/10.1016/B0-12-512666-2/00245-5)&rbrack;
+* [[Christopher P. Herzog]], [[Igor R. Klebanov]]: *AdS/CFT Correspondence*, Encyclopedia of Mathematical Physics, Academic Press (2006) 174-183 &lbrack;[doi:10.1016/B0-12-512666-2/00245-5](https://doi.org/10.1016/B0-12-512666-2/00245-5), [[HerzogKlebanov-AdSCFT.pdf:file]]&rbrack;
 
 * {#Herzog15} [[Christopher Herzog]], *AdS/CFT*, lecture notes (2015) &lbrack;[pdf](http://insti.physics.sunysb.edu/~cpherzog/stringtheory/AdSCFT.pdf), [[Herzog-AdSCFT.pdf:file]]&rbrack;
 
