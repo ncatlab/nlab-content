@@ -78,11 +78,16 @@ The notion of Minkowski spacetime originates with
 
 > (Address to the 80th Assembly of German Natural Scientists and Physicians, (Sep 21, 1908), see [WikiQuote](https://en.wikiquote.org/wiki/Hermann_Minkowski))
 
-See also 
+See also:
 
 * Wikipedia, _[Minkowski space](https://en.wikipedia.org/wiki/Minkowski_space)_
 
-Gravitational stability of Minkowski space is proven in
+With attention to the [[conformal boundary]]:
+
+* [[Juan A. Valiente Kroon]]: Chapter 16 of: *Conformal Methods in General Relativity*, Cambridge University Press (2017, 2022) &lbrack;[doi:10.1017/9781009291309](https://doi.org/10.1017/9781009291309), [oapen:20.500.12657/59217](https://library.oapen.org/handle/20.500.12657/59217), [pdf](https://library.oapen.org/bitstream/id/548cfabe-a25b-4562-b95e-aa2894525f32/9781009291309.pdf)&rbrack;
+
+
+Gravitational stability of Minkowski spacetime:
 
 * {#ChristodoulouKlainerman} Demetrios Christodoulou, [[Sergiu Klainerman]], _The global nonlinear stability of the Minkowski space_ Princeton University Press (1993)
   
