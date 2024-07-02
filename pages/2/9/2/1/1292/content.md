@@ -18,7 +18,7 @@
 
 ## Definition in (pre)triangulated categories
 
-A non-[[empty category|empty]] [[full subcategory|full]] (pre-)[[triangulated subcategory]] is called _thick_ (or __&#233;paisse__) if it is "closed under [[direct summands]]" (e.g. [Murayama, Def. 11](#Murayama), see [Stacks Project, Def. 13.6.1](#StacksProject05RA)).
+A non-[[empty category|empty]] [[full subcategory|full]] (pre-)[[triangulated subcategory]] $T$ is called _thick_ (or __&#233;paisse__) if it is "closed under [[direct summands]]" (e.g. [Murayama, Def. 11](#Murayama), see [Stacks Project, Def. 13.6.1](#StacksProject05RA)). In other words, if $M\oplus N$ is isomorphic to an object in $T$ then both $M$ and $N$ are isomorphic to objects in $T$.
 
 ## In abelian categories
 
@@ -28,7 +28,7 @@ $$
 $$
 in $A$, the object $M''$ is in $T$ iff $M$ and $M'$ are in $T$.
 
-In words, it is an [[additive category|additive]] [[full subcategory]] closed under subobjects, quotients and extensions (e.g. [Dichev 2009](#Dichev09) and [[Pierre Gabriel]] in [[Des Categories Abeliennes]]). 
+In words, it is an [[additive category|additive]] [[full subcategory]] closed under subobjects, quotients and extensions (e.g. [Dichev 2009](#Dichev09) and [[Pierre Gabriel]] in [[Des Catégories Abéliennes]]). 
 
 In any abelian category all subobjects are [[kernels]] of [[epimorphisms]]; and all quotients are [[cokernels]] of [[monomorphisms]].
 
@@ -51,7 +51,26 @@ $$
   (A/T)(X,Y) := colim A(X',Y/Y')
 $$
 
-where the [[colimit]] runs through all [[subobjects]] $X'\subset X$, $Y'\subset Y$ such that $X/X' \in Ob T$, $Y'\in Ob T$. The quotient functor $Q \colon A\to A/T$ is obvious. 
+where the [[colimit]] runs through all [[subobjects]] $X'\subset X$, $Y'\subset Y$ such that $X/X' \in Ob T$, $Y'\in Ob T$. 
+
+It remains to define bilinear composition laws:
+$$
+Hom_{A/T}(M, N)\times Hom_{A/T}(N, P)\longrightarrow Hom_{A/T}(M,P).
+$$
+
+> For this, let $\overline{f}$ be an element of $Hom_{A/T}(M, N)$ and let $\overline{g}$ be an element of
+$Hom_{A/T}(N, P)$. The element $\overline{f}$ is the image of a morphism $f: M'\to N/N'$ where $M/M'$ and $N'$ are objects of $T$. Similarly, $\overline{g}$ is the image of a morphism $g:N'\to P/P'$, where $N/N'$ and $P'$ are objects of $T$. If $M''$ designates the inverse image
+$f^{-1}((N''+N')/N')$, it is easy to see that $M/M''$ belongs to $T$; we denote by $f'$ the morphism from $M''$ to $(N''+N')/N'$ which is induced by $f$. Likewise, $g(N''\cap N')$ is an object of $T$; if $P''$ denotes the sum $P'+g(N''\cap N')$, it is easy to see that $P''$ belongs to $T$; we denote $g'$ the morphism of $N''/(N''\cap N')$ in $P/P''$ which is induced by $g$.
+
+> Let $h$ be the composition of $f'$, of the canonical isomorphism of $(N''+ N')/N'$ on $N''/(N''\cap N')$ and $g'$,
+$$
+  M'' \overset{f^'}\longrightarrow (N''+N')/N' \overset{can}\longrightarrow N''/(N''\cap N')\overset{g^'}\longrightarrow P/P''.
+$$ 
+The image $\overline{h}$ of $h$ in $Hom_{A/T}(M, P)$ depends only on $\overline{f}$ and $\overline{g}$ and not on $f$ and $g$. It is therefore justified to define the composition in $A/T$ by equality $\overline{g}\circ\overline{f} = \overline{h}$. These composition laws are bilinear; they make $A/T$ a category.
+
+(adapted from Gabriel, [[Des Catégories Abéliennes]], III.1)
+
+The quotient functor $Q \colon A\to A/T$ is obvious. 
 
 Notice that the set of morphisms is indeed [[small set|small]], so that the Serre quotient category exists as a [[locally small category]]. On the other hand, one can construct an equivalent [[localization]] by the Gabriel-Zisman  localizing at the class $\Sigma$ of all morphisms
 whose kernel and cokernel are in $T$. Although 
@@ -76,7 +95,7 @@ Let $A$ be an abelian category, $T$ be a thick subcategory in the strong sense a
 
 Conversely, let $\Sigma$ be a saturated class of morphisms of $A$ with a calculus of fractions on the right and on the left. Then the full subcategory on the objects that are mapped to zero by the canonical $p:A\to A_\Sigma$ is thick. In other words, there is a bijection between thick subcategories in the strong sense and saturated classes of morphisms with a calculus of fractions on the right and on the left.
 
-(For this material see [Schubert 1970](#Schubert70b), pp.105-107).
+(For this material see Gabriel and Zisman, [[Calculus of fractions and homotopy theory]] I.2.5.d) and [Schubert 1970](#Schubert70b), pp. 105--107).
 
 ## Related concepts
 
@@ -90,7 +109,7 @@ Conversely, let $\Sigma$ be a saturated class of morphisms of $A$ with a calculu
 
 * [[Pierre Gabriel]], _Des cat&#233;gories ab&#233;liennes_, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France, 90 (1962), p. 323-448 ([numdam](http://www.numdam.org/item?id=BSMF_1962__90__323_0))
 
-* [[eom]], *[Localization of categories](http://eom.springer.de/l/l060290.htm)*
+* [[eom]], *[Localization of categories](https://encyclopediaofmath.org/wiki/Localization_in_categories)* (for Serre quotient category)
 
 * [[A. L. Rosenberg]], _Noncommutative algebraic geometry and representations of quantized algebras_, MIA __330__, Kluwer Academic Publishers Group, Dordrecht, 1995. xii+315 pp. ISBN: 0-7923-3575-9 
 
