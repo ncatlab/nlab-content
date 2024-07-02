@@ -126,6 +126,10 @@ On [[conformal blocks]] for [[Liouville theory]]:
 
 * [[Xia Gu]], [[Babak Haghighat]], [[Kevin Loo]], *Irregular Fibonacci Conformal Blocks* &lbrack;[arXiv:2311.13358](https://arxiv.org/abs/2311.13358)&rbrack;
 
+Relation ot Liouville theory to the [[Nambu-Goto action]]:
+
+* [[Yuri Makeenko]], *The Nambu-Goto string as higher-derivative Liouville theory* &lbrack;[arXiv:2407.01136](https://arxiv.org/abs/2407.01136)&rbrack;
+
 
 category: physics
 
