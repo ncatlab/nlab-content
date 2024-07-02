@@ -231,6 +231,9 @@ As shown above, we cannot expect to describe compact closed categories with a cl
 
 A morphism in the free symmetric monoidal closed category on a category $C$ is then given by a morphism of $F(1)$ together with a labeling of the oriented edges of its underlying graph (an oriented 1-cobordism) by morphisms of $C$. Then, you compose morphisms of this "[[categorical wreath product]]" in the obvious way, composing the morphism-labels of edges in 1-cobordisms as they get pasted together. 
 
+## Related pages
+
+* [[categorical wreath product]]
 
 ## References
 
