@@ -71,12 +71,13 @@ Discussion of some [[black brane]]-aspects of M-branes includes
 
 * Takeshi Sato, Section 2.3 of: _Superalgebras in Many Types of M-Brane Backgrounds and Various Supersymmetric Brane Configurations_, Nucl. Phys. B548 (1999) 231-257 ([arXiv:hep-th/9812014](https://arxiv.org/abs/hep-th/9812014))
 
+* [[David Berman]]: *M-theory branes and their interactions*, Phys. Rept. **456** (2008) 89-126 &lbrack;[arXiv:0710.1707](https://arxiv.org/abs/0710.1707), [doi:10.1016/j.physrep.2007.10.002](https://doi.org/10.1016/j.physrep.2007.10.002)&rbrack;
 
-* [[David Berman]], _M-theory branes and their interactions_, Phys. Rept. 456:89-126, 2008 ([arXiv:0710.1707](http://arxiv.org/abs/0710.1707))
+Discussion of plenty of [[cohomology|cohomological]] structures involved in M-brane physics 
 
-Discussion of plenty of [[cohomology|cohomological]] structures involved in M-brane physics is in
 
-* [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_, 2010
+
+* [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ (2010)
 
 Discussion of [[M-brane]] physics in terms of [[equivariant rational homotopy theory|rational equivariant]] [[cohomotopy]] is in 
 
