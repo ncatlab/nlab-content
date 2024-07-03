@@ -2,5 +2,5 @@
 
 ## References
 
-* Wikipedia, _[Goddard-Thorn theorem](http://en.wikipedia.org/wiki/Goddard&#8211;Thorn_theorem)_
+* Wikipedia, _[Goddard-Thorn theorem](https://en.wikipedia.org/wiki/Goddard%E2%80%93Thorn_theorem)_
 
