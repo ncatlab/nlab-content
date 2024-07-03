@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On the [[black hole firewall problem]]:
+
+* [[Ahmed Almheiri]], [[Donald Marolf]], [[Joseph Polchinski]], James Sully, _Black holes: complementarity or firewalls?_ &lbrack;[arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123)&rbrack;
+
+
 On the interpretation of [[tensor networks]] encoding [[holographic entanglement entropy]] as [[quantum error correcting codes]]:
 
 * {#ADH14} [[Ahmed Almheiri]], [[Xi Dong]], [[Daniel Harlow]], _Bulk Locality and Quantum Error Correction in AdS/CFT_, JHEP 1504:163,2015 ([arXiv:1411.7041](https://arxiv.org/abs/1411.7041))
@@ -11,13 +16,10 @@ On the interpretation of [[tensor networks]] encoding [[holographic entanglement
 * [[Ahmed Almheiri]], _Holographic Quantum Error Correction and the Projected Black Hole Interior_ ([arXiv:1810.02055](https://arxiv.org/abs/1810.02055))
 
 
-On the [[black hole firewall problem]]:
-
-* [[Ahmed Almheiri]], [[Donald Marolf]], [[Joseph Polchinski]], James Sully, _Black holes: complementarity or firewalls?_ ([arXiv:1207.3123](http://arxiv.org/abs/arXiv:1207.3123))
 
 On [[AdS/CFT]]-duality for [[AdS2-CFT1|$AdS_2/CFT_1$]] via [[Jackiw-Teitelboim gravity]]:
 
-* {#AlmheiriPolchinski14} [[Ahmed Almheiri]], [[Joseph Polchinski]], _Models of $AdS_2$ Backreaction and Holography_, J. High Energ. Phys. (2015) 2015: 14. ([arXiv:1402.6334](https://arxiv.org/abs/1402.6334))
+* [[Ahmed Almheiri]], [[Joseph Polchinski]], *Models of $AdS_2$ Backreaction and Holography*,  J. High Energ. Phys. **2015** 14 (2015) \[<a href="https://doi.org/10.1007/JHEP11(2015)014">doi:10.1007/JHEP11(2015)014</a>, [arXiv:1402.6334](https://arxiv.org/abs/1402.6334)\]
 
 Claim that the proper application of [[holographic entanglement entropy]] to the discussion of [[Bekenstein-Hawking entropy]] resolves the apparent [[black hole information paradox]]:
 
