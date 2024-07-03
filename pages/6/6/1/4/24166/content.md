@@ -19,7 +19,7 @@
 
 ## Idea
 
-Show that the [[categorical semantics]] of [[homotopy type theory]] (cf. *[[model of type theory in an (infinity,1)-topos]]*) is suitably independent of the [[type-theoretic model category]] [[model category]] chosen to [[presentable (infinity,1)-category|present]] a fixed [[(infinity,1)-category|$(\infty,1)$-category]].  
+Show that the [[categorical semantics]] of [[homotopy type theory]] (cf. *[[model of type theory in an (infinity,1)-topos|model of type theory in an $(\infty,1)$-topos]]*) is suitably independent of the [[type-theoretic model category|type-theoretic]] [[model category]] chosen to [[presentable (infinity,1)-category|present]] a fixed [[(infinity,1)-category|$(\infty,1)$-category]].  
 
 ## References
 
