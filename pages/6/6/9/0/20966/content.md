@@ -26,6 +26,11 @@ General aspects of [[nearly AdS2-CFT1]] ([[JT-gravity]]/matrix models):
 
 * {#MaldacenaStanfordYang16} [[Juan Maldacena]], [[Douglas Stanford]], [[Zhenbin Yang]], *Conformal symmetry and its breaking in two dimensional Nearly Anti-de-Sitter space*, Progress of Theoretical and Experimental Physics, **2016** 12 (2016)  &lbrack;[arXiv:1606.01857](https://arxiv.org/abs/1606.01857), [doi:10.1093/ptep/ptw124](https://doi.org/10.1093/ptep/ptw124)&rbrack;
 
+following:
+
+* [[Ahmed Almheiri]], [[Joseph Polchinski]], *Models of $AdS_2$ Backreaction and Holography*,  J. High Energ. Phys. **2015** 14 (2015) \[<a href="https://doi.org/10.1007/JHEP11(2015)014">doi:10.1007/JHEP11(2015)014</a>, [arXiv:1402.6334](https://arxiv.org/abs/1402.6334)\]
+
+See also:
 
 * Marco Astorino, Sergio Cacciatori, Dietmar Klemm, Daniela Zanon: *$AdS_2$ Supergravity and Superconformal Quantum Mechanics*, Annals Phys. **304** (2003) 128-144 &lbrack;<a href="https://doi.org/10.1016/S0003-4916(03)00008-3">doi:10.1016/S0003-4916(03)00008-3</a>, [arXiv:hep-th/0212096](https://arxiv.org/abs/hep-th/0212096)&rbrack;
 
