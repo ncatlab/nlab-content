@@ -116,10 +116,18 @@ $$
 $$
 
 in $\mathbf{H}$
-exhibits a smooth[[∞-action]] of the [[circle 2-group]] on the [[moduli stack]] $\mathbf{B}U(n)$ and it exhibits an equivalence
+exhibits a smooth [[∞-action]] of the [[circle 2-group]] on the [[moduli stack]] $\mathbf{B}U(n)$ and it exhibits an equivalence
 
 $$
-  \mathbf{B} PU(n) \simeq (\mathbf{B}U(n))//(\mathbf{B} U(1))
+  \mathbf{B} PU(n) 
+  \;\simeq\; 
+  \big(
+    \mathbf{B}U(n)
+  \big)
+    \sslash
+  \big(
+    \mathbf{B} U(1)
+  \big)
 $$
 
 of the moduli stack of projective unitary bundles with the [[∞-quotient]] of this [[∞-action]].
@@ -139,7 +147,7 @@ in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}^2 U(1)}$, hence [[diagra
 
 $$
   \array{
-    X &&\stackrel{}{\to}&& \mathbf{B} PU(n)
+    X &&\stackrel{}{\longrightarrow} && \mathbf{B} PU(n)
     \\
     & {}_{\mathllap{\mathbf{c}}}\searrow 
     &\swArrow& 
@@ -160,14 +168,14 @@ There is a further differential refinement
 
 $$
   \array{
-     (\mathbf{B}U(n))//(\mathbf{B}U(1))_{conn}
-     &\stackrel{\widehat \mathbf{dd}_n}{\to}&
+     (\mathbf{B}U(n))\sslash(\mathbf{B}U(1))_{conn}
+       &\stackrel{\widehat \mathbf{dd}_n}{\longrightarrow}&
      \mathbf{B}^2 U(1)_{conn}
      \\
-     \downarrow && \downarrow
+     \Big\downarrow && \Big\downarrow
      \\
-     (\mathbf{B}U(n))//(\mathbf{B}U(1))
-     &\stackrel{\widehat \mathbf{dd}_n}{\to}&
+     (\mathbf{B}U(n))\sslash(\mathbf{B}U(1))
+       &\underset{\widehat \mathbf{dd}_n}{\longrightarrow}&
      \mathbf{B}^2 U(1)
   }
   \,,
@@ -184,13 +192,15 @@ where $\mathbf{B}^2 U(1)_{conn}$ is the universal moduli 2-stack of [[circle n-b
 Write
 
 $$
-  \left(
-  \left(\mathbf{B}U\left(n\right)//\mathbf{B}U\left(1\right)\right)_{conn}
-   \stackrel{\mathbf{Fields}}{\to} 
-  \mathbf{B}^2 U\left(1\right)_{conn}
-  \right)
-  \;\;
-  \in \mathbf{H}_{/\mathbf{B}^2 U(1)_{conn}}
+  \Big(
+    \big(
+      \mathbf{B}U(n) \sslash \mathbf{B}U(1)
+    \big)_{conn}
+      \overset{\mathbf{Fields}}{\longrightarrow} 
+    \mathbf{B}^2 U(1)_{conn}
+  \Big)
+  \;\; \in \;
+  \mathbf{H}_{/\mathbf{B}^2 U(1)_{conn}}
 $$
 
 for the differential smooth universal Dixmier-Douady class of prop. \ref{DifferentialRefinementOfSMoothDDClass}, regarded as an object in the [[slice (∞,1)-topos]] over $\mathbf{B}^2 U(1)_{conn}$.
@@ -222,11 +232,20 @@ in the [[arrow (∞,1)-topos]] $\mathbf{H}^{(\Delta^1)}$, hence a [[diagram]] in
 
 $$
   \array{
-    Q &\stackrel{\nabla_{gauge}}{\to}& (\mathbf{B}U(n)//\mathbf{B}U(1))
+    Q 
+      &\overset{\nabla_{gauge}}{\longrightarrow}& 
+    \big(
+      \mathbf{B}U(n)\sslash\mathbf{B}U(1)
+    \big)_{conn}
     \\
-    {}^{\iota_X}\downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{\hat \mathbf{dd}_n}}
+    \mathllap{{}^{\iota_X}}\Big\downarrow 
+      &\swArrow_{\simeq}& 
+    \Big\downarrow{\mathrlap{}^{\hat \mathbf{dd}_n}}
     \\
-    X &\stackrel{\nabla_B}{\to}& \mathbf{B}^2 U(1)_{conn}
+    X 
+      &\underset{\;\; \nabla_B \;\;}{\longrightarrow}& 
+    \mathbf{B}^2 U(1)_{conn}
+    \mathrlap{\,.}
   }
 $$
 
@@ -234,39 +253,65 @@ $$
 
 This identifies a  [[twisted bundle]] with connection on the D-brane whose twist is the class in $H^3(X, \mathbb{Z})$ of the bulk [[B-field]]. 
 
-This relation is the Kapustin-part of the [[Freed-Witten-Kapustin anomaly]] cancellation for the [[bosonic string]] or else for the [[type II string]] on $Spin^c$ D-branes. ([FSS](#FSS))
+This relation is the Kapustin-part of the [[Freed-Witten-Kapustin anomaly]] cancellation for the [[bosonic string]] or else for the [[type II string]] on $Spin^c$ D-branes. &lbrack;[FSS](#FSS)&rbrack;
 
 
-+-- {: .num_remark }
-###### Remark
+\begin{remark}
+\label{TransformationsOfBackgroundBField}
 
-If we regard the [[B-field]] as a [[background field]] for the [[Chan-Paton gauge field]], then remark \ref{PullbackAlongGeneralizedLocalDiffeomorphisms} determines along which maps of the B-field the Chan-Paton gauge field may be transformed. 
+If we regard the [[B-field]] as a [[background field]] for the [[Chan-Paton gauge field]], then the above perspective determines along which maps of the B-field the Chan-Paton gauge field may be transformed:
 
-$$
-  \array{
-    Y &\stackrel{}{\to}& X &\stackrel{}{\to}& (\mathbf{B}U(n)//\mathbf{B}U(1))_{conn}
-    \\
-    & \searrow & \downarrow & \swarrow
-    \\
-    &&\mathbf{B}^2 U(1)_{conn}
-  }
-  \,.
-$$
+\begin{tikzcd}
+  X 
+    \ar[r, equals] 
+    \ar[dr, "{ \nabla'_B }"{description, name=s1}]
+  & 
+  X
+    \ar[r, "{ \nabla_{\mathrm{gauge}} }"] 
+    \ar[d, "{ \nabla_B }"{description, name=t1}]
+    \ar[
+      from=t1,
+      to=s1,
+      Rightarrow,
+      shorten=3pt,
+      "{ \alpha }"{swap},"{ \sim }"
+    ]
+  &
+    \big(
+      \mathbf{B}\mathrm{U}(n) /\!\!/ \mathbf{B}\mathrm{U}(1)
+    \big)_{\mathrm{conn}}
+    \ar[
+      dl,
+      "{
+        \mathbf{Fields}
+      }"{description, name=t2}
+    ]
+    \ar[
+      from=t2,
+      to=t1,
+      Rightarrow,
+      shorten=3pt,
+      "{ \sim }"
+    ]
+  \\
+  &
+  \mathbf{B}^2\mathrm{U}(1)_{\mathrm{conn}}
+\end{tikzcd}
 
 On the local connection forms this acts as
 
 $$
-  A \mapsto A + \alpha
-  \,.
-$$
-
-$$
-  B \mapsto B + d \alpha
+  \begin{array}{ccl}
+    A &\mapsto& A + \alpha
+    \\
+    B &\mapsto& B + d \alpha
+    \mathrlap{\,.}
+  \end{array}
 $$
 
 This is the famous gauge transformation law known from the string theory literature.
 
-=--
+\end{remark}
 
 ### The open string sigma-model
 
@@ -332,15 +377,16 @@ For $\Sigma$ a [[smooth manifold]] with [[boundary]] $\partial \Sigma$ of [[dime
 $$  
   \array{  
     [\Sigma, X]
-      &\stackrel{\exp(2 \pi i \int_{\Sigma})}{\to}& 
-    \mathbb{C}//U(1)_{conn}
+      &\overset{\exp(2 \pi i \int_{\Sigma})}{\longrightarrow}& 
+    \mathbb{C}\sslash U(1)_{conn}
     \\
-    \downarrow^{\mathrlap{[\partial \Sigma, X]}} 
+    \Big\downarrow\mathrlap{^{[\partial \Sigma, X]}} 
     && 
-    \downarrow^{\mathrlap{\overline{\rho}}_{conn}}
+    \Big\downarrow\mathrlap{^{\overline{\rho}}_{conn}}
     \\
     [\partial \Sigma, X]
-    &\stackrel{\exp(2 \pi i \int_{\partial \Sigma})}{\to}&
+      &\underset{\exp(2 \pi i \int_{\partial \Sigma})}
+         {\longrightarrow}&
     \mathbf{B} U(1)_{conn}
   }
   \,.
@@ -363,16 +409,25 @@ The operation of forming the [[holonomy]] of a twisted unitary connection around
 
 $$
   \array{
-    [S^1, (\mathbf{B}U(n))//(\mathbf{B}U(1))_{conn}]
-    &\stackrel{hol_{S^1}}{\to}&
-    \mathbb{C}//U(1)_{conn}
+    \Big[
+       S^1, 
+      \big(
+        \mathbf{B}U(n)
+      \big)
+      \sslash 
+      \big(
+        \mathbf{B}U(1)
+      \big)_{conn}
+    \Big]
+      &\overset{hol_{S^1}}{\longrightarrow}&
+    \mathbb{C} \sslash U(1)_{conn}
     \\
-    \downarrow^{\mathrlap{[S^1, \widehat\mathbf{dd}_n]}} 
-     &\swArrow_{\simeq}& 
-    \downarrow^{\mathrlap{\overline{\rho}_{conn}}}
+    \Big\downarrow\mathrlap{^{[S^1, \widehat\mathbf{dd}_n]}} 
+      &\swArrow_{\simeq}& 
+    \Big\downarrow\mathrlap{^{\overline{\rho}_{conn}} }
     \\
     [S^1, \mathbf{B}^2 U(1)_{conn}]
-    &\stackrel{\exp(2 \pi i \int_{S^1})}{\to}&
+    &\underset{\exp(2 \pi i \int_{S^1})}{\longrightarrow}&
     \mathbf{B}U(1)_{conn}
   }
   \,.
@@ -388,7 +443,7 @@ By the discussion at _[[∞-action]]_ the diagram in prop. \ref{TheTwistedHolono
 =--
 
 
-It follows that on the moduli space of the open string [[sigma-model]] of prop. \ref{TheTypeIIOpenStringSigmaModelModuliStackOfFields} above there are two $\mathbb{C}//U(1)$-valued [[action functionals]] coming from the bulk field and the boundary field
+It follows that on the moduli space of the open string [[sigma-model]] of prop. \ref{TheTypeIIOpenStringSigmaModelModuliStackOfFields} above there are two $\mathbb{C}\sslash U(1)$-valued [[action functionals]] coming from the bulk field and the boundary field
 
 $$
   \array{
@@ -396,7 +451,7 @@ $$
     &\to&
     [\Sigma, X]
     &\stackrel{exp(2 \pi i \int_{\Sigma}[\Sigma, \nabla_B]  ) }{\to}&
-    \mathbb{C}//U(1)_{conn}
+    \mathbb{C}\sslash U(1)_{conn}
     \\
     \downarrow &\swArrow& \downarrow
     \\
@@ -406,7 +461,7 @@ $$
     \\
     \downarrow^{\mathrlap{hol_{S^1}([S^1, \nabla_{gauge}])}}
     \\
-    \mathbb{C}//U(1)_{conn}
+    \mathbb{C}\sslash U(1)_{conn}
   }
   \,.
 $$
