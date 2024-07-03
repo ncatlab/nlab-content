@@ -332,9 +332,13 @@ See also
 
 * {#Janelidze_03} [[George Janelidze]], _Internal crossed modules_, Georgian Mathematical Journal **10** (2003) pp 99-114. ([EuDML](https://eudml.org/doc/51553))
 
-
-For wider uses of crossed modules in other algebraic contexts see for example 
+On crossed modules in other algebraic contexts:
 
 * A. S-T. Lue, _Cohomology of groups relative to a variety_, J. Algebra 69 (1) (1981) 155–174.
+
+Discussion of crossed modules [[internalization|internal to]] the [[category]] of [[Lie-Rinehart algebras]]:
+
+* Joel Couchman, _Crossed modules and internal categories of Lie-Rinehart algebras_, Master's thesis, Macquarie University (2017) &lbrack;[doi:10.25949/19439645.v1](https://doi.org/10.25949/19439645.v1), [[Couchman-CrossedModules.pdf:file]]&rbrack;
+
 
 [[!redirects crossed modules]]
