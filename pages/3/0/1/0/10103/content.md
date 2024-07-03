@@ -24,7 +24,7 @@ A _distributive monoidal_ category is a [[monoidal category]] whose [[tensor pro
 
 A **distributive monoidal category** (this is not entirely standard terminology) is a [[monoidal category]] with [[coproducts]] whose [[tensor product]] [[preserved colimit|preserves]] [[coproducts]] in each variable: i.e. such that the canonical morphisms
 $$\coprod_i (X\otimes Y_i)\to X \otimes \coprod_i Y_i$$
-$$\coprod_i (X_i\otimes Y)\to \coprod_i X_i \otimes Y$$
+$$\coprod_i (X_i\otimes Y)\to \Big(\coprod_i X_i\Big) \otimes Y$$
 are [[isomorphisms]].
 
 Depending on the arity of the coproducts in question, we may speak of a **finitary** or **infinitary** distributive monoidal category. 
