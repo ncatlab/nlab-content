@@ -17,7 +17,7 @@ See also:
 
 On [[Jackiw-Teitelboim gravity]] dual to [[random matrix theory]] (via [[AdS2/CFT1]] and [[topological recursion]]):
 
-* {#AlmheiriPolchinski14} [[Ahmed Almheiri]], [[Joseph Polchinski]], _Models of $AdS_2$ Backreaction and Holography_, J. High Energ. Phys. (2015) 2015: 14. ([arXiv:1402.6334](https://arxiv.org/abs/1402.6334))
+* {#AlmheiriPolchinski14} [[Ahmed Almheiri]], [[Joseph Polchinski]], _Models of $AdS_2$ Backreaction and Holography_, J. High Energ. Phys. **2015** 14 (2015) &lbrack;[arXiv:1402.6334](https://arxiv.org/abs/1402.6334)&rbrack;
 
 * [CGHSS 16](#CGHSS16)
 
@@ -26,6 +26,9 @@ On [[Jackiw-Teitelboim gravity]] dual to [[random matrix theory]] (via [[AdS2/CF
 
 
 * {#StanfordWitten19} [[Douglas Stanford]], [[Edward Witten]], _JT Gravity and the Ensembles of Random Matrix Theory_ ([arXiv:1907.03363](https://arxiv.org/abs/1907.03363))
+
+* {#GJK22} [[Ping Gao]], [[Daniel L. Jafferis]], David K. Kolchmeyer, *An effective matrix model for dynamical end of the world branes in Jackiw-Teitelboim gravity*,  J. High Energ. Phys. **2022** 38 (2022) \[<a href="https://doi.org/10.1007/JHEP01(2022)038">doi:10.1007/JHEP01(2022)038</a>, [arXiv:2104.01184](https://arxiv.org/abs/2104.01184)\]
+
 
 
 ### BFSS matrix model in $AdS_2/CFT_1$
