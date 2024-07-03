@@ -93,27 +93,27 @@ Corresponding adinkras for the chiral scalar supermultiplet (CM), the vector mul
 
 For an introduction to adinkras, see the talk
 
-* [[Lutian Zhao]], _What is an Adinkra?_, 2014 ([slides](http://math.sjtu.edu.cn/conference/Bannai/2014/data/20141213B/slides.pdf))
+* [[Lutian Zhao]], _What is an Adinkra?_ (2014) &lbrack;[slides pdf](http://math.sjtu.edu.cn/conference/Bannai/2014/data/20141213B/slides.pdf)&rbrack;
 
-The concept of adinkras was introduced into [[supersymmetry]] [[representation theory]] in 
+The concept of adinkras was introduced into [[supersymmetry]] [[representation theory]] in:
 
-* {#FauxGates04} [[Michael Faux]], [[Jim Gates]], _Adinkras: A Graphical Technology for Supersymmetric Representation Theory_, Phys.Rev. D71 (2005) 065002 ([hep-th/0408004](https://arxiv.org/abs/hep-th/0408004))
+* {#FauxGates04} [[Michael Faux]], [[Jim Gates]], _Adinkras: A Graphical Technology for Supersymmetric Representation Theory_, Phys. Rev. D **71** (2005) 065002 &lbrack;[hep-th/0408004](https://arxiv.org/abs/hep-th/0408004), [doi:10.1103/PhysRevD.71.065002](https://doi.org/10.1103/PhysRevD.71.065002)&rbrack;
 
 and further developed in the article
 
-* [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], [[Tristan Hübsch]], [[Kevin Iga]], [[Greg Landweber]], _On Graph-Theoretic Identifications of Adinkras, Supersymmetry Representations and Superfields_, Int. J. Mod. Phys. A22: 869-930, 2007 ([arXiv:math-ph/0512016](https://arxiv.org/abs/math-ph/0512016))
+* [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], [[Tristan Hübsch]], [[Kevin Iga]], [[Greg Landweber]], _On Graph-Theoretic Identifications of Adinkras, Supersymmetry Representations and Superfields_, Int. J. Mod. Phys. A **22** , (2007) 869-930 &lbrack;[arXiv:math-ph/0512016](https://arxiv.org/abs/math-ph/0512016), [doi:10.1142/S0217751X07035112](https://doi.org/10.1142/S0217751X07035112)&rbrack;
 
 and many more ("DFGHIL collaboration"). For instance the relation to Clifford supermodules is discussed in
 
-* [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], [[Tristan Hübsch]], [[Kevin Iga]], [[Greg Landweber]], _Off-shell supersymmetry and filtered Clifford supermodules_ ([arXiv:math-ph/0603012](https://arxiv.org/abs/math-ph/0603012))
+* [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], [[Tristan Hübsch]], [[Kevin Iga]], [[Greg Landweber]], _Off-shell supersymmetry and filtered Clifford supermodules_, Algebr Represent Theor **21** (2018) 375–397 &lbracl[arXiv:math-ph/0603012](https://arxiv.org/abs/math-ph/0603012), [doi:10.1007/s10468-017-9718-8](https://doi.org/10.1007/s10468-017-9718-8)&rbrack;
 
 kinetic terms are discussed in 
 
-* [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], [[Tristan Hübsch]], [[Kevin Iga]], [[Greg Landweber]], _Adinkras and the Dynamics of Superspace Prepotentials_ ([arXiv:hep-th/0605269](https://arxiv.org/abs/hep-th/0605269))
+* [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], [[Tristan Hübsch]], [[Kevin Iga]], [[Greg Landweber]], _Adinkras and the Dynamics of Superspace Prepotentials_ &lbrack;[arXiv:hep-th/0605269](https://arxiv.org/abs/hep-th/0605269), [InSpire:717895](https://inspirehep.net/literature/717895)&rbrack;
 
 The classification of adinkras in terms of [[graphs]] and [[linear codes]] is due to
 
-* {#DoranFauxGatesHubschIgaLandweberMiller11} [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], [[Tristan Hübsch]], [[Kevin Iga]], [[Greg Landweber]], R. L. Miller, _Codes and Supersymmetry in One Dimension_, Adv. in Th. Math. Phys. 15 (2011) 1909-1970 ([arXiv:1108.4124](https://arxiv.org/abs/1108.4124))
+* {#DoranFauxGatesHubschIgaLandweberMiller11} [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], [[Tristan Hübsch]], [[Kevin Iga]], [[Greg Landweber]], R. L. Miller, _Codes and Supersymmetry in One Dimension_, Adv. Theor. Math. Phys. **15** (2011) 1909-1970 &lbrack;[arXiv:1108.4124](https://arxiv.org/abs/1108.4124), [doi;10.4310/ATMP.2011.v15.n6.a7](https://doi.org/10.4310/ATMP.2011.v15.n6.a7)&rbrack;
 
 and discussed in mathematical detail in
 
@@ -123,9 +123,9 @@ and discussed in mathematical detail in
 
 The [[dimensional reduction]] of the standard [[supermultiplets]] of $D = 4, \mathcal{N} = 1$ supersymmetry to adinkraic representations of $D = 1, \mathcal{N}=4$ is due to
 
-* {#GGMPPRW09} [[Jim Gates]], J. Gonzales, B. MacGregor, J. Parker, R. Polo-Sherk, V.G.J. Rodgers, L. Wassink, _$4D$, $N = 1$ Supersymmetry Genomics (I)_, JHEP 0912:008,2009 ([arXiv:0902.3830](https://arxiv.org/abs/0902.3830))
+* {#GGMPPRW09} [[Jim Gates]], J. Gonzales, B. MacGregor, J. Parker, R. Polo-Sherk, V. G. J. Rodgers, L. Wassink, _$4D$, $\mathcal{N} = 1$ Supersymmetry Genomics (I)_, JHEP 0912:008 (2009) &lbrack;[arXiv:0902.3830](https://arxiv.org/abs/0902.3830), [doi:10.1088/1126-6708/2009/12/008](https://doi.org/10.1088/1126-6708/2009/12/008)&rbrack;
 
-* {#GatesHubschStiffler14} [[Jim Gates]], [[Tristan Hübsch]], Kory Stiffler, _Adinkras and SUSY Holography_, Int. J. Mod. Phys. A29 no. 7, (2014) 1450041 ([arXiv:1208.5999](https://arxiv.org/abs/1208.5999))
+* {#GatesHubschStiffler14} [[Jim Gates]], [[Tristan Hübsch]], Kory Stiffler, _Adinkras and SUSY Holography_, Int. J. Mod. Phys. A **29** 7 (2014) 1450041 &lbrack;[arXiv:1208.5999](https://arxiv.org/abs/1208.5999), [doi;10.1142/S0217751X14500419](https://doi.org/10.1142/S0217751X14500419)&rbrack;
 
 See also
 
@@ -133,9 +133,7 @@ See also
 
 Discussion for $D=11$, $\mathcal{N}=1$:
 
-* [[Jim Gates]], Yangrui Hu, S.-N. Hazel Mak, _Adinkra Foundation of Component Decomposition and the Scan for Superconformal Multiplets in 11D, $\mathcal{N} = 1$ Superspace_ ([arXiv:2002.08502](https://arxiv.org/abs/2002.08502))
-
-
+* [[Jim Gates]], Yangrui Hu, S.-N. Hazel Mak, _Adinkra Foundation of Component Decomposition and the Scan for Superconformal Multiplets in 11D, $\mathcal{N} = 1$ Superspace_ &lbrack;[arXiv:2002.08502](https://arxiv.org/abs/2002.08502), <a href="https://doi.org/10.1007/JHEP09(2020)089">doi:10.1007/JHEP09(2020)089</a>&rbrack;
 
 
 The relation of adinkras to special [[super Riemann surfaces]] via [[dessins d'enfants]] is due to
@@ -144,9 +142,12 @@ The relation of adinkras to special [[super Riemann surfaces]] via [[dessins d'e
 
 * {#DoranIgaKostiukMendes-Diez16} [[Charles Doran]], [[Kevin Iga]], Jordan Kostiuk, [[Stefan Méndez-Diez]], _Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras II_ ([arXiv:1610.09983](https://arxiv.org/abs/1610.09983))
 
-Further developments includes
+Further developments:
 
-* {#CalkinsGatesGatesStiffler15} Mathew Calkins, D. E. A. Gates, [[Jim Gates]] Jr., Kory Stiffler, _Adinkras, 0-branes, Holoraumy and the SUSY QFT/QM Correspondence_ ([arXiv:1501.00101](https://arxiv.org/abs/1501.00101))
+* {#CalkinsGatesGatesStiffler15} Mathew Calkins, D. E. A. Gates, [[Jim Gates]] Jr., Kory Stiffler, _Adinkras, 0-branes, Holoraumy and the SUSY QFT/QM Correspondence_,  International Journal of Modern Physics A **30** 11 (2015) 1550050 &lbrack;[arXiv:1501.00101](https://arxiv.org/abs/1501.00101), [doi:10.1142/S0217751X15500505](https://doi.org/10.1142/S0217751X15500505)&rbrack;
+
+* [[S. James Gates Jr.]], Isaiah B. Hilsenrath, Saul Hilsenrath: *Modern Tensor-Spinor Symbolic Algebra Algorithms and Computing Non-Closure Geometry & Holoraumy in $11D$, $\mathcal{N} = 1$ Supergravity* &lbrack;[arXiv:2212.00614](https://arxiv.org/abs/2212.00614)&rbrack;
+
 
 Discussion in the context of [[spectral triples]] is in
 
@@ -157,7 +158,8 @@ See also
 
 * Wes Caldwell, Alejandro Diaz, Isaac Friend, [[Jim Gates]], Jr., Siddhartha Harmalkar, Tamar Lambert-Brown, Daniel Lay, Karina Martirosova, Victor Meszaros, Mayowa Omokanwaye, Shaina Rudman, Daniel Shin, Anthony Vershov, _On the Four Dimensional Holoraumy of the $4D$, $\mathcal{N} = 1$ Complex Linear Supermultiplet_ ([arXiv:1702.05453](https://arxiv.org/abs/1702.05453))
 
-* Kevin Iga, *Adinkras: Graphs of Clifford Algebra Representations, Supersymmetry, and Codes* ([arXiv:2110.01665](https://arxiv.org/abs/2110.01665))
+* [[Kevin Iga]], *Adinkras: Graphs of Clifford Algebra Representations, Supersymmetry, and Codes* ([arXiv:2110.01665](https://arxiv.org/abs/2110.01665))
+
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Adinkra_symbols_(physics)">Adinkra symbols (physics)</a>_
 
@@ -167,11 +169,11 @@ In relation to [[pure spinors]]:
 
 
 
+
+
 [[!redirects adinkras]]
 
 [[!redirects adinkraic representation]]
 [[!redirects adinkraic representations]]
-
-
 
 
