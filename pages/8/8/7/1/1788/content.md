@@ -1,3 +1,42 @@
+
+\begin{tikzcd}
+  X 
+    \ar[r, equals] 
+    \ar[dr, "{ \nabla'_B }"{description, name=s1}]
+  & 
+  X
+    \ar[r, "{ \nabla_{\mathrm{gauge}} }"] 
+    \ar[d, "{ \nabla_B }"{description, name=t1}]
+    \ar[
+      from=s1,
+      to=t1,
+      Rightarrow,
+      shorten=3pt,
+      "{ a }"
+    ]
+  &
+    \big(
+      \mathbf{B}\mathrm{U}(n) /\!\!/ \mathbf{B}\mathrm{U}(1)
+    \big)_{\mathrm{conn}}
+    \ar[
+      dl,
+      "{
+        \mathbf{Fields}
+      }"{description, name=t2}
+    ]
+    \ar[
+      from=t1,
+      to=t2,
+      Rightarrow,
+      shorten=3pt,
+      "{  }"
+    ]
+  \\
+  &
+  \mathbf{B}^2\mathrm{U}(1)_{\mathrm{conn}}
+\end{tikzcd}
+
+
 [ref](#abc)
 
 
