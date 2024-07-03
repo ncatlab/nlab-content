@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[string theory]] the _Goddard-Thorn theorem_ ([Goddard-Thorn 72](#GoddardThorn72), [Thorn 87](#Thorn87), [Thorn 12](#Thorn12)) establishes the consistency of the usual [[quantization]] of the [[bosonic string]] [[sigma-model]] for [[target space]] [[dimension]] 26, and of the [[NSR string|NSR]] [[superstring]] [[sigma-model]] for [[target space]] [[dimension]] 10.
+In [[string theory]] the _Goddard-Thorn theorem_ ([Goddard & Thorn 1972](#GoddardThorn72), [Thorn 1987](#Thorn87), [Thorn 2012](#Thorn12)) establishes the consistency of the usual [[quantization]] of the [[bosonic string]] [[sigma-model]] for [[target space]] [[dimension]] 26, and of the [[NSR string|NSR]] [[superstring]] [[sigma-model]] for [[target space]] [[dimension]] 10.
 
 In the original "old covariant quantization" approach to this problem the proof amounts to demonstrating that the [[inner product]] on the would-be [[Hilbert space]] of [[quantum states]] is indeed [[positive definite]]. Since would-be [[quantum states]] of [[negative number|negative]] [[norm]] have been known as "ghost states", the theorem has become widely known as the _no-ghost theorem_ of [[string theory]]. More modern derivations proceed via or compare to [[quantization]] via the [[BRST complex]] of the string [[sigma-model]].
 
@@ -29,23 +29,25 @@ In particular the theorem thus establishes the [[superstring]] excitations of va
 
 ## References
 
-The original articles are
+The original articles:
 
-* {#GoddardThorn72} [[Peter Goddard]], [[Charles Thorn]], _Compatibility of the dual Pomeron with unitarity and the absence of ghosts in the dual resonance model_, Phys. Lett., B 40, No. 2 (1972), 235-238 ([spire:74899](http://inspirehep.net/record/74899/))
+* {#GoddardThorn72} [[Peter Goddard]], [[Charles Thorn]], _Compatibility of the dual Pomeron with unitarity and the absence of ghosts in the dual resonance model_, Phys. Lett., B **40** 2 (1972) 235-238 &lbrack;<a href="https://doi.org/10.1016/0370-2693(72)90420-0">doi:10.1016/0370-2693(72)90420-0</a>, [spire:74899](http://inspirehep.net/record/74899/)&rbrack;
 
-* Richard C. Brower, _Spectrum-generating algebra and no-ghost theorem for the dual model_, Physical Review D 6.6 (1972): 1655 ([doi:10.1103/PhysRevD.6.1655](https://link.aps.org/doi/10.1103/PhysRevD.6.1655))
+* Richard C. Brower, _Spectrum-generating algebra and no-ghost theorem for the dual model_, Physical Review D **6** 6 (1972)  1655 &lbrack;[doi:10.1103/PhysRevD.6.1655](https://link.aps.org/doi/10.1103/PhysRevD.6.1655)&rbrack;
 
-* {#Thorn87} [[Charles Thorn]], _A detailed study of the physical state conditions in covariantly quantized string theories_, Nuclear Physics B 286 (1987): 61-77 (<a href="https://doi.org/10.1016/0550-3213(87)90431-7">doi:10.1016/0550-3213(87)90431-7</a>)
+* {#Thorn87} [[Charles Thorn]], _A detailed study of the physical state conditions in covariantly quantized string theories_, Nuclear Physics B **286** (1987) 61-77 &lbrack;<a href="https://doi.org/10.1016/0550-3213(87)90431-7">doi:10.1016/0550-3213(87)90431-7</a>&rbrack;
 
-* {#Thorn12} [[Charles Thorn]], _Improved Proof of the No-ghost Theorem for Fermion States of the Superstring_, Nuclear Physics B Volume 864, Issue 2, 11 November 2012, Pages 285-295 ([arXiv:1110.5510](https://arxiv.org/abs/1110.5510))
+* {#Thorn12} [[Charles Thorn]], _Improved Proof of the No-ghost Theorem for Fermion States of the Superstring_, Nuclear Physics B **864** 2 (2012) 285-295 &lbrack;[arXiv:1110.5510](https://arxiv.org/abs/1110.5510), [doi:10.1016/j.nuclphysb.2012.06.017](https://doi.org/10.1016/j.nuclphysb.2012.06.017)&rbrack;
 
-A textbook account is in 
+A textbook account is in: 
 
-* [[Michael Green]], [[John  Schwarz]], [[Edward Witten]], section 2.2, 2.3 (bosonic) and section 4.3.2 (fermionic) of _Superstring theory_, Cambridge University Press 1987
+* [[Michael Green]], [[John  Schwarz]], [[Edward Witten]], section 2.2, 2.3 (bosonic) and section 4.3.2 (fermionic) of: _Superstring theory_, Cambridge Monographs on Mathematical Physics (1988) &lbrack;Vol 1: [spire:250488](http://inspirehep.net/record/250488), [ISBN:9781107029118](https://www.cambridge.org/us/academic/subjects/physics/theoretical-physics-and-mathematical-physics/superstring-theory-25th-anniversary-edition-volume-1?format=HB&isbn=9781107029118); Vol 2: [spire:1384879](http://inspirehep.net/record/1384879), [doi:10.1017/CBO9781139248570](https://doi.org/10.1017/CBO9781139248570)&rbrack;
 
-The proof via DDF operators is also recalled in 
 
-* [[Urs Schreiber]], _DDF and Pohlmeyer invariants of (super)string_, JHEP0405:027, 2004 ([arXiv:hep-th/0403260](https://arxiv.org/abs/hep-th/0403260))
+
+The proof via DDF operators is also recalled in:
+
+* [[Urs Schreiber]], _DDF and Pohlmeyer invariants of (super)string_, JHEP 0405:027 (2004) &lbrack;[arXiv:hep-th/0403260](https://arxiv.org/abs/hep-th/0403260), [doi:10.1088/1126-6708/2004/05/027](https://doi.org/10.1088/1126-6708/2004/05/027)&rbrack;
 
 See also 
 
