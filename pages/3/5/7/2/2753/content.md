@@ -129,21 +129,22 @@ A connection with [[BV-theory]] and [[L-infinity algebra]] is made in
 
 * [[Johannes Huebschmann]], _Lie--Rinehart algebras, Gerstenhaber algebras and Batalin-Vilkovisky algebras_ ([journal](http://aif.cedram.org/item?id=AIF_1998__48_2_425_0))
 
-Crossed modules in the category of Lie-Rinehart algebras is studied in the Master's thesis: 
+Discussion of [[crossed modules]] [[internalization|internal to]] the [[category]] of Lie-Rinehart algebras:
 
-* [[Joel Couchman]], _Crossed modules and internal categories of Lie-Rinehart algebras_, Master's thesis, Macquarie University, 2017. ([doi:10.25949/19439645.v1](https://doi.org/10.25949/19439645.v1))
+* Joel Couchman, _Crossed modules and internal categories of Lie-Rinehart algebras_, Master's thesis, Macquarie University (2017) &lbrack;[doi:10.25949/19439645.v1](https://doi.org/10.25949/19439645.v1), [[Couchman-CrossedModules.pdf:file]]&rbrack;
+
 
 [[!redirects Lie-Rinehart pairs]]
 
 [[!redirects Lie-Rinehart algebra]]
-[[!redirects Lie?Rinehart pair]]
-[[!redirects Lie?Rinehart algebra]]
+[[!redirects Lie-Rinehart pair]]
+[[!redirects Lie-Rinehart algebra]]
 [[!redirects Lie--Rinehart pair]]
 [[!redirects Lie--Rinehart algebra]]
 
 [[!redirects Lie-Rinehart algebras]]
-[[!redirects Lie?Rinehart pairs]]
-[[!redirects Lie?Rinehart algebras]]
+[[!redirects Lie-Rinehart pairs]]
+[[!redirects Lie-Rinehart algebras]]
 [[!redirects Lie--Rinehart pairs]]
 [[!redirects Lie--Rinehart algebras]]
 
