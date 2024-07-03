@@ -661,8 +661,7 @@ For references on parallel 2-transport in [[bundle gerbes]] see [[connection on 
 
 The description of parallel $n$-transport in terms of $n$-functors on the [[path n-groupoid]] for low $n$ is in 
 
-
-* [[Urs Schreiber]],  [[Konrad Waldorf]], _Smooth Functors and Differential Forms_, Homology, Homotopy Appl., 13(1), 143-203 (2011) ([arXiv:0802.0663](http://arxiv.org/abs/0802.0663))
+* {#SchreiberWaldorf11} [[Urs Schreiber]], [[Konrad Waldorf]], _Smooth Functors and Differential Forms_, Homology, Homotopy Appl., **13** 1 (2011) 143-203 &lbrack;[arXiv:0802.0663](http://arxiv.org/abs/0802.0663), [hha:1311953350](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-13/issue-1/Smooth-functors-vs-differential-forms/hha/1311953350.full)&rbrack
 
 * {#MartinsPickenI} [[João Faria Martins]], [[Roger Picken]], _On 2-dimensional holonomy_ ([arXiv](http://arxiv.org/abs/0710.4310))
 
