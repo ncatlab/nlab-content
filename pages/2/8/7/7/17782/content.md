@@ -127,21 +127,9 @@ supported by a [[supergravity C-field|C-field]] [[flux density]] of the form
   G_4
   \;\equiv\;
   \mu 
-  \sqrt{2}
   \;
   \mathrm{d}x^- 
   \, \mathrm{d}x^1 \, \mathrm{d}x^2 \, \mathrm{d}x^3
-  \;\;=\;\;
-
-  \mu
-  \,
-  \mathrm{d}x^{10} \,
-  \mathrm{d}x^1 \, \mathrm{d}x^2 \, \mathrm{d}x^3
-  -
-  \mu
-  \,
-  \mathrm{d}x^{0} \,
-  \mathrm{d}x^1 \, \mathrm{d}x^2 \, \mathrm{d}x^3
   \,,
 \]
 for given parameter $\mu \in \mathbb{R}$.
@@ -316,6 +304,7 @@ $$
   T_{\mu \nu}
   \;=\;
   -
+  \tfrac{1}{12}
   \big(
     (G_4)_{\mu \, \mu_1 \cdots \mu_{s-1}}
     (G_4)_{\nu}{}^{ \mu_1 \cdots \mu_{s-1} }
@@ -334,7 +323,7 @@ of the [[supergravity C-field|C-field]] (eq:CFieldFLuxDensityForMaximalSuSyWaveI
     T_{- -}
     &=&
     -
-    2
+    \tfrac{1}{12}
     \mu^2
     \epsilon_{i_1 i_2 i_3}
     \,
@@ -342,7 +331,7 @@ of the [[supergravity C-field|C-field]] (eq:CFieldFLuxDensityForMaximalSuSyWaveI
     \\
     &=&
     -
-    12
+    \tfrac{1}{2}
     \mu^2
     \,.
   \end{array}
@@ -353,7 +342,6 @@ Comparison of (eq:EinsteinTensorOfMaximalSuSyWaveIn11d) with (eq:EnergyMomentumO
 $$
   G_{a b} 
   \;=\; 
-  \tfrac{1}{24}
   T_{a b}
 $$
 
