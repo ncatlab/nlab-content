@@ -100,6 +100,9 @@ As [[black brane]]-solutions of [[D=11 supergravity]]:
 
 * [[Iosif Bena]], [[Anthony Houppe]], [[Dimitrios Toulikas]], [[Nicholas P. Warner]], *Maze Topiary in Supergravity* &lbrack;[arXiv:2312.02286](https://arxiv.org/abs/2312.02286)&rbrack;
 
+* [[Iosif Bena]], Soumangsu Chakraborty, [[Dimitrios Toulikas]], [[Nicholas P. Warner]], *The M2-M5 Mohawk* &lbrack;[arXiv:2407.01665](https://arxiv.org/abs/2407.01665)&rbrack;
+
+
 ### As polarized M2 branes
 
 The Myers effect in [[M-theory]] for [[M2-branes]] polarizing into [[M5-branes]] of ([[fuzzy 3-sphere|fuzzy]]) [[3-sphere]]-shape ([[M2-M5 brane bound states]]):
