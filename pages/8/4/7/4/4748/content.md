@@ -661,9 +661,9 @@ For references on parallel 2-transport in [[bundle gerbes]] see [[connection on 
 
 The description of parallel $n$-transport in terms of $n$-functors on the [[path n-groupoid]] for low $n$ is in 
 
-* {#SchreiberWaldorf11} [[Urs Schreiber]], [[Konrad Waldorf]], _Smooth Functors and Differential Forms_, Homology, Homotopy Appl., **13** 1 (2011) 143-203 &lbrack;[arXiv:0802.0663](http://arxiv.org/abs/0802.0663), [hha:1311953350](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-13/issue-1/Smooth-functors-vs-differential-forms/hha/1311953350.full)&rbrack
+* {#SchreiberWaldorf11} [[Urs Schreiber]], [[Konrad Waldorf]], _Smooth Functors and Differential Forms_, Homology, Homotopy Appl., **13** 1 (2011) 143-203 &lbrack;[arXiv:0802.0663](http://arxiv.org/abs/0802.0663), [hha:1311953350](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-13/issue-1/Smooth-functors-vs-differential-forms/hha/1311953350.full)&rbrack;
 
-* {#MartinsPickenI} [[João Faria Martins]], [[Roger Picken]], _On 2-dimensional holonomy_ ([arXiv](http://arxiv.org/abs/0710.4310))
+* {#MartinsPickenI} [[João Faria Martins]], [[Roger Picken]], _On 2-dimensional holonomy_ &lbrack;[arXiv:0710.4310](http://arxiv.org/abs/0710.4310)&rbrack;
 
 * {#MartinsPickenII} [[João Faria Martins]], [[Roger Picken]], _The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module_ ([arXiv](http://arxiv.org/abs/0907.2566))
 
@@ -672,9 +672,12 @@ The description of [[connections on a 2-bundle]] in terms of such parallel 2-tra
 
 * [[John Baez]], [[Urs Schreiber]], _Higher gauge theory_, in A. Davydov et al. (eds.), _Categories in Algebra, Geometry and Mathematical Physics_, Contemp Math 431, AMS, Providence, Rhode Island (2007) pp 7-30 ([arXiv:0511710](http://arxiv.org/abs/math/0511710), [arXiv:hep-th/0412325](http://arxiv.org/abs/hep-th/0412325))
 
-* {#SWIII} [[Urs Schreiber]], [[Konrad Waldorf]], _Connections on nonabelian gerbes and their holonomy_, Theory Appl. Categ., Vol. 28, 2013, No. 17, pp 476-540 ([arXiv:0808.1923](http://arxiv.org/abs/0808.1923), [TAC](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html)) 
+* {#SWIII} [[Urs Schreiber]], [[Konrad Waldorf]], _Connections on nonabelian gerbes and their holonomy_, Theory Appl. Categ. **28** 17 (2013) 476-540 &lbrack;[arXiv:0808.1923](http://arxiv.org/abs/0808.1923), [tac:28-17](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html)&rbrack;
 
-Much further discussion and illustration and relation to [[tensor networks]] is in
+* [[Konrad Waldorf]], *Parallel transport in principal 2-bundles*, Higher Structures **2** 1 (2018) 57-115 &lbrack;[arXiv:1704.08542](https://arxiv.org/abs/1704.08542), [pdf](https://higher-structures.math.cas.cz/api/files/issues/Vol2Iss1/Waldorf)&rbrack;
+
+
+Further discussion and illustration and relation to [[tensor networks]] is in
 
 * {#Parzygnat18} [[Arthur Parzygnat]], _Two-dimensional algebra in lattice gauge theory_, Journal of Mathematical Physics 60, 043506 (2019) ([arXiv:1802.01139](https://arxiv.org/abs/1802.01139), [doi:10.1063/1.5078532](https://doi.org/10.1063/1.5078532))
 
