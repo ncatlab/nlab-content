@@ -3,9 +3,18 @@
 
 ## Selected writings
 
+On [[higher parallel transport]] in [[principal 2-bundles]] ([[nonabelian bundle gerbes]]) with [[connection on a 2-bundle|2-connection]]:
+
+* {#SchreiberWaldorf11} [[Urs Schreiber]], [[Konrad Waldorf]], _Smooth Functors and Differential Forms_, Homology, Homotopy Appl., **13** 1 (2011) 143-203 &lbrack;[arXiv:0802.0663](http://arxiv.org/abs/0802.0663), [hha:1311953350](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-13/issue-1/Smooth-functors-vs-differential-forms/hha/1311953350.full)&rbrack;
+
+* {#SWIII} [[Urs Schreiber]], [[Konrad Waldorf]], _Connections on nonabelian gerbes and their holonomy_, Theory Appl. Categ. **28** 17 (2013) 476-540 &lbrack;[arXiv:0808.1923](http://arxiv.org/abs/0808.1923), [tac:28-17](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html)&rbrack;
+
+* [[Konrad Waldorf]], *Parallel transport in principal 2-bundles*, Higher Structures **2** 1 (2018) 57-115 &lbrack;[arXiv:1704.08542](https://arxiv.org/abs/1704.08542), [pdf](https://higher-structures.math.cas.cz/api/files/issues/Vol2Iss1/Waldorf)&rbrack;
+
+
 On [[bundle gerbes]] over [[Lie groups]]:
 
-* [[Christoph Schweigert]], [[Konrad Waldorf]], _Gerbes and Lie Groups_, In: KH. Neeb, A. Pianzola  (eds) _Developments and Trends in Infinite-Dimensional Lie Theory_, Progress in Mathematics, vol 288. Birkhäuser Boston 2011 ([arXiv:0710.5467](https://arxiv.org/abs/0710.5467), [doi:10.1007/978-0-8176-4741-4_10](https://doi.org/10.1007/978-0-8176-4741-4_10))
+* [[Christoph Schweigert]], [[Konrad Waldorf]], _Gerbes and Lie Groups_, In: K. H. Neeb, A. Pianzola  (eds.) _Developments and Trends in Infinite-Dimensional Lie Theory_, Progress in Mathematics, vol 288. Birkhäuser (2011) &lbrack;[arXiv:0710.5467](https://arxiv.org/abs/0710.5467), [doi:10.1007/978-0-8176-4741-4_10](https://doi.org/10.1007/978-0-8176-4741-4_10)&rbrack;
 
 
 Characterizing the [[image]] of the [[transgression]] operation from [[bundle gerbes]] ([[bundle gerbe with connection|with connection]]) to [[complex line bundles]] ([[connection on a vector bundle|with connection]]) on the [[free loop space]] of their base space as consisting of *[[fusion bundles]]*:
