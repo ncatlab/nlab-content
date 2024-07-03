@@ -1036,7 +1036,7 @@ which is  manifestly the claimed [[Hodge duality]] relation.
       R^{m n}_{m n}
       \;=\;
       -
-      \tfrac{1}{23}
+      \tfrac{1}{12}
       \Big(
       \,
       (G_4)^a{c_1 \cdots c_3}
