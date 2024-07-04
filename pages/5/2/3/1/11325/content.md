@@ -17,7 +17,7 @@
 
 The _cosmic censorship hypothesis_ is the name of a pair of [[conjectures]] ([Penrose 69](#Penrose69)) saying that in the [[theory (physics)|theory]] of [[general relativity]], under physically reasonable conditions, any [[singularities]] in [[spacetime]] must lie behind an [[event horizon]].    
 
-Both the weak and the string form of the conjecture concern solutions of [[Einstein's equations]] with physically realistic matter and generic compact or asymptotically flat initial data.
+Both the weak and the strong form of the conjecture concern solutions of [[Einstein's equations]] with physically realistic matter and generic compact or asymptotically flat initial data.
 
 The **strong cosmic censorship conjecture**, proposed by Penrose in 1986, states that the maximal Cauchy development of such a solution is locally inextendible as a regular Lorentzian manifold.  
 
