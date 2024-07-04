@@ -58,7 +58,7 @@ Historically the theory of general relativity was developed by [[Albert Einstein
 
 Original articles:
 
-* [[Albert Einstein]], [[Marcel Grossmann]]: *Entwurf einer verallgemeinerten Relativitätstheorie und einer Theorie der Gravitation*, Teubner (2013) &lbrack;[[EinsteinGrossmann-Entwurf.pdf:file]]&rbrack;
+* [[Albert Einstein]], [[Marcel Grossmann]]: *Entwurf einer verallgemeinerten Relativitätstheorie und einer Theorie der Gravitation*, Teubner (1913) &lbrack;[[EinsteinGrossmann-Entwurf.pdf:file]]&rbrack;
 
 On the early history of the idea:
 
