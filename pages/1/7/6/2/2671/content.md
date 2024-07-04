@@ -118,7 +118,14 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
 Historical texts:
 
+* [[Albert Einstein]], [[Marcel Grossmann]]: *Entwurf einer verallgemeinerten Relativitätstheorie und einer Theorie der Gravitation*, Teubner (2013) &lbrack;[[EinsteinGrossmann-Entwurf.pdf:file]]&rbrack;
+
 * {#Infeld1962} [[Leopold Infeld]] (ed.), *Relativistic Theories of Gravitation*, Proceedings of a conference held in Warsaw and Jablonna 1962, Pergamon Press (1964) &lbrack;[pdf](https://cds.cern.ch/record/2282975/files/warsaw-1962.pdf)&rbrack;
+
+On the early history of the idea:
+
+* {#EarmanGlymor78} John Earman, Clark Glymour: *Lost in the tensors: Einstein's struggles with covariance principles 1912–1916*, Studies in History and Philosophy of Science Part A Volume 9, Issue 4, (1978) 251-278 \[<a href="https://doi.org/10.1016/0039-3681(78)90008-0">doi:10.1016/0039-3681(78)90008-0</a>\]
+
 
 Textbook accounts:
 
