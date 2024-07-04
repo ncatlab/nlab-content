@@ -334,6 +334,8 @@ See also:
 
 * {#KorostenskiTholen} Mareli Korostenski, [[Walter Tholen]], _Factorization systems as Eilenberg-Moore algebras, ([doi](https://doi.org/10.1016/0022-4049%2893%2990171-O))
 
+* {#Grandis01} [[Marco Grandis]], _On the monad of proper factorisation systems in categories_, 2001, ([doi](https://doi.org/10.1016/S0022-4049%2801%2900114-1), [arxiv](https://arxiv.org/abs/math/0101154))
+
 Introductory texts:
 
 * [[Introduction to Homotopy Theory]]
