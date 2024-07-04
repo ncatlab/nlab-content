@@ -50,7 +50,13 @@ Mathematically, special relativity is essentially the theory of [[Minkowski spac
 
 ## References
 
+See also:
+
 * Wikipedia, _[Special relativity](http://en.wikipedia.org/wiki/Special_relativity)_
+
+History:
+
+* {#Weinstein12} Galina Weinstein: *Max Born, Albert Einstein and Hermann Minkowski's Space-Time Formalism of Special Relativity* &lbrack;[arXiv:1210.6929](https://arxiv.org/abs/1210.6929)&rbrack;
 
 
 [[!redirects special relativity theory]]
