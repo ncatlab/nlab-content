@@ -32,6 +32,55 @@ Note that a strict factorization system is not necessarily an [[orthogonal facto
 
 * Each [[opfibration]] $f \colon A \rightarrow B$ equipped with a [[splitting]] determines a strict factorisation system on $A$ whose classes of morphisms are the chosen opcartesian lifts and the vertical morphisms (those morphisms sent to identities by $f$).  
 
+## As algebras of the factorization 2-monad
+
+In [Grandis'01](#Grandis01), following [Korostenski & Tholen](#KorostenskiTholen), it is shown in detail how strict factorization systems are *strict* algebras for the [[2-monad]] $(-)^\downarrow$.
+
+Such a 2-monad is induced by the comonoid structure of $\downarrow \in \mathbf{Cat}$. Its unit $\eta_X : X \to X^\downarrow$ sends an object $x \in X$ to its identity map, while its multiplication $\mu_X : X^{\downarrow \times \downarrow} \to X^\downarrow$ sends a square $(u,v):f \to g$ in $X$ to its diagonal $vf=gu$. The 2-monad $((-)^\downarrow, \eta, \mu)$ is called by Grandis **factorization monad**.
+
+Notably, every $X^\downarrow$ is equipped with a strict factorization system, given by top trivial and bottom trivial squares:
+
+\begin{tikzcd}
+	\cdot & \cdot && \cdot & \cdot & \cdot \\
+	\cdot & \cdot && \cdot & \cdot & \cdot
+	\arrow[from=1-1, to=1-2]
+	\arrow[from=1-1, to=2-1]
+	\arrow[dotted, from=1-1, to=2-2]
+	\arrow[""{name=0, anchor=center, inner sep=0}, from=1-2, to=2-2]
+	\arrow[Rightarrow, no head, from=1-4, to=1-5]
+	\arrow[""{name=1, anchor=center, inner sep=0}, from=1-4, to=2-4]
+	\arrow[from=1-5, to=1-6]
+	\arrow[dotted, from=1-5, to=2-5]
+	\arrow[from=1-6, to=2-6]
+	\arrow[from=2-1, to=2-2]
+	\arrow[from=2-4, to=2-5]
+	\arrow[Rightarrow, no head, from=2-5, to=2-6]
+	\arrow["{=}"{marking, allow upside down}, draw=none, from=0, to=1]
+\end{tikzcd}
+
+In fact, $X^\downarrow$ equipped with such strict fs is the *free strict fs* on $X$. This can be formulated as follows:
+
+\begin{proposition}
+The category $X^\downarrow$ with the aforementioned strict fs is universal in the following sense: for each other category $Y$ equipped with a strict fs and functor $F:X \to Y$, there is a functor $G:X^\downarrow \to Y$ factoring $F$ through $\eta_X$.
+\end{proposition}
+\begin{proof}
+Define $G(f)$ to be the image of the factorization of $Ff$.
+\end{proof}
+
+The above also holds weakly for ortoghonal fss, so that $G$ now preserves the fs only up to unique functorial isomorphism.
+
+We thus displayed $\eta$ as a universal arrow for $(-)^\downarrow$, showcasing its nature as a left 2-adjoint to the forgetful functor $U:\mathbf{FsCat} \to \mathbf{Cat}$. Grandis goes on to show this adjunction is in fact 2-monadic, exhibiting $(-)^\downarrow$-algebras as strict factorization systems.
+
+A strict algebra of $(-)^\downarrow$ is a category $X$ equipped with a functor $t:X^\downarrow \to X$ such that $t.\eta_x = 1_X$ and $t . t^\downarrow = t.\mu_X$.
+
+Let's unpack the correspondence here.
+
+The functor $t$ is easy to conceptualize: it sends a morphism $f:a \to b$ to its *image* $t(f)$, this being the middle object in its (for now, only conjectural) factorization. Indeed, we can recover the desired strict factorization systems by looking at the image of the free factorization system on $X^\downarrow$. Define a map in $X$ to be **left** ($L$) if it equals $t(1,f)$ for some $f:a \to b \in X$, and **right** ($R$) if it equals $t(f,1)$.
+
+Now to show this pair $(L,R)$ is a strict fs we need to prove every morphism factors uniquely.
+By unitality $a = t(\eta_X(a))$, so that given $f:a \to b$ in $X$, there are left maps $a \to t(f)$ and right maps $t(f) \to b$ given by the image of the factorization of $\eta_X(f)$ in $X^\downarrow$. These maps must compose to $f$, again by unitality, so $(L,R)$-factorizations exists.
+Uniqueness follows by noticing $f = t(h,1)t(1,k)$ implies $f=h=k$.
+
 ## As distributive laws in a bicategory
 
 One reason strict factorization systems are of interest is that they can be identified with [[distributive laws]] in the [[bicategory]] of [[spans]], as shown by [Rosebrugh & Wood (2002)](#RosebrughWood02).
@@ -61,6 +110,11 @@ See also:
 * {#Lack04} [[Stephen Lack]], *Composing PROPs*, Theory and Applications of Categories, **13** 9 (2004) 147-163 &lbrack;[tac:13-09](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html)&rbrack;
 
 * {#Böhm12} [[Gabriella Böhm]], *Factorization systems induced by weak distributive laws*, Appl. Categ. Structures **20** 3 (2012) 275-302 &lbrack;[doi:10.1007/s10485-010-9243-y](https://doi.org/10.1007/s10485-010-9243-y), [arXiv:1009.0732](https://arxiv.org/abs/1009.0732)&rbrack;
+
+* {#KorostenskiTholen} Mareli Korostenski, [[Walter Tholen]], _Factorization systems as Eilenberg-Moore algebras, ([doi](https://doi.org/10.1016/0022-4049%2893%2990171-O))
+
+* {#Grandis01} [[Marco Grandis]], _On the monad of proper factorisation systems in categories_, 2001, ([doi](https://doi.org/10.1016/S0022-4049%2801%2900114-1), [arxiv](https://arxiv.org/abs/math/0101154))
+
 
 
 [[!redirects strict factorization systems]]
