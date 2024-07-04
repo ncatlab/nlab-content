@@ -5,7 +5,7 @@
 
 Introducing [[general relativity]] (the modern theory of [[gravity]]):
 
-* [[Albert Einstein]], [[Marcel Grossmann]]: *Entwurf einer verallgemeinerten Relativitätstheorie und einer Theorie der Gravitation*, Teubner (2013) &lbrack;[[EinsteinGrossmann-Entwurf.pdf:file]]&rbrack;
+* [[Albert Einstein]], [[Marcel Grossmann]]: *Entwurf einer verallgemeinerten Relativitätstheorie und einer Theorie der Gravitation*, Teubner (1913) &lbrack;[[EinsteinGrossmann-Entwurf.pdf:file]]&rbrack;
 
 ## Relation to Einstein
 
