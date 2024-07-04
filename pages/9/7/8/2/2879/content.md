@@ -151,5 +151,9 @@ Further examples and counterexamples
 
 > The aim of this note is to communicate a simple example of a Lie-Rinehart algebra whose enveloping algebra is not a Hopf algebroid, neither in the sense of Böhm and Szlachányi, nor in the sense of Lu.
 
+On [[Hopf-Galois extension|Hopf-Galois extensions]] of Hopf algebroids
+
+* Xiao Han, Peter Schauenburg. *Hopf Galois extensions of Hopf algebroids* (2024). ([arXiv:2406.11058](https://arxiv.org/abs/2406.11058)).
+
 category: algebra
 [[!redirects Hopf algebroids]]
