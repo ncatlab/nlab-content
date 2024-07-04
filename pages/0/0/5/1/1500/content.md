@@ -254,6 +254,9 @@ On a notion of [[fusion 2-categories]]:
 
 * {#DY23} [[Thibault Decoppet]], [[Matthew Yu]]. *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories*. (2023) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
 
+On fusion categories invertible with respect to the [[Deligne tensor product of abelian categories|Deligne tensor product]]
+
+* Sean Sanford, Noah Snyder. *Invertible Fusion Categories* (2024). ([arXiv:2407.02597](https://arxiv.org/abs/2407.02597)).
 
 
 
