@@ -34,7 +34,7 @@ Note that a strict factorization system is not necessarily an [[orthogonal facto
 
 ## As algebras of the factorization 2-monad
 
-In [Grandis'01](#Grandis01), following [Korostenski & Tholen](#KorostenskiTholen), it is shown in detail how strict factorization systems are *strict* algebras for the [[2-monad]] $(-)^\downarrow$.
+[Grandis](#Grandis01), following [Korostenski & Tholen](#KorostenskiTholen), it is shown in detail how strict factorization systems are *strict* algebras for the [[2-monad]] $(-)^\downarrow$.
 
 Such a 2-monad is induced by the comonoid structure of $\downarrow \in \mathbf{Cat}$. Its unit $\eta_X : X \to X^\downarrow$ sends an object $x \in X$ to its identity map, while its multiplication $\mu_X : X^{\downarrow \times \downarrow} \to X^\downarrow$ sends a square $(u,v):f \to g$ in $X$ to its diagonal $vf=gu$. The 2-monad $((-)^\downarrow, \eta, \mu)$ is called by Grandis **factorization monad**.
 
@@ -61,13 +61,15 @@ Notably, every $X^\downarrow$ is equipped with a strict factorization system, gi
 In fact, $X^\downarrow$ equipped with such strict fs is the *free strict fs* on $X$. This can be formulated as follows:
 
 \begin{proposition}
-The category $X^\downarrow$ with the aforementioned strict fs is universal in the following sense: for each other category $Y$ equipped with a strict fs and functor $F:X \to Y$, there is a functor $G:X^\downarrow \to Y$ factoring $F$ through $\eta_X$.
+The category $X^\downarrow$ with the aforementioned strict fs is universal in the following sense: for each other category $Y$ equipped with a strict fs and functor $F:X \to Y$, there is a functor $G:X^\downarrow \to Y$, factoring $F$ through $\eta_X$ and that strictly preserves factorization systems.
 \end{proposition}
 \begin{proof}
 Define $G(f)$ to be the image of the factorization of $Ff$.
 \end{proof}
 
+\begin{remark}
 The above also holds weakly for ortoghonal fss, so that $G$ now preserves the fs only up to unique functorial isomorphism.
+\end{remark}
 
 We thus displayed $\eta$ as a universal arrow for $(-)^\downarrow$, showcasing its nature as a left 2-adjoint to the forgetful functor $U:\mathbf{FsCat} \to \mathbf{Cat}$. Grandis goes on to show this adjunction is in fact 2-monadic, exhibiting $(-)^\downarrow$-algebras as strict factorization systems.
 
@@ -80,6 +82,31 @@ The functor $t$ is easy to conceptualize: it sends a morphism $f:a \to b$ to its
 Now to show this pair $(L,R)$ is a strict fs we need to prove every morphism factors uniquely.
 By unitality $a = t(\eta_X(a))$, so that given $f:a \to b$ in $X$, there are left maps $a \to t(f)$ and right maps $t(f) \to b$ given by the image of the factorization of $\eta_X(f)$ in $X^\downarrow$. These maps must compose to $f$, again by unitality, so $(L,R)$-factorizations exists.
 Uniqueness follows by noticing $f = t(h,1)t(1,k)$ implies $f=h=k$.
+
+Notice we didn't use associativity, and in fact it can be proven from unitality alone. Let $(u,v):f \to g$ be an object in $X^{\downarrow \times \downarrow}$, i.e. a commutative square in $X$.
+Then $t.t^\downarrow(u,v)$ is the object obtained by factoring $t(u,v)$ (corresponding to the horizontal factorization in the square below) while $t.\mu_X(u,v)$ is the object obtained by factoring $vf$ (corresponds to the diagonal factorization below):
+
+\begin{tikzcd}
+	\cdot && \cdot \\
+	{t(f)} & {t(t(u,v))} & {t(g)} \\
+	\cdot && \cdot
+	\arrow["u", from=1-1, to=1-3]
+	\arrow["{t(1,f)}"', two heads, from=1-1, to=2-1]
+	\arrow["{t(1,vf)}"{pos=0.7}, two heads, from=1-1, to=2-2]
+	\arrow[two heads, from=1-3, to=2-3]
+	\arrow[two heads, from=2-1, to=2-2]
+	\arrow[tail, from=2-1, to=3-1]
+	\arrow[tail, from=2-2, to=2-3]
+	\arrow["{t(vf,1)}"'{pos=0.3}, tail, from=2-2, to=3-3]
+	\arrow["{t(f,1)}", tail, from=2-3, to=3-3]
+	\arrow["v"', from=3-1, to=3-3]
+\end{tikzcd}
+
+The morphisms in the horizontal factorization can be precomposed with $t(1,f)$ and postcomposed $t(g,1)$ to get a different factorization of $vf$. By uniqueness, we must have $t.t^\downarrow(u,v)=t.\mu_X(u,v)$.
+
+\begin{remark}
+A similar story holds for [[orthogonal factorization systems]], which are equivalent to normal (i.e. strictly unital) [[pseudoalgebras]] of the factorization monad.
+\end{remark}
 
 ## As distributive laws in a bicategory
 
