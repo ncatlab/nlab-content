@@ -226,10 +226,10 @@ On the [[Tannaka duality]] to [[weak Hopf algebras]]:
 
 The relation to [[3d TQFT]] clarified via the [[cobordism hypothesis]]:
 
-* {#DSPS} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _The Structure of Fusion Categories via 3D TQFTs_ ([talk pdf](https://sites.google.com/site/chrisschommerpriesmath/Home/recent-and-upcoming-talks/UPennTalk.pdf?attredirects=0))
+* {#DSPS} [[Chris Schommer-Pries]], *The Structure of Fusion Categories via 3D TQFTs* (2001) &lbrack;[[DSSFusionSlides.pdf:file]]&rbrack;
  
 
-* {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _Dualizable tensor categories_ ([arXiv:1312.7188](http://arxiv.org/abs/1312.7188))
+* {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], *Dualizable tensor categories*, Memoirs of the AMS **268** 1308 (2021) &lbrack;[arXiv:1312.7188](http://arxiv.org/abs/1312.7188), [ams:memo-268-1308](https://bookstore.ams.org/memo-268-1308)&rbrack;
 
 and for the case of [[modular tensor categories]]:
 
@@ -242,11 +242,11 @@ Discussion in terms of [[skein relations]]:
 
 See also:
 
-* Math Overflow, _[Why are fusion categories interesting?](http://mathoverflow.net/questions/6180/why-are-fusion-categories-interesting)_ .
+* Math Overflow, *Why are fusion categories interesting?* &lbrack;[MO:q/6180](https://mathoverflow.net/q/6180/381)&rbrack; 
 
 Further work on their classification using finite groups:
 
-* Agustina Czenky. *Diagramatics for cyclic pointed fusion categories* (2024). ([arXiv:2404.08084](https://arxiv.org/abs/2404.08084)).
+* Agustina Czenky: *Diagramatics for cyclic pointed fusion categories* &lbrack;[arXiv:2404.08084](https://arxiv.org/abs/2404.08084)&rbrack;
 
 On a notion of [[fusion 2-categories]]:
 
@@ -254,9 +254,9 @@ On a notion of [[fusion 2-categories]]:
 
 * {#DY23} [[Thibault Decoppet]], [[Matthew Yu]]. *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories*. (2023) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
 
-On fusion categories invertible with respect to the [[Deligne tensor product of abelian categories|Deligne tensor product]]
+On fusion categories [[invertible object|invertible]] with respect to the [[Deligne tensor product of abelian categories|Deligne tensor product]]:
 
-* Sean Sanford, Noah Snyder. *Invertible Fusion Categories* (2024). ([arXiv:2407.02597](https://arxiv.org/abs/2407.02597)).
+* Sean Sanford, [[Noah Snyder]]: *Invertible Fusion Categories* &lbrack;[arXiv:2407.02597](https://arxiv.org/abs/2407.02597)&rbrack;
 
 
 
