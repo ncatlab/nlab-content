@@ -96,3 +96,5 @@ The idea of product-preserving-functors as a cartesian closed category is in var
 * [[John Power]], "Generic models for computational effects",  Theor. Comput. Sci. 364(2): 254-269 (2006)
 
 * Younesse Kaddar, "Ideal distributors", Section 1. 2020. [report](https://younesse.net/assets/ARPE_report.pdf).
+
+* G. A. Kavvos, _Two-dimensional Kripke Semantics II: Stability and Completeness_, [arXiv:2406.03578](https://arxiv.org/abs/2406.03578) (2024).
