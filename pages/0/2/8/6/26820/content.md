@@ -30,7 +30,7 @@ $$
 
 namely the [[quotient space]] of the [[Lie group]] [[SU(3)]] by the right multiplication [[group action|action]] of its [[subgroup]] [[SO(3)]].
 
-([Crowley 11](#Crowley11), [Debray]({#Debray}))
+([Crowley 11](#Crowley11), [Debray](#Debray))
 
 ## Properties
 
@@ -72,7 +72,7 @@ $$
 $W$ is a generator of the oriented [[bordism ring]] $\Omega_5^{\operatorname{SO}}$.
 \end{proposition}
 
-([Crowley 11](#Crowley11), [Debray]({#Debray}))
+([Crowley 11](#Crowley11), [Debray](#Debray))
 
 \begin{proposition}
 The Wu manifold is a [[spin^h structure|spin^h manifold]], which does not allow a [[spin^c structure]].
