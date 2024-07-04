@@ -34,7 +34,7 @@ A **coframe** $\mathcal{C}$ is
 
 * that has 
 
-  * all [[small limit|small]] [[products]]s, called [[meet|meets]] $\bigwedge$
+  * all [[small limit|small]] [[product|products]], called [[meet|meets]] $\bigwedge$
 
   * all [[finite colimits]], called [[join|joins]] $\vee$
 
