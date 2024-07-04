@@ -54,7 +54,7 @@ See also:
 
 * Wikipedia, _[Special relativity](http://en.wikipedia.org/wiki/Special_relativity)_
 
-History:
+On the early history of the idea:
 
 * {#Weinstein12} Galina Weinstein: *Max Born, Albert Einstein and Hermann Minkowski's Space-Time Formalism of Special Relativity* &lbrack;[arXiv:1210.6929](https://arxiv.org/abs/1210.6929)&rbrack;
 
