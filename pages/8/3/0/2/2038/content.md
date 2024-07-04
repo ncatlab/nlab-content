@@ -69,7 +69,6 @@ This happens to be the (Euclidean) [[quantum mechanics]] time evolution operator
 
 * [[super parallel transport]]
 
-* [[Bismut superconnection]]
 
 
 ## References 
@@ -80,13 +79,13 @@ The geometric interpretation of superconnections in terms of parallel transport 
 
 The algebraic formulation of superconnections as differential operators on the algebra of differential forms with values in endomorphisms of a $\mathbb{Z}_2$-graded [[vector bundle]] is much older, due to
 
-* Daniel Quillen, _Superconnections and the Chern character_  Topology, 24(1):89&#8211;95, 1985.
+* [[Daniel Quillen]], _Superconnections and the Chern character_, Topology **24**  1 (1985) 89-95
 
 There the notion of a superconnection was introduced as a means to encode the difference of the chern characters of two vector bundles, motivated from [[topological K-theory]].
 
 This was extended to the parameterized ("families") version in
 
-* Jean-Michel Bismut, _The Atiyah-Singer index theorem for families of Dirac operators: Two heat equation proofs_
+* [[Jean-Michel Bismut]], _The Atiyah-Singer index theorem for families of Dirac operators: Two heat equation proofs_
 
 Bismut also showed that under the push-forward in [[topological K-theory]] superconnections naturally appear even if one starts with just an ordinary [[connection]].
 
@@ -97,3 +96,11 @@ This statement is generalized to a complete notion of push-forward of superconne
 More on [[Chern-Weil theory]] of superconnections is in
 
 * Sylvie Paycha, Simon Scott, _Chern-Weil forms associated with superconnections_ ([pdf](http://math.univ-bpclermont.fr/~paycha/articles/PaychaScottfinalproceedings.pdf))
+
+[[!redirects superconnections]]
+
+[[!redirects Bismut superconnection]]
+[[!redirects Bismut superconnections]]
+
+
+
