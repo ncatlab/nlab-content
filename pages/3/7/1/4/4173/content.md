@@ -56,6 +56,14 @@ Historically the theory of general relativity was developed by [[Albert Einstein
 
 ### General
 
+Original articles:
+
+* [[Albert Einstein]], [[Marcel Grossmann]]: *Entwurf einer verallgemeinerten Relativitätstheorie und einer Theorie der Gravitation*, Teubner (2013) &lbrack;[[EinsteinGrossmann-Entwurf.pdf:file]]&rbrack;
+
+On the early history of the idea:
+
+* {#EarmanGlymor78} John Earman, Clark Glymour: *Lost in the tensors: Einstein's struggles with covariance principles 1912–1916*, Studies in History and Philosophy of Science Part A Volume 9, Issue 4, (1978) 251-278 \[<a href="https://doi.org/10.1016/0039-3681(78)90008-0">doi:10.1016/0039-3681(78)90008-0</a>\]
+
 Textbook accounts:
 
 * [[Steven Weinberg]]: *Gravitation and Cosmology: Principles and Applications of the General Theory of Relativity*, Wiley  (1972, 2013) &lbrack;[ISBN:978-0-471-92567-5](https://www.wiley.com/en-us/Gravitation+and+Cosmology%3A+Principles+and+Applications+of+the+General+Theory+of+Relativity-p-9780471925675), [ark:/13960/t13n7rw1f](https://archive.org/details/WeinbergS.GravitationAndCosmology..PrinciplesAndApplicationsOfTheGeneralTheoryOf/page/n1/mode/2up), [spire:1410180](https://inspirehep.net/literature/1410180)&rbrack;
