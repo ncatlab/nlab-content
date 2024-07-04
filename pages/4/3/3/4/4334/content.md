@@ -16,7 +16,12 @@ Introducing a notion of [[fusion 2-categories]]:
 * [[Christopher L. Douglas]], [[David J. Reutter]], *Fusion 2-categories and a state-sum invariant for 4-manifolds* &lbrack;[arXiv:1812.11933](https://arxiv.org/abs/1812.11933)&rbrack;
 
 
-## Related $n$Lab entries
+On [[dualizable object|dualizable]] [[tensor categories]]/[[fusion categories]]:
+
+* {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], *Dualizable tensor categories*, Memoirs of the AMS **268** 1308 (2021) &lbrack;[arXiv:1312.7188](http://arxiv.org/abs/1312.7188), [ams:memo-268-1308](https://bookstore.ams.org/memo-268-1308)&rbrack;
+
+
+## Related entries
 
 * [[2d CFT]], [[conformal nets]]
 
