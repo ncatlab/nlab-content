@@ -78,6 +78,11 @@ The notion of Minkowski spacetime originates with
 
 > (Address to the 80th Assembly of German Natural Scientists and Physicians, (Sep 21, 1908), see [WikiQuote](https://en.wikiquote.org/wiki/Hermann_Minkowski))
 
+On the early history of the idea:
+
+* Galina Weinstein: *Max Born, Albert Einstein and Hermann Minkowski's Space-Time Formalism of Special Relativity* &lbrack;[arXiv:1210.6929](https://arxiv.org/abs/1210.6929)&rbrack;
+
+
 See also:
 
 * Wikipedia, _[Minkowski space](https://en.wikipedia.org/wiki/Minkowski_space)_
