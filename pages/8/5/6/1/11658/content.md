@@ -84,6 +84,10 @@ Further discussion:
 * Edoardo Lauria, [[Antoine Van Proeyen]], _$\mathcal{N}=2$ Supergravity in $D=4,5,6$ Dimensions_ ([arXiv:2004.11433](https://arxiv.org/abs/2004.11433))
 
 
+* Yuta Hamada, Gregory J. Loges, *Towards a complete classification of 6D supergravities* &lbrack;[arXiv:2311.00868](https://arxiv.org/abs/2311.00868)&rbrack;
+
+* Gregory J. Loges, *A new infinite class of 6d, $\mathcal{N}=(1,0)$ supergravities* &lbrack;[arXiv:2402.04371](https://arxiv.org/abs/2402.04371)&rbrack;
+
 
 {#ReferencesFourZero} For "exotic" $\mathcal{N} = (4,0)$-supersymmetry:
 
