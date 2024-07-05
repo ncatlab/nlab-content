@@ -29,6 +29,8 @@ The [[nilradical]] of a commutative ring is the radical of the $0$ ideal.
 
 For a [[noncommutative ring]] or an [[associative algebra]] there are many competing notions of a radical of a ring such as [[Jacobson radical]], Levitzky radical, and sometimes of radicals of ideals or, more often, of radicals of arbitrary modules of a ring. 
 
+Given a (possibly noncommutative) ring $R$ _radical of an $R$-module_ is the intersection of all of its maximal submodules. It may also be presented as the [[internal sum]] of all its [[superfluous submodule]]s. This is the notion dual to the notion of a [[socle]]. 
+
 ## Radical functors
 
 Each of the notions of radical mentioned above are functorial, and some of the abstract properties of such functors are used in noncommutative localization theory, when defining so called *radical functors*. Classically these were considered for module categories ${ }_R Mod$ (left modules over a ring $R$, but there are generalizations for arbitrary [[Grothendieck categories]], and there are also some notions of radical for nonadditive categories.  See [Shulgeifer 60](#Shulgeifer60). 
@@ -69,7 +71,7 @@ Nonexample: the subfunctor of identity which to any module $M$ assigns its [[soc
 
 See also
 
-* Wikipedia, _[Radical of a ring](https://en.wikipedia.org/wiki/Radical_of_a_ring)_
+* Wikipedia, _[radical of a ring](https://en.wikipedia.org/wiki/Radical_of_a_ring)_, [radical of a module](https://en.wikipedia.org/wiki/Radical_of_a_module)
 
 [[!redirects radicals]]
 [[!redirects radical functor]]
@@ -77,4 +79,5 @@ See also
 
 [[!redirects radical ideal]]
 [[!redirects radical ideals]]
+[[!redirects radical of a module]]
 
