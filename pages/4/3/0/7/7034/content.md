@@ -68,6 +68,8 @@ In [[Agda]] [[syntax]] this is
 
 The [[recursion principle]] for $supp(A)$ says that if $B$ is a [[mere proposition]] and we have $f: A \to B$, then there is an induced $g : supp(A) \to B$ such that $g(isinhab(a)) \equiv f(a)$ for all $a:A$. In other words, any mere proposition which follows from (the inhabitedness of) $A$ already follows from $supp(A)$. Thus, $supp(A)$, as a mere proposition, contains no more information than the inhabitedness of $A$.
 
+The [[induction principle]] states that if we have a family of mere propositions $B(x)$ indexed by $x:A$ and we have $f:\prod_{x:A} B(isinhab(x))$, then there is an induced $g:\prod_{z:supp(A)} B(z)$ such that $g(isinhab(a)) \equiv f(a)$ for all $a:A$. 
+
 ### With a type of all propositions
 
 Suppose the [[dependent type theory]] has a [[univalent]] [[type of all propositions]] $(\mathrm{Prop}, \mathrm{El})$. Then the bracket type of $A$ could be defined as the type
@@ -239,6 +241,10 @@ as well as section 16.2 of the lecture notes:
 For [[n-truncations]] as [[localizations]] at [[sphere types]], see:
 
 * [[David Jaz Myers]], Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory ([arXiv:2205.15887](https://arxiv.org/abs/2205.15887))
+
+That propositional truncations with judgmental computation rules imply function extensionality:
+
+* [[Nicolai Kraus]], [[Martín Escardó]], [[Thierry Coquand]], [[Thorsten Altenkirch]], *Notions of Anonymous Existence in Martin-Löf Type Theory*,  Logical Methods in Computer Science **13** 1 &lbrack;<a href="https://doi.org/10.23638/LMCS-13(1:15)2017">doi:10.23638/LMCS-13(1:15)2017</a>, [arXiv:1610.03346](https://arxiv.org/abs/1610.03346)&rbrack;
 
 [[!redirects bracket type]]
 [[!redirects bracket types]]
