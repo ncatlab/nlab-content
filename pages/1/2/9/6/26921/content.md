@@ -63,6 +63,8 @@ In contrast, the abstractly defined direct sum $\bigoplus_i A_i$ may be called a
 
 * Lia-Ming Liou, *External direct sum and Internal direct sum of vector spaces*, lecture notes &lbrack;[pdf](https://www.math.ncku.edu.tw/~fjmliou/advcal/sumvspace.pdf)&rbrack;
 
+category: algebra
+
 [[!redirects internal direct sums]]
 
 [[!redirects internal direct summand]]
