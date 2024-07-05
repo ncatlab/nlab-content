@@ -100,9 +100,9 @@ There was a discussion on this at the [categories list](#thread).
 
 ## References 
 
-[[stephen Schanuek|Schanuel]]'s discovery was unpublished by him, but was first disseminated by Ross Street: 
+[[Stephen Schanuel|Schanuel]]'s discovery was unpublished by him, but was first disseminated by: 
 
-* [[Ross Street]], _An efficient construction of the real numbers_, Gazette Australian Math. Soc. 12 (57&#8211;58), 1985. ([web](https://andrescaicedo.files.wordpress.com/2014/09/ross-street-an-efficient-construction-of-real-numbers.pdf)) 
+* [[Ross Street]], _An efficient construction of the real numbers_, Gazette Australian Math. Soc. **12** (1985) 57-58 &lbrack;[pdf](https://andrescaicedo.files.wordpress.com/2014/09/ross-street-an-efficient-construction-of-real-numbers.pdf)&rbrack;
 
 It was subsequently noted several times in the literature that Street's sketch in that note on how to establish completeness isn't quite right. Street of course acknowledged this and gave an updated account here, mentioning for example corrected versions (e.g., by Arthan; see below): 
 
