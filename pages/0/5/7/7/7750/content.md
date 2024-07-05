@@ -1,3 +1,5 @@
+[[!redirects string^c 2-group]]
+[[!redirects string^c 2-group]]
 
 
 > under construction
@@ -110,14 +112,19 @@ see also
 * [[Urs Schreiber]], section 5.2 of _[[schreiber:differential cohomology in a cohesive topos]]_
 
 
+[[!redirects stringᶜ 2-groups]]
 
+[[!redirects stringᶜ structure]]
+[[!redirects stringᶜ structures]]
 
+[[!redirects string^c 2-group]]
 [[!redirects string^c 2-groups]]
 
 [[!redirects String^c 2-group]]
 [[!redirects String^c 2-groups]]
 
 [[!redirects String^c-structure]]
+[[!redirects String^c-structures]]
 
 [[!redirects String^c structure]]
 [[!redirects String^c structures]]
