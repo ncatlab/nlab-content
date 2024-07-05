@@ -432,6 +432,8 @@ See also
 
 * O. Hijazi, S. Montiel, F. Urbano, _$Spin^c$-geometry of K&#228;hler manifolds and the Hodge Laplacian on minimal Lagrangian submanifolds_ ([pdf](http://hal.archives-ouvertes.fr/docs/00/09/81/71/PDF/lagrangian0412.pdf))
 
+[[!redirects spinᶜ structures]]
+
 [[!redirects spin^c structure]]
 [[!redirects spin^c structures]]
 [[!redirects Spin^c structure]]
