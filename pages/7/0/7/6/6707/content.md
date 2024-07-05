@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -104,7 +105,7 @@ See the [references below](ReferencesAnomalyCancellation) for details.
 
   * [[spin structure]], [[twisted spin structure]]
 
-    [[spin^c structure]], **twisted $spin^c$ structure**
+    [[spinᶜ structure]], **twisted $spin^c$ structure**
 
   * [[string structure]], [[differential string structure]]
 
@@ -154,9 +155,7 @@ and
 
 In ([Laine](#Laine)) the discussion of FW-anomaly cancellation with finite-rank gauge bundles is towards the very end, culminating in equation (3.41).
 
+[[!redirects twisted spin^c structure]]
 [[!redirects twisted spin^c structures]]
-
-[[!redirects twisted spin^c-structure]]
-[[!redirects twisted spin^c-structures]]
 
 
