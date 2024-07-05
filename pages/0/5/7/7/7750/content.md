@@ -28,7 +28,7 @@
 
 ## Idea
 
-In analogy to how the [[Lie group]] [[spin^c]] is obtained by twisting the lift through the second stage of the [[Whitehead tower]] of $\mathbf{B}O$ by the [[first Chern class]]
+In analogy to how the [[Lie group]] [[spinᶜ]] is obtained by twisting the lift through the second stage of the [[Whitehead tower]] of $\mathbf{B}O$ by the [[first Chern class]]
 
 $$
   \array{
@@ -70,7 +70,7 @@ For the moment see at _[[twisted smooth cohomology in string theory]]_ for more.
 
   * [[spin structure]], [[twisted spin structure]], [[differential spin structure]]
 
-    [[spin^c structure]], [[twisted spin^c structure]],
+    [[spinᶜ structure]], [[twisted spinᶜ structure]],
 
   * [[string structure]], [[twisted differential string structure]],
 
