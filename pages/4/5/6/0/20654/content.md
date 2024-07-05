@@ -24,4 +24,8 @@ Specifically in [[Spin(11)]]- ("[[SO(11)]]"-) [[GUT]]-models:
 
 * {#HosotaniYamatsu17} [[Yutaka Hosotani]], Naoki Yamatsu, _Electroweak Symmetry Breaking and Mass Spectra in Six-Dimensional Gauge-Higgs Grand Unification_ ([arXiv:1710.04811](https://arxiv.org/abs/1710.04811))
 
+On [[Yang-Mills monopoles]]:
+
+* Jefferson Bjoraker, [[Yutaka Hosotani]], *Monopoles, Dyons and Black Holes in the Four-Dimensional Einstein-Yang-Mills Theory*, Phys. Rev. D62:043513, 2000 ([arXiv:hep-th/0002098](https://arxiv.org/abs/hep-th/0002098))
+
 category: people
