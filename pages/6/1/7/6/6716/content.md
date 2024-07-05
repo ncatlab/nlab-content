@@ -539,18 +539,24 @@ There is a direct analogy between [[Spin]], [[Spin^c]] and the [[metaplectic gro
 
 For more see the references at _[[spin^c structure]]_.
 
-The exceptional isomorphisms in low dimension are described in
+The [[exceptional isomorphisms]] in low dimension are described in
 
-* {#OzbagciStipsicz} Ozbagci, B., Stipsicz, A.I. (2004). _$Spin^c$ Structures on 3- and 4-Manifolds._ In: Surgery on Contact 3-Manifolds and Stein Surfaces. Bolyai Society Mathematical Studies, vol 13. Springer, Berlin, Heidelberg. doi:[10.1007/978-3-662-10167-4_6](https://doi.org/10.1007/978-3-662-10167-4_6).
+* {#OzbagciStipsicz} B. Ozbagci, A. I. Stipsicz, _$Spin^c$ Structures on 3- and 4-Manifolds_, in: *Surgery on Contact 3-Manifolds and Stein Surfaces* Bolyai Society Mathematical Studies **13**, Springer (2004) &lbrack;[doi:10.1007/978-3-662-10167-4_6](https://doi.org/10.1007/978-3-662-10167-4_6)&rbrack;
 
 
-[[!redirects Spin^c]]
+[[!redirects spinᶜ group]]
+[[!redirects spinᶜ groups]]
+[[!redirects spinᶜ-group]]
+[[!redirects spinᶜ-groups]]
 
+
+[[!redirects spin^c]]
 [[!redirects spin^c group]]
 [[!redirects spin^c groups]]
 [[!redirects spin^c-group]]
 [[!redirects spin^c-groups]]
 
+[[!redirects Spin^c]]
 [[!redirects Spin^c group]]
 [[!redirects Spin^c groups]]
 [[!redirects Spin^c-group]]
