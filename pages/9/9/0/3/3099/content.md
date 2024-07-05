@@ -93,7 +93,7 @@ Explicitly, the Cauchy product of species $A$ and $B$ is given by the [[coend]]
 $$
   (A \otimes B)_n
   \simeq
-  \int^{n \in FinSet}  A_k \times B_l \times Hom_{core(FinSet)}(n,k+l)
+  \int^{k,l \in FinSet}  A_k \times B_l \times Hom_{core(FinSet)}(n,k+l)
   \simeq
   \coprod_{k+l = n} \prod_{\frac{(k+l)!}{k! + l!}} (A_k \times B_l)
   \,.
