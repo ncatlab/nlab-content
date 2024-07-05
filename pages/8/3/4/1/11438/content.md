@@ -11,8 +11,7 @@ __superfluous__ or small in $M$, written $K \ll M$,
 if, for every submodule $L\subset M$ , the equality $K + L = M$ implies $L = M$.
 An [[epimorphism]] $f : M\to N$ is called superfluous (or coessential) if $Ker f \ll M$.
 
-Superfluous epimorphisms (submodules) are a notion [[formal duality|dual]] to essential monomorphisms
-(submodules); their role in the study of [[projective covers]] is analogous to the role of essential monomorphisms in the study of [[injective envelopes]]. 
+Superfluous epimorphisms are a notion [[formal duality|dual]] to [[essential monomorphism]]s; their role in the study of [[projective covers]] is analogous to the role of essential monomorphisms in the study of [[injective envelopes]]. 
 
 ## References
 
@@ -20,4 +19,8 @@ Superfluous epimorphisms (submodules) are a notion [[formal duality|dual]] to es
 
 category: algebra
 
+[[!redirects superfluous epimorphisms]]
 [[!redirects superfluous submodule]]
+[[!redirects superfluous submodules]]
+[[!redirects coessential epimorphism]]
+[[!redirects coessential epimorphisms]]
