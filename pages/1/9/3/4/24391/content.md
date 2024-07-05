@@ -17,10 +17,28 @@
 
 The notion of "superconvex spaces" generalizes the idea of *[[convex spaces]]* by replacing [[finite set|finite]] affine [[sums]] with [[countable set|countable]] affine sums.
 
-Let $\mathcal{G}(\mathbb{N})$ denote the set of all [[probability measures]] on the set of [[natural numbers]], hence every $\mathbf{p}$ can be represented as $\mathbf{p} = \sum_{i \in \mathbb{N}} p_i \delta_i$ where $\sum_{i \in \mathbb{N}} p_i=1$ with each $p_i \in [0,1]$.  Here $\mathcal{G}$ is the [[Giry monad]], but because we want to forget the $\sigma$-algebra associated with the [[measurable space]] $\mathcal{G}(\mathbb{M})$ we often write $\Delta_{\mathbb{N}}$ for its [[underlying set]]. That set may be regarded as the [[countable set|countably]] [[infinite]]-[[dimension|dimensional]] [[simplex]], as such it is the prototypical example of a superconvex space.
+The category of superconvex spaces is the category of algebras for the countable distribution monad $D$ defined on $\mathbf{Set}$ by:
+
+For $X$ a set let $D X$ be the set whose elements are functions $p:X\to[0,1]$ such that 
+
+* $p(x)\ne 0$ for only countably many $x$, and
+
+* $\sum_{x\in X} p(x)=1$. (The limit of the countable sum is one.)
+
+Note that the sum above is countable if one excludes all the zero addenda.
+
+The elements of $D X$ are called **countable distributions** or **countably-[[support|supported]] probability measures** over $X$. 
+
+Given a function $f:X\to Y$, one defines the **pushforward** $D f:D X\to D Y$ as follows. Given $p\in D X$, then $(D f)(p)\in D Y$ is the function
+$$
+y \;\mapsto\; \sum_{x\in f^{-1}(y)} p(x) .
+$$
+(Note that, up to zero addenda, the sum above is again countable. Moreover, once we have defined countably affine, note that the pushforward map is countably affine.)
 
 
 ## Definition 
+
+Let $\mathcal{G}(\mathbb{N})$ denote the set of all [[probability measures]] on the set of [[natural numbers]], hence every $\mathbf{p}$ can be represented as $\mathbf{p} = \sum_{i \in \mathbb{N}} p_i \delta_i$ where $\sum_{i \in \mathbb{N}} p_i=1$ with each $p_i \in [0,1]$.  Here $\mathcal{G}$ is the [[Giry monad]], but because we want to forget the $\sigma$-algebra associated with the [[measurable space]] $\mathcal{G}(\mathbb{M})$ we often write $\Delta_{\mathbb{N}}$ for its [[underlying set]]. That set may be regarded as the [[countable set|countably]] [[infinite]]-[[dimension|dimensional]] [[simplex]], as such it is the prototypical example of a superconvex space.
 
  Given any set $A$, a [[sequence]] $\mathbf{a} \colon \mathbb{N} \rightarrow A$, and any $\mathbf{p} \in \mathcal{G}(\mathbb{N})$, we refer to the [[formal sum]] $\sum_{i \in \mathbb{N}} p_i  a_i$  as a countably affine sum of elements of $A$, and for brevity we use the notation $\sum_{i\in \mathbb{N}} p_i a_i$  to refer to a countably affine sum dropping the explicit reference to the condition that the limit of partial sums $\sum_{i=0}^N p_i$ converges to one.  An alternative notation to the countable affine sum notation is to use the integral notation
 \[
@@ -48,21 +66,10 @@ We say a set $A$ has the structure of a *superconvex space*  if it comes equippe
   \int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p}
 \end{array}
 \]
-such that the following two axioms are satisfied:
+such that the following axiom is satisfied:
 
 
-* **Axiom 1**. For every sequence $\mathbf{a} \colon \mathbb{N} \rightarrow A$ and every  $j \in \mathbb{N}$ the property 
-
-  \[
-    \textstyle{\int_{\mathbb{N}}} \mathbf{a} \, \, d\delta_j 
-    \;=\; 
-    a_j
-  \]
-
-  holds.  
-
-
-* **Axiom 2**. If $\mathbf{p} \in \mathcal{G}(\mathbb{N})$ and $\mathbf{Q}: \mathbb{N} \rightarrow \mathcal{G}(\mathbb{N})$ is a sequence of probability measures on $(\mathbb{N}, \mathcal{P}(\mathbb{N}))$   then 
+* **Axiom**. If $\mathbf{p} \in \mathcal{G}(\mathbb{N})$ and $\mathbf{Q}: \mathbb{N} \rightarrow \mathcal{G}(\mathbb{N})$ is a sequence of probability measures on $(\mathbb{N}, \mathcal{P}(\mathbb{N}))$   then 
 
   \[
     \textstyle{\int_{j \in \mathbb{N}}}
@@ -83,7 +90,7 @@ such that the following two axioms are satisfied:
 \end{definition}
 
 \begin{remark}
-Here the second axiom uses  the pushforward measure $\mathcal{G}(\mathbf{Q})\mathbf{p} \in \mathcal{G}^2{\mathbb{N}}$ and the natural transformation $\mu$ of the Giry monad at component $\mathbb{N}$, $\mu_{\mathbb{N}}: \mathcal{G}^2(\mathbb{N}) \rightarrow \mathcal{G}(\mathbb{N})$, which yields the probability measure on  the measurable space $(\mathbb{N}, \mathcal{P}{\mathbb{N}})$  whose value at the measurable set $\{j\}$ is given by the composite of measurable maps
+The axiom uses  the pushforward measure $\mathcal{G}(\mathbf{Q})\mathbf{p} \in \mathcal{G}^2{\mathbb{N}}$ and the natural transformation $\mu$ of the Giry monad at component $\mathbb{N}$, $\mu_{\mathbb{N}}: \mathcal{G}^2(\mathbb{N}) \rightarrow \mathcal{G}(\mathbb{N})$, which yields the probability measure on  the measurable space $(\mathbb{N}, \mathcal{P}{\mathbb{N}})$  whose value at the measurable set $\{j\}$ is given by the composite of measurable maps
 \begin{centre}
 \begin{tikzpicture}
       \node   (1)  at  (0,0)  {$1$};
@@ -103,11 +110,11 @@ Here the second axiom uses  the pushforward measure $\mathcal{G}(\mathbf{Q})\mat
 \end{array}$} (01);
 \end{tikzpicture}
 \end{centre}
-Note the second axiom alone is sufficient because by choosing the constant sequence $\mathbf{Q}: \mathbb{N} \rightarrow \mathcal{G}\mathbb{N}$ with value $\delta_j$ it follows that the second axiom implies the first axiom.
+
 \end{remark}
 
 \begin{definition}
-**(catgeory of superconvex spaces)**
+**(category of superconvex spaces)**
 \linebreak
 A *[[morphism]]* of superconvex spaces, called a *countably affine map*, is a set function $m: A \rightarrow B$ such that
 \[ 
@@ -163,6 +170,21 @@ applied to the above axioms one obtains superconvex spaces useful for physics.
 
 ## Properties
 
+\begin{lemma}  For every sequence $\mathbf{a} \colon \mathbb{N} \rightarrow A$ and every  $j \in \mathbb{N}$ the property 
+
+  \[
+    \textstyle{\int_{\mathbb{N}}} \mathbf{a} \, \, d\delta_j 
+    \;=\; 
+    a_j
+  \]
+
+  holds.  
+\end{lemma}
+\begin{proof}
+Choose the constant sequence $\mathbf{Q}: \mathbb{N} \rightarrow \mathcal{G}\mathbb{N}$ with value $\delta_j$ applied to the axiom yields the result.
+\end{proof}
+This lemma is often taken as a separate axiom.
+
 The most basic property of superconvex spaces,  is
 
 \begin{lemma} 
@@ -200,6 +222,38 @@ for all $j$ such that $n\lt j$ it follows that $f(n) \le f(j)$ so that
 where the last equality follows from the definition of the superconvex space structure on $\mathbb{N}$.
 \end{proof}
 
+\begin{lemma}
+ The standard *free space* construction can be applied to superconvex spaces to obtain  an adjoint pair $\mathcal{F}:\mathbf{Set} \leftrightarrows \mathbf{SCvx}: \mathcal{U}$
+where $\mathcal{F}(A)$ consists of all formal countable affine sums, $\int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p} := \sum_{i \in \mathbb{N}}p_i a_i$ for $\mathbf{p} \in \mathcal{G}{\mathbb{N}}$ and $\mathbf{a} \in \mathbf{Set}(\mathbb{N},A)$,
+modulo the relations 
+\[
+  \textstyle{\int_{j \in \mathbb{N}}} 
+  \big( 
+    \textstyle{\int_{i \in \mathbb{N}}} 
+    \mathbf{a} \, d\mathbf{Q}^i 
+  \big) 
+   \, d\mathbf{p} 
+  \;\cong\;  
+  \textstyle{\int_{j \in \mathbb{N}}} \mathbf{a} 
+  \, d
+  \big( 
+    \textstyle{\int_{i \in \mathbb{N}}} 
+    \mathbf{Q}^{\bullet} 
+    \, d\mathbf{p} 
+  \big) 
+  \quad\quad\quad 
+  \forall \, \mathbf{Q} \in \mathbf{Set}( \mathbb{N},  \mathcal{G}{\mathbb{N}})
+  \,,
+\]
+so that the sole necessary axiom of a superconvex space is satisfied.   
+
+The monad arising from this adjunction, with the usual unit and counit maps (for the free and forgetful functors), is the countable distribution monad defined in the Idea section, and the category of algebras of that monad is superconvex spaces.
+\end{lemma}
+\begin{proof}
+Note that the finite [[distribution monad]] also arises from the free functor and forgetful functor adjunction. (The verification that the finite and countable distributions arise from the free functor and forgetful functor is straight forward.)
+  
+ A direct method to prove that the category of algebras of $D$, $Alg(D)$, is equivalent to the category of superconvex spaces is to show that the *comparison functor* $\Phi: \mathbf{SCvx} \rightarrow Alg(D)$ has a two-sided inverse $\Psi: Alg(D) \rightarrow \mathbf{SCvx}$.  This functor is defined on objects by taking $\Psi( \alpha:D X \rightarrow X )$ as the set $X$ with the superconvex structure defined by $\sum_{i \in \mathbb{N}} p_i x_i = \alpha(\sum_{i \in \mathbb{N}} p_i x_i)$ where the countable sum on the right hand side is a formal countable sum, which is an element of $D X$.  Given any map of algebras $f: (X,h) \rightarrow (Y,k)$ it follows, as shown by the (only) proof given on the  [[Giry monad]] page is that the function $f$, which we now view in $\mathbf{Set}$, is necessarily a countably affine map. (Simply replace the terms $\sum_{i \in \mathbb{N}}p_i \delta_{x_i}$ with the term $\sum_{i \in \mathbb{N}}p_i x_i$ which is an element in $D X$.) 
+\end{proof}
 
 The category $\mathbf{SCvx}$ has all limits and colimits.  Furthermore it is a symmetric monoidal closed category under the tensor product. The proof of the latter condition follows the proof by Meng, replacing finite sums with countable sums.
 
@@ -265,38 +319,6 @@ To prove that $\beta_K$ is countably affine on $\mathcal{P}K$ use the property t
 The method employed in this example is not restricted to locally convex compact Hausdorff spaces. It shows that the algebras of a probability monad are a superconvex space.
 That implication is the motivation for the next example.
 \end{example}
-
-\begin{example}
- The standard *free space* construction can be applied to superconvex spaces to obtain  an adjoint pair $\mathcal{F}:\mathbf{Set} \leftrightarrows \mathbf{SCvx}: \mathcal{U}$
-where $\mathcal{F}(A)$ consists of all formal countable affine sums, $\int_{\mathbb{N}} \mathbf{a} \, d\mathbf{p} := \sum_{i \in \mathbb{N}}p_i a_i$ for $\mathbf{p} \in \mathcal{G}{\mathbb{N}}$ and $\mathbf{a} \in \mathbf{Set}(\mathbb{N},A)$,
-modulo the relations 
-\[
-  \textstyle{\int_{j \in \mathbb{N}}} 
-  \big( 
-    \textstyle{\int_{i \in \mathbb{N}}} 
-    \mathbf{a} \, d\mathbf{Q}^i 
-  \big) 
-   \, d\mathbf{p} 
-  \;\cong\;  
-  \textstyle{\int_{j \in \mathbb{N}}} \mathbf{a} 
-  \, d
-  \big( 
-    \textstyle{\int_{i \in \mathbb{N}}} 
-    \mathbf{Q}^{\bullet} 
-    \, d\mathbf{p} 
-  \big) 
-  \quad\quad\quad 
-  \forall \, \mathbf{Q} \in \mathbf{Set}( \mathbb{N},  \mathcal{G}{\mathbb{N}})
-  \,,
-\]
-so that the sole necessary axiom of a superconvex space is satisfied. 
-
-
-Since the notion of "superconvex spaces" generalizes the idea of *[[convex spaces]]* by replacing [[finite set|finite]] affine [[sums]] with [[countable set|countable]] affine sums, we note that the free space construction generalizes the *[[distribution monad]]* on the category of sets, for which the category of algebras is the category of *[[convex spaces]]*.  In short, the value of the distribution monad $D$ on a set $X$ consists of all affine sums of elements of $X$, and if $f \colon X \rightarrow Y$ is a function then $D(f)$ is the ''pushforward probability measure'' (which coincides with the affine map on an affine sum).  
-
-By replacing (finite) affine sums with countable affine sums we obtain the monad $\hat{D}$ on $\mathbf{Set}$ defined by $\hat{D}(X)$ consisting of all countable affine sums of elements of $X$,  and for the function $f \colon X \rightarrow Y$ we have once again the pushforward map, which is in fact a countably affine map.  Now a quick glance at the proof that the category of algebras for the *[[distribution monad]]* is the category of convex spaces, quickly shows that upon replacing the term finite sums with 
-the term countable affine sums yields the result that the category of algebras for the monad obtained from the adjunction given by the free space construction defined above is the category of superconvex spaces.
-\end{example} 
 
 
 ## Related concepts
