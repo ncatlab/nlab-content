@@ -1,6 +1,3 @@
-[[!redirects spin^h structure]]
-
-
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -23,7 +20,7 @@
 ## Definition
 
 With [[Sp(1)]] denoting the [[quaternion unitary group]], 
-we define the [[Spin^h group|Spin$^h$ group]]
+we define the [[spinʰ group]]
 $$
   Spin^h(n) 
   \coloneqq 
@@ -35,7 +32,7 @@ $$
   \big)
   \,,
 $$
-in complete analogy to the [[Spin^c group|Spin$^c$ group]]
+in complete analogy to the [[spinᶜ group]]
 $$
   Spin^c(n) 
   \coloneqq
@@ -84,7 +81,7 @@ map $Q\to P\times E$ equivariant with respect to the homomorphism $Spin^h(n) \to
 
 The canonical inclusions
 $$Spin(n)\to Spin^c(n)\to Spin^h(n)$$
-allow promotions of [[spin-structures]] to [[spin^c-structures]] to [[spin^h-structures]]. 
+allow promotions of [[spin-structures]] to [[spinᶜ structures]] to [[spinʰ structures]]. 
 
 \begin{remark}
 \label{CounterExamplesToSpinCImplyingSpin}
@@ -125,6 +122,8 @@ Applications in physics:
 
 * {#WWW19} [[Juven Wang]], [[Xiao-Gang Wen]], [[Edward Witten]], _A New SU(2) Anomaly_, Journal of Mathematical Physics **60**  (2019) 052301 &lbrack;[arXiv:1810.00844](https://arxiv.org/abs/1810.00844), [doi:10.1063/1.5082852](https://doi.org/10.1063/1.5082852)&rbrack;
 
+[[!redirects spinʰ group]]
+[[!redirects spinʰ structure]]
 [[!redirects spinʰ structures]]
 
 [[!redirects spin^h structure]]
