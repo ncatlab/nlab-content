@@ -356,7 +356,7 @@ is the corresponding $Spin^c$-structure.
 
 ## Related concepts
 
-* [[spin^c|spin<sup><i>c</i></sup>]], [[MSpin^c|MSpin<sup><i>c</i></sup>]]
+* [[spinᶜ]], [[MSpinᶜ]]
 
 * [[twisted differential c-structures|(twisted, differential) c-structures]]
 
@@ -364,21 +364,21 @@ is the corresponding $Spin^c$-structure.
 
   * [[spin structure]], [[twisted spin structure]], [[differential spin structure]]
 
-    **$spin^c$ structure**, [[twisted spin^c structure|twisted spin<sup><i>c</i></sup> structure]],
+    **$spin^c$ structure**, [[twisted spinᶜ structure]],
 
     [[K-orientation]]
 
-    [[Spin^c Dirac operator|Spin<sup><i>c</i></sup> Dirac operator]]
+    [[spinᶜ Dirac operator]]
 
-  * [[Spin^h structure]]
+  * [[spinʰ structure]]
 
   * [[string structure]], [[twisted differential string structure]],
 
-  * [[string^c 2-group|string<sup><i>c</i></sup> 2-group]], [[string^c structure|string<sup><i>c</i></sup> structure]]
+  * [[stringᶜ 2-group]], [[stringᶜ structure]]
 
   * [[fivebrane structure]], [[twisted differential fivebrane structure]]
 
-* [[spin^c quantization|spin<sup><i>c</i></sup> quantization]]
+* [[spin^c quantization|spinᶜ quantization]]
 
 
 ## References
