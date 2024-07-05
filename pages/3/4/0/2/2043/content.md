@@ -73,8 +73,8 @@ The Jacobson radical of a possibly trivial [[local ring]] $R$ is the set of elem
 ## Related concepts
 
 * [[radical]]
-
 * [[scale]]
+* [[Nakayama lemma]]
 
 ## References
 
