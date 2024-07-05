@@ -108,6 +108,7 @@ A general mechanism behind the similar dualities is discussed in
 
 * [[Georgia Benkart]], _Commuting actions -- A tale of two groups_, in: Lie Algebras and Their Representations, Contemp. Math. __194__ (1996) 1--46 
 
+* S. Doty, _New versions of Schur-Weyl duality_, Finite groups 2003, Walter de Gruyter (2004) 59--71
 
 [[!redirects Schur Weyl duality]]
 
