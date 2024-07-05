@@ -23,9 +23,9 @@ For example, the [[law of excluded middle]] (LEM) is a taboo for [[constructive 
 
 ## Examples
 
-### Constructive taboos
+### Neutral constructive taboos
 
-These taboos are unprovable in [[constructive mathematics]].
+These taboos are unprovable in [[neutral constructive mathematics]].
 
 * [[law of excluded middle]]
 * [[principle of omniscience]]
@@ -35,6 +35,7 @@ These taboos are unprovable in [[constructive mathematics]].
 * [[choice operator]]
 * [[presentation axiom]]
 * [[dependent choice]]
+* [[Brouwer's continuity principle]]
 
 ### Weakly predicative-constructive taboos
 
