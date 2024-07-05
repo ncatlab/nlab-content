@@ -15,7 +15,7 @@ Every essential embedding $I\hookrightarrow M$ where $I$ is injective is an isom
 
 A monomorphism $h:M\to N$ is essential iff $g\circ h$ is monic only if $g$ is monic. Indeed, if $h$ is essential and $g$ is not monic, then $Ker g\cap M\neq 0$ hence $Ker (g|_M)\neq 0$ and $g\circ h$ is not monic. Conversely, suppose $g\circ h$ is monic implies $g$ is monic. If $h$ were not essential then there would be $0\neq K\subset N$ such that $K\cap M = 0$; thus the cokernel map $g: N\to N/K$ is not monic while $g\circ h$ is monic because  $Ker(g)\cap Im(h) = K\cap M = 0$ and $h$ is monic. This is a contradiction.
 
-
+[[socle|Socle]] of a module ([[internal sum]] of all [[simple module|simple]] submodules equals the intersection of all essential submodules. 
 
 ## Literature
 
