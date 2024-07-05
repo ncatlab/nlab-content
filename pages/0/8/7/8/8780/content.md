@@ -163,7 +163,7 @@ for some [[coefficients]] $\{c^w_{u v}\}$, to be determined.
 ### Traditional
  {#ReferencesTraditional}
 
-* [eom]: Frank Sotile, [Schubert calculus](http://www.encyclopediaofmath.org/index.php/Schubert_calculus)
+* [eom]: Frank Sottile, [Schubert calculus](http://www.encyclopediaofmath.org/index.php/Schubert_calculus)
 * wikipedia [Schubert calculus](http://en.wikipedia.org/wiki/Schubert_calculus)
 * H. Schubert, _Kalk&#252;l der abz&#228;hlenden Geometrie_, Springer (1879) (Reprinted (with an introduction by S. Kleiman) 1979), [MR0555576](http://www.ams.org/mathscinet-getitem?mr=0555576)
 
