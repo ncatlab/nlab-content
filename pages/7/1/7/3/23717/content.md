@@ -145,8 +145,16 @@ $$\sum_{\omega:X \to (\mathcal{U}(Y) \to \mathcal{U}(X))} \prod_{a:X} \prod_{E:\
 ## See also ##
 
 * [[limit of a function]]
+
 * [[differentiable function]]
+
 * [[uniformly continuous function]]
 
-[[!redirects pointwise continuous]]
+
 [[!redirects pointwise continuous functions]]
+
+[[!redirects pointwise continuous]]
+
+[[!redirects pointwise continuity]]
+
+
