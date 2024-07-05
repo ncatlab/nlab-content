@@ -124,9 +124,9 @@ In particular, the internal LPO for the family of all [[subsingletons]] is inter
 
 The internal versions of the principles of omniscience, like all internal versions of axioms, are weaker than the external version of the principle of omniscience, since while [[bounded separation]] implies that one can convert any external predicate $x \in A \vdash P(x)$ on a set $A$ to an internal predicate $\{x \in A \vert P(x)\} \hookrightarrow A$, it is generally not possible to convert an internal predicate to an external predicate without a reflection rule which turns subsingletons in the set theory into propositions in the external logic. 
 
-## Truncated and untruncated versions in homotopy type theory
+## Truncated and untruncated versions in dependent type theory
 
-In the context of [[homotopy type theory]], the various principles of omniscience can be translated in two ways, by interpreting "or" as [[propositional truncation|propositionally truncated]] ("merely or") or untruncated ("purely or"). The relationships between the truncated and untruncated principles of omniscience are as follows are:
+In the context of [[dependent type theory]], the various principles of omniscience can be translated in two ways, by interpreting "or" as [[propositional truncation|propositionally truncated]] ("merely or") or untruncated ("purely or"). The relationships between the truncated and untruncated principles of omniscience are as follows are:
 
 * Truncated LPO and untruncated LPO are equivalent (due to [[Martin Escardo]], see [UFP](#UFP))
 
@@ -134,7 +134,7 @@ In the context of [[homotopy type theory]], the various principles of omniscienc
 
 * Untruncated LLPO is equivalent to WLPO (also due to Martin Escardo).
 
-* In <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates WLPO from LLPO.
+* In <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates WLPO from LLPO. Similarly, [Grossack 24](#Grossack24) shows that Johnstone's topological topos separates WLPO from LLPO. 
 
 ## Analytic versions {#analytic}
 
@@ -248,10 +248,11 @@ There are various other results that are related to the principles of omniscienc
 
 * {#BauerHanson} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
 
+* {#Grossack24} [[Chris Grossack]], *Life in Johnstone's Topological Topos 3 -- Bonus Axioms* ([web](https://grossack.site/2024/07/03/topological-topos-3-bonus-axioms))
+
 The analytic WLPO and LLPO are mentioned in the following paper, although unfortunately it uses the phrase "analytic LPO" for what should really be the analytic *WLPO* (the reals have decidable equality):
 
 * {#Shulman18} [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
-
 
 [[!redirects principle of omniscience]]
 [[!redirects principles of omniscience]]
