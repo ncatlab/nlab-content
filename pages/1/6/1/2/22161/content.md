@@ -14,7 +14,7 @@
 
 ## Idea
 
-The [[cobordism theory]] for manifolds equipped with (stable) [[Spin^c structure]].
+The [[cobordism theory]] for manifolds equipped with (stable) [[spinᶜ structure]].
 
 ## Properties
 
