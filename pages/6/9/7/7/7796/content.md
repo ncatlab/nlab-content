@@ -60,11 +60,11 @@ The [[A-hat genus]] for the $Spin^c$-operator is the [[Todd genus]] (e.g. [Kitad
 
 ## Related concepts
 
-* [[spin^c structure]], [[twisted spin^c structure]]
+* [[spinᶜ structure]], [[twisted spinᶜ structure]]
 
 * [[K-orientation]]
 
-* [[spin^c quantization]]
+* [[spin^c quantization|spinᶜ quantization]]
 
 * [[Dolbeault-Dirac operator]], [[Dirac operator]]
 
