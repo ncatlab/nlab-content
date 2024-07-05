@@ -75,7 +75,7 @@ Some abstract treatments of [[quantum mechanics]] use $C^*$-algebras, while othe
 * Zir&#244; Takeda (1954). Conjugate spaces of operator algebras. _Proceedings of the Japan Academy_ 30 (2): 90&#8211;95.
   {#Takeda1954}
 
-* Wikipedia (English): [Enveloping von Neumann algebra](http://en.wikipedia.org/wiki/Enveloping_von_Neumann_algebra), [Sherman&#8211;Takeda theorem](http://en.wikipedia.org/wiki/Sherman&#8211;Takeda_theorem)
+* Wikipedia (English): [Enveloping von Neumann algebra](http://en.wikipedia.org/wiki/Enveloping_von_Neumann_algebra), [Sherman&#8211;Takeda theorem](https://en.wikipedia.org/wiki/Sherman%E2%80%93Takeda_theorem)
 
 
 category: operator algebras
