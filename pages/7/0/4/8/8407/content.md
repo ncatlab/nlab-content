@@ -23,7 +23,7 @@
 
 ## Idea
 
-What is called _Einstein-Yang-Mills theory_  in [[physics]] is the [[theory (physics)|theory]]/[[model (in theoretical physics)]] describing [[gravity]] together with [[Yang-Mills fields]] such as the [[electroweak field]] or the [[strong nuclear force]] of [[quantum chromodynamics]]. For the special case that the [[gauge group]] is the [[circle group]] this reproduces [[Einstein-Maxwell theory]].
+What is called _Einstein-Yang-Mills theory_  in [[physics]] is the [[theory (physics)|theory]]/[[model (in theoretical physics)|model]] describing [[gravity]] together with [[Yang-Mills fields]] such as the [[electroweak field]] or the [[strong nuclear force]] of [[quantum chromodynamics]]. For the special case that the [[gauge group]] is the [[circle group]] this reproduces [[Einstein-Maxwell theory]].
 
 Einstein-Yang-Mills theory is a [[local Lagrangian]] [[field (physics)|field]] theory defined by the [[action functional]] which is the [[Einstein-Hilbert action]] plus the [[Yang-Mills action functional]] involving the given metric,
 
@@ -83,7 +83,7 @@ Section _[Prequantum gauge theory and Gravity](geometry+of+physics#ActionFunctio
 
 On [[Yang-Mills monopoles]]:
 
-* Jefferson Bjoraker, [[Yutaka Hosotani]], *Monopoles, Dyons and Black Holes in the Four-Dimensional Einstein-Yang-Mills Theory*, Phys. Rev. D62:043513, 2000 ([arXiv:hep-th/0002098](https://arxiv.org/abs/hep-th/0002098))
+* Jefferson Bjoraker, [[Yutaka Hosotani]], *Monopoles, Dyons and Black Holes in the Four-Dimensional Einstein-Yang-Mills Theory*, Phys. Rev. D **62** 043513 (2000) &lbrack;[arXiv:hep-th/0002098](https://arxiv.org/abs/hep-th/0002098), [doi:10.1103/PhysRevD.62.043513](https://doi.org/10.1103/PhysRevD.62.043513)&rbrack;
 
 
 
