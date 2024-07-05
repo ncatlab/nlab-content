@@ -1,3 +1,5 @@
+[[!redirects Spin^c Dirac operator]]
+[[!redirects Spin^c Dirac operator]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -85,6 +87,9 @@ Modern Birkh&#228;user Classics, 2011, 41-51, DOI: 10.1007/978-0-8176-8247-7_5
 
 * Charles Epstein, _Subelliptic $Spin_{\mathbb{C}}$-Dirac operators, I_ ([pdf](http://www.math.upenn.edu/~cle/papers/spinc1_rev2.pdf))
 
+[[!redirects spinᶜ Dirac operators]]
+
+[[!redirects Spin^c Dirac operator]]
 [[!redirects Spin^c Dirac operators]]
 
 [[!redirects spin^c Dirac operator]]
