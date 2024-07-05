@@ -518,19 +518,19 @@ There is a direct analogy between [[Spin]], [[Spin^c]] and the [[metaplectic gro
 
 ## Related concepts
 
-* [[spin group]], **$spin^c$-group**, [[spin^h group]]
+* [[spin group]], **$spin^c$-group**, [[spinʰ group]]
 
 * [[spin structure]]
 
-* [[MSpin^c]]
+* [[MSpinᶜ]]
 
-* [[spin^c structure]], [[twisted spin^c structure]]
+* [[spinᶜ structure]], [[twisted spinᶜ structure]]
 
-* [[spin^h structure]]
+* [[spinʰ structure]]
 
 * [[string 2-group]], [[string structure]]
 
-* [[string^c 2-group]]
+* [[stringᶜ 2-group]]
 
 ## References
 
