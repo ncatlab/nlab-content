@@ -64,12 +64,11 @@ Sometimes in foundations it is useful to consider a weaker version of countable 
 
 ### Weak countable choice {#WCC}
 
-The axiom of __weak countable choice__ ($WCC$) states that a surjection $p\colon X \to \mathbf{N}$ has a section if, whenever $m \neq n$, at least one of the [[preimages]] $p^*(m)$ and $p^*(n)$ is a [[singleton]].  $WCC$ follows (for different reasons) from either $CC$ or [[excluded middle]].  On the other hand, $WCC$ is enough to prove that the [[fundamental theorem of algebra]] in the sense that every non-constant complex polynomial has a root; see [Bridges et al (1998)](#BRS).
-
+The axiom of __weak countable choice__ ($WCC$) states that a surjection $p\colon X \to \mathbf{N}$ has a section if, whenever $m \neq n$, at least one of the [[preimages]] $p^*(m)$ and $p^*(n)$ is a [[singleton]].  $WCC$ follows (for different reasons) from either $CC$ or [[excluded middle]].  On the other hand, $WCC$ is enough to prove that the [[fundamental theorem of algebra]] in the sense that every non-constant complex polynomial has a root; see [Bridges et al (1998)](#BRS). It is an open question whether $WCC$ implies that the [[Dedekind reals]] and [[Cauchy reals]] coincide, see [King et al (2024)](#King2024). 
 
 ### Another weak countable choice {#ACN2}
 
-An axiom variously called $AC_{weak}$ and $AC_{N2}$ is countable choice for subsets of $\{0,1\}$; that is, every $\mathbb{N}$-indexed sequence of inhabited subsets of $\{0,1\}$ has a choice function.  Like $WCC$ above, this also follows from either $CC$ or excluded middle.  It is enough to prove the equivalence of the [[Dedekind reals]] and [[Cauchy reals]].  See [Saving et al (2021)](#Saving2021).
+An axiom variously called $AC_{weak}$ and $AC_{N2}$ is countable choice for subsets of $\{0,1\}$; that is, every $\mathbb{N}$-indexed sequence of inhabited subsets of $\{0,1\}$ has a choice function.  Like $WCC$ above, this also follows from either $CC$ or excluded middle.  It is enough to prove the equivalence of the [[Dedekind reals]] and [[Cauchy reals]].  See [Saving et al (2021)](#Saving2021), [King et al (2024)](#King2024).
 
 
 ### Very weak countable choice
@@ -113,6 +112,8 @@ There are also "internal" versions of these axioms.
 * {#RichmanFTA} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*. Pacific Journal of Mathematics **196** 1 (2000) 213–230 &lbrack;[doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf)&rbrack;
 
 * {#Saving2021} Mark Saving et al (2021). *A weak form of countable choice*. [MathOverflow](https://mathoverflow.net/questions/385805/a-weak-form-of-countable-choice/).
+
+* {#King2024} Christopher King et al (2024). *Does weak countable choice imply that the Cauchy reals are Dedekind complete?* [MathOverflow](https://mathoverflow.net/questions/461200/does-weak-countable-choice-imply-that-the-cauchy-reals-are-dedekind-complete). 
 
 See also 
 
