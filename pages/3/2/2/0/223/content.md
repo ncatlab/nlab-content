@@ -32,10 +32,21 @@ A category which is not small may be called [[large category|large]], especially
 
 Small categories are free of some of the subtleties that apply to large categories.
 
-A category is said to be **essentially small** if it is [[equivalence of categories|equivalent]] to a small category.  Assuming the [[axiom of choice]], this is the same as saying that it has a small [[skeleton]], or equivalently that it is [[locally small category|locally small]] and has a [[small set|small number]] of isomorphism classes of objects.
+A category is said to be **essentially small** (or, rarely, **svelte**) if it is [[equivalence of categories|equivalent]] to a small category.  Assuming the [[axiom of choice]], this is the same as saying that it has a small [[skeleton]], or equivalently that it is [[locally small category|locally small]] and has a [[small set|small number]] of isomorphism classes of objects.
 
 A **small category structure** on a [[locally small category]] $C$ is an [[essentially surjective functor]] from a set (as a [[discrete category]]) to $C$.  A category is essentially small iff it is locally small and has a small category structure; unlike the previous paragraph, this result does not require the axiom of choice.
 
+## Characterisations
+
+The following are equivalent for a [[locally small]] category $B$ (see the linked [MathOverflow answer](#KoudenburgMathOverflow)).
+
+1. $B$ is essentially small.
+2. The [[category of presheaves]] $[B^{op}, Set]$ is [[locally small]].
+3. For every presheaf $q : B^{op} \to Set$ and copresheaf $p : B \to Set$ the coend $\int^{y \in B} py \times qy$ is [[small presheaf|small]].
+4. Every presheaf on $B$ is [[small presheaf|small]].
+5. For every functor $F : B \to C$ with [[locally small]] codomain, and for every object $c \in C$, the presheaf $C(F{-}, c) : B^{op} \to Set$ is [[small presheaf|small]].
+
+These different characterisations are useful, because they give a way to capture the notion of size in [[formal category theory]]. For instance, characterisation (2) is axiomatised in the formalism of **small objects** in [[Yoneda structures]]; whereas characterisation (5) is axiomatised in the formalism of **petit objects** in [[KZ-doctrines]] (see [DL23](#DL23)).
 
 ## Smallness in the context of universes
  {#SmallnessInTheContextOfUniverses}
@@ -54,8 +65,6 @@ and that a category $C$ **essentially $U$-small** if it is locally $U$-small and
 
 A category is **$U$-moderate** if its set of objects and set of morphisms are both subsets of $U$.  However, some categories (such as the category of $U$-moderate categories!) are larger yet.
 
-
-
 ## Related concepts
 
 * **small category**, [[locally small category]], [[complete small category]]
@@ -66,6 +75,18 @@ A category is **$U$-moderate** if its set of objects and set of morphisms are bo
 
 * [[large category]]
 
+## References
+
+* [[Ross Street]] and [[Robert Walters]], _Yoneda structures on 2-categories_, Journal of Algebra, Vol. 50, No. 2, 1978, pp. 350-379. &lbrack;<a href="https://doi.org/10.1016/0021-8693(78)90160-6">doi:10.1016/0021-8693(78)90160-6</a>&rbrack;
+
+* [[Peter Freyd]] and [[Ross Street]], _On the Size of Categories_, Theory and Applications of Categories, Vol. 1, No. 9, 1995, pp. 174-181. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/1995/n9/1-09abs.html)&rbrack;
+
+* {#DL23} [[Ivan Di Liberti]], [[Fosco Loregian]], *Accessibility and Presentability in 2-Categories*, Journal of Pure and Applied Algebra **227** 1 (2023) &lbrack;[arXiv:1804.08710](https://arxiv.org/abs/1804.08710), [doi:10.1016/j.jpaa.2022.107155](https://doi.org/10.1016/j.jpaa.2022.107155)&rbrack;
+
+* [[Seerp Roald Koudenburg]], _Formal category theory in augmented virtual double categories_, Theory and Applications of Categories 41.10 (2024): 288-413.
+
+* {#KoudenburgMathOverflow} [[Seerp Roald Koudenburg]], answer to "Is every petite category essentially small?": [MathOverflow](https://mathoverflow.net/a/474544)
+
 [[!redirects small]]
 [[!redirects small category]]
 [[!redirects small categories]]
@@ -75,5 +96,8 @@ A category is **$U$-moderate** if its set of objects and set of morphisms are bo
 [[!redirects moderate categories]]
 [[!redirects essentially moderate category]]
 [[!redirects essentially moderate categories]]
+
+[[!redirects svelte category]]
+[[!redirects svelte categories]]
 
 [[!redirects essentially small]]
