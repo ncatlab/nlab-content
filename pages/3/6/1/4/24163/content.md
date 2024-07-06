@@ -1,7 +1,20 @@
 
-#Contents#
-* table of contents
-{:toc}
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 ## Definition ##
 
@@ -20,6 +33,8 @@ The analytic Markov's principle makes sense for any [[ordered local ring|ordered
 * [[axiom of real cohesion]]
 
 * [[intermediate value theorem]]
+
+* [[analytic principle of omniscience]]
 
 ## References ##
 
