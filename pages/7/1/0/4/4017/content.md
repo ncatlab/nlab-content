@@ -34,6 +34,8 @@ On [[real numbers|real]] [[analysis]]:
 
 * [[Peter Freyd]], *Algebraic real analysis*, Theory and Applications of Categories, Vol. 20, 2008, No. 10, pp 215-306 ([tac:20-10](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
 
+Some unpublished works may be found [in this Google Drive folder](https://drive.google.com/drive/folders/1rPnHnUrm1yfon0MOMFDA2uOiT8yxmwjE).
+
 
 ## Related entries
 
