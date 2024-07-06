@@ -142,7 +142,7 @@ See also
 
 ### Further generalizations 
 
-Some formal generalizations of thermodynamical formalism include mixing time and temperature in formalisms with complex time-temperature like Matsubara formalism in QFT. 
+Some formal generalizations of thermodynamical formalism include mixing time and temperature in formalisms with complex time-temperature like [[Matsubara formalism]] in QFT. 
 
 Mathematical analogies and generalizations include also 
 
