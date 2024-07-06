@@ -288,7 +288,7 @@ See also
 
 * Wikipedia, _[Thermal quantum field theory](https://en.wikipedia.org/wiki/Thermal_quantum_field_theory)_
 
-* Wikipedia, _[Matsubara frequency](https://en.wikipedia.org/wiki/Matsubara_frequency)_
+* Wikipedia, _[Matsubara frequency](https://en.wikipedia.org/wiki/Matsubara_frequency)_, _[Matsubara formalism](https://en.wikipedia.org/wiki/Matsubara_formalism)_
 
 * Wolfram Math World, _[KMS condition](http://mathworld.wolfram.com/KMSCondition.html)_
 
