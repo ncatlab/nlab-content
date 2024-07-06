@@ -37,6 +37,8 @@ __Statistical mechanics__ is the theoretical study of systems with a large numbe
 
 * [[KMS state]]
 
+* [[Schwinger-Keldysh formalism]]
+
 category: physics
 
 [[!redirects statistical physics]]
