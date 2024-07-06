@@ -47,4 +47,8 @@ The analogous results for the case of multiparametric $GL_{P,Q}(n)$ can be reduc
 
 * Zoran &#352;koda, _A simple algorithm for extending the identities for quantum minors to the multiparametric case_ [arXiv;0801.4965](http://arxiv.org/abs/0801.4965). 
 
+Other works
+
+* [[S. L. Woronowicz]], S. Zakrzewski, _Quantum Lorentz group having Gauss decomposition property_, Publ. Res. Inst. Math. Sci. __28__ (1992), no. 5, 809--824 [doi](https://doi.org/10.2977/prims/1195167937)
+
 [[!redirects Gauss decompositions]]
