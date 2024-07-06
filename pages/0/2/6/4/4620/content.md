@@ -136,9 +136,9 @@ In the context of [[dependent type theory]], the various principles of omniscien
 
 * In <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates WLPO from LLPO. Similarly, [Grossack 24](#Grossack24) shows that Johnstone's topological topos separates WLPO from LLPO. 
 
-## Analytic versions {#analytic}
+## Analytic principles of omniscience
 
-Bishop introduced the above principles of omniscience to show that certain results in pointwise [[analysis]] could not be constructive, by showing that these results implied a principle of omniscience. The principles of omniscience that appear directly in analysis are these:
+Bishop introduced the above principles of omniscience to show that certain results in pointwise [[analysis]] could not be constructive, by showing that these results implied a principle of omniscience. There are similar axioms in analysis which imply the principles of omniscience for natural numbers, called [[analytic principles of omniscience]], and include the following:
 
 *  The __analytic LPO__ states that the usual [[apartness relation]] on the set $\mathbb{R}$ of [[real numbers]] is [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for the real numbers ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that the real numbers form a [[discrete field]].
 
@@ -147,40 +147,6 @@ Bishop introduced the above principles of omniscience to show that certain resul
 *  The __analytic LLPO__ states that the usual order on $\mathbb{R}$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for the real numbers.
 
 The analytic principles of omniscience imply the corresponding ones for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did). (Note that we need not accept $WCC$ to see that an analytic result implies a principle of omniscience and so cannot be constructively valid.)
-
-However, there are many different notions of real numbers in [[constructive mathematics]], so there are many different notions of the analytic principles of omniscience. So let us define a real number field $R$ to be an [[lattice-ordered ring|lattice-ordered]] [[Archimedean ordered field|Archimedean ordered]] [[field extension]] of the field of (sequential, modulated) [[Cauchy real numbers]] $\mathrm{R}_C$. Thus, given a real number field $R$ one has unique [[ring homomorphisms]] of real number fields
-$$\mathbb{R}_C \hookrightarrow R \hookrightarrow \mathbb{R}_D$$
-where $\mathbb{R}_D$ is the field of [[Dedekind real numbers]]. In general the ring homomorphisms are not provably [[isomorphisms]] unless the [[Dedekind real numbers]] and [[Cauchy real numbers]] coincide. 
-
-For each real number field $R$, one has similar statements of the analytic principles of omniscience: 
-
-*  The __$R$-analytic LPO__ states that the usual [[apartness relation]] on the real number field $R$ [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for the real number field $R$ ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that the real number field $R$ is a [[discrete field]].
-
-* The __$R$-analytic WLPO__ states that the real number field $R$ has [[decidable equality]], or that the partial order on $R$ is [[decidable]] ($x \leq y$ or $\neg (x \leq y)$). 
-
-*  The __$R$-analytic LLPO__ states that the lattice order on $R$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for the real number field $R$.
-
-One has a hierarchy of analytic principles of omniscience, where
-
-* The (sequential-, modulated-, Cantor-, Cauchy-, $\mathbb{R}_C$-) analytic principles of omniscience is the weakest and equivalent to the corresponding principles of omniscience for the natural numbers;
-
-* The (Dedekind-, $\mathbb{R}_D$-)analytic principle of omniscience is the strongest. 
-
-* For any other real number field $R$ which is neither equivalent to the Cauchy real numbers or the Dedekind real numbers, the corresponding $R$-analytic principles of omniscience are intermediate in strength between the Cauchy-analytic principles of omniscence and the Dedekind-analytic principles of omniscience. 
-
-* Suppose that there are two real number fields $R$ and $R'$ such that $R'$ is a [[field extension]] of $R$. Then each $R'$-analytic principle of omniscience implies the respective $R$-analytic principle of omniscience. 
-
-Finally, one has the following: Let $\Sigma$ be the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]. It is a sub-$\sigma$-frame of the [[frame of truth values]], which implies that one can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts in $\Sigma^\mathbb{Q} \times \Sigma^\mathbb{Q}$. Also, let $\mathbb{R}_H$ be the [[HoTT book real numbers]], which are the initial [[sequentially Cauchy complete space|sequentially Cauchy complete]] [[Archimedean ordered field]]. One has ring homomorphisms
-$$\mathrm{R}_C \hookrightarrow \mathrm{R}_H \hookrightarrow \mathrm{R}_\Sigma \hookrightarrow \mathrm{R}_D$$
-Then, 
-
-\begin{theorem}
-The LPO for natural numbers, the $\mathbb{R}_C$-analytic LPO, the $\mathbb{R}_H$-analytic LPO, and the $\mathbb{R}_\Sigma$-analytic LPO are equivalent to each other. 
-\end{theorem}
-
-\begin{proof}
-The LPO for natural numbers is equivalent to the [[boolean domain]] $\mathbb{2}$ being the initial $\sigma$-frame $\Sigma \coloneqq \mathbb{2}$. This implies that one can use the booleans to construct $\mathbb{R}_\Sigma$. The LPO also implies the $\mathbb{R}_\Sigma$-analytic LPO, since the [[pseudo-order]] relation $\lt$ on $\mathbb{R}_\Sigma$ is defined as an [[existential quantification]] over the rational numbers, which is [[decidable]] because of LPO and the fact that the rational numbers are in bijection with the natural numbers. The $\mathbb{R}_\Sigma$-analytic LPO implies that every real number in $\mathbb{R}_\Sigma$ comes with the structure of a [[locator]], which implies that $\mathbb{R}_C$, $\mathbb{R}_H$, and $\mathbb{R}_\Sigma$ are isomorphic as real number fields. Thus, the $\mathbb{R}_\Sigma$-analytic LPO, $\mathbb{R}_H$-analytic LPO, and $\mathbb{R}_C$-analytic LPO are equivalent to each other. Finally, the $\mathbb{R}_C$-analytic LPO is equivalent to the LPO for natural numbers, which is sufficient to establish that the converses of the above implications hold. 
-\end{proof}
 
 ## Equivalent statements
 
@@ -194,23 +160,29 @@ There are various other results that are equivalent to the principles of omnisci
 
 * The [[boolean domain]] is a [[sigma-frame|$\sigma$-frame]] if and only if $\mathrm{WLPO}_\mathbb{N}$ holds, and it is the [[initial object|initial]] $\sigma$-frame if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
-* The [[Cauchy real numbers]] are isomorphic to the [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff $\mathrm{LPO}_\mathbb{N}$ holds. See [Feldman (2010)](#Mehkeri10). The same is true of the [[Escardo-Simpson real numbers]] or $\Sigma$-[[Dedekind real numbers]] where $\Sigma$ is the initial $\sigma$-frame, since those coincide with the Cauchy real numbers iff $\mathrm{LPO}_\mathbb{N}$ holds. 
+* The [[Cauchy real numbers]] are isomorphic to the [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff $\mathrm{LPO}_\mathbb{N}$ holds. See [Feldman (2010)](#Mehkeri10). 
+
+* Various [[analytic principles of omniscience]] are equivalent to the principles of omniscience for the [[natural numbers]] (see [[analytic principles of omniscience]] for proofs). More specifically: 
+
+  * The [[analytic LPO]] for the following sets of real numbers are equivalent to the LPO for the [[natural numbers]]: the [[Cauchy real numbers]] $\mathbb{R}_C$, the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]] $\mathbb{R}_E$/$\mathbb{R}_H$, and the subfield of [[Dedekind real numbers]] $\mathbb{R}_\Sigma \subseteq \mathbb{R}_D$ which are constructed out of [[Dedekind cuts]] valued in the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma \subseteq \Omega$. 
+
+  * The [[analytic WLPO]] for the [[Cauchy real numbers]] is equivalent to the WLPO for the [[natural numbers]]. 
+
+  * The [[analytic LLPO]] for the [[Cauchy real numbers]] is equivalent to the LLPO for the [[natural numbers]].
 
 ## Related statements
 
 There are various other results that are related to the principles of omniscience. Here are a few:
 
-* In the presence of [[weak countable choice]], [[existential quantifier|there exists]] a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) for every [[Cauchy real number]] iff $\mathrm{LLPO}_\mathbb{N}$ holds; there exists a radix expansion for every [[Dedekind real number]] has iff the analytic $\mathrm{LLPO}$ holds. Without [[weak countable choice]], [[Lifschitz realizability]] gives a model in which $\mathrm{LLPO}_\mathbb{N}$ holds but it is not true that there exists a radix expansion in any base for every [[Cauchy real number]], which implies that there are models in which the analytic LLPO holds but it is not true that there exists a radix expansion in any base for every [[Dedekind real number]]. See [[Andrew Swan]]'s answer to [Birchfield (2024)](#Birchfield24). In addition, the analytic $\mathrm{LLPO}$ holds for the [[Dedekind real numbers]] in [[condensed sets]], but every function from the Dedekind real numbers to the [[boolean domain]] $\mathbb{2}$ is a [[constant function]], which implies that it is not true that there exists a radix expansion in any base for every [[Dedekind real number]]. 
+* In the presence of [[weak countable choice]], [[existential quantifier|there exists]] a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) for every [[Cauchy real number]] iff $\mathrm{LLPO}_\mathbb{N}$ holds. Without [[weak countable choice]], [[Lifschitz realizability]] gives a model in which $\mathrm{LLPO}_\mathbb{N}$ holds but it is not true that there exists a radix expansion in any base for every [[Cauchy real number]]. See [Swan (2024)](#Swan24). 
 
 * In the presence of [[countable choice]], $\mathrm{LLPO}_\mathbb{N}$ is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic. See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri10).
 
 * That every Cauchy real number has a choice of [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) implies that the $\mathrm{WLPO}_\mathbb{N}$ holds; that every Dedekind real number has a choice of radix expansion implies that the analytic $\mathrm{WLPO}$ holds. 
 
-* [[countable set|Subcountability]] of the [[real numbers]] implies the analytic $\mathrm{WLPO}$ because [[natural numbers]] have [[decidable equality]] and injections preserve and reflect decidable equality. 
+* [[countable set|Subcountability]] of the [[Dedekind real numbers]] implies the analytic $\mathrm{WLPO}$ because [[natural numbers]] have [[decidable equality]] and injections preserve and reflect decidable equality. 
 
 * The $\mathrm{WLPO}$ implies that the [[real numbers]] are [[uncountably indexed]]. 
-
-* The analytic $\mathrm{LPO}$ implies the [[fundamental theorem of algebra]]. 
 
 ## Models
 
@@ -218,41 +190,45 @@ There are various other results that are related to the principles of omniscienc
 
 * The LPO for natural numbers fails in Johnstone's [[topological topos]], due to its internal continuity principle.  Hence, the analytic LPO also fails, since the modulated Cauchy reals and Dedekind reals coincide in this topos.  However, the (analytic) LLPO holds, as a consequence of the preservation of finite closed unions by the inclusion of sequential spaces.
 
+## Related concepts
+
+* [[Markov's principle]]
+
+* [[analytic principle of omniscience]]
+
 ## References
 
-* {#Bauer11}  [[Andrej Bauer]] (2011) via constructivenews, [An Injection from $\mathbb{N}^{\mathbb{N}}$ to $\mathbb{N}$](http://math.andrej.com/wp-content/uploads/2011/06/injection.pdf) (pdf)
-
 * {#Bishop67} [[Errett Bishop]] (1967), _[[Foundations of Constructive Analysis]]_ (in the introduction or chapter 1, I forget)
-
-* {#Escardo11} [[Martín Escardó]] (2011) via constructivenews, [Infinite sets that satisfy the principle of omniscience in all varieties of constructive mathematics](http://www.cs.bham.ac.uk/~mhe/papers/omniscient-2011-07-06.pdf) (pdf)
-
-* {#Mehkeri10} David Feldman (2010) on Math.Overflow, [Radix notation and toposes](http://mathoverflow.net/questions/49775/radix-notation-and-toposes/)
-
-* {#Birchfield24} Madeleine Birchfield et al. (2024) on Category Theory Zulip, [Radix expansions in constructive mathematics](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Radix.20expansions.20in.20constructive.20mathematics)
-
-* {#Ciraulo22} Francesco Ciraulo, *$\sigma$-locales in Formal Topology*, Logical Methods in Computer Science, Volume 18, Issue 1 (January 12, 2022) ([doi:10.46298/lmcs-18%281%3A7%292022](https://doi.org/10.46298/lmcs-18%281%3A7%292022), [arXiv:1801.09644](https://arxiv.org/abs/1801.09644))
-
-* Madeleine Birchfield, Andrew Swan (2024) on Category Theory Zulip, [LPO and sigma-frame structure on booleans](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/LPO.20and.20sigma-frame.20structure.20on.20booleans)
-
-* {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
-
-* {#Booij20} [[Auke Booij]], *Analysis in univalent type theory* (2020) &lbrack;[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)&rbrack;
-
-* {#RathjenSwan20} [[Michael Rathjen]], [[Andrew Swan]], *Lifschitz Realizability as a Topological Construction*. The Journal of Symbolic Logic, Volume 85, Issue 4, December 2020, pp. 1342 - 1375. &lbrack;[doi:10.1017/jsl.2021.1](https://doi.org/10.1017/jsl.2021.1), [arXiv:1806.10047](https://arxiv.org/abs/1806.10047)&rbrack;
-
-* {#Rathjen13} [[Michael Rathjen]], *Constructive Zermelo-Fraenkel set theory and the limited principle of omniscience*. &lbrack;[arXiv:1302.3037](https://arxiv.org/abs/1302.3037)&rbrack;
 
 * {#Richman90} [[Fred Richman]], *Polynomials and linear transformations*. Linear Algebra and its Applications, Volume 131, 1 April 1990, Pages 131-137. &lbrack;<a href="https://doi.org/10.1016/0024-3795(90)90379-Q">doi:10.1016/0024-3795(90)90379-Q</a>&rbrack;
 
 * {#Ishihara06} [[Hajime Ishihara]], _Reverse Mathematics in Bishop's Constructive Mathematics_, Philosophia Scienti&#230;, CS 6 (2006) ([doi:10.4000/philosophiascientiae.406](https://doi.org/10.4000/philosophiascientiae.406),  [pdf](https://philosophiascientiae.revues.org/pdf/406))
 
+* {#Mehkeri10} David Feldman (2010) on Math.Overflow, [Radix notation and toposes](http://mathoverflow.net/questions/49775/radix-notation-and-toposes/)
+
+* {#Bauer11}  [[Andrej Bauer]] (2011) via constructivenews, [An Injection from $\mathbb{N}^{\mathbb{N}}$ to $\mathbb{N}$](http://math.andrej.com/wp-content/uploads/2011/06/injection.pdf) (pdf)
+
+* {#Escardo11} [[Martín Escardó]] (2011) via constructivenews, [Infinite sets that satisfy the principle of omniscience in all varieties of constructive mathematics](http://www.cs.bham.ac.uk/~mhe/papers/omniscient-2011-07-06.pdf) (pdf)
+
+* {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+
+* {#Rathjen13} [[Michael Rathjen]], *Constructive Zermelo-Fraenkel set theory and the limited principle of omniscience*. &lbrack;[arXiv:1302.3037](https://arxiv.org/abs/1302.3037)&rbrack;
+
+* {#Shulman18} [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+
+* {#Booij20} [[Auke Booij]], *Analysis in univalent type theory* (2020) &lbrack;[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)&rbrack;
+
+* {#RathjenSwan20} [[Michael Rathjen]], [[Andrew Swan]], *Lifschitz Realizability as a Topological Construction*. The Journal of Symbolic Logic, Volume 85, Issue 4, December 2020, pp. 1342 - 1375. &lbrack;[doi:10.1017/jsl.2021.1](https://doi.org/10.1017/jsl.2021.1), [arXiv:1806.10047](https://arxiv.org/abs/1806.10047)&rbrack;
+
+* {#Ciraulo22} Francesco Ciraulo, *$\sigma$-locales in Formal Topology*, Logical Methods in Computer Science, Volume 18, Issue 1 (January 12, 2022) ([doi:10.46298/lmcs-18%281%3A7%292022](https://doi.org/10.46298/lmcs-18%281%3A7%292022), [arXiv:1801.09644](https://arxiv.org/abs/1801.09644))
+
+* {#Swan24} Andrew Swan (2024) on Category Theory Zulip, [Radix expansions in constructive mathematics](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Radix.20expansions.20in.20constructive.20mathematics/near/418610091)
+
+* {#BirchfieldSwan24} Madeleine Birchfield, Andrew Swan (2024) on Category Theory Zulip, [LPO and sigma-frame structure on booleans](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/LPO.20and.20sigma-frame.20structure.20on.20booleans)
+
 * {#BauerHanson} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
 
 * {#Grossack24} [[Chris Grossack]], *Life in Johnstone's Topological Topos 3 -- Bonus Axioms* ([web](https://grossack.site/2024/07/03/topological-topos-3-bonus-axioms))
-
-The analytic WLPO and LLPO are mentioned in the following paper, although unfortunately it uses the phrase "analytic LPO" for what should really be the analytic *WLPO* (the reals have decidable equality):
-
-* {#Shulman18} [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
 [[!redirects principle of omniscience]]
 [[!redirects principles of omniscience]]
@@ -283,15 +259,3 @@ The analytic WLPO and LLPO are mentioned in the following paper, although unfort
 [[!redirects internal WLPO]]
 [[!redirects internal weak limited principle of omniscience]]
 [[!redirects internal weak limited principles of omniscience]]
-
-[[!redirects analytic LPO]]
-[[!redirects analytic limited principle of omniscience]]
-[[!redirects analytic limited principles of omniscience]]
-
-[[!redirects analytic LLPO]]
-[[!redirects analytic lesser limited principle of omniscience]]
-[[!redirects analytic lesser limited principles of omniscience]]
-
-[[!redirects analytic WLPO]]
-[[!redirects analytic weak limited principle of omniscience]]
-[[!redirects analytic weak limited principles of omniscience]]
