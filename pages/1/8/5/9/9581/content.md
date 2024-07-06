@@ -57,6 +57,10 @@ A survey of related references is in p. 98 of
 * [[John Baez]], [[Aaron Lauda]], _A prehistory of $n$-categorical physics_, in _Deep beauty_, 13-128, Cambridge Univ. Press, Cambridge, 2011 ([arXiv:0908.2469](http://arxiv.org/abs/0908.2469))
  {#BaezLauda}
 
+On its relation to [[4d TQFT]]:
+
+* [[Hank Chen]], *Hopf 2-Algebras: Homotopy Higher Symmetries in Physics*, PhD thesis (2024) &lbrack;[pdf](https://uwspace.uwaterloo.ca/bitstream/handle/10012/20681/Chen_Hank.pdf)&rbrack;
+
 [[!redirects Hopf monoidal categories]]
 [[!redirects Hopf category]]
 [[!redirects Hopf categories]]
