@@ -80,6 +80,12 @@ Exposition and review:
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], pp. 18 of: *Algebraic structures in two-dimensional conformal field theory*, Encyclopedia of Mathematical Physics &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
 
+On the [[membrane]] analog related to the [[Yetter model]]  for [[strict 2-group|strict 2-groups]]:
+
+* Alex Bullivant, [[Clement Delcamp]]. *Excitations in strict 2-group higher gauge models of topological phases* (2019). ([arXiv:1909.07937](https://arxiv.org/abs/1909.07937)).
+
+* [[Clement Delcamp]]. *Tensor network approach to electromagnetic duality in (3+1)d topological gauge models* (2021). ([arXiv:2112.08324](https://arxiv.org/abs/2112.08324)).
+
 
 
 [[!redirects string-net models]]
