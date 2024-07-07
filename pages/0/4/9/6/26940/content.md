@@ -33,6 +33,8 @@ where $\mathbb{R}_D$ is the ordered field of [[Dedekind real numbers]] - the hom
 Let $R$ be an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] of the field of (sequential, modulated) [[Cauchy real numbers]] $\mathrm{R}_C$. The __analytic LPO__ for $R$ states that the usual [[apartness relation]] on $R$ [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for $R$ ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that $R$ is a [[discrete field]].
 \end{definition}
 
+**Warning**. Given an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] $R$ of the field of (sequential, modulated) [[Cauchy real numbers]], the *analytic limited principle of omniscience for $R$* is not to be confused with the *[[limited principle of omniscience]] for $R$* - the latter is the statement that for every [[function]] $f$ from $R$ to the [[boolean domain]], either there exists an element $x$ in $R$ such that $f(x) = \mathrm{true}$, or for all elements $x$ in $R$, $f(x) = \mathrm{false}$. For $R$ the Cauchy real numbers, the analytic LPO for the Cauchy real numbers is equivalent to the LPO for the [[natural numbers]], while the LPO for the [[Cauchy real numbers]] is much stronger than the LPO for the [[natural numbers]]. 
+
 \begin{theorem}
 The analytic LPO for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$ implies the LPO for [[natural numbers]]. 
 \end{theorem}
