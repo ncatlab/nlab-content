@@ -33,6 +33,8 @@ where $\mathbb{R}_D$ is the ordered field of [[Dedekind real numbers]] - the hom
 Let $R$ be an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] of the field of (sequential, modulated) [[Cauchy real numbers]] $\mathrm{R}_C$. The __analytic lesser limited principle of omniscience__ or __analytic LLPO__ for $R$ states that the [[partial order]] on $R$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for $R$.
 \end{definition}
 
+**Warning**. Given an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] $R$ of the field of (sequential, modulated) [[Cauchy real numbers]], the *analytic lesser limited principle of omniscience for $R$* is not to be confused with the *[[lesser limited principle of omniscience]] for $R$* - the latter is the statement that for every [[function]] $f$ and $g$ from $R$ to the [[boolean domain]], if it isn't true that at the same time, there exist an element $x$ in $R$ such that $f(x) = \mathrm{true}$ and there exist an element $y$ in $R$ such that $g(y) = \mathrm{true}$, then either $f(x) = \mathrm{false}$ for all elements $x$ in $R$ or $g(y) = \mathrm{false}$ for all elements $y$ in $R$. For $R$ the Cauchy real numbers, the analytic LLPO for the Cauchy real numbers is equivalent to the LLPO for the [[natural numbers]], while the LLPO for the [[Cauchy real numbers]] is much stronger than the LLPO for the [[natural numbers]]. 
+
 \begin{theorem}
 The analytic LLPO for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$ implies the LLPO for [[natural numbers]]. 
 \end{theorem}
