@@ -36,7 +36,7 @@ Most other kinds of L-functions are such as to reproduces these [[Artin L-functi
 
 1. for 1-dimensional [[Galois representations]] $\sigma$ (hence for $n = 1$) [[Artin reciprocity]] produces for each $\sigma$ a [[Dirichlet character]], or more generally a [[Hecke character]] $\chi$, and therefrom is built a _[[Dirichlet L-function]]_ or _[[Hecke L-function]]_ $L_\chi$, respectively, which equals the corresponding [[Artin L-function]] $L_\sigma$;
 
-1. for general $n$-dimensional [[Galois representations]] $\sigma$ the [[conjecture]] of [[Langlands correspondence]] states that there is an [[automorphic representation]] $\pi$ corresponding to $\sigma$ and an _[[automorphic L-function]]_ $L_\pi$ built from that, which equalso the [[Artin L-function]] $L_\sigma$.
+1. for general $n$-dimensional [[Galois representations]] $\sigma$ the [[conjecture]] of [[Langlands correspondence]] states that there is an [[automorphic representation]] $\pi$ corresponding to $\sigma$ and an _[[automorphic L-function]]_ $L_\pi$ built from that, which equals the [[Artin L-function]] $L_\sigma$.
 
 L-functions typically satisfy [[analogy|analogs]] of all the special properties enjoyed by the [[Riemann zeta function]], such as satisfying a 
 "[[functional equation]]" which asserts invariance under modular transformations of the parameter.
