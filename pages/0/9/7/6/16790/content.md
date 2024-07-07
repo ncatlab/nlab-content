@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -466,6 +467,11 @@ A decent account is in:
 reviewed in
 
 * {#FigOFar98} [[Jose Figueroa-O'Farrill]], _Near-horizon geometries of supersymmetric branes_, talk at [SUSY 98](http://inspirehep.net/record/971430/) ([arXiv:hep-th/9807149](https://arxiv.org/abs/hep-th/9807149), [talk slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/SUSY98.pdf))
+
+Other review:
+
+* Adémólá Adéìféoba: *Brane Solutions in Supergravity
+and the Near-Horizon Geometries*, seminar talk at *[Holography and large-$N$ dualities](https://www.mathi.uni-heidelberg.de/~walcher/teaching/sose18/adscft/)*, Heidelberg (2018) &lbrack;[pdf](https://www.mathi.uni-heidelberg.de/~walcher/teaching/sose18/adscft/AdemolaWriteup.pdf), [[Adeifeoba-BraneSolutions.pdf:file]]&rbrack;
 
 The near horizon geometry of coincident [[KK-monopoles]] in [[11-dimensional supergravity]] is discussed in 
 
