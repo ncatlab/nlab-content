@@ -113,13 +113,19 @@ The set of all pointwise differentiable functions is defined as
 
 $$D^0(F) \coloneqq \{f \in F \to F \vert isPointwiseDifferentiable(f)\}$$
 
+### Admissibility 
+
+Let $\Sigma \subseteq \Omega$ be a [[subobject|sub]]-[[sigma-frame|$sigma$-frame]] of the [[frame of truth values]]. Then an Archimedean ordered field $F$ is **admissible for $\Sigma$** if the [[pseudo-order]] $(-)\lt(-):F \times F \to \Omega$ restricts to a binary function $(-)\lt(-):F \times F \to \Sigma$. 
+
 ## Category of Archimedean ordered fields
 
-The **category of Archimedean ordered fields** is the [[category]] whose [[objects]] are Archimedean ordered fields and whose [[morphisms]] are [[strictly monotonic]] field [[homomorphisms]] between Archimedean ordered fields. 
+The **category of Archimedean ordered fields** is the [[category]] whose [[objects]] are Archimedean ordered fields and whose [[morphisms]] are [[ring homomorphisms]] between Archimedean ordered fields. (Every ring homomorphism between Archimedean ordered field can be proven to be a [[strictly monotonic]] field [[homomorphism]]). 
 
 The category of Archimedean ordered fields is a [[thin category]]. It is also a [[skeletal category]] and a [[gaunt category]], and impredicatively is the subset of the [[power set]] of [[real numbers]] which consists of all the Archimedean ordered [[subfields]] of the real numbers. 
 
 The [[initial object]] in the category of Archimedean ordered fields is the [[rational numbers]] and the [[terminal object]] in the category of Archimedean ordered fields is the ([[Dedekind real number|Dedekind]]) [[real numbers]]. 
+
+More generally, one can consider, for every sub-$\sigma$-frame $\Sigma \subseteq \Omega$ of the [[frame of truth values]], the subcategory of Archimedean ordered fields which are admissible for $\Sigma$ and ring homomorphisms between Archimedean ordered fields admissible for $\Sigma$. While the rational numbers are still the [[initial object]] in this category, the [[terminal object]] in this object is a version $\mathbb{R}_\Sigma$ of the [[Dedekind real numbers]], which are constructed using [[Dedekind cuts]] valued in $\Sigma$. In the larger category of all Archimedean ordered fields, the ring homomorphism $\mathbb{R}_\Sigma \hookrightarrow \mathbb{R}_D$ is not provably an [[isomorphism]]. 
 
 ## Examples
 
