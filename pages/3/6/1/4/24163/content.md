@@ -101,8 +101,6 @@ Let $R$ be any Archimedean ordered field extension of the Cauchy real numbers. T
 
 * [[axiom of real cohesion]]
 
-* [[intermediate value theorem]]
-
 * [[analytic LPO]]
 
 * [[analytic WLPO]]
