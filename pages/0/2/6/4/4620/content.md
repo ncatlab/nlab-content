@@ -146,8 +146,6 @@ Bishop introduced the above principles of omniscience to show that certain resul
 
 *  The __[[analytic LLPO]]__ states that the usual order on $\mathbb{R}$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for the real numbers.
 
-The analytic principles of omniscience imply the corresponding ones for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did). (Note that we need not accept $WCC$ to see that an analytic result implies a principle of omniscience and so cannot be constructively valid.)
-
 ## Equivalent statements
 
 There are various other results that are equivalent to the principles of omniscience. Here are a few:
@@ -177,12 +175,6 @@ There are various other results that are related to the principles of omniscienc
 * In the presence of [[weak countable choice]], [[existential quantifier|there exists]] a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) for every [[Cauchy real number]] iff $\mathrm{LLPO}_\mathbb{N}$ holds. Without [[weak countable choice]], [[Lifschitz realizability]] gives a model in which $\mathrm{LLPO}_\mathbb{N}$ holds but it is not true that there exists a radix expansion in any base for every [[Cauchy real number]]. See [Swan (2024)](#Swan24). 
 
 * In the presence of [[countable choice]], $\mathrm{LLPO}_\mathbb{N}$ is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic. See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri10).
-
-* That every Cauchy real number has a choice of [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) implies that the $\mathrm{WLPO}_\mathbb{N}$ holds; that every Dedekind real number has a choice of radix expansion implies that the analytic $\mathrm{WLPO}$ holds. 
-
-* [[countable set|Subcountability]] of the [[Dedekind real numbers]] implies the analytic $\mathrm{WLPO}$ because [[natural numbers]] have [[decidable equality]] and injections preserve and reflect decidable equality. 
-
-* The $\mathrm{WLPO}$ implies that the [[real numbers]] are [[uncountably indexed]]. 
 
 ## Models
 
