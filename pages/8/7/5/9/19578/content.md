@@ -128,6 +128,9 @@ Relation to [[AdS-CFT duality]]:
 
 * {#Soda10} Jiro Soda, _AdS/CFT on the brane_, Lect.Notes Phys.828:235-270, 2011 ([arXiv:1001.1011](https://arxiv.org/abs/1001.1011))
 
+* Ruoyu Bao, Joseph Lykken: *Randall-Sundrum with $AdS(7)$*,  Phys. Rev. Lett. **95** 261601 (2005) &lbrack;[arXiv:hep-ph/0509137](https://arxiv.org/abs/hep-ph/0509137), [doi:10.1103/PhysRevLett.95.261601](https://doi.org/10.1103/PhysRevLett.95.261601)&rbrack;
+
+
 Review and further relation to [[black hole entropy]]:
 
 * {#Karch22} [[Andreas Karch]], *Randall-Sundrum Branes and Holography*, talk at *[[Strings 2022]]* &lbrack;[indico:4940841](https://indico.cern.ch/event/1085701/contributions/4940841)&rbrack;
