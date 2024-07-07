@@ -20,6 +20,9 @@ On [[p-adic Teichmüller theory]]:
 
 * [[Kirti Joshi]], *Mochizuki's Corollary 3.12 and my quest for its proof* &lbrack;<a href='https://www.math.arizona.edu/~kirti/joshi-teich-quest.pdf'>pdf</a>&rbrack;
 
+* [[Kirti Joshi]], *The status of the Scholze-Stix Report and an analysis of the Mochizuki-Scholze-Stix Controversy* ([pdf] (https://www.math.arizona.edu/~kirti/report-on-scholze-stix-mochizuki-controversy.pdf))
+
+
 * [[Kirti Joshi]], *(Older-Version) Construction of Arithmetic Teichmuller spaces II: Towards Diophantine Estimates* ([arXiv:2111.04890](https://arxiv.org/abs/2111.04890))
 
 * [[Kirti Joshi]], *(Older-Version) Untilts of fundamental groups: construction of labeled isomorphs of fundamental groups* ([arXiv:2010.05748](https://arxiv.org/abs/2010.05748))
@@ -36,7 +39,7 @@ Claim of proof of the [[abc conjecture]]:
 
 On [[anabelian geometry]]:
 
-* [[Kirti Joshi]], *Mochizuki's anabelian variation of ring structures and formal groups* ([arxiv:1906.06840](https://arxiv.org/abs/1906.06840))
+* [[Kirti Joshi]], *Algebraization of Mochizuki's anabelian variation of ring structures, perfectoid geometry and formal groups* ([arxiv:1906.06840](https://arxiv.org/abs/1906.06840))
 
 * [[Kirti Joshi]], *On Mochizuki's idea of Anabelomorphy and its applications* ([arxiv:2003.01890](https://arxiv.org/abs/2003.01890))
 
