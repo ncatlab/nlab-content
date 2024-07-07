@@ -46,9 +46,9 @@ Review:
 
 * [[Gavin K. Brennen]], [[Jiannis K. Pachos]], *Why should anyone care about computing with anyons?*, Proc. R. Soc. A **464** (2008) 1-24 $[$[arXiv:0704.2241](https://arxiv.org/abs/0704.2241), [doi:10.1098/rspa.2007.0026](https://doi.org/10.1098/rspa.2007.0026)$]$
 
-* [[Ady Stern]], Netanel H. Lindner, *Topological Quantum Computation -- From Basic Concepts to First Experiments*, Science **339** 6124 (2013) 1179-1184 ([doi:10.1126/science.1231473](https://science.sciencemag.org/content/339/6124/1179.full.pdf+html))
+* [[Ady Stern]], Netanel H. Lindner, *Topological Quantum Computation -- From Basic Concepts to First Experiments*, Science **339** 6124 (2013) 1179-1184 \[<a href="https://doi.org/10.1126/science.1231473">doi:10.1126/science.1231473</a>, [spire:2748124](https://inspirehep.net/literature/2748124)\]
 
-* [[Eric C. Rowell]], *An Invitation to the Mathematics of Topological Quantum Computation*, J. Phys.: Conf. Ser. 698 (2016) 012012 ([doi:10.1088/1742-6596/698/1/012012](https://iopscience.iop.org/article/10.1088/1742-6596/698/1/012012))
+* [[Eric C. Rowell]], *An Invitation to the Mathematics of Topological Quantum Computation*, J. Phys.: Conf. Ser. **698** (2016) 012012 \[<a href="https://iopscience.iop.org/article/10.1088/1742-6596/698/1/012012">doi:10.1088/1742-6596/698/1/012012</a>, [arXiv:1601.05288](https://arxiv.org/abs/1601.05288)\]
 
 * [[Ananda Roy]], [[David P. DiVincenzo]], *Topological Quantum Computing*, Lecture notes of the [48th IFF Spring School](https://www.fz-juelich.de/en/pgi/expertise/schools-and-courses/iff-spring-school/the-iff-spring-school-topics-and-history/springschool2017) (2017) $[$[arXiv:1701.05052](https://arxiv.org/abs/1701.05052)$]$
     
