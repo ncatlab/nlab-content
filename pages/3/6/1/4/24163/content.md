@@ -34,7 +34,11 @@ The analytic Markov's principle makes sense for any [[ordered local ring|ordered
 
 * [[intermediate value theorem]]
 
-* [[analytic principle of omniscience]]
+* [[analytic LPO]]
+
+* [[analytic WLPO]]
+
+* [[analytic LLPO]]
 
 ## References ##
 
