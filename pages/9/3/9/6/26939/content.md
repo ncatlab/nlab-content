@@ -33,6 +33,8 @@ where $\mathbb{R}_D$ is the ordered field of [[Dedekind real numbers]] - the hom
 Let $R$ be an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] of the field of (sequential, modulated) [[Cauchy real numbers]] $\mathrm{R}_C$. The **analytic weak limited principle of omniscience** or **analytic WLPO** for $R$ states that $R$ has [[decidable equality]], or that the partial order on $R$ is [[decidable]] ($x \leq y$ or $\neg (x \leq y)$). 
 \end{definition}
 
+**Warning**. Given an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] $R$ of the field of (sequential, modulated) [[Cauchy real numbers]], the *analytic weak limited principle of omniscience for $R$* is not to be confused with the *[[weak limited principle of omniscience]] for $R$* - the latter is the statement that for every [[function]] $f$ from $R$ to the [[boolean domain]], the [[universal quantifier]] "for all elements $x$ in $R$, $f(x) = \mathrm{true}$" is [[decidable proposition|decidable]]. For $R$ the Cauchy real numbers, the analytic WLPO for the Cauchy real numbers is equivalent to the WLPO for the [[natural numbers]], while the WLPO for the [[Cauchy real numbers]] is much stronger than the WLPO for the [[natural numbers]]. 
+
 \begin{theorem}
 The analytic WLPO for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$ implies the WLPO for [[natural numbers]]. 
 \end{theorem}
