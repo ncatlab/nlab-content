@@ -35,6 +35,10 @@ Let $R$ be an [[Archimedean ordered field|Archimedean ordered]] [[field extensio
 
 **Warning**. Given an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] $R$ of the field of (sequential, modulated) [[Cauchy real numbers]], the *analytic lesser limited principle of omniscience for $R$* is not to be confused with the *[[lesser limited principle of omniscience]] for $R$* - the latter is the statement that for every [[function]] $f$ and $g$ from $R$ to the [[boolean domain]], if it isn't true that at the same time, there exist an element $x$ in $R$ such that $f(x) = \mathrm{true}$ and there exist an element $y$ in $R$ such that $g(y) = \mathrm{true}$, then either $f(x) = \mathrm{false}$ for all elements $x$ in $R$ or $g(y) = \mathrm{false}$ for all elements $y$ in $R$. For $R$ the Cauchy real numbers, the analytic LLPO for the Cauchy real numbers is equivalent to the LLPO for the [[natural numbers]], while the LLPO for the [[Cauchy real numbers]] is much stronger than the LLPO for the [[natural numbers]]. 
 
+Let $R$ be any Archimedean ordered field extension of the Cauchy real numbers. The analytic LLPO makes sense for any  [[Archimedean ordered local ring|Archimedean ordered]] [[local Artinian algebra|local Artinian $R$-algebra]] $A$ as well, where the relation $\lt$ is in general only a [[strict weak order]] instead of a [[pseudo-order]], the [[preorder]] $\geq$ is not a [[partial order]], and the equivalence relation $a \approx b$ derived from the preorder holds if and only if $a - b$ is [[nilpotent]]. In this case, the analytic LLPO for the Weil $R$-algebra $A$ says that the [[preorder]] on $A$ is a [[total preorder]], and the quotient of $A$ by its [[nilradical]] is the field of real numbers $R$ satisfying the analytic LLPO. 
+
+## Properties
+
 \begin{theorem}
 The analytic LLPO for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$ implies the LLPO for [[natural numbers]]. 
 \end{theorem}
@@ -42,18 +46,6 @@ The analytic LLPO for the (sequential, modulated) [[Cauchy real numbers]] $\math
 \begin{proof}
 TBD...
 \end{proof}
-
-\begin{theorem}
-The LLPO for [[natural numbers]] implies the analytic LLPO for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$. 
-\end{theorem}
-
-\begin{proof}
-TBD...
-\end{proof}
-
-\begin{lemma}
-The LLPO for [[natural numbers]] is equivalent to the analytic LLPO for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$. 
-\end{lemma}
 
 \begin{theorem}
 Suppose that there are two Archimedean ordered fields $R$ and $R'$ such that both are [[field extensions]] of the [[Cauchy real numbers]] $\mathbb{R}_C$ and $R'$ is a [[field extension]] of $R$. Then, the analytic LLPO for $R'$ implies the analytic LLPO for $R$. 
@@ -71,6 +63,18 @@ Suppose that there is an Archimedean ordered field $R$ which is a [[field extens
 Since the field of Cauchy real numbers is a (trivial) field extension of itself, the analytic LLPO for $R$ implies the analytic LLPO for the Cauchy real numbers, which implies the LLPO for the natural numbers. 
 \end{proof}
 
+\begin{theorem}
+The LLPO for [[natural numbers]] implies the analytic LLPO for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$. 
+\end{theorem}
+
+\begin{proof}
+TBD...
+\end{proof}
+
+\begin{lemma}
+The LLPO for [[natural numbers]] is equivalent to the analytic LLPO for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$. 
+\end{lemma}
+
 Thus, one has a hierarchy of analytic lesser limited principles of omniscience, where
 
 * The (sequential-, modulated-, Cantor-, Cauchy-, $\mathbb{R}_C$-) analytic LLPO is the weakest and equivalent to the LLPO for the [[natural numbers]];
@@ -78,8 +82,6 @@ Thus, one has a hierarchy of analytic lesser limited principles of omniscience, 
 * The (Dedekind-, $\mathbb{R}_D$-)analytic LLPO is the strongest. 
 
 * For any other Archimedean ordered field extension of the Cauchy real numbers $R$ which is neither equivalent to the Cauchy real numbers or the Dedekind real numbers, the $R$-analytic LLPO are intermediate in strength between the Cauchy-analytic LLPO and the Dedekind-analytic LLPO. 
-
-Let $R$ be any Archimedean ordered field extension of the Cauchy real numbers. The analytic LLPO makes sense for any  [[Archimedean ordered local ring|Archimedean ordered]] [[local Artinian algebra|local Artinian $R$-algebra]] $A$ as well, where the relation $\lt$ is in general only a [[strict weak order]] instead of a [[pseudo-order]], the [[preorder]] $\geq$ is not a [[partial order]], and the equivalence relation $a \approx b$ derived from the preorder holds if and only if $a - b$ is [[nilpotent]]. In this case, the analytic LLPO for the Weil $R$-algebra $A$ says that the [[preorder]] on $A$ is a [[total preorder]], and the quotient of $A$ by its [[nilradical]] is the field of real numbers $R$ satisfying the analytic LLPO. 
 
 ## Models
 
