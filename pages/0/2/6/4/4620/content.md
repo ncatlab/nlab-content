@@ -140,11 +140,11 @@ In the context of [[dependent type theory]], the various principles of omniscien
 
 Bishop introduced the above principles of omniscience to show that certain results in pointwise [[analysis]] could not be constructive, by showing that these results implied a principle of omniscience. There are similar axioms in analysis which imply the principles of omniscience for natural numbers, called [[analytic principles of omniscience]], and include the following:
 
-*  The __analytic LPO__ states that the usual [[apartness relation]] on the set $\mathbb{R}$ of [[real numbers]] is [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for the real numbers ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that the real numbers form a [[discrete field]].
+*  The __[[analytic LPO]]__ states that the usual [[apartness relation]] on the set $\mathbb{R}$ of [[real numbers]] is [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for the real numbers ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that the real numbers form a [[discrete field]].
 
-* The __analytic WLPO__ states that $\mathbb{R}$ has [[decidable equality]], or that the partial order on the real numbers is [[decidable]] ($x \leq y$ or $\neg (x \leq y)$). 
+* The __[[analytic WLPO]]__ states that $\mathbb{R}$ has [[decidable equality]], or that the partial order on the real numbers is [[decidable]] ($x \leq y$ or $\neg (x \leq y)$). 
 
-*  The __analytic LLPO__ states that the usual order on $\mathbb{R}$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for the real numbers.
+*  The __[[analytic LLPO]]__ states that the usual order on $\mathbb{R}$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for the real numbers.
 
 The analytic principles of omniscience imply the corresponding ones for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did). (Note that we need not accept $WCC$ to see that an analytic result implies a principle of omniscience and so cannot be constructively valid.)
 
