@@ -9,7 +9,6 @@ The _Cantor--Schroeder--Bernstein_ theorem says that the usual [[order relation]
 
 The result is really only interesting in the absence of the [[axiom of choice]] ($AC$).  With $AC$, it is a trivial corollary of the [[well-ordering theorem]].  However, the theorem actually requires only [[excluded middle]], although it does not hold in [[constructive mathematics]] --- indeed, it is actually *equivalent* to excluded middle (at least assuming the [[axiom of infinity]]).
 
-
 ## Proof 
 
 We prove that the Cantor--Schroeder--Bernstein theorem holds in a [[Boolean topos]]. The theorem is not however [[intuitionistic logic|intuitionistically]] valid, in that it fails in some [[topos]]es, such as the topos $Set^{\bullet \to \bullet}$ (the [[arrow category]] of $Set$); see Example \ref{counterexample} below. 
@@ -212,6 +211,16 @@ In fact, the CSB theorem is equivalent in [[constructive mathematics]] (with the
 ## In other categories
 
 The CSB property holds in some other [[categories]] of interest (but arguably fails in many more). Some examples follow: 
+
++-- {: .num_example #archiemdean} 
+###### Example 
+The CSB property holds in the category of [[Archimedean ordered fields]] and [[ring homomorphisms]]. This is because every Archimedean ordered field is a [[subset]] of the [[real numbers]], and ring homomorphisms between Archimedean ordered fields are subset inclusions in the [[powerset]] of the real numbers; i.e. the category of [[Archimedean ordered fields]] is a [[full subcategory]] of the [[powerset]] of the real numbers. This remains true in [[constructive mathematics]] but one has to use the [[Dedekind real numbers]] as only the Dedekind real numbers are the [[terminal object]] in the category of [[Archimedean ordered fields]] and [[ring homomorphisms]]. 
+=--
+
++-- {: .num_example #preorder} 
+###### Example 
+More generally, the CSB property holds in any [[partial order]] and in any [[preorder]] (i.e. [[thin category]]). 
+=--
 
 +-- {: .num_example #model} 
 ###### Example 
