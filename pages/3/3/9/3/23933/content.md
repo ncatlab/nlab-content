@@ -45,14 +45,30 @@ On [[anabelian geometry]]:
 
 On the Hitchin-Mochizuki morphism and Frobenius destablized vector bundles on curves:
 
-* [[Kirti Joshi]], Christian Pauly, *Hitchin–Mochizuki morphism, opers and Frobenius-destabilized vector bundles over curves* ([Advances in Mathematics,
-Volume 274, 9 April 2015, Pages 39-75] (https://doi.org/10.1016/j.aim.2015.01.004))
+
 
 * [[Kirti Joshi]], *The Degree of the Dormant Operatic Locus* ([International Mathematics Research Notices, Volume 2017, Issue 9, May 2017, Pages 2599–2613] (https://doi.org/10.1093/imrn/rnw066))
+
+* [[Kirti Joshi]], Christian Pauly, *Hitchin-Mochizuki morphism, opers and Frobenius-destabilized vector bundles over curves* ([Advances in Mathematics, Volume 274, Issue 9, April 2015, Pages 39--75] (https://doi.org/10.1016/j.aim.2015.01.004))
+
+On Frobenius destablized vector bundles on curves:
+
+* [[Kirti Joshi]], S. Ramanan, Jiu-Kang Yu and Eugene Z. Xia, *On vector bundles destabilized by Frobenius pull-back* ([Compositio Mathematica,  142, Issue 3, 2006, Pages 616--630] (https://doi.org/10.1112/S0010437X05001788)) 
+
+* [[Kirti Joshi]], Eugene Z. Xia, *Moduli of Vector Bundles on Curves in Positive Characteristics* ([Compositio Mathematica, Volume 122, Issue 3, Pages 315--321] (https://doi.org/10.1023/A:1001864401294))
+
 
 ## Related entries
 
 * [[inter-universal Teichmüller theory|Inter-universal Teichmüller theory]]
+
+On the Noether-Lefschetz Theorem:
+
+* [[Kirti Joshi]], *A General Noether-Lefshetz Theorem and Applications* ([Journal of Algebraic Geometry, Vol. 4, Issue 1, 1995, Pages 105--135] (https://arxiv.org/abs/alg-geom/9305001))
+
+On Frobenius Splitting and Ordinarity:
+
+* [[Kirti Joshi]], C. S. Rajan, *Frobenius Splitting and Ordinarity* ([International Mathematics Research Notices, Volume 2003, Issue 2, 2003, Pages 109–121] (https://doi.org/10.1155/S1073792803112135))
 
 category: people
 
