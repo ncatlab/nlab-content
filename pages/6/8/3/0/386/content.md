@@ -396,7 +396,7 @@ The face and degeneracy maps and the relation they satisfy are geometrically bes
 #### Extra degeneracies
 
 Presheaves on $\Delta_x$ are _(augmented) simplicial sets with extra degeneracies_,
-and presheaves on $\Delta_a$ are _(augmented) simplicial sets with strong extra degeneracies_. The key feature is
+and presheaves on $\Delta_\bot$ are _(augmented) simplicial sets with strong extra degeneracies_. The key feature is
 
 +-- {: .num_prop }
 ###### Proposition
