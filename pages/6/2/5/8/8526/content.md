@@ -17,13 +17,20 @@ The generalization of [[Teichmüller theory]] to [[arithmetic geometry]] has bee
 
 {#InterUniversal} The term "inter-universal" apparently refers to the fact that the theory is meant to formulated explicitly in a way that respects [[universe enlargement]], hence that it is [[universe polymorphism|universe polymorphic]] ([IUTT IV, remark 3.1.4](#IUTTIV), [Yamashita 13](#Yamashita13)).
 
-It is claimed ([IUTT IV](#IUTTIV)) that a proof of the [[abc conjecture]] can be given in IUTT. In 2018, a document [[why_abc_is_still_a_conjecture.pdf:file]] was written by [[Peter Scholze]] and [[Jakob Stix]] raising objections to the argument. 
+It is claimed ([IUTT IV](#IUTTIV)) that a proof of the [[abc conjecture]] can be given in IUTT. In 2018, a document [[why_abc_is_still_a_conjecture.pdf:file]] was written by [[Peter Scholze]] and [[Jakob Stix]] raising objections to the argument. More accurate critiques have appeared as a part of the works of [[Kirti Joshi]] on the theory of Arithmetic Teichmuller Spaces which includes, in dimension one and genus one, a precise version of Mochizuki's IUTT. 
+
+
+In brief, the novel idea due to Mochizuki, is to average over deformations of arithmetic (or an arithmetic holomorphic structure) itself (this notion has been precisely quantified in the works of [[Kirti Joshi]]). It should be remarked that Classical Teichmuller Theory should be considered as a model for Mochizuki's (and Joshi's) theory at any archimedean prime of a number field.
 
 ## Details
 
 ### Pilot objects
 
-Important to the arguments in the latter parts of the IUTT series are what Mochizuki refers to as pilot objects. Though the terminology in [IUTT III](#IUTTIII) is very dense, Mochizuki explains in Example 3.6, Remark 3.6.1, and subsequently that these can be understood in quite elementary terms, which we now describe.
+
+
+Important to the arguments in the latter parts of the IUTT series are what Mochizuki refers to as pilot objects. (A precise construction of Pilot objects has been independently provided in [[Kirti Joshi|Construction of Arithmetic Teichmuller Spaces III: A Rosetta Stone and a proof of Mochizuki’s Corollary 3.12]].)
+
+ Though the terminology in [IUTT III](#IUTTIII) is very dense, Mochizuki explains in Example 3.6, Remark 3.6.1, and subsequently that these can be understood in quite elementary terms, which we now describe.
 
 Let $X$, $F$, $F_{mod}$, and $\underline{\mathbb{V}}$ be as at [[initial Θ-data]]: $X$ is a once-puncturing of an [[elliptic curve]] $E$, $F$ is a [[number field]], $F_{mod}$ is the [[field of moduli]] of $X$ with respect to $F$, $\underline{\mathbb{V}}$ is a certain set of [[valuation|valuations]], and all of $X$, $F$, $\overline{F}$, and $\underline{\mathbb{V}}$ satisfy certain conditions which will be referred to here only as needed. Let $F^{\times}_{mod}$ denote the [[group of units|multiplicative group]] of $F_{mod}$.
 
