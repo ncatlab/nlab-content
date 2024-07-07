@@ -33,7 +33,11 @@ where $\mathbb{R}_D$ is the ordered field of [[Dedekind real numbers]] - the hom
 Let $R$ be an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] of the field of (sequential, modulated) [[Cauchy real numbers]] $\mathrm{R}_C$. The __analytic Markov's principle__ for $R$ states that the [[pseudo-order]] on $R$ is a [[stable relation]], or equivalently, the [[tight apartness relation]] is a [[stable relation]], or equivalently. 
 \end{definition}
 
-**Warning**. Given an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] $R$ of the field of (sequential, modulated) [[Cauchy real numbers]], the *analytic Markov's principle for $R$* is not to be confused with the *[[Markov's principle]] for $R$* - the latter is the statement that for every [[function]] $f$ from $R$ to the [[boolean domain]], the [[existential quantifier]] "for all elements $x$ in $R$, $f(x) = \mathrm{true}$" is [[stable proposition|stable]]. For $R$ the Cauchy real numbers, the analytic Markov's principle for the Cauchy real numbers is equivalent to the arkov's principle for the [[natural numbers]], while the arkov's principle for the [[Cauchy real numbers]] is much stronger than the arkov's principle for the [[natural numbers]]. 
+**Warning**. Given an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] $R$ of the field of (sequential, modulated) [[Cauchy real numbers]], the *analytic Markov's principle for $R$* is not to be confused with the *[[Markov's principle]] for $R$* - the latter is the statement that for every [[function]] $f$ from $R$ to the [[boolean domain]], the [[existential quantifier]] "there exists an $x$ in $R$ such that $f(x) = 1$" is [[stable proposition|stable]]. For $R$ the Cauchy real numbers, the analytic Markov's principle for the Cauchy real numbers is equivalent to the Markov's principle for the [[natural numbers]], while the Markov's principle for the [[Cauchy real numbers]] is much stronger than the Markov's principle for the [[natural numbers]]. 
+
+Let $R$ be any Archimedean ordered field extension of the Cauchy real numbers. The analytic Markov's principle makes sense for any  [[Archimedean ordered local ring|Archimedean ordered]] [[local Artinian algebra|local Artinian $R$-algebra]] $A$ as well, where the relation $\lt$ is in general only a [[strict weak order]] instead of a [[pseudo-order]], the [[preorder]] $\geq$ is not a [[partial order]], and the equivalence relation $a \approx b$ derived from the preorder holds if and only if $a - b$ is [[nilpotent]]. In this case, the analytic Markov's principle for the Weil $R$-algebra $A$ says that the [[apartness relation]] or [[strict weak order]] on $A$ is a [[stable relation]], and the quotient of $A$ by its [[nilradical]] is the field of real numbers $R$ satisfying the analytic Markov's principle. 
+
+## Properties
 
 \begin{theorem}
 Suppose that there is an Archimedean ordered field $R$ which is a [[field extension]] of the [[Cauchy real numbers]] $\mathbb{R}_C$. Then the analytic Markov's principle for $R$ is equivalent to the statement which says that for all elements $x \in R$, $\neg (x \leq 0)$ implies $0 \lt x$, the definition of analytic Markov's principle in [Shulman 2018](#Shulman18). 
@@ -48,7 +52,25 @@ The analytic Markov's principle for the (sequential, modulated) [[Cauchy real nu
 \end{theorem}
 
 \begin{proof}
-TBD...
+Let $f$ be a function from the [[natural numbers]] to the [[boolean domain]]. Define the [[sequence]] $u$ on the rationals as 
+$$u(n) = \sum_{x = 0}^k \frac{f(n)}{2^x}$$ 
+This sequence is a [[Cauchy sequence]] with a modulus of continuity, so taking the limit of this Cauchy sequence yields a Cauchy real number $[u]$. The analytic Markov's principle on the Cauchy reals implies that $\neg ([u] = 0)$ implies that $[u] \# 0$. $[u] \# 0$ holds if and only if $[u] \gt \frac{1}{2^k}$ for some natural number $k$ so there exists an $n$ such that $f(n) = 1$, and $[u] = 0$ holds if and only if $f(n) = 0$ for all $n$. Thus, $\neg ([u] = 0)$ implies that $[u] \# 0$ if and only if "$f(n) = 0$ for all $n$" being false implies that "there exists an $n$ such that $f(n) = 1$", which is Markov's principle for natural numbers. 
+\end{proof}
+
+\begin{theorem}
+Suppose that there are two Archimedean ordered fields $R$ and $R'$ such that both are [[field extensions]] of the [[Cauchy real numbers]] $\mathbb{R}_C$ and $R'$ is a [[field extension]] of $R$. Then, the analytic Markov's principle for $R'$ implies the analytic Markov's principle for $R$. 
+\end{theorem}
+
+\begin{proof}
+Suppose that the analytic Markov's principle for $R'$ holds for all elements $x$ and $y$ in $R'$. Then the analytic Markov's principle holds for all elements $x$ and $y$ in any subset of $R'$ whose subset inclusion preserves and reflects the [[tight apartness relation]], and in particular, it holds for any [[subfield]] $R$ of $R'$ which is also a [[field extension]] of the Cauchy real numbers. 
+\end{proof}
+
+\begin{lemma}
+Suppose that there is an Archimedean ordered field $R$ which is a [[field extension]] of the [[Cauchy real numbers]] $\mathbb{R}_C$. Then, the analytic Markov's principle for $R$ implies Markov's principle for [[natural numbers]]. 
+\end{lemma}
+
+\begin{proof}
+Since the field of Cauchy real numbers is a (trivial) field extension of itself, the analytic Markov's principle for $R$ implies the analytic Markov's principle for the Cauchy real numbers, which implies Markov's principle for the natural numbers. 
 \end{proof}
 
 \begin{theorem}
@@ -63,22 +85,6 @@ TBD...
 Markov's principle for [[natural numbers]] is equivalent to the analytic Markov's principle for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$. 
 \end{lemma}
 
-\begin{theorem}
-Suppose that there are two Archimedean ordered fields $R$ and $R'$ such that both are [[field extensions]] of the [[Cauchy real numbers]] $\mathbb{R}_C$ and $R'$ is a [[field extension]] of $R$. Then, the analytic Markov's principle for $R'$ implies the analytic Markov's principle for $R$. 
-\end{theorem}
-
-\begin{proof}
-TBD...
-\end{proof}
-
-\begin{lemma}
-Suppose that there is an Archimedean ordered field $R$ which is a [[field extension]] of the [[Cauchy real numbers]] $\mathbb{R}_C$. Then, the analytic Markov's principle for $R$ implies Markov's principle for [[natural numbers]]. 
-\end{lemma}
-
-\begin{proof}
-Since the field of Cauchy real numbers is a (trivial) field extension of itself, the analytic Markov's principle for $R$ implies the analytic Markov's principle for the Cauchy real numbers, which implies Markov's principle for the natural numbers. 
-\end{proof}
-
 Thus, one has a hierarchy of analytic Markov's principles of omniscience, where
 
 * The (sequential-, modulated-, Cantor-, Cauchy-, $\mathbb{R}_C$-) analytic Markov's principle is the weakest and equivalent to Markov's principle for the [[natural numbers]];
@@ -86,8 +92,6 @@ Thus, one has a hierarchy of analytic Markov's principles of omniscience, where
 * The (Dedekind-, $\mathbb{R}_D$-)analytic Markov's principle is the strongest. 
 
 * For any other Archimedean ordered field extension of the Cauchy real numbers $R$ which is neither equivalent to the Cauchy real numbers or the Dedekind real numbers, the $R$-analytic Markov's principle are intermediate in strength between the Cauchy-analytic Markov's principle and the Dedekind-analytic Markov's principle. 
-
-Let $R$ be any Archimedean ordered field extension of the Cauchy real numbers. The analytic Markov's principle makes sense for any  [[Archimedean ordered local ring|Archimedean ordered]] [[local Artinian algebra|local Artinian $R$-algebra]] $A$ as well, where the relation $\lt$ is in general only a [[strict weak order]] instead of a [[pseudo-order]], the [[preorder]] $\geq$ is not a [[partial order]], and the equivalence relation $a \approx b$ derived from the preorder holds if and only if $a - b$ is [[nilpotent]]. In this case, the analytic Markov's principle for the Weil $R$-algebra $A$ says that the [[apartness relation]] or [[strict weak order]] on $A$ is a [[stable relation]], and the quotient of $A$ by its [[nilradical]] is the field of real numbers $R$ satisfying the analytic Markov's principle. 
 
 ## Models
 
