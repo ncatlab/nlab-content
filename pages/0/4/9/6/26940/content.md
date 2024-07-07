@@ -33,14 +33,20 @@ where $\mathbb{R}_D$ is the ordered field of [[Dedekind real numbers]] - the hom
 Let $R$ be an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] of the field of (sequential, modulated) [[Cauchy real numbers]] $\mathrm{R}_C$. The __analytic LPO__ for $R$ states that the usual [[apartness relation]] on $R$ [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for $R$ ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that $R$ is a [[discrete field]].
 \end{definition}
 
-**Warning**. Given an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] $R$ of the field of (sequential, modulated) [[Cauchy real numbers]], the *analytic limited principle of omniscience for $R$* is not to be confused with the *[[limited principle of omniscience]] for $R$* - the latter is the statement that for every [[function]] $f$ from $R$ to the [[boolean domain]], either there exists an element $x$ in $R$ such that $f(x) = \mathrm{true}$, or for all elements $x$ in $R$, $f(x) = \mathrm{false}$. For $R$ the Cauchy real numbers, the analytic LPO for the Cauchy real numbers is equivalent to the LPO for the [[natural numbers]], while the LPO for the [[Cauchy real numbers]] is much stronger than the LPO for the [[natural numbers]]. 
+**Warning**. Given an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] $R$ of the field of (sequential, modulated) [[Cauchy real numbers]], the *analytic limited principle of omniscience for $R$* is not to be confused with the *[[limited principle of omniscience]] for $R$* - the latter is the statement that for every [[function]] $f$ from $R$ to the [[boolean domain]], either there exists an element $x$ in $R$ such that $f(x) = 1$, or for all elements $x$ in $R$, $f(x) = 0$. For $R$ the Cauchy real numbers, the analytic LPO for the Cauchy real numbers is equivalent to the LPO for the [[natural numbers]], while the LPO for the [[Cauchy real numbers]] is much stronger than the LPO for the [[natural numbers]]. 
+
+Let $R$ be any Archimedean ordered field extension of the Cauchy real numbers. The analytic LPO also makes sense for any [[Archimedean ordered local ring|Archimedean ordered]] [[local Artinian algebra|local Artinian $R$-algebra]] $A$ as well, where the relation $\lt$ is in general only a [[strict weak order]] instead of a [[pseudo-order]], the [[preorder]] $\geq$ is not a [[partial order]], and the equivalence relation $a \approx b$ derived from the preorder holds if and only if $a - b$ is [[nilpotent]]. In this case, the analytic LPO for the Weil $R$-algebra $A$ says that the [[strict weak order]] on $A$ is a [[decidable relation]], or that the [[apartness relation]] $a \# b$ is a [[decidable relation]], or invertibility is decidable, and the quotient of $A$ by its [[nilradical]] is the field of real numbers $R$ satisfying the analytic LPO. 
+
+## Properties
 
 \begin{theorem}
 The analytic LPO for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$ implies the LPO for [[natural numbers]]. 
 \end{theorem}
 
 \begin{proof}
-...
+Let $f$ be a function from the [[natural numbers]] to the [[boolean domain]]. Define the [[sequence]] $u$ on the rationals as 
+$$u(n) = \sum_{x = 0}^k \frac{f(n)}{2^x}$$ 
+This sequence is a [[Cauchy sequence]] with a modulus of continuity, so taking the limit of this Cauchy sequence yields a Cauchy real number $[u]$. The analytic LPO on the Cauchy reals states that either $[u] \# 0$ or $[u] = 0$. In the former case, $[u] \gt \frac{1}{2^k}$ for some natural number $k$ so there exists an $n$ such that $f(n) = 1$, and in the latter case, $f(n) = 0$ for all $n$. Thus, the LPO for natural numbers hold. 
 \end{proof}
 
 \begin{theorem}
@@ -58,7 +64,7 @@ Suppose that there are two Archimedean ordered fields $R$ and $R'$ such that bot
 \end{theorem}
 
 \begin{proof}
-Analytic LPO for $R'$ implies that $R'$ is [[isomorphic]] to the [[Cauchy real numbers]], which implies that any subfield of $R'$ which is a field extension of the Cauchy real numbers is isomorphic to $R'$. Since this is true of $R$, this implies that the analytic LPO for $R$ also holds, since $R'$ and $R$ are isomorphic fields. 
+Analytic LPO for $R'$ implies that $R'$ is [[isomorphic]] to the [[Cauchy real numbers]], which implies that any subfield of $R'$ which is a field extension of the Cauchy real numbers is isomorphic to $R'$, since the [[Cantor-Schroeder-Bernstein theorem]] holds for [[Archimedean ordered fields]] and [[ring homomorphisms]] in the category of Archimedean ordered fields. Since this is true of $R$, this implies that the analytic LPO for $R$ also holds, since $R'$ and $R$ are isomorphic fields. 
 \end{proof}
 
 \begin{lemma}
@@ -69,29 +75,54 @@ Suppose that there is an Archimedean ordered field $R$ which is a [[field extens
 Since the field of Cauchy real numbers is a (trivial) field extension of itself, the analytic LPO for $R$ implies the analytic LPO for the Cauchy real numbers, which implies the LPO for the natural numbers. 
 \end{proof}
 
-Thus, one has a hierarchy of analytic limited principles of omniscience, where
-
-* The (sequential-, modulated-, Cantor-, Cauchy-, $\mathbb{R}_C$-) analytic LPO is the weakest and equivalent to the LPO for the [[natural numbers]];
-
-* The (Dedekind-, $\mathbb{R}_D$-)analytic LPO is the strongest. 
-
-* For any other Archimedean ordered field extension of the Cauchy real numbers $R$ which is neither equivalent to the Cauchy real numbers or the Dedekind real numbers, the $R$-analytic LPO are intermediate in strength between the Cauchy-analytic LPO and the Dedekind-analytic LPO. 
-
-Finally, one has the following: Let $\Sigma$ be the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]. It is a sub-$\sigma$-frame of the [[frame of truth values]], which implies that one can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts in $\Sigma^\mathbb{Q} \times \Sigma^\mathbb{Q}$. Also, let $\mathbb{R}_H$ be the [[HoTT book real numbers]], which are the initial [[sequentially Cauchy complete space|sequentially Cauchy complete]] [[Archimedean ordered field]]. One has ring homomorphisms
-$$\mathrm{R}_C \hookrightarrow \mathrm{R}_H \hookrightarrow \mathrm{R}_\Sigma \hookrightarrow \mathrm{R}_D$$
-Then, 
+Let $\Sigma$ be the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]. It is a sub-$\sigma$-frame of the [[frame of truth values]]. One can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts in valued in the initial $\sigma$-frame $\Sigma \subseteq \Omega$ (see section 11.2 of [UFP 2013](#UFP13)), where then one has ring homomorphisms
+$$\mathrm{R}_C \hookrightarrow \mathrm{R}_\Sigma \hookrightarrow \mathrm{R}_D$$
 
 \begin{theorem}
-The LPO for natural numbers, the $\mathbb{R}_C$-analytic LPO, the $\mathbb{R}_H$-analytic LPO, and the $\mathbb{R}_\Sigma$-analytic LPO are equivalent to each other. 
+The LPO for natural numbers is equivalent to the [[boolean domain]] $\mathbb{2}$ being the initial $\sigma$-frame $\Sigma \coloneqq \mathbb{2}$. 
+\end{theorem}
+
+Thus, one can use the decidable Dedekind cuts $\mathbb{Q}^\mathbb{2} \times \mathbb{Q}^\mathbb{2}$ to construct the Dedekind real numbers, since $\Sigma \cong \mathbb{2}$ is the initial $\sigma$-frame. 
+
+\begin{theorem}
+The LPO for natural numbers implies the analytic LPO for subset of Dedekind real numbers $\mathrm{R}_\Sigma \subseteq \mathbb{R}_D$ constructed out of Dedekind cuts in valued in the initial $\sigma$-frame $\Sigma \subseteq \Omega$.
 \end{theorem}
 
 \begin{proof}
-The LPO for natural numbers is equivalent to the [[boolean domain]] $\mathbb{2}$ being the initial $\sigma$-frame $\Sigma \coloneqq \mathbb{2}$. This implies that one can use the booleans to construct $\mathbb{R}_\Sigma$. The LPO also implies the $\mathbb{R}_\Sigma$-analytic LPO, since the [[pseudo-order]] relation $\lt$ on $\mathbb{R}_\Sigma$ is defined as an [[existential quantification]] over the rational numbers, which is [[decidable]] because of LPO and the fact that the rational numbers are in bijection with the natural numbers. The $\mathbb{R}_\Sigma$-analytic LPO implies that every real number in $\mathbb{R}_\Sigma$ comes with the structure of a [[locator]], which implies that $\mathbb{R}_C$, $\mathbb{R}_H$, and $\mathbb{R}_\Sigma$ are isomorphic as real number fields. Thus, the $\mathbb{R}_\Sigma$-analytic LPO, $\mathbb{R}_H$-analytic LPO, and $\mathbb{R}_C$-analytic LPO are equivalent to each other. Finally, the $\mathbb{R}_C$-analytic LPO implies the LPO for natural numbers, which is sufficient to establish that the converses of the above implications hold. 
+LPO for the natural numbers implies that for each rational number $q$, the left and right Dedekind cuts for an element $x$ of $\mathrm{R}_\Sigma$, evaluated at $q$, $L_x(q)$ and $R_x(q)$, are both decidable propositions. In addition, LPO for the natural numbers implies that any [[existential quantification]] of a decidable predicate  over the rational numbers is itself a decidable proposition. The [[pseudo-order]] relation $\lt$ on $\mathbb{R}_\Sigma$ is defined as 
+$$x \lt y \coloneqq \exists q \in \mathbb{Q}.L_x(q) \wedge R_y(q)$$
+Since $L_x(q)$ and $R_y(q)$ are both decidable, the conjunction is also decidable, and so is the existential quantifier by LPO for the natural numbers, and by definition the strict order on $\mathrm{R}_\Sigma$, which is the analytic LPO for $\mathrm{R}_\Sigma$. 
 \end{proof}
 
-The analytic $\mathrm{LPO}$ for any field of real numbers $\mathbb{R}$ implies the [[fundamental theorem of algebra]] for $\mathbb{R}$. 
+\begin{theorem}
+The LPO for natural numbers, the $\mathbb{R}_C$-analytic LPO, and the $\mathbb{R}_\Sigma$-analytic LPO are equivalent to each other. 
+\end{theorem}
 
-Let $R$ be any Archimedean ordered field extension of the Cauchy real numbers. The analytic LPO makes sense for any  [[Archimedean ordered local ring|Archimedean ordered]] [[local Artinian algebra|local Artinian $R$-algebra]] $A$ as well, where the relation $\lt$ is in general only a [[strict weak order]] instead of a [[pseudo-order]], the [[preorder]] $\geq$ is not a [[partial order]], and the equivalence relation $a \approx b$ derived from the preorder holds if and only if $a - b$ is [[nilpotent]]. In this case, the analytic LPO for the Weil $R$-algebra $A$ says that the [[strict weak order]] on $A$ is a [[decidable relation]], or that the [[apartness relation]] $a \# b$ is a [[decidable relation]], or invertibility is decidable, and the quotient of $A$ by its [[nilradical]] is the field of real numbers $R$ satisfying the analytic LPO. 
+\begin{proof}
+We showed that the the $\mathbb{R}_C$-analytic LPO implies the LPO for natural numbers, that the $\mathbb{R}_\Sigma$-analytic LPO implies the $\mathbb{R}_C$-analytic LPO, and the LPO for natural numbers implies the $\mathbb{R}_\Sigma$-analytic LPO. By transitivity of implication, the converses also hold, so all three statements are equivalent to each other. 
+\end{proof}
+
+Finally, let $\mathbb{R}_H$ be the [[HoTT book real numbers]], which are the initial [[sequentially Cauchy complete space|sequentially Cauchy complete]] [[Archimedean ordered field]]. Then, 
+
+\begin{theorem}
+The LPO for natural numbers and the $\mathbb{R}_H$-analytic LPO are equivalent to each other. 
+\end{theorem}
+
+\begin{proof}
+There is a ring homomorphism $\mathbb{R}_H \hookrightarrow \mathbb{R}_\Sigma$ because $\mathbb{R}_\Sigma$ is Cauchy complete and $\mathbb{R}_H$ is initial in the category of Cauchy complete Archimedean ordered fields, and there is a ring homomorphism $\mathbb{R}_C \hookrightarrow \mathbb{R}_H$ because the rational numbers are a subset of $\mathbb{R}_H$, and $\mathbb{R}_C$ is the limit of Cauchy sequences of rational numbers (with modulus), while $\mathbb{R}_H$ is the limit of Cauchy sequences of elements of $\mathbb{R}_H$, implying that $\mathbb{R}_C$ embeds in $\mathbb{R}_H$. 
+
+Since the LPO for natural numbers is equivalent to the analytic LPO for $\mathrm{R}_\Sigma$, this in turn implies that $\mathrm{R}_C$ and $\mathrm{R}_\Sigma$ are isomorphic fields, which implies that $\mathbb{R}_H$ is isomorphic to $\mathrm{R}_\Sigma$, since the [[Cantor-Schroeder-Bernstein theorem]] holds for [[Archimedean ordered fields]] and [[ring homomorphisms]] in the category of Archimedean ordered fields. Thus, the analytic LPO for $\mathrm{R}_\Sigma$ is equivalent to the analytic LPO for $\mathrm{R}_H$ and equivalent to the LPO for natural numbers. 
+\end{proof}
+
+Thus, one has a hierarchy of analytic limited principles of omniscience, where
+
+* The analytic LPO for the (sequential, modulated) [[Cauchy real numbers]], for the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]], and for the subset of the Dedekind real numbers whose Dedekind cuts are valued in the initial $\sigma$-frame, are all the weakest and equivalent to the LPO for the [[natural numbers]];
+
+* The analytic LPO for the Dedekind real numbers is the strongest. 
+
+* For any other Archimedean ordered field extension of the Cauchy real numbers $R$ which is neither equivalent to the Cauchy real numbers or the Dedekind real numbers, the analytic LPO for $R$ are intermediate in strength between the Cauchy-analytic LPO and the Dedekind-analytic LPO. 
+
+The analytic $\mathrm{LPO}$ for any field of real numbers $\mathbb{R}$ implies the [[fundamental theorem of algebra]] for $\mathbb{R}$. 
 
 ## Models
 
@@ -103,13 +134,17 @@ Let $R$ be any Archimedean ordered field extension of the Cauchy real numbers. T
 
 * [[limited principle of omniscience]]
 
+* [[axiom of real cohesion]]
+
+* [[Brouwer's continuity principle]]
+
+* [[intermediate value theorem]]
+
 * [[analytic WLPO]]
 
 * [[analytic LLPO]]
 
 * [[analytic Markov's principle]]
-
-* [[Brouwer's continuity principle]]
 
 ## References
 
