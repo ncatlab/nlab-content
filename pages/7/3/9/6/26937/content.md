@@ -18,39 +18,79 @@
 
 ## Idea
 
-Bishop introduced the [[principles of omniscience]] for the [[natural numbers]] to show that certain results in pointwise [[analysis]] could not be constructive, by showing that these results implied a principle of omniscience. There are similar axioms in analysis which imply the principles of omniscience for natural numbers, called the **analytic principles of omniscience**. 
+Bishop introduced the [[principles of omniscience]] for the [[natural numbers]] to show that certain results in pointwise [[analysis]] could not be constructive, by showing that these results implied a principle of omniscience. There are similar axioms in analysis which imply the principles of omniscience for natural numbers, called the **analytic principles of omniscience**. These include
 
-The analytic principles of omniscience are as follows:
+* The [[analytic limited principle of omniscience]]
 
-*  The __analytic LPO__ states that the usual [[apartness relation]] on the set $\mathbb{R}$ of [[real numbers]] is [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for the real numbers ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that the real numbers form a [[discrete field]].
+* The [[analytic weak limited principle of omniscience]]
 
-* The __analytic WLPO__ states that $\mathbb{R}$ has [[decidable equality]], or that the partial order on the real numbers is [[decidable]] ($x \leq y$ or $\neg (x \leq y)$). 
+* The [[analytic lesser limited principle of omniscience]]
 
-*  The __analytic LLPO__ states that the usual order on $\mathbb{R}$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for the real numbers.
+* (sometimes) The [[analytic Markov's principle]]
 
-The analytic principles of omniscience imply the corresponding ones for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did). (Note that we need not accept $WCC$ to see that an analytic result implies a principle of omniscience and so cannot be constructively valid.)
+## Definition
 
-However, there are many different notions of real numbers in [[constructive mathematics]], so there are many different notions of the analytic principles of omniscience. So let us define a real number field $R$ to be an [[lattice-ordered ring|lattice-ordered]] [[Archimedean ordered field|Archimedean ordered]] [[field extension]] of the field of (sequential, modulated) [[Cauchy real numbers]] $\mathrm{R}_C$. Thus, given a real number field $R$ one has unique [[ring homomorphisms]] of real number fields
+There are many different notions of real numbers in [[constructive mathematics]]. What all these real numbers have in common are that they are an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] $R$ of the field of (sequential, modulated) [[Cauchy real numbers]] $\mathrm{R}_C$; i.e. there are unique [[ring homomorphisms]] of real number fields
 $$\mathbb{R}_C \hookrightarrow R \hookrightarrow \mathbb{R}_D$$
-where $\mathbb{R}_D$ is the field of [[Dedekind real numbers]]. In general the ring homomorphisms are not provably [[isomorphisms]] unless the [[Dedekind real numbers]] and [[Cauchy real numbers]] coincide. 
+where $\mathbb{R}_D$ is the field of [[Dedekind real numbers]] - the latter always exists since $\mathbb{R}_D$ is the [[terminal object|terminal]] Archimedean ordered field. In general the ring homomorphisms are not provably [[isomorphisms]] unless the [[Dedekind real numbers]] and [[Cauchy real numbers]] coincide. Thus, there are many different notions of the analytic principles of omniscience; the analytic principles of omniscience are defined for each Archimedean ordered field extension of the Cauchy real numbers. 
 
-For each real number field $R$, one has similar statements of the analytic principles of omniscience: 
+### Analytic limited principle of omniscience
 
-*  The __$R$-analytic LPO__ states that the usual [[apartness relation]] on the real number field $R$ [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for the real number field $R$ ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that the real number field $R$ is a [[discrete field]].
+\begin{definition}
+Let $R$ be an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] of the field of (sequential, modulated) [[Cauchy real numbers]] $\mathrm{R}_C$. The __analytic LPO__ for $R$ states that the usual [[apartness relation]] on $R$ [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichotomy]]__ for $R$ ($x \lt y$ or $x = y$ or $x \gt y$), or equivalently, that $R$ is a [[discrete field]].
+\end{definition}
 
-* The __$R$-analytic WLPO__ states that the real number field $R$ has [[decidable equality]], or that the partial order on $R$ is [[decidable]] ($x \leq y$ or $\neg (x \leq y)$). 
+\begin{theorem}
+The analytic LPO for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$ implies the LPO for [[natural numbers]]. 
+\end{theorem}
 
-*  The __$R$-analytic LLPO__ states that the lattice order on $R$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichotomy__ for the real number field $R$.
+\begin{proof}
+...
+\end{proof}
 
-One has a hierarchy of analytic principles of omniscience, where
+\begin{theorem}
+The LPO for [[natural numbers]] implies the analytic LPO for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$. 
+\end{theorem}
 
-* The (sequential-, modulated-, Cantor-, Cauchy-, $\mathbb{R}_C$-) analytic principles of omniscience is the weakest and equivalent to the corresponding principles of omniscience for the natural numbers;
+\begin{proof}
+...
+\end{proof}
 
-* The (Dedekind-, $\mathbb{R}_D$-)analytic principle of omniscience is the strongest. 
+\begin{lemma}
+The LPO for [[natural numbers]] is equivalent to the analytic LPO for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$. 
+\end{lemma}
 
-* For any other real number field $R$ which is neither equivalent to the Cauchy real numbers or the Dedekind real numbers, the corresponding $R$-analytic principles of omniscience are intermediate in strength between the Cauchy-analytic principles of omniscence and the Dedekind-analytic principles of omniscience. 
+\begin{theorem}
+Suppose that there is an Archimedean ordered field $R$ which is a [[field extension]] of the [[Cauchy real numbers]] $\mathbb{R}_C$. Then the analytic LPO for $R$ implies that $R$ is isomorphic to $\mathbb{R}_C$
+\end{theorem}
 
-* Suppose that there are two real number fields $R$ and $R'$ such that $R'$ is a [[field extension]] of $R$. Then each $R'$-analytic principle of omniscience implies the respective $R$-analytic principle of omniscience. 
+\begin{proof}
+... use theorems 11.4.1 and 11.4.3 of [UFP 2013](#UFP13). 
+\end{proof}
+
+\begin{theorem}
+Suppose that there are two Archimedean ordered fields $R$ and $R'$ such that both are [[field extensions]] of the [[Cauchy real numbers]] $\mathbb{R}_C$ and $R'$ is a [[field extension]] of $R$. Then, the analytic LPO for $R'$ implies the analytic LPO for $R$. 
+\end{theorem}
+
+\begin{proof}
+Analytic LPO for $R'$ implies that $R'$ is [[isomorphic]] to the [[Cauchy real numbers]], which implies that any subfield of $R'$ which is a field extension of the Cauchy real numbers is isomorphic to $R'$. Since this is true of $R$, this implies that the analytic LPO for $R$ also holds, since $R'$ and $R$ are isomorphic fields. 
+\end{proof}
+
+\begin{lemma}
+Suppose that there is an Archimedean ordered field $R$ which is a [[field extension]] of the [[Cauchy real numbers]] $\mathbb{R}_C$. Then, the analytic LPO for $R$ implies the LPO for [[natural numbers]]. 
+\end{lemma}
+
+\begin{proof}
+Since the field of Cauchy real numbers is a (trivial) field extension of itself, the analytic LPO for $R$ implies the analytic LPO for the Cauchy real numbers, which implies the LPO for the natural numbers. 
+\end{proof}
+
+Thus, one has a hierarchy of analytic limited principles of omniscience, where
+
+* The (sequential-, modulated-, Cantor-, Cauchy-, $\mathbb{R}_C$-) analytic LPO is the weakest and equivalent to the LPO for the [[natural numbers]];
+
+* The (Dedekind-, $\mathbb{R}_D$-)analytic LPO is the strongest. 
+
+* For any other Archimedean ordered field extension of the Cauchy real numbers $R$ which is neither equivalent to the Cauchy real numbers or the Dedekind real numbers, the $R$-analytic LPO are intermediate in strength between the Cauchy-analytic LPO and the Dedekind-analytic LPO. 
 
 Finally, one has the following: Let $\Sigma$ be the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]. It is a sub-$\sigma$-frame of the [[frame of truth values]], which implies that one can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts in $\Sigma^\mathbb{Q} \times \Sigma^\mathbb{Q}$. Also, let $\mathbb{R}_H$ be the [[HoTT book real numbers]], which are the initial [[sequentially Cauchy complete space|sequentially Cauchy complete]] [[Archimedean ordered field]]. One has ring homomorphisms
 $$\mathrm{R}_C \hookrightarrow \mathrm{R}_H \hookrightarrow \mathrm{R}_\Sigma \hookrightarrow \mathrm{R}_D$$
@@ -66,6 +106,56 @@ The LPO for natural numbers is equivalent to the [[boolean domain]] $\mathbb{2}$
 
 The analytic $\mathrm{LPO}$ for any field of real numbers $\mathbb{R}$ implies the [[fundamental theorem of algebra]] for $\mathbb{R}$. 
 
+### Analytic weak limited principle of omniscience
+
+\begin{definition}
+Let $R$ be an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] of the field of (sequential, modulated) [[Cauchy real numbers]] $\mathrm{R}_C$. The __analytic WLPO__ for $R$ states that $R$ has [[decidable equality]], or that the partial order on $R$ is [[decidable]] ($x \leq y$ or $\neg (x \leq y)$). 
+\end{definition}
+
+\begin{theorem}
+The analytic WLPO for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$ implies the WLPO for [[natural numbers]]. 
+\end{theorem}
+
+\begin{proof}
+...
+\end{proof}
+
+\begin{theorem}
+The WLPO for [[natural numbers]] implies the analytic WLPO for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$. 
+\end{theorem}
+
+\begin{proof}
+...
+\end{proof}
+
+\begin{lemma}
+The WLPO for [[natural numbers]] is equivalent to the analytic WLPO for the (sequential, modulated) [[Cauchy real numbers]] $\mathbb{R}_C$. 
+\end{lemma}
+
+\begin{theorem}
+Suppose that there are two Archimedean ordered fields $R$ and $R'$ such that both are [[field extensions]] of the [[Cauchy real numbers]] $\mathbb{R}_C$ and $R'$ is a [[field extension]] of $R$. Then, the analytic WLPO for $R'$ implies the analytic WLPO for $R$. 
+\end{theorem}
+
+\begin{proof}
+Analytic WLPO for $R'$ implies that $R'$ has [[decidable equality]]. Any subset of a set with decidable equality also has decidable equality. Since $R$ is a subfield of $R'$, $R$ also has decidable equality, which is the analytic WLPO for $R$. 
+\end{proof}
+
+\begin{lemma}
+Suppose that there is an Archimedean ordered field $R$ which is a [[field extension]] of the [[Cauchy real numbers]] $\mathbb{R}_C$. Then, the analytic WLPO for $R$ implies the WLPO for [[natural numbers]]. 
+\end{lemma}
+
+\begin{proof}
+Since the field of Cauchy real numbers is a (trivial) field extension of itself, the analytic WLPO for $R$ implies the analytic WLPO for the Cauchy real numbers, which implies the WLPO for the natural numbers. 
+\end{proof}
+
+Thus, one has a hierarchy of analytic weak limited principles of omniscience, where
+
+* The (sequential-, modulated-, Cantor-, Cauchy-, $\mathbb{R}_C$-) analytic WLPO is the weakest and equivalent to the WLPO for the [[natural numbers]];
+
+* The (Dedekind-, $\mathbb{R}_D$-)analytic WLPO is the strongest. 
+
+* For any other Archimedean ordered field extension of the Cauchy real numbers $R$ which is neither equivalent to the Cauchy real numbers or the Dedekind real numbers, the $R$-analytic WLPO are intermediate in strength between the Cauchy-analytic WLPO and the Dedekind-analytic WLPO. 
+
 ## Related concepts
 
 * [[principle of omniscience]]
@@ -78,6 +168,8 @@ The analytic $\mathrm{LPO}$ for any field of real numbers $\mathbb{R}$ implies t
 
 ## References
 
+* {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+
 The analytic WLPO and LLPO are mentioned in the following paper, although unfortunately it uses the phrase "analytic LPO" for what should really be the analytic *WLPO* (the reals have decidable equality):
 
 * {#Shulman18} [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
@@ -88,10 +180,6 @@ The analytic WLPO and LLPO are mentioned in the following paper, although unfort
 [[!redirects analytic LPO]]
 [[!redirects analytic limited principle of omniscience]]
 [[!redirects analytic limited principles of omniscience]]
-
-[[!redirects analytic LLPO]]
-[[!redirects analytic lesser limited principle of omniscience]]
-[[!redirects analytic lesser limited principles of omniscience]]
 
 [[!redirects analytic WLPO]]
 [[!redirects analytic weak limited principle of omniscience]]
