@@ -33,6 +33,8 @@ where $\mathbb{R}_D$ is the ordered field of [[Dedekind real numbers]] - the hom
 Let $R$ be an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] of the field of (sequential, modulated) [[Cauchy real numbers]] $\mathrm{R}_C$. The __analytic Markov's principle__ for $R$ states that the [[pseudo-order]] on $R$ is a [[stable relation]], or equivalently, the [[tight apartness relation]] is a [[stable relation]], or equivalently. 
 \end{definition}
 
+**Warning**. Given an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] $R$ of the field of (sequential, modulated) [[Cauchy real numbers]], the *analytic Markov's principle for $R$* is not to be confused with the *[[Markov's principle]] for $R$* - the latter is the statement that for every [[function]] $f$ from $R$ to the [[boolean domain]], the [[existential quantifier]] "for all elements $x$ in $R$, $f(x) = \mathrm{true}$" is [[stable proposition|stable]]. For $R$ the Cauchy real numbers, the analytic Markov's principle for the Cauchy real numbers is equivalent to the arkov's principle for the [[natural numbers]], while the arkov's principle for the [[Cauchy real numbers]] is much stronger than the arkov's principle for the [[natural numbers]]. 
+
 \begin{theorem}
 Suppose that there is an Archimedean ordered field $R$ which is a [[field extension]] of the [[Cauchy real numbers]] $\mathbb{R}_C$. Then the analytic Markov's principle for $R$ is equivalent to the statement which says that for all elements $x \in R$, $\neg (x \leq 0)$ implies $0 \lt x$, the definition of analytic Markov's principle in [Shulman 2018](#Shulman18). 
 \end{theorem}
