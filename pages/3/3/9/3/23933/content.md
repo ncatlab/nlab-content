@@ -53,22 +53,25 @@ On the Hitchin-Mochizuki morphism and Frobenius destablized vector bundles on cu
 
 On Frobenius destablized vector bundles on curves:
 
-* [[Kirti Joshi]], S. Ramanan, Jiu-Kang Yu and Eugene Z. Xia, *On vector bundles destabilized by Frobenius pull-back* ([Compositio Mathematica,  142, Issue 3, 2006, Pages 616--630] (https://doi.org/10.1112/S0010437X05001788)) 
+* [[Kirti Joshi]], S. Ramanan, Jiu-Kang Yu and Eugene Z. Xia, *On vector bundles destabilized by Frobenius pull-back* ([Compositio Mathematica,  142, Issue 3, 2006, Pages 616--630] (https://www.cambridge.org/core/journals/compositio-mathematica/article/on-vector-bundles-destabilized-by-frobenius-pullback/EDE8B03FF05C51929C198E316B086B6B)) 
 
-* [[Kirti Joshi]], Eugene Z. Xia, *Moduli of Vector Bundles on Curves in Positive Characteristics* ([Compositio Mathematica, Volume 122, Issue 3, Pages 315--321] (https://doi.org/10.1023/A:1001864401294))
+* [[Kirti Joshi]], Eugene Z. Xia, *Moduli of Vector Bundles on Curves in Positive Characteristics* ([Compositio Mathematica, Volume 122, Issue 3, Pages 315--321] (https://www.cambridge.org/core/journals/compositio-mathematica/article/moduli-of-vector-bundles-on-curves-in-positive-characteristics/779BC3330BFE376220267FFCA6E583CC))
+
+
+On Frobenius Splitting and Ordinarity:
+
+* [[Kirti Joshi]], C. S. Rajan, *Frobenius Splitting and Ordinarity* ([International Mathematics Research Notices, Volume 2003, Issue 2, 2003, Pages 109–121] (https://doi.org/10.1155/S1073792803112135))
+
+On the Noether-Lefschetz Theorem:
+
+* [[Kirti Joshi]], *A General Noether-Lefshetz Theorem and Applications* ([Journal of Algebraic Geometry, Vol. 4, Issue 1, 1995, Pages 105--135] (https://arxiv.org/abs/alg-geom/9305001))
 
 
 ## Related entries
 
 * [[inter-universal Teichmüller theory|Inter-universal Teichmüller theory]]
 
-On the Noether-Lefschetz Theorem:
 
-* [[Kirti Joshi]], *A General Noether-Lefshetz Theorem and Applications* ([Journal of Algebraic Geometry, Vol. 4, Issue 1, 1995, Pages 105--135] (https://arxiv.org/abs/alg-geom/9305001))
-
-On Frobenius Splitting and Ordinarity:
-
-* [[Kirti Joshi]], C. S. Rajan, *Frobenius Splitting and Ordinarity* ([International Mathematics Research Notices, Volume 2003, Issue 2, 2003, Pages 109–121] (https://doi.org/10.1155/S1073792803112135))
 
 category: people
 
