@@ -264,10 +264,16 @@ Further early discussion:
 
 * [[William Browder]], *Homology Rings of Groups*, American Journal of Mathematics **90** 1 (1968) &lbrack;[jstor:2373440](https://www.jstor.org/stable/2373440)&rbrack;
 
+On the effect on Pontrjagin rings of [[group completion]] of [[topological monoids]]:
+
+* [[Michael Barratt]], [[Stewart Priddy]], *On the homology of non-connected monoids and their associated groups*, Commentarii Mathematici Helvetici, **47** 1 (1972) 1–14 &lbrack;[doi:10.1007/BF02566785](https://link.springer.com/article/10.1007/BF02566785), [eudml:139496](https://eudml.org/doc/139496)&rbrack;
+
+* [[Dusa McDuff]], [[Graeme Segal]]: *Homology fibrations and the “group-completion” theorem*, Inventiones mathematicae **31** (1976) 279-284 &lbrack;[doi:10.1007/BF01403148](https://doi.org/10.1007/BF01403148)&rbrack;
 
 
 
-In the context of [[string topology]]:
+
+Pontrjagin rings in the context of [[string topology]]:
 
 * [[Moira Chas]], [[Dennis Sullivan]], §3 in: *String Topology* &lbrack;[arXiv:math/9911159](https://arxiv.org/abs/math/9911159)&rbrack;
 
