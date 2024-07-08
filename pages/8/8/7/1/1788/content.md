@@ -1,5 +1,15 @@
 
 $$
+  P
+  \;\coloneqq\;
+  \tfrac{1}{2}
+  \big(
+    1 + 
+    \Gamma^{3 \cdots 10}
+  \big)
+$$
+
+$$
   r \ll (\pi N)^{1/3} \ell_P
 $$
 
