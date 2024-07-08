@@ -31,6 +31,10 @@ On [[spectral networks]] and [[Chern-Simons theory with complex gauge group]]:
 
 * [[Daniel S. Freed]], [[Andrew Neitzke]], *3d spectral networks and classical Chern-Simons theory* &lbrack;[arXiv:2208.07420](https://arxiv.org/abs/2208.07420)&rbrack;
 
+On [[conformal blocks]]:
+
+* Qianyu Hao, [[Andrew Neitzke]]: *A new construction of $c=1$ Virasoro blocks* &lbrack;[arXiv:2407.04483](https://arxiv.org/abs/2407.04483)&rbrack;
+
 
 
 category: people
