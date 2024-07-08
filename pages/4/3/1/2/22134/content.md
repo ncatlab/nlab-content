@@ -93,9 +93,16 @@ Simulation of [[Ising anyons]] in a lattice of ordinary [[superconductor|superco
 
 Discussion via [[homotopy type theory]]:
 
-* [[David Jaz Myers]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Topological Quantum Gates in Homotopy Type Theory]]*, Comm. Math. Phys. (2024) \[<a href="https://arxiv.org/abs/2303.02382">arXiv:2303.02382</a>\]
+* [[David Jaz Myers]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Topological Quantum Gates in Homotopy Type Theory]]*, Comm. Math. Phys. **405** 172 (2024) \[<a href="https://arxiv.org/abs/2303.02382">arXiv:2303.02382</a>, [doi:10.1007/s00220-024-05020-8](https://doi.org/10.1007/s00220-024-05020-8)\]
+
+
+
+
 
 [[!include braid group representations -- references]]
+
+
+
 
 See also:
 
