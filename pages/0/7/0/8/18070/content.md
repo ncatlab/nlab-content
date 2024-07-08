@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -1584,6 +1585,8 @@ The [[Cohomotopy charge map]] ("electric field map", "scanning map") and hence t
 Generalization of these constructions and results is due to
 
 * {#McDuff75} [[Dusa McDuff]], *Configuration spaces of positive and negative particles*, Topology **14** 1 (1975) 91-107 \[<a href="https://doi.org/10.1016/0040-9383(75)90038-5">doi:10.1016/0040-9383(75)90038-5</a>, [pdf](https://core.ac.uk/download/pdf/81183648.pdf)\]
+
+* [[Dusa McDuff]]: *Configuration Spaces*, in: *K-Theory and Operator Algebras*, Lecture Notes in Mathematics **575** Springer (1977) 88-95 &lbrack;[doi:10.1007/BFb0095704](https://doi.org/10.1007/BFb0095704), [[McDuff-ConfigSpaces1977.pdf:file]]&rbrack;
 
 * {#Boedigheimer87} [[Carl-Friedrich Bödigheimer]], *Stable splittings of mapping spaces*, in: *Algebraic topology*, Lecture Notes in Mathematics **1286**, Springer (1987) 174-187 &lbrack;[pdf](http://www.math.uni-bonn.de/~cfb/PUBLICATIONS/stable-splittings-of-mapping-spaces.pdf), [[BoedigheimerStableSplittings87.pdf:file]], [doi:10.1007/BFb0078741](https://doi.org/10.1007/BFb0078741)&rbrack;
 
