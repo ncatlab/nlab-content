@@ -11,5 +11,9 @@ and from [[real projective space]] to [[complex projective space]]:
 
 * [[Andrzej Kozlowski]], [[Kohhei Yamaguchi]], *Spaces of algebraic maps from real projective spaces into complex projective spaces* ([arXiv:0812.3954](https://arxiv.org/abs/0812.3954)), in: [[Yves Félix]] et al. (eds.) *Homotopy Theory of Function Spaces and Related Topics*, Contemporary Mathematics Volume: 519; 2010 ([ISBN:978-0-8218-4929-3](https://bookstore.ams.org/conm-519))
 
+On [[configuration spaces of points]]:
+
+*  [[Martin A. Guest]], [[Andrzej Kozlowski]], [[Kohhei Yamaguchi]]: *Stability of configuration spaces of positive and negative particles* (2020?) &lbrack;[pdf](https://www.mimuw.edu.pl/~akoz/topology/GKYPDF/GKY5.pdf), [[GuestKozlowskiYamaguchi-Stability.pdf:file]]&rbrack;
+
 
 category: people
