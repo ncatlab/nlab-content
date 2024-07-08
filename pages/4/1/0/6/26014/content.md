@@ -141,6 +141,8 @@ Further activity:
 [[!redirects generalized symmetries]]
 [[!redirects non-invertible symmetry]]
 [[!redirects non-invertible symmetries]]
+[[!redirects noninvertible symmetry]]
+[[!redirects noninvertible symmetries]]
 
 [[!redirects higher form symmetry]]
 [[!redirects higher form symmetries]]
