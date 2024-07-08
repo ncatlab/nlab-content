@@ -287,7 +287,7 @@ Discussion of stable Cohomotopy of [[Lie groups]]:
 
 The identification of stable cohomotopy with the [[K-theory of a permutative category|K-theory of the permutative category]] of [[finite sets]] is due to 
 
-* {#BarrattPriddy72} [[Michael Barratt]], [[Stewart Priddy]], _On the homology of non-connected monoids and their associated groups_, Commentarii Mathematici Helvetici, December 1972, Volume 47, Issue 1, pp 1–14 ([doi:10.1007/BF02566785](https://link.springer.com/article/10.1007/BF02566785))
+* {#BarrattPriddy72} [[Michael Barratt]], [[Stewart Priddy]], *On the homology of non-connected monoids and their associated groups*, Commentarii Mathematici Helvetici, **47** 1 (1972) 1–14 &lbrack;[doi:10.1007/BF02566785](https://link.springer.com/article/10.1007/BF02566785), [eudml:139496](https://eudml.org/doc/139496)&rbrack;
 
 * {#Segal74} [[Graeme Segal]], _Categories and cohomology theories_, Topology vol 13, pp.  293-312,  1974  (<a href="https://doi.org/10.1016/0040-9383(74)90022-6">doi:10.1016/0040-9383(74)90022-6</a>, [pdf](http://ncatlab.org/nlab/files/SegalCategoriesAndCohomologyTheories.pdf))
 
