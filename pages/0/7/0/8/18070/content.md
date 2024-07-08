@@ -1592,6 +1592,12 @@ Generalization of these constructions and results is due to
 
 * {#ManthorpeTillmann} Richard Manthorpe, [[Ulrike Tillmann]], _Tubular configurations: equivariant scanning and splitting_, Journal of the London Mathematical Society, Volume 90, Issue 3 ([arxiv:1307.5669](https://arxiv.org/abs/1307.5669), [doi:10.1112/jlms/jdu050](https://doi.org/10.1112/jlms/jdu050))
 
+* J. Caruso, [[Stefan Waner]]: *An Approximation to $\Omega^n \Sigma^n X$*, Transactions of the American Mathematical Society **265** 1 (1981) 147-162 &lbrack;[doi:10.2307/1998487](https://doi.org/10.2307/1998487), [jstor:1998487](https://www.jstor.org/stable/1998487), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/caruso1.pdf)&rbrack;
+
+* Shingo Okuyama: *A simple solution for a group completion problem*, Trends in Mathematics **7** 1 (2004) 69-74 &lbrack;[pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9cdd95b10437b020b32e911934215eb398fbc411), [[Okuyama-GroupCompletion.pdf:file]]&rbrack;
+
+* Shingo Okuyama: *The space of intervals in a Euclidean space*, Algebr. Geom. Topol. **5** (2005) 1555-1572 &lbrack;[arXiv:math/0511645](https://arxiv.org/abs/math/0511645), [doi:10.2140/agt.2005.5.1555](https://doi.org/10.2140/agt.2005.5.1555)&rbrack;
+
 
 Generalization to [[equivariant homotopy theory]]:
 
@@ -1949,7 +1955,6 @@ Discussion of configuration spaces of _possibly coincident_ points, hence of [[s
 with emphasis to the resulting [[configuration spaces of points]], as in
 
 * [[Cumrun Vafa]], [[Edward Witten]], Section 4.1 of: _A Strong Coupling Test of S-Duality_, Nucl. Phys. B431:3-77, 1994 ([arXiv:hep-th/9408074](https://arxiv.org/abs/hep-th/9408074))
-
 
 
 
