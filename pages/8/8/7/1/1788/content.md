@@ -1,4 +1,17 @@
 
+$$
+  r \ll (\pi N)^{1/3} \ell_P
+$$
+
+
+$$
+  u^2 = 4 (\pi N)^{1/3} \ell_P r
+$$
+
+$$
+  \frac{ u^2 }{ 4(\pi N)^{2/3} \ell_p^2 } \ll 1
+$$
+
 \begin{tikzcd}
   X 
     \ar[r, equals] 
