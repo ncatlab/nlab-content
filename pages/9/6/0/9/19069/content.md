@@ -17,6 +17,8 @@ If $D$ is moreover [[cocomplete category|cocomplete]], we can pass to limits and
 
 * Adamek and Herrlich and Tholen, *Monadic decompositions*, [sciencedirect](https://www.sciencedirect.com/science/article/pii/0022404989901291)
 
+* Yanovski, *The Monadic Tower for $\infty$-Categories*, [arxiv](https://arxiv.org/abs/2104.01816) 
+
 
 [[!redirects monadic decompositions]]
 [[!redirects iterated monads]]
