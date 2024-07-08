@@ -4,22 +4,19 @@
 
 ## Idea
 
+A cluster algebra of rank $n$ is a commutative algebra equipped with some subsets of size $n$ called clusters.
+Some of these clusters are related by sequences of operations called mutations. A cluster variable is an element of any of the clusters. This theory is motivated by the [[total positivity]] phenomena in Lie theory and existance of good bases of some algebras and their representation spaces, for example canonical and dual canonical bases. 
+
 A matrix $A$ over the field of [[real numbers]] is __[[totally positive matrix|totally positive]]__ (resp. __totally nonnegative__) if every minor (= determinant of any submatrix) is a positive (resp. nonnegative) real number. Total positivity implies a number of remarkable properties; for example all eigenvalues are distinct and positive. 
 
 [[George Lusztig]] discovered that total positivity is closely related to some phenomena in the theory of [[Lie groups]] and [[quantum groups]]. Later, [[Sergey Fomin]] and [A. Zelevinsky](http://www.math.neu.edu/zelevinsky/andrei.html) studied the canonical bases for [[quantum groups]] and discovered the combinatorics of simple transformations and defined  associated classical and quantum __cluster algebras__ to such situations.   In particular, Stasheff [[associahedron|associahedra]] are  associated to these cluster algebras. Remarkably, they found an unusual [[algebraic geometry]] related to cluster algebras, possessing new, and at the beginning mysterious, [[Laurent phenomenon]]. Later, the cluster algebras appeared also in the connection to the representations of [[quivers]], tilting theory and the wall crossing phenomenon, with the applications in [[representation theory]] and the study of [[triangulated category|triangulated categories]].
 
-A cluster algebra of rank $n$ comes equipped with some subsets of size $n$ called clusters. Some of these clusters are related by sequences of operations called mutations.
-
+Quantum cluster algebras are noncommutative.
 
 
 ## References
 
 * Sergey Fomin, Andrei Zelevinsky, _Cluster algebras. I. Foundations_, J. Amer. Math. Soc. 15 (2002), no. 2, 497--529, [math.RT/0104151 ](http://arxiv.org/abs/math/0104151); _Cluster algebras. II. Finite type classifications._ Invent. Math. 154 (2003), no. 1, 63--121 -- classification of cluster algebras of finite type via root systems [math.RA/0208229](http://arxiv.org/abs/math/0208229), _Cluster algebras, IV: Coefficients_, Compos. Math. __143__ (2007), 112&#8211;164, [MR2295199](http://www.ams.org/mathscinet-getitem?mr=2295199) [doi](http://dx.doi.org/10.1112/S0010437X06002521)
-
-* Arkady Berenstein, Andrei Zelevinsky, _Quantum cluster algebras_, [math.QA/0404446](http://arxiv.org/abs/math/0404446)
-
-* [[K. R. Goodearl]], M. T. Yakimov, _Quantum cluster algebras and quantum nilpotent algebras_
-Proc Natl Acad Sci USA 111(27):9696--9703  (2014) [doi](https://doi.org/10.1073/pnas.1313071111)
 
 * [[Bernhard Keller]], _Cluster algebras, quiver representations and triangulated categories_, [arXiv:0807.1960](http://arXiv.org/abs/0807.1960) [MR2681708](http://www.ams.org/mathscinet-getitem?mr=2681708)
 
@@ -33,24 +30,40 @@ Proc Natl Acad Sci USA 111(27):9696--9703  (2014) [doi](https://doi.org/10.1073/
 
 * [[Bernard Leclerc]], _Cluster algebras and representation theory_, [arxiv/1009.4552](http://arxiv.org/abs/1009.4552)
 
-* Christof Geiss, Bernard Leclerc, Jan Schr&#246;er, _Preprojective algebras and cluster algebras_, [arxiv/0804.3168](http://arxiv.org/abs/0804.3168); _Kac-Moody groups and cluster algebras_, [arxiv/1001.3545](http://arxiv.org/abs/1001.3545); _Cluster structures on quantum coordinate rings_, [arxiv/1104.0531](http://arxiv.org/abs/1104.0531)
+* Christof Geiss, [[Bernard Leclerc]], Jan Schr&#246;er, _Preprojective algebras and cluster algebras_, [arxiv/0804.3168](http://arxiv.org/abs/0804.3168); _Kac-Moody groups and cluster algebras_, [arxiv/1001.3545](http://arxiv.org/abs/1001.3545)
 
-* Tomoki Nakanishi, _[[dilogarithm|Dilogarithm]] identities for conformal field theories and cluster algebras: Simply laced case_, Nagoya Math. J. __202__ (2011), 23-43, [MR2804544](http://www.ams.org/mathscinet-getitem?mr=2804544) [doi](http://dx.doi.org/10.1215/00277630-1260432)
-* Kentaro Nagao, _Donaldson–Thomas theory and cluster algebras_, Duke Math. J. 162(7): 1313-1367 [doi](https://doi.org/10.1215/00127094-2142753)
+* Tomoki Nakanishi, _[[dilogarithm|Dilogarithm]] identities for conformal field theories and cluster algebras: Simply laced case_, Nagoya Math. J. __202__ (2011) 23--43, [MR2804544](http://www.ams.org/mathscinet-getitem?mr=2804544) [doi](https://doi.org/10.1215/00277630-1260432)
+* Kentaro Nagao, _Donaldson--Thomas theory and cluster algebras_, Duke Math. J. __162__(7): 1313--1367 [doi](https://doi.org/10.1215/00127094-2142753)
 
 The connections to the exact WKB method a la Voros are studied in 
 
-* Kohei Iwaki, Tomoki Nakanishi, _Exact WKB analysis and cluster algebras_, J. Phys. A 47 (2014) 474009 [arxiv/1401.7094](http://arxiv.org/abs/1401.7094); _Exact WKB analysis and cluster algebras II: simple poles, orbifold points, and generalized cluster algebras_, [arXiv:1409.4641](http://arxiv.org/abs/1409.4641)
+* Kohei Iwaki, Tomoki Nakanishi, _Exact WKB analysis and cluster algebras_, J. Phys. A 47 (2014) 474009 [arxiv/1401.7094](https://arxiv.org/abs/1401.7094); _Exact WKB analysis and cluster algebras II: simple poles, orbifold points, and generalized cluster algebras_, [arXiv:1409.4641](http://arxiv.org/abs/1409.4641)
 
 Generalized cluster algebras are studied in 
 
-* Leonid Chekhov, Michael Shapiro, _Teichm&#252;ller spaces of Riemann surfaces with orbifold points of arbitrary order and cluster variables_, Int. Math. Res. Notices (2014)  2746-2772 [arxiv/1111.3963](http://arxiv.org/abs/1111.3963) [doi](http://dx.doi.org/10.1093/imrn/rnt016)
-* Tomoki Nakanishi, _Structure of seeds in generalized cluster algebras_, [arxiv/1409.5967](http://arxiv.org/abs/1409.5967)
+* Leonid Chekhov, Michael Shapiro, _Teichm&#252;ller spaces of Riemann surfaces with orbifold points of arbitrary order and cluster variables_, Int. Math. Res. Notices (2014)  2746-2772 [arxiv/1111.3963](https://arxiv.org/abs/1111.3963) [doi](https://doi.org/10.1093/imrn/rnt016)
+* Tomoki Nakanishi, _Structure of seeds in generalized cluster algebras_, [arxiv/1409.5967](https://arxiv.org/abs/1409.5967)
 
 Review:
 
 * Michael Gekhtman, Anton Izosimov, *Integrable systems and cluster algebras*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2403.07287](https://arxiv.org/abs/2403.07287)&rbrack;
  
+### Quantum cluster algebras
+
+* Arkady Berenstein, Andrei Zelevinsky, _Quantum cluster algebras_, [math.QA/0404446](http://arxiv.org/abs/math/0404446)
+
+* [[K. R. Goodearl]], M. T. Yakimov, _Quantum cluster algebras and quantum nilpotent algebras_
+Proc Natl Acad Sci USA 111(27):9696--9703  (2014) [doi](https://doi.org/10.1073/pnas.1313071111)
+
+* Fan Qin, _Dual canonical bases and quantum cluster algebras_, [arXiv:2003.13674](https://arxiv.org/abs/2003.13674)
+
+> Given any quantum cluster algebra arising from a quantum unipotent subgroup of symmetrizable Kac-Moody type, we verify the quantization conjecture in full generality that the quantum cluster monomials are contained in the dual canonical basis after rescaling. 
+
+* Christof Geiss, [[Bernard Leclerc]], Jan Schr&#246;er, _Cluster structures on quantum coordinate rings_, Selecta Math. __19__ (2013), 337--397 [arxiv/1104.0531](https://arxiv.org/abs/1104.0531)
+
+* Yoshiyuki Kimura, _Quantum unipotent subgroup and dual canonical basis_, Kyoto J. Math. 52(2): 277--331 (2012) [doi](https://doi.org/10.1215/21562261-1550976) 
+
+category: algebra
 
 [[!redirects cluster algebras]]
 [[!redirects cluster transformation]]
