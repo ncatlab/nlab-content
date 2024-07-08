@@ -12,7 +12,12 @@ Related nLab pages:
 * [[partial evaluation]]
 
 
-### Selected writings
+### Introduction to category theory
+
+* [[Paolo Perrone]], _Starting Category Theory_, World Scientific, 2024. ([website](https://www.worldscientific.com/worldscibooks/10.1142/13670))
+
+
+### Selected papers
 
 * [[Tobias Fritz]] and [[Paolo Perrone]], _A Probability Monad as the Colimit of Spaces of Finite Samples_, Theory and applications of Categories 34, 2019. ([arXiv:1712.05363](http://arxiv.org/abs/1712.05363))
 
