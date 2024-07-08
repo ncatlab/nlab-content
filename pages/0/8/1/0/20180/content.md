@@ -1,7 +1,10 @@
-* [Blog](https://zhihahnjia.wordpress.com/author/zhihahnjia/)
+[[!redirects Zhih-Ahn Jia]]
+[[!redirects Zhih-Ahn Jia]]
+[[!redirects Zhian Jia]]
 
-* [Publication list](https://arxiv.org/search/?query=Jia%2C+Zhih-ahn&searchtype=author&abstracts=show&order=-announced_date_first&size=50)
+* [Homepage](https://polyidoit.github.io/jia/index.html)
 
+* [Blog](https://quantumjia.wordpress.com/)
 
 
 category: people
