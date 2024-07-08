@@ -562,6 +562,8 @@ Further discussion:
 
 * {#McDermottUustalu22} [[Dylan McDermott]], [[Tarmo Uustalu]], *What Makes a Strong Monad?*, EPTCS **360** (2022) 113-133 &lbrack;[arXiv:2207.00851](https://arxiv.org/abs/2207.00851), [doi:10.4204/EPTCS.360.6](https://doi.org/10.4204/EPTCS.360.6)&rbrack;
 
+* [[Paolo Perrone]], _Starting Category Theory_, World Scientific, 2024, Chapter 6. ([website](https://www.worldscientific.com/worldscibooks/10.1142/13670))
+
 Formalisation in [[cubical Agda]]:
 
 * {#1Lab} [[1lab]], *[Monoidal monads](https://1lab.dev/Cat.Monoidal.Monad.html)*
