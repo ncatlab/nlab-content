@@ -17,7 +17,7 @@ On [[differential forms]] in [[algebraic topology]]:
 
 On [[Raoul Bott]]:
 
-* [[Loring Tu]]: *[The life and works of Raoul Bott](https://legacy-www.math.harvard.edu/history/bott/bottbio/index.html)* (2002)
+* [[Loring Tu]]: *The life and works of Raoul Bott* (2002) &lbrack;[harvard history](https://legacy-www.math.harvard.edu/history/bott/bottbio/index.html), [celebratio:302](https://celebratio.org/Bott_R/article/302/)&rbrack;
 
 
 On [[differential geometry]] with focus on [[Chern-Weil theory]]:
