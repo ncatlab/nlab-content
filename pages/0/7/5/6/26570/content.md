@@ -15,6 +15,24 @@ $$\mathrm{isSemiDecidable}(P) \coloneqq \exists x \in \mathbb{R}_C.P \iff x \gt 
 
 The [[limited principle of omniscience]] for the [[natural numbers]] $\mathrm{LPO}_\mathbb{N}$ implies that every semi-decidable proposition is a [[decidable proposition]]. 
 
+### In dependent type theory
+
+In dependent type theory, the definition of semi-decidable makes sense for any type, not just the mere propositions. However, like many other definitions in [[dependent type theory]], one has to make sure to use an [[equivalence of types]] instead of [[logical equivalence]] in the definition of a semi-decidable type; this ensures that, like for decidable types, all semi-decidable types are propositions. 
+
+\begin{definition}
+A type $P$ is semi-decidable if [[existential quantifier|there exists]] a [[sequence]] of [[booleans]] $f:\mathbb{N} \to \mathrm{bool}$ such that $P$ is equivalent to that there exists a natural number $x:\mathbb{N}$ such that $f(x) = 1$. 
+
+$$\mathrm{isSemiDecidable}(P) \coloneqq \left[\sum_{f:\mathbb{N} \to \mathrm{bool}} P \simeq \left[ \sum_{x:\mathbb{N}}f(x) =_{\mathrm{bool}} 1\right]\right]$$
+\end{definition}
+
+where $[A]$ is the [[bracket type]] of the type $A$. 
+
+There is also a partially untruncated version of this, which is the type 
+
+$$\sum_{f:\mathbb{N} \to \mathrm{bool}} P \simeq \left[\sum_{x:\mathbb{N}}f(x) =_{\mathrm{bool}} 1\right]$$
+
+of all boolean sequences $f$ for which $P$ is equivalent to there exists a natural number $x:\mathbb{N}$ such that $f(x) = 1$. 
+
 ## Related concepts
 
 * [[decidable proposition]]
@@ -42,3 +60,9 @@ The [[limited principle of omniscience]] for the [[natural numbers]] $\mathrm{LP
 
 [[!redirects semidecidable truth value]]
 [[!redirects semidecidable truth values]]
+
+[[!redirects semi-decidable type]]
+[[!redirects semi-decidable types]]
+
+[[!redirects semidecidable type]]
+[[!redirects semidecidable types]]
