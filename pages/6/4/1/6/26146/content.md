@@ -5,7 +5,20 @@ A Russian-American mathematician. His main works are in combinatorics and algebr
 
 ## Selected works 
 
-* [[Sergey Fomin]], [[Andrei Zelevinsky]], _Cluster algebras. I. Foundations_, J. Amer. Math. Soc. 15 (2002), no. 2, 497--529, [math.RT/0104151 ](https://arxiv.org/abs/math/0104151); _Cluster algebras. II. Finite type classifications._ Invent. Math. 154 (2003), no. 1, 63--121 -- classification of cluster algebras of finite type via root systems [math.RA/0208229](https://arxiv.org/abs/math/0208229), _Cluster algebras, IV: Coefficients_, Compos. Math. __143__ (2007), 112--164, [MR2295199](https://www.ams.org/mathscinet-getitem?mr=2295199) [doi](https://doi.org/10.1112/S0010437X06002521)
+Introducing [[cluster algebras]]:
+
+* {#FominZelevinsky02} [[Sergey Fomin]], [[Andrei Zelevinsky]]: *Cluster algebras I: Foundations*, J. Amer. Math. Soc. **15** 2 (2002) 497-529 &lbrack;[math.RT/0104151 ](http://arxiv.org/abs/math/0104151), [doi:10.1090/S0894-0347-01-00385-X](https://doi.org/10.1090/S0894-0347-01-00385-X)&rbrack; 
+
+* {#FominZelevinsky03} [[Sergey Fomin]], [[Andrei Zelevinsky]]: *Cluster algebras II: Finite type classifications*, Invent. Math. **154** 1 (2003) 63-121 &lbrack;[doi:10.1007/s00222-003-0302-y](https://doi.org/10.1007/s00222-003-0302-y), [arXiv:math/0208229](https://arxiv.org/abs/math/0208229)&rbrack;
+
+* {#BerensteinFominZelevinsky05} [[Arkady Berenstein]], [[Sergey Fomin]], [[Andrei Zelevinsky]]: *Cluster algebras III: Upper bounds and double Bruhat cells*, Duke Math. J. **126** 1  (2005) 1-52 &lbrack;[doi:10.1215/S0012-7094-04-12611-9](https://doi.org/10.1215/S0012-7094-04-12611-9), [arXiv:math/0305434](https://arxiv.org/abs/math/0305434)&rbrack;
+
+* {#FominZelevinsky07} [[Sergey Fomin]], [[Andrei Zelevinsky]]: _Cluster algebras IV: Coefficients_, Compos. Math. __143__ (2007) 112-164 &lbrack;[doi:10.1112/S0010437X06002521](http://dx.doi.org/10.1112/S0010437X06002521), [arXiv:math/0602259](https://arxiv.org/abs/math/0602259), [MR2295199](http://www.ams.org/mathscinet-getitem?mr=2295199)&rbrack;
+
+
+See also:
+
+
 * [[Sergey Fomin]], [[Andrei Zelevinsky]], _[[Y-system]]s and generalized associahedra_, Ann. Math. __158__ 977-1018 (2003) [doi](https://doi.org/10.4007/annals.2003.158.977)
 
 category: people
