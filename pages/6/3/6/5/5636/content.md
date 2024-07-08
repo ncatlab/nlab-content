@@ -93,6 +93,11 @@ A lift of Seiberg-Witten invariants to classes in [[circle group]]-[[equivariant
 
 * Stefan Bauer, _A stable cohomotopy refinement of Seiberg-Witten invariants: II_ &lbrack;[arXiv:math/0204267](https://arxiv.org/abs/math/0204267)&rbrack;
 
+See also:
+
+* Shuhan Jiang, [[Jürgen Jost]]: *Cohomological field theories and generalized Seiberg-Witten equations* &lbrack;[arXiv:2407.04019](https://arxiv.org/abs/2407.04019)&rbrack;
+
+
 
 
 [[!include Seiberg-Witten curve -- references]]
