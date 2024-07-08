@@ -146,6 +146,8 @@ Note that these two expressions are not the same on the nose, they are the same 
 
 * {#Brandenburg2014} [[Martin Brandenburg]], _Tensor categorical foundations of algebraic geometry_ ([arXiv:1410.1716](https://arxiv.org/abs/1410.1716))
 
+* [[Paolo Perrone]], _Starting Category Theory_, World Scientific, 2024, Chapter 6. ([website](https://www.worldscientific.com/worldscibooks/10.1142/13670))
+
 
 [[!redirects commutative monads]]
 
