@@ -112,6 +112,6 @@ Let $n \geq 0$ be an integer. By [[Kan extension | right Kan extension]], the fu
 +-- {: .num_defn}
 ###### Terminology
 
-We refer to $cosk_{n}$ as the _$n$-skeleton_ functor.
+We refer to $cosk_{n}$ as the _$n$-coskeleton_ functor.
 
 =--
