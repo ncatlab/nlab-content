@@ -21,6 +21,10 @@ On [[quantum cohomology rings]]:
 * [[Martin A. Guest]], *Quantum cohomology: is it still relevant?* &lbrack;[arXiv:2210.05413](https://arxiv.org/abs/2210.05413)&rbrack;
 
 
+On [[configuration spaces of points]]:
+
+*  [[Martin A. Guest]], [[Andrzej Kozlowski]], [[Kohhei Yamaguchi]]: *Stability of configuration spaces of positive and negative particles* (2020?) &lbrack;[pdf](https://www.mimuw.edu.pl/~akoz/topology/GKYPDF/GKY5.pdf), [[GuestKozlowskiYamaguchi-Stability.pdf:file]]&rbrack;
+
 
 category: people
 
