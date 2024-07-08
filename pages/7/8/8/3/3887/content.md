@@ -117,6 +117,11 @@ Conformal blocks for [[Liouville theory]]:
 
 * [[Xia Gu]], [[Babak Haghighat]], [[Kevin Loo]], *Irregular Fibonacci Conformal Blocks* &lbrack;[arXiv:2311.13358](https://arxiv.org/abs/2311.13358)&rbrack;
 
+See also:
+
+* Qianyu Hao, [[Andrew Neitzke]]: *A new construction of $c=1$ Virasoro blocks* &lbrack;[arXiv:2407.04483](https://arxiv.org/abs/2407.04483)&rbrack;
+
+
 
 ### Relation to theta functions
 
