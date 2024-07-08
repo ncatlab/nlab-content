@@ -1,8 +1,8 @@
-**Raoul Bott** (1923--2005) was one of the great 20th century topologists and geometers. Among his famous works, one should mention the [[Bott periodicity theorem]] (of importance in [[K-theory]]), studies in [[Morse theory]] (including the study of Bott--Morse functions), the Borel--Weil--Bott theorem in geometric representation theory, the study of fixed point (localization) formulas (the Atiyah--Bott fixed point theorem) and the Atiyah-Bott-Patodi slick proof of the index theorem via the heat kernel expansion. 
+**Raoul Bott** (1923--2005) was one of the great 20th century [[topology|topologists]] and [[geometry|geometers]]. Among his famous works, one should mention the [[Bott periodicity theorem]] (of importance in [[K-theory]]), studies in [[Morse theory]] (including the study of Bott--Morse functions), the Borel--Weil--Bott theorem in geometric representation theory, the study of fixed point (localization) formulas (the Atiyah--Bott fixed point theorem) and the Atiyah-Bott-Patodi slick proof of the index theorem via the heat kernel expansion. 
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Raoul_Bott)
 
-* [[Loring Tu]]: *[The life and works of Raoul Bott](https://legacy-www.math.harvard.edu/history/bott/bottbio/index.html)* (2002)
+* [[Loring Tu]]: *The life and works of Raoul Bott* (2002) &lbrack;[harvard history](https://legacy-www.math.harvard.edu/history/bott/bottbio/index.html), [celebratio:302](https://celebratio.org/Bott_R/article/302/)&rbrack;
 
 * [[Michael Atiyah]]: *[Raoul Harry Bott: 24 September 1923 – 20 December 2005](https://celebratio.org/Bott_R/article/296/)*, Celebratio Mathematica (2007)
 
@@ -26,6 +26,14 @@ Introducing [[Bott periodicity]]:
 Introducing the [[Atiyah-Bott-Shapiro orientation]] [[MSpin]]$\to$[[KO]] and [[MSpin^c|MSpin<sup><i>c</i></sup>]]$\to$[[KU]]:
 
 * {#AtiyahBottShapiro64} [[Michael Atiyah]], [[Raoul Bott]], [[Arnold Shapiro]], _Clifford modules_, Topology Volume 3, Supplement 1, July 1964, Pages 3-38 (<a href="https://doi.org/10.1016/0040-9383(64)90003-5">doi:10.1016/0040-9383(64)90003-5</a>, [pdf](http://dell5.ma.utexas.edu/users/dafr/Index/ABS.pdf))
+
+Introducing the [[Atiyah-Bott fixed point theorem]]:
+
+* [[Michael F. Atiyah]], [[Raoul Bott]]: *A Lefschetz fixed point formula for elliptic differential operators*, Bull. Amer. Math. Soc. **72** (1966) 245-250 &lbrack;[doi:10.1090/S0002-9904-1966-11483-0](https://doi.org/10.1090/S0002-9904-1966-11483-0), [pdf](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-72/issue-2/A-Lefschetz-fixed-point-formula-for-elliptic-differential-operators/bams/1183527784.pdf)&rbrack;
+
+* [[Michael F. Atiyah]], [[Raoul Bott]]: *A Lefschetz Fixed Point Formula for Elliptic Complexes: I*, Annals of Mathematics **86** 2 (1967) 374-407 &lbrack;[doi:10.2307/1970694](https://doi.org/10.2307/1970694), [jstor:1970694](https://www.jstor.org/stable/1970694)&rbrack;
+
+
 
 On [[topological K-theory]]:
 
