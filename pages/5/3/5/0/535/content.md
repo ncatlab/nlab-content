@@ -68,6 +68,9 @@ Discussion in [[relativistic field theory]] and [[quantum gravity]]:
 
 * [[Steven Carlip]], *Causal Sets and an Emerging Continuum* &lbrack;[arXiv:2405.14059](https://arxiv.org/abs/2405.14059)&rbrack;
 
+* Heidar Moradi, Yasaman K. Yazdi, Miguel Zilhão: *Fluctuations and Correlations in Causal Set Theory* &lbrack;[arXiv:2407.03395](https://arxiv.org/abs/2407.03395)&rbrack;
+
+
 
 See also:
 
