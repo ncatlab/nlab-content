@@ -56,16 +56,24 @@ According to ([Dwyer-Kan 80, prop. 3.7, prop. 9.2, remark 9.7](#DwyerKan80)) thi
 
 ## References
 
-Classical accounts include
+Classical accounts:
 
-* {#Quillen71} [[Daniel Quillen]], _On the group completion of a simplicial monoid_ [pdf](http://www.maths.ed.ac.uk/~aar/papers/quillencomp.pdf), MIT preprint 1971, Memoirs of the AMS vol 529, 1994, pp. 89-105
+* {#BarrattPriddy72} [[Michael Barratt]], [[Stewart Priddy]], *On the homology of non-connected monoids and their associated groups*, Commentarii Mathematici Helvetici, **47** 1 (1972) 1–14 &lbrack;[doi:10.1007/BF02566785](https://link.springer.com/article/10.1007/BF02566785), [eudml:139496](https://eudml.org/doc/139496)&rbrack;
 
-* {#May} [[Peter May]], _$E_\infty$-Spaces, group completions, and permutative categories_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf))
+  > (on the [[Pontrjagin ring]]-structure under group completion of [[topological monoids]])
 
-* {#DwyerKan80} [[William Dwyer]], [[Daniel Kan]], _Simplicial localization of categories_, Journal of pure and applied algebra 17 (1980) 267-284
+* {#Quillen71} [[Daniel Quillen]], _On the group completion of a simplicial monoid_, MIT preprint 1971, Memoirs of the AMS **529** (1994) 89-105 &lbrack;[pdf](http://www.maths.ed.ac.uk/~aar/papers/quillencomp.pdf)&rbrack;
+
+* {#May} [[Peter May]], *$E_\infty$-Spaces, group completions, and permutative categories*, in: *New Developments in Topology*, Cambridge University Press (1974) 61-94  &lbrack;[doi:10.1017/CBO9780511662607.008](https://doi.org/10.1017/CBO9780511662607.008), [pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf)&rbrack;
+
+* [[Dusa McDuff]], [[Graeme Segal]]: *Homology fibrations and the “group-completion” theorem*, Inventiones mathematicae **31** (1976) 279-284 &lbrack;[doi:10.1007/BF01403148](https://doi.org/10.1007/BF01403148)&rbrack;
+
+  > (on the [[Pontrjagin ring]]-structure under group completion of [[topological monoids]])
+
+* {#DwyerKan80} [[William Dwyer]], [[Daniel Kan]], _Simplicial localization of categories_, Journal of pure and applied algebra **17** (1980) 267-284
 
 
-$\infty$-Group completion is discussed in
+Discussion of $\infty$-group completion:
 
 * {#BunkeTamme12} [[Ulrich Bunke]], [[Georg Tamme]], section 2.1 of _Regulators and cycle maps in higher-dimensional differential algebraic K-theory_ ([arXiv:1209.6451](http://arxiv.org/abs/1209.6451))
 
@@ -73,9 +81,9 @@ $\infty$-Group completion is discussed in
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], def. 6.1 in  _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
-and specifically its monoidal properties in 
+and specifically its monoidal properties:
 
-* {#GepnerGrothNikolaus13} [[David Gepner]], [[Moritz Groth]], [[Thomas Nikolaus]], _Universality of multiplicative infinite loop space machines_, [arXiv:1305.4550](http://arxiv.org/abs/1305.4550).
+* {#GepnerGrothNikolaus13} [[David Gepner]], [[Moritz Groth]], [[Thomas Nikolaus]], _Universality of multiplicative infinite loop space machines_ &lbrack;[arXiv:1305.4550](http://arxiv.org/abs/1305.4550)&rbrack;
 
 
 [[!redirects group completions]]
