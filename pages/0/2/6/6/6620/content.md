@@ -1,6 +1,6 @@
-J&#252;rgen Jost is an applied mathematician at Max Planck for Mathematics in Natural Science in Leipzig, studying geometry, the calculus of variations and geometric analysis, dynamical systems, cognitive and neural systems, theoretical and mathematical biology, economic and social systems, history of science and philosophy, graphs and networks and system theory.
+J&#252;rgen Jost is an applied mathematician at the  Max Planck Institute for Mathematics in Natural Science in Leipzig, studying [[string theory]], [[geometry]], the [[calculus of variations]] and [[geometric analysis]], [[dynamical systems]], cognitive and neural systems, theoretical and mathematical [[biology]], economic and social systems, history of science and philosophy, graphs and networks and system theory.
 
-* [publications](http://www.mis.mpg.de/de/jjost/publikationen)
+* [list of publications](http://www.mis.mpg.de/de/jjost/publikationen)
 
 ## Selected writings
 
@@ -11,6 +11,10 @@ On the [[Polyakov action]] and [[bosonic strings]]:
 On [[Riemannian geometry]] and [[geometric analysis]]:
 
 * [[Jürgen Jost]], *Riemannian Geometry and Geometric Analysis*, Springer (2017) &lbrack;[doi:10.1007/978-3-319-61860-9](https://doi.org/10.1007/978-3-319-61860-9)&rbrack;
+
+On [[Seiberg-Witten theory]]:
+
+* Shuhan Jiang, [[Jürgen Jost]]: *Cohomological field theories and generalized Seiberg-Witten equations* &lbrack;[arXiv:2407.04019](https://arxiv.org/abs/2407.04019)&rbrack;
 
 
 [[!redirects Juergen Jost]]
