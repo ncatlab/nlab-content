@@ -35,6 +35,19 @@ By Prop. \ref{LawvereIntervalIsFibrant} below, the Lawvere interval $\mathfrak{L
 
 
 ## Properties
+The Lawvere cylinder is universal in the sense that any $L$-homotopy lifts to a homotopy for any other good [[cylinder object]].
+\begin{proposition}
+Let $A$ be an object of a topos. Given a diagram
+$$
+A \amalg A \stackrel{(\delta^0, \delta^1)}{\to} C \stackrel{\sigma}{\to} A
+$$
+where the copies of $A$ are disjoint subobjects of $C$ splitting $\sigma$, then there is a morphism of cylinders $C \to L \times A$.
+\end{proposition}
+\begin{proof} 
+  Let $\chi^i : C \to L$ be the characteristic function for $\delta^i$. That the copies of $A$ are disjoint subobjects implies $\chi^0 \leq \neg \chi^1$, and so $\chi^0 \vee \chi^1 \leq\chi^1 \vee \neg \chi^1$.
+
+  Since $x \mapsto x \vee \neg x$ is the characteristic function of $\lambda : 1 \amalg 1 \to L$, the morphism $(\chi^1, \sigma) : C \to L \times A$ pulls $A \times \lambda$ back to a subobject containing $\delta$. Compatibility with $\sigma$ is obvious, and so it is a morphism of cylinder objects.
+\end{proof}
 
 \begin{proposition}
 \label{LawvereIntervalIsFibrant}
