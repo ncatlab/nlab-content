@@ -10,7 +10,6 @@ His most important works include works in [[sheaf]]-, [[fibred category]]-, and 
 * [list of publications](http://science.mq.edu.au/~street/Publications.html)
 
 
-
 On [[lax functors]]:
 
 * R. Street, _Two constructions on lax functors_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 13 (1972) no. 3 , p. 217-264 [numdam](http://www.numdam.org/item?id=CTGDC_1972__13_3_217_0 )
@@ -71,9 +70,14 @@ On [[Frobenius monads]]:
 * [[Ross Street]], *Frobenius monads and pseudomonoids*, J. Math. Phys. **45** 3930 (2004) &lbrack;[doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852)&rbrack;
 
 
-An attempt to fomulate [[descent]] theory using [[strict omega-categories]]:
+An attempt to formulate [[descent]] theory using [[strict omega-categories]]:
 
 * Ross Street, _Categorical and combinatorial aspects of descent theory_, Applied Categorical Structures 12, 537--576 (2004) [doi](https://doi.org/10.1023/B:APCS.0000049317.24861.36)
+
+Introducing [[skew-closed categories]]:
+
+* [[Ross Street]], *Skew-closed categories*, Journal of Pure and Applied Algebra **217** 6 (2013) 973-988 &lbrack;[arXiv:1205.6522](https://arxiv.org/abs/1205.6522), [doi:10.1016/j.jpaa.2012.09.020](https://doi.org/10.1016/j.jpaa.2012.09.020)&rbrack;
+
 
 
 Further:
@@ -354,8 +358,6 @@ On [[monoidal categories]]:
 * [[Ross Street]], _Categories in categories, and size matters_, Higher Structures, Vol. 1, No. 1, 2017, pp. 225-270. &lbrack;[pdf](https://higher-structures.math.cas.cz/api/files/issues/Vol1Iss1/Street)&rbrack;
 
 * [[Stephen Lack]] and [[Ross Street]], _Skew monoidales, skew warpings and quantum categories_, Theory and Applications of Categories, Vol. 26, No. 15, 2012, pp. 385-402. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/26/15/26-15abs.html)&rbrack;
-
-* [[Ross Street]], _Skew-closed categories_, Journal of Pure and Applied Algebra, Vol. 217, No. 6, 2013, pp. 973-988. &lbrack;[doi:10.1016/j.jpaa.2012.09.020](https://doi.org/10.1016/j.jpaa.2012.09.020)&rbrack;
 
 * [[Stephen Lack]] and [[Ross Street]], _A Skew-Duoidal Eckmann-Hilton Argument and Quantum Categories_, Applied Categorical Structures, Vol. 22, 2014, pp. 789–803. &lbrack;[doi:10.1007/s10485-013-9356-1](https://doi.org/10.1007/s10485-013-9356-1)&rbrack;
 
