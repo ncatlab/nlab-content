@@ -1,15 +1,29 @@
-# Lax monoidal categories
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
+# Contents
 * table of contents
 {:toc}
 
 ## Idea
 
-A *lax monoidal category* is a [[monoidal category]] in which the associativity and unitality isomorphisms are replaced by not-necessarily-invertible transformations.  An *oplax monoidal category* is similar except that the transformations go in the other direction.
+A *lax monoidal category* is a [[monoidal category]] in which the [[associator]]- and [[unitor]]-[[natural transformation|transformations]] are not required to be [[invertible morphism|invertible]], i.e. are not required to be [[natural isomorphisms]] (as they are for ordinary [[monoidal categories]]).  
+
+In this case there needs to be made a choice in which direction these structure morphisms go. The the opposite of the "evident" direction pne speaks of *oplac monoidal categories*.
 
 ## Overview of variations
 
-For ordinary monoidal categories, the [[biased]] and unbiased definitions coincide up to equivalence (though this is a nontrivial coherence theorem), but in the lax and oplax cases this is no longer true.  Moreover, in the biased cases we can make independent choices of the directions of various of the morphisms.  This yields the following variations (in all cases we omit the coherence axioms for now):
+For ordinary monoidal categories, the [[biased]] and unbiased definitions coincide up to equivalence (though this is a nontrivial [[coherence theorem]]), but in the lax and oplax cases this is no longer true.  Moreover, in the biased cases we can make independent choices of the directions of various of the morphisms.  This yields the following variations (in all cases we omit the coherence axioms for now):
 
 * An **unbiased lax monoidal category** has $n$-ary tensor products $(a_1\otimes \cdots\otimes a_n)$ for all $n\ge 0$, including a 0-ary unit $I = ()$, and generalized associativity maps such as
 
@@ -95,19 +109,32 @@ First note that all kinds of lax monoidal categories can be generalized to **lax
 
 ## References
 
-* Kornel Szlachányi, _Skew-monoidal categories and bialgebroids_, Advances in Mathematics 231.3-4 (2012): 1694-1730.
+The original definition (and first examples) of skew-monoidal categories:
+
+* {#Szlachányi12} [[Kornél Szlachányi]], *Skew-monoidal categories and bialgebroids*, Advances in Mathematics **231** 3-4 (2012) 1694-1730 &lbrack;[arXiv:1201.4981](https://arxiv.org/abs/1201.4981), [doi:10.1016/j.aim.2012.06.027](https://doi.org/10.1016/j.aim.2012.06.027)&rbrack;
+
+and the dual notion of skew-[[closed categories]]:
+
+* [[Ross Street]], *Skew-closed categories*, Journal of Pure and Applied Algebra **217** 6 (2013) 973-988 &lbrack;[arXiv:1205.6522](https://arxiv.org/abs/1205.6522), [doi:10.1016/j.jpaa.2012.09.020](https://doi.org/10.1016/j.jpaa.2012.09.020)&rbrack;
+
+
+See also:
 
 * [[John Bourke]], [[Stephen Lack]], _Skew monoidal categories and skew multicategories_, Journal of Algebra **506** (2018), 237-266. &lbrack;[arXiv:1708.06088](https://arxiv.org/abs/1708.06088), [doi:10.1016/j.jalgebra.2018.02.039](https://doi.org/10.1016/j.jalgebra.2018.02.039)&rbrack;
 
+Examples of skew-closed monoidal structures on [[model categories]] which become monoidal on the [[homotopy category of a model category|homotopy category]]:
+
+* [[John Bourke]], *Skew structures in 2-category theory and homotopy theory*, J. Homotopy Relat. Struct. **12** 1 (2017) 31-81 &lbrack;[arXiv:1510.01467](https://arxiv.org/abs/1510.01467), [doi:10.1007/s40062-015-0121-z](https://doi.org/10.1007/s40062-015-0121-z)&rbrack;
+
 Skew monoidal closed structures on the category of [[Gray categories]] are considered in:
 
-* [[John Bourke]], [[Gabriele Lobbia]], _A skew approach to enrichment for Gray-categories_, Advances in Mathematics volume 434 (2023). &lbrack;[arXiv:2212.12358](https://arxiv.org/abs/2212.12358), [doi.org/10.1016/j.aim.2023.109327](https://doi.org/10.1016/j.aim.2023.109327)&rbrack;
+* [[John Bourke]], [[Gabriele Lobbia]], _A skew approach to enrichment for Gray-categories_, Advances in Mathematics **434** (2023) &lbrack;[arXiv:2212.12358](https://arxiv.org/abs/2212.12358), [doi.org/10.1016/j.aim.2023.109327](https://doi.org/10.1016/j.aim.2023.109327)&rbrack;
 
 Lax monoidal categories are called **multitensors** in:
 
-* [[Michael Batanin]] and [[Mark Weber]], _Algebras of higher operads as enriched categories_, Applied Categorical Structures 19 (2011): 93-135.
+* [[Michael Batanin]], [[Mark Weber]]: _Algebras of higher operads as enriched categories_, Applied Categorical Structures **19** (2011) 93-135 &lbrack;[arXiv:0803.3594](https://arxiv.org/abs/0803.3594)&rbrack;
 
-* {#LS14} [[Stephen Lack]] and [[Ross Street]], _On monads and warpings_, Cahiers de topologie et géométrie différentielle, Vol. 55, No. 4, 2014, pp. 244-266. &lbrack;[pdf](http://cahierstgdc.com/wp-content/uploads/2017/05/LackStreet_55-4.pdf)&rbrack;
+* {#LS14} [[Stephen Lack]], [[Ross Street]]: _On monads and warpings_, [[Cahiers]] de topologie et géométrie différentielle **55** 4 (2014) 244-266. &lbrack;[pdf](http://cahierstgdc.com/wp-content/uploads/2017/05/LackStreet_55-4.pdf)&rbrack;
 
 [[!redirects lax monoidal category]]
 [[!redirects unbiased lax monoidal category]]
@@ -165,3 +192,17 @@ Lax monoidal categories are called **multitensors** in:
 
 [[!redirects multitensor]]
 [[!redirects multitensors]]
+
+
+[[!redirects skew-closed category]]
+[[!redirects skew-closed categories]]
+[[!redirects skew closed category]]
+[[!redirects skew closed categories]]
+
+[[!redirects lax-closed category]]
+[[!redirects lax-closed categories]]
+[[!redirects lax closed category]]
+[[!redirects lax closed categories]]
+
+
+
