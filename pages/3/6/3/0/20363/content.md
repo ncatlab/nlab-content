@@ -82,7 +82,7 @@ Several different [[sites]] can be used to define [[condensed sets]], and, more 
 
 * [[compact Hausdorff spaces]];
 
-* [[Stone spaces]] (compact Hasdorff [[totally disconnected spaces]]);
+* [[Stone spaces]] (compact Hausdorff [[totally disconnected spaces]]);
 
 * [[Stonean spaces]] (compact Hausdorff [[extremally disconnected spaces]]).
 
