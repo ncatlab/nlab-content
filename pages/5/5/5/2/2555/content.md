@@ -64,6 +64,8 @@ If $C$ has the structure of a [[model category]] then "nice" means that $X \copr
 
   In $Top_{Quillen}$ a sufficient condition for the standard cylinder $X\times I$ to be good is that $X$ is a [[CW-complex]].
 
+* In any [[elementary topos]], the [[Lawvere cylinder]] is a sort of minimal [[cylinder functor]] 
+
 ## Related concepts
 
 * [[cylinder functor]]
