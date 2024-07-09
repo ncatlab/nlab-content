@@ -17,9 +17,9 @@
 
 ## Idea
 
-A *lax monoidal category* is a [[monoidal category]] in which the [[associator]]- and [[unitor]]-[[natural transformation|transformations]] are not required to be [[invertible morphism|invertible]], i.e. are not required to be [[natural isomorphisms]] (as they are for ordinary [[monoidal categories]]).  
+A *lax monoidal category* or *skew monoidal category* &lbrack;[Szlachányi 2012](#Szlachányi12)&rbrack; is a [[monoidal category]] in which the [[associator]]- and [[unitor]]-[[natural transformation|transformations]] are not required to be [[invertible morphism|invertible]], i.e. are not required to be [[natural isomorphisms]] (as they are for ordinary [[monoidal categories]]).  
 
-In this case there needs to be made a choice in which direction these structure morphisms go. The the opposite of the "evident" direction pne speaks of *oplac monoidal categories*.
+In this case there needs to be made a choice in which direction these structure morphisms go. For the opposite of the "evident" direction one speaks of *oplax* monoidal categories.
 
 ## Overview of variations
 
