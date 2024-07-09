@@ -113,19 +113,7 @@ and so the uniqueness of subobject classifying maps implies that the total botto
 
 
 
-+-- {: .un_prop}
-###### Proposition
-
-Given any [[small set]] of monomorphisms in $Psh(A)$, there exists the smallest [[Cisinski model structure]] for which those monomorphisms are [[acyclic cofibrations]]. 
-
-=--
-
-By applying a theorem of [[Denis-Charles Cisinski]]. (...)
-
-
-## Examples
-
-Suppose $A=\Delta$ is the [[simplex category]], and  let $S$ consist only of the inclusion $\{1\}:\Delta^0\to\Delta^1$. Applying Cisinski's anodyne completion of $S$ by Lawvere's cylinder $\mathbf{\Lambda}_\mathfrak{L}(S,M)$, we get exactly the [[model structure for right fibrations|contravariant model structure]] on the category of simplicial sets.   
+ 
 
 ## References
 
