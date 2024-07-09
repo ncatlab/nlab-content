@@ -72,6 +72,11 @@ Classical accounts:
 
 * {#DwyerKan80} [[William Dwyer]], [[Daniel Kan]], _Simplicial localization of categories_, Journal of pure and applied algebra **17** (1980) 267-284
 
+and specifically concerning [[configuration spaces of points]]:
+
+* {#Segal73} [[Graeme Segal]], *Configuration-spaces and iterated loop-spaces*, Invent. Math. **21** (1973) 213-221  &lbrack;[doi:10.1007/BF01390197](https://doi.org/10.1007/BF01390197), [pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf), MR 0331377&rbrack;
+
+* [[Kazuhisa Shimakawa]]: *Labeled configuration spaces and group completions*, Forum Mathematicum (2007) 353-364 &lbrack;[doi:10.1515/FORUM.2007.014](https://doi.org/10.1515/FORUM.2007.014), [[Shimakawa-ConfigGroupCompletion.pdf:file]]&rbrack;
 
 Discussion of $\infty$-group completion:
 
