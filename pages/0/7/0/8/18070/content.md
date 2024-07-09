@@ -1592,17 +1592,17 @@ Generalization of these constructions and results is due to
 
 * {#ManthorpeTillmann} Richard Manthorpe, [[Ulrike Tillmann]], _Tubular configurations: equivariant scanning and splitting_, Journal of the London Mathematical Society, Volume 90, Issue 3 ([arxiv:1307.5669](https://arxiv.org/abs/1307.5669), [doi:10.1112/jlms/jdu050](https://doi.org/10.1112/jlms/jdu050))
 
-* J. Caruso, [[Stefan Waner]]: *An Approximation to $\Omega^n \Sigma^n X$*, Transactions of the American Mathematical Society **265** 1 (1981) 147-162 &lbrack;[doi:10.2307/1998487](https://doi.org/10.2307/1998487), [jstor:1998487](https://www.jstor.org/stable/1998487), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/caruso1.pdf)&rbrack;
+* {#CarusoWaner81} J. Caruso, [[Stefan Waner]]: *An Approximation to $\Omega^n \Sigma^n X$*, Transactions of the American Mathematical Society **265** 1 (1981) 147-162 &lbrack;[doi:10.2307/1998487](https://doi.org/10.2307/1998487), [jstor:1998487](https://www.jstor.org/stable/1998487), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/caruso1.pdf)&rbrack;
 
 * {#CarusoWaner85} J. Caruso, [[Stefan Waner]]: *An approximation theorem for equivariant loop spaces in the compact Lie case*,  Pacific J. Math. **117** 1 (1985) 27-49 &lbrack;[euclid:pjm/1102706926](https://projecteuclid.org/journals/pacific-journal-of-mathematics/volume-117/issue-1/An-approximation-theorem-for-equivariant-loop-spaces-in-the-compact/pjm/1102706926.full)&rbrack;
 
-* [[Shingo Okuyama]]: *A simple solution for a group completion problem*, Trends in Mathematics **7** 1 (2004) 69-74 &lbrack;[pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9cdd95b10437b020b32e911934215eb398fbc411), [[Okuyama-GroupCompletion.pdf:file]]&rbrack;
+* {#Okuyama04} [[Shingo Okuyama]]: *A simple solution for a group completion problem*, Trends in Mathematics **7** 1 (2004) 69-74 &lbrack;[pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9cdd95b10437b020b32e911934215eb398fbc411), [[Okuyama-GroupCompletion.pdf:file]]&rbrack;
 
-* [[Shingo Okuyama]]: *The space of intervals in a Euclidean space*, Algebr. Geom. Topol. **5** (2005) 1555-1572 &lbrack;[arXiv:math/0511645](https://arxiv.org/abs/math/0511645), [doi:10.2140/agt.2005.5.1555](https://doi.org/10.2140/agt.2005.5.1555)&rbrack;
+* {#Okuyama05} [[Shingo Okuyama]]: *The space of intervals in a Euclidean space*, Algebr. Geom. Topol. **5** (2005) 1555-1572 &lbrack;[arXiv:math/0511645](https://arxiv.org/abs/math/0511645), [doi:10.2140/agt.2005.5.1555](https://doi.org/10.2140/agt.2005.5.1555)&rbrack;
 
 * [[Kazuhisa Shimakawa]]: *Labeled configuration spaces and group completions*, Forum Mathematicum (2007) 353-364 &lbrack;[doi:10.1515/FORUM.2007.014](https://doi.org/10.1515/FORUM.2007.014), [[Shimakawa-ConfigGroupCompletion.pdf:file]]&rbrack;
 
-* [[Shingo Okuyama]], [[Kazuhisa Shimakawa]], _Interactions of strings and equivariant homology theories_, Geom. Topol. Monogr. **10** (2007) 333-346 &lbrack;[arXiv:0903.4667](https://arxiv.org/abs/0903.4667), [doi:10.2140/gtm.2007.10.333](https://doi.org/10.2140/gtm.2007.10.333)&rbrack;
+* {#OkuyamaShimakawa07} [[Shingo Okuyama]], [[Kazuhisa Shimakawa]], _Interactions of strings and equivariant homology theories_, Geom. Topol. Monogr. **10** (2007) 333-346 &lbrack;[arXiv:0903.4667](https://arxiv.org/abs/0903.4667), [doi:10.2140/gtm.2007.10.333](https://doi.org/10.2140/gtm.2007.10.333)&rbrack;
 
 
 
