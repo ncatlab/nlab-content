@@ -412,6 +412,8 @@ A weakly cohesive topos $\mathcal{E}$ is sufficiently cohesive iff $\mathcal{E}$
 
 * [[quality type]]
 
+* [[Lawvere interval]]
+
 * [[connected object]]
 
 * [[injective object]]
