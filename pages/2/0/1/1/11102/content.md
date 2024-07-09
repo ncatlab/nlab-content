@@ -7,6 +7,11 @@ A variation of the [[configuration space of points]]-model by [McDuff 1975](conf
 
 * J. Caruso, [[Stefan Waner]]: *An Approximation to $\Omega^n \Sigma^n X$*, Transactions of the American Mathematical Society **265** 1 (1981) 147-162 &lbrack;[doi:10.2307/1998487](https://doi.org/10.2307/1998487), [jstor:1998487](https://www.jstor.org/stable/1998487), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/caruso1.pdf)&rbrack;
 
+and its [[equivariant homotopy theory|equivariant]] generalization for [[compact Lie group|compact Lie]] [[equivariance groups]]:
+
+* {#CarusoWaner85} J. Caruso, [[Stefan Waner]]: *An approximation theorem for equivariant loop spaces in the compact Lie case*,  Pacific J. Math. **117** 1 (1985) 27-49 &lbrack;[euclid:pjm/1102706926](https://projecteuclid.org/journals/pacific-journal-of-mathematics/volume-117/issue-1/An-approximation-theorem-for-equivariant-loop-spaces-in-the-compact/pjm/1102706926.full)&rbrack;
+
+
 
 On the [[Adams conjecture]]:
 
