@@ -1594,9 +1594,16 @@ Generalization of these constructions and results is due to
 
 * J. Caruso, [[Stefan Waner]]: *An Approximation to $\Omega^n \Sigma^n X$*, Transactions of the American Mathematical Society **265** 1 (1981) 147-162 &lbrack;[doi:10.2307/1998487](https://doi.org/10.2307/1998487), [jstor:1998487](https://www.jstor.org/stable/1998487), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/caruso1.pdf)&rbrack;
 
-* Shingo Okuyama: *A simple solution for a group completion problem*, Trends in Mathematics **7** 1 (2004) 69-74 &lbrack;[pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9cdd95b10437b020b32e911934215eb398fbc411), [[Okuyama-GroupCompletion.pdf:file]]&rbrack;
+* {#CarusoWaner85} J. Caruso, [[Stefan Waner]]: *An approximation theorem for equivariant loop spaces in the compact Lie case*,  Pacific J. Math. **117** 1 (1985) 27-49 &lbrack;[euclid:pjm/1102706926](https://projecteuclid.org/journals/pacific-journal-of-mathematics/volume-117/issue-1/An-approximation-theorem-for-equivariant-loop-spaces-in-the-compact/pjm/1102706926.full)&rbrack;
 
-* Shingo Okuyama: *The space of intervals in a Euclidean space*, Algebr. Geom. Topol. **5** (2005) 1555-1572 &lbrack;[arXiv:math/0511645](https://arxiv.org/abs/math/0511645), [doi:10.2140/agt.2005.5.1555](https://doi.org/10.2140/agt.2005.5.1555)&rbrack;
+* [[Shingo Okuyama]]: *A simple solution for a group completion problem*, Trends in Mathematics **7** 1 (2004) 69-74 &lbrack;[pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9cdd95b10437b020b32e911934215eb398fbc411), [[Okuyama-GroupCompletion.pdf:file]]&rbrack;
+
+* [[Shingo Okuyama]]: *The space of intervals in a Euclidean space*, Algebr. Geom. Topol. **5** (2005) 1555-1572 &lbrack;[arXiv:math/0511645](https://arxiv.org/abs/math/0511645), [doi:10.2140/agt.2005.5.1555](https://doi.org/10.2140/agt.2005.5.1555)&rbrack;
+
+* [[Kazuhisa Shimakawa]]: *Labeled configuration spaces and group completions*, Forum Mathematicum (2007) 353-364 &lbrack;[doi:10.1515/FORUM.2007.014](https://doi.org/10.1515/FORUM.2007.014), [[Shimakawa-ConfigGroupCompletion.pdf:file]]&rbrack;
+
+* [[Shingo Okuyama]], [[Kazuhisa Shimakawa]], _Interactions of strings and equivariant homology theories_, Geom. Topol. Monogr. **10** (2007) 333-346 &lbrack;[arXiv:0903.4667](https://arxiv.org/abs/0903.4667), [doi:10.2140/gtm.2007.10.333](https://doi.org/10.2140/gtm.2007.10.333)&rbrack;
+
 
 
 Generalization to [[equivariant homotopy theory]]:
@@ -1613,6 +1620,9 @@ partly based on
 
 * [[Graeme Segal]], *Some results in equivariant homotopy theory* (1978) &lbrack;scan: [web](https://homepages.warwick.ac.uk/~maaac/segal.html), [[Segal-EquivariantHT.pdf:file]]&rbrack;
 
+and generalization to [[compact Lie groups]]:
+
+* [Caruso & Waner 1985](#CarusoWaner85)
 
 The relevant construction for the [[group completion]] of the configuration space
 
@@ -1636,7 +1646,7 @@ See also
 * {#Kallel98} [[Sadok Kallel]], _Spaces of particles on manifolds and Generalized Poincaré Dualities_, The Quarterly Journal of Mathematics, Volume 52, Issue 1, 1 March 2001 ([doi:10.1093/qjmath/52.1.45](https://doi.org/10.1093/qjmath/52.1.45)) 
 
 
-* Shingo Okuyama, Kazuhisa Shimakawa, _Interactions of strings and equivariant homology theories_, ([arXiv:0903.4667](https://arxiv.org/abs/0903.4667))
+* [[Shingo Okuyama]], [[Kazuhisa Shimakawa]], _Interactions of strings and equivariant homology theories_, Geom. Topol. Monogr. **10** (2007) 333-346 &lbrack;[arXiv:0903.4667](https://arxiv.org/abs/0903.4667), [doi:10.2140/gtm.2007.10.333](https://doi.org/10.2140/gtm.2007.10.333)&rbrack;
 
 For relation to [[instantons]] via [[topological Yang-Mills theory]]:
 
