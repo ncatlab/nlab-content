@@ -43,7 +43,7 @@ called *[[extension of scalars]]*, since for an $R$-module $M$ and an $R$-module
 
 Not only is restriction of scalars a right adjoint, it is also a [[monadic functor]].  This can be shown using the [[monadicity theorem]] or by direct computation.
 
-Furthermore, not only is restriction scalars a right adjoint, it is also a left adjoint.  That is, it has a right adjoint of its own, called [[coextension of scalars]]:
+Furthermore, not only is restriction of scalars a right adjoint, it is also a left adjoint.  That is, it has a right adjoint of its own, called [[coextension of scalars]]:
 
 $$
   f_* \; \coloneqq\;
