@@ -219,7 +219,7 @@ The CSB property holds in the category of [[Archimedean ordered fields]] and [[r
 
 +-- {: .num_example #preorder} 
 ###### Example 
-More generally, the CSB property holds in any [[partial order]] and in any [[preorder]] (i.e. [[thin category]]). 
+More generally, the CSB property holds in any [[partial order]] (i.e. [[thin category|thin]] [[gaunt category]]). 
 =--
 
 +-- {: .num_example #model} 
