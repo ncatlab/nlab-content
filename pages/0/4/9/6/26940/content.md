@@ -102,10 +102,26 @@ The LPO for natural numbers, the $\mathbb{R}_C$-analytic LPO, and the $\mathbb{R
 We showed that the the $\mathbb{R}_C$-analytic LPO implies the LPO for natural numbers, that the $\mathbb{R}_\Sigma$-analytic LPO implies the $\mathbb{R}_C$-analytic LPO, and the LPO for natural numbers implies the $\mathbb{R}_\Sigma$-analytic LPO. By transitivity of implication, the converses also hold, so all three statements are equivalent to each other. 
 \end{proof}
 
+\begin{theorem}
+Suppose that there is an Archimedean ordered field $R$ which is a [[field extension]] of the [[Cauchy real numbers]] $\mathbb{R}_C$. Then the analytic LPO for $R$ implies that $R$ is equivalent to $\mathbb{R}_C$ and $\mathbb{R}_\Sigma$.
+\end{theorem}
+
+\begin{proof}
+Analytic LPO for $R$ implies the LPO for natural numbers, which implies that $\mathbb{R}_C$ is equivalent to $\mathbb{R}_\Sigma$. Theorem 11.2.14 in [UFP 2013](#UFP13) states that given the initial $\sigma$-frame $\Sigma$, every Archimedean ordered field which is admissible for $\Sigma$ is a subfield of $\mathbb{R}_\Sigma$. The LPO for natural numbers implies the initial $\sigma$-frame is the boolean domain, which means that analytic LPO for $R$ implies that $R$ is admissible for the boolean domain, and hence a subfield of $\mathbb{R}_\Sigma$. This means that $R$ coincides with both $\mathbb{R}_C$ and $\mathbb{R}_\Sigma$, since the [[Cantor-Schroeder-Bernstein theorem]] holds for [[Archimedean ordered fields]] and [[ring homomorphisms]]. 
+\end{proof}
+
+\begin{lemma}
+Analytic LPO for $R$ implies that $R$ is [[sequentially Cauchy complete]]. 
+\end{lemma}
+
+\begin{proof}
+Analytic LPO for $R$ implies that $R$ is equivalent to $\mathbb{R}_\Sigma$. Since $\mathbb{R}_\Sigma$ is constructed out of Dedekind cuts (valued in the initial $\sigma$-frame $\Sigma$), theorem 11.2.12 and corollary 11.2.13 of [UFP 2013](#UFP13) states that $\mathbb{R}_\Sigma$ is sequentially Cauchy complete, which then implies that $R$ is sequentially Cauchy complete. 
+\end{proof}
+
 Finally, let $\mathbb{R}_H$ be the [[HoTT book real numbers]], which are the initial [[sequentially Cauchy complete space|sequentially Cauchy complete]] [[Archimedean ordered field]]. Then, 
 
 \begin{theorem}
-The LPO for natural numbers and the $\mathbb{R}_H$-analytic LPO are equivalent to each other. 
+The LPO for natural numbers and the analytic LPO for $\mathbb{R}_H$ are equivalent to each other. 
 \end{theorem}
 
 \begin{proof}
