@@ -795,6 +795,8 @@ We can remedy this by replacing in the definition of the descent $\infty$-catego
 
 * [[multicategory]]
 
+* [[lax monoidal category|lax]]/[[skew monoidal category]]
+
 * [[monoidal 2-category]]
 
 * [[premonoidal category]]
