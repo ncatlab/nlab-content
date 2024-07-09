@@ -1,4 +1,6 @@
 
+* [GoogleScholar page](https://scholar.google.co.jp/citations?user=U_ioXDkAAAAJ&hl=ja)
+
 
 ## Selected writings
 
@@ -10,6 +12,12 @@ On [[equivariant algebraic K-theory]]:
 On [[universal principal bundle|universal]] [[equivariant principal bundles]]:
 
 * [[Mitutaka Murayama]], [[Kazuhisa Shimakawa]], _Universal equivariant bundles_, Proc. Amer. Math. Soc. 123 (1995), 1289-1295 ([doi:10.1090/S0002-9939-1995-1231040-9](https://doi.org/10.1090/S0002-9939-1995-1231040-9))
+
+On [[group completion]] of [[configuration spaces of points]]:
+
+* [[Kazuhisa Shimakawa]]: *Labeled configuration spaces and group completions*, Forum Mathematicum (2007) 353-364 &lbrack;[doi:10.1515/FORUM.2007.014](https://doi.org/10.1515/FORUM.2007.014), [[Shimakawa-ConfigGroupCompletion.pdf:file]]&rbrack;
+
+* [[Shingo Okuyama]], [[Kazuhisa Shimakawa]], _Interactions of strings and equivariant homology theories_, Geom. Topol. Monogr. **10** (2007) 333-346 &lbrack;[arXiv:0903.4667](https://arxiv.org/abs/0903.4667), [doi:10.2140/gtm.2007.10.333](https://doi.org/10.2140/gtm.2007.10.333)&rbrack;
 
 
 On the [[adjunction between topological spaces and diffeological spaces]]:
