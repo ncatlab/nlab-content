@@ -82,6 +82,10 @@ $$\mathrm{R}_C \hookrightarrow \mathrm{R}_\Sigma \hookrightarrow \mathrm{R}_D$$
 The LPO for natural numbers is equivalent to the [[boolean domain]] $\mathbb{2}$ being the initial $\sigma$-frame $\Sigma \coloneqq \mathbb{2}$. 
 \end{theorem}
 
+\begin{proof}
+...
+\end{proof}
+
 Thus, one can use the decidable Dedekind cuts $\mathbb{Q}^\mathbb{2} \times \mathbb{Q}^\mathbb{2}$ to construct the Dedekind real numbers, since $\Sigma \cong \mathbb{2}$ is the initial $\sigma$-frame. 
 
 \begin{theorem}
@@ -111,7 +115,7 @@ Analytic LPO for $R$ implies the LPO for natural numbers, which implies that $\m
 \end{proof}
 
 \begin{lemma}
-Analytic LPO for $R$ implies that $R$ is [[sequentially Cauchy complete]]. 
+Suppose that there is an Archimedean ordered field $R$ which is a [[field extension]] of the [[Cauchy real numbers]] $\mathbb{R}_C$. Then the analytic LPO for $R$ implies that $R$ is [[sequentially Cauchy complete]]. 
 \end{lemma}
 
 \begin{proof}
