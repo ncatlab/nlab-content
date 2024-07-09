@@ -202,6 +202,8 @@ There is a notion that is related to a [[bicategory]] in the same way that a clo
 
 * [[dualizing object in a closed category]]
 
+* [[lax closed category|lax]]/[[skew closed category]]
+
 * [[Kelly–Mac Lane graph]]
 
 * [[locally cartesian closed category]]
