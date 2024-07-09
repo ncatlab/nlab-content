@@ -208,10 +208,9 @@ Either way, this definition makes sense in any [[Heyting category]] with [[expon
 
 In [[dependent type theory]], the property that there exists a locator of $x$ is rendered as the [[bracket type]] of the [[type]] of [[locators]] of $x$. 
 
-In addition, in [[constructive mathematics]], the Cauchy real numbers $\mathbb{R}_C$ is not to be confused with the set of real numbers 
+In addition, the Cauchy real numbers $\mathbb{R}_C$ is not to be confused with the set of (real number, locator) pairs 
 $$\mathbb{R}^\mathcal{L} = \bigcup_{x \in \mathbb{R}_D} \mathrm{locator}(x)$$ 
-which have as [[structure]] a [[locator]]. That the two notions coincide is equivalent to the [[WLPO]], and is not provable in general. 
-
+The latter set is equivalent to the set of [[Cauchy sequences]] of [[rational numbers]]. Rather, the Cauchy real numbers are the [[image]] of the projection function from $\mathbb{R}^\mathcal{L}$ to $\mathbb{R}$ which takes a (real number, locator) pair to its constituent real number. 
 
 ## Algebraic closure
 
@@ -251,6 +250,8 @@ Even for Dedekind reals in [[neutral constructive mathematics]], we can always a
 * [[prealgebra real number]]
 
 * [[locator]]
+
+* [[Cauchy quotient]]
 
 ## References
  {#References}
