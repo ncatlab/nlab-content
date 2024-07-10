@@ -251,10 +251,12 @@ The observation that passing to [[derived algebraic geometry]] makes also the no
 
 * {#Toen10} [[Bertrand Toën]], _Derived Azumaya algebras and generators for twisted derived categories_ ([arXiv:1002.2599](http://arxiv.org/abs/1002.2599))
 
+* [[Michael Artin]], _On Azumaya algebras and finite-dimensional representations of rings_, J. Algebra __11__, 532--563 <a href="https://doi.org/10.1016/0021-8693(69)90091-X">doi</a>
+
 The comparison of the Artin's theorem on characterization of Azumaya algebras
 and Tomiyama-Takesaki's theorem on $n$-[[homogeneous C*-algebra]]s is in chapter 9 of
 
-* Edward Formanek, _Noncommutative invariant theory_, in: Group actions on rings (Brunswick, Maine, 1984), 87&#8211;119, Contemp. Math. 43, Amer. Math. Soc. 1985 [doi](http://dx.doi.org/10.1090/conm/043)
+* Edward Formanek, _Noncommutative invariant theory_, in: Group actions on rings (Brunswick, Maine, 1984), 87&#8211;119, Contemp. Math. __43__, Amer. Math. Soc. 1985 [doi](http://dx.doi.org/10.1090/conm/043)
 
 
 See also
