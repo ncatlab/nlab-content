@@ -11,13 +11,13 @@ If $D$ is moreover [[cocomplete category|cocomplete]], we can pass to limits and
 
 ## References
 
-* Applegate and Tierney, *Iterated cotriples*, [springerlink](https://link.springer.com/chapter/10.1007%2FBFb0060440)
+* [[Harry Applegate]], [[Miles Tierney]], *Iterated cotriples*, In: MacLane, S., et al. Reports of the Midwest Category Seminar IV. Springer LNM __137__ ([doi](https://doi.org/10.1007/BFb0060440))
 
-* MacDonald and Stone, *The tower and regular decompositions*, [numdam](http://www.numdam.org/item/CTGDC_1982__23_2_197_0)
+* [[John L. MacDonald]], Arthur Stone, *The tower and regular decompositions*, [numdam](http://www.numdam.org/item/CTGDC_1982__23_2_197_0)
 
-* Adamek and Herrlich and Tholen, *Monadic decompositions*, [sciencedirect](https://www.sciencedirect.com/science/article/pii/0022404989901291)
+* [[Jiří Adámek]], [[Horst Herrlich]], [[Walter Tholen]], *Monadic decompositions*, (<a href="https://doi.org/10.1016/0022-4049(89)90129-1">doi</a>)
 
-* Yanovski, *The Monadic Tower for $\infty$-Categories*, [arxiv](https://arxiv.org/abs/2104.01816) 
+* [[Noson Yanofsky]], *The monadic tower for $\infty$-categories*, [arXiv:2104.01816](https://arxiv.org/abs/2104.01816) 
 
 
 [[!redirects monadic decompositions]]
