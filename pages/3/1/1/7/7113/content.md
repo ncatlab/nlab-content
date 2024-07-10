@@ -169,6 +169,8 @@ Non-Archimedean ordered fields include
 
 * [[differentiable space]]
 
+* [[Archimedean ordered field setoid]]
+
 ## References
 
 * [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
