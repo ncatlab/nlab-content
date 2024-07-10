@@ -293,6 +293,8 @@ For more see *[[counterexamples in algebra]]*.
 
 * [[group presentation]]
 
+* [[groupal setoid]]
+
 [[!include oidification - table]]
 
 ## Literature
