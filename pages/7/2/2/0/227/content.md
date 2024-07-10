@@ -324,7 +324,7 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * [[module]], [[bimodule]]
 
-
+* [[ring setoid]]
 
 ## References
  {#References}
