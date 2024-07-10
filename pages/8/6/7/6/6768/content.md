@@ -18,11 +18,11 @@ An arrangement of [[hyperplanes]] is a finite set of hyperplanes in a (finite-di
 * Peter Orlik, Hiroaki Terao, _Arrangements of Hyperplanes_, Grundlehren der Mathematischen Wissenschaften __300__, Springer 1992, MR1217488
 
 * [[I. M. Gelfand]], M. M. [[Kapranov]], [[A. Zelevinsky]], _Discriminants, resultants and multidimensional determinants_, Birkh&#228;user 1994, 523 pp.
-* Corrado De Concini, Claudio Procesi, _Topics in hyperplane arrangements, polytopes and box-splines_, Universitext 223, Springer 2010.
+* [[Corrado De Concini]], [[Claudio Procesi]], _Topics in hyperplane arrangements, polytopes and box-splines_, Universitext 223, Springer 2010.
 
 Stanley's survey focuses instead more on combinatorics of the intersection poset of an arrangement (as well as arrangements in the case of vector space over a finite field):
 
-* Richard P. Stanley, _An introduction to hyperplane arrangements_, in: Geometric combinatorics, 389&#8211;496, IAS/Park City Math. Ser., 13, Amer. Math. Soc. 2007, [pdf](http://www.math.umn.edu/~ezra/PCMI2004/stanley.jcp.pdf), [errata](http://www-math.mit.edu/~rstan/arrangements/errata.pdf)
+* [[Richard P. Stanley]], _An introduction to hyperplane arrangements_, in: Geometric combinatorics, 389&#8211;496, IAS/Park City Math. Ser., 13, Amer. Math. Soc. 2007, [pdf](http://www.math.umn.edu/~ezra/PCMI2004/stanley.jcp.pdf), [errata](http://www-math.mit.edu/~rstan/arrangements/errata.pdf)
 
 * Richard Randell, _Morse theory, Milnor fibers and minimality of hyperplane arrangements_, [math.AG/0011101](http://arxiv.org/abs/math/0011101)
 
