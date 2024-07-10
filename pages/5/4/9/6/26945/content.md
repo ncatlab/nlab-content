@@ -1,6 +1,6 @@
 ## Idea
 
-A polynomial identity in a ring $R$ is a noncommutative polynomial in finitely many variables $x_1,\ldots,x_n$ which evaluates to zero for any choice $a_1\ldots,a_n$ substituted in place of the variables. If $R$ is an algebra in characteristic $p$ then $p x$ is the identity in $R$. It is a very special property of a ring to admit a nontrivial polynomial identity.
+A polynomial identity in a ring $R$ is a noncommutative polynomial in finitely many variables $x_1,\ldots,x_n$ which evaluates to zero for any choice $a_1\ldots,a_n$ substituted in place of the variables. If $R$ is an algebra in characteristic $p$ then $p x$ is an identity in $R$; this is a rather trivial case. It is a very special property of a ring to admit a nontrivial polynomial identity.
 
 ## Definition 
 
@@ -11,16 +11,20 @@ $\pm 1$.
 
 * The commutativity identity $x_1 x_2 - x_2 x_1$ holds in any commutative ring. 
 
-* Amitsur--Levitzki standard identity holds in the ring of $n\times n$-matrices over any field $F$:
-
+* (Amitsur--Levitski theorem) In the ring $M_n(F)$ of $n\times n$-matrices over any field $F$ the Amitsur--Levitzki standard identity holds,
 $$
 \sum_{\pi\in\Sigma(2 n)} 
-sign(\pi) x_{\pi(1)}\cdots x_{\pi(2n)}
+sign(\pi) x_{\pi(1)}\cdots x_{\pi(2n)},
 $$
-where $\Sigma(2n)$ is the symmetric group on $2n$ letters.
+where $\Sigma(2n)$ is the symmetric group on $2n$ letters. In addition, no polynomial identity in degree less than $2n$ exists for $M_n(F)$. 
 
 ## Properties
 
+(Artin1969)[#Artin] Let $k$ be a prime field of characteristic $p$. A ring $A$ which is also a $k$-algebra is an [[Azumaya algebra]] of rank $n^2$ over its zenter $Z(A)$ iff the two conditions hold:
+
+(i) it does not have a representation over a field $K\supset k$ of dimension strictly less than $n$ 
+
+(ii) it satisfies all polynomial identities which hold in the ring of $n\times n$-matrices in characteristic $p$
 
 ## Literature
 
@@ -28,6 +32,8 @@ where $\Sigma(2n)$ is the symmetric group on $2n$ letters.
 * [[Shimshon Amitsur|S. A. Amitsur]], _Polynomial identities_, Israel J. Math __19__ (1974) 183--199 
 * J. Levitzki, _A theorem on polynomial identities_, Proc. Amer. Math. Soc. __1__ (1950) 449--463
 * Vesselin Drensky, Edward Formanek, _Polynomial identity rings, Birkhauser 2004, viii+200 pp. (for a review see Bull. AMS __43__:2, 259--267 [pdf](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2/S0273-0979-06-01082-2.pdf))
+* wikipedia [polynomial identity ring](https://en.wikipedia.org/wiki/Polynomial_identity_ring), [Amitsur--Levitski theorem](https://en.wikipedia.org/wiki/Amitsur%E2%80%93Levitzki_theorem)
+* {#Artin} [[Michael Artin]], _On Azumaya algebras and finite-dimensional representations of rings_, J. Algebra __11__ (1969) 532--563 <a href="https://doi.org/10.1016/0021-8693(69)90091-X">doi</a>
 
 
 category: algebra
