@@ -43,6 +43,8 @@ $A$ is **[[commutative monoid|commutative monoidal]]** or **[[symmetric monoidal
 
 ## Examples
 
+* The set $\mathbb{N}^\mathbb{2}$ of functions from the [[boolean domain]] $\mathbb{2}$ to the [[natural numbers]] $\mathbb{N}$, equipped with the equivalence relation $f \sim g \coloneqq f(0) + g(1) = f(1) + g(0)$, is a monoidal setoid.  
+
 * Given any [[Archimedean ordered field]] $F$, the set of [[Cauchy sequences]] in $F$ is a [[monoidal setoid]] in two different ways, with respect to addition and with respect to multiplication. 
 
 * The [[quotient set]] of any [[monoidal setoid]] by its [[equivalence relation]] is a monoidal setoid where the equivalence relation is given by equality
