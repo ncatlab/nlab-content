@@ -67,6 +67,8 @@ A **Heyting field setoid** is a weak Heyting field setoid which is also a [[loca
 
 * [[ring setoid]]
 
+* [[local ring setoid]]
+
 [[!redirects field setoid]]
 [[!redirects field setoids]]
 
