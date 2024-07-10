@@ -21,13 +21,13 @@
 
 De Finetti's theorem is one of the central results of [[probability theory]], and usually refers to any of the following related statements:
 
-* Every [[exchangeable]] [[probability measure]] on an [[infinite product]] is a unique [[mixture]] of [[iid]] ones. 
-* Every infinite sequence of [[exchangeable]] [[random variables]] exhibits [[conditional independence]] given the [[empirical distribution]].
-* Every infinite sequence of [[exchangeable]] [[random variables]] exhibits [[conditional independence]] given the [[exchangeable sigma-algebra]]. 
+* Every [[exchangeable probability measure]] on an [[infinite product]] is a unique [[mixture]] of [[iid]] ones. 
+* Every infinite sequence of [[exchangeable random variables]] exhibits [[conditional independence]] given the [[empirical distribution]].
+* Every infinite sequence of [[exchangeable random variables]] exhibits [[conditional independence]] given the [[exchangeable sigma-algebra]]. 
 
 [[category-theoretic approaches to probability theory|Categorically]], it can equivalently be expressed (see below) as:
 
-* The [[Giry monad]] is the [[limit]] of an [[exchangeable]] process in a category of [[Markov kernels]].
+* The [[Giry monad]] is the [[limit]] of an [[exchangeable]] process in the category of [[Markov kernels]].
 
 
 ## Motivation
