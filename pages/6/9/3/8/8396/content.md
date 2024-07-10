@@ -12,7 +12,16 @@ Mark Lawson is a professor at Heriot-Watt University, Edinburgh.  He has publish
 
 * [[pseudogroup]]
 
+## Selected work
 
+A monograph.
+
+* [[Mark V. Lawson]], _Inverse semigroups: the theory of partial symmetries_, World Scientific, 1998.
+
+Articles include
+
+* [[Mark Lawson]], [[Daniel Lenz]], _Pseudogroups and their &#233;tale groupoids_ ([arXiv:1107.5511](http://arxiv.org/abs/1107.5511))
+* [[Mark V. Lawson]], [[Philip Scott]], _AF inverse monoids and the structure of countable MV-algebras_, [arXiv:1408.1231](http://arxiv.org/abs/1408.1231)
 
 category:people
 [[!redirects M. V. Lawson]]
