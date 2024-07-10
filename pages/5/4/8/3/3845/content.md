@@ -97,6 +97,8 @@ Various formalisms for pasting diagrams have been proposed. They include
 
 * [[generalized parity complex|generalized parity complexes]] (Forest)
 
+* [[regular directed complex|regular directed complexes]] (Hadzihasanovic)
+
 Each of these formalisms involve graded sets $\{C_n\}_{n \geq 0}$ together with maps $\partial^+_n: C_{n+1} \to P(C_n)$, $\partial^-_n: C_{n+1} \to P(C_n)$. This goes under various names; here we call it a **parity structure**. It should be thought of as assigning to each "cell" of dimension $n+1$ a collection of positive boundary cells and negative boundary cells in dimension $n$. The formalisms above are distinguished by the choice of axioms on parity structures, but there is definite kinship among them. 
 
 Also related are various notions of categories of shapes, including 
@@ -147,7 +149,7 @@ The notion of pasting scheme used by Crans was introduced by Johnson,
 
 * [[Michael Johnson]], _The combinatorics of n-categorical pasting_, Journal of Pure and Applied Algebra, **62**, 1989. &lbrack;<a href="https://doi.org/10.1016/0022-4049(89)90136-9">doi:10.1016/0022-4049(89)90136-9</a>&rbrack;
 
-Other notions of pasting presentations have been given by Street and by Steiner, 
+Other notions of pasting presentations have been given by Street and by Steiner: 
 
 * [[Ross Street]], _Parity complexes_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, **32**, 1991. ([link](http://www.numdam.org/item/?id=CTGDC_1991__32_4_315_0)) 
 
@@ -158,6 +160,10 @@ Other notions of pasting presentations have been given by Street and by Steiner,
 These notions were compared, and a new generalized one introduced, in
 
 * [[Simon Forest]], _Unifying notions of pasting diagrams_, Higher Structures, **6**, 2022 ([arxiv:1903.00282](https://arxiv.org/abs/1903.00282), [doi:10.21136/HS.2022.01](https://doi.org/10.21136/HS.2022.01))
+
+Another recent approach is: 
+
+* [[Amar Hadzihasanovic]], _Combinatorics of higher-categorical diagrams_, 2024 ([link](https://arxiv.org/abs/2404.07273))
 
 For an online link to the notion of directed complex, see 
 
