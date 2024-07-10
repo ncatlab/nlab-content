@@ -3,7 +3,8 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Stephen_Schanuel)
 
-* [[F. William Lawvere]]: *The legacy of Steve Schanuel!* (2015) &lbrack;[web](https://www.acsu.buffalo.edu/~wlawvere/Schanuel%20Memorial%20posting.htm), [archive link](https://web.archive.org/web/20230311022135/https://www.acsu.buffalo.edu/~wlawvere/Schanuel%20Memorial%20posting.htm)&rbrack;
+* [[F. William Lawvere]]: *The legacy of Steve Schanuel!* (2015) &lbrack;[[Lawvere-LegacyOfSchanuel.pdf:file]], [archive](https://web.archive.org/web/20230311022135/https://www.acsu.buffalo.edu/~wlawvere/Schanuel%20Memorial%20posting.htm)&rbrack;
+
 
 ## Related entries
 
