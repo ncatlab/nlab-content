@@ -94,7 +94,7 @@ nodes={scale=1.25}, arrows={thick},%
 ## Algebras: expectation values
 
 
-According to the interpretation of probability monads in terms of "formal generalized convex combinations", the [[algebra over a monad|algebras]] of a probability monad are then spaces equipped with a way of evaluating these expressions to a result, which we can see as a generalized "[[midpoint]]", "average", or "[[expectation value]]".
+According to the interpretation of probability monads in terms of "formal generalized convex combinations", the [[algebra over a monad|algebras]] of a probability monad are then spaces equipped with a way of evaluating these expressions to a result, which we can see as a generalized "[[mixture]]", "average", or "[[expectation value]]".
 (Expectation values play a very important role in probability: probability monads can encode them via their algebras.)
 
 In other words, algebras of probability monads can be thought of as generalizations of [[convex sets]], depending on the actual category and monad in question. For example,
