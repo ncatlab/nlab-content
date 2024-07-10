@@ -20,6 +20,10 @@ On Jantzen conjecture
 
 * Anthony Joseph, _On the annihilators of the simple subquotients of the principal series_, Ann. Sci. École Norm. Sup.10 (1977) 419--439
 
+On prime spectra of universal enveloping algebras
+
+* [[Anthony Joseph]], _A preparation theorem for the prime spectrum of a semisimple Lie algebra_, J. Algebra __48__:2 (1977) 241--289 <a href="https://doi.org/10.1016/0021-8693(77)90306-4">doi</a>
+
 On the [[BGG resolution]]:
 
 * [[Ofer Gabber]], A. Joseph, _On the Bernstein-Gelfand-Gelfand resolution and the Duflo sum formula_, Compositio Math. __43__ (1981) 107--131
