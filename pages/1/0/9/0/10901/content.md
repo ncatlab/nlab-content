@@ -254,7 +254,7 @@ Laboratory, University of Cambridge, 1995 ([pdf](http://research.microsoft.com/~
 
 Interpretation of this in [[dependent linear type theory]] is in 
 
-* {#PontoShulman12} [[Kate Ponto]], [[Mike Shulman]], _Duality and traces for indexed monoidal categories_, Theory and Applications of Categories, Vol. 26, 2012, No. 23, pp 582-659 ([arXiv:1211.1555](http://arxiv.org/abs/1211.1555))
+* {#PontoShulman12} [[Kate Ponto]], [[Mike Shulman]], *Duality and traces for indexed monoidal categories*, Theory and Applications of Categories **26** 23 (2012) 582-659 &lbrack;[arXiv:1211.1555](http://arxiv.org/abs/1211.1555), [tac:26-23](https://www.emis.de/journals/TAC/volumes/26/23/26-23abs.html)&rbrack;
  
 
 
