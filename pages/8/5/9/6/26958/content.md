@@ -55,7 +55,7 @@ Then, an [[ordered field setoid]] $F$ is **Archimedean** if for all elements $x 
 
 * [[Archimedean ordered field]]
 
-* [[real number field setoid]]
+* [[sequentially Cauchy complete Archimedean ordered field setoid]]
 
 [[!redirects Archimedean ordered field setoid]]
 [[!redirects Archimedean ordered field setoids]]
