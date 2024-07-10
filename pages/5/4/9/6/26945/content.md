@@ -1,6 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+\tableofcontents
+
 ## Idea
 
-A polynomial identity in a ring $R$ is a noncommutative polynomial in finitely many variables $x_1,\ldots,x_n$ which evaluates to zero for any choice $a_1\ldots,a_n$ substituted in place of the variables. If $R$ is an algebra in characteristic $p$ then $p x$ is an identity in $R$; this is a rather trivial case. It is a very special property of a ring to admit a nontrivial polynomial identity.
+A *polynomial identity* in a [[ring]] $R$ is a noncommutative [[polynomial]] in a [[finite number]] of [[variables]] $x_1,\ldots,x_n$ which [[evaluation|evaluates]] to zero for any choice $a_1\ldots,a_n$ substituted in place of the variables. 
+
+If $R$ is an [[associative algebra|algebra]] in [[characteristic]] $p$ then $p x$ is an identity in $R$; this is a rather trivial case. It is a very special property of a ring to admit a nontrivial polynomial identity.
 
 ## Definition 
 
@@ -29,14 +44,24 @@ where $\Sigma(2n)$ is the symmetric group on $2n$ letters. In addition, no monic
 ## Literature
 
 * [[Irving Kaplansky]], _Rings with a polynomial identity_, Bull. Amer. Math. Soc. __54__ (1948) 575--580 
+
 * [[Shimshon Amitsur|S. A. Amitsur]], _Polynomial identities_, Israel J. Math __19__ (1974) 183--199 
+
 * J. Levitzki, _A theorem on polynomial identities_, Proc. Amer. Math. Soc. __1__ (1950) 449--463
-* Vesselin Drensky, [[Edward Formanek]], _Polynomial identity rings, Birkhauser 2004, viii+200 pp. (for a review see L. Rowen, Bull. AMS __43__:2, 259--267 [pdf](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2/S0273-0979-06-01082-2.pdf))
-* wikipedia [polynomial identity ring](https://en.wikipedia.org/wiki/Polynomial_identity_ring), [Amitsur--Levitski theorem](https://en.wikipedia.org/wiki/Amitsur%E2%80%93Levitzki_theorem)
-* {#Artin} [[Michael Artin]], _On Azumaya algebras and finite-dimensional representations of rings_, J. Algebra __11__ (1969) 532--563 <a href="https://doi.org/10.1016/0021-8693(69)90091-X">doi</a>
+
+* Vesselin Drensky, [[Edward Formanek]], *Polynomial identity rings*, Birkhauser (2004) viii+200 pp &lbrack;[doi:10.1007/978-3-0348-7934-7](https://doi.org/10.1007/978-3-0348-7934-7)&rbrack;
+
+  review:
+
+  L. Rowen, Bull. AMS __43__ 2 (2006) 259-267 &lbrack;[pdf](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2/S0273-0979-06-01082-2.pdf), [doi:2006-43-02/S0273-0979-06-01082-2](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2)&rbrack;
+
+* Wikipedia: [Polynomial identity ring](https://en.wikipedia.org/wiki/Polynomial_identity_ring), [Amitsur--Levitski theorem](https://en.wikipedia.org/wiki/Amitsur%E2%80%93Levitzki_theorem)
+
+* {#Artin} [[Michael Artin]], _On Azumaya algebras and finite-dimensional representations of rings_, J. Algebra __11__ (1969) 532-563 &lbrack;<a href="https://doi.org/10.1016/0021-8693(69)90091-X">doi:10.1016/0021-8693(69)90091</a>&rbrack;
 
 
 category: algebra
+
 [[!redirects PI-ring]]
 [[!redirects PI ring]]
 [[!redirects PI-rings]]
