@@ -79,7 +79,7 @@ Review:
 
 * [[Arkady Berenstein]], [[Andrei Zelevinsky]], *Quantum cluster algebras*, Advances in Mathematics **195** 2 (2005) 405-455 &lbrack;[doi:10.1016/j.aim.2004.08.003](https://doi.org/10.1016/j.aim.2004.08.003), [math.QA/0404446](http://arxiv.org/abs/math/0404446)&rbrack;
 
-* [[K. R. Goodearl]], M. T. Yakimov, _Quantum cluster algebras and quantum nilpotent algebras_
+* [[K. R. Goodearl]], [[M. T. Yakimov]], _Quantum cluster algebras and quantum nilpotent algebras_
 Proc Natl Acad Sci USA 111(27):9696--9703  (2014) [doi](https://doi.org/10.1073/pnas.1313071111)
 
 * Fan Qin, _Dual canonical bases and quantum cluster algebras_, [arXiv:2003.13674](https://arxiv.org/abs/2003.13674)
