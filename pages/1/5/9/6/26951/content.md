@@ -25,13 +25,13 @@
 
 ## Idea
 
-A [[setoid]] whose [[quotient set]] is a [[group]]. Equivalently, a [[thin category|thin]] [[2-group]], or in foundations where groupoids are [[univalent groupoid|univalent]] by default, a [[thin category|thin]] [[pregroupoid|pre]]-2-group. Also, equivalently, a [[monoidal setoid]] in which the monoidal product with any element has an [[inverse]] up to [[equivalence relation]]. 
+A [[setoid]] or [[Bishop set]] whose [[quotient set]] is a [[group]]. Equivalently, a [[locally thin 2-category|locally thin]] [[2-group]], or in foundations where [[2-categories]] are [[locally univalent bicategory|locally univalent]] by default, a [[locally thin 2-category|locally thin]] [[pregroupoid|pre]]-2-group. Also, equivalently, a [[monoidal setoid]] in which the monoidal product with any element has an [[inverse]] up to [[equivalence relation]]. 
 
-“Groupal setoid” is a placeholder name for a concept which may or may not have another name in the mathematics literature. 
+“Groupal setoid”, "groupal Bishop set", and "Bishop group" are placeholder names for a concept which may or may not have another name in the mathematics literature. 
 
 ## Definition
 
-Here we assume that setoids are equipped with an [[equivalence relation]] (rather than a [[pseudo-equivalence relation]]). A **groupal setoid** is a [[monoidal setoid]] $(A, \sim, e, m)$ with a function $i:A \to A$ such that 
+Here we assume that setoids or Bishop sets are equipped with an [[equivalence relation]] (rather than a [[pseudo-equivalence relation]]). A **groupal setoid**, **groupal Bishop set**, or **Bishop group** is a [[monoidal setoid]] $(A, \sim, e, m)$ with a function $i:A \to A$ such that 
 
 * $i$ preserves the [[equivalence relation]]: for all elements $a \in A$ and $b \in A$, if $a \sim b$, then $i(a) \sim i(b)$. 
 
@@ -55,32 +55,52 @@ $A$ is **[[abelian group|abelian groupal]]** or **[[symmetric 2-group|symmetric 
 
 * [[2-group]]
 
+* [[locally thin 2-category]]
+
 [[!redirects groupal setoid]]
 [[!redirects groupal setoids]]
 
-[[!redirects thin 2-group]]
-[[!redirects thin 2-groups]]
+[[!redirects groupal Bishop set]]
+[[!redirects groupal Bishop sets]]
 
-[[!redirects thin pre-2-group]]
-[[!redirects thin pre-2-groups]]
+[[!redirects Bishop group]]
+[[!redirects Bishop groups]]
+
+[[!redirects locally thin 2-group]]
+[[!redirects locally thin 2-groups]]
+
+[[!redirects locally thin pre-2-group]]
+[[!redirects locally thin pre-2-groups]]
 
 [[!redirects abelian groupal setoid]]
 [[!redirects abelian groupal setoids]]
 
+[[!redirects abelian groupal Bishop set]]
+[[!redirects abelian groupal Bishop sets]]
+
+[[!redirects abelian Bishop group]]
+[[!redirects abelian Bishop groups]]
+
 [[!redirects braided groupal setoid]]
 [[!redirects braided groupal setoids]]
 
-[[!redirects thin braided 2-group]]
-[[!redirects thin braided 2-groups]]
+[[!redirects braided groupal Bishop set]]
+[[!redirects braided groupal Bishop sets]]
 
-[[!redirects thin braided pre-2-group]]
-[[!redirects thin braided pre-2-groups]]
+[[!redirects locally thin braided 2-group]]
+[[!redirects locally thin braided 2-groups]]
+
+[[!redirects locally thin braided pre-2-group]]
+[[!redirects locally thin braided pre-2-groups]]
 
 [[!redirects symmetric groupal setoid]]
 [[!redirects symmetric groupal setoids]]
 
-[[!redirects thin symmetric 2-group]]
-[[!redirects thin symmetric 2-groups]]
+[[!redirects symmetric groupal Bishop set]]
+[[!redirects symmetric groupal Bishop sets]]
 
-[[!redirects thin symmetric pre-2-group]]
-[[!redirects thin symmetric pre-2-groups]]
+[[!redirects locally thin symmetric 2-group]]
+[[!redirects locally thin symmetric 2-groups]]
+
+[[!redirects locally thin symmetric pre-2-group]]
+[[!redirects locally thin symmetric pre-2-groups]]
