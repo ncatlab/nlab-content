@@ -85,6 +85,8 @@ Let $A$ be a ring setoid, and let $A / \sim$ be its [[quotient set]]. Then the f
 
 * [[ring category]]
 
+* [[local ring setoid]]
+
 * [[field setoid]]
 
 [[!redirects ring setoid]]
