@@ -228,18 +228,22 @@ Original references on initial algebras include
 
 [[!include semantics of W-types -- references]]
 
-
-
-
+[[!redirects initial algebra of an endofunctor]]
 [[!redirects initial algebras of an endofunctor]]
+[[!redirects initial algebra of the endofunctor]]
+[[!redirects initial algebras of the endofunctor]]
 [[!redirects initial algebras of endofunctors]]
 
 [[!redirects initial algebra for an endofunctor]]
 [[!redirects initial algebras for an endofunctor]]
+[[!redirects initial algebra for the endofunctor]]
+[[!redirects initial algebras for the endofunctor]]
 [[!redirects initial algebras for endofunctors]]
 
 [[!redirects initial algebra over an endofunctor]]
 [[!redirects initial algebras over an endofunctor]]
+[[!redirects initial algebra over the endofunctor]]
+[[!redirects initial algebras over the endofunctor]]
 [[!redirects initial algebras over endofunctors]]
 
 [[!redirects Lambek’s theorem]]
