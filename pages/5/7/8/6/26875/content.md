@@ -16,6 +16,11 @@ On [[string theory]]:
 
 * [[Carlo Angelantonj]], [[Ioannis Florakis]], *A Lightning Introduction to String Theory*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2406.09508](https://arxiv.org/abs/2406.09508)&rbrack;
 
+On [[heterotic string theory]]:
+
+* [[Ioannis Florakis]], [[John Rizos]]: *Free Fermionic Constructions of Heterotic Strings* &lbrack;[arXiv:2407.07034](https://arxiv.org/abs/2407.07034)&rbrack;
+
+
 
 
 
