@@ -25,14 +25,13 @@ A [[setoid]] or [[Bishop set]] whose [[quotient set]] is an [[ordered field]].
 
 “Ordered field setoid” and "Bishop ordered field" are placeholder names for a concept which may or may not have another name in the mathematics literature. 
 
-
 ## Definition
 
 Classically: 
 
 An **ordered field setoid** is a [[field setoid]] $(R, \sim)$ equipped with a [[strict weak order]] $\lt$ such that 
 
-* for all $a \in R$ and $b \in R$, if $a \lt b$ and $b \lt a$ are both not true, then $a \sim b$
+* for all $a \in R$ and $b \in R$, if $a \lt b$ is not true and $b \lt a$ is not true, then $a \sim b$
 
 * $0 \lt 1$
 
@@ -41,6 +40,10 @@ An **ordered field setoid** is a [[field setoid]] $(R, \sim)$ equipped with a [[
 * for all $a \in R$ and $b \in R$, if $0 \lt a$ and $0 \lt b$, then $0 \lt a \cdot b$
 
 One often sees the definition using a weak [[total order]] $\leq$ instead of the strict total order $\lt$. This makes no difference in [[classical mathematics]], but the definition of the strict total order is the one that generalizes to [[constructive mathematics]]. 
+
+## Properties
+
+* Given any ordered field setoid $S$, the [[rational numbers]] $\mathbb{Q}$ are a subset of $S$. In addition, there exists a [[ring setoid homomorphism]] from $\mathbb{Q} \to S$; however, this ring setoid homomorphism is not unique, unlike the case for [[ordered fields]] and [[ring homomorphisms]]. 
 
 ## Examples
 
