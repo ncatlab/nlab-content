@@ -182,6 +182,8 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 
 * [[Kock field]]
 
+* [[field setoid]]
+
 | [[commutative ring]] | [[reduced ring]] | [[integral domain]] |
 ---------------------|-----------------|-----------------|
 | [[local ring]] | [[reduced local ring]] | [[local integral domain]] |
