@@ -1,5 +1,9 @@
 
-Quantum Schubert cells and varieties are a [[quantum group]] analogue of [[Schubert cell]]s and varieties.
+\tableofcontents
+
+## Idea
+
+*Quantum Schubert cells* and varieties are a [[quantum group]] analogue of [[Schubert cells]] and varieties.
 
 
 ## Literature
@@ -18,10 +22,11 @@ Quantum Schubert cells and varieties are a [[quantum group]] analogue of [[Schub
 
 * [[Milen Yakimov]], _Spectra and catenarity of quantum Schubert cells_, Glasgow Mathematical Journal, 55(A), 169-194 (2013) [doi](https://doi.org/10.1017/S0017089513000578)
 
-* Jason Bell,, Karel Casteels, [[Stéphane Launois]], _Primitive ideals in quantum Schubert cells: Dimension of the strata_, Forum Mathematicum [doi:10.1515/forum-2011-0155](https://doi.org/10.1515/forum-2011-0155)
+* Jason Bell, Karel Casteels, [[Stéphane Launois]], _Primitive ideals in quantum Schubert cells: Dimension of the strata_, Forum Mathematicum [doi:10.1515/forum-2011-0155](https://doi.org/10.1515/forum-2011-0155)
 
 * S. Launois, T. H. Lenagan, L. Rigal, _Prime ideals in the quantum grassmannian_, Sel. math., New ser. 13, 697 (2008) [doi](https://doi.org/10.1007/s00029-008-0054-z)
 * Thomas H. Lenagan, Milen T. Yakimov, _Prime factors of quantum Schubert cell algebras and clusters for quantum Richardson varieties_, Journal für die reine und angewandte Mathematik (Crelles Journal) [doi](https://doi.org/10.1515/crelle-2016-0046)
 
 category: algebras
 
+[[!redirects quantum Schubert cells]]
