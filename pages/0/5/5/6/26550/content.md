@@ -187,3 +187,9 @@ $$x + y \coloneqq \mathrm{inR}_{\mathrm{CutDomain}(x) +_{\mathrm{cut}(x), \mathr
 For the impredicative definition of the real numbers using a type of propositions, see section 11.2 of:
 
 * [[Univalent Foundations Project]], section 11.2 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
+
+[[!redirects real numbers type]]
+[[!redirects real numbers types]]
+
+[[!redirects type of real numbers]]
+[[!redirects types of real numbers]]
