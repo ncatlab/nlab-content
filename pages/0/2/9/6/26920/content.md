@@ -45,8 +45,8 @@ Quantum nilpotent algebras are a framework where the so called derivative elimin
 
 ## References
 
-* [[K. R. Goodearl]], M. T. Yakimov, _Quantum cluster algebras and quantum nilpotent algebras_, Proc. Natl. Acad. Sci. USA 111(27):9696--9703  (2014) [doi](https://doi.org/10.1073/pnas.1313071111)
-* S. Launois, T. H. Lenagan, B. M. Nolan, _Total positivity is a quantum phenomenon: the Grassmannian case_, Memoirs of the Amer. Math. Soc. _1448_ (2023) 123 p.
+* [[K. R. Goodearl]], [[Milen Yakimov|M. T. Yakimov]], _Quantum cluster algebras and quantum nilpotent algebras_, Proc. Natl. Acad. Sci. USA 111(27):9696--9703  (2014) [doi](https://doi.org/10.1073/pnas.1313071111)
+* [[S. Launois]], T. H. Lenagan, B. M. Nolan, _Total positivity is a quantum phenomenon: the Grassmannian case_, Memoirs of the Amer. Math. Soc. _1448_ (2023) 123 p.
 
 category: algebra
 
