@@ -258,6 +258,8 @@ In summary, it is important to make people understand that groups can be identif
 
 * [[A3-type]]
 
+* [[monoidal setoid]]
+
 [[!include oidification - table]]
 
 ## References
