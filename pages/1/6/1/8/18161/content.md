@@ -42,9 +42,9 @@ For $p \colon E \to X$ a [[bundles]] [[internalization|in]] [[TopologicalSpaces]
 
 $$
   \array{
-    U \times F 
+    \mathcal{U} \times F 
     &\underoverset{t}{\simeq}{\longrightarrow}&
-    E|_{U}&\longrightarrow& E
+    E|_{\mathcal{U}}&\longrightarrow& E
     \\
     &
     \searrow
