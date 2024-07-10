@@ -208,8 +208,9 @@ See also:
 
 * [[Eric Sharpe]], _Recent developments in heterotic compactifications_, AMS/IP Stud. Adv. Math. 44 (2008) 209-230 ([arXiv:0801.4080](https://arxiv.org/abs/0801.4080))
 
-
 * Andrea Fontanella, Tomas Ortin, _On the supersymmetric solutions of the Heterotic Superstring effective action_ ([arxiv:1910.08496](https://arxiv.org/abs/1910.08496))
+
+* [[Ioannis Florakis]], [[John Rizos]]: *Free Fermionic Constructions of Heterotic Strings* &lbrack;[arXiv:2407.07034](https://arxiv.org/abs/2407.07034)&rbrack;
 
 
 Relation to [[Donaldson-Thomas theory]] and [[quiver gauge theory]]:
@@ -223,7 +224,7 @@ Discussion of [[higher curvature corrections]]:
 
 * Hao-Yuan Chang, [[Ergin Sezgin]], Yoshiaki Tanii, *Dimensional reduction of higher derivative heterotic supergravity* ([arXiv:2110.13163](https://arxiv.org/abs/2110.13163))
 
-On non-supersymemtric [[branes]] in heterotic string theory:
+On non-supersymmetric [[branes]] in heterotic string theory:
 
 * [[Justin Kaidi]], [[Kantaro Ohmori]], [[Yuji Tachikawa]], [[Kazuya Yonekura]], *Non-supersymmetric heterotic branes* &lbrack;[arXiv:2303.17623](https://arxiv.org/abs/2303.17623)&rbrack; 
 
