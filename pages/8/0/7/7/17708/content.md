@@ -53,3 +53,5 @@ In particular, $\mathcal{T}$-symmetric monoidal $\infty$-categories are simply $
 
 * [[Denis Nardin]], [[Jay Shah]], _Parametrized and equivariant higher algebra_, (2022) ([arxiv:2203.00072](https://arxiv.org/abs/2203.00072))
 [[!redirects equivariant symmetric monoidal categories]]
+
+[[!redirects G-symmetric monoidal category]]
