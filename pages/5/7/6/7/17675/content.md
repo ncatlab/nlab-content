@@ -14,7 +14,7 @@ if each irreducible $C^\star$-representation of the algebra is $n$-dimensional.
 
 The comparison of the Artin's theorem on characterization of [[Azumaya algebra]]s and Tomiyama-Takesaki's theorem on $n$-homogeneous $C^\ast$-algebras is in chapter 9 of
 
-* Edward Formanek, _Noncommutative invariant theory_, in: Group actions on rings (Brunswick, Maine, 1984), 87&#8211;119, Contemp. Math. 43, Amer. Math. Soc. 1985 [doi](http://dx.doi.org/10.1090/conm/043)
+* [[Edward Formanek]], _Noncommutative invariant theory_, in: Group actions on rings (Brunswick, Maine, 1984), 87--119, Contemp. Math. __43__, Amer. Math. Soc. 1985 [doi](https://doi.org/10.1090/conm/043)
 
 category: operator algebras
 
