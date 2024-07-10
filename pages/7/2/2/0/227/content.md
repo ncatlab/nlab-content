@@ -109,7 +109,7 @@ It is possible to [[internalization|internalise]] the notion of ring in at least
 
 If $C$ is a [[cartesian monoidal category]], then any [[Lawvere theory]] may be internalised in $C$.  The theory of rings is an example, so we can speak of _ring objects_ in $C$.  Then a ring object in $Set$ is simply a ring.  (This works whether your rings are unital or nonunital, commutative or noncommutative, etc.)  However, not every notion of internal ring takes this form.
 
-The theory of rings is a combination of a monoid (or semigroup, if nonunital) and an abelian group structure. Thus, ring objects are algebras over a composed [[operad]] (or [[monad]]) of a monoid operad and an abelian group operad, using a standard [[distributive law]] for that situation in the sense of operads (or monads), which corresponds to the usual distributive law in the classical definition of a ring.
+The theory of rings is a combination of a monoid (or semigroup, if nonunital) and an abelian group structure. Thus, ring objects are algebras over a composed [[monad]] of a monoid monad and an abelian group monad, using a [[distributive law]], which corresponds to the usual distributive law in the classical definition of a ring.
 
 A particular example of this is a ring in a [[topos]]. In a topos one usually alternatively defines a ring object by the standard set-theoretic definition of a ring, and interpret the formulas in the sense of topos-theoretic semantics. 
 
