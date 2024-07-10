@@ -6,6 +6,8 @@ Edward W. Formanek is an American mathematician.
 
 * [[Edward Formanek]], _Noncommutative invariant theory_, in: Group actions on rings (Brunswick, Maine, 1984), 87--119, Contemp. Math. __43__, Amer. Math. Soc. 1985 [doi](https://doi.org/10.1090/conm/043)
 
+* [[Edward Formanek]], _Invariants and the ring of generic matrices_, J. Algebra __89__ (1984) 178--223 [pdf](https://core.ac.uk/download/pdf/82069883.pdf)
+
 On [[polynomial identity rings]]:
 
 * Vesselin Drensky, [[Edward Formanek]], *Polynomial identity rings*, Birkhauser (2004) viii+200 pp &lbrack;[doi:10.1007/978-3-0348-7934-7](https://doi.org/10.1007/978-3-0348-7934-7)&rbrack;
