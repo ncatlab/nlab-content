@@ -18,7 +18,7 @@ He was a teacher of [[Corrado de Concini]] ([wikipedia](http://it.wikipedia.org/
 * [[Corrado De Concini]], [[Claudio Procesi]], _Topics in hyperplane arrangements, polytopes and box-splines_, Universitext 223, Springer 2010.
 * [[Corrado de Concini]], [[D. Eisenbud]], [[Claudio Procesi]], _Young diagrams and determinantal varieties_, Invent. Math. __56__ (1980) 129--165.
 * [[Corrado De Concini]], [[Claudio Procesi]], _Quantum Schubert cells and representations at roots of 1_, in: Algebraic Groups and Lie Groups, Ed. G. I. Lehrer ([pdf](https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=2DE1620582664C79507AE3BDB2E4455F?doi=10.1.1.30.4615&rep=rep1&type=pdf))
-* F. Callegaro, F. Cohen, C. De Concini, E. Feichtner, Gaiffi G., Salvetti M. (eds.) *Configuration Spaces*, INdAM Series __14__, Springer 2016
+* [[Claudio Procesi]], _On the theorem of Amitsur--Levitzki_, Israel Journal of Mathematics __207__: 151---154 ([arXiv:1308.2421](https://arxiv.org/abs/1308.2421) [doi](https://doi.org/10.1007/s11856-014-1118-8))
 
 ## related $n$Lab entries
 
