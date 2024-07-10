@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Equivariant higher algebra
++--{: .hide}
+[[!include equivariant higher algebra - contents]]
+=--
 #### Monoidal categories
 +--{: .hide}
 [[!include monoidal categories - contents]]
