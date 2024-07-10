@@ -112,7 +112,7 @@ The terminology "rig" is due to:
 
 as recalled in: 
 
-* [[F. William Lawvere]]: *The legacy of Steve Schanuel!* (2015) &lbrack;[web](https://www.acsu.buffalo.edu/~wlawvere/Schanuel%20Memorial%20posting.htm)&rbrack;
+* [[F. William Lawvere]]: *The legacy of Steve Schanuel!* (2015) &lbrack;[[Lawvere-LegacyOfSchanuel.pdf:file]], [archive](https://web.archive.org/web/20230311022135/https://www.acsu.buffalo.edu/~wlawvere/Schanuel%20Memorial%20posting.htm)&rbrack;
 
 > "We were amused when we finally revealed to each other that we had each independently come up with the term 'rig'."
 
