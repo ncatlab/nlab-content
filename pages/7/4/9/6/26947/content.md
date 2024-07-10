@@ -44,6 +44,8 @@ $A$ is **[[commutative ring|commutative]]** or **[[symmetric monoidal category|s
 
 ## Examples
 
+* The set $\mathbb{N}^\mathbb{2}$ of functions from the [[boolean domain]] $\mathbb{2}$ to the [[natural numbers]] $\mathbb{N}$, equipped with the equivalence relation $f \sim g \coloneqq f(0) + g(1) = f(1) + g(0)$, is a ring setoid.  
+
 * Given any [[Archimedean ordered field]] $F$, the set of [[Cauchy sequences]] in $F$ is a [[ring setoid]]. 
 
 * The [[quotient set]] of any [[ring setoid]] by its [[equivalence relation]] is a ring setoid where the equivalence relation is given by equality
