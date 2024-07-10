@@ -1,4 +1,6 @@
 
+[[QuantumMatterInformation2024.jpg:file]]
+
 $$
   P
   \;\coloneqq\;
