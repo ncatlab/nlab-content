@@ -83,6 +83,8 @@ Let $A$ be a ring setoid, and let $A / \sim$ be its [[quotient set]]. Then the f
 
 * [[ring category]]
 
+* [[field setoid]]
+
 [[!redirects ring setoid]]
 [[!redirects ring setoids]]
 
