@@ -50,7 +50,7 @@ In weak foundations, we sometimes want to be a little more strict about how a se
 
 In general, a __[[modulus of convergence]]__ may be any function $\alpha$ from the positive rational numbers to the natural numbers such that, for every natural number $n$, there is a positive rational number $\epsilon$ such that $\alpha(\epsilon) \geq n$.
 
-A __modulated Cauchy real number__ $x$ is an infinite sequence $(x_0,x_1,x_2,\ldots)$ of rational numbers such that there exists a modulus $\alpha$ such that
+A **modulated Cauchy real number** or **regular real number** $x$ is an infinite sequence $(x_0,x_1,x_2,\ldots)$ of rational numbers such that there exists a modulus $\alpha$ such that
 $$ {|x_i - x_j|} \leq \epsilon $$
 holds whenever $i,j \geq \alpha(\epsilon)$.  Two modulated Cauchy real numbers $x,y$ are considered __equal__ if there exists a modulus $\alpha$ such that
 $$ {|x_i - y_i|} \leq \epsilon $$
@@ -316,8 +316,10 @@ Exposition and review:
 
 * {#Booij20} [[Auke Booij]], *Analysis in Univalent Type Theory* (2020) &lbrack;[etheses:10411](http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf), [[Booij-AnalysisInUF.pdf:file]]&rbrack;
 
-
-[[!redirects Cachy real number]]
+[[!redirects regular real number]]
+[[!redirects regular real numbers]]
+[[!redirects regular real]]
+[[!redirects regular reals]]
 
 [[!redirects Cauchy real number]]
 [[!redirects Cauchy real numbers]]
