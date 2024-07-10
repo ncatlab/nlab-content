@@ -163,7 +163,7 @@ There is a [[monad]] on $MeasureSpaces$, $1 + -: Meas \to Meas$. A probability m
 
 * [[monads of probability, measures, and valuations]]
 
-* [[measure]], [[probability measure]], [[pushforward measure]]
+* [[measure]], [[probability measure]], [[pushforward measure]], [[convex mixture]]
 
 * [[measure theory]], [[probability theory]], [[random variable]]
 
