@@ -179,6 +179,8 @@ Possible to-dos: say something about $\mathfrak{m}$-adic topology, completion, Z
 
 * [[weak local ring]]
 
+* [[local ring setoid]]
+
 | [[commutative ring]] | [[reduced ring]] | [[integral domain]] |
 ---------------------|-----------------|-----------------|
 | [[local ring]] | [[reduced local ring]] | [[local integral domain]] |
