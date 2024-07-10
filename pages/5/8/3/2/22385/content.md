@@ -71,6 +71,15 @@ The construction of $R$ above may also be done with entire relations if the [[ax
 
 See also the discussion at [[net]] about how to force the domain of a net to be [[partially ordered|partial order]], by using either entire relations or prefunctions as nets.
 
+More generally, setoids (defined using [[equivalence relations]]) are [[thin category|thin]] [[groupoids]]. As a result, various concepts translate from the setting of [[category theory]] to setoid theory, such as
+
+* [[monoidal setoid]]
+* [[braided monoidal setoid]]
+* [[groupal setoid]] (i.e. [[locally thin 2-category|locally thin]] [[2-groups]])
+* [[braided groupal setoid]]
+* [[ring setoid]]
+* [[braided ring setoid]]
+
 ## Fixing inadequate foundations
 
 Sometimes one finds a [[foundation]] of [[predicative mathematics]] in which it appears to be impossible to construct [[quotient sets]], leading to much hand-wringing. (For a simple example, simply remove the axiom of [[power sets]] from [[ZFC]] as normally presented.)  
@@ -94,8 +103,6 @@ A similar result holds for [[SEAR plus epsilon|SEAR+$\epsilon$]].
 * [[equivalence relation]], [[pseudo-equivalence relation]]
 
 * [[homotopy exact completion]]
-
-* [[ring setoid]]
 
 ## References
 
