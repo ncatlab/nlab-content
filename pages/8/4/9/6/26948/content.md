@@ -25,13 +25,13 @@
 
 ## Idea
 
-A [[setoid]] whose [[quotient set]] is a [[monoid]]. Equivalently, a [[thin category|thin]] [[monoidal category|monoidal]] [[groupoid]], or in foundations where groupoids are [[univalent groupoid|univalent]] by default, a [[thin category|thin]] monoidal [[pregroupoid]]. 
+A [[setoid]] or [[Bishop set]] whose [[quotient set]] is a [[monoid]]. Equivalently, a [[thin category|thin]] [[monoidal category|monoidal]] [[groupoid]], or in foundations where groupoids are [[univalent groupoid|univalent]] by default, a [[thin category|thin]] monoidal [[pregroupoid]]. 
 
-“Monoidal setoid” is a placeholder name for a concept which may or may not have another name in the mathematics literature. 
+“Monoidal setoid”, "monoidal Bishop set", and "Bishop monoid" are placeholder names for a concept which may or may not have another name in the mathematics literature. 
 
 ## Definition
 
-Here we assume that setoids are equipped with an [[equivalence relation]] (rather than a [[pseudo-equivalence relation]]). A **monoidal setoid** is a [[setoid]] $(A, \sim)$ with an element $e \in A$ and a function $m:A \times A \to A$ such that 
+Here we assume that setoids or Bishop sets are equipped with an [[equivalence relation]] (rather than a [[pseudo-equivalence relation]]). A **monoidal setoid** or **monoidal Bishop set** or **Bishop monoid** is a [[setoid]] $(A, \sim)$ with an element $e \in A$ and a function $m:A \times A \to A$ such that 
 
 * $m$ preserves the [[equivalence relation]]: for all elements $a \in A$, $b \in A$, $c \in A$, and $d \in A$, if $a \sim c$ and $b \sim d$, then $m(a, b) \sim m(c, d)$. 
 
@@ -68,6 +68,8 @@ Let $A$ be a monoidal setoid, and let $A / \sim$ be its [[quotient set]]. Then t
 
 * [[setoid]]
 
+* [[monoid]]
+
 * [[groupal setoid]]
 
 * [[ring setoid]]
@@ -76,6 +78,12 @@ Let $A$ be a monoidal setoid, and let $A / \sim$ be its [[quotient set]]. Then t
 
 [[!redirects monoidal setoid]]
 [[!redirects monoidal setoids]]
+
+[[!redirects monoidal Bishop set]]
+[[!redirects monoidal Bishop sets]]
+
+[[!redirects Bishop monoid]]
+[[!redirects Bishop monoids]]
 
 [[!redirects thin monoidal groupoid]]
 [[!redirects thin monoidal groupoids]]
@@ -86,8 +94,17 @@ Let $A$ be a monoidal setoid, and let $A / \sim$ be its [[quotient set]]. Then t
 [[!redirects commutative monoidal setoid]]
 [[!redirects commutative monoidal setoids]]
 
+[[!redirects commutative monoidal Bishop set]]
+[[!redirects commutative monoidal Bishop sets]]
+
+[[!redirects commutative Bishop monoid]]
+[[!redirects commutative Bishop monoids]]
+
 [[!redirects braided monoidal setoid]]
 [[!redirects braided monoidal setoids]]
+
+[[!redirects braided monoidal Bishop set]]
+[[!redirects braided monoidal Bishop sets]]
 
 [[!redirects thin braided monoidal groupoid]]
 [[!redirects thin braided monoidal groupoids]]
@@ -98,6 +115,9 @@ Let $A$ be a monoidal setoid, and let $A / \sim$ be its [[quotient set]]. Then t
 [[!redirects symmetric monoidal setoid]]
 [[!redirects symmetric monoidal setoids]]
 
+[[!redirects symmetric monoidal Bishop set]]
+[[!redirects symmetric monoidal Bishop sets]]
+
 [[!redirects thin symmetric monoidal groupoid]]
 [[!redirects thin symmetric monoidal groupoids]]
 
@@ -106,3 +126,6 @@ Let $A$ be a monoidal setoid, and let $A / \sim$ be its [[quotient set]]. Then t
 
 [[!redirects monoidal setoid homomorphism]]
 [[!redirects monoidal setoid homomorphisms]]
+
+[[!redirects monoidal Bishop set homomorphism]]
+[[!redirects monoidal Bishop set homomorphisms]]
