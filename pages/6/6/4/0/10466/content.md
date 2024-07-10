@@ -328,6 +328,14 @@ Discussion of the global equivariant homotopy theory as a [[cohesive (∞,1)-top
 
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (2014)
 
+and further equipped also with smooth structure as required for [[differential cohomology|differential]] [[orbifold cohomology]]: 
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Proper Orbifold Cohomology]]* &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
+
+* [[Adrian Clough]], [[Bastiaan Cnossen]], [[Sil Linskens]]: *Global spaces and the homotopy theory of stacks* &lbrack;[arXiv:2407.06877](https://arxiv.org/abs/2407.06877)&rbrack;
+
+
+
 Discussion of a model structure for global equivariance with respect to [[geometrically discrete ∞-groupoid|geometrically discrete]] [[simplicial groups]]/[[∞-group]] (globalizing the [[Borel model structure]] for [[∞-actions]]) is in 
 
 * [[Yonatan Harpaz]], [[Matan Prasma]], _The Grothendieck construction for model categories_ ([arXiv:1404.1852](http://arxiv.org/abs/1404.1852))
