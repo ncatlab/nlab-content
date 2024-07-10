@@ -248,6 +248,8 @@ For developments of his ideas, see
 
 * [[Geoff Cruttwell]] and [[Jean-Simon Lemay]], _Tangent categories as a bridge between differential geometry and algebraic geometry_, 2023. ([arXiv:2301.05542](https://arxiv.org/abs/2301.05542))
 
+* [[Michael Ching]], _A characterization of differential bundles in tangent categories_ &lbrack;[arXiv:2407.06515](https://arxiv.org/abs/2407.06515)&rbrack;
+
 Representation of this tangent structure as exponentiation by a tangent vector is given in
 
 * [[Richard Garner]], _An embedding theorem for tangent categories_, ([arXiv:1704.08386](https://arxiv.org/abs/1704.08386))
@@ -263,6 +265,10 @@ Weil Prolongation is discussed in the following papers:
 * [[Anders Kock]] (1986). _Convenient vector spaces embed into the Cahiers topos._ Cahiers de topologie et géométrie différentielle catégoriques, 27(1), 3-17 ([pdf](http://www.numdam.org/article/CTGDC_1986__27_1_3_0.pdf))
 
 * Wolfgang Bertram and Arnaud Souvay. _A general construction of Weil functors._ arXiv preprint arXiv:1111.2463 (2011).([arXiv:1111.2463](https://arxiv.org/pdf/1111.2463.pdf))
+
+On [[connections]] in [[algebraic geometry]]:
+
+* G.S.H. Cruttwell, Jean-Simon Pacaud Lemay, Elias Vandenberg, _A Tangent Category Perspective on Connections in Algebraic Geometry_ &lbrack;[arXiv:2406.15137](https://arxiv.org/abs/2406.15137)&rbrack;
 
 An extension of the concept of a tangent bundle category to $(\infty, 1)$-categories is in:
 
