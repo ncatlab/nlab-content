@@ -47,18 +47,21 @@ where $\Sigma(2n)$ is the symmetric group on $2n$ letters. In addition, no monic
 
 * [[Shimshon Amitsur|S. A. Amitsur]], _Polynomial identities_, Israel J. Math __19__ (1974) 183--199 
 
+* [[S. A. Amitsur]], _Associative rings with identities_. In: I. N. Herstein (eds) Some Aspects of Ring Theory. C.I.M.E. Summer Schools __37__. Springer 2010 [doi](https://doi.org/10.1007/978-3-642-11036-8_1)
+
 * J. Levitzki, _A theorem on polynomial identities_, Proc. Amer. Math. Soc. __1__ (1950) 449--463
 
 * Vesselin Drensky, [[Edward Formanek]], *Polynomial identity rings*, Birkhauser (2004) viii+200 pp &lbrack;[doi:10.1007/978-3-0348-7934-7](https://doi.org/10.1007/978-3-0348-7934-7)&rbrack;
 
   review:
 
-  L. Rowen, Bull. AMS __43__ 2 (2006) 259-267 &lbrack;[pdf](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2/S0273-0979-06-01082-2.pdf), [doi:2006-43-02/S0273-0979-06-01082-2](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2)&rbrack;
+  L. Rowen, Bull. AMS __43__ 2 (2006) 259--267 &lbrack;[pdf](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2/S0273-0979-06-01082-2.pdf), [doi:2006-43-02/S0273-0979-06-01082-2](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2)&rbrack;
 
 * Wikipedia: [Polynomial identity ring](https://en.wikipedia.org/wiki/Polynomial_identity_ring), [Amitsur--Levitski theorem](https://en.wikipedia.org/wiki/Amitsur%E2%80%93Levitzki_theorem)
 
-* {#Artin} [[Michael Artin]], _On Azumaya algebras and finite-dimensional representations of rings_, J. Algebra __11__ (1969) 532-563 &lbrack;<a href="https://doi.org/10.1016/0021-8693(69)90091-X">doi:10.1016/0021-8693(69)90091</a>&rbrack;
+* {#Artin} [[Michael Artin]], _On Azumaya algebras and finite-dimensional representations of rings_, J. Algebra __11__ (1969) 532--563 &lbrack;<a href="https://doi.org/10.1016/0021-8693(69)90091-X">doi:10.1016/0021-8693(69)90091</a>&rbrack;
 
+* [[Claudio Procesi]], _On the theorem of Amitsur--Levitzki_, Israel Journal of Mathematics __207__: 151---154 ([arXiv:1308.2421](https://arxiv.org/abs/1308.2421) [doi](https://doi.org/10.1007/s11856-014-1118-8))
 
 category: algebra
 
