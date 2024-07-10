@@ -69,7 +69,7 @@ $$\mathcal{C}(F) \coloneqq \mathrm{Cauchy}(F) / \approx$$
 resulting in a set $\mathcal{C}(F)$ called the **Cauchy quotient**. 
 
 \begin{theorem}
-$\mathrm{Cauchy}(F)$ is an Archimedean ordered [[field setoid]]. 
+$\mathrm{Cauchy}(F)$ is an [[Archimedean ordered field setoid]]. 
 \end{theorem}
 
 \begin{proof}
@@ -81,7 +81,7 @@ $\mathcal{C}(F)$ is an Archimedean ordered field.
 \end{theorem}
 
 \begin{proof}
-The quotient of any ordered field setoid by its equivalence relation is an [[ordered field]], and quotienting preserves the [[Archimedean property]]. Since $\mathrm{Cauchy}(F)$ is an Archimedean ordered field setoid, this implies that $\mathcal{C}(F)$ is an Archimedean ordered field. 
+The quotient of any [[ordered field setoid]] by its equivalence relation is an [[ordered field]], and quotienting preserves the [[Archimedean property]]. Since $\mathrm{Cauchy}(F)$ is an Archimedean ordered field setoid, this implies that $\mathcal{C}(F)$ is an Archimedean ordered field. 
 \end{proof}
 
 \begin{theorem}
