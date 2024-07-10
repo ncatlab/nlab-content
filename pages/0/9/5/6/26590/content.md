@@ -19,7 +19,15 @@
 
 ## Idea
 
-(...)
+De Finetti's theorem is one of the central results of [[probability theory]], and usually refers to any of the following related statements:
+
+* Every [[exchangeable]] [[probability measure]] on an [[infinite product]] is a unique [[mixture]] of [[iid]] ones. 
+* Every infinite sequence of [[exchangeable]] [[random variables]] exhibits [[conditional independence]] given the [[empirical distribution]].
+* Every infinite sequence of [[exchangeable]] [[random variables]] exhibits [[conditional independence]] given the [[exchangeable sigma-algebra]]. 
+
+[[category-theoretic approaches to probability theory|Categorically]], it can equivalently be expressed (see below) as:
+
+* The [[Giry monad]] is the [[limit]] of an [[exchangeable]] process in a category of [[Markov kernels]].
 
 
 ## Motivation
@@ -35,6 +43,10 @@
 
 (...)
 
+## In dagger categories
+
+(For now, see [here](#ergodic_dagger).)
+
 ## Quantum versions
 
 (For now, see the references.)
@@ -45,8 +57,10 @@
 * [[probability theory]], [[categorical probability]]
 * [[infinitary tensor product]], [[Kolmogorov extension theorem]]
 * [[Giry monad]], [[probability monad]], [[Markov category]]
-* [[exchangeability]], [[limit]]
+* [[exchangeability]], [[limit]], [[permutation]]
+* [[ergodicity]], [[ergodic decomposition theorem]]
 
+* Wikipedia, [de Finetti's theorem](https://en.wikipedia.org/wiki/De_Finetti%27s_theorem)
 
 ## References
 
