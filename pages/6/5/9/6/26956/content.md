@@ -57,6 +57,8 @@ In the context of [[excluded middle]], every [[weak local ring setoid]] is a [[l
 
 * Given any [[Archimedean ordered field]] $F$, the set of [[Cauchy sequences]] in $F$ is a local ring setoid. 
 
+* Given any [[Archimedean ordered field]] $F$, the set of all [[locators]] of all elements of $F$ is a local ring setoid.
+
 ## Related concepts
 
 * [[setoid]]
