@@ -95,6 +95,8 @@ A similar result holds for [[SEAR plus epsilon|SEAR+$\epsilon$]].
 
 * [[homotopy exact completion]]
 
+* [[ring setoid]]
+
 ## References
 
 The notion of "[[Bishop sets]]" goes to back the definition of sets in [[constructive mathematics]]/[[constructive analysis]] according to:
