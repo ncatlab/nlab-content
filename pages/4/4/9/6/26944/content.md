@@ -27,10 +27,6 @@
 
 \tableofcontents
 
-+-- {: .query}
-Note: This page is currently a work in progress. 
-=--
-
 ## Idea
 
 The [[Cauchy real numbers]] or [[regular real numbers]] are defined as the [[quotient set]] of [[Cauchy sequences]] of [[rational numbers]] by a suitable equivalence relation, and is provably an [[Archimedean ordered field|Archimedean ordered]] [[field extension]] of the rational numbers.  
@@ -77,7 +73,7 @@ TODO: Adapt the proofs found in section 3.3 of [Murray 2022](#Murray22), as well
 \end{proof}
 
 \begin{theorem}
-$\mathcal{C}(F)$ is an Archimedean ordered field. 
+$\mathcal{C}(F)$ is an [[Archimedean ordered field]]. 
 \end{theorem}
 
 \begin{proof}
