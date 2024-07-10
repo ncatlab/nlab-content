@@ -109,7 +109,7 @@ Similarly, in [[Krn]] and in [[categories of couplings]], the sigma-algebra of a
 * [[infinitary tensor product]], [[Kolmogorov extension theorem]]
 * [[limit]], [[permutation]], 
 * [[invariant measure]], [[invariant sigma-algebra]]
-* [[iid sequence]]
+* [[iid random variables]]
 
 * Wikipedia, [Exchangeable random variables](https://en.wikipedia.org/wiki/Exchangeable_random_variables)
 
