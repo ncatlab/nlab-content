@@ -162,6 +162,8 @@ An abelian group may also be seen as a [[discrete category|discrete]] [[compact 
 
 * [[symmetric midpoint group]]
 
+* [[abelian groupal setoid]]
+
 ## References
 
 Textbook account:
