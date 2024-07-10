@@ -94,14 +94,18 @@ $$
 
 ### $N_\infty$-operads.
 
-The poset of subcommutative [[G-∞ operads]] containing [[E-infinity operad|$\mathbb{E}_\infty$] corresponds with $\mathrm{Index}_G$; these are called *[[N-∞ operads]]* (see there for details).
+The poset of subcommutative [[G-∞ operads]] containing [[E-infinity operad|$\mathbb{E}_\infty$]] corresponds with $\mathrm{Index}_G$; these are called *[[N-∞ operads]]* (see there for details).
 
 (...)
 
 
 ## Related concepts
 
-(...)
+* [[G-operad]], [[N-∞ operad]]
+
+* [[equivariant symmetric monoidal category|G-symmetric monoidal category]]
+
+* [[G-semiadditivity]]
 
 ## References
 
