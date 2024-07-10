@@ -77,3 +77,4 @@ $$
 
 [abc]: https://doi.org/10.1016/0022-1236(92)90025-E
 
+[[equivariant higher algebra - contents]]
