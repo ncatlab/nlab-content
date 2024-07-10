@@ -57,7 +57,9 @@ For many cases of these atomic orbital $\infty$-categories there is a [[conserva
 
 ## Related concepts
 
-* [[equivariant symmetric monoidal category]]
+* [[G-∞-category]], [[equivariant symmetric monoidal category|G-symmetric monoidal category]]
+
+* [[G-operad]]
 
 ## References
 
