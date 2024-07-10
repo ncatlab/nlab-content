@@ -99,6 +99,8 @@ Examples of [[commutative monoids in a symmetric monoidal category]]:
 
 * [[E-infinity algebra]]
 
+* [[G-commutative monoid]]
+
 * [[periodic table]]
 
 * [[commutative monoidal setoid]]
