@@ -59,6 +59,8 @@ A **Heyting field setoid** is a weak Heyting field setoid which is also a [[loca
 
 * Given any [[Archimedean ordered field]] $F$, the set of [[Cauchy sequences]] in $F$ is a field setoid. In constructive mathematics, the set of Cauchy sequences in $F$ is only a Heyting field setoid. 
 
+* Given any [[Archimedean ordered field]] $F$, the set of all [[locators]] of all elements of $F$ is a field setoid. In constructive mathematics, the set of all [[locators]] of all elements of $F$ is only a Heyting field setoid. 
+
 ## Related concepts
 
 * [[setoid]], [[Bishop set]]
@@ -68,6 +70,8 @@ A **Heyting field setoid** is a weak Heyting field setoid which is also a [[loca
 * [[ring setoid]]
 
 * [[local ring setoid]]
+
+* [[ordered field setoid]]
 
 [[!redirects field setoid]]
 [[!redirects field setoids]]
