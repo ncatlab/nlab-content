@@ -69,11 +69,19 @@ $$\mathcal{C}(F) \coloneqq \mathrm{Cauchy}(F) / \approx$$
 resulting in a set $\mathcal{C}(F)$ called the **Cauchy quotient**. 
 
 \begin{theorem}
-$\mathcal{C}(F)$ is an Archimedean ordered field. 
+$\mathrm{Cauchy}(F)$ is an Archimedean ordered field setoid. 
 \end{theorem}
 
 \begin{proof}
 TODO: Adapt the proofs found in section 3.3 of [Murray 2022](#Murray22), as well as in other sources (to be found) for multiplication and division. 
+\end{proof}
+
+\begin{theorem}
+$\mathcal{C}(F)$ is an Archimedean ordered field. 
+\end{theorem}
+
+\begin{proof}
+The quotient of any ordered field setoid by its equivalence relation is an [[ordered field]], and quotienting preserves the [[Archimedean property]]. Since $\mathrm{Cauchy}(F)$ is an Archimedean ordered field setoid, this implies that $\mathcal{C}(F)$ is an Archimedean ordered field. 
 \end{proof}
 
 \begin{theorem}
