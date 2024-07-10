@@ -15,7 +15,7 @@
 
 ## The idea
 
-Young diagrams are used to describe many objects in algebra and combinatorics, including:
+Young diagrams (also called Ferrers diagrams) are used to describe many objects in algebra and combinatorics, including:
 
 * integer [[partitions]].  For example, the integer partition 
 
@@ -214,7 +214,7 @@ More details:
 
 Connection to [[algebraic geometry]]:
 
-* C. de Concini, [[D. Eisenbud]], C. Procesi, _Young diagrams and determinantal varieties_, Invent. Math. __56__ (1980), 129-165.
+* [[Corrado de Concini]], [[D. Eisenbud]], [[Claudio Procesi]], _Young diagrams and determinantal varieties_, Invent. Math. __56__ (1980) 129--165.
 
 With an eye towards application to (the [[standard model of particle physics|standard model]] of) [[particle physics]]:
 
