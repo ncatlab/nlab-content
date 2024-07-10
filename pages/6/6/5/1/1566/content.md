@@ -101,6 +101,8 @@ Examples of [[commutative monoids in a symmetric monoidal category]]:
 
 * [[periodic table]]
 
+* [[commutative monoidal setoid]]
+
 [[!redirects abelian monoids]]
 [[!redirects commutative monoid]]
 [[!redirects commutative monoids]]
