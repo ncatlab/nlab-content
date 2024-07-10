@@ -91,22 +91,6 @@ Since every constant sequence in $F$ is a Cauchy sequence, the composite of the 
 ## As an endofunctor
 
 \begin{theorem}
-Given [[setoids]] $(A, \sim_A)$ and $(B, \sim_B)$ with a [[function]] $f:A \to B$ which preserves and reflects the [[equivalence relations]]. Then there is an injection $[f]:(A / \sim_A) \to (B / \sim_B)$. 
-\end{theorem}
-
-\begin{proof}
-...
-\end{proof}
-
-\begin{theorem}
-Given Archimedean ordered fields $F$ and $K$ with [[ring homomorphism]] $h:F \to K$, there is an injection from $\mathrm{Cauchy}(F)$ to $\mathrm{Cauchy}(K)$ which preserves and reflects the equivalence relations on Cauchy sequences. 
-\end{theorem}
-
-\begin{proof}
-...
-\end{proof}
-
-\begin{theorem}
 Given Archimedean ordered fields $F$ and $K$ with [[ring homomorphism]] $h:F \to K$, there is a [[ring homomorphism]] $\mathcal{C}(h):\mathcal{C}(F) \to \mathcal{C}(K)$ which preserves identity ring homomorphisms and composition of ring homomorphisms. 
 \end{theorem}
 
