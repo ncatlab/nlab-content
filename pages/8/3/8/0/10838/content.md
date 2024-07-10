@@ -5,7 +5,10 @@
 ## Related entries
 
 * [[Amitsur complex]]
+* [[polynomial identity ring]]
+* [[free field]]
 
 [[!redirects Amitsur]]
+[[!redirects S. A. Amitsur]]
 
 category: people
