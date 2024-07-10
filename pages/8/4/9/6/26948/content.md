@@ -45,6 +45,25 @@ $A$ is **[[commutative monoid|commutative monoidal]]** or **[[symmetric monoidal
 
 * Given any [[Archimedean ordered field]] $F$, the set of [[Cauchy sequences]] in $F$ is a [[monoidal setoid]] in two different ways, with respect to addition and with respect to multiplication. 
 
+* The [[quotient set]] of any [[monoidal setoid]] by its [[equivalence relation]] is a monoidal setoid where the equivalence relation is given by equality
+
+* More generally, any [[monoid]] is a monoidal setoid in which the equivalence relation is given by equality. 
+
+## Monoidal setoid homomorphisms
+
+A **monoidal setoid [[homomorphism]]** between two monoidal setoids $A$ and $B$ is a function $h:A \to B$ such that 
+
+* $f$ preserves the equivalence relation: for all $a \in A$ and $b \in A$, $a \sim_A b$ implies $f(a) \sim_B f(b)$
+
+* $f$ preserves the monoidal unit up to equivalence relation: $f(e_A) \sim_B e_B$
+
+* $f$ preserves the monoidal product up to equivalence relation: for all $a \in A$ and $b \in A$, 
+$$f(m_A(a, b)) \sim_B m_B(f(a), f(b))$$
+
+\begin{theorem}
+Let $A$ be a monoidal setoid, and let $A / \sim$ be its [[quotient set]]. Then the function $[-]:A \to (A / \sim)$ which takes an element of $A$ to its [[equivalence class]] is a monoidal setoid homomorphism. 
+\end{theorem}
+
 ## Related concepts
 
 * [[setoid]]
@@ -84,3 +103,6 @@ $A$ is **[[commutative monoid|commutative monoidal]]** or **[[symmetric monoidal
 
 [[!redirects thin symmetric monoidal pregroupoid]]
 [[!redirects thin symmetric monoidal pregroupoids]]
+
+[[!redirects monoidal setoid homomorphism]]
+[[!redirects monoidal setoid homomorphisms]]
