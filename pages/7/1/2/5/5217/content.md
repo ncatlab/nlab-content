@@ -120,6 +120,7 @@ In the other direction, every real field $F$ may be embedded in a [[real closed 
 * [[ordered local ring]]
 * [[ordered Artinian local ring]]
 * [[ordered reduced local ring]]
+* [[ordered field setoid]]
 
 ## References
 
