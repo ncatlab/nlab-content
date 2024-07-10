@@ -16,6 +16,12 @@ On [[smooth ∞-groupoids]] (called "[[differentiable stacks]]") and the [[smoot
 
 * [[Adrian Clough]], *The Homotopy Theory of Differentiable Sheaves*, [talk at](CQTS#CloughOct2023) *[Workshop on Homotopy Theory and Applications](CQTS#WorkshopOnHomotopyTheory2023)*, [[CQTS]] (Oct 2023) &lbrack;video:[YT](https://youtu.be/5NrKo-fPk2A)&rbrack;
 
+On [[global equivariant homotopy theory]] and [[cohesive homotopy theory]] applicable to [[differential cohomology|differential]] [[orbifold cohomology]]:
+
+* [[Adrian Clough]], [[Bastiaan Cnossen]], [[Sil Linskens]]: *Global spaces and the homotopy theory of stacks* &lbrack;[arXiv:2407.06877](https://arxiv.org/abs/2407.06877)&rbrack;
+
+
+
 
 
 category: people
