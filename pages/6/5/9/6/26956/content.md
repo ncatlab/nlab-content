@@ -43,7 +43,8 @@ Here are a few equivalent ways to phrase the combined condition:
 
 * Whenever a sum of products is invertible, for at least one of the summands, all of its multiplicands are invertible.  (This is not entirely trivial in the noncommutative case, but it\'s still correct.)
 
-* The invertible elements form an [[anti-ideal]]: 
+* The invertible elements form an [[anti-ideal]]:
+  * if $a \sim b$, then $a$ is invertible if and only if $b$ is invertible 
   * $0$ is not invertible 
   * if $a + b$ is invertible, then either $a$ is invertible or $b$ is invertible
   * if $a \cdot b$ is invertible, then $a$ is invertible and $b$ is invertible
