@@ -48,6 +48,8 @@ $A$ is **[[commutative ring|commutative]]** or **[[symmetric monoidal category|s
 
 * Given any [[Archimedean ordered field]] $F$, the set of [[Cauchy sequences]] in $F$ is a [[ring setoid]]. 
 
+* Given any [[Archimedean ordered field]] $F$, the set of all [[locators]] of all elements of $F$ is a [[ring setoid]].
+
 * The [[quotient set]] of any [[ring setoid]] by its [[equivalence relation]] is a ring setoid where the equivalence relation is given by equality
 
 * More generally, any [[ring]] is a ring setoid in which the equivalence relation is given by equality. 
