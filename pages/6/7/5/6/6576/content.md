@@ -17,7 +17,7 @@
 
 ### Invariant differential form
 
-A [[differential form]] $\omega \in \Omega_{dR}^p(G)$ on a [[Lie group]] $G$ is called **left invariant** if for every $g \in G$ it is invariant under the [[pullback of differential forms]] 
+A [[differential form]] $\omega \in \Omega_{dR}^p(G)$ on a [[Lie group]] $G$ is called **left invariant** if for every $g \in G$ it is [[invariant]] under the [[pullback of differential forms]] 
 
 \[
   \label{PullbackOfDifferentialFormIsDifferentialForm}
@@ -78,12 +78,19 @@ and the two requirements are equivalent.
 
 ## References
 
+See most textbooks on on [[Lie theory]], e.g.:
+
+* [[Sigurdur Helgason]], *Differential geometry, Lie groups and symmetric spaces*, Graduate Studies in Mathematics **34** (2001) &lbrack;[ams:gsm-34](https://bookstore.ams.org/gsm-34)&rbrack;
+
+* [[François Bruhat]] (notes by S. Ramanan): *Lectures on Lie groups and representations of locally compact groups*, Tata Institute Bombay (1958, 1968) &lbrack;[pdf](https://mathweb.tifr.res.in/sites/default/files/publications/ln/tifr14.pdf), [[Bruhat-LecturesOnLie.pdf:file]]&rbrack;
+
+See also:
+
+* page 89 (20 of 49) at *MIT course on Lie groups* ([pdf 2](http://ocw.mit.edu/courses/mathematics/18-755-introduction-to-lie-groups-fall-2004/lecture-notes/chap2_topic8to14.pdf))
+
+* MathOverflow: *Construction of the Lie functor: left vs. right invariant vector fields on Lie groups and Lie groupoids* &lbrack;[MO:q/178528](https://mathoverflow.net/q/178528/381)&rbrack;
 
 
-* page 89 (20 of 49) at MIT course on Lie groups ([pdf 2](http://ocw.mit.edu/courses/mathematics/18-755-introduction-to-lie-groups-fall-2004/lecture-notes/chap2_topic8to14.pdf))
-* [[Sigurdur Helgason]], _Differential geometry, Lie groups and symmetric spaces_
-* F. Bruhat, _Lectures on Lie groups and representations of locally compact groups_, notes by S. Ramanan, TATA Bombay 1958, 1968, [pdf](http://www.math.tifr.res.in/~publ/ln/tifr14.pdf)
-* MathOverflow: [Construction of the Lie functor: left vs. right invariant vector fields on Lie groups and Lie groupoids](https://mathoverflow.net/questions/178528/construction-of-the-lie-functor-left-vs-right-invariant-vector-fields-on-lie-g)
 
 [[!redirects invariant differential forms]]
 
