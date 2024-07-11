@@ -1,5 +1,3 @@
-[[!redirects N-∞ operads]]
-
 (under construction)
 
 +-- {: .rightHandSide}
