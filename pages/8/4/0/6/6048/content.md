@@ -306,6 +306,12 @@ The generalization of this to $\geq 1/2$ BPS sugra solutions of the form $AdS_4 
 
 * {#MedeirosFigueroa10} [[Paul de Medeiros]], [[José Figueroa-O'Farrill]]: _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. **16** 5 (2012) 1349-1408 &lbrack;[arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [euclid:atmp/1408561553](https://projecteuclid.org/euclid.atmp/1408561553)&rbrack;
 
+Further solutions:
+
+* A. M. Ghezelbash, *M-Branes on Minimal Surfaces* &lbrack;[arXiv:2407.07855](https://arxiv.org/abs/2407.07855)&rbrack;
+
+
+
 Discussion of $G_7$-[[C-field flux quantization]] in the $G_4$-fluxed case:
 
  {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Prop. 4.31 of: _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
