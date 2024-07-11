@@ -24,7 +24,7 @@ In particular:
 
 * An *exchangeable probability measure* is a [[measure]] on a [[product]] space which is invariant under finite [[permutations]] of the coordinates;
 
-* An *exchangeable event* is an [[event]] ([[measurable subset]]) of a [[product space]] which is invariant under finite permutations.
+* An *exchangeable event* is an [[event]] ([[measurable subset]]) of a [[product]] space which is invariant under finite permutations.
 
 (See below for more details.)
 
@@ -42,7 +42,7 @@ $$
 p(\sigma^{-1}(A)) \;=\; p(A) .
 $$
 
-(Note that such a probability measure is often specified by its finite [[marginals]], via the [[Kolmogorov extension theorem]].)
+(Note that such a probability measure is often specified by its finite [[marginal distribution|marginals]], via the [[Kolmogorov extension theorem]].)
 
 A [[sequence]] of [[random variables]] or [[random elements]] $f_n:\Omega\to X$ on a [[probability space]] $(\Omega,\mu)$ is said to be **exchangeable**, or to form an **exchangeable process**, if the resulting [[joint distribution]] on $X^{\mathbb{N}}$ is an exchangeable measure. 
 
