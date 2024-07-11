@@ -328,7 +328,7 @@ Further development includes
 
 * [[Clark Barwick]], [[Daniel Kan]], _A Quillen theorem $B_n$ for homotopy pullbacks_ ([arXiv:1101.4879](http://arxiv.org/abs/1101.4879))
 
-* [[David Roberts]], _[[davidroberts:Theorem A for topological categories]]_
+* [[David Roberts]], _Homotopy types of topological stacks of categories_, New York Journal of Mathematics, Volume 30 (2024), 940-955, [journal version](https://nyjm.albany.edu/j/2024/30-41.html), [arXiv:2204.02778](https://arxiv.org/abs/2204.02778)
 
 For variations of Quillens' Theorem B and its generalizations for [[(infinity,1)-categories]]:
 
@@ -336,9 +336,9 @@ For variations of Quillens' Theorem B and its generalizations for [[(infinity,1)
 
 * {#Cisinski19} [[Denis-Charles Cisinski]], Section 4.6 of _Higher categories and homotopical algebra_, Cambridge Studies in Advanced Mathematics, 2021, &lbrack;[available at the author's webpage](https://cisinski.app.uni-regensburg.de/CatLR.pdf), [doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737)&rbrack;
 
-* {#Arakawa24} [[Kensuke Arakawa]], _A Context for Manifold Calculus_, &lbrack[arXiv:2403.03321](https://arxiv.org/abs/2403.03321)&rbrack;
+* {#Arakawa24} [[Kensuke Arakawa]], _A Context for Manifold Calculus_, [arXiv:2403.03321](https://arxiv.org/abs/2403.03321)
 
-* {#KSW24} [[Eilind Karlsson]], [[Claudia Scheimbauer]], [[Tashi Walde]], _Assembly of Constructible Factorization Algeras_, &lbrack;[arXiv:2403.19472](https://arxiv.org/abs/2403.19472) &rbrack;
+* {#KSW24} [[Eilind Karlsson]], [[Claudia Scheimbauer]], [[Tashi Walde]], _Assembly of Constructible Factorization Algeras_, [arXiv:2403.19472](https://arxiv.org/abs/2403.19472)
 
 
 [[!redirects geometric realization of a category]]
