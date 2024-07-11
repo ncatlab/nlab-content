@@ -59,12 +59,31 @@ In the language of [[probability theory]], we are taking the [[expectation value
 The very similar construction can be given by replacing $\mathbb{R}$ with a generic Banach space, using [[Bochner integrals]]. 
 
 
-### In terms of the Giry monad
+### For probability measures
+
+Given measurable spaces $X$ and $Y$, we can consider the space of probability measures $P Y$ on $Y$, and equip it with its canonical [[sigma-algebra]] (see [[Giry monad]]). 
+This way, a measurable function $f:X\to P Y$ is equivalently a [[Markov kernel]] $k_f:X\to Y$. 
+Given a probability measure $p$ on $X$, the resulting convex mixture is, equivalently, the composition of the Markov kernel with the measure $p$ (seen as a kernel from the one-point space): for every measurable subset $B$ of $Y$,
+$$
+\int_X f(x)(B)\,p(dx) \;=\; \int_X f^\flat(B|x)\,p(dx) .
+$$
+In other words, mixtures of measures are equivalently compositions in the [[Stoch|category of Markov kernels]].
+
+In particular, taking $f$ to be the identity (i.e. nonparametrically), a mixture of probability measures on $Y$ is given by integrating a *probability measure over probability measures* over $Y$, $\pi\in P P Y$:
+$$
+B \;\longmapsto\; \int_{PY} q(B) \, \pi(dq) .
+$$
+This is equivalently the multiplication of the [[Giry monad]] and of most [[probability monads]] (more below).
+
+
+### In terms of monad algebras
 
 The [[Giry monad]] is the most general [[monad of probability measures]] on the category of measurable spaces. 
 [[algebra over a monad|Algebras]] of the Giry monad, therefore, can be interpreted exactly as spaces where one can form arbitrary convex mixtures. This is analogous to how [[convex spaces]], where one can form arbitrary convex combinations, are the algebras of the [[distribution monad]].
 
-Similar notions can be given using other [[probability monads]]. Note that, in order to have a *convex* mixture, one needs a form of normalization.
+In particular, mixtures of probability measures can be seen as instances of the multiplication of the Giry monad, or more generally, as compositions of [[Markov kernels]. Indeed, Markov kernels are the [[Kleisli morphisms]] of the Giry monad, and hence their composition is defined in terms of the monad multiplication.
+
+Similar notions of mixture can be given using other [[probability monads]]. Note that, in order to have a *convex* mixture, one needs a form of normalization.
 
 
 ## Examples
@@ -88,4 +107,4 @@ category: probability, analysis, functional analysis
 
 [[!redirects convex mixtures]]
 [[!redirects mixture]]
-[[!redirects mixture]]
+[[!redirects mixtures]]
