@@ -12,27 +12,29 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-In [[probability theory]], a (usually infinite) sequence is called *exchangeable*, or sometimes *symmetric*, if it is invariant under finite [[permutations]]. 
+In [[probability theory]], a (usually infinite) [[sequence]] is called *exchangeable*, or sometimes *symmetric*, if it is [[invariant]] under finite [[permutations]]. 
 In particular:
 
 * An *exchangeable probability measure* is a [[measure]] on a [[product]] space which is invariant under finite [[permutations]] of the coordinates;
-* An *exchangeable event* is an [[event]] ([[measurable subset]]) of a product space which is invariant under finite permutations.
+
+* An *exchangeable event* is an [[event]] ([[measurable subset]]) of a [[product space]] which is invariant under finite permutations.
 
 (See below for more details.)
 
-Exchangeable random variables and events play a prominent role in [[de Finetti's theorem]] and in the [[Hewitt-Savage zero-one law]]. 
+Exchangeable [[random variables]] and events play a prominent role in [[de Finetti's theorem]] and in the [[Hewitt-Savage zero-one law]]. 
 
 
 ## Exchangeable measures and random variables
 
 Let $X$ be a [[measurable space]], and consider the [[infinite product]] $X^{\mathbb{N}}$. 
-A **finite permutation** is an isomorphism $\sigma:X^{\mathbb{N}}\to X^{\mathbb{N}}$ which is a permutation of finitely many components of $X^{\mathbb{N}}$. (Equivalently, it is induced by finitely many applications of the [[braiding]].)
+A **finite permutation** is an [[isomorphism]] $\sigma \colon X^{\mathbb{N}}\to X^{\mathbb{N}}$ which is a [[permutation]] of finitely many components of $X^{\mathbb{N}}$. (Equivalently, it is induced by finitely many applications of the [[braiding]].)
 
 A [[probability measure]] $p$ on $X^{\mathbb{N}}$ is called **exchangeable** or **symmetric** if and only if it is [[invariant measure|invariant]] under all finite permutations. 
 In other words, if for all finite permutations $\sigma:X^{\mathbb{N}}\to X^{\mathbb{N}}$, the [[pushforward measure]] $\sigma_*p$ is equal to $p$. Even more explicitly, for every [[measurable subset]] $A$ of $X^{\mathbb{N}}$, we have 
@@ -40,9 +42,9 @@ $$
 p(\sigma^{-1}(A)) \;=\; p(A) .
 $$
 
-(Note that such a probability measure is often specified by its finite [[marginals]], by the [[Kolmogorov extension theorem]].)
+(Note that such a probability measure is often specified by its finite [[marginals]], via the [[Kolmogorov extension theorem]].)
 
-A sequence of [[random variables]] or [[random elements]] $f_n:\Omega\to X$ on a [[probability space]] $(\Omega,\mu)$ is said to be **exchangeable**, or to form an **exchangeable process**, if the resulting [[joint distribution]] on $X^{\mathbb{N}}$ is an exchangeable measure. 
+A [[sequence]] of [[random variables]] or [[random elements]] $f_n:\Omega\to X$ on a [[probability space]] $(\Omega,\mu)$ is said to be **exchangeable**, or to form an **exchangeable process**, if the resulting [[joint distribution]] on $X^{\mathbb{N}}$ is an exchangeable measure. 
 
 Similar definitions can be given for a finite product $X^n$. 
 
