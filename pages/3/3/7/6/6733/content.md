@@ -478,6 +478,12 @@ Discussion in terms of [[E11]]-[[U-duality]] and [[current algebra]] is in
 
 * [[Shotaro Shiba]], [[Hirotaka Sugawara]], _M2- and M5-branes in E11 Current Algebra Formulation of M-theory_ ([arXiv:1709.07169](https://arxiv.org/abs/1709.07169))
 
+Further solutions:
+
+* A. M. Ghezelbash, *M-Branes on Minimal Surfaces* &lbrack;[arXiv:2407.07855](https://arxiv.org/abs/2407.07855)&rbrack;
+
+
+
 #### Wrapped on hyperbolic 3-manifolds
 
 Solutions to [[D=11 N=1 supergravity]] describing [[black brane|black]] [[M5-branes]] [[wrapped brane|wrapped]] on [[hyperbolic 3-manifolds]] (with application to the [[3d-3d correspondence]] and [[proof]] of the [[volume conjecture]]):
