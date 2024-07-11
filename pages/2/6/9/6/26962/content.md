@@ -26,7 +26,7 @@
 
 In other words, convex mixtures are given by [[integration|integrating]] a [[function]] with respect to a [[measure]] whose total normalization is one (hence, a [[probability measure]]).
 
-The concept is used in [[analysis]] and [[geometry]] as a generalization of 
+The concept is used in [[analysis]] and [[geometry]] as a generalization of midpoints,
 as well as in [[probability theory]] to take [[expectation values]] of [[random variables]].
 
 In terms of [[category theory]], it is tightly related to the [[Giry monad]] and other [[probability monads]]. 
