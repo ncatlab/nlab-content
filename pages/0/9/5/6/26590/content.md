@@ -25,7 +25,7 @@ De Finetti's theorem is one of the central results of [[probability theory]], an
 * Every infinite sequence of [[exchangeable random variables]] exhibits [[conditional independence]] given the [[empirical distribution]].
 * Every infinite sequence of [[exchangeable random variables]] exhibits [[conditional independence]] given the [[exchangeable sigma-algebra]]. 
 
-The statement involves [[mixtures]] of [[probability measures]], and so probability measures *over* probability measures. This recursive construction is one of the main motivations for introducing [[probability monad|monads in probability theory]].
+The statement involves [[mixtures]] of [[probability measures]], and so probability measures *over* probability measures. This recursive construction is a possible motivation for introducing [[probability monad|monads in probability theory]].
 Indeed, [[category-theoretic approaches to probability theory|categorically]], the theorem can equivalently be expressed as follows:
 
 * The [[Giry monad]] is the [[limit]] of an [[exchangeable]] process in the category of [[Markov kernels]].
@@ -48,15 +48,60 @@ De Finetti's theorem says precisely that for every [[exchangeable]] process we h
 
 ## In measure-theoretic probability
 
-(...)
+Let $X$ be a [[standard Borel space]] (for example, the real line), and form the [[infinite product]] $X^\mathbb{N}$. 
+
+Notice first of all that given the space $P X$ of [[probability measures]] over $X$ (the [[Giry monad]]), the [[iid random variables#iid_samples|iid sampling map]] $samp_\mathbb{N}:P X\to X^\mathbb{N}$ is [[exchangeable]]. In other words, given any finite [[permutation]] of the coordinates $\sigma: X^\mathbb{N}\to X^\mathbb{N}$, and denoting the kernel induced by $\sigma$ again by $\sigma$, the following diagram of [[Markov kernels]] commutes:
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+column sep=large,%
+]
+& X^\mathbb{N} \ar{dd}{\sigma} \\
+PX \ar{ur}{samp_\mathbb{N}} \ar{dr}[swap]{samp_\mathbb{N}} \\
+& X^\mathbb{N}
+\end{tikzcd}
+
+Consider now any (other) [[exchangeable probability measure]] $p$ on $X^\mathbb{N}$. If we write it as a Markov kernel $1\to X^\mathbb{N}$, exchangeability means by definition that, once again, the following diagram commutes for every $\sigma$:
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+column sep=large,%
+]
+& X^\mathbb{N} \ar{dd}{\sigma} \\
+1 \ar{ur}{p} \ar{dr}[swap]{p} \\
+& X^\mathbb{N}
+\end{tikzcd}
+
+A way of stating **de Finetti's theorem** is now to say that $P X$ is the categorical [[limit]] of the diagram formed by the $\sigma$ (the [[group action]] of finite permutations). In other words, given any exchangeable measure $p$ (or more generally any exchangeable kernel), there exists a unique measure (or kernel) $u$ making the following diagram commute:
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+sep=huge,%
+]
+&& X^\mathbb{N} \ar{dd}{\sigma} \\
+1 \ar[dashed]{r}[near end]{u} \ar{urr}{p} \ar{drr}[swap]{p} & PX \ar{ur}[near start, swap]{samp_\mathbb{N}} \ar[near start]{dr}{samp_\mathbb{N}} \\
+&& X^\mathbb{N}
+\end{tikzcd}
+
+Explicitly, this means that we can write $p$ as a [[convex mixture]] (with measure $u$) of [[iid measures]]: for every measurable $A_1,\dots,A_n\subseteq X$,
+$$
+p(A_1\times\dots\times A_n) \;=\; \int_{P X} samp_\mathbb{N}(A_1\times\dots\times A_n|q) \, u(dq) \;=\; \int_{P X} \big(q(A_1)\cdots q(A_n)\big)\,u(dq) .
+$$
+
+This allows to define the space $P X$, i.e. the [[Giry monad]], purely from its universal property. 
+In terms of [[representable presheaves]], one can say that *the space of probability measure represents exchangeable processes*.
+
+Moreover, since the [[iid random variables#iid_samples|iid sampling map]] denotes [[conditional independence]] of its outputs given its input, the theorem implies that the various copies of $X$ are conditionally independent given the distribution ($P X$).
+
 
 ## In Markov categories
 
-(...)
+Just as it happens for [[standard Borel spaces]], in any [[Markov category#representable_markov_categories|representable Markov category]] with [[Markov category#conditionals|conditionals]] and [[Markov category#kolmogorov_products|Kolmogorov products]], a version of de Finetti's theorem holds, and the proof is completely analogous to the measure-theoretic one ([FGP'21](#fritz_definetti)).
+
+Conversely, one can define *de Finetti limits* in a Markov category as particular [[limits]] which are compatible with the Markov structure, and show that such a limit always gives a [[probability monad]], making the Markov category representable ([FFL'23](#quantum_definetti), section 3.6).
+  
 
 ## In dagger categories
 
 (For now, see [here](#ergodic_dagger).)
+
 
 ## Quantum versions
 
@@ -109,7 +154,7 @@ Introductory videos:
 
 * [[Paolo Perrone]], _Universal Properties in Probability Theory_. Keynote talk, Category Theory (CT) 2023. De Finetti theorem starting at time 39:25 ([YouTube](https://youtu.be/gmSlbgmLyVQ?feature=shared&t=2364))
 
-* [[Antonio Lorenzin]], _Involutive Markov categories and the quantum de Finetti theorem_, Oxford Advanced Seminar on Informatic Structures (OASIS), 2023. ([YouTube](https://www.youtube.com/watch?v=OaGzf3KUkTY))
+* Antonio Lorenzin, _Involutive Markov categories and the quantum de Finetti theorem_, The Oxford Advanced Seminar on Informatic Structures (OASIS), 2023. ([YouTube](https://www.youtube.com/watch?v=OaGzf3KUkTY))
 
 
 category: probability
