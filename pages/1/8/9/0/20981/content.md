@@ -24,7 +24,9 @@ On the [[worldline formalism]] for [[perturbative quantum field theory]]:
 
 * James P. Edwards, C. Moctezuma Mata, U. Müller, [[Christian Schubert]], *New techniques for worldline integration* ([arXiv:2106.12071](https://arxiv.org/abs/2106.12071))
 
-* [[Christian Schubert]] et al., *Summing Feynman diagrams in the worldline formalism* &lbrack;[arXiv:2208.06585](https://arxiv.org/abs/2208.06585) &rbrack;
+* [[Christian Schubert]] et al., *Summing Feynman diagrams in the worldline formalism* &lbrack;[arXiv:2208.06585](https://arxiv.org/abs/2208.06585)&rbrack;
+
+* [[Christian Schubert]] et al.: *Worldline integration of photon amplitudes*, talk at *[Loops and Legs in Quantum Field Theory (LL2024)](https://inspirehep.net/conferences/2693400)* &lbrack;[arXiv:2407.07383](https://arxiv.org/abs/2407.07383)&rbrack;
 
 
 Discussion of the [[Schwinger effect]] via [[worldline formalism]]:
