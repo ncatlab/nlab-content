@@ -49,6 +49,19 @@ where the copies of $A$ are disjoint subobjects of $C$ splitting $\sigma$, then 
   Since $x \mapsto x \vee \neg x$ is the characteristic function of $\lambda : 1 \amalg 1 \to L$, the morphism $(\chi^1, \sigma) : C \to L \times A$ pulls $A \times \lambda$ back to a subobject containing $\delta$. Compatibility with $\sigma$ is obvious, and so it is a morphism of cylinder objects.
 \end{proof}
 
+In a topos, lifting problems against monomorphisms can be described in terms of [[partial maps]], giving an elementary characterization of trivial fibrations.
+\begin{proposition} Let $p : X \to S$. Suppose the [[partial map classifier]] $X \hookrightarrow \mathrm{Opt}_S(X)$ exists in the slice category over $S$. Then $\mathrm{Opt}_S(X)$ represents the presheaf (in $A$) of diagrams of the form
+\begin{tikzcd}
+  B \arrow[d, hook] \arrow[r] & X \arrow[d, "p"]
+  \\
+  A \arrow[r] & S
+\end{tikzcd}
+modulo the identification of equivalent subobjects $B \subseteq A$.
+\end{proposition}
+\begin{corollary} If $p : X \to S$ is an arrow in a topos $\mathbf{E}$, it has the right lifting property against monomorphisms iff the inclusion $X \to \mathrm{Opt}_S(X)$ has a retraction.
+\end{corollary}
+For the arrow $p : X \to S$, $X \to \mathrm{Opt}_S(X) \to S$ is, in fact, a factorization of $p$ into a cofibration and a trivial fibration.
+
 \begin{proposition}
 \label{LawvereIntervalIsFibrant}
 The [[subobject classifier]] in any [[topos]] is an [[injective object]], whence the Lawvere interval $L$ (Def. \ref{LawvereInterval}) is a [[fibrant resolution]] of the [[terminal object]] in any [[Cisinski model structure]] on $Psh(A)$.
