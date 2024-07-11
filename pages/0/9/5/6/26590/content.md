@@ -25,14 +25,25 @@ De Finetti's theorem is one of the central results of [[probability theory]], an
 * Every infinite sequence of [[exchangeable random variables]] exhibits [[conditional independence]] given the [[empirical distribution]].
 * Every infinite sequence of [[exchangeable random variables]] exhibits [[conditional independence]] given the [[exchangeable sigma-algebra]]. 
 
-[[category-theoretic approaches to probability theory|Categorically]], it can equivalently be expressed (see below) as:
+The statement involves [[mixtures]] of [[probability measures]], and so probability measures *over* probability measures. This recursive construction is one of the main motivations for introducing [[probability monad|monads in probability theory]].
+Indeed, [[category-theoretic approaches to probability theory|categorically]], the theorem can equivalently be expressed as follows:
 
 * The [[Giry monad]] is the [[limit]] of an [[exchangeable]] process in the category of [[Markov kernels]].
 
 
 ## Motivation
 
-(...)
+There are several ways of motivating de Finetti's theorem. 
+Here is one, which is very close to de Finetti's original motivation, as explained in his original paper ([de Finetti'29](#definetti_og)).
+
+Consider a repeated experiment where we are uncertain about the distribution. For the simplest possible example, imagine repeatedly flipping a coin, but without knowing in advance the bias of the coin.
+One may be tempted to assume that the coin flips are [[stochastic independence|independent]], since "a coin has no memory". However, this is not quite the case:
+
+* What we can say is that the coin flips are [[exchangeable]], since the coin is always the same, and so every flip, and each subsequence of flips, follows the same distribution.
+* However, in general [[stochastic independence|independence]] fails: *there is* hidden information in past flips about future flips: by flipping the coin repeatedly, we can get more and more certain about the coin's bias. (For example, if we keep getting "heads", we may start suspecting that the coin is not fair.)
+* If we instead *know exactly* the bias of the coin, there is no more hidden information that past flips have about future ones. Therefore, *given the bias of the coin*, the flips are [[conditionally independent]].
+
+De Finetti's theorem says precisely that for every [[exchangeable]] process we have [[conditional independence]] of the variables given their [[empirical distribution|distribution]].
 
 
 ## In measure-theoretic probability
@@ -57,12 +68,20 @@ De Finetti's theorem is one of the central results of [[probability theory]], an
 * [[probability theory]], [[categorical probability]]
 * [[infinitary tensor product]], [[Kolmogorov extension theorem]]
 * [[Giry monad]], [[probability monad]], [[Markov category]]
+* [[Hewitt-Savage zero-one law]], [[law of large numbers]]
 * [[exchangeability]], [[limit]], [[permutation]]
 * [[ergodicity]], [[ergodic decomposition theorem]]
 
 * Wikipedia, [de Finetti's theorem](https://en.wikipedia.org/wiki/De_Finetti%27s_theorem)
 
+
 ## References
+
+The original paper by de Finetti:
+
+* {#definetti_og} [[Bruno de Finetti]], _Funzione caratteristica di un fenomeno aleatorio_ (*The characteristic function of a random phenomenon*), Atti del Congresso Internazionale dei Matematici: Bologna, 3-10 settembre 1928 (1929), pages 179-290. ([Full text in Italian](https://docplayer.it/24159-Funzione-caratteristica-di-un-fenomeno-aleatorio.html), [English translation](https://arxiv.org/abs/1512.01229))
+
+Category-theoretic accounts:
 
 * {#definetti_limit} [[Bart Jacobs]], [[Sam Staton]], _De Finetti's construction as a categorical limit_, Proceedings of CMCS, 2021. ([arXiv:2003.01964](https://arxiv.org/abs/2003.01964))
 
@@ -82,7 +101,19 @@ For the quantum case:
 * {#quantum_definetti} [[Tobias Fritz]] and Antonio Lorenzin, _Involutive Markov categories and the quantum de Finetti theorem_, 2023. ([arXiv](https://arxiv.org/abs/2312.09666))
 
 
+Introductory videos:
+
+* [[Tobias Fritz]], _Categorical Probability and the de Finetti theorem_, New York Category Seminar, 2021. ([YouTube](https://www.youtube.com/watch?v=vqyYDHGnDqE))
+
+* [[Paolo Perrone]], _Markov categories: a tutorial_. Applied Category Theory (ACT) 2023, tutorial video. De Finetti's theorem starting at time 1:16:30. ([YouTube](https://youtu.be/9U5w3EMHio8?feature=shared&t=4590))
+
+* [[Paolo Perrone]], _Universal Properties in Probability Theory_. Keynote talk, Category Theory (CT) 2023. De Finetti theorem starting at time 39:25 ([YouTube](https://youtu.be/gmSlbgmLyVQ?feature=shared&t=2364))
+
+* [[Antonio Lorenzin]], _Involutive Markov categories and the quantum de Finetti theorem_, Oxford Advanced Seminar on Informatic Structures (OASIS), 2023. ([YouTube](https://www.youtube.com/watch?v=OaGzf3KUkTY))
+
+
 category: probability
+
 
 [[!redirects de Finetti theorem]]
 [[!redirects De Finetti's theorem]]
