@@ -102,7 +102,7 @@ Review:
 * James P. Edwards, [[Christian Schubert]],
 *Quantum mechanical path integrals in the first quantised approach to quantum field theory*, ([arXiv:1912.10004](https://arxiv.org/abs/1912.10004))
 
-Exposition with an eye towards [[quantum gravity]] is in
+Exposition with an eye towards [[quantum gravity]]:
 
 * {#Witten11} [[Edward Witten]], from 30:40 on in _Quantum Gravity_, Solomon Lefschetz Memorial Lecture Series, November 2011 ([video](https://www.youtube.com/watch?v=uRdCJMYc2Ds#t=15))
 
@@ -155,6 +155,8 @@ Further development:
 * Naser Ahmadiniaz, Victor Miguel Banda Guzman, Fiorenzo Bastianelli, Olindo Corradini, James P. Edwards, [[Christian Schubert]], _Worldline master formulas for the dressed electron propagator, part 2: On-shell amplitudes_ ([arXiv:2107.00199](https://arxiv.org/abs/2107.00199)) 
 
 * [[Christian Schubert]] et al., *Summing Feynman diagrams in the worldline formalism* &lbrack;[arXiv:2208.06585](https://arxiv.org/abs/2208.06585) &rbrack;
+
+* [[Christian Schubert]] et al.: *Worldline integration of photon amplitudes*, talk at *[Loops and Legs in Quantum Field Theory (LL2024)](https://inspirehep.net/conferences/2693400)* &lbrack;[arXiv:2407.07383](https://arxiv.org/abs/2407.07383)&rbrack;
 
 
 
