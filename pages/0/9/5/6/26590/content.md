@@ -19,16 +19,18 @@
 
 ## Idea
 
-De Finetti's theorem is one of the central results of [[probability theory]], and usually refers to any of the following related statements:
+*De Finetti's theorem* is one of the central results of [[probability theory]], and usually refers to any of the following related statements:
 
 * Every [[exchangeable probability measure]] on an [[infinite product]] is a unique [[mixture]] of [[iid]] ones. 
-* Every infinite sequence of [[exchangeable random variables]] exhibits [[conditional independence]] given the [[empirical distribution]].
+
+* Every infinite [[sequence]] of [[exchangeable random variables]] exhibits [[conditional independence]] given the [[empirical distribution]].
+
 * Every infinite sequence of [[exchangeable random variables]] exhibits [[conditional independence]] given the [[exchangeable sigma-algebra]]. 
 
-The statement involves [[mixtures]] of [[probability measures]], and so probability measures *over* probability measures. This recursive construction is a possible motivation for introducing [[probability monad|monads in probability theory]].
+The statement involves [[mixtures]] of [[probability measures]], and so probability measures *over* probability measures. This [[recursion|recursive]] construction is one motivation for introducing [[probability monad|monads in probability theory]].
 Indeed, [[category-theoretic approaches to probability theory|categorically]], the theorem can equivalently be expressed as follows:
 
-* The [[Giry monad]] is the [[limit]] of an [[exchangeable]] process in the category of [[Markov kernels]].
+* *The [[Giry monad]] is the [[limit]] of an [[exchangeable]] process in the category of [[Markov kernels]].*
 
 
 ## Motivation
@@ -36,7 +38,7 @@ Indeed, [[category-theoretic approaches to probability theory|categorically]], t
 There are several ways of motivating de Finetti's theorem. 
 Here is one, which is very close to de Finetti's original motivation, as explained in his original paper ([de Finetti'29](#definetti_og)).
 
-Consider a repeated experiment where we are uncertain about the distribution. For the simplest possible example, imagine repeatedly flipping a coin, but without knowing in advance the bias of the coin.
+Consider a repeated experiment where we are uncertain about the probability distribution of the outcomes. For the simplest possible example, imagine repeatedly flipping a coin, but without knowing in advance the bias of the coin.
 One may be tempted to assume that the coin flips are [[stochastic independence|independent]], since "a coin has no memory". However, this is not quite the case:
 
 * What we can say is that the coin flips are [[exchangeable]], since the coin is always the same, and so every flip, and each subsequence of flips, follows the same distribution.
