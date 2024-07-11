@@ -15,7 +15,11 @@
 
 The generalization of [[Teichmüller theory]] to [[arithmetic geometry]] has been called _inter-universal Teichmüller theory_ (often abbreviated _IUTT_) by [[Shinichi Mochizuki]]. It is a part of [[anabelian geometry]].
 
-{#InterUniversal} The term "inter-universal" apparently refers to the fact that the theory is meant to formulated explicitly in a way that respects [[universe enlargement]], hence that it is [[universe polymorphism|universe polymorphic]] ([IUTT IV, remark 3.1.4](#IUTTIV), [Yamashita 13](#Yamashita13)).
+{#InterUniversal} The term "Inter-Universal" refers to Mochizuki's Key Principle of Inter-Universality [IUTT I, Section I3, Page 25-26] which requires one to work with arbitrary geometric base-points for the tempered fundamental groups. 
+
+A choice of a geometric base-point for the tempered fundamental group corresponds to a choice of a fiber functor for the galois category of tempered coverings. Hence Mochizuki asserts [IUTT I, Section I3 Page 25-26] that the idea of working with distinct geometric base-points is tantamount to relating the distinct set-theoretic universes the fiber functors arise from and  so theory is referred to as being inter-universal. [The fundamental group is, of course, independent (or agnostic) of the choice of the fiber functor, i.e. it is an object which is oblivious to the choice of the set theoretic universe it arises from.]
+
+Hence Mochizuki has asserted that this  theory is meant to formulated explicitly in a way that respects [[universe enlargement]], hence that it is [[universe polymorphism|universe polymorphic]] ([IUTT IV, remark 3.1.4](#IUTTIV), [Yamashita 13](#Yamashita13)).
 
 It is claimed ([IUTT IV](#IUTTIV)) that a proof of the [[abc conjecture]] can be given in IUTT. In 2018, a document [[why_abc_is_still_a_conjecture.pdf:file]] was written by [[Peter Scholze]] and [[Jakob Stix]] raising objections to the argument. More accurate critiques have appeared as a part of the works of [[Kirti Joshi]] on the theory of Arithmetic Teichmuller Spaces which includes, in dimension one and genus one, a precise version of Mochizuki's IUTT. 
 
