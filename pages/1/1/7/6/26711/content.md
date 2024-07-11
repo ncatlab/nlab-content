@@ -12,6 +12,8 @@ $G$-$\infty$-operads are to [[(∞,1)-operads]] as [[equivariant symmetric monoi
 
 * [[N-∞ operads]]
 
+* [[EV operads]]
+
 ## Related concepts
 
 * [[Parametrized Higher Category Theory and Higher Algebra]]
