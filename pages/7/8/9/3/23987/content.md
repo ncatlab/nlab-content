@@ -3554,8 +3554,21 @@ Neumann algebras**
 \end{imagefromfile}
 
 
+\linebreak
+
+### Jul 2024
+
+* [[Urs Schreiber]]: 
+
+  *[[schreiber:QPL2024|Topological Quantum Programming via Linear Homotopy Types]]*
+
+  talk at *[Quantum Physics and Logic (QPL 2024)](https://qpl2024.dc.uba.ar/)*
+
+  
 
 \linebreak
+
+
 
 ***
 
