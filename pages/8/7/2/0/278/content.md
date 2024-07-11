@@ -154,8 +154,9 @@ the study of [[curves]]  and [[surfaces]] [[embedding of smooth manifolds|embedd
 
 * [[Michael Spivak]], _A comprehensive introduction to differential geometry_, 5 Volumes 2005
 
-
 * [[M M Postnikov]], _Lectures on geometry_ 2001 (6 vols.: 1 "Analytic geometry", 2 "Linear algebra", 3 "Diff. manifolds"; 4 "Diff. geometry" (covers extensively fibre bundles and connections); 5 "Lie groups"; 6 "Riemannian geometry")
+
+* [[Sigurdur Helgason]], *Differential geometry, Lie groups and symmetric spaces*, Graduate Studies in Mathematics **34** (2001) &lbrack;[ams:gsm-34](https://bookstore.ams.org/gsm-34)&rbrack;
 
 * [[Peter W. Michor]], _Topics in Differential Geometry_, Graduate Studies in Mathematics 93 (2008) &lbrack;[pdf](https://www.mat.univie.ac.at/~michor/dgbook.pdf)&rbrack;
 
