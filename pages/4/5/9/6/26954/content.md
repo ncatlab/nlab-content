@@ -10,7 +10,23 @@ The notion of _regular directed complex_, introduced by [[Amar Hadzihasanovic]],
 
 ## Definition 
 
+In this framework, a pasting diagram will be encoded as an _oriented graded poset_ (Def. \ref{ogpos}), which is a poset, whose [[covering relation|covering diagram]] is graded, and each edge possess an orientation. To see this consider the following pasting diagram (referred in this page as the **running pasting diagram**)
+\begin{tikzcd}
+                                                                    &  & {}                             &  &                   &  &   \\
+x \arrow[rrrr, "f"', bend right=60] \arrow[rrrr, "g", bend left=60] &  &                                &  & y \arrow[rr, "h"] &  & z \\
+                                                                    &  & {} \arrow[uu, "s", Rightarrow] &  &                   &  &  
+\end{tikzcd}
+and the covering diagram associated to it
+\begin{tikzcd}
+s \arrow[d, "-" description, no head] \arrow[rd, "+" description, no head]              &                                                                                          &                                       \\
+f \arrow[rd, "+" description, no head, shift right] \arrow[d, "-" description, no head] & g \arrow[ld, "-" description, no head, shift left=2] \arrow[d, "+" description, no head] & h \arrow[d, "+" description, no head] \\
+x                                                                                       & y \arrow[ru, "-" description, no head]                                                   & z                                    
+\end{tikzcd}
+
+
 ### Basic order theory
+
+Before defining the class of oriented graded poset that counts as pasting diagrams, we introduce some terminology.
 
 \begin{definition}\label{ogpos}
 **(oriented graded poset)** \linebreak
@@ -24,25 +40,96 @@ An **oriented graded poset** is a graded poset together with a sign $\alpha \in 
 
 \end{definition}
 
+
+\begin{remark}
+The grading function of an oriented graded poset defines a notion of dimension of an element. For instance, in the running pasting diagram, the dimensions of $x, f, s$ are repectively $0, 1, 2$. If $P$ is an oriented graded poset, we write $P_n$ for its elements of dimension $n$.
+\end{remark}
+
 \begin{definition}\label{faces}
 **(faces)** \linebreak
 
-Let $P$ be an oriented graded poset. For all $x$ in $P$, and $\alpha = -$ (resp. $\alpha = +$), we define the **input** (resp. **output**) **face**
+Let $P$ be an oriented graded poset. For all $x$ in $P$, and $\alpha = -$ (resp. $\alpha = +$), we define the **input** (resp. **output**) **faces**
 $$
     \Delta^\alpha x \coloneqq \{ y \in P \mid x \;\text{covers}\; y \;\text{with orientation}\; \alpha \}.
 $$
 
+Dually, we define the **input** (repso. **output**) **cofaces**
+$$
+    \nabla^\alpha x \coloneqq \{ y \in P \mid y \;\text{covers}\; x \;\text{with orientation}\; \alpha \}.
+$$
+
 \end{definition}
 
+\begin{definition}\label{cat_ogpos}
+**$\mathbf{ogPos}$**\linebreak
 With that, we can define a morphism $f \colon P \to Q$ of oriented graded posets to be a function of the underlying sets such that, for all $x \in P$ and $\alpha \in \{ -, + \}$, $f$ induces a bijection between $\Delta^\alpha x$ and $\Delta^\alpha f(x)$.
 
 Oriented graded posets and morphisms form the [[category]] $\mathbf{ogPos}$.
 
-(todo: boundaries, round, max element, passage ogpos to pasting diagram)
+\end{definition}
+
+
+\begin{definition}\label{maximal_element}
+**(maximal element)**\linebreak
+
+An element $x$ of an oriented graded poset is **maximal** if for $\alpha \in \{ -, + \}$, $\nabla^\alpha x = \emptyset$, that is, $x$ is maximal if it is covered by no element.
+
+\end{definition}
+
+
+\begin{definition}\label{boundaries}
+**(boundaries)** \linebreak
+
+Let $U$ be a closed subset of an oriented graded poset, let $\alpha = -$ (resp. $\alpha = +$), and let $n \in \mathbb{N}$, let
+$$
+    \Delta^\alpha_n U \coloneqq \{ x \in U_n \mid \nabla^{- \alpha} x \cap U = \emptyset \}. 
+$$
+The **input** (reps. **output**) **$n$-boundary** is the closed subset
+$$
+    \partial^\alpha_n U \coloneqq \mathrm{cl}(\Delta^\alpha_n U) \cup \bigcup_{k \lt n} \mathrm{cl}(\mathrm{Max} U)_k.
+$$
+
+\end{definition}
+
+In the running pasting diagram, calling it $U$, we have
+$$
+\partial^-_1 U = \{ x, f, y \},
+$$
+and
+$$
+\partial^+_0 U = \{ z \}.
+$$
+
+\begin{notation}
+We write 
+$$
+\partial_n U \coloneqq \partial^-_n U \cup \partial^+_n U ,
+$$
+$$
+\Delta U \coloneqq \Delta^- U \cup \Delta^+ U,
+$$
+etc... The general convention is that if the superscript $\alpha$ is not provided to an operator, it is the union of the operator with $\alpha = -$, and with $\alpha = +$.
+
+Similarly, if the subscript $n$ is not provided, it means "the dimension of the oriented graded poset minus 1", that is, we write:
+$$
+\partial^- U \coloneqq \partial^-_{\dim U - 1} U.
+$$
+We also combine both in $\partial U$.
+\end{notation}
+  
+\begin{remark}
+For any $\alpha, n$, $\partial^\alpha_n U$, $\partial_n U$, etc.. are subsets of $U$, and the inclusion they defines
+$$
+\partial^\alpha_n U \hookrightarrow U \quad\quad \partial_n U \hookrightarrow U \quad\quad \text{etc},
+$$
+are all morphisms of oriented graded posets.
+\end{remark}
+
+The last bit of terminology we introduce is (todo: globularity and roundness) 
 
 ### Inductive construction of molecules.
 
-We will now construct inductively a well-formed class of oriented graded posets, called the **molecules**, which model _composable_ pasting diagrams. There are 3 constructors: 
+We can now construct inductively a well-formed class of _globular_ oriented graded posets, called the **molecules**, which model _composable_ pasting diagrams. There are 3 constructors: 
 
 *  (Point) the terminal oriented graded poset $\mathbf{1}$ is a molecule.
 *  (Paste) if $U, V$ are two molecules of dimensions $\gt n$ such that $\partial^+_n U \cong \partial^-_n V$, we compose them via the following pushout:
