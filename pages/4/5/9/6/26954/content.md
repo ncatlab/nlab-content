@@ -26,7 +26,7 @@ x                                                                               
 
 ### Basic order theory
 
-Before defining the class of oriented graded poset that counts as pasting diagrams, we introduce some terminology.
+Of course, not all oriented graded poset will lead to a well-formed pasting diagram: before defining the one that will count, we introduce some terminology.
 
 \begin{definition}\label{ogpos}
 **(oriented graded poset)** \linebreak
@@ -115,6 +115,12 @@ $$
 \partial^- U \coloneqq \partial^-_{\dim U - 1} U.
 $$
 We also combine both in $\partial U$.
+
+Last, if the index $n$ is negative, the result is the empty set, for instance,
+$$
+\partial^-_{- 1} U \coloneqq \emptyset,
+$$
+etc.
 \end{notation}
   
 \begin{remark}
@@ -125,7 +131,21 @@ $$
 are all morphisms of oriented graded posets.
 \end{remark}
 
-The last bit of terminology we introduce is (todo: globularity and roundness) 
+The last bit of terminology we introduce is roundness. Consider a topological $n$-[[ball]] $U$, and its boundary the $n$-[[sphere]] $\partial U$. The latter is made of the gluing of two $(n - 1)$-balls $\partial^- U$ and $\partial^+ U$ along an $(n - 1)$-sphere $\partial_{n - 2} U$, in particular:
+$$
+ \partial^- U \cap \partial^+ U = \partial_{n - 2} U. 
+$$ 
+Similarly, $\partial U$ is an $(n - 1)$-sphere, which is made of a copie of two $(n - 2)$-balls which intersect at an $(n - 2)$-sphere, etc.. We will say that an oriented graded poset is round if it satisfies similar intersection conditions.
+
+\begin{definition}\label{round}
+**round**\linebreak
+
+Let $P$ be an oriented graded poset of dimension $n$. We say that $P$ is round if for all $0 \le k \lt n$, we have
+$$
+  \partial^-_k P \cap \partial^+_k P = \partial_{k - 1} P.
+$$ 
+
+\end{definition}
 
 ### Inductive construction of molecules.
 
@@ -165,10 +185,21 @@ Now we use (Atom) to construct $(\vec I \#_0 \vec I) \Rightarrow \vec I$:
 \end{tikzcd}
 (which is also the second [[oriental]]).
 
-\begin{definition}\label{rdcpx}
-**Regular directed complex** \linebreak
+\begin{definition}\label{atom}
+**([[atom]])**\linebreak
 
-A **regular directed complex** is an oriented graded poset $P$ such that for all $x$ in $P$, $\mathrm{cl}(x)$ is an atom.
+An **atom** is a molecule with a maximal element.
+   
+\end{definition}
+
+\begin{lemma}\label{atomAtomPoint}
+If a molecule $U$ is an atom, then $U$ was produced by either (Point) or (Atom).  
+\end{lemma}
+
+\begin{definition}\label{rdcpx}
+**(regular directed complex)** \linebreak
+
+A **regular directed complex** is an oriented graded poset $P$ such that for all $x$ in $P$, $\mathrm{cl}(x)$ is an [[atom]].
   
 \end{definition}
 
@@ -188,9 +219,43 @@ Isomorphisms of molecules are unique.
 \begin{proof}
 See ([Corollary 3.4.12](#Hadzihasanovic2024))
 \end{proof}
-## Examples
 
-(todo)
+\begin{proposition}
+Any molecule $U$ is **globular**, that is, for all $\alpha, \beta \in \{ -, + \}$ and all $k \lt n$, we have
+$$
+\partial^\alpha_k(\partial^\beta_n U) = \partial^\alpha_k U. 
+$$
+\end{proposition}
+
+\begin{proposition}
+Let $U, V$ be molecules such that $U \#_k V$ is defined, let $\alpha \in \{ -, + \}$ and $n \geq 0$, then
+$$
+\partial^\alpha_n (U \#k V) =
+\begin{cases}
+\partial^\alpha_n U = \partial^\alpha_n V & \text{if}\; n \lt k, \\
+\partial^-_k U &\text{if}\; n = k, \alpha = -, \\
+\partial^+_k V &\text{if}\; n = k, \alpha = +, \\
+\partial^\alpha_n U \#_k \partial^\alpha_n V &\text{if}\; n \gt k.
+\end{cases}
+$$
+\end{proposition}
+
+\begin{proposition}
+ Let $U, V, W$ be molecules such that $(U \#_k V) \#_k W$ is defined, then
+$$
+(U \#_k V) \#_k W = U \#_k (V \#_k W).
+$$
+\end{proposition}
+
+\begin{proposition}
+ Let $U, V, U', V'$ be molecules, let $k \lt n$ such that $(U \#_n U') \#_k (V \#_n V')$ is defined, then
+$$
+(U \#_n U') \#_k (V \#_n V') = (U \#_k V) \#_n (U' \#_k V').
+$$
+\end{proposition}
+
+
+## Examples
 
 
 ## References
