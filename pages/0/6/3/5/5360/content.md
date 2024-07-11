@@ -61,20 +61,25 @@ This amounts to an involutory [[quandle]] object $Q$ in the category of smooth m
 
 ## References
 
+* {#Loos69I} Ottmar Loos, _Symmetric Spaces I: General Theory_,  Benjamin (1969) &lbrack;[pdf](https://www2.math.upenn.edu/~wziller/math661/LoosI.pdf)&rbrack;
 
-The definition in terms of quandles coincides with the classical definition in the case of connected symmetric spaces.  For details, including a comparison of other definitions of symmetric space, see:
+* {#Loos69II} Ottmar Loos, _Symmetric Spaces II: Compact spaces and classification_,  Benjamin (1969) 
 
-* Wolgang Bertram, _The geometry of Jordan and Lie structures_, Lecture Notes in Mathematics **1754**, Springer, Berlin, 2000.
 
-The relation to quandles is given in Theorem I.4.3.  Bertram attributes this result to part I, chapter II of
+* [[Sigurdur Helgason]], *Group representations and symmetric spaces*, Proc. Internat. Congress Math. Nice 1970, Vol. 2 book no 10, Gauthier-Villars (1971) 313-320 &lbrack;[pdf](https://math.mit.edu/~helgason/group_representations.pdf), [pdf](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0313.0320.ocr.pdf), [djvu](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0313.0320.ocr.djvu)&rbrack;
 
-* Ottmar Loos, _Symmetric Spaces I, II_, Chapter II, Benjamin, New York, 1969.
+* [[Sigurdur Helgason]], *Geometric Analysis on Symmetric Spaces*,  Mathematical Surveys and Monographs **39** (1994) &lbrack;[doi:10.1090/surv/039](https://doi.org/10.1090/surv/039)&rbrack;
 
-See also:
+* [[Sigurdur Helgason]], *Differential geometry, Lie groups and symmetric spaces*, Graduate Studies in Mathematics **34** (2001) &lbrack;[ams:gsm-34](https://bookstore.ams.org/gsm-34)&rbrack;
 
-* Sigurdur Helgason, _Differential geometry, Lie groups and symmetric spaces_,
 
-* S. Helgason, _Group representations and symmetric spaces_, Proc. ICM. Nice 1970, vol. 2, 313-320, [pdf](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0313.0320.ocr.pdf), [djvu](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0313.0320.ocr.djvu) 
+The definition in terms of [[quandles]] coincides with the classical definition in the case of connected symmetric spaces.  For details, including a comparison of other definitions of symmetric space, see:
+
+* Wolgang Bertram, _The geometry of Jordan and Lie structures_, Lecture Notes in Mathematics **1754**, Springer (2000) &lbrack;[doi:10.1007/b76884](https://doi.org/10.1007/b76884)&rbrack;
+
+  > The relation to quandles is given in Theorem I.4.3.  where this result is attributed to chapter II of [Loos 1969 I](#Loos69II).
+
+
 
 [[!redirects symmetric spaces]]
 
