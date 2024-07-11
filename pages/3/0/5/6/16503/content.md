@@ -71,6 +71,8 @@ The details of this example, due to [[Dana Scott|D. Scott]], are described in ([
 
 ## Related concepts
 
+* [[iid random variables]]
+
 * [[probability theory]]
 
 * [[probability monad]]
