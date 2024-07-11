@@ -86,4 +86,6 @@ Similar notions can be given using other [[probability monads]]. Note that, in o
 category: probability, analysis, functional analysis
 
 
+[[!redirects convex mixtures]]
+[[!redirects mixture]]
 [[!redirects mixture]]
