@@ -62,10 +62,31 @@ In a topos, [[lifting problems]] against [[monomorphisms]] can be described in t
 \end{tikzcd}
 modulo the identification of equivalent subobjects $B \subseteq A$.
 \end{proposition}
-\begin{corollary} If $p : X \to S$ is an arrow in a topos $\mathbf{E}$, it has the [[right lifting property]] against monomorphisms iff the inclusion $X \to \mathrm{Opt}_S(X)$ has a retraction.
-\end{corollary}
 
-For the arrow $p : X \to S$, $X \to \mathrm{Opt}_S(X) \to S$ is, in fact, a factorization of $p$ into a cofibration and a trivial fibration.
+\begin{corollary} If $p : X \to S$ is an arrow in a topos $\mathbf{E}$, it has the [[right lifting property]] against monomorphisms iff the restriction $X \times L \to \mathrm{Opt}_S(X)$ is a split epi.
+\end{corollary}
+\begin{proof} $X \times L$ represents the presheaf (in $A$) of all such diagrams that have a filler $A \to X$, since $X \to A$ determines the lower triangle and from that, $X \to L$ determines the upper triangle.
+
+Thus $p$ has the claimed property iff $X \to L \to \mathrm{Opt}_S(X)$ represents an epimorphism of presheaves, which is equivalent to being a split epi.
+\end{proof}
+
+\begin{proposition} If $p : X \to S$ is an arrow in a topos $\mathbf{E}$, it has the [[right lifting property]] against monomorphisms iff the insertion $X \hookrightarrow \mathrm{Opt}_S(X)$ has a retraction.
+\end{proposition} 
+\begin{proof} By the properties of [[partial map classifier]]s, every lifting problem has a unique factorization
+\begin{tikzcd}
+  B \arrow[d, hook] \arrow[r] & X \arrow[r, equals] \arrow[d, hook] & X \arrow[d, "p"]
+  \\
+  A \arrow[r] & \mathrm{Opt}_S(X) \arrow[r] & S
+\end{tikzcd}
+where the left square is a pullback. So $p$ has the right lifting property against the mono $X \to \mathrm{Opt}_S(X)$ iff it has the right lifting property against all monos.
+\end{proof}
+
+\begin{corollary} If $p : X \to S$ is an arrow in a topos $\mathbf{E}$, then $ X \hookrightarrow \mathrm{Opt}_S(X) \to S $
+is a factorization into a monomorphism followed by a morphism with the [[right lifting property]] against monomorphisms.
+\end{corollary}
+\begin{proof} In any topos (in particular $\mathbf{E}_{/S}$), the both inclusions $\mathrm{Opt}(X) \hookrightarrow \mathrm{Opt}(\mathrm{Opt}(X))$ are split by the operation of taking the intersection of domains.
+\end{proof}
+The argument spelled out in the case of $X = 1$ and $\mathrm{Opt}(X) = L$ is spelled out in
 
 \begin{proposition}
 \label{LawvereIntervalIsFibrant}
