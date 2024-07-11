@@ -21,6 +21,8 @@ A choice of a geometric base-point for the tempered fundamental group correspond
 
 Hence Mochizuki has asserted that this  theory is meant to formulated explicitly in a way that respects [[universe enlargement]], hence that it is [[universe polymorphism|universe polymorphic]] ([IUTT IV, remark 3.1.4](#IUTTIV), [Yamashita 13](#Yamashita13)).
 
+While [IUTT I-IV] offers scant mathematical justification  of the Teichmuller aspects of the theory (i.e. [IUTT I-IV] provides no mathematical justification  why the theory is a Teichmuller Theory), a clearest proof of this Teichmuller aspect has been provided (in all dimensions) in the works of [[Kirti Joshi]]. 
+
 It is claimed ([IUTT IV](#IUTTIV)) that a proof of the [[abc conjecture]] can be given in IUTT. In 2018, a document [[why_abc_is_still_a_conjecture.pdf:file]] was written by [[Peter Scholze]] and [[Jakob Stix]] raising objections to the argument. More accurate critiques have appeared as a part of the works of [[Kirti Joshi]] on the theory of Arithmetic Teichmuller Spaces which includes, in dimension one and genus one, a precise version of Mochizuki's IUTT. 
 
 
