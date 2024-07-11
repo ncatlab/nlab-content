@@ -22,13 +22,13 @@ Indexed coproducts are to [[coproducts]] as [[equivariant symmetric monoidal cat
 ## Definition
 
 \begin{definition}
-If $\mathcal{C}$ is a [[G-∞-category]], $H \subset G$ a [[subgroup]], and $S$ a finite [[G-set|H-set]], by composing the diagonal functor  with restriction, we have a functor
+If $\mathcal{C}$ is a [[G-∞-category]], $H \subset G$ a [[subgroup]], and $S$ a [[finite set|finite]] [[G-set|H-set]], by composing the [[diagonal functor]]  with [[restriction]], we have a [[functor]]
 $$
   \Delta^S:\mathcal{C}_H \xrightarrow{\Delta} \prod_{H/K_i \in \mathrm{Orb}(S)} \mathcal{C}_{H} \xrightarrow{\Res} \prod_{H/K_i \in \mathrm{Orb}(S)} \mathcal{C}_{K_i}.
 $$
-If a pointwise left adjoint to $\Delta^S$ exists at a tuple $(X_{K_i})$, then the resulting object is denoted $\coprod_{K_i}^H X_{K_i}$ and called the **$S$-indexed coproduct of $(X_{K_i})$.**
+If a pointwise [[left adjoint]] to $\Delta^S$ exists at a [[tuple]] $(X_{K_i})$, then the resulting object is denoted $\coprod_{K_i}^H X_{K_i}$ and called the **$S$-indexed coproduct of $(X_{K_i})$.**
 
-Dually, if a pointwise right adjoint to $\Delta^S$ exists at a tuple $(X_{K_i})$, then the resulting object is denoted $\prod_{K_i}^H X_{K_i}$ and called the **$S$-indexed product of $(X_{K_i})$.**
+Dually, if a pointwise [[right adjoint]] to $\Delta^S$ exists at a tuple $(X_{K_i})$, then the resulting object is denoted $\prod_{K_i}^H X_{K_i}$ and called the **$S$-indexed product of $(X_{K_i})$**.
 
 \end{definition}
 
@@ -51,3 +51,8 @@ In higher category theory,
 * {#Shah18} [[Jay Shah]], _Parametrized higher category theory_, ([arXiv:1809.05892](https://arxiv.org/abs/1809.05892))
 
 * [[Jay Shah]], _Parametrized higher category theory II: Universal constructions_, ([arXiv:2109.11954](https://arxiv.org/abs/2109.11954))
+
+[[!redirects indexed coproducs]]
+
+[[!redirects indexed product]]
+[[!redirects indexed products]]
