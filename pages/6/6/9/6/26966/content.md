@@ -2,7 +2,7 @@ Equivariant categories and symmetric monoidal categories
 
 * [[G-∞-category]]
 
-* [[indexed coproduct]]
+* [[indexed coproduct]] / [[G-semiadditivity]]
 
 * [[equivariant symmetric monoidal category|G-symmetric monoidal ∞-category]]
 
