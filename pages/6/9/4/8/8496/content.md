@@ -20,7 +20,7 @@
 
 ## Idea
 
-For $A$ a [[monoid]] equipped with an [[action]] on an object $V$, an **invariant** of the action is an [[generalized element|element]] of $V$ which is taken by the action to itself, hence a [[fixed point]] for all the operations in the monoid.
+For $A$ a [[monoid]] equipped with an [[action]] on an [[object]] $V$ (often: a [[group]] with a [[group action]] on $V$), an **invariant** of the action is an [[generalized element|element]] of $V$ which is taken by the action to itself, hence which is a [[fixed point]] for all the operations of the monoid.
 
 ## Definitions
 
@@ -272,6 +272,10 @@ $$
 * [[topological invariant]]/[[homeomorphism invariant]]
 
 * [[homotopy invariant]]
+
+* [[invariant differential form]]
+
+\linebreak
 
 [[!include homotopy type representation theory -- table]]
 
