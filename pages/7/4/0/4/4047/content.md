@@ -22,9 +22,14 @@ A **ribbon category** &lbrack;[Reshetikhin & Turaev (1990)](#ReshetikhinTuraev90
 A [[braided monoidal category]] is a [[monoidal category]] $\mathcal{C}$ equipped with a [[braiding]] $\beta$, which is a [[natural isomorphism]] $\beta_{X,Y}\colon X \otimes Y \to Y \otimes X$ obeying the [[hexagon identities]].
 
 A braided monoidal category is *[[rigid monoidal category|rigid]]* if, for every [[object]] $X$, there exist objects $X^{\vee}$ and ${^{\vee}}X$ (called its [[dualisable object|right and left dual]]) and associated morphisms
-$$b_X:\mathbb{1}\to X\otimes X^{\vee}, d_X: X^{\vee}\otimes X\to \mathbb{1}$$
-$$b_X:\mathbb{1}\to {^{\vee}}X\otimes X, d_X: X\otimes {^{\vee}}X\to \mathbb{1}$$
-obeying the zig-zag identities.
+$$b_X:\mathbb{1}\to X^{\vee}\otimes X, d_X: X\otimes X^{\vee}\to \mathbb{1}$$
+$$b_X:\mathbb{1}\to X\otimes {^{\vee}}X, d_X: {^{\vee}}X\otimes X\to \mathbb{1}$$
+obeying the zig-zag identities:
+
+$$(d_X\otimes \text{id}_X)\circ (\text{id}_X\otimes b_{X})=\text{id}_{X},$$
+
+$$(\text{id}_{X^{\vee}}\otimes d_{X})\circ ( b_{X}\otimes \text{id}_{X^{\vee}})=\text{id}_{X^{\vee}}.$$
+
 
 A **twist** on rigid braided monoidal category is a [[natural isomorphism]] from the [[identity functor]] to itself, with components $\theta_X \colon X \to X$ for which
 $$\theta_{X\otimes Y}=\beta_{Y,X}\beta_{X,Y}\theta_{X}\otimes \theta_{Y},$$
