@@ -81,7 +81,11 @@ $$
   \,.
 $$
 
-(See [Baez-Huerta 09, p. 33-36](#BaezHuerta09) for a fairly comprehensive discussion. See also e.g. [HMY 13, p. 2](#HMY13).)
+(See [Baez-Huerta 09, p. 33-36](#BaezHuerta09) for a fairly comprehensive discussion; also e.g. [HMY 13, p. 2](#HMY13).
+
+This is in the sense that all *known* [[elementary particles]] in the standard model are [[invariant]] under this $\mathbb{Z}/6$ subgroup. In principle it could be that as yet undetected heavy particles break this invariance after all, cf. [Li & Xu 2024](#LiXu24).)
+
+
 
 Strikingly, this  exact gauge group (eq:ExactGSM) of the standard model of particle physics happens to coincide with... 
 
@@ -280,6 +284,12 @@ and with an eye towards [[intersecting D-brane models]]L
 and with emphasis of the [[effective field theories]] involved ([[chiral perturbation theory]], [Fermi's theory](effective+quantum+field+theory#FermiTheoryOfWeakInteractions)):
 
 * [[Luis Alvarez-Gaumé]], [[Miguel A. Vázquez-Mozo]], *Lectures on Field Theory and the Standard Model: A Symmetry-Oriented Approach* &lbrack;[arXiv:2306.08097](https://arxiv.org/abs/2306.08097)&rbrack;
+
+More on the issue of the exact gauge group:
+
+* {#LiXu24} Hao-Lin Li, Ling-Xiao Xu, *Understanding the SM gauge group from SMEFT* &lbrack;[arXiv:2404.04229](https://arxiv.org/abs/2404.04229)&rbrack;
+
+
 
 On [[subgroups]] of Clifford algebras reminiscent of [[gauge groups]] of relevance in the [[standard model of particle physics]] and [[grand unified theories]] thereof:
 
