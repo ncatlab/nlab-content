@@ -1,4 +1,3 @@
-
 # Contents
 * this block creates the table of contents, leave as is
 {: toc}
@@ -33,17 +32,17 @@ Of course, not all oriented graded poset will lead to a well-formed pasting diag
 
 \begin{definition}\label{ogpos}
 **(oriented graded poset)** \linebreak
-A **graded poset** is a poset together with a rank function $\mathrm{dim} \colon P \to \mathbb{N}$ such that
+A **graded poset** is a poset together with a rank function $\dim \colon P \to \mathbb{N}$ such that
 
-*  if $x \lt y$, then $\mathrm{dim} x \lt \mathrm{dim} y$, 
-*  if $x$ [[covering relation|covers]] $y$, then $\mathrm{dim} x = \mathrm{dim} y + 1$.
+*  if $x \lt y$, then $\dim x \lt \dim y$, 
+*  if $x$ [[covering relation|covers]] $y$, then $\dim x = \dim y + 1$.
 
 An **oriented graded poset** is a graded poset together with a sign $\alpha \in \{ -, + \}$ for each edge in its covering diagram.
 \end{definition}
 
 
 \begin{remark}
-The grading function of an oriented graded poset defines a notion of dimension of an element. For instance, in the running pasting diagram, the dimensions of $x, f, s$ are repectively $0, 1, 2$. If $P$ is an oriented graded poset, we write $P_n$ for its elements of dimension $n$.
+The grading function of an oriented graded poset defines a notion of dimension of an element. For instance, in the running pasting diagram, the dimensions of $x, f, s$ are repectively $0, 1, 2$. If $P$ is an oriented graded poset, we write $P_n$ for its elements of dimension $n$. Further, the dimension of an oriented graded poset is the maximal of the dimension of its elements. 
 \end{remark}
 
 \begin{definition}\label{faces}
@@ -87,7 +86,7 @@ $$
 
 In the running pasting diagram, calling it $U$, we have
 $$
-    \partial^-_1 U = \{ x, f, y \},
+    \partial^-_1 U = \{ x, f, y, g, z \},
 $$
 and
 $$
@@ -203,7 +202,7 @@ is a regular directed complex but not a molecule.
 
 ## Properties
 
-It seems that the above construction of molecules depends on the choice of an isomorphism during the construction. However we prove already:
+It may seem that the above construction of molecules depends on the choice of an isomorphism during the construction. However we prove already:
 
 \begin{proposition}
 Isomorphisms of molecules are unique.
@@ -214,7 +213,31 @@ See ([Corollary 3.4.12](#Hadzihasanovic2024))
 
 We will write $U = V$ to mean that there exists a unique isomorphism between $U$ and $V$.
 
+\begin{proposition}
+The underlying poset of any regular directed complex $P$ is **oriented thin**. This means that any [[interval ]] $[x, y]$ in $P$ with $\dim x + 2 = \dim y$ contains exactly 4 elements $x \lt t, t' \lt y$, with orientation satisfying
+\begin{tikzcd}
+    & y                                                                          &                                  \\
+t \arrow[ru, "\alpha", no head] &                                                                            & t' \arrow[lu, "\beta"', no head] \\
+    & x \arrow[ru, "-\alpha\beta\gamma"', no head] \arrow[lu, "\gamma", no head] &                                 
+\end{tikzcd}
+\end{proposition}
 
+\begin{remark}
+The above Proposition is still still true when considering the augmentation of $P$ (see Def. \ref{augmentation_diminution}). This additional result translates into the fact that any 1-dimensional element in $P$ has exactly one negative face and one positive face.
+\end{remark}
+
+Common properties of molecules include:
+\begin{proposition}
+Let $U$ be a molecule. Then
+
+*  for all $\alpha \in \{ -, + \}, n \geq \dim U$, $\partial^\a_n U = U$. In fact, $\dim U = \min \{ n \geq 0 \mid \partial^\a_n U = U \}$.
+*  for all $\alpha \in \{ -, + \}, n \geq 0$, $\partial^\a_n U$ is a molecule, and if $n \le \dim U$, then $\dim \partial^\a_n U = n$;
+*  $U$ is [[connected space|connected]], that is, $U$ is non-empty, and for all closed subsets $V, W \subseteq U$ such that $U = V \cup W$ and $V \cap W = \emptyset$, then $V = \emptyset$ or $W = \emptyset$;
+*  if $U$ is round, then $\mathrm{Max}(U) = U_{\dim U}$ (we say that $U$ is **pure**).
+*  if $U$ is an atom, then $U$ is round.
+
+
+\end{proposition}
 ### Strict $\omega$-[[strict omega-category|categorical]] structure.
 
 The category of molecule, with pastings $\#_n$ and boundaries $\partial^\alpha_n$ satisfies all the axioms of strict $\omega$-categories. More precisely, we have the following results.
@@ -266,7 +289,7 @@ $$
 $$
 \end{proposition}
 
-\begin{corollary}
+\begin{corollary}\label{molecules_are_w_cat}
 The set of all molecules is a strict $\omega$-[[strict omega-category|category]], with 
 
 *  source and target given by the boundaries;
@@ -284,6 +307,81 @@ sending $U \to P$ to $U \to P \stackrel{f}{\to} Q$. This defines a functor $\mat
 \end{proposition}
 
 
+## Submolecule and layering
+
+### Submolecule
+
+\begin{definition}
+**(submolecule inclusion)**
+The class of **submolecule inclusions** is the smallest subclass of inclusions of molecules containing all isomorphisms, closed under composition, and for all molecules $U, V$ such that $U \#_n V$ is defined, both $U \hookrightarrow U \#_n V$ and $V \hookrightarrow U \#_n V$ are submolecule inclusions.
+\end{definition}
+
+Not all inclusions of molecule are submolecule inclusion, but notably, we have the following:
+\begin{proposition}
+
+*  Any boundary inclusion $\partial^\alpha_n U \hookrightarrow U$ is a submolecule inclusion;
+*  If $V$ is an atom, then any inclusion $V \hookrightarrow U$ is a submolecule inclusion.
+
+\end{proposition}
+
+\begin{notation}
+Let $U, V$ be two molecules such that $U \subseteq V$. We write $U \sqsubseteq V$ to signify that the canonical inclusion $U \hookrightarrow V$ is a submolecule inclusion. For instance, for all $x \in V$, $\mathrm{cl}(x) \sqsubseteq V$.
+\end{notation}
+
+### Layering
+\begin{definition}
+**(layering)**\linebreak
+Let $U$ be a molecule, let $-1 \leq k \lt \dim U$, and
+$$
+    m \coloneqq \card(\bigcup_{i \gt k} (\mathrm{Max} U)_i).
+$$
+A **$k$-layering** of $U$ is a sequence $(U^{(i)})_{1 \le i \le m}$ such that
+$$
+    U = U^{(1)} \#_k \ldots \#_k U^{(m)}
+$$
+and $\dim U^{(i)} \gt k$.
+\end{definition}
+
+\begin{example}
+For instance let $O^1$ be $\mathbf{1} \Rightarrow \mathbf{1}$ (i.e. $O^1 = \vec I$) and $O^2$ be $O^1 \Rightarrow O^1$, then the molecule 
+\begin{tikzcd}
+    &  & {}                        &  &                     &  &  &                                                                &  & {}                        &  &         \\
+\bullet \arrow[rrrr, bend right=49] \arrow[rrrr, bend left=49] &  &                           &  & \bullet \arrow[rrr] &  &  & \bullet \arrow[rrrr, bend right=49] \arrow[rrrr, bend left=49] &  &                           &  & \bullet \\
+    &  & {} \arrow[uu, Rightarrow] &  &                     &  &  &                                                                &  & {} \arrow[uu, Rightarrow] &  &        
+\end{tikzcd}
+has no -1-layering, one 0-layering
+$$
+    O^2 \#_0 O^1 \#_0 O^2,
+$$
+and two 1-layerings: calling $U \coloneqq (O^2 \#_0 O^1 \#_0 O^1)$ and $U' \coloneqq (O^1 \#_0 O^1 \#_0 O^2)$, then the molecule is both equal to $U \#_1 U'$ and $U' \#_1 U$.
+\end{example}
+
+\begin{definition}
+**(layering dimension)**\linebreak
+Let $U$ be a molecule, the **layering dimension** of $U$ is the integer
+$$
+    \mathrm{lydim} U \coloneqq \min \{ k \geq -1 \mid \card(\bigcup_{i \gt k + 1} (\mathrm{Max} U)_i) \le 1 \}
+$$
+\end{definition}
+
+The main theorem about layering is as follows:
+\begin{theorem}\label{molecule_has_layering}
+Let $U$ be a molecule, $\mathrm{lydim} \le k \lt \dim U$. Then $U$ admits a $k$-layering.
+\end{theorem}
+
+Other useful results include:
+\begin{proposition}\label{properties_layering}
+Let $U$ be a molecule, and let $(U^{(i)})_{1 \le i \le m}$ be a $k$-layering of $U$. Then
+
+*  $k = -1$ if an only if $U$ is an atom;
+*  if $k \geq 0$, then $m \gt 1$ and $\mathrm{lydim} U^{(i)} \lt k$;
+*  $U$ admits an $l$ layering for $k \le l \lt \dim U$.
+
+Furthermore, if $V$ is another molecule such that $U \#_n V$ is defined, then
+$$
+    \mathrm{lydim} (U \#_n V) \geq \max \{  \mathrm{lydim} U,  \mathrm{lydim} V, n \}.
+$$
+\end{proposition}
 
 ## Operations
 
@@ -296,7 +394,7 @@ Regular directed complexes are closed under many relevant operations useful for 
 Let $P, Q$ be oriented graded posets. The **Gray product** of $P$ and $Q$ is the oriented graded poset $P \otimes Q$ whose
 
 *  underlying graded poset is the cartesian product $P \times Q$,
-*  orientation is defined, for all $(x, y) \in P \times Q$ and $\a \in \{ -, + \}$, by the equation $\Delta^\a(x, y) = \Delta^\a x \times \{ y \} + \{ x \} \times \Delta^{(-)^{\mathrm{dim} x} \a} y$.
+*  orientation is defined, for all $(x, y) \in P \times Q$ and $\a \in \{ -, + \}$, by the equation $\Delta^\a(x, y) = \Delta^\a x \times \{ y \} + \{ x \} \times \Delta^{(-)^{\dim x} \a} y$.
 
 \end{definition}
 
@@ -321,7 +419,7 @@ The Gray product is associtive and has [[unit object|unit]] the point $\mathbf{1
 
 Similarly, we can take the join of regular directed complexes. Unfolding the defintion can be quite involved, but once we have the Gray product, we can take the following shortcut.
 
-\begin{definition}
+\begin{definition}\label{augmentation_diminution}
 **(augmentation and diminution)**\linebreak
 Let $P$ be an oriented graded poset. 
 
@@ -398,13 +496,45 @@ Let $U$ be a molecule, we need to prove that for all $x \in U$, $\mathrm{cl}(x)$
 
 ### Other methods
 
+The proof by **induction on submolecules** allows us to prove a statement $\mathcal{P} \implies \mathcal{Q}$ for all molecules as follows: assume that a molecule $U$ satisfies $\mathcal{P}$, then
 
-(todo: submolecule induction, layering)
+*  we prove that $\{ x \}$ satisfies $\mathcal{Q}$ for all $x \in U_0$ (the base case);
+*  we prove that $U$ satisfies $\mathcal{Q}$ under the assumption that every proper submolecule $V \sqsubseteq U$ satisfies $\mathcal{Q}$
+
+This induction principle is justified since every proper submolecule of $U$ has stricly fewer elements than $U$, and the set of minimal elements for $\sqsubseteq$ is presicely $U_0$. 
+
+\begin{example}
+The proof that molecules are stable under Gray product uses induction on submolecules.
+\end{example}
+
+Another proof technique is the **induction on the layering dimension**: to prove that a property holds for all molecules U, it suffices to
+
+*  prove that it holds when $\mathrm{lydim} U = -1$, i.e. when $U$ is an atom (base case)
+*  prove that it holds when $k \coloneqq \mathrm{lydim} U \geq 0$, assuming that it holds of all the $(U^{(i)})_{1 \le i \le m}$ in any $k$-layering of $U$.
+
+Indeed, by Theorem \ref{molecule_has_layering}, any molecule has a layering, and by Proposition \ref{properties_layering} gives the well-foundedness. 
+
+For instance, let us prove the following:
+\begin{proposition}
+The set of atoms forms a basis for the strict $\omega$-category of molecules of Corollary \ref{molecules_are_w_cat}. That is, any molecule can be written as a composition of atoms, and the set of atoms is minimal (in the sense that if any other set generating the molecules by composition contains the atoms, then it is the atoms).
+\end{proposition}
+\begin{proof}
+We prove the first part by induction on the layering dimension of $U$. If $\mathrm{lydim} U = -1$, then $U$ is an atom, thus trivially the a composition of atoms. Suppose $k \coloneqq \mathrm{lydim} U \gt -1$, and take a $k$-layering of $U$
+$$
+    U = U^{(1)} \#_k \ldots \#_k U^{(m)},
+$$
+with $\mathrm{lydim} U^{(i)} \lt k$. Then by induction, each $U^{(i)}$ is a composition of atoms, thus so is $U$.
+
+To prove minimality, we can proceed by structural induction (see [Proposition 5.2.7](#Hadzihasanovic2024)).
+\end{proof}
+
+
+## Geometric realization
+
+(todo)
 
 ## References
 
 The main reference on regular directed complexes:
 
 * {#Hadzihasanovic2024} [[Amar Hadzihasanovic]], _Combinatorics of higher-categorical diagrams_, 2024 ([link](https://arxiv.org/abs/2404.07273))
-
-(todo)
