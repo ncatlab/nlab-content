@@ -50,7 +50,7 @@ $$
 where again we make use of the [[Kolmogorov extension theorem]] to define the kernel in terms of its finite [[marginal distribution|marginals]].
 
 
-One way of stating [[de Finetti's theorem]] is by saying that the map $samp_\mathbb{N}:P X\to X^N$ is a [[limit]] cone over an [[exchangeable process]].
+One way of stating [[de Finetti's theorem]] is by saying that the map $samp_\mathbb{N}:P X\to X^\mathbb{N}$ is a [[limit]] cone over an [[exchangeable process]].
 
 
 ### In categorical probability
@@ -79,6 +79,8 @@ In Markov categories, one can model iid samples using the *copy map* (see at [[M
 * [[de Finetti's theorem]], [[Hewitt-Savage zero-one law]], [[Kolmogorov zero-one law]], [[law of large numbers]]
 
 * [[infinitary tensor product]], [[Kolmogorov extension theorem]]
+
+* [[Markov category]], [[sampling map]]
 
 * [[ergodic system]], [[Bernoulli shifts]]
 
