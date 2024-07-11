@@ -22,14 +22,14 @@
 
 ## Idea
 
-A *convex mixture* is to a [[convex combination]] as a [[sum]] is to an [[integral]]. 
+*Convex mixtures* are to  [[convex combinations]] as [[integrals]] are to an [[sums]]. 
 
-In other words, it is given by integrating a function with respect to a [[measure]] whose total normalization is one. (Hence, a [[probability measure]].)
+In other words, convex mixtures are given by [[integration|integrating]] a [[function]] with respect to a [[measure]] whose total normalization is one (hence, a [[probability measure]]).
 
 The concept is used in [[analysis]] and [[geometry]] as a generalization of 
 as well as in [[probability theory]] to take [[expectation values]] of [[random variables]].
 
-In terms of category theory, it is tightly related to the [[Giry monad]] and other [[probability monads]]. 
+In terms of [[category theory]], it is tightly related to the [[Giry monad]] and other [[probability monads]]. 
  
 
 ## Constructions
@@ -37,12 +37,12 @@ In terms of category theory, it is tightly related to the [[Giry monad]] and oth
 ### For real numbers
 
 Let $X$ be a [[measurable space]]. 
-We can view a function $f:X\to\mathbb{R}$ as an indexed collection of numbers. 
-If $X$ is finite, one can take the \emph{average}, or \emph{midpoint}:
+We can view a function $f \colon X\to\mathbb{R}$ as an [[indexed set|indexed collection]] of [[real numbers]]. 
+If $X$ is [[finite set|finite]], one can take the \emph{average}, or \emph{midpoint}:
 $$
 \dfrac{f(x_1)+\dots+f(x_n)}{n}
 $$
-More generally, given a probability distribution $p$ on $X$, one can take the *weighted average*, or convex combination,
+More generally, given a [[probability distribution]] $p$ on $X$, one can take the *weighted average*, or convex combination,
 $$
 \sum_{x\in X} f(x)\,p(x) .
 $$
@@ -50,7 +50,7 @@ The resulting number is a convex combination of the numbers $f(x)$.
 
 Convex mixtures generalize this to the infinite case: if the function $f$ is [[measurable function|measurable]], given a [[probability measure]] $p$ on $X$, one can take, if it exist, the [[integral]]
 $$
-\int_X f(x) \,p(dx) .
+\int_X f(x) \,p(dx) \,.
 $$
 One can view the resulting value as a mixture, analogous to a convex combination, of the points $f(x)$. (More precisely, of the points in the support of the [[pushforward measure]] $f_p$ on $\mathbb{R}$.)
 
