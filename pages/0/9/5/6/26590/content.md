@@ -19,7 +19,7 @@
 
 ## Idea
 
-*De Finetti's theorem* is one of the central results of [[probability theory]], and usually refers to any of the following related statements:
+*De Finetti's theorem* is one of the central results of [[probability theory]], and it usually refers to any of the following related statements:
 
 * Every [[exchangeable probability measure]] on an [[infinite product]] is a unique [[mixture]] of [[iid]] ones. 
 
@@ -84,7 +84,7 @@ sep=huge,%
 
 Explicitly, this means that we can write $p$ as a [[convex mixture]] (with measure $u$) of [[iid measures]]: for every measurable $A_1,\dots,A_n\subseteq X$,
 $$
-p(A_1\times\dots\times A_n) \;=\; \int_{P X} samp_\mathbb{N}(A_1\times\dots\times A_n|q) \, u(dq) \;=\; \int_{P X} \big(q(A_1)\cdots q(A_n)\big)\,u(dq) .
+p(A_1\times\dots\times A_n) \;=\; \int_{P X} samp_\mathbb{N}(A_1\times\dots\times A_n|q) \, u(d q) \;=\; \int_{P X} \big(q(A_1)\cdots q(A_n)\big)\,u(d q) .
 $$
 
 This allows to define the space $P X$, i.e. the [[Giry monad]], purely from its universal property. 
