@@ -16,6 +16,12 @@ On [[quantum Schubert cells]]:
 
 * [[Milen Yakimov]], _Spectra and catenarity of quantum Schubert cells_, Glasgow Mathematical Journal __55__(A), 169--194 (2013) [doi](https://doi.org/10.1017/S0017089513000578)
 
+On orbits, under the action of the torus, of the symplectic leaves on the rectangular matrix variety
+
+* K. A. Brown, [[K. R. Goodearl]], M. Yakimov, _Poisson structures on affine spaces and flag varieties. I. Matrix affine Poisson space_, Adv. Math. __206__:2 (2006) 567--629 [doi](https://doi.org/10.1016/j.aim.2005.10.004)
+
+* K Goodearl, M Yakimov, _Poisson structures on affine spaces and flag varieties. II. General case_, Trans. Amer. Math. Soc. 
+
 category: people
 [[!redirects Milen T. Yakimov]]
 [[!redirects M. T. Yakimov]]
