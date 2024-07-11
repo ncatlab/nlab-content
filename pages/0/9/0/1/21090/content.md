@@ -1976,7 +1976,7 @@ A Markov category $C$ is called **representable** if any of the conditions of th
 The category *FinStoch* is not representable, since the objects are finite sets, and the set of distribution $P X$ over a finite set $X$ (with more than two elements) would be infinite. 
 It is however a subcategory of the Kleisli category of the [[distribution monad]], of *all sets* and all [[stochastic maps]] between them. 
 
-By means of the [[Yoneda lemma]], we can equivalently define a distribution object as an object $P X$ together with a distinguished morphism $P X\to X$, which we denote by "$samp$", such that the map
+By means of the [[Yoneda lemma]], we can equivalently define a distribution object as an object $P X$ together with a distinguished morphism $P X\to X$, which we denote by "$samp$" and call the [[sampling map]], such that the assignment
 \begin{tikzcd}[%
 nodes={scale=1.25}, arrows={thick},%
 row sep=0,%
@@ -1986,9 +1986,9 @@ f \ar[mapsto]{r} & \mathrm{samp}\circ f
 \end{tikzcd}
 is a bijection for all objects $A$.
 
-This map can be thought of as being the *universal* random map, in the sense that by the bijection above, every Kleisli morphism can be seen as the composition of $samp$ with a deterministic map.
+The map $samp$ can be thought of as being the *universal* random map, in the sense that by the bijection above, every Kleisli morphism can be seen as the composition of $samp$ with a deterministic map.
 
-From the point of view of probability theory, in [[Stoch]], we can view this map $P X\to X$ as taking a distribution $p\in P X$, and returning a random point of $X$ distributed according to $p$. In other words, it is _sampling_ from $p$.
+From the point of view of probability theory, in [[Stoch]], we can view this map $P X\to X$ as taking a distribution $p\in P X$, and returning a random point of $X$ distributed according to $p$. In other words, it is [[sampling map|sampling]] from $p$.
 
 This also corresponds to the idea of sampling in [[probabilistic programming]], (see [[monad (in computer science)]]).
 
@@ -2225,7 +2225,7 @@ For example, [[BorelStoch]] has all conditionals, and $ProbStoch(BorelStoch)$ is
 
 ## Quantum versions 
 
-(...)
+(For now, see the references.)
 
 
 ## History
