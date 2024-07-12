@@ -358,6 +358,8 @@ Discussion form the point of view of [[quantum probability]] is in
 
 category: probability
 
+[[!redirects conditional expectations]]
+
 [[!redirects conditional probability]]
 [[!redirects conditional probabilities]]
 
