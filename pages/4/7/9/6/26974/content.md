@@ -31,9 +31,13 @@
 
 ## Idea
 
-An *invariant measure* is a measure which is [[invariant]] under the [[action]] of a [[group]] or [[monoid]].
+An *invariant measure* (a.k.a. *stationary* or *steady*) is a [[measure]] which is [[invariant]] under the [[action]] of a [[group]] or [[monoid]], often playing the role of [[time]], or a [[symmetry]] of the system.
+
+An action with an invariant measure is sometimes called a *stationary* or *steady-state* system.
 
 It is an important concept in [[probability theory]], [[dynamical systems]], [[statistical physics]], and [[representation theory]].
+It is one of the weakest form to mathematically formalize the idea of [[equilibrium]].
+
 
 ## Definitions
 
@@ -45,11 +49,23 @@ $$
 p(m^{-1}(A)) \;=\; p(A) .
 $$
 
+A space $X$ together with an action of $M$ and a stationary measure $M$ is sometimes called a **stationary system**.
+In particular, a [[stochastic process]] whose underlying [[joint distribution]] is invariant is called a **stationary process**.
+
+Note that, similarly to [[invariant sets]], if a measure is invariant, it does *not* in general mean that *each point in the support of the measure is an invariant point*.
+The points may move, but their distribution overall is kept constant.
+For example, the [[Lebesgue measure]] on the [[unit circle]] (given by the [[length]]) is invariant under [[rotations]], but no point of the circle is invariant.
+
+
 ### Examples
 
 * The [[Haar integral|Haar measure]] on a [[compact]] [[topological group]] $G$ is invariant for the action of $G$ on itself, given by left multiplication.
 
 * An [[exchangeable measure]] on a [[product]] space $X^\mathbb{N}$ is invariant under the action of finite [[permutations]].
+
+* A single measurable function $f:X\to X$ generates a monoid (the ont of [[natural numbers]]). In this case, an invariant measure $p$ simply needs to satisfy $f_*p=p$.
+
+* In [[statistical physics]], [[Liouville's theorem]] says that the distribution function of the [[phase space]] is invariant under the action of [[Hamiltonian flow]].
 
 
 ### Actions via Markov kernels
@@ -65,22 +81,55 @@ $$
 
 In this case, a measure $p$ on $X$ is **invariant** or **stationary** if and only if for all $m\in M$, and for all measurable $A\subseteq X$,
 $$
-\int_X k_m(A|x) \, p(d x) \;=\; p(A) .
+\int_X k_m(A|x) \, p(d x) \;=\; p(A) ,
 $$
+that is, each kernel $k_m$ [[Markov kernel#measurepreserving_kernels|preserves]] the measure $p$.
+
+A [[probability space]] together with a measure-preserving kernel is sometimes called a **stationary [[Markov chain]]**.
 
 
-## In terms of category theory
+## Category-theoretic description
 
-(...)
+A [[group]] or [[monoid]] $M$ can be seen (via [[delooping]]) as a one-object [[category]] $B M$, and an [[action]] of $M$ on a measurable space $X$ can be seen as a [[functor]] $B M\to Meas$ (the [[category of measurable spaces]]) or $B M\to Stoch$ (the [[category of Markov kernels]]). (Since [[Markov kernel#kernels_from_deterministic_functions|every measurable function canonically defines a Markov kernel]], without loss of generality we can take the category of kernels in both cases.)
+As a [[diagram]], it has a single object, and a [[loop]] for each element of $M$:
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+sep=huge,%
+]
+X \ar[out=60,in=120,loop,"e",swap,distance=1.5cm] \ar[out=132,in=192,loop,"",swap,distance=1.5cm] \ar[out=204,in=264,loop,"",swap,distance=1.5cm] \ar[out=276,in=336,loop,"",swap,distance=1.5cm] \ar[out=348,in=408,loop,"",swap,distance=1.5cm]  
+\end{tikzcd}
+
+An invariant probability measure is now a [[cone]] over this diagram. Specifically, since a probability measure is equivalently a [[Markov kernel]] from the one-point space, it makes the following diagram of [[Stoch]] commute for every $m\in M$:
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+column sep=large,%
+]
+& X \ar{dd}{k_m} \\
+ 1 \ar{ur}{p} \ar{dr}[swap]{p} \\
+& X
+\end{tikzcd}
+
+In many situations, [[ergodic measures]] even form a [[limit]] cone.
 
 
-## Properties
+Equivalently, a stationary measure $p$ gives an action of $M$ in the category of [[probability spaces]] and [[Markov kernel#measurepreserving_kernels|measure-preserving kernels]] (see for example at [[category of couplings]]).
+
+
+## Further properties
+
+* An invariant [[probability measure]] is called [[ergodic measure|ergodic]] if it is [[zero-one measure|zero-one]] on all [[invariant sigma-algebra|invariant sets]].
+
+* A stationary system (for example, [[Markov kernel]]) satisfies [[detailed balance]], or is called [[reversible dynamics|reversible]] if 
+$$
+\int_A k(B|x) \,p(dx) \;=\; \int_B k(A|x)\,p(dx) ,
+$$
+i.e. if $k$ is its own [[Bayesian inverse]]. This is a stronger form of [[equilibrium]] than just stationarity.
+(Not every stationary system satisfies this property.)
 
 * The [[ergodic decomposition theorem]] says that, under some condition, an invariant measure is a [[mixture]] of [[ergodic measure|ergodic ones]]. 
 
 
 ## References
-
 
 * {#fritz_definetti} [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], _De Finetti's theorem in categorical probability_. Journal of Stochastic Analysis, 2021. ([arXiv:2105.02639](https://arxiv.org/abs/2105.02639))
 
@@ -101,3 +150,5 @@ category: probability
 [[!redirects invariant states]]
 [[!redirects stationary state]]
 [[!redirects stationary states]]
+[[!redirects stationary process]]
+[[!redirects stationary processes]]
