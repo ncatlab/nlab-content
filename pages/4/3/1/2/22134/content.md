@@ -6,7 +6,7 @@ The idea of [[topological quantum computation]] via a [[Chern-Simons theory]] wi
 
 * {#Kitaev03} [[Alexei Kitaev]], _Fault-tolerant quantum computation by anyons_,  Annals Phys. 303 (2003) 2-30 $[$[arXiv:quant-ph/9707021](https://arxiv.org/abs/quant-ph/9707021), <a href="https://doi.org/10.1016/S0003-4916(02)00018-0">doi:10.1016/S0003-4916(02)00018-0</a>$]$
 
-* {#Freedman98} [[Michael Freedman]], *P/NP, and the quantum field computer*, Proc. Nat. Acad. Sci. **95** 1 (1998) 98-101 $[$[doi:10.1073/pnas.95.1.9](https://doi.org/10.1073/pnas.95.1.9)$]$
+* {#Freedman98} [[Michael Freedman]], *P/NP, and the quantum field computer*, Proc. Nat. Acad. Sci. **95** 1 (1998) 98-101 \[<a href="https://doi.org/10.1073/pnas.95.1.9">doi:10.1073/pnas.95.1.9</a>\]
 
 * {#FreedmanKitaevLarsenWang03} [[Michael Freedman]], [[Alexei Kitaev]], [[Michael Larsen]], [[Zhenghan Wang]], *Topological quantum computation*,  Bull. Amer. Math. Soc. __40__ (2003), 31-38 ([arXiv:quant-ph/0101025](https://arxiv.org/abs/quant-ph/0101025), [doi:10.1090/S0273-0979-02-00964-3](https://doi.org/10.1090/S0273-0979-02-00964-3), [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf))
 
@@ -26,7 +26,6 @@ and via a [[Dijkgraaf-Witten theory]] (like [[Chern-Simons theory]] but with [[d
 
 * [[Carlos Mochon]], *Anyon computers with smaller groups*, Phys. Rev. A **69** 032306 (2004) $[$[arXiv:quant-ph/0306063](https://arxiv.org/abs/quant-ph/0306063), [doi:10.1103/PhysRevA.69.032306](https://doi.org/10.1103/PhysRevA.69.032306)$]$
 
-
 Monographs:
 
 * [[Zhenghan Wang]], *Topological Quantum Computation*, CBMS Regional Conference Series in Mathematics **112**, AMS 2010 ([ISBN-13: 978-0-8218-4930-9](https://bookstore.ams.org/cbms-112), [pdf](http://web.math.ucsb.edu/~zhenghwa/data/course/cbms.pdf))
@@ -43,6 +42,7 @@ Review:
 
   > (in relation to [[quantum topology]])
 
+* [[John Preskill]]: *Topological Quantum Computation*, Chapter 9 in: *Quantum Computation*, lecture notes (since 2004) \[<a href="http://theory.caltech.edu/~preskill/ph219/topological.pdf">pdf</a>, [[Preskill-TQClecture.pdf:file]]\]
 
 * [[Gavin K. Brennen]], [[Jiannis K. Pachos]], *Why should anyone care about computing with anyons?*, Proc. R. Soc. A **464** (2008) 1-24 $[$[arXiv:0704.2241](https://arxiv.org/abs/0704.2241), [doi:10.1098/rspa.2007.0026](https://doi.org/10.1098/rspa.2007.0026)$]$
 
