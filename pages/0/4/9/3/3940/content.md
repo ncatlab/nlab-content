@@ -1,4 +1,9 @@
-Let $M$ be an integral [[homology sphere|homology 3-sphere]]. Then one can consider the moduli space of equivalence classes of $SU(2)$-valued representations of $\pi_1(M)$, i.e. $SU(2)$-local systems. Casson invariant counts them algebraically to yields an integral invariant of $M$. 
+
+\tableofcontents
+
+## Idea
+
+Let $M$ be an integral [[homology sphere|homology 3-sphere]]. Then one can consider the [[moduli space]] of equivalence classes of $SU(2)$-valued [[linear representations]] of $\pi_1(M)$, i.e. $SU(2)$-local systems. The *Casson invariant* counts them algebraically to yields an integral invariant of $M$. 
 
 There is a generalization to [[rational homology sphere|rational homology 3-spheres]], so called **Casson-Walker invariant**. A holomorphic counterpart for (Calabi-Yau 3-folds) of the Casson invariant are essentially the [[Donaldson-Thomas invariants]], or physically counting [[BPS states]].
 
@@ -13,4 +18,8 @@ Floer homology of 3-manifolds, which uses the Chern-Simons functionals as Morse 
 * [[eom]]: [Chern&#8211;Simons functional](http://eom.springer.de/C/c120140.htm)
 [[!redirects Casson-Walker invariant]]
 
+[[!redirects Casson invariants]]
+
 [[!redirects Casson's invariant]]
+[[!redirects Casson's invariants]]
+
