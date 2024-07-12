@@ -317,6 +317,10 @@ For more see
 
 ### General
 
+Suggestion to understand the [[Veneziano amplitude]] in [[quantum hadrodynamics]] as the [[scattering amplitude]] of chains of particles with  [[harmonic oscillator|harmonic]] nearest-neighbour interaction, in the continuum limit described by the [[Polyakov action]], this becoming one of the arguments initiating [[string theory]] (alongside [[Polyakov gauge-string duality]]):
+
+* [[Leonard Susskind]]: *Structure of Hadrons Implied by Duality*, Phys. Rev. D **1** (1970) 1182 &lbrack;[doi:10.1103/PhysRevD.1.1182](https://doi.org/10.1103/PhysRevD.1.1182)&rbrack;
+
 Popular exposition:
 
 * {#Green86} [[Michael Green]], _Superstrings_, Scientific American Vol. 255, No. 3 (September 1986), pp. 48-63 ([jstor:24976036](https://www.jstor.org/stable/24976036))
