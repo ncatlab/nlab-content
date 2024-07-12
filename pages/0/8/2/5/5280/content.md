@@ -243,10 +243,14 @@ Martin Escardó has announced a proof of CSB in the base theory of [[Martin-Löf
 
 The CSB theorem was first stated by [[Georg Cantor]], but his proof relied on the [[well-ordering theorem]].  The modern (choice-free) theorem was proved (independently) by [[Felix Bernstein]] and [[Ernst Schröder]].  It has been variously named after two or three of these in almost every possible combination, although Cantor (when mentioned at all) seems always to be mentioned first. 
 
-[Wikipedia](http://en.wikipedia.org/wiki/Cantor%E2%80%93Bernstein%E2%80%93Schroeder_theorem#History) reports that [[Richard Dedekind]] had an (unpublished) proof in 1887, well before any announced proofs by Cantor, Schroeder, or Bernstein in 1895, 1896, 1897 respectively. 
+[[Richard Dedekind]] wrote out a proof on 11th July 1887, and only later published in his Nachlass in 1932 ([Dedekind 1932](#Dedekind)), while working on a draft of _Was sind und was sollen die Zahlen?_, well before any announced proofs by Cantor, Schroeder, or Bernstein in 1895, 1896, 1897 respectively. 
 
 
 ## References 
+
+
+* {#Dedekind} [[Richard Dedekind]] (1932), [[Robert Fricke]]; [[Emmy Noether]]; [[Øystein Ore]] (eds.), _Gesammelte mathematische Werke_, vol. 3, Braunschweig: Friedr. Vieweg & Sohn, pp. 447–449 (Ch.62) [Göttinger Digitalisierungszentrum ](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=PPN23569441X)
+
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]: A Topos Theory Conpendium_, Vol. I, Clarendon Press, Oxford (2002)
 
