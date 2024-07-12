@@ -49,11 +49,12 @@ In particular, sometimes one calls a subset $S\subseteq X$ *invariant* if and on
 In other words, it is a set "which we cannot leave" under the specified action. 
 Sometimes such a set is called an *absorbing set* instead. (But that term may itself be used for other concepts, to make matters even worse.)
 
-Also, in different categories than [[Set]], similar variation of the notion of invariant set are given:
+Also, in different categories than [[Set]], similar variations of the notion of invariant set are given:
 
-* In [[topology]], given a [[continuous]] action, one is often interested in invariant [[closed]] sets;
-* In [[probability theory]], one is often interested in invariant [[measurable]] sets;
+* In [[topology]], given a [[continuous function|continuous]] action, one is often interested in invariant [[closed sets]];
+* In [[probability theory]], one is often interested in invariant [[measurable sets]];
 * In [[differential geometry]], one is often interested in invariant [[submanifolds]],
+
 ...and so on.
 
 
@@ -75,30 +76,82 @@ Invariant sets form naturally a [[sigma-algebra]], often called the **invariant 
 The [[exchangeable sigma-algebra]] and the [[tail sigma-algebra]] are examples of this. (Sometimes one uses the almost sure versions, see [below](#almost_surely_invariant_sets).)
 
 The invariant sigma-algebra gives a [[colimit]] of the [[action]] of $M$ in the [[Stoch|category of Markov kernels]] ([MP'23](#markov_ergodic)). More precisely, denote by $X_inv$ the set $X$ together with the invariant sigma-algebra, and denote by $q:X\to X_inv$ the kernel [[Markov kernel#kernels_from_deterministic_functions|induced by]] the set-theoretic identity. 
-Then the $(X_inv,q)$ forms a universal [[cocone]] (i.e. [[colimit]]), meaning that for every kernel $k:X\to Y$ satisfying $k\circ m=k$, (i.e. right-invariant under the action of $m$), there exists a unique kernel $\tilde{k}:X_inv\to Y$ making the following diagram commute:
+Then the $(X_inv,q)$ forms a universal [[cocone]] (i.e. [[colimit]]), meaning that for every kernel $k:X\to Y$ satisfying $k\circ m=k$, (i.e. right-invariant under the action of $m$), there exists a unique kernel $u:X_inv\to Y$ making the following diagram commute,
 \begin{tikzcd}[%
 nodes={scale=1.25}, arrows={thick},%
 column sep=large,%
 ]
-X \ar{dd}[swap]{k_m} \ar{dr}[swap]{q} \ar{drr}{k} \\
- & X_\mathrm{inv} \ar[dashed]{r}{\tilde{k}} & Y \\
-X \ar{ur}[swap]{q} \ar{urr}{k}
+X \ar{dd}[swap]{\delta_m} \ar{dr}[swap]{q} \ar{drr}{k} \\
+ & X_\mathrm{inv} \ar[dashed, near start]{r}{u} & Y \\
+X \ar{ur}{q} \ar{urr}[swap]{k}
 \end{tikzcd}
-The kernel $\tilde{k}$ has the same entries as $k$: by invariance, $k$ is indeed [[measurable]] for the sigma-algebra of invariant sets.
+where $\delta_m$ is the [[Markov kernel#kernels_from_deterministic_functions|kernel induced by]] $m$.
+The kernel $u$ has the same entries as $k$: by invariance, $k$ is indeed measurable for the sigma-algebra of invariant sets.
+
+Note that $X_inv$ is *not* the colimit simply in the [[Meas|category of measurable functions]]: the colimit in that case also takes a set-theoretic quotient. 
+(In the category of kernels, however, the set-theoretic quotient and $X_inv$ are isomorphic. This can be seen from the fact that Markov kernels are [[Kleisli morphisms]] of the [[Giry monad]] on [[Meas]], and that [[left adjoints preserve colimits]].)
 
 
 ### For stochastic actions
 
-(...)
+A monoid $M$ can also act stochastically on $X$, via [[Markov kernels]] $k_m:X\to X$ such that for all $x\in X$ and all measurable $A\subseteq X$,
+$$
+k_m(A|x) \;=\; 1_A(x) \;=\; \begin{cases}
+1 & x\in A ; \\
+0 & x\notin A ,
+\end{cases}
+$$
+and
+$$
+k_{m\cdot n}(A|x) \;=\; \int_X k_m(A|x')\,k_n(d x'|x) .
+$$
+(This is equivalently a [[functor]] $B M\to Stoch$, see the discussion at [[invariant measure#categorytheoretic_description|invariant measure]].)
+
+In this case, an **invariant set** is a measurable set $A$ such that for all $m\in M$ and $x\in X$, 
+$$
+k(A|x) \;=\; 1_A(x) \;=\; \begin{cases}
+1 & x\in A ; \\
+0 & x\notin A .
+\end{cases}
+$$
+These sets form again a sigma-algebra, generalizing the case of actions via functions.
+
+This sigma-algebra is in general *not* a colimit in a category of kernels ([EP'23](#ergodic_dagger), Example 3.9). 
+See however the almost sure case [below](#almost_surely_invariant_sets).
+
 
 ### Almost surely invariant sets
 
-(...)
+For [[invariant measure|stationary]] actions, i.e. for actions of $M$ on a [[probability space]] $(X,p)$ via [[measure-preserving functions]], (or equivalently, for measurable actions equipped with an [[invariant measure]] $p$, we can define a notion of **almost surely invariant set**: a measurable subset $A\subseteq X$ such that 
+$$
+p(A\setminus m^{-1}(A)) \;=\; p(m^{-1}(A)\setminus A) \;=\; 0 .
+$$
+Equivalently, if for all measurable $S\subseteq X$, 
+$$
+p(S\cap m^{-1}(A)) \;=\; p(S\cap A) .
+$$
+
+More generally, if we have [[Markov kernel#measurepreserving_kernels|measure-preserving kernels]] $k_m:(X,p)\to(X,p)$, we call **almost surely invariant** a measurable subset $A\subseteq X$ such that for all $m\in M$,
+$$
+k_m(A|x) \;=\; 1_A(x) \;=\; \begin{cases}
+1 & x\in A ; \\
+0 & x\notin A 
+\end{cases}
+$$
+for *$p$-almost all* $x\in X$. Equivalently, if for all measurable $S\subseteq X$, 
+$$
+\int_S k_m(A|x) \,p(d x) \;=\; p(S\cap A) .
+$$
+
+These sets form again a [[sigma-algebra]], called the **almost surely invariant sigma-algebra** (or sometimes, possibly confusingly, again **invariant sigma-algebra**). 
+
+Similarly to the deterministic case, this sigma-algebra is the [[colimit]] of the action of $M$ in the [[category of couplings]] ([EP'23](#ergodic_dagger), Section 3.1).
+
 
 ### Further properties
 
-(..)
-
+* By definition, every [[ergodic measure]] is [[zero-one measure|zero-one]] on invariant sets. 
+* The [[ergodic theorem]] says that, in some cases, [[empirical means]] of [[random variables]] on a [[stationary system]] tend to [[conditional expectations]] w.r.t. the invariant sigma-algebra. 
 
 
 ## See also
@@ -124,6 +177,8 @@ category: probability
 
 
 [[!redirects invariant sets]]
+[[!redirects invariant event]]
+[[!redirects invariant events]]
 [[!redirects invariant subset]]
 [[!redirects invariant subsets]]
 [[!redirects invariant sigma-algebra]]
