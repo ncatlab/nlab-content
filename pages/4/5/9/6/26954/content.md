@@ -531,7 +531,28 @@ To prove minimality, we can proceed by structural induction (see [Proposition 5.
 
 ## Geometric realization
 
-(todo)
+Since every regular directed complex is in particular a poset, we can take its [[nerve]], which is a simplicial set $P^\Delta$, whose $n$-simplices are chains $x_0 \le \ldots \le x_n$ in $P$. Via the classical [[geometric realization]] of simplicial sets, we define a functor $|-|$ from regular directed complexes to (a [[convenient category of topological spaces|convenient category of]]) topological spaces. 
+
+As expected, round molecules are round: 
+\begin{proposition}
+Let $U$ be a molecule of dimension $n$, then 
+
+*  $|U|$ is an $n$-[[ball]],
+*  $|\partial U|$ is an $n$-[[sphere]].
+
+\end{proposition}
+
+Furthermore, Gray product, join, and suspension are sent to their topological counterpart:
+\begin{proposition}
+Let $P, Q$ be regular directed complexes, then
+
+*  $|P \otimes Q| \cong |P| \times |Q|$, where $\times$ is the [[product topological space|join of topological spaces]];
+*  $|P \star Q| \cong |P| \star |Q|$, where $\times$ is the [[join of topological spaces]];
+*  $|\mathsf{S}P| \cong \mathsf{S}|P|$, where $\mathsf{S}$ is the [[suspension|suspension of topological spaces]].
+
+\end{proposition}
+
+
 
 ## References
 
