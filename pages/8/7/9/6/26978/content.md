@@ -95,7 +95,7 @@ Almost surely zero-one kernels are closed under composition, and so are their al
 
 ## Further properties
 
-* Zero-one measures are exactly the [[pushforward measure|distributions]] of those [[random variables]] which satisfy a [[zero-one law]].
+* Zero-one measures are exactly the [[law of a random variable|laws]] of those [[random variables]] which satisfy a [[zero-one law]].
 
 * Zero-one kernels are exactly the [[Markov category#deterministic_morphisms|deterministic morphisms]] of [[Stoch]], in the sense of [[Markov categories]].
 
