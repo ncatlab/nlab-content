@@ -148,7 +148,7 @@ $$
 \end{definition}
 
 
-### Inductive construction of molecules
+### Inductive construction of molecules {#inductiveMolecules}
 
 We can now construct inductively a well-formed class of oriented graded posets, called the **molecules**, which model _composable_ pasting diagrams. There are 3 constructors: 
 
