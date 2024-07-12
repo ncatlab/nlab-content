@@ -31,16 +31,16 @@
 
 ## Idea
 
-An *invariant set* is a subset which is [[invariant]] under the [[action]] of a [[group]] or a [[monoid]]. 
+An *invariant set* is a [[subset]] which is [[invariant]] under a given [[action]] of a [[group]] or a [[monoid]]. 
 
 ## Definition
 
 Let $X$ be a [[set]], let $M$ be a [[monoid]] (or a [[group]]), and consider an [[action]] of $M$ on $X$. (For each $m\in M$, denote the resulting action on $X$ again by $m:X\to X$.)
 
-A subset $S$ of $X$ is called **invariant** if and only if for each $m\in M$, $m^{-1}(S)=S$.
+A [[subset]] $S$ of $X$ is called **[[invariant]]** if and only if for each $m\in M$, $m^{-1}(S)=S$.
 Equivalently, if for every $x\in X$ we have that $x\in S$ if and only if $f(x)\in S$. 
 
-Note that the *points* of an invariant set are not themselves invariant: they might move under the action (but they remain in the set $S$). For example, for rotations in the plane, any circle centered at the origin is an invariant set, but each point in each nontrivial circle is not a fixed point.
+Note that the *[[elements]]* ("points") of an invariant set need not themselves be [[fixed points]]: they might move under the action (but they remain in the set $S$). For example, for rotations in the plane, any circle centered at the origin is an invariant set, but each point in each nontrivial circle is not a fixed point.
 
 ### Variations of the definition
 
