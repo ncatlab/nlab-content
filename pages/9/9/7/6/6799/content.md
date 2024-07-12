@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+Suggestion to understand the [[Veneziano amplitude]] in [[quantum hadrodynamics]] as the [[scattering amplitude]] of chains of particles with  [[harmonic oscillator|harmonic]] nearest-neighbour interaction, in the continuum limit described by the [[Polyakov action]], this becoming one of the arguments initiating [[string theory]] (alongside [[Polyakov gauge-string duality]]):
+
+* [[Leonard Susskind]]: *Structure of Hadrons Implied by Duality*, Phys. Rev. D **1** (1970) 1182 &lbrack;[doi:10.1103/PhysRevD.1.1182](https://doi.org/10.1103/PhysRevD.1.1182)&rbrack;
+
 Early suggestion that [[confinement|confined]] [[QCD]] is described by regarding the [[color charge|color]]-[[flux tubes]] as [[string]]-like dynamical degrees of freedoms (cf. [gauge/string duality](AdS-QCD+correspondence#PolyakovGaugeStringDualityReferences)):
 
 * [[John Kogut]], [[Leonard Susskind]], *Vacuum polarization and the absence of free quarks in four dimensions*, Phys. Rev. D **9** (1974) 3501-3512 &lbrack;[doi:10.1103/PhysRevD.9.3501](https://doi.org/10.1103/PhysRevD.9.3501)&rbrack;
