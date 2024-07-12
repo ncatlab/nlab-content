@@ -66,25 +66,13 @@ This, then, is the definition of sheaf cohomology as usually presented: the coho
  {#AsIntrinsicInfinityToposCohomology}
 
 
-Under the ([[stable Dold-Kan correspondence|stable]]) [[Dold-Kan correspondence]] we have the following
-identification of sheaves taking values in [[chain complexes]]
-with sheaves taking values in [[infinity-groupoids]] and
-[[spectrum|spectra]], crucial for a conceptual understanding of
-abelian sheaf cohomology:
+Under the ([[stable Dold-Kan correspondence|stable]]) [[Dold-Kan correspondence]] we have the following identification of sheaves taking values in [[chain complexes]] with sheaves taking values in [[infinity-groupoids]] and [[spectrum|spectra]], crucial for a conceptual understanding of abelian sheaf cohomology.
 
-let $X$ be a [[site]]
+Let $X$ be a [[site]].
 
-* the category $Sh(X, Ch_+(Ab))$ of non-negatively graded
-[[chain complex]]es of [[abelian sheaf|abelian sheaves]] is
-[[homotopical functor|homotopically]] [[equivalence|equivalent]]
-to the category $Sh(X, sAb)$ of [[sheaf|sheaves]] with values in 
-simplicial abelian groups (i.e. [[Kan complex]]es with strict abelian group structure);
+* The category $Sh(X, Ch_+(Ab))$ of non-negatively graded [[chain complex]]es of [[abelian sheaf|abelian sheaves]] is [[homotopical functor|homotopically]] [[equivalence|equivalent]] to the category $Sh(X, sAb)$ of [[sheaf|sheaves]] with values in simplicial abelian groups (i.e. [[Kan complex]]es with strict abelian group structure);
 
-* the category $Sh(X, Ch(Ab))$ of unbounded 
-[[chain complex]]es of [[abelian sheaf|abelian sheaves]] is 
-[[equivalence of categories|equivalent]] to $Sh(X, Sp(Ab))$, the category
-of sheaves with values in [[combinatorial spectrum|combinatorial spectra]] 
-internal to abelian groups.
+* The category $Sh(X, Ch(Ab))$ of unbounded [[chain complex]]es of [[abelian sheaf|abelian sheaves]] is [[equivalence of categories|equivalent]] to $Sh(X, Sp(Ab))$, the category of sheaves with values in [[combinatorial spectrum|combinatorial spectra]] internal to abelian groups.
 
 
 Let how $F \in Sh(X,Ab)$ be a [[sheaf]] on a [[site]] $X$ with values in the category [[Ab]] of abelian groups.
