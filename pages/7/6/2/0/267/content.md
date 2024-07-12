@@ -28,7 +28,9 @@ Examples for possible shapes used to model higher categories are
 
 * [[cell category|globular cells]];
 
-* [[opetopes]], aka [[multitopes]].
+* [[opetopes]], aka [[multitopes]];
+
+* [[atom category|atoms]].
 
 There are corresponding categories whose 
 
@@ -50,7 +52,9 @@ The resulting categories of basic cellular shapes are
 
 * the _[[opetope category]]_ $\mathbb{O}$
 
-In general, there are two types of morphism in such categories, called *face inclusions* (or *cofaces*) and *degeneracies*.  Face inclusions exhibit a lower-dimensional cell as a "face" of a higher-dimensional one, while degeneracies collapse a higher-dimensional cell down to a lower-dimensional one.  All such categories have face inclusions (these are the really basic "structural" maps that determine the shapes of the cells), but some (such as $\Delta$, $\square$, and $\Omega$) include degeneracies while some (such as $\mathbb{G}$ and $\mathbb{O}$) do not usually.
+* the _[[atom category]]_ $\odot$
+
+In general, there are two types of morphism in such categories, called *face inclusions* (or *cofaces*) and *degeneracies*.  Face inclusions exhibit a lower-dimensional cell as a "face" of a higher-dimensional one, while degeneracies collapse a higher-dimensional cell down to a lower-dimensional one.  All such categories have face inclusions (these are the really basic "structural" maps that determine the shapes of the cells), but some (such as $\Delta$, $\square$, $\Omega$, and $\odot$) include degeneracies while some (such as $\mathbb{G}$ and $\mathbb{O}$) do not usually.
 
 A general notion which includes all of these categories is that of a [[generalized Reedy category]].  If degeneracies are excluded, then we obtain the simpler notion of a (generalized) [[direct category]].
 
@@ -65,6 +69,8 @@ A higher structure based on these geometric shapes is a [[presheaf]] on one of t
 * [[dendroidal sets]]
 
 * [[opetopic sets]]
+
+* [[diagrammatic set|diagrammatic sets]]
 
 respectively. 
 
@@ -88,7 +94,9 @@ See for instance
 
 * [[parity complex]]
 
-* [[directed complex]] 
+* [[directed complex]]
+
+* [[regular directed complex]] 
 
 * [[test category]]
 
