@@ -83,8 +83,7 @@ For the higher dimensional forms of rewriting, one source is in the work of Guir
 
 This also includes emerging _homotopical theory of computation_ based on [[polygraph]]s (introduced by [[Albert Burroni]]) and polygraphic resolutions (introduced by [[François Métayer]]):
 
-* Yves Lafont, _Algebra and geometry of rewriting_, Applied Categorical Structures
-August __15__:4, 2007, pp 415-437  [doi](https://doi.org/10.1007/s10485-007-9083-6)
+* Yves Lafont, _Algebra and geometry of rewriting_, Applied Categorical Structures __15__:4 (2007) 415--437  [doi](https://doi.org/10.1007/s10485-007-9083-6)
 
 
 
@@ -98,7 +97,7 @@ An approach via diagrammatic sets is in
 
 with slides (for GeoCat 2020), [here](https://www.irif.fr/~ahadziha/files/talk-geocat-rewriting.pdf).
 
-* [[Samuel Mimram]], _Towards 3-dimensional rewriting theory_, ([arXiv:1403.4094](https://arxiv.org/abs/1403.4094))
+* [[Samuel Mimram]], _Towards 3-dimensional rewriting theory_, Logical Methods in Computer Science __10__:2, (2014) ([arXiv:1403.4094](https://arxiv.org/abs/1403.4094) <a href="https://doi.org/10.2168/LMCS-10(2:1)2014">doi</a>)
 
 See also:
 
