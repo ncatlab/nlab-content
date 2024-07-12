@@ -24,13 +24,25 @@
 
 ## Idea
 
-(...)
+One of the main purposes of [[probability theory]], and of related fields such as [[statistics]] and [[information theory]], is to *make predictions in situations of uncertainty*.
+
+Suppose that we are interested a quantity $X$, whose value we don't know exactly (for example, a [[random variable]]), and which we cannot observe directly. 
+Suppose that we have another quantity, $Y$, which we also don't know exactly, but which we can observe (for example, through an [[experiment]]). 
+We might now wonder: *can observing $Y$ give us information about $X$, and reduce its uncertainty?*
+Viewing the unknown quantities $X$ and $Y$ as having hidden knowledge or hidden [[information]], one might ask, *how much of this hidden information is shared between $X$ and $Y$*, so that observing $Y$ uncovers information about $X$ as well? 
+
+This form of dependence between $X$ and $Y$ is called *stochastic dependence*, and is one of the most important concepts both in [[probability theory]], and, due to its conceptual nature, in most [[categorical approaches to probability theory]].
 
 
 ## Intuition
 
+### Dependence and independence
+
 (...)
 
+### Conditional dependence and independence
+
+(...)
 
 
 ## In measure-theoretic probability
@@ -73,6 +85,12 @@ meaning that the joint distribution $q$ is the product of its marginals.
 ## In Markov categories
 
 (For now see [[Markov category#stochastic_independence|Markov category - Stochastic independence]])
+
+
+## In dagger categories
+
+(...)
+
 
 ## See also 
 
