@@ -14,16 +14,16 @@
 =--
 
 # Contents
-* the following line creates the automatic table of contents
+* table of contents
 {: toc}
 
 ## Idea
 
-In _[Link Groups](#jmLinkGroups)_ , [[John Milnor]] introduced the notion of the [[Link Group]] as a way to study [[links]].  The notion of equivalence of links that Milnor used is slightly different to that obtained by extending the usual notion of equivalence of [[knots]].  In Milnor's paper, the crucial aspect of links was the interactions between distinct components.  Thus for Milnor, a link in a manifold $M$ is a map $\coprod_n S^1 \to M$ such that the components have disjoint images.  Similarly, two links are **homotopic** if there is a [[homotopy]] between the maps which is a link at every time.  Thus links can be deformed in such a manner that individual components can pass through themselves, but not through other components.  Also link components can have self-intersections or the map on a component can be a constant map.  Milnor uses the term **proper link** to refer to a link in which the map is a homeomorphism onto its image.
+[Milnor 1964](#Milnor64) introduced the notion of the *link group* as a way to study [[links]].  The notion of equivalence of links that Milnor used is slightly different to that obtained by extending the usual notion of equivalence of [[knots]].  In Milnor's paper, the crucial aspect of links was the interactions between distinct components.  Thus for Milnor, a link in a manifold $M$ is a map $\coprod_n S^1 \to M$ such that the components have disjoint images.  Similarly, two links are **homotopic** if there is a [[homotopy]] between the maps which is a link at every time.  Thus links can be deformed in such a manner that individual components can pass through themselves, but not through other components.  Also link components can have self-intersections or the map on a component can be a constant map.  Milnor uses the term **proper link** to refer to a link in which the map is a homeomorphism onto its image.
 
 The [[Whitehead link]] is a simple example of a link that is not trivial under ambient [[isotopy]] but is trivial under Milnor's notion of homotopy.
 
-The $\mu$-invariants come from explicit descriptions of the link groups of particular links.  Specifically, Milnor calls a link _almost trivial_ if every proper sublink is trivial (see [[Brunnian link]]).  Such a link corresponds to an element in a particular link group which can be completely described by certain numbers.
+The $\mu$-[[invariants]] come from explicit descriptions of the link groups of particular links.  Specifically, Milnor calls a link _almost trivial_ if every proper sublink is trivial (see [[Brunnian link]]).  Such a link corresponds to an element in a particular link group which can be completely described by certain numbers.
 
 ## Link Group
 
@@ -136,4 +136,13 @@ So the general method is as follows: choose two components of the link.  Write o
 
 ## References
 
-* [[John Milnor]] (1954). Link groups. _Ann. of Math. (2)_, _59_, 177&#8211;195. [MR](http://www.ams.org/mathscinet-getitem?mr=71020){: #jmLinkGroups}
+* {#Milnor64} [[John Milnor]]: *Link groups*, Ann. of Math. **2** 59 (1954) 177-195 &lbrack;[doi:10.2307/1969685](https://doi.org/10.2307/1969685), [jstor:1969685](https://www.jstor.org/stable/1969685), [MR](http://www.ams.org/mathscinet-getitem?mr=71020)&rbrack;
+
+* Wikipedia, *[Link group](https://en.wikipedia.org/wiki/Link_group)*
+
+[[!redirects Milnor mu-bar invariants]]
+
+
+[[!redirects link group]]
+[[!redirects link groups]]
+
