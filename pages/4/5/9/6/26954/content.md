@@ -517,7 +517,7 @@ Let $P$ be a regular directed complex. Then $\mathsf{S}P$ is a regular directed 
 Let $U, V$ be molecules.
 
 *  suppose $U \#_k V$ is defined, then $\mathsf{S}(U \#_k V) = \mathsf{S}U \#_{k + 1} \mathsf{S}V$.
-*  suppose $U \Rightarrow V$ is defined, then $\mathsf{S}(U \Rightarrow V) = \mathsf{S}U \Rightarrow \mathsf{S}V$.
+*  suppose $U \Rightarrow V$ is defined, then $\mathsf{S}(U \Rightarrow V) = (\mathsf{S}U \Rightarrow \mathsf{S}V)$.
 
 \end{proposition}
 
@@ -525,56 +525,6 @@ Let $U, V$ be molecules.
 The $n$-th iterated suspension $\mathsf{S}\ldots\mathsf{S}\mathbf{1}$ is the $n$-th [[globe]]. 
 \end{example}
 
-## Proof techniques
-
-### Structural induction
-Since molecules are defined inductively, we can use [[induction]] to prove statement about them. To prove that a statement $\mathcal{P}$ is true for all molecule, we can do as follows:
-
-*  We prove that it is true for the (Point) $\mathbf{1}$.
-*  We let $U, V$ be molecules such that $U \#_n V$ is defined, and we suppose that $\mathcal{P}$ holds for both $U$ and $V$. Then we prove that $\mathcal{P}$ holds for $U \#_n V$.
-*  We let $U, V$ be molecules such that $U \Rightarrow V$ is defined, and we suppose that $\mathcal{P}$ holds for both $U$ and $V$. Then we prove that $\mathcal{P}$ holds for $U \Rightarrow V$.
-
-For instance:
-\begin{lemma}\label{molecule_are_rdcpx}
-Any molecule is a regular directed complex.
-\end{lemma}
-\begin{proof}
-Let $U$ be a molecule, we need to prove that for all $x \in U$, $\mathrm{cl}(x)$ is an atom. We proceed by induction on the construction of $U$. If $U$ was produced by (Point), then $x$ must be the unique element of $U$ whose closure is $U$ itself. If $U$ was produced by (Paste), then $U = V \#_k W$ , and $x \in V$ or $x \in W$ ; the inductive hypothesis applies. If $U$ was produced by (Atom), it is equal to $(V \cup W ) + \{ \top \}$, and either $x \in V$ or $x \in W$, in which case the inductive hypothesis applies, or $x = \top$, and $\mathrm{cl}(x) = U$ is an atom by definition.
-\end{proof}
-
-### Other methods
-
-The proof by **induction on submolecules** allows us to prove a statement $\mathcal{P} \implies \mathcal{Q}$ for all molecules as follows: assume that a molecule $U$ satisfies $\mathcal{P}$, then
-
-*  we prove that $\{ x \}$ satisfies $\mathcal{Q}$ for all $x \in U_0$ (the base case);
-*  we prove that $U$ satisfies $\mathcal{Q}$ under the assumption that every proper submolecule $V \sqsubseteq U$ satisfies $\mathcal{Q}$
-
-This induction principle is justified since every proper submolecule of $U$ has stricly fewer elements than $U$, and the set of minimal elements for $\sqsubseteq$ is presicely $U_0$. 
-
-\begin{example}
-The proof that molecules are stable under Gray product uses induction on submolecules.
-\end{example}
-
-Another proof technique is the **induction on the layering dimension**: to prove that a property holds for all molecules U, it suffices to
-
-*  prove that it holds when $\mathrm{lydim} U = -1$, i.e. when $U$ is an atom (base case)
-*  prove that it holds when $k \coloneqq \mathrm{lydim} U \geq 0$, assuming that it holds of all the $(U^{(i)})_{1 \le i \le m}$ in any $k$-layering of $U$.
-
-Indeed, by Theorem \ref{molecule_has_layering}, any molecule has a layering, and by Proposition \ref{properties_layering} gives the well-foundedness. 
-
-For instance, let us prove the following:
-\begin{proposition}
-The set of atoms forms a basis for the strict $\omega$-category of molecules of Corollary \ref{molecules_are_w_cat}. That is, any molecule can be written as a composition of atoms, and the set of atoms is minimal (in the sense that if any other set generating the molecules by composition contains the atoms, then it is the atoms).
-\end{proposition}
-\begin{proof}
-We prove the first part by induction on the layering dimension of $U$. If $\mathrm{lydim} U = -1$, then $U$ is an atom, thus trivially the a composition of atoms. Suppose $k \coloneqq \mathrm{lydim} U \gt -1$, and take a $k$-layering of $U$
-$$
-    U = U^{(1)} \#_k \ldots \#_k U^{(m)},
-$$
-with $\mathrm{lydim} U^{(i)} \lt k$. Then by induction, each $U^{(i)}$ is a composition of atoms, thus so is $U$.
-
-To prove minimality, we can proceed by structural induction (see [Proposition 5.2.7](#Hadzihasanovic2024)).
-\end{proof}
 
 
 ## Geometric realization
@@ -601,6 +551,58 @@ Let $P, Q$ be regular directed complexes, then
 \end{proposition}
 
 
+
+## Proof techniques
+
+### Structural induction
+Since molecules are defined inductively, we can use structural [[induction]] to prove statement about them. To prove that a statement $\mathcal{P}$ is true for all molecules, we can do as follows:
+
+*  We prove that $\mathcal{P}$ is true for the (Point) $\mathbf{1}$.
+*  We let $U, V$ be molecules such that $U \#_n V$ is defined, and we suppose that $\mathcal{P}$ holds for both $U$ and $V$. Then we prove that $\mathcal{P}$ holds for $U \#_n V$.
+*  We let $U, V$ be molecules such that $U \Rightarrow V$ is defined, and we suppose that $\mathcal{P}$ holds for both $U$ and $V$. Then we prove that $\mathcal{P}$ holds for $U \Rightarrow V$.
+
+For instance:
+\begin{lemma}\label{molecule_are_rdcpx}
+Any molecule is a regular directed complex.
+\end{lemma}
+\begin{proof}
+Let $U$ be a molecule, we need to prove that for all $x \in U$, $\mathrm{cl}(x)$ is an atom. We proceed by induction on the construction of $U$. If $U$ was produced by (Point), then $x$ must be the unique element of $U$ whose closure is $U$ itself. If $U$ was produced by (Paste), then $U = V \#_k W$ , and $x \in V$ or $x \in W$ ; the inductive hypothesis applies. If $U$ was produced by (Atom), it is equal to $(V \cup W ) + \{ \top \}$, and either $x \in V$ or $x \in W$, in which case the inductive hypothesis applies, or $x = \top$, and $\mathrm{cl}(x) = U$ is an atom by definition.
+\end{proof}
+
+### Other methods
+
+The proof by **induction on submolecules** allows us to prove a statement $\mathcal{P} \implies \mathcal{Q}$ for all molecules as follows: assume that a molecule $U$ satisfies $\mathcal{P}$, then
+
+*  we prove that $\{ x \}$ satisfies $\mathcal{Q}$ for all $x \in U_0$ (the base cases);
+*  we prove that $U$ satisfies $\mathcal{Q}$ under the assumption that every proper submolecule $V \sqsubseteq U$ satisfies $\mathcal{Q}$
+
+This induction principle is justified since every proper submolecule of $U$ has stricly fewer elements than $U$, and the set of minimal elements for $\sqsubseteq$ is presicely $U_0$. 
+
+\begin{example}
+The proof that molecules are stable under Gray product uses induction on submolecules.
+\end{example}
+
+Another proof technique is the **induction on the layering dimension**: to prove that a property holds for all molecules U, it suffices to
+
+*  prove that it holds when $\mathrm{lydim} U = -1$, i.e. when $U$ is an atom (base case);
+*  prove that it holds when $k \coloneqq \mathrm{lydim} U \geq 0$, assuming that it holds of all the $(U^{(i)})_{1 \le i \le m}$ in any $k$-layering of $U$.
+
+Indeed, by Theorem \ref{molecule_has_layering}, any molecule has a layering, and by Proposition \ref{properties_layering} gives the well-foundedness. 
+
+For instance, let us prove the following:
+\begin{proposition}
+Every molecule is made of pasting of atoms.
+\end{proposition}
+\begin{proof}
+Let $U$ be a molecule, we proceed by induction on $k \coloneqq \mathrm{lydim} U$. If $k = -1$, then this follows by definition since $U$ is an atom. Let $k \gt 0$, and take a $k$-layering of $U$
+$$
+    U = U^{(1)} \#_k \ldots \#_k U^{(m)},
+$$
+with $\mathrm{lydim} U^{(i)} \lt k$. Then by induction, each $U^{(i)}$ is a composition of atoms, thus so is $U$.
+\end{proof}
+\begin{remark}
+    The proof works equally well by structural induction.
+\end{remark}
 
 ## References
 
