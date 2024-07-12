@@ -33,6 +33,16 @@ Historically, this amplitude first arose in [[dual resonanace models]] and the r
 
 ## References
 
+See also:
+
+* Wikipedia, *[Veneziano amplitude](https://en.m.wikipedia.org/wiki/Veneziano_amplitude)*
+
+Suggestion to understand the [[Veneziano amplitude]] in [[quantum hadrodynamics]] as the [[scattering amplitude]] of chains of particles with  [[harmonic oscillator|harmonic]] nearest-neighbour interaction, in the continuum limit described by the [[Polyakov action]], this becoming one of the arguments initiating [[string theory]] (alongside [[Polyakov gauge-string duality]]):
+
+* [[Leonard Susskind]]: *Structure of Hadrons Implied by Duality*, Phys. Rev. D **1** (1970) 1182 &lbrack;[doi:10.1103/PhysRevD.1.1182](https://doi.org/10.1103/PhysRevD.1.1182)&rbrack;
+
+Discussion of the Veneziano amplitude on this context of [[string theory]]:
+
 * [[Michael Green]], [[John Schwarz]], [[Edward Witten]], section 1.1 of _Superstring theory_ Volume 1, Cambridge Monographs on Mathematical Physics, 1987
 
 * [[Gerard 't Hooft]], section 1.2 and section 6 of _Introduction to string theory_ 2004 ([pdf](http://www.phys.uu.nl/~thooft/lectures/stringnotes.pdf))
