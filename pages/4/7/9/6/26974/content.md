@@ -132,6 +132,14 @@ i.e. if $k$ is its own [[Bayesian inverse]]. This is a stronger form of [[equili
 * The [[ergodic decomposition theorem]] says that, under some condition, an invariant measure is a [[mixture]] of [[ergodic measure|ergodic ones]]. 
 
 
+## See also
+
+* [[group]], [[monoid]], [[action]]
+* [[cone]], [[limit]], [[cocone]], [[colimit]]
+* [[exchangeability]], [[invariant set]]
+* [[ergodic measure]], [[ergodic decomposition theorem]]
+
+
 ## References
 
 * {#fritz_definetti} [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], _De Finetti's theorem in categorical probability_. Journal of Stochastic Analysis, 2021. ([arXiv:2105.02639](https://arxiv.org/abs/2105.02639))
@@ -155,3 +163,5 @@ category: probability
 [[!redirects stationary states]]
 [[!redirects stationary process]]
 [[!redirects stationary processes]]
+[[!redirects stationary system]]
+[[!redirects stationary systems]]
