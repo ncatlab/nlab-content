@@ -51,7 +51,7 @@ $$
 $$
 meaning that it assigns to each measurable $A\subseteq X$ the value
 $$
-\frac{1_A(x_2)+\dots+1_A(x_n)}{n} \;=\; \frac{\#\{x_i in A\}}{n} .
+\frac{1_A(x_1)+\dots+1_A(x_n)}{n} \;=\; \frac{\#\{x_i in A\}}{n} .
 $$
 
 Similarly, we can view the countable product $X^\mathbb{N}$ as the space of infinite sequences $(x_1,x_2,x_3\dots)$ of elements of $X$. The **empirical distribution** of a sequence $(x_1,x_2,x_3,\dots)\in X^\mathbb{N}$ is the probability measure on $X$ given by the limit, if it exists,
