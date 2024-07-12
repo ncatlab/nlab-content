@@ -4,20 +4,32 @@
 
 ## Idea
 
-Diagrammatic sets are [[presheaf|presheaves]] over the [[atom category]]. There are kind of topologically sound [[polygraph|polygraphs]], and can serve as a model for [[higher category theory|higher categories]].
+Diagrammatic sets are [[presheaf|presheaves]] over the [[atom category]]. There are kind of geomtrical [[polygraph|polygraphs]], and can serve as a model for [[higher category theory|higher categories]].
 
 
 ## Definition 
 
 \begin{definition}
 **(diagrammatic set)**\linebreak
-A **diagrammatic set** $X$ is a presheaf over $\odot$, the [[atom category|category of atoms]] and cartesian maps.
+A **diagrammatic set** $X$ is a presheaf over $\odot$, the [[atom category|category of atoms]] and cartesian maps. Diagrammatic sets and [[natural transformations]] form the category $\odot\mathbf{Set}$
 \end{definition}
 
 
 ## Properties
 
-(...)
+Let $\mathbf{RDCpx}$ be the category of [[regular directed complex|regular directed complexes]] and cartesian maps, we have a full subcategory inclusion $i \colon \odot \hookrightarrow \mathbf{RDCpx}$ which defines a functor
+$$
+    i^* \colon \mathbf{RDCpx} \to \odot\mathbb{Set}
+$$
+that sends a regular directed complex $P$ to the presheaf $\mathbf{RDCpx}(i^*(-), P)$. This is the [[restricted Yoneda embedding]]. 
+
+\begin{proposition}
+The [[Yoneda embedding]] factors as
+$$
+    \odot \hookrightarrow \mathbf{RDCpx} \hookrightarrow \odot\mathbf{Set},
+$$
+i.e. the functor $i$ is a [[dense functor|dense]]. 
+\end{proposition}
 
 
 ## Examples
