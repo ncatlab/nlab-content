@@ -100,6 +100,8 @@ Intuitively, this kernel represents the deterministic transition, from $x$ to $f
 This construction induces a [[functor]] from the category [[Meas]] to the categories of kernels [[Markov kernel#categories_of_markov_kernels|below]].
 (Compare with the [[stochastic map#stochastic_maps_from_deterministic_functions|analogous construction for stochastic maps]].)
 
+Every kernel in the form $\delta_f$ is a [[zero-one kernel]], but the converse is not true in general.
+
 Note that if $f:(X,\mathcal{A},p)\to(Y,\mathcal{B},q)$ is a [[measure-preserving function]], then $\delta_f$ is a measure-preserving kernel in the sense defined above.
 
 ### Bayesian inversion
@@ -215,6 +217,8 @@ $$
 * [[category of couplings]]
 
 * [[stochastic map]]
+
+* [[zero-one kernel]]
 
 * [[kernel method]]
 
