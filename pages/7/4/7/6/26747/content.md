@@ -21,7 +21,7 @@ Parametric dependent type theories are distinguished by the kind of parametricit
 
 * Internal parametricity is a statement provable inside the theory itself and applies to all types and terms, but contradicts classical axioms such as the [[axiom of choice]] and [[excluded middle]]. 
 
-* Modal internal parametricity is a statement also provable inside the theory itslef, but only applies to types and terms guarded by a [[modal operator]]. Unlike the usual internal parametricity, modal internal parametricity is consistent with classical axioms such as the [[axiom of choice]] and [[excluded middle]]. 
+* Modal internal parametricity is a statement also provable inside the theory itself, but only applies to types and terms guarded by a [[modal operator]]. Unlike the usual internal parametricity, modal internal parametricity is consistent with classical axioms such as the [[axiom of choice]] and [[excluded middle]]. 
 
 ## Related concepts
 
