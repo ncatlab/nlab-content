@@ -187,16 +187,27 @@ and mathematical details:
 
 * [[Jürgen Jost]], *Bosonic Strings: A Mathematical Treatment*, AMS/IP Stud. Adv. Math. **21** (2001) &lbrack;[ISBBN:978-0-8218-4336-9](https://bookstore.ams.org/view?ProductCode=AMSIP/21.S.B), [spire:1388134](https://inspirehep.net/literature/1388134)&rbrack;
 
+See also 
+
+* Wikipedia, _[Polyakov action](https://en.wikipedia.org/wiki/Polyakov_action)_
+
 
 Discussion of the Polyakov action and [[Nambu-Goto action]] on [[worldsheets]] with [[manifold with boundary|boundary]] (i.e. in the generality of [[open strings]]) and cast in [[BV-BRST formalism]]:
 
 * {#MartinoliSchiavina22} S. Martinoli, [[Michele Schiavina]], *BV analysis of Polyakov and Nambu–Goto theories with boundary*,  Lett. Math. Phys. **112** 35 (2022) &lbrack;[doi:10.1007/s11005-022-01526-1](https://doi.org/10.1007/s11005-022-01526-1), [arXiv:2106.02983](https://arxiv.org/abs/2106.02983)&rbrack;
 
 
+On the Polyakov model as the continuum limit of a sequence of particles coupled by [[harmonic oscillator|harmonic]] nearest neighbour interaction:
 
-See also 
+* [[Leonard Susskind]]: *Structure of Hadrons Implied by Duality*, Phys. Rev. D **1** (1970) 1182 &lbrack;[doi:10.1103/PhysRevD.1.1182](https://doi.org/10.1103/PhysRevD.1.1182)&rbrack;
 
-* Wikipedia, _[Polyakov action](https://en.wikipedia.org/wiki/Polyakov_action)_
+  > (often credited as one of the origins of [[string theory]])
+
+* [[Igor Klebanov]], [[Leonard Susskind]]: *Continuum Strings From Discrete Field Theories*, Nucl. Phys. B **309** (1988) 175-187 &lbrack;<a href="10.1016/0550-3213(88)90237-4">doi:10.1016/0550-3213(88)90237-4</a>&rbrack;
+
+
+* Renann Lipinski Jusinskas: *Strings as particle arrays* &lbrack;[arXiv:2407.08638](https://arxiv.org/abs/2407.08638)&rbrack;
+
 
 
 [[!redirects Polyakov action functional]]
