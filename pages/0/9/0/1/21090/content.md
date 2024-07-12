@@ -1408,7 +1408,7 @@ over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
 		\node [style=morphism] (27) at (4, -1.5) {$p$};
 \end{tikzpicture}
 
-This reflect the traditional idea of probability theory of a [[zero-one law]], a random variable which is independent of itself. In particular:
+This reflect the traditional idea of probability theory of a [[zero-one measure]], a random variable which is independent of itself. In particular:
 
 * In *FinStoch*, a distribution $p$ is deterministic if and only if for all $x,x'\in X$,
 $$
@@ -1420,7 +1420,7 @@ p(x) = p(x)^2 .
 $$
 This means precisely that for all $x$, either $p(x)=0$ or $p(x)=1$, i.e. that the probability is concentrated on a single point. 
 
-* In *Stoch*, a similar calculation shows that $p$ is deterministic if and only if for every measurable subset $A\subseteq X$, $p(A)=0$ or $p(A)=1$. That is, we are (almost) certain about which events happen and which do not. On well-behaved measurable spaces, such as [[standard Borel spaces]], this means exactly that $p$ is a [[Dirac delta]], a measure concentrated at a single point.
+* In *Stoch*, a similar calculation shows that $p$ is deterministic if and only if for every measurable subset $A\subseteq X$, $p(A)=0$ or $p(A)=1$ ([[zero-one measure]]). That is, we are (almost) certain about which events happen and which do not. On well-behaved measurable spaces, such as [[standard Borel spaces]], this means exactly that $p$ is a [[Dirac delta]], a measure concentrated at a single point.
 
 * In *Set*, every state (i.e. single point) is deterministic.
 
@@ -1483,7 +1483,7 @@ This formalizes the idea of a deterministic transition, or function. In particul
 
 * In *FinStoch*, by means of a similar calculation as above, a stochastic matrix $k:X\to Y$ is deterministic if and only if for all $x,y\in X$, $k(y|x)=0$ or $k(y|x)=1$. This means precisely that $k$ is in the form $\delta_f$ for a set-theoretic function $f$ (see [[stochastic map#stochastic_maps_from_deterministic_functions|here]]).
 
-* In *Stoch*, a Markov kernel $k:X\to Y$ is deterministic if and only if for every $x\in X$ and every measurable $B\subseteq Y$, $k(B|x)=0$ or $k(B|x)=1$. On well-behaved measurable spaces, such as [[standard Borel spaces]], this means exactly that $k$ is in the form $\delta_f$ for a measurable function $f$ (see [[Markov kernel#kernels_from_deterministic_functions|here]]).
+* In *Stoch*, a Markov kernel $k:X\to Y$ is deterministic if and only if for every $x\in X$ and every measurable $B\subseteq Y$, $k(B|x)=0$ or $k(B|x)=1$ ([[zero-one kernels]]). On well-behaved measurable spaces, such as [[standard Borel spaces]], this means exactly that $k$ is in the form $\delta_f$ for a measurable function $f$ (see [[Markov kernel#kernels_from_deterministic_functions|here]]).
 
 * In *Set*, every morphism is deterministic: for every $x\in X$ both side of the equations yield 
 $$
