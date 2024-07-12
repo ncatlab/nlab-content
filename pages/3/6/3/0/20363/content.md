@@ -94,7 +94,7 @@ The category of _light_ profinite sets is also equivalent to the opposite of the
 
 ## Properties
 
-Condensed sets form a [[locally small]], [[well-powered category|well-powered]], [[locally cartesian closed]] [infinitary-pretopos](pretopos#infinitary) $CondSet$, that is neither a [[Grothendieck topos]] nor an [[elementary topos]] -- since it lacks both a small [[separator]] (indeed, it is not even [[total category|total]]) and a [[subobject classifier]]. It has a large [[separator]] of finitely presentable [[projective object|projectives]], and hence is algebraically exact. ([Campbell 20](#Campbell20))
+Condensed sets form a [[locally small]], [[well-powered category|well-powered]], [[locally cartesian closed]] [infinitary-pretopos](pretopos#infinitary) $CondSet$, that is neither a [[Grothendieck topos]] nor an [[elementary topos]] -- since it lacks both a small [[separator]] (indeed, it is not even [[total category|total]]) and a [[subobject classifier]]. It has a large [[separator]] of finitely presentable [[projective object|projectives]], and hence is algebraically exact. ([Campbell 20](#Campbell20)) In [a talk](#Campbell21) by [[Alexander Campbell]], it is claimed that the category of condensed sets is the [infinitary-pretopos](pretopos#infinitary) completion of the [[pretopos]] of [[compact Hausdorff spaces]].
 
 According to [[Peter Scholze]] in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057798) and [[Mike Shulman]] in [this comment on the nCafé](https://golem.ph.utexas.edu/category/2020/03/pyknoticity_versus_cohesivenes.html#c057792), condensed sets satisfy external [[CoSHEP]] and [[WISC]], but internal CoSHEP fails. 
 
@@ -123,8 +123,6 @@ structures, but in this case, the underlying set is not $T(*)$.
 
 For the category of _light_ condensed sets, there is a functor that reflects back onto the category of [[sequential topological spaces]]
 
-
-
 ## Related concepts
 
 * [[pyknotic set]]
@@ -146,7 +144,8 @@ For the category of _light_ condensed sets, there is a functor that reflects bac
 * {#ScholzeLAG} [[Peter Scholze]], _Lectures on analytic geometry_, [pdf](https://www.math.uni-bonn.de/people/scholze/Analytic.pdf)
 * {#DustinScholze20}[[Dustin Clausen]], [[Peter Scholze]], _Masterclass in condensed mathematics,_ [YouTube playlist](https://www.youtube.com/playlist?list=PLAMniZX5MiiLXPrD4mpZ-O9oiwhev-5Uq), [website](https://www.math.ku.dk/english/calendar/events/condensed-mathematics/) (including pdf notes)
 * {#Scholze21} [[Peter Scholze]], Math Stack Exchange [answer](https://math.stackexchange.com/a/4199337/368788).
-* {#Campbell20} [[Alexander Campbell]], _How nice is the category of condensed sets?_, [talk abstract](http://web.science.mq.edu.au/groups/coact/seminar/cgi-bin/abstract.cgi?talkid=1645).
+* {#Campbell20} [[Alexander Campbell]], _How nice is the category of condensed sets?_, [talk abstract](https://centre-of-australian-category-theory.github.io/seminar/talks/1632).
+* {#Campbell21} [[Alexander Campbell]], _The universal property of the category of condensed sets_, [talk abstract](https://maths.anu.edu.au/news-events/events/universal-property-category-condensed-sets)
 * {#ClausenScholze23}[[Dustin Clausen]], [[Peter Scholze]], _Analytic Stacks,_ [YouTube playlist](https://www.youtube.com/playlist?list=PLx5f8IelFRgGmu6gmL-Kf_Rl_6Mm7juZO), [website](https://indico.math.cnrs.fr/event/10345/)
 
 The equivalence of various sites for condensed sets is established in
