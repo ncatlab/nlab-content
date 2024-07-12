@@ -40,11 +40,29 @@ for all $x\in X$ and $C\in\mathcal{C}$.
 This is sometimes called _Chapman-Kolmogorov formula_. (Compare with the composition formula for [[stochastic matrices]].)
 
 
-## As a Kleisli category
+## Properties
+
+### As a Kleisli category
 
 _Stoch_ can be equivalently described as the [[Kleisli category]] of the [[Giry monad]] on [[Meas]]. 
 
-(...)
+
+### As a Markov category
+
+As a [[Markov category]], _Stoch_ is [[Markov category#positivity_and_causality|causal and hence positive]]. It does not have all conditionals, but its subcategory [BorelStoch](#borelstoch) does.
+
+Its [[Markov category#deterministic_morphisms|deterministic morphisms]] are exactly the [[zero-one kernels]]. 
+
+
+### Particular limits and colimits
+
+* The [[invariant sigma-algebra]] for every [[action]] via [[zero-one kernels]] (for example, [[Markov kernel#kernels_from_deterministic_functionsvia deterministic functions]] is a [[colimit]].
+
+* For every [[action]] for which the [[ergodic decomposition theorem]] applies, the space of [[ergodic measures]] is a [[limit]]. 
+
+* A notable special case of the condition above is [[de Finetti's theorem]], which says that the space of probability measures $P X$ ([[Giry monad]]) is a limit for the [[exchangeability|action of finite permutations]].
+
+* Being a [[Kleisli category]], and since [[left adjoints preserve colimits]], every colimit [[Meas|of measurable spaces]] is also a colimit in _Stoch_.
 
 
 ## Notable subcategories
