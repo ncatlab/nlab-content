@@ -415,7 +415,7 @@ $$
 $$
 \end{proposition}
 
-## Operations
+## Operations {#operations}
 
 Regular directed complexes are closed under many relevant operations useful for [[higher category theory]].
 
