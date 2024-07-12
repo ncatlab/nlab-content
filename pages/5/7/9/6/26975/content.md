@@ -38,14 +38,14 @@ An *invariant set* is a [[subset]] which is [[invariant]] under a given [[action
 Let $X$ be a [[set]], let $M$ be a [[monoid]] (or a [[group]]), and consider an [[action]] of $M$ on $X$. (For each $m\in M$, denote the resulting action on $X$ again by $m:X\to X$.)
 
 A [[subset]] $S$ of $X$ is called **[[invariant]]** if and only if for each $m\in M$, $m^{-1}(S)=S$.
-Equivalently, if for every $x\in X$ we have that $x\in S$ if and only if $f(x)\in S$. 
+Equivalently, if for every $x\in X$ we have that $x\in S$ if and only if $m(x)\in S$. 
 
 Note that the *[[elements]]* ("points") of an invariant set need not themselves be [[fixed points]]: they might move under the action (but they remain in the set $S$). For example, for rotations in the plane, any circle centered at the origin is an invariant set, but each point in each nontrivial circle is not a fixed point.
 
 ### Variations of the definition
 
 Since the original definition was given for the case of [[group actions]], which are invertible, there are a number of variants of the same definition which differ for the case of arbitrary monoids. 
-In particular, sometimes one calls a subset $S\subseteq X$ *invariant* if and only if $m^{-1}(S)\subseteq S$, i.e. if for every $x\in S$, $f(x)\in S$ as well. (Without requiring that if $f(x)\in S$, then $x\in S$.) 
+In particular, sometimes one calls a subset $S\subseteq X$ *invariant* if and only if $m^{-1}(S)\subseteq S$, i.e. if for every $x\in S$, $m(x)\in S$ as well. (Without requiring that if $m(x)\in S$, then $x\in S$.) 
 In other words, it is a set "which we cannot leave" under the specified action. 
 Sometimes such a set is called an *absorbing set* instead. (But that term may itself be used for other concepts, to make matters even worse.)
 
