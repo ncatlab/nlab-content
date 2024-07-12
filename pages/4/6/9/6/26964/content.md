@@ -1,3 +1,5 @@
+[[!redirects Connor Aberlé]]
+[[!redirects Connor Aberlé]]
 
 * [personal website](https://cbaberle.com/)
 
