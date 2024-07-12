@@ -1,4 +1,4 @@
-* [website](https://www.irif.fr/~ahadziha/)
+* [website](https://www.ioc.ee/~amar/)
 
 ## Selected writings
 
