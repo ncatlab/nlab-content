@@ -72,7 +72,10 @@ For example, the [[Lebesgue measure]] on the [[unit circle]] (given by the [[len
 
 A monoid $(M,e,\cdot)$ can also act on a measurable space $X$ via [[Markov kernels]]. That is, to each $m\in M$ we can assign a kernel $k_m:X\to X$ such that 
 $$
-k_e(A|x) \;=\; 1_A(x)
+k_e(A|x) \;=\; 1_A(x) \;=\; \begin{cases}
+1 & x\in A ; \\
+0 & x\notin A ,
+\end{cases}
 $$
 and
 $$
