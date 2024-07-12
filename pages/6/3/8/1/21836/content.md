@@ -80,6 +80,9 @@ See also:
 
 * [[Daniel Berwick-Evans]], [[Arnav Tripathy]], _A geometric model for complex analytic equivariant elliptic cohomology_, ([arXiv:1805.04146](https://arxiv.org/abs/1805.04146))
 
+* Nicolò Sibilla, Paolo Tomasini: *Equivariant Elliptic Cohomology and Mapping Stacks I* \[<a href="https://arxiv.org/abs/2303.10146">arXiv:2303.10146</a>\]
+
+
 
 #### Via derived $E_\infty$-geometry
 
