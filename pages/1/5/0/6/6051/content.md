@@ -199,7 +199,7 @@ Discussion of the Polyakov action and [[Nambu-Goto action]] on [[worldsheets]] w
 
 On the Polyakov model as the continuum limit of a sequence of particles coupled by [[harmonic oscillator|harmonic]] nearest neighbour interaction:
 
-* [[Leonard Susskind]]: *Structure of Hadrons Implied by Duality*, Phys. Rev. D **1** (1970) 1182 &lbrack;[doi:10.1103/PhysRevD.1.1182](https://doi.org/10.1103/PhysRevD.1.1182)&rbrack;
+* [[Leonard Susskind]]: (24) ff in: *Structure of Hadrons Implied by Duality*, Phys. Rev. D **1** (1970) 1182 &lbrack;[doi:10.1103/PhysRevD.1.1182](https://doi.org/10.1103/PhysRevD.1.1182)&rbrack;
 
   > (often credited as one of the origins of [[string theory]])
 
