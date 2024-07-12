@@ -43,6 +43,8 @@ is an [[equivalence in an (infinity,1)-category|equivalence]].
 
 * [[equivariant symmetric monoidal category]]
 
+* [[G-stability]]
+
 
 ## References
 
