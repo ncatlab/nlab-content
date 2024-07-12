@@ -26,5 +26,9 @@ On [[dependent type theory]]:
 
 * {#BauerHaselwarterLumsdaine20} [[Andrej Bauer]], [[Philipp G. Haselwarter]], [[Peter LeFanu Lumsdaine]], *A general definition of dependent type theories* &lbrack;[arXiv:2009.05539](https://arxiv.org/abs/2009.05539)&rbrack;
 
+On [[categorical logic]]:
+
+* [[Steve Awodey]], [[Andrej Bauer]]: *Introduction to categorical logic*, lecture notes for a course at Carnegie Mellon University (January-April 2024) &lbrack;[webpage](https://awodey.github.io/catlog/notes/), 0:[pdf](https://awodey.github.io/catlog/notes/catlog0.pdf), 1:[pdf](https://awodey.github.io/catlog/notes/catlog1.pdf), 2:[pdf](https://awodey.github.io/catlog/notes/catlog2.pdf), 3:[pdf](https://awodey.github.io/catlog/notes/catlog3.pdf), 4:[pdf](https://awodey.github.io/catlog/notes/catlog4.pdf)&rbrack;
+
 
 category: people
