@@ -2,12 +2,17 @@ Equivariant categories and symmetric monoidal categories
 
 * [[G-∞-category]]
 
-* [[indexed coproduct]] / [[G-semiadditivity]] / [[indexing system]]
+* [[indexed coproduct]] / [[indexing system]]
 
-* [[equivariant symmetric monoidal category|G-symmetric monoidal ∞-category]]
+* [[G-semiadditivity]] / [[G-stability]] 
+
+* [[G-commutative monoid]] / [[equivariant symmetric monoidal category|G-symmetric monoidal ∞-category]]
+
+* [[equivariant factorization homology]]
 
 Equivariant operads
 
 * [[G-∞-operad]] 
 
-* [[N-∞ operad|$\mathcal{N}_\infty$ operad]] / [[EV-operad|$\mathbb{E}_V$ operad]]
+* [[N-∞ operad|$\mathcal{N}_\infty$ operad]] / [[EV-operad|$\mathbb{E}_V$ operad]] / [[equivariant linear isometries operad]]
+
