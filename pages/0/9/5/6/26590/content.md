@@ -95,7 +95,7 @@ Moreover, since the [[iid random variables#iid_samples|iid sampling map]] denote
 
 ## In Markov categories
 
-Just as it happens for [[standard Borel spaces]], in any [[Markov category#representable_markov_categories|representable Markov category]] with [[Markov category#conditionals|conditionals]] and [[Markov category#kolmogorov_products|Kolmogorov products]], a version of de Finetti's theorem holds, and the proof is completely analogous to the measure-theoretic one ([FGP'21](#fritz_definetti)).
+Just as it happens for [[standard Borel spaces]], in any [[observational monad|observationally]] [[Markov category#representable_markov_categories|representable Markov category]] with [[Markov category#conditionals|conditionals]] and [[Markov category#kolmogorov_products|Kolmogorov products]], a version of de Finetti's theorem holds, and the proof is completely analogous to the measure-theoretic one ([FGP'21](#fritz_definetti)).
 
 Conversely, one can define *de Finetti limits* in a Markov category as particular [[limits]] which are compatible with the Markov structure, and show that such a limit always gives a [[probability monad]], making the Markov category representable ([FFL'23](#quantum_definetti), section 3.6).
   
