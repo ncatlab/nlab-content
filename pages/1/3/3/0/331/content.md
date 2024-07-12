@@ -196,12 +196,13 @@ Textbooks on mathematical logic:
 
 * [[William Lawvere]]  _Equality in hyperdoctrines and comprehension schema as an adjoint functor_.  In A. Heller, ed., _Proc. New York Symp. on Applications of Categorical Algebra_, pp. 1--14.  AMS, 1970. ([[LawvereComprehension.pdf:file]])
 
+
+[[!include REF MakkaiReyes77]]
+
+
 * [[Pierre Cartier]], _Logique, cat&#233;gories et faisceaux_, S&#233;minaire Bourbaki, 20 (1977-1978), Exp. No. 513, 24 p. ([numdam]( http://www.numdam.org/item?id=SB_1977-1978__20__123_0))
 
 * {#LambekScott86} [[Joachim Lambek]], [[Philip J. Scott]], *Introduction to higher order categorical logic*, Cambridge Studies in Advanced Mathematics **7** (1986) &lbrack;[ISBN: 0-521-24665-2](https://www.cambridge.org/ae/academic/subjects/mathematics/logic-categories-and-sets/introduction-higher-order-categorical-logic?format=PB&isbn=9780521356534), [pdf](https://raw.githubusercontent.com/Mzk-Levi/texts/master/Lambek%20J.%2C%20Scott%20P.J.%20Introduction%20to%20Higher%20Order%20Categorical%20Logic.pdf)&rbrack;
-
-
-
 
 * [[Jim Lambek]], [[Phil Scott]], _Reflections on the categorical foundations of mathematics_ ([pdf](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf))
 
@@ -213,12 +214,15 @@ Textbooks on mathematical logic:
 
 * {#MarquisReyes09} [[Jean-Pierre Marquis]], [[Gonzalo Reyes]], (2009) *The History of Categorical Logic 1963-1977* ([pdf](https://www.webdepot.umontreal.ca/Usagers/marquisj/MonDepotPublic/HistofCatLog.pdf), [[MarquisReyes_CategoricalLogic.pdf:file]])
 
-
 * [[Jean-Yves Girard]], _[[Lectures on Logic]]_, European Mathematical Society 2011
 
 * [[Jacob Lurie]], *Categorical Logic*, Lecture notes 2018 ([web](https://www.math.ias.edu/~lurie/278x.html))
 
-[[!include REF MakkaiReyes77]]
+
+* [[Steve Awodey]], [[Andrej Bauer]]: *Introduction to categorical logic*, lecture notes for a course at Carnegie Mellon University (January-April 2024) &lbrack;[web](https://awodey.github.io/catlog/notes/), 0:[pdf](https://awodey.github.io/catlog/notes/catlog0.pdf), 1:[pdf](https://awodey.github.io/catlog/notes/catlog1.pdf), 2:[pdf](https://awodey.github.io/catlog/notes/catlog2.pdf), 3:[pdf](https://awodey.github.io/catlog/notes/catlog3.pdf), 4:[pdf](https://awodey.github.io/catlog/notes/catlog4.pdf)&rbrack;
+
+
+
 
 
 ### Logic in natural languages
