@@ -259,21 +259,66 @@ $$
 
 =--
 
+## Examples
+ {#Examples}
+
+* [[invariant polynomial]]
+
+* [[invariant differential form]]
+
+* [[invariant metric]]
+
+* [[invariant measure]]
+
+* [[j-invariant]]
+
+* [[knot invariant]], [[link invariant]]
+
+  * [[Milnor mu-bar invariant]]
+
+  * [[Vassiliev knot invariant]] ([[universal Vassiliev invariant|universal]])
+
+* * [[topological invariant]], [[homeomorphism invariant]], [[homotopy invariant]]
+
+  * [[k-invariant]]
+
+  * [[Adams e-invariant]]
+
+  * [[f-invariant]]
+
+  * [[Hopf invariant]]
+
+  * [[Kervaire invariant]]
+
+  * [[Casson invariant]]
+
+  * [[Chern-Simons invariant]]
+
+  * [[Gromov-Witten invariant]]
+
+  * [[Donaldson-Thomas invariant]]
+
+  * [[eta invariant]]
+
+
+* [[Dickson invariant]]
+
+
+
 ## Related concepts
+
+* [[invariant theory]], [[geometric invariant theory]]
 
 * [[group averaging]], [[norm map]]
 
-* [[stabilizer subgroup]]
+* [[coinvariant]]
 
-* [[invariant theory]], [[invariant polynomial]]
+* [[stabilizer subgroup]]
 
 * [[gauge invariance]]
 
-* [[topological invariant]]/[[homeomorphism invariant]]
 
-* [[homotopy invariant]]
 
-* [[invariant differential form]]
 
 \linebreak
 
