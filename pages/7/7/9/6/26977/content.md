@@ -52,7 +52,7 @@ Furthermore, the category $\odot$ is monoidal for the Gray product. By [[Day con
 
 Of course, those two ways give the same result, i.e. $i^*(P \otimes Q) = i^*(P) \otimes i^*(Q)$.
 
-Another useful feature is the boundary. Similarly to the [[boundary of a simplex]], any atom $U$ has a boundary $\partial U$ which can be computed in two ways:
+Another feature is the boundary. Similarly to the [[boundary of a simplex]], any atom $U$ has a boundary $\partial U$ which can be computed in two ways:
 
 *  as the regular directed complex $U \backslash \{ \top_U \}$ with underlying poset $U$ without its top-element,
 *  as the diagrammatic set generated from $yU$ minus its unique non-degenerate cell in dimension $\dim U$.
