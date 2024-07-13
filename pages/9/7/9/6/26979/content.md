@@ -35,7 +35,7 @@ In [[statistics]] it is used as an [[estimator]] of the distribution of a [[rand
 ## In measure-theoretic probability
 
 Let $X$ be a [[measurable space]]. 
-For each $x\in X$, denote by $\delta_x$ the [[Dirac delta]] distribution given by 
+For each $x\in X$, denote by $\delta_x$ the [[Dirac measure|Dirac delta]] distribution given by 
 $$
 \delta_x(A) \;=\; 1_A(x) \;=\; \begin{cases}
 1 & x\in A ; \\
