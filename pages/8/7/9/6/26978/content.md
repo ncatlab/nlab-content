@@ -68,7 +68,7 @@ $$
 $$
 Once again, if $Y$ is [[sober measurable space|sober]], every zero-one Markov kernel $X\to Y$ is in this form.
 
-* Every [[ergodic measure]] is zero-one when restricted to the [[invariant sigma-algebra]] (which in general does not separate points). 
+* Every [[ergodic measure]] is zero-one when restricted to the [[invariant sigma-algebra]]. 
 
 
 ## The category of zero-one kernels
