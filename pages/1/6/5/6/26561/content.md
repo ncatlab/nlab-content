@@ -44,19 +44,30 @@ This is sometimes called _Chapman-Kolmogorov formula_. (Compare with the composi
 
 ### As a Kleisli category
 
-_Stoch_ can be equivalently described as the [[Kleisli category]] of the [[Giry monad]] on [[Meas]]. 
+_Stoch_ can be equivalently described as the [[Kleisli category]] of the [[Giry monad]] on [[Meas]].
+
+It can also be described as the Kleisli category of the Giry monad restricted to the category $SoberMeas$ of [[sober measurable spaces]]. Indeed, by [[zero-one measure#Siso|this proposition]], every measurable space is isomorphic to its [[sober measurable space#categorical_properties|sobrification]] in the category of [[zero-one kernels]] (and hence, in [[Stoch]] as well).
 
 
 ### As a Markov category
 
 As a [[Markov category]], _Stoch_ is [[Markov category#positivity_and_causality|causal and hence positive]]. It does not have all conditionals, but its subcategory [BorelStoch](#borelstoch) does.
 
-Its [[Markov category#deterministic_morphisms|deterministic morphisms]] are exactly the [[zero-one kernels]]. 
+Its [[Markov category#deterministic_morphisms|deterministic morphisms]] are exactly the [[zero-one kernels]], forming the subcategory $Stoch_det$. 
+Note that, outside of the [[sober measurable space|sober]] case, these are more general than measurable functions.
+
+Since [[zero-one measure#kleisli_category|$Stoch_det$ is equivalent to $SoberMeas$]], _Stoch_ is a [[Markov category#representable_markov_categories|representable Markov category]]. 
+One should however keep in mind that the resulting [[probability monad]] is on [[sober measurable space|SoberMeas]] (or equivalently [[zero-one kernel|$Stoch_det$]]), not [[Meas]]. 
+
+Explicitly, the [[sampling map]] $samp:P X\to X$ is the usual measure-theoretic one:
+$$
+samp(A|p) \;=\; p(A) .
+$$
 
 
 ### Particular limits and colimits
 
-* The [[invariant sigma-algebra]] for every [[action]] via [[zero-one kernels]] (for example, [[Markov kernel#kernels_from_deterministic_functionsvia deterministic functions]] is a [[colimit]].
+* The [[invariant sigma-algebra]] for every [[action]] via [[zero-one kernels]] (for example, [[Markov kernel#kernels_from_deterministic_functions|via deterministic functions]] is a [[colimit]].
 
 * For every [[action]] for which the [[ergodic decomposition theorem]] applies, the space of [[ergodic measures]] is a [[limit]]. 
 
