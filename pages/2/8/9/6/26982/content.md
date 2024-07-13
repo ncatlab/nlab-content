@@ -168,11 +168,31 @@ This makes $S$ an [[idempotent monad|idempotent]] submonad of the [[Giry monad]]
 
 ### Kleisli category
 
-The [[Kleisli category]] of the monad $S$ is the category of [[zero-one kernels]], sometimes denoted by $Stoch_det$.
+The [[Kleisli category]] of the monad $S$ is the category of [[measurable spaces]] and [[zero-one kernels]], sometimes denoted by $Stoch_det$.
 
-Since the monad is [[idempotent monad|idempotent]], its Kleisli category is equivalent to its [[Eilenberg-Moore category]], which is the category $SoberMeas$ of [[sober measurable spaces]]. 
+Since the monad is [[idempotent monad|idempotent]], its Kleisli category is [[equivalence of categories|equivalent]] to its [[Eilenberg-Moore category]], which is the category $SoberMeas$ of [[sober measurable spaces]]. 
+
+Let's now write this equivalence explicitly.
+One one side, define the functor $F:SoberMeas\to Stoch_det$ as follows:
+
+* On [[objects]], it is the identity (or better said, it is forgetful from [[sober measurable spaces]] to all measurable spaces).
+* On [[morphisms]], it maps a [[measurable function]] $f:X\to Y$ to the [[zero-one kernel]] $\delta_f:X\to Y$ [[Markov kernel#kernels_from_deterministic_functions|]induced by]] $f$. 
+
+Similarly we can define a functor $G:Stoch_det\to SoberMeas$ as follows:
+
+* On [[objects]], it maps a (not necessarily sober) measurable space $X$ to $S X$.
+* On [[morphisms]], it maps a [[zero-one kernel]] $k:X\to Y$ to the map $S X \to S Y$ which takes a zero-one measure $p\in S X$ and gives the zero-one measure on $Y$ defined by
+$$
+B \mapsto p(k^*B) ,
+$$
+for all $B\in\Sigma_Y$, where
+$$
+k^*B \;\coloneqq\; \{x\in X \,:\, k(B|x) = 1 \} .
+$$
 
 (...)
+
+
 
 
 ## Related entries
