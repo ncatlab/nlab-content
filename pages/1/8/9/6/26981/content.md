@@ -53,6 +53,7 @@ Compare the definition with the following equivalent conditions in order for a [
 
 * Every [[completely prime filter]] (or classically equivalently, [[irreducible closed set]], [[point of a locale]]) is induced by a unique point.
 * Every [[morphism of locales]] into $X$ is induced by a unique [[continuous function]]. 
+* The component at $X$ of the unit of the [[sober topological space|sobrification monad]] is an isomorphism. 
 * The following [[diagram]] of [[Top]] is an [[equalizer]],
 \begin{tikzcd}[%
 nodes={scale=1.25}, arrows={thick},%
