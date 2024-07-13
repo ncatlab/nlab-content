@@ -105,8 +105,13 @@ Discussion [[homotopy groups of spheres in homotopy type theory|in homotopy type
 
 * [[Guillaume Brunerie]]: *[[On the homotopy groups of spheres in homotopy type theory]]* &lbrack;[arxiv:1606.05916](https://arxiv.org/abs/1606.05916)&rbrack;
 
+and on the implementation of the computation in [cubical Agda](Agda#CubicalAgda):
+
 * {#Ljungstroem22} [[Axel Ljungström]], *The Brunerie Number Is -2* (June 2022) &lbrack;[blog entry](https://homotopytypetheory.org/2022/06/09/the-brunerie-number-is-2/)&rbrack;
 
+* [[Anders Mörtberg]]: *Computational Proofs in Synthetic Homotopy Theory*, [talk at](CQTS#MörtbergApr2024) *[Running HoTT 2024](CQTS#RunningHoTT2024)*, [[CQTS]]@NYUAD (April 2024) &lbrack;video:[kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_yquumra8?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_yquumra8)&rbrack;
+
+* [[András Kovács]]: *Efficient Evaluation for Cubical Type Theories*, [talk at](CQTS#KovácsApr2024) *[Running HoTT 2024](Center+for+Quantum+and+Topological+Systems#RunningHoTT2024)*, [[CQTS]]@NYUAD (April 2024) &lbrack;video:[kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_bdom5cdn?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_bdom5cdn), slides:[[Kovacs-Apr2024.pdf:file]]&rbrack;
 
 
 
@@ -114,5 +119,7 @@ Discussion [[homotopy groups of spheres in homotopy type theory|in homotopy type
 
 [[!redirects first stable stem]]
 [[!redirects 1st stable stem]]
+
+[[!redirects Brunerie number]]
 
 
