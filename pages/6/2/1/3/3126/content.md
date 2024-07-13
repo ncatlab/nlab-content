@@ -969,6 +969,11 @@ Two further examples of tangent structures on an $(\infty,1)$-category, on [[(âˆ
 
 * [[Michael Ching]], _Dual tangent structures for infinity-toposes_, ([arXiv:2101.08805](https://arxiv.org/abs/2101.08805))
 
+Exposition:
+
+* [[Eric Finster]]: *A Tour of Parameterized Spectra*, [talk at](CQTS#FinsterApr2024) *[Running HoTT 2024](CQTS#RunningHoTT2024)*, [[CQTS]]@NYUAD (April 2024) &lbrack;video:[kt](https://cdnapisec.kaltura.com/p/1674401/sp/167440100/embedIframeJs/uiconf_id/23435151/partner_id/1674401?iframeembed=true&playerId=kaltura_player&entry_id=1_jf6fy0f2)&rbrack;
+
+
 
 [[!redirects tangent (infinity,1)-categories]]
 
