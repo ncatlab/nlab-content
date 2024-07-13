@@ -26,7 +26,7 @@
 In [[probability theory]], they model situations which "are not really random", where we are almost surely certain of which events take place and which do not. 
 They are used in [[categorical probability]] to model situations of [[ergodicity]].
 
-They also form a [[monad]], which is analogous to [[sober topological space|sobrification of topological spaces]].
+They also form a [[monad]], which is analogous to [[sober topological space#Reflection|sobrification of topological spaces]].
 
 The analogous concept for [[Markov kernels]] is a [[zero-one kernel]].
 
@@ -51,8 +51,16 @@ for $\lambda\in(0,1)$ and $q_1,q_2\in P X$, then $q_1=q_2=q$.
 (This can be seen as analogous to [[irreducible closed sets]].)
 * For every $f,g:X\to\mathbb{R}$ for which the integrals below exist, integration with $p$ preserves multiplication:
 $$
-\int_X f\cdot g\,dp \;=\; \left( \int_X f\,dp \right) \cdot \left( \int_X g\,dp \right) .
+\int_X (f\cdot g)\,dp \;=\; \left( \int_X f\,dp \right) \cdot \left( \int_X g\,dp \right) .
 $$
+* The parallel pair of maps
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+sep=large,%
+]
+PX \ar[shift left]{r}{\delta} \ar[shift right]{r}[swap]{P\delta} & PPX ,
+\end{tikzcd}
+agree on $p$. ($P$ denotes the [[Giry monad]], and $\delta$ is its [[unit]], given by [[Dirac measures]].) 
 
 
 ## Examples
@@ -77,6 +85,70 @@ If $X$ is [[standard Borel]], or more more generally a [[sober measurable space]
 
 
 ## The monad of zero-one measures
+
+Zero-one measures form a [[monad]], which we denote by $(S,\eta_S,\mu_S)$, a submonad of the [[Giry monad]]. 
+It can be seen as an analogue of the monad of [[completely prime filters]] ([[sober topological space#Reflection|sobrification]]) on $Top$, and because of that we also call it the **sobrification monad of measurable spaces** (see also at [[sober measurable space]]).
+This monad is defined abstractly in [MP'22](#det_submonad) (based on previous work, see the references therein), here we give a more explicit description.
+
+In what follows, let $X$ be a [[measurable space]], and denote its [[sigma-algebra]] by $\Sigma_X$.
+
+
+### Functor and unit
+
+The space of zero-one measures $S X$ on $X$ can be equivalently described as follows:
+
+* It is the [[equalizer]] of the following pair:
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+sep=large,%
+]
+PX \ar[shift left]{r}{\delta} \ar[shift right]{r}[swap]{P\delta} & PPX ,
+\end{tikzcd}
+* It is the subset of $P X$ (the [[Giry monad]]) of those measures which are zero-one, with the [[sigma-algebra]] induced from the one of $P X$;
+* It is the set of all zero-one measures on $X$, together with the [[sigma-algebra]] $\Sigma_{S X}$ given by the following sets,
+$$
+A^* \;\coloneqq\; \{p\in S X \;:\; p(A) = 1 \}
+$$
+for all measurable $A\subseteq X$. 
+
+
+The unit of the monad can be characterized equivalently as follows:
+
+* Since every [[Dirac measure]] is zero-one, the map $\delta:X\to P X$ lands in $S X$. 
+* Notice that by naturality of $\delta$ (the unit of the Giry monad), the map $\delta:X\to P X$ factors uniquely through the [[equalizer]] $S X$:
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+sep=large,%
+]
+X \ar{dr}{\delta} \ar[dashed]{d} \\
+SX \ar[hookrightarrow]{r}{\iota} & PX \ar[shift left]{r}{\delta} \ar[shift right]{r}[swap]{P\delta} & PPX ,
+\end{tikzcd}
+We take as unit $\eta_S$ the resulting map $X\to S X$. 
+
+\begin{proposition}
+ The assignment $A\mapsto A^*$ is an [[isomorphism]] of [[sigma-algebras]] $\Sigma_X\to \Sigma_{S X}$. Its [[inverse]] is given by the preimage map 
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+column sep=large,%
+row sep=0,%
+]
+\Sigma_{S X} \ar{r} & \Sigma_X \\
+B \ar[mapsto]{r} & (\eta_S)^{-1}(B) .
+\end{tikzcd}
+\end{proposition}
+
+(Compare to how a [[topological space]] and its [[sober topological space#Reflection|sobrification]] have the same [[frame]].) 
+
+
+### Multiplication and idempotency
+
+(...)
+
+### Kleisli category
+
+The [[Kleisli category]] of the monad $S$ is the category of [[zero-one kernels]], sometimes denoted by $Stoch_det$.
+
+Since the monad is [[idempotent monad|idempotent]], its Kleisli category is equivalent to its [[Eilenberg-Moore category]], which is the category $SoberMeas$ of [[sober measurable spaces]]. 
 
 (...)
 
