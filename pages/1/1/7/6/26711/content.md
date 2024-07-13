@@ -48,6 +48,29 @@ In particular, if $\mathcal{C}^{\otimes}$ is a $G$-symmetric monoidal $\infty$-c
 
 \end{definition}
 
+## The underlying $G$-category and $G$-symmetric sequence
+
+\begin{definition}
+  Given $\mathcal{P}^{\otimes}$ a $G$-$\infty$-operad, the **underlying $G$-$\infty$-category of $\mathcal{P}^{\otimes}$ is $U \mathcal{P} \coloneqq \mathcal{P}^{\otimes} \times_{\mathrm{Span}(\mathbb{F}_G)} \mathcal{O}_G^{\mathrm{op}}$.
+
+\end{definition}
+
+Explicitly, the $H$-value of $U\mathcal{P}$ is the fiber $\mathcal{P}_H \coloneqq \pi_{\mathcal{P}}^{-1}([G/H])$, and the restriction functor $\Res_K^H:\mathcal{P}_H \rightarrow \mathcal{P}_K$ is pullback.
+We say that $\mathcal{P}^{\otimes}$ **has one object** if $U\mathcal{P}$ is the terminal [[G-∞-category]].
+
+\begin{definition}
+  If $\mathcal{P}^{\otimes}$ is a one-object $G$-operad, then its underlying [[G-symmetric sequence]] is the functor $\mathcal{P}(-):\tot \underline{\Sigma}_G \rightarrow \mathcal{S}$ defined by 
+$$
+\mathcal{P}(S) \coloneqq \Map_{\cP^{\otimes}}^{\Ind_H^G S \rightarrow [G/H]}(\Ind_H^G S, [G/H]).
+$$
+\end{definition}
+
+This is significant largely due to the following proposition.
+
+\begin{proposition}
+  A map of $G$-operads $\mathcal{P}^{\otimes} \rightarrow \mathcal{Q}^{\otimes}$ is an equivalence if and only if, for all subgroups $H \subset G$ and all finite $H$-sets $S \in \mathbb{F}_H$, the induced map $\varphi(S):\mathcal{P}(S) \rightarrow \mathcal{Q}(S)$ is an equivalence.
+\end{proposition}
+
 ## Examples
 
 * [[N-∞ operads]]
@@ -61,6 +84,8 @@ In particular, if $\mathcal{C}^{\otimes}$ is a $G$-symmetric monoidal $\infty$-c
 * [[Parametrized Higher Category Theory and Higher Algebra]]
 
 * [[equivariant symmetric monoidal category]]
+
+* [[G-symmetric sequence]]
 
 * [[algebraic pattern]]
 
