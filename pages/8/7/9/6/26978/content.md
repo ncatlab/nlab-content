@@ -57,7 +57,7 @@ $$
 0 & x\notin A .
 \end{cases}
 $$
-If the [[sigma-algebra]] of $X$ separates points, every zero-one measure on $X$ is a Dirac delta.
+If $X$ is [[standard Borel]], or more more generally a [[sober measurable space]], every zero-one measure on $X$ is a Dirac delta.
 
 * More generally, every [[Markov kernel#kernels_from_deterministic_functions|kernel induced by a function]] is zero-one:
 $$
@@ -66,7 +66,7 @@ $$
 0 & f(x)\notin A .
 \end{cases}
 $$
-If the sigma algebra of $Y$ separates points, every zero-one Markov kernel $X\to Y$ is in this form.
+Once again, if $Y$ is [[sober measurable space|sober]], every zero-one Markov kernel $X\to Y$ is in this form.
 
 * Every [[ergodic measure]] is zero-one when restricted to the [[invariant sigma-algebra]] (which in general does not separate points). 
 
