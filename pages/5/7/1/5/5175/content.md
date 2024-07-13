@@ -193,6 +193,7 @@ and for $k \in \mathbb{N}$ the [[order of a distribution|order]] of $u$.
 [[!redirects Dirac ∞-distributions]]
 
 [[!redirects Dirac delta]]
+[[!redirects Dirac deltas]]
 [[!redirects Dirac ?]]
 
 [[!redirects delta-function]]
