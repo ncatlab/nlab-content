@@ -47,7 +47,7 @@ $$
 0 & x\notin A .
 \end{cases}
 $$
-If $X$ is [[standard Borel]], or more more generally a [[sober measurable space]], every zero-one measure on $X$ is a Dirac delta.
+If $X$ is [[standard Borel]], or more more generally [[sober measurable space|if it has enough points]], every zero-one measure on $X$ is a Dirac delta.
 
 * More generally, every [[Markov kernel#kernels_from_deterministic_functions|kernel induced by a function]] is zero-one:
 $$
