@@ -25,7 +25,7 @@ _Stoch_ is the category whose
 
 * [[Objects]] are [[measurable spaces]], i.e. pairs $(X,\mathcal{A})$ where $X$ is a set and $\mathcal{A}$ is a [[sigma-algebra]] on $X$;
 * [[Morphisms]] $(X,\mathcal{A})\to(Y,\mathcal{B})$ are [[Markov kernels]] of entries $k(B|x)$, for $x\in X$ and $B\in\mathcal{B}$;
-* The [[identities]] $(X,\mathcal{A})\to(X,\mathcal{A})$ are given by the [[Dirac delta]] kernels
+* The [[identities]] $(X,\mathcal{A})\to(X,\mathcal{A})$ are given by the [[Dirac measure|Dirac delta]] kernels
 $$
 \delta(A|x) = 1_A(x) = \begin{cases}
 1 & x\in A ; \\
