@@ -39,6 +39,10 @@ On [[weak omega-category|weak $\omega$-categories]] via [[computads]] construed 
 
 * [[Christopher J. Dean]], [[Eric Finster]], [[Ioannis Markakis]], [[David Reutter]], [[Jamie Vicary]], *Computads for weak $\omega$-categories as an inductive type* &lbrack;[arXiv:2208.08719](https://arxiv.org/abs/2208.08719)&rbrack;
 
+On the [[tangent (infinity,1)-topos]] of [[parameterized spectra]]:
+
+* [[Eric Finster]]: *A Tour of Parameterized Spectra*, [talk at](CQTS#FinsterApr2024) *[Running HoTT 2024](CQTS#RunningHoTT2024)*, [[CQTS]]@NYUAD (April 2024) &lbrack;video:[kt](https://cdnapisec.kaltura.com/p/1674401/sp/167440100/embedIframeJs/uiconf_id/23435151/partner_id/1674401?iframeembed=true&playerId=kaltura_player&entry_id=1_jf6fy0f2)&rbrack;
+
 
 
 ## Related entries
