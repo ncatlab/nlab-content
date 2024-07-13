@@ -92,7 +92,7 @@ $$
 for all $A\in\mathcal{A}$ and $B\in\mathcal{B}$.
 Intuitively, this maps all the mass at $x$ to the point $f(x)$, for every $x\in X$.
 
-Note that in general there may exist no measure-preserving function between two probability spaces, for example, on the real line, if $p$ is a Dirac delta and $q$ is not. 
+Note that in general there may exist no measure-preserving function between two probability spaces, for example, on the real line, if $p$ is a [[Dirac measure|Dirac delta]] and $q$ is not. 
 A construction that always exists is in terms of [[Markov kernels]], see below.
 
 ### Couplings induced by kernels
