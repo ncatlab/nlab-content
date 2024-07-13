@@ -401,7 +401,7 @@ The main theorem about layerings is as follows:
 Let $U$ be a molecule, $\mathrm{lydim} \le k \lt \dim U$. Then $U$ admits a $k$-layering.
 \end{theorem}
 
-Other useful results include:
+Other results include:
 \begin{proposition}\label{properties_layering}
 Let $U$ be a molecule, and let $(U^{(i)})_{1 \le i \le m}$ be a $k$-layering of $U$. Then
 
@@ -417,7 +417,7 @@ $$
 
 ## Operations {#operations}
 
-Regular directed complexes are closed under many relevant operations useful for [[higher category theory]].
+Regular directed complexes are closed under many relevant operations used for [[higher category theory]].
 
 ### Gray product
 
