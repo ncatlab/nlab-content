@@ -11,6 +11,9 @@ On [[higher inductive-inductive types]]:
 
 * [[András Kovács]], *Type-Theoretic Signatures for Algebraic Theories and Inductive Types*, PhD thesis (2022) &lbrack;[pdf](https://andraskovacs.github.io/pdfs/phdthesis_compact.pdf), slides:[pdf](https://andraskovacs.github.io/pdfs/wg6stockholm.pdf)&rbrack;
 
+On computing the [[first stable homotopy group of spheres]] via [[homotopy type theory]] (the "[[Brunerie number]]") in [cubical Agda](Agda#CubicalAgda):
+
+* [[András Kovács]]: *Efficient Evaluation for Cubical Type Theories*, [talk at](CQTS#KovácsApr2024) *[Running HoTT 2024](Center+for+Quantum+and+Topological+Systems#RunningHoTT2024)*, [[CQTS]]@NYUAD (April 2024) &lbrack;video:[kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_bdom5cdn?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_bdom5cdn), slides:[[Kovacs-Apr2024.pdf:file]]&rbrack;
 
 category: people
 
