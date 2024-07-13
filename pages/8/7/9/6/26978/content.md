@@ -39,18 +39,27 @@ $$
 k(B|x) \;=\; 0 \qquad or \qquad k(B|x) \;=\; 1 .
 $$
 
+### Equivalent definitions
 
-Equivalently, a [[measure]] is said to be *zero-one* exactly when it it makes each event [[conditional independence|independent]] of itself:
+A [[measure]] is equivalently zero-one exactly when it it makes each event [[conditional independence|independent]] of itself:
 $$
 p(A) \;=\; p(A\cap A) \;=\; p(A)\,p(A) \quad\Rightarrow\quad p(A)\in\{0,1\} .
 $$
 This is reflected exactly by the formulation in terms of [[Markov category#deterministic_morphisms|Markov categories]] (see below).
 Similarly, a *zero-one kernel* is exactly a kernel whose output is [[conditional independence|conditionally independent]] of itself given the input.
 
+Similarly, a probability measure $p\in P X$ is equivalently zero-one whenever it is *irreducible* or *extremal* in the following sense: 
+If we can express $p$ as a [[convex combination]] 
+$$
+p \;=\; \lambda\,q_1 + (1-\lambda)\,q_2
+$$
+for $\lambda\in(0,1)$ and $q_1,q_2\in P X$, then $q_1=q_2=q$. That is, it cannot be expressed as a nontrivial convex combination.
+(This can be seen as analogous to [[irreducible closed sets]].)
+
 
 ## Examples
 
-* Every [[Dirac delta]] measure is zero-one: 
+* Every [[Dirac measure|Dirac delta]] measure is zero-one: 
 $$
 \delta_x(A) \;=\; 1_A(x) \;=\; \begin{cases}
 1 & x\in A ; \\
@@ -82,6 +91,8 @@ k^*B \;\coloneqq\; \{x\in X \,:\, k(B|x) = 1 \} .
 $$ 
 The map $k^*:\Sigma_Y\to\Sigma_X$ is a morphism of [[sigma-algebras]] (i.e. it preserves countable unions and complements), and every morphism of sigma-algebras $\Sigma_Y\to\Sigma_X$ is in this form for some kernel $k$. In other words, zero-one kernels are analogous to morphisms of [[locales]] in [[point-free topology]].
 
+In particular, similar to the case of [[sober topological spaces]], $Stoch_det$ is equivalent to the category of [[sober measurable spaces]].
+
 
 ## Almost surely zero-one kernels
 
@@ -109,7 +120,10 @@ Almost surely zero-one kernels are closed under composition, and so are their al
 ## Related entries
 
 * [[Markov kernel]], [[Markov category]], [[Stoch]], [[Krn]]
-* [[zero-one law]], [[ergodicity]]
+* [[zero-one law]], [[ergodicity]], [[deterministic random variable]]
+* [[thunk-force category]]
+* [[sober measurable space]]
+* [[point-free topology]], [[point of a locale]]
 
 
 ## References
@@ -122,7 +136,7 @@ Almost surely zero-one kernels are closed under composition, and so are their al
 
 * {#ergodic_dagger} Noé Ensarguet, [[Paolo Perrone]], Categorical probability spaces, ergodic decompositions, and transitions to equilibrium, [arXiv:2310.04267](https://arxiv.org/abs/2310.04267)
 
-* [[Paolo Perrone]], _When measurable spaces don't have enough points_, introductory talk ([YouTube](https://www.youtube.com/watch?v=V4WzTgjbP3c))
+* [[Paolo Perrone]], _When measurable spaces don't have enough points_, introductory talk. ([YouTube](https://www.youtube.com/watch?v=V4WzTgjbP3c))
 
 
 category: probability
