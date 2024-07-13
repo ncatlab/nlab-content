@@ -32,6 +32,7 @@ A [[measurable space]] $X$ is called **sober** if any of the following equivalen
 
 * Every [[zero-one measure]] on $X$ is the [[Dirac measure|Dirac delta]] over a unique point.
 * Every [[zero-one kernel]] into $X$ is [[Markov kernel#kernels_from_deterministic_functions|induced by]] a unique [[measurable function]]. 
+* The component $\eta_S:X\to S X$ of the [[unit]] of the [[zero-one+measure#the_monad_of_zeroone_measures|zero-one measure monad]] is an [[isomorphism]].
 * The following [[diagram]] of [[Meas]] is an [[equalizer]],
 \begin{tikzcd}[%
 nodes={scale=1.25}, arrows={thick},%
@@ -59,7 +60,29 @@ where $V$ denotes the monad of [[closed subsets]] (with the [[lower Vietoris top
 
 ## Categorical properties
 
-(...)
+Sober measurable spaces form a [[reflective subcategory]] of [[Meas]]. That is, the inclusion functor $SoberMeas\hookrightarrow Meas$ has a [[left adjoint]] $S:Meas\to SoberMeas$. 
+It maps a measurable space $X$ to the [[zero-one measure#the_monad_of_zeroone_measures|space of zero-one measures]] over it, which is equivalently given by the following [[equalizer]],
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+sep=large,%
+]
+SX \ar[hookrightarrow]{r}{\iota} & PX \ar[shift left]{r}{\delta} \ar[shift right]{r}[swap]{P\delta} & PPX 
+\end{tikzcd}
+where $P$ denotes the [[Giry monad]] and $\delta$ is its unit. 
+
+Analogously to the [[sober topological space|case of topological spaces]], this functor is sometimes called the *sobrification*. 
+
+To see its [[universal property]], notice that by naturality of $\delta$, and by definition of equalizer, there is a unique map $X\to S X$ making the triangle below commute.
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+sep=large,%
+]
+X \ar{dr}{\delta} \ar[dashed]{d} \\
+SX \ar[hookrightarrow]{r}{\iota} & PX \ar[shift left]{r}{\delta} \ar[shift right]{r}[swap]{P\delta} & PPX 
+\end{tikzcd}
+This map $X\to SX$ forms the unit of the [[adjunction]]. 
+
+(More on this at [[zero-one measure#the_monad_of_zeroone_measures|zero-one measure]].)
 
 
 ## Related entries
