@@ -113,7 +113,7 @@ The tricky part is to interpret the exponentials $!,?$. We just need to add enou
 * A natural transformation $A \rightarrow !A$ to interpret the codereliction.
 * A natural transformation $!A \rightarrow A$ to interpret the dereliction.
 
-Thus, for every object $A$, we will have that $!A$ is a bimonoid. $!$ will be a comonad. The coderiliction is added on top of this structure.
+Thus, for every object $A$, we will have that $!A$ is a [[bimonoid]]. $!$ will be a [[comonad]]. The codereliction is added on top of this structure.
 
 (...)
 
