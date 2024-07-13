@@ -21,45 +21,26 @@
 
 ## Idea
 
-*Zero-one measures* and *zero-one kernels* are [[measures]] and [[Markov kernels]] whose only values are [[zero]] and [[one]]. 
+*Zero-one kernels* are [[Markov kernels]] whose only values are [[zero]] and [[one]]. 
 
-In [[probability theory]], they model situations which "are not really random", where we are almost surely certain of which events or which transitions take place. 
+In [[probability theory]], they model situations which "are not really random", where we are almost surely certain of which transitions take place and which do not.
 
-Zero-one kernels form a [[category]], which is used in [[categorical probability]] to model situations of determinism in a [[point-free topology|point-free]] way, as well as [[ergodicity]].
+They are the [[Markov kernel|kernel]] version of a [[zero-one measure]]. 
+
+Zero-one kernels form a [[category]], which is used in [[categorical probability]] to model situations of determinism in a [[point-free topology|point-free]] way.
 
 
 ## Definition
 
-A [[measure]] $p$ on a [[measurable space]] $X$ is said to be **zero-one** if and only if for every measurable subset $A$ of $X$, 
-$$
-p(A) \;=\; 0 \qquad or \qquad p(A) \;=\; 1 .
-$$
-Similarly, a [[Markov kernel]] $k:X\to Y$ is said to be **zero-one** if and only if for every $x\in X$ and every measurable subset $B$ of $Y$, 
+A [[Markov kernel]] $k:X\to Y$ is said to be **zero-one** if and only if for every $x\in X$ and every measurable subset $B$ of $Y$, 
 $$
 k(B|x) \;=\; 0 \qquad or \qquad k(B|x) \;=\; 1 .
 $$
 
-### Equivalent definitions
-
-A [[measure]] is equivalently zero-one exactly when it it makes each event [[conditional independence|independent]] of itself:
-$$
-p(A) \;=\; p(A\cap A) \;=\; p(A)\,p(A) \quad\Rightarrow\quad p(A)\in\{0,1\} .
-$$
-This is reflected exactly by the formulation in terms of [[Markov category#deterministic_morphisms|Markov categories]] (see below).
-Similarly, a *zero-one kernel* is exactly a kernel whose output is [[conditional independence|conditionally independent]] of itself given the input.
-
-Similarly, a probability measure $p\in P X$ is equivalently zero-one whenever it is *irreducible* or *extremal* in the following sense: 
-If we can express $p$ as a [[convex combination]] 
-$$
-p \;=\; \lambda\,q_1 + (1-\lambda)\,q_2
-$$
-for $\lambda\in(0,1)$ and $q_1,q_2\in P X$, then $q_1=q_2=q$. That is, it cannot be expressed as a nontrivial convex combination.
-(This can be seen as analogous to [[irreducible closed sets]].)
-
 
 ## Examples
 
-* Every [[Dirac measure|Dirac delta]] measure is zero-one: 
+* Every [[Dirac measure|Dirac delta]] measure is a zero-one kernel from the one-point spae: 
 $$
 \delta_x(A) \;=\; 1_A(x) \;=\; \begin{cases}
 1 & x\in A ; \\
@@ -77,7 +58,7 @@ $$
 $$
 Once again, if $Y$ is [[sober measurable space|sober]], every zero-one Markov kernel $X\to Y$ is in this form.
 
-* Every [[ergodic measure]] is zero-one when restricted to the [[invariant sigma-algebra]]. 
+(See also at [[zero-one measure#examples|zero-one measure]].)
 
 
 ## The category of zero-one kernels
@@ -92,6 +73,7 @@ $$
 The map $k^*:\Sigma_Y\to\Sigma_X$ is a morphism of [[sigma-algebras]] (i.e. it preserves countable unions and complements), and every morphism of sigma-algebras $\Sigma_Y\to\Sigma_X$ is in this form for some kernel $k$. In other words, zero-one kernels are analogous to morphisms of [[locales]] in [[point-free topology]].
 
 In particular, similar to the case of [[sober topological spaces]], $Stoch_det$ is equivalent to the category of [[sober measurable spaces]].
+Equivalently, it can also be seen as the [[Kleisli category]] of the [[zero-one measure#the_monad_of_zeroone_measures|zero-one measure monad]] (equivalently, the [[sober measurable space|sobrification monad of measurable spaces]]).
 
 
 ## Almost surely zero-one kernels
@@ -106,8 +88,6 @@ Almost surely zero-one kernels are closed under composition, and so are their al
 
 ## Further properties
 
-* Zero-one measures are exactly the [[law of a random variable|laws]] of those [[random variables]] which satisfy a [[zero-one law]].
-
 * Zero-one kernels are exactly the [[Markov category#deterministic_morphisms|deterministic morphisms]] of [[Stoch]], in the sense of [[Markov categories]].
 
 * Zero-one kernels are exactly the [[thunk-force category#thunkable_morphisms|thunkable morphisms]] of [[Stoch]], seen as the [[Kleisli category]] of the [[Giry monad]] with its canonical [[thunk-force category|thunk-force structure]].
@@ -119,8 +99,8 @@ Almost surely zero-one kernels are closed under composition, and so are their al
 
 ## Related entries
 
+* [[zero-one measure]]
 * [[Markov kernel]], [[Markov category]], [[Stoch]], [[Krn]]
-* [[zero-one law]], [[ergodicity]], [[deterministic random variable]]
 * [[thunk-force category]]
 * [[sober measurable space]]
 * [[point-free topology]], [[point of a locale]]
@@ -142,13 +122,9 @@ Almost surely zero-one kernels are closed under composition, and so are their al
 category: probability
 
 [[!redirects zero-one kernels]]
-[[!redirects zero-one measure]]
-[[!redirects zero-one measures]]
 [[!redirects zero-one Markov kernel]]
 [[!redirects zero-one Markov kernels]]
 [[!redirects deterministic kernel]]
-[[!redirects deterministic measure]]
 [[!redirects deterministic Markov kernel]]
 [[!redirects deterministic kernels]]
-[[!redirects deterministic measures]]
 [[!redirects deterministic Markov kernels]]
