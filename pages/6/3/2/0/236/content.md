@@ -20,7 +20,7 @@
 
 ## Idea
 
-Given an [[action]] $\rho$ of a [[group]] $G$ on a [[set]] $S$, the action groupoid $S//G$ is a bit like the quotient set $S/G$ (the set of $G$-orbits).  But, instead of taking elements of $S$ in the same $G$-orbit as being [[equality|equal]] in $S/G$, in the action groupoid they are just [[isomorphism|isomorphic]].  We may think of the action groupoid as a [[homological resolution|resolution]] of the usual quotient.  When the action of $G$ on $S$ fails to be free, the action groupoid is generally better-behaved than the quotient set.
+Given an [[action]] $\rho$ of a [[group]] $G$ on a [[set]] $S$, the action groupoid $S \sslash G$ is a bit like the quotient set $S/G$ (the set of $G$-orbits).  But, instead of taking elements of $S$ in the same $G$-orbit as being [[equality|equal]] in $S/G$, in the action groupoid they are just [[isomorphism|isomorphic]].  We may think of the action groupoid as a [[homological resolution|resolution]] of the usual quotient.  When the action of $G$ on $S$ fails to be free, the action groupoid is generally better-behaved than the quotient set.
 
 The action groupoid also goes by other names, including '[[weak quotient]]'.  It is a special case of a '[[pseudo colimit]]', as explained below. It is also called a "[[semidirect product]]" and then written $S \rtimes G$. The advantage of this is that it accords with the generalisation to the action of a group $G$ on a groupoid $S$, which is relevant to orbit space considerations, since if $G$ acts on a space $X$ it also acts on the fundamental groupoid of $X$; this is fully developed in  "Topology and Groupoids", Chapter 11. 
 
@@ -28,7 +28,7 @@ The action groupoid also goes by other names, including '[[weak quotient]]'.  It
 
 ### In category theory
 Given an [[action]] 
-$\rho : S \times G \to S$ of a group $G$ on the set $S$, the _action groupoid_ $S//G$ (or, more precisely, $S//_\rho G$) is the [[groupoid]] for which:
+$\rho : S \times G \to S$ of a group $G$ on the set $S$, the _action groupoid_ $S \sslash G$ (or, more precisely, $S \sslash_\rho G$) is the [[groupoid]] for which:
 
 * an object is an element of $S$
 
@@ -37,7 +37,7 @@ $\rho : S \times G \to S$ of a group $G$ on the set $S$, the _action groupoid_ $
 * The composite of $(g,s) : s \to g s = s'$ and $(g',s'): 
 s' \to g's'$ is $(g' g, s) : s \to g' g s$.
 
-Equivalently, we may define the _action groupoid_ $S//G$ to be the groupoid
+Equivalently, we may define the _action groupoid_ $S \sslash G$ to be the groupoid
 $$
   \array{
      && S \times G
@@ -55,9 +55,9 @@ with composition
 $$(S \times G) \times_{t,s} (S \times G) \simeq S \times G \times G \to S \times G$$ 
 given by the product in $G$.
 
-We can denote the morphisms in $S//G$ by
+We can denote the morphisms in $S\sslash G$ by
 
-$$S//G:=\{s\stackrel{g}{\to} \rho(s,g) | s\in S, g\in G\}.$$
+$$S\sslash G:=\{s\stackrel{g}{\to} \rho(s,g) | s\in S, g\in G\}.$$
 
 ### In (∞,1)-category theory
 
@@ -147,10 +147,10 @@ This functor sends the single object of $\mathbf{B}G$ to the set $S$.
 
 ### As a pseudo colimit 
 
-$S//G$ is the [[2-limit|2-colimit]] of $\rho$, i.e., the [[category of elements]] of $\rho$.
+$S\sslash G$ is the [[2-limit|2-colimit]] of $\rho$, i.e., the [[category of elements]] of $\rho$.
 
 $$
-  S//G \simeq colim_{\mathbf{B}G} \rho
+  S\sslash G \simeq colim_{\mathbf{B}G} \rho
   \,.
 $$
 
@@ -162,7 +162,7 @@ $$
      \\
      & \searrow &\stackrel{\simeq}{\Leftarrow}& \swarrow
      \\
-     && S//G
+     && S\sslash G
   }
   \,,
 $$
@@ -176,11 +176,11 @@ where the 2-morphism is uniquely specified and in components given by $s \mapsto
 Let $Set_*$ be the category of pointed sets and $Sets_* \to Sets$ be the canonical forgetful functor. 
 We can think of this as the "universal $Set$-bundle".
 
-Then $S//G$ is the pullback
+Then $S\sslash G$ is the pullback
 
 $$
   \array{
-    S//G
+    S\sslash G
     &\to&
     Sets_*
     \\
@@ -204,14 +204,14 @@ Higgins used this idea to lift presentations of a group $G$ to presentations of 
 
 ### As a stack
 
-In the case where the action is [[internalization|internal]] to sets with structure, such as internal to [[Diff]] one wants to realize the action groupoid as a [[Lie groupoid]]. That Lie groupoid in turn may be taken to present a [[differentiable stack]] which then usually goes by the same name $S//G$.
+In the case where the action is [[internalization|internal]] to sets with structure, such as internal to [[Diff]] one wants to realize the action groupoid as a [[Lie groupoid]]. That Lie groupoid in turn may be taken to present a [[differentiable stack]] which then usually goes by the same name $S\sslash G$.
 
 
 ## Properties
 
 ### Relation to representation theory
 
-The action groupoids $X//G$ of a group $G$ come equipped with a canonical map to $\mathbf{B}G \simeq \ast //G$. Regarded via this map as objects in the [[slice (infinity,1)-category|slice]] of groupoids over $\mathbf{B}G$, action groupoids are in fact [[equivalence|equivalent]] to the actions that they arise from.
+The action groupoids $X\sslash G$ of a group $G$ come equipped with a canonical map to $\mathbf{B}G \simeq \ast \sslash G$. Regarded via this map as objects in the [[slice (infinity,1)-category|slice]] of groupoids over $\mathbf{B}G$, action groupoids are in fact [[equivalence|equivalent]] to the actions that they arise from.
 
 For more on this see at _[[infinity-action]]_ and also at _[[geometry of physics -- representations and associated bundles]]_.
 
@@ -227,10 +227,10 @@ $$
 
 to [[(∞,1)Cat]]. This takes the single object of $\mathbf{B}G$ to some $(\infty,1)$-category  $V$.
 
-Again we want to **define** the _action groupoid_ $V//G$ as the [[limit in a quasi-category|(∞,1)-categorical colimit]] over the action:
+Again we want to **define** the _action groupoid_ $V\sslash G$ as the [[limit in a quasi-category|(∞,1)-categorical colimit]] over the action:
 
 $$
-  V//G := \lim_\to \rho
+  V\sslash G := \lim_\to \rho
   \,.
 $$
 
@@ -238,7 +238,7 @@ By the result [described here](http://ncatlab.org/nlab/show/limit+in+a+quasi-cat
 
 $$
   \array{
-    V//G &\to& Z
+    V\sslash G &\to& Z
     \\
     \downarrow && \downarrow
     \\
@@ -250,7 +250,7 @@ classified by $\rho$ under the [[(∞,1)-Grothendieck construction]]. As before,
 
 $$
   \array{
-    V&\to& V//G &\to& Z
+    V&\to& V\sslash G &\to& Z
     \\
     \downarrow && \downarrow && \downarrow
     \\
@@ -265,7 +265,7 @@ The resulting total $(\infty,1)$-pullback rectangle is the fiber of $Z \to (\inf
 
  * If the action of a Lie group $G$ on the manifold $X$ is free and proper, what you get is a manifold $X/G$.
 
- *  If the action of a Lie group $G$ on the manifold $X$ is not necesssarily free and proper, what you get is a Lie groupoid, denoted (among other symbols) by $X//G$.
+ *  If the action of a Lie group $G$ on the manifold $X$ is not necesssarily free and proper, what you get is a Lie groupoid, denoted (among other symbols) by $X\sslash G$.
 
 ## Related concepts
 
