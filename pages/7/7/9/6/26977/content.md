@@ -4,7 +4,7 @@
 
 ## Idea
 
-Diagrammatic sets are [[presheaf|presheaves]] over the [[atom category]]. There are kind of geomtrical [[polygraph|polygraphs]], and can serve as a model for [[higher category theory|higher categories]].
+Diagrammatic sets are [[presheaf|presheaves]] over the [[atom category]]. There are kind of geometric [[polygraph|polygraphs]], and can serve as a model for [[higher category theory|higher categories]].
 
 
 ## Definition 
@@ -18,11 +18,11 @@ A **diagrammatic set** $X$ is a presheaf over $\odot$, the [[atom category|categ
 ## Properties
 
 
-Let $\mathbf{RDCpx}$ be the category of [[regular directed complex|regular directed complexes]] and cartesian maps. Since atoms are regular directed complexes, there is a [[full subcategory]] inclusion $i \colon \otod \hookrightarrow \mathbf{RDCpx}$. In fact, any regular directed complex $P$ is canonically a colimit of its atoms, in the sense that there is a functor
+Let $\mathbf{RDCpx}$ be the category of [[regular directed complex|regular directed complexes]] and cartesian maps. Since atoms are regular directed complexes, there is a [[full subcategory]] inclusion $i \colon \odot \hookrightarrow \mathbf{RDCpx}$. Moreover, any regular directed complex $P$ is canonically a colimit of its atoms, in the sense that there is a functor
 $$
     P^* \colon P \to \mathbf{RDCpx} 
 $$
-sending $x \in P$ to the atom $\mathrm{cl}(x)$ and $x \le y$ to the inclusion $\mathrm{cl}(x) \hookrightarrow \mathrm{cl}(y)$. We have
+sending $x \in P$ to the atom $\mathrm{cl}(x)$ and $x \le y$ to the inclusion $\mathrm{cl}(x) \hookrightarrow \mathrm{cl}(y)$, such that 
 $$
     \colim P^* \cong P.
 $$
@@ -33,7 +33,7 @@ $$
 $$
 sending $x \in P$ to $y(\mathrm{cl}(x))$, where $y$ is the [[Yoneda embedding]]. Unsurprisingly, we obtain the same thing, in the following precise sense. The subcategory inclusion $i$ defines a [[restricted Yoneda embedding]]:
 $$
-    i^* \colon \mathbf{RDCpx} \to \odot\mathbb{Set}
+    i^* \colon \mathbf{RDCpx} \to \odot\mathbf{Set}
 $$
 that sends a regular directed complex $P$ to the presheaf $\mathbf{RDCpx}(i^*(-), P)$. 
 
@@ -63,9 +63,9 @@ Again, those two ways coincide in the sense that $i^*(\partial U) = \partial yU$
 
 ## Diagrammatic sets and higher category theory
 
-The richeness of shapes in the category of atoms, as well as the quite rigid behavior of the category $\odot$ where they live makes them good candidates for modelling [[higher category theory|higher categories]]. In this perspective, if $X$ is a diagrammatic set, and $x \colon U \to X$ is a natural transformation whose domain is an $n$-dimensional atom, this an **$n$-cell** in $X$. If $U$ is a more general molecule, we call it an **$n$-diagram**, while when $U$ is furthermore round, we speak of **round $n$-diagram**.
+The richeness of shapes in the category of atoms, as well as the quite rigid behavior of the category $\odot$ where they live make them a good candidate for modelling [[higher category theory|higher categories]]. In this perspective, in a diagrammatic set $X$, a natural transformation $x \colon U \to X$ whose domain is an $n$-dimensional atom, correspond to an **[[k-morphism|$n$-cell]]** in $X$. If $U$ is more generally an $n$-dimensional molecule, we call it an **$n$-diagram**, while when $U$ is furthermore round, we speak of a **round $n$-diagram**.
 
-Before the more conjectural case of weak higher category, we can deal with the case of higher groupoids.
+Before the more conjectural case of weak higher categories, we can deal with the case of higher groupoids.
 
 ### Higher groupoids
  
@@ -109,7 +109,7 @@ which is [[Quillen equivalence|Quillen equivalent]] to the [[classical model str
 \end{theorem} 
 
 \begin{remark}
-Note that the existence of the model structure and the Quillen equivalence already follows from the fact that $\odot$ is a test category.
+Note that the existence of the model structure and the Quillen equivalence already follow from the fact that $\odot$ is a test category.
 \end{remark}
 
 We can realize the Quillen equivalence in two different ways. For the first one, recall that any atom is in particular a poset, of which we can take the [[nerve]], to get a simplicial set, which defines a functor from $\odot$ to $\mathbf{sSet}$. Then we define $\mathrm{Sd}_\odot \colon \odot\mathbf{Set} \to \mathbf{sSet}$ as the [[Yoneda extension]] of this functor, and we name its right adjoint $\mathrm{Ex}_\odot$. Then:
@@ -125,7 +125,7 @@ The adjunctions $\mathrm{Sd}_\odot \dashv \mathrm{Ex}_\odot$ and $i_\Delta \dash
 $$
 \mathbf{sSet} \leftrightarrows \odot\mathbf{Set} \leftrightarrows \mathbf{sSet}
 $$
-factorize the adjunction $\mathrm{Sd} \vdash \mathrm{Ex}$ of simplicial sets (see [[subdivision]]). 
+factorize the adjunction $\mathrm{Sd} \dashv \mathrm{Ex}$ of simplicial sets (see [[subdivision]]). 
 \end{proposition}
 
 Hence,
@@ -152,17 +152,26 @@ The merge of a round molecule _composes_ all the top dimensional cells of $U$ in
     & {} \arrow[ru, Rightarrow] & {} \arrow[ru, Rightarrow]                      &    &    \\
     &                           & {} \arrow[rruu]                                &    &   
 \end{tikzcd}
-Notice that $\langle U \rangle$ shares the same boundary as $U$. In particular, since $U$ is round, $U \Rightarrow \langle U \rangle$ is well-defined.
+is 
+\begin{tikzcd}
+                                           &  & {}                        &  &    \\
+{} \arrow[rrdd] \arrow[rrrr, bend left=49] &  &                           &  & {} \\
+                                           &  & {} \arrow[uu, Rightarrow] &  &    \\
+                                           &  & {} \arrow[rruu]           &  &   
+\end{tikzcd}
+Notice that $\langle U \rangle$ shares the same boundaries as $U$. In particular, since $U$ is round, $U \Rightarrow \langle U \rangle$ is well-defined.
 
 \begin{definition}
 **(weak composite)**\linebreak
 Let $X$ be a diagrammatic set, let $x \colon U \to X$ be a round $n$-diagram. A weak composite of $x$ is a cell $\langle x \rangle \colon \langle U \rangle \to X$ such that $x \simeq \langle x \rangle$.
 \end{definition}
 
-The contender for diagrammatic weak $\infty$-category is the notion of diagrammatic set with all _weak composites_. 
+Here, $x \simeq \langle x \rangle$ means a cell in $X$ of shape $U \Rightarrow \langle U \rangle$ which is invertible (in a sense we did not define here).
+
+The contender for weak $\infty$-category is the notion of diagrammatic set with _weak composites_. 
 \begin{definition}
 **(diagrammatic set with weak composites)**\linebreak
-A diagrammatic set has **weak composites** if all round diagram have a weak composite. This means that for all round molecule $U$, and all solid arrows in
+A diagrammatic set has **weak composites** if all round diagrams have a weak composite. This means that for all round molecules $U$, and all solid arrows in
 \begin{tikzcd}
     U \arrow[d, hook] \arrow[r, "\forall"]                    & X \\
     U \simeq \langle U \rangle \arrow[ru, "\exists"', dotted] &  
@@ -181,7 +190,7 @@ An older treatment of diagrammatic sets:
 
 * {#Hadzihasanovic2020}[[Amar Hadzihasanovic]], _Diagrammatic sets and rewriting in weak higher categories_, ([arXiv:2007.14505](https://arxiv.org/abs/2007.14505))
 
-For an updated version:
+For an updated version, together with results for higher groupoids:
  
 * {#ChanavatHadzihasanovic2024} Clémence Chanavat, Amar Hadzihasanovic, _Diagrammatic sets as a model of homotopy types_, 2024 ([arXiv:2407.06285](https://arxiv.org/abs/2407.06285v1))
 
