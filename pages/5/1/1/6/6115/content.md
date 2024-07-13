@@ -161,6 +161,9 @@ Discussion of suitable [[model structures for parameterized spectra]]:
 
 * {#HebestreitSagaveSchlichtkrull20} [[Fabian Hebestreit]], [[Steffen Sagave]], [[Christian Schlichtkrull]], *Multiplicative parametrized homotopy theory via symmetric spectra in retractive spaces*, Forum of Mathematics, Sigma **8** (2020) e16 &lbrack;[arXiv:1904.01824](https://arxiv.org/abs/1904.01824), [doi:10.1017/fms.2020.11](https://doi.org/10.1017/fms.2020.11)&rbrack;
 
+* [[Eric Finster]]: *A Tour of Parameterized Spectra*, [talk at](CQTS#FinsterApr2024) *[Running HoTT 2024](CQTS#RunningHoTT2024)*, [[CQTS]]@NYUAD (April 2024) &lbrack;video:[kt](https://cdnapisec.kaltura.com/p/1674401/sp/167440100/embedIframeJs/uiconf_id/23435151/partner_id/1674401?iframeembed=true&playerId=kaltura_player&entry_id=1_jf6fy0f2)&rbrack;
+
+
 Discussion as a [[linear homotopy type theory]]:
 
 * {#Schreiber14} [[Urs Schreiber]], _[[schreiber:Quantization via Linear homotopy types]]_ &lbrack;[arXiv:1402.7041](http://arxiv.org/abs/1402.7041)&rbrack;
