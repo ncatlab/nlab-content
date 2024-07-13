@@ -1333,8 +1333,7 @@ $\;\;\;\;\;\;$[[Jennifer Paykin|Paykin]] $\;\;\;\;$[[David Wärn|Wärn]] $\;$ [[
 
   **Computing Cohomology Rings in Cubical Agda**
 
-  video: [kt](https://cdnapisec.kaltura.com/p/1674401/sp/167440100/embedIframeJs/uiconf_id/23435151/partner_id/1674401?iframeembed=true&playerId=kaltura_player&entry_id=1_2bxmtp75
-)
+  video: [kt](https://cdnapisec.kaltura.com/p/1674401/sp/167440100/embedIframeJs/uiconf_id/23435151/partner_id/1674401?iframeembed=true&playerId=kaltura_player&entry_id=1_2bxmtp75)
 
   >  In this talk, we will discuss the formalization of [[cohomology rings]] in [Cubical Agda](Agda#CubicalAgda), and how we computed a few basic examples. We will particularly focus on: 1. How the choice of a [[data type]] representation influence formalisation, in our case for representing [[polynomials]] and [[cohomology rings]] 2. How suitable representations can be used to compute cohomology rings 3. Where computation would be helpful, how it is limited in practice, and how we can still recover some computation to help us with our [[proof]].
 
