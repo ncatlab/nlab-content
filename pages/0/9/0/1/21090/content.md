@@ -1420,7 +1420,7 @@ p(x) = p(x)^2 .
 $$
 This means precisely that for all $x$, either $p(x)=0$ or $p(x)=1$, i.e. that the probability is concentrated on a single point. 
 
-* In *Stoch*, a similar calculation shows that $p$ is deterministic if and only if for every measurable subset $A\subseteq X$, $p(A)=0$ or $p(A)=1$ ([[zero-one measure]]). That is, we are (almost) certain about which events happen and which do not. On well-behaved measurable spaces, such as [[standard Borel spaces]], this means exactly that $p$ is a [[Dirac delta]], a measure concentrated at a single point.
+* In *Stoch*, a similar calculation shows that $p$ is deterministic if and only if for every measurable subset $A\subseteq X$, $p(A)=0$ or $p(A)=1$ ([[zero-one measure]]). That is, we are (almost) certain about which events happen and which do not. On well-behaved measurable spaces, such as [[standard Borel spaces]], this means exactly that $p$ is a [[Dirac measure|Dirac delta]], a measure concentrated at a single point.
 
 * In *Set*, every state (i.e. single point) is deterministic.
 
@@ -2267,7 +2267,7 @@ Finally, the current form of Markov and copy-discard categories, which is also t
  </tr>
  <tr>
   <th markdown="1">[[Stoch]]</th>
-  <td markdown="1">[[Giry monad]] on [[Meas]]</td>
+  <td markdown="1">[[Giry monad]] on [[sober measurable space|SoberMeas]]</td>
   <td markdown="1">No ([Fritz'20](#fritzmarkov), Example 11.3)</td>
   <td markdown="1">Yes ([Fritz'20](#fritzmarkov), Example 11.25)</td>
   <td markdown="1">Not in general</td>
@@ -2275,7 +2275,7 @@ Finally, the current form of Markov and copy-discard categories, which is also t
  </tr>
 <tr>
   <th markdown="1">[[Stoch#borelstoch|BorelStoch]]</th>
-  <td markdown="1">[[Giry monad]] on [[Pol]]</td>
+  <td markdown="1">[[Giry monad]] on [[standard Borel space|BorelMeas]]</td>
   <td markdown="1">Yes ([Kallenberg '17](#Kallenberg17), [B-M'19](#BM19))</td>
   <td markdown="1">Yes ([Fritz'20](#fritzmarkov), Section 11)</td>
   <td markdown="1">Countable ([Fritz-Rischel'19](#fritzrischel))</td>
