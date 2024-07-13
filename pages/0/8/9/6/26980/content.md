@@ -18,7 +18,7 @@ G-symmetric sequences are to [[symmetric sequences]] as [[G-∞-operads]] are to
 
 ## Definition
 
-Let $\underline{\Sigma}_G$ be the fiberwise core of the [[G-∞-category|$G$-$\infty$-category]] $\mathbb{F}_G$ of finite [[G-sets]], and let $\mathrm{tot}\underline{\Sigma}_G$ be the total $\infty$-category of the corresponding of the corresponding [[cocartesian fibration]].
+Let $\underline{\Sigma}_G$ be the fiberwise [[groupoid core|core]] of the [[G-∞-category|$G$-$\infty$-category]] $\mathbb{F}_G$ of finite [[G-sets]], and let $\mathrm{tot}\underline{\Sigma}_G$ be the total $\infty$-category of the corresponding of the corresponding [[cocartesian fibration]].
 
 \begin{definition}
   A **$G$-symmetric sequence** is a functor $\mathrm{tot}\underline{\Sigma}_G \rightarrow \mathcal{S}$.
