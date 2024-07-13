@@ -330,6 +330,8 @@ Formulation in [[homotopy type theory]]:
 
 * [[Ulrik Buchholtz]], [[Favonia|Kuen-Bang Hou (Favonia)]], _[[Cellular Cohomology in Homotopy Type Theory]]_, Logical Methods in Computer Science, **16** 2 (2020) ([arXiv:1802.02191](https://arxiv.org/abs/1802.02191), [lmcs:6518](https://lmcs.episciences.org/6518)) 
 
+* [[Axel Ljungström]]: *More cellular (co)homology in HoTT*, [talk at](CQTS#LjungströmApr2024) *[Running HoTT 2024](CQTS#RunningHoTT2024)*, [[CQTS]]@NYUAD (April 2024) &lbrack;video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_r5x4tca9?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_r5x4tca9)&rbrack;
+
 
 
 [[!redirects cellular chain complex]]
