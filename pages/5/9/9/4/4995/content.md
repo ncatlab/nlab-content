@@ -1426,7 +1426,7 @@ For more see at *[[cohesive homotopy type theory]]*.
 
 ### Generalization to fractured $\infty$-toposes
 
-The notion of [[fractured (infinity,1)-topos|fractured $\infty$-topos]] is a kind of "local" generalization of cohesione, which applies for instance in [[condensed mathematics]] (cf. [[condensed local contractibility]]):
+The notion of [[fractured (infinity,1)-topos|fractured $\infty$-topos]] is a kind of "local" generalization of cohesion, which applies for instance in [[condensed mathematics]] (cf. [[condensed local contractibility]]):
 
 * [[Qi Zhu]], *Fractured Structure on Condensed Anima*, MSc thesis, Bonn (2023) &lbrack;[pdf](https://1429cecd-24a0-4223-8b7c-1ebf47aa12e2.filesusr.com/ugd/8e912a_fe1c2f8e90094d0fa065fb8129687963.pdf), [[QiZhu-FracturedCondensed.pdf:file]]&rbrack;
 
