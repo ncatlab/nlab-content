@@ -45,7 +45,7 @@ X \ar{r}{\delta} & PX \ar[shift left]{r}{\delta} \ar[shift right]{r}[swap]{P\del
 \end{tikzcd}
 where $P$ denotes the [[Giry monad]] and $\delta$ is its [[unit]], given by [[Dirac measure|Dirac deltas]]. (Note that the diagram is always a [[fork]], by [[naturality]] of $\delta$.)
 
-The last condition is sometimes called the *equalizing requirement* [Moggi'91](#moggi).
+The last condition is sometimes called the *equalizing requirement* ([Moggi'91](#moggi)).
 
 ### Analogy with the topological case
 
