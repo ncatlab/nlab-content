@@ -72,7 +72,7 @@ $$
 0 & x\notin A .
 \end{cases}
 $$
-If $X$ is [[standard Borel]], or more more generally a [[sober measurable space]], every zero-one measure on $X$ is a Dirac delta.
+If $X$ is [[standard Borel]], or more more generally [[sober measurable space|if it has enough points]], every zero-one measure on $X$ is a Dirac delta.
 
 * Every [[ergodic measure]] is zero-one when restricted to the [[invariant sigma-algebra]]. 
 
@@ -88,7 +88,7 @@ If $X$ is [[standard Borel]], or more more generally a [[sober measurable space]
 
 Zero-one measures form a [[monad]], which we denote by $(S,\eta_S,\mu_S)$, a submonad of the [[Giry monad]]. 
 It can be seen as an analogue of the monad of [[completely prime filters]] ([[sober topological space#Reflection|sobrification]]) on $Top$, and because of that we also call it the **sobrification monad of measurable spaces** (see also at [[sober measurable space]]).
-This monad is defined abstractly in [MP'22](#det_submonad) (based on previous work, see the references therein), here we give a more explicit description.
+This monad is defined abstractly in [MP'22](#det_submonad) (based on previous work, see the references), here we give a more explicit description.
 
 In what follows, let $X$ be a [[measurable space]], and denote its [[sigma-algebra]] by $\Sigma_X$.
 
@@ -176,7 +176,7 @@ Let's now write this equivalence explicitly.
 One one side, define the functor $F:SoberMeas\to Stoch_det$ as follows:
 
 * On [[objects]], it is the identity (or better said, it is forgetful from [[sober measurable spaces]] to all measurable spaces).
-* On [[morphisms]], it maps a [[measurable function]] $f:X\to Y$ to the [[zero-one kernel]] $\delta_f:X\to Y$ [[Markov kernel#kernels_from_deterministic_functions|]induced by]] $f$. 
+* On [[morphisms]], it maps a [[measurable function]] $f:X\to Y$ to the [[zero-one kernel]] $\delta_f:X\to Y$ [[Markov kernel#kernels_from_deterministic_functions|induced by]] $f$. 
 
 Similarly we can define a functor $G:Stoch_det\to SoberMeas$ as follows:
 
@@ -190,9 +190,21 @@ $$
 k^*B \;\coloneqq\; \{x\in X \,:\, k(B|x) = 1 \} .
 $$
 
-(...)
+The unit $\eta_S:X\to S X$ induces a natural transformation with components $X\to GFX$. When $X$ is [[sober measurable space|sober]], this component is an isomorphism. 
 
+Conversely, for a generic measurable space $Y$ (not necessarily sober), we have a [[natural transformation|natural]] [[zero-one kernel]] $\epsilon_S: S Y \to Y$ defined by
+$$
+\epsilon_S(A|p) \;=\; p(A) 
+$$
+for all $p\in S Y$ and all measurable subsets $A\subseteq Y$. 
+(This can be seen as the restriction of the [[sampling map]] to zero-one measures.)
 
+\begin{proposition}\label{Siso}
+ The kernel $\epsilon: S Y \to Y$ is an isomorphism of $Stoch_det$, 
+ where its inverse [[Markov kernel#kernels_from_deterministic_functions|is induced by]] the function $\eta_S:X\to S X$.
+\end{proposition}
+
+This way we have natural isomorphisms $\eta_S:id\Rightarrow G\circ F$ and $\epsilon_S:F\circ G\Rightarrow id$, which give an [[equivalence of categories]]. 
 
 
 ## Related entries
@@ -214,6 +226,14 @@ $$
 * {#markov_ergodic} Sean Moss, [[Paolo Perrone]], _A category-theoretic proof of the ergodic decomposition theorem_, Ergodic Theory and Dynamical Systems, 2023. ([arXiv:2207.07353](https://arxiv.org/abs/2207.07353))
 
 * {#ergodic_dagger} Noé Ensarguet, [[Paolo Perrone]], Categorical probability spaces, ergodic decompositions, and transitions to equilibrium, [arXiv:2310.04267](https://arxiv.org/abs/2310.04267)
+
+* {#br} Anna Bucalo and [[Giuseppe Rosolini]], _Sobriety for equilogical spaces_. Theorerical Computer Science 546, 2014. ([doi](https://doi.org/10.1016/j.tcs.2014.03.002))
+
+* {#taylor} [[Paul Taylor]], _Sober spaces and continuations_. Theory and Applications of Categories 10(12), 2002. ([link](http://paultaylor.eu/asd/sobsc))
+
+* {#moggi} [[Eugenio Moggi]], _Notions of computations and monads_, Information and Computation 93(1), 1991 (LICS 1989).
+
+### Introductory material
 
 * [[Paolo Perrone]], _When measurable spaces don't have enough points_, introductory talk. ([YouTube](https://www.youtube.com/watch?v=V4WzTgjbP3c))
 
