@@ -57,7 +57,7 @@ Its [[Markov category#deterministic_morphisms|deterministic morphisms]] are exac
 Note that, outside of the [[sober measurable space|sober]] case, these are more general than measurable functions.
 
 Since [[zero-one measure#kleisli_category|$Stoch_det$ is equivalent to $SoberMeas$]], _Stoch_ is a [[Markov category#representable_markov_categories|representable Markov category]]. 
-One should however keep in mind that the resulting [[probability monad]] is on [[sober measurable space|SoberMeas]] (or equivalently [[zero-one kernel|$Stoch_det$]]), not [[Meas]]. 
+One should however keep in mind that the resulting [[probability monad]] is on [[zero-one kernel|$Stoch_det$]] (or equivalently [[sober measurable space|SoberMeas]]), not [[Meas]]. 
 
 Explicitly, the [[sampling map]] $samp:P X\to X$ is the usual measure-theoretic one:
 $$
