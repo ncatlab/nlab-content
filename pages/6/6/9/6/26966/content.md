@@ -16,3 +16,4 @@ Equivariant operads
 
 * [[N-∞ operad|$\mathcal{N}_\infty$ operad]] / [[EV-operad|$\mathbb{E}_V$ operad]] / [[equivariant linear isometries operad]]
 
+* [[G-symmetric sequence]]
