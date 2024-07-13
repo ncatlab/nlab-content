@@ -124,6 +124,13 @@ X \ar{dr}{\delta} \ar[dashed]{d} \\
 SX \ar[hookrightarrow]{r}{\iota} & PX \ar[shift left]{r}{\delta} \ar[shift right]{r}[swap]{P\delta} & PPX ,
 \end{tikzcd}
 We take as unit $\eta_S$ the resulting map $X\to S X$. 
+Explicitly,
+$$
+\eta_S(x)(A) \;=\; 1_A(x) \;=\; \begin{cases}
+1 & x\in A ; \\
+0 & x\notin A .
+\end{cases}
+$$
 
 \begin{proposition}
  The assignment $A\mapsto A^*$ is an [[isomorphism]] of [[sigma-algebras]] $\Sigma_X\to \Sigma_{S X}$. Its [[inverse]] is given by the preimage map 
@@ -142,7 +149,22 @@ B \ar[mapsto]{r} & (\eta_S)^{-1}(B) .
 
 ### Multiplication and idempotency
 
-(...)
+
+We can define the multiplication of the monad, explicitly, as follows. Given a *zero-one measure over zero-one measures* $\pi\in S S X$, we take $\mu_S(\pi)\in S X$ to be defined by
+$$
+\mu_S(\pi)(A) \;\coloneqq\; \pi(A^*) .
+$$
+Notice that for every $p\in S X$ and $\pi in S S X$, 
+$$
+\mu_S(\delta_S(p))(A) \;=\; \delta_S(p)(A^*) \;=\; 1_{A^*}(p) \;=\; p(A)
+$$
+and 
+$$
+\delta_S(\mu_S(\pi))(A^*) \;=\; 1_{A*}(\mu_S(\pi)) \;=\; \mu_S(\pi)(A) \;=\; \pi(A^*) .
+$$
+Therefore (using the fact that $A\mapsto A^*$ is a bijection), $\delta_S: S X\to S S X$ and $\mu_S: S S X\to S X$ are mutually inverse. 
+This makes $S$ an [[idempotent monad|idempotent]] submonad of the [[Giry monad]]. 
+
 
 ### Kleisli category
 
