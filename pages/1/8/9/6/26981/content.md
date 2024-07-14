@@ -67,6 +67,7 @@ where $V$ denotes the monad of [[closed subsets]] (with the [[lower Vietoris top
 ## Examples
 
 * Every [[standard Borel space]] is sober.
+* Given any measurable space $X$, the space of probability measures $P X$ ([[Giry monad]]) is always sober.
 * The [[invariant sigma algebra]] of an [[ergodic dynamical system]] is in general *not* sober.
 
 
