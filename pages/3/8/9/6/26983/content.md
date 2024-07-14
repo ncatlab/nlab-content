@@ -25,7 +25,7 @@ where $\mathrm{St}$ and $\mathrm{Un}$ denote the [[(infinity,1)-Grothendieck con
  
 \end{definition}
 
-If $\mathcal{B} = \mathcal{O}_G^{\mathrm{op}}$ is the [[orbit category]] of a [[finite]] [[group]], then this is naturally a [[G-space]] via [[Elmendorf's theorem]], and we also refer to this [[G-space]] as the **fiberwise core** of $\mathbcal{C}$.
+If $\mathcal{B} = \mathcal{O}_G^{\mathrm{op}}$ is the [[orbit category]] of a [[finite]] [[group]], then this is naturally a [[G-space]] via [[Elmendorf's theorem]], and we also refer to this [[G-space]] as the **fiberwise core** of $\mathcal{C}$.
 
 ## Related concepts
 
