@@ -106,7 +106,7 @@ $$
 
 The resulting [[monad]] on $SubStoch$, chasing the diagram above, can be seen as induced the Giry monad on $SoberMeas$ through the equivalence $SoberMeas \simeq Stoch_det$.
 
-One should always keep in mind that the [[probability monad]] making Stoch representable is on [[zero-one kernel|$Stoch_det$]], or equivalently on [[sober measurable space|SoberMeas]], but not on [[Meas]], even if $Stoch$ is *also* the Kleisli category of the Giry monad on [[Meas]]. (The reason is that measurable functions are not the deterministic morphisms of $Stoch$, [[zero-one kernels]] are.)
+One should always keep in mind that the [[probability monad]] making Stoch representable is on [[zero-one kernel|$Stoch_det$]], or equivalently on [[sober measurable space|SoberMeas]], but not on [[Meas]], even though $Stoch$ is *also* the Kleisli category of the Giry monad on [[Meas]]. (The reason is that measurable functions are not the deterministic morphisms of $Stoch$, [[zero-one kernels]] are.)
 
 
 ### Particular limits and colimits
