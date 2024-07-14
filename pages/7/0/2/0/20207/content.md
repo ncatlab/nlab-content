@@ -58,6 +58,15 @@ On [[twisted cohomology]] towards [hypergeometric integral KZ-solutions](Knizhni
 
 * [[David Jaz Myers]], *Objective Cohomology -- Towards topological quantum computation*, talk at *Geometry, Topology and Physics*-Seminar at [[CQTS]] ([Sep 2022](Center+for+Quantum+and+Topological+Systems#DavidJMyers22)) &lbrack;[[DavidJazMyers-ObjectiveCohomology-220928.pdf:file]]&rbrack;
 
+* [[David Jaz Myers]]: *Topological Quantum Gates*, [talk at](CQTS#MyersApr2024) *[Running HoTT 2024](CQTS#RunningHoTT2024)*, [[CQTS]]@NYUAD (April 2024) \[video:[kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_k89ytmg4?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_k89ytmg4)\]
+
+following:
+
+* [[David Jaz Myers]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Topological Quantum Gates in Homotopy Type Theory]]*, Comm. Math. Phys. **405** 172 (2024) \[<a href="https://arxiv.org/abs/2303.02382">arXiv:2303.02382</a>, [doi:10.1007/s00220-024-05020-8](https://doi.org/10.1007/s00220-024-05020-8)\]
+
+
+
+
 On [[orbifolds]] in [[differential cohesive (infinity,1)-topos|differential]] [[cohesive homotopy type theory]]:
 
 * [[David Jaz Myers]], *Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory* &lbrack;[arXiv:2205.15887](https://arxiv.org/abs/2205.15887)&rbrack;
@@ -75,7 +84,7 @@ Exposition of [[homotopy type theory]]:
 
 * [[David Jaz Myers]], *How do you identify one thing with another? -- an intro to Homotopy Type Theory*, talk in Prof. [[Sadok Kallel]]'s seminar at American University of Sharjah (10 Apr 2023) &lbrack;slides: [[Myers-IntroHoTT-Apr2023.pdf:file]]&rbrack;
 
-## Related $n$Lab entries
+## Related entries
 
 * [[logical topology]]
 
