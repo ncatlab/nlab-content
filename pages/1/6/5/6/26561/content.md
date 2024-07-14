@@ -47,6 +47,16 @@ This is sometimes called _Chapman-Kolmogorov formula_. (Compare with the composi
 _Stoch_ can be equivalently described as the [[Kleisli category]] of the [[Giry monad]] on [[Meas]].
 
 It can also be described as the Kleisli category of the Giry monad restricted to the category $SoberMeas$ of [[sober measurable spaces]]. Indeed, by [[zero-one measure#Siso|this proposition]], every measurable space is isomorphic to its [[sober measurable space#categorical_properties|sobrification]] in the category of [[zero-one kernels]] (and hence, in [[Stoch]] as well).
+In other words, this triangle commutes up to natural isomorphism,
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+column sep=small,%
+row sep=large,%
+]
+\mathrm{Meas} \ar{dr}[swap]{L_P} \ar{rr}{S} && \mathrm{SoberMeas} \ar{dl}{L_P} \\
+& \mathrm{Stoch}
+\end{tikzcd}
+where $S$ denotes the [[sober measurable space#categorical_properties|sobrification]], and $L_P$ denotes the [[left adjoint]] of the Kleisli adjunction given by the [[Giry monad]] on [[Meas]], as well as its restriction to sober measurable spaces.
 
 
 ### As a Markov category
@@ -56,13 +66,42 @@ As a [[Markov category]], _Stoch_ is [[Markov category#positivity_and_causality|
 Its [[Markov category#deterministic_morphisms|deterministic morphisms]] are exactly the [[zero-one kernels]], forming the subcategory $Stoch_det$. 
 Note that, outside of the [[sober measurable space|sober]] case, these are more general than measurable functions.
 
-Since [[zero-one measure#kleisli_category|$Stoch_det$ is equivalent to $SoberMeas$]], _Stoch_ is a [[Markov category#representable_markov_categories|representable Markov category]]. 
-One should however keep in mind that the resulting [[probability monad]] is on [[zero-one kernel|$Stoch_det$]] (or equivalently [[sober measurable space|SoberMeas]]), not [[Meas]]. 
+#### Representability
+
+_Stoch_ is a [[Markov category#representable_markov_categories|representable Markov category]]: 
+
+* First of all, [[zero-one measure#kleisli_category|$Stoch_det$ is equivalent to $SoberMeas$]].
+
+* Also, [[sober measurable space#examples|the space $P X$ is always sober]], and so the [[Giry monad]] restricts to [[sober measurable space|SoberMeas]].
+ 
+Consider now the following diagram,
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+column sep=small,%
+row sep=large,%
+]
+\mathrm{Stoch}_\mathrm{det} \ar{rr}{\simeq} \ar[hook]{dr} && \mathrm{SoberMeas} \ar{dd}{P} \ar{dl}{L_P} \\
+& \mathrm{Stoch} \ar{dl}[swap]{R'} \ar{dr}{R_P} \\
+\mathrm{Stoch}_\mathrm{det} && \mathrm{SoberMeas} \ar{ll}{\simeq} 
+\end{tikzcd}
+where
+
+* $P$ denotes the Giry monad on $SoberMeas$;
+* $L_P$ and $R_P$ are the left and right adjoints of the [[Kleisli category|Kleisli adjunction]], making the triangle on the right commute;
+* The [[zero-one measure#kleisli_category|equivalence $Stoch_det\to SoberMeas$]], on objects, maps a measurable space $X$ to its sobrification $S X$. Since $X$ is naturally isomorphic to $S X$ in $Stoch$ (see [above](#as_a_kleisli_category)), the upper triangle commutes up to natural isomorphism;
+* The [[zero-one measure#kleisli_category|equivalence $SoberMeas\to Stoch_det$]] is the identity on objects, and on morphisms it canonically [[Markov kernel#kernels_from_deterministic_functions|induces a kernel from a function]]; 
+* The functor $R':Stoch\to Stoch_det$ is exactly the one making the lower triangle commute. Explicitly it maps an object $X$ to the space $P X$, and a kernel $X\to Y$ to the kernel [[Markov kernel#kernels_from_deterministic_functions|induced by]] the Kleisli extension $P X \to P Y$.
+
+By the considerations above, $R'$ is [[right adjoint]] to the inclusion functor $Stoch_det\hookrightarrow Stoch$, making $Stoch$ a [[Markov category#representable_markov_categories|representable Markov category]].  
 
 Explicitly, the [[sampling map]] $samp:P X\to X$ is the usual measure-theoretic one:
 $$
 samp(A|p) \;=\; p(A) .
 $$
+
+The resulting [[monad]] on $SubStoch$, chasing the diagram above, can be seen as induced the Giry monad on $SoberMeas$ through the equivalence $SoberMeas \simeq Stoch_det$.
+
+One should always keep in mind that the [[probability monad]] making Stoch representable is on [[zero-one kernel|$Stoch_det$]], or equivalently on [[sober measurable space|SoberMeas]], but not on [[Meas]], even if $Stoch$ is *also* the Kleisli category of the Giry monad on [[Meas]]. (The reason is that measurable functions are not the deterministic morphisms of $Stoch$, [[zero-one kernels]] are.)
 
 
 ### Particular limits and colimits
@@ -117,7 +156,7 @@ It is closely related to the Kleisli category of the [[distribution monad]].
 
 * {#fritzmarkov} [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, Advances of Mathematics 370, 2020. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
 
-* {#markov_support} Tobias Fritz, Tomáš Gonda, Antonio Lorenzin, Paolo Perrone, Dario Stein, _Absolute continuity, supports and idempotent splitting in categorical probability_, ([arXiv:2308.00651](https://arxiv.org/abs/2308.00651))
+* {#markov_support} [[Tobias Fritz]], Tomáš Gonda, Antonio Lorenzin, [[Paolo Perrone]], Dario Stein, _Absolute continuity, supports and idempotent splitting in categorical probability_, ([arXiv:2308.00651](https://arxiv.org/abs/2308.00651))
 
 
 category: category, probability
