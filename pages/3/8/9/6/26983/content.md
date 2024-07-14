@@ -8,6 +8,7 @@
 =--
 =--
 
+
 #Content#
 * table of contents
 {:toc}
@@ -18,9 +19,9 @@
 Let $\varphi:\mathcal{C} \rightarrow \mathcal{B}$ be a [[cocartesian fibration]].
 Then, the **fiberwise core of $\mathcal{C}$** is the cocartesian fibration
 $$
-  \mathm{St} \left( \mathcal{B} \xrightarrow{\mathrm{Un} \varphi} \mathbf{Cat}_\infty \xrightarrow{(-)^{\simeq}} \mathcal{S} \hookrightarrow \mathbf{Cat}_{\infty} \right),
+  \mathrm{St} \left( \mathcal{B} \xrightarrow{\mathrm{Un} \varphi} \mathbf{Cat}_\infty \xrightarrow{(-)^{\simeq}} \mathcal{S} \hookrightarrow \mathbf{Cat}_{\infty} \right),
 $$
-where $\mathrm{St}$ and $\mathrm{Un}$ denote the [[(infinity,1)-Grothendieck construction|straightening and unstraightening functors]] and $(-)^{\simeq}$ denotes the core.
+where $\mathrm{St}$ and $\mathrm{Un}$ denote the [[(infinity,1)-Grothendieck construction|straightening and unstraightening functors]] and $(-)^{\simeq}$ denotes the [[groupoid core|core]].
  
 \end{definition}
 
@@ -29,3 +30,5 @@ If $\mathcal{B} = \mathcal{O}_G^{\mathrm{op}}$ is the [[orbit category]] of a [[
 ## Related concepts
 
 * [[G-∞-category]]
+
+[[!redirects fiberwise cores]]
