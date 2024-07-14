@@ -159,6 +159,8 @@ For more on this see also at _[[category object in an (infinity,1)-category]]_.
 
 * [[free groupoid]], [[free category]]
 
+* [[fiberwise core]]
+
 * [[core in a 2-category]]
 
 * [[decategorification]]
