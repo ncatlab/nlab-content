@@ -113,10 +113,16 @@ Further developments:
 * Hector Bombin, Daniel Litinski, Naomi Nickerson, Fernando Pastawski, Sam Roberts, *Unifying flavors of fault tolerance with the ZX calculus* &lbrack;[arXiv:2303.08829](https://arxiv.org/abs/2303.08829)&rbrack;
 
 
-
 Relation to [[braided fusion categories]] for [[anyon]] [[braiding]]:
 
 * [[Fatimah Rita Ahmadi]], [[Aleks Kissinger]], *Topological Quantum Computation Through the Lens of Categorical Quantum Mechanics* $[$[arXiv:2211.03855](https://arxiv.org/abs/2211.03855)$]$
+
+On [[software verification]] for the ZX-calculus:
+
+* Adrian Lehmann, Ben Caldwell, Bhakti Shah, [[Robert Rand]]: *VyZX: Formal Verification of a Graphical Quantum Language* &lbrack;[arXiv:2311.11571](https://arxiv.org/abs/2311.11571)&rbrack;
+
+* [[Robert Rand]]: *Verifying the ZX-calculus and its Friends*, [talk at](CQTS#RandApr2024) *[Running HoTT 2024](CQTS#RunningHoTT2024)* &lbrack;video:[kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_ea3rom57?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_ea3rom57)&rbrack;
+
 
 See also:
 
