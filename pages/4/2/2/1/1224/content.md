@@ -8,6 +8,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -73,7 +74,6 @@ The following conditions are equivalent.
    is an [[isomorphism]].
    
 
-
 1. For all functors $G : D^{op} \to Set$ the natural [[function]] between [[limit]]s
 
    $$
@@ -105,8 +105,9 @@ The following conditions are equivalent.
 
    between the functors of [[cocones]] on $G$ and $GF$ is an [[isomorphism]]. (Here, the $\Delta$'s denote the functors sending objects to constant functors, and $Nat$ stands for the set of natural transformations.)
 
-
 =--
+
+([Kashiwara & Schapira 2006, Prop. 2.5.2](#KashiwaraSchapira06))
 
 +-- {: .num_prop}
 ###### Proposition
@@ -317,7 +318,8 @@ By the characterization ([here](overcategory#LimitsInSliceViaLimitsOfCoconedDiag
 ## References
 
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], Section 2.5 of: _[[Categories and Sheaves]]_
+* {#KashiwaraSchapira06} [[Masaki Kashiwara]], [[Pierre Schapira]], Section 2.5 of: _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006) &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
+
 
 * [[Saunders Mac Lane]], Section IX.3 of: _[[Categories for the Working Mathematician]]_
 
