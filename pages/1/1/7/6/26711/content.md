@@ -73,7 +73,7 @@ This is significant largely due to the following proposition.
 
 ## Examples
 
-* [[N-∞ operads]]
+* [[N-∞ operads]] / [[G-d-operad]]
 
 * [[EV operads]]
 
