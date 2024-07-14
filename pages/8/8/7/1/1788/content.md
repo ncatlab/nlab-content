@@ -2,11 +2,12 @@
 
 
 ### Group completed configuration spaces
+ {#GroupCompletedConfigurationSpaces}
 
-We discuss enriched configuration-space models of [[group completions]] of plain [[configuration spaces of points]].
+We discuss configuration-space of "charged objects" as models for [[group completions]] of plain [[configuration spaces of points]].
 
 Write $Conf(\mathbb{R}^n)$ for the "plain" configuration space of unlabeled and unordered points in $\mathbb{R}$, hence the space of finite subsets of $\mathbb{R}^n$.
-This is a naturally a topological partial abelian monoid, where the addition of a pair of configurations is well-defined if they are disjoint, in which case it is given by their union &lbrack;[Segal 1973, p. 215](#Segal73)&rbrack;.
+This is a naturally a [[partial function|partial]] [[commutative monoid|abelian]] [[topological monoid]], where the addition of a pair of configurations is well-defined if they are disjoint, in which case it is given by their union &lbrack;[Segal 1973, p. 215](#Segal73)&rbrack;.
 Let's write
 $$
   \mathbb{G}Conf(\mathbb{R}^n)
@@ -15,15 +16,15 @@ $$
 $$
 for the [[group completion]] of the configuration space with respect to this partial operation of disjoint union. 
 
-[Segal 1973, Thm. 1](#Segal73) says, in particular, that this group completed configuration space is [[weak homotopy equivalence|weak homotopy equivalent]] to the $n$-fold [[iterated loop space]] of the [[n-sphere|$n$-sphere]] $S^n$:
+[Segal 1973, Thm. 1](#Segal73) says, in particular, that this group completed configuration space is [[weak homotopy equivalence|weak homotopy equivalent]] to the $n$-fold [[iterated loop space]] of the [[n-sphere|$n$-sphere]] $S^n$ (the $n$-[[Cohomotopy]] [[cocycle space]] of $S^n$):
 $$
   \mathbb{G} Conf(\mathbb{R}^n)
   \;\simeq\;
   \Omega^n S^n
-  \,.
+  \,,
 $$
 
-Here is should be useful to have a more explicit description of the group completed configuration space again as a configuration space, now of objects somewhat richer than plain points.
+This motivates asking for a more explicit description of the group completed configuration space of points, itself as a configuration space, now of objects somewhat richer than plain points.
 
 \begin{imagefromfile}
     "file_name": "OkuyamaRelations-240714.jpg",
