@@ -158,3 +158,5 @@ Relation to [[monoidal model categories]] (in particular, that every locally pre
 [[!redirects symmetric monoidal (infinity,1)-categories]]
 [[!redirects symmetric monoidal (∞,1)-category]]
 [[!redirects symmetric monoidal (∞,1)-categories]]
+[[!redirects symmetric monoidal ∞-category]]
+[[!redirects symmetric monoidal ∞-categories]]
