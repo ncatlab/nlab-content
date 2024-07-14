@@ -46,7 +46,12 @@ This is sometimes called _Chapman-Kolmogorov formula_. (Compare with the composi
 
 _Stoch_ can be equivalently described as the [[Kleisli category]] of the [[Giry monad]] on [[Meas]].
 
-It can also be described as the Kleisli category of the Giry monad restricted to the category $SoberMeas$ of [[sober measurable spaces]]. Indeed, by [[zero-one measure#Siso|this proposition]], every measurable space is isomorphic to its [[sober measurable space#categorical_properties|sobrification]] in the category of [[zero-one kernels]] (and hence, in [[Stoch]] as well).
+It can also be described as the Kleisli category of the Giry monad restricted to the category $SoberMeas$ of [[sober measurable spaces]]. Indeed, 
+
+* For every measurable space $X$, [[sober measurable space#examples|the space $P X$ is always sober]], and so the [[Giry monad]] restricts to [[sober measurable space|SoberMeas]];
+
+* By [[zero-one measure#Siso|this proposition]], every measurable space is isomorphic to its [[sober measurable space#categorical_properties|sobrification]] in the category of [[zero-one kernels]] (and hence, in [[Stoch]] as well).
+
 In other words, this triangle commutes up to natural isomorphism,
 \begin{tikzcd}[%
 nodes={scale=1.25}, arrows={thick},%
@@ -70,9 +75,9 @@ Note that, outside of the [[sober measurable space|sober]] case, these are more 
 
 _Stoch_ is a [[Markov category#representable_markov_categories|representable Markov category]]: 
 
-* First of all, [[zero-one measure#kleisli_category|$Stoch_det$ is equivalent to $SoberMeas$]].
+* First of all, as we saw [above](#as_a_kleisli_category), the [[Giry monad]] restricts to [[sober measurable space|SoberMeas]].
 
-* Also, [[sober measurable space#examples|the space $P X$ is always sober]], and so the [[Giry monad]] restricts to [[sober measurable space|SoberMeas]].
+* Also, [[zero-one measure#kleisli_category|$Stoch_det$ is equivalent to $SoberMeas$]].
  
 Consider now the following diagram,
 \begin{tikzcd}[%
@@ -106,7 +111,7 @@ One should always keep in mind that the [[probability monad]] making Stoch repre
 
 ### Particular limits and colimits
 
-* The [[invariant sigma-algebra]] for every [[action]] via [[zero-one kernels]] (for example, [[Markov kernel#kernels_from_deterministic_functions|via deterministic functions]] is a [[colimit]].
+* The [[invariant sigma-algebra]] for every [[action]] via [[zero-one kernels]] (for example, [[Markov kernel#kernels_from_deterministic_functions|via deterministic functions]]) is a [[colimit]].
 
 * For every [[action]] for which the [[ergodic decomposition theorem]] applies, the space of [[ergodic measures]] is a [[limit]]. 
 
