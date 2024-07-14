@@ -1384,13 +1384,17 @@ $\;\;\;\;\;\;$[[Jennifer Paykin|Paykin]] $\;\;\;\;$[[David Wärn|Wärn]] $\;$ [[
 
   > Can [[quantum programming languages]] move beyond [[quantum gate|gate-based]] programming? In this talk I will present work in progress where [[quantum algorithms]] (specifically, Clifford unitaries over [[qudits]]) are expressed as functions on compact Pauli encodings. Inspired by the fact that projective Cliffords correspond to center-fixing automorphisms on the Pauli group, we develop a [[type system]] where well-typed expressions correspond to symplectic morphisms---that is, [[linear transformations]] that respect the [[symplectic form]]. This language is backed up by a robust [[categorical semantics|categorical]] and [[operational semantics]], and well-typed functions can be efficiently simulated and synthesized into [[quantum circuit|circuits]]. The resulting [[linear type theory|linear type system]] and semantics is a promising candidate for synthetic mathematical reasoning using [[linear homotopy type theory|linear HoTT]].
 
+
 * {#RandApr2024} [[Robert Rand]] (Univ. Chicago):
 
   **Verifying the ZX-calculus and its Friends**
 
   video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_ea3rom57?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_ea3rom57)
 
+  cf.: [arXiv:2311.11571](https://arxiv.org/abs/2311.11571)
+
   > We seek to verify the [[ZX-calculus]], a powerful tool for representing and reasoning about [[quantum computation]]. ZX-diagrams are typically represented as adjacency-based [[graphs]], reflecting the guiding principle that “only connectivity matters”. In the context of [[proof assistant|formal theorem provers]] like [[Coq]], however, such graphs are difficult to reason about, especially when we seek to give them [[semantics]]. To address this gap, we introduce `VyZX`, a [[software verification|verified]] library for reasoning about the ZX-calculus, using inductive constructs that arise naturally from [[category theory|category theoretic]] definitions. We extend `VyZX` to reason about a variety of [[monoidal categories]], provided they satisfy an appropriate set of [[coherence conditions]].
+
 
 * {#RileyLinearApr2024} [[Mitchell Riley]] (NYU Abu Dhabi):
 
@@ -1437,6 +1441,7 @@ $\;\;\;\;\;\;$[[Jennifer Paykin|Paykin]] $\;\;\;\;$[[David Wärn|Wärn]] $\;$ [[
 )
 
   > [[higher observational type theory|Higher Observational Type Theory]] is a third style of [[homotopy type theory|Homotopy Type Theory]], contrasting with [[Book HoTT]] and [[cubical type theory|Cubical Type Theory]]. It is characterized by a definition of [[identity types]] by [[recursion]] on the base type: the identity type of a [[product type]] is defined to be a product of identity types, and so on. [[extensional type theory|Extensionality principles]] like [[function extensionality|funext]], [[univalence]], and [[bisimulation]] then hold essentially by definition, rather than only up to [[type equivalence|equivalence]]. Like [[cubical type theory|Cubical Type Theory]], [[higher observational type theory|Higher Observational Type Theory]] can be built by defining a [[fibrant type|fibrancy predicate]] in a non-univalent substrate theory, which in this case is a form of internally parametric type theory. [Altenkirch's talk](#AltenkirchApr2024) describes a [[canonicity]] proof for this substrate; I will sketch a normalization algorithm for it (sans proof), and then demonstrate a prototype implementation of this algorithm. This is joint work in progress with [[Thorsten Altenkirch|Altenkirch]], [[Ambrus Kaposi|Kaposi]], and Uskuplu.
+
 
 * {#SterlingApr2024} [[Jonathan Sterling]] (Univ. Cambirdge):
 
