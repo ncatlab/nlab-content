@@ -95,7 +95,7 @@ Discussion via [[homotopy type theory]]:
 
 * [[David Jaz Myers]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Topological Quantum Gates in Homotopy Type Theory]]*, Comm. Math. Phys. **405** 172 (2024) \[<a href="https://arxiv.org/abs/2303.02382">arXiv:2303.02382</a>, [doi:10.1007/s00220-024-05020-8](https://doi.org/10.1007/s00220-024-05020-8)\]
 
-
+* [[David Jaz Myers]]: *Topological Quantum Gates*, [talk at](CQTS#MyersApr2024) *[Running HoTT 2024](CQTS#RunningHoTT2024)*, [[CQTS]]@NYUAD (April 2024) \[video:[kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_k89ytmg4?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_k89ytmg4)\]
 
 
 
