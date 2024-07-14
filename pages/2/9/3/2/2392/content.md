@@ -629,7 +629,10 @@ Hence $C_f$ is a weak equivalence.
 
 * [[operad]] / **$(\infty,1)$-operad**, [[model structure on operads]]
 
+
   * [[morphism of (∞,1)-operads]], [[fibration of (∞,1)-operads]]
+  
+  * [[d-operad]]
 
   * [[generalized (∞,1)-operad]], [[family of (∞,1)-operads]]
 
@@ -704,3 +707,5 @@ On the [[Eckmann-Hilton argument]] for (∞,1)-operads:
 [[!redirects (∞,1)-operad]]
 [[!redirects (∞,1)-operads]]
 [[!redirects (infinity,1)-operads]]
+[[!redirects ∞-operad]]
+[[!redirects ∞-operads]]
