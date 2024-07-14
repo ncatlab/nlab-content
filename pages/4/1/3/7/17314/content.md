@@ -15,7 +15,7 @@
 
 ## Definition
 
-A [[functor]] $F\colon \mathcal{C}\to \mathcal{D}$ is said to _lift_ [[limits]] of a particular shape $I$ if for any diagram $J:I\to C$, any limiting [[cone]] for $F \circ J$ in $\mathcal{D}$ is the image of a limiting cone for $J$ in $\mathcal{C}$.
+A [[functor]] $F\colon \mathcal{C}\to \mathcal{D}$ is said to _lift_ [[limits]] of a particular shape $I$ if for any diagram $J:I\to \mathcal{C}$, any limiting [[cone]] for $F \circ J$ in $\mathcal{D}$ is the image of a limiting cone for $J$ in $\mathcal{C}$.
 
 The above definition is not invariant under [[equivalences of categories]].
 It can be made invariant if we demand instead
