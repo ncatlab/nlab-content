@@ -28,21 +28,21 @@ The action groupoid also goes by other names, including '[[weak quotient]]'.  It
 
 ### In category theory
 Given an [[action]] 
-$\rho : S \times G \to S$ of a group $G$ on the set $S$, the _action groupoid_ $S \sslash G$ (or, more precisely, $S \sslash_\rho G$) is the [[groupoid]] for which:
+$\rho \colon S \times G \to S$ of a group $G$ on the set $S$, the _action groupoid_ $S \sslash G$ (or, more precisely, $S \sslash_\rho G$) is the [[groupoid]] for which:
 
 * an object is an element of $S$
 
-* a morphism from $s \in S$ to $s' \in S$ is a group element $g \in G$ with $g s = s'$.  So, a general morphism is a pair $(g,s) : s \to g s$.
+* a morphism from $s \in S$ to $s' \in S$ is a group element $g \in G$ with $g s = s'$.  So, a general morphism is a pair $(g,s) \colon s \to g s$.
 
-* The composite of $(g,s) : s \to g s = s'$ and $(g',s'): 
-s' \to g's'$ is $(g' g, s) : s \to g' g s$.
+* The composite of $(g,s) \colon s \to g s = s'$ and $(g',s')\colon 
+s' \to g's'$ is $(g' g, s) \colon s \to g' g s$.
 
 Equivalently, we may define the _action groupoid_ $S \sslash G$ to be the groupoid
 $$
   \array{
      && S \times G
      \\
-     & {}^{s := p_1}\swarrow
+     & {}^{s \coloneqq p_1}\swarrow
      &&
      \searrow^{t = \rho}
      \\
@@ -57,7 +57,7 @@ given by the product in $G$.
 
 We can denote the morphisms in $S\sslash G$ by
 
-$$S\sslash G:=\{s\stackrel{g}{\to} \rho(s,g) | s\in S, g\in G\}.$$
+$$S\sslash G \coloneqq \{s\stackrel{g}{\to} \rho(s,g)  | s\in S, g\in G\}.$$
 
 ### In (∞,1)-category theory
 
@@ -137,7 +137,7 @@ On top of the above explicit definitions, there are several useful ways to think
 Recall that the action $\rho$ is equivalently thought of as a functor
 
 $$
-  \rho : \mathbf{B}G \to Sets
+  \rho \colon \mathbf{B}G \to Sets
 $$
 
 from the [[group]] $G$ regarded as a one-object groupoid, denoted $\mathbf{B}G$.
@@ -198,7 +198,7 @@ $$
 
 One place where we discussed this is the comment [It was David Roberts who apparently first noticed...](http://golem.ph.utexas.edu/category/2007/08/on_hess_and_lack_on_bundles_of_1.html#c019094).
 
-Notice also that an action of $G$ on the set $S$ gives rise to a morphism $p: S \rtimes G \to G$ which has the property of unique path lifting, or in other words is a discrete opfibration. It is also called a covering morphism of groupoids, and models nicely covering maps of spaces. 
+Notice also that an action of $G$ on the set $S$ gives rise to a morphism $p \colon S \rtimes G \to G$ which has the property of unique path lifting, or in other words is a discrete opfibration. It is also called a covering morphism of groupoids, and models nicely covering maps of spaces. 
 
 Higgins used this idea to lift presentations of a group $G$ to presentations of the  covering morphism of $G$ derived from the action of $G$ on cosets, and so to apply graph theory to obtain old and new subgroup theorems in group theory. 
 
@@ -222,7 +222,7 @@ All of this goes through almost verbatim for actions in the context of [[(∞,1)
 Let $G$ be an [[∞-group]] in that $\mathbf{B}G$ is an [[∞-groupoid]] with a single object. An action of $G$ on an [[(∞,1)-category]] is an [[(∞,1)-functor]]
 
 $$
-  \rho : \mathbf{B}G \to (\infty,1)Cat
+  \rho \colon \mathbf{B}G \to (\infty,1)Cat
 $$
 
 to [[(∞,1)Cat]]. This takes the single object of $\mathbf{B}G$ to some $(\infty,1)$-category  $V$.
@@ -230,7 +230,7 @@ to [[(∞,1)Cat]]. This takes the single object of $\mathbf{B}G$ to some $(\inft
 Again we want to **define** the _action groupoid_ $V\sslash G$ as the [[limit in a quasi-category|(∞,1)-categorical colimit]] over the action:
 
 $$
-  V\sslash G := \lim_\to \rho
+  V\sslash G \coloneqq \lim_\to \rho
   \,.
 $$
 
