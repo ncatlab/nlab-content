@@ -67,6 +67,9 @@ On the Noether-Lefschetz Theorem:
 
 * [[Kirti Joshi]], *A General Noether-Lefshetz Theorem and Applications* ([Journal of Algebraic Geometry, Vol. 4, Issue 1, 1995, Pages 105--135] (https://arxiv.org/abs/alg-geom/9305001))
 
+On the geography of low dimensional varieties in positive characteristics:
+
+* [[Kirti Joshi]], *Crystalline aspects of geography of low dimensional varieties I: numerology* ([European Journal of Mathematics, Vol. 6, 2020, Pages 1111-1175] (https://link.springer.com/article/10.1007/s40879-020-00416-x))
 
 ## Related entries
 
