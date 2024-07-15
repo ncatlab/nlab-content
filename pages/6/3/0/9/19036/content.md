@@ -35,6 +35,8 @@ Specifically on [[chord diagrams]] encoding [[SYK model]] [[correlators]] as rep
 
 * [[Micha Berkooz]], Nadav Brukner, Yiyang Jia, Ohad Mamroud, *A Path Integral for Chord Diagrams and Chaotic-Integrable Transitions in Double Scaled SYK* \[<a href="https://arxiv.org/abs/2403.05980">arXiv:2403.05980</a>\]
 
+* [[Micha Berkooz]], Ohad Mamroud: *A Cordial Introduction to Double Scaled SYK* \[<a href="https://arxiv.org/abs/2407.09396">arXiv:2407.09396</a>\]
+
 
 ## Related  entries
 
