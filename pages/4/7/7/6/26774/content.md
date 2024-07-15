@@ -87,7 +87,15 @@ $$
 $$
 \end{theorem}
 
+### Unitality conditions
 
+\begin{definition}
+
+1. A weak indexing system $\underline{\mathbb{F}}_I$ is **aE-unital** if for all non-contractible $S \in \mathbb{F}_{I,V}$, the empty $V$-set $\emptyset_V$ is in $\mathbb{F}_{I,V}$.
+
+2. A weak indexing system $\underline{\mathbb{F}}_I$ is **unital** if $\emptyset_V \in \mathbb{F}_{I,V}$ for all $V \in \mathcal{T}$.
+
+\end{definition}
 
 ## Properties
 
