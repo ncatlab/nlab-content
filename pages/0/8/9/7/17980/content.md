@@ -148,6 +148,9 @@ Further developments:
 
 * [[S. James Gates Jr.]], Isaiah B. Hilsenrath, Saul Hilsenrath: *Modern Tensor-Spinor Symbolic Algebra Algorithms and Computing Non-Closure Geometry & Holoraumy in $11D$, $\mathcal{N} = 1$ Supergravity* &lbrack;[arXiv:2212.00614](https://arxiv.org/abs/2212.00614)&rbrack;
 
+* [[S. James Gates Jr.]], Yangrui Hu: *Adynkra Genomes, Adynkrafields, and the 4D, $\mathcal{N} = 1$ Supergravity Superfield Prepotential* &lbrack;[arXiv:2407.09334](https://arxiv.org/abs/2407.09334)&rbrack;
+
+
 
 Discussion in the context of [[spectral triples]] is in
 
