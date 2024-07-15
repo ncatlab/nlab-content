@@ -44,7 +44,7 @@ $$
 $$
 for all [[measurable subset|measurable]] $A\subseteq X$.
 
-Let now $N$ be a finite set. We can view the product space $X^N$ as the space of finite sequences $(x_1,\dots,x_n)$. 
+Let now $N$ be a finite set. We can view the product space $X^N$ as the space of finite sequences $(x_1,\dots,x_n)$ of elements of $X$. 
 The **empirical distribution** of a finite sequence $(x_1,\dots,x_n)\in X^N$ is the [[probability measure]] on $X$ given by 
 $$
 \frac{\delta_{x_1}+\dots+\delta_{x_n}}{n} ,
