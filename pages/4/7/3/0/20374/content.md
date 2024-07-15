@@ -84,5 +84,12 @@ A [[higher gauge theory|higher gauge]] [[5d Chern-Simons theory]] analogous to s
 
 * [[Alexander Schenkel]], Benoit Vicedo: *5d 2-Chern-Simons theory and 3d integrable field theories* &lbrack;[arXiv:2405.08083](https://arxiv.org/abs/2405.08083)&rbrack;
 
+Relation of 4d semi-topological CS to special solutions of 4d [[gravity]]:
+
+* Lewis T. Cole, Peter Weck: *Integrability in Gravity from Chern-Simons Theory* &lbrack;[arXiv:2407.08782](https://arxiv.org/abs/2407.08782)&rbrack;
+
+
+
+
 
 
