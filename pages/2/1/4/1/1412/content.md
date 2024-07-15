@@ -421,7 +421,7 @@ this is remedied.
 
   * $A = [P_2(-), \mathcal{B}U(1)] = \bar \mathcal{B}_2 U(1)$; $ H(X,A) = \bar H_{flat}^2(X,\mathbb{Z})$ is second flat differential integral cohomology -- classifies smooth line bundles with flat [[connection]];
   
-  * $A = [P_0(-), \mathcal{B}^2U(1)] = \mathcal{B}^2U(1)$;  $H(X,A) = H^3(X,A)$ is third integral cohomology -- classifies line [[bundle gerbe]]s;
+  * $A = [P_0(-), \mathcal{B}^2U(1)] = \mathcal{B}^2U(1)$;  $H(X,A) = H^3(X,\mathbb{Z})$ is third integral cohomology -- classifies line [[bundle gerbe]]s;
 
   * $A = [P_1(-), \mathcal{B}^2U(1)] = \bar \mathcal{B}^2_1 U(1)$ -- classifies line [[bundle gerbe]]s with connective structure;
 
