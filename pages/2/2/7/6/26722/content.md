@@ -86,11 +86,48 @@ $$
 In other words, $\mathcal{N}_{I \infty}^{\otimes} \in \mathrm{Op}_G$ is a [[subterminal object]] classifying the arity support condition $A(-) \leq I$. 
 We refer to the resulting full subcategory $\mathrm{Op}_I \coloneqq \mathrm{Op}_{G, \mathcal{N}_{I \infty}^{\otimes}} \subset \mathrm{Op}_G$ as the *$I$-operads*. 
 
-On the other hand, it is shown in [Stewart 24](#Stewart24) that the functor $\mathcal{O}^{\otimes} \mapsto \mathcal{O}(S)$ is [[corepresentable]], so if $\mathcal{O}^{\otimes}$ is a [[subterminal]] $G$-$\infty$-operad, its $S$-ary operation space $\mathcal{O}(S)$ is either empty or contractible for all $S$;
+On the other hand, it is shown in [Stewart 24](#Stewart24) that the functor $\mathcal{O}^{\otimes} \mapsto \mathcal{O}(S)$ is [[corepresentable functor|corepresentable]], so if $\mathcal{O}^{\otimes}$ is a [[subterminal]] $G$-$\infty$-operad, its $S$-ary operation space $\mathcal{O}(S)$ is either empty or contractible for all $S$;
 unwinding definitions, this shows that a $G$-$\infty$-operad is [[subterminal]] if and only if it's a weak $\mathcal{N}_\infty$-operad for $G$.
 
 ### As $\otimes$-idempotent $G$-$\infty$-operads.
-(...)
+
+The [[Boardman-Vogt tensor product]] naturally extends to a tensor product on $G$-operads via the formula 
+$$\mathcal{O}^{\otimes} \otimes^{BV} \mathcal{P}^{\otimes} \coloneqq L_{\mathrm{Op}_G} \left(
+\mathcal{O}^{\otimes} \times \mathcal{P}^{\otimes} 
+\rightarrow 
+\mathrm{Span}(\mathbb{F}_G) \times \mathrm{Span}(\mathbb{F}_G)
+\xrightarrow{\wedge}
+ \mathrm{Span}(\mathbb{F}_G))
+\right),$$    
+
+where $\wedge:\mathrm{Span}(\mathbb{F}_G) \times \mathrm{Span}(\mathbb{F}_G) \rightarrow \mathrm{Span}(\mathbb{F}_G)$ is induced by the [[cartesian product]] of finite $G$-sets.
+The following is shown in [Stewart 24](#Stewart24).
+
+\begin{theorem}
+  There exists an equivalence $\mathcal{N}_{I\infty}^{\otimes} \otimes^{BV} \mathcal{N}_{I \infty}^{\otimes} \simeq \mathcal{N}_{I \infty}^{\otimes}$ if and only if $I$ is an [[indexing system|aE-unital weak indexing system]], in which case a reduced $G$-$\infty$-operad $\mathcal{O}^{\otimes}$ satisfies
+$$
+  \mathcal{O}^{\otimes} \otimes^{BV} \mathcal{N}_{I \infty}^{\otimes} \simeq \mathcal{O}^{\otimes}
+$$
+if and only if  the [[G-∞-category]] $\underline{\mathrm{Alg}}_{\mathcal{O}}(\underline{\mathcal{S}}_G)$ of $\mathcal{O}$-algebras in [[G-spaces]] is [[G-semiadditivity|I-semiadditive]].
+
+\end{theorem}
+
+As a corollary, [Stewart 24](#Stewart24) concludes the following.
+
+\begin{corollary}
+  If $I$ and $J$ are [[indexing system|unital weak indexing systems]], then there is a (unique) equivalence
+  $$
+    \mathcal{N}_{I\infty}^{\otimes} \otimes^{BV} \mathcal{N}_{J \infty}^{\otimes} \simeq \mathcal{N}_{I \vee J \infty}^{\otimes},
+  $$
+  where $I \vee J$ denotes the join of $I$ and $J$ in the poset of [[indexing systems|weak indexing systems]].
+
+\end{corollary}
+
+The same theorem extends to [[indexing system|aE-unital weak indexing systems]], but the statement is somewhat more complicated;
+since indexing systems are a join-closed full sub-poset of weak indexing systems, this specializes to a theorem on the level of indexing systems, by omitting the words "unital weak."
+
+In the language of §6.3 of [Blumberg-Hill 13](#Blumberg13), 
+this confirms that in the homotopy-coherent setting every action of an $\mathcal{N}_\infty$-operad interchanges with itself, and every pair of interchanging $I$- and $J$-commutative algebra structures agrees on $I \cap J$ and is restricted from an $I \vee J$-commutative algebra structure.
 
 ## Algebras over $\mathcal{N}_\infty$-operads
 (...)
