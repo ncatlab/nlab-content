@@ -12,7 +12,7 @@ just as $d$-categories are simply $\infty$-categories whose mapping spaces are [
 ## Definitions
 
 \begin{definition}
-  Fix $n \in \mathbb{N}$ a [[natural number]]
+  Fix $d \in \mathbb{N}$ a [[natural number]]
   An [[∞-operad|$\infty$-operad]] $\mathcal{O}^{\otimes}$ is **essentially $d$** (or a **$d$-operad**) if, for all colors $X_1,\dots,X_n,Y \in \mathcal{O}$, the space $\mathrm{Mul}_{\mathcal{O}}(X_1,\dots,X_n;Y)$ is [[homotopy n-type|$(d-1)$-truncated]] 
 \end{definition}
 
