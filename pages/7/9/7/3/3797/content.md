@@ -63,8 +63,7 @@ A double order is a tileorder iff it is strongly antisymmetric, rectangular, tot
 
 ## References
 
-* Dawson and Par&#233;, "Characterizing tileorders"
-
+* [[Robert Dawson]] and [[Robert Paré]], _Characterizing tileorders_, Order 10 (1993): 111-128.
 
 [[!redirects tileorders]]
 [[!redirects double order]]
