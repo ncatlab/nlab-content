@@ -14,7 +14,6 @@
 =--
 
 
-
 # Knots
 * table of contents
 {: toc}
@@ -106,6 +105,7 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 [[!include chord diagrams and weight systems -- table]]
 
 
+
 ## References
 
 ### General
@@ -113,11 +113,13 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 Expositions:
 
-* Hoste, Thistlethwaite and Weeks, _The First 1,701,936 Knots_, Scientific American, 20, No. 4, 1998. ([link to pdf](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.215.7894))
+* J. Hoste, M. Thistlethwaite, J. Weeks: _The First 1,701,936 Knots_, The Mathematical Intelligencer **20** (1998) 33–48 &lbrack;[doi:10.1007/BF03025227](https://doi.org/10.1007/BF03025227)&rbrack;
 
-* [[Aaron Lauda]], _Knot theory explained (1:24 min lightning idea)_,  USC Dornsife College of Letters, Arts and Sciences ([video](https://www.youtube.com/embed/kxaWqKM5JyQ))
+* [[Aaron Lauda]], _Knot theory explained (1:24 min lightning idea)_,  USC Dornsife College of Letters, Arts and Sciences &lbrack;[video](https://www.youtube.com/embed/kxaWqKM5JyQ)&rbrack;
 
-* [[Abhijit Champanerkar]], _The geometry of knot complements_ ([pdf](https://www.math.csi.cuny.edu/~abhijit/talks/knot-geometry-h.pdf), [[ChampanerkarKnotComplements.pdf:file]])
+* [[Abhijit Champanerkar]], _The geometry of knot complements_ &lbrack;[pdf](https://www.math.csi.cuny.edu/~abhijit/talks/knot-geometry-h.pdf), [[ChampanerkarKnotComplements.pdf:file]]&rbrack;
+
+* Roland van der Veen: *A smooth introduction to knots*, lecture notes (2016) &lbrack;[pdf](https://www.julianlyczak.nl/seminar/knots2016-files/KnotesJan18.pdf), [[vdVeen-SmoothKnots.pdf:file]]&rbrack;
 
 
 
