@@ -163,6 +163,8 @@ Each of the above contexts for generalized multicategories requires a monad of a
 
 ## References
 
+* [[Albert Burroni]], $T$-cat&#233;gories (cat&#233;gories dans un triple). Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 12 no. 3 (1971), p. 215-321, [numdam: abstract](http://www.numdam.org/item/?id=CTGDC_1971__12_3_215_0) [djvu](http://archive.numdam.org/article/CTGDC_1971__12_3_215_0.djvu) [pdf](http://archive.numdam.org/article/CTGDC_1971__12_3_215_0.pdf) 
+
 * [[Tom Leinster]], _Higher Operads, Higher Categories_, London Math. Soc. Lec. Note Series __298__, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049), [another link](http://www.maths.gla.ac.uk/~tl/book.html)
 
 * {#CruttwellShulman10} [[Geoff Cruttwell]] and [[Mike Shulman]], _A unified framework for generalized multicategories_, Theory Appl. Categ. **24** 21 (2010) 580-655 &lbrack;[arxiv/0907.2460](http://arxiv.org/abs/0907.2460), [TAC:24-21](http://www.tac.mta.ca/tac/volumes/24/21/24-21abs.html)&rbrack;
