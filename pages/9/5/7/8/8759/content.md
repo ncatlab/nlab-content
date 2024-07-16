@@ -54,7 +54,18 @@ $$\mathrm{refl}_A^R(x) \coloneqq \mathrm{idtofam}(x, x)(\mathrm{refl}_A(x))$$
 ## Related concepts
 
 * [[reflexive relation]]
+
 * [[univalent reflexive graph]]
+
+## References
+
+Classifying the [[closed symmetric monoidal category|closed symmetric monoidal]]-[[structures]] on the [[category]] of reflexive graphs:
+
+* [[Krzysztof Kapulkin]], Nathan Kershaw: *Closed symmetric monoidal structures on the category of graphs*, Theory and Applications of Categories **41** 23 (2024) 760-784 &lbrack;[tac:41-23](http://www.tac.mta.ca/tac/volumes/41/23/41-23abs.html), [arXiv:2310.00493](https://arxiv.org/abs/2310.00493)&rbrack;
+
+
+
+
 
 [[!redirects reflexive graph]]
 [[!redirects reflexive graphs]]
