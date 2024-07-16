@@ -1,3 +1,5 @@
+[[!redirects Fox theorem]]
+[[!redirects Fox theorem]]
 
 #Contents#
 * table of contents
