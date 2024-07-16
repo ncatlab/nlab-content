@@ -17,7 +17,7 @@ Early consideration of [[quantum programming languages]] as [[quantum lambda-cal
 
 * {#SelingerValiron09} [[Peter Selinger]], [[Benoît Valiron]], *Quantum Lambda Calculus*, in: *Semantic Techniques in Quantum Computation*, Cambridge University Press (2009) 135-172 &lbrack;[doi:10.1017/CBO9781139193313.005](https://doi.org/10.1017/CBO9781139193313.005), [pdf](https://www.mscs.dal.ca/~selinger/papers/qlambdabook.pdf)&rbrack;
 
-* Pablo Arrighi, Alejandro Díaz-Caro, [[Benoît Valiron]], *A Type System for the Vectorial Aspect of the Linear-Algebraic Lambda-Calculus*, EPTCS **88** (2012) 1-15 &lbrack;[arXiv:1012.4032](https://arxiv.org/abs/1012.4032), [doi:10.4204/EPTCS.88.1](https://doi.org/10.4204/EPTCS.88.1)&rbrack;
+* Pablo Arrighi, [[Alejandro Díaz-Caro]], [[Benoît Valiron]], *A Type System for the Vectorial Aspect of the Linear-Algebraic Lambda-Calculus*, EPTCS **88** (2012) 1-15 &lbrack;[arXiv:1012.4032](https://arxiv.org/abs/1012.4032), [doi:10.4204/EPTCS.88.1](https://doi.org/10.4204/EPTCS.88.1)&rbrack;
 
 > &lbrack;[Selinger (2016)](Quipper#Selinger16):&rbrack; When the [QPL workshop series](https://www.mathstat.dal.ca/~selinger/qpl/) was first founded, it was called "*Quantum Programming Languages*". One year I wasn't participating, and while I wasn't looking they changed the name to "*Quantum Physics and Logic*" --- same acronym! 
 
