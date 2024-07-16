@@ -24,7 +24,7 @@
 
 ### Signs of crossings
 
-In an oriented link diagram, we can see there are two types of possible crossing. They are allocated a sign, + or -. 
+In an [[oriented link]] diagram, we can see there are two types of possible crossing. They are allocated a sign, + or -. 
 
 <svg width="250" height="120" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="2798">
  <g>
@@ -80,7 +80,7 @@ One method of remembering the sign convention is to imagine an approach to the c
 
 ### Writhe
 
-The *writhe* of an oriented *knot* or *link* diagram is the sum of the signs of all its crossings.  If $D$ is the diagram, we denote its writhe by $w(D)$.
+The *writhe* of an [[oriented link|oriented]] *knot* or *link* diagram is the [[sum]] of the signs of all its crossings.  If $D$ is the diagram, we denote its writhe by $w(D)$.
 
 The writhe is used in the definition of some of the [[knot invariants]].
 
@@ -89,11 +89,16 @@ The writhe is used in the definition of some of the [[knot invariants]].
 
 This is a variant of the writhe that is more adapted for use with links. 
 
-Suppose we have an oriented link diagram $D$ with components $C_1, \ldots, C_m$, the *linking number* of $C_i$ with $C_j$ where $C_i$ and $C_j$ are distinct components of $D$, is to be one half of the sum  of the signs of the crossings of $C_i$ with $C_j$; it will be denoted $lk(C_i,C_j)$.
+Suppose we have an [[oriented link]] diagram $D$ with components $C_1, \ldots, C_m$, the *linking number* of $C_i$ with $C_j$ where $C_i$ and $C_j$ are distinct components of $D$, is to be one half of the sum  of the signs of the crossings of $C_i$ with $C_j$; it will be denoted $lk(C_i,C_j)$.
 
-The linking number of the diagram $D$ us then the sum of the linking numbers of all pairs of components:
+The linking number of the diagram $D$ us then the sum of the linking numbers of all pairs of distinct components:
 
-$$Lk(D) = \sum_{1\le i\lt j\le m}lk(C_i,C_j).$$
+$$
+  Lk(D) 
+  \;\coloneqq\; 
+  \sum_{1\le i\lt j\le m}lk(C_i,C_j)
+  \,.
+$$
 
 
 ## Examples
@@ -152,6 +157,18 @@ An immediate consequence of the fact that the sum of the signs of the crossings 
 
 * [[framing number]]
 
+## References
+
+* [[Renzo L. Ricca]], Bernardo Nipoti: *Gauss' Linking Number Revisited*, Journal of Knot Theory and Its Ramifications **20** 10 (2011) 1325-1343 &lbrack;[doi:10.1142/S0218216511009261](http://dx.doi.org/10.1142/S0218216511009261), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/ricca.pdf)&rbrack;
+
 
 [[!redirects linking number]]
 [[!redirects linking numbers]]
+
+[[!redirects Gauss linking number]]
+[[!redirects Gauss linking numbers]]
+
+[[!redirects Gauss' linking number]]
+[[!redirects Gauss' linking numbers]]
+
+
