@@ -806,7 +806,8 @@ The local Chern-Simons term as an action functional for quantum field theory app
 
 The [[geometric quantization]] and [[path integral]] [[quantization]] of Chern-Simons theory and the relation of its [[Wilson line]] [[observables]] to the [[Jones polynomial]] was introduced in
 
-* {#Witten89} [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_, Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([euclid:cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138))
+* {#Witten89} [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_, Commun. Math. Phys. **121** 3 (1989) 351-399. MR0990772 &lbrack;[doi:10.1007/BF01217730](https://doi.org/10.1007/BF01217730), 
+[euclid:cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138)&rbrack;
  
 and also, indepndently at the same time
 
@@ -836,9 +837,12 @@ Relation to [[knot theory]]:
 * [[Michael Atiyah]], _The Geometry and Physics of Knots_,  Cambridge University Press 1990 ([doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868))
 
 
-See also 
+See also:
 
-* {#CattaneoMnev08} [[Alberto Cattaneo]], [[Pavel Mnev]], _Remarks on Chern-Simons invariants_, Commun.Math.Phys.293:803-836, 2010 ([arXiv:0811.2045](https://arxiv.org/abs/0811.2045))
+* {#CattaneoMnev08} [[Alberto Cattaneo]], [[Pavel Mnev]], _Remarks on Chern-Simons invariants_, Commun. Math. Phys. **293** (2010) 803-836 &lbrack;[arXiv:0811.2045](https://arxiv.org/abs/0811.2045)&rbrack;
+
+* David Grabovsky: *Chern–Simons Theory in a Knotshell* (2022) &lbrack;[pdf](https://web.physics.ucsb.edu/~davidgrabovsky/files-notes/CS%20and%20Knots.pdf), [[Grabovsky-CSTheory.pdf:file]]&rbrack;
+
 
 Discussion with emphasis on the [[symplectic structure]] on [[phase space]] and the expression of the [[Wilson lines]] by the [[orbit method]] is in
 
