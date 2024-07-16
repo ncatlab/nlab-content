@@ -95,6 +95,8 @@ The functor $Rep$ is a [[right adjoint]]; its left adjoint constructs the free m
 
 ## Related concepts
 
+* [[structured category]]
+
 * [[endomorphism operad]]
 
 ## References
