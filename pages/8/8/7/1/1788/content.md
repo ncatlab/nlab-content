@@ -116,22 +116,7 @@ First, the plain loop diagram should have the trivial class in $\pi_1$ of Okuyam
     }
 \end{imagefromfile}
 
-But what about the charged stringy Hopf link --- is this trivial in $\pi_1$?
-
-\begin{imagefromfile}
-    "file_name": "ChargedStringHopfLink-240715.jpg",
-    "width": 320,
-    "unit": "px",
-    "margin": {
-        "top": -30,
-        "bottom": 20,
-        "right": 0, 
-        "left": 15
-    }
-\end{imagefromfile}
-
-
-{#ChargedStringLoopWithTwist} Maybe easier to see that the following loop is non-trivial:
+{#ChargedStringLoopWithTwist} The following loop should have a non-trivial class in $\pi_1\big(Conf^I(\mathbb{R}^2)\big)$:
 
 \begin{imagefromfile}
     "file_name": "ChargedStringLoopWithTwist-240715.jpg",
@@ -145,7 +130,26 @@ But what about the charged stringy Hopf link --- is this trivial in $\pi_1$?
     }
 \end{imagefromfile}
 
-These examples make manifest what the key difference is between loops in McDuf's configuration space of charged points and loops in Okuyama's configuration spaces of charged stroings: The former may essentially be regarded as [[links]], while the latter carry the further [[structure]] of *[[framed links]]*.
+This example illustates the key difference between loops in McDuff's configuration space of charged points and loops in Okuyama's configuration spaces of charged strings: The former may essentially be regarded as [[links]], while the latter carry the further [[structure]] of *[[framed links]]*.
+
+As such, the above is the [[unknot]]-[[link]] but equipped with non-vanishing [[framing number]] $+1$.
+
+{#ChargedStringHopfLink} In view of this, we find that the charged stringy version of the [[Hopf link]] is equivalent, as an element of $\pi_1\big(Conf^I(\mathbb{R}^2)\big)$, to the [[unknot]] equipped with [[framing number]] $+2$:
+
+
+\begin{imagefromfile}
+    "file_name": "ChargedStringHopfLink-240716.jpg",
+    "width": 320,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 15
+    }
+\end{imagefromfile}
+
+In fact, by applying the same move on the left, this shows that the Hopf link represents twice the class of the previous example in $\pi_1\big(Conf^I(\mathbb{R}^2)\big)$.
 
 
 (...)
