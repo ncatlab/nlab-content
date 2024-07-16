@@ -68,6 +68,12 @@ Horizontal composition is trickier to describe.  Of course, we can compose funct
 
 ## References
 
+For **categories with contravariance**, see Example 4.2.9 of:
+
+* [[Higher Operads, Higher Categories]]
+
+For 2-categories, see:
+
 * [[Mike Shulman]], *Contravariance through enrichment*, [arXiv](https://arxiv.org/abs/1606.05058), 2016
  {#Shulman2016}
 
