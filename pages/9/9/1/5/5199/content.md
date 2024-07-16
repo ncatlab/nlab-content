@@ -89,9 +89,15 @@ Vivid illustrations:
 
 * Nadav Drukker, Elise Paznokas, Dominik Schrimpel: *Knitting Knots & the Framing Anomaly*, in: *Proceedings of Bridges 2022: Mathematics, Art, Music, Architecture, Culture*, Tessalations Publishing (2022) 245-252 &lbrack;[arXiv:2210.16677](https://arxiv.org/abs/2210.16677), [web](https://archive.bridgesmathart.org/2022/bridges2022-245.html#gsc.tab=0),  [pdf](https://archive.bridgesmathart.org/2022/bridges2022-245.pdf)&rbrack;
 
-Discussion in the context of [[Wilson loop]] [[quantum observables]] in [[Chern-Simons theory]]:
+Discussion of framed links in the context of regularizing [[Wilson loop]] [[quantum observables]] in [[Chern-Simons theory]]:
+
+* {#Witten89} [[Edward Witten]], pp  20 in: _Quantum Field Theory and the Jones Polynomial_, Commun. Math. Phys. **121** 3 (1989) 351-399. MR0990772 &lbrack;[doi:10.1007/BF01217730](https://doi.org/10.1007/BF01217730), 
+[euclid:cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138)&rbrack;
 
 * {#CMNP19} Giancarlo Camilo, Dmitry Melnikov, Fábio Novaes, Andrea Prudenziati: *Circuit Complexity of Knot States in Chern-Simons theory*, J. High Energ. Phys. **2019** 163 (2019) &lbrack;[arXiv:1903.10609](https://arxiv.org/abs/1903.10609), <a href="https://doi.org/10.1007/JHEP07(2019)163">doi:10.1007/JHEP07(2019)163</a>&rbrack;
+
+* David Grabovsky: pp 22 in: *Chern–Simons Theory in a Knotshell* (2022) &lbrack;[pdf](https://web.physics.ucsb.edu/~davidgrabovsky/files-notes/CS%20and%20Knots.pdf), [[Grabovsky-CSTheory.pdf:file]]&rbrack;
+
 
 [[!redirects framed links]]
 [[!redirects Framed link]]
