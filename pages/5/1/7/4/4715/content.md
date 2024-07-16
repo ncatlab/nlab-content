@@ -315,5 +315,8 @@ Further discussion
 [[!redirects fatgraph]]
 [[!redirects fatgraphs]]
 
+[[!redirects ribbon]]
+[[!redirects ribbons]]
+
 
 
