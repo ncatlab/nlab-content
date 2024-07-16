@@ -130,7 +130,26 @@ In the language of §6.3 of [Blumberg-Hill 13](#Blumberg13),
 this confirms that in the homotopy-coherent setting every action of an $\mathcal{N}_\infty$-operad interchanges with itself, and every pair of interchanging $I$- and $J$-commutative algebra structures agrees on $I \cap J$ and is restricted from an $I \vee J$-commutative algebra structure.
 
 ## Algebras over $\mathcal{N}_\infty$-operads
-(...)
+
+### As incomplete Mackey functors in the cartesian setting
+
+The following theorem was proved in the setting of *graph $G$-operads* and for $\mathcal{C} = \underline{\mathcal{S}}_G$ in [Marc 24](#Marc24), and in the setting of [[G-∞-operads]] in [Stewart 24](#Stewart 24).
+\begin{theorem}
+  If $\mathcal{C}^{\otimes}$ is a [[I-symmetric monoidal ∞-category]] whose indexed tensor products are [[indexed products]], then there is a canonical equivalence 
+$$
+\mathrm{Alg}_{\mathcal{N}_{I \infty}}(\mathcal{C}) \simeq \mathrm{CMon}_I(\mathcal{C})
+$$
+over $\mathcal{C}$.
+In particular, if $\mathcal{C}$ is the $G$-$\infty$-category of coefficient systems in an [[∞-category]] $\mathcal{V}$ with its Cartesian structure, then there is an equivalence
+$$
+  \mathrm{Alg}_{\mathcal{N}_{I \infty}}(\mathcal{C}) \simeq \mathrm{Fun}^{\times}(\mathrm{Span}(\mathbb{F}_G, \mathcal{V}).
+$$
+
+\end{theorem} 
+
+### As incomplete Tambara functors
+
+### As normed algebras
 
 ## Related concepts
 
@@ -160,8 +179,12 @@ Classification via indexing systems (each independently proves this):
 
 * {#Stewart24} [[Natalie Stewart]]: _On tensor products of equivariant commutative operads_ (draft)  &lbrack;[pdf](https://nataliesstewart.github.io/files/Ninfty_draft.pdf)&rbrack;
 
-Presentation of algebras in the $C_p$-equivariant case:
+Presentation of algebras in various cases:
 
 * [[Lucy Yang]], _On normed $\mathbb{E}_\infty$-rings in genuine equivariant $C_p$-spectra_, (2023) ([arXiv:2308.16107](https://arxiv.org/abs/2308.16107))
+
+* {#Marc24} [[Gregoire Marc]], _A higher Mackey functor description of algebras over an $\mathcal{N}_\infty$-operad_, (2024) ([arXiv:2402.12447](https://arxiv.org/abs/2402.12447))
+
+* {#Tambara} [[Bastiaan Cnossen]], [[Rune Haugseng]], [[Tobias Lenz]], [[Sil Linskens]]: _Normed equivariant ring spectra and higher Tambara functors_ ([arXiv:2407.08399](https://arxiv.org/abs/2407.08399))
 
 [[!redirects N-∞ operads]]
