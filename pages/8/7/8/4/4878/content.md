@@ -19,7 +19,10 @@
 * table of contents
 {: toc}
 
-## Signs of crossings
+
+## Definitions
+
+### Signs of crossings
 
 In an oriented link diagram, we can see there are two types of possible crossing. They are allocated a sign, + or -. 
 
@@ -75,14 +78,14 @@ One method of remembering the sign convention is to imagine an approach to the c
 * if it passes from right to left it counts as *negative*.
 
 
-## Writhe
+### Writhe
 
 The *writhe* of an oriented *knot* or *link* diagram is the sum of the signs of all its crossings.  If $D$ is the diagram, we denote its writhe by $w(D)$.
 
 The writhe is used in the definition of some of the [[knot invariants]].
 
 
-## Linking number
+### Linking number
 
 This is a variant of the writhe that is more adapted for use with links. 
 
@@ -95,10 +98,18 @@ $$Lk(D) = \sum_{1\le i\lt j\le m}lk(C_i,C_j).$$
 
 ## Examples
 
-The writhe of the standard trefoil is 3, of the Hopf link (both components clockwise oriented) is +2, but that of the Borromean rings is 0 although it is a non-trivial link.
+The writhe 
+
+* of the [[trefoil knot]] is 3, 
+
+* of the [[Hopf link]] (both components clockwise oriented) is +2, 
+
+* of the [[Borromean rings]] is 0 although it is a non-trivial link.
 
 
-## Invariance?
+## Properties
+
+### Invariance?
 
 The writhe is not an isotopy invariant, as it can be changed but twisting a stand of the knot (or link).
 
@@ -119,7 +130,7 @@ We use [[Reidemeister moves]] so have to check that they do not change the linki
 =--
 We can conclude that the Hopf link is not isotopic to the two component unlink, (which is reassuring) as any assignment of orientations to the Hopf link leads to a non-zero linking number.
 
-##Linking number is an integer
+### Linking number is an integer
 
 Let $n_{1}$ (resp. $n_{2}$) be the sum of the signs of crossings between a pair of components $L_{1}$ and $L_{2}$ of a link in which the over arc belongs to $L_{1}$ (resp.  $L_{2}$). The linking number is then clearly equal to $\frac{1}{2}(n_{1} + n_{2})$.
 
@@ -136,6 +147,11 @@ We deduce that $n_{1} - n_{2} = 0$ in all cases. Hence $n_{1} = n_{2}$, and the 
 In particular, the linking number is an integer. 
 
 An immediate consequence of the fact that the sum of the signs of the crossings between $L_{1}$ and $L_{2}$ is even is that there must in fact be an even number of such crossings.
+
+## Related concepts
+
+* [[framing number]]
+
 
 [[!redirects linking number]]
 [[!redirects linking numbers]]
