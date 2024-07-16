@@ -55,9 +55,12 @@ In particular, by this [[bijection]] the canonical [[group]] [[structure]] on [[
 
 ## Related concepts
 
+* [[framed link]]
+
 * [[framed manifold]]
 
 * [[normal twisted framing]]
+
 
 ## References
 
