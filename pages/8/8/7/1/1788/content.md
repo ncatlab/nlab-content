@@ -21,7 +21,7 @@ $$
 $$
 for the [[group completion]] of the configuration space with respect to this partial operation of disjoint union. 
 
-[Segal 1973, Thm. 1](#Segal73) says, in particular, that this group completed configuration space is [[weak homotopy equivalence|weak homotopy equivalent]] to the $n$-fold [[iterated loop space]] of the [[n-sphere|$n$-sphere]] $S^n$ (the $n$-[[Cohomotopy]] [[cocycle space]] of the [[one-point compactification]] $\mathbb{R}^n_{cpt}$):
+[Segal 1973, Thm. 1](#Segal73) says, in particular, that this group completed configuration space is [[weak homotopy equivalence|weak homotopy equivalent]] to the $n$-fold [[iterated loop space]] of the [[n-sphere|$n$-sphere]] $S^n$ (the $n$-[[Cohomotopy]] [[cocycle space]] of the [[one-point compactification]] $\mathbb{R}^n_{cpt}$ of [[Euclidean space]]):
 \[
   \label{SegalTheorem1}
   \mathbb{G} Conf(\mathbb{R}^n)
