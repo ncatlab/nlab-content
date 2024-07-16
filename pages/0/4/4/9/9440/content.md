@@ -27,9 +27,16 @@ exposition:
 * [[Chris Kapulkin]], *Calculus of Fractions for Quasicategories (Part I)*, [talk at](CQTS#KapulkinOct2023) [[CQTS]] (18 Oct 2023) &lbrack;video:[YT](https://youtu.be/96ViSKAuApc)&rbrack;
 
 
+
+Classifying the [[closed symmetric monoidal category|closed symmetric monoidal]]-[[structures]] on the [[category]] of reflexive graphs:
+
+* [[Krzysztof Kapulkin]], Nathan Kershaw: *Closed symmetric monoidal structures on the category of graphs*, Theory and Applications of Categories **41** 23 (2024) 760-784 &lbrack;[tac:41-23](http://www.tac.mta.ca/tac/volumes/41/23/41-23abs.html), [arXiv:2310.00493](https://arxiv.org/abs/2310.00493)&rbrack;
+
+
 On the [[model structure on compactly generated topological spaces]] and [[model structure on Delta-generated topological spaces|on Delta-generated topological spaces]], and on a [[model category]] of [[locales]] which makes the [[reflective subcategory|reflection]] of [[sober topological spaces]] a [[Quillen adjunction]] to the sober-restriction of the [[classical model structure on topological spaces]]:
 
 * {#SterlingKapulkin23} [[Sterling Ebel]], [[Chris Kapulkin]], *Synthetic approach to the Quillen model structure on topological spaces* &lbrack;[arXiv:2310.14235](https://arxiv.org/abs/2310.14235)&rbrack;
+
 
 
 
