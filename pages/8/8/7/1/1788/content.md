@@ -1,12 +1,16 @@
 
 
+\tableofcontents
+
 
 ### Group completed configuration spaces
  {#GroupCompletedConfigurationSpaces}
 
+#### Charged particles and strings
+
 We discuss configuration-spaces of "charged objects" as models for [[group completions]] of plain [[configuration spaces of points]].
 
-Write $Conf(\mathbb{R}^n)$ for the "plain" configuration space of unlabeled and unordered points in $\mathbb{R}$, hence the space of [[finite set|finite]] [[subsets]] of [[Cartesian space|$\mathbb{R}^n$]].
+Write $Conf(\mathbb{R}^n)$ for the "plain" configuration space of unlabeled and unordered points in the [[Cartesian space]] ([[Euclidean space]]) $\mathbb{R}^n$, hence the space of [[finite set|finite]] [[subsets]] of [[Cartesian space|$\mathbb{R}^n$]].
 This is naturally a [[partial function|partial]] [[commutative monoid|abelian]] [[topological monoid]], where the addition of a pair of configurations is defined if they are [[disjoint]], in which case it is given by their (necessarily [[disjoint union|disjoint]]) [[union]] &lbrack;[Segal 1973, p. 215](#Segal73)&rbrack;.
 
 Here we write write
@@ -18,12 +22,13 @@ $$
 for the [[group completion]] of the configuration space with respect to this partial operation of disjoint union. 
 
 [Segal 1973, Thm. 1](#Segal73) says, in particular, that this group completed configuration space is [[weak homotopy equivalence|weak homotopy equivalent]] to the $n$-fold [[iterated loop space]] of the [[n-sphere|$n$-sphere]] $S^n$ (the $n$-[[Cohomotopy]] [[cocycle space]] of $S^n$):
-$$
+\[
+  \label{SegalTheorem1}
   \mathbb{G} Conf(\mathbb{R}^n)
   \;\simeq\;
   \Omega^n S^n
   \,,
-$$
+\]
 
 This motivates asking for a more explicit description of the group completed configuration space of points, itself as a configuration space, now of objects somewhat richer than plain points.
 
@@ -50,14 +55,83 @@ On the right, if a filled circle is taken to indicate that the corresponding poi
 
 With this stringy resolution of the charged points, the expected equivalence does hold &lbrack;[Okuyama 2005, Thm. 1](#Okuyama05)&rbrack;:
 
-$$
+\[
+  \label{OkuyamaTheorem}
   Conf^I(\mathbb{R}^n)
   \;\;
   \simeq
   \;\;
   \mathbb{G}Conf(\mathbb{R}^n)
   \,.
+\]
+
+#### Loops diagrams of charged string
+ {#LoopsOfChargedStrings}
+
+It follows that the [[fundamental group]] of the configuration space of charged strings in the [[plane]] $\mathbb{R}^2$ is
+
 $$
+  \pi_1\big(
+    Conf^I(\mathbb{R}^2)  
+  \big)
+  \;\;\simeq\;\;
+  \pi_1\big(
+    \mathbb{G}Conf(\mathbb{R}^2)  
+  \big)
+  \;\;\simeq\;\;
+  \pi_1\big(
+    \Omega^2 S^2
+  \big)
+  \;\;\simeq\;\;
+  \pi_0\big(
+    \Omega(\Omega^2 S^2)
+  \big)
+  \;\;\simeq\;\;
+  \pi_0\big(
+    \Omega^3 S^2)
+  \big)
+  \;\;\simeq\;\;
+  \pi^3(S^2)
+  \;\;\simeq\;\;
+  \mathbb{Z}
+  \,,
+$$
+
+where the first [[isomorphism]] is by Okuyama's theorem (eq:OkuyamaTheorem), the second by Segal's theorem (eq:SegalTheorem1) and the last one is the statement of the [[Hopf fibration]].
+
+Hence we ask which loop diagram of charged strings corresponds to the Hopf fibration, under this sequences of isomorphisms.
+
+First, the plain loop diagram should have the trivial class in $\pi_1$:
+
+
+\begin{imagefromfile}
+    "file_name": "ChargedStringLoop-240715.jpg",
+    "width": 560,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 15
+    }
+\end{imagefromfile}
+
+But what about the charged stringy [[Hopf link]] --- is this trivial in $\pi_1$:
+
+\begin{imagefromfile}
+    "file_name": "ChargedStringHopfLink-240715.jpg",
+    "width": 320,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 15
+    }
+\end{imagefromfile}
+
+?
+
 
 (...)
 
