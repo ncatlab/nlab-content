@@ -36,7 +36,11 @@ Let $M$ be an [[orientation|oriented]] [[3-manifold]], for example $S^3$. The [[
 
 Now let 
 
-$$L: S^1 \sqcup \ldots \sqcup S^1 \hookrightarrow M$$ 
+$$
+  L
+  \;\colon\; 
+  S^1 \sqcup \ldots \sqcup S^1 \hookrightarrow M
+$$ 
 
 be a smoothly embedded link (of oriented circles). The [[normal bundle]] of $L$ is the [[cokernel]] of the bundle inclusion 
 
@@ -52,7 +56,7 @@ However, it is often convenient to consider such framings, or rather their assoc
 
 If one regards the framed link as a ribbon link, then its framing number is the [[linking number]] of the two [[boundary of a manifold|boundaries]] of the [[ribbon]].
 
-Thus an alternative way of describing a framing on an oriented link is by assigning an integer (framing number) to each link component.
+Thus an alternative way of describing a framing on an [[oriented link]] is by assigning an integer (framing number) to each link component.
 
 ## Examples
 
@@ -78,6 +82,8 @@ Framings of the [[trefoil knot]]:
 * [[normal framing]]
 
 * [[framed manifold]]
+
+* [[oriented link]]
 
 ## References
 
