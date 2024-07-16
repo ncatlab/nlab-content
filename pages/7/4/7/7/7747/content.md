@@ -137,6 +137,8 @@ The [[homotopy type]] of the [[moduli space of framed manifolds|moduli space of 
 
 * [[normal framing]], [[normal twisted framing]]
 
+* [[framed link]]
+
 * [[2-framing]]
 
 * [[framed elliptic curve]]
