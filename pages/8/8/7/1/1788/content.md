@@ -145,6 +145,8 @@ But what about the charged stringy Hopf link --- is this trivial in $\pi_1$?
     }
 \end{imagefromfile}
 
+These examples make manifest what the key difference is between loops in McDuf's configuration space of charged points and loops in Okuyama's configuration spaces of charged stroings: The former may essentially be regarded as [[links]], while the latter carry the further [[structure]] of *[[framed links]]*.
+
 
 (...)
 
