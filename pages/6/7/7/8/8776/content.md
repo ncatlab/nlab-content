@@ -1,5 +1,3 @@
-[[!redirects 5-dimensional supergravity]]
-[[!redirects 5-dimensional supergravity]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -165,23 +163,37 @@ $$
 
 ## Related concepts
 
+* [[supergravity]]
+
+  * [[D=2 supergravity]]
+
+  * [[D=3 supergravity]]
+
+  * [[D=4 supergravity]]
+
+  * **D=5 supergravity**
+
+    * [[super 2-brane in 5d]]
+
+  * [[D=6 supergravity]]
+
+  * [[D=7 supergravity]]
+
+  * [[D=8 supergravity]]
+
+  * [[D=9 supergravity]]
+
+  * [[D=10 supergravity]]
+
+  * [[D=11 supergravity]]
+
+    * [[D=11 N=1 supergravity]]
+
 * [[D=5 gravity]]
 
 * [[D=5 Chern-Simons theory]]
 
-* [[11-dimensional supergravity]] 
-
 * 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
-
-* [[7-dimensional supergravity]]
-
-* **5-dimensional supergravity**
-
-  * [[super 2-brane in 5d]]
-
-* [[4-dimensional supergravity]]
-
-* [[3-dimensional supergravity]]
 
 ## References
 
@@ -311,5 +323,5 @@ Further [[defect branes]]:
 
 * [[Masaki Shigemori]], *Interpolating between multi-center microstate geometries*, JHEP 09 (2021) 010 ([arXiv:2105.11639](https://arxiv.org/abs/2105.11639))
 
-
 [[!redirects 5d supergravity]]
+[[!redirects 5-dimensional supergravity]]
