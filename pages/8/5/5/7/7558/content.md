@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -30,7 +29,7 @@ One of the [[exceptional Lie groups]].
 
 +-- {: .num_prop #JordanAutomorphisms}
 ###### Definition/Proposition
-**([[Jordan algebra]] [[automorphism group]] of [[octonion|octonionic]] [[Albert algebra]] is [[F4]])**
+**([[Jordan algebra]] [[automorphism group]] of [[octonion|octonionic]] [[Albert algebra]] is [[F₄]])**
 
 The [[group]] of [[automorphism]] with respect to the [[Jordan algebra]] structure $\circ$ on the [[octonion|octonionic]] [[Albert algebra]] is the [[exceptional Lie group]] $F_4$:
 
@@ -52,9 +51,9 @@ $$
 
 * [[exceptional geometry]], [[exceptional generalized geometry]]
 
-* [[G2]], **F4**,
+* [[G₂]], **F₄**,
 
-  [[E6]], [[E7]],  [[E8]], [[E9]], [[E10]], [[E11]], $\cdots$
+  [[E₆]], [[E₇]], [[E₈]], [[E₉]], [[E₁₀]], [[E₁₁]], $\cdots$
 
 
 
@@ -62,7 +61,7 @@ $$
 
 ### General
 
-* [[José Figueroa-O'Farrill]], _A geometric construction of the exceptional Lie algebras F4 and E8_ ([arXiv:0706.2829](http://arxiv.org/abs/0706.2829))
+* [[José Figueroa-O'Farrill]], _A geometric construction of the exceptional Lie algebras $F_4$ and $E_8$_ ([arXiv:0706.2829](http://arxiv.org/abs/0706.2829))
 
 * {#Yokota09} Ichiro Yokota, _Exceptional Lie groups_ ([arXiv:0902.0431](https://arxiv.org/abs/0902.0431))
 
@@ -83,3 +82,4 @@ That the group $F_4$ controls the massless degrees of freedom of [[11-dimensiona
 
 * [[Hisham Sati]], _$\mathbb{O}P^2$-bundles in M-theory_, Commun. Num. Theor. Phys 3:495-530, 2009 ([arXiv:0807.4899](http://arxiv.org/abs/0807.4899))
 
+[[!redirects F4]]
