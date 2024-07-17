@@ -1,5 +1,3 @@
-[[!redirects semi-holomorphic 4d Chern-Simons theory]]
-
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -17,13 +15,13 @@
 
 ## Idea
 
-In [[mathematical physics|mathematical]]/[[theoretical physics]], _semi-topological_ or _semi-holomorphic 4d Chern-Simons theory_ is a variant of ordinary [[3d Chern-Simons theory]] where, roughly, one of the three [[coordinate functions]] is promoted from an ordinary real-valued coordinate to a [[holomorphic function|holomorphic coordinate]]. 
+In [[mathematical physics|mathematical]]/[[theoretical physics]], _semi-topological_ or _semi-holomorphic D=4 Chern-Simons theory_ is a variant of ordinary [[D=3 Chern-Simons theory]] where, roughly, one of the three [[coordinate functions]] is promoted from an ordinary real-valued coordinate to a [[holomorphic function|holomorphic coordinate]]. 
 
-Hence semi-topological/holomorphic 4d Chern-Simons theory is a [[field theory]] defined on [[spacetimes]] of the form $\Sigma^2 \times C$ where $\Sigma^2$ is a real [[smooth manifold]], while $C$ is a [[complex curve]], and whose [[Lagrangian density]] is schematically the ordinary [[Chern-Simons form]], but with one of the wedge factors promoted from $d x^i$ to $d z$.
+Hence semi-topological/holomorphic D=4 Chern-Simons theory is a [[field theory]] defined on [[spacetimes]] of the form $\Sigma^2 \times C$ where $\Sigma^2$ is a real [[smooth manifold]], while $C$ is a [[complex curve]], and whose [[Lagrangian density]] is schematically the ordinary [[Chern-Simons form]], but with one of the wedge factors promoted from $d x^i$ to $d z$.
 
-Accordingly, this [[field theory]] is a [[topological field theory]] (only) with respect to $\Sigma^2$, while it behaves like a [[conformal field theory]] with respect to $C$, whence "semi-topological/holomorphic" Chern-Simons theory: If one instead promotes all three coordinates of ordinary 3d Chern-Simons theory to holomorphic coordinates, one obtains full 6d [[holomorphic Chern-Simons theory]].
+Accordingly, this [[field theory]] is a [[topological field theory]] (only) with respect to $\Sigma^2$, while it behaves like a [[conformal field theory]] with respect to $C$, whence "semi-topological/holomorphic" Chern-Simons theory: If one instead promotes all three coordinates of ordinary D=3 Chern-Simons theory to holomorphic coordinates, one obtains full 6d [[holomorphic Chern-Simons theory]].
 
-But beware that in the literature this is often referred to just as _[[4d Chern-Simons theory]]_.
+But beware that in the literature this is often referred to just as _[[D=4 Chern-Simons theory]]_.
 
 ## Properties
 
@@ -80,7 +78,7 @@ Relation to the [[Berkovits superstring]]:
 
 * [[Nathan Berkovits]], Rodrigo S. Pitombo, *4D Chern-Simons and the pure spinor $AdS_5 \times S^5$ superstring* &lbrack;[arXiv:2401.03976](https://arxiv.org/abs/2401.03976)&rbrack;
 
-A [[higher gauge theory|higher gauge]] [[5d Chern-Simons theory]] analogous to semi-topological 4d Chern-Simons theory:
+A [[higher gauge theory|higher gauge]] [[D=5 Chern-Simons theory]] analogous to semi-topological D=4 Chern-Simons theory:
 
 * [[Alexander Schenkel]], Benoit Vicedo: *5d 2-Chern-Simons theory and 3d integrable field theories* &lbrack;[arXiv:2405.08083](https://arxiv.org/abs/2405.08083)&rbrack;
 
@@ -88,8 +86,9 @@ Relation of 4d semi-topological CS to special solutions of 4d [[gravity]]:
 
 * Lewis T. Cole, Peter Weck: *Integrability in Gravity from Chern-Simons Theory* &lbrack;[arXiv:2407.08782](https://arxiv.org/abs/2407.08782)&rbrack;
 
-
-
+[[!redirects semi-topological 4d Chern-Simons theory]]
+[[!redirects semi-holomorphic D=4 Chern-Simons theory]]
+[[!redirects semi-holomorphic 4d Chern-Simons theory]]
 
 
 
