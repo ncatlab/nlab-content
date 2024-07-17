@@ -11,8 +11,11 @@ In the very low number of just 2 dimensions, [[quantum gravity]] is comparativel
 
 * [[world sheets for world sheets]]
 
-* [[3d quantum gravity]]
+* [[D=3 quantum gravity]]
 
 ## References
 
 * [[Paul Ginsparg]], [[Gregory Moore]], _Lectures on 2D gravity and 2D string theory (TASI 1992)_ ([arXiv:hep-th/9304011](http://arxiv.org/abs/hep--th/9304011))
+
+[[!redirects 2d quantum gravity]]
+[[!redirects 2-dimensional quantum gravity]]
