@@ -1,3 +1,4 @@
+[[!redirects 4d TQFT]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -23,7 +24,7 @@
 
 ## Constructions
 
-In analogy to how [[3d TQFTs]] are induced from [[quantum groups]]/[[Hopf algebras]]/ and generally [[bialgebras]] (hence [[3-modules]], the [[higher geometry|higher]] [[space of quantum states]] assigned to the point which by the [[cobordism theorem]] defines the theory) one may build 4d TQFTs from higher analogs of these, namely models of [[4-modules]] given by algebraic structures such as _[[trialgebras]]_ and _[[Hopf categories]]_.
+In analogy to how [[D=3 TQFTs]] are induced from [[quantum groups]]/[[Hopf algebras]]/ and generally [[bialgebras]] (hence [[3-modules]], the [[higher geometry|higher]] [[space of quantum states]] assigned to the point which by the [[cobordism theorem]] defines the theory) one may build D=4 TQFTs from higher analogs of these, namely models of [[4-modules]] given by algebraic structures such as _[[trialgebras]]_ and _[[Hopf categories]]_.
 
 
 ## Examples
@@ -32,7 +33,7 @@ In analogy to how [[3d TQFTs]] are induced from [[quantum groups]]/[[Hopf algebr
 
 * [[Kapustin-Witten TQFT]]
 
-* [[4d Chern-Simons theory]]
+* [[D=4 Chern-Simons theory]]
 
 * [[Walker-Wang model]]
 
@@ -44,13 +45,19 @@ In analogy to how [[3d TQFTs]] are induced from [[quantum groups]]/[[Hopf algebr
 
 * [[TQFT]]
 
-  * [[2d TQFT]]
+  * [[D=0 TQFT]]
 
-  * [[3d TQFT]]
+  * [[D=2 TQFT]]
 
-  * **4d TQFT**
+    * [[D=2 Chern-Simons theory]]
 
-    * [[4d Chern-Simons theory]]
+  * [[D=3 TQFT]]
+
+    * [[D=3 Chern-Simons theory]]
+
+  * **D=4 TQFT**
+
+    * [[D=4 Chern-Simons theory]]
 
 
 
