@@ -325,7 +325,8 @@ Original articles:
 * {#AF96} [[Daniel Altschuler]], [[Laurent Freidel]], Theorem 5 of: _Vassiliev knot invariants and Chern-Simons perturbation theory to all orders_, Commun. Math. Phys. *187** (1997) 261-287 &lbrack;[arXiv:q-alg/9603010](https://arxiv.org/abs/q-alg/9603010), [doi:10.1007/s002200050136](https://doi.org/10.1007/s002200050136)&rbrack;
 
 
-* [[Le Tu Quoc Thang]], [[Jun Murakami]], Tomotada Ohtsuki, _On a universal perturbative invariant of 3-manifolds_, Topology Volume 37, Issue 3, May 1998, Pages 539-574 (<a href="https://doi.org/10.1016/S0040-9383(97)00035-9">https://doi.org/10.1016/S0040-9383(97)00035-9</a>)
+* [[Le Tu Quoc Thang]], [[Jun Murakami]], [[Tomotada Ohtsuki]], _On a universal perturbative invariant of 3-manifolds_, Topology **37** 3 (1998) 539-574 &lbrack;<a href="https://doi.org/10.1016/S0040-9383(97)00035-9">doi:10.1016/S0040-9383(97)00035-9</a>&rbrack;
+
 
 Review:
 
