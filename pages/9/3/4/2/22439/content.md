@@ -107,7 +107,11 @@ On Hamming distance kernels via [[topological quantum computation]]:
 
 * [[Alessandra Di Pierro]], Riccardo Mengoni, Rajagopal Nagarajan, David Windridge: *Hamming Distance Kernelisation via Topological Quantum Computation*, in: *Theory and Practice of Natural Computing. TPNC 2017*, Lecture Notes in Computer Science **10687**, Springer (2017) 269-280 &lbrack;[doi:10.1007/978-3-319-71069-3_21](https://doi.org/10.1007/978-3-319-71069-3_21)&rbrack;
 
+See also
 
+* [[Hông Vân Lê]], _Supervised learning with probabilistic morphisms and kernel mean embeddings_, [arXiv:2305.06348](https://arxiv.org/abs/2305.06348)
+
+>    In this paper I propose a generative model of supervised learning that unifies two approaches to supervised learning, using a concept of a correct loss function. Addressing two measurability problems, which have been ignored in statistical learning theory, I propose to use convergence in outer probability to characterize the consistency of a learning algorithm. Building upon these results, I extend a result due to Cucker-Smale, which addresses the learnability of a regression model, to the setting of a conditional probability estimation problem. Additionally, I present a variant of Vapnik-Stefanyuk's regularization method for solving stochastic ill-posed problems, and using it to prove the generalizability of overparameterized supervised learning models. 
 
 ### In topological machine learning
  {#InTopologicalMachineLearningReferences}
