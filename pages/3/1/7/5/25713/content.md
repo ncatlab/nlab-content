@@ -19,6 +19,10 @@ On an application of [[Magnus expansion]] and [[Chen iterated integral]]s
 * Ilya Chevyrev, Joscha Diehl, [[Kurusch Ebrahimi-Fard]], Nikolas Tapia, _A multiplicative surface signature through
 its Magnus expansion_, [arXiv:2406.16856](https://arxiv.org/pdf/2406.16856)
 
+Iterated sums and [[iterated integral]]s over semirings, where the case of tropical semiring is a central, with applications (including in [[machine learning]]),
+
+* Joscha Diehl, [[Kurusch Ebrahimi-Fard]], Nikolas Tapia, _Tropical time series, iterated-sums signatures, and quasisymmetric functions_, SIAM Journal on Applied Algebra and Geometry __6__:4 (2022) [arxiv:2009.08443](https://arxiv.org/abs/2009.08443) [doi](https://doi.org/10.1137/20M1380041)
+
 ## Related entries
 
 * [[dendriform algebra]]
