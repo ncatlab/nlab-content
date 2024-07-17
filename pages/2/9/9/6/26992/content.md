@@ -1,17 +1,25 @@
+
+
+\tableofcontents
+
+
 ## Idea
 
-The [[Magnus expansion]] is a continuous analogue of the [[Hausdorff series]] in Lie theory. It is a ground of some methods in applying [[Lie theory]] to non-autonomous linear [[differential equation]]s for linear operators.
+The [[Magnus expansion]] is a continuous analogue of the [[Hausdorff series]] in [[Lie theory]]. It is the basis for some methods applying [[Lie theory]] to non-autonomous linear [[differential equations]] for [[linear operators]].
 
 ## Literature
 
-Magnus expansion is proposed in
+The Magnus expansion was proposed in
 
-* [[Wilhelm Magnus]], _On the exponential solution of differential equations for a linear operator_, Commun. Pure Appl. Math. __7__:4 (1954) 649--673
-(1954) [doi](https://doi.org/10.1002/cpa.3160070404)
+* [[Wilhelm Magnus]], _On the exponential solution of differential equations for a linear operator_, Commun. Pure Appl. Math. __7__ 4 (1954) 649-673
+(1954) &lbrack;[doi:10.1002/cpa.3160070404](https://doi.org/10.1002/cpa.3160070404)&rbrack;
 
-A recent survey
+
+Survey:
 
 * S. Blanes, F. Casas, J. A. Oteo, J. Ros, _The Magnus expansion and some of its application_, Physics reports __470__ (2008) 151--238 [doi](https://doi.org/10.1016/j.physrep.2008.11.001)
+
+See also:
 
 * Ilya Chevyrev, Joscha Diehl, [[Kurusch Ebrahimi-Fard]], Nikolas Tapia, _A multiplicative surface signature through
 its Magnus expansion_, [arXiv:2406.16856](https://arxiv.org/pdf/2406.16856)
