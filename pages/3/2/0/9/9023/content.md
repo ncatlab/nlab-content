@@ -1,3 +1,4 @@
+[[!redirects E9]]
 
 
 +-- {: .rightHandSide}
@@ -27,7 +28,7 @@
 
 One of the affine [[Kac-Moody groups]] in the E-series.
 
-* [[E6]], [[E7]],  [[E8]], **E9**, [[E10]], [[E11]], $\cdots$
+* [[E₆]], [[E₇]],  [[E₈]], **E₉**, [[E₁₀]], [[E₁₁]], $\cdots$
 
 ## Properties
 
@@ -51,3 +52,5 @@ $E_9$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] 
 * [[Hermann Nicolai]], [[Henning Samtleben]], _On $K(E_9)$_ ([arXiv:hep-th/0407055](http://arxiv.org/abs/hep-th/0407055))
 
 * {#EHKNT07} [[François Englert]], [[Laurent Houart]], [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An E9 multiplet of BPS states_, JHEP 0705:065 (2007) &lbrack;[arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285)&rbrack;
+
+[[!redirects E9]]
