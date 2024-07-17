@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -17,15 +16,15 @@
 
 ## Idea
 
-A $G_2$-orbifold is a [[Riemannian orbifold]] with [[G2-holonomy]], also called a _Joyce orbifold_.
+A $G_2$-orbifold is a [[Riemannian orbifold]] with [[G₂-holonomy]], also called a _Joyce orbifold_.
 
-This concept is the generalization from [[manifolds]] to [[orbifolds]] of the concept of [[G2-manifolds]].
+This concept is the generalization from [[manifolds]] to [[orbifolds]] of the concept of [[G₂-manifolds]].
 
 for the moment see at _[G2-manifold -- With ADE orbifold structure](G2+manifold#WithADEOrbifoldStructure)_
 
 ## Related concepts
 
-* [[M-theory on G2-manifolds]]
+* [[M-theory on G₂-manifolds]]
 
 
 ## References
@@ -46,10 +45,14 @@ for the moment see at _[G2-manifold -- With ADE orbifold structure](G2+manifold#
 * [[Bobby Acharya]], [[Andreas Braun]], Eirik Eik Svanes, Roberto Valandro,  _Counting Associatives in Compact $G_2$ Orbifolds_ ([arXiv:1812.04008](https://arxiv.org/abs/1812.04008))
 
 
+[[!redirects G2 orbifold]]
+[[!redirects G2-orbifold]]
+[[!redirects G2 orbifolds]]
 [[!redirects G2-orbifolds]]
 
-[[!redirects G2 orbifold]]
-[[!redirects G2 orbifolds]]
+[[!redirects G₂ orbifold]]
+[[!redirects G₂ orbifolds]]
+[[!redirects G₂-orbifolds]]
 
 [[!redirects Joyce orbifold]]
 [[!redirects Joyce orbifolds]]
