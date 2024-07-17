@@ -1,3 +1,4 @@
+
 \tableofcontents
 
 ## Idea
@@ -42,7 +43,7 @@ The optimal sphere packing constant in 8 dimensions is $\frac{\pi^4}{384} \appro
 
 See also:
 
-* Wikipedia, *[E8 lattice](https://en.wikipedia.org/wiki/E8_lattice)*
+* Wikipedia, *[E₈ lattice](https://en.wikipedia.org/wiki/E8_lattice)*
 
 Discussion in relation to [[sphere packing]]:
 
@@ -53,5 +54,6 @@ Review:
 
 * Ursula Whitcher, *Eight-dimensional spheres and the exceptional $E_8$*, AMS MathVoices Feature Column (Sep. 2022) &lbrack;[web](https://mathvoices.ams.org/featurecolumn/2022/09/01/eight-dimensional-spheres-and-the-exceptional-e_8/)&rbrack;
 
-
+[[!redirects E8 lattice]]
 [[!redirects E8-lattice]]
+[[!redirects E₈-lattice]]
