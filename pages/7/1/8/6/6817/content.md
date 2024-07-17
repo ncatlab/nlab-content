@@ -1,3 +1,4 @@
+[[!redirects 2d SCFT]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -72,7 +73,7 @@ Other accounts:
 * [[Yasuyuki Kawahigashi]], _$\mathcal{N} = 2$ Superconformal Field Theory and Operator Algebras_ ([pdf](http://www.rci.rutgers.edu/~yzhuang/math/papers/kawahigashi.pdf))
 
 
-Constructing 2d SCFTs from [[error-correcting codes]] and a hint for a relation to [[tmf]], vaguely in line with the lift of the [[Witten genus]] to the [[string orientation of tmf]]:
+Constructing D=2 SCFTs from [[error-correcting codes]] and a hint for a relation to [[tmf]], vaguely in line with the lift of the [[Witten genus]] to the [[string orientation of tmf]]:
 
 * [[Davide Gaiotto]], [[Theo Johnson-Freyd]], *Holomorphic SCFTs with small index*, Canadian Journal of Mathematics , **74** 2 (2022) 573-601  &lbrack;[arXiv:1811.00589](https://arxiv.org/abs/1811.00589), [doi:10.4153/S0008414X2100002X](https://doi.org/10.4153/S0008414X2100002X)&rbrack;
 
@@ -83,7 +84,7 @@ further on the resulting [[elliptic genera]]:
 
 ### Relation to 2-spectral triples
 
-Discussion of 2d SCFTs as a higher analog of [[spectral triples]] ("[[2-spectral triples]]", see there for more) is  in terms of [[vertex operator algebras]] in
+Discussion of D=2 SCFTs as a higher analog of [[spectral triples]] ("[[2-spectral triples]]", see there for more) is  in terms of [[vertex operator algebras]] in
 
 * {#FroehlichGawedzki93} [[Jürg Fröhlich]], [[Krzysztof Gawędzki]], _Conformal Field Theory and Geometry of Strings_,  extended lecture notes for lecture given at the Mathematical Quantum Theory Conference, Vancouver, Canada, August 4-8 ([arXiv:hep-th/9310187](http://arxiv.org/abs/hep-th/9310187))
 
@@ -108,7 +109,7 @@ and in terms of [[conformal nets]] in
 [[!include elliptic genera as partition functions -- references]]
 
 
-
+[[!redirects 2d SCFT]]
 [[!redirects 2d SCFTs]]
 
 [[!redirects 2d super conformal field theory]]
@@ -116,7 +117,6 @@ and in terms of [[conformal nets]] in
 
 [[!redirects 2d superconformal field theory]]
 [[!redirects 2d superconformal field theories]]
-
 
 [[!redirects 2d super-conformal field theory]]
 [[!redirects 2d super-conformal field theories]]
