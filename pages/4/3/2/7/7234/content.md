@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -61,9 +60,9 @@ $E_6$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] 
 
 * [[exceptional geometry]], [[exceptional generalized geometry]]
 
-* [[G2]], [[F4]],
+* [[G₂]], [[F₄]],
 
-  **E6**, [[E7]],  [[E8]], [[E9]], [[E10]], [[E11]], $\cdots$
+  **E₆**, [[E₇]],  [[E₈]], [[E₉]], [[E₁₀]], [[E₁₁]], $\cdots$
 
 
 ## References
@@ -90,4 +89,6 @@ Cohomological properties are discussed in
 
 See also
 
-* Wikipedia, _[$E_6$](http://en.wikipedia.org/wiki/E6_%28mathematics%29)_
+* Wikipedia, _[E₆](http://en.wikipedia.org/wiki/E6_%28mathematics%29)_
+
+[[!redirects E6]]
