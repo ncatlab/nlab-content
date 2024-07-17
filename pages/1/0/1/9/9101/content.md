@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -33,7 +32,7 @@ The special case of [[higher dimensional Chern-Simons theory]] for [[dimension]]
 
 * [[BF theory]]
 
-* [[semi-holomorphic 4d Chern-Simons theory]]
+* [[semi-holomorphic D=4 Chern-Simons theory]]
 
 ## Related concepts
 
@@ -41,23 +40,23 @@ The special case of [[higher dimensional Chern-Simons theory]] for [[dimension]]
 
 * [[higher dimensional Chern-Simons theory]]
 
-  * [[1d Chern-Simons theory]]
+  * [[D=1 Chern-Simons theory]]
 
-  * [[2d Chern-Simons theory]]
+  * [[D=2 Chern-Simons theory]]
 
-  * [[3d Chern-Simons theory]]
+  * [[D=3 Chern-Simons theory]]
 
-  * **4d Chern-Simons theory**
+  * **D=4 Chern-Simons theory**
 
     * [[4d TQFT]]
 
-  * [[5d Chern-Simons theory]]
+  * [[D=5 Chern-Simons theory]]
 
-  * [[6d Chern-Simons theory]]
+  * [[D=6 Chern-Simons theory]]
 
-  * [[7d Chern-Simons theory]]
+  * [[D=7 Chern-Simons theory]]
 
-  * [[11d Chern-Simons theory]]
+  * [[D=11 Chern-Simons theory]]
 
   * [[infinite-dimensional Chern-Simons theory]]
 
@@ -71,11 +70,9 @@ The special case of [[higher dimensional Chern-Simons theory]] for [[dimension]]
 (...)
 
 
-
-
+[[!redirects D=4 Chern-Simons theories]]
+[[!redirects 4d Chern-Simons theory]]
 [[!redirects 4d Chern-Simons theories]]
 [[!redirects 4-dimensional Chern-Simons theory]]
 [[!redirects 4-dimensional Chern-Simons theories]]
-
-[[!redirects D=4 Chern-Simons theory]]
 
