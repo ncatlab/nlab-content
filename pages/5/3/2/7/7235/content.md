@@ -1,5 +1,3 @@
-[[!redirects E7]]
-[[!redirects E7]]
 
 
 +-- {: .rightHandSide}
