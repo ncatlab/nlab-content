@@ -1,3 +1,5 @@
+[[!redirects E7]]
+[[!redirects E7]]
 
 
 +-- {: .rightHandSide}
@@ -204,9 +206,9 @@ as the [[exceptional tangent bundle]]-structure to the 7-dimensional fiber space
 
 * [[exceptional geometry]], [[exceptional generalized geometry]]
 
-* [[G2]], [[F4]],
+* [[G₂]], [[F₄]],
 
-  [[E6]], **E7**,  [[E8]], [[E9]], [[E10]], [[E11]], $\cdots$
+  [[E₆]], **E₇**,  [[E₈]], [[E₉]], [[E₁₀]], [[E₁₁]], $\cdots$
 
 
 ## References
@@ -277,6 +279,6 @@ Further discussion includes
 
 * {#GLSW} [[Mariana Graña]], [[Jan Louis]], Aaron Sim, [[Daniel Waldram]], section 3.1 of  _$E_{7(7)}$ formulation of $N=2$ backgrounds_ ([arXiv:0904.2333](http://arxiv.org/abs/0904.2333))
 
-
+[[!redirects E7]]
 
  
