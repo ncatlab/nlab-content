@@ -1,3 +1,4 @@
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -41,3 +42,23 @@ The picture becomes more interesting if one goes from topological field theory t
 From the [[differential geometry]] point of view, a relation between de Rham cohomology of a smooth manifold $X$ and $0$-dimensional functorial field theories arises if one moves from topological field theory to $(0|1)$-supersymmetric field theory, see [[Axiomatic field theories and their motivation from topology]].
 
 > It would be interesting to describe a direct connection between the extended and the susy theory; it should parallel the usual Cech-de Rham argument
+
+[[!redirects D=0 TQFTs]]
+[[!redirects D=0 topological field theory]]
+[[!redirects D=0 topological field theories]]
+[[!redirects D=0 topological quantum field theory]]
+[[!redirects D=0 topological quantum field theories]]
+
+[[!redirects 0d TQFT]]
+[[!redirects 0d TQFTs]]
+[[!redirects 0d topological field theory]]
+[[!redirects 0d topological field theories]]
+[[!redirects 0d topological quantum field theory]]
+[[!redirects 0d topological quantum field theories]]
+
+[[!redirects 0-dimensional TQFT]]
+[[!redirects 0-dimensional TQFTs]]
+[[!redirects 0-dimensional topological field theory]]
+[[!redirects 0-dimensional topological field theories]]
+[[!redirects 0-dimensional topological quantum field theory]]
+[[!redirects 0-dimensional topological quantum field theories]]
