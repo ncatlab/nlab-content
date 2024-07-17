@@ -19,6 +19,10 @@ The following treatment of [[information geometry]] (and Fisher metric in partic
 
 * Hông Vân Lê, _Diffeological  statistical  models,the Fisher metric and probabilistic mappings_, Mathematics 2020, 8(2) 167 [arXiv:1912.02090](https://arxiv.org/abs/1912.02090)
 
+* Hông Vân Lê, _Supervised learning with probabilistic morphisms and kernel mean embeddings_, [arXiv:2305.06348](https://arxiv.org/abs/2305.06348)
+
+>    In this paper I propose a generative model of supervised learning that unifies two approaches to supervised learning, using a concept of a correct loss function. Addressing two measurability problems, which have been ignored in statistical learning theory, I propose to use convergence in outer probability to characterize the consistency of a learning algorithm. Building upon these results, I extend a result due to Cucker-Smale, which addresses the learnability of a regression model, to the setting of a conditional probability estimation problem. Additionally, I present a variant of Vapnik-Stefanyuk's regularization method for solving stochastic ill-posed problems, and using it to prove the generalizability of overparameterized supervised learning models. 
+
 category: people
 
 [[!redirects Hong Van Le]]
