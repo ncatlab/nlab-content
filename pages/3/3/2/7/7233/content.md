@@ -17,13 +17,13 @@
 
 ## Idea
 
-A _$G_2$-structure_ on a [[manifold]] $X$ of [[dimension]] 7 is a choice of [[G-structure]] on $X$, for $G$ the [[exceptional Lie group]] [[G2]]. Hence it is a reduction of the [[structure group]] of the [[frame bundle]] of $X$ along the canonical (the defining) inclusion $G_2 \hookrightarrow GL(\mathbb{R}^7)$ into the [[general linear group]].
+A _$G_2$-structure_ on a [[manifold]] $X$ of [[dimension]] 7 is a choice of [[G-structure]] on $X$, for $G$ the [[exceptional Lie group]] [[G₂]]. Hence it is a reduction of the [[structure group]] of the [[frame bundle]] of $X$ along the canonical (the defining) inclusion $G_2 \hookrightarrow GL(\mathbb{R}^7)$ into the [[general linear group]].
 
 Given that $G_2$ is the [[subgroup]] of the [[general linear group]] on the [[Cartesian space]] $\mathbb{R}^7$ which preserves the [[associative 3-form]] on $\mathbb{R}^7$, a $G_2$ structure is a higher analog of an  [[almost symplectic structure]] under lifting from [[symplectic geometry]] to [[2-plectic geometry]] ([Ibort](#Ibort)).
 
-A _$G_2$-manifold_ is a manifold equipped with $G_2$-structure that is [[integrability of G-structures|integrable to first order]], i.e. [[torsion of a G-structure|torsion-free]] (prop. \ref{CovariantlyConstantDefinite3FormMeansTorsionVanishes} below). This is equivalently a [[Riemannian manifold]] of [[dimension]] 7 with [[special holonomy]] group being the [[exceptional Lie group]] [[G2]]. 
+A _$G_2$-manifold_ is a manifold equipped with $G_2$-structure that is [[integrability of G-structures|integrable to first order]], i.e. [[torsion of a G-structure|torsion-free]] (prop. \ref{CovariantlyConstantDefinite3FormMeansTorsionVanishes} below). This is equivalently a [[Riemannian manifold]] of [[dimension]] 7 with [[special holonomy]] group being the [[exceptional Lie group]] [[G₂]]. 
 
-$G_2$-manifolds may be understood as 7-dimensional [[analogs]] of real 6-dimensional [[Calabi-Yau manifolds]]. Accordingly the relation between [[Calabi-Yau manifolds and supersymmetry]] lifts from [[string theory]] to [[M-theory on G2-manifolds]].
+$G_2$-manifolds may be understood as 7-dimensional [[analogs]] of real 6-dimensional [[Calabi-Yau manifolds]]. Accordingly the relation between [[Calabi-Yau manifolds and supersymmetry]] lifts from [[string theory]] to [[M-theory on G₂-manifolds]].
 
 ## Definition
  {#Definition}
@@ -57,7 +57,7 @@ Since the inclusion of $G_2$ into $GL(7)$ factors through [[special orthogonal g
 
 =--
 
-Given the definition of [[G2]] as the [[stabilizer group]] of the [[associative 3-form]] on $\mathbb{R}^7$, there is accordingly an equivalent formulation of def. \ref{G2Structure} in terms of [[differential forms]]:
+Given the definition of [[G₂]] as the [[stabilizer group]] of the [[associative 3-form]] on $\mathbb{R}^7$, there is accordingly an equivalent formulation of def. \ref{G2Structure} in terms of [[differential forms]]:
 
 
 \begin{definition}
@@ -353,11 +353,11 @@ for $\lambda \in \mathbb{R}$. For $\lambda = 0$ this reduces to strict $G_2$-hol
 #### With ADE orbifold structure
  {#WithADEOrbifoldStructure}
 
-When used as [[KK-compactification]]-fibers for [[M-theory on G2-manifolds]], then for quadi-realistic [[string phenomenology|phenomenology]] one needs to consider [[ADE orbifolds]] with "$G_2$-manifold" structure, i.e. [[G2-orbifolds]], also called _Joyce orbifolds_. Moreover, for [[F-theory]] purposes this $G_2$-orbifold is to be a [[fiber bundle|fibration]] by a [[K3 surface]] $X_{K3}$. 
+When used as [[KK-compactification]]-fibers for [[M-theory on G₂-manifolds]], then for quadi-realistic [[string phenomenology|phenomenology]] one needs to consider [[ADE orbifolds]] with "$G_2$-manifold" structure, i.e. [[G₂-orbifolds]], also called _Joyce orbifolds_. Moreover, for [[F-theory]] purposes this $G_2$-orbifold is to be a [[fiber bundle|fibration]] by a [[K3 surface]] $X_{K3}$. 
 
-For instance, the [[Cartesian product]] $X_{K3} \times T^3$ admits a $G_2$-manifold structure. There is a canonical [[special orthogonal group|SO(3)]]-[[action]] on the tangent spaces of $X_{K3} \times T^3$, given on $X_{K3}$ by rotation of the [[hyper-Kähler manifold]]-structure of $X_{K_3}$ and on $T^3$ by the standard rotation. For $K_{ADE}$ a [[finite group|finite]] [[subgroup]] of $SO(3)$, hence a finite group in the  [[ADE classification]], then $(X_{K3}\times T^3)/K_{ADE}$ is a [[G2-orbifold]] ([Acharya 1098, p.3](#Acharya98)). For $K_{ADE}$ _not_ a [[cyclic group]] then this has precisely one [[parallel spinor]].
+For instance, the [[Cartesian product]] $X_{K3} \times T^3$ admits a $G_2$-manifold structure. There is a canonical [[special orthogonal group|SO(3)]]-[[action]] on the tangent spaces of $X_{K3} \times T^3$, given on $X_{K3}$ by rotation of the [[hyper-Kähler manifold]]-structure of $X_{K_3}$ and on $T^3$ by the standard rotation. For $K_{ADE}$ a [[finite group|finite]] [[subgroup]] of $SO(3)$, hence a finite group in the  [[ADE classification]], then $(X_{K3}\times T^3)/K_{ADE}$ is a [[G₂-orbifold]] ([Acharya 1098, p.3](#Acharya98)). For $K_{ADE}$ _not_ a [[cyclic group]] then this has precisely one [[parallel spinor]].
 
-In a local [[coordinate chart]] of $X_{K3}$ by $\mathbb{C}^2$ the orbifold $X_{K3}/K_{ADE}$ locally looks like $\mathbb{C}^2/{G_{ADE}}$, where now $G_{ADE}$ is a [[finite group|finite]] [[subgroup]] of [[special unitary group|SU(2)]]. Such local [[G2-orbifolds]] are discussed in some detail by [Atiyah & Witten 2001](#AtiyahWitten01). Families of examples are constructed in [Reidegeld 2015](#Reidegeld15).
+In a local [[coordinate chart]] of $X_{K3}$ by $\mathbb{C}^2$ the orbifold $X_{K3}/K_{ADE}$ locally looks like $\mathbb{C}^2/{G_{ADE}}$, where now $G_{ADE}$ is a [[finite group|finite]] [[subgroup]] of [[special unitary group|SU(2)]]. Such local [[G₂-orbifolds]] are discussed in some detail by [Atiyah & Witten 2001](#AtiyahWitten01). Families of examples are constructed in [Reidegeld 2015](#Reidegeld15).
 
 Codimension-4 ADE singularities in $G_2$-manifolds are discussed by [Acharya & Gukov 2004, section 5.1](AcharyaGukov04) and [Barrett 2006](#Barrett06).
 
@@ -396,12 +396,12 @@ The canonical [[Riemannian metric]] $G_2$ manifold is [[Ricci tensor|Ricci flat]
 
 ### Metric cones
 
-The [[metric cone over complex projective 3-space]] carries the [[mathematical structure|structure]] of  a [[G2-manifold]] whose [[Riemannian metric]] is [[invariant]] under the canonical [[Sp(2)]] [[action]] by left-[[matrix multiplication]] on homomogeneous coordinates in $\mathbb{H}^2 \simeq_{\mathbb{R}} \mathbb{C}^4 \to \mathbb{C}P^3$ ([Byant-Salamon 89](metric+cone+over+complex+projective+3-space#BryantSalamon89), see also [Acharya-Bryant-Salamon 20](metric+cone+over+complex+projective+3-space#AcharyaBryantSalamon20)).
+The [[metric cone over complex projective 3-space]] carries the [[mathematical structure|structure]] of  a [[G₂-manifold]] whose [[Riemannian metric]] is [[invariant]] under the canonical [[Sp(2)]] [[action]] by left-[[matrix multiplication]] on homomogeneous coordinates in $\mathbb{H}^2 \simeq_{\mathbb{R}} \mathbb{C}^4 \to \mathbb{C}P^3$ ([Byant-Salamon 89](metric+cone+over+complex+projective+3-space#BryantSalamon89), see also [Acharya-Bryant-Salamon 20](metric+cone+over+complex+projective+3-space#AcharyaBryantSalamon20)).
 
 
 ### Resolution of Joyce orbifolds
 
-[[compact topological space|compact]]$\,$[[G2-manifolds]]
+[[compact topological space|compact]]$\,$[[G₂-manifolds]]
 by [[resolution of singularities]] in compact [[flat orbifolds]]
 
 ([Joyce 96](#Joyce96), [Joyce 00](#Joyce00))
@@ -411,7 +411,7 @@ by [[resolution of singularities]] in compact [[flat orbifolds]]
 ### Twisted connected sum construction
  {#TwistedConnectedSumConstruction}
 
-[[compact topological space|compact]] [[G2-manifolds]]
+[[compact topological space|compact]] [[G₂-manifolds]]
 by twisted [[connected sum]]-constructions
 
 ([Kovalev 00](#Kovalev00))
@@ -432,7 +432,7 @@ by twisted [[connected sum]]-constructions
 
 ### In supergravity 
 
-In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from [[Kaluza-Klein mechanism|compactification]] of [[11-dimensional supergravity]]/[[M-theory on G2-manifolds]] (see for instance [Duff](#Duff)) can have attractive [[phenomenology|phenomenological]] properties, see for instance the _[[G2-MSSM]]_. 
+In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from [[Kaluza-Klein mechanism|compactification]] of [[11-dimensional supergravity]]/[[M-theory on G₂-manifolds]] (see for instance [Duff](#Duff)) can have attractive [[phenomenology|phenomenological]] properties, see for instance the _[[G₂-MSSM]]_. 
 
 ## Related concepts
 
@@ -440,11 +440,11 @@ In [[string phenomenology]] [[model (in particle phyiscs)|models]] obtained from
 
 * [[Hitchin functional]]
 
-* [[M-theory on G2-manifolds]], [[G2-MSSM]]
+* [[M-theory on G₂-manifolds]], [[G₂-MSSM]]
 
 * [[topological M-theory]], [[topological membrane]]
 
-* [[generalized G2-manifold]]
+* [[generalized G₂-manifold]]
 
 * [[Calabi-Yau manifold]]
 
@@ -499,7 +499,7 @@ The sufficiency of spin structure for $G_2$-structure is due to:
 
 * {#Gray69} A. Gray, _Vector cross products on manifolds_, Trans. Amer. Math. Soc. 141 (1969), 465&#8211;504. 
 
-and the [[compact twisted connected sum G2-manifolds]] due to:
+and the [[compact twisted connected sum G₂-manifolds]] due to:
 
 * {#Kovalev00} [[Alexei Kovalev]], _Twisted connected sums and special Riemannian holonomy_, J. Reine Angew. Math. 565 (2003) ([arXiv:math/0012189](https://arxiv.org/abs/math/0012189))
 
@@ -507,7 +507,7 @@ Review includes
 
 * {#Kovalev20} [[Alexei Kovalev]], *Constructions of compact $G_2$-holonomy manifolds*, in: *Lectures and Surveys on $G_2$-Manifolds and Related Topics*, Springer (2020) &lbrack;[arXiv:1909.11473](https://arxiv.org/abs/1909.11473), [doi:10.1007/978-1-0716-0577-6_2](https://doi.org/10.1007/978-1-0716-0577-6_2)&rbrack;
 
-and from the point of view of [[M-theory on G2-manifolds]]:
+and from the point of view of [[M-theory on G₂-manifolds]]:
 
 * {#Klemm17} [[Albrecht Klemm]], _Effective Action from M-theory on twisted connected sums_, talk at Ascona Monte Verita, 6 July 2017 ([pdf](http://conf.itp.phys.ethz.ch/string17/talks/Klemm.pdf))
 
@@ -532,7 +532,7 @@ For more see the references at _[[exceptional geometry]]_.
 ### $G_2$-Orbifolds
  {#ReferencesG2Orbifolds}
 
-Discussion of [[G2-orbifolds]] includes
+Discussion of [[G₂-orbifolds]] includes
 
 * {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv.Theor.Math.Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
 
@@ -558,7 +558,7 @@ Discussion of the [[moduli space]] of $G_2$-structures:
 
 * {#GrigorianYau08} [[Sergey Grigorian]], [[Shing-Tung Yau]], _Local geometry of the $G_2$ moduli space_, Commun.Math.Phys.287:459-488,2009 ([arXiv:0802.0723](http://arxiv.org/abs/0802.0723))
 
-* [[Spiro Karigiannis]], [[Naichung Conan Leung]], _Hodge Theory for G2-manifolds: Intermediate Jacobians and Abel-Jacobi maps_, Proceedings of the London Mathematical Society (3) 99, 297-325 (2009) &lbrack;[arXiv:0709.2987](http://arxiv.org/abs/0709.2987), [talk slides pdf](http://www.math.uwaterloo.ca/~karigian/talks/g2modulispace.pdf)&rbrack;
+* [[Spiro Karigiannis]], [[Naichung Conan Leung]], _Hodge Theory for $G_2$-manifolds: Intermediate Jacobians and Abel-Jacobi maps_, Proceedings of the London Mathematical Society (3) 99, 297-325 (2009) &lbrack;[arXiv:0709.2987](http://arxiv.org/abs/0709.2987), [talk slides pdf](http://www.math.uwaterloo.ca/~karigian/talks/g2modulispace.pdf)&rbrack;
 
 Relating to moduli of [[flat connections]] on [[tori]]:
 
@@ -580,12 +580,12 @@ Discussion of $G_2$-structures in view of the existence of [[Killing spinors]] i
 
 ### Application in supergravity
 
-The following references discuss the role of $G_2$-manifolds in [[M-theory on G2-manifolds]]:
+The following references discuss the role of $G_2$-manifolds in [[M-theory on G₂-manifolds]]:
 
-* {#Duff} [[Mike Duff]], _M-theory on manifolds of G2 holonomy: the first twenty years_ ([arXiv:hep-th/0201062](http://arxiv.org/abs/hep-th/0201062))
+* {#Duff} [[Mike Duff]], _M-theory on manifolds of $G_2$ holonomy: the first twenty years_ ([arXiv:hep-th/0201062](http://arxiv.org/abs/hep-th/0201062))
  
 
-A survey of the corresponding [[string phenomenology]] for [[M-theory on G2-manifolds]] (see there for more) is in
+A survey of the corresponding [[string phenomenology]] for [[M-theory on G₂-manifolds]] (see there for more) is in
 
 * [[Bobby Acharya]], _$G_2$-manifolds at the CERN Large Hadron collider and in the Galaxy_, talk at _$G_2$-days_ (2012) ([pdf](http://www.mth.kcl.ac.uk/~tbmadsen/acharya.pdf))
 
@@ -602,17 +602,15 @@ Weak $G_2$-holonomy is discussed in
 
 * {#HouseMicu04} Thomas House, [[Andrei Micu]], _M-theory Compactifications on Manifolds with $G_2$ Structure_ ([arXiv:hep-th/0412006](http://arxiv.org/abs/hep-th/0412006))
 
-For more on this see at _[[M-theory on G2-manifolds]]_
+For more on this see at _[[M-theory on G₂-manifolds]]_
 
 ### Cohomology
 
 An analysis of the [[de Rham complex]] of $G_2$ manifolds, and an analogue of [[Dolbeault cohomology]] is in
 
-* Marisa Fernández, Luis Ugarte. *Dolbeault Cohomology for $G2$-Manifolds*. Geometriae Dedicata 70, 57–86 (1998). ([doi](https://doi.org/10.1023/A:1004940807017))
+* Marisa Fernández, Luis Ugarte. *Dolbeault Cohomology for $G_2$-Manifolds*. Geometriae Dedicata 70, 57–86 (1998). ([doi](https://doi.org/10.1023/A:1004940807017))
 
-
-
-
+[[!redirects G2 manifold]]
 [[!redirects G2 manifolds]]
 [[!redirects G2-manifold]]
 [[!redirects G2-manifolds]]
@@ -637,4 +635,27 @@ An analysis of the [[de Rham complex]] of $G_2$ manifolds, and an analogue of [[
 [[!redirects compact twisted connected sum G2-manifold]]
 [[!redirects compact twisted connected sum G2-manifolds]]
 
+[[!redirects G₂ manifold]]
+[[!redirects G₂ manifolds]]
+[[!redirects G₂-manifold]]
+[[!redirects G₂-manifolds]]
 
+[[!redirects G₂ structure]]
+[[!redirects G₂-structure]]
+[[!redirects G₂ structures]]
+[[!redirects G₂-structures]]
+
+[[!redirects G₂-holonomy]]
+[[!redirects G₂-holonomies]]
+
+[[!redirects weak G₂-holonomy]]
+[[!redirects weak G₂ holonomy]]
+
+[[!redirects twisted connected sum G₂-manifold]]
+[[!redirects twisted connected sum G₂-manifolds]]
+
+[[!redirects compact twisted connected sum G₂-manifold]]
+[[!redirects compact twisted connected sum G₂-manifolds]]
+
+[[!redirects compact twisted connected sum G₂-manifold]]
+[[!redirects compact twisted connected sum G₂-manifolds]]
