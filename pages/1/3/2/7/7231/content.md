@@ -222,17 +222,17 @@ $\,$
 
 +-- {: .num_prop #QuotientOfSpin7ByG2IsS7}
 ###### Proposition
-**([[coset space]] of [[Spin(7)]] by [[G2]] is [[7-sphere]])**
+**([[coset space]] of [[Spin(7)]] by [[G₂]] is [[7-sphere]])**
 
 Consider the canonical [[action]] of [[Spin(7)]] on the [[unit sphere]] in $\mathbb{R}^8$ (the [[7-sphere]]),
 
 1. This action is is [[transitive action|transitive]];
 
-1. the [[stabilizer group]] of any point on $S^7$ is [[G2]];
+1. the [[stabilizer group]] of any point on $S^7$ is [[G₂]];
 
-1. all [[G2]]-subgroups of [[Spin(7)]] arise this way, and are all [[conjugate subgroup|conjugate]] to each other.
+1. all [[G₂]]-subgroups of [[Spin(7)]] arise this way, and are all [[conjugate subgroup|conjugate]] to each other.
 
-Hence the [[coset space]] of [[Spin(7)]] by [[G2]] is the [[7-sphere]]
+Hence the [[coset space]] of [[Spin(7)]] by [[G₂]] is the [[7-sphere]]
 
 $$
   Spin(7)/G_2 \;\simeq\; S^7
@@ -264,13 +264,13 @@ It is shown in Corollary 2.14 of [Moreno (1997)](#Moreno97) that the group of [[
 
 ## Related concepts
 
-* [[G2 manifold]], [[generalized G2-manifold]]
+* [[G₂ manifold]], [[generalized G₂-manifold]]
 
-* [[M-theory on G2-manifolds]], [[G2-MSSM]]
+* [[M-theory on G₂-manifolds]], [[G₂-MSSM]]
 
-* **G2**, [[F4]],
+* **G₂**, [[F₄]],
 
-  [[E6]], [[E7]],  [[E8]], [[E9]], [[E10]], [[E11]], $\cdots$
+  [[E₆]], [[E₇]], [[E₈]], [[E₉]], [[E₁₀]], [[E₁₁]], $\cdots$
 
 
 [[!include special holonomy table]]
@@ -287,7 +287,7 @@ Surveys are in
 
 * [[Simon Salamon]], _A tour of exceptional geometry_, ([pdf](http://calvino.polito.it/~salamon/G/COR/tour.pdf))
 
-* Wikipedia, _[G2](http://en.wikipedia.org/wiki/G2_%28mathematics%29)_ .
+* Wikipedia, _[G₂](http://en.wikipedia.org/wiki/G2_%28mathematics%29)_ .
 
 The definitions are reviewed for instance in 
 
@@ -337,3 +337,4 @@ Discussion of [[Yang-Mills theory]] with $G_2$ as [[gauge group]] is in
 
 * Ernst-Michael Ilgenfritz, Axel Maas, _Topological aspects of $G_2$ Yang-Mills theory_ ([arXiv:1210.5963](http://arxiv.org/abs/1210.5963))
 
+[[!redirects G2]]
