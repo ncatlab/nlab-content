@@ -1,3 +1,4 @@
+[[!redirects 3d quantum gravity]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -40,9 +41,9 @@ One can add additional terms arriving at what is called _massive 3d gravity mode
 
 * [[BTZ black hole]]
 
-* [[3d TQFT]]
+* [[D=3 TQFT]]
 
-* [[3-dimensional supergravity]]
+* [[D=3 supergravity]]
 
 * [[quantum gravity]]
 
@@ -50,7 +51,7 @@ One can add additional terms arriving at what is called _massive 3d gravity mode
 
 * [[Boulatov model]]
 
-* [[2d quantum gravity]]
+* [[D=2 quantum gravity]]
 
 * [[volume conjecture]]
 
