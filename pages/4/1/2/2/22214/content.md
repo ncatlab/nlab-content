@@ -69,6 +69,7 @@ With regards to [[kernel methods]]:
 
 * [[Julien Mairal]], [[Jean-Philippe Vert]], *Machine Learning with Kernel Methods*, 2017 ([pdf](http://members.cbio.mines-paristech.fr/~jvert/svn/kernelcourse/slides/master2017/master2017.pdf), [[MarailVertKernelMethods.pdf:file]])
 
+* Hông Vân Lê, _Supervised learning with probabilistic morphisms and kernel mean embeddings_, [arXiv:2305.06348](https://arxiv.org/abs/2305.06348) 
 
 Proposal for applications of [[category theory]] to machine learning:
 
