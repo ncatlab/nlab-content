@@ -2,6 +2,10 @@
 
 \tableofcontents
 
+\begin{tikzcd}
+t \arrow[r, "\sigma t"] \arrow[d, "t\sigma"'] & stt \arrow[d, "s\mu"] \\
+tst \arrow[r, "\lambda_t"'] & st
+\end{tikzcd}
 
 ### Group completed configuration spaces
  {#GroupCompletedConfigurationSpaces}
