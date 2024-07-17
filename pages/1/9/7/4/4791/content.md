@@ -1,4 +1,4 @@
-
+[[!redirects E8]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -82,9 +82,9 @@ The group $E_8$ plays a role in some exceptional [[differential geometry]]/[[dif
 
 * [[exceptional generalized geometry]], [[supergravity C-field]], [[Hořava-Witten theory]], [[heterotic string theory]]
 
-* [[G2]], [[F4]],
+* [[G₂]], [[F₄]],
 
-  [[E6]], [[E7]],  **E8**, [[E9]], [[E10]], [[E11]], $\cdots$
+  [[E₆]], [[E₇]],  **E₈**, [[E₉]], [[E₁₀]], [[E₁₁]], $\cdots$
 
 
 ## References
@@ -96,7 +96,7 @@ Surveys:
 
 * [[Skip Garibaldi]], _$E_8$, the most exceptional group_ ([arXiv:1605.01721](https://arxiv.org/abs/1605.01721))
 
-* Wikipedia, _[E8](http://en.wikipedia.org/wiki/E8_%28mathematics%29)_
+* Wikipedia, _[E₈](http://en.wikipedia.org/wiki/E8_%28mathematics%29)_
 
 An introductory survey with an eye towards the relation to the [[octonions]] is given in [section 4.6](http://math.ucr.edu/home/baez/octonions/node19.html) of 
 
@@ -131,4 +131,4 @@ On [[string bordism]] of the [[classifying space]] of $E_8$:
 
 * [[Michael Hill]], *The $String$  bordism of $B E_8$ and $B E_8 \times B E_8$ through dimension 14*, Ill. J. Math. **53** 1 (2009) 183-196 &lbrack;[doi:10.1215/ijm/1264170845](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-53/issue-1/The-string-bordism-of-BE_8-and-BE_8times-BE_8-through-dimension/10.1215/ijm/1264170845.full)&rbrack;
 
-
+[[!redirects E8]]
