@@ -24,6 +24,9 @@ In [[knot theory]], an *oriented link* (in particular: *oriented knot*) is a [[l
 
 ## References
 
+* [[Tomotada Ohtsuki]],  pp. 5 in: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
+
+
 * Corinne Cerf: *Atlas of oriented knots and links*, Topology Atlas 31 &lbrack;[web](http://at.yorku.ca/t/a/i/c/31.htm)&rbrack;
 
 [[!redirects oriented links]]
