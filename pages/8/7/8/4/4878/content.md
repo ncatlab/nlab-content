@@ -159,6 +159,9 @@ An immediate consequence of the fact that the sum of the signs of the crossings 
 
 ## References
 
+* [[Tomotada Ohtsuki]], pp 7 in: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
+
+
 * [[Renzo L. Ricca]], Bernardo Nipoti: *Gauss' Linking Number Revisited*, Journal of Knot Theory and Its Ramifications **20** 10 (2011) 1325-1343 &lbrack;[doi:10.1142/S0218216511009261](http://dx.doi.org/10.1142/S0218216511009261), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/ricca.pdf)&rbrack;
 
 * Wikipedia, *[Linking number](https://en.wikipedia.org/wiki/Linking_number)*
