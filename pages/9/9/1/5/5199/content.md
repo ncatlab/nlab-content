@@ -87,6 +87,11 @@ Framings of the [[trefoil knot]]:
 
 ## References
 
+Textbooks:
+
+* [[Tomotada Ohtsuki]], pp. 15 in: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
+
+
 Lecture notes:
 
 * Roland van der Veen: Def. 4 of: *A smooth introduction to knots*, lecture notes (2016) &lbrack;[pdf](https://www.julianlyczak.nl/seminar/knots2016-files/KnotesJan18.pdf), [[vdVeen-SmoothKnots.pdf:file]]&rbrack;
