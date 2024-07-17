@@ -31,6 +31,30 @@
 
 ## Related concepts
 
+* [[supergravity]]
+
+  * [[D=2 supergravity]]
+
+  * [[D=3 supergravity]]
+
+  * [[D=4 supergravity]]
+
+  * [[D=5 supergravity]]
+
+  * **D=6 supergravity**
+
+  * [[D=7 supergravity]]
+
+  * [[D=8 supergravity]]
+
+  * [[D=9 supergravity]]
+
+  * [[D=10 supergravity]]
+
+  * [[D=11 supergravity]]
+
+    * [[D=11 N=1 supergravity]]
+
 * [[D=6 N=(1,0) SCFT]]
 
 * [[D=6 N=(2,0) SCFT]]
