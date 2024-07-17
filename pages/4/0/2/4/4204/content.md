@@ -20,16 +20,16 @@
 
 ## Idea
 
-A _2-dimensional TQFT_ is a [[TQFT|topological quantum field theory]] on [[cobordisms]] of [[dimension]] 2. 
+A _D=2 TQFT_ is a [[TQFT|topological quantum field theory]] on [[cobordisms]] of [[dimension]] 2. 
 
 ## Classification
 
-When formulated as an (only) "globally" as 1-[[functors]] on a 1-[[category of cobordisms]] (see at _[[FQFT]]_ for more), then 2d TQFTs have a comparatively simple classification: the [[bulk field theory]] is determined by a commutative [[Frobenius algebra]] structure on the [[finite dimensional vector space]] assigned to the circle ([Abrams 96](#Abrams96)).
+When formulated as an (only) "globally" as 1-[[functors]] on a 1-[[category of cobordisms]] (see at _[[FQFT]]_ for more), then D=2 TQFTs have a comparatively simple classification: the [[bulk field theory]] is determined by a commutative [[Frobenius algebra]] structure on the [[finite dimensional vector space]] assigned to the circle ([Abrams 96](#Abrams96)).
 
-However, such global 2d TQFTs with [[coefficients]] in [[Vect]] 
-do not capture the 2d TQFTs of most interest in [[quantum field theory]], which instead are "[[cohomological quantum field theories]]" ([Witten 91](#Witten91)) such as the [[topological string]] [[A-model]] and [[B-model]] that participate in [[homological mirror symmetry]].
+However, such global D=2 TQFTs with [[coefficients]] in [[Vect]] 
+do not capture the D=2 TQFTs of most interest in [[quantum field theory]], which instead are "[[cohomological quantum field theories]]" ([Witten 91](#Witten91)) such as the [[topological string]] [[A-model]] and [[B-model]] that participate in [[homological mirror symmetry]].
 
-These richer 2d TQFTs are instead local TQFTs in the sense of _[[extended TQFT]]_, i.e. they are [[(∞,2)-functors]] on a suitable [[(∞,2)-category of cobordisms]] (see at _[[FQFT]]_ for more), typically on "non-compact" 2-d cobordisms, meaning on those that have non-vanishing outgoing bounary. As such they are now classified by [[Calabi-Yau objects]] in an [[symmetric monoidal (infinity,2)-category]] ([Lurie 09, section 4.2](#Lurie09)). For coefficients in the [[(∞,2)-category]] of [[(∞,n)-vector space|(∞,2)-vector space]] (i.e. [[A-∞ algebras]] with [[(∞,1)-bimodules]] between them in the [[(∞,1)-category of chain complexes]]), these theories had been introduced under the name "[[TCFT]]" in ([Getzler 92](#Getzler92), [Segal 99](#Segal99)) following ideas of [[Maxim Kontsevich]], and have been classified in ([Costello 04](#Costello04)), see ([Lurie 09, theorem 4.2.11, theorem 4.2.14](#Lurie09)).
+These richer D=2 TQFTs are instead local TQFTs in the sense of _[[extended TQFT]]_, i.e. they are [[(∞,2)-functors]] on a suitable [[(∞,2)-category of cobordisms]] (see at _[[FQFT]]_ for more), typically on "non-compact" 2-d cobordisms, meaning on those that have non-vanishing outgoing bounary. As such they are now classified by [[Calabi-Yau objects]] in an [[symmetric monoidal (infinity,2)-category]] ([Lurie 09, section 4.2](#Lurie09)). For coefficients in the [[(∞,2)-category]] of [[(∞,n)-vector space|(∞,2)-vector space]] (i.e. [[A-∞ algebras]] with [[(∞,1)-bimodules]] between them in the [[(∞,1)-category of chain complexes]]), these theories had been introduced under the name "[[TCFT]]" in ([Getzler 92](#Getzler92), [Segal 99](#Segal99)) following ideas of [[Maxim Kontsevich]], and have been classified in ([Costello 04](#Costello04)), see ([Lurie 09, theorem 4.2.11, theorem 4.2.14](#Lurie09)).
 
 [[!include 2d TQFT -- table]]
 
@@ -311,9 +311,11 @@ and this is also $k$-connected.
 
 * [[TQFT]]
 
-  * **2d TQFT**
+  * [[D=0 TQFT]]
 
-    * [[2d Chern-Simons theory]]
+  * **D=2 TQFT**
+
+    * [[D=2 Chern-Simons theory]]
 
     * [[TCFT]]
 
@@ -323,21 +325,25 @@ and this is also $k$-connected.
 
     * [[Levin-Wen model]]
 
-  * [[3d TQFT]]
+  * [[D=3 TQFT]]
 
-  * [[4d TQFT]]
+    * [[D=3 Chern-Simons theory]]
+
+  * [[D=4 TQFT]]
+
+    * [[D=4 Chern-Simons theory]]
 
 ## References
 
 ### Global
 
-The [[folklore]] result that global closed 2d TQFTs with coefficients in [[Vect]] are equivalent to commutative [[Frobenius algebra]] structures is proven rigorously in 
+The [[folklore]] result that global closed D=2 TQFTs with coefficients in [[Vect]] are equivalent to commutative [[Frobenius algebra]] structures is proven rigorously in 
 
 * {#Abrams96} [[Lowell Abrams]], *Two-dimensional topological quantum field theories and Frobenius algebra*, Jour. Knot. Theory and its Ramifications **5**, 569-587 (1996) &lbrack;[doi:10.1142/S0218216596000333](https://doi.org/10.1142/S0218216596000333), [ps](http://home.gwu.edu/~labrams/docs/tqft.ps)&rbrack;
 
 
 
-The classification result for open-closed 2d TQFTs was famously announced and sketched in 
+The classification result for open-closed D=2 TQFTs was famously announced and sketched in 
 
 * {#MooreSegal02} [[Greg Moore]], [[Graeme Segal]], _Lectures on branes, K-theory and RR charges, Clay Math Institute Lecture Notes (2002), _ ([web](http://www.physics.rutgers.edu/~gmoore/clay1/clay1.html))
 
@@ -355,7 +361,7 @@ A picture-rich description of what's going on:
 
 ### Local 
 
-The local ([[extended TQFT]]) version of 2d TQFT which captures the [[topological string]] was mathematically introduced under the name "[[TCFT]]". 
+The local ([[extended TQFT]]) version of D=2 TQFT which captures the [[topological string]] was mathematically introduced under the name "[[TCFT]]". 
 
 The concept is essentially a formalization of what used to be called [[cohomological field theory]] in
 
@@ -369,7 +375,7 @@ and
 
 * {#Segal99} [[Graeme Segal]], _Topological field theory_ , (1999), Notes of lectures at Stanford university. ([web](http://www.cgtp.duke.edu/ITP99/segal/)). See in particular [lecture 5](http://www.cgtp.duke.edu/ITP99/segal/stanford/lect5.pdf) ("topological field theory with cochain values").
  
-The classification of [[TCFT]]s (i.e. "non-compact" local ([[extended TQFT|extended]] 2d TQFT)) by [[Calabi-Yau A-infinity categories]] is due to
+The classification of [[TCFT]]s (i.e. "non-compact" local ([[extended TQFT|extended]] D=2 TQFT)) by [[Calabi-Yau A-infinity categories]] is due to
 
 * {#Costello04} [[Kevin Costello]], _Topological conformal field theories and Calabi-Yau categories_ Advances in Mathematics, Volume 210, Issue 1, (2007), ([arXiv:math/0412149](http://arxiv.org/abs/math/0412149))
 
@@ -379,7 +385,7 @@ following conjectures by [[Maxim Kontsevich]], e.g.
 
 * {#Kontsevich95} [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_ , in Proceedings of the International Congress of Mathematicians, Vol. 1, 2 (Z&#252;rich, 1994), pages 120&#8211;139, Basel, 1995, Birkh&#228;user.
 
-The classification of local ([[extended TQFT|extended]]) 2d TQFT (i.e. the "compact" but fully local case) is spelled out in
+The classification of local ([[extended TQFT|extended]]) D=2 TQFT (i.e. the "compact" but fully local case) is spelled out in
 
 * {#SchommerPries11} [[Chris Schommer-Pries]], _The Classification of Two-Dimensional Extended Topological Field Theories_ ([arXiv:1112.1000](http://arxiv.org/abs/1112.1000))
 
@@ -387,16 +393,25 @@ This classification is a precursor of the full [[cobordism hypothesis]]-theorem.
 
 * {#Lurie09} [[Jacob Lurie]], section 4.2 of _[[On the Classification of Topological Field Theories]]_ ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
 
+[[!redirects D=2 TQFTs]]
+[[!redirects D=2 topological field theory]]
+[[!redirects D=2 topological field theories]]
+[[!redirects D=2 topological quantum field theory]]
+[[!redirects D=2 topological quantum field theories]]
+
+[[!redirects 2d TQFT]]
 [[!redirects 2d TQFTs]]
+[[!redirects 2d topological field theory]]
+[[!redirects 2d topological field theories]]
+[[!redirects 2d topological quantum field theory]]
+[[!redirects 2d topological quantum field theories]]
 
 [[!redirects 2-dimensional TQFT]]
 [[!redirects 2-dimensional TQFTs]]
-
-[[!redirects 2d topological field theory]]
-[[!redirects 2d topological field theories]]
-
-[[!redirects 2d topological quantum field theory]]
-[[!redirects 2d topological quantum field theories]]
+[[!redirects 2-dimensional topological field theory]]
+[[!redirects 2-dimensional topological field theories]]
+[[!redirects 2-dimensional topological quantum field theory]]
+[[!redirects 2-dimensional topological quantum field theories]]
 
 
 
