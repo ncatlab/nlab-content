@@ -51,7 +51,7 @@ However, this is *not* the case: $Conf^{\pm}(\mathbb{R}^n) \neq \mathbb{G}Conf(\
 
 Still, the basic idea can be salvaged &lbrack;[Okuyama 2005](#Okuyama05)&rbrack; if only one allows charged points to be replaced by "strings" --- concretely: straight line segments of finite lenght in $\mathbb{R}^n$ each parallel to, say, the first coordinate axis --- with charged endpoints, where pair creation/annihilation of strings smoothens out the corresponding interaction of points, in the familiar way in which interactions in [[string theory]] smoothen out singular [[Feynman diagrams]] (only that here this is not postulated but emerges in order that the resulting moduli space models $\mathbb{G}Conf(\mathbb{R}^n)$):
 
-On the right, if a filled circle is taken to indicate that the corresponding point is part of the interval, while an open circle indicates that it is not, then the curved arrows correspond to continuous paths in the configuration space of intervals, $Conf^I(\mathbb{R}^n)$, according to [Okuyama 2005, Def. 3.1-2](#Okuyama05) --- there denoted $I_n(S^0)$.
+On the right, if a filled circle is taken to indicate that the corresponding point is part of the interval, while an open circle indicates that it is not, then the curved arrows correspond to continuous paths in the configuration space of intervals, $Conf^I(\mathbb{R}^n)$, according to [Okuyama 2005, Def. 3.1-2](#Okuyama05) --- there denoted $I_n(S^0)_{\mathbb{R}}$.
 
 With this stringy resolution of the charged points, the expected equivalence does hold &lbrack;[Okuyama 2005, Thm. 1](#Okuyama05)&rbrack;:
 
@@ -133,7 +133,7 @@ First, the plain loop diagram should have the trivial class in $\pi_1$ of Okuyam
 {#ChargedStringLoopWithTwist} The following loop should have a non-trivial class in $\pi_1\big(Conf^I(\mathbb{R}^2)\big)$:
 
 \begin{imagefromfile}
-    "file_name": "ChargedStringLoopWithTwist-240715.jpg",
+    "file_name": "ChargedStringLoopWithTwist-240717b.jpg",
     "width": 400,
     "unit": "px",
     "margin": {
@@ -144,7 +144,8 @@ First, the plain loop diagram should have the trivial class in $\pi_1$ of Okuyam
     }
 \end{imagefromfile}
 
-This example illustates the key difference between loops in McDuff's configuration space of charged points and loops in Okuyama's configuration spaces of charged strings: The former may essentially be regarded as [[links]], while the latter carry the further [[structure]] of *[[framed links]]*.
+
+This example brings out the key difference between loops in McDuff's configuration space of charged points and loops in Okuyama's configuration spaces of charged strings: The former may essentially be regarded as [[oriented links]], while the latter carry the further [[structure]] of *[[framed links]]*.
 
 As such, the above is the [[unknot]]-[[link]] but equipped with non-vanishing [[framing number]] $+1$.
 
