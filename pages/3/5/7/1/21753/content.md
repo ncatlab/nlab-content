@@ -1,7 +1,7 @@
 
 ### $G_2$-conifolds
 
-On [[G2-conifolds]] ([[G2-manifolds]] with [[conical singularities]]):
+On [[G₂-conifolds]] ([[G₂-manifolds]] with [[conical singularities]]):
 
 Survey:
 
@@ -21,7 +21,7 @@ Three [[simply connected topological space|simply connected]] $G_2$-cones are kn
 
 * [[Gary Gibbons]], [[Don Page]], [[Christopher Pope]], _Einstein metrics on $S^3$, $\mathbb{R}^3$ and $\mathbb{R}^4$ bundles_, Comm. Math. Phys. Volume 127, Number 3 (1990), 529-553 ([euclid:cmp/1104180218](https://projecteuclid.org/euclid.cmp/1104180218))
 
-More on the [[metric cone over complex projective 3-space]] as a [[G2-manifold]]:
+More on the [[metric cone over complex projective 3-space]] as a [[G₂-manifold]]:
 
 * [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], _A circle quotient of a $G_2$ cone_, Differential Geometry and its Applications Volume 73, December 2020, 101681  ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518), [doi:10.1016/j.difgeo.2020.101681](https://doi.org/10.1016/j.difgeo.2020.101681))
 
