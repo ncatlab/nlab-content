@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -21,8 +22,7 @@
 {:toc}
 
 
-
-### Idea
+## Idea
 
 By the general mechanism of [[schreiber:∞-Chern-Simons theory]], every [[invariant polynomial]] of total degree 2 induces a 1-dimensional Chern-Simons-like theory.
 
@@ -70,19 +70,19 @@ This case is discussed in ...
 
 * [[higher dimensional Chern-Simons theory]]
 
-  * **1d Chern-Simons theory**
+  * **D=1 Chern-Simons theory**
 
-  * [[2d Chern-Simons theory]]
+  * [[D=2 Chern-Simons theory]]
 
-  * [[3d Chern-Simons theory]]
+  * [[D=3 Chern-Simons theory]]
 
-  * [[4d Chern-Simons theory]]
+  * [[D=4 Chern-Simons theory]]
 
-  * [[5d Chern-Simons theory]]
+  * [[D=5 Chern-Simons theory]]
 
-  * [[6d Chern-Simons theory]]
+  * [[D=6 Chern-Simons theory]]
 
-  * [[7d Chern-Simons theory]]
+  * [[D=7 Chern-Simons theory]]
 
   * [[AKSZ sigma-models]]
 
@@ -114,7 +114,8 @@ A 1d Chern-Simons theory with target a [[cotangent bundle]] is discussed in
 * [[Ryan Grady]], [[Owen Gwilliam]], _One-dimensional Chern-Simons theory and the $\hat{A}$ genus_ ([arXiv:1110.3533](http://arxiv.org/abs/1110.3533))
   {#GradyGwilliam}
 
-[[!redirects 1-dimensional Chern-Simons theories]]
-
+[[!redirects D=1 Chern-Simons theories]]
 [[!redirects 1d Chern-Simons theory]]
 [[!redirects 1d Chern-Simons theories]]
+[[!redirects 1-dimensional Chern-Simons theory]]
+[[!redirects 1-dimensional Chern-Simons theories]]
