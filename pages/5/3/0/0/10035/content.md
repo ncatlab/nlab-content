@@ -33,7 +33,7 @@ From [[3-modules]] realized as [[sesquialgebra]], [[bialgebras]], [[Hopf algebra
 
 ## Examples
 
-* [[3d Chern-Simons theory]]
+* [[D=3 Chern-Simons theory]]
 
   * [[Dijkgraaf-Witten theory]]
 
@@ -48,17 +48,19 @@ From [[3-modules]] realized as [[sesquialgebra]], [[bialgebras]], [[Hopf algebra
 
 * [[TQFT]]
 
-  * [[2d TQFT]]
+  * [[D=0 TQFT]]
 
-    * [[2d Chern-Simons theory]]
+  * [[D=2 TQFT]]
 
-  * [[3d TQFT]]
+    * [[D=2 Chern-Simons theory]]
 
-    * [[3d Chern-Simons theory]]
+  * **D=3 TQFT**
 
-  * [[4d TQFT]]
+    * [[D=3 Chern-Simons theory]]
 
-    * [[4d Chern-Simons theory]]
+  * [[D=4 TQFT]]
+
+    * [[D=4 Chern-Simons theory]]
 
 ## References
  {#References}
@@ -82,12 +84,24 @@ Constructions in the generality of non-[[semisimple category|semisimple]] [[tens
 
 * Christian Blanchet, Marco De Renzi, _Modular Categories and TQFTs Beyond Semisimplicity_ ([arXiv:2011.12932](https://arxiv.org/abs/2011.12932))
 
+[[!redirects D=3 TQFTs]]
+[[!redirects D=3 topological field theory]]
+[[!redirects D=3 topological field theories]]
+[[!redirects D=3 topological quantum field theory]]
+[[!redirects D=3 topological quantum field theories]]
 
-
-
+[[!redirects 3d TQFT]]
 [[!redirects 3d TQFTs]]
-
 [[!redirects 3d topological field theory]]
 [[!redirects 3d topological field theories]]
+[[!redirects 3d topological quantum field theory]]
+[[!redirects 3d topological quantum field theories]]
+
+[[!redirects 3-dimensional TQFT]]
+[[!redirects 3-dimensional TQFTs]]
+[[!redirects 3-dimensional topological field theory]]
+[[!redirects 3-dimensional topological field theories]]
+[[!redirects 3-dimensional topological quantum field theory]]
+[[!redirects 3-dimensional topological quantum field theories]]
 
 
