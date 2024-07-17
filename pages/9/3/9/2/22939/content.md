@@ -1,10 +1,11 @@
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The **$E_8$ manifold** is the unique [[compact]], [[simply connected]] topological 4-[[manifold]] with [[intersection pairing|intersection form]] the [[E8]] [[lattice in a vector space|lattice]].
+The **$E_8$ manifold** is the unique [[compact]], [[simply connected]] topological 4-[[manifold]] with [[intersection pairing|intersection form]] the [[E₈]] [[lattice in a vector space|lattice]].
 
 The $E_{8}$ manifold has no [[smooth structure]], nor even is [[triangulation theorem|triangulable]] as a [[simplicial complex]].
 
@@ -13,6 +14,10 @@ The $E_{8}$ manifold has no [[smooth structure]], nor even is [[triangulation th
 
 ##References
 
-* [Wikipedia entry](https://en.wikipedia.org/wiki/E8_manifold)
+* Wikipeida, _[E₈ manifold](https://en.wikipedia.org/wiki/E8_manifold)_
 
-* [[Robion Kirby]] and [[Paul Melvin]], _The E8–manifold, singular fibers and handlebody decompositions_, [Geometry & Topology Monographs Volume 2: Proceedings of the Kirbyfest](https://arxiv.org/pdf/math/9911253.pdf), pp. 233 - 258. 
+* [[Robion Kirby]] and [[Paul Melvin]], _The $E_8$–manifold, singular fibers and handlebody decompositions_, [Geometry & Topology Monographs Volume 2: Proceedings of the Kirbyfest](https://arxiv.org/pdf/math/9911253.pdf), pp. 233 - 258.
+
+[[!redirects E8 manifold]]
+[[!redirects E8-manifold]]
+[[!redirects E₈-manifold]]
