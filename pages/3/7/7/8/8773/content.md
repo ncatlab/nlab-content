@@ -38,23 +38,23 @@
 
 * [[higher dimensional Chern-Simons theory]]
 
-  * [[1d Chern-Simons theory]]
+  * [[D=1 Chern-Simons theory]]
 
-  * [[2d Chern-Simons theory]]
+  * [[D=2 Chern-Simons theory]]
   
-  * [[3d Chern-Simons theory]]
+  * [[D=3 Chern-Simons theory]]
 
-  * [[4d Chern-Simons theory]]
+  * [[D=4 Chern-Simons theory]]
 
-  * **5d Chern-Simons theory**
+  * **D=5 Chern-Simons theory**
 
     * [[5d supergravity]]
 
-  * [[6d Chern-Simons theory]]
+  * [[D=6 Chern-Simons theory]]
 
-  * [[7d Chern-Simons theory]]
+  * [[D=7 Chern-Simons theory]]
 
-  * [[11d Chern-Simons theory]]
+  * [[D=11 Chern-Simons theory]]
 
   * [[AKSZ sigma-models]]
 
