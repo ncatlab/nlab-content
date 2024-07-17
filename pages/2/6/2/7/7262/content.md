@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -27,7 +26,7 @@
 
 A hyperbolic [[Kac-Moody Lie algebra]] in the E-series 
 
-... [[E6]], [[E7]], [[E8]], [[E9]], $E_{10}$, [[E11]], ...
+* [[E₆]], [[E₇]], [[E₈]], [[E₉]], **E₁₀**, [[E₁₁]], $\cdots$
 
 ## Properties
 
@@ -56,7 +55,7 @@ The fact that every simply laced hyperbolic Kac-Moody algebra is a sub Lie algeb
 
 Discussion of $E_{10}$ as [[U-duality]] of [[supergravity]]/[[M-theory]]:
 
-The case of [[E10]] is discussed for [[boson|bosonic]] degrees of freedom in 
+The case of [[E₁₀]] is discussed for [[boson|bosonic]] degrees of freedom in 
 
 * [[Thibault Damour]], [[Marc Henneaux]], [[Hermann Nicolai]], _$E(10)$ and a 'small tension expansion' of M
 theory_, Phys. Rev. Lett. 89, 221601 (2002) ([arXiv:hep-th/0207267](http://arxiv.org/abs/hep-th/0207267));
@@ -82,5 +81,6 @@ Discussion of [[phenomenology]]:
 
 * {#MeissnerNicolai18b} Krzysztof A. Meissner, [[Hermann Nicolai]], _Planck Mass Charged Gravitino Dark Matter_, Phys. Rev. D 100, 035001 (2019) ([arXiv:1809.01441](https://arxiv.org/abs/1809.01441))
 
+[[!redirects E10]]
 
 
