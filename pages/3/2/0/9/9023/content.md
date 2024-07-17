@@ -1,4 +1,3 @@
-[[!redirects E9]]
 
 
 +-- {: .rightHandSide}
