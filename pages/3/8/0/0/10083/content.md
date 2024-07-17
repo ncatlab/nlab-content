@@ -20,19 +20,29 @@ The [[U-duality]] group of maximax 8d SuGra is $SL(3,\mathbb{Z})\times SL(2,\mat
 
 * [[supergravity]]
 
-* [[11-dimensional supergravity]]
+  * [[D=2 supergravity]]
+
+  * [[D=3 supergravity]]
+
+  * [[D=4 supergravity]]
+
+  * [[D=5 supergravity]]
+
+  * [[D=6 supergravity]]
+
+  * [[D=7 supergravity]]
+
+  * **D=8 supergravity**
+
+  * [[D=9 supergravity]]
+
+  * [[D=10 supergravity]]
+
+  * [[D=11 supergravity]]
+
+    * [[D=11 N=1 supergravity]]
 
 * 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
-
-* **8-dimensional supergravity**
-
-* [[7-dimensional supergravity]]
-
-* [[5-dimensional supergravity]]
-
-* [[4-dimensional supergravity]]
-
-* [[3-dimensional supergravity]]
 
 ## References
 
