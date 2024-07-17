@@ -33,9 +33,33 @@ The [[U-duality]] group (see there) of maximal 2d SuGra is [[E9]] (its [[split r
 
 ## Related entries
 
+* [[supergravity]]
+
+  * **D=2 supergravity**
+
+  * [[D=3 supergravity]]
+
+  * [[D=4 supergravity]]
+
+  * [[D=5 supergravity]]
+
+  * [[D=6 supergravity]]
+
+  * [[D=7 supergravity]]
+
+  * [[D=8 supergravity]]
+
+  * [[D=9 supergravity]]
+
+  * [[D=10 supergravity]]
+
+  * [[D=11 supergravity]]
+
+    * [[D=11 N=1 supergravity]]
+
 * [[superstring]]
 
-* [[2d SCFT]]
+* [[D=2 SCFT]]
 
 ## References
 
