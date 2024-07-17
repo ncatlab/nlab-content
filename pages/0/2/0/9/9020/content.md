@@ -26,7 +26,7 @@ $$
   G_2 \times G_2 \to SO(7,7)
 $$
 
-of two copies of [[G2]].
+of two copies of [[G₂]].
 
 ## Properties
 
@@ -37,7 +37,7 @@ of two copies of [[G2]].
 
 ## Related concepts
 
-* [[G2-manifold]]
+* [[G₂-manifold]]
 
 * [[exceptional generalized geometry]]
 
@@ -58,17 +58,41 @@ of two copies of [[G2]].
 
 * J. de Boer, P de Medeiros, S El-Showk and A Sinkovics, _$G_2$ Hitchin functionals at one loop_, Class. Quantum Grav. 25 ([web](http://iopscience.iop.org/0264-9381/25/7/075006/))
 
-
+[[!redirects generalized G2 manifolds]]
+[[!redirects generalized G2-manifold]]
 [[!redirects generalized G2-manifolds]]
 
-
+[[!redirects generalised G2 manifold]]
+[[!redirects generalised G2 manifolds]]
 [[!redirects generalised G2-manifold]]
 [[!redirects generalised G2-manifolds]]
 
-
+[[!redirects generalized G2 structure]]
+[[!redirects generalized G2 structures]]
 [[!redirects generalized G2-structure]]
 [[!redirects generalized G2-structures]]
 
+[[!redirects generalised G2 structure]]
+[[!redirects generalised G2 structures]]
 [[!redirects generalised G2-structure]]
 [[!redirects generalised G2-structures]]
+
+[[!redirects generalized G₂ manifolds]]
+[[!redirects generalized G₂-manifold]]
+[[!redirects generalized G₂-manifolds]]
+
+[[!redirects generalised G₂ manifold]]
+[[!redirects generalised G₂ manifolds]]
+[[!redirects generalised G₂-manifold]]
+[[!redirects generalised G₂-manifolds]]
+
+[[!redirects generalized G₂ structure]]
+[[!redirects generalized G₂ structures]]
+[[!redirects generalized G₂-structure]]
+[[!redirects generalized G₂-structures]]
+
+[[!redirects generalised G₂ structure]]
+[[!redirects generalised G₂ structures]]
+[[!redirects generalised G₂-structure]]
+[[!redirects generalised G₂-structures]]
 
