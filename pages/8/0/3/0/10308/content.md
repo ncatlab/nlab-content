@@ -241,8 +241,9 @@ Another approach is
 
 
 [[!redirects quantization of Chern-Simons theory]]
-
+[[!redirects quantization of 3d Chern-Simons theory]]
 [[!redirects perturbative quantization of 3d Chern-Simons theory]]
+[[!redirects perturbative quantization of D=3 Chern-Simons theory]]
 
 
 [[!redirects quantum Chern-Simons theory]]
