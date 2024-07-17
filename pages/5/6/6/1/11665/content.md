@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -29,29 +30,29 @@ $$
   \,.
 $$
 
-This is the direct generalization of $U(1)$-[[3d Chern-Simons theory]] of the abelian [[7d Chern-Simons theory]], and all three are related by [[holography]] to the [[self-dual higher gauge field]] in dimension 2,6, and 10, respectively.
+This is the direct generalization of $U(1)$-[[D=3 Chern-Simons theory]] of the abelian [[D=7 Chern-Simons theory]], and all three are related by [[holography]] to the [[self-dual higher gauge field]] in dimension 2,6, and 10, respectively.
 
-However, for applications in [[string theory]] more refined versions of these theories matter. For instance in 7d  the full [[6d (2,0)-superconformal QFT]] contains not just a single abelian [[higher self-dual gauge field]] and accordingly the corresponding [[7d Chern-Simons theory]] is richer, namely is, by [AdS7/CFT6](#AdS-CFT#AdS7CFT6), the [[KK-compactification]] of [[11-dimensional supergravity]] on $S^4$. Similarly, in 10-dimensions the [[RR-field]] of [[type II superstring theory]] is a [[higher self-dual gauge field]] whose quantization law is of the form that makes it qualify ([Moore-Witten 99](#MooreWitten99)) as the holographic boundary theory of an 11d Chern-Simons theory. However, as a configuration of the [[RR-field]] is a [[cocycle]] in [[twisted differential K-theory]], so there should be an 11d Chern-Simons theory given ([Belov-Moore 06](#BelovMoore06)) by the [[fiber integration in differential cohomology]] of the [[cup product in differential cohomology]] in K-theory.
+However, for applications in [[string theory]] more refined versions of these theories matter. For instance in 7d  the full [[6d (2,0)-superconformal QFT]] contains not just a single abelian [[higher self-dual gauge field]] and accordingly the corresponding [[D=7 Chern-Simons theory]] is richer, namely is, by [AdS7/CFT6](#AdS-CFT#AdS7CFT6), the [[KK-compactification]] of [[11-dimensional supergravity]] on $S^4$. Similarly, in 10-dimensions the [[RR-field]] of [[type II superstring theory]] is a [[higher self-dual gauge field]] whose quantization law is of the form that makes it qualify ([Moore-Witten 99](#MooreWitten99)) as the holographic boundary theory of an D=11 Chern-Simons theory. However, as a configuration of the [[RR-field]] is a [[cocycle]] in [[twisted differential K-theory]], so there should be an D=11 Chern-Simons theory given ([Belov-Moore 06](#BelovMoore06)) by the [[fiber integration in differential cohomology]] of the [[cup product in differential cohomology]] in K-theory.
 
 ## Related concepts
 
-* [[11d supergravity]]
+* [[D=11 supergravity]]
 
 * [[higher dimensional Chern-Simons theory]]
 
-  * [[1d Chern-Simons theory]]
+  * [[D=1 Chern-Simons theory]]
 
-  * [[2d Chern-Simons theory]]
+  * [[D=2 Chern-Simons theory]]
 
-  * [[3d Chern-Simons theory]]
+  * [[D=3 Chern-Simons theory]]
 
-  * [[4d Chern-Simons theory]]
+  * [[D=4 Chern-Simons theory]]
 
-  * [[5d Chern-Simons theory]]
+  * [[D=5 Chern-Simons theory]]
 
-  * [[6d Chern-Simons theory]]
+  * [[D=6 Chern-Simons theory]]
 
-  * [[7d Chern-Simons theory]]
+  * [[D=7 Chern-Simons theory]]
 
 
 
@@ -85,6 +86,8 @@ Review is in
 * {#Szabo12} [[Richard Szabo]], section 3.6 and 4.6 of _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_ ([arXiv:1209.2530](http://arxiv.org/abs/1209.2530))
 
 
-
-
+[[!redirects D=1 Chern-Simons theories]]
 [[!redirects 11d Chern-Simons theory]]
+[[!redirects 11d Chern-Simons theories]]
+[[!redirects 11-dimensional Chern-Simons theory]]
+[[!redirects 11-dimensional Chern-Simons theories]]
