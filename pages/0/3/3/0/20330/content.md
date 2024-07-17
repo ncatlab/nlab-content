@@ -23,7 +23,7 @@
 
 ## Statement
 
-The [[coset space]] of the [[exceptional Lie group]] [[G2]] by its [[special unitary group|special unitary]] [[subgroup]] [[SU(3)]] is [[diffeomorphism|diffeomorphic]] to the [[6-sphere]]:
+The [[coset space]] of the [[exceptional Lie group]] [[G₂]] by its [[special unitary group|special unitary]] [[subgroup]] [[SU(3)]] is [[diffeomorphism|diffeomorphic]] to the [[6-sphere]]:
 
 $$
   G_2/SU(3)
@@ -64,3 +64,4 @@ Review:
 
 * {#ABF17} [[Ilka Agricola]], Aleksandra Borówka, [[Thomas Friedrich]], _$S^6$ and the geometry of nearly Kähler 6-manifolds_ ([arXiv:1707.08591](https://arxiv.org/abs/1707.08591))
 
+[[!redirects G2/SU(3) is the 6-sphere]]
