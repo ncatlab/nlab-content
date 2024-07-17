@@ -14,6 +14,11 @@ On [[Dyson-Schwinger equations]] via [[chord diagrams]]:
 
 * Paul-Hermann Balduf, Amelia Cantwell, [[Kurusch Ebrahimi-Fard]], Lukas Nabergall, Nicholas Olson-Harris, [[Karen Yeats]], *Tubings, chord diagrams, and Dyson-Schwinger equations* \[<a href="https://arxiv.org/abs/2302.02019">arXiv:2302.02019</a>\] 
 
+On an application of [[Magnus expansion]] and [[Chen iterated integral]]s 
+
+* Ilya Chevyrev, Joscha Diehl, [[Kurusch Ebrahimi-Fard]], Nikolas Tapia, _A multiplicative surface signature through
+its Magnus expansion_, [arXiv:2406.16856](https://arxiv.org/pdf/2406.16856)
+
 ## Related entries
 
 * [[dendriform algebra]]
