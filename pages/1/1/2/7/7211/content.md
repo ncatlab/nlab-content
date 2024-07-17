@@ -37,21 +37,37 @@ The ([[U-duality]]-)[[global gauge group]] of maximally [[supersymmetry|supersym
 
 ## Related concepts
 
+* [[supergravity]]
+
+  * [[D=2 supergravity]]
+
+  * **D=3 supergravity**
+
+    * [[M-theory on 8-manifolds]]
+
+    * [[D=3 quantum gravity]]
+
+  * [[D=4 supergravity]]
+
+  * [[D=5 supergravity]]
+
+  * [[D=6 supergravity]]
+
+  * [[D=7 supergravity]]
+
+  * [[D=8 supergravity]]
+
+  * [[D=9 supergravity]]
+
+  * [[D=10 supergravity]]
+
+  * [[D=11 supergravity]]
+
+    * [[D=11 N=1 supergravity]]
+
 * [[11-dimensional supergravity]] 
 
 * 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
-
-* [[7-dimensional supergravity]]
-
-* [[5-dimensional supergravity]]
-
-* [[4-dimensional supergravity]]
-
-* **3-dimensional supergravity**
-
-  * [[M-theory on 8-manifolds]]
-
-  * [[3d quantum gravity]]
 
 * [[ABJM model]]
 
