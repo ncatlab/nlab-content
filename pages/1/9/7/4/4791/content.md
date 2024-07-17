@@ -1,4 +1,3 @@
-[[!redirects E8]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
