@@ -34,12 +34,12 @@ We discuss
 
 1. [7d p2 theory on String 2-connections](#OnString2Connections)
 
-1. [2-species cup-product theory on a G2 manifold](#TwoSpeciesCupProductTheoryOnG2Manifold)
+1. [2-species cup-product theory on a G₂ manifold](#TwoSpeciesCupProductTheoryOnG2Manifold)
 
 ### Abelian theory
  {#AbelianTheory}
 
-A basic 7d [[higher dimensional Chern-Simons theory]] is the abelian theory, whose [[extended Lagrangian]] $\mathbf{L}$ is the [[diagonal]] of the [[cup product in ordinary differential cohomology]] 
+A basic D=7 [[higher dimensional Chern-Simons theory]] is the abelian theory, whose [[extended Lagrangian]] $\mathbf{L}$ is the [[diagonal]] of the [[cup product in ordinary differential cohomology]] 
 
 $$
   \mathbf{L}_{\mathbf{DD}\cup \mathbf{DD}}
@@ -137,7 +137,7 @@ on string 2-connection fields. This is part of the quantum-corrected and flux-qu
 ### Two-species cup-product theory on a $G_2$ manifold
  {#TwoSpeciesCupProductTheoryOnG2Manifold}
 
-For $X$ a [[G2-manifold]] with characteristic [[differential forms]] 
+For $X$ a [[G₂-manifold]] with characteristic [[differential forms]] 
 
 $$
   \omega_3 \in \Omega^3(X)
@@ -210,9 +210,9 @@ $$
 (This is an cup product extended Lagrangian of the kind considered in ([FSSIII](#FSSIII)).)
 
 
-Notice that the prequantization lift to [[differential cohomology]] is entirely demanded by the interpretation of $\omega_4$ as the [[field strength]] of the [[supergravity C-field]] in interpretations of this setup in [[M-theory on G2-manifolds]].
+Notice that the prequantization lift to [[differential cohomology]] is entirely demanded by the interpretation of $\omega_4$ as the [[field strength]] of the [[supergravity C-field]] in interpretations of this setup in [[M-theory on G₂-manifolds]].
 
-Moreover, the above considerations do not really need $X$ to be a [[G2-manifold]] to go through, a manifold with [[weak G2 holonomy]] is just as well, hence equipped with $\phi \in \Omega^3(X)$ such that 
+Moreover, the above considerations do not really need $X$ to be a [[G₂-manifold]] to go through, a manifold with [[weak G₂ holonomy]] is just as well, hence equipped with $\phi \in \Omega^3(X)$ such that 
 
 $$
   \omega_4 = \lambda \star \phi
@@ -241,21 +241,21 @@ This arises from [[Freund-Rubin compactifications]] with [[cosmological constant
 
 * [[higher dimensional Chern-Simons theory]]
 
-  * [[1d Chern-Simons theory]]
+  * [[D=1 Chern-Simons theory]]
 
-  * [[2d Chern-Simons theory]]
+  * [[D=2 Chern-Simons theory]]
 
-  * [[3d Chern-Simons theory]]
+  * [[D=3 Chern-Simons theory]]
 
-  * [[4d Chern-Simons theory]]
+  * [[D=4 Chern-Simons theory]]
 
-  * [[5d Chern-Simons theory]]
+  * [[D=5 Chern-Simons theory]]
 
-  * [[6d Chern-Simons theory]]
+  * [[D=6 Chern-Simons theory]]
 
-  * **7d Chern-Simons theory**
+  * **D=7 Chern-Simons theory**
 
-  * [[11d Chern-Simons theory]]
+  * [[D=11 Chern-Simons theory]]
 
   * [[AKSZ sigma-models]]
 
@@ -263,7 +263,7 @@ This arises from [[Freund-Rubin compactifications]] with [[cosmological constant
 
   * [[infinite-dimensional Chern-Simons theory]]
 
-* [[M-theory on G2-manifolds]], [[topological M-theory]]
+* [[M-theory on G₂-manifolds]], [[topological M-theory]]
 
 * [[Hitchin functional]]
 
@@ -311,7 +311,7 @@ Further discussion of [[extended Lagrangians]] for 7d CS theories is in
 
 ### On $G_2$-manifolds
 
-The Chern-Simons type action functionals $A \mapsto \int_X CS(A) \wedge \omega_4$ on a 7d [[G2-manifold]] $(X, \omega_3)$ was first considered in 
+The Chern-Simons type action functionals $A \mapsto \int_X CS(A) \wedge \omega_4$ on a 7d [[G₂-manifold]] $(X, \omega_3)$ was first considered in 
 
 * [[S. Donaldson]], R. Thomas, _Gauge theory in higher dimensions_ ([pdf](http://www2.imperial.ac.uk/~rpwt/skd.pdf))
  {#DonaldsonThomas}
@@ -342,9 +342,8 @@ Formulation in [[extended TQFT]] is discussed in
 
 * [[Dan Freed]], _[[4-3-2 8-7-6]]_, talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ Dec 2012
 
-
-[[!redirects D=7 Chern-Simons theory]]
-
-[[!redirects 7-dimensional Chern-Simons theory]]
+[[!redirects D=7 Chern-Simons theories]]
+[[!redirects 7d Chern-Simons theory]]
 [[!redirects 7d Chern-Simons theories]]
+[[!redirects 7-dimensional Chern-Simons theory]]
 [[!redirects 7-dimensional Chern-Simons theories]]
