@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -26,7 +25,7 @@
 
 A hyperbolic [[Kac-Moody Lie algebra]] in the E-series 
 
-... [[E6]], [[E7]], [[E8]], [[E9]], [[E10]], $E_{11}$, ...
+* [[E₆]], [[E₇]], [[E₈]], [[E₉]], [[E₁₀]], **E₁₁**, $\ldots$
 
 ## Properties
 
@@ -184,11 +183,12 @@ Relation to [[Borcherds superalgebras]] is discussed in
 * {#Palmkvist12} Jakob Palmkvist, _Tensor hierarchies, Borcherds algebras and $E_{11}$_, JHEP 1202 (2012) 066 ([arXiv:1110.4892](http://arxiv.org/abs/1110.4892))
 
 
-On [[E11]]-[[exceptional field theory]]:
+On [[E₁₁]]-[[exceptional field theory]]:
 
-* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _On supersymmetric E11 exceptional field theory_ ([arXiv:1907.02080](https://arxiv.org/abs/1907.02080))
+* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _On supersymmetric $E_{11}$ exceptional field theory_ ([arXiv:1907.02080](https://arxiv.org/abs/1907.02080))
 
 
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _A master exceptional field theory_ ([arXiv:2103.13411](https://arxiv.org/abs/2103.13411))
 
+[[!redirects E11]]
