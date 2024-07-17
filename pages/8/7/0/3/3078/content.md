@@ -35,7 +35,11 @@ Discussion of [[superalgebra]] as induced from free groupal symmetric monoidal c
 
 * {#Kapranov15b} [[Mikhail Kapranov]], _Super-geometry_, talk at _[New Spaces for Mathematics & Physics](http://ercpqg-espace.sciencesconf.org/program)_, IHP Paris, Oct-Sept 2015 ([video recording](https://www.youtube.com/watch?v=bjsNwKYT8JE))
 
+Towards a noncommutative integral transform:
 
+* [[Mikhail Kapranov]], _Noncommutative geometry and path integrals_, In: Tschinkel, Y., Zarhin, Y. (eds) Algebra, Arithmetic, and Geometry. Progress in Mathematics __270__ (2009) [doi](https://doi.org/10.1007/978-0-8176-4747-6_3) arXiv:[math.QA/0612411](https://arxiv.org/abs/math/0612411)
+* [[Mikhail Kapranov]], _Free Lie algebroids and the space of paths_, Sel. math., New ser. 13, 277 (2007) [doi](https://doi.org/10.1007/s00029-007-0041-9) arXiv:[math:AG/0702584](https://arxiv.org/abs/math/0702584)
+* [[Mikhail Kapranov]], _Membranes and higher groupoids_, [arXiv:1502.06166](https://arxiv.org/abs/1502.06166)
 
 ## Related entries
 
