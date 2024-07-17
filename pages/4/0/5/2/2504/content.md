@@ -1,4 +1,3 @@
-[[!redirects supergravity Lie 3-algebra]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -219,7 +218,7 @@ See [[D'Auria-Fre formulation of supergravity]].
 
 [[supergravity Lie 6-algebra]] $\to$ **supergravity Lie 3-algebra** $\to$ [[super Poincaré Lie algebra]]
 
-* [[4d supergravity Lie 2-algebra]]
+* [[D=4 supergravity Lie 2-algebra]]
 
 * [[extended supersymmetry]]
 
@@ -276,5 +275,7 @@ A similar argument with more explicit use of the Lie 3-algebra as underlying the
 
 * [[Dmitri Sorokin]], [[Paul Townsend]], _M-theory superalgebra from the M-5-brane_, Phys. Lett. B **412** (1997) 265-273 &lbrack;[arXiv:hep-th/9708003](http://arxiv.org/abs/hep-th/9708003)&rbrack;
 
+[[!redirects 11d supergravity Lie 3-algebra]]
+[[!redirects supergravity Lie 3-algebra]]
 [[!redirects m2brane]]
 
