@@ -25,11 +25,11 @@
 
 ## Idea
 
-The [[Kaluza-Klein reduction]] of [[11-dimensional supergravity]] on [[G2 manifolds]] (notably [[Freund-Rubin compactifications]] and variants) yields an [[effective field theory|effective]] $N=1$ [[4-dimensional supergravity]] with [[gauge fields]] (arising from the KK-modes of the [[graviton]]) and charged [[fermions]] (arising from the KK-models of the [[gravitino]]). This construction is thought to lift to [[M-theory]] as the analog of the KK-compactification of [[heterotic string theory]] on [[Calabi-Yau manifolds]] (see at _[[string phenomenology]]_), and of [[F-theory on CY4-manifolds]].
+The [[Kaluza-Klein reduction]] of [[11-dimensional supergravity]] on [[G₂ manifolds]] (notably [[Freund-Rubin compactifications]] and variants) yields an [[effective field theory|effective]] $N=1$ [[4-dimensional supergravity]] with [[gauge fields]] (arising from the KK-modes of the [[graviton]]) and charged [[fermions]] (arising from the KK-models of the [[gravitino]]). This construction is thought to lift to [[M-theory]] as the analog of the KK-compactification of [[heterotic string theory]] on [[Calabi-Yau manifolds]] (see at _[[string phenomenology]]_), and of [[F-theory on CY4-manifolds]].
 
 [[!include N=1 susy compactifications -- table]]
 
-In order for this to yield [[phenomenology|phenomenologically]] interesting effective physics the compactification space must be a [[G2-orbifold]] (hence a [[Riemannian orbifold]] of [[special holonomy]]), its [[stabilizer groups]] will encode the [[nonabelian group|nonabelian]] [[gauge group]] of the effective theory by "[[geometric engineering of quantum field theory]]" ([Acharya 98](#Acharya98), [Atiyah-Witten 01, section 6](#AtiyahWitten01)), see [below](#EnhancedGaugeGroups). Specifically for discussion of [[string phenomenology]] obtaining or approximating the [[standard model of particle physics]] by this procedure see at _[[G2-MSSM]]_.
+In order for this to yield [[phenomenology|phenomenologically]] interesting effective physics the compactification space must be a [[G₂-orbifold]] (hence a [[Riemannian orbifold]] of [[special holonomy]]), its [[stabilizer groups]] will encode the [[nonabelian group|nonabelian]] [[gauge group]] of the effective theory by "[[geometric engineering of quantum field theory]]" ([Acharya 98](#Acharya98), [Atiyah-Witten 01, section 6](#AtiyahWitten01)), see [below](#EnhancedGaugeGroups). Specifically for discussion of [[string phenomenology]] obtaining or approximating the [[standard model of particle physics]] by this procedure see at _[[G₂-MSSM]]_.
 
 
 ## Details
@@ -38,7 +38,7 @@ In order for this to yield [[phenomenology|phenomenologically]] interesting effe
 ### Vacuum solutions
  {#VacuumSolutionsAndTorsion}
 
-Genuine [[G2-manifold]]/[[orbifold]] fibers, these having vanishing [[Ricci curvature]], correspond to [[vacuum]] solutions of the [[Einstein equations]] of [[11d supergravity]], i.e. with vanishing [[field strength]] of the [[gravitino]] and the [[supergravity C-field]] (see e.g. [Acharya 02, p. 9](#Acharya02)).
+Genuine [[G₂-manifold]]/[[orbifold]] fibers, these having vanishing [[Ricci curvature]], correspond to [[vacuum]] solutions of the [[Einstein equations]] of [[11d supergravity]], i.e. with vanishing [[field strength]] of the [[gravitino]] and the [[supergravity C-field]] (see e.g. [Acharya 02, p. 9](#Acharya02)).
 (If one includes non-vanishing $C$-field strength one finds "weak $G_2$-holonomy" instead, see [below](#TheCField)).
 
 Notice that vanishing [[gravitino]] [[field strength]] (i.e. [[covariant derivative]]) means that the [[torsion of a Cartan connection|torsion]] of the super-[[vielbein]] is in each [[tangent space]] the canonical torsion of the [[super Minkowski spacetime]]. This [[supergravity torsion constraint|torsion constraint]] already just for the bosonic part $(E^a)$ of the super-vielbein $(E^a, E^\alpha)$ implies (together with the [[Bianchi identities]]) the [[equations of motion]] of supergravity, hence here the vacuum [[Einstein equations]] in the 11d [[spacetime]]. 
@@ -60,7 +60,7 @@ Notice that restricted to [[associative submanifolds]] this combination becomes 
 ### Nonabelian gauge groups and chiral fermions at orbifold singularities
  {#EnhancedGaugeGroups}
 
-The [[KK-compactification]] of vacuum [[11-dimensional supergravity]] on a _[[smooth manifold|smooth]]_ [[G2-manifold]] $Y$ results in a [[effective field theory|effective]] [[N=1 D=4 super Yang-Mills theory]] with [[abelian group|abelian]] [[gauge group]] $U(1)^{b_2(Y)}$ and with $b_3(Y)$ [[complex scalar fields]] which are neutral (not charged) under this gauge group (with $b_\bullet(Y)$ the [[Betti numbers]] of $Y$) (e.g. [Acharya 02, section 2.3](#Acharya02)). This is of course unsuitable for [[phenomenology]].
+The [[KK-compactification]] of vacuum [[11-dimensional supergravity]] on a _[[smooth manifold|smooth]]_ [[G₂-manifold]] $Y$ results in a [[effective field theory|effective]] [[N=1 D=4 super Yang-Mills theory]] with [[abelian group|abelian]] [[gauge group]] $U(1)^{b_2(Y)}$ and with $b_3(Y)$ [[complex scalar fields]] which are neutral (not charged) under this gauge group (with $b_\bullet(Y)$ the [[Betti numbers]] of $Y$) (e.g. [Acharya 02, section 2.3](#Acharya02)). This is of course unsuitable for [[phenomenology]].
 
 
 But when $Y$ is a $G_2$-[[orbifold]] then: 
@@ -103,7 +103,7 @@ e.g. ([Acharya-Spence 00](#AcharyaSpence00)) see the Introduction of ([Beasley-W
 $\,$
 
 
-In compactifications with [[weak G2 holonomy]] it is the defining 4-form $\phi_4$ (the one which for strict [[G2 manifolds]] is the [[Hodge star operator|Hodge dual]] of the [[associative 3-form]]) which is the [[flux]]/[[field strength]] of the [[supergravity C-field]]. See for instance ([Bilal-Serendinger-Sfetos 02, section 6](#BilalDerendingerSfetos)):
+In compactifications with [[weak G₂ holonomy]] it is the defining 4-form $\phi_4$ (the one which for strict [[G₂ manifolds]] is the [[Hodge star operator|Hodge dual]] of the [[associative 3-form]]) which is the [[flux]]/[[field strength]] of the [[supergravity C-field]]. See for instance ([Bilal-Serendinger-Sfetos 02, section 6](#BilalDerendingerSfetos)):
 
 Consider a [[KK-compactification]]-Ansatz $X_{11} = (X_4,g_4) \times (X_7,g_7)$ and
 
@@ -130,14 +130,14 @@ $$
   = 0
 $$
 
-for $\phi = e_7^\ast \phi_3$ the pullback of the [[associative 3-form]] ([BSS 02, (5.5)](#BilalDerendingerSfetos)), saying that $\phi \propto \star F_7$ exhibits [weak G2-holonomy](G2+manifold#WeakG2Holonomy) with weakness parameter given by the component of the  [[C-field]] on $X_4$.
+for $\phi = e_7^\ast \phi_3$ the pullback of the [[associative 3-form]] ([BSS 02, (5.5)](#BilalDerendingerSfetos)), saying that $\phi \propto \star F_7$ exhibits [weak G₂-holonomy](G2+manifold#WeakG2Holonomy) with weakness parameter given by the component of the  [[C-field]] on $X_4$.
 
 ### Confinement?
  {#Confinement}
 
-An idea for a strategy towards a proof of [[confinement]] in [[N=1 D=4 super Yang-Mills theory]] via two different but conjecturally equivalent realizations as [[M-theory on G2-manifolds]] has been given in [Atiyah-Witten 01, section 6](#AtiyahWitten01), review is in [Acharya-Gukov 04, section 5.3](#AcharyaGukov04).
+An idea for a strategy towards a proof of [[confinement]] in [[N=1 D=4 super Yang-Mills theory]] via two different but conjecturally equivalent realizations as [[M-theory on G₂-manifolds]] has been given in [Atiyah-Witten 01, section 6](#AtiyahWitten01), review is in [Acharya-Gukov 04, section 5.3](#AcharyaGukov04).
 
-The idea here is to consider a [[KK-compactification]] of [[M-theory]] on [[fibers]] which are [[G2-manifolds]] that locally around a special point 
+The idea here is to consider a [[KK-compactification]] of [[M-theory]] on [[fibers]] which are [[G₂-manifolds]] that locally around a special point 
 are of the form
 
 $$
@@ -160,7 +160,7 @@ where
 
 This means that $X_{1,\Gamma}$ is a [[smooth manifold]], but $X_{2,\Gamma}$, as soon as $\Gamma$ is not the [[trivial group]], $\Gamma \neq 1$, is an [[orbifold]] with an [[ADE singularity]].
 
-Now the lore of [[M-theory on G2-manifolds]] predicts that [[KK-compactification]]
+Now the lore of [[M-theory on G₂-manifolds]] predicts that [[KK-compactification]]
 
 1.  on $X_{1,\Gamma}$ yields a 4d theory without massless fields (since there are no massless modes on the [[covering space]] $S^3$ of $X_{1,\Gamma}$)
 
@@ -170,7 +170,7 @@ both of these [[duality in string theory|dual]] by thinking of them in two diffe
 
 So in the first case a [[mass gap]] is manifest, while non-abelian gauge theory is not visible, while in the second case it is the other way around.
 
-But if there were an argument that [[M-theory on G2-manifolds]] is in fact equivalent for compactification both on $X_{1,\Gamma}$ and on $X_{2,\Gamma}$. To the extent that this is true, it looks like an argument that could demonstrate confinement in non-abelian 4d gauge theory.
+But if there were an argument that [[M-theory on G₂-manifolds]] is in fact equivalent for compactification both on $X_{1,\Gamma}$ and on $X_{2,\Gamma}$. To the extent that this is true, it looks like an argument that could demonstrate confinement in non-abelian 4d gauge theory.
 
 This approach is suggested in [Atiyah-Witten 01, pages 84-85](#AtiyahWitten01). An argument that this equivalence is indeed the case is then provided in sections 6.1-6.4, based on an argument in [Atiyah-Maldacena-Vafa 00](#AtiyahMaldacenaVafa00).
 
@@ -182,11 +182,11 @@ relation to [[intersecting D-brane models]]: see [there](intersecting+D-brane+mo
 
 ## Related concepts
 
-* [[G2]]
+* [[G₂]]
 
-* [[G2 manifold]], [[generalized G2-manifold]]
+* [[G₂ manifold]], [[generalized G₂-manifold]]
 
-* [[G2-MSSM]]
+* [[G₂-MSSM]]
 
 * [[Freund-Rubin compactification]]
 
@@ -203,7 +203,7 @@ relation to [[intersecting D-brane models]]: see [there](intersecting+D-brane+mo
 
 ### General
 
-The first discussion of [[KK-compactification]] of [[11d supergravity]] on  [[fibers]] with [[G2-holonomy]] is due to:
+The first discussion of [[KK-compactification]] of [[11d supergravity]] on  [[fibers]] with [[G₂-holonomy]] is due to:
 
 * {#AwadaDuffPope83} [[Moustafa A. Awada]], [[Mike Duff]], [[Christopher Pope]], _$N=8$ Supergravity Breaks Down to $N=1$_, Phys. Rev. Lett. **50** 5 (1983) 294  &lbrack;[doi:10.1103/PhysRevLett.50.294](https://doi.org/10.1103/PhysRevLett.50.294)&rbrack;
 
@@ -219,7 +219,7 @@ More generally, the [[KK-compactification]] of [[11d supergravity]] of [[fibers]
 
 * [[George Papadopoulos]], [[Paul Townsend]], _Compactification of D=11 supergravity on spaces of exceptional holonomy_, Phys. Lett. B357:300-306,1995 ([arXiv:hep-th/9506150](http://arxiv.org/abs/hep-th/9506150))
 
-Dedicated [[string phenomenology]] for the case of compactification on [[G2-manifolds]] (or rather [[orbifolds]]) goes back to:
+Dedicated [[string phenomenology]] for the case of compactification on [[G₂-manifolds]] (or rather [[orbifolds]]) goes back to:
 
 * {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv. Theor. Math. Phys. **3** (1999) 227-248 &lbrack;[arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205)&rbrack;
 
@@ -256,7 +256,7 @@ See also:
 
 * {#Sen97} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
 
-* [[Mirjam Cvetic]], [[Gary Gibbons]], H. L&#252;  and [[Christopher Pope]], _Supersymmetric M3-branes and G2 Manifolds_ ([pdf](http://cdsweb.cern.ch/record/503160/files/0106026.pdf))
+* [[Mirjam Cvetic]], [[Gary Gibbons]], H. L&#252;  and [[Christopher Pope]], _Supersymmetric M3-branes and $G_2$ Manifolds_ ([pdf](http://cdsweb.cern.ch/record/503160/files/0106026.pdf))
 
 * {#AcharyaDenefHofmanLambert03} [[Bobby Acharya]], F. Denef, C. Hofman, [[Neil Lambert]], _Freund-Rubin Revisited_ ([arXiv:hep-th/0308046](http://arxiv.org/abs/hep-th/0308046))
 
@@ -273,7 +273,7 @@ High Energ. Phys. **2013** 205 (2013)
 
 * [[Neil Lambert]], Miles Owen, _Charged Chiral Fermions from M5-Branes_ ([arXiv:1802.07766](https://arxiv.org/abs/1802.07766))
 
-* {#BCHS19} [[Andreas Braun]], Sebastjan Cizel, Max Hubner, [[Sakura Schafer-Nameki]], _Higgs Bundles for M-theory on G2-Manifolds_ ([arXiv:1812.06072](https://arxiv.org/abs/1812.06072))
+* {#BCHS19} [[Andreas Braun]], Sebastjan Cizel, Max Hubner, [[Sakura Schafer-Nameki]], _Higgs Bundles for M-theory on $G_2$-Manifolds_ ([arXiv:1812.06072](https://arxiv.org/abs/1812.06072))
 
 * Max Hubner, _Local $G_2$-Manifolds, Higgs Bundles and a Colored Quantum Mechanics_ ([arXiv:2009.07136](https://arxiv.org/abs/2009.07136))
 
@@ -283,7 +283,7 @@ Discussion in relation to the [[duality between M-theory and heterotic string th
 
 
 
-Discussion of [[Freund-Rubin compactification]] on $\mathbb{R}^4 \times X_7$ "with flux", hence non-vanishing [[supergravity C-field]] and how they preserve one supersymmetry if $X_7$ is of [[weak G2 holonomy]] with $\lambda$ = [[cosmological constant]] = C-[[field strength]] on $\mathbb{R}^4$ is in:
+Discussion of [[Freund-Rubin compactification]] on $\mathbb{R}^4 \times X_7$ "with flux", hence non-vanishing [[supergravity C-field]] and how they preserve one supersymmetry if $X_7$ is of [[weak G₂ holonomy]] with $\lambda$ = [[cosmological constant]] = C-[[field strength]] on $\mathbb{R}^4$ is in:
 
 * {#BilalDerendingerSfetos} [[Adel Bilal]], J.-P. Derendinger, K. Sfetsos, _(Weak) $G_2$ Holonomy from Self-duality, Flux and Supersymmetry_, Nucl.Phys. B628 (2002) 112-132 ([arXiv:hep-th/0111274](http://arxiv.org/abs/hep-th/0111274))
  
@@ -296,7 +296,7 @@ Further discussion of [[membrane instantons]] in this context includes
 
 Survey and further discussion includes
 
-* [[Michael Duff]], _M-theory on manifolds of G2 holonomy: the first twenty years_ ([arXiv:hep-th/0201062](http://arxiv.org/abs/hep-th/0201062))
+* [[Michael Duff]], _M-theory on manifolds of $G_2$ holonomy: the first twenty years_ ([arXiv:hep-th/0201062](http://arxiv.org/abs/hep-th/0201062))
 
 
 * [[Sergei Gukov]], _M-theory on manifolds with exceptional holonomy_, Fortschr. Phys. 51 (2003), 719&#8211;731 ([pdf](http://research.physics.unc.edu/string/gukov.pdf))
@@ -346,7 +346,7 @@ The [[moduli space]] is discussed in
 ### Phenomenology
  {#ReferencesPhenomenology}
 
-Popular exposition of the [[G2-MSSM]] [[phenomenology]]:
+Popular exposition of the [[G₂-MSSM]] [[phenomenology]]:
 
 * {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
 
@@ -373,7 +373,7 @@ and [[moduli stabilization]] for fluxless compactifications via [[nonperturbativ
 
 * {#AcharyaKumarBobbkovKaneShaoWatson08} [[Bobby Acharya]], [[Piyush Kumar]], Konstantin Bobkov, [[Gordon Kane]], Jing Shao, Scott Watson, _Non-thermal Dark Matter and the Moduli Problem in String Frameworks_,JHEP 0806:064,2008 ([arXiv:0804.0863](http://arxiv.org/abs/0804.0863))
 
-and specifically for the [[G2-MSSM]] in
+and specifically for the [[G₂-MSSM]] in
 
 * [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Jing Shao, _The $G_2$-MSSM - An $M$ Theory motivated model of Particle Physics_ ([arXiv:0801.0478](http://arxiv.org/abs/0801.0478))
 
@@ -391,13 +391,13 @@ and realization of [[GUTs]] in
 
 * [[Bobby Acharya]], Krzysztof Bozek, Miguel Crispim Romao, Stephen F. King, Chakrit Pongkitivanichkul, _$SO(10)$ Grand Unification in M theory on a $G_2$ manifold_ ([arXiv:1502.01727](http://arxiv.org/abs/1502.01727))
 
-The phenomenology of compactifications on [[compact twisted connected sum G2-manifolds]] ([Kovalev 00](G2+manifold#Kovalev00)) is in
+The phenomenology of compactifications on [[compact twisted connected sum G₂-manifolds]] ([Kovalev 00](G2+manifold#Kovalev00)) is in
 
 * {#GHKY17} Thaisa C. da C. Guio, [[Hans Jockers]], [[Albrecht Klemm]], Hung-Yu Yeh, _Effective action from M-theory on twisted connected sum $G_2$-manifolds_ ([arXiv:1702.05435](https://arxiv.org/abs/1702.05435), [talk video](https://lecture2go.uni-hamburg.de/l2go/-/get/v/21906)) 
 
 Discussion of the [[cosmological constant]] in these models includes
 
-* Beatriz de Carlos, Andre Lukas, Stephen Morris, _Non-perturbative vacua for M-theory on G2 manifolds_, JHEP 0412:018, 2004 ([arxiv:hep-th/0409255](https://arxiv.org/abs/hep-th/0409255))
+* Beatriz de Carlos, Andre Lukas, Stephen Morris, _Non-perturbative vacua for M-theory on $G_2$ manifolds_, JHEP 0412:018, 2004 ([arxiv:hep-th/0409255](https://arxiv.org/abs/hep-th/0409255))
 
 which concludes that with taking [[non-perturbative effects]] from [[membrane instantons]] into account one gets 4d vacua with vanishing and negative [[cosmological constant]] ([[Minkowski spacetime]] and [[anti-de Sitter spacetime]]) but not with positive [[cosmological constant]] ([[de Sitter spacetime]]). They close by speculating that [[M5-brane]] 
 instantons might yield [[de Sitter spacetime]].
@@ -417,13 +417,15 @@ Discussion of [[Yukawa couplings]] among 3 [[generations of fundamental fermions
 
 On [[neutrino]] masses:
 
-* Eric Gonzalez, [[Gordon Kane]], Khoa Nguyen, *Neutrino mass matrices from localization in M-theory on G2 orbifold* ([arXiv:2107.12893](https://arxiv.org/abs/2107.12893))
+* Eric Gonzalez, [[Gordon Kane]], Khoa Nguyen, *Neutrino mass matrices from localization in M-theory on $G_2$ orbifold* ([arXiv:2107.12893](https://arxiv.org/abs/2107.12893))
 
 
 
 
 
 
-
- 
+[[!redirects M-theory on G2 manifolds]]
+[[!redirects M-theory on G2-manifolds]]
+[[!redirects M-theory on G₂ manifolds]]
 [[!redirects G2 compactifications of M-theory]]
+[[!redirects G₂ compactifications of M-theory]]
