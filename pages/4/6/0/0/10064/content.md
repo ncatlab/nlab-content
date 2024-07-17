@@ -60,7 +60,7 @@ A relation to [[algebraic cycles]] is discussed in
 
 Chen iterated integrals in the context of stochastic analysis
 
-* Terry J. Lyons,_ Differential equations driven by rough signals_, Rev. Mat. Iberoamericana __14__(2):215--310, 1998 [pdf](https://ems.press/content/serial-article-files/37943)
+* Terry J. Lyons, *Differential equations driven by rough signals*, Rev. Mat. Iberoamericana __14__ 2 (1998) 215-310 &lbrack;[pdf](https://ems.press/content/serial-article-files/37943)&rbrack;
 
 [[!redirects iterated integral]]
 [[!redirects iterated integrals]]
