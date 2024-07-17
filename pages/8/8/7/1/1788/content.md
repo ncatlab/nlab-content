@@ -1,6 +1,6 @@
 
 
-\tableofcontents
+
 [[monad#BicategoryOfMonads|test]]
 \begin{tikzcd}
 	sss & sst & stt && s & sst & sts & s \\
@@ -21,6 +21,14 @@
 	\arrow["{\nu t}"', from=3-1, to=3-2]
 	\arrow["{s\mu}"', from=3-2, to=3-3]
 \end{tikzcd}
+
+\linebreak
+\linebreak
+
+***
+
+\tableofcontents
+
 
 ### Group completed configuration spaces
  {#GroupCompletedConfigurationSpaces}
@@ -120,7 +128,7 @@ where the first [[isomorphism]] is by Okuyama's theorem (eq:OkuyamaTheorem), the
 
 Hence we ask which loop diagram of charged strings corresponds to the Hopf fibration, under this sequences of isomorphisms.
 
-In the following analysis we consider continuous paths *of* continuous paths of configurations of charged strings -- hence continuous maps $[0,1]^2 \to Conf^I(\mathbb{R}^2)$, such as the following
+{#Merger} In the following analysis we consider continuous paths *of* continuous paths of configurations of charged strings -- hence continuous maps $[0,1]^2 \to Conf^I(\mathbb{R}^2)$, such as the following
 
 \begin{imagefromfile}
     "file_name": "ChargedStringyMerge-240716.jpg",
@@ -184,6 +192,20 @@ As such, the above is the [[unknot]]-[[link]] but equipped with non-vanishing [[
 \end{imagefromfile}
 
 In fact, by applying the same move on the left, this shows that the Hopf link represents twice the class of the previous example in $\pi_1\big(Conf^I(\mathbb{R}^2)\big)$.
+
+{#ChargedStringOppositeHopfLink} Analogously, the [[Hopf link]] with the opposite relative [[oriented link|orientation]] represents $-2$ times that unit class:
+
+\begin{imagefromfile}
+    "file_name": "ChargedStringOppositeHopfLink-240717.jpg",
+    "width": 320,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 15
+    }
+\end{imagefromfile}
 
 
 (...)
