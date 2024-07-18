@@ -4,7 +4,7 @@
 
 ## Selected writings
 
-On [[M-theory on G2-manifolds]]:
+On [[M-theory on G₂-manifolds]]:
 
 * {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv. Theor. Math. Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
 
@@ -38,7 +38,7 @@ On [[moduli stabilization]]:
 
 * {#AcharyaKumarBobbkovKaneShaoWatson08} [[Bobby Acharya]], [[Piyush Kumar]], Konstantin Bobkov, [[Gordon Kane]], Jing Shao, Scott Watson, _Non-thermal Dark Matter and the Moduli Problem in String Frameworks_,JHEP 0806:064,2008 ([arXiv:0804.0863](http://arxiv.org/abs/0804.0863))
 
-On the [[G2-MSSM]]:
+On the [[G₂-MSSM]]:
 
 * {#AcharyaKaneKumar12} [[Bobby Acharya]], [[Gordon Kane]], [[Piyush Kumar]], _Compactified String Theories -- Generic Predictions for Particle Physics_, Int. J. Mod. Phys. A, Volume 27 (2012) 1230012 ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
 
@@ -62,9 +62,9 @@ Relating [[moduli spaces]] of [[G2-manifolds|$G_2$-manifolds]] to those of [[fla
 
 ## Related entries
 
-* [[G2-MSSM]]
+* [[G₂-MSSM]]
 
-* [[M-theory on G2-manifolds]]
+* [[M-theory on G₂-manifolds]]
 
 [[!redirects Bobby S. Acharya]]
 
