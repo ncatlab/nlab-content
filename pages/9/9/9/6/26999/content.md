@@ -42,6 +42,8 @@ role of continuity in intuitionistic analysis. J. Symb. Log., 31(3):325–358, 1
 and Philosophy of Science III, Studies in Logic and the Foundations of Mathematics, pages 185–200,
 Amsterdam, 1968. North-Holland.
 
+* [[Michael Fourman]], [[Martin Hyland]], _Sheaf Models for Analysis_ , pp.280-301 in Fourman, Mulvey, Scott (eds.), _Applications of Sheaves_ , LNM **753** Springer Heidelberg 1979. ([draft](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Oldpapers/analysis79.pdf), 6.64 MB)
+
 * [[Benno van den Berg]], [[Ieke Moerdijk]], *Derived rules for predicative set theory: an application of sheaves* ([arXiv:1009.3553](https://arxiv.org/abs/1009.3553))
 
 * [[Michael Rathjen]], [[Pedro Francisco Valencia Vizcaino]], *Well ordering principles and bar induction* ([arXiv:1405.4485](https://arxiv.org/abs/1405.4485))
