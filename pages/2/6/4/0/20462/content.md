@@ -5,9 +5,9 @@
 
 * [[M-theory on 8-manifolds]]/[[M-theory on Spin(7)-manifolds|on Spin(7)-manifolds]]
 
-* [[M-theory on G2-manifolds]]
+* [[M-theory on G₂-manifolds]]
 
-  * [[G2-MSSM]]
+  * [[G₂-MSSM]]
 
 * [[M-theory on Sp(1)-manifolds]]
 
