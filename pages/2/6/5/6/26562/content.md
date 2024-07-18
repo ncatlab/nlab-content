@@ -138,6 +138,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Improper priors for Gaussians, using [[Markov categories]]: [Stein-Samuelson'23](#gauss_nondet).
 
+* [[machine learning|Machine learning]]: [[equivariance]] of [[neural networks]] using [[Markov categories]] in [Cornish'24](#cornish).
+
 (...)
 
 ### Information theory
@@ -271,6 +273,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 * {#coecke_spekkens12} [[Bob Coecke]] and Robert W. Spekkens, _Picturing classical and quantum Bayesian inference_, Synthese, 186(3), 2012. ([arXiv](https://arxiv.org/abs/1102.2368))
 
 * {#entropy_topos} Carmen Constantin and Andreas Döring, _A topos-theoretic notion of entropy_, 2020. ([arXiv](https://arxiv.org/abs/2006.03139))
+
+* {#cornish} Rob Cornish, _Stochastic Neural Network Symmetrization in Markov Categories_, 2024. ([arXiv](https://arxiv.org/abs/2406.11814))
 
 * {#krn} Fredrik Dahlqvist, Vincent Danos, Ilias Garnier, and Alexandra Silva, _Borel kernels and
 their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourth Conference on the Mathematical Foundations of Programming Semantics, volume 341, 91–119, 2018.  [arXiv](https://arxiv.org/abs/1803.02651).
