@@ -21,18 +21,18 @@ On relating the [[AGT-correspondence]] to the [[D=6 N=(2,0) SCFT]] (and the [[mo
 
 * Benjamin Assel, [[Sakura Schäfer-Nameki]], Jin-Mann Wong, _M5-branes on $S^2 \times M_4$: Nahm's Equations and 4d Topological Sigma-models_, J. High Energ. Phys. (2016) 2016: 120 ([arxiv:1604.03606](https://arxiv.org/abs/1604.03606))
 
-On [[Higgs bundles]] and [[M-theory on G2-manifolds]]:
+On [[Higgs bundles]] and [[M-theory on G₂-manifolds]]:
 
-* {#BCHS19} [[Andreas Braun]], Sebastjan Cizel, Max Hubner, [[Sakura Schäfer-Nameki]], _Higgs Bundles for M-theory on G2-Manifolds_ ([arXiv:1812.06072](https://arxiv.org/abs/1812.06072))
+* {#BCHS19} [[Andreas Braun]], Sebastjan Cizel, Max Hubner, [[Sakura Schäfer-Nameki]], _Higgs Bundles for M-theory on G₂-Manifolds_ ([arXiv:1812.06072](https://arxiv.org/abs/1812.06072))
 
-On [[F-theory on Spin(7)-manifolds]]/[[M-theory on Spin(7)-manifolds]] and variant of the [[compact twisted connected sum G2-manifolds]]:
+On [[F-theory on Spin(7)-manifolds]]/[[M-theory on Spin(7)-manifolds]] and variant of the [[compact twisted connected sum G₂-manifolds]]:
 
 * [[Andreas Braun]], [[Sakura Schäfer-Nameki]], _Spin(7)-Manifolds as Generalized Connected Sums and 3d $N=1$ Theories_, JHEP06(2018)103 ([arXiv:1803.10755](https://arxiv.org/abs/1803.10755))
 
 
-On [[duality in string theory|duality]] of [[M-theory on G2-manifolds]] with [[heterotic string theory on CY3-manifolds]]:
+On [[duality in string theory|duality]] of [[M-theory on G₂-manifolds]] with [[heterotic string theory on CY3-manifolds]]:
 
-* {#BraunSchaeferNameki17} [[Andreas Braun]], [[Sakura Schäfer-Nameki]], _Compact, Singular G2-Holonomy Manifolds and M/Heterotic/F-Theory Duality_, JHEP04(2018)126 ([arXiv:1708.07215](https://arxiv.org/abs/1708.07215))
+* {#BraunSchaeferNameki17} [[Andreas Braun]], [[Sakura Schäfer-Nameki]], _Compact, Singular $G_2$-Holonomy Manifolds and M/Heterotic/F-Theory Duality_, JHEP04(2018)126 ([arXiv:1708.07215](https://arxiv.org/abs/1708.07215))
 
 On [[F/M-theory on elliptically fibered Calabi-Yau 5-folds]], relating to [[D=2 N=(2,0) SCFT]]:
 
