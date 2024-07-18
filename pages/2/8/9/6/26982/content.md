@@ -24,9 +24,9 @@
 *Zero-one measures* are [[measures]] whose only values are [[zero]] and [[one]]. 
 
 In [[probability theory]], they model situations which "are not really random", where we are almost surely certain of which events take place and which do not. 
-They are used in [[categorical probability]] to model situations of [[ergodicity]].
+They are used to express [[zero-one laws]] and more generally to model situations of [[ergodicity]].
 
-They also form a [[monad]], which is analogous to [[sober topological space#Reflection|sobrification of topological spaces]].
+Zero-one measures form a [[monad]], which is analogous to [[sober topological space#Reflection|sobrification of topological spaces]].
 
 The analogous concept for [[Markov kernels]] is a [[zero-one kernel]].
 
@@ -39,9 +39,14 @@ A [[probability measure]] $p$ on a [[measurable space]] $X$ is said to be **zero
 $$
 p(A) \;=\; 0 \qquad or \qquad p(A) \;=\; 1 .
 $$
+* Every real-valued [[random variable]] $f$ on the [[probability space]] $(X,p)$ [[almost surely]] constant (i.e. it is a [[determinstic random variable]]).
 * Every event (measurable subset) $A$ of $X$ is [[conditional independence|independent]] of itself:
 $$
 p(A) \;=\; p(A\cap A) \;=\; p(A)\,p(A) .
+$$
+* Every two events $A,B$ of $X$ are [[conditional independence|independent]]:
+$$
+ p(A\cap B) \;=\; p(A)\,p(B) .
 $$
 * $p$ cannot be expressed as a nontrivial [[convex combination]] of other probability measures: if
 $$
