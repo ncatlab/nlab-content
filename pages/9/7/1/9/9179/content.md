@@ -181,9 +181,9 @@ Discussion of [[neutrino]] [[masses]] in [[leptoquark]]-[[model (in theoretical 
 * {#BGV19} Innes Bigaran, John Gargalionis, Raymond R. Volkas, _A near-minimal leptoquark model for reconciling flavour anomalies and generating radiative neutrino masses_ ([arXiv:1906.01870](https://arxiv.org/abs/1906.01870))
 
 
-Discussion of neutrino masses in [[M-theory on G2-manifolds]]:
+Discussion of neutrino masses in [[M-theory on G₂-manifolds]]:
 
-* Eric Gonzalez, [[Gordon Kane]], Khoa Nguyen, *Neutrino mass matrices from localization in M-theory on G2 orbifold* ([arXiv:2107.12893](https://arxiv.org/abs/2107.12893))
+* Eric Gonzalez, [[Gordon Kane]], Khoa Nguyen, *Neutrino mass matrices from localization in M-theory on $G_2$ orbifold* ([arXiv:2107.12893](https://arxiv.org/abs/2107.12893))
 
 On neutrino masses in [[type IIA string theory]] [[orientifold]] models:
 
