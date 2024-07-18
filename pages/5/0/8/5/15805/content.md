@@ -60,7 +60,7 @@ Discussion in the context of [[string theory]]:
 
 * {#SvrcekWitten06} Peter Svrcek, [[Edward Witten]], _Axions In String Theory_, JHEP 0606:051,2006 ([arXiv:hep-th/0605206](http://arxiv.org/abs/hep-th/0605206))
 
-Discussion specificlly in the context of [[M-theory on G2-manifolds]]/[[G2-MSSM]] is in ([Svrcek-Witten 06, section 6](#SvrcekWitten06)) and
+Discussion specificlly in the context of [[M-theory on G₂-manifolds]]/[[G₂-MSSM]] is in ([Svrcek-Witten 06, section 6](#SvrcekWitten06)) and
 
 * [[Bobby Acharya]], Konstantin Bobkov, [[Piyush Kumar]], _An M Theory Solution to the Strong CP Problem and Constraints on the Axiverse_, JHEP 1011:105,2010 ([arXiv:1004.5138](http://arxiv.org/abs/1004.5138))
 
