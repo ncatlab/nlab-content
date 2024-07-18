@@ -58,7 +58,7 @@ $$
 
 * [[supersymmetry and Calabi-Yau manifolds]]
 
-* [[generalized G2-manifold]]
+* [[generalized G₂-manifold]]
 
 ## References
 
