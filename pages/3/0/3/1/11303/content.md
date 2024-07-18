@@ -51,7 +51,7 @@ For more relations between QFTs found via string theory see at _[[string theory 
 
 * [[AdS-QCD correspondence]]
 
-* [[M-theory on G2-manifolds]]
+* [[M-theory on G₂-manifolds]]
 
 ## References
 
