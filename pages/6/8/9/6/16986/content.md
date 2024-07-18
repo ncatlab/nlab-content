@@ -51,7 +51,7 @@ This second construction yields the standard parameterization of the octonionic 
  
 ### $G_2$- and $Spin(9)$-equivariance
 
-The [[automorphism group]] [[G2]] of the [[octonions]], as a [[normed algebra]], manifestly acts on the octonionic Hopf fibration, such that the latter is [[equivariant function|equivariant]].
+The [[automorphism group]] [[G₂]] of the [[octonions]], as a [[normed algebra]], manifestly acts on the octonionic Hopf fibration, such that the latter is [[equivariant function|equivariant]].
 
 (see also [Cook-Crabb 93](#CookCrabb93))
 
