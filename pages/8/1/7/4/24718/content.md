@@ -91,7 +91,7 @@ It consists of
 
 A *morphism of cowreaths* is a 1-cell $(f,\phi, \bar \phi) : (A,t,s) \to (A',t',s')$ in $KL(KL(\mathcal{K}))$. It consists of
 
-1. A *comorphism* of monads $(f,\phi):(A,t) \to (A',t')$, which is a 1-cell $f:A \to A'$ in $\mathcal{K}$ plus a comparison 2-cell $\phi : tf \to ft'$ (satisfying analogous laws as a [[monad#BicategoryOfMonads|morphism of monad]])
+1. A [[colax morphism]] of monads $(f,\phi):(A,t) \to (A',t')$, which is a 1-cell $f:A \to A'$ in $\mathcal{K}$ plus a comparison 2-cell $\phi : tf \to ft'$ (satisfying analogous laws to a [[monad#BicategoryOfMonads|lax morphism of monads]])
 2. A 2-cell $\bar \phi : (f,\phi)(s, \lambda) \to (s,\lambda)(f,\phi)$ in $KL(\mathcal{K})$, which amounts to a 2-cell ${\bar{\phi}} : fs \to t's'f$, suitably commuting with $\phi$ and $\lambda$:
 \begin{tikzcd}
 	fst & fts & {t'fs} & {t't's'f} \\
