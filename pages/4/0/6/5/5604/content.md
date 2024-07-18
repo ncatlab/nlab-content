@@ -110,7 +110,7 @@ Reviewed as Thm. 2.1 in:
 
 The original reference for the complete small categories in the effective topos is:
 
-* {#Hyland88} [[Martin Hyland]], _A small complete category_, Annals of Pure and Applied Logic 40 (1988) ([pdf](https://webdpmms.maths.cam.ac.uk/~martin/Research/Oldpapers/smallcomplete88.pdf))
+* {#Hyland88} [[Martin Hyland]], _A small complete category_, Annals of Pure and Applied Logic 40 (1988) ([pdf](https://webdpmms.maths.cam.ac.uk/~jmeh1/Research/Oldpapers/smallcomplete88.pdf))
 
 It was expanded further in the following paper, which discusses the strong/weak completeness issue and the relation to stacks in more detail:
 
