@@ -105,7 +105,7 @@ and independently due to
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]], Section 5.5 of: _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177), [doi:10.4310/ATMP.2002.v6.n1.a1]( https://dx.doi.org/10.4310/ATMP.2002.v6.n1.a1))
 
-  > (in the context of [[M-theory on G2-manifolds]])
+  > (in the context of [[M-theory on G₂-manifolds]])
 
 ### Generalization to the octonionic projective plane
 
