@@ -1,4 +1,3 @@
-[[!redirects 2d SCFT]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
