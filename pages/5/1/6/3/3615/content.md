@@ -7,6 +7,7 @@
 On [[tensor networks]] in [[machine learning]] of [[natural language]]:
 
 * [[Vasily Pestun]], Yiannis Vlassopoulos, _Tensor network language model_ &lbrack;[arXiv:1710.10248](https://arxiv.org/abs/1710.10248)&rbrack;
+* T. D. Bradley, J. Terilla, Y. Vlassopoulos, _An enriched category theory of language: From syntax to semantics._, La Matematica 1 (2022) 551--580 [doi](https://doi.org/10.1007/s44007-022-00021-2) [arXiv:2106.07890](https://arxiv.org/abs/2106.07890)
 
 See also:
 
@@ -21,6 +22,11 @@ The following is an interesting excerpt from his research project he had earlier
 A talk on ideas on language semantics (some category theoretic ideas involved!)
 
 * _Modelling language semantics and probability densities of text continuations_, QNLP 2022 [youtube](https://www.youtube.com/watch?v=c3IOe3JPfq8)
+
+Talks on large language models
+
+* _A first approximation to the mathematical structure computed by LLMs_, [yt](https://www.youtube.com/watch?v=raT0D1o8OMk), IHES 2024
+* _A proposal for the mathematical structure computed by large language models_, [yt](https://youtu.be/hR23l1zQizk), Univ. of Miami, June 2024
 
 Related notions include [[pre-Calabi-Yau algebra]].
 
