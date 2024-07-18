@@ -18,7 +18,7 @@
 
 A [[membrane]] [[sigma-model]] [[topological quantum field theory]] that is roughly related to [[topological M-theory]] as the [[M2-brane]] is related to [[M-theory]] and to the [[topological string]] ([[A-model]]/[[B-model]]) as the [[M2-brane]] is related to the [[string]] and to the [[topological M5-brane]] as the [[M2-brane]] is related to the [[M5-brane]].
 
-The [[target space]] of the topological membrane is a [[G2-manifold]], the [[action functional]] is governed by the [[higher holonomy]] of the compatible [[supergravity C-field]] over the membrane [[worldvolume]].
+The [[target space]] of the topological membrane is a [[G₂-manifold]], the [[action functional]] is governed by the [[higher holonomy]] of the compatible [[supergravity C-field]] over the membrane [[worldvolume]].
 
 ## Definition
 
