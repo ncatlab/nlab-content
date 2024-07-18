@@ -32,7 +32,7 @@ This is for instance the reason why so much is known about the [[Bekenstein-Hawk
 
 * [[BPS state]]
 
-* [[G2-MSSM]]
+* [[G₂-MSSM]]
 
 [[!redirects protections from quantum corrections]]
 
