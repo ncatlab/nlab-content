@@ -99,9 +99,9 @@ Discussion of [[generalized Calabi-Yau manifold]] backgrounds is for instance in
 
 * {#GMPT} [[Mariana Graña]], [[Ruben Minasian]], Michela Petrini, [[Alessandro Tomasiello]], _Generalized structures of $N=1$ vacua_ ([arXiv:hep-th/0505212](http://arxiv.org/abs/hep-th/0505212))
 
-Discussion of [[duality in string theory|duality]] with [[M-theory on G2-manifolds]]:
+Discussion of [[duality in string theory|duality]] with [[M-theory on G₂-manifolds]]:
 
-* {#BraunSchaeferNameki17} [[Andreas Braun]], [[Sakura Schafer-Nameki]], _Compact, Singular G2-Holonomy Manifolds and M/Heterotic/F-Theory Duality_, JHEP04(2018)126 ([arXiv:1708.07215](https://arxiv.org/abs/1708.07215))
+* {#BraunSchaeferNameki17} [[Andreas Braun]], [[Sakura Schafer-Nameki]], _Compact, Singular $G_2$-Holonomy Manifolds and M/Heterotic/F-Theory Duality_, JHEP04(2018)126 ([arXiv:1708.07215](https://arxiv.org/abs/1708.07215))
 
 [[!redirects hetrotic string theory on Calabi-Yau manifolds]]
 [[!redirects hetrotic string theory on Calabi-Yau 3-folds]]
