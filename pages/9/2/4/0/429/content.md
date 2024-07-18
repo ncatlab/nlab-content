@@ -63,7 +63,7 @@ As with the category-theoretic understanding of many other branches of mathemati
 
 * {#MacLane71} [[Saunders MacLane]], §VI of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**  Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-* [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
+* [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Publications/2007/hp07.pdf)&rbrack;
 
 * [[Max Kelly]] and [[John Power]], _Adjunctions whose counits are coequalizers, and presentations of finitary enriched monads_, JPAA 89, 1993.
 
