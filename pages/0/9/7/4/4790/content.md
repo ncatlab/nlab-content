@@ -64,7 +64,7 @@ The unique connected [[double cover]] obtained from this is the [[metaplectic gr
 
 * [[orthosymplectic supergroup]]
 
-* A higher analog of the symplectic group in [[2-plectic geometry]] is the [[exceptional Lie group]] [[G2]] (see there for more details).
+* A higher analog of the symplectic group in [[2-plectic geometry]] is the [[exceptional Lie group]] [[G₂]] (see there for more details).
 
 * [[quaternionic unitary group]]
 
