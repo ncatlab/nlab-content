@@ -25,6 +25,21 @@ has the wreath product $\pi_1(X)\wr G$ for fundamental group.
 
 (...)
 
-## References ##
+## References 
 
-(...)
+Some general treatments
+
+* W. Charles Holland, _The characterization of generalized wreath products_, J. Alg. 13 (1989) 152--172 [pdf](https://core.ac.uk/download/pdf/82380943.pdf)
+ 
+Important special cases/applications:
+
+* G. Baumslag, _Wreath products and extensions_, Math Z 81, 286--299 (1963) [doi](https://doi.org/10.1007/BF01111576)
+* [[I. G. Macdonald]], _Polynomial functors and wreath products_, J. Pure Appl. Alg. __18__ (1980) 173--204 [pdf](https://core.ac.uk/download/pdf/82423307.pdf)
+
+For semigroups:
+
+* [[Charles Wells]], _Some applications of the wreath product construction_, Amer. Math. Monthly __83__:5 (1976) [doi](https://doi.org/10.1080/00029890.1976.11994114)
+
+category: algebra
+
+[[!redirects wreath products of groups]]
