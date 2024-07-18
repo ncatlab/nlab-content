@@ -27,7 +27,7 @@ A Grothendieck topos model that is very closely related to the analytic notion o
 
 ##References
 
-* [[Martin Hyland]], _First Steps in Synthetic Domain Theory_, Category Theory. Lecture Notes in Mathematics, vol 1488 ([pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Oldpapers/synthetic91.pdf))
+* [[Martin Hyland]], _First Steps in Synthetic Domain Theory_, Category Theory. Lecture Notes in Mathematics, vol 1488 ([pdf](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Oldpapers/synthetic91.pdf))
 
 * [[Marcelo Fiore]] and [[Gordon Plotkin]], _An extension of models of Axiomatic Domain Theory to models of Synthetic Domain Theory_, CSL 1996 ([doi](https://doi.org/10.1007/3-540-63172-0_36))
 
