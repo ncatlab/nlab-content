@@ -759,7 +759,7 @@ The modern terminology "monad" (and the definition in the generality internal to
 
 Further historical comments:
 
-* [[Martin Hyland]], [[John Power]], *The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads*, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
+* [[Martin Hyland]], [[John Power]], *The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads*, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Publications/2007/hp07.pdf)&rbrack;
 
 * {#Barr09} [[Michael Barr]], *Re: Where does the term monad come from?* (April 1, 2009) &lbrack;[cat-dist:09-4](https://www.mta.ca/~cat-dist/archive/2009/09-4), [txt](/nlab/files/Barr-HistoryOfMonadTerminology.txt),  [jpg](/nlab/files/Barr-HistoryOfMonadTerminology.jpg)&rbrack;
 
@@ -815,7 +815,7 @@ Expositions:
 
 More on the relation to [[universal algebra]]:
 
-* [[Martin Hyland]] and [[John Power]], _The category theoretic understanding of universal algebra: Lawvere theories and monads_ ([pdf](http://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)).
+* [[Martin Hyland]] and [[John Power]], _The category theoretic understanding of universal algebra: Lawvere theories and monads_ ([pdf](http://www.dpmms.cam.ac.uk/~jmeh1/Research/Publications/2007/hp07.pdf)).
 
 * {#Voutas12} [[Anthony Voutas]], *The basic theory of monads and their connection to universal algebra*, (2012) &lbrack;[pdf](https://voutasaur.us/monad-algebra.pdf), [[Voutas-Monads.pdf:file]]&rbrack;
 
