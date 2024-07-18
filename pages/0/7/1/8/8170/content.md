@@ -15,7 +15,7 @@ On the history of the concept of [[supersymmetry]]:
 
   * {#KaneShifman01} [[Gordon Kane]], [[Mikhail Shifman]], _Introduction to "The Supersymmetric world"_ ([arXiv:hep-ph/0102298](https://arxiv.org/abs/hep-ph/0102298)), chapter in: [Kane-Shifman 00](#KaneShifman00)
 
-Kane has been arguing that [[string phenomenology]]-[[model (physics)|models]] of the kind of [[M-theory on G2-manifolds]], notably the [[G2-MSSM]], "generically" predict [[Higgs particle]] [[masses]] around 120-130 GeV. He stated this in 
+Kane has been arguing that [[string phenomenology]]-[[model (physics)|models]] of the kind of [[M-theory on G₂-manifolds]], notably the [[G₂-MSSM]], "generically" predict [[Higgs particle]] [[masses]] around 120-130 GeV. He stated this in 
 
 * {#Kane11} [[Gordon Kane]], _String theory and generic predictions for our world &#8211; superpartner masses, LHC signatures, dark matter, EWSB, cosmological history of universe, etc_, talk at String phenomenology 2011, August 2011 ([pdf](http://conferencing.uwex.edu/conferences/stringpheno2011/documents/kane.pdf))
 
@@ -37,20 +37,20 @@ See also
 
 * {#Kane18} [[Gordon Kane]], _Exciting Implications of LHC Higgs Boson Data_ ([arXiv:1802.05199](https://arxiv.org/abs/1802.05199))
 
-On [[Yukawa couplings]] in the [[G2-MSSM]]:
+On [[Yukawa couplings]] in the [[G₂-MSSM]]:
 
 * Eric Gonzalez, [[Gordon Kane]], Khoa Dang Nguyen, [[Malcolm Perry]], _Quark and lepton mass matrices from localization in M-theory on $G_2$ orbifold_ ([arXiv:2002.11820](https://arxiv.org/abs/2002.11820))
 
 and on [[neutrino]] masses:
 
-* Eric Gonzalez, [[Gordon Kane]], Khoa Nguyen, *Neutrino mass matrices from localization in M-theory on G2 orbifold* ([arXiv:2107.12893](https://arxiv.org/abs/2107.12893))
+* Eric Gonzalez, [[Gordon Kane]], Khoa Nguyen, *Neutrino mass matrices from localization in M-theory on G₂ orbifold* ([arXiv:2107.12893](https://arxiv.org/abs/2107.12893))
 
 
 ## Related $n$Lab entries
 
 * [[string phenomenology]]
 
-* [[M-theory on G2-manifolds]], [[G2-MSSM]]
+* [[M-theory on G₂-manifolds]], [[G₂-MSSM]]
 
 * [[Higgs field]], [[vacuum stability]]
 
