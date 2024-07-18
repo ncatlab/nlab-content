@@ -22,11 +22,7 @@ The thickening can be considered in one direction only which gives [[embedding o
 
 A [[link diagram]] can be made into a diagram of a framed links by giving it the **blackboard framing**: this views each segment of the link diagram as a ribbon lying on the "blackboard".
 
-Two diagrams represent the same link diagram if and only if they can be related by a modified version of the [[Reidemeister moves]]. 
 
-{#1stReidemeisterMove} The **1st Reidemeister move** for framed links is:
-
-[[!include modified Reidemeister move 1 - SVG]]
 
 ## Definition 
 
@@ -84,6 +80,28 @@ Framings of the [[trefoil knot]]:
     },
     "caption": "From [CMNP 19](#CMNP19)"
 \end{imagefromfile}
+
+
+## Properties
+
+### Reidemeister moves
+ {#ReidemeisterMoves}
+
+A pair of framed [[link diagrams]] corresponds to the same framed link iff they may be deformed into each other by diagram [[isotopies]] and the following versions of the [[Reidemeister moves]] (e.g. [Ohtsuki 2001 Thm. 1.8](#Ohtsuki01)): 
+
+\begin{imagefromfile}
+    "file_name": "FramedLinkReidemeister-240718.jpg",
+    "width": 650,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
 
 
 
