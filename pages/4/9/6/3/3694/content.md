@@ -70,10 +70,10 @@ Starting with the given constant $y_0$, [[recursion|recursively]] define
 ## See also
 
 * [[inverse function theorem]]
-
 * [[real quadratic function]]
-
 * [[continuous square root]]
+* [[Runge-Kutta method]]
+* [[Chen iterated integral]]
 
 ## References
 
