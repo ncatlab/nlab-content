@@ -78,7 +78,7 @@ See also:
 
 * [[Andreas Braun]], [[Sakura Schafer-Nameki]], _Spin(7)-Manifolds as Generalized Connected Sums and 3d $N=1$ Theories_, JHEP06(2018)103 ([arXiv:1803.10755](https://arxiv.org/abs/1803.10755))
 
-  (generalization of [[compact twisted connected sum G2-manifolds]])
+  (generalization of [[compact twisted connected sum G₂-manifolds]])
 
 Relating [[M-theory on Spin(7)-manifolds]] with [[F-theory on Spin(7)-manifolds]] via [[Higgs bundles]]:
 
