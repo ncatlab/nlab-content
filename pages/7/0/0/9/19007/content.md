@@ -62,7 +62,7 @@ In [[string theory]] hidden sectors appear naturally in various ways.
 [[Hořava-Witten theory]] at finite interval length gives rise to a copy of [[heterotic supergravity]] at each of the "endpoints", which, as [[gauge theories]], interact with each others only via [[bulk]] gravity. 
 
 
-In [[model (physics)|models]] of [[M-theory on G2-manifolds]] such as the [[G2-MSSM]], the 4d gauge-field content arises under [[KK-compactification]] from 3-cycles in the [[G2-manifold]] [[fiber bundle|fiber]], and if two such do not intersect, they give rise to hidden sectors in the 4d physics. (e.g. [Kane 17, section 4.4](#Kane17))
+In [[model (physics)|models]] of [[M-theory on G₂-manifolds]] such as the [[G₂-MSSM]], the 4d gauge-field content arises under [[KK-compactification]] from 3-cycles in the [[G₂-manifold]] [[fiber bundle|fiber]], and if two such do not intersect, they give rise to hidden sectors in the 4d physics. (e.g. [Kane 17, section 4.4](#Kane17))
 
 
 ## Related concepts
@@ -79,7 +79,7 @@ Discussion in the context of [[supersymmetry breaking]] is in
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 2.6.5 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
 
-Discussion specifically in the context of the [[G2-MSSM]] is in
+Discussion specifically in the context of the [[G₂-MSSM]] is in
 
 * {#Kane17} [[Gordon Kane]], section 4.4 of _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
 
