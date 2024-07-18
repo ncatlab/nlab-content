@@ -194,7 +194,7 @@ The mechanism discussed in [Svrcek-Witten 06](#SvrcekWitten06), in all its incar
 
    * in type II string theory it is a component of the [[higher WZW term]] on coincident [[D6-branes]] with a component $\propto A_{3}^{RR} \wedge \langle F \wedge F\rangle$, 
 
-   * for 11d C-fields it is the term $\propto C_{3} \wedge \langle F \wedge F\rangle$ induced by [[anomaly cancellation]] for M-theory at conical singularities (as discussed at _[[M-theory on G2-manifolds]]_)
+   * for 11d C-fields it is the term $\propto C_{3} \wedge \langle F \wedge F\rangle$ induced by [[anomaly cancellation]] for M-theory at conical singularities (as discussed at _[[M-theory on G₂-manifolds]]_)
 
    * for heterotic string theory it arises from integrating out the [[Lagrange multiplier]] that enforces the [[Green-Schwarz anomaly cancellation]] in 4d.
 
@@ -331,7 +331,7 @@ Observe that ultralight axion fields is precisely what is required in HEP [[phen
 
 * [[strong CP problem]]
 
-* [[G2-MSSM]]
+* [[G₂-MSSM]]
 
 ## References
 
