@@ -254,6 +254,24 @@ is given by sending a [[framed link|framed]] [[oriented link|oriented]] [[link d
 Moreover, this integer value may be realized as the [[framing number]] of any framed unlink which results from successively applying the saddle move to the original link.
 
 \begin{example}
+\label{HopfLink}
+For the [[Hopf link]] we get $\pm 2$:
+
+\begin{imagefromfile}
+    "file_name": "HopfLinkToFramedUnknot.240718.jpg",
+    "width": 520,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 15
+    }
+\end{imagefromfile}
+
+\end{example}
+
+\begin{example}
 \label{TrefoilKnot}
 For the [[trefoil knot]] we get $\pm 3$:
 \end{example}
