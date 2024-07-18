@@ -207,7 +207,7 @@ In this notation, the merger-move looks as follows:
 
 \begin{proposition}
 \label{VacuumAndSaddleMoveImplyReidemeister}
-The vacuum and merger move imply the [1st Reidemeister move](framed+link#1stReidemeisterMove) for [[framed links]]:
+The vacuum and merger move imply the [1st Reidemeister move](framed+link#ReidemeisterMoves) for [[framed links]]:
 
 \begin{imagefromfile}
     "file_name": "FramedReidemeisterFromSaddle-240718.jpg",
