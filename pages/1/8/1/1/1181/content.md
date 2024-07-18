@@ -113,7 +113,7 @@ If $(N,z,s)$ is a parametrized natural numbers object in a category with finite 
 ###### Proof
 Let $X' = A\times N\times X$, and define $f':A\to X'$ by $f'(a) = (a,z,f(a))$ and $g':X'\to X'$ by 
 
-$$g'(a,n,x) = (a,n,g(a,n,x)).$$  
+$$g'(a,n,x) = (a,s(n),g(a,n,x)).$$  
 
 Then the assumption gives $\phi': A\times N \to X'$ such that 
 
