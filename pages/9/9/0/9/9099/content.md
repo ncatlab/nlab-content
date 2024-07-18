@@ -330,7 +330,7 @@ In
 this is put into the context of [[topological M-theory]] (see around equation (2) in the introduction).
 
 
-Discussion for [[weak G2-holonomy]] is in 
+Discussion for [[weak G₂-holonomy]] is in 
 
 * A. Bilal, J.-P. Derendinger, K. Sfetsos, _(Weak) $G_2$ Holonomy from Self-duality, Flux and Supersymmetry_, Nucl.Phys. B628 (2002) 112-132 ([arXiv:hep-th/0111274](http://arxiv.org/abs/hep-th/0111274))
  {#BilalDerendingerSfetsos}
