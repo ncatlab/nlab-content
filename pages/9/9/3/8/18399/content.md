@@ -53,7 +53,7 @@ $$
 
 * [[knot sum]]
 
-* [[twisted connected sum G2-manifolds]]
+* [[twisted connected sum G₂-manifolds]]
 
 ## References
 
