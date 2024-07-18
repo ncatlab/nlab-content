@@ -28,11 +28,11 @@ $$
   S^6 \simeq G_2/ SU(3)
 $$
 
-of [[G2]] ([[automorphism group]] of the [[octonions]]) by [[special unitary group|SU(3)]] ([Fukami-Ishihara 55](#FukamiIshihara55)). 
+of [[G₂]] ([[automorphism group]] of the [[octonions]]) by [[special unitary group|SU(3)]] ([Fukami-Ishihara 55](#FukamiIshihara55)). 
 
-For more see at _[[G2/SU(3) is the 6-sphere]]_.
+For more see at _[[G₂/SU(3) is the 6-sphere]]_.
 
-The induced [[action]] of [[G2]] on $S^6$ induces an [[almost Hermitian structure]] which makes it a [[nearly Kaehler manifold]].
+The induced [[action]] of [[G₂]] on $S^6$ induces an [[almost Hermitian structure]] which makes it a [[nearly Kaehler manifold]].
 
 Review in is in [Agrikola-Borowka-Friedrich 17](#AgrikolaBorowkaFriedrich17)
 
