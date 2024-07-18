@@ -3,7 +3,7 @@
 
 ## Selected writings
 
-On [[KK-compactification]] of [[11-dimensional supergravity]] on a [[squashed sphere|squashed]] [[7-sphere]] with [[G2-holonomy]] ([[M-theory on G2-manifolds]]):
+On [[KK-compactification]] of [[11-dimensional supergravity]] on a [[squashed sphere|squashed]] [[7-sphere]] with [[G₂-holonomy]] ([[M-theory on G₂-manifolds]]):
 
 * {#AwadaDuffPope83} [[Moustafa A. Awada]], [[Mike Duff]], [[Christopher Pope]], _$N=8$ Supergravity Breaks Down to $N=1$_, Phys. Rev. Lett. **50** 5 (1983) 294-297  &lbrack;[doi:10.1103/PhysRevLett.50.294](https://doi.org/10.1103/PhysRevLett.50.294)&rbrack;
 
@@ -24,12 +24,12 @@ On [[supersymmetry]] and [[G-structure]] (notably [[Spin(7)-structure]] in [[M-t
 * {#IshamPopeWarner88} [[Chris Isham]], [[Christopher Pope]], [[Nicholas Warner]], _Nowhere-vanishing spinors and triality rotations in 8-manifolds_,  Classical and Quantum Gravity, Volume 5, Number 10, 1988 ([cds:185144](http://cds.cern.ch/record/185144), [doi:10.1088/0264-9381/5/10/009](https://iopscience.iop.org/article/10.1088/0264-9381/5/10/009))
 
 
-On [[G2-conifolds]]:
+On [[G₂-conifolds]]:
 
 * [[Gary Gibbons]], [[Don Page]], [[Christopher Pope]], _Einstein metrics on $S^3$, $\mathbb{R}^3$ and $\mathbb{R}^4$ bundles_, Comm. Math. Phys. Volume 127, Number 3 (1990), 529-553 ([euclid:cmp/1104180218](https://projecteuclid.org/euclid.cmp/1104180218))
 
 
-On [[higher curvature corrections]] to [[D=11 supergravity]] and [[M-theory on G2-manifolds]]:
+On [[higher curvature corrections]] to [[D=11 supergravity]] and [[M-theory on G₂-manifolds]]:
 
 * H. Lu, [[Christopher Pope]], [[Kellogg Stelle]], [[Paul Townsend]], _Supersymmetric Deformations of $G_2$ Manifolds from Higher-Order Corrections to String and M-Theory_, JHEP 0410:019, 2004 ([arXiv:hep-th/0312002](https://arxiv.org/abs/hep-th/0312002))
 
