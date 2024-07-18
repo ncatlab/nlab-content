@@ -98,6 +98,7 @@ Sometimes, more generally, a dynamical system or a stochastic process are called
 category: probability
 
 
+[[!redirects ergodic]]
 [[!redirects ergodic system]]
 [[!redirects ergodic systems]]
 [[!redirects ergodic dynamical system]]
