@@ -61,7 +61,7 @@ The observation that such [[Weyl spinor|chiral fermions]] do indeed appear when 
 
 Vague review is in ([Ibáñez-Uranga 12, section 10.2.1](#IbanezUranga12), [Uranga 12a, section 2.3](#Uranga12a)).
 
-The lift of this situation to [[M-theory on G2-manifolds]] is discussed in ([Berglund-Brandhuber 02](#BerglundBrandhuber02), [Bourjaily-Espahbodi 08](#BourjailyEspahbodi08)).
+The lift of this situation to [[M-theory on G₂-manifolds]] is discussed in ([Berglund-Brandhuber 02](#BerglundBrandhuber02), [Bourjaily-Espahbodi 08](#BourjailyEspahbodi08)).
 
 
 ### Generations of fermions
@@ -156,7 +156,7 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 
 ### Relation to M-theory on $G_2$-manifolds
 
-Lift to [[M-theory on G2-manifolds]] (e.g. [[G2-MSSM]]): see references [below](#ReferencesLiftToMTheory)
+Lift to [[M-theory on G₂-manifolds]] (e.g. [[G₂-MSSM]]): see references [below](#ReferencesLiftToMTheory)
 
 $\,$
 
@@ -381,7 +381,7 @@ Realistic [[Yukawa couplings]] and [[fermion]] [[masses]] in an [[MSSM]] [[Pati-
 ### Lift to M-theory
  {#ReferencesLiftToMTheory}
 
-Lift of intersecting D-brane models to [[M-theory on G2-manifolds]] with [[ADE-singularities]] is discussed in the following articles
+Lift of intersecting D-brane models to [[M-theory on G₂-manifolds]] with [[ADE-singularities]] is discussed in the following articles
 
 * {#BerglundBrandhuber02} Per Berglund, Andreas Brandhuber, _Matter from $G_2$-manifolds_, Nucl.Phys. B641 (2002) 351-375 ([arXiv:hep-th/0205184](https://arxiv.org/abs/hep-th/0205184))
 
