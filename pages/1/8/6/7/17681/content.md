@@ -526,7 +526,7 @@ See also:
 
 * [[Mauro Jaskelioff]], [[Eugenio Moggi]], *Monad Transformers as Monoid Transformers*, Theoretical Computer Science **411** 51–52 (2010) 4441-4466 &lbrack;[doi:10.1016/j.tcs.2010.09.011](https://doi.org/10.1016/j.tcs.2010.09.011), [pdf](http://www.disi.unige.it/person/MoggiE/ftp/tcs10.pdf)&rbrack;
 
-* {#HP07} [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theoretical Computer Science (ENTCS) **172** (2007) 437-458  &lbrack;[pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
+* {#HP07} [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theoretical Computer Science (ENTCS) **172** (2007) 437-458  &lbrack;[pdf](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Publications/2007/hp07.pdf)&rbrack;
 
 * Mauro Jaskelioff, *Monatron: An Extensible Monad Transformer Library*, in: *Implementation and Application of Functional Languages. IFL 2008*, Lecture Notes in Computer Science **5836** (2011) 233–248 &lbrack;[doi:10.1007/978-3-642-24452-0_13](https://doi.org/10.1007/978-3-642-24452-0_13)&rbrack;
      
