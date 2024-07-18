@@ -16,6 +16,7 @@ Related notions in $n$Lab: [[Calabi-Yau algebra]], [[Calabi-Yau category]], [[Ca
 * A. Sharapov, E. Skvortsov, R. Van Dongen, _Strong homotopy algebras for chiral higher spin gravity via Stokes theorem_, J. High Energ. Phys. 2024, 186 (2024) <a href="https://doi.org/10.1007/JHEP06(2024)186">doi</a>
 
 > Chiral higher spin gravity is defined in terms of a strong homotopy algebra of pre-Calabi-Yau type (noncommutative Poisson structure). All structure maps are given by the integrals over the configuration space of concave polygons and the first two maps are related to the (Shoikhet-Tsygan-)Kontsevich Formality. As with the known formality theorems, we prove the A∞-relations via Stokes’ theorem by constructing a closed form and a configuration space whose boundary components lead to the A∞-relations. This gives a new way to formulate higher spin gravities and hints at a construct encompassing the known formality theorems.
+* Alexandre Quesney, _Balanced infinitesimal bialgebras, double Poisson gebras and pre-Calabi-Yau algebras_, [arXiv:2312.14893](https://arxiv.org/abs/2312.14893)
 
 category: algebra
 [[!redirects pre-Calabi-Yau structure]]
