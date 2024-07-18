@@ -83,7 +83,7 @@ More generally for $X$ an $n$-dimensional [[Riemannian manifold]] with a [[covar
 
 ## Examples
 
-* The globalization of the [[associative 3-form]] of a [[G2-manifold]] is a calibration. A calibrated submanifold in this case is also called an [[associative submanifold]].
+* The globalization of the [[associative 3-form]] of a [[G₂-manifold]] is a calibration. A calibrated submanifold in this case is also called an [[associative submanifold]].
 
 * The [[Cayley 4-form]] on [[Spin(7)-manifolds]].
 
