@@ -148,6 +148,8 @@ i.e. if $k$ is its own [[Bayesian inverse]]. This is a stronger form of [[equili
 
 * {#ergodic_dagger} Noé Ensarguet, [[Paolo Perrone]], Categorical probability spaces, ergodic decompositions, and transitions to equilibrium, [arXiv:2310.04267](https://arxiv.org/abs/2310.04267)
 
+* {#cornish} Rob Cornish, _Stochastic Neural Network Symmetrization in Markov Categories_, 2024. ([arXiv](https://arxiv.org/abs/2406.11814))
+
 
 category: probability
 
