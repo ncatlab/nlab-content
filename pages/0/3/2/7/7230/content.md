@@ -20,7 +20,7 @@
 
 ## Idea
 
-The classification of [[Riemannian manifolds]] with [[special holonomy]] contains two "exceptional" cases: [[G2-manifold|G2-holonomy]] in [[dimension]] 7, and [[Spin(7)-manifolds|Spin(7)-holonomy]] in dimension 8. Their study is the topic of _exceptional geometry_.
+The classification of [[Riemannian manifolds]] with [[special holonomy]] contains two "exceptional" cases: [[G₂-manifold|G₂-holonomy]] in [[dimension]] 7, and [[Spin(7)-manifolds|Spin(7)-holonomy]] in dimension 8. Their study is the topic of _exceptional geometry_.
 
 Sometimes more generally, exceptional geometry is understood to study [[spaces]] controled by [[exceptional Lie groups]] in some way.
 
@@ -55,13 +55,13 @@ General discussion is in
 
 * [[Simon Salamon]], _Self-duality and exceptional geometry_ ([pdf](http://calvino.polito.it/~salamon/G/baku.pdf))
 
-Discussion of [[G2 manifolds]] is in 
+Discussion of [[G₂ manifolds]] is in 
 
 * Spiro Karigiannis, _$G_2$-manifolds -- Exceptional structures in geometry arising from exceptional algebra_ ([pdf](http://www.math.uwaterloo.ca/~karigian/talks/waterloo.pdf)) 
 
 ### In supergravity
 
-Applications to [[KK-compactification]] of [[11d supergravity]] (see also at _[[M-theory on G2-manifolds]]_) is discussed in 
+Applications to [[KK-compactification]] of [[11d supergravity]] (see also at _[[M-theory on G₂-manifolds]]_) is discussed in 
 
 * [[George Papadopoulos]], [[Paul Townsend]], _Compactifications of $D = 11$ supergravity on spaces of exceptional holonomy_ ([arXiv:hep-th/9506150](http://arxiv.org/abs/hep-th/9506150))
 
