@@ -239,7 +239,7 @@ A $G$-structure on $X$ is integrable previsely if there exists an [[atlas]] of $
 
 * [Orthogonal structure](#ExamplesOrthogonalStructure)
 
-* [G2-structure](#ExampleG2Structure)
+* [G₂-structure](#ExampleG2Structure)
 
 ### Complex structure
  {#ExampleComplexStructure}
@@ -273,7 +273,7 @@ a $U(n) \hookrightarrow GL(2n,\mathbb{R})$-structure -- called an _[[almost Herm
 ### $G_2$-Structure
  {#ExampleG2Structure}
 
-A An $G_2 \to GL(7)$-[[G-structure|structure]] is a [[G2-structure]]. Its [[torsion of a G-structure]] vanishes if the corresponding definite 3-form $\omega$ is [[covariant derivative|covariantly constant]] with respect to the induced [[Riemannian metric]], in which case the structure is a [[G2-manifold]]. Beware that some authors refer to first-order integrable $G_2$-structure (or even weaker conditions) as "integrable $G_2$-structure" (see [Bryant 05, remark 2](G2+manifold#Bryant05) for critical discussion of the terminology). The  [[torsion of a G-structure|higher-order torsion invariants]] of $G_2$-structures do not in general vanish (e.g [Bryant 05, (4.7)](G2+manifold#Bryant05)) and so, contrary to the above cases of symplectic and complex structure, $G_2$-manifold structure does not imply integrable $G_2$-structure.
+A An $G_2 \to GL(7)$-[[G-structure|structure]] is a [[G₂-structure]]. Its [[torsion of a G-structure]] vanishes if the corresponding definite 3-form $\omega$ is [[covariant derivative|covariantly constant]] with respect to the induced [[Riemannian metric]], in which case the structure is a [[G₂-manifold]]. Beware that some authors refer to first-order integrable $G_2$-structure (or even weaker conditions) as "integrable $G_2$-structure" (see [Bryant 05, remark 2](G2+manifold#Bryant05) for critical discussion of the terminology). The  [[torsion of a G-structure|higher-order torsion invariants]] of $G_2$-structures do not in general vanish (e.g [Bryant 05, (4.7)](G2+manifold#Bryant05)) and so, contrary to the above cases of symplectic and complex structure, $G_2$-manifold structure does not imply integrable $G_2$-structure.
 
 ### Further examples
 
