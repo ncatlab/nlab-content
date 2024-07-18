@@ -41,7 +41,7 @@ which goes with [[Spin(7)-manifolds]], whence the name.
 
 * [[generalized Calabi-Yau manifold]]
 
-* [[generalized G2-manifold]]
+* [[generalized G₂-manifold]]
 
 ## References
 
