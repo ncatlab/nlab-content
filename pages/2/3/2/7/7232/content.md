@@ -46,7 +46,7 @@ On [[SU(2)-structure]] on [[5-manifolds]]:
 
 
 
-On the construction of [[G2-manifolds]]:
+On the construction of [[G₂-manifolds]]:
 
 * [[Robert Bryant]], [[Simon Salamon]],  _On the construction of some complete metrics with exceptional holonomy_, Duke Mathematical Journal 58: 829&#8211;850 (1989) ([euclid:dmj/1077307681](https://projecteuclid.org/euclid.dmj/1077307681))
 
@@ -60,7 +60,7 @@ On the construction of [[G2-manifolds]]:
 
 * [[exceptional geometry]]
 
-* [[G2]]
+* [[G₂]]
 
 * [[bundle gerbe]]
 
