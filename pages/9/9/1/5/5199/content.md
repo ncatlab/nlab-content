@@ -58,6 +58,14 @@ If one regards the framed link as a ribbon link, then its framing number is the 
 
 Thus an alternative way of describing a framing on an [[oriented link]] is by assigning an integer (framing number) to each link component.
 
+\begin{definition}
+\label{LinkingMatrix}
+The *[[linking matrix]]* of a [[framed link]] is the [[square matrix]] indexed by the [[connected components]] of the link whose off-diagonal entries are the [[linking numbers]] and whose diagonal entries are the [[framing numbers]].
+\end{definition}
+(e.g. [Ohtsuki 2001 p 227](#Ohtsuki01))
+
+Notice that the linking matrix is a [[symmetric matrix]].
+
 ## Examples
 
 Framings of the [[trefoil knot]]:
@@ -85,11 +93,13 @@ Framings of the [[trefoil knot]]:
 
 * [[oriented link]]
 
+* [[linking number]]
+
 ## References
 
 Textbooks:
 
-* [[Tomotada Ohtsuki]], pp. 15 in: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
+* {#Ohtsuki01} [[Tomotada Ohtsuki]], pp. 15 in: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
 
 
 Lecture notes:
