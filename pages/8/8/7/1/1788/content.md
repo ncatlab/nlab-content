@@ -1,29 +1,8 @@
 
 
 
-[[monad#BicategoryOfMonads|test]]
-\begin{tikzcd}
-	sss & sst & stt && s & sst & sts & s \\
-	sts &&&&& stt \\
-	sst & stt & st &&& st
-	\arrow["{s\nu}", from=1-1, to=1-2]
-	\arrow["{\nu s}"', from=1-1, to=2-1]
-	\arrow["{\nu t}", from=1-2, to=1-3]
-	\arrow["{s\mu}", from=1-3, to=3-3]
-	\arrow["{s\sigma}", from=1-5, to=1-6]
-	\arrow["{s\eta}"', from=1-5, to=3-6]
-	\arrow["{\nu t}"', from=1-6, to=2-6]
-	\arrow["{s\lambda}"', from=1-7, to=1-6]
-	\arrow["{\sigma s}"', from=1-8, to=1-7]
-	\arrow["{s\eta}", from=1-8, to=3-6]
-	\arrow["{s\lambda}"', from=2-1, to=3-1]
-	\arrow["{s\mu}", from=2-6, to=3-6]
-	\arrow["{\nu t}"', from=3-1, to=3-2]
-	\arrow["{s\mu}"', from=3-2, to=3-3]
-\end{tikzcd}
-
-\linebreak
-\linebreak
+* item
+** subitem?
 
 ***
 
