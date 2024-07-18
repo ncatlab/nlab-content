@@ -44,7 +44,7 @@ Every decidable bar is uniform.
 Every bar is uniform. (In other words, if a collection of bitlists is barred, then it is also uniform.)
 =--
 
-Although the fan theorem is about bars, it is different from the [[bar theorem]], also known as "bar induction", which is related but stronger. The fan theorem discusses bars on lists of elements of $\mathbb{B}$; the bar theorem discusses bars on lists of elements of $\mathbb{N}$.
+Although the fan theorem is about bars, it is different from the [[bar theorem]], also known as "[[bar induction]]", which is related but stronger. The fan theorem discusses bars on lists of elements of $\mathbb{B}$; the bar theorem discusses bars on lists of elements of $\mathbb{N}$.
 
 Bar induction has three forms; decidable bar induction, monotone bar induction, and full bar induction (each stronger than the previous). The decidable fan theorem follows from decidable bar induction; the full fan theorem follows from monotone bar induction. Full bar induction, the strongest of the three, is a classical theorem; however, full bar induction implies Bishop's limited [[principle of omniscience]]. [[function realizability|Kleene's second realizability model]] provides a model of monotone bar induction plus Brouwer's continuity principle.
 
