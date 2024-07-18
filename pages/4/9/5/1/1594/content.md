@@ -85,7 +85,7 @@ It has been noticed that the topological invariants of the underlying topologica
 
 * [[spindle orbifold]]
 
-* [[G2-orbifolds]]
+* [[G₂-orbifolds]]
 
 * [[lens spaces]]
 
@@ -416,7 +416,7 @@ Review of orbifolds in the context of string [[KK-compactifications]] and [[inte
 
 * {#BlumenhagenLustTheisen13} [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], Chapter 10.5 _Toroidal orbifolds_,  of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
 
-and for orbifolds of [[G2-manifolds]] for [[M-theory on G2-manifolds]]:
+and for orbifolds of [[G₂-manifolds]] for [[M-theory on G₂-manifolds]]:
 
 * {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv. Theor. Math. Phys. **3** (1999) 227-248 &lbrack;[arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205)&rbrack;
 
