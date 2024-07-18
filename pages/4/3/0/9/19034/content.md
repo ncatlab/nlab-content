@@ -42,7 +42,7 @@ For more on this see at [[string phenomenology]] the section _[Top-down models a
 
 * [[AdS/QCD correspondence]]
 
-* [[G2-MSSM]]
+* [[G₂-MSSM]]
 
 ## References
 
