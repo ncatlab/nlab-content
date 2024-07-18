@@ -181,7 +181,7 @@ The basic [[BPS states]] of 11d SuGra are
 
 * [[4-dimensional supergravity]]
 
-  * [[M-theory on G2-manifolds]], [[G2-MSSM]]
+  * [[M-theory on G₂-manifolds]], [[G₂-MSSM]]
 
   * [[Freund-Rubin compactification]]
 
