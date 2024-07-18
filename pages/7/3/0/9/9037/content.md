@@ -15,7 +15,7 @@
 
 ## Idea
 
-What are now called _Hitchin functionals_ are [[functions]]/[[functionals]] on spaces of [[differential n-forms]] on [[manifolds]] of [[dimension]] 6 or 7, for $n = 3$ and/or $n =4$. They are such that their [[critical points]] characterize holomorphic 3-forms of [[complex manifolds]] in dimension 6, as [[associative 3-forms]] of [[G2-manifolds]] in dimension 7.
+What are now called _Hitchin functionals_ are [[functions]]/[[functionals]] on spaces of [[differential n-forms]] on [[manifolds]] of [[dimension]] 6 or 7, for $n = 3$ and/or $n =4$. They are such that their [[critical points]] characterize holomorphic 3-forms of [[complex manifolds]] in dimension 6, as [[associative 3-forms]] of [[G₂-manifolds]] in dimension 7.
 
 ## Definition
 
@@ -67,7 +67,7 @@ This is ([Hitchin, theorem 13](#Hitchin00)).
 
 ## Related concepts
 
-* [[Calabi-Yau manifold]], [[G2-manifold]]
+* [[Calabi-Yau manifold]], [[G₂-manifold]]
 
 * [[topological M-theory]]
 
