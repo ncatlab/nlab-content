@@ -308,7 +308,7 @@ On [[Ray-Singer torsion]] in relation to the  [[topological string]] and [[black
 
 * [[universal exceptionalism]]
 
-* [[M-theory on G2-manifolds]]
+* [[M-theory on G₂-manifolds]]
 
 * [[Hitchin functional]]
 
