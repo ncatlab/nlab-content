@@ -126,7 +126,7 @@ in [[11-dimensional supergravity]]:
 
 * [[Jerome Gauntlett]], Stathis Pakis, _The Geometry of $D=11$ Killing Spinors_, JHEP 0304 (2003) 039 ([arXiv:hep-th/0212008](http://arxiv.org/abs/hep-th/0212008))
 
-for [[G2-structures]] in [[M-theory on G2-manifolds]]:
+for [[G₂-structures]] in [[M-theory on G₂-manifolds]]:
 
 * [[Thomas Friedrich]], Stefan Ivanov, _Parallel spinors and connections with skew-symmetric torsion in string theory_, AsianJ.Math.6:303-336,2002 ([arXiv:math/0102142](http://arxiv.org/abs/math/0102142))
 
