@@ -25,7 +25,7 @@ _String phenomenology_ is [[phenomenology]] in [[particle physics]] and [[cosmol
 
 Broadly speaking, _string phenomenology_ refers to investigations of the connection of [[string theory]] to experimentally observed [[physics]]. More restrictively it refers to constructions of string theory [[vacua]] whose [[effective field theory]] reproduces the [[standard model of particle physics]] and/or the [[standard model of cosmology]].
 
-String theory models naturally match the _general_ conceptual structure of the [[standard model of particle physics]] plus [[gravity]] (which is what drives the interest in string theory in the first place): for instance the standard model is a four dimensional [[QFT]] with a [[gauge theory|non-Abelian gauge symmetry]], several [[family of elementary particles|families]] of [[chiral fermions]] and hierarchical [[Yukawa couplings]] -- and the same is true for the generic [[Kaluza-Klein mechanism|compactification]] of the [[effective QFT]] that describes [[heterotic string theory]] on a 6-dimensional compact space ([CHSW85](#CHSW85)) as well as for [[11-dimensional supergravity]]/[[M-theory]] compactified on a [[G2-manifold]] ([AW01](#AW01)).
+String theory models naturally match the _general_ conceptual structure of the [[standard model of particle physics]] plus [[gravity]] (which is what drives the interest in string theory in the first place): for instance the standard model is a four dimensional [[QFT]] with a [[gauge theory|non-Abelian gauge symmetry]], several [[family of elementary particles|families]] of [[chiral fermions]] and hierarchical [[Yukawa couplings]] -- and the same is true for the generic [[Kaluza-Klein mechanism|compactification]] of the [[effective QFT]] that describes [[heterotic string theory]] on a 6-dimensional compact space ([CHSW85](#CHSW85)) as well as for [[11-dimensional supergravity]]/[[M-theory]] compactified on a [[G₂-manifold]] ([AW01](#AW01)).
 
 This structure alone already implies a variety of 3-body decays of the heavier fermions into the lighter ones and the existence of massive [[vector bosons]] coupling to [[charged currents]], which in the observed [[standard model of particle physics]] are the [[W-boson]], etc. (See section III of [AKK12](#AKK12) for an exposition.)
 
@@ -74,7 +74,7 @@ the addition of [[Wilson lines]] and a final breakdown of $D = 4$, $N = 1$ super
 
 See at _[References - Models in heterotic string theory](#ReferencesHeteroticModels)_
 
-The lift of these heterotic CY3-compactifications to [[M-theory]] is _[[M-theory on G2-manifolds]]_, discussed [below](#ModelsInMTheory).
+The lift of these heterotic CY3-compactifications to [[M-theory]] is _[[M-theory on G₂-manifolds]]_, discussed [below](#ModelsInMTheory).
 
 ### Models in type II string theory / F-theory
  {#ModelsInTypeIIWithIntersectingBranes}
@@ -114,9 +114,9 @@ Discussion of [[string phenomenology]] of [[intersecting D-brane models]] [[KK-c
 ### Models in M-theory
  {#ModelsInMTheory}
 
-The lift of the [heterotic models](#HeteroticStandardModels) compactified on [[Calabi-Yau manifolds]] to  [[11-dimensional supergravity]] with some of its "[[M-theory]]"-corrections taken into account is _[[M-theory on G2-manifolds]], hence M-theory  [[Kaluza-Klein compactification|KK-compactified]] on [[G2-manifolds]] (or rather: [[orbifolds]]) of, necessarily, [[dimension]] 7. 
+The lift of the [heterotic models](#HeteroticStandardModels) compactified on [[Calabi-Yau manifolds]] to  [[11-dimensional supergravity]] with some of its "[[M-theory]]"-corrections taken into account is _[[M-theory on G₂-manifolds]], hence M-theory  [[Kaluza-Klein compactification|KK-compactified]] on [[G₂-manifolds]] (or rather: [[orbifolds]]) of, necessarily, [[dimension]] 7. 
 
-Accordingly, models in this context go by the name _[[G2-MSSM]]_.
+Accordingly, models in this context go by the name _[[G₂-MSSM]]_.
 
 See at _[References - Models in M-theory](#ReferencesMTheoryModels)_.
 
@@ -333,7 +333,7 @@ Review:
 #### M-theory models
  {#ReferencesMTheoryModels}
 
-A comprehensive account on models in [[M-theory on G2-manifolds]] and the [[G2-MSSM]] is in 
+A comprehensive account on models in [[M-theory on G₂-manifolds]] and the [[G₂-MSSM]] is in 
 
 * [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Jing Shao, _The $G_2$-MSSM - An $M$ Theory motivated model of Particle Physics_ ([arXiv:0801.0478](http://arxiv.org/abs/0801.0478))
 
