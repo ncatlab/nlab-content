@@ -46,7 +46,7 @@ On [[distributive laws]] between [[monads]] and [[comonads]]:
 
 On the history of [[categorical algebra|categorical]] [[universal algebra]] via [[Lawvere theories]] and [[monads]]:
 
-* [[Martin Hyland]], [[John Power]], *The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads*, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
+* [[Martin Hyland]], [[John Power]], *The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads*, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Publications/2007/hp07.pdf)&rbrack;
 
 
 
