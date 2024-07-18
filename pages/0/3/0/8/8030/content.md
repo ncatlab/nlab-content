@@ -45,7 +45,7 @@ A well-studied example is 6-dimensional [[Einstein-Maxwell theory]] with magneti
 
 (On the other hand, Freund-Rubin compactifications usually have fibers the site of the curvature radius of the base, and hence not "small".)
 
-Similarly, in [[string theory]] it is argued that the extra fields and further string theoretic effects may stabilize the compact dimensions, namely a combination of [[flux compactification]] and [[non-perturbative effect|non-perturbative]] [[brane]] effects ([Acharya 02](#Acharya02), [KKLT 03](#KKLT03)). However, these arguments typically focus on fluctuations that preserve given [[special holonomy]] ([[supersymmetry and Calabi-Yau manifolds|Calabi-Yau 3-folds]] in type II or [[M-theory on G2-manifolds|G2-manifolds in M-theory]]). There is also a more generic argument for volume compactification by string winding modes ("[[Brandenberger-Vafa mechanism]]" [Brandenberger-Vafa 89](#BrandenbergerVafa89), [Watson-Brandenberger 03](#WatsonBrandenberger03)) and the claim ([Kim-Nishimura-Tsuchiya 12](#KimNishimuraTsuchiya12)) that in the non-perturbative [[IKKT model]] computer simulations show a spontaneous stable compactification to 3+1 dimensions.
+Similarly, in [[string theory]] it is argued that the extra fields and further string theoretic effects may stabilize the compact dimensions, namely a combination of [[flux compactification]] and [[non-perturbative effect|non-perturbative]] [[brane]] effects ([Acharya 02](#Acharya02), [KKLT 03](#KKLT03)). However, these arguments typically focus on fluctuations that preserve given [[special holonomy]] ([[supersymmetry and Calabi-Yau manifolds|Calabi-Yau 3-folds]] in type II or [[M-theory on G₂-manifolds|G₂-manifolds in M-theory]]). There is also a more generic argument for volume compactification by string winding modes ("[[Brandenberger-Vafa mechanism]]" [Brandenberger-Vafa 89](#BrandenbergerVafa89), [Watson-Brandenberger 03](#WatsonBrandenberger03)) and the claim ([Kim-Nishimura-Tsuchiya 12](#KimNishimuraTsuchiya12)) that in the non-perturbative [[IKKT model]] computer simulations show a spontaneous stable compactification to 3+1 dimensions.
 
 ### For string theory compactifications
 
@@ -61,7 +61,7 @@ $$
 
 couples the flux VEV to the metric $g$ (via the [[Hodge star operator]]) and hence to the moduli, it generically induces an effective [[potential energy]] for these, which may stabilize them (when including [[non-perturbative effects]]).
 
-Similarly in [[M-theory on G2-manifolds]] the 4-form flux of the [[supergravity C-field]] leads to potentials for the moduli, which is argued to generically stabilize them ([Acharya 02](#Acharya02)).
+Similarly in [[M-theory on G₂-manifolds]] the 4-form flux of the [[supergravity C-field]] leads to potentials for the moduli, which is argued to generically stabilize them ([Acharya 02](#Acharya02)).
 
 Since for these flux compactifications only the [[periods]] of the form fields on the compact space matter, under a bunch of further assumptions on the nature of the compactification, one can reduce the number of possible such compactifications to a combinatorial problem. The resulting space of possibilities is also known  as the _[[landscape of string theory vacua]]_.
 
@@ -75,7 +75,7 @@ The moduli stabilization in ([KKLT 03](#KKLT03)) was (informally) argued in two 
 
 * [[flux compactification]]
 
-* [[G2-MSSM]]
+* [[G₂-MSSM]]
 
 * [[landscape of string theory vacua]]
 
@@ -186,7 +186,7 @@ See also:
 #### In M-theory
  {#ReferencesInMTheory}
 
-Discussion of moduli stabilization in [[M-theory on G2-manifolds]] for stabilization via "[[flux]]" (non-vanishing bosonic  [[field strength]] of the [[supergravity C-field]]) is in
+Discussion of moduli stabilization in [[M-theory on G₂-manifolds]] for stabilization via "[[flux]]" (non-vanishing bosonic  [[field strength]] of the [[supergravity C-field]]) is in
 
 * {#Acharya02} [[Bobby Acharya]], _A Moduli Fixing Mechanism in M theory_ ([arXiv:hep-th/0212294](http://arxiv.org/abs/hep-th/0212294))
 
@@ -198,7 +198,7 @@ and [[moduli stabilization]] for fluxless compactifications via [[nonperturbativ
 
 * {#AcharyaKumarBobbkovKaneShaoWatson08} [[Bobby Acharya]], [[Piyush Kumar]], Konstantin Bobkov, [[Gordon Kane]], Jing Shao, Scott Watson, _Non-thermal Dark Matter and the Moduli Problem in String Frameworks_,JHEP 0806:064,2008 ([arXiv:0804.0863](http://arxiv.org/abs/0804.0863))
 
-and specifically for the [[G2-MSSM]] in
+and specifically for the [[G₂-MSSM]] in
 
 * [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Jing Shao, _The $G_2$-MSSM - An $M$ Theory motivated model of Particle Physics_ ([arXiv:0801.0478](http://arxiv.org/abs/0801.0478))
 
