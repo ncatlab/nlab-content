@@ -26,7 +26,7 @@ In modern mathematics the Platonic solids are still a source of rich structure, 
 
 [[!include ADE -- table]]
 
-By way of this correspondence, in the speculative [[physics]] [[theory (physics)|theory]] called _[[M-theory on G2-manifolds]]_, the Platonic solids do again serve to exhibit fundamental aspects of nature, even if in a more intricate way than Timaeus had imagined. 
+By way of this correspondence, in the speculative [[physics]] [[theory (physics)|theory]] called _[[M-theory on G₂-manifolds]]_, the Platonic solids do again serve to exhibit fundamental aspects of nature, even if in a more intricate way than Timaeus had imagined. 
 
 ## Cosmogeny
  {#Cosmogeny}
