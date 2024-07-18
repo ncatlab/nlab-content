@@ -303,7 +303,7 @@ A non-trivial conistency check of this idea is announced in ([Nikolaus 14](#Niko
 
 * [[string phenomenology]]
 
-  * [[G2-MSSM]]
+  * [[G₂-MSSM]]
 
 ### String theory results applied elsewhere
 
@@ -391,7 +391,7 @@ Textbooks on [[string theory]] and [[M-theory]] include the following (for more 
   Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
 
 
-  (on [[M-theory on G2-manifolds]] and the [[G2-MSSM]])
+  (on [[M-theory on G₂-manifolds]] and the [[G₂-MSSM]])
 
 
 * [[Mikio Nakahara]], 
