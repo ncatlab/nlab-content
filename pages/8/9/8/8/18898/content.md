@@ -77,7 +77,7 @@ respecting the exchange structure and satisfying identity and associativity laws
 
 ## References
 
-* [[Martin Hyland]], _Proof theory in the abstract_ ([pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2002/pta02.pdf))
+* [[Martin Hyland]], _Proof theory in the abstract_ ([pdf](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Publications/2002/pta02.pdf))
  {#Hyland}
 
 [[!redirects star-polycategories]]
