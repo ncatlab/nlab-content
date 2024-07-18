@@ -86,9 +86,9 @@ $$
 
 #### Relation to M-theory on $G_2$-manifolds
 
-In order to get minimal [[N=1 d=4 supergravity]] after [[KK-compactification]], one needs [[M-theory on G2-manifolds]] and [[F-theory on CY4-manifolds]].
+In order to get minimal [[N=1 d=4 supergravity]] after [[KK-compactification]], one needs [[M-theory on G₂-manifolds]] and [[F-theory on CY4-manifolds]].
 
-Discussion of the relation between then [[G2-manifold]] fibers for [[M-theory on G2-manifolds]] and the corresponding [[Calabi-Yau manifold|Calabi-Yau 4-manifold]] fibers in F-theory includes ([Gukov-Yau-Zaslow 02](#GukovYauZaslow02), [Belhaj 02](#Belhaj02)). 
+Discussion of the relation between then [[G₂-manifold]] fibers for [[M-theory on G₂-manifolds]] and the corresponding [[Calabi-Yau manifold|Calabi-Yau 4-manifold]] fibers in F-theory includes ([Gukov-Yau-Zaslow 02](#GukovYauZaslow02), [Belhaj 02](#Belhaj02)). 
 
 
 #### Relation to heterotic M-theory on ADE-singularities 
