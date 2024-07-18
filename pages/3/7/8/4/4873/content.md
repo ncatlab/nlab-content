@@ -21,6 +21,14 @@ The trivial [[knot]].
 
 An *unknot* is any [[knot]] [[isotopy|isotopic]] to the flat [[circle]] embedded in the $(x,y)$-plane of $\mathbb{R}^3$. 
 
+
+
+## Related concepts
+
+* [[trefoil knot]]
+
+* [[figure eight knot]]
+
 ## References
 
 See also
