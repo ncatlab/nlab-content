@@ -45,7 +45,7 @@ Experimental exclusion as of 2017
 
 * {#ParticleDataGroup17} [Particle Data Group Review 2017](http://pdg.lbl.gov/), 113. _Supersymmetry , part II (experiment)_ ([pdf](http://pdg.lbl.gov/2017/reviews/rpp2017-rev-susy-2-experiment.pdf))
 
-Discussion of remaining possibilities from the point of view of the [[G2-MSSM]]:
+Discussion of remaining possibilities from the point of view of the [[G₂-MSSM]]:
 
 * {#BuschmannGonzalesKane18} Malte Buschmann, Eric Gonzalez, [[Gordon Kane]], _Revisiting Gluinos at LHC_ ([arXiv:1803.04394](https://arxiv.org/abs/1803.04394))
 
