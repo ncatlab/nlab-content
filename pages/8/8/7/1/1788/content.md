@@ -107,7 +107,7 @@ where the first [[isomorphism]] is by Okuyama's theorem (eq:OkuyamaTheorem), the
 
 Hence we ask which loop diagram of charged strings corresponds to the Hopf fibration, under this sequences of isomorphisms.
 
-{#Merger} In the following analysis we consider continuous paths *of* continuous paths of configurations of charged strings -- hence continuous maps $[0,1]^2 \to Conf^I(\mathbb{R}^2)$, such as the following
+{#Merger} In the following analysis we consider continuous paths *of* continuous paths of configurations of charged strings -- hence continuous maps $[0,1]^2 \to Conf^I(\mathbb{R}^2)$, the two main building blocks being the merger
 
 \begin{imagefromfile}
     "file_name": "ChargedStringyMerge-240716.jpg",
@@ -121,8 +121,8 @@ Hence we ask which loop diagram of charged strings corresponds to the Hopf fibra
     }
 \end{imagefromfile}
 
+and the vanishing of the plain loop diagram.
 
-First, the plain loop diagram should have the trivial class in $\pi_1$ of Okuyama's configuration space:
 
 \begin{imagefromfile}
     "file_name": "ChargedStringLoop-240715.jpg",
@@ -136,7 +136,7 @@ First, the plain loop diagram should have the trivial class in $\pi_1$ of Okuyam
     }
 \end{imagefromfile}
 
-{#ChargedStringLoopWithTwist} The following loop should have a non-trivial class in $\pi_1\big(Conf^I(\mathbb{R}^2)\big)$:
+{#ChargedStringLoopWithTwist} The following based loop should have a non-trivial class in $\pi_1\big(Conf^I(\mathbb{R}^2)\big)$ and we will argue that all other based loops have classes which are integral multiples of this one:
 
 \begin{imagefromfile}
     "file_name": "ChargedStringLoopWithTwist-240717b.jpg",
@@ -153,9 +153,9 @@ First, the plain loop diagram should have the trivial class in $\pi_1$ of Okuyam
 
 This example brings out the key difference between loops in McDuff's configuration space of charged points and loops in Okuyama's configuration spaces of charged strings: The former may essentially be regarded as [[oriented links]], while the latter carry the further [[structure]] of *[[framed links]]*.
 
-As such, the above is the [[unknot]]-[[link]] but equipped with non-vanishing [[framing number]] $+1$.
+As such, the above is the [[unknot]]-[[link]] but equipped with non-vanishing [[framing number]] $+1$ (say, the choice of the sign is a convention).
 
-{#ChargedStringHopfLink} In view of this, we find that the charged stringy version of the [[Hopf link]] is equivalent, as an element of $\pi_1\big(Conf^I(\mathbb{R}^2)\big)$, to the [[unknot]] equipped with [[framing number]] $+2$:
+{#ChargedStringHopfLink} In view of this, we find that the charged stringy version of the [[Hopf link]] is equivalent, as an element of $\pi_1\big(Conf^I(\mathbb{R}^2)\big)$ and via the abover merger move, to the [[unknot]] equipped with [[framing number]] $+2$:
 
 
 \begin{imagefromfile}
@@ -170,7 +170,7 @@ As such, the above is the [[unknot]]-[[link]] but equipped with non-vanishing [[
     }
 \end{imagefromfile}
 
-In fact, by applying the same move on the left, this shows that the Hopf link represents twice the class of the previous example in $\pi_1\big(Conf^I(\mathbb{R}^2)\big)$.
+In fact, by applying the same merger move on the left, this shows that the Hopf link represents twice the class of the previous example in $\pi_1\big(Conf^I(\mathbb{R}^2)\big)$.
 
 {#ChargedStringOppositeHopfLink} Analogously, the [[Hopf link]] with the opposite relative [[oriented link|orientation]] represents $-2$ times that unit class:
 
@@ -185,6 +185,12 @@ In fact, by applying the same move on the left, this shows that the Hopf link re
         "left": 15
     }
 \end{imagefromfile}
+
+#### Charged string loops as framed oriented link diagrams
+
+These examples should suffice to illustrate how [[framed links|framed]] [[oriented links|oriented]] [[link diagrams]] may be regarded as [[based loops]] in the Okuyama configuration space, and conversely how every based loop of Okuyama configurations -- possibly up to some slight continuous deformation  -- comes from a framed oriented link diagram in this way. Therefore, from now on we just draw [[framed link|framed]] [[oriented link|oriented]] [[link diagrams]], in fact we will draw just oriented link diagrams and declare the framing to be the blackboard framing (as implicit alrweady in the above examples).
+
+In this notation, the merger-move looks as follows:
 
 
 (...)
