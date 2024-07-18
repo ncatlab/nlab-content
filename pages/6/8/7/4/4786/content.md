@@ -27,11 +27,11 @@ The _exceptional Lie groups_ are the [[exceptional structures]] among the [[simp
 
 The classification of [[simple Lie groups]] consists of four infinite series -- the [[classical Lie groups]], and five exceptional Lie groups, called
 
-* [[G2]], [[F4]], [[E6]], [[E7]], and [[E8]].
+* [[G₂]], [[F₄]], [[E₆]], [[E₇]] and [[E₈]]
 
 On the level of [[Kac-Moody Lie algebras]]/[[Kac-Moody groups]] the E-series continues as
 
-* [[E9]], [[E10]], [[E11]], ...
+* [[E₉]], [[E₁₀]], [[E₁₁]], ...
 
 
 
