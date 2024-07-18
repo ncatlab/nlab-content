@@ -205,7 +205,24 @@ In this notation, the merger-move looks as follows:
     }
 \end{imagefromfile}
 
-**Proposition.** The merger move implies the [1st Reidemeister move](framed+link#1stReidemeisterMove).
+\begin{proposition}
+\label{VacuumAndSaddleMoveImplyReidemeister}
+The vacuum and merger move imply the [1st Reidemeister move](framed+link#1stReidemeisterMove) for [[framed links]]:
+
+\begin{imagefromfile}
+    "file_name": "FramedReidemeisterFromSaddle-240718.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 15
+    }
+\end{imagefromfile}
+
+Therefore, regarding framed oriented link diagrams as loops in the Okuyama configuration space descends to a map from isotopy classes of framed oriented links to the [[fundamental group]] of the Okuyama configuration space.
+\end{proposition}
 
 (...)
 
