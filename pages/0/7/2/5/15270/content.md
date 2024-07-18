@@ -160,7 +160,7 @@ Specifically the ADE classfication involved in the [[6d (2,0)-supersymmetric QFT
 
 * {#HeckmannMorrisonVafa13} [[Jonathan Heckman]], [[David Morrison]], [[Cumrun Vafa]], _On the Classification of 6D SCFTs and Generalized ADE Orbifolds_ ([arXiv:1312.5746](http://arxiv.org/abs/1312.5746))
 
-Discussion in the context of [[M-theory on G2-manifolds]] includes
+Discussion in the context of [[M-theory on G₂-manifolds]] includes
 
 * {#Acharya02} [[Bobby Acharya]], section 3.1.1 of _M Theory, $G_2$-manifolds and Four Dimensional Physics_,  Classical and Quantum Gravity Volume 19 Number 22, 2002  ([pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf))
 
