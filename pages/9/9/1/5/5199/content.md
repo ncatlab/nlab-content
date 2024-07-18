@@ -101,6 +101,9 @@ A pair of framed [[link diagrams]] corresponds to the same framed link iff they 
     }
 \end{imagefromfile}
 
+Here (only) the first is different from the 1st [[Reidemeister move]] for ordinary [[links]]: Where the latter says that a "twist" in the link diagram may by removed (by "yanking" it straight), here for framed link this is no longer the case in general, but that a twist may cancel against the opposite twist:
+
+[[!include modified Reidemeister move 1 - SVG]]
 
 
 
@@ -114,6 +117,10 @@ A pair of framed [[link diagrams]] corresponds to the same framed link iff they 
 * [[oriented link]]
 
 * [[linking number]]
+
+* [[crossing number]]
+
+* [[writhe]]
 
 ## References
 
