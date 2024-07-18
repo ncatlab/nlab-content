@@ -79,14 +79,14 @@ One method of remembering the sign convention is to imagine an approach to the c
 
 ### Writhe
 
-The *writhe* of an [[oriented link|oriented]] *knot* or *link* diagram is the [[sum]] of the signs of all its crossings.  If $D$ is the diagram, we denote its writhe by $w(D)$.
+The *[[writhe]]* of an [[oriented link|oriented]] *knot* or *link* diagram is the [[sum]] of the signs of all its crossings.  If $D$ is the diagram, we denote its [[writhe]] by $w(D)$.
 
-The writhe is used in the definition of some of the [[knot invariants]].
+The [[writhe]] is used in the definition of some of the [[knot invariants]].
 
 
 ### Linking number
 
-The *linking number* is a variant of the writhe that is more adapted for use with links. 
+The *linking number* is a variant of the [[writhe]] that is more adapted for use with links. 
 
 Consider an [[oriented link]] diagram $D$ with components $C_1, \ldots, C_m$.
 
@@ -121,7 +121,7 @@ Hence for a framed link the total linking number is equivalently half the sum of
 
 ## Examples
 
-The writhe 
+The [[writhe]] 
 
 * of the [[trefoil knot]] is 3, 
 
@@ -134,7 +134,7 @@ The writhe
 
 ### Invariance?
 
-The writhe is not an isotopy invariant, as it can be changed but twisting a stand of the knot (or link).
+The [[writhe]] is not an [[isotopy]] [[invariant]], as it can be changed by twisting a strand of the knot (or link).
 
 +-- {: .un_proposition}
 ###### Proposition
@@ -176,6 +176,10 @@ An immediate consequence of the fact that the sum of the signs of the crossings 
 
 * [[framing number]]
 
+* [[writhe]]
+
+* [[crossing number]]
+
 ## References
 
 * {#Ohtsuki01} [[Tomotada Ohtsuki]], pp 7 in: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
@@ -197,5 +201,7 @@ An immediate consequence of the fact that the sum of the signs of the crossings 
 
 [[!redirects linking matrix]]
 [[!redirects linking matrices]]
+
+[[!redirects writhe]]
 
 
