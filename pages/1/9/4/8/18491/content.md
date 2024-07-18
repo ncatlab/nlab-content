@@ -3,7 +3,7 @@
 
 ## Selected writings
 
-On [[compact twisted connected sum G2-manifolds]]:
+On [[compact twisted connected sum G₂-manifolds]]:
 
 
 * {#Kovalev03} [[Alexei Kovalev]], _Twisted connected sums and special Riemannian holonomy_, J. Reine Angew. Math. 565 (2003), 125--160 ([arXiv:math/0012189](https://arxiv.org/abs/math/0012189))
@@ -14,8 +14,8 @@ On [[compact twisted connected sum G2-manifolds]]:
 
 ## Related entries
 
-* [[G2-manifold]]
+* [[G₂-manifold]]
 
-* [[M-theory on G2-manifolds]]
+* [[M-theory on G₂-manifolds]]
 
 category: people
