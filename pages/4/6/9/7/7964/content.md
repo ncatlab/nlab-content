@@ -105,7 +105,7 @@ More specifically, [Isidori-Pattori 17](#IsidoriPattori17) claims that, under re
 
 > graphics grabbed from [Isidori-Pattori 17](#IsidoriPattori17)
 
-That [[supersymmetry]], possibly in a [[G2-MSSM]], would be a natural mechanism behind the near criticality of the Higgs field was also claimed in [Kane 18, "Clue 4"](#Kane18).
+That [[supersymmetry]], possibly in a [[G₂-MSSM]], would be a natural mechanism behind the near criticality of the Higgs field was also claimed in [Kane 18, "Clue 4"](#Kane18).
 
 
 
@@ -188,7 +188,7 @@ For review see [Ibanez-Uranga 12, fig 10.2](intersecting+D-brane+model#IbanezUra
 
 #### In $G_2$-MSSM
 
-Discussion of the Higgs mechanism in the [[G2-MSSM]]: [Kane 11](#Kane11), [Kane-Kumar-Lu-Zheng 11](#KaneKumarLuZheng11), for review see [Kane 17](#Kane17), [Kane 18](#Kane18)
+Discussion of the Higgs mechanism in the [[G₂-MSSM]]: [Kane 11](#Kane11), [Kane-Kumar-Lu-Zheng 11](#KaneKumarLuZheng11), for review see [Kane 17](#Kane17), [Kane 18](#Kane18)
 
 ### Other
 
@@ -334,7 +334,7 @@ attractor mechanism in a [[landscape of string theory vacua|landscape of vacua]]
 
 * {#BDGGSSS13} Dario Buttazzo, Giuseppe Degrassi, Pier Paolo Giardino, [[Gian Giudice]], Filippo Sala, Alberto Salvio, [[Alessandro Strumia]], section 7 of _Investigating the near-criticality of the Higgs boson_, JHEP12(2013)089 ([arXiv:1307.3536](https://arxiv.org/abs/1307.3536))
 
-an [[supersymmetry|supersymmetric]]-extension of the [[standard model of particle physics]] (e.g. [[MSSM]], [[G2-MSSM]], ...)
+an [[supersymmetry|supersymmetric]]-extension of the [[standard model of particle physics]] (e.g. [[MSSM]], [[G₂-MSSM]], ...)
 
 * {#IsidoriPattori17} Gino Isidori, Andrea Pattori, _On the tuning in the $(m_h, m_t)$ plane: Standard Model criticality vs. High-scale SUSY_, Physics Letters B Volume 782, 10 July 2018, Pages 551-558 ([arXiv:1710.11060](https://arxiv.org/abs/1710.11060))
 
@@ -456,7 +456,7 @@ Discussion of the Higgs field from [[intersecting D-brane models]] is due to
 * {#HINSS18} Manami Noumi Hashi, Hiroshi Isono, Toshifumi Noumi, [[Gary Shiu]], Pablo Soler, _Higgs Mechanism in Nonlocal Field Theories_, JHEP08 (2018) 064 ([arXiv:1805.02676](https://arxiv.org/abs/1805.02676))
 
 
-Discussion of the Higgs mechanism in the [[G2-MSSM]] and related models is due to
+Discussion of the Higgs mechanism in the [[G₂-MSSM]] and related models is due to
 
 * {#Kane11} [[Gordon Kane]], _String theory and generic predictions for our world &#8211; superpartner masses, LHC signatures, dark matter, EWSB, cosmological history of universe, etc_, talk at String phenomenology 2011, August 2011 ([pdf](http://conferencing.uwex.edu/conferences/stringpheno2011/documents/kane.pdf))
 
