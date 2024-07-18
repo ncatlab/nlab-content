@@ -27,7 +27,7 @@ While the [[abstract general]] [[theory]] of super-Cartan geometry proceeds in d
 
 1. The [[super Euclidean spaces]] and [[super-Minkowski spacetimes]], have, as [[super-translation groups]], [[non-abelian group|non-abelian]] [[supergroup]] structure, which is reflected in the fact that the [[left-invariant 1-forms]] ([[super differential forms]]) on these spaces are _not_ closed. This means that they carry natural intrinsic [[torsion of a G-structure]]. Due to this fact the super-Cartan geometry involved in [[supergravity]] is richer than its bosonic counterpart in a way that goes beyond the addition of "superpartners". For more on this see also at _[[torsion constraints of supergravity]]_.
 
-1. In particular [[super-Minkowski spacetimes]] carry non-trivial exceptional [[super Lie algebra]] [[Lie algebra cohomology|cocycles]]. Their globalization as [[definite forms]] is hence [[analogy|analogous]] to what is known in the bosonic case for instance for [[G2-structure]]. These globalizations play a key role in the discussion of [[super p-brane]] [[sigma-models]] on curved [[supergravity]] backgrounds. Moreover, these cocycles classify [[super L-infinity algebra]] [[L-infinity algebra cohomology|extensions]] of [[super Minkowski spacetime]] known as [[extended super Minkowski spacetimes]]. This is the origin of much of [[higher Cartan geometry]] within super-Cartan geometry.
+1. In particular [[super-Minkowski spacetimes]] carry non-trivial exceptional [[super Lie algebra]] [[Lie algebra cohomology|cocycles]]. Their globalization as [[definite forms]] is hence [[analogy|analogous]] to what is known in the bosonic case for instance for [[G₂-structure]]. These globalizations play a key role in the discussion of [[super p-brane]] [[sigma-models]] on curved [[supergravity]] backgrounds. Moreover, these cocycles classify [[super L-infinity algebra]] [[L-infinity algebra cohomology|extensions]] of [[super Minkowski spacetime]] known as [[extended super Minkowski spacetimes]]. This is the origin of much of [[higher Cartan geometry]] within super-Cartan geometry.
 
 
 ## Survey of (non-)existing literature
@@ -2244,7 +2244,7 @@ A choice of [[definite form]], def. \ref{DefiniteForm}, on a $V$-manifold $X$, d
 
 For $V = \mathbb{R}^{2n}$ and $\phi$ the canonical [[symplectic form]], then is [[stabilizer group]] is the [[symplectic group]] and a [[G-structure]] in this case is [[almost symplectic structure]].
 
-For $V = \mathbb{R}^7$ and $\phi$ the [[associative 3-form]], then its [[stabilizer group]] is [[G2]] and a [[G-structure]] in this case is a [[G2-structure]].
+For $V = \mathbb{R}^7$ and $\phi$ the [[associative 3-form]], then its [[stabilizer group]] is [[G₂]] and a [[G-structure]] in this case is a [[G₂-structure]].
 
 =--
 
@@ -2319,7 +2319,7 @@ $$
 
 =--
 
-This means that for applications to [[supergravity]] the inclusion of [[supergroups]] for the corresponding super Cartan geometry is not so much a choice made by hand, as rather being analogous to the [[G2-structure]] which is automatically imposed once one demands a differential form definite on the [[associative 3-form]].
+This means that for applications to [[supergravity]] the inclusion of [[supergroups]] for the corresponding super Cartan geometry is not so much a choice made by hand, as rather being analogous to the [[G₂-structure]] which is automatically imposed once one demands a differential form definite on the [[associative 3-form]].
 
 ## Related entries
 
