@@ -447,7 +447,7 @@ The class of the [[cocycle]] $\mathbf{KS}(\rho)$ is the [[obstruction]] to prequ
 ### Definite forms
  {#DefiniteForms}
 
-The concept of extending a closed [[differential form]] defined on a [[Cartesian space]] $\mathbb{R}^n$ to a _[[definite form]]_ on an $n$-dimensional manifold is familiar from [[special holonomy]] manifolds. For instance a definite globalization of the [[associative 3-form]] on $\mathbb{R}^7$ to a 7-manifold induces and is induced by a [[G2-structure]]. But by the discussion at _[[geometry of physics -- prequantum geometry]]_, whenever we see a closed differential form we have to ask whether it is the [[curvature]] of a [[cocycle]] in [[differential cohomology]], hence we have to ask for a higher [[prequantization]]. Here we consider the concept of [[definite forms]] prequantized to such _[[definite globalizations of WZW terms]]_. 
+The concept of extending a closed [[differential form]] defined on a [[Cartesian space]] $\mathbb{R}^n$ to a _[[definite form]]_ on an $n$-dimensional manifold is familiar from [[special holonomy]] manifolds. For instance a definite globalization of the [[associative 3-form]] on $\mathbb{R}^7$ to a 7-manifold induces and is induced by a [[G₂-structure]]. But by the discussion at _[[geometry of physics -- prequantum geometry]]_, whenever we see a closed differential form we have to ask whether it is the [[curvature]] of a [[cocycle]] in [[differential cohomology]], hence we have to ask for a higher [[prequantization]]. Here we consider the concept of [[definite forms]] prequantized to such _[[definite globalizations of WZW terms]]_. 
 
 
 +-- {: .num_prop #FunctionsOnTotalSpacesAreSectionsOfFunctionBundle}
@@ -539,7 +539,7 @@ Let $\mathbf{H} = $ [[Smooth∞Grpd]].
 1. For $\mathbf{L}\colon T^\ast \mathbb{R}^n \to \mathbf{B}U(1)_{conn}$ the [[Liouville-Poincaré 1-form]] $\theta = \sum_{i = 1}^n p_i d q^i$ (regarded as a [[principal connection]] on the trivial [[circle bundle]]), then a definite globalization of $\mathbf{L}$ is a [[symplectic manifold]] equipped with a [[prequantum line bundle]].
 
 
-1. for $\mathbf{L}\colon \mathbb{R}^7 \longrightarrow \mathbf{B}^3 U(1)_{conn}$ a potential for the [[associative 3-form]], then a definite globalization is a manifold with [[G2-structure]] $(X,\omega_3)$ equipped with a [[bundle gerbe with connection]] whose 3-form curvature is $\omega_3$.
+1. for $\mathbf{L}\colon \mathbb{R}^7 \longrightarrow \mathbf{B}^3 U(1)_{conn}$ a potential for the [[associative 3-form]], then a definite globalization is a manifold with [[G₂-structure]] $(X,\omega_3)$ equipped with a [[bundle gerbe with connection]] whose 3-form curvature is $\omega_3$.
 
 =--
 
