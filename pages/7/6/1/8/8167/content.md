@@ -23,7 +23,7 @@ In [[particle physics]] the letters _MSSM_ are an abbreviation for "minimally su
 
 ## Examples
 
-* [[G2-MSSM]]
+* [[G₂-MSSM]]
 
 ## Related concepts
 
