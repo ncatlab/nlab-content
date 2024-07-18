@@ -8,5 +8,5 @@
 | $\,\mathbb{H}\,$ | $\,$[[quaternionic Kähler manifold]]$\,$ | $\,$[[Sp(n).Sp(1)]]$\,$ | $\,4n\,$ | $\,\omega_4 = \omega_1\wedge \omega_1+ \omega_2\wedge \omega_2 + \omega_3\wedge \omega_3\,$   |
 | | $\,$[[hyper-Kähler manifold]]$\,$ | $\,$[[symplectic group|Sp(n)]]$\,$ | $\,4n\,$ | $\,\omega = a \omega^{(1)}_2+ b \omega^{(2)}_2 + c \omega^{(3)}_2\,$ ($a^2 + b^2 + c^2 = 1$)  |
 | $\,\mathbb{O}\,$ | $\,$[[Spin(7) manifold]]$\,$ | $\,$[[Spin(7)]]$\,$ | $\,$8$\,$ | $\,$[[Cayley form]]$\,$ |
-|  | $\,$[[G2 manifold]]$\,$ | $\,$[[G2]]$\,$ | $\,7\,$ | $\,$[[associative 3-form]]$\,$ |
+|  | $\,$[[G₂ manifold]]$\,$ | $\,$[[G₂]]$\,$ | $\,7\,$ | $\,$[[associative 3-form]]$\,$ |
 
