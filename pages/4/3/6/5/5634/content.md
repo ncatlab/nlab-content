@@ -20,7 +20,7 @@
 
 ## Idea
 
-What is known in the literature as _discrete torsion_ ([Vafa 86](#Vafa86)) are phenomena of [[equivariant ordinary differential cohomology]], specifically of [[circle n-bundle with connection|circle 2-bundles with connection]] (e.g. represented as [[bundle gerbes]]) modelling the [[B-field]] in [[string theory]] over [[orbifold]] [[spacetimes]] ([Sharpe 99](#Sharpe99)) and of [[circle n-bundle with connection|circle 3-bundles with connection]] (e.g. represented as [[bundle 2-gerbes]]) modelling the [[supergravity C-field]] on [[orbifolds]] ([Sharpe 00](#Sharpe00)), as in [[M-theory on G2-manifolds]] with [[ADE-singularities]].
+What is known in the literature as _discrete torsion_ ([Vafa 86](#Vafa86)) are phenomena of [[equivariant ordinary differential cohomology]], specifically of [[circle n-bundle with connection|circle 2-bundles with connection]] (e.g. represented as [[bundle gerbes]]) modelling the [[B-field]] in [[string theory]] over [[orbifold]] [[spacetimes]] ([Sharpe 99](#Sharpe99)) and of [[circle n-bundle with connection|circle 3-bundles with connection]] (e.g. represented as [[bundle 2-gerbes]]) modelling the [[supergravity C-field]] on [[orbifolds]] ([Sharpe 00](#Sharpe00)), as in [[M-theory on G₂-manifolds]] with [[ADE-singularities]].
 
 ## Classification
 
@@ -49,7 +49,7 @@ This classification was observed again in [Sharpe 99](#Sharpe99), where such 2-c
 
 ### For the B-field
 
-Early discussion of classification in [[2d CFTs]] includes
+Early discussion of classification in [[D=2 CFTs|2d CFTs]] includes
 
 * [[Maximilian Kreuzer]], [[A. N. Schellekens]], _Simple currents versus orbifolds with discrete torsion -- a complete classification_,  	Nucl. Phys. B411 (1994) 97-121 ([arXiv:hep-th/9306145](https://arxiv.org/abs/hep-th/9306145))
 
