@@ -12,7 +12,7 @@
 
 * [[composition algebra]]
 
-* [[G2]]
+* [[G₂]]
 
 * [[Jordan algebra]]
 
