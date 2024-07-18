@@ -85,6 +85,10 @@ Thus, if the Archimedean ordered field satisfies [[trichotomy]], then the Archim
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Archimedean_property">Archimedean property</a>_
 
+This is called the *archimedean axiom* in 
+
+* [[Henri Lombardi]], [[Assia Mahboubi]], *Théories géométriques pour l'algèbre des nombres réels sans test de signe ni axiome de choix dépendant* ([arXiv:2406.15218](https://arxiv.org/abs/2406.15218))
+
 The alternative definition of the Archimedean property for ordered fields using the rational numbers is defined in section 11.2.1 of 
 
 * [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
@@ -92,6 +96,9 @@ The alternative definition of the Archimedean property for ordered fields using 
 and in section 4.3 of
 
 * {#Booij20} [[Auke Booij]], *Analysis in univalent type theory* (2020) $[$[etheses:10411]( 	http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf)$]$
+
+[[!redirects archimedean property]]
+[[!redirects Archimedean property]]
 
 [[!redirects archimedean property]]
 [[!redirects Archimedean property]]
