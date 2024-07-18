@@ -35,7 +35,7 @@ Relating [[M-theory on Spin(7)-manifolds]] with [[F-theory on Spin(7)-manifolds]
 
 * [[MSSM]]
 
-* [[M-theory on G2-manifolds]]
+* [[M-theory on G₂-manifolds]]
 
 * [[enhanced gauge symmetry]]
 
