@@ -34,7 +34,7 @@ See also:
 
 * Wikipedia, _[Doublet&#8211;triplet splitting problem](https://en.wikipedia.org/wiki/Doublet%E2%80%93triplet_splitting_problem)_
 
-Possible resolution for GUT-models in the context of [[M-theory on G2-manifolds]] is discussed in
+Possible resolution for GUT-models in the context of [[M-theory on G₂-manifolds]] is discussed in
 
 * {#Witten02} [[Edward Witten]], _Deconstruction, $G_2$ Holonomy, and Doublet-Triplet Splitting_, ([arXiv:hep-ph/0201018](http://arxiv.org/abs/hep-ph/0201018))
 
