@@ -246,6 +246,10 @@ General review:
 
 * {#AluriEtAl22} Pavan Kumar Aluri et al.: *Is the Observable Universe Consistent with the Cosmological Principle?*, Classical and Quantum Gravity **40** 9 (2023) &lbrack;[arXiv:2207.05765](https://arxiv.org/abs/2207.05765), [doi:10.1088/1361-6382/acbefc](https://doi.org/10.1088/1361-6382/acbefc)&rbrack;
 
+* [[Subir Sarkar]]: *A challenge to the cosmological standard model*, lectures (2023) &lbrack;[webpage](https://enabla.com/en/pub/1065/about), [pdf](https://enabla-s3.fra1.cdn.digitaloceanspaces.com/p/lecture/1065/additional/Presentation_Subir_Sarkar.pdf)&rbrack;
+
+
+
 On [[computer experiment]]:
 
 * {#Adamek18} Julian Adamek, _The Numerical Challenge -- Backreaction in Relativistic N-body Simulations of Cosmic Structure Formation_, talk at [CosmoBack 2018](https://cosmoback.sciencesconf.org/) ([[AdamekCosmoBack18.pdf:file]])
