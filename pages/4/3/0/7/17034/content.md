@@ -6,6 +6,6 @@
 
 * [[quaternionic Hopf fibration]]
 
-* [[G2]]
+* [[G₂]]
 
 category: people
