@@ -23,15 +23,15 @@
 
 * [[exceptional Lie groups]]
 
-  * [[G2]]
+  * [[G₂]]
 
-  * [[F4]] 
+  * [[F₄]]
 
-  * [[E6]], [[E7]], [[E8]]
+  * [[E₆]], [[E₇]], [[E₈]]
 
   and [[Kac-Moody groups]]:
 
-  * [[E9]], [[E10]], [[E11]], ...
+  * [[E₉]], [[E₁₀]], [[E₁₁]], ...
 
 * [[Dwyer-Wilkerson H-space]]
 
@@ -43,7 +43,7 @@
 
 * exceptional [[Jordan superalgebra]], $K_10$
 
-* [[E8 lattice]], [[Leech lattice]] 
+* [[E₈ lattice]], [[Leech lattice]] 
 
 * [[Cayley plane]]
 
