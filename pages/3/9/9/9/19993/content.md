@@ -14,13 +14,13 @@ On [[heterotic line bundles]] seen in [[F-theory]] under [[duality between M/F-t
 
 
 
-On [[Higgs bundles]] and [[M-theory on G2-manifolds]]:
+On [[Higgs bundles]] and [[M-theory on G₂-manifolds]]:
 
 * {#BCHS19} [[Andreas Braun]], Sebastjan Cizel, Max Hubner, [[Sakura Schafer-Nameki]], _Higgs Bundles for M-theory on G2-Manifolds_ ([arXiv:1812.06072](https://arxiv.org/abs/1812.06072))
 
 
 ## Related $n$Lab entries
 
-* [[G2-manifold]]
+* [[G₂-manifold]]
 
 category: people
