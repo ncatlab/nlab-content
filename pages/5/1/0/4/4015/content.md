@@ -128,7 +128,7 @@ The reference also proves that sheaf toposes over locally countably compact topo
 
 I should write down the classical proof (which uses [[excluded middle]]), as well as Brouwer\'s argument.
 
-Ideally, a page on [[bar induction]] would be added. This page would contain the classical proof of full bar induction, as well as Brouwer's reasoning for why bar induction should hold. We would then provide constructive proofs here that monotone bar induction implies the full fan theorem, and that decidable bar induction implies the decidable fan theorem.
+Ideally, the page on [[bar induction]] would contain the classical proof of full bar induction, as well as Brouwer's reasoning for why bar induction should hold. We would then provide constructive proofs here that monotone bar induction implies the full fan theorem, and that decidable bar induction implies the decidable fan theorem.
 
 ## References
 
@@ -148,9 +148,8 @@ More links that I need to keep in mind:
 
 Also:
 
-* [[Mike Fourman]], [[Martin Hyland]], _Sheaf models for analysis_. [PDF](https://www.dpmms.cam.ac.uk/~martin/Research/Oldpapers/analysis79.pdf)
+* [[Mike Fourman]], [[Martin Hyland]], _Sheaf models for analysis_. [PDF](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Oldpapers/analysis79.pdf)
   {#FourmanHyland}
-
 
 [[!redirects fan theorem]]
 [[!redirects Fan theorem]]
