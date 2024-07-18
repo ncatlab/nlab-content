@@ -21,7 +21,7 @@ Given a [[vector space]] $V$ and an element $\phi$ in the [[exterior product]] $
 
 The existence of a definite form implies a [[G-structure]] on $X$ for $G$ the [[stabilizer subgroup]] of $\phi$. 
 
-A class of examples of definite forms are the 3-forms on [[G2-manifolds]], these are definite on the "[[associative 3-form]]" on $\mathbb{R}^7$.
+A class of examples of definite forms are the 3-forms on [[G₂-manifolds]], these are definite on the "[[associative 3-form]]" on $\mathbb{R}^7$.
 
 The [[higher prequantization]] of a definition form is a [[definite globalization of a WZW term]].
 
@@ -36,7 +36,7 @@ Given a [[vector space]] $V$ and a [[stable form]] $\phi \in \wedge^p V^\ast$ (h
 
 ### $G_2$-manifolds
 
-See at _[G2-manifold -- Definite forms](G2-manifold#Definite3Forms)_
+See at _[G₂-manifold -- Definite forms](G₂-manifold#Definite3Forms)_
 
 ## References
 
