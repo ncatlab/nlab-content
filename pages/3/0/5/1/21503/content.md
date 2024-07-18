@@ -53,11 +53,11 @@ though [Kihara 16](#Kihara16) writes ([p. 2](https://arxiv.org/pdf/1605.06794.pd
 
 > there exists a gap in the proof of [Haraguchi-Shimakawa 13](#HaraguchiShimakawa13), Theorem 5.6
 
-This gap is addressed in
+This gap has been filled in
 
 * {#Haraguchi18} [[Tadayuki Haraguchi]], _Homotopy structures of smooth CW complexes_ ([arXiv:1811.06175](https://arxiv.org/abs/1811.06175))
 
-* {#HaraguchiShimakawa20} [[Tadayuki Haraguchi]], [[Kazuhisa Shimakawa]], _A model structure on the category of diffeological spaces, I_ ([arXiv:2011.12842](https://arxiv.org/abs/2011.12842))
+* {#HaraguchiShimakawa20} [[Tadayuki Haraguchi]], [[Kazuhisa Shimakawa]], _A model structure on the category of diffeological spaces, I_, Mathematical Journal of Okayama University (2024) &lbrack;[arXiv:2011.12842](https://arxiv.org/abs/2011.12842)&rbrack;
 
 
 A different model structure, however not using the standard smooth homotopy groups(!), is claimed (and published) in 
