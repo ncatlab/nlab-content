@@ -20,7 +20,7 @@
 
 A [[membrane]] [[sigma-model]] [[topological quantum field theory]]. Roughly related to [[topological M-theory]] as the [[M5-brane]] is related to [[M-theory]] and to the [[topological M2-brane]]  as the [[M5-brane]] is related to the [[M2-brane]].
 
-The [[target space]] of the topological membrane is a [[G2-manifold]], the [[action functional]] is governed by the [[higher holonomy]] of the compatible [[C6-field]] over the membrane [[worldvolume]].
+The [[target space]] of the topological membrane is a [[G₂-manifold]], the [[action functional]] is governed by the [[higher holonomy]] of the compatible [[C6-field]] over the membrane [[worldvolume]].
 
 ## Related concepts
 
