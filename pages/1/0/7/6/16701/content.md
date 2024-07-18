@@ -13,6 +13,6 @@ On [[D4-D8 brane bound states]] as [[black branes]]:
 
 ## Related $n$Lab entries
 
-* [[G2 manifold]]
+* [[G₂ manifold]]
 
 category: people
