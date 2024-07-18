@@ -15,7 +15,7 @@ On [[machine learning]] the detection of [[unknots]]:
 
 ## Related entries
 
-* [[M-theory on G2-manifolds]]
+* [[M-theory on G₂-manifolds]]
 
 * [[F-theory]]
 
