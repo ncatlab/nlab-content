@@ -204,3 +204,7 @@ On loop spaces of [[configuration spaces of points]]:
 
 [[!redirects based loop space]]
 [[!redirects based loop spaces]]
+
+[[!redirects based loop]]
+[[!redirects based loops]]
+
