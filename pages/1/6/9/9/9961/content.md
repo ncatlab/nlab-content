@@ -135,6 +135,11 @@ Further on [[higher gauge theory|higher]] lattice gauge theory:
 
 * [[Juan Orendain]], [[José A. Zapata]], *Higher homotopy and lattice gauge fields* &lbrack;[arXiv:2311.02363](https://arxiv.org/abs/2311.02363)&rbrack;
 
+Comparison to [[holographic QCD]]:
+
+* {#KovenskySchmitt24} [[Nicolas Kovensky]], [[Andreas Schmitt]]: *Thermal pion condensation: holography meets lattice QCD* &lbrack;[arXiv:2407.12641](https://arxiv.org/abs/2407.12641)&rbrack;
+
+
 
 ### Computer simulations
  {#ReferencesMontoCarloSimulations}
