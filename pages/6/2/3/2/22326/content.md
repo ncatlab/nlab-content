@@ -17,11 +17,11 @@ Via 11d [[superspace]]-cohomology (or mostly):
 
 * H. Lu, [[Christopher Pope]], [[Kellogg Stelle]], [[Paul Townsend]], _Supersymmetric Deformations of $G_2$ Manifolds from Higher-Order Corrections to String and M-Theory_, JHEP 0410:019, 2004 ([arXiv:hep-th/0312002](https://arxiv.org/abs/hep-th/0312002))
 
-  (specifically for [[M-theory on G2-manifolds]])
+  (specifically for [[M-theory on G₂-manifolds]])
 
 * H. Lu, [[Christopher Pope]], [[Kellogg Stelle]], [[Paul Townsend]], _String and M-theory Deformations of Manifolds with Special Holonomy_, JHEP 0507:075, 2005 ([arXiv:hep-th/0410176](https://arxiv.org/abs/hep-th/0410176))
 
-  (specifically for [[M-theory on G2-manifolds]])
+  (specifically for [[M-theory on G₂-manifolds]])
 
 * [[Paul S. Howe]], [[Dimitrios Tsimpis]], *On higher-order corrections in M theory*,  JHEP 0309 (2003) 038 \[<a href="https://doi.org/10.1088/1126-6708/2003/09/038">doi:10.1088/1126-6708/2003/09/038</a>, [arXiv:hep-th/0305129](https://arxiv.org/abs/hep-th/0305129)\]
 
