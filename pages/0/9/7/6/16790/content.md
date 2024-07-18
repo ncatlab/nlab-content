@@ -76,7 +76,7 @@ where $\mathbb{R}^{p,1}$ is [[Minkowski spacetime]] (the brane [[worldvolume]]) 
 If $X_{d-(p+2)}$ is a smooth [[quotient space]] by the [[action]] of a [[finite subgroup of SU(2)]], then the corresponding [[cone brane]] is a brane "at an [[ADE-singularity]]".
 
 
-Examples and applications of such [[cone branes]], in the context of [[M-theory on G2-manifolds]], are discussed in [Atiyah-Witten 01](#AtiyahWitten01).
+Examples and applications of such [[cone branes]], in the context of [[M-theory on G₂-manifolds]], are discussed in [Atiyah-Witten 01](#AtiyahWitten01).
 
 See also at *[[flat space holography]]*.
 
@@ -485,7 +485,7 @@ The near horizon geometry of coincident [[KK-monopoles]] in [[11-dimensional sup
 * {#Asano00} Masako Asano, section 3 of _Compactification and Identification of Branes in the Kaluza-Klein monopole backgrounds_ ([arXiv:hep-th/0003241](https://arxiv.org/abs/hep-th/0003241))
 
 
-Examples and applications of cone branes in the context of [[M-theory on G2-manifolds]] are discussed in
+Examples and applications of cone branes in the context of [[M-theory on G₂-manifolds]] are discussed in
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
