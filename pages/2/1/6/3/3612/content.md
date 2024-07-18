@@ -81,7 +81,7 @@ Review and surveys:
 
 A [[categorical semantics]] for CoC is discussed in
 
-* [[Martin Hyland]], [[Andy Pitts]], _The Theory of Constructions: Categorical Semantics and Topos-theoretic Models_ , Cont. Math. **92** (1989) pp.137-199. ([draft](https://www.dpmms.cam.ac.uk/~martin/Research/Pub81-90/hp89.pdf))
+* [[Martin Hyland]], [[Andy Pitts]], _The Theory of Constructions: Categorical Semantics and Topos-theoretic Models_ , Cont. Math. **92** (1989) pp.137-199. ([draft](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Pub81-90/hp89.pdf))
 
 For specifics of the implementation in [[Coq]] see
 
