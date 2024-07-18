@@ -157,7 +157,7 @@ and
 
 * [[string theory]], [[M-theory]]
 
-* [[M-theory on G2-manifolds]]
+* [[M-theory on G₂-manifolds]]
 
 * [[Gromov-Witten invariants]], [[Rozansky-Witten invariant]]
 
