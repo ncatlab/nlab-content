@@ -23,6 +23,11 @@ Iterated sums and [[iterated integral]]s over semirings, where the case of tropi
 
 * Joscha Diehl, [[Kurusch Ebrahimi-Fard]], Nikolas Tapia, _Tropical time series, iterated-sums signatures, and quasisymmetric functions_, SIAM Journal on Applied Algebra and Geometry __6__:4 (2022) [arxiv:2009.08443](https://arxiv.org/abs/2009.08443) [doi](https://doi.org/10.1137/20M1380041)
 
+On [[post-Lie algebra]]s and applications
+
+* Mahdi Jasim Hasan Al-Kaabi, Kurusch Ebrahimi-Fard, Dominique Manchon, Hans Z. Munthe-Kaas, _Algebraic aspects of connections: From torsion, curvature, and post-Lie algebras to Gavrilov's double exponential and special polynomials_, J. Noncomm. Geom. [doi](https://doi.org/10.4171/JNCG/539) [arXiv:2205.04381](https://arxiv.org/abs/2205.04381)
+
+
 ## Related entries
 
 * [[dendriform algebra]]
