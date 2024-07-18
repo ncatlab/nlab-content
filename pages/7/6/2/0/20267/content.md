@@ -81,7 +81,7 @@ Here in the bottom row we have the [[Lie groups]]
 
 and in the top row we have 
 
-[[SU(2)]] $\hookrightarrow$ [[SU(3)]] $\hookrightarrow$ [[G2]] $\hookrightarrow$ [[Spin(7)]]
+[[SU(2)]] $\hookrightarrow$ [[SU(3)]] $\hookrightarrow$ [[G₂]] $\hookrightarrow$ [[Spin(7)]]
 
 =--
 
