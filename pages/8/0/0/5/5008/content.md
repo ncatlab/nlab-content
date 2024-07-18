@@ -1,5 +1,19 @@
 
-The __figure-eight knot__ is a famous [[knot]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Knot theory
++--{: .hide}
+[[!include knot theory - contents]]
+=--
+=--
+=--
+
+\tableofcontents
+
+## Idea
+
+The __figure-eight knot__ is a famous example of a [[knot]].
 
 [[!include figure 8 knot - SVG]]
 
@@ -8,6 +22,12 @@ The __figure-eight knot__ is a famous [[knot]].
 To include this picture in a page, write
 <nowiki><code>[[!include figure 8 knot - SVG]]</code></nowiki>.
 =--
+
+## Related entries
+
+* [[unknot]]
+
+* [[trefoil knot]]
 
 category: knot theory
 [[!redirects figure-eight knot]]
