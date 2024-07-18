@@ -15,6 +15,6 @@ Relation to [[D=3 N=2 super Yang-Mills theory]]:
 
 ## Related entries
 
-* [[M-theory on G2-manifolds]]
+* [[M-theory on G₂-manifolds]]
 
 category: people
