@@ -14,7 +14,6 @@
 =--
 
 
-
 # Linking numbers
 * table of contents
 {: toc}
@@ -87,11 +86,18 @@ The writhe is used in the definition of some of the [[knot invariants]].
 
 ### Linking number
 
-This is a variant of the writhe that is more adapted for use with links. 
+The *linking number* is a variant of the writhe that is more adapted for use with links. 
 
-Suppose we have an [[oriented link]] diagram $D$ with components $C_1, \ldots, C_m$, the *linking number* of $C_i$ with $C_j$ where $C_i$ and $C_j$ are distinct components of $D$, is to be one half of the sum  of the signs of the crossings of $C_i$ with $C_j$; it will be denoted $lk(C_i,C_j)$.
+Consider an [[oriented link]] diagram $D$ with components $C_1, \ldots, C_m$.
 
-The linking number of the diagram $D$ us then the sum of the linking numbers of all pairs of distinct components:
+\begin{definition}
+The *linking number* of $C_i$ with $C_j$ where $C_i$ and $C_j$ are distinct components of $D$, is to be one half of the sum  of the signs of the crossings of $C_i$ with $C_j$; it will be denoted $lk(C_i,C_j)$.
+\end{definition}
+
+(e.g. [Ohtsuki 2001 pp 7](#Ohtsuki01))
+
+\begin{definition}
+The *total linking number* of the diagram $D$ is then the sum of the linking numbers of all pairs of distinct components:
 
 $$
   Lk(D) 
@@ -99,6 +105,18 @@ $$
   \sum_{1\le i\lt j\le m}lk(C_i,C_j)
   \,.
 $$
+\end{definition}
+
+
+\begin{definition}
+\label{LinkingMatrix}
+The *linking matrix* of a [[framed link]] is the [[square matrix]] indexed by the [[connected components]] of the link whose off-diagonal entries are the linking numbers and whose diagonal entries are the [[framing numbers]].
+\end{definition}
+(e.g. [Ohtsuki 2001 p 227](#Ohtsuki01))
+
+Notice that the linking matrix is a [[symmetric matrix]].
+
+Hence for a framed link the total linking number is equivalently half the sum of all non-diagonal entries of the linking matrix.
 
 
 ## Examples
@@ -133,7 +151,8 @@ The linking number is a [[link invariant]].
 ###### Proof
 We use [[Reidemeister moves]] so have to check that they do not change the linking number of a diagram. Any Reidemeister move that involves at least two components of the link (i.e. which must be an R2 or R3) leaves all linking numbers between components unchanged.  An R2 move removes or introduces two crossings of opposite sign, whilst an R3 leaves the number of crossings and their signs unaltered.
 =--
-We can conclude that the Hopf link is not isotopic to the two component unlink, (which is reassuring) as any assignment of orientations to the Hopf link leads to a non-zero linking number.
+We can conclude that the [[Hopf link]] is not [[isotopy|isotopic]] to the two component [[unknot|unlink]], (which is reassuring) as any assignment of orientations to the Hopf link leads to a non-zero linking number.
+
 
 ### Linking number is an integer
 
@@ -159,7 +178,7 @@ An immediate consequence of the fact that the sum of the signs of the crossings 
 
 ## References
 
-* [[Tomotada Ohtsuki]], pp 7 in: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
+* {#Ohtsuki01} [[Tomotada Ohtsuki]], pp 7 in: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
 
 
 * [[Renzo L. Ricca]], Bernardo Nipoti: *Gauss' Linking Number Revisited*, Journal of Knot Theory and Its Ramifications **20** 10 (2011) 1325-1343 &lbrack;[doi:10.1142/S0218216511009261](http://dx.doi.org/10.1142/S0218216511009261), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/ricca.pdf)&rbrack;
@@ -175,5 +194,8 @@ An immediate consequence of the fact that the sum of the signs of the crossings 
 
 [[!redirects Gauss' linking number]]
 [[!redirects Gauss' linking numbers]]
+
+[[!redirects linking matrix]]
+[[!redirects linking matrices]]
 
 
