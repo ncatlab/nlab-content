@@ -36,7 +36,7 @@ The Hodge dual of the associative 3-form is sometimes called the _co-associative
 
 ### Relation to $G_2$
 
-The [[group]] of [[linear map|linear]] [[diffeomorphisms]] of $\mathbb{R}^7$ which preserve this form is the [[exceptional Lie group]] [[G2]].
+The [[group]] of [[linear map|linear]] [[diffeomorphisms]] of $\mathbb{R}^7$ which preserve this form is the [[exceptional Lie group]] [[G₂]].
 
 ## Related concepts
 
