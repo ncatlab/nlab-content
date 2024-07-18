@@ -4,6 +4,6 @@
 
 ## related $n$Lab entries
 
-* [[M-theory on G2-manifolds]], [[ADE singularity]]
+* [[M-theory on G₂-manifolds]], [[ADE singularity]]
 
 category: people
