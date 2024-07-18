@@ -19,7 +19,7 @@ On the [[metric cone over complex projective 3-space]] and the [[twistor fibrati
 * [[Bobby Acharya]], [[Robert Bryant]], [[Simon Salamon]], _A circle quotient of a $G_2$ cone_, Differential Geometry and its Applications Volume 73, December 2020, 101681  ([arXiv:1910.09518](https://arxiv.org/abs/1910.09518), [doi:10.1016/j.difgeo.2020.101681](https://doi.org/10.1016/j.difgeo.2020.101681))
 
 
-On the construction of [[G2-manifolds]]:
+On the construction of [[G₂-manifolds]]:
 
 * [[Robert Bryant]], [[Simon Salamon]],  _On the construction of some complete metrics with exceptional holonomy_, Duke Mathematical Journal 58: 829&#8211;850 (1989) ([euclid:dmj/1077307681](https://projecteuclid.org/euclid.dmj/1077307681))
 
@@ -27,7 +27,7 @@ On [[special holonomy]] and [[G-structure]]:
 
 * [[Robert Bryant]], _Metrics with Exceptional Holonomy_, Annals of Mathematics Second Series, Vol. 126, No. 3 (Nov., 1987), pp. 525-576 ([jstor:1971360](https://www.jstor.org/stable/1971360))
 
-On [[G2-manifolds]] via [[G-structure]]:
+On [[G₂-manifolds]] via [[G-structure]]:
 
 * {#Bryant05} [[Robert Bryant]], _Some remarks on $G_2$-structures_, [Proceedings of the 12th G&#246;kova Geometry-Topology Conference 2005](http://gokovagt.org/proceedings/2005), pp. 75-109 ([arXiv:math/0305124](https://arxiv.org/abs/math/0305124), [webpage](http://gokovagt.org/proceedings/2005/bryant.html), [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf))
 
