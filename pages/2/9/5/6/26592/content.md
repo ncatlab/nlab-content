@@ -303,6 +303,7 @@ category: probability
 [[!redirects marginal probability distributions]]
 [[!redirects marginal probability measure]]
 [[!redirects marginal probability measures]]
+[[!redirects marginals]]
 [[!redirects product probability]]
 [[!redirects product probabilities]]
 [[!redirects product distribution]]
