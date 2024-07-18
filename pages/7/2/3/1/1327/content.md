@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
 #### Higher algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
@@ -148,6 +152,10 @@ The connection to Tamari lattices as well as other developments are in
 For a template of $K_5$, see Appendix B of the following.
 
 * {#ChengLauda2004} [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guidebook_, 2004, [available here](http://eugeniacheng.com/guidebook/). 
+
+For the combinatorics of associahedra, see
+
+* [[Viviane Pons]], *Combinatorics of the Permutahedra, Associahedra, and Friends* ([arXiv:2310.12687](https://arxiv.org/abs/2310.12687))
 
 category: combinatorics
 [[!redirects associahedra]]
