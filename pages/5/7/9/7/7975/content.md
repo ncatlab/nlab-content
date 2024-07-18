@@ -33,7 +33,7 @@ One way of achieving [[moduli stabilization]] for KK-compactifications in [[Eins
 
 * [[landscape of string theory vacua]]
 
-* [[G2-MSSM]]
+* [[G₂-MSSM]]
 
 ## References
 
