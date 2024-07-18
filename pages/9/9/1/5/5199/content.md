@@ -22,7 +22,9 @@ The thickening can be considered in one direction only which gives [[embedding o
 
 A [[link diagram]] can be made into a diagram of a framed links by giving it the **blackboard framing**: this views each segment of the link diagram as a ribbon lying on the "blackboard".
 
-Two diagrams represent the same link diagram if and only if they can be related by a modified version of the [[Reidemeister moves]] in which the first move is replaced by the following move.
+Two diagrams represent the same link diagram if and only if they can be related by a modified version of the [[Reidemeister moves]]. 
+
+{#1stReidemeisterMove} The **1st Reidemeister move** for framed links is:
 
 [[!include modified Reidemeister move 1 - SVG]]
 
