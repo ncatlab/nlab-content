@@ -270,7 +270,7 @@ which is a [[definite form]], definite on $\omega_V$, in that its restriction to
 
 Standard theory of [[G-structures]] easily shows that such definite forms correspond to $Stab_{GL(V)}(\omega_V)$-structures on $X$, for $Stab_{GL(V)}(\omega_V)$ the [[stabilizer group]] of $\omega_V$ under the canonical $GL(V)$-[[action]] (by [[pullback of differential forms]]).
 
-For instance if $V = \mathbb{R}^7$ and $\omega_V \in \Omega^3(V)$ is the [[associative 3-form]], then $Stab_{GL(V)}(\omega_V) = G_2$ is the [[exceptional Lie group]] [[G2]] and this yields [[G2-structures]]. 
+For instance if $V = \mathbb{R}^7$ and $\omega_V \in \Omega^3(V)$ is the [[associative 3-form]], then $Stab_{GL(V)}(\omega_V) = G_2$ is the [[exceptional Lie group]] [[G₂]] and this yields [[G₂-structures]]. 
 
 
 But in view of the [above](#MotivationDefiniteParameterizationOfWZWTerms) discussion one is led to re-state this question for the case that $(V,\omega_V)$ is refined to a [[prequantum n-bundle|prequantum (p+1)-bundle]] $(V,\mathbf{L}_{p+2})$. 
