@@ -61,7 +61,7 @@ In [[particle physics]]:
 
 * [[MSSM]]
 
-  * [[G2-MSSM]]
+  * [[G₂-MSSM]]
 
 ### In cosmology
 
