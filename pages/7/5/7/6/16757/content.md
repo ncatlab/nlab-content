@@ -73,7 +73,7 @@ Brief review is in [Bridgeland 09, section 6.3](#Bridgeland09).
 
 * [[quiver gauge theory]]
 
-* [[M-theory on G2-manifolds]]
+* [[M-theory on G₂-manifolds]]
 
 * [[D7-brane]]
 
@@ -134,7 +134,7 @@ On the [[Chen-Ruan cohomology|Chen-Ruan]] [[orbifold cohomology]] of ADE-singula
 
 
 
-Families of examples of [[G2 manifolds|G2 orbifolds]] with ADE singularities are constructed in 
+Families of examples of [[G₂ orbifolds]] with ADE singularities are constructed in 
 
 * {#Reidegeld15} [[Frank Reidegeld]], _$G_2$-orbifolds from K3 surfaces with ADE-singularities_ ([arXiv:1512.05114](http://arxiv.org/abs/1512.05114))
 
@@ -243,7 +243,7 @@ An interpretation of this phenomenon, under the expected [[K-theory classificati
 
 #### M-theory on $G_2$-orbifolds with ADE-singularities
 
-[[M-theory on G2-manifolds]] $\,$ [with ADE-singularities](M-theory+on+G2-manifolds#EnhancedGaugeGroups):
+[[M-theory on G₂-manifolds]] $\,$ [with ADE-singularities](M-theory+on+G2-manifolds#EnhancedGaugeGroups):
 
 * {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv. Theor. Math. Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
 
