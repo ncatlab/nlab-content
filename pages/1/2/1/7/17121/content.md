@@ -23,7 +23,7 @@
 
 ## Idea
 
-A special square array of [[Lie algebras]]/[[Lie groups]] labeled by pairs of [[normed division algebras]] and including all the [[exceptional Lie groups]] except [[G2]]. Three constructions give this square, namely, the Tits construction, the Vinberg construction and the triality construction (see [BaezMagic](#BaezMagic)).
+A special square array of [[Lie algebras]]/[[Lie groups]] labeled by pairs of [[normed division algebras]] and including all the [[exceptional Lie groups]] except [[G₂]]. Three constructions give this square, namely, the Tits construction, the Vinberg construction and the triality construction (see [BaezMagic](#BaezMagic)).
 
 [[Michael Atiyah]] ([AtiyahMagic](#AtiyahMagic)) has proposed using the magic square to explain the [[Kervaire invariant problem]] similarly to how the existence of the four normed division algebras explains the [[Hopf invariant one]] problem.
 
