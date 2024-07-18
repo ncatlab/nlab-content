@@ -31,7 +31,7 @@ Analogous constructions apply when symplectic manifolds are generalized to [[n-p
 
 ## Examples
 
-* The linear part of the 2-plectomorphism group/3-plectomorphism group of the [[Cartesian space]] $\mathbb{R}^7$ equipped with its associative 3-form $\omega = \lanlge (-), (-) \times (-)\rangle$ is the [[exceptional Lie group]] [[G2]]. See there for more details.
+* The linear part of the 2-plectomorphism group/3-plectomorphism group of the [[Cartesian space]] $\mathbb{R}^7$ equipped with its associative 3-form $\omega = \lanlge (-), (-) \times (-)\rangle$ is the [[exceptional Lie group]] [[G₂]]. See there for more details.
  
 ## Related concepts
 
