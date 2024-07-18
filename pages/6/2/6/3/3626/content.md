@@ -659,7 +659,7 @@ On the role of Frobenius algebras in [[2d TQFT]]:
 
 For applications in proof theory of classical and [[linear logic]] or linguistics:
 
-* [[Martin Hyland]],  _Abstract Interpretation of Proofs: Classical Propositional Calculus_, pp. 6-21 in Marcinkowski, Tarlecki (eds.),  _Computer Science Logic (CSL 2004)_, LNCS **3210** Springer Heidelberg 2004. ([preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2004/aap04.pdf))
+* [[Martin Hyland]],  _Abstract Interpretation of Proofs: Classical Propositional Calculus_, pp. 6-21 in Marcinkowski, Tarlecki (eds.),  _Computer Science Logic (CSL 2004)_, LNCS **3210** Springer Heidelberg 2004. ([preprint](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Publications/2004/aap04.pdf))
 
 * [[Richard Garner]], _Three investigations into linear logic_ , PhD report  Cambridge 2006. ([pdf](http://comp.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf))
 
