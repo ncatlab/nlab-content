@@ -17,7 +17,7 @@ On [[black brane|black]] [[D8-brane]]-solutions in [[massive type IIA supergravi
 
 * {#ChamblinPerry97} A. Chamblin, [[Malcolm Perry]], _Dynamic D8-branes in IIA string theory_ ([arXiv:hep-th/9712112](https://arxiv.org/abs/hep-th/9712112))
 
-On [[Yukawa couplings]] in the [[G2-MSSM]]:
+On [[Yukawa couplings]] in the [[G₂-MSSM]]:
 
 * Eric Gonzalez, [[Gordon Kane]], Khoa Dang Nguyen, [[Malcolm Perry]], _Quark and lepton mass matrices from localization in M-theory on $G_2$ orbifold_ ([arXiv:2002.11820](https://arxiv.org/abs/2002.11820))
 
