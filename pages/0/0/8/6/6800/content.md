@@ -32,8 +32,8 @@
 | [[M5-brane]]   |           $\,$                  |[[C6-field]]| [[6d (2,0)-superconformal QFT]]
 | [[M9-brane]]/[[O-plane|O9-plane]]   |                                 |            | [[heterotic string theory]] |
 | [[M-wave]] |  |   | |
-| [[topological M2-brane]] | [[topological M-theory]]                  |[[C3-field]] on [[G2-manifold]] | |
-| [[topological M5-brane]] | $\,$                  | [[C6-field]] on [[G2-manifold]] | | 
+| [[topological M2-brane]] | [[topological M-theory]]                  |[[C3-field]] on [[G₂-manifold]] | |
+| [[topological M5-brane]] | $\,$                  | [[C6-field]] on [[G₂-manifold]] | | 
 | **[[S-brane]]** |  |   | |
 | [[SM2-brane]],<br/>[[membrane instanton]] |  |   | |
 | [[M5-brane instanton]] |  |   | |
