@@ -151,6 +151,7 @@ and the vanishing of the plain loop diagram.
 \end{imagefromfile}
 
 
+
 This example brings out the key difference between loops in McDuff's configuration space of charged points and loops in Okuyama's configuration spaces of charged strings: The former may essentially be regarded as [[oriented links]], while the latter carry the further [[structure]] of *[[framed links]]*.
 
 As such, the above is the [[unknot]]-[[link]] but equipped with non-vanishing [[framing number]] $+1$ (say, the choice of the sign is a convention).
@@ -188,9 +189,25 @@ In fact, by applying the same merger move on the left, this shows that the Hopf 
 
 #### Charged string loops as framed oriented link diagrams
 
-These examples should suffice to illustrate how [[framed links|framed]] [[oriented links|oriented]] [[link diagrams]] may be regarded as [[based loops]] in the Okuyama configuration space, and conversely how every based loop of Okuyama configurations -- possibly up to some slight continuous deformation  -- comes from a framed oriented link diagram in this way. Therefore, from now on we just draw [[framed link|framed]] [[oriented link|oriented]] [[link diagrams]], in fact we will draw just oriented link diagrams and declare the framing to be the blackboard framing (as implicit alrweady in the above examples).
+These examples should suffice to illustrate how [[framed links|framed]] [[oriented links|oriented]] [[link diagrams]] may be regarded as [[based loops]] in the Okuyama configuration space, and conversely how every based loop of Okuyama configurations -- possibly up to some slight continuous deformation  -- comes from a framed oriented link diagram in this way. Therefore, from now on we just draw [[framed link|framed]] [[oriented link|oriented]] [[link diagrams]], in fact we will draw just oriented link diagrams and declare the framing to be the blackboard framing (as implicit already in the above examples).
 
 In this notation, the merger-move looks as follows:
+
+\begin{imagefromfile}
+    "file_name": "SaddlePointMove-240718.jpg",
+    "width": 420,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 15
+    }
+\end{imagefromfile}
+
+**Proposition.** The merger move implies the [1st Reidemeister move](framed+link#1stReidemeisterMove).
+
+(...)
 
 
 (...)
