@@ -51,10 +51,10 @@ There are precisely 3 [[conjugacy classes of subgroups|conjugacy classes]] of [[
 
 +-- {: .num_prop #G2IsIntersectionOfSpin7SubgroupsInSpin8}
 ###### Proposition
-**([[G2]] is [[intersection]] of [[Spin(7)]]-[[subgroups]] of [[Spin(8)]])**
+**([[G₂]] is [[intersection]] of [[Spin(7)]]-[[subgroups]] of [[Spin(8)]])**
 
 The [[intersection]] inside [[Spin(8)]] of any two [[Spin(7)]]-subgroups from distinct [[conjugacy classes of subgroups]] (according to Prop. \ref{Spin7SubgroupsInSpin8})
-is the [[exceptional Lie group]] [[G2]], hence we have [[pullback squares]] of the form
+is the [[exceptional Lie group]] [[G₂]], hence we have [[pullback squares]] of the form
 
 \begin{center}
 \begin{xymatrix}
@@ -135,7 +135,7 @@ Here in the bottom row we have the [[Lie groups]]
 
 with their canonical [[subgroup]]-inclusions, while in the top row we have 
 
-[[SU(2)]] $\hookrightarrow$ [[SU(3)]] $\hookrightarrow$ [[G2]] $\hookrightarrow$ [[Spin(7)]]
+[[SU(2)]] $\hookrightarrow$ [[SU(3)]] $\hookrightarrow$ [[G₂]] $\hookrightarrow$ [[Spin(7)]]
 
 and the right vertical inclusion $B \iota'$ is the [[delooping]] of one of the two non-standard inclusions, according to Prop. \ref{Spin7SubgroupsInSpin8}.
 
