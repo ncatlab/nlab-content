@@ -226,7 +226,7 @@ see [FRTV 12](#FRTV12)
 
 ### 7-Dimensional $G_2$-orbifolds
 
-see _[[G2-orbifold]]_
+see _[[G₂-orbifold]]_
 
 
 ## Related concepts
