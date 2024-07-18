@@ -115,7 +115,7 @@
 
   * [[moduli stabilization]]
 
-  * [[G2-MSSM]]
+  * [[G₂-MSSM]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/string+theory+-+contents)</div>
 
