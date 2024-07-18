@@ -2485,9 +2485,9 @@ We now find an externalization of the idea such that
 
 1. The resulting spacetimes are  [[nLab:superspacetimes]] as in the relevant [[nLab:supergravity]] theories;
 
-1. The resulting torsion constraints, namely the [[nLab:supergravity torsion constraints]], imply, in the maximally extended situation, the [[nLab:Einstein equations]] [[nLab:equations of motion|of motion]] of [[nLab:11-dimensional supergravity]], specifically of [[nLab:d=4 N=1 supergravity]] arising in the guise of [[nLab:M-theory on G2-manifolds]].
+1. The resulting torsion constraints, namely the [[nLab:supergravity torsion constraints]], imply, in the maximally extended situation, the [[nLab:Einstein equations]] [[nLab:equations of motion|of motion]] of [[nLab:11-dimensional supergravity]], specifically of [[nLab:d=4 N=1 supergravity]] arising in the guise of [[nLab:M-theory on G₂-manifolds]].
 
-This is a "[[nLab:theory of everything]]" in the sense of modern fundamental physics, which is beeing argued to have viable [[nLab:string phenomenology|phenomenology]], see at _[[nLab:G2-MSSM]]_ for more on this. Even if it turns out that there are no [[nLab:model (physics)|models]] in this theory which match quantitative measurements in [[nLab:experiment]], it is noteworthy that the qualitative structure of this theory is that of [[nLab:Einstein-Yang-Mills-Dirac-Higgs theory]] and hence matches faithfully the qualitative features of nature that is in [[nLab:experiment]]. Given our starting point [above](#TheGround) this is maybe not to be lightly dismissed.
+This is a "[[nLab:theory of everything]]" in the sense of modern fundamental physics, which is beeing argued to have viable [[nLab:string phenomenology|phenomenology]], see at _[[nLab:G₂-MSSM]]_ for more on this. Even if it turns out that there are no [[nLab:model (physics)|models]] in this theory which match quantitative measurements in [[nLab:experiment]], it is noteworthy that the qualitative structure of this theory is that of [[nLab:Einstein-Yang-Mills-Dirac-Higgs theory]] and hence matches faithfully the qualitative features of nature that is in [[nLab:experiment]]. Given our starting point [above](#TheGround) this is maybe not to be lightly dismissed.
 
 ##### Externalization
  {#Externalization}
@@ -3229,7 +3229,7 @@ $$
   }
 $$
 
-this is equivalently the physics coming from [[nLab:M-theory on G2-manifolds]], given by the extensions that emanate from 32 copies of the smallest superpoint:
+this is equivalently the physics coming from [[nLab:M-theory on G₂-manifolds]], given by the extensions that emanate from 32 copies of the smallest superpoint:
 
 $$
   \array{
@@ -3285,7 +3285,7 @@ $$
   }
 $$
 
-Specifically there is 11-dimensional  [[nLab:super Minkowski spacetime]] $V = \mathbb{R}^{10,1\vert \mathbf{32}}$ carrying the WZW term $\mathbf{L}_{WZW}^{M2}$ for the [[nLab:M2-brane]], in some sense the endpoint of the bouquet of super-spacetimes. The [[nLab:KK-compactification]] of this on a 7-dimensional [[nLab:G2-manifold]] yields the 4-dimensional super-Minkowski spacetime discussed above, with the WZW term for the [[nLab:super 2-brane in 4d]].
+Specifically there is 11-dimensional  [[nLab:super Minkowski spacetime]] $V = \mathbb{R}^{10,1\vert \mathbf{32}}$ carrying the WZW term $\mathbf{L}_{WZW}^{M2}$ for the [[nLab:M2-brane]], in some sense the endpoint of the bouquet of super-spacetimes. The [[nLab:KK-compactification]] of this on a 7-dimensional [[nLab:G₂-manifold]] yields the 4-dimensional super-Minkowski spacetime discussed above, with the WZW term for the [[nLab:super 2-brane in 4d]].
 
 The 11-dimensional super-Minkowski spacetime is special in many ways, one of which is that in this dimension the [[nLab:equations of motion]] of [[nLab:11-dimensional supergravity]] on a $(Spin(10,1)\hookrightarrow Iso(\mathbb{R}^{10,1\vert \mathbf{32}}))$-[[nLab:super Cartan geometry]] $X$ modeled on $\mathbb{R}^{10,1\vert \mathbf{32}}$ are already captured by just a constraint on the [[nLab:torsion of a G-structure|torsion tensor]]. But by remark \ref{TorsionConstraints} this means that in dimension 11 the equations of motion of supergravity have an immediate axiomatization in our objective logic.
 
@@ -3309,7 +3309,7 @@ First-order integrable $(Spin(10,1)\hookrightarrow Iso(\mathbb{R}^{10,1\vert \ma
 +-- {: .num_remark}
 ###### Remark
 
-Vacuum Einstein solutions as in prop. \ref{VacuumSolutionsIn11d}, are considered notably in the context of [[nLab:M-theory on G2-manifolds]] (e.g. [Acharya 02, p. 9](http://ncatlab.org/nlab/show/M-theory+on+G2-manifolds#Acharya02)). See also at _[M-theory on G2-manifolds -- Details -- Vacuum solution and torsion constraints](http://ncatlab.org/nlab/show/M-theory+on+G2-manifolds#VacuumSolutionsAndTorsion)_.
+Vacuum Einstein solutions as in prop. \ref{VacuumSolutionsIn11d}, are considered notably in the context of [[nLab:M-theory on G₂-manifolds]] (e.g. [Acharya 02, p. 9](http://ncatlab.org/nlab/show/M-theory+on+G₂-manifolds#Acharya02)). See also at _[M-theory on G₂-manifolds -- Details -- Vacuum solution and torsion constraints](http://ncatlab.org/nlab/show/M-theory+on+G₂-manifolds#VacuumSolutionsAndTorsion)_.
 
 =--
 
@@ -6925,7 +6925,7 @@ So [[space]] and [[time]] transmute into each other, this dynamics being the bec
 
 The appropriate modern term for the unity of space and time is, clearly, _[[spacetime]]_. That Hegel's perspective fits well with modern [[general relativity]] has been argued in ([Wandschneider82](#Wandschneider82)).
 
-Moreover, this unity of space and time in spacetime is [[matter]] and by [PN&#167;261d](#PN261d) it is matter _with_ the [[forces]] acting on it included. This is very much the perspective of the modern concept of _[[Kaluza-Klein compactification]]_ in which theories of pure ([[supergravity]]-)[[gravity]] give rise to matter and forces depending on how parts of spacetime take certain shape. For instance [[model (physics)|models]] such as the [[G2-MSSM]] are theories of pure gravity (in this case [[11d supergravity]]) taking shape in the form of a [[KK-compactification]] on a [[G2-manifold]] [[fiber bundle]], and all the [[matter]] (and [[force]] field) content of the [[standard model of particle physics]] arises from just this (super-)geometry.
+Moreover, this unity of space and time in spacetime is [[matter]] and by [PN&#167;261d](#PN261d) it is matter _with_ the [[forces]] acting on it included. This is very much the perspective of the modern concept of _[[Kaluza-Klein compactification]]_ in which theories of pure ([[supergravity]]-)[[gravity]] give rise to matter and forces depending on how parts of spacetime take certain shape. For instance [[model (physics)|models]] such as the [[G₂-MSSM]] are theories of pure gravity (in this case [[11d supergravity]]) taking shape in the form of a [[KK-compactification]] on a [[G₂-manifold]] [[fiber bundle]], and all the [[matter]] (and [[force]] field) content of the [[standard model of particle physics]] arises from just this (super-)geometry.
 
 
 A vaguely similar synthethis had been suggested in ([Weyl 1919](#Weyl19)). In the 1960s [[John Wheeler]] highlighted this idea of producing matter from pure spacetime geometry, coining the term [[geometrodynamics]] for it. His slogan "mass without mass" referred to mass arising from pure spacetime geometry. At this level of detail, this is rather close to [PN&#167;261](#PN261).
