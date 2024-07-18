@@ -13,7 +13,9 @@ Related notions in $n$Lab: [[Calabi-Yau algebra]], [[Calabi-Yau category]], [[Ca
 * Wai-Kit Yeung, _Pre-Calabi-Yau structures and moduli of representations_, [arXiv:1802.05398](https://arxiv.org/abs/1802.05398); _Ribbon dioperads and modular ribbon properads_, [arXiv:2202.13269](https://arxiv.org/abs/2202.13269)
 * [[David Fernández]], Estanislao Herscovich, _Double quasi-Poisson algebras are pre-Calabi-Yau_, [arXiv:2002.10495](https://arxiv.org/abs/2002.10495)
 * Marion Boucrot, _Morphisms of pre-Calabi-Yau categories and morphisms of cyclic $A_\inf$-categories_, [arXiv:2304.13661](https://arxiv.org/abs/2304.13661)
+* A. Sharapov, E. Skvortsov, R. Van Dongen, _Strong homotopy algebras for chiral higher spin gravity via Stokes theorem_, J. High Energ. Phys. 2024, 186 (2024) <a href="https://doi.org/10.1007/JHEP06(2024)186">doi</a>
 
+> Chiral higher spin gravity is defined in terms of a strong homotopy algebra of pre-Calabi-Yau type (noncommutative Poisson structure). All structure maps are given by the integrals over the configuration space of concave polygons and the first two maps are related to the (Shoikhet-Tsygan-)Kontsevich Formality. As with the known formality theorems, we prove the A∞-relations via Stokes’ theorem by constructing a closed form and a configuration space whose boundary components lead to the A∞-relations. This gives a new way to formulate higher spin gravities and hints at a construct encompassing the known formality theorems.
 
 category: algebra
-
+[[!redirects pre-Calabi-Yau structure]]
