@@ -142,3 +142,8 @@ category: probability
 [[!redirects exchangeable event]]
 [[!redirects exchangeable events]]
 [[!redirects exchangeable sigma-algebra]]
+[[!redirects exchangeable sigma-algebras]]
+[[!redirects exchangeable sigma algebra]]
+[[!redirects exchangeable sigma algebras]]
+[[!redirects exchangeable σ-algebra]]
+[[!redirects exchangeable σ-algebras]]
