@@ -15,6 +15,6 @@ On [[associative submanifolds]] of the [[7-sphere]]:
 
 * [[7-sphere]]
 
-* [[G2-structure]]
+* [[G₂-structure]]
 
 category: people
