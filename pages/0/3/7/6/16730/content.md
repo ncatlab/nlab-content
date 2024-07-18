@@ -34,7 +34,7 @@ A filter space that satisfies an additional directedness criterion is precisely 
 
 ## References
 
-* [[Martin Hyland]], _Filter spaces and continuous functionals_, 1979 [PDF](https://www.dpmms.cam.ac.uk/~martin/Research/Oldpapers/filter79.pdf)
+* [[Martin Hyland]], _Filter spaces and continuous functionals_, 1979 [PDF](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Oldpapers/filter79.pdf)
 
 
 [[!redirects filter spaces]]
