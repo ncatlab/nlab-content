@@ -4,6 +4,6 @@
 
 ## related $n$Lab entries
 
-* [[membrane instanton]], [[M-theory on G2-manifolds]]
+* [[membrane instanton]], [[M-theory on G₂-manifolds]]
 
 category: people
