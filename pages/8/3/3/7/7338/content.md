@@ -56,7 +56,7 @@ On [[generalized global symmetries]]:
 
 * [[conifold transition]]
 
-* [[M-theory on G2-manifolds]]
+* [[M-theory on G₂-manifolds]]
 
 * [[symplectic duality]]
 
