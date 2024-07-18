@@ -313,11 +313,11 @@ If the $\mathcal{D}$-maps are [[exponential object|exponentiable]], then the mul
 
 The standard reference, which considers dependent (multivariate) polynomial functors, is: 
 
-* {#GK} [[Nicola Gambino]] and [[Joachim Kock]], _Polynomial functors and polynomial monads_, (2009) ([arXiv:0906.4931](http://arxiv.org/abs/0906.4931)).
+* {#GK} [[Nicola Gambino]], [[Joachim Kock]], _Polynomial functors and polynomial monads_, (2009) ([arXiv:0906.4931](https://arxiv.org/abs/0906.4931)).
 
 The relation of plain polynomial functors to [[trees]] is discussed in
 
-* {#Kock} [[Joachim Kock]], _Polynomial functors and trees_, (2009)  ([arXiv:0807.2874](http://arxiv.org/abs/0807.2874))
+* {#Kock} [[Joachim Kock]], _Polynomial functors and trees_, (2009)  ([arXiv:0807.2874](https://arxiv.org/abs/0807.2874))
 
 The category, $Poly$, of one-variable polynomial functors on $Set$ and its application to [[dynamical systems]] is considered in
 
@@ -328,7 +328,7 @@ The category, $Poly$, of one-variable polynomial functors on $Set$ and its appli
 Talks on polynomial functors are available at
 
 * _Workshop on Polynomial Functors_, Topos Institute,
-15–19 March 2021. ([website](https://topos.site/p-func-2021-workshop/))
+15--19 March 2021. ([website](https://topos.site/p-func-2021-workshop/))
 
 Monograph on polynomial functors in view of [[categorical systems theory]]:
 
@@ -340,25 +340,30 @@ Generalization to [[homotopy theory]] and [[higher category theory]] is discusse
 
 * [[David Gepner]], [[Rune Haugseng]], [[Joachim Kock]], _∞-Operads as Analytic Monads_, ([arXiv:1712.06469](https://arxiv.org/abs/1712.06469))
 
-* {#Weber14} [[Mark Weber]], _Operads as polynomial 2-monads_ ([arXiv:1412.7599](http://arxiv.org/abs/1412.7599))
+* {#Weber14} [[Mark Weber]], _Operads as polynomial 2-monads_ ([arXiv:1412.7599](https://arxiv.org/abs/1412.7599))
 
-* [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_ ([arXiv:1307.2765](http://arxiv.org/abs/1307.2765))
+* [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_ ([arXiv:1307.2765](https://arxiv.org/abs/1307.2765))
  {#vdBergMoerdijk13}
 
 See also
 
-* [[Joachim Kock]], [[André Joyal]], [[Michael Batanin]], [[Jean-François Mascari]], _Polynomial functors and opetopes_, Advances in Mathematics, vol 224, 2010, pp 2690--2737. ([arXiv:0706.1033](http://arxiv.org/abs/0706.1033))
+* [[Joachim Kock]], [[André Joyal]], [[Michael Batanin]], [[Jean-François Mascari]], _Polynomial functors and opetopes_, Adv. Math. __224__, 2010, pp 2690--2737. ([arXiv:0706.1033](https://arxiv.org/abs/0706.1033) [doi](https://doi.org/10.1016/j.aim.2010.02.012))
 {#KJBM}
 
-* [[Yde Venema]], _Algebras and Coalgebras_, &#167;6 (p.332-426) in Blackburn, van Benthem, Wolter, _Handbook of modal logic_, Elsevier, 2007.
+* [[Yde Venema]], _Algebras and Coalgebras_, &#167;6 (p.332--426) in Blackburn, van Benthem, Wolter, _Handbook of modal logic_, Elsevier, 2007.
 
-* {#Weber2015} [[Mark Weber]], *Polynomials in categories with pullbacks*, Theory and Applications of Categories, Vol. 30, 2015, No. 16, pp 533-598. ([journal](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html))
+* {#Weber2015} [[Mark Weber]], *Polynomials in categories with pullbacks*, Theory and Applications of Categories, __30__:16 (2015) 533--598. ([journal](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html))
 
 * Charles Walker, *Universal properties of polynomials*, ([arXiv:1806.10477](https://arxiv.org/abs/1806.10477))
 
 * [[Ross Street]], *Polynomials as spans*, Cahiers de topologie et géométrie différentielle catégoriques, Vol. LXI-2 (2020), pp 113-153 ([pdf](http://cahierstgdc.com/wp-content/uploads/2020/04/STREET-LXI-2.pdf))
 
 * {#Garner2019} [[Richard Garner]], _Polynomial comonads and comodules_, HoTTEST Seminar (2019) &lbrack;[slides](https://www.math.uwo.ca/faculty/kapulkin/seminars/hottestfiles/Garner-2019-12-11-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=tW6HYnqn6eI)&rbrack;
+
+Using [[wreath products of groups]]
+
+* [[I. G. Macdonald]], _Polynomial functors and wreath products_, J. Pure Appl. Alg. __18__ (1980) 173--204 [pdf](https://core.ac.uk/download/pdf/82423307.pdf)
+
 
 [[!redirects polynomial functor]]
 [[!redirects polynomial functors]]
