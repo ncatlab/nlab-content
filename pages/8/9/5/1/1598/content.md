@@ -164,7 +164,7 @@ The [[classical Lie groups]] include
 
 The [[exceptional Lie groups]] incude
 
-* [[G2]], [[F4]], [[E6]], [[E7]] [[E8]],
+* [[G₂]], [[F₄]], [[E₆]], [[E₇]], [[E₈]]
 
 ### Infinite-dimensional examples
 
