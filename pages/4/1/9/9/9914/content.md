@@ -22,9 +22,9 @@ On [[D-branes]] in [[Gepner models]] via [[boundary conformal field theory]]:
 
 * {#BraunSchaeferNameki05} [[Volker Braun]], [[Sakura Schafer-Nameki]], _D-Brane Charges in Gepner Models_, J. Math. Phys. 47 (2006) 092304 ([arXiv:hep-th/0511100](https://arxiv.org/abs/hep-th/0511100))
 
-On [[duality in string theory|duality]] of [[M-theory on G2-manifolds]] with [[heterotic string theory on CY3-manifolds]]:
+On [[duality in string theory|duality]] of [[M-theory on G₂-manifolds]] with [[heterotic string theory on CY3-manifolds]]:
 
-* {#BraunSchaeferNameki17} [[Andreas Braun]], [[Sakura Schafer-Nameki]], _Compact, Singular G2-Holonomy Manifolds and M/Heterotic/F-Theory Duality_, JHEP04(2018)126 ([arXiv:1708.07215](https://arxiv.org/abs/1708.07215))
+* {#BraunSchaeferNameki17} [[Andreas Braun]], [[Sakura Schafer-Nameki]], _Compact, Singular $G_2$-Holonomy Manifolds and M/Heterotic/F-Theory Duality_, JHEP04(2018)126 ([arXiv:1708.07215](https://arxiv.org/abs/1708.07215))
 
 
 
