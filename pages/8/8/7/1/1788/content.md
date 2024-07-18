@@ -288,6 +288,24 @@ For the [[trefoil knot]] we get $\pm 3$:
     }
 \end{imagefromfile}
 
+\begin{example}
+\label{FigureEightKnot}
+For the [[figure eight knot]] we get $0$:
+\end{example}
+
+\begin{imagefromfile}
+    "file_name": "FigureEightKnotToFramedUnknot-240718.jpg",
+    "width": 740,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 15
+    }
+\end{imagefromfile}
+
+
 
 (...)
 
