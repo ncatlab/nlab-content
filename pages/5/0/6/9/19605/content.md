@@ -21,9 +21,12 @@ On evidence for [[inhomogeneous cosmology]] (large anisotropies) in observed rad
 
 * {#SHRMS22} Nathan Secrest, Sebastian von Hausegger, [[Mohamed Rameez]], [[Roya Mohayaee]], [[Subir Sarkar]], *A Challenge to the Standard Cosmological Model*, ApJ Letters (2022) &lbrack;[arXiv2206.05624](https://arxiv.org/abs/2206.05624)&rbrack;
 
+On [[inhomogeneous cosmology]]:
+
+* [[Subir Sarkar]]: *A challenge to the cosmological standard model*, lectures (2023) &lbrack;[webpage](https://enabla.com/en/pub/1065/about), [pdf](https://enabla-s3.fra1.cdn.digitaloceanspaces.com/p/lecture/1065/additional/Presentation_Subir_Sarkar.pdf)&rbrack;
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[inhomogeneous cosmology]]
 
