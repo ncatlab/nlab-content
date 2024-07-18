@@ -22,7 +22,7 @@ For a survey of this approach see
 * [[Walter Felscher]], 2002, _Dialogues as a foundation for intuitionistic logic_, ([pdf](http://content.schweitzer-online.de/static/catalog_manager/live/media_files/representation/zd_std_orig__zd_schw_orig/013/156/273/9781402002359_content_pdf_2.pdf))
 
 
-* [[Martin Hyland]], _Game semantics_,  in A. Pitts and P. Dybjer, editors, Semantics and Logics of Computation, pages 131&#8211;182. Cambridge University Press, 1997. ([scanned pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Oldpapers/gamesemantics97scan.pdf))
+* [[Martin Hyland]], _Game semantics_,  in A. Pitts and P. Dybjer, editors, Semantics and Logics of Computation, pages 131&#8211;182. Cambridge University Press, 1997. ([scanned pdf](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Oldpapers/gamesemantics97scan.pdf))
 
 * [[André Joyal]], 1977, _Remarques sur la th&#233;orie des jeux &#224; deux personnes_, Gazette des Sciences Math&#233;matiques du Qu&#233;bec 4, 46&#8211;52, translated as [Remarks on the Theory of Two-Player Games](https://bosker.files.wordpress.com/2010/12/joyal-games.pdf) by [[Robin Houston]].
 
