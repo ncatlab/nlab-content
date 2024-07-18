@@ -132,7 +132,7 @@ This expresses the fact that the reduction of the structure group along $\phi$ i
 
     * for $n = 3$: further reduction along $SU(3) \times SU(3) \hookrightarrow SU(3,3)$, [N=2 type II sugra compactification](exceptional+generalized+geometry#HigherSupersymmetry)
 
-* reduction of [[generalized tangent bundle]] along $G_2 \times G_2 \hookrightarrow SO(7,7)$: [[G2-structure]];
+* reduction of [[generalized tangent bundle]] along $G_2 \times G_2 \hookrightarrow SO(7,7)$: [[G₂-structure]];
 
 * reduction of [[generalized tangent bundle]] along $O(n) \times O(n) \hookrightarrow O(n,n)$: [[generalized vielbein]], [[type II geometry]];
 
