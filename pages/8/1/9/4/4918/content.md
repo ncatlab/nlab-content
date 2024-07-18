@@ -11,9 +11,11 @@ His  main research interests are in the following.
 
 His webpages are:
 
-* [DPMMS website1](http://www.dpmms.cam.ac.uk/~martin), [website2](https://www.dpmms.cam.ac.uk/person/jmeh1)
+* [personal webpage](https://www.dpmms.cam.ac.uk/~jmeh1/)
 
-and a [research page](http://www.dpmms.cam.ac.uk/~martin/Research/research.html)
+* [institute webpage](https://www.dpmms.cam.ac.uk/person/jmeh1)
+
+* [research page](https://www.dpmms.cam.ac.uk/~jmeh1/Research/research.html)
 
 ## Selected writings
 
@@ -24,7 +26,7 @@ On [[categorical semantics]] for the [[exponential modality]] in [[linear logic]
 
 On [[realizability]] and the [[propositional axiom of choice]]:
 
-* [[Martin Hyland]], _Variations on realizability: realizing the propositional axiom of choice_,  Mathematical Structures in Computer Science, Volume 12 , Issue 3 , June 2002 , pp. 295 - 317  ([doi:10.1017/S0960129502003651](https://doi.org/10.1017/S0960129502003651), [pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2002/vor02.pdf))
+* [[Martin Hyland]], _Variations on realizability: realizing the propositional axiom of choice_,  Mathematical Structures in Computer Science, Volume 12 , Issue 3 , June 2002 , pp. 295 - 317  ([doi:10.1017/S0960129502003651](https://doi.org/10.1017/S0960129502003651), [pdf](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Publications/2002/vor02.pdf))
 
 On [[categorical semantics]] for [[linear logic]]:
 
@@ -32,7 +34,7 @@ On [[categorical semantics]] for [[linear logic]]:
 
 On the history of [[categorical algebra|categorical]] [[universal algebra]] via [[Lawvere theories]] and [[monads]]:
 
-* [[Martin Hyland]], [[John Power]], *The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads*, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf)&rbrack;
+* [[Martin Hyland]], [[John Power]], *The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads*, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Publications/2007/hp07.pdf)&rbrack;
 
 
 
