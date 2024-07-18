@@ -180,7 +180,7 @@ See
 
 * [[intersecting D-brane models]]
 
-* [[G2-MSSM]]
+* [[G₂-MSSM]]
 
 
 
@@ -240,7 +240,7 @@ See
 
 * [[MSSM]]
 
-  * [[G2-MSSM]]
+  * [[G₂-MSSM]]
 
 * [[intersecting D-brane model]]
 
