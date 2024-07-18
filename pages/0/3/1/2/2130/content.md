@@ -221,7 +221,7 @@ The notion of symplectic manifold is equivalent to that of [[symplectic Lie n-al
 
 * [[contact manifold]]
 
-* [[G2-manifold]]
+* [[G₂-manifold]]
 
 [[!include (co)isotropic subspaces - table]]
 
