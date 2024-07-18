@@ -56,17 +56,17 @@ and:
 
 > The [[exceptional Lie algebra|Exceptional Algebras]] are most unique and beautiful among [[Lie algebra|Lie Algebras]], and no one should be surprised if Nature uses them.
 
-[Witten 02a](#Witten02a), in the context of [[M-theory on G2-manifolds]] says, with regard to the [[exceptional Lie group]] [[G2]]:
+[Witten 02a](#Witten02a), in the context of [[M-theory on G₂-manifolds]] says, with regard to the [[exceptional Lie group]] [[G₂]]:
 
-> ...arise in [[KK-compactification|compactifying]] from [[11-dimensional supergravity|eleven]] to four dimensions on a compact seven-manifold $X$ of [[G2-manifold|G2-holonomy]]. This seems like an interesting starting point for making a model of the real world, which is certainly exceptional
+> ...arise in [[KK-compactification|compactifying]] from [[11-dimensional supergravity|eleven]] to four dimensions on a compact seven-manifold $X$ of [[G₂-manifold|G₂-holonomy]]. This seems like an interesting starting point for making a model of the real world, which is certainly exceptional
 
 [Witten 02b](#Witten02b), in the context of [[grand unified theory]] and [[heterotic string theory]] says:
 
-> Describing nature by a group taken from an infinite family does raise an obvious question &#8211; why this group and not another? In addition to the three infinite families, there are five [[exceptional Lie groups]], namely [[G2]], [[F4]], [[E6]], [[E7]], and [[E8]]. Since nature is so exceptional, why not describe it using an exceptional Lie group? 
+> Describing nature by a group taken from an infinite family does raise an obvious question &#8211; why this group and not another? In addition to the three infinite families, there are five [[exceptional Lie groups]], namely [[G₂]], [[F₄]], [[E₆]], [[E₇]], [[E₈]]. Since nature is so exceptional, why not describe it using an exceptional Lie group? 
 
 [Ramond 03](#Ramond03) writes in a context of [[grand unification]]:
 
-> In the Lie garden, one also finds five rare flowers, the [[exceptional Lie algebras|exceptional algebras]]: [[G2]], [[F4]], [[E6]], [[E7]] and [[E8]], their rank indicated by the subscripts. In view of Nature's fascination with unique structures, they merit further study.
+> In the Lie garden, one also finds five rare flowers, the [[exceptional Lie algebras|exceptional algebras]]: [[G₂]], [[F₄]], [[E₆]], [[E₇]], [[E₈]], their rank indicated by the subscripts. In view of Nature's fascination with unique structures, they merit further study.
 
 [Boya 03](#Boya03) writes in view of the various occurrences of the [[octonions]] in [[M-theory]]:
 
