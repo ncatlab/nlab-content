@@ -118,7 +118,7 @@ See also
 
 * [[Michael Atiyah]], [[Edward Witten]], p. 75 onwards in  _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
-and argued to be [[duality in string theory|dual]] to [[M-theory on G2-manifolds]] in three different ways, which in turn is argued to lead to a a possible [[proof]] of [[confinement]] in the resulting 4d [[effective field theory]] (see [there](M-theory+on+G2-manifolds#Confinement) for more).
+and argued to be [[duality in string theory|dual]] to [[M-theory on G₂-manifolds]] in three different ways, which in turn is argued to lead to a a possible [[proof]] of [[confinement]] in the resulting 4d [[effective field theory]] (see [there](M-theory+on+G2-manifolds#Confinement) for more).
 
 [[!redirects quaternionic projective spaces]]
 
