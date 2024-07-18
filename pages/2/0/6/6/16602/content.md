@@ -18,7 +18,7 @@ On [[quantum cohomology rings]] of [[flag varieties]] ([[quantum Schubert calcul
 
 * [[special holonomy]]
 
-* [[G2-structure]]
+* [[G₂-structure]]
 
 * [[normed division algebra]]
 
