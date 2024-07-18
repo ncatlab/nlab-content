@@ -70,7 +70,7 @@ Discussion of the [[duality between F-theory and heterotic string theory]] for c
 
 * {#DonagiMarkman95} [[Ron Donagi]], [[Eyal Markman]], _Spectral curves, algebraically completely integrable Hamiltonian systems, and moduli of bundles_ ([arXiv:alg-geom/9507017](http://arxiv.org/abs/alg-geom/9507017))
 
-Discussion of relation to [[M-theory on G2-manifolds]]/[[M-theory on Spin(8)-manifolds]] includes
+Discussion of relation to [[M-theory on G₂-manifolds]]/[[M-theory on Spin(8)-manifolds]] includes
 
 * [[Mariana Graña]], C. S. Shahbazi, [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP11(2014)046 ([arXiv:1405.3698](http://arxiv.org/abs/1405.3698))
 
