@@ -47,7 +47,7 @@ In the absence of further fields besides gravity, the condition that such a conf
 
 More generally, in the presence of other [[background gauge fields]], the Calabi-Yau condition here is deformed. One also speaks of [[generalized Calabi-Yau space]]s. (For instance ([GMPT05](#GMPT))).
 
-Alternatively, if one starts the [[KK-compactification]] not from 10-dimensional [[string theory]] but from [[11-dimensional supergravity]]/[[M-theory]], then the condition for the [[KK-compactification]] to preserved precisely one global supersymmetry is that it be on a [[G2-manifold]]. For more on this see at _[[M-theory on G2-manifolds]]_.
+Alternatively, if one starts the [[KK-compactification]] not from 10-dimensional [[string theory]] but from [[11-dimensional supergravity]]/[[M-theory]], then the condition for the [[KK-compactification]] to preserved precisely one global supersymmetry is that it be on a [[G₂-manifold]]. For more on this see at _[[M-theory on G₂-manifolds]]_.
 
 ### Worldvolume perspective
  {#WorldvolumePerspective}
@@ -58,7 +58,7 @@ Similar comments apply to [[type II superstring theory]], where $N=1$ target spa
 
 ### Non-perturbative description
 
-The above analysis in [[perturbative string theory]] is expected to find a non-perturbative lift to [[M-theory]]/[[F-theory]]. Under this lift, compactification on a Calabi-Yau complex-3-fold (CY3) lifts to compactification on a [[G2-manifold]]/CY4-fold, respectively:
+The above analysis in [[perturbative string theory]] is expected to find a non-perturbative lift to [[M-theory]]/[[F-theory]]. Under this lift, compactification on a Calabi-Yau complex-3-fold (CY3) lifts to compactification on a [[G₂-manifold]]/CY4-fold, respectively:
 
 [[!include N=1 susy compactifications -- table]]
 
