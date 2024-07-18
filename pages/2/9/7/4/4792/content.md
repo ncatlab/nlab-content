@@ -421,7 +421,7 @@ $$
 +-- {: .num_prop #AutomorphismsOfOctonionAlgebraIsG2}
 ###### Proposition
 
-The [[automorphism group]] of the octonions, as a real algebra, is the [[exceptional Lie group]] [[G2]].
+The [[automorphism group]] of the octonions, as a real algebra, is the [[exceptional Lie group]] [[G₂]].
 
 =--
 
@@ -565,7 +565,7 @@ Once we have given the octonions their natural inner product, an imaginary octon
 +-- {: .num_prop #BasicTriplesFormAutomorphism}
 ###### Proposition
 
-The set of basic triples, def. \ref{BasicTriple}, forms a [[torsor]] over the [[automorphism group]] [[G2]] $= Aut(\mathbb{O})$.
+The set of basic triples, def. \ref{BasicTriple}, forms a [[torsor]] over the [[automorphism group]] [[G₂]] $= Aut(\mathbb{O})$.
 
 =--
 
