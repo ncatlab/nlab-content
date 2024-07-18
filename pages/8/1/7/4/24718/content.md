@@ -20,7 +20,7 @@
 
 ## Idea
 
-A **wreath** is a generalisation of a [[distributive law]] between two [[monads]] in a [[2-category]]. While a distributive law in a [[2-category]] $K$ can be seen as an object of $Mnd(Mnd(K))$, a wreath can be seen as an object of $EM(EM(K))$, where $EM$ denotes the completion of a 2-category under [[Eilenberg–Moore objects]]. Since $EM$ is a [[2-monad]], the multiplication $EM \circ EM \to EM$ produces from every wreath a **composite monad**, called its [[wreath product]].
+A **wreath** is a generalisation of a [[distributive law]] between two [[monads]] in a [[2-category]]. While a distributive law in a [[2-category]] $K$ can be seen as an object of $Mnd(Mnd(K))$, a wreath can be seen as an object of $EM(EM(K))$, where $EM$ denotes the completion of a 2-category under [[Eilenberg–Moore objects]]. Since $EM$ is a [[2-monad]], the multiplication $EM \circ EM \to EM$ produces from every wreath a **composite monad**, called its [[wreath product of wreaths|wreath product]].
 
 ## Definition
 Let $\mathcal{K}$ be a [[2-category]]. A *wreath* in $\mathcal{K}$ consists of:
