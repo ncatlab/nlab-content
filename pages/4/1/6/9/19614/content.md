@@ -36,7 +36,7 @@ In both cases a more speculative motivation for considering piecewise flat space
 
 Piecewise flat spacetimes appear naturally in [[3d quantum gravity|3-dimensional gravity]], which provides much of the inspiration and motivation of various approaches.
 
-But piecewise flat spacetimes also appear naturally as the "[[far-horizon geometry]]" ("small $N$-limit", see there) of [[BPS state|BPS]] [[black brane]] spacetimes in [[supergravity]] theories, where considerations such as at _[[M-theory on G2-manifolds]]_ suggest that the [[conical singularities]] have to be taken seriously as part of the physical model. These [[cone brane]]-singularities are necessarily time-like, as in ['t Hooft 08](#tHooft08), [van de Meent 11](#vandeMeent11), but in contrast to the assumption in general Regge calculus. Of course they are of higher dimension (and higher co-dimension) than considered in ['t Hooft 08](#tHooft08), [van de Meent 11](#vandeMeent11).
+But piecewise flat spacetimes also appear naturally as the "[[far-horizon geometry]]" ("small $N$-limit", see there) of [[BPS state|BPS]] [[black brane]] spacetimes in [[supergravity]] theories, where considerations such as at _[[M-theory on G₂-manifolds]]_ suggest that the [[conical singularities]] have to be taken seriously as part of the physical model. These [[cone brane]]-singularities are necessarily time-like, as in ['t Hooft 08](#tHooft08), [van de Meent 11](#vandeMeent11), but in contrast to the assumption in general Regge calculus. Of course they are of higher dimension (and higher co-dimension) than considered in ['t Hooft 08](#tHooft08), [van de Meent 11](#vandeMeent11).
 
 ## References
 
