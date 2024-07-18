@@ -20,7 +20,7 @@ On the [[Hopf-Wess-Zumino term]] of the [[M5-brane]]:
 
 * {#KalkkinenStelle02} [[Jussi Kalkkinen]], [[Kellogg Stelle]], Section 3.2 of: _Large Gauge Transformations in M-theory_, J. Geom. Phys. 48 (2003) 100-132 ([arXiv:hep-th/0212081](https://arxiv.org/abs/hep-th/0212081))
 
-On [[higher curvature corrections]] to [[D=11 supergravity]] and [[M-theory on G2-manifolds]]:
+On [[higher curvature corrections]] to [[D=11 supergravity]] and [[M-theory on G₂-manifolds]]:
 
 * H. Lu, [[Christopher Pope]], [[Kellogg Stelle]], [[Paul Townsend]], _Supersymmetric Deformations of $G_2$ Manifolds from Higher-Order Corrections to String and M-Theory_, JHEP 0410:019, 2004 ([arXiv:hep-th/0312002](https://arxiv.org/abs/hep-th/0312002))
 
