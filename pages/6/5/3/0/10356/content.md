@@ -167,7 +167,7 @@ An analogous McKay correspondence for (fractional) [[M-branes]]
 > graphics grabbed from [HSS18](http://ncatlab.org/schreiber/show/Equivariant+homotopy+and+super+M-branes)
 
 
-is considered informally in the [[string theory]] literature (for instance in discussion of [[M-theory on G2-manifolds]]) 
+is considered informally in the [[string theory]] literature (for instance in discussion of [[M-theory on G₂-manifolds]]) 
 but has not been given a correspondingly precise cohomological formulation yet. 
 
 ## Properties
