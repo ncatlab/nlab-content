@@ -39,7 +39,7 @@ Historically, the consideration of split supersymmetry ([Arkani-Hamed, Dimopoulo
 
 ### $G_2$-MSSM
 
-The class of [[model (physics)|physics]] called [[G2-MSSM]] generically exhibits "slightly" split supersymmetry.
+The class of [[model (physics)|physics]] called [[G₂-MSSM]] generically exhibits "slightly" split supersymmetry.
 
 From [Kane 17, p. 43-44 ((5-1)-(5-2))](#Kane17):
 
@@ -68,7 +68,7 @@ Further discussion includes
 
 * Fei Wang, Wenyu Wang, Jin Min Yang, _A split SUSY model from SUSY GUT_,  JHEP03(2015)050 ([arXiv:1501.02906](https://arxiv.org/abs/1501.02906))
 
-Popular discussion of the "slightly split" [[G2-MSSM]] is in
+Popular discussion of the "slightly split" [[G₂-MSSM]] is in
 
 * {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
 
