@@ -49,17 +49,17 @@ Here the idea is that $S^7$ can be construed as $\{(x, y) \in \mathbb{H}^2: {|x|
 
 +-- {: .num_prop #QuotientOfSpin7ByG2IsS7}
 ###### Proposition
-**([[coset space]] of [[Spin(7)]] by [[G2]] is [[7-sphere]])**
+**([[coset space]] of [[Spin(7)]] by [[G₂]] is [[7-sphere]])**
 
 Consider the canonical [[action]] of [[Spin(7)]] on the [[unit sphere]] in $\mathbb{R}^8$ (the [[7-sphere]]),
 
 1. This action is is [[transitive action|transitive]];
 
-1. the [[stabilizer group]] of any point on $S^7$ is [[G2]];
+1. the [[stabilizer group]] of any point on $S^7$ is [[G₂]];
 
-1. all [[G2]]-subgroups of [[Spin(7)]] arise this way, and are all [[conjugate subgroup|conjugate]] to each other.
+1. all [[G₂]]-subgroups of [[Spin(7)]] arise this way, and are all [[conjugate subgroup|conjugate]] to each other.
 
-Hence the [[coset space]] of [[Spin(7)]] by [[G2]] is the [[7-sphere]]
+Hence the [[coset space]] of [[Spin(7)]] by [[G₂]] is the [[7-sphere]]
 
 $$
   S^7
@@ -150,7 +150,7 @@ $$
   \,.
 $$
 
-This 3-form $\phi$ defines a [[G2-structure]] on $S^7$. It is _nearly parallel_ in that
+This 3-form $\phi$ defines a [[G₂-structure]] on $S^7$. It is _nearly parallel_ in that
 
 $$
   d \phi = 4 \star \phi
