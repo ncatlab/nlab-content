@@ -7,7 +7,7 @@ For [[heterotic string theory]] [[M-theory on Sp(1)-manifolds|on Sp(1)-manifolds
 
 * [[Jan Louis]], Danny Martinez-Pedrera, [[Andrei Micu]], _Heterotic compactifications on SU(2)-structure backgrounds_, JHEP 0909:012, 2009 ([arXiv:0907.3799](https://arxiv.org/abs/0907.3799))
 
-On [[M-theory on G2-manifolds]]:
+On [[M-theory on G₂-manifolds]]:
 
 * {#HouseMicu04} Thomas House, [[Andrei Micu]], _M-theory Compactifications on Manifolds with $G_2$ Structure_ ([arXiv:hep-th/0412006](http://arxiv.org/abs/hep-th/0412006))
 
