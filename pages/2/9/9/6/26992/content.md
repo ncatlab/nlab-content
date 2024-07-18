@@ -19,7 +19,7 @@ Survey:
 
 * S. Blanes, F. Casas, J. A. Oteo, J. Ros, _The Magnus expansion and some of its application_, Physics reports __470__ (2008) 151--238 [doi](https://doi.org/10.1016/j.physrep.2008.11.001)
 
-See also:
+Path signature generalized to surface signature (for surface iterated integrals) and related to Lie algebra crossed modules in
 
 * Ilya Chevyrev, Joscha Diehl, [[Kurusch Ebrahimi-Fard]], Nikolas Tapia, _A multiplicative surface signature through
 its Magnus expansion_, [arXiv:2406.16856](https://arxiv.org/pdf/2406.16856)
