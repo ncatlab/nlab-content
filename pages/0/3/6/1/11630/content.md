@@ -130,7 +130,7 @@ U-duality may be understood as being the combination of [[T-duality]] for the co
 
   * **U-duality**
 
-* [[M-theory on G2-manifolds]]
+* [[M-theory on G₂-manifolds]]
 
 * [[magic pyramid]]
 
