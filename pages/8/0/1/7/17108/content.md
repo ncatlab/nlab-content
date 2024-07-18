@@ -53,10 +53,10 @@ There are precisely 3 [[conjugacy classes of subgroups|conjugacy classes]] of [[
 
 +-- {: .num_prop #G2IsIntersectionOfSpin7SubgroupsInSpin8}
 ###### Proposition
-**([[G2]] is [[intersection]] of [[Spin(7)]]-[[subgroups]] of [[Spin(8)]])**
+**([[G₂]] is [[intersection]] of [[Spin(7)]]-[[subgroups]] of [[Spin(8)]])**
 
 The [[intersection]] inside [[Spin(8)]] of any two [[Spin(7)]]-subgroups from distinct [[conjugacy classes of subgroups]] (according to Prop. \ref{Spin7SubgroupsInSpin8})
-is the [[exceptional Lie group]] [[G2]], hence we have [[pullback squares]] of the form
+is the [[exceptional Lie group]] [[G₂]], hence we have [[pullback squares]] of the form
 
 \begin{center}
 \begin{xymatrix}
@@ -137,7 +137,7 @@ Here in the bottom row we have the [[Lie groups]]
 
 with their canonical [[subgroup]]-inclusions, while in the top row we have 
 
-[[SU(2)]] $\hookrightarrow$ [[SU(3)]] $\hookrightarrow$ [[G2]] $\hookrightarrow$ [[Spin(7)]]
+[[SU(2)]] $\hookrightarrow$ [[SU(3)]] $\hookrightarrow$ [[G₂]] $\hookrightarrow$ [[Spin(7)]]
 
 and the right vertical inclusion $\iota'$ is the one of the two non-standard inclusions, according to Prop. \ref{Spin7SubgroupsInSpin8}.
 
@@ -173,17 +173,17 @@ The statement also follows with
 
 +-- {: .num_prop #QuotientOfSpin7ByG2IsS7}
 ###### Proposition
-**([[coset space]] of [[Spin(7)]] by [[G2]] is [[7-sphere]])**
+**([[coset space]] of [[Spin(7)]] by [[G₂]] is [[7-sphere]])**
 
 Consider the canonical [[action]] of [[Spin(7)]] on the [[unit sphere]] in $\mathbb{R}^8$ (the [[7-sphere]]),
 
 1. This action is is [[transitive action|transitive]];
 
-1. the [[stabilizer group]] of any point on $S^7$ is [[G2]];
+1. the [[stabilizer group]] of any point on $S^7$ is [[G₂]];
 
-1. all [[G2]]-subgroups of [[Spin(7)]] arise this way, and are all [[conjugate subgroup|conjugate]] to each other.
+1. all [[G₂]]-subgroups of [[Spin(7)]] arise this way, and are all [[conjugate subgroup|conjugate]] to each other.
 
-Hence the [[coset space]] of [[Spin(7)]] by [[G2]] is the [[7-sphere]]
+Hence the [[coset space]] of [[Spin(7)]] by [[G₂]] is the [[7-sphere]]
 
 $$
   Spin(7)/G_2 \;\simeq\; S^7
