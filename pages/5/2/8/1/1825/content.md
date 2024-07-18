@@ -245,7 +245,7 @@ The [[connected topological space|connected]] [[compact Lie groups]] with [[effe
 
 * [[Sp(n).Sp(1)]]
 
-* [[G2]]
+* [[G₂]]
 
 * [[Spin(7)]]
 
