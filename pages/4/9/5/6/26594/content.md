@@ -18,7 +18,7 @@
 
 In [[probability theory]], *zero-one laws* are conditions for which a certain [[probability measure]] can only assume the values [[zero]] and [[one]] (i.e. it is a [[zero-one measure]]).
 
-Very often they can be seen as conditions for which a probability measure, usually an [[iid measure|iid one]], is [[ergodic]] (that is, it is [[zero-one measure|zero-one]] on the [[invariant sets]] of some [[action]]). 
+Sometimes they can be seen as conditions for which a probability measure, usually an [[iid measure|iid one]], is [[ergodic]] (that is, it is [[zero-one measure|zero-one]] on the [[invariant sets]] of some [[action]]). 
 
 
 ## Statements
