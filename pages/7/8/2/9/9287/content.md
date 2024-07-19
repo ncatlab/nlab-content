@@ -43,7 +43,7 @@ If this rigid symmetric monoidal category in addition satisfies a certain regula
 
 ## References
 
-* {#Gelaki} [[Shlomo Gelaki]], _On the classification of finite-dimensional triangular Hopf algebras_, New directions in Hopf algebras, MSRI publications volume 43 (2002) ([pdf](http://library.msri.org/books/Book43/files/gelaki.pdf))
+* {#Gelaki} [[Shlomo Gelaki]], _On the classification of finite-dimensional triangular Hopf algebras_, New directions in Hopf algebras, MSRI publications volume 43 (2002) ([math/0007154](https://arxiv.org/abs/math/0007154))
  
 
 * Wikipedia, _[Quasitriangular Hopf algebra](http://en.wikipedia.org/wiki/Quasitriangular_Hopf_algebra)_
