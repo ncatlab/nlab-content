@@ -151,6 +151,8 @@ and specifically in relation, under [[AdS2/CFT1]], to [[Jackiw-Teitelboim gravit
 
 * [[Micha Berkooz]], Ohad Mamroud: *A Cordial Introduction to Double Scaled SYK* \[<a href="https://arxiv.org/abs/2407.09396">arXiv:2407.09396</a>\]
 
+* Adel A. Rahman, [[Leonard Susskind]]: *$p$-Chords, Wee-Chords, and de Sitter Space* \[<a href="https://arxiv.org/abs/2407.12988">arXiv:2407.12988</a>\]
+
 
 #### In D$p$/D$(p+2)$-brane intersections
  {#ReferencesWeightSystemsInDpDp2BraneIntersections}
