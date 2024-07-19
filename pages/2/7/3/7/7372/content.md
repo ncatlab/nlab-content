@@ -1,4 +1,4 @@
-Barry Mitchell (1933-2021) was an American mathematician who wrote one of the earliest books on category theory (1965).  
+Barry Mitchell (1933-2021) was an American mathematician who wrote one of the earliest books on [[category theory]] (1965).  
 
 He proved what is now known as the *[[Freyd-Mitchell embedding theorem]]*, which shows that any [[abelian category]] has an exact embedding into a [[category of modules]].
 
@@ -14,6 +14,11 @@ Introducing the [[Mitchell embedding theorem]]:
 On [[category theory]]:
 
 * [[Barry Mitchell]], *Theory of categories*, Pure and Applied Mathematics **17**, Academic Press (1965) &lbrack;[ISBN:978-0-12-499250-4](https://www.elsevier.com/books/theory-of-categories/mitchell/978-0-12-499250-4)&rbrack;
+
+Introducing the notion of [[ringoids]]:
+
+* [[Barry Mitchell]]: *Rings with several objects*, Advances in Mathematics
+**8** 1 (1972) 1-161 \[<a href="https://doi.org/10.1016/0001-8708(72)90002-3">doi:10.1016/0001-8708(72)90002-3</a>\]
 
 See also:
 
