@@ -75,14 +75,19 @@ $W$ is a generator of the oriented [[bordism ring]] $\Omega_5^{\operatorname{SO}
 ([Crowley 11](#Crowley11), [Debray](#Debray))
 
 \begin{proposition}
-The Wu manifold is a [[spin^h structure|spin^h manifold]], which does not allow a [[spin^c structure]].
+The Wu manifold is a [[spinʰ structure|spinʰ manifold]], which does not allow a [[spinᶜ structure]].
 \end{proposition}
 
 ([MO/304471](https://mathoverflow.net/questions/304471/spin-h-structures))
 
+The Wu manifold:
+
+* does not allow a stable [[complex structure]], therefore no almost contact structure and therefore no [[contact structure]]
+* has a non-vanishing deRham invariant and therefore a non-vanishing symmetric signature
+
 ## References
 
-* {#Crowley11} Diamuid Crowley, _5-manifolds: 1-connected_, In: _Bulletin of the Manifold Atlas_. 2011, p. 49–55, [pdf](http://www.boma.mpim-bonn.mpg.de/data/33print.pdf)
+* {#Crowley11} Diarmuid Crowley, _5-manifolds: 1-connected_, In: _Bulletin of the Manifold Atlas_. 2011, p. 49–55, [pdf](http://www.boma.mpim-bonn.mpg.de/data/33print.pdf)
 * {#Debray} Arun Debray, _Characteristic classes_, [pdf](https://web.archive.org/web/20210107194324/https://web.ma.utexas.edu/users/a.debray/lecture_notes/u17_characteristic_classes.pdf)
 
 See also:
