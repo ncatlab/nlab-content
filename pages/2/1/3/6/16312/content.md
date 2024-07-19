@@ -1,4 +1,4 @@
-
+Paul Moritz Cohn was a British algebraist.
 
 * [Wikipedia page](http://en.wikipedia.org/wiki/Paul_Cohn)
 
@@ -10,6 +10,7 @@ On [[localization of rings]] ([[Cohn localization]]):
 
 * [[Paul M. Cohn]], _Inversive localization in noetherian rings_, Communications on Pure and Applied Mathematics __26__ 5-6 (1973 ) 679-691 &lbrack;[doi:10.1002/cpa.3160260510](http://dx.doi.org/10.1002/cpa.3160260510)&rbrack; 
 
+* [[P. M. Cohn]], _Universal skew fields of fractions_, Symposia in Mathematics __8__ (1972) 135--148
 
 category: people
 [[!redirects P. M. Cohn]]
