@@ -71,12 +71,13 @@ Cohn proved that if in the free skewfield any full matrix is invertible. An $n\t
 __Noncommutative rational identities__ are formally studied in
 
 * [[Shimshon Amitsur|S. A. Amitsur]], _Rational identities and application to algebra and geometry_, J. Alg. __3__ (1966) 304--359.
-* P. M. Cohn, _Free rings and their relations_, Academic Press 1971. 
+* [[P. M. Cohn]], _Free rings and their relations_, Academic Press 1971. 
+* [[George M. Bergman]], _Rational relations and rational identities in division rings. I_, J. Algebra __43__ (1976) 252--266
 
 The division ring of noncommutative rational functions on a given alphabet is defined in Cohn's book.
 
 * [[George M. Bergman]], _Skew fields of noncommutative rational functions, after Amitsur_. In Séminaire Schützenberger–Lentin–Nivat, Année 1969/1970, No. 16. Paris 1970 [EuDML](http://eudml.org/doc/112813)
-* P. M. Cohn, _Universal skew fields of fractions_, Symposia in Mathematics __8__ (1972) 135--148
+* [[P. M. Cohn]], _Universal skew fields of fractions_, Symposia in Mathematics __8__ (1972) 135--148
 * C. Reutenauer, _Inversion heights of free fields_, Selecta Mathematica, N. S. __2__:1 (1996) 93--109 [pdf](https://reutenauer.math.uqam.ca/wp-content/uploads/2024/04/Inversion-height.pdf)
 * [[I. M. Gel'fand]], [[V. Retakh|V. S. Retakh]], _Determinants of matrices over noncommutative rings_, Funkc. Anal. Pril. __25__:2 (1991) 91--102; engl. transl. Funct. Anal. Appl. __21__(1991) 51--58; _A theory of noncommutative determinants and characteristic functions of graphs_, Funkc. Anal. Pril. __26__:4 (1992) 231--246.
 * [[Zoran Škoda]], _Universal noncommutative flag variety_, preprint (the exposition above is mainly taken from here)
