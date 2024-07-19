@@ -151,7 +151,7 @@ The characterization of final functors is a special case of the characterization
 ### Final enriched functors 
  {#FinalityForWeightedLimits}
 
-Finality for [[enriched functors]] with respect to [[weighted colimits]] is discussed in [Kelly 1982 §4.5](#Kelly82).
+Finality for [[enriched functors]] with respect to [[weighted colimits]] (for enrichment in a [[cartesian closed category]]) is discussed in [Kelly 1982 §4.5](#Kelly82): see Theorem 4.67 in particular.
 
 See also discussion of finality specifically for [[coends]] (initiality for [[weighted limits]] and [[ends]]) by:
 
