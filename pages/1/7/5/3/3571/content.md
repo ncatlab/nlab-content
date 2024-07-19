@@ -1,5 +1,7 @@
 
-* [webpage](http://www.math.cornell.edu/~kbrown/)
+* [webpage](https://pi.math.cornell.edu/~kbrown/)
+
+* [departmental webpage](https://math.cornell.edu/kenneth-brown)
 
 
 ## Selected writings
