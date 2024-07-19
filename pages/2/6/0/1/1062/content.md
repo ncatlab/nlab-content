@@ -108,10 +108,27 @@ See also [[dg-category]].
 
 ## References
 
-* John Baez, [Ringoids](http://golem.ph.utexas.edu/category/2006/09/ringoids.html), blog
-* C. Weibel, [[An Introduction to Homological Algebra]], Cambridge Univ. Press
-* [[Daniel Murfet]], _Localisation of ringoids_, [pdf](http://therisingsea.org/notes/LocalisationOfRingoids.pdf) 2006 notes
-* N. Popescu, _[[Abelian categories with applications to rings and modules]]_, London Math. Soc. Monographs 3, Academic Press 1973. xii+467 pp. MR0340375
+The original articles on ringoids:
+
+* [[Barry Mitchell]]: *Rings with several objects*, Advances in Mathematics
+**8** 1 (1972) 1-161 \[<a href="https://doi.org/10.1016/0001-8708(72)90002-3">doi:10.1016/0001-8708(72)90002-3</a>\]
+
+* {#Chu84} [[Po-Hsiang Chu]], *Theory of Ringoids*, PhD thesis, McGill University (1984) &lbrack;[escholar:q811kn193](https://escholarship.mcgill.ca/concern/theses/q811kn193), [[Chu-Ringoids.pdf:file]]&rbrack;
+
+* [[Daniel Murfet]], _Localisation of ringoids_, notes (2006)  &lbrack;[pdf](http://therisingsea.org/notes/LocalisationOfRingoids.pdf)&rbrack;
+
+Exposition:
+
+* John Baez, *[Ringoids](http://golem.ph.utexas.edu/category/2006/09/ringoids.html)*, blog (2006)
+
+Textbook accounts on $Ab$-enriched categories (mostly: [[abelian categories]]) and their application in ([[homological algebra|homological]]) [[algebra]]:
+
+* [[Nicolae Popescu]], _[[Abelian categories with applications to rings and modules]]_, London Math. Soc. Monographs **3**, Academic Press (1973)  &lbrack;[MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)&rbrack;
+
+* [[Charles Weibel]]: *[[An Introduction to Homological Algebra]]* Cambridge Univ. Press (1994) &lbrack;[doi:10.1017/CBO9781139644136](https://doi.org/10.1017/CBO9781139644136)&rbrack;
+
+
+
 
 [[!redirects Ab-enriched category]]
 [[!redirects Ab-enriched categories]]
