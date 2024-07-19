@@ -33,6 +33,17 @@ An **enhanced factorisation system** on a [[2-category]] is an orthogonal [[fact
 
 there is a unique pair of a 1-cell $r : B \to C$ and invertible 2-cell $\beta : t \Rightarrow m r$ such that $r e = s$ and $\beta e = \alpha$.
 
+\begin{tikzcd}
+	A & B \\
+	C & D
+	\arrow["e", from=1-1, to=1-2]
+	\arrow["s"', from=1-1, to=2-1]
+	\arrow[""{name=0, anchor=center, inner sep=0}, "r"{description}, from=1-2, to=2-1]
+	\arrow["t", from=1-2, to=2-2]
+	\arrow["m"', from=2-1, to=2-2]
+	\arrow["\beta"{description, pos=0.6}, draw=none, from=0, to=2-2]
+\end{tikzcd}
+
 ## References
 
 Enhanced factorisation systems were defined in
