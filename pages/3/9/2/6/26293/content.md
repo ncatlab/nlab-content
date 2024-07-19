@@ -9,7 +9,8 @@ Introducing the [[Chu construction]]:
 
 Introducing the theory of [[Ab-enriched category | ringoids]] from a ring-theoretical point of view:
 
-* {#Chu84} [[Po-Hsiang Chu]], *Theory of Ringoids*, 1984, McGill University, [PhD thesis](https://escholarship.mcgill.ca/concern/theses/q811kn193) 
+* {#Chu84} [[Po-Hsiang Chu]], *Theory of Ringoids*, PhD thesis, McGill University (1984) &lbrack;[escholar:q811kn193](https://escholarship.mcgill.ca/concern/theses/q811kn193), [[Chu-Ringoids.pdf:file]]&rbrack;
+
 
 category: people
 
