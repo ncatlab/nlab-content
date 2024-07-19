@@ -877,7 +877,7 @@ higher versions
 
 ## References
 
-The first monograph:
+An early monograph:
 
 * {#EilKel66} [[Samuel Eilenberg]], [[G. Max Kelly]], Section II.1 in: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
@@ -891,17 +891,15 @@ Textbook accounts:
 
 * {#Borceux94} [[Francis Borceux]], Section 6.1 of: *Handbook of Categorical Algebra* Vol. 2: *Categories and Structures* $[$[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)$]$, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
 
-* {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], Chapter 2 of: *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) &lbrack;[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205), [pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)&rbrack;
-
-  > (focus on [[tensor categories]])
-
-
+* {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], Chapter 2 of: *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) &lbrack;[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205), [pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)&rbrack;    (This has a focus on [[tensor categories]].)
 
 Exposition of basics of monoidal categories and [[categorical algebra]]:
 
 * _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
 
-Monoidal categories were introduced by [[Jean Bénabou]] under the name 'category with multiplication'. Mac Lane was the first to give a finite axiomatisation, under the name 'bicategory' (not to be confused with the contemporary meaning of *[[bicategory]]*). The current name is due to Eilenberg.
+History:
+
+A version of monoidal categories were introduced by [[Jean Bénabou]] under the name 'categorie avec multiplication'.  However, he gave the coherence laws incorrectly, by stating that all diagrams of a certain form commute, when in fact not all these diagrams need commute.   Mac Lane's 1963 paper was the first to give a correct (and finite) axiomatisation, under the name 'bicategory' (not to be confused with the contemporary meaning of *[[bicategory]]*).  Mac Lane later wrote that, the current name is due to Eilenberg.   It is used in the 1966 paper by Eilenberg and Kelly cited above.
 
 * [[Jean Bénabou]], _Cat&#233;gories avec multiplication_ , C. R. Acad. Sci. Paris **256** (1963) 1887-1890 &lbrack;[gallica](http://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1965.image)&rbrack;
 
@@ -913,7 +911,9 @@ Shortly after Mac Lane's definition appeared, Max Kelly showed how the coherence
 
 * {#Kelly} [[Max Kelly]], _On MacLane's Conditions for Coherence of Natural Associativities, Commutativities, etc._, Journal of Algebra **1** (1964) pp.397-402. 
  
+For a quick history of monoidal categories including an explanation of why Benabou's definition is incorrect, see Section 2 here:
 
+* {#BaezSinh} [[John Baez]], _Hoàng Xuân Sính's Thesis: Categorifying Group Theory_, Thang Long Journal of Science: Mathematics and Mathematical Sciences 2 (2023), pp. 1-35.  ([arXiv](https://arxiv.org/abs/2308.05119))
 
 Lecture notes on the [[higher algebra]] of monoidal categories:
 
