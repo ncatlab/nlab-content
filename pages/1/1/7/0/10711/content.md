@@ -19,6 +19,9 @@ On [[Whitehead-generalized cohomology theories]], [[homotopy theory]] ([[localiz
 
 * {#Brown62} [[Edgar Brown]], _Cohomology theories_, Annals of Mathematics, Second Series 75: 467&#8211;484 (1962) ([jstor:1970209](https://www.jstor.org/stable/1970209))
 
+
+On abstract [[homotopy theory]] ([[localization]] to [[homotopy categories]]):
+
 * {#Brown65} [[Edgar Brown]], _Abstract homotopy theory_, Trans. AMS 119 no. 1 (1965) ([doi:10.1090/S0002-9947-1965-0182970-6](https://doi.org/10.1090/S0002-9947-1965-0182970-6))
 
 
