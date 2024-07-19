@@ -2,6 +2,6 @@
 
 | [[chromatic level]] | [[generalized cohomology theory]] / [[E-∞ ring]] |  [[obstruction]] to [[orientation in generalized cohomology]] | [[orientation in generalized cohomology|generalized orientation]]/[[polarization]] | [[quantization]] | incarnation as [[quantum anomaly]] in [[higher gauge theory]]  | 
 |-----|--------------------------------------------------|---|--|---|---|
-|  1  | [[complex K-theory]] $KU$ | [[integral Stiefel-Whitney class|third integral SW class]] $W_3$ | [[spin^c-structure]] | [[geometric quantization by push-forward|K-theoretic geometric quantization]]  | [[Freed-Witten anomaly]] |
+|  1  | [[complex K-theory]] $KU$ | [[integral Stiefel-Whitney class|third integral SW class]] $W_3$ | [[spinᶜ structure]] | [[geometric quantization by push-forward|K-theoretic geometric quantization]]  | [[Freed-Witten anomaly]] |
 |  2  | [[EO(n)]]  |  [[Stiefel-Whitney class]] $w_4$ |  |  |   |
 |  2  | [[integral Morava K-theory]] $\tilde K(2)$ | [[integral Stiefel-Whitney class|seventh integral SW class]] $W_7$ |  |  | [[Diaconescu-Moore-Witten anomaly]] in [Kriz-Sati interpretation](Diaconescu-Moore-Witten+anomaly#ReferencesInterpretationInSecondMoravaKTheory) |
