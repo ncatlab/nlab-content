@@ -52,6 +52,12 @@ Proposing [[ER = EPR]]:
 
  * {#MaldacenaSusskind13} [[Juan Maldacena]], [[Leonard Susskind]], _Cool horizons for entangled black holes_, Fortsch. Phys. 61 (2013) 781-811, 2013 ([arXiv:1306.0533](http://arxiv.org/abs/1306.0533), [doi:10.1002/prop.201300020](https://doi.org/10.1002/prop.201300020)) 
 
+On the role of [[chords]] in the [[holographic principle|holography]] for the [[SYK model]]:
+
+* Adel A. Rahman, [[Leonard Susskind]]: *$p$-Chords, Wee-Chords, and de Sitter Space* \[<a href="https://arxiv.org/abs/2407.12988">arXiv:2407.12988</a>\]
+
+
+
 ## Interviews
 
 * Y Combinator: *Leonard Susskind on Richard Feynman, the Holographic Principle, and Unanswered Questions in Physics* (Dec 2018) &lbrack;[YT](https://youtu.be/CQAcLW6qdQY)&rbrack;
