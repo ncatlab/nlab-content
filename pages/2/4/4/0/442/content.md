@@ -32,7 +32,7 @@ There are two related definitions of Lawvere theory in the literature. Both defi
 
 A **Lawvere [[theory]]** or **finite-product theory** is (equivalently encoded by its [[syntactic category]] which is) a [[category]] $T$ with finite [[products]] in which every [[object]] is [[isomorphism|isomorphic]] to a finite cartesian power $x^n = x \times x \times \cdots \times x$ of a distinguished object $x$ (called the _generic object_ for the theory $T$). 
 
-A _[[homomorphism]]_ of such theories $T \to T'$ is a product-preserving [[functor]]. 
+A _[[homomorphism]]_ of such theories $T \to T'$ is a product-preserving [[functor]] which also preserves the generic object.
 
 =--
 
@@ -43,6 +43,8 @@ Let $\mathbb{F}$ be the category of natural numbers and functions between them (
 
 A **Lawvere [[theory]]** is a [[category]] $T$ equipped with an [[identity-on-objects functor|identity-on-objects]] strictly [[power]]-preserving functor $J:\mathbb{F}^{\mathrm{op}} \to T$. (Power preservation is here equivalent to product preservation.)
 =--
+
+In this definition, a homomorphism is a product-preserving functor making the obvious triangle commute (up to isomorphism).
 
 +-- {: .un_remark}
 ###### Remark
