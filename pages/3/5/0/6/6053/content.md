@@ -64,8 +64,9 @@ The original articles:
 
   Journal of Soviet Mathematics **41** (1988) 898–915 &lbrack;[doi:10.1007/BF01247086](https://doi.org/10.1007/BF01247086)&rbrack;
 
-* [[Shahn Majid]], _Doubles of quasitriangular Hopf algebras_, Comm. Algebra __19__ 11 (1991) 3061-3073 &lbrack;[MR92k:16052](http://www.ams.org/mathscinet-getitem?mr=1132774) [doi:10.1080/00927879108824306](http://dx.doi.org/10.1080/00927879108824306)&rbrack; 
-
+* [[Shahn Majid]], _Doubles of quasitriangular Hopf algebras_, Comm. Algebra __19__ 11 (1991) 3061-3073 &lbrack;[MR92k:16052](http://www.ams.org/mathscinet-getitem?mr=1132774) [doi:10.1080/00927879108824306](https://doi.org/10.1080/00927879108824306)&rbrack; 
+* [[Shahn Majid]], _Representations, duals and quantum doubles of monoidal categories_, Suppl. Rend.
+Circ. Mat. Palermo., Series II, 26 (1991) 197--206
 * [[Shahn Majid]], _Some remarks on the quantum double_, Czechoslovak J. Phys. __44__ 11-12 (1994) 1059-1071 &lbrack;[arXiv:hep-th/9409056](https://arxiv.org/abs/hep-th/9409056), [doi:10.1007/BF01690458](https://doi.org/10.1007/BF01690458)&rbrack;
 
 
@@ -75,23 +76,23 @@ Survery:
 
 The generalization of the double construction to [[quasi-Hopf algebras]] motivated by 
 
-* {#DijkgraafPasquierRoche90} [[Robbert Dijkgraaf]], [[Vincent Pasquier]], [[Philippe Roche]], *QuasiHopf algebras, group cohomology and orbifold models*, Nucl. Phys. B Proc. Suppl **18** (1990) 60-72 &lbrack;<a href="https://doi.org/10.1016/0920-5632(91)90123-V">doi:10.1016/0920-5632(91)90123-V</a>&rbrack;
+* {#DijkgraafPasquierRoche90} [[Robbert Dijkgraaf]], [[Vincent Pasquier]], [[Philippe Roche]], *QuasiHopf algebras, group cohomology and orbifold models*, Nucl. Phys. B Proc. Suppl **18** (1990) 60--72 &lbrack;<a href="https://doi.org/10.1016/0920-5632(91)90123-V">doi:10.1016/0920-5632(91)90123-V</a>&rbrack;
 
-* [[Robbert Dijkgraaf]], [[Vincent Pasquier]], [[Philippe Roche]], _Quasi-quantum groups related to orbifold models_, *International Colloquium on Modern Quantum Field Theory* (Bombay, 1990), 375-383, World Sci. (1991) &lbrack;[cds:206306](https://cds.cern.ch/record/206306?ln=ka), [[DPR-QuasiQuantumGroups.pdf:file]]&rbrack;
+* [[Robbert Dijkgraaf]], [[Vincent Pasquier]], [[Philippe Roche]], _Quasi-quantum groups related to orbifold models_, *International Colloquium on Modern Quantum Field Theory* (Bombay, 1990), 375--383, World Sci. (1991) &lbrack;[cds:206306](https://cds.cern.ch/record/206306?ln=ka), [[DPR-QuasiQuantumGroups.pdf:file]]&rbrack;
 
 which is reviewed in 
 
-*  A. Coste, J-M. Maillard, _Representation Theory of Twisted Group Double_, Annales Fond.Broglie 29 (2004) 681-694, ([arXiv:hep-th/0309257](http://arxiv.org/abs/hep-th/0309257))
+*  A. Coste, J-M. Maillard, _Representation theory of twisted group double_, Annales Fond.Broglie 29 (2004) 681-694, ([arXiv:hep-th/0309257](http://arxiv.org/abs/hep-th/0309257))
 
 was obtained in  
 
-* {#Majid} [[Shahn Majid]], _Quantum double for quasi-Hopf algebras_, Lett. Math. Phys. __45__ (1998), no. 1, 1&#8211;9, [MR2000b:16077](http://www.ams.org/mathscinet-getitem?mr=1631648), [doi](http://dx.doi.org/10.1023/A:1007450123281), [q-alg/9701002](http://arxiv.org/abs/q-alg/9701002) 
+* {#Majid} [[Shahn Majid]], _Quantum double for quasi-Hopf algebras_, Lett. Math. Phys. __45__ (1998), no. 1, 1--9, [MR2000b:16077](http://www.ams.org/mathscinet-getitem?mr=1631648), [doi](https://doi.org/10.1023/A:1007450123281), [q-alg/9701002](https://arxiv.org/abs/q-alg/9701002) 
 
-* [[Shahn Majid]], _Cross product quantisation, nonabelian cohomology and twisting of Hopf algebras_, [hep-th/9311184](http://arxiv.org/abs/hep-th/9311184)
+* [[Shahn Majid]], _Cross product quantisation, nonabelian cohomology and twisting of Hopf algebras_, [hep-th/9311184](https://arxiv.org/abs/hep-th/9311184)
 
 Interpretation via [[transgression in group cohomology]]:
 
-* {#Willerton08} [[Simon Willerton]], Section 1 of: *The twisted Drinfeld double of a finite group via gerbes and finite groupoids*, Algebr. Geom. Topol. 8 (2008) 1419-1457 &lbrack;[arXiv:math/0503266](https://arxiv.org/abs/math/0503266), [doi:10.2140/agt.2008.8.1419](https://doi.org/10.2140/agt.2008.8.1419)&rbrack;
+* {#Willerton08} [[Simon Willerton]], Section 1 of: *The twisted Drinfeld double of a finite group via gerbes and finite groupoids*, Algebr. Geom. Topol. 8 (2008) 1419--1457 &lbrack;[arXiv:math/0503266](https://arxiv.org/abs/math/0503266), [doi:10.2140/agt.2008.8.1419](https://doi.org/10.2140/agt.2008.8.1419)&rbrack;
 
 
 The special case of the Drinfeld double of a [[finite group]] is discussed further in 
@@ -106,6 +107,9 @@ The equivalence of category of modules over the Drinfeld double for the case of 
 
 * {#Hinich07} [[Vladimir Hinich]], *Drinfeld double for orbifolds*, in *Quantum Groups*, Contemporary Math **433** AMS (2007) 251-265 &lbrack;[math.QA/0511476](http://arxiv.org/abs/math/0511476), [doi:10.1090/conm/433](http://dx.doi.org/10.1090/conm/433)&rbrack;
  
+On representation theory of the quantum double of a finite group
+
+* [[Shahn Majid]], Leo Sean McCormack, _Quantum geometric Wigner construction for $D(G)$ and braided racks_, [arXiv:2407.11835](https://arxiv.org/abs/2407.11835)
 
 [[!redirects Drinfel'd doubles]]
 
