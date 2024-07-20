@@ -11,6 +11,8 @@
 
 * [[Astra Kolomatskaia]], [[Michael Shulman]], *Displayed Type Theory and Semi-Simplicial Types* ([arXiv:2311.18781](https://arxiv.org/abs/2311.18781)) 
 
+* [[Astra Kolomatskaia]], *You Wouldn't Permutahedron* ([arXiv:2407.10891](https://arxiv.org/abs/2407.10891)) 
+
 ## Talks
 
 On [[semi-simplicial types]]:
