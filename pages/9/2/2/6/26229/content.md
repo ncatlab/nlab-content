@@ -258,7 +258,7 @@ On elliptic [[quantum groups]]:
 
 On [[configuration spaces of points]] and their relation to [[Cohomotopy]] via [[scanning maps]]:
 
-* [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024)
+* [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2407.11092](https://arxiv.org/abs/2407.11092)&rbrack;
 
 
 
