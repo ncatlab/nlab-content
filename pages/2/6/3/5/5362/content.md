@@ -52,6 +52,9 @@ where the copies of $A$ are disjoint [[subobjects]] of $C$ splitting $\sigma$, t
   Since $x \mapsto x \vee \neg x$ is the characteristic function of $\lambda : 1 \amalg 1 \to L$, the morphism $(\chi^1, \sigma) : C \to L \times A$ pulls $A \times \lambda$ back to a subobject containing $\delta$. Compatibility with $\sigma$ is obvious, and so it is a morphism of cylinder objects.
 \end{proof}
 
+
+### Monomorphisms and trivial fibrations
+
 In a topos, [[lifting problems]] against [[monomorphisms]] can be described in terms of [[partial maps]], giving an elementary characterization of [[trivial fibrations]]:
 
 \begin{proposition} Let $p : X \to S$. Suppose the [[partial map classifier]] $X \hookrightarrow \mathrm{Opt}_S(X)$ exists in the [[slice category]] over $S$. Then $\mathrm{Opt}_S(X)$ represents the presheaf (in $A$) of diagrams of the form
@@ -164,8 +167,43 @@ and so the uniqueness of subobject classifying maps implies that the total botto
 \end{proof}
 
 
+### Anodyne maps and fibrant objects
 
- 
+For the Lawvere interval in a presheaf topos, Cisinski's anodyne completion operation stops at the first step $\Lambda_L(\varnothing, \mathrm{mono}) = \Lambda_L^0(\varnothing, \mathrm{mono})$ which is given by pushout products of monomorphisms with the endpoints $\mathbf{1} \to L$, due to the associativity and symmetry of the pushout product. This leads to
+
+
+\begin{definition} In a topos, say that an object is ($\mathfrak{L}$-)-fibrant iff both endpoint evaluations $X^L \to X$ are trivial fibrations.
+\end{definition}
+
+\begin{proposition} In a presheaf topos $\mathbf{E}$, the following are equivalent for an arrow $p : X \to S$:
+
+1. $p$ is a fibrant object of $\mathbf{E}_{/S}$
+
+1. $X^L \to S^L \times_S X$ is a trivial fibration, for both endpoints $\mathbf{1} \to L$.
+
+1. $p$ is a naive $\mathfrak{L}$-fibration in the [[Cisinski model structure]]
+
+1. $p$ has the right lifting property against $\mathfrak{L}$-anodyne maps in the [[Cisinski model structure]]
+
+\end{proposition}
+\begin{proof}
+(3) and (4) restate the fact the anodyne maps and naive fibrations are constructed as a [[weak factorization system]] in Cisinski's construction.
+
+The [[pullback power]] of $p$ by $\mathbf{1} \to L$ has the right lifting property against a monomorphism $i$ iff $p$ has the right lifting property against the pushout product of $i$ with $\mathbf{1} \to L$, by [[Joyal-Tierney calculus]]. So (2) is equivalent to (3) and (4).
+
+(1) is the assertion that $p \to 1_S$ is a naive $\mathfrak{L}_S$-fibration. The generating anodyne morphisms there are the [[pushout product]]s $(A \subseteq B) \overline{\times_S} (S \to S \times L)$. But this is just the pushout product $(A \subseteq B) \overline{\times} (1 \to L)$ equippped with a map $B \to S$. So this is equivalent to $p$ being a naive $\mathfrak{L}$-fibration.
+\end{proof}
+
+In a [[locally presentable]] topos, the [[small object argument]] is used to construct the (anodyne map, naive fibration) factorization system, and in particular to construct fibrant replacements.
+
+The condition of being a a fibrant object is equivalent to asking $X^L \to \mathrm{Opt}_X(X^L)$ to have a retraction, or equvialently for a solution to the lifting problem
+
+\begin{tikzcd}
+X^L \times L \arrow[r, "\mathrm{eval}"] \arrow[d, hook] & X
+\\ \mathrm{Opt}_X(X^L) \times L \arrow[ur, dotted]
+\end{tikzcd}
+
+In a presheaf topos, the left vertical map will turn out to be a trivial cofibration. This gives a concrete construction for the small argument to be applied to in order to construct fibrant replacements.
 
 ## References
 
