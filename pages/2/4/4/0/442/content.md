@@ -44,7 +44,7 @@ Let $\mathbb{F}$ be the category of natural numbers and functions between them (
 A **Lawvere [[theory]]** is a [[category]] $T$ equipped with an [[identity-on-objects functor|identity-on-objects]] strictly [[power]]-preserving functor $J:\mathbb{F}^{\mathrm{op}} \to T$. (Power preservation is here equivalent to product preservation.)
 =--
 
-In this definition, a homomorphism is a product-preserving functor making the obvious triangle commute (up to isomorphism).
+In this definition, a homomorphism is a product-preserving functor making the obvious triangle commute strictly.
 
 +-- {: .un_remark}
 ###### Remark
