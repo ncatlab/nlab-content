@@ -1550,7 +1550,7 @@ General accounts:
 
 * {#Williams20} [[Lucas Williams]], *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8. ([arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8))
 
-* [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024)
+* [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2407.11092](https://arxiv.org/abs/2407.11092)&rbrack;
 
 In relation to [[braid groups]]:
 
