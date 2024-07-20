@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -346,9 +345,11 @@ $$
   C \boxtimes \bar C
 $$
 
+An inverse functor is explicitly constructed by **([[Jin-Cheng Guu]])** and **([[Ying
+Hong Tham]])** in ([Guu, Tham 21](#GuuTham21)) using graphical calculus. The functor exists for the
+non-modular case, but it is then just an ambidextrous adjoint.
+
 =--
-
-
 
 
 ## Examples
@@ -422,6 +423,8 @@ $$
 The mathematical axioms of CFT, as well as its relevance for surface phenomena goes back to
 
 * [[Alexander Belavin]], [[Alexander Polyakov]], [[Alexander Zamolodchikov]], _Infinite conformal symmetry in two–dimensional quantum field theory_, Nuclear Physics B Volume 241, Issue 2, 23 July 1984, Pages 333-380 (<a href="https://doi.org/10.1016/0550-3213(84)90052-X">doi:10.1016/0550-3213(84)90052-X</a>)
+
+* {#GuuTham21} [[Jin-Cheng Guu]], [[Ying Hong Tham]], _Explicit Factorization of a Categorical Center_, ([arXiv:2111.06919](https://arxiv.org/abs/2111.06919))
 
 Textbook accounts:
 
@@ -557,4 +560,5 @@ For full CFT, The special case of _rational_ CFT has been essentially entirely f
 
 [[!redirects conformal weight]]
 [[!redirects conformal weights]]
+
 
