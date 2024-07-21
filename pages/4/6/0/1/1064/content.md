@@ -33,13 +33,33 @@ There is a sequence of extra [[stuff, structure, property|structure and property
 
    * [[pseudo-abelian category]]: a pre-additive category such that every [[idempotent]] has a [[kernel]] and [[cokernel]]
 
-3. **[[additive category]]**: a pre-additive category that admits binary [[product]]s or binary [[coproduct]]s and therefore binary [[biproduct]]s (equivalently, an $Ab$-enriched category with all finite products or coproducts);
+3. **[[additive category]]**: a pre-additive category that admits binary [[product]]s or binary [[coproduct]]s and therefore binary [[biproduct]]s, hence is a [[semiadditive category]] (equivalently, an $Ab$-enriched category with all finite products or coproducts);
 
 4. **[[pre-abelian category]]**:
   an additive category that admits [[kernel]]s and  [[cokernel]]s (equivalently, an $Ab$-enriched category with all finite [[limit]]s and [[colimit]]s);
 
 5. **[[abelian category]]**:
   a pre-abelian category such that every [[monomorphism]] is a kernel and every [[epimorphism]] is a cokernel (and many other equivalent definitions).
+
+\begin{tikzcd}
+	& {\text{abelian}} \\
+	& {\text{pre-abelian}} \\
+	& {\text{additive}} \\
+	{\mathbf{Ab}\text{-enriched}} && {\text{semiadditive}} \\
+	& {\mathbf{CMon}\text{-enriched}} && {\text{cartesian}} \\
+	&& {\text{category}}
+	\arrow[from=1-2, to=2-2]
+	\arrow[from=2-2, to=3-2]
+	\arrow[from=3-2, to=4-1]
+	\arrow[from=3-2, to=4-3]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=-45}, draw=none, from=3-2, to=5-2]
+	\arrow[from=4-1, to=5-2]
+	\arrow[from=4-3, to=5-2]
+	\arrow[from=4-3, to=5-4]
+	\arrow["\lrcorner"{anchor=center, pos=0.125, rotate=-45}, draw=none, from=4-3, to=6-3]
+	\arrow[from=5-2, to=6-3]
+	\arrow[from=5-4, to=6-3]
+\end{tikzcd}
 
 Pre-abelian and abelian categories are sometimes called (AB1) and (AB2) categories, after the sequence of additional axioms on top of additive categories introduced by Grothendieck in [[Tohoku]].  AB1 and AB2 are self-dual axioms (AB1 is existence of kernels and cokernels, and AB2 requires that, for any $f$, the canonical morphism $\mathrm{Coim}\,f\to \mathrm{Im}\,f$ is an isomorphism). These continue in non-selfdual manner:
 
