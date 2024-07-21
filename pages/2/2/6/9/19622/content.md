@@ -1,4 +1,16 @@
-# Non-canonical isomorphisms
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 ## Idea
 
@@ -8,8 +20,8 @@ For now, see the references for details.
 
 ## References
 
-* {#Lack09} [[Stephen Lack]], _Non-canonical isomorphisms_, ([arXiv:0912.2126](http://arxiv.org/abs/0912.2126)).
+* {#Lack09} [[Stephen Lack]], _Non-canonical isomorphisms_ &lbrack;[arXiv:0912.2126](http://arxiv.org/abs/0912.2126)&rbrack;
 
-* [[Fernando Lucatelli Nunes]], *Pseudoalgebras and non-canonical isomorphisms*, [arxiv](https://arxiv.org/abs/1711.02051)
+* [[Fernando Lucatelli Nunes]], *Pseudoalgebras and non-canonical isomorphisms* &lbrack;[arxiv:1711.02051](https://arxiv.org/abs/1711.02051)&rbrack;
 
 [[!redirects non-canonical isomorphisms]]
