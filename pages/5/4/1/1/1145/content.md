@@ -1,3 +1,4 @@
+
 * **[[mathematics]]**
 
   * [[math resources]]
@@ -67,4 +68,4 @@
 
 * [[discrete mathematics]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/mathematicscontents)</div>
+
