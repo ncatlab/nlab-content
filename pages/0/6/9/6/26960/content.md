@@ -103,13 +103,15 @@ Similarly, in [[Krn]] and in [[categories of couplings]], the sigma-algebra of a
 
 * The [[Hewitt-Savage zero-one law]] says that given [[iid random variables]], the probability of each exchangeable event is either zero or one, i.e. it is a [[zero-one measure]]. 
 
+* The action of finite permutations on $X^\mathbb{N}$ can be seen as a special case of (generalized) [[shifts]].
+
 
 ## See also 
 
 * [[probability theory]], [[categorical probability]]
 * [[de Finetti's theorem]], [[Hewitt-Savage zero-one law]]
 * [[infinitary tensor product]], [[Kolmogorov extension theorem]]
-* [[limit]], [[permutation]], 
+* [[limit]], [[permutation]], [[shifts]]
 * [[invariant measure]], [[invariant sigma-algebra]]
 * [[iid random variables]]
 
