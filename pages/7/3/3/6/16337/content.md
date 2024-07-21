@@ -64,3 +64,6 @@ Section 2.4 of
 [[!redirects coCartesian monoidal (∞,1)-category]]
 [[!redirects coCartesian monoidal (∞,1)-categories]]
 [[!redirects coCartesian monoidal (infinity,1)-categories]]
+
+[[!redirects cocartesian symmetric monoidal (∞,1)-category]]
+[[!redirects cocartesian symmetric monoidal (∞,1)-categories]] 
