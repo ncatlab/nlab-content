@@ -344,6 +344,9 @@ $$
 
 * [[wavefunction collapse]]
 
+* [[martingale]]
+
+
 ## References
 
 See also
