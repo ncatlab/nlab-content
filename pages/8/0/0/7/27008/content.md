@@ -20,7 +20,7 @@
 
 ## Idea
 
-A [[sigma-algebra]] can be interpreted as a system of possible "distinctions" that can be made on a [[measurable space|measurable]] or [[probability space]] $X$. 
+In [[probability theory]], a [[sigma-algebra]] can be interpreted as a system of possible "distinctions" that can be made in a [[measurable space|measurable]] or [[probability space]] $X$. 
 
 A *filtration* on a probability space is an increasing system of [[sigma-algebras]], for example indexed by time, which one can interpret as "being able to make more and more distinctions", or "learning more and more as time progresses".
 
@@ -29,9 +29,10 @@ As the intuition may suggest, it is an instantiation of the categorical notion o
 
 ## Definition
 
-A **filtered probability space** consists of a [[probability space]] $(X,\mathcal{A},p)$, equipped with a [[filtration]] of sub-[[sigma-algebras]] $(\mathcal{F}_i)_{i\in I}$ of $\mathcal{A}$, i.e. where:
+A **filtered probability space** consists of a [[probability space]] $(X,\mathcal{A},p)$, equipped with a [[filtration]] of sub-[[sigma-algebras]] of $\mathcal{A}$, i.e. a collection $(\mathcal{F}_i)_{i\in I}$ where:
 
 * $I$ is a [[partially ordered set]] (often totally ordered), with finitary [[upper bounds]];
+* For each $i\in I$, $\mathcal{F}_i$ is a sub-sigma-algebra of $\mathcal{A}$;
 * For each $i\le j\in I$, $\mathcal{F}_i\subseteq \mathcal{F}_j$.
 
 Note that a filtration $(\mathcal{F}_i)_{i\in I}$  as defined above is a [[filtered object]] in the category of [[sigma-algebras]], but a [[cofiltered object]] in the category of measurable or probability spaces. Indeed, if $\mathcal{F}_i\subseteq \mathcal{F}_j$, the set-theoretic identity map $X\to X$ is measurable as a function $(X,\mathcal{F}_j)\to(X,\mathcal{F}_i)$, but not the other way around.
