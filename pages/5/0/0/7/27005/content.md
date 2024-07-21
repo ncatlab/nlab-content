@@ -20,7 +20,10 @@
 
 ## Idea
 
-(...)
+*Shifts* are particular [[dynamical systems]] on spaces of [[sequences]], or more generally on [[products]], which intuitively act on the *position* of the components (also by possibly copying and discarding them), but do not on the internal *values* of the coordinates. 
+
+Shifts are ubiquitous in the theory of [[dynamical systems]] (and related fields, such as [[ergodic theory]] and [[information theory]]).
+From the point of view of [[category theory]], they are a universal ([[right adjoint]]) way of forming dynamical systems from the objects of a category. 
 
 
 ## Definition
@@ -77,8 +80,11 @@ Even more generally, one can replace the product with an [[infinitary tensor pro
 
 ## Universal property
 
-Let $M$ be a monoid, and let $C$ be a [[category]] with [[products]]. 
-The forgetful functor $[BM,C]\to C$ has a [[right adjoint]] given by the action of $M$ via shifts.
+Let $M$ be a monoid, and let $C$ be a [[category]] with [[products]]. Denote by $B M$ the [[delooping]] of $M$, and by $[B M, C]$ the [[functor category]], i.e. the category of objects of $C$ equipped with an [[action]] of $M$, and [[equivariant maps]] as morphisms.
+
+The forgetful functor $U:[B M,C]\to C$ has a [[right adjoint]], given by the action of $M$ via shifts: on objects, it maps an object $X$ of $C$ to the product $X^M$, with the action of $M$ via shifts induced by the right-multiplication $M\times M\to M$.
+
+On $C$, this adjunction induces a [[comonad]], the [[stream comonad]].
 
 (...)
 
