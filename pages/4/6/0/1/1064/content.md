@@ -41,7 +41,7 @@ There is a sequence of extra [[stuff, structure, property|structure and property
 5. **[[abelian category]]**:
   a pre-abelian category such that every [[monomorphism]] is a kernel and every [[epimorphism]] is a cokernel (and many other equivalent definitions).
 
-\begin{tikzcd}
+\begin{tikzcd}[column sep=-20pt]
 	& {\text{abelian}} \\
 	& {\text{pre-abelian}} \\
 	& {\text{additive}} \\
