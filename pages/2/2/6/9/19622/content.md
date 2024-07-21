@@ -2,7 +2,7 @@
 
 ## Idea
 
-Often in [[category theory]], requirements that certain things "be isomorphic" are more precisely stated as saying that a certain "canonical" morphism is invertible.  However, in certain situations, it happens that the existence of a non-canonical isomorphism automatically *entails* the "correct" stronger property that the canonical morphism is invertible.
+Often in [[category theory]], requirements that certain things "be [[isomorphism|isomorphic]]" are more precisely stated as saying that a certain "canonical" [[morphism]] is [[invertible morphism|invertible]].  However, in certain situations, it happens that the existence of a non-canonical isomorphism automatically *entails* the "correct" stronger property that the canonical morphism is invertible.
 
 For now, see the references for details.
 
