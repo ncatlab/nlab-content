@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -375,6 +376,8 @@ See also:
    ([[formal category theory]] in the [[2-category]] [[Cat]])
 
 * [[Horst Schubert]], *Categories*, Springer (1972) &lbrack;[doi:10.1007/978-3-642-65364-3](https://doi.org/10.1007/978-3-642-65364-3)&rbrack;
+
+* [[Nicolae Popescu]], Liliana Popescu: _Theory of categories_, Sijthoff & Noordhoff International Publishers (1979) &lbrack;[doi:10.1007/978-94-009-9550-5](https://doi.org/10.1007/978-94-009-9550-5)&rbrack;
 
 * {#Geroch85} [[Robert Geroch]], *Mathematical Physics*, University of Chicago Press (1985) &lbrack;[ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html)&rbrack;
 
