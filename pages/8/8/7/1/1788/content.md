@@ -11,7 +11,7 @@
 
 \tableofcontents
 
-
+[[geometrically connected scheme]]
 
 ### Group completed configuration spaces
  {#GroupCompletedConfigurationSpaces}
