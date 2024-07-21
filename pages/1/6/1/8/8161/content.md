@@ -125,6 +125,8 @@ $$
 
 * {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner 09](Adams+spectral+sequence#Bruner09)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
+* [[Paolo Perrone]], _Starting Category Theory_, World Scientific, 2024, Section 3.2.7. ([website](https://www.worldscientific.com/worldscibooks/10.1142/13670))
+
 
 [[!redirects filtered objects]]
 
