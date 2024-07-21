@@ -15,7 +15,10 @@
 
 ## Idea
 
-(...)
+In [[probability theory]], a *martingale* is a *stochastic process* where, intuitively, one takes [[expectation value|averages]] over the data which are not yet known.
+ [[filtered probability space|As time progresses, one's knowledge increases]], and so the "amount of averaging" decreases. 
+
+It is one of the most widely used concepts in [[probability theory]].
 
 
 ## Definition
@@ -48,7 +51,7 @@ $$
 for each $n\le m$.
 
 A **backward martingale** or **inverse martingale** can be seen as a martingale in reverse time. 
-Explicitly, given a [[probability space]] $(X,\mathcal{A},p)$ with a *decreasing* [[filtration]] $(\mathcal{F}_n)$ of [[sigma-algebras]] (i.e. $\mathcal{F}_n\supseteq\mathcal{F}_m$ for $n\le m$), a backward martingale is an adapted process $(f_n)$ satisfying
+Explicitly, given a [[probability space]] $(X,\mathcal{A},p)$ with a *decreasing* [[filtration]] $(\mathcal{F}_n)$ of sub-[[sigma-algebras]] (i.e. $\mathcal{F}_n\supseteq\mathcal{F}_m$ for $n\le m$), a backward martingale is an adapted process $(f_n)$ satisfying
 $$
 f_m \;=\; \mathbb{E}(f_n|\mathcal{F}_m) 
 $$
@@ -89,5 +92,13 @@ category: probability
 
 
 [[!redirects martingales]]
+[[!redirects submartingale]]
+[[!redirects submartingales]]
+[[!redirects supermartingale]]
+[[!redirects supermartingales]]
+[[!redirects inverse martingale]]
+[[!redirects inverse martingales]]
+[[!redirects backward martingale]]
+[[!redirects backward martingales]]
 [[!redirects Martingale]]
 [[!redirects Martingales]]
