@@ -19,8 +19,10 @@ In [[probability theory]], the *law or large numbers* states that the [[empirica
 
 It can be seen as a mathematical formalization of the idea that, even in presence of randomness, the *average behavior* of a system tends to be predictable, and the larger the sample size is, the better the prediction is. 
 
-For example, when rolling a fair die repeatedly, the average of the number rolled tends to $3.5$. 
-
+For example, when rolling a fair die repeatedly, the average of the number rolled tends to 
+$$
+\frac{1+2+3+4+5+6}{6} \;=\; 3.5 .
+$$
 
 ## Main statements
 
@@ -49,6 +51,7 @@ The term *law of large numbers* refers to a few different statements, depending 
 * [[iid random variables]], [[de Finetti's theorem]], [[zero-one law]]
 * [[central limit theorem]], [[Glivenko-Cantelli theorem]]
 * [[ergodicity]], [[ergodic theorem]]
+* [[martingale convergence theorem]]
 * [[asymptotic equipartition property]]
 
 
