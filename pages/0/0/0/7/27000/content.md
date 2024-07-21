@@ -5,10 +5,6 @@
 +-- {: .hide}
 [[!include measure theory - contents]]
 =--
-#### Limits and colimits
-+-- {: .hide}
-[[!include infinity-limits - contents]]
-=--
 =--
 =--
 
@@ -28,12 +24,34 @@ Sometimes, in fields such as [[economics]], *tail event* refers to the mostly un
 
 ## Definition
 
-(...)
+Let $(X,\mathcal{A})$ be a [[measurable space]]. Consider the countably infinite product $X^\mathbb{N}$, and recall that the product sigma-algebra is given by
+$$
+\sigma \left( \bigcup_{i\in\mathbb{N}} \pi_i^{-1}(\mathcal{A}) \right) ,
+$$
+where $\pi_i:X^\mathbb{N}\to X$ is the $i$-th product projection.
+
+The **tail sigma-algebra** on $X^\mathbb{N}$ is the sub-sigma-algebra of the product one, given by 
+$$
+\bigcap_{n\in\mathbb{N}} \sigma \left( \bigcup_{i=0}^n \pi_n^{-1}(\mathcal{A}) \right) .
+$$
+
+Similarly, if we have a sequence of [[random variables]] $f_n:\Omega\to X$, the **tail sigma-algebra** on $\Omega$ is the one induced by the tail sigma-algebra on $X^\mathbb{N}$ via the map $(f_n):\Omega\to X^\mathbb{N}$.
+
+An event (measurable subset) of the tail sigma-algebra is called a **tail event**.
+
+(Similar definitions can be given for other cardinalities than $\mathbb{N}$.)
 
 
-## The tail sigma-algebra
+## Properties
 
-(...)
+* Every [[shift]]-[[invariant event]] is a tail event. 
+* The converse is not true. For example, consider a sequence $(x_n)\in X^\mathbb{N}$ where the $x_n$ are distinct. The event of "having the same tail as $(x_n)$", i.e. the set
+$$
+\{ (y_n) \,:\, \exists N, \forall n\ge N, y_n = x_n \} \;\subseteq\; X^\mathbb{N}
+$$
+is a tail event, but is not shift-invariant (if the $x_n$ are distinct).
+
+* The [[Kolmogorov zero-one law]] says that for [[iid random variables]], every tail event has [[zero-one measure|probability zero or one]].
 
 
 ## See also
