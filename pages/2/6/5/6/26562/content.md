@@ -102,7 +102,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[Kolmogorov extension theorem]]: described in terms of [[Markov categories]] in [Fritz-Rischel'20](#fritzrischel), and in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales). 
 
-* [[martingales|Martingales]] Described in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales) and using [[partial evaluations]] in [Perrone'18](#Perrone_thesis). A version of their convergence theorem using the [[category of couplings]] is given in [Perrone-Van Belle'24](#dagger_martingales).
+* [[martingales|Martingales]]: Described in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales) and using [[partial evaluations]] in [Perrone'18](#Perrone_thesis). A version of their convergence theorem using the [[category of couplings]] is given in [Perrone-Van Belle'24](#dagger_martingales).
 
 * Multinomial and hypergeometric distributions: described in terms of [[Markov categories]] in [Jacobs'21](#multinomial).
 
