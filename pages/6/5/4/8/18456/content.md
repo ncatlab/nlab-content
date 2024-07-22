@@ -33,6 +33,10 @@ On [[Yukawa couplings]] in [[string phenomenology]] for [[heterotic strings]] on
 
 * Giorgi Butbaia, Damián Mayorga Peña, Justin Tan, Per Berglund, [[Tristan Hübsch]], Vishnu Jejjala, Challenger Mishra, *Physical Yukawa Couplings in Heterotic String Compactifications* &lbrack;[arXiv:2401.15078](https://arxiv.org/abs/2401.15078)&rbrack;
 
+On [[heterotic string theory|heterotic]] [[string phenomenology]] including [[Yukawa couplings]]:
+
+* Per Berglund, Giorgi Butbaia, [[Tristan Hübsch]], Vishnu Jejjala, Damián Mayorga Peña, Challenger Mishra, Justin Tan: *Precision String Phenomenology* \[<a href="https://arxiv.org/abs/2407.13836">arXiv:2407.13836</a>\]
+
 
 ## Related entries
 
