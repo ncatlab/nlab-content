@@ -229,12 +229,12 @@ The vacuum and saddle move imply the [1st Reidemeister move](framed+link#Reideme
 Therefore, regarding framed oriented link diagrams as loops in the Okuyama configuration space descends to a map 
 \[
   \label{TheMap}
-  FrmdOrntdLnkDgrms_{/\sim} \xrightarrow{\phantom{---}} 
+  FrmdOrntdLnk_{/\sim} \xrightarrow{\phantom{---}} 
   \pi_1\big(
     Conf^I(\mathbb{R}^2)
   \big)
 \]
-from [[isotopy classes]] of framed oriented links to the [[fundamental group]] of the Okuyama configuration space.
+from [[isotopy classes]] of [[framed link|framed]] [[oriented link|oriented]] [[links]] to the [[fundamental group]] of the Okuyama configuration space.
 \end{proposition}
 
 The main claim is that 
@@ -294,7 +294,7 @@ For the [[figure eight knot]] we get $0$:
 \end{example}
 
 \begin{imagefromfile}
-    "file_name": "FigureEightKnotToFramedUnknot-240718.jpg",
+    "file_name": "FigureEightKnotToFramedUnknot-240722.jpg",
     "width": 740,
     "unit": "px",
     "margin": {
