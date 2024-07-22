@@ -88,7 +88,7 @@ Of course, all ordinary natural transformations, and also all [[extranatural tra
 By a yoneda-like argument, dinatural transformations $\alpha : F \xrightarrow{\bullet} G$ are in bijection with natural transformations $\eta_{x,y} : \hom(x, y) \to \hom(F(y,x), G(x,y))$. The corresponding
 transformations are related by
 
-* $\eta_{x,y}(f) = G(x, f) \alpha_x F(f, x) = G(f, y) \alpha_y F(x, f)$
+* $\eta_{x,y}(f) = G(x, f) \alpha_x F(f, x) = G(f, y) \alpha_y F(y, f)$
 
 * $\alpha_x = \eta_{x,x}(id)$
 
