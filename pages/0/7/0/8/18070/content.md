@@ -1537,19 +1537,19 @@ See also early occurences in [[physics]], listed [below](#ReferencesInQuantumFie
 
 General accounts:
 
-* [[Edward Fadell]], [[Sufian Husseini]], _Geometry and topology of configuration spaces_, Springer Monographs in Mathematics (2001)  &lbrack;[doi:10.1007/978-3-642-56446-8](https://link.springer.com/book/10.1007/978-3-642-56446-8), [MR2002k:55038](http://www.ams.org/mathscinet-getitem?mr=2002k:55038)&rbrack; xvi+313 
+* [[Edward Fadell]], [[Sufian Husseini]], _Geometry and topology of configuration spaces_, Springer Monographs in Mathematics (2001)  &lbrack;[doi:10.1007/978-3-642-56446-8](https://link.springer.com/book/10.1007/978-3-642-56446-8), [MR2002k:55038](http://www.ams.org/mathscinet-getitem?mr=2002k:55038)&rbrack;
 
-* {#Cohen09} [[Frederick R. Cohen]], *Introduction to configuration spaces and their applications*, in *Braids* Lecture Notes Series, Institute for Mathematical Sciences, National University of Singapore **19** (2009)  183-261  &lbrack;[doi:10.1142/9789814291415_0003](https://doi.org/10.1142/9789814291415_0003), [doi:10.1142/7550](https://doi.org/10.1142/7550 ), [pdf](https://www.mimuw.edu.pl/~sjack/prosem/Cohen_Singapore.final.24.december.2008.pdf)&rbrack;
+* {#Cohen09} [[Frederick R. Cohen]]: *Introduction to configuration spaces and their applications*, in: *Braids* Lecture Notes Series, Institute for Mathematical Sciences, National University of Singapore **19** (2009)  183-261  &lbrack;[doi:10.1142/9789814291415_0003](https://doi.org/10.1142/9789814291415_0003), [doi:10.1142/7550](https://doi.org/10.1142/7550 ), [pdf](https://www.mimuw.edu.pl/~sjack/prosem/Cohen_Singapore.final.24.december.2008.pdf), [[Cohen-IntroConfigSpaces.pdf:file]]&rbrack;
 
-* [[Craig Westerland]], _Configuration spaces in geometry and topology_, 2011 ([pdf](https://www.austms.org.au/Publ/Gazette/2011/Nov11/TechPaperWesterland.pdf))
+* [[Craig Westerland]], _Configuration spaces in geometry and topology_ (2011) &lbrack;[pdf](https://www.austms.org.au/Publ/Gazette/2011/Nov11/TechPaperWesterland.pdf)&rbrack;
 
   (in [[geometry]] and [[topology]])
 
-* {#Knudsen18} [[Ben Knudsen]], _Configuration spaces in algebraic topology_ ([arXiv:1803.11165](https://arxiv.org/abs/1803.11165))
+* {#Knudsen18} [[Ben Knudsen]], _Configuration spaces in algebraic topology_ &lbrack;[arXiv:1803.11165](https://arxiv.org/abs/1803.11165)&rbrack;
 
   (in [[algebraic topology]])
 
-* {#Williams20} [[Lucas Williams]], *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8. ([arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8))
+* {#Williams20} [[Lucas Williams]], *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8 &lbrack;[arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8)&rbrack;
 
 * [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2407.11092](https://arxiv.org/abs/2407.11092)&rbrack;
 
@@ -1966,7 +1966,6 @@ Discussion of configuration spaces of _possibly coincident_ points, hence of [[s
 with emphasis to the resulting [[configuration spaces of points]], as in
 
 * [[Cumrun Vafa]], [[Edward Witten]], Section 4.1 of: _A Strong Coupling Test of S-Duality_, Nucl. Phys. B431:3-77, 1994 ([arXiv:hep-th/9408074](https://arxiv.org/abs/hep-th/9408074))
-
 
 
 [[!redirects configuration spaces of points]]
