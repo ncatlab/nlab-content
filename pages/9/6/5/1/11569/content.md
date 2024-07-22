@@ -67,7 +67,7 @@ Classical accounts:
 
   > (on the [[Pontrjagin ring]]-structure under group completion of [[topological monoids]])
 
-* {#Quillen71} [[Daniel Quillen]], _On the group completion of a simplicial monoid_, MIT preprint 1971, Memoirs of the AMS **529** (1994) 89-105 &lbrack;[pdf](http://www.maths.ed.ac.uk/~aar/papers/quillencomp.pdf)&rbrack;
+* {#Quillen71} [[Daniel Quillen]]: *On the group completion of a simplicial monoid*, Appendix Q in: [[Eric M. Friedlander]], [[Barry Mazur]]: *Filtrations on the homology of algebraic varieties*, Memoirs of the AMS **529** 110 (1994) 89-105 &lbrack;[doi:10.1090/memo/0529](https://doi.org/10.1090/memo/0529), [pdf](http://www.maths.ed.ac.uk/~aar/papers/quillencomp.pdf)&rbrack;
 
 * {#May} [[Peter May]], *$E_\infty$-Spaces, group completions, and permutative categories*, in: *New Developments in Topology*, Cambridge University Press (1974) 61-94  &lbrack;[doi:10.1017/CBO9780511662607.008](https://doi.org/10.1017/CBO9780511662607.008), [pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf)&rbrack;
 
@@ -81,13 +81,15 @@ and specifically concerning [[configuration spaces of points]]:
 
 * {#Segal73} [[Graeme Segal]], *Configuration-spaces and iterated loop-spaces*, Invent. Math. **21** (1973) 213-221  &lbrack;[doi:10.1007/BF01390197](https://doi.org/10.1007/BF01390197), [pdf](http://dodo.pdmi.ras.ru/~topology/books/segal.pdf), MR 0331377&rbrack;
 
+* {#Okuyama05} [[Shingo Okuyama]]: *The space of intervals in a Euclidean space*, Algebr. Geom. Topol. **5** (2005) 1555-1572 &lbrack;[arXiv:math/0511645](https://arxiv.org/abs/math/0511645), [doi:10.2140/agt.2005.5.1555](https://doi.org/10.2140/agt.2005.5.1555)&rbrack;
+
 * [[Kazuhisa Shimakawa]]: *Labeled configuration spaces and group completions*, Forum Mathematicum (2007) 353-364 &lbrack;[doi:10.1515/FORUM.2007.014](https://doi.org/10.1515/FORUM.2007.014), [[Shimakawa-ConfigGroupCompletion.pdf:file]]&rbrack;
 
 Discussion of $\infty$-group completion:
 
 * {#BunkeTamme12} [[Ulrich Bunke]], [[Georg Tamme]], section 2.1 of _Regulators and cycle maps in higher-dimensional differential algebraic K-theory_ ([arXiv:1209.6451](http://arxiv.org/abs/1209.6451))
 
-* {#Nikolaus13} [[Thomas Nikolaus]] _Algebraic K-Theory of $\infty$-Operads_ ([arXiv:1303.2198](http://arxiv.org/abs/1303.2198))
+* {#Nikolaus13} [[Thomas Nikolaus]]: _Algebraic K-Theory of $\infty$-Operads_ ([arXiv:1303.2198](http://arxiv.org/abs/1303.2198))
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], def. 6.1 in  _Differential cohomology theories as sheaves of spectra_ ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
