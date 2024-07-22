@@ -3,28 +3,6 @@
 
 * Scanned images of Quillen's research notebooks, Clay Mathematical Institute, [web](http://www.claymath.org/publications/quillen-notebooks).
 
-## Related $n$Lab entries
-
-* [[model category]], [[model structure on topological spaces]]
-
-* [[Quillen's theorems]]
-
-* [[algebraic K-theory]]
-
-* [[quasi-free algebra]]
-
-* [[cotangent complex]]
-
-* [[Andre-Quillen cohomology]]
-
-* [[Quillen-Lichtenbaum conjecture]]
-
-* [[complex cobordism]]
-
-* [[formal group law]]
-
-* and much much more....
-
 ## Selected writings
 
 
@@ -62,7 +40,31 @@ Also
 
 On the [[group completion theorem]]:
 
-* [[Daniel Quillen]], _On the group completion of a simplicial monoid_, Appendix Q in: [[Eric Friedlander]], [[Barry Mazur]], _Filtrations on the homology of algebraic varieties_, Memoir of the A.M.S., Vol. 110, no. 529 (1994) ([doi:10.1090/memo/0529](http://dx.doi.org/10.1090/memo/0529), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/quillencomp.pdf))
+* {#Quillen71} [[Daniel Quillen]]: *On the group completion of a simplicial monoid*, Appendix Q in: [[Eric M. Friedlander]], [[Barry Mazur]]: *Filtrations on the homology of algebraic varieties*, Memoirs of the AMS **529** 110 (1994) 89-105 &lbrack;[doi:10.1090/memo/0529](https://doi.org/10.1090/memo/0529), [pdf](http://www.maths.ed.ac.uk/~aar/papers/quillencomp.pdf)&rbrack;
+
+## Related entries
+
+* [[model category]], [[model structure on topological spaces]]
+
+* [[Quillen's theorems]]
+
+* [[algebraic K-theory]]
+
+* [[quasi-free algebra]]
+
+* [[cotangent complex]]
+
+* [[Andre-Quillen cohomology]]
+
+* [[Quillen-Lichtenbaum conjecture]]
+
+* [[complex cobordism]]
+
+* [[formal group law]]
+
+* ...
+
+
 
 [[!redirects Dan Quillen]]
 [[!redirects D. Quillen]]
