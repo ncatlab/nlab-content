@@ -5,7 +5,7 @@
 
 ## Idea
 
-Let $K$ be a [[local field]] with [[ring of integers]] $\mathcal{O}$, and let $G$ be a geometrically connected split [[reductive group]] over $\mathcal{O}$. The _spherical [[Hecke algebra]]_ is the [[ring]] $\mathcal{H}$ of $\mathbf{Z}$-valued compactly supported functions on the [[double coset]] space $G(\mathcal{O}) \backslash G(K) / G(\mathcal{O})$ under [[convolution]]. Although convolution algebras are generally non-commutative, an argument known as [[Gelfand's trick]] implies that $\mathcal{H}$ is [[commutative]].
+Let $K$ be a [[local field]] with [[ring of integers]] $\mathcal{O}$, and let $G$ be a [[geometrically connected scheme|geometrically connected]] [[split reductive group]] over $\mathcal{O}$. The _spherical [[Hecke algebra]]_ is the [[ring]] $\mathcal{H}$ of $\mathbf{Z}$-valued compactly supported functions on the [[double coset]] space $G(\mathcal{O}) \backslash G(K) / G(\mathcal{O})$ under [[convolution]]. Although convolution algebras are generally non-commutative, an argument known as [[Gelfand's trick]] implies that $\mathcal{H}$ is [[commutative]].
 
 The _Satake isomorphism_ is a ring isomorphism
 
@@ -15,11 +15,11 @@ where
 
 * $q$ denotes the cardinality of the [[residue field]] of $\mathcal{O}$,
 
-* ${}^L G$ denotes the [[Langlands dual group]] of $G$, a split reductive group over $\mathbf{C}$, and
+* ${}^L G$ denotes the [[Langlands dual group]] of $G$, a [[split reductive group]] over $\mathbf{C}$, and
 
 * $R({}^L G) = K_0(\mathrm{Rep}({}^L G))$ denotes the [[representation ring]] of ${}^L G$.
 
-The _geometric Satake equivalence_ categorifies the Satake isomorphism in the setting of local geometric Langlands. To be precise, let now $G$ denote a reductive group over $\mathbf{C}$ with Langlands dual group ${}^L G$ also over $\mathbf{C}$. Let $\mathcal{L}G$ denote the [[loop group]] of $G$ and let $\mathcal{L}^+G$ denote the arc group of $G$. Then one has an equivalence of [[symmetric monoidal]] abelian categories
+The _geometric Satake equivalence_ categorifies the Satake isomorphism in the setting of local [[geometric Langlands correspondence|geometric Langlands]]. To be precise, let now $G$ denote a [[reductive algebraic group|reductive group]] over $\mathbf{C}$ with Langlands dual group ${}^L G$ also over $\mathbf{C}$. Let $\mathcal{L}G$ denote the [[loop group]] of $G$ and let $\mathcal{L}^+G$ denote the arc group of $G$. Then one has an equivalence of [[symmetric monoidal]] [[abelian categories]]
 
 \[\mathrm{DMod}(\mathrm{Gr}_G)^{\mathcal{L}^+G} \simeq \mathrm{Rep}({}^L G)\]
 
@@ -29,7 +29,7 @@ where:
 
 * $\mathrm{DMod}(\mathrm{Gr}_G)^{\mathcal{L}^+G}$ denotes the category of $\mathcal{L}^+G$-equivariant [[D-modules]], with the convolution monoidal structure, and
 
-* $\mathrm{Rep}({}^L G)$ denotes the category of algebraic representations of ${}^L G$.
+* $\mathrm{Rep}({}^L G)$ denotes the category of algebraic [[geometric representation theory|representations]] of ${}^L G$.
 
 The construction of the correct commutativity constraint on the left hand side of this equivalence is subtle--we warn that this is an additional data and not merely a property of the monoidal structure.
 
