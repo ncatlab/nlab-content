@@ -83,6 +83,8 @@ and via [[machine learning]]:
 
 * Andrei Constantin, Cristofero S. Fraser-Taliente, Thomas R. Harvey, [[Andre Lukas]], [[Burt Ovrut]], *Computation of Quark Masses from String Theory* \[<a href="https://arxiv.org/abs/2402.01615">arXiv:2402.01615</a>\]
 
+* Per Berglund, Giorgi Butbaia, [[Tristan Hübsch]], Vishnu Jejjala, Damián Mayorga Peña, Challenger Mishra, Justin Tan: *Precision String Phenomenology* \[<a href="https://arxiv.org/abs/2407.13836">arXiv:2407.13836</a>\]
+
 This "heterotic standard model" has a "hidden sector" copy of the actual standard model, more details of which are discussed here:
 
 * [[Volker Braun]], [[Yang-Hui He]], [[Burt Ovrut]], _Supersymmetric Hidden Sectors for Heterotic Standard Models_ ([arXiv:1301.6767](http://arxiv.org/abs/1301.6767))
