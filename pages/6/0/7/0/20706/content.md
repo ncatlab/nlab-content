@@ -12,7 +12,7 @@
 
 On [[configuration spaces of points]]:
 
-* {#Cohen09} [[Frederick R. Cohen]], *Introduction to configuration spaces and their applications*, in *Braids* Lecture Notes Series, Institute for Mathematical Sciences, National University of Singapore **19** (2009)  183-261  $[$[doi:10.1142/9789814291415_0003](https://doi.org/10.1142/9789814291415_0003), [pdf](https://www.mimuw.edu.pl/~sjack/prosem/Cohen_Singapore.final.24.december.2008.pdf), [doi:https://doi.org/10.1142/7550 ](https://doi.org/10.1142/7550 )$]$
+* {#Cohen09} [[Frederick R. Cohen]]: *Introduction to configuration spaces and their applications*, in: *Braids* Lecture Notes Series, Institute for Mathematical Sciences, National University of Singapore **19** (2009)  183-261  &lbrack;[doi:10.1142/9789814291415_0003](https://doi.org/10.1142/9789814291415_0003), [doi:10.1142/7550](https://doi.org/10.1142/7550 ), [pdf](https://www.mimuw.edu.pl/~sjack/prosem/Cohen_Singapore.final.24.december.2008.pdf), [[Cohen-IntroConfigSpaces.pdf:file]]&rbrack;
 
 
 
@@ -61,7 +61,7 @@ On [[mapping spaces]] of [[group homomorphisms]] from [[finitely generated group
 
 category: people
 
-
+[[!redirects Frederick Cohen]]
 [[!redirects Fred Cohen]]
 [[!redirects Frederick Ronald Cohen]]
 
