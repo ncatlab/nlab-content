@@ -174,7 +174,7 @@ Here is a concrete example of the failure of associativity, for any reasonable n
     (note that they are not vertically composable!)
 
 * Let $K:B\to C$ be the double profunctor with
-  * Four heteromorphisms $k_0 :b_0 \to c_0$, $k_1 : b_1 \to c_1$, $k_1' : b_1' \to c_1'$, and $k_2 : b_2 \to c_2$.
+  * Four heteromorphisms $k_0 :b_0 \to c_0$, $k_1 : b_1 \to c_1$, $k_1' : b_1' \to c_1$, and $k_2 : b_2 \to c_2$.
   * Composition action $\beta' ; k_1' = k_1$
   * Two hetero-2-cells 
     $$
