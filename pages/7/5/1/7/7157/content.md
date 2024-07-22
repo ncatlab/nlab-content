@@ -108,6 +108,10 @@ There are many sequels including
 * Nicolas Behr, [[Joachim Kock]], _Tracelet Hopf algebras and decomposition spaces_, [arXiv:2105.06186](https://arxiv.org/abs/2105.06186)
 * Philip Hackney, [[Joachim Kock]], _Culf maps and edgewise subdivision_, [arXiv:2210.11191](https://arxiv.org/abs/2210.11191); _Free decomposition spaces_, [arXiv:2210.11192](https://arxiv.org/abs/2210.11192)
 
+See also
+
+* Jonte Gödicke. *An $\infty$-Category of 2-Segal Spaces* (2024). ([arXiv:2407.13357](https://arxiv.org/abs/2407.13357)).
+
 [[!redirects higher Segal space]]
 [[!redirects higher Segal spaces]]
 
