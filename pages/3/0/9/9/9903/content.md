@@ -78,6 +78,11 @@ Realistic [[Yukawa couplings]] and [[fermion]] [[masses]] in an [[MSSM]] [[Pati-
 
 * Tianjun Li, Adeel Mansha, Rui Sun, _Revisiting the Supersymmetric Pati-Salam Models from Intersecting D6-branes_ ([arXiv:1910.04530](https://arxiv.org/abs/1910.04530))
 
+See also:
+
+
+* Per Berglund, Giorgi Butbaia, [[Tristan Hübsch]], Vishnu Jejjala, Damián Mayorga Peña, Challenger Mishra, Justin Tan: *Precision String Phenomenology* &lbrack;[arXiv:2407.13836](https://arxiv.org/abs/2407.13836)&rbrack;
+
 
 
 
