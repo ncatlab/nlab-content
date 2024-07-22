@@ -142,6 +142,7 @@ Discussion of framed links in the context of regularizing [[Wilson loop]] [[quan
 * {#Witten89} [[Edward Witten]], pp  20 in: _Quantum Field Theory and the Jones Polynomial_, Commun. Math. Phys. **121** 3 (1989) 351-399. MR0990772 &lbrack;[doi:10.1007/BF01217730](https://doi.org/10.1007/BF01217730), 
 [euclid:cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138)&rbrack;
 
+
 * {#CMNP19} Giancarlo Camilo, [[Dmitry Melnikov]], Fábio Novaes, Andrea Prudenziati: *Circuit Complexity of Knot States in Chern-Simons theory*, J. High Energ. Phys. **2019** 163 (2019) &lbrack;[arXiv:1903.10609](https://arxiv.org/abs/1903.10609), <a href="https://doi.org/10.1007/JHEP07(2019)163">doi:10.1007/JHEP07(2019)163</a>&rbrack;
 
 * {#Grabovsky22} David Grabovsky: pp 22 in: *Chern–Simons Theory in a Knotshell* (2022) &lbrack;[pdf](https://web.physics.ucsb.edu/~davidgrabovsky/files-notes/CS%20and%20Knots.pdf), [[Grabovsky-CSTheory.pdf:file]]&rbrack;
