@@ -23,7 +23,7 @@ In fact every [[reflective subcategory]] inclusion exhibits a reflective localiz
 
 For reflective localizations the localized category has a particularly useful description (Prop. \ref{ReflectiveLocalizationGivenByLocalObjects} below): It is equivalent to the [[full subcategory]] of _[[local objects]]_ (Def. \ref{LocalObjects} below). 
 
-Therefore, sometimes reflective localizations at a class $S$ or morphism are understood as the default concept of localization, in fact often reflection onto the [[full subcategory]] of $S$-[[local objects]] (Def. \ref{LocalizationAtACollectionOfMorphisms} below) is understood by default.  Notably [[left Bousfield localizations]] are [[presentable (infinity,1)-category|presentations]] of reflective [[localizations of (∞,1)-categories]] in this sense. 
+Therefore, sometimes reflective localizations at a class $S$ of morphisms are understood as the default concept of localization, in fact often reflection onto the [[full subcategory]] of $S$-[[local objects]] (Def. \ref{LocalizationAtACollectionOfMorphisms} below) is understood by default.  Notably [[left Bousfield localizations]] are [[presentable (infinity,1)-category|presentations]] of reflective [[localizations of (∞,1)-categories]] in this sense. 
 
 These reflections onto $S$-local objects satisfy the universal property of an $S$-[[localization]] (only) for all _[[left adjoint]]_ functors that invert the class $S$ (Prop. \ref{ReflectionOntoLocalObjectsIsLocalizationWithRespectToLeftAdjoints} below). 
 
