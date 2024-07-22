@@ -1502,6 +1502,7 @@ For more on this see at _[[correlators as differential forms on configuration sp
 
 ## Related concepts
 
+* [[group-completed configuration space of points]]
 
 * [[Hilbert scheme]]
 
