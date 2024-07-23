@@ -43,6 +43,9 @@ Dynamical systems are used to describe not only physical motions but also the be
 
 * [[Furstenberg-Zimmer structure theorem]]
 
+* [[shifts]]
+
+
 ## References
 
 ### General
@@ -60,6 +63,8 @@ Discussion of dynamical systems in terms of [[category theory]] (see also at *[[
 * [[William Lawvere]], [_Functorial Remarks on the General Concept of Chaos_](http://www.ima.umn.edu/preprints/Functional-Remarks-General-Concept-Chaos), IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/sites/default/files/87s.pdf))
 
 * George Dimitrov, Fabian Haiden, [[Ludmil Katzarkov]], [[Maxim Kontsevich]], _Dynamical systems and categories_, &lbrack;[arxiv/1307.8418](http://arxiv.org/abs/1307.8418)&rbrack;
+
+* Mike Behrisch, Sebastian Kerkhoff, Reinhard Pöschel, Friedrich Martin Schneider, Stefan Siegmund, _Dynamical systems in categories_. Applied Categorical Structures 25, 2017. ([link](https://tud.qucosa.de/api/qucosa%3A27340/attachment/ATT-0/))
 
 * [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Flows: cocyclic and almost cocyclic*, Theory Appl. Categories **25** 18 (2010) 490–507 &lbrack;[tac:25-18](http://www.tac.mta.ca/tac/volumes/25/18/25-18abs.html)&rbrack;
 
