@@ -25,6 +25,12 @@
 If $V$ is a real orthogonal $G$-representation, then the topological [[En-operad|little disks operad]] $D_{|V|}$ has a $G \times \Sigma_n$ action on its $n$-ary space, so it presents an object in the graph model structure on G-operads;
 under [Bonventre](#Bonventre19)'s genuine operadic nerve, this presents a [[G-∞-operad]] called $\mathbb{E}_V$.
 
+## Properties
+
+### $G$-symmetric monoidal envelope
+
+[[G-symmetric monoidal envelope]]
+(...)
 
 ## Related concepts
 
