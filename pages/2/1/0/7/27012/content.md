@@ -265,12 +265,12 @@ $$
   \;\simeq\;
   \mathbb{Z}
 $$
-is given by sending a [[framed link|framed]] [[oriented link|oriented]] [[link diagram]] to twice its total [[linking number]] including self-linking, namely to the sum of *all* the entries in its [[linking matrix]].
+is given by sending any null-cobordant [[framed link|framed]] [[oriented link|oriented]] [[link diagram]] to twice its total [[linking number]] plus its [[framing number]], hence to the sum of *all* the entries in its [[linking matrix]].
 
 Moreover, this integer value may be realized as the [[framing number]] of any framed unlink which results from successively applying the saddle move to the original link.
 \end{proposition}
 \begin{proof}
-  Since the saddle move manifestly leaves the crossing number invariant.
+  Since the saddle and vaccuum move manifestly leave the crossing number invariant.
 \end{proof}
 
 \begin{remark}
@@ -355,7 +355,7 @@ For the [[figure eight knot]] we get $0$:
 * {#Okuyama05} [[Shingo Okuyama]]: *The space of intervals in a Euclidean space*, Algebr. Geom. Topol. **5** (2005) 1555-1572 &lbrack;[arXiv:math/0511645](https://arxiv.org/abs/math/0511645), [doi:10.2140/agt.2005.5.1555](https://doi.org/10.2140/agt.2005.5.1555)&rbrack;
 
 
-* {#Kauffman14} [[Louis H. Kauffman]]: *Virtual Knot Cobordism* &lbrack;[arXiv:1409.0324](https://arxiv.org/abs/1409.0324)&rbrack;
+* {#Kauffman14} [[Louis H. Kauffman]]: *Virtual Knot Cobordism*, in: *New Ideas in Low Dimensional Topology* (2015) 335-377 &lbrack;[arXiv:1409.0324](https://arxiv.org/abs/1409.0324), [doi:10.1142/9789814630627_0009](https://doi.org/10.1142/9789814630627_0009)&rbrack;
 
 
 [[!redirects group-completed configuration spaces of points]]
