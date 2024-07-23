@@ -140,7 +140,7 @@ $$
 \mathrm{Alg}_{\mathcal{N}_{I \infty}}(\mathcal{C}) \simeq \mathrm{CMon}_I(\mathcal{C})
 $$
 over $\mathcal{C}$.
-In particular, if $\mathcal{C}$ is the $G$-$\infty$-category of coefficient systems in an [[∞-category]] $\mathcal{V}$ with its Cartesian structure, then there is an equivalence
+In particular, if $\mathcal{C}$ is the $G$-$\infty$-category of coefficient systems in an [[∞-category]] $\mathcal{V}$ with its [[Cartesian G-symmetric monoidal ∞-category|Cartesian structure]], then there is an equivalence
 $$
   \mathrm{Alg}_{\mathcal{N}_{I \infty}}(\mathcal{C}) \simeq \mathrm{Fun}^{\times}(\mathrm{Span}(\mathbb{F}_G, \mathcal{V}).
 $$
