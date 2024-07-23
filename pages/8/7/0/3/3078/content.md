@@ -41,6 +41,12 @@ Towards a noncommutative integral transform:
 * [[Mikhail Kapranov]], _Free Lie algebroids and the space of paths_, Sel. math., New ser. 13, 277 (2007) [doi](https://doi.org/10.1007/s00029-007-0041-9) arXiv:[math:AG/0702584](https://arxiv.org/abs/math/0702584)
 * [[Mikhail Kapranov]], _Membranes and higher groupoids_, [arXiv:1502.06166](https://arxiv.org/abs/1502.06166)
 
+On [[higher Segal space]]s
+
+* [[Tobias Dyckerhoff]], [[Mikhail Kapranov]], _Higher Segal spaces I_, [arxiv:1212.3563](https://arxiv.org/abs/1212.3563); now part of the book T. Dyckerhoff, M. Kapranov, _Higher Segal spaces_, Springer LNM 2244 (2019) [doi](https://doi.org/10.1007/978-3-030-27124-4)
+
+* [[Mikhail Kapranov]], _Higher Segal spaces _, talk at IHES (2012) ([video](http://www.dailymotion.com/video/xpm3at_mikhail-kapranov-a-meeting-on-the-occasion-of-the-75th-birthday-of-yuri-ivanovich-manin_tech))
+
 ## Related entries
 
 * [[Kapranov's noncommutative geometry]]
