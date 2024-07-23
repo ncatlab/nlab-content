@@ -224,7 +224,7 @@ In this link-diagram notation, the above stringy saddle- and vacuum-move look as
     }
 \end{imagefromfile}
 
-These may be recognized as the *saddle point* and *birth*/*death* moves of [Kauffman 2014, Fig. 16](#Kauffman14), which together with diagram isotopy and the [[Reidemeister moves]] generate the *knot cobordism* discussed there.
+These may be recognized as the *saddle point* and *birth*/*death* moves of [Kauffman 2014, Fig. 16](#Kauffman14), which (together with diagram isotopy and the [[Reidemeister moves]]) generate the *link cobordism* relation.
 
 \begin{proposition}
 \label{VacuumAndSaddleMoveImplyReidemeister}
@@ -246,17 +246,25 @@ The vacuum and saddle move imply the [1st Reidemeister move](framed+link#Reideme
 Therefore, regarding framed oriented link diagrams as loops in the Okuyama configuration space descends to a map 
 \[
   \label{TheMap}
-  FrmdOrntdLnk_{/\sim} \xrightarrow{\phantom{---}} 
+  FrmdOrntdLnk \xrightarrow{\phantom{---}} 
   \pi_1\big(
     Conf^I(\mathbb{R}^2)
   \big)
 \]
-from [[isotopy classes]] of [[framed link|framed]] [[oriented link|oriented]] [[links]] to the [[fundamental group]] of the Okuyama configuration space.
+from ([[isotopy classes]] of) [[framed link|framed]] [[oriented link|oriented]] [[links]] to the [[fundamental group]] of the Okuyama configuration space.
 \end{proposition}
 
+\begin{lemma}
+  \label{FramedLinksCobordantToFramedUnknots}
+  Given a framed oriented link, it is related 
+  via the saddle move to a framed [[unknot]].
+\end{lemma}
+\begin{proof}
+  Using the saddle move, every crossing of two straight segments may be turned into an avoided crossing of a straight edge with a twisted edge. (...graphics...)
+\end{proof}
 
 \begin{proposition}
-  Under the identitification (eq:Pi1OfOkuyamaConfigsInThePlane) this map (eq:TheMap)
+  Under the identification (eq:Pi1OfOkuyamaConfigsInThePlane) this map (eq:TheMap)
 $$
   FrmdOrntdLnkDgrms_{/\sim} \xrightarrow{\phantom{---}} 
   \pi_1\big(
@@ -265,12 +273,13 @@ $$
   \;\simeq\;
   \mathbb{Z}
 $$
-is given by sending any null-cobordant [[framed link|framed]] [[oriented link|oriented]] [[link diagram]] to twice its total [[linking number]] plus its [[framing number]], hence to the sum of *all* the entries in its [[linking matrix]].
+is given by sending any [[framed link|framed]] [[oriented link|oriented]] [[link diagram]] to twice its total [[linking number]] plus its [[framing number]], hence to the sum of *all* the entries in its [[linking matrix]].
 
 Moreover, this integer value may be realized as the [[framing number]] of any framed unlink which results from successively applying the saddle move to the original link.
 \end{proposition}
 \begin{proof}
-  Since the saddle and vaccuum move manifestly leave the crossing number invariant.
+  By Lem. \ref{FramedLinksCobordantToFramedUnknots} and
+  since the saddle move manifestly leaves the crossing number invariant.
 \end{proof}
 
 \begin{remark}
