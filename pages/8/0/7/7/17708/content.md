@@ -67,3 +67,5 @@ In particular, $\mathcal{T}$-symmetric monoidal $\infty$-categories are simply $
 [[!redirects equivariant symmetric monoidal categories]]
 
 [[!redirects G-symmetric monoidal category]]
+[[!redirects G-symmetric monoidal ∞-category]]
+[[!redirects G-symmetric monoidal ∞-categories]]
