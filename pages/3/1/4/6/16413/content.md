@@ -1,7 +1,7 @@
 
 **Giuseppe Rosolini** is an Italian theoretical computer scientist.
 
- * [homepage](http://www.disi.unige.it/person/RosoliniG/)
+ * [homepage](https://www.dima.unige.it/~rosolini/)
 
 ## Selected writings
 
