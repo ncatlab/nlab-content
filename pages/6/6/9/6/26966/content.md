@@ -10,6 +10,8 @@ Equivariant categories and symmetric monoidal categories
 
 * [[cartesian G-symmetric monoidal ∞-category]]
 
+* [[G-symmetric monoidal envelope]]
+
 * [[equivariant factorization homology]]
 
 Equivariant operads
