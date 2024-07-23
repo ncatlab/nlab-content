@@ -20,7 +20,7 @@
 ## Warning
 There are several unrelated generalizations of the concept of a [[Segal space]] which might be thought of as "higher Segal spaces". For example, one might discuss
 
- - [[$n$-fold Segal spaces]], a model for $(\infty,n)$-categories.
+ - [[n-fold Segal space|$n$-fold Segal spaces]], a model for $(\infty,n)$-categories.
 
  - [[$n$-uple Segal spaces]], a model for cubical $(\infty,n)$-categories.
 
@@ -81,10 +81,10 @@ For more references along these lines do *not* see at _[[n-fold complete Segal s
 
 The Dyckerhoff-Kapranov "higher Segal spaces" [above](#DyckerhoffKapranov) are discussed in
 
-* Tobias Dyckerhoff, [[Mikhail Kapranov]], _Higher Segal spaces I_, [arxiv:1212.3563](https://arxiv.org/abs/1212.3563); now part of the book T. Dyckerhoff, M. Kapranov, _Higher Segal spaces_, Springer LNM 2244 (2019) [doi](https://doi.org/10.1007/978-3-030-27124-4)
+* [[Tobias Dyckerhoff]], [[Mikhail Kapranov]], _Higher Segal spaces I_, [arxiv:1212.3563](https://arxiv.org/abs/1212.3563); now part of the book T. Dyckerhoff, M. Kapranov, _Higher Segal spaces_, Springer LNM 2244 (2019) [doi](https://doi.org/10.1007/978-3-030-27124-4)
  {#DyckerhoffKapranov12}
 
-* Tobias Dyckerhoff, _Higher Segal spaces_, talk at Steklov Mathematical Institute (2011) ([video](http://www.mathnet.ru/php/presentation.phtml?presentid=3718&option_lang=eng))
+* [[Tobias Dyckerhoff]], _Higher Segal spaces_, talk at Steklov Mathematical Institute (2011) ([video](http://www.mathnet.ru/php/presentation.phtml?presentid=3718&option_lang=eng))
  {#Dyckerhoff}
 
 * [[Mikhail Kapranov]], _Higher Segal spaces _, talk at IHES (2012) ([video](http://www.dailymotion.com/video/xpm3at_mikhail-kapranov-a-meeting-on-the-occasion-of-the-75th-birthday-of-yuri-ivanovich-manin_tech))
@@ -122,3 +122,4 @@ See also
 
 [[!redirects decomposition space]]
 [[!redirects decomposition spaces]]
+[[!redirects $d$-Segal spaces]]
