@@ -1,7 +1,7 @@
 
 ## Idea
 
-The __prime [[spectrum of a ring]]__  (associative, but not necessarily commutative or unital) is the set of [[prime ideal]]s of the ring. For noncommutative rings s (and noncommutative [[C-star-algebras]]) however sometimes spectra of [[primitive ideal]]s are more interesting. This entry should eventually be more about the noncommutative case.
+The __prime spectrum of a ring__  (associative, but not necessarily commutative or unital) is the set of [[prime ideal]]s of the ring; thus it generalizes the (underlying topological space of) [[spectrum of a commutative ring]]. For noncommutative rings s (and noncommutative [[C-star-algebras]]) however sometimes spectra of [[primitive ideal]]s are more interesting. This entry should eventually be more about the noncommutative case.
 
 
 ## Commutative case
@@ -38,9 +38,9 @@ Any morphism of commutative rings $h:R\to S$ also induces the comorphism of stru
 
 * [[Anthony Joseph]], _Quantum groups and their primitive ideals_, Springer (1995)
 
-* [[Milen Yakimov]], _Spectra and catenarity of quantum Schubert cells_, Glasgow Mathematical Journal, 55(A), 169-194 (2013) [doi](https://doi.org/10.1017/S0017089513000578)
+* [[Milen Yakimov]], _Spectra and catenarity of quantum Schubert cells_, Glasgow Mathematical Journal, 55(A), 169--194 (2013) [doi](https://doi.org/10.1017/S0017089513000578)
 
-* Jason Bell,, Karel Casteels, [[Stéphane Launois]], _Primitive ideals in quantum Schubert cells: Dimension of the strata_, Forum Mathematicum [doi:10.1515/forum-2011-0155](https://doi.org/10.1515/forum-2011-0155)
+* Jason Bell,, Karel Casteels, [[Stéphane Launois]], _Primitive ideals in quantum Schubert cells: Dimension of the strata_, Forum Mathematicum 26(3), 703--721 (2014)[doi:10.1515/forum-2011-0155](https://doi.org/10.1515/forum-2011-0155)
 
 * [[S. Launois]], T. H. Lenagan, L. Rigal, _Prime ideals in the quantum grassmannian_, Sel. math., New ser. 13, 697 (2008) [doi](https://doi.org/10.1007/s00029-008-0054-z)
 * Thomas H. Lenagan, Milen T. Yakimov, _Prime factors of quantum Schubert cell algebras and clusters for quantum Richardson varieties_, Journal für die reine und angewandte Mathematik (Crelles Journal) [doi](https://doi.org/10.1515/crelle-2016-0046)
@@ -48,3 +48,4 @@ Any morphism of commutative rings $h:R\to S$ also induces the comorphism of stru
 
 
 [[!redirects prime spectra]]
+[[!redirects prime spectrum of a ring]]
