@@ -111,10 +111,10 @@ where the first [[isomorphism]] is by Okuyama's theorem (eq:OkuyamaTheorem), the
 
 Hence we ask which loop diagram of charged strings corresponds to the Hopf fibration, under this sequences of isomorphisms.
 
-{#Merger} In the following analysis we consider continuous paths *of* continuous paths of configurations of charged strings -- hence continuous maps $[0,1]^2 \to Conf^I(\mathbb{R}^2)$, the two main building blocks being the saddle
+{#Merger} In the following analysis we consider continuous paths *of* continuous paths of configurations of charged strings -- hence continuous maps $[0,1]^2 \to Conf^I(\mathbb{R}^2)$, the two main building blocks being the oriented saddle
 
 \begin{imagefromfile}
-    "file_name": "ChargedStringyMerge-240716.jpg",
+    "file_name": "ChargedStringySaddleMove-240723.jpg",
     "width": 700,
     "unit": "px",
     "margin": {
@@ -125,11 +125,11 @@ Hence we ask which loop diagram of charged strings corresponds to the Hopf fibra
     }
 \end{imagefromfile}
 
-and the vanishing of the plain loop diagram.
 
+and the appearance/vanishing of the plain loop diagram.
 
 \begin{imagefromfile}
-    "file_name": "ChargedStringLoop-240715.jpg",
+    "file_name": "ChargedStringyVacuumMove-240723.jpg",
     "width": 560,
     "unit": "px",
     "margin": {
@@ -139,6 +139,8 @@ and the vanishing of the plain loop diagram.
         "left": 15
     }
 \end{imagefromfile}
+
+
 
 {#ChargedStringLoopWithTwist} The following based loop should have a non-trivial class in $\pi_1\big(Conf^I(\mathbb{R}^2)\big)$ and we will argue that all other based loops have classes which are integral multiples of this one:
 
@@ -208,11 +210,11 @@ Our sign convention for crossing numbers shall be
     }
 \end{imagefromfile}
 
-In this notation, the saddle-move looks as follows:
+In this link-diagram notation, the above stringy saddle- and vacuum-move look as shown on the left here:
 
 \begin{imagefromfile}
-    "file_name": "SaddlePointMove-240718.jpg",
-    "width": 420,
+    "file_name": "SaddleAndVacuumMove-240723.jpg",
+    "width": 600,
     "unit": "px",
     "margin": {
         "top": -30,
@@ -221,6 +223,8 @@ In this notation, the saddle-move looks as follows:
         "left": 15
     }
 \end{imagefromfile}
+
+These may be recognized as the *saddle point* and *birth*/*death* moves of [Kauffman 2014, Fig. 16](#Kauffman14), which together with diagram isotopy and the [[Reidemeister moves]] generate the *knot cobordism* discussed there.
 
 \begin{proposition}
 \label{VacuumAndSaddleMoveImplyReidemeister}
@@ -349,6 +353,9 @@ For the [[figure eight knot]] we get $0$:
 * {#McDuff75} [[Dusa McDuff]], *Configuration spaces of positive and negative particles*, Topology **14** 1 (1975) 91-107 \[<a href="https://doi.org/10.1016/0040-9383(75)90038-5">doi:10.1016/0040-9383(75)90038-5</a>, [pdf](https://core.ac.uk/download/pdf/81183648.pdf)\]
 
 * {#Okuyama05} [[Shingo Okuyama]]: *The space of intervals in a Euclidean space*, Algebr. Geom. Topol. **5** (2005) 1555-1572 &lbrack;[arXiv:math/0511645](https://arxiv.org/abs/math/0511645), [doi:10.2140/agt.2005.5.1555](https://doi.org/10.2140/agt.2005.5.1555)&rbrack;
+
+
+* {#Kauffman14} [[Louis H. Kauffman]]: *Virtual Knot Cobordism* &lbrack;[arXiv:1409.0324](https://arxiv.org/abs/1409.0324)&rbrack;
 
 
 [[!redirects group-completed configuration spaces of points]]
