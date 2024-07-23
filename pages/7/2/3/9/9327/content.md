@@ -104,6 +104,10 @@ Section 2.4 of
 [[!redirects Cartesian symmetric monoidal ∞-category]]
 [[!redirects Cartesian symmetric monoidal ∞-categories]]
 
+[[!redirects cartesian symmetric monoidal ∞-category]]
+[[!redirects cartesian symmetric monoidal ∞-categories]]
+
+
 [[!redirects Cartesian symmetric monoidal (∞,1)-category]]
 [[!redirects Cartesian symmetric monoidal (∞,1)-categories]]
 
