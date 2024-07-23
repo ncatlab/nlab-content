@@ -423,7 +423,7 @@ Moreover,
 
 ### General
 
-Introductions and surveys include
+Introductions and surveys:
 
 * Alex Wright, _Homotopy groups of spheres: A very basic introduction_ ([pdf](http://www-personal.umich.edu/~alexmw/HomotopyGroupsOfSoheres.pdf))
 
@@ -466,20 +466,21 @@ Early computation of unstable homotopy groups of spheres $\pi_{n+k}(S^k)$ up to 
 
 * [[Hirosi Toda]], _Composition Methods in Homotopy Groups of Spheres_, Annals of Mathematics Studies Vol. 49, Princeton University Press (1962) ([jstor:j.ctt1bgzb5t](https://www.jstor.org/stable/j.ctt1bgzb5t))
 
- 
 
-
-See also
+See also:
 
 * Wikipedia, _[Homotopy groups of spheres](http://en.wikipedia.org/wiki/Homotopy_groups_of_spheres)_
 
 * [[eom]], _[Spheres, homotopy groups of the](http://www.encyclopediaofmath.org/index.php/Spheres,_homotopy_groups_of_the)_
 
 
-* MO, _[Computational complexity of computing homotopy groups of spheres](http://mathoverflow.net/questions/31004/computational-complexity-of-computing-homotopy-groups-of-spheres)_
+* MathOverflow: **Computational complexity of computing homotopy groups of spheres &lbrack;[MO:q/31004](https://mathoverflow.net/q/31004/381)&rbrack;
 
 * Prasit Bhattacharya, Irina Bobkova, J.D. Quigley. *New infinite families in the stable homotopy groups of spheres* (2024). ([arXiv:2404.10062](https://arxiv.org/abs/2404.10062)).
 
+Expressing the homotopy groups of the [[2-sphere]] in terms of Brunnian [[braid groups]]:
+
+* A. J. Berrick, [[Frederick R. Cohen]], Y. L. Wong and J. Wu: *Configurations, braids, and homotopy groups*, J. Amer. Math. Soc. **19** (2006) 265-326 &lbrack;[doi:10.1090/S0894-0347-05-00507-2](https://doi.org/10.1090/S0894-0347-05-00507-2), [pdf](https://www.ams.org/journals/jams/2006-19-02/S0894-0347-05-00507-2/S0894-0347-05-00507-2.pdf)&rbrack;
 
 ### Image of the J-homomorphism
 
