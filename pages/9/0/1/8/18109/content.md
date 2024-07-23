@@ -1,6 +1,6 @@
 A __Jacobson ring__ is a commutative (unital) [[ring]] whose every prime ideal is an intersection of the maximal ideals which contain it. 
 
-Equivalently, every radical ideal is an intersection of maximal ideals. Equivalently, the [[Zariski topology]] on its [[spectrum of a ring|spectrum]] is a [[Jacobson topology]]. 
+Equivalently, every radical ideal is an intersection of maximal ideals. Equivalently, the [[Zariski topology]] on its [[spectrum of a commutative ring|spectrum]] is a [[Jacobson topology]]. 
 
 ## References
 
