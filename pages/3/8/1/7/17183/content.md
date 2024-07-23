@@ -82,10 +82,10 @@ of the group $GL(n)$_, (Russian) Uspehi Mat. Nauk 46 (1991), no. 4 (280) 147--14
 * Z. &#352;koda, _Every quantum minor generates an Ore set_,
 International Math. Res. Notices 2008, rnn063-8; 
 [math.QA/0604610](http://arxiv.org/abs/math/0604610)
-* Si&#226;n Fryer, _From restricted permutations to Grassmann necklaces and back again_, [arxiv/1511.06664](https://arxiv.org/abs/1511.06664)
+* Karel Casteels, Si&#226;n Fryer, _From restricted permutations to Grassmann necklaces and back again_, Algebras and Representation Theory 20, 895--921 (2017). [doi](https://doi.org/10.1007/s10468-017-9668-1) [arxiv/1511.06664](https://arxiv.org/abs/1511.06664)
 * Hechun Zhang, R.B.Zhang, _Dual canonical bases for the quantum special linear group and invariant subalgebras_, Letters in Mathematical Physics (2005) __73__:165--181 [doi](https://doi.org/10.1007/s11005-005-0015-9); _Dual canonical bases for the quantum general linear supergroup_, J. Algebra __304__ (2006) 1026--1058 [doi](https://doi.org/10.1016/j.jalgebra.2005.11.023)
 * Hans Plesner Jakobsen, Hechun Zhang, _The center of the quantized matrix algebra_, J. Algebra __196__:2 (1997) 458-474 [doi](https://doi.org/10.1006/jabr.1997.7121)
-* K.R. Goodearl, E.S. Letzter, _Prime factor algebras of the coordinate ring of quantum matrices_, Proc. Amer. Math. Soc. __121__ (1994) 1017--1025 [doi](https://doi.org/10.1090/S0002-9939-1994-1211579-1)
+* [[K. R. Goodearl]], E.S. Letzter, _Prime factor algebras of the coordinate ring of quantum matrices_, Proc. Amer. Math. Soc. __121__ (1994) 1017--1025 [doi](https://doi.org/10.1090/S0002-9939-1994-1211579-1)
 * S. Launois, T. H. Lenagan, B. M. Nolan, _Total positivity is a quantum phenomenon: the Grassmannian case_, Memoirs of the Amer. Math. Soc. 1448 (2023) 123 p. 
 
 [[!redirects quantum linear groups]]
