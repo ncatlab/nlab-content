@@ -44,6 +44,11 @@ A fully noncommutative analogue, the quasi-Plücker coordinates, are found withi
 * Aaron Lauve, _Quantum- and quasi-Plücker coordinates_, J. Algebra __296__:2 (2006) 440--461 [doi](https://doi.org/10.1016/j.jalgebra.2005.12.004)
 * [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_ (2007) &lbrack;[[RetakhWilson-Quasideterminants.pdf:file]]&rbrack;
 
+Some issues in super-case:
+
+* E. Shemyakova, [[Theodore Voronov]], _On super Plücker embedding and possible application to cluster algebras_, 
+[arXiv:1906.12011](https://arXiv.org/abs/1906.12011)
+
 category: algebraic geometry, algebra
 
 [[!redirects Plücker imbedding]]
