@@ -20,6 +20,8 @@ On [[quantum homogeneous space]]s
 * Rita Fioresi, M. A. Lledó, _Quantum supertwistors_, Symmetry 2021, 13(7), 1241 [doi](https://doi.org/10.3390/sym13071241) 
 * Dalia Cervantes, Rita Fioresi, María A. Lledó, _The quantum chiral Minkowski and conformal superspaces_, Adv. Theor. Math. Phys. 15(2) (2011) 565--620 [MR2924237](https://mathscinet.ams.org/mathscinet-getitem?mr=MR2924237) [Zbl1259.46064](https://zbmath.org/?q=an:1259.46064) [arXiv:0811.2137](https://arxiv.org/abs/0811.2137)
 
+On [[quantum minor]]s
 
+* Rita Fioresi, _Commutation relations among quantum minors in $\mathcal{O}_q(M_n(k))$_, J. Algebra __280__:2 (2004) 655--682 [doi](https://doi.org/10.1016/j.jalgebra.2004.06.003) arXiv:[math.QA/0312057](https://arxiv.org/pdf/math/0312057)
 
 category: people
