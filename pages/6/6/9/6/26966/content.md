@@ -8,6 +8,8 @@ Equivariant categories and symmetric monoidal categories
 
 * [[G-commutative monoid]] / [[equivariant symmetric monoidal category|G-symmetric monoidal ∞-category]]
 
+* [[cartesian G-symmetric monoidal ∞-category]]
+
 * [[equivariant factorization homology]]
 
 Equivariant operads
