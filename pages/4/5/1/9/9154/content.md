@@ -156,6 +156,9 @@ Textbook accounts include
 
 * SL Kleiman, _Geometry on Grassmannians and applications to splitting bundles and smoothing cycles_, Publications Mathématiques de l'IHÉS, 1969, numdam/[pdf](http://www.numdam.org/article/PMIHES_1969__36__281_0.pdf)
 
+* Karin Baur, _Grassmannians and cluster structures_,
+Bull. Iranian Math. Soc. 47 (2021) (Suppl 1):S5--S33
+[doi](https://doi.org/10.1007/s41980-021-00542-6)
 
 Lecture notes include
 
