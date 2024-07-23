@@ -135,7 +135,7 @@ this confirms that in the homotopy-coherent setting every action of an $\mathcal
 
 The following theorem was proved in the setting of *graph $G$-operads* and for $\mathcal{C} = \underline{\mathcal{S}}_G$ in [Marc 24](#Marc24), and in the setting of [[G-∞-operads]] in [Stewart 24](#Stewart 24).
 \begin{theorem}
-  If $\mathcal{C}^{\otimes}$ is a [[I-symmetric monoidal ∞-category]] whose indexed tensor products are [[indexed products]], then there is a canonical equivalence 
+  If $\mathcal{C}^{\otimes}$ is a [[equivariant symmetric monoidal category|I-symmetric monoidal ∞-category]] whose indexed tensor products are [[indexed products]], then there is a canonical equivalence 
 $$
 \mathrm{Alg}_{\mathcal{N}_{I \infty}}(\mathcal{C}) \simeq \mathrm{CMon}_I(\mathcal{C})
 $$
@@ -148,6 +148,17 @@ $$
 \end{theorem} 
 
 ### As incomplete Tambara functors
+
+In [CHLL 24](#Tambara), it is shown that the equivariant Day convolution [[equivariant symmetric monoidal category|G-symmetric monoidal structure]] structure on the equivariant functor category $\mathrm{Fun}(\mathrm{Span}(\underline{\mathbb{F}_G}), \mathcal{C})$ restricts to a $G$-symmetric monoidal structure on the [[G-∞-category]] $\underline{\mathrm{CMon}}_G(\mathcal{C})$ of [[G-commutative monoids]] in $\mathcal{C}$.
+Then, [CHLL 24 Theorem B](#Tambara) shows the following.
+
+\begin{theorem}
+  There is a fully faithful functor
+$$
+  \mathrm{CAlg}_I(\underline{\mathrm{Sp}}_G^{\otimes}) \hookrightarrow \mathrm{Fun}^{\times}(\mathrm{BiSpan}(\mathbb{F}_G), \mathcal{S})
+$$
+  whose image consists of the functors whose $H$-value "additive" commutative monoid is grouplike for all $H \subset G$.
+\end{theorem} 
 
 ### As normed algebras
 
