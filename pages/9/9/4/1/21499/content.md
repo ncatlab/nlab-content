@@ -6,7 +6,7 @@ It is by no means a comprehensive list, in strict alphabetic order.
 
 * [Applied Category Theory (ACT)](https://www.appliedcategorytheory.org/) -- On [[applied category theory]].
 
-* [CoACT](https://www.mq.edu.au/research/research-centres-groups-and-facilities/innovative-technologies/centres/centre-of-australian-category-theory-coact) -- the Centre of Australian Category Theory at Macquarie University.
+* [CoACT](https://centre-of-australian-category-theory.github.io/seminar/) -- the Centre of Australian Category Theory at Macquarie University.
 
 * [ItaCa](https://progetto-itaca.github.io) -- a network of Italian category theorists. The network organises both a permanent on-line seminar, and a annual in-person meeting. Besides these scientific activities, they are also committed to the popularization of CT on italian soil. In 2021 they hosted on YouTube a full introductory course in italian.
 
