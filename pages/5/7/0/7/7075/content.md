@@ -292,9 +292,10 @@ Original articles:
 
 * {#Hopf35} [[Heinz Hopf]], *Über die Abbildungen von Sphären auf Sphäre niedrigerer Dimension*, Fundamenta Mathematicae **25** 1 (1935) 427-440 &lbrack;[eudml:212801](https://eudml.org/doc/212801)&rbrack;
 
+
 Exposition:
 
-* Saifuddin Syed, _Group structure on spheres and the Hopf fibration_ ([[SyedHopfFibration.pdf:file]])
+* Saifuddin Syed, _Group structure on spheres and the Hopf fibration_ &lbrack;[[SyedHopfFibration.pdf:file]]&rbrack;
 
 Review:
 
@@ -302,9 +303,11 @@ Review:
 
 * {#GluckWarnerZiller86} [[Herman Gluck]], [[Frank Warner]], [[Wolfgang Ziller]], _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, **32** (1986), 173-198 &lbrack;[ResearchGate](https://www.researchgate.net/publication/266548925_The_geometry_of_the_Hopf_fibrations), [[GluckWarnerZiller-HopfFibrations.pdf:file]]&rbrack;
 
-
-
 * _[Third homotopy group of the sphere and Hopf fibration](https://chiasme.wordpress.com/2014/01/04/third-homotopy-group-of-the-sphere-and-hopf-fibration/)_
+
+and via the [[Pontrjagin theorem]]:
+
+* {#Kosinski93} [[Antoni Kosinski]], p. 185 of: *Differential manifolds*, Academic Press (1993) \[<a href="http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf">pdf</a>, [ISBN:978-0-12-421850-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/138/suppl/C)\]
 
 Formulation in [[homotopy type theory]]:
 
