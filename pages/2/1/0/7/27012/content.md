@@ -249,7 +249,8 @@ In this link-diagram notation, the above stringy saddle- and vacuum-move look as
     }
 \end{imagefromfile}
 
-These may be recognized as the *saddle point* and *birth*/*death* moves of [Kauffman 2014, Fig. 16](#Kauffman14), which (together with diagram isotopy and the [[Reidemeister moves]]) generate the *link cobordism* relation.
+These may be recognized as the *birth*/*death* and *fusion* moves of [Khovanov 2000, §6.3](link+cobordism#Khovanov00)
+(the latter called *saddle point* moves by [Kauffman 2014, Fig. 16](link+cobordism#Kauffman14) and others) which (together with diagram isotopy and the [[Reidemeister moves]]) generate the *[[link cobordism]]* relation.
 
 \begin{proposition}
 \label{VacuumAndSaddleMoveImplyReidemeister}
@@ -412,8 +413,6 @@ Under the evident translation between "framing" in the above sense of *[[framed 
 
 * {#Okuyama05} [[Shingo Okuyama]]: *The space of intervals in a Euclidean space*, Algebr. Geom. Topol. **5** (2005) 1555-1572 &lbrack;[arXiv:math/0511645](https://arxiv.org/abs/math/0511645), [doi:10.2140/agt.2005.5.1555](https://doi.org/10.2140/agt.2005.5.1555)&rbrack;
 
-
-* {#Kauffman14} [[Louis H. Kauffman]]: *Virtual Knot Cobordism*, in: *New Ideas in Low Dimensional Topology* (2015) 335-377 &lbrack;[arXiv:1409.0324](https://arxiv.org/abs/1409.0324), [doi:10.1142/9789814630627_0009](https://doi.org/10.1142/9789814630627_0009)&rbrack;
 
 
 [[!redirects group-completed configuration spaces of points]]
