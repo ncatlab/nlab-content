@@ -21,6 +21,12 @@ On [[compact]] algebras:
 
 * [[Ernest Manes]], *A triple theoretic construction of compact algebras*, Lecture Notes in Mathematics **80**, 1969. &lbrack;[doi:10.1007/BFb0083083](https://doi.org/10.1007/BFb0083083)&rbrack;
 
+
+On [[distributive laws]] for [[monads]]:
+
+* [[Ernie Manes]], [[Philip Mulry]]: *Monad compositions I: general constructions and recursive distributive laws*, Theory and Applications of Categories **18** 7 (2007) 172-208 &lbrack;[tac:18-07](http://www.tac.mta.ca/tac/volumes/18/7/18-07abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/18/7/18-07.pdf)&rbrack;
+
+
 category:people
 
 [[!redirects Ernest G. Manes]]
