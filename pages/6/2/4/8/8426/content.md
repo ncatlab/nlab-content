@@ -37,12 +37,13 @@ In [Remark 3.3 of Sugiyama 04](#Sugiyama04), the Alexander polynomial is describ
 ## Related concepts
 
 * [[Burau representation]]
+* [[Fox derivative]]
 
 ## References
 
 The original article:
 
-* {#Alexander28} [[James W. Alexander]], *Topological invariants of knots and links*, Trans. Amer. Math. Soc. **30** (1928) 275-306 $[$[doi:10.1090/S0002-9947-1928-1501429-1](https://doi.org/10.1090/S0002-9947-1928-1501429-1)$]$
+* {#Alexander28} [[James W. Alexander]], *Topological invariants of knots and links*, Trans. Amer. Math. Soc. **30** (1928) 275--306 $[$[doi:10.1090/S0002-9947-1928-1501429-1](https://doi.org/10.1090/S0002-9947-1928-1501429-1)$]$
 
 Textbook accounts:
 
@@ -64,7 +65,7 @@ See also:
 An analogue in number theory is the *Iwasawa polynomial*. Cf. for number theoretic analogies
 
 * [[Barry Mazur]], _Remarks on the Alexander polynomial_, [pdf](http://www.math.harvard.edu/~mazur/papers/alexander_polynomial.pdf)
-* {#Morishita} Masanori Morishita, _Analogies between Knots and Primes, 3-Manifolds and Number Rings_, ([arxiv](http://arxiv.org/abs/0904.3399))
+* {#Morishita} Masanori Morishita, _Analogies between knots and primes, 3-manifolds and number rings_, ([arXiv:0904.3399](https://arxiv.org/abs/0904.3399))
 * Masanori Morishita, Knots and primes: an introduction to arithmetic topology, Springer 2012, chapter 12
 * Ken-ichi Sugiyama, _The properties of an L-function from a geometric point of view_, 2007 [pdf](http://geoquant2007.mi.ras.ru/sugiyama.pdf)
 
@@ -76,10 +77,9 @@ An analogue in number theory is the *Iwasawa polynomial*. Cf. for number theoret
 
 Other works
 
-* Takefumi Nosaka, _Twisted cohomology pairings of knots I; diagrammatic computation_, [arxiv/1602.01129](http://arxiv.org/abs/1602.01129); _Twisted cohomology pairings of knots II; to classical invariants_, [arxivs/1602.01131](http://arxiv.org/abs/1602.01131) 
+* Takefumi Nosaka, _Twisted cohomology pairings of knots I; diagrammatic computation_, [arXiv:1602.01129](https://arxiv.org/abs/1602.01129); _Twisted cohomology pairings of knots II; to classical invariants_, [arXiv:1602.01131](https://arxiv.org/abs/1602.01131) 
 
-
-* V. Mishnyakov, A. Sleptsov, N. Tselousov, _A new symmetry of the colored Alexander polynomial_ ([arXiv:2001.10596](https://arxiv.org/abs/2001.10596))
+* V. Mishnyakov, A. Sleptsov, N. Tselousov, _A new symmetry of the colored Alexander polynomial_, Ann. Henri Poincaré 22 (2021) 1235--1265 ([doi](https://doi.org/10.1007/s00023-020-00980-8) [arXiv:2001.10596](https://arxiv.org/abs/2001.10596))
 
 
 
