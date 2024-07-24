@@ -269,6 +269,9 @@ Relation to [[black holes in string theory]]:
 
   (combination with [[random matrix theory]])
 
+* Oscar J. C. Dias, [[Jorge E. Santos]]: *The Low Energy Limit of BFSS Quantum Mechanics* &lbrack;[arXiv:2407.15921](https://arxiv.org/abs/2407.15921)&rbrack;
+
+
 
 ### Relation to lattice gauge theory
 
