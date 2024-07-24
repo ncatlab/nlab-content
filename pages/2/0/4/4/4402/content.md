@@ -55,14 +55,14 @@ The notion has been introduced in
 
 A summary is also in
 
-* [[Donu Arapura]], _Building mixed Hodge structures_, in: The arithmetic and geometry of algebraic cycles (Banff, AB, 1998), 13--32,
-CRM Proc. Lecture Notes, 24, Amer. Math. Soc., Providence, RI, 2000.
+* [[Donu Arapura]], _Building mixed Hodge structures_, in: The arithmetic and geometry of algebraic cycles (Banff, AB, 1998), 13--32, CRM Proc. Lecture Notes, 24, Amer. Math. Soc., Providence, RI, 2000.
 
 For a readable introduction see
 
 * [[Brian Conrad]], _Cohomological descent_ ([pdf](http://math.stanford.edu/~conrad/papers/hypercover.pdf))
 
-Closely related is the [[monadic descent]] in triangulated context in the sense of page 36-37 in 
+Closely related is the [[monadic descent]] for Karoubian triangulated categories in the sense of pages 36--37 in 
 
 * [[Alexander Rosenberg|A. L. Rosenberg]], _Topics in noncommutative algebraic geometry, homological algebra and K-theory_, preprint MPIM Bonn 2008-57 [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=3589)
 
+MathOverflow: [Looking for reference talking about relationship between descent theory and cohomological descent](https://mathoverflow.net/questions/14892/looking-for-reference-talking-about-relationship-between-descent-theory-and-coho?rq=1)
