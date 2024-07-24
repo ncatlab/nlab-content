@@ -15,7 +15,9 @@
 
 ## Idea
 
-The trivial [[knot]].
+The trivial [[knot]] is called the *unknot*.
+
+Similarly, a [[link]] whose components are unknots not linked with each other is called an *unlink*.
 
 ## Definition
 
@@ -54,4 +56,7 @@ Exposition in:
 
 
 [[!redirects unknots]]
+
+[[!redirects unlink]]
+[[!redirects unlinks]]
 
