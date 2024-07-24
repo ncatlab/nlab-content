@@ -49,5 +49,9 @@ Application of [[topological data analysis]] ([[persistent homology]]) to analys
 
 * [[Alex Cole]], Gregory J. Loges, [[Gary Shiu]], _Quantitative and Interpretable Order Parameters for Phase Transitions from Persistent Homology_ ([arXiv:2009.14231](https://arxiv.org/abs/2009.14231))
 
+On [[phase transitions]] of [[metals]] including [[strange metals]]:
+
+* [[Subir Sachdev]]: *Lectures on the quantum phase transitions of metals* &lbrack;[arXiv:2407.15919](https://arxiv.org/abs/2407.15919)&rbrack;
+
 [[!redirects phase transitions]]
 
