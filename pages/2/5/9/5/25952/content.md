@@ -1,12 +1,21 @@
-[[!redirects paranatural transformation]]
-* table of contents
-{:toc}
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 ## Idea
 
-A **strong dinatural transformation** is a notion of [[natural transformation]] between two functors $C^{op}\times C\to D$ that is stronger than a [[dinatural transformation]].
+The notion of **strong dinatural transformation** is a notion of [[natural transformation]] between [[pairs]] of [[functors]] $C^{op}\times C\to D$ that is stronger than that of *[[dinatural transformations]]*.
 
-Unlike dinatural transformations, strong dinatural transformations can always be composed.  They have close connections to [[parametricity]] in [[computer science]].
+Unlike dinatural transformations, strong dinatural transformations can always be [[composition|composed]]. They have close connections to [[parametricity]] in [[computer science]].
 
 ## Definition
 
@@ -28,9 +37,9 @@ By comparison, a [[dinatural transformation]] asserts this condition *only* when
 
 ## References
 
-Originally introduced (as strong dinatural transformations) in Definition 2.7 of
+Originally introduced (as "strong dinatural transformations") in Definition 2.7 of:
 
-* [[Philip S. Mulry]], _Strong Monads, Algebras and Fixed Points_ (1991), in: _Applications of Categories in Computer Science_, London Mathematical Society Lecture Note Series 177, 202–216, [doi](https://doi.org/10.1017/CBO9780511525902.012).
+* [[Philip S. Mulry]], *Strong Monads, Algebras and Fixed Points*, in: _Applications of Categories in Computer Science_, London Mathematical Society Lecture Note Series **177** (1991) 202–216 &lbrack;[doi:10.1017/CBO9780511525902.012](https://doi.org/10.1017/CBO9780511525902.012)&rbrack;
 
 Further developments:
 
@@ -54,9 +63,12 @@ Strong dinatural transformations are called **paranatural transformations** in:
 
 * [[Jacob Neumann]], *Paranatural Category Theory*, 2023, [arxiv:2307.09289](https://arxiv.org/abs/2307.09289)
 
+[[!redirects strong dinatural transformations]]
+
+[[!redirects paranatural transformation]]
 [[!redirects paranatural transformations]]
 [[!redirects paranatural]]
 [[!redirects paranaturality]]
-[[!redirects strong dinatural transformation]]
-[[!redirects strong dinatural transformations]]
 [[!redirects strong dinaturality]]
+
+
