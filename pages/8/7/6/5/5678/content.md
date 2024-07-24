@@ -23,16 +23,16 @@ _Khovanov homology_ is a [[knot invariant]] that is a [[categorification]] of th
 
 ## Interpretation in QFT
 
-Khovanov homology has long been expected to appear as the [[observable]]s in a 4-dimensional [[TQFT]] in higher analogy of how the [[Jones polynomial]] arises as a observables in 3-dimensional [[Chern-Simons theory]]. For instance for $\Sigma : K \to K'$ a [[cobordism]] between two [[knot]]s there is a natural morphism
+Khovanov homology has long been expected to appear as the [[quantum observables]] in [[D=4 TQFT]] in higher analogy of how the [[Jones polynomial]] arises as a [[quantum observable]] in 3-dimensional [[Chern-Simons theory|Chern-Simons]] [[D=3 TQFT]]. For instance for $\Sigma \colon K \to K'$ a [[knot cobordism]] between two [[knots]] there is a natural morphism
 
 $$
-  \Phi_\Sigma : \mathcal{K}(K) \to \mathcal{K}(K')
+  \Phi_\Sigma \colon \mathcal{K}(K) \to \mathcal{K}(K')
 $$
 
 between the Khovanov homologies associated to the two knots.
 
 
-In ([Witten11](#Witten11)) it is argued, following indications in ([Gukov-Schwarz-Vafa 05](#GukovSchwarzVafa04)) that this 4d TQFT is related to the worldvolume theory of the image in [[string theory|type IIA string theory]] of D3-[[brane]]s ending on NS5-[[brane]]s in a type IIB background of the form $\mathbb{R}^9 \times S^1$ with the circle transverse to both kinds of branes, under one [[S-duality]] and one [[T-duality]] operation
+[Witten 2011](#Witten11) argued, following indications in [Gukov, Schwarz & Vafa 2005](#GukovSchwarzVafa04), that this [[4d TQFT]] is related to the worldvolume theory of the image in [[type IIB string theory]] of [[D3-branes]] [[brane intersection|ending]] on [[NS5-branes]] in a [[type II supergravity]] [[background field|background]] of the form $\mathbb{R}^9 \times S^1$ with the circle transverse to both kinds of branes, under one [[S-duality]] and one [[T-duality]] operation
 
 $$
   (D3-NS5) 
@@ -43,22 +43,27 @@ $$
   \,.
 $$
 
-To go from the [[Jones polynomial]] to [[Khovanov homology]], we interpret the circle as Euclidean time. The [[path integral]] with the circle is the [[partition function]] (Witten index), $Tr_{\mathcal{H}}(-1)^F e^{-\beta H}$, of a 5D theory. Khovanov homology is $\mathcal{H}$ itself, rather than the index. 
+To go from the [[Jones polynomial]] to [[Khovanov homology]], one interprets the circle as Euclidean time. The [[path integral]] with the circle is the [[partition function]] (Witten index), $Tr_{\mathcal{H}}(-1)^F e^{-\beta H}$, of a 5D theory. Khovanov homology is $\mathcal{H}$ itself, rather than the index. 
 
-See ([Witten11, p. 14](http://arxiv.org/PS_cache/arxiv/pdf/1101/1101.3216v1.pdf#page=14)).
+(See [Witten 2011, p. 14](http://arxiv.org/PS_cache/arxiv/pdf/1101/1101.3216v1.pdf#page=14)).
 
 Earlier indication for this had come from the observation [Witten92](#Witten92) that Chern-Simons theory is the effective background theory for the [[A-model]] 2d [[TCFT]] (see <a href="http://ncatlab.org/nlab/show/TCFT#ActionFunctionals">TCFT -- Worldsheet and effective background theories</a> for details).
 
 
 ## Related concepts
 
+* [[link cobordism]]
+
 * [[categorification in representation theory]]
 
-[[!include table of branes]]
 
 ## References
 
-Original sources include
+Exposition:
+
+* {#Lobb24} Andrew Lobb: *A feeling for Khovanov homology*, Notices of the AMS **71** 5 (2024) &lbrack;[doi:10.1090/noti2928](https://doi.org/10.1090/noti2928), [pdf](https://www.ams.org/notices/202405/rnoti-p621.pdf), [pdf](https://www.maths.dur.ac.uk/users/andrew.lobb/notices.pdf), full issue:[pdf](https://www.ams.org/notices/202405/202405FullIssue.pdf)&rbrack;
+
+Original articles:
 
 * [[Louis Crane]], [[Igor Frenkel]], _Four-dimensional topological quantum field theory, Hopf categories, and the canonical bases_, J. Math. Phys. __35__ (1994) 5136-5154, [hep-th/9405183](http://arxiv.org/abs/hep-th/9405183)
 
@@ -70,13 +75,15 @@ Original sources include
 
 * [[Mikhail Khovanov]], *A categorification of the Jones polynomial*, Duke Math. J. __101__ (2000) 359-426 &lbrack;[arXiv:math/9908171](https://arxiv.org/abs/math/9908171), [doi:10.1215/S0012-7094-00-10131-7](https://projecteuclid.org/journals/duke-mathematical-journal/volume-101/issue-3/A-categorification-of-the-Jones-polynomial/10.1215/S0012-7094-00-10131-7.full), MR1740682 (2002j:57025)&rbrack;
 
-* M Khovanov, _A functor-valued invariant of tangles_, Algebr. Geom. Topol. __2__ (2002) 665&#8211;741 MR1928174 (2004d:57016)
+* [[Mikhail Khovanov]], _A functor-valued invariant of tangles_, Algebr. Geom. Topol. __2__ (2002) 665&#8211;741 MR1928174 (2004d:57016)
 
-* M Khovanov, _Patterns in knot cohomology. I_, Experiment. Math. __12__ (2003) 365&#8211;374 
-* M Khovanov, An invariant of tangle cobordisms, Trans. Amer. Math. Soc. __358__ (2006), no. 1, 315&#8211;327, arXiv:math.QA/0207264, [MR2006g:57046](http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=2171235&loc=fromreflist), [doi](http://dx.doi.org/10.1090/S0002-9947-05-03665-2)
+* [[Mikhail Khovanov]], _Patterns in knot cohomology. I_, Experiment. Math. __12__ (2003) 365&#8211;374 
+
+* [[Mikhail Khovanov]], An invariant of tangle cobordisms, Trans. Amer. Math. Soc. __358__ (2006), no. 1, 315&#8211;327, arXiv:math.QA/0207264, [MR2006g:57046](http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=2171235&loc=fromreflist), [doi](http://dx.doi.org/10.1090/S0002-9947-05-03665-2)
+
 * Rapha&#235;l Rouquier, _Khovanov-Rozansky homology and 2-braid groups_, [arxiv/1203.5065](http://arxiv.org/abs/1203.5065)
  
-* [[Carlo Collari]],  _The Functoriality of Khovanov Homology and the Monodromy of Knots_, 2013 ([pdf](https://core.ac.uk/download/pdf/19204099.pdf), [[CollariKhovanovHomology.pdf:file]])
+* [[Carlo Collari]],  _The Functoriality of Khovanov Homology and the Monodromy of Knots_ (2013) &lbrack;[pdf](https://core.ac.uk/download/pdf/19204099.pdf), [[CollariKhovanovHomology.pdf:file]]&rbrack;
 
 
 Review and lecture notes:
