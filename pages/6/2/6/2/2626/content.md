@@ -125,7 +125,7 @@ Expositions:
 
 General:
 
-* [[R. H. Crowell]], [[R. H. Fox]], _Introduction to knot theory_, Graduate Texts **57**, Springer (1963)
+* [[Richard H. Crowell]], [[R. H. Fox]], _Introduction to knot theory_, Graduate Texts in Mathematics **57**, Springer (1963) &lbrack;[doi:10.1007/978-1-4612-9935-6](https://doi.org/10.1007/978-1-4612-9935-6)&rbrack;
 
 * G. Burde, H. Zieschang, _Knots_, De Gruyter (1989).
 
