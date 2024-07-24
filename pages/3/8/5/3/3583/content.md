@@ -28,22 +28,21 @@ But Grothendieck considered not only descent for quasicoherent sheaves but also 
 
 >([[Zoran Skoda|Zoran]]: we should find an exact reference from EGA or so for the descent for affine schemes). 
 
-Moreover this has also a crystalline version: **crystals of affine schemes**. This corresponds to a nonlinear version of [[D-modules]], called **[[D-schemes]]** (also called [[diffieties]] by Vinogradov). As D-modules correspond to solutions of systems of linear [[differential equations]], D-schemes correspond to systems of nonlinear ones. One has also analytic version (analytic D-spaces). One can do more general crystals, e.g. of affine schemes. 
+Moreover this has also a crystalline version: **crystals of affine schemes**. This corresponds to a nonlinear version of [[D-modules]], called **[[D-schemes]]** (also called [[diffieties]] by Vinogradov). As D-modules correspond to solutions of systems of linear [[differential equations]], D-schemes correspond to systems of nonlinear ones. One has also analytic version (analytic D-spaces).  
 
 
 ## Related entries
 
 * [[crystalline cohomology]]
-
 * [[Grothendieck connection]], [[D-module]], [[p-connection]]
-
-* [[quasicrystal]]
+* [[regular differential operator]]
+* [[crystal basis]]
 
 ## References
 
 * {#LurieCrystal} [[Jacob Lurie]], *Notes on crystals and algebraic $\mathcal{D}$-modules* (2010) &lbrack;[[Lurie-NotesOnCrystals.pdf:file]]&rbrack;
 
-* [[Dennis Gaitsgory]], Nick Rozenblyum, _Crystals and D-modules_, [arxiv/1111.2087](http://arxiv.org/abs/1111.2087)
+* [[Dennis Gaitsgory]], Nick Rozenblyum, _Crystals and D-modules_, [arxiv/1111.2087](https://arxiv.org/abs/1111.2087)
 * A. [[Beilinson]], V. Drinfel'd, _Chiral algebras_ contains a section on D-schemes.
 
 * A. [[Grothendieck]], _Crystals and the de Rham cohomology of schemes_, in "Dix exposes sur la cohomologie des schemas"
@@ -54,3 +53,4 @@ Moreover this has also a crystalline version: **crystals of affine schemes**. Th
 
 
 
+category: algebraic geometry
