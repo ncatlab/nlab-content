@@ -100,8 +100,5 @@ and in section 4.3 of
 [[!redirects archimedean property]]
 [[!redirects Archimedean property]]
 
-[[!redirects archimedean property]]
-[[!redirects Archimedean property]]
-
 [[!redirects archimedean structure]]
 [[!redirects Archimedean structure]]
