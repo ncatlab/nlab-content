@@ -1032,7 +1032,8 @@ Further discussion/exposition of the notion and application of (co)monads in com
 * {#BrookesGeva91} [[Stephen Brookes]], Shai Geva, *Computational Comonads and Intensional Semantics*, CMU-CS-91-190 (1991) &lbrack;[[BrookersGeva-ComputationalComonads.pdf:file]]&rbrack;
 
 * [[Philip Wadler]], *Monads for functional programming*, in M. Broy (eds.) *Program Design Calculi* NATO ASI Series, **118** Springer (1992) &lbrack;[doi;10.1007/978-3-662-02880-3_8](https://doi.org/10.1007/978-3-662-02880-3_8), [pdf](https://homepages.inf.ed.ac.uk/wadler/papers/marktoberdorf/baastad.pdf)&rbrack;
-* Philip Mulry, _Monads in semantics_ , ENTCS **14** (1998) pp.275-286.
+
+* [[Philip S. Mulry]]: *Monads in semantics*, Electronic Notes in Theoretical Computer Science **14** (1998) 275-286 \[<a href="https://doi.org/10.1016/S1571-0661(05)80241-5">doi:10.1016/S1571-0661(05)80241-5</a>\]
 
 * {#BrookesVanStone93} [[Stephen Brookes]],  [[Kathryn Van Stone]], *Monads and Comonads in Intensional Semantics* (1993) &lbrack;[dtic:ADA266522](https://apps.dtic.mil/sti/citations/ADA266522), [pdf](https://www.cs.cmu.edu/~brookes/papers/MonadsComonads.pdf), [[BrookesVanStone-CoMonads.pdf:file]]&rbrack;
 
