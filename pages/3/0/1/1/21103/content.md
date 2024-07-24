@@ -39,6 +39,12 @@ Review:
 
 * Richard L. Greene, Pampa R. Mandal, Nicholas R. Poniatowski, and Tarapada Sarkar, *The Strange Metal State of the Electron-Doped Cuprates*, Annual Review of Condensed Matter Physics, Vol. 11:213-229 (2020) ([doi:10.1146/annurev-conmatphys-031119-050558](https://doi.org/10.1146/annurev-conmatphys-031119-050558))
 
+and via the [[SYK-model]]:
+
+* [[Subir Sachdev]]: *Strange metals and black holes: insights from the Sachdev-Ye-Kitaev model*, Oxford Research Encyclopedia of Physics (2023) &lbrack;[arXiv:2305.01001](https://arxiv.org/abs/2305.01001), [doi:10.1093/acrefore/9780190871994.013.48](https://doi.org/10.1093/acrefore/9780190871994.013.48)&rbrack;
+
+* [[Subir Sachdev]]: *Lectures on the quantum phase transitions of metals* &lbrack;[arXiv:2407.15919](https://arxiv.org/abs/2407.15919)&rbrack;
+
 See also:
 
 * Wikipedia, _[Non-Fermi liquids](https://en.m.wikipedia.org/wiki/Fermi_liquid_theory#Non-Fermi_liquids)_ 
