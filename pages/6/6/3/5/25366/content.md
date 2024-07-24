@@ -17,6 +17,10 @@
 
 A *braid cobordism* &lbrack;[Khovanov & Thomas (2007)](#KhovanovThomas07)&rbrack; is a kind of [[cobordism]] of [[braids]], considered in [[categorifications]] of [[braid representations]].
 
+## Related concepts
+
+* [[link cobordism]]
+
 ## References
 
 * {#KhovanovThomas07} [[Mikhail Khovanov]], [[Richard Thomas]], *Braid cobordisms, triangulated categories, and flag varieties*, Homology, Homotopy and Applications **9**(2007) 19-94 &lbrack;[arXiv:math/0609335](https://arxiv.org/abs/math/0609335), [euclid](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-9/issue-2/Braid-cobordisms-triangulated-categories-and-flag-varieties/hha/1201127331.full)&rbrack;
