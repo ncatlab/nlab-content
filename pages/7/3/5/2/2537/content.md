@@ -43,10 +43,14 @@ One of the first comprehensive series of texts on [[generalized functions]] (als
 
 * [[Israel M. Gelfand]], [[Georgiy E. Shilov]], *Generalized Functions* Vol. 1-6 (1958), Acad. Press  (1966-1968), AMS (2016) &lbrack;[ISBN:978-1-4704-2885-3](https://bookstore.ams.org/view?ProductCode=CHELGELFSET)&rbrack;
 
+Introducing what came to be called *[[BGG resolutions]]* of [[Lie group]] [[representations]] by [[Verma modules]] built using [[regular differential operators]]:
+
+* [[Joseph N. Bernstein]], [[Israel M. Gelfand]], [[Sergei I. Gelfand]]: *Differential operators on the base affine space and a study of $\mathfrak{g}$-modules*, in: I. M. Gelfand (ed.), *Lie groups and their representations*, Adam Hilger (1975) 21-64 &lbrack;[pdf](http://www.math.tau.ac.il/~bernstei/Publication_list/publication_texts/BGG-differ-operators.pdf), [[BGG.pdf:file]]&rbrack;
+
+
 On [[quasideterminants]]
 
-* [[I. M. Gel'fand]], [[V. Retakh|V. S. Retakh]], _Determinants of matrices over noncommutative rings_, Funct.Anal.Appl. __25__ (1991), no.2, pp. 91--102.
-engl. transl. __21__ (1991), pp. 51--58. 
+* [[I. M. Gel'fand]], [[V. Retakh|V. S. Retakh]], _Determinants of matrices over noncommutative rings_, Funct.Anal.Appl. __25__ (1991), no.2, pp. 91--102. engl. transl. __21__ (1991), pp. 51--58. 
 
 * I.M. Gel'fand, V.S. Retakh, A theory of noncommutative determinants and characteristic functions of graphs, Funct.Anal.Appl. __26__ (1992), no.4, pp. 231--246.
 
