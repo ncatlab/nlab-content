@@ -400,6 +400,9 @@ For the [[figure eight knot]] we get $0$:
     }
 \end{imagefromfile}
 
+\begin{remark}
+Under the evident translation between "framing" in the above sense of *[[framed links]]* and *[[normal framing]]* of the [[underlying]] 1-dimensional [[submanifolds]] in $\mathbb{R}^3$, the above Thm. \ref{ChargedOpenStringLoopsClassifiedByCrossingNumber} recovers (from [Okuyama's theorem](#Okuyama05)) the [[Pontrjagin theorem]] in these dimensions (cf. [Bredon 1993, p. 126](Pontryagin's+theorem#Bredon93)).
+\end{remark}
 
 ## References
 
