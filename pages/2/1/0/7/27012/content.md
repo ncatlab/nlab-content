@@ -262,7 +262,7 @@ In this link-diagram notation, the above stringy saddle- and vacuum-move look as
     }
 \end{imagefromfile}
 
-These may be recognized as the *birth*/*death* and *fusion* moves of [Khovanov 2000, §6.3](link+cobordism#Khovanov00), cf. [Lobb 2024, Fig. 12](link+cobordism#Lobb24)
+These may be recognized as the *birth*/*death* and *fusion* moves of [Khovanov 2000, §6.3](link+cobordism#Khovanov00), cf. [Jacobsson 2004, Fig. 15](link+cobordism#Jacobsson04) and [Lobb 2024, Fig. 12](link+cobordism#Lobb24)
 (the latter called *saddle point* moves by [Kauffman 2014, Fig. 16](link+cobordism#Kauffman14) and others) which (together with diagram isotopy and the [[Reidemeister moves]]) generate the *[[link cobordism]]* relation.
 
 \begin{proposition}
@@ -318,7 +318,7 @@ Via the saddle move (eq:LinkCobordismMoves) every crossing (in a given [[link di
     }
 \end{imagefromfile}
 
-Applying this move to all crossings between distinct connected components yields a framed unlink. Further forming the [[knot sum|connected sum]] of its connected components as in (eq:ConnectedSumOfFramedUnknots) finally yields a framed unknot.
+Applying this move to all crossings yields a framed unlink. Further forming the [[knot sum|connected sum]] of its connected components as in (eq:ConnectedSumOfFramedUnknots) finally yields a framed unknot.
 \end{proof}
 
 \begin{theorem}
