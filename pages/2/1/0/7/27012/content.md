@@ -162,6 +162,26 @@ This example brings out the key difference between loops in McDuff's configurati
 
 As such, the above is the [[unknot]]-[[link]] but equipped with non-vanishing [[framing number]] $+1$ (say, the choice of the sign is a convention).
 
+Its composition with itself, as an element of the [[fundamental group]], yields the framed [[knot sum]] which is the unknot with [[framing number]] $+2$:
+
+\linebreak
+\linebreak
+
+\[\label{ConnectedSumOfFramedUnknots}\]
+
+\begin{imagefromfile}
+    "file_name": "ConnectedSumOfFramedUnknots-240724.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -100,
+        "bottom": 20,
+        "right": 0, 
+        "left": 15
+    }
+\end{imagefromfile}
+
+
 {#ChargedStringHopfLink} In view of this, we find that the charged stringy version of the [[Hopf link]] is equivalent, as an element of $\pi_1\big(Conf^I(\mathbb{R}^2)\big)$ and via the above saddle move, to the [[unknot]] equipped with [[framing number]] $+2$:
 
 
@@ -212,12 +232,17 @@ Our sign convention for crossing numbers shall be
 
 In this link-diagram notation, the above stringy saddle- and vacuum-move look as shown on the left here:
 
+\linebreak
+\linebreak
+
+\[\label{LinkCobordismMoves}\]
+
 \begin{imagefromfile}
     "file_name": "SaddleAndVacuumMove-240723.jpg",
     "width": 600,
     "unit": "px",
     "margin": {
-        "top": -30,
+        "top": -100,
         "bottom": 20,
         "right": 0, 
         "left": 15
@@ -254,17 +279,39 @@ Therefore, regarding framed oriented link diagrams as loops in the Okuyama confi
 from ([[isotopy classes]] of) [[framed link|framed]] [[oriented link|oriented]] [[links]] to the [[fundamental group]] of the Okuyama configuration space.
 \end{proposition}
 
-\begin{lemma}
-  \label{FramedLinksCobordantToFramedUnknots}
-  Given a framed oriented link, it is related 
-  via the saddle move to a framed [[unknot]].
+\begin{lemma}\label{FramedLinksCobordantToFramedUnknots}
+**(Framed links are cobordant to framed unknots)**
+\linebreak
+  Every framed link is cobordant (eq:LinkCobordismMoves) to a framed [[unknot]].
 \end{lemma}
 \begin{proof}
-  Using the saddle move, every crossing of two straight segments may be turned into an avoided crossing of a straight edge with a twisted edge. (...graphics...)
+Via the saddle move, every crossing (in a given [[link diagram]] presentation) of two straight segments may be turned into an avoided crossing of a straight edge and a twisted edge:
+
+\linebreak
+\linebreak
+
+\[\label{MoveToAvoidCrossing}\]
+
+\begin{imagefromfile}
+    "file_name": "AvoidedCrossing-240724.jpg",
+    "width": 520,
+    "unit": "px",
+    "margin": {
+        "top": -100,
+        "bottom": 20,
+        "right": 0, 
+        "left": 15
+    }
+\end{imagefromfile}
+
+Applying this move to all crossings between distinct connected components yields a disjoint union of framed unknots. Forming their [[knot sum|connected sum]] via further saddle moves finally yields a single framed unknot.
 \end{proof}
 
-\begin{proposition}
-  Under the identification (eq:Pi1OfOkuyamaConfigsInThePlane) this map (eq:TheMap)
+\begin{theorem}
+\label{ChargedOpenStringLoopsClassifiedByCrossingNumber}
+**(Charged open string loops classified by crossing number)**
+\linebreak
+  Under the identification (eq:Pi1OfOkuyamaConfigsInThePlane) the map (eq:TheMap)
 $$
   FrmdOrntdLnkDgrms_{/\sim} \xrightarrow{\phantom{---}} 
   \pi_1\big(
@@ -274,12 +321,11 @@ $$
   \mathbb{Z}
 $$
 is given by sending any [[framed link|framed]] [[oriented link|oriented]] [[link diagram]] to twice its total [[linking number]] plus its [[framing number]], hence to the sum of *all* the entries in its [[linking matrix]].
-
-Moreover, this integer value may be realized as the [[framing number]] of any framed unlink which results from successively applying the saddle move to the original link.
-\end{proposition}
+\end{theorem}
 \begin{proof}
-  By Lem. \ref{FramedLinksCobordantToFramedUnknots} and
-  since the saddle move manifestly leaves the crossing number invariant.
+  By Lem. \ref{FramedLinksCobordantToFramedUnknots} 
+  every link maps to the class of a framed unknot. By the above example (eq:ConnectedSumOfFramedUnknots), any framed unknot is a multiple of the unit framed unknot, which exhibits the latter as the the generator $\pm 1 \in \mathbb{Z}$. 
+Moreover, since the saddle move used in (eq:MoveToAvoidCrossing) manifestly preserves the crossing number, that multiple is the crossing number of the original link.
 \end{proof}
 
 \begin{remark}
