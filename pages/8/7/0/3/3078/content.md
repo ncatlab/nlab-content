@@ -13,6 +13,10 @@ Introducing [[Serre functors]]:
 
 * {#BondalKapranov90} [[Alexei I. Bondal]], [[Mikhail M. Kapranov]], _Representable functors, Serre functors, and mutations_, Mathematics of the USSR-Izvestiya **35** 3 (1990) 519-541 &lbrack;[doi:10.1070/IM1990v035n03ABEH000716](https://doi.org/10.1070/IM1990v035n03ABEH000716)&rbrack;
 
+On [[algebraic K-theory]] and [[Morse theory]]:
+
+* [[Mikhail Kapranov]], [[Masahico Saito]]: *Hidden Stasheff polytopes in algebraic K-theory and in the space of Morse functions*, in: *Higher homotopy structure in topology and mathematical physics (Poughkeepsie, N.Y. 1996)*, Contemporary Mathematics **227**, AMS (1999) 191–225 &lbrack;[ams:CONM/227](https://bookstore.ams.org/CONM/227), [pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=e527fb6b2fdd056c3da5e7d03cd9fb8ea93d45f1)&rbrack;
+
 
 On [[Rozansky-Witten invariants]]:
 
