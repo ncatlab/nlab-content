@@ -42,7 +42,7 @@ Further textbook accounts:
 
 * {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989) ([toc pdf](http://www.gbv.de/dms/ilmenau/toc/21309293X.PDF))
 
-* {#Bredon93} [[Glen Bredon]], _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
+* {#Bredon93} [[Glen Bredon]], *Topology and Geometry*, Graduate Texts in Mathematics **139**, Springer (1993) \[<a href="https://link.springer.com/book/10.1007/978-1-4757-6848-0">doi:10.1007/978-1-4757-6848-0</a>,  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf)\]
 
 * {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
 
