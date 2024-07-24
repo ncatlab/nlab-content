@@ -17,21 +17,21 @@ Early discussion of [[knot cobordism]]:
 
 * [[Ralph H. Fox]], [[John W. Milnor]]: *Singularities of 2-spheres in 4-space and cobordism of knots*, Osaka J. Math. **3** (1966) 257-267 &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/foxmiln.pdf), [pdf](https://www.i-repository.net/contents/osakacu/sugaku/111F0000002-00302-8.pdf), [pdf](https://ir.library.osaka-u.ac.jp/repo/ouka/all/7307/ojm03_02_08.pdf)&rbrack;
 
-Fox has introduced what is now called the [[Fox derivative]] in
+Introducing what came to be called the *[[Fox derivative]]*:
 
-* [[R. H. Fox]], _Free differential calculus I: Derivation in the free group ring_, Annals Math. (2) __57__, 547--560 (1953) [doi:10.2307/1969736](https://doi.org/10.2307/1969736)
+* [[Ralph H. Fox]], _Free differential calculus I: Derivation in the free group ring_, Annals Math. __57__ 3 (1953) 547-560 &lbrack;[doi:10.2307/1969736](https://doi.org/10.2307/1969736), [jstor:1969736](https://www.jstor.org/stable/1969736)&rbrack;
 
-* [[R. H. Fox]], _Free differential calculus II: The isomorphism problem of groups_, Annals Math. (2) __59__:2 196--210 (1954) [doi](https://doi.org/10.2307/1969686)
+* [[Ralph H. Fox]], _Free differential calculus II: The isomorphism problem of groups_, Annals Math. __59__ 2 (1954) 196-210 &lbrack;[doi:10.2307/1969686](https://doi.org/10.2307/1969686), [jstor:1969686](https://www.jstor.org/stable/1969686)&rbrack;
 
-* [[R. H. Fox]], _Free differential calculus III: Subgroups_, Annals Math. (2)  __64__:3 (1956) 407--419 [doi](https://doi.org/10.2307/1969592)
+* [[Ralph H. Fox]], _Free differential calculus III: Subgroups_, Annals Math. __64__ 3 (1956) 407-419 &lbrack;[doi:10.2307/1969592](https://doi.org/10.2307/1969592), [jstor:1970044](https://www.jstor.org/stable/1970044)&rbrack;
 
-* [[Kuo Tsai Chen]], [[R. H. Fox]], R. C. Lyndon, _Free differential calculus IV: The quotient groups of the lower central series_, Ann. Math. __68__:1 (1958) 81--95 [doi](https://doi.org/10.2307/1970044)
+* [[Kuo Tsai Chen]], [[Ralph H. Fox]], R. C. Lyndon, _Free differential calculus IV: The quotient groups of the lower central series_, Ann. Math. __68__ 1 (1958) 81-95 &lbrack;[doi:10.2307/1970044](https://doi.org/10.2307/1970044), [jstor:1970044](https://www.jstor.org/stable/1970044)&rbrack;
 
-* [[Ralph H. Fox]], _Free differential calculus V. The Alexander matrices re-examined_, Ann. Math. __71__:3 (1960) 408--422 [doi](https://doi.org/10.2307/1969936)
+* [[Ralph H. Fox]], _Free differential calculus V. The Alexander matrices re-examined_, Ann. Math. __71__ 3 (1960) 408-422 &lbrack;[doi:10.2307/1969936](https://doi.org/10.2307/1969936), [jstor:1969936](https://www.jstor.org/stable/1969936)&rbrack;
 
-with an introduction in 
+On [[knot theory]]:
 
-* [[R. H. Crowell]], [[R. H. Fox]], _Introduction to knot theory_, Springer, Graduate Texts in Mathematics 57, 1963.
+* [[Richard H. Crowell]], [[Ralph H. Fox]], _Introduction to knot theory_, Graduate Texts in Mathematics **57**, Springer (1963) &lbrack;[doi:10.1007/978-1-4612-9935-6](https://doi.org/10.1007/978-1-4612-9935-6)&rbrack;
 
 
 [[!redirects R. H. Fox]]
