@@ -132,15 +132,16 @@ $$
    \;\colon\;
   X \overset{\in Cof}{\longrightarrow} X\sqcup X  
   \overset{\in Cof}{\longrightarrow}
+  Cyl(X)
 $$
 
 and hence are themselves cofibrations. That they are in addition weak equivalences follows from [[two-out-of-three]] applied to the identity
 
 $$
   id_X \;\colon\;
-  X \overset{\in W}{\longrightarrow}
+  X \overset{i_0}{\longrightarrow}
   Cyl(X)
-  \overset{i_0}{\longrightarrow}
+  \overset{\in W}{\longrightarrow}
   X
   \,.
 $$
