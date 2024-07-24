@@ -13,10 +13,9 @@
 =--
 =--
 
-# Distributive laws
 
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -309,6 +308,7 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 * [[Gabi Böhm]], _Internal bialgebroids, entwining structures and corings_, AMS Contemp. Math. **376** (2005) 207-226 &lbrack;[arXiv:math.QA/0311244](http://front.math.ucdavis.edu/math.QA/0311244)&rbrack;
 
+* [[Ernie Manes]], [[Philip Mulry]]: *Monad compositions I: general constructions and recursive distributive laws*, Theory and Applications of Categories **18** 7 (2007) 172-208 &lbrack;[tac:18-07](http://www.tac.mta.ca/tac/volumes/18/7/18-07abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/18/7/18-07.pdf)&rbrack;
 
 * [[Zoran Škoda]], _Distributive laws for monoidal categories_ ([arXiv:0406310](http://front.math.ucdavis.edu/math.CT/0406310)); _Equivariant monads and equivariant lifts versus a 2-category of distributive laws_ ([arXiv:0707.1609](http://front.math.ucdavis.edu/0707.1609)); _Bicategory of entwinings_  ([arXiv:0805.4611](http://arxiv.org/abs/0805.4611))
 
