@@ -806,21 +806,20 @@ The local Chern-Simons term as an action functional for quantum field theory app
 
 The [[geometric quantization]] and [[path integral]] [[quantization]] of Chern-Simons theory and the relation of its [[Wilson line]] [[observables]] to the [[Jones polynomial]] was introduced in
 
-* {#Witten89} [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_, Commun. Math. Phys. **121** 3 (1989) 351-399. MR0990772 &lbrack;[doi:10.1007/BF01217730](https://doi.org/10.1007/BF01217730), 
-[euclid:cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138)&rbrack;
+* {#Witten89} [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_, Commun. Math. Phys. **121** 3 (1989) 351-399 &lbrack;[doi:10.1007/BF01217730](https://doi.org/10.1007/BF01217730), [euclid:cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138), MR0990772 &rbrack;
  
 and also, indepndently at the same time
 
-* [[Jürg Fröhlich]], C. King, _The Chern-Simons theory and knot polynomials_, Comm. Math. Phys. Volume 126, Number 1 (1989), 167-199 ([project euclid](https://projecteuclid.org/euclid.cmp/1104179728))
+* [[Jürg Fröhlich]], C. King, _The Chern-Simons theory and knot polynomials_, Comm. Math. Phys. **126** 1 (1989) 167-199 &lbrack;[euclid:1104179728](https://projecteuclid.org/euclid.cmp/1104179728)&rbrack;
 
 It derives its name from the [[Chern-Simons forms]] that were originally introduced in 
 
-* [[Shiing-shen Chern]], [[James Simons]], _[[Characteristic forms and geometric invariants]]_     The Annals of Mathematics, Second Series, Vol. 99, No. 1 (1974) ([jstor](http://www.jstor.org/stable/1971013)).
+* [[Shiing-shen Chern]], [[James Simons]], _[[Characteristic forms and geometric invariants]]_, The Annals of Mathematics, Second Series **99** 1 (1974) &lbrack;[jstor:1971013](http://www.jstor.org/stable/1971013)&rbrack;
 
 
 A comprehensive and clean account of the classical aspects is in 
 
-* [[Dan Freed]], 
+* [[Daniel Freed]], 
 
   * _Classical Chern-Simons theory Part I_ , 
     Adv. Math., 113 (1995), 237&#8211;303
