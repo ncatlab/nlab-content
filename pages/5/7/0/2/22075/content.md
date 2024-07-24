@@ -33,9 +33,16 @@ Exposition:
 
 * Lawrence Hook, _Knots in four dimensions_ ([pdf](http://people.virginia.edu/~lph5s/t/2.pdf))
 
-Textbook accounts:
+Monographs:
 
-*  Seiichi Kamada, _Surface-Knots in 4-Space_, Springer 2017 ([doi:10.1007/978-981-10-4091-7](https://link.springer.com/book/10.1007/978-981-10-4091-7))
+* [[Scott Carter]], [[Seiichi Kamada]], [[Masahico Saito]]: *Surfaces in 4-Space*, Springer (2004) &lbrack;[doi:10.1007/978-3-662-10162-9](https://doi.org/10.1007/978-3-662-10162-9)&rbrack;
+
+* [[Seiichi Kamada]], _Surface-Knots in 4-Space_, Springer (2017) &lbrack;[doi:10.1007/978-981-10-4091-7](https://link.springer.com/book/10.1007/978-981-10-4091-7)&rbrack;
+
+See also:
+
+* {#CarterSaito93} [[J. Scott Carter]], [[Masahico Saito]]: *Reidemeister moves for surface isotopies and their interpretation as moves to movies*,  Journal of Knot Theory and Its RamificationsVol. **02** 03 (1993) 251-284 &lbrack;[doi:10.1142/S0218216593000167](https://doi.org/10.1142/S0218216593000167)&rbrack;
+
 
 [[!redirects surface knots]]
 
