@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Group completed configuration spaces of unlabeled points
@@ -8,15 +18,17 @@ We briefly review Okuyama's configuration-spaces of "charged strings" as models 
 
 * *[Charged particles and strings](#ChargedParticlesAndStrings)*
 
-Using this, we observe that [[based loops]] in Okuyama's configuration space of points in the [[plane]] $\mathbb{R}^2$ are essentially identified with [[framed link|framed]] [[oriented link|oriented]] [[links]] whose class in the [[fundamental group]] $\simeq \pi^3(S^2) \simeq \mathbb{Z}$ is twice their total [[linking number]] plus their [[framing number]]:
+Using this, we observe that [[based loops]] in Okuyama's configuration space of points in the [[plane]] $\mathbb{R}^2$ are essentially identified with [[framed link|framed]] [[oriented link|oriented]] [[links]] whose class in the [[fundamental group]] $\simeq \pi^3(S^2) \simeq \mathbb{Z}$ is twice their total [[linking number]] plus their [[framing number]] (thus reproving the [[Pontrjagin theorem]] in these dimensions):
 
 * *[Charged string loops as framed links](#LoopsOfChargedStrings)*
+
 
 ### Charged particles and strings
  {#ChargedParticlesAndStrings}
 
-Write $Conf(\mathbb{R}^n)$ for the "plain" configuration space of unlabeled and unordered points in the [[Cartesian space]] ([[Euclidean space]]) $\mathbb{R}^n$, hence the space of [[finite set|finite]] [[subsets]] of [[Cartesian space|$\mathbb{R}^n$]].
-This is naturally a [[partial function|partial]] [[commutative monoid|abelian]] [[topological monoid]], where the addition of a pair of configurations is defined if they are [[disjoint]], in which case it is given by their (necessarily [[disjoint union|disjoint]]) [[union]] &lbrack;[Segal 1973, p. 215](#Segal73)&rbrack;.
+Write $Conf(\mathbb{R}^n)$ for the "plain" [[configuration space of points|configuration space of]] unlabeled and unordered points in the [[Cartesian space]] ([[Euclidean space]]) $\mathbb{R}^n$, hence for the evident [[topological space]] of [[finite set|finite]] [[subsets]] of [[Cartesian space|$\mathbb{R}^n$]].
+
+This space naturally carries the [[structure]] of a [[partial function|partial]] [[commutative monoid|abelian]] [[topological monoid]], where the addition of a pair of configurations is defined if they are [[disjoint]], in which case it is given by their (necessarily [[disjoint union|disjoint]]) [[union]] &lbrack;[Segal 1973, p. 215](#Segal73)&rbrack;.
 
 Here we write
 $$
@@ -142,7 +154,7 @@ and the appearance/vanishing of the plain loop diagram.
 
 
 
-{#ChargedStringLoopWithTwist} The following based loop should have a non-trivial class in $\pi_1\big(Conf^I(\mathbb{R}^2)\big)$ and we will argue that all other based loops have classes which are integral multiples of this one:
+{#ChargedStringLoopWithTwist} The following based loop should have a non-trivial class in $\pi_1\big(Conf^I(\mathbb{R}^2)\big)$ and we will argue (Thm. \ref{ChargedOpenStringLoopsClassifiedByCrossingNumber} below) that all other based loops have classes which are integral multiples of this one:
 
 \begin{imagefromfile}
     "file_name": "ChargedStringLoopWithTwist-240717b.jpg",
@@ -166,6 +178,7 @@ Its composition with itself, as an element of the [[fundamental group]], yields 
 
 \linebreak
 \linebreak
+\linebreak
 
 \[\label{ConnectedSumOfFramedUnknots}\]
 
@@ -174,7 +187,7 @@ Its composition with itself, as an element of the [[fundamental group]], yields 
     "width": 700,
     "unit": "px",
     "margin": {
-        "top": -100,
+        "top": -130,
         "bottom": 20,
         "right": 0, 
         "left": 15
@@ -249,7 +262,7 @@ In this link-diagram notation, the above stringy saddle- and vacuum-move look as
     }
 \end{imagefromfile}
 
-These may be recognized as the *birth*/*death* and *fusion* moves of [Khovanov 2000, §6.3](link+cobordism#Khovanov00)
+These may be recognized as the *birth*/*death* and *fusion* moves of [Khovanov 2000, §6.3](link+cobordism#Khovanov00), cf. [Lobb 2024, Fig. 12](link+cobordism#Lobb24)
 (the latter called *saddle point* moves by [Kauffman 2014, Fig. 16](link+cobordism#Kauffman14) and others) which (together with diagram isotopy and the [[Reidemeister moves]]) generate the *[[link cobordism]]* relation.
 
 \begin{proposition}
@@ -286,7 +299,7 @@ from ([[isotopy classes]] of) [[framed link|framed]] [[oriented link|oriented]] 
   Every framed link is cobordant (eq:LinkCobordismMoves) to a framed [[unknot]].
 \end{lemma}
 \begin{proof}
-Via the saddle move, every crossing (in a given [[link diagram]] presentation) of two straight segments may be turned into an avoided crossing of a straight edge and a twisted edge:
+Via the saddle move (eq:LinkCobordismMoves) every crossing (in a given [[link diagram]] presentation) of two straight segments may be turned into an avoided crossing of a straight edge and a twisted edge, e.g.:
 
 \linebreak
 \linebreak
@@ -305,7 +318,7 @@ Via the saddle move, every crossing (in a given [[link diagram]] presentation) o
     }
 \end{imagefromfile}
 
-Applying this move to all crossings between distinct connected components yields a disjoint union of framed unknots. Forming their [[knot sum|connected sum]] via further saddle moves finally yields a single framed unknot.
+Applying this move to all crossings between distinct connected components yields a framed unlink. Further forming the [[knot sum|connected sum]] of its connected components as in (eq:ConnectedSumOfFramedUnknots) finally yields a framed unknot.
 \end{proof}
 
 \begin{theorem}
@@ -325,7 +338,20 @@ is given by sending any [[framed link|framed]] [[oriented link|oriented]] [[link
 \end{theorem}
 \begin{proof}
   By Lem. \ref{FramedLinksCobordantToFramedUnknots} 
-  every link maps to the class of a framed unknot. By the above example (eq:ConnectedSumOfFramedUnknots), any framed unknot is a multiple of the unit framed unknot, which exhibits the latter as the the generator $\pm 1 \in \mathbb{Z}$. 
+  every link maps to the class of a framed unknot. By the above example (eq:ConnectedSumOfFramedUnknots), any framed unknot is a multiple of the unit framed unknot, which exhibits the latter as a generator
+
+\begin{imagefromfile}
+    "file_name": "UnitFramedUnknotAsHopfGenerator-240724.jpg",
+    "width": 520,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 15
+    }
+\end{imagefromfile}
+
 Moreover, since the saddle move used in (eq:MoveToAvoidCrossing) manifestly preserves the crossing number, that multiple is the crossing number of the original link.
 \end{proof}
 
@@ -333,7 +359,7 @@ Moreover, since the saddle move used in (eq:MoveToAvoidCrossing) manifestly pres
   Besides the 1st Reidemeister move, the 2nd and 3rd also imply the following moves:
 
 \begin{imagefromfile}
-    "file_name": "CancellingLeftRightTwists-240722.jpg",
+    "file_name": "CancellingLeftRightTwists-240724.jpg",
     "width": 500,
     "unit": "px",
     "margin": {
@@ -344,7 +370,7 @@ Moreover, since the saddle move used in (eq:MoveToAvoidCrossing) manifestly pres
     }
 \end{imagefromfile}
 
-Jointly, these moves in particular make the [[framing number]] of a [[framed link|framed]] [[unknot]] a well-defined [[integer]], being the sum of the signs of the crossings in any representing [[link diagram]] with blackboard framing.
+Jointly, these moves make the [[framing number]] of a [[framed link|framed]] [[unknot]] a well-defined [[integer]], being the sum of the signs of the crossings in any representing [[link diagram]] with blackboard framing.
 \end{remark}
 
 \begin{example}
