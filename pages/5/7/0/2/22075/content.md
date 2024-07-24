@@ -41,7 +41,7 @@ Monographs:
 
 See also:
 
-* {#CarterSaito93} [[J. Scott Carter]], [[Masahico Saito]]: *Reidemeister moves for surface isotopies and their interpretation as moves to movies*,  Journal of Knot Theory and Its RamificationsVol. **02** 03 (1993) 251-284 &lbrack;[doi:10.1142/S0218216593000167](https://doi.org/10.1142/S0218216593000167)&rbrack;
+* {#CarterSaito93} [[J. Scott Carter]], [[Masahico Saito]]: *Reidemeister moves for surface isotopies and their interpretation as moves to movies*,  Journal of Knot Theory and Its Ramifications **02** 03 (1993) 251-284 &lbrack;[doi:10.1142/S0218216593000167](https://doi.org/10.1142/S0218216593000167)&rbrack;
 
 
 [[!redirects surface knots]]
