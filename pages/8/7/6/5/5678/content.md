@@ -75,11 +75,15 @@ Original articles:
 
 * [[Mikhail Khovanov]], *A categorification of the Jones polynomial*, Duke Math. J. __101__ (2000) 359-426 &lbrack;[arXiv:math/9908171](https://arxiv.org/abs/math/9908171), [doi:10.1215/S0012-7094-00-10131-7](https://projecteuclid.org/journals/duke-mathematical-journal/volume-101/issue-3/A-categorification-of-the-Jones-polynomial/10.1215/S0012-7094-00-10131-7.full), MR1740682 (2002j:57025)&rbrack;
 
-* [[Mikhail Khovanov]], _A functor-valued invariant of tangles_, Algebr. Geom. Topol. __2__ (2002) 665&#8211;741 MR1928174 (2004d:57016)
+* [[Mikhail Khovanov]], _A functor-valued invariant of tangles_, Algebr. Geom. Topol. __2__ (2002) 665-741 MR1928174 (2004d:57016)
 
 * [[Mikhail Khovanov]], _Patterns in knot cohomology. I_, Experiment. Math. __12__ (2003) 365&#8211;374 
 
+* {#Jacobsson04} Magnus Jacobsson: *An invariant of link cobordisms from Khovanov homology*, Algebr. Geom. Topol. **4** (2004) 1211-1251 &lbrack;[arXiv:math/0206303](https://arxiv.org/abs/math/0206303), [doi:10.2140/agt.2004.4.1211](https://doi.org/10.2140/agt.2004.4.1211)&rbrack;
+
+
 * [[Mikhail Khovanov]], An invariant of tangle cobordisms, Trans. Amer. Math. Soc. __358__ (2006), no. 1, 315&#8211;327, arXiv:math.QA/0207264, [MR2006g:57046](http://www.ams.org/mathscinet/search/publdoc.html?pg1=MR&s1=2171235&loc=fromreflist), [doi](http://dx.doi.org/10.1090/S0002-9947-05-03665-2)
+
 
 * Rapha&#235;l Rouquier, _Khovanov-Rozansky homology and 2-braid groups_, [arxiv/1203.5065](http://arxiv.org/abs/1203.5065)
  
@@ -88,7 +92,7 @@ Original articles:
 
 Review and lecture notes:
 
-* {#Bar-Natan} [[Dror Bar-Natan]], _On Khovanov's categorification of the Jones polynomial_, Alg. Geom. Topology __2__ (2002) 337-370, [arXiv:math.GT/0201043](http://arxiv.org/abs/math/0201043)
+* {#Bar-Natan} [[Dror Bar-Natan]], _On Khovanov's categorification of the Jones polynomial_, Alg. Geom. Topology __2__ (2002) 337-370 &lbrack;[arXiv:math.GT/0201043](http://arxiv.org/abs/math/0201043)&rbrack;
 
 
 * [[Mikhail Khovanov]] (notes by [[You Qi]]), *Introduction to categorification*, lecture notes, Columbia University (2010, 2020) &lbrack;[web](https://www.math.columbia.edu/~khovanov/cat2020/), [web](https://you-qi2121.github.io/mypage/categorificationnotes.html), full:[pdf](https://www.dropbox.com/scl/fi/wdesax1c8il6tgwbi20t4/KhovanovYouQi-Categorification.pdf?rlkey=l5cm3khnzu604ijdnl06o89od&dl=0)&rbrack;
