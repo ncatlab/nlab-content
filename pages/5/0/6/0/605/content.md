@@ -99,6 +99,8 @@ The following graphics illustrates the [[Cohomotopy charge map]] of the pair cre
 
 * [[Sullivan chord diagram]]
 
+* [[link cobordism]]
+
 * [[braid cobordism]]
 
 ## References
