@@ -33,7 +33,7 @@ On the [[cobordism ring]]:
 * {#Milnor60} [[John Milnor]], _On the cobordism ring &#173;$\Omega^\bullet$ and a complex analogue_, Amer. J. Math. 82 (1960), 505&#8211;521 ([jstor:2372970](https://www.jstor.org/stable/2372970))
 
 
-Early discussion of [[knot cobordism]]:
+Early discussion of [[knot concordance]]:
 
 * [[Ralph H. Fox]], [[John W. Milnor]]: *Singularities of 2-spheres in 4-space and cobordism of knots*, Osaka J. Math. **3** (1966) 257-267 &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/foxmiln.pdf), [pdf](https://www.i-repository.net/contents/osakacu/sugaku/111F0000002-00302-8.pdf), [pdf](https://ir.library.osaka-u.ac.jp/repo/ouka/all/7307/ojm03_02_08.pdf)&rbrack;
 
