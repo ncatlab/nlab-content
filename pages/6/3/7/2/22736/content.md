@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[solid state physics]], *Landaus' Fermi liquid theory* is [[perturbation theory|perturbative]] [[theory (physics)|theory]] of [[metals]] regarded as seas of [[fermions]].
+In [[solid state physics]], *Landau's Fermi liquid theory* is [[perturbation theory|perturbative]] [[theory (physics)|theory]] of [[metals]] regarded as seas of [[fermions]].
 
 The model is highly successful, given its simplistic assumptions, for ordinary [[metals]], but fails for materials with [[non-perturbative effect|non-perturbative]] [[topological order]] thus known as *[[strange metals]]*. These are instead described by the [[AdS/CFT correspondence in condensed matter physics]].
 
