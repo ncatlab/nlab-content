@@ -10,13 +10,14 @@ list of publications at mathnet.ru: [pdf](http://www.mathnet.ru/PersLogos/18576/
 
 ## Selected writings
 
+Introducing what came to be called *[[BGG resolutions]]* of [[Lie group]] [[representations]] by [[Verma modules]] built using [[regular differential operators]]:
+
+* [[Joseph N. Bernstein]], [[Israel M. Gelfand]], [[Sergei I. Gelfand]]: *Differential operators on the base affine space and a study of $\mathfrak{g}$-modules*, in: I. M. Gelfand (ed.), *Lie groups and their representations*, Adam Hilger (1975) 21-64 &lbrack;[pdf](http://www.math.tau.ac.il/~bernstei/Publication_list/publication_texts/BGG-differ-operators.pdf), [[BGG.pdf:file]]&rbrack;
+
+
 Introducing the notion of [[perverse sheaves]] (and of [[t-structures]] on [[triangulated categories]]):
 
 * [[Alexander Beilinson]], [[Joseph Bernstein]], [[Pierre Deligne]], *Faisceaux pervers*, Astérisque **100** (1982) &lbrack;[ISBN:978-2-85629-878-7](https://smf.emath.fr/publications/faisceaux-pervers), [pdf](https://publications.ias.edu/sites/default/files/Faisceaux%20pervers.pdf), [MR86g:32015](http://www.ams.org/mathscinet-getitem?mr=751966)&rbrack;
-
-[[BGG resolution]] and invariant regular differential operators in Lie theory
-
-* [[I. N. Bernstein]], [[I. M. Gelfand]], [[S. I. Gelfand]], _Differential operators on the base affine space and a study of $\mathfrak{g}$-modules_, In: I. M. Gelfand, ed., Lie groups and their representations, 21--64. Adam Hilger, 1975
 
 See also:
 
@@ -40,5 +41,6 @@ On the [[Langlands program]]:
 
 
 [[!redirects J. Bernstein]]
+[[!redirects Joseph N. Bernstein]]
 [[!redirects I. N. Bernšteĭn]]
 [[!redirects I. N. Bernstein]]
