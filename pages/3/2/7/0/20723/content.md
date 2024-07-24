@@ -26,13 +26,9 @@ what is called the _group completion theorem_ ([McDuff & Segal 1976](#McDuffSega
 
 The original articles are
 
-* {#BarrattPriddy72} [[Michael Barratt]], [[Stewart Priddy]], _On the homology of non-connected monoids and their associated groups_, Commentarii Mathematici Helvetici (1972) 47: 1 ([doi:10.1007/BF02566785](https://doi.org/10.1007/BF02566785))
+* {#BarrattPriddy72} [[Michael Barratt]], [[Stewart Priddy]], _On the homology of non-connected monoids and their associated groups_, Commentarii Mathematici Helvetici **47** 1 (1972)  &lbrack;[doi:10.1007/BF02566785](https://doi.org/10.1007/BF02566785)&rbrack;
 
-
-
-
-
-* {#McDuffSegal76} [[Dusa McDuff]], [[Graeme Segal]], _Homology fibrations and the “group-completion” theorem_, Inventiones mathematicae, October 1976, Volume 31, Issue 3, pp 279–284 ([doi:10.1007/BF01403148](https://doi.org/10.1007/BF01403148))
+* {#McDuffSegal76} [[Dusa McDuff]], [[Graeme Segal]], _Homology fibrations and the “group-completion” theorem_, Inventiones mathematicae **31** 3 (1976) 279–284 &lbrack;[doi:10.1007/BF01403148](https://doi.org/10.1007/BF01403148)&rbrack;
 
 * {#Quillen94} [[Daniel Quillen]], _On the group completion of a simplicial monoid_, Appendix Q in: [[Eric Friedlander]], [[Barry Mazur]], _Filtrations on the homology of algebraic varieties_, Memoir of the A.M.S., Vol. 110, no. 529 (1994) ([doi:10.1090/memo/0529](http://dx.doi.org/10.1090/memo/0529), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/quillencomp.pdf))
 
