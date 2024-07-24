@@ -272,6 +272,12 @@ For **proof** see at _[[topological vector bundle]]_ [this Prop.](topological+ve
 
 * The notions of coboundary and concordance exist in every [[cohesive (∞,1)-topos]].
 
+
+## Related concepts
+
+* [[link concordance]]
+
+
 ## References
 
 Discussion of concordance of topological [[principal bundles]] (in fact for [[simplicial principal bundles]] [[parameterized homotopy theory|parameterized]] over some base space):
