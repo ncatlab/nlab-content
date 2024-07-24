@@ -1,6 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+\tableofcontents
+
 ## Definitions
 
-Let $F$ be a [[free group]] with basis $X = \{ x_i\}_{i\in I}$ and $\mathbb{Z}F$ the integer [[group ring]] of $F$. 
+Let $F$ be a [[free group]] with basis $X = \{ x_i\}_{i\in I}$ and $\mathbb{Z}F$ the [[integer]] [[group ring]] of $F$. 
 
  Differentiation or [[derivation on a group|derivation]], $D$, in this context is defined using a sort of nonsymmetric analogue of the Leibniz rule: it is an additive map $D:\mathbb{Z}F\to\mathbb{Z}F$ such that for all $u,v\in F$, 
 
@@ -82,19 +99,19 @@ and also the projected matrix $\bar{J}$ which is the image of $J$ as a matrix ov
 
 The original articles include:
 
-* [[R. H. Fox]], _Free differential calculus I: Derivation in the free group ring_, Annals Math. (2) __57__, 547--560 (1953) [doi:10.2307/1969736](https://doi.org/10.2307/1969736)
+* [[Ralph H. Fox]], _Free differential calculus I: Derivation in the free group ring_, Annals Math. __57__ 3 (1953) 547-560 &lbrack;[doi:10.2307/1969736](https://doi.org/10.2307/1969736), [jstor:1969736](https://www.jstor.org/stable/1969736)&rbrack;
 
-* [[R. H. Fox]], _Free differential calculus II: The isomorphism problem of groups_, Annals Math. (2) __59__:2 196--210 (1954) [doi](https://doi.org/10.2307/1969686)
+* [[Ralph H. Fox]], _Free differential calculus II: The isomorphism problem of groups_, Annals Math. __59__ 2 (1954) 196-210 &lbrack;[doi:10.2307/1969686](https://doi.org/10.2307/1969686), [jstor:1969686](https://www.jstor.org/stable/1969686)&rbrack;
 
-* [[R. H. Fox]], _Free differential calculus III: Subgroups_, Annals Math. (2)  __64__:3 (1956) 407--419 [doi](https://doi.org/10.2307/1969592)
+* [[Ralph H. Fox]], _Free differential calculus III: Subgroups_, Annals Math. __64__ 3 (1956) 407-419 &lbrack;[doi:10.2307/1969592](https://doi.org/10.2307/1969592), [jstor:1970044](https://www.jstor.org/stable/1970044)&rbrack;
 
-* [[Kuo Tsai Chen]], [[R. H. Fox]], R. C. Lyndon, _Free differential calculus IV: The quotient groups of the lower central series_, Ann. Math. __68__:1 (1958) 81--95 [doi](https://doi.org/10.2307/1970044)
+* [[Kuo Tsai Chen]], [[Ralph H. Fox]], R. C. Lyndon, _Free differential calculus IV: The quotient groups of the lower central series_, Ann. Math. __68__ 1 (1958) 81-95 &lbrack;[doi:10.2307/1970044](https://doi.org/10.2307/1970044), [jstor:1970044](https://www.jstor.org/stable/1970044)&rbrack;
 
-* [[Ralph H. Fox]], _Free differential calculus V. The Alexander matrices re-examined_, Ann. Math. __71__:3 (1960) 408--422 [doi](https://doi.org/10.2307/1969936)
+* [[Ralph H. Fox]], _Free differential calculus V. The Alexander matrices re-examined_, Ann. Math. __71__ 3 (1960) 408-422 &lbrack;[doi:10.2307/1969936](https://doi.org/10.2307/1969936), [jstor:1969936](https://www.jstor.org/stable/1969936)&rbrack;
 
 with textbook treatments in 
 
-* [[R. H. Crowell]], [[R. H. Fox]], _Introduction to knot theory_, Springer, Graduate Texts in Mathematics 57, 1963.
+* [[Richard H. Crowell]], [[Ralph H. Fox]], _Introduction to knot theory_, Graduate Texts in Mathematics **57**, Springer (1963) &lbrack;[doi:10.1007/978-1-4612-9935-6](https://doi.org/10.1007/978-1-4612-9935-6)&rbrack;
  
 * B. Chandler, [[W. Magnus]], _The history of combinatorial group theory: a case study in the history of ideas_, Springer 1982
 
