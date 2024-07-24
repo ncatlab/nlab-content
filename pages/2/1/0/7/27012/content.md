@@ -302,7 +302,6 @@ from ([[isotopy classes]] of) [[framed link|framed]] [[oriented link|oriented]] 
 Via the saddle move (eq:LinkCobordismMoves) every crossing (in a given [[link diagram]] presentation) of two straight segments may be turned into an avoided crossing of a straight edge and a twisted edge, e.g.:
 
 \linebreak
-\linebreak
 
 \[\label{MoveToAvoidCrossing}\]
 
@@ -311,7 +310,7 @@ Via the saddle move (eq:LinkCobordismMoves) every crossing (in a given [[link di
     "width": 520,
     "unit": "px",
     "margin": {
-        "top": -100,
+        "top": -47,
         "bottom": 20,
         "right": 0, 
         "left": 15
