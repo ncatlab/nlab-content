@@ -12,9 +12,10 @@ Do not include recent references that are likely still to appear. If the author 
 | *A note on a construction of Kleisli* (1965) | [[Michael Barr]] | *An outline of functorial semantics*, [[Fred Linton]] (1969) | Universal property of the Kleisli construction |Michael Barr no longer has a copy|
 | *Relative Functorial Semantics, III: Triples vs. Theories* (1974) | [[Fred Linton]] | *Functorial semantics and HSP type theorems*, [[Michael Barr]] (1994); *Monads of sets*, [[Ernest Manes]] (2003) | Characterisation of the [[Eilenberg--Moore category]] for an (enriched) monad as a [[pullback]] over [[presheaves]] on the [[Kleisli category]] | [[Linton_RelativeFunctorialSemanticsIII.pdf:file]], provided by [[Ernie Manes]] (also [here](https://oda.mfo.de/bitstream/handle/mfo/1474/full-text.pdf?sequence=1&isAllowed=y#page=33)) |
 | *J-adjonctions et J-monades* (1970) | [[Yves Diers]] | *Monades involutives complémentées* [21], [[René Guitart]] (1975) | [[relative monads|Relative monads]] and [[relative adjunctions]] | |
-|*Extension of functors to categories of algebras* (c. 1971)|H. Wolff|*Monad compositions I: general constructions and recursive distributive laws* [32], [[Ernie Manes]] and [[Philip Mulry]]| | |
+|*Extension of functors to categories of algebras* (c. 1971)|H. Wolff|*[Monad compositions I: general constructions and recursive distributive laws](http://www.tac.mta.ca/tac/volumes/18/7/18-07abs.html)* [32], [[Ernie Manes]] and [[Philip Mulry]]| | |
 
 ## Related pages
 
 * [[list of category theory papers that never appeared]]
+
 * [[list of theses in category theory]]
