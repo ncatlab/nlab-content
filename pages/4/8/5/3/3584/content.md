@@ -1,8 +1,12 @@
+\tableofcontents
+
+## Idea
+
 Crystal bases are a construction in the [[representation theory]] of [[quantum groups]] (which in a specialization exist hence for usual [[Lie groups]] as well): roughly speaking they provide a uniform description not only of irreducible finite-dimensional modules but also a uniform choice of bases in all of them as well as in tensor products. 
 
 There are two mutually dual versions due [[Masaki Kashiwara]] and [[George Lusztig]]. 
 
-# History and references
+## History and references
 
 The terminology is due to the involved $q=0$ limit of quantum groups used in the construction (the classical case is $q=1$). In a thermodynamic parlance zero temperature would involve passing to crystalization. 
 
@@ -16,4 +20,5 @@ The terminology is due to the involved $q=0$ limit of quantum groups used in the
 * S-J.Kang, M. Kashiwara, K.Misra, _Crystal bases of Verma modules for quantum affine Lie algebras_, Compositio Math. __92__ (1994) 299--325, [numdam](http://www.numdam.org/item?id=CM_1994__92_3_299_0)
 * Hong and Kang, _Introduction to quantum groups and crystal bases_, Grad. Studies in Math. __42__, AMS 2002, 307 pp.
 * John R. Stembridge, _A local characterization of simply-laced crystals_, Trans. Amer. Math. Soc. __355__ (2003), 4807--4823.
+
 [[!redirects crystal basis]]
