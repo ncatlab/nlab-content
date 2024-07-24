@@ -2,7 +2,7 @@
 
 ## Idea
 
-Crystal bases are a construction in the [[representation theory]] of [[quantum groups]] (which in a specialization exist hence for usual [[Lie groups]] as well): roughly speaking they provide a uniform description not only of irreducible finite-dimensional modules but also a uniform choice of bases in all of them as well as in tensor products. 
+Crystal bases are a construction in the [[representation theory]] of [[quantum groups]] (which in a specialization exist hence for usual [[Lie groups]] as well): roughly speaking they provide a uniform description not only of irreducible finite-dimensional modules but also a uniform choice of bases in all of them as well as in their tensor products. 
 
 There are two mutually dual versions due [[Masaki Kashiwara]] and [[George Lusztig]]. 
 
@@ -18,7 +18,10 @@ The terminology is due to the involved $q=0$ limit of quantum groups used in the
 *  M. Kashiwara, _The crystal base and Littelmann's refined Demazure character formula_, Duke Math. J. 1993. 
 * Masaki Kashiwara, Yoshihisa Saito, _Geometric construction of crystal bases_, Duke Math. J. 1996, [pdf cached](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=47F46C7CD4CE2825986E88F8A4C6BCE9?doi=10.1.1.11.9068&rep=rep1&type=pdf)
 * S-J.Kang, M. Kashiwara, K.Misra, _Crystal bases of Verma modules for quantum affine Lie algebras_, Compositio Math. __92__ (1994) 299--325, [numdam](http://www.numdam.org/item?id=CM_1994__92_3_299_0)
-* Hong and Kang, _Introduction to quantum groups and crystal bases_, Grad. Studies in Math. __42__, AMS 2002, 307 pp.
+* Jin Hong, Seok-Jin Kang, _Introduction to quantum groups and crystal bases_, Grad. Studies in Math. __42__, AMS 2002, 307 pp.
 * John R. Stembridge, _A local characterization of simply-laced crystals_, Trans. Amer. Math. Soc. __355__ (2003), 4807--4823.
+* Daniel Bump, Anne Schilling, _Crystal bases: representations and combinatorics_, World Sci. 2017
+ 
 
 [[!redirects crystal basis]]
+category: algebra
