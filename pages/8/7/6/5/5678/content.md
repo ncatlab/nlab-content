@@ -185,10 +185,16 @@ See also:
 * [[Nafaa Chbili]], *Quasi-alternating links, Examples and obstructions*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#ChbiliMar2023)&rbrack;
 
 
-[[!redirects knot homology]]
+[[!redirects Khovanov homologies]]
 
+[[!redirects knot homology]]
+[[!redirects knot homologoes]]
 
 [[!redirects link homology]]
+[[!redirects link homologies]]
 
 [[!redirects Khovanov-Rozansky link homology]]
 [[!redirects Khovanov-Rozansky homology]]
+
+
+
