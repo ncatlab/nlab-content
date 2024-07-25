@@ -1,4 +1,8 @@
-* [website](http://www.mscs.dal.ca/~pare/)
+
+* [personal page](http://www.mscs.dal.ca/~pare/)
+
+* [MathGeneralogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=30591)
+
 
 ## Selected writings
 
@@ -15,7 +19,6 @@ On [[category]]-valued [[stacks]] ([[2-sheaves]]) as [[internal categories]] in 
 * {#BungePare} [[Marta Bunge]], [[Robert Paré]], _Stacks and equivalence of indexed categories_, [[Cahiers|Cahiers de Top. et Géom. Diff. Catég]] **20** 4 (1979) 373-399 &lbrack;[numdam:CTGDC_1979__20_4_373_0](http://www.numdam.org/item?id=CTGDC_1979__20_4_373_0)&rbrack;
  
 
-
 On [[saturated classes of colimits]]:
  
 * {#KP} [[Max Kelly]] and [[Robert Paré]]: *A note on the Albert-Kelly paper 'The closure of a class of colimits'*, JPAA 51 (1988) 19-25 \[<a href="https://doi.org/10.1016/0022-4049(88)90074-6">doi;10.1016/0022-4049(88)90074-6</a>\]
@@ -30,6 +33,11 @@ On [[accessible categories]] and [[categorical semantics|categorical]] [[model t
 On [[reflective factorization systems]]:
  
 * {#CJKP} [[Aurelio Carboni]], [[George Janelidze]], [[Max Kelly]], [[Robert Paré]], _On localization and stabilization for factorization systems_, Appl. Categ. Structures 5 (1997), 1--58 ([doi:10.1023/A:1008620404444](https://doi.org/10.1023/A:1008620404444))
+
+On [[strong dinatural transformations]]:
+
+* [[Robert Paré]], Leopoldo Román: *Dinatural numbers*.  Journal of Pure and Applied Algebra **128** 1 (1998) 33–92 \[<a href="https://doi.org/10.1016/S0022-4049(97)00036-4">doi:10.1016/S0022-4049(97)00036-4</a>\]
+
 
 On [[2-colimits]] of [[accessible categories]] (i.e. in [[AccCat]]):
 
@@ -103,7 +111,7 @@ On [[2-colimits]] of [[accessible categories]] (i.e. in [[AccCat]]):
 
 * [[Robert Paré]], _A Visual Proof of Eddy and Fritsch's Minimal Area Property_, The College Mathematics Journal, Vol. 26, No. 1, 1995, pp. 43-44. &lbrack;[doi:10.1080/07468342.1995.11973667](https://doi.org/10.1080/07468342.1995.11973667)&rbrack;
 
-* [[Robert Paré]] and [[Leopoldo Román]], _Dinatural numbers_, Journal of Pure and Applied Algebra, Vol. 128, No. 1, 1998, pp. 33-92. &lbrack;<a href="https://doi.org/10.1016/S0022-4049(97)00036-4">doi:10.1016/S0022-4049(97)00036-4</a>&rbrack; 
+* [[Robert Paré]], Leopoldo Román: *Dinatural numbers*.  Journal of Pure and Applied Algebra **128** 1 (1998) 33–92 \[<a href="https://doi.org/10.1016/S0022-4049(97)00036-4">doi:10.1016/S0022-4049(97)00036-4</a>\]
 
 * [[Marco Grandis]] and [[Robert Paré]], _Limits in double categories_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 40, No. 3, 1999, pp. 162-220. &lbrack;[cahiers](http://archive.numdam.org/item/CTGDC_1999__40_3_162_0/)&rbrack;
 
