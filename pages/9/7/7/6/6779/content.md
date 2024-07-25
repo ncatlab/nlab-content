@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -177,13 +178,13 @@ With the [[universal coefficient theorem]] a corresponding statement follows for
 
 ## References
 
-The original reference is:
+The original reference:
 
-* [[Witold Hurewicz]], Koninklijke Akademie van Wetenschappen: Proceedings of the Section of Sciences 38 (1935), 112–119.  Mathematics. — Beiträge zur Topologie der Deformationen (I. Höherdimensionale Homotopiegruppen).  [PDF](https://dwc.knaw.nl/DL/publications/PU00016667.pdf)
+* [[Witold Hurewicz]]: *Beiträge zur Topologie der Deformationen (II. Homotopie- und Homologigruppen)*, Proc. Akad. Wet. Amsterdam **38** (1935) 521–528 &lbrack;[pdf](https://dwc.knaw.nl/DL/publications/PU00016726.pdf), [[Hurewicz-BeitraegeII.pdf:file]]&rbrack;
 
-This article is reproduced on pages 341–348 of
+reproduced on pages 341–348 of:
 
-* [Collected Works of Witold Hurewicz](https://bookstore.ams.org/cworks-4).  (Edited by Krystyna Kuperberg.)  American Mathematical Society, 1995.  ISBN 0-8218-0011-6
+* Krystyna Kuperberg (ed.): *Collected Works of Witold Hurewicz*, American Mathematical Society (1995) &lbrack;ISBN 0-8218-0011-6, [ams:cworks-4](https://bookstore.ams.org/cworks-4)&rbrack;
 
 The [[simplicial homotopy theory|simplicial]] version is due to
 
