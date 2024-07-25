@@ -379,7 +379,7 @@ See also:
 
 * Thomas Steingasser, *Higgs criticality in and beyond the Standard Model* &lbrack;[arXiv:2405.02415](https://arxiv.org/abs/2405.02415)&rbrack;
 
-
+* [[Alessandro Strumia]]: *The Higgs boson and the possible instability in its potential*, talk at #ICBS2024 &lbrack;[video](https://youtu.be/AgXGKPiB9y0)&rbrack;
 
 
 
