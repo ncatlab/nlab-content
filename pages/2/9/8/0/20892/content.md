@@ -20,7 +20,7 @@ For a unifying perspective (via [[Hypothesis H]]) and further pointers, see:
 
 * {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]* Lett. Math. Phys. **113** 112 (2023) \[<a href="https://arxiv.org/abs/2105.02871">arXiv:2105.02871</a>, [doi:10.1007/s11005-023-01725-4](https://doi.org/10.1007/s11005-023-01725-4)\]
 
-* {#Collari2023} [[Carlo Collari]], *A note on weight systems which are quantum states*, Can. Math. Bull. (2023) \[<a href="https://doi.org/10.4153/S0008439523000206">doi:10.4153/S0008439523000206</a>, [arXiv:2210.05399](https://arxiv.org/abs/2210.05399)\]
+* {#Collari2023} [[Carlo Collari]], *A note on weight systems which are quantum states*, Can. Math. Bull. **66** 4 (2023) \[<a href="https://doi.org/10.4153/S0008439523000206">doi:10.4153/S0008439523000206</a>, [arXiv:2210.05399](https://arxiv.org/abs/2210.05399)\]
 
 Review:
 
