@@ -25,6 +25,11 @@ Introducing [[conformal field theory]]:
 
 * [[Alexander Belavin]], [[Alexander Polyakov]], [[Alexander Zamolodchikov]], _Infinite conformal symmetry in two–dimensional quantum field theory_, Nuclear Physics B Volume 241, Issue 2, 23 July 1984, Pages 333-380 (<a href="https://doi.org/10.1016/0550-3213(84)90052-X">doi:10.1016/0550-3213(84)90052-X</a>)
 
+Early discussion of [[Wilson loop]] [[quantum observables]] in [[circle group|$U(1)$]]-[[Chern-Simons theory]]:
+
+* [[Alexander M. Polyakov]]: *Fermi-Bose transmutation induced by gauge fields*, Modern Physics Letters A **03** 03 (1988) 325-328 &lbrack;[doi:10.1142/S0217732388000398](https://doi.org/10.1142/S0217732388000398)&rbrack;
+
+
 Proposing the identification of [[flux tubes]] in [[confinement|confined]] [[QCD]] with the [[strings]] of [[string theory]], hence of the [[holographic principle]] in what came to be known as the [[AdS-QCD correspondence]] (see *[[Polyakov gauge-string duality]]*):
 
 * [[Alexander Polyakov]], *String representations and hidden symmetries for gauge fields*, Physics Letters B **82** 2 (1979) 247-250 &lbrack;<a href="https://doi.org/10.1016/0370-2693(79)90747-0">doi:10.1016/0370-2693(79)90747-0</a>&rbrack;
