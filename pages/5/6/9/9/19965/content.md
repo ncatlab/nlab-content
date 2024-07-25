@@ -17,6 +17,9 @@ On the [[Higgs field]] [[vacuum stability]]:
 
 * {#Strumia17} [[Alessandro Strumia]], _Higgs and Vacuum (In)Stability_, talk at GGI 2017 ([pdf](https://indico.cern.ch/event/660870/contributions/2746200/attachments/1538374/2411246/2017-HiggsDecay.pdf))
 
+* [[Alessandro Strumia]]: *The Higgs boson and the possible instability in its potential*, talk at #ICBS2024 &lbrack;[video](https://youtu.be/AgXGKPiB9y0)&rbrack;
+
+
 and implications for [[split supersymmetry]]:
 
 * [[Gian Giudice]], [[Alessandro Strumia]], _Probing High-Scale and Split Supersymmetry with Higgs Mass Measurements_, Nuclear Physics B Volume 858, Issue 1, 1 May 2012, Pages 63-83 ([arXiv:1108.6077](https://arxiv.org/abs/1108.6077))
