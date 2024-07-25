@@ -20,25 +20,25 @@ Most of this article concerns affine spaces in the sense of vector spaces that h
 
 The definition of affine space can be made precise in various (equivalent) ways.  We give a name to some of the definitions for later reference.
 
-*  An affine space is simply a vector space, but with different morphisms; an affine linear map is a function that is the difference between a linear map and a [[constant function]].
+1. An affine space is simply a vector space, but with different morphisms; an affine linear map is a function that is the difference between a linear map and a [[constant function]].
 
-*  An affine space is a [[set]] equipped with an equivalence class of vector space structures, where two vector space structures are considered equivalent if the [[identity function]] is affine linear as a map from one structure to the other; whether a map between affine spaces is affine linear is independent of the representative vector space structures.
+1. An affine space is a [[set]] equipped with an equivalence class of vector space structures, where two vector space structures are considered equivalent if the [[identity function]] is affine linear as a map from one structure to the other; whether a map between affine spaces is affine linear is independent of the representative vector space structures.
 
-*  An affine space is a set $A$ together with a vector space $V$ and an [[action]] of (the additive group or _[[translation group]]_ of) $V$ on $A$ that makes $A$ into a $V$-[[torsor]] (over the point); an affine linear map is a $V$-equivariant map. For this point of view, see also [[zoranskoda:affine space]].
+1. An affine space is a set $A$ together with a vector space $V$ and an [[action]] of (the additive group or _[[translation group]]_ of) $V$ on $A$ that makes $A$ into a $V$-[[torsor]] (over the point); an affine linear map is a $V$-equivariant map. For this point of view, see also [[zoranskoda:affine space]].
 
-*  An affine space is a [[heap]] whose [[automorphism group]] is equipped with structure making it the additive group of a vector space; an affine linear map is a heap morphism.
+1. An affine space is a [[heap]] whose [[automorphism group]] is equipped with structure making it the additive group of a vector space; an affine linear map is a heap morphism.
 
-*  An affine space is an [[inhabited set]] $A$ together with a vector space $V$ and a function $\Lambda\colon A \times A \to V$ (thought of $\Lambda(x,y) \coloneqq x - y$) that satisfies some equations; an affine linear map $A \to A'$ is a function equipped with a linear map $V \to V'$ relative to which it preserves subtraction (the "vector-valued difference" definition).
+1. An affine space is an [[inhabited set]] $A$ together with a vector space $V$ and a function $\Lambda\colon A \times A \to V$ (thought of $\Lambda(x,y) \coloneqq x - y$) that satisfies some equations; an affine linear map $A \to A'$ is a function equipped with a linear map $V \to V'$ relative to which it preserves subtraction (the "vector-valued difference" definition).
 
-*  An affine space over the [[ground field]] $k$ is an [[inhabited set]] $A$ together with functions $\mu\colon A \times A \times A \to A$ (thought of as $\mu(x,y,z) \coloneqq x - y + z$) and $\Lambda_*\colon k \times A \times A \to A$ (thought of as $\Lambda_r(x,y) \coloneqq x - r x + r y$) that satisfy some equations; an affine linear map is a function that preserves these operations (the "two ternary operations" definition).
+1. An affine space over the [[ground field]] $k$ is an [[inhabited set]] $A$ together with functions $\mu\colon A \times A \times A \to A$ (thought of as $\mu(x,y,z) \coloneqq x - y + z$) and $\Lambda_*\colon k \times A \times A \to A$ (thought of as $\Lambda_r(x,y) \coloneqq x - r x + r y$) that satisfy some equations; an affine linear map is a function that preserves these operations (the "two ternary operations" definition).
 
-*  An affine space over $k$ is an inhabited set $A$ together with a function $\mu_*\colon k\times A\times A\times A\to A$ (thought of as $\mu_r(x,y,z) \coloneqq r x - r y + z$) that satisfies some equations; an affine linear map is a function that preserves this operation (the "one quaternary operation") definition.
+1. An affine space over $k$ is an inhabited set $A$ together with a function $\mu_*\colon k\times A\times A\times A\to A$ (thought of as $\mu_r(x,y,z) \coloneqq r x - r y + z$) that satisfies some equations; an affine linear map is a function that preserves this operation (the "one quaternary operation") definition.
 
-*  Assuming that $2$ is invertible in the field $k$ (i.e. the [[characteristic]] of $k$ is not $2$), an affine space over $k$ is an inhabited set $A$ together with a function $\Lambda_*\colon k \times A \times A \to A$ that satisfies some equations; an affine linear map is a function that preserves this operation (the "one ternary operation" definition).
+1. Assuming that $2$ is invertible in the field $k$ (i.e. the [[characteristic]] of $k$ is not $2$), an affine space over $k$ is an inhabited set $A$ together with a function $\Lambda_*\colon k \times A \times A \to A$ that satisfies some equations; an affine linear map is a function that preserves this operation (the "one ternary operation" definition).
 
-*  An affine space over the field $k$ is an inhabited set $A$ together with, for every [[natural number]] $n \geq 0$ and every $(n+1)$-tuple $(r_0,\dots,r_n)$ of elements of $k$ such that $r_0 + \dots + r_n = 1$, a function $\gamma_{r_0,\ldots,r_n}\colon A^{n+1}\to A$ (thought of as $\gamma_{r_0,\ldots,r_n}(x_0,\ldots,x_n) \coloneqq r_0 x_0 + \cdots + r_n x_n$), satisfying some equations; an affine linear map is a function that preserves these operations (the "[[unbiased]]" definition).
+1. An affine space over the field $k$ is an inhabited set $A$ together with, for every [[natural number]] $n \geq 0$ and every $(n+1)$-tuple $(r_0,\dots,r_n)$ of elements of $k$ such that $r_0 + \dots + r_n = 1$, a function $\gamma_{r_0,\ldots,r_n}\colon A^{n+1}\to A$ (thought of as $\gamma_{r_0,\ldots,r_n}(x_0,\ldots,x_n) \coloneqq r_0 x_0 + \cdots + r_n x_n$), satisfying some equations; an affine linear map is a function that preserves these operations (the "[[unbiased]]" definition).
 
-* An affine space over the field $k$ is a vector space $A'$ together with a surjective linear map $\pi:A'\to k$ (the "slice of $Vect$" definition).  The affine space itself (the set being regarded as equipped with affine-space structure) is the fiber $\pi^{-1}(1)$.
+1. An affine space over the field $k$ is a vector space $A'$ together with a surjective linear map $\pi:A'\to k$ (the "slice of $Vect$" definition).  The affine space itself (the set being regarded as equipped with affine-space structure) is the fiber $\pi^{-1}(1)$.
 
 +-- {: .query}
 [[Mike Shulman]]: I think there should also be a definition of the form "an affine space is a [[projective space]]" with a distinguished line called "infinity", which should also be equivalent to a "synthetic" description involving points and lines and incidence axioms.  This definition would not fix the field $k$ at the outset, but rather recover it synthetically using cross-ratios.  Accordingly, it ought to define an equivalent groupoid to the groupoid of pairs $(k,A)$ where $k$ is a field and $A$ is an affine space over $A$.  I don't know how one could recover the non-invertible affine transformations from it directly.
@@ -164,12 +164,13 @@ $$
 
 #### Slice of $Vect$
 
-Given an affine space $A$ (with any other definition), the corresponding $\pi:A'\to k$ is constructed as follows.  Let $A' = 1 \sqcup A$, where $\sqcup$ is the coproduct in affine spaces (akin to a simplicial [[join]]), $1$ is the [[terminal object|terminal]] affine space, and $\pi$ is the composite of $1 \sqcup !: 1 \sqcup A \to 1 \sqcup 1$ with a natural identification $\mu: 1 \sqcup 1 \cong k$.  Both $1 \sqcup !$ and $\mu$ which are morphisms of $Aff$ may be regarded as morphisms of $1 \downarrow Aff \simeq Vect$ (pointed affine spaces are vector spaces) if we let the first inclusion $i_0: 1 \to 1 \sqcup 1$ be the pointing of $1 \sqcup 1$ and $0: 1 \to k$ the pointing of $k$ and define $\mu$ by $\mu \circ i_0 = 0$, $\mu \circ i_1 = 1$ (the element $1 \in k$). (So $\mu$ is like two ends of a meter stick used to set up coordinates on the line $k$.)
+(This gives definition 10.) 
+
+Given an affine space $A$ (with any other definition but number 10), the corresponding $\pi:A'\to k$ is constructed as follows.  Let $A' = 1 \sqcup A$, where $\sqcup$ is the coproduct in affine spaces (akin to a simplicial [[join]]), $1$ is the [[terminal object|terminal]] affine space, and $\pi$ is the composite of $1 \sqcup !: 1 \sqcup A \to 1 \sqcup 1$ with a natural identification $\mu: 1 \sqcup 1 \cong k$.  Both $1 \sqcup !$ and $\mu$ which are morphisms of $Aff$ may be regarded as morphisms of $1 \downarrow Aff \simeq Vect$ (pointed affine spaces are vector spaces) if we let the first inclusion $i_0: 1 \to 1 \sqcup A$ be the pointing of $1 \sqcup A$ and $0: 1 \to k$ the pointing of $k$ and define $\mu$ by $\mu \circ i_0 = 0$, $\mu \circ i_1 = 1$ (the element $1 \in k$). (So $\mu$ is like two ends of a meter stick used to set up coordinates on the line $k$.)
 
 Conversely, given $\pi:A'\to k$, the fiber $\pi^{-1}(1)$ naturally acquires a "vector-valued difference" affine space structure by simple subtraction in the vector space $A'$, where the vector space of displacements is $V = \pi^{-1}(0)$.
 
 Note that this definition embeds the category $Aff$ of (inhabited) affine spaces fully-faithfully in the [[slice category]] $Vect/k$.  The objects of $Vect/k$ not in $Aff$ are those of the form $0:V\to k$, which form a category equivalent to $Vect$ itself.  Moreover, there are no morphisms from objects of $Aff$ to objects not in $Aff$; while by the above construction, a morphism from $0:V\to k$ to an affine space $\pi:A'\to k$ is just a map from $V$ to the vector space of displacements of $A$.  Hence, $Vect/k$ is equivalent to the (dual) [[cograph of a functor|cograph]] of $D:Aff\to Vect$.
-
 
 ### Closed monoidal structure {#ClosedMonoidal} 
 
