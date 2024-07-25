@@ -810,9 +810,13 @@ The [[geometric quantization]] and [[path integral]] [[quantization]] of Chern-S
  
 and also, indepndently at the same time
 
-* [[Jürg Fröhlich]], C. King, _The Chern-Simons theory and knot polynomials_, Comm. Math. Phys. **126** 1 (1989) 167-199 &lbrack;[euclid:1104179728](https://projecteuclid.org/euclid.cmp/1104179728)&rbrack;
+* [[Jürg Fröhlich]], C. King, _The Chern-Simons theory and knot polynomials_, Comm. Math. Phys. **126** 1 (1989) 167-199 &lbrack;[doi:10.1007/BF02124336](https://doi.org/10.1007/BF02124336), [euclid:1104179728](https://projecteuclid.org/euclid.cmp/1104179728)&rbrack;
 
-It derives its name from the [[Chern-Simons forms]] that were originally introduced in 
+generalizing the discussion of abelian [[Wilson loop]] observables previously given by hupf
+
+* [[Alexander M. Polyakov]]: *Fermi-Bose transmutation induced by gauge fields*, Modern Physics Letters A **03** 03 (1988) 325-328 &lbrack;[doi:10.1142/S0217732388000398](https://doi.org/10.1142/S0217732388000398)&rbrack;
+
+It derives its name from the *[[Chern-Simons forms]]* that were originally introduced in 
 
 * [[Shiing-shen Chern]], [[James Simons]], _[[Characteristic forms and geometric invariants]]_, The Annals of Mathematics, Second Series **99** 1 (1974) &lbrack;[jstor:1971013](http://www.jstor.org/stable/1971013)&rbrack;
 
