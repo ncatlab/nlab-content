@@ -9,6 +9,7 @@
 =--
 =--
 
+
 \tableofcontents
 
 ## Idea
@@ -46,10 +47,16 @@ R_{F,f} \subseteq F(c,c) \times F(c',c').
 \]
 From this point of view, the family $\{\alpha_c:F(c,c)\to G(c,c)\}_c$ is strong dinatural if and only if it preserves these relations,  i.e. 
 \[
-(x,y)\in R_{F,f} \implies (\alpha_{c}(x),\alpha_{c'}(y))\in R_{G,f}
+  (x,y) \in R_{F,f} 
+  \;implies\; 
+  \big(
+    \alpha_{c}(x), \alpha_{c'}(y)
+  \big) 
+  \in R_{G,f}
+  \,.
 \]
 
-As shown in Vene (2006), for a class of types, the usual relational interpretation corresponds to a strong dinaturality interpretation. 
+As shown by [Vene (2006)](#Vene06), for a class of types, the usual relational interpretation corresponds to a strong dinaturality interpretation. 
 
 However, the strong dinatural transformations don't form a [[Cartesian closed category]] in general (e.g. Uustalu 2010) so might not serve to interpret all types, including [[function type]]s. 
 
@@ -63,25 +70,24 @@ Originally introduced (as "strong dinatural transformations") in Definition 2.7 
 
 Further developments:
 
-* Philip S Mulry. *Strong monads, algebras and fixed points*. Applications of Categories in Computer Science 177 (1992), 202–216
+* [[Philip S. Mulry]]: *Strong monads, algebras and fixed points*, Applications of Categories in Computer Science **177** (1992) 202–216 &lbrack;[doi:10.1017/CBO9780511525902.012](https://doi.org/10.1017/CBO9780511525902.012)&rbrack;
 
-* Robert Paré and Leopoldo Román. *Dinatural numbers*.  Journal of Pure and Applied Algebra 128, 1 (1998), 33–92
+* [[Robert Paré]], Leopoldo Román: *Dinatural numbers*.  Journal of Pure and Applied Algebra **128** 1 (1998) 33–92 \[<a href="https://doi.org/10.1016/S0022-4049(97)00036-4">doi:10.1016/S0022-4049(97)00036-4</a>\]
 
-* A. Eppendahl, *Parametricity and Mulry's Strong Dinaturality*, <https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/4501/768_Eppendahl_12-1999.pdf?sequence=1>
+* {#Eppendahl99} A. Eppendahl, *Parametricity and Mulry's Strong Dinaturality*, Department of Computer Science Technical Report No 768, Queen Mary  (1999) &lbrack;[pdf](https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/4501/768_Eppendahl_12-1999.pdf), ISSN:1369-1961&rbrack;
 
-* Varmo Vene. *Parametricity and Strong Dinaturality.* (2006). <https://www.ioc.ee/~tarmo/tday-voore/vene-slides.pdf> ([at archive.org](https://web.archive.org/web/20220119182836/https://www.ioc.ee/~tarmo/tday-voore/vene-slides.pdf) )
+* {#Vene06} [[Varmo Vene]]: *Parametricity and Strong Dinaturality*, talk notes (2006) &lbrack;[[Vene-StrongDinaturality.pdf:file]], archive:[pdf](https://web.archive.org/web/20220119182836/https://www.ioc.ee/~tarmo/tday-voore/vene-slides.pdf)&rbrack;
 
-* Jennifer Hackett and Graham Hutton. *Programs for cheap!*. In 2015 30th Annual ACM/IEEE Symposium on Logic in
-Computer Science. IEEE, 115–126.
+* Jennifer Hackett, Graham Hutton: *Programs for cheap!*, In 2015 30th Annual ACM/IEEE Symposium on Logic in
+Computer Science. IEEE, 115–126 &lbrack;[doi:10.1109/LICS.2015.21](https://doi.org/10.1109/LICS.2015.21)&rbrack;
 
-* Tarmo Uustalu. *Strong dinaturality and initial algebras.* 12th Nordic Wksh. on Programming Theory, NWPT 2 (2000).
+* [[Tarmo Uustalu]]: *Strong dinaturality and initial algebras* 12th Nordic Wksh. on Programming Theory, NWPT 2 (2000).
 
-* Tarmo Uustalu. *A Note on Strong Dinaturality, Initial Algebras and Uniform Parameterized Fixpoint Operators*. In
-FICS 2010. 77–82.
+* [[Tarmo Uustalu]]: *A Note on Strong Dinaturality, Initial Algebras and Uniform Parameterized Fixpoint Operators*, In: FICS 2010. 77–82 &lbrack;[[Uustalu-StrongDinaturality.pdf:file]], [pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=33b51af3556ee8ebdc9fa7d45a3384015a3d727a)&rbrack;
 
 Strong dinatural transformations are called **paranatural transformations** in:
 
-* [[Jacob Neumann]], *Paranatural Category Theory*, 2023, [arxiv:2307.09289](https://arxiv.org/abs/2307.09289)
+* [[Jacob Neumann]], *Paranatural Category Theory*, 2023, &lbrack;[arxiv:2307.09289](https://arxiv.org/abs/2307.09289)&rbrack;
 
 [[!redirects strong dinatural transformations]]
 
