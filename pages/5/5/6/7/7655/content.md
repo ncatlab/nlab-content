@@ -1,11 +1,17 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Witold_Hurewicz)
 
+* [[Karol Borsuk]]: *Witold Hurewicz -- Life and Work*, in: *Handbook of the History of General Topology. History of Topology, vol 1.*, Springer (1997) &lbrack;[doi:10.1007/978-94-017-0468-7_6](https://doi.org/10.1007/978-94-017-0468-7_6)&rbrack;
+
 ## Selected writings
 
-Introducing the [[Hurewicz theorem]]:
+Introducing the notion of higher [[homotopy groups]]:
 
-* {#Hurewicz35} [[Witold Hurewicz]], *Beiträge zur Topologie der Deformationen (I. Höherdimensionale Homotopiegruppen)*, [[Koninklijke Akademie van Wetenschappen]] **38** (1935) 112–119.  $[$[pdf](https://dwc.knaw.nl/DL/publications/PU00016667.pdf)$]$
+* [[Witold Hurewicz]]: *Beiträge zur Topologie der Deformationen (I. Höherdimensionale Homotopiegruppen)*, Proc. Akad. Wet. Amsterdam **38** (1935) 112–119 &lbrack;[pdf](https://dwc.knaw.nl/DL/publications/PU00016667.pdf), [[Hurewicz-BeitraegeI.pdf:file]]&rbrack;
+
+and the [[Hurewicz theorem]] relating these to [[homology groups]]:
+
+* [[Witold Hurewicz]]: *Beiträge zur Topologie der Deformationen (II. Homotopie- und Homologigruppen)*, Proc. Akad. Wet. Amsterdam **38** (1935) 521–528 &lbrack;[pdf](https://dwc.knaw.nl/DL/publications/PU00016726.pdf), [[Hurewicz-BeitraegeII.pdf:file]]&rbrack;
 
 Introducing [[compactly generated topological spaces]]:
 
@@ -17,7 +23,7 @@ Origin of the notion of [[Hurewicz fibrations]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Hurewicz theorem]]
 
