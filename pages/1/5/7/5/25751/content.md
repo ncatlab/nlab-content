@@ -66,7 +66,11 @@ For the terminology we use see:
 
 For the example of [[simplicially enriched category]] example see for instance:
 
-* {#Riehl18} [[Emily Riehl]], Prop. 1.2.3 in: _Homotopy coherent structures_, Expositions in Theory and Applications of Categories, **1** (2023) 1-31 &lbrack;[arXiv:1801.07404](https://arxiv.org/abs/1801.07404), [tac:te1](http://www.tac.mta.ca/tac//expositions/articles/1/te1abs.html)&rbrack; 
+* {#Riehl18} [[Emily Riehl]], Prop. 1.2.3 in: _Homotopy coherent structures_, Expositions in Theory and Applications of Categories, **1** (2023) 1-31 &lbrack;[arXiv:1801.07404](https://arxiv.org/abs/1801.07404), [tac:te1](http://www.tac.mta.ca/tac//expositions/articles/1/te1abs.html)&rbrack;
+
+A generalisation of locally graded categories to skew-enrichment may be found in the following under the name **skew-proactegories**:
+
+* [[Alexander Campbell]], _Skew-enriched categories_, Applied Categorical Structures 26.3 (2018): 597-615.
 
 
 [[!redirects locally graded categories]]
