@@ -35,6 +35,26 @@ If the pullback $F(c,c) \times_{F(c,c')} F(c',c')$ exists in $D$, it suffices to
 
 By comparison, a [[dinatural transformation]] asserts this condition *only* when $W = F(c',c)$ with the span consisting of $F(c',f)$ and $F(f,c)$.
 
+## Connection to relational model
+
+We can regard strong dinatural transformations as a variation on the relational approach to parametric [[polymorphism]], as follows. 
+
+If $F:C^{op}\times C\to D$ and $D$ has finite limits then for every $f:c\to c'$ in $C$ we can regard the pullback $F(c,c) \times_{F(c,c')} F(c',c')$ as a relation
+
+\[
+R_{F,f} \subseteq F(c,c) \times F(c',c').
+\]
+From this point of view, the family $\{\alpha_c:F(c,c)\to G(c,c)\}_c$ is strong dinatural if and only if it preserves these relations,  i.e. 
+\[
+(x,y)\in R_{F,f} \implies (\alpha_{c}(x),\alpha_{c'}(y))\in R_{G,f}
+\]
+
+As shown in Vene (2006), for a class of types, the usual relational interpretation corresponds to a strong dinaturality interpretation. 
+
+However, the strong dinatural transformations don't form a [[Cartesian closed category]] in general (e.g. Uustalu 2010) so might not serve to interpret all types, including [[function type]]s. 
+
+
+
 ## References
 
 Originally introduced (as "strong dinatural transformations") in Definition 2.7 of:
@@ -49,7 +69,7 @@ Further developments:
 
 * A. Eppendahl, *Parametricity and Mulry's Strong Dinaturality*, <https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/4501/768_Eppendahl_12-1999.pdf?sequence=1>
 
-* Varmo Vene. *Parametricity and Strong Dinaturality.* (2006). <https://www.ioc.ee/~tarmo/tday-voore/vene-slides.pdf>
+* Varmo Vene. *Parametricity and Strong Dinaturality.* (2006). <https://www.ioc.ee/~tarmo/tday-voore/vene-slides.pdf> ([at archive.org](https://web.archive.org/web/20220119182836/https://www.ioc.ee/~tarmo/tday-voore/vene-slides.pdf) )
 
 * Jennifer Hackett and Graham Hutton. *Programs for cheap!*. In 2015 30th Annual ACM/IEEE Symposium on Logic in
 Computer Science. IEEE, 115–126.
@@ -57,7 +77,7 @@ Computer Science. IEEE, 115–126.
 * Tarmo Uustalu. *Strong dinaturality and initial algebras.* 12th Nordic Wksh. on Programming Theory, NWPT 2 (2000).
 
 * Tarmo Uustalu. *A Note on Strong Dinaturality, Initial Algebras and Uniform Parameterized Fixpoint Operators*. In
-FICS. 77–82.
+FICS 2010. 77–82.
 
 Strong dinatural transformations are called **paranatural transformations** in:
 
