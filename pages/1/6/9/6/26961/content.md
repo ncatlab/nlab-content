@@ -17,7 +17,8 @@
 ## Idea
 
 In [[probability theory]], *iid* is shorthand for *independent and identically distributed*, and it's mostly used for [[random variables]].
-They are a mathematical formalization of the idea of repeated, independent coin flips, or dice rolls: they are independent events, but the [[probability]] of each single variable (for example, each single coin flip) follows the same distribution.
+
+The notion of such random variable formalizes the idea of repeated independent coin flips or dice rolls: they are independent events in that the [[probability]] of each event (for example, each single coin flip) follows the same distribution.
 
 Another name for the same process is *Bernoulli process*.
 
@@ -28,7 +29,10 @@ Let $X$ be a [[measurable space]].
 [[random variable|Random variables]] or [[random elements]] in a [[sequence]] $f_n \colon \Omega\to X$ on a [[probability space]] $(\Omega,\mu)$ are said to be **iid**, or **independent and identically distributed**, if their [[joint distribution]] $p$ is in the form 
 $q\otimes q\otimes\dots\otimes q$ for some measure $q$ on $X$. Equivalently, if for all [[measurable subsets]] $A_1,\dots,A_n$ of $X$, 
 $$
-p(A_1\times\dots\times A_n) \;=\; q(A_1)\cdots q(A_n)\,.
+  p(A_1\times\dots\times A_n) 
+   \;=\; 
+  q(A_1)\cdots q(A_n)
+  \,.
 $$
 
 A similar definition can be given for [[infinite products]] as well, by means of the [[Kolmogorov extension theorem]].
@@ -84,6 +88,16 @@ In Markov categories, one can model iid samples using the *copy map* (see at [[M
 
 * [[ergodic system]], [[Bernoulli shifts]]
 
+
+## References
+
+See also:
+
+* Wikipedia, *<a href="https://en.wikipedia.org/wiki/Independence_(probability_theory)">Independence (probability theory)</a>*
+
+* ProofWiki: *[Definition:Independent Random Variables](https://proofwiki.org/wiki/Definition:Independent_Random_Variables)*
+
+* ProofWiki: *[Condition for Independence from Product of Expectations](https://proofwiki.org/wiki/Condition_for_Independence_from_Product_of_Expectations)*
 
 category: probability
 
