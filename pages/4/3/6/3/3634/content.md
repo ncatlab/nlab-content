@@ -36,8 +36,12 @@ On [[shape theory]]:
 
 * [[Karol Borsuk]], [[Jerzy Dydak]], _What is the theory of shape?_, Bulletin of the Australian Mathematical Society, 1980, 22(2), 161-198, ([doi:10.1017/S000497270000647X](https://doi.org/10.1017/S000497270000647X))
 
+On [[Witold Hurewicz]]:
 
-## Related $n$Lab entries
+* [[Karol Borsuk]]: *Witold Hurewicz -- Life and Work*, in: *Handbook of the History of General Topology. History of Topology, vol 1.*, Springer (1997) &lbrack;[doi:10.1007/978-94-017-0468-7_6](https://doi.org/10.1007/978-94-017-0468-7_6)&rbrack;
+
+
+## Related entries
 
 * [[shape theory]]
 
