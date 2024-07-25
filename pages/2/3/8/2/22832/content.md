@@ -9,6 +9,11 @@ On [[comonads in computer science]]:
 
 * {#UustaluVene08}  [[Tarmo Uustalu]], [[Varmo Vene]], *Comonadic Notions of Computation*, Electronic Notes in Theoretical Computer Science **203** 5 (2008) 263-284 &lbrack;[doi:10.1016/j.entcs.2008.05.029](https://doi.org/10.1016/j.entcs.2008.05.029)&rbrack;
 
+On [[strong dinatural transformations]]:
+
+* [[Tarmo Uustalu]]: *A Note on Strong Dinaturality, Initial Algebras and Uniform Parameterized Fixpoint Operators*, In: FICS 2010. 77–82 &lbrack;[[Uustalu-StrongDinaturality.pdf:file]], [pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=33b51af3556ee8ebdc9fa7d45a3384015a3d727a)&rbrack;
+
+
 Introducing [[relative monad|relative]] [[monads in computer science]]:
 
 * [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
