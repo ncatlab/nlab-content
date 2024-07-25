@@ -7,6 +7,8 @@ Introducing the notion of [[strong dinatural transformations]]:
 
 * [[Philip S. Mulry]], *Strong Monads, Algebras and Fixed Points*, in: _Applications of Categories in Computer Science_, London Mathematical Society Lecture Note Series **177** (1991) 202–216 &lbrack;[doi:10.1017/CBO9780511525902.012](https://doi.org/10.1017/CBO9780511525902.012)&rbrack;
 
+* [[Philip S. Mulry]]: *Strong monads, algebras and fixed points*, Applications of Categories in Computer Science **177** (1992) 202–216 &lbrack;[doi:10.1017/CBO9780511525902.012](https://doi.org/10.1017/CBO9780511525902.012)&rbrack;
+
 On [[monads in computer science]]:
 
 * [[Philip S. Mulry]]: *Monads in semantics*, Electronic Notes in Theoretical Computer Science **14** (1998) 275-286 \[<a href="https://doi.org/10.1016/S1571-0661(05)80241-5">doi:10.1016/S1571-0661(05)80241-5</a>\]
