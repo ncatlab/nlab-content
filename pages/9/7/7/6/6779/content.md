@@ -35,7 +35,7 @@ The first nonzero [[homotopy group]] and [[ordinary homology|ordinary]]/[[singul
 For $(X,x)$ a [[pointed object|pointed]] [[topological space]], the **Hurewicz homomorphism** is the [[function]]
 
 $$
-  \Phi : \pi_k(X,x) \to H_k(X)
+  \Phi \;\colon\; \pi_k(X,x) \to H_k(X)
 $$
 
 from the $k$th [[homotopy group]] of $(X,x)$ to the $k$th [[singular homology]] group defined by sending
