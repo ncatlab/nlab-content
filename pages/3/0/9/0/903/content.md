@@ -254,6 +254,10 @@ As opposed to [[cohomology]] where people are used to talking about [[generalize
 
 ### General
 
+The oiginal definition:
+
+* [[Witold Hurewicz]]: *Beiträge zur Topologie der Deformationen (I. Höherdimensionale Homotopiegruppen)*, Proc. Akad. Wet. Amsterdam **38** (1935) 112–119 &lbrack;[pdf](https://dwc.knaw.nl/DL/publications/PU00016667.pdf), [[Hurewicz-BeitraegeI.pdf:file]]&rbrack;
+
 On the early history of the notion of the higher homotopy groups (beyond the [[fundamental group]]):
 
 * [[Peter Hilton]], p. 289 (9 of 11) in: *Subjective History of Homology and Homotopy Theory*, Mathematics Magazine **61** 5 (1988) 282-291 &lbrack;[doi:10.2307/2689545](https://doi.org/10.2307/2689545)&rbrack;
