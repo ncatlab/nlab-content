@@ -248,7 +248,7 @@ Suppose that there is a univalent Tarski universe closed under dependent product
 \begin{proof}
 The type of all $U$-small propositions $\mathrm{Prop}_U$ is a [[sigma-frame|$\sigma$-frame]], and thus the homotopy-initial $\sigma$-frame $\Sigma$ is a sub-$\sigma$-frame of $\mathrm{Prop}_U$, with the following [[embedding of types]]
 $$\mathrm{bool} \hookrightarrow \Sigma \hookrightarrow \mathrm{Prop}_U$$
-The first embedding is a [[uniqueness quantifier|unique]] [[lattice]] [[homomorphism]], since the boolean domain is the homotopy-initial lattice, and the second embedding is a [[uniqueness quantifier|unique]] $\sigma$-frame homomorphism, by definition of homotopy-initial $\sigma$-frame.
+The first embedding is a [[uniqueness quantifier|unique]] [[distributive lattice]] [[homomorphism]], since the boolean domain is the homotopy-initial distributive lattice, and the second embedding is a [[uniqueness quantifier|unique]] $\sigma$-frame homomorphism, by definition of homotopy-initial $\sigma$-frame.
 Excluded middle for $U$ implies that $\mathrm{Prop}_U$ is [[equivalence of types|equivalent]] to the [[boolean domain]] and to $\Sigma$, implying that the boolean domain is the initial [[sigma-frame|$\sigma$-frame]], which then implies $\mathrm{LPO}_\mathbb{N}$. 
 \end{proof}
 
