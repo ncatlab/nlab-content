@@ -1,14 +1,16 @@
 [[!redirects Vladimir Fock]]
 
-> not to be confused with [[Vladimir Aleksandrovich Fock]], the Soviet Russian physicist
+> not to be confused with his grandfather [[Vladimir Aleksandrovich Fock]], the Soviet Russian physicist
 
 ***
 
-Vladimir V. Fock is professor of mathematics at Institut de Recherche Math&#233;matique Avanc&#233;e in Strasbourg. Collaborating with [[Alexander Goncharov]].
+Vladimir V. Fock is professor of mathematics at Institut de Recherche Math&#233;matique Avanc&#233;e in Strasbourg. Collaborating with [[Alexander Goncharov]]. 
 
 * [ResearchGate page](https://www.researchgate.net/profile/Vladimir-Fock)
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=wCq6BBsAAAAJ&hl=en)
+
+* Mathematics Genealogy [page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=118189)
 
 ## Selected writings
 
@@ -25,4 +27,4 @@ On [[Poisson-Lie groups]]:
 
 
 category: people
-
+[[!redirects V. V. Fock]]
