@@ -247,7 +247,15 @@ To compare them to the first construction, observe that for a fixed $\mathrm{e} 
 Finally, the second construction is manifestly functorial.
 \end{proof}
 
+The following proposition expands on the fact that a group is the same as a [[pointed]] heap, i.e. a heap with a chosen element:
 
+\begin{proposition}
+The category of groups is equivalent to the [[slice category]]
+$1 \downarrow \mathrm{Heap}$ where $1$ is the terminal heap and $\mathrm{Heap}$ is the category of heaps (Def. \ref{CategoryOfHeaps}).
+\end{proposition}
+\begin{proof}
+The one-element set $1$ is a heap in a unique way, and for any heap $H$, any function $f: 1 \to H$ or $f: H \to 1$ is a heap homomorphism, so $1$ is the terminal object in $\mathrm{Heap}$ and $1 \downarrow \mathrm{Heap}$ is the category of pointed heaps.  As noted in the proof of the previous proposition, a heap $H$ with a chosen point $\mathrm{e}$ becomes a group with multiplication $a \cdot b \,\coloneqq\, t(a, \mathrm{e} ,b)$, and a morphism of pointed heaps then becomes a group homomorphism.  This gives a functor $1 \downarrow \mathrm{Heap} \to \mathrm{Grp}$, which is an equivalence thanks to the functor $\mathrm{Grp} \to 1 \downarrow \mathrm{Heap}$ sending any group to the corresponding pointed heap.
+\end{proof}
 
 ### Relation to torsors
  {#HeapsAndTorsors}
