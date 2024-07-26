@@ -244,6 +244,12 @@ course is also immediately checked explicitly.
 
   * [[over-(∞,1)-topos]]
 
+## References
+
+Formalization in [[cubical Agda]]:
+
+* [[1lab]]: *[Slice categories](https://1lab.dev/Cat.Instances.Slice.html)*
+
 [[!redirects overcategory]]
 [[!redirects over categories]]
 [[!redirects over-category]]
