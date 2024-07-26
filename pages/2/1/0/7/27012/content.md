@@ -14,7 +14,7 @@
 ## Group completed configuration spaces of unlabeled points
  {#GroupCompletedConfigurationSpaces}
 
-We briefly review Okuyama's configuration-spaces of "charged strings" as models for the [[group completion]] of plain [[configuration spaces of points]] without labels (or rather: with labels in [[0-sphere|$S^0$]]), pointing out how the equivalence relations involved have a natural interpretation in terms of [[open string]] [[worldsheets]]:
+We briefly review [Okuyama's](#Okuyama05) configuration-spaces of "charged strings" as models for the [[group completion]] of plain [[configuration spaces of points]] without labels (or rather: with labels in [[0-sphere|$S^0$]]), pointing out how the equivalence relations involved have a natural interpretation in terms of [[open string]] [[worldsheets]]:
 
 * *[Charged particles and strings](#ChargedParticlesAndStrings)*
 
@@ -437,6 +437,10 @@ Under the evident translation between "framing" in the above sense of *[[framed 
 * {#McDuff75} [[Dusa McDuff]], *Configuration spaces of positive and negative particles*, Topology **14** 1 (1975) 91-107 \[<a href="https://doi.org/10.1016/0040-9383(75)90038-5">doi:10.1016/0040-9383(75)90038-5</a>, [pdf](https://core.ac.uk/download/pdf/81183648.pdf)\]
 
 * {#Okuyama05} [[Shingo Okuyama]]: *The space of intervals in a Euclidean space*, Algebr. Geom. Topol. **5** (2005) 1555-1572 &lbrack;[arXiv:math/0511645](https://arxiv.org/abs/math/0511645), [doi:10.2140/agt.2005.5.1555](https://doi.org/10.2140/agt.2005.5.1555)&rbrack;
+
+The above discussion follows:
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: §4.1 in: *[[schreiber:Flux Quantization on Holographic M5-Branes]]*
 
 
 
