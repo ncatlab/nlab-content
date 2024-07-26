@@ -57,7 +57,10 @@ Earlier indication for this had come from the observation [Witten92](#Witten92) 
 * [[categorification in representation theory]]
 
 
+
 ## References
+
+### General
 
 Exposition:
 
@@ -103,41 +106,7 @@ Review and lecture notes:
 * [[Mikhail Khovanov]], Robert Lipshitz, _Categorical lifting of the Jones polynomial: a survey_, Bulletin (New Series) of the American Mathematical Society (2022) &lbrack;[doi:10.1090/bull/1772](https://doi.org/10.1090/bull/1772)&rbrack;
 
 
-A proposal for a 4-dimensional [[quantum field theory]] whose [[observable]]s are given by Khovanov homology is discussed in
-
-* {#Witten11} [[Edward Witten]], _Fivebranes and Knots_, Quantum Topology, Volume 3, Issue 1, 2012, pp. 1-137 ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216), [doi:10.4171/QT/26](https://www.ems-ph.org/journals/show_abstract.php?issn=1663-487X&vol=3&iss=1&rank=1))
-
-
-based on
-
-* [[Sergei Gukov]], [[Albert Schwarz]], [[Cumrun Vafa]], _Khovanov-Rozansky homology and topologicals strings_ , Lett. Math. Phys. __74__ (2005) 53-74, [arXiv:hep-th/0412243](http://arxiv.org/abs/hep-th/0412243), [MR2007a:57014](http://www.ams.org/mathscinet-getitem?mr=2193547), [doi](http://www.ams.org/leavingmsn?url=http://dx.doi.org/10.1007/s11005-005-0008-8) 
-{#GukovSchwarzVafa04}
-
-and earlier hints in
-
-* [[Edward Witten]], _Chern-Simons gauge theory as a string theory_, The Floer memorial volume, 637&#8211;678, Progr. Math. __133__, Birkh&#228;user 1995, [arXiv/hep-th/9207094](http://arxiv.org/abs/hep-th/9207094), [MR97j:57052](http://www.ams.org/mathscinet-getitem?mr=1362846)
-{#Wittem92}
-
-Lecture notes on this and its relation to the [[Jones polynomial]] are in
-
-* [[Edward Witten]], _A New Look At The Jones Polynomial of a Knot_, Clay Conference, Oxford, October 1, 2013 ([[WittenOnJonesPolynomial2013.pdf:file]])
-
-* [[Edward Witten]], _Khovanov Homology And Gauge Theory_, Clay Conference, Oxford, October 1, 2013 ([[WittenOnKhovanovHomology2013.pdf:file]])
-
-
-See also 
-
-* [[Edward Witten]], _Khovanov homology and gauge theory_, [arxiv/1108.3103](http://arxiv.org/abs/1108.3103)
-
-* {#Witten11} [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
- 
-
-Related $n$Caf&eacute; discussions: [categorification in Glasgow](http://golem.ph.utexas.edu/category/2008/11/categorification_in_glasgow.html), [Kamnitzer on categorifying tangles](http://golem.ph.utexas.edu/category/2009/04/kamnitzer_on_categorifying_tan.html), [link homology in Paris](http://golem.ph.utexas.edu/category/2009/02/link_homology_in_paris.html), [4d QFT and Khovanov homology](http://golem.ph.utexas.edu/category/2011/02/4d_qft_for_khovanov_homology.html)
-
-Parts of the above remarks on the QFT interpretation makes use of comments provided  by [[Jacques Distler]] in <a href="http://golem.ph.utexas.edu/category/2011/02/4d_qft_for_khovanov_homology.html#comments">this blog discussion</a>.
-
-* [[Dror Bar-Natan]], _Khovanov's homology for tangles and cobordisms_, 
-Geom. Topol. __9__ (2005), 1443&#8211;1499, [MR2006g:57017](http://www.ams.org/mathscinet-getitem?mr=2174270)
+* [[Dror Bar-Natan]], _Khovanov's homology for tangles and cobordisms_,  Geom. Topol. __9__ (2005), 1443&#8211;1499, [MR2006g:57017](http://www.ams.org/mathscinet-getitem?mr=2174270)
 
 See also
 
@@ -162,6 +131,26 @@ Reviewed in:
 
 * [[Mikhail Khovanov]], *Universal construction, foams and link homology*, lecture series at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KhovanovMar2023), video 1:[YT](https://www.youtube.com/watch?v=Urh1NNcbCcc), 2:[YT](https://www.youtube.com/watch?v=SPBcAAmGT88)&rbrack;
 
+
+A proposal to incorporate the geometry of knots to Khovanov homology is in
+
+* Li Shen, Jian Liu, Guo-Wei Wei. *Evolutionary Khovanov homology* (2024). ([arXiv:2406.02821](https://arxiv.org/abs/2406.02821)).
+
+See also:
+
+* Khaled Qazaqzeh, [[Nafaa Chbili]], *On Khovanov Homology of Quasi-Alternating Links*,  Mediterr. J. Math. **19** 104 (2022) &lbrack;[arXiv:2009.08624](https://arxiv.org/abs/2009.08624), [doi:10.1007/s00009-022-02006-5](https://doi.org/10.1007/s00009-022-02006-5)&rbrack;
+
+* [[Nafaa Chbili]], *Quasi-alternating links, Examples and obstructions*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#ChbiliMar2023)&rbrack;
+
+
+
+[[!include knot invariants via topological strings and 5-branes -- references]]
+
+
+Related $n$Caf&eacute; discussions: [categorification in Glasgow](http://golem.ph.utexas.edu/category/2008/11/categorification_in_glasgow.html), [Kamnitzer on categorifying tangles](http://golem.ph.utexas.edu/category/2009/04/kamnitzer_on_categorifying_tan.html), [link homology in Paris](http://golem.ph.utexas.edu/category/2009/02/link_homology_in_paris.html), [4d QFT and Khovanov homology](http://golem.ph.utexas.edu/category/2011/02/4d_qft_for_khovanov_homology.html)
+
+Parts of the above remarks on the QFT interpretation makes use of comments provided  by [[Jacques Distler]] in <a href="http://golem.ph.utexas.edu/category/2011/02/4d_qft_for_khovanov_homology.html#comments">this blog discussion</a>.
+
 More on relation to [[topological quantum field theory]]:
 
 * [[Nitu Kitchloo]], *Symmetry Breaking and Link Homologies I* &lbrack;[arXiv:1910.07443](https://arxiv.org/abs/1910.07443)&rbrack;
@@ -174,15 +163,7 @@ Relation to [[gauge theory]]:
 
 * [[Nitu Kitchloo]], *Symmetry breaking and homotopy types for link homologies*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KitchlooMar2023), video:[YT](https://www.youtube.com/watch?v=StRyIjpER9I)&rbrack;
 
-A proposal to incorporate the geometry of knots to Khovanov homology is in
 
-* Li Shen, Jian Liu, Guo-Wei Wei. *Evolutionary Khovanov homology* (2024). ([arXiv:2406.02821](https://arxiv.org/abs/2406.02821)).
-
-See also:
-
-* Khaled Qazaqzeh, [[Nafaa Chbili]], *On Khovanov Homology of Quasi-Alternating Links*,  Mediterr. J. Math. **19** 104 (2022) &lbrack;[arXiv:2009.08624](https://arxiv.org/abs/2009.08624), [doi:10.1007/s00009-022-02006-5](https://doi.org/10.1007/s00009-022-02006-5)&rbrack;
-
-* [[Nafaa Chbili]], *Quasi-alternating links, Examples and obstructions*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#ChbiliMar2023)&rbrack;
 
 
 [[!redirects Khovanov homologies]]
