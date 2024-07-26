@@ -46,9 +46,9 @@ of maps in a [[model category]]: [[weak equivalences]], [[cofibrations]], [[acyc
 
 Together with its [[adjoint functor|adjoint]]—[[geometric realization]] $|-| : sSet \to Top$—the functor $Sing : Top \to sSet$ is part of the [[Quillen equivalence]] between the [[model structure on topological spaces]] and the [[model structure on simplicial sets]] that is sometimes called the [[homotopy hypothesis]]-theorem.
 
-### Relation to ordinary (co)homology
+### Relation to singular homology
 
-Forming from the singular simplicial complex $Sing(X)$ first the free [[simplicial abelian group]] $\mathbb{Z}[Sing(X)]$ and then under the [[Dold-Kan correspondence]] the corresponding [[normalized chain complex]] yields the [[chain complex]] of (normalized!) singular chains, which computes the [[singular homology]] of $X$. 
+Forming from the singular simplicial complex $S_\bullet(X)$ first the free [[simplicial abelian group]] $\mathbb{Z}[S_\bullet(X)]$ and then under the [[Dold-Kan correspondence]] the corresponding [[normalized chain complex]] yields the [[chain complex]] of normalized singular chains, which computes the [[singular homology]] of $X$. 
 
 ## Related concepts
 
