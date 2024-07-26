@@ -30,6 +30,19 @@ About [[quantum dilogarithm]]
 
 * [[V. V. Fock]], [[A. B. Goncharov]], _Cluster ensembles, quantization and the dilogarithm II: The intertwiner_, arXiv:[math.QA/0702398](http://arxiv.org/abs/math/0702398)
 
+On [[Hodge theory]], [[period]]s, [[motive]]s and motivic expressions in QFT
+
+* A. B. Goncharov, _Periods and mixed motives_, [math.AG/0202154](http://arxiv.org/abs/math/0202154)
+* [[Alexander Goncharov]], _Regulators_, In: Algebraic K-theory Handbook ([arXiv:0407308](https://arxiv.org/abs/math/0407308))
+* A. B. Goncharov, _Polylogarithms and Motivic galois groups_, ([pdf](http://users.math.yale.edu/users/ag727/polylog.pdf))
+* A. B. Goncharov, _Hodge correlators_, [arXiv:0803.0297](https://arxiv.org/abs/0803.0297), _Hodge correlators II_, [arXiv:0807.4855](https://arxiv.org/abs/0807.4855)
+
+Monograph 
+
+* [[Nima Arkani-Hamed]], Jacob Bourjaily, Freddy Cachazo, [[Alexander Goncharov]], Alexander Postnikov, Jaroslav Trnka, _Grassmannian geometry of scattering amplitudes_, Cambridge Univ. Press 2016
+
+
+
 [[!redirects Alexander B. Goncharov]]
 [[!redirects A. B. Goncharov]]
 
