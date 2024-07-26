@@ -433,6 +433,9 @@ More in relation to [[hidden local symmetry]]:
 
 * [[Mannque Rho]], *Skyrmions and Fractional Quantum Hall Droplets Unified by Hidden Symmetries in Dense Matter* ([arXiv:2109.10059](https://arxiv.org/abs/2109.10059))
 
+Coupling to [[gravity]]:
+
+* [[Vladimir Dzhunushaliev]], [[Vladimir Folomeev]], Jutta Kunz, [[Yakov Shnir]]: *Gravitating Skyrmions with localized fermions* &lbrack;[arXiv:2407.17504](https://arxiv.org/abs/2407.17504)&rbrack;
 
 
 
