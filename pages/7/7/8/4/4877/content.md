@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Knot theory
++--{: .hide}
+[[!include knot theory - contents]]
+=--
+=--
+=--
+
+
 # Link invariants
 * table of contents
 {: toc}
@@ -15,6 +27,19 @@ A __link invariant__ is map from [[isotopy]] classes of [[links]] to any kind of
 ## Examples
 
  * [[linking number|Linking number]]
+
+## References
+
+### General
+
+See the references at *[[knot invariant]]*.
+
+
+
+[[!include knot invariants via topological strings and 5-branes -- references]]
+
+
+
 
 
 [[!redirects link invariant]]
