@@ -12,8 +12,12 @@ Venkatramani Lakshmibai (1944/5-2023)
 
 * [[Venkatramani Lakshmibai]], Komaranapuram N. Raghavan, _Standard monomial theory - Invariant theoretic approach_, Encyclopaedia of Mathematical Sciences __137__, (series: Invariant Theory and Algebraic Transformation Groups VIII), Springer 2008 [doi](https://doi.org/10.1007/978-3-540-76757-2)
 
+* [[V. Lakshmibai]], [[N. Reshetikhin]], _Quantum deformations of $SL_n/B$ and its Schubert varieties_, In: [[M. Kashiwara]], [[Tetsuji Miwa|T. Miwa]] (eds) ICM-90 Satellite Conference Proceedings. Springer, Tokyo 1991 [doi](https://doi.org/10.1007/978-4-431-68170-0_9)
+
 ## Related entries
 
 * [[standard monomial]]
 
 category: people
+
+[[!redirects V. Lakshmibai]]
