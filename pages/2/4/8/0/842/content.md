@@ -699,7 +699,7 @@ The claim then follows from the above proposition.
 +-- {: .num_prop }
 ###### Proposition
 
-For $C$ an $(\infty,1)$-category, $X : D \to C$ a diagram, $C/X$ the [[over-(∞,1)-category]] and $F : K \to C/X$ a diagram in the over-$(\infty,1)$-category, then the [[(∞,1)-limit]] $\lim_{\leftarrow} F$ in $C/X$ coincides with the $(\infty,1)$-limit $\lim_{\leftarrow} F/X$ in $C$. 
+For $C$ an $(\infty,1)$-category, $X \colon D \to C$ a [[diagram]], $C/X$ the [[over-(∞,1)-category]] and $F \colon K \to C/X$ a diagram in the over-$(\infty,1)$-category, then the [[(∞,1)-limit]] $\underset{\leftarrow}{\lim} F$ in $C/X$ coincides with the $(\infty,1)$-limit $\underset{\leftarrow}{\lim} F/X$ in $C$. 
  
 =--
 
@@ -709,49 +709,53 @@ For $C$ an $(\infty,1)$-category, $X : D \to C$ a diagram, $C/X$ the [[over-(∞
 Modelling $C$ as a [[quasi-category]] we have that $C/X$ is given by the [[simplicial set]]
 
 $$
-  C/X : [n] \mapsto Hom_X([n] \star D, C) 
+  C/X 
+    \;\colon\; 
+  [n] \mapsto Hom_X\big([n] \star D, C\big) 
   \,,
 $$
 
-where $\star$ denotes the [[join of simplicial sets]]. The limit $\lim_{\leftarrow} F$ is the initial object in $(C/X)/F$, which is the quasi-category given by the simplicial set
+where $\star$ denotes the [[join of simplicial sets]]. The limit $\underset{\leftarrow}{\lim} F$ is the terminal object in $(C/X)/F$, which is the quasi-category given by the simplicial set
 
 $$
-  (C/X)/F : [n] \mapsto Hom_{F}( [n] \star K, C/X)
+  (C/X)/F 
+   \;\colon\; 
+  [n] \mapsto Hom_{F}\big([n] \star K, C/X\big)
   \,.
 $$
 
-Since the join preserves colimits of simplicial sets in both arguments, we can apply the [[co-Yoneda lemma]] to decompose $[n] \star K = {\lim_{\underset{{[r] \to [n]\star K}}{\to}}}  [r]$, use that the [[hom-functor]] sends colimits in the first argument to limits and obtain
+Since the join [[preserved colimit|preserves]] [[colimits]] of simplicial sets in both arguments, we can apply the [[co-Yoneda lemma]] to decompose $[n] \star K = \underset{\underset{{[r] \to [n]\star K}}{\to}}{\lim} [r]$, use that the [[hom-functor]] [[hom-functor preserves limits|sends colimits in the first argument to limits]] and obtain
 
 $$
   \begin{aligned}
      Hom([n] \star K, C/X) 
      &\simeq
-     Hom( {\lim_{\to}}_r [r], C/X)
+     Hom\big( {\lim_{\to}}_r [r], C/X\big)
      \\
      & \simeq {\lim_{\leftarrow}}_r Hom([r], C/X)
      \\
-     & \simeq {\lim_{\leftarrow}}_r Hom_F( [r] \star D, C )
+     & \simeq {\lim_{\leftarrow}}_r Hom_F\big( [r] \star D, C \big)
      \\
-     & \simeq  Hom_F({\lim_{\to}}_r ([r] \star D), C )
+     & \simeq  Hom_F\big({\lim_{\to}}_r ([r] \star D), C \big)
      \\
-     & \simeq  Hom_F( ({\lim_{\to}}_r[r]) \star D, C )     
+     & \simeq  Hom_F\big( ({\lim_{\to}}_r[r]) \star D, C \big)     
      \\
-     & \simeq Hom_F(([n] \star K) \star D, C)
+     & \simeq Hom_F\big(([n] \star K) \star D, C\big)
      \\
-     & \simeq Hom_F([n] \star (K \star D), C)
+     & \simeq Hom_F\big([n] \star (K \star D), C\big)
+     \mathrlap{\,.}
   \end{aligned}
-  \,.
 $$
 
-Here $Hom_F([r]\star D,C)$ is shorthand for the hom in the (ordinary) [[under category]] $sSet^{D/}$ from the canonical inclusion $D \to [r] \star D$ to $X : D \to C$. Notice that we use the 1-categorical analog of the statement that we are proving here when computing the colimit in this under-category as just the colimit in $sSet$. We also use that the [[join of simplicial sets]], being given by [[Day convolution]] is an associative tensor product.
+Here $Hom_F\big([r]\star D,C\big)$ is shorthand for the hom in the (ordinary) [[under category]] $sSet^{D/}$ from the canonical inclusion $D \to [r] \star D$ to $X \colon D \to C$. Notice that we use the 1-categorical analog of the statement that we are proving here when computing the colimit in this under-category as just the colimit in [[sSet|$sSet$]]. We also use that the [[join of simplicial sets]], being given by [[Day convolution]], is an associative tensor product.
 
 In conclusion we have an isomorphism of simplicial sets
 
 $$
-  (C/X)/F \simeq C/(X/F)
+  (C/X)/F \,\simeq\, C/(X/F)
 $$
 
-and therefore the initial objects of these quasi-categories coincide on both sides. This shows that $\lim_{\leftarrow} F$ is computed as an initial object in $C/(X/F)$.
+and therefore the terminal objects of these quasi-categories coincide on both sides. This shows that $\underset{\leftarrow}{\lim} F$ is computed as an terminal object in $C/(X/F)$.
 
 =--
 
