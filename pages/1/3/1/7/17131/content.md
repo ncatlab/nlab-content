@@ -2,6 +2,10 @@
 
 * [Mathematics Genealogy Page](http://genealogy.math.ndsu.nodak.edu/id.php?id=171810)
 
+* [InSpire page](https://inspirehep.net/authors/1198418)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=SFo2HyAAAAAJ&hl=pt-PT)
+
 ## Selected writings
 
 Introducing the [[knots-quivers correspondence]]:
