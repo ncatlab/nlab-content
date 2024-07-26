@@ -43,27 +43,12 @@ Many of these extend to [[link invariant|link invariants]] or have variants that
 
 (...)
 
-### In string theory
-
-Knot invariants arising in [[string theory]]/[[M-theory]]:
-
-#### Via 5-brane BPS states
-
-Discussion of [[knot invariants]] in terms of [[BPS states]] of [[M5-branes]]:
 
 
-* [[Edward Witten]], _Fivebranes and Knots_, Quantum Topology, Volume 3, Issue 1, 2012, pp. 1-137 ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216), [doi:10.4171/QT/26](https://www.ems-ph.org/journals/show_abstract.php?issn=1663-487X&vol=3&iss=1&rank=1))
-
-* [[Davide Gaiotto]], [[Edward Witten]], _Knot Invariants from Four-Dimensional Gauge Theory_, Advances in Theoretical and Mathematical Physics, Volume 16 (2012) Number 3 ([arxiv:1106.4789](https://arxiv.org/abs/1106.4789))
+[[!include knot invariants via topological strings and 5-branes -- references]]
 
 
-* [[Sergei Gukov]], [[Marko Stošić]], _Homological algebra of knots and BPS states_ ([arXiv:1112.0030](http://arxiv.org/abs/1112.0030))
-
-* Ross Elliot, [[Sergei Gukov]], _Exceptional knot homology_ ([arXiv:1505.01635](http://arxiv.org/abs/1505.01635))
-
-* Satoshi Nawata, Alexei Oblomkov, _Lectures on knot homology_ ([arXiv:1510.01795](http://arxiv.org/abs/1510.01795))
-
-#### Via D$p$/D$(p+2)$ bound states / monopoles
+### Via D$p$/D$(p+2)$ bound states / monopoles
 
 
 Relation of [[Dp-D(p+2)-brane bound states]]/[[Yang-Mills monopoles]] to [[knot invariants]] via [[chord diagrams]]:
@@ -72,7 +57,7 @@ Relation of [[Dp-D(p+2)-brane bound states]]/[[Yang-Mills monopoles]] to [[knot 
 
 * S. McNamara, Constantinos Papageorgakis, S. Ramgoolam, B. Spence, Appendix A of: _Finite $N$ effects on the collapse of fuzzy spheres_, JHEP 0605:060, 2006 ([arxiv:hep-th/0512145](https://arxiv.org/abs/hep-th/0512145))
 
-* Constantinos Papageorgakis, p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 ([[Papageorgakis06.pdf:file]])
+* Constantinos Papageorgakis, p. 161-162 of: _On matrix D-brane dynamics and fuzzy spheres_, 2006 &lbrack;[[Papageorgakis06.pdf:file]]&rbrack;
 
 category: knot theory
 
