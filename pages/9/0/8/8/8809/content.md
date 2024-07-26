@@ -67,7 +67,7 @@ Related theorems
 
 The original article is
 
-* {#NarasimhanSeshadri65} [[Mudumbai Narasimhan]], [[C. Seshadri]], _Stable and unitary vector bundles on a compact Riemann surface_, Annals of Mathematics. Second Series 82: 540&#8211;567, (1965) ([JSTOR]( http://www.jstor.org/stable/1970710))
+* {#NarasimhanSeshadri65} [[Mudumbai Narasimhan]], [[C. Seshadri]], _Stable and unitary vector bundles on a compact Riemann surface_, Annals of Mathematics. Second Series **82** 3 (1965) 540-567 &lbrack;[doi:10.2307/1970710](https://doi.org/10.2307/1970710), [jstor:1970710](http://www.jstor.org/stable/1970710)&rbrack;
 
 and another proof appeared in 
 
