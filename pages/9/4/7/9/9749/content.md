@@ -117,7 +117,7 @@ The utility of this lemma can be seen by the result
 
 Thus suppose that $h:G([0,1]) \rightarrow [0,1]$ is an algebra.
 
-The space $[0,1]$ has a countable dense subset $E$ specified by the rational numbers lying in the unit interval, and hence the set $D = \{ \sum_{i=1}^n r_i \delta_{e_i} | r_i,e_i \in E, \sum_{i=1}^n r_i=1\}$ is a dense set in $G([0,1])$. (See Parthasarathy, Theorem 6.2.) Since the set $D$ is dense in $G([0,1])$ and $G([0,1])$ is a complete separable metric space it follows that $h$ is completely determined by its values on the elements of the dense subset $D$, 
+The space $[0,1]$ has a countable dense subset $E$ specified by the rational numbers lying in the unit interval, and hence the set $D = \{ \sum_{i=1}^n r_i \delta_{e_i} | r_i,e_i \in E, \sum_{i=1}^n r_i=1\}$ is a dense set in $G([0,1])$. (See Parthasarathy, Probability measures on metric spaces, Theorem 6.3.) Since the set $D$ is dense in $G([0,1])$ and $G([0,1])$ is a complete separable metric space it follows that $h$ is completely determined by its values on the elements of the dense subset $D$, 
 \begin{equation}
 h(\sum_{i=1}^n r_i \delta_{e_i}) = \sum_{i=1}^n r_i h(\delta_{e_i}) = \sum_{i=1}^n r_i e_i
 \end{equation}
