@@ -608,7 +608,7 @@ A precise mathematical formulation of the proposal made there is given in
 * {#HopkinsSinger} [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
  
 
-A discussion that embeds this argument into the larger context of [[AdS-CFT duality]] is in 
+A discussion that embeds this argument into the larger context of [[AdS-CFT duality]]:
 
 * {#Witten98} [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ JHEP 9812:012,1998 ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
 
@@ -617,15 +617,6 @@ Discussion of [[S-duality]] in 6d self-dual higher gauge theory via [[non-commut
 * {#MathaiSati14} [[Varghese Mathai]], [[Hisham Sati]], _Higher abelian gauge theory associated to gerbes on noncommutative deformed M5-branes and S-duality_, J. Geom. Phys. 92:240-251, 2015 ([arXiv:1404.2257](https://arxiv.org/abs/1404.2257)) 
 
 See also the references at _[[6d (2,0)-supersymmetric QFT]]_.
-
-The [[double dimensional reduction]] to the [[D4-brane]] [[D=5 super Yang-Mills theory]] and the relation to [[Khovanov homology]] is discussed in 
-
-* {#Witten11} [[Edward Witten]], _Fivebranes and Knots_, Quantum Topology, Volume 3, Issue 1, 2012, pp. 1-137 ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216), [doi:10.4171/QT/26](https://www.ems-ph.org/journals/show_abstract.php?issn=1663-487X&vol=3&iss=1&rank=1))
- 
- 
-with further comments in 
-
-* Michele Nardelli, _On some equations concerning Fivebranes and Knots, Wilson Loops in Chern-Simons Theory, cusp anomaly and integrability from String theory. Mathematical connections with some sectors of Number Theory_  (2011) &lbrack;[pdf](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/nardelli2011b.pdf)&rbrack;
 
 A proposal for a construction as a [[higher gauge theory]] for [[differential string structure|string 2-connections]] is due to 
 
@@ -641,6 +632,9 @@ based on
 Discussion in the [[D'Auria-Fré formulation of supergravity|D'Auria-Fré formulation]]:
 
 * [[Laura Andrianopoli]], [[C. A. Cremonini]], [[Riccardo D'Auria]], [[Pietro A. Grassi]], [[Riccardo Matrecano]], [[Ruggero Noris]], [[Lucrezia Ravera]], [[Mario Trigiante]], *M5-brane in the superspace approach*, Phys. Rev. D **106** 2 (2022) 026010 &lbrack;[arXiv:2206.06388](https://arxiv.org/abs/2206.06388), [doi:10.1103/PhysRevD.106.026010](https://doi.org/10.1103/PhysRevD.106.026010)&rbrack;
+
+
+[[!include knot invariants via topological strings and 5-branes -- references]]
 
 
 
