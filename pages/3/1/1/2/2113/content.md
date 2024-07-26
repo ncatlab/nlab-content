@@ -71,6 +71,8 @@ On [[flag manifold sigma-models]]:
 [[!redirects flag varieties]]
 [[!redirects flag manifold]]
 [[!redirects flag manifolds]]
+[[!redirects generalized flag variety]]
+[[!redirects generalized flag varieties]]
 
 [[!redirects partial flag variety]]
 [[!redirects partial flag varieties]]
