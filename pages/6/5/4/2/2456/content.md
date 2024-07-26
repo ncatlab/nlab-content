@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
 # Choice operators
 * table of contents
 {: toc}
@@ -11,6 +21,14 @@ In [[David Hilbert|Hilbert]]'s original formulation, for any property $P(x)$ we 
 $$\exists x.P(x) \;\Rightarrow\; P\big(\varepsilon x.P(x)\big).$$
 In other words, if $P$ holds of anything at all, then it holds of the particular term $\varepsilon x.P(x)$.  A similar operator was used by [[Bourbaki]] and appears in [[FMathL]].
 
+### In category theory
+
+Let $C$ be a [[regular category]]. This implies that given an [[object]] $X \in C$, there is a [[support object]] $[X] \in C$, defined as the [[image]] of the [[unique]] [[morphism]] $X \to 1$ into the [[terminal object]] $1 \in C$. 
+
+A **(global) choice operator** consists of, for every object $X$, a morphism $\varepsilon_X:[X] \to X$ from the support object of $X$ to the original object $X$. 
+
+Hilbert's original formulation of the choice operator translates over to the [[internal language]] of $C$ into the statement that for every object $X$ and subobject $P \hookrightarrow X$, there is a morphism $\varepsilon_P:[P] \to P$ from the [[support object]] of $P$ to $P$ itself. This implies the formulation above since the object $X$ is always a [[subobject]] of itself; conversely, if there is a morphism $\varepsilon_X:[X] \to X$ for every object $X \in C$, then there is a morphism $\varepsilon_P:[P] \to P$ for subobjects $P \hookrightarrow X$. 
+
 ### In dependent type theory
 
 In dependent type theory with [[propositional truncations]], the naive translation of the global choice operator results in the following rule:
@@ -20,6 +38,10 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:[A] \vdash \varepsilon_A(x):
 The above rule could be simplified to the following rule using [[function types]]:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:[A] \to A}$$
+
+## Properties
+
+### Relation to set truncation axioms
 
 This rule is an [[axiom of set truncation]], because given type $A$ and elements $x:A$ and $y:A$, one has a function $\varepsilon_{x =_A y}:[x =_A y] \to x =_A y$. Since $[x =_A y]$ is an [[equivalence relation]], the fact that there is a function from $[x =_A y]$ to $x =_A y$ implies that $A$ is a [[set]]. 
 
