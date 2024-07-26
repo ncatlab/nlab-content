@@ -176,6 +176,8 @@ There are various other results that are related to the principles of omniscienc
 
 * In the presence of [[countable choice]], $\mathrm{LLPO}_\mathbb{N}$ is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic. See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri10).
 
+* The [[full bar theorem]] implies the $\mathrm{LPO}_\mathbb{N}$. 
+
 * In [[dependent type theory]], there being a univalent Tarski universe closed under dependent product types, dependent sum types, and identity types and satisfying the axiom of infinity and excluded middle implies the $\mathrm{LPO}_\mathbb{N}$. See the article on [[Tarski universe]] for the proof. 
 
 ## Models
