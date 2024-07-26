@@ -24,8 +24,8 @@ There are quantum analogues (deformations).
 ## Related entries
 
 * [[Hirota equation]]
-
 * [[Grassmannian]], [[flag variety]]
+* [[standard monomial]]
 
 ## Literature
 
