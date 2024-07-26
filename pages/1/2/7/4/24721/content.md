@@ -235,6 +235,23 @@ Equivalently, given types $A$ and $B$, there is a function
 
 $$\mathrm{axrepl}_U^{A, B}:\left(\sum_{C:U} T(C) \simeq A\right) \times \left(\sum_{R:B \times B \to U} \prod_{a:B} \prod_{b:B} T(R(a, b)) \simeq (a =_B b)\right) \to \left(\sum_{I:(A \to B) \to U} \prod_{f:A \to B} T(I(f)) \simeq \mathrm{im}(f)\right)$$
 
+### Excluded middle
+
+A [[univalent Tarski universe]] $(U, T)$ satisfies **[[excluded middle]]** if all $U$-small propositions are [[decidable propositions]]:
+
+$$\mathrm{lem}_U:\prod_{A:U} \mathrm{isProp}(T(A)) \to [T(A) + \neg T(A)]$$
+
+\begin{theorem}
+Suppose that there is a univalent Tarski universe closed under dependent product types, dependent sum types, and identity types, and satisfying the axiom of infinity and excluded middle. Then the [[limited principle of omniscience]] for [[natural numbers]] $\mathrm{LPO}_\mathbb{N}$ holds in the type theory itself.
+\end{theorem}
+
+\begin{proof}
+The type of all $U$-small propositions $\mathrm{Prop}_U$ is a [[sigma-frame|$\sigma$-frame]], and thus the homotopy-initial $\sigma$-frame $\Sigma$ is a sub-$\sigma$-frame of $\mathrm{Prop}_U$, with the following [[embedding of types]]
+$$\mathrm{bool} \hookrightarrow \Sigma \hookrightarrow \mathrm{Prop}_U$$
+The first embedding is a [[uniqueness quantifier|unique]] [[lattice]] [[homomorphism]], since the boolean domain is the homotopy-initial lattice, and the second embedding is a [[uniqueness quantifier|unique]] $\sigma$-frame homomorphism, by definition of homotopy-initial $\sigma$-frame.
+Excluded middle for $U$ implies that $\mathrm{Prop}_U$ is [[equivalence of types|equivalent]] to the [[boolean domain]] and to $\Sigma$, implying that the boolean domain is the initial [[sigma-frame|$\sigma$-frame]], which then implies $\mathrm{LPO}_\mathbb{N}$. 
+\end{proof}
+
 ### Choice
 
 A [[univalent Tarski universe]] satisfies the __[[axiom of choice]]__ if for every $U$-small type $A:U$ and every $U$-small type family $B:T(A) \to U$, and for every every $U$-small type family $C:\prod_{x:T(A)} T(B(x)) \to U$, if $T(A)$ is a set and each $T(B(x))$ is a set for all $x:T(A)$, and each $T(C(x, y))$ is a proposition for all $x:T(A)$ and $y:T(B(x))$, then if for all $x:A$ there merely exists a $y:T(B(x))$ such that $T(C(x, y))$, then there merely exists a dependent function $g:\prod_{x:T(A)} T(B(x))$ such that for all $x:T(A)$, $T(C(x, g(x)))$. 
