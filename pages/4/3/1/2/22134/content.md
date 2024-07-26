@@ -66,17 +66,21 @@ Review:
 
 Focus on *[[abelian anyons]]*:
 
-* [[Jiannis K. Pachos]], *Quantum computation with abelian anyons on the honeycomb lattice*, International Journal of Quantum Information **4** 6 (2006) 947-954 ([arXiv:quant-ph/0511273](https://arxiv.org/abs/quant-ph/0511273))
+* [[Jiannis K. Pachos]], *Quantum computation with abelian anyons on the honeycomb lattice*, International Journal of Quantum Information **4** 6 (2006) 947-954 \[<a href="https://doi.org/10.1142/S0219749906002328">doi:10.1142/S0219749906002328</a>, [arXiv:quant-ph/0511273](https://arxiv.org/abs/quant-ph/0511273)\]
 
-* [[James Robin Wootton]], *Dissecting Topological Quantum Computation*, 2010 ([pdf](https://etheses.whiterose.ac.uk/1163/1/main.pdf), [[WoottonDissectingTQC.pdf:file]])
+* [[James Robin Wootton]], *Dissecting Topological Quantum Computation*, PhD thesis, Leeds (2010) \[<a href="https://etheses.whiterose.ac.uk/1163">ethesis:1163</a>, [pdf](https://etheses.whiterose.ac.uk/1163/1/main.pdf), [[WoottonDissectingTQC.pdf:file]]\]
 
   > "non-Abelian anyons are usually assumed to be better suited to the task. Here we challenge this view, demonstrating that Abelian anyon models have as much potential as some simple non-Abelian models."
 
-* Wade Bloomquist, [[Zhenghan Wang]], *On Topological Quantum Computing With Mapping Class Group Representations*, J. Phys. A: Math. Theor. **52** (2019) 015301 ([arXiv:1805.04622](https://arxiv.org/abs/1805.04622), [doi:10.1088/1751-8121/aaeea1](https://iopscience.iop.org/article/10.1088/1751-8121/aaeea1))
+* [[Seth Lloyd]], *Quantum computation with abelian anyons*, Quantum Information Processing **1** 1/2 (2002) \[<a href="https://doi.org/10.1023/A:1019649101654">doi:10.1023/A:1019649101654</a>, [arXiv:quant-ph/0004010](https://arxiv.org/abs/quant-ph/0004010)\]
 
+* [[James R. Wootton]], [[Jiannis K. Pachos]]: *Universal Quantum Computation with Abelian Anyon Models*, Electronic Notes in Theoretical Computer Science **270** 2 (2011) 209-218 \[<a href="https://doi.org/10.1016/j.entcs.2011.01.032">doi:10.1016/j.entcs.2011.01.032</a>, [arXiv:0904.4373](https://arxiv.org/abs/0904.4373)\]
 
-* [[Seth Lloyd]], *Quantum computation with abelian anyons*, Quantum Information Processing **1** 1/2 (2002) ([arXiv:quant-ph/0004010](https://arxiv.org/abs/quant-ph/0004010), [doi:10.1023/A:1019649101654](https://doi.org/10.1023/A:1019649101654))
+see also:
 
+* Wade Bloomquist, [[Zhenghan Wang]], *On Topological Quantum Computing With Mapping Class Group Representations*, J. Phys. A: Math. Theor. **52** (2019) 015301 \[<a href="https://iopscience.iop.org/article/10.1088/1751-8121/aaeea1">doi:10.1088/1751-8121/aaeea1</a>, [arXiv:1805.04622](https://arxiv.org/abs/1805.04622)\]
+
+* Yichen Hu, Biao Lian: *Chiral Sachdev-Ye model: Integrability and chaos of anyons in $1+1d$*, Phys. Rev. B **105** (2022) 125109 \[<a href="https://doi.org/10.1103/PhysRevB.105.125109">doi:10.1103/PhysRevB.105.125109</a>\]
 
 Realization in [[experiment]]:
 
@@ -138,7 +142,6 @@ On approximating (cf. the [[Solovay-Kitaev theorem]]) given [[quantum gates]] by
 * Cheng-Qian Xu, D. L. Zhou, *Quantum teleportation using Ising anyons*, Phys. Rev. A **106** 012413 (2022) $[$[arXiv:2201.11923](https://arxiv.org/abs/2201.11923), [doi:10.1103/PhysRevA.106.012413](https://doi.org/10.1103/PhysRevA.106.012413)$]$
 
   > (focus on implemening the [[quantum teleportation]]-protocol with [[Ising anyons]])
-
 
 Approximating all topological quantum gates by just the **weaves** among all [[braids]]:
 
