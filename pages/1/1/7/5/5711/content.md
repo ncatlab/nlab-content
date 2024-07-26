@@ -32,3 +32,4 @@ category: people
 
 [[!redirects Nikolai Reshetikhin]]
 [[!redirects Reshetikhin]]
+[[!redirects N. Reshetikhin]]
