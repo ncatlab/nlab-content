@@ -178,7 +178,7 @@ There are various other results that are related to the principles of omniscienc
 
 * The [[full bar theorem]] implies the $\mathrm{LPO}_\mathbb{N}$. 
 
-* In [[dependent type theory]], there being a univalent Tarski universe closed under dependent product types, dependent sum types, and identity types and satisfying the axiom of infinity and excluded middle implies the $\mathrm{LPO}_\mathbb{N}$. See the article on [[Tarski universe]] for the proof. 
+* In [[dependent type theory]], there being a [[univalent Tarski universe]] closed under dependent product types, dependent sum types, and identity types and satisfying the axiom of infinity and [[excluded middle]] implies the $\mathrm{LPO}_\mathbb{N}$. See the article on [[Tarski universe]] for the proof. Thus, any univalent Tarski universe which has [[axiom of choice]] or a [[choice operator]] for the types in the universe also implies $\mathrm{LPO}_\mathbb{N}$ for the entire type theory. 
 
 ## Models
 
