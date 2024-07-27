@@ -574,8 +574,9 @@ Analysis of [[extremal quantum channels]]:
 
 * James Miller, S. T. da Silva, *On the Extremality of the Tensor Product of Quantum Channels* &lbrack;[arXiv;2305.05795](https://arxiv.org/abs/2305.05795)&rbrack;
 
-
 Review and survey:
+
+* [[Garth Warner]]: *Positivity*, University of Washington &lbrack;[pdf](https://sites.math.washington.edu//~warner/Positivity_Warner.pdf), [[Warner-Positivity.pdf:file]]&rbrack;
 
 In the context of [[quantum computation]]:
 
