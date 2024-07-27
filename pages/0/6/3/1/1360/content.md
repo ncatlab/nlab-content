@@ -639,7 +639,9 @@ Textbook accounts:
 
 * {#Hirschhorn} [[Philip Hirschhorn]], Chapter 9 in: _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
-* [[Jacob Lurie]], section A.3 in _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], section A.3 in _[[Higher Topos Theory]]_ (2009)
+
+* [[Garth Waner]]: *Categorical Homotopy Theory*, EPrint Collection, University of Washington (2012) \[<a href="http://hdl.handle.net/1773/19589">hdl:1773/19589</a>, [pdf](https://digital.lib.washington.edu/researchworks/bitstreams/0082c74f-f4e0-4578-a44e-d57a0ea29112/download), [[Waner-CategoricalHomotopy.pdf:file]]\]
 
 * [[Emily Riehl]], §3.8 and §11.4 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
 
