@@ -234,9 +234,9 @@ For the failure of the continuum to be equivalent to the powerset of the natural
 
 * {#Bauer22} [[Andrej Bauer]], *The countable reals* ([video](https://www.youtube.com/watch?v=4CBFUojXoq4)). 
 
-That the continuum hypothesis might have been regarded as a fundamental axiom in an alternate timeline:
+That the continuum hypothesis might have been regarded as a [[fundamental axiom]] in an alternate timeline:
 
-* [[Joel David Hamkins]], *How the continuum hypothesis could have been a fundamental axiom* ([arXiv:2407.02463](https://arxiv.org/abs/2407.02463))
+* [[Joel David Hamkins]], *How the continuum hypothesis could have been a fundamental axiom* &lbrack;[arXiv:2407.02463](https://arxiv.org/abs/2407.02463)&rbrack;
 
 [[!redirects CH]]
 [[!redirects Continuum hypothesis]]
