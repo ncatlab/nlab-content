@@ -222,6 +222,9 @@ Textbook accounts:
 
 * [[Joseph M. Renes]], *Quantum Information Theory* (2015) &lbrack;[pdf](https://edu.itp.phys.ethz.ch/hs15/QIT/renes_lecture_notes14.pdf)&rbrack; De Gruyter (2022) &lbrack;[doi:10.1515/9783110570250](https://doi.org/10.1515/9783110570250)&rbrack;
 
+* [[Garth Warner]]: *Positivity*, University of Washington &lbrack;[pdf](https://sites.math.washington.edu//~warner/Positivity_Warner.pdf), [[Warner-Positivity.pdf:file]]&rbrack;
+
+
 
 Book collection:
 
