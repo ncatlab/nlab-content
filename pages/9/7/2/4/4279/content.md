@@ -469,12 +469,13 @@ See at *[[Gleason's theorem]]*.
 
 * {#Gleason11} [[Jonathan Gleason]], *From Classical to Quantum: The $F^\ast$-Algebraic Approach*, contribution to *[VIGRE REU 2011](http://www.math.uchicago.edu/~may/VIGRE/VIGREREU2011.html)*, Chicago (2011) &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Gleason.pdf), [[GleasonFAlgebraic.pdf:file]]&rbrack;
 
-Textbook account:
+Monographs:
 
 * {#BratteliRobinson79} [[Ola Bratteli]], [[Derek W. Robinson]], §2.3 in: *Operator Algebras and Quantum Statistical Mechanics* -- vol 1: *$C^\ast$- and $W^\ast$-Algebras. Symmetry Groups. Decomposition of States.*, Springer (1979, 1987, 2002) &lbrack;[doi:10.1007/978-3-662-02520-8](https://doi.org/10.1007/978-3-662-02520-8)&rbrack;
 
 * [[Nikolay Bogolyubov]], A. A. Logunov, A. I. Oksak, I. T. Todorov, G. G. Gould, p. 234 in: *Algebra of Observables and State Space* &lbrack;[doi:10.1007/978-94-009-0491-0_6](https://doi.org/10.1007/978-94-009-0491-0_6)&rbrack;,  Chapter in: *General principles of quantum field theory*, Mathematical Physics and Applied Mathematics **10**, Kluwer (1990) &lbrack;[doi:10.1007/978-94-009-0491-0](https://doi.org/10.1007/978-94-009-0491-0)&rbrack; 
 
+* [[Garth Warner]], *States*, §7 in: *$C^\ast$-Algebras*, EPrint Collection, University of Washington (2010) &lbrack;[hdl:1773/16302](http://hdl.handle.net/1773/16302), [pdf](https://sites.math.washington.edu//~warner/C-star.pdf), [[Waner-CStarAlgebras.pdf:file]]&rbrack;
 
 Discussion under the name "positive linear functionals":
 
