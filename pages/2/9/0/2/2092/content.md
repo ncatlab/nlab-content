@@ -69,9 +69,9 @@ Textbook:
 
 * [[Masamichi Takesaki]], _Theory of operator algebras I, II and III_ ([pdf I](http://www.math.ucla.edu/~mt/Corrections1.pdf) [pdf II](http://www.math.ucla.edu/~mt/Corrections2.pdf) [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0990.46034&format=complete)).
 
-* [[Kehe Zhu]], *An Introduction to Operator Algebras*, CRC Press 1993 ([ISBN:9780849378751](https://www.routledge.com/An-Introduction-to-Operator-Algebras/Zhu/p/book/9780849378751))
-
 * {#Schmuedgen90} [[Konrad Schmüdgen]], _Unbounded  operator  algebras  and  representation  theory_, Operator  theory, advances and applications, vol. 37. Birkh&#228;user, Basel (1990) ([doi:10.1007/978-3-0348-7469-4](https://link.springer.com/book/10.1007/978-3-0348-7469-4))
+
+* {#Zhu93} [[Kehe Zhu]], *An Introduction to Operator Algebras*, CRC Press (1993) &lbrack;[ISBN:9780849378751](https://www.routledge.com/An-Introduction-to-Operator-Algebras/Zhu/p/book/9780849378751)&rbrack;
 
 * [[Bruce Blackadar]], *Operator Algebras -- Theory of $C^\ast$-Algebras and von Neumann Algebras*, Encyclopaedia of Mathematical Sciences **122**, Springer (2006) &lbrack;[doi:10.1007/3-540-28517-2](https://doi.org/10.1007/3-540-28517-2)&rbrack;
 
