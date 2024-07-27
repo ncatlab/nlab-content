@@ -1589,7 +1589,11 @@ A more recent, English presentation of much of this material appears in section 
 
 * {#Cisinski20} [[Denis-Charles Cisinski]], _Higher category theory and homotopical algebra_ ([pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
 
-Further developments are in
+A textbook account:
+
+* [[Garth Warner]], *Homotopical Topos Theory* (2012) &lbrack;[pdf](https://sites.math.washington.edu//~warner/HTT_Warner.pdf), [[Waner-HomotopicalTopos.pdf:file]]&rbrack;
+
+Further developments:
 
 * [[Rick Jardine]], _Categorical homotopy theory_ (2003) ([K-theory](http://www.math.uiuc.edu/K-theory/0669/)) 
 
