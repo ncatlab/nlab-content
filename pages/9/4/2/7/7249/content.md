@@ -78,6 +78,9 @@ A key tool is the _[[classical model structure on simplicial sets]]_.
 
 * [[Francis Sergeraert]], _Introduction to Combinatorial Homotopy Theory_, 2008 ([pdf](https://www-fourier.ujf-grenoble.fr/~%20sergerar/Papers/Trieste-Lecture-Notes.pdf), [[SergeraertCombinatorialHomotopyTheory.pdf:file]])
 
+* [[Garth Warner]]: *Categorical Homotopy Theory*, EPrint Collection, University of Washington (2012) \[<a href="http://hdl.handle.net/1773/19589">hdl:1773/19589</a>, [pdf](https://digital.lib.washington.edu/researchworks/bitstreams/0082c74f-f4e0-4578-a44e-d57a0ea29112/download), [[Waner-CategoricalHomotopy.pdf:file]]\]
+
+
 * [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_
 
 * [[Emily Riehl]], _[[Categorical Homotopy Theory]]_
