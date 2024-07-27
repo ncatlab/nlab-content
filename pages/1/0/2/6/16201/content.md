@@ -111,7 +111,7 @@ Beware that this is not the lowest order [[higher curvature correction]]: there 
 
 ### General
 
-Discussion of quadratic curvature currections includes (see also at _[[Starobinsky model of cosmic inflation]]_)
+Discussion of quadratic curvature currections includes (see also at _[[Starobinsky model of cosmic inflation]]_):
 
 * [[Luis Alvarez-Gaume]], [[Alex Kehagias]], [[Costas Kounnas]], [[Dieter Luest]], Antonio Riotto, _Aspects of Quadratic Gravity_ ([arXiv:1505.07657](http://arxiv.org/abs/1505.07657))
 
@@ -139,6 +139,11 @@ Discussion of higher curvature corrections in [[cosmology]] and [[cosmic inflati
 Relation to [[cosmic censorship hypothesis]]:
 
 * Akash K Mishra, Sumanta Chakraborty, _Strong Cosmic Censorship in higher curvature gravity_, Phys. Rev. D 101, 064041 (2020) ([arXiv:1911.09855](https://arxiv.org/abs/1911.09855))
+
+See also:
+
+* Jesse Daas, Cristobal Laporte, Frank Saueressig, Tim van Dijk: *Rethinking the Effective Field Theory formulation of Gravity* &lbrack;[arXiv:2405.12685](https://arxiv.org/abs/2405.12685)&rbrack;
+
 
 For [[supergravity]]:
 
