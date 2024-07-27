@@ -103,6 +103,8 @@ Thus, untruncated LLPO is strictly stronger than truncated LLPO, unlike the case
 
 * [[principle of omniscience]]
 
+* [[limited principle of omniscience]]
+
 * [[weak limited principle of omniscience]]
 
 * [[Markov's principle]]
