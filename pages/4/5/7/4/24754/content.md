@@ -50,8 +50,8 @@ $$\array{
 * [[product]]
 * [[coequalizer]]
 * [[propositional truncation]]
-
 * [[inhabited object]]
+* [[choice operator]] 
 
 [[!include types and logic - table]]
 
