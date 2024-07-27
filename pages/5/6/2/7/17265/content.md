@@ -3525,11 +3525,11 @@ For [[topological G-spaces]] in [[equivariant homotopy theory]]:
 
 ## References
 
-The original article is
+The original article:
 
 * {#Quillen67} [[Dan Quillen]], chapter II, section 3 of _[[Homotopical Algebra]]_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
 
-An expository, concise and comprehensive writeup of the proof of the model category axioms is in 
+An expository, concise and comprehensive writeup of the proof of the model category axioms:
 
 * {#Hirschhorn15} [[Philip Hirschhorn]], _The Quillen model category of topological spaces_, Expositiones Mathematicae Volume 37, Issue 1, March 2019, Pages 2-24 ([arXiv:1508.01942](http://arxiv.org/abs/1508.01942), [doi:10.1016/j.exmath.2017.10.004](https://doi.org/10.1016/j.exmath.2017.10.004))
 
@@ -3542,7 +3542,12 @@ Useful discussion of the issue of [[compactly generated topological spaces]] in 
 
 See also
 
-* {#JoyalTierney08} [[André Joyal]], [[Myles Tierney]], _Notes on simplicial homotopy theory_, Lecture at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008  ([[JoyalTierneyNotesOnSimplicialHomotopyTheory.pdf:file]])
+* {#JoyalTierney08} [[André Joyal]], [[Myles Tierney]], _Notes on simplicial homotopy theory_, Lecture at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008  &lbrack;[[JoyalTierneyNotesOnSimplicialHomotopyTheory.pdf:file]]&rbrack;
+
+On [[algebraic topology]] via the [[model categories]] (notably the [[classical model structure on topological spaces]]):
+
+* [[Garth Warner]]: *Topics in Topology and Homotopy Theory* (2003-7) \[<a href="https://sites.math.washington.edu//~warner/TTHT_Warner.pdf">pdf</a>, [arXiv:2007.02467](https://arxiv.org/abs/2007.02467)\]
+
 
 * {#SterlingKapulkin23} [[Sterling Ebel]], [[Chris Kapulkin]], *Synthetic approach to the Quillen model structure on topological spaces* &lbrack;[arXiv:2310.14235](https://arxiv.org/abs/2310.14235)&rbrack;
 
