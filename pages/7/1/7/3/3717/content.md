@@ -33,11 +33,12 @@ Consider a [[pair]] of [[quantum systems]], $Q$ and $E$, where $Q$ is some syste
 
 * [[Stéphane Attal]], [[Alain Joye]], [[Claude-Alain Pillet]] (eds.), *Open Quantum Systems III -- Recent Developments*, Lecture Notes in Mathematics **1882**, Springer (2006) &lbrack;[doi:10.1007/b128453](https://doi.org/10.1007/b128453)&rbrack;
 
-
 * [[Heinz-Peter Breuer]], [[Francesco Petruccione]], *The Theory of Open Quantum Systems*, Oxford University Press (2007) &lbrack;[doi:10.1093/acprof:oso/9780199213900.001.0001](https://doi.org/10.1093/acprof:oso/9780199213900.001.0001)&rbrack;
 
-
 * {#SchumacherWestmoreland10} [[Benjamin Schumacher]], [[Michael Westmoreland]], *Quantum Processes, Systems, and Information*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511814006](https://doi.org/10.1017/CBO9780511814006)&rbrack;
+
+* Fabrizio Minganti, Alberto Biella: *Open quantum systems -- A brief introduction* &lbrack;[arXiv:2407.16855](https://arxiv.org/abs/2407.16855)&rbrack;
+
 
 See also:
 
