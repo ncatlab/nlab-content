@@ -496,7 +496,7 @@ Via [[exceptional field theory]]:
 
 * {#Herzog15} [[Christopher Herzog]], *AdS/CFT*, lecture notes (2015) &lbrack;[pdf](http://insti.physics.sunysb.edu/~cpherzog/stringtheory/AdSCFT.pdf), [[Herzog-AdSCFT.pdf:file]]&rbrack;
 
-* {#Natsuume15} [[Makoto Natsuume]], *AdS/CFT Duality User Guide*, Lecture Notes in Physics **903**, Springer (2015) &lbrack;[arXiv:1409.3575](https://arxiv.org/abs/1409.3575), [doi:10.1007/978-4-431-55441-7](https://doi.org/10.1007/978-4-431-55441-7)&rbrack;
+* {#Natsuume15} [[Makoto Natsuume]], *AdS/CFT Duality User Guide*, Lecture Notes in Physics **903**, Springer (2015) &lbrack;[arXiv:1409.3575](https://arxiv.org/abs/1409.3575), [doi:10.1007/978-4-431-55441-7](https://doi.org/10.1007/978-4-431-55441-7), [webpage](https://research.kek.jp/people/natsuume/ads-real-world.html)&rbrack;
 
 * [[Sebastian De Haro]], Daniel R. Mayerson, [[Jeremy Butterfield]], *Conceptual Aspects of Gauge/Gravity Duality*, Foundations of Physics **46** 11 (2016) 1381-1425 &lbrack;[arXiv:1509.09231](https://arxiv.org/abs/1509.09231), [doi:10.1007/s10701-016-0037-4](https://doi.org/10.1007/s10701-016-0037-4)&rbrack;
 
