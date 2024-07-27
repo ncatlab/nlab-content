@@ -178,7 +178,15 @@ There are various other results that are related to the principles of omniscienc
 
 * The [[full bar theorem]] implies the $\mathrm{LPO}_\mathbb{N}$. 
 
-* In [[dependent type theory]], there being a [[univalent Tarski universe]] closed under dependent product types, dependent sum types, and identity types and satisfying the axiom of infinity and [[excluded middle]] implies the $\mathrm{LPO}_\mathbb{N}$. See the article on [[Tarski universe]] for the proof. Thus, any univalent Tarski universe which has [[axiom of choice]] or a [[choice operator]] for the types in the universe also implies $\mathrm{LPO}_\mathbb{N}$ for the entire type theory. 
+* The existence of various [[classical mathematics|classical]] [[universes]] or models of [[foundations of mathematics]] implies the $\mathrm{LPO}_\mathbb{N}$: 
+
+  * Any model $\mathcal{V}$ of bounded Zermelo set theory contains a [[pure set]] of [[real numbers]] $\mathbb{R}$. One can collect all the pure sets of $\mathcal{V}$ which are in $\mathbb{R}$ and show that the resulting set is a subset of $\mathcal{V}$ and a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. Thus, the existence of stronger models of [[material set theory]] such as [[ZFC]] also imply $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. 
+
+  * For a similar reason, the existence of a constructively [[well-pointed topos|well-pointed]] [[Boolean topos|Boolean]] [[W-topos]] $\mathcal{E}$ implies the $\mathrm{LPO}_\mathbb{N}$, since the hom-set $\mathrm{Hom}_\mathcal{E}(1, \mathbb{R})$, where $1 \in \mathcal{E}$ is the [[terminal object|terminal]] [[generator]] and  $\mathbb{R} \in \mathcal{E}$ is the [[real numbers object]] in $\mathcal{E}$, yields a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. Thus, the existence of any constructive model of [[ETCS]] also implies $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. 
+
+  * Finally, in [[dependent type theory]], there being a [[univalent Tarski universe]] $(U, T)$ closed under dependent product types, dependent sum types, and identity types and satisfying the axiom of infinity and [[excluded middle]] implies the $\mathrm{LPO}_\mathbb{N}$, since one can construct an element $\mathbb{R}:U$ representing the $U$-small type of real numbers, whose type reflection $T(\mathbb{R})$ is a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying $\mathrm{LPO}_\mathbb{N}$ for the entire type theory. Thus, any univalent Tarski universe which has [[axiom of choice]] or a [[choice operator]] for the types in the universe also implies $\mathrm{LPO}_\mathbb{N}$ for the entire type theory. 
+
+  * Note that in all these cases, the real numbers $\mathbb{R}$ constructed from these universes or classical models of foundations of mathematics, while equivalent to the internal Dedekind real numbers constructed in the universe or model, are not necessarily equivalent to the external [[Dedekind real numbers]] in the foundations. 
 
 ## Models
 
