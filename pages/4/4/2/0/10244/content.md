@@ -246,6 +246,10 @@ Reformulation of "super-embeddings" via a supergeometric [[Darboux coframe]]-con
 
 * {#GSS24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], §2 in: *[[schreiber:Flux Quantization on M5-Branes]]* &lbrack;[arXiv:2406.11304](https://arxiv.org/abs/2406.11304)&rbrack;
 
+An actual example of a non-trivial super-embedding (for [[M5-branes]]):
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], §2.4 in: *[[schreiber:Flux Quantization on Holographic M5-Branes]]*
+
 
 
 ### $\kappa$-Symmetry
