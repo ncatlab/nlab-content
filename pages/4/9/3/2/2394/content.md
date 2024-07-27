@@ -58,9 +58,9 @@ The original construction due to [[Joyal]] in 1984 is in
 
 * [[André Joyal]], _Lettre d’André Joyal à Alexandre Grothendieck_, April 11, 1984, [PDF](https://webusers.imj-prg.fr/~georges.maltsiniotis/ps/lettreJoyal.pdf).
 
-A discussion of the [[homotopy theory]] of [[simplicial objects]] in [[toposes]] using [[Cisinski model structures]] is in 
+Discussion of the [[homotopy theory]] of [[simplicial objects]] in [[toposes]] using [[Cisinski model structures]]:
 
-* Garth Warner, _Homotopical topos theory_ ([pdf](http://www.math.washington.edu/~warner/HTT_Warner.pdf))
+* [[Garth Warner]], *Homotopical Topos Theory* (2012) &lbrack;[pdf](https://sites.math.washington.edu//~warner/HTT_Warner.pdf), [[Waner-HomotopicalTopos.pdf:file]]&rbrack;
 
 The last part of 
 
