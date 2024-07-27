@@ -23,5 +23,12 @@ A  _foundational axiom_ is an [[axiom]] that would be used in [[foundations]].
 
 [[!include foundational axiom - contents]]
 
+
 [[!redirects foundational axiom]]
 [[!redirects foundational axioms]]
+
+[[!redirects fundamental axiom]]
+[[!redirects fundamental axioms]]
+
+
+
