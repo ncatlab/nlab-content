@@ -441,6 +441,29 @@ $$
 
 \end{proof}
 
+
+### Multiplicative states
+ {#MultiplicativeStates}
+
+Recall that a state $\rho \,\colon\, \mathcal{A} \xrightarrow{\;} \mathbb{C}$ is generally only required to be a [[linear map]] on the [[underlying]] [[vector space]] of the algebra $\mathcal{A}$ (subject only to the positivity constraint), not necessarily an [[algebra homomorphism]]. 
+
+Those states which do respect the algebra product, in that $\rho(A \cdot B) = \rho(A)\, \rho(B)$ for $A,B \in \mathcal{A}$, are called *multiplicative*.
+
+\begin{proposition}
+  A multiplicative state is necessarily a [[pure state]].
+\end{proposition}
+(e.g. [Zhu 1993, Ex. 13.3](#Zhu93); [Warner 2010, Lem. 7.20](#Warner10))
+
+\begin{proposition}
+\label{OnCommutativeAlgebraPureStatesAreTheMultiplicativeStates}
+  If the star-algebra $\mathcal{A}$ is [[commutative algebra|commutative]], then the [[pure states]] on it are precisely the multiplicative states.
+\end{proposition}
+(e.g. [Zhu 1993, Ex. 13.4](#Zhu93); [Warner 2010, Lem. 7.21](#Warner10))
+\begin{proof}
+  The idea is that for commutative $\mathcal{A}$ [[Gelfand duality]] applies and shows that a multiplicative state is equivalently the operation of point-evaluation on the [[Gelfand spectrum]].
+\end{proof}
+
+
 ### Fell's theorem
 
 See at *[[Fell's theorem]]*.
@@ -469,13 +492,17 @@ See at *[[Gleason's theorem]]*.
 
 * {#Gleason11} [[Jonathan Gleason]], *From Classical to Quantum: The $F^\ast$-Algebraic Approach*, contribution to *[VIGRE REU 2011](http://www.math.uchicago.edu/~may/VIGRE/VIGREREU2011.html)*, Chicago (2011) &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Gleason.pdf), [[GleasonFAlgebraic.pdf:file]]&rbrack;
 
-Monographs:
+Within monographs:
 
 * {#BratteliRobinson79} [[Ola Bratteli]], [[Derek W. Robinson]], §2.3 in: *Operator Algebras and Quantum Statistical Mechanics* -- vol 1: *$C^\ast$- and $W^\ast$-Algebras. Symmetry Groups. Decomposition of States.*, Springer (1979, 1987, 2002) &lbrack;[doi:10.1007/978-3-662-02520-8](https://doi.org/10.1007/978-3-662-02520-8)&rbrack;
 
 * [[Nikolay Bogolyubov]], A. A. Logunov, A. I. Oksak, I. T. Todorov, G. G. Gould, p. 234 in: *Algebra of Observables and State Space* &lbrack;[doi:10.1007/978-94-009-0491-0_6](https://doi.org/10.1007/978-94-009-0491-0_6)&rbrack;,  Chapter in: *General principles of quantum field theory*, Mathematical Physics and Applied Mathematics **10**, Kluwer (1990) &lbrack;[doi:10.1007/978-94-009-0491-0](https://doi.org/10.1007/978-94-009-0491-0)&rbrack; 
 
-* [[Garth Warner]], *States*, §7 in: *$C^\ast$-Algebras*, EPrint Collection, University of Washington (2010) &lbrack;[hdl:1773/16302](http://hdl.handle.net/1773/16302), [pdf](https://sites.math.washington.edu//~warner/C-star.pdf), [[Waner-CStarAlgebras.pdf:file]]&rbrack;
+* {#Zhu93} [[Kehe Zhu]], Section 13 of: *An Introduction to Operator Algebras*, CRC Press (1993) &lbrack;[ISBN:9780849378751](https://www.routledge.com/An-Introduction-to-Operator-Algebras/Zhu/p/book/9780849378751)&rbrack;
+
+* {#Warner10} [[Garth Warner]], *States*, §7 in: *$C^\ast$-Algebras*, EPrint Collection, University of Washington (2010) &lbrack;[hdl:1773/16302](http://hdl.handle.net/1773/16302), [pdf](https://sites.math.washington.edu//~warner/C-star.pdf), [[Waner-CStarAlgebras.pdf:file]]&rbrack;
+
+
 
 Discussion under the name "positive linear functionals":
 
