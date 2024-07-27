@@ -50,6 +50,13 @@ Markov\'s principle is equivalent to the assertion that for every [[modulated Ca
 
 The analogous statement for [[Dedekind real numbers]] might be called the **[[analytic Markov's principle]]**, by analogy with the [analytic LPO](principle+of+omniscience#analytic).  The [[Russian constructivism|Russian constructivists]], who used Markov\'s principle most, accepted [[countable choice]], or at least $AC_{0,0}$, which implies that these two principles are equivalent.  However, in other varieties of constructive mathematics, the analytic Markov\'s principle is stronger.
 
+## Related concepts
+
+* [[principle of omniscience]]
+
+* [[weak limited principle of omniscience]]
+
+* [[lesser limited principle of omniscience]]
 
 ## References
 
