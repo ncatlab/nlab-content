@@ -54,9 +54,13 @@ The analogous statement for [[Dedekind real numbers]] might be called the **[[an
 
 * [[principle of omniscience]]
 
+* [[limited principle of omniscience]]
+
 * [[weak limited principle of omniscience]]
 
 * [[lesser limited principle of omniscience]]
+
+* [[double negation law]]
 
 ## References
 
