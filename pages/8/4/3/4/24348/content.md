@@ -81,6 +81,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Monadic and Higher-Order Structure|[[Nathanael Arkor]]|2022|[Cambridge repository](https://www.repository.cam.ac.uk/handle/1810/338940)| on [[relative monads]], [[second-order algebraic theories]], and monad–theory correspondences in a [[proarrow equipment]] |
 |Pseudomonads, Relative Monads and Strongly Finitary Notions of Multicategory|[[Gabriele Lobbia]]|2022|[Leeds repository](https://etheses.whiterose.ac.uk/30578/)| |
 |Topics in the theory of enriched accessible categories|[[Giacomo Tendas]]|2022|[Macquarie repository](https://figshare.mq.edu.au/articles/thesis/Topics_in_the_theory_of_enriched_accessible_categories/21638081/1)| |
+|Operads in 2-categories and models of structure interchange|Sophie D. Espalungue d'Arros|2023|[theses.fr repository](https://theses.fr/2023ULILB053)| |
 |Introspective Theories and Geminal Categories|[[Sridhar Ramesh]]|2023|[eScholarship repository](https://escholarship.org/uc/item/3mn0c475)| on [[Löb's theorem]] and the [[Gödel incompleteness theorem]] |
 |Scalar Enrichment and Cotraces in Bicategories|Callum William Reader|2023|[White Rose repository](https://etheses.whiterose.ac.uk/33327/)| on [[traces]] and [[cotraces]] in [[monoidal bicategories]] | 
 | On Monadic Vector-Valued Integration|Benedikt Peterseim|2023|[arXiv](https://arxiv.org/abs/2403.19681)| on [[probability monads]] on [[convenient categories of topological spaces]] | |
