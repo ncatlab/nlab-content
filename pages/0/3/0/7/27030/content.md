@@ -1,6 +1,14 @@
 
+<div style="float:right;margin:-30px 0px 00px 20px;">
+<img src="https://ncatlab.org/nlab/files/GarthWarner-Portrait.jpg" width="250"> 
+</div>
+
 
 * [personal page](https://sites.math.washington.edu/~warner/)
+
+* [institute page](https://math.washington.edu/people/garth-warner)
+
+* [Wikipedia entry](https://de.wikipedia.org/wiki/Garth_Warner) (de)
 
 * [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=5544)
 
@@ -10,10 +18,24 @@ On [[algebraic topology]] via the [[model categories]] (notably the [[classical 
 
 * [[Garth Warner]]: *Topics in Topology and Homotopy Theory* (2003-7) \[<a href="https://sites.math.washington.edu//~warner/TTHT_Warner.pdf">pdf</a>, [arXiv:2007.02467](https://arxiv.org/abs/2007.02467)\]
 
+On [[general relativity]] ([[gravity]]):
+
+* [[Garth Warner]]: *Mathematical Aspects of General Relativity*, EPrint Collection, University Of Washington (2006) &lbrack;[hdl:1773/2637](http://hdl.handle.net/1773/2637), [pdf](https://sites.math.washington.edu//~warner/MAGR_Warner.pdf), [[Warner-GeneralRelativity.pdf:file]]&rbrack;
+
+On [[Lagrangian density|Lagrangian]] [[classical mechanics]]:
+
+* [[Garth Warner]]: *Lagrangian Mechanics*, EPrint Collection, University of Washington (2009) &lbrack;[hdl:1773/4606](http://hdl.handle.net/1773/4606), [pdf](https://sites.math.washington.edu//~warner/LM_Warner.pdf), [[WarnerLagrangianMechanics.pdf:file]]&rbrack;
+
 
 On [[C-star algebras|$C^\ast$-algebras]]:
 
 * [[Garth Warner]], *$C^\ast$-Algebras*, EPrint Collection, University of Washington (2010) &lbrack;[hdl:1773/16302](http://hdl.handle.net/1773/16302), [pdf](https://sites.math.washington.edu//~warner/C-star.pdf), [[Waner-CStarAlgebras.pdf:file]]&rbrack;
+
+On [[quantum information theory]] via [[completely positive maps]] ([[quantum channels]]):
+
+* [[Garth Warner]]: *Positivity*, University of Washington &lbrack;[pdf](https://sites.math.washington.edu//~warner/Positivity_Warner.pdf), [[Warner-Positivity.pdf:file]]&rbrack;
+
+
 
 On ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] via ([[simplicial model category|simplicial]]) [[model categories]]:
 
