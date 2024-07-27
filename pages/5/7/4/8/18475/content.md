@@ -248,6 +248,9 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
 * Alberto Salvio, _Superconductivity, Superfluidity and Holography_ ([arXiv:1301.0201](http://arxiv.org/abs/1301.0201))
 
+* {#Natsuume15} [[Makoto Natsuume]], §14.3, §14.5 in: *AdS/CFT Duality User Guide*, Lecture Notes in Physics **903**, Springer (2015) &lbrack;[arXiv:1409.3575](https://arxiv.org/abs/1409.3575), [doi:10.1007/978-4-431-55441-7](https://doi.org/10.1007/978-4-431-55441-7), [webpage](https://research.kek.jp/people/natsuume/ads-real-world.html)&rbrack;
+
+
 * Rong-Gen Cai, Li Li, Li-Fang Li, Run-Qiu Yang, _Introduction to Holographic Superconductor Models_, Sci China-Phys Mech Astron **58** (2015) 1-46 &lbrack;[arXiv:1502.00437](https://arxiv.org/abs/1502.00437), [doi:10.1007/s11433-015-5676-5](https://doi.org/10.1007/s11433-015-5676-5)&rbrack;
 
 * Chuan-Yin Xia, Hua-Bi Zeng, Yu Tian, Chiang-Mei Chen, [[Jan Zaanen]], *Holographic Abrikosov lattice: vortex matter from black hole* ([arXiv:2111.07718](https://arxiv.org/abs/2111.07718))
