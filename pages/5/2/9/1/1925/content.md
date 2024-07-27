@@ -314,7 +314,41 @@ $$
 
 where $g\in G$ is the unique group element such that $g\cdot b = a$.
 
-In fact, the category $Heap$ is [[equivalence of categories|equivalent]] to the following category $Tors$: its objects are pairs $(G,H)$ consisting of a group $G$ and a $G$-torsor $H$, and its morphisms are pairs $(\phi,f):(G,H)\to (G',H')$ consisting of a group homomorphism $\phi:G\to G'$ and a $\phi$-equivariant map $f:H\to H'$.
+In fact, the category $Heap$ is [[equivalence of categories|equivalent]] to the following category $Tors$: its objects are pairs $(G,H)$ consisting of a group $G$ and a $G$-torsor $H$, and its morphisms are pairs $(\phi,f):(G,H)\to (G',H')$ consisting of a group homomorphism $\phi:G\to G'$ and a $\phi$-equivariant map $f:H\to H'$. 
+
+### Groups as pointed heaps 
+
+As indicated in the discussion above, a heap $H$ acquires a group structure $(a, b) \mapsto t(a, e, b)$ as soon as an element $e \in H$ is selected (and this $e$ is then the identity element of the group). Notice that every function $1 \to H$ from a terminal set $1$ is in fact a heap homomorphism when we consider that $1$ carries a unique heap structure. In different words: the free heap on a terminal set $1$ is $1$ itself with its unique heap structure. 
+
+It follows that the category of groups [[Grp]] is equivalent to the [[comma category]] $1 \downarrow Heap$, with both categories considered as categories over $Heap$ (via $Prin: Grp \to Heap$ and the forgetful functor $U: 1 \downarrow Heap \to Heap$ that forgets the point). This says that groups are equivalent to pointed heaps. 
+
+Both of these forgetful functors are [[monadic functor|monadic]] over $Heap$. In the case of $U: 1 \downarrow Heap \to Heap$, the [[monad]] is $1 \sqcup -$, where the monad structure is induced from the [[monoid]] structure that $1$ carries with respect to the [[cocartesian monoidal category|cocartesian monoidal product]] $\sqcup$. The free pointed heap on $H$ is therefore the heap $1 \sqcup H$, equipped with the pointing given by the coproduct coprojection $1 \to 1 \sqcup H$. 
+
+It follows that the free group on a heap $H$ can be constructed abstractly as $1 \sqcup H$. This is analogous to how the free [[vector space]] on an [[affine space]] $A$ can be described as $1 \sqcup A$, although it is true that [[coproducts]] of affine spaces are vastly easier to describe concretely than coproducts of heaps. 
+
+Here is a more group-theoretic description of the free group on $H$. Let $Str(H)$ be the structure group, given as the group of heap automorphisms of the form $t(a, b, -): H \to H$. Let 
+
+$$\alpha: Str(H) \times H \to H$$ 
+
+denote the tautological action. Let $F(H)$ denote the free group on the underlying set of $H$. For groups $G, G'$, let $G \ast G'$ denote their free product (coproduct). Then the free group on the heap $H$ is the [[quotient group|quotient]] of $Str(H) \ast F(H)$ given by the coequalizer of two maps 
+
+$$\beta, \gamma: F(Str(H) \times H) \rightrightarrows Str(H) \ast F(H)$$ 
+
+where $\beta$ is the composition of $F(\alpha): F(Str(H) \times H) \to F(H)$ followed by the coproduct coprojection $F(H) \to Str(H) \ast F(H)$, and $\gamma$ is the unique group homomorphism that extends the function 
+
+$$Str(H) \times H \to Str(H) \ast H$$ 
+
+mapping a pair $(\theta, h)$ to their product $\theta \cdot h$ in the group $Str(H) \ast H$. 
+
+The meaning of the construction is that group homomorphisms $Str(H) \ast F(H) \to G$ that factor through the coequalizer are in natural bijection with pairs 
+
+$$(\phi: Str(H) \to G, f: H \to G)$$ 
+
+where $\phi$ is a homomorphism and $f$ is a function, satisfying the torsor homomorphism condition 
+
+$$f(\theta(h)) = \phi(\theta) \cdot f(h)$$ 
+
+which is an equivalent way of describing a heap homomorphism $H \to Prin(G)$. 
 
 
 ## The empty heap {#empty}
