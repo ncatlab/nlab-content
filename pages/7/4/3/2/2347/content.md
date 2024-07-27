@@ -268,7 +268,14 @@ Classical textbooks:
 
 * [[Michael Spivak]], _Elementary mechanics from a mathematician's viewpoint_ ([pdf](http://alpha.math.uga.edu/~shifrin/Spivak_physics.pdf))
 
-Detailed expository textbook with emphasis on the [[principle of extremal action]]:
+See also:
+
+* [[Garth Warner]]: *Lagrangian Mechanics*, EPrint Collection, University of Washington (2009) &lbrack;[hdl:1773/4606](http://hdl.handle.net/1773/4606), [pdf](https://sites.math.washington.edu//~warner/LM_Warner.pdf), [[WarnerLagrangianMechanics.pdf:file]]&rbrack;
+
+
+Detailed exposition with emphasis on the [[principle of extremal action]]:
+
+
 
 * [[Douglas Cline]], *Variational Principles in Classical Mechanics*, University of Rochester (2021) &lbrack;[pdf](http://classicalmechanics.lib.rochester.edu/pdf/Variational_Principles_in_Classical_Mechanics_3e_final_fbcover.pdf), <a href="https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Variational_Principles_in_Classical_Mechanics_(Cline)">online version</a>&rbrack;
 
