@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include foundations - contents]]
 =--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
 =--
 =--
 
@@ -27,7 +31,7 @@ In category theory, there are two different notions of [[logic]], the usual exte
 
 #### External choice operator
 
-Let $\mathcal{E}$ be a [[well-pointed category|well-pointed]] [[Heyting pretopos]]. This allows for the objects of $\mathcal{E}$ to behave as [[sets]] and [[morphisms]] $x:\mathrm{Hom}_\mathcal{E}(1, X)$ from the [[terminal object|terminal]] [[generator]] $1 \in \mathcal{E}$ to any object $X \in \mathcal{E}$ to behave as [[elements]] of $X$. Then Hilbert's formulation of the **external (global) choice operator** is rendered as the following: for any object $X \in \mathcal{E}$ and any property $P(x)$ on the [[hom-set]] $\mathrm{Hom}_\mathcal{E}(1, X)$ we can form a [[morphism]] $\varepsilon_X x.P(x) \in \mathrm{Hom}_\mathcal{E}(1, X)$ such that
+Let $\mathcal{E}$ be a [[well-pointed category|well-pointed]] [[Heyting category]]. This allows for the objects of $\mathcal{E}$ to behave as [[sets]] and [[morphisms]] $x:\mathrm{Hom}_\mathcal{E}(1, X)$ from the [[terminal object|terminal]] [[generator]] $1 \in \mathcal{E}$ to any object $X \in \mathcal{E}$ to behave as [[elements]] of $X$. Then Hilbert's formulation of the **external (global) choice operator** is rendered as the following: for any object $X \in \mathcal{E}$ and any property $P(x)$ on the [[hom-set]] $\mathrm{Hom}_\mathcal{E}(1, X)$ we can form a [[morphism]] $\varepsilon_X x.P(x) \in \mathrm{Hom}_\mathcal{E}(1, X)$ such that
 $$\exists x \in \mathrm{Hom}_\mathcal{E}(1, X).P(x) \;\Rightarrow\; P\big(\varepsilon_X x.P(x)\big).$$
 
 This is sometimes used in [[categorical set theories]] like [[ETCS plus epsilon]]. 
@@ -39,6 +43,31 @@ Let $C$ be a [[regular category]]. This implies that given an [[object]] $X \in 
 An **internal (global) choice operator** consists of, for every object $X$, a morphism $\varepsilon_X:[X] \to X$ from the support object of $X$ to the original object $X$. 
 
 Hilbert's original formulation of the choice operator translates over to the [[internal language]] of $C$ into the statement that for every object $X$ and subobject $P \hookrightarrow X$, there is a morphism $\varepsilon_P:[P] \to P$ from the [[support object]] of $P$ to $P$ itself. This implies the formulation above since the object $X$ is always a [[subobject]] of itself; conversely, if there is a morphism $\varepsilon_X:[X] \to X$ for every object $X \in C$, then there is a morphism $\varepsilon_P:[P] \to P$ for subobjects $P \hookrightarrow X$. 
+
+### In allegory theory
+
+Given a [[regular category]] $C$, the [[bicategory of relations]] of $C$ is a [[unitary tabular allegory]]. Conversely, the [[category of maps]] of a unitary tabular allegory is a regular category. Similarly, given a [[Heyting category]] $C$, the [[bicategory of relations]] of $C$ is a [[division allegory]], and conversely, the [[category of maps]] of a division allegory is a Heyting category. This implies that internal global choice operators can be defined in any unitary tabular allegory and external global choice operators can be defined in any (well-pointed) [[division allegory]]. 
+
+This is sometimes used in [[allegorical set theories]] like [[SEAR plus epsilon]]. 
+
+#### External choice operator
+
+Recall that a [[map]] in an [[allegory]] $\mathcal{E}$ is a morphism with a [[right adjoint]], and an [[injective morphism in a dagger 2-poset|injective map]] between objects $X \in \mathcal{E}$ and $Y \in \mathcal{E}$ is a map $f \in \mathrm{Map}_\mathcal{E}(X, Y)$ such that $f^\dagger \circ f \leq \mathrm{id}_X$. For any objects $X \in \mathcal{E}$ and $Y \in \mathcal{E}$, let 
+$$\mathrm{Map}_\mathcal{E}(X, Y) \subseteq \mathrm{Hom}_\mathcal{E}(X, Y)$$ 
+denote the hom-subset of maps between objects $X$ and $Y$. A [[division allegory]] $\mathcal{E}$ is *[[well-pointed]]* if 
+
+* The allegorical unit $1$ is not a [[zero object]]
+
+* for any objects $X \in \mathcal{E}$ and $Y \in \mathcal{E}$ and injective maps $f \in \mathrm{Map}_\mathcal{E}(X, Y)$, if for all [[maps]] $y \in \mathrm{Map}_\mathcal{E}(1, Y)$ from the allegorical unit $1 \in \mathcal{E}$ to $Y$, there exists a map $x \in \mathrm{Map}_\mathcal{E}(1, X)$ such that $f \circ x = y$, then $f$ is a [[unitary isomorphism]]. 
+
+Then Hilbert's formulation of the **external (global) choice operator** is rendered as the following: for any object $X \in \mathcal{E}$ and any property $P(x)$ on $\mathrm{Map}_\mathcal{E}(1, X)$ we can form a [[map]] $\varepsilon_X x.P(x) \in \mathrm{Map}_\mathcal{E}(1, X)$ such that
+$$\exists x \in \mathrm{Map}_\mathcal{E}(1, X).P(x) \;\Rightarrow\; P\big(\varepsilon_X x.P(x)\big).$$
+
+#### Internal choice operator
+
+The [[support object]] $[X]$ of an object $X$ in a [[unitary tabular allegory]] $C$ is the [[tabulation]] of the [[uniqueness quantifier|unique]] [[map]] from $X$ into the [[allegorical unit]] $1$. 
+
+An **internal (global) choice operator** in $C$ consists of, for every object $X$, an [[map]] $\varepsilon_X:\mathrm{Map}_C([X], X)$ from the support object of $X$ to the original object $X$. 
 
 ### In dependent type theory
 
@@ -60,7 +89,7 @@ where the [[existential quantifier]] is defined as
 
 $$\exists x:A.B(x) \coloneqq \left[\sum_{x:A} B(x)\right]$$
 
-Given a [[contractible type]] in the [[dependent type theory]], the Hilbert-style global choice operator implies the other version of the global choice operator, because given a type $A$ and a contractible type $C$, one can define the constant type family $x:C \vdash A$, and show that the dependent sum type $\sum_{x:C} A$ is equivalent to $A$. Conversely, the other version of the global choice operator implies the Hilbert style choice operator, since having a global choice operator for every type implies having choice operators for dependent sum types. 
+The Hilbert-style global choice operator implies the other version of the global choice operator, because given a type $A$, the dependent sum type $\sum_{x:A} \sum_{y:A} x =_A y$ is [[definitionally isomorphic]] to $A$. Conversely, the other version of the global choice operator implies the Hilbert style choice operator, since having a global choice operator for every type implies having choice operators for dependent sum types. 
 
 ## Properties
 
