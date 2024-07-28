@@ -328,13 +328,21 @@ An introduction headed towards applications in computer science and, in particul
 * Michael Winter, _Goguen Categories_ (2007)
 
 
+[[!redirects unital allegory]]
+[[!redirects unitary allegory]]
 [[!redirects tabular allegory]]
+[[!redirects unital tabular allegory]]
+[[!redirects unitary tabular allegory]]
 [[!redirects union allegory]]
 [[!redirects division allegory]]
 [[!redirects power allegory]]
 
 [[!redirects allegories]]
+[[!redirects unital allegories]]
+[[!redirects unitary allegories]]
 [[!redirects tabular allegories]]
+[[!redirects unital tabular allegories]]
+[[!redirects unitary tabular allegories]]
 [[!redirects union allegories]]
 [[!redirects division allegories]]
 [[!redirects power allegories]]
