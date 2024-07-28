@@ -62,19 +62,36 @@ There are
 
 * [Further equivalent definitions](#FurtherDefinition)
 
+
 ### As associative algebra with coalgebra structure
  {#AlgebraCoalgebra}
 
-+-- {: .num_defn}
-###### Definition
-A Frobenius algebra in a [[monoidal category]] is a quintuple $(A, \delta, \epsilon, \mu, \eta)$ such that
+\begin{definition}\label{FrobeniusAlgebra}
+A *Frobenius algebra* [[internalization|in]] a [[monoidal category]] $(\mathcal{C}, \otimes, \mathbb{1})$ (for instance [[Vect]] with the usual [[tensor product of vector spaces]]) is
 
-1. $(A, \mu, \eta)$ is a [[monoid]] with multiplication $\mu:A\otimes A\to A$ and unit $\eta:I\to A$,
-1. $(A, \delta, \epsilon)$ is a [[comonoid]] with comultiplication $\delta:A\to A\otimes A$ and counit $\epsilon:A\to I$, and
-1. the **Frobenius laws** hold: $(1 \otimes \mu) \circ (\delta \otimes 1) = \delta \circ \mu = (\mu \otimes 1) \circ (1 \otimes \delta)$.
-=--
+1. an [[object]] $A$ 
 
-In terms of [[string diagrams]], this definition says:
+1. [[morphisms]] 
+
+   * ([[unit]]) $\eta \,\colon\, \mathbb{1} \to A$, 
+
+   * ([[counit]]) $\epsilon \,\colon\, A \to \mathbb{1}$, 
+
+   * ([[multiplication]]) $\mu \,\colon\, A \otimes A \to A$.  
+
+   * ([[comultiplication]]) $\delta \,\colon\, A \to A \otimes A$,
+
+such that:
+
+1. $(A, \mu, \eta)$ is a [[monoid]] (an [[associative algebra]] when $\mathcal{C} = Vect$),
+
+1. $(A, \delta, \epsilon)$ is a [[comonoid]] (a [[coassociative coalgebra]] when $\mathcal{C} = Vect$),
+
+1. the **Frobenius laws** hold: $(id_A \otimes \mu) \circ (\delta \otimes id_A) = \delta \circ \mu = (\mu \otimes id_A) \circ (id_A \otimes \delta)$.
+
+\end{definition}
+
+In terms of [[string diagrams]], Def. \ref{FrobeniusAlgebra} says:
 
 [[frobenius_algebra.jpg:pic]]
 
