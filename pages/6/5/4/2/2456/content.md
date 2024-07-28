@@ -52,6 +52,16 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:[A] \to A}
 
 This corresponds to the internal global choice operator in category theory, since the logic is only internal logic in dependent type theory; there is no separate external logic. 
 
+One can also use a Hilbert-style global choice operator which says that choice operators exist for [[dependent sum types]]
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \varepsilon_A x.B(x):\exists x:A.B(x) \to \sum_{x:A} B(x)}$$
+
+where the [[existential quantifier]] is defined as
+
+$$\exists x:A.B(x) \coloneqq \left[\sum_{x:A} B(x)\right]$$
+
+Given a [[contractible type]] in the [[dependent type theory]], the Hilbert-style global choice operator implies the other version of the global choice operator, because given a type $A$ and a contractible type $C$, one can define the constant type family $x:C \vdash A$, and show that the dependent sum type $\sum_{x:C} A$ is equivalent to $A$. Conversely, the other version of the global choice operator implies the Hilbert style choice operator, since having a global choice operator for every type implies having choice operators for dependent sum types. 
+
 ## Properties
 
 ### Relation to set truncation axioms
