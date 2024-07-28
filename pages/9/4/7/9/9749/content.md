@@ -81,65 +81,88 @@ The [[Kleisli morphisms]] of the Giry monad on [[Meas]] (and related subcategori
 It is one of the most important examples of a [[Markov category]].
 
 ### Algebras over the Giry monad
+We can't say anything about the $G$-algebras on the category of measurable spaces due to lack of structure and set-theoretical issues.  However, we can analyze the $P$-algebras exploiting the continuous morphisms and countably dense subsets on the spaces $P{X}$, and give a class of non-free $P$-algebras.
+   
+If $X$ is any measurable space then the space of probability measures $P{X}$ is a convex space with the structure defined pointwise, i.e., if $\{P_i\}_{i=1}^{n}$ is a finite collection of probability measures on $X$  then, for every sequence $\{p_i\}_{i=1}^{n}$ with each $p_i \in [0,1]$  the  affine sum  $\sum_{i=1}^{n} p_i P_i$,  is also a probability measure, defined at the measurable set $U$ in $X$ by
+\begin{equation}
+\big(\sum_{i=1}^{n} p_i P_i\big)(U) = \sum_{i=1}^{n} p_i P_i(U).
+\end{equation}
+On the otherhand, given any $P$-algebra $h: P{X} \rightarrow X$ it follows that $X$ can also be endowed with a convex structure by defining, for every affine sum of $n$ elements of $X$,
+\begin{equation}
+ \sum_{i=1}^n p_i x_i := h(\sum_{i=1}^n p_i \delta_{x_i}).
+\end{equation}
 
-To analyze algebras, via the Eilenberg-Moore representation, we make use of the fact that, for every measurable space $X$, the space $G(X)$ has the structure of a [[superconvex space]] defined on it pointwise, i.e. if $\sum_{i=1}^n p_i P_i$ is an affine sum of elements of $G(X)$ then the affine sum is also a probability measure in $G(X)$ defined on a measurable set $U$ by $\sum_{i=1}^n p_i P_i(U)$.  Moreover, if we are given a $G$-algebra $h:G(X) \rightarrow X$ then we can also endow the measurable space $X$ with a superconvex space structure defined by $\sum_{i=1}^{\infty} p_i x_i := h(\sum_{i=1}^{\infty} p_i \delta_{x_i})$.
+To analyze $P$-algebras, via the Eilenberg-Moore representation as morphisms $h:P{X} \rightarrow X$, we require
 
-\begin{lemma}
-Given any algebra $h:G(X) \rightarrow X$ the map $h$ is a countably affine map.  Moreover, if $k:G(Y) \rightarrow Y$ is another algebra and $f: \langle X, h \rangle \rightarrow \langle Y, k \rangle$ is any morphism of algebras, then $f$ is also countably affine.
+\begin{lemma} \label{FunThm} Given any $P$-algebra $h: P{X} \rightarrow X$ the continuous function $h$ is an affine map.  
+Moreover, for any measurable space $Y$ and $P$-algebra $k:P{Y} \rightarrow Y$ on it,  if $f: (X, h) \rightarrow (Y, k)$ is a map of $P$-algebras then the continuous function $f$ is also affine.
 \end{lemma}
-\begin{proof}
-\begin{equation} 
-\begin{array}{rcl}
- (h \mu_X)(\sum_{i \in \mathbb{N}} p_i \delta_{P_i}) &=& (h \circ \G(h))(\sum_{i \in \mathbb{N}} p_i \delta_{P_i})   \\
- h(\sum_{i \in \mathbb{N}} p_i P_i) &=& h(\sum_{i \in \mathbb{N}} p_i \delta_{h(P_i)})  \\
- h(\sum_{i \in \mathbb{N}} p_i P_i) &=& \sum_{i \in \mathbb{N}} p_i h(P_i) 
+\begin{proof}  Because a $P$-algebra $h$ must satisfy $h \circ \mu_X = h \circ P{h}$ we have
+\begin{equation}
+\begin{array}{lcl}
+(h \circ \mu_X)( \sum_{i=1}^n p_i \delta_{Q_i}) &=& (h \circ P{h})( \sum_{i=1}^n p_i \delta_{Q_i}) \\
+h( \sum_{i=1}^n p_i Q_i) &=& h(\sum_{i=1}^n p_i \, \delta_{h(Q_i)}) \\
+ &=& \sum_{i=1}^n p_i h(Q_i)
+\end{array}
+\end{equation}
+where the last line makes use of the definition of the convex structure on $X$.  Thus every $P$-algebra is affine.
+
+To prove the map of $P$-algebras is an affine map we compute
+\begin{equation}
+\begin{array}{lcll}
+f(\sum_{i=1}^n p_i x_i) &=& f(h(\sum_{i=1}^n p_i \delta_{x_i})) &  \\
+&=& k(P(f)(\sum_{i=1}^n p_i \delta_{x_i}) &  \\
+&=& k(\sum_{i=1}^n p_i \delta_{f(x_i)}) &  \\
+&=& \sum_{i=1}^n p_i f(x_i) & 
 \end{array}.
 \end{equation}
-
- Given the map of $G$-algebras, $f: (X,h) \rightarrow (Y,k)$ it follows that $f$ is a countably affine map because 
-\begin{equation} 
-\begin{array}{lcl}
-f( \sum_{i \in \mathbb{N}} p_i x_i) &=& f(h( \sum_{i \in \mathbb{N}} p_i \delta_{x_i} ))  \\
-&=& k\big( G{(f)}( \sum_{i \in \mathbb{N}} p_i \delta_{x_i}  ) \big) \\
-&=& k\big(  \sum_{i \in \mathbb{N}} p_i \delta_{f(x_i)} \big) \\
-&=&  \sum_{i \in \mathbb{N}} p_i k(\delta_{f(x_i))}  \\
-&=&  \sum_{i \in \mathbb{N}} p_i f(x_i) 
-\end{array}
-\end{equation}
 \end{proof}
 
-The utility of this lemma can be seen by the result
+Remark: The space $P{X}$ actually has a superconvex structure since, for $\lim_{n \rightarrow \infty}  \sum_{i=1}^n p_i=1$ and each $p_i \in [0,1]$,   the countable affine sum $\sum_{i=1}^{\infty} p_i P_i$ also defines a probability measure on $P{X}$.  The preceding Lemma also then holds for the term "affine" replaced by "countably affine". 
 
-\begin{lemma} For the category of Polish spaces (with continuous maps) the Eilenberg-Moore category of algebras is equivalent to the Kleisi category for the Giry monad.  In other words, there are no non-free algebras for the Giry monad on $Pol$.
+\begin{lemma} (Uniqueness of $P$-algebras) Let $X$ be a Polish space and suppose $f,g:P{X} \rightarrow X$ are a pair of $P$-algebras.  Then $f=g$.
 \end{lemma}
-\begin{proof} Recall that, up to isomorphism, the only Polish spaces are the discrete countable spaces and the unit interval.  The fact that there are no non-free algebras for the discrete spaces, as pointed out by  
-([Doberkat 03](#Doberkat03)), follows from the fact that the discrete spaces are disconnected, hence there are no continuous functions $G(n) \rightarrow n$, where $n$ is either finite or countable.  So to complete the proof it suffices to show that any algebra $h:G([0,1]) \rightarrow [0,1]$ is necessarily a free algebra.
+\begin{proof}  
+ The space $X$, being a separable metric space, has a countable dense subset  $E$, and hence  the set $D=\{\sum_{i=1}^n r_i \delta_{e_i} \, | \, e_i\in \E, r_i \in \mathbb{Q}\cap[0,1],  \sum_{i=1}^n  r_i=1,  \text{ and } n  \text{ finite}\}$ is dense in $P{X}$.(Parthasarathy, Probability measures on metric spaces,Theorem 6.3)   Since the set $D$ is dense in $P{X}$ and $P{X}$ is a complete separable metric space it follows that the functions $f$ and $g$ are completely determined by their  values on the dense subset $D$.  We have $f(\sum_{i=1}^n r_i \delta_{e_i})= \sum_{i=1}^n r_i f(\delta_{e_i}) =  \sum_{i=1}^n r_i e_i$, where the first equality follows by Lemma \ref{FunThm}, and the second equality by the required condition on algebras, $h(\delta_e)=e$, and similiarly $g(\sum_{i=1}^n r_i \delta_{e_i}) = \sum_{i=1}^n r_i e_i.$  Since $f=g$ on the dense subset and both $f$ and $g$ are continuous maps it follows that $f=g$ on all of $P{X}$. 
+\end{proof} 
 
-Thus suppose that $h:G([0,1]) \rightarrow [0,1]$ is an algebra.
+\begin{theorem} \label{thm} Let $X$  be a Polish space and suppose $h:P{X} \rightarrow X$ is a $P$-algebra.  Then $h$ is a free $P$-algebra if and only if there exists a $\mathbf{Cvx}$-isomorphism $\phi: X \rightarrow P{Y}$ for some Polish space $Y$.
+\end{theorem}
+\begin{proof}
+Suppose there exists a $\mathbf{Cvx}$-isomorphism $\phi: X \rightarrow P{Y}$ then $\hat{h} = \phi \circ h \circ P(\phi^{-1}): P(P{Y}) \rightarrow P{Y}$ is also a $P$-algebra.  Since the multiplication natural transformation $\mu: P \circ P \Rightarrow P$ gives the free $P$-algebra $\mu_Y: P(P{Y}) \rightarrow P{Y}$ it follows by the uniqueness lemma that $\hat{h}=\mu_Y$.  Because $\phi$ is a $\mathbf{Cvx}$-isomorphism it then follows that $h$ is a free $P$-algebra.
 
-The space $[0,1]$ has a countable dense subset $E$ specified by the rational numbers lying in the unit interval, and hence the set $D = \{ \sum_{i=1}^n r_i \delta_{e_i} | r_i,e_i \in E, \sum_{i=1}^n r_i=1\}$ is a dense set in $G([0,1])$. (See Parthasarathy, Probability measures on metric spaces, Theorem 6.3.) Since the set $D$ is dense in $G([0,1])$ and $G([0,1])$ is a complete separable metric space it follows that $h$ is completely determined by its values on the elements of the dense subset $D$, 
-\begin{equation}
-h(\sum_{i=1}^n r_i \delta_{e_i}) = \sum_{i=1}^n r_i h(\delta_{e_i}) = \sum_{i=1}^n r_i e_i
-\end{equation}
-where the first equality follows from the preceding Lemma, and the second equality follows from the required condition on an algebra, $h(\delta_e)=e$.  Thus there can exists at most one such algebra, and that algebra $h$ is, up to isomorphism, the function $\mu_{2}: G(G(2)) \rightarrow G(2)$ which is the free algebra on $2$. More explicitly, let $\phi: G(2) \rightarrow [0,1]$ be specified by $(1-t)\delta_0 + t \delta_1 \mapsto t$ have the inverse isomorphism denoted by $\psi$. (That homeomorphism is well known.) Then $h=\phi \circ \mu_2 \circ G{\psi}$ because a direct computation gives
-\begin{equation}
-\begin{array}{lcl}
-\phi(\mu_2(G{\psi}(\sum_{i=1}^n r_i \delta_{e_i}))) &=& \phi(\mu_2(\sum_{i=1}^n r_i \delta_{\psi(e_i)}))\\
-&=& \phi(\sum_{i=1}^n r_i \psi(e_i)) \\
-&=& \sum_{i=1}^n r_i \phi(\psi(e_i)) \\
-&=& \sum_{i=1}^n r_i e_i \\
-&=& h(\sum_{i=1}^n r_i \delta_{e_i})
-\end{array}
-\end{equation} 
-where we have made use of the fact that $\phi = ev_{\{1\}}$ is an affine map, as is $\mu_2$. The last line follows from the definition of the superconvex structure on $[0,1]$ 
+Conversely, if $h$ is a free $P$-algebra then, since all free $P$-algebras are given by $\mu_Y: P(P{Y}) \rightarrow P{Y}$ for every space $Y$,  there must exists a particular space $Y$ such that $X = P{Y}$. Hence the identity map yields  a  $\mathbf{Cvx}$-isomorphism  $id: X \rightarrow P{Y}$.
 \end{proof}
 
-We note that in Doberkats [article](http://ls10-www.cs.uni-dortmund.de/index.php?id=18) his representation for the algebras does not indicate whether the algebras are free or non-free. 
+\begin{lemma} \label{L3}
+The space $P{\mathbf{2}} \times P{\mathbf{2}}$ is not $\mathbf{Cvx}$-isomorphic to $P{X}$ for any Polish space $X$.
+\end{lemma}
+ \begin{proof}
+Every element of $P{\mathbf{2}} \times P{\mathbf{2}}$ is characterized precisely by two independent real numbers $r,s \in [0,1]$.
+The only space $X$ for which every element $Q \in P{X}$ is characterized by two independent variables $r,s \in [0,1]$ is $P{\mathbf{3}}$. But clearly 
+ $P{\mathbf{2}} \times P{\mathbf{2}}$ is not $\mathbf{Cvx}$-isomorphic to $P{\mathbf{3}}$. 
 
-The fundamental question concerning algebras is the existence of algebras which are not free.  The Eilenberg-Moore category of algebras, for any monad, is descriptive in nature but not constructive, and says nothing about the existence of algebras which are not free.  For this reason it is often necessary to find a
-different representation of the category of $G$-algebras. Although the above negative result concerning no non-free algebras for $Pol$ shows that that the Eilenberg-Moore representation does have its advantages.
+  \end{proof}
 
- By the fundamental lemma concerning the fact that all algebras are countably affine we are naturally led to the category of [[super convex spaces]], denoted $\mathbf{SCvx}$, which have been referred to as strongly convex spaces in the quantum mechanics literature, e.g., See Mackey - Math. Found. Q.M..  The morphisms of $\mathbf{SCvx}$ are countably affine map (barycenter maps) which generalizes (and is consistent with) the elementary examples of probability monads on compact Hausdorff spaces, etc.. These $G$-algebras, with measurable maps, provide the connection between the continuous (geometric) spaces and discrete (combinatorial) spaces which are necessary for modeling non-determinism.
+\begin{lemma} \label{marginal} (Marginalization $P$-algebra)  Let $\pi_i: P(\mathbf{2})\times P(\mathbf{2}) \rightarrow P(\mathbf{2})$, for $i=1,2$ denote  the two coordinate projection maps of the product space $P(\mathbf{2}) \times P(\mathbf{2})$.  The function $m:P( P{\mathbf{2}} \times P{\mathbf{2}}) \rightarrow P{\mathbf{2}} \times P{\mathbf{2}}$ specified by marginalization, $Q \mapsto \big( (\mu_2\circ  P{\pi_1})Q, (\mu_2 \circ P{\pi_2})Q\big)$, is a $P$-algebra.
+\end{lemma}
+\begin{proof} The function $m$ is continuous because each of the component maps are continuous.  The condition $m \circ \eta_{P{\mathbf{2}} \times P{\mathbf{2}}} = id_{P{\mathbf{2}} \times P{\mathbf{2}}}$ follows because for each element $(Q,R) \in P{\mathbf{2}} \times P{\mathbf{2}}$ we have $\mu_2(G{\pi_1} \delta_{(Q,R)}) = \mu_2(\delta_{\pi_1(Q,R)}) = \mu_2(\delta_P)=Q$ and similarly $\mu_2(P{\pi_2} \delta_{(Q,R)}) =R$.
+
+To prove the required condition $P{m} \circ m= \mu_{P{2} \times P{2}} \circ m$ first note that $m$ is an affine function because each component map $\mu_2 \circ P{\pi_i}$, for $i=1,2$, is a composite of affine maps. Moreover, since $P{\mathbf{2}} \times P{\mathbf{2}}$ is a separable metric space it has a countable dense subset of elements $(u_k, v_k)$ so that the set of elements consisting of affine sums of Dirac measures of the form $\sum_{j=1}^p s_j \delta_{(u_j,v_j)}$ for $p$ a finite number  is a dense subset of $P(P{\mathbf{2}} \times P{\mathbf{2}})$.  In turn it follows that affine sums of elements of the form $\sum_{i=1}^n r_i  \delta_{\sum_{j=1}^p s_j^i \delta_{(u_j^i,v_j^i)}}$ specify a dense subset of $P(P(P(\mathbf{2}) \times P(\mathbf{2})))$.  A direct computation on the dense elements, using the fact that all the maps are affine, then yields $P{m} \circ m= \mu_{P{\mathbf{2}} \times P{\mathbf{2}}} \circ m$ on all the elements of the dense set.  Since the maps are all continuous  it therefore follows that $P{m} \circ m= \mu_{P{\mathbf{2}} \times P{\mathbf{2}}} \circ m$ on all elements of $P(P(P{2} \times P{\mathbf{2}}))$.  This completes the proof that $m$ is a $P$-algebra.
+
+\end{proof}
+
+
+\begin{theorem}
+The category of $P$-algebras  is not equivalent to the Kleisi category of the $P$-monad for Polish spaces.  In other words, there are non-free $P$-algebras.
+\end{theorem}
+\begin{proof}
+By Lemma \ref{marginal} we know that the marginalization map  $m:P( P{\mathbf{2}} \times P{\mathbf{2}}) \rightarrow P{\mathbf{2}} \times P{\mathbf{2}}$ is a $P$-algebra.
+By Lemma \ref{L3} we know that $P{\mathbf{2}} \times P{\mathbf{2}}$ is not $\mathbf{Cvx}$-isomorphic to $P{Y}$ for any space $Y$. Hence by Lemma \ref{thm} it follows that $m$ is not a free $P$-algebra, and hence the category of $P$-algebras  is not equivalent to the Kleisi category for the $P$-monad.
+\end{proof}
+
+Doerkat (insert link to article) gives a characterization of the $P$-algebras on Polish spaces different than the Eilenberg-Moore representation.
+
 
 ## Related constructions
 
