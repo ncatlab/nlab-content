@@ -74,11 +74,19 @@ However, the dependent type theory will no longer have [[decidable equality]] if
 
 The proof assistant [[Narya]] makes use of definitional isomorphisms to characterize identity/bridge types.
 
+
+[[!redirects definitionally isomorphic]]
+[[!redirects judgmentally isomorphic]]
+[[!redirects judgementally isomorphic]]
+
 [[!redirects definitional isomorphism]]
 [[!redirects definitional isomorphisms]]
 
 [[!redirects judgmental isomorphism]]
 [[!redirects judgmental isomorphisms]]
+
+[[!redirects judgemental isomorphism]]
+[[!redirects judgemental isomorphisms]]
 
 [[!redirects definitional isomorphism type]]
 [[!redirects definitional isomorphism types]]
@@ -91,3 +99,9 @@ The proof assistant [[Narya]] makes use of definitional isomorphisms to characte
 
 [[!redirects type of judgmental isomorphisms]]
 [[!redirects types of judgmental isomorphisms]]
+
+[[!redirects judgemental isomorphism type]]
+[[!redirects judgemental isomorphism types]]
+
+[[!redirects type of judgemental isomorphisms]]
+[[!redirects types of judgemental isomorphisms]]
