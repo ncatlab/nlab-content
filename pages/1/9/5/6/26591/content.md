@@ -33,6 +33,8 @@ One can interpret this fact as the absence of "infinitary correlations".
 Statements of this kind are known collectively as the **Kolmogorov extension theorem**.
 They are particularly important in the theory of [[stochastic processes]], since a stochastic process can be seen as a [[joint distribution]] over an [[infinite tensor product|infinite product]].
 
+In terms of [[category-theoretic approaches to probability theory|category theory]], this can be phrased as the fact that this cofiltered limit is [[preserved limit|preserved]] by the [[left adjoint]] from [[Meas|measurable spaces]] to [[Stoch|Markov kernels]] (or [[Kleisli category#Tlim|equivalently]], by the [[Giry monad]]).
+
 
 ## In measure-theoretic probability
 
