@@ -466,14 +466,56 @@ Here all squares commute by assumption on the monad transformation and hence the
 
 ## Properties
 
+
+### Adjunction
+
+Each Kleisli category comes with an adjunction 
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+sep=small,%
+]
+\mathcal{C} \ar[bend left]{rr}{L} & \perp &  \mathcal{C}_T \ar[bend left]{ll}{R}
+\end{tikzcd}
+
+In terms of [[Kleisli morphisms]]:
+
+* The functor $L:\mathcal{C}\to\mathcal{C}_T$ is the identity on objects, and on morphisms it maps $f:X\to Y$ to the Kleisli morphism defined by $\eta_Y\circ f:X\to T Y$, where $\eta$ is the unit of the monad.
+* The functor $R:\mathcal{C}_T\to\mathcal{C}$ maps an object $X$ to the object $T X$, and a Kleisli morphism defined by $k:X\to T Y$ to its [[Kleisli extension]] $\mu_Y\circ T k:T X\to T Y$, where $\mu$ is the multiplication of the monad.
+
+In terms of [[algebra over a monad#FreeAlgebras|free algebras]]:
+
+* The functor $L:\mathcal{C}\to\mathcal{C}_T$ maps an object $X$ to the free algebra $(T X,\mu_X)$, where $\mu$ is the multiplication of the monad, and a morphism $f:X\to Y$ to the morphism of algebras $T f: T X\to T Y$.
+* The functor $R:\mathcal{C}_T\to\mathcal{C}$ is the forgetful functor mapping free algebras and morphisms of algebras to the underlying objects and morphisms of $\mathcal{C}$.
+
+
 ### Universal properties
  {#UniversalProperties}
-
-
 
 In more general 2-categories the [[universal properties]] of [[Kleisli objects]] are dual to the universal properties of [[Eilenberg-Moore category#Definition|Eilenberg-Moore objects]].
 
 In particular, $C_{\mathbf{T}}$ is [[initial object|initial]] in the [[adjoint functor#RelationToMonads|category of adjunctions]] for $\mathbf{T}$ (whereas $C^{\mathbf{T}}$ is [[terminal objects|terminal]]). For a proof, see _[[Category Theory in Context]]_ Proposition 5.2.12.
+
+
+### Limits and colimits
+
+* By the fact that the functor $L:\mathcal{C}\to\mathcal{C}_T$ is [[left adjoint]], [[left adjoints preserve colimits|it preserves all the colimits]] which exist in $\mathcal{C}$. 
+
+* While $L$, in general, doesn't preserve all [[limits]], one can say the following:
+
+\begin{proposition}\label{Tlim}
+ A limit in $\mathcal{C}$ is preserved by $L:\mathcal{C}\to\mathcal{C}_T$ if and only if it is preserved by the monad $T:\mathcal{C}\to\mathcal{C}$.
+\end{proposition}
+
+\begin{proof}
+Let $D$ be a diagram in $\mathcal{C}$, and suppose its limit exists.
+
+First, suppose that the limit of $D$ is preserved by $L$. Then since $R:\mathcal{C}_T\to\mathcal{C}$ is [[right adjoint]], [[right adjoints preserve limits|it preserves limits]], and so the limit of $D$ is also preserved by $T=R\circ L$.
+
+Conversely, denote by $U:\mathcal{C}^T\to\mathcal{C}$ the [[forgetful functor]] from the [[Eilenberg-Moore category]] of $T$, and denote by $J:\mathcal{C}_T\to\mathcal{C}^T$ the [[comparison functor]]. We have that $R:\mathcal{C}_T\to\mathcal{C}$ factors as $U\circ J$, and so $T=U\circ J\circ L$. 
+Now suppose that the limit of $D$ is preserved by $T=U\circ J\circ L$. Since $U$ is [[monadic functor|monadic]] and [[created limit#examples|monadic functors create limits]], the limit is also preserved by the functor $J\circ L:\mathcal{C}\to\mathcal{C}^T$. 
+Now since $J$ is a full inclusion, and [[reflected limit#Examples|full inclusions reflect limits]], the limit is also preserved by the functor $L:\mathcal{C}\to\mathcal{C}_T$ alone.
+\end{proof}
+
 
 ## Examples
 
