@@ -23,9 +23,20 @@ In other words, if $P$ holds of anything at all, then it holds of the particular
 
 ### In category theory
 
+In category theory, there are two different notions of [[logic]], the usual external logic, and the [[internal logic]] of a category. These different notions of logic leads to different notions of a choice operator in category theory, an external choice operator and an internal choice operator
+
+#### External choice operator
+
+Let $\mathcal{E}$ be a [[well-pointed category|well-pointed]] [[Heyting pretopos]]. This allows for the objects of $\mathcal{E}$ to behave as [[sets]] and [[morphisms]] $x:\mathrm{Hom}_\mathcal{E}(1, X)$ from the [[terminal object|terminal]] [[generator]] $1 \in \mathcal{E}$ to any object $X \in \mathcal{E}$ to behave as [[elements]] of $X$. Then Hilbert's formulation of the **external (global) choice operator** is rendered as the following: for any object $X \in \mathcal{E}$ and any property $P(x)$ on the [[hom-set]] $\mathrm{Hom}_\mathcal{E}(1, X)$ we can form a [[morphism]] $\varepsilon_X x.P(x) \in \mathrm{Hom}_\mathcal{E}(1, X)$ such that
+$$\exists x \in \mathrm{Hom}_\mathcal{E}(1, X).P(x) \;\Rightarrow\; P\big(\varepsilon_X x.P(x)\big).$$
+
+This is sometimes used in [[categorical set theories]] like [[ETCS plus epsilon]]. 
+
+#### Internal choice operator
+
 Let $C$ be a [[regular category]]. This implies that given an [[object]] $X \in C$, there is a [[support object]] $[X] \in C$, defined as the [[image]] of the [[unique]] [[morphism]] $X \to 1$ into the [[terminal object]] $1 \in C$. 
 
-A **(global) choice operator** consists of, for every object $X$, a morphism $\varepsilon_X:[X] \to X$ from the support object of $X$ to the original object $X$. 
+An **internal (global) choice operator** consists of, for every object $X$, a morphism $\varepsilon_X:[X] \to X$ from the support object of $X$ to the original object $X$. 
 
 Hilbert's original formulation of the choice operator translates over to the [[internal language]] of $C$ into the statement that for every object $X$ and subobject $P \hookrightarrow X$, there is a morphism $\varepsilon_P:[P] \to P$ from the [[support object]] of $P$ to $P$ itself. This implies the formulation above since the object $X$ is always a [[subobject]] of itself; conversely, if there is a morphism $\varepsilon_X:[X] \to X$ for every object $X \in C$, then there is a morphism $\varepsilon_P:[P] \to P$ for subobjects $P \hookrightarrow X$. 
 
@@ -38,6 +49,8 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:[A] \vdash \varepsilon_A(x):
 The above rule could be simplified to the following rule using [[function types]]:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \varepsilon_A:[A] \to A}$$
+
+This corresponds to the internal global choice operator in category theory, since the logic is only internal logic in dependent type theory; there is no separate external logic. 
 
 ## Properties
 
@@ -151,6 +164,16 @@ category: foundational axiom
 [[!redirects choice operators]]
 [[!redirects global choice operator]]
 [[!redirects global choice operators]]
+
+[[!redirects internal choice operator]]
+[[!redirects internal choice operators]]
+[[!redirects internal global choice operator]]
+[[!redirects internal global choice operators]]
+
+[[!redirects external choice operator]]
+[[!redirects external choice operators]]
+[[!redirects external global choice operator]]
+[[!redirects external global choice operators]]
 
 [[!redirects type-theoretic choice operator]]
 [[!redirects type-theoretic choice operators]]
