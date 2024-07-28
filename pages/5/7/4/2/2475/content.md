@@ -106,6 +106,9 @@ The same argument as above should show that CSEAR+$\varepsilon$ is conservative 
 
 Now: is CSEAR+$\varepsilon$ conservative over CSEAR?
 
+## Related concepts
+
+* [[ETCS plus epsilon]]
 
 [[!redirects SEAR plus epsilon]]
 [[!redirects SEAR plus ?]]
