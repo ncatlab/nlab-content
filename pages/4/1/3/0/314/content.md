@@ -84,9 +84,9 @@ is the functor constant on the [[point]], i.e. the [[terminal object|terminal]] 
 
 The set $lim F$ is equivalently called 
 
-* the set of _global sections_ of $F$;
+* the set of [[global section|global sections]] of $F$;
 
-* the set of [[generalized element|generalized elements]] of $F$.
+* the set of [[global element|global elements]] of $F$.
 
 The set $lim F$ can be equivalently expressed as an [[equalizer]] of a [[product]], explicitly:
 
