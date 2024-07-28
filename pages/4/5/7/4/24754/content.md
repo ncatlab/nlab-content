@@ -19,11 +19,17 @@ In [[set theory]], the [[support of a set]] turns the set into a [[subsingleton]
 
 ## Definition
 
-The support object $[X]$ of an object $X$ in a [[category]] $C$ with a [[terminal object]] $1$ is the [[image]] of the unique morphism $X \to 1$. 
+### In category theory
+
+The support object $[X]$ of an object $X$ in a [[regular category]] $C$ is the [[image]] of the unique morphism into the [[terminal object]] $X \to 1$. 
 
 $$X \to [X] \hookrightarrow 1$$
 
 As a result, that all support objects exist is equivalent to the condition that every morphism into the terminal object has an [[image factorization]]. 
+
+### In allegory theory
+
+The support object $[X]$ of an object $X$ in a [[unitary tabular allegory]] $C$ is the [[tabulation]] of the unique map from $X$ into the allegorical unit $1$. 
 
 ## Properties
 
