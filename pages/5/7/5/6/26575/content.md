@@ -89,7 +89,15 @@ We say that an object is an **infintary tensor product of the family $(X_i)_{i\i
 
 * In a [[cartesian monoidal category]], every infinite product, if it exists, is an infinitary tensor product.
 
+* More generally, consider a [[cartesian monoidal category]] $\mathcal{C}$ and a [[monoidal monad]] (or [[commutative monad]]) $T$.
+Recall that [[monoidal monad#monoidal_structure_on_the_kleisli_category|the Kleisli category of a monoidal monad is canonically a monoidal category]].
+Suppose now that an infinite product in $\mathcal{C}$ exists, and express it as a cofiltered limit of finite products.
+The [[left adjoint]] $\mathcal{C}\to\mathcal{C}_T$ [[preserved limit|preserves]] this limit if and only if the endofunctor $T$ does (see [[Kleisli category#Tlim|here]]).
+So, given a category with infinite products and a [[monoidal monad]] on it which preserves [[cofiltered limits]], its [[Kleisli category]] has infinitary tensor products.
+
 * In a [[Markov category]], [[Markov category#kolmogorov_products|Kolmogorov products]] are particular infinitary products compatible with the copy-discard structure. In particular, the category [[BorelStoch]] has all countable infinitary tensor products.
+
+* The [[Giry monad]] on [[standard Borel spaces]] is an instance of both of the examples above, by the [[Kolmogorov extension theorem]].
 
 * Reversing all arrows, the *infinite tensor product of rings* is defined as the [[filtered colimit]] of all the finitary tensor products. (The canonical arrows $I\to X$ are the units of the rings.)
 
