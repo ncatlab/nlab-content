@@ -3,7 +3,7 @@
 
 ## Idea
 
-[[ETCS]] with a [[choice operator]] $\epsilon$. The categorical analogue of [[SEAR plus epsilon]]. 
+[[ETCS]] with a [[choice operator]] $\epsilon$. The categorical analogue of [[SEAR plus epsilon]] (although that article seems to be about SEAR with the non-extensional version of the choice operator). 
 
 ## Related concepts
 
