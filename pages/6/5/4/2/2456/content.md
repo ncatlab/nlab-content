@@ -107,12 +107,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 
 which is inconsistent with a univalent Tarski universe with [[h-proposition|non-propositional]] [[h-sets]]. (See the [[HoTT book]], section 3.8). 
 
-There is also a version of the type-theoretic choice operator local to a [[Tarski universe]] $(U, T)$, given by:
-
-$$\frac{\Gamma \vdash U \; \mathrm{type} \quad \Gamma, X:U \vdash T \; \mathrm{type}}{\Gamma, A:U, x:[T(A)] \vdash \varepsilon_U(A, x):T(A)}$$
-
-$U$ having a choice operator implies that $U$ satisfies [[axiom K]] or [[UIP]]. If $U$ is also univalent, then it is an [[h-groupoid]]. 
-
 ### Relation to double negation
 
 The existence of a choice operator implies [[excluded middle]] and the [[double negation law]], and in particular, means that in [[dependent type theory]] the [[propositional truncation]] of a type is given by the [[double negation]] [[modality]]:
