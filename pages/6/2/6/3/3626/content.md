@@ -112,15 +112,21 @@ Frobenius algebras were originally formulated in the category [[Vect]] of [[vect
 +-- {: .num_defn}
 ###### Definition
 
-A **Frobenius algebra** is a unital, [[associative algebra]] $(A, \mu, \eta)$ equipped with a linear form $\epsilon : A \rightarrow k$ such that $\epsilon\circ\mu$ is a non-degenerate pairing. I.e. the induced map
+A **Frobenius algebra** is a [[unitality|unital]], [[associative algebra]] $(A, \mu, \eta)$ equipped with a [[linear form]] $\epsilon \colon A \rightarrow k$ -- to becalled a **Frobenius form** -- such that $\epsilon \circ \mu$ is a non-degenerate [[inner product]]. I.e. the induced morphism
 
-\[  u \mapsto (v\mapsto\epsilon\circ\mu(v \otimes u)) \]
+\[  
+  u 
+  \;\mapsto\; 
+  \big(
+    v \mapsto \epsilon \circ \mu(v \otimes u)
+  \big) 
+\]
 
-is an [[isomorphism]] of $V$ with its [[dual vector space|dual space]] $V^*$. In such a case, $\epsilon$ is called a **Frobenius form**.
+is an [[isomorphism]] of $V$ with its [[dual vector space|dual space]] $V^*$. 
 
 =--
 
-From this definition it is easy to see that every Frobenius algebra in [[Vect]] is necessarily finite-dimensional.
+From this definition it is easy to see that every Frobenius algebra [[internalization|in]] [[Vect]] is necessarily [[finite-dimensional vector space|finite-dimensional]].
 
 ### Further definitions
  {#FurtherDefinitions}
