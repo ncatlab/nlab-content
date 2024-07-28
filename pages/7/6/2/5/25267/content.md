@@ -21,7 +21,7 @@ In the context of [[machine learning]], *singular learning theory* applies resul
 
 ## References
 
-Historically, it has been understood that the neural networks are singuar statistical models in
+Historically, it has been understood that the neural networks are singular statistical models in
 
 * [[Shun-ichi Amari]], T. Ozeki, H. Park, _Learning and inference in hierarchical models with singularities_, Syst. Comput. Japan __34__:7 (2003) 34--42
 * [[Sumio Watanabe]], _Almost all learning machines are singular_, Proc. IEEE Symp. Found. Comput. Intell., Apr. 2007, 383--388.
