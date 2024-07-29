@@ -8,7 +8,6 @@
 =--
 =--
 
-
 #Contents#
 * toc
 {:toc}
@@ -477,6 +476,7 @@ Further review with emphasis on [[descent]] and Grothendieck fibrations as incar
 
 * [[Barbara Fantechi]], [[Lothar Göttsche]], [[Luc Illusie]], [[Steven L. Kleiman]], [[Nitin Nitsure]], [[Angelo Vistoli]], Chapter 3 of: _Fundamental algebraic geometry. Grothendieck's [[FGA explained]]_, Mathematical Surveys and Monographs __123__, Amer. Math. Soc. (2005) &lbrack;[MR2007f:14001](http://www.ams.org/mathscinet-getitem?mr=2007f:14001), [ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [lecture notes](http://indico.ictp.it/event/a0255/other-view?view=ictptimetable)&rbrack;
 
+* {#Warner12} [[Garth Warner]]: *Fibrations and Sheaves*, EPrint Collection, University of Washington (2012) &lbrack;[hdl:1773/20977](http://hdl.handle.net/1773/20977), [pdf](https://sites.math.washington.edu//~warner/Warner_FIBRATIONS%20AND%20SHEAVES.pdf), [[Warner-FibrationsAndSheaves.pdf:file]]&rbrack;
 
 Textbook accounts:
 
