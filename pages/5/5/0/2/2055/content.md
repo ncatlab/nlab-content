@@ -7,8 +7,6 @@
 
 * [Lovely little lemmas] (http://lovelylittlelemmas.rjprojects.net/) by Remy van Dobben de Bruyn 
 
-* [Low Dimensional Topology](http://ldtopology.wordpress.com) group blog by Ryan Budney, Nathan Dunfield, Jesse Johnson, Daniel Moskovich and Henry Wilton
-
 * [mathbabe](http://mathbabe.org/) Blog on mathematical finance by former academic 
 
 * [Mathblogging.com](http://www.mathblogging.org/) A compilation of math blogs sorted according to genre including the "weekly pics" of the hosts: Felix Breuer, Frederik von Heymann, and Peter Krautzberger
@@ -20,8 +18,6 @@
 * [Mathematics Under the Microscope](http://micromath.wordpress.com) (Alexandre Borovik)
 
 * [Mathematics without Apologies](https://mathematicswithoutapologies.wordpress.com) (Michael Harris)
-
-* [mathlight's blog](http://mathlight.wordpress.com) ([[Zoran Škoda]], noncommutative and derived geometry, mathematical physics, sci publishing)
 
 * [Mathlinks / Art of Problem Solving](http://www.artofproblemsolving.com/Forum/portal.php?ml=1) community, math olympiad style problems discussed
 
@@ -45,8 +41,6 @@
 
 * [Quomodocumque](http://quomodocumque.wordpress.com/) University professor Jordan Ellenberg's blog
 
-* [Secret Blogging Seminar](http://sbseminar.wordpress.com) run by 8 recent Berkeley Ph.D. graduates. "Sort of like a seminar, but with (even) more rude commentary from the audience."
-
 * [Shadows of Simplicity](http://tcjpn.wordpress.com) - notes on analytic, algebraic, geometric, and topological enumerative combinatorics, fractional and operational calculus, and umbral calculus
 
 * [SymOmega](http://symomega.wordpress.com) (root systems, Weyl groups, buildings, algebraic groups...) 
@@ -57,19 +51,13 @@
 
 * [theHigherGeometer](https://thehighergeometer.wordpress.com/) ([[David Roberts]])
 
-* [The Math Less Travelled](http://mathlesstraveled.com/) Expository writing aimed to expose the beauty of mathematics to a general audience
-
 * [The n-Category Caf&#233;](http://golem.ph.utexas.edu/category) A group blog on math, physics and philosophy written by (currently) seven people and affiliated with this wiki
-
-* [The Polymath Blog](http://polymathprojects.wordpress.com) (Tim Gowers "polymath" group projects: number theory, polynomials, algorithms, complexity, ...--last updated July 2011)
  
 * [Three-Toed Sloth](http://bactra.org/weblog)  (Cosma Shalizi: books, science, automata, complex networks, stochastic processes, numerics and simulation, arts, literature, politics)
 
 * [Transcendence](http://whzecomjm.com/) A math blog by whzecomjm covering Algebra, Number Theory etc. in Chinese.
 
 * [Vi Hart's blog](http://vihart.com/) Great videos and photos of mathematical art and story-telling
-
-* [Victor Porton's math blog](http://portonmath.wordpress.com) (filters, posets, funcoids and reloids), abundant with self-centric claims of importance
 
 * [What's new](http://terrytao.wordpress.com) (Terence Tao)
 
@@ -115,6 +103,8 @@
 
 * [Le Petit Chercheur Illustr&#233;](http://yetaspblog.wordpress.com) (Signal processing and applied math, compressed sensing and inverse problems, random embeddings)
 
+* [Low Dimensional Topology](http://ldtopology.wordpress.com) group blog by Ryan Budney, Nathan Dunfield, Jesse Johnson, Daniel Moskovich and Henry Wilton
+
 * [Martin's Blog](http://www.martinorr.name/blog) Martin Orr: algebraic geometry especially abelian varieties, Galois representations
 
 * [Math-Blog](http://math-blog.com) (6 people blog: math books, university math, popular math etc.)
@@ -123,14 +113,16 @@
 
 * [Math Goes Pop!](http://www.mathgoespop.com/) UCLA grad student writes about math in the media and pop culture
 
-* [Math Monday](http://momath.org/home/math-monday/) The Museum of Mathematics will open in 2012 -- this blog details its progress and fun math projects
+* [Mathlight's blog](http://mathlight.wordpress.com) ([[Zoran Škoda]], noncommutative and derived geometry, mathematical physics, sci publishing)
 
-* [Math Section](http://mathsection.com/) ETH Zurich Master's degree student writes about applications of mathematics in everyday life
+* [Math Monday](http://momath.org/home/math-monday/) The Museum of Mathematics will open in 2012 -- this blog details its progress and fun math projects
 
 * [Mathematical Formalities](http://categorymath.wordpress.com/) This blog is written by [[Sanath Devalapurkar]], presenting some of his ideas and thoughts on (higher) category theory and $K$-theory.
 
 * [Mathematical Musings](http://matthewkahle.wordpress.com/)
 (Interactions of probability, statistical physics, topology, and combinatorics. Matthew Kahle)
+
+* [Math Section](http://mathsection.com/) ETH Zurich Master's degree student writes about applications of mathematics in everyday life
 
 * [Maxwell's Demon](http://www.maxwelldemon.com) (Edmund Harriss: vizualizing math and math art, building math sculptures)
 
@@ -166,11 +158,17 @@
 
 * [Rigorous Trivialities](http://rigtriv.wordpress.com) (a group blog - mainly algebraic geometry, including well-organized introductory notes [algebraic geometry from the beginning](http://rigtriv.wordpress.com/ag-from-the-beginning) -- last updated 2015)
 
+* [Secret Blogging Seminar](http://sbseminar.wordpress.com) run by 8 recent Berkeley Ph.D. graduates. "Sort of like a seminar, but with (even) more rude commentary from the audience."
+
 * [Sketches of Topology](http://sketchesoftopology.wordpress.com) (colorful pictures, "visualizations of low dimensional topology")
 
 * [The Everything Seminar](http://cornellmath.wordpress.com) ("Geometry, topology, categories, groups, physics"; recently lots about experimental particle physics: LHC and CMS)
 
+* [The Math Less Travelled](http://mathlesstraveled.com/) Expository writing aimed to expose the beauty of mathematics to a general audience
+
 * [The Numbers Guy](http://blogs.wsj.com/numbersguy/) Wall Street Journal's math/economics blog by Carl Bialik
+
+* [The Polymath Blog](http://polymathprojects.wordpress.com) (Tim Gowers "polymath" group projects: number theory, polynomials, algorithms, complexity, ...--last updated July 2011)
 
 * [The Unapologetic Mathematician](http://unapologetic.wordpress.com) (An expository "blath" by former academic John Armstrong) last updated in 2012
 
@@ -183,6 +181,8 @@
 * [Todd and Vishal's blog](http://topologicalmusings.wordpress.com)--last updated January 2011
 
 * [Uncover a few](http://uncoverafew.wordpress.com/) New blog of problems and teaching ideas
+
+* [Victor Porton's math blog](http://portonmath.wordpress.com) (filters, posets, funcoids and reloids), abundant with self-centric claims of importance
 
 * [Vivatsgasse 7](http://vivatsgasse7.wordpress.com) (Max Planck Bonn graduate students-- last update November 2007)
 
