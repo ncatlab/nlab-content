@@ -20,7 +20,6 @@
 =--
 
 
-
 #Contents# 
 * table of contents
 {:toc}
@@ -185,6 +184,8 @@ Introductions:
 * [[Richard Borcherds]], A. Barnard, _Lectures on QFT_, ([arxiv:math-ph/0204014](http://arxiv.org/abs/math-ph/0204014))
 
 * [[David Tong]], *Lectures on Quantum Field Theory*, Cambridge (2006-7) &lbrack;[pdf](https://www.damtp.cam.ac.uk/user/tong/qft/qft.pdf), [web](https://www.damtp.cam.ac.uk/user/tong/qft.html)&rbrack;
+
+* {#Warner08} [[Garth Warner]]: *Bosonic Quantum Field Theory*, EPrint Collection, University of Washington (2008) &lbrack;[hdl:1773/3710](http://hdl.handle.net/1773/3710), [pdf](https://sites.math.washington.edu//~warner/BQFT_Warner.pdf), [[Warner-BosonicQFT.pdf:file]]&rbrack;
 
 * [[Matthew Schwartz]], *Quantum Field Theory and the Standard Model*, Cambridge University Press (2014) &lbrack;[ISBN:9781107034730](https://www.cambridge.org/de/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-field-theory-and-standard-model?format=HB&isbn=9781107034730), [doi:10.1017/9781139540940](https://doi.org/10.1017/9781139540940), [pdf](https://indico.ihep.ac.cn/event/11134/attachments/3783/4308/QFT-Schwartz.pdf)&rbrack;
 
