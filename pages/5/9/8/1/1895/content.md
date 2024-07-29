@@ -77,11 +77,18 @@ To be continued...
 
 * [[Iwahori–Hecke algebra]]
 
+
 ## References
+
+Lecture notes:
+
+* [[Garth Warner]]: *Elementary Aspects of the Theory of Hecke Operators*, University of Washington (1988) &lbrack;[pdf](https://sites.math.washington.edu//~warner/Elementary_Aspects_of_the_Theory_of_Hecke_Operators.pdf), [[Warner-HeckeOperators.pdf:file]]&rbrack;
+
 
 In relation to the [[Knizhnik-Zamolodchikov equation]]:
 
-* [[Ivan Cherednik]], *Lectures on Knizhnik-Zamolodchikov equations and Hecke algebras*, Mathematical Society of Japan Memoirs **1998** (1998) 1-96 $[$[doi:10.2969/msjmemoirs/00101C010](https://doi.org/10.2969/msjmemoirs/00101C010)$]$
+* [[Ivan Cherednik]], *Lectures on Knizhnik-Zamolodchikov equations and Hecke algebras*, Mathematical Society of Japan Memoirs **1998** (1998) 1-96 &lbrack;[doi:10.2969/msjmemoirs/00101C010](https://doi.org/10.2969/msjmemoirs/00101C010)&rbrack;
+
 
 See also:
 
@@ -95,3 +102,8 @@ For the representation theory of the degenerate affine Hecke algebra see
 * Takeshi Suzuki, _Rogawski's conjecture on the Jantzen filtration for the degenerate affine Hecke algebra of type A_, [math.QA/9805035](http://arxiv.org/abs/math/9805035)
 
 [[!redirects Hecke algebras]]
+
+[[!redirects Hecke operator]]
+[[!redirects Hecke operators]]
+
+
