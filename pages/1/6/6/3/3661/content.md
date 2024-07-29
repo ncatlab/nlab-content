@@ -143,7 +143,7 @@ For more on this see [Grandis and Paré](#GrandisParé07), Theorem 5.2.
 
 * {#GrandisParé07} [[Marco Grandis]], [[Robert Paré]] _Lax Kan extensions for double categories (on weak double categories, part IV)_ , Cahiers de topologie et géométrie différentielle catégoriques, tome 48, no 3 (2007), p. 163-199
 
-Some of definitions and proofs of the above theorems, along with the 2-categorical generalization (Conduch&#233; considered only the 1-categorical case) can also be found in (e.g. see Lemma 6.1 for a proof that Conduch&#233; implies expontiability):
+Some of definitions and proofs of the above theorems, along with the 2-categorical generalization (Conduch&#233; considered only the 1-categorical case) can also be found in (e.g. see Lemma 6.1 for a proof that Conduch&#233; implies exponentiability):
 
 * [[Peter Johnstone]], "Fibrations and partial products in a 2-category", *Appl. Categ. Structures* 1 (1993), 141--179
 
@@ -167,8 +167,6 @@ An analogue of Conduch&#233; functors for [[∞-categories]], classified by maps
 [[!redirects Conduchè fibration]]
 [[!redirects Conduche fibration]]
 
-[[!redirects Conduche functor]]
-[[!redirects Conduché functor]]
 [[!redirects Conduché functor]]
 [[!redirects Conduchè functor]]
 [[!redirects Conduche functor]]
@@ -179,7 +177,7 @@ An analogue of Conduch&#233; functors for [[∞-categories]], classified by maps
 
 [[!redirects exponentiable functors]]
 
-[[!redirects strict Conduche functors]]
+[[!redirects strict Conduche functor]]
 [[!redirects strict Conduche functors]]
 [[!redirects strict Conduché functor]]
 [[!redirects strict Conduché functors]]
