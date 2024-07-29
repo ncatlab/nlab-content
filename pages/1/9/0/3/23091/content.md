@@ -100,7 +100,7 @@ Monographs:
 
 * {#tomDieck2008} [[Tammo tom Dieck]],  _Algebraic topology_, European Mathematical Society, Zürich (2008) ([doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/diecktop.pdf))
 
-* [[Garth Warner]]: *Topics in Topology and Homotopy Theory* (2003-7) \[<a href="https://sites.math.washington.edu//~warner/TTHT_Warner.pdf">pdf</a>, [arXiv:2007.02467](https://arxiv.org/abs/2007.02467)\]
+* {#Warner05} [[Garth Warner]]: *Topics in Topology and Homotopy Theory*, EPrint Collection, University of Washington (2005) \[<a href="http://hdl.handle.net/1773/2641">hdl:1773/2641</a>, <a href="https://sites.math.washington.edu//~warner/TTHT_Warner.pdf">pdf</a>, [arXiv:2007.02467](https://arxiv.org/abs/2007.02467)\]
 
 * [[Peter May]], [[Kate Ponto]], _[[More concise algebraic topology]]_,   University of Chicago Press (2012) ([ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf))
 
