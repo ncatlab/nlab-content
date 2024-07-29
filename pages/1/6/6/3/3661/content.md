@@ -41,7 +41,7 @@ One way to describe the problem is that the pushout has "created new morphisms" 
 
 ## Definition
 
-A [[functor]] $p\colon E\to B$ is a **strict Conduch&#233; functor** if for any [[morphism]] $\alpha\colon a\to b$ in $E$ and any factorization $p a \overset{\beta}{\to} c \overset{\gamma}{\to} p b$ of $p \alpha$ in $B$, we have:
+A [[functor]] $p\colon E\to B$ is a **strict Conduch&#233; functor**, if for any [[morphism]] $\alpha\colon a\to b$ in $E$ and any factorization $p a \overset{\beta}{\to} c \overset{\gamma}{\to} p b$ of $p \alpha$ in $B$, we have:
 
 1. there exists a factorization $a \overset{\tilde{\beta}}{\to} d \overset{\tilde{\gamma}}{\to} b$ of $\alpha$ in $E$ such that $p \tilde{\beta} = \beta$ and $p \tilde{\gamma} = \gamma$, and
 
@@ -74,6 +74,12 @@ For exponentiability in the weak [[2-category]] $Cat$, in the sense of pullback 
 A functor can then be shown to be a weak Conduch&#233; functor if and only if it is exponentiable in the weak sense in $Cat$.
 
 A Conduch&#233; functor is **discrete** if each factorisation is unique (equivalently, if it reflects identities). Discrete Conduch&#233; functors generalise [[discrete fibrations]] and [[discrete opfibrations]].
+
+Discrete Conduch&#233; functors are said to satisfy the **unique lifting of factorisations**. Discrete Conduch&#233; functors are therefore sometimes called **ULF** functors.
+
+### Properties
+
+* ULF functors form the right class of an [[orthogonal factorisation system]] on [[Cat]].
 
 ## Conduch&#233; functors and 2-functors to Prof
 
@@ -157,10 +163,13 @@ Discrete Conduch&#233; functors are considered in
 
 * [[Peter Johnstone]], _A Note on Discrete Conduch&#233; Fibrations_ , TAC **5** no.1 (1999) pp.1-11. ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n1/n1.pdf))
 
-
 An analogue of Conduch&#233; functors for [[∞-categories]], classified by maps into an ∞-category version of [[Prof]], is studied in
 
 * {#AyalaFrancis} [[David Ayala]] and [[John Francis]], _Fibrations of ∞-categories_, [arxiv](https://arxiv.org/abs/1702.02681)
+
+A discussion of ULF functors (including the fact they form a factorisation system) is contained in:
+
+* [Pullback-homomorphisms](https://golem.ph.utexas.edu/category/2010/08/pullbackhomomorphisms.html), n-Category Café (2010)
  
 
 [[!redirects Conduché fibration]]
@@ -210,3 +219,7 @@ An analogue of Conduch&#233; functors for [[∞-categories]], classified by maps
 [[!redirects discrete Conduché functors]]
 [[!redirects discrete exponentiable functor]]
 [[!redirects discrete exponentiable functors]]
+
+[[!redirects ULF]]
+[[!redirects ULF functor]]
+[[!redirects ULF functors]]
