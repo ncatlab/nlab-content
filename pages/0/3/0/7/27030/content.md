@@ -33,7 +33,7 @@ On [[C-star algebras|$C^\ast$-algebras]]:
 
 On [[quantum information theory]] via [[completely positive maps]] ([[quantum channels]]):
 
-* [[Garth Warner]]: *Positivity*, University of Washington &lbrack;[pdf](https://sites.math.washington.edu//~warner/Positivity_Warner.pdf), [[Warner-Positivity.pdf:file]]&rbrack;
+* [[Garth Warner]]: *Positivity*, University of Washington (2010) &lbrack;[pdf](https://sites.math.washington.edu//~warner/Positivity_Warner.pdf), [[Warner-Positivity.pdf:file]]&rbrack;
 
 
 
