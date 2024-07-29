@@ -218,15 +218,19 @@ The original texts are
 
 * A. S. Wightman, L. Gårding, _Fields as Operator-valued Distributions in Relativistic Quantum Theory_, Arkiv f. Fysik, Kungl. Svenska Vetenskapsak. 28, 129–189 (1964).
 
-* Raymond F. Streater, [[Arthur Wightman]], _PCT, spin and statistics, and all that_, Princeton University Press 1989  ([jstor](https://www.jstor.org/stable/j.ctt1cx3vcq), [ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1026.81027&format=complete) of the newest edition).
+* [[Raymond F. Streater]], [[Arthur S. Wightman]], *PCT, Spin and Statistics, and All That*, Princeton University Press (1989, 2000) &lbrack;[ISBN:9780691070629](https://press.princeton.edu/books/paperback/9780691070629/pct-spin-and-statistics-and-all-that), [jstor:j.ctt1cx3vcq](https://www.jstor.org/stable/j.ctt1cx3vcq)&rbrack;
 
 Raymond Streater relates some historical background about the book and the approach [on his webpage] (http://www.mth.kcl.ac.uk/~streater/wightman.html).
 
-A review of [[QFT]] via Wightman axioms and [[AQFT]] is in 
 
-* [[Franco Strocchi]], _Relativistic Quantum Mechanics and Field Theory_, Found.Phys. 34 (2004) 501-527 ([arXiv:hep-th/0401143](http://arxiv.org/abs/hep-th/0401143))
+Introduction to [[QFT]] via Wightman axioms and [[AQFT]]:
 
-The list of examples above draws from
+* [[Garth Warner]]: *Quantum Field Theory Seminar (School of Wightman et al.)*, seminar notes, University of Washington &lbrack;[pdf](https://sites.math.washington.edu//~warner/QFTSeminar_Warner.pdf), [[Warner-WightmanQFT.pdf:file]]&rbrack;
+
+* [[Franco Strocchi]], _Relativistic Quantum Mechanics and Field Theory_, Found. Phys. **34** (2004) 501-527 &lbrack;[arXiv:hep-th/0401143](http://arxiv.org/abs/hep-th/0401143)&rbrack;
+
+
+The list of examples above draws from:
 
 * Abdesselam, _[TP.SE comment](http://theoreticalphysics.stackexchange.com/questions/308/which-qfts-were-rigorously-constructed/350#350)_
 
