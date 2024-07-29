@@ -151,6 +151,9 @@ In [[database theory]] p.r.a.s between copresheaf categories, known as _data mig
 
 * {#Spivak10} [[David Spivak]], _Functorial Data Migration_, Information and Computation **217**, 2012. ([arXiv:1009.1166](https://arxiv.org/abs/1009.1166), [doi:10.1016/j.ic.2012.05.001](https://doi.org/10.1016/j.ic.2012.05.001))
 
+For a discussion of the extension of the [[orthogonal factorisation system]] on the [[Kleisli category]] to the [[Eilenberg–Moore category]], see the discussion in:
+
+* [Pullback-homomorphisms](https://golem.ph.utexas.edu/category/2010/08/pullbackhomomorphisms.html), n-Category Café (2010)
 
 [[!redirects parametric right adjoints]]
 [[!redirects p.r.a. functor]]
