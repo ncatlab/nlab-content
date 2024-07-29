@@ -7,10 +7,13 @@ Cluster varieties, their quantization and their duality were gradually introduce
 
 A major conjecture has been resolved in 
 
- * [[Mark Gross]], Paul Hacking, Sean Keel, [[Maxim Kontsevich]], _Canonical bases for cluster algebras_, [arxiv:1411.1394](https://arxiv.org/abs/1411.1394)
+ * [[Mark Gross]], Paul Hacking, Sean Keel, [[Maxim Kontsevich]], _Canonical bases for cluster algebras_, J. Amer. Math. Soc. __31__:2 (2018) 497--608
+[doi](https://doi.org/10.1090/jams/890) [arXiv:1411.1394](https://arxiv.org/abs/1411.1394)
 
 > In previous work, the first three authors conjectured that the ring of regular functions on a natural class of affine log Calabi-Yau varieties (those with maximal boundary) has a canonical vector space basis parameterized by the integral tropical points of the mirror. Further, the structure constants for the multiplication rule in this basis should be given by counting broken lines (certain combinatorial objects, morally the tropicalisations of holomorphic discs). Here we prove the conjecture in the case of cluster varieties, where the statement is a more precise form of the Fock-Goncharov dual basis conjecture. In particular, under suitable hypotheses, for each $Y$ the partial compactification of an affine cluster variety $U$ given by allowing some frozen variables to vanish, we obtain canonical bases for the ring of functions on $Y$ extending to a basis for functions on U. Each choice of seed canonically identifies the parameterizing sets of these bases with integral points in a polyhedral cone. These results specialize to basis results of combinatorial representation theory. For example, by considering the open double Bruhat cell U in the basic affine space $Y$ we obtain a canonical basis of each irreducible representation of $SL_r$, parameterized by a set which each choice of seed identifies with integral points of a lattice polytope. These bases and polytopes are all constructed essentially without representation theoretic considerations. Along the way, our methods prove a number of conjectures in cluster theory, including positivity of the Laurent phenomenon for cluster algebras of geometric type. 
 
 * Lara Bossinger, _Tropical totally positive cluster varieties_, [arXiv:2208.01723](https://arxiv.org/abs/2208.01723)
 
+An early survey
 
+* M. Gross, P. Hacking, and S. Keel, _Birational geometry of cluster algebras_, Algebr. Geom. 2 (2015), no. 2, 137--175, [doi](https://10.14231/AG-2015-007) MR3350154
