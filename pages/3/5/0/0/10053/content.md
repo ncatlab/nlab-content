@@ -30,13 +30,18 @@ It might be noteworthy that for the established rigorous construction of [[pertu
 
 ## References
 
-Review includes
+Review:
 
 * {#Jaffe} [[Arthur Jaffe]], _Constructive quantum field theory_ ([pdf](http://www.arthurjaffe.com/Assets/pdf/CQFT.pdf))
 
 * Stephen J. Summers, _A Perspective on Constructive Quantum Field Theory_ ([arXiv:1203.3991](http://arxiv.org/abs/1203.3991))
 
-Discussion specifically of [[path integrals]] includes
+See also:
+
+* {#Warner08} [[Garth Warner]]: *Bosonic Quantum Field Theory*, EPrint Collection, University of Washington (2008) &lbrack;[hdl:1773/3710](http://hdl.handle.net/1773/3710), [pdf](https://sites.math.washington.edu//~warner/BQFT_Warner.pdf), [[Warner-BosonicQFT.pdf:file]]&rbrack;
+
+
+Discussion specifically of constructive [[path integrals]]:
 
 * [[James Glimm]], [[Arthur Jaffe]], _[[Quantum physics -- A functional integral point of view]]_,  535 pages, Springer
 
