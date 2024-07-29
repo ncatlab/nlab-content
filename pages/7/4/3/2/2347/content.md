@@ -270,7 +270,7 @@ Classical textbooks:
 
 See also:
 
-* [[Garth Warner]]: *Lagrangian Mechanics*, EPrint Collection, University of Washington (2009) &lbrack;[hdl:1773/4606](http://hdl.handle.net/1773/4606), [pdf](https://sites.math.washington.edu//~warner/LM_Warner.pdf), [[WarnerLagrangianMechanics.pdf:file]]&rbrack;
+* {#Warner09} [[Garth Warner]]: *Lagrangian Mechanics*, EPrint Collection, University of Washington (2009) &lbrack;[hdl:1773/4606](http://hdl.handle.net/1773/4606), [pdf](https://sites.math.washington.edu//~warner/LM_Warner.pdf), [[WarnerLagrangianMechanics.pdf:file]]&rbrack;
 
 
 Detailed exposition with emphasis on the [[principle of extremal action]]:
