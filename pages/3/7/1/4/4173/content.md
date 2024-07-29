@@ -72,7 +72,7 @@ Monographs:
 
 * [[Robert Wald]], *General Relativity*, University of Chicago Press (1984) &lbrack;[doi:10.7208/chicago/9780226870373.001.0001](https://doi.org/10.7208/chicago/9780226870373.001.0001), [pdf](http://fma.if.usp.br/~mlima/teaching/PGF5292_2021/Wald_GR.pdf)&rbrack;
 
-* [[Garth Warner]]: *Mathematical Aspects of General Relativity*, EPrint Collection, University Of Washington (2006) &lbrack;[hdl:1773/2637](http://hdl.handle.net/1773/2637), [pdf](https://sites.math.washington.edu//~warner/MAGR_Warner.pdf), [[Warner-GeneralRelativity.pdf:file]]&rbrack;
+* {#Warner06} [[Garth Warner]]: *Mathematical Aspects of General Relativity*, EPrint Collection, University Of Washington (2006) &lbrack;[hdl:1773/2637](http://hdl.handle.net/1773/2637), [pdf](https://sites.math.washington.edu//~warner/MAGR_Warner.pdf), [[Warner-GeneralRelativity.pdf:file]]&rbrack;
 
 * [[Thanu Padmanabhan]], *Gravitation -- Foundations and Frontiers*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511807787](https://doi.org/10.1017/CBO9780511807787), [spire:852758](https://inspirehep.net/literature/852758), toc: [pdf](https://web.iucaa.in/~paddy/books/GRTOC.pdf)&rbrack;
 
