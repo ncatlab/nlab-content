@@ -49,9 +49,17 @@ The 2-category of symmetric pseudomonoids in a symmetric monoidal 2-category has
 * [[pseudoaction]]
 * [[pseudomonad]]
 
-## References 
+## References
+
+The concept was introduced in:
 
 * {#StreetDay97} [[Ross Street]], [[Brian Day]], *Monoidal bicategories and Hopf algebroids*, Advances in Mathematics, **129** 1 (1997) 99-157 &lbrack;[doi:10.1006/aima.1997.1649](https://doi.org/10.1006/aima.1997.1649)&rbrack;
+
+The terminology **monoidale** was introduced in:
+
+* [[Dimitri Chikhladze]], _A category of quantum categories_, [arXiv:0910.0512](https://arxiv.org/abs/0910.0512) (2009).
+
+* [[Dimitri Chikhladze]], [[Stephen Lack]], and [[Ross Street]], _Hopf monoidal comonads_, [arXiv:1002.1122](https://arxiv.org/abs/1002.1122) (2010).
 
 * {#Schaeppi} Daniel Schäppi, *Ind-abelian categories and quasi-coherent sheaves*, [arXiv](https://arxiv.org/abs/1211.3678), 2014.
 
