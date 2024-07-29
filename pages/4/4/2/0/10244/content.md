@@ -277,7 +277,13 @@ The [[equations of motion]] for the [[superstring]] have been derived via the [[
 
 See also 
 
-* [[Igor Bandos]], [[Dmitrij Sorokin]], [[Dmitrij Volkov]], _On the generalized action principle for superstrings and supermembranes_, Phys. Lett. B352:269-275, 1995 ([arXiv:hep-th/9502141](https://arxiv.org/abs/hep-th/9502141))
+* [[Igor Bandos]], [[Dmitrij Sorokin]], [[Dmitrij Volkov]], _On the generalized action principle for superstrings and supermembranes_, Phys. Lett. B **352** (1995) 269-275 &lbrack;[arXiv:hep-th/9502141](https://arxiv.org/abs/hep-th/9502141)&rbrack;
+
+For [[super AdS spacetime|super AdS]] [[target spacetime]]:
+
+* [[Igor A. Bandos]]: *Superembedding approach to superstring in $AdS_5 \times S^5$ superspace*, in: *Fundamental Interactions* (2009) 303-334 &lbrack;[arXiv:0812.0257](https://arxiv.org/abs/0812.0257), [doi:10.1142/9789814277839_0018](https://doi.org/10.1142/9789814277839_0018)&rbrack;
+
+
 
 ### For the M2-brane
 
