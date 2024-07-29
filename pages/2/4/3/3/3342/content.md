@@ -177,14 +177,19 @@ translated to English as:
 * [[Rudolf Haag]], *Discussion of the ‘axioms’ and the asymptotic properties of a local field theory with composite particles*, EPJ H 35, 243–253 (2010) ([doi:10.1140/epjh/e2010-10041-3](https://doi.org/10.1140/epjh/e2010-10041-3))
 
 
-Textbook accounts include
+Textbook accounts:
 
 * {#Haag} [[Rudolf Haag]], _[[Local Quantum Physics -- Fields, Particles, Algebras]]_ Springer (1992) 2nd., rev. and enlarged ed. Springer (1996) ([ISBN 978-3-642-61458-3] (https://www.springer.com/gp/book/9783540610496))
 
 
 * [[Huzihiro Araki]]: _[[Mathematical Theory of Quantum Fields]]_ Oxford University Press 1999 [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0998.81501&format=complete). 
 
-precursors include
+and seminar notes:
+
+* [[Garth Warner]]: *Quantum Field Theory Seminar (School of Haag-Kastler et al.)*, seminar notes, University of Washington &lbrack;[pdf](https://sites.math.washington.edu//~warner/QFT2Seminar_Warner.pdf), [[Warner-HaagKastlerQFT.pdf:file]]&rbrack;
+
+
+Precursors include:
 
 * Bogolyubov, Logunov, Oksak, Todorov: _General principles of quantum field theory._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0732.46040&format=complete))
 
