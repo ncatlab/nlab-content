@@ -83,5 +83,11 @@ Stable factorisation systems are called **complete factorisation systems** in th
  
 
 [[!redirects stable factorization systems]]
+
+[[!redirects stable factorisation system]]
+[[!redirects stable factorisation systems]]
+
 [[!redirects local factorization system]]
 [[!redirects local factorization systems]]
+
+
