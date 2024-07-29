@@ -350,7 +350,7 @@ A monograph that aims to be more expository, focusing on [[presheaf toposes]]:
 
 * [[Peter Johnstone]], *[[Elephant|Sketches of an elephant: a topos theory compendium]]*  Oxford University Press 2002, Volume 1 ([ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259)), Volume 2 ([ISBN:9780198515982](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198515982))
 
-* {#Warner12} [[Garth Warner]], *Homotopical Topos Theory* (2012) &lbrack;[pdf](https://sites.math.washington.edu//~warner/HTT_Warner.pdf), [[Waner-HomotopicalTopos.pdf:file]]&rbrack;
+* {#Warner12} [[Garth Warner]], *Homotopical Topos Theory*, EPrint Collection, University of Washington (2012) &lbrack;[hdl:1773/19722](http://hdl.handle.net/1773/19722), [pdf](https://sites.math.washington.edu//~warner/HTT_Warner.pdf), [[Waner-HomotopicalTopos.pdf:file]]&rbrack;
 
 
 ### Classifying toposes
