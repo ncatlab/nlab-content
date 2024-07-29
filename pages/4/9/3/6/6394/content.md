@@ -60,6 +60,10 @@ and specifically on the case of the [[M5-brane]]:
 
 * {#HoweSezginWest97} [[Paul Howe]], [[Ergin Sezgin]], [[Peter West]], _Covariant Field Equations of the M Theory Five-Brane_, Phys. Lett. B **399** (1997) 49-59 &lbrack;[arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008), <a href="https://doi.org/10.1016/S0370-2693(97)00257-8">doi:10.1016/S0370-2693(97)00257-8</a>&rbrack;
 
+and for [[intersecting branes]]:
+
+* C. S. Chu, [[Paul S. Howe]], [[Ergin Sezgin]], [[Peter C. West]]: *Open superbranes*, Physics Letters B **429** 3–4 (1998) 273-280 &lbrack;<a href="https://doi.org/10.1016/S0370-2693(98)00441-9">doi:10.1016/S0370-2693(98)00441-9</a>&rbrack;
+
 Amplification that the resulting [[higher gauge field]] on the [[M5-brane]] is *not naively* [[self-dual higher gauge field|self-dual]]:
 
 * {#HoweSezginWest97} [[Paul S. Howe]], [[Ergin Sezgin]], [[Peter C. West]], *The six-dimensional self-dual tensor*, Physics Letters B **400** 3–4 (1997) 255-259 &lbrack;<a href="https://doi.org/10.1016/S0370-2693(97)00365-1">doi:10.1016/S0370-2693(97)00365-1</a>&rbrack;
