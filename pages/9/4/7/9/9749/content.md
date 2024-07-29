@@ -126,8 +126,8 @@ Remark: The space $P{X}$ actually has a superconvex structure since, for $\lim_{
  The space $X$, being a separable metric space, has a countable dense subset  $E$, and hence  the set $D=\{\sum_{i=1}^n r_i \delta_{e_i} \, | \, e_i\in \E, r_i \in \mathbb{Q}\cap[0,1],  \sum_{i=1}^n  r_i=1,  \text{ and } n  \text{ finite}\}$ is dense in $P{X}$.(Parthasarathy, Probability measures on metric spaces,Theorem 6.3)   Since the set $D$ is dense in $P{X}$ and $P{X}$ is a complete separable metric space it follows that the functions $f$ and $g$ are completely determined by their  values on the dense subset $D$.  We have $f(\sum_{i=1}^n r_i \delta_{e_i})= \sum_{i=1}^n r_i f(\delta_{e_i}) =  \sum_{i=1}^n r_i e_i$, where the first equality follows by Lemma \ref{FunThm}, and the second equality by the required condition on algebras, $h(\delta_e)=e$, and similiarly $g(\sum_{i=1}^n r_i \delta_{e_i}) = \sum_{i=1}^n r_i e_i.$  Since $f=g$ on the dense subset and both $f$ and $g$ are continuous maps it follows that $f=g$ on all of $P{X}$. 
 \end{proof} 
 
-\begin{theorem} \label{thm} Let $X$  be a Polish space and suppose $h:P{X} \rightarrow X$ is a $P$-algebra.  Then $h$ is a free $P$-algebra if and only if there exists a $\mathbf{Cvx}$-isomorphism $\phi: X \rightarrow P{Y}$ for some Polish space $Y$.
-\end{theorem}
+\begin{lemma} \label{thm} Let $X$  be a Polish space and suppose $h:P{X} \rightarrow X$ is a $P$-algebra.  Then $h$ is a free $P$-algebra if and only if there exists a $\mathbf{Cvx}$-isomorphism $\phi: X \rightarrow P{Y}$ for some Polish space $Y$.
+\end{lemma}
 \begin{proof}
 Suppose there exists a $\mathbf{Cvx}$-isomorphism $\phi: X \rightarrow P{Y}$ then $\hat{h} = \phi \circ h \circ P(\phi^{-1}): P(P{Y}) \rightarrow P{Y}$ is also a $P$-algebra.  Since the multiplication natural transformation $\mu: P \circ P \Rightarrow P$ gives the free $P$-algebra $\mu_Y: P(P{Y}) \rightarrow P{Y}$ it follows by the uniqueness lemma that $\hat{h}=\mu_Y$.  Because $\phi$ is a $\mathbf{Cvx}$-isomorphism it then follows that $h$ is a free $P$-algebra.
 
@@ -148,7 +148,7 @@ The only space $X$ for which every element $Q \in P{X}$ is characterized by two 
 \end{lemma}
 \begin{proof} The function $m$ is continuous because each of the component maps are continuous.  The condition $m \circ \eta_{P{\mathbf{2}} \times P{\mathbf{2}}} = id_{P{\mathbf{2}} \times P{\mathbf{2}}}$ follows because for each element $(Q,R) \in P{\mathbf{2}} \times P{\mathbf{2}}$ we have $\mu_2(G{\pi_1} \delta_{(Q,R)}) = \mu_2(\delta_{\pi_1(Q,R)}) = \mu_2(\delta_P)=Q$ and similarly $\mu_2(P{\pi_2} \delta_{(Q,R)}) =R$.
 
-To prove the required condition $P{m} \circ m= \mu_{P{2} \times P{2}} \circ m$ first note that $m$ is an affine function because each component map $\mu_2 \circ P{\pi_i}$, for $i=1,2$, is a composite of affine maps. Moreover, since $P{\mathbf{2}} \times P{\mathbf{2}}$ is a separable metric space it has a countable dense subset of elements $(u_k, v_k)$ so that the set of elements consisting of affine sums of Dirac measures of the form $\sum_{j=1}^p s_j \delta_{(u_j,v_j)}$ for $p$ a finite number  is a dense subset of $P(P{\mathbf{2}} \times P{\mathbf{2}})$.  In turn it follows that affine sums of elements of the form $\sum_{i=1}^n r_i  \delta_{\sum_{j=1}^p s_j^i \delta_{(u_j^i,v_j^i)}}$ specify a dense subset of $P(P(P(\mathbf{2}) \times P(\mathbf{2})))$.  A direct computation on the dense elements, using the fact that all the maps are affine, then yields $P{m} \circ m= \mu_{P{\mathbf{2}} \times P{\mathbf{2}}} \circ m$ on all the elements of the dense set.  Since the maps are all continuous  it therefore follows that $P{m} \circ m= \mu_{P{\mathbf{2}} \times P{\mathbf{2}}} \circ m$ on all elements of $P(P(P{2} \times P{\mathbf{2}}))$.  This completes the proof that $m$ is a $P$-algebra.
+To prove the required condition $P{m} \circ m= \mu_{P{2} \times P{2}} \circ m$ first note that $m$ is an affine function because each component map $\mu_2 \circ P{\pi_i}$, for $i=1,2$, is a composite of affine maps. Moreover, since $P{\mathbf{2}} \times P{\mathbf{2}}$ is a separable metric space it has a countable dense subset of elements $(u_k, v_k)$ so that the set of elements consisting of affine sums of Dirac measures of the form $\sum_{j=1}^p s_j \delta_{(u_j,v_j)}$ for $p$ a finite number  is a dense subset of $P(P{\mathbf{2}} \times P{\mathbf{2}})$.  In turn it follows that affine sums of elements of the form $\sum_{i=1}^n r_i  \delta_{\sum_{j=1}^p s_j^i \delta_{(u_j^i,v_j^i)}}$ specify a dense subset of $P(P(P(\mathbf{2}) \times P(\mathbf{2})))$.  A direct computation on the dense elements, using the fact that all the maps are affine, then yields $P{m} \circ m= \mu_{P{\mathbf{2}} \times P{\mathbf{2}}} \circ m$ on all the elements of the dense set.  Since the maps are all continuous  it therefore follows that $P{m} \circ m= \mu_{P{\mathbf{2}} \times P{\mathbf{2}}} \circ m$ on all elements of $P(P(P{\mathbf{2}} \times P{\mathbf{2}}))$.  This completes the proof that $m$ is a $P$-algebra.
 
 \end{proof}
 
@@ -160,9 +160,11 @@ The category of $P$-algebras  is not equivalent to the Kleisi category of the $P
 By Lemma \ref{marginal} we know that the marginalization map  $m:P( P{\mathbf{2}} \times P{\mathbf{2}}) \rightarrow P{\mathbf{2}} \times P{\mathbf{2}}$ is a $P$-algebra.
 By Lemma \ref{L3} we know that $P{\mathbf{2}} \times P{\mathbf{2}}$ is not $\mathbf{Cvx}$-isomorphic to $P{Y}$ for any space $Y$. Hence by Lemma \ref{thm} it follows that $m$ is not a free $P$-algebra, and hence the category of $P$-algebras  is not equivalent to the Kleisi category for the $P$-monad.
 \end{proof}
+If Lemma \ref{L3} can be generalized to the statement that if the convex space $\prod_{i \in I}P(X_i)$, where $I$ is a countable indexing set, is not $\mathbf{Cvx}$-isomorphic to $P(Z)$ for any Polish space $Z$ then all the marginalization maps $m: P\big(\prod_{i \in I}P(X_i)\big) \rightarrow \prod_{i \in I}P(X_i)$ are non-free $P$-algebras. Those maps are obviously $P$-algebras by the argument used in Lemma \ref{marginal}.  
 
-Doerkat (insert link to article) gives a characterization of the $P$-algebras on Polish spaces different than the Eilenberg-Moore representation.
+[Doberkat](http://ls10-www.cs.uni-dortmund.de/index.php?id=18) gives a characterization of the $P$-algebras on Polish spaces as convex spaces which satisfy some basic properties. The transition between the Eilenberg-Moore(EM) representation and Doberkats representation is that given an EM $P$-algebra $h: P{X} \rightarrow X$ one obtains an induced convex space structure on $X$ by defining $\sum_{i=1}^n p_i x_i := h(\sum_{i=1}^n p_i \delta_{x_i})$ so that as a convex space  $P{X}$ modulo the equivalence relation specified by $h$ is isomorphic to the convex space $X$. The projection map $P{X}/h \rightarrow X$ is the function $h$ which is affine.  Conversely, given a Polish space $X$ such that there exists an equivalence relation $R$ on $P{X}$, partitioning it into equivalence classes such that the projection map $\pi:P{X} \rightarrow X$ satisfies some basic properties listed by Doberkat then $\pi$ is an EM $P$-algebra.
 
+Doberkat points out that the countable discrete Polish spaces cannot be algebras because such spaces are disconnected, hence there can be no continuous map $P{\mathbf{n}} \rightarrow \mathbf{n}$.  
 
 ## Related constructions
 
@@ -259,18 +261,15 @@ The article
 
 * {#VanBelle21} [[Ruben Van Belle]], *Probability monads as codensity monads*  (2021) $[$[arXiv:2111.01250](https://arxiv.org/abs/2111.01250)$]$ 
 
-shows, in effect, that the Giry monad restricted to countable measurable spaces (with the discrete $\sigma$-algebra) yields the restricted Giry functor $G|: \mathbf{Meas}_c \rightarrow \mathbf{Meas}$ which has the codensity monad $G$.  This suggest that the natural numbers $\mathbb{N}$ are ''sufficient'' in some sense. Indeed, the full subcategory of Polish spaces consisting of the single object $N$ of all natural numbers with the powerset $\sigma$-algebra is codense in $Pol$ for the reasons delineated in the proof above - every function $X \rightarrow N$ is completely determined by its values on the dense subset of $X$. The proof of that can be found in 
-* {#Sturtz22} [[Kirk Sturtz]], _Giry algebras for standard measurable spaces_ $[$[arXiv:2202:10819](https://arxiv.org/abs/2202.10819)$]$
+shows, in effect, that the Giry monad restricted to countable measurable spaces (with the discrete $\sigma$-algebra) yields the restricted Giry functor $G|: \mathbf{Meas}_c \rightarrow \mathbf{Meas}$ which has the codensity monad $G$.  This suggest that the natural numbers $\mathbb{N}$ are ''sufficient'' in some sense. Indeed, the full subcategory of Polish spaces consisting of the single object $N$ of all natural numbers with the powerset $\sigma$-algebra is codense in $Pol$ for the reasons delineated in the proof above - every continuous function $P{X} \rightarrow X$ is completely determined by its values on the countable dense subset of $P{X}$. 
 
-with the caveat that standard measurable spaces should be replaced by Polish spaces. Recognition of that error led to the above proof that for Polish spaces no non-free algebras exists. 
-That article has evolved from 
-the preliminary work 
+The article  
 
 * [[Kirk Sturtz]], _Categorical Probability Theory_, $[$[arXiv:1406.6030](http://arxiv.org/abs/1406.6030)$]$
 
-which views probability measures via double dualization, restricted to weakly averaging affine maps which preserves limits.  (A more satisfactory description of probability measures arises from recognizing the need for viewing them as weakly-averaging countably affine maps, rather than just finite affine maps, as discussed in that article.)
+views probability measures via double dualization, restricted to weakly averaging affine maps which preserves limits.  (A more satisfactory description of probability measures arises from recognizing the need for viewing them as weakly-averaging countably affine maps, rather than just finite affine maps, as discussed in that article.)
 
-Some corrections from an earlier version of the article, were pointed out in
+Some corrections from an earlier version of that article, were pointed out in
 
 * {#Avery14} [[Tom Avery]], _Codensity and the Giry monad_, Journal of Pure and Applied Algebra **220** 3 (2016) 1229-1251 &lbrack;[arXiv:1410.4432](https://arxiv.org/abs/1410.4432), [doi:10.1016/j.jpaa.2015.08.017](https://doi.org/10.1016/j.jpaa.2015.08.017)&rbrack;
 
