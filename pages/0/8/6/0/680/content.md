@@ -665,7 +665,7 @@ A textbook reference for the ordinary Dold-Kan correspondence:
 
 Similar material is in section 4.6 of
 
-* {#Jardine} [[Rick Jardine]], _Generalized etale cohomology theories_ Modern Birkh&#228;user Classics, (1991)
+* {#Jardine} [[J. F. Jardine]], _Generalized etale cohomology theories_ Modern Birkh&#228;user Classics, (1991)
 
 
 Interpretation via [[model categories]]:
