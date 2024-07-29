@@ -807,6 +807,9 @@ With motivation from [[homological algebra]], [[abelian sheaf cohomology]] and [
 
 Lecture notes:
 
+* {#Warner12} [[Garth Warner]]: *Fibrations and Sheaves*, EPrint Collection, University of Washington (2012) &lbrack;[hdl:1773/20977](http://hdl.handle.net/1773/20977), [pdf](https://sites.math.washington.edu//~warner/Warner_FIBRATIONS%20AND%20SHEAVES.pdf), [[Warner-FibrationsAndSheaves.pdf:file]]&rbrack;
+
+
 * {#Schapira23} [[Pierre Schapira]], *An Introduction to Categories and Sheaves*, lecture notes (2023) &lbrack;[pdf](https://webusers.imj-prg.fr/~pierre.schapira/LectNotes/CatShv.pdf), [[Schapira-Sheaves.pdf:file]]&rbrack;
 
 
