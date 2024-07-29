@@ -27,59 +27,61 @@ However, in [[dependent type theory]] without a [[type universe]] or a [[type of
 
 We shall assume the minimum amount of type formers in [[dependent type theory]] to define [[Dedekind cuts]] of the rational numbers: 
 
-* [[dependent product types]], [[dependent sum types]], [[identity types]], [[empty type]], [[unit type]], [[sum types]], [[bracket types]], and a [[natural numbers type]]
+* [[dependent product types]], [[dependent sum types]], [[identity types]], [[empty type]], [[unit type]], [[sum types]] or [[booleans]] $\mathbb{2}$, [[bracket types]], and a [[natural numbers type]]
 
 The types in the dependent type theory form the [[(infinity,1)-category theory|(infinity,1)-categorical]] version of a [[Heyting category]] with [[exponential objects]] and a [[natural numbers object]]. 
 
-In addition, if one has a [[type of all propositions]] $\mathrm{Prop}$ in the [[dependent type theory]], one can define the type of real numbers as the type of all (two-sided) Dedekind cuts, which are [[subtypes]] or [[predicates]] $C:(\mathbb{Q} + \mathbb{Q}) \to \mathrm{Prop}$ of the [[sum type]] $\mathbb{Q} + \mathbb{Q}$ which satisfy the following axioms:
+In addition, if one has a [[type of all propositions]] $\mathrm{Prop}$ in the [[dependent type theory]], one can define the type of real numbers as the type of all (two-sided) Dedekind cuts, which are [[subtypes]] or [[predicates]] $C:(\mathbb{2} \times \mathbb{Q}) \to \mathrm{Prop}$ of the [[product type]] $\mathbb{2} \times \mathbb{Q}$ which satisfy the following axioms:
 
 * Dedekind cuts are bounded:
-$$\exists q:\mathbb{Q}.C(\mathrm{inl}(q)) \quad \exists r:\mathbb{Q}.C(\mathrm{inr}(r))$$
+$$\exists q:\mathbb{Q}.C(0, q) \quad \exists r:\mathbb{Q}.C(1, r)$$
 
 * Dedekind cuts are rounded:
-$$\prod_{q:\mathbb{Q}} C(\mathrm{inl}(q)) \simeq \exists r:\mathbb{Q}.(q \lt r) \times C(\mathrm{inr}(r))$$
-$$\prod_{r:\mathbb{Q}} C(\mathrm{inr}(r)) \simeq \exists q:\mathbb{Q}.(q \lt r) \times C(\mathrm{inl}(q))$$
+$$\prod_{q:\mathbb{Q}} C(0, q)) \simeq \exists r:\mathbb{Q}.(q \lt r) \times C(0, r))$$
+$$\prod_{r:\mathbb{Q}} C(1, r)) \simeq \exists q:\mathbb{Q}.(q \lt r) \times C(1, q))$$
 
 * Dedekind cuts are disjoint:
-$$\prod_{q:\mathbb{Q}} \neg (C(\mathrm{inl}(q)) \times C(\mathrm{inl}(r)))$$
+$$\prod_{q:\mathbb{Q}} \neg (C(0, q)) \times C(1, q)))$$
 
 * Dedekind cuts are located:
-$$\prod_{q:\mathbb{Q}} \prod_{r:\mathbb{Q}} (q \lt r) \to (C(\mathrm{inl}(q)) \vee C(\mathrm{inr}(r))$$
+$$\prod_{q:\mathbb{Q}} \prod_{r:\mathbb{Q}} (q \lt r) \to (C(0, q)) \vee C(1, r))$$
 
 Usually, Dedekind cuts are presented as pairs of predicates $(L, U):(\mathbb{Q} \to \mathrm{Prop}) \times (\mathbb{Q} \to \mathrm{Prop})$, but this is equivalent to the above definition, since for any types $A$, $B$, and $C$, one has that 
 $$((A + B) \to C) \simeq (A \to C) \times (B \to C)$$
+and for any type $A$, one has that 
+$$(A + A) \simeq (\mathbb{2} \times A)$$
 
 The predicate $\mathrm{isCut}(C)$ is defined as the product of all the axioms above, and the type of real numbers is defined as 
-$$\mathbb{R} \coloneqq \sum_{C:(\mathbb{Q} + \mathbb{Q}) \to \mathrm{Prop}} \mathrm{isCut}(C)$$
+$$\mathbb{R} \coloneqq \sum_{C:(\mathbb{2} \times \mathbb{Q}) \to \mathrm{Prop}} \mathrm{isCut}(C)$$
 
 In dependent type theory with a [[type universe]] $U$, one can take the type of all $U$-small propositions by the dependent sum type 
 
 $$\mathrm{Prop}_U \coloneqq \sum_{A:U} \mathrm{isProp}(A)$$
 
-and define locally $U$-small Dedekind cuts $C:(\mathbb{Q} + \mathbb{Q}) \to \mathrm{Prop}_U$ and the (locally $U$-small) real numbers $\mathbb{R}_U$ using $\mathrm{Prop}_U$. 
+and define locally $U$-small Dedekind cuts $C:(\mathbb{2} \times \mathbb{Q}) \to \mathrm{Prop}_U$ and the (locally $U$-small) real numbers $\mathbb{R}_U$ using $\mathrm{Prop}_U$. 
 
-So, what happens if the dependent type theory has neither a [[type of all propositions]] nor a [[type universe]], so that we are working in fully [[predicative mathematics]]? It is no longer possible to quantify over all subtypes of $\mathbb{Q} + \mathbb{Q}$, so one cannot define the type of real numbers impredicatively. Also, without impredicativity, a [[subtype]] of the sum type $\mathbb{Q} + \mathbb{Q}$ is a type $C$ with an [[embedding of types]] $e:C \hookrightarrow (\mathbb{Q} + \mathbb{Q})$. One can show from the definition of embedding that given an element $x:\mathbb{Q} + \mathbb{Q}$, the [[fiber type]] of $e$ at $x$ is a [[mere proposition]]
-$$\mathrm{isProp}\left(\sum_{z:C} e(z) =_{\mathbb{Q} + \mathbb{Q}} x\right)$$
-so everywhere in the definition above where one would have used the type family $C(x)$ one can instead use the [[dependent sum type]] $\mathrm{fiber}(e, x) \coloneqq \sum_{z:C} e(z) =_{\mathbb{Q} + \mathbb{Q}} x$. 
+So, what happens if the dependent type theory has neither a [[type of all propositions]] nor a [[type universe]], so that we are working in fully [[predicative mathematics]]? It is no longer possible to quantify over all subtypes of $\mathbb{2} \times \mathbb{Q}$, so one cannot define the type of real numbers impredicatively. Also, without impredicativity, a [[subtype]] of the sum type $\mathbb{2} \times \mathbb{Q}$ is a type $C$ with an [[embedding of types]] $e:C \hookrightarrow (\mathbb{2} \times \mathbb{Q})$. One can show from the definition of embedding that given an element $x:\mathbb{2} \times \mathbb{Q}$, the [[fiber type]] of $e$ at $x$ is a [[mere proposition]]
+$$\mathrm{isProp}\left(\sum_{z:C} e(z) =_{\mathbb{2} \times \mathbb{Q}} x\right)$$
+so everywhere in the definition above where one would have used the type family $C(x)$ one can instead use the [[dependent sum type]] $\mathrm{fiber}(e, x) \coloneqq \sum_{z:C} e(z) =_{\mathbb{2} \times \mathbb{Q}} x$. 
 
-Then a Dedekind cut consists of a type $C$ with an embedding of types $e:C \hookrightarrow (\mathbb{Q} + \mathbb{Q})$, which satisfies the following axioms:
+Then a Dedekind cut consists of a type $C$ with an embedding of types $e:C \hookrightarrow (\mathbb{2} \times \mathbb{Q})$, which satisfies the following axioms:
 
 * Dedekind cuts are bounded:
-$$\exists q:\mathbb{Q}.\mathrm{fiber}(e, \mathrm{inl}(q)) \quad \exists r:\mathbb{Q}.\mathrm{fiber}(e, \mathrm{inr}(r))$$
+$$\exists q:\mathbb{Q}.\mathrm{fiber}(e, (0, q)) \quad \exists r:\mathbb{Q}.\mathrm{fiber}(e, (1, r))$$
 
 * Dedekind cuts are rounded:
-$$\prod_{q:\mathbb{Q}} \mathrm{fiber}(e, \mathrm{inl}(q)) \simeq \exists r:\mathbb{Q}.(q \lt r) \times \mathrm{fiber}(e, \mathrm{inr}(r))$$
-$$\prod_{r:\mathbb{Q}} \mathrm{fiber}(e, \mathrm{inr}(r)) \simeq \exists q:\mathbb{Q}.(q \lt r) \times \mathrm{fiber}(e, \mathrm{inl}(q))$$
+$$\prod_{q:\mathbb{Q}} \mathrm{fiber}(e, (0, q)) \simeq \exists r:\mathbb{Q}.(q \lt r) \times \mathrm{fiber}(e, (0, r))$$
+$$\prod_{r:\mathbb{Q}} \mathrm{fiber}(e, (1, r)) \simeq \exists q:\mathbb{Q}.(q \lt r) \times \mathrm{fiber}(e, (1, q))$$
 
 * Dedekind cuts are disjoint:
-$$\prod_{q:\mathbb{Q}} \neg (\mathrm{fiber}(e, \mathrm{inl}(q)) \times \mathrm{fiber}(e, \mathrm{inl}(r)))$$
+$$\prod_{q:\mathbb{Q}} \neg (\mathrm{fiber}(e, (0, q)) \times \mathrm{fiber}(e, (1, q)))$$
 
 * Dedekind cuts are located:
-$$\prod_{q:\mathbb{Q}} \prod_{r:\mathbb{Q}} (q \lt r) \to (\mathrm{fiber}(e, \mathrm{inl}(q)) \vee \mathrm{fiber}(e, \mathrm{inr}(r))$$
+$$\prod_{q:\mathbb{Q}} \prod_{r:\mathbb{Q}} (q \lt r) \to (\mathrm{fiber}(e, (0, q)) \vee \mathrm{fiber}(e, (1, r))$$
 
 The predicate $\mathrm{isCut}(C, e)$ is defined as the product of all the axioms above, and the type of all Dedekind cuts with [[domain]] $C$ is given by the dependent sum type
 
-$$\mathrm{Cuts}(C) \coloneqq \sum_{e:C \hookrightarrow \mathbb{Q} + \mathbb{Q}} \mathrm{isCut}(C, e)$$
+$$\mathrm{Cuts}(C) \coloneqq \sum_{e:C \hookrightarrow \mathbb{2} \times \mathbb{Q}} \mathrm{isCut}(C, e)$$
 
 If there existed a type universe, one can simply define the real numbers as the type of Dedekind cuts in $U$;
 
@@ -108,7 +110,7 @@ Uniqueness rules for real numbers type:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{R} \vdash \mathrm{inR}_{\mathrm{CutDomain}(x)}(\mathrm{cut}(x)) \equiv x:\mathrm{Cuts}(\mathrm{CutDomain}(x))}$$
 
 The inference rules for the real numbers type imply that the real numbers type are a [[Tarski universe]] with universal type family $\mathrm{CutDomain}(x)$ indexed by $x:\mathbb{R}$, where $\mathrm{CutDomain}(x)$ is the [[domain]] of the [[Dedekind cut]] 
-$$\mathrm{cut}(x):\mathrm{CutDomain}(x) \hookrightarrow (\mathbb{Q} + \mathbb{Q})$$ 
+$$\mathrm{cut}(x):\mathrm{CutDomain}(x) \hookrightarrow (\mathbb{2} \times \mathbb{Q})$$ 
 associated with the real number $x:\mathbb{R}$. This makes the real numbers type similar to other [[type universes]] such as the [[type of all propositions]] or the [[type of finite types]]. 
 
 ### As a terminal object
@@ -127,54 +129,29 @@ If a real numbers type $R$ as defined in the previous section also exists, then 
 
 ## Properties
 
+The type of real numbers is the Coquand universe of all Dedekind cuts. Since real numbers and Dedekind cuts are interdefinable via the rules of Coquand universes, we shall just be directly defining the algebraic operations and order relations on Dedekind cuts; the corresponding operations on real numbers follow from the rules of Coquand universes. 
+
 ### Algebraic structure on real numbers
 
-One can add two Dedekind cuts together; this involves adding inference rules for adding the two domains of the Dedekind cuts as well as for adding the embeddings of the Dedekind cuts. The rules for adding the witnesses that the embeddings are Dedekind cuts are provable from the fact that the type $\mathrm{isCut}(A, e_A)$ is always a [[mere proposition]], and so if inhabited, then it is [[contractible]], so are not included. 
+\begin{definition}
+Addition of two Dedekind cuts $(C, e_C)$ and $(D, e_D)$ is given by the type
 
-The formation rules for addition of two Dedekind cuts are as follows:
+$$C + D \coloneqq \sum_{(b, q):\mathbb{2} \times \mathbb{Q}} \exists r, s:\mathbb{Q}.\mathrm{fiber}(e_C, (b, r)) \times \mathrm{fiber}(e_D, (b, s)) \times (q =_\mathbb{Q} r + s)$$
 
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\ 
-\Gamma \vdash e_A:A \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \quad \Gamma \vdash e_B:B \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \\
-\Gamma \vdash c_A:\mathrm{isCut}(A, e_A) \quad \Gamma \vdash c_B:\mathrm{isCut}(B, e_B)
-\end{array}}{\Gamma \vdash A +_{(e_A, c_A), (e_B, c_B)} B \; \mathrm{type}}$$
+with the [[embedding]] $e_{C + D}$ given by the first projection function of the [[dependent sum type]] into the product type $\mathbb{2} \times \mathbb{Q}$. 
+\end{definition}
 
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\ 
-\Gamma \vdash e_A:A \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \quad \Gamma \vdash e_B:B \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \\
-\Gamma \vdash c_A:\mathrm{isCut}(A, e_A) \quad \Gamma \vdash c_B:\mathrm{isCut}(B, e_B)
-\end{array}}{\Gamma \vdash e_A + e_B:(A +_{(e_A, c_A), (e_B, c_B)} B) \hookrightarrow (\mathbb{Q} + \mathbb{Q})}$$
+The swap function $\mathrm{swap}:\mathbb{2} \to \mathbb{2}$ on the booleans is inductively defined by $\mathrm{swap}(0) \coloneqq 1$ and $\mathrm{swap}(1) \coloneqq 0$. 
 
-In addition, we have rules defining the addition of two embeddings of Dedekind cuts:
+\begin{definition}
+The additive inverse of a Dedekind cut $(C, e_C)$ is given by the type
 
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\ 
-\Gamma \vdash e_A:A \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \quad \Gamma \vdash e_B:B \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \\
-\Gamma \vdash c_A:\mathrm{isCut}(A, e_A) \quad \Gamma \vdash c_B:\mathrm{isCut}(B, e_B)
-\end{array}}{\Gamma, q:\mathbb{Q} \vdash \mathrm{fib}(e_A + e_B, \mathrm{inl}(q)) \equiv \exists r, s:\mathbb{Q}.\mathrm{fib}(e_A, \mathrm{inl}(r)) \wedge \mathrm{fib}(e_B, \mathrm{inl}(s)) \wedge q = r + s \; \mathrm{type}}$$
+$$-C \coloneqq \sum_{(b, q):\mathbb{2} \times \mathbb{Q}} \exists r:\mathbb{Q}.\mathrm{fiber}(e_C, (\mathrm{swap}(b), r)) \times (q =_\mathbb{Q} -r)$$
 
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\ 
-\Gamma \vdash e_A:A \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \quad \Gamma \vdash e_B:B \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \\
-\Gamma \vdash c_A:\mathrm{isCut}(A, e_A) \quad \Gamma \vdash c_B:\mathrm{isCut}(B, e_B)
-\end{array}}{\Gamma, q:\mathbb{Q} \vdash \mathrm{fib}(e_A + e_B, \mathrm{inr}(q)) \equiv \exists r, s:\mathbb{Q}.\mathrm{fib}(e_A, \mathrm{inr}(r)) \wedge \mathrm{fib}(e_B, \mathrm{inr}(s)) \wedge q = r + s \; \mathrm{type}}$$
+with the [[embedding]] $e_{-C}$ given by the first projection function of the [[dependent sum type]] into the product type $\mathbb{2} \times \mathbb{Q}$. 
+\end{definition}
 
-as well as rules defining the addition of two domains of Dedekind cuts:
-
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\ 
-\Gamma \vdash e_A:A \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \quad \Gamma \vdash e_B:B \hookrightarrow (\mathbb{Q} + \mathbb{Q}) \\
-\Gamma \vdash c_A:\mathrm{isCut}(A, e_A) \quad \Gamma \vdash c_B:\mathrm{isCut}(B, e_B)
-\end{array}}{\Gamma \vdash A +_{(e_A, c_A), (e_B, c_B)} B \equiv \sum_{q:\mathbb{Q}} \mathrm{fib}(e_A + e_B, \mathrm{rec}_{\mathbb{Q} + \mathbb{Q}}(\mathrm{inl}(q), \mathrm{inr}(q))) \; \mathrm{type}}$$
-
-Then given two real numbers $x:\mathbb{R}$ and $y:\mathbb{R}$, addition on the real numbers is defined as 
-
-$$x + y \coloneqq \mathrm{inR}_{\mathrm{CutDomain}(x) +_{\mathrm{cut}(x), \mathrm{cut}(y)} \mathrm{CutDomain}(y)}(\mathrm{cut}(x) + \mathrm{cut}(y)):\mathbb{R}$$
+With these operations, the real numbers form an abelian group. 
 
 ## Related concepts
 
@@ -184,7 +161,7 @@ $$x + y \coloneqq \mathrm{inR}_{\mathrm{CutDomain}(x) +_{\mathrm{cut}(x), \mathr
 
 ## References
 
-For the impredicative definition of the real numbers using a type of propositions, see section 11.2 of:
+For the impredicative definition of the real numbers using a type of propositions, as well as the algebraic operations and order relations for real numbers see section 11.2 of:
 
 * [[Univalent Foundations Project]], section 11.2 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
