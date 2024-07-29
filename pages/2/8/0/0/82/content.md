@@ -124,7 +124,7 @@ A monograph that aims to be more expository, focusing on [[presheaf toposes]]:
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften **332** Springer (2006)  &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4),  [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
 
-* [[Garth Warner]], *Homotopical Topos Theory* (2012) &lbrack;[pdf](https://sites.math.washington.edu//~warner/HTT_Warner.pdf), [[Waner-HomotopicalTopos.pdf:file]]&rbrack;
+* {#Warner12} [[Garth Warner]], *Homotopical Topos Theory* (2012) &lbrack;[pdf](https://sites.math.washington.edu//~warner/HTT_Warner.pdf), [[Waner-HomotopicalTopos.pdf:file]]&rbrack;
 
 Introducing even category theory from the scratch while still managing to cover some ground, the following textbook is the _royal road to topos theory_ for people with some background in [[first-order logic]]:
 
