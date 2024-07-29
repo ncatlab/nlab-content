@@ -339,7 +339,7 @@ Monographs:
 
 * {#Murphy90} [[Gerard Murphy]], _$C^\ast$-algebras and Operator Theory_, Academic Press (1990) &lbrack;[doi:10.1016/C2009-0-22289-6](https://doi.org/10.1016/C2009-0-22289-6)&rbrack;
 
-* [[Garth Warner]], *$C^\ast$-Algebras*, EPrint Collection, University of Washington (2010) &lbrack;[hdl:1773/16302](http://hdl.handle.net/1773/16302), [pdf](https://sites.math.washington.edu//~warner/C-star.pdf), [[Waner-CStarAlgebras.pdf:file]]&rbrack;
+* {#Warner10} [[Garth Warner]], *$C^\ast$-Algebras*, EPrint Collection, University of Washington (2010) &lbrack;[hdl:1773/16302](http://hdl.handle.net/1773/16302), [pdf](https://sites.math.washington.edu//~warner/C-star.pdf), [[Waner-CStarAlgebras.pdf:file]]&rbrack;
 
 * [[Ian Putnam]], *Lecture notes on $C^\ast$-algebras* (2019) &lbrack;[pdf](https://www.math.uvic.ca/faculty/putnam/ln/C*-algebras.pdf), [[Putnam-CStarAlgebras.pdf:file]]&rbrack;
 
