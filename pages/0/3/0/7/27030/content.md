@@ -17,6 +17,16 @@
 
 ## Selected writings
 
+On [[Hecke operators]]:
+
+* [[Garth Warner]]: *Elementary Aspects of the Theory of Hecke Operators*, University of Washington (1988) &lbrack;[pdf](https://sites.math.washington.edu//~warner/Elementary_Aspects_of_the_Theory_of_Hecke_Operators.pdf), [[Warner-HeckeOperators.pdf:file]]&rbrack;
+
+On ([[toric variety|toric]]) [[algebraic groups]]:
+
+* [[Garth Warner]]: *Abelian Theory*, University of Washington &lbrack;[arXiv:2012.15736](https://arxiv.org/abs/2012.15736), [pdf](https://sites.math.washington.edu//~warner/Abelian_Theory.pdf)&rbrack;
+
+
+
 On [[algebraic topology]] via the [[model categories]] (notably the [[classical model structure on topological spaces]]):
 
 * {#Warner05} [[Garth Warner]]: *Topics in Topology and Homotopy Theory*, EPrint Collection, University of Washington (2005) \[<a href="http://hdl.handle.net/1773/2641">hdl:1773/2641</a>, <a href="https://sites.math.washington.edu//~warner/TTHT_Warner.pdf">pdf</a>, [arXiv:2007.02467](https://arxiv.org/abs/2007.02467)\]
