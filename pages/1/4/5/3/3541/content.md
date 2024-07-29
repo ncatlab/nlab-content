@@ -576,7 +576,7 @@ Analysis of [[extremal quantum channels]]:
 
 Review and survey:
 
-* {#Warner10} [[Garth Warner]]: *Positivity*, University of Washington (2010) &lbrack;[pdf](https://sites.math.washington.edu//~warner/Positivity_Warner.pdf), [[Warner-Positivity.pdf:file]]&rbrack;
+* {#Warner10} [[Garth Warner]]: *Positivity*, EPrint Collection University of Washington (2010) &lbrack;[hdl:1773/15549](http://hdl.handle.net/1773/15549), [pdf](https://sites.math.washington.edu//~warner/Positivity_Warner.pdf), [[Warner-Positivity.pdf:file]]&rbrack;
 
 In the context of [[quantum computation]]:
 
