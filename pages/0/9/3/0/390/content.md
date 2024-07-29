@@ -261,13 +261,17 @@ Several classical examples of OFS $(E,M)$:
 
 * in any [[quasitopos]], $E$ = all epimorphisms, $M$ = all [[strong monomorphisms]]
 
+* In [[Cat]], $E$ = [[identity-on-objects functors]], $M$ = [[fully faithful functors]] (this is furthermore a [[strict factorisation system]])
+
 * In [[Cat]], $E$ = [[bo functors]], $M$ = [[fully faithful functors]]: the [[bo-ff factorization system]]
 
-* (Street) in [[Cat]], $E$ = 0-[[final functors]], $M$ = [[discrete fibrations]] (This is called the [[comprehensive factorization system]].)
+* in [[Cat]], $E$ = [[final functors]], $M$ = [[discrete fibrations]] (This is called the [[comprehensive factorization system]].)
 
-* (Street) in $\mathrm{Cat}$,  $E$ = 0-[[initial functors]], $M$ = [[discrete opfibration]]s
+* in [[Cat]],  $E$ = [[initial functors]], $M$ = [[discrete opfibration]]s
 
-* in $\mathrm{Cat}$, $M$ = [[conservative functor]]s, $E$ = left orthogonal of $M$ ("iterated strict localizations" after A. Joyal)
+* in [[Cat]], $M$ = [[ULF functors]] (see there for a reference)
+
+* in [[Cat]], $M$ = [[conservative functor]]s, $E$ = left orthogonal of $M$ ("iterated strict localizations" after A. Joyal)
 
 * in the category of small categories where morphisms are functors which are [[exact functor|left exact]] and have [[right adjoint]]s, $E$ = class of all such functors which are also localizations, $M$ = class of all such functors which are also conservative
 
