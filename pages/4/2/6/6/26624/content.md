@@ -39,11 +39,18 @@ Famous examples are the base ($\mathrm{e} = 2.7\ldots $) and period ($2 \pi \mat
 
 * [[transcendental element]]
 
+* [[Schanuel's conjecture]]
+
 ## References
 
-See also
+* [[Garth Warner]]: *The exponential world*,  University of Washington (2021) &lbrack;[arXiv:2105.05809](https://arxiv.org/abs/2105.05809), [pdf](https://sites.math.washington.edu//~warner/the_exponential_world.pdf)&rbrack;
+
+
+See also:
 
 * Wikipedia, _[Transcendental number](https://en.wikipedia.org/wiki/Transcendental_number)_
+
+* Wikipedia: *[Transcendental number theory](https://en.wikipedia.org/wiki/Transcendental_number_theory)*
 
 [[!redirects transcendental number]]
 [[!redirects transcendental numbers]]
@@ -53,3 +60,7 @@ See also
 
 [[!redirects strictly transcendental number]]
 [[!redirects strictly transcendental numbers]]
+
+[[!redirects transcendental number theory]]
+
+
