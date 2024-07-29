@@ -16,4 +16,4 @@ A major conjecture has been resolved in
 
 An early survey
 
-* M. Gross, P. Hacking, and S. Keel, _Birational geometry of cluster algebras_, Algebr. Geom. 2 (2015), no. 2, 137--175, [doi](https://10.14231/AG-2015-007) MR3350154
+* M. Gross, P. Hacking, and S. Keel, _Birational geometry of cluster algebras_, Algebr. Geom. 2 (2015), no. 2, 137--175, [pdf](https://content.algebraicgeometry.nl/2015-2/2015-2-007.pdf) MR3350154
