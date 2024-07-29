@@ -109,7 +109,15 @@ First note that all kinds of lax monoidal categories can be generalized to **lax
 
 ## References
 
-The original definition (and first examples) of skew-monoidal categories:
+The definition of skew-monoidal category essentially appears in §2.2 of:
+
+* [[Marek Zawadowski]], _Lax monoidal fibrations_, [arXiv:0912.4464](https://arxiv.org/abs/0912.4464) (2009).
+
+The notion was later rediscovered in Theorem 4 of:
+
+* [[Thorsten Altenkirch]], [[James Chapman]], and [[Tarmo Uustalu]], _Monads need not be endofunctors_, Proceedings of the 13th international conference on Foundations of Software Science and Computational Structures (2010).
+
+The definition was isolated in, and the terminology introduced in:
 
 * {#Szlachányi12} [[Kornél Szlachányi]], *Skew-monoidal categories and bialgebroids*, Advances in Mathematics **231** 3-4 (2012) 1694-1730 &lbrack;[arXiv:1201.4981](https://arxiv.org/abs/1201.4981), [doi:10.1016/j.aim.2012.06.027](https://doi.org/10.1016/j.aim.2012.06.027)&rbrack;
 
@@ -203,6 +211,3 @@ Lax monoidal categories are called **multitensors** in:
 [[!redirects lax-closed categories]]
 [[!redirects lax closed category]]
 [[!redirects lax closed categories]]
-
-
-
