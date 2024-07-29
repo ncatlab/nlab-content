@@ -5,7 +5,7 @@
 
 ## Idea
 
-A kind of [[algebraic variety]] generalizing a [[torus]] with its [[abelian group]] structure.
+A kind of [[algebraic variety]] generalizing a [[torus]] with its [[abelian group|abelian]] [[group scheme]] [[structure]].
 
 ## Combinatorial Aspects
 
@@ -17,7 +17,9 @@ This correspondence extends functorially. Fan morphisms between a fan $\Delta_1$
 
 ## References
 
-* Ezra Miller, _What is... a toric variety?_, Notices of the AMS, volume 55, number 5 ([pdf](http://www.ams.org/notices/200805/tx080500586p.pdf?q=toric))
+* [[Garth Warner]]: *Abelian Theory*, University of Washington &lbrack;[arXiv:2012.15736](https://arxiv.org/abs/2012.15736), [pdf](https://sites.math.washington.edu//~warner/Abelian_Theory.pdf)&rbrack;
+
+* Ezra Miller, _What is... a toric variety?_, Notices of the AMS **55** 5 (2008) &lbrack;[pdf](http://www.ams.org/notices/200805/tx080500586p.pdf?q=toric), full issue:[pdf](http://www.ams.org/notices/200805/200805FullIssue.pdf)&rbrack;
 
 * Pavel Dimitrov, _Toric varieties, a short introduction_ ([pdf](http://www.cim.mcgill.ca/~pdimit/math707-talk.pdf))
 
