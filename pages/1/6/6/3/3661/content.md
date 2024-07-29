@@ -1,5 +1,3 @@
-[[!redirects Conduche functor]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -21,7 +19,7 @@
 
 ## Idea
 
-A **Conduch&#233; functor**, also called a **Conduch&#233; fibration** or an **exponentiable functor**, is a [[functor]] which is an [[exponentiable morphism]] in [[Cat]].  (In accordance with [[Stigler's law of eponymy]], the notion was actually defined in [Giraud 64](#Giraud64) before [Conduch&#233; 72](#Conduche72).)  This turns out to be equivalent to a certain "factorization lifting" property which includes both [[Grothendieck fibrations]] and opfibrations.
+An **exponentiable functor**, also called a **Conduch&#233; functor** or **Conduch&#233; fibration**, is a [[functor]] which is an [[exponentiable morphism]] in [[Cat]].  (In accordance with [[Stigler's law of eponymy]], the notion was actually defined in [Giraud 64](#Giraud64) before [Conduch&#233; 72](#Conduche72).)  This turns out to be equivalent to a certain "factorization lifting" property which includes both [[Grothendieck fibrations]] and opfibrations.
 
 So, roughly speaking, a functor $p\colon E\to B$ is a **strict Conduch&#233; functor** if given any morphism $\alpha$ in $E$, and any way of factoring its image in $B$, we can lift that factorization back up to a factorization of $\alpha$, in a way that is unique up to isomorphism.   There is also a weak version of this idea.
 
@@ -145,7 +143,7 @@ For more on this see [Grandis and Paré](#GrandisParé07), Theorem 5.2.
 
 * {#GrandisParé07} [[Marco Grandis]], [[Robert Paré]] _Lax Kan extensions for double categories (on weak double categories, part IV)_ , Cahiers de topologie et géométrie différentielle catégoriques, tome 48, no 3 (2007), p. 163-199
 
-The definitions and proofs of the above theorems, along with the 2-categorical generalization (Conduch&#233; considered only the 1-categorical case) can also be found in
+Some of definitions and proofs of the above theorems, along with the 2-categorical generalization (Conduch&#233; considered only the 1-categorical case) can also be found in (e.g. see Lemma 6.1 for a proof that Conduch&#233; implies expontiability):
 
 * [[Peter Johnstone]], "Fibrations and partial products in a 2-category", *Appl. Categ. Structures* 1 (1993), 141--179
 
@@ -169,6 +167,8 @@ An analogue of Conduch&#233; functors for [[∞-categories]], classified by maps
 [[!redirects Conduchè fibration]]
 [[!redirects Conduche fibration]]
 
+[[!redirects Conduche functor]]
+[[!redirects Conduché functor]]
 [[!redirects Conduché functor]]
 [[!redirects Conduchè functor]]
 [[!redirects Conduche functor]]
@@ -177,7 +177,6 @@ An analogue of Conduch&#233; functors for [[∞-categories]], classified by maps
 [[!redirects Conduchè functors]]
 [[!redirects Conduche functors]]
 
-[[!redirects exponentiable functor]]
 [[!redirects exponentiable functors]]
 
 [[!redirects strict Conduche functors]]
