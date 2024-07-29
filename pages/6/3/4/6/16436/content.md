@@ -97,6 +97,11 @@ Review:
 
 * {#Wang23} Zihan Wang, *A review on $D=11$ supergravity and M2-brane*, MSc thesis (2023) &lbrack;[pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2023/Zihan-Wang-Dissertation.pdf), [[Wang-M2Brane.pdf:file]]&rbrack;
 
+Specifically for the [[superstring]] on super-$AdS_5 \times S^5$:
+
+* [[Igor A. Bandos]]: *Superembedding approach to superstring in $AdS_5 \times S^5$ superspace*, in: *Fundamental Interactions* (2009) 303-334 &lbrack;[arXiv:0812.0257](https://arxiv.org/abs/0812.0257), [doi:10.1142/9789814277839_0018](https://doi.org/10.1142/9789814277839_0018)&rbrack;
+
+
 
 The super 3-cocycle for the [[Green-Schwarz superstring]] on $\frac{SU(2,2 \vert 5)}{Spin(4,1)\times SO(5)}$ is originally due to 
 
