@@ -15,7 +15,7 @@
 
 ## Definition
 
-A __group scheme__ is a [[group object]] in the category of [[schemes]] (or in a category of *some* schemes as for instance that of schemes over a fixed base scheme); in particular a group scheme is a [[group functor]]. As explained at [[group object]] there are two equivalent ways of realizing this:
+A __group scheme__ is a [[group object]] [[internalization|in]] a [[category]] of [[schemes]] (or in a category of *some* schemes as for instance that of schemes over a fixed base scheme); in particular a group scheme is a [[group functor]]. As explained at [[group object]] there are two equivalent ways of realizing this:
 
 One way is to define it as a functor $G:C Ring\to Set$ equipped with a transformation $m:G\times G\to G$ satisfying the properties spelled out at [[group object]].
 
@@ -224,11 +224,13 @@ where we recall that how the colimit of the hom space can be multiplied by the g
 
 * Michel [[Demazure, lectures on p-divisible groups]] [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups){#Demazure}
 
-* W. Waterhouse, _Introduction to affine group schemes_, GTM 66, Springer 1979. 
-
 * D. Mumford, _Abelian varieties_, 1970, 1985.
 
+* W. Waterhouse, _Introduction to affine group schemes_, GTM 66, Springer 1979. 
+
 * J. C. Jantzen, _Representations of algebraic groups_, Acad. Press 1987 (Pure and Appl. Math. vol 131); 2nd edition AMS Math. Surveys and Monog. 107 (2003; reprinted 2007)
+
+* [[Garth Warner]]: *Abelian Theory*, University of Washington &lbrack;[arXiv:2012.15736](https://arxiv.org/abs/2012.15736), [pdf](https://sites.math.washington.edu//~warner/Abelian_Theory.pdf)&rbrack;
 
 
 [[!redirects group scheme]]
