@@ -186,6 +186,16 @@ Introductions:
 * [[David Tong]], *Lectures on Quantum Field Theory*, Cambridge (2006-7) &lbrack;[pdf](https://www.damtp.cam.ac.uk/user/tong/qft/qft.pdf), [web](https://www.damtp.cam.ac.uk/user/tong/qft.html)&rbrack;
 
 * {#Warner08} [[Garth Warner]]: *Bosonic Quantum Field Theory*, EPrint Collection, University of Washington (2008) &lbrack;[hdl:1773/3710](http://hdl.handle.net/1773/3710), [pdf](https://sites.math.washington.edu//~warner/BQFT_Warner.pdf), [[Warner-BosonicQFT.pdf:file]]&rbrack;
+  > ([[constructive quantum field theory]])
+
+* [[Garth Warner]]: *Quantum Field Theory Seminar (School of Wightman et al.)*, seminar notes, University of Washington &lbrack;[pdf](https://sites.math.washington.edu//~warner/QFTSeminar_Warner.pdf), [[Warner-WightmanQFT.pdf:file]]&rbrack;
+  > (via [[Wightman axioms]])
+
+* [[Garth Warner]]: *Quantum Field Theory Seminar (School of Haag-Kastler et al.)*, seminar notes, University of Washington &lbrack;[pdf](https://sites.math.washington.edu//~warner/QFT2Seminar_Warner.pdf), [[Warner-HaagKastlerQFT.pdf:file]]&rbrack;
+  > (via [[Haag-Kastler axioms]], [[AQFT]])
+
+* [[Garth Warner]]: *Quantum Gauge Theory*, seminar notes, University of Washington  &lbrack;[pdf](https://sites.math.washington.edu//~warner/QGTSeminar_Warner.pdf), [[Warner-QuantumGaugeTheory.pdf:file]]&rbrack;
+  > ([[gauge theory]])
 
 * [[Matthew Schwartz]], *Quantum Field Theory and the Standard Model*, Cambridge University Press (2014) &lbrack;[ISBN:9781107034730](https://www.cambridge.org/de/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-field-theory-and-standard-model?format=HB&isbn=9781107034730), [doi:10.1017/9781139540940](https://doi.org/10.1017/9781139540940), [pdf](https://indico.ihep.ac.cn/event/11134/attachments/3783/4308/QFT-Schwartz.pdf)&rbrack;
 
