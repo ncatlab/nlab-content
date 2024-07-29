@@ -67,9 +67,17 @@ For more see at _[Half NS5-branes](NS5-brane#NSHalfBranes)_
 
 ### General
 
-* {#Smith02} [[Douglas J. Smith]], *Intersecting brane solutions in string and M-theory*, Class. Quant. Grav. **20** R233 (2003) &lbrack;[arXiv:hep-th/0210157](https://arxiv.org/abs/hep-th/0210157), [doi:10.1088/0264-9381/20/9/203](https://doi.org/10.1088/0264-9381/20/9/203)&rbrack;
+For [[probe brane|probe]] [[super p-branes]]:
+
+* C. S. Chu, [[Paul S. Howe]], [[Ergin Sezgin]], [[Peter C. West]]: *Open superbranes*, Physics Letters B **429** 3–4 (1998) 273-280 &lbrack;<a href="https://doi.org/10.1016/S0370-2693(98)00441-9">doi:10.1016/S0370-2693(98)00441-9</a>&rbrack;
+
+For [[black branes]]:
 
 * {#Hashimoto98} Akikazu Hashimoto, _Supergravity Solutions for Localized Intersections of Branes_, JHEP 9901 (1999) 018 ([arXiv:hep-th/9812159](https://arxiv.org/abs/hep-th/9812159))
+
+* {#Smith02} [[Douglas J. Smith]], *Intersecting brane solutions in string and M-theory*, Class. Quant. Grav. **20** R233 (2003) &lbrack;[arXiv:hep-th/0210157](https://arxiv.org/abs/hep-th/0210157), [doi:10.1088/0264-9381/20/9/203](https://doi.org/10.1088/0264-9381/20/9/203)&rbrack;
+
+
 
 For [[M-branes]]:
 
