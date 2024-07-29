@@ -168,6 +168,8 @@ See also _[[AQFT on curved spacetimes]]_ .
 
 Introductory lecture notes:
 
+* [[Garth Warner]]: *Quantum Field Theory Seminar (School of Haag-Kastler et al.)*, seminar notes, University of Washington &lbrack;[pdf](https://sites.math.washington.edu//~warner/QFT2Seminar_Warner.pdf), [[Warner-HaagKastlerQFT.pdf:file]]&rbrack;
+
 * {#Fredenhagen03} [[Klaus Fredenhagen]], _Algebraische Quantenfeldtheorie_, lecture notes, 2003 ([[FredenhagenAQFT2003.pdf:file]])
 
 * {#FewsterRejzner19} [[Christopher Fewster]], [[Kasia Rejzner]], _Algebraic Quantum Field Theory - an introduction_ ([arXiv:1904.04051](https://arxiv.org/abs/1904.04051))
