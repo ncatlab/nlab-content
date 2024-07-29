@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -49,10 +48,13 @@ Generalization to supergroups and streamlined proof:
 
 * {#Mueger06} [[Michael Müger]], _Abstract duality theory for symmetric tensor $\ast$-categories_ appendix ([pdf](http://www.math.ru.nl/~mueger/PDF/16.pdf)), in [[Hans Halvorson]],  _Algebraic quantum field theory_ ([arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)), in J. Butterfield & J. Earman (eds.) _Handbook of Philosophy and Physics_ 
 
+Review:
+
+* [[Garth Warner]]: *Reconstruction Theory*, EPrint Collection, University of Washington (2011) &lbrack;[hdl:1773/16351](http://hdl.handle.net/1773/16351), [pdf](https://sites.math.washington.edu//~warner/ReconTh_Warner.pdf), [[Warner-ReconstructionTheory.pdf:file]]&rbrack;
 
 See also:
 
-* {#EtingofGelaki00} [[Pavel Etingof]], [[Shlomo Gelaki]], _Isocategorical groups_ ([arXiv:math/0007196](https://arxiv.org/abs/math/0007196))
+* {#EtingofGelaki00} [[Pavel Etingof]], [[Shlomo Gelaki]], _Isocategorical groups_ &lbrack;[arXiv:math/0007196](https://arxiv.org/abs/math/0007196)&rbrack;
 
 
 [[!redirects Doplicher-Roberts reconstruction]]
