@@ -57,7 +57,7 @@ of the [[Cartesian product]] of $X$ with itself, equipped with the following [[m
 
   (where on the left we have the [[fiber product]] 
    of $R \hookrightarrow X \times X \overset{p_2}{\to} X$
-   with $R \hookrightarrow X \times X \overset{p_1}{\to}$, i.e. the subobject of pairs of *composable* pairs in relation)
+   with $R \hookrightarrow X \times X \overset{p_1}{\to} X$, i.e. the subobject of pairs of *composable* pairs in relation)
 
   which factors the left/right projection map $R \times_X R \to X \times X$ through $R$, i.e., the following [[commuting diagram|diagram commutes]]
 
