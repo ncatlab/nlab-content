@@ -276,7 +276,7 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 ## Literature
  {#Literature}
 
-* {#Beck69} [[Jon Beck]], *Distributive Laws*, in: *[[Seminar on Triples and Categorical Homology Theory]]*, ETH 1966/67, Lecture Notes in Mathemativs, Springer (1969), Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
+* {#Beck69} [[Jon Beck]], *Distributive Laws*, in: *[[Seminar on Triples and Categorical Homology Theory]]*, ETH 1966/67, Lecture Notes in Mathemativs, Springer (1969), Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf#page=95)&rbrack;
 
 * {#vanOsdol73} [[Donovan van Osdol]], *Bicohomology Theory*, Transactions of the American Mathematical Society **183** (1973) 449-476 &lbrack;[jstor:1996479](https://www.jstor.org/stable/1996479)&rbrack;
 
