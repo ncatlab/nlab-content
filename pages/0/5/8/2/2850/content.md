@@ -90,6 +90,7 @@ Modern monographs:
 
 * {#Berger} [[Marcel Berger]], _A panoramic view of Riemannian geometry_, Springer (2003) &lbrack;[doi:10.1007/978-3-642-18245-7](https://doi.org/10.1007/978-3-642-18245-7)&rbrack;
 
+* Peter Petersen: *Riemannian Geometry*, Springer (2006) &lbrack;[doi:10.1007/978-0-387-29403-2](https://doi.org/10.1007/978-0-387-29403-2), [pdf](https://download.tuxfamily.org/openmathdep/geometry_advanced/Riemannian_Geometry-Peterson.pdf)&rbrack;
 
 
 Lecture notes:
