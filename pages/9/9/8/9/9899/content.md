@@ -14,7 +14,14 @@ On [[G₂-conifolds]]:
 
 * [[Gary Gibbons]], [[Don Page]], [[Christopher Pope]], _Einstein metrics on $S^3$, $\mathbb{R}^3$ and $\mathbb{R}^4$ bundles_, Comm. Math. Phys. Volume 127, Number 3 (1990), 529-553 ([euclid:cmp/1104180218](https://projecteuclid.org/euclid.cmp/1104180218))
 
+Review of [[Hawking radiation]] and [[black hole thermodynamics]]:
+
+* [[Don N. Page]]: *Hawking Radiation and Black Hole Thermodynamics*, New J. Phys. **7** (2005) 203 &lbrack;[arXiv:hep-th/0409024](https://arxiv.org/abs/hep-th/0409024), [doi:10.1088/1367-2630/7/1/203](https://doi.org/10.1088/1367-2630/7/1/203)&rbrack;
+
+
 
 
 category: people
 
+
+[[!redirects Don N. Page]]
