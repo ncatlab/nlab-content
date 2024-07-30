@@ -20,6 +20,11 @@ On [[conformal blocks]] for [[Liouville theory]]:
 * [[Babak Haghighat]], [[Yihua Liu]], [[Nicolai Reshetikhin]], *Flat Connections from Irregular Conformal Blocks* &lbrack;[arXiv:2311.07960](https://arxiv.org/abs/2311.07960)&rbrack;
 
 
+On line [[defect QFT|defects]] in [[Rozansky-Witten theory]] and their [[braiding]]:
+
+* [[Sergei Gukov]], [[Babak Haghighat]], [[Nicolai Reshetikhin]]: *Foams and KZ-equations in Rozansky-Witten theories* &lbrack;[arXiv:2407.19757](https://arxiv.org/abs/2407.19757)&rbrack;
+
+
 ## Related entries
 
 * [[3d TQFT]]
