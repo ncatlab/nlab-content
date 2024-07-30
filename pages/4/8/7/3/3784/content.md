@@ -97,7 +97,8 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
 ### Books
 
-* S. W. Hawking, G. F. R. Ellis, _The large scale structure of space-time_, Cambridge Univ. Press
+* [[Stephen W. Hawking]], [[George F. R. Ellis]]: *The large scale structure of space-time*, Cambridge Univ. Press (1973, 2010) &lbrack;[doi:10.1017/CBO9780511524646](https://doi.org/10.1017/CBO9780511524646), [Wikipedia entry](https://en.wikipedia.org/wiki/The_Large_Scale_Structure_of_Space%E2%80%93Time)&rbrack;
+
 * John Beem, Paul Ehrlich, _Global Lorentzian geometry_, Marcel Dekker 1981 (and Russian, updated translation, Mir 1985)
 
 ### Articles
