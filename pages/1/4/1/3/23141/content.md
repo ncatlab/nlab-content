@@ -490,13 +490,13 @@ where further properties of this cohesive situation are proven, revolving around
 
 Some of the above notation (e.g. for "$\prec\!\! G$") follows:
 
-* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
+* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]]: _[[schreiber:Proper Orbifold Cohomology]]_ &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
 
-which expands on application of the above singular cohesion -- in the special case $G = 1$ but combined with [[smooth infinity-groupoid|smooth cohesion]] --  to differential-geometric [[orbifolds]]  and [[orbifold cohomology]].
+which expands on application of the above singular cohesion -- in the special case of [[discrete group|discrete]] $G$, but combined with [[smooth infinity-groupoid|smooth cohesion]] --  to differential-geometric [[orbifolds]]  and [[orbifold cohomology]].
 
 Diagrams and discussion as presented above are taken from:
 
-* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]*
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]* &lbrack;[arXiv:](https://arxiv.org/abs/2112.13654)&rbrack;
 
 
 
