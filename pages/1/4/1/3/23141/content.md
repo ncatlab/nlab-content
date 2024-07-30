@@ -170,7 +170,7 @@ is sometimes called the *[[global orbit category]]*, though other times that nam
 \begin{definition}\label{GlobalAndGEquivariantHomotopyTheory}
 **(global- and $G$-equivariant homotopy theory)**
 \linebreak
-For $\mathbf{H}$ an [[(infinity,1)-topos|$\infty$]] write
+For $\mathbf{H}$ an [[(infinity,1)-topos|$\infty$-topos]] write
 
 \[
   \label{GlobalEquivariantInfinityTopos}
