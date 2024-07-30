@@ -117,6 +117,8 @@ Conformal blocks for [[Liouville theory]]:
 
 * [[Xia Gu]], [[Babak Haghighat]], [[Kevin Loo]], *Irregular Fibonacci Conformal Blocks* &lbrack;[arXiv:2311.13358](https://arxiv.org/abs/2311.13358)&rbrack;
 
+* [[Babak Haghighat]]: *Flat Connections from Irregular Conformal Blocks*, [talk at ](CQTS#HaghighatFeb2024) [[CQTS]] (Feb 2024) &lbrack;video: [zm](https://nyu.zoom.us/rec/share/c41GdU--I_-g2XLJ7A6T0HxK6AxI-utrlGb2mStB0XBOaJ3FrvC1JzoL_FsjWrEi.MBPR87t2nBR8f99t), [kt](https://cdnapisec.kaltura.com/p/1674401/sp/167440100/embedIframeJs/uiconf_id/23435151/partner_id/1674401?iframeembed=true&playerId=kaltura_player&entry_id=1_qyu7rg1l)&rbrack;
+
 See also:
 
 * Qianyu Hao, [[Andrew Neitzke]]: *A new construction of $c=1$ Virasoro blocks* &lbrack;[arXiv:2407.04483](https://arxiv.org/abs/2407.04483)&rbrack;
