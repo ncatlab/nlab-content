@@ -74,7 +74,9 @@ A *useful feature* of such constructions is that the multiplication of the grade
 * [[monad]]
 * [[actegory]]
 
-## References 
+## References
+
+* A. L. Smirnov, _Graded monads and rings of polynomials_, Journal of Mathematical Sciences 151.3 (2008): 3032-3051.
 
 * {#FKM} Soichiro Fujii, Shin-ya Katsumata, and [[Paul-André Melliès]], _Towards a Formal Theory of Graded Monads_, ([pdf](https://www.irif.fr/~mellies/papers/fossacs2016-final-paper.pdf))
 
