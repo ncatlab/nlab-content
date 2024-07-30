@@ -66,6 +66,9 @@ Textbook account:
 
 Review:
 
+* [[Don N. Page]]: *Hawking Radiation and Black Hole Thermodynamics*, New J. Phys. **7** (2005) 203 &lbrack;[arXiv:hep-th/0409024](https://arxiv.org/abs/hep-th/0409024)*, [doi:10.1088/1367-2630/7/1/203](https://doi.org/10.1088/1367-2630/7/1/203)&rbrack;
+
+
 * Dmitri V. Fursaev, *Black Hole Thermodynamics and Perturbative Quantum Gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.06081](https://arxiv.org/abs/2210.06081)&rbrack;
 
 
