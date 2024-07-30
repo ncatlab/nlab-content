@@ -54,6 +54,11 @@ On [[machine learning]] the detection of [[unknots]]:
 
 * [[Sergei Gukov]], *Machine learning and hard problems in topology*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#GukovMar2023)&rbrack;
 
+On line [[defect QFT|defects]] in [[Rozansky-Witten theory]] and their [[braiding]]:
+
+* [[Sergei Gukov]], [[Babak Haghighat]], [[Nicolai Reshetikhin]]: *Foams and KZ-equations in Rozansky-Witten theories* &lbrack;[arXiv:2407.19757](https://arxiv.org/abs/2407.19757)&rbrack;
+
+
 
 category: people
 
