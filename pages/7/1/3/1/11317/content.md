@@ -34,11 +34,18 @@ A related problem is that of the [maximal Cauchy development for the Einstein eq
 
 ## References
 
-The original article:
+The original texts:
 
-* [[Stephen Hawking]], [[Roger Penrose]], _The Nature of Space and Time_ Princeton: Princeton University Press. ISBN 0-691-03791-4. (1996)
+* [[Roger Penrose]]: *Gravitational Collapse and Space-Time Singularities*, Phys. Rev. Lett. **14**  (1965) 57 &lbrack;[arXiv:10.1103/PhysRevLett.14.57](https://doi.org/10.1103/PhysRevLett.14.57)&rbrack;
+
+* [[Stephen W. Hawking]], [[George F. R. Ellis]]: *The large scale structure of space-time*, Cambridge Univ. Press (1973, 2010) &lbrack;[doi:10.1017/CBO9780511524646](https://doi.org/10.1017/CBO9780511524646), [Wikipedia entry](https://en.wikipedia.org/wiki/The_Large_Scale_Structure_of_Space%E2%80%93Time)&rbrack;
+
+Exposition and discussion:
+
+* [[Stephen Hawking]], [[Roger Penrose]], _The Nature of Space and Time_,  Princeton University Press (1996) &lbrack;[ISBN 0-691-03791-4](https://press.princeton.edu/books/paperback/9780691168449/the-nature-of-space-and-time), [arXiv:hep-th/9409195](https://arxiv.org/abs/hep-th/9409195),  [Wikipedia entry](https://en.wikipedia.org/wiki/The_Nature_of_Space_and_Time)&rbrack;
 
 Review:
+
 
 * [[Klaas Landsman]], _Singularities, black holes, and cosmic censorship: A tribute to Roger Penrose_ ([arXiv:2101.02687](https://arxiv.org/abs/2101.02687))
 
