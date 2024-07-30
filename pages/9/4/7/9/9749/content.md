@@ -162,8 +162,8 @@ By Lemma \ref{L3} we know that $P{\mathbf{2}} \times P{\mathbf{2}}$ is not $\mat
 \end{proof}
 If Lemma \ref{L3} can be generalized to the statement that if the convex space $\prod_{i \in I}P(X_i)$, where $I$ is a countable indexing set, is not $\mathbf{Cvx}$-isomorphic to $P(Z)$ for any Polish space $Z$ then all the marginalization maps $m: P\big(\prod_{i \in I}P(X_i)\big) \rightarrow \prod_{i \in I}P(X_i)$ are non-free $P$-algebras. Those maps are obviously $P$-algebras by the argument used in Lemma \ref{marginal}.  
 
-([Doberkat 03](#Doberkat03)) works out the algebras for the Giry monad using the Giry monad defined on $Pol$.
-The idea in his article is based upon the idea that we want continuous maps $h:P(X) \rightarrow X$ such that the ‘fibres’ are convex and closed, and such that $\delta_x$, the Delta distribution on $x$, is in the fibre over $x$.
+([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$.
+His representation for the algebras is based upon the idea that we want continuous maps $h:P(X) \rightarrow X$ such that the ‘fibres’ are convex and closed, and such that $\delta_x$, the Delta distribution on $x$, is in the fibre over $x$.
  And there’s another condition which requires a compact subset of $P(X)$ to be sent to a compact subset of $X$.
  Moreover Doberkat also points out that for  discrete  Polish space $X$ that $X$ is disconnected, and hence there can be no continuous map $P{X} \rightarrow \mathbf{X}$. Hence $X$, irrelavant of any convex structure we endow it with, cannot be an algebra.
 
