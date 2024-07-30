@@ -1,4 +1,20 @@
 
+$$
+  \begin{array}{l}
+    \mathrm{dvol}_{\mathbb{R}^{1,2}}
+    \, \mathrm{d} r^3
+    \\
+    \;=\;
+    3 r^2\, 
+    \mathrm{dvol}_{\mathbb{R}^{1,2}}
+    \, 
+    \mathrm{d}r
+    \\
+    \;=\;
+  \end{array}
+$$
+
+
 * [[Sergei Gukov]], [[Marko Stošić]]: *Homological algebra of knots and BPS states*, Geometry & Topology Monographs **18** (2012) 309-367 &lbrack;[arXiv:1112.0030](https://arxiv.org/abs/1112.0030), [doi:10.2140/gtm.2012.18.309](https://doi.org/10.2140/gtm.2012.18.309)&rbrack;
 
 
