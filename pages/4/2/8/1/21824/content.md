@@ -62,6 +62,14 @@ On [[conformal blocks]] for [[Liouville theory]]:
 * [[Xia Gu]], [[Babak Haghighat]], [[Kevin Loo]], *Irregular Fibonacci Conformal Blocks* &lbrack;[arXiv:2311.13358](https://arxiv.org/abs/2311.13358)&rbrack;
 
 
+* [[Babak Haghighat]]: *Flat Connections from Irregular Conformal Blocks*, [talk at ](CQTS#HaghighatFeb2024) [[CQTS]] (Feb 2024) &lbrack;video: [zm](https://nyu.zoom.us/rec/share/c41GdU--I_-g2XLJ7A6T0HxK6AxI-utrlGb2mStB0XBOaJ3FrvC1JzoL_FsjWrEi.MBPR87t2nBR8f99t), [kt](https://cdnapisec.kaltura.com/p/1674401/sp/167440100/embedIframeJs/uiconf_id/23435151/partner_id/1674401?iframeembed=true&playerId=kaltura_player&entry_id=1_qyu7rg1l)&rbrack;
+
+
+On line [[defect QFT|defects]] in [[Rozansky-Witten theory]] and their [[braiding]]:
+
+* [[Sergei Gukov]], [[Babak Haghighat]], [[Nicolai Reshetikhin]]: *Foams and KZ-equations in Rozansky-Witten theories* &lbrack;[arXiv:2407.19757](https://arxiv.org/abs/2407.19757)&rbrack;
+
+
 
 category: people
 
