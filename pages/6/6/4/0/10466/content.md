@@ -293,13 +293,13 @@ Let $\mathrm{SepStk}$ denote the $(2,1)$-category of [[separated morphism|separa
 This $(2,1)$-category admits a [[Grothendieck topology|topology]] by [[open covers]] of stacks;
 we let $\mathrm{Shv}(\mathrm{SepStk})$ be the corresponding [[∞-category]] of [[(infinity,1)-sheaf|sheaves of spaces]], and we let the *homotopy invariant sheaves* $\mathrm{Shv}^{\mathrm{htp}}(\mathrm{SepStk}) \subset \mathrm{Shv}(\mathrm{SepStk})$ be the full subcategory spanned by those sheaves $\mathcal{F}$ such that the map $\mathcal{F}(\mathfrak{X}) \rightarrow \mathcal{F}(\mathfrak{X} \times \mathbb{R})$ induced by the projection $\mathfrak{X} \times \mathbb{R} \rightarrow \mathfrak{X}$ is an equivalence for every [[separated morphism|separated]] [[differentiable stacks]] $\mathfrak{X}$.
 
-Given $G$ a finite group, its [[action groupoid]] lifts to a [[separated morphism|separated]] [[differentiable stacks]] $\mathbb{B}G$, which is homotopy-invariant by [Clough-Cnossen-Linskens 24](#Clough24). In general, we may probe elements of $\mathrm{Shv}^{\mathrm{htp}}(\mathrm{SepStk})$ by evaluating them on the localization $L_{\mathrm{htpy}} \mathbb{B}G$, producing a functor of [[∞-categories]]
+Given $G$ a finite group, its [[action groupoid]] lifts to a [[separated morphism|separated]] [[differentiable stacks]] $\mathbb{B}G$, which is homotopy-invariant by [Clough, Cnossen & Linskens 2024](#CloughCnossenLinskens24). In general, we may probe elements of $\mathrm{Shv}^{\mathrm{htp}}(\mathrm{SepStk})$ by evaluating them on the localization $L_{\mathrm{htpy}} \mathbb{B}G$, producing a functor of [[∞-categories]]
 $$
   \mathrm{ev}_{\mathbb{B}-}:\mathrm{Shv}^{\mathrm{htp}}(\mathrm{SepStk}) \rightarrow \mathrm{Psh}(\mathrm{Glo}^{\mathrm{Stk}}),
 $$
 where $\mathrm{Glo}^{\mathrm{stk}}$ denotes the image of the [[global equivariant indexing category|global indexing category]] in $\mathrm{Shv}^{\mathrm{htp}}(\mathrm{SepStk})$ under $L_{\mathrm{htp}} \mathbb{B}(-)$.
 
-The main theorem of [Clough-Cnossen-Linskens 24](#Clough24) is the following.
+The main theorem of [Clough, Cnossen & Linskens 2024](#CloughCnossenLinskens24) is the following.
 \begin{theorem}
   There are equivalences
 $$
@@ -307,6 +307,8 @@ $$
 $$
   i.e. homotopy invariant [[(∞,1)-sheaves|sheaves]] on [[separated morphism|separated]] [[differentiable stacks]] are equivalent to global spaces.
 \end{theorem}
+
+This generalizes the discussion of [Sati & Schreiber 2020, pp. 58](#SatiSchreiber08).
 
 
 ## Related concepts
@@ -350,9 +352,9 @@ Discussion of the global equivariant homotopy theory as a [[cohesive (∞,1)-top
 
 and further equipped also with smooth structure as required for [[differential cohomology|differential]] [[orbifold cohomology]]: 
 
-* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Proper Orbifold Cohomology]]* &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
+* {#SatiSchreiber08} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Proper Orbifold Cohomology]]* &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
 
-* {#Clough24} [[Adrian Clough]], [[Bastiaan Cnossen]], [[Sil Linskens]]: *Global spaces and the homotopy theory of stacks* &lbrack;[arXiv:2407.06877](https://arxiv.org/abs/2407.06877)&rbrack;
+* {#CloughCnossenLinskens24} [[Adrian Clough]], [[Bastiaan Cnossen]], [[Sil Linskens]]: *Global spaces and the homotopy theory of stacks* &lbrack;[arXiv:2407.06877](https://arxiv.org/abs/2407.06877)&rbrack;
 
 Relatedly, this is developed via partially lax limits in
 
