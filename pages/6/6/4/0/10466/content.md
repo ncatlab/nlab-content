@@ -287,6 +287,26 @@ $$
 
 The central theorem of ([Rezk 14](#Rezk14)) (using a slightly different definition than [Henriques-Gepner 07](#HenriquesGepner07)) is that $PSh_\infty(Orb)$ is a [[cohesive (∞,1)-topos]] with $\Gamma$ producing homotopy quotients.
 
+### Relation to differentiable stacks
+
+Let $\mathrm{SepStk}$ denote the $(2,1)$-category of [[separated morphism|separated]] [[differentiable stacks]], i.e. those whose diagonal is a [[proper map]].
+This $(2,1)$-category admits a [[Grothendieck topology|topology]] by [[open covers]] of stacks;
+we let $\mathrm{Shv}(\mathrm{SepStk})$ be the corresponding [[∞-category]] of [[(infinity,1)-sheaf|sheaves of spaces]], and we let the *homotopy invariant sheaves* $\mathrm{Shv}^{\mathrm{htp}}(\mathrm{SepStk}) \subset \mathrm{Shv}(\mathrm{SepStk})$ be the full subcategory spanned by those sheaves $\mathcal{F}$ such that the map $\mathcal{F}(\mathfrak{X}) \rightarrow \mathcal{F}(\mathfrak{X} \times \mathbb{R})$ induced by the projection $\mathfrak{X} \times \mathbb{R} \rightarrow \mathfrak{X}$ is an equivalence for every [[separated morphism|separated]] [[differentiable stacks]] $\mathfrak{X}$.
+
+Given $G$ a finite group, its [[action groupoid]] lifts to a [[separated morphism|separated]] [[differentiable stacks]] $\mathbb{B}G$, which is homotopy-invariant by [Clough-Cnossen-Linskens 24](#Clough24). In general, we may probe elements of $\mathrm{Shv}^{\mathrm{htp}}(\mathrm{SepStk})$ by evaluating them on the localization $L_{\mathrm{htpy}} \mathbb{B}G$, producing a functor of [[∞-categories]]
+$$
+  \mathrm{ev}_{\mathbb{B}-}:\mathrm{Shv}^{\mathrm{htp}}(\mathrm{SepStk}) \rightarrow \mathrm{Psh}(\mathrm{Glo}^{\mathrm{Stk}}),
+$$
+where $\mathrm{Glo}^{\mathrm{stk}}$ denotes the image of the [[global equivariant indexing category|global indexing category]] in $\mathrm{Shv}^{\mathrm{htp}}(\mathrm{SepStk})$ under $L_{\mathrm{htp}} \mathbb{B}(-)$.
+
+The main theorem of [Clough-Cnossen-Linskens 24](#Clough24) is the following.
+\begin{theorem}
+  There are equivalences
+$$
+  \mathrm{Shv}^{\mathrm{htp}}(\mathrm{SepStk}) \xrightarrow{\mathrm{ev}} \mathrm{Psh}(\mathrm{Glo}^{\mathrm{Stk}}) \simeq \mathrm{Psh}(\mathrm{Glo}),
+$$
+  i.e. homotopy invariant [[(∞,1)-sheaves|sheaves]] on [[separated morphism|separated]] [[differentiable stacks]] are equivalent to global spaces.
+\end{theorem}
 
 
 ## Related concepts
@@ -332,9 +352,11 @@ and further equipped also with smooth structure as required for [[differential c
 
 * [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Proper Orbifold Cohomology]]* &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
 
-* [[Adrian Clough]], [[Bastiaan Cnossen]], [[Sil Linskens]]: *Global spaces and the homotopy theory of stacks* &lbrack;[arXiv:2407.06877](https://arxiv.org/abs/2407.06877)&rbrack;
+* {#Clough24} [[Adrian Clough]], [[Bastiaan Cnossen]], [[Sil Linskens]]: *Global spaces and the homotopy theory of stacks* &lbrack;[arXiv:2407.06877](https://arxiv.org/abs/2407.06877)&rbrack;
 
+Relatedly, this is developed via partially lax limits in
 
+* [[Sil Linskens]], [[Denis Nardin]], [[Luca Pol]], _Global homotopy theory via partially lax limits_ ([arXiv:2206.01556](https://arxiv.org/abs/2206.01556))
 
 Discussion of a model structure for global equivariance with respect to [[geometrically discrete ∞-groupoid|geometrically discrete]] [[simplicial groups]]/[[∞-group]] (globalizing the [[Borel model structure]] for [[∞-actions]]) is in 
 
@@ -353,6 +375,17 @@ On [[orbifold cohomology]] seen in [[global equivariant homotopy theory]]:
 * {#Juran20} [[Branko Juran]], _Orbifolds, Orbispaces and Global Homotopy Theory_ ([arXiv:2006.12374](https://arxiv.org/abs/2006.12374))
 
 following the suggestion in [Schwede 17, Intro](#Schwede17), [Schwede 18, p. ix-x](#Schwede18).
+
+
+An ongoing project to develop global equivariant higher category theory and associated universal properties for global spaces and spectra:
+
+* [[Bastiaan Cnossen]], [[Tobias Lenz]], [[Sil Linskens]], _Parametrized stability and the universal property of global spectra_ ([arXiv:2301.08240](https://arxiv.org/abs/2301.08240))
+
+* [[Bastiaan Cnossen]], [[Tobias Lenz]], [[Sil Linskens]], _Partial parametrized presentability and the universal property of equivariant spectra_ ([arXiv:2307.11001](https://arxiv.org/abs/2307.11001))
+
+* [[Bastiaan Cnossen]], [[Tobias Lenz]], [[Sil Linskens]], _The Adams isomorphism revisited_ ([arXiv:2311.04884](https://arxiv.org/abs/2311.04884))
+
+* [[Bastiaan Cnossen]], [[Tobias Lenz]], [[Sil Linskens]], _Parametrized higher semiadditivity and the universality of spans_ ([arXiv:2403.07676](https://arxiv.org/abs/2403.07676))
 
 
 [[!redirects global homotopy theory]]
