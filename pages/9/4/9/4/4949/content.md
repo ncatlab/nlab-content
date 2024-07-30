@@ -7,6 +7,13 @@ On [[Cheeger-Simons differential characters]] and [[secondary invariants]]:
 
 * {#CheegerSimons85} [[Jeff Cheeger]],  [[James Simons]], _Differential characters and geometric invariants_, pages 50&#8211;80 in: _Geometry and Topology_ Lecture Notes in Mathematics, vol 1167. Springer (1985)  ([pdf](http://numr.wdfiles.com/local--files/differential-cohomology/cheeger-simons.pdf), [doi:10.1007/BFb0075212](https://doi.org/10.1007/BFb0075212))
 
+On [[Ricci curvature]]:
+
+* {#AndersonCheeger92} [[Michael T. Anderson]], [[Jeff Cheeger]], _$C^\alpha$-compactness for manifolds with Ricci curvature and injectivity radius bounded below_ J. Diff. Geo. **35** 2 (1992) 265-281 &lbrack;[doi:10.4310/jdg/1214448075](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-35/issue-2/Calpha-compactness-for-manifolds-with-Ricci-curvature-and-injectivity-radius/10.4310/jdg/1214448075.full)&rbrack;
+
+* {#CheegerNaber13} [[Jeff Cheeger]], [[Aaron Naber]]: *Lower bounds on Ricci curvature and quantitative behavior of singular sets*,  Invent. Math. **191** (2013) 321–339 &lbrack;[arXiv:1103.1819](https://arxiv.org/abs/1103.1819), [doi:10.1007/s00222-012-0394-3](https://doi.org/10.1007/s00222-012-0394-3)&rbrack;
+
+
 
 On [[special holonomy orbifolds]]:
 
