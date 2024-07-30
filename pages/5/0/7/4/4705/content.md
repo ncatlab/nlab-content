@@ -148,6 +148,10 @@ On Rozansky-Witten theory as [[extended functorial field theory]]:
 
 * [[Lorenzo Riva]], *Higher categories of push-pull spans, I: Construction and applications* &lbrack;[arXiv:2404.14597](https://arxiv.org/abs/2404.14597)&rbrack;
 
+On line [[defect QFT|defects]] in Rozansky-Witten theory and their [[braiding]]:
+
+* [[Sergei Gukov]], [[Babak Haghighat]], [[Nicolai Reshetikhin]]: *Foams and KZ-equations in Rozansky-Witten theories* &lbrack;[arXiv:2407.19757](https://arxiv.org/abs/2407.19757)&rbrack;
+
 
 
 
