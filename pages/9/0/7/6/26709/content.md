@@ -1,6 +1,3 @@
-
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -42,6 +39,32 @@ More generally, often $\mathcal{T}$ will be an [[orbital ∞-category]]; in any 
   $$
 \end{definition}
 
+## Examples
+
+#### (Genuine) $G$-spaces
+
+$G$-set induction furnishes an equivalence of categories $\mathbb{F}_H \xrightarrow\sim \mathbb{F}_{G,/[G/H]}$, which preserves and reflects transitivity;
+in particular, it restricts to an equivalence of [[orbit categories]] $\mathcal{O}_H \xrightarrow\sim \mathcal{O}_{G, [G/H]}$, with which we will conflate these two categories.
+
+Using this, the [[universal fibration of (infinity,1)-categories|universal fibration]] functor $\mathcal{O}_{-} = \mathcal{O}_{G, /-}:\mathcal{O} \rightarrow \Cat_{\infty}$ is a $G$-object in whose $H$-value is $\mathcal{O}_H$. 
+By passing to presheaves of spaces fiberwise, we use this to define the **$G$-$\infty$-category of $G$-spaces**
+$$
+  \underline{\mathcal{S}}_G:
+    \mathcal{O}_G^{\op} 
+      \xrightarrow{\;\;\;\; \mathcal{O}_{(-)} \;\;\;\; } 
+    \mathrm{Cat}_\infty^{\op} 
+      \xrightarrow{\;\;\;\; \mathrm{Psh}\;\;\;\; } 
+    \mathrm{Cat}_\infty.
+$$  
+
+Unwinding definitions, the following proposition is a form of [[Elmendorf's theorem]].
+\begin{proposition}
+  The $H$-value of the [[G-∞-category]] of $G$-spaces is the $\infty$-category $\mathcal{S}_H$ of [[G-space|H-spaces]], and the induced functor $\Res_H^G:\mathcal{S}_G \rightarrow \mathcal{S}_H$ is restriction. 
+\end{proposition}
+
+Thus $G$-functors out of $\underline{\mathcal{S}}_G$ are usually interpretable as collections of functors out of $(\mathcal{S}_H)$ which intertwine with restriction. 
+
+
 ## Related concepts
 
 * [[G-space]]
@@ -58,4 +81,7 @@ More generally, often $\mathcal{T}$ will be an [[orbital ∞-category]]; in any 
 
 * [[Jay Shah]], _Parametrized higher category theory II: Universal constructions_, ([arXiv:2109.11954](https://arxiv.org/abs/2109.11954))
 
+[[!redirects G-∞-categories]]
+
 [[!redirects G-category]]
+[[!redirects G-categories]]
