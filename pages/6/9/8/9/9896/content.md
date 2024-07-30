@@ -9,6 +9,8 @@
 
 ## Related concepts
 
+* [[Hawking radiation]]
+
 * [[Bekenstein-Hawking entropy]]
 
 * [[paradox]]
