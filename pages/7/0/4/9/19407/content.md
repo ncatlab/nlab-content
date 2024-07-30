@@ -20,7 +20,26 @@
 
 ## Idea
 
-In [[Riemannian geometry]], the [[topological space|topological]] [[n-sphere]] regarded as a [[Riemannian manifold]] in the standard way (i.e. as the [[submanifold]] of elements at constant [[distance]] from a given point in [[Euclidean space]]) is also called the _round $n$-sphere_, in order to distinguish it from other, non-[[isometry|isometric]] Riemannian manifold [[structures]] that also exists on some [[n-sphere]]. These alternatives are then also called _[[squashed spheres]]_.
+In [[Riemannian geometry]], the [[topological space|topological]] [[n-sphere]] regarded as a [[Riemannian manifold]] in the standard way (i.e. as the [[submanifold]] of elements at constant [[distance]] from a given point in [[Euclidean space]]) is also called the **round $n$-sphere**, in order to distinguish it from other, non-[[isometry|isometric]] Riemannian manifold [[structures]] that also exists on some [[n-sphere]]. These alternatives are then also called **[[squashed spheres]]**.
+
+## Properties
+
+
+\begin{proposition}\label{RicciTensorOfRoundNSphere}
+  For $n \in \mathbb{N}_{\gt 0}$ and $r \in \mathbb{R}_{\gt 0}$, the Ricci tensor of the [[round sphere|round]] [[n-sphere|$n$-sphere]] $S^n$ of [[radius]] $r$ satisfies
+$$
+  Ric(v,v) \;=\; \frac{n-1}{r^2}
+$$
+for all unit-length [[tangent vectors]] $v \in T S^n$, ${\vert v \vert} = 1$.
+
+Accordingly, the [[scalar curvature]] of the [[round sphere|round]] [[n-sphere|$n$-sphere]] of [[radius]] $r$ is the [[constant function]] with value
+$$
+  \mathrm{R} \;=\; \frac{n(n-1)}{r^2}
+  \,.
+$$
+\end{proposition}
+(e.g. [Lee 2018, Cor. 11.20](Ricci+tensor#Lee18))
+
 
 ## Examples of squashed $n$-spheres
 
