@@ -28,6 +28,11 @@ On [[matrix models]]  for [[nearly AdS2/CFT1]]:
 
 * {#GJK22} [[Ping Gao]], [[Daniel L. Jafferis]], David K. Kolchmeyer, *An effective matrix model for dynamical end of the world branes in Jackiw-Teitelboim gravity*,  J. High Energ. Phys. **2022** 38 (2022) \[<a href="https://doi.org/10.1007/JHEP01(2022)038">doi:10.1007/JHEP01(2022)038</a>, [arXiv:2104.01184](https://arxiv.org/abs/2104.01184)\]
 
+Approaching [[3d quantum gravity]] on [[asymptotic boundary|asymptotically]] [[anti de Sitter spacetime|$AdS_3$-spacetimes]] via [[AdS/CFT duality]] as described by [[statistical ensembles]] of [[2d CFTs]]:
+
+* Alexandre Belin, [[Jan de Boer]], [[Daniel Louis Jafferis]], [[Pranjal Nayak]], [[Julian Sonner]]: *Approximate CFTs and Random Tensor Models* &lbrack;[arXiv:2308.03829](https://arxiv.org/abs/2308.03829)&rbrack;
+
+* [[Daniel L. Jafferis]], Liza Rozenberg, [[Gabriel Wong]]: *3d Gravity as a random ensemble* &lbrack;[arXiv:2407.02649](https://arxiv.org/abs/2407.02649)&rbrack;
 
 
 ## Related entries
