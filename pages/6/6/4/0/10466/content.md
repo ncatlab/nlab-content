@@ -122,12 +122,12 @@ for its [[(∞,1)-Yoneda embedding]].
 
 ([Rezk 14, 3.1 and 4.5](#Rezk14))
 
-The following recovers the ordinary ("local") [[equivariant homotopy theory]] of a given [[topological group]] $G$ ("of $G$-spaces").
+The following recovers the ordinary ("local") [[equivariant homotopy theory]] of a given [[compact Lie group]] $G$ ("of $G$-spaces").
 
 +-- {: .num_defn #LocalEquivariantHomotopyTheory}
 ###### Definition
 
-For $G$ a [[topological group]], write 
+For $G$ a [[compact Lie group]], write 
 
 $$
   G Top \coloneqq PSh_\infty(Orb)/\mathbb{B}G
@@ -291,9 +291,9 @@ The central theorem of ([Rezk 14](#Rezk14)) (using a slightly different definiti
 
 Let $\mathrm{SepStk}$ denote the $(2,1)$-category of [[separated morphism|separated]] [[differentiable stacks]], i.e. those whose diagonal is a [[proper map]].
 This $(2,1)$-category admits a [[Grothendieck topology|topology]] by [[open covers]] of stacks;
-we let $\mathrm{Shv}(\mathrm{SepStk})$ be the corresponding [[∞-category]] of [[(infinity,1)-sheaf|sheaves of spaces]], and we let the *homotopy invariant sheaves* $\mathrm{Shv}^{\mathrm{htp}}(\mathrm{SepStk}) \subset \mathrm{Shv}(\mathrm{SepStk})$ be the full subcategory spanned by those sheaves $\mathcal{F}$ such that the map $\mathcal{F}(\mathfrak{X}) \rightarrow \mathcal{F}(\mathfrak{X} \times \mathbb{R})$ induced by the projection $\mathfrak{X} \times \mathbb{R} \rightarrow \mathfrak{X}$ is an equivalence for every [[separated morphism|separated]] [[differentiable stacks]] $\mathfrak{X}$.
+we let $\mathrm{Shv}(\mathrm{SepStk})$ be the corresponding [[∞-category]] of [[(infinity,1)-sheaf|sheaves of spaces]], and we let the *homotopy invariant sheaves* $\mathrm{Shv}^{\mathrm{htp}}(\mathrm{SepStk}) \subset \mathrm{Shv}(\mathrm{SepStk})$ be the full subcategory spanned by those sheaves $\mathcal{F}$ such that the map $\mathcal{F}(\mathfrak{X}) \rightarrow \mathcal{F}(\mathfrak{X} \times \mathbb{R})$ induced by the projection $\mathfrak{X} \times \mathbb{R} \rightarrow \mathfrak{X}$ is an equivalence for every [[separated morphism|separated]] [[differentiable stack]] $\mathfrak{X}$.
 
-Given $G$ a finite group, its [[action groupoid]] lifts to a [[separated morphism|separated]] [[differentiable stacks]] $\mathbb{B}G$, which is homotopy-invariant by [Clough, Cnossen & Linskens 2024](#CloughCnossenLinskens24). In general, we may probe elements of $\mathrm{Shv}^{\mathrm{htp}}(\mathrm{SepStk})$ by evaluating them on the localization $L_{\mathrm{htpy}} \mathbb{B}G$, producing a functor of [[∞-categories]]
+Given $G$ a finite group, its [[action groupoid]] lifts to a [[separated morphism|separated]] [[differentiable stack]] $\mathbb{B}G$, which is homotopy-invariant by [Clough, Cnossen & Linskens 2024](#CloughCnossenLinskens24). In general, we may probe elements of $\mathrm{Shv}^{\mathrm{htp}}(\mathrm{SepStk})$ by evaluating them on the localization $L_{\mathrm{htpy}} \mathbb{B}G$, producing a functor of [[∞-categories]]
 $$
   \mathrm{ev}_{\mathbb{B}-}:\mathrm{Shv}^{\mathrm{htp}}(\mathrm{SepStk}) \rightarrow \mathrm{Psh}(\mathrm{Glo}^{\mathrm{Stk}}),
 $$
