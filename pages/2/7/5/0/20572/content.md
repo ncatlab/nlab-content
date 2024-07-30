@@ -29,6 +29,10 @@ Review:
 
 * [[Ahmed Almheiri]], [[Thomas Hartman]], [[Juan Maldacena]], [[Edgar Shaghoulian]], [[Amirhossein Tajdini]], _The entropy of Hawking radiation_, Rev. Mod. Phys. **93** 35002 (2021) &lbrack;[arXiv:2006.06872](https://arxiv.org/abs/2006.06872), [doi:10.1103/RevModPhys.93.035002](https://doi.org/10.1103/RevModPhys.93.035002)&rbrack;
 
+Popular exposition of [[black holes]] and [[Hawking radiation]]:
+
+* [[Ahmed Almheiri]]: *Exposing the Secrets of Black Holes*, NYUAD Research Institute (Nov 2023) &lbrack;video:[YT](https://youtu.be/yojGqXpt7so)&rbrack;
+
 
 ## Activity
 
