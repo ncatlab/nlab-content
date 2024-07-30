@@ -28,6 +28,10 @@ Introducing what came to be called the [[Penrose limit]] for obtaining [[pp-wave
 
 * {#Penrose76} [[Roger Penrose]], *Any Space-Time has a Plane Wave as a Limit*, in *Differential Geometry and Relativity*, Mathematical Physics and Applied Mathematics **3**, Springer (1976) 271–275 &lbrack;[doi:10.1007/978-94-010-1508-0_23](https://doi.org/10.1007/978-94-010-1508-0_23), [pdf](https://link.springer.com/content/pdf/10.1007/978-94-010-1508-0_23.pdf)&rbrack;
 
+On [[spactime]] in the theory of [[gravity]]/[[general relativity]]:
+
+* [[Stephen Hawking]], [[Roger Penrose]], _The Nature of Space and Time_,  Princeton University Press (1996) &lbrack;[ISBN 0-691-03791-4](https://press.princeton.edu/books/paperback/9780691168449/the-nature-of-space-and-time), [arXiv:hep-th/9409195](https://arxiv.org/abs/hep-th/9409195),  [Wikipedia entry](https://en.wikipedia.org/wiki/The_Nature_of_Space_and_Time)&rbrack;
+
 
 ## Further selected thoughts
 
