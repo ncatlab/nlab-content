@@ -34,6 +34,8 @@ $$\forall_{x \in H} x \vee \neg x = \top$$
 * A Boolean algebra is a [[lattice]] $L$ equipped with a function $\neg: L \to L$ satisfying 
 $$a \wedge b \leq c \qquad iff \qquad a \leq \neg b \vee c$$
 
+* A Boolean algebra is a cartesian [[star-autonomous category|*-autonomous poset]] i.e. a [[meet-semilattice]] which is a $*$-autonomous category with tensor product $a \wedge b$ and monoidal unit $\top$. In other words, a Boolean algebra is a cartesian closed poset $P$ together with an object $\bot$ such that $(a \rightarrow \bot) \rightarrow \bot \le a$ for every $a \in P$. 
+
 ### Explicitly
 
 There are even two explicit definitions: [[order theory|order-theoretic]] and algebraic.
