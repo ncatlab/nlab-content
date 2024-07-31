@@ -35,7 +35,8 @@ an identity for such operators which generalizes the classical Capelli identity.
 
 * [[Roger Howe]], T. Umeda, _The Capelli identity, the double commutant theorem, and multiplicity-free actions_, Math. Ann. __290__ (1991) 565--619
 * E. Mukhin, V. Tarasov, [[A. Varchenko]], _A generalization of the Capelli identity_, [pdf](https://math.nyu.edu/~tschinke/.manin/final/mukhin/mukhin.pdf)
-* Maxim Nazarov, _Yangians and Capelli identities_, in: Kirillov’s seminar on representation theory, Amer. Math. Soc. Translations: 181 (Series 2) 1998 [doi](https://doi.org/10.1090/trans2/181/05)  
+* Maxim Nazarov, _Yangians and Capelli identities_, in: Kirillov’s seminar on representation theory, Amer. Math. Soc. Translations: 181 (Series 2) 1998 [doi](https://doi.org/10.1090/trans2/181/05) 
+* Dimitri Gurevich, Varvara Petrova, Pavel Saponov, _Matrix Capelli identities related to reflection equation algebra_, J. Geom. Phys. __179__ (2022) 104606 [doi](https://doi.org/10.1016/j.geomphys.2022.104606) 
 
 category: algebra
 
