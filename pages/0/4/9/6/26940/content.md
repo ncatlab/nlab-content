@@ -144,6 +144,8 @@ Thus, one has a hierarchy of analytic limited principles of omniscience, where
 
 Given an Archimedean ordered field extension $R$ of the [[Cauchy real numbers]], there are other statements related to the analytic LPO for $R$:
 
+* That the [[floor]] and [[ceiling]] [[partial functions]] are [[total functions]] on $R$ is equivalent to the analytic LPO for $R$. 
+
 * The analytic $\mathrm{LPO}$ for $R$ implies the [[fundamental theorem of algebra]] for $R$. 
 
 ## Models
