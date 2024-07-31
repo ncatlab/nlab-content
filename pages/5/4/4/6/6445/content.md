@@ -29,8 +29,12 @@ There is also a similar concept of an *[[oriented matroid]]*; every oriented mat
 ### Plain definition
 
 \begin{definition}\label{Matroid}
-A **matroid** on a [[set]] $X$ is a [[Moore closure|closure operator]] $cl \colon P(X) \to P(X)$ satisfying the _exchange axiom_: if $a \in cl(S \cup\{b\}) \setminus cl(S)$, then $b \in cl(S \cup\{a\}) \setminus cl(S)$. 
+A **matroid** on a [[set]] $X$ is a [[Moore closure|closure operator]] $cl \colon P(X) \to P(X)$ satisfying the _exchange axiom_: for all $a, b \in X$ and $S \subseteq X$, if $a \in cl(S \cup\{b\}) \setminus cl(S)$, then $b \in cl(S \cup\{a\}) \setminus cl(S)$. 
 \end{definition}
+
+\begin{remark}
+Without loss of generality, the exchange axiom can be stated as: if $a \in cl(S + \{b\}) \setminus cl(S)$, then $b \in cl(S + \{a\}) \setminus cl(S)$, since the implication is vacuous when $b \in S$.
+\end{remark}
 
 \begin{remark}
 When [[combinatorics|combinatorialists]] speak of matroids as such, $X$ is usually taken to be a [[finite set]]. A typical example is $X$ some finite [[subset]] of a [[vector space]] $V$, taking $cl(S) \,\coloneqq\, X \cap Span(S)$ for any $S \subseteq X$. 
