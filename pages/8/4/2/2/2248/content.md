@@ -25,3 +25,4 @@ I\'ve moved this to simply [[free field]], on the grounds that (as with [[field]
 
 
 [[!redirects free field (algebra)]]
+[[!redirects free skewfield]]
