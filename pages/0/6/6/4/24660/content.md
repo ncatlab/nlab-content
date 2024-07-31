@@ -7,7 +7,9 @@ __Vladimir Rubtsov__ (also spelled Roubtsov in France) is a mathematician and ma
 * U. Bruzzo, I. Mencattini, V. Rubtsov, P. Tortella, _Nonabelian Lie algebroid extensions_, [arXiv:1305.2377](https://arxiv.org/abs/1305.2377)
 * D. Gurevich, V. Rubtsov, _Yang-Baxter equation and deformation of associative and Lie algebras_, in: Quantum Groups, Springer Lecture Notes in Math. __1510__ (1992) 47-55 [doi](https://doi.org/10.1007/BFb0101177)
 * B. Enriquez, V. Rubtsov, _Hitchin systems, higher Gaudin Hamiltonians and r-matrices_, Math. Res. Letters __3__ (1996) n&#176; 3, 343-357,  [alg-geom/9503010](https://arxiv.org/abs/alg-geom/9503010)
-* [[Vladimir Retakh]], Vladimir Rubtsov, _Noncommutative Toda chains, Hankel quasideterminants and [[Painleve transcendent|Painlevé]] II equation_, [arxiv/1007.4168](http://arxiv.org/abs/1007.4168)
+* [[Vladimir Retakh]], Vladimir Rubtsov, _Noncommutative Toda chains, Hankel quasideterminants and [[Painleve transcendent|Painlevé]] II equation_, [arxiv/1007.4168](https://arxiv.org/abs/1007.4168)
+* A.Chervov, G.Falqui, V.Rubtsov, _Algebraic properties of Manin matrices I_, Advances in Applied Mathematics 43 (2009) 239--315.
+* A.Chervov, G.Falqui, V.Rubtsov, A.Silantyev, _Algebraic properties of Manin matrices II: q-analogues and integrable systems_, Advances in Applied Mathematics 60 (2014) 25--89
 
 category: people
 
