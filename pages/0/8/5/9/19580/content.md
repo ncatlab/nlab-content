@@ -7,6 +7,8 @@
 
 * [[anti de Sitter spacetime]]
 
+* [[conformal boundary]]
+
 * [[black brane]], [[near horizon geometry]]
 
 * [[AdS-CFT duality]]
