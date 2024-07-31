@@ -61,7 +61,7 @@ One could construct archimedean structure for any Archimedean ordered field wher
 
 In particular, one could construct archimedean structure for any Archimedean ordered field satisfying [[trichotomy]], that for all $x:F$ and $y:F$, exactly one of $x \gt y$, $x \lt y$, $x = y$ is true. 
 
-Suppose the Archimedean ordered field $F$ satisfies [[trichotomy]]. Then, the [[ceiling]] $x \mapsto \lceil x \rceil$ and [[floor]] $x \mapsto \lfloor x \rfloor$ are well defined functions over the entire domain of $F$. By definition of the ceiling and the fact that $x \lt y$, we have that 
+Suppose the Archimedean ordered field $F$ satisfies [[trichotomy]]. Then, the [[ceiling]] $x \mapsto \lceil x \rceil$ and [[floor]] $x \mapsto \lfloor x \rfloor$ [[partial functions]] are [[total functions]] over the entire domain of $F$. By definition of the ceiling and the fact that $x \lt y$, we have that 
 
 $$\left\lceil\frac{2}{y - x}\right\rceil \geq \frac{2}{y - x}$$
 and thus
