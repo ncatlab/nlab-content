@@ -26,10 +26,10 @@ There are many known ways of defining a __Boolean algebra__ or __Boolean lattice
 
 * A Boolean algebra is a [[complement|complemented]] [[distributive lattice]]. 
 
-* A Boolean algebra is a [[Heyting algebra]] $H$ satisfying the [[law of excluded middle]], which means either 
-$$\neg \neg = id: H \to H$$ 
-or (equivalently) 
+* A Boolean algebra is a [[Heyting algebra]] $H$ satisfying the [[law of excluded middle]], which means 
 $$\forall_{x \in H} x \vee \neg x = \top$$
+or (equivalently) satisfying the [[double negation law]], which means
+$$\neg \neg = id: H \to H$$ 
 
 * A Boolean algebra is a [[lattice]] $L$ equipped with a function $\neg: L \to L$ satisfying 
 $$a \wedge b \leq c \qquad iff \qquad a \leq \neg b \vee c$$
