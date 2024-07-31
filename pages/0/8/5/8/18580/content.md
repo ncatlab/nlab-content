@@ -31,8 +31,7 @@ this is not actually a restriction.
 The floor of $x$ is also called the __integer part__ of $x$, and then one refers as well to the __fractional part__ of $x$, denoted $\{x\}$, defined by
 $$ \{x\} = x - [x] .$$
 
-One must of course prove that the floor of $x$ exists; this fails in [[constructive mathematics]], although the floor of $x$ exists for [[full set|almost all]] $x$, and all of these functions can still be defined as continuous maps between appropriate [[locales]].
-
+One must of course prove that the floor of $x$ exists; this fails in [[constructive mathematics]], although the floor of $x$ exists for [[full set|almost all]] $x$, and all of these functions can still be defined as continuous maps between appropriate [[locales]]. That the floor and ceiling are [[total functions]] on the real numbers is equivalent in strength to the [[analytic LPO]]; otherwise the floor is a [[partial function]] only defined on the half-open intervals $[n, n + 1)$ for all integers $n$ and the ceiling is a [[partial function]] only defined on the half-open intervals $(n, n + 1]$ for all integers $n$. 
 
 ## Properties
 
