@@ -179,7 +179,6 @@ On [[2-colimits]] of [[accessible categories]] (i.e. in [[AccCat]]):
 category: people
 
 [[!redirects Robert Pare]]
-[[!redirects Robert Pare]]
 [[!redirects Bob Pare]]
 [[!redirects Bob Paré]]
 [[!redirects Paré]]
