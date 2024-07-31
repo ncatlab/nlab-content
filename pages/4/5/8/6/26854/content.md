@@ -45,6 +45,7 @@ A [[square matrix]] with [[integer]] entries is an __alternating sign matrix__ i
 
 * David Bressoud, *Proofs and confirmations: the story of the Alternating Sign Matrix Conjecture*, Cambridge University Press (1999) &lbrack;[doi:10.1017/CBO9780511613449](https://doi.org/10.1017/CBO9780511613449)&rbrack;
 
+* Andrew N. W. Hone, _Dodgson condensation, alternating signs and square ice_, Phil. Trans. R. Soc. A (2006) __364__, 3183--3198 [doi](https://doi.org/10.1098/rsta.2006.1887)
 
 category: algebra
 
