@@ -200,7 +200,7 @@ The energy momentum tensor allows us to define two densly defined operators $L_{
 
 +-- {: .num_prop}
 ###### Proposition
-**L&#252;scher-Mack**
+**[Lüscher & Mack 1975](#LüscherMack75)**
 
 T is holomorphic. Therefore, the operators
 $$
@@ -424,13 +424,17 @@ The mathematical axioms of CFT, as well as its relevance for surface phenomena g
 
 * [[Alexander Belavin]], [[Alexander Polyakov]], [[Alexander Zamolodchikov]], _Infinite conformal symmetry in two–dimensional quantum field theory_, Nuclear Physics B Volume 241, Issue 2, 23 July 1984, Pages 333-380 (<a href="https://doi.org/10.1016/0550-3213(84)90052-X">doi:10.1016/0550-3213(84)90052-X</a>)
 
-* {#GuuTham21} [[Jin-Cheng Guu]], [[Ying Hong Tham]], _Explicit Factorization of a Categorical Center_, ([arXiv:2111.06919](https://arxiv.org/abs/2111.06919))
-
-Textbook accounts:
+Monographs:
 
 * [[Philippe Di Francesco]], Pierre Mathieu, David Sénéchal: *Conformal field theory*, Springer (1997) &lbrack;[doi:10.1007/978-1-4612-2256-9](https://doi.org/10.1007/978-1-4612-2256-9)&rbrack;
 
 * [[Martin Schottenloher]], *A Mathematical Introduction to Conformal Field Theory*, Lecture Notes in Physics **759**, Springer 2008 ([doi:10.1007/978-3-540-68628-6](https://link.springer.com/book/10.1007/978-3-540-68628-6), [web](https://www.mathematik.uni-muenchen.de/~schotten/LNP-cft-pdf/))
+
+See also:
+
+* {#LüscherMack75} [[Martin Lüscher]], [[Gerhard Mack]]: *Global Conformal Invariance in Quantum Field Theory*, Comm. Math. Phys. **41** 3  (1975) 203-234 &lbrack;[doi:10.1007/BF01608988](https://doi.org/10.1007/BF01608988), [jstor:cmp/1103898909](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-41/issue-3/Global-conformal-invariance-in-quantum-field-theory/cmp/1103898909.full), [inspire:90687](https://inspirehep.net/literature/90687)&rbrack;
+
+
 
 With emphases on [[braid group representations]] constituted by [[conformal blocks]] via the [[Knizhnik-Zamolodchikov equation]]:
 
