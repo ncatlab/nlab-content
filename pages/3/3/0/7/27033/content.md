@@ -94,7 +94,23 @@ There are various other results that are equivalent to the principles of omnisci
 
 ## Truncated and untruncated versions in dependent type theory
 
-In the context of [[dependent type theory]], the various principles of omniscience can be translated in two ways, by interpreting "or" as [[propositional truncation|propositionally truncated]] ("merely or") or untruncated ("purely or"). Truncated LPO and untruncated LPO are equivalent (due to [[Martin Escardo]], see [UFP](#UFP)). 
+In the context of [[dependent type theory]], the limited principles of omniscience can be translated in two ways, by interpreting "or" as [[propositional truncation|propositionally truncated]] ("merely or") or untruncated ("purely or"). 
+
+Also, by using the induction principle of the [[boolean domain]] to construct a boolean-indexed type family, one can translate "or" as the existence of a boolean, which can also be interpreted in truncated (mere existence of a boolean; i.e. an [[existential quantifier]]) or untruncated (pure existence of a boolean; i.e. a [[dependent sum type]]). Then, truncated LPO states that 
+
+$$\prod_{f:\mathbb{N} \to \mathbb{2}} \exists b:\mathbb{2}.(\exists x:\mathbb{N}.f(x) = 1) \simeq (b = 1)$$
+
+while untruncated LPO states that
+
+$$\prod_{f:\mathbb{N} \to \mathbb{2}} \sum_{b:\mathbb{2}} (\exists x:\mathbb{N}.f(x) = 1) \simeq (b = 1)$$
+
+Truncated LPO and untruncated LPO are equivalent (due to [[Martin Escardo]], see [UFP](#UFP)). 
+
+Since [[type theoretic axiom of choice|dependent sums distribute over dependent products]], the untruncated LPO implies that booleans form a [[sigma-complete lattice|$\sigma$-complete lattice]]:
+
+$$\sum_{\Vee:(\mathbb{N} \to \mathbb{2}) \to \mathbb{2}} \prod_{f:\mathbb{N} \to \mathbb{2}} (\exists x:\mathbb{N}.f(x) = 1) \simeq \left(\Vee f = 1\right)$$
+
+One can then show using the properties of [[existential quantifiers]] and [[conjunctions]] that the booleans form a [[sigma-frame|$\sigma$-frame]] or even a [[sigma-algebra|$\sigma$-algebra]] with untruncated LPO. 
 
 ## Related statements
 
