@@ -42,6 +42,11 @@ In higher dimensions:
 
 * R.C. Myers and M.J. Perry, _Black holes in higher dimensional space-times_, Ann. Phys. (NY) 172 (1986) 304.
 
+On approximating Schwarzschild black holes as [[bound states]] of [[Reissner-Nordström black holes]]:
+
+* Raphaël Dulac, Pierre Heidmann: *Building the Blocks of Schwarzschild* &lbrack;[arXiv:2404.18994](https://arxiv.org/abs/2404.18994)&rbrack;
+
+
 [[!redirects Schwarzschild spacetimes]]
 
 
