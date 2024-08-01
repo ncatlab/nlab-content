@@ -271,6 +271,9 @@ Relation to [[black holes in string theory]]:
 
 * Oscar J. C. Dias, [[Jorge E. Santos]]: *The Low Energy Limit of BFSS Quantum Mechanics* &lbrack;[arXiv:2407.15921](https://arxiv.org/abs/2407.15921)&rbrack;
 
+* Angshuman Choudhury, Davide Laurenzano: *Entanglement Entropy for the Black 0-Brane* &lbrack;[arXiv:2407.13336](https://arxiv.org/abs/2407.13336)&rbrack;
+
+
 
 
 ### Relation to lattice gauge theory
