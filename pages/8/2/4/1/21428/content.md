@@ -109,6 +109,8 @@ Review:
 
 * [[Laura Donnay]], *Celestial holography: An asymptotic symmetry perspective* &lbrack;[arXiv:2310.12922](https://arxiv.org/abs/2310.12922)&rbrack;
 
+* *[Celestial Holography Summer School 2024](https://pirsa.org/c24028)*
+
 
 [[!redirects celestial holography]]
 
