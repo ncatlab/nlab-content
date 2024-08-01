@@ -45,6 +45,20 @@ An explicit description of the free coproduct completion $PSh_{\sqcup}(\mathcal{
 
 * The [[composition]]-law and [[identity morphisms]] are the evident ones.
 
+### As a comma category
+
+The free coproduct completion of a category $\mathcal{C}$ is equivalently the following [[comma category]].
+
+\begin{tikzcd}
+	{\mathbf{Fam}(\mathcal{C})} & 1 \\
+	{\mathbf{Set}} & {\mathbf{Cat}}
+	\arrow[from=1-1, to=1-2]
+	\arrow[from=1-1, to=2-1]
+	\arrow["{\mathcal{C}}", from=1-2, to=2-2]
+	\arrow[shorten <=7pt, shorten >=7pt, Rightarrow, from=2-1, to=1-2]
+	\arrow["{\mathbf{disc}}"', from=2-1, to=2-2]
+\end{tikzcd}
+
 
 ### As a Grothendieck construction
  {#AsAGrothendieckConstruction}
