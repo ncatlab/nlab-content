@@ -15,7 +15,7 @@
 
 ## Idea
 
-Given a [[category]] $\mathcal{C}$, its *free coproduct completion* (or *free sum completion*) is [[generalized the|the]] category $PSh_{\sqcup}(\mathcal{C})$ (often denoted $Fam(\mathcal{C})$, for *[[families]]* in $\mathcal{C}$) obtained by [[free construction|freely]] adjoining [[coproducts]] of all [[objects]] of $\mathcal{C}$. 
+Given a [[category]] $\mathcal{C}$, its *free coproduct completion* (or *free sum completion*) is [[generalized the|the]] category $PSh_{\sqcup}(\mathcal{C})$ (often denoted $Fam(\mathcal{C})$, for *[[families]]* in $\mathcal{C}$, but note the usage of this term also for the [[(infinity,n)-category of correspondences|category of correspondences]] in e.g. [Lurie 2009](https://arxiv.org/abs/0905.0465)) obtained by [[free construction|freely]] adjoining [[coproducts]] of all [[objects]] of $\mathcal{C}$. 
 
 ## Definitions
  {#Definitions}
