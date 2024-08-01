@@ -57,6 +57,16 @@ $$\forall q \in \mathbb{Q}. \vert x - q \vert \gt 0$$
 
 Then the function $f(x) \coloneqq (-1)^{1_{\mathbb{Q}}(x)} \sqrt{x}$ is a real square root function, even though it is nowhere continuous, and not defined on the entire half-open interval $[0, \infty)$. 
 
+## Approximate square root functions
+
+Sometimes, the square root function cannot be defined exactly to satisfy the equation $\mathrm{sqrt}(x)^2 = x$. This is the case in some parts of [[numerical analysis]] where the focus is on computation and numerical [[algorithms]], and the real numbers end up as rational numbers since the medium which stores the data for the computation, such as physical paper or the calculator or the computer, cannot store an infinite amount of data required to define a real number exactly.
+
+Instead, there are various notions of **approximate square root functions**. These include the **$\epsilon$-tolerant square root functions**, which, for a given [[positive]] [[rational number]] $\epsilon \in \mathbb{Q}_+$ representing the [[tolerance]], is a function $f$ from the [[non-negative]] [[real numbers]] to the real numbers, which satisfies the following inequality for all non-negative real numbers:
+
+$$\vert f(x)^2 - x \vert \lt \epsilon$$
+
+There are multiple possible $\epsilon$-tolerant square root functions for each tolerance $\epsilon$. 
+
 ## See also
 
 * [[square root]], for square roots in more general mathematical structures
@@ -95,3 +105,11 @@ Then the function $f(x) \coloneqq (-1)^{1_{\mathbb{Q}}(x)} \sqrt{x}$ is a real s
 [[!redirects continuous square root function]]
 [[!redirects continuous square root functions]]
 [[!redirects continuous principal square root function]]
+
+[[!redirects approximate square root function]]
+[[!redirects approximate square root functions]]
+[[!redirects approximate principal square root function]]
+
+[[!redirects epsilon-tolerant square root function]]
+[[!redirects epsilon-tolerant square root functions]]
+[[!redirects epsilon-tolerant principal square root function]]
