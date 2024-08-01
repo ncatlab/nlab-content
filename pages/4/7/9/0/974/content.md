@@ -47,7 +47,7 @@ This means
 
 1. $\mathcal{C}$ has all small [[colimits]];
 
-1. there exists a [[small set]] $S \hookrightarrow Obj(\mathcal{C})$ of $\lambda$-[[compact]] objects that generates $\mathcal{C}$ under $\lambda$-[[filtered colimits]] for some [[regular cardinal]] $\lambda$.
+1. there exists a [[small set]] $S \hookrightarrow Obj(\mathcal{C})$ of $\lambda$-[[compact object|compact]] objects that generates $\mathcal{C}$ under $\lambda$-[[filtered colimits]] for some [[regular cardinal]] $\lambda$.
 
 =--
 
