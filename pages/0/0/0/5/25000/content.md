@@ -118,6 +118,16 @@ From the lemmas above, if every weak Heyting field with decidable equality is a 
 [[!redirects weak heyting field]]
 [[!redirects weak heyting fields]]
 
+[[!redirects Heyting ring]]
+[[!redirects Heyting rings]]
+[[!redirects heyting ring]]
+[[!redirects heyting rings]]
+
+[[!redirects weak Heyting ring]]
+[[!redirects weak Heyting rings]]
+[[!redirects weak heyting ring]]
+[[!redirects weak heyting rings]]
+
 [[!redirects reduced Artinian local ring]]
 [[!redirects reduced local Artinian ring]]
 [[!redirects Artinian reduced local ring]]
