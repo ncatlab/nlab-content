@@ -1424,6 +1424,7 @@ Application to [[meson]] physics:
 
 * Xuanmin Cao, Songyu Qiu, Hui Liu, Danning Li, _Thermal properties of light mesons from holography_ ([arXiv:2102.10946](https://arxiv.org/abs/2102.10946))
 
+* Daisuke Fujii, Akihiro Iwanaka, Mitsuru Tanaka: *Gravitational form factors of pion from top-down holographic QCD* &lbrack;[arXiv:2407.21113](https://arxiv.org/abs/2407.21113)&rbrack;
 
 
 Application to [[quarkonium]]:
