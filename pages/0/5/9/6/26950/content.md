@@ -9,6 +9,8 @@ Milen T. Yakimov is a Professor of Mathematics at Northeastern University. As de
 On [[quantum cluster algebras]]:
 
 * [[K. R. Goodearl]], [[Milen Yakimov|M. T. Yakimov]], _Quantum cluster algebras and quantum nilpotent algebras_, Proc. Natl. Acad. Sci. USA 111(27):9696--9703  (2014) [doi](https://doi.org/10.1073/pnas.1313071111)
+* Kenneth R Goodearl, M. T. Yakimov, _The Berenstein--Zelevinsky quantum cluster algebra conjecture_, Journal of the Europ. Math. Soc. __22__:8 (2020) 2453--2509
+* [[K. R. Goodearl]], M. T. Yakimov, _Integral quantum cluster structures_, Duke Math. J. __170__:6 (2021) 1137--1200 [doi](https://doi.org/10.1215/00127094-2020-0061)
 
 On [[quantum Schubert cells]]:
 
