@@ -112,8 +112,11 @@ It was believed that theorem \ref{OrlovTheorem} should be true for _all_ [[trian
 
 ## Enhancements
 
-On the level of the [[DG enhancements]], it is true for all smooth proper $K$-[[schemes]] that, in the [[homotopy category]] of [[DG categories]], _every_ functor corresponds bijectively to an isomorphism class of objects on $D(X \times Y)$.  See [(Toen 2006)](#Toen2006).
+For any [[quasicompact quasiseparated morphism|quasi-compact quasi-separated]] $k$-schemes $X$ and $Y$ there is a canonical equivalence of [[stable (∞,1)-categories]]
 
+\[
+\mathrm{Func}^L(D(X), D(Y)) \simeq D(X \times Y).
+\]
 
 
 ## Related concepts
