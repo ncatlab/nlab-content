@@ -400,11 +400,11 @@ $$
   \,.
 $$
 
-The pullback along the rightmost morphism is by definition $# * \to \sharp \Omega$
+The pullback along the rightmost morphism is by definition $\sharp * \to \sharp \Omega$
 
 $$
   \array{
-    c_L(A) &\to& &\to& # * = * &\to& *
+    c_L(A) &\to& &\to& \sharp * = * &\to& *
     \\
     \downarrow && && \downarrow && \downarrow
     \\
@@ -435,7 +435,7 @@ Using this in the remaining bottom morphism of our would-be pullback square we f
 
 $$
   \array{
-    c_L(A) &\to& &\to& # * = * &\to& *
+    c_L(A) &\to& &\to& \sharp * = * &\to& *
     \\
     \downarrow && && \downarrow && \downarrow
     \\
@@ -451,7 +451,7 @@ needs to be a pullback diagram. Since $\sharp$ preserves pullbacks we have that 
 
 $$
   \array{
-    c_L(A) &\to& \sharp A &\to& # * = * &\to& *
+    c_L(A) &\to& \sharp A &\to& \sharp * = * &\to& *
     \\
     \downarrow && \downarrow && \downarrow && \downarrow
     \\
