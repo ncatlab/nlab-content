@@ -37,7 +37,7 @@ Explicitly, it is constructed as follows. Let $C, D, E$ be virtual double catego
 
 Let $K = Cat^{\rightrightarrows}$ be the 2-category of [[directed graphs]] [[internalization|internal]] to [[Cat]].  There is a [[2-monad]] $T$ on $K$ whose algebras are (pseudo) double categories, and whose lax and colax morphisms are lax and colax double functors respectively.  The oplax/lax comma double category is then an [[oplax/lax comma object]] for this 2-monad.
 
-## Structures on a virtual comma double category ##
+## Structures on a comma virtual double category ##
 
 Next, we consider what properties are required of the input data (in the virtual case) to determine that a comma virtual double category has units and composites. An analogy with the double category case gives some guidance. Since functors of virtual double categories correspond to *lax* functors of double categories, we don't have any requirements for the functor $G$ on top of $D$ having composites or units. On the other hand, for $F$ to be "oplax", we require that it be normal for units or furthermore strong for composites.
 
