@@ -147,6 +147,9 @@ Discussion with more general [[higher curvature corrections]]:
 
 * Gustavo Arciniega, Pablo Bueno, Pablo A. Cano, Jose D. Edelstein, Robie A. Hennigar, Luisa G. Jaimem, _Geometric Inflation_ ([arXiv:1812.11187](https://arxiv.org/abs/1812.11187))
 
+* Shunsuke Toyama, [[Sergei V. Ketov]]: *Starobinsky inflation beyond the leading order* &lbrack;[arXiv:2407.21349](https://arxiv.org/abs/2407.21349)&rbrack;
+
+
 Discussion of [[eternal inflation]] in Starobinsky-type models
 
 * {#BarenboimKinneyPark16} Gabriela Barenboim, [[William Kinney]], Wan-Il Park, _Eternal Hilltop Inflation_,  Journal of Cosmology and Astroparticle Physics, Volume 2016, May 2016 ([arXiv:1601.08140](https://arxiv.org/abs/1601.08140))
