@@ -19,6 +19,10 @@ Extra terms cancel thanks to appearance of some [[alternating sign matrix]] allu
 
 * Andrew N. W. Hone, _Dodgson condensation, alternating signs and square ice_, Phil. Trans. R. Soc. A (2006) __364__, 3183--3198 [doi](https://doi.org/10.1098/rsta.2006.1887)
 
+On relation to [[octahedron recurrence]]
+
+* David E. Speyer, _Perfect matchings and the octahedron recurrence_, J. Algebr. Comb. (2007) 25:309--348 [doi](https://doi.org/10.1007/s10801-006-0039-y)
+
 * [[Israel Gelfand]], Sergei Gelfand, [[Vladimir Retakh]], Robert Lee Wilson, _Quasideterminants_, Advances in Mathematics 193 (2005) 56--141 [doi](https://doi.org/10.1016/j.aim.2004.03.018)
 
 * [[Doron Zeilberger]], _Dodgson's determinant-evaluation rule proved by two-timing men and women_, Electron. J. Comb. 4 (2), art. R22 [doi][https://doi.org/10.37236/1337)
