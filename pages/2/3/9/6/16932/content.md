@@ -187,6 +187,11 @@ Discussion of magnetic black holes (similar to [[magnetic monopoles]]):
 
 * [[Juan Maldacena]], *Comments on magnetic black holes*,  J. High Energ. Phys. **2021** 79 (2021) &lbrack;[arXiv:2004.06084](https://arxiv.org/abs/2004.06084), <a href="https://doi.org/10.1007/JHEP04(2021)079">doi:10.1007/JHEP04(2021)079</a>&rbrack;
 
+On approximating [[Schwarzschild black holes]] as [[bound states]] of Reissner-Nordström black holes:
+
+* Raphaël Dulac, Pierre Heidmann: *Building the Blocks of Schwarzschild* &lbrack;[arXiv:2404.18994](https://arxiv.org/abs/2404.18994)&rbrack;
+
+
 
 
 [[!redirects Reissner-Nordström spacetimes]]
