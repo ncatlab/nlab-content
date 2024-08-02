@@ -27,4 +27,8 @@ On relation to [[octahedron recurrence]]
 
 * MathOverflow: [geometric-interpretation-of-the-desnanot-jacobi-identity](https://mathoverflow.net/questions/203102/geometric-interpretation-of-the-desnanot-jacobi-identity)
 
+[[Robinson--Schensted--Knuth correspondence]] satisfies the [[octahedron recurrence]]. In the following article this is established with a point of view that RSK correspondence is a [[tropicalization]] of Dodgson condensation rule,
+
+* V.I. Danilov, [[G. A. Koshevoy]], _The octahedron recurrence and RSK-correspondence_, Sém. Lothar. Combin. 54A (2005/07) Art. B54An, 16 pp. (electronic) [published pdf](https://emis.univie.ac.at/journals/SLC/wpapers/s54Adanikosh.pdf) arXiv:[math.CO/0703414](https://arxiv.org/abs/math/0703414)
+
 category: algebra
