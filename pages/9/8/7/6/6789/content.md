@@ -20,16 +20,16 @@ Notice that [[rational Cherednik algebra]]s defined by Etingof and Ginzburg are 
 
 Monograph:
 
-* I. Cherednik, _Double affine Hecke algebras_, London Math. Soc. Lecture Note Series 319, Cambridge Univ. Press 2005
+* [[Ivan Cherednik]], _Double affine Hecke algebras_, London Math. Soc. Lecture Note Series 319, Cambridge Univ. Press 2005
 
 It has been introduced in a series of works in early 1990s:
 
-* I. Cherednik, _Double affine Hecke algebras. Knizhnik-Zamolodchikov equations, and Macdonald operators_, IMRN (Duke Math. J.) 9 (1992), 171--180 MR1185831 (94b:17040), _A unification of Knizhnik-Zamolodchikov and Dunkl operators via affine Hecke algebras_, Invent. math. __106__ (1991) 411--431 MR1128220 (93b:17040); _Double affine Hecke algebras and Macdonald’s conjectures_, Ann. of Math.(2) 141:1 (1995) 191--216.
+* [[Ivan Cherednik]], _Double affine Hecke algebras. Knizhnik-Zamolodchikov equations, and Macdonald operators_, IMRN (Duke Math. J.) 9 (1992), 171--180 MR1185831 (94b:17040), _A unification of Knizhnik-Zamolodchikov and Dunkl operators via affine Hecke algebras_, Invent. math. __106__ (1991) 411--431 MR1128220 (93b:17040); _Double affine Hecke algebras and Macdonald’s conjectures_, Ann. of Math.(2) 141:1 (1995) 191--216.
 
 An introduction into the monograph above is the preprin
 
-* Ivan Cherednik, _Introduction to double Hecke algebras_, [math.QA/0404307](https://arxiv.org/abs/math/0404307)
-* I. Cherednik, Y. Markov, _Hankel transform via double Hecke algebra_, math.QA/0004116
+* [[Ivan Cherednik]], _Introduction to double Hecke algebras_, [math.QA/0404307](https://arxiv.org/abs/math/0404307)
+* [[Ivan Cherednik]], Y. Markov, _Hankel transform via double Hecke algebra_, math.QA/0004116
 
 * [[Mark Haiman]], _Cherednik algebras, Macdonald polynomials and combinatorics_, Proc. ICM, Madrid 2006, Vol. III, 843--872, [djvu scan](http://www.mathunion.org/ICM/ICM2006.3/Main/icm2006.3.0843.0872.ocr.djvu); author's [pdf](https://math.berkeley.edu/~mhaiman/ftp/icm-2006/comb-mac-chered.pdf)
 
