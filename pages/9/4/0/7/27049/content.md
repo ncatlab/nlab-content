@@ -13,6 +13,8 @@ Solutions are [[Laurent polynomial]]s in $f(0,i,j)$ and $\lambda$. This is an ex
 According to [Robbins, Rumsey 1986](#RobbinsRumsey86), exponents of the $f(0,i,j)$ in any monomial
 occurring in a $f(n_0,i_0,j_0)$ form pairs of compatible [[alternating sign matrices]].
 
+Birational [[Robinson--Schensted--Knuth correspondence]] satisfies the octahedron recurrence.
+
 ## Literature
 
 
@@ -20,7 +22,7 @@ Appearance in the study of [[alternating-sign matrices]]
 
 * {#RobbinsRumsey86} [[D. P. Robbins]], H. Rumsey, _Determinants and alternating-sign matrices_, Advances in Math. __62__ (1986) 169--184 <a href="https://doi.org/10.1016/0001-8708(86)90099-X">doi</a>
 * J. Propp, _The many faces of alternating-sign matrices, in Discrete Models: Combinatorics, Computation,
-and Geometry_, Discrete Math. Theor. Comput. Sci. Proc., AA, Maison Inform. Math. Discr´et. (Paris,
+and Geometry_, Discrete Math. Theor. Comput. Sci. Proc., AA, Maison Inform. Math. Discrét. (Paris,
 2001) 43--58
 
 Providing a major example in [[cluster algebra]]s
@@ -37,5 +39,13 @@ Relation to [[crystal bases]]
 Application to [[Littlewood-Richardson rule]]
 
 * [[Allen Knutson]], [[Terence Tao]], Christopher T. Woodward. _A positive proof of the Littlewood-Richardson rule using the octahedron recurrence_, arXiv:[math.CO/0306274](https://arxiv.org/abs/math/0306274)
+
+[[Robinson--Schensted--Knuth correspondence]] satisfies octahedron recurrence
+
+* V.I. Danilov, G. A. Koshevoy, _The octahedron recurrence and RSK-correspondence_, Sém. Lothar. Combin., 54A (2005/07) Art. B54An, 16 pp. (electronic) [published pdf](https://emis.univie.ac.at/journals/SLC/wpapers/s54Adanikosh.pdf) arXiv:[math.CO/0703414](https://arxiv.org/abs/math/0703414)
+
+On a bijective proof of that fact
+
+* Miriam Farber, Sam Hopkins, Wuttisak Trongsiriwat, _Interlacing networks: Birational RSK, the octahedron recurrence, and Schur function identities_, Journal of Combinatorial Theory __A 133__ (2015) 339--371 [doi](https://doi.org/10.1016/j.jcta.2015.03.001)
 
 category: combinatorics
