@@ -3,9 +3,7 @@
 
 Dodgson condensation is a method of calculating the [[determinant]] of $n\times n$-matrix by means of a determinant of $(n-1)\times(n-1)$-matrix whose entries are $2\times 2$-minors of the original entry and divided by certain correction. This gives an algorithm for computing determinants of order $n$ in cubic time in $n$.
 
-It is related to [[cluster algebras]] and so called [[T-system]]. Its underlying "Lewis Caroll" identity (also called Desnanot-Jacobi relation) is, as shown by Gelfand et al., a special case of [[Sylvester identity]]. 
-
-
+It is related to [[cluster algebras]] and so called [[T-system]]. Its underlying "Lewis Caroll" identity (also called Desnanot-Jacobi relation) is, as shown by Gelfand et al., a special case of [[Sylvester identity]]. Desnanot-Jacobi relation is sometimes extended to [[octahedron recurrence]].
 
 ## Literature
 
