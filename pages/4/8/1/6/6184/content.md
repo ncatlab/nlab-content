@@ -23,7 +23,7 @@ Original article:
 
 Proofs of the Verlinde formula:
 
-* {#TUY89} A. Tsuchiya, [[Kenji Ueno]], and Y. Yamada, *Conformal field theory on the universal family of stable curves with gauge symmetry* In: *Conformal field theory and solvable lattice models* Adv. Stud. Pure Math. **16** (1989), 297–372.
+* {#TUY89} A. Tsuchiya, [[Kenji Ueno]], [[Y. Yamada]], *Conformal field theory on the universal family of stable curves with gauge symmetry* In: *Conformal field theory and solvable lattice models* Adv. Stud. Pure Math. **16** (1989), 297–372.
 
 * {#Faltings94} [[Gerd Faltings]], *A proof for the Verlinde formula*, J. Alg. Geom. **3** (1994) 347–374
 
