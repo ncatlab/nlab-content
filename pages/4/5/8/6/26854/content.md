@@ -48,9 +48,14 @@ A [[square matrix]] with [[integer]] entries is an __alternating sign matrix__ i
 Appearance in cancelation of terms in [[Dodgson condensation]]
 
 * Andrew N. W. Hone, _Dodgson condensation, alternating signs and square ice_, Phil. Trans. R. Soc. A (2006) __364__, 3183--3198 [doi](https://doi.org/10.1098/rsta.2006.1887)
+* D. P. Robbins, H. Rumsey, _Determinants and alternating-sign matrices_, Advances in Math. __62__ (1986) 169--184
+
+* J. Propp, _The many faces of alternating-sign matrices, in Discrete Models: Combinatorics, Computation,
+and Geometry_, Discrete Math. Theor. Comput. Sci. Proc., AA, Maison Inform. Math. Discr´et. (Paris,
+2001) 43--58
 
 category: algebra
 
 [[!redirects alternating sign matrices]]
-
+[[!redirects alternating-sign matrices]]
 
