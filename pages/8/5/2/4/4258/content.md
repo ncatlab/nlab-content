@@ -1,4 +1,4 @@
-**Joel W. Robbin** is a mathematician at the University of Wisconsin at Madison. His thesis was in mathematical logics, under A. Church of Princeton; he also authored a textbook on logics and coauthored _Mathematical logic and computability_ with [Jerome Keisler](http://www.math.wisc.edu/~keisler). 
+**Joel W. Robbin** is a mathematician at the University of Wisconsin at Madison. His thesis was in mathematical logics, under [[Alonzo Church]] of Princeton; he also authored a textbook on logics and coauthored _Mathematical logic and computability_ with [Jerome Keisler](http://www.math.wisc.edu/~keisler). 
 
 From soon after his thesis, Robbin switches his main interests to [[dynamical system|dynamical systems]] of Morse--Smale type where he found several foundational results. He also worked in related questions of rigorous approaches to [[quantization]], [[symplectic geometry]] and [[symplectic topology]]; several of his articles are coauthored with [[Dietmar Salamon]]. 
 
@@ -6,10 +6,20 @@ At the time when MatLab was expensive for students, Robbin programmed an interpr
 
 * [homepage](http://www.math.wisc.edu/~robbin)
 
+## Selected works
+
+### Books
+
 * J. W. Robbin, _Mathematical logic. A first course._ W. A. Benjamin, Inc., New York-Amsterdam 1969 xii+212 pp. 
 [MR0250846 (40 #4078)](http://www.ams.org/mathscinet-getitem?mr=0250846)
 
 * R. Abraham, J. Robbin, _Transversal mappings and flows_, Benjamin, 1967
+
+* [[Jerome Keisler]], Joel Robbin, _Mathematical logic and computability_, McGraw-Hill, 1996
+
+* Joel W. Robbin, _Matrix algebra using MINImal MATlab_, A K Peters/CRC Press 1995, electronic 2017, 50 pp. [doi](https://doi.org/10.1201/9781315275451)
+
+### Articles
 
 * Joel W. Robbin, _On structural stability._ Bull. Amer. Math. Soc. __76__  1970 723--726, [MR0261622 (41 #6235)](http://www.ams.org/mathscinet-getitem?mr=0261622)
 
