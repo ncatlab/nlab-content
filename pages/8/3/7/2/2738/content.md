@@ -187,7 +187,7 @@ where
 
 * the arrow not ending at a bullet depicts the root edge.
 
-The set of incoming edges of $v$ is $\{e,f\}$, the outgoing edge of $v$ is $b$. The set of incoming edges of $u$ is $\{b,c,d\}$, its outgoing edge is the root edge $r$. The set of ingoing edges of $e$ is the [[empty set]], its outgoing edge is $d$.
+The set of incoming edges of $v$ is $\{e,f\}$, the outgoing edge of $v$ is $b$. The set of incoming edges of $u$ is $\{b,c,d\}$, its outgoing edge is the root edge $r$. The set of ingoing edges of $e$ is the [[empty set]], its outgoing edge is $b$.
 
 The valence of $v$ is 2, that of $u$ is 3 and that of $w$ is 0.
 
