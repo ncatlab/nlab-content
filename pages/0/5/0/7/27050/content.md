@@ -9,6 +9,8 @@ Gleb Koshevoy is a mathematician at Russian Academy of Sciences.
 On [[octahedron recurrence]]
 
 * V. Danilov, [[Gleb Koshevoy]], _Arrays and the octahedron recurrence_, arXiv:[math.CO/0504299](https://arxiv.org/abs/math/0504299)
+* V. I. Danilov, [[G. A. Koshevoy]], _Arrays and combinatorics of Young tableaux_, Uspehi Math.
+Nauk, 60:2 (2005) 79--142 (in Russian); English transl. in Russian Math. Surveys 60:2 (2005) 269--334
 
 [[Robinson--Schensted--Knuth correspondence]] satisfies the [[octahedron recurrence]] 
 
