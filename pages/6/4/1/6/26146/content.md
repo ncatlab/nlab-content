@@ -1,5 +1,5 @@
 
-A Russian-American mathematician. His main works are in combinatorics and algebra, often motivated by mathematical physics, representation theory and other applications. With A. Zelevinsky, he introduced [[cluster algebra]]s.
+A Russian-American mathematician. His main works are in [[combinatorics]] and algebra, often motivated by [[mathematical physics]], [[representation theory]] and other applications. With [[A. Zelevinsky]], he introduced [[cluster algebra]]s.
 
 * [wikipedia](https://en.wikipedia.org/wiki/Sergey_Fomin)
 
@@ -15,9 +15,10 @@ Introducing [[cluster algebras]]:
 
 * {#FominZelevinsky07} [[Sergey Fomin]], [[Andrei Zelevinsky]]: _Cluster algebras IV: Coefficients_, Compos. Math. __143__ (2007) 112-164 &lbrack;[doi:10.1112/S0010437X06002521](http://dx.doi.org/10.1112/S0010437X06002521), [arXiv:math/0602259](https://arxiv.org/abs/math/0602259), [MR2295199](http://www.ams.org/mathscinet-getitem?mr=2295199)&rbrack;
 
+* [[Sergey Fomin]], [[Andrei Zelevinsky]], _The Laurent phenomenon_, Adv. in Appl. Math. __28__:2 (2002) 119--144
 
-See also:
 
+Particular case of cluster algebras related to [[Y-system]]:
 
 * [[Sergey Fomin]], [[Andrei Zelevinsky]], _[[Y-system]]s and generalized associahedra_, Ann. Math. __158__ 977-1018 (2003) [doi](https://doi.org/10.4007/annals.2003.158.977)
 
