@@ -47,7 +47,7 @@ IAS/Park City Math. Ser. __13__, Amer. Math. Soc., Providence, RI, 2007, [pdf](h
 * Friedrich Knop, _Integrality of two variable Kostka functions_,
 J. Reine Angew. Math. 482 (1997), 177&#8211;189, [doi](http://dx.doi.org/10.1515/crll.1997.482.177), [MR99j:05189c](http://www.ams.org/mathscinet-getitem?mr=1427661)
 * Siddhartha Sahi, _Interpolation, integrality, and a generalization of Macdonald's polynomials_, Internat. Math. Res. Notices 1996, no. 10, 457&#8211;471, [MR99j:05189b](http://www.ams.org/mathscinet-getitem?mr=1399411), [doi](http://dx.doi.org/10.1155/S107379289600030X)
-* Anatol N. Kirillov, Masatoshi Noumi, _Affine Hecke algebras and raising operators for Macdonald polynomials_, Duke Math. J. __93__ (1998), no. 1, 1&#8211;39, [MR99j:05189a](http://www.ams.org/mathscinet-getitem?mr=1620075), [doi](https://doi.org/10.1215/S0012-7094-98-09301-2)
+* Anatol N. Kirillov, [[Masatoshi Noumi]], _Affine Hecke algebras and raising operators for Macdonald polynomials_, Duke Math. J. __93__ (1998), no. 1, 1--39, [MR99j:05189a](http://www.ams.org/mathscinet-getitem?mr=1620075), [doi](https://doi.org/10.1215/S0012-7094-98-09301-2)
 * Anatol Kirillov Jr., _Traces of intertwining operators and Macdonald's polynomials_, [q-alg/9503012](http://arxiv.org/abs/q-alg/9503012)
 * Anton Gerasimov, Dimitri Lebedev, Sergey Oblezin, _Baxter operator formalism for Macdonald polynomials_. [arxiv/1204.0926](http://arxiv.org/abs/1204.0926)
 * Persi Diaconis, [[Arun Ram]], _A probabilistic interpretation of the Macdonald polynomials_, [arxiv/1007.4779](http://arxiv.org/abs/1007.4779)
