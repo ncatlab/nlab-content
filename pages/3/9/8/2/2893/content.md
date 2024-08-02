@@ -1,4 +1,3 @@
-# Full images of functors #
 * tic
 {: toc}
 
@@ -33,6 +32,7 @@ $$
 $$
 in the category [[Cat]]. Here $F_0$ is the object component of $F$ and $codisc(F_0)$ is the obvious functor. This determines $\overline{im} F$ up to canonical isomorphism as a [[strict category]] (or other [[internal category]]).
 
+The full image of $F : C \to D$ is equivalently the [[Kleisli category]] for the trivial $F$-[[relative monad]] $F$.
 
 ## Full images of forgetful functors ##
 
