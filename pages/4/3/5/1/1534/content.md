@@ -283,6 +283,13 @@ Relation to [[homotopical algebraic quantum field theory]]:
 
 * [[Andre Henriques]], _Conformal nets are factorization algebras_, [arXiv:1611.05529](https://arxiv.org/abs/1611.05529)
 
+Relation with [[vertex algebras]]
+
+* Yusuke Nishinaka, _An algebraic construction of functors between vertex algebras and Costello--Gwilliam factorization algebras_, [arXiv:2408.00412](https://arxiv.org/abs/2408.00412)
+
+> We construct functors between the category of vertex algebras and that of Costello-Gwilliam factorization algebras on the complex plane ℂ, without analytic structures such as differentiable vector spaces, nuclear spaces, and bornological vector spaces. We prove that this pair of functors is an adjoint pair and that the functor from vertex algebras to factorization algebras is fully faithful. Also, we identify the class of factorization algebras that are categorically equivalent to vertex algebras. To illustrate, we check the compatibility with the commutative structures and the factorization algebras constructed as factorization envelopes, including the Kac-Moody factorization algebra, the quantum observables of the βγ system, and the Virasoro factorization algebra. 
+
+
 
 
 
