@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _model structure on strict $\omega$-categories_ is a [[model category]] structure that presentes the [[(∞,1)-category]] of [[strict ∞-categories]].
+The _model structure on strict $\omega$-categories_ is a [[model category]] structure that presents the [[(∞,1)-category]] of [[strict ∞-categories]].
 
 It resticts to the [[model structure on strict ∞-groupoids]].
 
