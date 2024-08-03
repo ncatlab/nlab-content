@@ -5,7 +5,7 @@
 
 ## Idea
 
-An object is _scale invariant_ if it is preserved by global rescaling of length. An object is _conformally invariant_ if it is preserved by transformations that preserve angles, hence by _local_ rescaling of length.
+An object is _scale invariant_ if it is preserved by global rescaling of length. An object is _conformally invariant_ if it is preserved by transformations that preserve angles between the tangents to smooth curves at their intersections, hence by _local_ rescaling of length.
 
 ## Related concepts
 
