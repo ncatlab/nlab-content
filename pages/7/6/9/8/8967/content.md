@@ -105,7 +105,11 @@ If $p$ is an isomorphism, then a distributivity pullback is also a [[final pullb
 
 ## References
 
-* [[Mark Weber]], "Polynomials in categories with pullbacks", [arXiv](http://arxiv.org/abs/1106.1983), [TAC](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html)
+* [[Mark Weber]], _Polynomials in categories with pullbacks_, [arXiv](http://arxiv.org/abs/1106.1983), [TAC](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html)
  {#Weber}
+
+Distributivity pullbacks are exhibited as [[bipullbacks]] in [[Span]] in §7 of:
+
+* [[Ross Street]], _Polynomials as spans_, Cahiers de topologie et géométrie différentielle, Vol. 61, No. 2, 2020, pp. 113-153. &lbrack;[pdf](http://cahierstgdc.com/wp-content/uploads/2020/04/STREET-LXI-2.pdf)&rbrack;
 
 [[!redirects distributivity pullbacks]]
