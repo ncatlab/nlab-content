@@ -28,7 +28,7 @@ For usefully working with bicategories of this kind, it is typically of crucial 
 
 This is essentially the same as a _[[proarrow equipment]]_ on a [[bicategory]]. See there for more.
 
-**Framed bicategories** are also known as **fibrant double categories**, because they may be characterised by the property that $(L, R) : D_0 \to D_1 \times D_1$ is a [[fibration]] (Theorem 4.1 of [Shulman '08](#Shulman08)). They are called **gregarious double categories** in [DPP10](#DawsonParePronk10).
+**Framed bicategories** are also known as **fibrant double categories**, because they may be characterised by the property that $(L, R) : D_1 \to D_0 \times D_0$ is a [[fibration]] (Theorem 4.1 of [Shulman '08](#Shulman08)). They are called **gregarious double categories** in [DPP10](#DawsonParePronk10).
 
 ## See also
 * [[companion pair]]
