@@ -136,7 +136,7 @@ See [[module over an enriched category]].
  {#DefWithOCat}
 
 There is a general definition of modules in terms of 
-stabilized slice-categories of the category of monoids: _[[Beck modules]]_,
+stabilized [[slice categories]] of the category of monoids: _[[Beck modules]]_,
 _[[tangent (infinity,1)-categories]]_. 
 
 #### Modules over a ring
