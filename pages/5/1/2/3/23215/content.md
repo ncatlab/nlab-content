@@ -26,6 +26,6 @@ __$FinSurj$__ (or __$FinSet_{surj}$__) is the [[full subcategory]] of $Surj$ spa
 
 ## References
 
-* [[Cole Comfort]], _A diagrammatic approach to networks of spans and relations_, PhD thesis, University of Oxford, 2023.
+* [[Cole Comfort]], _A diagrammatic approach to networks of spans and relations_, PhD thesis, University of Oxford, 2023, [web](https://ora.ox.ac.uk/objects/uuid:b4b9a38d-f2c9-4e17-92ac-727047c8aa24).
 
 [[!redirects FinSurj]]
