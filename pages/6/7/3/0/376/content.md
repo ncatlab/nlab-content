@@ -387,6 +387,9 @@ The [[internal logic]] of locally cartesian closed categories is an [[extensiona
 
 There are categories which are cartesian closed and not locally cartesian closed, but in which for some $f$ the  base change functor $f^*: C/y \to C/x$ has a right adjoint. This includes $Cat$, $Gpd$, and the category of [[crossed complex]]es; in the latter two cases, it is necessary and sufficient for $f$ to be a [[fibration]], while in $Cat$ it is sufficient for $f$ to be a fibration or an opfibration.
 
+### Distributivity of dependent sums over dependent products
+See  [[distributivity pullback]].
+
 ## Examples
 
 +-- {: .num_prop}
@@ -421,6 +424,8 @@ More generally, every [[quasitopos]] is locally cartesian closed.
 * [[locally cartesian category]]
 
 * [[locally regular category]]
+
+* [[distributivity pullback]]
 
 ## References
 
