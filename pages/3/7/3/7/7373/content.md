@@ -22,7 +22,7 @@ Applied Categorical Structures, 26, 287–308(2018), [arXiv](https://arxiv.org/a
 
 On [[category theory]]:
 
-* [Einf&#252;hrung in die Kategorientheorie: Mit ausf&#252;hrlichen Erkl&#228;rungen und zahlreichen Beispielen](http://www.springer.com/de/book/9783662535202), Second edition, Springer, 2016.
+* [Einf&#252;hrung in die Kategorientheorie: Mit ausf&#252;hrlichen Erkl&#228;rungen und zahlreichen Beispielen](http://www.springer.com/de/book/9783662535202), Second edition, Springer, 2016. Errata can be found at the [book's website](https://kategorientheorie.de/).
  
 **Preprints**
 
