@@ -38,6 +38,24 @@ The [[set]] of irrational real numbers (a [[subset]] of the set of real numbers)
 
 We may give $\mathbb{J}$ a [[topological structure|topology]] as a [[subspace]] of the [[real line]] $\mathbb{R}$.  With this topology, $\mathbb{J}$ is sometimes called __[[Baire space of irrational numbers|Baire space]]__; however, one uses a different [[uniform structure]].  (This should be distinguished from the sense of [[Baire space]] as a space to which the [[Baire category theorem]] applies; however, $\mathbb{J}$ is an example of such a space.)
 
+### As non-repeating radix expansions
+
+There is another definition of irrational number, common in the prealgebra and high school algebra literature, which directly defines the irrational numbers in terms of base 10 infinite radix expansions. (see [[prealgebra real number]]). This can be done in every base greater than 1:
+
+Let the natural number $b \gt 1$ denote the base of the radix expansion, $[0, b)$ denote the half-open [[interval]] in the [[natural numbers]] of all natural numbers less than $b$. Base $b$ infinite radix expansions are elements of $\mathbb{Z} \times [0, b)^\mathbb{N}$, with the idea that each pair $(i, d)$ consists of an integer $i$ and a sequence of digits $d(n)$ in the base $b$ infinite radix expansion. The [[series]] 
+$$\sum_{n = 0}^\infty i + \frac{d(n)}{b^{n + 1}}$$
+can be shown to be a [[Cauchy sequence]]. 
+
+The set of repeating base $b$ infinite radix expansion is the subset of $\mathbb{Z} \times [0, b)^\mathbb{N}$ such that for pairs $(i, d)$ in the subset, there exist natural number $k$ and positive natural number $n$ such that the sequence $\lambda m.d(m + k)$ factors through the [[cyclic group]] $\mathbb{Z}/n\mathbb{Z}$. 
+
+$$\lambda m.d(m + k):\mathbb{N} \to \mathbb{Z}/n\mathbb{Z} \to [0, b)$$
+
+An **irrational number** is a non-repeating base $b$ infinite radix expansion, and the set of irrational numbers $\mathbb{J}$ is defined here as the [[complement]] of the subset of repeating base $b$ infinite radix expansion. 
+
+In [[constructive mathematics]], not only are there multiple notions of irrational number, but not every strictly irrational number is the limit of the series
+$$\sum_{n = 0}^\infty i + \frac{d(n)}{b^{n + 1}}$$
+given by a non-repeating base $b$ infinite radix expansion. However, it is still the case that every strictly irrational number which is also a [[Cauchy real number]] is the limit of such a series given by a non-repeating base $b$ infinite radix expansion. 
+
 ### In Archimedean integral domains
 
 Let $R$ be an [[Archimedean integral domain]] with the [[integers]] $\mathbb{Z} \subseteq R$ being a integral subdomain of $R$. 
@@ -114,6 +132,15 @@ The usual proofs of these theorems are entirely [[constructive mathematics|const
    *  [Baire space (set theory)](http://en.wikipedia.org/wiki/Baire_space_%28set_theory%29)
    *  [Irrational numbers &#8594; History](http://en.wikipedia.org/wiki/Irrational_number#History)
 
+For the definition of the irrational numbers in terms of non-repeating base 10 infinite radix expansions
+
+* Nichols, Eugene D, et al. Holt Algebra with Trigonometry. Holt, Rinehart and Winston : Harcourt Brace Jovanovich, 1992. 
+
+* Marecek, Lynn, et al. Prealgebra 2e. OpenStax, Rice University, 2020. 
+
+That Cauchy irrational numbers have radix expansions in constructive mathematics
+
+* {#Swan24} Andrew Swan (2024) on Category Theory Zulip, [Radix expansions in constructive mathematics](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Radix.20expansions.20in.20constructive.20mathematics/near/456366041)
 
 [[!redirects irrational number]]
 [[!redirects irrational numbers]]
