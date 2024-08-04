@@ -26,7 +26,7 @@ The set of repeating infinite decimal representations is the subset of $\mathbb{
 
 $$\lambda m.d(m + k):\mathbb{N} \to \mathbb{Z}/n\mathbb{Z} \to [0, 9]$$
 
-Let $\mathbb{J}$ be the set of non-repeating infinite decimal representations, which is defined here as the [[complement]] of the subset of repeating infinite decimal numbers. These are referred to as the [[irrational numbers]] in the prealgebra and high school algebra literature. 
+Two infinite decimal representations $(i, d)$ and $(j, e)$ are said to be [[apartness relation|apart from]] each other if $i \neq j$ or there exists a natural number $n$ such that $d(n) \neq e(n)$. An infinite decimal representation $x$ is said to be strictly non-repeating if it is apart from every repeating base $b$ infinite radix expansion. Let $\mathbb{J}$ be the set of strictly non-repeating infinite decimal representations. These are referred to as the [[irrational numbers]] in the prealgebra and high school algebra literature. 
 
 Then the set of **prealgebra real numbers** or **high school algebra real numbers** is the ([[disjoint union|disjoint]]) [[union]] of $\mathbb{Q}$ and $\mathbb{J}$. The name "prealgebra real numbers" or "high school algebra real numbers" is because this is the definition of the real numbers which most commonly appears in prealgebra and high school algebra textbooks. 
 
@@ -36,7 +36,7 @@ In [[constructive mathematics]], this definition only results in a subset of the
 
 In addition, not every strictly irrational number is the limit of the series
 $$\sum_{n = 0}^\infty i + \frac{d(n)}{10^{n + 1}}$$
-given by a non-repeating infinite decimal representation. However, it is still the case that every strictly irrational number which is also a [[Cauchy real number]] is the limit of such a series given by a non-repeating infinite decimal representation. 
+given by a strictly non-repeating infinite decimal representation. However, it is still the case that strictly irrational numbers which are also a [[Cauchy real number]] are interdefinable with strictly non-repeating infinite decimal representation. 
 
 ## See also ##
 
