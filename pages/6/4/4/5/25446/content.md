@@ -22,7 +22,7 @@ A **combinatorial category** &lbrack;[Pultr (1973, Def. 1.7)](#Pultr73)&rbrack; 
 
 Or equivalently
 
-* For all objects $A, B \in C$, $\left|C(X, A)\right| = \left|C(X, B)\right|$ for all objects $X \in C$.
+* For all objects $A, B \in C$, if $\left|C(X, A)\right| = \left|C(X, B)\right|$ for all objects $X \in C$ then $A \cong B$.
 
 ## Properties
 
