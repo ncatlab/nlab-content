@@ -148,6 +148,8 @@ Given an Archimedean ordered field extension $R$ of the [[Cauchy real numbers]],
 
 * The analytic $\mathrm{LPO}$ for $R$ implies the [[fundamental theorem of algebra]] for $R$. 
 
+* The analytic $\mathrm{LPO}$ for $R$ implies that $R$ coincides with the [[prealgebra real numbers]]. 
+
 ## Models
 
 * The analytic LPO for both [[Cauchy real numbers]] and [[Dedekind real numbers]] fails in Johnstone's [[topological topos]], since it contradicts [[Brouwer's continuity principle]] which holds for both the [[Cauchy real numbers]] and the [[Dedekind real numbers]].
