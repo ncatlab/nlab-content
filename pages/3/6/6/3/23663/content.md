@@ -1,6 +1,4 @@
-[[!redirects prealgebra real numbers]]
-[[!redirects pre-algebra real number]]
-[[!redirects pre-algebra real numbers]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -12,28 +10,48 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea ##
 
-The real numbers as encountered in prealgebra. 
+The [[real numbers]] as encountered in prealgebra and high school algebra. 
 
 ## Definition ##
 
-Let $R$ be an [[Archimedean integral domain]] and let $[0, 1]_R$ be the [[unit interval]] in $R$. Let $a:\mathbb{N} \to [0, 9]_\mathbb{N}$ be a sequence of decimal digits, where $n \in [0, 9]_\mathbb{N}$ is the set of all natural numbers $0 \leq n \leq 9$, and let $\mathcal{I}:[0, 9]_\mathbb{N} \to F$ be the canonical embedding of $[0, 9]_\mathbb{N}$ into $R$. The __prealgebra real numbers__ $\mathbb{R}$ is the [[initial object|initial]] [[Archimedean integral domain]] such that for every such sequence $a:\mathbb{N} \to [0, 9]_\mathbb{N}$, the [[sequence]] 
+Let $\mathbb{Q}$ be the set of [[rational numbers]] and let $[0, 9]$ denote the [[interval]] in the [[natural numbers]] of all natural numbers between $0$ and $9$ inclusive. Infinite decimals representations are elements of $\mathbb{Z} \times [0, 9]^\mathbb{N}$, with the idea that each pair $(i, d)$ consists of an integer $i$ and a sequence of digits $d(n)$ in the infinite decimal representation. The [[series]] 
+$$\sum_{n = 0}^\infty i + \frac{d(n)}{10^{n + 1}}$$
+can be shown to be a [[Cauchy sequence]]. 
 
-$$b(n) \coloneqq \sum_{i=0}^{n} \frac{\mathcal{I}(a_i)}{10^{i+1}}$$
+The set of repeating infinite decimal representations is the subset of $\mathbb{Z} \times [0, 9]^\mathbb{N}$ such that for pairs $(i, d)$ in the subset, there exist natural number $k$ and positive natural number $n$ such that the sequence $\lambda m.d(m + k)$ factors through the [[cyclic group]] $\mathbb{Z}/n\mathbb{Z}$. 
 
-has a [[limit of a sequence|limit]] in the [[unit interval]] $[0, 1]_\mathbb{R}$.
+$$\lambda m.d(m + k):\mathbb{N} \to \mathbb{Z}/n\mathbb{Z} \to [0, 9]$$
 
-## Properties ##
+Let $\mathbb{J}$ be the set of non-repeating infinite decimal representations, which is defined here as the [[complement]] of the subset of repeating infinite decimal numbers. These are referred to as the [[irrational numbers]] in the prealgebra and high school algebra literature. 
 
-If the [[limited principle of omniscience]] is true, then every [[Cauchy real number]] is a prealgebra real number. 
+Then the set of **prealgebra real numbers** or **high school algebra real numbers** is the ([[disjoint union|disjoint]]) [[union]] of $\mathbb{Q}$ and $\mathbb{J}$. The name "prealgebra real numbers" or "high school algebra real numbers" is because this is the definition of the real numbers which most commonly appears in prealgebra and high school algebra textbooks. 
+
+## In constructive mathematics
+
+In [[constructive mathematics]], this definition only results in a subset of the real numbers, since not every real number can be shown to be either a rational number or the limit of the series
+$$\sum_{n = 0}^\infty i + \frac{d(n)}{10^{n + 1}}$$
+given by a non-repeating infinite decimal representation. In addition, not every irrational number, defined as the reals which are [[tight apartness relation|apart from]] the rational numbers, has a non-repeating infinite decimal representation. However, the [[analytic LPO]] suffices to ensure that the two notions of real numbers and irrational numbers coincide. 
 
 ## See also ##
 
 * [[real numbers]]
-* [[limited principle of omniscience]]
+* [[analytic LPO]]
 * [[infinite decimal representation of a unit interval]]
+
+## References
+
+* Nichols, Eugene D, et al. Holt Algebra with Trigonometry. Holt, Rinehart and Winston : Harcourt Brace Jovanovich, 1992. 
+
+* Marecek, Lynn, et al. Prealgebra 2e. OpenStax, Rice University, 2020. 
+
+[[!redirects prealgebra real number]]
+[[!redirects prealgebra real numbers]]
+[[!redirects pre-algebra real number]]
+[[!redirects pre-algebra real numbers]]
+
+[[!redirects high school algebra real number]]
+[[!redirects high school algebra real numbers]]
