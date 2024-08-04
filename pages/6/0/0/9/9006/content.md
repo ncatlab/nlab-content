@@ -34,7 +34,7 @@ A [[Courant Lie 2-algebroid]] is a [[symplectic Lie n-algebroid]] for $n = 2$. D
 
 ### Relation to D-branes
 
-With suitable identifications Dirac structures characterize [[D-branes]]. This is argued generally in ([Asakawa-Sasa-Watamura](#AsakawaSasaWatamura)). 
+With suitable identifications Dirac structures characterize [[D-branes]]. This is argued generally in ([Asakawa-Sasa-Watamura](#AsakawaSasaWatamura)), and later in ([Demulder & Raml 22](#DR22)). 
 
 An example is the canonical [[Cartan-Dirac structure on a Lie group]], which yields the [[conjugacy classes]] of the Lie group as leaves. These are indeed known to be the D-branes of the [[WZW model]] on that Lie group.
 
@@ -85,6 +85,8 @@ Further references include
 Relating Dirac structures to [[D-branes]]:
 
 * {#AsakawaSasaWatamura} [[Tsuguhiko Asakawa]], Shuhei Sasa, Satoshi Watamura, _D-branes in Generalized Geometry and Dirac-Born-Infeld Action_ &lbrack;[arXiv:1206.6964](http://arxiv.org/abs/1206.6964)&rbrack;
+
+* {#DR22} Saskia Demulder, Thomas Raml. *Poisson-Lie T-duality defects and target space fusion* (2022). ([arXiv:2208.04662](https://arxiv.org/abs/2208.04662)).
  
 
 Related observations for D-branes in the [[WZW model]] had long been made (unpublished) for the [[Cartan-Dirac structure]] over a Lie group.
