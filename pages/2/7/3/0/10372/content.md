@@ -51,6 +51,8 @@ Think of $A$ as a [[Banach space]], and consider its [[double dual]] $A^{**}$.  
 =--
 
 Here, the [[unit of the adjunction]] is simply $i$.
+The counit of the adjunction is given by a similar procedure: for every $W^*$-algebra $M$ with predual $M_{*}$ we can combine the bidual of the canonical embedding $M_{*} \to (M_{*})^{**}$ with the isomorphism $(M_{*})^{*} \to M$ to provide a norm 1 projection $M^{**} \to M$.
+This can be shown to be a unital normal $*$-homomorphism.
 
 The claim that the definitions above are all equivalent is the __Sherman&#8211;Takeda theorem__, due (naturally enough) to [Sherman (1950)](#Sherman1950) and [Takeda (1954)](#Takeda1954).
 
