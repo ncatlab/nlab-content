@@ -50,11 +50,15 @@ The set of repeating base $b$ infinite radix expansion is the subset of $\mathbb
 
 $$\lambda m.d(m + k):\mathbb{N} \to \mathbb{Z}/n\mathbb{Z} \to [0, b)$$
 
-An **irrational number** is a non-repeating base $b$ infinite radix expansion, and the set of irrational numbers $\mathbb{J}$ is defined here as the [[complement]] of the subset of repeating base $b$ infinite radix expansion. 
+Two base $b$ infinite radix expansions $(i, d)$ and $(j, e)$ are said to be [[apartness relation|apart from]] each other if $i \neq j$ or there exists a natural number $n$ such that $d(n) \neq e(n)$
 
-In [[constructive mathematics]], not only are there multiple notions of irrational number, but not every strictly irrational number is the limit of the series
+$$(i, d) \# (j, e) \coloneqq (i \neq j) \vee \exists n \in \mathbb{N}.d(n) \neq e(n)$$
+
+A base $b$ infinite radix expansion $x$ is *strictly non-repeating* if it is apart from every repeating base $b$ infinite radix expansion. An **irrational number** is a strictly non-repeating base $b$ infinite radix expansion. 
+
+In [[constructive mathematics]], not every strictly irrational number is the limit of the series
 $$\sum_{n = 0}^\infty i + \frac{d(n)}{b^{n + 1}}$$
-given by a non-repeating base $b$ infinite radix expansion. However, it is still the case that every strictly irrational number which is also a [[Cauchy real number]] is the limit of such a series given by a non-repeating base $b$ infinite radix expansion. 
+given by a non-repeating base $b$ infinite radix expansion. However, it is still the case that strictly irrational numbers which are also [[Cauchy real numbers]] are interdefinable with strictly non-repeating base $b$ infinite radix expansions. 
 
 ### In Archimedean integral domains
 
