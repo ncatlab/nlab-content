@@ -146,9 +146,9 @@ Given an Archimedean ordered field extension $R$ of the [[Cauchy real numbers]],
 
 * That the [[floor]] and [[ceiling]] [[partial functions]] are [[total functions]] on $R$ is equivalent to the analytic LPO for $R$. 
 
-* The analytic $\mathrm{LPO}$ for $R$ implies the [[fundamental theorem of algebra]] for $R$. 
+* That $R$ coincides with the [[prealgebra real numbers]] is equivalent to the analytic LPO for $R$. 
 
-* The analytic $\mathrm{LPO}$ for $R$ implies that $R$ coincides with the [[prealgebra real numbers]]. 
+* The analytic $\mathrm{LPO}$ for $R$ implies the [[fundamental theorem of algebra]] for $R$. 
 
 ## Models
 
