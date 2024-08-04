@@ -32,14 +32,16 @@ Then the set of **prealgebra real numbers** or **high school algebra real number
 
 ## In constructive mathematics
 
-In [[constructive mathematics]], this definition only results in a subset of the real numbers, since not every real number can be shown to be either a rational number or the limit of the series
+In [[constructive mathematics]], this definition only results in a subset of the real numbers, since not every real number can be shown to be either a rational number or an irrational number - this statement is equivalent to the [[analytic LPO]] when irrational is defined strictly in the sense of being [[tight apartness relation|apart from]] the rational numbers, and equivalent to the [[analytic WLPO]] when irrational is defined weakly in the sense of the negation of equality with any rational number. 
+
+In addition, not every strictly irrational number is the limit of the series
 $$\sum_{n = 0}^\infty i + \frac{d(n)}{10^{n + 1}}$$
-given by a non-repeating infinite decimal representation. In addition, not every irrational number, defined as the reals which are [[tight apartness relation|apart from]] the rational numbers, has a non-repeating infinite decimal representation. However, the [[analytic LPO]] suffices to ensure that the two notions of real numbers and irrational numbers coincide. 
+given by a non-repeating infinite decimal representation. However, it is still the case that every strictly irrational number which is also a [[Cauchy real number]] is the limit of such a series given by a non-repeating infinite decimal representation. 
 
 ## See also ##
 
-* [[real numbers]]
-* [[analytic LPO]]
+* [[real numbers]], [[rational numbers]], [[irrational numbers]]
+* [[analytic LPO]], [[analytic WLPO]]
 * [[infinite decimal representation of a unit interval]]
 
 ## References
