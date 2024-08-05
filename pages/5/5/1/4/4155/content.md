@@ -105,6 +105,17 @@ On [[Tomita-Takesaki modular flow]] as emergent [[time]] evolution in [[quantum 
 
 * {#Longo19} [[Roberto Longo]], _The emergence of time_ ([arxiv:1910.13926](https://arxiv.org/abs/1910.13926))
 
+Videos of lecture series on modular theory by [[Masamichi Takesaki]] and Serban Stratila:
+
+* {#TTLectures} [Master Class in Modular Theory](https://www.youtube.com/playlist?list=PLhkiT_RYTEU1OTAqcn3FOQHnHbREAiZdz)
+
+### Noncommutative Integration
+
+A very detailed overview of modular flow, non-commutative $L_p$-spaces, etc. which includes many further references:
+
+* {#Kostecki13} Ryszard Paweł Kostecki _$W^{*}$-algebras and noncommutative integration_ [arXiv:1307.4818](https://arxiv.org/abs/1307.4818)
+
+
 
 [[!redirects modular conjugation]]
 [[!redirects modular conjugations]]
