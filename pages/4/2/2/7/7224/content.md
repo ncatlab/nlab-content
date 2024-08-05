@@ -29,7 +29,7 @@ Fix a functor $J\colon A \to E$. Then, for a functor
 to have a _left $J$-relative adjoint_ (or _left $J$-adjoint_) means that there is a functor 
 
 \[ 
-	L \colon A \longrightarrow E
+	L \colon A \longrightarrow C
 \]
 
 and a [[natural isomorphism]] of the form
@@ -42,8 +42,16 @@ and a [[natural isomorphism]] of the form
 \]
 
 Such a situation is called a *$J$-relative adjunction* and is denoted $L \dashv_J R$.
+\begin{tikzcd}
+	& C \\
+	A && E
+	\arrow[""{name=0, anchor=center, inner sep=0}, "R", from=1-2, to=2-3]
+	\arrow[""{name=1, anchor=center, inner sep=0}, "L", from=2-1, to=1-2]
+	\arrow["J"', from=2-1, to=2-3]
+	\arrow["\dashv"{anchor=center}, shift right=2, draw=none, from=1, to=0]
+\end{tikzcd}
 
-[[formal duality|Dually]], for a functor $L \colon C \longrightarrow E$ to have a _right $J$-relative coadjoint_ (or _right $J$-coadjoint_) $R \colon A \longrightarrow E$ means that there is a [[natural isomorphism]] of the form
+[[formal duality|Dually]], for a functor $L \colon C \longrightarrow E$ to have a _right $J$-relative coadjoint_ (or _right $J$-coadjoint_) $R \colon A \longrightarrow C$ means that there is a [[natural isomorphism]] of the form
 
 \[
   E\big(L(-), J(-)\big) 
@@ -52,6 +60,14 @@ Such a situation is called a *$J$-relative adjunction* and is denoted $L \dashv_
 \]
 
 Such a situation is called a *$J$-relative coadjunction* and is denoted $L {\,\,}_J\!\dashv R$.
+\begin{tikzcd}
+	& C \\
+	A && E
+	\arrow[""{name=0, anchor=center, inner sep=0}, "L", from=1-2, to=2-3]
+	\arrow[""{name=1, anchor=center, inner sep=0}, "R", from=2-1, to=1-2]
+	\arrow["J"', from=2-1, to=2-3]
+	\arrow["\dashv"{anchor=center, rotate=180}, shift left=2, draw=none, from=0, to=1]
+\end{tikzcd}
 
 Importantly, there is a bifurcation of concepts, which is not visible for ordinary adjunctions: the notion of relative adjunction is not self-dual.
 
