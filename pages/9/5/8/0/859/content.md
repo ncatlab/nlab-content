@@ -64,6 +64,8 @@ There is a [[forgetful functor]] $U: Arr(Grp) \to GrpActions$ from the [[arrow c
 
 Now, its [[left adjoint functor]] $GrpActions \to Arr(Grp)$ maps $(G,\Gamma,\rho)$ to the [[inclusion]] $G \hookrightarrow \Gamma \rtimes_\rho G$.
 
+One can also compose this with the left adjoint $\text{cod} : Arr(Grp) \to Grp$ to exhibit the semidirect product as a left adjoint $GrpActions \to Grp$. The right adjoint sends a group $G$ to the self-conjugation action $G \to \text{Aut}(G)$.
+
 ### As a Grothendieck construction
 
 Writing $\mathbb{B} G$ for the [[category]] with a single [[object]] $\ast$ and the [[group]] $G$ as its [[hom set]] (i.e. the [[delooping]] [[groupoid]] of $G$), define a [[functor]] $F \colon \mathbb{B}G \to$ [[Cat]] to send that single object to the delooping groupoid of $\Gamma$, i.e. $* \mapsto \mathbb{B}\Gamma$ and to send the morphisms $G \to Aut(\Gamma)$ according to the given [[action]] of $G$ on $\Gamma$.
