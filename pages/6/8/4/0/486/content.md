@@ -25,7 +25,7 @@
 
 ### General
 
-A __pretopos__ is a [[category]] which is both [[exact category|exact]] and [[extensive category|extensive]].  (See [[familial regularity and exactness]] for why extensivity and exactness deserve to be considered together.)  This implies that it is a [[coherent category]]. 
+A __pretopos__ is a [[category]] which is both (Barr-)[[exact category|exact]] and [[extensive category|extensive]].  (See [[familial regularity and exactness]] for why extensivity and exactness deserve to be considered together.)  This implies that it is a [[coherent category]]. 
 
 Pretoposes are suitable as frameworks for [[finite mathematics|finitist]] [[predicative mathematics]], respectively with [[coherent logic]].
 
@@ -49,7 +49,7 @@ Frequently one is especially interested in pretoposes having additional properti
 
 * A __[[topos]]__ is a pretopos that has [[power objects]].  A topos is automatically a $\Pi$-pretopos; conversely, a $\Pi$-pretopos is a topos iff it has a [[subobject classifier]], and a Boolean $\Pi$-pretopos is always a topos.  Toposes and [[Boolean toposes]] are suitable as frameworks for finitist (but otherwise impredicative) mathematics, with intuitionistic and classical logic respectively.
 
-* A __$W$-topos__ is of course a topos that is a $W$-pretopos; it is sufficient that the topos have a [[natural numbers object]] (see van den Berg & Moerdijk), so this is often called a __topos with NNO__.  These are suitable as frameworks for (non-predicative, non-finitist) [[constructive mathematics]], while Boolean $W$-toposes are suitable as a framework for [[classical mathematics]] without the [[axiom of choice]].
+* A __$W$-topos__ is of course a topos that is a $W$-pretopos; it is sufficient that the topos have a [[natural numbers object]] (see [van den Berg, Moerdijk 2008](#vdBergMoerdijk2008)), so this is often called a __topos with NNO__.  These are suitable as frameworks for (non-predicative, non-finitist) [[constructive mathematics]], while Boolean $W$-toposes are suitable as a framework for [[classical mathematics]] without the [[axiom of choice]].
 
 * A __topos with choice__ is a topos that satisfies the [[axiom of choice]] (that every [[epimorphism]] is [[split epic|split]]).  Every topos with choice is automatically boolean, so $W$-toposes with choice are suitable as a framework for full classical mathematics.  (In fact, a [[well-pointed category|well-pointed]] $W$-topos with choice is precisely a model of [[ETCS]].)
 
@@ -111,7 +111,7 @@ The [[codomain fibration]] of a pretopos is always a [[stack]] for its precanoni
 
 ## References
 
-*  [[Benno van den Berg]],  [[Ieke Moerdijk]] (2008-09-25); _$W$-types in sheaves_; [vdBM_Wtypes.ps/pdf](http://www.phil.cmu.edu/projects/ast/Papers/)
+* {#vdBergMoerdijk2008} [[Benno van den Berg]],  [[Ieke Moerdijk]] (2008-09-25); _$W$-types in sheaves_; [vdBM_Wtypes.ps/pdf](http://www.phil.cmu.edu/projects/ast/Papers/)
 
 * {#MarraReggio} [[Vincenzo Marra]], [[Luca Reggio]], _A characterisation of the category of compact Hausdorff spaces_, Theory Appl. Categ. 35 (2020), Paper No. 51, 1871–1906. [pdf](http://www.tac.mta.ca/tac/volumes/35/51/35-51.pdf), [arXiv:1808.09738](https://arxiv.org/abs/1808.09738).
 
