@@ -70,7 +70,7 @@ Strict inequality is decidable if for all elements $a \in S$ and $b \in S$, $a \
 
 In the category of inequality spaces, [[monomorphisms]] between inequality spaces are strongly extensional functions that preserve strict inequality, or strong [[injections]]. These monomorphisms are [[regular monomorphisms]]. The category of inequality spaces has all (small) [[limits]], [[created limit|created]] by the [[forgetful functor]] to [[Set]]. (For example, $(a,b) \# (x,y)$ iff $a \# x$ or $b \# y$.) Similarly, it has all finite [[coproducts]], and it has [[quotient object|quotients]] of [[equivalence relations]]. In fact, this category is a [[complete category|complete]] [[pretopos]]. It is *not*, however, a [[Grothendieck topos]] (or even a [[topos]] at all), because it doesn\'t have all infinite coproducts. (To be precise, the statement that it has all small coproducts, or even that it has a subobject classifier, seems to be equivalent to excluded middle.)
 
-We can say, however, that it has coproducts indexed by inequality spaces, although to make this precise is a triviality. More interestingly, it has products indexed by inequality spaces; that is, it is (even [[locally cartesian closed category|locally]]) a [[cartesian closed category]]. In particular, given inequality spaces $X$ and $Y$, the set $\StrExt(X,Y)$ of strongly extensional functions from $X$ to $Y$ becomes an inequality space under the rule that $f \# g$ iff $f(x) \# g(x)$ for some $x\colon X$.
+We can say, however, that it has coproducts indexed by inequality spaces, although to make this precise is a triviality. More interestingly, it has products indexed by inequality spaces; that is, it is (even [[locally cartesian closed category|locally]]) a [[cartesian closed category]]. In particular, given inequality spaces $X$ and $Y$, the set $\StrExt(X,Y)$ of strongly extensional functions from $X$ to $Y$ becomes an inequality space under the rule that $f \# g$ iff $f(x) \# g(x)$ for some $x\colon X$. Finally, the category of inequality spaces has a [[real numbers object]], the [[Dedekind real numbers]]. 
 
 ## Foundational status
 
@@ -158,3 +158,6 @@ For more about apartness algebra, see [[antisubalgebra]].
 
 [[!redirects axiom of inequality space]]
 [[!redirects axiom of inequality spaces]]
+
+[[!redirects category of inequality spaces]]
+[[!redirects categories of inequality spaces]]
