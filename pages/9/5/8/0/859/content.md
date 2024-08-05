@@ -165,6 +165,7 @@ $$
 * [[equivariant group]]
 
 * [[crossed homomorphism]]
+* [[crossed product algebra]] (Hopf algebraic smash product)
 
 ## References
 
