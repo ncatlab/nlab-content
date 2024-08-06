@@ -82,14 +82,14 @@ Similarly, the convention $L \dashv_J R$ for relative adjunctions and $L {\,\,}_
 - A left $J$-relative adjoint is unique up to isomorphism. A right $J$-relative adjoint is unique up to isomorphism only if $J$ is dense. See Lemma 5.7 of [AM24](#AM24).
 - A left $J$-relative adjoint preserves those colimits that $J$ preserves (Proposition 5.11 of [AM24](#AM24)). A right $J$-relative adjoint preserves limits when $J$ is dense (Proposition 5.12 of [AM24](#AM24)).
 - A left relative adjoint is an _absolute [[Kan lift|lift]]_. In particular, if $L \dashv_J R$, then $L = \mathop{Lift}_R J$, and this left lift is _absolute_. Dually, for a right relative coadjoint $L {\,\,}_J\!\dashv R$, we have $R = \mathop{Rift}_L J$, and this right lift is _absolute_. Note that, for the converse to hold, we must additionally require that the lifts are _pointwise_. See Proposition 5.8 and Remark 5.9 of [AM24](#AM24).
-- A relative adjunction has a unit $\eta \colon 1 \Rightarrow RL$; whereas a relative coadjunction has a counit $\varepsilon \colon LR \Rightarrow 1$ (both may be seen to be induced from the hom-set definition, like for ordinary adjunctions). In fact, these may be used to give an alternative definition of relative adjunctions and relative coadjunctions, akin to the unit--counit formulation of an adjunction. See Lemma 5.5 of [AM24](#AM24).
+- A relative adjunction has a unit $\eta \colon 1 \Rightarrow R L$; whereas a relative coadjunction has a counit $\varepsilon \colon L R \Rightarrow 1$ (both may be seen to be induced from the hom-set definition, like for ordinary adjunctions). In fact, these may be used to give an alternative definition of relative adjunctions and relative coadjunctions, akin to the unit--counit formulation of an adjunction. See Lemma 5.5 of [AM24](#AM24).
 
 ### Relative monads and comonads
 
 Just as adjunctions give rise to [[monad|monads]] and [[comonad|comonads]],
 
-1. For relative adjunctions, if $L \dashv_J R$, then $RL$ admits the structure of a [[relative monad|monad relative to $J$]].
-2. For relative coadjunctions, if $L {\,\,}_J\!\dashv R$, then $LR$ admits the structure of a [[relative comonad|comonad relative to $J$]].
+1. For relative adjunctions, if $L \dashv_J R$, then $R L$ admits the structure of a [[relative monad|monad relative to $J$]].
+2. For relative coadjunctions, if $L {\,\,}_J\!\dashv R$, then $L R$ admits the structure of a [[relative comonad|comonad relative to $J$]].
 
 (with the units and counits respectively induced as described above).
 
