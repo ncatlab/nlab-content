@@ -133,7 +133,7 @@ Conversely, there are anlogues of the [[Kleisli category]] and [[Eilenberg–Moo
 	\]
 	at $a' \colon A$ is
 	\[
-		F_{a,a'}\colon A(a,a') \to B(Fa, Fa')
+		F_{a,a'}\colon A(a,a') \to B(F a, F a')
 	\]
 	
 	Note that, when specialized to $F = 1_A$, this reduces to [[full faithfulness]] of the [[Yoneda embedding]]: first $N_{1_A} \simeq y_A$, and then:
