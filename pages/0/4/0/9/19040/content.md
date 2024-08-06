@@ -56,6 +56,9 @@ If $\mathcal{K}$ is a [[strict 2-category]], then $T \mathbf{Alg}$ is a strict d
 
 * The universal 2-cell of an [[oplax/lax comma object]] has the structure of a square in $T \mathbf{Alg}$.  Its universal property ought to be related to $T \mathbf{Alg}$ as well, but this is still unclear.
 
+## References
+
+* [[Robert Paré]] and [[Marco Grandis]], _Multiple categories of generalised quintets_, [pdf](https://www.dima.unige.it/~grandis/MlcGQ.pdf)
 
 [[!redirects double category of algebras]]
 [[!redirects double category of T-algebras]]
