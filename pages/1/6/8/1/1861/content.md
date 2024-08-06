@@ -890,6 +890,10 @@ Cohomotopy sets of [[spin structure|spin]]-manifolds in co-degree 1:
 
 * [[Panagiotis Konstantis]], _A counting invariant for maps into spheres and for zero loci of sections of vector bundles_,  Abh. Math. Semin. Univ. Hambg. (2020) ([arXiv:1911.03214](https://arxiv.org/abs/1911.03214), [doi:10.1007/s12188-020-00228-6](https://doi.org/10.1007/s12188-020-00228-6))
 
+Relation to quasi-elliptic cohomology of 4-spheres under the action by some finite subgroups
+
+* Zhen Huan. *Quasi-elliptic cohomology of 4-spheres* (2024). ([arXiv:2408.02278](https://arxiv.org/abs/2408.02278)).
+
 
 ### Cohomotopy cocycle spaces
 
