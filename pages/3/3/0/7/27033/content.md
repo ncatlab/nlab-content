@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -91,6 +90,22 @@ There are various other results that are equivalent to the principles of omnisci
 * The [[Cauchy real numbers]] are isomorphic to the [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff $\mathrm{LPO}_\mathbb{N}$ holds. See [Feldman (2010)](#Mehkeri10). 
 
 * The [[analytic LPO]] for the following sets of real numbers are equivalent to the LPO for the [[natural numbers]]: the [[Cauchy real numbers]] $\mathbb{R}_C$, the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]] $\mathbb{R}_E$/$\mathbb{R}_H$, and the subfield of [[Dedekind real numbers]] $\mathbb{R}_\Sigma \subseteq \mathbb{R}_D$ which are constructed out of [[Dedekind cuts]] valued in the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma \subseteq \Omega$. 
+
+* That the [[function set]] $\mathbb{2}^\mathbb{N}$ (i.e. [[Cantor space]]) has [[decidable relation|decidable]] [[tight apartness]] is equivalent to $\mathrm{LPO}_\mathbb{N}$, where the [[tight apartness relation]] on the [[function set]] $\mathbb{2}^\mathbb{N}$ be defined as 
+
+$$x \# y \coloneqq \exists n \in \mathbb{N}.x(n) \neq y(n)$$
+
+* More generally, given a [[finite set]] $S$ of [[cardinality]] $n \gt 1$, that the [[function set]] $S^\mathbb{N}$ has [[decidable relation|decidable]] [[tight apartness]] is equivalent to $\mathrm{LPO}_\mathbb{N}$, where the [[tight apartness relation]] on the [[function set]] $S^\mathbb{N}$ be defined as 
+
+$$x \# y \coloneqq \exists n \in \mathbb{N}.x(n) \neq y(n)$$
+
+* That the [[function set]] $\mathbb{N}^\mathbb{N}$ (i.e. [[Baire space of sequences]]) has [[decidable relation|decidable]] [[tight apartness]] is equivalent to $\mathrm{LPO}_\mathbb{N}$, where the [[tight apartness relation]] on the [[function set]] $\mathbb{N}^\mathbb{N}$ be defined as 
+
+$$x \# y \coloneqq \exists n \in \mathbb{N}.x(n) \neq y(n)$$
+
+* The [[p-adic integers|$p$-adic integers]] being a [[discrete integral domain]] and the [[p-adic rationals|$p$-adic rationals]] being a [[discrete field]] are both equivalent to $\mathrm{LPO}_\mathbb{N}$ 
+
+* The [[ring]] of [[rational numbers|rational]] [[power series]] $\mathbb{Q}[[x]]$ being a [[discrete integral domain]] is equivalent to $\mathrm{LPO}_\mathbb{N}$. Similarly, the [[Heyting field]] of [[rational numbers|rational]] [[Laurent series]] $\mathbb{Q}((x))$ being a [[discrete field]] is equivalent to $\mathrm{LPO}_\mathbb{N}$. 
 
 ## Truncated and untruncated versions in dependent type theory
 
