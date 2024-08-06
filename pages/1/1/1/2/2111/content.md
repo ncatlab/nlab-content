@@ -67,7 +67,7 @@ A geometric approach via a pre-quantization line bundle is in
 
 * J. H. Rawnsley, _Coherent states and K&#228;hler manifolds_, Quart. J. Math. Oxford (2), 28 (1977), pp. 403--415
 
-* F. A. Berezin, _Quantization_, Math. USSR Izv., 8 (1974), 1109-1163. MR 0395610 (52:16404) 
+* [[F. A. Berezin]], _Quantization_, Math. USSR Izv., 8 (1974), 1109-1163. MR 0395610 (52:16404) 
 
 * [[Mauro Spera]], _On a generalized uncertainty principle, coherent states and the moment map_, J. of Geometry and Physics 12 (1993) 165-182.
 
