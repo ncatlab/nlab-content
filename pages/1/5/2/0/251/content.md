@@ -250,6 +250,8 @@ and $u$ is an equivalence in the vertical [[2-category]] of $A$.
 
 * [[2-category equipped with proarrows]], [[framed bicategory]]
 
+* [[virtual double category]]
+
 * [[double functor]], [[double pseudofunctor]]
 
 * [[vertical transformation]], [[horizontal transformation]]
