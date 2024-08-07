@@ -88,6 +88,9 @@ Other references:
 [[!redirects loose map]]
 [[!redirects loose maps]]
 
+[[!redirects loose arrows]]
+[[!redirects loose arrow]]
+
 [[!redirects tight map]]
 [[!redirects tight maps]]
 
