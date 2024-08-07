@@ -74,9 +74,13 @@ In the [[double category of algebras | double category $T$-$\mathbf{Alg}$ of alg
 
 * Companion pairs and mate-pairs of 2-cells between them in any double category $D$ form a 2-category $Comp(D)$.  The functor $Comp\colon DblCat \to 2Cat$ is right adjoint to the functor $Sq\colon 2Cat \to DblCat$ sending a 2-category to its double category of [[quintet construction|squares]].
 
+* A double category $\mathbb{C}$, carried by the span of categories $C_0 \xleftarrow{s} C_1 \xrightarrow{t} C_0$ has all companions iff such span is a [[two-sided fibration]] in the sense of Street. Indeed, consider a [[tight map]] $h:A \to B$ in $\mathbb{C}$, thus a morphism in $C_0$, and the unit [[loose arrow]] $U_A$ of $A$: since $s$ is an [[opfibration]], we obtain a square $\eta:=\mathrm{cocart}_h: U_A \Rightarrow h_* U_A$, with source (top boundary) $h$ and target (bottom boundary) necessarily $1_B$ since $s$-cartesian maps are $t$-vertical in a two-sided fibration. Dually, we get a cartesian square $\varepsilon:=\mathrm{cart}_h : h^*U_B \Rightarrow U_B $. We claim $\mathrm{cocart}_h$ and $\mathrm{cart}_h$ are, respectively, the unit and counit of a companionship between $h$ and $h':=h^*U_B = h_*U_A$. First, observe this latter equation holds since the identiy square of $h$ factors as $\varepsilon \eta$, using either universal property. This proves also the first companionship equation. As for the fact $\eta \odot \varepsilon = 1_{h'}$, it follows again from the aforementioned factorization: $\eta \odot \varepsilon$ is an $(s,t)$-vertical morphism which is thus isomorphic to the identity of $h'$ by uniqueness of the $s$-vertical, $(s,t)$-vertical, $t$-vertical factorization of a morphism in $C_1$.
+*Vice versa*, companions can be used to construct the above co/cartesian lifts, as shown in ([Shulman '08](#Shulman08)).
+
 ## Related concepts
 
 * [[retrocell]]
+* [[conjunction]]
 
 ## References
 
@@ -84,7 +88,7 @@ In the [[double category of algebras | double category $T$-$\mathbf{Alg}$ of alg
 
 * [[Robert Dawson]] and [[Robert Pare]] and [[Dorette Pronk]], *The Span construction*, [TAC](http://www.tac.mta.ca/tac/volumes/24/13/24-13abs.html).
 
-* [[Michael Shulman]], *Framed bicategories and monoidal fibrations*, [TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html)
+* {#Shulman08} [[Michael Shulman]], *Framed bicategories and monoidal fibrations*, [TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html)
 
 This latter reference explains the relationship between companions to connection pairs and **foldings**:
 
