@@ -4,7 +4,7 @@
 
 Classical spherical functions/harmonics are certain functions on $n$-sphere which are solutions of the Laplace equation restricted to the sphere. 
 
-The most classical case is the case when $n=2$ where spherical functions $Y_{l m}(\theta,\phi)$ (see at [[Legendre polynomial]]) appear in Fourier method of solving Laplace equation in space by in spherical coordinates.
+The most classical case is the case when $n=2$ where spherical functions $Y_{l m}(\theta,\phi)$ (see at [[Legendre polynomial]]) appear in Fourier method of separation of variables for solving Laplace equation in space in spherical coordinates.
 
 ### Spherical functions from representation theory
 
