@@ -35,7 +35,7 @@ The [[category]] $Sh(X_\bullet)$ of sheaves on the simplicial space is defined t
           \\
           {\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{S(\beta)}}
           \\
-          X(\beta \alpha)^* S_m &\underset{S(\beta \alpha)}{\to}&
+          X(\beta \alpha)^* S_n &\underset{S(\beta \alpha)}{\to}&
           S_k
         }
       $$
