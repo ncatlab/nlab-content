@@ -1,25 +1,6 @@
+https://puzzleme.gampalsite.com/gamify
 
-**[[philosophy]]**
-
-* [[ontology]]
-
-  * [[logos (in philosophy)|logos]], _[[Science of Logic]]_
-
-  * [[being]], [[becoming]]
-
-### Schools
-
-* [[objective idealism]]
-
-
-### Of mathematics
-
-* [[philosophy of mathematics]]
-
-### Of physics
-
-* [[natural philosophy]]
-
-* [[philosophy of physics]]
-
-<div markdown="1">[Edit this sidebar](/nlab/edit/philosophy+-+contents)</div>
+I believe this is one of the most significant info for me.
+And i'm happy reading your article. However should statement on some normal 
+issues, The site style is ideal, the articles is in reality great :
+D. Good job, cheers
