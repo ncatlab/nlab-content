@@ -12,8 +12,13 @@ There is no natural 2-category that contains *both* lax and colax morphisms, sin
 Let $T$ be a [[2-monad]] on a [[2-category]] $\mathcal{K}$.  The objects of the double category $T \mathbf{Alg}$ are the $T$-algebras, the horizontal morphisms are the [[lax morphism|lax]] $T$-morphisms, and the vertical morphisms are the colax $T$-morphisms.  The 2-cells are 2-cells in $\mathcal{K}$ between composites of underlying morphisms, such that a certain cube of structure 2-cells commutes: consider a square
 
 \begin{tikzcd}
-A \ar[r, "f"]\ar[d,"h"'] & B\ar[d, "g"] \\
-C \ar[r,"k"']& D
+	A & B \\
+	C & D
+	\arrow["f", from=1-1, to=1-2]
+	\arrow["h"', from=1-1, to=2-1]
+	\arrow["\alpha"', shorten <=4pt, shorten >=4pt, Rightarrow, from=1-2, to=2-1]
+	\arrow["g", from=1-2, to=2-2]
+	\arrow["k"', from=2-1, to=2-2]
 \end{tikzcd}
 
 where horizontal arrows are lax $T$-morphism, and vertical ones are colax. A 2-cell $\alpha : g f \Rightarrow k h$ fills the square and it is such that the equality of pasting diagrams 
