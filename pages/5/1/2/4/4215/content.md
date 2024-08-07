@@ -8,7 +8,7 @@
 
 ## Idea
 
-A **conjunction** in a [[double category]] is a way of saying that a horizontal arrow and a vertical arrow are [[adjunction|adjoint]], even though they do not live in the same 2-category.
+A **conjunction** (sometimes called **adjunction**, e.g. by [[Marco Grandis|Grandis]] and [[Robert Pare|Parè]]) in a [[double category]] is a way of saying that a horizontal arrow and a vertical arrow are [[adjunction|adjoint]], even though they do not live in the same 2-category.
 
 
 ## Definition
@@ -40,6 +40,13 @@ Given such a conjunction, we say that $f$ and $g$ are **conjoints** of each othe
 * Conjunctions (and companion pairs) have a [[mate]] correspondence generalizing the calculus of mates in 2-categories.
 
 * If every vertical arrow in some double category $D$ has a right conjoint, then the functor $f\mapsto g$ is a [[pseudofunctor]] $V D^{op}\to H D$ from the vertical 2-category to the horizontal one, which is the identity on objects, and [[locally fully faithful 2-functor|locally fully faithful]] by the mate correspondence.  If every vertical arrow also has a [[companion]], then this makes $D$ into a [[proarrow equipment]], or equivalently a [[framed bicategory]].
+
+* A double category $\mathbb{C}$ admits all conjoints iff the underlying spans $C_0 \xleftarrow{s} C_1 \xrightarrow{t} C_0$ is a two-sided opfibration, i.e. if its opposite span is a [[two-sided fibration]]. See at [[companion pair]] for a sketch of the proof of why this is the case.
+
+## Related concepts
+
+* [[adjunction]]
+* [[companion pair]]
 
 ## References
 
