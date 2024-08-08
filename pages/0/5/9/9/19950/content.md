@@ -418,8 +418,15 @@ Discussion of [[M-brane]] [[charge quantization]] in [[equivariant cohomotopy]]:
   ([[equivariant rational homotopy theory|equivariant]] [[rational Cohomotopy]])
 
 * {#SatiSchreiber19} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
+  > (implying [[RR-field tadpole cancellation]])
 
-  (implying [[RR-field tadpole cancellation]])
+On [[quasi-elliptic cohomology]] of [[representation spheres]] as an approximation to equivariant Cohomotopy:
+
+* [[Zhen Huan]]: *Twisted Quasi-elliptic cohomology and twisted equivariant elliptic cohomology* &lbrack;[arXiv:2006.00554](https://arxiv.org/abs/2006.00554)&rbrack;
+
+* [[Zhen Huan]]: *Quasi-elliptic cohomology of 4-spheres* &lbrack;[arXiv:2408.02278](https://arxiv.org/abs/2408.02278)&rbrack;
+
+
 
 [[!redirects equivariant Cohomotopy]]
 
