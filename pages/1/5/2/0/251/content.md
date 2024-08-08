@@ -215,10 +215,34 @@ In any of these higher categories, we can apply the notions and methods of highe
 
 Finally, if we want to discuss [[weighted limits]] and colimits in double categories, or construct [[generalized multicategories]] based on double categories, we may want to [[2-category equipped with proarrows|equip DblCat with proarrows]].  There is a notion of [[double profunctor]], but they do not compose associatively, and hence do not form a proarrow equipment in the usual sense; but they do form a [[virtual equipment]], which is sufficient for many purposes.
 
+## (Skew) closed structures on the category of double categories
+
+| Category | Internal hom | Monoidal | Comments | Reference |
+| -------- | ------------ | -------- | -------- | --------- |
+| Strict double categories, strict functors | Strict functors, strict vertical and horizontal transformations, modifications | Yes | Cartesian | Follows from the theory of [internal categories](https://ncatlab.org/nlab/show/internal+category#CartesianClosure) |
+| Strict double categories, strict functors | Strict functors, pseudo vertical and horizontal transformations, modifications | Yes | Symmetric | [Campbell19](#Campbell19), [Böhm20](#Böhm20) |
+| Pseudo double categories, strict functors | Pseudo functors, tight transformations, pseudo loose transformations, modifications | No | Symmetric skew | [Campbell19](#Campbell19) |
+| Pseudo double categories, pseudo functors | Pseudo functors, tight transformations, pseudo loose transformations, modifications | No | Symmetric | [Campbell19](#Campbell19) |
+| Strict double categories, strict functors | Strict functors, oplax horizontal, lax vertical, modifications | Yes | | Theorem 4.2 of [Femić24](#Femić24) |
+| Strict double categories, strict functors | Pseudo/lax/oplax functors, pseudo/lax/oplax horizontal, dually for vertical, modifications | Yes | Skew | §6.4.2 of [Femić24](#Femić24) |
+
+### References
+
+* {#Böhm20} [[Gabriella Böhm]], _The Gray monoidal product of double categories_, Applied Categorical Structures 28.3 (2020): 477-515.
+
+* {#Campbell19} [[Alexander Campbell]], _How strict is strictification?_, Journal of Pure and Applied Algebra 223.7 (2019): 2948-2976.
+
+An exploration of the possibility of a closed structure on strict double categories and lax functors may be found in:
+
+* [[Bojana Femić]], _Bifunctor Theorem and strictification tensor product for double categories with lax double functors_, [arXiv:2207.13452](https://arxiv.org/abs/2207.13452) (2022).
+
+[[skew monoidal category|Skew monoidal]] structures are constructed on categories of double categories in:
+
+* {#Femić24} [[Bojana Femić]], _Gray (skew) multicategories: double and Gray-categorical cases_, [arXiv:2408.00561](https://arxiv.org/abs/2207.13452) (2024).
 
 ## Model structures on the category of double categories
 
-The category of double categories admits a plethora of [[model category|Quillen model structures]], some of which are described in papers by [Fiore, Paoli, and Pronk](#FPPModel), [Fiore and Paoli](#FPThomason), [Moser, Sarazola, and Verdugo I](#MSV2Cat) and [Moser, Sarazola, and Verdugo II](#MSVHInvar) and [Campbell](#CampbellGreg).
+The category of strict double categories admits a plethora of [[model category|Quillen model structures]], some of which are described in papers by [Fiore, Paoli, and Pronk](#FPPModel), [Fiore and Paoli](#FPThomason), [Moser, Sarazola, and Verdugo I](#MSV2Cat) and [Moser, Sarazola, and Verdugo II](#MSVHInvar) and [Campbell](#CampbellGreg).
 
 For more see *[[model structure on DblCat]]*.
 
@@ -338,10 +362,6 @@ On [[model structures on DblCat]]:
 * {#MSVHInvar} [[Lyne Moser]], Maru Sarazola, Paula Verdugo,  *A model structure for weakly horizontally invariant double categories*, Algebraic & Geometric Topology **23** 4 (2023) 1725-1786 &lbrack;[arxiv:2007.00588](https://arxiv.org/abs/2007.00588), journal:[pdf](https://msp.org/agt/2023/23-4/agt-v23-n4-p08-p.pdf)&rbrack;
 
 An explicit description of what it means to be a one-object double category (i.e. filling in the gap in "a delooping of a ___ is a double category") is given in [this Math.StackExchange answer](https://math.stackexchange.com/a/3790232).
-
-A [[symmetric multicategory]] structure on the [[category]] of pseudo double categories is described in the appendix of:
-
-* {#Campbell18} [[Alexander Campbell]], _How strict is strictification?_, [arxiv](https://arxiv.org/abs/1802.07538)
 
 For [[univalent double categories]] in [[dependent type theory]]:
 
