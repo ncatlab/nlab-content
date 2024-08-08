@@ -533,7 +533,7 @@ Since every regular directed complex is in particular a poset, we can take its [
 
 As expected, round molecules are round: 
 \begin{proposition}
-Let $U$ be a molecule of dimension $n$, then 
+Let $U$ be a round molecule of dimension $n$, then 
 
 *  $|U|$ is an $n$-[[ball]],
 *  $|\partial U|$ is an $n$-[[sphere]].
@@ -544,8 +544,8 @@ Furthermore, Gray products, joins, and suspensions are sent to their topological
 \begin{proposition}
 Let $P, Q$ be regular directed complexes, then
 
-*  $|P \otimes Q| \cong |P| \times |Q|$, where $\times$ is the [[product topological space|join of topological spaces]];
-*  $|P \star Q| \cong |P| \star |Q|$, where $\times$ is the [[join of topological spaces]];
+*  $|P \otimes Q| \cong |P| \times |Q|$, where $\times$ is the [[product topological space|product of topological spaces]];
+*  $|P \star Q| \cong |P| \star |Q|$, where $\star$ is the [[join of topological spaces]];
 *  $|\mathsf{S}P| \cong \mathsf{S}|P|$, where $\mathsf{S}$ is the [[suspension|suspension of topological spaces]].
 
 \end{proposition}
@@ -587,7 +587,7 @@ Another proof technique is the **induction on the layering dimension**: to prove
 *  prove that it holds when $\mathrm{lydim} U = -1$, i.e. when $U$ is an atom (base case);
 *  prove that it holds when $k \coloneqq \mathrm{lydim} U \geq 0$, assuming that it holds of all the $(U^{(i)})_{1 \le i \le m}$ in any $k$-layering of $U$.
 
-Indeed, by Theorem \ref{molecule_has_layering}, any molecule has a layering, and by Proposition \ref{properties_layering} gives the well-foundedness. 
+Indeed, by Theorem \ref{molecule_has_layering}, any molecule has a layering, and Proposition \ref{properties_layering} gives the well-foundedness. 
 
 For instance, let us prove the following:
 \begin{proposition}
