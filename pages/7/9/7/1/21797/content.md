@@ -43,6 +43,13 @@ On [[2-representations]]:
 
 * [[Zhen Huan]], _2-Representations of Lie 2-groups and 2-Vector Bundles_ ([arXiv:2208.10042](https://arxiv.org/abs/2208.10042))
 
+On [[quasi-elliptic cohomology]] of [[representation spheres]] as an approximation to [[equivariant Cohomotopy]]:
+
+* [[Zhen Huan]]: *Twisted Quasi-elliptic cohomology and twisted equivariant elliptic cohomology* &lbrack;[arXiv:2006.00554](https://arxiv.org/abs/2006.00554)&rbrack;
+
+* [[Zhen Huan]]: *Quasi-elliptic cohomology of 4-spheres* &lbrack;[arXiv:2408.02278](https://arxiv.org/abs/2408.02278)&rbrack;
+
+
 ## Related entries
 
 * [[Tate K-theory]]
