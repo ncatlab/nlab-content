@@ -164,6 +164,13 @@ and further to [[KR-theory]]:
 
   [[Zhen Huan]], *Twisted Real quasi-elliptic cohomology*, talk at [[CQTS]] (Nov 2022) &lbrack;[video](https://zoom.us/rec/play/_2MIenxSff2vBZeFPO8lV6g_lyLgrUEBDP5Au7tySNyeJpeLeXfZ96ZBkgKs7wNYAnBDauB4atzVJAt-.McANEtFgQHFACmbr?_x_zm_rhtaid=966&_x_zm_rtaid=F4VKJYOLRDu8ouQdfmDz3w.1668757869896.554b5189e89fa9af0846d97599b6bf49&autoplay=true&continueMode=true&iet=6_ddkV5u8UGa9M9U4dDvH2SN55OyZgmZiCrQZ6wbo4E.AG.Gp56JL6y5Z3naAtSVPOGAHkLGEPMDtxPB370GxyQz_EIJOEq1ylk0bXAowqSDnPSYr62xiX92tLdNLdbchq-w5Vhavx5UCPbjfaCIIObE183OI8.142oNpQmC8JiJOzcA4eIXw.O0nEkHAMvD5awvgi&startTime=1667999236000)&rbrack;
 
+On quasi-elliptic cohomology of [[representation spheres]] as an approximation to [[equivariant Cohomotopy]]:
+
+* [[Zhen Huan]]: *Twisted Quasi-elliptic cohomology and twisted equivariant elliptic cohomology* &lbrack;[arXiv:2006.00554](https://arxiv.org/abs/2006.00554)&rbrack;
+
+* [[Zhen Huan]]: *Quasi-elliptic cohomology of 4-spheres* &lbrack;[arXiv:2408.02278](https://arxiv.org/abs/2408.02278)&rbrack;
+
+
 
 [[!redirects twisted ad-equivariant Tate K-theory]]
 
