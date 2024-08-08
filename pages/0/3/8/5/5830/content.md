@@ -513,7 +513,7 @@ Generalization of this to [[strict ∞-groupoids]] were discussed in
 
 The fact that every [[simplicial model category]] in which the cofibrations are [[monomorphisms]] provides a sound [[model]] for [[intensional type theory|intensional]] [[Martin-Löf type theory]] is discussed in 
 
-* {#AwodeyWarren07} [[Steve Awodey]], [[Michael Warren]], *Homotopy theoretic models of identity type*,  Mathematical Proceedings of the Cambridge Philosophical Society **146** 1 (2009) &lbrack;[arXiv:0709.0248](http://arxiv.org/abs/0709.0248), [doi:10.1017/S0305004108001783](https://doi.org/10.1017/S0305004108001783)&rbrack;
+* {#AwodeyWarren07} [[Steve Awodey]], [[Michael Warren]], *Homotopy theoretic models of identity types*,  Mathematical Proceedings of the Cambridge Philosophical Society **146** 1 (2009) &lbrack;[arXiv:0709.0248](http://arxiv.org/abs/0709.0248), [doi:10.1017/S0305004108001783](https://doi.org/10.1017/S0305004108001783)&rbrack;
 
 and with more details in 
 
