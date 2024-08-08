@@ -68,7 +68,7 @@ $$
 
 Cohomological properties:
 
-* Y. Cchoi, S. Yoon, _Homology of the triple loop space of the exceptional Lie group $F_4$_, J. Korean Math. Soc. 35 (1998), No. 1, pp. 149&#8211;164 ([pdf](http://www.mathnet.or.kr/mathnet/kms_tex/32004.pdf))
+* Y. Choi, S. Yoon, _Homology of the triple loop space of the exceptional Lie group $F_4$_, J. Korean Math. Soc. 35 (1998), No. 1, pp. 149&#8211;164 ([pdf](http://www.mathnet.or.kr/mathnet/kms_tex/32004.pdf))
 
 ### In string theory
 
