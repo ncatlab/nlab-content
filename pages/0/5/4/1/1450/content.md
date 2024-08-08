@@ -41,7 +41,9 @@ This way, in [[smooth topos | smooth toposes]] it is possible to give precise we
 +-- {: .num_remark #SophusLieQuote}
 ###### Remark
 
-As quoted by [[Anders Kock]] in his first book (p. 9 (http://home.imf.au.dk/kock/sdg99.pdf#page=9)), [[Sophus Lie]] -- one of the founding fathers of [[differential geometry]] and, of course [[Lie theory]] -- once said that he found his main theorems in [[Lie theory]] using "synthetic reasoning", but had to write them up in non-synthetic style (see _[[analytic versus synthetic]]_) just due to lack of a formalized language:
+As quoted by [[Anders Kock]] in his [first book (p. 9)][KockLie], [[Sophus Lie]] -- one of the founding fathers of [[differential geometry]] and, of course [[Lie theory]] -- once said that he found his main theorems in [[Lie theory]] using "synthetic reasoning", but had to write them up in non-synthetic style (see _[[analytic versus synthetic]]_) just due to lack of a formalized language:
+
+[KockLie]: https://users-math.au.dk/kock/sdg99.pdf#page=9
 
 > "The reason why I have postponed for so long these investigations, which are basic to my other work in this field, is essentially the following: I found these theories originally by synthetic considerations. But I soon realized that, as expedient ( _zweckm&#228;ssig_ ) the synthetic method is for discovery, as difficult it is to give a clear exposition on synthetic investigations, which lead to deal with objects that till now have almost exclusively been considered analytically. After long vacillations, I have decided to use a half synthetic, half analytic form. I hope my work will serve to bring justification to the synthetic method besides the analytical one." ([[Sophus Lie]], _Allgemeine Theorie der partiellen Differentialgleichungen erster Ordnung_, Math. Ann. 9 (1876).)
 
