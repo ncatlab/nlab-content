@@ -210,6 +210,21 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 
 **Observation** Let $D$ be any strict 2-catgeory. Then a [[pseudofunctor]] $C \to D$ is the same as a strict 2-functor $\hat C \to D$.
 
+## Closed structures on the category of 2-categories
+
+| Category | Internal hom | Monoidal | Comments | Reference |
+| -------- | ------------ | -------- | -------- | --------- |
+| 2-categories, strict functors | Strict functors, [[2-natural transformations]], [[modifications]] | Yes | Cartesian | Follows from the theory of [[enriched categories]] |
+| 2-categories, strict functors | Strict functors, [[pseudonatural transformations]], modifications | Yes | Symmetric | [[Gray tensor product]] |
+| 2-categories, strict functors | Strict functors, op/[[lax natural transformations]], modifications | Yes | | [[Gray tensor product]] |
+
+### References
+
+Related constructions appear in:
+
+* [[Branko Nikolić]], _Strictification tensor product of 2-categories_, [arXiv:1810.12213](https://arxiv.org/abs/1810.12213) (2018).
+* Peter F. Faul, Graham Manuell, and José Siqueira, _2-dimensional bifunctor theorems and distributive laws_, [arXiv:2010.07926](https://arxiv.org/abs/2010.07926) (2020).
+
 ## 2-categorical concepts
 
 **constructions**
