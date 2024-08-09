@@ -21,6 +21,8 @@ On [[synthetic (infinity,1)-category theory|$(\infty,1)$-category theory]]:
 
 * {#BuchholtzWeinberger21} [[Ulrik Buchholtz]], [[Jonathan Weinberger]], *Synthetic fibered $(\infty,1)$-category theory* $[$[arXiv:2105.01724](https://arxiv.org/abs/2105.01724), [talk slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Weinberger-2022-01-20-HoTTEST.pdf)$]$
 
+* {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
+
 On [[delooping]], [[H-spaces]] and [[Eilenberg-MacLane spaces]] in [[homotopy type theory]]:
 
 * [[Ulrik Buchholtz]], [[J. Daniel Christensen]], [[Jarl G. Taxerås Flaten]], [[Egbert Rijke]], *Central H-spaces and banded types* &lbrack;[arXiv:2301.02636](https://arxiv.org/abs/2301.02636)&rbrack;
