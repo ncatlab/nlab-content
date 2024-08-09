@@ -51,7 +51,8 @@ We may summarize these results as the following, wherein $\mathrm{Cat}_\infty^\t
   Lurie's construction yields a fully faithful functor $(-)^\times:\mathrm{Cat}_\infty^{\times} \hookrightarrow \mathrm{Cat}_\infty^{\otimes}$ whose image is spanned by the Cartesian symmetric monoidal $\infty$-categories.
 \end{theorem}
 
-### $\mathcal{O}$-algebras as $\mathcal{O}$-monoids
+### $\mathcal{O}$-algebras as $\mathcal{O}$-monoids 
+{#O-monoids}
 Given $\mathcal{O}^{\otimes}$ an [[∞-operad]] and $\mathcal{C}$ an [[∞-category]], we say that a functor $\mathcal{O}^{\otimes} \rightarrow \mathcal{C}$ is an **$\mathcal{O}$-monoid** if, given an object $\mathbf{X} = (X_i \in \mathcal{O})_{i \leq n} \in \mathcal{O}_{\langle n \rangle}$ the canonical maps
 $$
   \left\{M(\mathbf{X}) \rightarrow M(X_i) \right\}
