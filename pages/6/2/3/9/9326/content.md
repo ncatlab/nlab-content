@@ -58,7 +58,9 @@ $$
   \,.
 $$
 
-This inherits monoidal structure (with respect to the [[cartesian monoidal (∞,1)-category]] structure on [[(∞,1)Cat]]) and hence exhibits an $\mathcal{O}$-algebra in [[(∞,1)Cat]]. This way coCartesian fibrations of $(\infty,1)$-operads over some $\mathcal{O}^\otimes$ are equivalently $\mathcal{O}$-algebras in [[(∞,1)Cat]]. Therefore their identification with $\mathcal{O}$-[[monoidal (∞,1)-categories]].
+In fact, this is restricted from the [[(∞,1)-Grothendieck construction]] $\mathcal{O}^{\otimes} \rightarrow (\infty,1)Cat$;
+this functor is an [$\mathcal{O}$-monoid](https://ncatlab.org/nlab/show/cartesian+symmetric+monoidal+∞-category#O-monoids), and hence an $\mathcal{O}$-algebra with respect to the [[cartesian symmetric monoidal (∞,1)-category]] structure on [[(∞,1)Cat]]. 
+This way coCartesian fibrations of $(\infty,1)$-operads over some $\mathcal{O}^\otimes$ are equivalently $\mathcal{O}$-algebras in [[(∞,1)Cat]], i.e. $\mathcal{O}$-[[monoidal (∞,1)-categories]].
 
 =--
 
