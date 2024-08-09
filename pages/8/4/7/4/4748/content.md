@@ -696,6 +696,9 @@ Parallel transport for [[circle n-bundles with connection]] is discussed general
 
 * David Lipsky, _Cocycle constructions for topological field theories_ (2010) ([[LipskyThesis.pdf:file]])
 
+* Nino Scalbi: *Differential Cohomology as Diffeological Homotopy Theory* &lbrack;[arXiv:2408.02593](https://arxiv.org/abs/2408.02593)&rbrack;
+
+
 see also the discussion at _[[fiber integration in ordinary differential cohomology]]_.
 
 Realization of this as an [[extended TQFT]] is discussed in 
