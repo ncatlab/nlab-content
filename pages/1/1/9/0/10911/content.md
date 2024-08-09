@@ -134,6 +134,7 @@ See also
 
 * Samuel Laliberte, *Effective mass and symmetry breaking in the IKKT matrix model from compactification* &lbrack;[arXiv:2401.16401](https://arxiv.org/abs/2401.16401)&rbrack;
 
+* Yuhma Asano: *Quantisation of type IIB superstring theory and the matrix model* &lbrack;[arXiv:2408.04000](https://arxiv.org/abs/2408.04000)&rbrack;
 
 
 
