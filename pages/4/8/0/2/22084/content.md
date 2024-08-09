@@ -22,6 +22,12 @@ Exposition:
 
 * [[Lukas Müller]], *Deformation quantization and categorical factorization homology*, talk at [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#MuellerMar2023), video:[YT](https://www.youtube.com/watch?v=kC488wISPX4)&rbrack;
 
+On the [[spin-statistics theorem]] via [[hermitian functorial field theory]]:
+
+* [[Lukas Müller]], [[Luuk Stehouwer]], _Reflection Structures and Spin Statistics in Low Dimensions_ &lbrack;[arXiv:2301.06664](https://arxiv.org/abs/2301.06664)&rbrack;
+
+* Cameron Krulewski, [[Lukas Müller]], [[Luuk Stehouwer]]: *A Higher Spin Statistics Theorem for Invertible Quantum Field Theories* &lbrack;[arXiv:2408.03981](https://arxiv.org/abs/2408.03981)&rbrack;
+
 
 
 category: people
