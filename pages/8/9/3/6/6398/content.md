@@ -95,6 +95,9 @@ This involves the relation between the [[octonion]] algebra and [[spinor]]s in 2
 
 * H. Tachibana, K. Imeda, _Octonions, superstrings and ten-dimensional spinors_ , Il nuovo cimento, Vol 104 B N.1
 
+* Yuhma Asano: *Quantisation of type IIB superstring theory and the matrix model* &lbrack;[arXiv:2408.04000](https://arxiv.org/abs/2408.04000)&rbrack;
+
+
 ### Superspace and superembedding formalism
 
 Discussion of the superstring [[equations of motion]] in [[superspace]] is due to 
