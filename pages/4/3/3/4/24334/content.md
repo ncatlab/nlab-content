@@ -23,15 +23,15 @@
 
 There are many different ways to formalize the directed interval primitive in simplicial type theory: 
 
-* one could simply postulate in vanilla [[dependent type theory]] via inference rules and axioms a directed interval primitive, as in [Gratzer, Weinberger, & Buchholtz 2024](#GWB24). 
+* one could simply postulate in vanilla [[dependent type theory]] via inference rules and axioms a directed interval primitive as a [[bounded total order]], as in [Gratzer, Weinberger, & Buchholtz 2024](#GWB24). 
 
-* one could use [[two-level type theory]] consisting of a non-fibrant layer, and then axiomatise a directed interval primitive in the non-fibrant layer 
+* one could use [[two-level type theory]] consisting of a non-fibrant layer, and then axiomatise a directed interval primitive as a [[bounded total order]] in the non-fibrant layer 
 
-* one could use [[type theory with shapes]] consisting of a non-fibrant layer of cubes which is a [[simple type theory]] and a non-fibrant layer of topes which is a [[propositional logic]] over the cube layer, and then define the directed interval primitive using the cube and tope layers, as in [Riehl & Shulman 2017](#RiehlShulman17)
+* one could use [[type theory with shapes]] consisting of a non-fibrant layer of cubes which is a [[simple type theory]] and a non-fibrant layer of topes which is a [[propositional logic]] over the cube layer, and then define the directed interval primitive as a [[bounded total order]] using the cube and tope layers, as in [Riehl & Shulman 2017](#RiehlShulman17)
 
 ### With axioms
 
-The directed interval primitive $\mathbb{2}$ in simplicial type theory is a non-trivial bounded [[total order]]. Bounded total orders have many definitions in mathematics, such as a bounded [[partial order]] satisfying totality, or a [[lattice]] satisfying totality. As such, there are multiple possible sets of inference rules one could use to present the directed interval in the formalization. 
+The directed interval primitive $\mathbb{2}$ in simplicial type theory is a non-trivial [[bounded total order]]. Bounded total orders have many definitions in mathematics, such as a bounded [[partial order]] satisfying totality, or a [[lattice]] satisfying totality. As such, there are multiple possible sets of inference rules one could use to present the directed interval in the formalization. 
 
 The axiomx for the directed interval primitive $(\mathbb{2}, \leq)$ as a [[partial order]] in the formalization are as follows:
 
