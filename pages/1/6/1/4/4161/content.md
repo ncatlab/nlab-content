@@ -94,4 +94,7 @@ and via [[hermitian functorial field theory]]:
 
 * [[Luuk Stehouwer]], _The categorical spin-statistics theorem_ &lbrack;[arXiv:2403.02282](https://arxiv.org/abs/2403.02282)&rbrack;
 
+* Cameron Krulewski, [[Lukas Müller]], [[Luuk Stehouwer]]: *A Higher Spin Statistics Theorem for Invertible Quantum Field Theories* &lbrack;[arXiv:2408.03981](https://arxiv.org/abs/2408.03981)&rbrack;
+
+
 [[!redirects spin-statistics theorems]]
