@@ -23,7 +23,7 @@ There are multiple different formalisms of simplicial homotopy type theory; two 
 
 #### Directed interval via axioms
 
-In [[simplicial homotopy type theory]] where the directed interval primitive $\mathbb{2}$ is defined via axioms, the hom type is defined as the [[dependent sum type]]
+In [[simplicial homotopy type theory]] where the directed interval primitive $\mathbb{2}$ is defined via axioms as a [[bounded total order]], the hom type is defined as the [[dependent sum type]]
 
 $$\mathrm{hom}_A(x, y) \coloneqq \sum_{f:\mathbb{2} \to A} (f(0) =_A x) \times (f(1) =_A y)$$
 
@@ -51,3 +51,8 @@ where $\Delta^1$ is the directed interval primitive $\mathbb{2}$ and $\partial \
 * {#RiehlShulman17} [[Emily Riehl]], [[Michael Shulman]], *A type theory for synthetic $\infty$-categories* $[$[arXiv:1705.07442](https://arxiv.org/abs/1705.07442)$]$
 
 * {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
+
+[[!redirects hom type]]
+[[!redirects hom types]]
+[[!redirects hom-type]]
+[[!redirects hom-types]]
