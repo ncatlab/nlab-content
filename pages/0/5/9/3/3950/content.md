@@ -142,7 +142,7 @@ In an equippable 2-category, we can compose cofibrations in the desired way.
 
 +-- {: .un_prop}
 ###### Proposition
-If $K$ is equippable, $A\to E \leftarrow B$ is a two-sided cofibration, and $A+B \to F \to E$ is an $(\mathcal{E},\mathcal{M})$-factorization, then $A\to F \leftarrow B$ is a codiscrete cofibration.  In particular, the category $CodCofib(A,B)$ is coreflective in the 2-category $Cofib(A,B)$.
+If $K$ is equippable, $A\to E \leftarrow B$ is a two-sided cofibration, and $A+B \to F \to E$ is an $(\mathcal{E},\mathcal{M})$-factorization, then $A\to F \leftarrow B$ is a codiscrete cofibration.  In particular, the category $CodCofib(A,B)$ is coreflective in the category $Cofib(A,B)$.
 =--
 +-- {: .proof}
 ###### Proof
