@@ -113,6 +113,10 @@ An analogue in [[p-adic geometry]] is discussed in
 
 * {#Mann22} [[Lucas Mann]], *A p-Adic 6-Functor Formalism in Rigid-Analytic Geometry* &lbrack;[arXiv:2206.02022](https://arxiv.org/abs/2206.02022)&rbrack;
 
+Extension to the irregular case
+
+* [[Andrea D'Agnolo]], [[Masaki Kashiwara]], _On the irregular Riemann-Hilbert correspondence_, [2408.04260](https://arxiv.org/abs/2408.04260)
+
 [[!redirects Riemann-Hilbert correspondence]]
 [[!redirects Riemann–Hilbert correspondence]]
 [[!redirects Riemann--Hilbert correspondence]]
