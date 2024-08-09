@@ -35,8 +35,6 @@ In any case, *Cohesive homotopy type theory* is an [[axiom|axiomatic]] [[theory]
 
 In its [[categorical semantics]], the  [[types]] in cohesive HoTT are interpreted as _[[cohesive topos|cohesive]] [[homotopy types]]_, hence as [[cohesive ∞-groupoids]], such as for instance [[smooth ∞-groupoids]]. See also at _[[motivation for cohesive toposes]]_ for a non-technical discussion.
 
-
-
 ## The Axioms
   {#TheAxioms}
 
@@ -103,6 +101,110 @@ $$
 $$
 
 for the reflector into [[discrete objects]].
+
+## As a multimodal type theory
+
+There is another way to define cohesive homotopy type theory, as a [[multimodal type theory]]. Multimodal type theories were first introduced in [Gratzer, Kavvos, Nuyts, & Birkedal 2021](#GKNB21) and consists of a [[strict 2-category]] $\mathcal{M}$ called the *mode theory*, whose objects are called *modes* and whose 1-cells are called *modalities*. For each mode $m \in \mathcal{M}$, there is a type theory at mode $m$, and for each 1-cell between objects there is a type theoretic [[modality]] in the type theory, which comes with its associated [[context lock]]. 
+
+### The mode theory of cohesion
+
+The mode theory $\mathcal{M}$ of cohesive homotopy type theory consists of 
+
+* two modes, the discrete mode $\mathcal{d} \in \mathcal{M}$ and the cohesive mode $\mathcal{c} \in \mathcal{M}$, 
+
+* 1-cells $p_!, p_*:\mathcal{c} \to \mathcal{d}$ and $p^*, p^!:\mathcal{d} \to \mathcal{c}$, 
+
+* 2-cells 
+
+  * $\eta_{p_! \dashv p^*}: \mathrm{id}_\mathcal{c} \Rightarrow p^* \circ p_!$
+
+  * $\epsilon_{p_! \dashv p^*}: p_! \circ p^* \Rightarrow \mathrm{id}_\mathcal{d}$
+
+  * $\eta_{p^* \dashv p_*}: \mathrm{id}_\mathcal{d} \Rightarrow p_* \circ p^*$
+
+  * $\epsilon_{p^* \dashv p_*}: p^* \circ p_* \Rightarrow \mathrm{id}_\mathcal{c}$
+
+  * $\eta_{p_* \dashv p^!}: \mathrm{id}_\mathcal{c} \Rightarrow p^! \circ p_*$
+
+  * $\epsilon_{p_* \dashv p^!}: p_* \circ p^! \Rightarrow \mathrm{id}_\mathcal{d}$
+
+* which satisfy the following [[triangle identities]]:
+
+  * $p^* \epsilon_{p_! \dashv p^*} \cdot \eta_{p_! \dashv p^*} p^* = \mathrm{id}_{p^*}$
+
+  * $\epsilon_{p_! \dashv p^*} p_! \cdot p_! \eta_{p_! \dashv p^*} = \mathrm{id}_{p_!}$
+
+  * $p_* \epsilon_{p^* \dashv p_*} \cdot \eta_{p^* \dashv p_*} p_* = \mathrm{id}_{p_*}$
+
+  * $\epsilon_{p^* \dashv p_*} p^* \cdot p^* \eta_{p^* \dashv p_*} = \mathrm{id}_{p^*}$
+
+  * $p^! \epsilon_{p_* \dashv p^!} \cdot \eta_{p_* \dashv p^!} p^! = \mathrm{id}_{p^!}$
+
+  * $\epsilon_{p_* \dashv p^!} p_* \cdot p_* \eta_{p_* \dashv p^!} = \mathrm{id}_{p_*}$
+
+which makes the 1-cells into an [[adjoint quadruple]]
+
+$$p_! \dashv p^* \dashv p_* \dashv p^!$$
+
+The notations for the adjoint quadruple are derived from the introduction of [Shulman 2015](#Shulman15), but are traditionally expressed as 
+
+$$\Pi \dashv \mathrm{Disc} \dashv \Gamma \dashv \mathrm{Codisc}$$
+
+(i.e. see [[cohesive infinity-topos]]). However, we do not use the above notations because $\Pi$ conflicts with the use of $\Pi$ for the [[dependent product type]] (i.e. $\Pi x:A.B(x)$) and $\Gamma$ conflicts with the use of $\Gamma$ to express arbitrary contexts in [[inference rules]] in [[dependent type theory]]. 
+
+The [[sharp modality|sharp]], [[flat modality|flat]], and [[shape modality|shape]] endo-modalities on the cohesive mode can be defined as composites of the modalities above:
+
+$$\sharp \coloneqq p_* \circ p^!:\mathcal{c} \to \mathcal{c} \qquad \flat \coloneqq p_* \circ p^*:\mathcal{c} \to \mathcal{c} \qquad \esh \coloneqq p_! \circ p^*:\mathcal{c} \to \mathcal{c}$$
+
+yielding the [[adjoint triple]]
+
+$$\esh \dashv \flat \dashv \sharp$$
+
+### The modal type theory
+
+In the multimodal type theory associated with cohesive homotopy type theory, there are two type judgments: 
+
+* $A \; \mathrm{type} \; \mathrm{at} \; \mathcal{d}$ which says that $A$ is a type in the discrete mode;
+
+* $A \; \mathrm{type} \; \mathrm{at} \; \mathcal{c}$ which says that $A$ is a type in the cohesive mode.
+
+Similarly, there are two term judgments:
+
+* $a:A \; \mathrm{at} \; \mathcal{d}$ which says that $a$ is a term of type $A$ in the discrete mode;
+
+* $a:A \; \mathrm{at} \; \mathcal{c}$ which says that $a$ is a term of type $A$ in the cohesive mode. 
+
+and two context judgments:
+
+* $\Gamma \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{d}$ which says that $\Gamma$ is a context in the discrete mode;
+
+* $\Gamma \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{c}$ which says that $\Gamma$ is a context in the cohesive mode.
+
+as well as two separate judgments each for [[judgmental equality]] of types and terms:
+
+* $A \equiv B \; \mathrm{type} \; \mathrm{at} \; \mathcal{d}$ which says that $A$ and $B$ are judgmentally equal types in the discrete mode;
+
+* $A \equiv B \; \mathrm{type} \; \mathrm{at} \; \mathcal{c}$ which says that $A$ and $B$ are judgmentally equal types in the cohesive mode;
+
+* $a \equiv b:A \; \mathrm{at} \; \mathcal{d}$ which says that $a$ and $b$ are judgmentally equal terms of type $A$ in the discrete mode;
+
+* $a \equiv b:A \; \mathrm{at} \; \mathcal{c}$ which says that $a$ and $b$ are judgmentally equal terms of type $A$ in the cohesive mode. 
+
+* $\Gamma \equiv \Delta \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{d}$ which says that $\Gamma$ and $\Delta$ are judgmentally equal contexts in the discrete mode;
+
+* $\Gamma \equiv \Delta \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{c}$ which says that $\Gamma$ and $\Delta$ are judgmentally equal contexts in the cohesive mode;
+
+The [original papers](#GKNB21) on [[multimodal type theory]] use the symbol @ instead of $\mathrm{at}$ but it doesn't seem to be possible to put @ inside of latex math mode on the nLab, whether directly or inside the mathrm command. 
+
+Then we have the rules for the [[context locks]] of the [[modalities]] of cohesive homotopy type theory:
+
+$$\frac{\Gamma \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{d}}{\Gamma, \mathrm{lock}_{p_!} \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{c}} \qquad \frac{\Gamma \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{c}}{\Gamma, \mathrm{lock}_{p^*} \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{d}} \qquad \frac{\Gamma \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{d}}{\Gamma, \mathrm{lock}_{p_*} \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{c}} \qquad \frac{\Gamma \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{c}}{\Gamma, \mathrm{lock}_{p^!} \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{d}}$$
+
+The [original papers](#GKNB21) also used a lock symbol that the author does not know how to replicate on the nLab.
+
+(...)
+
+([Kolomatskaia & Shulman 2023](#KS23) might also be useful here in defining the type theory)
 
 ## Example phenomena
 
@@ -313,6 +415,12 @@ Exposition in:
 For [[parametricity]] in cohesive homotopy type theory:
 
 * {#Aberle24} [[C.B. Aberlé]], *Parametricity via Cohesion* &lbrack;[arXiv:2404.03825](https://arxiv.org/abs/2404.03825)&rbrack; 
+
+The development of cohesive homotopy type theory as a [[multimodal type theory]] uses material from 
+
+* {#GKNB21} [[Daniel Gratzer]], [[G. Alex Kavvos]], [[Andreas Nuyts]], [[Lars Birkedal]]: _Multimodal Dependent Type Theory_, Logical Methods in Computer Science **17** 3 (2021) lmcs:7713 &lbrack;[arXiv:2011.15021](https://arxiv.org/abs/2011.15021), <a href="https://doi.org/10.46298/lmcs-17(3:11)2021">doi:10.46298/lmcs-17(3:11)2021</a>&rbrack;
+
+* {#KS23} [[Astra Kolomatskaia]], [[Michael Shulman]], *Displayed Type Theory and Semi-Simplicial Types* &lbrack;[arXiv:2311.18781](https://arxiv.org/abs/2311.18781)&rbrack; 
 
 [[!redirects cohesive type theory]]
 [[!redirects cohesive type theories]]
