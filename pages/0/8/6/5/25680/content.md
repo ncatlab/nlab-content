@@ -19,7 +19,17 @@ In [[dependent type theory]], a [[hom type]] on a type $A$ is a [[dependent type
 
 ### In simplicial homotopy type theory
 
-In [[simplicial homotopy type theory]], the hom type is defined as the [[extension type]]
+There are multiple different formalisms of simplicial homotopy type theory; two of them are given in [Gratzer, Weinberger, & Buchholtz 2024](#GWB24) and in [Riehl & Shulman 2017](#RiehlShulman17), and in each formalism there is a different way to define the hom type. 
+
+#### Directed interval via axioms
+
+In [[simplicial homotopy type theory]] where the directed interval primitive $\mathbb{2}$ is defined via axioms, the hom type is defined as the [[dependent sum type]]
+
+$$\mathrm{hom}_A(x, y) \coloneqq \sum_{f:\mathbb{2} \to A} (f(0) =_A x) \times (f(1) =_A y)$$
+
+#### Type theory with shapes formalism
+
+In [[simplicial homotopy type theory]] in the [[type theory with shapes]] formalism, the hom type is defined as the [[extension type]]
 
 $$\mathrm{hom}_A(x, y) \coloneqq \langle \Delta^1 \to A \vert_{[x,y]}^{\partial \Delta^1} \rangle$$
 
@@ -39,3 +49,5 @@ where $\Delta^1$ is the directed interval primitive $\mathbb{2}$ and $\partial \
 ## References
 
 * {#RiehlShulman17} [[Emily Riehl]], [[Michael Shulman]], *A type theory for synthetic $\infty$-categories* $[$[arXiv:1705.07442](https://arxiv.org/abs/1705.07442)$]$
+
+* {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
