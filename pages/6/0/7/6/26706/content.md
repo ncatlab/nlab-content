@@ -3,7 +3,7 @@
 
 * [institute website](https://www.math.harvard.edu/people/stewart-natalie/)
 
-Doctoral student at Harvard studying [[equivariant homotopy theory]], with current focus on developing rudiments of [[equivariant higher algebra]].
+Doctoral student at Harvard studying [[equivariant homotopy theory]], with current focus on developing rudiments of [[equivariant higher algebra - contents|equivariant higher algebra]].
 
 I'm currently in the revision stage on a number of projects. For instance, on the combinatorics of [[indexing systems|weak indexing systems]]:
 
