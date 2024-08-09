@@ -156,6 +156,8 @@ Any [[Boolean algebra]], and even any [[Heyting algebra]], is a distributive lat
 
 Every [[frame]] and every [[sigma-frame|$\sigma$-frame]] is a distributive lattice. 
 
+Any [[bounded total order]] is a distributive lattice. 
+
 Any [[linear order]] is a distributive lattice. 
 
 An [[integral domain]] is a [[Prüfer domain]] iff its lattice of [[ideals]] is distributive. The classical example is $\mathbb{Z}$; equivalently, the (opposite of the) multiplicative monoid $\mathbb{N}$ ordered by divisibility, with $1$ at the bottom and $0$ at the top. 
@@ -243,7 +245,6 @@ Every distributive lattice, regarded as a [[category]] (a [[(0,1)-category]]), i
 
 
 The [[completely distributive lattice|completely distributive]] [[algebraic lattices]] (the [[frames of opens]] of [[Alexandroff locales]] ) form a [[reflective subcategory]] of that of all distributive lattices. The reflector is called _[[canonical extension]]_.
-
 
 ## References
 
