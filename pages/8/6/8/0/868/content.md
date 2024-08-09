@@ -76,6 +76,8 @@ For more see at _[[classifying topos]]_ the section _[For (inhabited) linear ord
 
 * [[linear order]]
 
+* [[bounded total order]]
+
 ## References
 
 Total orders are defined in the section of chapter 3 titled "Chains":
