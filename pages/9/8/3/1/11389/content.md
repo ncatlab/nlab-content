@@ -23,7 +23,7 @@
 
 ## Idea
 
-What is called the _thick subcategory theorem_ gives a a characterization of all [[thick subcategories]] of the [[stable homotopy category]] of [[p-localization|p-local]] [[finite spectra]].
+What is called the _thick subcategory theorem_ gives a characterization of all [[thick subcategories]] of the [[stable homotopy category]] of [[p-localization|p-local]] [[finite spectra]].
 
 This is a consequence of the [[nilpotence theorem]].
 
