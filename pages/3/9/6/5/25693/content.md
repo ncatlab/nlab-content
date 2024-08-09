@@ -48,3 +48,11 @@ $$
 ## References
 
 * {#RiehlShulman17} [[Emily Riehl]], [[Michael Shulman]], *A type theory for synthetic $\infty$-categories* $[$[arXiv:1705.07442](https://arxiv.org/abs/1705.07442)$]$
+
+* {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
+
+[[!redirects Rezk type]]
+[[!redirects Rezk types]]
+
+[[!redirects complete Segal type]]
+[[!redirects complete Segal types]]
