@@ -33,7 +33,7 @@
 
 * There is a [[shape modality]] in $\mathbb{A}^1$-homotopy type theory given by the $\mathbb{A}^1$-[[localization of a type|localization]] [[higher inductive type]]. 
 
-* There is no [[flat modality]] in $\mathbb{A}^1$-homotopy type theory as otherwise that will imply the false statement that the category of $\mathbb{A}^1$-local objects is a [[topos]]. Thus $\mathbb{A}^1$-homotopy type theory is not a [[cohesive homotopy type theory]]. 
+* There is no [[cohesion|cohesive]] [[flat modality]] in $\mathbb{A}^1$-homotopy type theory as otherwise that will imply the false statement that the category of $\mathbb{A}^1$-local objects is a [[topos]]. Thus $\mathbb{A}^1$-homotopy type theory is not a [[cohesive homotopy type theory]]. 
 
 ## See also
 
