@@ -139,8 +139,17 @@ The space $P{\mathbf{2}} \times P{\mathbf{2}}$ is not $\mathbf{Cvx}$-isomorphic 
 \end{lemma}
  \begin{proof}
 Every element of $P{\mathbf{2}} \times P{\mathbf{2}}$ is characterized precisely by two independent real numbers $r,s \in [0,1]$.
-The only space $X$ for which every element $Q \in P{X}$ is characterized by two independent variables $r,s \in [0,1]$ is $P{\mathbf{3}}$. But clearly 
- $P{\mathbf{2}} \times P{\mathbf{2}}$ is not $\mathbf{Cvx}$-isomorphic to $P{\mathbf{3}}$. 
+The only space $X$ for which every element $Q \in P{X}$ is characterized by two parameters  is $P{\mathbf{3}}$.  However those two parameters are not independent since choosing the first parameter as one forces the second parameter to be zero.  An equivalent way to state this is to say that 
+the coequalizer  of the pair of points $(0,1)$ and $(1,1)$ of the space $[0,1] \times [0,1]$ is, up to isomorphism, $P(\mathbf{3})$.
+The congruence relation $R$ is the relationship on $[0,1]\times [0,1]$ with the equivalence classes specified by
+\begin{equation}
+[(x,y)]_R =            \left\{
+ \begin{array}{l}  
+\{(x,y)\} \quad \text{when } x+y \lt 1  \\
+\{(u,y) \in [0,1]\times [0,1] \, | \, u+y \ge 1\}
+\end{array}      \right.,
+\end{equation}
+is $\mathbf{Cvx}$-isomorphic to $P(\mathbf{3})$.  (Draw the picture.)
 
   \end{proof}
 
@@ -165,7 +174,26 @@ If Lemma \ref{L3} can be generalized to the statement that if the convex space $
 ([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$.
 His representation for the algebras is based upon the idea that we want continuous maps $h:P(X) \rightarrow X$ such that the ‘fibres’ are convex and closed, and such that $\delta_x$, the Delta distribution on $x$, is in the fibre over $x$.
  And there’s another condition which requires a compact subset of $P(X)$ to be sent to a compact subset of $X$.
- Moreover Doberkat also points out that for  discrete  Polish space $X$ that $X$ is disconnected, and hence there can be no continuous map $P{X} \rightarrow \mathbf{X}$. Hence $X$, irrelavant of any convex structure we endow it with, cannot be an algebra.
+
+As an example of $P$-algebras, represented via convex spaces, Doberkat gives the example of closed and bounded convex subsets of some Euclidean space, and shows that the construction of a barycenter yields an algebra.  We summarize that construction here.
+
+Fix $X \subset \mathbb{R}^n$ as a bounded, closed, and convex subset of the Euclidean space $\mathbb{R}^n$.
+A vector $x_{\star} \in \mathbb{R}^n$ is called a barycenter of the probability measure $\tau \in P(X)$ iff, for all linear 
+functionals $g$ on $\mathbb{R}^n$, the property $g(x_{\star}) = \int_X g(x) d\tau$ holds.
+Since every linear functional on $\mathbb{R}^n$ is given by $g(\cdot)=\langle x, \cdot \rangle$ for a unique $x \in \mathbb{R}^n$, the defining property of a barycenter (for convex subsets of $\mathbb{R}^n$) given above is equivalent to saying that, for all $x \in \mathbb{R}^n$, the property $\langle x, x_{\star} \rangle = \int_{y \in  X} \langle x, y\rangle d\tau$ holds.
+ 
+\begin{lemma}
+The barycenter of $\tau \in P(X)$ exists, it is uniquely determined, and it is an element of $X$.
+\end{lemma}
+
+\begin{theorem}
+Let $h(\tau)$ be the barycenter of $\tau \in P(X)$.  Then $(X,h)$ is an algebra for the $P$-monad.
+\end{theorem}
+
+The example given by the unit square  $X= P(\mathbf{2}) \times P(\mathbf{2})=[0,1] \times [0,1] \subset \mathbb{R}^2$ fits into this theory nicely. The barycenter map is given by the marginalization map $m:P( P(\mathbf{2}) \times P(\mathbf{2})) \rightarrow P(\mathbf{2}) \times P(\mathbf{2})$.  However when the space $X$ cannot be characterized by a finite number of parameters, the above  theory using barycenters directly cannot be applied, even though the marginalization map $P( P(X) \times P(Y)) \rightarrow P(X) \times P(Y)$ is still  a $P$-algebra. (It is still a barycenter map but not within the framework of $\mathbb{R}^n$.)   These barycenter maps are the components of a natural transformation characterizing the counit of an adjunction of the $P$-monad.  
+ More information concerning the use of barycenter maps  in finding  algebras can be found at [[Radon monad]].
+
+Finally, we note that Doberkat points out that for  discrete  Polish space $X$ that $X$ is disconnected, and hence there can be no continuous map $P{X} \rightarrow \mathbf{X}$. Hence $X$, irrelavant of any convex structure we endow it with, cannot be an algebra.
 
 
 ## Related constructions
