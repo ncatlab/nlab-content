@@ -154,9 +154,10 @@ Calabi-Yau $A_\infty$-categories classify [[TCFT]]s. This remarkable result is w
 
 A relative version is defined for functors instead of categories,
 
-* Christopher Brav , Tobias Dyckerhoff, _Relative Calabi–Yau structures_, Compositio Math. 155 (2019) 372--412 [doi](https://doi.org/10.1112/S0010437X1900702); _Relative Calabi–Yau structures II: shifted Lagrangians in the moduli of objects_, Sel. Math. New Ser. 27, 63 (2021). [doi](https://doi.org/10.1007/s00029-021-00642-5)
+* Christopher Brav , [[Tobias Dyckerhoff]], _Relative Calabi–Yau structures_, Compositio Math. 155 (2019) 372--412 [doi](https://doi.org/10.1112/S0010437X1900702); _Relative Calabi–Yau structures II: shifted Lagrangians in the moduli of objects_, Sel. Math. New Ser. 27, 63 (2021). [doi](https://doi.org/10.1007/s00029-021-00642-5)
+* Christopher Brav, [[Tobias Dyckerhoff]], _The cyclic Deligne conjecture and Calabi-Yau structures_, [arXiv:2305.10323](https://arxiv.org/abs/2305.10323) 
 * [[Bernhard Keller]], Yu Wang, _An introduction to relative Calabi-Yau structures_, [arXiv:2111.10771](https://arxiv.org/abs/2111.10771)
-
+* Christopher Kuo, Wenyuan Li, _Relative Calabi-Yau structure on microlocalization_, [arXiv:2408.04085](https://arxiv.org/abs/2408.04085)
 
 [[!redirects Calabi-Yau category]]
 [[!redirects Calabi-Yau categories]]
