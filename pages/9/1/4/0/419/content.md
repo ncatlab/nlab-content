@@ -512,7 +512,7 @@ Textbook accounts:
 
   > (Mentioned in passing in Remark 55.10, with no definition given, but the preceding section discusses the pushout product axiom.)
 
-The term "pushout smash poduct" is used for the case of [[smash products]] in [[pointed category|pointed categories]] (such as of [[pointed simplicial sets]] or [[symmetric spectra]]):
+The term "pushout smash product" is used for the case of [[smash products]] in [[pointed category|pointed categories]] (such as of [[pointed simplicial sets]] or [[symmetric spectra]]):
 
 * [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. **13** (1998) 149-208 &lbrack;[arXiv:math/9801077](https://arxiv.org/abs/math/9801077), [doi:10.1090/S0894-0347-99-00320-3](https://doi.org/10.1090/S0894-0347-99-00320-3)&rbrack; 
 
