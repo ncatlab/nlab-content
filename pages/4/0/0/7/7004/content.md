@@ -23,7 +23,7 @@ See a separate page for [[semantics of a programming language]].
 
 ### Categorical semantics of dependent type theory
 
-Notably the [[semantics]] of [[type theory|type theories]] is given by [[categories]]. For instance 
+Notably the semantics of [[type theory|type theories]] is given by [[categories]]. For instance 
 
 * [[dependent type theory]] is precisely the formal language for which [[locally cartesian closed categories]] are the semantics, 
 
