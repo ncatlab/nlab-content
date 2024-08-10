@@ -198,9 +198,9 @@ over arrow/.style={-, black, preaction={draw=white, double}},%
 
 This highlights that this situation is *non-signalling*: here, $X$ depends on $A$ only, and not on $B$, while in the generic case of $h$ above, $X$ may depend both on $A$ and $B$. This will be particularly relevant when we discuss stochastic interactions (see below).
 
-Similarly, one can form the product of three or more objects and morphisms. Note that in the diagrams, the product is strictly associative: string diagrams, rather than the original category, technically represent a [[strict monoidal category]] which is [[monoidal equivalence|monoidally equivalent]] to the original one. (Such a category always exists thanks to the [[coherence theorem for monoidal categories|coherence theorem]].)
+Similarly, one can form the product of three or more objects and morphisms. Note that in the diagrams, the product is strictly associative: string diagrams technically represent, rather than the original category, a [[strict monoidal category]] which is [[monoidal equivalence|monoidally equivalent]] to the original one; such a category always exists thanks to the [[coherence theorem for monoidal categories|coherence theorem]].
 
-In a similar vein, the monoidal unit is usually not appearing in string diagrams, whenever this does not cause confusion. This way, for example, the diagram
+In a similar vein, the monoidal unit usually does not appear explicitly in string diagrams, providing this elision does not cause confusion. This way, for example, the diagram
 
 \begin{tikzpicture}[%
 thick,%
