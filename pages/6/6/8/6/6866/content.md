@@ -1,5 +1,5 @@
 
-> this entry is about the concept of [[quantum field theory|quantum]][[field theory]], for the concept in [[group theory]]/[[representation theory]] see at [[effective group action]]; for disambiguation see [[effective action]]
+> this entry is about the concept in [[quantum field theory|quantum]] [[field theory]], for the concept in [[group theory]]/[[representation theory]] see at [[effective group action]]; for disambiguation see [[effective action]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
