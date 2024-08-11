@@ -22,7 +22,7 @@ Lower and upper reals don\'t interact well together.  Their "intersection" is th
 
 A __lower real number__ is the [[supremum]] of an [[inhabited set|inhabited]] set of numbers.  A __bounded lower real__ is the supremum of an inhabited set of numbers that has a finite upper bound.  An __extended lower real__ is the supremum of an arbitrary set of numbers.
 
-An __upper real number__ is the [[infimum]] of an inhabited set of numbers.  A __bounded upper real__ is the infimum of an inhabited set of numbers that has a finite lower bound.  An __extended lower real__ is the infimum of an arbitrary set of numbers.
+An __upper real number__ is the [[infimum]] of an inhabited set of numbers.  A __bounded upper real__ is the infimum of an inhabited set of numbers that has a finite lower bound.  An __extended upper real__ is the infimum of an arbitrary set of numbers.
 
 We cannot generalize further by taking more extrema of the same sort.  Explicitly, the supremum of any inhabited set of lower reals is a lower real and the infimum of any inhabited set of upper reals is an upper real.  Similar results obtain if we use either bounded or extended reals, so long as we also either require the set to bounded or allow it to be [[empty subset|empty]].
 
