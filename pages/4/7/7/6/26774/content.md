@@ -81,7 +81,7 @@ Given $I \subset \mathbb{F}_G$ an indexing system, we let $T(I) \subset \mathrm{
 The following theorem was independently proved by [Rubin 2017](#Rubin17) and by [Balchin, Barnes & Roitzheim 2019](#Balchin19).
 
 \begin{theorem}
-  $T(I)$ is a transfer system, and this outlines an equivalence of posets
+  $T(I)$ is a transfer system, and this furnishes an equivalence of posets
 $$
   \mathrm{Index}_{G} \simeq \mathrm{Transfer}_G.
 $$
