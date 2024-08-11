@@ -133,7 +133,7 @@ this confirms that in the homotopy-coherent setting every action of an $\mathcal
 
 ### As incomplete Mackey functors in the cartesian setting
 
-The following theorem was proved in the setting of *graph $G$-operads* and for $\mathcal{C} = \underline{\mathcal{S}}_G$ in [Marc 24](#Marc24), and in the setting of [[G-∞-operads]] in [Stewart 24](#Stewart 24).
+The following theorem was proved in the setting of *graph $G$-operads* and for $\mathcal{C} = \underline{\mathcal{S}}_G$ in [Marc 24](#Marc24), and in the setting of [[G-∞-operads]] in [Stewart 24](#Stewart24).
 \begin{theorem}
   If $\mathcal{C}^{\otimes}$ is a [[equivariant symmetric monoidal category|I-symmetric monoidal ∞-category]] whose indexed tensor products are [[indexed products]], then there is a canonical equivalence 
 $$
