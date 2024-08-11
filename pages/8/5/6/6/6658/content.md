@@ -51,7 +51,7 @@ Perhaps more surprising is:
 Effective descent morphisms are closed under pullback and composition.
 =--
 
-See ([JT](#JT), 2.4), ([ST](#ST)) and ([RST](#RST)) for proofs.
+See ([JT](#JT), 2.4), ([ST](#ST)) (in the case one has coequalisers) and ([RST](#RST)) (under just the assumption of finite limits) for proofs.
 
 ## General case
 
