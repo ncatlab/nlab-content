@@ -1,4 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
 
 \tableofcontents
 
@@ -70,3 +87,5 @@ in: *Reuniting the Antipodes -- Constructive and Nonstandard Views of the Contin
 There was a seminar on neutral constructive mathematics:
 
 * Mathematical Logic and Constructivity: *The Scope and Limits of Neutral Constructivism*, Stockholm, Sweden, August 20-23, 2019 ([website](http://logic.math.su.se/mloc-2019/))
+
+[[!redirects neutral constructivism]]
