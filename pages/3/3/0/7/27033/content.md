@@ -149,7 +149,15 @@ which implies
 $$\neg(\forall x, P(x)) \vee (\forall x, P(x))$$
 as $P$ is decidable.
 
-* The [[LLPO]] follows from [[LPO]], [[WLPO]] is equivalent to untruncated LLPO, which implies truncated LLPO, and [[WLPO]] follows from [[LPO]]. However, the converse does not necessarily hold, since in <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates WLPO from LLPO. Similarly, [Grossack 24](#Grossack24) shows that Johnstone's topological topos separates WLPO from LLPO. Thus LLPO is separated from LPO.  
+* The [[LLPO]] follows from [[LPO]], [[WLPO]] is equivalent to untruncated LLPO, which implies truncated LLPO, and [[WLPO]] follows from [[LPO]]. However, the converse does not necessarily hold, since in <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates WLPO from LLPO. Similarly, [Grossack 24](#Grossack24) shows that Johnstone's topological topos separates WLPO from LLPO. Thus LLPO is separated from LPO. 
+
+* Given two sets $A$ and $B$ with [[decidable relation|decidable]] [[tight apartness relations]], the [[tight apartness relation]] on the [[function set]] $B^A$ defined as 
+$$f \# g \coloneqq \exists x \in A.f(x) \neq g(x)$$
+being a decidable relation implies the limited principle of omniscience for natural numbers. Equivalently, that the category of sets with decidable tight apartness is a [[cartesian closed category]] implies $\mathrm{LPO}_\mathbb{N}$. 
+
+* Similarly, given a set $A$ and a [[family of sets]] $(B(x))_{x \in A}$ where both $A$ and each $B(x)$ have [[decidable relation|decidable]] [[tight apartness relations]], the [[tight apartness relation]] on the [[dependent product]] $\prod_{x \in A} B(x)$ defined as 
+$$f \# g \coloneqq \exists x \in A.f(x) \neq g(x)$$
+being a decidable relation implies the limited principle of omniscience for natural numbers. Equivalently, that the category of sets with decidable tight apartness is a [[locally cartesian closed category]] implies $\mathrm{LPO}_\mathbb{N}$. 
 
 ## Models
 
