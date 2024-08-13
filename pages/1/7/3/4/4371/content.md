@@ -101,11 +101,40 @@ $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is the smallest [[dense su
 ([Johnstone 2002, below Corollary A4.5.20](#Johnstone), or [Johnstone 1977](#Johnstone77), p.140)
 
 +-- {: .num_prop #smallest_j-dense}
+
+Another, slightly more general, way to state this is the following (cf. [Blass-Scedrov 1983](#BlassScedrov83), p.19, [Caramello 2012](#Caramello12), p.9):
+
++-- {: .num_prop}
+###### Proposition
+Let $\mathcal{E}$ be a topos. A topology $j$ satisfies $j\le\neg\neg$, i.e. $j$ is [[dense subtopos|dense]], iff $(\mathcal{E}_j)_{\not\not}=\mathcal{E}_{\not\not}$.
+=--
+
+###### Proposition
+$\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is the largest [[Boolean topos|Boolean subtopos]].
+=--
+
+This follows from [Johnstone 2002, Lemma A4.5.21](#Johnstone).
+
++-- {: .num_prop #largest_boolean}
+
+From these two results, we can deduce the following characterization of the double negation topology.
+
+###### Proposition
+$\not\not$ is the unique topology $j$ such that (1) $j$ is [[dense subtopos|dense]], i.e. $j(0)=0$, and (2) the sheaf topos $\mathcal{E}_j$ is [[Boolean topos|Boolean]].
+=--
+
+##### Example
+Consider the [[Sierpinski topos]] $Set^{\to}$ (the [[arrow category]] of Set). It has exactly two dense subtoposes: the topos itself and the double-negation topos whose sheaves are the bijections. It has three Boolean subtoposes: the above, the subcategory on the arrows whose codomain is the terminal object, and the degenerate subtopos consisting of just the identity morphism of the terminal object. Observe that the two non-degenerate Boolean toposes, which complement each other in the [[lattice of subtoposes]], are both equivalent to the topos of sets, which incidentally shows that merely requiring the equivalence $(\mathcal{E}_j)_{\neg\neg}\simeq \mathcal{E}_{\neg\neg}$ in the [above proposition](#negdense) wouldn't do.
+
++-- {: .num_prop #Sierpinski}
+
+There are several other characterizations of the double negation topology available.
+
 ###### Proposition
 $\not \not$ is the smallest topology $j$ on $\mathcal{E}$ such that the canonical mono $(\top,\bot):2=1\coprod 1\rightarrowtail\Omega$ is $j$-dense.
 =--
 
-This is theorem 1.4. in [Caramello (2009)](#Caramello09).
+This is theorem 2.4. in [Caramello (2009)](#Caramello09).
 
 +--{: .num_prop #Boolean_mono}
 ###### Proposition
@@ -113,30 +142,6 @@ $\neg\neg$ is the smallest [[Lawvere-Tierney topology|topology]] $j$ on $\mathca
 =--
 
 This appears as proposition 6.2 in [Caramello (2012a)](#Caramello12a).
-
-From the above we have that $\mathcal{E}_{\not\not}$ is a [[Boolean topos|Boolean]] and [[dense subtopos]]. In fact, even better, we have 
-
-+-- {: .num_prop #boolean_subtopos}
-###### Proposition
-$\not\not$ is the unique topology $j$ such that (1) $j$ is [[dense subtopos|dense]], i.e. $j(0)=0$, and (2) the sheaf topos $\mathcal{E}_j$ is [[Boolean topos|Boolean]].
-=--
-+-- {: .proof}
-###### Proof
-It remains to show that (1) and (2) imply that $j=\not\not$.  First note that the dense monos corresponding to $j$ are classified by the subobject classifier $\Omega_j$ of $\mathcal{E}_j$.  Since (2) implies that $\Omega_j$ is an internal [[Boolean algebra]], it follows that the dense subobjects of any object $X$ form a Boolean algebra.
-
-This Boolean algebra is a reflective sub-poset of the [[Heyting algebra]] of all subobjects of $X$, whose reflector is lex, i.e. preserves finite [[meets]].  Thus, it will suffice to show that if $B$ is a Boolean algebra that is a lex-reflective sub-poset of a Heyting algebra $H$ and if $0\in B$, then $B = \{ U | U = \neg\neg U \}$.
-
-To show this, first note that the Boolean negation in $B$ is the restriction of the Heyting negation in $H$.  Thus, Booleanness of $B$ implies $U=\neg\neg U$ for all $U\in B$.  Thus, it remains to show that if $U=\neg\neg U$ then $U\in B$.  But since $0\in B$ and $B$ is an [[exponential ideal]], by the definition $\neg U = (U\Rightarrow 0)$ it follows that $\neg\neg U\in B$ for any $U$.  Thus, if $U=\neg\neg U$ then $U\in B$ as well.
-=--
-
-Another, slightly more general, way to state this is is the following (cf. [Blass-Scedrov 1983](#BlassScedrov83), p.19, [Caramello 2012](#Caramello12), p.9):
-
-+-- {: .num_prop}
-###### Proposition
-Let $\mathcal{E}$ be a topos. A topology $j$ satisfies $j\le\neg\neg$, i.e. $j$ is [[dense subtopos|dense]], iff $(\mathcal{E}_j)_{\not\not}=\mathcal{E}_{\not\not}$.
-=--
-
-Notice that, though these results prevent a topos from having more than one _dense_ Boolean subtopos, nothing prevents a topos from having more than one _Boolean_ subtopos e.g. the [[Sierpinski topos]] $Set^{\to}$ has two non trivial ones that complement each other in the [[lattice of subtoposes]]. This example, incidentally, also shows that in the [above proposition](#negdense) just $(\mathcal{E}_j)_{\neg\neg}\cong\mathcal{E}_{\neg\neg}$ wouldn't do.
 
 As the smallest dense subtopos, $\mathcal{E}_{\not\not}$ becomes important for Lawvere's calculus of [[Aufhebung]]:
 
