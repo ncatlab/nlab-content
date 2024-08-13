@@ -110,12 +110,13 @@ Of course, there are also many effective descent morphisms relative to fibration
 
 Original articles:
 
-* {#Grothendieck60} [[Alexander Grothendieck]], Def. 1.7 in: *Technique de descente et théorèmes d’existence engéométrie algébrique. I. Généralités. Descente par morphismes fidèlement plats*, Séminaire N. Bourbaki exp. no190 (1960) 299-327 &lbrack;[numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/?id=SB_1958-1960__5__299_0)&rbrack;
-
+* {#Grothendieck60} [[Alexander Grothendieck]], Def. 1.7 in: *Technique de descente et théorèmes d’existence en géométrie algébrique. I. Généralités. Descente par morphismes fidèlement plats*, Séminaire N. Bourbaki exp. no190 (1960) 299--327 &lbrack;[numdam:SB_1958-1960__5__299_0](http://www.numdam.org/item/?id=SB_1958-1960__5__299_0)&rbrack; (part of [[FGA]])
+* SGA I.6 Catégories fibrées et descente (exposé VI by [[Pierre Gabriel]]; exp. VIII, exp. IX) in: A. Grothendieck, M. Raynaud, [[SGA I]]
+* [[Jean Giraud]], _Méthode de la descente_, Mémoires de la S. M. F., tome 2 (1964) 156 pp. [numdam](http://www.numdam.org/item?id=MSMF_1964__2__R3_0)
 
 See also:
 
-* {#JT} [[George Janelidze|G. Janelidze]], and [[Walter Tholen|W. Tholen]]. _How algebraic is the change-of-base functor?._ Category Theory: Proceedings of the International Conference held in Como, Italy, July 22–28, 1990. Springer Berlin Heidelberg, 1991.
+* {#JT} [[George Janelidze|G. Janelidze]], [[Walter Tholen|W. Tholen]]. _How algebraic is the change-of-base functor?._ Category Theory: Proceedings of the International Conference held in Como, Italy, July 22--28, 1990. Springer 1991.
 
 * {#ST} M. Sobral, [[Walter Tholen|W. Tholen]], _Effective descent morphisms and effective equivalence relations_, Category Theory 1991, CMS Conference Proceedings __13__ (1992), 421--433
  
@@ -123,11 +124,11 @@ See also:
 * {#RST} J. Reiterman, M. Sobral, [[Walter Tholen|W. Tholen]], _Composites of effective descent maps_, Cahiers __34__ (1993), 193--207, [numdam](http://www.numdam.org/item?id=CTGDC_1993__34_3_193_0)
 
 
-* {#EDM} [[Maria Manuel Clementino]], [[George Janelidze]], _Another note on effective descent morphisms of topological spaces and relational algebras_. Topology Appl. 273 (2020), 106961. [DOI](https://doi.org/10.1016/j.topol.2019.106961).
+* {#EDM} [[Maria Manuel Clementino]], [[George Janelidze]], _Another note on effective descent morphisms of topological spaces and relational algebras_. Topology Appl. 273 (2020), 106961. [doi](https://doi.org/10.1016/j.topol.2019.106961).
 
 A criterion for categories (including [[quasi-abelian categories]]) under which effective descent morphisms and descent morphisms coincide is established in
 
-* [[Marino Gran]], Olivette Ngaha Ngaha, _Effective descent morphisms in star-regular categories_, Homology, Homotopy and Applications 15:2 (2013), 127-144.  [doi](http://dx.doi.org/10.4310/hha.2013.v15.n2.a7).
+* [[Marino Gran]], Olivette Ngaha Ngaha, _Effective descent morphisms in star-regular categories_, Homology, Homotopy and Applications 15:2 (2013), 127--144.  [doi](http://dx.doi.org/10.4310/hha.2013.v15.n2.a7).
 
 
 [[!redirects descent morphism]]
