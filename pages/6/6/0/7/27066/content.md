@@ -14,11 +14,16 @@
 {: toc}
 
 ## Idea
-Extensions in a double category abstract the classical operation of [[extension of scalars]] of bimodules.
+
+The notion of *extensions* in a [[double category]] abstracts that of the  classical operation of [[extension of scalars]] of [[bimodules]].
 Indeed, they are usually available in [[framed bicategories]], which are formal analogoues to double categories of bimodules; and indeed extensions in a double category of bimodules correspond to extensions of scalars.
 
 The dual notion is that of **[[restriction (double category theory)|restriction]]**.
 Since having all restrictions is equivalent to having all extensions, and since in double category theory one usually works with the former, we redirect the reader to the aforementioned page.
+
+## Related concepts
+
+* [[restriction (double category theory)]]
 
 ## References
 
