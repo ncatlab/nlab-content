@@ -50,7 +50,16 @@ Let $\mathcal{O}_X$ be the sheaf of [[continuous map|continuous]] (or [[smooth m
 
 The notion of double negation sublocale may be [[categorification|categorified]] from locales to [[toposes]].  
 
-If $E$ is a [[topos]] with [[subobject classifier]] $\Omega$, there is a [[negation]] operator $\neg \colon \Omega \to \Omega$, defined by virtue of the fact that $\Omega$ is an [[internalisation|internal]] [[Heyting algebra]].  
+If $E$ is a(n [[elementary topos|elementary]]) [[topos]] with [[subobject classifier]] $\Omega$, there is a [[negation]] operator $\neg \colon \Omega \to \Omega$, defined by virtue of the fact that $\Omega$ is an [[internalisation|internal]] [[Heyting algebra]].  
+
+
+\begin{remark}
+A topos $\mathcal{E}$ such that $\mathcal{E}_{\neg\neg}$ is an [[open subtopos]] is called _$\bot$-scattered_. They play a role in the modeling of [[provability logic]] (cf. [[scattered topos]]).
+\end{remark}
+
+\begin{remark}
+The booleanization $\mathcal{E}_{\neg\neg}$ of a topos $\mathcal{E}$ has a close relative: the [[De Morganization]] $\mathcal{E}_m$.
+\end{remark}
 
 
 ### Definition
@@ -83,58 +92,53 @@ The topology axioms can be formulated in purely equational form, i.e., as equati
 ### Properties
   {#Properties}
 
-+-- {: .num_prop #DoubleNegationSheavesFormBooleanTopos}
-###### Proposition
+Let $\mathcal{E}$ be a(n [[elementary topos|elementary]]) [[topos]].
 
+\begin{definition}
+\label{DoubleNegationSheavesFormBooleanTopos}
 The sheaf topos $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ corresponding to the [double negation topology](#DoubleNegationTopology) (def. \ref{DoubleNegationTopology}) is a [[Boolean topos]].
+\end{definition}
 
-=--
-
-This appears for [[sheaf toposes]] $\mathcal{E}$ as ([MacLane-Moerdijk, theorem VI 3](#MacLaneMoerdijk)), and in the general case ([[elementary toposes]]) as a special case of ([Johnstone, Lemma A4.5.21](#Johnstone)).
+This appears for [[sheaf toposes]] $\mathcal{E}$ as [MacLane & Moerdijk, theorem VI 3](#MacLaneMoerdijk), and in the general case of [[elementary toposes]] as a special case of [Johnstone, Lem. A4.5.21](#Johnstone)).
 
 The following says that $\mathcal{E}_{\not \not}$ is the smallest subtopos $\mathcal{E}_j$ such that $\emptyset$ is a $j$-sheaf. This property looks innocent but when thinking of $\mathcal{E}$ as a generalized (topological) space becomes, as in the case of locales, rather remarkable.
 
-+-- {: .num_prop #smallest_dense_subtopos}
-###### Proposition
+\begin{proposition}
+\label{smallest_dense_subtopos}
 $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is the smallest [[dense subtopos]].
-=--
+\end{proposition}
 
-([Johnstone 2002, below Corollary A4.5.20](#Johnstone), or [Johnstone 1977](#Johnstone77), p.140)
+([Johnstone 2002, below Cor. A4.5.20](#Johnstone), or [Johnstone 1977, p.140](#Johnstone77))
 
-+-- {: .num_prop #smallest_j-dense}
+Another, slightly more general, way to state this is the following (cf. [Blass & Scedrov 1983](#BlassScedrov83), p.19, [Caramello 2012](#Caramello12), p.9):
 
-Another, slightly more general, way to state this is the following (cf. [Blass-Scedrov 1983](#BlassScedrov83), p.19, [Caramello 2012](#Caramello12), p.9):
+\begin{proposition}\label{smallest_j-dense}
+A [[Grothendieck topology|topology]] $j$ satisfies $j\le\neg\neg$, i.e. $j$ is [[dense subtopos|dense]], iff $(\mathcal{E}_j)_{\not\not}=\mathcal{E}_{\not\not}$.
+\end{proposition}
 
-+-- {: .num_prop}
-###### Proposition
-Let $\mathcal{E}$ be a topos. A topology $j$ satisfies $j\le\neg\neg$, i.e. $j$ is [[dense subtopos|dense]], iff $(\mathcal{E}_j)_{\not\not}=\mathcal{E}_{\not\not}$.
-=--
-
-###### Proposition
+\begin{proposition}
 $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is the largest [[Boolean topos|Boolean subtopos]].
-=--
+\end{proposition}
 
 This follows from [Johnstone 2002, Lemma A4.5.21](#Johnstone).
 
-+-- {: .num_prop #largest_boolean}
-
 From these two results, we can deduce the following characterization of the double negation topology.
 
-###### Proposition
+\begin{proposition}\label{largest_boolean}
 $\not\not$ is the unique topology $j$ such that (1) $j$ is [[dense subtopos|dense]], i.e. $j(0)=0$, and (2) the sheaf topos $\mathcal{E}_j$ is [[Boolean topos|Boolean]].
-=--
+\end{proposition}
 
-+-- {: .num_example}
-###### Example
-Consider the [[Sierpinski topos]] $Set^{\to}$ (the [[arrow category]] of Set). It has exactly two dense subtoposes: the topos itself and the double-negation topos whose sheaves are the bijections. It has three Boolean subtoposes: the above, the subcategory on the arrows whose codomain is the terminal object, and the degenerate subtopos consisting of just the identity morphism of the terminal object. Observe that the two non-degenerate Boolean toposes, which complement each other in the [[lattice of subtoposes]], are both equivalent to the topos of sets, which incidentally shows that merely requiring the equivalence $(\mathcal{E}_j)_{\neg\neg}\simeq \mathcal{E}_{\neg\neg}$ in the [above proposition](#negdense) wouldn't do.
-=--
+
+\begin{example}
+\label{ForSierpinskiTopos}
+Consider the [[Sierpinski topos]] $Set^{\to}$ (the [[arrow category]] of Set). It has exactly two dense subtoposes: the topos itself and the double-negation topos whose sheaves are the [[bijections]]. It has three Boolean subtoposes: the above, the subcategory on the arrows whose codomain is the terminal object, and the degenerate subtopos consisting of just the identity morphism of the terminal object. Observe that the two non-degenerate Boolean toposes, which complement each other in the [[lattice of subtoposes]], are both [[equivalence of categories|equivalent]] to the [[Set|topos of sets]], which incidentally shows that merely requiring the equivalence $(\mathcal{E}_j)_{\neg\neg}\simeq \mathcal{E}_{\neg\neg}$ in Prop. \ref{negdense} wouldn't do.
+\end{example}
+
+There are several other characterizations of the double negation topology:
 
 +-- {: .num_prop #Sierpinski}
-
-There are several other characterizations of the double negation topology available.
-
 ###### Proposition
-$\not \not$ is the smallest topology $j$ on $\mathcal{E}$ such that the canonical mono $(\top,\bot):2=1\coprod 1\rightarrowtail\Omega$ is $j$-dense.
+$\not \not$ is the smallest topology $j$ on $\mathcal{E}$ such that the canonical mono $(\top,\bot)\, \colon \; 2 \,=\, 1\coprod 1 \, \rightarrowtail\, \Omega$ is $j$-dense.
 =--
 
 This is theorem 2.4. in [Caramello (2009)](#Caramello09).
@@ -160,7 +164,7 @@ For further discussion of this relation see at [[dense subtopos]].
 
 The double negation topology is closely related to the class of [[skeletal geometric morphism|skeletal geometric morphims]] i.e. $f:\mathcal{F}\to\mathcal {E}$ that restrict to a geometric morphism $\mathcal{F}_{\neg\neg}\to\mathcal{E}_{\neg\neg}$ e.g. skeletal geometric morphisms are the 1-cells in 2-category of toposes in which Boolean toposes are co-reflective (cf. Johnstone (2002, p.1008)).
 
-The next propositions consider the important special case of $\neg\neg$ on [[presheaf topos|presheaf toposes]]:
+The next propositions consider the important special case of $\neg\neg$ on [[presheaf toposes]]:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -197,11 +201,7 @@ Essentially because of prop. \ref{DoubleNegationSheavesSatisfyAxiomOfChoice}, do
 
 =--
 
-###Remarks
 
-* A topos $\mathcal{E}$ such that $\mathcal{E}_{\neg\neg}$ is an [[open subtopos]] is called _$\bot$-scattered_. They play a role in the modeling of [[provability logic]] (cf. [[scattered topos]]).
-
-* The booleanization $\mathcal{E}_{\neg\neg}$ of a topos $\mathcal{E}$ has a close relative: the [[De Morganization]] $\mathcal{E}_m$.
 
 ## In higher topos theory
  {#InHigherToposTheory}
