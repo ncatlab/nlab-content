@@ -47,6 +47,12 @@ Relatedly, in a [[framed bicategory]] loose 1-cells are called 'proarrows' and t
 1. In the double category [[Rel|$\mathbf{\mathbb{R}el}$]] of sets, functions, relations and inclusions, functions are the tight cells and relations are the loose ones
 2. In the double category [[profunctors|$\mathbf{\mathbb{P}rof}$]] of small categories, functors, profunctors and natural transformations, functors are the tight cells and profunctors are the loose ones
 
+## Loose bicategory and tight 2-category
+From a (weak) double category $\mathbb{D}$ we can extract two separate `globular' objects:
+
+1. The **loose bicategory** $L\mathbb{D}$, obtained by ignoring the tight morphisms: its objects are the same as $\mathbb{D}$, its 1-cells are the loose 1-cells of $\mathbb{D}$ and its 2-cells the squares. Horizontal composition and accompanying structure morphisms are inherited from the loose composition structure of $\mathbb{D}$, as well as the coherence laws. Vertical composition of 2-cells is given by tight composition of squares in $\mathbb{D}$, and thus satisfies interchange.
+2. The **tight 2-category** $H\mathbb{D}$, obtained by ignoring the loose arrows: its objects are the same as $\mathbb{D}$, its 1-cells are the tight 1-cells of $\mathbb{D}$, its 2-cells are squares with trivial loose boundaries. Both horizontal and vertical compositions are defined by tightward composition of $\mathbb{D}$, hence are strict.
+
 ## Related concepts
 
 * [[double category]]
