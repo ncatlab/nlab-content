@@ -75,9 +75,10 @@ This is called the **double negation topology**.
 The topology axioms can be formulated in purely equational form, i.e., as equations between operations of the form $\Omega^n \to \Omega$. By the Yoneda lemma, it suffices to verify the corresponding equations between transformations $Hom(-, \Omega)^n \to Hom(-, \Omega)$, which boils the problem down to checking the equations for ordinary Heyting algebras in $Set$. For ordinary Heyting algebras, proofs may be found [here](Heyting+algebra#ToBooleanAlgebras).
 =--
 
-### Example
-
-* {#quiv}In case of $Set^{\rightrightarrows}$, the presheaf topos of directed graphs, the action of $\neg\neg$ as a [[closure operator]] on subgraphs $X\subseteq Y$ amounts to adding to the edge set of $X$ all the edges in $Y$ between vertices that are in $X$. The patient reader will find further details on the $\neg\neg$-topology for this elementary example spelled out at length at [[Quiv]].
++-- {: .num_example}
+###### Example
+{#quiv}In case of $Set^{\rightrightarrows}$, the presheaf topos of directed graphs, the action of $\neg\neg$ as a [[closure operator]] on subgraphs $X\subseteq Y$ amounts to adding to the edge set of $X$ all the edges in $Y$ between vertices that are in $X$. The patient reader will find further details on the $\neg\neg$-topology for this elementary example spelled out at length at [[Quiv]].
+=--
 
 ### Properties
   {#Properties}
@@ -123,8 +124,10 @@ From these two results, we can deduce the following characterization of the doub
 $\not\not$ is the unique topology $j$ such that (1) $j$ is [[dense subtopos|dense]], i.e. $j(0)=0$, and (2) the sheaf topos $\mathcal{E}_j$ is [[Boolean topos|Boolean]].
 =--
 
-##### Example
++-- {: .num_example}
+###### Example
 Consider the [[Sierpinski topos]] $Set^{\to}$ (the [[arrow category]] of Set). It has exactly two dense subtoposes: the topos itself and the double-negation topos whose sheaves are the bijections. It has three Boolean subtoposes: the above, the subcategory on the arrows whose codomain is the terminal object, and the degenerate subtopos consisting of just the identity morphism of the terminal object. Observe that the two non-degenerate Boolean toposes, which complement each other in the [[lattice of subtoposes]], are both equivalent to the topos of sets, which incidentally shows that merely requiring the equivalence $(\mathcal{E}_j)_{\neg\neg}\simeq \mathcal{E}_{\neg\neg}$ in the [above proposition](#negdense) wouldn't do.
+=--
 
 +-- {: .num_prop #Sierpinski}
 
