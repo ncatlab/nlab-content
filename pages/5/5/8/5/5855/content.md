@@ -151,3 +151,5 @@ Extension of scalars coincides with *[[coextension of scalars]]* (to make an [[a
 
 * **extension of scalars** $\dashv$ [[restriction of scalars]] $\dashv$ [[coextension of scalars]]
 
+* [[extension (double category theory)]]
+
