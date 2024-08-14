@@ -87,6 +87,8 @@ There are various other results that are equivalent to the principles of omnisci
 
 * The [[boolean domain]] is the [[initial object|initial]] $\sigma$-frame if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
+* The [[boolean domain]] is $\mathbb{N}$-overt as a [[dominance]] if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
+
 * The [[Cauchy real numbers]] are isomorphic to the [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff $\mathrm{LPO}_\mathbb{N}$ holds. See [Feldman (2010)](#Mehkeri10). 
 
 * The [[analytic LPO]] for the following sets of real numbers are equivalent to the LPO for the [[natural numbers]]: the [[Cauchy real numbers]] $\mathbb{R}_C$, the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]] $\mathbb{R}_E$/$\mathbb{R}_H$, and the subfield of [[Dedekind real numbers]] $\mathbb{R}_\Sigma \subseteq \mathbb{R}_D$ which are constructed out of [[Dedekind cuts]] valued in the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma \subseteq \Omega$. 
