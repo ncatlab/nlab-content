@@ -30,6 +30,21 @@ This is essentially the same as a _[[proarrow equipment]]_ on a [[bicategory]]. 
 
 **Framed bicategories** are also known as **fibrant double categories**, because they may be characterised by the property that $(L, R) : D_1 \to D_0 \times D_0$ is a [[fibration]] (Theorem 4.1 of [Shulman '08](#Shulman08)). They are called **gregarious double categories** in [DPP10](#DawsonParePronk10).
 
+## Definition
+
+This comes directly from [Shulman '08](#Shulman08):
+
+\begin{definition}
+A **framed bicategory** is a double category $\mathbb{D} = \mathbb{D}_0 \xleftarrow{L} \mathbb{D}_1 \xrightarrow{R} \mathbb{D}_0$ satisfying any of the following equivalent conditions:
+
+1. $(L,R): \mathbb{D}_1 \to \mathbb{D}_0 \times \mathbb{D}_0$ is a [[fibration]],
+1. $(L,R): \mathbb{D}_1 \to \mathbb{D}_0 \times \mathbb{D}_0$ is an [[opfibration]]
+1. $\mathbb{D}$ admits all [[companions]] and [[conjoints]]
+1. $\mathbb{D}$ admits all [[restriction (double category theory)|restrictions]]
+1. $\mathbb{D}$ admits all [[extension (double category theory)|extensions]]
+
+\end{definition}
+
 ## See also
 * [[companion pair]]
 * [[conjunction]]
