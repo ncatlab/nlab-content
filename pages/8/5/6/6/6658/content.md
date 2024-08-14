@@ -44,6 +44,14 @@ $p\colon A\to B$ is a descent morphism if and only if $p$ is a [[pullback-stabil
 
 In particular, descent morphisms are closed under [[pullback]] and [[composition]].  Moreover, in a [[regular category]], the descent morphisms are precisely the regular epimorphisms.
 
++-- {: .un_theorem}
+###### Theorem
+A split epimorphism is an effective descent morphism.
+=--
+
+
+See ([JT](#JT), 2.4),
+
 Perhaps more surprising is:
 
 +-- {: .un_theorem}
@@ -51,7 +59,7 @@ Perhaps more surprising is:
 Effective descent morphisms are closed under pullback and composition.
 =--
 
-See ([JT](#JT), 2.4), ([ST](#ST)) (in the case one has coequalisers) and ([RST](#RST)) (under just the assumption of finite limits) for proofs.
+Closure under composition was proved in ([ST](#ST)) under the additional assumption that $C$ has coequalisers, and in the case of just having finite limits, in ([RST](#RST)). Closure under pullback was proved in ([JST](#JST)).
 
 ## General case
 
@@ -118,10 +126,12 @@ See also:
 
 * {#JT} [[George Janelidze|G. Janelidze]], [[Walter Tholen|W. Tholen]]. _How algebraic is the change-of-base functor?._ Category Theory: Proceedings of the International Conference held in Como, Italy, July 22--28, 1990. Springer 1991.
 
-* {#ST} M. Sobral, [[Walter Tholen|W. Tholen]], _Effective descent morphisms and effective equivalence relations_, Category Theory 1991, CMS Conference Proceedings __13__ (1992), 421--433
+* {#ST} [[Manuela Sobral|M. Sobral]], [[Walter Tholen|W. Tholen]], _Effective descent morphisms and effective equivalence relations_, Category Theory 1991, CMS Conference Proceedings __13__ (1992), 421--433
  
 
-* {#RST} J. Reiterman, M. Sobral, [[Walter Tholen|W. Tholen]], _Composites of effective descent maps_, Cahiers __34__ (1993), 193--207, [numdam](http://www.numdam.org/item?id=CTGDC_1993__34_3_193_0)
+* {#RST} J. Reiterman, [[Manuela Sobral|M. Sobral]], [[Walter Tholen|W. Tholen]], _Composites of effective descent maps_, Cahiers __34__ (1993), 193--207, [numdam](http://www.numdam.org/item?id=CTGDC_1993__34_3_193_0)
+
+* {#JST} [[George Janelidze]], [[Manuela Sobral]] and [[Walter Tholen]], _Beyond Barr Exactness: Effective Descent Morphisms_ in:  Categorical Foundations Special Topics in Order, Topology, Algebra, and Sheaf Theory, pp. 359–406 DOI: <https://doi.org/10.1017/CBO9781107340985.011>
 
 
 * {#EDM} [[Maria Manuel Clementino]], [[George Janelidze]], _Another note on effective descent morphisms of topological spaces and relational algebras_. Topology Appl. 273 (2020), 106961. [doi](https://doi.org/10.1016/j.topol.2019.106961).
