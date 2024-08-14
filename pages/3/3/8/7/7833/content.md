@@ -58,3 +58,6 @@ $$
 ## Related concepts
 
 * [[extension of scalars]] $\dashv$ **restriction of scalars** $\dashv$ [[coextension of scalars]]
+
+* [[restriction (double category theory)]]
+
