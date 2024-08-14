@@ -14,7 +14,8 @@
 {: toc}
 
 ## Idea
-Restrictions in a double category abstract the classical operation of [[restriction of scalars]] of bimodules.
+
+The notion of *restrictions* in a [[double category]] abstracts that of the classical operation of [[restriction of scalars]] of [[bimodules]].
 Indeed, they are usually available in [[framed bicategories]], which are formal analogoues to double categories of bimodules; and indeed restrictions in a double category of bimodules correspond to restrictions of scalars.
 
 The dual notion is that of **[[extension (double category theory)|extension]]**.
