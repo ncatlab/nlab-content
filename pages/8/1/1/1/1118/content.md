@@ -25,7 +25,7 @@ Given a non-cartesian [[monoidal category]] one can still make sense of group ob
 
 ## Definition 
 
-### In terms of internal group objects
+### In a cartesian monoidal category
 
 \begin{definition}
 \label{GroupObjectInCartesianCategory}
@@ -125,17 +125,39 @@ The [[pairing]] $(f,g)$ denotes $(f\times g)\circ\Delta$ where $\Delta$ is a [[d
 Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can still speak of a group object $G$ in $\mathcal{C}$, as above.
 \end{remark}
 
-\begin{remark}
-\label{GroupObjectsInGeneralMonoidalCategories}
-**(group objects in general monoidal categories: [[Hopf monoids]])**
-\linebreak
+### In a braided monoidal category
 
 Notice that the use of [[diagonal maps]] (Rem. \ref{UseOfDiagonalMorphism}) in Def. \ref{GroupObjectInCartesianCategory} precludes direct generalization of this definition of group objects to non-[[cartesian monoidal category|cartesian]] [[monoidal categories]], where such maps in general do not exist.
 
-Hence, while the [[underlying]] [[monoid object]] may generally be defined in any [[monoidal category]], the internal formulation of existence of [[inverse elements]] requires [[extra structure]], such as that of a compatible [[comonoid object]]-[[structure]] to substitute for the missing [[diagonal maps]].
+Hence, while the [[underlying]] [[monoid object]] may generally be defined in any [[monoidal category]], the internal formulation of existence of [[inverse elements]] typically uses [[extra structure]], such as that of a compatible [[comonoid object]]-[[structure]] to substitute for the missing [[diagonal maps]].
 
-Given this, inverses may be encoded by an *[[antipode]]* map and the resulting "monoidal group objects" are known as *[[Hopf monoids]]*. These subsume and generalize *[[Hopf algebras]]*, which are widely studied, for instance in their role as [[quantum groups]].
-\end{remark}
+Given this, inverses may be encoded by an *[[antipode]]* map and the resulting "monoidal group objects" are known as *[[Hopf monoids]]*. These subsume and generalize *[[Hopf algebras]]*, which are widely studied, for instance in their role as [[quantum groups]].  
+
+Hopf monoids may be defined in any [[symmetric monoidal category]], or more generally any [[braided monoidal category]], where the braiding is used in stating the fact that the comultiplication is a homomorphism of monoid objects.
+
+### In a monoidal category
+
+A surprising fact reported by Tom Leinster is that in the category of sets, a group is the same as a monoid with the extra property that the associativity square
+
+$$
+\array{
+  G\times G\times G 
+  & \stackrel{id\times m}{\longrightarrow} 
+  & 
+  G\times G
+  \\
+  {}^{
+    \mathllap{
+    m\times id
+    }
+  }
+  \big\downarrow && \big\downarrow m 
+  \\
+  G\times G & \stackrel{m}{\longrightarrow} & G
+}
+$$
+
+is a pullback.   Presumably it is also true that a group object in a cartesian monoidal category is the same as a monoid object in that category where the associativity square is a pullback.  This suggests that we can define a group object in *any* monoidal category to be a monoid object where the associativity square is a pullback.  The category does not need to have all pullbacks for this definition to parse.  However, the usefulness of this generalization remains to be studied.
 
 ### In terms of presheaves of groups
  {#InTermsOfPresheavesOfGroups}
