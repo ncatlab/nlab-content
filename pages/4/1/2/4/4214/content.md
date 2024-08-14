@@ -20,38 +20,31 @@
 
 ## Idea
 
-A **companion pair** in a [[double category]] is a way of saying that a [[horizontal  morphism]] and a [[vertical morphism]] are "[[isomorphism|isomorphic]]", even though they do not live in the same [[1-category]]/[[2-category]].
+A **companion pair** in a [[double category]] is a way of saying that a [[loose arrow]] and a [[tight morphism]] are "[[isomorphism|isomorphic]]", even though they do not live in the same [[1-category]]/[[2-category]].
 
-A **connection pair** in a [[double category]] is a [[strict 2-functor|strictly 2-functorial]] choice of companion pairs for every vertical morphism.
+A **connection pair** in a [[double category]] is a [[strict 2-functor|strictly 2-functorial]] choice of companion pairs for every tight morphism.
 
 ## Definition
 
-Let $f\colon A\to B$ be a [[vertical morphism]] and $f'\colon A\to B$ a [[horizontal morphism]] in a [[double category]].  These are said to be a **companion pair** if they come equipped with [[2-morphisms]] of the form:
-$$
-  \array{ 
-    A & \overset{f'}{\longrightarrow} & B 
-    \\
-    \mathllap{^f}\big\downarrow & \mathllap{^\phi}\swArrow & \big\downarrow\mathrlap{^id} 
-    \\
-    B & \underset{id}{\longrightarrow} & B
-  } 
-  \qquad
-  \qquad 
-  \text{and}
-  \qquad
-  \qquad
-  \array{ 
-    A & \overset{id}{\longrightarrow} & A 
-   \\
-   \mathllap{^id}\big\downarrow & \mathllap{^\psi}\swArrow & \big\downarrow\mathrlap{^f} 
-   \\
-   A & \underset{f'}{\longrightarrow} & B 
-  }
-$$
-such that $\phi \circ_h \psi = id_{f'}$ and $\phi \circ_v \psi = id_{f}$, where $\circ_h$ and $\circ_v$ denote horizontal and vertical composition of 2-cells.
+Let $f\colon A\to B$ be a [[tight morphism]] and $g\colon A \nrightarrow B$ a [[loose arrow]] in a [[double category]].  These are said to be a **companion pair** if they come equipped with [[2-morphisms]] of the form:
+\begin{tikzcd}
+	A & A && A & B \\
+	A & B && B & B
+	\arrow[""{name=0, anchor=center, inner sep=0}, "\shortmid"{marking}, Rightarrow, no head, from=1-1, to=1-2]
+	\arrow[Rightarrow, no head, from=1-1, to=2-1]
+	\arrow["f", from=1-2, to=2-2]
+	\arrow[""{name=1, anchor=center, inner sep=0}, "{g}", "\shortmid"{marking}, from=1-4, to=1-5]
+	\arrow["f"', from=1-4, to=2-4]
+	\arrow[Rightarrow, no head, from=1-5, to=2-5]
+	\arrow[""{name=2, anchor=center, inner sep=0}, "{g}"', "\shortmid"{marking}, from=2-1, to=2-2]
+	\arrow[""{name=3, anchor=center, inner sep=0}, "\shortmid"{marking}, Rightarrow, no head, from=2-4, to=2-5]
+	\arrow["\psi", shorten <=4pt, shorten >=4pt, Rightarrow, from=0, to=2]
+	\arrow["\phi", shorten <=4pt, shorten >=4pt, Rightarrow, from=1, to=3]
+\end{tikzcd}
+such that $\phi \circ_\tau \psi = id_{g}$ and $\phi \circ_\lambda \psi = id_{f}$, where $\circ_\tau$ and $\circ_\lambda$ denote, respectively, loose and tight composition of 2-cells.
 
-Given such a companion pair, we say that $f$ and $f'$ are **companions** of each other.
-
+Given such a companion pair, we say that $f$ and $g$ are **companions** of each other.
+A double category admitting companions to all its tight morphisms is sometimes called a **company**.
 
 ## Examples
 
@@ -66,11 +59,11 @@ In the [[double category of algebras | double category $T$-$\mathbf{Alg}$ of alg
 
 ## Properties
 
-* The horizontal (or vertical) dual of a companion pair is a [[conjunction]].
+* The loose (or tight) dual of a companion pair is a [[conjunction]].
 
 * Companion pairs (and conjunctions) have a [[mate]] correspondence generalizing the calculus of mates in 2-categories.
 
-* If every vertical arrow in some double category $D$ has a companion, then the functor $f\mapsto f'$ is a [[pseudofunctor]] $V D\to H D$ from the vertical 2-category to the horizontal one, which is the identity on objects, and [[locally fully faithful 2-functor|locally fully faithful]] by the mate correspondence.  A choice of companions that make this a strict 2-functor is called a [[connection on a double category|connection]] on $D$ (an arbitrary choice of companions may be called a "pseudo-connection").  A double category with a connection is thereby equivalent to an [[F-category]].  If every vertical arrow also has a [[conjoint]], then this makes $D$ into a [[proarrow equipment]], or equivalently a [[framed bicategory]].
+* If every tight arrow in some double category $D$ has a companion, then the functor $f\mapsto g$ is a [[pseudofunctor]] $T D \to L D$ from the tight 2-category to the loose one, which is the identity on objects, and [[locally fully faithful 2-functor|locally fully faithful]] by the mate correspondence.  A choice of companions that make this a strict 2-functor is called a [[connection on a double category|connection]] on $D$ (an arbitrary choice of companions may be called a "pseudo-connection").  A double category with a connection is thereby equivalent to an [[F-category]].  If every tight arrow also has a [[conjoint]], then this makes $D$ into a [[proarrow equipment]], or equivalently a [[framed bicategory]].
 
 * Companion pairs and mate-pairs of 2-cells between them in any double category $D$ form a 2-category $Comp(D)$.  The functor $Comp\colon DblCat \to 2Cat$ is right adjoint to the functor $Sq\colon 2Cat \to DblCat$ sending a 2-category to its double category of [[quintet construction|squares]].
 
