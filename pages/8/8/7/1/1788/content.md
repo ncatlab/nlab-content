@@ -1,4 +1,6 @@
 
+[[supergeometry of fermion fields -- references]]
+
 $$
   \begin{array}{l}
     \mathrm{dvol}_{\mathbb{R}^{1,2}}
