@@ -32,6 +32,16 @@ For details see at _[[geometry of physics -- supergeometry]]_.
 [[!include geometries of physics -- table]]
 
 
+## References
+
+* [[Urs Schreiber]]: §4.6 in: *[[schreiber:Differential cohomology in a cohesive infinity-topos]]*
+
+* [[Urs Schreiber]]: §3.1 in: [[schreiber:Higher Prequantum Geometry]], chapter in: *[[New Spaces for Mathematics and Physics]]*, Cambridge University Press (2021) \[<a href="https://doi.org/10.1017/9781108854399.008">doi:10.1017/9781108854399.008</a>, [arXiv:1601.05956](http://arxiv.org/abs/1601.05956)\]
+
+* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]], §3.1.3 in: *[[schreiber:Proper Orbifold Cohomology]]* &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
+
+
+
 [[!redirects super smooth sets]]
 
 [[!redirects super formal smooth set]]
@@ -39,3 +49,8 @@ For details see at _[[geometry of physics -- supergeometry]]_.
 
 [[!redirects SuperFormalSmoothSet]]
 [[!redirects SuperFormalSmoothSets]]
+
+[[!redirects smooth super set]]
+[[!redirects smooth super sets]]
+
+
