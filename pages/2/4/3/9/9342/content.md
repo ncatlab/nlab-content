@@ -126,19 +126,29 @@ General introduction:
 
 Monographs:
 
+* [[Yitzhak Frishman]], [[Jacob Sonnenschein]]: *Non-Perturbative Field Theory -- From Two Dimensional Conformal Field Theory to QCD in Four Dimensions*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511770838](https://doi.org/10.1017/CBO9780511770838), summary: [arXiv:1004.4859](https://arxiv.org/abs/1004.4859)&rbrack;.
+open access (2023) &lbrack;[doi:10.1017/9781009401654](https://doi.org/10.1017/9781009401654)&rbrack;
+  > "Relativistic Quantum Field Theory has been very successful in describing strong, electro-magnetic and weak interactions, in the region of small couplings by using perturbative quantum field theory|perturbation theory, within the framework of the Standard Model. 
+  > However, the region of strong coupling, like the hadronic spectrum and various scattering phenomena of hadrons within QCD, is still largely unsolved.
+  > A large variety of methods have been used to address this question, including QCD sum rules, lattice gauge simulations, light cone quantization, low energy effective Lagrangians like the Skyrme model and chiral Lagrangians, large $N$ approximation, techniques of conformal invariance, integrable model approach, supersymmetric models, string theory approach etc. In spite of this major effort the gap between the phenomenology and the basic theory has been only partially bridged, and the problem is still open.
+  > The goals of this book are to provide a detailed description of the tool box of nonperturbative techniques, to apply them on simplified systems, mainly of gauge dynamics
+in two dimensions, and to examine the lessons one can learn from those systems about four dimensional QCD and hadron physics."
+
+and via [[Wightman axioms]]:
+
+* [[Franco Strocchi]], *An Introduction to Non-Perturbative Foundations of Quantum Field Theory*, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
+  > "The perturbative series is [known to diverge](perturbative+quantum+field+theory#ReferencesNonConvergenceOfThePerturbationSeries), and actually, for the prototypic model of self-interacting scalar field ([[phi^4 theory|$\phi^4$-theory]]), on which most of the textbooks are based, the perturbative expansion is misleading, since the theory has been proved to be trivial in $s+1$ dimensions (with $s \geq 3$). Clearly, this makes it difficult to define a QFT through
+its perturbative expansion and raises conceptual problems such as the mathematical consistency of such an expansion.
+  > As a matter of fact, after more than fifty years of QFT we are still in the embarrassing situation of not knowing a single non-trivial (even non-realistic) model of QFT in 3+1 dimensions, allowing a non-perturbative control."
+
+Collections:
+
 * [[Gerard ’t Hooft]], [[Arthur Jaffe]], [[Gerhard Mack]], [[P. K. Mitter]], [[Raymond Stora]] (eds.) *Nonperturbative Quantum Field Theory*,  NATO Science Series B **185** (1988) &lbrack;[doi:10.1007/978-1-4613-0729-7](https://doi.org/10.1007/978-1-4613-0729-7)&rbrack;
 
 * {#Froehlich92} [[Jürg Fröhlich]], _Non-perturbative quantum field theory -- Mathematical Aspects and Applications_, Advanced Series in Mathematical Physics, World Scientific (1992) &lbrack;[doi:10.1142/1245](https://doi.org/10.1142/1245)&rbrack;
 
-* [[Yitzhak Frishman]], [[Jacob Sonnenschein]], *Non-Perturbative Field Theory -- From Two Dimensional Conformal Field Theory to QCD in Four Dimensions*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511770838](https://doi.org/10.1017/CBO9780511770838), summary: [arXiv:1004.4859](https://arxiv.org/abs/1004.4859)&rbrack;.
-open access (2023) &lbrack;[doi:10.1017/9781009401654](https://doi.org/10.1017/9781009401654)&rbrack;
 
-* [[Franco Strocchi]], *An Introduction to Non-Perturbative Foundations of Quantum Field Theory*, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
-
-  > ([[AQFT]] perspective)
-
-
-Outlook from the point of view of [[causal perturbation theory]]/[[locally covariant perturbative quantum field theory]] is in
+Outlook from the point of view of [[causal perturbation theory]]/[[locally covariant perturbative quantum field theory]]:
 
 * {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of: _Quantum fields in curved spacetime_, Physics Reports **574** (2015) 1-35 &lbrack;[arXiv:1401.2026](https://arxiv.org/abs/1401.2026), [doi:10.1016/j.physrep.2015.02.001](https://doi.org/10.1016/j.physrep.2015.02.001)&rbrack;
 
