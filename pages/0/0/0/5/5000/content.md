@@ -20,8 +20,12 @@ We should limit to books which we can really recommend, either by their special 
 * [[Robin Hartshorne]], _Algebraic geometry_, Springer
 * Qing Liu, _Algebraic geometry and arithmetic curves_, 592 pp. Oxford Univ. Press 2002 
 * D. Eisenbud, J. Harris, _The geometry of schemes_, Springer Grad. Texts in Math.
-* [[David Mumford]], _Red book of varieties and schemes_ (cf. also unfinished sequel notes for the later part of Mumford's course, coauthored with Oda, [ch. 1-6 pdf](http://www.math.upenn.edu/~chai/624_08/mumford-oda_chap1-6.pdf), [ch. 7-8 pdf](http://www.math.upenn.edu/~chai/624_08/mumford-oda_chap7-8.pdf))
-* Amnon Neeman, _Algebraic and analytic geometry_, London Math. Soc. Lec. Note Series __345__ 
+
+* [[David Mumford]]: *Red book of varieties and schemes*, Lecture Notes in Mathematics **1358**, Springer (1988, 1999) &lbrack;[doi:10.1007/b62130](https://doi.org/10.1007/b62130)&rbrack;
+  > (cf. also unfinished sequel notes for the later part of Mumford's course, coauthored with Oda, [ch. 1-6 pdf](http://www.math.upenn.edu/~chai/624_08/mumford-oda_chap1-6.pdf), [ch. 7-8 pdf](http://www.math.upenn.edu/~chai/624_08/mumford-oda_chap7-8.pdf))
+
+* [[Amnon Neeman]], _Algebraic and analytic geometry_, London Math. Soc. Lec. Note Series __345__ 
+
 * M. Demazure, P. Gabriel, _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970 
 * Ravi Vakil's Stanford [course notes](http://math.stanford.edu/~vakil/0708-216)
 * William Fulton, _Intersection theory_, Springer 1984
