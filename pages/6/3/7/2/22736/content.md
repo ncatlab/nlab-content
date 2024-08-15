@@ -50,6 +50,7 @@ See also
 
 * Umang Mehta, *Postmodern Fermi Liquids* &lbrack;[arXiv:2307.02536](https://arxiv.org/abs/2307.02536)&rbrack;
 
+[[!redirects Landau's Fermi liquid model]]
 
 [[!redirects Fermi liquid theory]]
 
