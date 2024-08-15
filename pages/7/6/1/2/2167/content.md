@@ -39,6 +39,29 @@ But this absolute value is degenerate, in that ${|z|} = 0$ need not imply that $
 
 Some concepts in analysis can be extended from $\mathbb{R}$ to $\mathbb{D}$, but not as many as work for the [[complex numbers]].  Even algebraically, the dual numbers are not as nice as the real or complex numbers, as they do not form a [[field]].
 
+## References
+
+The original articles:
+
+* [[William Clifford]]: pp. 385 in: *Preliminary Sketch of Biquaternions*, Proceedings of the London Mathematical Society (1871) &lbrack;[doi:10.1112/plms/s1-4.1.381](https://doi.org/10.1112/plms/s1-4.1.381)&rbrack;
+
+* Josef Grünwald: *Über duale Zahlen und ihre Anwendung in der Geometrie*,  Monatsh. f. Mathematik und Physik **17** (1906) 81–136 &lbrack;[doi:10.1007/BF01697639](https://doi.org/10.1007/BF01697639)&rbrack;
+  > (relating to [[projective geometry]])
+
+In monographs on [[algebraic geometry]] or [[synthetic differential geometry]]:
+
+*  {#Kock81} [[Anders Kock]], p xi & 4 in: _Synthetic Differential Geometry_, Cambridge University Press (1981, 2006) &lbrack;[pdf](https://users-math.au.dk/kock/sdg99.pdf), [doi:10.1017/CBO9780511550812](https://doi.org/10.1017/CBO9780511550812)&rbrack;
+
+* [[David Mumford]], pp. 218 of: *Red book of varieties and schemes*, Lecture Notes in Mathematics **1358**, Springer (1988, 1999) &lbrack;[doi:10.1007/b62130](https://doi.org/10.1007/b62130)&rbrack;
+  > (not using the term "dual numbers")
+
+
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], p. 19 of: _[[Models for Smooth Infinitesimal Analysis]]_ (1991) &lbrack;[doi:10.1007/978-1-4757-4143-8](https://doi.org/10.1007/978-1-4757-4143-8)&rbrack;
+
+See also: 
+
+* Wikipedia, *[Dual number](https://en.wikipedia.org/wiki/Dual_number)*
+
 
 [[!redirects parabolic complex number]]
 [[!redirects parabolic complex numbers]]
