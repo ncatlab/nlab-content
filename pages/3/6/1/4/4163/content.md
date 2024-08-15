@@ -17,6 +17,8 @@
 
 ## Idea
 
+> "God does not do perturbation theory, perturbation theory is what we do because we don’t know any better." &lbrack;[[Duff interview at M-Theory-Mathematics 2020|Duff 2020]]&rbrack;
+
 What is called _perturbative quantum field theory_ (pQFT) is [[quantum field theory]] where the [[interaction]] (between [[field (physics)|fields]]/[[particles]]) is treated as a tiny [[perturbation]] of the "[[free field theory]]" where no [[interaction]] is assumed to take place ("[[perturbation theory]]"). This is meant to be an approximation to the actual _[[non-perturbative quantum field theory]]_. However, the latter remains elusive except for toy examples of low spacetime dimension, vanishing [[interaction]] and/or [[topological field theory|topological invariance]] and most of the "quantum field theory" in the literature is tacitly understood to be perturbative.
 
 {#pQFTAsInfinitesimalThickenedPoint} Hence pQFT studies the _[[infinitesimal neighbourhood]]_ (also called the _[[formal neighbourhood]]_) of [[free quantum field theories|free]] [[classical field theories]] in the parameter space of all quantum field theories, the rest of the space being the realm of [[non-perturbative QFT]]:
