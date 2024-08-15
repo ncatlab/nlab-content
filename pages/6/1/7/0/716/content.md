@@ -103,7 +103,7 @@ A compact closed [[discrete category]] is just an [[abelian group]].
 \end{example}
 
 \begin{example}
-The [[delooping]] $\mathbf{B}M$ of a [[commutative monoid]] $M$ is a compact closed category, and conversely, any compact closed category (or more generally, any [[closed monoidal category]]) with a single object must be isomorphic to the delooping of some commutative monoid.
+The [[delooping]] $\mathbf{B}M$ of a [[commutative monoid]] $M$ is a category with one object $I$ and $hom(I,I) = M$.  $\mathbf{B}M$ naturally becomes monoidal with multiplication in $M$ as both composition and tensoring of morphisms, by the [[Eckmann-Hilton argument]], and it becomes [[symmetric monoidal]] with the identity as the symmetry.  This symmetric monoidal category is compact closed with $I^* = I$ and the identity as unit and counit.  Conversely, any monoidal category with a single object must be isomorphic to the delooping of some commutative monoid, so any monoidal category with one object is compact closed.
 \end{example}
 
 ## Related concepts
