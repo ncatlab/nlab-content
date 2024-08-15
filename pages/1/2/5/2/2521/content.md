@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -65,6 +66,8 @@ $\,$
 ## References
  {#References}
 
+### General
+
 Historically influential general considerations:
 
 * [[Yuri Manin]], _[[New Dimensions in Geometry]]_, in: *Arbeitstagung Bonn 1984*, Lecture Notes in Mathematics **1111**, Springer (1985) 59–101 &lbrack;[doi:10.1007/BFb0084585](https://doi.org/10.1007/BFb0084585), [pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0084581/chapter04.pdf)&rbrack;
@@ -90,7 +93,7 @@ Introductory lecture notes:
 
 Discussion via [[functorial geometry]]:
 
-* [[Thomas Schmitt]], *Supergeometry and Quantum Field Theory, or: What is a Classical Configuration?*, Rev. Math. Phys. **9** (1997) 993-1052 &lbrack;[arXiv:hep-th/9607132](https://arxiv.org/abs/hep-th/9607132), [doi;10.1142/S0129055X97000348](https://doi.org/10.1142/S0129055X97000348)&rbrack;
+* [Schmitt 1997](#Schmitt97)
 
 * [[Claudio Carmeli]], [[Lauren Caston]], [[Rita Fioresi]]: *Mathematical foundations of supersymmetry*, EMS Series of Lectures in Mathematics, EMS (2011) &lbrack;[ems:elm/97](https://ems.press/books/elm/97), [doi:10.4171/097](https://doi.org/10.4171/097), [epdf](https://epdf.tips/mathematical-foundations-of-supersymmetry.html), short draft: [arXiv:0710.5742](https://arxiv.org/abs/0710.5742)&rbrack;
 
@@ -162,34 +165,49 @@ Discussion related to [[G-structure]] and [[Killing spinors]] includes
 * [[Dmitri Alekseevsky]], [[Vicente Cortés]], [[Chandrashekar Devchand]], [[Uwe Semmelmann]], _Killing spinors are Killing vector fields in Riemannian Supergeometry_ ([arXiv:dg-ga/9704002](http://arxiv.org/abs/dg-ga/9704002))
 
 
-Discussion of [[classical field theory]] with [[fermions]] as taking place on supermanifolds is in the following references
+Generalization of [[Artin's representability theorem]] to supergeometry:
+
+* Nadia Ott, *Artin's theorems in supergeometry* ([arXiv:2110.12816](https://arxiv.org/abs/2110.12816))
+
+
+### Supergeometry of fermion fields
+ {#ReferencesSupergeometryOfFermionFields}
+
+Discussion of [[classical field theory]] with [[fermions]] as taking place in [[supergeometry]]:
+
+via infinite-dimensional [[supermanifolds]]:
+
+* [[Thomas Schmitt]]: *The Cauchy Problem for Classical Field Equations with Ghost and Fermion Fields* \[<a href="https://arxiv.org/abs/hep-th/9607133">arXiv:hep-th/9607133</a>\]
+
+* {#Schmitt97} [[Thomas Schmitt]]: *Supergeometry and Quantum Field Theory, or: What is a Classical Configuration?*, Rev. Math. Phys. **9** (1997) 993-1052 \[<a href="https://doi.org/10.1142/S0129055X97000348">doi:10.1142/S0129055X97000348</a>, [arXiv:hep-th/9607132](https://arxiv.org/abs/hep-th/9607132)\].
+
+* [[Thomas Schmitt]]: *Supermanifolds of classical solutions for Lagrangian field models with ghost and fermion fields*, Sfb 288 Preprint No. 270 &lbrack;[arXiv:hep-th/9707104](https://arxiv.org/abs/hep-th/9707104), [inspire:445574](https://inspirehep.net/literature/445574)&rbrack;
 
 * {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], _Classical field theory_ (1999) ([pdf](https://publications.ias.edu/sites/default/files/79_ClassicalFieldTheory.pdf))
 
   this is a chapter in
 
-  [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+  [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], [[Lisa Jeffrey|L. Jeffrey]], [[David Kazhdan|D. Kazhdan]], [[John Morgan|J. Morgan]], [[David R. Morrison|D. R. Morrison]], [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. (1999) &lbrack;[ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s)[web version](http://www.math.ias.edu/qft)&rbrack;
 
+* {#Freed01} [[Daniel Freed]], _Classical field theory and Supersymmetry_, IAS/Park City Mathematics Series Volume 11 (2001) \[<a href="https://www.ma.utexas.edu/users/dafr/pcmi.pdf">pdf</a>\]
 
-* {#Freed01} [[Daniel Freed]], _Classical field theory and Supersymmetry_, IAS/Park City Mathematics Series Volume 11 (2001) ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
+* {#GiachettaMangiarottiSardanashvily09} Giovanni Giachetta, Luigi Mangiarotti, [[Gennadi Sardanashvily]], chapter 3 of: *Advanced classical field theory*, World Scientific (2009) \[<a href="https://doi.org/10.1142/7189">doi:10.1142/7189</a>\]
 
-* {#GiachettaMangiarottiSardanashvily09} Giovanni Giachetta, Luigi Mangiarotti, [[Gennadi Sardanashvily]], chapter 3 of _Advanced classical field theory_, World Scientific (2009)
-
-* {#Sardanashvily12} [[Gennadi Sardanashvily]], _Grassmann-graded Lagrangian theory of even and odd variables_ ([arXiv:1206.2508](https://arxiv.org/abs/1206.2508))
+* {#Sardanashvily12} [[Gennadi Sardanashvily]], *Grassmann-graded Lagrangian theory of even and odd variables*, \[<a href="https://arxiv.org/abs/1206.2508">arXiv:1206.2508</a>\]
 
 * {#Sardanashvily16} [[Gennadi Sardanashvily]], _Noether's Theorems: Applications in Mechanics and Field Theory_, Studies in Variational Geometry, 2016
+
+* Viola Gattus, Apostolos Pilaftsis, *Supergeometric Approach to Quantum Field Theory* &lbrack;[arXiv:2404.13107](https://arxiv.org/abs/2404.13107)&rbrack;
+
+and more generally via [[smooth super sets]]:
+
+* [[Urs Schreiber]]: §3.1 in: [[schreiber:Higher Prequantum Geometry]], chapter in: *[[New Spaces for Mathematics and Physics]]*, Cambridge University Press (2021) \[<a href="https://doi.org/10.1017/9781108854399.008">doi:10.1017/9781108854399.008</a>, [arXiv:1601.05956](http://arxiv.org/abs/1601.05956)\]
+
 
 Discussion on the context of [[superstring|super-]] [[string theory]] (especially regarding [[super Riemann surfaces]]):
 
 * {#DHokerPhong05} [[Eric D'Hoker]], [[Duong Phong]], _Complex geometry and supergeometry_, Current Developments in Mathematics 2005 (2007): 1-40 ([euclid:1223654523](https://projecteuclid.org/euclid.cdm/1223654523))
 
-Generalization of [[Artin's representability theorem]] to supergeometry:
-
-* Nadia Ott, *Artin's theorems in supergeometry* ([arXiv:2110.12816](https://arxiv.org/abs/2110.12816))
-
-On supergeometry in [[field theory]] with [[fermions]]:
-
-* Viola Gattus, Apostolos Pilaftsis, *Supergeometric Approach to Quantum Field Theory* &lbrack;[arXiv:2404.13107](https://arxiv.org/abs/2404.13107)&rbrack;
 
 
 
