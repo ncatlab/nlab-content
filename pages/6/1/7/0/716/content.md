@@ -23,9 +23,9 @@ A compact closed category is a special case of the notion of [[compact closed ps
 
 ## Properties
 
-### Internal hom and compact closure
+### Relation to symmetric monoidal closed categories
 
-A rigid symmetric monoidal category $(\mathcal{C}, \otimes)$ is in particular a [[closed monoidal category]], with the [[internal hom]] given by 
+A compact closed category $(\mathcal{C}, \otimes)$ becomes a [[closed symmetric monoidal category]] if we give it the [[internal hom]] defined by
 
 $$
   [A,B] 
@@ -33,7 +33,7 @@ $$
   B \otimes A^*
 $$ 
 
-(where $A^*$ is the [[dual object]] of $A$), via the [[adjunction]] [[natural equivalence]] that defines [[dual objects]]
+where $A^*$ is the [[dual object]] of $A$.  To see this, we use the [[adjunction]] that defines [[dual objects]]:
 
 $$
   \mathcal{C}\big(C,[A,B]\big)
@@ -51,6 +51,12 @@ The inclusion from the category of compact closed categories into the category o
 $$ \sigma : [A,B] \otimes C \to [A, B \otimes C] $$
 
 corresponding to the [[tensorial strength]] of the functors $[A,-] : \mathcal{S} \to \mathcal{S}$.
+
+\begin{remark}\label{TensorAdjunctabilityDoesNotImplyCompactClosure} **(Tensor-adjunctability does not imply compact closure)**
+\linebreak
+ 
+As noted above, every compact closed category $(\mathcal{C}, \otimes)$ is symmetric monoidal closed.  Moreover this symmetric monoidal closed category has an additional property: for each object $A \in \mathcal{C}$ there is an object $\widehat{A} \in \mathcal{C}$ such that the functor $\widehat{A} \otimes - : \mathcal{C} \to \mathcal{C}$ is right adjoint to $A \otimes - : \mathcal{C} \to \mathcal{C}$.   (Simply take $\widehat{A} = A^*$.)   However, not every symmetric monoidal closed category with this additional property is compact closed.  A [[counterexample]] is indicated by [[Noah Snyder]] in [math.SE:a/692318](https://math.stackexchange.com/a/692318/58526), referring to Exp. 2.20 in [arXiv:1406.4204](https://arxiv.org/abs/1406.4204).   See also [this n-Caf&eacute; discussion](https://golem.ph.utexas.edu/category/2008/02/logicians_needed_now.html#c018187).
+\end{remark}
 
 ### Relation to traced monoidal categories
  {#RelationToTracedMonoidalCategories}
