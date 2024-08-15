@@ -102,6 +102,9 @@ See also
 
 * Mikhail Pavlov, *Global torus blocks in the necklace channel* &lbrack;[arXiv:2302.10153](https://arxiv.org/abs/2302.10153)&rbrack;
 
+* Vladimir Belavin, Juan Ramos Cabezas, Boris Runov: *Shadow formalism for supersymmetric conformal blocks* &lbrack;[arXiv:2408.07684](https://arxiv.org/abs/2408.07684)&rbrack;
+
+
 
 Conformal blocks for [[self-dual higher gauge theory]]:
 
