@@ -363,10 +363,6 @@ The site of formal duals not just to [[Grassmann algebras]] but to all super-[[i
 
 ### Other
 
-Discussion with an eye towards [[supergravity]]:
-
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2.4 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], chII.2: [[CastellaniDAuriaFre-ChII2.pdf:file]]&rbrack;
-
 
 Discussion with an eye towards [[integration over supermanifolds]]:
 
@@ -386,9 +382,18 @@ See also:
 
 * [[Alberto S. Cattaneo]], [[Florian Schaetz]], _Introduction to supergeometry_ &lbrack;[arxiv/1011.3401](http://arxiv.org/abs/1011.3401)&rbrack;
 
-There are many books in [[physics]] on [[supersymmetry]] (most well known is by Wess and Barger from 1992), but they emphasise more on the [[supersymmetry algebra|supersymmetries]] rather than on (the superspace and) _supermanifolds_. They should therefore rather be listed under entry [[supersymmetry]].  
+There are many books in [[physics]] on [[supersymmetry]] (most well known is by Wess and Barger from 1992), but they emphasise more on the [[supersymmetry algebra|supersymmetries]] rather than on (the superspace and) _supermanifolds_. They should therefore rather be listed under *[[supersymmetry]]*.  
 
 See also [pdf](http://www.math.uni-hamburg.de/home/sachse/handoutbatchelor.pdf)
+
+
+
+
+[[!include supergeometry of fermion fields -- references]]
+
+
+
+
 
 [[!redirects supermanifolds]]
 
