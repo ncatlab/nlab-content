@@ -392,12 +392,15 @@ A comprehensive exposition of both the Lagrangian and the Hamiltonian version of
 The Western Ontario Series in Philosophy of Science Volume 72, 2006, pp 43-100(2006) ([[ButterfieldNoether.pdf:file]])
  
 
-Textbook accounts include
+Monographs:
 
 * [[Yvette Kosmann-Schwarzbach]], _Les th&#233;or&#232;mes de Noether:
 invariance et lois de conservation au XXe si&#232;cle : avec une traduction de l'article original, "Invariante Variationsprobleme"_, Editions Ecole Polytechnique, 2004 ([pdf](http://www.math.cornell.edu/~templier/junior/The-Noether-theorems.pdf))
 
 * {#VinogradovKrasilshchik99} [[Alexandre Vinogradov]], I. S. Krasilshchik (eds.) _Symmetries and Conservation Laws for Differential Equations of Mathematical Physics_, vol. 182 of Translations of Mathematical Monographs. American Mathematical Society, Providence, RI, 1999. ([pdf](ftp://softbank.iust.ac.ir/MathBooks/V/Vinogradov%20-%20Symmetries%20and%20Conservation%20Laws%20for%20Differential%20equations%20of%20mathematical%20physics.pdf))
+
+* {#Sardanashvily16} [[Gennadi Sardanashvily]], _Noether's Theorems: Applications in Mechanics and Field Theory_, Studies in Variational Geometry (2016) \[<a href="https://doi.org/10.2991/978-94-6239-171-0">doi:10.2991/978-94-6239-171-0</a>\]
+
 
 For 1-parameter groups of symmetries in classical mechanics, the formulation and the proof of [[Noether's theorem]] can be found in the monograph 
 
