@@ -317,7 +317,7 @@ $$
 \linebreak
 Prop. \ref{RelationToAdjunctableTensorProducts} does *not* claim that for $A$ to be dualizable it is sufficient that $(\text{-}) \otimes A$ has a [[right adjoint]].
 
-A [[counterexample]] is indicated by [[Noah Snyder]] in [math.SE:a/692318](https://math.stackexchange.com/a/692318/58526), referring to Exp. 2.20 in [arXiv:1406.4204](https://arxiv.org/abs/1406.4204).
+A [[counterexample]] is indicated by [[Noah Snyder]] in [math.SE:a/692318](https://math.stackexchange.com/a/692318/58526), referring to Exp. 2.20 in [arXiv:1406.4204](https://arxiv.org/abs/1406.4204).   See also [this n-Caf&eacute; discussion](https://golem.ph.utexas.edu/category/2008/02/logicians_needed_now.html#c018187).
 \end{remark}
 
 
