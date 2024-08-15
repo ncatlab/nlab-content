@@ -183,6 +183,13 @@ Classification of strongly rational holomorphic vertex operator algebras of [[ce
 
 * [[Gerald Höhn]], [[Sven Möller]], *Classification of self-dual vertex operator superalgebras of central charge at most 24* &lbrack;[arXiv:2303.17190](https://arxiv.org/abs/2303.17190)&rbrack;
 
+On equivalence of VOAs:
+
+* Sven Möller, Brandon C. Rayhaun: *Equivalence Relations on Vertex Operator Algebras, I: Genus* &lbrack;[arXiv:2408.07117](https://arxiv.org/abs/2408.07117)&rbrack;
+
+
+
+
 
 ### As algebras over the holomorphic sphere operad
  {#AsOperadAlgebras}
