@@ -229,6 +229,12 @@ Introduction to [[QFT]] via Wightman axioms and [[AQFT]]:
 
 * [[Franco Strocchi]], _Relativistic Quantum Mechanics and Field Theory_, Found. Phys. **34** (2004) 501-527 &lbrack;[arXiv:hep-th/0401143](http://arxiv.org/abs/hep-th/0401143)&rbrack;
 
+and with emphasis on its role in [[non-perturbative quantum field theory]]:
+
+* [[Franco Strocchi]], Section 3 of: *An Introduction to Non-Perturbative Foundations of Quantum Field Theory*, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
+
+
+
 
 The list of examples above draws from:
 
