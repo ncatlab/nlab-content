@@ -71,10 +71,12 @@ Basic property of Ore localization is flatness: $S^{-1}R$ is a flat $R$-bimodule
 
 * [[Gabriel localization]]
 
+* [[calculus of fractions]]
+
 ## References
 
-* K. R. Goodearl, Robert B. Warfield, _An introduction to noncommutative Noetherian rings_, London Math. Soc. Student Texts __16__ (1st ed,), 1989, xviii+303 pp.; or __61__ (2nd ed.), 2004, xxiv+344 pp.
+* [[K. R. Goodearl]], Robert B. Warfield, _An introduction to noncommutative Noetherian rings_, London Math. Soc. Student Texts __16__ (1st ed,), 1989, xviii+303 pp.; or __61__ (2nd ed.), 2004, xxiv+344 pp.
 
-* [[Zoran Škoda]], _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276).
+* [[Zoran Škoda]], _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, [math.QA/0403276](https://arxiv.org/abs/math.QA/0403276).
 
 [[!redirects Ore localizations]]
