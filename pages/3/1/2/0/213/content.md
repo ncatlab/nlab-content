@@ -63,7 +63,7 @@ Write
 
 * [[CartSp]]${}_{top}$ for the category whose [[object]]s are Cartesian spaces and whose [[morphism]]s are all [[continuous maps]] between these.
 
-* [[CartSp]]${}_{smooth}$ for the category whose [[object]]s are Cartesian spaces and whose [[morphism]]s are all [[smooth f# Refefunctions]] between these.
+* [[CartSp]]${}_{smooth}$ for the category whose [[objects]] are Cartesian spaces and whose [[morphisms]] are all [[smooth functions]] between these.
 
 * [[CartSp]]${}_{synthdiff}$ for the [[full subcategory]] of the category of [[smooth loci]] on those of the form $\mathbb{R}^n \times D$ for $D$ an [[infinitesimal space]] (the formal dual of a Weil algebra).
 
