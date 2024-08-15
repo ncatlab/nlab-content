@@ -287,13 +287,14 @@ Unwinding the definition of this [[coend]] as a [[coequalizer]] yields the above
 
 * [[Dubuc topos]]
 
+
 ## References
 
 The Cahiers topos was introduced in 
 
 * {#Dubuc79} [[Eduardo Dubuc]], *Sur les modèles de la géométrie différentielle synthétique*, [[Cahiers|Cahiers de Topologie et Géométrie Différentielle Catégoriques]] **20**  3 (1979) 231-279  &lbrack;[numdam:CTGDC_1979__20_3_231_0](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)&rbrack; 
 
-and got its name from this journal publication. The definition appears in theorem 4.10 there, which asserts that it is a well-adapted model for [[synthetic differential geometry]].
+and got its name from this journal publication. The definition appears in §4.1 & Thm. 4.10 there, the latter asserting that this topos is a "well-adapted model" for [[synthetic differential geometry]].
 
 A review discussion is in of
 
