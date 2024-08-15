@@ -6,8 +6,6 @@ Discussion of [[classical field theory]] with [[fermions]] (possibly but not nec
 
 via ([[infinite-dimensional manifold|infinite-dimensional]]) [[supermanifolds]]:
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2.4 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) \[<a href="https://doi.org/10.1142/0224">doi:10.1142/0224</a>, toc: [[CDF91-TOC.pdf:file]], chII.2: [[CastellaniDAuriaFre-ChII2.pdf:file]]\]
-
 * [[Thomas Schmitt]]: *The Cauchy Problem for Classical Field Equations with Ghost and Fermion Fields* \[<a href="https://arxiv.org/abs/hep-th/9607133">arXiv:hep-th/9607133</a>\]
 
 * {#Schmitt97} [[Thomas Schmitt]]: *Supergeometry and Quantum Field Theory, or: What is a Classical Configuration?*, Rev. Math. Phys. **9** (1997) 993-1052 \[<a href="https://doi.org/10.1142/S0129055X97000348">doi:10.1142/S0129055X97000348</a>, [arXiv:hep-th/9607132](https://arxiv.org/abs/hep-th/9607132)\].
@@ -31,6 +29,8 @@ and more generally via [[smooth super sets]]:
 
 
 Discussion with focus on [[supersymmetry]]:
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2.4 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) \[<a href="https://doi.org/10.1142/0224">doi:10.1142/0224</a>, toc: [[CDF91-TOC.pdf:file]], chII.2: [[CastellaniDAuriaFre-ChII2.pdf:file]]\]
 
 * [[Pierre Deligne]], [[Daniel Freed]]: *Supersolutions*, in: _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence (1999) 357-366 \[<a href="http://arxiv.org/abs/hep-th/9901094">arXiv:hep-th/9901094</a>, [ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s), [web version](http://www.math.ias.edu/qft)\]
 
