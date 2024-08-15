@@ -1090,7 +1090,7 @@ More mathematical accounts:
 
 * [[Yuri Manin]], Chapter 5 in: *[[Gauge Field Theory and Complex Geometry]]*, Grundlehren der Mathematischen Wissenschaften **289**, Springer (1988) &lbrack;[doi:10.1007/978-3-662-07386-5](https://doi.org/10.1007/978-3-662-07386-5)&rbrack;
 
-* {#Freed99} [[Daniel Freed]], _[[Five lectures on supersymmetry]]_, AMS (1999)
+* {#Freed99} [[Daniel Freed]], *[[Five lectures on supersymmetry]]*, AMS (1999) \[<a href="https://bookstore.ams.org/FLS">ISBN:978-0-8218-1953-1</a>, [spire:517862](https://inspirehep.net/literature/517862)\]
 
 * {#Varadarajan04} [[Veeravalli Varadarajan]], *[[Supersymmetry for mathematicians]]: An introduction*, Courant lecture notes in mathematics, American Mathematical Society Providence (2004) &lbrack;[doi:10.1090/cln/011](http://dx.doi.org/10.1090/cln/011)&rbrack;
 
