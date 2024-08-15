@@ -320,10 +320,12 @@ This shows that the derivation $D$ comes, in the chart $\phi_i$, from the vector
 
 ## References
 
-* [[W. F. Newns]], [[A. G. Walker]],  _Tangent Planes To a Differentiable Manifold_.  Journal of the London Mathematical Society s1-31:4 (1956), 400–407 ([doi:10.1112/jlms/s1-31.4.400](https://doi.org/10.1112/jlms/s1-31.4.400))
+* [[W. F. Newns]], [[A. G. Walker]],  _Tangent Planes To a Differentiable Manifold_, Journal of the London Mathematical Society s1-31:4 (1956) 400–407 &lbrack;[doi:10.1112/jlms/s1-31.4.400](https://doi.org/10.1112/jlms/s1-31.4.400)&rbrack;
 
 See also
 
-* theorem 3.7 in [this pdf](http://www.math.toronto.edu/mgualt/MAT1300/week9.pdf)
+* Thm. 3.7 in [this pdf](http://www.math.toronto.edu/mgualt/MAT1300/week9.pdf)
+
+* Thm. 4.15 in [this pdf](https://www.math.toronto.edu/mgualt/courses/17-1300/docs/17-1300-notes-12.pdf)
  
 [[!redirects vector fields as derivations]]
