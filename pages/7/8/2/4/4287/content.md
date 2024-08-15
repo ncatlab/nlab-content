@@ -53,9 +53,9 @@ On classification of possible long-range [[forces]], hence of [[scattering]] pro
 
 On [[quantum field theory]]:
 
-* {#Weinberg95} [[Steven Weinberg]] *The Quantum Theory of Fields Vol 1: Foundations*, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9781139644167](https://doi.org/10.1017/CBO9781139644167)&rbrack;
+* {#Weinberg95} [[Steven Weinberg]], *The Quantum Theory of Fields Vol 1: Foundations*, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9781139644167](https://doi.org/10.1017/CBO9781139644167)&rbrack;
 
-* {#Weinberg96} [[Steven Weinberg]] *The Quantum Theory of Fields Vol 2: Applications*, Cambridge University Press (1996) &lbrack;[doi:10.1017/CBO9781139644174](https://doi.org/10.1017/CBO9781139644174)&rbrack;
+* {#Weinberg96} [[Steven Weinberg]], *The Quantum Theory of Fields Vol 2: Applications*, Cambridge University Press (1996) &lbrack;[doi:10.1017/CBO9781139644174](https://doi.org/10.1017/CBO9781139644174)&rbrack;
 
 
 On [[supersymmetry]]:
