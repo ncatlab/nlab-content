@@ -43,8 +43,8 @@ When it was realized that fundamental physics is governed by [[quantum field the
 Textbook accounts:
 
 * [[Clifford Truesdell]], [[Richard A. Toupin]], *The Classical Field Theories*, in: *Principles of Classical Mechanics and Field Theory*, Encyclopedia of Physics, volume III/1, Springer (1960) 226-858 &lbrack;[doi:10.1007/978-3-642-45943-6_2](https://doi.org/10.1007/978-3-642-45943-6_2)&rbrack;
-    
 
+* S. Fl&#252;gge (ed.), _Encyclopedia of Physics_ Volume III/I, _Principles of Classical Mechanics and Field Theory_, Springer 1960    
 
 * {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], _Classical field theory_ (1999) ([pdf](https://publications.ias.edu/sites/default/files/79_ClassicalFieldTheory.pdf))
 
@@ -52,10 +52,8 @@ Textbook accounts:
 
   [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
+* {#GiachettaMangiarottiSardanashvily09} Giovanni Giachetta, Luigi Mangiarotti, [[Gennadi Sardanashvily]], *Advanced classical field theory*, World Scientific (2009) \[<a href="https://doi.org/10.1142/7189">doi:10.1142/7189</a>\]
 
-* S. Fl&#252;gge (ed.), _Encyclopedia of Physics_ Volume III/I, _Principles of Classical Mechanics and Field Theory_, Springer 1960
-
-For more see the references at _[[multisymplectic geometry]]_.
 
 Discussion of recursive solutions to classical field equations and their relation to the quantum [[perturbation theory]]:
 
