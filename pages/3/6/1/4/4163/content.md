@@ -85,6 +85,14 @@ The original informal conception of perturbative QFT is due to [[Schwinger-Tomon
 
 * {#Dyson49} [[Freeman Dyson]], _The raditation theories of Tomonaga, Schwinger and Feynman_, Phys. Rev. 75, 486, 1949 ([pdf](http://web.ihep.su/dbserv/compas/src/dyson49b/eng.pdf))
 
+Non-rigorous but widely used textbooks:
+
+* [[Michael Peskin]], [[Daniel Schroeder]]: _An Introduction to Quantum Field Theory_, CRC Press (1995) &lbrack;[doi:10.1201/9780429503559](https://doi.org/10.1201/9780429503559), [spire:407703](https://inspirehep.net/literature/407703), [ISBN 9780201503975](https://www.routledge.com/An-Introduction-To-Quantum-Field-Theory/Peskin-Schroeder/p/book/9780201503975)&rbrack;
+
+* {#Weinberg95} [[Steven Weinberg]], *The Quantum Theory of Fields Vol 1: Foundations*, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9781139644167](https://doi.org/10.1017/CBO9781139644167)&rbrack;
+
+* {#Weinberg96} [[Steven Weinberg]], *The Quantum Theory of Fields Vol 2: Applications*, Cambridge University Press (1996) &lbrack;[doi:10.1017/CBO9781139644174](https://doi.org/10.1017/CBO9781139644174)&rbrack;
+
 
 The rigorous formulation of renormalized perturbative quantum field theory in terms of [[causal perturbation theory]] was first accomplished in 
 
@@ -102,14 +110,14 @@ with precursors in
 
 Traditional review includes:
 
-* [[Matthew Schwartz]], *Quantum Field Theory and the Standard Model*, Cambridge University Press (2014) &lbrack;[ISBN:9781107034730](https://www.cambridge.org/de/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-field-theory-and-standard-model?format=HB&isbn=9781107034730), [doi:10.1017/9781139540940](https://doi.org/10.1017/9781139540940), [pdf](https://indico.ihep.ac.cn/event/11134/attachments/3783/4308/QFT-Schwartz.pdf)&rbrack;
+* [[Matthew Schwartz]], *Quantum Field Theory and the Standard Model*, Cambridge University Press (2014) &lbrack;[ISBN:9781107034730](https://www.cambridge.org/de/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-field-theory-and-standard-model?format=HB&isbn=9781107034730), [doi:10.1017/9781139540940](https://doi.org/10.1017/9781139540940), front matter:[pdf](https://assets.cambridge.org/97811070/34730/frontmatter/9781107034730_frontmatter.pdf)&rbrack;
 
 * [[Michel Talagrand]], *What is a Quantum Field Theory? -- A first Introduction for Mathematicians*, Cambridge University Press (2022) &lbrack;[doi:10.1017/9781108225144](https://doi.org/10.1017/9781108225144)&rbrack; 
 
 
 A seminal compilation of the resulting rigorous understanding of [[renormalization]] is
 
-* {#VeloWightman76} G. Velo and [[Arthur Wightman]] (eds.) _Renormalization Theory_ Proceedings of the 1975 Erice summer school, NATO ASI Series C 23, D. Reidel, Dordrecht, 1976
+* {#VeloWightman76} G. Velo and [[Arthur Wightman]] (eds.): _Renormalization Theory_, Proceedings of the 1975 Erice summer school, NATO ASI Series C 23, D. Reidel, Dordrecht, 1976
 
 Concrete computations in rigorous [[causal perturbation theory]] have been spelled out for [[quantum electrodynamics]] in
 
@@ -179,9 +187,8 @@ The relation of the construction via [[causal perturbation theory]] to the [[Fey
 * {#DuetschFredenhagenKellerRejzner14} [[Michael Dütsch]], [[Klaus Fredenhagen]], [[Kai Keller]], [[Katarzyna Rejzner]], _Dimensional Regularization in Position Space, and a Forest Formula for Epstein-Glaser Renormalization_, J. Math. Phy.
 55(12), 122303 (2014) ([arXiv:1311.5424](https://arxiv.org/abs/1311.5424))
 
-Non-rigorous but widely used textbooks:
 
-* [[Michael Peskin]], [[Daniel Schroeder]], _An Introduction to Quantum Field Theory_, 1995 ([spire:407703](https://inspirehep.net/literature/407703), [ISBN 9780201503975](https://www.routledge.com/An-Introduction-To-Quantum-Field-Theory/Peskin-Schroeder/p/book/9780201503975))
+
 
 (...)
 
