@@ -15,6 +15,10 @@ On [[von Neumann algebra factors]] as algebras of [[quantum observables]] in [[q
 
 * [[Jonathan Sorce]], *Notes on the type classification of von Neumann algebras* &lbrack;[arXiv:2302.01958](https://arxiv.org/abs/2302.01958)&rbrack;
 
+On [[algebraic quantum field theory]]:
+
+* [[Jonathan Sorce]]: *Bootstrap 2024: Lectures on "The algebraic approach: when, how, and why?"* &lbrack;[arXiv:2408.07994](https://arxiv.org/abs/2408.07994)&rbrack;
+
 
 
 
