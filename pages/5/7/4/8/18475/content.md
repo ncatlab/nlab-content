@@ -180,6 +180,14 @@ See also
 
 * *[New supergravity tools to study strongly coupled physical systems](https://cordis.europa.eu/article/id/202912-new-supergravity-tools-to-study-strongly-coupled-physical-systems)*
 
+### Application to (strange) metals
+
+More on application to ([[strange metal|strange]]) [[metals]]:
+
+* V. Giangreco M. Puletti, S. Nowling, L. Thorlacius, T. Zingg: *Holographic metals at finite temperature*, J. High Energ. Phys. **2011** 117 (2011) \[<a href="https://doi.org/10.1007/JHEP01(2011)117">doi:10.1007/JHEP01(2011)117</a>, [arXiv:1011.6261](https://arxiv.org/abs/1011.6261)\]
+
+* Javier Carballo, Ayan K. Patra, Juan F. Pedraza: *Diving inside holographic metals* &lbrack;[arXiv:2408.07748](https://arxiv.org/abs/2408.07748)&rbrack;
+
 
 ### Application to topological phases of matter
  {#ApplicatinToTopologicalPhases}
