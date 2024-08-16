@@ -1,27 +1,11 @@
 
-[[supergeometry of fermion fields -- references]]
+On [[geometric engineering|engineering]] aspects of the [[quantum Hall effect]] on [[M5-branes]]:
 
-$$
-  \begin{array}{l}
-    \mathrm{dvol}_{\mathbb{R}^{1,2}}
-    \, \mathrm{d} r^3
-    \\
-    \;=\;
-    3 r^2\, 
-    \mathrm{dvol}_{\mathbb{R}^{1,2}}
-    \, 
-    \mathrm{d}r
-    \\
-    \;=\;
-  \end{array}
-$$
+* [[Simeon Hellerman]], [[Leonard Susskind]]: *Realizing the Quantum Hall System in String Theory* \[<a href="https://arxiv.org/abs/hep-th/0107200">arXiv:hep-th/0107200</a>\]
+
+following 
+
+* [[Micha Berkooz]]: *Light-like $(2,0)$ Noncommutativity and Light-Cone Rigid Open Membrane Theory* \[<a href="https://arxiv.org/abs/hep-th/0010158">arXiv:hep-th/0010158</a>, [inspire:535327](https://inspirehep.net/literature/535327)\]
 
 
-* [[Sergei Gukov]], [[Marko Stošić]]: *Homological algebra of knots and BPS states*, Geometry & Topology Monographs **18** (2012) 309-367 &lbrack;[arXiv:1112.0030](https://arxiv.org/abs/1112.0030), [doi:10.2140/gtm.2012.18.309](https://doi.org/10.2140/gtm.2012.18.309)&rbrack;
-
-
-* Márk Mezei, Silviu S. Pufu, Yifan Wang: *Chern-Simons theory from M5-branes and calibrated M2-branes*,  J. High Energ. Phys. **2019** 165 (2019) \[<a href="https://doi.org/10.1007/JHEP08(2019)165">doi:10.1007/JHEP08(2019)165</a>, [arXiv:1812.07572](https://arxiv.org/abs/1812.07572)\]
-
-
-[[knot invariants via topological strings and 5-branes -- references]]
 
