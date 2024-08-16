@@ -64,6 +64,7 @@ This yields the relatively young subjects of symplectic and contact topologies, 
 
 * [[equivariant differential topology]]
 
+* [[surgery]]
 
 
 ## References
