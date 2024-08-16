@@ -110,6 +110,8 @@ Here (only) the first is different from the 1st [[Reidemeister move]] for ordina
 
 ## Related entries
 
+* [[surgery]], [[Dehn surgery]], [[Kirby calculus]]
+
 * [[normal framing]]
 
 * [[framed manifold]]
@@ -124,6 +126,10 @@ Here (only) the first is different from the 1st [[Reidemeister move]] for ordina
 
 ## References
 
+Survey:
+
+* Mohamed Elhamdadi, Mustafa Hajij, Kyle Istvan: *Framed Knots*, Math Intelligencer **42** (2020) 7–22 &lbrack;[doi:10.1007/s00283-020-09990-0](https://doi.org/10.1007/s00283-020-09990-0), [arXiv:1910.10257](https://arxiv.org/abs/1910.10257)&rbrack;
+
 Textbooks:
 
 * {#Ohtsuki01} [[Tomotada Ohtsuki]], pp. 15 in: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
@@ -134,6 +140,8 @@ Lecture notes:
 * Roland van der Veen: Def. 4 of: *A smooth introduction to knots*, lecture notes (2016) &lbrack;[pdf](https://www.julianlyczak.nl/seminar/knots2016-files/KnotesJan18.pdf), [[vdVeen-SmoothKnots.pdf:file]]&rbrack;
 
 Vivid illustrations:
+
+* Mustafa Hajij: *Framed knot* (2022) &lbrack;video:[YT](https://youtu.be/KxEBhD0C2Pw)&rbrack;
 
 * Nadav Drukker, Elise Paznokas, Dominik Schrimpel: *Knitting Knots & the Framing Anomaly*, in: *Proceedings of Bridges 2022: Mathematics, Art, Music, Architecture, Culture*, Tessalations Publishing (2022) 245-252 &lbrack;[arXiv:2210.16677](https://arxiv.org/abs/2210.16677), [web](https://archive.bridgesmathart.org/2022/bridges2022-245.html#gsc.tab=0),  [pdf](https://archive.bridgesmathart.org/2022/bridges2022-245.pdf)&rbrack;
 
