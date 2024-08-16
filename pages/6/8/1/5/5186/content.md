@@ -272,19 +272,25 @@ express the [[parallel transport]] of the tangent vector along a physical trajec
 
   * [[membrane]]
 
+* [[Klein-Gordon equation]], [[Dirac equation]]
+
 * [[relativistic field theory]]
  
 ## References
 
-* Giulio Ruffini, _Four approaches to quantization of the relativistic particle_ ([arXiv:gr-qc/9806058](http://arxiv.org/abs/gr-qc/9806058))
 
-Discussion in terms of [[BV-formalism]] includes
+* [[James D. Bjorken]], [[Sidney D. Drell]]: *Relativistic Quantum Mechanics*, McGrawHill (1964) &lbrack;[ark:/13960/t5fc2v05h](https://archive.org/details/relativisticquan0000bjor/page/n1/mode/2up), [pdf](https://emineter.wordpress.com/wp-content/uploads/2018/10/james-d-bjorken-sidney-d-drell-relativistic-quantum-mechanics-1964.pdf), [pdf](http://www.mmmut.ac.in/News_content/14331tpnews_11122020.pdf)&rbrack;
+
+
+* Giulio Ruffini, _Four approaches to quantization of the relativistic particle_ &lbrack;[arXiv:gr-qc/9806058](http://arxiv.org/abs/gr-qc/9806058)&rbrack;
+
+Discussion in terms of [[BV-formalism]]:
 
 * Jean M. L. Fisch and [[Marc Henneaux]], _Antibracket&#8212;antifield formalism for constrained hamiltonian systems_ ([doi](http://dx.doi.org/10.1016/0370-2693%2889%2990292-X))
 
 * [[Alberto Cattaneo]], [[Michele Schiavina]], _On time_, Lett. Math. Phys. **107** (2017) 375-408 &lbrack;[doi:10.1007/s11005-016-0907-x](https://doi.org/10.1007/s11005-016-0907-x), [arXiv:1607.02412](http://arxiv.org/abs/1607.02412)&rbrack;
 
-See also
+See also:
 
 * Benjamin Koch, Enrique Muñoz, _Path integral of the relativistic point particle in Minkowski space_ ([arXiv:2012.15242](https://arxiv.org/abs/2012.15242))
 
