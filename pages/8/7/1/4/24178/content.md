@@ -59,7 +59,9 @@ Characterization as a [[braid representation]]:
 
 A "hierarchy" of Laughlin-like states:
 
-* [[Bertrand I. Halperin]], *Statistics of Quasiparticles and the Hierarchy of Fractional Quantized Hall States*, Phys. Rev. Lett. **52** (1984) 1583 $[$[doi:10.1103/PhysRevLett.52.1583](https://doi.org/10.1103/PhysRevLett.52.1583)$]$
+* [[Bertrand I. Halperin]]: _Statistics of Quasiparticles and the Hierarchy of Fractional Quantized Hall States_, Phys. Rev. Lett. **52** (1984) 1583 \[<a href="https://doi.org/10.1103/PhysRevLett.52.1583">doi:10.1103/PhysRevLett.52.1583</a>\]
+
+  Erratum, Phys. Rev. Lett. **52** (1984) 2390 \[<a href="https://doi.org/10.1103/PhysRevLett.52.2390.4">doi:10.1103/PhysRevLett.52.2390.4</a>\]
 
 * {#Lan19} [[Tian Lan]], *Matrix formulation for non-Abelian families*, Phys. Rev. B **100** 241102 (2019) $[$[arXiv:1908.02599](https://arxiv.org/abs/1908.02599), [doi:10.1103/PhysRevB.100.241102](https://doi.org/10.1103/PhysRevB.100.241102)$]$
 
