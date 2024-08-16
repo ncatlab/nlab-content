@@ -33,13 +33,13 @@ Knots that are ambient isotopic are often said to have the *same knot type* or t
 
 ## Example
 
-The trefoil knot is the simplest non-trivial knot.  In its simplest representation, it has three crossings.  It is a [[torus knot]], that is it can be embedded on the surface of a solid torus, itself embedded in $S^3$. Here is a picture.
+The [[trefoil knot]] is the simplest non-trivial knot.  In its simplest representation, it has three crossings.  It is a [[torus knot]], that is it can be embedded on the surface of a solid torus, itself embedded in $S^3$. Here is a picture.
 
 +--{: style="text-align:center"}
 [[!include trefoil knot - SVG]]
 =--
 
-Classifying knots up to isotopy is usually done using [[knot invariant|knot invariants]]. Some of these are simple to define (these tend to be geometric and also tend to be hard to calculate) others are harder to define and to show they are invariants but are easier to calculate. A few are reasonably easy to define and to calculate... Yippee!
+Classifying knots up to isotopy is usually done using [[knot invariants]]. Some of these are simple to define (these tend to be geometric and also tend to be hard to calculate) others are harder to define and to show they are invariants but are easier to calculate. A few are reasonably easy to define and to calculate... Yippee!
 
 It is often useful to consider the domain circle of a knot as being oriented.  This is then represented by putting a directional arrow on diagrams of the knot. Such oriented knots are usually considered up to [[ambient isotopy]] in which the isotopy is orientation preserving. This leads to the idea of [[invertible knot|invertible knots]].  It is also possible to take the [[mirror reflection]] of  knots and thus to introduce the concept of [[knot chirality]], a [[knot invariant]]; Knots that remain equivalent to their mirror images possess a certain symmetry called [[achiral knot|achiral knots]] or equivalently, [[amphicheiral]]. An alternative definition of this notion is the following: 
 A knot $K$ is [[amphicheiral]] if there exists an orientation-reversing [[homeomorphism]] of $R^3$ mapping $K$ to itself. 
@@ -84,11 +84,15 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 * [[isotopy]], [[smooth isotopy]]
 
-* [[hyperbolic knot]]
-
 * [[Kirby calculus]]
 
+* [[torus knot]]
+
+* [[hyperbolic knot]]
+
 * [[surface knot]]
+
+* [[slice knot]]
 
 * [[boxed knot]], [[knot sum]]
 
@@ -110,8 +114,13 @@ The study of knots is very pictorial.  There are various knot-related SVGs that 
 
 ### General
 
+Historically, a motivation for [[Peter Tait]] to start thinking about classification of [[knots]] was the book 
 
-Expositions:
+* [[Lord Kelvin]], _[[On Vortex Atoms]]_
+
+which presented the speculation in [[physics]] that  [[atoms]]/[[elementary particles]] are fundamentally [[vortices]] in a [[spacetime]]-filling fluid-like substance.
+
+Expositions of modern knot theory:
 
 * J. Hoste, M. Thistlethwaite, J. Weeks: _The First 1,701,936 Knots_, The Mathematical Intelligencer **20** (1998) 33–48 &lbrack;[doi:10.1007/BF03025227](https://doi.org/10.1007/BF03025227)&rbrack;
 
@@ -122,8 +131,7 @@ Expositions:
 * Roland van der Veen: *A smooth introduction to knots*, lecture notes (2016) &lbrack;[pdf](https://www.julianlyczak.nl/seminar/knots2016-files/KnotesJan18.pdf), [[vdVeen-SmoothKnots.pdf:file]]&rbrack;
 
 
-
-General:
+Monographs:
 
 * [[Richard H. Crowell]], [[R. H. Fox]], _Introduction to knot theory_, Graduate Texts in Mathematics **57**, Springer (1963) &lbrack;[doi:10.1007/978-1-4612-9935-6](https://doi.org/10.1007/978-1-4612-9935-6)&rbrack;
 
@@ -142,12 +150,13 @@ General:
 
 * {#Sossinsky23} [[Alexei B. Sossinsky]], *Knots, Links and Their Invariants: An Elementary Course in Contemporary Knot Theory*, The Student Mathematical Library **101**, AMS (2023) &lbrack;[doi:10.1090/stml/101](https://doi.org/10.1090/stml/101)&rbrack;
 
+In higher dimensions:
 
-Historically, a motivation for [[Peter Tait]] to start thinking about classification of [[knots]] was the book 
+* [[Andrew Ranicki]]: *High-dimensional knot theory -- Algebraic Surgery in Codimension 2*, Monographs in Mathematics, Springer (1998, 2009) &lbrack;[doi:10.1007/978-3-662-12011-8](https://doi.org/10.1007/978-3-662-12011-8), [pdf](https://www.maths.ed.ac.uk/~v1ranick/knot.pdf)&rbrack;
+  > (via [[surgery]] and [[algebraic K-theory]] and [[L-theory]])
 
-* [[Lord Kelvin]], _[[On Vortex Atoms]]_
 
-which presented the speculation in [[physics]] that  [[atoms]]/[[elementary particles]] are fundamentally [[vortices]] in a [[spacetime]]-filling fluid-like substance.
+
 
 ### Relation to physics
 
