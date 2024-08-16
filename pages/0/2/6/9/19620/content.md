@@ -8,8 +8,10 @@
 =--
 =--
 
-* table of contents
-{: toc}
+
+\tableofcontents
+
+## Idea
 
 **Ex falso quodlibet** is Latin for "from falsehood, anything". It is also called the **principle of explosion**. 
 
@@ -32,6 +34,8 @@ Variants of the principle's name include *ex falso sequitur quodlibet*, "from fa
 ## References
 
 * Wikipedia, *[Principle of explosion](https://en.wikipedia.org/wiki/Principle_of_explosion)*
+
+* Wikipedia, *[Ex falso quodlibet](https://de.wikipedia.org/wiki/Ex_falso_quodlibet)* (de)
 
 * Pedro Francisco, Valencia Vizcaíno, *Relations between ex falso, tertium non datur, and double negation elimination* &lbrack;[arXiv:1304.0272](https://arxiv.org/abs/1304.0272)&rbrack;
 
