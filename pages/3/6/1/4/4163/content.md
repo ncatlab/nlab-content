@@ -89,6 +89,10 @@ The original informal conception of perturbative QFT is due to [[Schwinger-Tomon
 
 Non-rigorous but widely used textbooks:
 
+* [[James D. Bjorken]], [[Sidney D. Drell]]: *Relativistic Quantum Mechanics*, McGrawHill (1964) &lbrack;[ark:/13960/t5fc2v05h](https://archive.org/details/relativisticquan0000bjor/page/n1/mode/2up), [pdf](https://emineter.wordpress.com/wp-content/uploads/2018/10/james-d-bjorken-sidney-d-drell-relativistic-quantum-mechanics-1964.pdf), [pdf](http://www.mmmut.ac.in/News_content/14331tpnews_11122020.pdf)&rbrack;
+
+* [[James D. Bjorken]], [[Sidney D. Drell]]: *Relativistic Quantum Fields*, McGraw-Hill (1965) &lbrack;[ark:/13960/t9t22sx2r](https://archive.org/details/relativisticquan0000bjor_c5q0), [pdf](https://ivlabs.github.io/resources/physics/books/Relativistic%20Quantum%20Fields%20by%20James%20D.%20Bjorken,%20Sidney%20D.%20Drell.pdf)&rbrack;
+
 * [[Michael Peskin]], [[Daniel Schroeder]]: _An Introduction to Quantum Field Theory_, CRC Press (1995) &lbrack;[doi:10.1201/9780429503559](https://doi.org/10.1201/9780429503559), [spire:407703](https://inspirehep.net/literature/407703), [ISBN 9780201503975](https://www.routledge.com/An-Introduction-To-Quantum-Field-Theory/Peskin-Schroeder/p/book/9780201503975)&rbrack;
 
 * {#Weinberg95} [[Steven Weinberg]], *The Quantum Theory of Fields Vol 1: Foundations*, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9781139644167](https://doi.org/10.1017/CBO9781139644167)&rbrack;
