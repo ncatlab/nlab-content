@@ -199,13 +199,17 @@ which is reviewed in the lecture notes
 
 * [[Jonathan Evans]], _Aspects of Yang-Mills theory_, ([web](http://www.homepages.ucl.ac.uk/~ucahjde/yangmills.htm))
 
-For the relation to [[instanton Floer homology]] see also
+Relation to [[instanton Floer homology]]:
 
 * [[Simon Donaldson]], _Floer homology groups in Yang-Mills theory_ Cambridge University Press (2002) ([pdf](http://catdir.loc.gov/catdir/samples/cam031/2001035888.pdf))
 
-For the relation to [[Tamagawa numbers]] see
+Relation to [[Tamagawa numbers]]:
 
 * Aravind Asok, Brent Doran, Frances Kirwan, _Yang-Mills theory and Tamagawa numbers_ ([arXiv:0801.4733](http://arxiv.org/abs/arXiv:0801.4733))
+
+On [[combinatorics]] of YM [[scattering amplitudes]]:
+
+* [[Nima Arkani-Hamed]], Qu Cao, Jin Dong, Carolina Figueiredo, Song He: *Scalar-Scaffolded Gluons and the Combinatorial Origins of Yang-Mills Theory* &lbrack;[arXiv:2401.00041](https://arxiv.org/abs/2401.00041)&rbrack;
 
 
 ### Classical solutions
