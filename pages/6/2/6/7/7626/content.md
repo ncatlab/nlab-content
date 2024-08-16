@@ -419,16 +419,15 @@ An early claim of the observation of non-abelian anyons seems to remain unconfir
 
 * Sanghun An, P. Jiang, H. Choi, W. Kang, S. H. Simon, L. N. Pfeiffer, K. W. West, K. W. Baldwin, _Braiding of Abelian and Non-Abelian Anyons in the Fractional Quantum Hall Effect_ ([arXiv:1112.3400](https://arxiv.org/abs/1112.3400))
 
-The claimed observation of abelian anyons is apparently more securely established:
+The claimed observation of abelian anyons is more securely established (via the fractional/integer [[quantum Hall effect]]):
 
-* H. Bartolomei, M. Kumar, R. Bisognin, A. Marguerite, J.-M. Berroir, E. Bocquillon, B. Plaçais, A. Cavanna, Q. Dong, U. Gennser, Y. Jin, G. Fève:
+* H. Bartolomei, et al.: *Fractional statistics in anyon collisions*, Science **368** 6487 (2020) 173-177  \[<a href="https://doi.org/10.1126/science.aaz5601">doi:10.1126/science.aaz5601</a>, [arXiv:2006.13157](https://arxiv.org/abs/2006.13157)\]
 
-  *Fractional statistics in anyon collisions*, Science 368, 173-177 (2020) ([arXiv:2006.13157](https://arxiv.org/abs/2006.13157))
+* James Nakamura et al.: _Direct observation of anyonic braiding statistics_, Nat. Phys. **16** (2020) 931–936 \[<a href="https://doi.org/10.1038/s41567-020-1019-1">doi:10.1038/s41567-020-1019-1</a>\]
 
-* James Nakamura, Shuang Liang, Geoffrey C. Gardner, Michael J. Manfra, _Direct observation of anyonic braiding statistics_, Nat. Phys. 16, 931–936 (2020). ([arXiv:2006.14115](https://arxiv.org/abs/2006.14115), [doi:10.1038/s41567-020-1019-1](https://doi.org/10.1038/s41567-020-1019-1))
+* Bob Yirka, _Best evidence yet for existence of anyons_, PhysOrg News (July 10, 2020)  \[<a href="https://phys.org/news/2020-07-evidence-anyons.html">phys.org/news/2020-07</a>\]
 
-* Bob Yirka, _Best evidence yet for existence of anyons_, PhysOrg News July 10, 2020  ([phys.org/news/2020-07](https://phys.org/news/2020-07-evidence-anyons.html))
-
+* P. Glidic et al.: *Signature of anyonic statistics in the integer quantum Hall regime*, Nature Commun. **15** 6578 (2024) 1 \[<a href="https://doi.org/10.1038/s41467-024-50820-0">doi:10.1038/s41467-024-50820-0</a>, [arXiv:2401.06069](https://arxiv.org/abs/2401.06069)\]
 
 
 
