@@ -129,11 +129,6 @@ $\not\not$ is the unique topology $j$ such that (1) $j$ is [[dense subtopos|dens
 \end{proposition}
 
 
-\begin{example}
-\label{ForSierpinskiTopos}
-Consider the [[Sierpinski topos]] $Set^{\to}$ (the [[arrow category]] of Set). It has exactly two dense subtoposes: the topos itself and the double-negation topos whose sheaves are the [[bijections]]. It has three Boolean subtoposes: the above, the subcategory on the arrows whose codomain is the terminal object, and the degenerate subtopos consisting of just the identity morphism of the terminal object. Observe that the two non-degenerate Boolean toposes, which complement each other in the [[lattice of subtoposes]], are both [[equivalence of categories|equivalent]] to the [[Set|topos of sets]], which incidentally shows that merely requiring the equivalence $(\mathcal{E}_j)_{\neg\neg}\simeq \mathcal{E}_{\neg\neg}$ in Prop. \ref{negdense} wouldn't do.
-\end{example}
-
 There are several other characterizations of the double negation topology:
 
 +-- {: .num_prop #Sierpinski}
@@ -201,6 +196,31 @@ Essentially because of prop. \ref{DoubleNegationSheavesSatisfyAxiomOfChoice}, do
 
 =--
 
+### Examples
+ {#Examples}
+
+\begin{example}
+\label{ForSierpinskiTopos}
+Consider the [[Sierpinski topos]] $\mathcal{E} \,\coloneqq\, Set^{\to}$, hence the [[arrow category]] of [[Set]].
+
+This has
+
+* exactly two [[dense subtoposes]]: 
+
+  1. the topos itself 
+
+  1. the double-negation topos whose sheaves are the [[bijections]],
+
+* exactly three [[Boolean topos|Boolean]] [[subtoposes]]: 
+
+  1. the double-negation subtopos, 
+
+  1. the subcategory on the arrows whose [[codomain]] is the [[terminal object]], 
+
+  1. the degenerate subtopos consisting of just the [[identity morphism]] on the [[terminal object]]. 
+
+Observe that the two non-degenerate Boolean toposes, which complement each other in the [[lattice of subtoposes]], are both [[equivalence of categories|equivalent]] to the [[Set|topos of sets]], which incidentally shows that merely requiring the equivalence $(\mathcal{E}_j)_{\neg\neg}\simeq \mathcal{E}_{\neg\neg}$ in Prop. xy is not sufficient.
+\end{example}
 
 
 ## In higher topos theory
