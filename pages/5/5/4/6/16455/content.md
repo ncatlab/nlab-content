@@ -220,9 +220,14 @@ Sometimes the Klein-Gordon equation is thought of as a [[general relativity|rela
 
 The Klein-Gordon equation is named after [[Oskar Klein]] and [[Walter Gordon]]. 
 
+Textbook account:
+
+* [[James D. Bjorken]], [[Sidney D. Drell]]: *Relativistic Quantum Mechanics*, McGrawHill (1964) &lbrack;[ark:/13960/t5fc2v05h](https://archive.org/details/relativisticquan0000bjor/page/n1/mode/2up), [pdf](https://emineter.wordpress.com/wp-content/uploads/2018/10/james-d-bjorken-sidney-d-drell-relativistic-quantum-mechanics-1964.pdf), [pdf](http://www.mmmut.ac.in/News_content/14331tpnews_11122020.pdf)&rbrack;
+
+
 An overview over the KG [[propagators]] on [[Minkowski spacetime]] is given in 
 
-* {#Kocic16} [[Mikica Kocic]], _Invariant Commutation and Propagation Functions Invariant Commutation and Propagation Functions_, 2016 ([[KGPropagatorsOnMinkowskiTable.pdf:file]])
+* {#Kocic16} [[Mikica Kocic]], _Invariant Commutation and Propagation Functions Invariant Commutation and Propagation Functions_ (2016) &lbrack;[[KGPropagatorsOnMinkowskiTable.pdf:file]]&rbrack;
 
 The [[Hadamard propagator]] for the Klein-Gordon equation on general [[globally hyperbolic spacetimes]] was found in
 
