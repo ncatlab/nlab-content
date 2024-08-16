@@ -170,15 +170,35 @@ The 3-dimensional lens space $L(p,q) \coloneqq L(p, \{1,q\})$, for [[coprime int
   \end{tikzpicture}
 \end{centre}
 
-where the unknots have framings $a_{1}$, $\ldots$, $a_{n}$ from left to right, for a [[continued fraction]] representation of $-\frac{p}{q}$ as follows.
+where the unknots have [[framed knot|framings]] $a_{1}$, $\ldots$, $a_{n}$ from left to right, for a [[continued fraction]] representation of $-\frac{p}{q}$ as follows.
 
 $$
-a_{1} - \frac{1}{a_{2} - \frac{1}{\cdots - \frac{1}{a_{n}}}}
+  a_{1} - \frac{1}{a_{2} - \frac{1}{\cdots - \frac{1}{a_{n}}}}
 $$
+
+\linebreak
+
+\begin{imagefromfile}
+    "file_name": "EHI-SurgeryForLensSpace.jpg",
+    "width": 670,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "From [EHI 2020](#EHI20)"
+\end{imagefromfile}
+
+
+[[:file]]
+
 
 ## Related concepts
 
 * [[Seifert 3-manifold]]
+
 
 ## References
 
@@ -198,13 +218,18 @@ On classification of lens spaces:
 
 * {#Olum53} [[Paul Olum]], _Mappings of manifolds and the notion of degree_, Ann. of Math. (2) *58* (1953), p. 458–480. [JSTOR:1969748](https://www.jstor.org/stable/1969748)
 
-* {#Brody60} [[E. J. Brody]], _The topological classification of the lens spaces_, Ann. of Math. (2) 71 (1960), 163–184. MR0116336 (22 #7125) Zbl 0119.18901
+* {#Brody60} [[E. J. Brody]], _The topological classification of the lens spaces_, Ann. of Math. **71** 1 (1960) 163–184. &lbrack;[doi:10.2307/1969884](https://doi.org/10.2307/1969884), [jstor:](https://www.jstor.org/stable/1969884), MR0116336 (22 #7125) Zbl 0119.18901&rbrack;
 
 * {#Milnor66} [[John Milnor]], *Whitehead torsion*, Bull. Amer. Math. Soc. **72** (1966) 358–426 &lbrack;[doi:10:1090/S0002-9904-1966-11484-2](https://www.ams.org/journals/bull/1966-72-03/S0002-9904-1966-11484-2), [maths.ed.ac.uk](https://web.archive.org/web/20160529051526/http://www.maths.ed.ac.uk/~s1122173/surgerygroup12/milnorwh.pdf), [jstor:bams/1183527946](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-72/issue-3/Whitehead-torsion/bams/1183527946.full)&rbrack;
 
 On the [[ordinary cohomology]] of lens spaces:
 
 * {#Maxim} Laurentio-George Maxim, *Cohomology of Lens Spaces* &lbrack;[pdf](https://people.math.wisc.edu/~lmaxim/753f13w7.pdf), [[Maxim-CohomologyOfLensSpaces.pdf:file]]&rbrack;
+
+Via [[Dehn surgery]]:
+
+* {#EHI20} Mohamed Elhamdadi, Mustafa Hajij, Kyle Istvan, Fig 23 in: *Framed Knots*, Math Intelligencer **42** (2020) 7–22 &lbrack;[doi:10.1007/s00283-020-09990-0](https://doi.org/10.1007/s00283-020-09990-0), [arXiv:1910.10257](https://arxiv.org/abs/1910.10257)&rbrack;
+
 
 On lens spaces in [[cosmic topology]]:
 
