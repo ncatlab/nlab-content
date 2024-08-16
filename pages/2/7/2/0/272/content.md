@@ -174,6 +174,10 @@ Introductory lecture notes:
 
 * {#FewsterRejzner19} [[Christopher Fewster]], [[Kasia Rejzner]], _Algebraic Quantum Field Theory - an introduction_ ([arXiv:1904.04051](https://arxiv.org/abs/1904.04051))
 
+* [[Jonathan Sorce]]: *Bootstrap 2024: Lectures on "The algebraic approach: when, how, and why?"* &lbrack;[arXiv:2408.07994](https://arxiv.org/abs/2408.07994)&rbrack;
+ > (aimed at non-mathematically inclined field theorists)
+
+
 and for just [[quantum mechanics]] in the algebraic perspective:
 
 * {#Gleason09} [[Jonathan Gleason]], *The $C^*$-algebraic formalism of quantum mechanics* (2009) &lbrack;[[Gleason09.pdf:file]], [[GleasonAlgebraic.pdf:file]]&rbrack;
