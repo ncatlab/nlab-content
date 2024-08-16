@@ -21,7 +21,7 @@
 
 ## Idea
 
-What is called _Kirby calculus_ is a way of identifying/classifying [[3-manifolds]] in terms of [[Dehn surgery]] along [[links]] in the [[3-sphere]].
+What is called _Kirby calculus_ is a way of identifying/classifying [[3-manifolds]] in terms of [[Dehn surgery]] along [[framed links]] in the [[3-sphere]].
 
 ## References
 
