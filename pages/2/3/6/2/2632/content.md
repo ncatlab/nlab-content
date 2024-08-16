@@ -431,32 +431,29 @@ Classical textbook accounts:
 * {#Dirac78} [[Paul Dirac]], *[[The Principles of Quantum Mechanics]]*, International series of monographs on physics, Oxford University Press (1930, 1935, 1947) &lbrack;[ISBN:9780198520115](https://global.oup.com/academic/product/the-principles-of-quantum-mechanics-9780198520115)&rbrack;
 
 * {#Mackey63} [[George Mackey]], *The Mathematical Foundations of Quantum Mechanics: a Lecture-note Volume*, Mathematical physics monograph series, Benjamin (1963), Dover (2004) &lbrack;[google books](https://books.google.de/books?id=qlpb2mWYmfYC&printsec=frontcover&hl=de&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)&rbrack;
-
   > (including an influential proposal for [[quantum logic]])
+
+* [[James D. Bjorken]], [[Sidney D. Drell]]: *Relativistic Quantum Mechanics*, McGrawHill (1964) &lbrack;[ark:/13960/t5fc2v05h](https://archive.org/details/relativisticquan0000bjor/page/n1/mode/2up), [pdf](https://emineter.wordpress.com/wp-content/uploads/2018/10/james-d-bjorken-sidney-d-drell-relativistic-quantum-mechanics-1964.pdf), [pdf](http://www.mmmut.ac.in/News_content/14331tpnews_11122020.pdf)&rbrack;
+ > (focus on [[relativistic particles]]: [[Klein-Gordon equation]], [[Dirac equation]] towards [[perturbative quantum field theory]])
 
 * Eduard Prugovecki, _Quantum mechanics in Hilbert Space_. Academic Press (1971) &lbrack;[ISBN: 9780080874081](https://www.elsevier.com/books/quantum-mechanics-in-hilbert-space/prugovecki/978-0-12-566060-0)&rbrack;
 
 * {#Scheibe73} [[Erhard Scheibe]], _The logical analysis of quantum mechanics_, Pergamon Press Oxford (1973)
-
   > (focus on the [[interpretation of quantum mechanics]])
 
 * {#BratteliRobinson79} [[Ola Bratteli]], [[Derek W. Robinson]], *Operator Algebras and Quantum Statistical Mechanics* -- vol 1: *$C^\ast$- and $W^\ast$-Algebras. Symmetry Groups. Decomposition of States.*, Springer (1979, 1987, 2002) &lbrack;[doi:10.1007/978-3-662-02520-8](https://doi.org/10.1007/978-3-662-02520-8)&rbrack;
-
   > ([[AQFT|algebraic]] [[quantum statistical mechanics]])
 
 
 * [[James Glimm]], [[Arthur Jaffe]], *[[Glimm-Jaffe|Quantum physics: a functional integral point of view]]*, Springer (1981, 1987) &lbrack;[doi:10.1007/978-1-4612-4728-9](https://doi.org/10.1007/978-1-4612-4728-9)&rbrack;
-
   > (focus on the [[path integral]] in [[constructive quantum field theory]])
 
 * [[Hans Primas]], *Chemistry, Quantum Mechanics and Reductionism*, Springer (1983) &lbrack;[doi:10.1007/978-3-642-69365-6](https://doi.org/10.1007/978-3-642-69365-6)&rbrack;
-
   > (with an eye towards [[quantum chemistry]] and [[interpretation of quantum mechanics]])
   
 * [[Anthony Sudbery]], *Quantum mechanics and the particles of nature: an outline for mathematicians*, Cambridge University Press (1986) &lbrack;[pdf](http://users.uoa.gr/~navidcon/sudbery.pdf), [spire:240835](https://inspirehep.net/literature/240835)&rbrack;
 
 * {#Kraus} [[Karl Kraus]], *States, Effects, and Operations -- Fundamental Notions of Quantum Theory*, Lecture Notes in Physics **190** Springer (1983) &lbrack;[doi:10.1007/3-540-12732-1](https://doi.org/10.1007/3-540-12732-1)&rbrack;
-
   > (emphasis on [[effect algebras]] and [[quantum operations]])
 
 * [[Jun John Sakurai]], Jim Napolitano, *Modern Quantum Mechanics*, Cambridge University Press (1985, 2020) &lbrack;[doi:10.1017/9781108587280](https://doi.org/10.1017/9781108587280), [Wikipedia](https://en.wikipedia.org/wiki/Modern_Quantum_Mechanics)&rbrack;
@@ -465,7 +462,6 @@ Classical textbook accounts:
 More recent textbook accounts:
 
 * [[Paul Busch]], Marian Grabowski, [[Pekka J. Lahti]], *Operational Quantum Physics*, Lecture Notes in Physics Monographs **31**, Springer (1995) &lbrack;[doi:10.1007/978-3-540-49239-9](https://doi.org/10.1007/978-3-540-49239-9)&rbrack;
-
   > (perspective of [[quantum probability theory]] via [[POVMs]])
 
 * [[Chris Isham]], *Lectures on Quantum Theory -- Mathematical and Structural Foundations*, World Scientific (1995) &lbrack;[doi:10.1142/p001](https://doi.org/10.1142/p001), [ark:/13960/t4xh7cs99](https://archive.org/details/lecturesonquantu0000isha)&rbrack;
@@ -479,11 +475,9 @@ More recent textbook accounts:
 * [[Serge Haroche]], [[Jean-Michel Raimond]], *Exploring the Quantum: Atoms, Cavities, and Photons*, Oxford University Press (2006) &lbrack;[doi:10.1093/acprof:oso/9780198509141.001.0001](https://doi.org/10.1093/acprof:oso/9780198509141.001.0001)&rbrack;
  
 * [[Ingemar Bengtsson]], [[Karol Życzkowski]], *Geometry of Quantum States --- An Introduction to Quantum Entanglement*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511535048](https://doi.org/10.1017/CBO9780511535048)&rbrack;
-
   > (focus on the [[geometry]] of [[quantum state spaces]] and culminating in a chapter on [[quantum entanglement]])
 
 * [[Heinz-Peter Breuer]], [[Francesco Petruccione]], *The Theory of Open Quantum Systems*, Oxford University Press (2007) &lbrack;[doi:10.1093/acprof:oso/9780199213900.001.0001](https://doi.org/10.1093/acprof:oso/9780199213900.001.0001)&rbrack;
-
   > (focus on [[open quantum systems]])
 
 * [[Teiko Heinosaari]], [[Mário Ziman]], *The Mathematical Language of Quantum Theory -- From Uncertainty to Entanglement*, Cambridge University Press  (2011) &lbrack;[doi:10.1017/CBO9781139031103]( https://doi.org/10.1017/CBO9781139031103)&rbrack;
@@ -492,20 +486,17 @@ More recent textbook accounts:
 
 
 * [[Thomas L. Curtright]], [[David B. Fairlie]], [[Cosmas K. Zachos]], *A Concise Treatise on Quantum Mechanics in Phase Space*, World Scientific (2014) &lbrack;[doi:10.1142/8870](https://doi.org/10.1142/8870)&rbrack;
-
   > (in [[Weyl quantization]])
 
 
 * [[Paul Busch]], [[Pekka J. Lahti]], Juha-Pekka Pellonpää, Kari Ylinen, *Quantum Measurement*, Springer (2016) &lbrack;[doi:10.1007/978-3-319-43389-9](https://doi.org/10.1007/978-3-319-43389-9)&rbrack;
-
   > (perspective of [[quantum probability]] via [[POVMs]])
 
 
 * {#Landsman17} [[Klaas Landsman]], *Foundations of quantum theory -- From classical concepts to Operator algebras*, Springer Open (2017) &lbrack;[doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf)&rbrack;
-
   > With a focus on the relationship between quantum mechanics and [[representation theory]]
 
-* [[Peter Woit]], *Quantum Theory, Groups and Representations: An Introduction*, Springer 2017 &lbrack;[doi:10.1007/978-3-319-64612-1](https://doi.org/10.1007/978-3-319-64612-1), ISBN:978-3-319-64610-7&rbrack;
+* [[Peter Woit]], *Quantum Theory, Groups and Representations: An Introduction*, Springer (2017) &lbrack;[doi:10.1007/978-3-319-64612-1](https://doi.org/10.1007/978-3-319-64612-1), ISBN:978-3-319-64610-7&rbrack;
 
 On the [[interpretation of quantum mechanics]]:
 
@@ -516,8 +507,6 @@ Lecture notes:
 * [[Robert Geroch]], *Geometrical Quantum Mechanics*, University of Chicago (1974) &lbrack;[pdf](http://strangebeautiful.com/other-texts/geroch-geom-qm.pdf), [[Geroch-GeometricalQuantumMechanics.pdf:file]]&rbrack;
 
 * Uni Bonn, _[Lecture scripts and Online courses -- Quantum mechanics](https://web.archive.org/web/20001101031920/http://www-cip.physik.uni-bonn.de/~baehren/scripts/quantum.html)_
-
-
 
 * [[Valter Moretti]], *Mathematical Foundations of Quantum Mechanics: An Advanced Short Course*, Int. J. Geom. Methods Mod. Phys. **13** Supp. 1 (2016) 1630011 &lbrack;[arXiv:1508.06951](http://arxiv.org/abs/1508.06951), [doi:10.1142/S0219887816300117](https://doi.org/10.1142/S0219887816300117)&rbrack;
 
