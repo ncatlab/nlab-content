@@ -82,6 +82,7 @@ A __Brunnian link__ is a link which is not an unlink but which has the property 
 
 * [[Dale Rolfsen]], _Knots and links_, AMS Chelsea __346__ (2003) &lbrack;[ams:chel-346-h](https://bookstore.ams.org/chel-346-h), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/rolfsen.pdf)&rbrack;
 
+* [[Manifold Atlas]]: *[High codimension links](http://www.map.mpim-bonn.mpg.de/High_codimension_links)*
 
 
 [[!redirects link]]
