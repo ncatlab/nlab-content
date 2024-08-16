@@ -74,7 +74,7 @@ As outlined above, cartesianity is an algebraic structure on top of a monoidal s
 \[
 U \dashv F : \mathbf{CartMonCat} \leftrightarrows \mathbf{MonCat}
 \]
-Thomas Fox showed in ([Fox 1976](#Fox76)) that $\mathbf{Cart}$ is also comonadic, that is, that $U$ admits a right adjoint $C \dashv U$, given by constructing the category of comonoids in a given monoidal category $\mathbf{M}$.
+Thomas Fox showed in ([Fox 1976](#Fox76)) that $\mathbf{Cart}$ is also comonadic, that is, that $U$ admits a right adjoint $C \dashv U$, given by constructing the category of cocommutative comonoids in a given monoidal category $\mathbf{M}$.
 
 ## Related concepts
 
