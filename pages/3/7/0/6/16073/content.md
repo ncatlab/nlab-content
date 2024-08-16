@@ -26,6 +26,8 @@
 
 ## Related entries
 
+* [[framed link]]
+
 * [[Dehn surgery]]
 
 ## References
