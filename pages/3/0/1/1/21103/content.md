@@ -18,7 +18,7 @@
 
 In [[solid state physics]] a *[[strange metal]]* is a [[metal|metallic]] [[phase of matter]] which is *not* described well by [[Landau's Fermi liquid theory]] of small [[perturbation theory|perturbations]] about the [[Fermi sea]].
 
-Known strange metals exhibit [[topological order]] in that their [[ground state]] has long-range [[entanglement]] (a [[topological phase of matter]]). Instead of by Fermi liquid theory, strange metals are well described by [[AdS/CFT in condensed matter physics]].
+Known strange metals exhibit [[topological order]] in that their [[ground state]] has long-range [[entanglement]] (a [[topological phase of matter]]). Instead of by Fermi liquid theory, strange metals are better described by [[AdS-CMT duality]].
 
 ## Related concepts
 
@@ -32,6 +32,8 @@ Known strange metals exhibit [[topological order]] in that their [[ground state]
 
 
 ## References
+
+### General
 
 Review:
 
@@ -64,30 +66,35 @@ Vol. 366, Issue 6468, pp. 987-990 ([doi:10.1126/science.aau7063](https://science
   
 More on relation of strange metals to high-temperature [[superconductivity]]:
 
-* Konstantin Tikhonov, Mikhail Feigel'man, *Strange metal state near quantum superconductor-metal transition in thin films*, Annals of Physics
-Volume 417, June 2020, 168138 ([arXiv:2002.08107](https://arxiv.org/abs/2002.08107), [doi:10.1016/j.aop.2020.168138](https://doi.org/10.1016/j.aop.2020.168138))
-
+* Konstantin Tikhonov, Mikhail Feigel'man, *Strange metal state near quantum superconductor-metal transition in thin films*, Annals of Physics **417** (2020) 168138 &lbrack;[arXiv:2002.08107](https://arxiv.org/abs/2002.08107), [doi:10.1016/j.aop.2020.168138](https://doi.org/10.1016/j.aop.2020.168138)&rbrack;
 
 Relation of [[strange metals]]/[[high-temperature superconductors]] to [[confinement]]:
 
 * J. P. Rodriguez, Pascal Lederer, _Confinement of Spin and Charge in High-Temperature Superconductors_, Phys. Rev. B 53, R11980(R) 1996 ([arXiv:cond-mat/9604109](https://arxiv.org/abs/cond-mat/9604109))
 
+### Via AdS/CMT duality
+
 Discussion of [[strange metals]]/[[high-temperature superconductors]] via [[AdS/CFT in condensed matter physics]]:
+
+* V. Giangreco M. Puletti, S. Nowling, L. Thorlacius, T. Zingg: *Holographic metals at finite temperature*, J. High Energ. Phys. **2011** 117 (2011) \[<a href="https://doi.org/10.1007/JHEP01(2011)117">doi:10.1007/JHEP01(2011)117</a>, [arXiv:1011.6261](https://arxiv.org/abs/1011.6261)\]
 
 * [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
 
-* {#Amoretti17} [[Andrea Amoretti]], _Condensed Matter Applications of AdS/CFT: Focusing on strange metals_, 2017 ([spire:1610363](http://inspirehep.net/record/1610363), [[AmorettiStrangeMetals.pdf:file]])
+* {#Amoretti17} [[Andrea Amoretti]], _Condensed Matter Applications of AdS/CFT: Focusing on strange metals_ (2017) &lbrack;[spire:1610363](http://inspirehep.net/record/1610363), [[AmorettiStrangeMetals.pdf:file]]&rbrack;
 
-via the [[SYK model]]:
+* [[Jan Zaanen]], _Planckian dissipation, minimal viscosity and the transport in cuprate strange metals_, SciPost Phys. 6, 061 (2019) ([arXiv:1807.10951](https://arxiv.org/abs/1807.10951))
+
+* {#Zaanen21} [[Jan Zaanen]], *Lectures on quantum supreme matter* &lbrack;[arXiv:2110.00961](https://arxiv.org/abs/2110.00961)&rbrack;
+
+* Javier Carballo, Ayan K. Patra, Juan F. Pedraza: *Diving inside holographic metals* &lbrack;[arXiv:2408.07748](https://arxiv.org/abs/2408.07748)&rbrack;
+
+and via the [[SYK model]]:
 
 * [[Subir Sachdev]], *Statistical mechanics of strange metals and black holes* ([arXiv:2205.02285](https://arxiv.org/abs/2205.02285))
 
 
-On [[strange metals]], high $T_c$-[[superconductors]] and [[AdS/CMT duality]]:
 
-* [[Jan Zaanen]], _Planckian dissipation, minimal viscosity and the transport in cuprate strange metals_, SciPost Phys. 6, 061 (2019) ([arXiv:1807.10951](https://arxiv.org/abs/1807.10951))
 
-* {#Zaanen21} [[Jan Zaanen]], *Lectures on quantum supreme matter* ([arXiv:2110.00961](https://arxiv.org/abs/2110.00961))
 
 
 [[!redirects strange metals]]
