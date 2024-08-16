@@ -16,13 +16,13 @@
 
 ## Idea ##
 
-A **retrofunctor** (also called a **cofunctor**) is a kind of morphism between [[category|categories]]. In contrast to a [[functor]], the assignment on objects of a retrofunctor goes in the _opposite_ direction to the assignment on morphisms. 
+A **retrofunctor** (sometimes called a **cofunctor**) is a kind of morphism between [[category|categories]]. In contrast to a [[functor]], the assignment on objects of a retrofunctor goes in the _opposite_ direction to the assignment on morphisms. 
 
 Retrofunctors generalise both [[bijective on objects functor|bijective-on-objects functors]] and [[discrete fibration|discrete opfibrations]]. 
 
 Retrofunctors arise naturally in the study [[internal category in a monoidal category|non-cartesian internal categories]].
 
-In the literature, the terminology "cofunctor" is common. However, terminology is misleading, as a cofunctor is not the [[opposite]] of a functor. We use the terminology "retrofunctor", as this avoids confusion, and aligns with the concept of [[monad retromorphism]] (of which retrofunctors are a motivating example).
+In the literature, the terminology "cofunctor" is common. However, terminology is misleading, as a cofunctor is not the [[opposite]] of a functor. Moreover, the terminology "cofunctor" is also used for a morphism of [[cocategories]]. We use the terminology "retrofunctor", as this avoids confusion, and aligns with the concept of [[monad retromorphism]] (of which retrofunctors are a motivating example).
 
 ## Definition ##
 
