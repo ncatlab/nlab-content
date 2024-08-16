@@ -250,9 +250,9 @@ Reformulation of "super-embeddings" via a supergeometric [[Darboux coframe]]-con
 
 * {#GSS24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], §2 in: *[[schreiber:Flux Quantization on M5-Branes]]* &lbrack;[arXiv:2406.11304](https://arxiv.org/abs/2406.11304)&rbrack;
 
-An actual example of a non-trivial super-embedding (for [[M5-branes]]):
+Actual examples of non-trivial super-embeddings (namely [holographic super-embeddings](AdS-CFT+correspondence#ReferencesMicroscopicAdSCFTViapBraneSigmaModesl) of [[M5-branes]] and [[M2-branes]]):
 
-* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], §2.4 in: *[[schreiber:Flux Quantization on Holographic M5-Branes]]*
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Holographic M-Brane Super-Embeddings]]*
 
 
 
