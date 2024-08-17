@@ -18,6 +18,11 @@ On relation of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]
 
 * [[Yuri Manin]], [[Matilde Marcolli]], _Holography principle and arithmetic of algebraic curves_, Adv. Theor. Math. Phys. 5 (2002) 617-650 ([arXiv:hep-th/0201036](https://arxiv.org/abs/hep-th/0201036))
 
+On the [[fractional quantum Hall effect]] via [[noncommutative geometry]]:
+
+* [[Matilde Marcolli]], [[Varghese Mathai]]: *Towards the fractional quantum Hall effect: a noncommutative geometry perspective*, in *Noncommutative Geometry and Number Theory*, Vieweg (2006) \[<a href="https://doi.org/10.1007/978-3-8348-0352-8_12">doi:10.1007/978-3-8348-0352-8_12</a>, <a href="https://arxiv.org/abs/cond-mat/0502356">arXiv:cond-mat/0502356</a>\]
+
+
 Speculation on [[quantum field theory]] over $\mathbb{F}_1$ (via [[wonderful compactifications]] of [[configuration spaces of points]]):
 
 * Dori Bejleri, [[Matilde Marcolli]], *Quantum field theory over $\mathbb{F}_1$*, Journal of Geometry and Physics
