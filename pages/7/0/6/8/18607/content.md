@@ -10,6 +10,11 @@ On the [[non-abelian DBI action]] for [[intersecting branes]] with non-abelian [
 * [[Washington Taylor]], [[Mark Van Raamsdonk]], _Multiple D$p$-branes in Weak Background Fields_, Nucl. Phys. B573:703-734, 2000 ([arXiv:hep-th/9910052](https://arxiv.org/abs/hep-th/9910052))
 
 
+Discussion of the [[fractional quantum Hall effect]] via abelian but [[noncommutative geometry|noncommutative]] ([[matrix model]]-)[[Chern-Simons theory]]:
+
+* [[Simeon Hellerman]], [[Mark Van Raamsdonk]]: *Quantum Hall Physics = Noncommutative Field Theory*, JHEP 0110:039 (2001) \[<a href="https://doi.org/10.1088/1126-6708/2001/10/039">doi:10.1088/1126-6708/2001/10/039</a>, [arXiv:hep-th/0103179](https://arxiv.org/abs/hep-th/0103179)\]
+
+
 On the [[BMN matrix model]]:
 
 * {#DSJVR02} [[Keshav Dasgupta]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], _Matrix Perturbation Theory For M-theory On a PP-Wave_, JHEP 0205:056, 2002 ([arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185))
@@ -23,7 +28,7 @@ On [[M5-branes]] in the [[BMN matrix model]]:
 
 and a limit where aspects of [[little string theory]] become visible:
 
-* Henry Ling, Ali Reza Mohazab, Hsien-Hang Shieh, Greg van Anders, [[Mark Van Raamsdonk]], *Little String Theory from a Double-Scaled Matrix Model*, JHEP 0610:018 (2006) $[$[arXiv:hep-th/0606014](https://arxiv.org/abs/hep-th/0606014), [doi:10.1088/1126-6708/2006/10/018](https://doi.org/10.1088/1126-6708/2006/10/018)$]$
+* Henry Ling, Ali Reza Mohazab, Hsien-Hang Shieh, Greg van Anders, [[Mark Van Raamsdonk]], *Little String Theory from a Double-Scaled Matrix Model*, JHEP 0610:018 (2006) &lbrack;[arXiv:hep-th/0606014](https://arxiv.org/abs/hep-th/0606014), [doi:10.1088/1126-6708/2006/10/018](https://doi.org/10.1088/1126-6708/2006/10/018)&rbrack;
 
 
 On the [[mass-deformed ABJM model]] and the [[Myers effect]] for [[M2 branes]] ([[M2-M5 brane bound states]]):
