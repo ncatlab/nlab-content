@@ -19,6 +19,11 @@ On [[topological T-duality]]:
 
 * [[Varghese Mathai]], [[Jonathan Rosenberg]], _T-Duality for Torus Bundles with H-Fluxes via Noncommutative Topology_ ([arXiv:hep-th/0401168](http://arxiv.org/abs/hep-th/0401168))
 
+On the [[fractional quantum Hall effect]] via [[noncommutative geometry]]:
+
+* [[Matilde Marcolli]], [[Varghese Mathai]]: *Towards the fractional quantum Hall effect: a noncommutative geometry perspective*, in *Noncommutative Geometry and Number Theory*, Vieweg (2006) \[<a href="https://doi.org/10.1007/978-3-8348-0352-8_12">doi:10.1007/978-3-8348-0352-8_12</a>, <a href="https://arxiv.org/abs/cond-mat/0502356">arXiv:cond-mat/0502356</a>\]
+
+
 On [[analytic torsion]] and [[twisted de Rham cohomology]]:
 
 * [[Varghese Mathai]], [[Siye Wu]], _Analytic torsion for twisted de Rham complexes_, J. Diff. Geom. 88:297-332, 2011 ([arXiv:0810.4204](https://arxiv.org/abs/0810.4204))
