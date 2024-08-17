@@ -125,11 +125,11 @@ Since the first term is typicall known by construction,  knowledge of either of 
 
 The original article:
 
-* {#Hall1879} [[Edwin Hall]], _On a New Action of the Magnet on Electric Currents_, American Journal of Mathematics Vol. 2, No. 3 (Sep., 1879), pp. 287-292 ([doi:10.2307/2369245](https://doi.org/10.2307/2369245))
+* {#Hall1879} [[Edwin Hall]], _On a New Action of the Magnet on Electric Currents_, American Journal of Mathematics **2** 3 (1879) 287-292 &lbrack;[doi:10.2307/2369245](https://doi.org/10.2307/2369245)&rbrack;
 
 See also:
 
-* Wikipedia, _[Hall effect](https://en.wikipedia.org/wiki/Hall_effect)_
+* Wikipedia: _[Hall effect](https://en.wikipedia.org/wiki/Hall_effect)_
 
 [[!redirects Hall effects]]
 
