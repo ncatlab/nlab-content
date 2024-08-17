@@ -53,7 +53,9 @@ On [[D=14 supersymmetry]]:
 
 * [[Ergin Sezgin]], _Super Yang-Mills in $(11,3)$ Dimensions_, 	Phys.Lett. B403 (1997) 265-272 ([arXiv:hep-th/9703123](https://arxiv.org/abs/hep-th/9703123))
 
-* I. Rudychev, [[Ergin Sezgin]], P. Sundell, _Supersymmetry in Dimensions Beyond Eleven_, Nucl. Phys. Proc. Suppl. 68 (1998) 285-294 ([arXiv:hep-th/9711127](https://arxiv.org/abs/hep-th/9711127))
+and also [[D=12 supergravity]]
+
+* I. Rudychev, [[Ergin Sezgin]], [[Per Sundell]], _Supersymmetry in Dimensions Beyond Eleven_, Nucl. Phys. Proc. Suppl. **68** (1998) 285-294 \[<a href="https://doi.org/10.1016/S0920-5632(98)00162-5">doi:10.1016/S0920-5632(98)00162-5</a>, [arXiv:hep-th/9711127](https://arxiv.org/abs/hep-th/9711127)\]
 
 On the [[M2-brane]] via the [[superembedding approach]]:
 
