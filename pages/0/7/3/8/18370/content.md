@@ -11,10 +11,13 @@ On [[open/closed string duality]] in interpreting [['t Hooft double line notatio
 
 Introducing [[Gopakumar-Vafa duality]]:
 
-
 * [[Rajesh Gopakumar]], [[Cumrun Vafa]], _Topological Gravity as Large N Topological Gauge Theory_, Adv. Theor. Math. Phys. 2:413-442, 1998 ([arXiv:hep-th/9802016](https://arxiv.org/abs/hep-th/9802016))
 
 * [[Rajesh Gopakumar]], [[Cumrun Vafa]], _On the Gauge Theory/Geometry Correspondence_, Adv. Theor. Math. Phys. 3 (1999) 1415-1443 ([arXiv:hep-th/9811131](https://arxiv.org/abs/hep-th/9811131))
+
+Discussion of effective [[non-commutative geometry]] exhibited by open [[M2-branes]] [[intersecting brane|ending on]] [[M5-branes]] induced by a constant [[B-field]] [[flux density]] on the M5-[[worldvolume]]:
+
+* [[Rajesh Gopakumar]], [[Shiraz Minwalla]], [[Nathan Seiberg]], [[Andrew Strominger]]: *OM Theory in Diverse Dimensions*,  JHEP08 (2000) 008 \[<a href="https://iopscience.iop.org/article/10.1088/1126-6708/2000/08/008">doi:10.1088/1126-6708/2000/08/008</a>, [arXiv:hep-th/0006062](https://arxiv.org/abs/hep-th/0006062)\]
 
 
 On [[AdS3/CFT2]]:
