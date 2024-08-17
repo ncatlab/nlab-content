@@ -598,19 +598,33 @@ Further developments:
 ### Worldvolume theory
  {#ReferencesWorldvolumeTheory}
 
-The original article suggesting the description of the [[self-dual higher gauge theory]] on the 5-brane [[holographic principle|holographically]] by a dual [[higher dimensional Chern-Simons theory]] is
+The original article suggesting the description of the [[self-dual higher gauge theory]] on the 5-brane [[holographic principle|holographically]] by a dual [[higher dimensional Chern-Simons theory]]:
 
 * {#Witten96} [[Edward Witten]], _Five-Brane Effective Action In M-Theory_, J. Geom. Phys. **22** (1997) 103-133 &lbrack;[arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234), <a href="https://doi.org/10.1016/S0393-0440(97)80160-X">doi:10.1016/S0393-0440(97)80160-X</a>&rbrack;
  
-
-A precise mathematical formulation of the proposal made there is given in
+Proposal for a mathematical formulation:
 
 * {#HopkinsSinger} [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
  
-
 A discussion that embeds this argument into the larger context of [[AdS-CFT duality]]:
 
 * {#Witten98} [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ JHEP 9812:012,1998 ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
+
+Discussion of effective [[non-commutative geometry]] on M5-brane worldvolumes induced from a constant [[B-field]] [[flux density]]:
+
+* [[Eric Bergshoeff]], [[David S. Berman]], [[Jan Pieter van der Schaar]], [[Per Sundell]]: *A Noncommutative M-Theory Five-brane*, Nucl. Phys. B **590** (2000) 173-197 \[<a href="https://doi.org/10.1016/S0550-3213(00)00476-4">doi:10.1016/S0550-3213(00)00476-4</a>, [arXiv:hep-th/0005026](https://arxiv.org/abs/hep-th/0005026)\]
+
+* [[Eric Bergshoeff]], [[David S. Berman]], [[Jan Pieter van der Schaar]], [[Per Sundell]]: *Critical fields on the M5-brane and noncommutative open strings*,  Phys. Lett. B **492** (2000) 193-200 \[<a href="https://doi.org/10.1016/S0370-2693(00)01081-9">doi:10.1016/S0370-2693(00)01081-9</a>, [arXiv:hep-th/0006112](https://arxiv.org/abs/hep-th/0006112)\]
+
+* [[Rajesh Gopakumar]], [[Shiraz Minwalla]], [[Nathan Seiberg]], [[Andrew Strominger]]: *OM Theory in Diverse Dimensions*,  JHEP08 (2000) 008 \[<a href="https://iopscience.iop.org/article/10.1088/1126-6708/2000/08/008">doi:10.1088/1126-6708/2000/08/008</a>, [arXiv:hep-th/0006062](https://arxiv.org/abs/hep-th/0006062)\]
+
+* [[Micha Berkooz]]: *Light-like $(2,0)$ Noncommutativity and Light-Cone Rigid Open Membrane Theory* \[<a href="https://arxiv.org/abs/hep-th/0010158">arXiv:hep-th/0010158</a>, [inspire:535327](https://inspirehep.net/literature/535327)\]
+
+and relating this to aspects of the [[quantum Hall effect]]:
+
+* [[Simeon Hellerman]], [[Leonard Susskind]]: *Realizing the Quantum Hall System in String Theory* \[<a href="https://arxiv.org/abs/hep-th/0107200">arXiv:hep-th/0107200</a>\]
+
+
 
 Discussion of [[S-duality]] in 6d self-dual higher gauge theory via [[non-commutative geometry|non-commutative]]-deformation:
 
