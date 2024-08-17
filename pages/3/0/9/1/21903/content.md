@@ -36,7 +36,7 @@
 
 * [[Itzhak Bars]], _Duality Covariant Type IIB Supersymmetry and Nonperturbative Consequences_, Phys. Rev. D 56, 7954 (1997) ([arXiv:hep-th/9706185](https://arxiv.org/abs/hep-th/9706185))
 
-* I. Rudychev, [[Ergin Sezgin]], P. Sundell, _Supersymmetry in Dimensions Beyond Eleven_, Nucl. Phys. Proc. Suppl. 68 (1998) 285-294 ([arXiv:hep-th/9711127](https://arxiv.org/abs/hep-th/9711127))
+* I. Rudychev, [[Ergin Sezgin]], [[Per Sundell]], _Supersymmetry in Dimensions Beyond Eleven_, Nucl. Phys. Proc. Suppl. **68** (1998) 285-294 \[<a href="https://doi.org/10.1016/S0920-5632(98)00162-5">doi:10.1016/S0920-5632(98)00162-5</a>, [arXiv:hep-th/9711127](https://arxiv.org/abs/hep-th/9711127)\]
 
 * [[Hitoshi Nishino]], _Supersymmetric Yang-Mills Theories in $D \geq 12$_, Nucl.Phys. B523 (1998) 450-464 ([arXiv:hep-th/9708064](https://arxiv.org/abs/hep-th/9708064))
 
