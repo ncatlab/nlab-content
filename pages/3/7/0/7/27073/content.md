@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+Discussion of the [[fractional quantum Hall effect]] via abelian but [[noncommutative geometry|noncommutative]] ([[matrix model]]-)[[Chern-Simons theory]]:
+
+* [[Simeon Hellerman]], [[Mark Van Raamsdonk]]: *Quantum Hall Physics = Noncommutative Field Theory*, JHEP 0110:039 (2001) \[<a href="https://doi.org/10.1088/1126-6708/2001/10/039">doi:10.1088/1126-6708/2001/10/039</a>, [arXiv:hep-th/0103179](https://arxiv.org/abs/hep-th/0103179)\]
+
+
 On [[geometric engineering]] of aspects of the [[quantum Hall effect]] on [[M5-brane]] [[worldvolumes]] via an effective [[noncommutative geometry]] induced by a constant [[B-field]] [[flux density]]:
 
 * [[Simeon Hellerman]], [[Leonard Susskind]]: *Realizing the Quantum Hall System in String Theory* \[<a href="https://arxiv.org/abs/hep-th/0107200">arXiv:hep-th/0107200</a>\]
