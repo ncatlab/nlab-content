@@ -82,7 +82,6 @@ The BRST formalism originates around
 
  * [[I. V. Tyutin]], (1975), _Gauge Invariance in Field Theory and Statistical Physics in Operator Formalism_, [arXiv:0812.0580](https://arxiv.org/abs/0812.0580).
 
-
 see also the references at _[[BRST]]_.
 
 A classical standard references for the Lagrangian formalism is
@@ -98,6 +97,10 @@ considers the Hamiltonian formulation. Chapters 17 and 18 are about the Lagrangi
 The [[L-infinity algebroid]]-structure of the [[local BRST complex]] on the [[jet bundle]] is made manifest in
 
 * {#Barnich10} [[Glenn Barnich]], _A note on gauge systems from the point of view of Lie algebroids_, in: *XXIX Workshop on Geometric Methods in Physics*, AIP Conference Proceedings, **1307** 7 (2010) &lbrack;[arXiv:1010.0899](https://arxiv.org/abs/1010.0899), [doi:/10.1063/1.3527427]( https://doi.org/10.1063/1.3527427)&rbrack;
+
+Lecture notes from this perspective:
+
+* [[Urs Schreiber]]: around [Ex. 10.28](https://ncatlab.org/nlab/show/geometry+of+physics+--+perturbative+quantum+field+theory#LocalOffShellBRSTComplex) in *[[geometry of physics -- perturbative quantum field theory]]* (2018)
 
 
 Discussion with more emphasis on the applications to quantum field theory of interest is in lecture 3 of 
