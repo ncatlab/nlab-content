@@ -108,32 +108,65 @@ Review of this theory behind the quantum Hall effect:
 
 * S. Klevtsov, X. Ma, G. Marinescu, P. Wiegmann, _Quantum Hall effect and Quillen metric_ Commun. Math. Phys. 349, 819–855 (2017) [doi](https://doi.org/10.1007/s00220-016-2789-2)
 
+
 ### Fractional quantum Hall effect
+
+
+#### General
+
+* Horst L. Stormer: *Nobel Lecture: The fractional quantum Hall effect*, Rev. Mod. Phys. **71** (1999) 875 \[<a href="https://doi.org/10.1103/RevModPhys.71.875">doi:10.1103/RevModPhys.71.875</a>\]
+
+See also:
+
+* Wikipedia, *[Fractional Quantum Hall Effect](https://en.wikipedia.org/wiki/Fractional_quantum_Hall_effect)*
+
 
 A quick review of the description via [[Chern-Simons theory]] with further pointers is in the introduction of 
 
-* Spencer D. Stirling, _Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories_, [arXiv:0807.2857](http://arxiv.org/abs/0807.2857)
+* Spencer D. Stirling, _Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories_, &lbrack;[arXiv:0807.2857](http://arxiv.org/abs/0807.2857)&rbrack;
 
-J. Bellissard introduced an approach via [[noncommutative geometry]] and Connes-Chern character: 
+In terms of [[Berry phase]] and Chern numbers:
 
-* J. Bellissard, A. van Elst, H. Schulz Baldes, _The noncommutative geometry of the quantum Hall effect_, 79 pages, J. Math. Phys. __35__, 5373 (1994) [cond-mat/9411052](http://arxiv.org/abs/cond-mat/9411052) [doi](http://link.aip.org/link/doi/10.1063/1.530758)
-
-In terms of [[Berry phase]] and Chern numbers in 
-
-* Joseph E. Avron, Daniel Osadchy, Ruedi Seiler, _A topological look at the quantum Hall effect_, Physics Today __56__:8, [doi](http://dx.doi.org/10.1063/1.1611351)
+* Joseph E. Avron, Daniel Osadchy, Ruedi Seiler: _A topological look at the quantum Hall effect_, Physics Today __56__:8, &lbrack;[doi:10.1063/1.1611351](http://dx.doi.org/10.1063/1.1611351)&rbrack;
 
 Realization via [[AdS/CFT in condensed matter physics]]:
 
-* Mitsutoshi Fujita, Wei Li, Shinsei Ryu, Tadashi Takayanagi, *Fractional Quantum Hall Effect via Holography: Chern-Simons, Edge States, and Hierarchy*, JHEP 0906:066 (2009) ([arXiv:0901.0924](https://arxiv.org/abs/0901.0924))
+* Mitsutoshi Fujita, Wei Li, [[Shinsei Ryu]], [[Tadashi Takayanagi]], *Fractional Quantum Hall Effect via Holography: Chern-Simons, Edge States, and Hierarchy*, JHEP 0906:066 (2009) &lbrack;[arXiv:0901.0924](https://arxiv.org/abs/0901.0924)&rbrack;
 
-On microscopic explanations of the fractional quantum Hall effect:
+#### Experiment
+
+* D. C. Tsui, H. L. Stormer, and A. C. Gossard: *Two-Dimensional Magnetotransport in the Extreme Quantum Limit*, Phys. Rev. Lett. **48** (1982) 1559 \[<a href="https://doi.org/10.1103/PhysRevLett.48.1559">doi:10.1103/PhysRevLett.48.1559</a>\]
+
+
+
+#### Microscopic models
+  {#ReferencesMicroscopicModelsForFQHE}
+
+The original [[Laughlin wavefunction]]:
+
+* [[Robert B. Laughlin]], *Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations*, Phys. Rev. Lett. **50** (1983) 1395 &lbrack;[doi:10.1103/PhysRevLett.50.1395](https://doi.org/10.1103/PhysRevLett.50.1395)&rbrack;
+
+The composite-fermion model:
+
+* [[Jainendra K. Jain]]: *Composite-fermion approach for the fractional quantum Hall effect*, Phys. Rev. Lett. **63** (1989) 199 \[<a href="https://doi.org/10.1103/PhysRevLett.63.199">doi:10.1103/PhysRevLett.63.199</a>\]
 
 * [[Jainendra K. Jain]]: *Microscopic theory of the fractional quantum Hall effect*, Adv. Phys. **41** (1992) 105-146 \[<a href="https://doi.org/10.1080/00018739200101483">doi:10.1080/00018739200101483</a>\]
+
+Further discussion:
 
 * [[Jainendra K. Jain]]: *A note contrasting two microscopic theories of the fractional quantum Hall effect*, Indian J of Phys **88** (2014) 915-929 \[<a href="https://doi.org/10.1007/s12648-014-0491-9">doi:10.1007/s12648-014-0491-9</a>, [arXiv:1403.5415](https://arxiv.org/abs/1403.5415)\]
 
 * C.-C Chang, [[Jainendra K. Jain]]: *Microscopic origin of the next generation fractional quantum Hall effect*, Phys. Rev. Lett. **92** (2004) 196806 \[<a href="https://doi.org/10.1103/PhysRevLett.92.196806">doi:10.1103/PhysRevLett.92.196806</a>, [arXiv:cond-mat/0404079](https://arxiv.org/abs/cond-mat/0404079)\]
 
+
+#### Via non-commutative geometry
+ {#ReferencesNoncommutativeGeometryOfFQHE}
+
+Via [[noncommutative geometry]] and Connes-Chern character: 
+
+* J. Bellissard, A. van Elst, H. Schulz Baldes: _The noncommutative geometry of the quantum Hall effect_, 79 pages, J. Math. Phys. __35__, 5373 (1994) &lbrack;[cond-mat/9411052](http://arxiv.org/abs/cond-mat/9411052),  [doi:10.1063/1.530758](http://link.aip.org/link/doi/10.1063/1.530758)&rbrack;
+
+(...)
 
 
 [[!include anyons in the quantum Hall effect -- references]]
