@@ -314,14 +314,17 @@ The definition of representation of $L_\infty$-algebras is discussed in section 
 
 * [[Tom Lada]], [[Martin Markl]], _Strongly homotopy Lie algebras_ ([arXiv:9406095](http://arxiv.org/abs/hep-th/9406095))
 
-
 The general definition of representation of $\infty$-Lie algebroids (of [[finite type]]) as above appears as def. 4.9 in 
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Differential twisted string- and fivebrane structures_ ([arXiv:0910.4001 version 1](http://arxiv.org/abs/0910.4001v1))
 
 (this discussion is not in the published version [arXiv:0910.4001v2](http://arxiv.org/abs/0910.4001v2), for size reasons)
 
-modeled after the geneal abstract definition of [[∞-actions]] in 
+following 
+
+* [[Urs Schreiber]]: *On $\infty$-Lie* (2008) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schreiber/action.pdf), [[Schreiber-InfinityLie.pdf:file]]&rbrack;
+
+and modeled after the general abstract definition of [[∞-actions]] in 
 
 * [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_, Journal of Homotopy and Related Structures, 2014 ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
 
