@@ -110,7 +110,6 @@ Review of this theory behind the quantum Hall effect:
 
 ### Fractional quantum Hall effect
 
-
 A quick review of the description via [[Chern-Simons theory]] with further pointers is in the introduction of 
 
 * Spencer D. Stirling, _Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories_, [arXiv:0807.2857](http://arxiv.org/abs/0807.2857)
@@ -126,6 +125,12 @@ In terms of [[Berry phase]] and Chern numbers in
 Realization via [[AdS/CFT in condensed matter physics]]:
 
 * Mitsutoshi Fujita, Wei Li, Shinsei Ryu, Tadashi Takayanagi, *Fractional Quantum Hall Effect via Holography: Chern-Simons, Edge States, and Hierarchy*, JHEP 0906:066 (2009) ([arXiv:0901.0924](https://arxiv.org/abs/0901.0924))
+
+On microscopic explanations of the fractional quantum Hall effect:
+
+* [[Jainendra K. Jain]]: *A note contrasting two microscopic theories of the fractional quantum Hall effect*, Indian J of Phys **88* (2014) 915-929 \[<a href="https://doi.org/10.1007/s12648-014-0491-9">doi:10.1007/s12648-014-0491-9</a>, [arXiv:1403.5415](https://arxiv.org/abs/1403.5415)\]
+
+* C.-C Chang, [[Jainendra K. Jain]]: *Microscopic origin of the next generation fractional quantum Hall effect*, Phys. Rev. Lett. **92** (2004) 196806 \[<a href="https://doi.org/10.1103/PhysRevLett.92.196806">doi:10.1103/PhysRevLett.92.196806</a>, [arXiv:cond-mat/0404079](https://arxiv.org/abs/cond-mat/0404079)\]
 
 
 
