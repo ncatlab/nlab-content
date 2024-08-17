@@ -5,6 +5,11 @@ David Berman is professor in theoretical [[physics]] at Queen Mary University of
 
 ## Selected writings
 
+Discussion of effective [[non-commutative geometry]] on [[M5-brane]] [[worldvolumes]] induced by a constant [[B-field]] [[flux density]]
+
+* [[Eric Bergshoeff]], [[David S. Berman]], [[Jan Pieter van der Schaar]], [[Per Sundell]]: *A Noncommutative M-Theory Five-brane*, Nucl. Phys. B **590** (2000) 173-197 \[<a href="https://doi.org/10.1016/S0550-3213(00)00476-4">doi:10.1016/S0550-3213(00)00476-4</a>, [arXiv:hep-th/0005026](https://arxiv.org/abs/hep-th/0005026)\]
+
+
 On [[M-branes]]:
 
 * [[David Berman]]: *M-theory branes and their interactions*, Phys. Rept. **456** (2008) 89-126 &lbrack;[arXiv:0710.1707](https://arxiv.org/abs/0710.1707), [doi:10.1016/j.physrep.2007.10.002](https://doi.org/10.1016/j.physrep.2007.10.002)&rbrack;
