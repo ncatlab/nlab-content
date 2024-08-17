@@ -132,6 +132,14 @@ Realization via [[AdS/CFT in condensed matter physics]]:
 [[!include anyons in the quantum Hall effect -- references]]
 
 
+### In string/M-theory
+
+On [[geometric engineering]] of aspects of the quantum Hall effect on [[M5-brane]] [[worldvolumes]] via an effective [[noncommutative geometry]] induced by a constant [[B-field]] [[flux density]]:
+
+* [[Simeon Hellerman]], [[Leonard Susskind]]: *Realizing the Quantum Hall System in String Theory* \[<a href="https://arxiv.org/abs/hep-th/0107200">arXiv:hep-th/0107200</a>\]
+
+
+
 
 
 
