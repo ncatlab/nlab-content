@@ -32,7 +32,8 @@ Matrix models that have been argued to capture [[D-brane]] dynamics and [[nonper
 
 ## References
 
-> For references on the [[BFSS matrix model|BFSS]]-, [[IKKT matrix model|IKKT]]- and [[BMN matrix models]] see there.
+
+### For QCD
 
 First inkling of matrix models from the [[large N limit]] of [[QCD]]:
 
@@ -42,6 +43,19 @@ First inkling of matrix models from the [[large N limit]] of [[QCD]]:
 
 * A. Gonzalez-Arroyo, M. Okawa, _Twisted-Eguchi-Kawai model: A reduced model for large-
 $N$ lattice gauge theory_, Phys. Rev. D 27, 2397 (1983) ([doi:10.1103/PhysRevD.27.2397](https://doi.org/10.1103/PhysRevD.27.2397))
+
+
+### In string/M-theory
+
+> For references on the [[BFSS matrix model|BFSS]]-, [[IKKT matrix model|IKKT]]- and [[BMN matrix models]] see there.
+
+
+
+[[!include quantum Hall effect via noncommutative geometry -- references]]
+
+
+
+### See also
 
 Discussion of [[topological recursion]] for matrix models originates with
 
