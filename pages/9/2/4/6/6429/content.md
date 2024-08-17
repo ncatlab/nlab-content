@@ -15,6 +15,10 @@ Discussion of [[black hole entropy]] of [[D2-D6 brane bound states]] as [[black 
 
 * [[Juan Maldacena]], [[Andrew Strominger]], _Statistical Entropy of Four-Dimensional Extremal Black Holes_, Phys. Rev. Lett. 77:428-429, 1996 ([arXiv:hep-th/9603060](https://arxiv.org/abs/hep-th/9603060))
 
+Discussion of effective [[non-commutative geometry]] exhibited by open [[M2-branes]] [[intersecting brane|ending on]] [[M5-branes]] induced by a constant [[B-field]] [[flux density]] on the M5-[[worldvolume]]:
+
+* [[Rajesh Gopakumar]], [[Shiraz Minwalla]], [[Nathan Seiberg]], [[Andrew Strominger]]: *OM Theory in Diverse Dimensions*,  JHEP08 (2000) 008 \[<a href="https://iopscience.iop.org/article/10.1088/1126-6708/2000/08/008">doi:10.1088/1126-6708/2000/08/008</a>, [arXiv:hep-th/0006062](https://arxiv.org/abs/hep-th/0006062)\]
+
 
 On [[KK-compactification|dimensional reduction]] of [[black rings]] in [[D=5 gravity]] to [[black holes]] in [[D=4 gravity]]:
 
