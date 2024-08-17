@@ -79,11 +79,10 @@ In addition to the open string tachyon [[condensation]] discussed in the referen
 
 The following articles specifically identify closed string tachyon condensation as the disappearing of [[dimensions]] of [[spacetime]].
 
+* [[Simeon Hellerman]], X. Liu, _Dynamical dimension change in supercritical string theory_, JHEP0709:096 (2007)
+&lbrack;[hep-th/0409071](http://arxiv.org/abs/hep-th/0612051)&rbrack;
 
-* Simeon Hellerman, X. Liu, _Dynamical dimension change in supercritical string theory_, JHEP0709:096,2007
-([hep-th/0409071](http://arxiv.org/abs/hep-th/0612051))
-
-* Simeon Hellerman, Ian Swanson, _Dimension-changing exact solutions of string theory_, JHEP0709:096,2007 ([arXiv:hep-th/0612051](http://arxiv.org/abs/hep-th/0612051))
+* [[Simeon Hellerman]], Ian Swanson, _Dimension-changing exact solutions of string theory_, JHEP0709:096 (2007) &lbrack;[arXiv:hep-th/0612051](http://arxiv.org/abs/hep-th/0612051)&rbrack;
 
 * Mikel Berasaluce-Gonz&#225;lez, Miguel Montero, Ander Retolaza, [[Ángel Uranga]], _Discrete gauge symmetries from (closed string) tachyon condensation_ ([arXiv:1305.6788](http://arxiv.org/abs/1305.6788))
 
