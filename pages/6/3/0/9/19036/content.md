@@ -10,6 +10,11 @@ On [[chiral fermions]] in [[intersecting D-brane models]]:
 
 * {#BerkoozDouglasLeigh96} [[Micha Berkooz]], [[Michael Douglas]], [[Robert Leigh]], _Branes Intersecting at Angles_, Nucl. Phys. B480:265-278, 1996 ([arXiv:hep-th/9606139](https://arxiv.org/abs/hep-th/9606139))
 
+Discussion of effective [[non-commutative geometry]] on [[M5-brane]] [[worldvolumes]] induced from a constant [[B-field]] [[flux density]]:
+
+* [[Micha Berkooz]]: *Light-like $(2,0)$ Noncommutativity and Light-Cone Rigid Open Membrane Theory* \[<a href="https://arxiv.org/abs/hep-th/0010158">arXiv:hep-th/0010158</a>, [inspire:535327](https://inspirehep.net/literature/535327)\]
+
+
 On [[multi trace operators]] in [[AdS/CFT]]:
 
 * [[Ofer Aharony]], [[Micha Berkooz]], [[Eva Silverstein]], _Multiple-Trace Operators and Non-Local String Theories_, JHEP 0108:006, 2001 ([arXiv:hep-th/0105309](https://arxiv.org/abs/hep-th/0105309))
