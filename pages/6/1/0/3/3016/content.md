@@ -25,7 +25,7 @@
 =--
 =--
 
-[Wikipedia](http://en.wikipedia.org/wiki/Main_Page) enforces its entries to adopt an [NPOV](http://en.wikipedia.org/wiki/NPOV) -- a _neutral point of view_.  This is appropriate for an encyclopedia.
+[Wikipedia](http://en.wikipedia.org/wiki/Main_Page) enforces its entries to adopt an [NPOV](https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view) -- a _neutral point of view_.  This is appropriate for an encyclopedia.
 
 However, [[About|the nLab is not Wikipedia]], nor is it an encyclopedia, although it does aspire to provide a useful reference in many areas (among its other purposes).  In particular, many parts of the $n$Lab *have* a particular point of view, which we may call the **$n$-point of view** ($n$POV) or the **[[higher structures]] point of view**, encompassing [[higher algebra|higher algebraic]], [[homotopy theory|homotopical]], or [[higher category theory|n-]] [[category theory|categorical]] point of views.
 
