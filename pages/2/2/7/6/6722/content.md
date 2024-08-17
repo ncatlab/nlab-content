@@ -12,6 +12,10 @@ On the [[D=6 N=(1,0) SCFT]] on [[heterotic M5-branes]] and their [[KK-compactifi
 
 * [[Ori Ganor]], [[David Morrison]], [[Nathan Seiberg]], _Branes, Calabi-Yau Spaces, and Toroidal Compactification of the $N=1$ Six-Dimensional $E_8$ Theory_, Nucl. Phys. B487:93-127, 1997 ([arXiv:hep-th/9610251](https://arxiv.org/abs/hep-th/9610251))
 
+Discussion of effective [[non-commutative geometry]] exhibited by open [[M2-branes]] [[intersecting brane|ending on]] [[M5-branes]] induced by a constant [[B-field]] [[flux density]] on the M5-[[worldvolume]]:
+
+* [[Rajesh Gopakumar]], [[Shiraz Minwalla]], [[Nathan Seiberg]], [[Andrew Strominger]]: *OM Theory in Diverse Dimensions*,  JHEP08 (2000) 008 \[<a href="https://iopscience.iop.org/article/10.1088/1126-6708/2000/08/008">doi:10.1088/1126-6708/2000/08/008</a>, [arXiv:hep-th/0006062](https://arxiv.org/abs/hep-th/0006062)\]
+
 
 On [[Lorentzian orbifolds]] as [[target spacetimes]] in [[string theory]]:
 
