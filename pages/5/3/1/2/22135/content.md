@@ -1,6 +1,6 @@
 
 
-### Anyons in the quantum Hall liquids
+### Anyons in quantum Hall liquids
  {#AnyonsInTheQuantumHallEffectReferences}
 
 References on [[anyon]]-excitations (satisfying [[braid group statistics]]) in the [[quantum Hall effect]] (for more on the application to [[topological quantum computation]] see the references [there](topological+quantum}computation#TopologicalQuantumComputationWithAnyons)):
