@@ -49,6 +49,11 @@ Introducing the notion of [[giant gravitons]]:
 
 * [[John McGreevy]], [[Leonard Susskind]], [[Nicolaos Toumbas]], _Invasion of the Giant Gravitons from Anti-de Sitter Space_, JHEP 0006:008, 2000 ([arXiv:hep-th/0003075](https://arxiv.org/abs/hep-th/0003075))
 
+Discussion of the [[fractional quantum Hall effect]] via a [[noncommutative geometry|noncommutative]] ([[matrix model]]-)[[Chern-Simons theory]]:
+
+* [[Leonard Susskind]]: *The Quantum Hall Fluid and Non-Commutative Chern Simons Theory* \[<a href="https://arxiv.org/abs/hep-th/0101029">arXiv:hep-th/0101029</a>\]
+
+
 On [[geometric engineering]] of aspects of the [[quantum Hall effect]] on [[M5-brane]] [[worldvolumes]] via an effective [[noncommutative geometry]] induced by a constant [[B-field]] [[flux density]]:
 
 * [[Simeon Hellerman]], [[Leonard Susskind]]: *Realizing the Quantum Hall System in String Theory* \[<a href="https://arxiv.org/abs/hep-th/0107200">arXiv:hep-th/0107200</a>\]
