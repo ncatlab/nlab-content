@@ -1,6 +1,7 @@
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Leonard_Susskind)
 
+
 ## Selected writings
 
 Suggestion to understand the [[Veneziano amplitude]] in [[quantum hadrodynamics]] as the [[scattering amplitude]] of chains of particles with  [[harmonic oscillator|harmonic]] nearest-neighbour interaction, in the continuum limit described by the [[Polyakov action]], this becoming one of the arguments initiating [[string theory]] (alongside [[Polyakov gauge-string duality]]):
@@ -48,6 +49,11 @@ Introducing the notion of [[giant gravitons]]:
 
 * [[John McGreevy]], [[Leonard Susskind]], [[Nicolaos Toumbas]], _Invasion of the Giant Gravitons from Anti-de Sitter Space_, JHEP 0006:008, 2000 ([arXiv:hep-th/0003075](https://arxiv.org/abs/hep-th/0003075))
 
+On [[geometric engineering]] of aspects of the [[quantum Hall effect]] on [[M5-brane]] [[worldvolumes]] via an effective [[noncommutative geometry]] induced by a constant [[B-field]] [[flux density]]:
+
+* [[Simeon Hellerman]], [[Leonard Susskind]]: *Realizing the Quantum Hall System in String Theory* \[<a href="https://arxiv.org/abs/hep-th/0107200">arXiv:hep-th/0107200</a>\]
+
+
 Proposing [[ER = EPR]]:
 
  * {#MaldacenaSusskind13} [[Juan Maldacena]], [[Leonard Susskind]], _Cool horizons for entangled black holes_, Fortsch. Phys. 61 (2013) 781-811, 2013 ([arXiv:1306.0533](http://arxiv.org/abs/1306.0533), [doi:10.1002/prop.201300020](https://doi.org/10.1002/prop.201300020)) 
@@ -61,28 +67,6 @@ On the role of [[chords]] in the [[holographic principle|holography]] for the [[
 ## Interviews
 
 * Y Combinator: *Leonard Susskind on Richard Feynman, the Holographic Principle, and Unanswered Questions in Physics* (Dec 2018) &lbrack;[YT](https://youtu.be/CQAcLW6qdQY)&rbrack;
-
-  $\,$
-
-  [49:00](https://www.youtube.com/watch?v=CQAcLW6qdQY&feature=youtu.be&t=49m)
-
-  S:... rules of quantum mechanics which reflect the gravitational things..., but this is gonna get us into technical discussion
-
-  Y: let's do it!
-
-  S: No!
-
-  Y: Yes!
-
-  S grudgingly gives in
-
-  ...
-
-  [53:57](https://www.youtube.com/watch?v=CQAcLW6qdQY&t=3237s)
-
-  Y: and what was the technical part you wanted to get to?
-
-  S: uhm
 
 * Kristiane Bernhard-Novotny: *[Lost in the landscape](https://cerncourier.com/a/lost-in-the-landscape/)*, interview with Susskind for CernCourier (3 Mar 2023)
 
