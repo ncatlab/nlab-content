@@ -1,4 +1,7 @@
 
+[[quantum hall effect via noncommutative geometry -- references]]
+
+
 On [[geometric engineering|engineering]] aspects of the [[quantum Hall effect]] on [[M5-branes]]:
 
 * [[Simeon Hellerman]], [[Leonard Susskind]]: *Realizing the Quantum Hall System in String Theory* \[<a href="https://arxiv.org/abs/hep-th/0107200">arXiv:hep-th/0107200</a>\]
