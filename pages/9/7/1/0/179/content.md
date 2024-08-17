@@ -1306,6 +1306,8 @@ which uses "[[NQ-supermanifolds]]". Of course, as this article also points out, 
 
 The explicit term _$\infty$-Lie algebroid_ / _$L_\infty$-algebroid_ as such is due to
 
+* [[Urs Schreiber]]: *On $\infty$-Lie* (2008) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schreiber/action.pdf), [[Schreiber-InfinityLie.pdf:file]]&rbrack;
+
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], Section A.1 of: _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Communications in Mathematical Physics, Volume 315, Issue 1 (2012) pp 169-213 ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://link.springer.com/article/10.1007/s00220-012-1510-3))
 
 The term then appears in
