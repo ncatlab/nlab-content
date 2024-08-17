@@ -9,6 +9,9 @@ Discussion of effective [[non-commutative geometry]] on [[M5-brane]] [[worldvolu
 
 * [[Eric Bergshoeff]], [[David S. Berman]], [[Jan Pieter van der Schaar]], [[Per Sundell]]: *A Noncommutative M-Theory Five-brane*, Nucl. Phys. B **590** (2000) 173-197 \[<a href="https://doi.org/10.1016/S0550-3213(00)00476-4">doi:10.1016/S0550-3213(00)00476-4</a>, [arXiv:hep-th/0005026](https://arxiv.org/abs/hep-th/0005026)\]
 
+* [[Eric Bergshoeff]], [[David S. Berman]], [[Jan Pieter van der Schaar]], [[Per Sundell]]: *Critical fields on the M5-brane and noncommutative open strings*,  Phys. Lett. B **492** (2000) 193-200 \[<a href="https://doi.org/10.1016/S0370-2693(00)01081-9">doi:10.1016/S0370-2693(00)01081-9</a>, [arXiv:hep-th/0006112](https://arxiv.org/abs/hep-th/0006112)\]
+
+
 
 On [[M-branes]]:
 
