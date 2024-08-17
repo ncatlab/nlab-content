@@ -81,28 +81,28 @@ On [[anyon statistics|anyon phases]] (specifically in the [[quantum Hall effect]
 
 Original experimental detection:
 
-* [[Klaus von Klitzing]], G. Dorda, and M. Pepper, _New Method for High-Accuracy Determination of the Fine-Structure Constant Based on Quantized Hall Resistance_, Phys. Rev. Lett. 45, 494 (1980) ([doi:10.1103/PhysRevLett.45.494](https://doi.org/10.1103/PhysRevLett.45.494))
+* [[Klaus von Klitzing]], G. Dorda, M. Pepper: _New Method for High-Accuracy Determination of the Fine-Structure Constant Based on Quantized Hall Resistance_, Phys. Rev. Lett. **45**  (1980) 494 &lbrack;[doi:10.1103/PhysRevLett.45.494](https://doi.org/10.1103/PhysRevLett.45.494)&rbrack;
 
-* M. A. Paalanen, D. C. Tsui, and A. C. Gossard, _Quantized Hall effect at low temperatures_, Phys. Rev. B 25, 5566(R) April 1982 ([doi:10.1103/PhysRevB.25.5566](https://doi.org/10.1103/PhysRevB.25.5566))
+* M. A. Paalanen, D. C. Tsui, A. C. Gossard: _Quantized Hall effect at low temperatures_, Phys. Rev. B **25** 5566(R) (1982) &lbrack;[doi:10.1103/PhysRevB.25.5566](https://doi.org/10.1103/PhysRevB.25.5566)&rbrack;
 
 
 #### Theory
 
 While an intuitive understanding for the quantization of the Hall conductance has been given in
 
-* [[Robert B. Laughlin]], *Quantized Hall conductivity in two dimensions*, Phys. Rev. B **23** 5632(R) (1981) $[$[doi:10.1103/PhysRevB.23.5632](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.23.5632)$]$
+* [[Robert B. Laughlin]], *Quantized Hall conductivity in two dimensions*, Phys. Rev. B **23** 5632(R) (1981) &lbrack;[doi:10.1103/PhysRevB.23.5632](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.23.5632)&rbrack;
 
 a theoretical derivation of the effect was obtained only much later in
 
-* [[Matthew Hastings]], [[Spyridon Michalakis]], _Quantization of Hall conductance for interacting electrons without averaging assumptions_, Commun. Math. Phys., 334:433–471, (2015) ([arXiv:0911.4706](https://arxiv.org/abs/0911.4706), [doi:10.1007/s00220-014-2167-x](https://doi.org/10.1007/s00220-014-2167-x))
+* [[Matthew Hastings]], [[Spyridon Michalakis]], _Quantization of Hall conductance for interacting electrons without averaging assumptions_, Commun. Math. Phys., 334:433–471, (2015) &lbrack;[arXiv:0911.4706](https://arxiv.org/abs/0911.4706), [doi:10.1007/s00220-014-2167-x](https://doi.org/10.1007/s00220-014-2167-x)&rbrack;
 
 with closely related results in
 
-* Alessandro Giuliani, Vieri Mastropietro, Marcello Porta, _Universality of the Hall conductivity in interacting electron systems_, Commun. Math. Phys. 349, 1107–1161 (2017) ([arXiv:1511.04047](https://arxiv.org/abs/1511.04047), [doi:10.1007/s00220-016-2714-8](https://doi.org/10.1007/s00220-016-2714-8))
+* Alessandro Giuliani, Vieri Mastropietro, Marcello Porta, _Universality of the Hall conductivity in interacting electron systems_, Commun. Math. Phys. **349** (2017) 1107–1161 &lbrack;[arXiv:1511.04047](https://arxiv.org/abs/1511.04047), [doi:10.1007/s00220-016-2714-8](https://doi.org/10.1007/s00220-016-2714-8)&rbrack;
 
 Review of this theory behind the quantum Hall effect:
 
-* Yosi Afron, _Why is the Hall conductance quantized?_, 2017 ([pdf](http://web.math.princeton.edu/~aizenman/OpenProblems_MathPhys/17_Avron.pdf), [[AfronQuantumHallEffect.pdf:file]])
+* Yosi Afron, _Why is the Hall conductance quantized?_ (2017) &lbrack;[pdf](http://web.math.princeton.edu/~aizenman/OpenProblems_MathPhys/17_Avron.pdf), [[AfronQuantumHallEffect.pdf:file]]&rbrack;
 
 * [[Spyridon Michalakis]], _Why is the Hall conductance quantized?_, Nature Reviews Physics 2, 392–393 (2020) ([doi:10.1038/s42254-020-0212-6](https://doi.org/10.1038/s42254-020-0212-6))
 
@@ -146,11 +146,16 @@ The original [[Laughlin wavefunction]]:
 
 * [[Robert B. Laughlin]], *Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations*, Phys. Rev. Lett. **50** (1983) 1395 &lbrack;[doi:10.1103/PhysRevLett.50.1395](https://doi.org/10.1103/PhysRevLett.50.1395)&rbrack;
 
-The composite-fermion model:
+Extension by the composite-fermion model:
 
 * [[Jainendra K. Jain]]: *Composite-fermion approach for the fractional quantum Hall effect*, Phys. Rev. Lett. **63** (1989) 199 \[<a href="https://doi.org/10.1103/PhysRevLett.63.199">doi:10.1103/PhysRevLett.63.199</a>\]
 
 * [[Jainendra K. Jain]]: *Microscopic theory of the fractional quantum Hall effect*, Adv. Phys. **41** (1992) 105-146 \[<a href="https://doi.org/10.1080/00018739200101483">doi:10.1080/00018739200101483</a>\]
+
+Introducing abelian [[Chern-Simons theory]] to the picture:
+
+* Ana Lopez, [[Eduardo Fradkin]]: *Fractional quantum Hall effect and Chern-Simons gauge theories*, Phys. Rev. B **44** (1991) 5246 \[<a href="https://doi.org/10.1103/PhysRevB.44.5246">doi:10.1103/PhysRevB.44.5246</a>\]
+
 
 Further discussion:
 
@@ -159,17 +164,17 @@ Further discussion:
 * C.-C Chang, [[Jainendra K. Jain]]: *Microscopic origin of the next generation fractional quantum Hall effect*, Phys. Rev. Lett. **92** (2004) 196806 \[<a href="https://doi.org/10.1103/PhysRevLett.92.196806">doi:10.1103/PhysRevLett.92.196806</a>, [arXiv:cond-mat/0404079](https://arxiv.org/abs/cond-mat/0404079)\]
 
 
-#### Via non-commutative geometry
- {#ReferencesNoncommutativeGeometryOfFQHE}
 
-Via [[noncommutative geometry]] and Connes-Chern character: 
 
-* J. Bellissard, A. van Elst, H. Schulz Baldes: _The noncommutative geometry of the quantum Hall effect_, 79 pages, J. Math. Phys. __35__, 5373 (1994) &lbrack;[cond-mat/9411052](http://arxiv.org/abs/cond-mat/9411052),  [doi:10.1063/1.530758](http://link.aip.org/link/doi/10.1063/1.530758)&rbrack;
+[[!include quantum Hall effect via noncommutative geometry -- references]]
 
-(...)
+
 
 
 [[!include anyons in the quantum Hall effect -- references]]
+
+
+
 
 
 ### In string/M-theory
