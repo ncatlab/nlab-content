@@ -28,7 +28,9 @@ By the [[category theory|general abstract]] definition of [[cohomology]], the _[
 [[equivalence classes]] of [[morphisms]]
 
 $$
-  H^n(G,K) = \{ \mathbf{B}G  \to \mathbf{B}^n K \}_\sim
+  H^n(G,K) 
+  \;\simeq\; 
+  \big\{ \mathbf{B}G  \to \mathbf{B}^n K \big\}_\sim
 $$
 
 in the [[(∞,1)-category]] [[∞Grpd]], from the [[delooping]] $\mathbf{B}G$ of $G$ to the $n$-fold delooping $\mathbf{B}^n K$ of $K$.
@@ -67,7 +69,9 @@ So this looks much like $\mathbf{B}^2 K$ (when that exists) only that it has mor
 Accordingly, what is called nonabelian group cohomology of $G$ with coefficients in $K$ is the set of equivalence classes of morphisms
 
 $$
-  H^2_{nonab}(G,K) := \{ \mathbf{B}G \to \mathbf{B}AUT(K) \}_\sim
+  H^2_{nonab}(G,K) 
+    \;\coloneqq\; 
+  \big\{ \mathbf{B}G \to \mathbf{B}AUT(K) \big\}_\sim
   \,.
 $$
 
@@ -376,7 +380,7 @@ Accordingly, the [[pullback]] $\mathbf{B}G \times_{(\psi,\xi)} \mathbf{E}AUT(K)$
   $$
     (k,g)
     \;\;\;
-    :=
+    \coloneqq
     \left(
     \array{
       && \bullet
