@@ -1,5 +1,5 @@
 
-* [inSpire page](https://inspirehep.net/authors/1274266)
+* [InSpire page](https://inspirehep.net/authors/1274266)
 
 * [iip page](https://iip.ufrn.br/eventslecturer?inf===QTq10d)
 
