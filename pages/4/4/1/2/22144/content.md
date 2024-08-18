@@ -7,6 +7,10 @@ On [[2d CFT|2d]] [[logarithmic CFT]] for generalized [[Laughlin wavefunctions]]:
 
 * {#GurarieFlohrNayak97} [[Victor Gurarie]], [[Michael Flohr]], [[Chetan Nayak]], *The Haldane-Rezayi Quantum Hall State and Conformal Field Theory*, Nucl. Phys. B **498** (1997) 513-538 $[$[arXiv:cond-mat/9701212](https://arxiv.org/abs/cond-mat/9701212), [doi:10.1016/S0550-3213%2897%2900351-9](https://doi.org/10.1016/S0550-3213%2897%2900351-9)$]$
 
+On [[topological order]]:
+
+* Masaki Oshikawa, Yong Baek Kim, Kirill Shtengel, [[Chetan Nayak]], Sumanta Tewari, *Topological degeneracy of non-Abelian states for dummies*, Annals of Physics **322** 6 (2007) 1477-1498 &lbrack;[doi:10.1016/j.aop.2006.08.001](https://doi.org/10.1016/j.aop.2006.08.001), [arXiv:cond-mat/0607743](https://arxiv.org/abs/cond-mat/0607743)&rbrack;
+
 
 On [[topological quantum computation]] with [[anyons]]:
 
