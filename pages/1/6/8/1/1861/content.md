@@ -827,11 +827,11 @@ Now
 
 Original articles:
 
-* {#Borsuk36} [[Karol Borsuk]], *Sur les groupes des classes de transformations continues*, CR Acad. Sci. Paris **202** 1400-1403 (1936) 2-3 
+* {#Borsuk36} [[Karol Borsuk]], *Sur les groupes des classes de transformations continues*, CR Acad. Sci. Paris **202** 2-3 (1936) 1400-1403 
 
-* {#Pontryagin38a} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication I_, Doklady Akademii Nauk SSSR 19(3) (1938), 147-149
+* {#Pontryagin38a} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication I_, Doklady Akademii Nauk SSSR **19** 3 (1938) 147-149
  
-* {#Spanier49} [[Edwin Spanier]], _Borsuk's Cohomotopy Groups_, Annals of Mathematics Second Series, Vol. 50, No. 1 (Jan., 1949), pp. 203-245 ([jstor:1969362](http://www.jstor.org/stable/1969362))
+* {#Spanier49} [[Edwin Spanier]], _Borsuk's Cohomotopy Groups_, Annals of Mathematics Second Series **50** 1 (1949) 203-245 &lbrack;[jstor:1969362](http://www.jstor.org/stable/1969362)&rbrack;
 
 * [[Franklin Peterson]], _Some Results on Cohomotopy Groups_, American Journal of Mathematics Vol. 78, No. 2 (Apr., 1956), pp. 243-258 ([jstor:2372514](https://www.jstor.org/stable/2372514))
 
