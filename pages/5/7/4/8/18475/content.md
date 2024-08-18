@@ -332,4 +332,5 @@ Proposed realization of aspects of [[p-adic AdS/CFT correspondence]] in [[solid-
 
 [[!redirects holographic CMT]]
 
+[[!redirects holographic duality in solid state physics]]
 
