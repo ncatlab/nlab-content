@@ -123,7 +123,10 @@ Review and survey of the FQHE:
 
 * [[Horst L. Störmer|Horst L. Stormer]]: *Nobel Lecture: The fractional quantum Hall effect*, Rev. Mod. Phys. **71** (1999) 875 \[<a href="https://doi.org/10.1103/RevModPhys.71.875">doi:10.1103/RevModPhys.71.875</a>\]
 
+
 * [[Steven M. Girvin]], *Introduction to the Fractional Quantum Hall Effect*, S&eacute;minaire Poincar&eacute; **2** (2004) 53–74, reprinted in *The Quantum Hall Effect*, Progress in Mathematical Physics **45**, Birkhäuser (2005)  &lbrack;[pdf](http://www.bourbaphy.fr/girvin.pdf), [doi:10.1007/3-7643-7393-8_4](https://doi.org/10.1007/3-7643-7393-8_4)&rbrack;
+
+* [[Peter Fulde]], §14.2 in: *Correlated Electrons in Quantum Matter*, World Scientific (2012) &lbrack;[doi:10.1142/8419](https://doi.org/10.1142/8419), [pdf](https://www.pks.mpg.de/fileadmin/user_upload/MPIPKS/group_pages/Electronic_Correlations/BOOK_Aktualisierung_Oct19.pdf)&rbrack;
 
 
 * [[Bertrand I. Halperin]], [[Jainendra K. Jain]] (eds.): *Fractional Quantum Hall Effects -- New Developments*, World Scientific (2020) \[<a href="https://doi.org/10.1142/11751">doi:10.1142/11751</a>\]
