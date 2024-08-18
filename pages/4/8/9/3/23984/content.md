@@ -484,7 +484,7 @@ The notion in [[homotopy type theory]]:
 
 * [[Univalent Foundations Project|UVP]], [§2.3 "Type families and fibrations"](https://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf#page=81) in: *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
-* [[Egbert Rijke]]: §5.4 in: *[[Introduction to Homotopy Type Theory]]* Cambridge University Press (2023) &lbrack;[arXiv:2212.11082](https://arxiv.org/abs/2212.11082)&rbrack
+* [[Egbert Rijke]]: §5.4 in: *[[Introduction to Homotopy Type Theory]]* Cambridge University Press (2023) &lbrack;[arXiv:2212.11082](https://arxiv.org/abs/2212.11082)&rbrack;
 
 * [[Egbert Rijke]], pp. 18 in: *Homotopy Type Theory* (2012) &lbrack;[pdf](https://studenttheses.uu.nl/bitstream/handle/20.500.12932/11704/hott.pdf?sequence=1)&rbrack;
 
