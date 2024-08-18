@@ -20,6 +20,8 @@
 
 ## Related concepts
 
+* [[mean-field theory]]
+
 * [[Fock space]]
 
 * [[second quantization]]
@@ -28,7 +30,7 @@
 
 * [[solid-state physics]]
 
-* [[Laughlin wavefuntion]], [[anyon]]
+* [[Laughlin wavefunction]], [[anyon]]
 
 * [[Bose-Einstein condensate]]
 
