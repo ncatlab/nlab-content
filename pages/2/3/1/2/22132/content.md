@@ -7,7 +7,10 @@
 
 On [[anyons]] in the [[quantum Hall effect]]:
 
+
 * [[Ady Stern]], _Anyons and the quantum Hall effect -- A pedagogical review_, Annals of Physics Volume 323, Issue 1, January 2008, Pages 204-249 ([doi:10.1016/j.aop.2007.10.008](https://doi.org/10.1016/j.aop.2007.10.008), [arXiv:0711.4697](https://arxiv.org/abs/0711.4697))
+
+* [[Ady Stern]]: *Engineering Non-Abelian Quasi-Particles in Fractional Quantum Hall States -- A Pedagogical Introduction*, Ch. 9 in: *Fractional Quantum Hall Effects*, World Scientific (2020) 435-486 \[<a href="https://doi.org/10.1142/9789811217494_0009">doi:10.1142/9789811217494_0009</a>\]
 
 
 On [[anyons]] in application to [[topological quantum computation]]:
