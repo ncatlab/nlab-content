@@ -17,6 +17,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -68,15 +69,15 @@ The original articles are
 
 Review:
 
-* [[Amit Giveon]], [[David Kutasov]], _Brane Dynamics and Gauge Theory_, Rev. Mod. Phys. 71:983-1084, 1999 ([arXiv:hep-th/9802067](https://arxiv.org/abs/hep-th/9802067) [doi](https://doi.org/10.1103/RevModPhys.71.983))
-
-  (emphasis on the [[s-rule]])
+* [[Amit Giveon]], [[David Kutasov]]: *Brane Dynamics and Gauge Theory*, Rev. Mod. Phys. **71** (1999) 983-1084 &lbrack;[arXiv:hep-th/9802067](https://arxiv.org/abs/hep-th/9802067) [doi:10.1103/RevModPhys.71.983](https://doi.org/10.1103/RevModPhys.71.983)&rbrack;
 
 * [[Andreas Karch]], _Field Theory Dynamics from Branes in String Theory_, PhD thesis (1998) ([doi:10.18452/14371](https://doi.org/10.18452/14371))
 
-* [[David Morrison]], _Limitations of Geometric Engineering: Implications for Model Building_, talk (2008) [pdf slides](http://hans.math.upenn.edu/StringPhenom2008/slides/d.morrison.pdf)
+* [[David Morrison]], *Limitations of Geometric Engineering: Implications for Model Building*, talk (2008) &lbrack;slides:[[Morrison-GeometricEngineering.pdf:file]]&rbrack;
 
 * {#Fazzi17} [[Marco Fazzi]], _Higher-dimensional field theories from type II supergravity_ ([arXiv:1712.04447](https://arxiv.org/abs/1712.04447))
+
+* [[Michele Del Zotto]]: *Uncharted Territories in Geometric Engineering*, talk at *[Strings and Geometry 2023](https://web.sas.upenn.edu/strings-and-geometry-2023/)* (2023) \[slides:[pdf](https://web.sas.upenn.edu/strings-and-geometry-2023/files/2023/03/Talk9DelZotto.pdf), video:[YT](https://www.youtube.com/watch?v=hmuudu_C9JM)\]
 
 Further developments are in
 
