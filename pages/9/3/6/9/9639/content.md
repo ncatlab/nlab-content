@@ -51,17 +51,21 @@ The bulk/edge behaviour in a quantum Hall effect is is that of a [[topological i
 
 Review:
 
-* {#vonKlitzing86} [[Klaus von Klitzing]], _The quantized Hall effect_, Rev. Mod. Phys. **58** 519 (1986) $[$[doi:10.1103/RevModPhys.58.519](https://doi.org/10.1103/RevModPhys.58.519)$]$
+* {#vonKlitzing86} [[Klaus von Klitzing]], _The quantized Hall effect_, Rev. Mod. Phys. **58** 519 (1986) &lbrack;[doi:10.1103/RevModPhys.58.519](https://doi.org/10.1103/RevModPhys.58.519)&rbrack;
 
-* [[Steven M. Girvin]], *Introduction to the Fractional Quantum Hall Effect*, S&eacute;minaire Poincar&eacute; **2** (2004) 53–74, reprinted in *The Quantum Hall Effect*, Progress in Mathematical Physics **45**, Birkhäuser (2005)  $[$[pdf](http://www.bourbaphy.fr/girvin.pdf), [doi:10.1007/3-7643-7393-8_4](https://doi.org/10.1007/3-7643-7393-8_4)$]$
+* Tapash Chakraborty, Pekka Pietiläinen: *The Quantum Hall Effects -- Integral and Fractional*, Springer Series in Solid State Sciences (1995) \[<a href="https://doi.org/10.1007/978-3-642-79319-6">doi:10.1007/978-3-642-79319-6</a>\]
+
+*  Benoît Douçot, [[Vincent Pasquier]], Bertrand Duplantier, Vincent Rivasseau (eds.): *The Quantum Hall Effect -- Poincaré Seminar 2004*, Progress in Mathematical Physics, Springer (2005) \[<a href="https://doi.org/10.1007/3-7643-7393-8">doi:10.1007/3-7643-7393-8</a>\]
+
+* [[Steven M. Girvin]], *Introduction to the Fractional Quantum Hall Effect*, S&eacute;minaire Poincar&eacute; **2** (2004) 53–74, reprinted in *The Quantum Hall Effect*, Progress in Mathematical Physics **45**, Birkhäuser (2005)  &lbrack;[pdf](http://www.bourbaphy.fr/girvin.pdf), [doi:10.1007/3-7643-7393-8_4](https://doi.org/10.1007/3-7643-7393-8_4)&rbrack;
 
 * {#Tong16} [[David Tong]], *The Quantum Hall Effect* (2016) $[$[course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]$]$
 
-* _The quantum Hall effect_ ([pdf](http://www.tezu.ernet.in/rctp2015/SR%20On%20quantum%20Hall%20effect.pdf))
+* _The quantum Hall effect_ &lbrack;[pdf](http://www.tezu.ernet.in/rctp2015/SR%20On%20quantum%20Hall%20effect.pdf)&rbrack;
 
 Discussion via Newton-Cartan theory:
 
-* William Wolf, James Read, Nicholas Teh, *Edge modes and dressing fields for the Newton-Cartan quantum Hall effect* ([arXiv:2111.08052](https://arxiv.org/abs/2111.08052))
+* William Wolf, James Read, Nicholas Teh, *Edge modes and dressing fields for the Newton-Cartan quantum Hall effect* &lbrack;[arXiv:2111.08052](https://arxiv.org/abs/2111.08052)&rbrack;
 
 
 See also:
@@ -69,10 +73,6 @@ See also:
 * Wikipedia, _[Quantum Hall effect](https://en.wikipedia.org/wiki/Quantum_Hall_effect)_, 
 
 * Wikipedia _[Fractional quantum Hall effect](http://en.wikipedia.org/wiki/Fractional_quantum_Hall_effect)_
-
-On [[anyon statistics|anyon phases]] (specifically in the [[quantum Hall effect]]) as [[Berry phases]] of a [[quantum adiabatic theorem|adiabatic]] transport of anyon positions:
-
-* {#AvrosSchriefferWilczek84} [[Daniel P. Arovas]], [[John Robert Schrieffer]], [[Frank Wilczek]], _Fractional Statistics and the Quantum Hall Effect_, Phys. Rev. Lett. 53, 722 (1984) $[$[doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722)$]$
 
 
 ### Integral quantum Hall effect
@@ -114,7 +114,14 @@ Review of this theory behind the quantum Hall effect:
 
 #### General
 
+Review and survey of the FQHE:
+
 * Horst L. Stormer: *Nobel Lecture: The fractional quantum Hall effect*, Rev. Mod. Phys. **71** (1999) 875 \[<a href="https://doi.org/10.1103/RevModPhys.71.875">doi:10.1103/RevModPhys.71.875</a>\]
+
+* [[Bertrand I. Halperin]], [[Jainendra K. Jain]] (eds.): *Fractional Quantum Hall Effects -- New Developments*, World Scientific (2020) \[<a href="https://doi.org/10.1142/11751">doi:10.1142/11751</a>\]
+
+* D. E. Feldman, [[Bertrand I. Halperin]]: *Fractional charge and fractional statistics in the quantum Hall effects*, Rep. Prog. Phys. **84** (2021) 076501 \[<a href="https://doi.org/10.1088/1361-6633/ac03aa">doi:10.1088/1361-6633/ac03aa</a>, [arXiv:2102.08998](https://arxiv.org/abs/2102.08998)\]
+
 
 See also:
 
@@ -125,9 +132,9 @@ A quick review of the description via [[Chern-Simons theory]] with further point
 
 * Spencer D. Stirling, _Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories_, &lbrack;[arXiv:0807.2857](http://arxiv.org/abs/0807.2857)&rbrack;
 
-In terms of [[Berry phase]] and Chern numbers:
+In terms of [[Berry phases]] and Chern numbers:
 
-* Joseph E. Avron, Daniel Osadchy, Ruedi Seiler: _A topological look at the quantum Hall effect_, Physics Today __56__:8, &lbrack;[doi:10.1063/1.1611351](http://dx.doi.org/10.1063/1.1611351)&rbrack;
+* Joseph E. Avron, Daniel Osadchy, Ruedi Seiler: _A topological look at the quantum Hall effect_, Physics Today __56__ 8 (2003) 38–42 &lbrack;[doi:10.1063/1.1611351](http://dx.doi.org/10.1063/1.1611351)&rbrack;
 
 Realization via [[AdS/CFT in condensed matter physics]]:
 
@@ -135,7 +142,24 @@ Realization via [[AdS/CFT in condensed matter physics]]:
 
 #### Experiment
 
+Observation of the FQHE in $GaAS$:
+
 * D. C. Tsui, H. L. Stormer, and A. C. Gossard: *Two-Dimensional Magnetotransport in the Extreme Quantum Limit*, Phys. Rev. Lett. **48** (1982) 1559 \[<a href="https://doi.org/10.1103/PhysRevLett.48.1559">doi:10.1103/PhysRevLett.48.1559</a>\]
+
+in [[graphene]]:
+
+* Xu Du, Ivan Skachko, Fabian Duerr, Adina Luican, Eva Y. Andrei: *Fractional quantum Hall effect and insulating phase of Dirac electrons in graphene*, Nature **462** 192 (2009) \[<a href="https://doi.org/10.1038/nature08522">doi:10.1038/nature08522</a>, [arXiv:0910.2532](https://arxiv.org/abs/0910.2532)\]
+
+* Kirill I. Bolotin, Fereshte Ghahari, Michael D. Shulman, Horst L. Stormer, Philip Kim: *Observation of the Fractional Quantum Hall Effect in Graphene*, Nature **462** (2009) 196–199 \[<a href="https://doi.org/10.1038/nature08582">doi:10.1038/nature08582</a>, [arXiv:0910.2763](https://arxiv.org/abs/0910.2763)\]
+
+in oxide interfaces:
+
+* A. Tsukazaki et al.: *Observation of the fractional quantum Hall effect in an oxide*, Nature Materials **9** (2010) 889–893 \[<a href="https://doi.org/10.1038/nmat2874">doi:10.1038/nmat2874</a>\]
+
+in $CdTe$:
+
+* B. A. Piot, J. Kunc, M. Potemski, D. K. Maude, C. Betthausen, A. Vogl, D. Weiss, G. Karczewski, T. Wojtowicz: *Fractional quantum Hall effect in $CdTe$*, PhysRev B. **82** (2010) 081307 (R) \[<a href="https://doi.org/10.1103/PhysRevB.82.081307">doi:10.1103/PhysRevB.82.081307</a>, [arXiv:1006.0908](https://arxiv.org/abs/1006.0908)\]
+
 
 
 
