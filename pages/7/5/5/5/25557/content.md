@@ -17,9 +17,9 @@ On [[quantum anomalies]] and [[renormalization]] in [[solid state physics]]:
 
 * [[Kumar S. Gupta]], Amilcar Queiroz, _Anomalies and renormalization of impure states in quantum theories_, Modern Physics Letters __A29__ 13 (2014) &lbrack;[arxiv/1306.5570](http://arxiv.org/abs/1306.5570) [doi:10.1142/S0217732314500643](http://dx.doi.org/10.1142/S0217732314500643)&rbrack;
 
-On [[non-perturbative quantum field theory]] in [[condensed matter theory]] and [[quantum information theory]] ([[topological quantum computation]]):
+On [[non-perturbative quantum field theory]] in [[condensed matter theory]] and [[quantum information theory]] ([[quantum materials]], [[topological quantum computation]]):
 
-*  Alvaro Ferraz, [[Kumar S. Gupta]], Gordon W. Semenoff, Pasquale Sodano (eds.): *Strongly Coupled Field Theories for Condensed Matter and Quantum Information Theory*, Springer Proceedings in Physics **239**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-35473-2](https://doi.org/10.1007/978-3-030-35473-2), [pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-35473-2.pdf)&rbrack;
+*  Alvaro Ferraz, [[Kumar S. Gupta]], [[Gordon W. Semenoff]], Pasquale Sodano (eds.): *Strongly Coupled Field Theories for Condensed Matter and Quantum Information Theory*, Springer Proceedings in Physics **239**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-35473-2](https://doi.org/10.1007/978-3-030-35473-2), [pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-35473-2.pdf)&rbrack;
 
 
 
