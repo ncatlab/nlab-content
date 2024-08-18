@@ -55,9 +55,9 @@ Review:
 
 * Tapash Chakraborty, Pekka Pietiläinen: *The Quantum Hall Effects -- Integral and Fractional*, Springer Series in Solid State Sciences (1995) \[<a href="https://doi.org/10.1007/978-3-642-79319-6">doi:10.1007/978-3-642-79319-6</a>\]
 
-*  Benoît Douçot, [[Vincent Pasquier]], Bertrand Duplantier, Vincent Rivasseau (eds.): *The Quantum Hall Effect -- Poincaré Seminar 2004*, Progress in Mathematical Physics, Springer (2005) \[<a href="https://doi.org/10.1007/3-7643-7393-8">doi:10.1007/3-7643-7393-8</a>\]
+* Daijiro Yoshioka: *The Quantum Hall Effect*, Springer (2002) \[<a href="https://doi.org/10.1007/978-3-662-05016-3">doi:10.1007/978-3-662-05016-3</a>\]
 
-* [[Steven M. Girvin]], *Introduction to the Fractional Quantum Hall Effect*, S&eacute;minaire Poincar&eacute; **2** (2004) 53–74, reprinted in *The Quantum Hall Effect*, Progress in Mathematical Physics **45**, Birkhäuser (2005)  &lbrack;[pdf](http://www.bourbaphy.fr/girvin.pdf), [doi:10.1007/3-7643-7393-8_4](https://doi.org/10.1007/3-7643-7393-8_4)&rbrack;
+*  Benoît Douçot, [[Vincent Pasquier]], Bertrand Duplantier, Vincent Rivasseau (eds.): *The Quantum Hall Effect -- Poincaré Seminar 2004*, Progress in Mathematical Physics, Springer (2005) \[<a href="https://doi.org/10.1007/3-7643-7393-8">doi:10.1007/3-7643-7393-8</a>\]
 
 * {#Tong16} [[David Tong]], *The Quantum Hall Effect* (2016) $[$[course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]$]$
 
@@ -116,11 +116,16 @@ Review of this theory behind the quantum Hall effect:
 
 Review and survey of the FQHE:
 
-* Horst L. Stormer: *Nobel Lecture: The fractional quantum Hall effect*, Rev. Mod. Phys. **71** (1999) 875 \[<a href="https://doi.org/10.1103/RevModPhys.71.875">doi:10.1103/RevModPhys.71.875</a>\]
+* [[Horst L. Störmer|Horst L. Stormer]]: *Nobel Lecture: The fractional quantum Hall effect*, Rev. Mod. Phys. **71** (1999) 875 \[<a href="https://doi.org/10.1103/RevModPhys.71.875">doi:10.1103/RevModPhys.71.875</a>\]
+
+* [[Steven M. Girvin]], *Introduction to the Fractional Quantum Hall Effect*, S&eacute;minaire Poincar&eacute; **2** (2004) 53–74, reprinted in *The Quantum Hall Effect*, Progress in Mathematical Physics **45**, Birkhäuser (2005)  &lbrack;[pdf](http://www.bourbaphy.fr/girvin.pdf), [doi:10.1007/3-7643-7393-8_4](https://doi.org/10.1007/3-7643-7393-8_4)&rbrack;
+
 
 * [[Bertrand I. Halperin]], [[Jainendra K. Jain]] (eds.): *Fractional Quantum Hall Effects -- New Developments*, World Scientific (2020) \[<a href="https://doi.org/10.1142/11751">doi:10.1142/11751</a>\]
 
 * D. E. Feldman, [[Bertrand I. Halperin]]: *Fractional charge and fractional statistics in the quantum Hall effects*, Rep. Prog. Phys. **84** (2021) 076501 \[<a href="https://doi.org/10.1088/1361-6633/ac03aa">doi:10.1088/1361-6633/ac03aa</a>, [arXiv:2102.08998](https://arxiv.org/abs/2102.08998)\]
+
+* [[Tudor D. Stanescu]], *Effective theory of Abelian fractional quantum Hall liquids*, Section 6.2.1 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press (2020) &lbrack;[ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9781032126524)&rbrack;
 
 
 See also:
@@ -144,13 +149,13 @@ Realization via [[AdS/CFT in condensed matter physics]]:
 
 Observation of the FQHE in $GaAS$:
 
-* D. C. Tsui, H. L. Stormer, and A. C. Gossard: *Two-Dimensional Magnetotransport in the Extreme Quantum Limit*, Phys. Rev. Lett. **48** (1982) 1559 \[<a href="https://doi.org/10.1103/PhysRevLett.48.1559">doi:10.1103/PhysRevLett.48.1559</a>\]
+* D. C. Tsui, [[Horst L. Stormer]], A. C. Gossard: *Two-Dimensional Magnetotransport in the Extreme Quantum Limit*, Phys. Rev. Lett. **48** (1982) 1559 \[<a href="https://doi.org/10.1103/PhysRevLett.48.1559">doi:10.1103/PhysRevLett.48.1559</a>\]
 
 in [[graphene]]:
 
 * Xu Du, Ivan Skachko, Fabian Duerr, Adina Luican, Eva Y. Andrei: *Fractional quantum Hall effect and insulating phase of Dirac electrons in graphene*, Nature **462** 192 (2009) \[<a href="https://doi.org/10.1038/nature08522">doi:10.1038/nature08522</a>, [arXiv:0910.2532](https://arxiv.org/abs/0910.2532)\]
 
-* Kirill I. Bolotin, Fereshte Ghahari, Michael D. Shulman, Horst L. Stormer, Philip Kim: *Observation of the Fractional Quantum Hall Effect in Graphene*, Nature **462** (2009) 196–199 \[<a href="https://doi.org/10.1038/nature08582">doi:10.1038/nature08582</a>, [arXiv:0910.2763](https://arxiv.org/abs/0910.2763)\]
+* Kirill I. Bolotin, Fereshte Ghahari, Michael D. Shulman, [[Horst L. Stormer]], Philip Kim: *Observation of the Fractional Quantum Hall Effect in Graphene*, Nature **462** (2009) 196–199 \[<a href="https://doi.org/10.1038/nature08582">doi:10.1038/nature08582</a>, [arXiv:0910.2763](https://arxiv.org/abs/0910.2763)\]
 
 in oxide interfaces:
 
