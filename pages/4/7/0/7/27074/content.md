@@ -18,6 +18,10 @@ On microscopic explanations of the [[fractional quantum Hall effect]]:
 
 * C.-C Chang, [[Jainendra K. Jain]]: *Microscopic origin of the next generation fractional quantum Hall effect*, Phys. Rev. Lett. **92** (2004) 196806 \[<a href="https://doi.org/10.1103/PhysRevLett.92.196806">doi:10.1103/PhysRevLett.92.196806</a>, [arXiv:cond-mat/0404079](https://arxiv.org/abs/cond-mat/0404079)\]
 
+On the [[fractional quantum Hall effect]]:
+
+* [[Bertrand I. Halperin]], [[Jainendra K. Jain]] (eds.): *Fractional Quantum Hall Effects -- New Developments*, World Scientific (2020) \[<a href="https://doi.org/10.1142/11751">doi:10.1142/11751</a>\]
+
 
 category: people
 
