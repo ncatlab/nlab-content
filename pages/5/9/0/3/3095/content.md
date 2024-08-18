@@ -53,10 +53,12 @@ These different frameworks come in a hierarchy of expressive power, see [[Chomsk
 
 ## Semantics
 
-Formal theories of meaning are based on the principle of [[compositionality]]: the semantics of a sentence is a function of the meanings of its words, and of its grammatical structure. 
+Formal theories of meaning are based on the principle of [[compositionality]]: the semantics of a sentence is a function of the meanings of its words, and of its grammatical structure (cf. *[[linguistic semantics]]*).
 
 * [[Montague grammar|Montague semantics]]
+
 * [[categorical compositional distributional semantics]]
+
 * [[dependent type theoretic methods in natural language semantics]]
 
 ## Pragmatics
