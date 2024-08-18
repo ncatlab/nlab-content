@@ -69,8 +69,7 @@ Focus on *[[abelian anyons]]*:
 * [[Jiannis K. Pachos]], *Quantum computation with abelian anyons on the honeycomb lattice*, International Journal of Quantum Information **4** 6 (2006) 947-954 \[<a href="https://doi.org/10.1142/S0219749906002328">doi:10.1142/S0219749906002328</a>, [arXiv:quant-ph/0511273](https://arxiv.org/abs/quant-ph/0511273)\]
 
 * [[James Robin Wootton]], *Dissecting Topological Quantum Computation*, PhD thesis, Leeds (2010) \[<a href="https://etheses.whiterose.ac.uk/1163">ethesis:1163</a>, [pdf](https://etheses.whiterose.ac.uk/1163/1/main.pdf), [[WoottonDissectingTQC.pdf:file]]\]
-
-  > "non-Abelian anyons are usually assumed to be better suited to the task. Here we challenge this view, demonstrating that Abelian anyon models have as much potential as some simple non-Abelian models."
+  > "non-Abelian anyons are usually assumed to be better suited to the task. Here we challenge this view, demonstrating that Abelian anyon models have as much potential as some simple non-Abelian models. \[...\] Though universal non-Abelian models are admittedly the holy grail of topological quantum computation, and rightly so, this thesis has shown that Abelian models are just as useful as non-universal non-Abelian models. \[...\] Abelian models are a computationally powerful, fault-tolerant and experimentally realistic prospect for quantum computation."
 
 * [[Seth Lloyd]], *Quantum computation with abelian anyons*, Quantum Information Processing **1** 1/2 (2002) \[<a href="https://doi.org/10.1023/A:1019649101654">doi:10.1023/A:1019649101654</a>, [arXiv:quant-ph/0004010](https://arxiv.org/abs/quant-ph/0004010)\]
 
