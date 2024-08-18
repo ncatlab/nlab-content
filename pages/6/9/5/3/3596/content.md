@@ -292,7 +292,7 @@ The following rules may seem a little ad-hoc, but they are actually a particular
 Then we have the “elimination” rule, which is easily the most subtle and powerful.
 
 $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \quad \Gamma, x:A, \Delta(x,x,r(x)) \vdash t(x):C(x,x,r(x))}
-{\Gamma, x:A, y:A, p:Id_A(x,y) \vdash J^{\underline{ }.t}(x,y,p) : C(x,y,p)}$$
+{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash J^{\underline{ }.t}(x,y,p) : C(x,y,p)}$$
 
 Ignore the presence of the additional context $\Delta$ for now; it is unnecessary if we also have [[dependent product types]]. The elimination rule then says that if:
 
