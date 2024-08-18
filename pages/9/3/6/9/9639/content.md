@@ -102,11 +102,14 @@ with closely related results in
 
 Review of this theory behind the quantum Hall effect:
 
-* Yosi Afron, _Why is the Hall conductance quantized?_ (2017) &lbrack;[pdf](http://web.math.princeton.edu/~aizenman/OpenProblems_MathPhys/17_Avron.pdf), [[AfronQuantumHallEffect.pdf:file]]&rbrack;
+* [[Joseph E. Avron]], Daniel Osadchy, Ruedi Seiler: _A topological look at the quantum Hall effect_, Physics Today __56__ 8 (2003) 38–42 &lbrack;[doi:10.1063/1.1611351](http://dx.doi.org/10.1063/1.1611351)&rbrack;
 
-* [[Spyridon Michalakis]], _Why is the Hall conductance quantized?_, Nature Reviews Physics 2, 392–393 (2020) ([doi:10.1038/s42254-020-0212-6](https://doi.org/10.1038/s42254-020-0212-6))
+* [[Joseph E. Avron]], _Why is the Hall conductance quantized?_ (2017) &lbrack;[pdf](http://web.math.princeton.edu/~aizenman/OpenProblems_MathPhys/17_Avron.pdf), [[AfronQuantumHallEffect.pdf:file]]&rbrack;
 
-* S. Klevtsov, X. Ma, G. Marinescu, P. Wiegmann, _Quantum Hall effect and Quillen metric_ Commun. Math. Phys. 349, 819–855 (2017) [doi](https://doi.org/10.1007/s00220-016-2789-2)
+* [[Spyridon Michalakis]], _Why is the Hall conductance quantized?_, Nature Reviews Physics **2** (2020) 392–393 &lbrack;[doi:10.1038/s42254-020-0212-6](https://doi.org/10.1038/s42254-020-0212-6)&rbrack;
+
+* S. Klevtsov, X. Ma, G. Marinescu, P. Wiegmann, _Quantum Hall effect and Quillen metric_ Commun. Math. Phys. **349** (2017) 819–855 &lbrack;[doi:10.1007/s00220-016-2789-2](https://doi.org/10.1007/s00220-016-2789-2)&rbrack;
+
 
 
 ### Fractional quantum Hall effect
@@ -139,9 +142,6 @@ A quick review of the description via [[Chern-Simons theory]] with further point
 
 * Spencer D. Stirling, _Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories_, &lbrack;[arXiv:0807.2857](http://arxiv.org/abs/0807.2857)&rbrack;
 
-In terms of [[Berry phases]] and Chern numbers:
-
-* Joseph E. Avron, Daniel Osadchy, Ruedi Seiler: _A topological look at the quantum Hall effect_, Physics Today __56__ 8 (2003) 38–42 &lbrack;[doi:10.1063/1.1611351](http://dx.doi.org/10.1063/1.1611351)&rbrack;
 
 Realization via [[AdS/CFT in condensed matter physics]]:
 
@@ -178,6 +178,12 @@ Phenomenological microscopic models for the fractional quantum Hall effect:
 The original [[Laughlin wavefunction]]:
 
 * [[Robert B. Laughlin]], *Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations*, Phys. Rev. Lett. **50** (1983) 1395 &lbrack;[doi:10.1103/PhysRevLett.50.1395](https://doi.org/10.1103/PhysRevLett.50.1395)&rbrack;
+
+The Haldane-Halperin model:
+
+* [[F. Duncan M. Haldane]]: *Fractional Quantization of the Hall Effect: A Hierarchy of Incompressible Quantum Fluid States*, Phys. Rev. Lett. **51** (1983) 605 \[<a href="https://doi.org/10.1103/PhysRevLett.51.605">doi:10.1103/PhysRevLett.51.605</a>\]
+
+* [[Bertrand Halperin]]: *Statistics of Quasiparticles and the Hierarchy of Fractional Quantized Hall States*, Phys. Rev. Lett. **52** (1984) 1583 \[<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.52.1583">doi:10.1103/PhysRevLett.52.1583</a>\]
 
 The composite-fermion model which explains the FQHE as the [[integer quantum Hall effect]] not of the bare electrons but of [[quasi-particles]] which they form (for reasons not explained by the model):
 
