@@ -238,21 +238,20 @@ Textbook accounts:
 
 * {#ZCZW19} [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
 
-  Part III of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
+  *Topological Order and Long-Range Entanglement*, Part III of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
 
-* [[Tudor D. Stanescu]], Section 6.2 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
+* [[Tudor D. Stanescu]], Section 6.2 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press (2020) &lbrack;[ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9781032126524)&rbrack;
 
-* Masaki Oshikawa, Yong Baek Kim, Kirill Shtengel, Chetan Nayak, Sumanta Tewari, *Topological degeneracy of non-Abelian states for dummies*, Annals of Physics **322** 6 (2007) 1477-1498 &lbrack;[doi:10.1016/j.aop.2006.08.001](https://doi.org/10.1016/j.aop.2006.08.001), [arXiv:cond-mat/0607743](https://arxiv.org/abs/cond-mat/0607743)&rbrack;
+* Masaki Oshikawa, Yong Baek Kim, Kirill Shtengel, [[Chetan Nayak]], Sumanta Tewari, *Topological degeneracy of non-Abelian states for dummies*, Annals of Physics **322** 6 (2007) 1477-1498 &lbrack;[doi:10.1016/j.aop.2006.08.001](https://doi.org/10.1016/j.aop.2006.08.001), [arXiv:cond-mat/0607743](https://arxiv.org/abs/cond-mat/0607743)&rbrack;
 
 
 Further review:
 
 * [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman|M. Freedman]], [[Sankar Das Sarma]], _Non-Abelian anyons and topological quantum computation_, Rev Mod Phys __80__:3 (Aug 2008) 1083&#8211;1159 [MR2009g:81041](http://www.ams.org/mathscinet-getitem?mr=2443722) [doi](http://dx.doi.org/10.1103/RevModPhys.80.1083)
 
-* [[Xiao-Gang Wen]], _An introduction of topological order_ 2009 ([pdf slides](http://dao.mit.edu/~wen/talks/09QHtop.pd), [article](http://dao.mit.edu/~wen/topartS3.pdf))
+* [[Xiao-Gang Wen]], _An introduction of topological order_ (2009) &lbrack;[pdf slides](http://dao.mit.edu/~wen/talks/09QHtop.pd), [article](http://dao.mit.edu/~wen/topartS3.pdf)&rbrack;
 
-* [[Philip Ball]], *Making the world from topological order*, National Science Review **6** 2 (2019) 227–230 $[$[doi:10.1093/nsr/nwy116](https://doi.org/10.1093/nsr/nwy116)$]$
-
+* [[Philip Ball]], *Making the world from topological order*, National Science Review **6** 2 (2019) 227–230 &lbrack;[doi:10.1093/nsr/nwy116](https://doi.org/10.1093/nsr/nwy116)&rbrack;
   > (an interview with [[Xiao-Gang Wen]])
 
 * V. Yu. Irkhin, Yu. N. Skryabin, *Topological states in strongly correlated systems*, Journal of Superconductivity and Novel Magnetism, **35** 8 (2022) 2141-2151 &lbrack;[arXiv:2209.04336](https://arxiv.org/abs/2209.04336), [doi:10.1007/s10948-022-06251-3](https://doi.org/10.1007/s10948-022-06251-3)&rbrack;
