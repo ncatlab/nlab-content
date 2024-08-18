@@ -21,9 +21,11 @@ For an archetypical example in [[condensed matter theory]]: [[phonons]] in a [[c
 
 ## Examples
 
-* [[phonon]]
+* [[phonons]]
 
-* [[Cooper pair]]
+* [[Cooper pairs]] in [[superconductors]]
+
+* [composite-fermions](quantum+Hall+effect#ReferencesMicroscopicModelsForFQHE) in the [[fractional quantum Hall effect]]
 
 ## Related concepts
 
