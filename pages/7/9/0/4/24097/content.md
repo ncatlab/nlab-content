@@ -16,7 +16,12 @@ On the [[fictitious gauge field]]-[[model (in theoretical physics)|model]] for [
 
 * [[Yi-Hong Chen]], [[Frank Wilczek]], [[Edward Witten]], [[Bertrand Halperin]], *On Anyon Superconductivity*,  International Journal of Modern Physics B **03** 07 (1989) 1001-1067 (reprinted in [Wilczek 1990](#Wilczek90))  $[$[doi:10.1142/S0217979289000725](https://doi.org/10.1142/S0217979289000725), [[CWWH-AnyonSuperfluidity.pdf:file]]$]$
 
-On [[anyons]] in the [[fractional quantum Hall effect]]:
+On the [[fractional quantum Hall effect]]:
+
+* [[Bertrand I. Halperin]], [[Jainendra K. Jain]] (eds.): *Fractional Quantum Hall Effects -- New Developments*, World Scientific (2020) \[<a href="https://doi.org/10.1142/11751">doi:10.1142/11751</a>\]
+
+
+On [[anyons]] in [[fractional quantum Hall effect|fractional quantum Hall systems]]:
 
 * D. E. Feldman, [[Bertrand Halperin]]: *Fractional charge and fractional statistics in the quantum Hall effects*, Rep. Prog. Phys. **84** (2021) 076501 \[<a href="https://doi.org/10.1088/1361-6633/ac03aa">doi:10.1088/1361-6633/ac03aa</a>, [arXiv:2102.08998](https://arxiv.org/abs/2102.08998)\]
 
