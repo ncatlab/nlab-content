@@ -9,7 +9,7 @@
 
 The _[[Pontryagin theorem]]_, i.e. the unstable and [[normally framed submanifold|framed]] version of the [[Pontrjagin-Thom construction]], identifying [[cobordism classes]] of [[normally framed submanifolds]] with their [[Cohomotopy charge]] in unstable [[Karol Borsuk|Borsuk]]-[[Edwin Spanier|Spanier]] [[Cohomotopy sets]], is due to:
 
-* {#Pontryagin38a} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication I_, Doklady Akademii Nauk SSSR 19(3) (1938), 147-149
+* {#Pontryagin38a} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication I_, Doklady Akademii Nauk SSSR **19** 3 (1938) 147-149
 
 * {#Pontryagin50} [[Lev Pontryagin]], _[[Homotopy classification of mappings of an (n+2)-dimensional sphere on an n-dimensional one]]_, Doklady Akad. Nauk SSSR (N.S.) 19 (1950), 957–959 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont3.pdf))
 
