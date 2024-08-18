@@ -1,6 +1,9 @@
+
+\tableofcontents
+
 ## Idea
 
-Linguistic semantics is the study of linguistic meaning. 
+Linguistic semantics is the study of [[linguistics|linguistic]] meaning. 
 
 ## Literature
 
