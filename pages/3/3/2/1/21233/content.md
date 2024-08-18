@@ -9,3 +9,6 @@ Interpretation of the [[DBI-action]] on [[flavor branes]] as witnessing the [[ho
 
 
 category: people
+
+[[!redirects Gordon W. Semenoff]]
+
