@@ -6,7 +6,7 @@
 
 Discussion of the [[integer quantum Hall effect]] via a [[Brillouin torus]] with [[noncommutative geometry]] and using the Connes-Chern character: 
 
-* {#BvESB94} J. Bellissard, A. van Elst, H. Schulz-Baldes: _The noncommutative geometry of the quantum Hall effect_, J. Math. Phys. __35__ 5373 (1994) &lbrack;[cond-mat/9411052](http://arxiv.org/abs/cond-mat/9411052),  [doi:10.1063/1.530758](http://link.aip.org/link/doi/10.1063/1.530758)&rbrack;
+* {#BvESB94} J. Bellissard, A. van Elst, H. Schulz-Baldes: _The noncommutative geometry of the quantum Hall effect_, J. Math. Phys. __35__ 5373 (1994) \[<a href="http://link.aip.org/link/doi/10.1063/1.530758">doi:10.1063/1.530758</a>, [cond-mat/9411052](http://arxiv.org/abs/cond-mat/9411052)\]
 
 Generalization of [BvESB94](#BvESB94) to the [[fractional quantum Hall effect]]:
 
