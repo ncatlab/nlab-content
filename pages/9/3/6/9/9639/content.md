@@ -10,7 +10,6 @@
 =--
 
 
-
 # Contents
 * table of contents
 {: toc}
@@ -117,7 +116,6 @@ Review of this theory behind the quantum Hall effect:
 
 #### General
 
-* [[Bertrand I. Halperin]]: *Theory of the Quantized Hall Conductance*, Helvetica Physica Acta **56** (1983) 75-102 \[<a href="https://doi.org/10.5169/seals-115362">doi:10.5169/seals-115362</a>, [[Halperin-TheoryOfQHE.pdf:file]]\]
 
 Review and survey of the FQHE:
 
@@ -173,14 +171,19 @@ in $CdTe$:
 
 
 
-#### Microscopic models
+#### Phenomenological models
   {#ReferencesMicroscopicModelsForFQHE}
 
-Phenomenological microscopic models for the fractional quantum Hall effect:
+Phenomenological models for the fractional quantum Hall effect:
 
 The original [[Laughlin wavefunction]]:
 
 * [[Robert B. Laughlin]], *Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations*, Phys. Rev. Lett. **50** (1983) 1395 &lbrack;[doi:10.1103/PhysRevLett.50.1395](https://doi.org/10.1103/PhysRevLett.50.1395)&rbrack;
+
+The Halperin multi-component model:
+
+* [[Bertrand I. Halperin]]: *Theory of the Quantized Hall Conductance*, Helvetica Physica Acta **56** (1983) 75-102 \[<a href="https://doi.org/10.5169/seals-115362">doi:10.5169/seals-115362</a>, [[Halperin-TheoryOfQHE.pdf:file]]\]
+
 
 The Haldane-Halperin model:
 
@@ -188,7 +191,7 @@ The Haldane-Halperin model:
 
 * [[Bertrand Halperin]]: *Statistics of Quasiparticles and the Hierarchy of Fractional Quantized Hall States*, Phys. Rev. Lett. **52** (1984) 1583 \[<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.52.1583">doi:10.1103/PhysRevLett.52.1583</a>\]
 
-The composite-fermion model which explains the FQHE as the [[integer quantum Hall effect]] not of the bare electrons but of [[quasi-particles]] which they form (for reasons not explained by the model):
+The composite-fermion model (CF) which explains the FQHE as the [[integer quantum Hall effect]] not of the bare electrons but of [[quasi-particles]] which they form (for reasons not explained by the model):
 
 * [[Jainendra K. Jain]]: *Composite-fermion approach for the fractional quantum Hall effect*, Phys. Rev. Lett. **63** (1989) 199 \[<a href="https://doi.org/10.1103/PhysRevLett.63.199">doi:10.1103/PhysRevLett.63.199</a>\]
 
@@ -207,6 +210,16 @@ Further discussion:
 
 * C.-C Chang, [[Jainendra K. Jain]]: *Microscopic origin of the next generation fractional quantum Hall effect*, Phys. Rev. Lett. **92** (2004) 196806 \[<a href="https://doi.org/10.1103/PhysRevLett.92.196806">doi:10.1103/PhysRevLett.92.196806</a>, [arXiv:cond-mat/0404079](https://arxiv.org/abs/cond-mat/0404079)\]
 
+Discussion highlighting the lack of microscopic explanation of these phenomenological models:
+
+* [[Janusz E. Jacak]]: *Topological approach to electron correlations at fractional quantum Hall effect*, Annals of Physics **430** (2021) 168493 \[<a href="https://doi.org/10.1016/j.aop.2021.168493">doi:10.1016/j.aop.2021.168493</a>\]
+
+> "Though the Laughlin function very well approximates the true ground state at $\nu = \tfrac{1}{q}$, the physical mechanism of related correlations and of the whole hierarchy of the FQHE remained, however, still obscure."
+
+> "The so-called HH (Halperin–Haldane) model of consecutive generations of Laughlin states of anyonic quasiparticle excitations from the preceding Laughlin state has been abandoned early because of the rapid growth of the daughter quasiparticle size, which quickly exceeded the sample size."
+
+>  "the Halperin multicomponent theory and of the CF model advanced the understanding of correlations in FQHE, however, on a phenomenological level only. CFs were assumed to be hypothetical quasi-particles consisting of electrons and flux quanta of an auxiliary fictitious magnetic field pinned to
+them. The origin of this field and the manner of attachment of its flux quanta to electrons have been neither explained nor discussed."
 
 
 
