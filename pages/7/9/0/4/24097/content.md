@@ -11,6 +11,11 @@ Early discussion of the [[fractional quantum Hall effect]]:
 
 * [[Bertrand I. Halperin]]: *Theory of the Quantized Hall Conductance*, Helvetica Physica Acta **56** (1983) 75-102 \[<a href="https://doi.org/10.5169/seals-115362">doi:10.5169/seals-115362</a>, [[Halperin-TheoryOfQHE.pdf:file]]\]
 
+* [[F. Duncan M. Haldane]]: *Fractional Quantization of the Hall Effect: A Hierarchy of Incompressible Quantum Fluid States*, Phys. Rev. Lett. **51** (1983) 605 \[<a href="https://doi.org/10.1103/PhysRevLett.51.605">doi:10.1103/PhysRevLett.51.605</a>\]
+
+* [[Bertrand Halperin]]: *Statistics of Quasiparticles and the Hierarchy of Fractional Quantized Hall States*, Phys. Rev. Lett. **52** (1984) 1583 \[<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.52.1583">doi:10.1103/PhysRevLett.52.1583</a>\]
+
+
 Prediction of [[abelian group|abelian]] [[anyon]]-excitations in the [[fractional quantum Hall effect]] (i.e. satisfying [[braid group statistics]] in 1-dimensional [[linear representations]] of the [[braid group]]) via a hierarchy of [[Laughlin wavefunctions]]:
 
 * [[Bertrand I. Halperin]]: _Statistics of Quasiparticles and the Hierarchy of Fractional Quantized Hall States_, Phys. Rev. Lett. **52** (1984) 1583 \[<a href="https://doi.org/10.1103/PhysRevLett.52.1583">doi:10.1103/PhysRevLett.52.1583</a>\]
