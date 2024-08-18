@@ -70,7 +70,9 @@ Pragmatics is concerned with the meaning of language in context.
 
 ## Related Concepts
 
-* [[syntax]], [[semantics]], [[semantics of a programming language]]
+* [[syntax]], [[semantics (linguistics)]]
+
+* [[semantics of a programming language]], [[semantics]] (in model theoretic sense)
 
 * [[semiotics]]
 
