@@ -33,6 +33,8 @@ See at _[[K-theory classification of topological phases of matter]]_.
 
 * [[quantum many-body physics]]
 
+* [[mean-field theory]]
+
 * [[mathematical physics]]
 
 * [[high energy physics]]
