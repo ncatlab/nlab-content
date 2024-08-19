@@ -101,7 +101,7 @@ Fixing $G$ a finite group, we acquire the following examples (see section 3.2 of
 ### Equivariant spectra 
  {#EquivariantSpectra}
 
-Let $G$ be a [[finite group]]. Let $\mathcal{C}= G Set$ be its category of [[G-sets]]. Then $Corr_1(\mathcal{C})$ is essentially what is called the [[Burnside category]] of $G$ (possibly after abelianizing/stabilizing the hom-spaces suitably, but as ([Barwick 14](#Barwick14)) highlights, this is unnecessary when one is mapping out of this into something abelian/stable, as is the case here).
+Let $G$ be a [[finite group]]. Let $\mathcal{C}= \mathbb{F}_G$ be the category of finite [[G-sets]]. Then $Corr_1(\mathcal{C})$ is essentially what is called the [[Burnside category]] of $G$ (possibly after abelianizing/stabilizing the hom-spaces suitably, but as ([Barwick 14](#Barwick14)) highlights, this is unnecessary when one is mapping out of this into something abelian/stable, as is the case here).
 
 For $G$ finite, Mackey functors on $\mathcal{C}$ are equivalent to  genuine [[G-spectra]] ([Guillou-May 11, theorem 0.1](#GuillouMay11), [Barwick 14, below example B.6](#Barwick14)) (Notice that this equivalence does not in general hold if $G$ is not a finite group.)
 
