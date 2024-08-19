@@ -47,6 +47,13 @@ The above comparison between OTT and HoTT is taken from
 
 * [[Dan Licata]], _[comment](http://homotopytypetheory.org/2012/11/12/abstract-types-with-isomorphic-types/#comment-2476)_ (2012)
 
+Metatheoretical properties of OTT are proved in 
+
+* [[Loïc Pujet]], [[Nicolas Tabareau]], *Observational Equality: Now for Good*, POPL'22, [pdf](https://inria.hal.science/hal-03367052/file/main.pdf)
+
+* [[Loïc Pujet]], [[Nicolas Tabareau]], *Impredicative Observational Equality*, POPL'23, [pdf](https://hal.science/hal-03857705v2/document)
+
+*  [[Loïc Pujet]], [[Nicolas Tabareau]], *Observational Equality Meets CIC*, ESOP'24, [pdf](https://hal.science/hal-04535982v1/document)
 
 [[!redirects observational type theory]]
 [[!redirects observational type theories]]
