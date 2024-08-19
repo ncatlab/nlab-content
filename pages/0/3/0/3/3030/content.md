@@ -221,7 +221,7 @@ Use the identification of $\mathbf{B}AUT(K)$ with its [[crossed module]] $\big(A
   &&
   \bullet
   \ar[uur, "{ \psi(g_1) }"]
-  \ar[rr, "{ \psi(g_1, g_2) }"{swap}]
+  \ar[rr, "{ \psi(g_1 g_2) }"{swap}]
   &{}&
   \bullet
 \end{tikzcd}
