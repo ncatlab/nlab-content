@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Algebra
++-- {: .hide}
+[[!include algebra - contents]]
+=--
 #### Super-Algebra and Super-Geometry
 +-- {: .hide}
 [[!include supergeometry - contents]]
