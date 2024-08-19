@@ -33,6 +33,11 @@ Review with focus on [[photons]] in [[electromagnetism]]:
 
 * Noah Miller, *From Noether's Theorem to Bremsstrahlung: a pedagogical introduction to large gauge transformations and classical soft theorems* ([arXiv:2112.05289](https://arxiv.org/abs/2112.05289))
 
+Exposition:
+
+* [[Ashoke Sen]]: *Gravitational Wave Tails from Soft Theorem: A Short Review* &lbrack;[arXiv:2408.08851](https://arxiv.org/abs/2408.08851)&rbrack;
+
+
 See also:
 
 * [[Martin Beneke]], Patrick Hager, Robert Szafron, *Soft-Collinear Gravity and Soft Theorems*, in section *Effective Quantum Gravity* of *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.09336](https://arxiv.org/abs/2210.09336)&rbrack;
