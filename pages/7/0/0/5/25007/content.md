@@ -4,7 +4,7 @@
 ###Context###
 #### Algebra
 +--{: .hide}
-[[!include higher algebra - contents]]
+[[!include algebra - contents]]
 =--
 #### (0,1)-Category theory
 +--{: .hide}
