@@ -33,37 +33,69 @@ The [[equivariant homotopy groups]] $\pi_n(E)$ of a (genuine) [[G-spectrum]] $E$
 
 ## Definition
 
-We follow the modern account in ([Barwick 14](#Barwick14)).
+### In higher category theory
+We follow the account in ([Barwick 14](#Barwick14)), which incarnates a perspective of ([Lindner 76](#Lindner76)) in higher category theory.
 
-Let $\mathcal{C}$ be a [[disjunctive (∞,1)-category]] and write $Corr_1(\mathcal{C})^\otimes$ for the [[(∞,1)-category of correspondences]] in $\mathcal{C}$, regarded as a [[symmetric monoidal (∞,1)-category]] with respect to its [[coproduct]] (which is a [[biproduct]] by disjunctiveness of $\mathcal{C}$).
+Let $\mathcal{C}$ be a [[disjunctive (∞,1)-category]] and write $\Span(\mathcal{C})$ for the [[(∞,1)-category of correspondences]] in $\mathcal{C}$ and let $\mathcal{A}$ be an [[(∞,1)-category]] with finite products.
 
-Write $\mathcal{A} = $[[Spectra]]${}^{\oplus}$ for the [[(∞,1)-category of spectra]] regarded as a [[symmetric monoidal (∞,1)-category]] with respect to [[direct sum]].  More generally $\mathcal{A}$ could be any [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[stable (∞,1)-category]]
-
-Then a (spectral) _Mackey functor_ on $\mathcal{C}$ is a [[monoidal (∞,1)-functor]] of the form
-
+Then an _$\mathcal{A}$-valued Mackey functor_ on $\mathcal{C}$ is a product-preserving functor
 
 $$
-  S \;\colon\; Corr_1(\mathcal{C})^\otimes \longrightarrow \mathcal{A}^{\oplus}
+  M \;\colon\; \Span(\mathcal{C}) \longrightarrow \mathcal{A}
   \,.
 $$
 
-Notice that this means that $S$ is in particular
+Notice that this means that $M$ is in particular:
 
 
 1. a covariant [[(∞,1)-functor]] $(-)_\ast \colon\mathcal{C} \to \mathcal{A}$;
 
 1. a contravariant [[(∞,1)-functor]], hence  $(-)^\ast \colon\mathcal{C}^{op} \to \mathcal{A}$;
 
-1. satisfying the [[Beck-Chevalley condition]].
+1. satisfy the [[Beck-Chevalley condition]].
 
-(More generally one may specify suitably chosen sub-$(\infty,1)$-categories $\mathcal{C}^\dagger, \mathcal{C}_\dagger \subset \mathcal{C}$ and restrict $Corr_1$ to [[correspondences]] whose left leg is in $\mathcal{C}_\dagger$ and whose right leg is in $\mathcal{C}^\dagger$ ([Barwick 14, section 5](#Barwick14)).)
+In order to understand the Beck-Chevalley condition, note that disjunctiveness of $\mathcal{C}$ implies that $\Span(\mathcal{C})$ is [[semiadditive (∞,1)-category|semiadditive]]. 
+
+(More generally one may specify suitably chosen sub-$(\infty,1)$-categories $\mathcal{C}^\dagger, \mathcal{C}_\dagger \subset \mathcal{C}$ and restrict $\Span(\mathcal{C})$ to [[correspondences]] whose left leg is in $\mathcal{C}_\dagger$ and whose right leg is in $\mathcal{C}^\dagger$ ([Barwick 14, section 5](#Barwick14)).)
+
+### In representation theory
+
+In order to recover the original definition of [Dress 71](#Dress71), we fix $G$ a finite group, and we let $\mathbb{F}_G$ be the (disjunctive) category of finite $G$-sets.
+Then, the above definition specializes to $G$ by defining $G$-Mackey functors as product-preserving functors
+
+$$
+   M \;\colon\; \Span(\mathbb{F}_G) \longrightarrow \mathcal{A}
+  \,.
+$$ 
+
+$\Span(\mathbb{F}_G)$ has [[biproducts]] given by disjoint unions of finite $G$-sets;
+when $\mathcal{A}$ is a [[semiadditive category]], such a functor may be decompiled into
+
+1. a covariant functor $(-)_\ast \colon \mathcal{O}_G \to \mathcal{A}$ and
+
+2. a contravariant functor $(-)^\ast \colon \mathcal{O}_G^{\op} \to \mathcal{A}$, subject to the conditions that
+ 
+3. there exists a non-natural isomorphism $(-)_\ast \simeq (-)^\ast$, and
+
+4. writing $R^H_J$ for the contravariant effect of in inclusion $J \subset H$ and $I^H_J$ for the covariant effect, $M$ satisfies the double coset formula
+$$
+  R_J^H I_K^H(-) \simeq \bigoplus_{x \in [J\backslash H/K]} I_{J \cap ^x K}^J R_{J^x \cap K}^{K}(-)
+$$
+for all $J,K \subset H$, where $^x K \coloneqq xKx^{-1}$.
 
 
 ## Examples
 
-### Dress' Mackey functors
+### In representation theory
 
 For $\mathcal{A}$ taken to be (the [[derived category]]) of an [[abelian category]] (or better: postcomposed with a [[homological functor]] ) this definition reduces ([Barwick 14](#Barwick14)) to that of Mackey functors as originally defined in ([Dress 71](#Dress71)).
+Fixing $G$ a finite group, we acquire the following examples (see section 3.2 of [Blumberg 17](#Blumberg17)).
+
+1. Let $R \in \mathcal{A}$ be an object in $\mathcal{A}$. Then, the **constant Mackey functor** $\underline{R}$ assigns $R$ to every transitive $G$-set, whose restriction maps are all the identity, and whose transfer maps $G/H \rightarrow G/K$ are multiplication by $\left| H/K \right|$.
+
+2. The **Burnside Mackey functor** $A(G)$ is defined by letting $A(G)([G/H])$ be the [[Grothendieck group]] of the cocartesian symmetric monoidla category of finite $H$-sets, with restriction and transfer given by restriction and induction, respectively.
+
+3. The **representation Mackey functor** $R(G)$ is defined by letting $R(G)([G/H])$ be the [[Grothendieck group]] of the symmetric monoidal category of finite-dimensional $H$-representations,  with restriction and transfer given by restriction and induction,  respectively.
 
 
 ### Equivariant spectra 
@@ -168,6 +200,10 @@ For this kind of cohomology, there is equivariant [[Serre spectral sequence]] ([
 The original article is
 
 * {#Dress71} A. W. M. Dress, _Notes on the theory of representations of finite groups. Part I: The Burnside ring of a finite group and some AGN-applications, Bielefeld_, 1971, 
+
+The span perspective is due to
+
+* {#Lindner76} Harald Lindner, _A remark on Mackey-functors_, 1976 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/lindner.pdf))
 
 Reviews and surveys:
 
