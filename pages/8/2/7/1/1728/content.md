@@ -356,7 +356,13 @@ On the derivation of the relevant topological term in 2d theories with defects t
 
 * Rafal R. Suszek. *Defects, dualities and the geometry of strings via gerbes II. Generalised geometries with a twist, the gauge anomaly and the gauge-symmetry defect* (2012). ([arXiv:1209.2334](https://arxiv.org/abs/1209.2334)).
 
+Defects in Landau-Ginburg theory: 
 
+* [[Ilka Brunner]], Daniel Roggenkamp. *B-type defects in Landau-Ginzburg models* ([arXiv:0707.0922](https://arxiv.org/abs/0707.0922))
+
+* [[Nils Carqueville]], [[Daniel Murfet]], *Adjunctions and defects in Landau-Ginzburg models*, ([arXiv:1208.1481](https://arxiv.org/abs/1208.1481))
+
+* [[Nils Carqueville]], [[Ingo Runkel]], *Orbifold completion of defect bicategories*, ([arXiv:1210.6363](https://arxiv.org/abs/1210.6363))
 
 
 #### In Chern-Simons theory
@@ -381,6 +387,15 @@ In the context of the [[3d-3d correspondence]]:
 Defects in [[higher dimensional Chern-Simons theory]] on [[manifolds with corners]] are discussed in
 
 * [[Hisham Sati]], _Corners in M-theory_, J.Phys.A44:255402,2011 ([arXiv:1101.2793](http://arxiv.org/abs/1101.2793))
+
+
+#### In Rozansky-Witten theory
+
+* [[Anton Kapustin]], [[Lev Rozansky]], [[Natalia Saulina]], _Three-dimensional topological field theory and symplectic algebraic geometry I_ ([arXiv:0810.5415](https://arxiv.org/abs/0810.5415))
+
+* [[Ilka Brunner]], [[Nils Carqueville]], [[Daniel Roggenkamp]], _Truncated affine Rozansky-Witten models as extended TQFTs_, Comm. Math. Phys. (2023), ([arXiv:2201.03284](https://arxiv.org/abs/2201.03284))
+
+* [[Ilka Brunner]], [[Nils Carqueville]], Pantelis Fragkos, [[Daniel Roggenkamp]], _Truncated affine Rozansky-Witten models as extended defect TQFTs_, ([arXiv:2307.06284](https://arxiv.org/abs/2307.06284))
 
 
 #### Topological defects in gauge theories with broken symmetry
