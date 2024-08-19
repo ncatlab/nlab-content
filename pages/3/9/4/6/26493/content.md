@@ -52,6 +52,8 @@ and studied extensively in:
 
 The discrete cocones construction is also discussed in Example 2.1.6 of [[Higher Operads, Higher Categories]].
 
+An analogue of sequential multicategories for [[(infinity, 1)-categories]] is contained in §2.4.3 of [[Higher Algebra]].
+
 The sequential multicategory structure was rediscovered in the one-object setting as the "T construction" of:
 
 * Samuele Giraudo, _Combinatorial operads from monoids_, Journal of Algebraic Combinatorics 41 (2015): 493-538.
