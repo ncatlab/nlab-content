@@ -11,8 +11,7 @@
 
 
 
-
-This entry largely discusses [[Schreier theory]] of nonabelian [[group extensions]] -- but from the [[nPOV]].
+> This entry largely discusses [[Schreier theory]] of nonabelian [[group extensions]] -- but from the [[nPOV]].
 
 
 #Contents#
@@ -30,16 +29,16 @@ By the [[category theory|general abstract]] definition of [[cohomology]], the _[
 $$
   H^n(G,K) 
   \;\simeq\; 
-  \big\{ \mathbf{B}G  \to \mathbf{B}^n K \big\}_\sim
+  \big\{ \mathbf{B}G  \to \mathbf{B}^n K \big\}_{/\sim}
 $$
 
 in the [[(∞,1)-category]] [[∞Grpd]], from the [[delooping]] $\mathbf{B}G$ of $G$ to the $n$-fold delooping $\mathbf{B}^n K$ of $K$.
 
-However, if the group $K$ is not abelian, then its $n$-fold delooping does not exist for $n \geq 2$, so accordingly the above does not give a prescription for cohomology of $G$ with coefficients in a nonabelian group $K$ in degree greater than 1 (and in degree 1 group cohomology is not very interesting).
+However, if the group $K$ is not abelian, then its $n$-fold delooping does not exist for $n \geq 2$, so accordingly the above does not give a prescription for cohomology of $G$ with coefficients in a nonabelian group $K$ in degree greater than 1 (and in degree 1 group cohomology is not very interesting, though see at *[[crossed homomorphism]]*).
 
-But for nonabelian $K$ there are higher groupoids that _approximate_ the non-existing higher deloopings. Nonabelian group cohomology is the [[cohomology]] of $\mathbf{B}G$ with coefficients in such approximations.
+But for nonabelian $K$ there are higher groupoids that "approximate" the non-existing higher deloopings, in some sense. Nonabelian group cohomology is the [[cohomology]] of $\mathbf{B}G$ with coefficients in such approximations.
 
-More precisely, notice that for $n=2$ and $K$ abelian, the $n$-fold [[delooping]] $\mathbf{B}^2 K$ is the strict [[2-groupoid]] whose corresponding [[crossed complex]] is
+More in detail, notice that for $n=2$ and $K$ abelian, the $n$-fold [[delooping]] $\mathbf{B}^2 K$ is the strict [[2-groupoid]] whose corresponding [[crossed complex]] is
 
 $$
   [\mathbf{B}^2 K]
@@ -62,7 +61,7 @@ $$
   \,,
 $$
 
-where the boundary map $\delta$ is the one that sends an element $k \in K$ to the automorphism $Ad(k) : k' \mapsto k k' k^{-1}$.
+where the boundary map $\delta$ is the one that sends an element $k \in K$ to the [[adjoint action]] automorphism $Ad(k) \,\colon\, k' \mapsto k k' k^{-1}$.
 
 So this looks much like $\mathbf{B}^2 K$ (when that exists) only that it has more elements in degree 1.
 
@@ -71,67 +70,75 @@ Accordingly, what is called nonabelian group cohomology of $G$ with coefficients
 $$
   H^2_{nonab}(G,K) 
     \;\coloneqq\; 
-  \big\{ \mathbf{B}G \to \mathbf{B}AUT(K) \big\}_\sim
+  \big\{ \mathbf{B}G \to \mathbf{B}AUT(K) \big\}_{/\sim}
   \,.
 $$
 
-Notice that when $K$ has nontrivial [[automorphism]]s, this differs in general from the ordinary degree 2 abelian group cohomology even if $K$ is abelian.
+Notice that when $K$ has nontrivial [[automorphisms]], this differs in general from the ordinary degree=2 abelian group cohomology even if $K$ is abelian.
 
-It is a familiar fact that abelian group cohomology classifies (shifted) central [[group extension]]s. This is really nothing but the statement that to a morphism $\mathbf{B}G \to \mathbf{B}^n K$ we may associate its [[fibration sequence]]
+It is a familiar fact that abelian group cohomology classifies (shifted) [[central extension|central]] [[group extensions]]. Abstractly, this is really nothing but the statement that to a morphism $\mathbf{B}G \to \mathbf{B}^n K$ we may associate its [[homotopy fiber]], making the [[fiber sequence]]
 
 $$
   \array{
-    \mathbf{B}^{n-1} K& \to&\mathbf{B}\hat G &\to& {*}
+    \mathbf{B}^{n-1} K
+      &\longrightarrow&
+    \mathbf{B}\hat G &\to& {*}
     \\
-    \downarrow &&\downarrow && \downarrow 
+    \big\downarrow &&\downarrow && \big\downarrow 
     \\
-    {*}& \to& \mathbf{B}G &\to& \mathbf{B}^n K
+    {*} 
+      &\longrightarrow& 
+    \mathbf{B}G &\to& \mathbf{B}^n K
   }
 $$
 
-(where both squares are [[homotopy pullback]] squares). In particular, for $n = 2$ we get ordinary central extensions
+(where both squares are [[homotopy pullback]] squares). In particular, for $n = 2$ we get ordinary [[central extensions]]
 
 $$
   \mathbf{B}K \to \mathbf{B}\hat G \to \mathbf{B}B
+  \,,
+$$
+
+which may be looped to yield [[exact sequences]] of groups
+
+$$
+  K \longrightarrow \hat G \longrightarrow B
   \,.
 $$
 
-which may be looped to yield exact sequences of morphisms of groups
+In [[Schreier theory]] one notices that, similarly, nonabelian group cohomology in degree=2 classifies nonabelian [[group extensions]], i.e. sequences
 
 $$
-  K \to \hat G \to B
+  K \longrightarrow \hat G \longrightarrow G
   \,.
 $$
 
-In [[Schreier theory]] one notices that similarly nonabelian group cohomology in degree 2 classifies nonabelian [[group extension]]s, i.e. sequences
-
-$$
-  K \to \hat G \to G
-  \,.
-$$
-
-As we shall discuss below, by following the [[category theory|abstract nonsense]] as described above, nonabelian degree 2 cocycles really classify something slightly richer, namely exact sequences of groupoids
+As we shall discuss below, along the lines of the abstract discussion abive, nonabelian degree=2 cocycles really classify something slightly richer, namely exact sequences of groupoids
 
 $$
   Aut(K) \sslash K 
-    \to 
+    \longrightarrow
   Aut(K) \sslash \hat G
-   \to 
+   \longrightarrow
   {*}\sslash G
   \,,
 $$
 
-where the double slashes denote [[homotopy quotients]] represented as [[action groupoids]] (and so ${*}\sslash G = \mathbf{B}G$ is the [[delooping groupoid]]).
+where the double slashes denote [[homotopy quotients]] (presented as [[action groupoids]], and so ${*}\sslash G = \mathbf{B}G$ is the [[delooping groupoid]]).
 
 
-In the existing literature -- which does not usually present the picture quite in the way we are doing here -- nonabelian group cohomology is rarely considered beyond degree 2. But the picture does straightforwardly generalize. For instance degree 3 nonabelian cohomology of $G$ with coefficients in $K$ may be taken to be the [[cohomology]] of $\mathbf{B}G$ with coefficients in the 3-groupoid $\mathbf{B}AUT(AUT(K))$.
+In the existing literature -- which does not usually present the picture quite in the way we are doing here -- nonabelian group cohomology is rarely considered beyond degree=2. But the picture does straightforwardly generalize. For instance degree=3 nonabelian cohomology of $G$ with coefficients in $K$ may be taken to be the cohomology of $\mathbf{B}G$ with coefficients in the [[3-groupoid]] $\mathbf{B}AUT\big(AUT(K)\big)$.
 
 $$
-  H^3_{nonab}(G,K) = \{\mathbf{B}G \to \mathbf{B}AUT(AUT(K))\}_\sim
+  H^3_{nonab}(G,K) 
+  \;\coloneqq\; 
+  \Big\{
+    \mathbf{B}G \to \mathbf{B}AUT\big(AUT(K)\big)
+  \Big\}_{/\sim}
   \,.
 $$
 
-And so on.
+and so on.
 
 
 ## Details
@@ -142,77 +149,84 @@ $$
   \mathbf{B}G \to \mathbf{B}AUT(K)
 $$
 
-correspond to in terms of classical group data, using the relation between [[strict 2-groups]] and [[crossed module]]s that is spelled out in detail at [strict 2-group -- in terms of crossed modules](strict+2-group#InTermsOfCrossedModules).
+correspond to in terms of classical group data, using the relation between [[strict 2-groups]] and [[crossed modules]] that is spelled out in detail at [strict 2-group -- in terms of crossed modules](strict+2-group#InTermsOfCrossedModules).
 
 For making the translation we follow the **convention LB** there.
 
 
-### Degree 2 cocycles
+### Degree=2 cocycles
 
-+-- {: .un_prop}
-###### Proposition
 
-Degree 2 cocycles of nonabelian group cohomology on $G$ with coefficients in $K$ are given by the following data:
+\begin{proposition}
+Degree=2 cocycles of nonabelian group cohomology on $G$ with coefficients in $K$ are given by the following data:
 
-* a map $\psi : G \to Aut(K)$;
+1. a map $\psi \,\colon\, G \to Aut(K)$;
 
-* a map $\chi : G \times G \to K$
+1. a map $\chi \,\colon\, G \times G \to K$
 
-* subject to the constraint that for all $g_1, g_2 \in G$ we have
+subject to 
+
+1. the constraint that for all $g_1, g_2 \in G$ we have
+
+   $$
+     \psi(g_1 g_2)
+     = 
+     Ad\big(\chi(g_1, g_2)\big) \psi(g_2) \psi(g_1)  
+     \,.
+   $$
+
+1. the cocycle condition that for all $g_1, g_2, g_3 \in G$ we have
 
   $$
-    \psi(g_1 g_2)
-    = 
-    Ad(\chi(g_1, g_2)) \psi(g_2) \psi(g_1)  
-    \,.
+   \chi(g_1 g_2, g_3) 
+   \cdot 
+   \psi(g_3)\big(\chi(g_1,g_2)\big)
+   \,=\, 
+   \chi(g_1, g_2 g_3) \cdot \chi(g_2, g_3)
+   \,.
   $$
 
-* and subject to the cocycle condition that for all $g_1, g_2, g_3 \in G$ we have
+\end{proposition}
 
-  $$
-   \chi(g_1 g_2, g_3) \psi(g_3)(\xi(g_1,g_2))
-   = 
-   \chi(g_1, g_2 g_3) \chi(g_2, g_3)
-  $$
+\begin{proof}
+Use the identification of $\mathbf{B}AUT(K)$ with its [[crossed module]] $\big(A \overset{Ad}{\to} Aut(K)\big)$ in the "convention L B" as described at *[strict 2-group -- in terms of crossed modules](strict+2-group#InTermsOfCrossedModules)* to translate the relevant diagrams -- which are of the sort spelled out in great detail at *[[group cohomology]]*: The first three items of the above encode a map of [[2-morphisms]]
 
-=--
 
-+-- {: .proof}
-###### Proof
+\begin{tikzcd}[
+  row sep=15pt,
+  column sep=22pt
+]
+  &
+  \bullet
+    \ar[ddr, "{ g_2 }"]
+  \ar[dd, equals, shorten <=10pt, shorten >=7pt]
+  &
+  &&
+  &
+  \bullet
+  \ar[ddr, "{ \psi(g_2) }"]
+  \ar[dd, Rightarrow, shorten <=10pt, shorten >= 7pt,
+    "{ \chi(g_1, g_2) }"{description}
+  ]
+  \\
+  &&& 
+  \longmapsto
+  &
+  \\
+  \bullet
+    \ar[rr, "{ g_1 g_2 }"{swap}]
+    \ar[uur, "{ g_1 }"]
+  &{}&
+  \bullet
+  &&
+  \bullet
+  \ar[uur, "{ \psi(g_1) }"]
+  \ar[rr, "{ \psi(g_1, g_2) }"{swap}]
+  &{}&
+  \bullet
+\end{tikzcd}
 
-Use the identification of $\mathbf{B}AUT(K)$ with its [[crossed module]] $(A \stackrel{Ad}{\to} Aut(K))$ in the _convention L B_ as described at [strict 2-group -- in terms of crossed modules](strict+2-group#InTermsOfCrossedModules) to translate the relevant diagrams -- which are of the sort spelled out in great detail at [[group cohomology]]: the first three items of the above describe the maps
-
-$$
-  (\psi, \chi) : 
-  \left(
-    \array{
-       && \bullet
-       \\
-       & {}^{\mathllap{g_1}}\nearrow &
-       \Downarrow^{\mathrlap{=}}&
-       \searrow^{\mathrlap{g_2}}
-       \\
-       \bullet &&\stackrel{g_1 g_2}{\to} && \bullet
-    }
-  \right)
-  \;\;\;
-  \mapsto
-  \;\;\;
-  \left(
-    \array{
-       && \bullet
-       \\
-       & {}^{\mathllap{\psi(g_1)}}\nearrow &
-       \Downarrow^{\mathrlap{\chi(g_1,g_2)}}&
-       \searrow^{\mathrlap{\psi(g_2)}}
-       \\
-       \bullet &&\stackrel{\psi(g_1 g_2)}{\to} && \bullet
-    }
-  \right)
-  \,.
-$$
-
-The cocycle condition is the fact that this assignment has to make all tetrahedras commute (since there are only trivial [[k-morphism]]s with $k \geq 3$ in $\mathbf{B}AUT(K)$):
+and the cocycle condition encodes that this assignment makes all [[tetrahedra]] commute (since there are only trivial [[k-morphisms]] with $k \geq 3$ in $\mathbf{B}AUT(K)$):
 
 $$
   \array{
@@ -259,18 +273,15 @@ $$
   }
 $$
 
-=--
+\end{proof}
 
-+-- {: .un_remark}
-###### Remark
+\begin{remark}
+Precisely the same kind of "twisted" cocycles appear as the cocycles of nonabelian [[gerbes]] and [[principal 2-bundles]]: for a $K$-gerbe these are cocycles with coefficients in $\mathbf{B}AUT(K)$ but on a domain that is the [[discrete groupoid]] given by the given base space.
+\end{remark}
 
-Precisely the same kind of "twisted" cocycles appear as the cocycles of nonabelian [[gerbe]]s and [[principal 2-bundle]]s: for a $K$-gerbe these are cocycles with coefficients in $\mathbf{B}AUT(K)$ but on a domain that is the [[discrete groupoid]] given by the given base space.
+### Extensions classified by degree=2 cocycles
 
-=--
-
-### Extensions classified by degree 2-cocycles
-
-The following statement is classically the central statement of [[Schreier theory]]. We state and prove it in the abstract nonsense context of general [[cohomology]], where the things classified by a cocycle are nothing but its [[homotopy fiber]]s.
+The following statement is classically the central statement of [[Schreier theory]]. We state and prove it in the guise of [[2-groupoids]] where the thing classified by a cocycle is nothing but its [[homotopy fiber]].
 
 +-- {: .un_prop}
 ###### Proposition
@@ -279,6 +290,7 @@ Cohomology classes of nonabelian 2-cocycles $(\psi, \chi) :  \mathbf{B}G \to \ma
 
 $$
   K \to \hat G \to G
+  \mathrlap{\,.}
 $$
 
 =--
@@ -288,19 +300,19 @@ $$
 +-- {: .proof}
 ###### Proof
 
-In fact, we claim a bit more: we claim that the [[fibration sequence]] to the left defined by the cocycle $(\psi, \chi) : \mathbf{B}G \to \mathbf{B}AUT(K)$ is
+In fact, we claim a bit more: we claim that the [[fibration sequence]] to the left which is induced by the cocycle $(\psi, \chi) \,\colon\, \mathbf{B}G \to \mathbf{B}AUT(K)$ is
 
 $$
   \cdots
-  \to
+    \longrightarrow
   Aut(K)
-  \to 
+    \longrightarrow
   Aut(K) \sslash K
-  \to 
+    \longrightarrow
   Aut(K) \sslash \hat G
-  \to
+    \longrightarrow
   \mathbf{B}G
-  \stackrel{(\psi,\xi)}{\to}
+    \overset{(\psi,\xi)}{\to}
   \mathbf{B}AUT(K)
   \,,
 $$
@@ -308,7 +320,7 @@ $$
 where 
 
 $$
-  \hat G \coloneqq K \times_{(\psi,\chi)} G
+  \hat G \,\coloneqq\, K \times_{(\psi,\chi)} G
 $$
 
 is the twisted product of $K$ with $G$, using the maps $\chi$ and $\psi$, i.e. the group whose underlying set is the cartesian [[product]] $K \times G$ with multiplication given by
@@ -367,17 +379,18 @@ $$
   }
 $$
 
-in $\mathbf{B}AUT(K)$, and composition of morphisms is pasting of these triangles along their vertical edges. 2-morphisms in $\mathbf{E}AUT(K)$ are given by paper-cup pasting diagrams of such triangles in $\mathbf{B}AUT(K)$
+in $\mathbf{B}AUT(K)$, and composition of morphisms is pasting of these triangles along their vertical edges. 2-morphisms in $\mathbf{E}AUT(K)$ are given by paper-cup pasting diagrams of such triangles in $\mathbf{B}AUT(K)$.
 
 
 
 Accordingly, the [[pullback]] $\mathbf{B}G \times_{(\psi,\xi)} \mathbf{E}AUT(K)$ has
 
-* objects are elements of $Aut(K)$ (this is the bit not seen in the classical picture of [[Schreier theory]], as that doesn't know about [[groupoid]]s);
+* objects are elements of $Aut(K)$ (this is the bit not seen in the classical picture of [[Schreier theory]], as that doesn't know about [[groupoids]]);
 
-* morphisms are pairs 
+* morphisms $\alpha \to \beta$ are pairs 
 
-  $$
+  \[
+    \label{MorphismsOfWidehatG}
     (k,g)
     \;\;\;
     \coloneqq
@@ -388,7 +401,7 @@ Accordingly, the [[pullback]] $\mathbf{B}G \times_{(\psi,\xi)} \mathbf{E}AUT(K)$
       & {}^{\mathllap{\alpha}}\swarrow
       &{}^\mathrlap{k}\swArrow& 
       \searrow^{\mathrlap{\beta}}
-      &&&&& \in \mathbf{AUT(K)}
+      &&&&& \in \mathbf{AUT}(K)
       \\
       \bullet 
       &&\stackrel{\psi(g)}{\to}&&
@@ -401,7 +414,7 @@ Accordingly, the [[pullback]] $\mathbf{B}G \times_{(\psi,\xi)} \mathbf{E}AUT(K)$
       &&&& \in \mathbf{B}G
     }
     \right)
-  $$
+  \]
 
 * 2-morphisms (thought of as 2-[[simplex]]es) take two 
   such triangles $(k_1, g_1)$ and $(k_2, g_2)$ to the pair $(k', g_1, g_2)$, where $k'$ is given by the pasting diagram
@@ -426,7 +439,7 @@ Accordingly, the [[pullback]] $\mathbf{B}G \times_{(\psi,\xi)} \mathbf{E}AUT(K)$
     \,.
   $$
 
-Translating these diagrams into forumas using the _convention LB_ as described at [strict 2-group -- in terms of crossed modules](strict+2-group#InTermsOfCrossedModules) yields the given formulas.
+Translating these diagrams into formulas using the _convention LB_ as described at *[strict 2-group -- in terms of crossed modules](strict+2-group#InTermsOfCrossedModules)* yields the claimed expressions.
 
 =--
 
@@ -454,21 +467,27 @@ Its components
 
 $$
   \lambda
-  : 
+  \,\colon\,
   (\bullet \stackrel{g}{\to} \bullet)
   \;\;
   \mapsto
   \;\;
+  \;\;
   \left(
+  \;\;\;\;
    \array{
-     \bullet &\stackrel{\psi_1(g)}{\to}& \bullet
+     \bullet 
+       &\overset{\psi_1(g)}{\longrightarrow}& 
+     \bullet
      \\
      {}^{\mathllap{\lambda(\bullet)}}
-     \downarrow &{}^{\mathllap{\lambda(g)}}\swArrow& 
-     \downarrow^{\mathrlap{\lambda(\bullet)}}
+     \big\downarrow 
+       &\;{}^{\mathllap{\lambda(g)}}\!\swArrow& 
+     \big\downarrow^{\mathrlap{\lambda(\bullet)}}
      \\
-     \bullet &\stackrel{\psi_2(g)}{\to}& \bullet 
+     \bullet &\overset{\psi_2(g)}{\longrightarrow}& \bullet 
    }
+  \;\;\;\;
   \right)
 $$
 
@@ -556,7 +575,7 @@ Compare this to the discussion of [2-coboundaries of extensions](group+extension
 
 ## Nonabelian Lie algebra cohomology
 
-When the groups in question are [[Lie group]]s, there is an [[infinitesimal object|infinitesimal]] version of nonabelian group cohomology:
+When the groups in question are [[Lie groups]], there is an [[infinitesimal object|infinitesimal]] version of nonabelian group cohomology:
 
 * [[nonabelian Lie algebra cohomology]]
 
