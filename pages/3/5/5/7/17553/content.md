@@ -24,9 +24,11 @@ A discussion of the [[swampland cobordism conjecture]]:
 
 On [[QFT with defects]]:
 
+* [[Nils Carqueville]], *Orbifolds of topological quantum field theories*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2307.16674](https://arxiv.org/abs/2307.16674)&rbrack;
+
 * [[Nils Carqueville]], [[Michele Del Zotto]], [[Ingo Runkel]], *Topological defects*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2311.02449](https://arxiv.org/abs/2311.02449)&rbrack;
 
-
+* {#CarquevilleRunkelSchaumann} [[Nils Carqueville]], [[Ingo Runkel]], [[Gregor Schaumann]], _Orbifolds of $n$-dimensional defect TQFTs_, Geom. Topol. **23** (2019) 781-864 *lbrack;[arXiv:1705.06085](https://arxiv.org/abs/1705.06085), [doi:10.2140/gt.2019.23.781](https://doi.org/10.2140/gt.2019.23.781)&rbrack;
 
 ## Related entries
 
