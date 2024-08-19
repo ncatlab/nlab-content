@@ -1,4 +1,38 @@
 
+\begin{tikzcd}[
+  row sep=15pt,
+  column sep=20pt
+]
+  &
+  \bullet
+    \ar[ddr, "{ g_2 }"]
+  \ar[dd, equals, shorten <=10pt, shorten >=7pt]
+  &
+  &&
+  &
+  \bullet
+  \ar[ddr, "{ \psi(g_2) }"]
+  \ar[dd, Rightarrow, shorten <=10pt, shorten >= 7pt,
+    "{ \chi(g_1, g_2) }"{description}
+  ]
+  \\
+  &&& 
+  \longmapsto
+  &
+  \\
+  \bullet
+    \ar[rr, "{ g_1 g_2 }"{swap}]
+    \ar[uur, "{ g_1 }"]
+  &{}&
+  \bullet
+  &&
+  \bullet
+  \ar[uur, "{ \psi(g_1) }"]
+  \ar[rr, "{ \psi(g_1, g_2) }"{swap}]
+  &{}&
+  \bullet
+\end{tikzcd}
+
 [[quantum hall effect via noncommutative geometry -- references]]
 
 
