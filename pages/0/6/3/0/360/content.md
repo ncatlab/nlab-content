@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebra
++--{: .hide}
+[[!include algebra - contents]]
+=--
 #### Differential-graded objects
 +--{: .hide}
 [[!include differential graded objects - contents]]
