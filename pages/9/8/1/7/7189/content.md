@@ -17,7 +17,7 @@
 ## Idea
  {#Idea}
 
-Recall (eg. from [here](monad#RelationBetweenAdjunctionsAndMonads)) that every [[right adjoint functor]] $F\dashv G \,\colon\, \mathcal{B}\to\mathcal{A}$ indues a [[monad]] on $\mathcal{A}$ whose [[underlying]] [[endofunctor]] is $G\circ F$. 
+Recall (eg. from [here](monad#RelationBetweenAdjunctionsAndMonads)) that every [[right adjoint functor]] $F\dashv G \,\colon\, \mathcal{B}\to\mathcal{A}$ induces a [[monad]] on $\mathcal{A}$ whose [[underlying]] [[endofunctor]] is $G\circ F$. 
 
 The notion of the *codensity monad* $\mathbb{T}^G$ is a generalization of this construction to functors $G \colon \mathcal{B}\to\mathcal{A}$ that need not be [[right adjoints]] but do at least admit a right [[Kan extension]] $Ran_G G$ along themselves, such that both constructions agree when $G$ is in fact a [[right adjoint]].
 
