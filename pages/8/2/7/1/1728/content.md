@@ -284,6 +284,8 @@ Details in dimension 2 and 3 are discussed in
 
 * {#FuchsSchweigertValentino13} [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Alessandro Valentino]], *Bicategories for boundary conditions and for surface defects in 3-d TFT*, Commun. Math. Phys. **321**  (2013) 543–575 &lbrack;[arXiv:1203.4568](https://arxiv.org/abs/1203.4568), [doi:10.1007/s00220-013-1723-0](https://doi.org/10.1007/s00220-013-1723-0)&rbrack;
 
+* [[Nils Carqueville]], [[Catherine Meusburger]], [[Gregor Schaumann]], *3-dimensional defect TQFTs and their tricategories*,  Advances in Mathematics **364** (2020), &lbrack;[arXiv:1603.01171](http://arxiv.org/abs/1603.01171), [doi:10.1016/j.aim.2020.107024](https://doi.org/10.1016/j.aim.2020.107024)&rbrack;
+
 Review:
 
 * [[Andrew Neitzke]], *Some uses of defects in quantum field theory* (2016?) &lbrack;[html](https://gauss.math.yale.edu/~an592/talks/html/defects-aspen/talk.html)&rbrack;
@@ -368,6 +370,8 @@ Defects in [[Chern-Simons theory]] and related systems are discussed in
 * [[Anton Kapustin]], Mikhail Tikhonov, _Abelian duality, walls and boundary conditions in diverse dimensions_, JHEP 0911:006,2009 ([arXiv:0904.0840](http://arxiv.org/abs/0904.0840))
 
 * [[Anton Kapustin]], [[Natalia Saulina]], _Surface operators in 3d TFT and 2d Rational CFT_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
+
+* [[Nils Carqueville]], [[Ingo Runkel]], [[Gregor Schaumann]], _Line and surface defects in Reshetikhin-Turaev TQFT_,  Quantum Topology **10** (2019), 399-439 ([arXiv:1710.10214](https://arxiv.org/abs/1710.10214))
 
 In the context of the [[3d-3d correspondence]]:
 
