@@ -91,6 +91,15 @@ rooted in
 
 * {#FHTL09} [[Daniel Freed]], [[Mike Hopkins]], [[Constantin Teleman]], [[Jacob Lurie]], *[[Topological Quantum Field Theories from Compact Lie Groups]]*, in: *A celebration of the mathematical legacy of Raoul Bott*, AMS (2010) &lbrack;[arXiv:0905.0731](http://arxiv.org/abs/0905.0731), [ISBN:978-0-8218-4777-0](https://bookstore.ams.org/view?ProductCode=CRMP/50)&rbrack;
 
+Gauging of generalized global symmetries of TQFTs: 
+
+* {#CarquevilleRunkelSchaumann} [[Nils Carqueville]], [[Ingo Runkel]], [[Gregor Schaumann]], _Orbifolds of $n$-dimensional defect TQFTs_, Geom. Topol. **23** (2019) 781-864 *lbrack;[arXiv:1705.06085](https://arxiv.org/abs/1705.06085), [doi:10.2140/gt.2019.23.781](https://doi.org/10.2140/gt.2019.23.781)&rbrack;
+
+* [[Nils Carqueville]], [[Ingo Runkel]], *Orbifold completion of defect bicategories*, ([arXiv:1210.6363](https://arxiv.org/abs/1210.6363))
+
+* [[Nils Carqueville]], *Orbifolds of topological quantum field theories*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2307.16674](https://arxiv.org/abs/2307.16674)&rbrack;
+
+
 
 See also:
 
