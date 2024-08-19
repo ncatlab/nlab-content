@@ -5,11 +5,15 @@
 ### Context
 #### Algebra
 +-- {: .hide}
-[[!include higher algebra - contents]]
+[[!include algebra - contents]]
 =--
 #### Linear algebra
 +-- {: .hide}
 [[!include homotopy - contents]]
+=--
+#### Higher algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
 =--
 =--
 =--
