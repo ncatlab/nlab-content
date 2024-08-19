@@ -502,7 +502,7 @@ $$
        \array{
          1/2 &\vert& n \;\text{is odd}
          \\
-         0 &\vert& n \text{is even}
+         0 &\vert& n \;\text{is even}
        }
      \right.
   }
