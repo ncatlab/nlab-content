@@ -92,20 +92,19 @@ This can be used to give a proof of the reduction of [[end|ends]] to [[conical l
 * [[twisted arrow (∞,1)-category]]
 
 ## References
+* {#BN00}[[Marta Bunge|M. Bunge]], [[Susan Niefield|S. Niefield]], _Exponentiability and single universes_, JPAA **148** (2000) pp.217-250.
 
-* {#BN00}[[Marta Bunge|M. Bunge]], [[Susan Niefield|S. Niefield]], _Exponentiability and single universes_ , JPAA **148** (2000) pp.217-250.
+* L. Errington, _Twisted Systems_, PhD thesis Imperial College London 1999.  ([doi](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.6369))
 
-* L. Errington, _Twisted Systems_ , PhD thesis Imperial College London 1999.  ([doi](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.6369))
+* [[Peter Johnstone]], _A Note on Discrete Conduch&#233; Fibrations_, TAC **5** no.1 (1999) pp.1-11. ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n1/n1.pdf))
 
-* [[Peter Johnstone]], _A Note on Discrete Conduch&#233; Fibrations_ , TAC **5** no.1 (1999) pp.1-11. ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n1/n1.pdf))
+* [[Fred Linton]], _Autonomous categories and duality of functors_, J. Algebra **2** no.3 (1965) pp.315-349.
 
-* [[Fred Linton]], _Autonomous categories and duality of functors_ , J. Algebra **2** no.3 (1965) pp.315-349.
+* {#DAGX} [[Jacob Lurie]], _Derived Algebraic Geometry X: Formal Moduli Problems_, ms. (2011). 
 
-* {#DAGX} [[Jacob Lurie]], _Derived Algebraic Geometry X: Formal Moduli Problems_ , ms. (2011). 
+* [[Saunders Mac Lane]], _Categories for the Working Mathematician_, Springer Heidelberg 1998&#178;. (cf. exercise IX.6.3, p.227)
 
-* [[Saunders Mac Lane]], _Categories for the Working Mathematician_ , Springer Heidelberg 1998&#178;. (cf. exercise IX.6.3, p.227)
-
-* [[Paul-André Melliès]], [[Noam Zeilberger]], _Isbell Duality for Refinement Types_ , [arXiv:1501.05115](http://arxiv.org/abs/1501.05115) (2015). {#MZ15}
+* [[Paul-André Melliès]], [[Noam Zeilberger]], _Isbell Duality for Refinement Types_, [arXiv:1501.05115](http://arxiv.org/abs/1501.05115) (2015). {#MZ15}
 
 [[!redirects twisted arrow category]]
 [[!redirects twisted arrow categories]]
