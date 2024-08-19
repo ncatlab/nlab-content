@@ -4,7 +4,7 @@
 ###Context###
 #### Algebra
 +--{: .hide}
-[[!include higher algebra - contents]]
+[[!include algebra - contents]]
 =--
 #### Constructivism, Realizability, Computability
 +-- {: .hide}
@@ -19,7 +19,9 @@
 
 ## Idea ##
 
-In the same vein that [[commutative rings]] are to [[integral domains]] and [[GCD rings]] are to [[GCD domains]], [[prefield rings]] are to [[fields]]. 
+A commutative ring in which all [[cancellative elements]] are [[invertible]]. 
+
+"Prefield ring" is a placeholder name for a concept which may or may not have another name in the mathematics literature. The idea however is that prefield rings are to fields as [[commutative rings]] are to [[integral domains]] and [[GCD rings]] are to [[GCD domains]]. 
 
 ## Definition ##
 
