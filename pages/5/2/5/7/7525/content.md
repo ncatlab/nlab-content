@@ -28,7 +28,7 @@ On [[injective hulls]] of [[partial order|partially ordered]] [[monoids]]:
 
 * [[Joachim Lambek]], [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Injective hulls of partially ordered monoids*, Theory Appl. Categories **26** 13 (2012) 338–348 &lbrack;[tac:16-13](http://www.tac.mta.ca/tac/volumes/26/13/26-13abs.html)&rbrack;
 
-
+* [[Joachim Lambek]], _Torsion theories, additive semantics, and rings of quotients_, Springer Lecture Notes in Math. __177__, 1971
 
 ## Related entries
 
