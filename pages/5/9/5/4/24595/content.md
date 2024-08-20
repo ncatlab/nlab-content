@@ -16,11 +16,7 @@
 
 ## Definition
 
-In an [[intensional type theory]] such as [[homotopy type theory]], a [[locally univalent bicategory]] is **univalent** if a Rezk completion condition is satisfied for the objects of the bicategory: equality of objects is [[adjoint equivalence]] of objects. 
-
-More specifically, it is a locally univalent bicategory $C$ for which the canonical function 
-$$idtoiso^{2,0}(a, b):(a = b) \to adjequiv(a, b)$$
-is an equivalence of types for all objects $a:Ob(C)$, $b:Ob(C)$. 
+In an [[intensional type theory]] such as [[homotopy type theory]], a [[bicategory]] is **univalent** if it is both a [[locally univalent bicategory]] and a [[globally univalent bicategory]]. 
 
 ### In set-level foundations
 
@@ -31,6 +27,8 @@ A univalent bicategory in [[set-level foundations]] is the same thing as a [[loc
 * [[bicategory]]
 
 * [[locally univalent bicategory]]
+
+* [[globally univalent bicategory]]
 
 ## References
 
