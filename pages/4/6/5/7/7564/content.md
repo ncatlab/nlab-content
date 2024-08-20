@@ -78,6 +78,13 @@ See also:
 
 * Min-xin Huang, _Recent Developments in Topological String Theory_ ([arXiv:1812.03636](https://arxiv.org/abs/1812.03636))
 
+Relation to [[M2-branes]]:
+
+* Jarod Hattab, [[Eran Palti]]: *Non-perturbative topological string theory on compact Calabi-Yau manifolds from M-theory* &lbrack;[arXiv:2408.09255](https://arxiv.org/abs/2408.09255)&rbrack;
+
+
+
+
 ### Relation to black hole microstate counting
 
 Disucssion of [[black holes in string theory]] via the topological string' [[Gopakumar-Vafa invariants]]:
