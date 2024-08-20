@@ -17,13 +17,15 @@
 
   * [[pseudo-abelian category]]
 
-* [[additive category]], 
+* [[additive category]],
 
 * (AB1) [[pre-abelian category]] 
 
 * (AB2) [[abelian category]]
 
 * (AB5) [[Grothendieck category]]
+
+* [[Quillen exact category]]
 
 ## Functors
 
