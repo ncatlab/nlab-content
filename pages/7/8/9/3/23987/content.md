@@ -3584,6 +3584,8 @@ Neumann algebras**
 ## Members
  {#Members}
 
+### Current
+
 Principal Investigator: 
 
 * [[Hisham Sati]]
@@ -3612,13 +3614,17 @@ Researchers:
 
 * [[Marwa Mannaï]] 
 
-* [[David Jaz Myers]] 
-
 * [[Mitchell Riley]] 
 
 * [[Vivek Kumar Singh]]
 
 * [[Sachin Valera]]
+
+### Former
+
+* [[Adrian Clough]]
+
+* [[David Jaz Myers]] 
 
 
 ***
