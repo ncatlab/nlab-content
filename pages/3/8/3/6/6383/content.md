@@ -63,6 +63,8 @@ For $p$ a [[prime number]] a group is **$p$-divisible** if the above formula hol
 
 There is also an abstract notion of $p$-[[p-divisible group|divisible group]] in terms of [[group schemes]].
 
+Compare also the notion of a [[divisible module]].
+
 =--
 
 ## Properties
