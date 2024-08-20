@@ -55,6 +55,12 @@ Examples of mathematical foundations which one could do predicative neutral cons
 
 * Furthermore, for any statement $P$ which is true in [[classical mathematics]] with the [[axiom of choice]], the statement that "the axiom of choice implies $P$" is true in neutral constructive mathematics. 
 
+### Set theory
+
+* [[classical sets]] only form a [[Heyting pretopos]] rather than an [[elementary topos]]. 
+
+* [[inequality spaces]] only form a [[Π-pretopos]] rather than a [[elementary topos]]. 
+
 ### Real analysis
 
 * In [[topology]], [[locales]] are usually better behaved than [[topological spaces]]. Thus, in [[real analysis]] one usually talks about the [[localic real numbers]] $\mathbb{R}_L$ rather than the [[Dedekind real numbers]] $\mathbb{R}_D$. Many statements, such as the [[Heine-Borel theorem]], the [[fundamental theorem of algebra]], et cetera, are true in the [[localic real numbers]], while they are not provable in the [[Dedekind real numbers]]. Nevertheless, the [[Dedekind real numbers]] are still of interest, being the spatial points of the [[localic real numbers]], and the two notions coincide with [[excluded middle]]. 
