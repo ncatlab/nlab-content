@@ -241,7 +241,7 @@ of $f$.
 #####Functoriality
 Now assume $U\colon \mathcal{E} \to \mathcal{C}$, a functor of $1$-categories, is a cocartesian fibration. 
 
-We define the functor $\text{St}(U)$ as follows:
+We define the [[pseudofunctor]] $\text{St}(U) \colon \mathcal{C} \to \text{Cat}$ with values in the $2$-category of small categories as follows:
 
 \begin{tikzcd}
 	{\mathcal{C}} & c & {\mathcal{E}_c} \\
