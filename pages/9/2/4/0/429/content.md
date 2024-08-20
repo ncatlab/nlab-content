@@ -46,13 +46,15 @@ As with the category-theoretic understanding of many other branches of mathemati
 
 * [[universal algebra in a monoidal category]]
 
+* [[algebra]]
+
 * [[bar construction]]
 
 * [[generalized ring]]
 
 * [[Omega-group]]
 
-* [[PRO]], 
+* [[PRO]]
 
 ## References
  {#References}
