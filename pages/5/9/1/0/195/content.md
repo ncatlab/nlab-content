@@ -79,6 +79,8 @@ Finally, skeletality is mostly meaningless in HoTT because paths are the only no
 
 * [[Set]]
 
+* [[classical set]]
+
 * [[Bishop set]], [[setoid]]
 
 * [[definable set]], [[constructible set]]
