@@ -7,7 +7,7 @@ The idea is that these notes should become an accessible and user friendly intro
 * this block creates the table of contents, leave as is
 {: toc}
 
-## The holy Grail: Straightening & Unstraightening
+\section{The holy Grail: Straightening & Unstraightening}
 For other Nlab entries see: [[(infinity,1)-Grothendieck construction]], [[straightening functor]], [[Grothendieck construction]], ...
 
 In the following we will mostly follow [[Kerodon]].
@@ -57,7 +57,8 @@ This equivalence is referred to as the Straightening/Unstraightening equivalence
 
 We shall discover that when one seeks to pursue algebra in a [[homotopy coherent diagram|homotopy coherent manner]], $\infty$-operads present the ideal framework. In fact, all of [[higher algebra]] is written in the language of [[(infinity,1)-operads]]. But the thing that keeps the machine of $\infty$-operads well oiled, or makes riding it even possible is the theory of [[cocartesian fibrations]] and in turn therefore the Straightening/Unstraightening Equivalence. 
 
-###(Co)Cartesian morphisms and (Co)Cartesian Fibrations
+\subsection{(Co)Cartesian Fibrations}
+See also [[Cartesian morphism]].
 ####Functoriality of Fibers
 Given a functor $U \colon \mathcal{E} \to \mathcal{C}$ of $\infty$-categories, a natural construction is to look at the fibers of $U$, that is, for $c \colon \mathcal{C}$ an object, the fiber of $U$ at $c$, denoted by $\mathcal{E}_c$ is given by the pullback diagram:
 
@@ -106,8 +107,7 @@ where the colors indicate where objects and morphisms are mapped to. Now the fib
 $$\mathcal{C} \simeq \Delta^1 \to \text{Cat} \subset \infty\text{Cat}$$
 which is really just a functor $\mathcal{E}_{c_1} \simeq \{e_1\} \to \{e_2,e_3\} \simeq \mathcal{E}_{c_2}$. Thus the choices are either $e_1 \mapsto e_2$ or $e_1 \mapsto e_3$, and both these functors are far from ever being able to recover all the information of the original functor $U \colon \mathcal{E} \to \mathcal{C}$.
 \end{example}
-####"Nice" Bundle maps that allow for functorial fibers - (co)cartesian fibrations
-
+####Slick Definition
 We shall first give slick, quick and abstract [[model-independent]] definitions, and then after we shall unravel these definitions (in the $1$-categorical setting) to give some intuition.
 
 \begin{definition}[Aaron Mazel-Gee, 2015](#usersguideCocart)
@@ -136,12 +136,12 @@ Let $U \colon \mathcal{E} \to \mathcal{C}$ be a functor of $\infty$-categories, 
 \end{definition}
 
 \begin{definition}
-Let $U \colon \mathcal{E} \to \mathcal{C}$ be a functor of $\infty$-categories, and denote by $U\text{-Cocart}$ (resp. $U\text{-Cart}$) the full subcategory of the arrow category $\text{Ar}\mathcal{E} \coloneqq \mathcal{E}^{\Delta^1}$ spanned by the $U$-cocartesian morphisms (resp. cartesian morphisms). 
+Let $U \colon \mathcal{E} \to \mathcal{C}$ be a functor of $\infty$-categories, and denote by $U\text{-CoCart}$ (resp. $U\text{-Cart}$) the full subcategory of the arrow category $\text{Ar}\mathcal{E} \coloneqq \mathcal{E}^{\Delta^1}$ spanned by the $U$-cocartesian morphisms (resp. cartesian morphisms). 
 
 * $U$ is called cocartesian fibration, if the (induced) dashed arrow in the diagram below is an equivalence of $\infty$-categories:
 
 \begin{tikzcd}
-	{U\text{-Cart}} \\
+	{U\text{-CoCart}} \\
 	& \bullet & {\text{Ar}\mathcal{C}} \\
 	& {\mathcal{E}} & {\mathcal{C}}
 	\arrow["\sim"{description}, dotted, from=1-1, to=2-2]
@@ -238,6 +238,42 @@ Here the important bit is really only that the dotted arrow is essentially surje
 $$\text{Lift}_{e}^{f} \colon e \to t(\text{Lift}_{e}^{f})$$
 
 of $f$.
+\begin{remark}
+Let $U \colon \mathcal{E} \to \mathcal{C}$ be a functor of $1$-categories. Then a morphism $\varphi \colon e\to \overline{e}$ is 
+* $U$-cocartesian if and only if
+\begin{tikzcd}
+	{\Delta^{\{0<1\}}} \\
+	{\Lambda_2^2} & {\mathcal{E}} \\
+	{\Delta^2} & {\mathcal{C}}
+	\arrow[hook, from=1-1, to=2-1]
+	\arrow["\varphi", from=1-1, to=2-2]
+	\arrow["\forall"{description}, from=2-1, to=2-2]
+	\arrow[hook, from=2-1, to=3-1]
+	\arrow["U", from=2-2, to=3-2]
+	\arrow["{\exists!}"{description}, dotted, from=3-1, to=2-2]
+	\arrow["\forall"', from=3-1, to=3-2]
+\end{tikzcd}
+* $U$-cartesian if and only if
+\begin{tikzcd}
+	{\Delta^{\{1<2\}}} \\
+	{\Lambda_2^2} & {\mathcal{E}} \\
+	{\Delta^2} & {\mathcal{C}}
+	\arrow[hook, from=1-1, to=2-1]
+	\arrow["\varphi", from=1-1, to=2-2]
+	\arrow["\forall"{description}, from=2-1, to=2-2]
+	\arrow[hook, from=2-1, to=3-1]
+	\arrow["U", from=2-2, to=3-2]
+	\arrow["{\exists!}"{description}, dotted, from=3-1, to=2-2]
+	\arrow["\forall"', from=3-1, to=3-2]
+\end{tikzcd}
+\end{remark}
+\begin{remark}
+There is another reformulation for $\varphi$ to be a $U$-(co)cartesian morphism: $\varphi$ is $U$-cocartesian if and only if the induced functor
+$$
+\mathcal{E}_{\varphi/} \overset{\sim}{\to} \mathcal{E}_{\overline{e}/} \times_{\mathcal{C}_{U\overline{e}}} \mathcal{C}_{U\varphi/}
+$$
+is a (surjective) equivalence (see [[Cartesian morphism]] Proposition 2.4).
+\end{remark}
 #####Functoriality
 Now assume $U\colon \mathcal{E} \to \mathcal{C}$, a functor of $1$-categories, is a cocartesian fibration. 
 
@@ -297,6 +333,145 @@ $$f_!(e) \coloneqq t(\text{Lift}_e^f)$$
 	\arrow["{\text{Lift}_{e'}^f}"', from=3-3, to=3-5]
 \end{tikzcd}
 implying $f_!(z')f_!(z) = f_!(z'z)$ (and thus functoriality).
+
+Next up, we want to verify that the construction of $\text{St}(U)$ is actually a [[pseudofunctor]]. In order to verify this, let us prove a quick lemma:
+\begin{lemma}
+For $\varphi, \tilde{\varphi}$ composable morphisms of $\mathcal{E}$ with $\varphi'$ $U$-cocartesian and $\varphi' \coloneqq \tilde{\varphi}\varphi$, we have that $\varphi$ is $U$-cocartesian if and only if $\varphi'$ is $U$-cocartesian. In particular, $U$-cocartesian morphisms are closed under composition.
+\end{lemma}
+\begin{proof}
+For $U$-cocartesian morphisms $e \overset{\varphi}{\to} \overline{e} \overset{\tilde{\varphi}}{\to} \tilde{e}$ we have a pasting of pullback squares which by [[pasting law for pullbacks]] yields the desired claim:
+
+\begin{tikzcd}
+	{\mathcal{E}_{\tilde{e}/}} & {\mathcal{E}_{\overline{e}/}} & {\mathcal{E}_{e/}} \\
+	{\mathcal{C}_{U\tilde{e}}/} & {\mathcal{C}_{U\overline{e}/}} & { \mathcal{E}_{Ue/}}
+	\arrow["{\tilde{\varphi}^\star}", from=1-1, to=1-2]
+	\arrow[from=1-1, to=2-1]
+	\arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=2-2]
+	\arrow["{\varphi^\star}", from=1-2, to=1-3]
+	\arrow[from=1-2, to=2-2]
+	\arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-2, to=2-3]
+	\arrow[from=1-3, to=2-3]
+	\arrow["{(U\tilde{\varphi})^\star}"', from=2-1, to=2-2]
+	\arrow["{(U\varphi)^\star}"', from=2-2, to=2-3]
+\end{tikzcd}
+
+\end{proof}
+
+\begin{theorem}
+$\text{St}(U)$ is a [[pseudofunctor]].
+\end{theorem}
+\begin{proof}
+We have specified what $\text{St}(U)$ does on objects and what it does on morphisms in $\mathcal{C}$. All that remains is to prove that this assignment is pseudo-functorial. For this, let $c \overset{f}{\to} \overline{c} \overset{g}{\to} \tilde{c}$ be a composable pair of morphisms in $\mathcal{C}$ and consider for an object $e \colon \mathcal{E}_c$ the diagram:
+
+\begin{tikzcd}
+	e && {t(\text{Lift}_{e}^{gf})} \\
+	\\
+	{t(\text{Lift}_e^f)} && {t(\text{Lift}_{t(\text{Lift}^{g}_{e})})}
+	\arrow["{\text{Lift}_{e}^{gf}}", from=1-1, to=1-3]
+	\arrow["{\text{Lift}_e^f}"', from=1-1, to=3-1]
+	\arrow["{\exists!}", shift left=2, dotted, from=1-3, to=3-3]
+	\arrow["{\text{Lift}^g_{t(\text{Lift}^{f}_{e^f})}}"', from=3-1, to=3-3]
+	\arrow["{\exists!}", shift left=2, dotted, from=3-3, to=1-3]
+\end{tikzcd}
+
+where the (unique) dotted arrows are induced by the lifting property of the $U$-cocartesian morphisms $\text{Lift}^{gf}_{e}$ and $\text{Lift}_{t(\text{Lift}^{g}_{e^f})}\text{Lift}_e^f$, respectively (justified by the above Lemma). In fact, again by uniqueness the dotted arrows must be mutually inverse isomorphisms - these will be the components of our natural isomorphism witnessing functoriality.
+
+Moreover, by uniqueness yet again, we have a commutative diagram
+
+\begin{tikzcd}
+	{g_!f_!(e)} & {(gf)_!(e)} \\
+	{g_!f_!(\overline{e})} & {(gf)_!(\overline{e})}
+	\arrow["\cong"{description}, draw=none, from=1-1, to=1-2]
+	\arrow["{g_!f_!(z)}"', from=1-1, to=2-1]
+	\arrow["{(gf)_!(z)}", from=1-2, to=2-2]
+	\arrow["\cong"{description}, draw=none, from=2-1, to=2-2]
+\end{tikzcd}
+which proves that we have a natural isomorphism
+$$g_! f_! \cong (gf)_!$$
+An analogous argument shows the remaining axioms of pseudo-functoriality.
+\end{proof}
+
+\begin{remark}
+One can now define a category of cocartesian fibrations with codomain $\mathcal{C}$, denoted $\text{CoCart}(\mathcal{C})$, whose objects are cocartesian fibrations and whose morphisms are "bundle" maps which preserve cocartesian morphisms:
+\begin{tikzcd}
+	{\mathcal{E}} && {\mathcal{F}} \\
+	& {\mathcal{C}}
+	\arrow[from=1-1, to=1-3]
+	\arrow[from=1-1, to=2-2]
+	\arrow[from=1-3, to=2-2]
+\end{tikzcd}
+Now the construction $U \mapsto \text{St}(U)$ extends to a functor
+$$\text{CoCart}(\mathcal{C}) \to \text{PseudoFun}(\mathcal{C}, \text{Cat})$$
+with values in the category of [[pseudofunctors]] from $\mathcal{C}$ to $text{Cat}$. It then turns out that this construction yields an equivalence of categories (see [[Grothendieck construction]]). We will spell this out for the more general case of $\infty$-categories over the course of the next few chapters.
+\end{remark}
+
+###(Co)Cartesian fibrations of simplicial sets
+\begin{definition}[[Kerodon, Definition 5.1.1.1]]
+
+Let $U \colon \mathcal{E} \to \mathcal{C}$ be a morphism of [[simplicial set|simplicial sets]], and let $\varphi$ be an edge of $\mathcal{E}$.
+ 
+* We say that $\varphi$ is $U$-cartesian if every lifting problem 
+\begin{tikzcd}
+	{\{n-1<n\}} \\
+	{\Lambda_n^n} & {\mathcal{E}} \\
+	{\Delta^n} & {\mathcal{C}}
+	\arrow[hook, from=1-1, to=2-1]
+	\arrow["\varphi", from=1-1, to=2-2]
+	\arrow["\forall"{description}, from=2-1, to=2-2]
+	\arrow[from=2-1, to=3-1]
+	\arrow["U", from=2-2, to=3-2]
+	\arrow["\exists"{description}, dotted, from=3-1, to=2-2]
+	\arrow["\forall"', from=3-1, to=3-2]
+\end{tikzcd}
+admits a solution, provided that $n \geq 2$.
+
+* We say that $\varphi$ is $U$-cocartesian if every lifting problem 
+\begin{tikzcd}
+	{\{0<1\}} \\
+	{\Lambda_0^n} & {\mathcal{E}} \\
+	{\Delta^n} & {\mathcal{C}}
+	\arrow[hook, from=1-1, to=2-1]
+	\arrow["\varphi", from=1-1, to=2-2]
+	\arrow["\forall"{description}, from=2-1, to=2-2]
+	\arrow[from=2-1, to=3-1]
+	\arrow["U", from=2-2, to=3-2]
+	\arrow["\exists"{description}, dotted, from=3-1, to=2-2]
+	\arrow["\forall"', from=3-1, to=3-2]
+\end{tikzcd}
+admits a solution, provided that $n \geq 2$.
+
+\end{definition}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Derived Categories
 ### Differential-Graded Categories
