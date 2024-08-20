@@ -40,6 +40,8 @@ Every [[locally cartesian closed category|locally cartesian closed]] [[coherent 
 
 In particular, the [[h-sets]] in [[Martin-Löf type theory]] with [[propositional truncations]] form a Heyting category. 
 
+In [[neutral constructive mathematics]], the [[inequality spaces]] form a Heyting category which is locally cartesian closed, and the [[classical sets]] form a [[Heyting category]] which is not locally cartesian closed. 
+
 ## Related concepts
 
 * [[De Morgan Heyting category]]
