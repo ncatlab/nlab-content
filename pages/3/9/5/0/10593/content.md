@@ -23,6 +23,11 @@
 
 There are several ways in which the _[[Riemann hypothesis]]_ has or might have an incarnation in or leave an imprint on [[physics]], specifically in [[quantum physics]].
 
+### General
+
+* Guilherme França, André LeClair: *A theory for the zeros of Riemann $\zeta$ and other $L$-functions (updated)* &lbrack;[arXiv:1407.4358](https://arxiv.org/abs/1407.4358)&rbrack:
+
+
 ### Via string theory
 
 By the general discussion at _[[zeta function]]_ and at _[[functional determinant]]_ zeta functions are closely related to 1-loop [[vacuum amplitudes]] and to [[vacuum energy]] in [[quantum field theory]] in general and in [[string theory]] in particular. 
