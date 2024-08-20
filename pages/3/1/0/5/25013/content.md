@@ -97,6 +97,18 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, b:A \vdash \mathrm{tight}
 
 This implies [[axiom K]] and [[uniqueness of identity proofs]]. 
 
+### Omniscience principles
+
+There are also generalisations of the [[principles of omniscience]] involving [[inequality spaces]]:
+
+* Every [[inequality space]] has [[decidable tight apartness]], which generalises [[LPO]] and [[analytic LPO]]
+
+* Every [[inequality space]] has [[decidable equality]], which generalises [[WLPO]] and [[analytic WLPO]]
+
+* Every [[inequality space]] has [[stable relation|stable]] [[tight apartness]], which generalises [[Markov's principle]] and [[analytic Markov's principle]]
+
+These are all still weaker than [[excluded middle]] since in general, the [[set of truth values]] is only an [[inequality space]] if and only if [[excluded middle]] holds. 
+
 ## In algebra
 
 Since inequality spaces have finite limits, the usual constructions of [[universal algebra]] apply; it\'s straightforward to define inequality [[groups]], inequality [[rings]], and so on.
