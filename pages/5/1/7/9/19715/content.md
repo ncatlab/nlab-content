@@ -58,6 +58,18 @@ Any [[well-pointed category|well-pointed]] [[cartesian closed category|cartesian
 
 ### In type theory
 
+There are many different notions of propositional resizing in type theory. These include
+
+* propositional resizing for individual universes
+
+* propositional resizing for universe hierarchies
+
+* propositional resizing for the entire dependent type theory, if the dependent type theory is defined via universes and universe levels. 
+
+A [[universe hierarchy]] satisfies **propositional resizing** if it satisfies both [[local propositional resizing]] and [[global propositional resizing]]. The universe hierarchy is then said to be **impredicative**. 
+
+Similarly, if the dependent type theory is defined via universes and universe levels, the dependent type theory satisfies **propositional resizing** if it satisfies both [[local propositional resizing]] and [[global propositional resizing]], and then the dependent type theory is then said to be **impredicative**. 
+
 #### For individual universes
 {#ForIndividualUniverses}
 
@@ -72,16 +84,13 @@ $$T(\Omega_U) \equiv \sum_{A:U} \mathrm{isProp}(T(A))$$
 
 In particular, every impredicative [[strictly Tarski universe]] is strictly impredicative. 
 
-#### For universe hierarchies
-
-A universe hierarchy satisfies **propositional resizing** if it satisfies both [[local propositional resizing]] and [[global propositional resizing]]. The universe hierarchy is then said to be **impredicative**. 
-
 ## See also
 
 * [[essentially small type]]
 * [[excluded middle]]
 * [[type of all propositions]]
 * [[local propositional resizing]], [[global propositional resizing]]
+* [[impredicative dependent type theory]]
 
 ## References
 
