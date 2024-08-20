@@ -41,12 +41,16 @@ On the [[swampland]] and the [[weak gravity conjecture]]:
 * [[Eran Palti]], _The Swampland: Introduction and Review_, lecture notes ([arXiv:1903.06239](https://arxiv.org/abs/1903.06239))
 
 
-On [[string scattering amplitude|string]] [[vacuum amplitudes]]
+On [[string scattering amplitude|string]] [[vacuum amplitudes]]:
 
 * {#Palti} [[Eran Palti]], _The IIA/B superstring one-loop vacuum amplitude_ ([pdf](http://www.thphys.uni-heidelberg.de/~palti/Stringcourse/problemset11.pdf))
 
+On [[topological strings]] in relation to [[M2-branes]]:
 
-## Related $n$Lab entries
+* Jarod Hattab, [[Eran Palti]]: *Non-perturbative topological string theory on compact Calabi-Yau manifolds from M-theory* &lbrack;[arXiv:2408.09255](https://arxiv.org/abs/2408.09255)&rbrack;
+
+
+## Related entries
 
 * [[string phenomenology]]
 
