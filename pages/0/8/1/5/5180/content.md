@@ -5,6 +5,8 @@
 ###Context###
 #### Algebra
 +--{: .hide}
+[[!include algebra - contents]]
+
 [[!include higher algebra - contents]]
 =--
 #### Category theory
