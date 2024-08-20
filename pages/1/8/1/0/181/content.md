@@ -4,6 +4,8 @@
 ### Context
 #### Algebra
 +-- {: .hide}
+[[!include algebra - contents]]
+
 [[!include higher algebra - contents]]
 =--
 =--
@@ -173,7 +175,7 @@ On [[locally presentable category|local presentability]] of [[CocommCoalg|catego
 
 * [[Hans-Eberhard Porst]], *On corings and comodules*, Archivum Mathematicum **42** 4 (2006) 419-425 &lbrack;[dmlcz:108017](https://dml.cz/handle/10338.dmlcz/108017), [pdf](http://dml.cz/bitstream/handle/10338.dmlcz/108017/ArchMathRetro_042-2006-4_7.pdf)&rbrack; 
 
-
+category: algebra
 
 [[!redirects coalgebras]]
 
