@@ -51,4 +51,4 @@ in turn following
 * [[Eric Bergshoeff]], [[David S. Berman]], [[Jan Pieter van der Schaar]], [[Per Sundell]]: *Critical fields on the M5-brane and noncommutative open strings*,  Phys. Lett. B **492** (2000) 193-200 \[<a href="https://doi.org/10.1016/S0370-2693(00)01081-9">doi:10.1016/S0370-2693(00)01081-9</a>, [arXiv:hep-th/0006112](https://arxiv.org/abs/hep-th/0006112)\]
 
 * [[Rajesh Gopakumar]], [[Shiraz Minwalla]], [[Nathan Seiberg]], [[Andrew Strominger]]: *OM Theory in Diverse Dimensions*,  JHEP08 (2000) 008 \[<a href="https://iopscience.iop.org/article/10.1088/1126-6708/2000/08/008">doi:10.1088/1126-6708/2000/08/008</a>, [arXiv:hep-th/0006062](https://arxiv.org/abs/hep-th/0006062)\]
-
+[[Private notes on derived cats and k-linear cats]]
