@@ -170,6 +170,10 @@ In relation to [[pure spinors]]:
 
 * Richard Eager, [[Simone Noja]], Raphael Senghaas, [[Johannes Walcher]], *Adinkras and Pure Spinors* &lbrack;[arXiv:2404.07167](https://arxiv.org/abs/2404.07167)&rbrack;
 
+Relation to [[cellular automata]]:
+
+* [[S. James Gates Jr.]], Youngik (Tom) Lee: *A Précis: Minimal Four Color Holoraumy and Wolfram's "New Kind of Science" Paradigm* &lbrack;[arXiv:2408.09342](https://arxiv.org/abs/2408.09342)&rbrack;
+
 
 
 
