@@ -252,7 +252,7 @@ Reformulation of "super-embeddings" via a supergeometric [[Darboux coframe]]-con
 
 Actual examples of non-trivial super-embeddings (namely [holographic super-embeddings](AdS-CFT+correspondence#ReferencesMicroscopicAdSCFTViapBraneSigmaModesl) of [[M5-branes]] and [[M2-branes]]):
 
-* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Holographic M-Brane Super-Embeddings]]*
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Holographic M-Brane Super-Embeddings]]*, \[<a href="https://arxiv.org/abs/2408.09921">arXiv:2408.09921</a>\]
 
 
 
