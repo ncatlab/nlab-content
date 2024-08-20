@@ -21,7 +21,7 @@ Discussion of the [[fractional quantum Hall effect]] via abelian but [[noncommut
 
 * [[Leonard Susskind]]: *The Quantum Hall Fluid and Non-Commutative Chern Simons Theory* \[<a href="https://arxiv.org/abs/hep-th/0101029">arXiv:hep-th/0101029</a>\]
 
-* [[Simeon Hellerman]], [[Leonard Susskind]]: *Realizing the Quantum Hall System in String Theory* \[<a href="https://arxiv.org/abs/hep-th/0107200">arXiv:hep-th/0107200</a>\]
+* {#HellermanSusskind01} [[Simeon Hellerman]], [[Leonard Susskind]]: *Realizing the Quantum Hall System in String Theory* \[<a href="https://arxiv.org/abs/hep-th/0107200">arXiv:hep-th/0107200</a>\]
   > (relating this to [[M5-branes]] via the [[BFSS matrix model]])
 
 * [[Alexios P. Polychronakos]]: *Quantum Hall states as matrix Chern-Simons theory*, JHEP 0104:011 (2001) \[<a href="https://doi.org/10.1088/1126-6708/2001/04/011">doi:10.1088/1126-6708/2001/04/011</a>, [arXiv:hep-th/0103013](https://arxiv.org/abs/hep-th/0103013)\]
