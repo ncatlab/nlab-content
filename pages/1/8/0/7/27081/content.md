@@ -12,3 +12,9 @@
 * [[local ring]], [[field]]
 
 * [[integral domain]]
+
+## Module theory
+
+* [[module]], [[bimodule]]
+
+* [[vector space]]
