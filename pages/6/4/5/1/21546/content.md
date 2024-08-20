@@ -37,7 +37,7 @@ The following 2-categories are cartesian closed:
 
 * the 2-category of cartesian [[distributors]];
 
-* the 2-category of [[operads]].
+* the 2-category of [[coloured operads]] and [[bimodules]].
 
 ## Related concepts
 
@@ -57,6 +57,10 @@ On cartesian closed 2-categories of [[internal categories]] or [[internal groupo
 Discussion of the example of generalised [[species]]:
 
 * {#FGHW} M. Fiore, [[Nicola Gambino]], [[Martin Hyland]], G. Winskel, _The cartesian closed bicategory of generalised species of structures_, ([pdf](http://www1.maths.leeds.ac.uk/~pmtng/Publications/generalised-species.pdf))
+
+On the example of [[coloured operads]]:
+
+* [[Nicola Gambino]] and [[André Joyal]], _On operads, bimodules and analytic functors_, Vol. 249. No. 1184. American Mathematical Society, 2017.
 
 
 Discussion of [[syntax]] for cartesian closed 2-categories in [[type theory]]:
