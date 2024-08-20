@@ -72,36 +72,16 @@ $$T(\Omega_U) \equiv \sum_{A:U} \mathrm{isProp}(T(A))$$
 
 In particular, every impredicative [[strictly Tarski universe]] is strictly impredicative. 
 
-
 #### For universe hierarchies
 
-There are many different notions of propositional resizing for [[universe hierarchies]]. These include **propositional resizing**, **local propositional resizing**, and **global propositional resizing**. 
-
-Let $(P, U, T, t)$ be a [[hierarchy of weakly Tarski universes]]. By definition, $P$ is a [[preorder]] and there is a function
-$$t:\prod_{a:P} \prod_{b:P} (a \leq b) \to (U(a) \hookrightarrow U(b))$$
-which states that for all terms $a:P$ and $b:P$ $a \leq b$ implies the type of embeddings $U(a) \hookrightarrow U(b)$ is pointed. We thus have a natural map
-$$t_\Omega:\prod_{a:P} \prod_{b:P} (a \leq b) \to \left(\sum_{A:U(a)} \mathrm{isProp}(T(a)(A)) \hookrightarrow \sum_{A:U(b)} \mathrm{isProp}(T(b)(A))\right)$$
-which is the restriction of the above function to small propositions of the universe. 
-
-The axiom of **global proposition resizing** states that for all terms $a:P$, $b:P$, and $q:a \leq b$ the embedding $t_\Omega(a, b)(q)$ is an [[equivalence of types]] 
-$$\mathrm{globalpropresize}:\prod_{a:P} \prod_{b:P} \prod_{q:a \leq b} \mathrm{isEquiv}(t_\Omega(a, b)(q))$$
-The type of all h-propositions in the larger universe $U(a)$ may be *resized* to be equivalent to the type of all h-proposition in the smaller universe $U(b)$. While any two types of propositions of two universes are equivalent to each other, it may still be the case that there are universes which do not have an internal [[type of propositions]], such as any universe $U(a)$ indexed by a term $a:P$ such that there is no element $b:P$ where $b \leq a$ holds. 
-
-The axiom of **[[local propositional resizing]]** states that for all terms $a:P$ the universe $U(a)$ satisfies propositional resizing as defined in the [for individual universes section](#ForIndividualUniverses) above. 
-
-$$\mathrm{localpropresize}:\prod_{a:P} \sum_{\Omega_U:U} T(\Omega_U) \simeq \sum_{A:U} \mathrm{isProp}(T(A))$$
-
-The universe hierarchy is then said to be **locally impredicative**. However, it may still be the case that the type of propositions for two universe are not equivalent to each other, meaning that the universe hierarchy itself is not impredicative. 
-
-Thus, a universe hierarchy satisfies **propositional resizing** if it satisfies both local propositional resizing and global propositional resizing. The universe hierarchy is then said to be **impredicative**. 
-
-Usually, the hierarchy of Tarski universes is a sequential hierarchy indexed by the [[natural numbers]] $\mathrm{N}$. 
+A universe hierarchy satisfies **propositional resizing** if it satisfies both [[local propositional resizing]] and [[global propositional resizing]]. The universe hierarchy is then said to be **impredicative**. 
 
 ## See also
 
 * [[essentially small type]]
 * [[excluded middle]]
 * [[type of all propositions]]
+* [[local propositional resizing]], [[global propositional resizing]]
 
 ## References
 
@@ -131,10 +111,3 @@ Usually, the hierarchy of Tarski universes is a sequential hierarchy indexed by 
 
 [[!redirects propositional resizing axiom]]
 [[!redirects propositional resizing axiom schema]]
-
-[[!redirects global propositional resizing]]
-[[!redirects weak global propositional resizing]]
-[[!redirects strict global propositional resizing]]
-
-[[!redirects axiom of global propositional resizing]]
-[[!redirects axiom schema of global propositional resizing]]
