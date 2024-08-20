@@ -263,7 +263,7 @@ is defined as follows:
 $$\text{Lift}_e^{f} \colon e \to t(\text{Lift}_e^f)$$
 This yields a family of lifts $(\text{Lift}_e^f)_{e \colon \mathcal{E}}$ which we fix. Now, define the value of the functor $f_!$ on the object $e$ to be the target of the lift associated to $e$ and $f$: 
 $$f_!(e) \coloneqq t(\text{Lift}_e^f)$$
-For a morphism $z \colon e \to \overline{e}$ in $\mathcal{E}_c$, we define $f_!(z)$ by means of the unique lift induced by the universal property of the cocartesian morphism:
+* for a morphism $z \colon e \to \overline{e}$ in $\mathcal{E}_c$, we define $f_!(z)$ by means of the unique lift induced by the universal property of the cocartesian morphism:
 
 \begin{tikzcd}
 	{\mathcal{E}} & e && {t(\text{Lift}_e^f)} \\
@@ -283,7 +283,20 @@ For a morphism $z \colon e \to \overline{e}$ in $\mathcal{E}_c$, we define $f_!(
 	\arrow["f"', from=5-3, to=6-4]
 \end{tikzcd}
 
-
+* $f_!$ thus defined is a functor $\mathcal{E}_c \to \mathcal{E}_{\tilde{c}}$ by uniqueness of lifts:
+\begin{tikzcd}
+	e && {t(\text{Lift}_e^f)} \\
+	& {\overline{e}} && {t(\text{Lift}^f_{\overline{e}})} \\
+	&& {e'} && {t(\text{Lift}^f_{e'})}
+	\arrow["{\text{Lift}_e^f}", from=1-1, to=1-3]
+	\arrow["z"', from=1-1, to=2-2]
+	\arrow["{f_!(z)}", from=1-3, to=2-4]
+	\arrow["{\text{Lift}_{\overline{e}}^f}"{description}, from=2-2, to=2-4]
+	\arrow["{z'}"', from=2-2, to=3-3]
+	\arrow["{f_!(z')}", from=2-4, to=3-5]
+	\arrow["{\text{Lift}_{e'}^f}"', from=3-3, to=3-5]
+\end{tikzcd}
+implying $f_!(z')f_!(z) = f_!(z'z)$ (and thus functoriality).
 
 ## Derived Categories
 ### Differential-Graded Categories
