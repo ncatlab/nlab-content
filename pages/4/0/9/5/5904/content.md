@@ -20,7 +20,7 @@
 
 ## Definition
 
-Every [[commutative ring]] $R$ has a [[characteristic]]: it is zero if equivalently
+Every [[ring]] $R$ has a [[characteristic]]: it is zero if equivalently
 
 * its underlying $\mathbb{Z}$-[[module]] is a [[flat module]], 
 
@@ -32,7 +32,7 @@ If a mathematical construct involves a "base ring", e.g. an algebraic variety, t
 
 ## Examples
 
-The basic example of a ring of characteristic zero is the field $\mathbb{Q}$ of [[rational numbers]].  Therefore one often says that any [[ring]] (or even [[super ring]]) $R\supset \mathbb{Q}$ containing the rationals is also of characteristic zero. 
+The basic example of a ring of characteristic zero is the field $\mathbb{Q}$ of [[rational numbers]].  Therefore one could be tempted to define a [[ring]] (or even [[super ring]]) $R\supset \mathbb{Q}$ of characteristic $0$ as one containing the rationals. A ring of this form is exactly a $\mathbb{Q}$-[[unital algebra|algebra]]. While every $\mathbb{Q}$-algebra is a ring of characteristic $0$, some rings of characteristic $0$ are not $\mathbb{Q}$-algebras, for instance the ring $\mathbb{Z}$.
 
 The basic example of an [[algebraically closed field]] of characteristic zero is the field $\mathbb{C}$ of [[complex numbers]]. 
 
