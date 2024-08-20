@@ -34,50 +34,48 @@ Since this brane has [[codimension]] 2, it is a *[[defect brane]]*.
 ## References
  {#References}
 
-The original construction is in 
+The original construction: 
 
-* {#HughesLiuPolchinski86} James Hughes, Jun Liu, [[Joseph Polchinski]], _Supermembranes_, Physics Letters B Volume 180, Issue 4, 20 November 1986, Pages 370&#8211;374 ([spire](http://inspirehep.net/record/20685))
+* {#HughesLiuPolchinski86} James Hughes, Jun Liu, [[Joseph Polchinski]], _Supermembranes_, Physics Letters B **180** 4 (1986_ 370-374 &lbrack;[spire:20685](http://inspirehep.net/record/20685)&rbrack;
  
-Discussion building on that includes
+Discussion building on that:
 
-* [[Martin Rocek]], [[Arkady Tseytlin]], _Partial breaking of global D=4 supersymmetry, constrained superfields, and 3-brane actions_,  	Phys.Rev.D59:106001, 1999 ([arXiv:hep-th/9811232](http://arxiv.org/abs/hep-th/9811232))
+* [[Martin Rocek]], [[Arkady Tseytlin]], _Partial breaking of global $D=4$ supersymmetry, constrained superfields, and 3-brane actions_, Phys. Rev. D **59** (1999) 106001 \[<a href="https://doi.org/10.1103/PhysRevD.59.106001">doi:10.1103/PhysRevD.59.106001</a>, [arXiv:hep-th/9811232](http://arxiv.org/abs/hep-th/9811232)\]
 
-The relevant cocycle for discussion as a [[Green-Schwarz sigma-model]] is given in
+The relevant cocycle for discussion as a [[Green-Schwarz sigma-model]]:
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], (III.7.18) of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific, 1991
+   >(in [[D'Auria-Fré-Regge formulation of supergravity]])
 
-  (in [[D'Auria-Fré formulation of supergravity]])
 
+Discussion of the [[3-brane in 6d]] explicitly as a [[black brane]] in an [[M5-brane]]/[[NS5-brane]] [[worldvolume]]:
 
-Discussion of the [[3-brane in 6d]] explicitly as a [[black brane]] in an [[M5-brane]]/[[NS5-brane]] [[worldvolume]] is due to
+* {#HoweLambertWest97} [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Threebrane Soliton of the M-Fivebrane_, Phys. Lett. B **419** (1998) 79-83 \[<a href="https://doi.org/10.1016/S0370-2693(97)01433-0">doi:10.1016/S0370-2693(97)01433-0</a>, [arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033)\]
 
-* {#HoweLambertWest97} [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Threebrane Soliton of the M-Fivebrane_, Phys. Lett. B419 (1998) 79-83 ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
+and the understanding of this configuration as the locus of intersecting M5-branes:
 
-and the understanding of this configuration as resulting from two intersecting M5-branes is due to 
+* {#PapadopoulosTownsend96} [[George Papadopoulos]], [[Paul Townsend]], _Intersecting M-branes_, Phys. Lett. B **380** (1996) 273 \[<a href="https://doi.org/10.1016/0370-2693(96)00506-0">doi:10.1016/0370-2693(96)00506-0</a>, [arXiv:hep-th/9603087](http://arxiv.org/abs/hep-th/9603087)\]
 
-* {#PapadopoulosTownsend96} [[George Papadopoulos]], [[Paul Townsend]], _Intersecting M-branes_, Phys. Lett. B380 (1996) 273 ([arXiv:hep-th/9603087](http://arxiv.org/abs/hep-th/9603087))
+* {#Tseytlin96} [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl. Phys. B **475** (1996) 149 \[<a href="https://doi.org/10.1016/0550-3213(96)00328-8">doi:10.1016/0550-3213(96)00328-8</a>, [arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035)\]
 
-* {#Tseytlin96} [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl. Phys. B475 (1996) 149 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035), <a href="https://doi.org/10.1016/0550-3213(96)00328-8">doi:10.1016/0550-3213(96)00328-8</a>)
+* [[Hironori Mori]]: *M-theory Perspectives on Codimension-2 Defects*, Osaka (2016) &lbrack;[inspire:1519095](https://inspirehep.net/literature/1519095)&rbrack;
 
-* [[Hironori Mori]], *M-theory Perspectives on Codimension-2 Defects*, Osaka (2016) &lbrack;[inspire:1519095](https://inspirehep.net/literature/1519095)&rbrack;
-
-* [[Hironori Mori]], Yuji Sugimoto, *Surface Operators from M-strings*, Phys. Rev. D **95** 026001 (2017) &lbrack;[arXiv:1608.02849](https://arxiv.org/abs/1608.02849), [doi:10.1103/PhysRevD.95.026001](https://doi.org/10.1103/PhysRevD.95.026001)&rbrack;
-
+* [[Hironori Mori]], Yuji Sugimoto: *Surface Operators from M-strings*, Phys. Rev. D **95** 026001 (2017) &lbrack;[arXiv:1608.02849](https://arxiv.org/abs/1608.02849), [doi:10.1103/PhysRevD.95.026001](https://doi.org/10.1103/PhysRevD.95.026001)&rbrack;
 
 with a [[matrix model]]-description in:
 
 * {#KachruOzYin98} [[Shamit Kachru]], [[Yaron Oz]], [[Zheng Yin]], *Matrix Description of Intersecting M5 Branes* JHEP 9811:004, (1998) ([arXiv:hep-th/9803050](https://arxiv.org/abs/hep-th/9803050))
 
 
-For more on this see
+For more on this:
 
-* [[Joaquim Gomis]], [[David Mateos]], [[Joan Simón]], [[Paul Townsend]], _Brane-Intersection Dynamics from Branes in Brane Backgrounds_, Phys. Lett. B430 (1998) 231-236 ([arXiv:hep-th/9803040](http://arxiv.org/abs/hep-th/9803040))
+* [[Joaquim Gomis]], [[David Mateos]], [[Joan Simón]], [[Paul Townsend]], _Brane-Intersection Dynamics from Branes in Brane Backgrounds_, Phys. Lett. B **430** (1998) 231-236 \[<a href="https://doi.org/10.1016/S0370-2693(98)00555-3">doi:10.1016/S0370-2693(98)00555-3</a>, [arXiv:hep-th/9803040](http://arxiv.org/abs/hep-th/9803040)\]
 
-See also
+See also:
 
-* S. Bellucci, N. Kozyrev, S. Krivonos, A Sutulin, *Component on-shell actions of supersymmetric 3-branes: I. 3-brane in $D = 6$,  Class. Quantum Grav. **32** (2015) 035025 ([doi:10.1088/0264-9381/32/3/035025](https://iopscience.iop.org/article/10.1088/0264-9381/32/3/035025))
+* S. Bellucci, N. Kozyrev, S. Krivonos, A Sutulin: *Component on-shell actions of supersymmetric 3-branes: I. 3-brane in $D = 6$*,  Class. Quantum Grav. **32** (2015) 035025 \[<a href="https://iopscience.iop.org/article/10.1088/0264-9381/32/3/035025">doi:10.1088/0264-9381/32/3/035025</a>\]
 
-The relation to [[D=4 N=2 super Yang-Mills theory]] is discussed in
+The relation to [[D=4 N=2 super Yang-Mills theory]]:
 
 * {#HoweLambertWest98} [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _Classical M-Fivebrane Dynamics and Quantum $N=2$ Yang-Mills_, Phys. Lett. B418 (1998) 85-90 ([arXiv:hep-th/9710034](https://arxiv.org/abs/hep-th/9710034))
 
