@@ -21,7 +21,7 @@
 
 To work "in positive characteristic" means to work over a [[ground ring]]/[[field]] of [[positive number|positive]] [[characteristic]].
 
-Whereas much of "classical" mathematics took place/takes place over [[fields]] of [[characteristic]] 0, such as the [[real numbers]] and the [[complex numbers]], much of modern mathematics and in particular [[number theory]] and [[arithmetic geometry]] crucially incorporates also the "exotic" case of positive characteristic, such as [[finite fields]].
+Whereas much of "classical" mathematics took place/takes place over [[fields]] of [[characteristic zero]], such as the [[real numbers]] and the [[complex numbers]], much of modern mathematics and in particular [[number theory]] and [[arithmetic geometry]] crucially incorporates also the "exotic" case of positive characteristic, such as [[finite fields]].
 
 ## Related concepts
 
