@@ -1,5 +1,9 @@
 
-* [Website](https://web.dm.uba.ar/index.php/institucional/integrantes/profesores?view=teacher&id=248:dubuc-eduardo)
+* [institute page](https://web.dm.uba.ar/index.php/institucional/integrantes/profesores?view=teacher&id=248:dubuc-eduardo)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=6615)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=3fiEMcgAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -42,7 +46,7 @@ On [[topoi]]:
 
 On [[differential 1-forms]] in [[synthetic differential geometry]]:
 
-* [[Eduardo J. Dubuc]], [[Anders Kock]], _On 1-form classifiers_, Commun. Alg.  12 (1984) 1471--1531 &lbrack;[doi:10.1080/00927878408823064](https://doi.org/10.1080/00927878408823064)&rbrack;
+* [[Eduardo J. Dubuc]], [[Anders Kock]], _On 1-form classifiers_, Commun. Alg.  **12** (1984) 1471-1531 &lbrack;[doi:10.1080/00927878408823064](https://doi.org/10.1080/00927878408823064)&rbrack;
 
 
 On [[Galois theory]]:
