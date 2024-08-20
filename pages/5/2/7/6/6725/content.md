@@ -183,9 +183,9 @@ The original articles are
 
 * {#HoravaWitten95} [[Petr Hořava]], [[Edward Witten]], _Heterotic and Type I string dynamics from eleven dimensions_, Nucl. Phys. B **460** (1996) 506 &lbrack;[arXiv:hep-th/9510209](http://arxiv.org/abs/hep-th/9510209), <a href="https://doi.org/10.1016/0550-3213(95)00621-4">doi:10.1016/0550-3213(95)00621-4</a>&rbrack;
 
-* [[Edward Witten]], _Strong Coupling Expansion Of Calabi-Yau Compactification_, Nucl. Phys. B **471** (1996) 135-158 &lbrack;[arXiv:hep-th/9602070](https://arxiv.org/abs/hep-th/9602070)&rbrack;
+* [[Edward Witten]], _Strong Coupling Expansion Of Calabi-Yau Compactification_, Nucl. Phys. B **471** (1996) 135-158 \[<a href="https://doi.org/10.1016/0550-3213(96)00190-3">doi:10.1016/0550-3213(96)00190-3</a>, [arXiv:hep-th/9602070](https://arxiv.org/abs/hep-th/9602070)\]
 
-* {#HoravaWitten96} [[Petr Hořava]], [[Edward Witten]],  _Eleven dimensional supergravity on a manifold with boundary_, Nucl. Phys. B **475** (1996) 94 &lbrack;[arXiv:hep-th/9603142](http://arxiv.org/abs/hep-th/9603142)&rbrack;
+* {#HoravaWitten96} [[Petr Hořava]], [[Edward Witten]]:  _Eleven dimensional supergravity on a manifold with boundary_, Nucl. Phys. B **475** (1996) 94 \[<a href="https://doi.org/10.1016/0550-3213(96)00308-2">doi:10.1016/0550-3213(96)00308-2</a>, [arXiv:hep-th/9603142](http://arxiv.org/abs/hep-th/9603142)\]
  
 
 Review is in 
