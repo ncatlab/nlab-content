@@ -471,7 +471,7 @@ The relation also to the [[heterotic string]] was understood in [Hořava & Witte
 
 Early review:
 
-* [[Paul Townsend]], _Four Lectures on M-theory_,  in: Proceedings of the ICTP summer school on High Energy Physics and Cosmology, Trieste (1996) &lbrack;[arXiv:hep-th/9612121](http://arxiv.org/abs/hep-th/9612121)&rbrack;
+* [[Paul Townsend]], *Four Lectures on M-theory*, in: *Proceedings of the ICTP summer school on High Energy Physics and Cosmology*, Trieste (1996) &lbrack;[arXiv:hep-th/9612121](http://arxiv.org/abs/hep-th/9612121), [spire:427195](https://inspirehep.net/literature/427195)&rbrack;
 
 * {#ObersPioline98} [[Niels A. Obers]], [[Boris Pioline]], *U-duality and M-Theory*, Phys. Rept. **318** (1999) 113-225 &lbrack;[arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039), <a href="https://doi.org/10.1016/S0370-1573(99)00004-6">doi:10.1016/S0370-1573(99)00004-6</a>&rbrack;
 
