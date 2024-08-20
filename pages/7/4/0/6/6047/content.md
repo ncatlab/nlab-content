@@ -115,6 +115,14 @@ Relation of the Nambu-Goto string to [[Liouville theory]]:
 
 * [[Yuri Makeenko]], *The Nambu-Goto string as higher-derivative Liouville theory* &lbrack;[arXiv:2407.01136](https://arxiv.org/abs/2407.01136)&rbrack;
 
+Relation to [[D=3 gravity]]:
+
+* Avik Banerjee, Ayan Mukhopadhyay, [[Giuseppe Policastro]]: *Nambu-Goto equation from three-dimensional gravity* &lbrack;[arXiv:2404.02149](https://arxiv.org/abs/2404.02149)&rbrack;
+
+
+
+
+
 
 [[!redirects Nambu-Gotō action]]
 
