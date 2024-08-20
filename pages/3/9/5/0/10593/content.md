@@ -25,7 +25,7 @@ There are several ways in which the _[[Riemann hypothesis]]_ has or might have a
 
 ### General
 
-* Guilherme França, André LeClair: *A theory for the zeros of Riemann $\zeta$ and other $L$-functions (updated)* &lbrack;[arXiv:1407.4358](https://arxiv.org/abs/1407.4358)&rbrack:
+* Guilherme França, André LeClair: *A theory for the zeros of Riemann $\zeta$ and other $L$-functions (updated)* &lbrack;[arXiv:1407.4358](https://arxiv.org/abs/1407.4358)&rbrack;
 
 
 ### Via string theory
