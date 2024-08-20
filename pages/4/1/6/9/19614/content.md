@@ -98,6 +98,10 @@ Review:
 
 * J. Ambjørn, R. Loll, *Causal Dynamical Triangulations: Gateway to Nonperturbative Quantum Gravity*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.09399](https://arxiv.org/abs/2401.09399)&rbrack;
 
+Relation to [[dark energy]]:
+
+* Mingwei Dai, Walter Freeman, Jack Laiho, Marc Schiffer, Judah Unmuth-Yockey: *Dynamical Dark Energy from Lattice Quantum Gravity* &lbrack;[arXiv:2408.08963](https://arxiv.org/abs/2408.08963)&rbrack;
+
 
 
 
