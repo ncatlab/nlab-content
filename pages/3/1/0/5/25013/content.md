@@ -115,6 +115,8 @@ For more about apartness algebra, see [[antisubalgebra]].
 
 * [[strict total order]]
 
+* [[classical set]]
+
 ## References
 
 * {#TvD} Anne Troelstra\'s and Dirk van Dalen\'s _Constructivism in Mathematics_ (1988) uses  "preapartness" and "apartness" instead of "apartness" and "strict inequality"/"tight apartness" respectively.
