@@ -69,6 +69,7 @@ Every set with decidable equality is [[locally finite type|locally finite]].
 * [[decidability]]
 * [[stable equality]]
 * [[locally finite type]]
+* [[classical set]]
 
 ## References
 
