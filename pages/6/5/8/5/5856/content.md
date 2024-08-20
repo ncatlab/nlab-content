@@ -23,14 +23,13 @@ is defined in one of the number of equivalent ways.
 For example, for any [[uniform filter]] $\mathcal{F}$ of left ideals in $R$ one defines a subfunctor of the identity functor $\sigma_{\mathcal{F}}$ on the category of left $R$-modules  
 
 $$
-M\mapsto \sigma_{\mathcal{F}}(M) =
-\sigma_{\mathcal{L}} = \{m\in M \,|\, m\in M, \exists m\in M,\, Jm = 0\}\subset M
+M\mapsto \sigma_{\mathcal{F}}(M) = \{m\in M \,|\, \exists J\in \mathcal{F},\, J m = 0\}\subset M
 $$
 
 In a later work of Goldman $\sigma_{\mathcal{L}}$ was called a radical functor. If $\mathcal{F}$ is not only uniform but in fact a [[Gabriel filter]] then the radical $\sigma_{\mathcal{F}}$ is idempotent, i.e. $\sigma_{\mathcal{F}}^2 = \sigma_{\mathcal{F}}$. If $R$ is unital, $\sigma_{\mathcal{F}}$ is equivalent to the functor given on objects by 
 
 $$
-\sigma'_{\mathcal{L}}(M) = colim_{J\in\mathcal{F}} Hom_R(R/J,M)
+\sigma'_{\mathcal{F}}(M) = colim_{J\in\mathcal{F}} Hom_R(R/J,M)
 $$
 
 For each uniform fiter $\mathcal{F}$ one also defines the endofunctor $H_{\mathcal{F}}$
@@ -40,7 +39,7 @@ $$
 H_{\mathcal{F}}(M) = colim_{J\in\mathcal{F}} Hom_R(J,M)
 $$ 
 
-(the colimit is over downward directed family of ;eft ideals in $\mathcal{F}$ and is a colimit of a functor with values in the category of abelian groups; the uniformness condition however gurantees that there is a canonical structure of an $R$-module on the colimit group $H_{\mathcal{F}}(M)$).
+(the colimit is over downward directed family of left ideals in $\mathcal{F}$ and is a colimit of a functor with values in the category of abelian groups; the uniformness condition however gurantees that there is a canonical structure of an $R$-module on the colimit group $H_{\mathcal{F}}(M)$).
 
 Finally, for the Gabriel filter $\mathcal{F}$ one defines the Gabriel (endo)functor $G_{\mathcal{F}}$ on objects by
 
