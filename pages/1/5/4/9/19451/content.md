@@ -109,7 +109,7 @@ First note that all kinds of lax monoidal categories can be generalized to **lax
 
 ## References
 
-The definition of skew-monoidal category essentially appears in §2.2 of:
+The definition of skew-monoidal category essentially appears in §2.2 of the following, but with only 2 of the 5 coherence axioms (i.e. [[Max Kelly]]'s simplified axioms for [[monoidal categories]], rather than [[Mac Lane]]'s original axioms):
 
 * [[Marek Zawadowski]], _Lax monoidal fibrations_, [arXiv:0912.4464](https://arxiv.org/abs/0912.4464) (2009).
 
