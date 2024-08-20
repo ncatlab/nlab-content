@@ -357,6 +357,8 @@ The [[categorical semantics]] of the type of all propositions is the [[subobject
 
 * [[type of entire relations]]
 
+* [[local propositional resizing]]
+
 ## References
 
 * {#UFP13} [[Univalent Foundations Project]], *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
