@@ -4,7 +4,7 @@
 ###Context###
 #### Algebra
 +--{: .hide}
-[[!include higher algebra - contents]]
+[[!include algebra - contents]]
 =--
 =--
 =--
@@ -43,6 +43,8 @@ $g\circ h$ lies in $H$ only if $g$ does.
 For $H$ is the class of [[monomorphisms]] in a [[category of modules]] this reduces again to the above notion of essential extension.
 
 [[coessential epimorphism|Coessential epimorphisms]] are the dual notion; they define [[superfluous submodule]]s.
+
+[[singular submodule|Singular submodule]] of a left $R$-module $M$ is the subset $\mathcal{Z}(M)$ of all elements in $M$ whose annihilator is an essential left ideal in $R$.
 
 ## Properties
 
