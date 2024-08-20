@@ -113,4 +113,12 @@ Usually, the hierarchy of Tarski universes is a sequential hierarchy indexed by 
 [[!redirects strictly impredicative Tarski universe]]
 [[!redirects strictly impredicative Tarski universes]]
 
+[[!redirects local propositional resizing]]
+[[!redirects weak local propositional resizing]]
+[[!redirects strict local propositional resizing]]
+
 [[!redirects axiom of propositional resizing]]
+[[!redirects axiom schema of propositional resizing]]
+
+[[!redirects axiom of local propositional resizing]]
+[[!redirects axiom schema of local propositional resizing]]
