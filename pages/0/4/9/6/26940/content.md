@@ -142,6 +142,8 @@ Thus, one has a hierarchy of analytic limited principles of omniscience, where
 
 * For any other Archimedean ordered field extension of the Cauchy real numbers $R$ which is neither equivalent to the Cauchy real numbers or the Dedekind real numbers, the analytic LPO for $R$ are intermediate in strength between the Cauchy-analytic LPO and the Dedekind-analytic LPO. 
 
+## Related statements
+
 Given an Archimedean ordered field extension $R$ of the [[Cauchy real numbers]], there are other statements related to the analytic LPO for $R$:
 
 * That the [[floor]] and [[ceiling]] [[partial functions]] are [[total functions]] on $R$ is equivalent to the analytic LPO for $R$. 
@@ -149,6 +151,10 @@ Given an Archimedean ordered field extension $R$ of the [[Cauchy real numbers]],
 * That $R$ coincides with the [[prealgebra real numbers]] is equivalent to the analytic LPO for $R$. 
 
 * The analytic $\mathrm{LPO}$ for $R$ implies the [[fundamental theorem of algebra]] for $R$. 
+
+* That every [[apartness relation]] on a [[set]] is [[decidable relation|decidable]] implies that analytic LPO for $R$:
+
+$$((\forall x.\neg (x \# x)) \wedge (\forall x, y.(x \# y) \Rightarrow (y \# x)) \wedge (\forall x, y, z.(x \# y) \wedge (y \# z) \Rightarrow (x \# z))) \Rightarrow (\forall x, y.(x \# y) \vee \neg (x \# y))$$
 
 ## Models
 
