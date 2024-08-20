@@ -27,9 +27,33 @@ The name *local propositional resizing* and *[[global propositional resizing]]*,
 
 ## Definition
 
-### Using Russell universes
+We assume an infinite hierarchy of [[Russell universes]] or [[Coquand universes]] indexed by [[natural numbers]] in the metatheory or defined separately in some other [[sort]]. 
 
-### Using Coquand universes
+The axiom of **weak local propositional resizing** says that the type of propositions $\sum_{A:U_i} \mathrm{isProp}(A)$ is [[essentially small type|essentially $U_i$-small]] 
+
+$$\frac{\Gamma \vdash i \; \mathrm{level}}{\Gamma \vdash \mathrm{propresize}_i:\sum_{\Omega_i:U_i} \Omega_i \simeq \sum_{A:U} \mathrm{isProp}(A)}$$
+
+The dependent type theory is **weakly locally impredicative** or said to have **weak local impredicativity**. 
+
+The axiom of **strict local propositional resizing** says that the type of propositions $\sum_{A:U_i} \mathrm{isProp}(A)$ is $U_i$-small:
+
+$$\frac{\Gamma \vdash i \; \mathrm{level}}{\Gamma \vdash \Omega_i:U_i} \qquad \frac{\Gamma \vdash i \; \mathrm{level}}{\Gamma \vdash \Omega_i \equiv \sum_{A:U_i} \mathrm{isProp}(A)}$$
+
+The dependent type theory is **strictly locally impredicative** or said to have **strict local impredicativity**. 
+
+In the case for [[Coquand universes]], local propositional resizing is equivalent to saying that for each universe level $i$ one can construct a [[type of all propositions]] for the type [[judgment]] $\mathrm{type}_i$: 
+
+$$\frac{\Gamma \vdash i \mathrm{level}}{\Gamma \vdash \Omega_i \; \mathrm{type}_i}$$
+
+$$\frac{\Gamma \vdash i \mathrm{level} \quad \Gamma \vdash A \; \mathrm{type}_i}{\Gamma \vdash \mathrm{toProp}_{i, A}:\mathrm{isProp}(A) \to \Omega_i}$$
+
+$$\frac{\Gamma \vdash i \mathrm{level} \quad \Gamma \vdash A:\Omega_i}{\Gamma \vdash \mathrm{El}_i(A) \; \mathrm{type}_i} \qquad \frac{\Gamma \vdash i \mathrm{level} \quad \Gamma \vdash A:\Omega_i}{\Gamma \vdash \mathrm{proptrunc}_i(A):\mathrm{isProp}(\mathrm{El}_i(A))}$$
+
+$$\frac{\Gamma \vdash i \mathrm{level} \quad \Gamma \vdash A \; \mathrm{type}_i \quad \Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \mathrm{El}_i(\mathrm{toProp}_{i, A}(p)) \equiv A \; \mathrm{type}_i}$$
+
+$$\frac{\Gamma \vdash i \mathrm{level} \quad \Gamma \vdash A \; \mathrm{type}_i \quad \Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \mathrm{proptrunc}_i(\mathrm{toProp}_{i, A}(p)) \equiv p:\mathrm{isProp}(A)}$$
+
+$$\frac{\Gamma \vdash i \mathrm{level} \quad \Gamma \vdash A:\Omega_i}{\Gamma \vdash A \equiv \mathrm{toProp}_{i, \mathrm{El}_i(A)}(\mathrm{proptrunc}_i(A)):\Omega_i}$$
 
 ## For general universe hierarchies
 
@@ -62,6 +86,12 @@ Usually, the hierarchy of Tarski universes is a sequential hierarchy indexed by 
 [[!redirects locally impredicative]]
 [[!redirects local impredicativity]]
 
+[[!redirects weak locally impredicative]]
+[[!redirects weak local impredicativity]]
+
+[[!redirects strict locally impredicative]]
+[[!redirects strict local impredicativity]]
+
 [[!redirects locally impredicative universe hierarchy]]
 [[!redirects locally impredicative universe hierarchies]]
 [[!redirects locally impredicative hierarchy of universes]]
@@ -88,3 +118,15 @@ Usually, the hierarchy of Tarski universes is a sequential hierarchy indexed by 
 
 [[!redirects local propositional resizing axiom]]
 [[!redirects local propositional resizing axiom schema]]
+
+[[!redirects axiom of weak local propositional resizing]]
+[[!redirects axiom schema of weak local propositional resizing]]
+
+[[!redirects weak local propositional resizing axiom]]
+[[!redirects weak local propositional resizing axiom schema]]
+
+[[!redirects axiom of strict local propositional resizing]]
+[[!redirects axiom schema of strict local propositional resizing]]
+
+[[!redirects strict local propositional resizing axiom]]
+[[!redirects strict local propositional resizing axiom schema]]
