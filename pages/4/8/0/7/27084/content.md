@@ -7,7 +7,7 @@
 
 * [[ring]], [[commutative ring]]
 
-* [[field]]
+* [[field]], [[skewfield]]
 
 * [[ground ring]], [[ground field]]
 
@@ -29,18 +29,20 @@
 
 * [[linear map]], [[antilinear map]]
 
-* [[matrix]] ([[square matrix|square]], [[invertible matrix|invertible]], [[diagonal matrix|diagonal]], [[hermitian matrix|hermitian]], [[symmetric matrix|symmetric]], ...)
+* [[matrix]] ([[square matrix|square]], [[invertible matrix|invertible]], [[diagonal matrix|diagonal]], [[hermitian matrix|hermitian]], [[symmetric matrix|symmetric]], [[row echelon form]],...)
 
 * [[general linear group]], [[matrix group]]
 
 * [[eigenspace]], [[eigenvalue]]
 
 * [[inner product]], [[Hermitian form]]
-
-  [[Gram-Schmidt process]]
-
+* [[Gram-Schmidt process]]
 * [[Hilbert space]]
-
+* [[determinant]], [[quasideterminant]]
+* [[matroid]], [[trace]]
+* [[Gauss decomposition]]
+* [[Gauss elimination procedure]]
+* [[polar decomposition]]
 
 ## Theorems
 
