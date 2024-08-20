@@ -8,6 +8,9 @@ Lars Brink (1949-2022)
 
 * [[Bengt E. W. Nilsson]], Björn Jonson: *Lars Brink -- November 12, 1943 - October 29, 2022* &lbrack;[arXiv:2403.03776](https://arxiv.org/abs/2403.03776)&rbrack;
 
+* George Savvidy: *Lars Brink Colleague, Friend and Collaborator* &lbrack;[arXiv:2408.09374](https://arxiv.org/abs/2408.09374)&rbrack;
+
+
 
 
 ## Selected writings
