@@ -46,8 +46,15 @@ There are also examples of [[dependent type theory|dependently typed]] higher-or
 
 * [[Colin Rothgang]], [[Florian Rabe]], [[Christoph Benzmüller]], *Theorem Proving in Dependently-Typed Higher-Order Logic -- Extended Preprint*, The 29th International Conference on Automated Deduction (CADE-29), July 1-5, 2023. ([arXiv:2305.15382](https://arxiv.org/abs/2305.15382))
 
+[[!redirects Higher order logic]]
 [[!redirects Higher-order logic]]
 [[!redirects higher order logic]]
+[[!redirects higher-order logic]]
+
+[[!redirects Higher order logics]]
+[[!redirects Higher-order logics]]
+[[!redirects higher order logics]]
+[[!redirects higher-order logics]]
 
 [[!redirects higher-order type theory]]
 [[!redirects higher order type theory]]
