@@ -143,7 +143,7 @@ See also:
 
 Discussion in [[F-theory]]:
 
-* Jie Gu, Babak Haghighat, [[Albrecht Klemm]], Kaiwen Sun, Xin Wang, _Elliptic Blowup Equations for 6d SCFTs. III: E--strings, M--strings and Chains_ ([arXiv:1911.11724](https://arxiv.org/abs/1911.11724))
+* Jie Gu, [[Babak Haghighat]], [[Albrecht Klemm]], Kaiwen Sun, Xin Wang, _Elliptic Blowup Equations for 6d SCFTs. III: E--strings, M--strings and Chains_ ([arXiv:1911.11724](https://arxiv.org/abs/1911.11724))
 
 ### In heterotic M-theory on ADE-orbifolds
 
