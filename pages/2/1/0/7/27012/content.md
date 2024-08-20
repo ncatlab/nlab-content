@@ -440,7 +440,9 @@ Under the evident translation between "framing" in the above sense of *[[framed 
 
 The above discussion follows:
 
-* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: §4.1 in: *[[schreiber:Flux Quantization on Holographic M5-Branes]]*
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Abelian Anyons on Flux-Quantized M5-Branes]]*
+
+
 
 
 
