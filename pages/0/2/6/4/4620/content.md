@@ -45,6 +45,16 @@ There are also the [[analytic principles of omniscience]], which are versions of
 
 In addition, in [King 2024](#King24) there are more generalizations of the principles of omniscience listed above, which are equivalent to Bishop's principles of omniscience under the [[weak countable choice]] principle $\mathrm{AC}_{\mathbb{N}, 2}$. 
 
+There are also generalisations of the principles of omniscience involving [[inequality spaces]]:
+
+* Every [[inequality space]] has [[decidable tight apartness]], which generalises [[LPO]] and [[analytic LPO]]
+
+* Every [[inequality space]] has [[decidable equality]], which generalises [[WLPO]] and [[analytic WLPO]]
+
+* Every [[inequality space]] has [[stable relation|stable]] [[tight apartness]], which generalises [[Markov's principle]] and [[analytic Markov's principle]]
+
+These are all still weaker than [[excluded middle]] since in general, the [[set of truth values]] is only an [[inequality space]] if and only if [[excluded middle]] holds. 
+
 ## References
 
 * {#Bishop67} [[Errett Bishop]]: _[[Foundations of Constructive Analysis]]_, McGraw-Hill (1967)
