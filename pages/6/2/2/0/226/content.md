@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebra
++-- {: .hide}
+[[!include algebra - contents]]
+=--
 #### Linear algebra
 +-- {: .hide}
 [[!include higher linear algebra - contents]]
