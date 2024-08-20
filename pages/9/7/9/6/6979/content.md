@@ -106,7 +106,7 @@ _[[relation between type theory and category theory]]_.
 * [[higher observational type theory]]
 * [[univalent type theory]]
 * [[propositional logic as a dependent type theory]]
-
+* [[impredicative dependent type theory]]
 
 ## Related concepts
 
