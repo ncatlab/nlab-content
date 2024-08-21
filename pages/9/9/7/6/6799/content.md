@@ -1,6 +1,9 @@
 
-* [wikipedia entry](http://en.wikipedia.org/wiki/Leonard_Susskind)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Leonard_Susskind)
 
+* [InSpire page](https://inspirehep.net/authors/987092)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=212986)
 
 ## Selected writings
 
@@ -39,15 +42,15 @@ In view of [[flat space holography]]:
 
 On [[black holes in string theory]] via the [[BFSS matrix model]]:
 
-* [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]],  _Schwarzschild Black Holes from Matrix Theory_, Phys.Rev.Lett.80:226-229,1998 ([arXiv:hep-th/9709091](https://arxiv.org/abs/hep-th/9709091))
+* [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]], _Schwarzschild Black Holes from Matrix Theory_, Phys.Rev.Lett. **80** (1998) 226-229 &lbrack;[arXiv:hep-th/9709091](https://arxiv.org/abs/hep-th/9709091)&rbrack;
 
-* [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]], _Schwarzchild Black Holes in Matrix Theory II_, JHEP 9801:008,1998 ([arXiv:hep-th/9711005](https://arxiv.org/abs/hep-th/9711005))  
+* [[Tom Banks]], [[Willy Fischler]], [[Igor Klebanov]], [[Leonard Susskind]]: _Schwarzchild Black Holes in Matrix Theory II_, JHEP 9801:008,1998 ([arXiv:hep-th/9711005](https://arxiv.org/abs/hep-th/9711005))  
 
 * [[Igor Klebanov]], [[Leonard Susskind]], _Schwarzschild Black Holes in Various Dimensions from Matrix Theory_, Phys.Lett.B **416** 62-66 (1998) &lbrack;[arXiv:hep-th/9709108](https://arxiv.org/abs/hep-th/9709108)&rbrack;
 
 Introducing the notion of [[giant gravitons]]:
 
-* [[John McGreevy]], [[Leonard Susskind]], [[Nicolaos Toumbas]], _Invasion of the Giant Gravitons from Anti-de Sitter Space_, JHEP 0006:008, 2000 ([arXiv:hep-th/0003075](https://arxiv.org/abs/hep-th/0003075))
+* [[John McGreevy]], [[Leonard Susskind]], [[Nicolaos Toumbas]], _Invasion of the Giant Gravitons from Anti-de Sitter Space_, JHEP 0006:008 (2000) &lbrack;[arXiv:hep-th/0003075](https://arxiv.org/abs/hep-th/0003075)&rbrack;
 
 Discussion of the [[fractional quantum Hall effect]] via a [[noncommutative geometry|noncommutative]] ([[matrix model]]-)[[Chern-Simons theory]]:
 
@@ -57,6 +60,13 @@ Discussion of the [[fractional quantum Hall effect]] via a [[noncommutative geom
 On [[geometric engineering]] of aspects of the [[quantum Hall effect]] on [[M5-brane]] [[worldvolumes]] via an effective [[noncommutative geometry]] induced by a constant [[B-field]] [[flux density]]:
 
 * [[Simeon Hellerman]], [[Leonard Susskind]]: *Realizing the Quantum Hall System in String Theory* \[<a href="https://arxiv.org/abs/hep-th/0107200">arXiv:hep-th/0107200</a>\]
+
+Introductory lectures on [[string theory]]:
+
+* [[Leonard Susskind]]: *String Theory and M-Theory*, lecture series at Stanford University (2010) &lbrack;[webpage](https://theoreticalminimum.com/courses/string-theory/2010/fall), videos:[YT](https://www.youtube.com/playlist?list=PL3E633552E58EB230), 1:[YT](https://www.youtube.com/watch?v=25haxRuZQUk), 2:[YT](https://www.youtube.com/watch?v=-BleG7PBwEA), 3:[YT](https://www.youtube.com/watch?v=gCyImLu0HSI), 4:[YT](https://www.youtube.com/watch?v=CdgDLaxe2Q4), 5:[YT](https://www.youtube.com/watch?v=-I7PjKyCnI0), 6:[YT](https://www.youtube.com/watch?v=qllX-dkGfYI), 7:[YT](https://www.youtube.com/watch?v=V8XBsPIPKDg), 8:[YT](https://www.youtube.com/watch?v=s43SMaZHa50), 9:[YT](https://www.youtube.com/watch?v=Tsav_xnegTk), 10:[YT](https://www.youtube.com/watch?v=L1_3Xp3rT3c), 11:[YT](https://www.youtube.com/watch?v=NZ-ElsvYKyo)&rbrack;
+
+* [[Leonard Susskind]]: *Topics in String Theory -- Cosmology and Black Holes*, lecture series at Stanford University (2011) &lbrack;[webpage](https://theoreticalminimum.com/courses/cosmology-and-black-holes/2011/winter), videos:[YT](https://www.youtube.com/playlist?list=PL3E633552E58EB230), 1:[YT](https://youtu.be/NZ-ElsvYKyo), 2:[YT](https://youtu.be/dmS5J6xM5s0), 3:[YT](https://youtu.be/i1s5eOJ3V6k), 4:[YT](https://youtu.be/SkEvsxg5Tu4), 5:[YT](https://youtu.be/EJrgKI8aXgQ), 6:[YT](https://youtu.be/5p4PvLUHH88), 7:[YT](https://youtu.be/kL0Bnf7RMUQ), 8:[YT](https://youtu.be/ieHX2bGTMQg), 9:[YT](https://youtu.be/jnItLp3NR5I), 10:[YT](https://youtu.be/L1_3Xp3rT3c)&rbrack;
+
 
 
 Proposing [[ER = EPR]]:
