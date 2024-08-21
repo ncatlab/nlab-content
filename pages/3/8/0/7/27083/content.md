@@ -10,8 +10,6 @@ The idea is that these notes should become an accessible and user friendly intro
 \section{The holy Grail: Straightening & Unstraightening}
 For other Nlab entries see: [[(infinity,1)-Grothendieck construction]], [[straightening functor]], [[Grothendieck construction]], ...
 
-In the following we will mostly follow [[Kerodon]].
-
 ### Idea
 Mathematical objects very often come in families. One quick example is the following: Let $\text{Ab}$ denote the category of [[abelian group|abelian groups]], and fix a commutative ring $R$. Then the there is a well defined category
 
@@ -57,7 +55,7 @@ This equivalence is referred to as the Straightening/Unstraightening equivalence
 
 We shall discover that when one seeks to pursue algebra in a [[homotopy coherent diagram|homotopy coherent manner]], $\infty$-operads present the ideal framework. In fact, all of [[higher algebra]] is written in the language of [[(infinity,1)-operads]]. But the thing that keeps the machine of $\infty$-operads well oiled, or makes riding it even possible is the theory of [[cocartesian fibrations]] and in turn therefore the Straightening/Unstraightening Equivalence. 
 
-\subsection{(Co)Cartesian Fibrations}
+\subsection{(Co)Cartesian Fibrations - Warm up}
 See also [[Cartesian morphism]].
 ####Functoriality of Fibers
 Given a functor $U \colon \mathcal{E} \to \mathcal{C}$ of $\infty$-categories, a natural construction is to look at the fibers of $U$, that is, for $c \colon \mathcal{C}$ an object, the fiber of $U$ at $c$, denoted by $\mathcal{E}_c$ is given by the pullback diagram:
@@ -406,7 +404,9 @@ with values in the category of [[pseudofunctors]] from $\mathcal{C}$ to $text{Ca
 \end{remark}
 
 ###(Co)Cartesian fibrations of simplicial sets
-\begin{definition}[[Kerodon, Definition 5.1.1.1]]
+[[Lurie]]'s definition of (co)cartesian fibrations in the setting of quasicategories (or more generally simplicial sets) is the following:
+
+\begin{definition}(see [[Kerodon]], [Definition 5.1.1.1](https://kerodon.net/tag/01T5))
 
 Let $U \colon \mathcal{E} \to \mathcal{C}$ be a morphism of [[simplicial set|simplicial sets]], and let $\varphi$ be an edge of $\mathcal{E}$.
  
@@ -441,7 +441,43 @@ admits a solution, provided that $n \geq 2$.
 admits a solution, provided that $n \geq 2$.
 
 \end{definition}
+The general theory of fibrations of $\infty$-categories is explained in [[Kerodon]] [Chapter 5](https://kerodon.net/tag/01J2). In this Nlab section, we will primarily concern ourselves with [[Kerodon]] [Section 5.5](https://kerodon.net/tag/01YV) and [Section 5.6](https://kerodon.net/tag/027M) and we will stick to the notation used in [[Kerodon]]. However, a very short recap on the most important constructions in the previous sections of chapter 5 in [[Kerodon]] cannot hurt:
+\begin{definition}[Definition 5.2.2.4](https://kerodon.net/tag/019N)
+Let $U \colon \mathcal{E} \to \mathcal{C}$ be an inner fibration of simplicial sets, let $f \colon C \to D$ be an edge of $\mathcal{C}$. We will say that a functor $f_! \colon \mathcal{E}_C \to \mathcal{E}_D$ is given by covariant transport along $f$ if there exists some morphism
 
+$$\widetilde{f_!} \colon \Delta^1 \times \mathcal{E}_C \to \mathcal{E}$$
+
+satisfying the following conditions:
+
+* We have a commutative diagram
+
+\begin{tikzcd}
+	{\Delta^1\times \mathcal{E}_C} & {\mathcal{E}} \\
+	{\Delta¹} & {\mathcal{C}}
+	\arrow["{\widetilde{f_!}}", from=1-1, to=1-2]
+	\arrow["{\text{proj}_{\Delta^1}}"', from=1-1, to=2-1]
+	\arrow["U", from=1-2, to=2-2]
+	\arrow["f"', from=2-1, to=2-2]
+\end{tikzcd}
+
+* The restriction $\widetilde{f_!}|_{\{0\}\times \mathcal{E}_C}$ is the inclusion $\iota_{\mathcal{E}_C/\mathcal{E}}\colon \mathcal{E}_C \hookrightarrow \mathcal{E}$
+
+* For every object $X \colon \mathcal{E}_C$, the composite map
+
+$$\Delta^1 \times \{X\} \hookrightarrow \Delta^1 \times \mathcal{E}_C \overset{\widetilde{f_!}}{\to} \mathcal{E}$$
+
+is a locally $U$-cocartesian
+
+\end{definition}
+
+\begin{proposition}[Proposition 5.2.2.8](https://kerodon.net/tag/01VS)
+Let $U \colon \mathcal{E} \to \mathcal{C}$ be a cocartesian fibration of simplicial sets and let $f \colon C \to D$ be an edge of $\mathcal{C}$. Then:
+
+* There exists a functor $f_! \colon \mathcal{E}_C \to \mathcal{E}_D$ which is given by covariant transport along $f$.
+
+* An arbitrary functor $F' \colon \mathcal{E}_C \to \mathcal{E}_D$ is given by covariant transport along $f$ if and only if it is isomorphic to $f_!$ (as an object of the $\infty$-category $\text{Fun}(\mathcal{E}_C, \mathcal{E}_D)$).
+
+\end{proposition}
 
 
 
@@ -474,6 +510,8 @@ admits a solution, provided that $n \geq 2$.
 
 
 ## Derived Categories
+###Homological Algebra
+For amazing Nlab lecture notes see [[An Introduction to Homological Algebra]].
 ### Differential-Graded Categories
 ### Derived $\infty$-categories of (Grothendieck) abelian Categories
 #### Derived Categories of Rings
@@ -481,8 +519,10 @@ admits a solution, provided that $n \geq 2$.
 
 ##Stable Homotopy Theory
 ### Motivation from Classical homotopy Theory: Suspension-Loop Adjunction
+Amazing Nlab Lecture notes at [[Introduction to Stable Homotopy Theory]].
 ### Freudenthal-Suspension Theorem
 ###Stable $\infty$-Categories
+For now see [[stable (infinity,1)-category]].
 ####The Stable Yoneda Lemma
 ###How to Stabilize - All about Spectrum Objects
 ###Brown Representability
