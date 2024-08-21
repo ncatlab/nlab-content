@@ -7,7 +7,7 @@
 =--
 #### Algebra
 +-- {: .hide}
-[[!include higher algebra - contents]]
+[[!include algebra - contents]]
 =--
 =--
 =--
