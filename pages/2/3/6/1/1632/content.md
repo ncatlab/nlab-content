@@ -10,9 +10,9 @@
 +--{: .hide}
 [[!include analytic geometry -- contents]]
 =--
-#### Higher algebra
+#### Algebra
 +--{: .hide}
-[[!include higher algebra - contents]]
+[[!include algebra - contents]]
 =--
 =--
 =--
