@@ -24,9 +24,9 @@ More on [[absolute neighbourhood retracts]]:
 * [[Karol Borsuk]], _Concerning the classification of topological spaces from the stand point of the theory of retracts_, Fundamenta Mathematicae **46** (3) (1959) 321-330 ([dml:213516](https://eudml.org/doc/213516))
 
 
-Introducing unstable [[Cohomotopy]]:
+Introducing unstable [[Cohomotopy]] [[groups]]:
 
-* {#Borsuk36} [[Karol Borsuk]], _Sur les groupes des classes de transformations continues_, C. R. Acad. Sci. Paris 202.1400-1403 (1936)
+* {#Borsuk36} [[Karol Borsuk]], *Sur les groupes des classes de transformations continues*, CR Acad. Sci. Paris **202** 2-3 (1936) 1400-1403 \[<a href="https://gallica.bnf.fr/ark:/12148/bpt6k3154f/f1400.item">ark:12148/bpt6k3154f</a>, [[Borsuk1936.pdf:file]]\]
 
 On [[shape theory]]:
 
