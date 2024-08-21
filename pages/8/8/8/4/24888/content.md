@@ -47,6 +47,24 @@ Assuming a type $R$ and the axiom of $R$-cohesion, the shape of $R$ is contracti
 The type $R$ is inhabited by $\kappa_R(\sigma_R)$, so it remains to show that for all $x:\esh R$, $x =_{\esh R} \kappa_R(\sigma_R)$. Since $\esh R$ is discrete, so is the identity type $x =_{\esh R} \kappa_R(\sigma_R)$, which means by $\esh$-induction, it suffices to prove $\sigma_R(x) =_{\esh R} \kappa_R(\sigma_R)$ for all $x:\esh R$. But this is true from the third introduction rule for $\esh R$. 
 \end{proof}
 
+\begin{theorem}
+The [[boolean domain]] $\mathbb{2}$ is discrete.
+\end{theorem}
+
+\begin{proof}
+Theorem 6.19 of [Shulman 18](#Shulman18) says that the [[unit type]] is crisply discrete, and theorem 6.21 of [Shulman 18](#Shulman18) says that the [[sum type]] of two crisply discrete types is itself crisply discrete. Since the boolean domain is the [[sum type]] of two copies of the unit type, the boolean domain is crisply discrete, thus discrete.  
+\end{proof}
+
+Since the [[boolean domain]] is discrete, then the type $R$ is [[compact connected]]:
+
+\begin{theorem}
+Assuming the axiom of $R$-cohesion, if the function $\mathrm{const}_{\mathbb{2}, R}$ is an equivalence of types, then for all $R$-indexed families of [[mere propositions]] $x:R \vdash P(x)$, if for all $x:R$, $P(x) \vee \neg P(x)$ is contractible, then either for all $x:R$, $P(x)$ is contractible, or for all $x:R$, $\neg P(x)$ is contractible. 
+\end{theorem}
+
+\begin{proof}
+If the family of mere propositions $x:R \vdash P(x)$ is such that for all $x:R$, $P(x) \vee \neg P(x)$ is contractible, then there is a function $P':R \to \mathbb{2}$ into the [[boolean domain]] $\mathbb{2}$ with $\delta_{P'}^{1_2}(x):(P'(x) = 1_2)) \simeq P(x)$ and $\delta_{P'}^{0_2}(x):(P'(x) = 0_2)) \simeq \neg P(x)$. But since $\mathbb{2}$ is discrete, then by $R$-cohesion $P'$ is constant, which implies that either for all $x:R$, $P'(x) = 1_2$ and thus $P(x)$ is contractible, or for all $x:R$, $P'(x) = 0_2$ and thus $\neg P(x)$ is contractible. Thus, $R$ is compact connected. 
+\end{proof}
+
 ## Examples
 
 There are a number of axioms which in general could be called an axiom of cohesion for type $R$. The most general such axiom of cohesion is called **stable local connectedness** or **axiom C0**, which imposes no other restrictions on $R$. If we additionally assume that the type $R$ is pointed with point $0:R$, then the axiom becomes **punctual local connectedness** or **axiom C1**, and if we additionally assume that the type $R$ is a non-trivial bi-pointed set, with points $0:R$, $1:R$, and witnesses $\tau_0:\mathrm{isSet}(R)$ and $\mathrm{nontriv}:(0 =_{R} 1) \to \emptyset$, then the axiom becomes **contractible codiscreteness** or **axiom C2**. If we additionally assume that the type $R$ is a [[Dedekind complete]] [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]] (and usually written as $\mathbb{R}$), then the axiom becomes **real cohesion** or **axiom $\mathbb{R}$-flat**. 
@@ -80,9 +98,9 @@ There are a number of axioms which in general could be called an axiom of cohesi
 
 ## References
 
-* [[Mike Shulman]], *Brouwer's fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+* {#Shulman18} [[Mike Shulman]], *Brouwer's fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
-* [[Mike Shulman]], *Homotopy type theory: the logic of space*, New Spaces in Mathematics: Formal and Conceptual Reflections, ed. Gabriel Catren and Mathieu Anel, Cambridge University Press, 2021 ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007), [doi:10.1017/9781108854429](https://doi.org/10.1017/9781108854429))
+* {#Shulman17} [[Mike Shulman]], *Homotopy type theory: the logic of space*, New Spaces in Mathematics: Formal and Conceptual Reflections, ed. Gabriel Catren and Mathieu Anel, Cambridge University Press, 2021 ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007), [doi:10.1017/9781108854429](https://doi.org/10.1017/9781108854429))
 
 [[!redirects axiom of cohesion]]
 [[!redirects axioms of cohesion]]
