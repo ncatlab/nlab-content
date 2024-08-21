@@ -22,7 +22,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -827,7 +826,7 @@ Now
 
 Original articles:
 
-* {#Borsuk36} [[Karol Borsuk]], *Sur les groupes des classes de transformations continues*, CR Acad. Sci. Paris **202** 2-3 (1936) 1400-1403 \[<a href="https://gallica.bnf.fr/ark:/12148/bpt6k3154f/f1400.item">ark:12148/bpt6k3154f</a>\]
+* {#Borsuk36} [[Karol Borsuk]], *Sur les groupes des classes de transformations continues*, CR Acad. Sci. Paris **202** 2-3 (1936) 1400-1403 \[<a href="https://gallica.bnf.fr/ark:/12148/bpt6k3154f/f1400.item">ark:12148/bpt6k3154f</a>, [[Borsuk1936.pdf:file]]\]
 
 * {#Pontryagin38a} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication I_, Doklady Akademii Nauk SSSR **19** 3 (1938) 147-149
  
