@@ -102,9 +102,11 @@ Using extensionality, we obtain [[M-types]] from W-types.
 ## In cohesive homotopy type theory
  {#InCohesiveHomotopyTypeTheory}
 
-Problems in [[cohesive homotopy type theory]]:
+Problems in [[spatial type theory]]/[[cohesive type theory]]:
 
-* Does the [[axiom of real cohesion]] imply the [[axiom of localic real cohesion]]? 
+* Suppose a cohesive type $A$ comes with a [[tight apartness relation]]. Then, assuming crisp [[excluded middle]], is the tight apartness relation on $\flat A$ in the cohesive mode [[decidable tight apartness relation|decidable]]?
+
+Problems in [[real-cohesive homotopy type theory]]:
 
 * Assuming the [[axiom of real cohesion]], is the [[shape]] of every [[subset]] of the [[Dedekind real numbers]] a [[set]]? 
 
