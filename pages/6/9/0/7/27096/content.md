@@ -26,37 +26,11 @@ The **axiom of punctual cohesion** or **axiom C1** states that there is a [[poin
 ## Properties
 
 \begin{theorem}
-Assuming punctual cohesion, all [[mere propositions]] are discrete.
+The [[boolean domain]] $\mathbb{2}$ is discrete.
 \end{theorem}
 
 \begin{proof}
-Since $I$ is a [[pointed type]], if $A$ is a proposition and there is a function $I \to A$, then $A$ is a [[contractible type]], which means that every function into $A$ is a [[constant function]], and thus that $A$ is a discrete type. 
-\end{proof}
-
-\begin{lemma}
-Let $A$ be a cohesive type with a [[tight apartness relation]]. Assuming punctual cohesion, for each $x:A$ and $y:A$ the type $x \# y$ is discrete. 
-\end{lemma}
-
-\begin{proof}
-The type $x \# y$ is a mere proposition and is thus discrete. 
-\end{proof}
-
-\begin{theorem}
-Assuming punctual cohesion, the [[boolean domain]] is discrete.
-\end{theorem}
-
-\begin{proof}
-There might be a proof somewhere in [Shulman 18](#Shulman18) since the author asserts it as fact later in the paper assuming punctual cohesion. 
-\end{proof}
-
-Since the [[boolean domain]] is discrete, the type $I$ is [[compact connected]]:
-
-\begin{theorem}
-Assuming the axiom of punctual cohesion, if the function $\mathrm{const}_{\mathbb{2}, I}$ is an equivalence of types, then for all $I$-indexed families of [[mere propositions]] $x:I \vdash P(x)$, if for all $x:I$, $P(x) \vee \neg P(x)$ is contractible, then either for all $x:I$, $P(x)$ is contractible, or for all $x:I$, $\neg P(x)$ is contractible. 
-\end{theorem}
-
-\begin{proof}
-If the family of mere propositions $x:I \vdash P(x)$ is such that for all $x:I$, $P(x) \vee \neg P(x)$ is contractible, then there is a function $P':I \to \mathbb{2}$ into the [[boolean domain]] $\mathbb{2}$ with $\delta_{P'}^{1_2}(x):(P'(x) = 1_2)) \simeq P(x)$ and $\delta_{P'}^{0_2}(x):(P'(x) = 0_2)) \simeq \neg P(x)$. But since $\mathbb{2}$ is discrete, then by punctual cohesion $P'$ is constant, which implies that either for all $x:I$, $P'(x) = 1_2$ and thus $P(x)$ is contractible, or for all $x:I$, $P'(x) = 0_2$ and thus $\neg P(x)$ is contractible. Thus, $I$ is compact connected. 
+Theorem 6.19 of [Shulman 18](#Shulman18) says that the [[unit type]] is crisply discrete, and theorem 6.21 of [Shulman 18](#Shulman18) says that the [[sum type]] of two crisply discrete types is itself crisply discrete. Since the boolean domain is the [[sum type]] of two copies of the unit type, the boolean domain is crisply discrete, thus discrete.  
 \end{proof}
 
 \begin{theorem}
@@ -125,6 +99,8 @@ $$\mathbb{R}_C \simeq \mathbb{R}_H \simeq \mathbb{R}_\Sigma \simeq \flat \mathbb
 * {#Shulman18} [[Mike Shulman]], *Brouwer's fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
 
 * {#Shulman17} [[Mike Shulman]], *Homotopy type theory: the logic of space*, New Spaces in Mathematics: Formal and Conceptual Reflections, ed. Gabriel Catren and Mathieu Anel, Cambridge University Press, 2021 ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007), [doi:10.1017/9781108854429](https://doi.org/10.1017/9781108854429))
+
+* {#Aberle24} [[C.B. Aberlé]], *Parametricity via Cohesion* &lbrack;[arXiv:2404.03825](https://arxiv.org/abs/2404.03825)&rbrack; 
 
 [[!redirects punctual cohesion]]
 [[!redirects axiom of punctual cohesion]]
