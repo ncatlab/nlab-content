@@ -251,6 +251,11 @@ following
 
 * {#Beilinson12} [[Alexander Beilinson]], _$p$-adic periods and de Rham cohomology_, J. of the AMS 25 (2012), 715-738
 
+Generalization to non-abelian [[Lie 2-algebra valued differential forms]] (local [[connections on 2-bundles]]):
+
+* Getachew Alemu Demessie, [[Christian Saemann]], *Higher Poincaré Lemma and Integrability*, J. Math. Phys. **56** 082902 (2015) \[<a href="https://doi.org/10.1063/1.4929537">doi:10.1063/1.4929537</a>, [arXiv:1406.5342](https://arxiv.org/abs/1406.5342)\]
+
+
 [[!redirects Poincaré lemma]]
 [[!redirects Poincare lemma]]
 
