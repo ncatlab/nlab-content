@@ -77,7 +77,7 @@ Further axioms can be assumed of the category of classical sets which are not [[
 
 * That the [[Dedekind real numbers]] are a classical set is equivalent to the [[analytic LPO]]. 
 
-* That the category of classical sets is [[cartesian closed category|cartesian closed]] or equivalently [[locally cartesian closed category|locally cartesian closed]], which implies the [[limited principle of omniscience]]. 
+* That the category of classical sets is [[cartesian closed category|cartesian closed]] or equivalently [[locally cartesian closed category|locally cartesian closed]], which implies the [[limited principle of omniscience]]. This is provable in the cohesive mode in [[cohesive homotopy type theory]] from crisp [[excluded middle]] and [[punctual cohesion]]. 
 
 * That every [[inequality space]] is a [[classical set]], which implies [[analytic LPO]]. In the presence of [[quotient sets]], this is equivalent in strength to the statement that every [[apartness relation]] on a [[set]] is [[decidable relation|decidable]]:
 
