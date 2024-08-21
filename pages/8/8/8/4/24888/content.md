@@ -47,16 +47,6 @@ Assuming a type $R$ and the axiom of $R$-cohesion, the shape of $R$ is contracti
 The type $R$ is inhabited by $\kappa_R(\sigma_R)$, so it remains to show that for all $x:\esh R$, $x =_{\esh R} \kappa_R(\sigma_R)$. Since $\esh R$ is discrete, so is the identity type $x =_{\esh R} \kappa_R(\sigma_R)$, which means by $\esh$-induction, it suffices to prove $\sigma_R(x) =_{\esh R} \kappa_R(\sigma_R)$ for all $x:\esh R$. But this is true from the third introduction rule for $\esh R$. 
 \end{proof}
 
-In addition, if the [[type of booleans]] $\mathbb{2}$ is discrete, then $R$ is [[compact connected]]:
-
-\begin{theorem}
-Assuming a type $R$, a [[type of all propositions]] $\Omega$ with type reflector $T$, and the axiom of $R$-cohesion, if the function $\mathrm{const}_{2, R}$ is an equivalence of types, then for all functions $P:R \to \Omega$, if for all $x:R$, $T(P(x)) \vee \neg T(P(x))$ is contractible, then either for all $x:R$, $T(P(x))$ is contractible, or for all $x:R$, $\neg T(P(x))$ is contractible. 
-\end{theorem}
-
-\begin{proof}
-If $P:R \to \Omega$ is such that for all $x:R$, $T(P(x)) \vee \neg T(P(x))$ is contractible, then there is a function $P':R \to \mathbb{2}$ into the [[booleans type]] $\mathbb{2}$ with $\delta_{P'}^{1_2}(x):(P'(x) = 1_2)) \simeq T(P(x))$ and $\delta_{P'}^{0_2}(x):(P'(x) = 0_2)) \simeq \neg T(P(x))$. But if $\mathbb{2}$ is discrete, then by $R$-cohesion $P'$ is constant, which implies that either for all $x:R$, $T(P(x))$ is contractible, or for all $x:R$, $\neg T(P(x))$ is contractible. Thus, $R$ is compact connected if $\mathbb{2}$ is discrete. 
-\end{proof} 
-
 ## Examples
 
 There are a number of axioms which in general could be called an axiom of cohesion for type $R$. The most general such axiom of cohesion is called **stable local connectedness** or **axiom C0**, which imposes no other restrictions on $R$. If we additionally assume that the type $R$ is pointed with point $0:R$, then the axiom becomes **punctual local connectedness** or **axiom C1**, and if we additionally assume that the type $R$ is a non-trivial bi-pointed set, with points $0:R$, $1:R$, and witnesses $\tau_0:\mathrm{isSet}(R)$ and $\mathrm{nontriv}:(0 =_{R} 1) \to \emptyset$, then the axiom becomes **contractible codiscreteness** or **axiom C2**. If we additionally assume that the type $R$ is a [[Dedekind complete]] [[Archimedean field|Archimedean]] [[ordered field|ordered]] [[lattice]] [[field]] (and usually written as $\mathbb{R}$), then the axiom becomes **real cohesion** or **axiom $\mathbb{R}$-flat**. 
@@ -86,6 +76,8 @@ There are a number of axioms which in general could be called an axiom of cohesi
 
 * [[axiom of sufficient cohesion]]
 
+* [[axiom of real cohesion]]
+
 ## References
 
 * [[Mike Shulman]], *Brouwer's fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
@@ -101,21 +93,6 @@ There are a number of axioms which in general could be called an axiom of cohesi
 [[!redirects axiom of punctual local connectedness]]
 [[!redirects axioms of punctual local connectedness]]
 
-[[!redirects axiom of contractible codiscreteness]]
-[[!redirects axioms of contractible codiscreteness]]
-
-[[!redirects real cohesion]]
-[[!redirects axiom of real cohesion]]
-[[!redirects axioms of real cohesion]]
-
-[[!redirects real-cohesion]]
-[[!redirects axiom of real-cohesion]]
-[[!redirects axioms of real-cohesion]]
-
-[[!redirects Dedekind real cohesion]]
-[[!redirects axiom of Dedekind real cohesion]]
-[[!redirects axioms of Dedekind real cohesion]]
-
 [[!redirects localic real cohesion]]
 [[!redirects axiom of localic real cohesion]]
 [[!redirects axioms of localic real cohesion]]
@@ -130,7 +107,5 @@ There are a number of axioms which in general could be called an axiom of cohesi
 
 [[!redirects axiom C0]]
 [[!redirects axiom C1]]
-[[!redirects axiom R-flat]]
-[[!redirects axiom R flat]]
 [[!redirects axiom [0, 1]-flat]]
 [[!redirects axiom [0, 1] flat]]
