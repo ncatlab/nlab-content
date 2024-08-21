@@ -77,7 +77,40 @@ $$
 Since the boolean domain is discrete, $g$ is constant, but $g(p) = 1$, so $g(r) = 1$ and $f(r) = f(p)$ for all $r:I$, meaning that $f$ is also a constant function. Thus $A$ is discrete. 
 \end{proof}
 
-To do: show if possible that any tight apartness relation on a discrete type $A$ is crisp. 
+\begin{theorem}
+The natural numbers $\mathbb{N}$ are discrete.
+\end{theorem}
+
+\begin{proof}
+The tight apartness relation on $\mathbb{N}$ is given by [[denial inequality]], and denial inequality is decidable since equality is decidable in $\mathbb{N}$, implying that $\mathbb{N}$ is discrete. 
+\end{proof}
+
+\begin{theorem}
+Assuming crisp [[excluded middle]] and punctual cohesion, types with [[decidable tight apartness relations]] are closed under [[function types]] in the cohesive mode. 
+\end{theorem}
+
+\begin{proof}
+Given types $A$ and $B$ with [[decidable tight apartness relations]], types $A$ and $B$ are discrete, which means that the function type $A \to B$ is also discrete by [[axiom C0]], so we may assume that any functions $f:A \to B$ and $g:A \to B$ are crisp. Then the [[tight apartness relation]] on $A \to B$ defined by 
+$$f \# g \coloneqq \exists x:A.f(x) \# g(x)$$
+is crisp, so by crisp excluded middle, we have $f \# g$ or $\neg (f \# g)$. But $\neg (f \# g)$ is just $f = g$, so we are done. 
+\end{proof}
+
+\begin{theorem}
+Assuming crisp [[excluded middle]] and punctual cohesion, the [[Cauchy real numbers]] $\mathbb{R}_C$, [[HoTT book real numbers]] $\mathbb{R}_H$, the $\Sigma$-[[Dedekind real numbers]] $\mathbb{R}_\Sigma$ constructed using Dedekind cuts valued in the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma$, and the [[flat modality]] of the [[terminal object|terminal]] [[Archimedean ordered field]] $\flat \mathbb{R}$ are all isomorphic [[Archimedean ordered fields]] in the cohesive mode. 
+\end{theorem}
+
+\begin{proof}
+Since $\mathbb{N}$ and $\mathbb{2}$ both have [[decidable tight apartness relations]], the function type $\mathbb{N} \to \mathbb{2}$ has a decidable tight apartness relation, which implies the [[limited principle of omniscience]]. 
+
+The limited principle of omniscience implies that for each rational number $q$, the left and right Dedekind cuts for an element $x$ of $\mathrm{R}_\Sigma$, evaluated at $q$, $L_x(q)$ and $R_x(q)$, are both decidable propositions. In addition, limited principle of omniscience implies that any [[existential quantification]] of a decidable predicate  over the rational numbers is itself a decidable proposition. The [[pseudo-order]] relation $\lt$ on $\mathbb{R}_\Sigma$ is defined as 
+$$x \lt y \coloneqq \exists q \in \mathbb{Q}.L_x(q) \wedge R_y(q)$$
+Since $L_x(q)$ and $R_y(q)$ are both decidable, the conjunction is also decidable, and so is the existential quantifier by LPO for the natural numbers, and by definition the strict order on $\mathrm{R}_\Sigma$, which is the [[analytic LPO]] for $\mathrm{R}_\Sigma$. 
+
+The analytic LPO for $\mathrm{R}_\Sigma$ implies that every element $x$ in $\mathrm{R}_\Sigma$ has a [[locator]] by corollary 11.4.3 of the [[HoTT book]]. This then implies that $\mathrm{R}_\Sigma$ is isomorphic to $\mathbb{R}_C$ by corollary 11.4.1 of the [[HoTT book]], and since the [[Cantor-Schroeder-Bernstein theorem]] holds for [[Archimedean ordered fields]] and [[ring homomorphisms]] in the category of Archimedean ordered fields, $\mathrm{R}_H$ is also isomorphic to both $\mathrm{R}_\Sigma$ and $\mathbb{R}_C$. 
+
+Finally, every element of $\flat \mathbb{R}$ can be assumed to be a crisp element, and crisp excluded middle implies that every element of $\flat \mathbb{R}$ has a locator, and is thus a crisp [[Cauchy real number]]. Thus, we have $\flat \mathbb{R} \simeq \flat \mathbb{R}_C$ since $\flat \mathbb{R}_C$ already embeds into $\flat \mathbb{R}$, and since $\mathbb{R}_C$ has [[decidable tight apartness]], it is discrete and we have $\mathbb{R}_C \simeq \flat \mathbb{R}_C$. Thus, we have in the cohesive mode
+$$\mathbb{R}_C \simeq \mathbb{R}_H \simeq \mathbb{R}_\Sigma \simeq \flat \mathbb{R}$$
+\end{proof}
 
 ## Related concepts
 
