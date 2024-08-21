@@ -14,6 +14,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -659,38 +660,59 @@ For references on ordinary 1-dimensional parallel transport see [[parallel trans
 
 For references on parallel 2-transport in [[bundle gerbes]] see [[connection on a bundle gerbe]].
 
-The description of parallel $n$-transport in terms of $n$-functors on the [[path n-groupoid]] for low $n$ is in 
+The description of parallel $n$-transport in terms of $n$-functors on the [[path n-groupoid]] is discussed
 
-* {#SchreiberWaldorf11} [[Urs Schreiber]], [[Konrad Waldorf]], _Smooth Functors and Differential Forms_, Homology, Homotopy Appl., **13** 1 (2011) 143-203 &lbrack;[arXiv:0802.0663](http://arxiv.org/abs/0802.0663), [hha:1311953350](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-13/issue-1/Smooth-functors-vs-differential-forms/hha/1311953350.full)&rbrack;
-
-* {#MartinsPickenI} [[João Faria Martins]], [[Roger Picken]], _On 2-dimensional holonomy_ &lbrack;[arXiv:0710.4310](http://arxiv.org/abs/0710.4310)&rbrack;
-
-* {#MartinsPickenII} [[João Faria Martins]], [[Roger Picken]], _The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module_ ([arXiv](http://arxiv.org/abs/0907.2566))
-
-
-The description of [[connections on a 2-bundle]] in terms of such parallel 2-transport 
+for $n=2$ ([[connections on 2-bundles]]) in 
 
 * [[John Baez]], [[Urs Schreiber]], _Higher gauge theory_, in A. Davydov et al. (eds.), _Categories in Algebra, Geometry and Mathematical Physics_, Contemp Math 431, AMS, Providence, Rhode Island (2007) pp 7-30 ([arXiv:0511710](http://arxiv.org/abs/math/0511710), [arXiv:hep-th/0412325](http://arxiv.org/abs/hep-th/0412325))
 
+* {#MartinsPickenI} [[João Faria Martins]], [[Roger Picken]]: _On 2-dimensional holonomy_, Trans. Amer. Math. Soc. **362** (2010), 5657-5695 &lbrack;[arXiv:0710.4310](http://arxiv.org/abs/0710.4310), [doi:10.1090/S0002-9947-2010-04857-3](https://doi.org/10.1090/S0002-9947-2010-04857-3)&rbrack;
+
+* [[João Faria Martins]], [[Roger Picken]]: *Surface holonomy for non-abelian 2-bundles via double groupoids*, Advances in Mathematics **226** 4 (2011) 3309-3366 \[<a href="https://doi.org/10.1016/j.aim.2010.10.017">doi:10.1016/j.aim.2010.10.017</a>\]
+
+* {#SchreiberWaldorf11} [[Urs Schreiber]], [[Konrad Waldorf]], _Smooth Functors and Differential Forms_, Homology, Homotopy Appl., **13** 1 (2011) 143-203 &lbrack;[arXiv:0802.0663](http://arxiv.org/abs/0802.0663), [hha:1311953350](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-13/issue-1/Smooth-functors-vs-differential-forms/hha/1311953350.full)&rbrack;
+
 * {#SWIII} [[Urs Schreiber]], [[Konrad Waldorf]], _Connections on nonabelian gerbes and their holonomy_, Theory Appl. Categ. **28** 17 (2013) 476-540 &lbrack;[arXiv:0808.1923](http://arxiv.org/abs/0808.1923), [tac:28-17](http://www.tac.mta.ca/tac/volumes/28/17/28-17abs.html)&rbrack;
+
+* [[Amnon Yekutieli]]: *Nonabelian Multiplicative Integration on Surfaces*, World Scientific (2015) &lbrack;[arXiv:1007.1250](https://arxiv.org/abs/1007.1250), [doi:10.1142/9537](https://doi.org/10.1142/9537)&rbrack;
 
 * [[Konrad Waldorf]], *Parallel transport in principal 2-bundles*, Higher Structures **2** 1 (2018) 57-115 &lbrack;[arXiv:1704.08542](https://arxiv.org/abs/1704.08542), [pdf](https://higher-structures.math.cas.cz/api/files/issues/Vol2Iss1/Waldorf)&rbrack;
 
+* {#KimSaemann20} [[Hyungrok Kim]], [[Christian Saemann]], *Adjusted Parallel Transport for Higher Gauge Theories*, J. Phys. A **52** (2020) 445206 &lbrack;[arXiv:1911.06390](https://arxiv.org/abs/1911.06390), [doi:10.1088/1751-8121/ab8ef2](https://doi.org/10.1088/1751-8121/ab8ef2)&rbrack;
+  > (via [[adjusted Weil algebras]])
 
-Further discussion and illustration and relation to [[tensor networks]] is in
+
+* {#LeeOberhauser23} Darrick Lee, Harald Oberhauser, *Random Surfaces and Higher Algebra* &lbrack;[arXiv:2311.08366](https://arxiv.org/abs/2311.08366)&rbrack;
+
+
+for $n = 3$ in
+
+* {#MartinsPickenII} [[João Faria Martins]], [[Roger Picken]], *The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module*, Differential Geometry and its Applications **29** 2 (2011) 179-206 &lbrack;[arXiv:0907.2566](http://arxiv.org/abs/0907.2566), [doi:10.1016/j.difgeo.2010.10.002](https://doi.org/10.1016/j.difgeo.2010.10.002)&rbrack;
+
+
+Further discussion and illustration and relation to [[tensor networks]]:
 
 * {#Parzygnat18} [[Arthur Parzygnat]], _Two-dimensional algebra in lattice gauge theory_, Journal of Mathematical Physics 60, 043506 (2019) ([arXiv:1802.01139](https://arxiv.org/abs/1802.01139), [doi:10.1063/1.5078532](https://doi.org/10.1063/1.5078532))
 
-Applications are discussed in
+Applications 
 
-* [[Arthur Parzygnat]], _Gauge invariant surface holonomy and monopoles_, Theory and Applications of Categories, Vol. 30, 2015, No. 42, pp 1319-1428 ([TAC](http://www.tac.mta.ca/tac/volumes/30/42/30-42abs.html))
+to [[monopoles]]:
 
-Discussion via [[adjusted Weil algebras]]:
+* [[Arthur Parzygnat]], _Gauge invariant surface holonomy and monopoles_, Theory and Applications of Categories **30** 42 (2015) 1319-1428 &lbrack;[tac:30-42](http://www.tac.mta.ca/tac/volumes/30/42/30-42abs.html), [arXiv:1410.6938](https://arxiv.org/abs/1410.6938)&rbrack;
 
-* {#KimSaemann20} [[Hyungrok Kim]], [[Christian Saemann]], *Adjusted Parallel Transport for Higher Gauge Theories*, J. Phys. A **52** (2020) 445206 &lbrack;[arXiv:1911.06390](https://arxiv.org/abs/1911.06390), [doi:10.1088/1751-8121/ab8ef2](https://doi.org/10.1088/1751-8121/ab8ef2)&rbrack;
+to [[categorification]] of the [[Knizhnik-Zamolodchikov connection]]:
+
+* Lucio Simone Cirio, [[João Faria Martins]]: *Categorifying the Knizhnik–Zamolodchikov connection*, Differential Geometry and its Applications **30** 3 (2012) 238-261 \[<a href="https://doi.org/10.1016/j.difgeo.2012.03.004">doi:10.1016/j.difgeo.2012.03.004</a>, [arXiv:1106.0042](https://arxiv.org/abs/1106.0042)\]
+
+to [[BFCG theory]]:
+
+* [[João Faria Martins]], [[Aleksandar Miković]]: _Lie crossed modules and gauge-invariant actions for 2-BF theories_, Adv. Theor. Math. Phys. __15__ 4 (2011) 913-1199 &lbrack;[arXiv:1006.0903](https://arxiv.org/abs/1006.0903), [euclid:atmp/1339438351](http://projecteuclid.org/euclid.atmp/1339438351)&rbrack;
+
+* A.D. López-Hernández, Graciela Reyes-Ahumada, Javier Chagoya: *Categorical generalization of BF theory coupled to gravity* \[<a href="https://arxiv.org/abs/2408.02889">arXiv:2408.02889</a>\]
 
 
-Parallel transport for [[circle n-bundles with connection]] is discussed generally in 
+
+In the abelian case, parallel transport for [[circle n-bundles with connection]] is discussed generally in 
 
 * [[Kiyonori Gomi]], [[Yuji Terashima]], _Higher dimensional parallel transport_ Mathematical Research Letters 8, 25&#8211;33 (2001) ([pdf](http://mrlonline.org/mrl/2001-008-001/2001-008-001-004.pdf))
 
@@ -703,9 +725,7 @@ see also the discussion at _[[fiber integration in ordinary differential cohomol
 
 Realization of this as an [[extended TQFT]] is discussed in 
 
-* [[Nersés Aramyan]], Research statement ([pdf](http://math.illinois.edu/~aramyan2/research.pdf))
-
-Parallel transport with [[coefficients]] in [[crossed complexes]]/[[strict infinity-groupoids]] is discussed in 
+* [[Nersés Aramyan]], Research statement ([pdf](http://math.illinois.edu/~aramyan2/research.pdf))Parallel transport with [[coefficients]] in [[crossed complexes]]/[[strict infinity-groupoids]] is discussed in 
 
 * {#Kapranov15} [[Mikhail Kapranov]], _Membranes and higher groupoids_ ([arXiv:1502.06166](http://arxiv.org/abs/1502.06166))
 
@@ -715,8 +735,8 @@ The integration of flat differential forms with values in chain complexes to fla
 
 based on
 
-* Jonathan Block, Aaron Smith, _A Riemann Hilbert correspondence for infinity local systems_ ([arXiv](http://arxiv.org/abs/0908.2843))
-{#BlockSmith}
+* {#BlockSmith} [[Jonathan Block]], [[Aaron Smith]], _A Riemann Hilbert correspondence for infinity local systems_ ([arXiv](http://arxiv.org/abs/0908.2843))
+
 
 in turn based on constructions in
 
@@ -732,9 +752,7 @@ Understanding [[higher parallel transport]] of [[circle n-bundles with connectio
 
 * [[Lukas Müller]], [[Lukas Woike]], *Parallel Transport of Higher Flat Gerbes as an Extended Homotopy Quantum Field Theory*,  J. Homotopy Relat. Struct. **15** (2020) 113–142  &lbrack;[arXiv:1802.10455](https://arxiv.org/abs/1802.10455), [doi:10.1007/s40062-019-00242-3](https://doi.org/10.1007/s40062-019-00242-3)&rbrack;
 
-See also:
 
-* {#LeeOberhauser23} Darrick Lee, Harald Oberhauser, *Random Surfaces and Higher Algebra* &lbrack;[arXiv:2311.08366](https://arxiv.org/abs/2311.08366)&rbrack;
 
 
 
