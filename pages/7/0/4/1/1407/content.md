@@ -402,11 +402,15 @@ Textbooks on [[string theory]] and [[M-theory]] include the following (for more 
 
   ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
-Lecture notes:
+Lectures and lecture notes:
 
-* Satoshi Nawata, Runkai Tao, Daisuke Yokoyama, *Fudan lectures on string theory* &lbrack;[arXiv:2208.05179](https://arxiv.org/abs/2208.05179)&rbrack;
+* [[Leonard Susskind]]: *String Theory and M-Theory*, lecture series at Stanford University (2010) &lbrack;[webpage](https://theoreticalminimum.com/courses/string-theory/2010/fall), videos:[YT](https://www.youtube.com/playlist?list=PL3E633552E58EB230), 1:[YT](https://www.youtube.com/watch?v=25haxRuZQUk), 2:[YT](https://www.youtube.com/watch?v=-BleG7PBwEA), 3:[YT](https://www.youtube.com/watch?v=gCyImLu0HSI), 4:[YT](https://www.youtube.com/watch?v=CdgDLaxe2Q4), 5:[YT](https://www.youtube.com/watch?v=-I7PjKyCnI0), 6:[YT](https://www.youtube.com/watch?v=qllX-dkGfYI), 7:[YT](https://www.youtube.com/watch?v=V8XBsPIPKDg), 8:[YT](https://www.youtube.com/watch?v=s43SMaZHa50), 9:[YT](https://www.youtube.com/watch?v=Tsav_xnegTk), 10:[YT](https://www.youtube.com/watch?v=L1_3Xp3rT3c), 11:[YT](https://www.youtube.com/watch?v=NZ-ElsvYKyo)&rbrack;
 
-* C. Maccaferri, F. Marino, B. Valsesia, *Introduction to String Theory* &lbrack;[arXiv:2311.18111](https://arxiv.org/abs/2311.18111)&rbrack;
+* [[Leonard Susskind]]: *Topics in String Theory -- Cosmology and Black Holes*, lecture series at Stanford University (2011) &lbrack;[webpage](https://theoreticalminimum.com/courses/cosmology-and-black-holes/2011/winter), videos:[YT](https://www.youtube.com/playlist?list=PL3E633552E58EB230), 1:[YT](https://youtu.be/NZ-ElsvYKyo), 2:[YT](https://youtu.be/dmS5J6xM5s0), 3:[YT](https://youtu.be/i1s5eOJ3V6k), 4:[YT](https://youtu.be/SkEvsxg5Tu4), 5:[YT](https://youtu.be/EJrgKI8aXgQ), 6:[YT](https://youtu.be/5p4PvLUHH88), 7:[YT](https://youtu.be/kL0Bnf7RMUQ), 8:[YT](https://youtu.be/ieHX2bGTMQg), 9:[YT](https://youtu.be/jnItLp3NR5I), 10:[YT](https://youtu.be/L1_3Xp3rT3c)&rbrack;
+
+* Satoshi Nawata, Runkai Tao, Daisuke Yokoyama: *Fudan lectures on string theory* &lbrack;[arXiv:2208.05179](https://arxiv.org/abs/2208.05179)&rbrack;
+
+* C. Maccaferri, F. Marino, B. Valsesia: *Introduction to String Theory* &lbrack;[arXiv:2311.18111](https://arxiv.org/abs/2311.18111)&rbrack;
 
 See also:
 
