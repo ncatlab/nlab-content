@@ -110,7 +110,7 @@ There is another way to define cohesive homotopy type theory, as a [[multimodal 
 
 The mode theory $\mathcal{M}$ of cohesive homotopy type theory consists of 
 
-* two modes, the discrete mode $\mathcal{d} \in \mathcal{M}$ and the cohesive mode $\mathcal{c} \in \mathcal{M}$, 
+* two modes, the crisp or discrete mode $\mathcal{d} \in \mathcal{M}$ and the cohesive mode $\mathcal{c} \in \mathcal{M}$, 
 
 * 1-cells $p_!, p_*:\mathcal{c} \to \mathcal{d}$ and $p^*, p^!:\mathcal{d} \to \mathcal{c}$, 
 
@@ -164,33 +164,33 @@ $$\esh \dashv \flat \dashv \sharp$$
 
 In the multimodal type theory associated with cohesive homotopy type theory, there are two type judgments: 
 
-* $A \; \mathrm{type} \; \mathrm{at} \; \mathcal{d}$ which says that $A$ is a type in the discrete mode;
+* $A \; \mathrm{type} \; \mathrm{at} \; \mathcal{d}$ which says that $A$ is a type in the crisp mode;
 
 * $A \; \mathrm{type} \; \mathrm{at} \; \mathcal{c}$ which says that $A$ is a type in the cohesive mode.
 
 Similarly, there are two term judgments:
 
-* $a:A \; \mathrm{at} \; \mathcal{d}$ which says that $a$ is a term of type $A$ in the discrete mode;
+* $a:A \; \mathrm{at} \; \mathcal{d}$ which says that $a$ is a term of type $A$ in the crisp mode;
 
 * $a:A \; \mathrm{at} \; \mathcal{c}$ which says that $a$ is a term of type $A$ in the cohesive mode. 
 
 and two context judgments:
 
-* $\Gamma \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{d}$ which says that $\Gamma$ is a context in the discrete mode;
+* $\Gamma \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{d}$ which says that $\Gamma$ is a context in the crisp mode;
 
 * $\Gamma \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{c}$ which says that $\Gamma$ is a context in the cohesive mode.
 
 as well as two separate judgments each for [[judgmental equality]] of types and terms:
 
-* $A \equiv B \; \mathrm{type} \; \mathrm{at} \; \mathcal{d}$ which says that $A$ and $B$ are judgmentally equal types in the discrete mode;
+* $A \equiv B \; \mathrm{type} \; \mathrm{at} \; \mathcal{d}$ which says that $A$ and $B$ are judgmentally equal types in the crisp mode;
 
 * $A \equiv B \; \mathrm{type} \; \mathrm{at} \; \mathcal{c}$ which says that $A$ and $B$ are judgmentally equal types in the cohesive mode;
 
-* $a \equiv b:A \; \mathrm{at} \; \mathcal{d}$ which says that $a$ and $b$ are judgmentally equal terms of type $A$ in the discrete mode;
+* $a \equiv b:A \; \mathrm{at} \; \mathcal{d}$ which says that $a$ and $b$ are judgmentally equal terms of type $A$ in the crisp mode;
 
 * $a \equiv b:A \; \mathrm{at} \; \mathcal{c}$ which says that $a$ and $b$ are judgmentally equal terms of type $A$ in the cohesive mode. 
 
-* $\Gamma \equiv \Delta \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{d}$ which says that $\Gamma$ and $\Delta$ are judgmentally equal contexts in the discrete mode;
+* $\Gamma \equiv \Delta \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{d}$ which says that $\Gamma$ and $\Delta$ are judgmentally equal contexts in the crisp mode;
 
 * $\Gamma \equiv \Delta \; \mathrm{ctx} \; \mathrm{at} \; \mathcal{c}$ which says that $\Gamma$ and $\Delta$ are judgmentally equal contexts in the cohesive mode;
 
