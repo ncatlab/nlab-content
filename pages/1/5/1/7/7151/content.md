@@ -13,6 +13,10 @@ On [[quantum L-infinity algebras]] for the [[BV-BRST formalism]]:
 
 * [[Branislav Jurčo]], [[Hyungrok Kim]], [[Tommaso Macrelli]], [[Christian Saemann]], [[Martin Wolf]], *Perturbative Quantum Field Theory and Homotopy Algebras*, PoS (CORFU2019) 199 &lbrack;[arXiv:2002.11168](https://arxiv.org/abs/2002.11168), [doi:10.22323/1.376.0199](https://doi.org/10.22323/1.376.0199)&rbrack;
 
+Generalization of the [[Poincaré lemma]] to non-abelian [[Lie 2-algebra valued differential forms]] (local [[connections on 2-bundles]]):
+
+* Getachew Alemu Demessie, [[Christian Saemann]], *Higher Poincaré Lemma and Integrability*, J. Math. Phys. **56** 082902 (2015) \[<a href="https://doi.org/10.1063/1.4929537">doi:10.1063/1.4929537</a>, [arXiv:1406.5342](https://arxiv.org/abs/1406.5342)\]
+
 
 On [[schreiber:Higher Structures]] in [[M-theory]]:
 
