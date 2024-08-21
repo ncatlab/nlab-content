@@ -90,9 +90,6 @@ There are a number of axioms which in general could be called an axiom of cohesi
 [[!redirects axiom of stable local connectedness]]
 [[!redirects axioms of stable local connectedness]]
 
-[[!redirects axiom of punctual local connectedness]]
-[[!redirects axioms of punctual local connectedness]]
-
 [[!redirects localic real cohesion]]
 [[!redirects axiom of localic real cohesion]]
 [[!redirects axioms of localic real cohesion]]
@@ -106,6 +103,5 @@ There are a number of axioms which in general could be called an axiom of cohesi
 [[!redirects axioms of smooth cohesion]]
 
 [[!redirects axiom C0]]
-[[!redirects axiom C1]]
 [[!redirects axiom [0, 1]-flat]]
 [[!redirects axiom [0, 1] flat]]
