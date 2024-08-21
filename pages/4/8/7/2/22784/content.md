@@ -5,6 +5,10 @@
 +-- {: .hide}
 [[!include analysis - contents]]
 =--
+#### Algebra
++--{: .hide}
+[[!include algebra - contents]]
+=--
 =--
 =--
 
