@@ -69,6 +69,8 @@ Much of the interest in BF-theory results from the fact that on a 4-dimensional 
 
 ## References
 
+### General
+
 BF theory was maybe first considered in
 
 * [[Gary Horowitz]], _Exactly soluable diffeomorphism invariant theories_ Commun. Math. Phys. 125, 417-437 (1989)
@@ -90,11 +92,6 @@ See also
 
 * Aristide Baratin, Florian Girelli, Daniele Oriti,  _Diffeomorphisms in group field theories_, Physical Review D, vol. 83, Issue 10, id. 104051, [doi](http://dx.doi.org/10.1103/PhysRevD.83.104051), [arxiv/1101.0590](http://arxiv.org/abs/1101.0590)
 
-There is a more general BFCG action introduced by Girelli, Pfeiffer and Popescu
-which has been shown to be a special case of the categorified BF-theory
-in
-
-* Jo&#227;o Martins, Aleksandar Mikovi&#263;, _Lie crossed modules and gauge-invariant actions for 2-BF theories_, Adv. Theor. Math. Phys. __15__:4 (2011), 913-1199 [euclid](http://projecteuclid.org/euclid.atmp/1339438351)
 
 Relation to [[Einstein gravity]] (in [[first-order formulation of gravity|first-order formulation]]):
 
@@ -107,5 +104,20 @@ On a version of BF-theory in [[arithmetic]] related to non-[[orientation|orienta
 
 * [[Magnus Carlson]], [[Minhyong Kim]], _A note on abelian arithmetic BF-theory_, ([arXiv:1911.02236](https://arxiv.org/abs/1911.02236))
 
+### BFCG theory
+
+There is a more general BFCG action introduced by Girelli, Pfeiffer and Popescu which has been shown to be a special case of the categorified BF-theory in
+
+* [[João Faria Martins]], [[Aleksandar Miković]]: _Lie crossed modules and gauge-invariant actions for 2-BF theories_, Adv. Theor. Math. Phys. __15__ 4 (2011) 913-1199 &lbrack;[arXiv:1006.0903](https://arxiv.org/abs/1006.0903), [euclid:atmp/1339438351](http://projecteuclid.org/euclid.atmp/1339438351)&rbrack;
+
+
+Discussion of BFCG theory via [[connections on 2-bundles]] and [[higher parallel transport]]:
+
+* A.D. López-Hernández, Graciela Reyes-Ahumada, Javier Chagoya: *Categorical generalization of BF theory coupled to gravity* \[<a href="https://arxiv.org/abs/2408.02889">arXiv:2408.02889</a>\]
+
 
 [[!redirects BF theory]]
+
+
+[[!redirects BFCG theory]]
+
