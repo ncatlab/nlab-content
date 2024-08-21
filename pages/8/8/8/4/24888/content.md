@@ -84,6 +84,8 @@ There are a number of axioms which in general could be called an axiom of cohesi
 
 * [[localization of a type at a family of functions]]
 
+* [[axiom of sufficient cohesion]]
+
 ## References
 
 * [[Mike Shulman]], *Brouwer's fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
@@ -128,7 +130,6 @@ There are a number of axioms which in general could be called an axiom of cohesi
 
 [[!redirects axiom C0]]
 [[!redirects axiom C1]]
-[[!redirects axiom C2]]
 [[!redirects axiom R-flat]]
 [[!redirects axiom R flat]]
 [[!redirects axiom [0, 1]-flat]]
