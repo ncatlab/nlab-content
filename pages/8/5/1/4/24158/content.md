@@ -104,6 +104,8 @@ Using extensionality, we obtain [[M-types]] from W-types.
 
 Problems in [[cohesive homotopy type theory]]:
 
+* Suppose a discrete cohesive type $A$ comes with a [[tight apartness relation]]. Then, assuming crisp [[excluded middle]] and [[axiom C1]], is the tight apartness relation on $A$ a crisp relation?
+
 * Suppose a cohesive type $A$ comes with a [[tight apartness relation]]. Then, assuming crisp [[excluded middle]] and [[axiom C1]], is the tight apartness relation on $\flat A$ in the cohesive mode [[decidable tight apartness relation|decidable]]?
 
 Problems in [[real-cohesive homotopy type theory]]:
