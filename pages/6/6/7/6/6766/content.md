@@ -175,6 +175,9 @@ On the [[flat vector bundles]] underlying the KZ-equation:
 * [[Ivan Marin]], *Knizhnik-Zamolodchikov bundles are topologically trivial* ([arXiv:0809.3590](https://arxiv.org/abs/0809.3590))
 
 
+A 2-dimensional [[higher structure|higher]] variant ([[categorification]]) of the Knizhnik-Zamolodchikov connection via [[higher parallel transport]]:
+
+* Lucio Simone Cirio, [[João Faria Martins]]: *Categorifying the Knizhnik–Zamolodchikov connection*, Differential Geometry and its Applications **30** 3 (2012) 238-261 \[<a href="https://doi.org/10.1016/j.difgeo.2012.03.004">doi:10.1016/j.difgeo.2012.03.004</a>, [arXiv:1106.0042](https://arxiv.org/abs/1106.0042)\]
 
 
 
