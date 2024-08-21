@@ -441,48 +441,108 @@ admits a solution, provided that $n \geq 2$.
 admits a solution, provided that $n \geq 2$.
 
 \end{definition}
+The definition for a (co)cartesian fibration of simplicial sets is spelled out in [Definition 5.1.4.1.](https://kerodon.net/tag/01UA).
 The general theory of fibrations of $\infty$-categories is explained in [[Kerodon]] [Chapter 5](https://kerodon.net/tag/01J2). In this Nlab section, we will primarily concern ourselves with [[Kerodon]] [Section 5.5](https://kerodon.net/tag/01YV) and [Section 5.6](https://kerodon.net/tag/027M) and we will stick to the notation used in [[Kerodon]]. However, a very short recap on the most important constructions in the previous sections of chapter 5 in [[Kerodon]] cannot hurt:
-\begin{definition}[Definition 5.2.2.4](https://kerodon.net/tag/019N)
-Let $U \colon \mathcal{E} \to \mathcal{C}$ be an inner fibration of simplicial sets, let $f \colon C \to D$ be an edge of $\mathcal{C}$. We will say that a functor $f_! \colon \mathcal{E}_C \to \mathcal{E}_D$ is given by covariant transport along $f$ if there exists some morphism
+###(Parametrized) Covariant/Contravariant Transport
+Let $U \colon \mathcal{E} \to \mathcal{C}$ be a cocartesian fibration of $\infty$-categories. To every morphism $f\colon C \to D$ in the $\infty$-category $\mathcal{C}$, we want to associate a functor $f_! \colon \mathcal{E}_C \to \mathcal{E}_D$ (uniquely determined up to isomorphism by [Proposition 5.2.2.8](https://kerodon.net/tag/01VS)), which [[Lurie]] calls [[covariant transport functor]]. We will skip a few steps and instead of proving existence of such a covariant transport functor $f_!$ for a single $f$, we shall immediately construct a functorial assignment $f \mapsto f_!$ for $f \colon \text{Hom}_\mathcal{C}(C,D)$. This is referred to as [[parametrized covariant transport]] in [[Lurie]]'s [[Kerodon]].
 
-$$\widetilde{f_!} \colon \Delta^1 \times \mathcal{E}_C \to \mathcal{E}$$
+\begin{definition}[Definition 5.2.8.1](https://kerodon.net/tag/02RM)
+Let $U \colon \mathcal{E} \to \mathcal{C}$ be a cocartesian fibration of simplicial sets and let $C,D$ be vertices of $\mathcal{C}$. We will say that a morphism
+$$F \colon \text{Hom}_\mathcal{C}(C,D) \times \mathcal{E}_C \to \mathcal{E}_D$$
+
+is given by [[parametrized covariant transport]] if there exists a morphism 
+
+$$\widetilde{F} \colon \Delta^1 \times \text{Hom}_\mathcal{C}(C,D) \times \mathcal{E}_C \to \mathcal{E}$$
 
 satisfying the following conditions:
 
 * We have a commutative diagram
 
 \begin{tikzcd}
-	{\Delta^1\times \mathcal{E}_C} & {\mathcal{E}} \\
-	{\Delta¹} & {\mathcal{C}}
-	\arrow["{\widetilde{f_!}}", from=1-1, to=1-2]
-	\arrow["{\text{proj}_{\Delta^1}}"', from=1-1, to=2-1]
+	{\Delta^1\times \text{Hom}_\mathcal{C}(C,D) \times \mathcal{E}_C} & {\mathcal{E}} \\
+	{\Delta^1\times \text{Hom}_\mathcal{C}(C,D)} & {\mathcal{C}}
+	\arrow["{\widetilde{F}}", from=1-1, to=1-2]
+	\arrow["{\text{proj}}"', from=1-1, to=2-1]
 	\arrow["U", from=1-2, to=2-2]
-	\arrow["f"', from=2-1, to=2-2]
+	\arrow["{\text{incl}}"', from=2-1, to=2-2]
 \end{tikzcd}
 
-* The restriction $\widetilde{f_!}|_{\{0\}\times \mathcal{E}_C}$ is the inclusion $\iota_{\mathcal{E}_C/\mathcal{E}}\colon \mathcal{E}_C \hookrightarrow \mathcal{E}$
+where the lower horizontal map is induced by the inclusion $\text{Hom}_\mathcal{C}(C,D) \hookrightarrow \text{Fun}(\Delta^1, \mathcal{C})$ by [[currying]].
 
-* For every object $X \colon \mathcal{E}_C$, the composite map
+* The restriction $\widetilde{F}|_{0\times\text{Hom}_\mathcal{C}(C,D)\times\mathcal{E}_C}$ is given by projection onto $\mathcal{E}_C$, and the restriction $\widetilde{F}|_{1\times\text{Hom}_\mathcal{C}(C,D)\times \mathcal{E}_C}$ is equal to $F$.
 
-$$\Delta^1 \times \{X\} \hookrightarrow \Delta^1 \times \mathcal{E}_C \overset{\widetilde{f_!}}{\to} \mathcal{E}$$
+* For every edge $f \colon C \to D$ of $\mathcal{C}$ and every object $X \colon \mathcal{E}_C$, the composite map 
 
-is a locally $U$-cocartesian
+$$\Delta^1 \times \{f\} \times \{X\} \hookrightarrow \Delta^1 \times \text{Hom}_\mathcal{C}(C,D) \times \mathcal{E}_C \overset{\widetilde{F}}{\to} \mathcal{E}$$
+
+is a $U$-cocartesian edge of $\mathcal{E}$.
+
 
 \end{definition}
+\begin{remark}
+Let us unravel these conditions:
 
-\begin{proposition}[Proposition 5.2.2.8](https://kerodon.net/tag/01VS)
-Let $U \colon \mathcal{E} \to \mathcal{C}$ be a cocartesian fibration of simplicial sets and let $f \colon C \to D$ be an edge of $\mathcal{C}$. Then:
+* The first condition (the commutative diagram) really just says that $U\widetilde{F}$ evaluated at $(0 \to 1, f)$ is equal to the constant diagram $\mathcal{E}_C \to \text{Ar}\mathcal{C}$ with value $f$. In other words, plugging in $f$ into $\widetilde{F}$ yields a lift for $f$.
 
-* There exists a functor $f_! \colon \mathcal{E}_C \to \mathcal{E}_D$ which is given by covariant transport along $f$.
+* The second condition says that $\widetilde{F}$, interpreted as a [[natural transformation]] between [[(infinity,1)-functor|$\infty$-functors]] has domain and target as depicted:
 
-* An arbitrary functor $F' \colon \mathcal{E}_C \to \mathcal{E}_D$ is given by covariant transport along $f$ if and only if it is isomorphic to $f_!$ (as an object of the $\infty$-category $\text{Fun}(\mathcal{E}_C, \mathcal{E}_D)$).
+\begin{tikzcd}
+	{\text{Hom}_\mathcal{C}(C,D) \times \mathcal{E}_C} && {\mathcal{E}}
+	\arrow[""{name=0, anchor=center, inner sep=0}, "{\text{projection}_\mathcal{E}}", shift left=4, from=1-1, to=1-3]
+	\arrow[""{name=1, anchor=center, inner sep=0}, "F"', shift right=4, from=1-1, to=1-3]
+	\arrow["{\widetilde{F}}", shorten <=2pt, shorten >=2pt, Rightarrow, from=0, to=1]
+\end{tikzcd}
 
-\end{proposition}
+* Finally, the third condition just states that the diagram $\widetilde{F}$ encodes, for every morphism $f \colon \text{Hom}_\mathcal{C}(C,D)$ and every object $X \colon \mathcal{E}_C$, a $U$-cocartesian edge $\widetilde{f}_X\colon X \to f_!(X)$ in $\mathcal{E}$, with $f_!(X) \coloneqq t(\widetilde{f}_X)$. 
 
+\end{remark}
 
+\begin{remark}
+As already hinted at in the previous remark: For every edge $f \colon C \to D$, the composite map 
 
+$$\{f\}\times \mathcal{E}_C \hookrightarrow \text{Hom}_\mathcal{C}(C,D) \times \mathcal{E}_C \overset{F}{\to} \mathcal{E}_D$$
 
+is given by covariant transport along $f$ (see also [Definition 5.2.2.4](https://kerodon.net/tag/019N)).
+\end{remark}
 
+\begin{example}(see [Example 5.2.8.3.](https://kerodon.net/tag/02RP))
+Let $\text{Set}_*$ denote the category of pointed sets, and let $V \colon \text{Set}_* \to \text{Set}$ denote the forgetful functor $(X, x \colon X) \mapsto X$. Then $V$ is a cocartesian fibration (in fact, it is a left covering map), whose fiber over an object $X \colon Set$ may be identified with $\{(X,x)\}_{x\colon X} \cong X$. For every pair of sets $X,Y$, the evaluation map
+
+$$\text{Hom}_\text{Set}(X,Y) \times X \to Y, \qquad (f,x) \mapsto f(x)$$
+
+is given by parametrized covariant transport.
+\end{example}
+
+\begin{theorem}(see [Proposition 5.2.8.4](https://kerodon.net/tag/02RQ))\label{existence}
+Let $U \colon \mathcal{E}\to \mathcal{C}$ be a cocartesian fibration of simplicial sets, and let $C,D$ be vertices of $\mathcal{C}$. Then we have the following:
+1. There exists a morphism $F \colon \text{Hom}_\mathcal{C}(C,D) \times \mathcal{E}_C \to \mathcal{E}_D$ which is given by [[parametrized covariant transport]].
+2. An arbitrary diagram $F' \colon \text{Hom}_\mathcal{C}(C,D) \times \mathcal{E}_C \to \mathcal{E}_D$ is given by parametrized covariant transport if and only if it is isomorphic to $F$ (as an object of the $\infty$-category $\text{Fun}(\text{Hom}_\mathcal{C}(C,D) \times \mathcal{E}_C, \mathcal{E}_D)$).
+\end{theorem}
+
+In order to prove this, we need a lemma
+
+\begin{lemma}
+Let $U \colon \mathcal{E} \to \mathcal{C}$ be a cocartesian fibration of simplicial sets, let $K$ be a simplicial set, and suppose we are given a lifting problem
+
+\begin{tikzcd}
+	{\{0\}\times K} && {\mathcal{E}} \\
+	\\
+	{\Delta^1\times K} && {\mathcal{C}}
+	\arrow["{H_0}", from=1-1, to=1-3]
+	\arrow[from=1-1, to=3-1]
+	\arrow["U", from=1-3, to=3-3]
+	\arrow["H", dotted, from=3-1, to=1-3]
+	\arrow["{\overline{H}}"', from=3-1, to=3-3]
+\end{tikzcd}
+Then:
+1. The lifting problem admits a solution $H \colon \Delta^1 \times K \to \mathcal{E}$ which is a $U$-cocartesian lift of $\overline{H}$.
+2. Let $F$ be any object of the $\infty$-category $\text{Fun}_{/\mathcal{C}}(\{1\} \times K, \mathcal{E})$. Then $F$ is isomorphic to $H|_{1\times K}$ (as an object of $\text{Fun}_{/\mathcal{C}}(\{1\} \times K, \mathcal{E})$) if and only if $F = H'|_{1\times K}$, where $H'$ is yet another $U$-cocartesian lift of $\overline{H}$ which solves the above lifting problem.
+\end{lemma}
+
+\begin{proof}
+This follows by means of the [[currying]] isomorphism and the fact that postcompositon with a cocartesian fibration is itself a cocartesian fibration. Therefore, the lifting problem reduces to $K = \Delta^0$. In this case, $U$ being a cocartesian fibration readily implies the first part, while Remark [5.1.3.8](https://kerodon.net/tag/01U5) does the second part.
+\end{proof}
+Theorem \ref{existence} now follows as a special case of the above lemma (see [Proposition 5.2.8.4.](https://kerodon.net/tag/02RQ)).
 
 
 
