@@ -37,6 +37,8 @@ $$\esh A \coloneqq L_\mathbb{R}(A)$$
 
 * [[axiom of cohesion]]
 
+* [[axiom of punctual cohesion]]
+
 * [[axiom of sufficient cohesion]]
 
 ## References
