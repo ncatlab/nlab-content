@@ -161,6 +161,8 @@ being a decidable relation implies the limited principle of omniscience for natu
 $$f \# g \coloneqq \exists x \in A.f(x) \neq g(x)$$
 being a decidable relation implies the limited principle of omniscience for natural numbers. Equivalently, that the category of sets with decidable tight apartness is a [[locally cartesian closed category]] implies $\mathrm{LPO}_\mathbb{N}$. 
 
+* In [[cohesive homotopy type theory]], crisp [[excluded middle]] and [[punctual cohesion]] together imply that in the cohesive mode, sets with [[decidable tight apartness]] form a [[cartesian closed category]] and a [[locally cartesian closed category]], thus implying $\mathrm{LPO}_\mathbb{N}$ in the cohesive mode. 
+
 * That every [[tight apartness relation]] on a [[set]] is [[decidable relation|decidable]] implies $\mathrm{LPO}_\mathbb{N}$. Equivalently with [[quotient sets]], that every [[apartness relation]] on a [[set]] is [[decidable relation|decidable]] implies $\mathrm{LPO}_\mathbb{N}$: 
 
 $$((\forall x.\neg R(x, x)) \wedge (\forall x, y.R(x, y) \Rightarrow R(y, x)) \wedge (\forall x, y, z.R(x, y) \wedge R(y, z) \Rightarrow R(x, z))) \Rightarrow (\forall x, y.R(x, y) \vee \neg R(x, y))$$
