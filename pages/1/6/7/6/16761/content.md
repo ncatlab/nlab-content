@@ -31,6 +31,11 @@ On [[Yukawa couplings]]:
 
 * {#CremadesIbanezMarchesano03} D. Cremades, [[Luis Ibáñez]], [[Fernando Marchesano]], _Yukawa couplings in intersecting D-brane models_, JHEP 0307 (2003) 038 ([arXiv:hep-th/0302105](https://arxiv.org/abs/hep-th/0302105))
 
+On [[axions]]:
+
+* [[Luis Ibáñez]]: *Three-forms, and Axions: String and Particle Physics Applications*, talk at *Fayet Fest*, ENS Paris (2016) &lbrack;[pdf](https://moriond.in2p3.fr/Fayet/transparencies/ibanez.pdf), [[Ibanez-Axions.pdf:file]]&rbrack;
+
+
 On [[neutrino]] [[masses]] in [[type IIA string theory]] [[orientifold]] models:
 
 * Gonzalo F. Casas, [[Luis E. Ibáñez]], [[Fernando Marchesano]], *On small Dirac Neutrino Masses in String Theory* &lbrack;[arXiv:2406.14609](https://arxiv.org/abs/2406.14609)&rbrack;
