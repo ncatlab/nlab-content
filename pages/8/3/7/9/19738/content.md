@@ -133,9 +133,11 @@ Typically one says "module object" to amplify a [[linear algebra|linear algebrai
 
 ### Subsets and predicates
 
-In some [[foundations of mathematics]], a _[[subset]]_ of a set $S$ is just a _[[predicate]]_, a function with domain $S$ and codomain the class of [[truth values]] $\Omega$. 
+In some [[foundations of mathematics]], a _[[subset]]_ of a set $S$ is just a _[[predicate]]_, a function with domain $S$ and codomain the class of [[truth values]] $\Omega$.
 
+### Q-categories 
 
+[[Q-categories]] are just [[coreflective subcategories]] in the setup in which they are used as a data for introducing generalizations of sheaves, monopresheaves (separated presheaves) and epipresheaves.
 
 ## References
  {#References}
