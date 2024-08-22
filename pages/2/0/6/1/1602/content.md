@@ -593,11 +593,16 @@ $$
 
 ### General
 
-The original articles are
+The original articles:
 
 * [[Michael Green]], [[John Schwarz]], _Anomaly Cancellation in Supersymmetric $D=10$ Gauge Theory and Superstring Theory_, Phys. Lett. B 149 (1984) 117-122 ([spire:15583](https://inspirehep.net/literature/15583), <a href="https://doi.org/10.1016/0370-2693(84)91565-X">doi:10.1016/0370-2693(84)91565-X</a>) 
 
 * {#CHSW85} [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], p. 49 of: _Vacuum configurations for superstrings_, Nuclear Physics B Volume 258, 1985, Pages 46-74 (<a href="https://doi.org/10.1016/0550-3213(85)90602-9">doi:10.1016/0550-3213(85)90602-9</a>)
+
+See also:
+
+* [[S. James Gates Jr.]], [[Hitoshi Nishino]]: *New $D = 10$, $\mathcal{N} = 1$ supergravity coupled to Yang-Mills supermultiplet and anomaly cancellations*, Physics Letters B **157** 2–3 (1985) 157-163 \[<a href="https://doi.org/10.1016/0370-2693(85)91537-0">doi:10.1016/0370-2693(85)91537-0</a>, [spire:16413](https://inspirehep.net/literature/16413)\]
+
 
 Rederivation using the [[elliptic genus]]/[[Witten genus]] (then: "character-valued partition function"):
 
