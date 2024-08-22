@@ -158,4 +158,6 @@ Also:
 [[!redirects fan theorem]]
 [[!redirects Fan theorem]]
 
+[[!redirects full fan theorem]]
+
 [[!redirects classical fan theorem]]
