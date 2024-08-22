@@ -13,7 +13,9 @@ On [[Frobenius exact categories]] in view of [[Deligne's theorem on tensor categ
 
 * {#CoulembierEtingofOstrik21} [[Kevin Coulembier]], [[Pavel Etingof]], [[Victor Ostrik]], _On Frobenius exact symmetric tensor categories_ &lbrack;[arXiv:2107.02372](https://arxiv.org/abs/2107.02372)&rbrack;
 
+On a role of sheaf theory on additive sites in (abelian) tensor categories
 
+* Kevin Coulembier, _Additive Grothendieck pretopologies and presentations of tensor categories_, [arXiv:2011.02137](https://arxiv.org/abs/2011.02137)
 
 
 
