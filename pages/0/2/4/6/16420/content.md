@@ -10,7 +10,13 @@
 
 One of the co-discoverers of [[supergravity]] ([[4d supergravity]]):
 
+
 ## Selected writings
+
+Early review of [[supersymmetry]]:
+
+* [[Pierre Fayet]], [[Sergio Ferrara]]: *Supersymmetry*, Physics Reports **32** 5 (1977) 249-334 \[<a href="https://doi.org/10.1016/0370-1573(77)90066-7">doi:10.1016/0370-1573(77)90066-7</a>\]
+
 
 Introducing [[super Yang-Mills theory]]:
 
