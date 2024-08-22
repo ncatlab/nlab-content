@@ -107,4 +107,10 @@ See also
 * [[Mike Shulman]], "Not every pseudoalgebra is equivalent to a strict one", *Adv. Math.* 229 no. 3 (2012), 2024&#8211;2041, [arXiv](http://arxiv.org/abs/1005.1520)
 {#Shulman}
 
+For some general frameworks, see the following.
+
+* [[Thomas Fiore]], Po Hu, and Igor Kriz. _Laplaza sets, or how to select coherence diagrams for pseudo algebras_, Advances in mathematics 218.6 (2008): 1705-1722.
+* Miles Gould. _Coherence for categorified operadic theories_, PhD thesis, [arXiv:1002.0879](https://arxiv.org/abs/1002.0879) (2010).
+
+
 [[!redirects coherence theorems]]
