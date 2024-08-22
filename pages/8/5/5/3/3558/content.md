@@ -30,6 +30,10 @@ By the [[adjoint functor theorem]], one can demonstrate that every [[frame]] is 
 
 However, [[morphisms]] of frames needn't preserve [[exponential objects]] or infinitary [[meets]], as would most naturally be required of morphisms of complete Heyting algebras.  Also, when considering *[[large category|large]]* lattices which are only *small*-[[complete category|complete]], then frames and complete Heyting algebras are different objects.
 
+## Related concepts
+
+* [[sigma-complete Heyting algebra]]
+
 ## References
 
 See at *[[Heyting algebra]]*.
