@@ -682,7 +682,7 @@ $$
   \bar L(d) \coloneqq Hom_D(L(-),d) \in [C^{op}, Set]
 $$
 
-is [[representable functor|representable]] for _some_ [[object]] $d \in \mathcal{D}$ but not for all $d$. The representing object may still usefully be thought of as $R(d)$, and in fact it may be viewed as a right adjoint to $L$ _relative to_ the inclusion of the [[full subcategory]] determined by those $d$s for which $\bar L(d)$ is representable; see [[relative adjoint functor]] for more.
+is [[representable functor|representable]] for _some_ [[object]] $d \in \mathcal{D}$ but not for all $d$. The representing object may still usefully be thought of as $R(d)$, and in fact it may be viewed as a right adjoint to $L$ _relative to_ the inclusion of the [[full subcategory]] determined by those $d$s for which $\bar L(d)$ is representable; see [[reflection along a functor]] and [[relative adjoint functor]] for more.
 
 This _global_ versus _local_ evaluation of adjoint functors induces the global/local pictures of the definitions
 
