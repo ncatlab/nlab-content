@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Localization theory
++--{: .hide}
+[[!include localization theory - contents]]
+=--
+=--
+=--
+
 Given a symmetric closed monoidal category $V$, a $V$-enriched category $A$ with underlying ordinary category $A_0$ and a subcategory $\Sigma$ of $A_0$
 containing the identities of $A_0$, H. Wolff defines the corresponding theory of localizations.
 
