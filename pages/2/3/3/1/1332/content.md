@@ -20,8 +20,10 @@
 
 ## Idea
 
-[[reflective localization|Reflective localizations]] of categories and higher categories in the sense of [[left adjoint]] functors $L : C \to C'$ to inclusions $C' \hookrightarrow C$ of full subcategories (as in particular for [[geometric embeddings]]) are characterized by the collection $S \subset Mor(C)$ of morphisms of $C$ which are sent by $L$ to isomorphisms, or more generally to equivalences, as well as by the collection of objects which are _local_ with respect to these morphisms, in that these morphisms behave as equivalences with respect to homming into objects.
+For a class $S$ of morphisms in a category (or higher category) $C$, we can consider the localization functor into the category of fractions $L: C\to C[S^{-1}]$ which is universal with respect to all functors inverting $S$; this defines its (external) saturation, the class $S'\subset Mor(C)$ of _all_ morphisms which are sent to isomorphisms by $L$, or more generally to equivalences.
+One also defined a collection of objects $c$ which are _local_ with respect to these morphisms, in that these morphisms behave as isos/equivalences with respect to homming into $c$. If $L: C\to C[S^{-1}]$ has a right adjoint then it is a [[reflective localization]], and in particular the right adjoint is fully faithful; we can abstractly consider reflective localizations of the form $L: C\to C'$ and start with internally saturated class $S$ of all morphisms inverted by $L$. Then the collection of $S$-local objects characterizes the localization. Moreover, $S$ can itself be enlarged to its external saturation, the collection of $S$-local morphisms, that is _all_ morphisms which are isomorphisms with respect to homing into all $S$-local objects. In the reflective case, external and internal saturation coincide and in general external saturation is a subclass of internal saturation.
 
+Gabriel-Zisman used the term "left-closed object for $S$". This terminology is still widely used in the context of abelian categories with or without "left"; $J$-closed is then closed in the sense of any kind of localization data $J$ (for example, $J$ being a torsion theory or a Gabriel filter). Sheaves and stacks are examples of closed objects in presheaf categories on sites/spaces. 
 
 
 ## Definition for ordinary categories
@@ -258,8 +260,28 @@ This proves the first part of the statement. For the converse statement, assume 
 
 
 
+## Saturated class of morphisms
 
-### References 
+Every morphism in $S$ is $S$-local. 
+
+There are two notions of saturation in the literature. Following [Casacuberta, Frei 2000](#CasacubertaFrei2000) we distinguish them as internal and external. Internal saturation of a class $S$ of morphisms is simply the class of all $S$-local morphisms. External saturation of a class $S$ of morphisms is the class of all morphisms which are inverted in the category of fractions (localization) at class $S$. 
+
+In both variants, the collection $S$ of morphisms is called **saturated** if $S$ coincides with its saturation.
+
+$S$ is contained in its external saturation which is in turn contained in its internal saturation; the external and internal saturation coincide if the localization in $S$ has either left or right adjoint (coreflective or reflective case).
+
+
+
+## Remarks 
+
+
+* a [[reflective subcategory]] as well as a [[reflective (∞,1)-subcategory]] can be realized as the full ($(\infty,1)$-)subcategory on $S$-local objects, where $S$ is the collection of morphisms sent by the corresponding [[localization of an (∞,1)-category]] to equivalences. For details on this see the discussion at [[geometric embedding]].
+
+## References
+
+In terminology of left-closed objects they are treated in  1.4.1 of
+
+* [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. Springer, New York (1967) &lbrack;[doi:10.1007/978-3-642-85844-4](https://link.springer.com/book/10.1007/978-3-642-85844-4), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf)&rbrack;
 
 A classical textbook reference is section 3.2 of
 
@@ -269,23 +291,15 @@ A useful reference with direct ties to the [[(∞,1)-category]] story in the bac
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
+1-categorical picture 
 
+* {#CasacubertaFrei2000} [[Carles Casacuberta]], John Frei, _On saturated classes of morphisms_, Theory and Applications of Categories __7__:4 (2000) 43--46 [pdf](https://www2.math.ethz.ch/EMIS/journals/TAC/volumes/7/n4/n4.pdf)
 
+* [[Carles Casacuberta]], Georg Peschke, Markus Pfenniger, _On orthogonal pairs in categories and localization_, J. Pure & Applied Algebra __142__:1 (1999) 25--33
 
-## Saturated class of morphisms
+Relation to the categorical [[shape theory]]
 
-Every morphism in $S$ is $S$-local.
-
-The collection $S$ of morphisms is called **saturated** if the collection of $S$-local morphisms coincides with $S$.
-
-
-
-
-## Remarks 
-
-
-* a [[reflective subcategory]] as well as a [[reflective (∞,1)-subcategory]] can be realized as the full ($(\infty,1)$-)subcategory on $S$-local objects, where $S$ is the collection of morphisms sent by the corresponding [[localization of an (∞,1)-category]] to equivalences. For details on this see the discussion at [[geometric embedding]].
-
+* Luciano Stramaccia, _Orthogonality, saturation and shape_, Glasnik Matematički 2007, [pdf](https://hrcak.srce.hr/file/27927)
 
 [[!redirects local objects]]
 [[!redirects local morphism]]
