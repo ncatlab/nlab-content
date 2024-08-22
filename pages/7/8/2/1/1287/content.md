@@ -213,7 +213,7 @@ A definition  appears as an exercise in
 
 Then the first major account with discussion of the relation to [[twisted de Rham cohomology]]:
 
-* {#Deligne70} [[Pierre Deligne]], *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) $[$[publications.ias:355](https://publications.ias.edu/node/355)$]$
+* {#Deligne70} [[Pierre Deligne]], *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) &lbrack;[publications.ias:355](https://publications.ias.edu/node/355)&rbrack;
 
 Textbook accounts:
 
