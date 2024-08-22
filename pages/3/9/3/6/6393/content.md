@@ -79,9 +79,15 @@ Original articles that realize the local [[worldsheet]] [[supersymmetry]] of the
 
 * [[Lars Brink]], [[Paolo Di Vecchia]], [[Paul Howe]], _A locally supersymmetric and reparametrization invariant action for the spinning string_ , Physics Letters B **65** Issue 5, 20 (1976) 471-474 &lbrack;<a href="https://doi.org/10.1016/0370-2693(76)90445-7">doi:10.1016/0370-2693(76)90445-7</a>&rbrack;
 
-Definition of the NSR string in [[RR-field]] [[background field|backgrounds]] is subtle (in contrast to the classical [[Green-Schwarz superstring]]), discussion is in
+Further on the spinning string's [[worldsheet]] theory as $D=2$ [[supergravity]] formulated in [[superspace]]:
 
-* {#BerensteinLeigh99} [[David Berenstein]], Robert Leigh, _Superstring Perturbation Theory and Ramond-Ramond Backgrounds_, Phys. Rev. D 60, 106002 (1999) ([arXiv:hep-th/9904104](https://arxiv.org/abs/hep-th/9904104))
+* [[S. James Gates Jr.]], Liang Lu, Robert N. Oerter: *Simplified $SU(2)$ spinning string superspace supergravity*, Physics Letters B **218** 1 (1989) 33-38 \[<a href="https://doi.org/10.1016/0370-2693(89)90470-X">doi:10.1016/0370-2693(89)90470-X</a>, [spire:263912](https://inspirehep.net/literature/263912)\]
+
+
+
+Definition of the NSR string in [[RR-field]] [[background field|backgrounds]] is subtle (in contrast to the classical [[Green-Schwarz superstring]]), discussion is in:
+
+* {#BerensteinLeigh99} [[David Berenstein]], [[Robert Leigh]], _Superstring Perturbation Theory and Ramond-Ramond Backgrounds_, Phys. Rev. D **60** 106002 (1999) &lbrack;[arXiv:hep-th/9904104](https://arxiv.org/abs/hep-th/9904104)&rbrack;
 
 See also 
 
