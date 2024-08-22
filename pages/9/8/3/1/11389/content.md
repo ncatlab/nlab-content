@@ -35,7 +35,7 @@ Say that a $p$-local finite spectrum $X$ has _type $n$_ if $K(n)_\ast(X) \neq 0$
 
 Write $Spectra^{fin}_p \hookrightarrow Spectra$ be the [[full subcategory]] of the [[(infinity,1)-category of spectra]] on the [[p-localization|p-local]] [[finite spectra]].
 
-The **thick subcategory theorem** says that thick subcategories of $Spectra^{fin}_p$ are precisely the full subcategories on the spectra of type $\lt n$, for some $n$. (e.g. [Lurie, theorem 8](#Lurie)).
+The **thick subcategory theorem** says that thick subcategories of $Spectra^{fin}_p$ are precisely the full subcategories on the spectra of type $\geq n$, for some $n$. (e.g. [Lurie, theorem 8](#Lurie)).
 
 In other words, the thick subcategories are the [[kernels]] of $K(n)_\ast$ (for any given prime). 
 
