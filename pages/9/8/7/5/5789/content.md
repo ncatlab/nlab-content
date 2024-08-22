@@ -121,7 +121,7 @@ See also:
 
 Supersymmetric quantum mechanics gained attention with the work
 
-* {#Witten82} [[Edward Witten]], _Supersymmetry and Morse theory_  J. Differential Geom. Volume 17, Number 4 (1982), 661-692. ([Euclid](http://projecteuclid.org/euclid.jdg/1214437492), [pdf](http://www.cimat.mx/~gil/docencia/2012/teoria_de_morse/witten_supersymmetry_and_morse_theory.pdf), [spire](http://inspirehep.net/record/176416?ln=de))
+* {#Witten82} [[Edward Witten]], _Supersymmetry and Morse theory_  J. Differential Geom. **17** 4 (1982) 661-692. &lbrack;[euclid:jdg/1214437492](http://projecteuclid.org/euclid.jdg/1214437492), [pdf](http://www.cimat.mx/~gil/docencia/2012/teoria_de_morse/witten_supersymmetry_and_morse_theory.pdf), [spire:176416](http://inspirehep.net/record/176416)&rbrack;
 
 which showed that [[Morse theory]] may be equivalently interpreted as the study of [[supersymmetry|supersymmetric]] [[vacua]] in supersymmetric quantum mechanics, and  which was part of what gained Witten the [Fields medal 1990](http://159.226.47.99:8080/general/prize/medal/1990.htm). In this article a certain family of deformations of [[superparticles]] on a [[Riemannian manifold]] are considered and the supersymmetric ground states are shown to be given by the [[Morse theory]] of the deformation function. 
 
