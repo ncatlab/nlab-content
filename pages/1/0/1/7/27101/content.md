@@ -19,7 +19,7 @@
 
 The *discrete Laplace operator* is a discrete analogue, defined on a [[graph]], of the [[Laplace operator]] of a [[Riemannian manifold]].
 
-Intuitively it measures how much a function at a vertex differs from its sum or average over the adjacent vertices.
+Intuitively it measures how much a function at a vertex differs from its average over the adjacent vertices.
 
 ### Motivation
 
@@ -34,6 +34,8 @@ Intuitively it measures how much a function at a vertex differs from its sum or 
 ### Normalized version
 
 ### For weighted graphs
+
+### For directed graphs
 
 ## Spectral properties
 
