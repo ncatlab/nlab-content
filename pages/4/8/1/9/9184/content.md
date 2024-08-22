@@ -19,7 +19,9 @@
 The _axion_ is a hypothetical type of [[field (physics)|field]]/[[fundamental particle]] originally hypothesized ([Weinberg 77](#Weinberg77), [Wilczek 78](#Wilczek78))  as a solution to the [[strong CP problem]] in the [[standard model of particle physics]]. 
 After the initial model for the axion was quickly ruled out by [[experiment]] (see [Wilczek 78](#Wilczek78) for the early history) a variant model was found ([Dine-Fischler-Srednicki 81](#DineFischlerSrednicki81)), called the "invisible axion", which does not violate experimental bounds. 
 
-The "invisible axion" turns out to also be a natural candidate for [[dark matter]] [Preskill-Wise-Wilczek 83](#PreskillWiseWilczek83), hence potentially also solves one of the problems with the [[standard model of cosmology]]. More recently it is argued in [Hui-Ostriker-Tremaine-Witten 16](#HOTW16) that indeed axionic dark matter ([[fuzzy dark matter]]) potentially solves the remaining problems of standard WIMP dark matter models: WIMP dark matter models work exceedingly well on [[cosmology|cosmological]] scales but has serious experimental problems on the scale of [[galaxies]]. Due to the extreme lightness of axion particles, their [[de Broglie wavelength]] may be of the scale of galaxies and hence their quantum properties may become relevant at this scale to deviate in the right way from the WIMP models.
+The "invisible axion" turns out to also be a natural candidate for [[dark matter]] ([Preskill-Wise-Wilczek 83](#PreskillWiseWilczek83)), hence potentially also solves one of the problems with the [[standard model of cosmology]]. 
+
+More recently it is argued in [Hui-Ostriker-Tremaine-Witten 16](#HOTW16) that indeed axionic dark matter ([[fuzzy dark matter]]) potentially solves the remaining problems of standard WIMP dark matter models: WIMP dark matter models work exceedingly well on [[cosmology|cosmological]] scales but has some experimental problems on the scale of [[galaxies]]. Due to the extreme lightness of axion particles, their [[de Broglie wavelength]] may be of the scale of galaxies and hence their quantum properties may become relevant at this scale to deviate in the right way from the WIMP models.
 
 The Pecchei-Quinn shift symmetry of the axion and the peculiar nature of the axion [[interaction term]] which are needed to make the axion model work this way have been argued to naturally arise in [[string theory]], if the axion is identified with the [[KK-reduction]] of the [[higher gauge fields]] in [[string theory]]. This we discuss [below](#AsArisingFromStringTheory).
 
@@ -47,13 +49,13 @@ The solution to this problem via axions is to assume that $\theta$ is not really
 The idea is that a standard [[kinetic action]] 
 
 $$
-  S_{kin} (a) \propto \int_X a \wedge \ast a
+  S_{kin} (a) \;\propto\; \int_X a \wedge \ast a
 $$
 
 together with the axion [[interaction]] term
 
 $$
-  S_{int} (a,\nabla) \propto  \int_X a \, tr(F_\nabla \wedge F_\nabla)
+  S_{int} (a,\nabla) \;\propto\;  \int_X a \, tr(F_\nabla \wedge F_\nabla)
 $$ 
 
 makes $a$ have vanishing [[expectation value]] $\langle a\rangle$. This would give a dynamical explanation why under the identification of the [[theta angle]] with this expectation value
@@ -76,27 +78,36 @@ $$
   \begin{aligned}
     E_{vac}(a)
     &= 
-    - log \left( \underset{\nabla,a}{\int}  \exp(- S(\nabla,a)) \, D \nabla \, D a \right)
+    - log \bigg( 
+      \textstyle{\underset{\nabla,a}{\int}}
+      \exp\big(
+        - S(\nabla,a)
+      \big) \, D \nabla \, D a 
+    \bigg)
     \\
     &= 
     - log 
-      \left(
-       \underset{\nabla}{\int} \exp\left(
-        \frac{1}{g^2 }\int_X tr(F_\nabla \wedge \star F_\nabla)  
-     \right)
+      \bigg(
+       \textstyle{\underset{\nabla}{\int}}
+       \exp\big(
+        \frac{1}{g^2 }
+         \textstyle{\int_X}
+         tr(F_\nabla \wedge \star F_\nabla)  
+        \big)
       \, D \nabla
       \;
-     \underset{a}{\int}
-     \exp\left(
-        i a \int_X tr(F_\nabla \wedge F_\nabla)
-     \right)
+     \textstyle{\underset{a}{\int}}
+     \exp\big(
+        \mathrm{i} a \textstyle{\int_X} 
+        tr(F_\nabla \wedge F_\nabla)
+     \big)
      \, D a
-    \right)
+    \bigg)
   \end{aligned}
   \,.
 $$
 
-Now due to the factor of $i$ in front of $\theta$ in this expression, the real part of the argument of the logarithm necessarily becomes _smaller_ with $a$. Therefore the negative logarithm becomes _larger_ with $a$. Accordingly $E_{vac}(a)$ must have a minimum at $\theta = 0$ (according to [Vafa-Witten 84, p.2](#VafaWitten84)).
+Now due to the [[imaginary unit]] $\mathrm{i}$ in front of $\theta$ in this expression, the [[real part]] of the argument of the [[logarithm]] necessarily becomes _smaller_ with $a$. Therefore the negative logarithm becomes _larger_ with $a$. Accordingly $E_{vac}(a)$ must have a minimum at $\theta = 0$ (according to [Vafa-Witten 84, p.2](#VafaWitten84)).
  
 
 
@@ -279,7 +290,7 @@ $$
   \,.
 $$
 
-Now by the usual argument, one says that instead of varying by $a$ and thus implementing the [[Green-Schwarz anomaly cancellation]] constraint, it is equivalent to first vary with respect to the other fields, and then insert the resulting equations in terms of $a$ into the action functional.
+Then, by the usual argument, one says that instead of varying by $a$ and thus implementing the [[Green-Schwarz anomaly cancellation]] constraint, it is equivalent to first vary with respect to the other fields, and then insert the resulting equations in terms of $a$ into the action functional.
 
 Now since we are dealing with a twisted [[B-field]], with free 3-form component $C$, we actually vary with respect to $C$. This yields the [[Euler-Lagrange equation]] [[equation of motion|of motion]]
 
@@ -307,7 +318,7 @@ This now is an action functional for an axion field $a$ of just the form require
 ### Stringy axion phenomenology
  {#StringyAxionPhenomenology}
 
-From [Acharya-Kane-Kumar 12, p. 3](#AcharyaKaneKumar12):
+From [Acharya, Kane & Kumar 2012, p. 3](#AcharyaKaneKumar12):
 
 > Now consider the axions.  Due to the shift symmetries mentioned above, there are no [[perturbative QFT|perturbative]] contributions to their potential.  [[non-perturbative effect|Non-perturbative effects]] though, such as strong gauge dynamics, gauge [[instantons]], gaugino condensation and stringy instantons will generate a potential for the axions. Because any such contribution is exponentially suppressed by couplings and/or extra-dimensional volumes, in our world with perturbative gauge couplings (at high scales), the axion masses will be exponentially small.  
 
@@ -380,6 +391,8 @@ Notes Phys. 741 (Springer, Berlin Heidelberg 2008) (<a href="https://doi.org/10.
 
 * Igor G. Irastorza, *An introduction to axions and their detection* ([arXiv:2109.07376](https://arxiv.org/abs/2109.07376))
 
+* [[Luis Ibáñez]]: *Three-forms, and Axions: String and Particle Physics Applications*, talk at *Fayet Fest*, ENS Paris (2016) &lbrack;[pdf](https://moriond.in2p3.fr/Fayet/transparencies/ibanez.pdf), [[Ibanez-Axions.pdf:file]]&rbrack;
+
 
 
 See also:
@@ -420,9 +433,9 @@ Discussion of stringy axion [[cosmology]] (such as [[fuzzy dark matter]]) is in
 
 ### In holographic QCD
 
-Realization in the [[Witten-Sakai-SUgimoto model]] for [[holographic QCD]]:
+Realization in the [[Witten-Sakai-Sugimoto model]] for [[holographic QCD]]:
 
-* Francesco Bigazzi, Alessio Caddeo, Aldo L. Cotrone, Paolo Di Vecchia, Andrea Marzolla, _The Holographic QCD Axion_ ([arXiv:1906.12117](https://arxiv.org/abs/1906.12117))
+* Francesco Bigazzi, Alessio Caddeo, Aldo L. Cotrone, Paolo Di Vecchia, Andrea Marzolla: _The Holographic QCD Axion_ &lbrack;[arXiv:1906.12117](https://arxiv.org/abs/1906.12117)&rbrack;
 
 
 
