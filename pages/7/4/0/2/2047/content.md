@@ -1,16 +1,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 
-=--
 ###Context###
-
-
++--{: .hide}
 [[!include algebra - contents]]
 
 =--
 =--
 =--
-
 
 ## Definition
 
