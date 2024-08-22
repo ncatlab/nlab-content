@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _$Q$-category_ is nothing but a [[coreflective subcategory]] and a _$Q^\circ$-category_ is nothing but a [[reflective subcategory]]. Since both of these encode reflective [[localization]]s, following [Rosenberg](#Rosenberg) the "Q" is for _quotient_ and is to indicate that in this context one is interested in notions similar to, but different from, the standard notion of [[sheaves]]:
+A _$Q$-category_ is nothing but a [[coreflective subcategory]] and a _$Q^\circ$-category_ is nothing but a [[reflective subcategory]]. Since both of these encode (co)reflective [[localization]]s, following [Rosenberg](#Rosenberg) the "Q" is for _quotient_ and is (in a manner of a [[concept with an attitude]]) to indicate that in this context one is interested in notions similar to, but different from, the standard notion of [[sheaves]]:
 
 for $\mathbb{A} := (A \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\hookrightarrow}} \bar A)$ a $Q^\circ$-category there is canonically induced a quadruple of [[adjoint functor]]s between the corresponding [[presheaf categories]]
 
@@ -38,7 +38,7 @@ In a central motivating class of examples $\mathbb{A}$ is a category of [[sieve]
 
 ## Motivation
 
-The [[Yoneda embedding]] is continuous but not cocontinuous functor. Hence the Grothendieck topologies are used to define smaller codomain of Yoneda, a sheaf subcategory of the category of presheaves such that for that corestricted embedding a desired class of covering cones will stay covering cones. More general families of diagrams than the sieves of a Grothendieck topology may be involved. The important properties of the categories of diagrams for doing the sheaf theory can be expressed in terms of an adjoint pair of functors; this adjoint pair gives an example of a $Q$-category. This generalization of sheaf theory can rephrase categorically also properties like formal smoothness and formal etaleness of functors. The sheafification and the construction of a Gabriel localization of an Abelian category can in this formalism be seen as special cases of the same construction. 
+The [[Yoneda embedding]] is continuous but not cocontinuous functor. Hence the Grothendieck topologies are used to define smaller codomain of Yoneda, a sheaf subcategory of the category of presheaves such that for that [[corestriction|corestricted]] Yoneda embedding (into sheaves) a desired class of covering cones will stay covering cones. More general families of diagrams than the sieves of a Grothendieck topology may be involved in achieving this. The important properties of the categories of diagrams for doing the sheaf theory can be expressed in terms of an adjoint pair of functors; this adjoint pair gives an example of a $Q$-category. This generalization of sheaf theory can rephrase categorically also properties like formal smoothness and formal etaleness of functors. The sheafification and the construction of a Gabriel localization of an Abelian category can in this formalism be seen as special cases of the same construction. 
 
 ## Definition
 
@@ -322,7 +322,7 @@ The $Q$-subcategory of the $Q$-category of (all) sieves corresponding to the sub
 
 ### The Q-category factoring a fully faithful factor
 
-Any fully faithful functor among small categories $F: A\to B$ factors canonically into the composition $A\stackrel{u^*}\to \bar{A}\hookrightarrow B$ where $\bar{A}\subset B$ is the full subcategory of $B$ whose objects are all $b$ in $Ob B$ such that $a\mapsto B(F(a),b)$ is a representable functor $A^{op}\to Set$, and $u^*$ is the corestriction of $F$ to $\bar{A}$. This corestriction makes sense: $F$ is fully faithful, hence $B(F(a),F(a)) = B(a,a)$, i.e. $F(a)\in \bar{A}$ for all $a$ in $Ob A$. For each $b\in \bar{A}$, define now $u_*(b)$ as the functor representing $B(F(-),b)$, i.e. by $\bar{A}(u^*(a),b) = B(F(a),b) \cong B(a,u_*(b))$
+Any fully faithful functor among small categories $F: A\to B$ factors canonically into the composition $A\stackrel{u^*}\to \bar{A}\hookrightarrow B$ where $\bar{A}\subset B$ is the full subcategory of $B$ whose objects are all $b$ in $Ob B$ such that $a\mapsto B(F(a),b)$ is a representable functor $A^{op}\to Set$, and $u^*$ is the [[corestriction]] of $F$ to $\bar{A}$. This corestriction makes sense: $F$ is fully faithful, hence $B(F(a),F(a)) = B(a,a)$, i.e. $F(a)\in \bar{A}$ for all $a$ in $Ob A$. For each $b\in \bar{A}$, define now $u_*(b)$ as the functor representing $B(F(-),b)$, i.e. by $\bar{A}(u^*(a),b) = B(F(a),b) \cong B(a,u_*(b))$
 (KR NcSpaces A1.1.1). This relation on objects extends to an adjunction $u^*\dashv u_*$ with $u^*$ fully faithful. 
 
 
@@ -785,12 +785,12 @@ and also used in the general definition of "noncommutative" stacks in
 
 The [[epipresheaf]] condition for the Q-category of nilpotent (infinitesimal) thickenings is in the Kontsevich-Rosenberg paper interpreted as [[formally smooth morphism|formal smoothness]] what is further studied in 
 
-* [[T. Brzezi?ski]], _Notes on formal smoothness_, *in*: Modules and Comodules (series _Trends in Mathematics_). T Brzezi&#324;ski, JL Gomez Pardo, I Shestakov, PF Smith (eds), Birkh&#228;user, Basel, 2008, pp. 113-124 ([doi](http://dx.doi.org/10.1007/978-3-7643-8742-6), [arXiv:0710.5527](http://arxiv.org/abs/0710.5527))
+* [[T. Brzezinski]], _Notes on formal smoothness_, *in*: Modules and Comodules (series _Trends in Mathematics_). T Brzezi&#324;ski, JL Gomez Pardo, I Shestakov, PF Smith (eds), Birkh&#228;user, Basel, 2008, pp. 113--124 ([doi](http://dx.doi.org/10.1007/978-3-7643-8742-6), [arXiv:0710.5527](http://arxiv.org/abs/0710.5527))
  {#Brzezinski}
 
-The condition that $u_* x \to u_! x$ is an isomorpophism , dual to the condition for $\mathbb{A}$-sheaves considered above, has been considered in 
+The condition that $u_* x \to u_! x$ is an isomorphism, dual to the condition for $\mathbb{A}$-sheaves considered above, has been considered in 
 
-* [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories, Vol. 19, No. 3, 2007, pp. 41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+* [[Bill Lawvere]], _Axiomatic cohesion_ Theory and Applications of Categories __19__:3, 2007, pp. 41--49 ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
 {#Lawvere}
 
 
