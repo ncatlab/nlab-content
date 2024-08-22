@@ -88,6 +88,8 @@ On the other hand, working directed higher type theory may not be very practical
 
 * [[Emily Riehl]], [[Mike Shulman]], *A type theory for synthetic ∞-categories*, Higher Structures **1** 1 (2017) &lbrack;[arxiv:1705.07442](https://arxiv.org/abs/1705.07442), [published article](https://higher-structures.math.cas.cz/api/files/issues/Vol1Iss1/RiehlShulman)&rbrack;
 
+* {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
+
 * [[Paige Randall North]], _Towards a directed homotopy type theory_ &lbrack;[arXiv:1807.10566](https://arxiv.org/abs/1807.10566)&rbrack;
 
 * [[Alex Kavvos]], *A quantum of direction* (2019) &lbrack;[pdf](https://seis.bristol.ac.uk/~tz20861/papers/meio.pdf)&rbrack;
