@@ -646,7 +646,13 @@ If the [[de Rham complex]] $(\Omega^\bullet(X),d_{dr})$ is [[formal dg-algebra|f
 ### Twist in degree 1
  {#ReferencesForTwistInDegree1}
 
-The classical case of twisted de Rham cohomology with twists in *degree 1*, given by [[flat connections]] on [[flat line bundles]] and more generally on [[flat vector bundles]]), and its equivalence to [[sheaf cohomology]] with [[coefficients]] in [[abelian sheaves]] of [[flat sections]] ([[local systems]]):
+The classical case of twisted de Rham cohomology with twists in *degree 1*, given by [[flat connections]] on [[flat line bundles]] and more generally on [[flat vector bundles]]), and its equivalence to [[sheaf cohomology]] with [[coefficients]] in [[abelian sheaves]] of [[flat sections]] ([[local systems]])
+
+goes back to
+
+* {#Deligne70} [[Pierre Deligne]], Def. 2.15 in: *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) &lbrack;[publications.ias:355](https://publications.ias.edu/node/355)&rbrack;
+
+Textbook accounts:
 
 * {#Voisin02} [[Claire Voisin]] (translated by [[Leila Schneps]]), Section II 5.1.1 of: _[[Hodge theory and Complex algebraic geometry]] II_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615177](https://doi.org/10.1017/CBO9780511615177))
 
@@ -662,13 +668,17 @@ Review:
 
 For extensive application, see also the "[hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces)" of solutions to the [[Knizhnik-Zamolodchikov equation]]. 
 
-In this context there is also:
+See also:
 
 * {#SlinkinVarchenko19} [[Alexey Slinkin]], [[Alexander Varchenko]], *Twisted de Rham Complex on Line and Singular Vectors in $\widehat{\mathfrak{sl}}_2$ Verma Modules*, SIGMA **15** (2019) 075 &lbrack;[arXiv:1812.09791](https://arxiv.org/abs/1812.09791), [doi:10.3842/SIGMA.2019.075](https://doi.org/10.3842/SIGMA.2019.075)&rbrack;
 
-See also at [[supersymmetric quantum mechanics]] and see
-
 * [[Albert Schwarz]], [[Ilya Shapiro]], *Twisted de Rham cohomology, homological definition of the integral and "Physics over a ring"*, Nucl. Phys. B **809** (2009) 547-560 &lbrack;[arXiv:0809.0086](https://arxiv.org/abs/0809.0086), [doi:10.1016/j.nuclphysb.2008.10.005](https://doi.org/10.1016/j.nuclphysb.2008.10.005)&rbrack;
+
+
+A different but analogous notion of 1-twisted de Rham cohomology appears in the context of [[supersymmetric quantum mechanics]]:
+
+* {#Witten82} [[Edward Witten]], §3 in: _Supersymmetry and Morse theory_  J. Differential Geom. **17** 4 (1982) 661-692. &lbrack;[euclid:jdg/1214437492](http://projecteuclid.org/euclid.jdg/1214437492), [pdf](http://www.cimat.mx/~gil/docencia/2012/teoria_de_morse/witten_supersymmetry_and_morse_theory.pdf), [spire:176416](http://inspirehep.net/record/176416)&rbrack;
+
 
 
 
