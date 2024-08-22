@@ -67,3 +67,4 @@ The term _quadrable_ is supposed to be a translation of the French  _carrable_ ,
 [[!redirects quadrable cospans]]
 [[!redirects coquadrable spans]]
 [[!redirects quadrable spans]]
+
