@@ -288,6 +288,8 @@ The [[functional determinant]] of Laplace operator on a given space of [[differe
 
 * [[BV-Laplacian]]
 
+* [[discrete Laplace operator]]
+
 ## References
 
 
