@@ -205,7 +205,13 @@ In [FSS 19c](#FSS19c) is offered a proof that combining super-embedding formalis
 
 ### General
 
-Under the name "doubly supersymmetric geometrical approach" the approach originates in:
+Early consideration of the idea of [[superstring]] [[sigma-models]] where both the [[worldsheet]] as well as the [[target spacetime]] are treated as [[supermanifolds]] is due (under the name "supersymmetry squared") to:
+
+* [[S. James Gates Jr.]], [[Hitoshi Nishino]]: *$D = 2$ superfield supergravity, local $(supersymmetry)^2$ and non-linear 2 models*, Classical and Quantum Gravity **3** 3  (1986) 391-399 \[<a href="https://doi.org/10.1088/0264-9381/3/3/013">doi:10.1088/0264-9381/3/3/013</a>, [spire:217518](https://inspirehep.net/literature/217518)\]
+
+* R. Brooks, F. Muhammad, [[S. James Gates Jr.]]: *Matter Coupled to $D=2$ Simple Unidexterous Supergravity, Local $(Supersymmetry)^2$ and Strings*, Class. Quant. Grav. **3** 5 (1986) 745-751 \[<a href="https://doi.org/10.1088/0264-9381/3/5/005">doi:10.1088/0264-9381/3/5/005</a>, [spire:237390](https://inspirehep.net/literature/237390)\]
+
+Under the name "doubly supersymmetric geometrical approach" discussion of the super-embedding condition originates in:
 
 * {#BPSTV95} [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], [[Dmitry Volkov]], _Superstrings and supermembranes in the doubly supersymmetric geometrical approach_, Nucl. Phys. B **446** (1995) 79-118 &lbrack;[arXiv:hep-th/9501113](https://arxiv.org/abs/hep-th/9501113), <a href="https://doi.org/10.1016/0550-3213(95)00267-V">doi:10.1016/0550-3213(95)00267-V</a>&rbrack;
 
