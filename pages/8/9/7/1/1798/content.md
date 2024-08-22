@@ -55,10 +55,10 @@ The presheaf $P^+$ comes equipped with a canonical natural transformation $\eta:
 
 $\eta$ is a [[monomorphism]] (resp. [[isomorphism]]) of presheaves iff the presheaf $P$ is a [[separated presheaf]] (resp. [[sheaf]]); moreover any morphism $P\to F$ of presheaves, where $F$ is a sheaf, factors uniquely through $\eta:P\to P^+$. For any presheaf $P$, $P^+$ is separated presheaf and if $P$ is already separated then $P^+$ is a sheaf. In particular, for any presheaf $P^{++}$ is a sheaf. A fortiori, $P^+(\eta)\circ\eta:P\to P^{++}$ realizes [[sheafification]]. 
 
-### Co-representation by Cech groupoids
+### Co-representation by Čech groupoids
  {#CoRepresentationByCechGroupoid}
 
-When [[presheaves]] of sets are regarded a [[presheaves of groupoids]], the [[Cech groupoid]] serves to co-represent matching families, hence serves as the _[[codescent object]]_ of the given covering and presheaf. See [there](Čech+groupoid#Codescent) for more.
+When [[presheaves]] of sets are regarded a [[presheaves of groupoids]], the [[Čech groupoid]] serves to co-represent matching families, hence serves as the _[[codescent object]]_ of the given covering and presheaf. See [there](Čech+groupoid#Codescent) for more.
 
 ## References
 
