@@ -1,3 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+\tableofcontents
+
+
 ## Idea
 
 Reflection of an object $d$ in $D$ along a functor $F:C\to D$ is a component $\eta_d$ in $D$ of would-be unit of adjunction $L\dashv F$ (which may not exist in general), satisfying the part of the universal property of the unit for that component. If a reflection of each object in $D$ along $F$ exists and is chosen then the [[left adjoint functor]] to $F$ exists.
@@ -14,6 +28,6 @@ A __coreflection__ of $d$ along $F$ is a pair $(R_d,\epsilon_d)$ of an object $R
 
 ## Literature 
 
-*  [[Francis Borceux]], _Handbook of categorical algebra_,  I.3.1
+*  [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_,  I.3.1
 
 [[!redirects coreflection along a functor]]
