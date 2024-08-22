@@ -11,4 +11,8 @@ This is a generalization of a [[Gabriel-Popescu theorem]] and of a characterizat
 
 See also [[zoranskoda:MR4328537]].
 
+Sufficient conditions when the base change of enriching subcategory commutes with sheafification are studied in
+
+* Ariel E. Rosenfield, _Enriched Grothendieck topologies under change of base_, [arXiv:2405.19529](https://arxiv.org/abs/2405.19529)
+
 [[!redirects enriched sheaves]]
