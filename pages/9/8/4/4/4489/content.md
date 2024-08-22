@@ -23,4 +23,4 @@ See also:
 [[!redirects Tomasz Brzeziński]]
 [[!redirects T. Brzeziński]]
 [[!redirects T. Brzezinski]]
-[[!reidrects Tomasz Brzezi&#324;ski]]
+[[!redirects Tomasz Brzezi&#324;ski]]
