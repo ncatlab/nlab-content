@@ -398,6 +398,11 @@ Review in the context of [[D-brane geometry]], [[matrix models]] of [[string the
 
 * {#Ydri18} [[Badis Ydri]], _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ ([arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9))
 
+See also:
+
+* David Viennot: *Metrics and geodesics on fuzzy spaces* &lbrack;[arXiv:2305.15095](https://arxiv.org/abs/2305.15095)&rbrack;
+
+
 
 ### Fuzzy 2-sphere
 
