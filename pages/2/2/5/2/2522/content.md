@@ -1019,7 +1019,11 @@ This then motivated [[Julius Wess]] and [[Bruno Zumino]] to study supersymmetric
 
 * {#WessZumino74} [[Julius Wess]], [[Bruno Zumino]], _Supergauge transformations in four dimensions_, Nucl. Phys. B70 (1974) 39; Phys. Letters 49B (1974) 52 ([doi:10.1142/9789814542340_0002](https://doi.org/10.1142/9789814542340_0002))
 
-From this sprang the idea of [[super Yang-Mills theory]] in
+Early review:
+
+* [[Pierre Fayet]], [[Sergio Ferrara]]: *Supersymmetry*, Physics Reports **32** 5 (1977) 249-334 \[<a href="https://doi.org/10.1016/0370-1573(77)90066-7">doi:10.1016/0370-1573(77)90066-7</a>\]
+
+From this sprang the idea of [[super Yang-Mills theory]]:
 
 * {#FerraraZumino74} [[Sergio Ferrara]], [[Bruno Zumino]], _Supergauge invariant Yang-Mills theories_, Nuclear Physics B Volume 79, Issue 3, 25 September 1974, Pages 413-421 (<a href="https://doi.org/10.1016/0550-3213(74)90559-8">doi:10.1016/0550-3213(74)90559-8</a>)
 
