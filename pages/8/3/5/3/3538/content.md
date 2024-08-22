@@ -11,22 +11,35 @@
 =--
 =--
 =--
-=--
 
 # Contents
 * automatic table of contents goes here
 {:toc}
 
+## Idea
+A __clique__ in a category $C$ is a contractible choice of objects, i.e. a collection of objects of $C$ which are isomorphic to each other in exactly one way. 
+
+Cliques are ubiquitous in category theory: [[universal properties]] define cliques, not single objects; but also because [[coherence theorems]] can be easily phrased in terms of cliques.
+
 ## Definition
 
-A __clique__ of a category $C$ is a [[functor]] $T \to C$ from a [[(-2)-groupoid]] $T$, or equivalently an [[anafunctor]] to $C$ from the [[trivial category]].
+A __clique__ of a category $C$ is a [[functor]] $A\colon T \rightarrow C$ out of a [[(-2)-groupoid]] $T$, i.e. $T$ is the [[indiscrete category]] on an [[inhabited set]].
 
-So this is a pair of a category $T$ which is weakly equivalent to $1$ (i.e., $T$ is the [[indiscrete category]] on an [[inhabited set|inhabited collection]] of [[object]]s) and a [[functor]] $A\colon T \rightarrow C$.
+Equivalently, a clique is an [[anafunctor]] $1 \to C$ from the [[trivial category]]. Indeed, a clique is also sometimes called an **anaobject**, in analogy with the fact that an [[object]] of $C$ is a _[[functor]]_ (not anafunctor) $1 \to C$.
 
-A clique is also sometimes called an **anaobject**, since an [[object]] of $C$ is a [[functor]] (not anafunctor) to $C$ from the trivial category.
-
-We can form a category __$Clique(C)$__ whose objects are cliques of $C$, and whose morphisms and compositions are given as follows: Given two such cliques $(T_0, A_0)$ and $(T_1, A_1)$ in $C$, say that a morphism between them is a natural transformation from $T_0 \times T_1 \stackrel{\pi}{\to} T_0 \stackrel{A_0}{\to} C$ to $T_0 \times T_1 \stackrel{\pi}{\to} T_1 \stackrel{A_1}{\to} C$, where the $\pi$ are the appropriate projections. Given such morphisms $m : (T_0, A_0) \rightarrow (T_1, A_1)$ and $n : (T_1, A_1) \rightarrow (T_2, A_2)$, and $(t_0, t_2) \in Ob(T_0 \times T_2)$, note that the composite $n_{(t_1, t_2)} m_{(t_0, t_1)}$ of corresponding components has the same value no matter what the choice of $t_1 \in Ob(T_1)$, and there is at least one such choice. Accordingly, we can take this to give a well-defined component $(n m)_{(t_0, t_2)}$, thus defining binary composition of morphisms of cliques. Similarly, we can take the identity on a clique $(T, A)$ to be the natural transformation whose component on $(t, t') \in Ob(T \times T)$ is the value of $A$ on the unique morphism from $t$ to $t'$ in $T$.
-
+We can form a category __$Clique(C)$__ whose objects are cliques of $C$, and whose morphisms and compositions are given as follows: given two such cliques $(T_0, A_0)$ and $(T_1, A_1)$ in $C$, say that a morphism between them is a natural transformation as below:
+\begin{tikzcd}[ampersand replacement=\&]
+	{T_0 \times T_1} \& {T_0} \\
+	{T_1} \& C
+	\arrow[""{name=0, anchor=center, inner sep=0}, "{\pi_0}", from=1-1, to=1-2]
+	\arrow[""{name=0p, anchor=center, inner sep=0}, phantom, from=1-1, to=1-2, start anchor=center, end anchor=center]
+	\arrow["{\pi_1}"', from=1-1, to=2-1]
+	\arrow["{A_0}", from=1-2, to=2-2]
+	\arrow[""{name=1, anchor=center, inner sep=0}, "{A_1}"', from=2-1, to=2-2]
+	\arrow[""{name=1p, anchor=center, inner sep=0}, phantom, from=2-1, to=2-2, start anchor=center, end anchor=center]
+	\arrow["m", shorten <=6pt, shorten >=6pt, Rightarrow, from=0p, to=1p]
+\end{tikzcd}
+Given consecutive such morphisms $m : (T_0, A_0) \rightarrow (T_1, A_1)$ and $n : (T_1, A_1) \rightarrow (T_2, A_2)$, and $(t_0, t_2) \in Ob(T_0 \times T_2)$, note that the composite $n_{(t_1, t_2)} m_{(t_0, t_1)}$ of corresponding components has the same value no matter what the choice of $t_1 \in Ob(T_1)$, and there is at least one such choice. Accordingly, we can take this to give a well-defined component $(n m)_{(t_0, t_2)}$, thus defining binary composition of morphisms of cliques. Similarly, we can take the identity on a clique $(T, A)$ to be the natural transformation whose component on $(t, t') \in Ob(T \times T)$ is the value of $A$ on the unique morphism from $t$ to $t'$ in $T$.
 
 ## Applications
 
