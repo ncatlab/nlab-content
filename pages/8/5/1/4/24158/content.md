@@ -1,3 +1,4 @@
+
 A list of (believed to be) open problems in [[homotopy type theory]].  To add more detail about a problem (such as why it is hard or interesting, or what ideas have been tried), make a link to a new page.
 
 # Contents
@@ -112,7 +113,9 @@ Problems in [[real-cohesive homotopy type theory]]:
 
 * Assuming the [[axiom of real cohesion]], is the [[shape]] of every [[subset]] of the [[Dedekind real numbers]] a [[set]]? 
 
-* Assuming the [[axiom of real cohesion]] and [[excluded middle]], prove that the [[analytic Markov's principle]] is true. 
+* Assuming the [[axiom of real cohesion]] and crisp [[excluded middle]], prove that the [[analytic Markov's principle]] is cohesively true. 
+
+* Assuming the [[axiom of real cohesion]] and crisp [[excluded middle]], does the [[full fan theorem]] hold cohesively? (i.e. is [[Cantor space]] a [[spatial locale]]?)
 
 * What is the $(\infty,1)$-topos theoretic interpretation of the [[axiom of real cohesion]]?
 
