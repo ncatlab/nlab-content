@@ -312,6 +312,10 @@ In view of more general [[finite limits]] and [[L-finite limits]]:
 
 * [[Robert Paré]], *Simply connected limits*.  Can. J. Math., Vol. XLH, No. 4, 1990, pp. 731-746, [CMS](http://math.ca/10.4153/CJM-1990-038-6)
 
+Morphisms admitting pullbacks along them are called **carrable** in some places, for instance, the following:
+
+* [[Bertrand Toen]], _A master course on algebraic stacks (Toulouse 2005)_ cours 2 ([web](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/cours2.pdf))
+* [[André Joyal]], _Notes on Clans and Tribes_, [arxiv:1710.10238](https://arxiv.org/abs/1710.10238)
 
 
 [[!redirects pullbacks]]
@@ -331,3 +335,5 @@ In view of more general [[finite limits]] and [[L-finite limits]]:
 [[!redirects fibered products]]
 [[!redirects fibred product]]
 [[!redirects fibred products]]
+[[!redirects carrable]]
+[[!redirects carrable morphism]]
