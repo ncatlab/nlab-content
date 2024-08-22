@@ -18,8 +18,19 @@ On [[supersymmetry]] via [[superspace]]:
 
 * {#GatesGrisaruRocekSiegel83} [[Jim Gates]] Jr, [[Marcus Grisaru]], [[Martin Roček]], [[Warren Siegel]], _Superspace, or One thousand and one lessons in supersymmetry_, Front. Phys. **58** (1983) 1-548 &lbrack;[arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200), [inspire:195126](https://inspirehep.net/literature/195126)&rbrack;
 
+On [[Green-Schwarz anomaly cancellation]] in [[heterotic supergravity]]:
 
-On [[Riemann normal coordinates]] in [[supergeometry]] with application to [[sigma-models]]
+* [[S. James Gates Jr.]], [[Hitoshi Nishino]]: *New $D = 10$, $\mathcal{N} = 1$ supergravity coupled to Yang-Mills supermultiplet and anomaly cancellations*, Physics Letters B **157** 2–3 (1985) 157-163 \[<a href="https://doi.org/10.1016/0370-2693(85)91537-0">doi:10.1016/0370-2693(85)91537-0</a>, [spire:16413](https://inspirehep.net/literature/16413)\]
+
+
+Early consideration of the idea of [[superstring]] [[sigma-models]] where both the [[worldsheet]] as well as the [[target spacetime]] are treated as [[supermanifolds]] is due (under the name "supersymmetry squared", cf. the *[[superembedding approach]]*):
+
+* [[S. James Gates Jr.]], [[Hitoshi Nishino]]: *$D = 2$ superfield supergravity, local $(supersymmetry)^2$ and non-linear 2 models*, Classical and Quantum Gravity **3** 3  (1986) 391-399 \[<a href="https://doi.org/10.1088/0264-9381/3/3/013">doi:10.1088/0264-9381/3/3/013</a>, [spire:217518](https://inspirehep.net/literature/217518)\]
+
+* R. Brooks, F. Muhammad, [[S. James Gates Jr.]]: *Matter Coupled to $D=2$ Simple Unidexterous Supergravity, Local $(Supersymmetry)^2$ and Strings*, Class. Quant. Grav. **3** 5 (1986) 745-751 \[<a href="https://doi.org/10.1088/0264-9381/3/5/005">doi:10.1088/0264-9381/3/5/005</a>, [spire:237390](https://inspirehep.net/literature/237390)\]
+
+
+On [[Riemann normal coordinates]] in [[supergeometry]] with application to [[sigma-models]]:
 
 * [[Sylvester James Gates Jr.]], [[Marcus Grisaru]], [[Marcia E. Knutt-Wehlau]], [[Warren Siegel]], *Component actions from curved superspace: Normal coordinates and ectoplasm*, Physics Letters B **421** 1–4, 5 (1998) 203-210 \[<a href="https://doi.org/10.1016/S0370-2693(97)01557-8">doi:10.1016/S0370-2693(97)01557-8</a>\]
 
