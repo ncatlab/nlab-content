@@ -279,7 +279,7 @@ $S$ is contained in its external saturation which is in turn contained in its in
 
 ## References
 
-In terminology of left-closed objects they are treated in  1.4.1 of
+Local objects are treated, under the name of left-closed objects, in  I.4.1 of
 
 * [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. Springer, New York (1967) &lbrack;[doi:10.1007/978-3-642-85844-4](https://link.springer.com/book/10.1007/978-3-642-85844-4), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf)&rbrack;
 
