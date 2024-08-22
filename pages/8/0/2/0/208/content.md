@@ -26,6 +26,7 @@ On the other hand, from the perspective of [[stuff, structure, property]], _ever
 ## Related concepts
 
 * [[free construction]]
+* [[category with extra structure]]
 
 ## References
 
