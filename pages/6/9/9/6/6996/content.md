@@ -23,7 +23,7 @@ A strongly extensional function is __strongly [[injective function|injective]]__
 
 ## Examples
 
-If $X$ has [[decidable equality]], then the [[negation]] of [[equality]] is a (in fact the unique) tight apartness on $X$, and any function from $X$ to any set $Y$ (with any tight apartness on $Y$) must be strongly extensional.
+If $X$ has [[decidable equality]] and [[negation]] of [[equality]] is an [[apartness relation]], then the negation of equality is a (in fact the unique) [[decidable tight apartness relation]] on $X$, and any function from $X$ to any set $Y$ with a tight apartness relation on $Y$ must be strongly extensional.
 
 Any pointwise-[[continuous function]] between [[metric spaces]] is strongly extensional.  Using [[countable choice]] and [[Markov's principle]] (or actually weak versions thereof), it follows that any function to a metric space from a [[complete metric space]] (regardless of continuity!?) is strongly extensional.
 
