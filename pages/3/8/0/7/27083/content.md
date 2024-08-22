@@ -551,15 +551,47 @@ This follows by means of the [[currying]] isomorphism and the fact that postcomp
 Theorem \ref{existence} now follows as a special case of the above lemma (see [Proposition 5.2.8.4.](https://kerodon.net/tag/02RQ)).
 
 
+###The $\infty$-categories $\mathcal{S}$ and $\mathcal{QC}$
+This is a summary of [Section 5.5](https://kerodon.net/tag/01YV) in [[Kerodon]].
 
+Given a [[locally Kan simplicial category]] $\mathcal{C}$, there is a canonical slice and coslice construction $\mathcal{C}_{/X}$ and $\mathcal{C}_{X/}$ for an object $X \colon \mathcal{C}$. The main question is now does this behave with regards to the [[homotopy coherent nerve]] operation?
 
+Before adressing this, one has yet another natural defintion: For $\mathcal{C}$ locally Kan as above, one can define
+$$\mathcal{C}^{\triangleleft}, \qquad \mathcal{C}^{\triangleright}$$
 
+locally Kan enriched left and right cone categories. For those we have canonical isomorphisms:
+$$N_\bullet^{\text{hc}}(\mathcal{C}^{\triangleleft}) \cong N_\bullet^{\text{hc}}(\mathcal{C})^{\triangleleft}, \qquad N_\bullet^{\text{hc}}(\mathcal{C}^{\triangleright}) \cong N_\bullet^{\text{hc}}(\mathcal{C})^{\triangleright}$$
 
+\begin{definition}
+Let $\mathcal{C}$ be a simplicially enriched category and let $Y \colon \mathcal{C}$.
+We have a functor $(\mathcal{C}_{/Y})^\triangleright \overset{V}{\to} \mathcal{C}$ which sends objects $(C, f) \colon \mathcal{C}_{/Y}$ to $C$, and carries the cone point $\infty$ to the object $Y$. If $(C,f)$ and $(D,g)$ are objects of $\mathcal{C}_{/Y}$, then the induced map of simplicial sets
+$$\text{Hom}_{(\mathcal{C}_{/Y})^\triangleright}((C,f), (D,g)) \hookrightarrow \text{Hom}_\mathcal{C}(V(C,f), V(D,g)) = \text{Hom}_\mathcal{C}(C, D)$$
+is simply given by the inclusion map.
+*If $(C,f)$ is an object of $\mathcal{C}_{/Y}$, then the induced map 
+$$\Delta^0 = \text{Hom}_{(\mathcal{C}_{/Y})^\triangleright}((C,f), \infty) \to \text{Hom}_\mathcal{C}(V(C,f), V(\infty)) = \text{Hom}_\mathcal{C}(C, Y)$$
+is equal to $\Delta^0 \overset{f}{\to} \text{Hom}_\mathcal{C}(C,Y)$. This is referred to as the right [[cone contraction functor]].
+\end{definition}
 
+Analogously we have a functor $V \colon (\mathcal{C}_{X/})^\triangleleft \to \mathcal{C}$, which is referred as the left [[cone contraction functor]].
+We then have the following useful result:
 
+\begin{proposition}[Propositon 5.5.2.16](https://kerodon.net/tag/01ZM)
+We have a bijection
 
+\begin{tikzcd}
+	{\Big\{\text{simplicial functors }F \colon \mathcal{D} \to \mathcal{C}_{/Y}\Big\}} \\
+	\\
+	{\Big\{\text{simplicial functors } G \colon \mathcal{D}^{\triangleright} \to \mathcal{C}\text{ such that } G(\infty) = Y\Big\}}
+	\arrow["\cong", from=1-1, to=3-1]
+\end{tikzcd}
 
+induced by postcomposition with the right [[cone contraction functor]]. The dual result holds too of course.
+\end{proposition}
 
+Now we realize that there is a map
+$$N_\bullet^{\text{hc}}(\mathcal{C}_{/X})^\triangleright \cong N_\bullet^{\text{hc}}(\mathcal{C}_{/X}^\triangleright) \to N_\bullet^{\text{hc}}(\mathcal{C})$$
+carrying the cone point to the vertex $X$. Therefore by the above bijection we obtain the slice comparison morphism
+$$c \colon N_\bullet^{\text{hc}}(\mathcal{C}_{/X}) \to N_\bullet^\text{hc}(\mathcal{C})_{/X}$$
 
 
 
