@@ -1,4 +1,38 @@
 
+$$
+  \begin{aligned}
+    E_{vac}(a)
+    &= 
+    - log \bigg( 
+      \textstyle{\underset{\nabla,a}{\int}}
+      \exp\big(
+        - S(\nabla,a)
+      \big) \, D \nabla \, D a 
+    \bigg)
+    \\
+    &= 
+    - log 
+      \bigg(
+       \textstyle{\underset{\nabla}{\int}}
+       \exp\big(
+        \frac{1}{g^2 }
+         \textstyle{\int_X}
+         tr(F_\nabla \wedge \star F_\nabla)  
+        \big)
+      \, D \nabla
+      \;
+     \textstyle{\underset{a}{\int}}
+     \exp\big(
+        \mathrm{i} a \textstyle{\int_X} t
+        r(F_\nabla \wedge F_\nabla)
+     \big)
+     \, D a
+    \bigg)
+  \end{aligned}
+  \,.
+$$
+
+
 \begin{tikzcd}[
   row sep=15pt,
   column sep=20pt
