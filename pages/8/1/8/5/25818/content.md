@@ -35,7 +35,7 @@ can be generalized to the statement that every [[anafunctor]] is (naturally isom
 
 and the "anafunctors determine functors" formulation can be rephrased as the more familiar category theoretic principle that every [[fully faithful]], [[essentially surjective]] functor has a (necessarily unique up to unique natural isomorphism) [[inverse functor|inverse]].
 
-A second formulation of the function comprehension principle, that is not quite as trivially equivalent, is the following, sometimes called the "axiom/principle of unique choice" for its resemblance in logical structure to a formulation of the [[axiom of choice]]:
+A second formulation of the function comprehension principle, that is not quite as trivially equivalent, is the following, sometimes called the [[principle of unique choice|"axiom/principle of unique choice"]] for its resemblance in logical structure to a formulation of the [[axiom of choice]]:
 
 > Given a [[relation]], i.e. a function to a [[powerset]] $P : A \to P B$, if for every $x \in A$, $P(a)$ is [[uniqueness quantifier|uniquely inhabited]], then $P$ is equal to the extension of a unique function $f : A \to B$ by the inclusion $i : B \to P(B)$ of singletons. That is, $P = i \circ f$.
 
