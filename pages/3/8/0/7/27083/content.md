@@ -1,13 +1,18 @@
+[[!redirects Diary on Higher Category and its applications]]
+[[!redirects Diary on Higher Category and its applications]]
+[[!redirects Notes on derived cats and k-linear cats]]
+[[!redirects Notes on derived cats and k-linear cats]]
 [[!redirects Private notes on derived cats and k-linear cats]]
 [[!redirects Private notes on derived cats and k-linear cats]]
 
 # Why these Notes
-The idea is that these notes should become an accessible and user friendly introduction to derived mathematics, higher algebra and enriched higher category theory.
-# Contents
-* this block creates the table of contents, leave as is
-{: toc}
+Unlike notes where one usually incorporates structure and some level of self-containment, the following write-up could be seen more like a diary and a means to guide one's learning journey towards some more sophisticated references. In the cases where good references are lacking, we will aim to provide full detail or accumulate material that was hard to find (or stuff that is never spelled out in other references). In that way, we hope this will be of value to someone in the future.
 
-\section{The holy Grail: Straightening & Unstraightening}
+#Contents#
+* table of contents
+{:toc}
+
+\section{Straightening & Unstraightening}
 For other Nlab entries see: [[(infinity,1)-Grothendieck construction]], [[straightening functor]], [[Grothendieck construction]], ...
 
 ### Idea
@@ -534,7 +539,8 @@ Let $U \colon \mathcal{E} \to \mathcal{C}$ be a cocartesian fibration of simplic
 	\arrow["H", dotted, from=3-1, to=1-3]
 	\arrow["{\overline{H}}"', from=3-1, to=3-3]
 \end{tikzcd}
-Then:
+
+Then we have:
 1. The lifting problem admits a solution $H \colon \Delta^1 \times K \to \mathcal{E}$ which is a $U$-cocartesian lift of $\overline{H}$.
 2. Let $F$ be any object of the $\infty$-category $\text{Fun}_{/\mathcal{C}}(\{1\} \times K, \mathcal{E})$. Then $F$ is isomorphic to $H|_{1\times K}$ (as an object of $\text{Fun}_{/\mathcal{C}}(\{1\} \times K, \mathcal{E})$) if and only if $F = H'|_{1\times K}$, where $H'$ is yet another $U$-cocartesian lift of $\overline{H}$ which solves the above lifting problem.
 \end{lemma}
