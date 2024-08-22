@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include homological algebra - contents]]
 =--
+#### Localization theory
++--{: .hide}
+[[!include localization theory - contents]]
+=--
 #### Notions of subcategory
 +-- {: .hide}
 [[!include notions of subcategory]]
@@ -45,6 +49,8 @@ Moreover $\bar{T}$ is always [[thick subcategory|thick]] in the stronger sense (
 __Serre subcategories in the strong sense__ are those nonempty full subcategories which are stable under the operation $T\mapsto\bar{T}$.
 
 ## References
+
+Serre considered such a class in the case of the category of [[abelian group]]s
 
 * {#Serre53} [[Jean-Pierre Serre]], *Groupes d'homotopie et classes de groupes abéliens*, Annals of Mathematics
 Second Series **58** 2 (1953) 258-294 &lbrack;[doi:10.2307/1969789](https://doi.org/10.2307/1969789)&rbrack;
