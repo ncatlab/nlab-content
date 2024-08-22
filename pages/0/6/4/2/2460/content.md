@@ -4,7 +4,11 @@
 ###Context###
 #### Algebra
 +--{: .hide}
-[[!include higher algebra - contents]]
+[[!include algebra - contents]]
+=--
+#### Localization theory
++--{: .hide}
+[[!include localization theory - contents]]
 =--
 =--
 =--
@@ -16,7 +20,7 @@
 
 ## Idea
 
-The notion _universal localization_ or _Cohn localization_ of a [[ring]] is a variant of the notion of [[localization of a ring]] which forces not just elements of the ring to become invertible (which one may think of as $1 \times 1$-[[matrices]]) but forces more general [[matrices]] with [[coefficients]] in the ring to become invertible.
+The notion _universal localization_ or _Cohn localization_ of a [[ring]] is a variant of the notion of [[localization of a ring]] which forces not just elements of the ring to become invertible (which one may think of as $1 \times 1$-[[matrices]]) but forces more general [[matrices]] with [[coefficients]] in the ring to become invertible. One also considers the corresponding localization functor on the category of modules. It can be related to ($H^0$ of) some Bousfield localization (on chain complexes of modules). 
 
 ## Definition
 
