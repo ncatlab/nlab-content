@@ -6,7 +6,7 @@
 
 ## Idea
 
-It is a well-known fact in [[computability]] that it is not possible to write a decision procedure that tells whether another program is terminating or not. This fact is know as the [[halting theorem]].
+It is a well-known fact in [[computability]] that it is not possible to write a decision procedure that tells whether another program is terminating or not. This fact is known as the [[halting theorem]].
 
 For this reason most [[functional programming]] languages are endowed with an unrestricted [[fixed-point operator]] at all [[types]], which simplifies the implementation of the language, but allows the user to write functions that are not-well defined mathematically. 
 
@@ -26,7 +26,7 @@ A hylomorphism gives a simple example of an opportunity for optimization: an ana
 
 Catamorphisms and their variants are basic and rather restricted forms of recursion, i.e. where the recursive call is called on smaller input. 
 
-Many other patterns of recursion exists that are equally well-defined, but they cannot be expressed *directly* in terms of catamorphisms. However, most recursion schemes are adjoint folds ([Hinze, Wu and Gibbons, 2013](#HinzeWG13)), i.e. every complex recursion scheme can be reduced to a basic one via an adjunction. Moreover,  *every* recursion scheme is an instance of a conjugate hylomorphism ([Hinze, Wu and Gibbons, 2015](#HinzeWG15)) .
+Many other patterns of recursion exist that are equally well-defined, but they cannot be expressed *directly* in terms of catamorphisms. However, most recursion schemes are adjoint folds ([Hinze, Wu and Gibbons, 2013](#HinzeWG13)), i.e. every complex recursion scheme can be reduced to a basic one via an adjunction. Moreover,  *every* recursion scheme is an instance of a conjugate hylomorphism ([Hinze, Wu and Gibbons, 2015](#HinzeWG15)) .
 
 A comprehensive list of recursion schemes can be found in [Yang and Wu, 2022](#YangW22)
 
