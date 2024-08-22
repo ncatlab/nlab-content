@@ -11,6 +11,7 @@
 * [[orthogonal subcategory problem]]
 * [[bicategory of fractions]]
 * [[enriched localization]]
+* [[Q-category]]
 
 ### [[localization of a ring|Localization of rings]]
 
