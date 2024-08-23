@@ -4,7 +4,7 @@
 ###Context###
 #### Algebra
 +--{: .hide}
-[[!include higher algebra - contents]]
+[[!include algebra - contents]]
 =--
 =--
 =--
@@ -245,25 +245,27 @@ Consider the map $S\rightarrow I(S)$ defined by $s\mapsto (s|_{s^\ast(S)}: s^\as
 
 * [[Mark V. Lawson]], Inverse semigroups: the theory of partial symmetries, World Scientific, 1998.
 
-* [[Mark V. Lawson]], G. Kurdyavtseva, _The classifying space of an inverse semigroup_,  Period. Math. Hungar., to appear, [as preprint: ArXiv 1210.4421](http://arxiv.org/pdf/1210.4421.pdf)
+* [[Mark V. Lawson]], G. Kurdyavtseva, _The classifying space of an inverse semigroup_,  Period. Math. Hungar. __70__ (2015) 122--129 [doi](https://doi.org/10.1007/s10998-014-0065-9) [arXiv:1210.4421](https://arxiv.org/abs/1210.4421)
 
 * Alan L. T. Paterson, _Groupoids, inverse semigroups, and their operator algebras_, Progress in Mathematics __170__, Birkh&#228;user 1999, [MR 1724106](http://www.ams.org/mathscinet-getitem?mr=1724106)
 
 * Alcides Buss, Ruy Exel, [[Ralf Meyer]], _Inverse semigroup actions as groupoid actions_, Semigroup Forum __85__ (2012), 227--243, [arxiv/1104.0811](http://arxiv.org/abs/1104.0811)
 
-* Ruy Exel, _Inverse semigroups and combinatorial $C^\ast$-algebras_, Bull. Braz. Math. Soc. (N.S.) 39 (2008), no. 2, 191&#8211;313, [doi](http://dx.doi.org/10.1007/s00574-008-0080-7) MR 2419901
+* Ruy Exel, _Inverse semigroups and combinatorial $C^\ast$-algebras_, Bull. Braz. Math. Soc. (N.S.) 39 (2008), no. 2, 191--313, [doi](http://dx.doi.org/10.1007/s00574-008-0080-7) MR 2419901
 
-* Alcides Buss, Ruy Exel, _Fell bundles over inverse semigroups and twisted &#233;tale groupoids_, J. Oper. Theory __67__, No. 1, 153-205 (2012) [MR2821242](http://www.ams.org/mathscinet-getitem?mr=2821242) [Zbl 1249.46053](http://zbmath.org/?q=an:1249.46053) [arxiv/0903.3388](http://arxiv.org/abs/0903.3388)[journal](http://www.mathjournals.org/jot/2012-067-001/0000-000-000-000.html); _Twisted actions and regular Fell bundles over inverse semigroups_, [arxiv/1003.0613](http://arxiv.org/abs/1003.0613)
+* Alcides Buss, Ruy Exel, _Fell bundles over inverse semigroups and twisted &#233;tale groupoids_, J. Oper. Theory __67__, No. 1, 153--205 (2012) [MR2821242](http://www.ams.org/mathscinet-getitem?mr=2821242) [Zbl 1249.46053](http://zbmath.org/?q=an:1249.46053) [arxiv/0903.3388](http://arxiv.org/abs/0903.3388)[journal](http://www.mathjournals.org/jot/2012-067-001/0000-000-000-000.html); _Twisted actions and regular Fell bundles over inverse semigroups_, [arxiv/1003.0613](https://arxiv.org/abs/1003.0613)
 
 * [[Pedro Resende]], _Lectures on &#233;tale groupoids, inverse semigroups and quantales_, Lecture Notes for the GAMAP IP Meeting, Antwerp, 4-18 Sep 2006, 115 pp. [pdf](http://www.math.ist.utl.pt/%7Epmr/poci55958/gncg51gamap-version2.pdf); _&#201;tale groupoids and their quantales_, Adv. Math. 208 (2007) 147-209; also published electronically: [doi](http://dx.doi.org/10.1016/j.aim.2006.02.004) [math/0412478](http://arxiv.org/abs/math/0412478); _A note on infinitely distributive inverse semigroups_, Semigroup Forum 73 (2006) 156-158; [doi](http://dx.doi.org/10.1007/s00233-005-0547-4) [math/0506454](http://arxiv.org/abs/math.RA/0506454)
 
-* [[B. Steinberg]], _Strong Morita equivalence of inverse semigroups_, Houston J. Math. 37 (2011) 895-927
+* [[B. Steinberg]], _Strong Morita equivalence of inverse semigroups_, Houston J. Math. 37 (2011) 895--927
 
-* Darien DeWolf and Dorette Pronk, _The Ehresmann-Schein-Nampooripad Theorem for Inverse Categories_, [arXiv](https://arxiv.org/abs/1507.08615). 
+* Darien DeWolf, Dorette Pronk, _The Ehresmann-Schein-Nampooripad zheorem for inverse categories_, [arXiv](https://arxiv.org/abs/1507.08615). 
 
 * Igor Dolinka, Sergey V. Gusev, Mikhail V. Volkov, _Semiring and involution identities of powers of inverse semigroups_, [arXiv:2309.11432](https://arxiv.org/abs/2309.11432)
 
 > The set of all subsets of any inverse semigroup forms an involution semiring under set-theoretical union and element-wise multiplication and inversion. We find structural conditions on a finite inverse semigroup guaranteeing that neither semiring nor involution identities of the involution semiring of its subsets admit a finite identity basis. 
+
+category: algebra
 
 [[!redirects inverse semigroups]]
 [[!redirects ordered groupoids]]
