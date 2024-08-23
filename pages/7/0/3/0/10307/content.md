@@ -1,7 +1,11 @@
 
 Lara B. Anderson works on [[string phenomenology]], notably in [[heterotic string theory]].
 
-* [publication list](http://arxiv.org/find/hep-th/1/au:+Anderson_Lara/0/1/0/all/0/1?skip=0&query_id=fc98e528f0b049a9)
+* [institute page](http://www1.phys.vt.edu/~lara137/)
+
+* [InSpire page](https://inspirehep.net/authors/1030318)
+
+* [arXiv page](http://arxiv.org/find/hep-th/1/au:+Anderson_Lara/0/1/0/all/0/1?skip=0&query_id=fc98e528f0b049a9)
 
 ## Selected writings
 
