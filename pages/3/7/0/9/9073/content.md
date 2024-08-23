@@ -17,13 +17,19 @@ On a motivic approach to [[scattering amplitudes]]:
 
 * [[Nima Arkani-Hamed]], Jacob Bourjaily, Freddy Cachazo, [[Alexander Goncharov]], Alexander Postnikov, Jaroslav Trnka, _Grassmannian geometry of scattering amplitudes_, Cambridge Univ. Press 2016
 
+On [[scattering amplitudes]]: 
+
+* [[Nima Arkani-Hamed]]: *Geometry of scattering amplitudes*, lecture at *Amplitudes Summer School*, QMAP @UC Davis (2018) &lbrack;video(11 hrs):[YT](https://www.youtube.com/watch?v=fCi195e9QD4)&rbrack;
+
 On the [[combinatorics]] of [[scattering amplitudes]] in [[Yang-Mills theory]]:
 
 * [[Nima Arkani-Hamed]], Qu Cao, Jin Dong, Carolina Figueiredo, Song He: *Scalar-Scaffolded Gluons and the Combinatorial Origins of Yang-Mills Theory* &lbrack;[arXiv:2401.00041](https://arxiv.org/abs/2401.00041)&rbrack;
 
 
 
-## On Category Theory
+## Quotes
+
+On [[category theory]]:
 
 “six months ago, if you said the word category theory to me, I would have laughed in your face and said useless formal nonsense, and yet it’s somehow turned into something very important in my intellectual life in the last six months or so” (@ 44:05 in [The End of Space-Time](https://youtu.be/GL77oOnrPzY) July 2022)
 
