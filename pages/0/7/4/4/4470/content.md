@@ -4,7 +4,7 @@
 
 ## Definition 
 
-By removing structure and properties from the notion of [[canonical hypergroup|hypergroup]], a **hypermonoid** is a set equipped with an associative multivalued multiplication. There are several equivalent ways of making this more precise: 
+By adding properties to a [[hypermagma]], or removing structure and properties from the notion of [[canonical hypergroup|hypergroup]], a **hypermonoid** is a set equipped with an associative multivalued multiplication. There are several equivalent ways of making this more precise: 
 
 * A _hypermonoid_ is a monoid $M$ in the monoidal [[Pos]]-enriched category of sets and total ([[entire relation|entire]]) relations, where the tensor product of sets is cartesian product and the tensor product of relations $R: A \to B$, $S: C \to D$ is defined by the truth-value assignment 
 $$(R \times S)((a, c), (b, d)) = R(a, b) \wedge S(c, d)$$ 
@@ -82,7 +82,19 @@ In general the principle is this: if the structure coefficients $a_{i j}^{k}$ be
 
 $$M \times M \stackrel{mult}{\to} A[M]_d \cong A \otimes_A A[M]_d \stackrel{p \otimes_A 1}{\to} \mathbf{2} \otimes_A A[M]_d \cong \mathbf{2}[M]_d \hookrightarrow P(M)$$ 
 
-For instance, there is a unique rig homomorphism $p: \mathbb{Q}_+ \to \mathbf{2}$ from the rig of nonnegative rational numbers. 
+For instance, there is a unique rig homomorphism $p: \mathbb{Q}_+ \to \mathbf{2}$ from the rig of nonnegative rational numbers.
+
+## Related pages
+
+* [[monoid]]
+
+* [[hypermagma]]
+
+* [[hypergroup]]
+
+* [[hyperring]]
+
+* [[hypergraph]]
 
 ## References 
 
