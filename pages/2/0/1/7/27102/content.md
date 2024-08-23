@@ -118,6 +118,10 @@ Given an [[invariant measure]] $p$ on $X$, we call $f$ **almost surely harmonic*
 
 ## See also
 
+* [[harmonic map]]
+
 * [[Laplace operator]]
+
 * [[discrete Laplace operator]]
+
 * [[harmonic form]]
