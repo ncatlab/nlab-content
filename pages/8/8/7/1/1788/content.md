@@ -1,4 +1,24 @@
 
+* [[Xiao-Gang Wen]], E. Dagotto, [[Eduardo Fradkin]]: *Anyons on a torus*, Phys. Rev. B **42** (1990) 6110  \[<a href="https://doi.org/10.1103/PhysRevB.42.6110">doi:10.1103/PhysRevB.42.6110</a>\]
+
+* Yasuhiro Hatsugai, Mahito Kohmoto, Yong-Shi Wu: *Anyons on a torus: Braid group, Aharonov-Bohm period, and numerical study*, Phys. Rev. B **43** (1991) 10761 \[<a href="https://doi.org/10.1103/PhysRevB.43.10761">doi:10.1103/PhysRevB.43.10761</a>\]
+
+* [[Roberto Iengo]], [[Kurt Lechner]]: *Quantum mechanics of anyons on a torus*, Nuclear Physics B **346** 2–3 (1990) 551-575 \[<a href="https://doi.org/10.1016/0550-3213(90)90292-L">doi:10.1016/0550-3213(90)90292-L</a>, [spire:28316](https://inspirehep.net/literature/28316)\]
+
+* [[Roberto Iengo]], [[Kurt Lechner]]: *Exact results for anyons on a torus*, Nuclear Physics B **364** 3 (1991) 551-583 \[<a href="https://doi.org/10.1016/0550-3213(91)90277-5">doi:10.1016/0550-3213(91)90277-5</a>\]
+
+* Yutaka Hosotani, Choon-Lin Ho: *Anyons on a Torus*, AIP Conf. Proc. **272** (1992) 1466–1469 \[<a href="https://doi.org/10.1063/1.43444">doi:10.1063/1.43444</a>, [arXiv:hep-th/9210112](https://arxiv.org/abs/hep-th/9210112)\]
+
+* Choon-Lin Ho, Yutaka Hosotani: *Anyon equation on a torus*,  International Journal of Modern Physics A **07** 23 (1992) 5797-5831 \[<a href="https://doi.org/10.1142/S0217751X92002647">doi:10.1142/S0217751X92002647</a>\]
+
+* Songyang Pu, [[Jainendra K. Jain]]: *Composite anyons on a torus*, Phys. Rev. B **104** (2021) 115135 \[<a href="https://doi.org/10.1103/PhysRevB.104.115135">doi:10.1103/PhysRevB.104.115135</a>, [arXiv:2106.15705](https://arxiv.org/abs/2106.15705)\]
+
+* {#Simon23} [[Steven H. Simon]]: *Anyon Vacuum on a Torus and Quantum Memory*, Section 4.3 in: *Topological Quantum*, Oxford University Press (2023) \[<a href="https://global.oup.com/academic/product/topological-quantum-9780198886723">ISBN:9780198886723</a>, [pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep28-2021.pdf), [webpage](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/topocourse2021.html)\]
+
+
+* Shang Liu: *Anyon quantum dimensions from an arbitrary ground state wave function*, Nature Communications **15** (2024) 5134 \[<a href="https://doi.org/10.1038/s41467-024-47856-7">doi:10.1038/s41467-024-47856-7</a>, [arXiv:2304.13235](https://arxiv.org/abs/2304.13235)\]
+
+
 $$
   \begin{aligned}
     E_{vac}(a)
