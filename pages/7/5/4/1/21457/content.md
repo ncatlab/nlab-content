@@ -24,6 +24,11 @@ and to [[exceptional generalized geometry]]:
 
 * [[Jakob Palmkvist]], _Exceptional geometry and Borcherds superalgebras_ ([arXiv:1507.08828](http://arxiv.org/abs/1507.08828))
 
+On [[E11]]-[[exceptional field theory|exceptional]] [[supergravity]]:
+
+* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Jakob Palmkvist]], [[Christopher Pope]], [[Ergin Sezgin]], _Beyond $E_{11}$_, JHEP 05 (2017) 020 \[<a href="https://doi.org/10.1007/JHEP05(2017)020">doi:10.1007/JHEP05(2017)020</a>, [arXiv:1703.01305](https://arxiv.org/abs/1703.01305)\]
+
+
 On the [[Kantor-Koecher-Tits construction]]:
 
 * [[Jakob Palmkvist]], _A generalization of the Kantor-Koecher-Tits construction_, J. Gen. Lie Theory Appl. 2, (2008) 226 ([arXiv:1308.3761](https://arxiv.org/abs/1308.3761))
