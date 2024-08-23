@@ -391,7 +391,7 @@ Another proposal for a Lagrangian for self-dual higher gauge fields, at the cost
 
 * {#Sen20} [[Ashoke Sen]], *Self-dual forms: Action, Hamiltonian and Compactification*,  Journal of Physics A: Mathematical and Theoretical, **53** 8 (2020) &lbrack;[arXiv:1903.12196](https://arxiv.org/abs/1903.12196), [doi:10.1088/1751-8121/ab5423](https://doi.org/10.1088/1751-8121/ab5423)&rbrack;
 
-Enhancement to [[superspace]] (in [[D'Auroa-Fre formulation of supergravity]]):
+Enhancement to [[superspace]] (in [[D'Auria-Fre formulation of supergravity]]):
 
 * [ACDGMNRT22](#ACDGMNRT22)
 
