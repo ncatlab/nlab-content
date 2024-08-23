@@ -153,7 +153,7 @@ Further developments of the proposed $E_{11}$ formulation of [[M-theory]] includ
 
 * [[Eric Bergshoeff]], I. De Baetselier, T. Nutma, _E(11) and the Embedding Tensor_ ([arXiv:0705.1304](http://arxiv.org/abs/0705.1304), [poster](http://mms.technologynetworks.net/posters/0364.pdf))
 
-* Guillaume Bossard, [[Axel Kleinschmidt]], Jakob Palmkvist, [[Christopher Pope]], [[Ergin Sezgin]], _Beyond $E_{11}$_ ([arXiv:1703.01305](https://arxiv.org/abs/1703.01305))
+* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Jakob Palmkvist]], [[Christopher Pope]], [[Ergin Sezgin]], _Beyond $E_{11}$_, JHEP 05 (2017) 020 \[<a href="https://doi.org/10.1007/JHEP05(2017)020">doi:10.1007/JHEP05(2017)020</a>, [arXiv:1703.01305](https://arxiv.org/abs/1703.01305)\]
 
 Discussion of the [[semidirect product]] of $E_{11}$ with its $l_1$-[[representation]], and arguments that the [[charges]] of the [[M-theory super Lie algebra]] and in fact further brane charges may be identified inside $l_1$ originate in
 
