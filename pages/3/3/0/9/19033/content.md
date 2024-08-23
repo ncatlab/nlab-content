@@ -49,6 +49,8 @@ On [[topological strings]] in relation to [[M2-branes]]:
 
 * Jarod Hattab, [[Eran Palti]]: *Non-perturbative topological string theory on compact Calabi-Yau manifolds from M-theory* &lbrack;[arXiv:2408.09255](https://arxiv.org/abs/2408.09255)&rbrack;
 
+* Jarod Hattab, [[Eran Palti]]: *Emergent potentials and non-perturbative open topological strings* &lbrack;[arXiv:2408.12302](https://arxiv.org/abs/2408.12302)&rbrack;
+
 
 ## Related entries
 
