@@ -59,7 +59,7 @@ A [[Riemannian immersion]] $\phi \colon \Sigma \to X$ is a harmonic map if and o
 
 ## Related concepts
 
-* [[harmonic function]]
+* [[harmonic function]], [[harmonic differential form]]
 
 * [[second fundamental form]]
 
