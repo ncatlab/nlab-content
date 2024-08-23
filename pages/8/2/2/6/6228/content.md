@@ -51,6 +51,12 @@
 
 * [[Riesz representation theorem]]
 
+* [[de Finetti's theorem]]
+
+* [[law of large numbers]]
+
+* [[Kolmogorov extension theorem]]
+
 ## Applications
 
 * [[machine learning]], [[neural networks]]
