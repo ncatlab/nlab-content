@@ -36,7 +36,7 @@ An *invariant measure* (a.k.a. *stationary* or *steady*) is a [[measure]] which 
 An action with an invariant measure is sometimes called a *stationary* or *steady-state* system.
 
 It is an important concept in [[probability theory]], [[dynamical systems]], [[statistical physics]], and [[representation theory]].
-It is one of the weakest form to mathematically formalize the idea of [[equilibrium]].
+It is one of the weakest forms to mathematically formalize the idea of [[equilibrium]]. (Stronger forms of equilibrium are for example [[detailed balance]] and [[ergodicity]].)
 
 
 ## Definitions
@@ -53,8 +53,10 @@ A space $X$ together with an action of $M$ and a stationary measure $M$ is somet
 In particular, a [[stochastic process]] whose underlying [[joint distribution]] is invariant is called a **stationary process**.
 
 Note that, similarly to [[invariant sets]], if a measure is invariant, it does *not* in general mean that *each point in the support of the measure is an invariant point*.
-The points may move, but their distribution overall is kept constant.
+The points may move, but their distribution overall is kept constant. 
 For example, the [[Lebesgue measure]] on the [[unit circle]] (given by the [[length]]) is invariant under [[rotations]], but no point of the circle is invariant.
+
+An interpretation in terms of [[equilibrium]] is that for each measurable set $A$, some mass may move away from $A$, but an equal amount of mass moves into $A$, so that the measure of $A$ overall stays the same. 
 
 
 ### Examples
@@ -129,7 +131,7 @@ $$
 i.e. if $k$ is its own [[Bayesian inverse]]. This is a stronger form of [[equilibrium]] than just stationarity.
 (Not every stationary system satisfies this property.)
 
-* The [[ergodic decomposition theorem]] says that, under some condition, an invariant measure is a [[mixture]] of [[ergodic measure|ergodic ones]]. 
+* The [[ergodic decomposition theorem]] says that, under some conditions, an invariant measure is a [[mixture]] of [[ergodic measure|ergodic ones]]. 
 
 
 ## See also
