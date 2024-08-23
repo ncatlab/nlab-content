@@ -593,17 +593,56 @@ $$N_\bullet^{\text{hc}}(\mathcal{C}_{/X})^\triangleright \cong N_\bullet^{\text{
 carrying the cone point to the vertex $X$. Therefore by the above bijection we obtain the slice comparison morphism
 $$c \colon N_\bullet^{\text{hc}}(\mathcal{C}_{/X}) \to N_\bullet^\text{hc}(\mathcal{C})_{/X}$$
 
+This map is a [[monomorphism]], but it is generally not an isomorphism, nor is it a homotopy equivalence in all cases. However, in good situation it will be a homotopy equivalence.
 
+\begin{theorem}[Theorem 5.5.2.21](https://kerodon.net/tag/01ZS)
+Let $\mathcal{C}$ be locally Kan and let $X$ be an object of $\mathcal{C}$ with the following property:
+For every morphism $f \colon X \to Y$ and every object $Z \colon \mathcal{C}$, the morphism of simplicial sets
+\begin{equation}
+\text{Hom}_\mathcal{C}(Y,Z)_\bullet \overset{f^*}{\to} \text{Hom}_\mathcal{C}(X,Z)_\bullet
+\end{equation}
+is a Kan fibration. Then the coslice comparison morphism $c' \colon N_\bullet^\text{hc}(\mathcal{C}_{X/}) \to N_\bullet^{\text{hc}}(\mathcal{C})_{X/}$ is an equivalence of $\infty$-categories.
 
+\end{theorem}
 
+This result is useful for the following reason: Later on in Chapter 5.5 Lurie defines a chain of $\infty$-categories:
+\begin{tikzcd}
+	{N_\bullet^{\text{hc}}(\text{QCat}_\star)} & {\mathcal{QC}_\star = N_\bullet^{\text{hc}}(\text{QCat})_\star} & {\mathcal{QC}_\text{Obj}} & {\mathcal{QC}_{\text{Ob}}^{(\infty,2)}}
+	\arrow["\sim", hook, from=1-1, to=1-2]
+	\arrow[hook, from=1-2, to=1-3]
+	\arrow[hook, from=1-3, to=1-4]
+\end{tikzcd}
+where the first morphism is an equivalence by Proposition [5.5.6.6](https://kerodon.net/tag/020Y) (this is really a corollary of the above theorem).
 
-
-
-
-
-
-
-
+We can describe the above categories informally as follows: All the above categories have the same collection of objects. For the morphisms we have quite different situations however:
+Morphisms in $N_\bullet^{\text{hc}}(\text{QCat}_*)$ are really just (strictly) commutative triangles:
+\begin{tikzcd}
+	& {*} \\
+	{\mathcal{C}} && {\mathcal{D}}
+	\arrow["C"', from=1-2, to=2-1]
+	\arrow["D", from=1-2, to=2-3]
+	\arrow["F"', from=2-1, to=2-3]
+\end{tikzcd}
+Morphisms in $\mathcal{QC}_\star$ are triangles that commute up to isomorphism in the $\infty$-category $\mathcal{D}$:
+\begin{tikzcd}
+	& {*} \\
+	{\mathcal{C}} && {\mathcal{D}}
+	\arrow["C"', from=1-2, to=2-1]
+	\arrow[""{name=0, anchor=center, inner sep=0}, "D", from=1-2, to=2-3]
+	\arrow["F"', from=2-1, to=2-3]
+	\arrow["\simeq"{description, pos=0.6}, draw=none, from=2-1, to=0]
+\end{tikzcd}
+Morphisms in $\mathcal{QC}_\text{Obj}$ are diagrams
+\begin{tikzcd}
+	& {*} \\
+	{\mathcal{C}} && {\mathcal{D}}
+	\arrow["C"', from=1-2, to=2-1]
+	\arrow[""{name=0, anchor=center, inner sep=0}, "D", from=1-2, to=2-3]
+	\arrow["F"', from=2-1, to=2-3]
+	\arrow[shorten <=8pt, shorten >=8pt, Rightarrow, from=2-1, to=0]
+\end{tikzcd}
+with the comparison morphism not necessarily being an isomorphism.
+Finally, the last play in the game $\mathcal{QC}_{\text{Ob}}^{(\infty,2)}$ is not an $(\infty,1)$-category but an $(\infty,2)$-category, with the same objects and morphisms as $\mathcal{QC}_\text{Obj}$, but with non-invertible natural transformations between functors.
 
 
 
