@@ -91,13 +91,13 @@ Similar notions of mixture can be given using other [[probability monads]]. Note
 * In [[probability theory]], the expected value of an integrable [[random variable]] is a convex mixture.
 * In [[physics]], convex mixtures give the [[center of mass]] of non-discrete bodies.
 * The multiplication of the [[Giry monad]], and of most [[probability monads]], consists of taking a convex mixture of probability measure.
-* The [[ergodic decomposition theorem]] says that every [[invariant measure]] is a convex mixture of [[ergodic measure|ergodic ones]].
+* The [[ergodic decomposition theorem]] says that in some cases, every [[invariant measure]] is a convex mixture of [[ergodic measure|ergodic ones]].
 
 
 ## See also
 
 * [[Lebesgue integral]], [[Bochner integral]], [[expectation value]]
-* [[convex space]], [[convex combination]]
+* [[convex space]], [[convex combination]], [[mean]]
 * [[probability monad]], [[Giry monad]], [[distribution monad]]
 * [[ergodic decomposition theorem]], [[de Finetti theorem]]
 
