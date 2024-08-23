@@ -83,8 +83,9 @@ Discussion for [[E11]]:
 
 * Alexander G. Tumanov, [[Peter West]], _$E_{11}$ and exceptional field theory_ ([arXiv:1507.08912](http://arxiv.org/abs/1507.08912))
 
-* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _On supersymmetric E11 exceptional field theory_ ([arXiv:1907.02080](https://arxiv.org/abs/1907.02080))
+* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Jakob Palmkvist]], [[Christopher Pope]], [[Ergin Sezgin]], _Beyond $E_{11}$_, JHEP 05 (2017) 020 \[<a href="https://doi.org/10.1007/JHEP05(2017)020">doi:10.1007/JHEP05(2017)020</a>, [arXiv:1703.01305](https://arxiv.org/abs/1703.01305)\]
 
+* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _On supersymmetric E11 exceptional field theory_ ([arXiv:1907.02080](https://arxiv.org/abs/1907.02080))
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _A master exceptional field theory_ ([arXiv:2103.13411](https://arxiv.org/abs/2103.13411))
 
