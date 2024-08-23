@@ -32,7 +32,10 @@ in the group of Prof. [[Hisham Sati]] leading the <br/>
 
 ## contact
 
-* <us13@nyu> or <urs.schreiber@gmail.com>
+* <us13@nyu.edu> 
+
+* <urs.schreiber@gmail.com>
+
 
 ## research 
 
@@ -150,7 +153,7 @@ recent monograph:
 <a href="http://ncatlab.org/nlab/show/HomePage"><div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="/nlab/files/OldnLabBanner.jpg" alt="nLab banner" /></div></a>
 
 
-I enjoy putting math/phys information into context. <br/> For that purpose I had started (in Nov 2008) 
+For making notes on math/phys I had started (in Nov 2008) 
 
 * *[[Home Page|the $n$Lab research wiki project]]*
 
@@ -172,9 +175,9 @@ For more on the $n$Lab, see:
 
 For logs of further activity see:
 
-* [my feed at Twitter](https://twitter.com/UrsSchreiber) (new)
+* [my feed at X/Twitter](https://twitter.com/UrsSchreiber) (new)
 
-* [my old feed at Twitter](https://twitter.com/SchreiberUrs) (lost my password...)
+* [my old feed at X/Twitter](https://twitter.com/SchreiberUrs) (lost my password...)
 
 * [my channel on YouTube](https://www.youtube.com/@UrsSchreiber)
 
@@ -195,7 +198,7 @@ For links to technical discussions about math and physics see my pages:
 
 ## teaching 
 
-See behind the links for detailed lecture notes that I wrote:
+See behind these links for lecture notes that I wrote:
 
 | date |  lecture notes |
 |------|--------|
@@ -208,7 +211,6 @@ See behind the links for detailed lecture notes that I wrote:
 | summer 2015 | _[[schreiber:Structure Theory for Higher WZW Terms]]_ |
 | summer 2015 | _[[schreiber:Higher Cartan Geometry]]_  |
 | summer 2014 | _[[schreiber:HAI|Homological Algebra]]_ |
-
 
 
 A list of further teaching in the past is _[here](http://ncatlab.org/schreiber/show/HomePage#Teaching)_.
@@ -263,12 +265,31 @@ I used to write an irregular column at [PhysicsForums Insights](https://www.phys
 * _[Super p-Brane Theory from Super Homotopy Theory](http://www.physicsforums.com/insights/super-p-brane-theory-emerging-super-homotopy-theory/)_
 
 
+## joining our research
+
+If you are a graduate student or young postdoc thinking of entering the Sati-Schreiber program, here is some basic reading to start with:
+
+* for relevant basics of general [[homotopy theory]] and [[infinity-stacks|$\infty$-stacks]]/[[smooth infinity-groupoids|smooth $\infty$-groupoids]]:
+
+  see the chapter *Model categories* in *[[schreiber:The Character Map in Non-Abelian Cohomology]]* (chapter 1 in the printed version, appendix in the arXiv version)
+
+  and for more details the nLab entries *[[Introduction to Homotopy Theory]]* or for yet more details *[[geometry of physics -- categories and toposes]]*
+
+* for relevant basics of [[rational homotopy theory]] and [[L-infinity algebras|$L_\infty$-Lie algebras]]:
+
+  see the part *Non-abelian de Rham cohomology* in *[[schreiber:The Character Map in Non-Abelian Cohomology]]*
+
+* for relevant basics of [[nLab:supergravity]] and [[super p-branes|super $p$-branes]]:
+
+  see the articles *[[schreiber:Flux Quantization on 11d Superspace]]* and *[[schreiber:Flux Quantization on M5-Branes]]*
+
+  and/or the nLab entry *[[geometry of physics -- supergeometry and superphysics]]*
 
 
 ## copyright statement
  {#CopyrightStatement}
 
-> To the extent that it matters, my contributions to the [[nLab:HomePage|nLab]] are copyrighted according to [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+> To the extent that it matters, my contributions to the [[HomePage|nLab]] are copyrighted according to [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 
 \linebreak
 \linebreak
