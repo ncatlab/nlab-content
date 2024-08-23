@@ -263,6 +263,9 @@ An interpretation of this phenomenon, under the expected [[K-theory classificati
 
 * {#AcharyaWitten01} [[Bobby Acharya]], [[Edward Witten]], _Chiral Fermions from Manifolds of $G_2$ Holonomy_ ([arXiv:hep-th/0109152](http://arxiv.org/abs/hep-th/0109152))
 
+* [[Ron Donagi]], [[Martin Wijnholt]]: *The M-Theory Three-Form and Singular Geometries* &lbrack;[arXiv:2310.05838](https://arxiv.org/abs/2310.05838)&rbrack;
+
+
 #### F-theory with ADE-singularities
 
 [[F-theory]] with ADE-singularities
