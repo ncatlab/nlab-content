@@ -130,9 +130,9 @@ See also:
  
 * {#Ravera18b} [[Lucrezia Ravera]], _Group Theoretical Hidden Structure of Supergravity Theories in Higher Dimensions_ ([arXiv:1802.06602](https://arxiv.org/abs/1802.06602))
 
-That the underlying bosonic [[body]] of this super Lie algebra happens to be the [[typical fiber]] of what would be the 11-d [[exceptional generalized tangent bundle]], namely the [level-2 truncation of the l1-representation](E11#FundamentalRepresentationAndBraneCharges) of [[E11]] according to ([West 04](E11#West04)) was highlighted in the review 
+That the underlying bosonic [[body]] of this super Lie algebra happens to be the [[typical fiber]] of what would be the 11-d [[exceptional generalized tangent bundle]], namely the [level-2 truncation of the l1-representation](E11#FundamentalRepresentationAndBraneCharges) of [[E11]] according to ([West 04](E11#West04)) was highlighted in:
 
-* [[Silvia Vaula]], _On the underlying $E_{11}$ symmetry of the $D= 11$ Free Differential Algebra_, JHEP 0703:010, 2007 ([arXiv:hep-th/0612130](http://arxiv.org/abs/hep-th/0612130))
+* [[Silvia Vaula]], *On the underlying $E_{11}$ symmetry of the $D = 11$ Free Differential Algebra*, JHEP 0703:010 (2007) &lbrack;[arXiv:hep-th/0612130](http://arxiv.org/abs/hep-th/0612130), [doi:10.1088/1126-6708/2007/03/010](https://doi.org/10.1088/1126-6708/2007/03/010)&rbrack;
 
 For analogous discussion in [[7d supergravity]] and [[4d supergravity]], see the references there.
 
