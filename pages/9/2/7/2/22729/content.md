@@ -69,4 +69,5 @@ The submagma of every [[power-associative]] invertible magma $M$ [[generator|gen
 
 * [[centipede mathematics]]
 
+category: algebra
 [[!redirects invertible magmas]]
