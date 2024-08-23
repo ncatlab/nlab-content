@@ -631,6 +631,8 @@ On [[black brane|black]]$\;$[[D4-D8-brane bound states]] in [[massive type IIA s
 
 * Silvia Penati, _Exact Results in AdS4/CFT3_ ([arXiv:2004.00841](https://arxiv.org/abs/2004.00841))
 
+* Manikantt Mummalaneni: *AdS4/CFT3: ABJM Theory, Brane Geometry, Correlators and Mellin Space* &lbrack;[arXiv:2408.11835](https://arxiv.org/abs/2408.11835)&rbrack;
+
 
 
 ### On $AdS_5 / CFT_4$
