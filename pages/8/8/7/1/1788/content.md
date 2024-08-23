@@ -1,4 +1,29 @@
 
+### Anyonic topological order on tori
+
+The theory of [[anyon|anyonic]] [[topological order|topologically ordered]] [[quantum materials]] is often discussed assuming periodic [[boundary conditions]], making the space of positions of a given [[anyon]] a [[torus]]. (While this is a dubious assumption for position-space anyons in actual experiment, the intended ground state-degeracy crucially depends on this assumption.)
+
+In fact the notion of [[topological order]] was introduced assuming [[torus]]-shaped materials:
+
+* [[Xiao-Gang Wen]]: *Vacuum Degeneracy of Chiral Spin State in Compactified Spaces*, Phys. Rev. B **40** 7387 (1989) \[<a href="https://doi.org/10.1103/PhysRevB.40.7387">doi:10.1103/PhysRevB.40.7387</a>\]
+
+* [[Xiao-Gang Wen]]: *Topological Orders in Rigid States*, Int. J. Mod. Phys. B **4** 239 (1990) \[<a href="https://doi.org/10.1142/S0217979290000139">doi:10.1142/S0217979290000139</a>, [pdf](https://xgwen.mit.edu/sites/default/files/documents/topo.pdf)\]
+
+* [[Xiao-Gang Wen]], Qian Niu:  *Ground state degeneracy of the FQH states in presence of random potential and on high genus Riemann surfaces*, Phys. Rev. B **41** 9377 (1990) \[<a href="https://doi.org/10.1103/PhysRevB.41.9377">doi:10.1103/PhysRevB.41.9377</a>\]
+
+* E. Keski-Vakkuri, [[Xiao-Gang Wen]]: *Ground state structure of hierarchical QH states on torus and modular transformation*,
+Int. J. Mod. Phys. B **7** 4227 (1993) \[<a href="https://doi.org/10.1142/S0217979293003644">doi:10.1142/S0217979293003644</a>, [arXiv:hep-th/9303155](https://arxiv.org/abs/hep-th/9303155)\]
+
+Further discussion:
+
+* Zhu-Xi Luo, Yu-Ting Hu, Yong-Shi Wu: *On Quantum Entanglement in Topological Phases on a Torus*, Phys. Rev. B **94** 075126 (2016) \[<a href="https://doi.org/10.1103/PhysRevB.94.075126">doi:10.1103/PhysRevB.94.075126</a>, [arXiv:1603.01777](https://arxiv.org/abs/1603.01777)\]
+
+
+* Zhuan Li, Roger S. K. Mong: *Detecting topological order from modular transformations of ground states on the torus*, Phys. Rev. B **106** (2022) 235115 \[<a href="https://doi.org/10.1103/PhysRevB.106.235115">doi:10.1103/PhysRevB.106.235115</a>\]
+
+
+Explicit discussion of [[anyons]] on [[tori]]:
+
 * [[Xiao-Gang Wen]], E. Dagotto, [[Eduardo Fradkin]]: *Anyons on a torus*, Phys. Rev. B **42** (1990) 6110  \[<a href="https://doi.org/10.1103/PhysRevB.42.6110">doi:10.1103/PhysRevB.42.6110</a>\]
 
 * Yasuhiro Hatsugai, Mahito Kohmoto, Yong-Shi Wu: *Anyons on a torus: Braid group, Aharonov-Bohm period, and numerical study*, Phys. Rev. B **43** (1991) 10761 \[<a href="https://doi.org/10.1103/PhysRevB.43.10761">doi:10.1103/PhysRevB.43.10761</a>\]
@@ -11,98 +36,18 @@
 
 * Choon-Lin Ho, Yutaka Hosotani: *Anyon equation on a torus*,  International Journal of Modern Physics A **07** 23 (1992) 5797-5831 \[<a href="https://doi.org/10.1142/S0217751X92002647">doi:10.1142/S0217751X92002647</a>\]
 
+* Ikuo Ichinose, Toshiyuki Ohbayashi: *Exactly soluble model of multispecies anyons and the braid group on a torus*,     Nucl.Phys. B **419** (1994) 529-552 \[<a href="https://doi.org/10.1016/0550-3213(94)90343-3">doi:10.1016/0550-3213(94)90343-3</a>\]
+
 * Songyang Pu, [[Jainendra K. Jain]]: *Composite anyons on a torus*, Phys. Rev. B **104** (2021) 115135 \[<a href="https://doi.org/10.1103/PhysRevB.104.115135">doi:10.1103/PhysRevB.104.115135</a>, [arXiv:2106.15705](https://arxiv.org/abs/2106.15705)\]
 
 * {#Simon23} [[Steven H. Simon]]: *Anyon Vacuum on a Torus and Quantum Memory*, Section 4.3 in: *Topological Quantum*, Oxford University Press (2023) \[<a href="https://global.oup.com/academic/product/topological-quantum-9780198886723">ISBN:9780198886723</a>, [pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep28-2021.pdf), [webpage](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/topocourse2021.html)\]
 
-
 * Shang Liu: *Anyon quantum dimensions from an arbitrary ground state wave function*, Nature Communications **15** (2024) 5134 \[<a href="https://doi.org/10.1038/s41467-024-47856-7">doi:10.1038/s41467-024-47856-7</a>, [arXiv:2304.13235](https://arxiv.org/abs/2304.13235)\]
 
+The [[toric code]] is a lattice model for anyons on the torus, though attempts at experimental realization usually fall back to the non-periodic planar code. Cf.:
 
-$$
-  \begin{aligned}
-    E_{vac}(a)
-    &= 
-    - log \bigg( 
-      \textstyle{\underset{\nabla,a}{\int}}
-      \exp\big(
-        - S(\nabla,a)
-      \big) \, D \nabla \, D a 
-    \bigg)
-    \\
-    &= 
-    - log 
-      \bigg(
-       \textstyle{\underset{\nabla}{\int}}
-       \exp\big(
-        \frac{1}{g^2 }
-         \textstyle{\int_X}
-         tr(F_\nabla \wedge \star F_\nabla)  
-        \big)
-      \, D \nabla
-      \;
-     \textstyle{\underset{a}{\int}}
-     \exp\big(
-        \mathrm{i} a \textstyle{\int_X} t
-        r(F_\nabla \wedge F_\nabla)
-     \big)
-     \, D a
-    \bigg)
-  \end{aligned}
-  \,.
-$$
+* Ruben Verresen, Mikhail D. Lukin, and Ashvin Vishwanath: *Prediction of Toric Code Topological Order from Rydberg Blockade*, Phys. Rev. X **11** (2021) 031005 \[<a href="https://doi.org/10.1103/PhysRevX.11.031005">doi:10.1103/PhysRevX.11.031005</a>\]
+  > "Unfortunately, the experimental realization of such phases \[...\] has been exceedingly difficult."
 
 
-\begin{tikzcd}[
-  row sep=15pt,
-  column sep=20pt
-]
-  &
-  \bullet
-    \ar[ddr, "{ g_2 }"]
-  \ar[dd, equals, shorten <=10pt, shorten >=7pt]
-  &
-  &&
-  &
-  \bullet
-  \ar[ddr, "{ \psi(g_2) }"]
-  \ar[dd, Rightarrow, shorten <=10pt, shorten >= 7pt,
-    "{ \chi(g_1, g_2) }"{description}
-  ]
-  \\
-  &&& 
-  \longmapsto
-  &
-  \\
-  \bullet
-    \ar[rr, "{ g_1 g_2 }"{swap}]
-    \ar[uur, "{ g_1 }"]
-  &{}&
-  \bullet
-  &&
-  \bullet
-  \ar[uur, "{ \psi(g_1) }"]
-  \ar[rr, "{ \psi(g_1, g_2) }"{swap}]
-  &{}&
-  \bullet
-\end{tikzcd}
 
-[[quantum hall effect via noncommutative geometry -- references]]
-
-
-On [[geometric engineering|engineering]] aspects of the [[quantum Hall effect]] on [[M5-branes]]:
-
-* [[Simeon Hellerman]], [[Leonard Susskind]]: *Realizing the Quantum Hall System in String Theory* \[<a href="https://arxiv.org/abs/hep-th/0107200">arXiv:hep-th/0107200</a>\]
-
-following discussion of effective [[non-commutative geometry]] on [[M5-branes]] induced by a constant [[B-field]] [[flux density]]
-
-* [[Micha Berkooz]]: *Light-like $(2,0)$ Noncommutativity and Light-Cone Rigid Open Membrane Theory* \[<a href="https://arxiv.org/abs/hep-th/0010158">arXiv:hep-th/0010158</a>, [inspire:535327](https://inspirehep.net/literature/535327)\]
-
-in turn following
-
-* [[Eric Bergshoeff]], [[David S. Berman]], [[Jan Pieter van der Schaar]], [[Per Sundell]]: *A Noncommutative M-Theory Five-brane*, Nucl. Phys. B **590** (2000) 173-197 \[<a href="https://doi.org/10.1016/S0550-3213(00)00476-4">doi:10.1016/S0550-3213(00)00476-4</a>, [arXiv:hep-th/0005026](https://arxiv.org/abs/hep-th/0005026)\]
-
-* [[Eric Bergshoeff]], [[David S. Berman]], [[Jan Pieter van der Schaar]], [[Per Sundell]]: *Critical fields on the M5-brane and noncommutative open strings*,  Phys. Lett. B **492** (2000) 193-200 \[<a href="https://doi.org/10.1016/S0370-2693(00)01081-9">doi:10.1016/S0370-2693(00)01081-9</a>, [arXiv:hep-th/0006112](https://arxiv.org/abs/hep-th/0006112)\]
-
-* [[Rajesh Gopakumar]], [[Shiraz Minwalla]], [[Nathan Seiberg]], [[Andrew Strominger]]: *OM Theory in Diverse Dimensions*,  JHEP08 (2000) 008 \[<a href="https://iopscience.iop.org/article/10.1088/1126-6708/2000/08/008">doi:10.1088/1126-6708/2000/08/008</a>, [arXiv:hep-th/0006062](https://arxiv.org/abs/hep-th/0006062)\]
-[[Private notes on derived cats and k-linear cats]]
