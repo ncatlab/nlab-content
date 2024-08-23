@@ -115,7 +115,7 @@ Discussion in the context of [[Lie theory]]:
 
 * [[Joachim Hilgert]], [[Karl-Hermann Neeb]], *Lie Semigroups and their Applications*. Lecture Notes in Mathematics **1552**, Springer 1993 ([doi:10.1007/BFb0084640](https://link.springer.com/book/10.1007/BFb0084640))
 
-
+category: algebra
 
 [[!redirects semigroup]]
 [[!redirects semigroups]]
