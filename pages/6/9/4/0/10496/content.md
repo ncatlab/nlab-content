@@ -211,9 +211,9 @@ The proposal that ground state degeneracy is a signature of "topological order":
 
 * {#Wen91} [[Xiao-Gang Wen]], *Non-Abelian statistics in the fractional quantum Hall states*, Phys. Rev. Lett. **66** (1991) 802 &lbrack;[doi:10.1103/PhysRevLett.66.802](https://doi.org/10.1103/PhysRevLett.66.802), [pdf](https://xgwen.mit.edu/sites/default/files/documents/nab.pdf)&rbrack;
 
-* {#Wen93} [[Xiao-Gang Wen]], *Topological order and edge structure of $\nu = 1/2$ quantum Hall state*, Phys. Rev. Lett. **70** (1993) 355 $[$[doi:10.1103/PhysRevLett.70.355](https://doi.org/10.1103/PhysRevLett.70.355)$]$
+* {#Wen93} [[Xiao-Gang Wen]], *Topological order and edge structure of $\nu = 1/2$ quantum Hall state*, Phys. Rev. Lett. **70** (1993) 355 \[<a href="https://doi.org/10.1103/PhysRevLett.70.355">doi:10.1103/PhysRevLett.70.355</a>\]
 
-* {#Wen95} [[Xiao-Gang Wen]], *Topological orders and Edge excitations in FQH states*, Advances in Physics **44** (1995) 405 $[$[arXiv:cond-mat/9506066v2](https://arxiv.org/abs/cond-mat/9506066v2), [doi:10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)$]$
+* {#Wen95} [[Xiao-Gang Wen]], *Topological orders and Edge excitations in FQH states*, Advances in Physics **44** (1995) 405 \[<a href="https://doi.org/10.1080/00018739500101566">doi:10.1080/00018739500101566</a>, [arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066)\]
 
 The additional requirement that the Berry connection be non-abelian (and/or the presence of anyons):
 
@@ -263,14 +263,14 @@ See also:
 
 ### Early discovery articles
 
-* [[Xiao-Gang Wen]], [_Vacuum Degeneracy of Chiral Spin State in Compactified Spaces_](http://dao.mit.edu/~wen/pub/dgn.pdf), Phys. Rev. B, 40, 7387 (1989).
+* [[Xiao-Gang Wen]]: *Vacuum Degeneracy of Chiral Spin State in Compactified Spaces*, Phys. Rev. B **40** 7387 (1989) \[<a href="https://doi.org/10.1103/PhysRevB.40.7387">doi:10.1103/PhysRevB.40.7387</a>\]
 
-* [[Xiao-Gang Wen]], [_Topological Orders in Rigid States_](http://dao.mit.edu/~wen/pub/topo.pdf), Int. J. Mod. Phys. B4, 239 (1990)
+* [[Xiao-Gang Wen]]: *Topological Orders in Rigid States*, Int. J. Mod. Phys. B **4** 239 (1990) \[<a href="https://doi.org/10.1142/S0217979290000139">doi:10.1142/S0217979290000139</a>, [pdf](https://xgwen.mit.edu/sites/default/files/documents/topo.pdf)\]
 
-* [[Xiao-Gang Wen]] and Qian Niu,  [_Ground state degeneracy of the FQH states in presence of random potential and on high genus Riemann surfaces_](http://dao.mit.edu/~wen/pub/topWN.pdf), Phys. Rev. B41, 9377 (1990)
+* [[Xiao-Gang Wen]], Qian Niu:  *Ground state degeneracy of the FQH states in presence of random potential and on high genus Riemann surfaces*, Phys. Rev. B **41** 9377 (1990) \[<a href="https://doi.org/10.1103/PhysRevB.41.9377">doi:10.1103/PhysRevB.41.9377</a>\]
 
-* E. Keski-Vakkuri and [[Xiao-Gang Wen]], [Ground state structure of hierarchical QH states on torus and modular transformation](http://dao.mit.edu/~wen/pub/kw.pdf)
-Int. J. Mod. Phys. B7, 4227 (1993). 
+* E. Keski-Vakkuri, [[Xiao-Gang Wen]]: *Ground state structure of hierarchical QH states on torus and modular transformation*,
+Int. J. Mod. Phys. B **7** 4227 (1993) \[<a href="https://doi.org/10.1142/S0217979293003644">doi:10.1142/S0217979293003644</a>, [arXiv:hep-th/9303155](https://arxiv.org/abs/hep-th/9303155)\]
 
 
 ### Examples of topologically ordered materials
