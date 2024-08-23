@@ -282,6 +282,10 @@ The [[functional determinant]] of Laplace operator on a given space of [[differe
 
 * [[heat kernel]]
 
+* [[harmonic function]]
+
+* [[harmonic map]]
+
 * [[harmonic form]], [[Hodge theory]]
 
 * [[hearing the shape of a drum]]
