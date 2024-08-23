@@ -17,11 +17,17 @@ Interview on [[topological order]]:
 
 Introducing and developing the notion of [[topological order]]:
 
-* {#Wen89} [[Xiao-Gang Wen]], *Vacuum degeneracy of chiral spin states in compactified space*, Phys. Rev. B **40** (1989) 7387(R) $[$[doi:10.1103/PhysRevB.40.7387](https://doi.org/10.1103/PhysRevB.40.7387)$]$
+* [[Xiao-Gang Wen]], *Vacuum Degeneracy of Chiral Spin State in Compactified Spaces*, Phys. Rev. B **40** 7387 (1989) \[<a href="https://doi.org/10.1103/PhysRevB.40.7387">doi:10.1103/PhysRevB.40.7387</a>\]
 
-* {#WenNiu90} [[Xiao-Gang Wen]],  Q. Niu, *Ground-state degeneracy of the fractional quantum Hall states in the presence of a random potential and on high-genus Riemann surfaces*, Phys. Rev. B **41** (1990) 9377 $[$[doi:10.1103/PhysRevB.41.9377](https://doi.org/10.1103/PhysRevB.41.9377)$]$
+* [[Xiao-Gang Wen]], *Topological Orders in Rigid States*, Int. J. Mod. Phys. B **4** 239 (1990) \[<a href="https://doi.org/10.1142/S0217979290000139">doi:10.1142/S0217979290000139</a>, [pdf](https://xgwen.mit.edu/sites/default/files/documents/topo.pdf)\]
+
+* [[Xiao-Gang Wen]], Qian Niu: *Ground state degeneracy of the FQH states in presence of random potential and on high genus Riemann surfaces*, Phys. Rev. B **41** 9377 (1990) \[<a href="https://doi.org/10.1103/PhysRevB.41.9377">doi:10.1103/PhysRevB.41.9377</a>\]
 
 * {#Wen91} [[Xiao-Gang Wen]], *Non-Abelian statistics in the fractional quantum Hall states*, Phys. Rev. Lett. **66** (1991) 802 ([doi:10.1103/PhysRevLett.66.802](https://doi.org/10.1103/PhysRevLett.66.802))
+
+* E. Keski-Vakkuri, [[Xiao-Gang Wen]]: *Ground state structure of hierarchical QH states on torus and modular transformation*,
+Int. J. Mod. Phys. B **7** 4227 (1993) \[<a href="https://doi.org/10.1142/S0217979293003644">doi:10.1142/S0217979293003644</a>, [arXiv:hep-th/9303155](https://arxiv.org/abs/hep-th/9303155)\]
+
 
 * {#Wen93} [[Xiao-Gang Wen]], *Topological order and edge structure of $\nu = 1/2$ quantum Hall state*, Phys. Rev. Lett. **70** (1993) 355 $[$[doi:10.1103/PhysRevLett.70.355](https://doi.org/10.1103/PhysRevLett.70.355)$]$
 
