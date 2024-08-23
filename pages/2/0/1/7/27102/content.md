@@ -118,7 +118,7 @@ Given an [[invariant measure]] $p$ on $X$, we call $f$ **almost surely harmonic*
 
 ## See also
 
-* [[harmonic map]]
+* [[harmonic map]], [[harmonic form]]
 
 * [[Laplace operator]]
 
