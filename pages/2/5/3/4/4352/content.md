@@ -31,7 +31,19 @@ $\mathcal{P}(H)$ is the notation for the [[power set]] of $H$. A related variant
 
 The additive structure underlying a [[hyperring]] is a canonical hypergroup. See there for more examples.
 
-## Literature
+## Related pages
+
+* [[group]]
+
+* [[hypermagma]]
+
+* [[hypermonoid]]
+
+* [[hyperring]]
+
+* [[hypergraph]]
+
+## References
 
 See also at [[hypermagma]] and [[multivalued group]].
 
