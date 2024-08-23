@@ -877,9 +877,14 @@ The [[shifted C-field flux quantization condition]] was originally proposed in
 
 * {#Witten96b} [[Edward Witten]], _Five-Brane Effective Action In M-Theory_, J. Geom. Phys. 22:103-133, 1997 ([arXiv:hep-th/9610234](https://arxiv.org/abs/hep-th/9610234))
 
-Proposals to model the condition by a [[Wu class]]-shifted variant of [[ordinary differential cohomology]] include the following:
+Proposals to model the condition by a [[Wu class]]-shifted variant of [[ordinary differential cohomology]]:
 
 * {#DiaconescuFreedMoore03} [[Duiliu-Emanuel Diaconescu]], [[Dan Freed]], [[Greg Moore]],  _The $M$-theory 3-form and $E_8$-gauge theory_, chapter in [[Haynes Miller]], [[Douglas Ravenel]] (eds.) _Elliptic Cohomology Geometry, Applications, and Higher Chromatic Analogues_, Cambridge University Press 2007 &lbrack;[arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069), [doi:10.1017/CBO9780511721489](https://doi.org/10.1017/CBO9780511721489)&rbrack;
+
+picked up e.g. in 
+
+* [[Ron Donagi]], [[Martin Wijnholt]]: *The M-Theory Three-Form and Singular Geometries* &lbrack;[arXiv:2310.05838](https://arxiv.org/abs/2310.05838)&rbrack;
+
 
 A related model of the C-field in terms of [[nonabelian bundle 2-gerbe|nonabelian]] [[bundle 2-gerbes]]:
 
