@@ -70,17 +70,21 @@ On [[R-parity]]:
 
 On [[Hopf-Wess-Zumino terms]]:
 
-
-* {#WilczekZee84} [[Frank Wilczek]] and [[Anthony Zee]], _Linking Numbers, Spin, and Statistics of Solitons_, Phys. Rev. Lett. 51, 2250, 1983 ([doi:10.1103/PhysRevLett.51.2250](https://doi.org/10.1103/PhysRevLett.51.2250))
+* {#WilczekZee84} [[Frank Wilczek]] and [[Anthony Zee]], _Linking Numbers, Spin, and Statistics of Solitons_, Phys. Rev. Lett. **51** (1983) 2250 &lbrack;[doi:10.1103/PhysRevLett.51.2250](https://doi.org/10.1103/PhysRevLett.51.2250)&rbrack;
 
 On the [[landscape of string theory vacua]] and the [[multiverse]]:
 
 * [[Frank Wilczek]], _Multiversality_ ([arXiv:1307.7376](http://arxiv.org/abs/1307.7376))
 
+On [[axions]], [[anyons]] and [[quantum entanglement]]:
+
+* [[Frank Wilczek]]: *Augmenting Reality: Axions, Anyons and Entangled Histories*, AlbaNova and Nordita Colloquium (2016) &lbrack;[webpage](https://www.albanova.se/event/augmenting-reality-axions-anyons-and-entangled-histories/), video:[YT](https://youtu.be/lgH9BbRuv5Q)&rbrack;
 
 
 
-## Related nLab entries
+## Related entries
+
+* [[axions]], [[anyons]]
 
 * [[Hopf-Wess-Zumino terms]]
 
