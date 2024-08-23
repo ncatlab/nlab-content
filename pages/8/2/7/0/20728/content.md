@@ -67,7 +67,7 @@ These can be seen as the laws of a [[deterministic random variable]].
 
 ### The multiplication: mixing probability measures.
 
-The multiplication of the monad is a map $P P X\to P X$ for all objects $X$. This can be thought of as of "mixing" or "averaging" probability measures. 
+The multiplication of the monad is a map $P P X\to P X$ for all objects $X$. This can be thought of as of [[convex mixture|mixing]] or [[average|averaging]] probability measures. 
 
 The following example is taken from [Perrone '19, Example 5.1.2](#notesperrone). 
 Suppose that you have two coins in your pocket. Suppose that one coin is fair, with "heads" on one face and "tails" on the other face; suppose the second coin has "heads" on both sides. Suppose now that you draw a coin randomly, and flip it.  We can sketch the probabilities in the following way:
@@ -94,7 +94,7 @@ nodes={scale=1.25}, arrows={thick},%
 ## Algebras: expectation values
 
 
-According to the interpretation of probability monads in terms of "formal generalized convex combinations", the [[algebra over a monad|algebras]] of a probability monad are then spaces equipped with a way of evaluating these expressions to a result, which we can see as a generalized "[[mixture]]", "average", or "[[expectation value]]".
+According to the interpretation of probability monads in terms of "formal generalized convex combinations", the [[algebra over a monad|algebras]] of a probability monad are then spaces equipped with a way of evaluating these expressions to a result, which we can see as a generalized "[[mixture]]", "[[average]]", or "[[expectation value]]".
 (Expectation values play a very important role in probability: probability monads can encode them via their algebras.)
 
 In other words, algebras of probability monads can be thought of as generalizations of [[convex sets]], depending on the actual category and monad in question. For example,
@@ -105,7 +105,7 @@ In other words, algebras of probability monads can be thought of as generalizati
 
 (See also the table [below](#detailed_list).)
 
-If the measure are not required to be normalized, instead of (generalized) convex combinations one should think of linear combinations with non-negative coefficients, and so as algebra one gets a generalization of [[conical spaces]] instead.
+If the measure are not required to be normalized, instead of (generalized) convex combinations one should think of linear combinations with non-negative coefficients, and so as algebras one gets a generalization of [[conical spaces]] instead.
 
 
 ## Kleisli morphisms: random maps
@@ -293,6 +293,7 @@ More on this at [[joint and marginal probability]].
 * [[joint and marginal distributions]]
 * [[probability theory]], [[measure theory]]
 * [[valuation (measure theory)]]
+* [[expectation value]]
 
 
 ## References
