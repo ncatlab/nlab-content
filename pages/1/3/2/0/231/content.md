@@ -963,6 +963,14 @@ Some remarks on different monoidal structures on the [[category of sets]]:
 
 * [Set as a monoidal category](https://github.com/punkdit/categories/blob/26b751bbcbe6765fe447e805629ff6416f4c38b1/gmane/science/mathematics/categories/4477), [[categories mailing list]]
 
+On an alternative definition of monoidal category based on a different kind of unit:
+
+* [[Joachim Kock]], _Elementary remarks on units in monoidal categories_, Mathematical Proceedings of the Cambridge Philosophical Society. Vol. 144. No. 1. Cambridge University Press, 2008.
+
+which is further discussed in the context of [[skew-monoidal categories]] in:
+
+* Jim Andrianopoulos, _Remarks on units of skew monoidal categories_, Applied Categorical Structures 25.5 (2017): 863-873.
+
 
 [[!redirects monoidal category]]
 [[!redirects monoidal categories]]
