@@ -209,6 +209,9 @@ Chapters 3,4,5 in
 
 * [[Thomas Fiore]], _Pseudo Limits, Biadjoints, and Pseudo Algebras: Categorical Foundations of Conformal Field Theory_, Mem. Amer. Math. Soc. **182** (2006), no. 860 ([arXiv:math/0408298](http://arxiv.org/abs/math/0408298)) ([AMS page](http://bookstore.ams.org/memo-182-860), [Google Books](https://books.google.com.au/books?id=y_DUCQAAQBAJ))
 
+Another example of a 2-limit is the [[category of monoids]]:
+
+* Łukasz Sienkiewicz and [[Marek Zawadowski]], _Weights for Monoids and Actions of Monoids_ [arXiv:1306.3215](https://arxiv.org/abs/1306.3215) (2013).
 
 [[!redirects 2-limits]]
 [[!redirects 2-colimit]]
