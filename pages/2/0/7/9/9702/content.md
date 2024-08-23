@@ -25,6 +25,11 @@ On the [[supergeometry|super]]-[[moduli space]] of [[super Riemann surfaces]] (p
 
 * [[Ron Donagi]], [[Nadia Ott]], *Supermoduli Space with Ramond punctures is not projected* &lbrack;[arXiv:2308.07957](https://arxiv.org/abs/2308.07957)&rbrack;
 
+On the [[supergravity C-field]] over [[ADE singularities]]:
+
+* [[Ron Donagi]], [[Martin Wijnholt]]: *The M-Theory Three-Form and Singular Geometries* &lbrack;[arXiv:2310.05838](https://arxiv.org/abs/2310.05838)&rbrack;
+
+
 
 
 
