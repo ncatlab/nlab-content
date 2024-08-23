@@ -41,3 +41,5 @@ A **reciprocal algebra** is a possibly [[non-associative algebra]] $A$, typicall
 
 * [[division algebra]]
 * [[reciprocal ring]]
+
+category: algebra
