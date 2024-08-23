@@ -48,16 +48,13 @@ See [[probability monad#algebras_expectation_values|probability monad - algebras
 ## Related concepts
 
 * [[random variable]]
-
 * [[correlation function]]
-
 * [[moment]]
-
 * [[vacuum expectation value]]
-
 * [[Feynman diagram]]
-
 * [[probability monad]]
+* [[convex mixture]]
+* [[mean]]
 
 ## References
 
