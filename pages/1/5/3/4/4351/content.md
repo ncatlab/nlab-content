@@ -76,11 +76,17 @@ $$
 
 ## Related entries
 
-* [[hypergroup]]
+* [[ring]]
 
-* [[canonical hypergroup]]
+* [[hypermagma]]
 
 * [[hypermonoid]]
+
+* [[hypergroup]]
+
+* [[hypergraph]]
+
+* [[canonical hypergroup]]
 
 ## Book
 
