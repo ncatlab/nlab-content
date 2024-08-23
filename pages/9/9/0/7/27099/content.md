@@ -45,7 +45,7 @@ $$
 such that:
 
 * $\mathrm{id}_{U(X)} \in U(\mathcal{D}[X,X])$ for every $X \in \mathrm{Ob}_\mathcal{D}$,
-* $f_{X,Y}(u);f_{Y,Z}(v) \in U(\mathcal{D}[X,Z])$ for all $X,Y,Z \in \mathrm{Ob}_\mathcal{D}$, $u \in \mathcal{D}[X,Y]$, $v \in \mathcal{D}[Y,Z]$.
+* $U(u);U(v) \in U(\mathcal{D}[X,Z])$ for all $X,Y,Z \in \mathrm{Ob}_\mathcal{D}$, $u \in \mathcal{D}[X,Y]$, $v \in \mathcal{D}[Y,Z]$.
 
 \begin{proposition}
 The set $\mathrm{Ob}_\mathcal{D}$ together with the sets $\mathcal{D}[X,Y]$ for all $X,Y \in \mathrm{Ob}_\mathcal{D}$ form a category $\mathcal{D}$ with identities and composition defined as follows:
@@ -53,7 +53,7 @@ The set $\mathrm{Ob}_\mathcal{D}$ together with the sets $\mathcal{D}[X,Y]$ for 
 * $u;v\,:= U^{-1}(U(u);U(v))$ for all $X,Y,Z \in \mathrm{Ob}_\mathcal{D}$, $u \in \mathcal{D}[X,Y]$ and $v \in \mathcal{D}[Y,Z]$,
 * $\mathrm{id}_X=U^{-1}(\mathrm{id}_{U(X)})$.
 
-Moreover the functions $U:\mathrm{Ob}_\mathcal{C}$ and $U:\mathcal{D}[X,Y] \rightarrow \mathcal{C}[U(X),U(Y)]$ for all $X,Y \in \mathrm{Ob}_\mathcal{D}$ define a faithful functor from $\mathcal{D}$ to $\mathcal{C}$.
+Moreover the functions $U:\mathrm{Ob}_\mathcal{C} \rightarrow \mathrm{Ob}_\mathcal{D}$ and $U:\mathcal{D}[X,Y] \rightarrow \mathcal{C}[U(X),U(Y)]$ for all $X,Y \in \mathrm{Ob}_\mathcal{D}$ define a faithful functor from $\mathcal{D}$ to $\mathcal{C}$.
 \end{proposition} 
 
 
