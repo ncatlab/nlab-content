@@ -32,6 +32,12 @@ identifies harmonic differential forms  with [[Dolbeault cohomology]] classes.
 
 For the moment see at _[[Hodge theory]]_
 
+## Related concepts
+
+* [[harmonic function]]
+
+* [[harmonic map]]
+
 ## References
 
 * [[Georges de Rham]], Chapter V of: *Differentiable Manifolds -- Forms, Currents, Harmonic Forms*, Grundlehren **266**, Springer (1984) &lbrack;[doi:10.1007/978-3-642-61752-2](https://doi.org/10.1007/978-3-642-61752-2)&rbrack;
