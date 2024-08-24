@@ -4,6 +4,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Algebraic geometry
++-- {: .hide}
+[[!include algebraic geometry - contents]]
+=--
 #### Geometry
 +-- {: .hide}
 [[!include higher geometry - contents]]
@@ -115,7 +119,7 @@ Hence, a proper map of spaces $f\,:\, X \to Y$ will induce a proper map of 1-top
 
 * Daniel Halpern-Leistner, Anatoly Preygel, _Mapping stacks and categorical notions of properness_, [arxiv/1402.3204](http://arxiv.org/abs/1402.3204)
 
-
+category: algebraic geometry
 [[!redirects proper morphism]]
 [[!redirects proper morphisms]]
 [[!redirects proper scheme]]
