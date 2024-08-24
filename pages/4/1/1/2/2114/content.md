@@ -23,7 +23,7 @@ Historically, there were several formalisms of various schools including the Ita
 
 ## Definition
 
-Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ usually means either a quasiprojective variety or an abstract variety (in the sense of Serre). 'Quasiprojective' unifies affine, quasiaffine, [[projective variety|projective]] and embedded  quasiprojective $k$-varieties. Many modern sources by a variety mean a reduced separated scheme of finite type over a field, often requiring also irreducibility (that is integral = reduced and irreducible). 
+Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ usually means either a [[quasiprojective variety]] or an abstract variety (in the sense of Serre). 'Quasiprojective' unifies affine, quasiaffine, [[projective variety|projective]] and embedded  quasiprojective $k$-varieties. Many modern sources by a variety mean a reduced separated scheme of finite type over a field, often requiring also irreducibility (that is integral = reduced and irreducible). 
 
 * An embedded affine $k$-variety (or an affine algebraic set) is a set of zeros of a locus of common zeros of a set of polynomial equations in the affine space $\mathbf{A}^n_k$. By the Hilbert [[Nullstellensatz]] there is a more invariant definition. __[[affine variety|Affine]]__ $k$-varieties are [[maximal spectrum|maximal spectra]] (= sets of [[maximal ideals]]) of finitely generated [[noetherian ring|noetherian]] (commutative unital) $k$-[[commutative algebra|algebras]] without [[nilpotent element|nilpotents]] with the [[Zariski topology]]; the algebra can be recovered as the coordinate ring of the variety; this correspondence is an equivalence of categories, if the morphisms are properly defined.
 
@@ -42,6 +42,8 @@ Morphisms between varieties are sometimes called [[regular maps]].
 Sometimes a smooth algebraic variety may also be called __algebraic manifold__. 
 
 An abstract $k$-prevariety in the sense of Serre is a locally ringed space which is locally isomorphic to affine $k$-variety. The category of $k$-prevarieties has a product which is obtained by locally gluing products in the category of affine $k$-varieties. This enables defining a diagonal $X\to X\to X$; a prevariety is separated, or an abstract $k$-variety if the diagonal is closed in Zariski topology (which is, of course, not a product of Zariski topologies of factors).
+
+Morphisms of algebraic varieties are what is also called [[regular map]]s (those which are locally in affine coordinates restrictions of polynomial maps among ambient affine spaces), see there.
 
 ## Properties
 
