@@ -3,7 +3,7 @@
 
 The theory of [[anyon|anyonic]] [[topological order|topologically ordered]] [[quantum materials]] is often discussed assuming periodic [[boundary conditions]], making the space of positions of a given [[anyon]] a [[torus]]. (While this is a dubious assumption for position-space anyons in actual experiment, the intended ground state-degeracy crucially depends on this assumption.)
 
-In fact the notion of [[topological order]] was introduced assuming [[torus]]-shaped materials:
+In fact, the notion of [[topological order]] was introduced assuming [[torus]]-shaped materials:
 
 * [[Xiao-Gang Wen]]: *Vacuum Degeneracy of Chiral Spin State in Compactified Spaces*, Phys. Rev. B **40** 7387 (1989) \[<a href="https://doi.org/10.1103/PhysRevB.40.7387">doi:10.1103/PhysRevB.40.7387</a>\]
 
@@ -38,6 +38,9 @@ Explicit discussion of [[anyons]] on [[tori]]:
 
 * Ikuo Ichinose, Toshiyuki Ohbayashi: *Exactly soluble model of multispecies anyons and the braid group on a torus*,     Nucl.Phys. B **419** (1994) 529-552 \[<a href="https://doi.org/10.1016/0550-3213(94)90343-3">doi:10.1016/0550-3213(94)90343-3</a>\]
 
+* {#Kitaev03} [[Alexei Kitaev]]: *Fault-tolerant quantum computation by anyons*, Annals of Physics **303** 1 (2003) 2-30 \[<a href="https://doi.org/10.1016/S0003-4916(02)00018-0">doi:10.1016/S0003-4916(02)00018-0</a>, [arXiv:quant-ph/9707021](https://arxiv.org/abs/quant-ph/9707021)\]
+  > (introducing the [[toric code]])
+
 * Songyang Pu, [[Jainendra K. Jain]]: *Composite anyons on a torus*, Phys. Rev. B **104** (2021) 115135 \[<a href="https://doi.org/10.1103/PhysRevB.104.115135">doi:10.1103/PhysRevB.104.115135</a>, [arXiv:2106.15705](https://arxiv.org/abs/2106.15705)\]
 
 * {#Simon23} [[Steven H. Simon]]: *Anyon Vacuum on a Torus and Quantum Memory*, Section 4.3 in: *Topological Quantum*, Oxford University Press (2023) \[<a href="https://global.oup.com/academic/product/topological-quantum-9780198886723">ISBN:9780198886723</a>, [pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep28-2021.pdf), [webpage](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/topocourse2021.html)\]
@@ -46,7 +49,7 @@ Explicit discussion of [[anyons]] on [[tori]]:
 
 The [[toric code]] is a lattice model for anyons on the torus, though attempts at experimental realization usually fall back to the non-periodic planar code. Cf.:
 
-* Ruben Verresen, Mikhail D. Lukin, and Ashvin Vishwanath: *Prediction of Toric Code Topological Order from Rydberg Blockade*, Phys. Rev. X **11** (2021) 031005 \[<a href="https://doi.org/10.1103/PhysRevX.11.031005">doi:10.1103/PhysRevX.11.031005</a>\]
+* {#VLV21} Ruben Verresen, Mikhail D. Lukin, Ashvin Vishwanath: *Prediction of Toric Code Topological Order from Rydberg Blockade*, Phys. Rev. X **11** (2021) 031005 \[<a href="https://doi.org/10.1103/PhysRevX.11.031005">doi:10.1103/PhysRevX.11.031005</a>\]
   > "Unfortunately, the experimental realization of such phases \[...\] has been exceedingly difficult."
 
 
