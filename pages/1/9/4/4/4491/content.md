@@ -1,4 +1,12 @@
-
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic geometry
++--{: .hide}
+[[!include algebraic geometry - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
