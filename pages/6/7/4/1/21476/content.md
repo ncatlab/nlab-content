@@ -13,6 +13,8 @@
 
   * [[essentially injective functor]]
 
+  * [[embedding of categories]]
+
   * [[essentially surjective functor]]
 
     * [[surjective-on-objects functor]]
