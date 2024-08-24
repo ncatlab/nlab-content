@@ -1,9 +1,11 @@
 
+[[anyonic topological order on tori -- references]]
+
 ### Anyonic topological order on tori
 
 The theory of [[anyon|anyonic]] [[topological order|topologically ordered]] [[quantum materials]] is often discussed assuming periodic [[boundary conditions]], making the space of positions of a given [[anyon]] a [[torus]]. (While this is a dubious assumption for position-space anyons in actual experiment, the intended ground state-degeracy crucially depends on this assumption.)
 
-In fact, the notion of [[topological order]] was introduced assuming [[torus]]-shaped materials:
+In fact, the notion of [[topological order]] was introduced already assuming [[torus]]-shaped materials:
 
 * [[Xiao-Gang Wen]]: *Vacuum Degeneracy of Chiral Spin State in Compactified Spaces*, Phys. Rev. B **40** 7387 (1989) \[<a href="https://doi.org/10.1103/PhysRevB.40.7387">doi:10.1103/PhysRevB.40.7387</a>\]
 
@@ -14,7 +16,7 @@ In fact, the notion of [[topological order]] was introduced assuming [[torus]]-s
 * E. Keski-Vakkuri, [[Xiao-Gang Wen]]: *Ground state structure of hierarchical QH states on torus and modular transformation*,
 Int. J. Mod. Phys. B **7** 4227 (1993) \[<a href="https://doi.org/10.1142/S0217979293003644">doi:10.1142/S0217979293003644</a>, [arXiv:hep-th/9303155](https://arxiv.org/abs/hep-th/9303155)\]
 
-Further discussion:
+Further discussion along these lines: 
 
 * Zhu-Xi Luo, Yu-Ting Hu, Yong-Shi Wu: *On Quantum Entanglement in Topological Phases on a Torus*, Phys. Rev. B **94** 075126 (2016) \[<a href="https://doi.org/10.1103/PhysRevB.94.075126">doi:10.1103/PhysRevB.94.075126</a>, [arXiv:1603.01777](https://arxiv.org/abs/1603.01777)\]
 
@@ -46,9 +48,25 @@ Explicit discussion of [[anyons]] on [[tori]]:
 
 * Shang Liu: *Anyon quantum dimensions from an arbitrary ground state wave function*, Nature Communications **15** (2024) 5134 \[<a href="https://doi.org/10.1038/s41467-024-47856-7">doi:10.1038/s41467-024-47856-7</a>, [arXiv:2304.13235](https://arxiv.org/abs/2304.13235)\]
 
-Proposals to classify [[topological order|toplogically ordered]] [[quantum systems]] by [[topological quantum field theory]] tacitly imply considering them on non-trivial base spaces such as [[tori]]:
+
+But anyonic states may alternatively be localized in more abstract spaces.Anyons localized not in position space but in "reciprocal momentum space", namely on the [[Brillouin torus]] of quasi-[[momenta]] of [[electrons]] in a [[crystal]], are considered in 
+
+* {#SatiSchreiber22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Reviews in Mathematical Physics **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>, [arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\]
+
+
+Proposals to classify (free or interacting) [[topological phases of matter]] by [[topological quantum field theory]], consider them on all base space topologies (including [[tori]]):
+
+* [[Anton Kapustin]]: *Symmetry Protected Topological Phases, Anomalies, and Cobordisms: Beyond Group Cohomology* \[<a href="https://inspirehep.net/literature/1283873">spire:1283873</a>, [arXiv:1403.1467](https://arxiv.org/abs/1403.1467)\]
+  > "Our basic assumption is that a gapped state of matter with short-range interactions can be put on a curved space-time of arbitrary topology \[...\] At short distances a system is usually defined on a regular lattice, with short-range interactions. However, if we allow for disorder, then dislocations in the lattice are possible, and more general triangulations also become possible" 
+
+* [[Anton Kapustin]]: *Bosonic Topological Insulators and Paramagnets: a view from cobordisms* \[<a href="https://inspirehep.net/literature/1292830">spire:1292830</a>, <a href="https://arxiv.org/abs/1404.6659">arXiv:1404.6659</a>\]
+  > "SPT phases are usually defined on a spatial lattice, while time may or may not be discretized. In the effective action approach we want to allow space-time to have an arbitrary topology, thus we discretize both space and time and regard the system as being defined on a general triangulation $K$ of a $d$-dimensional manifold $X$."
+
 
 * [[Daniel S. Freed]], [[Michael J. Hopkins]]: *Reflection positivity and invertible topological phases*, Geom. Topol. **25** (2021) 1165-1330 \[<a href="https://doi.org/10.2140/gt.2021.25.1165">doi:10.2140/gt.2021.25.1165</a>, [arXiv:1604.06527](https://arxiv.org/abs/1604.06527)\]
+
+* Kazuya Yonekura: *On the cobordism classification of symmetry protected topological phases*, Commun. Math. Phys. **368**  (2019) 1121–1173 \[<a href="https://doi.org/10.1007/s00220-019-03439-y">doi:10.1007/s00220-019-03439-y</a>, [arXiv:1803.10796](https://arxiv.org/abs/1803.10796)\]
+
 
 * {#Simon23} [[Steven H. Simon]], *Anyons and Topological Quantum Field Theories*, Part I of: *Topological Quantum*, Oxford University Press (2023) \[<a href="https://global.oup.com/academic/product/topological-quantum-9780198886723">ISBN:9780198886723</a>, [pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep28-2021.pdf), [webpage](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/topocourse2021.html)\]
 
@@ -60,12 +78,6 @@ Critical commentary on the assumption of non-trivial topology in position space 
   > "If one takes the information-theoretic perspective that a phase of matter is fully characterized by the local entanglement properties of the ground-state wavefunction of the system, with no reference to a time evolution, then even more work may be needed."
 
   > "These concerns are not just abstract. Given some phase of matter, in the lab or in a computer, it is hard to extract the data which would pin down the corresponding TQFT, or even know if the TQFT exists. For example, we can hardly place a three-dimensional material on a non-trivial space-manifold. We can only try to simulate that by employing judicious collections of defects in flat space."
-
-But anyonic states may alternatively be localized in more abstract spaces. 
-
-Anyons localized on "reciprocal momentum space", namely on the [[Brillouin torus]] of quasi-[[momenta]] of [[electrons]] in a [[crystal]], are considered in 
-
-* {#SatiSchreiber22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Reviews in Mathematical Physics **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>, [arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\]
 
 
 
