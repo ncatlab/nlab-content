@@ -2,6 +2,11 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebraic geometry
++--{: .hide}
+[[!include algebraic geometry - contents]]
+=--
+
 #### Geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
@@ -15,7 +20,7 @@
 
 ## Idea
 
-In [[algebraic geometry]], __algebraic variety__  (not to be confused with [[variety of algebras]]) is a [[scheme]] which is [[integral scheme|integral]], [[separated]] and of [[finite type]] over an [[algebraically closed field]] $k$.
+In [[algebraic geometry]], __algebraic variety__  (not to be confused with [[variety of algebras]]) is a [[scheme]] which is [[integral scheme|integral]], [[separated scheme|separated]] and of [[finite type]] over an [[algebraically closed field]] $k$.
 
 Classically, the term algebraic variety referred to a [[scheme]] as above which is further [[quasi-projective scheme|quasi-projective]], i.e. admits a locally closed embedding into [[projective space]].  Thus, these were objects which locally are cut out inside [[projective space]] as the geometric locus of zeros of a set of [[polynomial]] equations in finitely many variables.  (The first example of an algebraic variety which is not quasi-projective was given by [[Nagata]].)
 
