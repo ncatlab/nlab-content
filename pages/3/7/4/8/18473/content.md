@@ -74,6 +74,8 @@ Probably the most common embedding of categories encountered is the [[Yoneda emb
 
 * [[subcategory]]
 
+[[!include properties of functors -- contents]]
+
 ## References 
 
 * {#AHS} [[Jiří Adámek]], [[Horst Herrlich]], and [[George Strecker]], *Abstract and Concrete Categories: The Joy of Cats*, John Wiley and Sons 1990. ([Online edition](http://katmat.math.uni-bremen.de/acc/)) 
@@ -81,3 +83,4 @@ Probably the most common embedding of categories encountered is the [[Yoneda emb
 * {#Riehl} [[Emily Riehl]], *Category Theory in Context*, Dover Publications, Inc. 2016. ([pdf](http://www.math.jhu.edu/~eriehl/context.pdf)) 
 
 [[!redirects embedding of categories]]
+[[!redirects embeddings of categories]]
