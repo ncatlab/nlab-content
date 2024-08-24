@@ -18,7 +18,6 @@ Further discussion:
 
 * Zhu-Xi Luo, Yu-Ting Hu, Yong-Shi Wu: *On Quantum Entanglement in Topological Phases on a Torus*, Phys. Rev. B **94** 075126 (2016) \[<a href="https://doi.org/10.1103/PhysRevB.94.075126">doi:10.1103/PhysRevB.94.075126</a>, [arXiv:1603.01777](https://arxiv.org/abs/1603.01777)\]
 
-
 * Zhuan Li, Roger S. K. Mong: *Detecting topological order from modular transformations of ground states on the torus*, Phys. Rev. B **106** (2022) 235115 \[<a href="https://doi.org/10.1103/PhysRevB.106.235115">doi:10.1103/PhysRevB.106.235115</a>\]
 
 
@@ -47,10 +46,27 @@ Explicit discussion of [[anyons]] on [[tori]]:
 
 * Shang Liu: *Anyon quantum dimensions from an arbitrary ground state wave function*, Nature Communications **15** (2024) 5134 \[<a href="https://doi.org/10.1038/s41467-024-47856-7">doi:10.1038/s41467-024-47856-7</a>, [arXiv:2304.13235](https://arxiv.org/abs/2304.13235)\]
 
-The [[toric code]] is a lattice model for anyons on the torus, though attempts at experimental realization usually fall back to the non-periodic planar code. Cf.:
+Proposals to classify [[topological order|toplogically ordered]] [[quantum systems]] by [[topological quantum field theory]] tacitly imply considering them on non-trivial base spaces such as [[tori]]:
 
-* {#VLV21} Ruben Verresen, Mikhail D. Lukin, Ashvin Vishwanath: *Prediction of Toric Code Topological Order from Rydberg Blockade*, Phys. Rev. X **11** (2021) 031005 \[<a href="https://doi.org/10.1103/PhysRevX.11.031005">doi:10.1103/PhysRevX.11.031005</a>\]
-  > "Unfortunately, the experimental realization of such phases \[...\] has been exceedingly difficult."
+* [[Daniel S. Freed]], [[Michael J. Hopkins]]: *Reflection positivity and invertible topological phases*, Geom. Topol. **25** (2021) 1165-1330 \[<a href="https://doi.org/10.2140/gt.2021.25.1165">doi:10.2140/gt.2021.25.1165</a>, [arXiv:1604.06527](https://arxiv.org/abs/1604.06527)\]
+
+* {#Simon23} [[Steven H. Simon]], *Anyons and Topological Quantum Field Theories*, Part I of: *Topological Quantum*, Oxford University Press (2023) \[<a href="https://global.oup.com/academic/product/topological-quantum-9780198886723">ISBN:9780198886723</a>, [pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep28-2021.pdf), [webpage](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/topocourse2021.html)\]
+
+Critical commentary on the assumption of non-trivial topology in position space appears for instance in:
+
+* [[Davide Gaiotto]], [[Theo Johnson-Freyd]]: *Condensations in higher categories* \[<a href="https://inspirehep.net/literature/1736539">spire:1736539</a>\]
+  > "This relationship between gapped condensed matter systems and TQFTs is perplexing, particularly so if one takes a “global” approach to TQFTs, defining them a la &lbrack;[Ati88](topological+quantum+field+theory#Atiyah89)&rbrack; in terms of partition functions attached to non-trivial Euclidean space-time manifolds and spaces of states attached to non-trivial space manifolds. From that perspective, matching a given lattice system to a TQFT would require identifying a lot of extra structure to be added to the definition of the lattice system in order to define it on discretizations of non-trivial space manifolds and to define adiabatic evolutions analogous to non-trivial space-time manifolds."
+
+  > "If one takes the information-theoretic perspective that a phase of matter is fully characterized by the local entanglement properties of the ground-state wavefunction of the system, with no reference to a time evolution, then even more work may be needed."
+
+  > "These concerns are not just abstract. Given some phase of matter, in the lab or in a computer, it is hard to extract the data which would pin down the corresponding TQFT, or even know if the TQFT exists. For example, we can hardly place a three-dimensional material on a non-trivial space-manifold. We can only try to simulate that by employing judicious collections of defects in flat space."
+
+But anyonic states may alternatively be localized in more abstract spaces. 
+
+Anyons localized on "reciprocal momentum space", namely on the [[Brillouin torus]] of quasi-[[momenta]] of [[electrons]] in a [[crystal]], are considered in 
+
+* {#SatiSchreiber22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Reviews in Mathematical Physics **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>, [arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\]
+
 
 
 
