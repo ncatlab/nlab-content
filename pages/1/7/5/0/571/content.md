@@ -75,6 +75,16 @@ The monomorphisms in the category [[Set]] of [[sets]] and [[functions]] between 
 
 =--
 
+=--
+
++-- {: .num_example #MonomorphismsInCat}
+###### Example
+**(monomorphisms in $Cat$)
+
+The monomorphisms in the category [[Cat]] of [[categories]] and [[functors]] between them are precisely the [[embeddings of categories]], i.e. the [[injective-on-objects]], [[faithful functors]].
+
+=--
+
 +-- {: .num_example}
 ###### Example
 
