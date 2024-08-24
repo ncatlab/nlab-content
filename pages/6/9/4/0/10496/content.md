@@ -177,6 +177,7 @@ If the [[electromagnetic field|Coulomb]] interaction between the electrons -- wh
 
 * [[Z2 topological order|$\mathbb{Z}/2$]] [[spin liquid]] (see [Wikipedia](http://en.wikipedia.org/wiki/Quantum_spin_liquid#Realizations_of_.28stable.29_RVB_states))
 
+* [[toric code]]
 
 
 ## Related concepts
@@ -317,6 +318,16 @@ On detection of [[topological order]] by observing [[modular transformations]] o
 
 * [[Zhuan Li]], [[Roger S. K. Mong]], *Detecting topological order from modular transformations of ground states on the torus*, Phys. Rev. B **106** (2022) 235115 &lbrack;[doi:10.1103/PhysRevB.106.235115](https://doi.org/10.1103/PhysRevB.106.235115), [arXiv:2203.04329](https://arxiv.org/abs/2203.04329)&rbrack;
 
+On [[thermodynamics|thermodynamic]] stability of topological order:
+
+* {#NussinovOrtiz08} [[Zohar Nussinov]], [[Gerardo Ortiz]]: *Autocorrelations and Thermal Fragility of Anyonic Loops in Topologically Quantum Ordered Systems*, Phys. Rev. B **77** x (2008) Phys. Rev. B 77, 064302 \[<a href="https://doi.org/10.1103/PhysRevB.77.064302">doi:10.1103/PhysRevB.77.064302</a>, [arXiv:0709.2717](https://arxiv.org/abs/0709.2717), [arXiv:0709.2717](https://arxiv.org/abs/0709.2717)\]
+
+* [[Zohar Nussinov]], [[Gerardo Ortiz]]: *Symmetry and Topological Order*, Proceedings of the National Academy of Sciences **106** 40 (2009) 16944-16949 \[<a href="https://doi.org/10.1073/pnas.0803726105">doi:10.1073/pnas.0803726105</a>, [arXiv:cond-mat/0605316](https://arxiv.org/abs/cond-mat/0605316)\]
+
+* [[Zohar Nussinov]], [[Gerardo Ortiz]]: *A symmetry principle for Topological Quantum Order*, Annals of Physics **324** 5 (2009) 977-1057 \[<a href="https://doi.org/10.1016/j.aop.2008.11.002">doi:10.1016/j.aop.2008.11.002</a>, [arXiv:cond-mat/0702377](https://arxiv.org/abs/cond-mat/0702377)\]
+
+* [[Zohar Nussinov]], [[Gerardo Ortiz]]: *Sufficient symmetry conditions for Topological Quantum Order*, PNAS **106** 40 (2009) 16944-16949 \[<a href="https://doi.org/10.1073/pnas.080372610">doi:10.1073/pnas.080372610</a>\]
+
 
 See also:
 
@@ -355,9 +366,9 @@ Nucl. Phys. B419, 455 (1994).
 
 
 
-Discussion via [[twisted equivariant K-theory]]:
+Discussion in "reciprocal momentum space" via [[twisted equivariant K-theory]]:
 
-* {#SatiSchreiber22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]* &lbrack;[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)&rbrack;
+* {#SatiSchreiber22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Reviews in Mathematical Physics **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>, [arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\]
 
 Discussion of [[quantum measurement]] of topologically ordered states:
 
