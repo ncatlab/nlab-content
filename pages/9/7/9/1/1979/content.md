@@ -48,15 +48,15 @@ Noncommutative projective spaces, noncommutative grassmannians, universal noncom
 
 * A. Rosenberg, _Noncommutative schemes_, Compos. Math. __112__ (1998) 93--125, [doi](http://dx.doi.org/10.1023/A:1000479824211)
 
-* P. Gabriel, M. Zisman, _Calculus of Fractions and Homotopy Theory_, Springer 1967.
+* [[Pierre Gabriel|P. Gabriel]], M. Zisman, _Calculus of Fractions and Homotopy Theory_, Springer 1967.
 
-* S. Paul Smith, _Subspaces of non-commutative spaces_, Trans. Amer. Math. Soc. __354__(2002), 2131--2171
+* [[S. Paul Smith]], _Subspaces of non-commutative spaces_, Trans. Amer. Math. Soc. __354__(2002), 2131--2171
 
-* V. A. Lunts, A. L. Rosenberg, _Localization for quantum groups_, Selecta Math. (N.S.) 5 (1999), no. 1, pp. 123--159.
+* [[V. A. Lunts]], A. L. Rosenberg, _Localization for quantum groups_, Selecta Math. (N.S.) 5 (1999), no. 1, pp. 123--159.
 
 * Z. &#352;koda, _Some equivariant constructions in noncommutative geometry_, Georgian Math. J. __16__ (2009) 1; 183--202 ([arXiv:0811.4770](http://front.math.ucdavis.edu/0811.4770))
 
-* F. van Oystaeyen, L. Willaert, _Grothendieck topology, coherent sheaves and Serre's theorem for schematic algebras_, J. Pure Appl. Alg. __104__(1995), p. 109--122
+* [[Fred van Oystaeyen]], [[Luc Willaert]], _Grothendieck topology, coherent sheaves and Serre's theorem for schematic algebras_, J. Pure Appl. Alg. __104__(1995), p. 109--122
 
 * M. Artin, J. Zhang, _Noncommutative projective schemes_, Adv. Math. 109, 228--287 (1994).
 
