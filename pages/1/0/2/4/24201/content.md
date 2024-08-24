@@ -96,6 +96,8 @@ The localization $L_F(X)$ of a type $X$ at a family of types $F:\prod_{i:I} S(i)
 
 * [[localization at an object]]
 
+* [[null type]]
+
 ## References
 
 * [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
