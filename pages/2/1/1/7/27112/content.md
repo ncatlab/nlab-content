@@ -11,4 +11,5 @@ Smith's [research page](https://sites.math.washington.edu/~smith/Research/resear
 * [[S. Paul Smith]], _Subspaces of non-commutative spaces_, Trans. Amer. Math. Soc. __354__(2002), 2131--2171
 
 category: people
+
 [[!redirects S. Paul Smith]]
