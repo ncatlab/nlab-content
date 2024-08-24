@@ -388,6 +388,8 @@ Discussion of [[quantum measurement]] of topologically ordered states:
 
 
 
+[[!include anyonic topological order on tori -- references]]
+
 
 
 ### Further resources
