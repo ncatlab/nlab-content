@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -20,17 +21,19 @@
 ## Idea
  {#Idea}
 
-A _tensor category_ is usually understood to be a [[monoidal category]] equipped with further "[[linear algebra|linear algebraic]]" [[properties]] and [[structure]], hence with [[monoidal category|monoidal]]-[[structure]] given by a kind of [[tensor product]] in the original sense (i.e. actually being a universal [[bilinear map]] of sorts) whence the name.
+Some authors use "tensor category" essentially as a synonym for ([[symmetric monoidal category|symmetric]]) [[monoidal categories]] (e.g. [Davydov 1998](#Davydov98), [Kashiwara & Schapira 2006, Def. 4.2.1](#KashiwaraSchapira06)).
+
+These days, a _tensor category_ is usually understood to be a [[monoidal category]] equipped with further "[[linear algebra|linear algebraic]]" [[properties]] and [[structure]], hence with [[monoidal category|monoidal]]-[[structure]] given by a kind of [[tensor product]] in the original sense (i.e. actually being a universal [[bilinear map]] of sorts) whence the name.
 
 Conventions differ, but at the very least one means 
 
 * a [[monoidal category]],
 
-which is typically required to be
+which is at times required to be
 
 * [[symmetric monoidal category|symmetric monoidal]] 
 
-   (and if it is only [[braided monoidal category|braided monoidal]] one speaks of a _quasitensor category_),
+  (e.g [Deligne 1990](#Deligne90) in (2.1.1); [Davydov 1998](#Davydov98) says "tensor category" for [[symmetric monoidal categories]] and "quasitensor category" for [[braided monoidal categories]]),
 
 * ([[Ab]], [[tensor product of abelian groups|$\otimes$]])-[[enriched category|enriched]] or ([[Vect]],[[tensor product of vector spaces|$\otimes$]])-[[enriched category|enriched]],
 
@@ -62,15 +65,18 @@ and, in addition, often
 
 * [[tensor network]]
 
+
 ## References
 
-* {#Deligne90} [[Pierre Deligne]], section 2 of _[[Catégories Tannakiennes]]_, Grothendieck Festschrift, vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp. 111-195 ([pdf](https://publications.ias.edu/sites/default/files/60_categoriestanna.pdf))
+* {#Deligne90} [[Pierre Deligne]], section 2 of: _[[Catégories Tannakiennes]]_, Grothendieck Festschrift, vol. II, Birkh&#228;user Progress in Math. **87** (1990) 111-195 ([pdf](https://publications.ias.edu/sites/default/files/60_categoriestanna.pdf))
 
-* [[Bojko Bakalov]], [[Alexander Kirillov]], *Lectures on tensor categories and modular functors*, University Lecture Series **21**, Amer. Math. Soc. (2001) &lbrack;[web](http://www.math.stonybrook.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21)&rbrack;
+* {#Davydov98} [[Alexei Davydov]]: *Monoidal categories and functors*, Chapter 1 in: *Monoidal Categories*, J. Math. Sci.(New York) **88** (1998) 457-519 &lbrack;[doi:10.1007/BF02365309](https://doi.org/10.1007/BF02365309)&rbrack;
+
+* [[Bojko Bakalov]], [[Alexander Kirillov]], *Lectures on tensor categories and modular functors*, University Lecture Series **21**, Amer. Math. Soc. (2001) &lbrack;[webpage](http://www.math.stonybrook.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21), [pdf](http://math.bu.edu/people/jackwalt/research/tqft-seminar/refs/tensor_cat_mod_func.pdf)&rbrack;
 
   > (focus on [[Reshetikhin-Turaev construction]] of [[modular functors]] from [[modular tensor categories]])
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], Section 4 of: *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
+* {#KashiwaraSchapira06} [[Masaki Kashiwara]], [[Pierre Schapira]], Section 4 of: *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
 
 * [[Damien Calaque]], [[Pavel Etingof]], _Lectures on tensor categories_, IRMA Lectures in Mathematics and Theoretical Physics 12, 1-38 (2008) ([arXiv:math/0401246](https://arxiv.org/abs/math/0401246))
 
@@ -78,7 +84,7 @@ and, in addition, often
 
 * {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) &lbrack;[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205), [pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)&rbrack;
 
-* [[Alexei Davydov]], *Tensor categories*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2311.05789](https://arxiv.org/abs/2311.05789)&rbrack;
+* [[Alexei Davydov]]: *Tensor categories*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2311.05789](https://arxiv.org/abs/2311.05789)&rbrack;
 
 [[Deligne's theorem on tensor categories]] is due to
 
