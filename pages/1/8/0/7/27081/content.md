@@ -72,7 +72,7 @@
 
 * [[monoidal category]], [[Tannaka duality]]
 
-## Gebras
+## [[gebra theory|Gebras]]
 
 * [[coalgebra]], [[coring]]
 
