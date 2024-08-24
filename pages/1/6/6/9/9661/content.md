@@ -6,8 +6,8 @@
 ## Topology
 
 * [[noncommutative topology]]
-
 * [[C*-algebra]], [[Gelfand duality]]
+* [[quantale]]
 
 ## Smooth and Riemannian geometry
 
@@ -20,6 +20,10 @@
 ## Algebraic geometry
 
 * [[noncommutative algebraic geometry]]
+* [[noncommutative scheme]]
+* [[noncommutative motive]]
+* [[quantum flag variety]]
+* [[quantum Schubert cell]]
 
 ## Homotopy theory
 
@@ -30,6 +34,7 @@
   * [[homotopical structure on C*-algebras]]
 
 * [[KK-theory]], [[E-theory]]
+* [[cyclic homology]]
 
 ## Relation to physics
 
