@@ -14,13 +14,13 @@ commute.
 
 Historically contramodules seem to have first been mentioned a few times in the Eilenberg--Moore treatments of [[homological algebra]] in the 1960s and by category theorists (Vazquez, Garcia, Barr). Positselski has used them in his approach to [[semiinfinite cohomology]].
 
-* Leonid Positselski, _Homological algebra of semimodules and semicontramodules. Semi-infinite homological algebra of associative algebraic structures_, [arxiv/0708.3398](http://arxiv.org/abs/0708.3398);
+* [[Leonid Positselski]], _Homological algebra of semimodules and semicontramodules. Semi-infinite homological algebra of associative algebraic structures_, [arxiv/0708.3398](http://arxiv.org/abs/0708.3398);
 _Contramodules_, [arxiv/1503.00991](http://arxiv.org/abs/1503.00991); _Contraherent cosheaves_, [arxiv/1209.2995](http://arxiv.org/abs/1209.2995)
 
 * [[T. Brzeziński]], _Contramodules_, [pdf](http://www.irb.hr/korisnici/zskoda/BrzezinskiSplitSlides.pdf), slides at International Conference on "Categories in Geometry", Split, September 24-28, 2007.
 
 * [[T. Brzeziński]], _Hopf-cyclic homology with contramodule coefficients_, To appear in Quantum Groups and Noncommutative Spaces, M Marcolli and D Parashar (eds) Vieweg Verlag (Max-Planck Series), Preprint 2008, [arxiv:0806.0389](http://arxiv.org/abs/0806.0389)
 
-
+category: algebra
 [[!redirects contramodule]]
 [[!redirects contramodules]]
