@@ -2,6 +2,11 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebraic geometry
++--{: .hide}
+[[!include algebraic geometry - contents]]
+=--
+
 #### Geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
@@ -82,6 +87,8 @@ See also
 * Wikipedia, _[Blowing up](https://en.wikipedia.org/wiki/Blowing_up)_
 
 * Wikipedia, _[Exceptional divisor](https://en.wikipedia.org/wiki/Exceptional_divisor)_
+
+category: algebraic geometry*
 
 [[!redirects resolutions of singularities]]
 
