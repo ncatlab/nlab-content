@@ -262,5 +262,11 @@ See at _[spin group -- Exceptional isomorphisms](spin%20group#ExceptionalIsomorp
 [[!redirects Pauli matrix]]
 [[!redirects Pauli matrices]]
 
+[[!redirects Pauli operator]]
+[[!redirects Pauli operators]]
+
 [[!redirects SU(N)]]
 [[!redirects SU(n)]]
+
+
+
