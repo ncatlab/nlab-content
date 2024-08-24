@@ -1,6 +1,6 @@
 ## Idea
 
-Projective spectrum Proj assigns a locally ringed space $Proj(A)$ to a graded ring $A$. This construction has been introduced by Serre.
+Projective spectrum Proj assigns a locally ringed space $Proj(A)$ to a graded commutative ring $A$. This construction has been introduced by Serre.
 
 Serre proved two elementary theorems concerning the structure of sheaves of $\mathcal{O}_X$-modules on $X = Proj(A)$ relating graded modules over $A$ and sheaves of $\mathcal{O}_X$-modules: one on [[coherent sheaves]] and another on [[quasicoherent sheaves]]. In both cases, the sheaves correspond to objects in the localization of a category of graded modules by a torsion (Serre's) subcategory.
 
