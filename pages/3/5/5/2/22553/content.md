@@ -50,6 +50,8 @@ Much attention in [[coding theory]] is instead on the special class of *[[linear
 
   * [[Majorana dimer code]]
 
+  * [[toric code]]
+
 ## References
 
 ### General
