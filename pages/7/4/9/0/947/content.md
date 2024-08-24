@@ -41,7 +41,7 @@ A __complement__ of an element $S$ of a [[lattice]] is an element $T$ such that 
 
 If every element has a complement, one speaks of a [[complemented lattice]]. Examples are [[Boolean algebras]], and in fact complemented distributive lattices are the same thing as Boolean algebras (in the sense that the [[category]] of Boolean algebras is [[equivalence|equivalent]] to the category of complemented distributive lattices). 
 
-More generally, the __pseudocomplement__ of an element $S$ of a [[Heyting algebra]] is given by $\tilde{S} = S \Rightarrow \bot$.  This satisfies $S \wedge \tilde{S} = \bot$ but not $S \vee \tilde{S} = \top$ in general.  This case includes the complement of a subset even in [[constructive mathematics]].
+More generally, the __pseudocomplement__ of an element $S$ of a [[Heyting algebra]] is given by $\tilde{S} := (S \Rightarrow \bot)$.  This satisfies $S \wedge \tilde{S} = \bot$ but not $S \vee \tilde{S} = \top$ in general.  This case includes the complement of a subset even in [[constructive mathematics]].
 
 ### In any category
 
