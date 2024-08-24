@@ -20,10 +20,11 @@
 #### [[algebraic scheme|Algebraic schemes]]
 
 * [[prime spectrum]], [[affine scheme]]
+* [[projective scheme]]
 * [[open subscheme]], [[closed subscheme]]
 * [[reduced scheme]], [[noetherian scheme]]
 * [[regular scheme]], [[quasiseparated scheme]] 
-* [[relative scheme]]
+* [[relative scheme]], [[proper morphism]]
 * [[separated morphism of schemes]]
 * [[proper morphism of schemes]]
 * [[flat topology]], [[etale topology]]
