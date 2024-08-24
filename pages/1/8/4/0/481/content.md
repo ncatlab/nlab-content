@@ -52,6 +52,8 @@ In [[neutral constructive mathematics]], the [[inequality spaces]] form a Heytin
 
 * [[Heyting algebra]]
 
+* [[Heyting 2-category]]
+
 [[!include categories and logic - table]]
 
 ## References
