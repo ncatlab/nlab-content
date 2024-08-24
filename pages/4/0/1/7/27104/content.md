@@ -1,4 +1,4 @@
-## Classical [[algebraic geometry]]
+#### Classical [[algebraic geometry]]
 
 * [[algebraic equation]], [[semialgebraic set]]
 * [[maximal spectrum]], [[Zariski topology]]
