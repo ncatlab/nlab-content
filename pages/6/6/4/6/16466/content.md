@@ -29,6 +29,8 @@ _Deligne's theorem on tensor categories_ ([Deligne 02](#Deligne02), recalled as 
 
 1. [[supergroups]] ("[[supersymmetries]]"), realizing these tensor categories as [[categories of representations]] of these supergroups.
 
+As explained [[[tensor categories|there]], by tensor category we assume a symmetric braiding.
+
 
 ## Relevance
 
