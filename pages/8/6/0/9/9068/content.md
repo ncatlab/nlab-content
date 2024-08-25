@@ -28,7 +28,7 @@ Let $F\colon A \to B$ be a [[functor]] between [[categories]]. It is **codense**
 
 This notion is dual to the notion of [[dense functor]].
 
-Equivalently, a functor $F$ is **codense** iff $Id_B$, together with identity natural transformation $Id_F\colon F \to F$, is the pointwise [[Kan extension]] of $F$ along $F$.
+Equivalently, a functor $F$ is **codense** iff $Id_B$, together with identity natural transformation $Id_F\colon F \to F$, is the pointwise right [[Kan extension]], $Ran_F F$, of $F$ along $F$.
 
 Also, $F$ is **codense** iff  its [[codensity monad]] is the identity.
 
