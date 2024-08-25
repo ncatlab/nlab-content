@@ -723,7 +723,7 @@ $$
 
 =--
 
-([Rourke-Sanderson 00, Theorem 1, Theorem 2](#RourkeSanderson00))
+([Rourke & Sanderson 2000, Theorem 1, Theorem 2](#RourkeSanderson00))
 
 
 More generally:
