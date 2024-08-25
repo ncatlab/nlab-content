@@ -40,11 +40,11 @@ to the inclusion of [[abelian ∞-groups]] ([[connective spectra]]) into [[commu
 
 This serves to define [[algebraic K-theory of symmetric monoidal (∞,1)-categories]].
 
-In [[algebraic topology]] a key role was played by models of this process at least on [[H-spaces]] ([Quillen 71](#Quillen71), [May, def. 1.3](#May)). If $N$ is a [[topological monoid]], let $B N$ denotes its [[bar construction]] ("[[classifying space]]") and $\Omega B N$ the [[loop space]] of that. Then this 
+In [[algebraic topology]] a key role was played by models of this process at least on [[H-spaces]] ([Quillen 71](#Quillen71), [May 1974, def. 1.3](#May74)). If $N$ is a [[topological monoid]], let $B N$ denotes its [[bar construction]] ("[[classifying space]]") and $\Omega B N$ the [[loop space]] of that. Then this 
 $$
   N \longrightarrow \Omega B N
 $$
-represents the group completion of $N$ ([Quillen 71, section 9](#Quillen71), [May, theorem  1.6](#May)). This crucially enters the construction of the [[K-theory of a permutative category]].
+represents the group completion of $N$ ([Quillen 71, section 9](#Quillen71), [May 1974, theorem  1.6](#May74)). This crucially enters the construction of the [[K-theory of a permutative category]].
 
 According to ([Dwyer-Kan 80, prop. 3.7, prop. 9.2, remark 9.7](#DwyerKan80)) this indeed gives a model for the total [[derived functor]] of 1-categorical group completion.
 
@@ -59,6 +59,7 @@ According to ([Dwyer-Kan 80, prop. 3.7, prop. 9.2, remark 9.7](#DwyerKan80)) thi
 
 * [[localization of a monoid]]
 
+
 ## References
 
 Classical accounts:
@@ -69,11 +70,13 @@ Classical accounts:
 
 * {#Quillen71} [[Daniel Quillen]]: *On the group completion of a simplicial monoid*, Appendix Q in: [[Eric M. Friedlander]], [[Barry Mazur]]: *Filtrations on the homology of algebraic varieties*, Memoirs of the AMS **529** 110 (1994) 89-105 &lbrack;[doi:10.1090/memo/0529](https://doi.org/10.1090/memo/0529), [pdf](http://www.maths.ed.ac.uk/~aar/papers/quillencomp.pdf)&rbrack;
 
-* {#May} [[Peter May]], *$E_\infty$-Spaces, group completions, and permutative categories*, in: *New Developments in Topology*, Cambridge University Press (1974) 61-94  &lbrack;[doi:10.1017/CBO9780511662607.008](https://doi.org/10.1017/CBO9780511662607.008), [pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf)&rbrack;
+* {#May74} [[Peter May]], *$E_\infty$-Spaces, group completions, and permutative categories*, in: *New Developments in Topology*, Cambridge University Press (1974) 61-94  &lbrack;[doi:10.1017/CBO9780511662607.008](https://doi.org/10.1017/CBO9780511662607.008), [pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf)&rbrack;
 
 * [[Dusa McDuff]], [[Graeme Segal]]: *Homology fibrations and the “group-completion” theorem*, Inventiones mathematicae **31** (1976) 279-284 &lbrack;[doi:10.1007/BF01403148](https://doi.org/10.1007/BF01403148)&rbrack;
 
   > (on the [[Pontrjagin ring]]-structure under group completion of [[topological monoids]])
+
+* [[Peter May]], §4 in: *Infinite loop space theory*, Bull. Amer. Math. Soc. **83** 4 (1977) 456-494  &lbrack;[pdf](http://www.math.uchicago.edu/~may/PAPERS/18.pdf), [doi:10.1090/S0002-9904-1977-14318-8](https://doi.org/10.1090/S0002-9904-1977-14318-8)&rbrack;
 
 * {#DwyerKan80} [[William Dwyer]], [[Daniel Kan]], _Simplicial localization of categories_, Journal of pure and applied algebra **17** (1980) 267-284
 
@@ -84,6 +87,8 @@ and specifically concerning [[configuration spaces of points]]:
 * {#Okuyama05} [[Shingo Okuyama]]: *The space of intervals in a Euclidean space*, Algebr. Geom. Topol. **5** (2005) 1555-1572 &lbrack;[arXiv:math/0511645](https://arxiv.org/abs/math/0511645), [doi:10.2140/agt.2005.5.1555](https://doi.org/10.2140/agt.2005.5.1555)&rbrack;
 
 * [[Kazuhisa Shimakawa]]: *Labeled configuration spaces and group completions*, Forum Mathematicum (2007) 353-364 &lbrack;[doi:10.1515/FORUM.2007.014](https://doi.org/10.1515/FORUM.2007.014), [[Shimakawa-ConfigGroupCompletion.pdf:file]]&rbrack;
+
+* {#Kallel24} [[Sadok Kallel]], §4.2.3 in: *Configuration spaces of points: A user's guide*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2407.11092](https://arxiv.org/abs/2407.11092)&rbrack;
 
 Discussion of $\infty$-group completion:
 
