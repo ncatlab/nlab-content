@@ -18,18 +18,18 @@ Further discussion along these lines:
 
 * Zhu-Xi Luo, Yu-Ting Hu, Yong-Shi Wu: *On Quantum Entanglement in Topological Phases on a Torus*, Phys. Rev. B **94** 075126 (2016) \[<a href="https://doi.org/10.1103/PhysRevB.94.075126">doi:10.1103/PhysRevB.94.075126</a>, [arXiv:1603.01777](https://arxiv.org/abs/1603.01777)\]
 
-* Zhuan Li, Roger S. K. Mong: *Detecting topological order from modular transformations of ground states on the torus*, Phys. Rev. B **106** (2022) 235115 \[<a href="https://doi.org/10.1103/PhysRevB.106.235115">doi:10.1103/PhysRevB.106.235115</a>\]
+* Zhuan Li, Roger S. K. Mong: *Detecting topological order from modular transformations of ground states on the torus*, Phys. Rev. B **106** (2022) 235115 \[<a href="https://doi.org/10.1103/PhysRevB.106.235115">doi:10.1103/PhysRevB.106.235115</a>, [arXiv:2203.04329](https://arxiv.org/abs/2203.04329)\]
 
 
 Explicit discussion of [[anyons]] on [[tori]]:
 
 * [[Xiao-Gang Wen]], E. Dagotto, [[Eduardo Fradkin]]: *Anyons on a torus*, Phys. Rev. B **42** (1990) 6110  \[<a href="https://doi.org/10.1103/PhysRevB.42.6110">doi:10.1103/PhysRevB.42.6110</a>\]
 
-* Yasuhiro Hatsugai, Mahito Kohmoto, Yong-Shi Wu: *Anyons on a torus: Braid group, Aharonov-Bohm period, and numerical study*, Phys. Rev. B **43** (1991) 10761 \[<a href="https://doi.org/10.1103/PhysRevB.43.10761">doi:10.1103/PhysRevB.43.10761</a>\]
-
 * [[Roberto Iengo]], [[Kurt Lechner]]: *Quantum mechanics of anyons on a torus*, Nuclear Physics B **346** 2–3 (1990) 551-575 \[<a href="https://doi.org/10.1016/0550-3213(90)90292-L">doi:10.1016/0550-3213(90)90292-L</a>, [spire:28316](https://inspirehep.net/literature/28316)\]
 
 * [[Roberto Iengo]], [[Kurt Lechner]]: *Exact results for anyons on a torus*, Nuclear Physics B **364** 3 (1991) 551-583 \[<a href="https://doi.org/10.1016/0550-3213(91)90277-5">doi:10.1016/0550-3213(91)90277-5</a>\]
+
+* Yasuhiro Hatsugai, Mahito Kohmoto, Yong-Shi Wu: *Anyons on a torus: Braid group, Aharonov-Bohm period, and numerical study*, Phys. Rev. B **43** (1991) 10761 \[<a href="https://doi.org/10.1103/PhysRevB.43.10761">doi:10.1103/PhysRevB.43.10761</a>\]
 
 * Yutaka Hosotani, Choon-Lin Ho: *Anyons on a Torus*, AIP Conf. Proc. **272** (1992) 1466–1469 \[<a href="https://doi.org/10.1063/1.43444">doi:10.1063/1.43444</a>, [arXiv:hep-th/9210112](https://arxiv.org/abs/hep-th/9210112)\]
 
