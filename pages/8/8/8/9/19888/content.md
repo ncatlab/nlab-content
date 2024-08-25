@@ -18,6 +18,11 @@ On [[configuration spaces of points]]:
 
 * [[Sadok Kallel]], Ines Saihi, _Homotopy Groups of Diagonal Complements_, Algebr. Geom. Topol. 16 (2016) 2949-2980 ([arXiv:1306.6272](https://arxiv.org/abs/1306.6272))
 
+The abelian case of what later came to be called [[nonabelian Poincaré duality]]:
+
+* [[Sadok Kallel]]: *Particle Spaces on Manifolds and Generalized Poincaré Dualities*, Querterly Journal Math. **52** 1 (2001) 45–70 \[<a href="https://doi.org/10.1093/qjmath/52.1.45">doi:10.1093/qjmath/52.1.45</a>, [arXiv:math/9810067](https://arxiv.org/abs/math/9810067)\]
+
+
 On [[graph-indexed configuration spaces of points]]:
 
 * [[Sadok Kallel]], *The Homotopy Type of Graph Configuration Spaces*, [talk at](Center+for+Quantum+and+Topological+Systems#KallelOct2023) [[CQTS]] (Oct 2023) &lbrack;slides:[[Kallel-GraphConfiguration.pdf:file]], [YT](https://youtu.be/eNdPBkjA-eQ)&rbrack;
