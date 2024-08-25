@@ -855,7 +855,7 @@ $\,$
 #### In twisted Cohomotopy
  {#RelationToTwistedCohomotopy}
 
-The May-Segal theorem \ref{ScanningMapEquivalenceOverCartesianSpace} generalizes from [[Euclidean space]] to [[closed manifold|closed]] [[smooth manifolds]] if at the same time one passes from plain [[Cohomotopy]] to [[twisted Cohomotopy]], twisted, via the [[J-homomorphism]], by the [[tangent bundle]]:
+The May-Segal theorem \ref{ScanningMapEquivalenceOverCartesianSpace} generalizes from [[Euclidean spaces]] to [[closed manifold|closed]] [[smooth manifolds]] if at the same time one passes from plain [[Cohomotopy]] to [[twisted Cohomotopy]], namely twisted via the [[J-homomorphism]], by the [[tangent bundle]]:
 
 +-- {: .num_prop #ScanningMapEquivalenceOverClosedManifold}
 ###### Proposition
@@ -871,7 +871,7 @@ Then the [[Cohomotopy charge map]] constitutes a [[weak homotopy equivalence]]
 $$
   \underset{
     \color{blue}
-    { \phantom{a} \atop \text{ tangentaklltwisted Cohomotopy space}}
+    { \phantom{a} \atop \text{ tangentially twisted Cohomotopy space}}
   }{
     Maps_{{}_{/B O(n)}}
     \Big(
@@ -921,7 +921,7 @@ between
 
 =--
 
-([Bödigheimer 87, Prop. 2](#Boedigheimer87), following [McDuff 75](#McDuff75))
+([Bödigheimer 87, Prop. 2](#Boedigheimer87), following [McDuff 75](#McDuff75), reviewed in [Kallel 2024, Thm. 4.2](#Kallel24))
 
 +-- {: .num_prop #ScanningMapEquivalenceOverClosedFramedManifold}
 ###### Remark
@@ -1551,7 +1551,7 @@ General accounts:
 
 * {#Williams20} [[Lucas Williams]], *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8 &lbrack;[arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8)&rbrack;
 
-* [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2407.11092](https://arxiv.org/abs/2407.11092)&rbrack;
+* {#Kallel24} [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2407.11092](https://arxiv.org/abs/2407.11092)&rbrack;
 
 In relation to [[braid groups]]:
 
