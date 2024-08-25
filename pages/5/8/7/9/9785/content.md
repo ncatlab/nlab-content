@@ -92,9 +92,9 @@ Two versions of a fermionic extension of the Polyvector extensions of $\mathfrak
 
 and then a 1-parameter family of such was discovered in
 
-* {#BandosAzcarragaIzquierdoPiconVarela04} [[Igor Bandos]], [[José de Azcárraga]], J.M. Izquierdo, M. Picon, O. Varela, _On the underlying gauge group structure of D=11 supergravity_, Phys.Lett.B596:145-155,2004 ([arXiv:hep-th/0406020](http://arxiv.org/abs/hep-th/0406020))
+* {#BandosAzcarragaIzquierdoPiconVarela04} [[Igor Bandos]], [[José de Azcárraga]], [[José M. Izquierdo]], Moises Picon, Oscar Varela, _On the underlying gauge group structure of D=11 supergravity_, Phys.Lett.B **596** (2004) 145-155 \[<a href="https://doi.org/10.1016/j.physletb.2004.06.079">doi:10.1016/j.physletb.2004.06.079</a>, [arXiv:hep-th/0406020](http://arxiv.org/abs/hep-th/0406020)\]
 
-* [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, Oscar Varela, _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. 317 (2005) 238-279 ([arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100))
+* [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, Oscar Varela, _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. **317** (2005) 238-279 \[<a href="https://doi.org/10.1016/j.aop.2004.11.016">doi:10.1016/j.aop.2004.11.016</a>, [arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100)\]
 
 That a limiting case of this is given by the [[orthosymplectic super Lie algebra]] $\mathfrak{osp}(1\vert 32)$:
 
@@ -104,17 +104,17 @@ Further discussion:
 
 * {#AndrianopoliDAuriaRavera16} [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], *Hidden Gauge Structure of Supersymmetric Free Differential Algebras*, JHEP 1608 (2016) 095 &lbrack;[arXiv:1606.07328](https://arxiv.org/abs/1606.07328), <a href=" https://doi.org/10.1007/JHEP08(2016)095">doi:10.1007/JHEP08(2016)095</a>&rbrack;
 
-* [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], _More on the Hidden Symmetries of 11D Supergravity_ ([arXiv:1705.06251](https://arxiv.org/abs/1705.06251))
+* [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], _More on the Hidden Symmetries of 11D Supergravity_, Phys. Lett. B **772** (2017) 578 \[<a href="https://doi.org/10.1016/j.physletb.2017.07.016">doi:10.1016/j.physletb.2017.07.016</a>, [arXiv:1705.06251](https://arxiv.org/abs/1705.06251)\]
 
-where the algebra is referred to as the _DF-algebra_, in honor of [D'Auria-Fré 82](#DAuriaFre82).
+where the algebra is referred to as the _DF-algebra_, in honor of [D'Auria & Fré 1982](#DAuriaFre82).
 
 All this is reviewed in 
 
-* {#Azcarraga05} [[José de Azcárraga]], section 5 of _Superbranes, D=11 CJS supergravity and enlarged superspace coordinates/fields correspondence_, AIP Conf. Proc. 767:243-267, 2005 ([arXiv:hep-th/0501198](https://arxiv.org/abs/hep-th/0501198))
+* {#Azcarraga05} [[José de Azcárraga]], section 5 of: _Superbranes, $D=11$ CJS supergravity and enlarged superspace coordinates/fields correspondence_, AIP Conf. Proc. **767** (2005) 243-267 \[<a href="https://doi.org/10.1063/1.1923338">doi:10.1063/1.1923338</a>, [arXiv:hep-th/0501198](https://arxiv.org/abs/hep-th/0501198)\]
 
 also
 
-* [[Lucrezia Ravera]], *On the hidden symmetries of $D=11$ supergravity* ([arXiv:2112.00445](https://arxiv.org/abs/2112.00445))
+* [[Lucrezia Ravera]], *On the hidden symmetries of $D=11$ supergravity*, Springer Proceedings in Mathematics & Statistics **396** Springer (2021) \[<a href="https://doi.org/10.1007/978-981-19-4751-3_15">doi:10.1007/978-981-19-4751-3_15</a>, [arXiv:2112.00445](https://arxiv.org/abs/2112.00445)\]
 
 * [[Laura Andrianopoli]], [[Riccardo D'Auria]], *Supergravity in the Geometric Approach and its Hidden Graded Lie Algebra* &lbrack;[arXiv:2404.13987](https://arxiv.org/abs/2404.13987)&rbrack;
 
@@ -122,7 +122,7 @@ also
 
 Another, alternative "weak [[decomposable differential form|decomposition]]" of the M2-brane [[extended super-Minkowski spacetime]] was found in 
 
-* {#Ravera18a} [[Lucrezia Ravera]], section 3 of _Hidden Role of Maxwell Superalgebras in the Free Differential Algebras of D=4 and D=11 Supergravity_ ([arXiv:1801.08860](https://arxiv.org/abs/1801.08860))
+* {#Ravera18a} [[Lucrezia Ravera]], section 3: of _Hidden Role of Maxwell Superalgebras in the Free Differential Algebras of D=4 and D=11 Supergravity_, Eur. Phys. J. C **78** 3 (2018) 211 \[<a href="https://doi.org/10.1140/epjc/s10052-018-5673-8">doi:10.1140/epjc/s10052-018-5673-8</a>, [arXiv:1801.08860](https://arxiv.org/abs/1801.08860)\]
 
 with the interesting difference that for this splitting [[super Lie algebra]]  is non-abelian, in fact an extension of the Lie algebra of the [[Spin group]] $Spin(10,1)$ ([Ravera 18, (3.5)-(3-6)](#Ravera18)). 
 
