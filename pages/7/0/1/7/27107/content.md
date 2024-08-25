@@ -30,6 +30,8 @@ This hypothetical [[quantum system]] exhibits a simple form of [[topological ord
 
 ## References
 
+### General
+
 The original article:
 
 * {#Kitaev03} [[Alexei Kitaev]]: *Fault-tolerant quantum computation by anyons*, Annals of Physics **303** 1 (2003) 2-30 \[<a href="https://doi.org/10.1016/S0003-4916(02)00018-0">doi:10.1016/S0003-4916(02)00018-0</a>, [arXiv:quant-ph/9707021](https://arxiv.org/abs/quant-ph/9707021)\]
@@ -41,7 +43,7 @@ Review:
 * Héctor Bombín, around Fig. 9 in: *An Introduction to Topological Quantum Codes*, in: *Quantum Error Correction*, Cambridge University Press (2013) \[<a href="https://www.cambridge.org/de/universitypress/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/quantum-error-correction?format=HB&isbn=9780521897877">ISBN:9780521897877</a>, [arxiv:1311.0277](https://arxiv.org/abs/1311.0277)\]
 
 
-* Paul Herringer: *The Toric Code* (2020) \[a href="https://www.physics.rutgers.edu/grad/602/Lectures/JC_Presentations/0419/Intro_Toric_Code.pdf">pdf</a>\]
+* Paul Herringer: *The Toric Code* (2020) \[<a href="https://www.physics.rutgers.edu/grad/602/Lectures/JC_Presentations/0419/Intro_Toric_Code.pdf">pdf</a>\]
 
 See also: 
 
@@ -57,5 +59,14 @@ On the problem of its experimental realization:
 
 * {#VLV21} Ruben Verresen, Mikhail D. Lukin, Ashvin Vishwanath: *Prediction of Toric Code Topological Order from Rydberg Blockade*, Phys. Rev. X **11** (2021) 031005 \[<a href="https://doi.org/10.1103/PhysRevX.11.031005">doi:10.1103/PhysRevX.11.031005</a>\]
   > "Unfortunately, the experimental realization of such phases \[...\] has been exceedingly difficult."
+
+
+
+
+[[!include anyonic topological order on tori -- references]]
+
+
+
+
 
 
