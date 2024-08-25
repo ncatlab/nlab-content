@@ -230,6 +230,8 @@ For examples and discussion of this see
 
 ## Related concepts
 
+* [[nonabelian Poincaré duality]]
+
 * [[nonabelian de Rham cohomology]]
 
 * [[differential non-abelian cohomology]]
@@ -368,12 +370,16 @@ On [[cohomology operations]] on components of [[Whitehead-generalized cohomology
 
 * [[John Michael Boardman]], [[David Copeland Johnson]], [[W. Stephen Wilson]], _Unstable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman-Johnson-Wilson/bjw.pdf)), in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
+The suggestion that *every* ([[pointed topological space|pointed]]) [[topological space|space]] may be regarded as being the [[classifying space]] of a non-abelian cohomology theory, and that this is what defines non-abelian cohomology in general:
 
-On the non-abelian [[Chern-Dold character]]:
+* {#Schreiber09} [[Urs Schreiber]]: *[[schreiber:Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]]*, talk at *[[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]*, Oberwolfach Report **28** (2009) &lbrack;[[OWR_2009_28.pdf:file]]&rbrack;
+ > (in [[twisted cohomology|twisted]] and [[differential cohomology|differential]] generality)
+
+* {#Lurie14} [[Jacob Lurie]], *Nonabelian Poincaré Duality*, Lecture 8 in *[Tamagawa Numbers via Nonabelian Poincare Duality (282y)](https://www.math.ias.edu/~lurie/282y.html)* (2014) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/282ynotes/LectureVIII-Poincare.pdf), [[Lurie-NonabPoincareDuality.pdf:file]]&rbrack;
+  > (in view of [[nonabelian Poincaré duality]])
 
 * {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
-
-
+  > (generalizing the [[Chern-Dold character]] to nonabelian cohomology in this sense)
 
 
 
