@@ -128,7 +128,11 @@ While measure theory only gets more complicated in constructive mathematics, it 
 
 ### General
 
-For Cheng\'s theory of measure spaces, see the 1985 edition of Bishop & Bridges, _Constructive Analysis_.  (And the references therein, obviously, but I haven\'t read those.)
+For [[Henry Cheng]]'s theory of measure spaces, see
+
+* {#BishopBridges} [[Errett Bishop]], [[Douglas Bridges]]: *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
+
+* {#BishopCheng} [[Errett Bishop]], [[Henry Cheng]]. *Constructive Measure Theory*, American Mathematical Society (1972). &lbrack;ISBN:978-0821818169&rbrack;
 
 ### Relation to von Neumann algebra
  {#ReferencesRelationToVonNeumannAlgebras}
