@@ -6,9 +6,10 @@ Universit&#224; di Roma "Tor Vergata". His research interests include [[configur
 
 ## Selected writings
 
-On [[group completion]] of [[configuration spaces of points]]:
+On [[group completion]] of [[configuration spaces of points]] and aspects of what later came to be called *[[nonabelian Poincaré duality]]*:
 
-* [[Paolo Salvatore]], _Configuration spaces with summable labels_, In: Aguadé J., Broto C., [[Carles Casacuberta]]  (eds.) _Cohomological Methods in Homotopy Theory_. Progress in Mathematics, vol 196. Birkhäuser, Basel, 2001 ([arXiv:math/9907073](https://arxiv.org/abs/math/9907073))
+* [[Paolo Salvatore]]: *Configuration spaces with summable labels*, in Aguadé J., Broto C., [[Carles Casacuberta]]  (eds.): *Cohomological methods in homotopy theory* (Bellaterra, 1998), Progr. Math. **196**, Birkhäuser (2001) 375–395 \[<a href="https://doi.org/10.1007/978-3-0348-8312-2_23">doi:10.1007/978-3-0348-8312-2_23</a>, <a href="https://arxiv.org/abs/math/9907073">arXiv:math/9907073</a>\]
+
 
 On the [[framed little 2-disk operad]]:
 
