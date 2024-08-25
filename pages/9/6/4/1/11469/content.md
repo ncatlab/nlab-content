@@ -142,7 +142,8 @@ Let $X$ be a [[smooth]] [[projective variety|projective]] [[curve]] over the [[f
 
 A proof of the [[function field]] case is discussed in
 
-* {#GaitsgoryLurie} [[Dennis Gaitsgory]], [[Jacob Lurie]], _Weil's conjecture for function fields_ (2014-2017) &lbrack;["second draft" pdf](http://www.math.harvard.edu/~lurie/papers/tamagawa.pdf), ["first volume of expanded account" pdf](https://www.math.ias.edu/~lurie/papers/tamagawa-abridged.pdf)&rbrack;
+* {#GaitsgoryLurie} [[Dennis Gaitsgory]], [[Jacob Lurie]]: *Nonabelian Poincaré Duality*, section 3 in: *Weil's conjecture for function fields* (2014-2017) &lbrack;"second draft:"[pdf](https://www.math.ias.edu/~lurie/papers/tamagawa.pdf), [[GaitsgoryLurie-WeilConjecture.pdf:file]], ["first volume of expanded account" pdf](https://www.math.ias.edu/~lurie/papers/tamagawa-abridged.pdf)&rbrack;
+
 
 The proof was announced in 
 
