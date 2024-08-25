@@ -10,8 +10,9 @@ This entry collects material on the June 2009 workshop on [[string theory|string
 
 Writeups of most of the talks have appeared as 
 
-* _Strings, Field, Topology_,  Oberwolfach report No 28, 2009, ([pdf](https://www.mfo.de/document/0924/OWR_2009_28.pdf))
+* {#OWR-2009-28} _Strings, Field, Topology_,  Oberwolfach report **28** (2009) &lbrack;[pdf](https://publications.mfo.de/bitstream/handle/mfo/3129/OWR_2009_28.pdf?sequence=1&isAllowed=y), [[OWR_2009_28.pdf:file]]&rbrack;
 
+See also *[[Oberwolfach Workshop, June 2009 -- Abstracts]]*
 
 # Talks 
 
@@ -173,7 +174,7 @@ By the way, there's much more to come from Chris, he is working on the 3d theory
 
 #### Dan Freed, _Geometry and topology of orientifolds_. {#freed}
 
-Freed described recent work with [[Jacques Distler]] and Greg Moore on a certain background structure in [[string theory|superstring theory]] called an [[orientifold], which is a [[bundle gerbe]] on a $\mathbb{Z}_2$ [[orbifold]] with a peculiar "twisted" [[equivariance]] condition. There is apparantly a beautiful string theory formula to calculate the '[[RR charge]]', namely something like
+Freed described recent work with [[Jacques Distler]] and Greg Moore on a certain background structure in [[string theory|superstring theory]] called an [[orientifold]], which is a [[bundle gerbe]] on a $\mathbb{Z}_2$ [[orbifold]] with a peculiar "twisted" [[equivariance]] condition. There is apparantly a beautiful string theory formula to calculate the '[[RR charge]]', namely something like
 \[
  RR charge = \pm 2^{something} i_* \sqrt\left( \frac{L'(F)}{L'(\nu)} \right)
 \]
@@ -343,9 +344,3 @@ Notes needed... help...
 
 
 
-# Pictures
-
-* &lt;http://www.mfo.de/cgi-bin/tagung_espe?type=21&tnr=0924>
-
-
-See also [[Oberwolfach Workshop, June 2009 -- Abstracts|talk summaries]].
