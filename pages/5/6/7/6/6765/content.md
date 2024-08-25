@@ -7,7 +7,7 @@
 
 A Cheng space is a version of a [[measurable space]] developed by [[Henry Cheng]] for [[constructive mathematics]].  Even in [[classical mathematics]], however, Cheng spaces are more general than standard measure spaces.  On the other hand, if we equip a measurable space with a $\sigma$-[[sigma-ideal|ideal]] of [[null subsets]] (or a $\delta$-filter of [[full subsets]]), there is no essential difference classically.
 
-Some of the [[abstract nonsense]] below is original research (by [[Toby Bartels]] and [[Todd Trimble]]), but based heavily on Cheng\'s work as described in [[Handbook of Constructive Analysis|Bishop & Bridges]].
+Some of the [[abstract nonsense]] below is original research (by [[Toby Bartels]] and [[Todd Trimble]]), but based heavily on Cheng\'s work as described in [Bishop & Bridges](#BishopBridges).
 
 
 ## Motivation
@@ -103,6 +103,11 @@ Given a Cheng space $(X,\mathcal{M})$, a __positive measure__ on $(X,\mathcal{M}
 
 We think of $\mu(A,B)$ as the measure of $A$; thanks to absolute continuity, either $A$ or $B$ alone is enough to determine $\mu(A,B)$.
 
+## References
+
+* {#BishopBridges} [[Errett Bishop]], [[Douglas Bridges]]: *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
+
+* {#BishopCheng} [[Errett Bishop]], [[Henry Cheng]]. *Constructive Measure Theory*, American Mathematical Society (1972). &lbrack;ISBN:978-0821818169&rbrack;
 
 [[!redirects Cheng space]]
 [[!redirects Cheng spaces]]
