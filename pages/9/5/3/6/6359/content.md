@@ -16,12 +16,13 @@
 
 ## Idea
 
-**Iterated localizations** are, *to a first approximation*, functors right [[orthogonal]] to conservative functors, i.e. the class of functors we get if we want to factor every functor as something followed by a conservative functor.
+**Iterated localizations** are, *to a first approximation*, functors right [[orthogonal]] to [[conservative functors]], i.e. the class of functors we get if we want to factor every functor as something followed by a conservative functor.
 
-The correct statement needs to take into account that $\mathbf{Cat}$ is a 2-category, or at least a [[canonical model structure on Cat|model category]].
+The correct statement needs to take into account that [[Cat|$\mathbf{Cat}$]] is a [[2-category]], or at least a [[canonical model structure on Cat|model category]].
 
 ## Definition
-Given a small category $C$ and a set of morphisms $S$ in it, we can always construct a category $C[S^{-1}]$ which is universal in the sense that every functor $F:C \to D$ which inverts all the morphisms in $S$ factors through it (see [[localization]]):
+
+Given a [[small category]] $C$ and a set of morphisms $S$ in it, we can always construct the [[localization of a category|localization category]] $C[S^{-1}]$ which is universal in the sense that every functor $F \colon C \to D$ which inverts all the morphisms in $S$ factors through it (see [[localization]]):
 \begin{tikzcd}[ampersand replacement=\&]
 	C \& {C[S^{-1}]} \\
 	\& D
