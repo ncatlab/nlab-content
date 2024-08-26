@@ -257,9 +257,15 @@ following
 
 * {#Beilinson12} [[Alexander Beilinson]], _$p$-adic periods and de Rham cohomology_, J. of the AMS 25 (2012), 715-738
 
-Generalization to [[supermanifolds]] (where the Lemma and its proof remain formally the same):
+Generalization to [[supermanifolds]] 
+
+for plain differential forms (where the Lemma and its proof remain formally the same):
 
 * [[Simone Noja]], Thm. 3.9 in: *On the Geometry of Forms on Supermanifolds*, Differential Geometry and its Applications, **88** (2023) 101999 &lbrack;[arXiv:2111.12841](https://arxiv.org/abs/2111.12841), [doi:10.1016/j.difgeo.2023.101999](https://doi.org/10.1016/j.difgeo.2023.101999)&rbrack;
+
+and for (compactly supported) [[integral forms]]:
+
+* [[Konstantin Eder]], [[John Huerta]], [[Simone Noja]], Thm. 4.13 in: *Poincaré Duality for Supermanifolds, Higher Cartan Structures and Geometric Supergravity* &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
 
 
 Generalization to non-abelian [[Lie 2-algebra valued differential forms]] (local [[connections on 2-bundles]]):
