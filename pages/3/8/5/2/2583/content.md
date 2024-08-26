@@ -27,7 +27,7 @@
 * table of contents goes here
 {:toc}
 
-## Idea
+## Idea 
 
 The _string 2-group_ is a [[smooth ∞-groupoid|smooth 2-group]]-refinement of the [[topological group]] called the [[string group]]. It is the [[∞-group extension]] induced by the smooth/stacky version of the [[first fractional Pontryagin class]]/[[second Chern class]].
 
@@ -573,7 +573,7 @@ A construction explicitly in terms of the "[[basic bundle gerbe|basic]]" [[bundl
 
 Via fermionic nets/[[2-Clifford algebra]]:
 
-* {#DouglasHenriques} [[Chris Douglas]], [[André Henriques]], _Geometric string structures_ ([pdf](http://www.staff.science.uu.nl/~henri105/PDF/TringWP.pdf))
+* {#DouglasHenriques} [[Chris Douglas]], [[André Henriques]], _Geometric string structures_ ([[Tring.pdf:file]])
  
 
 The realization of the string 2-group as the [[Heisenberg 2-group]] of the [[WZW gerbe]] is due to 
