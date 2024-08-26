@@ -14,7 +14,7 @@ On [[Lie algebra cohomology]] of [[super Lie algebras]] (see also the [[Green-Sc
 
 On [[differential forms on supermanifolds]]:
 
-* [[Simone Noja]], *On the Geometry of Forms on Supermanifolds* ([arXiv:2111.12841](https://arxiv.org/abs/2111.12841))
+* [[Simone Noja]], *On the Geometry of Forms on Supermanifolds*, Differential Geometry and its Applications, **88** (2023) 101999 &lbrack;[arXiv:2111.12841](https://arxiv.org/abs/2111.12841), [doi:10.1016/j.difgeo.2023.101999](https://doi.org/10.1016/j.difgeo.2023.101999)&rbrack;
 
 
 On [[D=3 supergravity]] via [[super Cartan geometry]] for [[super L-infinity algebras]]:
