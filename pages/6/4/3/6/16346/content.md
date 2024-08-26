@@ -2386,6 +2386,8 @@ with related lecture notes at:
 
 Super Cartan geometry in more traditional form is made explicit in:
 
+* Thomas-Paul Hack, Florian Hanisch, [[Alexander Schenkel]]: Section 3 of: *Supergeometry in locally covariant quantum field theory*, Commun. Math. Phys. **342** 615 (2016) \[<a href="https://doi.org/10.1007/s00220-015-2516-4">doi:10.1007/s00220-015-2516-4</a>, [arXiv:1501.01520](https://arxiv.org/abs/1501.01520)\]
+
 * [[Konstantin Eder]], *Super Cartan geometry and the super Ashtekar connection*, Ann. Henri Poincaré **24** (2023) 3531–3599 &lbrack;[arXiv:2010.09630](https://arxiv.org/abs/2010.09630), [doi:10.1007/s00023-023-01290-5](https://doi.org/10.1007/s00023-023-01290-5)&rbrack;
 
 * [[Konstantin Eder]], *Super fiber bundles, connection forms and parallel transport*, J. Math. Phys. **62** 063506 (2021) &lbrack;[arXiv:2101.00924](https://arxiv.org/abs/2101.00924), [doi:10.1063/5.0044343](https://doi.org/10.1063/5.0044343)&rbrack;
