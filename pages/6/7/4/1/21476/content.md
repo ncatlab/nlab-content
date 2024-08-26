@@ -31,11 +31,13 @@
 
   * [[conservative functor]]
 
+  * [[localization functor]]
+
   * [[pseudomonic functor]]
 
   * ([[cocontinuous functor|co]])[[continuous functor]]
 
-  * [[final functor]]
+  * [[final functor]], [[dense functor]]
 
 * **[[2-functors]]**
 
