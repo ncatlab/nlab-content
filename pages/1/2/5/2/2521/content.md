@@ -170,6 +170,11 @@ Generalization of [[Artin's representability theorem]] to supergeometry:
 * Nadia Ott, *Artin's theorems in supergeometry* ([arXiv:2110.12816](https://arxiv.org/abs/2110.12816))
 
 
+For [[AQFT]]-like discussion of [[supersymmetry|supersymmetric]] [[field theory]]:
+
+* Thomas-Paul Hack, Florian Hanisch, [[Alexander Schenkel]]: Section 3 of: *Supergeometry in locally covariant quantum field theory*, Commun. Math. Phys. **342** 615 (2016) \[<a href="https://doi.org/10.1007/s00220-015-2516-4">doi:10.1007/s00220-015-2516-4</a>, [arXiv:1501.01520](https://arxiv.org/abs/1501.01520)\]
+
+
 
 [[!include supergeometry of fermion fields -- references]]
 
