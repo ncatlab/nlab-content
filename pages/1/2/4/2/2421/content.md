@@ -196,11 +196,21 @@ This definition is found e.g. in:
 
 [[!include structure on algebras and their module categories - table]]
 
+
 ## References
 
-* {#DeligneMorgan99} [[Pierre Deligne]], [[John Morgan]], §3.8 in: _Notes on Supersymmetry (following [[Joseph Bernstein]])_, in: *[[Quantum Fields and Strings]], A course for mathematicians*, **1**, Amer. Math. Soc. Providence (1999) 41-97 &lbrack;[ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s), [web version](http://www.math.ias.edu/qft), [[DeligneMorgan-NotesOnSusy.pdf:file]]&rbrack;
+References mentioning the definition of super Lie groups as [[internal groups]] in  [[supermanifolds]] and mostly also the perspective of [[functorial geometry]]:
 
-* {#Mirković04} [[Ivan Mirković]], §2.5 in: *Notes on Super Math*, in *[Quantum Field Theory Seminar](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html)*, lecture notes (2004)  &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/1.SuperMath/8.pdf), [[Mirkovic-NotesOnSupermathematics.pdf:file]]&rbrack;
+* Katsumi Yagi, *Super Lie Groups*, Adv. Stud. Pure Math. Progress in Differential Geometry (1993) 407-412 &lbrack;[euclid:1534359537](https://projecteuclid.org/euclid.aspm/1534359537)&rbrack;
+
+* {#DeligneMorgan99} [[Pierre Deligne]], [[John Morgan]], §2.10 in: _Notes on Supersymmetry (following [[Joseph Bernstein]])_, in: *[[Quantum Fields and Strings]], A course for mathematicians*, **1**, Amer. Math. Soc. Providence (1999) 41-97 &lbrack;[ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s), [web version](http://www.math.ias.edu/qft), [[DeligneMorgan-NotesOnSusy.pdf:file]]&rbrack;
+
+
+* {#Varadarajan04} [[Veeravalli Varadarajan]], section 7.1 of: _[[Supersymmetry for mathematicians]]: An introduction_,  Courant Lecture Notes in Mathematics **11**, American Mathematical Society (2004) &lbrack;[doi:10.1090/cln/011](http://dx.doi.org/10.1090/cln/011), <a href="http://dec1.sinp.msu.ru/~panov/LibBooks/SUSY/(Courant_Lecture_Notes_11)V._S._Varadarajan-Supersymmetry_for_Mathematicians__An_Introduction_(Courant_Lecture_Notes)-American_Mathematical_Society(2004).pdf">pdf</a>&rbrack;
+
+* [[Dennis Westra]], _Superrings and supergroups_, PhD thesis (2009) &lbrack;[doi10.25365/thesis.6869](https://doi.org/10.25365/thesis.6869), [pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf), [[Westra-Superrings.pdf:file]]&rbrack;
+
+* [[Claudio Carmeli]], Lauren Caston, [[Rita Fioresi]], Section 3.4 in: _Mathematical Foundations of Supersymmetry_, EMS Series of Lectures in Mathematics **15** (2011) &lbrack;[ISBN:978-3-03719-097-5](https://bookstore.ams.org/emsserlec-15/), [arXiv:0710.5742](https://arxiv.org/abs/0710.5742)&rbrack;
 
 
 Discussion in a context of [[supergravity]]:
@@ -208,22 +218,8 @@ Discussion in a context of [[supergravity]]:
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], chII.2: [[CastellaniDAuriaFre-ChII2.pdf:file]], ch II.3: [[CastellaniDAuriaFre-ChII3.pdf:file]]&rbrack;
 
 
-Discussion via [[functorial geometry]]:
 
-* [[Claudio Carmeli]], Lauren Caston, [[Rita Fioresi]], _Mathematical Foundations of Supersymmetry_, EMS Series of Lectures in Mathematics Volume: 15; 2011; 263 pp; ( [ISBN:978-3-03719-097-5](https://bookstore.ams.org/emsserlec-15/), [arXiv:0710.5742](https://arxiv.org/abs/0710.5742))
-
-See also
-
-* Katsumi Yagi, _Super Lie Groups_, Adv. Stud. Pure Math. Progress in Differential Geometry (1993) 407 - 412 ([euclid:1534359537](https://projecteuclid.org/euclid.aspm/1534359537))
-
-* [[Dennis Westra]], _Superrings and supergroups_, 2009 ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
-
-* Groeger, _Super Lie groups and super Lie algebras_, lecture notes 2011 ([pdf](http://www.mathematik.hu-berlin.de/~groegerj/teaching_files/lecture12.pdf))
-
-
-* [[Veeravalli Varadarajan]], section 6.1 of: _[[Supersymmetry for mathematicians]]: An introduction_
-
-Discussion of [[group extensions]] of supergroups includes
+Discussion of [[group extensions]] for supergroups:
 
 * {#Drupieski14} [[Christopher Drupieski]], _Strict polynomial superfunctors and universal extension classes for algebraic supergroups_ ([arXiv:1408.5764](http://arxiv.org/abs/1408.5764))
 
