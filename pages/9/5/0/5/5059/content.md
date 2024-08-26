@@ -1231,7 +1231,7 @@ Discussion including also the [[RR-field]] background includes
 
 That higher WZW functionals and hence Green-Schwarz super $p$-brane action functionals have [[conserved current]] [[BPS charge]] algebras which are [polyvector extensions](super+Poincare+Lie+algebra#PolyvectorExtensions) of the supersymmetry algebras was observed in
 
-* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], [[José Izquierdo|J.M. Izquierdo]], [[Paul Townsend]], _Topological extensions of thesupersymmetry algebra for extended objects_, Phys. Rev. Lett. 63 (1989) 2443 ([spire](http://inspirehep.net/record/26393?ln=en))
+* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], [[José Izquierdo|J.M. Izquierdo]], [[Paul Townsend]], _Topological extensions of the supersymmetry algebra for extended objects_, Phys. Rev. Lett. 63 (1989) 2443 ([spire](http://inspirehep.net/record/26393?ln=en))
 
 reviewed in
 
