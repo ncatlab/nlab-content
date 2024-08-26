@@ -16,16 +16,16 @@
 
 ## Idea
 
-For $G$ a [[group]] and $V_1$ and $V_2$ two objects equipped with $G$-[[action]], the **conjugation action** on morphisms $f : V_1 \to V_2$ (not necessarily respecting the $G$-action) is for $g \in G$
+For $G$ a [[group]] and $V_1, V_2$  [[pair]] of objects equipped with $G$-[[action]], the **conjugation action** of $G$ on a morphism $f \colon V_1 \to V_2$ (not necessarily respecting the $G$-action) is for $g \in G$ given by
 
 $$
   f \mapsto g \circ f \circ g^{-1}
   \,.
 $$
 
-The [[invariants]] of the conjugation action are the $G$-action [[homomorphism]].
+The [[invariants]] ([[fixed points]]) of the conjugation action are the maps which do respect the $G$-action, hence the [[homomorphisms]] for the $G$-action, hence the $G$-[[equivariant maps]].
 
-In the case that the $G$-action on $V_2$ is trivial, this is the _precomposition action_ and in the case that the action on $V_1$ is trivial this is the _postcomposition action_.
+In the case that the $G$-action on $V_2$ is [[trivial action|trivial]], the conjugation action becomes the _precomposition action_ and in the case that the action on $V_1$ is trivial it becomes the _postcomposition action_.
 
 In [[matrix calculus]] conjugation actions are also known as _[[similarity transformations]]_.
 
