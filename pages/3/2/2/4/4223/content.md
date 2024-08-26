@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -235,13 +236,18 @@ Textbook accounts which make this explicit include [do Carmo 1994, Prop. 3 (p. 2
 
 ## References
 
-Textbook account:
+Textbook accounts:
+
+* [[Dominic G. B. Edelen]], Lem 4-1.2 and §5-3 in: *Applied exterior calculus*, Wiley (1985) \[<a href="https://books.google.de/books/about/Applied_Exterior_Calculus.html?id=GUkViODKZ2oC">GoogleBooks</a>\]
 
 * {#Carmo94} [[Manfredo P. do Carmo]], §4.3 of *Differential Forms and Applications*, Springer (1994) &lbrack;[doi:10.1007/978-3-642-57951-6](https://doi.org/10.1007/978-3-642-57951-6)&rbrack;
 
+
+
 Course notes:
 
-* [[Daniel Litt]], _The Poincar&#233; lemma and de Rham cohomology_ ([pdf](http://math.stanford.edu/~dlitt/exposnotes/poincare_lemma.pdf))
+* [[Daniel Litt]], _The Poincar&#233; lemma and de Rham cohomology_, The Harvard College Math Review **1** 2 (2007) &lbrack;[[Litt-PoincareLemma.pdf:file]]&rbrack;
+  > [Litt](https://www.daniellitt.com/expository-notes): An expository account of differential forms and the Poincaré Lemma using modern methods, aimed at beginning undergraduates. Contains some minor errors and omissions (in the exterior power section).
 
 Discussion in [[complex analytic geometry]]:
 
@@ -254,6 +260,11 @@ following
 Generalization to non-abelian [[Lie 2-algebra valued differential forms]] (local [[connections on 2-bundles]]):
 
 * Getachew Alemu Demessie, [[Christian Saemann]], *Higher Poincaré Lemma and Integrability*, J. Math. Phys. **56** 082902 (2015) \[<a href="https://doi.org/10.1063/1.4929537">doi:10.1063/1.4929537</a>, [arXiv:1406.5342](https://arxiv.org/abs/1406.5342)\]
+
+Generalization to [[covariant derivatives]]:
+
+* Radosław Antoni Kycia, Josef Šilhan: *Inverting covariant exterior derivative* &lbrack;[arXiv:2210.03663](https://arxiv.org/abs/2210.03663)&rbrack;
+
 
 
 [[!redirects Poincaré lemma]]
