@@ -34,6 +34,10 @@ Review and exposition:
 
 * {#BeniniSchenkel19} [[Marco Benini]], [[Alexander Schenkel]], _Higher Structures in Algebraic Quantum Field Theory_,  Proceedings of LMS/EPSRC Symposium _[[Higher Structures in M-Theory 2018]]_, Fortschritte der Physik 2019  ([arXiv:1903.02878](https://arxiv.org/abs/1903.02878), [doi:10.1002/prop.201910015]( https://doi.org/10.1002/prop.201910015))
 
+On [[supersymmetry|supersymmetric]] [[quantum field theory]] via [[local nets of observables]] on [[supermanifolds]]:
+
+* Thomas-Paul Hack, Florian Hanisch, [[Alexander Schenkel]]: Section 3 of: *Supergeometry in locally covariant quantum field theory*, Commun. Math. Phys. **342** 615 (2016) \[<a href="https://doi.org/10.1007/s00220-015-2516-4">doi:10.1007/s00220-015-2516-4</a>, [arXiv:1501.01520](https://arxiv.org/abs/1501.01520)\]
+
 
 An [[operad]] for [[local nets of observables]] in [[AQFT]] 
 
