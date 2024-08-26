@@ -183,7 +183,13 @@ Since finitary monads $T$ preserve reflexive coequalizers, it follows that the m
 
 * [[Michael Barr]], [[Charles Wells]], *[[Toposes, Triples, and Theories]]*, Grundlehren der math. Wissenschaften **278** Springer (1983), republished in: Reprints in Theory and Applications of Categories **12** (2005) 1-287 &lbrack;[tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) in [[TAC reprints series]]&rbrack;
 
-* {#Johnstone} [[Peter Johnstone]], *Topos Theory*, London Mathematical Society Monographs **10**, Academic Press (1977) 
+* {#Johnstone} [[Peter Johnstone]], *Topos Theory*, London Mathematical Society Monographs **10**, Academic Press (1977)
+
+A description of the [[free cocompletion]] of a category with [[finite coproducts]] under reflexive coequalisers by [[Andrew Pitts]] is given in:
+
+* [[Marta Bunge]], [[Aurelio Carboni]], _The Symmetric Topos_  ,  JPAA **105** (1995) pp.233-249.
+
+Furthermore, they explain that the [[free cocompletion]] of a category under all small colimits is given by the free cocompletion under reflexive coequalisers of the [[free coproduct completion]] of the category (see the end of §2).
  
 
 [[!redirects reflexive coequalizer]]
