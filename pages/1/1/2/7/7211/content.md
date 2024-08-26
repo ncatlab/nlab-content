@@ -91,6 +91,11 @@ See also
 
 * Martin Pol&#225;&#269;ek, [[Warren Siegel]], _T-duality off shell in 3D Type II superspace_ ([arXiv:1403.6904](http://arxiv.org/abs/1403.6904))
 
+Discussion in the [[D'Auria-Fré-Regge formulation of supergravity]]:
+
+* [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro A. Grassi]]: *The Integral Form of Supergravity*,  J. High Energ. Phys. **2016** 49 (2016) &lbrack;<a href="https://doi.org/10.1007/JHEP10(2016)049">doi:10.1007/JHEP10(2016)049</a>, [arXiv:1607.05193](https://arxiv.org/abs/1607.05193)&rbrack;
+
+
 ### Branes
 
 Discussion of [[D-branes]] in 3d supergravity includes
