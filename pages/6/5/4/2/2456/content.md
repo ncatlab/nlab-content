@@ -135,25 +135,43 @@ which is a version of the [[law of double negation]] for [[h-sets]].
 
 ### Relation to the axiom of choice
 
-The usual [[axiom of choice]] is the choice operator rule limited to [[fiber types]] of [[surjections]] between [[sets]] at elements of the [[codomain]]. 
+In [[dependent type theory]], the usual [[axiom of choice]] says that the [[dependent product type|dependent product]] of a family of inhabited sets is itself inhabited:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isSet}(A) \quad \Gamma \vdash q:\mathrm{isSet}(B) \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash r:\mathrm{isSurjection}(f) \quad \Gamma \vdash b:B}{\Gamma \vdash \varepsilon_{\mathrm{fiber}_{A, B}(f, b)}:|\mathrm{fiber}_{A, B}(f, b)| \to \mathrm{fiber}_{A, B}(f, b)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{AC}^{A, B}:\left(\mathrm{isSet}(A) \times \left(\prod_{x:A} \mathrm{isSet}(B(x))\right)\right) \to \left(\prod_{x:A} [B(x)]\right) \to \left[\prod_{x:A} B(x)\right]}$$
 
-where 
+If one untruncates the codomain of the function, one gets choice operators for every set-indexed family of sets:
 
-$$\mathrm{fiber}_{A, B}(f, b) \equiv \sum_{x:A} f(x) =_B b$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{AGC}^{A, B}:\left(\mathrm{isSet}(A) \times \left(\prod_{x:A} \mathrm{isSet}(B(x))\right)\right) \to \left(\prod_{x:A} [B(x)]\right) \to \prod_{x:A} B(x)}$$
 
-If we remove the requirement that the domain is a set, we get the [[axiom of infinity-choice]]:
+If one removes the requirement that the type family is a family of sets from the axiom of choice, one gets the [[axiom of infinity-choice]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash q:\mathrm{isSet}(B) \quad \Gamma \vdash f:A \to B \quad \Gamma \vdash r:\mathrm{isSurjection}(f) \quad \Gamma \vdash b:B}{\Gamma \vdash \varepsilon_{\mathrm{fiber}_{A, B}(f, b)}:|\mathrm{fiber}_{A, B}(f, b)| \to \mathrm{fiber}_{A, B}(f, b)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{AC}_\infty^{A, B}:\mathrm{isSet}(A) \to \left(\prod_{x:A} [B(x)]\right) \to \left[\prod_{x:A} B(x)\right]}$$
 
-Similarly, the [[axiom of countable choice]] is the the choice operator rule limited to [[fiber types]] of [[surjections]] from [[sets]] to the [[natural numbers type]] at natural numbers. 
+If one untruncates the codomain of the function, one gets choice operators for every set-indexed family of type:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isSet}(A) \quad \Gamma \vdash f:A \to \mathbb{N} \quad \Gamma \vdash r:\mathrm{isSurjection}(f) \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \varepsilon_{\mathrm{fiber}_{A, \mathbb{N}}(f, n)}:|\mathrm{fiber}_{A, \mathbb{N}}(f, n)| \to \mathrm{fiber}_{A, \mathbb{N}}(f, n)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{AGC}_\infty^{A, B}:\mathrm{isSet}(A) \to \left(\prod_{x:A} [B(x)]\right) \to \left[\prod_{x:A} B(x)\right]}$$
 
-If we remove the requirement that the domain is a set, we get the [[axiom of countable infinity-choice]]:
+Similarly, the [[axiom of countable choice]] says that the [[dependent product type|dependent product]] of a family of inhabited sets indexed by the natural numbers is itself inhabited:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:A \to \mathbb{N} \quad \Gamma \vdash r:\mathrm{isSurjection}(f) \quad \Gamma \vdash n:\mathbb{N}}{\Gamma \vdash \varepsilon_{\mathrm{fiber}_{A, \mathbb{N}}(f, n)}:|\mathrm{fiber}_{A, \mathbb{N}}(f, n)| \to \mathrm{fiber}_{A, \mathbb{N}}(f, n)}$$
+$$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type}}{\Gamma \vdash \mathrm{AC}_\mathbb{N}^A:\left(\prod_{n:\mathbb{N}} \mathrm{isSet}(A(n))\right) \to \left(\prod_{n:\mathbb{N}} [A(n)]\right) \to \left[\prod_{n:\mathbb{N}} A(n)\right]}$$
+
+If one untruncates the codomain of the function, one gets choice operators for every $\mathbb{N}$-indexed family of sets:
+
+$$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type}}{\Gamma \vdash \mathrm{AGC}_\mathbb{N}^A:\left(\prod_{n:\mathbb{N}} \mathrm{isSet}(A(n))\right) \to \left(\prod_{n:\mathbb{N}} [A(n)]\right) \to \prod_{n:\mathbb{N}} A(n)}$$
+
+If one removes the requirement that the type family is a family of sets from the axiom of choice, one gets the [[axiom of infinity-choice]]:
+
+$$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type}}{\Gamma \vdash \mathrm{AC}_\mathbb{N}^A:\left(\prod_{n:\mathbb{N}} [A(n)]\right) \to \left[\prod_{n:\mathbb{N}} A(n)\right]}$$
+
+If one untruncates the codomain of the function, one gets choice operators for every $\mathbb{N}$-indexed family of types:
+
+$$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type}}{\Gamma \vdash \mathrm{AC}_\mathbb{N}^A:\left(\prod_{n:\mathbb{N}} [A(n)]\right) \to \prod_{n:\mathbb{N}} A(n)}$$
+
+The codomain-untruncated versions of these variants of the axiom of choice are all equivalent to the original [[inference rule]] of having global choice operators, which is the special case of either
+
+1. for the codomain-untruncated [[axiom of choice]] the type family being indexed by a [[contractible type]]
+
+2. for the codomain-untruncated [[axiom of countable choice]], the type family being defined by $A(n + 1)$ being a [[contractible type]] for all natural numbers, so that $A(0) \simeq \prod_{n:\mathbb{N}} A(n)$. 
 
 ## Foundational status
 
@@ -240,3 +258,13 @@ category: foundational axiom
 [[!redirects type-theoretic principle of double negation]]
 [[!redirects type-theoretic double negation axiom]]
 [[!redirects type-theoretic axiom of double negation]]
+
+[[!redirects codomain-untruncated choice]]
+[[!redirects codomain-untruncated axiom of choice]]
+[[!redirects codomain untruncated choice]]
+[[!redirects codomain untruncated axiom of choice]]
+
+[[!redirects codomain-untruncated countable choice]]
+[[!redirects codomain-untruncated axiom of countable choice]]
+[[!redirects codomain untruncated countable choice]]
+[[!redirects codomain untruncated axiom of countable choice]]
