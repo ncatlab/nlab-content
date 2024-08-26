@@ -11,6 +11,10 @@ and generally in terms of [[Berezin integration]]:
 
 * [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro Antonio Grassi]], _The Hodge Operator Revisited_ ([arXiv:1511.05105](https://arxiv.org/abs/1511.05105))
 
+On [[D=3 supergravity]] in the [[D'Auria-Fré-Regge formulation of supergravity|D'Auria-Fré-Regge formulation]]:
+
+* [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro A. Grassi]]: *The Integral Form of Supergravity*,  J. High Energ. Phys. **2016** 49 (2016) &lbrack;<a href="https://doi.org/10.1007/JHEP10(2016)049">doi:10.1007/JHEP10(2016)049</a>, [arXiv:1607.05193](https://arxiv.org/abs/1607.05193)&rbrack;
+
 
 On [[supersymmetric quantum mechanics]] in the perspective of [[supergeometry]] ([[integration over supermanifolds]], [[picture changing operators]]):
 
