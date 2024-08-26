@@ -264,7 +264,7 @@ the wedge product $d \theta \wedge d\theta$ is non-vanishing, since $d \theta$ i
 
 General discussion:
 
-* [[Simone Noja]], *On the Geometry of Forms on Supermanifolds* ([arXiv:2111.12841](https://arxiv.org/abs/2111.12841))
+* [[Simone Noja]], *On the Geometry of Forms on Supermanifolds*, Differential Geometry and its Applications, **88** (2023) 101999 &lbrack;[arXiv:2111.12841](https://arxiv.org/abs/2111.12841), [doi:10.1016/j.difgeo.2023.101999](https://doi.org/10.1016/j.difgeo.2023.101999)&rbrack;
 
 
 Discussion in view of [[Lie algebra cohomology]] of [[super Lie algebras]]:
