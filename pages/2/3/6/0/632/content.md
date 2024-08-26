@@ -103,7 +103,9 @@ We discuss the case of limits (the argument for colimits is [[formally dual]]):
 Let $K \colon J \to C$ be a [[diagram]] in $C$ whose limit $\lim K$ exists and such that $\lim (F\circ K) \,\simeq\, F (\lim K)$. Now if $const_c \to K$ is a [[cone]] in $C$ that is sent to a limiting cone $F const_c$ in $D$, then by the [[universal property]] of the limit in $D$ the morphism $F( c \to \lim K)$ is an [[isomorphism]] in $D$, hence must have been an isomorphism in $C$ (by the assumption that $F$ is conservative), hence $const_c$ must have been a limiting cone in $C$.
 \end{proof}
 
-
+\begin{proposition}
+Up to [[equivalence]], every functor between small categories can be factored as an [[iterated localization]] followed by a conservative functor.
+\end{proposition}
 
 
 ## Related concepts
@@ -112,6 +114,7 @@ Let $K \colon J \to C$ be a [[diagram]] in $C$ whose limit $\lim K$ exists and s
 
 * [[conservative (∞,1)-functor]]
 
+* [[iterated localization]]
 
 
 ## Literature
