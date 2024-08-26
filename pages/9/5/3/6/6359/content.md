@@ -18,7 +18,7 @@
 
 **Iterated localizations** are, *to a first approximation*, functors right [[orthogonal]] to [[conservative functors]], i.e. the class of functors we get if we want to factor every functor as something followed by a conservative functor.
 
-The correct statement needs to take into account that [[Cat|$\mathbf{Cat}$]] is a [[2-category]], or at least a [[canonical model structure on Cat|model category]].
+For the correct statement one needs to regard [[Cat|$\mathbf{Cat}$]] as a [[2-category]], or at least [[canonical model structure on Cat|as a model category]].
 
 ## Definition
 
@@ -78,5 +78,9 @@ This makes $(\text{iterated localizations}, \text{conservative functors})$ a(n h
 
 The above is pretty much directly taken from Joyal's definition of such functors:
 
-* [[Joyal]]'s CatLab, [[joyalscatlab:Factorisation systems|Factorisation systems]].
-* [[André Joyal]], _Notes on quasi-categories_, [pdf](https://www.math.uchicago.edu/~may/IMA/Joyal.pdf)
+* [[Joyal]]'s CatLab: *[[joyalscatlab:Factorisation systems|Factorisation systems]]*
+
+* [[André Joyal]], *Notes on quasi-categories* (2008) &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf), [[JoyalNotesOnQuasiCategories.pdf:file]]&rbrack;
+
+[[!redirects iterated localizations]]
+
