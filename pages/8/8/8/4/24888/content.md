@@ -75,15 +75,11 @@ There are a number of axioms which in general could be called an axiom of cohesi
 | $C_1$ | punctual cohesion/punctual [[locally ∞-connected (∞,1)-topos|local connectedness]] | [[localization of a type|localization]] at a [[pointed type]] $R$ |  |
 | $C_2$ | contractible codiscreteness | [[localization of a type|localization]] at a non-trivial [[bi-pointed type|bi-pointed]] [[h-set]] $R$ |  |
 |  | discrete cohesion | [[localization of a type|localization]] at a [[contractible type]] $R$ |  |
-|  | [[compact connectedness]] | [[localization of a type|localization]] at a [[type]] $R$ | the [[type of booleans]] $\mathbb{2}$ is discrete |
-|  | [[continuum]] cohesion | [[localization of a type|localization]] at a [[Hausdorff space]] $R$ | $\mathbb{2}$ is discrete. |
-|  | [[metric continuum]] cohesion | [[localization of a type|localization]] at a [[metric space]] $R$ | $\mathbb{2}$ is discrete. |
 | $\mathbb{R} \flat$ | [[real number|real]] cohesion | [[localization of a type|localization]] at the [[real numbers]] $\mathbb{R}$ | A higher [[coinductive type]] representing the [[homotopy]] [[terminal]] [[Archimedean ordered field]] $\mathbb{R}$ |
 | $\mathbb{R} \flat$ | [[Dedekind real number|real]] cohesion ([[impredicative mathematics|impredicative]]) | [[localization of a type|localization]] at the impredicative [[Dedekind real numbers]] or [[generalized Cauchy real numbers]] $\mathbb{R}$ | A [[type of all propositions]] $\Omega$ |
 | $\mathbb{R}_{U} \flat$ | locally $U$-small real cohesion | [[localization of a type|localization]] at the $U$-[[Dedekind real numbers]] or $U$-[[generalized Cauchy real numbers]] $\mathbb{R}_U$ | A [[Tarski universe]] $(U, T)$ |
 |  | [[unit interval]] cohesion | [[localization of a type|localization]] at the [[unit interval]] $[0, 1]$ | a higher [[coinductive type]] representing the [[homotopy]] [[terminal]] [[dyadic interval coalgebra]]. |
 |  | $U$-small unit interval cohesion | [[localization of a type|localization]] at the $U$-small [[unit interval]] $[0, 1]_\mathbb{U}$ | A [[Tarski universe]] $(U, T)$. |
-|  | smooth cohesion | [[localization of a type|localization]] at a [[local Artin algebra|local Artin $\mathbb{R}$-algebra]] | A [[local Artin algebra|local Artin $\mathbb{R}$-algebra]] $R$ |
 | $S^1 \flat$ | [[circle type cohesion]] | [[localization of a type|localization]] at the circle type | The [[circle type]] $S^1$ |
 
 ## See also
@@ -108,17 +104,9 @@ There are a number of axioms which in general could be called an axiom of cohesi
 [[!redirects axiom of stable local connectedness]]
 [[!redirects axioms of stable local connectedness]]
 
-[[!redirects localic real cohesion]]
-[[!redirects axiom of localic real cohesion]]
-[[!redirects axioms of localic real cohesion]]
-
 [[!redirects unit interval cohesion]]
 [[!redirects axiom of unit interval cohesion]]
 [[!redirects axioms of unit interval cohesion]]
-
-[[!redirects smooth cohesion]]
-[[!redirects axiom of smooth cohesion]]
-[[!redirects axioms of smooth cohesion]]
 
 [[!redirects axiom C0]]
 [[!redirects axiom [0, 1]-flat]]
