@@ -213,6 +213,7 @@ Another generalization, for singular spaces, is with help of stratifications and
 
 * [[Serre duality]]
 
+
 ## References
 
 ### General
@@ -239,6 +240,10 @@ Discussion in [[etale cohomology]] is in
 With an eye towards generalization in [[spectral geometry]] ([[spectral triples]]):
 
 * {#Connes95} [[Alain Connes]], page 10 of _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([pdf](http://www.alainconnes.org/docs/reality.pdf))
+
+In the generality of [[supermanifolds]]:
+
+* [[Konstantin Eder]], [[John Huerta]], [[Simone Noja]], _Poincaré Duality for Supermanifolds, Higher Cartan Structures and Geometric Supergravity_ &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
 
 
 ### For equivariant cohomology
@@ -319,9 +324,7 @@ A review is in
 
 * [[Thomas Tradler]], _Infinity inner products on A-infinity algebras_ ([arXiv:0806.0065](http://arxiv.org/abs/0806.0065))
 
-On [[supermanifolds]]:
 
-* [[Konstantin Eder]], [[John Huerta]], [[Simone Noja]], _Poincaré Duality for Supermanifolds, Higher Cartan Structures and Geometric Supergravity_ &lbrack;[arXiv:2312.05224](https://arxiv.org/abs/2312.05224)&rbrack;
 
 
 
