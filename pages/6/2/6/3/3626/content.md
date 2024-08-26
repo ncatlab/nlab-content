@@ -633,11 +633,6 @@ This is analogous to how a [[bimonoid]] can be defined in any [[duoidal category
 
 In polycategorical language we can give another [[unbiased]] definition of a  commutative Frobenius monoid: it is equipped with exactly one morphism $\overset{n}{\overbrace{(A,A,\dots,A)}} \to \overset{m}{\overbrace{(A,A,\dots,A)}}$ of each possible (two-sided) arity, such that any (symmetric) polycategorical composite of two such morphisms is equal to another such.  The monoid structure consists of the morphisms of arity $(2,1)$ and $(0,1)$, while the comonoid structure is the morphisms of arity $(1,2)$ and $(1,0)$, and the Frobenius relations say that three ways to compose these to produce a morphism of arity $(2,2)$ are equal.  (The morphism of arity $(0,0)$ is the composite $\epsilon\eta$; no axiom is required on it, because in a polycategory there is no other morphism $()\to ()$ to compare it to.)  In other words, the free symmetric polycategory containing a commutative Frobenius monoid is the [[terminal object|terminal]]  symmetric polycategory.  In this way Frobenius algebras are to polycategories in the same way that monoids are to multicategories.
 
-+--{: .query}
-[[Mike Shulman]]: I have not carefully checked the above statement, but it seems that the Frobenius laws should suffice to manipulate any such composite into any other.  Personal communications from other people who should know are in agreement.
-=--
-
-
 ## Related concepts
 
 * [[Calabi-Yau algebra]]
@@ -707,7 +702,7 @@ See also
 
 * {#Rosebrugh2005} R. Rosebrugh, N. Sabadini and R.F.C. Walters (2005), Generic commutative separable algebras and cospans of graphs, _Theory and Applications of Categories_ **15** (Proceedings of CT2004), 164--177.  ([web](http://www.tac.mta.ca/tac/volumes/15/6/15-06abs.html))
 
-* {#Street2004} [[Ross Street]] (2004), Frobenius monads and pseudomonoids, _J. Math. Phys._ **45**.  ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
+* {#Street2004} [[Ross Street]] (2004), Frobenius monads and pseudomonoids, _J. Math. Phys._ **45**.  ([doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852))
 
 * R. F. C. Walters, R. J. Wood, _Frobenius objects in Cartesian cicategories_, TAC **20** no. 3 (2008) 25--47. ([pdf](http://www.tac.mta.ca/tac/volumes/20/3/20-03.pdf))
 
