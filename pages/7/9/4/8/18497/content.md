@@ -44,6 +44,8 @@ Relation to [[Borcherds algebras]]:
 
 * [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)&rbrack;
 
+* [[Hisham Sati]], [[Alexander A. Voronov]]: *Mysterious Triality and the Exceptional Symmetry of Loop Spaces* &lbrack;[arXiv:2408.13337](https://arxiv.org/abs/2408.13337)&rbrack;
+
 
 review:
 
