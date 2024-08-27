@@ -270,6 +270,8 @@ In even dimensions:
 
 
 
+
+
 ## References
 
 
@@ -306,6 +308,9 @@ Discussion of [[Sullivan models]] and models via [[L-∞ algebra]] for [[spaces 
 
 * {#BuijsFelixMurillo12} [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], _$L_\infty$-rational homotopy of mapping spaces_,  published as _$L_\infty$-models of based mapping spaces_,  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524 ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756), [doi:10.2969/jmsj/06320503](https://doi.org/10.2969/jmsj/06320503))
 
+* {#SatiVoronov24} [[Hisham Sati]], [[Alexander A. Voronov]]: Section 2 of: *Mysterious Triality and the Exceptional Symmetry of Loop Spaces* &lbrack;[arXiv:2408.13337](https://arxiv.org/abs/2408.13337)&rbrack;
+
+
 ### Rational Cohomotopy cocycle spaces
  {#ReferencesRationalCohomotopy}
 
@@ -318,6 +323,10 @@ Discussion of [[rational Cohomotopy]] [[cocycle spaces]]:
 On the [[rational cohomology]] of [[iterated loop spaces]] of [[n-spheres]]:
 
 * {#KallelSjerve99} [[Sadok Kallel]], [[Denis Sjerve]], _On Brace Products and the Structure of Fibrations with Section_, 1999 ([pdf](https://www.math.ubc.ca/~sjer/brace.pdf), [[KallelSjerv99.pdf:file]])
+
+Also
+
+* [Sati & Voronov 2024, Section 2](#SatiVoronov24)
 
 
 ### Spectral sequence for rational homotopy of mapping spaces
