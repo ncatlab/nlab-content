@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -111,6 +112,14 @@ $$
 where $(t_i, \theta_i) \in C^\infty(S)^{ev} \times C^\infty(S)^{odd}$ etc and where the addition and product on the right takes place in the function [[super algebra]] $C^\infty(S)$.
 
 Since the formula looks the same for all $S$, one often just writes it without mentioning $S$ as above.
+
+
+
+
+[[!include super-Minkowski Lie group -- example]]
+
+
+
 
 ## Related concepts
 
