@@ -97,9 +97,14 @@ Discussion via [[functorial geometry]]:
 
 * [[Claudio Carmeli]], [[Lauren Caston]], [[Rita Fioresi]]: *Mathematical foundations of supersymmetry*, EMS Series of Lectures in Mathematics, EMS (2011) &lbrack;[ems:elm/97](https://ems.press/books/elm/97), [doi:10.4171/097](https://doi.org/10.4171/097), [epdf](https://epdf.tips/mathematical-foundations-of-supersymmetry.html), short draft: [arXiv:0710.5742](https://arxiv.org/abs/0710.5742)&rbrack;
 
+Lectures on [[supergeometry]] highlighting methods from [[algebraic geometry]]:
+
+* [[Pierre Deligne]]: *Supermoduli -- Methods from Algebraic Geometry*, lecture series at *[Supermoduli Workshop](https://scgp.stonybrook.edu/archives/10356)*, Simons Center @ Stony Brook (2015) &lbrack;scgp video: [I](https://scgp.stonybrook.edu/video_portal/video.php?id=954), [II](https://scgp.stonybrook.edu/video_portal/video.php?id=957), [III](https://scgp.stonybrook.edu/video_portal/video.php?id=1048), [IV](https://scgp.stonybrook.edu/video_portal/video.php?id=1053), [V](https://scgp.stonybrook.edu/video_portal/video.php?id=1058); YouTube:[I](https://youtu.be/fOWrR4FAaa4)&rbrack;
+
 Discussion of traditional [[algebraic geometry]]  for [[super-schemes]]:
 
 * [[Ugo Bruzzo]], Daniel Hernandez Ruiperez, [[Alexander Polishchuk]], _Notes on fundamental algebraic supergeometry. Hilbert and Picard superschemes_ ([arXiv:2008.00700](https://arxiv.org/abs/2008.00700))
+
 
 
 The observation that the study of super-structures in mathematics is usefully regarded as taking place over the [[base topos]] on the [[site]] of [[super points]] has been made around 1984 in
