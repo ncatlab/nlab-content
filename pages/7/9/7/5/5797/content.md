@@ -269,7 +269,7 @@ But in this dual incarnation, [[L-∞ algebras]] and more generally [[super L-�
 had secretly been introduced within the [[supergravity]] literature already in [D'Auria-Fr&#233;-Regge 80](#DAuriaFreRegge80) and explicitly in [van Nieuwenhuizen 82](#Nieuwenhuizen82).
 The concept was picked up in the [[D'Auria-Fré formulation of supergravity]] ([D'Auria-Fr&#233; 82](#DAuriaFre82)) and eventually came to be referred to as "FDA"s (short for "free differential algebra") in the [[supergravity]] literature (but beware that these dg-algebras 
 are in general [[free construction|free]] only as graded-[[supercommutative superalgebras]], not as differential algebras)
-The relation between super $L_\infty$-algebras and the "FDA"s of the [[supergravity]] literature is made explicit in ([FSS 13](#FSS13)).
+The relation between super $L_\infty$-algebras and the "FDA"s of the [[supergravity]] literature is made explicit in ([FSS 15](#FSS15)).
 
 | [[nLab:higher Lie theory]] | [[nLab:supergravity]] |
 |----------------------------|-----------------------|
@@ -346,11 +346,11 @@ and eventually came to be referred to as "FDA"s (short for "free differential al
 
 The relation between super $L_\infty$-algebras and the "FDA"s of the [[supergravity]] literature is made explicit in:
 
-* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], §2 in: *[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]*, International Journal of Geometric Methods in Modern Physics **12** 02 (2015) &lbrack;[arXiv:1308.5264](https://arxiv.org/abs/1308.5264), [doi:10.1142/S0219887815500188](http://www.worldscientific.com/doi/abs/10.1142/S0219887815500188)&rbrack;
+* {#FSS15} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], §2 in: *[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]*, International Journal of Geometric Methods in Modern Physics **12** 02 (2015) &lbrack;[arXiv:1308.5264](https://arxiv.org/abs/1308.5264), [doi:10.1142/S0219887815500188](http://www.worldscientific.com/doi/abs/10.1142/S0219887815500188)&rbrack;
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], §2 in: _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_, Adv. Theor. Math. Phys. **22** 5 (2018) &lbrack;[arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](https://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3)&rbrack;
+* {#FSS18a} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], §2 in: _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_, Adv. Theor. Math. Phys. **22** 5 (2018) &lbrack;[arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](https://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3)&rbrack;
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], (21) in: _[[schreiber:The rational higher structure of M-theory]]_, in: _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/)_: _[[Higher Structures in M-Theory 2018]]_, August 2018, Fortschritte der Physik **67** 8-9 (2019) &lbrack;[arXiv:1903.02834](https://arxiv.org/abs/1903.02834), [doi:10.1002/prop.201910017](https://doi.org/10.1002/prop.201910017)&rbrack;
+* {#FSS18b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], (21) in: _[[schreiber:The rational higher structure of M-theory]]_, in: _Proceedings of the [LMS-EPSRC Durham Symposium](http://www.maths.dur.ac.uk/lms/)_: _[[Higher Structures in M-Theory 2018]]_, August 2018, Fortschritte der Physik **67** 8-9 (2019) &lbrack;[arXiv:1903.02834](https://arxiv.org/abs/1903.02834), [doi:10.1002/prop.201910017](https://doi.org/10.1002/prop.201910017)&rbrack;
 
 also:
 
