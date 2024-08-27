@@ -43,6 +43,8 @@ The [[coset]] ([[super Klein geometry]]) of a super Poincar&#233; group by the [
 
 ## References
 
+These references speak of the super Poincaré group but tend to focus on its [[super Poincaré Lie algebra]]:
+
 * [[Pierre Deligne]], [[Daniel Freed]], section 1.1 of _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094))
 
   in [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], (eds.), _[[Quantum Fields and Strings]]_
@@ -51,10 +53,10 @@ The [[coset]] ([[super Klein geometry]]) of a super Poincar&#233; group by the [
 
 * [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_
  
+* {#Varadarajan04} [[Veeravalli Varadarajan]], section 7.5 (draft: 6.5)  of  _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society (2004) &lbrack;[doi;10.1090/cln/011](http://dx.doi.org/10.1090/cln/011), [pdf](http://www.math.ucla.edu/~vsv/papers/ch6.pdf)&rbrack;
 
-* {#Varadarajan04} [[Veeravalli Varadarajan]], section 6.5 of  _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society (2004) &lbrack;[doi;10.1090/cln/011](http://dx.doi.org/10.1090/cln/011), [pdf](http://www.math.ucla.edu/~vsv/papers/ch6.pdf)&rbrack;
+Detailed construction of the actual [[super Lie group]]-structure are rare, but see the discussion at least of the [[super translation group|super translation]] [[subgroup]]: [there](super-translation+group#ExampleSuperMinkowskiLieGroup).
 
-* [[Antoine Van Proeyen]], _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
 
 
 
