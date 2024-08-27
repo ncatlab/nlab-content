@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[supersymmetry breaking]] from [[super QCD]] to [[QCD]]:
+
+* [[Ian Affleck]], [[Michael Dine]], [[Nathan Seiberg]]: *Dynamical supersymmetry breaking in supersymmetric QCD.* Nuclear Physics B **241** 2 (1984) 493-534 \[<a href="https://doi.org/10.1016/0550-3213(84)90058-0">doi:10.1016/0550-3213(84)90058-0</a>\]
+
+
 On [[duality in string theory]]:
 
 * [[Michael Dine]], _String Theory Dualities_ &lbrack;[arXiv:hep-th/9609051](https://arxiv.org/abs/hep-th/9609051)&rbrack;
