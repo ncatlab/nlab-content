@@ -90,6 +90,9 @@ and focus on [[signs in supergeometry]]:
 
 * [[Pierre Deligne]], [[Daniel Freed]], *Sign manifesto*, in: *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 357 &lbrack;[web version](http://www.math.ias.edu/qft), [pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf)&rbrack;
 
+On [[moduli problems]] in [[supergeometry]] via methods from [[algebraic geometry]]:
+
+* [[Pierre Deligne]]: *Supermoduli -- Methods from Algebraic Geometry*, lecture series at *[Supermoduli Workshop](https://scgp.stonybrook.edu/archives/10356)*, Simons Center @ Stony Brook (2015) &lbrack;scgp video: [I](https://scgp.stonybrook.edu/video_portal/video.php?id=954), [II](https://scgp.stonybrook.edu/video_portal/video.php?id=957), [III](https://scgp.stonybrook.edu/video_portal/video.php?id=1048), [IV](https://scgp.stonybrook.edu/video_portal/video.php?id=1053), [V](https://scgp.stonybrook.edu/video_portal/video.php?id=1058); YouTube:[I](https://youtu.be/fOWrR4FAaa4)&rbrack;
 
 
 
