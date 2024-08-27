@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -139,14 +138,11 @@ On the $1\vert1$-dimensional super translation group $\mathbb{R}^{1\vert 1}$:
 
 * [[Pierre Deligne]]: from [56:41](https://youtu.be/fOWrR4FAaa4?t=3398) in lecture I of: *Supermoduli -- Methods from Algebraic Geometry*, lecture series at *[Supermoduli Workshop](https://scgp.stonybrook.edu/archives/10356)*, Simons Center @ Stony Brook (2015) &lbrack;scgp video: [I](https://scgp.stonybrook.edu/video_portal/video.php?id=954), [II](https://scgp.stonybrook.edu/video_portal/video.php?id=957), [III](https://scgp.stonybrook.edu/video_portal/video.php?id=1048), [IV](https://scgp.stonybrook.edu/video_portal/video.php?id=1053), [V](https://scgp.stonybrook.edu/video_portal/video.php?id=1058); YouTube:[I](https://youtu.be/fOWrR4FAaa4)&rbrack;
 
-Discussion in the context of the [[brane scan]]: 
+The group law for general $\mathbb{R}^{1,d\vert\mathbf{N}}$, stated in algebraic form: 
 
-* {#CAIB99} C. Chrysso‌malakos, [[José de Azcárraga]], [[José M. Izquierdo]], C. P&#233;rez Bueno, section 2.1 of: _The geometry of branes and extended superspaces_, Nucl. Phys. B **567** (2000) 293-330  &lbrack;[arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137), <a href="https://doi.org/10.1016/S0550-3213(99)00512-X">doi:10.1016/S0550-3213(99)00512-X</a>&rbrack;
- 
-and more generally in the context of [[schreiber:The brane bouquet]]:
+* {#CAIP99} C. Chrysso‌malakos, [[José de Azcárraga]], [[José M. Izquierdo]], C. P&#233;rez Bueno, (2.1) & (2.6) in _The geometry of branes and extended superspaces_, Nucl. Phys. B **567** (2000) 293-330  &lbrack;[arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137), <a href="https://doi.org/10.1016/S0550-3213(99)00512-X">doi:10.1016/S0550-3213(99)00512-X</a>&rbrack;
+  > (in the context of the [[brane scan]])
 
-* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
- 
 
 [[!redirects super-translation groups]]
 
