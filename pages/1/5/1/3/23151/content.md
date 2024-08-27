@@ -41,7 +41,7 @@ An explicit description of the free coproduct completion $PSh_{\sqcup}(\mathcal{
 
   * a [[function]] of index sets $f \,\colon\, I \to J$.
 
-  * an $I$-[[indexed set]] of [[morphisms]] $\phi_i \,\colon\, X_i \xrightarrow{\;} Y_{f(j)}$ in $\mathcal{C}$.
+  * an $I$-[[indexed set]] of [[morphisms]] $\phi_i \,\colon\, X_i \xrightarrow{\;} Y_{f(i)}$ for $i \in I$ in $\mathcal{C}$.
 
 * The [[composition]]-law and [[identity morphisms]] are the evident ones.
 
