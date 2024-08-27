@@ -1091,7 +1091,7 @@ paralleled by these maybe overlooked articles that make the underlying [[Cartan 
 
 
 
-The use in this context of [[super L-∞ algebras]] in their [[formal dual]] incarnation as [[semifree dga|semifree]] super-graded commutative [[dg-algebras]] was suggested originally in
+The use in this context of [[super L-∞ algebras]], implicitly, in their [[formal dual]] incarnation (as pointed out later in [FSS15](super+L-infinity+algebra#FSS15), [FSS18a](super+L-infinity+algebra#FSS18a), [FSS18b](super+L-infinity+algebra#FSS18b), [[schreiber:Introduction to Higher Supergeometry|Sc19]]) as [[semifree dga|semifree]] super-graded commutative [[dg-algebras]] was suggested originally in
 
 * {#NeemanRegge78} [[Yuval Ne'eman]], [[Tullio Regge]], *Gravity and supergravity as gauge theories on a group manifold*, Physics Letters B **74** 1–2 (1978) 54-56 &lbrack;<a href="https://doi.org/10.1016/0370-2693(78)90058-8">doi:10.1016/0370-2693(78)90058-8</a>, [spire:6328](https://inspirehep.net/literature/6328)&rbrack;
 
@@ -1132,6 +1132,10 @@ The original articles that introduced specifically the D'Auria-Fré-formalism fo
 * {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], *Gauging of $d = 11$ supergravity?*, Annals of Physics **146** 1 (1983) 35-77 &lbrack;[spire:11998](https://inspirehep.net/literature/11998), <a href="https://doi.org/10.1016/0003-4916(83)90052-0">doi:10.1016/0003-4916(83)90052-0</a>&rbrack;
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], [[Paul Townsend]],  *Invariance of actions, rheonomy and the new minimal $N=1$ supergravity in the group manifold approach*, Ann. Phys. 155 (1984) 423-446 &lbrack;[cds:143990](https://cds.cern.ch/record/143990), <a href="http://dx.doi.org/10.1016/0003-4916(84)90007-1">doi:10.1016/0003-4916(84)90007-1</a>, [pdf](https://cds.cern.ch/record/143990/files/198305027.pdf)&rbrack;
+
+Early review with an eye towards more mathematical language:
+
+* A. Pràstaro, [[Tullio Regge]]: *The group structure of supergravity*, Annales de l'I.H.P. Physique théorique, **44** 1 (1986) 39-89 &lbrack;[numdam:AIHPA_1986__44_1_39_0](http://www.numdam.org/item/?id=AIHPA_1986__44_1_39_0), [eudml:76312](https://eudml.org/doc/76312)&rbrack;
 
 
 Monographs:
