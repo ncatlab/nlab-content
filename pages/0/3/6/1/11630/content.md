@@ -214,7 +214,12 @@ Review of [[U-duality]] and [[exceptional generalized geometry]]  in [[KK-compac
 
 On U-duality (and possibly [[mysterious duality]]) via [[Hypothesis H]] as [[automorphisms]] of [[iterated loop space|iterated]] ([[Sullivan model of loop space|rational]]) [[cyclic loop spaces]] of the ([[rational n-sphere|rational]]) [[4-sphere]]:
 
-* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious triality* ([arXiv:2111.14810](https://arxiv.org/abs/2111.14810))
+* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and Rational Homotopy Theory*, Comm. Math. Phys. **400** (2023) 1915-1960 &lbrack;[arXiv:2111.14810](https://arxiv.org/abs/2111.14810), [doi:10.1007/s00220-023-04643-7](https://doi.org/10.1007/s00220-023-04643-7)&rbrack;
+
+* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)&rbrack;
+
+* {#SatiVoronov24} [[Hisham Sati]], [[Alexander A. Voronov]]: *Mysterious Triality and the Exceptional Symmetry of Loop Spaces* &lbrack;[arXiv:2408.13337](https://arxiv.org/abs/2408.13337)&rbrack;
+
 
 review in:
 
