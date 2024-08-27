@@ -19,21 +19,19 @@
 
 A _super-group_ is the analog in [[supergeometry]] of [[Lie groups]] in [[differential geometry]].
 
+## Definition
 
-## Algebraic super groups
+### Algebraic super groups
 
 An [[affine scheme|affine]] algebraic super group is the [[formal dual]]  of a [[superalgebra|super]]-[[commutative Hopf algebra]].
 
 
-## Super Lie groups
-
-### Definition
+### Super Lie groups
 
 A _super Lie group_ is a [[group object]] in the [[category]] [[SDiff]] of [[supermanifolds]], that is a super [[Lie group]].
 
-#### In terms of generalized group elements 
 
-One useful way to characterize [[group object]]s $G$ in the
+One useful way to characterize [[group objects]] $G$ in the
 [[category]] $SDiff$ of [[supermanifold]] is by first sending 
 $G$ with the [[Yoneda embedding]] to a [[presheaf]] on $SDiff$
 and then imposing a lift of $Y(G) : SDiff^{op} \to Set$
@@ -106,10 +104,10 @@ in terms of the [[Yoneda embedding]].
 
 
 
-### Examples
+## Examples
 
 
-#### The super-translation group
+### The super-translation group
   {#SuperTranslationGroup}
 
 also called the **[[super-Heisenberg group]]**
@@ -153,18 +151,25 @@ where $(t_i, \theta_i) \in C^\infty(S)^{ev} \times C^\infty(S)^{odd}$ etc and wh
 Since the formula looks the same for all $S$, one often just writes it without mentioning $S$ as above.
 
 
-#### The super Euclidean group 
+### The super Euclidean group 
 
 The super-translation group is the $(1|1)$-dimensional case of the [[super Euclidean group]].
 
 
-#### General linear supergroup
+
+[[!include super-Minkowski Lie group -- example]]
+
+
+
+
+### General linear supergroup
 
 [[general linear supergroup]]
 
 ...
 
-#### Orthosymplectic supergroup
+
+### Orthosymplectic supergroup
 
 [[orthosymplectic supergroup]]
 
