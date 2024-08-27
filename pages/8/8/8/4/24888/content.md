@@ -22,30 +22,29 @@ Axioms of [[cohesion]] are certain [[axioms]] added to any [[spatial type theory
 
 ## Definition
 
-We assume the presentation of [[spatial type theory]] using crisp term judgments $a::A$ in addition to the usual (cohesive) type and term judgments $A \; \mathrm{type}$ and $a:A$, as well as context judgments $\Xi \vert \Gamma \; \mathrm{ctx}$ where $\Xi$ is a list of crisp term judgments, and $\Gamma$ is a list of cohesive term judgments. A crisp type is a type in the context $\Xi \vert ()$, where $()$ is the empty list of cohesive term judgments. We also assume [[identity types]], the [[sharp modality]], and the [[flat modality]].
+Given a type $I$, the **axiom of $I$-cohesion** or **axiom C0** such that every crisp type $T$ is discrete if and only if every function from $I$ into $\mathrm{Disc}(T)$ is a [[constant function]]. $\mathrm{Disc}$ is a [[modality]] which takes types in the crisp mode to its corresponding discrete type in the cohesive mode, and a discrete type $A$ in the cohesive mode is one for which the canonical function $\flat(-):A \to \flat A$ is an [[equivalence of types]]. 
 
-Given a type $A$, let us define $\mathrm{const}_{A, R}:A \to (R \to A)$ to be the type of all constant functions in $R$:
-$$\delta_{\mathrm{const}_{A, R}}(a, r):\mathrm{const}_{A, R}(a)(r) =_A a$$
-There is an equivalence $\mathrm{const}_{A, 1}:A \simeq (1 \to A)$ between the type $A$ and the type of functions from the [[unit type]] $1$ to $A$. 
-Given types $B$ and $C$ and a function $F:(B \to A) \to (C \to A)$, type $A$ is **$F$-[[localization of a type at a family of functions|local]]** if the function $F:(B \to A) \to (C \to A)$ is an [[equivalence of types]]. 
+The axiom of $I$-cohesion allows us to define discreteness for non-crisp types. Given a type $A$, let us define $\mathrm{const}_{A, I}:A \to (I \to A)$ to be the type of all constant functions in $I$:
+$$\delta_{\mathrm{const}_{A, I}}(a, r):\mathrm{const}_{A, I}(a)(r) =_A a$$
+Type $A$ is $I$-[[null type|null]] if the function $\mathrm{const}_{A, I}$ is an [[equivalence of types]]. 
 
-A crisp type $\Xi \vert () \vdash A$ is **discrete** if the function $(-)_\flat:\flat A \to A$ is an [[equivalence of types]]. 
+\begin{definition}
+Assuming the axiom of $I$-cohesion, type $A$ is **discrete** if $A$ is $I$-null. 
+\end{definition}
 
-The **axiom of cohesion** for type $R$ states that there is a crisp type $\Xi \vert () \vdash R \; \mathrm{type}$ such that given any crisp type $\Xi \vert () \vdash A \; \mathrm{type}$, $A$ is discrete if and only if $A$ is $(\mathrm{const}_{A, 1}^{-1} \circ \mathrm{const}_{A, R})$-local, or equivalently, if $\mathrm{const}_{A, R}$ is an [[equivalence of types]]. 
-
-$$\frac{\Xi \vert () \vdash A \; \mathrm{type}}{\Xi \vert () \vdash R \flat\mathrm{ax}_A:\mathrm{isEquiv}(\mathrm{const}_{A, R}) \simeq \mathrm{isEquiv}(\lambda x:\flat A.x_\flat)}$$
-
-This allows us to define discreteness for non-crisp types: a type $A$ is **discrete** if $A$ is $(\mathrm{const}_{A, 1}^{-1} \circ \mathrm{const}_{A, R})$-local, or equivalently, if $\mathrm{const}_{A, R}$ is an [[equivalence of types]]. 
-
-Another consequence is that the [[shape]] of $R$ is [[contractible]]. 
+Another consequence is that the [[shape]] of $I$ is [[contractible]], i.e. the **axiom of strong connectedness**
 
 \begin{theorem}
-Assuming a type $R$ and the axiom of $R$-cohesion, the shape of $R$ is contractible. 
+Assuming a type $I$ and the axiom of $I$-cohesion, the shape of $I$ is contractible. 
 \end{theorem}
 
 \begin{proof}
-The type $R$ is inhabited by $\kappa_R(\sigma_R)$, so it remains to show that for all $x:\esh R$, $x =_{\esh R} \kappa_R(\sigma_R)$. Since $\esh R$ is discrete, so is the identity type $x =_{\esh R} \kappa_R(\sigma_R)$, which means by $\esh$-induction, it suffices to prove $\sigma_R(x) =_{\esh R} \kappa_R(\sigma_R)$ for all $x:\esh R$. But this is true from the third introduction rule for $\esh R$. 
+The type $I$ is inhabited by $\kappa_I(\sigma_I)$, so it remains to show that for all $x:\esh I$, $x =_{\esh I} \kappa_I(\sigma_I)$. Since $\esh I$ is discrete, so is the identity type $x =_{\esh I} \kappa_I(\sigma_I)$, which means by $\esh$-induction, it suffices to prove $\sigma_I(x) =_{\esh I} \kappa_R(\sigma_I)$ for all $x:\esh I$. But this is true from the third introduction rule for $\esh I$. 
 \end{proof}
+
+[Shulman 2018](#Shulman18) showed that axiom C0 implies that every function from $I$ into a discrete type $A$ is a constant function; conversely, if every function from $I$ to a discrete type $A$ is constant, then it holds for the discrete types which are in the image of the $\mathrm{Disc}$ modality. Finally, [Aberlé 2024](#Aberle24) proved that the axiom of strong connectedness holds if and only if every function from $I$ into a discrete type $A$ is a constant function
+
+## Properties
 
 \begin{theorem}
 The [[boolean domain]] $\mathbb{2}$ is discrete.
@@ -88,6 +87,8 @@ There are a number of axioms which in general could be called an axiom of cohesi
 
 * [[localization of a type at a family of functions]]
 
+* [[axiom of punctual cohesion]]
+
 * [[axiom of sufficient cohesion]]
 
 * [[axiom of real cohesion]]
@@ -98,8 +99,13 @@ There are a number of axioms which in general could be called an axiom of cohesi
 
 * {#Shulman17} [[Mike Shulman]], *Homotopy type theory: the logic of space*, New Spaces in Mathematics: Formal and Conceptual Reflections, ed. Gabriel Catren and Mathieu Anel, Cambridge University Press, 2021 ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007), [doi:10.1017/9781108854429](https://doi.org/10.1017/9781108854429))
 
+* {#Aberle24} [[C.B. Aberlé]], *Parametricity via Cohesion* &lbrack;[arXiv:2404.03825](https://arxiv.org/abs/2404.03825)&rbrack; 
+
 [[!redirects axiom of cohesion]]
 [[!redirects axioms of cohesion]]
+
+[[!redirects axiom of strong connectedness]]
+[[!redirects axioms of strong connectedness]]
 
 [[!redirects axiom of stable local connectedness]]
 [[!redirects axioms of stable local connectedness]]
