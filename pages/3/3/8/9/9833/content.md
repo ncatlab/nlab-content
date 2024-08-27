@@ -5,7 +5,7 @@
 
 ## Definition
 
-A _separable $C^\ast$-algebra_ is  a [[C*-algebra]] whose underlying [[topological space]] is a [[separable topological space]]
+A _separable $C^\ast$-algebra_ is  a [[C*-algebra]] whose underlying [[Banach space]] is a [[separable topological space]].
 
 ## References
 
