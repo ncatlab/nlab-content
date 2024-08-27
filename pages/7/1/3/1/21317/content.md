@@ -21,6 +21,8 @@ See also:
 
 On [[supersymmetry breaking]] from [[super QCD]] to [[QCD]]:
 
+* [[Ian Affleck]], [[Michael Dine]], [[Nathan Seiberg]]. *Dynamical supersymmetry breaking in supersymmetric QCD.* Nuclear Physics B 241, no. 2 (1984): 493-534. ([doi](https://doi.org/10.1016/0550-3213(84)90058-0)).
+
 * Francesco Sannino, _From Super QCD to QCD_, AIP Conference Proceedings 452, 245 (1998) ([arXiv:hep-th/9806229](https://arxiv.org/abs/hep-th/9806229))
 
 
