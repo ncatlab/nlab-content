@@ -9,8 +9,6 @@
 =--
 =--
 
-
-# Reflexive coequalisers
 * table of contents
 {: toc}
 
@@ -189,7 +187,7 @@ A description of the [[free cocompletion]] of a category with [[finite coproduct
 
 * [[Marta Bunge]], [[Aurelio Carboni]], _The Symmetric Topos_  ,  JPAA **105** (1995) pp.233-249.
 
-Furthermore, they explain that the [[free cocompletion]] of a category under all small colimits is given by the free cocompletion under reflexive coequalisers of the [[free coproduct completion]] of the category (see the end of §2).
+They furthermore claim that the [[free cocompletion]] of a category under all small colimits is given by the free cocompletion under reflexive coequalisers of the [[free coproduct completion]] of the category (see the end of §2). However, this claim is not proven, and seems dubious, considering that reflexive coequalisers do not commute with [[products]] in [[Set]].
  
 
 [[!redirects reflexive coequalizer]]
