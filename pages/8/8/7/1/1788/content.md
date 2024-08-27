@@ -1,84 +1,722 @@
 
-[[anyonic topological order on tori -- references]]
+[[super-Minkowski Lie group -- example]]
 
-### Anyonic topological order on tori
+### Super-Minkowski Lie group
+  {#ExampleSuperMinkowskiLieGroup}
 
-The theory of [[anyon|anyonic]] [[topological order|topologically ordered]] [[quantum materials]] is often discussed assuming periodic [[boundary conditions]], making the space of positions of a given [[anyon]] a [[torus]]. (While this is a dubious assumption for position-space anyons in actual experiment, the intended ground state-degeracy crucially depends on this assumption.)
+We spell out the [[super-translation group|super-translation]] [[super Lie group]]-[[structure]] on the [[supermanifold]] underlying [[super Minkowski spacetime]] $\mathbb{R}^{1,d\vert\mathbf{N}}$, hence equivalently the [[quotient group|quotient]] [[super Lie group]] of the [[super Poincaré group]] by its [[Lorentz group|Lorentzian]] [[spin group|spin]]-[[subgroup]]:
 
-In fact, the notion of [[topological order]] was introduced already assuming [[torus]]-shaped materials:
+$$
+  \mathbb{R}^{1,d\vert\mathbf{N}}
+  \;\simeq\;
+  Iso\big(
+    \mathbb{R}^{1,d\vert\mathbf{N}}
+  \big)
+  \big/ Spin(1,d)
+  \,.
+$$
 
-* [[Xiao-Gang Wen]]: *Vacuum Degeneracy of Chiral Spin State in Compactified Spaces*, Phys. Rev. B **40** 7387 (1989) \[<a href="https://doi.org/10.1103/PhysRevB.40.7387">doi:10.1103/PhysRevB.40.7387</a>\]
+Here 
 
-* [[Xiao-Gang Wen]]: *Topological Orders in Rigid States*, Int. J. Mod. Phys. B **4** 239 (1990) \[<a href="https://doi.org/10.1142/S0217979290000139">doi:10.1142/S0217979290000139</a>, [pdf](https://xgwen.mit.edu/sites/default/files/documents/topo.pdf)\]
+* $d \in \mathbb{N}$ is the spatial dimension (a [[natural number]]), 
 
-* [[Xiao-Gang Wen]], Qian Niu:  *Ground state degeneracy of the FQH states in presence of random potential and on high genus Riemann surfaces*, Phys. Rev. B **41** 9377 (1990) \[<a href="https://doi.org/10.1103/PhysRevB.41.9377">doi:10.1103/PhysRevB.41.9377</a>\]
+* $\mathbf{N} \in Rep_{\mathbb{R}}\big(Spin(1,d)\big)$ is a  [[real numbers|real]] [[spin representation]] equipped with a  [[linear map]]
+  
+\begin{tikzcd}
+  \mathbf{N}
+  \otimes
+  \mathbf{N}
+  \ar[
+    rr,
+    "{
+      \big(
+        \overline{(-)}
+        \Gamma
+        (-)
+      \big)
+    }"
+  ]
+  &&
+  \mathbb{R}^{1,d}
+\end{tikzcd}
 
-* E. Keski-Vakkuri, [[Xiao-Gang Wen]]: *Ground state structure of hierarchical QH states on torus and modular transformation*,
-Int. J. Mod. Phys. B **7** 4227 (1993) \[<a href="https://doi.org/10.1142/S0217979293003644">doi:10.1142/S0217979293003644</a>, [arXiv:hep-th/9303155](https://arxiv.org/abs/hep-th/9303155)\]
+which is [[symmetric power|symmetric]] and [[spin group|$Spin(1,d)$]]-[[equivariant map|equivariant]]. 
 
-Further discussion along these lines: 
+First, the super-Minkowski [[super Lie algebra]] [[structure]] on the [[super vector space]]
+$$
+  \mathbb{R}^{1,d\vert\mathbf{N}}
+  \;\coloneqq\;
+  \mathbb{R}^{1+d} \times \mathbb{R}^N_{odd}
+$$
+is defined, [[formal duality|dually]], by the [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg]] [[dgc-superalgebra]] with generators of $\mathbb{Z} \times \mathbb{Z}/2$ bidegree
 
-* Zhu-Xi Luo, Yu-Ting Hu, Yong-Shi Wu: *On Quantum Entanglement in Topological Phases on a Torus*, Phys. Rev. B **94** 075126 (2016) \[<a href="https://doi.org/10.1103/PhysRevB.94.075126">doi:10.1103/PhysRevB.94.075126</a>, [arXiv:1603.01777](https://arxiv.org/abs/1603.01777)\]
+| generator      | bidegree   |
+|----------------|------------|
+|  $e^a$         |  $(1,evn)$ |
+|  $\psi^\alpha$ |  $(1,odd)$ |
 
-* Zhuan Li, Roger S. K. Mong: *Detecting topological order from modular transformations of ground states on the torus*, Phys. Rev. B **106** (2022) 235115 \[<a href="https://doi.org/10.1103/PhysRevB.106.235115">doi:10.1103/PhysRevB.106.235115</a>\]
+for $a \in \{0,1, \cdots, d\}$ indexing a [[linear basis]] of $\mathbb{R}^D$ and $\alpha \in \{1,\cdots, N\}$ indexing a [[linear basis]] of $\mathbf{N}$ by the differential equations
+
+\[
+  \label{CEAlgebraOfSuperMinkowski}
+  \begin{array}{ccl}
+    \mathrm{d}\, e^a
+    &\coloneqq&
+    \big( \overline{\psi} \,\Gamma^a\, \psi \big) 
+    \\
+    \mathrm{d}\, \psi
+    &=&
+    0
+  \end{array}
+\]
+
+Here the first differential is the [[linear dual]] of the archetypical [[super Lie bracket]] in the [[supersymmetry]] [[super Lie algebra]] which takes two odd elements to a spatial translation. The second differential is the [[linear dual]] of the fact that in the absence of rotational generators, no Lie bracket in the supersymmetry alegbra results in a non-vanishing odd element.
+
+Next we regard $\mathbb{R}^{1,10\vert\mathbf{N}}$ not just as a [[super vector space]] but as a [[Cartesian superspace|Cartesian]] [[supermanifold]]. As such it has canonical [[coordinate functions]]
+
+| generator        | bidegree   |
+|------------------|------------|
+|  $x^a$           |  $(0,evn)$ |
+|  $\theta^\alpha$ |  $(0,odd)$ |
+
+On this supermanifold, consider the [[coframe field]] 
+
+$$
+  (e,\psi)
+  \;\colon\;
+  T\mathbb{R}^{1,d\vert\mathbf{N}}
+  \xrightarrow{\;}
+  \mathbb{R}^{1,10\vert\mathbf{N}}
+$$
+
+(where on the left we have the [[tangent bundle]] and on the right its [[typical fiber]] [[super vector space]]) given by
+
+\[
+  \label{LIFormsOnSuperMinkowski}
+  \begin{array}{ccl}
+    e^a 
+      &\coloneqq& 
+    \mathrm{d}x^a 
+      + \big(\overline{\theta} \,\Gamma^a \mathrm{d}\theta\big)
+    \\
+    \psi 
+      &\coloneqq&
+    \mathrm{d}\theta
+  \end{array}
+\]
+
+It is clear that this is a [[coframe field]] in that for all $x \in \mathbb{R}^{1,d\vert\mathbf{N}}$ it restricts to an [[isomorphism]]
+$$
+  T_{x}\mathbb{R}^{1,d\vert\mathbf{N}}
+  \xrightarrow{\;\sim\;}
+  \mathbb{R}^{1,d\vert\mathbf{N}}
+$$
+and the peculiar second summand in the first line is chosen such that its [[de Rham differential]] has the same form as the differential in the [[Chevalley-Eilenberg algebra]] (eq:CEAlgebraOfSuperMinkowski).
+
+This fact, that the [[Maurer-Cartan equations]] of a [[coframe field]] coincide with the defining equation of the [[Chevalley-Eilenberg algebra]] of a [[Lie algebra]] of course characterizes the [[left invariant 1-forms]] on a [[Lie group]], and hence what remains to be done now is to construct a [[super Lie group]]-[[structure]] on the [[supermanifold]] $\mathbb{R}^{1,d\vert\mathbf{N}}$ with respect to which the coframe (eq:LIFormsOnSuperMinkowski) is [[left invariant 1-form]].
+
+Recalling (from [[embedding of smooth manifolds into formal duals of R-algebras|here]]) that a [[morphism]] of [[supermanifolds]] is dually given by a reverse [[algebra homomorphism]] between their [[function algebras]], which in the present case are freely generated by the above [[coordinate functions]], we denote the canonical coordinates on the [[Cartesian product]] $\mathbb{R}^{1,d\vert\mathbf{N}} \times \mathbb{R}^{1,d\vert\mathbf{N}}$ by $(x^a_{'}, \theta^\alpha_{'})$ for the first factor and $(x^a, \theta^\alpha)$ for the second, and declare a group [[binary operation|product operation]] as follows:
+
+\[\label{GroupOperationOnSuperMinkowski}\]
+\begin{tikzcd}
+    \mathbb{R}
+      ^{1,d\,\vert\,\mathbf{N}}
+    \times
+    \mathbb{R}
+      ^{1,d\,\vert\,\mathbf{N}}
+    \ar[
+      rr,
+      "{ \mathrm{prd} }"
+    ]
+    &&
+    \mathbb{R}
+      ^{1,d\,\vert\,\mathbf{N}}
+    \\[-45pt]
+    x_{'}^a + x^a
+    -
+    \big(
+      \hspace{1pt}
+      \overline{\theta}_{'}
+      \,\Gamma^a\,
+      \theta
+    \big)
+    \ar[rr, <-|, "{ \mathrm{prd}^\ast }"]
+    &\phantom{--}&
+    x^a
+    \\[-45pt]
+    \theta_{'}
+    +
+    \theta
+    \ar[rr, <-|]
+    &\phantom{--}&
+    \theta
+    \,.
+\end{tikzcd}
+
+Here the choice of notation for the coordinates on the left is adapted to thinking of this group operation equivalently as the left mulitplication action of the group on itself. This makes the following computation nicely transparent, which checks that under this group operation the coframe (eq:CEAlgebraOfSuperMinkowski) is [[left invariant 1-form|left-invariant]] -- the [[differential]] $\mathrm{d}$ is that of  the second factor, hence acting on unprimed coordinates only:
+
+$$
+  \begin{array}{ccl}
+    \mathrm{prd}^\ast e^a
+    &=&
+    \mathrm{prd}^\ast 
+    \Big(
+      \mathrm{d}x^a
+      +
+      \big(\overline{\theta}
+      \,\Gamma^a\,
+      \mathrm{d}\theta\big)
+    \Big)
+    \\
+    &=&
+    \mathrm{d}\,\mathrm{prd}^\ast x^a
+    +
+    \big(\overline{\mathrm{prd}^\ast\theta}
+    \,\Gamma^a\,
+    \mathrm{d}\,\mathrm{prd}^\ast\theta\big)
+    \\
+    &=&
+    \mathrm{d}
+    \Big(
+      x^a_{'} + x^a
+      -
+      \big(
+        \overline{\theta}_{'}
+        \,\Gamma^a\,
+        \theta
+      \big)
+    \Big)
+      +
+      \big(
+        (\overline{\theta}_{'} + 
+        \overline{\theta})
+        \,\Gamma^a\,
+        \mathrm{d}(
+          \theta_{'} + \theta
+        )
+      \big)
+    \\
+    &=&
+    \mathrm{d}x^a 
+    -
+    \big(
+      \overline{\theta}_{'}
+      \,\Gamma^a\,
+      \mathrm{d}\theta
+    \big)
+    \,+\,
+    \big(
+      \overline{\theta}_{'}
+      \,\Gamma^a\,
+      \mathrm{d}\theta
+    \big)
+    \,+\,
+    \big(
+      \overline{\theta}
+      \,\Gamma^a\,
+      \mathrm{d}\theta
+    \big)
+    \\
+    &=&
+    \mathrm{d}x^a 
+    \,+\,
+    \big(
+      \overline{\theta}
+      \,\Gamma^a\,
+      \mathrm{d}\theta
+    \big)
+    \\
+    &=&
+    e^a
+  \end{array}
+  \;\;\;\;\;
+  \begin{array}{ccl}
+    \mathrm{prd}^\ast
+    \psi
+    &=&
+    \mathrm{prd}^\ast
+    \mathrm{d}\theta
+    \\
+    &=&
+    \mathrm{d}
+    \,
+    \mathrm{prd}^\ast \theta
+    \\
+    &=&
+    \mathrm{d}\big(
+      \theta_{'}
+      +
+      \theta
+    \big)
+    \\
+    &=&
+    \mathrm{d}\theta
+    \\
+    &=&
+    \psi
+    \\
+    {}
+  \end{array}
+$$
+
+This shows that if (eq:GroupOperationOnSuperMinkowski) defines a [[group object]] [[internalization|in]] [[SuperManifolds]] then its [[super Lie algebra]] is the super-Minkowski [[super translation Lie algebra]] and hence that it is the desired super-Minkowski super Lie group.
+
+So, defining the remaining [[group object]]-operations as follows:
+
+**[[neutral element]]:**
+
+\begin{tikzcd}
+    \ast
+    \ar[
+      rr,
+      "{ \mathrm{e} }"
+    ]
+    &&
+    \mathbb{R}^{1,10\,\vert\,\mathbf{32}}
+    \\[-40pt]
+    0
+    \ar[rr, <-|, "{\mathrm{e}^\ast}"]
+    &&
+    x^a
+    \\[-40pt]
+    0 
+    \ar[rr, <-|, "{\mathrm{e}^\ast}"]
+    &&
+    \theta
+\end{tikzcd}
+
+**[[inverse elements]]:**
+
+\begin{tikzcd}
+    \mathbb{R}^{1,10\,\vert\,\mathbf{32}}
+    \ar[
+      rr,
+      "{ \mathrm{inv} }"
+    ]
+    &&
+    \mathbb{R}^{1,10\,\vert\,\mathbf{32}}
+    \\[-40pt]
+    -x^a 
+    \ar[rr, <-|, "{ \mathrm{inv}^\ast }"]
+    &&
+    x^a
+    \\[-40pt]
+    -\theta^\alpha
+    \ar[rr, <-|, "{ \mathrm{inv}^\ast }"]
+    &&
+    \theta^\alpha
+\end{tikzcd}
 
 
-Explicit discussion of [[anyons]] on [[tori]]:
+we conclude by checking the [[group object]]-[[axioms]]:
 
-* [[Xiao-Gang Wen]], E. Dagotto, [[Eduardo Fradkin]]: *Anyons on a torus*, Phys. Rev. B **42** (1990) 6110  \[<a href="https://doi.org/10.1103/PhysRevB.42.6110">doi:10.1103/PhysRevB.42.6110</a>\]
+For **[[associativity]]** we need to check that the following [[commuting diagram|diagram commutes]]:
 
-* Yasuhiro Hatsugai, Mahito Kohmoto, Yong-Shi Wu: *Anyons on a torus: Braid group, Aharonov-Bohm period, and numerical study*, Phys. Rev. B **43** (1991) 10761 \[<a href="https://doi.org/10.1103/PhysRevB.43.10761">doi:10.1103/PhysRevB.43.10761</a>\]
+\begin{tikzcd}
+      G \times G \times G
+      \ar[
+        rr,
+        "{ 
+          \mathrm{prd}
+          \,\times\, 
+          \mathrm{id}
+        }"
+      ]
+      \ar[
+        dd,
+        "{
+          \mathrm{id}
+          \,\times\,
+          \mathrm{prd}
+        }"{description, pos=.45}
+      ]
+      &&
+      G \times G
+      \ar[
+        dd,
+        "{ \mathrm{prd} }"{description, pos=.45}
+      ]
+      \\
+      \\
+      G \times G
+      \ar[
+        rr,
+        "{
+          \mathrm{prd}
+        }"
+      ]
+      && 
+      G
+\end{tikzcd}
 
-* [[Roberto Iengo]], [[Kurt Lechner]]: *Quantum mechanics of anyons on a torus*, Nuclear Physics B **346** 2–3 (1990) 551-575 \[<a href="https://doi.org/10.1016/0550-3213(90)90292-L">doi:10.1016/0550-3213(90)90292-L</a>, [spire:28316](https://inspirehep.net/literature/28316)\]
+and indeed it does:
 
-* [[Roberto Iengo]], [[Kurt Lechner]]: *Exact results for anyons on a torus*, Nuclear Physics B **364** 3 (1991) 551-583 \[<a href="https://doi.org/10.1016/0550-3213(91)90277-5">doi:10.1016/0550-3213(91)90277-5</a>\]
+\begin{tikzcd}
+    &[-210pt]
+    x^a_{''}
+    +
+    x^a_{'} 
+    +
+    \big(
+      \hspace{1pt}
+      \overline{\theta}_{''}
+      \,\Gamma^a\,
+      \theta_{'}
+    \big)
+    + 
+    x^a
+    +
+    \big(
+      \hspace{1pt}
+      \overline{(\theta_{''} + \theta_{'})}
+      \,\Gamma^a\,
+      \theta
+    \big)    
+    \ar[
+      rr,
+      <-|
+    ]
+    \ar[dl, equals]
+    &&
+    x^a_{'} + x^a
+    +
+    \big(
+      \hspace{1pt}
+      \overline{\theta}_{'}
+      \,\Gamma^a\,
+      \theta
+    \big)    
+    \ar[
+      ddd,
+      <-|
+    ]
+    \\[-10pt]
+    x^a_{''} + 
+    x^a_{'} + x_a
+    +\big(
+      \hspace{1pt}
+      \overline{\theta}_{'}
+      \,\Gamma^a\,
+      \theta
+    \big)
+    +
+    \big(
+      \hspace{1pt}
+      \overline{\theta}_{''}
+      \,\Gamma^a\,
+      (\theta_{'} + \theta)
+    \big)
+    \ar[
+      dd,
+      <-|
+    ]
+    \\
+    \\
+    x^a_{''} + x^a
+    +
+    \big(
+      \hspace{1pt}
+      \overline{\theta}_{''}
+      \,\Gamma^a\,
+      \theta
+    \big)
+    \ar[rrr, <-|]
+    &&& x^a
+\end{tikzcd}
 
-* Yutaka Hosotani, Choon-Lin Ho: *Anyons on a Torus*, AIP Conf. Proc. **272** (1992) 1466–1469 \[<a href="https://doi.org/10.1063/1.43444">doi:10.1063/1.43444</a>, [arXiv:hep-th/9210112](https://arxiv.org/abs/hep-th/9210112)\]
-
-* Choon-Lin Ho, Yutaka Hosotani: *Anyon equation on a torus*,  International Journal of Modern Physics A **07** 23 (1992) 5797-5831 \[<a href="https://doi.org/10.1142/S0217751X92002647">doi:10.1142/S0217751X92002647</a>\]
-
-* Ikuo Ichinose, Toshiyuki Ohbayashi: *Exactly soluble model of multispecies anyons and the braid group on a torus*,     Nucl.Phys. B **419** (1994) 529-552 \[<a href="https://doi.org/10.1016/0550-3213(94)90343-3">doi:10.1016/0550-3213(94)90343-3</a>\]
-
-* {#Kitaev03} [[Alexei Kitaev]]: *Fault-tolerant quantum computation by anyons*, Annals of Physics **303** 1 (2003) 2-30 \[<a href="https://doi.org/10.1016/S0003-4916(02)00018-0">doi:10.1016/S0003-4916(02)00018-0</a>, [arXiv:quant-ph/9707021](https://arxiv.org/abs/quant-ph/9707021)\]
-  > (introducing the [[toric code]])
-
-* Songyang Pu, [[Jainendra K. Jain]]: *Composite anyons on a torus*, Phys. Rev. B **104** (2021) 115135 \[<a href="https://doi.org/10.1103/PhysRevB.104.115135">doi:10.1103/PhysRevB.104.115135</a>, [arXiv:2106.15705](https://arxiv.org/abs/2106.15705)\]
-
-* {#Simon23} [[Steven H. Simon]]: *Anyon Vacuum on a Torus and Quantum Memory*, Section 4.3 in: *Topological Quantum*, Oxford University Press (2023) \[<a href="https://global.oup.com/academic/product/topological-quantum-9780198886723">ISBN:9780198886723</a>, [pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep28-2021.pdf), [webpage](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/topocourse2021.html)\]
-
-* Shang Liu: *Anyon quantum dimensions from an arbitrary ground state wave function*, Nature Communications **15** (2024) 5134 \[<a href="https://doi.org/10.1038/s41467-024-47856-7">doi:10.1038/s41467-024-47856-7</a>, [arXiv:2304.13235](https://arxiv.org/abs/2304.13235)\]
-
-
-But anyonic states may alternatively be localized in more abstract spaces.Anyons localized not in position space but in "reciprocal momentum space", namely on the [[Brillouin torus]] of quasi-[[momenta]] of [[electrons]] in a [[crystal]], are considered in 
-
-* {#SatiSchreiber22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Reviews in Mathematical Physics **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>, [arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\]
-
-
-Proposals to classify (free or interacting) [[topological phases of matter]] by [[topological quantum field theory]], consider them on all base space topologies (including [[tori]]):
-
-* [[Anton Kapustin]]: *Symmetry Protected Topological Phases, Anomalies, and Cobordisms: Beyond Group Cohomology* \[<a href="https://inspirehep.net/literature/1283873">spire:1283873</a>, [arXiv:1403.1467](https://arxiv.org/abs/1403.1467)\]
-  > "Our basic assumption is that a gapped state of matter with short-range interactions can be put on a curved space-time of arbitrary topology \[...\] At short distances a system is usually defined on a regular lattice, with short-range interactions. However, if we allow for disorder, then dislocations in the lattice are possible, and more general triangulations also become possible" 
-
-* [[Anton Kapustin]]: *Bosonic Topological Insulators and Paramagnets: a view from cobordisms* \[<a href="https://inspirehep.net/literature/1292830">spire:1292830</a>, <a href="https://arxiv.org/abs/1404.6659">arXiv:1404.6659</a>\]
-  > "SPT phases are usually defined on a spatial lattice, while time may or may not be discretized. In the effective action approach we want to allow space-time to have an arbitrary topology, thus we discretize both space and time and regard the system as being defined on a general triangulation $K$ of a $d$-dimensional manifold $X$."
+\begin{tikzcd}
+    \theta_{''}
+    +
+    \theta_{'}
+    +
+    \theta
+    \ar[
+      ddd, <-|
+    ]
+    \ar[rrr, <-|]
+    &&&
+    \theta_{'} + \theta
+    \ar[ddd, <-|]
+    \\
+    \\
+    \\
+    \theta_{''}
+    +
+    \theta
+    \ar[rrr, <-|]
+    &&&
+    \theta
+\end{tikzcd}
 
 
-* [[Daniel S. Freed]], [[Michael J. Hopkins]]: *Reflection positivity and invertible topological phases*, Geom. Topol. **25** (2021) 1165-1330 \[<a href="https://doi.org/10.2140/gt.2021.25.1165">doi:10.2140/gt.2021.25.1165</a>, [arXiv:1604.06527](https://arxiv.org/abs/1604.06527)\]
+For **[[unitality]]** we need to check that the following [[commuting diagram|diagram commutes]]:
 
-* Kazuya Yonekura: *On the cobordism classification of symmetry protected topological phases*, Commun. Math. Phys. **368**  (2019) 1121–1173 \[<a href="https://doi.org/10.1007/s00220-019-03439-y">doi:10.1007/s00220-019-03439-y</a>, [arXiv:1803.10796](https://arxiv.org/abs/1803.10796)\]
+\begin{tikzcd}
+      G
+      \ar[
+        r, 
+        shorten=-2pt,
+        "{ \sim}"{pos=.4}
+      ]
+      \ar[
+        d, 
+        shorten >=-2pt,
+        "{ \sim }"{sloped, swap, pos=.4}
+      ]
+      \ar[
+       ddrr,
+       equals
+      ]
+      &[-24pt]
+      G \times \ast
+      \ar[
+        r,
+        "{
+          \mathrm{id}
+          \,\times\, 
+          \mathrm{e}        
+        }"{pos=.4}
+      ]
+      &
+      G \times G
+      \ar[
+        dd,
+        "{
+          \mathrm{prd}
+        }"{description}
+      ]
+      \\[-10pt]
+      \ast \times G
+      \ar[
+        d,
+        "{
+          \mathrm{e}
+          \,\times\,
+          \mathrm{id}
+        }"{description, pos=.43}
+      ]
+      \\
+      G \times G
+      \ar[
+        rr,
+        "{ \mathrm{prd} }"
+      ]
+      &&
+      G
+\end{tikzcd}
 
+and indeed it does:
 
-* {#Simon23} [[Steven H. Simon]], *Anyons and Topological Quantum Field Theories*, Part I of: *Topological Quantum*, Oxford University Press (2023) \[<a href="https://global.oup.com/academic/product/topological-quantum-9780198886723">ISBN:9780198886723</a>, [pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep28-2021.pdf), [webpage](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/topocourse2021.html)\]
+\begin{tikzcd}
+    x^a
+    \ar[
+      r, <-|
+    ]
+    \ar[
+      d,
+      <-|
+    ]
+    \ar[
+      dddrrr,
+      equals
+    ]
+    &[-15pt]
+    x_{'}^a 
+    \ar[
+      rr, <-|
+    ]
+    &&
+    x_{'}^a + x^a 
+    +
+    \big(
+      \hspace{1pt}
+      \overline{\theta}_{
+}
+      \,\Gamma^a\,
+      \theta
+    \big)    
+    \ar[
+      ddd,
+      <-|
+    ]
+    \\
+    x^a_{'}
+    \ar[dd, <-|]
+    \\
+    \\
+    x_{'}^a + x^a 
+    +
+    \big(
+      \hspace{1pt}
+      \overline{\theta}_{'}
+      \,\Gamma^a\,
+      \theta
+    \big)
+    \ar[
+      rrr,
+      <-|
+    ]
+    &&&
+    x^a
+\end{tikzcd}
 
-Critical commentary on the assumption of non-trivial topology in position space appears for instance in:
+\begin{tikzcd}
+    \theta
+    \ar[
+      r, <-|
+    ]
+    \ar[
+      d, <-|
+    ]
+    \ar[
+      dddrrr,
+      equals
+    ]
+    &
+    \theta_{'}
+    \ar[
+      rr, <-|
+    ]
+    &&
+    \theta_{'} + \theta
+    \ar[
+      ddd,
+      <-|
+    ]
+    \\
+    \theta
+    \ar[
+      dd, <-|
+    ]
+    \\
+    \\
+    \theta_{'} + \theta
+    \ar[
+      rrr,
+      <-|
+    ]
+    &&&
+    \theta
+\end{tikzcd}
 
-* [[Davide Gaiotto]], [[Theo Johnson-Freyd]]: *Condensations in higher categories* \[<a href="https://inspirehep.net/literature/1736539">spire:1736539</a>\]
-  > "This relationship between gapped condensed matter systems and TQFTs is perplexing, particularly so if one takes a “global” approach to TQFTs, defining them a la &lbrack;[Ati88](topological+quantum+field+theory#Atiyah89)&rbrack; in terms of partition functions attached to non-trivial Euclidean space-time manifolds and spaces of states attached to non-trivial space manifolds. From that perspective, matching a given lattice system to a TQFT would require identifying a lot of extra structure to be added to the definition of the lattice system in order to define it on discretizations of non-trivial space manifolds and to define adiabatic evolutions analogous to non-trivial space-time manifolds."
+For **[[inverse element|invertibility]]** we need to check that the following [[commuting diagram|diagram commutes]]:
 
-  > "If one takes the information-theoretic perspective that a phase of matter is fully characterized by the local entanglement properties of the ground-state wavefunction of the system, with no reference to a time evolution, then even more work may be needed."
+\begin{tikzcd}
+      G 
+      \ar[
+        rr,
+        "{
+          (\mathrm{id},\mathrm{inv})
+        }"
+      ]
+      \ar[
+        dd,
+        "{ \exists! }"{description}
+      ]
+      &&
+      G \times G
+      \ar[
+        dd,
+        "{ 
+          \mathrm{prd} 
+        }"{description}
+      ]
+      \\
+      \\
+      \ast
+      \ar[
+        rr,
+        "{ \mathrm{e} }"
+      ]
+      &&
+      G
+\end{tikzcd}
 
-  > "These concerns are not just abstract. Given some phase of matter, in the lab or in a computer, it is hard to extract the data which would pin down the corresponding TQFT, or even know if the TQFT exists. For example, we can hardly place a three-dimensional material on a non-trivial space-manifold. We can only try to simulate that by employing judicious collections of defects in flat space."
+and indeed it does:
 
+\begin{tikzcd}
+    &[-20pt]
+    x^a
+    - x^a 
+    - 
+    \big(
+      \hspace{1pt}
+      \overline{\theta}
+      \,\Gamma^a\,
+      \theta
+    \big)
+    \ar[
+      rr,
+      <-|
+    ]
+    &&
+    x_{'}^a
+    + x^a + 
+    \big(
+      \hspace{1pt}
+      \overline{\theta}
+      \,\Gamma^a\,
+      \theta
+    \big)
+    \ar[
+      ddd,
+      <-|
+    ]
+    \\[-15pt]
+    0
+    \ar[
+      ur,
+      equals
+    ]
+    \ar[
+      dd,
+      <-|
+    ]
+    \\
+    \\
+    0
+    \ar[
+      rrr,
+      <-|
+    ]
+    &&&
+    x^a
+\end{tikzcd}
+
+\begin{tikzcd}
+    &
+    \theta - \theta
+    \ar[
+      rr,
+      <-|
+    ]
+    &&
+    \theta_{'}
+    +
+    \theta
+    \ar[
+      ddd,
+      <-|
+    ]
+    \\
+    0
+    \ar[
+      dd,
+      <-|
+    ]
+    \ar[
+      ur,
+      equals
+    ]
+    \\
+    \\
+    0
+    \ar[
+      rrr, <-|
+    ]
+    &&&
+    \theta
+\end{tikzcd}
 
 
 
