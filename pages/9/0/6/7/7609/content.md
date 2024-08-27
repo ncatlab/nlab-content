@@ -93,7 +93,7 @@ For instance, in the language of [[dependent type theory]] the following *substi
 
 Here "admissibility" means that if there exist derivations of $\Gamma \vdash (t:A)$ and $(x:A) \vdash P \;type$, then there also exists a derivation of $\Gamma \vdash P[t/x] \;type$.  By contrast, saying that this is a derivable rule would mean that it can occur itself as *part* of a derivation, rather than being a meta-statement *about* derivations.
 
-The substition rule is closely related to the [[cut rule]], and admissibility of such rules is generally proven by [[cut elimination]].
+The substitution rule is closely related to the [[cut rule]], and admissibility of such rules is generally proven by [[cut elimination]].
 
 \begin{remark}
 \label{TypesettingByActualSubstitution}
