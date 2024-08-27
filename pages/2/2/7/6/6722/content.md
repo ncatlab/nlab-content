@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[supersymmetry breaking]] from [[super QCD]] to [[QCD]]:
+
+* [[Ian Affleck]], [[Michael Dine]], [[Nathan Seiberg]]: *Dynamical supersymmetry breaking in supersymmetric QCD.* Nuclear Physics B **241** 2 (1984) 493-534 \[<a href="https://doi.org/10.1016/0550-3213(84)90058-0">doi:10.1016/0550-3213(84)90058-0</a>\]
+
+
 Introducing [[mirror symmetry]] of [[D=3 N=4 super Yang-Mills theory]]:
 
 * {#IntriligatorSeiberg96} [[Ken Intriligator]], [[Nathan Seiberg]], _Mirror Symmetry in Three Dimensional Gauge Theories_, Phys. Lett. B 387:513-519,1996 ([arXiv:hep-th/9607207](http://arxiv.org/abs/hep-th/9607207))
