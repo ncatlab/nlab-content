@@ -10,8 +10,12 @@ On the [[Schwinger effect]]:
 * {#AffleckManton82} [[Ian Affleck]], [[Nicholas Manton]], _Monopole pair production in a magnetic field_, Nuclear Physics B Volume 194, Issue 1, (1982) Pages 38-64 (<a href="https://doi.org/10.1016/0550-3213(82)90511-9">doi:10.1016/0550-3213(82)90511-9</a>
 
 * {#AffleckAlvarezManton82} [[Ian Affleck]], [[Orlando Alvarez]], [[Nicholas Manton]], _Pair production at strong coupling in weak external fields_, Nuclear Physics B Volume 197, Issue 3 (1982) Pages 509-519 (<a href="https://doi.org/10.1016/0550-3213(82)90455-2">doi:10.1016/0550-3213(82)90455-2</a>)
-
   > (via [[worldline formalism]])
+
+On [[supersymmetry breaking]] from [[super QCD]] to [[QCD]]:
+
+* [[Ian Affleck]], [[Michael Dine]], [[Nathan Seiberg]]: *Dynamical supersymmetry breaking in supersymmetric QCD.* Nuclear Physics B **241** 2 (1984) 493-534 \[<a href="https://doi.org/10.1016/0550-3213(84)90058-0">doi:10.1016/0550-3213(84)90058-0</a>\]
+
 
 On [[flag manifold sigma-models]]:
 
