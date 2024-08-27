@@ -19,6 +19,9 @@ Introducing the [[D'Auria-Fré-Regge formulation of supergravity]]:
 
 * {#DAuriaFre80} [[Riccardo D'Auria]], [[Pietro Fré]],  [[Tullio Regge]], _Graded Lie algebra, cohomology and supergravity_, Riv. Nuov. Cim. **3** fasc. 12 (1980) &lbrack;[spire:156191](http://inspirehep.net/record/156191)&rbrack;
 
+* A. Pràstaro, [[Tullio Regge]]: *The group structure of supergravity*, Annales de l'I.H.P. Physique théorique, **44** 1 (1986) 39-89 &lbrack;[numdam:AIHPA_1986__44_1_39_0](http://www.numdam.org/item/?id=AIHPA_1986__44_1_39_0), [eudml:76312](https://eudml.org/doc/76312)&rbrack;
+
+
 On [[Fierz identities]] in ([[D=5 supergravity|D=5]]) [[supergravity]]:
 
 * {#DAuriaFreMainaRegge82} [[Riccardo D'Auria]], [[Pietro Fré]],  E. Maina, [[Tullio Regge]],  *A New Group Theoretical Technique for the Analysis of Bianchi Identities and Its Application to the Auxiliary Field Problem of $D=5$ Supergravity*, Annals Phys. 139 (1982) 93 &lbrack;<a href="http://dx.doi.org/10.1016/0003-4916(82)90007-0">doi:10.1016/0003-4916(82)90007-0</a>, [spire:167640](http://inspirehep.net/record/167640)&rbrack;
