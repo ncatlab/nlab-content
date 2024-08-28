@@ -32,6 +32,10 @@ Proposal for understanding [[D=6 N=(1,0) SCFTs]] as [[higher gauge theories]] fo
 
 * [[Christian Saemann]], [[Lennart Schmidt]], *Towards an M5-Brane Model II: Metric String Structures*, Fortschr. Phys. **68** (2020) 2000051 &lbrack;[arXiv:1908.08086](https://arxiv.org/abs/1908.08086), [doi:10.1002/prop.202000051](https://doi.org/10.1002/prop.202000051)&rbrack;
 
+* [[Dominik Rist]], [[Christian Saemann]], Miro van der Worp: *Towards an M5-Brane Model III: Self-Duality from Additional Trivial Fields*,  J. High Energ. Phys. **2021** 36 (2021) &lbrack;<a href=" https://doi.org/10.1007/JHEP06(2021)036">doi:10.1007/JHEP06(2021)036</a>, [arXiv:2012.09253](https://arxiv.org/abs/2012.09253)&rbrack;
+  > (on the [[self-dual higher gauge theory|self-duality condition]] on the [[M5-brane]] [[worldvolume]]:
+)
+
 
 On the [[classical double copy]] ([[KLT relations]], relating [[gravity]] to [[Yang-Mills theory]]) via [[L-infinity algebras|$L_\infty$-algebra]]:
 
