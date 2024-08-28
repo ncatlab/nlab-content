@@ -52,6 +52,8 @@ On the [[super-embedding approach]] to [[super p-brane]] [[sigma models]]:
 
 * {#HoweSezgin97a} [[Paul S. Howe]], [[Ergin Sezgin]], *Superbranes*, Phys. Lett. B **390** (1997) 133-142 &lbrack;[arXiv:hep-th/9607227](https://arxiv.org/abs/hep-th/9607227), <a href="https://doi.org/10.1016/S0370-2693(96)01416-5">doi:10.1016/S0370-2693(96)01416-5</a>&rbrack;
 
+* [[Paul S. Howe]], [[Ergin Sezgin]], [[Peter C. West]]: *Aspects of Superembeddings*, in: *Supersymmetry and Quantum Field Theory*, Lecture Notes in Physics **509** (1998) &lbrack;[doi:10.1007/BFb0105230](https://doi.org/10.1007/BFb0105230), [arXiv:hep-th/9705093](https://arxiv.org/abs/hep-th/9705093)&rbrack;
+
 * [[Paul S. Howe]], O. Raetzel, [[Ergin Sezgin]], *On Brane Actions and Superembeddings*, JHEP 9808 (1998) 011 &lbrack;[arXiv:hep-th/9804051](https://arxiv.org/abs/hep-th/9804051), [doi:10.1088/1126-6708/1998/08/011](https://doi.org/10.1088/1126-6708/1998/08/011)&rbrack;
 
 and specifically on the case of the [[M5-brane]]:
