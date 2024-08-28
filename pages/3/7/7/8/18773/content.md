@@ -43,7 +43,7 @@ The [[renormalization]] process was first suggested in
 
 * {#Dirac51} [[Paul Dirac]], Proc. Roy. Soc. A 209, 291 (1951)
 
-* {#Feynman66} [[Richard Feynman]], Nobel lecture, reproduced in Science 153, 699 (1966)
+* {#Feynman66} [[Richard Feynman]], Nobel lecture, reproduced in Science *153* 699 (1966)
 
 * {#Feynman85} [[Richard Feynman]], _[QED: The Strange Theory of Light and Matter](https://en.wikipedia.org/wiki/QED:_The_Strange_Theory_of_Light_and_Matter)_, 1985 
 
