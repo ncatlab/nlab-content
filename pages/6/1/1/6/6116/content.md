@@ -14,6 +14,9 @@ Leonhard Euler was a major Swiss mathematician of 18th century, working most of 
 
 * [[Euler-Lagrange equation]]
 
+* [[Euler vector field]], [[Euler's theorem on homogeneous functions]]
+
+
 category: people
 
 [[!redirects Euler]]
