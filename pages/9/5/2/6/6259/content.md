@@ -44,6 +44,7 @@ Since imposing the self-duality constraint on the fields that enter the above [[
 
 The way this works is understood in much mathematical detail for $k = 0$, see at _[[AdS3-CFT2 and CS-WZW correspondence]]_. Motivated by this it has been proposed and studied in a fair bit of mathematical detail for $k = 1$ ([Witten 96](#Witten96), [[Quadratic Functions in Geometry, Topology, and M-Theory|Hopkins-Singer 02]]), see at _[[M5-brane]]_ and _[[6d (2,0)-superconformal QFT]]_ and [AdS7/CFT6](AdS-CFT#AdS7CFT6). In both these cases the [[higher gauge fields]] are [[cocycle]]s in [[ordinary differential cohomology]]. In ([DMW 00](#MW00), [Belov-Moore 06b](#BelovMooreII)) it is suggested that similarly taking the self-dual fields to be cocycles in ([[differential K-theory|differential]]) [[complex K-theory]] produces the [[RR-fields]] of [[type II superstring theory]] in dimension 10.
 
+
 ## Definition (outline)
  {#Definition}
 
@@ -259,20 +260,19 @@ See at _[intermediate Jacobian -- For complex K-theory](intermediate+Jacobian#Fo
 
 Original articles on the general issue include
 
-* {#HenneauxTeitelboim88} [[Marc Henneaux]], [[Claudio Teitelboim]], _Dynamics of chiral (self-dual) $p$-forms_, Physics Letters B Volume 206, Issue 4, 2 June 1988, Pages 650-654 (<a href="https://doi.org/10.1016/0370-2693(88)90712-5">doi:10.1016/0370-2693(88)90712-5</a>)
+* {#HenneauxTeitelboim88} [[Marc Henneaux]], [[Claudio Teitelboim]], _Dynamics of chiral (self-dual) $p$-forms_, Physics Letters B **206** 4 (1988) 650-654 &lbrack;<a href="https://doi.org/10.1016/0370-2693(88)90712-5">doi:10.1016/0370-2693(88)90712-5</a>&rbrack;
 
 * {#PastiSorokinTonin06} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On Lorentz Invariant Actions for Chiral P-Forms_, Phys.Rev. D55 (1997) 6292-6298 ([arXiv:hep-th/9611100](https://arxiv.org/abs/hep-th/9611100))
 
-
 * {#Witten99} [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_, JHEP 0005:031,2000 ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
 
-* {#BelovMooreI} Dmitriy Belov, [[Greg Moore]], _Holographic Action for the Self-Dual Field_ ([arXiv:hep-th/0605038](http://arxiv.org/abs/hep-th/0605038))
+* {#BelovMooreI} Dmitriy Belov, [[Greg Moore]], _Holographic Action for the Self-Dual Field_ &lbrack;[arXiv:hep-th/0605038](http://arxiv.org/abs/hep-th/0605038)&rbrack;
 
 Surveys include
 
 * [[Greg Moore]], _A Minicourse on Generalized Abelian Gauge Theory, Self-Dual Theories, and Differential Cohomology_, Lectures at Simons Center for Geometry and Physics (2011) ([pdf](http://www.physics.rutgers.edu/~gmoore/SCGP-Minicourse.pdf))
 
-* {#Szabo12} [[Richard Szabo]], _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_ ([arXiv:1209.2530](http://arxiv.org/abs/1209.2530))
+* {#Szabo12} [[Richard Szabo]], _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_ &lbrack;[arXiv:1209.2530](http://arxiv.org/abs/1209.2530)&rbrack;
 
 An approach based on [[supergeometry]]:
 
@@ -316,9 +316,6 @@ Discussion of the equivalence of these superficially different action functional
 
 * [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _On the equivalence of different formulations of the M Theory five--brane_, Phys. Lett. B408 (1997) 135-141 ([arXiv:hep-th/9703127](http://arxiv.org/abs/hep-th/9703127))
 
-On the [[self-dual higher gauge field]] on the [[M5-brane]] lifted to [[superspace]] in the [[D'Auria-Fré formulation of supergravity]]:
-
-* {#ACDGMNRT22}  [[Laura Andrianopoli]], [[C. A. Cremonini]], [[Riccardo D'Auria]], [[Pietro A. Grassi]], [[Riccardo Matrecano]], [[Ruggero Noris]], [[Lucrezia Ravera]], [[Mario Trigiante]], *M5-brane in the superspace approach*, Phys. Rev. D **106** 2 (2022) 026010 &lbrack;[arXiv:2206.06388](https://arxiv.org/abs/2206.06388), [doi:10.1103/PhysRevD.106.026010](https://doi.org/10.1103/PhysRevD.106.026010)&rbrack;
 
 
 
@@ -362,9 +359,9 @@ A precise formulation of the phenomenon in terms of [[ordinary differential coho
 
 The idea of describing self-dual higher gauge theory by [[holography]] with abelian [[higher dimensional Chern-Simons theory]] in one dimension higher originates in 
 
-* {#Witten96} [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ J. Geom. Phys.22:103-133,1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+* {#Witten96} [[Edward Witten]], _Five-Brane Effective Action In M-Theory_, J. Geom. Phys. **22** (1997) 103-133 &lbrack;<a href="https://doi.org/10.1016/S0393-0440(97)80160-X">doi:10.1016/S0393-0440(97)80160-X</a>, [arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234)&rbrack;
  
-* [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_, JHEP 0005:031,2000 ([arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086))
+* [[Edward Witten]], _Duality Relations Among Topological Effects In String Theory_, JHEP 0005:031 (2000) &lbrack;[doi:10.1088/1126-6708/2000/05/031](https://doi.org/10.1088/1126-6708/2000/05/031), [arXiv:hep-th/9912086](http://arxiv.org/abs/hep-th/9912086)&rbrack;
 
 
 Conceptual aspects of this are also discussed in section 6.2 of 
@@ -397,9 +394,20 @@ Enhancement to [[superspace]] (in [[D'Auria-Fre formulation of supergravity]]):
 
 Further discussion:
 
-* {#Hull23} [[Chris Hull]], *Covariant Action for Self-Dual $p$-Form Gauge Fields in General Spacetimes* &lbrack;[arXiv:2307.04748](https://arxiv.org/abs/2307.04748)&rbrack;
+* [[Neil Lambert]], _$(2,0)$ Lagrangian Structures_, Physics Letters B **798** (2019) 134948 &lbrack;[arXiv:1908.10752](https://arxiv.org/abs/1908.10752), [doi;10.1016/j.physletb.2019.134948](https://doi.org/10.1016/j.physletb.2019.134948)&rbrack;
+
+* Pichet Vanichchapongjaroen: *Covariant M5-brane action with self-dual 3-form*, J. High Energ. Phys. **2021** 39 (2021) &lbrack;<a href="https://doi.org/10.1007/JHEP05(2021)039">doi:10.1007/JHEP05(2021)039</a>, [arXiv:2011.14384](https://arxiv.org/abs/2011.14384)&rbrack;
+  > (attention to the non-linearity of the self-duality on M5)
+
+* {#Hull23} [[Chris Hull]], *Covariant Action for Self-Dual $p$-Form Gauge Fields in General Spacetimes*, J. High Energ. Phys. **2024** 11 (2024) &lbrack;[arXiv:2307.04748](https://arxiv.org/abs/2307.04748), <a href="https://doi.org/10.1007/JHEP04(2024)011">doi:10.1007/JHEP04(2024)011</a>&rbrack;
 
 * Sujiphat Janaun, Anajak Phonchantuek, Pichet Vanichchapongjaroen, *Nonlinear chiral forms in the Sen formulation* &lbrack;[arXiv:2404.05380](https://arxiv.org/abs/2404.05380)&rbrack;
+
+* [[Dominik Rist]], [[Christian Saemann]], Miro van der Worp: *Towards an M5-Brane Model III: Self-Duality from Additional Trivial Fields*,  J. High Energ. Phys. **2021** 36 (2021) &lbrack;<a href=" https://doi.org/10.1007/JHEP06(2021)036">doi:10.1007/JHEP06(2021)036</a>, [arXiv:2012.09253](https://arxiv.org/abs/2012.09253)&rbrack;
+
+
+* {#ACDGMNRT22}  [[Laura Andrianopoli]], [[C. A. Cremonini]], [[Riccardo D'Auria]], [[Pietro A. Grassi]], [[Riccardo Matrecano]], [[Ruggero Noris]], [[Lucrezia Ravera]], [[Mario Trigiante]], *M5-brane in the superspace approach*, Phys. Rev. D **106** 2 (2022) 026010 &lbrack;[arXiv:2206.06388](https://arxiv.org/abs/2206.06388), [doi:10.1103/PhysRevD.106.026010](https://doi.org/10.1103/PhysRevD.106.026010)&rbrack;
+  > (lifted to [[superspace]] in the [[D'Auria-Fré-Regge formulation of supergravity]])
 
 
 
