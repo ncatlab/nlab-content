@@ -1002,6 +1002,8 @@ See [[Frölicher space]] and [[diffeological space]] for the definitions in thei
 
 * [[normal bundle]]
 
+* [[Euler vector field]]
+
 * [[G-structure]]
 
 * [[stable tangent bundle]]
