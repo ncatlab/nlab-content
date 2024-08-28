@@ -11,7 +11,7 @@ There are many different notions of "reflection" in mathematics.
 
 * For the notion of reflection for a [[function]] $f$ in [[number theory]], [[real analysis]], [[functional analysis]], see *[[reflection relation]]*.
 
-* For the notions of reflection in [[category theory]], see *[[reflection along a functor]], *[[reflective subcategory]]* and *[[idempotent monad]]*.
+* For the notions of reflection in [[category theory]], see *[[reflection along a functor]]*, *[[reflective subcategory]]* and *[[idempotent monad]]*.
 
 * For the notion of reflection in [[modal logic]] and [[modal type theory]], see *[[modal operator]]*, *[[reflective subuniverse]]*.
 
