@@ -221,6 +221,8 @@ Under the name "doubly supersymmetric geometrical approach" discussion of the su
 
 The terminology "superembedding" arises with:
 
+* [[Paul S. Howe]], [[Ergin Sezgin]], [[Peter C. West]]: *Aspects of Superembeddings*, in: *Supersymmetry and Quantum Field Theory*, Lecture Notes in Physics **509**, Springer (1998) &lbrack;[doi:10.1007/BFb0105230](https://doi.org/10.1007/BFb0105230), [arXiv:hep-th/9705093](https://arxiv.org/abs/hep-th/9705093)&rbrack;
+
 * {#HoweRaetzelSezgin98} [[Paul S. Howe]], O. Raetzel, [[Ergin Sezgin]], *On Brane Actions and Superembeddings*, JHEP 9808 (1998) 011 &lbrack;[arXiv:hep-th/9804051](https://arxiv.org/abs/hep-th/9804051), [doi:10.1088/1126-6708/1998/08/011](https://doi.org/10.1088/1126-6708/1998/08/011)&rbrack;
 
 and a more elaborate discussion originates with:
