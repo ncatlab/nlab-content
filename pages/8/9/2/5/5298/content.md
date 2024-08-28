@@ -28,4 +28,12 @@ On the [[Connes-Lott model]]:
 
 * {#Barrett07} [[John Barrett]], _A Lorentzian version of the non-commutative geometry of the standard model of particle physics_, J. Math. Phys. 48:012303, 2007 ([arXiv:hep-th/0608221](http://arxiv.org/abs/hep-th/0608221), [doi:10.1063/1.2408400](https://doi.org/10.1063/1.2408400))
 
+On [[fermion|fermionic]] [[path integrals]] via finite-dimensional [[spectral triples]]:
+
+* [[John W. Barrett]]: *Fermion integrals for finite spectral triples* &lbrack;[arXiv:2403.18428](https://arxiv.org/abs/2403.18428)&rbrack;
+
+
+
 category: people
+
+[[!redirects John W. Barrett]]
