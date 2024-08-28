@@ -110,6 +110,7 @@ There is a way out, due to [[Henry Cheng]], for both of these problems at once. 
 
 See details at [[Cheng space]].
 
+There are also other approaches to constructive measure theory, such as [[Thierry Coquand]]'s and [[Erik Palmgren]]'s notion of [[metric Boolean algebra]]. 
 
 ### In dream mathematics
 
@@ -117,6 +118,9 @@ While measure theory only gets more complicated in constructive mathematics, it 
 
 ... more coming ...
 
+### Point-free measurable spaces
+
+Just like how in [[point-free topology]], one takes the [[opens]] to be fundamental and defines a [[locale]] as a [[frame of opens]], in point-free measure theory, one takes the measurables to be fundamental and define the point-free analogue of a measurable space as a [[sigma-complete Boolean algebra|$\sigma$-complete Boolean algebra]] of measurables. 
 
 ## Related concepts
 
@@ -133,6 +137,10 @@ For [[Henry Cheng]]'s theory of measure spaces, see
 * {#BishopBridges} [[Errett Bishop]], [[Douglas Bridges]]: *[[Constructive Analysis]]*, Grundlehren der mathematischen Wissenschaften **279**, Springer (1985) &lbrack;[doi:10.1007/978-3-642-61667-9](https://doi.org/10.1007/978-3-642-61667-9)&rbrack;
 
 * {#BishopCheng} [[Errett Bishop]], [[Henry Cheng]]. *Constructive Measure Theory*, American Mathematical Society (1972). &lbrack;ISBN:978-0821818169&rbrack;
+
+For [[Thierry Coquand]]'s and [[Erik Palmgren]]'s constructive measure theory, see
+
+* {#CoquandPalmgren} [[Thierry Coquand]], [[Erik Palmgren]], *Metric Boolean algebras and constructive measure theory*,  Archive for Mathematical Logic  41, 687–704 (2002). &lbrack;[doi:10.1007/s001530100123](https://doi.org/10.1007/s001530100123)&rbrack;
 
 ### Relation to von Neumann algebra
  {#ReferencesRelationToVonNeumannAlgebras}
@@ -162,7 +170,6 @@ See also
 * {#Jackson06} Matthew Jackson, _A sheaf-theoretic approach to measure theory_, 2006 ([pdf](http://www.andrew.cmu.edu/~awodey/students/jackson.pdf))
 
 * {#Henry14} [[Simon Henry]], _From toposes to non-commutative geometry through the study of internal Hilbert spaces_, 2014  ([pdf](http://www.normalesup.org/~henry/Thesis.pdf))
-
 
 category: probability
 
