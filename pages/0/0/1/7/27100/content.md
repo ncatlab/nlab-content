@@ -27,7 +27,11 @@ A **$\sigma$-complete Heyting algebra** is a [[Heyting algebra]] which is also a
 
 * [[sigma-frame]]
 
+* [[sigma-complete Boolean algebra]]
+
 * [[Heyting algebra]]
+
+* [[complete Heyting algebra]]
 
 [[!redirects sigma-complete Heyting algebra]]
 [[!redirects sigma-complete Heyting algebras]]
