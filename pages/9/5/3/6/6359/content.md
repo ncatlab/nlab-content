@@ -1,7 +1,11 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+###Context
+###Localization theory
++--{: .hide}
+[[!include localization theory - contents]]
+=--
 #### Category theory
 +--{: .hide}
 [[!include category theory - contents]]
