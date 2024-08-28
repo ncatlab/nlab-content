@@ -35,6 +35,8 @@ $$a \wedge \Vee_{n:\mathbb{N}} s(n) = \Vee_{n:\mathbb{N}} a \wedge s(n)$$
 
 * [[sigma-complete Heyting algebra]]
 
+* [[sigma-complete Boolean algebra]]
+
 * [[distributive lattice]]
 
 * [[measure]]
