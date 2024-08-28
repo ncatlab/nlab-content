@@ -46,6 +46,4 @@ A category $C$ satisfying (any of) the following equivalent conditions is said t
 
 *  [[Jiri Adamek]], [[Jiri Rosicky]], [[Enrico Vitale]], _What are sifted colimits?_, TAC __23__ (2010) pp. 251--260. ([tac](http://www.tac.mta.ca/tac/volumes/23/13/23-13abs.html))
 
-* [[Jiri Adamek]], [[Jiri Rosicky]], [[Enrico Vitale]], _Algebraic Theories - a Categorical Introduction to General Algebra_ , Cambrige UP 2010. (ch. 2) ([draft](http://www.iti.cs.tu-bs.de/~adamek/algebraic_theories.pdf)) 
-
-
+* [[Jiri Adamek]], [[Jiri Rosicky]], [[Enrico Vitale]], _Algebraic Theories - a Categorical Introduction to General Algebra_ , Cambrige UP 2010. (ch. 2) ([draft](https://perso.uclouvain.be/enrico.vitale/gab_CUP2.pdf))
