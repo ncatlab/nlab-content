@@ -173,6 +173,7 @@ For each $k \geq 3$, the forgetful functor from $BoolAlg \to$ $M_k$-$Set$ realiz
 ## See also
 
 * [[complete Boolean algebra]]
+* [[sigma-complete Boolean algebra|$\sigma$-complete Boolean algebra]]
 * [[Boolean algebra object]]
 * [[BoolAlg]] - the category of Boolean algebras
 
