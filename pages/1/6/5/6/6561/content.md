@@ -154,7 +154,7 @@ On the absence of [[perturbation theory]]:
 
 New approach to construction of candidate [[Lagrangian densities]] for [[D=6 N=(2,0) SCFTs]]:
 
-* [[Neil Lambert]], _$(2,0)$ Lagrangian Structures_, Physics Letters B **798** (2019) 134948 &lbrack;[arXiv:1908.10752](https://arxiv.org/abs/1908.10752)&rbrack;
+* [[Neil Lambert]], _$(2,0)$ Lagrangian Structures_, Physics Letters B **798** (2019) 134948 &lbrack;[arXiv:1908.10752](https://arxiv.org/abs/1908.10752), [doi;10.1016/j.physletb.2019.134948](https://doi.org/10.1016/j.physletb.2019.134948)&rbrack;
 
 
  
