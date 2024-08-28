@@ -85,7 +85,7 @@ There are various other results that are equivalent to the principles of omnisci
 
 * [[sequentially compact space|Sequential compactness]] of the [[unit interval]] holds if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
-* The [[boolean domain]] is the [[initial object|initial]] $\sigma$-frame if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
+* The [[boolean domain]] is the [[initial object|initial]] $\sigma$-frame and in fact the initial [[sigma-complete Boolean algebra|$\sigma$-complete Boolean algebra]] if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
 * The [[boolean domain]] is $\mathbb{N}$-overt as a [[dominance]] if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
