@@ -167,6 +167,7 @@ We are now learning ways to understand [[measure theory]] and [[probability]] aw
 
 * [[sigma-topological space|$\sigma$-topological space]]
 
+* [[sigma-complete Boolean algebra|$\sigma$-complete Boolean algebra]]
 
 category: probability
 
