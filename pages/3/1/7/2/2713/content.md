@@ -239,6 +239,13 @@ Discussion in the context of [[D-brane]] [[matrix models]] is in
 
 * T. Asakawa, S. Sugimoto, S. Terashima, _D-branes, Matrix Theory and K-homology_, JHEP 0203 (2002) 034 ([arXiv:hep-th/0108085](http://arxiv.org/abs/hep-th/0108085))
 
+On [[fermion|fermionic]] [[path integrals]] via finite-dimensional spectral triples:
+
+* [[John W. Barrett]]: *Fermion integrals for finite spectral triples* &lbrack;[arXiv:2403.18428](https://arxiv.org/abs/2403.18428)&rbrack;
+
+
+
+
 ### von Neumann spectral triples 
 
 One variation uses [[von Neumann algebras]] instead of [[C-star algebras]].
