@@ -9,6 +9,7 @@
 =--
 =--
 
+
 \tableofcontents
 
 ## Group completed configuration spaces of unlabeled points
@@ -442,7 +443,9 @@ The above discussion follows:
 
 * [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Abelian Anyons on Flux-Quantized M5-Branes]]* &lbrack;[arXiv:2408.11896](https://arxiv.org/abs/2408.11896)&rbrack;
 
+After writing this up we learned of the following set of slides, where very similar pictures were already drawn (p. 23-30 and pp. 52):
 
+* [[Shingo Okuyama]]: *Configuration space of intervals with partially summable labels*, talk at National Institute of Technology, Kagawa College (2018) &lbrack;[pdf](http://math.shinshu-u.ac.jp/~ksakai/AGM/18_Okuyama_slide.pdf), [[Okuyama-IntervalsSlides.pdf:file]]&rbrack;
 
 
 
