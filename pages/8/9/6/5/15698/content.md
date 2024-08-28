@@ -21,10 +21,13 @@ On [[quantum mechanics]] and [[spectral theory]]:
 
 
 
-On [[quantum observables]] and [[quantum probability]]:
+On [[quantum observables]], quantum relativistic localization, and [[quantum probability]]:
 
 * Nicolò Drago, [[Valter Moretti]], _The notion of observable and the moment problem for $\ast$-algebras and their GNS representations_ &lbrack;[doi:1903.07496](https://arxiv.org/abs/1903.07496), [spire:1725528](http://inspirehep.net/record/1725528)&rbrack;
 
+* [[Valter Moretti]], _On the Relativistic Spatial Localization for massive real scalar Klein-Gordon quantum particles_ &lbrack;[doi:2304.02133](https://arxiv.org/abs/2304.02133)
+
+* C. De Rosa, [[Valter Moretti]] _Quantum particle localization observables on Cauchy surfaces of Minkowski spacetime and their causal properties_ &lbrack;[doi:10.1007/s11005-024-01817-9](https://arxiv.org/abs/2402.13894)
 
 On [[classical mechanics]]:
 
