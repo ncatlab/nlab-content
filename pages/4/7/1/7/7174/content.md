@@ -63,6 +63,9 @@ On deriving the [[equations of motion]] for the [[M5-brane]] via [[superspace]]-
 
 * {#HoweSezginWest97} [[Paul Howe]], [[Ergin Sezgin]], [[Peter West]], _Covariant Field Equations of the M Theory Five-Brane_, Phys. Lett. B399 (1997) 49-59 ([arXiv:hep-th/9702008](https://arxiv.org/abs/hep-th/9702008))
 
+* [[Paul S. Howe]], [[Ergin Sezgin]], [[Peter C. West]]: *Aspects of Superembeddings*, in: *Supersymmetry and Quantum Field Theory*, Lecture Notes in Physics **509** (1998) &lbrack;[doi:10.1007/BFb0105230](https://doi.org/10.1007/BFb0105230), [arXiv:hep-th/9705093](https://arxiv.org/abs/hep-th/9705093)&rbrack;
+
+
 On [[intersecting brane|intersecting]] [[super p-branes]]:
 
 * C. S. Chu, [[Paul S. Howe]], [[Ergin Sezgin]], [[Peter C. West]]: *Open superbranes*, Physics Letters B **429** 3–4 (1998) 273-280 &lbrack;<a href="https://doi.org/10.1016/S0370-2693(98)00441-9">doi:10.1016/S0370-2693(98)00441-9</a>&rbrack;
