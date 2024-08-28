@@ -83,7 +83,7 @@ As a consequence, $CompBoolAlg$ is not cocomplete (otherwise there would exist a
 * [[Boolean locale]]
 * [[Stonean locale]]
 * [[completely distributive lattice]] 
-
+* [[sigma-complete Boolean algebra|$\sigma$-complete Boolean algebra]]
 
 ## References
 
