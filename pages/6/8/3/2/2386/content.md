@@ -72,6 +72,10 @@ On [[TQFT]]:
 
 * {#Teleman14} [[Constantin Teleman]], *Five lectures on topological field theory*, in *Geometry and Quantization of Moduli Spaces*, CRM Advanced Courses in Mathematics, Birkhäuser (2016) &lbrack;[doi:10.1007/978-3-319-33578-0_3](https://doi.org/10.1007/978-3-319-33578-0_3), [pdf](http://math.berkeley.edu/~teleman/math/barclect.pdf), [[Teleman-LecturesOnTFT.pdf:file]]&rbrack;
 
+On [[quantum anomalies]] of gapped theories via [[invertible field theories]]:
+
+* [[Clay Córdova]], [[Daniel S. Freed]], [[Constantin Teleman]]:
+*Gapped theories have torsion anomalies* &lbrack;[arXiv:2408.15148](https://arxiv.org/abs/2408.15148)&rbrack;
 
 
 
