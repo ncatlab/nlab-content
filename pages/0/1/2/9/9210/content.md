@@ -63,6 +63,8 @@ $$
 
 * [[Maurer-Cartan form]]
 
+* [[Euler vector field]]
+
 [[!redirects Liouville 1-form]]
 [[!redirects Poincaré 1-form]]
 [[!redirects Poincare 1-form]]
