@@ -41,6 +41,8 @@ See the article *[[derivations of smooth functions are vector fields]]*.
 
 * [[frame field]]
 
+* [[Euler vector field]]
+
 * [[Hamiltonian vector field]]
 
 * [[Reeb vector field]]
