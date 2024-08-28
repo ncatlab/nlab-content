@@ -34,6 +34,8 @@ $$\Vee_{i:\mathbb{N}} s(i) \leq x$$
 
 * [[sigma-complete Heyting algebra]]
 
+* [[sigma-complete Boolean algebra]]
+
 * [[sigma-continuous valuation]]
 
 * [[sigma-continuous probability valuation]]
