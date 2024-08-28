@@ -114,6 +114,10 @@ On [[spectral networks]] and [[Chern-Simons theory with complex gauge group]]:
 
 * [[Daniel S. Freed]], [[Andrew Neitzke]], *3d spectral networks and classical Chern-Simons theory* &lbrack;[arXiv:2208.07420](https://arxiv.org/abs/2208.07420)&rbrack;
 
+On [[quantum anomalies]] of gapped theories via [[invertible field theories]]:
+
+* [[Clay Córdova]], [[Daniel S. Freed]], [[Constantin Teleman]]:
+*Gapped theories have torsion anomalies* &lbrack;[arXiv:2408.15148](https://arxiv.org/abs/2408.15148)&rbrack;
 
 
 ## Related entries
