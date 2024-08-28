@@ -31,6 +31,12 @@ On [[generalized global symmetries]]:
 
 * [[Clay Cordova]], [[Thomas T. Dumitrescu]], [[Kenneth Intriligator]], [[Shu-Heng Shao]], *Snowmass White Paper: Generalized Symmetries in Quantum Field Theory and Beyond* &lbrack;[arXiv:2205.09545](https://arxiv.org/abs/2205.09545)&rbrack;
 
+On [[quantum anomalies]] of gapped theories via [[invertible field theories]]:
+
+* [[Clay Córdova]], [[Daniel S. Freed]], [[Constantin Teleman]]:
+*Gapped theories have torsion anomalies* &lbrack;[arXiv:2408.15148](https://arxiv.org/abs/2408.15148)&rbrack;
+
+
 
 ## Related entries
 
@@ -41,3 +47,6 @@ On [[generalized global symmetries]]:
 * [[de Sitter spacetime]]
 
 category: people
+
+[[!redirects Clay Córdova]]
+
