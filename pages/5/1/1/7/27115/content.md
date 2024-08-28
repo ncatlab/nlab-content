@@ -39,6 +39,12 @@ A **$\sigma$-complete Boolean algebra** is a [[Boolean algebra]] which is also a
 
 * [[complete Boolean algebra]]
 
+* [[sigma-algebra]]
+
+* [[measurable space]]
+
+* [[measure space]]
+
 [[!redirects sigma-complete Boolean algebra]]
 [[!redirects sigma-complete Boolean algebras]]
 
