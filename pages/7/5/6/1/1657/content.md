@@ -121,6 +121,15 @@ canonically extends to an extended measure:
 we can define $\mu_+$ and $\mu_-$ as usual and then take
 the formal difference $\mu_+-\mu_-$.
 
+### Point-free measure spaces
+
+Just like how in [[point-free topology]], one takes the [[opens]] to be fundamental and defines a [[locale]] as a [[frame of opens]], in point-free measure theory, one takes the measurables to be fundamental and defines a measurable space as a [[sigma-complete Boolean algebra|$\sigma$-complete Boolean algebra]] of measurables. 
+
+Then the various notions of measures and measure spaces above also make sense on the $\sigma$-complete Boolean algebra, but where the [[countable set|countable]] [[union]] and [[intersection]] of [[measurable subsets]] in a traditional measurable space is replaced with the countable [[join]] and [[meet]] of measurables in the $\sigma$-complete Boolean algebra. For example, a probability measure on a $\sigma$-complete Boolean algebra $\Sigma$ is a function $\mu:\Sigma \to [0, 1]$ such that 
+
+1. The measure of the [[top element]] is [[one]]:  $\mu(\top) = 1$
+
+2.  Countable additivity: $\mu(\bigvee_{i \in \mathbb{N}} S_i) = \sum_{i=0}^{\infty} \mu(S_i)$ whenever $S_i \wedge S_j = \bot$ for all [[natural numbers]] $i \in \mathbb{N}$ and $j \in \mathbb{N}$ where $i \neq j$.
 
 ### Constructive theory
 
