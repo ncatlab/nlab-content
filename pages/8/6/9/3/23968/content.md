@@ -99,7 +99,7 @@ is [[generalized the|the]] [[direct sum]] (in the [[category]] of [[quiver repre
 
 Hence the [[multiset]] of [[pairs]] $(a,b)$ labeling its inverval [[direct sum|summands]] completely characterizes the given persistence module, up to [[isomorphism]].
 
-Regarding these pairs as [[intervals]], the collection they form is naturally envisioned as a collection of "bars" and then known as the *barcode* of the persitence module.
+Regarding these pairs as [[intervals]], the collection they form is naturally envisioned as a collection of "bars" and then known as the *barcode* of the persistence module.
 
 Regarding these pairs instead as points in the [[plane]], $(a,b) \in \mathbb{R}^2$, the [[multiset|multi]]-[[subset]] which they form is called the *persistence diagram* of the persistence module.
 
