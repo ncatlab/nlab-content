@@ -71,6 +71,16 @@ In constructive mathematics, the category of classical sets is a [[Heyting categ
 
   * the [[cartesian product]] of any family of subsingletons is a classical set
 
+* more generally, any [[subset]] of a classical set is a classical set, and in particular
+
+  * [[subfinite sets]] are classical sets
+
+  * [[subcountable sets]] are classical sets
+
+  * the [[disjoint union]] of any family of subsingletons is a classical set
+
+  * Given a classical set $A$ with a equivalence relation $\sim$, one can construct the [[quotient set]] $A / \sim$. If one can construct a [[section]] of the unique [[surjection]] which takes elements of $A$ to its equivalence class in $A / \sim$, then $A / \sim$ is a classical set. 
+
 Further axioms can be assumed of the category of classical sets which are not [[neutral constructive mathematics|neutrally constructive]]: 
 
 * That [[Cantor space]] is a classical set is equivalent to the [[limited principle of omniscience]]. 
