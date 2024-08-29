@@ -1,70 +1,91 @@
 
-## Definition
-
-### On vector spaces
-
-On a [[finite-dimensional vector space|finite-dimensional]] [[real vector space|real]] [[vector space]] $V$, canonically regarded also as a [[smooth manifold]], the *Euler vector field* $\xi \colon V \longrightarrow T V$ is that [[vector field]] whose [[flow of a vector field|flow]] $\phi_\xi$ is the linear multiplication action of the vector space
-
-$$
-  \array{
-    V \times \mathbb{R}
-      &\xrightarrow{\; \phi_\xi \;}&
-    V
-    \\
-    (v,t) 
-      &\mapsto& 
-    t\cdot v
-    \mathrlap{\,.}
-  }
-$$
-
-For $\big\{v^i \in V^\ast\big\}_{i =1}^{dim(V)}$ any [[linear basis]] of the [[dual vector space]] to $V$, which we may regarded as [[coordinate function]] on the manifold $V$, then the Euler vector field is equivalenty given by
-\[
-  \label{CoordinateExpression}
-  \xi \;=\; \sum_{i=1}^{dim(V)} v^i \partial_{v^i}
-  \,.
-\]
-
-### On vector bundles
- {#OnVectorBundles}
-
-More generally, for $V$ a [[real vector bundle|real]] [[vector bundle]] over a [[smooth manifold]] $X$, its Euler vector field is the [[vector field]] on the total space $V$ which over each point $x \in X$ restricts to the above Euler vector field on the [[fiber]] space $V_x$.
-
-For $U \hookrightarrow X$ a [[coordinate chart]] over the base manifold with coordinate functions $\big\{x^j\big\}_{j=1}^{dim(X)}$, so that $V_{\vert U}$ has coordinate functions $(x^j, v^i)$, the Euler vector field on $V_{\vert U}$ is again given by the form (eq:CoordinateExpression).
-
-### For submanifold embeddings
-
-For $Y \xrightarrow{\iota} X$ a [[submanifold]] [[embedding of smooth manifolds|embedding]] of [[smooth manifolds]], a [[vector field]] on $X$ is called *Euler-like* (with respect to $\iota$) if it vanishes on $Y$ and its linear expansion around $Y$ is an Euler vector field, in the [above sense](#OnVectorBundles), on the [[normal bundle]] $N_\iota(Y)$.
-
-([BLM19, Def. 2.6](#BLM19))
-
-## Related concepts
-
-* [[Liouville-Poincaré 1-form]]
+\begin{tikzcd}
+    \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \times
+    T_{\!{}_{\mathrm{odd}}}
+    \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \ar[
+      r,
+      hook
+    ]
+    \ar[
+      rr,
+      rounded corners,
+      to path={
+           ([yshift=+00pt]\tikztostart.north)  
+        -- ([yshift=+10pt]\tikztostart.north)  
+        -- node[yshift=5pt] {
+           \scalebox{.7}{$
+             \mathrm{act}
+           $}
+        }
+           ([yshift=+10pt]\tikztotarget.north)  
+        -- ([yshift=+00pt]\tikztotarget.north)  
+      }
+    ]
+    &
+    T_{\!{}_{\mathrm{odd}}}
+    \times
+    T_{\!{}_{\mathrm{odd}}}
+    \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \ar[
+      r,
+      "{ \mathrm{prd}_\ast }"
+    ]
+    &    
+    T_{\!{}_{\mathrm{odd}}}
+    \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+\end{tikzcd}
 
 
-## References
-
-The Euler vector field originates in the proof of [[Leonhard Euler]]'s *theorem on homogeneous functions*:
-
-* [[Richard Courant]]: *Homogeneous Functions*, pp. 108 in vol 1 of: *Differential & Integral Calculus*, 2 volumes (1936) &lbrack;vol1: [ISBN:978-1-118-03149-0](https://www.wiley.com/en-ae/Differential+and+Integral+Calculus%2C+Volume+1%2C+2nd+Edition-p-9781118031490), [ark:/13960/t4fn6m190](https://archive.org/details/in.ernet.dli.2015.205513/), vol2: [ISBN:978-0-471-60840-0](https://www.wiley-vch.de/de/fachgebiete/mathematik-und-statistik/mathematik-16ma/analysis-16ma3/differential-and-integral-calculus-volume-2-978-0-471-60840-0), [ark:/13960/t2g82wq0c](https://archive.org/details/dli.ernet.19986/page/n5/mode/2up), [pdf](https://www.ime.usp.br/~gorodski/ps/Courant-DifferentialIntegralCalculusVolIi.pdf)&rbrack;
-
-Discussion in the generality of [[dg-manifolds]] ([[L-infinity algebroids]]):
-
-* [[Dmitry Roytenberg]]: §2 in: *On the structure of graded symplectic supermanifolds and Courant algebroids*, in *Quantization, Poisson Brackets and Beyond*, Contemp. Math. **315**, Amer. Math. Soc. (2002) &lbrack;[arXiv:math/0203110](https://arxiv.org/abs/math/0203110), [ams:conm-315](https://bookstore.ams.org/conm-315)&rbrack;
-
-On Euler-like vector fields:
-
-* {#BLM19} [[Henrique Bursztyn]], Hudson Lima, [[Eckhard Meinrenken]], section 2 of: *Splitting theorems for Poisson and related structures*, J. Reine Angew. Math. **754** (2019) 281--312 &lbrack;[arXiv:1605.05386](https://arxiv.org/abs/1605.05386), [doi:10.1515/crelle-2017-0014](https://doi.org/10.1515/crelle-2017-0014)&rbrack;
-
-* [[Eckhard Meinrenken]]: *Euler-like vector fields, normal forms, and isotropic embeddings*, Indagationes Mathematicae
-**32** 1 (2021) 224-245, Indagationes Mathematicae &lbrack;[arXiv:2001.10518](https://arxiv.org/abs/2001.10518), [doi:10.1016/j.indag.2020.08.006](https://doi.org/10.1016/j.indag.2020.08.006)&rbrack;
-
-* Arthur Lei Qiu: *Euler-like vector fields* (2021) &lbrack;notes:[pdf](https://www.math.toronto.edu/qiu/writings/EulerLike.pdf), [[Qiu-EulerVFnotes.pdf:file]], slides:[pdf](https://www.math.toronto.edu/qiu/writings/EulerLike_Slides_annotated.pdf), [[Qiu-EulerVFslides.pdf:file]]&rbrack;
-
-* L. A. Visscher: *Euler-like vector fields and normal forms*, Master thesis (2021) &lbrack;[pdf](https://webspace.science.uu.nl/~crain101/thesis-Luuk-Vischer.pdf), [[Visscher-EulerVectorFields.pdf:file]]&rbrack;
-
-\[
-x \in \mathop{Ob}\mathscr{C}, \lim\mathscr{F} \to
-\colim\mathscr{G}
-\]
+\begin{tikzcd}
+    C^\infty
+    \big(
+      \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \big)
+    \,\widehat{\otimes}\,
+    \Omega^\bullet_{\mathrm{dR}}
+    \big(
+      \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \big)
+    \ar[
+      r,
+      <<-
+    ]
+    \ar[
+      rr,
+      <-,
+      rounded corners,
+      to path={
+           ([yshift=+00pt]\tikztostart.north)  
+        -- ([yshift=+08pt]\tikztostart.north)  
+        -- node[yshift=4pt]
+           {
+             \scalebox{.7}{$
+               \mathrm{act}^\ast
+             $}
+           }
+           ([yshift=+08pt]\tikztotarget.north)  
+        -- ([yshift=+00pt]\tikztotarget.north)  
+      }
+    ]
+    &
+    \Omega^\bullet_{\mathrm{dR}}
+    \big(
+      \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \big)
+    \,\widehat{\otimes}\,
+    \Omega^\bullet_{\mathrm{dR}}
+      \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \big)
+    \ar[
+      r,
+      <-,
+      "{ \mathrm{prd}^{\mathrlap{\ast}} }"
+    ]
+    &
+    \Omega^\bullet_{\mathrm{dR}}
+    \big(
+      \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \big)
+\end{tikzcd}
