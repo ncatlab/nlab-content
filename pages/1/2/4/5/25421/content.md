@@ -52,6 +52,11 @@ Reviewed in:
 
 * [[Konrad Waldorf]], *String structures and loop spaces*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.12998](https://arxiv.org/abs/2312.12998)&rbrack;
 
+Construction of the [[Connes fusion]]-operation on [[fibers]] stringor bundles:
+
+* [[Peter Kristel]], [[Konrad Waldorf]]: *Connes fusion of spinors on loop space*, Compositio Mathematica **160** 7 (2024)  1596-1650  &lbrack;[arXiv:2012.08142](https://arxiv.org/abs/2012.08142), [doi:10.1112/S0010437X24007188](https://doi.org/10.1112/S0010437X24007188)&rbrack;
+
+
 Compare also 
 
 * Alessandra Capotosti, *[[From String structures to Spin structures on loop spaces]]*, Ph. D. thesis, Università  degli Studi Roma Tre, Rome (2016)
