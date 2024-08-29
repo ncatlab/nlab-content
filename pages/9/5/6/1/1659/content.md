@@ -33,24 +33,32 @@ Note that the first two terms are not entirely standardised; some authors use th
 If you accept the [[axiom of choice]], then there is really nothing more to say than what was above.  In weaker [[foundations]], more care may be needed.  The following definitions should be more than enough for practical use in [[constructive mathematics]]:
 
 * A [[set]] $S$ is __denumerable__ if there exists a [[bijection]] between $S$ and $\mathbf{N}$; or in other words if $S$ is the same as $\mathbf{N}$ [[up to isomorphism]] in [[Set]].
+* $S$ is __[[BHK interpretation|constructively]] denumerable__ if it comes with the structure of a [[bijection]] between $S$ and $\mathbf{N}$. 
 * $S$ is __denumerably indexed__ if there exists a [[surjection]] to $S$ from $\mathbf{N}$ (or equivalently any denumerable set); or in other words if $S$ a [[quotient set]] of a $\mathbf{N}$, up to isomorphism. 
 * $S$ is __split denumerably indexed__ if there exists a [[split surjection]] to $S$ from $\mathbf{N}$. 
+* $S$ is __[[BHK interpretation|constructively]] denumerably indexed__ or __[[BHK interpretation|constructively]] split denumerably indexed__ if it comes with the structure of a [[surjection]] to $S$ from $\mathbf{N}$ and a [[section]] of said surjection. 
 * $S$ is __countable__ if there exists a bijection between $S$ and a [[detachable subset|detachable]] [[lower subset]] of $\mathbf{N}$. 
+* $S$ is __[[BHK interpretation|constructively]] denumerable__ if it comes with the structure of a [[bijection]] between $S$ and a [[detachable subset|detachable]] [[lower subset]] of $\mathbf{N}$. 
 * $S$ is __countably indexed__ if there exists a [[surjection]] to $S$ from a countable set. 
 * $S$ is __split countably indexed__ if there exists a [[split surjection]] to $S$ from a countable set. 
+* $S$ is __[[BHK interpretation|constructively]] countably indexed__ or __[[BHK interpretation|constructively]] split countably indexed__ if it comes with the structure of a [[surjection]] to $S$ from a countable set and a [[section]] of said surjection. 
 * $S$ is __subcountable__ (or _subdenumerable_) if there exists an [[injection]] from $S$ to a countable set, or equivalently to a denumerable set; or in other words if $S$ is a [[subset]] of $\mathbf{N}$, up to isomorphism.
+* $S$ is __[[BHK interpretation|constructively]] subcountable__ (or _[[BHK interpretation|constructively]] subdenumerable_) if it comes with the structure of an [[injection]] from $S$ to a countable set, or equivalently to a denumerable set.
 * $S$ is __subcountably indexed__ (or _subdenumerably indexed_) if $S$ is a [[subquotient]] of $\mathbf{N}$, up to isomorphism. 
 * $S$ is __split subcountably indexed__ (or _split subdenumerably indexed_) if there exists a [[split surjection]] to $S$ from a subcountable set, or equivalently if there exists an [[injection]] from $S$ to a split countably indexed set or equivalently to a split denumerably indexed set. 
+* $S$ is __[[BHK interpretation|BHK]]-subcountably indexed__ or __[[BHK interpretation|BHK]]-split subcountably indexed__ if it comes with the structure of a [[surjection]] to $S$ from a subcountable set and a [[section]] of said surjection. 
 
 Of course, the terms are even less standardised here.  Certainly it is common for 'countable' to mean countably indexed, and yet it may also (as in classical mathematics) mean denumerable.  In at least some contexts, 'enumerable' (without the initial 'd') means denumerably indexed. 
 
 Not only does the difference between 'denumerable' and 'countable' disappear when we add the prefix 'sub' (for obvious reasons), but it almost disappears when we add the suffix 'ly indexed'!  Specifically, a set is denumerably indexed if and only if it is both [[inhabited set|inhabited]] and countably indexed; and a set is countably indexed if and only if it is either [[empty set|empty]] or denumerably indexed.  That countability involves *lower* subsets of $\mathbb{N}$ is also almost irrelevant here; any *inhabited* detachable subset of $\mathbb{N}$ is denumerably indexed regardless of its closure under order.
 
-On the other hand, it is key that countability involves *detachable* subsets of $\mathbb{N}$, so that not every subcountable set is necessarily countable (or even countably indexed).  Indeed, the set of [[computable numbers]] is subcountably indexed, while the set of [[real numbers]] is uncountable (and thus not countably indexed); yet in [[Russian constructivism]], these are the same set!  One reason to focus on countably indexed sets is that this is about the most general concept that definitely does *not* hold of the set of real numbers.
+On the other hand, it is key that countability involves *detachable* subsets of $\mathbb{N}$, so that not every subcountable set is necessarily countable (or even countably indexed). Indeed, the set of [[computable numbers]] is subcountably indexed, while the set of [[real numbers]] is uncountable (and thus not countably indexed); yet in [[Russian constructivism]], these are the same set!  Furthermore, [[Andrej Bauer]] and [[James Hanson]] have showed that there is a [[topos]] in which the [[Dedekind real numbers]] are countably indexed, which they refer to as "countable" in [their paper](#BauerHanson). 
+
+One reason to focus on subcountable sets is that this is about the most general concept that definitely does *not* hold of the set of real numbers. Every split countably indexed set $A$ is subcountable due to there existing a [[injection|injective]] [[section]] for the [[surjection]] from the detachable subset of $\mathbb{N}$ into $A$. 
 
 In addition, in the presence of [[countable choice]], the difference between *denumerably indexed* and *split denumerably indexed*, *countably indexed* and *split countably indexed*, and *subcountably indexed* and *split subcountably indexed* disappear, since every surjection out of $\mathbb{N}$ and every subset of $\mathbb{N}$ has a [[section]] by [[countable choice]]. 
 
-Under the [[BHK interpretation]] of constructive mathematics, one only has the split versions of denumerably indexed, countably indexed, subcountably indexed. 
+Under the [[BHK interpretation]] of constructive mathematics, one only has the BHK versions of denumerably indexed, countably indexed, subcountably indexed. 
 
 ### Uncountable sets
 
