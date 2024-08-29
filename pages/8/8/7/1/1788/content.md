@@ -64,4 +64,7 @@ On Euler-like vector fields:
 
 * L. A. Visscher: *Euler-like vector fields and normal forms*, Master thesis (2021) &lbrack;[pdf](https://webspace.science.uu.nl/~crain101/thesis-Luuk-Vischer.pdf), [[Visscher-EulerVectorFields.pdf:file]]&rbrack;
 
-
+\[
+x \in \mathop{Ob}\mathscr{C}, \lim\mathscr{F} \to
+\colim\mathscr{G}
+\]
