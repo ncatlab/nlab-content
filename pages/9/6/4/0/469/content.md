@@ -55,7 +55,7 @@ More abstractly, from the point of view of [[2-category]] theory, closed monoida
 ### Symmetric closed monoidal category
 
 
-A [[symmetric monoidal category|symmetric]] [[monoidal category]] $C$ is **closed** (cf. *[[symmetric monoidal closed category]]*) if for all [[objects]] $b \in C_0$ the [[tensor product]] [[functor]] $ b \otimes - \colon C \to C$ has a [[right adjoint]] functor $[b,-] \colon C \to C$.
+A [[symmetric monoidal category|symmetric]] [[monoidal category]] $C$ is **closed** (cf. *[[symmetric monoidal closed category]]*) if for all [[objects]] $b \in C_0$ the [[tensor product]] [[functor]] $ - \otimes b \colon C \to C$ has a [[right adjoint]] functor $[b,-] \colon C \to C$.
 
 $$
   \underset{b \in C}{\forall}
