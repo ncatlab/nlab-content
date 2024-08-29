@@ -23,20 +23,40 @@ In [[constructive mathematics]], a [[set]] $X$ has __decidable equality__ if any
 
 ## Examples
 
-* Every [[finite set]] has decidable equality (though the same is not true for finitely-indexed or subfinite sets).
+* Every [[finite set]] has decidable equality. 
 
-* The [[natural numbers]] have decidable equality.
+* Every [[subfinite set]] has decidable equality, since finite sets have decidable equality and the canonical [[injection]] of a subfinite set into a finite set preserves and reflects both equality and the negation of equality by definition of injection. 
+
+* The [[natural numbers]] have decidable equality. 
+
+* Every [[countable set]] (a set that admits a [[bijection]] with a [[lower set|lower]] [[decidable subset]] of $\mathbb{N}$) has [[decidable equality]]. 
+
+* Every [[subcountable set]] has decidable equality, since the natural numbers have decidable equality and the canonical [[injection]] of a subcountable set into the natural numbers preserves and reflects both equality and the negation of equality by definition of injection. 
+
+* More generally, every [[subset]] of a set with [[decidable equality]] itself has decidable equality. 
+
+There are other examples if we assume some principles which are not [[neutral constructive mathematics|neutrally constructive]]:
+
+* [[Cantor space]] has decidable equality if and only if the [[weak limited principle of omniscience]] holds
+
+* The [[Dedekind real numbers]] has decidable equality if and only if [[analytic WLPO]] holds
 
 +--{: .un_remark}
 ###### Remark
-In fact, these examples come close to exhausting the sets that can be *proven* to have decidable equality in intuitionistic logic; by [BauerSwan18](#BauerSwan18) there is a [[topos]] (the [[function realizability]] topos, which moreover satisfies [[countable choice]], [[Markov's principle]], and other axioms) [[internal logic|in which]] all sets with decidable equality are [[countable set|countable]] (admit a surjection from a [[decidable subset]] of $\mathbb{N}$).  More precisely, although the statement "all sets with decidable equality are countable" is not true [[stack semantics|in]] that topos, every global object with decidable equality in that topos is countable.
+These last two examples are examples of sets with [[decidable equality]] in constructive mathematics, but where the negation of equality is still not an [[apartness relation]], and so sets with decidable equality still do not behave as they do in [[classical mathematics]]. 
+
+Assuming that [[Cantor space]] has decidable equality, negation of equality only becomes an apartness relation if and only if the [[limited principle of omniscience]] holds. Similarly, assuming that the [[Dedekind real numbers]] has decidable equality, negation of equality only becomes an apartness relation if and only if the [[analytic LPO]] holds. 
+
+See [[decidable tight apartness]] for the stronger condition where the sets do actually behave as they do in [[classical mathematics]]. 
 =--
 
+Some non-examples include:
 
-## Applications
- {#Applications}
+* Not all [[countably indexed sets]] necessarily have [[decidable equality]], where countably indexed means that the set admits a surjection from a decidable subset of the [[natural numbers]]. [BauerHanson24](#BauerHanson24) constructed a [[topos]] in which the [[Dedekind real numbers]] do not have [[decidable equality]] but which are still countably indexed; note that the authors used "countable" to mean countably indexed. 
 
-Working with decidable subsets of sets with decidable equality makes [[constructive mathematics]] very much like [[classical mathematics]].  This is why constructivism has few consequences for basic [[combinatorics]] and [[algebra]] (although it does have important consequences for more advanced topics in those fields).  In [[analysis]], in contrast, [[constructivism]] matters right away, because constructively the set of [[real numbers]] may not have decidable equality. 
+* [[Cantor space]] does not have decidable equality if [[Brouwer's continuity principle]] for [[Cantor space]] holds
+
+* The [[Dedekind real numbers]] does not have decidable equality if [[Brouwer's continuity principle]] for the [[Dedekind real numbers]] holds
 
 ## In type theory
 
@@ -77,7 +97,7 @@ Every set with decidable equality is [[locally finite type|locally finite]].
 
 * Nicolai Kraus, *A direct proof of Hedberg's theorem*, [blog post](http://homotopytypetheory.org/2012/03/30/a-direct-proof-of-hedbergs-theorem/)
 
-* {#BauerSwan18} [[Andrej Bauer]] and [[Andrew Swan]], *Every metric space is separable in function realizability*, 2018, [arxiv](https://arxiv.org/abs/1804.00427)
+* {#BauerHanson24} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
 
 [[!redirects decidable set]]
 [[!redirects decidable sets]]
