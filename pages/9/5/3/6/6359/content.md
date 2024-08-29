@@ -79,7 +79,7 @@ of this sequence of localizations. Clearly there is a canonical functor $L \colo
 such that $K\circ L = F$. In fact, one can prove that $K$ is [[conservative functor|conservative]].
 
 \begin{definition}
-A functor $F \colon C \to D$ is an **iterated localization** of $K$ (eq:MediatingMap) is an [[equivalence of categories|equivalence]].
+A functor $F \colon C \to D$ is an **iterated localization** if $K$ (eq:MediatingMap) is an [[equivalence of categories|equivalence]].
 \end{definition}
 
 This makes $\big(\text{iterated localizations}, \text{conservative functors}\big)$ a(n homotopy) [[factorization system]] on $\mathbf{Cat}$ (considered as a 1-category with weak equivalences given by [[equivalence of categories|equivalences of categories]]).
