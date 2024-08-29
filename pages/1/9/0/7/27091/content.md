@@ -43,7 +43,7 @@ The two conditions are equivalent:
 
 * Conversely, every decidable tight apartness relation implies that the tight apartness relation is a [[stable relation]] and thus equivalent to [[denial inequality]]; hence denial inequality is decidable and an apartness relation and equality is also decidable. 
 
-Note that classical sets are not the same as sets with [[decidable equality]], there are sets with decidable equality and with a [[tight apartness relation]] which cannot be proved decidable, such as the [[real numbers]] with [[analytic WLPO]] but no [[analytic LPO]]. 
+Note that classical sets are not the same as sets with [[decidable equality]], there are possibly sets with decidable equality and with a [[tight apartness relation]] which cannot be proved decidable, such as the [[real numbers]] with [[analytic WLPO]] but no [[analytic LPO]]. 
 
 ## The category of classical sets
 
@@ -96,6 +96,11 @@ $$((\forall x.\neg R(x, x)) \wedge (\forall x, y.R(x, y) \Rightarrow R(y, x)) \w
 * That the [[set of truth values]] is a classical set is equivalent to [[excluded middle]]; thus this is usually not assumed to be a classical set in constructive mathematics. In fact, either [[decidable equality]] or a [[tight apartness relation]] on the set of truth values is sufficient to prove [[excluded middle]]. 
 
 The category of classical sets being cartesian closed implies that the [[boolean domain]] is the [[initial object|initial]] [[Boolean algebra]] with all [[joins]] and [[meets]] indexed by classical sets. If every set is a classical set, this implies that the [[boolean domain]] is a [[complete Boolean algebra]]. 
+
+## Applications
+ {#Applications}
+
+Working with decidable subsets of sets with a decidable tight apartness makes [[constructive mathematics]] very much like [[classical mathematics]]. This is why constructivism has few consequences for basic [[combinatorics]] and [[algebra]] (although it does have important consequences for more advanced topics in those fields). In [[analysis]], in contrast, [[constructivism]] matters right away, because constructively the set of [[real numbers]] may not have decidable tight apartness. 
 
 ## Related concepts
 
