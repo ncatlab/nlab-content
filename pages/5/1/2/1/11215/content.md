@@ -42,6 +42,7 @@ $$
 
 * {#BSS07} [[Ingo Battenfeld]], Matthias Schr&#246;der, [[Alex Simpson]], _A convenient category of domains_, in L. Cardelli, M. Fiore and G. Winskel (eds.), _Computation, Meaning and Logic_, Articles dedicated to Gordon Plotkin  Electronic Notes in Computer Science, 34 pp., to appear, 2007  ([[BattenfeldDomains.pdf:file]])
 
+* {#BauerSwan18} [[Andrej Bauer]] and [[Andrew Swan]], *Every metric space is separable in function realizability*, 2018, ([arxiv:1804.00427](https://arxiv.org/abs/1804.00427))
 
 [[!redirects function realizability]]
 [[!redirects function realizability topos]]
