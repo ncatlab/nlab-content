@@ -21,12 +21,13 @@
 
 Sometimes in [[mathematics]] one considers objects equipped with two different types of [[extra structure]] which interact in a suitable way.  For instance, a [[ring]] is a [[set]] equipped with both (1) the structure of an (additive) [[abelian group]] and (2) the structure of a (multiplicative) [[monoid]], which satisfy the distributive laws $a\cdot (b+c) = a\cdot b + a\cdot c$ and $a\cdot 0 = 0$.
 
-Abstractly, there are two [[monads]] on the [[category]] [[Set]], one (call it $\mathbf{T}$) whose [[algebra over a monad|algebras]] are abelian groups, and one (call it $\mathbf{S}$) whose algebras are monoids, and so we might ask "can we construct, from these two monads, a third monad whose algebras are rings?"  Such a monad would assign to each set $X$ the [[free object|free]] ring on that set, which consists of formal sums of formal products of elements of $X$---in other words, it can be identified with $T(S(X))$.  Thus the question becomes "given two monads $\mathbf{T}$ and $\mathbf{S}$, what further structure is required to make the composite $T S$ into a monad?"
+Abstractly, there are two [[monads]] on the [[category]] [[Set]], one (call it $T$) whose [[algebra over a monad|algebras]] are abelian groups, and one (call it $S$) whose algebras are monoids, and so we might ask "can we construct, from these two monads, a third monad whose algebras are rings?"  Such a monad would assign to each set $X$ the [[free object|free]] ring on that set, which consists of formal sums of formal products of elements of $X$---in other words, it can be identified with $T(S(X))$.  Thus the question becomes "given two monads $T$ and $S$, what further structure is required to make the composite $T S$ into a monad?"
 
 It is easy to give $T S$ a unit, as the composite $Id \xrightarrow{\eta^S} S \xrightarrow{\eta^T S} T S$, but to give it a multiplication we need a transformation from $T S T S$ to $T S$.  We naturally want to use the multiplications $\mu^T\colon T T \to T$ and $\mu^S\colon S S \to S$, but in order to do this we first need to switch the order of $T$ and $S$.  However, if we have a transformation $\lambda\colon S T \to T S$, then we can define $\mu^{T S}$ to be the composite $T S T S \xrightarrow{\lambda} T T S S \xrightarrow{\mu^T\mu^S} T S$.
 
-Such a transformation, satisfying suitable axioms to make $T S$ into a monad, is called a *distributive law*, because of the motivating example relating addition to multiplication in a ring.  In that case, $S T X$ is a formal product of formal sums such as $(x_1 + x_2 + x_3)\cdot (x_4 + x_5)$, and the distributive law $\lambda$ is given by multiplying out such an expression formally, resulting in a formal sum of formal products such as $x_1\cdot x_4 + x_1 \cdot x_5 + x_2 \cdot x_4 + x_2 \cdot x_5 + x_3\cdot x_4 + x_3 \cdot x_5$.
+Such a transformation $\lambda\colon S T \to T S$, satisfying suitable axioms to make $T S$ into a monad, is called a *distributive law*, because of the motivating example relating addition to multiplication in a ring.  In that case, $S T X$ is a formal product of formal sums such as $(x_1 + x_2 + x_3)\cdot (x_4 + x_5)$, and the distributive law $\lambda$ is given by multiplying out such an expression formally, resulting in a formal sum of formal products such as $x_1\cdot x_4 + x_1 \cdot x_5 + x_2 \cdot x_4 + x_2 \cdot x_5 + x_3\cdot x_4 + x_3 \cdot x_5$.
 
+Given two monads $S, T$ on a category $C$, a distributive law $ T \circ S \longrightarrow S \circ T $ gives a way of lifting the monad $S$ on $C$ to a monad on the category of $T$-algebras, namely the [[Eilenberg-Moore category]] $C^T$.  In the example above, the distributive law gives a way to lift the monad for monoids (which is a monad on $C = Set$) to the monad for rings (which is a monad on $C^T = AbGp$).
 
 \begin{remark}
 \label{TerminologyWhatDistributesOverWhat}
@@ -55,15 +56,14 @@ $$
 (where, of course, the [[equality]] as such works in both directions, but the *distribution* of factors over summands is the step from left to right)
 suggests that a suitable transformation of (co)monads of the form
 $$
-  T_1 \circ T_2 \longrightarrow T_2 \circ T_1
+  S \circ T \longrightarrow T \circ S
 $$
-should be referred to as *$T_1$ distributing over $T_2$* instead of the other way around. 
+should be referred to as *$S$ distributing over $T$* instead of the other way around. 
 
 However, already the original reference [Beck 1969 §1](#Beck69) uses the opposite terminology.
 
 Authors sticking to this original but arguably reverse terminological convention include [Brookes & Van Stone 1993](#BrookesVanStone93), while other authors tacitly switch to the other terminological convention (eg. [Barr & Wells 1985 §9 2.1](#BarrWells85), [Power & Watanabe 2002 p. 138](#PowerWatanabe02)).
 \end{remark}
-
 
 
 ## Big picture
