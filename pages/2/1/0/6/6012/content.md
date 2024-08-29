@@ -20,13 +20,13 @@ A __torsion theory__ in an [[abelian category]] $A$ is a [[pair]] $(T,F)$ of [[a
 
 * $Hom(T,F) = 0$
 
-(in other words, $A(X,Y) = 0$ if $X \in Ob T$ and $Y\in Ob F$).
+(in other words, $A(X,Y) = 0$ if $X \in \mathop{Ob} T$ and $Y\in \mathop{Ob} F$).
 
-* $Hom(T,Y) = 0 \Rightarrow Y\in Ob F$
+* $Hom(T,Y) = 0 \Rightarrow Y\in \mathop{Ob} F$
 
-* $Hom(X,F) = 0 \Rightarrow X\in Ob T$
+* $Hom(X,F) = 0 \Rightarrow X\in \mathop{Ob} T$
 
-* for all $X\in Ob A$, there exists $Y\subset X$, $Y\in Ob T$ and $X/Y\in Ob F$
+* for all $X\in \mathop{Ob} A$, there exists $Y\subset X$, $Y\in \mathop{Ob} T$ and $X/Y\in \mathop{Ob} F$
 
 Equivalently, a torsion theory in $A$ is a pair $(T,F)$ of [[strictly full subcategories]] of $A$ such that the first and last conditions in the above list hold. Alternatively, we can require the last condition
 and the following 3: $T\cap F=\{0\}$, $T$ is closed under quotients
@@ -44,13 +44,13 @@ be hereditary.
 
 ## Properties
 
-If $(T,F)$ is a torsion class then $T$ and $F$ both contain the [[zero object]] and are closed under [[biproducts]] ([Borceux II 1.12.3](ncatlab.org/nlab/show/Handbook+of+Categorical+Algebra)). Presentation of an object $X$ in $Ob A$ as an [[extension]] $0\to Y\to X\to X/Y\to 0$,  $Y$ in $Ob T$ by $X/Y$ in $Ob F$ is unique up to an [[isomorphism]] of [[short exact sequences]] ([Borceux II 1.12.4](ncatlab.org/nlab/show/Handbook+of+Categorical+Algebra)). 
+If $(T,F)$ is a torsion theory then $T$ and $F$ both contain the [[zero object]] and are closed under [[biproducts]] ([Borceux II 1.12.3](ncatlab.org/nlab/show/Handbook+of+Categorical+Algebra)). Presentation of an object $X$ in $\mathop{Ob} A$ as an [[extension]] $0\to Y\to X\to X/Y\to 0$,  $Y$ in $\mathop{Ob} T$ by $X/Y$ in $\mathop{Ob} F$ is unique up to an [[isomorphism]] of [[short exact sequences]] ([Borceux II 1.12.4](ncatlab.org/nlab/show/Handbook+of+Categorical+Algebra)). 
 
-Given an [[abelian category]] $A$ there is a [[bijection]] between universal [[closure operator|closure operations]] on $A$, hereditary torsion theories in $A$ ([Borceux II 1.12.8](ncatlab.org/nlab/show/Handbook+of+Categorical+Algebra)) and, if $A$ is a [[locally finitely presentable category]] also with [[left exact functor|left exact]] [[localizations]] of $A$ admitting a [[right adjoint]] and with [[localizing subcategories]] of $A$ ([Borceux II 1.13.15](ncatlab.org/nlab/show/Handbook+of+Categorical+Algebra)). 
+Given an [[abelian category]] $A$ there is a [[bijection]] between universal [[closure operator|closure operations]] on $A$, hereditary torsion theories in $A$ ([Borceux II 1.12.8](ncatlab.org/nlab/show/Handbook+of+Categorical+Algebra)) and, if $A$ is a [[locally finitely presentable category]], also with [[left exact functor|left exact]] [[localizations]] of $A$ admitting a [[right adjoint]] and with [[localizing subcategories]] of $A$ ([Borceux II 1.13.15](ncatlab.org/nlab/show/Handbook+of+Categorical+Algebra)). 
 
 ## Examples
 
-The basic example of a torsion class is the class of [[torsion subgroup|torsion]] [[abelian groups]] within the [[category]] $A =$ [[Ab]] of all [[abelian groups]]. The torsion theories are often used as a means to formulate [[localization]] theory in [[abelian categories]]. 
+The basic example of a torsion class is the class of [[torsion subgroup|torsion]] [[abelian groups]] within the [[category]] $A =$ [[Ab]] of all [[abelian groups]]. Torsion theories are often used as a means to formulate [[localization]] theory in [[abelian categories]]. 
 
 
 ## Literature
@@ -75,7 +75,7 @@ For a unified treatment in abelian and in [[triangulated categories]] see
 
 * Apostolos Beligiannis, Idun Reiten, _Homological and homotopical aspects of torsion theories_,  Mem. Amer. Math. Soc. 188 (2007), no. 883, viii+207 pp. [pdf](http://www.math.uoi.gr/~abeligia/torsion.pdf)
 
-As explained there, in triangulated context, torsion pairs are in 1-1 correspondence with [[t-structures]]. One could
+As explained there, in the triangulated context, torsion pairs are in 1-1 correspondence with [[t-structures]]. One could
 also study a relation between torsion theories on an abelian
 category with tilting theory and $t$-structures on the derived category:
 
@@ -83,7 +83,7 @@ category with tilting theory and $t$-structures on the derived category:
 
 * Riccardo Colpi, Luisa Fiorot, Francesco Mattiello, _On tilted Giraud subcategories_, [arxiv/1307.1987](http://arxiv.org/abs/1307.1987) 
 
-Other references in abelian context include
+Other references in the abelian context include
 
 * Lia Va&#353;, _Differentiability of torsion theories_, ([pdf](http://www.usciences.edu/~lvas/homepage_sa_umdja/difftt_single.pdf))
 
