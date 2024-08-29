@@ -147,7 +147,7 @@ or the always true statement that every [[split surjection]] splits.
 
 * [[James Hanson]] showed [here](https://categorytheory.zulipchat.com/#narrow/stream/229136-theory.3A-category-theory/topic/One.20universe.20as.20a.20foundation.20.26.20friends/near/465219817) that every [[lower real number]] being a [[Dedekind real number]] is equivalent to LEM. Similarly, every [[upper real number]] being a [[Dedekind real number]] is equivalent to LEM. 
 
-* Every [[subcountable set]] is a [[detachable subset]] of the [[natural numbers]]. 
+* Every [[subcountable set]] is a [[countable set]]. 
 
 * The [[limited principle of omniscience]] holds for all sets. 
 
