@@ -173,6 +173,10 @@ The codomain-untruncated versions of these variants of the axiom of choice are a
 
 2. for the codomain-untruncated [[axiom of countable choice]], the type family being defined by $A(n + 1)$ being a [[contractible type]] for all natural numbers, so that $A(0) \simeq \prod_{n:\mathbb{N}} A(n)$. 
 
+### Sets which constructively have a choice operator
+
+Given any [[decidable proposition|decidable]] [[predicate]] $P(n)$ on the [[natural numbers]] $n \in \mathbb{N}$, one can construct a [[minimum|minimal]] [[natural number]] $\epsilon_P$ such that the $P(\epsilon_P)$ holds. See [Rijke 2022](#Rijke22) for a proof of this in [[dependent type theory]]. 
+
 ## Foundational status
 
 It should be noted that Hilbert and Bourbaki take the $\varepsilon$-operator, called $\tau$ in "Theory of Sets" to be a primitive symbol in a mathematical theory.  This has the advantage of also allowing the existential and universal [[quantifiers]] to be constructed explicitly, since $\exists x$ translates to $P(\varepsilon_x(P(x)))$.  The intuitive meaning behind the operator is that it returns a distinguished object for which the proposition is true, or if no such object exists, it returns any object for which it is not true.  Of course, the intuitive meaning can be misleading since the properties of the epsilon operator are governed by the axiom schema of existence and $\varepsilon$-extensionality, without which, the symbol has no meaning.  The __axiom scheme of existence__ is a statement of Hilbert's axiom that avoids mention of the existential quantifier.
@@ -208,8 +212,17 @@ On the other hand, in [[dependent type theory]] a global choice operator over th
 
 * See also Hilbert (1927), "The Foundations of Mathematics", pp. 464&#8211;479 in JvH.
 
+For the principle of global choice in [[dependent type theory]], see example 14.4.1, remark 14.4.2. and corollary 17.5.3 of 
+
+* {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
 category: foundational axiom
+
+[[!redirects axiom of global choice]]
+[[!redirects global axiom of choice]]
+
+[[!redirects principle of global choice]]
+[[!redirects principles of global choice]]
 
 [[!redirects choice operator]]
 [[!redirects choice operators]]
