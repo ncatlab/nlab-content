@@ -183,13 +183,110 @@ Recalling (from [[embedding of smooth manifolds into formal duals of R-algebras|
 
 (cf. [CAIP99, (2.1) & (2.6)](super-translation+group#CAIP99))
 
-Here the choice of notation for the coordinates on the left is adapted to thinking of this group operation equivalently as the left mulitplication action of the group on itself. This makes the following computation nicely transparent, which checks that under this group operation the coframe (eq:CEAlgebraOfSuperMinkowski) is [[left invariant 1-form|left-invariant]] -- the [[differential]] $\mathrm{d}$ is that of  the second factor, hence acting on unprimed coordinates only:
+Here the choice of notation for the coordinates on the left is adapted to thinking of this group operation equivalently as the left multiplication action of the group on itself, which makes the following computation nicely transparent. 
+
+{#LeftActionOfSuperMinkowskiOnItsTangentBundle} Indeed, the induced left action of the super-group on its [[odd tangent bundle]]
+
+\begin{tikzcd}
+    \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \times
+    T_{\!{}_{\mathrm{odd}}}
+    \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \ar[
+      r,
+      hook
+    ]
+    \ar[
+      rr,
+      rounded corners,
+      to path={
+           ([yshift=+00pt]\tikztostart.north)  
+        -- ([yshift=+10pt]\tikztostart.north)  
+        -- node[yshift=5pt] {
+           \scalebox{.7}{$
+             \mathrm{act}
+           $}
+        }
+           ([yshift=+10pt]\tikztotarget.north)  
+        -- ([yshift=+00pt]\tikztotarget.north)  
+      }
+    ]
+    &
+    T_{\!{}_{\mathrm{odd}}}
+    \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \times
+    T_{\!{}_{\mathrm{odd}}}
+    \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \ar[
+      r,
+      "{ \mathrm{prd}_\ast }"
+    ]
+    &    
+    T_{\!{}_{\mathrm{odd}}}
+    \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+\end{tikzcd}
+
+is dually given by
+
+\begin{tikzcd}
+    C^\infty
+    \big(
+      \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \big)
+    \,\widehat{\otimes}\,
+    \Omega^\bullet_{\mathrm{dR}}
+    \big(
+      \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \big)
+    \ar[
+      r,
+      <<-
+    ]
+    \ar[
+      rr,
+      <-,
+      rounded corners,
+      to path={
+           ([yshift=+00pt]\tikztostart.north)  
+        -- ([yshift=+08pt]\tikztostart.north)  
+        -- node[yshift=5pt]
+           {
+             \scalebox{.7}{$
+               \mathrm{act}^\ast
+             $}
+           }
+           ([yshift=+08pt]\tikztotarget.north)  
+        -- ([yshift=+00pt]\tikztotarget.north)  
+      }
+    ]
+    &
+    \Omega^\bullet_{\mathrm{dR}}
+    \big(
+      \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \big)
+    \,\widehat{\otimes}\,
+    \Omega^\bullet_{\mathrm{dR}}
+      \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \big)
+    \ar[
+      r,
+      <-,
+      "{ \mathrm{prd}^{\mathrlap{\ast}} }"
+    ]
+    &
+    \Omega^\bullet_{\mathrm{dR}}
+    \big(
+      \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
+    \big)
+\end{tikzcd}
+
+and [[left invariant 1-form|left-invariance]] of the coframe (eq:CEAlgebraOfSuperMinkowski) means that it is fixed by this operation (so the [[differential]] $\mathrm{d}$ in the following computation is just that of the second factor, hence acting on unprimed coordinates only):
 
 $$
   \begin{array}{ccl}
-    \mathrm{prd}^\ast e^a
+    \mathrm{act}^\ast e^a
     &=&
-    \mathrm{prd}^\ast 
+    \mathrm{act}^\ast 
     \Big(
       \mathrm{d}x^a
       +
@@ -201,9 +298,9 @@ $$
     &=&
     \mathrm{d}\,\mathrm{prd}^\ast x^a
     +
-    \big(\overline{\mathrm{prd}^\ast\theta}
+    \big(\overline{\mathrm{act}^\ast\theta}
     \,\Gamma^a\,
-    \mathrm{d}\,\mathrm{prd}^\ast\theta\big)
+    \mathrm{d}\,\mathrm{act}^\ast\theta\big)
     \\
     &=&
     \mathrm{d}
@@ -289,7 +386,7 @@ $$
   \end{array}
 $$
 
-This shows that if (eq:GroupOperationOnSuperMinkowski) defines a [[group object]] [[internalization|in]] [[SuperManifolds]] then its [[super Lie algebra]] is the super-Minkowski [[super translation Lie algebra]] and hence that it is the desired super-Minkowski super Lie group.
+This shows that if (eq:GroupOperationOnSuperMinkowski) is the group product of a [[group object]] [[internalization|in]] [[SuperManifolds]] then the corresponding [[super Lie algebra]] is the super-Minkowski [[super translation Lie algebra]] and hence this group object is the desired super-Minkowski super Lie group.
 
 So, defining the remaining [[group object]]-operations as follows:
 
@@ -747,3 +844,5 @@ and indeed it does:
     &&&
     \theta
 \end{tikzcd}
+
+\linebreak
