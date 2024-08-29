@@ -22,7 +22,7 @@
 The _theory of decidable objects_ is the logical [[theory]] $\mathbb{D}$ whose models in a [[coherent category]] are precisely the [[decidable object|decidable objects]].
 
 ##Definition##
-The _theory of decidable objects_ is the theory $\mathbb{D}$ over the signature with one sort and one binary relation $#$ besides equality with axioms $(x#x)\vdash_x\perp$ and $\top\vdash_{x,y} ((x#y)\vee(x=y))$.
+The _theory of decidable objects_ is the theory $\mathbb{D}$ over the signature with one sort and one binary relation $\neq$ besides equality with axioms $(x \neq x)\vdash_x\perp$ and $\top\vdash_{x,y} ((x \neq y)\vee(x=y))$.
 
 ## Properties
 
@@ -30,7 +30,7 @@ The _theory of decidable objects_ is the theory $\mathbb{D}$ over the signature 
 
 ## Infinite decidable objects
 
-* The theory of _infinite decidable objects_ $\mathbb{D}_\infty$ adds to $\mathbb{D}$ the axioms $\top\vdash_{x_1,\dots,x_n} (\exists y)\bigwedge_{i=1}^{n}(y#x_i)$ for all $n$ with $\top\vdash(\exists y)\top$ for $n=0$. The models of $\mathbb{D}_\infty$ are precisely the infinite decidable objects and its classifying topos $Set[\mathbb{D}_\infty]$ is the [[Schanuel topos]].
+* The theory of _infinite decidable objects_ $\mathbb{D}_\infty$ adds to $\mathbb{D}$ the axioms $\top\vdash_{x_1,\dots,x_n} (\exists y)\bigwedge_{i=1}^{n}(y \neq x_i)$ for all $n$ with $\top\vdash(\exists y)\top$ for $n=0$. The models of $\mathbb{D}_\infty$ are precisely the infinite decidable objects and its classifying topos $Set[\mathbb{D}_\infty]$ is the [[Schanuel topos]].
 
 ## Related entries
 
