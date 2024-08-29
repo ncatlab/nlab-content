@@ -104,6 +104,10 @@ For the semiclassical method in [[superstring theory]] see
 
 * K. Hori, A. Iqbal, C. Vafa, _D-Branes and mirror symmetry_, [hep-th/0005247](http://arxiv.org/abs/hep-th/0005247) 
 
+Relation to [[supersymmetric quantum mechanics]]:
+
+* Asim Gangopadhaya, Jonathan Bougie, Constantin Rasinariu: *Recent Advances in Semiclassical Methods Inspired by Supersymmetric Quantum Mechanics* &lbrack;[arXiv:2408.15424](https://arxiv.org/abs/2408.15424)&rbrack;
+
 
 [[!redirects quasiclassical approximation]]
 [[!redirects quasi-classical approximation]]
