@@ -15,6 +15,10 @@ On [[Lifschitz realizability]]:
 
 * [[Michael Rathjen]], [[Andrew Swan]], *Lifschitz Realizability as a Topological Construction*. The Journal of Symbolic Logic, Volume 85, Issue 4, December 2020, pp. 1342 - 1375. &lbrack;[doi:10.1017/jsl.2021.1](https://doi.org/10.1017/jsl.2021.1), [arXiv:1806.10047](https://arxiv.org/abs/1806.10047)&rbrack;
 
+On [[separable metric spaces]] in [[function realizability]]:
+
+* {#BauerSwan18} [[Andrej Bauer]] and [[Andrew Swan]], *Every metric space is separable in function realizability*, 2018, ([arxiv:1804.00427](https://arxiv.org/abs/1804.00427))
+
 ## Talks
 
 * [[Andrew Swan]], *Double negation stable h-propositions in cubical sets*, [[Homotopy Type Theory Electronic Seminar Talks]], 9 February 2023 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Swan-2023-02-09-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=lNNrmuUQzkw))
