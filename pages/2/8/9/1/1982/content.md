@@ -87,5 +87,10 @@ and particularly via [[Boolean toposes]]:
 
 * [[Asgar Jamneshan]], [[Terence Tao]], _Foundational aspects of uncountable measure theory: Gelfand duality, Riesz representation, canonical models, and canonical disintegration_ ([arXiv:2010.00681](arXiv:2010.00681))
 
+### Via $\sigma$-locales
 
+There is an approach to [[measure theory]] using $\sigma$-[[sigma-locale|locales]]: 
 
+* [[Alex Simpson]], *Measure, randomness and sublocales*, Annals of Pure and Applied Logic, Volume 163, Issue 11, November 2012, Pages 1642-1659. ([doi:10.1016/j.apal.2011.12.014](https://doi.org/10.1016/j.apal.2011.12.014))
+
+which is part of Simpson's work to develop [[synthetic probability theory]]. 
