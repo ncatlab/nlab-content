@@ -266,9 +266,6 @@ category: foundational axiom
 [[!redirects full choice]]
 [[!redirects full AC]]
 
-[[!redirects axiom of global choice]]
-[[!redirects global axiom of choice]]
-
 [[!redirects axiom of infinity-choice]]
 [[!redirects axiom of n-choice]]
 [[!redirects axiom of k-connected choice]]
