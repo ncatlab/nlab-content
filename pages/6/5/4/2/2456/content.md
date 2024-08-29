@@ -175,7 +175,7 @@ The codomain-untruncated versions of these variants of the axiom of choice are a
 
 ### Sets which constructively have a choice operator
 
-Given any [[decidable proposition|decidable]] [[predicate]] $P(n)$ on the [[natural numbers]] $n \in \mathbb{N}$, one can construct a [[minimum|minimal]] [[natural number]] $\epsilon_P$ such that the $P(\epsilon_P)$ holds. See [Rijke 2022](#Rijke22) for a proof of this in [[dependent type theory]]. 
+Every [[detachable subset]] of the [[natural numbers]] has a choice operator. This is because, every detachable subset of the natural numbers is in [[bijection]] with the set $\{n \in \mathbb{N} \vert P(n)\}$ for a [[decidable proposition|decidable]] [[predicate]] $P(n)$ on the [[natural numbers]] $n \in \mathbb{N}$. Given a [[decidable proposition|decidable]] [[predicate]] $P(n)$ on the [[natural numbers]] $n \in \mathbb{N}$, if there exists a natural number $n \in \mathbb{N}$ such that $P(n)$ holds, then one can construct a [[minimum|minimal]] [[natural number]] $\min_P$ such that the $P(\min_P)$ holds. See [Rijke 2022](#Rijke22) for a proof of this in [[dependent type theory]], where $\{n \in \mathbb{N} \vert P(n)\}$ is represented by the [[dependent sum type]] $\sum_{n:\mathbb{N}} P(n)$ and the existential quantifier $\exists n:\mathbb{N}.P(n)$ is represented by the [[propositional truncation]] of the dependent sum type. 
 
 ## Foundational status
 
