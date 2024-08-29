@@ -35,3 +35,8 @@ An attempt to summarize that in a blog entry is [here](http://golem.ph.utexas.ed
 
 R. M Brower and N. P. Landsman described a [[bicategory]] of von Neumann algebras, Connes' correspondences as morphisms and (bounded) intertwiners as 2-cells. They proved that the equivalence in that bicategory is the same as usual [[Morita equivalence]] of von Neumann algebras as studied by [[Mark Rieffel]] and others. 
 
+Construction of Connes fusion of [[fibers]] of [[stringor bundles]]:
+
+* [[Peter Kristel]], [[Konrad Waldorf]]: *Connes fusion of spinors on loop space*, Compositio Mathematica **160** 7 (2024)  1596-1650  &lbrack;[arXiv:2012.08142](https://arxiv.org/abs/2012.08142), [doi:10.1112/S0010437X24007188](https://doi.org/10.1112/S0010437X24007188)&rbrack;
+
+
