@@ -728,7 +728,7 @@ and indeed it does:
     \theta
 \end{tikzcd}
 
-For **[[inverse element|invertibility]]** we need to check that the following [[commuting diagram|diagram commutes]]:
+And finally, for **[[inverse element|invertibility]]** we need to check that the following [[commuting diagram|diagram commutes]]:
 
 \begin{tikzcd}
       G 
@@ -846,5 +846,7 @@ and indeed it does:
     &&&
     \theta
 \end{tikzcd}
+
+$\Box$
 
 \linebreak
