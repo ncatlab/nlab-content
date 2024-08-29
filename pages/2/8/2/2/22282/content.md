@@ -41,5 +41,6 @@ For separable metric spaces, the following notions of [[dimension]] all (exist a
 
 * {#Engelking95} [[Ryszard Engelking]], _Theory of Dimensions -- Finite and Infinite_, Sigma Series in Pure Mathematics **10**, Helderman 1995 ([pdf](http://www.gbv.de/dms/goettingen/187241074.pdf))
 
+* {#BauerSwan18} [[Andrej Bauer]] and [[Andrew Swan]], *Every metric space is separable in function realizability*, 2018, ([arxiv:1804.00427](https://arxiv.org/abs/1804.00427))
 
 [[!redirects separable metric spaces]]
