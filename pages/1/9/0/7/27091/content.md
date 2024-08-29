@@ -85,6 +85,8 @@ $$((\forall x.\neg R(x, x)) \wedge (\forall x, y.R(x, y) \Rightarrow R(y, x)) \w
 
 * That the [[set of truth values]] is a classical set is equivalent to [[excluded middle]]; thus this is usually not assumed to be a classical set in constructive mathematics. In fact, either [[decidable equality]] or a [[tight apartness relation]] on the set of truth values is sufficient to prove [[excluded middle]]. 
 
+The category of classical sets being cartesian closed implies that the [[boolean domain]] is the [[initial object|initial]] [[Boolean algebra]] with all [[joins]] and [[meets]] indexed by classical sets. If every set is a classical set, this implies that the [[boolean domain]] is a [[complete Boolean algebra]]. 
+
 ## Related concepts
 
 * [[set]]
