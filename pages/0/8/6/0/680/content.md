@@ -730,7 +730,7 @@ A similar framework was independently rediscovered in:
 
 A stable homotopical version of these general correspondences was developed in:
 
-* {#Helmstutler} Randall Helmstutler, _Model category extensions of the Pirashvili-Słomińska theorems_ $[$[arXiv:0806.1540](https://arxiv.org/abs/0806.1540))$]$
+* {#Helmstutler} Randall Helmstutler, _Conjugate pairs of categories and Quillen equivalent stable model categories of functors_, Journal of Pure and Applied Algebra **218** 7 (2014) 1302-1323 $[$[doi:10.1016/j.jpaa.2013.11.019](https://doi.org/10.1016/j.jpaa.2013.11.019)$]$
 
 Among the correspondences "of Dold-Kan type" included in this theory are an equivalence between [[FI-modules]] and linear [[combinatorial species]]:
 
