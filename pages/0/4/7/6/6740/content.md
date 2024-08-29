@@ -21,11 +21,9 @@ Ironically, in [[constructive mathematics]], measurable locales are *not* locale
 
 The concept is due to [[Dmitri Pavlov]].
 
-
 ## Definitions
 
 At present, there is no purely [[order theory|order-theoretic]] definition of measurable locales.  However, there are a few other ways of defining them.
-
 
 ### In classical mathematics
 
@@ -51,9 +49,6 @@ For purposes of [[constructive mathematics]], [[Toby Bartels]] suspects that it 
 For this definition (as was remarked above), we need not require that $L \cong Proj(A)$ be complete.  Constructively, we *cannot* require this; $Proj(A)$ need not be complete (although it is still a boolean algebra).  Indeed, consider the point (see [the examples](#examples)), based on $A \coloneqq \mathbb{C}$, which is *not* the complete [[Heyting algebra]] of *all* [[truth values]] but only the (possibly incomplete) boolean algebra $\{\bot, \top\}$ of *classical* truth values (corresponding to the self-adjoint idempotent complex numbers $0$ and $1$).
 
 It seems that there is some notion of completeness that applies here; $L$ should in some sense be 'measurably complete'.  In the point, for example, the [[subsingleton]] $\{* \;|\; P\}$, where $P$ is a truth value, is measurable iff $P$ is true or false, so the supremum of $\{\top \;|\; P\}$ exists in $L$ under the same circumstances.  Figuring this out could allow the definitions through measurable spaces or continuous valuations to work.
-
-Simpson's theory of [[sigma-locale]]s, see below, is developed in classical framework, but could be a good starting point for a constructive theory, as it avoids the focus on complements.  (But the main problem is completeness, not complements.)
-
 
 ## Examples {#examples}
 
@@ -99,16 +94,6 @@ One could, of course, define a garden-variety [[measure]] by requiring continuit
 Absolutely continuous measures on, say, Lebesgue space correspond to normal measures on the real line as a measurable locale.  ([[Lebesgue measure]] is not normal on the $\sigma$-algebra of measurable sets, but it is normal on the boolean algebra of measurable sets modulo null sets, which is what we want.)
 
 This should work in constructive mathematics, with $[0,\infty]$ (for a positive measure) being be the space of nonnegative [[lower reals]].
-
-
-## Related work
-
-This is related to $\sigma$-[[sigma-locale|locales]].
-
-* Alex Simpson, _Measure, randomness and sublocales_ [link](http://www.sciencedirect.com/science/article/pii/S0168007211001874)
-
-which is part of his work to develop [[synthetic probability theory]].
-
 
 ## References
 
