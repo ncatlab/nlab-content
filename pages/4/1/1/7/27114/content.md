@@ -296,7 +296,7 @@ $$
     \Big)
     \\
     &=&
-    \mathrm{d}\,\mathrm{prd}^\ast x^a
+    \mathrm{d}\,\mathrm{act}^\ast x^a
     +
     \big(\overline{\mathrm{act}^\ast\theta}
     \,\Gamma^a\,
@@ -355,6 +355,7 @@ $$
     \\
     &=&
     e^a
+    \mathrlap{\,,}
   \end{array}
   \;\;\;\;\;
   \begin{array}{ccl}
@@ -381,12 +382,13 @@ $$
     \\
     &=&
     \psi
+    \mathrlap{\,.}
     \\
     {}
   \end{array}
 $$
 
-This shows that if (eq:GroupOperationOnSuperMinkowski) is the group product of a [[group object]] [[internalization|in]] [[SuperManifolds]] then the corresponding [[super Lie algebra]] is the super-Minkowski [[super translation Lie algebra]] and hence this group object is the desired super-Minkowski super Lie group.
+This shows that if (eq:GroupOperationOnSuperMinkowski) is the [[binary operation|group product]] of a [[group object]] [[internalization|in]] [[SuperManifolds]] then the corresponding [[super Lie algebra]] is the super-Minkowski [[super translation Lie algebra]] and hence that this group object is the desired super-Minkowski super Lie group.
 
 So, defining the remaining [[group object]]-operations as follows:
 
