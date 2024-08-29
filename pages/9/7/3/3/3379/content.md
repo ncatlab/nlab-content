@@ -75,7 +75,7 @@ Let $F \,\colon\, C \rightleftarrows D \,\colon\, G$ be an [[adjunction]] with [
 When the equivalent conditions from Prop. \ref{EquivalentConditionsForIdempotency} hold, the adjunction is said to be *idempotent*.  
 \end{definition}
 
-An original reference for the equivalence of all but the last of these conditions is [MacDonald & Stone 1982, Prop. 2.8](#MacDonaldStone82); a textbook account is in [Grandis 2021, Thm. 3.8.2](#Grandis21). The full statement including the (co)reflective factorization through the fixed points is made explicit in the proof of [Grandis 2021, Thm. 3.8.8](#Grandis21), which also makes explicit that:
+An original reference for the equivalence of all but the last of these conditions is [MacDonald & Stone 1982, Prop. 2.8](#MacDonaldStone82); a textbook account is in [Grandis 2021, Thm. 3.8.2](#Grandis21). The full statement including the (co)reflective factorization through the fixed points is made explicit in the proof of [Grandis 2021, Thm. 3.8.7](#Grandis21), which also makes explicit that:
 
 +-- {: .num_remark}
 ###### Remark
