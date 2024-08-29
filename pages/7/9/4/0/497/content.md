@@ -147,6 +147,8 @@ or the always true statement that every [[split surjection]] splits.
 
 * [[James Hanson]] showed [here](https://categorytheory.zulipchat.com/#narrow/stream/229136-theory.3A-category-theory/topic/One.20universe.20as.20a.20foundation.20.26.20friends/near/465219817) that every [[lower real number]] being a [[Dedekind real number]] is equivalent to LEM. Similarly, every [[upper real number]] being a [[Dedekind real number]] is equivalent to LEM. 
 
+* Every [[subcountable set]] is a [[detachable subset]] of the [[natural numbers]]. 
+
 * The [[limited principle of omniscience]] holds for all sets. 
 
 * The [[boolean domain]] $2$ is a [[frame]] iff the [[category of sets]] is a [[Boolean topos]]. This implies that one can do [[topology]] (using [[topological spaces]], [[locales]], [[formal topologies]], etc) directly using the boolean domain as the frame of open truth values. 
