@@ -30,5 +30,8 @@ On [[categorical logic]]:
 
 * [[Steve Awodey]], [[Andrej Bauer]]: *Introduction to categorical logic*, lecture notes for a course at Carnegie Mellon University (January-April 2024) &lbrack;[webpage](https://awodey.github.io/catlog/notes/), 0:[pdf](https://awodey.github.io/catlog/notes/catlog0.pdf), 1:[pdf](https://awodey.github.io/catlog/notes/catlog1.pdf), 2:[pdf](https://awodey.github.io/catlog/notes/catlog2.pdf), 3:[pdf](https://awodey.github.io/catlog/notes/catlog3.pdf), 4:[pdf](https://awodey.github.io/catlog/notes/catlog4.pdf)&rbrack;
 
+On [[separable metric spaces]] in [[function realizability]]:
+
+* {#BauerSwan18} [[Andrej Bauer]] and [[Andrew Swan]], *Every metric space is separable in function realizability*, 2018, ([arxiv:1804.00427](https://arxiv.org/abs/1804.00427))
 
 category: people
