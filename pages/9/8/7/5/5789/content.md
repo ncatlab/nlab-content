@@ -61,6 +61,9 @@ Another fairly simple but very deep fact is that the [[partition function]] of a
 
 This relation is at the heart of a deep and ubiquituous role that supersymmetric quantum mechanics plays in the [[mathematics]] of [[K-theory]] and related topics (and vice versa). For a general abstract discussion of why there is such a relation see also at _[super algebra -- Abstract idea](super+algebra#AbstractIdea)_ and at _[[super line 2-bundle]]_.
 
+
+
+
 ### Relation to Morse theory
 
 For the moment see [below](#ReferencesRelationToMorseTheory).
@@ -113,7 +116,9 @@ See also:
 
 * Vyacheslav P. Spiridonov, *Variations of supersymmetric quantum mechanics and superconformal indices* &lbrack;[arXiv:2404.10609](https://arxiv.org/abs/2404.10609)&rbrack;
 
+Relation to [[semiclassical approximation]]:
 
+* Asim Gangopadhaya, Jonathan Bougie, Constantin Rasinariu: *Recent Advances in Semiclassical Methods Inspired by Supersymmetric Quantum Mechanics* &lbrack;[arXiv:2408.15424](https://arxiv.org/abs/2408.15424)&rbrack;
 
 
 ### Relation to Morse theory and string theory
