@@ -119,7 +119,6 @@ This is the form of the condition that is most commonly called the _descent cond
 For more references and background on the following see [[descent for simplicial presheaves]].
 
 
-
 A well-studied class of models/presentations for an [[(∞,1)-category of (∞,1)-sheaves]] is obtained using the [[model structure on simplicial presheaves]] on an  ordinary (1-categorical) [[site]] $S$, as follows.
 
 Let $[S^{op}, SSet]$ be the [[SimpSet|SSet]]-[[enriched category]] of [[simplicial presheaf|simplicial presheaves]] on $S$. 
@@ -137,8 +136,6 @@ According to [section 6.5.2](http://www.math.harvard.edu/~lurie/papers/highertop
 * the full simplicial subcategory on fibrant-cofibrant objects of $[S^{op}, SSet]$ with respect to the _local_ injective model structure is (the [[SimpSet|SSet]]-[[enriched category]] realization of) the $(\infty,1)$-category  $\bar{Sh}_{(\infty,1)}(S)$ which is the [[hypercompletion]] of the $(\infty,1)$-category $Sh_{(\infty,1)}(S)$ of [[(∞,1)-sheaves]] on $S$.
 
 Since with respect to the local or global injective model structure all objects are automatically cofibrant, this means that $\bar Sh_{(\infty,1)}(S)$ is the full sub-$(\infty,1)$-category of $PSh_{(\infty,1)}(S)$ on simplicial presheaves which are fibrant with respect to the local injective model structure: these are the [[∞-stacks]] in this model.
-
-
 
 
 By the general properties of [[localization of an (∞,1)-category]] there should be a class of morphisms $f : Y \to X$ in $PSh_{(\infty,1)}(S)$ -- hence between injective-fibrant objects in $[S^{op}, PSh(S)]$ -- such that the simplicial presheaves representing $\infty$-stacks are precisely the [[local objects]] with respect to these morphisms.
@@ -282,12 +279,6 @@ $$
 
 
 
-
-
-
-
-
-
 ## Descent for strict $\omega$-groupoid valued presheaves 
 
 While simplicial sets are a very convenient model for general reasoning about higher weak categories and [[∞-groupoids]], often concrete computations in particular with $(\infty)$-groupoids are more convenient in the context of more strictified models. 
@@ -301,7 +292,7 @@ $$
   \,.
 $$
 
-Since for instance something as simple as an abelian group $A$ regarded as a complex of groups in degree $n$ (hence as an $n$-group) already bcomes a somewhat involved object to understand under the nervet operation, 
+Since, for instance, something as simple as an abelian group $A$, regarded as a complex of groups in degree $n$ (hence as an $n$-group), is already a rather involved object to understand under the nerve operation, 
 
 _it is desirable to have a means to control descent for simplicial presheaves which happen to factor through the $\omega$-nerve directly in the context of $Str \omega Cat$._
 
@@ -333,7 +324,7 @@ $$
 
 where $F : SSet \to Str\omega Cat$ is the [[right adjoint]] to the [[oriental|∞-nerve]] $N : Str \omega Cat \to SSet$.
 
-The two precscriptions
+The two prescriptions 
 
 $$
  \array{
@@ -369,7 +360,7 @@ This is a [[model structure on simplicial sets|weak equivalence]] of [[Kan compl
 +-- {: .proof}
 ###### Proof
 
-The full proof is given at [[Verity on descent for strict omega-groupoid valued presheave|Verity on descent for strict omega-groupoid valued presheaves]].
+The full proof is given at [[Verity on descent for strict omega-groupoid valued presheaves]].
 
 =--
 
@@ -515,7 +506,7 @@ This way the descent for $[B(-),A]$ on the object $U = colim^\Delta U_\bullet$ i
 
 ## Monadic descent
 
-In some context the descent condion may algebraically be encoded in an [[adjunction]]. This leads to the notion of [[monadic descent]]. See there for more details.
+In some context the descent condition may algebraically be encoded in an [[adjunction]]. This leads to the notion of [[monadic descent]]. See there for more details.
 
 ## Related concepts
 
