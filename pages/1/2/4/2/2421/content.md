@@ -217,6 +217,9 @@ References mentioning the definition of super Lie groups as [[internal groups]] 
 
 * [[Claudio Carmeli]], Lauren Caston, [[Rita Fioresi]], Section 3.4 in: _Mathematical Foundations of Supersymmetry_, EMS Series of Lectures in Mathematics **15** (2011) &lbrack;[ISBN:978-3-03719-097-5](https://bookstore.ams.org/emsserlec-15/), [arXiv:0710.5742](https://arxiv.org/abs/0710.5742)&rbrack;
 
+Discussion via [[formal duality|dual]] [[superalgebra]]:
+
+* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Lie Supergroups*, in: *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi;10.1007/978-94-017-1963-6_8](https://doi.org/10.1007/978-94-017-1963-6_8)&rbrack; 
 
 Discussion in a context of [[supergravity]]:
 
