@@ -69,7 +69,7 @@ $$
 
 ### Central extensions
 
-Loop groups of [[compact space|compact]] [[Lie groups]] have canonical [[central extensions]], often called _Kac-Moody central extensions_ . A detailed discussion is in ([PressleySegal](#PressleySegal)). A review is in ([BCSS](#BCSS))
+Loop groups of [[compact space|compact]] [[Lie groups]] have canonical [[central extensions]], often called _Kac-Moody central extensions_ . A detailed discussion is in ([Pressley & Segal](#PressleySegal)). A review is in ([BCSS](#BCSS))
 
 ### Representations
  {#Representations}
@@ -203,7 +203,7 @@ This is a higher analog of how $G$-[[equivariant K-theory]] of the point gives t
 
 The standard textbook on loop groups is
 
-* {#PressleySegal} Andrew Pressley, [[Graeme Segal]], _Loop groups_ Oxford University Press (1988)
+* {#PressleySegal} [[Andrew Pressley]], [[Graeme Segal]], _Loop groups_ Oxford University Press (1988)
   
 
 A review talk is 
