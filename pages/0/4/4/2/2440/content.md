@@ -853,13 +853,15 @@ According to [Palmkvist 13, 3.1](tensor+hierarchy#Palmkvist13), [Lavau-Palmkvist
 
 ## References
 
-According to [Kac77b](#Kac77b) the definition of super Lie algebra is originally due to
+According to [V. Kac 1977b](#Kac77b) the definition of super Lie algebra is originally due to:
 
-* [[Felix Berezin]], G. I. Kac, Math. Sbornik 82, 343&#8212;351 (1970) (in Russian)
+* [[Felix Berezin]], G. I. Kac, Math. Sbornik &&82** (1970) 343-351 (in Russian)
 
-See also
+See also:
 
 * {#Kantor70} [[Isaiah Kantor]], _Graded Lie algebras_, Trudy Sem. Vektor. Tenzor. Anal 15 (1970): 227-266.
+
+* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Lie Superalgebras*, Ch. 5 in: *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi;10.1007/978-94-017-1963-6_8](https://doi.org/10.1007/978-94-017-1963-6_8)&rbrack; 
 
 
 The original references on the classification of super Lie algebras:
