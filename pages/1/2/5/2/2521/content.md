@@ -72,6 +72,10 @@ Historically influential general considerations:
 
 * [[Yuri Manin]], _[[New Dimensions in Geometry]]_, in: *Arbeitstagung Bonn 1984*, Lecture Notes in Mathematics **1111**, Springer (1985) 59–101 &lbrack;[doi:10.1007/BFb0084585](https://doi.org/10.1007/BFb0084585), [pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0084581/chapter04.pdf)&rbrack;
 
+* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi;10.1007/978-94-017-1963-6_8](https://doi.org/10.1007/978-94-017-1963-6_8)&rbrack; 
+
+
+
 Survey:
 
 * [[Yuri Manin]], Chapter 4 in: *[[Gauge Field Theory and Complex Geometry]]*, Grundlehren der Mathematischen Wissenschaften **289**, Springer (1988) &lbrack;[doi:10.1007/978-3-662-07386-5](https://doi.org/10.1007/978-3-662-07386-5)&rbrack;
