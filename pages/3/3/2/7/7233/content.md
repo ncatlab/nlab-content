@@ -525,6 +525,11 @@ The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned
 
 For more see the references at _[[exceptional geometry]]_.
 
+On $G_2$-manifolds via [[D=4 N=1 super Yang-Mills theory|$D=4$, $\mathcal{N}=1$ SYM]] inspired from [[M-theory on G2-manifolds|M-theory on $G_2$-manifolds]]:
+
+* [[Andreas P. Braun]], Evyatar Sabag, Matteo Sacchi, [[Sakura Schäfer-Nameki]]: *$G_2$ -Manifolds from $4d$ $\mathcal{N}=1$ Theories, Part I: Domain Walls* &lbrack;[arXiv:2304.01193](https://arxiv.org/abs/2304.01193)&rbrack;
+
+
 
 [[!include G2-conifolds -- references]]
 
