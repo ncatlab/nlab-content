@@ -159,7 +159,10 @@ The concept originates in
 
 where the graded-commutativity of the exterior product appears in  &#167;37, &#167;55.
 
-Textbook account:
+In monographs:
+
+* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Grassmann algebra*, Ch. 1 in: *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi;10.1007/978-94-017-1963-6_8](https://doi.org/10.1007/978-94-017-1963-6_8)&rbrack; 
+
 
 * [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §10 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
 
