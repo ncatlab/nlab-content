@@ -40,6 +40,9 @@ On [[F/M-theory on elliptically fibered Calabi-Yau 5-folds]], relating to [[D=2 
 
 * [[Sakura Schäfer-Nameki]], _F-theory and $2d$ $(0,2)$ Theories_, 2016 ([[SchaeferNamekiFTheoryAnd2DQFT.pdf:file]])
 
+On [[G2-manifolds|$G_2$-manifolds]] via [[D=4 N=1 super Yang-Mills theory|$D=4$, $\mathcal{N}=1$ SYM]] inspired from [[M-theory on G2-manifolds|M-theory on $G_2$-manifolds]]:
+
+* [[Andreas P. Braun]], Evyatar Sabag, Matteo Sacchi, [[Sakura Schäfer-Nameki]]: *$G_2$ -Manifolds from $4d$ $\mathcal{N}=1$ Theories, Part I: Domain Walls* &lbrack;[arXiv:2304.01193](https://arxiv.org/abs/2304.01193)&rbrack;
 
 
 
