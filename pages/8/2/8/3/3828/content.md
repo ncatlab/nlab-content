@@ -2,18 +2,23 @@
 
 >There are several things called "Birkhoff's theorem" in various field of mathematics and mathematical physics, and belong even to at least 2 different classical Birkhoff's. Even wikipedia has pages for more than one such theorem. To me the first which comes to mind is Birkhoff's factorization theorem, now also popular in Kreimer-Connes-Marcolli work and in connection to loop groups (cf. book by Segal and Pressley).
 
-For now we have:
+Some named results pertaining to [[Garrett Birkhoff]] (mainly [[algebra|algebraist]]) are
 
-* the [[Birkhoff–von Neumann theorem]]
+* the [[Birkhoff–von Neumann theorem]] on Birkhoff-von-Neumann algorithm for decomposing a bistochastic matrix into a convex combination of permutation matrices
 * [[distributive lattice|Birkhoff Duality of distributive lattices]]
-* [[Birkhoff's HSP theorem]]
+* [[Birkhoff's HSP theorem]] or [[Birkhoff's variety theorem]] in [[universal algebra]]
+* [[Birkhoff's subdirect representation theorem]] in [[universal algebra]]
 
+Named results pertaining to [[George David Birkhoff]] (mainly [[analysis|analyst]]) include
+
+* [[Birkhoff decomposition]] (or factorization) 
 
 ## References
 
-For the theorem as in [[universal algebra]]:
+On [[Birkhoff's subdirect representation theorem]]:
 
-* [[Garrett Birkhoff]], _Subdirect unions in universal algebra_, Bull. Amer. Math. Soc. 50 (1944), 764-768.
+* [[Garrett Birkhoff]], _Subdirect unions in universal algebra_, Bull. Amer. Math. Soc. __50__ (1944), 764--768 [pdf](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-50/issue-10/Subdirect-unions-in-universal-algebra/bams/1183506230.pdf)
+
 
 * [Wolfram Mathworld](http://mathworld.wolfram.com/BirkhoffsTheorem.html)
 
