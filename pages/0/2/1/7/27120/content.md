@@ -6,7 +6,12 @@ Andrew N. Pressley is a mathematician at King's College London with specializati
 
 #### Monographs
 
+On [[loop groups]]:
+
 * [[Andrew Pressley]], [[Graeme Segal]], _Loop groups_, Oxford University Press 1988
+
+On [[quantum groups]]:
+
 * Vyjayanthi Chari, Andrew N. Pressley, _Quantum groups_, Cambridge University Press 1995
 
 category: people
