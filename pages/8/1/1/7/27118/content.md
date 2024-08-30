@@ -10,6 +10,9 @@ The original reference is
 
 For another version see
 
+* [[Walter Tholen]], _Injective objects and cogenerating sets_, J. Algebra __73__(1) (1981) 139--155 <a href="https://doi.org/10.1016/0021-8693(81)90351-3">doi</a>
 * [[Walter Tholen]], _Birkhoff's theorem for categories_, In: Banaschewski, B. (eds) Categorical Aspects of Topology and Analysis. Lecture Notes in Mathematics __915__, Springer 1982, [doi](https://doi.org/10.1007/BFb0092891)
+*  (surveyed as Th. 3.5 in) M. Mehdi Ebrahimi, Mahdieh Haddadi,  Mojgan Mahmoudi, _Injectivity in a category: an overview on smallness conditions_, Categories and General Algebraic Structures with Applications __2__:1 (2014) 83--112 [pdf](https://cgasa.sbu.ac.ir/article_6800_3a21602701c668271925317f72f7ea0a.pdf)
+     
 
 category: algebra
