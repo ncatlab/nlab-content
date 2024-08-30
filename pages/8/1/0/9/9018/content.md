@@ -342,6 +342,13 @@ The [[moduli space]] is discussed in
 
 * [[Spiro Karigiannis]], [[Naichung Conan Leung]]_, _Hodge Theory for $G_2$-manifolds: Intermediate Jacobians and Abel-Jacobi maps_, Proceedings of the London Mathematical Society (3) 99, 297-325 (2009) ([arXiv:0709.2987](http://arxiv.org/abs/0709.2987) [talk slides pdf](http://www.math.uwaterloo.ca/~karigian/talks/g2modulispace.pdf)
 
+On M-theory on [[anti de Sitter spacetime|$AdS_4$]] times a weak $G_2$-manifold:
+
+* Vincent Van Hemelryck: *Weak $G_2$-manifolds and scale separation in M-theory from type IIA backgrounds* &lbrack;[arXiv:2408.16609](https://arxiv.org/abs/2408.16609)&rbrack;
+
+
+
+
 
 ### Phenomenology
  {#ReferencesPhenomenology}
