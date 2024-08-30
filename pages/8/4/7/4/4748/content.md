@@ -710,6 +710,9 @@ to [[BFCG theory]]:
 
 * A.D. López-Hernández, Graciela Reyes-Ahumada, Javier Chagoya: *Categorical generalization of BF theory coupled to gravity* \[<a href="https://arxiv.org/abs/2408.02889">arXiv:2408.02889</a>\]
 
+to [[data science]]:
+
+* Ilya Chevyrev, [[Joscha Diehl]], [[Kurusch Ebrahimi-Fard]], Nikolas Tapia: *A multiplicative surface signature through its Magnus expansion* &lbrack;[arXiv:2406.16856](https://arxiv.org/abs/2406.16856)&rbrack;
 
 
 In the abelian case, parallel transport for [[circle n-bundles with connection]] is discussed generally in 
