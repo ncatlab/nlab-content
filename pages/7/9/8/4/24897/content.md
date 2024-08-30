@@ -35,7 +35,7 @@ is the [[subtype]] of all $V':\mathcal{O}(x)$ such that $V' \lhd U$.
 
 ## References 
 
-* [[Simon Henry]], Localic Metric spaces and the localic Gelfand duality ([arXiv:1411.0898v1](https://arxiv.org/abs/1411.0898v1))
+* [[Simon Henry]], Localic Metric spaces and the localic Gelfand duality ([arXiv:1411.0898](https://arxiv.org/abs/1411.0898))
 
 * Graham Manuell, *Uniform locales and their constructive aspects*, ([arXiv:2106.00678](https://arxiv.org/abs/2106.00678))
 
