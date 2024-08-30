@@ -6,6 +6,8 @@ Discussion of [[classical field theory]] with [[fermions]] (possibly but not nec
 
 via ([[infinite-dimensional manifold|infinite-dimensional]]) [[supermanifolds]]:
 
+* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Particle Spin Dynamics as the Grassmann Variant of Classical Mechanics*, Appendix I in: *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi;10.1007/978-94-017-1963-6_8](https://doi.org/10.1007/978-94-017-1963-6_8)&rbrack; 
+
 * [[Thomas Schmitt]]: *The Cauchy Problem for Classical Field Equations with Ghost and Fermion Fields* \[<a href="https://arxiv.org/abs/hep-th/9607133">arXiv:hep-th/9607133</a>\]
 
 * {#Schmitt97} [[Thomas Schmitt]]: *Supergeometry and Quantum Field Theory, or: What is a Classical Configuration?*, Rev. Math. Phys. **9** (1997) 993-1052 \[<a href="https://doi.org/10.1142/S0129055X97000348">doi:10.1142/S0129055X97000348</a>, [arXiv:hep-th/9607132](https://arxiv.org/abs/hep-th/9607132)\].
