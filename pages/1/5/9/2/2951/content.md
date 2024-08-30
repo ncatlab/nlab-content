@@ -77,7 +77,7 @@ On [[equivariant bundles]] with [[abelian group|abelian]] [[structure group]]:
 
 On [[loop groups]] of [[compact Lie groups]] and their [[Kac-Moody group]] [[central extension]]:
 
-* {#PressleySegal} [[Andrew Pressley]], [[Graeme Segal]], _Loop groups_ Oxford University Press (1988)
+* {#PressleySegal} [[Andrew Pressley]], [[Graeme Segal]], _Loop groups_, Oxford University Press (1988)
   
 * [[Graeme Segal]], _Loop groups_ ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0084581/chapter08.pdf))
 
