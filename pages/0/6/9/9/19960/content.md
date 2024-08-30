@@ -1051,6 +1051,8 @@ See also:
 
 * Si-wen Li, Hao-qian Li, Sen-kai Luo, *Corrections to the instanton configuration as baryon in holographic QCD* &lbrack;[arXiv:2209.12521](https://arxiv.org/abs/2209.12521)&rbrack;
 
+* Si-wen Li, Hao-qian Li, Yi-peng Zhang: *The worldvolume fermion as baryon in holographic QCD with instanton* &lbrack;[arXiv:2402.01197](https://arxiv.org/abs/2402.01197)&rbrack;
+
 
 On relation to [[type 0 string theory]]:
 
