@@ -125,4 +125,5 @@ The [[crossed modules]] (in groups or Lie groups) and the differential crossed m
 [[!redirects Lie crossed module]]
 [[!redirects Lie crossed modules]]
 
-
+[[!redirects Lie algebra crossed module]]
+[[!redirects Lie algebra crossed modules]]
