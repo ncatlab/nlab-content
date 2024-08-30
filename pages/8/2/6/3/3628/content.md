@@ -106,6 +106,14 @@ See at _[[time-ordered product]]_ and _[[S-matrix]]_ for details.
 
 * [[parallel transport]]
  
+* [[Magnus expansion]]
+
+## References
+
+Relation to the [[Magnus expansion]]:
+
+* Michel Bauer, Raphael Chetrite, [[Kurusch Ebrahimi-Fard]], Frederic Patras: *Time-ordering and a generalized Magnus expansion*, Letters in Mathematical Physics **103** (2013) 331 &lbrack;[doi:10.1007/s11005-012-0596-z](https://doi.org/10.1007/s11005-012-0596-z), [arXiv:1206.3990](https://arxiv.org/abs/1206.3990)&rbrack;
+
 
 [[!redirects Dyson series]]
 
