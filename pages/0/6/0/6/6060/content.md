@@ -674,8 +674,9 @@ See also:
 
 * [[Albert Schwarz]], [[Ilya Shapiro]], *Twisted de Rham cohomology, homological definition of the integral and "Physics over a ring"*, Nucl. Phys. B **809** (2009) 547-560 &lbrack;[arXiv:0809.0086](https://arxiv.org/abs/0809.0086), [doi:10.1016/j.nuclphysb.2008.10.005](https://doi.org/10.1016/j.nuclphysb.2008.10.005)&rbrack;
 
+* Giacomo Brunello, Vsevolod Chestnov, Pierpaolo Mastrolia: *Intersection Numbers from Companion Tensor Algebra* &lbrack;[arXiv:2408.16668](https://arxiv.org/abs/2408.16668)&rbrack;
 
-A different but analogous notion of 1-twisted de Rham cohomology appears in the context of [[supersymmetric quantum mechanics]]:
+A different but somewhat analogous notion of 1-twisted de Rham cohomology appears in the context of [[supersymmetric quantum mechanics]] (where the twist is not by wedging with a 1-form but by [[tensor contraction|contraction]] with a [[vector field]]):
 
 * {#Witten82} [[Edward Witten]], §3 in: _Supersymmetry and Morse theory_  J. Differential Geom. **17** 4 (1982) 661-692. &lbrack;[euclid:jdg/1214437492](http://projecteuclid.org/euclid.jdg/1214437492), [pdf](http://www.cimat.mx/~gil/docencia/2012/teoria_de_morse/witten_supersymmetry_and_morse_theory.pdf), [spire:176416](http://inspirehep.net/record/176416)&rbrack;
 
