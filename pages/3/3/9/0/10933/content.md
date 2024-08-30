@@ -8,7 +8,7 @@
 
 * Garrett Birkhoff, _On the structure of abstract algebras_,  Proc. Cambridge Philos. Soc. 31 (4): 433--454 (1935) [doi](https://doi.org/10.1017/S0305004100013463) [pdf](https://www.math.hawaii.edu/~ralph/Classes/619/birkhoff1935.pdf)
 
-More on [[universal algebra]]
+The [[Birkhoff's subdirect representation theorem]] is proved in 
 
 * [[Garrett Birkhoff]], _Subdirect unions in universal algebra_, Bull. Amer. Math. Soc. 50 (1944), 764-768.
 
