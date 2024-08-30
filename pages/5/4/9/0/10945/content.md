@@ -10,10 +10,11 @@ Related $n$Lab entries: [[loop group]], [[Riemann-Hilbert problem]], [[Wiener-Ho
 
 * wikipedia [Birkhoff factorization](http://en.wikipedia.org/wiki/Birkhoff_factorization), [Birkhoff&#8211;Grothendieck theorem](http://en.wikipedia.org/wiki/Birkhoff%E2%80%93Grothendieck_theorem)
 * [[eom]]: [Birkhoff factorization](http://www.encyclopediaofmath.org/index.php/Birkhoff_factorization) 
-* G. D. Birkhoff, _The generalized Riemann problem for linear differential equations and the allied problems for linear difference and q-difference equations_, Proc. Amer. Acad. Arts and Sci. __49__ (1913), 531-568.
-* G. Segal, A. Pressley, _Loop groups_, Oxford University Press
-* I. Z. Gohberg, M. G. Krein, _Systems of integral equations on a half-line with kernels depending on the difference of the arguments_, Transl. Amer. Math. Soc. __14__ (1960) pp. 217&#8211;284
+* [[George David Birkhoff]], _The generalized Riemann problem for linear differential equations and the allied problems for linear difference and q-difference equations_, Proc. Amer. Acad. Arts and Sci. __49__ (1913), 531--568.
+* [[Andrew Pressley]], [[Graeme Segal]], _Loop groups_ Oxford University Press (1988)
+* I. Z. Gohberg, M. G. Krein, _Systems of integral equations on a half-line with kernels depending on the difference of the arguments_, Transl. Amer. Math. Soc. __14__ (1960) pp. 217--284
 * K. F. Clancey, I. Z. Gohberg, _Factorization of matrix functions and singular integral operators_, Birkh&#228;user (1981) 
 [[!redirects Birkhoff factorization]]
+[[!redirects Birkhoff's factorization theorem]]
 [[!redirects Riemann-Birkhoff decomposition]]
 [[!redirects Riemann-Birkhoff factorization]]
