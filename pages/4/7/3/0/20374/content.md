@@ -86,6 +86,11 @@ Relation of 4d semi-topological CS to special solutions of 4d [[gravity]]:
 
 * Lewis T. Cole, Peter Weck: *Integrability in Gravity from Chern-Simons Theory* &lbrack;[arXiv:2407.08782](https://arxiv.org/abs/2407.08782)&rbrack;
 
+Relation to [[higher dimensional WZW model|4d WZW theory]]:
+
+* Masashi Hamanaka, Shan-Chi Huang: *Solitons in 4d Wess-Zumino-Witten models -- Towards unification of integrable systems* &lbrack;[arXiv:2408.16554](https://arxiv.org/abs/2408.16554)&rbrack;
+
+
 [[!redirects semi-topological 4d Chern-Simons theory]]
 [[!redirects semi-holomorphic D=4 Chern-Simons theory]]
 [[!redirects semi-holomorphic 4d Chern-Simons theory]]
