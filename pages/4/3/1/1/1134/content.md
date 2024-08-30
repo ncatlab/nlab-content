@@ -279,6 +279,12 @@ This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a di
 
 ## References
 
+### Via dual superalgebra
+
+Via the [[formal dual|formally dual]] [[superalgebra]] of the super-[[function algebras]] on supermanifolds
+
+* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Supermanifolds in General*, Ch. 4 in: *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi;10.1007/978-94-017-1963-6_8](https://doi.org/10.1007/978-94-017-1963-6_8)&rbrack; 
+
 
 ### Via functorial geometry
 
