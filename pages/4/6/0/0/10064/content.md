@@ -66,14 +66,20 @@ Chen iterated integrals in the context of stochastic analysis
 Kapranov's work on "noncommutative Fourier transform" uses some ideas from Chen's work:
 
 * [[Mikhail Kapranov]], _Noncommutative geometry and path integrals_, In: Tschinkel, Y., Zarhin, Y. (eds) Algebra, Arithmetic, and Geometry. Progress in Mathematics __270__, [doi](https://doi.org/10.1007/978-0-8176-4747-6_3) arXiv:[math.QA/0612411](https://arxiv.org/abs/math/0612411)
+
 * [[Mikhail Kapranov]], _Free Lie algebroids and the space of paths_, Sel. math., New ser. 13, 277 (2007) [doi](https://doi.org/10.1007/s00029-007-0041-9) arXiv:[math:AG/0702584](https://arxiv.org/abs/math/0702584)
+
 * [[Mikhail Kapranov]], _Membranes and higher groupoids_, [arXiv:1502.06166](https://arxiv.org/abs/1502.06166)
 
-Iterated sums and [[iterated integral]]s over semirings, where the case of tropical semiring is a central, with applications (including in [[machine learning]]),
+Iterated sums and [[iterated integral]]s over semirings, where the case of tropical semiring is a central, with applications (including in [[machine learning]]):
 
-* Joscha Diehl, [[Kurusch Ebrahimi-Fard]], Nikolas Tapia, _Tropical time series, iterated-sums signatures, and quasisymmetric functions_, SIAM Journal on Applied Algebra and Geometry __6__:4 (2022) [arxiv:2009.08443](https://arxiv.org/abs/2009.08443) [doi](https://doi.org/10.1137/20M1380041)
+* [[Joscha Diehl]], [[Kurusch Ebrahimi-Fard]], Nikolas Tapia, _Tropical time series, iterated-sums signatures, and quasisymmetric functions_, SIAM Journal on Applied Algebra and Geometry __6__:4 (2022) [arxiv:2009.08443](https://arxiv.org/abs/2009.08443) [doi](https://doi.org/10.1137/20M1380041)
 
 [[!redirects iterated integral]]
 [[!redirects iterated integrals]]
+
 [[!redirects Chen integral]]
+[[!redirects Chen integrals]]
+
 [[!redirects Chen iterated integral]]
+[[!redirects Chen iterated integrals]]
