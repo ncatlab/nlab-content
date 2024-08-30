@@ -1,8 +1,18 @@
 
+Felix Berezin (1931-1980)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Felix_Berezin)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=85896)
+
+* Alexander Karabegov, Yuri Neretin & Theodore Voronov: *Felix Alexandrovich Berezin and His Work*, in: *Geometric Methods in Physics*, Trends in Mathematics, Birkhäuser (2013) &lbrack;[doi:10.1007/978-3-0348-0448-6_1](https://doi.org/10.1007/978-3-0348-0448-6_1)&rbrack; 
+
 ## Selected writings
+
+According to [V. Kac 1977b](super+Lie+algebra#Kac77b) the definition of [[super Lie algebras]] is originally due to:
+
+* [[Felix Berezin]], G. I. Kac, Math. Sbornik &&82** (1970) 343-351 (in Russian)
+
 
 Early discussion of [[supermanifolds]]:
 
@@ -11,6 +21,11 @@ Early discussion of [[supermanifolds]]:
 An original approach to [[quantization]]:
 
 * [[F. A. Berezin]], _Quantization_, Math. USSR Izv., 8 (1974), 1109-1163. MR 0395610 (52:16404) 
+
+On [[superalgebra]] and [[supergeometry]] ([[Grassmann algebra]], [[super vector spaces]], [[supermanifolds]], [[super Lie algebras]], [[super Lie groups]], ...):
+
+* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi;10.1007/978-94-017-1963-6_8](https://doi.org/10.1007/978-94-017-1963-6_8)&rbrack; 
+
 
 ## Related entries
 
