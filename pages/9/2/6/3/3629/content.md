@@ -36,3 +36,4 @@ However, large tensor powers of a channel may be easier to represent in this way
 [[!redirects Birkhoff-von Neumann theorem]]
 [[!redirects Birkhoff–von Neumann theorem]]
 [[!redirects Birkhoff--von Neumann theorem]]
+[[!redirects Birkhoff--von-Neumann algorithm]]
