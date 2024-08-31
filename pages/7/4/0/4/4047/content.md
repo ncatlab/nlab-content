@@ -45,9 +45,28 @@ Now:
 
 \begin{definition}
 A **twist** on rigid braided monoidal category (Def. \ref{RigidMonoidalCategory}) is a [[natural isomorphism]] from the [[identity functor]] to itself, with components $\theta_X \colon X \to X$ for which
-$$\theta_{X\otimes Y}=\beta_{Y,X}\beta_{X,Y}\theta_{X}\otimes \theta_{Y},$$
-$$\theta_{\mathbb{1}}=\mathrm{id},$$
-$$\theta_{X^{\vee}}=\theta_{X}^{\vee}.$$
+$$
+  \theta_{X\otimes Y}
+    \;=\;
+  \beta_{Y,X}
+    \circ
+  \beta_{X,Y}
+    \circ
+  \theta_{X}\otimes \theta_{Y}
+  \,,
+$$
+$$
+  \theta_{\mathbb{1}} 
+    \;=\; 
+  \mathrm{id}
+  \,,
+$$
+$$
+  \theta_{X^{\vee}} 
+    \;=\;
+  \theta_{X}^{\vee}
+  \,.
+$$
 
 A **ribbon category** (*tortile category*) is a rigid braided monoidal category equipped with such a twist.
 \end{definition}
