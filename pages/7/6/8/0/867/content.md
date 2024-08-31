@@ -196,6 +196,9 @@ In [[homotopy type theory]], every [[type]] with a partial order in a [[univalen
 
 * More generally, if $A$ is a [[vector space]] on the [[rational numbers]] with a [[quadratic form]], then $A$ is a partial order, and its Cauchy completion is a vector space of same dimension on the [[Cauchy real numbers]] with a quadratic form. In particular, the Cauchy [[complex numbers]] and the [[Gaussian rationals]] are partial orders. 
 
+* In a logic with implications, the set of propositions is partially ordered with respect to the implication as a relation.
+
+
 ## Related concepts
 
 * [[relation between preorders and (0,1)-categories]]
