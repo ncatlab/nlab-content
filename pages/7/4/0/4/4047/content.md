@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include monoidal categories - contents]]
 =--
+#### Knot theory
++--{: .hide}
+[[!include knot theory - contents]]
+=--
 =--
 =--
 
@@ -15,7 +19,8 @@
 
 ## Idea
 
-A **ribbon category** &lbrack;[Reshetikhin & Turaev (1990)](#ReshetikhinTuraev90)&rbrack; (also called a **tortile category** &lbrack;[Joyal & Street (1993)](#JoyalStreet93)&rbrack; or **balanced rigid braided tensor category**) is a [[monoidal category]] $(\mathcal{C}, \otimes, \mathbb{1}, \alpha, l, r)$ equipped with [[braiding]] $\beta=\{\beta_{X,Y}\}$, twist $\theta=\{\theta_X\}$ and duality $(\vee, b, d)$ that satisfy some compatibility conditions. 
+A **ribbon category** &lbrack;[Reshetikhin & Turaev (1990)](#ReshetikhinTuraev90)&rbrack; (also called a **tortile category** &lbrack;[Joyal & Street (1993)](#JoyalStreet93), [Selinger 2011 §4.7](#Selinger11)&rbrack; or **balanced rigid braided tensor category**) is a [[monoidal category]] $(\mathcal{C}, \otimes, \mathbb{1}, \alpha, l, r)$ equipped with [[braiding]] $\beta=\{\beta_{X,Y}\}$, twist $\theta=\{\theta_X\}$ and duality $(\vee, b, d)$ that satisfy some compatibility conditions. 
+
 
 ## Definition
 
@@ -24,7 +29,7 @@ A [[braided monoidal category]] is a [[monoidal category]] $\mathcal{C}$ equippe
 A braided monoidal category is *[[rigid monoidal category|rigid]]* if, for every [[object]] $X$, there exist objects $X^{\vee}$ and ${^{\vee}}X$ (called its [[dualisable object|right and left dual]]) and associated morphisms
 $$b_X:\mathbb{1}\to X^{\vee}\otimes X, d_X: X\otimes X^{\vee}\to \mathbb{1}$$
 $$b_X:\mathbb{1}\to X\otimes {^{\vee}}X, d_X: {^{\vee}}X\otimes X\to \mathbb{1}$$
-obeying the zig-zag identities:
+obeying the [[zig-zag identities]]:
 
 $$(d_X\otimes \text{id}_X)\circ (\text{id}_X\otimes b_{X})=\text{id}_{X},$$
 
@@ -49,7 +54,15 @@ A ribbon category is a rigid braided monoidal category equipped with such a twis
 
 * {#JoyalStreet93} [[André Joyal]], [[Ross Street]], *Braided tensor categories*, Advances in Mathematics **102** (1993) 20–78 &lbrack;[doi:10.1006/aima.1993.1055](https://doi.org/10.1006/aima.1993.1055)&rbrack;
 
+* {#Turaev94} [[Vladimir Turaev]], §I.1 in: *Quantum invariants of knots and 3-manifolds*, de Gruyter Studies in Mathematics **18**, de Gruyter & Co. (1994) &lbrack;[doi:10.1515/9783110435221](https://doi.org/10.1515/9783110435221), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/turaev5.pdf)&rbrack;
+
 * [[Mei Chee Shum]], *Tortile tensor categories*, Journal of Pure and Applied Algebra **93** 1 (1994) 57-110 &lbrack;<a href="https://doi.org/10.1016/0022-4049(92)00039-T">10.1016/0022-4049(92)00039-T</a>&rbrack;
+
+* {#Selinger11} [[Peter Selinger]], §4.7 in: *A survey of graphical languages for monoidal categories*, Springer Lecture Notes in Physics **813** (2011) 289-355 &lbrack;[arXiv:0908.3347](https://arxiv.org/abs/0908.3347), [doi:10.1007/978-3-642-12821-9_4](https://doi.org/10.1007/978-3-642-12821-9_4)&rbrack;
+
+Lecture notes:
+
+* [[Daniel Bump]]: *Ribbon categories*, lecture 4 of *[Quantum Groups](http://sporadic.stanford.edu/quantum/)* (2022) &lbrack;slides: [pdf](http://sporadic.stanford.edu/quantum/lecture4.pdf), [[Bump-RibbonCategories.pdf:file]], notes: [pdf](http://sporadic.stanford.edu/quantum/Lecture-10-13-22.pdf)&rbrack;
 
 
 [[!redirects ribbon category]]
