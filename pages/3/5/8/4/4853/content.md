@@ -21,6 +21,7 @@
 
 A **link** is a generalisation of a [[knot]] where one is allowed more than one component.  Many [[knot invariants]] extend to [[link invariant]]s and for many such invariants, one needs to know this extension to compute it even for a knot.  Thus the study of links and knots is inextricably intertwined.
 
+A link is equivalently a [[tangle]] without [[boundary of a manifold|boundary]].
 
 ## Basics
 
