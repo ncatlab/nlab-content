@@ -264,9 +264,12 @@ Lecture notes:
 
 * {#BarNatanStoimenow97} [[Dror Bar-Natan]], Alexander Stoimenow, _The Fundamental Theorem of Vassiliev Invariants_, in: *Geometry and Physics*, Lecture Notes in Pure and Applied Mathematics, volume 184, Marcel Dekker Inc. 1996 ([arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009), [ISBN:0-8247-9791-4](https://users-math.au.dk/swann/Aarhus-proceedings-1995/index.html))
 
-Textbook accounts:
+Monographs:
 
-* {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
+* {#Yetter01} [[David N. Yetter]]: Ch. 19 of: *Functorial Knot Theory -- Categories of Tangles, Coherence, Categorical Deformations, and Topological Invariants*, Series on Knots and Everything **26**, World Scientific (2001) &lbrack;[doi:10.1142/4542](https://doi.org/10.1142/4542)&rbrack;
+
+
+* {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], _Introduction to Vassiliev knot invariants_, Cambridge University Press (2012) &lbrack;[arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846)&rbrack;
 
 * [[David Jackson]], [[Iain Moffat]], _An Introduction to Quantum and Vassiliev Knot Invariants_, Springer 2019 ([doi:10.1007/978-3-030-05213-3](https://link.springer.com/book/10.1007/978-3-030-05213-3))
 
