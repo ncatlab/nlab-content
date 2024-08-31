@@ -3630,7 +3630,7 @@ $$
 \end{example}
 
 
-## Related entries
+## Related concepts
 
 * [[braid representation]]
 
@@ -3653,6 +3653,8 @@ $$
 * [[braid cobordism]]
 
 * [[vine monoid]]
+
+* [[tangle]]
 
 [[!include chord diagrams and weight systems -- table]]
 
