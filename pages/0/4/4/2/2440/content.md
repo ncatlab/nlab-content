@@ -861,7 +861,7 @@ See also:
 
 * {#Kantor70} [[Isaiah Kantor]], _Graded Lie algebras_, Trudy Sem. Vektor. Tenzor. Anal 15 (1970): 227-266.
 
-* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Lie Superalgebras*, Ch. 5 in: *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi;10.1007/978-94-017-1963-6_8](https://doi.org/10.1007/978-94-017-1963-6_8)&rbrack; 
+* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Lie Superalgebras*, chapters I.5 and II.1 in: *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi:10.1007/978-94-017-1963-6_6](https://doi.org/10.1007/978-94-017-1963-6_6), [doi:10.1007/978-94-017-1963-6_7](https://doi.org/10.1007/978-94-017-1963-6_7)&rbrack; 
 
 
 The original references on the classification of super Lie algebras:
