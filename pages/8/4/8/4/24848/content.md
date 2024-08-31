@@ -61,11 +61,11 @@ Textbook accounts (with background on relevant [[monoidal category|monoidal]] [[
 
 * [[Bob Coecke]], [[Aleks Kissinger]], *Picturing Quantum Processes -- A First Course in Quantum Theory and Diagrammatic Reasoning*, Cambridge University Press (2017) $[$[ISBN:9781107104228](https://www.cambridge.org/ae/academic/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/picturing-quantum-processes-first-course-quantum-theory-and-diagrammatic-reasoning?format=HB&isbn=9781107104228)$]$
 
-* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 $[$[ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616)$]$
+* {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]]: *Categories for Quantum Theory*, Oxford University Press (2019) \[<a href="https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616">ISBN:9780198739616</a>\]
 
   based on:
 
-  {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], *Lectures on categorical quantum mechanics* (2012) $[$[pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf), [[HeunenVicary-QuantumLectures.pdf:file]]$]$
+  {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], *Lectures on categorical quantum mechanics* (2012) \[<a href="https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf">pdf</a>, [[HeunenVicary-QuantumLectures.pdf:file]]\]
 
 * [[Bob Coecke]], [[Stefano Gogioso]], *Quantum in Pictures*, [Quantinuum Publications](https://www.quantinuum.com/publications) (2023) $[$[ISBN 978-1739214715](https://www.amazon.co.uk/dp/1739214714), [Quantinuum blog](https://www.quantinuum.com/news/quantum-in-pictures)$]$
 
