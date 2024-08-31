@@ -124,7 +124,9 @@ Expositions of modern knot theory:
 
 * J. Hoste, M. Thistlethwaite, J. Weeks: _The First 1,701,936 Knots_, The Mathematical Intelligencer **20** (1998) 33–48 &lbrack;[doi:10.1007/BF03025227](https://doi.org/10.1007/BF03025227)&rbrack;
 
-* [[Aaron Lauda]], _Knot theory explained (1:24 min lightning idea)_,  USC Dornsife College of Letters, Arts and Sciences &lbrack;[video](https://www.youtube.com/embed/kxaWqKM5JyQ)&rbrack;
+* Sam Nelson: *The Combinatorial Revolution in Knot Theory*, Notices of the AMS **58** 11 (2011) &lbrack;[pdf](https://math.mit.edu/~ormsby/nelson-combinatorial-revolution.pdf), full issue: [pdf](https://www.ams.org/notices/201111/201111FullIssue.pdf)&rbrack;
+
+* [[Aaron Lauda]], _Knot theory explained_, (1:24 min lightning idea), USC Dornsife College of Letters, Arts and Sciences (2015) &lbrack;video: [YT](https://youtu.be/kxaWqKM5JyQ)&rbrack;
 
 * [[Abhijit Champanerkar]], _The geometry of knot complements_ &lbrack;[pdf](https://www.math.csi.cuny.edu/~abhijit/talks/knot-geometry-h.pdf), [[ChampanerkarKnotComplements.pdf:file]]&rbrack;
 
@@ -137,7 +139,11 @@ Monographs:
 
 * G. Burde, H. Zieschang, _Knots_, De Gruyter (1989).
 
+
 * [[Michael Atiyah]], _The Geometry and Physics of Knots_,  Cambridge University Press (1990) &lbrack;[doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868)&rbrack;
+
+* [[Vladimir Turaev]]: *Quantum invariants of knots and 3-manifolds*, de Gruyter Studies in Mathematics **18**, de Gruyter & Co. (1994) &lbrack;[doi:10.1515/9783110435221](https://doi.org/10.1515/9783110435221), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/turaev5.pdf)&rbrack;
+
 
 * Colin C. Adams, *The Knot Book -- An elementary Introduction to the Mathematical Theory of Knots*,  W. H. Freedman and Co. (1994) &lbrack;[ISBN:978-0-8218-3678-1](https://bookstore.ams.org/KNOT)&rbrack;
 
