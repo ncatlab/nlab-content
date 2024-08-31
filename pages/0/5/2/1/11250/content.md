@@ -4,6 +4,7 @@
 ### Context
 #### Philosophy
 +-- {: .hide}
+[[!include philosophy - contents]]
 =--
 =--
 =--
