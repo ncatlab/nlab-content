@@ -177,9 +177,7 @@ The codomain-untruncated versions of these variants of the axiom of choice are a
 
 Every [[detachable subset]] of the [[natural numbers]] has a choice operator. This is because, every detachable subset of the natural numbers is in [[bijection]] with the set $\{n \in \mathbb{N} \vert P(n)\}$ for a [[decidable proposition|decidable]] [[predicate]] $P(n)$ on the [[natural numbers]] $n \in \mathbb{N}$. Given a [[decidable proposition|decidable]] [[predicate]] $P(n)$ on the [[natural numbers]] $n \in \mathbb{N}$, if there exists a natural number $n \in \mathbb{N}$ such that $P(n)$ holds, then one can construct a [[minimum|minimal]] [[natural number]] $\min_P$ such that the $P(\min_P)$ holds. See [Rijke 2022](#Rijke22) for a proof of this in [[dependent type theory]], where $\{n \in \mathbb{N} \vert P(n)\}$ is represented by the [[dependent sum type]] $\sum_{n:\mathbb{N}} P(n)$ and the existential quantifier $\exists n:\mathbb{N}.P(n)$ is represented by the [[propositional truncation]] of the dependent sum type. 
 
-Constructively, the empty set is always not pointed because the function set $\emptyset^\emptyset$ is a [[singleton]].
-
-In [[set theory]], every [[pointed set]] $(X, \mathrm{pt})$ has a choice operator, since its [[support of a set|support]] $[X]$ is a [[singleton]] and thus in bijection with the canonical singleton $\mathcal{P}(\emptyset)$ in [[set theory]], and elements in $X$ are thus in bijection with functions from its support to $X$ itself:
+Every [[pointed set]] $(X, \mathrm{pt})$ has a choice operator, since its [[support of a set|support]] $[X]$ is a [[singleton]] and thus in bijection with the canonical singleton $\mathcal{P}(\emptyset)$ in [[set theory]], and elements in $X$ are thus in bijection with functions from its support to $X$ itself:
 
 $$i:X \cong X^{\mathcal{P}(\emptyset)} \cong X^{[X]}$$
 
@@ -189,7 +187,7 @@ $$\epsilon_X \coloneqq i(\mathrm{pt})$$
 
 This makes sense, since if the pointed set $X$ is already a [[subset]] of another set $Y$, then we know that there is already an element for which the [[predicate]] $P_X$ on $Y$ representing the subset $X$ holds - the given point of the pointed set; i.e. $P_X(\mathrm{pt})$ always holds. 
 
-However, that every set is either pointed or empty is equivalent to the excluded-middle presentation of the axiom of global choice, which says that one can construct an element of the [[disjoint union]] $X + X^\emptyset$. 
+Constructively, the empty set is always not pointed because the function set $\emptyset^\emptyset$ is a [[singleton]]. However, that every set is either pointed or empty is equivalent to the excluded-middle presentation of the axiom of global choice, which says that one can construct an element of the [[disjoint union]] $X + X^\emptyset$. 
 
 ## Foundational status
 
