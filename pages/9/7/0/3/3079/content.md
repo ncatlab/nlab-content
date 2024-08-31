@@ -13,6 +13,10 @@ On the [[Crane-Yetter model]] [[4d TQFT]]:
 
 * {#CraneYetterKauffman94} [[Louis Crane]], [[Louis Kauffman]], [[David Yetter]], _State-Sum invariants of 4-manifolds I_, Journal of Knot Theory and Its Ramifications Vol. 06, No. 02, pp. 177-234 (1997)  ([arXiv:hep-th/9409167](https://arxiv.org/abs/hep-th/9409167), [pdf](http://arxiv.org/PS_cache/hep-th/pdf/9409/9409167v1.pdf), [doi:10.1142/S0218216597000145](https://doi.org/10.1142/S0218216597000145))
 
+On [[knot theory]] via the [[category of tangles]]:
+
+* {#Yetter01} [[David N. Yetter]]: *Functorial Knot Theory -- Categories of Tangles, Coherence, Categorical Deformations, and Topological Invariants*, Series on Knots and Everything **26**, World Scientific (2001) &lbrack;[doi:10.1142/4542](https://doi.org/10.1142/4542)&rbrack;
+
 
 ## Related entries
 
@@ -24,4 +28,5 @@ On the [[Crane-Yetter model]] [[4d TQFT]]:
 
 category: people
 
+[[!redirects David N. Yetter]]
 [[!redirects D. Yetter]]
