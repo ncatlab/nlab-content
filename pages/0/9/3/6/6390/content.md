@@ -103,6 +103,9 @@ Discussion via [[coadjoint orbits]]:
 
 
 
+[[!include supergeometry of fermion fields -- references]]
+
+
 
 
 ### Worldline supersymmetry
