@@ -71,6 +71,13 @@ A proof can be found in Crowell and Fox (page 7).
 
 * [[Reidemeister move]]
 
+## References
+
+* Sam Nelson: *The Combinatorial Revolution in Knot Theory*, Notices of the AMS **58** 11 (2011) &lbrack;[pdf](https://math.mit.edu/~ormsby/nelson-combinatorial-revolution.pdf), full issue: [pdf](https://www.ams.org/notices/201111/201111FullIssue.pdf)&rbrack;
+
+* Matt Mastin: *Links and Planar Diagram Codes* &lbrack;[arXiv:1309.3288](https://arxiv.org/abs/1309.3288)&rbrack;
+
+
 category: knot theory
 
 [[!redirects knot diagram]]
