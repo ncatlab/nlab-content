@@ -418,6 +418,7 @@ is a reflective subcategory [Buckley, theorem 5.2.1](#Buckley). Therefore, becau
 
 * Springer eom: [reflective subcategory](http://eom.springer.de/r/r080550.htm)
 
+* C. Cassidy, M. Hébert, [[G. M. Kelly]], _Reflective subcategories, localizations and factorizationa systems_, J. Austral. Math. Soc. __38__:3 (1985) 287--329 [doi](https://doi.org/10.1017/S1446788700023624)  
 
 * cf. the notion of $Q^\circ$-category in the entry [[Q-category]]
 
