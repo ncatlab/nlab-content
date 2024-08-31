@@ -22,6 +22,13 @@ Relation to [[Jordan algebra]] is discussed in
 Relation to [[L-infinity algebras]] is discussed in 
 
 * {#BlumenhagenFuchsTraube17} [[Ralph Blumenhagen]], Michael Fuchs, Matthias Traube, _$\mathcal{W}$-Algebras are $L_\infty$-algebras_ ([arXiv:1705.00736](https://arxiv.org/abs/1705.00736))
+
+Relation to [[brane intersection]] in [[M-theory]]
+
+* [[Davide Gaiotto]], Miroslav Rapčák, Yehao Zhou. *Deformed Double Current Algebras, Matrix Extended $W_{\infty}$ Algebras, Coproducts, and Intertwiners from the M2-M5 Intersection* (2023). ([arXiv:2309.16929](https://arxiv.org/abs/2309.16929)).
+
+
+
  
 category: physics, algebra
 
