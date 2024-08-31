@@ -815,7 +815,7 @@ By the above definition, any structure in $sVect$ works just like the correspond
 
 ## References
 
-* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Linear Algebra in $\mathbb{Z}_2$-graded spaces*, Ch. 3 in: *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi;10.1007/978-94-017-1963-6_8](https://doi.org/10.1007/978-94-017-1963-6_8)&rbrack; 
+* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Linear Algebra in $\mathbb{Z}_2$-graded spaces*, Ch. 3 in: *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi:10.1007/978-94-017-1963-6_4](https://doi.org/10.1007/978-94-017-1963-6_4)&rbrack; 
 
 
 * {#Varadarajan04} [[Veeravalli Varadarajan]], section 3.1 of:  _[[Supersymmetry for mathematicians]]: An introduction_, Courant Lecture Notes **11**, American Mathematical Society Providence, R.I (2004) &lbrack;[doi:10.1090/cln/011](http://dx.doi.org/10.1090/cln/011)&rbrack;
