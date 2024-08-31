@@ -2,11 +2,13 @@
 ### Supergeometry of fermion fields
  {#SupergeometryOfFermionFieldsReferences}
 
-Discussion of [[classical field theory]] with [[fermions]] (possibly but not necessarily [[supersymmetry|super-symmetric]]) as taking place in [[supergeometry]]:
+Discussion of the [[classical mechanics]] of the [[spinning particle]] or of [[classical field theory]] with [[fermion]] [[field (physics)|fields]] (possibly but *not necessarily* [[supersymmetry|super-symmetric]]) as taking place in [[supergeometry]]:
 
-via ([[infinite-dimensional manifold|infinite-dimensional]]) [[supermanifolds]]:
+via (possibly [[infinite-dimensional manifold|infinite-dimensional]]) [[supermanifolds]]:
 
-* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Particle Spin Dynamics as the Grassmann Variant of Classical Mechanics*, Appendix I in: *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi;10.1007/978-94-017-1963-6_8](https://doi.org/10.1007/978-94-017-1963-6_8)&rbrack; 
+* [[Felix A. Berezin]], M. S. Marinov: *Particle Spin Dynamics as the Grassmann Variant of Classical Mechanics*, Annals of Physics **104** 2 (1977) 336-362 \[<a href="https://doi.org/10.1016/0003-4916(77)90335-9">doi:10.1016/0003-4916(77)90335-9</a>, [pdf](https://inis.iaea.org/collection/NCLCollectionStore/_Public/09/348/9348577.pdf), [[BerezinMarinov-ParticleSpin.pdf:file]]\]
+
+  reprinted in Appendix I of: [[Alexandre A. Kirillov]] (ed.): *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi:10.1007/978-94-017-1963-6](https://doi.org/10.1007/978-94-017-1963-6)&rbrack; 
 
 * [[Thomas Schmitt]]: *The Cauchy Problem for Classical Field Equations with Ghost and Fermion Fields* \[<a href="https://arxiv.org/abs/hep-th/9607133">arXiv:hep-th/9607133</a>\]
 
