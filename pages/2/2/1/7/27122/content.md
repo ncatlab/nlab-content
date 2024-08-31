@@ -36,7 +36,7 @@ This means that for $\mathcal{R}$ any [[ribbon category]] and $V \in \mathcal{R}
 
 which sends the generating object $1 \in FrTan$ to $V \in \mathbb{R}$. 
 
-Since the [[endomorphisms]] of the object $0 \in FrOrTang$ are the oriented [[framed links]] this means that the functor $I^{\mathca{R}}_V$ restricts on endomorphisms to a collection of [[link invariants]] (with values in the [[endomorphism ring]] of $V$ whenever $\mathcal{R}$ is [[Ab-enriched category|Ab-enriched]]).
+Since the [[endomorphisms]] of the object $0 \in FrOrTang$ are the oriented [[framed links]] this means that the functor $I^{\mathcal{R}}_V$ restricts on endomorphisms to a collection of [[link invariants]] (with values in the [[endomorphism ring]] of $V$ whenever $\mathcal{R}$ is [[Ab-enriched category|Ab-enriched]]).
 
 Most of the standard [[link invariants]] arise this way (e.g. the [[HOMFLY polynomial]]), with the ribbon category $\mathcal{R}$ being the [[category of representations]] ([[finite dimensional vector space|finite dimensional]]) of a [[quantum group]] (cf. [Yetter 2001 p 118](#Yetter01)).
 
