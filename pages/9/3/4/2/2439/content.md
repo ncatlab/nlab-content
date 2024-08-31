@@ -672,7 +672,7 @@ The concept of [[Grassmann algebra]] and the [[signs in supergeometry|super-sign
 
 Early modern account:
 
-* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi;10.1007/978-94-017-1963-6_8](https://doi.org/10.1007/978-94-017-1963-6_8)&rbrack; 
+* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi:10.1007/978-94-017-1963-6](https://link.springer.com/book/10.1007/978-94-017-1963-6)&rbrack; 
 
 
 Review of basic superalgebra:
