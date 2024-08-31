@@ -70,6 +70,12 @@ The HOMFLY polynomial generalises both the [[Jones polynomial]] and the [[Alexan
   1. $\alpha = 1$, $z = q^{1/2} - q^{-1/2}$
   1. $l = i$, $m = i (q^{-1/2} - q^{1/2})$
 
+
+## Related entries
+
+* [[Shum's theorem]]
+
+
 ## References
 
 See the [wikipedia page](http://en.wikipedia.org/wiki/HOMFLY_polynomial) for the origin of the name.
