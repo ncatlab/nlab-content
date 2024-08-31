@@ -19,14 +19,19 @@
 
 ## Idea
 
-A **ribbon category** &lbrack;[Reshetikhin & Turaev (1990)](#ReshetikhinTuraev90)&rbrack; (also called a **tortile category** &lbrack;[Joyal & Street (1993)](#JoyalStreet93), [Selinger 2011 §4.7](#Selinger11)&rbrack; or **balanced rigid braided tensor category**) is a [[monoidal category]] $(\mathcal{C}, \otimes, \mathbb{1}, \alpha, l, r)$ equipped with [[braiding]] $\beta=\{\beta_{X,Y}\}$, twist $\theta=\{\theta_X\}$ and duality $(\vee, b, d)$ that satisfy some compatibility conditions. 
+A **ribbon category** &lbrack;[Reshetikhin & Turaev (1990)](#ReshetikhinTuraev90)&rbrack; (also called a **tortile category** &lbrack;[Joyal & Street (1993)](#JoyalStreet93), [Shum 1994](#Shum94), [Selinger 2011 §4.7](#Selinger11)&rbrack; or **balanced rigid braided tensor category**) is a [[monoidal category]] $(\mathcal{C}, \otimes, \mathbb{1}, \alpha, l, r)$ equipped with [[braiding]] $\beta=\{\beta_{X,Y}\}$, twist $\theta=\{\theta_X\}$ and duality $(\vee, b, d)$ that satisfy some compatibility conditions. 
 
 
 ## Definition
 
-A [[braided monoidal category]] is a [[monoidal category]] $\mathcal{C}$ equipped with a [[braiding]] $\beta$, which is a [[natural isomorphism]] $\beta_{X,Y}\colon X \otimes Y \to Y \otimes X$ obeying the [[hexagon identities]].
+Recall that:
 
-A braided monoidal category is *[[rigid monoidal category|rigid]]* if, for every [[object]] $X$, there exist objects $X^{\vee}$ and ${^{\vee}}X$ (called its [[dualisable object|right and left dual]]) and associated morphisms
+\begin{definition}\label{BraidedMonoidalCategory}
+A **[[braided monoidal category]]** is a [[monoidal category]] $\mathcal{C}$ equipped with a [[braiding]] $\beta$, which is a [[natural isomorphism]] $\beta_{X,Y}\colon X \otimes Y \to Y \otimes X$ obeying the [[hexagon identities]].
+\end{definition}
+
+\begin{definition}\label{RigidMonoidalCategory}
+A **[[rigid monoidal category]]** is a [[braided monoidal category]] (Def. \ref{BraidedMonoidalCategory}) where for every [[object]] $X$, there exist objects $X^{\vee}$ and ${^{\vee}}X$ (called its [[dualisable object|right and left dual]]) and associated morphisms
 $$b_X:\mathbb{1}\to X^{\vee}\otimes X, d_X: X\otimes X^{\vee}\to \mathbb{1}$$
 $$b_X:\mathbb{1}\to X\otimes {^{\vee}}X, d_X: {^{\vee}}X\otimes X\to \mathbb{1}$$
 obeying the [[zig-zag identities]]:
@@ -34,14 +39,22 @@ obeying the [[zig-zag identities]]:
 $$(d_X\otimes \text{id}_X)\circ (\text{id}_X\otimes b_{X})=\text{id}_{X},$$
 
 $$(\text{id}_{X^{\vee}}\otimes d_{X})\circ ( b_{X}\otimes \text{id}_{X^{\vee}})=\text{id}_{X^{\vee}}.$$
+\end{definition}
 
+Now:
 
-A **twist** on rigid braided monoidal category is a [[natural isomorphism]] from the [[identity functor]] to itself, with components $\theta_X \colon X \to X$ for which
+\begin{definition}
+A **twist** on rigid braided monoidal category (Def. \ref{RigidMonoidalCategory}) is a [[natural isomorphism]] from the [[identity functor]] to itself, with components $\theta_X \colon X \to X$ for which
 $$\theta_{X\otimes Y}=\beta_{Y,X}\beta_{X,Y}\theta_{X}\otimes \theta_{Y},$$
 $$\theta_{\mathbb{1}}=\mathrm{id},$$
 $$\theta_{X^{\vee}}=\theta_{X}^{\vee}.$$
 
-A ribbon category is a rigid braided monoidal category equipped with such a twist.
+A **ribbon category** (*tortile category*) is a rigid braided monoidal category equipped with such a twist.
+\end{definition}
+(e.g. [Shum 1994 Def. 1.3](#Shum94)).
+
+A [[functor]] between ribbon categories is a **ribbon functor** (*tortile functor*) if it preserves all this structure up to [[isomorphism]].
+
 
 ## Properties
 
@@ -60,7 +73,7 @@ A ribbon category is a rigid braided monoidal category equipped with such a twis
 * [[modular tensor category]]
 
 
-## Reference
+## References
 
 * {#ReshetikhinTuraev90} [[Nicolai Reshetikhin]], [[Vladimir Turaev]], *Ribbon graphs and their invariants derived from quantum groups*, Commun. Math. Phys. **127** 1 (1990) &lbrack;[doi:10.1007/BF02096491](https://doi.org/10.1007/BF02096491)&rbrack;
 
@@ -86,3 +99,10 @@ Lecture notes:
 [[!redirects tortile categories]]
 [[!redirects tortile monoidal category]]
 [[!redirects tortile monoidal categories]]
+
+[[!redirects ribbon functor]]
+[[!redirects ribbon functors]]
+
+[[!redirects tortile functor]]
+[[!redirects tortile functors]]
+
