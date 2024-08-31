@@ -72,6 +72,9 @@ Nonexample: the subfunctor of identity which to any module $M$ assigns its [[soc
 See also
 
 * Wikipedia, _[radical of a ring](https://en.wikipedia.org/wiki/Radical_of_a_ring)_, [radical of a module](https://en.wikipedia.org/wiki/Radical_of_a_module)
+* M Grandis, G Janelidze, László Márki, _Non-pointed exactness, radicals, closure operators_, J. Austr. Math. Soc. __94__:3 (2013) 348--361 [doi](https://doi.org/10.1017/S1446788713000086) [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/431EFE4DD7D116A6ED8EACF22AAD020E/S1446788713000086a.pdf/non-pointed-exactness-radicals-closure-operators.pdf)
+
+* D. N. Dikranjan, [[Walter Tholen]], _Categorical structure of closure operators with applications to topology_, Kluwer 1995 (Series Math. its Appl.)
 
 [[!redirects radicals]]
 [[!redirects radical functor]]
