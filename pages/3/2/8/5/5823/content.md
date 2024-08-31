@@ -3,6 +3,7 @@ Vladimir Turaev is a mathematician of Russian origin, who has made fundamental c
 
 He is currently based at Indiana University ([Home page](https://math.indiana.edu/about/faculty/touraev-vladimir.html) which is not very informative!)
 
+
 ## Selected writings
 
 * _On certain enumeration problems in two-dimensional topology_ , 
@@ -13,9 +14,9 @@ Introducing the [[Reshetikhin-Turaev construction]]:
 * {#ReshetikhinTuraev91} [[Nikolai Reshetikhin]], [[Vladimir Turaev]], _Invariants of 3-manifolds via link polynomials and quantum groups_. Invent. Math. 103 (1991), no. 3, 547&#8211;597. ([doi:10.1007/BF01239527](https://doi.org/10.1007/BF01239527), [pdf](http://mathlab.snu.ac.kr/~top/quantum/article/Reshetikhin01.pdf))
 
 
-On [[knot theory]] and [[3-manifolds]]:
+On [[knot theory]] ([[knot invariants]]) and [[3-manifolds]]:
 
-* [[Vladimir Turaev]], *Quantum invariants of knots and 3-manifolds*, de Gruyter Studies in Mathematics **18** Walter de Gruyter & Co. (1994) &lbrack;[doi:10.1515/9783110435221](https://doi.org/10.1515/9783110435221)&rbrack;
+* [[Vladimir Turaev]]: *Quantum invariants of knots and 3-manifolds*, de Gruyter Studies in Mathematics **18**, de Gruyter & Co. (1994) &lbrack;[doi:10.1515/9783110435221](https://doi.org/10.1515/9783110435221), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/turaev5.pdf)&rbrack;
 
 
 On  [[HQFT|homotopy quantum field theory]]:
