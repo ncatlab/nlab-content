@@ -488,7 +488,7 @@ The concept of reflective localization was originally highlighted in
 
 A formalization in [[homotopy type theory]] of reflection onto local objects is discussed in 
 
-* {#RijkeShulmanSpitters17} [[Egbert Rijke]], [[Michael Shulman]], [[Bas Spitters]], _Modalities in homotopy type theory_ ([arXiv:1706.07526](https://arxiv.org/abs/1706.07526))
+* {#RijkeShulmanSpitters17} [[Egbert Rijke]], [[Michael Shulman]], [[Bas Spitters]], _Modalities in homotopy type theory_  Logical Methods in Computer Science __16__:1, 2020 ([arXiv:1706.07526](https://arxiv.org/abs/1706.07526) <a href="https://doi.org/10.23638/LMCS-16(1:2)2020">doi</a>)
 
 
 [[!redirects reflective localizations]]
