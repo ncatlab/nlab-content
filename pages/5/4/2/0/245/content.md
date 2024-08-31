@@ -208,7 +208,7 @@ Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 * _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
 
 
-The original papers on braided monoidal categories are by [[Andre Joyal|Joyal]] and [[Ross Street|Street]]. The published version does not completely supersede the _Macquarie Math Reports_ version, which has some nice extra results:
+The original papers on braided monoidal categories (the published version does not completely supersede the _Macquarie Math Reports_ version, which has some nice extra results):
 
 * {#JoyalStreet86} [[André Joyal]] and [[Ross Street]], *Braided monoidal categories*, _Macquarie Math Reports_ **860081** (1986) ([pdf](http://maths.mq.edu.au/~street/JS1.pdf))
 
@@ -218,18 +218,15 @@ Around the same time the same definition was also proposed independently by [[La
 
 * {#Breen88} [[Lawrence Breen]], _Une lettre &#224; P. Deligne au sujet des $2$-cat&#233;gories tress&#233;es_ (1988) ([pdf](http://www.math.univ-paris13.fr/~breen/deligne.pdf))
 
-Textbook accounts include
-
-* {#EGNO15} [[nLab:Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[nLab:Victor Ostrik]], chapter 2 of _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf))
 
 
-For a review of definitions of braided monoidal categories, braided monoidal functors and braided monoidal natural transformations, see:
+Exposition of basic definitions:
 
-* [[John Baez]], [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
+* [[John Baez]], *[Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf)* (2004)
 
-For an elementary introduction to braided monoidal categories using [[string diagram]]s, see:
+An elementary introduction using [[string diagrams]]:
 
-* [[John Baez]] and [[Mike Stay]], [Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf), to appear in _New Structures in Physics_, ed. Bob Coecke. 
+* {#BaezStay09} [[John Baez]], [[Mike Stay]]: _Physics, Topology, Logic and Computation: A Rosetta Stone_, in *New Structures for Physics*, Lecture Notes in Physics **813** Springer (2011) 95-174 &lbrack;[arXiv:0903.0340](http://arxiv.org/abs/0903.0340), [doi:10.1007/978-3-642-12821-9_2](https://doi.org/10.1007/978-3-642-12821-9_2)&rbrack;
 
 
 A generalisation of braidings to *lax braidings*, where $B$ is not required to be invertible:
@@ -243,7 +240,7 @@ that depends on both a group action and a grading:
 
 On a reformulation of braided monoidal categories in a manner closer to symmetric [[closed categories]] and braided [[skew-monoidal categories]]:
 
-Alexei Davydov and Ingo Runkel, _An alternative description of braided monoidal categories_, Applied Categorical Structures 23 (2015): 279-309.
+* [[Alexei Davydov]], [[Ingo Runkel]]: _An alternative description of braided monoidal categories_, Applied Categorical Structures **23** (2015) 279-309 &lbrack;[doi:10.1007/s10485-013-9338-3]( https://doi.org/10.1007/s10485-013-9338-3), [pdf](https://www.math.uni-hamburg.de/home/runkel/PDF/bcat.pdf)&rbrack;
 
 [[!redirects braided monoidal category]]
 [[!redirects braided monoidal categories]]
