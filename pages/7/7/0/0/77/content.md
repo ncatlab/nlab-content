@@ -241,10 +241,8 @@ Monographs:
 
 * [[Gerhard P. Hochschild]], *Basic Theory of Algebraic Groups and Lie Algebras*, Graduate Texts in Mathematics **75**, Springer (1981) &lbrack;[doi:10.1007/978-1-4613-8114-3_16](https://doi.org/10.1007/978-1-4613-8114-3_16)&rbrack; 
 
-* [[Tammo tom Dieck]], [[Theodor Bröcker]], Ch. I of: *Representations of compact Lie groups*, Springer 1985 &lbrack;[doi:10.1007/978-3-662-12918-0](https://link.springer.com/book/10.1007/978-3-662-12918-0)&rbrack;
-
+* [[Tammo tom Dieck]], [[Theodor Bröcker]], Ch. I of: *Representations of compact Lie groups*, Springer (1985) &lbrack;[doi:10.1007/978-3-662-12918-0](https://link.springer.com/book/10.1007/978-3-662-12918-0)&rbrack;
   > (in the context of [[representation theory]])
-
 
 * {#Onishchik93} A. L. Onishchik (ed.) _Lie Groups and Lie Algebras_
 
@@ -252,18 +250,18 @@ Monographs:
 
   * *II.* V. V. Gorbatsevich, A. L. Onishchik, _Lie Transformation Groups_ 
 
-  Encyclopaedia of Mathematical Sciences, Volume 20, Springer 1993
+  Encyclopaedia of Mathematical Sciences **20**, Springer (1993)
 
 * [[José de Azcárraga]], [[José M. Izquierdo]], *[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]*, Cambridge Monographs of Mathematical Physics, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511599897](https://doi.org/10.1017/CBO9780511599897)&rbrack;
 
 * [[Howard Georgi]], *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
-
   > with an eye towards application to (the [[standard model of particle physics|standard model]] of) [[particle physics]]
 
 * [[Hans Duistermaat]], [[Johan A. C. Kolk]], Chapter 1 of: *Lie groups*, Springer (2000) &lbrack;[doi:10.1007/978-3-642-56936-4](https://doi.org/10.1007/978-3-642-56936-4)&rbrack;
 
+* [[Shlomo Sternberg]]: *Lie Algebras* (2004) &lbrack;[pdf](https://people.math.harvard.edu/~shlomo/docs/lie_algebras.pdf), [[Sternberg-LieAlgebras.pdf:file]]&rbrack;
 
-* [[Eckhard Meinrenken]], _Lie groups and Lie algebas_, Lecture notes 2010 ([pdf](http://www.math.toronto.edu/mein/teaching/lie.pdf))
+* [[Eckhard Meinrenken]], _Lie groups and Lie algebas_, Lecture notes (2010) &lbrack;[pdf](http://www.math.toronto.edu/mein/teaching/lie.pdf)&rbrack;
 
 * {#Hall15} [[Brian C. Hall]], *Lie Groups, Lie Algebras, and Representations*, Springer 2015 ([doi:10.1007/978-3-319-13467-3](https://doi.org/10.1007/978-3-319-13467-3))
 
