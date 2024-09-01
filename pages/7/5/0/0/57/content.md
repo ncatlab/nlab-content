@@ -790,13 +790,13 @@ The idea of identifying the [[Sullivan construction]] applied to [[Chevalley-Eil
 
 * {#Hinich97} [[Vladimir Hinich]], _Descent of Deligne groupoids_, Internat. Math. Res. Notices, 5:223&#8211;239, 1997 ([doi](http://dx.doi.org/10.1155/S1073792897000160), [preprint ddg.pdf](http://math.haifa.ac.il/hinich/WEB/mypapers/ddg.pdf))
 
-and for general [[∞-Lie algebra]]s in
+and for [[nilpotent ∞-Lie algebras]] in:
 
-* {#Getzler04} [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$ algebras_, Annals of Mathematics, 170 (2009), 271&#8211;301 ([math.AT/0404003](http://arxiv.org/abs/math/0404003))
+* {#Getzler04} [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$ algebras_, Annals of Mathematics, 170 (2009), 271-301 &lbrack;[math.AT/0404003](http://arxiv.org/abs/math/0404003)&rbrack;
 
 (whose main point is the discussion of a gauge condition applicable for nilpotent $L_\infty$-algebras that cuts down the result of the Sullivan construction to a much smaller but equivalent model) .
 
-This was refined from integration to bare $\infty$-groupoids to an integration to [[internal ∞-groupoid]]s in [[Banach manifold]]s in
+This was refined from integration to bare $\infty$-groupoids to an integration to [[internal ∞-groupoid]]s in [[Banach manifolds]] in
 
 * {#Henriques} [[André Henriques]], _Integrating $L_\infty$ algebras_, Compos. Math. __144__  (2008), no. 4, 1017--1045 ([doi](http://dx.doi.org/10.1112/S0010437X07003405),[math.AT/0603563](http://arxiv.org/abs/math.AT/0603563))
 
