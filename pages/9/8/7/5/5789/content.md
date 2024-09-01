@@ -95,7 +95,7 @@ One way to make this rigorously precise would be to realize the [[Dirac-Ramond o
 
 Lecture notes:
 
-* [[David Tong]]: *Supersymemtric Quantum Mechanics*, lecture notes &lbrack;[webpage](https://www.damtp.cam.ac.uk/user/tong/susyqm.html), [pdf](https://www.damtp.cam.ac.uk/user/tong/susy/susyqm.pdf)&rbrack;
+* [[David Tong]]: *Supersymmetric Quantum Mechanics*, lecture notes &lbrack;[webpage](https://www.damtp.cam.ac.uk/user/tong/susyqm.html), [pdf](https://www.damtp.cam.ac.uk/user/tong/susy/susyqm.pdf)&rbrack;
 
 A fairly comprehensive survey and discussion of supersymmetric quantum mechanics as such, with emphasis on its relation to [[spectral geometry]] ("[[noncommutative geometry]]") is in
 
