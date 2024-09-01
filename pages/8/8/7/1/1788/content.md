@@ -1,4 +1,27 @@
 
+$$
+  I
+    \,\,\,\colon\,\,\,
+  B
+$$
+
+$A \;\;\; B$
+
+[[RibbonAxiomsToDiagramMoves.jpg:file]]
+
+\begin{imagefromfile}
+    "file_name": "RibbonAxiomsToDiagramMoves.jpg",
+    "float": "right",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 \begin{tikzcd}
     \mathbb{R}^{1,d\,\vert\,\mathbf{N}}
     \times
