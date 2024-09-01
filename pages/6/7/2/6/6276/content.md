@@ -60,12 +60,29 @@ where the sum over $s$ is the sum over all
 $2r$-tuples $s = (s_1,\ldots,s_{2r})$
 of strictly positive integers whose sum $s_1 +\ldots+s_{2r} = N$. 
 
-Hausdorff series satisfies the symmetry $H(-Y,-X) = -H(X,Y)$.
+The Hausdorff series satisfies the symmetry $H(-Y,-X) = -H(X,Y)$.
 
-First few terms of Hausdorff series are
+First few terms of Hausdorff series are:
 
 $$
-H(X,Y) = X + Y + \frac{1}{2}[X,Y] + \frac{1}{12}([X,[X,Y]]+[Y,[Y,X]]) + \frac{1}{24}[Y,[X,[Y,X]]] + \ldots
+  H(X,Y) 
+  \;=\; 
+  X + Y 
+  + 
+  \tfrac{1}{2}[X,Y] 
+  + \tfrac{1}{12}
+  \Big(
+   \big[X,[X,Y]\big]
+   +
+   \big[Y,[Y,X]\big]
+  \Big) 
+    + 
+  \tfrac{1}{24}
+  \Big[
+    Y, \big [X,[Y,X] \big]
+  \Big] 
+  + \ldots
+  \,.
 $$
 
 
@@ -102,21 +119,27 @@ Early discussion:
 
 Review:
 
-* [[Terence Tao]], 254A, Notes 1, _Lie groups, Lie algebras, and the Baker-Campbell-Hausdorff formula_, blog entry
+* [[Shlomo Sternberg]]: *The Campbell Baker Hausdorff Formula*, Section 1 of: *Lie Algebras* (2004) &lbrack;[pdf](https://people.math.harvard.edu/~shlomo/docs/lie_algebras.pdf), [[Sternberg-LieAlgebras.pdf:file]]&rbrack;
 
-* Terry Tao's blog: [the-c11-baker-campbell-hausdorff-formula](https://terrytao.wordpress.com/2011/06/21/the-c11-baker-campbell-hausdorff-formula)
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Baker%E2%80%93Campbell%E2%80%93Hausdorff_formula)
+* [[Terence Tao]], *[254A, Notes 1: Lie groups, Lie algebras, and the Baker-Campbell-Hausdorff formula](https://terrytao.wordpress.com/2011/09/01/254a-notes-1-lie-groups-lie-algebras-and-the-baker-campbell-hausdorff-formula/)*, blog entry (2011)
+
+* [[Terence Tao]]: *[The $C^{1,1}$ Baker-Campbell-Hausdorff formula](https://terrytao.wordpress.com/2011/06/21/the-c11-baker-campbell-hausdorff-formula)*, blog entry (2011)
+
+* Wikipedia: *[Baker–Campbell–Hausdorff formula](https://en.wikipedia.org/wiki/Baker%E2%80%93Campbell%E2%80%93Hausdorff_formula)*
+
+* [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]]: §3.3 in: *Berkeley Lectures on Lie Groups and Quantum Groups* (2020-2024) &lbrack;[pdf](http://categorified.net/LieQuantumGroups.pdf)&rbrack;
+
 
 See also:
 
 * V. Kurlin, _The Baker-Campbell-Hausdorff formula in the free metabelian Lie algebra
-_ &lbrack;[http://arxiv.org/abs/math/0606330](http://arxiv.org/abs/math/0606330)&rbrack;
+_ &lbrack;[arXiv:math/0606330](http://arxiv.org/abs/math/0606330)&rbrack;
 
-
-* Federico Zadra et al. _The flow method for the Baker-Campbell-Hausdorff formula: exact results_, J. Phys. A: Math. Theor. __56__ (2023) 385206 [doi](https://doi.org/10.1088/1751-8121/acf102)
+* Federico Zadra et al. _The flow method for the Baker-Campbell-Hausdorff formula: exact results_, J. Phys. A: Math. Theor. __56__ (2023) 385206 &lbrack;[doi:10.1088/1751-8121/acf102](https://doi.org/10.1088/1751-8121/acf102)&rbrack;
 
 category: algebra
+
 [[!redirects Baker-Campbell-Hausdorff series]]
 [[!redirects BCH formula]]
 [[!redirects Baker-Campbell-Hausdorff formula]]
