@@ -13,7 +13,6 @@
 =--
 =--
 
-
 \tableofcontents
 
 ## Statement
@@ -25,20 +24,38 @@
 \end{proposition}
 ([Shum 1994](#Shum94), [Yetter 2001 Thm. 9.1](#Yetter01))
 
+The following table indicates how the main axioms for [[ribbon categories]] translate to the corresponding moves on (framed, oriented) tangle/[[link diagrams]] (cf. e.g. [Selinger 2011](#ribbon%20category#Selinger11), [Baez & Stay 2011](#BaezStay11)), namely to [[isotopy]] moves and [[Reidemeister moves]]:
+
+\begin{imagefromfile}
+    "file_name": "RibbonAxiomsToDiagramMoves.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+(NB: For the sliding moves, the corresponding mirrored moves are not shown, to save space.)
+
+## Relation to knot invariants
+
 This means that for $\mathcal{R}$ any [[ribbon category]] and $V \in \mathcal{R}$ any [[object]], there is a unique [[ribbon functor]]
 
 \[
   \label{TheInducedFunctor}
   I^{\mathcal{R}}_V 
-    \;\;\colon\;\; 
+    \;\colon\; 
   FrTang \longrightarrow \mathcal{R}
 \]
 
-which sends the generating object $1 \in FrTan$ to $V \in \mathbb{R}$. 
+which sends the generating object $1 \in FrTan$ to $V \in \mathcal{R}$. 
 
-Since the [[endomorphisms]] of the object $0 \in FrOrTang$ are the oriented [[framed links]] this means that the functor $I^{\mathcal{R}}_V$ restricts on endomorphisms to a collection of [[link invariants]] (with values in the [[endomorphism ring]] of $V$ whenever $\mathcal{R}$ is [[Ab-enriched category|Ab-enriched]]).
+Since the [[endomorphisms]] of the object $0 \in FrOrTang$ are the oriented [[framed links]] this means that the functor $I^{\mathcal{R}}_V$ (eq:TheInducedFunctor) restricts on endomorphisms to a collection of [[link invariants]] (with values in the [[endomorphism ring]] of $V$ whenever $\mathcal{R}$ is [[Ab-enriched category|Ab-enriched]]).
 
-Most of the standard [[link invariants]] arise this way (e.g. the [[HOMFLY polynomial]]), with the ribbon category $\mathcal{R}$ being the [[category of representations]] ([[finite dimensional vector space|finite dimensional]]) of a [[quantum group]] (cf. [Yetter 2001 p 118](#Yetter01)).
+The standard [[link invariants]] arise this way (e.g. the [[HOMFLY polynomial]]), with the ribbon category $\mathcal{R}$ being the [[category of representations]] ([[finite dimensional vector space|finite dimensional]]) of a [[quantum group]] (cf. [Yetter 2001 p 118](#Yetter01)).
 
 ## References
 
