@@ -35,10 +35,19 @@ On [[topos theory]]:
 
 * [[Ross Street]], _A survey of topos theory_, lecture notes (1978) &lbrack;[pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf), [[Street-SurveyToposTheory.pdf:file]]&rbrack;
 
+Introducing the notion of [[braided monoidal categories]]:
+
+* {#JoyalStreet85} [[André Joyal]], [[Ross Street]]: *Braided monoidal categories*, _Macquarie Math Reports_ **85-0067** (1985) &lbrack;[pdf](http://web.science.mq.edu.au/~street/BMC850067.pdf), [[JoyalStreet-BraidedMonoidal85.pdf:file]]&rbrack;
+
+* {#JoyalStreet86} [[André Joyal]], [[Ross Street]]: *Braided monoidal categories*, _Macquarie Math Reports_ **860081** (1986) &lbrack;[pdf](http://maths.mq.edu.au/~street/JS1.pdf), [[JoyalStreet-BraidedMonoidal.pdf:file]]&rbrack;
+
+* [[André Joyal]], [[Ross Street]], _Braided tensor categories_, Adv. Math. **102** (1993) 20-78 &lbrack;[doi:10.1006/aima.1993.1055](https://doi.org/10.1006/aima.1993.1055)&rbrack;
+
+
+
 On [[flexible limits]]:
 
 * {#BirdKellyPowerStreet89} [[Greg J. Bird]], [[Max Kelly]], [[John Power]], [[Ross Street]], _Flexible limits for 2-categories_, Journal of Pure and Applied Algebra **61** 1 (1989) 1-27 \[<a href="https://doi.org/10.1016/0022-4049(89)90065-0">doi:10.1016/0022-4049(89)90065-0</a>\]
-
 
 
 Introducing the notion of [[traced monoidal categories]]:
@@ -87,8 +96,7 @@ Further:
 
 * A. Joyal, R. Street, _An introduction to Tannaka duality and quantum groups_,  Category theory (Como, 1990),  413--492, Lecture Notes in Math. __1488__, Springer 1991 ([pdf](http://www.math.mq.edu.au/~street/CT90Como.pdf)).
 
-* A. Joyal, R. Street, _The geometry of tensor calculus I_,  Adv. Math.  __88__(1991),  no. 1, 55--112, [doi](http://dx.doi.org/10.1016/0001-8708%2891%2990003-P); _Tortile Yang-Baxter operators in tensor categories_,  J. Pure Appl. Algebra  __71__  (1991),  no. 1, 43--51, [doi](http://dx.doi.org/10.1016/0022-4049%2891%2990039-5); _Braided tensor categories_, Adv. Math. __102__ (1993),  no. 1, 20--78, [doi](http://dx.doi.org/10.1006/aima.1993.1055).
-
+* A. Joyal, R. Street, _The geometry of tensor calculus I_,  Adv. Math.  __88__(1991),  no. 1, 55--112, [doi](http://dx.doi.org/10.1016/0001-8708%2891%2990003-P); _Tortile Yang-Baxter operators in tensor categories_,  J. Pure Appl. Algebra  __71__  (1991),  no. 1, 43--51, [doi](http://dx.doi.org/10.1016/0022-4049%2891%2990039-5); 
 
 * R.H. Street, _Fibrations in bicategories_, Cahiers de topologie et géométrie différentielle XXI (1980) 111–160
 
