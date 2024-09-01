@@ -228,7 +228,7 @@ Exposition of basic definitions:
 
 An elementary introduction using [[string diagrams]]:
 
-* {#BaezStay09} [[John Baez]], [[Mike Stay]]: _Physics, Topology, Logic and Computation: A Rosetta Stone_, in *New Structures for Physics*, Lecture Notes in Physics **813** Springer (2011) 95-174 &lbrack;[arXiv:0903.0340](http://arxiv.org/abs/0903.0340), [doi:10.1007/978-3-642-12821-9_2](https://doi.org/10.1007/978-3-642-12821-9_2)&rbrack;
+* {#BaezStay11} [[John Baez]], [[Mike Stay]]: _Physics, Topology, Logic and Computation: A Rosetta Stone_, in *New Structures for Physics*, Lecture Notes in Physics **813** Springer (2011) 95-174 &lbrack;[arXiv:0903.0340](http://arxiv.org/abs/0903.0340), [doi:10.1007/978-3-642-12821-9_2](https://doi.org/10.1007/978-3-642-12821-9_2)&rbrack;
 
 
 A generalisation of braidings to *lax braidings*, where $B$ is not required to be invertible:
