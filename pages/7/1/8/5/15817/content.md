@@ -74,6 +74,11 @@ Discussion of [[anomaly cancellation]] on the [[standard model of particle physi
 
   (relating to [[Fermat's last theorem]])
 
+On [[supersymmetric quantum mechanics]]:
+
+* [[David Tong]]: *Supersymmetric Quantum Mechanics*, lecture notes &lbrack;[webpage](https://www.damtp.cam.ac.uk/user/tong/susyqm.html), [pdf](https://www.damtp.cam.ac.uk/user/tong/susy/susyqm.pdf)&rbrack;
+
+
 ## Selected talks
 
 On [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]:
