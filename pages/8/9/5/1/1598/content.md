@@ -10,7 +10,7 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
-#### $\infty$-Lie theory
+#### Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
@@ -214,6 +214,9 @@ The [[exceptional Lie groups]] incude
 
 ### General
 
+* {#Serre64} [[Jean-Pierre Serre]]: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500** (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
+
+
 * {#Bredon72} [[Glen Bredon]], Section 0.5 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
   > (in the broader context of [[topological groups]])
@@ -246,10 +249,10 @@ The [[exceptional Lie groups]] incude
 
 * [[Sigurdur Helgason]], *Differential geometry, Lie groups and symmetric spaces*, Graduate Studies in Mathematics **34** (2001) &lbrack;[ams:gsm-34](https://bookstore.ams.org/gsm-34)&rbrack;
 
+* [[Mark Haiman]] (notes by [[Theo Johnson-Freyd]]), _Lie groups_, lecture notes, Berkeley (2008) &lbrack;[[Haiman-LieGroups09.pdf:file]]&rbrack;
 
-* Mark Haiman, lecture notes by [[Theo Johnson-Freyd]], _Lie groups_, Berkeley 2009 ([pdf](http://math.berkeley.edu/~theojf/LieGroups.pdf))
 
-* [[Eckhard Meinrenken]], _Lie groups and Lie algebas_, Lecture notes 2010 ([pdf](http://www.math.toronto.edu/mein/teaching/LectureNotes/lie.pdf))
+* [[Eckhard Meinrenken]], _Lie groups and Lie algebras_, Lecture notes 2010 ([pdf](http://www.math.toronto.edu/mein/teaching/LectureNotes/lie.pdf))
 
 * {#HilgertNeeb12} [[Joachim Hilgert]], [[Karl-Hermann Neeb]], _Structure and Geometry of Lie Groups_, Springer Monographs in Mathematics, Springer-Verlag New York, 2012 ([doi:10.1007/978-0-387-84794-8](https://link.springer.com/book/10.1007/978-0-387-84794-8))
 
