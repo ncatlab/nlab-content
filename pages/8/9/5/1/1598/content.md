@@ -273,13 +273,13 @@ In the generality of [[Lie semigroups]]:
 
 In the generality of [[quantum groups]]:
 
-* [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]], *Berkeley Lectures on Lie Groups and Quantum Groups*, 2020 ([pdf](http://categorified.net/LieQuantumGroups.pdf))
+* [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]], *Berkeley Lectures on Lie Groups and Quantum Groups* (2020-2024) &lbrack;[pdf](http://categorified.net/LieQuantumGroups.pdf)&rbrack;
 
 
 ### Homotopy groups
 
-* Alexander Abanov, Homotopy groups of Lie groups 2009 ([pdf](http://felix.physics.sunysb.edu/~abanov/Teaching/Spring2009/Notes/abanov-cpA1-upload.pdf))
-  {#Abanov09}
+* {#Abanov09} Alexander Abanov, *Homotopy groups of Lie groups* (2009) &lbrack;[pdf](http://felix.physics.sunysb.edu/~abanov/Teaching/Spring2009/Notes/abanov-cpA1-upload.pdf)&rbrack;
+  
 
 
 ### On infinite-dimensional Lie groups
