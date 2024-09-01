@@ -35,8 +35,15 @@ $Lie Alg$ is the [[full subcategory]] of the [[opposite category]] of the catego
 
 * [[semisimple Lie algebra]]
 
+* [[LieGrp]]
+
+* [[Lie's three theorems]]
+
 
 category: category
 
 [[!redirects LieAlg]]
 [[!redirects Lie Alg]]
+
+[[!redirects LieAlgebra]]
+[[!redirects LieAlgebras]]
