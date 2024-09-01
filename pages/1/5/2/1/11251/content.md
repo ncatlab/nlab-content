@@ -84,6 +84,6 @@ An edition which emphasises the tree structure of the work is
 
 * Kai F. Wehmeier, _Wittgensteinian Predicate Logic_ , Notre Dame J. Formal  Logic **45** no.1 (2004) pp.1-11. ([projecteuclid](http://projecteuclid.org/euclid.ndjfl/1094155275))
 
-* {#Wehmeier11}Wehmeier, Vortrag _The First-Order Logic of the Tractatus_, [Video](https://www.youtube.com/watch?v=e75U1fgBC6g)
+* {#Wehmeier11}Wehmeier, Vortrag _The First-Order Logic of the Tractatus_, [Video](https://delivery-01.itunes.uni-muenchen.de/?jwt=eyJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MjUyMTM2NTMsImZpbGVfcGF0aCI6IkNsaXBzLzMwMDAtMzI0OS9DbGlwXzMwOTEvaGlnaF9xdWFsaXR5L2luZGV4Lm1wNCJ9.uHpF4c6hh7EIoApkRqm1gNcvTpfNVTtSAi7DVq3MB-og)
 
 category: reference
