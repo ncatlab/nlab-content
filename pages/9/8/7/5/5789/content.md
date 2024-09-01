@@ -93,6 +93,10 @@ One way to make this rigorously precise would be to realize the [[Dirac-Ramond o
 ### General
   {#ReferencesGeneral}
 
+Lecture notes:
+
+* [[David Tong]]: *Supersymemtric Quantum Mechanics*, lecture notes &lbrack;[webpage](https://www.damtp.cam.ac.uk/user/tong/susyqm.html), [pdf](https://www.damtp.cam.ac.uk/user/tong/susy/susyqm.pdf)&rbrack;
+
 A fairly comprehensive survey and discussion of supersymmetric quantum mechanics as such, with emphasis on its relation to [[spectral geometry]] ("[[noncommutative geometry]]") is in
 
 * {#FGR96} [[Jürg Fröhlich]], Oiver Grandjean, [[Andreas Recknagel]], _Supersymmetric quantum theory and (non-commutative) differential geometry_, Commun.Math.Phys. 193 (1998) 527-594 ([arXiv:hep-th/9612205](http://arxiv.org/abs/hep-th/9612205))
