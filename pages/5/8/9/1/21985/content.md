@@ -116,7 +116,7 @@ Textbook accounts:
 
 * {#Kochman96} [[Stanley Kochman]], section 1.5 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-* {#Rudyak98} [[Yuli Rudyak]], _On Thom spectra, Orientability and Cobordism_, Springer 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
+* {#Rudyak98} [[Yuli Rudyak]], *On Thom spectra, orientability and cobordism*, Springer Monographs in Mathematics (1998) \[<a href="https://doi.org/10.1007/978-3-540-77751-9">doi:10.1007/978-3-540-77751-9</a>, [pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf)\]
 
 
 Lecture notes:
