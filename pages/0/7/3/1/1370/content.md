@@ -2,7 +2,7 @@ Andr&#233; Joyal is a Canadian mathematician, a professor at Universit&#233; du 
 
 He got his PhD in [1971](https://web.archive.org/web/20060325080542/http://132.208.138.87/_joyal/) from Université de Montréal.
 
-His wide mathematical work, is mainly in [[category theory]], [[topos theory]] and abstract [[homotopy theory]]. His works include a wide generalization of [[Galois theory]] with [[Myles Tierney]], the combinatorial ideas of "Joyal's [[species]]", discovery of the category structure on the collection of Conway combinatorial [[game theory|games]], the discovery of Kripke-Joyal semantics, a series of works (mainly with [[Ross Street]]) about (braided, tortile etc.) [[monoidal category|monoidal categories]] prompted partly by methods and motivation in theoretical physics, much of his work for about last 30 years centered on developing the theory of [[quasicategory|quasicategories]], after the first ideas of Boardman and Vogt. In the 1980s Joyal invented a Quillen [[model category]] [[model structure for quasi-categories|structure on the category of simplicial sets]] (and [[model structure on simplicial presheaves|categories of simplicial presheaves]]). Joyal and J. Kock more recently proved [[Simpson's conjecture]] (on higher categories via weak units) in categorical dimension 3. 
+His wide mathematical work, is mainly in [[category theory]], [[topos theory]] and abstract [[homotopy theory]]. His works include a wide generalization of [[Galois theory]] with [[Myles Tierney]], the combinatorial ideas of "Joyal's [[species]]", discovery of the category structure on the collection of Conway combinatorial [[game theory|games]], the discovery of Kripke-Joyal semantics, a series of works (mainly with [[Ross Street]]) about ([[braided monoidal category|braided]], [[tortile monoidal category|tortile]] etc.) [[monoidal category|monoidal categories]] prompted partly by methods and motivation in theoretical physics, much of his work for about last 30 years centered on developing the theory of [[quasicategory|quasicategories]], after the first ideas of Boardman and Vogt. In the 1980s Joyal invented a Quillen [[model category]] [[model structure for quasi-categories|structure on the category of simplicial sets]] (and [[model structure on simplicial presheaves|categories of simplicial presheaves]]). Joyal and J. Kock more recently proved [[Simpson's conjecture]] (on higher categories via weak units) in categorical dimension 3. 
 
 Joyal  promoted [[quasi-categories]], greatly extending their theory, as a basis for [[(∞,1)-category theory]].
 
@@ -20,7 +20,16 @@ On [[forcing]] via [[classifying toposes]] and the [[classifying topos of a loca
 
 * {#JoyalTierney84} [[André Joyal]], [[Myles Tierney]], *An extension of the Galois theory of Grothendieck*,  Mem. Amer. Math. Soc. **309** (1984) &lbrack;[ISBN:978-1-4704-0722-3](https://bookstore.ams.org/memo-51-309)&rbrack;
 
-  (historical note: according to MR756176 (86d:18002) by [[Peter Johnstone]], the main results of this monograph were obtained by the authors around 1978-1979, typed version circulated from 1982, and the results influenced the field much before the actual publication)
+  > (historical note: according to MR756176 (86d:18002) by [[Peter Johnstone]], the main results of this monograph were obtained by the authors around 1978-1979, the typed version circulated from 1982, and the results influenced the field much before the actual publication)
+
+Introducing the notion of [[braided monoidal categories]]:
+
+* {#JoyalStreet85} [[André Joyal]], [[Ross Street]]: *Braided monoidal categories*, _Macquarie Math Reports_ **85-0067** (1985) &lbrack;[pdf](http://web.science.mq.edu.au/~street/BMC850067.pdf), [[JoyalStreet-BraidedMonoidal85.pdf:file]]&rbrack;
+
+* {#JoyalStreet86} [[André Joyal]], [[Ross Street]]: *Braided monoidal categories*, _Macquarie Math Reports_ **860081** (1986) &lbrack;[pdf](http://maths.mq.edu.au/~street/JS1.pdf), [[JoyalStreet-BraidedMonoidal.pdf:file]]&rbrack;
+
+* [[André Joyal]], [[Ross Street]], _Braided tensor categories_, Adv. Math. **102** (1993) 20-78 &lbrack;[doi:10.1006/aima.1993.1055](https://doi.org/10.1006/aima.1993.1055)&rbrack;
+
 
 On [[algebraic set theory]]:
 
@@ -49,6 +58,8 @@ On the [[Quillen equivalence]] between the [[model categories]] for [[quasi-cate
 * {#JoyalTierney07} [[Andre Joyal]], [[Myles Tierney]], _Quasi-categories vs. Segal spaces_, in *Categories in Algebra, Geometry and Mathematical Physics*, Contemporary Mathematics **431** (2007) &lbrack;[arXiv:math/0607820](http://arxiv.org/abs/math/0607820), [doi:10.1090/conm/431](https://doi.org/10.1090/conm/431)&rbrack;
 
 On [[quasi-categories]]:
+
+* [[André Joyal]], *Notes on quasi-categories* (2008) &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf), [[JoyalNotesOnQuasiCategories.pdf:file]]&rbrack;
 
 * {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]])
 
@@ -89,12 +100,7 @@ See also:
 
 * A. Joyal, [[Ross Street|R. Street]], _An introduction to Tannaka duality and quantum groups_,  Category theory (Como, 1990),  413--492, Lecture Notes in Math. __1488__, Springer 1991 ([pdf](http://www.math.mq.edu.au/~street/CT90Como.pdf)).
 
-* A. Joyal, R. Street, _The geometry of tensor calculus I_,  Adv. Math.  __88__(1991),  no. 1, 55--112, [doi](http://dx.doi.org/10.1016/0001-8708%2891%2990003-P); _Tortile Yang-Baxter operators in tensor categories_,  J. Pure Appl. Algebra  __71__  (1991),  no. 1, 43--51, [doi](http://dx.doi.org/10.1016/0022-4049%2891%2990039-5); _Braided tensor categories_, Adv. Math. __102__ (1993),  no. 1, 20--78, [doi](http://dx.doi.org/10.1006/aima.1993.1055).
-
-* A. Joyal, R. Street, _Braided monoidal categories_, Macquarie Math Reports 860081 (1986) [pdf](http://www.maths.mq.edu.au/~street/JS1.pdf); Macquarie Math Reports 850067 (1985) [pdf](http://www.math.mq.edu.au/~street/BMC850067.pdf).
-
-
-* A Joyal, _Notes on quasicategories_, ([draft](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf))
+* A. Joyal, R. Street, _The geometry of tensor calculus I_,  Adv. Math.  __88__(1991),  no. 1, 55--112, [doi](http://dx.doi.org/10.1016/0001-8708%2891%2990003-P); _Tortile Yang-Baxter operators in tensor categories_,  J. Pure Appl. Algebra  __71__  (1991),  no. 1, 43--51, [doi](http://dx.doi.org/10.1016/0022-4049%2891%2990039-5); 
 
 
 * A. Joyal, Letter to [[Alexander Grothendieck]], 11.4.1984, [[lettrejoyal.pdf:file]].
