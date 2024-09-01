@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[constructive mathematics]], **Brouwer's continuity principle** states that all [[endofunctions]] on the (Dedekind) [[real numbers]] are [[pointwise continuous functions]]. It is inconsistent with [[excluded middle]] because excluded middle implies the [[analytic LPO]], from which one can construct the discontinuous [[floor]] and [[ceiling]] functions on the real numbers, contradicting Brouwer's continuity principle. 
+In [[constructive mathematics]], **Brouwer's continuity principle** ([Shulman 2018](#Shulman18)) states that all [[endofunctions]] on the (Dedekind) [[real numbers]] are [[pointwise continuous functions]]. It is inconsistent with [[excluded middle]] because excluded middle implies the [[analytic LPO]], from which one can construct the discontinuous [[floor]] and [[ceiling]] functions on the real numbers, contradicting Brouwer's continuity principle. 
 
 Brouwer's continuity principle holds in Johnstone's [[topological topos]]. It also holds for the cohesive types in [[real-cohesive homotopy type theory]], which has semantics in the [[cohesive infinity-topos]] of [[Euclidean-topological infinity-groupoids]]. 
 
@@ -45,6 +45,8 @@ In the definitions of the different notions of continuous function one sees the 
 
 * [[analytic LPO]]
 
+* [[Kreisel-Lacombe-Shoenfield-Tseitin theorem]]
+
 ## References
 
 * {#EscardoXu15} [[Martin Escardo]], Chuangjie Xu, _The inconsistency of a Brouwerian continuity principle with the Curry--Howard interpretation_, 13th International Conference on Typed Lambda Calculi and Applications (TLCA 2015), Leibniz International Proceedings in Informatics (LIPIcs) *38* (2015) &lbrack;[doi:10.4230/LIPIcs.TLCA.2015.153](https://doi.org/10.4230/LIPIcs.TLCA.2015.153), [pdf](http://www.cs.bham.ac.uk/%7Emhe/papers/escardo-xu-inconsistency-continuity.pdf)&rbrack;
@@ -52,6 +54,10 @@ In the definitions of the different notions of continuous function one sees the 
 * {#Shulman18} [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 &lbrack;[arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147)&rbrack;
 
 * {#Grossack24} [[Chris Grossack]], *Life in Johnstone's Topological Topos 3 -- Bonus Axioms* ([web](https://grossack.site/2024/07/03/topological-topos-3-bonus-axioms))
+
+The [[elementary topos]] which appears in the following paper satisfies Brouwer's continuity principle for the [[Dedekind real numbers]], as indicated in theorem 7.7 of the paper, except that there it is called the "KLST theorem": 
+
+* {#BauerHanson} [[Andrej Bauer]], [[James Hanson]], *The Countable Reals* ([arXiv:2404.01256](https://arxiv.org/abs/2404.01256))
 
 [[!redirects Brouwer's theorem]]
 
