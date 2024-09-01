@@ -26,12 +26,14 @@ While all of the above notions are "in essence" equivalent, they differ in some 
 
 ## References
 
-* {#Trimble}  [[Todd Trimble]], _[[toddtrimble:Surface diagrams]]_
+* {#Trimble}  [[Todd Trimble]], _[[toddtrimble:Surface diagrams]]_ (2010)
 
-* {#BMS} John Barrett, Catherine Meusburger, Gregor Schaumann. _Gray categories with duals and their diagrams_. [arXiv](https://arxiv.org/abs/1211.0529)
+* {#Hummon} Benjamin Hummon. _Surface diagrams for gray-categories_, Phd Thesis, UC San Diego (2012) &lbrack;[escholar:5b24s9cc](https://escholarship.org/uc/item/5b24s9cc), [pdf](https://escholarship.org/content/qt5b24s9cc/qt5b24s9cc.pdf)&rbrack;
 
-* {#Hummon} Benjamin Hummon. _Surface diagrams for gray-categories_. Phd Thesis, UC San Diego. [pdf](https://escholarship.org/uc/item/5b24s9cc)
+* {#BMS} [[John Barrett]], [[Catherine Meusburger]], [[Gregor Schaumann]]: _Gray categories with duals and their diagrams_, Advances in Mathematics **450** (2024) 109740 &lbrack;[arXiv:1211.0529](https://arxiv.org/abs/1211.0529), [doi:10.1016/j.aim.2024.109740](https://doi.org/10.1016/j.aim.2024.109740)&rbrack;
 
-* {#DornDouglas22} Christoph Dorn and Christopher Douglas, _Manifold diagrams and tame tangles_, 2022 ([arXiv](https://arxiv.org/abs/2208.13758))
+
+* {#DornDouglas22} [[Christoph Dorn]], [[Christopher Douglas]]: _Manifold diagrams and tame tangles_ (2022) &lbrack;[arXiv:2208.13758](https://arxiv.org/abs/2208.13758)&rbrack;
+  > (via [[manifold diagrams]])
 
 [[!redirects surface diagrams]]
