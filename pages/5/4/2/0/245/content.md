@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents 
 {:toc}
@@ -207,12 +208,13 @@ Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 
 * _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
 
+The original articles on braided monoidal categories (the published version does not completely supersede the _Macquarie Math Reports_, which have some extra results):
 
-The original papers on braided monoidal categories (the published version does not completely supersede the _Macquarie Math Reports_ version, which has some nice extra results):
+* {#JoyalStreet85} [[André Joyal]], [[Ross Street]]: *Braided monoidal categories*, _Macquarie Math Reports_ **85-0067** (1985) &lbrack;[pdf](http://web.science.mq.edu.au/~street/BMC850067.pdf), [[JoyalStreet-BraidedMonoidal85.pdf:file]]&rbrack;
 
-* {#JoyalStreet86} [[André Joyal]] and [[Ross Street]], *Braided monoidal categories*, _Macquarie Math Reports_ **860081** (1986) ([pdf](http://maths.mq.edu.au/~street/JS1.pdf))
+* {#JoyalStreet86} [[André Joyal]], [[Ross Street]]: *Braided monoidal categories*, _Macquarie Math Reports_ **86-0081** (1986) &lbrack;[pdf](http://maths.mq.edu.au/~street/JS1.pdf), [[JoyalStreet-BraidedMonoidal.pdf:file]]&rbrack;
 
-* [[André Joyal]], [[Ross Street]], _Braided tensor categories_, Adv. Math. **102** (1993), 20--78 ([doi:10.1006/aima.1993.1055](https://doi.org/10.1006/aima.1993.1055))
+* [[André Joyal]], [[Ross Street]], _Braided tensor categories_, Adv. Math. **102** (1993) 20-78 &lbrack;[doi:10.1006/aima.1993.1055](https://doi.org/10.1006/aima.1993.1055)&rbrack;
 
 Around the same time the same definition was also proposed independently by [[Lawrence Breen]] in a letter to [[Pierre Deligne]]:
 
