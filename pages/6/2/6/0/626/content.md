@@ -69,7 +69,7 @@ _String diagrams_ constitute a graphical calculus for expressing operations in [
     "caption": "From [Penrose-Rindler 84, Append.](#PenroseRindler84)"
 \end{imagefromfile}
 
-In the archetypical cases of the [[Cartesian monoidal category]] of [[finite sets]] this is Hotz's notation ([Hotz 65](#Hotz65)) for [[automata]], while for  [[finite-dimensional vector spaces]] with their [[tensor product of vector spaces|usual tensor product]] this is Penrose's notation ([Penrose 71a](#Penrose71a), [Penrose-Rindler 84](#PenroseRindler84)) for [[tensor networks]]; but the same idea immediately applies more generally to any other [[monoidal category]] and yet more generally to [[bicategories]], etc.
+In the archetypical case of the [[Cartesian monoidal category]] of [[finite sets]] this is Hotz's notation ([Hotz 65](#Hotz65)) for [[automata]], while for  [[finite-dimensional vector spaces]] with their [[tensor product of vector spaces|usual tensor product]] this is Penrose's notation ([Penrose 71a](#Penrose71a), [Penrose-Rindler 84](#PenroseRindler84)) for [[tensor networks]]; but the same idea immediately applies more generally to any other [[monoidal category]] and yet more generally to [[bicategories]], etc.
 
 
 The idea is roughly to think of [[objects]] in a monoidal category as "strings" and of [[morphisms]] from one [[tensor product]] to another as a node which the source strings enter and the target strings exit. Further structure on the monoidal category is encoded in geometrical properties on these strings. 
@@ -274,15 +274,16 @@ Discussion in [[representation theory]]:
 
 Introductions to and surveys of string diagram calculus:
 
-* [[Ross Street]], _Categorical structures_, in: M. Hazewinkel (ed.), _Handbook of algebra -- Volume 1_, Elsevier 1996 ([pdf](http://maths.mq.edu.au/~street/45.pdf), [978-0-444-82212-3](https://www.elsevier.com/books/handbook-of-algebra/hazewinkel/978-0-444-82212-3))
+* [[Ross Street]], _Categorical structures_, in: M. Hazewinkel (ed.), _Handbook of algebra -- Volume 1_, Elsevier (1996) &lbrack;[pdf](http://maths.mq.edu.au/~street/45.pdf), [978-0-444-82212-3](https://www.elsevier.com/books/handbook-of-algebra/hazewinkel/978-0-444-82212-3)&rbrack;
 
   > (in the generality of [[bicategories]])
 
 * [[Ross Street]], _Low dimensional topology and higher-order categories_ ([ps](http://www.mta.ca/~cat-dist/CT95Docs/LowDim.ps))
+  >   (on [[surface diagrams]])
 
-  >   (on surface diagrams)
+* [[John Baez]], *QG Seminar Fall 2000* &lbrack;[web](http://math.ucr.edu/home/baez/qg-fall2000/)), Winter 2001 ([web](http://math.ucr.edu/home/baez/qg-winter2001/)), Fall 2006 ([web](http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation)&rbrack;
 
-* [[John Baez]], QG Seminar Fall 2000 ([web](http://math.ucr.edu/home/baez/qg-fall2000/)), Winter 2001 ([web](http://math.ucr.edu/home/baez/qg-winter2001/)), Fall 2006 ([web](http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation)).
+* [[The Catsters]]: *String Diagrams*, video lectures (2008) &lbrack;playlist: [YT](https://www.youtube.com/playlist?list=PL50ABC4792BD0A086)&rbrack;
 
 * {#BaezStay11} [[John Baez]], [[Mike Stay]]: _Physics, Topology, Logic and Computation: A Rosetta Stone_, in: *New Structures for Physics*, Lecture Notes in Physics **813** Springer (2011) 95-174 &lbrack;[arXiv:0903.0340](http://arxiv.org/abs/0903.0340), [doi:10.1007/978-3-642-12821-9_2](https://doi.org/10.1007/978-3-642-12821-9_2)&rbrack;
 
@@ -514,9 +515,8 @@ The higher dimensional string diagrams ("zoom complexes" ([Kock-Joyal-Batanin-Ma
 * [[Globular]] is a web-based proof assistant for finitely-presented semistrict globular higher categories. It allows one to formalize higher-categorical proofs in finitely-presented n-categories and visualize them as string diagrams. 
 
 
-
-
 [[!include quantum information theory via string diagrams -- references]]
+
 
 
 
