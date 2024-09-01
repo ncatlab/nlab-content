@@ -173,3 +173,4 @@ According to [[Peter Scholze]], there is a mistake in Joshi's proof at Propositi
 * [[Peter Scholze]], *Global character of ABC/Szpiro inequalities*, [MathOverflow (version: 2024-03-29)](https://mathoverflow.net/q/467995). 
 
 [[!redirects abc-conjecture]]
+[[!redirects abc]]
