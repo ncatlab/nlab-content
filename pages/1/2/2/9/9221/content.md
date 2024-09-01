@@ -31,9 +31,13 @@ $\pi_3(\mathbb{S})$
 
 * [[Theo Johnson-Freyd]], *Topological Mathieu Moonshine* ([arXiv:2006.02922](https://arxiv.org/abs/2006.02922))
 
-On [[Lie groups]] and [[quantum groups]]:
+On [[Lie groups]] and [[Lie algebras]]
 
-* [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]], *Berkeley Lectures on Lie Groups and Quantum Groups*, 2020 ([pdf](http://categorified.net/LieQuantumGroups.pdf))
+* [[Mark Haiman]] (notes by [[Theo Johnson-Freyd]]), _Lie groups_, lecture notes, Berkeley (2008) &lbrack;[[Haiman-LieGroups09.pdf:file]]&rbrack;
+
+and in the generality of [[quantum groups]]:
+
+* [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]]: *Berkeley Lectures on Lie Groups and Quantum Groups* (2020-2024) &lbrack;[pdf](http://categorified.net/LieQuantumGroups.pdf)&rbrack;
 
 
 On the relation between [[functorial quantum field theory]] (axiomatizing the [[Schrödinger picture]] of [[quantum field theory]]) and [[algebraic quantum field theory]] (axiomatizing the [[Heisenberg picture]]):
