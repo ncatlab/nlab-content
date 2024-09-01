@@ -995,7 +995,7 @@ As [[orthogonal spectra]] and as [[equivariant spectra]]
 
 Textbook discussion with an eye towards the [[generalized (Eilenberg-Steenrod) cohomology]] of [[topological K-theory]] and [[cobordism cohomology theory]] is in 
 
-* {#Rudyak98} [[Yuli Rudyak]], _On Thom spectra, orientability and cobordism_, Springer Monographs in Mathematics, 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
+* {#Rudyak98} [[Yuli Rudyak]], *On Thom spectra, orientability and cobordism*, Springer Monographs in Mathematics (1998) &lbrack;[doi:10.1007/978-3-540-77751-9](https://doi.org/10.1007/978-3-540-77751-9), [pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf)&rbrack;
  
 See also 
 
