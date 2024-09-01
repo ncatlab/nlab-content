@@ -139,7 +139,7 @@ Textbook accounts:
 
 * {#Stong68} [[Robert Stong]], _Notes on Cobordism theory_, Princeton University Press, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/stongcob.pdf))
 
-* {#Rudyak98} [[Yuli Rudyak]], _On Thom spectra, orientability and cobordism_, Springer Monographs in Mathematics, 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
+* {#Rudyak98} [[Yuli Rudyak]], *On Thom spectra, orientability and cobordism*, Springer Monographs in Mathematics (1998) &lbrack;[doi:10.1007/978-3-540-77751-9](https://doi.org/10.1007/978-3-540-77751-9), [pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf)&rbrack;
 
 
 
