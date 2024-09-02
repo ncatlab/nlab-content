@@ -92,6 +92,8 @@ The proof was carried out for $\tilde{G} \simeq SU(2)$ by Bitar and Sorba see [M
 
 ### General
 
+Named after [[Eugene B. Dynkin]].
+
 See also:
 
 * Wikipedia, _[Dynkin diagram](http://en.wikipedia.org/wiki/Dynkin_diagram)_
