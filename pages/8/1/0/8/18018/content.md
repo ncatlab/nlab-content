@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -17,7 +18,7 @@
 
 ## Idea
 
-A [[Lie algebra]] is **nilpotent** if [[action|acting]] on any one of its elements with other elements, via the [[Lie bracket]], repeatedly eventually yields [[zero]].
+A [[Lie algebra]] is **nilpotent** if repeatedly [[adjoint action|acting]] via the [[Lie bracket]] on any one of its elements with other elements eventually yields [[zero]].
 
 ## Definition
 
@@ -25,9 +26,16 @@ The [[lower central series]] or [[descending central series]] of a Lie algebra $
 
 In other words, a Lie algebra $\mathfrak{g}$ is nilpotent if and only the improper ideal $\mathfrak{g}$ is a [[nilpotent element]] in the ideal lattice with respect to the ideal product $[-,-]$.
 
+## Examples
+
+* Trivially: Every abelian Lie algebra is nilpotent. 
+
+* The Lie algebra of even-degree elements of the [[tensor product]] of a [[super translation Lie algebra]] ([[super Minkowski Lie algebra]]) with a [[superpoint]] $\mathbb{R}^{0\vert q}$ is nilpotent.
+
 ## Properties
 
-* Every abelian Lie algebra is nilpotent, and every nilpotent Lie algebra is [[solvable Lie algebra|solvable]].
+* Every nilpotent Lie algebra is [[solvable Lie algebra|solvable]].
+
 
 ### Relation to Sullivan models
 
@@ -48,9 +56,11 @@ A finite-dimensional Lie algebra $\mathfrak{g}$ is nilpotent precisely if its [[
 
 * [[Victor Kac]] (notes by Marc Doss), *Nilpotent and Solvable Lie algebras* (2010) &lbrack;[pdf](https://math.mit.edu/classes/18.745/Notes/Lecture_4_Notes.pdf), [[KacDoss-NilpotentLieAlebras.pdf:file]]&rbrack;
 
-* _Nilpotent Lie algebras_ ([pdf](http://relaunch.hcm.uni-bonn.de/fileadmin/perrin/chap5.pdf))
+* _Nilpotent Lie algebras_ &lbrack;[[Perrin-NilpotentLieAlgebras.pdf:file]]&rbrack;
 
 * Wikipedia, _[Nilpotent Lie algebra](https://en.wikipedia.org/wiki/Nilpotent_Lie_algebra)_
+
+* [GroupProps](https://groupprops.subwiki.org/wiki/Main_Page): *[Lie correspondence between nilpotent Lie algebras and unipotent algebraic groups](https://groupprops.subwiki.org/wiki/Lie_correspondence_between_nilpotent_Lie_algebras_and_unipotent_algebraic_groups)*
 
 On the [[Sullivan models]] which are [[Chevalley-Eilenberg algebra]] of nilpotent Lie algebras:
 
