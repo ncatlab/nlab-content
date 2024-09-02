@@ -479,7 +479,7 @@ Generalization to dagger [[(infinity,n)-categories|$(\infty,n)$-categories]]:
 
 * [[Theo Johnson-Freyd]], *Higher Dagger Categories*, [talk at](Center+for+Quantum+and+Topological+Systems#JohnsonFreydNov2023) [[CQTS]] (08 Nov 2023) &lbrack;slides:[pdf](http://categorified.net/NYUADtalk.pdf), [[JohnsonFreyd-HigherDaggerNYUAD.pdf:file]], video:[YT](https://youtu.be/zvtziTpl2T0)&rbrack;
 
-* [[Giovanni Ferrer]], [[Brett Hungar]], [[Theo Johnson-Freyd]], [[Cameron Krulewski]], [[Lukas Müller]], [[Nivedita]], [[David Penneys]], [[David Reutter]], [[Claudia Scheimbauer]], [[Luuk Stehouwer]], [[Chetan Vuppulury]], *Dagger n-categories*, [arXiv](https://arxiv.org/abs/2403.01651)
+* [[Giovanni Ferrer]], [[Brett Hungar]], [[Theo Johnson-Freyd]], [[Cameron Krulewski]], [[Lukas Müller]], [[Nivedita]], [[David Penneys]], [[David Reutter]], [[Claudia Scheimbauer]], [[Luuk Stehouwer]], [[Chetan Vuppulury]], *Dagger n-categories* &lbrack;[arXiv2403.01651](https://arxiv.org/abs/2403.01651)&rbrack;
 
 
 [[!redirects dagger-category]]
@@ -501,4 +501,6 @@ Generalization to dagger [[(infinity,n)-categories|$(\infty,n)$-categories]]:
 [[!redirects higher dagger category]]
 [[!redirects higher dagger categories]]
 
+[[!redirects dagger n-category]]
+[[!redirects dagger n-categories]]
 
