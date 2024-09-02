@@ -136,13 +136,20 @@ Specifically:
 
 * [[Peter May]], [[Kate Ponto]], §3.1 in: _[[More concise algebraic topology]]_,   University of Chicago Press (2012) &lbrack;[ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf)&rbrack;
 
+
 See also:
 
 * eom [nilpotent group](http://eom.springer.de/n/n066720.htm)
 
 * Wikipedia [nilpotent group](http://en.wikipedia.org/wiki/Nilpotent_group)
 
-On nilpotent [[Lie groups]]:
+On nilpotent [[Lie groups]] (cf. at *[[nilpotent Lie algebra]]*):
+
+* Arthur A. Sagle, Ralph E. Walde: *Nilpotent Lie Groups and Algebras*, Chapter 11 in: *Introduction to Lie Groups and Lie Algebras*, Pure and Applied Mathematics **51**, Elsevier (1973) 215-227 \[<a href="https://doi.org/10.1016/S0079-8169(08)61671-2">doi:10.1016/S0079-8169(08)61671-2</a>\]
+
+* Laurence Corwin, Frederick P. Greenleaf: *Representations of Nilpotent Lie Groups and their Applications -- Volume 1  Part 1. Basic Theory and Examples*, Cambridge University Press (2004) &lbrack;[ISBN:9780521604956](https://www.cambridge.org/us/universitypress/subjects/mathematics/abstract-analysis/representations-nilpotent-lie-groups-and-their-applications-volume-1-part-1)&rbrack;
+
+* Veronique Fischer, Michael Ruzhansky: *Quantization on Nilpotent Lie Groups*, Birkh&auml;user (2016) &lbrack;[doi:10.1007/978-3-319-29558-9](https://doi.org/10.1007/978-3-319-29558-9)&rbrack;
 
 * [[Manuel Amann]], *On quasi-isometric nilpotent Lie groups* &lbrack;[arXiv:1710.04542](https://arxiv.org/abs/1710.04542)&rbrack;
 
