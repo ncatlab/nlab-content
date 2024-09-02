@@ -138,7 +138,7 @@ Generalization to supergeometry over an arbitrary commutative ring, in particula
 
 A review of all this as geometry in the [[topos]] over the category of [[superpoints]] is in
 
-* {#Sachse08} [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
+* {#Sachse08} [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ &lbrack;[arXiv:0802.4067](http://arxiv.org/abs/0802.4067)&rbrack;
   
 
 Formulation in terms of [[synthetic differential supergeometry]] is in
