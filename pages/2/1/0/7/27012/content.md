@@ -445,7 +445,7 @@ The above discussion follows:
 
 After writing this up we learned of the following set of slides, where very similar pictures were already drawn (p. 23-30 and pp. 52):
 
-* [[Shingo Okuyama]]: *Configuration space of intervals with partially summable labels*, talk at National Institute of Technology, Kagawa College (2018) &lbrack;[pdf](http://math.shinshu-u.ac.jp/~ksakai/AGM/18_Okuyama_slide.pdf), [[Okuyama-IntervalsSlides.pdf:file]]&rbrack;
+* [[Shingo Okuyama]]: *Configuration space of intervals with partially summable labels*, talk at Shinshu University (2018) &lbrack;[pdf](http://math.shinshu-u.ac.jp/~ksakai/AGM/18_Okuyama_slide.pdf), [[Okuyama-IntervalsSlides.pdf:file]]&rbrack;
 
 Precursor discussion of the theorem published as [Okuyama 2005](#Okuyama05):
 
