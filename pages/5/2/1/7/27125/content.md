@@ -1,17 +1,22 @@
-Joseph Henry Maclagan Wedderburn was a Scotish-American mathematician, mainly dedicated to algebra. [[Wedderburn-Artin theorem]] is named after him.
+Joseph Henry Maclagan Wedderburn was a Scottish-American mathematician, mainly dedicated to [[algebra]]. The [[Wedderburn-Artin theorem]] is named after him.
 
-* wikipedia [Joseph Wedderburn](https://en.wikipedia.org/wiki/Joseph_Wedderburn)
+* Wikipedia: [Joseph Wedderburn](https://en.wikipedia.org/wiki/Joseph_Wedderburn)
 
 ## Selected works
 
-* J. H. M. Wedderburn, _Algebras which do not posses a finite basis_, Transactions of the American Mathematical Society __26__:4 (1924) 395--426 [doi](https://doi.org/10.2307/1989133)
+Proving what came to be called the [[Wedderburn-Artin theorem]]:
 
-(By axioms of "linear associative algebra" proposed in this work he meant what we nowdays call a [[nonunital ring]].)
+* [[Joseph H. M. Wedderburn]]: *On hypercomplex numbers*, Proc. London Math. Soc. **s2-6** 1 (1908) 77-118 &lbrack;[doi:10.1112/plms/s2-6.1.77](https://doi.org/10.1112/plms/s2-6.1.77)&rbrack;
 
-The famous Wedderburn's theorem is from 
+See also:
 
-* J. H. M. Wedderburn, _On hypercomplex numbers_, Proc. London Math. Soc. __6__: 77--118 (1908) [doi](https://doi.org/10.1112/plms/s2-6.1.77)
+* [[Joseph H. M. Wedderburn]], _Algebras which do not posses a finite basis_, Transactions of the American Mathematical Society __26__ 4 (1924) 395-426 &lbrack;[doi:10.2307/1989133](https://doi.org/10.2307/1989133)&rbrack;
+  > (By axioms of "linear associative algebra" proposed in this work he meant what nowadays are called [[nonunital rings]].)
+
+
 
 category: people
 
+
 [[!redirects J. H. M. Wedderburn]]
+[[!redirects Joseph H. M. Wedderburn]]
