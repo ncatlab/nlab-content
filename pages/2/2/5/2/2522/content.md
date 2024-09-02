@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include supergeometry - contents]]
 =--
-#### Physics
+#### Quantum Field Theory
 +--{: .hide}
-[[!include physicscontents]]
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
