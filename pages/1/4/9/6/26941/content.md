@@ -12,6 +12,6 @@ A model for the [[group completions]] of [[configuration spaces of points]] via 
 
 * [[Shingo Okuyama]], [[Kazuhisa Shimakawa]], _Interactions of strings and equivariant homology theories_, Geom. Topol. Monogr. **10** (2007) 333-346 &lbrack;[arXiv:0903.4667](https://arxiv.org/abs/0903.4667), [doi:10.2140/gtm.2007.10.333](https://doi.org/10.2140/gtm.2007.10.333)&rbrack;
 
-* [[Shingo Okuyama]]: *Configuration space of intervals with partially summable labels*, talk at National Institute of Technology, Kagawa College (2018) &lbrack;[pdf](http://math.shinshu-u.ac.jp/~ksakai/AGM/18_Okuyama_slide.pdf), [[Okuyama-IntervalsSlides.pdf:file]]&rbrack;
+* [[Shingo Okuyama]]: *Configuration space of intervals with partially summable labels*, talk at Shinshu University (2018) &lbrack;[pdf](http://math.shinshu-u.ac.jp/~ksakai/AGM/18_Okuyama_slide.pdf), [[Okuyama-IntervalsSlides.pdf:file]]&rbrack;
 
 category: people
