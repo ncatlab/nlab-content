@@ -54,6 +54,8 @@ A finite-dimensional Lie algebra $\mathfrak{g}$ is nilpotent precisely if its [[
 
 ## References
 
+* {#Serre64} [[Jean-Pierre Serre]]: *Nilpotent and Solvable Lie Algebras*, Chapter V in: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500**, Springer (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
+
 * [[Victor Kac]] (notes by Marc Doss), *Nilpotent and Solvable Lie algebras* (2010) &lbrack;[pdf](https://math.mit.edu/classes/18.745/Notes/Lecture_4_Notes.pdf), [[KacDoss-NilpotentLieAlebras.pdf:file]]&rbrack;
 
 * _Nilpotent Lie algebras_ &lbrack;[[Perrin-NilpotentLieAlgebras.pdf:file]]&rbrack;
