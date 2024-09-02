@@ -523,7 +523,6 @@ Realization of [[quantum error correction]] in [[experiment]], hence in actual [
    EurekaAlert, Science China Press: *Demonstration of the universal quantum error correcting code with superconducting qubits*, March 2021 ([2021-03/scp-dot031521](https://www.eurekalert.org/pub_releases/2021-03/scp-dot031521.php))
 
 * {#Lucero21} Erik Lucero (Google), *[Unveiling our new Quantum AI campus](https://blog.google/technology/ai/unveiling-our-new-quantum-ai-campus/)*,  May 18, 2021
-
   > (outlook)
 
 
@@ -711,6 +710,7 @@ Musings on possible implications on relations between [[quantum gravity]] and [[
 
 * ChunJun Cao, *From Quantum Codes to Gravity: A Journey of Gravitizing Quantum Mechanics* ([arXiv:2112.00199](https://arxiv.org/abs/2112.00199))
 
+* Takaaki Kuwahara, Ryota Nasu, Gota Tanaka, Asato Tsuchiya: *Quantum error correction realized by the renormalization group in scalar field theories* &lbrack;[arXiv:2401.17795](https://arxiv.org/abs/2401.17795)&rbrack;
 
     
 
