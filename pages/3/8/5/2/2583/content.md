@@ -565,7 +565,7 @@ and in section 4.1 of
 
 A 2-group model which has a smoothening of the _topological_ [[string group]] in lowest degree has been given in 
 
-* [[Thomas Nikolaus]], [[Christoph Sachse]], [[Christoph Wockel]], _A Smooth Model for the String Group_,  International Mathematics Research Notices, Volume: 2013 , Issue: 16 , 2013   ([arXiv:1104.4288](http://arxiv.org/abs/1104.4288), [doi:10.1093/imrn/rns154](https://doi.org/10.1093/imrn/rns154))
+* [[Thomas Nikolaus]], [[Christoph Sachse]], [[Christoph Wockel]]: _A Smooth Model for the String Group_,  International Mathematics Research Notices, **2013** 16  (2013) 3678-3721 &lbrack;[arXiv:1104.4288](http://arxiv.org/abs/1104.4288), [doi:10.1093/imrn/rns154](https://doi.org/10.1093/imrn/rns154)&rbrack;
 
 A construction explicitly in terms of the "[[basic bundle gerbe|basic]]" [[bundle gerbe]] on $G$: 
 
