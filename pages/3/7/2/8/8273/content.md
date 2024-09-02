@@ -9,6 +9,11 @@ Introducing the [[braid group]]:
 
 * [[Emil Artin]], *Theory of Braids*, Annals of Mathematics, Second Series, **48** 1 (1947) 101-126 &lbrack;[doi:10.2307/1969050](https://doi.org/10.2307/1969050)&rbrack;
 
+Proving what came to be known as the [[Wedderburn-Artin theorem]]:
+
+* {#Artin27} [[Emil Artin]]: *Zur Theorie der hyperkomplexen Zahlen*, Abh. Math. Semin. Univ. Hambg. **5** (1927) 251–260 &lbrack;[doi:10.1007/BF02952526](https://doi.org/10.1007/BF02952526)&rbrack;
+
+
 On the [[Gamma function]]:
 
 * {#Artin31} [[Emil Artin]], *Einführung in die Theorie der Gammafunktion*, Hamburger Mathematische Einzelschriften
