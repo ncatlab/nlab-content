@@ -51,7 +51,10 @@ On mathematical foundations of [[superalgebra]], [[supergeometry]] and [[supersy
 
 * {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], *Supersolutions*, in: *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 227 &lbrack;[web version](http://www.math.ias.edu/qft), [arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)&rbrack;
 
-and focus on [[signs in supergeometry]]:
+* {#Freed99} [[Daniel Freed]], *[[Five lectures on supersymmetry]]*, AMS (1999) \[<a href="https://bookstore.ams.org/FLS">ISBN:978-0-8218-1953-1</a>, [spire:517862](https://inspirehep.net/literature/517862)\]
+
+
+and with focus on [[signs in supergeometry]]:
 
 * [[Pierre Deligne]], [[Daniel Freed]], *Sign manifesto*, in: *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 357 &lbrack;[web version](http://www.math.ias.edu/qft), [pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf)&rbrack;
 
