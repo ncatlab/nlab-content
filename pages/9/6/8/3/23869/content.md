@@ -15,6 +15,11 @@ On [[G-crossed braided fusion categories]] via [[3-categories]]:
 
 * [[Corey Jones]], [[David Penneys]], [[David Reutter]], *A 3-categorical perspective on $G$-crossed braided categories*, J. London Math. Soc. **107** 1 (2023) 333-406 &lbrack;[arXiv:2009.00405](https://arxiv.org/abs/2009.00405), [doi:10.1112/jlms.12687](https://doi.org/10.1112/jlms.12687)&rbrack;
 
+Introducing a notion of [[dagger n-categories|dagger $n$-categories]]:
+
+* [[Giovanni Ferrer]], [[Brett Hungar]], [[Theo Johnson-Freyd]], [[Cameron Krulewski]], [[Lukas Müller]], [[Nivedita]], [[David Penneys]], [[David Reutter]], [[Claudia Scheimbauer]], [[Luuk Stehouwer]], [[Chetan Vuppulury]], *Dagger n-categories* &lbrack;[arXiv2403.01651](https://arxiv.org/abs/2403.01651)&rbrack;
+
+
 
 
 category: people
