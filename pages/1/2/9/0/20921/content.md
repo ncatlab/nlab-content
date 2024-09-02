@@ -32,4 +32,9 @@ $\mathfrak{sl}(2,\mathbb{C})$ is the [[complexification]] of the [[special unita
 
 See at _[[Jacobson-Morozov theorem]]_.
 
+## Literature
+
+* [[Shlomo Sternberg]]: *$sl(2)$ and is Representations*, Chapter 2 in: *Lie Algebras* (2004) &lbrack;[pdf](https://people.math.harvard.edu/~shlomo/docs/lie_algebras.pdf), [[Sternberg-LieAlgebras.pdf:file]]&rbrack;
+
+
 [[!redirects sl(2,C)]]
