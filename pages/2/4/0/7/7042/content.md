@@ -31,7 +31,7 @@ The generalization of the [[WZW model]] where [[target space]] is not necessaril
 
 ## References
 
-* [[Edward Witten]], _On holomorphic factorization of WZW and coset models_, Comm. Math. Phys. Volume 144, Number 1 (1992), 189-212. ([EUCLID](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104249222))
+* [[Edward Witten]], _On holomorphic factorization of WZW and coset models_, Comm. Math. Phys. Volume 144, Number 1 (1992), 189-212. ([doi](https://doi.org/10.1007/BF02099196)).
 
 [[!redirects coset model]]
 
