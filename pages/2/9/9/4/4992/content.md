@@ -1,3 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
+
+
+## Idea
+
 The __[[free object|free]] [[Lie algebra]] [[functor]]__ is the [[left adjoint]] functor $FreeLieAlg$ to the [[forgetful functor]] $LieAlg\to Set$. The proof that 
 a left adjoint exists relies on a concrete construction. Let $X$ be a set, then
 define recursively for $n\geq 1$ sets $X_n = \coprod_{p=1}^{n-1} X_p\times X_{n-p}$
@@ -16,14 +33,25 @@ The __free Lie algebra__ on the [[set]] $X$ is the result $FreeLieAlg(X)$ of eva
 
 The subject of free Lie algebras is combinatorially rich with lots of open problems. By a 1953 theorem of A. I. &#352;ir&#353;ov (Shirshov) every Lie subalgebra of a free Lie subalgebra is free (an analogue of the [[Nielsen-Schreier theorem]] in combinatorial group theory). The study of bases of a free Lie algebra considered as a vector space is very nontrivial; special attention has been paid to so-called Hall bases.
 
-* [[N. Bourbaki]], _Lie groups and Lie algebras_, Chap. II: Free Lie Algebras
-* Christophe Reutenauer, _Free Lie algebras_, Oxford Univeristy Press 1993
+## Literature
 
-* [[C. Reutenauer]], _Free Lie algebras_, Handbook of Algebra, vol. 3, 2003, 887-903, <a href="http://dx.doi.org/10.1016/S1570-7954(03)80075-X">doi</a>
+* {#Serre64} [[Jean-Pierre Serre]]: *Free Lie Algebra*, Chapter IV of: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500**, Springer (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
+
+* [[Nicolas Bourbaki]], *Free Lie Algebras*, Chap. II of: _Lie groups and Lie algebras -- Chapters 1-3_, Springer (1975, 1989) &lbrack;[ISBN:9783540642428](https://link.springer.com/book/9783540642428)&rbrack;
+
+* [[Christophe Reutenauer]], _Free Lie algebras_, Oxford University Press (1993) &lbrack;[ISBN:9780198536796](https://global.oup.com/academic/product/free-lie-algebras-9780198536796)&rbrack;
+
+* [[Christophe Reutenauer]], _Free Lie algebras_, Handbook of Algebra **3** (2003) 887-903 &lbrack;<a href="http://dx.doi.org/10.1016/S1570-7954(03)80075-X">doi:10.1016/S1570-7954(03)80075</a>&rbrack;
+
+* [[Shlomo Sternberg]]: *Free Lie Algebras*, Section 1.11 of: *Lie Algebras* (2004) &lbrack;[pdf](https://people.math.harvard.edu/~shlomo/docs/lie_algebras.pdf), [[Sternberg-LieAlgebras.pdf:file]]&rbrack;
+ 
+* Wikipedia: *[Free Lie algebra](http://en.wikipedia.org/wiki/Free_Lie_algebra)*
+
+
+See also:
 
 * [[C. Reutenauer]], _Applications of a noncommutative jacobian matrix_, Journal of Pure and Applied Algebra __77__, n. 2, 1992, p. 169-181, <a href="http://dx.doi.org/10.1016/0022-4049(92)90083-R">doi</a>
- 
-* wikipedia: [free Lie algebra](http://en.wikipedia.org/wiki/Free_Lie_algebra)
+
 
 * [[Mikhail Kapranov]], _Free Lie algebroids and space of paths_, [math,DG/0702584](http://arxiv.org/abs/math/0702584)
 
