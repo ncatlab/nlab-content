@@ -125,15 +125,37 @@ Further characterization:
 
 * {#Blumberg16} [[Andrew Blumberg]], [[Michael Hill]], _Incomplete Tambara functors_, Algebr. Geom. Topol. **18** (2018) 723-766 &lbrack;[arXiv:1603.03292](https://arxiv.org/abs/1603.03292), [doi:10.2140/agt.2018.18.723](https://doi.org/10.2140/agt.2018.18.723)&rbrack;
 
+* [[Jonathan Rubin]], _Combinatorial $N_\infty$ operads_ &lbrack;[arXiv:1705.03585v3](https://arxiv.org/abs/1705.03585v3)&rbrack;
+
+On those coming from equivariant linear isometries operads:
+
 * {#Rubin17} [[Jonathan Rubin]], _Characterizations of equivariant Steiner and linear isometries operads_ &lbrack;[ arXiv:1903.08723v2](https://arxiv.org/abs/1903.08723v2)&rbrack;
 
+* Usman Hafeez, Peter Marcus, Kyle Orbsby, [[Angélica Osorno]], _Saturated and linear isometric transfer systems for cyclic groups of order $p^m q^n$_,  &lbrack;[ arXiv:2109.08210](https://arxiv.org/abs/2109.08210)&rbrack;
+
+* Ethan MacBrough, _Equivariant linear isometries operads over Abelian groups_,  &lbrack;[arXiv:2311.08797](https://arxiv.org/abs/2311.08797)&rbrack;
+
+* Julie E. M. Bannwart, _Realization of saturated transfer systems on cyclic groups of order $p^{n} q^{m}$ by linear isometries $N_\infty$-operads_ &lbrack;[arXiv:2311.01608](https://arxiv.org/abs/2311.01608)&rbrack;
+
+On enumerating categories of transfer systems
+
 * {#Balchin19} [[Scott Balchin]], [[David Barnes]], [[Constanze Roitzheim]], _$N_\infty$-operads and associahedra_, Pacific J. Math. **315** (2021) 285-304 &lbrack;[arXiv:1905.03797](https://arxiv.org/abs/1905.03797), [doi:10.2140/pjm.2021.315.285](https://doi.org/10.2140/pjm.2021.315.285)&rbrack;
+
+* Evan E. Franchere, Kyle Ormsby, [[Angélica Osorno]], Weihang Qin, Riley Waugh, _Self-duality of the lattice of transfer systems via weak factorization systems_ &lbrack;[arXiv:2102.04415](https://arxiv.org/abs/2102.04415)&rbrack;
+
+* [[Scott Balchin]], Ethan MacBrough, Kyle Ormsby, _Lifting $N_\infty$ operads from conjugacy data_, &lbrack;[arXiv:2209.06798](https://arxiv.org/abs/2209.06798)&rbrack;
+
+* [[Scott Balchin]], Ethan MacBrough, Kyle Ormsby, _The combinatorics of $N_\infty$ operads for $C_{qp^n}$ and $D_{p^n}$_, &lbrack;[arXiv:2209.06992](https://arxiv.org/abs/2209.06992)&rbrack;
+
+
 
 Over [[orbital categories]]:
 
 * [[Denis Nardin]], [[Jay Shah]], _Parametrized and equivariant higher algebra_ &lbrack;[arxiv:2203.00072](https://arxiv.org/abs/2203.00072)&rbrack;
 
 * [[Natalie Stewart]], _Orbital categories and weak indexing systems_ (draft) &lbrack;[pdf](https://nataliesstewart.github.io/files/windex_draft.pdf)&rbrack;
+
+
 
 
 [[!redirects indexing systems]]
