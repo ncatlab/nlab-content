@@ -76,6 +76,11 @@ On the [[Sullivan models]] which are [[Chevalley-Eilenberg algebra]] of nilpoten
 
 * [[Manuel Amann]], pp. 4 of: *On quasi-isometric nilpotent Lie groups* &lbrack;[arXiv:1710.04542](https://arxiv.org/abs/1710.04542)&rbrack;
 
+On nilpotent [[super Lie algebras]]:
+
+* [[Manfred Scheunert]], §III.2 in: *The theory of Lie superalgebras. An introduction*, Lect. Notes Math. **716** (1979) &lbrack;[doi:10.1007/BFb0070929](https://doi.org/10.1007/BFb0070929)&rbrack;
+
+* Luc Frappat, Antonio Sciarrino, Paul Sorba: §26 in: _Dictionary on Lie Superalgebras_, Academic Press (2000) &lbrack;[arXiv:hep-th/9607161](http://arxiv.org/abs/hep-th/9607161), ISBN:978-0122653407&rbrack;
 
 [[!redirects ad-nilpotent Lie algebra]]
 [[!redirects ad-nilpotent Lie algebras]]
