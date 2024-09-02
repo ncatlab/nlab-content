@@ -9,13 +9,14 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea ##
 
-In [[algebra]], the *Wedderburn--Artin theorem* gives a clean characterization of those [[rings]] that are [[matrix algebras]] over [[division rings]].
+In [[algebra]], the *Wedderburn-Artin theorem* &lbrack;[Wedderburn 1908](#Wedderburn1908), [Artin 1927](#Artin27)&rbrack; gives a clean characterization of those [[rings]] that are [[matrix algebras]] over [[division rings]].
    
 Concretely, the theorem says that any [[semisimple ring]] is a [[finite limit|finite]] [[direct sum]] of [[matrix algebras]] over [[division rings]]. (Here a [[ring]] is called *[[semisimple ring|semisimple]]* if each of its left or equivalently right [[modules]] is a finite [[direct sum]] of [[simple modules]].) 
 
@@ -23,10 +24,14 @@ Concretely, the theorem says that any [[semisimple ring]] is a [[finite limit|fi
 
 \begin{proposition}\label{TheTheorem}
 **(Wedderburn--Artin Theorem)** \linebreak
-Every [[semisimple ring]] is [[isomorphism|isomorphic]] to a finite [[direct sum]] of [[matrix algebras]] over [[division rings]].   A semisimple ring is [[simple ring|simple]] if and only if it is a matrix algebra over a division ring.
+Every [[semisimple ring]] is [[isomorphism|isomorphic]] to a finite [[direct sum]] of [[matrix algebras]] over [[division rings]].  A semisimple ring is [[simple ring|simple]] if and only if it is a matrix algebra over a division ring.
 \end{proposition}
 
-Beware: a simple ring may not be semisimple!  A ring is simple iff it has no two-sided ideals, and in the absence of further hypotheses this does not imply that all of its left (or equivalently right) modules are direct sums of simple modules.  For example, the [[Weyl algebra]] is simple but not semisimple, and not isomorphic to a matrix algebra over a division ring.  However, a simple ring that is left or right [[Artinian ring|artinian]] is semisimple, so we have:
+\begin{remark}
+Beware: A [[simple ring]] may not be semisimple!  A ring is simple iff it has no two-sided ideals, and in the absence of further hypotheses this does not imply that all of its left (or equivalently right) modules are direct sums of simple modules.  For example, the [[Weyl algebra]] is simple but not semisimple, and not isomorphic to a matrix algebra over a division ring.  
+\end{remark}
+
+However, a simple ring that is left or right [[Artinian ring|artinian]] is semisimple, so we have:
 
 \begin{corollary}\label{Corollary}
 \linebreak
@@ -161,6 +166,14 @@ Thus $b$ is the left inverse of $x$.  So $x$ is the right inverse of $b$.  &mark
 
 ## References
 
+The original articles:
+
+* {#Wedderburn1908} [[Joseph H. M. Wedderburn]]: *On hypercomplex numbers*, Proc. London Math. Soc. **s2-6** 1 (1908) 77-118 &lbrack;[doi:10.1112/plms/s2-6.1.77](https://doi.org/10.1112/plms/s2-6.1.77)&rbrack;
+
+* {#Artin27} [[Emil Artin]]: *Zur Theorie der hyperkomplexen Zahlen*, Abh. Math. Semin. Univ. Hambg. **5** (1927) 251–260 &lbrack;[doi:10.1007/BF02952526](https://doi.org/10.1007/BF02952526)&rbrack;
+
+Review:
+
 * {#Nicholson93} William K. Nicholson, *A short proof of the Wedderburn--Artin theorem*, *New Zealand J. Math* **22** (1993) 83-86 &lbrack;[pdf](https://www.thebookshelf.auckland.ac.nz/docs/NZJMaths/nzjmaths022/nzjmaths022-01-010.pdf)&rbrack;
 
 * Tsiu-Kwen Lee, *A short proof of the Wedderburn-Artin theorem*,  Communications in Algebra **45** 7 (2017) &lbrack;[doi:10.1080/00927872.2016.1233242](https://doi.org/10.1080/00927872.2016.1233242)&rbrack;
@@ -169,7 +182,7 @@ Thus $b$ is the left inverse of $x$.  So $x$ is the right inverse of $b$.  &mark
 
 See also:
 
-* Wikipedia, _[Wedderburn--Artin theorem](https://en.wikipedia.org/wiki/Wedderburn%E2%80%93Artin_theorem)_
+* Wikipedia, _[Wedderburn-Artin theorem](https://en.wikipedia.org/wiki/Wedderburn%E2%80%93Artin_theorem)_
 
 [[!redirects Wedderburn's theorem]]
 [[!redirects Artin-Wedderburn theorem]]
