@@ -11,7 +11,8 @@ Felix Berezin (1931-1980)
 
 According to [V. Kac 1977b](super+Lie+algebra#Kac77b) the definition of [[super Lie algebras]] is originally due to:
 
-* [[Felix Berezin]], G. I. Kac, Math. Sbornik &&82** (1970) 343-351 (in Russian)
+* [[Felix Berezin]], G. I. Kac, Math. Sbornik **82** (1970) 343-351 
+  > (in Russian)
 
 
 Early discussion of [[supermanifolds]]:
