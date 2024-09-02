@@ -855,7 +855,8 @@ According to [Palmkvist 13, 3.1](tensor+hierarchy#Palmkvist13), [Lavau-Palmkvist
 
 According to [V. Kac 1977b](#Kac77b) the definition of super Lie algebra is originally due to:
 
-* [[Felix Berezin]], G. I. Kac, Math. Sbornik &&82** (1970) 343-351 (in Russian)
+* [[Felix Berezin]], G. I. Kac, Math. Sbornik **82** (1970) 343-351 
+  > (in Russian)
 
 See also:
 
@@ -878,7 +879,7 @@ See also:
 
 Further discussion specifically of [classification of supersymmetry](#supersymmetry#Classification):
 
-* {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl.Phys. B135 (1978) 149 ([spire](https://inspirehep.net/record/120988/), [pdf](http://cds.cern.ch/record/132743/files/197709213.pdf))
+* {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl. Phys. B **135** (1978) 149 &lbrack;[spire](https://inspirehep.net/record/120988/), [pdf](http://cds.cern.ch/record/132743/files/197709213.pdf)&rbrack;
 
 * {#Shnider88} [[Steven Shnider]], *The superconformal algebra in higher dimensions*, Letters in Mathematical Physics **16** 4 (1988) 377-383 &lbrack;[doi:10.1007/BF00402046](https://doi.org/10.1007/BF00402046)&rbrack;
 
@@ -888,36 +889,36 @@ Introductions and surveys:
 
 * [[Vladimir Rittenberg]]: *A guide to Lie superalgebras*, in P. Kramers, A. Rieckers (eds.): *Group Theoretical Methods in Physics*, Lecture Notes in Physics **79** Springer (1978) 3-21 &lbrack;[doi:10.1007/3-540-08848-2_1](https://doi.org/10.1007/3-540-08848-2_1), [[Rittenberg-GuideToLieSuperalgebras.pdf:file]]&rbrack; 
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], chII.2: [[CastellaniDAuriaFre-ChII2.pdf:file]]&rbrack;
+* [[Manfred Scheunert]], *The theory of Lie superalgebras. An introduction*, Lect. Notes Math. **716** (1979) &lbrack;[doi:10.1007/BFb0070929](https://doi.org/10.1007/BFb0070929)&rbrack;
+ 
+* [[Dimitry A. Leites]], *Lie Superalgebras*, J. Soviet Math. **30** (1985) 2481-2512 &lbrack;[doi:10.1007/BF02249121](http://dx.doi.org/10.1007/BF02249121)&rbrack;
 
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2 of: _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], chII.2: [[CastellaniDAuriaFre-ChII2.pdf:file]]&rbrack;
   > (with an eye towards [[supergravity]])
 
-* {#Farmer84} Richard J. Farmer, *Orthosymplectic superalgebras in mathematics and science*, PhD Thesis (1984) ([eprints:19542](http://eprints.utas.edu.au/19542), [[Farmer-OSpSuperalgebra.pdf:file]]&rbrack;
+* {#Farmer84} Richard J. Farmer, *Orthosymplectic superalgebras in mathematics and science*, PhD Thesis (1984) &lbrack;[eprints:19542](http://eprints.utas.edu.au/19542), [[Farmer-OSpSuperalgebra.pdf:file]]&rbrack;
 
-* L. Frappat, A. Sciarrino, P. Sorba, _Dictionary on Lie Superalgebras_ ([arXiv:hep-th/9607161](http://arxiv.org/abs/hep-th/9607161))
+* Luc Frappat, Antonio Sciarrino, Paul Sorba: *Structure of basic Lie superalgebras and of their affine extensions*, Comm. Math. Phys. **121** 3 (1989) 457-500 &lbrack;[euclid:cmp/1104178142](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-121/issue-3/Structure-of-basic-Lie-superalgebras-and-of-their-affine-extensions/cmp/1104178142.full)&rbrack;
+
+* Luc Frappat, Antonio Sciarrino, Paul Sorba: _Dictionary on Lie Superalgebras_, Academic Press (2000) &lbrack;[arXiv:hep-th/9607161](http://arxiv.org/abs/hep-th/9607161), ISBN:978-0122653407&rbrack;
+
 
 * Groeger, _Super Lie groups and super Lie algebras_, lecture notes 2011 ([pdf](http://www.mathematik.hu-berlin.de/~groegerj/teaching_files/lecture12.pdf))
 
-* L. Frappat, A. Sciarrino, P. Sorba, _Dictionary on Lie Superalgebras_ ([arXiv:hep-th/9607161](http://arxiv.org/abs/hep-th/9607161))
-
-* D. Leites, _Lie superalgebras_, J. Soviet Math. 30 (1985), 2481--2512 ([web](http://dx.doi.org/10.1007/BF02249121))
-
-* [[Manfred Scheunert]], *The theory of Lie superalgebras. An introduction*, Lect. Notes Math. **716** (1979) &lbrack;[doi:10.1007/BFb0070929](https://doi.org/10.1007/BFb0070929)&rbrack;
 
 * D. Westra, _Superrings and supergroups_ ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
 
-* {#Minwalla98} [[Shiraz Minwalla]], _Restrictions imposed by superconformal invariance on quan tum field theories_ Adv. Theor. Math. Phys. 2, 781 (1998)
-([arXiv:hep-th/9712074](http://arxiv.org/abs/hep-th/9712074)).
+* {#Minwalla98} [[Shiraz Minwalla]], _Restrictions imposed by superconformal invariance on quantum field theories_, Adv. Theor. Math. Phys. **2** (1998) 781 &lbrack;[arXiv:hep-th/9712074](http://arxiv.org/abs/hep-th/9712074)&rbrack;
 
 
-Discussion in the topos over superpoints is in 
+Discussion in the [[presheaf topos]] over [[superpoints]]:
 
-* {#Sachse08} [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
+* {#Sachse08} [[Christoph Sachse]], Section 3 of: _A Categorical Formulation of Superalgebra and Supergeometry_ &lbrack;[arXiv:0802.4067](http://arxiv.org/abs/0802.4067)&rbrack;
 
 
 Discussion of  [[Lie algebra extensions]] for super Lie algebras includes
 
-* [[Dmitri Alekseevsky]], [[Peter Michor]], Wolfgang Ruppert, _Extensions of super Lie algebras_, J. Lie Theory 15 (2005) No. 1, 125--134 ([arXiv:math/0101190](http://arxiv.org/abs/math/0101190))
+* [[Dmitri Alekseevsky]], [[Peter Michor]], Wolfgang Ruppert, _Extensions of super Lie algebras_, J. Lie Theory **15** 1 (2005) 125-134 &lbrack;[arXiv:math/0101190](http://arxiv.org/abs/math/0101190)&rbrack;
 
 On [[Lie algebra weight systems]] arising from [[super Lie algebras]]:
 
