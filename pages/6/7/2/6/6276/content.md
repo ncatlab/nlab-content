@@ -117,18 +117,28 @@ Early discussion:
 * [[Kuo-Tsai Chen]], _Integration of paths, geometric invariants and a generalized Baker--Hausdorff formula_, Annals of Mathematics __65__:1 (1957) 163--178 [doi](https://doi.org/10.2307/1969671) [jstor](http://www.jstor.org/stable/1969671) 
 
 
-Review:
+Most monographs on [[Lie algebras]] discuss the Hausdorff series, for instance:
+
+* {#Serre64} [[Jean-Pierre Serre]], Section IV.7 in: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500**, Springer (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
+
+* [[Gerhard P. Hochschild]], p. 226 in: *Basic Theory of Algebraic Groups and Lie Algebras*, Graduate Texts in Mathematics **75**, Springer (1981) &lbrack;[doi:10.1007/978-1-4613-8114-3_16](https://doi.org/10.1007/978-1-4613-8114-3_16)&rbrack; 
+
+* [[Hans Duistermaat]], [[Johan A. C. Kolk]], *Dynkin's formula*, Section 1.7 in: *Lie groups*, Springer (2000) &lbrack;[doi:10.1007/978-3-642-56936-4](https://doi.org/10.1007/978-3-642-56936-4)&rbrack;
 
 * [[Shlomo Sternberg]]: *The Campbell Baker Hausdorff Formula*, Section 1 of: *Lie Algebras* (2004) &lbrack;[pdf](https://people.math.harvard.edu/~shlomo/docs/lie_algebras.pdf), [[Sternberg-LieAlgebras.pdf:file]]&rbrack;
+
+* [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]]: §3.3 in: *Berkeley Lectures on Lie Groups and Quantum Groups* (2020-2024) &lbrack;[pdf](http://categorified.net/LieQuantumGroups.pdf)&rbrack;
+
+See also:
+
+* Wikipedia: *[Baker–Campbell–Hausdorff formula](https://en.wikipedia.org/wiki/Baker%E2%80%93Campbell%E2%80%93Hausdorff_formula)*
 
 
 * [[Terence Tao]], *[254A, Notes 1: Lie groups, Lie algebras, and the Baker-Campbell-Hausdorff formula](https://terrytao.wordpress.com/2011/09/01/254a-notes-1-lie-groups-lie-algebras-and-the-baker-campbell-hausdorff-formula/)*, blog entry (2011)
 
 * [[Terence Tao]]: *[The $C^{1,1}$ Baker-Campbell-Hausdorff formula](https://terrytao.wordpress.com/2011/06/21/the-c11-baker-campbell-hausdorff-formula)*, blog entry (2011)
 
-* Wikipedia: *[Baker–Campbell–Hausdorff formula](https://en.wikipedia.org/wiki/Baker%E2%80%93Campbell%E2%80%93Hausdorff_formula)*
 
-* [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]]: §3.3 in: *Berkeley Lectures on Lie Groups and Quantum Groups* (2020-2024) &lbrack;[pdf](http://categorified.net/LieQuantumGroups.pdf)&rbrack;
 
 
 See also:
