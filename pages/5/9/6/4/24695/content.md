@@ -14,7 +14,12 @@ On [[hermitian functorial field theory]] and the [[spin-statistics theorem]]:
 
 * [[Luuk Stehouwer]], _The categorical spin-statistics theorem_ &lbrack;[arXiv:2403.02282](https://arxiv.org/abs/2403.02282)&rbrack;
 
-* Cameron Krulewski, [[Lukas Müller]], [[Luuk Stehouwer]]: *A Higher Spin Statistics Theorem for Invertible Quantum Field Theories* &lbrack;[arXiv:2408.03981](https://arxiv.org/abs/2408.03981)&rbrack;
+* [[Cameron Krulewski]], [[Lukas Müller]], [[Luuk Stehouwer]]: *A Higher Spin Statistics Theorem for Invertible Quantum Field Theories* &lbrack;[arXiv:2408.03981](https://arxiv.org/abs/2408.03981)&rbrack;
+
+
+Introducing a notion of [[dagger n-categories|dagger $n$-categories]]:
+
+* [[Giovanni Ferrer]], [[Brett Hungar]], [[Theo Johnson-Freyd]], [[Cameron Krulewski]], [[Lukas Müller]], [[Nivedita]], [[David Penneys]], [[David Reutter]], [[Claudia Scheimbauer]], [[Luuk Stehouwer]], [[Chetan Vuppulury]], *Dagger n-categories* &lbrack;[arXiv2403.01651](https://arxiv.org/abs/2403.01651)&rbrack;
 
 
 
