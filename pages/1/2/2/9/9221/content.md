@@ -50,6 +50,9 @@ On [[higher dagger categories]]:
 
 * [[Theo Johnson-Freyd]], *Higher Dagger Categories*, [talk at](Center+for+Quantum+and+Topological+Systems#JohnsonFreydNov2023) [[CQTS]] (08 Nov 2023) &lbrack;slides:[pdf](http://categorified.net/NYUADtalk.pdf), [[JohnsonFreyd-HigherDaggerNYUAD.pdf:file]], video:[YT](https://youtu.be/zvtziTpl2T0)&rbrack;
 
+* [[Giovanni Ferrer]], [[Brett Hungar]], [[Theo Johnson-Freyd]], [[Cameron Krulewski]], [[Lukas Müller]], [[Nivedita]], [[David Penneys]], [[David Reutter]], [[Claudia Scheimbauer]], [[Luuk Stehouwer]], [[Chetan Vuppulury]], *Dagger n-categories* &lbrack;[arXiv2403.01651](https://arxiv.org/abs/2403.01651)&rbrack;
+
+
 On [[tmf]] in relation to [[elliptic genera]] as [[partition functions]] of [[2d SCFTs]]:
 
 * [[Theo Johnson-Freyd]], [[Mayuko Yamashita]], *On the 576-fold periodicity of the spectrum SQFT: The proof of the lower bound via the Anderson duality pairing* \[<a href="https://arxiv.org/abs/2404.06333">arXiv:2404.06333</a>\]
