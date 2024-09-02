@@ -45,7 +45,7 @@ For two Cauchy structures $S$ and $T$, a __Cauchy structure homomorphism__ is a 
 
 * for all Cauchy approximations $r \in C(S)$, $f(lim(r)) = lim(f \circ r)$
 
-* for all elements $a \in S$ and $a \in S$, suppose $P(a, b)$ is the predicate that if for all positive rational numbers $\epsilon$ $a \sim_\epsilon b$ is true, then $a = b$, and $Q(a, b)$ is the predicate that for all positive rational numbers $\epsilon$ $f(a) \sim_\epsilon f(b)$ is true, then $f(a) = f(b)$. Then for all elements $a \in S$ and $a \in S$, $P(a, b)$ implies $Q(a, b)$
+* for all elements $a \in S$ and $b \in S$, suppose $P(a, b)$ is the predicate that if for all positive rational numbers $\epsilon$ $a \sim_\epsilon b$ is true, then $a = b$, and $Q(a, b)$ is the predicate that for all positive rational numbers $\epsilon$ $f(a) \sim_\epsilon f(b)$ is true, then $f(a) = f(b)$. Then for all elements $a \in S$ and $b \in S$, $P(a, b)$ implies $Q(a, b)$
 
 The __category of Cauchy structures__ is a [[category]] $CauchyStr$ whose objects $Ob(CauchyStr)$ are Cauchy structures and whose morphisms $Mor(A, B)$, for objects $A \in Ob(CauchyStr)$ and $B \in Ob(CauchyStr)$, are Cauchy structure homomorphisms. The initial object in the category of Cauchy structures is the [[HoTT book real numbers]]. 
 
