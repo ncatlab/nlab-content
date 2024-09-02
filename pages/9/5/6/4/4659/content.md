@@ -50,6 +50,9 @@ Since [[simple Lie algebras]] have a classification, so do semisimple Lie algebr
 
 ## References
 
+* {#Serre64} [[Jean-Pierre Serre]]: *Semisimple Lie algebras*, Chapter VI in: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500**, Springer (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
+
+
 * Robert Cahn, _Semisimple Lie algebras and their representation_ ([pdf](http://phyweb.lbl.gov/~rncahn/www/liealgebras/texall.pdf))
 
 Basics of the representation theory of semisimple Lie algebras is surveyed in 
