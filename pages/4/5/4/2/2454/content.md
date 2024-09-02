@@ -121,6 +121,8 @@ The universal enveloping algebra of the [[tangent Lie algebra]] of a  finite-dim
 
 ## References
 
+* {#Serre64} [[Jean-Pierre Serre]]: *Universal Algebra of a Lie Algebra*, Chapter III in: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500**, Springer (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
+
 * {#Dixmier74} [[Jacques Dixmier]]; _[[Algèbres Enveloppantes]]_, Cahiers Scientifique (1974), Engl transl: _Enveloping Algebras_, Graduate Studies in Mathematics **11** American Mathematical Society (1996) &lbrack;[ams:gsm-11](https://bookstore.ams.org/gsm-11)&rbrack;
 
 * [[Nicolas Bourbaki]], §I.2 in: _Lie groups and Lie algebras -- Chapters 1-3_, Springer (1975, 1989) &lbrack;[ISBN:9783540642428](https://link.springer.com/book/9783540642428)&rbrack;
