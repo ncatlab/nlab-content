@@ -13,6 +13,10 @@ Early discussion of [[supermanifolds]]:
 
 * {#Leites80} [[Dimitry A. Leites]], *Introduction to the Theory of Supermanifolds*, Russ. Math. Surv. **35** 1 (1980) &lbrack;[doi:10.1070/RM1980v035n01ABEH001545](https://doi.org/10.1070/RM1980v035n01ABEH001545), [iop](https://iopscience.iop.org/article/10.1070/RM1980v035n01ABEH001545)&rbrack;
 
+On [[Lie superalgebras]]:
+
+* [[Dimitry A. Leites]], *Lie Superalgebras*, J. Soviet Math. **30** (1985) 2481-2512 &lbrack;[doi:10.1007/BF02249121](http://dx.doi.org/10.1007/BF02249121)&rbrack;
+
 
 category: people
 
