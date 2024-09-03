@@ -115,16 +115,16 @@ See also:
 
 * M. Artin, J. E. Bertin, M. Demazure, P. Gabriel, A. Grothendieck, M. Raynaud, J.-P. Serre, _Schemas en groupes_, [[SGA3]] 
 
-* {#Milne17} [[James Milne]], *Algebraic Groups -- The theory of group schemes of finite type over a field*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
+* {#Milne17} [[James Milne]], *Algebraic Groups -- The theory of group schemes of finite type over a field*, Cambridge University Press (2017)  &lbrack;[doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf)&rbrack;
 
 
-* A. Borel, _Linear algebraic groups_, Springer (2nd edition much expanded)
+* [[Armand Borel]], _Linear algebraic groups_, Springer (2nd edition much expanded)
 
 * W. Waterhouse, _Introduction to affine group schemes_, GTM 66, Springer 1979. 
 
-* S. Lang, _Abelian varieties_, Springer 1983.
+* [[Serge Lang]], _Abelian varieties_, Springer 1983.
 
-* D. Mumford, _Abelian varieties_, 1970, 1985.
+* [[David Mumford]], _Abelian varieties_, 1970, 1985.
 
 * J. C. Jantzen, _Representations of algebraic groups_, Acad. Press 1987 (Pure and Appl. Math. vol 131); 2nd edition AMS Math. Surveys and Monog. 107 (2003; reprinted 2007)
 
