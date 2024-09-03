@@ -142,7 +142,6 @@ Working with decidable subsets of sets with a decidable tight apartness makes [[
 
 * [[discrete field]]
 
-[[!redirects classical set]]
 [[!redirects classical sets]]
 
 [[!redirects decidable tight apartness]]
@@ -166,3 +165,6 @@ Working with decidable subsets of sets with a decidable tight apartness makes [[
 
 [[!redirects category of classical sets]]
 [[!redirects categories of classical sets]]
+
+[[!redirects category of decidable inequality spaces]]
+[[!redirects categories of decidable inequality spaces]]
