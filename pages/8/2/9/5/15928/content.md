@@ -23,7 +23,7 @@
 
 ## Idea
 
-A [[reflective sub-(infinity,1)-category|reflective]] sub-[[universe]]. If closed under [[dependent sum]], then this is the universe of [[modal types]] for a [[modal operator]].
+A [[reflective sub-(infinity,1)-category|reflective]] [[subtype|sub]]-[[universe]]. If closed under [[dependent sum]], then this is the universe of [[modal types]] for a [[modal operator]].
 
 For the relation to [[modal type theory]] see [Rijke, Shulman, Spitters](#RSS).
 
