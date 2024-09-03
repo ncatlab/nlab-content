@@ -34,39 +34,20 @@ Theorem 6.19 of [Shulman 18](#Shulman18) says that the [[unit type]] is crisply 
 \end{proof}
 
 \begin{theorem}
-Let $A$ be a cohesive type with a [[tight apartness relation]]. Assuming punctual cohesion and crisp [[excluded middle]], if the [[tight apartness relation]] on $A$ is [[decidable tight apartness relation|decidable]], then $A$ is discrete. 
-\end{theorem}
-
-\begin{proof}
-Since the [[tight apartness relation]] and [[equality]] are incompatible propositions, we have for all $x:A$ and $y:A$ that 
-$$(x \# y) \vee (x = y) \simeq (x \# y) + (x = y)$$
-so we can define functions by induction on the [[boolean domain]]. Given a function $f:I \to A$ there is a function $g:I \to \mathbb{2}$ defined as 
-$$
-g(r) \coloneqq 
-\begin{cases}
-1 & f(r) = f(p) \\
-0 & f(r) \# f(p)
-\end{cases}
-$$
-Since the boolean domain is discrete, $g$ is constant, but $g(p) = 1$, so $g(r) = 1$ and $f(r) = f(p)$ for all $r:I$, meaning that $f$ is also a constant function. Thus $A$ is discrete. 
-\end{proof}
-
-\begin{theorem}
 The natural numbers $\mathbb{N}$ are discrete.
 \end{theorem}
 
 \begin{proof}
-The tight apartness relation on $\mathbb{N}$ is given by [[denial inequality]], and denial inequality is decidable since equality is decidable in $\mathbb{N}$, implying that $\mathbb{N}$ is discrete. 
+Theorem 6.21 of [Shulman 18](#Shulman18) says that the [[natural numbers]] is crisply discrete, thus discrete.  
 \end{proof}
 
 \begin{theorem}
-Assuming crisp [[excluded middle]] and punctual cohesion, types with [[decidable tight apartness relations]] are closed under [[function types]] in the cohesive mode. 
+Assuming crisp [[excluded middle]] and punctual cohesion, the [[limited principle of omniscience]] holds. 
 \end{theorem}
 
 \begin{proof}
-Given types $A$ and $B$ with [[decidable tight apartness relations]], types $A$ and $B$ are discrete, which means that the function type $A \to B$ is also discrete by [[axiom C0]], so we may assume that any functions $f:A \to B$ and $g:A \to B$ are crisp. Then the [[tight apartness relation]] on $A \to B$ defined by 
-$$f \# g \coloneqq \exists x:A.f(x) \# g(x)$$
-is crisp, so by crisp excluded middle, we have $f \# g$ or $\neg (f \# g)$. But $\neg (f \# g)$ is just $f = g$, so we are done. 
+Since the [[natural numbers]] $\mathbb{N}$ and the [[boolean domain]] $\mathbb{2}$ are discrete, the function type $\mathbb{N} \to \mathbb{2}$ is also discrete by [[axiom C0]], so we may assume that any function $f:\mathbb{N} \to \mathbb{2}$ is crisp. Then the [[existential quantifier]] on $\exists x:A.f(x) = 1$
+is crisp, so by crisp excluded middle, we have $\exists x:A.f(x) = 1$ or $\neg \exists x:A.f(x) = 1$. But $\neg \exists x:A.f(x) = 1$ is just $\forall x:A.f(x) = 0$, so we are done. 
 \end{proof}
 
 \begin{theorem}
@@ -74,9 +55,7 @@ Assuming crisp [[excluded middle]] and punctual cohesion, the [[Cauchy real numb
 \end{theorem}
 
 \begin{proof}
-Since $\mathbb{N}$ and $\mathbb{2}$ both have [[decidable tight apartness relations]], the function type $\mathbb{N} \to \mathbb{2}$ has a decidable tight apartness relation, which implies the [[limited principle of omniscience]]. 
-
-The limited principle of omniscience implies that for each rational number $q$, the left and right Dedekind cuts for an element $x$ of $\mathrm{R}_\Sigma$, evaluated at $q$, $L_x(q)$ and $R_x(q)$, are both decidable propositions. In addition, limited principle of omniscience implies that any [[existential quantification]] of a decidable predicate  over the rational numbers is itself a decidable proposition. The [[pseudo-order]] relation $\lt$ on $\mathbb{R}_\Sigma$ is defined as 
+The [[limited principle of omniscience]] implies that for each rational number $q$, the left and right Dedekind cuts for an element $x$ of $\mathrm{R}_\Sigma$, evaluated at $q$, $L_x(q)$ and $R_x(q)$, are both decidable propositions. In addition, limited principle of omniscience implies that any [[existential quantification]] of a decidable predicate  over the rational numbers is itself a decidable proposition. The [[pseudo-order]] relation $\lt$ on $\mathbb{R}_\Sigma$ is defined as 
 $$x \lt y \coloneqq \exists q \in \mathbb{Q}.L_x(q) \wedge R_y(q)$$
 Since $L_x(q)$ and $R_y(q)$ are both decidable, the conjunction is also decidable, and so is the existential quantifier by LPO for the natural numbers, and by definition the strict order on $\mathrm{R}_\Sigma$, which is the [[analytic LPO]] for $\mathrm{R}_\Sigma$. 
 
