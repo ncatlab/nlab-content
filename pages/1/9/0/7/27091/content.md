@@ -87,17 +87,47 @@ Further axioms can be assumed of the category of classical sets which are not [[
 
 * That the [[Dedekind real numbers]] are a classical set is equivalent to the [[analytic LPO]]. 
 
-* That the category of classical sets is [[cartesian closed category|cartesian closed]] or equivalently [[locally cartesian closed category|locally cartesian closed]], which implies the [[limited principle of omniscience]]. This is provable in the cohesive mode in [[cohesive homotopy type theory]] from crisp [[excluded middle]] and [[punctual cohesion]]. 
+* That the [[set of truth values]] is a classical set is equivalent to [[excluded middle]]; thus this is usually not assumed to be a classical set in constructive mathematics. In fact, either [[decidable equality]] or a [[tight apartness relation]] on the set of truth values is sufficient to prove [[excluded middle]]. 
 
-* That every [[inequality space]] is a [[classical set]], which implies [[analytic LPO]]. In the presence of [[quotient sets]], this is equivalent in strength to the statement that every [[apartness relation]] on a [[set]] is [[decidable relation|decidable]]:
+### Cartesian closure
+
+One can also postulate that the category of classical sets is [[cartesian closed category|cartesian closed]] or equivalently [[locally cartesian closed category|locally cartesian closed]]. 
+
+\begin{theorem}
+There are two definable functions from every subsingleton $A$ to the [[boolean domain]] $\{0, 1\}$, the [[constant functions]] $\lambda x:A.0$ and $\lambda x:A.1$. Suppose that either there exists $x:A$ such that $(\lambda x:A.0)(x) \neq (\lambda x:A.1)(x)$, or for all $x:A$, $(\lambda x:A.0)(x) = (\lambda x:A.1)(x)$. Then $A$ is a [[decidable subsingleton]]. 
+\end{theorem}
+
+\begin{proof}
+We prove by case analysis. 
+
+Suppose that there exists $x:A$ such that $(\lambda x:A.0)(x) \neq (\lambda x:A.1)(x)$. Then $A$ is a [[inhabited set|inhabited]] subsingleton and thus a decidable subsingleton. 
+
+Then suppose that for all $x:A$, $(\lambda x:A.0)(x) = (\lambda x:A.1)(x)$. Then $A$ is [[empty set|empty]] and thus a decidable subsingleton, and the function set $\{0, 1\}^A$ is a [[singleton]] by the [[universal property]] of the empty set, with all functions equal to each other. 
+
+This exhausts all options for decidable subsingletons, and exhausts all possible conditions in the hypothesis. 
+\end{proof}
+
+\begin{theorem}
+Suppose that classical sets are [[cartesian closed]]; i.e. suppose that for sets $A$ and $B$ with [[decidable tight apartness relations]], the [[tight apartness relation]] on the function set $B^A$, defined by $f \# g \coloneqq \exists x:A.f(x) \neq g(x)$, is decidable. Then [[excluded middle]] holds. 
+\end{theorem}
+
+\begin{proof}
+Every [[subsingleton]] $A$ has a [[decidable tight apartness relation]] where $x \# y$ is always [[false]]. The [[boolean domain]] $\{0, 1\}$ also has a decidable tight apartness relation where $x \# y$ is given by the [[denial inequality]] $x \neq y$. That the tight apartness relation on the function set $\{0, 1\}^A$ is decidable implies the previous theorem above, which implies that every subsingleton $A$ is a decidable subsingleton, which is precisely the condition of [[excluded middle]]. 
+\end{proof}
+
+In essence, if we take [[classical mathematics]] to be mathematics where only the classical sets are relevant, then [[constructive mathematics]] are a form of [[predicative mathematics]] in the classical sense, where not all classical [[function sets]] exist, since general function sets are not classical sets. 
+
+\begin{theorem}
+Suppose that every [[inequality space]] is a [[classical set]]. Then [[excluded middle]] holds. 
+\end{theorem}
+
+\begin{theorem}
+In the presence of [[quotient sets]], suppose that every [[apartness relation]] on a [[set]] is [[decidable relation|decidable]]:
 
 $$((\forall x.\neg R(x, x)) \wedge (\forall x, y.R(x, y) \Rightarrow R(y, x)) \wedge (\forall x, y, z.R(x, y) \wedge R(y, z) \Rightarrow R(x, z))) \Rightarrow (\forall x, y.R(x, y) \vee \neg R(x, y))$$
 
-* That the [[set of truth values]] is a classical set is equivalent to [[excluded middle]]; thus this is usually not assumed to be a classical set in constructive mathematics. In fact, either [[decidable equality]] or a [[tight apartness relation]] on the set of truth values is sufficient to prove [[excluded middle]]. 
-
-The category of classical sets being cartesian closed implies that the [[boolean domain]] is the [[initial object|initial]] [[Boolean algebra]] with all [[joins]] and [[meets]] indexed by classical sets. If every set is a classical set, this implies that the [[boolean domain]] is a [[complete Boolean algebra]]. 
-
-If classical sets are [[cartesian closed]], there is a cartesian closed [[subcategory]] of the category of classical sets, which is the [[initial object|initial]] cartesian closed category with pullbacks and closed under [[finite sets]] and the [[natural numbers]]. This cartesian closed subcategory is a [[Boolean topos]] since if classical sets are [[cartesian closed]], the only subsingletons that can be generated by finite sets and natural numbers in a cartesian closed category with pullbacks are the [[decidable subset|decidable subsingletons]]. This means that cartesian closure of classical sets is sufficient to replicate the entirety of (neutral, impredicative) [[classical mathematics]] in constructive mathematics, so long as one only works inside the Boolean subtopos. 
+Then [[excluded middle]] holds. 
+\end{theorem}
 
 ## Applications
  {#Applications}
