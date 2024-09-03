@@ -32,7 +32,7 @@ An element in $\hat{A}(X)$ is invertible (under multiplication) iff it's free te
 The __Magnus group__ is the (multiplicative) subgroup of the Magnus algebra consisting of all elements in the Magnus algebra with free 
 term $1$. 
 
-### Hausdorff group and Hausdorff series
+## Hausdorff group and Hausdorff series
 
 The [[free Lie algebra]] $L(X)$ naturally embeds in (the Lie algebra corresponding to the associative algebra) $A(X)\hookrightarrow \hat{A}(X)$; one defines $\hat{L}(X)$ as the closure of $L(X)$ in $\hat{A}(X)$. The exponential series and the makes sense in $\hat{A}(X)$; when restricted to $\hat{L}(X)$ it gives a bijection between $\hat{L}(X)$ and a closed subgroup of the Magnus group which is sometimes called the Hausdorff group $exp(\hat{L}(X))$.  
 
@@ -112,8 +112,6 @@ Early discussion:
 
 * [[Nicolas Bourbaki]], _Lie groups and algebras_, chapter II
 
-* [[M M Postnikov]], Lectures on geometry, Semester V, Lie groups and algebras
-
 * [[Kuo-Tsai Chen]], _Integration of paths, geometric invariants and a generalized Baker--Hausdorff formula_, Annals of Mathematics __65__:1 (1957) 163--178 [doi](https://doi.org/10.2307/1969671) [jstor](http://www.jstor.org/stable/1969671) 
 
 
@@ -121,7 +119,9 @@ Most monographs on [[Lie algebras]] discuss the Hausdorff series, for instance:
 
 * {#Serre64} [[Jean-Pierre Serre]], Section IV.7 in: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500**, Springer (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
 
-* [[Gerhard P. Hochschild]], p. 226 in: *Basic Theory of Algebraic Groups and Lie Algebras*, Graduate Texts in Mathematics **75**, Springer (1981) &lbrack;[doi:10.1007/978-1-4613-8114-3_16](https://doi.org/10.1007/978-1-4613-8114-3_16)&rbrack; 
+* [[Gerhard P. Hochschild]], p. 226 in: *Basic theory of algebraic groups and Lie algebras*, Graduate Texts in Mathematics **75**, Springer (1981) &lbrack;[doi:10.1007/978-1-4613-8114-3_16](https://doi.org/10.1007/978-1-4613-8114-3_16)&rbrack; 
+
+* [[M M Postnikov]], Lectures on geometry, Semester V, Lie groups and algebras
 
 * [[Hans Duistermaat]], [[Johan A. C. Kolk]], *Dynkin's formula*, Section 1.7 in: *Lie groups*, Springer (2000) &lbrack;[doi:10.1007/978-3-642-56936-4](https://doi.org/10.1007/978-3-642-56936-4)&rbrack;
 
