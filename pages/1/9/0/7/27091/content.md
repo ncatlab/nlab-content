@@ -115,6 +115,14 @@ Suppose that classical sets are [[cartesian closed]]; i.e. suppose that for sets
 Every [[subsingleton]] $A$ has a [[decidable tight apartness relation]] where $x \# y$ is always [[false]]. The [[boolean domain]] $\{0, 1\}$ also has a decidable tight apartness relation where $x \# y$ is given by the [[denial inequality]] $x \neq y$. That the tight apartness relation on the function set $\{0, 1\}^A$ is decidable implies the previous theorem above, which implies that every subsingleton $A$ is a decidable subsingleton, which is precisely the condition of [[excluded middle]]. 
 \end{proof}
 
+\begin{theorem}
+Suppose that classical sets are [[locally cartesian closed]]; i.e. suppose that for set $A$ with a [[decidable tight apartness relation]], and [[family of sets]] $B(x)$ indexed by elements $x \in A$ where each $B(x)$ comes with a [[decidable tight apartness relation]], the [[tight apartness relation]] on the indexed [[Cartesian product]] $\prod_{x \in A} B(x)$, defined by $f \# g \coloneqq \exists x:A.f(x) \neq g(x)$, is decidable. Then [[excluded middle]] holds. 
+\end{theorem}
+
+\begin{proof}
+Let $A$ be a singleton and let $B(x) = \{0, 1\}$ be the [[constant function|constant]] [[family of sets]] that is always defined to be the [[boolean domain]]. Then the indexed [[Cartesian product]] $\prod_{x \in A} B(x)$ is in [[bijection]] with the function set $\{0, 1\}^A$, and by the previous theorem, [[excluded middle]] holds. 
+\end{proof}
+
 In essence, if we take [[classical mathematics]] to be mathematics where only the classical sets are relevant, then [[constructive mathematics]] are a form of [[predicative mathematics]] in the classical sense, where not all classical [[function sets]] exist, since general function sets are not classical sets. 
 
 \begin{theorem}
