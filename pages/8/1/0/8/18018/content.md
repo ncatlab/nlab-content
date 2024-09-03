@@ -62,8 +62,6 @@ A finite-dimensional Lie algebra $\mathfrak{g}$ is nilpotent precisely if its [[
 
 ## References
 
-* [[eom]]: [Lie algebra, nilpotent](https://encyclopediaofmath.org/wiki/Lie_algebra,_nilpotent)
-* wikipedia: [Engel's theorem](https://en.wikipedia.org/wiki/Engel's_theorem)
 
 * {#Serre64} [[Jean-Pierre Serre]]: *Nilpotent and Solvable Lie Algebras*, Chapter V in: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500**, Springer (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
 
@@ -82,7 +80,13 @@ A finite-dimensional Lie algebra $\mathfrak{g}$ is nilpotent precisely if its [[
 
 * _Nilpotent Lie algebras_ &lbrack;[[Perrin-NilpotentLieAlgebras.pdf:file]]&rbrack;
 
+See also:
+
 * Wikipedia, _[Nilpotent Lie algebra](https://en.wikipedia.org/wiki/Nilpotent_Lie_algebra)_
+
+* Wikipedia: *[Engel's theorem](https://en.wikipedia.org/wiki/Engel's_theorem)*
+
+* [[eom]]: *[Lie algebra, nilpotent](https://encyclopediaofmath.org/wiki/Lie_algebra,_nilpotent)*
 
 * [GroupProps](https://groupprops.subwiki.org/wiki/Main_Page): *[Lie correspondence between nilpotent Lie algebras and unipotent algebraic groups](https://groupprops.subwiki.org/wiki/Lie_correspondence_between_nilpotent_Lie_algebras_and_unipotent_algebraic_groups)*
 
