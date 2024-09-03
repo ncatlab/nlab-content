@@ -1,4 +1,3 @@
-[[!redirects M-theory super Lie algebra]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -24,7 +23,35 @@
 
 ## Idea
 
-A [[super Lie algebra]] which is a [polyvector](super+Poincare+Lie+algebra#PolyvectorExtensions) [[Lie algebra extension|extension]] of the [[super Poincaré Lie algebra]] ([[supersymmetry]]) in $D = 10+1$ for  $N=1$ [[supersymmetry]] by [[charges]] corresponding to the [[M2-brane]] and the [[M5-brane]] ("[[extended supersymmetry]]"). 
+A [[super Lie algebra]] which is a [polyvector](super+Poincare+Lie+algebra#PolyvectorExtensions) [[Lie algebra extension|extension]] of the [[super Poincaré Lie algebra]] ([[supersymmetry]]) in $D = 10+1$ for  $\mathcal{N}=1$ [[supersymmetry]] by [[charges]] corresponding to the [[M2-brane]] and the [[M5-brane]] ("[[extended supersymmetry]]"). 
+
+Concretely, where the non-trivial [[super Lie bracket]] of the [[super-Minkowski Lie algebra]] is 
+
+$$
+  \big[
+    Q_\alpha
+    ,\,
+    Q_\beta
+  \big]
+  \;=\;
+  -2 \, \Gamma^a_{\alpha \beta} \, P_a
+$$
+
+in the M-theory super-Lie algebra this equation is extended to 
+
+$$
+  \big[
+    Q_\alpha
+    ,\,
+    Q_\beta
+  \big]
+  \;=\;
+  -2 \, \Gamma^a_{\alpha \beta} \, P_a
+  \,-\,2 \Gamma^{a_1 a_2}_{\alpha \beta} \, Z_{a_1 a_2}
+  \,-\,2 \Gamma^{a_1 \cdots a_5}_{\alpha \beta} \, Z_{a_1 \cdots a_5}
+$$
+
+([D'Auria & Fré 1982, Table 4](#DAuriaFre82), [Townsend 1995 (13)](#Townsend95) [1997a (1)](#Townsend97a) [1997b (24)](#Townsend97b), [BdAPV 2005 (1.2-4)](#BdAPV05); the term "M-algebra" for a further extension is due to [Sezgin 1997](#Sezgin97).)
 
 
 ## Properties
@@ -37,8 +64,8 @@ By the discussion at [conserved current -- In higher prequantum geometry](conser
 
 ### As the Lie algebra of derivations of the SuGra Lie 3-algebra
 
-In ([Castellani 05](#Castellani05)) it is 
-implicitly shown ([FSS 13](#FSS13)) that the M-extension arises  as the [[derivations]]/automorphisms of the [[supergravity Lie 3-algebra]]/[[supergravity Lie 6-algebra]] (see there for the details).
+[Castellani 2005](#Castellani05) 
+implicitly shows (cf. [FSS 13](#FSS13)) that the M-extension arises  as the [[derivations]]/automorphisms of the [[supergravity Lie 3-algebra]]/[[supergravity Lie 6-algebra]] (see there for the details).
 
 ### As an 11-dimensional boundary condition for the M2-brane
  {#AsAn11DimensionalBoundaryCondition}
@@ -62,7 +89,7 @@ $$
 
 (In the language of [[local prequantum field theory]] this identifies a [[boundary condition]] for the WZW term of the M2-brane.)
 
-They find, see also ([Bandos-Azcarraga-Izquierdo-PiconVarela 04](#BandosAzcarragaIzquierdoPiconVarela04)) that a solution for $\mathfrak{g}$ includes a fermionic extension of the M-theory super Lie algebra.
+They find (see also [Bandos, Azcarraga, Izquierdo, Picon & Varela 2004](#BandosAzcarragaIzquierdoPiconVarela04)) that a solution for $\mathfrak{g}$ includes a fermionic extension of the M-theory super Lie algebra.
 
 
 
@@ -88,13 +115,14 @@ They find, see also ([Bandos-Azcarraga-Izquierdo-PiconVarela 04](#BandosAzcarrag
 
 Two versions of a fermionic extension of the Polyvector extensions of $\mathfrak{Iso}(\mathbb{R}^{10,1|32})$ on which the [[M2-brane]] [[Lie algebra cohomology|4-cocycle]] trivializes were first found in
 
-* {#DAuriaFre82}  [[Riccardo D'Auria]], [[Pietro Fré]], last pages of _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
+* {#DAuriaFre82} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B **201** (1982) 101-140 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]&rbrack;
+
 
 and then a 1-parameter family of such was discovered in
 
 * {#BandosAzcarragaIzquierdoPiconVarela04} [[Igor Bandos]], [[José de Azcárraga]], [[José M. Izquierdo]], Moises Picon, Oscar Varela, _On the underlying gauge group structure of D=11 supergravity_, Phys. Lett.B **596** (2004) 145-155 \[<a href="https://doi.org/10.1016/j.physletb.2004.06.079">doi:10.1016/j.physletb.2004.06.079</a>, [arXiv:hep-th/0406020](http://arxiv.org/abs/hep-th/0406020)\]
 
-* [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, Oscar Varela, _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. **317** (2005) 238-279 \[<a href="https://doi.org/10.1016/j.aop.2004.11.016">doi:10.1016/j.aop.2004.11.016</a>, [arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100)\]
+* {#BdAPV05} [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, Oscar Varela, _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. **317** (2005) 238-279 \[<a href="https://doi.org/10.1016/j.aop.2004.11.016">doi:10.1016/j.aop.2004.11.016</a>, [arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100)\]
 
 That a limiting case of this is given by the [[orthosymplectic super Lie algebra]] $\mathfrak{osp}(1\vert 32)$:
 
@@ -141,15 +169,17 @@ For analogous discussion in [[7d supergravity]] and [[4d supergravity]], see the
 
 From a different perspective the M-theory algebra extensions were (apparently independently) introduced in
 
- * [[Jan-Willem van Holten]], [[Antoine Van Proeyen]], _$N=1$ supersymmetry algebras in $d=2,3,4 \,mod\, 8$_ J.Phys. A15, 3763 (1982).
+ * {#vHvP82} [[Jan-Willem van Holten]], [[Antoine Van Proeyen]], _$N=1$ supersymmetry algebras in $d = 2, 3, 4 \,mod\, 8$_ J. Phys. A **15** (1982) 3763 &lbrack;[doi:10.1088/0305-4470/15/12/028](https://iopscience.iop.org/article/10.1088/0305-4470/15/12/028), [spire:177060](https://inspirehep.net/literature/177060)&rbrack;
 
- * [[Paul Townsend]], _p-Brane Democracy_ ([arXiv:hep-th/9507048](http://arxiv.org/abs/hep-th/9507048))
+ * {#Townsend95} [[Paul Townsend]], _$p$-Brane Democracy_, in: *[Particles, strings and cosmology](https://inspirehep.net/literature/431132)* Proceedings, 19th Johns Hopkins Workshop and 5th PASCOS Interdisciplinary Symposium, Baltimore, USA, March 22-25 (1995) &lbrack;[arXiv:hep-th/9507048](http://arxiv.org/abs/hep-th/9507048), [spire:397058](https://inspirehep.net/literature/397058)&rbrack;
+
+   reprinted in: [[Michael Duff]] (ed.), *[[The World in Eleven Dimensions]]*, IoP (1999) 375-389
 
 with further amplification including
 
-* {#Townsend97a} [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl.Phys.Proc.Suppl.68:11-16,1998 ([arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034))
+* {#Townsend97a} [[Paul Townsend]], _M(embrane) theory on $T^9$_, Nucl. Phys. Proc. Suppl. **68** (1998) 11-16 \[<a href="https://doi.org/10.1016/S0920-5632(98)00136-4">doi:10.1016/S0920-5632(98)00136-4</a>, [arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034)\]
 
-* {#Townsend97b} [[Paul Townsend]], _M-theory from its superalgebra_, Cargese lectures 1997 ([arXiv:hep-th/9712004](http://arxiv.org/abs/hep-th/9712004))
+* {#Townsend97b} [[Paul Townsend]], *M-theory from its superalgebra*, Cargese lectures (1997) &lbrack;[arXiv:hep-th/9712004](http://arxiv.org/abs/hep-th/9712004)&rbrack;
 
 In their global form, where differential forms are replaced by their de Rham cohomology classes on curved superspacetimes, these algebras were identified (for the case including the 2-form piece but not the 5-form piece) as the algebras of [[conserved currents]] of the [[Green-Schwarz super p-brane sigma-models]] in
 
@@ -171,7 +201,7 @@ Further detailed discussion along these lines producing also the [[type II super
 
 The full extension was named "M-algebra" in
 
-* [[Ergin Sezgin]], _The M-Algebra_, Phys.Lett. B392 (1997) 323-331 ([arXiv:hep-th/9609086](http://arxiv.org/abs/hep-th/9609086))
+* {#Sezgin97} [[Ergin Sezgin]], _The M-Algebra_, Phys. Lett. B **392** (1997) 323-331 \[<a href="https://doi.org/10.1016/S0370-2693(96)01576-6">doi:10.1016/S0370-2693(96)01576-6</a>, [arXiv:hep-th/9609086](http://arxiv.org/abs/hep-th/9609086)\]
 
 In ([D'Auria-Fr&#233; 82](#DAuriaFre82)) the motivation is from the formulation of the fields of [[11-dimensional supergravity]] as connections with values in the [[supergravity Lie 3-algebra]], see at _[[D'Auria-Fré formulation of supergravity]]_. Realization of the M-theory super Lie algebra as the algebra of [[derivations]] of the [[supergravity Lie 3-algebra]] is in 
 
@@ -202,6 +232,9 @@ Arguments that the charges of the M-theory super Lie algebra may be identified i
 
 [[!redirects M-theory supersymmetry Lie algebra]]
 [[!redirects M-theory supersymmetry super Lie algebra]]
+
+[[!redirects M-theory super Lie algebra]]
+
 
 [[!redirects M-theory super Lie algebra extension]]
 [[!redirects M-theory super Lie algebra extensions]]
