@@ -202,6 +202,20 @@ $$((\forall x.\neg R(x, x)) \wedge (\forall x, y.R(x, y) \Rightarrow R(y, x)) \w
 
 * The LPO for natural numbers fails in Johnstone's [[topological topos]], due to its internal continuity principle.  Hence, the analytic LPO also fails, since the modulated Cauchy reals and Dedekind reals coincide in this topos. 
 
+## Universe of types satisfying LPO
+
+In [[dependent type theory]], given a [[univalent Tarski universe]] $(U, T)$, one can construct the universe of all types in $U$ which satisfy the limited principle of omniscience:
+
+$$U_\mathrm{LPO} \coloneqq \sum_{A:U} \prod_{f:T(A) \to \mathrm{bool}} (\exists x:T(A).f(x) =_{\mathrm{bool}} 1) \vee
+\left(\prod_{x:T(A)} f(x) =_{\mathrm{bool}} 0\right)$$
+
+Since the type 
+
+$$\prod_{f:T(A) \to \mathrm{bool}} (\exists x:T(A).f(x) =_{\mathrm{bool}} 1) \vee
+\left(\prod_{x:T(A)} f(x) =_{\mathrm{bool}} 0\right)$$
+
+is a [[mere proposition]] for all $A:U$, $U_\mathrm{LPO}$ is a [[subtype|sub]]-[[universe]] of $U$. 
+
 ## Related concepts
 
 * [[principle of omniscience]]
