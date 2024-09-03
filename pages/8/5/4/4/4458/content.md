@@ -28,6 +28,10 @@ Skewfield of [[noncommutative rational function]]s
 
 * [[George M. Bergman]], _Skew fields of noncommutative rational functions, after Amitsur_. In Séminaire Schützenberger–Lentin–Nivat, Année 1969/1970, No. 16. Paris 1970 [EuDML](http://eudml.org/doc/112813)
 
+On [[Bergman's centralizer theorem]],
+
+* [[George M. Bergman]], _Centralizers in free associative algebras_, Trans. Amer. Math. Soc. __137__:327--344 (1969) [doi](https://doi.org/10.2307/1994807)
+
 category: people
 
 [[!redirects George Bergman]]
