@@ -110,8 +110,6 @@ Early discussion:
 
 * [[Wilhelm Magnus]], *A connection between the Baker-Hausdorff formula and a problem of Burnside*, Ann. of Math. __52__ (1950) 111-126
 
-* [[Nicolas Bourbaki]], _Lie groups and algebras_, chapter II
-
 * [[Kuo-Tsai Chen]], _Integration of paths, geometric invariants and a generalized Baker--Hausdorff formula_, Annals of Mathematics __65__:1 (1957) 163--178 [doi](https://doi.org/10.2307/1969671) [jstor](http://www.jstor.org/stable/1969671) 
 
 
@@ -119,13 +117,17 @@ Most monographs on [[Lie algebras]] discuss the Hausdorff series, for instance:
 
 * {#Serre64} [[Jean-Pierre Serre]], Section IV.7 in: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500**, Springer (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
 
+* [[Nicolas Bourbaki]], Chapter 2 of: _Lie groups and Lie algebras_, Springer (1975, 1989) &lbrack;[ISBN:9783540642428](https://link.springer.com/book/9783540642428)&rbrack;
+
 * [[Gerhard P. Hochschild]], p. 226 in: *Basic theory of algebraic groups and Lie algebras*, Graduate Texts in Mathematics **75**, Springer (1981) &lbrack;[doi:10.1007/978-1-4613-8114-3_16](https://doi.org/10.1007/978-1-4613-8114-3_16)&rbrack; 
 
-* [[M M Postnikov]], Lectures on geometry, Semester V, Lie groups and algebras
+* [[M. M. Postnikov]], *Lectures on geometry: Semester V, Lie groups and algebras* (1986) &lbrack;[ark:/13960/t4cp9jn4p](https://archive.org/details/postnikov-lectures-in-geometry-semester-v-lie-group-and-lie-algebras)&rbrack;
 
 * [[Hans Duistermaat]], [[Johan A. C. Kolk]], *Dynkin's formula*, Section 1.7 in: *Lie groups*, Springer (2000) &lbrack;[doi:10.1007/978-3-642-56936-4](https://doi.org/10.1007/978-3-642-56936-4)&rbrack;
 
 * [[Shlomo Sternberg]]: *The Campbell Baker Hausdorff Formula*, Section 1 of: *Lie Algebras* (2004) &lbrack;[pdf](https://people.math.harvard.edu/~shlomo/docs/lie_algebras.pdf), [[Sternberg-LieAlgebras.pdf:file]]&rbrack;
+
+* {#Milne17} [[James Milne]], p. 260 in: *Algebraic Groups -- The theory of group schemes of finite type over a field*, Cambridge University Press (2017)  &lbrack;[doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf)&rbrack;
 
 * [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]]: §3.3 in: *Berkeley Lectures on Lie Groups and Quantum Groups* (2020-2024) &lbrack;[pdf](http://categorified.net/LieQuantumGroups.pdf)&rbrack;
 
