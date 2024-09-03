@@ -1,9 +1,12 @@
 
 Paul Townsend is professor for theoretical [[physics]] at Cambridge.
 
-* [webpage](http://www.damtp.cam.ac.uk/people/p.k.townsend/)
+* [institute page](http://www.damtp.cam.ac.uk/people/p.k.townsend)
 
-* [wikipedia entry](http://en.wikipedia.org/wiki/Paul_Townsend)
+* [inspire page](https://inspirehep.net/authors/985767)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Paul_Townsend)
+
 
 
 ## Selected writings
@@ -38,6 +41,16 @@ On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]
 Early discussion of the [[duality between type IIA string theory and M-theory]] in view of [[double dimensional reduction]] of the [[M2-brane]]:
 
 * [[Paul K. Townsend]], *The eleven-dimensional supermembrane revisited*, Phys. Lett. B **350** (1995) 184-187 &lbrack;[arXiv:hep-th/9501068](https://arxiv.org/abs/hep-th/9501068), <a href="https://doi.org/10.1016/0370-2693(95)00397-4">doi:10.1016/0370-2693(95)00397-4</a>&rbrack;
+
+On centrally extended [[supersymmetry]] [[super Lie algebras]] in [[string theory]], such as the [[M-theory super Lie algebra]]:
+
+ * {#Townsend95} [[Paul Townsend]], _$p$-Brane Democracy_, in: *[Particles, strings and cosmology](https://inspirehep.net/literature/431132)* Proceedings, 19th Johns Hopkins Workshop and 5th PASCOS Interdisciplinary Symposium, Baltimore, USA, March 22-25 (1995) &lbrack;[arXiv:hep-th/9507048](http://arxiv.org/abs/hep-th/9507048), [spire:397058](https://inspirehep.net/literature/397058)&rbrack;
+
+   reprinted in: [[Michael Duff]] (ed.), *[[The World in Eleven Dimensions]]*, IoP (1999) 375-389
+
+* {#Townsend97a} [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl. Phys. Proc. Suppl. **68** (1998) 11-16 \[<a href="https://doi.org/10.1016/S0920-5632(98)00136-4">doi:10.1016/S0920-5632(98)00136-4</a>, [arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034)\]
+
+* {#Townsend97b} [[Paul Townsend]], *M-theory from its superalgebra*, Cargese lectures (1997) &lbrack;[arXiv:hep-th/9712004](http://arxiv.org/abs/hep-th/9712004)&rbrack;
 
 
 On [[black brane|black]]$\,$[[D8-brane]]-solutions in [[massive type IIA supergravity]]/[[massive type IIA string theory]]:
