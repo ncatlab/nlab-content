@@ -38,7 +38,7 @@ Explicitly, the Burnside ring can be seen to be the free abelian group on the se
 
 ### Span by the coset spaces $G/H$
 
-Since every [[finite set|finite]] [[G-set]] is a [[direct sum]] of the basic [[coset spaces]] $G/H$, for $H \hookrightarrow G$ [[subgroups]] of $G$, and since $G/H_1$ and $G/H_2$ are [[isomorphism|isomorphic]] [[G-sets]] of $H_1$ and $H_2$ are [[conjugation action|conjugate]] to each other, the Burnside ring is spanned, as an [[abelian group]] by the $[G/H]$ for $H$ ranging over [[conjugacy classes]] of subgroups.
+Since every [[finite set|finite]] [[G-set]] is a [[direct sum]] of the basic [[coset spaces]] $G/H$, for $H \hookrightarrow G$ [[subgroups]] of $G$, and since $G/H_1$ and $G/H_2$ are [[isomorphism|isomorphic]] [[G-sets]] if $H_1$ and $H_2$ are [[conjugation action|conjugate]] to each other, the Burnside ring is spanned, as an [[abelian group]] by the $[G/H]$ for $H$ ranging over [[conjugacy classes]] of subgroups.
 
 $$
   A(G)
@@ -262,12 +262,12 @@ Discussion in relation to [[equivariant stable cohomotopy]] and the [[Segal-Carl
 * {#Segal78} [[Graeme Segal]], p. -2- of: *Some results in equivariant homotopy theory* (1978) &lbrack;scan: [web](https://homepages.warwick.ac.uk/~maaac/segal.html), [[Segal-EquivariantHT.pdf:file]]&rbrack;
 
 
-* {#tomDieckPetrie78} [[Tammo tom Dieck]], T. Petrie, _Geometric modules over the Burnside ring_, Invent. Math. 47 (1978) 273-287;
+* {#tomDieckPetrie78} [[Tammo tom Dieck]], T. Petrie, _Geometric modules over the Burnside ring_, Invent. Math. 47 ;
 chapter 10 in: _[[Transformation Groups and Representation Theory]]_  ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/tomDieck-geometric.pdf))
 
 * Erkki Laitinen, _On the Burnside ring and stable cohomotopy of a finite group_,  Mathematica Scandinavica Vol. 44, No. 1 (August 30, 1979), pp. 37-72 ([jstor:24491306](https://www.jstor.org/stable/24491306), [[Laitinen79.pdf:file]])  
 
-* [[Gunnar Carlsson]], _Equivariant Stable Homotopy and Segal's Burnside Ring Conjecture_,  Annals of Mathematics Second Series, Vol. 120, No. 2 (Sep., 1984), pp. 189-224 ([jstor:2006940](https://www.jstor.org/stable/2006940), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/carlsson.pdf))
+* [[Gunnar Carlsson]], _Equivariant Stable Homotopy and Segal's Burnside Ring Conjecture_,  Annals of Mathematics Second Series, Vol. 120, No. 2 (Sep., 1984), pp. 189-224 ([jstor:](https://www.jstor.org/stable/2006940), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/carlsson.pdf))
 
 * {#GayMorrisMorris} C. D. Gay, G. C. Morris, and I. Morris, _Computing Adams operations on the Burnside ring of a finite group_, J. Reine Angew. Math., 341 (1983), pp. 87–97.
 
