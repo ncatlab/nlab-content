@@ -262,5 +262,16 @@ Discussion of how [[super L-infinity algebra]] [[L-infinity cocycle|extensions]]
 [[!redirects super Minkowski space]]
 [[!redirects super Minkowski space]]
 
+[[!redirects super Minkowski Lie algebra]]
+[[!redirects super Minkowski Lie algebras]]
+
+[[!redirects super-Minkowski Lie algebra]]
+[[!redirects super-Minkowski Lie algebras]]
+
+
 [[!redirects super Minkowski super Lie algebra]]
 [[!redirects super Minkowski super Lie algebras]]
+
+[[!redirects super-Minkowski super Lie algebra]]
+[[!redirects super-Minkowski super Lie algebras]]
+
