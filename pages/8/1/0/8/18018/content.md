@@ -17,13 +17,21 @@
 
 ## Idea
 
-A [[Lie algebra]] is **nilpotent** if repeatedly [[adjoint action|acting]] via the [[Lie bracket]] on any one of its elements with other elements eventually yields [[zero]].
+A [[Lie algebra]] is **nilpotent** if there exists a uniform $n$ such that [[adjoint action|acting]] via the [[Lie bracket]] on any one of its elements with other elements $n$ times yields [[zero]]. In other words, $\exists n\in\mathbf{N}$ such that for any $x_i$, $i = 1,\ldots, n$, the composition $ad x_1 ad x_2 \ldots ad x_n = 0$.
 
 ## Definition
 
 The *[[lower central series]]* or (descending [[central series]]) of a Lie algebra $\mathfrak{g}$ is a sequence of nested [[ideals]] $\mathfrak{g}^{k+1} \trianglelefteq \mathfrak{g}^{k}$ defined inductively by $\mathfrak{g}^1 \coloneqq \mathfrak{g}$,  $\mathfrak{g}^{k+1} \coloneqq [\mathfrak{g}, \mathfrak{g}^k]$. The Lie algebra is said to be **nilpotent** if $\mathfrak{g}^{k} = 0$ for some $k \in \mathbb{N}$.
 
 In other words, a Lie algebra $\mathfrak{g}$ is nilpotent if and only the improper ideal $\mathfrak{g}$ is a [[nilpotent element]] in the ideal lattice with respect to the ideal product $[-,-]$.
+
+A Lie algebra is **locally nilpotent** if any finite-dimensional subalgebra is nilpotent.
+
+A Lie algebra is **ad-nilpotent** if for any $x$, its endomorphism $ad x$ is nilpotent. In general, this is a weaker property.
+
+## Engel's theorem
+
+Every finite-dimensional matrix Lie algebra $L\subset gl(m)$ over a field is nilpotent iff it is ad-nilpotent.
 
 
 ## Examples
@@ -53,6 +61,9 @@ A finite-dimensional Lie algebra $\mathfrak{g}$ is nilpotent precisely if its [[
 
 
 ## References
+
+* [[eom]]: [Lie algebra, nilpotent](https://encyclopediaofmath.org/wiki/Lie_algebra,_nilpotent)
+* wikipedia: [Engel's theorem](https://en.wikipedia.org/wiki/Engel's_theorem)
 
 * {#Serre64} [[Jean-Pierre Serre]]: *Nilpotent and Solvable Lie Algebras*, Chapter V in: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500**, Springer (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
 
@@ -89,6 +100,4 @@ On nilpotent [[super Lie algebras]]:
 [[!redirects ad-nilpotent Lie algebras]]
 [[!redirects nilpotent Lie algebra]]
 [[!redirects nilpotent Lie algebras]]
-
-[[!redirects ad-nilpotent Lie algebra]]
 
