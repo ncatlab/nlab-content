@@ -58,6 +58,9 @@ A finite-dimensional Lie algebra $\mathfrak{g}$ is nilpotent precisely if its [[
 
 * Arthur A. Sagle, Ralph E. Walde: *Nilpotent Lie Groups and Algebras*, Chapter 11 in: *Introduction to Lie Groups and Lie Algebras*, Pure and Applied Mathematics **51**, Elsevier (1973) 215-227 \[<a href="https://doi.org/10.1016/S0079-8169(08)61671-2">doi:10.1016/S0079-8169(08)61671-2</a>\]
 
+* {#Milne17} [[James Milne]], pp. 260 in: *Algebraic Groups -- The theory of group schemes of finite type over a field*, Cambridge University Press (2017)  &lbrack;[doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf)&rbrack;
+
+
 * Laurence Corwin, Frederick P. Greenleaf: Section 1.2 of: *Representations of Nilpotent Lie Groups and their Applications -- Volume 1  Part 1. Basic Theory and Examples*, Cambridge University Press (2004) &lbrack;[ISBN:9780521604956](https://www.cambridge.org/us/universitypress/subjects/mathematics/abstract-analysis/representations-nilpotent-lie-groups-and-their-applications-volume-1-part-1)&rbrack;
 
 * [[Victor Kac]] (notes by Marc Doss), *Nilpotent and Solvable Lie algebras* (2010) &lbrack;[pdf](https://math.mit.edu/classes/18.745/Notes/Lecture_4_Notes.pdf), [[KacDoss-NilpotentLieAlebras.pdf:file]]&rbrack;
