@@ -149,7 +149,11 @@ or the always true statement that every [[split surjection]] splits.
 
 * Every [[subcountable set]] is a [[countable set]]. 
 
-* The [[limited principle of omniscience]] holds for all sets. 
+* The [[limited principle of omniscience]] holds for all [[subsingletons]]. 
+
+* Sets with [[decidable tight apartness relations]] form a [[cartesian closed category]]. 
+
+* Assuming [[function sets]], the [[tight apartness relation]] on an [[inequality space]] is [[decidable tight apartness relation|decidable]]. 
 
 * The [[boolean domain]] $2$ is a [[frame]] iff the [[category of sets]] is a [[Boolean topos]]. This implies that one can do [[topology]] (using [[topological spaces]], [[locales]], [[formal topologies]], etc) directly using the boolean domain as the frame of open truth values. 
 
