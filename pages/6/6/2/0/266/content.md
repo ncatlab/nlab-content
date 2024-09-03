@@ -89,7 +89,7 @@ Kan extensions are ubiquitous. See the discussion at _[Examples](#Examples)_ bel
 ## Definitions
  {#Definitions}
 
-There are various slight variants of the definition of _Kan extension_ . In good cases they all exist and all coincide, but in some cases only some of these will actually exist.
+There are various slight variants of the definition of _Kan extension_. In good cases they all exist and all coincide, but in some cases only some of these will actually exist.
 
 We (have to) distinguish the following cases:
 
@@ -844,7 +844,7 @@ See [[Higher Topos Theory|Lurie, HTT, prop. 4.3.3.10]], set $S=Y$ and $q = \id_Y
 
 The central point about examples of Kan extensions is:
 
-_Kan extensions are ubiquitous_ . 
+_Kan extensions are ubiquitous_. 
 
 To a fair extent, [[category theory]] is all about Kan extensions and the other [[universal construction]]s: [[limit]]s, [[adjoint functor]]s, [[representable functor]]s, which are all special cases of Kan extensions -- and Kan extensions are special cases of these.
 
