@@ -246,6 +246,8 @@ Monographs:
 * [[Tammo tom Dieck]], [[Theodor Bröcker]], Ch. I of: *Representations of compact Lie groups*, Springer (1985) &lbrack;[doi:10.1007/978-3-662-12918-0](https://link.springer.com/book/10.1007/978-3-662-12918-0)&rbrack;
   > (in the context of [[representation theory]])
 
+* [[M. M. Postnikov]], *Lectures on geometry: Semester V, Lie groups and algebras* (1986) &lbrack;[ark:/13960/t4cp9jn4p](https://archive.org/details/postnikov-lectures-in-geometry-semester-v-lie-group-and-lie-algebras)&rbrack;
+
 * {#Onishchik93} A. L. Onishchik (ed.) _Lie Groups and Lie Algebras_
 
   * *I.* A. L. Onishchik, E. B.  Vinberg, _Foundations of Lie Theory_,
