@@ -734,9 +734,17 @@ And finally, for **[[inverse element|invertibility]]** we need to check that the
       G 
       \ar[
         rr,
+        shift left=5pt,
         "{
-          (\mathrm{id},\mathrm{inv})
+          (\mathrm{id} ,\, \mathrm{inv})
         }"
+      ]
+      \ar[
+        rr,
+        shift right=5pt,
+        "{
+          (\mathrm{inv} ,\, \mathrm{id})
+        }"{swap}
       ]
       \ar[
         dd,
