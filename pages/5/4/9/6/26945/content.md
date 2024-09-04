@@ -4,7 +4,7 @@
 ###Context###
 #### Algebra
 +--{: .hide}
-[[!include higher algebra - contents]]
+[[!include algebra - contents]]
 =--
 =--
 =--
@@ -55,7 +55,7 @@ where $\Sigma(2n)$ is the symmetric group on $2n$ letters. In addition, no monic
 
   review:
 
-  L. Rowen, Bull. AMS __43__ 2 (2006) 259--267 &lbrack;[pdf](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2/S0273-0979-06-01082-2.pdf), [doi:2006-43-02/S0273-0979-06-01082-2](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2)&rbrack;
+  [[Louis Rowen]], Bull. AMS __43__ 2 (2006) 259--267 &lbrack;[pdf](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2/S0273-0979-06-01082-2.pdf), [doi:2006-43-02/S0273-0979-06-01082-2](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2)&rbrack;
 
 * Wikipedia: [Polynomial identity ring](https://en.wikipedia.org/wiki/Polynomial_identity_ring), [Amitsur--Levitski theorem](https://en.wikipedia.org/wiki/Amitsur%E2%80%93Levitzki_theorem)
 
