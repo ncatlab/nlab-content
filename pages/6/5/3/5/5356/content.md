@@ -1,4 +1,4 @@
-__James Milne__ is an [[algebraic geometry|algebraic geometer]].
+__James S. Milne__ is an [[algebraic geometry|algebraic geometer]].
 
 See [www.jmilne.org](http://www.jmilne.org)
 
@@ -47,5 +47,7 @@ On [[group theory]]:
 category:people
 
 [[!redirects J. Milne]]
+
+[[!redirects J. S. Milne]]
 
 [[!redirects Milne]]
