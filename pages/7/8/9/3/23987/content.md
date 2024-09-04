@@ -2439,6 +2439,16 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 \linebreak
 
 
+### Sep 2024
+
+* 02 Sep 2024
+
+  Nouhaila Innan (CQTS, NYUAD): 
+
+  **Quantum Machine Learning for Advanced AI: Development and Application Across Diverse Domains**
+
+  > As the demand for more sophisticated computational tools grows, [[quantum machine learning|Quantum Machine Learning]] (QML) emerges as a potential solution, combining the strengths of [[machine learning|Machine Learning]] (ML) and [[quantum computing|Quantum Computing]] (QC) to push the boundaries of what is computationally possible. This exploration takes a deep dive into advanced QML models, such as quantum neural networks, and provides an extensive overview of fundamental data encoding techniques essential for translating classical data into quantum states. Building on these foundational elements, Quantum Federated Learning (QFL) is introduced as a novel approach that enhances privacy and security in decentralized systems by integrating federated learning with quantum principles. The discussion also covers potential applications in finance and cybersecurity, showcasing the significant impact QML could have on these sectors. This talk highlights the considerable potential of QML as a key enabler of advanced artificial intelligence, emphasizing its role in driving innovation across various domains.
+
 
 ***
 
@@ -3313,6 +3323,18 @@ Neumann algebras**
   > The use of [[differential graded Lie algebras]] to model spaces was developed by [[Daniel Quillen|D. Quillen]] [in the 60s of the last century](rational+homotopy+theory#Quillen69. However, despite having algebraic models for each space, in some cases their effective calculation turns out to be very complex.
 
   > In this talk we will give explicit minimal Quillen models for the [[product topological space|Cartesian products]] of certain spaces in terms of derivations of their models. The model presented also allows us to explicitly describe a model for the [[diagonal map]]. These explicit models are very useful to address the study of invariants such as the sectional category of a map which generalizes the the [[Lusternik-Schnirelmann category]] and [[topological complexity|Topological complexity]].
+
+\linebreak
+
+### Sep 2024
+
+* 04 Sep 2024
+
+  Alessandro Portaluri (University of Torino and NYUAD):
+
+  **Index and Stability of (Semi-)Riemannian Closed Geodesics**
+
+  > A celebrated result proved by [[Poincaré]] affirms that a closed non-degenerate minimizing [[geodesic]] on an [[orientation|oriented]] [[surface]] is hyperbolic. Starting from this classical theorem and by using some recent results on the [[Maslov index]] and on the Spectral Flow, we will present a general instability criterion for [[timelike]] and [[spacelike]] closed (semi-)Riemannian geodesics on (non-)oriented [[Riemannian manifold|manifolds]] of any dimension.
 
 \linebreak
 
