@@ -260,6 +260,10 @@ On [[configuration spaces of points]] and their relation to [[Cohomotopy]] via [
 
 * [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2407.11092](https://arxiv.org/abs/2407.11092)&rbrack;
 
+On [[Bohmian quantum mechanics]]:
+
+* Antony Valentini: *De Broglie-Bohm Quantum Mechanics*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2409.01294](https://arxiv.org/abs/2409.01294)&rbrack;
+
 
 
 (...)
