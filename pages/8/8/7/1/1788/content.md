@@ -1,2 +1,4 @@
 
 ...
+
+### Poincaré stability condition
