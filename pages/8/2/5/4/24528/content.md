@@ -92,7 +92,7 @@ Textbook accounts:
 
 It is Proposition 2.8.26 in 
 
-* Louis Rowen, _Ring theory_, student edition.
+* [[Louis Rowen]], _Ring theory_, student edition.
 
 See also
 
