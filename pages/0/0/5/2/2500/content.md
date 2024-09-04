@@ -401,7 +401,7 @@ Textbook accounts:
 
 Collection of original articles:
 
-* [[Abdus Salam]], [[Ergin Sezgin]] (eds.), *Supergravities in Diverse Dimensions*, Elsevier & World Scientific (1990) &lbrack;[doi:10.1142/0277](https://doi.org/10.1142/0277)&rbrack;
+* [[Abdus Salam]], [[Ergin Sezgin]] (eds.): *Supergravities in Diverse Dimensions*, Elsevier & World Scientific (1990) &lbrack;[doi:10.1142/0277](https://doi.org/10.1142/0277)&rbrack;
 
 Survey:
 
