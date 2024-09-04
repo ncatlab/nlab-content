@@ -509,15 +509,13 @@ Brief introductions:
 
 Standard textbook accounts:
 
-* {#LawsonMichelsohn89} [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989) ISBN 0-691-08542-0
+* {#LawsonMichelsohn89} [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989) &lbrack;[ISBN 9780691085425](https://press.princeton.edu/books/hardcover/9780691085425/spin-geometry-pms-38-volume-38)&rbrack;
 
-
-
-* {#Lounesto} [[Pertti Lounesto]], _Clifford  Algebras and Spinors_, London Mathematical Society No. 286. Cambridge University Press, second edition, 2001 ([doi:10.1017/CBO9780511526022](https://doi.org/10.1017/CBO9780511526022))
+* {#Lounesto} [[Pertti Lounesto]], _Clifford  Algebras and Spinors_, London Mathematical Society **286**, Cambridge University Press (2001) &lbrack;[doi:10.1017/CBO9780511526022](https://doi.org/10.1017/CBO9780511526022)&rbrack;
 
 See also
 
-* [[Eckhard Meinrenken]], _Clifford algebras and Lie groups_ ([doi:10.1007/978-3-642-36216-3](https://link.springer.com/book/10.1007/978-3-642-36216-3)
+* [[Eckhard Meinrenken]], *Clifford algebras and Lie groups*, Ergebn. Mathem. & Grenzgeb., Springer (2013) &lbrack;[doi:10.1007/978-3-642-36216-3](https://doi.org/10.1007/978-3-642-36216-3)&rbrack;
 
 
 
