@@ -204,6 +204,8 @@ On holographic descriptions of [[topological semimetals]] via the [[AdS-CMT corr
 
 * Sebastián Bahamondes, Ignacio Salazar Landea, Rodrigo Soto-Garrido, *Holographic description of an anisotropic Dirac semimetal* &lbrack;[arXiv:2406.00156](https://arxiv.org/abs/2406.00156)&rbrack;
 
+* Nishal Rai, Karl Landsteiner: *Hydrodynamic Modes of Holographic Weyl Semimetals* &lbrack;[arXiv:2408.06192](https://arxiv.org/abs/2408.06192)&rbrack;
+
 
 Review:
 
