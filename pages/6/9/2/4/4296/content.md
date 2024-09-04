@@ -153,6 +153,13 @@ Computations of Vafa-Witten invariants of 3-manifolds are given in
 
 * [[Sergei Gukov]], Artan Sheshmani, [[Shing-Tung Yau]], _3-manifolds and Vafa-Witten theory_ ([arXiv:2207.05775](https://arxiv.org/abs/2207.05775)).
 
+### Quantum invariants
+
+> (see also at *[[knot theory]])
+
+* Yuya Murakami: *A proof of a conjecture of Gukov-Pei-Putrov-Vafa* &lbrack;[arXiv:2302.13526](https://arxiv.org/abs/2302.13526)&rbrack;
+
+
 
 [[!redirects 3-manifolds]]
 
