@@ -1,6 +1,6 @@
 **Jacobian conjecture**: Let $k$ be an [[algebraically closed field]] of characteristics zero, $n\geq 2$ and $\phi: k^n\to k^n$ a (regular) [[endomorphism]] of $k^n$ with constant Jacobian (the determinant of the Jacobian matrix, which is in this polynomial case algebraically defined). Then $\phi$ is a regular [[automorphism]], i.e. has a polynomially defined inverse. 
 
-The conjecture is open still stated by Keller in 1939. There were many failed attempts to prove the Jacobian conjecture, especially for $n = 2$; there are also some reductions to special cases. For example, it is known that the Jacobian conjecture holds iff it holds for $\phi$ a polynomial map of degree 3. The Jacobian conjecture is also known to hold at least for those $\phi$ which have a rational inverse.  
+The conjecture has been stated by Keller in 1939 and is still open. There were many failed attempts to prove the Jacobian conjecture, especially for $n = 2$; there are also some reductions to special cases. For example, it is known that the Jacobian conjecture holds iff it holds for $\phi$ a polynomial map of degree 3. The Jacobian conjecture is also known to hold at least for those $\phi$ which have a rational inverse.  
 
 * A. van den Essen, [Jacobian conjecture](http://eom.springer.de/J/j120010.htm), Springer Online Encyclopedia of Mathematics
 
@@ -10,16 +10,16 @@ The conjecture is open still stated by Keller in 1939. There were many failed at
 
 The Jacobian conjecture is also equivalent to the Dixmier conjecture: every endomorphism of the $r$-th [[Weyl algebra]] $A_{r,k}$ over $k$ is an automorphism for all $r$. This is a statement of the article 
 
-* A. Belov-Kanel, M. [[Kontsevich]], _The Jacobian conjecture is stably equivalent to the Dixmier conjecture_, Mosc. Math. J., 7:2 (2007), 209&#8211;218; [math.RA/0512171](http://arxiv.org/abs/math/0512171)
+* [[Alexei Belov-Kanel]], [[Maxim Kontsevich]], _The Jacobian conjecture is stably equivalent to the Dixmier conjecture_, Mosc. Math. J. __7__:2 (2007) 209--218; [math.RA/0512171](http://arxiv.org/abs/math/0512171)
 
-which does contain an error in the proof, which has been later amended by others. It is actually known that each endomorphism of the $r$-th Weyl algebra is *injective*, and not known wheather it is *surjective*.
+which does contain an error in the proof, which has been later amended by others. It is known that each endomorphism of the $r$-th Weyl algebra is *injective*, and not known wheather it is *surjective*.
 A shorter algebraic proof is given in
 
 * V. Bavula, _The ${Jacobian Conjecture}_{2n}$ implies the ${Dixmier Problem}_n$_, [math.AG/0512250](http://arxiv.org/abs/math/0512250)
 
 There is a recent proof of related Kontsevich's statement on automorphisms of Weyl algebra
 
-* Alexei Kanel-Belov, Andrey Elishev, Jie-Tai Yu, _Automorphisms of Weyl Algebra and a Conjecture of Kontsevich_, [arxiv/1802.01225](https://arxiv.org/abs/1802.01225)
+* [[Alexei Kanel-Belov]], Andrey Elishev, Jie-Tai Yu, _Automorphisms of Weyl Algebra and a Conjecture of Kontsevich_, [arxiv/1802.01225](https://arxiv.org/abs/1802.01225)
 
 There is an interesting blog discussion, from the point of view of [[algebraic geometry]]:
 
