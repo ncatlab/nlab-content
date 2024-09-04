@@ -147,12 +147,11 @@ This can also be understood naturally in the language of [[(n,r)-categories]].  
 
 The terminology goes back to
 
-* {#CraneYetter96} [[Louis Crane]], [[David Yetter]], 
-_Examples of categorification_ ([arXiv:q-alg/9607028](http://arxiv.org/abs/q-alg/9607028))
+* {#CraneYetter96} [[Louis Crane]], [[David Yetter]], _Examples of categorification_ &lbrack;[arXiv:q-alg/9607028](http://arxiv.org/abs/q-alg/9607028)&rbrack;
 
 and was further amplified in
 
-* {#BaezDolan98} [[John Baez]], [[James Dolan|James Dolan]], _Categorification_, in [[Ezra Getzler]], [[Mikhail Kapranov]] (eds.) _Higher Category Theory_, Contemp. Math. 230, American Mathematical Society, Providence, Rhode Island, 1998, pp. 1-36 ([arXiv:math.QA/9802029](http://arxiv.org/abs/math.QA/9802029))
+* {#BaezDolan98} [[John Baez]], [[James Dolan|James Dolan]], _Categorification_, in: _Higher Category Theory_, Contemp. Math. **230**, American Mathematical Society (1998) 1-36 &lbrack;[arXiv:math.QA/9802029](http://arxiv.org/abs/math.QA/9802029)&rbrack;
 
 Exposition:
 
