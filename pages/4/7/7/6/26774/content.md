@@ -153,12 +153,6 @@ Over [[orbital categories]]:
 
 * [[Denis Nardin]], [[Jay Shah]], _Parametrized and equivariant higher algebra_ &lbrack;[arxiv:2203.00072](https://arxiv.org/abs/2203.00072)&rbrack;
 
-* [[Natalie Stewart]], _Orbital categories and weak indexing systems_ (draft) &lbrack;[pdf](https://nataliesstewart.github.io/files/windex_draft.pdf)&rbrack;
-
-
-
+* [[Natalie Stewart]], _Orbital categories and weak indexing systems_ &lbrack;[arXiv:2409.01377](https://arxiv.org/abs/2409.01377)&rbrack;
 
 [[!redirects indexing systems]]
-
-[[!redirects equivariant symmetric monoidal categories]]
-
