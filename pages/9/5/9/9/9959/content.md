@@ -61,7 +61,7 @@ Textbook accounts:
 
 * {#Ferraro54} V. C. A. Ferraro, §137 in: *Electromagnetic Theory*, The Athlone Press (1954, 1956)
 
-* {#Brylinski93} [[Jean-Luc Brylinski]], §7.1 in: *Loop spaces, characteristic classes and geometric quantization*, Birkhäuser (1993) &lbrack;[doi:10.1007/978-0-8176-4731-5](https://www.springer.com/gp/book/9780817647308))&rbrack;
+* {#Brylinski93} [[Jean-Luc Brylinski]], §7.1 in: *Loop spaces, characteristic classes and geometric quantization*, Birkhäuser (1993) &lbrack;[doi:10.1007/978-0-8176-4731-5](https://www.springer.com/gp/book/9780817647308)&rbrack;
 
 * [[Theodore Frankel]], section 5.5 of _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377)&rbrack;
 
