@@ -105,7 +105,11 @@ By the discussion there, [[dg-Lie algebra]]s are _strict_ [[L-∞ algebra]]s (th
 
 ## References
 
-See also the references at *[[Lie 2-algebra]]*.
+> See also the references at *[[Lie 2-algebra]]*.
+
+The notion of Lie algebra crossed modules is due to:
+
+* [[Christian Kassel]], [[Jean-Louis Loday]]: appendix of: *Extensions centrales d'algèbres de Lie*, Annales de l'Institut Fourier, **32** 4 (1982) 119-142 &lbrack;[numdam:AIF_1982__32_4_119_0](http://www.numdam.org/item/?id=AIF_1982__32_4_119_0)&rbrack;
 
 On the history of this and related concepts:
 
@@ -127,3 +131,7 @@ The [[crossed modules]] (in groups or Lie groups) and the differential crossed m
 
 [[!redirects Lie algebra crossed module]]
 [[!redirects Lie algebra crossed modules]]
+
+[[!redirects crossed module of Lie algebras]]
+[[!redirects crossed modules of Lie algebras]]
+
