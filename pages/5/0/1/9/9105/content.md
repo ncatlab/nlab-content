@@ -25,7 +25,12 @@ Relating [[M-theory on Spin(7)-manifolds]] with [[F-theory on Spin(7)-manifolds]
 
 * {#CHRTZ20} [[Mirjam Cvetic]], [[Jonathan Heckman]], Thomas B. Rochais, Ethan Torres, [[Gianluca Zoccarato]], _Geometric Unification of Higgs Bundle Vacua_ ([arXiv:2003.13682](https://arxiv.org/abs/2003.13682))
 
-## Related $n$Lab entries
+On [[heterotic M-theory]]:
+
+* [[Mirjam Cvetič]], Max Wiesner: *Non-perturbative Resolution of Strong Coupling Singularities in 4d N=1 Heterotic/M-theory* &lbrack;[arXiv:2408.12458](https://arxiv.org/abs/2408.12458)&rbrack;
+
+
+## Related entries
 
 * [[string phenomenology]]
 
