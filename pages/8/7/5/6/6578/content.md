@@ -1,5 +1,7 @@
 
-* [webpage](http://www.math.toronto.edu/mein/)
+* [personal ](http://www.math.toronto.edu/mein/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=137421)
 
 ## Selected writings
 
@@ -16,9 +18,9 @@ On [[Lie groups]] and [[Lie algebras]]:
 
 * [[Eckhard Meinrenken]], _Lie groups and Lie algebas_, Lecture notes 2010 ([pdf](http://www.math.toronto.edu/mein/teaching/lie.pdf))
 
-On [[Clifford algebras]]:
+On [[Clifford algebras]] and [[Lie groups]]:
 
-* [[Eckhard Meinrenken]], _Clifford algebras and Lie groups_ ([pdf](http://www.math.toronto.edu/mein/teaching/clif_main.pdf))
+* [[Eckhard Meinrenken]], *Clifford algebras and Lie groups*, Ergebn. Mathem. & Grenzgeb., Springer (2013) &lbrack;[doi:10.1007/978-3-642-36216-3](https://doi.org/10.1007/978-3-642-36216-3)&rbrack;
 
 On the image in [[K-theory]] of [[Chan-Paton gauge fields]] over [[conjugacy classes]] giving the [[Verlinde ring]]/the [[positive energy representations]] of the [[loop group]]:
 
