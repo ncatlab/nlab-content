@@ -1,4 +1,4 @@
-Edward W. Formanek is an American mathematician.
+__Edward W. Formanek__ is an American mathematician.
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Edward_W._Formanek)
 
@@ -14,6 +14,6 @@ On [[polynomial identity rings]]:
 
   review:
 
-  L. Rowen, Bull. AMS __43__ 2 (2006) 259-267 &lbrack;[pdf](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2/S0273-0979-06-01082-2.pdf), [doi:2006-43-02/S0273-0979-06-01082-2](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2)&rbrack;
+  [[Louis Rowen]], Bull. AMS __43__ 2 (2006) 259-267 &lbrack;[pdf](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2/S0273-0979-06-01082-2.pdf), [doi:2006-43-02/S0273-0979-06-01082-2](https://www.ams.org/journals/bull/2006-43-02/S0273-0979-06-01082-2)&rbrack;
 
 category: people
