@@ -236,6 +236,8 @@ On holographic descriptions of [[topological semimetals]] via the [[AdS-CMT corr
 
 * Masataka Matsumoto, Mirmani Mirjalali, Ali Vahedi, *Non-Linear Dynamics and Critical Phenomena in the Holographic Landscape of Weyl Semimetals* &lbrack;[arXiv:2405.06484](https://arxiv.org/abs/2405.06484)&rbrack;
 
+* Nishal Rai, Karl Landsteiner: *Hydrodynamic Modes of Holographic Weyl Semimetals* &lbrack;[arXiv:2408.06192](https://arxiv.org/abs/2408.06192)&rbrack;
+
 Review:
 
 * [[Karl Landsteiner]], [[Yan Liu]], [[Ya-Wen Sun]], *Holographic Topological Semimetals*,  Sci. China Phys. Mech. Astron. **63** 250001 (2020) &lbrack;[arXiv:1911.07978](https://arxiv.org/abs/1911.07978), [doi:10.1007/s11433-019-1477-7](https://doi.org/10.1007/s11433-019-1477-7)&rbrack;
