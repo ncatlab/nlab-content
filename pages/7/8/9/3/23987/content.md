@@ -2,7 +2,7 @@
 <a href="https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html">
 <img src="https://ncatlab.org/schreiber/files/CQTS-logo_animated.gif" width="380" alt="animated logo of CQTS">
 </a>
-</div>
+</div>Portal
 
 The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html)* ([nyuad.nyu.edu/L.cqts](https://nyuad.nyu.edu/cqts))  is a Research Center, launched in 2022, within the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
 
@@ -3330,9 +3330,11 @@ Neumann algebras**
 
 * 04 Sep 2024
 
-  Alessandro Portaluri (University of Torino and NYUAD):
+  [[Alessandro Portaluri]] (University of Torino and NYUAD):
 
   **Index and Stability of (Semi-)Riemannian Closed Geodesics**
+
+  cf. [arXiv:1907.05864](geodesic#PortaluriWuYang21)
 
   > A celebrated result proved by [[Poincaré]] affirms that a closed non-degenerate minimizing [[geodesic]] on an [[orientation|oriented]] [[surface]] is hyperbolic. Starting from this classical theorem and by using some recent results on the [[Maslov index]] and on the Spectral Flow, we will present a general instability criterion for [[timelike]] and [[spacelike]] closed (semi-)Riemannian geodesics on (non-)oriented [[Riemannian manifold|manifolds]] of any dimension.
 
