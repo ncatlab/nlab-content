@@ -67,4 +67,9 @@ For a very different argument coming to the same conclusion, within the [[IKKT m
 
 * S.-W. Kim, J. Nishimura, and A. Tsuchiya, _Late time behaviors of the expanding universe in the IIB matrix model_, JHEP 10, 147 (2012), ([arXiv:1208.0711](https://arxiv.org/abs/1208.0711)).
 
+On relating the Brandenberger-Vafa mechanism to the [[IKKT matrix model]]:
+
+* [[Robert Brandenberger]], Julia Pasiecznik: *On the Origin of the $SO(9) \to SO(3) \times SO(6)$ Symmetry Breaking in the IKKT Matrix Model* &lbrack;[arXiv:2409.00254](https://arxiv.org/abs/2409.00254)&rbrack;
+
+
 [[!redirects brane gas cosmology]]
