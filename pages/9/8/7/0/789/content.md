@@ -197,6 +197,10 @@ With emphasis on the role of [[G-structures]]:
 
 * [[Paul Koerber]], _Lectures on Generalized Complex Geometry for Physicists_, Fortsch. Phys. 59: 169-242, 2011 ([arXiv:1006.1536](https://arxiv.org/abs/1006.1536))
 
+In relation to [[Cartan geometry]]::
+
+* Falk Hassler, Ondrej Hulik, David Osten: *Current Algebra and Generalised Cartan Geometry* &lbrack;[arXiv:2409.00176](https://arxiv.org/abs/2409.00176)&rbrack;
+
 
 
 #### As targets for $\sigma$-models
@@ -207,7 +211,7 @@ Generalized complex structures may serve as [[target spaces]] for [[sigma-models
 
 #### Mirror symmetry
 
-* Oren Ben-Bassat, _Mirror symmetry and generalized complex manifolds. I. The transform on vector bundles, spinors, and branes_, 
+* [[Oren Ben-Bassat]], _Mirror symmetry and generalized complex manifolds. I. The transform on vector bundles, spinors, and branes_, 
 J. Geom. Phys. __56__ (2006), no. 4, 533&#8211;558 [math.AG/0405303](http://arxiv.org/abs/math/0405303) [MR2006k:53067](http://www.ams.org/mathscinet-getitem?mr=2199280) [doi](http://dx.doi.org/10.1016/j.geomphys.2005.03.004) 
 
 #### Geometry of supergravity
