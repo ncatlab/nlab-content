@@ -27,13 +27,12 @@ An __indexing system__  is a combinatorial datum which uniquely determines an [[
 
 
 ### Indexing systems
-
 In the following definition, fix $\mathcal{T}$ an [[orbital ∞-category]] and $\mathbb{F}_{\mathcal{T}} \coloneqq \mathcal{T}^{\amalg}$ its [[finite coproduct|finite-coproduct]] closure.
 
 For instance, $\mathcal{T}$ may be the [[orbit category]] of a [[finite group]], in which case $\mathbb{F}_{\mathcal{O}_G}$ is the category of [[finite set|finite]] [[G-sets]].
 
 \begin{definition}
-  A full $G$-subcategory $\underline{\mathbb{F}}_I \subset \underline{\mathbb{F}}_{\mathcal{T}}$ is called a __weak indexing system__ if
+  A full $\mathcal{T}$-subcategory $\underline{\mathbb{F}}_I \subset \underline{\mathbb{F}}_{\mathcal{T}}$ is called a __weak indexing system__ if
 
 1. (objects) whenever the $V$-value $\mathbb{F}_{I,V}$ is [[inhabited|nonempty]], it contains the $V$-set $*_V$.
 
@@ -70,12 +69,20 @@ Given $I$ a weak indexing category, we may define a [[full subcategory|full]] $\
    this restricts to an [[equivalence of categories|equivalence]] between indexing categories and indexing systems.
 \end{theorem}
 
+### Unitality conditions
 
+\begin{definition}
+
+1. A weak indexing system $\underline{\mathbb{F}}_I$ is **almost essentially unital** (or aE-unital) if for all non-contractible $S \in \mathbb{F}_{I,V}$, the empty $V$-set $\emptyset_V$ is in $\mathbb{F}_{I,V}$.
+
+2. A weak indexing system $\underline{\mathbb{F}}_I$ is **unital** if $\emptyset_V \in \mathbb{F}_{I,V}$ for all $V \in \mathcal{T}$.
+
+\end{definition}
 
 ### Transfer systems
 
 Let $\mathrm{Sub}(G)$ be the [[subgroup lattice]] of $G$.
-We say that a subposet $R \subset \mathrm{Sub}(G)$ is a \emph{transfer system} if it is closed under [[conjugation]] and [[restriction]].
+We say that a subposet $R \subset \mathrm{Sub}(G)$ is a _transfer system_ if it is closed under [[conjugation]] and [[restriction]].
 
 Given $I \subset \mathbb{F}_G$ an indexing system, we let $T(I) \subset \mathrm{Sub}(G)$ denote the subposet consisting of inclusions $K \subset H$ such that the corresponding map $G/K \rightarrow G/H$ is in $I$.
 The following theorem was independently proved by [Rubin 2017](#Rubin17) and by [Balchin, Barnes & Roitzheim 2019](#Balchin19).
@@ -87,15 +94,31 @@ $$
 $$
 \end{theorem}
 
-### Unitality conditions
+It is not clear how to generalize the subgroup lattice to orbital $\infty$-categories. 
+Instead, one should note that closure under [[conjugation]] implies that a transfer system only depends on its image under the [[homogeneous G-set]] functor $\mathrm{Sub}(G) \rightarrow \mathcal{O}_G$.
+Thus we may make the following definition.
 
 \begin{definition}
-
-1. A weak indexing system $\underline{\mathbb{F}}_I$ is **aE-unital** if for all non-contractible $S \in \mathbb{F}_{I,V}$, the empty $V$-set $\emptyset_V$ is in $\mathbb{F}_{I,V}$.
-
-2. A weak indexing system $\underline{\mathbb{F}}_I$ is **unital** if $\emptyset_V \in \mathbb{F}_{I,V}$ for all $V \in \mathcal{T}$.
-
+  A [[core]]-containing [[wide subcategory]] $\mathcal{T}^{\simeq} \subset R \subset \mathcal{T}$ is a \emph{transfer system} if, for all diagrams
+      \begin{tikzcd}
+	{U'} & U \\
+	{V'} & V
+	\arrow[from=1-1, to=1-2]
+	\arrow["{\alpha'}", from=1-1, to=2-1]
+	\arrow["\alpha", from=1-2, to=2-2]
+	\arrow[from=2-1, to=2-2]
+      \end{tikzcd}
+  in $\mathcal{T}$ with $\alpha$ in $R$ and whose map $U' \rightarrow U \times_V V'$ is a summand inclusion, the map $\alpha'$ is in $R$.
 \end{definition}
+
+Note that closure under summands implies that, whenever $I$ is a unital weak indexing category, its intersection $\mathfrak{R}(I) \coloneqq I \cap \mathcal{T}$ is a transfer system.
+[Nardin-Shah 22](#Nardin22) generalized the correspondence between indexing systems and transfer systems to orbital $\infty$-categories, and [Stewart 24](#Stewart24) generalized this to weak indexing systems as the following.
+
+\begin{proposition}
+  The monotone map $\mathfrak{R}\colon \mathrm{wIndex}_{\mathcal{T}}^{\mathrm{uni}} \rightarrow \mathrm{Transf}_{\mathcal{T}}$ has a [[fully faithful]] [[right adjoint]] whose [[essential image]] is spanned by the $\mathcal{T}$-indexing systems.
+\end{proposition}
+
+
 
 ## Properties
 
@@ -151,8 +174,8 @@ On enumerating categories of transfer systems
 
 Over [[orbital categories]]:
 
-* [[Denis Nardin]], [[Jay Shah]], _Parametrized and equivariant higher algebra_ &lbrack;[arxiv:2203.00072](https://arxiv.org/abs/2203.00072)&rbrack;
+* {#Nardin22} [[Denis Nardin]], [[Jay Shah]], _Parametrized and equivariant higher algebra_ &lbrack;[arxiv:2203.00072](https://arxiv.org/abs/2203.00072)&rbrack;
 
-* [[Natalie Stewart]], _Orbital categories and weak indexing systems_ &lbrack;[arXiv:2409.01377](https://arxiv.org/abs/2409.01377)&rbrack;
+* {#Stewart24} [[Natalie Stewart]], _Orbital categories and weak indexing systems_ &lbrack;[arXiv:2409.01377](https://arxiv.org/abs/2409.01377)&rbrack;
 
 [[!redirects indexing systems]]
