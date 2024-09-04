@@ -120,6 +120,9 @@ Named after:
 
 * [[David Bohm]], *A Suggested Interpretation of the Quantum Theory in Terms of "Hidden" Variables. II*, Phys. Rev. **85** (1952) 180 &lbrack;[doi:10.1103/PhysRev.85.180](https://doi.org/10.1103/PhysRev.85.180)&rbrack;
 
+Review:
+
+* Antony Valentini: *De Broglie-Bohm Quantum Mechanics*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2409.01294](https://arxiv.org/abs/2409.01294)&rbrack;
 
 See also:
 
