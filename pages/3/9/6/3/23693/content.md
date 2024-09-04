@@ -55,6 +55,8 @@ $$a \wedge \Vee_{n:\mathbb{N}} s(n) = \Vee_{n:\mathbb{N}} a \wedge s(n)$$
 
 * [[sigma-locale]]
 
+* [[sigma-coframe]]
+
 * [[first countable space]]
 
 * [[limited principle of omniscience]]
