@@ -7,7 +7,7 @@ Doctoral student at Harvard studying [[equivariant homotopy theory]], with curre
 
 I'm currently in the revision stage on a number of projects. For instance, on the combinatorics of [[indexing systems|weak indexing systems]]:
 
-* [[Natalie Stewart]]: _Orbital categories and weak indexing systems_ (draft)  &lbrack;[pdf](https://nataliesstewart.github.io/files/windex_draft.pdf)&rbrack;
+* [[Natalie Stewart]]: _Orbital categories and weak indexing systems_ (2024)  &lbrack;[arXiv:2409.01377](https://arxiv.org/abs/2409.01377)&rbrack;
 
 On the [[Boardman-Vogt tensor product]] of [[G-∞-operads]], featuring a computation of tensor products of [[N-∞ operads]]:
 
