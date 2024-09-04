@@ -236,11 +236,17 @@ Discussion of the [[duality between heterotic and type I string theory]] include
 
 * {#APT98} I. Antoniadis, H. Partouche, T. R. Taylor, _Lectures on Heterotic-Type I Duality_, Nucl.Phys.Proc.Suppl. 61A (1998) 58-71; Nucl.Phys.Proc.Suppl. 67 (1998) 3-1
 
+See also:
+
+* [[Mirjam Cvetič]], Max Wiesner: *Non-perturbative Resolution of Strong Coupling Singularities in 4d N=1 Heterotic/M-theory* &lbrack;[arXiv:2408.12458](https://arxiv.org/abs/2408.12458)&rbrack;
+
+
+
+### Phenomenology
+
 Discussion of [[string phenomenology]] in Horava-Witten theory:
 
 * {#Ovrut18} [[Burt Ovrut]], _Vacuum Constraints for Realistic Heterotic M-Theories_, Symmetry 2018, 10(12), 723 ([arXiv:1811.08892](https://arxiv.org/abs/1811.08892), [doi:10.3390/sym10120723](https://doi.org/10.3390/sym10120723))
-
-### Phenomenology
 
 Discussion of [[phenomenology]]/[[string phenomenology]] for the [[heterotic M-theory]], relating to the [[standard model of particle physics]]:
 
