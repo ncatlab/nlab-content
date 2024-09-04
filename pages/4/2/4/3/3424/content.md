@@ -47,15 +47,3 @@ Secton 1.2.1 in
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects opposite quasi-categories]]
-
-[[!redirects opposite (∞,1)-category]]
-[[!redirects opposite-(∞,1)-category]]
-
-[[!redirects opposite (∞,1)-categories]]
-[[!redirects opposite-(∞,1)-categories]]
-
-[[!redirects opposite (infinity,1)-category]]
-[[!redirects opposite-(infinity,1)-category]]
-
-[[!redirects opposite (infinity,1)-categories]]
-[[!redirects opposite-(infinity,1)-categories]]
