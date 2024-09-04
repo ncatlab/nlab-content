@@ -211,12 +211,13 @@ Original articles include
 
 * [[Michael Atiyah]], [[Isadore Singer]], _Index theory for skew-adjoint Fredholm operators_  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/askew.pdf))
 
-With an eye towards application in [[mathematical physics]]:
+Introduction with an eye towards application in [[mathematical physics]]:
 
 * [[Mikio Nakahara]], Chapter 12 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
+* David D. Bleecker, Bernhelm Booß-Bavnbek: *Index Theory with Applications to Mathematics and Physics*, International Press of Boston (2013) &lbrack;[ISBN:9781571462640](https://intlpress.com/site/pub/pages/books/items/00000398/index.php), [pdf](http://thiele.ruc.dk/~booss/A-S-Index-Book/Draft/main.pdf)&rbrack;
 
-Lecture notes include
+Lecture notes:
 
 * [[Jean-Michel Bismut]], _Introduction to index theory_, lecture notes ([pdf](http://www.math.leidenuniv.nl/~ajavanp/Notes_Index_TheoryBotao.pdf))
 
