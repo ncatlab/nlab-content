@@ -9,6 +9,11 @@ __Jean-Louis Loday__ (1946-2012) was a French mathematician who, at the time of 
 
 ## Selected writings
 
+Introducing the notion of [[crossed modules of Lie algebras]]:
+
+* [[Christian Kassel]], [[Jean-Louis Loday]]: appendix of: *Extensions centrales d'algèbres de Lie*, Annales de l'Institut Fourier, **32** 4 (1982) 119-142 &lbrack;[numdam:AIF_1982__32_4_119_0](http://www.numdam.org/item/?id=AIF_1982__32_4_119_0)&rbrack;
+
+
 On [[cyclic homology]] ([[cyclic objects]], [[cyclic spaces]], ... ):
 
 * [[Jean-Louis Loday]], *Cyclic Homology*, Grundlehren **301**, Springer 1992 ([doi:10.1007/978-3-662-21739-9](https://link.springer.com/book/10.1007/978-3-662-21739-9))
