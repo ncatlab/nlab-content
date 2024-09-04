@@ -2,7 +2,13 @@
 
 * [[mixed complex]], [[cyclic homology]]
 
+
 ## Selected writings
+
+Introducing the notion of [[crossed modules of Lie algebras]]:
+
+* [[Christian Kassel]], [[Jean-Louis Loday]]: appendix of: *Extensions centrales d'algèbres de Lie*, Annales de l'Institut Fourier, **32** 4 (1982) 119-142 &lbrack;[numdam:AIF_1982__32_4_119_0](http://www.numdam.org/item/?id=AIF_1982__32_4_119_0)&rbrack;
+
 
 On [[cyclic homology]]:
 
