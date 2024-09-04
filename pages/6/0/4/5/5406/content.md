@@ -4,7 +4,7 @@
 ###Context###
 #### Algebra
 +--{: .hide}
-[[!include higher algebra - contents]]
+[[!include algebra - contents]]
 =--
 =--
 =--
@@ -23,7 +23,7 @@ A _Henselian ring_ is a [[local ring]] for which the conclusion of [[Hensel's le
 +-- {: .num_defn}
 ###### Definition 
 
-Let $R$ be a local ring with [[maximal ideal]] $m$. Let $k = R/m$ be the residue class [[field]], and for a [[polynomial]] $f \in R[x]$, let $\bar{f} \in k[x]$ obtained by reduction of the coefficients of $f$ modulo $m$. Then $R$ is _Henselian_ if, for any [[monic polynomial|monic]] $f \in R[x]$ such that $\bar{f}$ factorizes as $g_0 h_0$ with $g_0, h_0$ monic and relatively prime in $k[x]$, there exist monic $g, h \in R[x]$ such that $f = g h$ with $\bar{g} = g_0$, $\bar{h} = h_0$, and the ideal $(g, h)$ is the unit ideal in $R[x]$. 
+Let $R$ be a local ring with [[maximal ideal]] $m$. Let $k = R/m$ be the residue class [[field]], and for a [[polynomial]] $f \in R[x]$, let $\bar{f} \in k[x]$ obtained by [[reduction mod p|reduction]] of the coefficients of $f$ modulo $m$. Then $R$ is _Henselian_ if, for any [[monic polynomial|monic]] $f \in R[x]$ such that $\bar{f}$ factorizes as $g_0 h_0$ with $g_0, h_0$ monic and relatively prime in $k[x]$, there exist monic $g, h \in R[x]$ such that $f = g h$ with $\bar{g} = g_0$, $\bar{h} = h_0$, and the ideal $(g, h)$ is the unit ideal in $R[x]$. 
 
 =-- 
 
