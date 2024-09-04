@@ -45,6 +45,14 @@ from [[(∞,1)Cat]] to itself. Up to equivalence, this is the only nontrivial su
 
 * [[opposite model category]]
 
-
-[[!redirects opposite quasi-category]]
 [[!redirects opposite (∞,1)-category]]
+[[!redirects opposite-(∞,1)-category]]
+
+[[!redirects opposite (∞,1)-categories]]
+[[!redirects opposite-(∞,1)-categories]]
+
+[[!redirects opposite (infinity,1)-category]]
+[[!redirects opposite-(infinity,1)-category]]
+
+[[!redirects opposite (infinity,1)-categories]]
+[[!redirects opposite-(infinity,1)-categories]]
