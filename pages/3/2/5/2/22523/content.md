@@ -78,6 +78,11 @@ See also:
 
 * Elliott Gesteau, Monica Jinwoo Kang, *The infinite-dimensional HaPPY code: entanglement wedge reconstruction and dynamics* ([arXiv:2005.05971](https://arxiv.org/abs/2005.05971))
 
+Variation to be more truthful to [[AdS/CFT]]:
+
+* Rafał Bistroń, Mykhailo Hontarenko, Karol Życzkowski: *Bulk-boundary correspondence from hyper-invariant tensor networks* &lbrack;[arXiv:2409.02029](https://arxiv.org/abs/2409.02029)&rbrack;
+
+
 
 [[!redirects HaPPY codes]]
 
