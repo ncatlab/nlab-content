@@ -114,7 +114,7 @@ The concept originates in the guise of [[cohomological quantum field theory]] mo
 
 and in the discussion of [[Chern-Simons theory]] ("Schwarz-type TQFT") in
 
-* [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_ Commun. Math. Phys. 121 (3) (1989) 351&#8211;399. MR0990772 ([project EUCLID](http://projecteuclid.org/euclid.cmp/1104178138))
+* [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_, Commun. Math. Phys. **121(( (3) (1989) 351-399.  &lbrack;[euclid:cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138), MR0990772&rbrack;
 
 Review:
 
