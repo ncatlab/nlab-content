@@ -4,7 +4,7 @@
 
 ## Selected works
 
-* [[Alexei Belov-Kanel]], [[Maxim Kontsevich]], _The Jacobian conjecture is stably equivalent to the Dixmier conjecture_, arXiv:[math/0512171](https://arxiv.org/abs/math/0512171)
+* [[Alexei Belov-Kanel]], [[Maxim Kontsevich]], _The Jacobian conjecture is stably equivalent to the Dixmier conjecture_, Mosc. Math. J., 7:2 (2007) 209--218; arXiv:[math.RA/0512171](https://arxiv.org/abs/math/0512171)
 
 * [[Alexei Kanel Belov]], Farrokh Razavinia, Wenchao Zhang, _Bergman's centralizer theorem and quantization_, Communications in Algebra __46__:5 (2018) [doi](https://doi.org/10.1080/00927872.2017.1372462) [arXiv:1708.04802](https://arxiv.org/abs/1708.04802)
 
