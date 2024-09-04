@@ -126,7 +126,7 @@ and then a 1-parameter family of such was discovered in
 
 That a limiting case of this is given by the [[orthosymplectic super Lie algebra]] $\mathfrak{osp}(1\vert 32)$:
 
-* {#FernandezIzquierdoOlmo15} J.J. Fernandez, [[José M. Izquierdo]], M.A. del Olmo, _Contractions from $osp(1|32) \oplus osp(1|32)$ to the M-theory superalgebra extended by additional fermionic generators_, Nuclear Physics B **897** (2015) 87-97 &lbrack;[arXiv:1504.05946](http://arxiv.org/abs/1504.05946)&rbrack;
+* {#FernandezIzquierdoOlmo15} J. J. Fernandez, [[José M. Izquierdo]], M. A. del Olmo, *Contractions from $osp(1|32) \oplus osp(1|32)$ to the M-theory superalgebra extended by additional fermionic generators*, Nuclear Physics B **897** (2015) 87-97 &lbrack;[arXiv:1504.05946](http://arxiv.org/abs/1504.05946), [doi:10.1016/j.nuclphysb.2015.05.018](https://doi.org/10.1016/j.nuclphysb.2015.05.018)&rbrack;
 
 Further discussion:
 
@@ -242,9 +242,11 @@ Arguments that the charges of the M-theory super Lie algebra may be identified i
 [[!redirects DF-algebra]]
 [[!redirects DF-algebras]]
 
-[[!redirects D'Auiria-Fré algebra]]
-[[!redirects D'Auiria-Fré algebras]]
+[[!redirects D'Auria-Fré algebra]]
+[[!redirects D'Auria-Fré algebras]]
 
-[[!redirects D'Auiria-Fre algebra]]
-[[!redirects D'Auiria-Fre algebras]]
+[[!redirects D'Auria-Fre algebra]]
+[[!redirects D'Auria-Fre algebras]]
 
+[[!redirects M-algebra]]
+[[!redirects M-algebras]]
