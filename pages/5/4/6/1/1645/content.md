@@ -201,7 +201,7 @@ The original articles on anomalous action functionals are
 
 * [[Luis Alvarez-Gaumé]], [[Edward Witten]], _Gravitational Anomalies_, Nucl. Phys. B234 (1984) 269 (<a href="https://doi.org/10.1016/0550-3213(84)90066-X">doi:10.1016/0550-3213(84)90066-X</a>, [spire:192309](http://inspirehep.net/record/192309))
 
-* [[Luis Alvarez-Gaumé]], [[Paul Ginsparg]], _The structure of gauge and gravitational anomalies_, Ann. Phys. 161 (1985) 423. (<a href="https://doi.org/10.1016/0003-4916(85)90087-9">doi:10.1016/0003-4916(85)90087-9</a>, [spire:202565](http://inspirehep.net/record/202565))
+* [[Luis Alvarez-Gaumé]], [[Paul Ginsparg]]: *The structure of gauge and gravitational anomalies*, Ann. Phys. **161** (1985) 423 &lbrack;<a href="https://doi.org/10.1016/0003-4916(85)90087-9">doi:10.1016/0003-4916(85)90087-9</a>, [spire:202565](http://inspirehep.net/record/202565)&rbrack;
 
 * [[Edward Witten]], _Global gravitational anomalies_, Commun. Math. Phys. 100 (1985) 197. ([doi:10.1007/BF01212448](https://doi.org/10.1007/BF01212448), [euclid:1103943444](http://projecteuclid.org/euclid.cmp/1103943444))
 
