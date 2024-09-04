@@ -71,15 +71,19 @@ $$
 
 
 
-## References and links
+## Literature
 
-The index first appears maybe in 
+Original article:
 
-* [[Victor Maslov]], _Th&#233;orie des perturbations et m&#233;thodes asymptotiques_. 1972
+* [[Victor Maslov]], _Th&#233;orie des perturbations et m&#233;thodes asymptotiques_ (1972)
 
 Its cohomological interpretation as a [[universal characteristic class]] was explained in
 
 * [[Vladimir Arnold]], _Characteristic class entering in quantization conditions_, Funct. Anal. its Appl. 1967, 1:1, 1&#8211;13, [doi](http://dx.doi.org/10.1007/BF01075861) (&#1042;. &#1048;. &#1040;&#1088;&#1085;&#1086;&#1083;&#1100;&#1076;, "&#1054; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1086;&#1084; &#1082;&#1083;&#1072;&#1089;&#1089;&#1077;, &#1074;&#1093;&#1086;&#1076;&#1103;&#1097;&#1077;&#1084; &#1074; &#1091;&#1089;&#1083;&#1086;&#1074;&#1080;&#1103; &#1082;&#1074;&#1072;&#1085;&#1090;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103;", &#1060;&#1091;&#1085;&#1082;&#1094;. &#1072;&#1085;&#1072;&#1083;&#1080;&#1079; &#1080; &#1077;&#1075;&#1086; &#1087;&#1088;&#1080;&#1083;., 1:1 (1967), 1&#8211;14, [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=2802&what=fullt&option_lang=rus)) 
+
+See also:
+
+* Wikipedia, *[Maslov index](https://en.wikipedia.org/wiki/Lagrangian_Grassmannian#Maslov_index)*
 
 A review in the context of [[geometric quantization]] (Maslov correction) is in 
 
@@ -128,12 +132,24 @@ London Math. Soc. Lec. Note Ser. __151__, Cambridge Univ. Press 1990.
 
 * Many links are at [[Andrew Ranicki]]'s [Maslov index seminar](http://www.maths.ed.ac.uk/~aar/maslov.htm) page. 
 
-* Paolo Piccione, Daniel Victor Tausk, _A student's guide to symplectic spaces, Grassmannians and Maslov index_, IMPA 2011, [pdf](http://www.impa.br/opencms/pt/biblioteca/pm/PM_27.pdf)
+* [[Paolo Piccione]], [[Daniel V. Tausk]]: _A student's guide to symplectic spaces, Grassmannians and Maslov index_, Instituto de Matemática Pura e Aplicada (2011) &lbrack;[pdf](http://www.impa.br/opencms/pt/biblioteca/pm/PM_27.pdf), [[PiccioneTausk-SymplecticSpaces.pdf:file]]&rbrack;
+
 
 * M. V. Finkelberg, _Orthogonal Maslov index_, Funct. Anal. Appl. 29(1) 72–74 (1995) [doi](https://doi.org/10.1007/bf01077047)
+
 * [[Alan Weinstein]], _The Maslov cycle as a Legendre singularity and projection of a wavefront set_, Bull. Braz. Math. Soc., N.S. 44, 593--610 (2013) [doi](https://doi.org/10.1007/s00574-013-0026-6)
 
 Application in the theory of Schroedinger operators:
 
 * Yuri Latushkin, Alim Sukhtayev, Selim Sukhtaiev, _The Morse and Maslov indices for Schr&#246;dinger operators_, [arxiv/1411.1656](http://arxiv.org/abs/1411.1656); Yuri Latushkin, Alim Sukhtayev, _Hadamard-type formulas via the Maslov form_, [arxiv/1601.07509](http://arxiv.org/abs/1601.07509)
+
+On stability and [[Maslov indices]] of [[geodesics]] in [[pseudo-Riemannian manifold|(semi-)]][[Riemannian manifolds]]:
+
+* [[Paolo Piccione]], [[Alessandro Portaluri]], [[Daniel V. Tausk]]: *Spectral Flow, Maslov Index and Bifurcation of Semi-Riemannian Geodesics*, Annals of Global Analysis and Geometry **25** (2004) 121–149 \[<a href="https://doi.org/10.1023/B:AGAG.0000018558.65790.db">doi:10.1023/B:AGAG.0000018558.65790.db</a>\]
+
+
+
+[[!redirects Maslov indices]]
+
 [[!redirects Maslov class]]
+[[!redirects Maslov classes]]
