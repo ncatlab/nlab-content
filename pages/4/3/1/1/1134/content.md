@@ -357,7 +357,9 @@ The site of formal duals not just to [[Grassmann algebras]] but to all super-[[i
 
 ### As manifolds modelled on Grassmann algebras
 
-* {#DeWitt92} [[Bryce DeWitt]], *Supermanifolds*, Monographs on Mathematical Physics, Cambridge University Press (1984) &lbrack;[doi:10.1017/CBO9780511564000](https://doi.org/10.1017/CBO9780511564000)&rbrack;  
+* Katsumi Yagi: *Super manifolds*, Osaka J. Math. **25** 4 (1988) 909-932 &lbrack;[euclid:ojm/1200781174](https://projecteuclid.org/journals/osaka-journal-of-mathematiacs/volume-25/issue-4/Super-manifolds/ojm/1200781174.full)&rbrack;
+
+* {#DeWitt92} [[Bryce DeWitt]], *Supermanifolds*, Monographs on Mathematical Physics, Cambridge University Press (1992) &lbrack;[doi:10.1017/CBO9780511564000](https://doi.org/10.1017/CBO9780511564000)&rbrack;  
 
 * {#Rogers07} [[Alice Rogers]], *Supermanifolds: Theory and Applications*, World Scientific (2007) &lbrack;[doi:10.1142/1878](https://doi.org/10.1142/1878)&rbrack;
 
