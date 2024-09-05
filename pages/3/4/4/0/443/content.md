@@ -46,8 +46,12 @@ and there is an obvious category whose objects are spans from $X$ to $Y$ and who
 $$X \stackrel{\pi_1}{\leftarrow} X \times Y \stackrel{\pi_2}{\to} Y$$ 
 and a relation from $X$ to $Y$ is just a [[subobject]] of the terminal span, in other words an isomorphism class of monos into the terminal span. 
 
-To each span $S$ from $X$ to $Y$, there is a corresponding relation from $X$ to $Y$, defined by taking the [[image]] of the unique morphism of spans $S \to X \times Y$ between $X$ and $Y$. It may be checked that this yields a lax morphism of bicategories 
-$$Span \to Rel$$ 
+To each span $S$ from $X$ to $Y$, there is a corresponding relation from $X$ to $Y$, defined by taking the [[image]] of the unique morphism of spans $S \to X \times Y$ between $X$ and $Y$. It may be checked that this yields a [[pseudofunctor]]
+$$|-|:Span \to Rel$$
+Indeed for $A \leftarrow R \to B$ and $B \leftarrow S \to C$, we have:
+$$
+|R \times_B S| = \{(a,c) \mid \exists k \in (R \times_B S)(a,c)\} = \{(a,c) \mid \exists b \in B (\exists r \in R(a,b) \land \exists s \in S(b,c))\} = |R| \odot |S|.
+$$
 
 ## Limits and colimits##
  {#LimitsAndColimit}
@@ -121,8 +125,9 @@ More generally, given any [[regular category]] $C$, one can form a 2-category of
 $$r \times_c s \to c \times e$$ 
 in the category of spans from $c$ to $e$, thus giving a mono into the terminal span from $c$ to $e$. The subobject class of this mono defines the relation 
 $$s \circ r \subseteq c \times e$$ 
-and the axioms of a regular category ensure that $\mathbf{Rel}(C)$ is a 2-category with desirable properties. Similar to what was said above, there is again a lax morphism of bicategories 
+and the axioms of a regular category ensure that $\mathbf{Rel}(C)$ is a 2-category with desirable properties. Similar to what was said above, there is again a [[pseudofunctor]]
 $$Span(C) \to \mathbf{Rel}(C)$$
+Indeed, the proof this was strong for $C=\bf Set$ carries over to an arbitrary regular category $C$ since it is written in [[regular logic]].
 
 There is also a functor 
 $$i: C \to \mathbf{Rel}(C)$$ 
