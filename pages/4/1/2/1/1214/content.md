@@ -1,5 +1,3 @@
-[[!redirects Mal&#39;cev category]]
-[[!redirects Mal&#39;cev category]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -59,7 +57,7 @@ The category of [[internal categories]] and functors in a Mal’cev category is 
 
 [[!redirects Mal'cev categories]]
 [[!redirects Mal'cev category]]
-[[!redirects Mal'cev category]]
+[[!redirects Mal&#39;cev category]]
 [[!redirects Malʹcev category]]
 [[!redirects Malcev category]]
 [[!redirects Maltsev category]]
