@@ -23,4 +23,9 @@ On [[swampland conjectures]]:
 
 * [[Ben Heidenreich]], [[Matthew Reece]], [[Tom Rudelius]], _Emergence and the Swampland Conjectures_ ([arXiv:1802.08698](https://arxiv.org/abs/1802.08698))
 
+On the [[weak gravity conjecture]]:
+
+* [[Tom Rudelius]]: *An Introduction to the Weak Gravity Conjecture* &lbrack;[arXiv:2409.02161](https://arxiv.org/abs/2409.02161)&rbrack;
+
+
 category: people
