@@ -90,6 +90,8 @@ Moreover, [[lens space]]-topology with its [[integral cohomology|integral]] [[to
 
 * Yashar Akrami et al., *Promise of Future Searches for Cosmic Topology*, Phys. Rev. Lett. **132** 17 (2024) 171501 &lbrack;[arXiv:2210.11426](https://arxiv.org/abs/2210.11426), [doi:10.1103/PhysRevLett.132.171501](https://doi.org/10.1103/PhysRevLett.132.171501)&rbrack;
 
+* COMPACT Collaboration: *Cosmic topology. Part Ic. Limits on lens spaces from circle searches* &lbrack;[arXiv:2409.02226](https://arxiv.org/abs/2409.02226)&rbrack;
+
 See also:
 
 * Wikipedia, *[Global universe structure](https://en.wikipedia.org/wiki/Shape_of_the_universe#Global_universe_structure)*
