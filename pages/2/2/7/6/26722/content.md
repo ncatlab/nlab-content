@@ -162,6 +162,57 @@ $$
 
 ### As normed algebras
 
+(under construction...)
+
+Let $p$ be a [[prime number]] and $C_p$ the [[cyclic group]] of order $p$.
+Let $(-)^e\colon \mathrm{Sp}_G \rightarrow \mathrm{Sp}^{BG}$ be the *underlying spectrum with $G$-action, and let $N_e^G$ be the Hill-Hopkins-Ravanel norm $G$-spectrum on a spectrum. 
+
+Given $A \in \mathrm{CAlg}(\mathrm{Sp}^{BC_p})$ a (highly structured) [[E-infinity-ring
+|commutative ring spectrum]] with $C_p$-action, we let $A^{\otimes^{\Delta} p}  \in \mathrm{CAlg}(\mathrm{Sp}^{BC_p})$ be the [[E-infinity-ring
+|commutative ring spectrum]] with diagonal $C_p$-action 
+
+$$
+  \sigma(a_1 \otimes \cdots \otimes a_p) = \sigma(a_p) \otimes \sigma(a_1) \otimes \cdots \otimes \sigma(a_{p-1}).
+$$
+
+Furthermore, we let $A^{\otimes^{\tau} p}  \in \mathrm{CAlg}(\mathrm{Sp}^{BC_p})$ be the [[E-infinity-ring
+|commutative ring spectrum]] with transpotiion $C_p$-action 
+
+$$
+  \sigma(a_1 \otimes \cdots \otimes a_p) = a_p \otimes a_1 \otimes \cdots \otimes a_{p-1}.
+$$
+
+\begin{definition}
+  A **normed $\mathbb{E}_\infty$-algebra in $C_p$-spectra** is the data of
+
+* an $\mathbb{E}_\infty$-algebra in $C_p$, 
+
+* a morphism of $\mathbb{E}_\infty$-rings $n_A\colon N^{C_p}_e A^e_{h_{C_p}} \rightarrow A$, and
+ 
+* a homotopy making the following diagram $\mathcal{O}_{C_p} \rightarrow \mathbb{E}_\infty \mathrm{Alg}(\mathrm{Sp})^{B C_p}$ commute:
+
+\begin{tikzcd}
+	{\left( A^e \right)^{\otimes^{\tau}p} } & {A^e} \\
+	{\left( A^e \right)^{\otimes^{\Delta}p} }
+	\arrow["{n_A}", from=1-1, to=1-2]
+	\arrow["{\mathrm{id} \otimes \sigma \otimes \cdots \otimes \sigma^{p-1}}"', "\sim", from=1-1, to=2-1]
+	\arrow["\mu"', from=2-1, to=1-2]
+\end{tikzcd}
+  
+  We denote the category of normed $\mathbb{E}_\infty$-algebras in $C_p$-spectra by $\mathrm{NAlg}_{C_p}(\mathrm{Sp}_{C_p})$.
+\end{definition}
+
+[Yang 23](#Yang23) constructs a forgetful functor $U\colon \mathrm{CAlg}_{C_p}(\mathrm{Sp}_{C_p}) \rightarrow \mathrm{NAlg}_{C_p}(\mathrm{Sp}_{C_p})$.
+The main result of [Yang 23](#Yang23) is that this is an equivalence:
+
+\begin{theorem}
+  The forgetful functor
+$$
+  U\colon \mathrm{CAlg}_{C_p}(\mathrm{Sp}_{C_p}) \rightarrow \mathrm{NAlg}_{C_p}(\mathrm{Sp}_{C_p})
+$$
+  is an equivalence.
+\end{theorem}
+
 ## Related concepts
 
 * [[Parametrized Higher Category Theory and Higher Algebra]]
@@ -192,9 +243,9 @@ Classification via indexing systems (each independently proves this):
 
 Presentation of algebras in various cases:
 
-* [[Lucy Yang]], _On normed $\mathbb{E}_\infty$-rings in genuine equivariant $C_p$-spectra_, (2023) ([arXiv:2308.16107](https://arxiv.org/abs/2308.16107))
+* {#Yang23}[[Lucy Yang]], _On normed $\mathbb{E}_\infty$-rings in genuine equivariant $C_p$-spectra_, (2023) ([arXiv:2308.16107](https://arxiv.org/abs/2308.16107))
 
-* {#Marc24} [[Gregoire Marc]], _A higher Mackey functor description of algebras over an $\mathcal{N}_\infty$-operad_, (2024) ([arXiv:2402.12447](https://arxiv.org/abs/2402.12447))
+* {#Marc24} Gregoire Marc, _A higher Mackey functor description of algebras over an $\mathcal{N}_\infty$-operad_, (2024) ([arXiv:2402.12447](https://arxiv.org/abs/2402.12447))
 
 * {#Tambara} [[Bastiaan Cnossen]], [[Rune Haugseng]], [[Tobias Lenz]], [[Sil Linskens]]: _Normed equivariant ring spectra and higher Tambara functors_ ([arXiv:2407.08399](https://arxiv.org/abs/2407.08399))
 
