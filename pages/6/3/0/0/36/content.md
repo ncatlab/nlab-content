@@ -285,11 +285,11 @@ A very different sort of general result has to do with the [[internal logic]] of
 
 The general notion of internalization is due to
 
-* {#Grothendieck60} [[Alexander Grothendieck]], p. 370 (3 of 23) in: [[FGA]] *Technique de descente et théorèmes d'existence en géométrie algébriques. II: Le théorème d'existence en théorie formelle des modules*, Séminaire Bourbaki : années 1958/59 - 1959/60, exposés 169-204, Séminaire Bourbaki, no. 5 (1960), Exposé no. 195 ([numdam:SB_1958-1960__5__369_0](http://www.numdam.org/item/SB_1958-1960__5__369_0), [pdf](http://www.numdam.org/item/SB_1958-1960__5__369_0.pdf), English translation: [web version](https://translations.thosgood.com/fga/fga3.ii.xml)).
+* {#Grothendieck60} [[Alexander Grothendieck]], p. 370 (3 of 23) in: [[FGA]] *Technique de descente et théorèmes d'existence en géométrie algébriques. II: Le théorème d'existence en théorie formelle des modules*, Séminaire Bourbaki **195** (1960) &lbrack;[numdam:SB_1958-1960__5__369_0](http://www.numdam.org/item/SB_1958-1960__5__369_0), [pdf](http://www.numdam.org/item/SB_1958-1960__5__369_0.pdf), English translation: [web version](https://translations.thosgood.com/fga/fga3.ii.xml)&rbrack;
 
 with specialization to [[internal groups]], [[internal actions]], [[internal categories]] and [[internal groupoids]] made explicit in:
 
-* {#Grothendieck61} [[Alexander Grothendieck]], Sections 3, 4 of: [[FGA]] _Techniques de construction et théorèmes d'existence en géométrie algébrique III: préschémas quotients_, Séminaire Bourbaki: années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf), English translation: [web version](https://translations.thosgood.com/fga/fga3.iii.xml)).
+* {#Grothendieck61} [[Alexander Grothendieck]], Sections 3, 4 of: [[FGA]] *Techniques de construction et théorèmes d'existence en géométrie algébrique III: préschémas quotients*, Séminaire N. Bourbaki **212** (1961)   &lbrack;[numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf), English translation: [web version](https://translations.thosgood.com/fga/fga3.iii.xml)&rbrack;
 
 and to the case of internal [[principal bundles]] (see at *[[pseudo-torsor]]*) in:
 
@@ -346,7 +346,13 @@ Yet more general internal structures via [[sketches]]:
 
 * {#BastianiEhresmann72} [[Andrée Bastiani]], [[Charles Ehresmann]], _Categories of sketched structures_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Tome 13 (1972) no. 2, pp. 104-214 ([numdam:CTGDC_1972__13_2_104_0](http://www.numdam.org/item/?id=CTGDC_1972__13_2_104_0))
 
-* [[Michael Barr]], [[Charles Wells]], Section 4 of: _[[Toposes, Triples, and Theories]]_, Originally published by: Springer-Verlag, New York, 1985, republished in: Reprints in [Theory and Applications of Categories, No. 12 (2005) pp. 1-287](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)
+* [[Michael Barr]], [[Charles Wells]], Section 4 of: _[[Toposes, Triples, and Theories]]_, Springer (1985) 
+
+  reprinted in:
+
+  Reprints in Theory and Applications of Categories **12** 
+ (2005) 1-287 &lbrack;[tac:tr12](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html)&rbrack;
+
 
 
 For more see at:
