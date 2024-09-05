@@ -206,7 +206,7 @@ This definition is found e.g. in:
 
 References mentioning the definition of super Lie groups as [[internal groups]] in  [[supermanifolds]] and mostly also the perspective of [[functorial geometry]]:
 
-* Katsumi Yagi, *Super Lie Groups*, Adv. Stud. Pure Math. Progress in Differential Geometry (1993) 407-412 &lbrack;[euclid:1534359537](https://projecteuclid.org/euclid.aspm/1534359537)&rbrack;
+* Katsumi Yagi, *Super Lie Groups*, Adv. Stud. Pure Math. **22**, Progress in Differential Geometry (1993) 407-412 &lbrack;[euclid:1534359537](https://projecteuclid.org/euclid.aspm/1534359537)&rbrack;
 
 * {#DeligneMorgan99} [[Pierre Deligne]], [[John Morgan]], §2.10 in: _Notes on Supersymmetry (following [[Joseph Bernstein]])_, in: *[[Quantum Fields and Strings]], A course for mathematicians*, **1**, Amer. Math. Soc. Providence (1999) 41-97 &lbrack;[ISBN:978-0-8218-2014-8](https://bookstore.ams.org/qft-1-2-s), [web version](http://www.math.ias.edu/qft), [[DeligneMorgan-NotesOnSusy.pdf:file]]&rbrack;
 
@@ -219,7 +219,7 @@ References mentioning the definition of super Lie groups as [[internal groups]] 
 
 Discussion via [[formal duality|dual]] [[superalgebra]]:
 
-* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Lie Supergroups*, in: *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi;10.1007/978-94-017-1963-6_8](https://doi.org/10.1007/978-94-017-1963-6_8)&rbrack; 
+* [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Lie Supergroups*, in: *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi:10.1007/978-94-017-1963-6_8](https://doi.org/10.1007/978-94-017-1963-6_8)&rbrack; 
 
 Discussion in a context of [[supergravity]]:
 
