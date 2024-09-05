@@ -56,9 +56,12 @@ with reference to arguments in
 
 * {#Susskind96} [[Leonard Susskind]], _Trouble For Remnants_ ([arXiv:hep-th/9501106](https://arxiv.org/abs/hep-th/9501106))
 
-Review is in
+Review:
 
-* [[Eran Palti]], _The Swampland: Introduction and Review_, lecture notes ([arXiv:1903.06239](https://arxiv.org/abs/1903.06239))
+* [[Eran Palti]]: _The Swampland: Introduction and Review_, lecture notes &lbrack;[arXiv:1903.06239](https://arxiv.org/abs/1903.06239)&rbrack;
+
+* [[Tom Rudelius]]: *An Introduction to the Weak Gravity Conjecture* &lbrack;[arXiv:2409.02161](https://arxiv.org/abs/2409.02161)&rbrack;
+
 
 
 Further discussion includes
