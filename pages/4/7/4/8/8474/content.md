@@ -22,8 +22,6 @@ A **$\Pi W$-pretopos** is a [[Π-pretopos]] with all [[W-types]].
 
 * In [[homotopy type theory]] the [[h-sets]] form a &#928;W-pretopos ([Rijke-Spitter 13](#RijkeSpitter13)). See also at _[[structural set theory]]_.
 
-* The [[inequality spaces]] and [[strongly extensional functions]] form a &#928;W-pretopos. 
-
 ## Related concepts
 
 * A [[predicative topos]] is a $\Pi W$-pretopos satisfying the [[axiom of multiple choice]].
