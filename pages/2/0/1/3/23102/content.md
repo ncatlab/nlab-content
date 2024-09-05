@@ -19,7 +19,7 @@
 
 ## Idea
 
-A [[2-category]] is **representable** when it admits 2-[[pullbacks]] and [[powers]] with the [[interval category]]. A 2-category has [[2-limit|finite limits]] when it is representable and has a [[terminal object]].
+Historically, a [[2-category]] is **representable** when it admits 2-[[pullbacks]] and [[powers]] with the [[interval category]]. A 2-category has [[2-limit|finite limits]] when it is representable and has a [[terminal object]].
 
 In particular, a 2-category with [[comma objects]] and 2-[[pullbacks]] is representable in this sense.
 
