@@ -42,11 +42,13 @@ In [Lombardi & Quitté (2010)](#LombardiQuitté2010), the authors' definition of
 
 ## Properties
 
-### Stable and decidable equality. 
+### Stable equality. 
 
 Every [[Heyting field]] $R$ has [[stable equality]], because it has a [[tight apartness relation]] defined as $a \# b$ if and only if $a - b$ is invertible. For all elements $a \in R$ and $b \in R$, $\neg \neg \neg (a \# b) \iff \neg (a \# b)$, and because $\neg (a \# b) \iff a = b$, $\neg \neg (a = b) \iff a = b$, and thus $R$ has stable equality. 
 
-A Heyting field with [[decidable equality]] is a [[discrete field]]. 
+### Decidable tight apartness
+
+A Heyting field with [[decidable tight apartness]] is a [[discrete field]]. 
 
 ## Weak Heyting fields
 
