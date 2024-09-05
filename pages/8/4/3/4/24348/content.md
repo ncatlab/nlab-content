@@ -43,7 +43,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Cauchy completion in enriched categories|Scott Russell Johnson|1993|[ANU repository](https://doi.org/10.25911/5d6513e948cab)| |
 |Linear Logic, Bimodules, and Full Coherence for Autonomous Categories|[[Todd Trimble]]|1994| | |
 |Cobordism Categories|Sean Carmody|1995| | | 
-|The algebra of distributive and extensive categories|[[Stephen Lack]]|1995| | | 
+|The algebra of distributive and extensive categories|[[Stephen Lack]]|1995|[[Lack_TheAlgebraOfDistributiveAndExtensiveCategories.pdf:file]]| | 
 |Groupoid Representations for Sheaves on Orbifolds|[[Dorette Pronk]]|1995| | |
 |Internal categories and quantum groups|[[Marcelo Aguiar]]|1997|[pdf](https://ncatlab.org/nlab/files/Aguiar_InternalCategoriesAndQuantumGroups.pdf)| |
 |Monadicity, Purity, and Descent Equivalence|Xiuzhan Guo|2000|[pdf](https://www.collectionscanada.gc.ca/obj/s4/f2/dsk2/ftp02/NQ59136.pdf)| on [[monadicity]], [[descent]], and [[locally presentable categories]] |
