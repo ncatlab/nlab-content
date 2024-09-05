@@ -110,7 +110,9 @@ The internal versions of the limited principles of omniscience, like all interna
 
 There are various other results that are equivalent to the principles of omniscience. Here are a few:
 
-* Every [[semi-decidable proposition]] is a [[decidable proposition]] iff $\mathrm{LPO}_\mathbb{N}$ holds. 
+* $\mathrm{LPO}_\mathbb{N}$ holds if and only if for every sequence $x$ of [[natural numbers]], either there exists natural numbers $m$ and $n$ such that $x(m) = n + 1$, or for all natural numbers $m$, $x(m) = 0$. 
+
+* Every [[semi-decidable proposition]] is a [[decidable proposition]] if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
 * [[sequentially compact space|Sequential compactness]] of the [[unit interval]] holds if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
@@ -182,19 +184,7 @@ as $P$ is decidable.
 
 * The [[LLPO]] follows from [[LPO]], [[WLPO]] is equivalent to untruncated LLPO, which implies truncated LLPO, and [[WLPO]] follows from [[LPO]]. However, the converse does not necessarily hold, since in <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates WLPO from LLPO. Similarly, [Grossack 24](#Grossack24) shows that Johnstone's topological topos separates WLPO from LLPO. Thus LLPO is separated from LPO. 
 
-* Given two sets $A$ and $B$ with [[decidable relation|decidable]] [[tight apartness relations]], the [[tight apartness relation]] on the [[function set]] $B^A$ defined as 
-$$f \# g \coloneqq \exists x \in A.f(x) \neq g(x)$$
-being a decidable relation implies the limited principle of omniscience for natural numbers. Equivalently, that the category of sets with decidable tight apartness is a [[cartesian closed category]] implies $\mathrm{LPO}_\mathbb{N}$. 
-
-* Similarly, given a set $A$ and a [[family of sets]] $(B(x))_{x \in A}$ where both $A$ and each $B(x)$ have [[decidable relation|decidable]] [[tight apartness relations]], the [[tight apartness relation]] on the [[dependent product]] $\prod_{x \in A} B(x)$ defined as 
-$$f \# g \coloneqq \exists x \in A.f(x) \neq g(x)$$
-being a decidable relation implies the limited principle of omniscience for natural numbers. Equivalently, that the category of sets with decidable tight apartness is a [[locally cartesian closed category]] implies $\mathrm{LPO}_\mathbb{N}$. 
-
-* In [[cohesive homotopy type theory]], crisp [[excluded middle]] and [[punctual cohesion]] together imply that in the cohesive mode, sets with [[decidable tight apartness]] form a [[cartesian closed category]] and a [[locally cartesian closed category]], thus implying $\mathrm{LPO}_\mathbb{N}$ in the cohesive mode. 
-
-* That every [[tight apartness relation]] on a [[set]] is [[decidable relation|decidable]] implies $\mathrm{LPO}_\mathbb{N}$. Equivalently with [[quotient sets]], that every [[apartness relation]] on a [[set]] is [[decidable relation|decidable]] implies $\mathrm{LPO}_\mathbb{N}$: 
-
-$$((\forall x.\neg R(x, x)) \wedge (\forall x, y.R(x, y) \Rightarrow R(y, x)) \wedge (\forall x, y, z.R(x, y) \wedge R(y, z) \Rightarrow R(x, z))) \Rightarrow (\forall x, y.R(x, y) \vee \neg R(x, y))$$
+* Given a set $A$, $\mathrm{LPO}_A$ holds if and only if for every function $f:A \to \mathbb{N}$ from $A$ to the [[natural numbers]], either there exists an element $x$ in $A$ and a natural number $n$ such that $f(x) = n + 1$, or for all elements $x$ in $A$, $f(x) = 0$. 
 
 ## Models
 
