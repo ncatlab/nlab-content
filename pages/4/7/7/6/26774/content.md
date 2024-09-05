@@ -95,7 +95,7 @@ $$
 \end{theorem}
 
 It is not clear how to generalize the subgroup lattice to orbital $\infty$-categories. 
-Instead, one should note that closure under [[conjugation]] implies that a transfer system only depends on its image under the [[homogeneous G-set]] functor $\mathrm{Sub}(G) \rightarrow \mathcal{O}_G$.
+Instead, one should note that closure under [[conjugation]] implies that a transfer system only depends on its image under the [[coset|homogeneous G-set]] functor $\mathrm{Sub}(G) \rightarrow \mathcal{O}_G$.
 Thus we may make the following definition.
 
 \begin{definition}
