@@ -91,7 +91,7 @@ $$u^{-1}(Z)(R):=\{y\in Y(R)|u(y)\in Z(R)\}$$
 
 A subfunctor $Y\subseteq X$ is called _open subfunctor_ resp. _closed subfunctor_ if for every transformation $u:T\to X$ we have $u^{-1}(Y)$ is of the form $V(E)$ resp. $D(E)$.
 
-+-- {: .num_defn}
++-- {: .num_defn #DefAsSheaves}
 ###### Definition
 
 A $k$-functor $X$ is called a $k$_-scheme_ if the following two conditions hold:
