@@ -50,6 +50,7 @@ An example of the badly behaved case -- where the transformation is not monoidal
 
 * Affine **BCK** [[combinatory logic]] 
 
+* [[antithesis interpretation]]
 
 ## References
 
