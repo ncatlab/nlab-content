@@ -88,6 +88,8 @@ Discussion of [[strange metals]]/[[high-temperature superconductors]] via [[AdS/
 
 * Javier Carballo, Ayan K. Patra, Juan F. Pedraza: *Diving inside holographic metals* &lbrack;[arXiv:2408.07748](https://arxiv.org/abs/2408.07748)&rbrack;
 
+* Benoit Doucot, Ayan Mukhopadhyay, [[Giuseppe Policastro]], Sutapa Samanta, Hareram Swain: *An effective framework for strange metallic transport* &lbrack;[arXiv:2409.02993](https://arxiv.org/abs/2409.02993)&rbrack;
+
 and via the [[SYK model]]:
 
 * [[Subir Sachdev]], *Statistical mechanics of strange metals and black holes* ([arXiv:2205.02285](https://arxiv.org/abs/2205.02285))
