@@ -34,4 +34,9 @@ On [[AdS/QCD]] for [[2d QCD]]:
 
 * [[Emanuel Katz]], Takemichi Okui, _The 't Hooft Model As A Hologram_, JHEP 0901:013, 2009 ([arXiv:0710.3402](https://arxiv.org/abs/0710.3402))
 
+Concerning [[2d CFT]] on the [[fuzzy sphere]]:
+
+* Giulia Fardelli, A. Liam Fitzpatrick, [[Emanuel Katz]]: *Constructing the Infrared Conformal Generators on the Fuzzy Sphere* &lbrack;[arXiv:2409.02998](https://arxiv.org/abs/2409.02998)&rbrack;
+
+
 category: people
