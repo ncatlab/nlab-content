@@ -27,11 +27,11 @@ The faleshood is commonly denoted $false$, $F$, $\bot$, or $0$.  These may be pr
 In [[classical logic]], there are two [[truth values]]: false and [[true]].  Classical logic is perfectly symmetric between falsehood and truth; see [[de Morgan duality]].
 
 
-### In constructive logic
+### In intuitionistic logic
 
-In [[constructive logic]], $false$ is the [[bottom element]] in the [[poset]] of [[truth values]].  
+In [[intuitionistic logic]], $false$ is the [[bottom element]] in the [[poset]] of [[truth values]].  
 
-Constructive logic is still [[two-valued logic|two-valued]] in the sense that any truth value is false if it is not [[true]].
+Intuitionistic logic is still [[two-valued logic|two-valued]] in the sense that any truth value is false if it is not [[true]].
 
 In [[natural deduction]] the [[inference rules]] for falsehood are given as 
 
