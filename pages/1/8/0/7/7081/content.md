@@ -100,6 +100,26 @@ $$\frac{\Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \eta_\mathrm{isProp}:p
 
 * If $A$ and $B$ are h-props and there exist maps $A\to B$ and $B\to A$, then $A$ and $B$ are [[equivalence of types|equivalent]]. This follows from the fact that if $A$ and $B$ are types and there exists embeddings $A\to B$ and $B\to A$, then $A$ and $B$ are equivalent. 
 
+### Relation to the principles of omniscience
+
+Suppose that $A$ is a mere proposition. Then $A$ is [[equivalence of types|equivalent]] to the [[existential quantifier]] $\exists x:A.(\lambda t.1)(x) = 1$, where $\lambda t.1$ is the [[constant function]] from $A$ to the [[booleans]] which takes elements of $A$ to the boolean $1:\mathrm{bool}$. Then, one can show that various [[principles of omniscience]] are equivalent to weak versions of excluded middle, via the special case of the constant function $\lambda t.1$: 
+
+* That the [[limited principle of omniscience]] holds for all mere propositions is equivalent to [[excluded middle]]:
+
+$$\left(\prod_{A:\mathrm{Prop}} \prod_{f:A \to 2} \exists x:A.f(x) = 1 \vee \neg (\exists x:A.f(x) = 1)\right) \simeq \left(\prod_{A:\mathrm{Prop}} A \vee \neg A\right)$$
+
+* That the [[weak limited principle of omniscience]] holds for all mere propositions is equivalent to [[weak excluded middle]]:
+
+$$\left(\prod_{A:\mathrm{Prop}} \prod_{f:A \to 2} \neg (\exists x:A.f(x) = 1) \vee \neg \neg (\exists x:A.f(x) = 1)\right) \simeq \left(\prod_{A:\mathrm{Prop}} \neg A \vee \neg \neg A\right)$$
+
+* That the [[lesser limited principle of omniscience]] holds for all mere propositions is equivalent to [[de Morgan's law]]:
+
+$$\left(\prod_{A:\mathrm{Prop}} \prod_{B:\mathrm{Prop}} \prod_{f:A \to 2} \prod_{g:B \to 2} \neg ((\exists x:A.f(x) = 1) \wedge (\exists x:B.g(x) = 1)) \to (\neg (\exists x:A.f(x) = 1) \vee \neg (\exists x:B.g(x) = 1))\right) \simeq \left(\prod_{A:\mathrm{Prop}} \prod_{B:\mathrm{Prop}} \neg (A \wedge B) \to (\neg A) \vee (\neg B)\right)$$
+
+* That [[Markov's principle]] holds for all mere propositions is equivalent to the [[double negation law]]:
+
+$$\left(\prod_{A:\mathrm{Prop}} \prod_{f:A \to 2} \neg \neg (\exists x:A.f(x) = 1) \to \exists x:A.f(x) = 1\right) \simeq \left(\prod_{A:\mathrm{Prop}} \neg \neg A \to A\right)$$
+
 ## Categorical semantics
 
 We discuss the [[categorical semantics]] of h-propositions.
