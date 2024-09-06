@@ -10,9 +10,12 @@ On [[The Rising Sea]]-analogy by [[Alexander Grothendieck]]:
 
 On the history of [[topos theory]]:
 
-* [[Colin McLarty]], _The Uses and Abuses of the History of Topos Theory_ , Brit. J. Phil. Sci., 41 (1990) ([JSTOR](http://www.jstor.org/stable/687825)) [PDF](http://bjps.oxfordjournals.org/content/41/3/351.full.pdf)
+* [[Colin McLarty]], _The Uses and Abuses of the History of Topos Theory_ , Brit. J. Phil. Sci., 41 (1990) &lbrack;[jstor](http://www.jstor.org/stable/687825), [pdf](http://bjps.oxfordjournals.org/content/41/3/351.full.pdf)&rbrack;
 
-* {#McLarty18} [[Colin McLarty]], _Grothendieck's 1973 topos lectures_, Séminaire Lectures grothendieckiennes, 3 May (2018) ([YouTube video](https://www.youtube.com/watch?v=5AR55ZsHmKI))
+* {#McLarty18} [[Colin McLarty]], _Grothendieck's 1973 topos lectures_, Séminaire Lectures grothendieckiennes, 3 May (2018) &lbrack;[YT](https://www.youtube.com/watch?v=5AR55ZsHmKI)&rbrack;
+
+* [[Colin McLarty]]: *The Life of Alexander Grothendieck & Topos Theory*, podcast interview at *Theories of Everything with Curt Jaimungal* (June 2024) &lbrack;[YT](https://youtu.be/81sPQGIWEfM)&rbrack;
+
 
 Exposition of [[sheaf toposes]]:
 
