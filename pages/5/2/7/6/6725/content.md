@@ -208,20 +208,18 @@ More on the [[Green-Schwarz mechanism]] in [[Hořava-Witten theory]]:
 
 * E. Dudas, J. Mourad, _On the strongly coupled heterotic string_, Phys. Lett. B400 (1997) 71-79 ([arXiv:hep-th/9701048](https://arxiv.org/abs/hep-th/9701048))
 
-* [[Adel Bilal]], Jean-Pierre Derendinger, Roger Sauser, _M-Theory on $S^1/\mathbb{Z}_2$: New Facts from a Careful Analysis_, Nucl. Phys. B576 (2000) 347-374 ([arXiv:hep-th/9912150](https://arxiv.org/abs/hep-th/9912150))
+* [[Adel Bilal]], Jean-Pierre Derendinger, Roger Sauser, _M-Theory on $S^1/\mathbb{Z}_2$: New Facts from a Careful Analysis_, Nucl. Phys. B **576** (2000) 347-374 &lbrack;[arXiv:hep-th/9912150](https://arxiv.org/abs/hep-th/9912150)&rbrack;
+
+* Ian G. Moss: *Boundary terms for supergravity and low energy heterotic M-theory*, Nuclear Physics B **729** 1–2 (2005) 179-202 &lbrack;[doi:10.1016/j.nuclphysb.2005.09.023](https://doi.org/10.1016/j.nuclphysb.2005.09.023)&rbrack;
 
 
-* Ian G Moss, _A new look at anomaly cancellation in heterotic M-theory_, Phys. Lett. B637 (2006) 93-96 ([arXiv:hep-th/0508227](https://arxiv.org/abs/hep-th/0508227))
+* Ian G. Moss, _A new look at anomaly cancellation in heterotic M-theory_, Phys. Lett. B **637** (2006) 93-96 &lbrack;[arXiv:hep-th/0508227](https://arxiv.org/abs/hep-th/0508227)&rbrack;
 
-* Sergio Lukic, [[Gregory Moore]], _Flux corrections to anomaly cancellation in M-theory on a manifold with boundary_ ([arXiv:hep-th/0702160](https://arxiv.org/abs/hep-th/0702160))
+* Sergio Lukic, [[Gregory Moore]], _Flux corrections to anomaly cancellation in M-theory on a manifold with boundary_ &lbrack;[arXiv:hep-th/0702160](https://arxiv.org/abs/hep-th/0702160)&rbrack;
 
-* Ian G Moss, _Higher order terms in an improved heterotic M theory_, JHEP 0811:067, 2008 ([arXiv:0810.1662](https://arxiv.org/abs/0810.1662))
-
-
-
+* Ian G. Moss, _Higher order terms in an improved heterotic M theory_, JHEP 0811:067 (2008) &lbrack;[arXiv:0810.1662](https://arxiv.org/abs/0810.1662)&rbrack;
 
 * [[Fei Han]], [[Kefeng Liu]], [[Weiping Zhang]], _Anomaly Cancellation and Modularity. II: $E_8 \times E_8$ case_, Sci. China Math. 60, 985–994 (2017) ([arXiv:1209.4540](https://arxiv.org/abs/1209.4540), [doi:10.1007/s11425-016-9034-1](https://doi.org/10.1007/s11425-016-9034-1))
-
 
 
 Explicit discussion of [[worldvolume]] [[CFT]] of the [[M2-branes]] ending on the HW fixed points and becoming [[heterotic strings]] is discussed, via the [[BLG model]], in 
@@ -317,6 +315,7 @@ Generalization to [[M-theory on S1/G_HW times H/G_ADE]]:
 
 * {#HSS18} [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], Example 2.2.7 of: _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, CMP (2019) ([arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](http://link.springer.com/article/10.1007/s00220-019-03442-3))
 
+
 ### For 7d supergravity
 
 Discussion for [[7d supergravity]]:
@@ -325,7 +324,7 @@ Discussion for [[7d supergravity]]:
 
 * Spyros D. Avramis, [[Alex Kehagias]], _Gauged $D=7$ Supergravity on the $S^1/\mathbb{Z}_2$ Orbifold_ ([arXiv:hep-th/0407221](https://arxiv.org/abs/hep-th/0407221))
 
-* T.G. Pugh, [[Ergin Sezgin]], [[Kellogg Stelle]], _$D=7$ / $D=6$ Heterotic Supergravity with Gauged R-Symmetry_ ([arXiv:1008.0726](https://arxiv.org/abs/1008.0726))
+* T. G. Pugh, [[Ergin Sezgin]], [[Kellogg Stelle]], _$D=7$ / $D=6$ Heterotic Supergravity with Gauged R-Symmetry_ ([arXiv:1008.0726](https://arxiv.org/abs/1008.0726))
 
 
 
