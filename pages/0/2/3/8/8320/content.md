@@ -19,7 +19,7 @@
 
 In [[formal logic]] and [[type theory]], the _contraction rule_ states that any valid [[deduction]] that uses a [[premise]] more than once remains valid using that premise only once.  Along with the [[weakening rule]] and the [[exchange rule]], it is one of the most commonly adopted [[structural rules]].
 
-The contraction rule is not used in all [[logical frameworks]]: In [[substructural logics]] like [[linear logic]] it is discarded.
+The contraction rule is not used in all [[logical frameworks]]: In [[substructural logics]] like [[linear logic]] and [[affine logic]] it is discarded.
 
 
 ## Statements
