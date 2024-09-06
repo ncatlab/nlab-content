@@ -120,7 +120,7 @@ since [[generalized the|the]] [[limit]] of a [[functor]] is the [[colimit]] of i
 \end{remark}
 
 \begin{remark}\label{ProObjectAsFormalDualOfIndObject}
-The category $Pro(\mathcal{C})$ is the [[opposite category]] of that of [[ind-objects]] in the opposite catgegory of $\mathcal{C}$ (e.g. [Kashiwara-Schapira 06, p. 138](#KashiwaraSchapira06)):
+The category $Pro(\mathcal{C})$ is the [[opposite category]] of that of [[ind-objects]] in the opposite category of $\mathcal{C}$ (e.g. [Kashiwara-Schapira 06, p. 138](#KashiwaraSchapira06)):
 $
   Pro(\mathcal{C})
     \simeq
