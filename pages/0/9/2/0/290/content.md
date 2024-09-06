@@ -201,11 +201,14 @@ Introductions:
 
 * [[Michel Talagrand]], *What is a Quantum Field Theory? -- A first Introduction for Mathematicians*, Cambridge University Press (2022) &lbrack;[doi:10.1017/9781108225144](https://doi.org/10.1017/9781108225144)&rbrack; 
 
+* [[Pavel Etingof]]: *Mathematical ideas and notions of quantum field theory* &lbrack;[arXiv:2409.03117](https://arxiv.org/abs/2409.03117)&rbrack;
+
+
 A standard textbook written from the perspective of [[effective field theory]]:
 
-* {#Weinberg95} [[Steven Weinberg]] *The Quantum Theory of Fields Vol 1: Foundations*, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9781139644167](https://doi.org/10.1017/CBO9781139644167)&rbrack;
+* {#Weinberg95} [[Steven Weinberg]]: *The Quantum Theory of Fields Vol 1: Foundations*, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9781139644167](https://doi.org/10.1017/CBO9781139644167)&rbrack;
 
-* {#Weinberg96} [[Steven Weinberg]] *The Quantum Theory of Fields Vol 2: Applications*, Cambridge University Press (1996) &lbrack;[doi:10.1017/CBO9781139644174](https://doi.org/10.1017/CBO9781139644174)&rbrack;
+* {#Weinberg96} [[Steven Weinberg]]: *The Quantum Theory of Fields Vol 2: Applications*, Cambridge University Press (1996) &lbrack;[doi:10.1017/CBO9781139644174](https://doi.org/10.1017/CBO9781139644174)&rbrack;
 
 Application in/to [[solid state physics]]:
 
