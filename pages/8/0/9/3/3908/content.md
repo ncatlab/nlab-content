@@ -1,4 +1,6 @@
-__Pavel Etingof__ is a mathematician at MIT ([web](http://www-math.mit.edu/~etingof/)). He has been one of the main developers of the theory of [[fusion categories]].
+__Pavel Etingof__ is a mathematician at MIT. He has been one of the main developers of the theory of [[fusion categories]].
+
+* [personal page](http://www-math.mit.edu/~etingof/)
 
 ## Selected writings
 
@@ -42,6 +44,10 @@ On Calogero-Moser systems and [[double affine Hecke algebra]]s:
 On [[Lie groups]] and [[Lie algebras]]:
 
 * [[Pavel Etingof]], *Lie groups and Lie algebras* &lbrack;[arXiv:2201.09397](https://arxiv.org/abs/2201.09397)&rbrack;
+
+On [[quantum field theory]]:
+
+* [[Pavel Etingof]]: *Mathematical ideas and notions of quantum field theory* &lbrack;[arXiv:2409.03117](https://arxiv.org/abs/2409.03117)&rbrack;
 
 category: people
 
