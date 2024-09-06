@@ -292,6 +292,7 @@ Textbook accounts on quantum computation:
 
 * [[Steven Duplij]], [[Raimund Vogl]], *Innovative Quantum Computing*, IOP (2023) &lbrack;[ISBN:978-0-7503-5281-9](https://iopscience.iop.org/book/mono/978-0-7503-5281-9)&rbrack; 
 
+* Thomas Wong: *Intoduction to Classical and Quantum Computing* (2024) &lbrack;[pdf](https://thomaswong.net/introduction-to-classical-and-quantum-computing-1e4p.pdf), [webpage](https://thomaswong.net/)&rbrack;
 
 Introducing the notion of [[quantum supremacy]] and highlighting its relation to [[quantum entanglement]]:
 
