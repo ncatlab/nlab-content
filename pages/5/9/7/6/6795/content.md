@@ -112,7 +112,9 @@ On [[higher curvature corrections]] in [[supergravity]]:
 
 * Mehmet Ozkan, Yi Pang, [[Ergin Sezgin]], *Higher Derivative Supergravities in Diverse Dimensions* &lbrack;[arXiv:2401.08945](https://arxiv.org/abs/2401.08945)&rbrack;
 
+On [[singleton representations]] in [[supergravity]]:
 
+* [[Henning Samtleben]], [[Ergin Sezgin]]: *Singletons in supersymmetric field theories and in supergravity* &lbrack;[arXiv:2409.03000](https://arxiv.org/abs/2409.03000)&rbrack;
 
 
 
