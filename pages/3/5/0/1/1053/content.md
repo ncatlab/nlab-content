@@ -436,7 +436,7 @@ All of these justify the rules for the exponentials, so again we see that there 
 
 ## Interpretation in constructive mathematics {#antithesis}
 
-[[Mike Shulman]] ([Shulman 2018](#Shulman2018)) has proposed an interpretation of linear logic for use in [[constructive mathematics]], called the _antithesis interpretation_.
+[[Mike Shulman]] ([Shulman 2022](#Shulman2022)) has proposed an interpretation of linear logic for use in [[constructive mathematics]], called the _antithesis interpretation_.
 
 The motivation here is that in much of constructive mathematics, especially (but not only) in [[constructive analysis]], statements of interest seem to come in pairs, a statement $P^+$ that amounts to a constructive version of a well-known statement $P^{\mathrm{C}}$ from [[classical mathematics]], and a statement $P^-$ that amounts to a constructive version of $\neg{P^{\mathrm{C}}}$, and which is equivalent to $\neg{P^+}$ in [[classical logic]], but which is not the same as $\neg{P^+}$ in [[intuitionistic logic]] (being sometimes stronger, sometimes weaker, sometimes neither, and similarly for $P^+$ vis-a-vis $\neg{P^-}$).  For example, if $P^{\mathrm{C}}$ is the claim that some [[real number]] $x$ is [[rational number|rational]], then $P^+$ is
 
@@ -639,9 +639,7 @@ The [[categorical semantics ]]of differential linear logic is introduced in:
 
 The antithesis interpretation is
 
-* {#Shulman2018} [[Michael Shulman]], 2018. _Linear logic for constructive mathematics_. [arXiv:1805.07518](https://arxiv.org/abs/1805.07518).
-
-  > (This is a prepublication version that does not yet include the name 'antithesis interpretation', which was suggested by a referee.  We must link to the published version when available.)
+* {#Shulman2022} [[Michael Shulman]], *Affine logic for constructive mathematics*. Bulletin of Symbolic Logic, Volume 28, Issue 3, September 2022. pp. 327 - 386 ([doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28), [arXiv:1805.07518](https://arxiv.org/abs/1805.07518).
 
 ### In relation to quantum computing
 
