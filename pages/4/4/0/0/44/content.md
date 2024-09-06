@@ -74,23 +74,27 @@ Moreover, observe that an [[action]] of $\mathbf{Aut}(\mathbb{R}^{0|1})$ on a [[
 
 ## References
 
+### General
+
+(...)
+
 ### Automorphism group
  {#ReferencesAutomorphismGroup}
 
 That an action of the endomorphism/automorphism supergroup of the odd line on a supermanifold is equivalent to a choice of grading and a [[differential]] first observed in
 
-* {#Kontsevich97} [[Maxim Kontsevich]], _Deformation quantization of Poisson manifolds, I_, Lett. Math. Phys. 66:157-216,2003 ([arXiv:q-alg/9709040](http://arxiv.org/abs/q-alg/9709040))
+* {#Kontsevich97} [[Maxim Kontsevich]], _Deformation quantization of Poisson manifolds, I_, Lett. Math. Phys. **66** (2003) 157-216 &lbrack;[arXiv:q-alg/9709040](http://arxiv.org/abs/q-alg/9709040)&rbrack;
 
-It was later amplified in section 3.2 of
+It was later amplified in 
 
-* {#KochanSevera03} Denis Kochan, [[Pavol Ševera]], _Differential gorms, differential worms_ ([arXiv:math/0307303](http://arxiv.org/abs/math/0307303)),
+* {#KochanSevera03} Denis Kochan, [[Pavol Ševera]], section 3.2 of: _Differential gorms, differential worms_, Mathematical Physics, World Scientific (2005) 128-130  &lbrack;[arXiv:math/0307303](http://arxiv.org/abs/math/0307303), [doi:10.1142/9789812701862_0034](https://doi.org/10.1142/9789812701862_0034)&rbrack;
 
 where it is used to exhibit the canonical [[de Rham differential]] action on the [[odd tangent bundle]] $Maps(\mathbb{R}^{0|1}, X)$ of a [[supermanifold]] $X$.
 
 The same mechanism is amplified further in the discussion of [[derived differential geometry]] in 
 
-* [[David Carchedi]], [[Dmitry Roytenberg]], _Homological Algebra for Superalgebras of Differentiable Functions_ ([arXiv:1212.3745](http://arxiv.org/abs/1212.3745))
- {#CarchediRoytenberg12}
+* {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]]: _Homological Algebra for Superalgebras of Differentiable Functions_ &lbrack;[arXiv:1212.3745](http://arxiv.org/abs/1212.3745)&rbrack;
+ 
 
 An interpretation of an $\mathbb{G}_m \ltimes \Pi \mathbb{G}_{ad}$-[[action]] on a [[supermanifold]] of local [[quantum observables]] of a [[supersymmetry|supersymmetric]] [[field theory]] as the formalization of the concept of [[topologically twisted super Yang-Mills theory]] is in section 15 of 
 
