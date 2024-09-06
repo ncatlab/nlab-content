@@ -426,6 +426,10 @@ In the context of the [[IKKT matrix model]]:
 
 * [[Harold Steinacker]], _Non-commutative geometry and matrix models_, PoS QGQGS2011 (2011) 004 ([arXiv:1109.5521](https://arxiv.org/abs/1109.5521))
 
+Concerning [[2d CFT]] on the fuzzy sphere:
+
+* Giulia Fardelli, A. Liam Fitzpatrick, [[Emanuel Katz]]: *Constructing the Infrared Conformal Generators on the Fuzzy Sphere* &lbrack;[arXiv:2409.02998](https://arxiv.org/abs/2409.02998)&rbrack;
+
 
 
 See also:
