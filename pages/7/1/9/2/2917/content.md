@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents 
 {:toc}
@@ -62,7 +63,16 @@ The existence of the structure of an [[NQ-supermanifold]] is from this point of 
 
 ## References
 
-* [[geometry of physics -- supergeometry]] the section _[Super mapping spaces](geometry+of+physics+--+supergeometry#SuperMappingSpaces)_
+* {#KochanSevera03} Denis Kochan, [[Pavol Ševera]], §3.1 in: _Differential gorms, differential worms_, Mathematical Physics, World Scientific (2005) 128-130  &lbrack;[arXiv:math/0307303](http://arxiv.org/abs/math/0307303), [doi:10.1142/9789812701862_0034](https://doi.org/10.1142/9789812701862_0034)&rbrack;
+
+* [[Henning Hohnhold]], [[Matthias Kreck]], [[Stephan Stolz]], [[Peter Teichner]]: Ex. 2.1 & Prop. 3.1 in: _Differential forms and 0-dimensional supersymmetric field theories_, Quantum Topology **2** 1 (2011) 1–41 &lbrack;[doi:10.4171/QT/12](http://dx.doi.org/10.4171/QT/12), [pdf](https://www.math.sciences.univ-nantes.fr/%7Ehossein/GdT-Elliptique/Hohnholdt-Kreck-Stolz-Teichner.pdf)&rbrack;
+
+* {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]]: Ex. 5.3 in: _Homological Algebra for Superalgebras of Differentiable Functions_ &lbrack;[arXiv:1212.3745](http://arxiv.org/abs/1212.3745)&rbrack;
+ 
+* [[Urs Schreiber]]: *[Super mapping spaces](geometry+of+physics+--+supergeometry#SuperMappingSpaces)* , section of: *[[geometry of physics -- supergeometry]]* (2016) 
+
+* [[Simone Noja]]: §3 in: *On the Geometry of Forms on Supermanifolds* &lbrack;[arXiv:2111.12841](https://arxiv.org/abs/2111.12841)&rbrack;
+
 
 
 [[!redirects shifted tangent bundles]]
