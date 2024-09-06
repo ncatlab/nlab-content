@@ -1,5 +1,5 @@
 
-...
+[[?]]
 
 ### Poincaré stability condition
 
