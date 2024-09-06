@@ -227,9 +227,12 @@ To remove it from dependence on points, we can also write the definition like th
 
 +-- {: .num_defn #pointless}
 ###### Definition
-$X$ is compact iff given any space $Y$ and any open $U$ in $X \times Y$, there exists an open $\forall_X U$ in $Y$ that satisfies the [[universal property]] of universal [[quantification]]:
+$X$ is compact iff given any space $Y$ and any open $U$ in $X \times Y$, there exists an open $\forall_X U$ in $Y$ that satisfies the [[universal property]] of universal [[quantification]]
 $$ V \subseteq \forall_X U \;\Leftrightarrow\; X \times V \subseteq U $$
-for every open $V$ in $Y$.
+for every (not necessarily open) $V \subseteq Y$.
+
+(For a completely point-free definition referring only to open subspaces, see the definitions of [[proper morphism]] and [[closed morphism]] of locales.)
+
 =--
 
 A [[de Morgan duality|dual]] condition is satisfied by an [[overt space]].
