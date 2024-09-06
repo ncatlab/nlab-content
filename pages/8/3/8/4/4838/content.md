@@ -14,6 +14,10 @@ Introducing what came to be called *[[BGG resolutions]]* of [[Lie group]] [[repr
 
 * [[Joseph N. Bernstein]], [[Israel M. Gelfand]], [[Sergei I. Gelfand]]: *Differential operators on the base affine space and a study of $\mathfrak{g}$-modules*, in: I. M. Gelfand (ed.), *Lie groups and their representations*, Adam Hilger (1975) 21-64 &lbrack;[pdf](http://www.math.tau.ac.il/~bernstei/Publication_list/publication_texts/BGG-differ-operators.pdf), [[BGG.pdf:file]]&rbrack;
 
+On [[integral differential forms on supermanifolds]] and the [[Stokes theorem]] for [[supermanifolds]]:
+
+* [[Joseph Bernstein]], [[Dimitry Leites]]: *Integral forms and the Stokes formula on supermanifolds*, Functional Analysis and its Applications **11** (1977) 45–47 &lbrack;[doi:10.1007/BF01135531](https://doi.org/10.1007/BF01135531)&rbrack;
+
 
 Introducing the notion of [[perverse sheaves]] (and of [[t-structures]] on [[triangulated categories]]):
 
