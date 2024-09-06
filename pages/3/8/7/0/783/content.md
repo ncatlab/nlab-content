@@ -3,6 +3,8 @@ The European mathematician __Alexander Grothendieck__ (in French sometimes Alexa
 
 * [Wikipedia article](http://en.wikipedia.org/wiki/Alexander_Grothendieck)
 
+* [[Colin McLarty]]: *The Life of Alexander Grothendieck & Topos Theory*, podcast interview at *Theories of Everything with Curt Jaimungal* (June 2024) &lbrack;[YT](https://youtu.be/81sPQGIWEfM)&rbrack;
+
 Initially working on [[topological vector spaces]] and [[analysis]], Grothendieck then made revolutionary advances in [[algebraic geometry]] by developing [[sheaf and topos theory]] and [[abelian sheaf cohomology]] and formulating algebraic geometry in these terms ([[locally ringed spaces]], [[schemes]]). Later [[topos theory]] further developed independently and today serves as the foundation also for other kinds of [[geometry]]. Notably its [[homotopy theory|homotopy theoretic]] refinement to [[higher topos theory]] serves as the foundation for modern [[derived algebraic geometry]].
 
 #Contents#
