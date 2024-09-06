@@ -158,6 +158,8 @@ On the other hand, when doing [[topos theory]] or working in [[constructive math
 
 Some applications to [[analysis]] require more general [[convergence spaces]] or other generalisations.
 
+There are also [[unified topological spaces]] which contains notions of apartness and nearness in addition to the usual notion of neighbourhood in a topological space. 
+
 In [[dependent type theory]], one could also have a [[topological space]] be a general [[type]] instead of an [[h-set]]. For most kinds of topological spaces in dependent type theory, the [[T0-space|$T_0$]]-[[separation axiom]] forces the type to be an h-set. 
 
 ### In dependent type theory
@@ -269,6 +271,8 @@ The [[Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets 
 * [[first countable topological space]], [[second countable topological space]], [[separable topological space]], [[Hausdorff topological space]], [[topological manifold]]
 
 * [[sigma-topological space|$\sigma$-topological space]]
+
+* [[unified topological space]]
 
 * [[topological property]]
 
