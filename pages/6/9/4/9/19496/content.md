@@ -37,3 +37,4 @@
 | $\phantom{A}$$\&$$\phantom{A}$ | $\phantom{A}$[[additive conjunction]]$\phantom{A}$ |    
 | $\phantom{A}$$\invamp$$\phantom{A}$ | $\phantom{A}$[[multiplicative disjunction]]$\phantom{A}$ |  
 | $\phantom{A}$$\;!$$\phantom{A}$ | $\phantom{A}$[[exponential conjunction]]$\phantom{A}$ |  
+| $\phantom{A}$$\;?$$\phantom{A}$ | $\phantom{A}$[[exponential disjunction]]$\phantom{A}$ |  
