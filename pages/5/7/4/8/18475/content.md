@@ -188,6 +188,9 @@ More on application to ([[strange metal|strange]]) [[metals]]:
 
 * Javier Carballo, Ayan K. Patra, Juan F. Pedraza: *Diving inside holographic metals* &lbrack;[arXiv:2408.07748](https://arxiv.org/abs/2408.07748)&rbrack;
 
+* Benoit Doucot, Ayan Mukhopadhyay, [[Giuseppe Policastro]], Sutapa Samanta, Hareram Swain: *An effective framework for strange metallic transport* &lbrack;[arXiv:2409.02993](https://arxiv.org/abs/2409.02993)&rbrack;
+
+
 
 ### Application to topological phases of matter
  {#ApplicatinToTopologicalPhases}
