@@ -37,6 +37,24 @@ Note that the [[union]], exclusive union, and (internal, or external up to [[nat
 
 We also have the __[[symmetric difference]]__ of two sets, which is the same as the exclusive union.  But we see this operation as the addition in a [[Boolean ring]] and so actually interpret it in the usual way as an associative operation.  So the symmetric difference of $n$ sets indeed consists of those points that belong to an odd number of sets, and there is no infinitary symmetric difference.
 
+### In dependent type theory
+
+In [[dependent type theory]], [[exclusive disjunction]] of two [[mere propositions]] $P$ and $Q$ is given by the statement that the [[sum type]] $P + Q$ is a [[contractible type]]:
+
+$$P \underline{\vee} Q \coloneqq \mathrm{isContr}(P + Q)$$
+
+This definition of exclusive disjunction also makes sense for any two [[types]] $P$ and $Q$, and guarantees that exactly one of $P$ and $Q$ is a [[contractible type]] while the other one of $P$ and $Q$ is an [[empty type]] if the exclusive disjunction $P \underline{\vee} Q$ holds. 
+
+Since the definition of exclusive disjunction doesn't require [[propositional truncations]], it can be defined in any [[dependent type theory]] which doesn't come with any [[higher inductive types]]. 
+
+Compare with the [[uniqueness quantifier]], which generalises from the exclusive disjunction of two propositions to the exclusive disjunction of a family of propositions. 
+
+### Excluded middle
+
+The exclusive disjunction can be used for the [[law of excluded middle]], saying that the exclusive disjunction of a proposition $P$ and its [[negation]] always holds:
+
+$$P \underline{\vee} \neg P$$
+
 ## As a logic gate
  {#AsALogicGate}
 
@@ -54,7 +72,6 @@ Exclusive disjunction as a [[logic gate]], a [[reversible computation|reversible
     }
 \end{imagefromfile}
 
-
 ## In natural language
 
 It is widely said that 'or' in English can mean either inclusive or exclusive disjunction, while Latin has two terms, respectively 'vel' and 'aut', but this is not really correct.  It\'s more correct that 'or' can sometimes mean *[[union]]* and sometimes *[[disjoint union]]* (with the latter sometimes external and sometimes internal), but never symmetric difference.  Thus, the only meaning of 'or' is for some kind of [[coproduct]], which exclusive disjunction is not.  (Similarly, 'aut' is more about disjoint union than symmetric difference.)  In some cases, exclusive disjunction may be a valid *[implicature](http://en.wikipedia.org/wiki/Implicature)* (in the sense of linguistic philosopher Paul Grice) even if the only valid *inference* (by the literal meaning of the sentence) is taken to be inclusive.
@@ -66,6 +83,8 @@ For the literature on this subject, see [the Stanford Encylopedia entry](http://
 * [[CNOT]]
 
 * [[logic gate]]
+
+* [[uniqueness quantifier]]
 
 ## References
 
@@ -80,5 +99,6 @@ See also
 [[!redirects exclusive disjuncts]]
 [[!redirects exclusive union]]
 [[!redirects exclusive unions]]
+[[!redirects exclusive or]]
 [[!redirects xor]]
 [[!redirects XOR]]
