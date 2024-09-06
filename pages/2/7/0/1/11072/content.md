@@ -441,8 +441,7 @@ category: logic
 
 [[!redirects of course]]
 [[!redirects !]]
-[[!redirects why not]]
-[[!redirects ?]]
+[[!redirects !-modality]]
 [[!redirects exponential conjunction]]
 [[!redirects exponential modality]]
 [[!redirects storage modality]]
