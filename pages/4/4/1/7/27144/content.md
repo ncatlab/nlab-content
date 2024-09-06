@@ -9,15 +9,16 @@
 =--
 =--
 
+
 \tableofcontents
 
 ## Idea
 
-In [[linear logic]] and [[affine logic]], the **$?$-modality** or the **exponential disjunction** is the [[de Morgan dual]] of the [[!-modality]]. 
+In [[linear logic]] and [[affine logic]], the **$?$-modality** or the **exponential disjunction** is the [[de Morgan dual]] of the [[exponential conjunction|!-modality]]. 
 
 ## Related concepts
 
-* [[!-modality]]
+* [[exponential conjunction|!-modality]]
 
 [[!include logic symbols -- table]]
 
