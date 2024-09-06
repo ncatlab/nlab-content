@@ -99,6 +99,8 @@ This matches the [[intuitionistic mathematics|intuitionistic]] notion of negatio
 
 * [[adjoint cylinder]]
 
+* [[strong negation]]
+
 
 [[!include logic symbols -- table]]
 
