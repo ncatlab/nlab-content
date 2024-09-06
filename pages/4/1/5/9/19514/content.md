@@ -65,9 +65,12 @@ to "CPT self-conjugate" vacuum supermultiplets.
 
 * [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Branes in Super-AdS Backgrounds and Superconformal Theories_ ([arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076))
 
-* {#Duff98} [[Mike Duff]], _Anti-de Sitter space, branes, singletons, superconformal field theories and all that_, Int.J.Mod.Phys.A14:815-844, 1999 ([arXiv:hep-th/9808100](https://arxiv.org/abs/hep-th/9808100))
+* {#Duff98} [[Mike Duff]], _Anti-de Sitter space, branes, singletons, superconformal field theories and all that_, Int. J. Mod. Phys. A **14** (1999) 815-844, &lbrack;[arXiv:hep-th/9808100](https://arxiv.org/abs/hep-th/9808100)&rbrack;
 
-* {#Gunyadin98} [[Murat Günaydin]], _Unitary Supermultiplets of $OSp(1 \vert32,\mathbb{R}) and M-theory_, Nucl.Phys.B528:432-450, 1998 ([arXiv:hep-th/9803138](https://arxiv.org/abs/hep-th/9803138))
+* {#Gunyadin98} [[Murat Günaydin]], _Unitary Supermultiplets of $OSp(1 \vert32,\mathbb{R}$) and M-theory_, Nucl. Phys. B **528** (1998) 432-450 &lbrack;[arXiv:hep-th/9803138](https://arxiv.org/abs/hep-th/9803138)&rbrack;
+
+* [[Henning Samtleben]], [[Ergin Sezgin]]: *Singletons in supersymmetric field theories and in supergravity* &lbrack;[arXiv:2409.03000](https://arxiv.org/abs/2409.03000)&rbrack;
+
 
 
 [[!redirects singleton representations]]
