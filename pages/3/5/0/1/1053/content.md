@@ -184,7 +184,7 @@ Here we define the set of propositions:
 
    *  $!{A}$ (read '[[of course]]'), the __[[exponential conjunction]]__ of $A$;
 
-   *  $?{A}$ (read 'why not'), the __exponential disjunction__ of $A$.
+   *  $?{A}$ (read '[[why not]]'), the __[[exponential disjunction]]__ of $A$.
 
 The terms "exponential", "multiplicative", and "additive" come from the fact that "exponentiation converts addition to multiplication": we have $!{(A \& B)}\equiv !{A} \otimes !{B}$ and so on (see below).
 
