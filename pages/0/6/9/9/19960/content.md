@@ -1174,6 +1174,7 @@ See also:
 
 * Federico Castellani, *Nucleon electric and magnetic polarizabilities in Holographic QCD* &lbrack;[arXiv:2402.07553](https://arxiv.org/abs/2402.07553)&rbrack;
 
+* Kazuo Ghoroku, Kouji Kashiwa, Yoshimasa Nakano, Motoi Tachibana, Fumihiko Toyoda: *Chiral condensate in a holographic dilute nuclear matter* &lbrack;[arXiv:2409.03268](https://arxiv.org/abs/2409.03268)&rbrack;
 
 
 
