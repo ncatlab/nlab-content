@@ -46,6 +46,11 @@ On [[integrable systems]] in [[gravity]]:
 
 * Dmitry Korotkin, [[Henning Samtleben]], *Integrability and Einstein's Equations*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2311.07900](https://arxiv.org/abs/2311.07900)&rbrack;
 
+On [[singleton representations]] in [[supergravity]]:
+
+* [[Henning Samtleben]], [[Ergin Sezgin]]: *Singletons in supersymmetric field theories and in supergravity* &lbrack;[arXiv:2409.03000](https://arxiv.org/abs/2409.03000)&rbrack;
+
+
 
 ## Related entries
 
