@@ -110,7 +110,7 @@ The conception and discussion of these well adapted toposes goes back to [[Eduar
 
 This theory of well-adapted models was later summarized and extended in the standard textbook
 
-* [[Ieke Moerdijk]], [[Gonzalo Reyes]]: _[[Models for Smooth Infinitesimal Analysis]]_ (1991) &lbrack;[doi:10.1007/978-1-4757-4143-8](https://doi.org/10.1007/978-1-4757-4143-8)&rbrack;
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]]: _[[Models for Smooth Infinitesimal Analysis]]_, Springer (1991) &lbrack;[doi:10.1007/978-1-4757-4143-8](https://doi.org/10.1007/978-1-4757-4143-8)&rbrack;
 
 
 
