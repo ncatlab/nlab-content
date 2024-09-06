@@ -200,7 +200,7 @@ Review is in
 
 The [[black brane|black]] [[M2-brane]] solution in HW-theory, supposedly yielding the [[black brane|black]] [[heterotic string]] at the intersection with the [[M9-brane]] is discussed in
 
-* {#LalakLukasOvrut97} Zygmunt Lalak, Andr&eacute; Lukas, [[Burt Ovrut]], _Soliton Solutions of M-theory on an Orbifold_, Phys. Lett. B425 (1998) 59-70 ([arXiv:hep-th/9709214](https://arxiv.org/abs/hep-th/9709214))
+* {#LalakLukasOvrut97} Zygmunt Lalak, [[André Lukas]], [[Burt Ovrut]]: _Soliton Solutions of M-theory on an Orbifold_, Phys. Lett. B **425** (1998) 59-70 &lbrack;[arXiv:hep-th/9709214](https://arxiv.org/abs/hep-th/9709214)&rbrack;
 
 * {#Kashima00} Ken Kashima, _The M2-brane Solution of Heterotic M-theory with the Gauss-Bonnet $R^2$ terms_, Prog.Theor.Phys. 105 (2001) 301-321 ([arXiv:hep-th/0010286](https://arxiv.org/abs/hep-th/0010286))
 
