@@ -473,11 +473,14 @@ Galois theory in a [[presentable (infinity,1)-category|presentable]] [[symmetric
 * [[Akhil Mathew]], The Galois group of a stable homotopy theory, [arXiv](http://arxiv.org/abs/1404.2156).
 {#Mathew14}
 
-Galois theory in topos theory
+Galois theory in (higher) topos theory
 
 * [[SGA4]], _Expose VIII, Proposition 2.1._
 
 * {#Hoyois15} [[Marc Hoyois]], _Higher Galois theory_, J. Pure Appl. Alg. __222__:7, (2018) 1859-1877 [arXiv:1506.07155](http://arxiv.org/abs/1506.07155) [doi](https://doi.org/10.1016/j.jpaa.2017.08.010)
+
+* Joseph Rennie, _The Unreasonable Efficacy of the Lifting Condition in Higher Categorical Galois Theory I: a Quasi-categorical Galois Theorem_ &lbrack;[arXiv:2409.03347](https://arxiv.org/abs/2409.03347)&rbrack;
+
 
 See also
 
