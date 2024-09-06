@@ -17,7 +17,9 @@ In [[constructive mathematics]], the [[law of double negation]] doesn't hold, wh
 
 For example, there are two different notions of [[inequality]] in the [[real numbers]] in [[constructive analysis]]: there is the usual [[denial inequality]] $\neq$ defined by the usual constructive [[negation]] of [[equality]] $x \neq y \iff (x = y) \Rightarrow \bot$, and then there is a strong inequality $\#$ defined by the [[disjunction]] of the order relations $x \lt y$ and $y \lt x$, $x \# y \iff (x \lt y) \vee (y \lt x)$, which is a strong negation of equality in the sense that $x = y$ if and only if $x \# y$ is false. As a result, there are two ways to define, for instance, an [[irrational number]]: a weak version which uses the usual [[denial inequality]] with every [[rational number]], and a strong version which uses the strong inequality with every rational number. 
 
-The notion of [[strong negation]] is important in the [[antithesis interpretation]] of [[intuitionistic logic]]. Suppose there is a predicate $P$ indexed by elements $x$ of a [[set]] $A$, such that each $P(x)$ has a strong negation $Q(x)$. In the antithesis interpretation, there are two statements one can make about these: 
+## Strong negation and the antithesis interpretation
+
+The notion of [[strong negation]] is important in the [[antithesis interpretation]] of [[intuitionistic logic]]. For example, suppose there is a predicate $P$ indexed by elements $x$ of a [[set]] $A$, such that each $P(x)$ has a strong negation $Q(x)$. In the antithesis interpretation, there are two statements one can make about these: 
 
 * there exists an element $x$ in $A$ such that $P(x)$ holds
 
