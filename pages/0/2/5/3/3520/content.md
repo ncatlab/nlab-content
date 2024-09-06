@@ -155,9 +155,9 @@ See there for more information.
 
 The Hadamard lemma is due to [[Jacques Hadamard]].
 
-Review includes
+Review:
 
-* [[Jet Nestruev]], _Smooth manifolds and observables_, Graduate texts in mathematics **218** (2003) &lbrack;[doi:10.1007/978-3-030-45650-4](https://doi.org/10.1007/978-3-030-45650-4)&rbrack;
+* [[Jet Nestruev]], Lemma 2.8 in: _Smooth manifolds and observables_, Graduate Texts in Mathematics **218**, Springer (2003) &lbrack;[doi:10.1007/978-3-030-45650-4](https://doi.org/10.1007/978-3-030-45650-4)&rbrack;
 
 The Hadamard lemma is what makes the standard _convenient models_ for [[synthetic differential geometry]] tick. Its role in this respect can be seen from proposition 1.2 on in 
 
