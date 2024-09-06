@@ -31,38 +31,27 @@ $$\exists!\, x\colon T. P(x) \coloneqq \mathrm{isContr}\left(\sum_{x:T} P(x)\rig
 
 which indicates that the [[dependent sum type]] $\sum_{x:T} P(x)$ is a [[contractible type]], which is only the case for a family of type if every dependent type is a mere proposition and, for exactly one element $x:T$ up to identity, the type $P(x)$ is inhabited. 
 
-#### Rules for uniqueness quantifiers
-
-If the [[dependent type theory]] has [[identity types]] and [[dependent identity types]], but does not have general [[dependent function types]] (such as in [[strongly predicative mathematics]]), one could directly form the uniqueness quantifier via its [[natural deduction]] rules:
-
-Formation rules for uniqueness quantifier types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \exists!x:A.B(x) \; \mathrm{type}}$$
-
-Introduction rules for uniqueness quantifier types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma, x:A, y:B(x) \vdash \tau_A(x, y):a =_A x \quad \Gamma, x:A, y:B(x) \vdash \tau_B(x, y):b =_B^{\tau_A(x, y)} y}{\Gamma \vdash w(a, b, \tau_A, \tau_B):\exists!x:A.B(x)}$$
-
-Elimination rules for uniqueness quantifier types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash p:\exists!x:A.B(x)}{\Gamma \vdash \epsilon_A(p):A}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash p:\exists!x:A.B(x)}{\Gamma \vdash \epsilon_B(p):B(\epsilon_A(p))}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash p:\exists!x:A.B(x)}{\Gamma, x:A, y:B(x) \vdash c_A(p, x, y):\epsilon_A(p) =_A x}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash p:\exists!x:A.B(x)}{\Gamma, x:A, y:B(x) \vdash c_B(p, x, y):\epsilon_B(p) =_B^{c_A(p, x, y)} y}$$
-
-Computation rules for uniqueness quantifier types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma, x:A, y:B(x) \vdash \tau_A(x, y):a =_A x \quad \Gamma, x:A, y:B(x) \vdash \tau_B(x, y):b =_B^{\tau_A(x, y)} y}{\Gamma \vdash \beta_{\exists!x:A.B(x)}^{\epsilon_A}(a, b):\epsilon_A(w(a, b, \tau_A, \tau_B)) =_A a}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma, x:A, y:B(x) \vdash \tau_A(x, y):a =_A x \quad \Gamma, x:A, y:B(x) \vdash \tau_B(x, y):b =_B^{\tau_A(x, y)} y}{\Gamma \vdash \beta_{\exists!x:A.B(x)}^{\epsilon_B}(a, b):\epsilon_B(w(a, b, \tau_A, \tau_B))) =_B^{\beta_{\exists!x:A.B(x)}^{\epsilon_A}(a, b)} b}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma, x:A, y:B(x) \vdash \tau_A(x, y):a =_A x \quad \Gamma, x:A, y:B(x) \vdash \tau_B(x, y):b =_B^{\tau_A(x, y)} y}{\Gamma, x:A, y:B(x) \vdash \beta_{\exists!x:A.B(x)}^{c_A}(a, b, x, y):c_A(w(a, b, \tau_A, \tau_B), x, y) =_{(-) =_A x}^{\beta_{\exists!x:A.B(x)}^{\epsilon_A}} \tau_A(x, y)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:B(a) \quad \Gamma, x:A, y:B(x) \vdash \tau_A(x, y):a =_A x \quad \Gamma, x:A, y:B(x) \vdash \tau_B(x, y):b =_B^{\tau_A(x, y)} y}{\Gamma, x:A, y:B(x) \vdash \beta_{\exists!x:A.B(x)}^{c_B}(a, b, x, y):c_B(w(a, b, \tau_A, \tau_B), x, y) =_{(-) =_B^{\beta_{\exists!x:A.B(x)}^{c_A}(a, b, x, y)} y}^{\beta_{\exists!x:A.B(x)}^{\epsilon_B}} \tau_B(x, y)}$$
-
-Uniqueness rules for uniqueness quantifier types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma \vdash p:\exists!x:A.B(x)}{\Gamma \vdash \eta_{\exists!x:A.B(x)}(p):w(\epsilon_A(p), \epsilon_B(p), c_A(p), c_B(p)) =_{\exists!x:A.B(x)} p}$$
-
 ## Usages
+
+### Defining exclusive disjunction
+
+In [[dependent type theory]], given two [[mere propositions]] $P$ and $Q$, by [[descent]] or [[large elimination]] of the [[boolean domain]], one can construct a boolean-indexed family of propositions 
+
+$$x:\mathrm{bool} \vdash \mathrm{rec}_\mathrm{bool}^{P, Q}(x)$$
+
+with [[equivalences of types]]
+
+$$\beta_\mathrm{bool}^{P, Q}(0):\mathrm{rec}_\mathrm{bool}^{P, Q}(0) \simeq P \quad \beta_\mathrm{bool}^{P, Q}(1):\mathrm{rec}_\mathrm{bool}^{P, Q}(1) \simeq Q$$
+
+in the case for descent for booleans, or with [[judgmental equality]] of types
+
+$$\mathrm{rec}_\mathrm{bool}^{P, Q}(0) \equiv P \quad \mathrm{rec}_\mathrm{bool}^{P, Q}(1) \equiv P$$
+
+in the case for large elimination for booleans. 
+
+The uniqueness quantifier of the above family of propositions is the [[exclusive disjunction]] of $P$ and $Q$:
+
+$$P \underline{\vee} Q \coloneqq \exists!x:\mathbb{2}.\mathrm{rec}_\mathrm{bool}^{P, Q}(x)$$
 
 ### Bijections and equivalences
 
@@ -101,6 +90,8 @@ $$\mathrm{isUnivalent}(U, T) \coloneqq \forall A:U.\exists! B:U.T(A) \simeq T(B)
 * [[definite description]]
 
 * [[generalized the]]
+
+* [[exclusive disjunction]]
 
 [[!redirects uniquely quantified]]
 
