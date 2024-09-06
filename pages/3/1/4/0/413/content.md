@@ -263,7 +263,11 @@ the wedge product $d \theta \wedge d\theta$ is non-vanishing, since $d \theta$ i
 
 ## References
 
-General discussion:
+Original articles:
+
+* [[Joseph Bernstein]], [[Dimitry Leites]]: *Integral forms and the Stokes formula on supermanifolds*, Functional Analysis and its Applications **11** (1977) 45–47 &lbrack;[doi:10.1007/BF01135531](https://doi.org/10.1007/BF01135531)&rbrack;
+
+See also:
 
 * [[Simone Noja]], *On the Geometry of Forms on Supermanifolds*, Differential Geometry and its Applications, **88** (2023) 101999 &lbrack;[arXiv:2111.12841](https://arxiv.org/abs/2111.12841), [doi:10.1016/j.difgeo.2023.101999](https://doi.org/10.1016/j.difgeo.2023.101999)&rbrack;
 
@@ -301,5 +305,9 @@ and further amplified in
 
 [[!redirects superdifferential form]]
 [[!redirects superdifferential forms]]
+
+[[!redirects integral differential form on a supermanifold]]
+[[!redirects integral differential forms on a supermanifold]]
+[[!redirects integral differential forms on supermanifolds]]
 
 
