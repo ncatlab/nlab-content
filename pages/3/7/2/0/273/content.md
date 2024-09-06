@@ -313,12 +313,11 @@ Discussion in terms of [[gerbes]]:
 
 * [[Larry Breen]], _Bitorseurs et cohomologie non-Ab&#233;lienne_, The Grothendieck Festschrift: a collection of articles written in honour of the 60th birthday of Alexander Grothendieck, Vol. I, edited P.Cartier, et al., Birkh&#228;user, Boston, Basel, Berlin, 401-476, (1990) ([doi:10.1007/978-0-8176-4574-8_10](https://doi.org/10.1007/978-0-8176-4574-8_10))
 
-* [[John Duskin]], _Non-abelian cohomology in a topos_, reprinted as: Reprints in Theory and Applications of Categories **23** (2013) 1-165 &lbrack;[tac:tr23](http://www.tac.mta.ca/tac/reprints/articles/23/tr23abs.html)&rbrack;
+* [[John Duskin]]: _Non-abelian cohomology in a topos_, reprinted as: Reprints in Theory and Applications of Categories **23** (2013) 1-165 &lbrack;[tac:tr23](http://www.tac.mta.ca/tac/reprints/articles/23/tr23abs.html)&rbrack;
 
+* [[Ieke Moerdijk]]: _Lie Groupoids, Gerbes, and Non-Abelian Cohomology_, K-Theory **28** 3 (2003) 207-258 &lbrack;[journal](http://www.springerlink.com/content/ul554x3077444545/), [doi:10.1023/A:1026251115381](http://dx.doi.org/10.1023/A:1026251115381)&rbrack;
 
-* [[Ieke Moerdijk]], _Lie Groupoids, Gerbes, and Non-Abelian Cohomology _ ([journal](http://www.springerlink.com/content/ul554x3077444545/))
-
-* [[Amnon Yekutieli]], Combinatorial descent data for gerbes, Journal of Noncommutative Geometry Volume 8, Issue 4, 2014, pp. 1083–1099, arXiv:1109.1919 ([webpage](https://www.math.bgu.ac.il/~amyekut/publications/comb-descent/comb-descent.html))
+* [[Amnon Yekutieli]], *Combinatorial descent data for gerbes*, Journal of Noncommutative Geometry **8** 4 (2014) 1083–1099 &lbrack;[arXiv:1109.1919](https://arxiv.org/abs/1109.1919), [webpage](https://www.math.bgu.ac.il/~amyekut/publications/comb-descent/comb-descent.html)&rbrack;
 
 * [[Alexander Campbell]], _A higher categorical approach to Giraud's non-abelian cohomology_, PhD thesis, Macquarie University (2016) &lbrack;[hdl:1959.14/1261186](http://hdl.handle.net/1959.14/1261186)&rbrack;
 
@@ -346,8 +345,7 @@ In a context of [[nonabelian Hodge theory]]:
 
 Generally:
 
-
-* {#Toen02} [[Bertrand Toën]], _Stacks and Non-abelian cohomology_, lecture at _[Introductory Workshop on Algebraic Stacks, Intersection Theory, and Non-Abelian Hodge Theory](https://www.msri.org/realvideo/index04.html)_, MSRI 2002 ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html), [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps), [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/msri2002.pdf), [[ToenStacksAndNonabelianCohomology.pdf:file]])
+* {#Toen02} [[Bertrand Toën]], Def. 6.0.6 in: _Stacks and Non-abelian cohomology_, lecture at _[Introductory Workshop on Algebraic Stacks, Intersection Theory, and Non-Abelian Hodge Theory](https://www.msri.org/realvideo/index04.html)_, MSRI 2002 ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html), [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps), [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/msri2002.pdf), [[ToenStacksAndNonabelianCohomology.pdf:file]])
 
 * [[J. F. Jardine]], Z. Luo, _Higher principal bundles_, Mathematical Proceedings of the Cambridge Philosophical Society,  Volume 140, Issue 2 March 2006 , pp. 221-243 ([pdf](http://www.math.uiuc.edu/K-theory/0681/cocycles6.pdf), [doi:10.1017/S0305004105008911](https://doi.org/10.1017/S0305004105008911))
 
@@ -356,7 +354,7 @@ Generally:
 * [[Jacob Lurie]], Thm. 7.1.0.1 in: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
 
 
-* {#Wendt} [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ , Journal of  Homotopy and Related Structures 6(1), 2011, pp. 1--38.  ([arXiv:1009.2930](http://arxiv.org/abs/1009.2930)) ([published version](http://tcms.org.ge/Journals/JHRS/volumes/2011/volume6-1.htm))
+* {#Wendt} [[Matthias Wendt]], *Classifying spaces and fibrations of simplicial sheaves*, Journal of  Homotopy and Related Structures **6** 1 (2011) 1-38  &lbrack;[arXiv:1009.2930](http://arxiv.org/abs/1009.2930), [JHRS:6-1](http://tcms.org.ge/Journals/JHRS/volumes/2011/volume6-1.htm)&rbrack;
 
 * {#RobertsStevenson16} [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_, New York Journal of Mathematics Volume 22 (2016) 405-440 ([arXiv:1203.2460](https://arxiv.org/abs/1203.2460), [nyjm:22-19](http://nyjm.albany.edu/j/2016/22-19.html))
 
@@ -365,6 +363,8 @@ Generally:
 * [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- General theory]]_, Journal of Homotopy and Related Structures, Volume 10, Issue 4 (2015), pages 749-801 ([doi:10.1007/s40062-014-0083-6](http://link.springer.com/article/10.1007/s40062-014-0083-6), [arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
 
 * [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- Presentations]]_, Journal of Homotopy and Related Structures, Volume 10, Issue 3 (2015), pages 565-622 ([doi:10.1007/s40062-014-0077-4](http://link.springer.com/article/10.1007/s40062-014-0077-4), [arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
+
+* [[John F. Jardine]]: *Non-abelian Cohomology*, chapter 9 in: *[[Local Homotopy Theory]]*, Springer Monographs in Mathematics (2015) &lbrack;[doi:10.1007/978-1-4939-2300-7_9](https://doi.org/10.1007/978-1-4939-2300-7_9)&rbrack;
 
 On [[cohomology operations]] on components of [[Whitehead-generalized cohomology theories]] seen in non-abelian cohomology:
 
@@ -375,7 +375,7 @@ The suggestion that *every* ([[pointed topological space|pointed]]) [[topologica
 * {#Schreiber09} [[Urs Schreiber]]: *[[schreiber:Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]]*, talk at *[[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]*, Oberwolfach Report **28** (2009) &lbrack;[[OWR_2009_28.pdf:file]]&rbrack;
  > (in [[twisted cohomology|twisted]] and [[differential cohomology|differential]] generality)
 
-* {#Lurie14} [[Jacob Lurie]], *Nonabelian Poincaré Duality*, Lecture 8 in *[Tamagawa Numbers via Nonabelian Poincare Duality (282y)](https://www.math.ias.edu/~lurie/282y.html)* (2014) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/282ynotes/LectureVIII-Poincare.pdf), [[Lurie-NonabPoincareDuality.pdf:file]]&rbrack;
+* {#Lurie14} [[Jacob Lurie]], Def. 6 in: *Nonabelian Poincaré Duality*, Lecture 8 in *[Tamagawa Numbers via Nonabelian Poincare Duality (282y)](https://www.math.ias.edu/~lurie/282y.html)* (2014) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/282ynotes/LectureVIII-Poincare.pdf), [[Lurie-NonabPoincareDuality.pdf:file]]&rbrack;
   > (in view of [[nonabelian Poincaré duality]])
 
 * {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
