@@ -15,6 +15,8 @@ Every subsingleton $S$ comes with an [[injection]] $i \colon S \to 1$ into a [[s
 $$x \in_1 S \coloneqq \exists y \in 1.i(x) = y$$
 for all elements $x \in 1$, $x \in_1 S$ or $\neg (x \in_1 S)$. 
 
+Similarly for any [[decidable proposition]], the "or" used in the definition of a decidable subsingleton above can be either inclusive [[disjunction]] or [[exclusive disjunction]] - both definitions are equivalent to each other. 
+
 Decidable subsingletons could be generalized from [[Set]] to any [[coherent category]]: they are precisely the [[decidable object|decidable]] [[subterminal objects]] in a coherent category. 
 
 ## Relation to the limited principle of omniscience
