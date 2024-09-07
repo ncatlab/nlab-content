@@ -5,12 +5,19 @@
 
 ## Idea
 
-A [[proposition]] is decidable if we know whether it is [[true]] or [[false]].  This has (at least) two interpretations, which we will call 'internal' and 'external' (however, these adjectives are rarely used and must be guessed from the context). 
+A [[proposition]] is decidable if we know whether it is [[true]] or [[false]]. This has (at least) two interpretations, which we will call 'internal' and 'external' (however, these adjectives are rarely used and must be guessed from the context). 
 
 * [External decidability](#ExternalDecidability): either $p$ or $\not p$ may be [[deduction|deduced]] in the theory.  This is a statement in the [[metalanguage]].
 
 * [Internal decidability](#InternalDecidability): $p \vee \not p$ may be deduced in the theory; in other words "$p$ or not $p$" holds in the [[object language]].
 
+There are another two interpretations, which interpret "or" as [[exclusive disjunction]] rather than inclusive [[disjunction]]:
+
+* [External decidability](#ExternalDecidability): that exactly one of $p$ or $\not p$ holds may be [[deduction|deduced]] in the theory. This is a statement in the [[metalanguage]].
+
+* [Internal decidability](#InternalDecidability): $p \underline{\vee} \not p$ may be deduced in the theory; in other words "exactly one of $p$ or not $p$ holds" holds in the [[object language]].
+
+The versions using exclusive disjunction are equivalent to the versions using inclusive disjunction. 
 
 ## Externally decidable propositions in logic
  {#ExternalDecidability}
