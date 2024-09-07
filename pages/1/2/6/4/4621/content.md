@@ -17,7 +17,7 @@ There are another two interpretations, which interpret "or" as [[exclusive disju
 
 * [Internal decidability](#InternalDecidability): $p \underline{\vee} \not p$ may be deduced in the theory; in other words "exactly one of $p$ or not $p$ holds" holds in the [[object language]].
 
-The versions using exclusive disjunction are equivalent to the versions using inclusive disjunction. 
+The versions using exclusive disjunction are equivalent to the versions using inclusive disjunction. This is because $p$ implies its [[double negation]], so if "$p$ or not $p$", then one can prove that "not $p$ or not not $p$", which means that $p$ or not $p$ implies that "($p$ or not $p$) and (not $p$ or not not $p$)", the latter of which is the [[exclusive disjunction]] of $p$ and its [[negation]]. And exclusive disjunction implies inclusive disjunction by definition. 
 
 ## Externally decidable propositions in logic
  {#ExternalDecidability}
