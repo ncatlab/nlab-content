@@ -28,6 +28,30 @@ We can also state the principle set-theoretically, with explicit reference to th
 
 While $LPO$ for $\mathbb{N}$ is a classic example of the difference between constructive and classical mathematics, $LPO$ holds for the set $\overline{\mathbb{N}}$ of [[extended natural number]]s; this is related to the fact that $\overline{\mathbb{N}}$ may constructively be given a [[compact space|compact]] topology. See [Escard&#243; (2011)](#Escardo11) for this and much more.
 
+### In dependent type theory
+
+In the context of [[dependent type theory]], the usual limited principle of omniscience for a type $A$ is expressed as 
+
+$$\prod_{f:A \to \mathbb{2}} \left[\left[\sum_{x:A} f(x) = 1\right] + \prod_{x:A} f(x) = 0\right]$$
+
+However, there are in general two ways of interpreting predicate logic, the traditional interpretation using [[propositional truncations]], and the [[BHK interpretation]] which do not use propositional truncations. This results in four different versions of the limited principle of omniscience of $A$, depending on whether the [[existential quantifier]] is truncated or untruncated, and whether the [[disjunction]] is truncated or untruncated:
+
+* the usual $\mathrm{LPO}_A$ states that 
+
+$$\prod_{f:A \to \mathbb{2}} \left[\left[\sum_{x:A} f(x) = 1\right] + \prod_{x:A} f(x) = 0\right]$$
+
+* the **disjunction-untruncated limited principle of omniscience for $A$** states that
+
+$$\prod_{f:A \to \mathbb{2}} \left(\left[\sum_{x:A} f(x) = 1\right] + \prod_{x:A} f(x) = 0\right)$$
+
+* the **quantifier-untruncated limited principle of omniscience for $A$** states that
+
+$$\prod_{f:A \to \mathbb{2}} \left[\left(\sum_{x:A} f(x) = 1\right) + \prod_{x:A} f(x) = 0\right]$$
+
+* the **fully untruncated limited principle of omniscience for $A$** states that
+
+$$\prod_{f:A \to \mathbb{2}} \left(\left(\sum_{x:A} f(x) = 1\right) + \prod_{x:A} f(x) = 0\right)$$
+
 ## Properties
 
 ### LPO for a general set
@@ -97,6 +121,13 @@ $\mathrm{LPO}_A$ holds if and only if the [[function set]] $\mathbb{N}^A$ has [[
 
 $$f \# g \coloneqq \exists x \in A.f(x) \neq g(x)$$
 \end{theorem}
+
+This final statement relates $\mathrm{LPO}_A$ with an untruncated version of $\mathrm{LPO}_A$, in the same way that excluded middle is the same as untruncated excluded middle. 
+
+\begin{theorem}
+$\mathrm{LPO}_A$ holds if and only if the disjunction-untruncated $\mathrm{LPO}_A$ holds. 
+\end{theorem}
+
 
 ### LPO for all subsingletons
 
@@ -208,15 +239,61 @@ The term "limited principle of omniscience", without any specification of the se
 
 ### Equivalent statements
 
-There are various other results that are equivalent to the limited principle of omniscience for the natural numbers. Here are a few:
+Apart from the equivalent statements stated above for the LPO for a general set $A$, there are various other results that are equivalent specifically to the limited principle of omniscience for the natural numbers. 
+
+Let us begin with the equivalence of the various truncated versions of the $\mathrm{LPO}_\mathbb{N}$ with the usual untruncated version of the $\mathrm{LPO}_\mathbb{N}$. 
+
+\begin{theorem}
+The $\mathrm{LPO}_\mathbb{N}$ implies the disjunction-untruncated $\mathrm{LPO}_\mathbb{N}$.  
+\end{theorem}
+
+\begin{theorem}
+Given a sequnece of booleans $f:\mathbb{N} \to \mathbb{2}$, the [[preimage]] of $f$ at the boolean $1$ has a [[choice operator]]. 
+\end{theorem}
+
+\begin{proof}
+See [Rijke 2022](#Rijke22) for a proof of the statement in [[dependent type theory]]. 
+\end{proof}
+
+\begin{theorem}
+The disjunction-untruncated $\mathrm{LPO}_\mathbb{N}$ implies the fully untruncated $\mathrm{LPO}_\mathbb{N}$.  
+\end{theorem}
+
+\begin{proof}
+...
+\end{proof}
+
+\begin{theorem}
+$\mathrm{LPO}_\mathbb{N}$ and fully untruncated $\mathrm{LPO}_\mathbb{N}$ are equivalent. 
+\end{theorem}
+
+Next, we have the equivalence of the $\mathrm{LPO}_\mathbb{N}$ with the [[analytic LPO]] for various notions of [[real numbers]]. 
+
+\begin{theorem}
+The [[analytic LPO]] for the following sets of real numbers are equivalent to the LPO for the [[natural numbers]]: the [[Cauchy real numbers]] $\mathbb{R}_C$, the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]] $\mathbb{R}_E$/$\mathbb{R}_H$, and the subfield of [[Dedekind real numbers]] $\mathbb{R}_\Sigma \subseteq \mathbb{R}_D$ which are constructed out of [[Dedekind cuts]] valued in the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma \subseteq \Omega$. 
+\end{theorem}
+
+There are other equivalent statements from [[real analysis]]:
+
+\begin{theorem}
+[[sequentially compact space|Sequential compactness]] of the [[unit interval]] holds if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
+\end{theorem}
+
+\begin{theorem}
+Every [[Cauchy real number]] is a [[rational number]] or has an strictly non-repeating base $b$ radix expansion if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
+\end{theorem}
+
+\begin{theorem}
+The [[Cauchy real numbers]] are isomorphic to the [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff $\mathrm{LPO}_\mathbb{N}$ holds. 
+\end{theorem}
+
+\begin{proof}
+See [Feldman (2010)](#Mehkeri10). 
+\end{proof}
+
+Here are a few others:
 
 * Every [[semi-decidable proposition]] is a [[decidable proposition]] if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
-
-* [[sequentially compact space|Sequential compactness]] of the [[unit interval]] holds if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
-
-* The [[Cauchy real numbers]] are isomorphic to the [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff $\mathrm{LPO}_\mathbb{N}$ holds. See [Feldman (2010)](#Mehkeri10). 
-
-* The [[analytic LPO]] for the following sets of real numbers are equivalent to the LPO for the [[natural numbers]]: the [[Cauchy real numbers]] $\mathbb{R}_C$, the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]] $\mathbb{R}_E$/$\mathbb{R}_H$, and the subfield of [[Dedekind real numbers]] $\mathbb{R}_\Sigma \subseteq \mathbb{R}_D$ which are constructed out of [[Dedekind cuts]] valued in the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma \subseteq \Omega$. 
 
 * The [[p-adic integers|$p$-adic integers]] being a [[discrete integral domain]] and the [[p-adic rationals|$p$-adic rationals]] being a [[discrete field]] are both equivalent to $\mathrm{LPO}_\mathbb{N}$ 
 
@@ -244,27 +321,7 @@ which implies
 $$\neg(\forall x, P(x)) \vee (\forall x, P(x))$$
 as $P$ is decidable.
 
-* $\mathrm{LLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$, $\mathrm{WLPO}_\mathbb{N}$ is equivalent to untruncated $\mathrm{LLPO}_\mathbb{N}$, which implies truncated $\mathrm{LLPO}_\mathbb{N}$, and $\mathrm{WLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$. However, the converse does not necessarily hold, since in <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates $\mathrm{WLPO}_\mathbb{N}$ from $\mathrm{LLPO}_\mathbb{N}$. Similarly, [Grossack 24](#Grossack24) shows that Johnstone's topological topos separates WLPO from $\mathrm{LLPO}_\mathbb{N}$. Thus $\mathrm{LLPO}_\mathbb{N}$ is separated from $\mathrm{LPO}_\mathbb{N}$. 
-
-### Truncated and untruncated versions in dependent type theory
-
-In the context of [[dependent type theory]], the limited principles of omniscience can be translated in two ways, by interpreting "or" as [[propositional truncation|propositionally truncated]] ("merely or") or untruncated ("purely or"). 
-
-Also, by using the induction principle of the [[boolean domain]] to construct a boolean-indexed type family, one can translate "or" as the existence of a boolean, which can also be interpreted in truncated (mere existence of a boolean; i.e. an [[existential quantifier]]) or untruncated (pure existence of a boolean; i.e. a [[dependent sum type]]). Then, truncated LPO states that 
-
-$$\prod_{f:\mathbb{N} \to \mathbb{2}} \exists b:\mathbb{2}.(\exists x:\mathbb{N}.f(x) = 1) \simeq (b = 1)$$
-
-while untruncated LPO states that
-
-$$\prod_{f:\mathbb{N} \to \mathbb{2}} \sum_{b:\mathbb{2}} (\exists x:\mathbb{N}.f(x) = 1) \simeq (b = 1)$$
-
-Truncated LPO and untruncated LPO are equivalent (due to [[Martin Escardo]], see [UFP](#UFP)). 
-
-Since [[type theoretic axiom of choice|dependent sums distribute over dependent products]], the untruncated LPO implies that booleans form a [[sigma-complete lattice|$\sigma$-complete lattice]]:
-
-$$\sum_{\Vee:(\mathbb{N} \to \mathbb{2}) \to \mathbb{2}} \prod_{f:\mathbb{N} \to \mathbb{2}} (\exists x:\mathbb{N}.f(x) = 1) \simeq \left(\Vee f = 1\right)$$
-
-One can then show using the properties of [[existential quantifiers]] and [[conjunctions]] that the booleans form a [[sigma-frame|$\sigma$-frame]] or even a [[sigma-algebra|$\sigma$-algebra]] with untruncated LPO. 
+* $\mathrm{LLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$, $\mathrm{WLPO}_\mathbb{N}$ is equivalent to fully untruncated $\mathrm{LLPO}_\mathbb{N}$, which implies $\mathrm{LLPO}_\mathbb{N}$, and $\mathrm{WLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$. However, the converse does not necessarily hold, since in <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates $\mathrm{WLPO}_\mathbb{N}$ from $\mathrm{LLPO}_\mathbb{N}$. Similarly, [Grossack 24](#Grossack24) shows that Johnstone's topological topos separates $\mathrm{WLPO}_\mathbb{N}$ from $\mathrm{LLPO}_\mathbb{N}$. Thus $\mathrm{LLPO}_\mathbb{N}$ is separated from $\mathrm{LPO}_\mathbb{N}$. 
 
 ### Models
 
@@ -292,8 +349,6 @@ One can then show using the properties of [[existential quantifiers]] and [[conj
 
 * {#Ishihara06} [[Hajime Ishihara]], _Reverse Mathematics in Bishop's Constructive Mathematics_, Philosophia Scienti&#230;, CS 6 (2006) ([doi:10.4000/philosophiascientiae.406](https://doi.org/10.4000/philosophiascientiae.406),  [pdf](https://philosophiascientiae.revues.org/pdf/406))
 
-* {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
-
 * {#Rathjen13} [[Michael Rathjen]], *Constructive Zermelo-Fraenkel set theory and the limited principle of omniscience*. &lbrack;[arXiv:1302.3037](https://arxiv.org/abs/1302.3037)&rbrack;
 
 * {#Shulman18} [[Mike Shulman]], *Brouwer’s fixed-point theorem in real-cohesive homotopy type theory*, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
@@ -302,11 +357,17 @@ One can then show using the properties of [[existential quantifiers]] and [[conj
 
 * {#Ciraulo22} Francesco Ciraulo, *$\sigma$-locales in Formal Topology*, Logical Methods in Computer Science, Volume 18, Issue 1 (January 12, 2022) ([doi:10.46298/lmcs-18%281%3A7%292022](https://doi.org/10.46298/lmcs-18%281%3A7%292022), [arXiv:1801.09644](https://arxiv.org/abs/1801.09644))
 
+* {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
+
 * {#BirchfieldSwan24} Madeleine Birchfield, Andrew Swan (2024) on Category Theory Zulip, [LPO and sigma-frame structure on booleans](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/LPO.20and.20sigma-frame.20structure.20on.20booleans)
 
 * {#Grossack24} [[Chris Grossack]], *Life in Johnstone's Topological Topos 3 -- Bonus Axioms* ([web](https://grossack.site/2024/07/03/topological-topos-3-bonus-axioms))
 
 * {#LombardiMahboubi24} [[Henri Lombardi]], [[Assia Mahboubi]], *Théories géométriques pour l'algèbre des nombres réels sans test de signe ni axiome de choix dépendant* ([arXiv:2406.15218](https://arxiv.org/abs/2406.15218))
+
+This reference calls the fully untruncated limited principle of omniscience for the natural numbers simply by the term "limited principle of omniscience". However, the limited principle of omniscience usually refers to the fully truncated version. 
+
+* {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 These two references call the limited principle of omniscience simply by the term "principle of omniscience" or "omniscience principle". However, [[principle of omniscience]] can refer to multiple possible axioms. 
 
@@ -329,3 +390,47 @@ These two references call the limited principle of omniscience simply by the ter
 [[!redirects untruncated LPO]]
 [[!redirects untruncated limited principle of omniscience]]
 [[!redirects untruncated limited principles of omniscience]]
+
+[[!redirects disjunction-untruncated LPO]]
+[[!redirects disjunction-untruncated limited principle of omniscience]]
+[[!redirects disjunction-untruncated limited principles of omniscience]]
+
+[[!redirects disjunction untruncated LPO]]
+[[!redirects disjunction untruncated limited principle of omniscience]]
+[[!redirects disjunction untruncated limited principles of omniscience]]
+
+[[!redirects existential-quantifier-untruncated LPO]]
+[[!redirects existential-quantifier-untruncated limited principle of omniscience]]
+[[!redirects existential-quantifier-untruncated limited principles of omniscience]]
+
+[[!redirects existential quantifier untruncated LPO]]
+[[!redirects existential quantifier untruncated limited principle of omniscience]]
+[[!redirects existential quantifier untruncated limited principles of omniscience]]
+
+[[!redirects existential-quantification-untruncated LPO]]
+[[!redirects existential-quantification-untruncated limited principle of omniscience]]
+[[!redirects existential-quantification-untruncated limited principles of omniscience]]
+
+[[!redirects existential quantification untruncated LPO]]
+[[!redirects existential quantification untruncated limited principle of omniscience]]
+[[!redirects existential quantification untruncated limited principles of omniscience]]
+
+[[!redirects quantifier-untruncated LPO]]
+[[!redirects quantifier-untruncated limited principle of omniscience]]
+[[!redirects quantifier-untruncated limited principles of omniscience]]
+
+[[!redirects quantifier untruncated LPO]]
+[[!redirects quantifier untruncated limited principle of omniscience]]
+[[!redirects quantifier untruncated limited principles of omniscience]]
+
+[[!redirects quantification-untruncated LPO]]
+[[!redirects quantification-untruncated limited principle of omniscience]]
+[[!redirects quantification-untruncated limited principles of omniscience]]
+
+[[!redirects quantification untruncated LPO]]
+[[!redirects quantification untruncated limited principle of omniscience]]
+[[!redirects quantification untruncated limited principles of omniscience]]
+
+[[!redirects fully untruncated LPO]]
+[[!redirects fully untruncated limited principle of omniscience]]
+[[!redirects fully untruncated limited principles of omniscience]]
