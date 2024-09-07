@@ -13,8 +13,6 @@
 =--
 
 
-
-# Promonoidal categories
 * table of contents
 {: toc}
 
