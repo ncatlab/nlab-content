@@ -28,24 +28,90 @@ We can also state the principle set-theoretically, with explicit reference to th
 
 While $LPO$ for $\mathbb{N}$ is a classic example of the difference between constructive and classical mathematics, $LPO$ holds for the set $\overline{\mathbb{N}}$ of [[extended natural number]]s; this is related to the fact that $\overline{\mathbb{N}}$ may constructively be given a [[compact space|compact]] topology. See [Escard&#243; (2011)](#Escardo11) for this and much more.
 
-### Using apartness relation on set of boolean-valued functions
+## Properties
 
-Given a set $A$, since the [[boolean domain]] is a [[boolean ring]], the function set $\{0, 1\}^A$ is also a [[boolean ring]] via pointwise addition, subtraction and multiplication of [[boolean-valued functions]]. Thus, for functions $f$ and $g$ from $A$ to $\{0, 1\}$, the [[tight apartness relation]] on the function set $\{0, 1\}^A$, defined by 
+### LPO for a general set
+
+Assuming an arbitrary set $A$, 
+
+\begin{theorem}
+$\mathrm{LPO}_A$ holds if and only if for every function $f:A \to \mathbb{N}$ from $A$ to the [[natural numbers]], either there exists an element $x$ in $A$ and a natural number $n$ such that $f(x) = n + 1$, or for all elements $x$ in $A$, $f(x) = 0$. 
+\end{theorem}
+
+\begin{theorem}
+$\mathrm{LPO}_A$ holds if and only if the [[boolean domain]] is the [[initial object|initial]] $A$-overt $\emptyset$-overt [[dominance]]. 
+\end{theorem}
+
+Now, let us define an $A$-[[complete lattice]] to be a lattice which has all $A$-indexed joins, a lattice $L$ with a function 
+
+$$\bigvee_{t:A} (-)(t):(A \to L) \to L$$
+
+such that for all elements $x \in A$ and functions $f:A \to L$, 
+
+$$f(x) \leq \bigvee_{t:A} f(t)$$
+
+and for all elements $y \in L$ and functions $f:A \to L$, if $f(x) \leq y$ for all elements $x \in A$, then 
+
+$$\bigvee_{t:A} f(t) \leq y$$
+
+and let us define an $A$-[[frame]] to be a $A$-[[complete lattice]] in which meets distribute over the $A$-indexed joins: for all elements $x \in L$ and functions $f:A \to L$, 
+
+$$a \wedge \bigvee_{t:A} f(t) = \bigvee_{t:A} a \vee f(t)$$
+
+We say that a $A$-[[frame homomorphism]] is a lattice homomorphism which also preserves $A$-indexed joins. 
+
+\begin{theorem}
+$\mathrm{LPO}_A$ holds if and only if the [[boolean domain]] is the [[initial object|initial]] $A$-frame; i.e. the [[boolean domain]] is an $A$-frame and for every other $A$-frame $L$, [[uniqueness quantifier|there is a unique]] $A$-frame homomorphism from the [[boolean domain]] to $L$. 
+\end{theorem}
+
+When the set $A$ is the [[natural numbers]] $\mathbb{N}$, this yields the familiar theorem that $\mathrm{LPO}_\mathbb{N}$ holds if and only if the [[boolean domain]] is the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]. 
+
+The next statement relate the $\mathrm{LPO}_A$ with the axiom that [[tight apartness relation]] on the [[function set]] $\mathbb{2}^A$ is a [[decidable tight apartness]]. 
+
+\begin{theorem}
+$\mathrm{LPO}_A$ holds if and only if the [[function set]] $\mathbb{2}^A$ has [[decidable relation|decidable]] [[tight apartness]], where the [[tight apartness relation]] on the [[function set]] $\mathbb{2}^A$ be defined as 
+
+$$f \# g \coloneqq \exists x \in A.f(x) \neq g(x)$$
+\end{theorem}
+
+\begin{proof}
+Given a set $A$, since the [[boolean domain]] is a [[boolean ring]], the function set $\mathbb{2}^A$ is also a [[boolean ring]] via pointwise addition, subtraction and multiplication of [[boolean-valued functions]]. Thus, for functions $f$ and $g$ from $A$ to $\mathbb{2}$, the [[tight apartness relation]] on the function set $\mathbb{2}^A$, defined by 
 $$f \# g \coloneqq \exists x:A.f(x) \neq g(x)$$ 
 is logically equivalent to $\exists x:A.f(x) - g(x) = 1$, since $f(x) \neq g(x)$ is logically equivalent to $f(x) = g(x) + 1$. 
 
-The limited principle of omniscience for the set $A$ then can be expressed by saying that the [[tight apartness relation]] on $A$ is a [[decidable tight apartness relation]]; i.e. $f \# g$ or $f = g$ for all functions $f$ and $g$ from $A$ to $\{0, 1\}$. 
+Suppose $\mathrm{LPO}_A$ holds. Then for functions $f$ and $g$ from $A$ to $\mathbb{2}$, define the function $h$ by $h(x) = f(x) - g(x)$ for all $x \in A$. Then since $\mathrm{LPO}_A$ says that $\exists x:A.h(x) = 1$ is decidable, and $\exists x:A.h(x) = 1$ is logically equivalent to $f \# g$, then $f \# g$ is decidable. 
+
+Conversely, assume that $f \# g$ is decidable. Then take $g$ to be the constant function at the boolean $0$, and $f \# \lambda x:A.0$ is logically equivalently to $\exists x:A.f(x) - 0 = 1$ and thus $\exists x:A.f(x) = 1$. Since $f \# g$ is decidable, then $\exists x:A.f(x) = 1$ is decidable, which is $\mathrm{LPO}_A$. 
+\end{proof}
+
+The next two statements relate the $\mathrm{LPO}_A$ with axioms that the [[tight apartness relation]] on certain other [[function sets]] are a [[decidable tight apartness]]. 
 
 \begin{theorem}
-There are two definable functions from every subsingleton $A$ to the [[boolean domain]] $\{0, 1\}$, the [[constant functions]] $\lambda x:A.0$ and $\lambda x:A.1$. Suppose that either there exists $x:A$ such that $(\lambda x:A.0)(x) \neq (\lambda x:A.1)(x)$, or for all $x:A$, $(\lambda x:A.0)(x) = (\lambda x:A.1)(x)$. Then $A$ is a [[decidable subsingleton]]. 
+More generally, given a [[finite set]] $S$ of [[cardinality]] $n \gt 1$, $\mathrm{LPO}_A$ holds if and only if that the [[function set]] $S^A$ has [[decidable relation|decidable]] [[tight apartness]], where the [[tight apartness relation]] on the [[function set]] $S^A$ be defined as 
+
+$$f \# g \coloneqq \exists x \in A.f(x) \neq g(x)$$
+\end{theorem}
+
+\begin{theorem}
+$\mathrm{LPO}_A$ holds if and only if the [[function set]] $\mathbb{N}^A$ has [[decidable relation|decidable]] [[tight apartness]], where the [[tight apartness relation]] on the [[function set]] $\mathbb{N}^A$ be defined as 
+
+$$f \# g \coloneqq \exists x \in A.f(x) \neq g(x)$$
+\end{theorem}
+
+### LPO for all subsingletons
+
+There is a [[constant function]] $x \mapsto 1$ from every subsingleton $A$ to the [[boolean domain]] $\mathbb{2}$ taking every element $x \in A$ to the boolean $1 \in \mathbb{2}$. 
+
+\begin{theorem}
+Given a [[subsingleton]] $A$, suppose that $\mathrm{LPO}_A$ holds: either there exists $x \in A$ such that $(x \mapsto 1)(x) = 1$, or for all $x \in A$, $(x \mapsto 1)(x) = 0$. Then $A$ is a [[decidable subsingleton]]. 
 \end{theorem}
 
 \begin{proof}
 We prove by case analysis. 
 
-Suppose that there exists $x:A$ such that $(\lambda x:A.0)(x) \neq (\lambda x:A.1)(x)$. Then $A$ is a [[inhabited set|inhabited]] subsingleton and thus a decidable subsingleton. 
+Suppose that there exists $x:A$ such that $(x \mapsto 1)(x) = 1$. Then $A$ is a [[inhabited set|inhabited]] subsingleton and thus a decidable subsingleton. 
 
-Then suppose that for all $x:A$, $(\lambda x:A.0)(x) = (\lambda x:A.1)(x)$. Then $A$ is [[empty set|empty]] and thus a decidable subsingleton, and the function set $\{0, 1\}^A$ is a [[singleton]] by the [[universal property]] of the empty set, with all functions equal to each other. 
+Then suppose that for all $x:A$, $(x \mapsto 1)(x) = 0$. Then $A$ is [[empty set|empty]] and thus a decidable subsingleton. 
 
 This exhausts all options for decidable subsingletons, and exhausts all possible conditions in the hypothesis. 
 \end{proof}
@@ -55,8 +121,38 @@ Suppose that for sets $A$ and $B$ with [[decidable tight apartness relations]], 
 \end{theorem}
 
 \begin{proof}
-Every [[subsingleton]] $A$ has a [[decidable tight apartness relation]] where $x \# y$ is always [[false]]. The [[boolean domain]] $\{0, 1\}$ also has a decidable tight apartness relation where $x \# y$ is given by the [[denial inequality]] $x \neq y$. That the tight apartness relation on the function set $\{0, 1\}^A$ is decidable implies the previous theorem above, which implies that every subsingleton $A$ is a decidable subsingleton, which is precisely the condition of [[excluded middle]]. 
+Every [[subsingleton]] $A$ has a [[decidable tight apartness relation]] where $x \# y$ is always [[false]]. The [[boolean domain]] $\mathbb{2}$ also has a decidable tight apartness relation where $x \# y$ is given by the [[denial inequality]] $x \neq y$. We proved earlier in the article that $\mathrm{LPO}_A$ is equivalent to the tight apartness relation on the function set $\mathbb{2}^A$ being decidable, and $\mathrm{LPO}_A$ implies that every subsingleton $A$ is a decidable subsingleton, which is precisely the condition of [[excluded middle]]. 
 \end{proof}
+
+There is also a [[constant function]] $x \mapsto 0$ from every subsingleton $A$ to the [[boolean domain]] $\mathbb{2}$ taking every element $x \in A$ to the boolean $0 \in \mathbb{2}$. 
+
+\begin{theorem}
+Given a [[subsingleton]] $A$, suppose that either there exists $x \in A$ such that $(x \mapsto 1)(x) \neq (x \mapsto 0)(x)$, or for all $x \in A$, $(x \mapsto 1)(x) = (x \mapsto 0)(x)$. Then $A$ is a [[decidable subsingleton]]. 
+\end{theorem}
+
+\begin{proof}
+We prove by case analysis. 
+
+Suppose that there exists $x \in A$ such that $(x \mapsto 1)(x) \neq (x \mapsto 0)(x)$. Then $A$ is a [[inhabited set|inhabited]] subsingleton and thus a decidable subsingleton. 
+
+Then suppose that for all $x \in A$, $(x \mapsto 1)(x) = (x \mapsto 0)(x)$. Then $A$ is [[empty set|empty]] and thus a decidable subsingleton, since $(x \mapsto 1) = (x \mapsto 0)$ by [[function extensionality]]. 
+
+This exhausts all options for decidable subsingletons, and exhausts all possible conditions in the hypothesis. 
+\end{proof}
+
+### Universe of types satisfying LPO
+
+In [[dependent type theory]], given a [[univalent Tarski universe]] $(U, T)$, one can construct the universe of all types in $U$ which satisfy the limited principle of omniscience:
+
+$$U_\mathrm{LPO} \coloneqq \sum_{A:U} \prod_{f:T(A) \to \mathrm{bool}} (\exists x:T(A).f(x) =_{\mathrm{bool}} 1) \vee
+\left(\prod_{x:T(A)} f(x) =_{\mathrm{bool}} 0\right)$$
+
+Since the type 
+
+$$\prod_{f:T(A) \to \mathrm{bool}} (\exists x:T(A).f(x) =_{\mathrm{bool}} 1) \vee
+\left(\prod_{x:T(A)} f(x) =_{\mathrm{bool}} 0\right)$$
+
+is a [[mere proposition]] for all $A:U$, $U_\mathrm{LPO}$ is a [[subtype|sub]]-[[universe]] of $U$. 
 
 ## In the internal logic
 
@@ -106,41 +202,51 @@ In particular, the internal LPO for the family of all [[subsingletons]] is inter
 
 The internal versions of the limited principles of omniscience, like all internal versions of axioms, are weaker than the external version of the limited principle of omniscience, since while [[bounded separation]] implies that one can convert any external predicate $x \in A \vdash P(x)$ on a set $A$ to an internal predicate $\{x \in A \vert P(x)\} \hookrightarrow A$, it is generally not possible to convert an internal predicate to an external predicate without a reflection rule which turns subsingletons in the set theory into propositions in the external logic. 
 
-## Equivalent statements
+## LPO for the natural numbers
 
-There are various other results that are equivalent to the principles of omniscience. Here are a few:
+The term "limited principle of omniscience", without any specification of the set for which LPO holds, usually refers to the limited principle of omniscience for the natural numbers $\mathrm{LPO}_\mathbb{N}$. 
 
-* $\mathrm{LPO}_\mathbb{N}$ holds if and only if for every sequence $x$ of [[natural numbers]], either there exists natural numbers $m$ and $n$ such that $x(m) = n + 1$, or for all natural numbers $m$, $x(m) = 0$. 
+### Equivalent statements
+
+There are various other results that are equivalent to the limited principle of omniscience for the natural numbers. Here are a few:
 
 * Every [[semi-decidable proposition]] is a [[decidable proposition]] if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
 * [[sequentially compact space|Sequential compactness]] of the [[unit interval]] holds if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
 
-* The [[boolean domain]] is the [[initial object|initial]] $\sigma$-frame and in fact the initial [[sigma-complete Boolean algebra|$\sigma$-complete Boolean algebra]] if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
-
-* The [[boolean domain]] is $\mathbb{N}$-overt as a [[dominance]] if and only if $\mathrm{LPO}_\mathbb{N}$ holds. 
-
 * The [[Cauchy real numbers]] are isomorphic to the [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff $\mathrm{LPO}_\mathbb{N}$ holds. See [Feldman (2010)](#Mehkeri10). 
 
 * The [[analytic LPO]] for the following sets of real numbers are equivalent to the LPO for the [[natural numbers]]: the [[Cauchy real numbers]] $\mathbb{R}_C$, the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]] $\mathbb{R}_E$/$\mathbb{R}_H$, and the subfield of [[Dedekind real numbers]] $\mathbb{R}_\Sigma \subseteq \mathbb{R}_D$ which are constructed out of [[Dedekind cuts]] valued in the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma \subseteq \Omega$. 
-
-* That the [[function set]] $\mathbb{2}^\mathbb{N}$ (i.e. [[Cantor space]]) has [[decidable relation|decidable]] [[tight apartness]] is equivalent to $\mathrm{LPO}_\mathbb{N}$, where the [[tight apartness relation]] on the [[function set]] $\mathbb{2}^\mathbb{N}$ be defined as 
-
-$$x \# y \coloneqq \exists n \in \mathbb{N}.x(n) \neq y(n)$$
-
-* More generally, given a [[finite set]] $S$ of [[cardinality]] $n \gt 1$, that the [[function set]] $S^\mathbb{N}$ has [[decidable relation|decidable]] [[tight apartness]] is equivalent to $\mathrm{LPO}_\mathbb{N}$, where the [[tight apartness relation]] on the [[function set]] $S^\mathbb{N}$ be defined as 
-
-$$x \# y \coloneqq \exists n \in \mathbb{N}.x(n) \neq y(n)$$
-
-* That the [[function set]] $\mathbb{N}^\mathbb{N}$ (i.e. [[Baire space of sequences]]) has [[decidable relation|decidable]] [[tight apartness]] is equivalent to $\mathrm{LPO}_\mathbb{N}$, where the [[tight apartness relation]] on the [[function set]] $\mathbb{N}^\mathbb{N}$ be defined as 
-
-$$x \# y \coloneqq \exists n \in \mathbb{N}.x(n) \neq y(n)$$
 
 * The [[p-adic integers|$p$-adic integers]] being a [[discrete integral domain]] and the [[p-adic rationals|$p$-adic rationals]] being a [[discrete field]] are both equivalent to $\mathrm{LPO}_\mathbb{N}$ 
 
 * The [[ring]] of [[rational numbers|rational]] [[power series]] $\mathbb{Q}[[x]]$ being a [[discrete integral domain]] is equivalent to $\mathrm{LPO}_\mathbb{N}$. Similarly, the [[Heyting field]] of [[rational numbers|rational]] [[Laurent series]] $\mathbb{Q}((x))$ being a [[discrete field]] is equivalent to $\mathrm{LPO}_\mathbb{N}$. 
 
-## Truncated and untruncated versions in dependent type theory
+### Related statements
+
+There are various other results that are related to the principles of omniscience. Here are a few:
+
+* The [[full bar theorem]] implies the $\mathrm{LPO}_\mathbb{N}$. 
+
+* The existence of various [[classical mathematics|classical]] [[universes]] or models of [[foundations of mathematics]] implies the $\mathrm{LPO}_\mathbb{N}$: 
+
+  * Any model $\mathcal{V}$ of bounded Zermelo set theory contains a [[pure set]] of [[real numbers]] $\mathbb{R}$. One can collect all the pure sets of $\mathcal{V}$ which are in $\mathbb{R}$ and show that the resulting set is a subset of $\mathcal{V}$ and a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. Thus, the existence of stronger models of [[material set theory]] such as [[ZFC]] also imply $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. 
+
+  * For a similar reason, the existence of a constructively [[well-pointed topos|well-pointed]] [[Boolean topos|Boolean]] [[W-topos]] $\mathcal{E}$ implies the $\mathrm{LPO}_\mathbb{N}$, since the hom-set $\mathrm{Hom}_\mathcal{E}(1, \mathbb{R})$, where $1 \in \mathcal{E}$ is the [[terminal object|terminal]] [[generator]] and  $\mathbb{R} \in \mathcal{E}$ is the [[real numbers object]] in $\mathcal{E}$, yields a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. Thus, the existence of any constructive model of [[ETCS]] also implies $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. 
+
+  * Finally, in [[dependent type theory]], there being a [[univalent Tarski universe]] $(U, T)$ closed under dependent product types, dependent sum types, and identity types and satisfying the axiom of infinity and [[excluded middle]] implies the $\mathrm{LPO}_\mathbb{N}$, since one can construct an element $\mathbb{R}:U$ representing the $U$-small type of real numbers, whose type reflection $T(\mathbb{R})$ is a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying $\mathrm{LPO}_\mathbb{N}$ for the entire type theory. Thus, any univalent Tarski universe which has [[axiom of choice]] or a [[choice operator]] for the types in the universe also implies $\mathrm{LPO}_\mathbb{N}$ for the entire type theory. 
+
+  * Note that in all these cases, the real numbers $\mathbb{R}$ constructed from these universes or classical models of foundations of mathematics, while equivalent to the internal Dedekind real numbers constructed in the universe or model, are not necessarily equivalent to the external [[Dedekind real numbers]] in the foundations. 
+
+* $\mathrm{WLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$, but not conversely. If $P(x)$ is a decidable proposition, then so is $\neg{P(x)}$, and so $\mathrm{LPO}_\mathbb{N}$ gives
+$$(\exists x, \neg{P(x)}) \vee (\forall x, \neg{\neg{P(x)}}), $$
+which implies
+$$\neg(\forall x, P(x)) \vee (\forall x, P(x))$$
+as $P$ is decidable.
+
+* $\mathrm{LLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$, $\mathrm{WLPO}_\mathbb{N}$ is equivalent to untruncated $\mathrm{LLPO}_\mathbb{N}$, which implies truncated $\mathrm{LLPO}_\mathbb{N}$, and $\mathrm{WLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$. However, the converse does not necessarily hold, since in <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates $\mathrm{WLPO}_\mathbb{N}$ from $\mathrm{LLPO}_\mathbb{N}$. Similarly, [Grossack 24](#Grossack24) shows that Johnstone's topological topos separates WLPO from $\mathrm{LLPO}_\mathbb{N}$. Thus $\mathrm{LLPO}_\mathbb{N}$ is separated from $\mathrm{LPO}_\mathbb{N}$. 
+
+### Truncated and untruncated versions in dependent type theory
 
 In the context of [[dependent type theory]], the limited principles of omniscience can be translated in two ways, by interpreting "or" as [[propositional truncation|propositionally truncated]] ("merely or") or untruncated ("purely or"). 
 
@@ -160,51 +266,11 @@ $$\sum_{\Vee:(\mathbb{N} \to \mathbb{2}) \to \mathbb{2}} \prod_{f:\mathbb{N} \to
 
 One can then show using the properties of [[existential quantifiers]] and [[conjunctions]] that the booleans form a [[sigma-frame|$\sigma$-frame]] or even a [[sigma-algebra|$\sigma$-algebra]] with untruncated LPO. 
 
-## Related statements
-
-There are various other results that are related to the principles of omniscience. Here are a few:
-
-* The [[full bar theorem]] implies the $\mathrm{LPO}_\mathbb{N}$. 
-
-* The existence of various [[classical mathematics|classical]] [[universes]] or models of [[foundations of mathematics]] implies the $\mathrm{LPO}_\mathbb{N}$: 
-
-  * Any model $\mathcal{V}$ of bounded Zermelo set theory contains a [[pure set]] of [[real numbers]] $\mathbb{R}$. One can collect all the pure sets of $\mathcal{V}$ which are in $\mathbb{R}$ and show that the resulting set is a subset of $\mathcal{V}$ and a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. Thus, the existence of stronger models of [[material set theory]] such as [[ZFC]] also imply $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. 
-
-  * For a similar reason, the existence of a constructively [[well-pointed topos|well-pointed]] [[Boolean topos|Boolean]] [[W-topos]] $\mathcal{E}$ implies the $\mathrm{LPO}_\mathbb{N}$, since the hom-set $\mathrm{Hom}_\mathcal{E}(1, \mathbb{R})$, where $1 \in \mathcal{E}$ is the [[terminal object|terminal]] [[generator]] and  $\mathbb{R} \in \mathcal{E}$ is the [[real numbers object]] in $\mathcal{E}$, yields a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. Thus, the existence of any constructive model of [[ETCS]] also implies $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. 
-
-  * Finally, in [[dependent type theory]], there being a [[univalent Tarski universe]] $(U, T)$ closed under dependent product types, dependent sum types, and identity types and satisfying the axiom of infinity and [[excluded middle]] implies the $\mathrm{LPO}_\mathbb{N}$, since one can construct an element $\mathbb{R}:U$ representing the $U$-small type of real numbers, whose type reflection $T(\mathbb{R})$ is a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying $\mathrm{LPO}_\mathbb{N}$ for the entire type theory. Thus, any univalent Tarski universe which has [[axiom of choice]] or a [[choice operator]] for the types in the universe also implies $\mathrm{LPO}_\mathbb{N}$ for the entire type theory. 
-
-  * Note that in all these cases, the real numbers $\mathbb{R}$ constructed from these universes or classical models of foundations of mathematics, while equivalent to the internal Dedekind real numbers constructed in the universe or model, are not necessarily equivalent to the external [[Dedekind real numbers]] in the foundations. 
-
-* $WLPO$ follows from [[LPO]], but not conversely. If $P(x)$ is a decidable proposition, then so is $\neg{P(x)}$, and so $LPO$ gives
-$$(\exists x, \neg{P(x)}) \vee (\forall x, \neg{\neg{P(x)}}), $$
-which implies
-$$\neg(\forall x, P(x)) \vee (\forall x, P(x))$$
-as $P$ is decidable.
-
-* The [[LLPO]] follows from [[LPO]], [[WLPO]] is equivalent to untruncated LLPO, which implies truncated LLPO, and [[WLPO]] follows from [[LPO]]. However, the converse does not necessarily hold, since in <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates WLPO from LLPO. Similarly, [Grossack 24](#Grossack24) shows that Johnstone's topological topos separates WLPO from LLPO. Thus LLPO is separated from LPO. 
-
-* Given a set $A$, $\mathrm{LPO}_A$ holds if and only if for every function $f:A \to \mathbb{N}$ from $A$ to the [[natural numbers]], either there exists an element $x$ in $A$ and a natural number $n$ such that $f(x) = n + 1$, or for all elements $x$ in $A$, $f(x) = 0$. 
-
-## Models
+### Models
 
 * Assuming that [[Set]] is a [[Boolean topos]], then $LPO_{\mathbb{N}}$ (the LPO for natural numbers) holds in any [[presheaf topos]] over $Set$ and indeed in any [[locally connected topos]] over $Set$, essentially since then $2^N$ is a constant object.
 
 * The LPO for natural numbers fails in Johnstone's [[topological topos]], due to its internal continuity principle.  Hence, the analytic LPO also fails, since the modulated Cauchy reals and Dedekind reals coincide in this topos. 
-
-## Universe of types satisfying LPO
-
-In [[dependent type theory]], given a [[univalent Tarski universe]] $(U, T)$, one can construct the universe of all types in $U$ which satisfy the limited principle of omniscience:
-
-$$U_\mathrm{LPO} \coloneqq \sum_{A:U} \prod_{f:T(A) \to \mathrm{bool}} (\exists x:T(A).f(x) =_{\mathrm{bool}} 1) \vee
-\left(\prod_{x:T(A)} f(x) =_{\mathrm{bool}} 0\right)$$
-
-Since the type 
-
-$$\prod_{f:T(A) \to \mathrm{bool}} (\exists x:T(A).f(x) =_{\mathrm{bool}} 1) \vee
-\left(\prod_{x:T(A)} f(x) =_{\mathrm{bool}} 0\right)$$
-
-is a [[mere proposition]] for all $A:U$, $U_\mathrm{LPO}$ is a [[subtype|sub]]-[[universe]] of $U$. 
 
 ## Related concepts
 
