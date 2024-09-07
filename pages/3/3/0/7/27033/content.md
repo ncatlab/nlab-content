@@ -28,6 +28,20 @@ We can also state the principle set-theoretically, with explicit reference to th
 
 While $LPO$ for $\mathbb{N}$ is a classic example of the difference between constructive and classical mathematics, $LPO$ holds for the set $\overline{\mathbb{N}}$ of [[extended natural number]]s; this is related to the fact that $\overline{\mathbb{N}}$ may constructively be given a [[compact space|compact]] topology. See [Escard&#243; (2011)](#Escardo11) for this and much more.
 
+### Using exclusive disjunction
+
+There is an equivalent version of the limited principle of omniscience which uses the [[exclusive disjunction]] instead of the inclusive [[disjunction]] for the definition of a [[decidable proposition]]:
+
+The __limited principle of omniscience__ ($LPO$) states that the [[existential quantification]] of any [[decidable proposition]] on a sete $A$ is again decidable.  That is,
+$$ (\forall x \in A, P(x) \underline{\vee} \neg{P(x)}) \Rightarrow (\exists x \in A, P(x)) \underline{\vee} \neg(\exists x \in A, P(x)) ,$$
+or equivalently
+$$ (\forall x \in A, P(x) \underline{\vee} \neg{P(x)}) \Rightarrow (\exists x, P(x)) \underline{\vee} (\forall x, \neg{P(x)}) .$$
+
+We can also state the principle set-theoretically, with explicit reference to the domain of quantification.  Given a [[set]] $A$, the __limited principle of omniscience for $A$__ ($LPO_A$) states that, given any [[function]] $f$ from $A$ to the [[boolean domain]] $\{0,1\}$, either $f$ is the [[constant map]] to $0$ or $1$ belongs to the [[image]] of $f$. That is, 
+$$ \forall f \in \{0,1\}^A, (\exists x \in A, f(x) = 1) \underline{\vee} \neg(\exists x \in A, f(x) = 1) ,$$
+or equivalently
+$$ \forall f \in \{0,1\}^A, (\exists x \in A, f(x) = 1) \underline{\vee} (\forall x \in A, f(x) = 0) .$$
+
 ### In dependent type theory
 
 In the context of [[dependent type theory]], the usual limited principle of omniscience for a type $A$ is expressed as 
@@ -51,6 +65,26 @@ $$\prod_{f:A \to \mathbb{2}} \left[\left(\sum_{x:A} f(x) = 1\right) + \prod_{x:A
 * the **fully untruncated limited principle of omniscience for $A$** states that
 
 $$\prod_{f:A \to \mathbb{2}} \left(\left(\sum_{x:A} f(x) = 1\right) + \prod_{x:A} f(x) = 0\right)$$
+
+\begin{theorem}
+$\mathrm{LPO}_A$ holds if and only if the disjunction-untruncated $\mathrm{LPO}_A$ holds. 
+\end{theorem}
+
+\begin{proof}
+By the equivalence of the definitions of [[decidable proposition]] using inclusive disjunction and exclusive disjunction, the versions of the $\mathrm{LPO}_A$ using inclusive and exclusive disjunctions are equivalent to each other. 
+
+In dependent type theory, the [[exclusive disjunction]] of two types is formulated as the [[dependent sum type]]: 
+
+$$A \underline{\vee} B \coloneqq \sum_{x:A + B} \prod_{y:A + B} x =_{A + B} y$$
+
+The first projection function of the dependent sum types yields a function 
+
+$$\pi_1:(A \underline{\vee} B) \to A + B$$
+
+meaning that the $\mathrm{LPO}_A$ using exclusive disjunction implies the disjunction-untruncated $\mathrm{LPO}_A$. Finally, the disjunction-untruncated $\mathrm{LPO}_A$ implies the $\mathrm{LPO}_A$ using inclusive disjunction by the properties of [[propositional truncations]]. 
+
+Thus, $\mathrm{LPO}_A$ holds if anad only if the disjunction-untruncated $\mathrm{LPO}_A$ holds. 
+\end{proof}
 
 ## Properties
 
@@ -121,13 +155,6 @@ $\mathrm{LPO}_A$ holds if and only if the [[function set]] $\mathbb{N}^A$ has [[
 
 $$f \# g \coloneqq \exists x \in A.f(x) \neq g(x)$$
 \end{theorem}
-
-This final statement relates $\mathrm{LPO}_A$ with an untruncated version of $\mathrm{LPO}_A$, in the same way that excluded middle is the same as untruncated excluded middle. 
-
-\begin{theorem}
-$\mathrm{LPO}_A$ holds if and only if the disjunction-untruncated $\mathrm{LPO}_A$ holds. 
-\end{theorem}
-
 
 ### LPO for all subsingletons
 
