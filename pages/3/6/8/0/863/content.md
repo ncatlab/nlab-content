@@ -38,9 +38,15 @@ Using [[excluded middle]], these are equivalent to asymmetry and connectedness a
 
 Actually, these axioms are overkill; to begin with, irreflexivity is simply a special case of asymmetry and so can be dropped.  Additionally, one can either drop transitivity or drop asymmetry (which then requires keeping irreflexivity); they will still follow from the other axioms.  Dropping transitivity shows manifestly the duality (see below) between pseudo-orders and total orders (even in constructive mathematics), and dropping asymmetry shows that a pseudo-order is a weakly linear [[strict preorder]]. Keeping transitivity and irreflexivity (thus allowing one to drop asymmetry) shows manifestly that a pseudo-order is a special kind of [[strict preorder]].
 
-In classical mathematics, there are even more options.  Now weak linearity can be dropped, as it follows from transitivity and connectedness.  Also, one often combines irreflexivity, asymmetry, and connectedness into a single axiom:
+Also, because the relation is [[asymmetric]], $x \nless y \vee y \nless x$ holds, which means that the [[inequality relation]] $x \# y$, defined by 
+$$x \# y \coloneqq x \lt y \vee y \lt x$$
+can equivalently be defined using the [[exclusive disjunction]]:
+$$x \# y \coloneqq x \lt y \underline{\vee} y \lt x$$
+Thus, the connectedness axiom can be expressed using exclusive disjunction:
 
-* [[trichotomy]]: exactly one of $x \lt y$, $y \lt x$, $x = y$ is true.
+* if not ($x \lt y$ [[xor]] $y \lt x$), then $x = y$.
+
+In classical mathematics, there are even more options.  Now one can prove [[trichotomy]]: since the proposition $x \lt y \underline{\vee} y \lt x$ is a [[decidable proposition]], ($x \lt y$ [[xor]] $y \lt x$) [[xor]] $x = y$. Also, weak linearity can be dropped, as it follows from transitivity and connectedness.
 
 Thus the most common definition uses only trichotomy and transitivity.
 
