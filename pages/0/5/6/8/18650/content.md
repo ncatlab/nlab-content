@@ -1,6 +1,6 @@
 [[!redirects Ivan di Liberti]]
 
-[Ivan Di Liberti](https://diliberti.github.io) is a postdoc working in categorical logic, topos theory, general category theory and [[formal category theory]]. Academic life: Brno (Ph.D. under [[Jiří Rosický]]), Prague (Postdoc), Stockholm (Postdoc), Gothenburg (Postdoc, ongoing).
+[Ivan Di Liberti](https://diliberti.github.io) is a postdoc working in [[categorical logic]], general category theory and [[formal category theory]].
 
 ## Selected writings
 
