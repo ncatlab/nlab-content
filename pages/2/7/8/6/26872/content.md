@@ -37,7 +37,7 @@ Extensive classical reference is the volume 3 of:
 
 For quantum analogues see
 
-* E. Taft, J. Towber, _Quantum deformation of flag schemes and Grassmann schemes $q$-deformation of the shape-algebra for $GL(n)$_, J. Algebra __142__ (1991), 1-3
+* E. Taft, [[Jacob Towber]], _Quantum deformation of flag schemes and Grassmann schemes $q$-deformation of the shape-algebra for $GL(n)$_, J. Algebra __142__ (1991), 1-3
 
 A fully noncommutative analogue, the quasi-Plücker coordinates, are found within the Retakh-Gelfand work on [[quasideterminant]]s and explained in more detail in
 
