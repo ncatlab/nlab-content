@@ -256,6 +256,9 @@ Application to [[Bose-Einstein condensates]], [[superfluidity]] and [[vortices]]
 
 Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
+* [[Steven S. Gubser]]: *Breaking an Abelian gauge symmetry near a black hole horizon*, Phys. Rev. D **78** 065034 (2008) &lbrack;[arXiv:0801.2977](https://arxiv.org/abs/0801.2977), [doi:10.1103/PhysRevD.78.065034](https://doi.org/10.1103/PhysRevD.78.065034)&rbrack;
+
+
 * [[Sean Hartnoll]], [[Christopher Herzog]], [[Gary Horowitz]]: _Building an AdS/CFT superconductor_, Phys. Rev. Lett. **101** (2008) 031601 &lbrack;[arXiv:0803.3295](https://arxiv.org/abs/0803.3295)&rbrack;
 
 * [[Sean Hartnoll]], [[Christopher Herzog]], [[Gary Horowitz]]: *Holographic Superconductors*, JHEP 0812:015 (2008) &lbrack;[arXiv:0810.1563](https://arxiv.org/abs/0810.1563), [doi:10.1088/1126-6708/2008/12/015](https://doi.org/10.1088/1126-6708/2008/12/015)&rbrack;
