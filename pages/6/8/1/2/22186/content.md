@@ -1,10 +1,10 @@
 [[!redirects L. El Kaoutit]]
-Laiachi El Kaoutit is a _Profesor Titular de Universidad_
+Laiachi El Kaoutit Zerri is a _Profesor Titular de Universidad_
 at the University of Granada, Department of Algebra and the IEMath-Granada.
 
-His interests are in the general areas of [[representation]] theory and [[homological algebra]].
+His main interests are in the general areas of [[representation]] theory, [[Hopf algebra]]s and [[homological algebra]] and applications to algebraic and [[noncommutative algebraic geometry]].
 
-* [Homepage](http://www.ugr.es/~kaoutit/page_web_English.html)
+* [homepage1](http://www.ugr.es/~kaoutit/page_web_English.html), [homepage2](https://www.ugr.es/~kaoutit)
 
 ## Selected papers
 
