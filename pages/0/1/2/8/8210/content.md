@@ -8,7 +8,7 @@ Introducing the dictionary of the [[AdS-CFT correspondence]]:
 
 * {#GubserKlebanovPolyakov98} [[Steven Gubser]], [[Igor Klebanov]], [[Alexander Polyakov]], *Gauge theory correlators from non-critical string theory*, Physics Letters B **428** 105-114 (1998) &lbrack;[hep-th/9802109](http://arxiv.org/abs/hep-th/9802109), <a href="https://doi.org/10.1016/S0370-2693(98)00377-3">doi:10.1016/S0370-2693(98)00377-3</a>&rbrack;
 
-> Relations between gauge fields and strings present an old, fascinating and unanswered question. The full answer to this question is of great importance for theoretical physics. It will provide us with a theory of quark [[confinement]] by explaining the dynamics of color-electric fluxes.
+> "Relations between gauge fields and strings present an old, fascinating and unanswered question. The full answer to this question is of great importance for theoretical physics. It will provide us with a theory of quark [[confinement]] by explaining the dynamics of color-electric fluxes."
 
 comprehensive review:
 
@@ -25,11 +25,14 @@ On [[double trace operators]] in [[AdS/CFT]]:
 
 * [[Steven Gubser]], [[Igor Klebanov]], _A universal result on central charges in the presence of double-trace deformations_, Nucl. Phys. B656 (2003) 23-36 ([arXiv:hep-th/0212138](https://arxiv.org/abs/hep-th/0212138))
 
+Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
+
+* [[Steven S. Gubser]]: *Breaking an Abelian gauge symmetry near a black hole horizon*, Phys. Rev. D **78** 065034 (2008) &lbrack;[arXiv:0801.2977](https://arxiv.org/abs/0801.2977), [doi:10.1103/PhysRevD.78.065034](https://doi.org/10.1103/PhysRevD.78.065034)&rbrack;
+
 On the [[p-adic AdS/CFT correspondence]]:
 
 * [[Steven Gubser]], Johannes Knaute, Sarthak Parikh, Andreas Samberg, Przemek Witaszczyk, _$p$-adic AdS/CFT_ ([arXiv:1605.01061](https://arxiv.org/abs/1605.01061))
-
-  (the [[Bruhat-Tits tree]] as AdS/CFT spacetime]])
+  > (the [[Bruhat-Tits tree]] as an approximation to [[AdS spacetime]])
 
 * [[Steven Gubser]], Sarthak Parikh, _Geodesic bulk diagrams on the Bruhat-Tits tree_ ([arXiv:1704.01149](https://arxiv.org/abs/1704.01149))
 
@@ -43,8 +46,11 @@ Proposed realization of aspects of [[p-adic AdS/CFT correspondence]] in [[solid-
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[p-adic AdS-CFT]]
 
 category: people
+
+[[!redirects Steven S. Gubser]]
+
