@@ -100,7 +100,7 @@ For this reason, many concepts from enriched category theory make sense for modu
 
 * {#McCrudden00} P. McCrudden, *Categories of representations of coalgebroids*, Advances in Mathematics __154__ 2 (2000) 299--332 &lbrack;[doi:10.1006/aima.2000.1926](https://doi.org/10.1006/aima.2000.1926)&rbrack;
 
-* P. Schauenburg, _Actions of monoidal categories and generalized Hopf smash products_, J. Algebra __270__ (2003) 521--563 (remark: actegories with action in the strong monoidal sense)
+* [[Peter Schauenburg]], _Actions of monoidal categories and generalized Hopf smash products_, J. Algebra __270__ (2003) 521--563 (remark: actegories with action in the strong monoidal sense)
 
 * [[Zoran Škoda]], _Distributive laws for actions of monoidal categories_, [arXiv:0406310](https://arxiv.org/abs/math/0406310), _Equivariant monads and equivariant lifts versus a 2-category of distributive laws_, [arXiv:0707.1609](https://arxiv.org/abs/0707.1609)
 
