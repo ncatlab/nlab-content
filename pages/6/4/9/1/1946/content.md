@@ -100,26 +100,51 @@ By the [[universal property]] of ([[colimit|co]])[[limits]] there are evident [[
 \end{definition}
 (e.g. [Hovey (1999), Def. 5.2.2](#Hovey99); [Hirschhorn (2002), Def. 15.2.5](#Hirschhorn02))
 
-\begin{example}\label{LatchingOfSimplicialObjects}
-**(latching of simplicial objects)**
+\begin{example}\label{LatchingAndMatchingOfSimplicialObjects}
+**(latching and matching of simplicial objects)**
 \linebreak
-Consider the case that $\mathcal{R} = \Delta^{op}$ is the [[opposite category|opposite]] [[simplex category]] with its canonical Reedy structure ([here](Reedy+category#ReedyStructureOnSimplexCategory)), where $(\Delta^{op})_+ \,=\, (\Delta_-)^{op}$ is the opposite of the [[surjections]] $[r] \to [r-k]$.
+Consider the case that $\mathcal{R} = \Delta^{op}$ is the [[opposite category|opposite]] [[simplex category]] with its canonical Reedy structure ([here](Reedy+category#ReedyStructureOnSimplexCategory)), where
 
-For $X \colon \Delta^{op} \to \mathcal{C}$ a [[simplicial object]], its value on such a morphism is the corresponding [[degeneracy map]].
+* $(\Delta^{op})_+ \,=\, (\Delta_-)^{op}$ is the opposite of the [[surjections]] $[r] \to [r-k]$,
+* $(\Delta^{op})_- \,=\, (\Delta_+)^{op}$ is the opposite of the [[injections]] $[r-k] \to [r]$.
 
-This means that the [[cocone]] morphism (eq:ComparisonMapsFromLatchingToMatchingObject) out of the the latching object (eq:LatchingObject) has as components in degree $r$ all [inclusions of degenerate simplices](simplicial+identities#DegeneracyMapsAreSplitMono) 
+For $X \colon \Delta^{op} \to \mathcal{C}$ a [[simplicial object]], its value on a surjection is the corresponding [[degeneracy map]], whereas its value on an injection is the corresponding [[face map]].
+
+This means that the [[cocone]] morphism $L_r X \to X_r$ (eq:ComparisonMapsFromLatchingToMatchingObject) out of the the latching object (eq:LatchingObject) has as components in degree $r$ all [inclusions of degenerate simplices](simplicial+identities#DegeneracyMapsAreSplitMono) 
 $$
   X_{r-k} \overset{\phantom{--}}{\hookrightarrow} X_r
 $$
 which $X_r$ receives.
+Hence one may often think of the latching object $L_r X$ as the object of _degenerate_ [[n-simplex|$r$-simplices]] sitting inside the object $X_r$ of all $r$-simplices. Cf. Prop. \ref{EveryBisimplicialSetIsReedyCofibrant} and Prop. \ref{LatchingInAbelianCategoryIsDegeneracySubobject} below.
 
-Hence one may often think of the latching object $L_r X$ of a [[simplicial object]] $X$ as the object of _degenerate_ [[n-simplex|$r$-simplices]] sitting inside the object $X_r$ of all $r$-simplices. Cf. Prop. \ref{EveryBisimplicialSetIsReedyCofibrant} and Prop. \ref{LatchingInAbelianCategoryIsDegeneracySubobject} below.
+Dually, the [[cone]] morphism $X_r \to M_r X$ (eq:ComparisonMapsFromLatchingToMatchingObject) to the matching object has as components in degree $r$ all face maps
+$$X_r \to X_{r-k}$$
+out of $X_r$.
+Hence one may often think of the matching object $M_r X$ as the object of hollow shells of $r$-simplices that are candidates to have a filler in $X_r$, with the map $X_r \to M_r X$ assigning to each $r$-simplex its boundary.
+
+This intuition carries over to presheaves over other Reedy categories, such as cubical and globular sets, with the caveat that $R_+$ and $R_-$ consider _all_ morphisms raising/lowering degree, including e.g. diagonals of cubes.
 \end{example}
 
 \begin{remark}
-Notice that $L_0 X = 0$ is the [[initial object]] and $M_0 X$ is the [[terminal object]], since there are no objects of degree $\lt 0$.
-\end{remark}
+Let $\mathcal{R}_{\lt{}i}$ be the full subcategory of $\mathcal{R}$ on objects of degree strictly less than $i$, and write $I_i^j : \mathcal{R}_{\lt{}i} \to \mathcal{R}_{\lt{}j}$ for the inclusion functor.
 
+Then the functor $(I_i^{i+1})^* : [\mathcal{R}_{\lt{}i+1}, \mathcal{C}] \to [\mathcal{R}_{\lt{}i}, \mathcal{C}]$ forgets the presheaf cells of degree $i$.
+Assuming the latching and matching objects exist, $(I_i^{i+1})^*$ is part of an [[functoriality of categories of presheaves | adjoint triple]], having
+
+* a left adjoint $(I_i^{i+1})_!$ such that
+  * $((I_i^{i+1})_! X)_r = X_r$ for $d(r) \lt{} i$ and
+  * $((I_i^{i+1})_! X)_r = L_r X$ for $d(r) = i$.
+
+  In other words, $(I_i^{i+1})_!$ endows a presheaf with cells of degree $i$ freely, by taking only the degenerate cells.
+
+* a right adjoint $(I_i^{i+1})_{*}$ such that
+  * $((I_i^{i+1})_* X)_r = X_r$ for $d(r) \lt i$ and
+  * $((I_i^{i+1})_* X)_r = M_r X$ for $d(r) = i$.
+
+  In other words, $(I_i^{i+1})_*$ endows a presheaf with cells of degree $i$ cofreely, by assigning every candidate boundary a unique filler.
+
+Notice in particular that $L_0 X = 0$ is the [[initial object]] and $M_0 X = 1$ is the [[terminal object]], since there are no objects of degree $\lt 0$.
+\end{remark}
 
 \begin{example}
 When $\mathcal{R} = \alpha$ is an [[ordinal]] (regarded as a [[poset]] and thus as a [[category]]), then $L_{n+1} X = X_n$ and $M_n X = 1$; and dually for $\mathcal{R}=\alpha^{op}$.
