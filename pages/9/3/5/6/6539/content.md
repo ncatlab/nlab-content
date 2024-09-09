@@ -46,7 +46,7 @@ If $H$ and $K$ are Hopf algebras then the bialgebra pairing is a Hopf pairing if
 
 * MO: [is-a-bialgebra-pairing-of-hopf-algebras-automatically-a-hopf-pairing](https://mathoverflow.net/questions/20666/is-a-bialgebra-pairing-of-hopf-algebras-automatically-a-hopf-pairing), [dual-of-a-hopf-algebra](https://math.stackexchange.com/questions/3324098/dual-of-a-hopf-algebra), [hopf-dual-of-the-hopf-dual](https://mathoverflow.net/questions/308374/hopf-dual-of-the-hopf-dual), [on-reflexive-bialgebras](https://mathoverflow.net/questions/357738/on-reflexive-bialgebras)
 * Stephen Donkin, _On the Hopf algebra dual of an enveloping algebra_, Math. Proc. Camb. Phil. Soc. __91__ (1982) 215-224
-* R. G. Heyneman, D. E. Radford, _Reflexivity and coalgebras of finite type_,J. Alg. __28__ (1974) 215-246 [pdf](https://core.ac.uk/download/pdf/82125553.pdf)
+* R. G. Heyneman, [[David E. Radford]], _Reflexivity and coalgebras of finite type_,J. Alg. __28__ (1974) 215-246 [pdf](https://core.ac.uk/download/pdf/82125553.pdf)
 
 category: algebra
 
