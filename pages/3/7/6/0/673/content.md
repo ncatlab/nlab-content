@@ -21,7 +21,7 @@ I was also a Research Associate at U Adelaide from October 2012 to April 2015.
 
 I have also worked as an applied statistician/survey analyst/data analyst/consultant in the public sector, with 3+ years experience of daily work in the software [SAS](https://en.wikipedia.org/wiki/SAS_%28software%29).
 
-You may also find me on: [MathSciNet](https://www.ams.org/mathscinet/search/author.html?mrauthid=788905), [Google Scholar](https://scholar.google.com.au/citations?user=KGianq8AAAAJ&hl=en), [MathOverflow](https://mathoverflow.net/users/4177/david-roberts), [arXiv](https://arxiv.org/a/roberts_d_1.html), [ORCiD](http://orcid.org/0000-0002-3478-0522), [Publons](https://publons.com/a/430214/), or my blog, [theHigherGeometer](https://thehighergeometer.wordpress.com/).
+You may also find me on: [zbMATH](https://zbmath.org/authors/roberts.david-michael),  [MathSciNet](https://www.ams.org/mathscinet/search/author.html?mrauthid=788905), [Google Scholar](https://scholar.google.com.au/citations?user=KGianq8AAAAJ&hl=en), [MathOverflow](https://mathoverflow.net/users/4177/david-roberts), [arXiv](https://arxiv.org/a/roberts_d_1.html), [ORCiD](http://orcid.org/0000-0002-3478-0522), [Publons](https://publons.com/a/430214/), or my blog, [theHigherGeometer](https://thehighergeometer.wordpress.com/).
 
 If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat prime]])@gmail.[etc] or [first].[last]@adelaide.edu.au
 
