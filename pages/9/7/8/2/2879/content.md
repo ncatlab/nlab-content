@@ -56,6 +56,7 @@ $$
 $$
 (S h_{(1)})_{(1)} h_{(2)}\otimes_A(S h_{(1)})_{(2)} = 1_H\otimes_A S h.
 $$
+Some authors call this concept a "full Hopf algebroid".
 
 ## Examples
 
@@ -68,7 +69,7 @@ Lu (1996) considers this example an analogue of a [[Poisson groupoid]] structure
 
 ### Scalar extension Hopf algebroids
 
-Given a [[Hopf algebra]] $B$ and a braided-commutative algebra $A$ in the category of Yetter-Drinfeld modules over $B$, by a result of Brzezinski-Militaru, the smash product algebra $B\sharp A$ is the total algebra of a Hopf algebroid over $A$. This is a noncommutative generalization (of formal dual of) an [[action groupoid]].
+Given a [[Hopf algebra]] $B$ and a braided-commutative algebra $A$ in the category of [[Yetter-Drinfeld module]]s over $B$, by a result of Brzezinski-Militaru, the smash product algebra $B\sharp A$ is the total algebra of a Hopf algebroid over $A$. This is a noncommutative generalization (of formal dual of) an [[action groupoid]].
 
 This construction is modelled on an earlier variant, first written out by Lu, where $A$ is a braided-commutative algebra in the category of modules over $D(H)$, the [[Drinfeld double]] of $H$.
 
