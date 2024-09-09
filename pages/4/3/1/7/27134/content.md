@@ -1,7 +1,7 @@
 
 ## Idea
 
-Sometimes theorems over an infinite field can be proved by proving associated results on "reductions" over finite fields. 
+Sometimes theorems over an infinite [[field]] can be proved by proving associated results on "reductions" over finite fields. 
 
 ## Literature
 
@@ -27,3 +27,4 @@ category: people
 [[!redirects reduction modulo p]]
 [[!redirects reduction mod p]]
 [[!redirects reduction modulo a prime]]
+[[!redirects reduction modulo prime number]]
