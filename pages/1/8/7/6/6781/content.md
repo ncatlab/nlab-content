@@ -159,7 +159,7 @@ Other articles include
 * V. G. Drinfel&#697;d, _Quasi-Hopf algebras and Knizhnik-Zamolodchikov equations_, Problems of modern quantum field theory (Alushta, 1989), 1&#8211;13, Res. Rep. Phys., Springer 1989.
 
 * [[Shahn Majid]], _Quantum double for quasi-Hopf algebras_, Lett. Math. Phys. __45__ (1998), no. 1, 1&#8211;9, [MR2000b:16077](http://www.ams.org/mathscinet-getitem?mr=1631648), [doi](http://dx.doi.org/10.1023/A:1007450123281), [q-alg/9701002](http://arxiv.org/abs/q-alg/9701002)
-* Peter Schauenburg, _Hopf modules and the double of a quasi-Hopf algebra_, Trans. Amer. Math. Soc. __354__ (2002), 3349-3378 [pdf](http://www.ams.org/journals/tran/2002-354-08/S0002-9947-02-02980-X/S0002-9947-02-02980-X.pdf)
+* [[Peter Schauenburg]], _Hopf modules and the double of a quasi-Hopf algebra_, Trans. Amer. Math. Soc. __354__ (2002), 3349--3378 [pdf](http://www.ams.org/journals/tran/2002-354-08/S0002-9947-02-02980-X/S0002-9947-02-02980-X.pdf)
 * M. Jimbo, H. Konno, S. Odake, J. Shiraishi, _Quasi-Hopf twistors for elliptic quantum groups_, Transformation Groups 4(4), 303–327 (1999) [doi](http://sci-hub.tw/10.1007/BF01238562)
 * Ivan Kobyzev, Ilya Shapiro, _A categorical approach to cyclic cohomology of quasi-Hopf algebras and Hopf algebroids_, Applied Categorical Structures, __27__:1 (2019) 85–109 [doi](https://doi.org/10.1007/s10485-018-9544-0)
 * L Frappat, D Issing, E Ragoucy, _The quantum determinant of the elliptic algebra $\mathcal{A}_{q, p}(\widehat{gl}_N)$_, J. Phys. __A51__:44, [doi](https://doi.org/10.1088/1751-8121/aae296)
