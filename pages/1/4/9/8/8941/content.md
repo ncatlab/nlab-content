@@ -166,9 +166,9 @@ Journal of Algebra __169__:3 (1994) 874--890 [doi](https://doi.org/10.1006/jabr.
 
 * Nicol&#225;s Andruskiewitsch, Istv&#225;n Heckenberger, Hans-J&#252;rgen Schneider, _The Nichols algebra of a semisimple Yetter--Drinfeld module_,  American J. of Math. __132__:6, (2010) 1493--1547 [doi](https://doi.org/10.1353/ajm.2010.0019)
 
-* M. Cohen, D. Fischman, S. Montgomery, _On Yetter&#8211;Drinfeld categories and $H$-commutativity_, Commun. Algebra __27__ (1999) 1321--1345
+* M. Cohen, D. Fischman, [[Susan Montgomery|S. Montgomery]], _On Yetter--Drinfeld categories and $H$-commutativity_, Commun. Algebra __27__ (1999) 1321--1345
 
-* Yukio Doi, _Hopf modules in Yetter--Drinfeld categories_, Commun. Alg. __26__:9, 3057--3070 (1998) [doi](https://doi.org/10.1080/00927879808826327)
+* [[Yukio Doi]], _Hopf modules in Yetter--Drinfeld categories_, Commun. Alg. __26__:9, 3057--3070 (1998) [doi](https://doi.org/10.1080/00927879808826327)
 
 * I. Heckenberger, H.-J. Schneider, _Yetter--Drinfeld modules over bosonizations of dually paired Hopf algebras_, [arXiv:1111.4673](https://arxiv.org/abs/1111.4673)
 
@@ -176,7 +176,7 @@ Journal of Algebra __169__:3 (1994) 874--890 [doi](https://doi.org/10.1006/jabr.
 
 * L. A. Lambe, D. E. Radford, _Algebraic aspects of the quantum Yang–Baxter equation_, J. Algebra 154 (1992) 228--288 [doi](https://doi.org/10.1006/jabr.1993.1014)
 
-* D.E. Radford, J. Towber, _Yetter--Drinfel'd categories associated to an arbitrary bialgebra_, J. Pure Appl. Algebra __87__ (1993), 259--279 [MR94f:16060](http://www.ams.org/mathscinet-getitem?mr=1228157) [doi](https://doi.org/10.1016/0022-4049%2893%2990114-9)
+* D.E. Radford, [[Jacob Towber]], _Yetter--Drinfel'd categories associated to an arbitrary bialgebra_, J. Pure Appl. Algebra __87__ (1993), 259--279 [MR94f:16060](http://www.ams.org/mathscinet-getitem?mr=1228157) [doi](https://doi.org/10.1016/0022-4049%2893%2990114-9)
 
 * [[Georgia Benkart]], Mariana Pereira, Sarah Witherspoon, _Yetter--Drinfeld modules under cocycle twists_, J. Algebra 324:11 (2010) 2990--3006 [arxiv:0908.1563](https://arxiv.org/abs/0908.1563)
 
