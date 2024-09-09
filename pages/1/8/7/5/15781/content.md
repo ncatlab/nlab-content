@@ -33,7 +33,7 @@ differential calculus is introduced in
 
 * Ursula Carow-Watamura, Satoshi Watamura, _Complex quantum group, dual algebra and bicovariant differential calculus_, Comm. Math. Phys. __151__:3 (1993) 487--514 [euclid](http://projecteuclid.org/euclid.cmp/1104252236)
 
-* Peter Schauenburg, _Hopf modules and Yetter--Drinfel&#8242;d modules_, J. Algebra __169__:3 (1994) 874--890 [doi](http://dx.doi.org/10.1006/jabr.1994.1314)
+* [[Peter Schauenburg]], _Hopf modules and Yetter--Drinfel&#8242;d modules_, J. Algebra __169__:3 (1994) 874--890 [doi](https://doi.org/10.1006/jabr.1994.1314)
 
 
 category: algebra 
