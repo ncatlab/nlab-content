@@ -22,6 +22,23 @@ If $M$ is in fact $A^e$-bimodule we define the $A$-bimodule structure on $M\time
 
 Now if $M= R,N = S$ are moreover $A^e$-rings, then they are in particular $A^e$-bimodules. While $R\otimes_A S$ is not carrying a well defined algebra structure, $R\times_A S$ is an associative unital algebra by factorwise multiplication.
 
+Define
+
+$$
+M\times_A P\times_A N = \int_{b,d}\int^{a,c} 
+{}_{a^{op}}M_{b^{op}} \otimes {}_{a,c^{op}} P_{b,d^{op}}\otimes {}_c N_d
+$$
+
+Then there are canonical maps
+$$
+\alpha : (M\times_A P)\times_A N \to 
+M\times_A P\times_A N
+$$
+$$
+\alpha':M\times_A (P\times_A N) \to 
+M\times_A P\times_A N
+$$
+which are not isomorphisms in general.
 ## Properties
 
 As it involves both a limit and a colimit construction, limits commute with limits, colimits with colimits, but not limit with colimits in general, Takeuchi's product is not associative up to isomorphism, hence it does not provide a monoidal category in general. 
