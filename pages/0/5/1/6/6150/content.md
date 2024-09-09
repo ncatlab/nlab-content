@@ -20,6 +20,8 @@ On [[associative bialgebroid]]s and relations to monoidal categories and [[Tanna
 On [[Hopf algebroid]]s
 
 * [[Gabriella Böhm]], [[K. Szlachányi]], _Hopf algebroids with bijective antipodes: axioms, integrals and duals_, Comm. Algebra __32__ (11) (2004) 4433 - 4464 [math.QA/0305136](https://arxiv.org/abs/math.QA/0305136)
+* Imre Bálint, Kornél Szlachányi, _Finitary Galois extensions over noncommutative bases_, Journal of Algebra
+__296__:2 (2006) 520--560 [doi](https://doi.org/10.1016/j.jalgebra.2005.09.023)
 
 On weak Hopf algebras
 
