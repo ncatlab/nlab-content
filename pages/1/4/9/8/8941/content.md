@@ -141,6 +141,8 @@ The most general coefficients for Hopf cyclic cohomology are called stable anti-
 
 ## Literature
 
+### YD modules over Hopf/bi-algebras
+
 * Susan Montgomery, _Hopf algebras and their actions on rings_, 
 CBMS Lecture Notes __82__, AMS 1993, 240p.
 
@@ -183,6 +185,15 @@ Journal of Algebra __169__:3 (1994) 874--890 [doi](https://doi.org/10.1006/jabr.
 * [[Shahn Majid]], Robert Oeckl, _Twisting of quantum differentials and the Planck scale Hopf algebra_, Commun. Math. Phys. __205__, 617--655 (1999)
 
 * Huixiang Chen, Yinhuo Zhang, _Cocycle deformations and Brauer groups_, Comm. Alg. 35:2 (2007) 399--433 [doi](https://doi.org/10.1080/00927870601052422); arXiv v. Cocycle deformation and Brauer group isomorphisms, [arXiv:math/0505003](https://arxiv.org/abs/math/0505003)
+
+### YD modules over Hopf/bi-algebroids
+
+* [[Peter Schauenburg]], _Duals and doubles of quantum groupoids ($\times_R$-Hopf algebras)_, New Trends in Hopf Algebra Theory (La Falda, 1999), Contemp. Math. __267__, Amer. Math. Soc. (2000) 273--299
+
+* Imre Bálint, [[Kornél Szlachányi]], _Finitary Galois extensions over noncommutative bases_, Journal of Algebra
+__296__:2 (2006) 520--560 [doi](https://doi.org/10.1016/j.jalgebra.2005.09.023)
+
+* Xiao Han, _Hopf bimodules and Yetter-Drinfeld modules of Hopf algebroids_, [arXiv:2312.03595](https://arxiv.org/abs/2312.03595)
 
 category: algebra
 
