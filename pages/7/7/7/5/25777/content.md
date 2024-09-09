@@ -59,4 +59,4 @@ See also
 
 * [[T. Brzeziński]], G. Militaru, _Bialgebroids, $\times_{R}$-bialgebras and duality_, J. Algebra 251: 279-294, 2002, [math.QA/0012164](http://arxiv.org/abs/math/0012164)
 
-* P. Schauenburg, _Bialgebras over noncommutative rings and a structure theorem for Hopf bimodules_, Appl. Categ. Structures __6__ (1998), 193&#8211;222, [ps](http://www.mathematik.uni-muenchen.de/%7Eschauen/papers/bnrsthb.ps) [doi](http://dx.doi.org/10.1023/A:1008608028634)
+* [[Peter Schauenburg]], _Bialgebras over noncommutative rings and a structure theorem for Hopf bimodules_, Appl. Categ. Structures __6__ (1998) 193--222, [ps](http://www.mathematik.uni-muenchen.de/%7Eschauen/papers/bnrsthb.ps) [doi](https://doi.org/10.1023/A:1008608028634)
