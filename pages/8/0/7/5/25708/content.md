@@ -11,6 +11,9 @@ On a generalization of [[coproducts]] to [[colimits]] over certain [[diagrams]] 
 
 * [[Hongde Hu]], [[Walter Tholen]], *Quasi-coproducts and accessible categories with wide pullbacks*, Appl Categor Struct **4** (1996) 387–402 &lbrack;[doi:10.1007/BF00122686](https://doi.org/10.1007/BF00122686)&rbrack;
 
+On coherence completion:
+
+* [[Hongde Hu]], [[Andre Joyal]], *Coherence completions of categories*,  Theoretical Computer Science 227 (1999) 153–184.
 
 category: people
 
