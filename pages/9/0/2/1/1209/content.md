@@ -84,7 +84,7 @@ As far as compatibility with tensor product is concerned, there is a notion of a
 
 Szlach&#225;nyi uses earlier analysis of 
 
-* P. Schauenburg, _Bialgebras over noncommutative rings, and a structure theorem for Hopf bimodules_, Applied Categorical Structures __6__, 193-222 (1998) [doi](http://dx.doi.org/10.1023/A:1008608028634)
+* [[Peter Schauenburg]], _Bialgebras over noncommutative rings, and a structure theorem for Hopf bimodules_, Applied Categorical Structures __6__, 193--222 (1998) [doi](http://dx.doi.org/10.1023/A:1008608028634)
 
 * H.E. Porst, _On categories of monoids, comonoids and bimonoids_, Quaest. Math. __31__ (2008) 127-139 [MR2010d:18010](http://www.ams.org/mathscinet-getitem?mr=2529129) [doi](http://dx.doi.org/10.2989/QM.2008.31.2.2.474) 
 
