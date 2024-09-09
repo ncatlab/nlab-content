@@ -181,7 +181,11 @@ Some special cases of finite duals are treated in
 
 Duals of corings are used in
 
-* [[Stefaan Caenepeel]], D. Quinn, S. Raianu, _Duality for finite Hopf algebras explained by corings_. Appl. Categor. Struct. 14 (2006) 531--537
+* [[Stefaan Caenepeel]], D. Quinn, S. Raianu, _Duality for finite Hopf algebras explained by corings_, Appl. Categor. Struct. 14 (2006) 531--537 [doi](https://doi.org/10.1007/s10485-006-9046-3)
+
+Duals of [[Hopf algebroid]]s (under certain conditions) are studied in
+
+* [[Peter Schauenburg]], _The dual and the double of a Hopf algebroid are Hopf algebroids_, Appl. Categ. Struct. __25__ (2017) 147--154 [doi](https://doi.org/10.1007/s10485-015-9418-7) [arXiv:1504.05057](https://arxiv.org/abs/1504.05057)
 
 category: algebra
 
