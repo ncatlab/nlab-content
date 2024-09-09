@@ -19,8 +19,10 @@ On [[AdS/CFT duality]]:
 
 Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
-* [[Sean Hartnoll]], [[Christopher Herzog]], [[Gary 
- Horowitz]], _Building an AdS/CFT superconductor_, Phys. Rev. Lett. 101:031601, 2008 ([arXiv:0803.3295](https://arxiv.org/abs/0803.3295))
+
+* [[Sean Hartnoll]], [[Christopher Herzog]], [[Gary Horowitz]]: _Building an AdS/CFT superconductor_, Phys. Rev. Lett. **101** (2008) 031601 &lbrack;[arXiv:0803.3295](https://arxiv.org/abs/0803.3295)&rbrack;
+
+* [[Sean Hartnoll]], [[Christopher Herzog]], [[Gary Horowitz]]: *Holographic Superconductors*, JHEP 0812:015 (2008) &lbrack;[arXiv:0810.1563](https://arxiv.org/abs/0810.1563), [doi:10.1088/1126-6708/2008/12/015](https://doi.org/10.1088/1126-6708/2008/12/015)&rbrack;
 
 
 On the [[cosmic censorship hypothesis]] and the [[weak gravity conjecture]]:
@@ -28,7 +30,7 @@ On the [[cosmic censorship hypothesis]] and the [[weak gravity conjecture]]:
 * {#HorowitzSantos19} [[Gary Horowitz]], [[Jorge Santos]], _Further evidence for the weak gravity - cosmic censorship connection_ ([arXiv:1901.11096](https://arxiv.org/abs/1901.11096))
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[universal spacetime]]
 
