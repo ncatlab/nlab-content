@@ -2443,11 +2443,21 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 * 02 Sep 2024
 
-  Nouhaila Innan (CQTS, NYUAD): 
+  [Nouhaila Innan](https://sites.google.com/view/nouhailainnan) (CQTS, NYUAD): 
 
   **Quantum Machine Learning for Advanced AI: Development and Application Across Diverse Domains**
 
   > As the demand for more sophisticated computational tools grows, [[quantum machine learning|Quantum Machine Learning]] (QML) emerges as a potential solution, combining the strengths of [[machine learning|Machine Learning]] (ML) and [[quantum computing|Quantum Computing]] (QC) to push the boundaries of what is computationally possible. This exploration takes a deep dive into advanced QML models, such as quantum neural networks, and provides an extensive overview of fundamental data encoding techniques essential for translating classical data into quantum states. Building on these foundational elements, Quantum Federated Learning (QFL) is introduced as a novel approach that enhances privacy and security in decentralized systems by integrating federated learning with quantum principles. The discussion also covers potential applications in finance and cybersecurity, showcasing the significant impact QML could have on these sectors. This talk highlights the considerable potential of QML as a key enabler of advanced artificial intelligence, emphasizing its role in driving innovation across various domains.
+
+\linebreak
+
+* {#SadasivanSep2024} 09 Sep 2024
+ 
+  [Sajith Sadasivan](https://www.asifequbal.com/team/sajith-v-sadasivan) (CQTS, NYUAD)
+
+  **Role of Quantum Coherences in Integrated Solid Effect DNP**
+
+  > [[quantum sensing|Quantum sensing]] using magnetic resonance techniques, such as [[NMR|Nuclear Magnetic Resonance]] (NMR), Magnetic Resonance Imaging (MRI), etc. utilizes the [[quantum physics|quantum]] properties of the [[nucleus|nuclear]] [[spins]] to explore the structural and dynamical characteristics of [[molecules]]. This makes it a powerful tool for materials science, biomedical, and quantum technology applications. However, these techniques suffer from an inherent low signal sensitivity. A hyperpolarization method known as Dynamic Nuclear Polarization (DNP) enhances the sensitivity of NMR and MRI by transferring polarization from electron spins to nuclear spins. The traditional DNP methods face challenges in efficiently polarizing systems with broad Electron Paramagnetic Resonance (EPR) lines. To overcome this limitation, Integrated Solid Effect (ISE) DNP is widely used for improved polarization transfer efficiency. Despite its broad application, the role of quantum coherences in ISE DNP remains poorly understood. The quantum coherences generated during electron-nucleus Double-Quantum (DQ) and Zero-Quantum (ZQ) transitions are crucial for maximizing DNP efficiency. Using density matrix formalism, we provide a detailed analysis of quantum coherences in the ZQ and DQ subspaces, as well as the electron's Single-Quantum (SQ) basis, revealing their impact on ISE DNP. Our findings offer new insights into utilizing room-temperature hyperpolarization in biomedical applications.
 
 
 ***
