@@ -71,5 +71,3 @@ Discussion in [[homotopy type theory]]:
 [[!redirects unique up to unique coherent isomorphism]]
 [[!redirects unique up to unique equivalence]]
 [[!redirects unique up to unique coherent equivalence]]
-
-[Spanish Version](https://chicksgold.com/blog/generalized-the) by [ChicksGold](https://chicksgold.com).
