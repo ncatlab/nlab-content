@@ -37,6 +37,10 @@ On [[dark matter]]:
 
 * Marco Cirelli, [[Alessandro Strumia]], Jure Zupan, *Dark Matter* &lbrack;[arXiv:2406.01705](https://arxiv.org/abs/2406.01705)&rbrack;
 
+Discussion of possible [[experiment|experimental]] signatures via [[gravitational waves]] of primordial [[cosmology|cosmic]] [[electroweak symmetry breaking]]:
+
+* Martín Arteaga, Anish Ghoshal, [[Alessandro Strumia]]: *Gravitational waves and black holes from the phase transition in models of dynamical symmetry breaking* &lbrack;[arXiv:2409.04545](https://arxiv.org/abs/2409.04545)&rbrack;
+
 
 
 ## Related entries
