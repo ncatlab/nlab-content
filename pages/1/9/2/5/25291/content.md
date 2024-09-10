@@ -8,6 +8,7 @@ Sometimes, the smooth manifold of morphisms is allowed to have a boundary, in wh
 ## Related concepts
 
 * [[Lie groupoid]], [[internal category]]
+* [[Lie group]], [[Lie monoid]]
 
 ## References
 
