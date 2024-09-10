@@ -52,7 +52,12 @@ and including beyond the [[pion]] also the [[rho-meson]]:
 
   APS Synopsis: _[Revamping the Skyrmion Model](https://physics.aps.org/synopsis-for/10.1103/PhysRevLett.121.232002)_, 2018 
 
-## Related $n$Lab entries
+More on [[Skyrmions]]:
+
+* [[Paul Sutcliffe]]: *JNR Skyrmions* &lbrack;[arXiv:2409.05058](https://arxiv.org/abs/2409.05058)&rbrack;
+
+
+## Related entries
 
 * [[Yang-Mills monopoles]]
 
