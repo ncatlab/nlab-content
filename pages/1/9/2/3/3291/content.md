@@ -2,9 +2,9 @@
 
 Some works of relevance for the $n$lab:
 
-* J. Bernstein, V. Lunts, _On nonholonomic irreducible D-modules_, Invent. Math. __94__, (1988), no. 2, 223--243 [doi](https://doi.org/10.1007/BF01394325)
+* [[Joseph Bernstein]], V. Lunts, _On nonholonomic irreducible D-modules_, Invent. Math. __94__, (1988), no. 2, 223--243 [doi](https://doi.org/10.1007/BF01394325)
 
-* J. Bernstein, V. Lunts, _Equivariant sheaves and functors_, Springer Lecture Notes in Math. __1578__ (1994) MR 95k:55012
+* [[Joseph Bernstein]], V. Lunts, _Equivariant sheaves and functors_, Springer Lecture Notes in Math. __1578__ (1994) MR 95k:55012
 
 * V. A. Lunts, [[Dmitri Orlov|D. O. Orlov]], _Uniqueness of enhancement for triangulated categories_, J. Amer. Math. Soc. __23__  (2010), 853-908, [journal](http://www.ams.org/journals/jams/2010-23-03/S0894-0347-10-00664-8/home.html), [arXiv:0908.4187](http://arxiv.org/abs/0908.4187), [doi](https://doi.org/10.1090/S0894-0347-10-00664-8)
 
