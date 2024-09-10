@@ -1,6 +1,6 @@
 
 
-* [Memorial Page](https://ivv5hpp.uni-muenster.de/u/douplii/volkov/)
+* [Memorial Page](https://www.uni-muenster.de/IT.StepanDouplii/old/volkov)
 
 * [obituary](http://www.kipt.kharkov.ua/conferences/itp/DV2000/dvbiogr.html)
 
@@ -10,7 +10,8 @@
 
 * A.S. Bakai, S. V. Peletminskii, N.F. Shul'ga, Yu.V. Slyusarenko, D.V. Uvarov, A.A. Zheltukhin, _To the 90-th anniversary of Dmitry Vasilievich Volkov's birthday_, Ukrainian Journal of Physics v.60 N7 (2015) 675-677 ([arXiv:1506.03003](https://arxiv.org/abs/1506.03003))
 
-* [[Steven Duplij]], _Supergravity was discovered by D.V. Volkov and V.A. Soroka in 1973, wasn't it?_, East Eur. J. Phys. p. 81-82 (2019) ([arXiv:1910.03259](https://arxiv.org/abs/1910.03259))
+* [[Steven Duplij]], _Supergravity was discovered by D.V. Volkov and V.A. Soroka in 1973, wasn't it?_, East Eur. J. Phys. p. 81-82 (2019) 
+([Journal version](https://periodicals.karazin.ua/eejp/article/view/14364)),  ([arXiv:1910.03259](https://arxiv.org/abs/1910.03259))
 
 
 ## Selected writings:
