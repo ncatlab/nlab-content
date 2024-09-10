@@ -151,7 +151,12 @@ On holographic description of [[phonon]] gases in non-merallic [[crystals]]:
 
 On holographic description of quantum [[spin chains]]:
 
-* Naoto Yokoi, Yasuyuki Oikawa, Eiji Saitoh, *Holographic Dual of Quantum Spin Chain as Chern-Simons-Scalar Theory* &lbrack;[arXiv:2310.01890](https://arxiv.org/abs/2310.01890)&rbrack:
+* Naoto Yokoi, Yasuyuki Oikawa, Eiji Saitoh, *Holographic Dual of Quantum Spin Chain as Chern-Simons-Scalar Theory* &lbrack;[arXiv:2310.01890](https://arxiv.org/abs/2310.01890)&rbrack;
+
+On [[phase transitions]]:
+
+* [[Matti Järvinen]], [[Elias Kiritsis]], Francesco Nitti, Edwan Préau: *Phases and Phase transitions of $U(1) \times SU(2)$ symmetric holographic matter* &lbrack;[arXiv:2409.04630](https://arxiv.org/abs/2409.04630)&rbrack;
+
 
 
 
