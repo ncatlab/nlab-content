@@ -37,6 +37,10 @@ On the [[chiral anomaly]] IN [[QCD]] via [[holographic QCD]]:
 
 * Domingo Gallegos, [[Matti Järvinen]], Eamonn Weitz, *Chiral Separation Effect from Holographic QCD* &lbrack;[arXiv:2406.07617](https://arxiv.org/abs/2406.07617)&rbrack;
 
+On [[phase transitions]] in [[AdS-CMT|holographic condensed matter]]:
+
+* [[Matti Järvinen]], [[Elias Kiritsis]], Francesco Nitti, Edwan Préau: *Phases and Phase transitions of $U(1) \times SU(2)$ symmetric holographic matter* &lbrack;[arXiv:2409.04630](https://arxiv.org/abs/2409.04630)&rbrack;
+
 
 
 
