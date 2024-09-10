@@ -181,6 +181,8 @@ The [[exceptional Lie groups]] incude
 
 * [[semisimple Lie group]], [[simple Lie group]], [[exceptional Lie group]]
 
+* [[Lie monoid]], [[Lie groupoid]], [[Lie category]]
+
 * [[real form]]
 
 * [[compact Lie group]], [[maximal compact subgroup]]
