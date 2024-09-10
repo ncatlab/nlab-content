@@ -1,8 +1,8 @@
 
-* [memorial page](http://ivv5hpp.uni-muenster.de/u/douplii/soroka)
+* [Memorial page](https://www.uni-muenster.de/IT.StepanDouplii/old/soroka)
 
 
-* [[Steven Duplij]], _Supergravity was discovered by D.V. Volkov and V.A. Soroka in 1973, wasn't it?_, East Eur. J. Phys., v3, p. 81-82 (2019) ([arXiv:1910.03259](https://arxiv.org/abs/1910.03259))
+* [[Steven Duplij]], _Supergravity was discovered by D.V. Volkov and V.A. Soroka in 1973, wasn't it?_, East Eur. J. Phys., v3, p. 81-82 (2019) ([Journal version](https://periodicals.karazin.ua/eejp/article/view/14364)), ([arXiv:1910.03259](https://arxiv.org/abs/1910.03259))
 
 ## Selected writings
 
