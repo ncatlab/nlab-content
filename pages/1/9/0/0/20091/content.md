@@ -37,7 +37,7 @@ On [[Skyrmions]] via [[rational maps]] from the [[complex plane]], hence [[holom
 
 Introducing the [[Atiyah-Sutcliffe conjecture]]:
 
-* [[Michael F. Atiyah]], [[Paul M. Sutcliffe]], _The geometry of point particles_, Proc. Roy. Soc. London Ser. A 458 (2002), 1089–1115 ([hep-th/0105179](https://arxiv.org/abs/hep-th/0105179), [doi:10.1098/rspa.2001.0913](https://doi.org/10.1098/rspa.2001.0913))
+* {#AtiyahSutcliffe02} [[Michael F. Atiyah]], [[Paul M. Sutcliffe]], _The geometry of point particles_, Proc. Roy. Soc. London Ser. A 458 (2002) 1089--1115 (arXiv:[hep-th/0105179](https://arxiv.org/abs/hep-th/0105179), [doi:10.1098/rspa.2001.0913](https://doi.org/10.1098/rspa.2001.0913))
 
 
 On [[skyrmions]] as [[model (in theoretical physics)|models]] of [[atomic nuclei]]:
