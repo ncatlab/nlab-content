@@ -34,9 +34,9 @@ Periods appear in a number of situations in classical algebraic geometry. Specif
 
 ## References
 
-Overview
+Overview:
 
-* [Claire Voisin]], _From Analysis situs to the theory of periods_, lecture at Inst. Henri Poincaré, 2013 [yt](https://www.youtube.com/watch?v=8RIqZX4hKqs)
+* [[Claire Voisin]], _From Analysis situs to the theory of periods_, lecture at Inst. Henri Poincaré (2013) &lbrack;[yt](https://www.youtube.com/watch?v=8RIqZX4hKqs)&rbrack;
 
 ## In differential geometry
 
