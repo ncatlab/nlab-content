@@ -38,10 +38,17 @@ $$
 \alpha':M\times_A (P\times_A N) \to 
 M\times_A P\times_A N
 $$
-which are not isomorphisms in general.
+which are not isomorphisms in general. 
+
+
 ## Properties
 
 As it involves both a limit and a colimit construction, limits commute with limits, colimits with colimits, but not limit with colimits in general, Takeuchi's product is not associative up to isomorphism, hence it does not provide a monoidal category in general. 
+
+Takeuchi proves some sufficient conditions 
+singling out a class of bimodules 
+for which the morphisms $\alpha$ and $\alpha'$ 
+above have the same image, effectively having the associativity in this class. 
 
 ## Applications
 
@@ -49,9 +56,9 @@ Takeuchi product is used in the theory of associative [[bialgebroid]]s over a no
 
 ## Literature
 
-* [[Mitsuhiro Takeuchi]], _Groups of algebras over $A \times \bar{A}$, J. Math. Soc. Japan __29__, 459&#8211;492, 1977, [MR0506407](http://www.ams.org/mathscinet-getitem?mr=0506407), [euclid](http://projecteuclid.org/euclid.jmsj/1240432948)
+* [[Mitsuhiro Takeuchi]], _Groups of algebras over $A \times \bar{A}$, J. Math. Soc. Japan __29__, 459--492, 1977, [MR0506407](http://www.ams.org/mathscinet-getitem?mr=0506407), [euclid](http://projecteuclid.org/euclid.jmsj/1240432948)
 * [[M. E. Sweedler]], _Groups of simple algebras_, Publ. IHES __44__, 79--189, [MR51:587](http://www.ams.org/mathscinet-getitem?mr=51:587), [numdam](http://www.numdam.org/item?id=PMIHES_1974__44__79_0)
-* [[T. Brzeziński]], G. Militaru, _Bialgebroids, $\times_{R}$-bialgebras and duality_, J. Algebra 251: 279-294, 2002, [math.QA/0012164](http://arxiv.org/abs/math/0012164)
+* [[Tomasz Brzeziński]], [[Gigel Militaru]], _Bialgebroids, $\times_{R}$-bialgebras and duality_, J. Algebra 251: 279-294, 2002, [math.QA/0012164](http://arxiv.org/abs/math/0012164)
 * [[Peter Schauenburg]], _Bialgebras over noncommutative rings and a structure theorem for Hopf bimodules_, Appl. Categ. Structures __6__ (1998), 193--222, [ps](http://www.mathematik.uni-muenchen.de/%7Eschauen/papers/bnrsthb.ps) [doi](https://doi.org/10.1023/A:1008608028634)
 
 category: algebra
