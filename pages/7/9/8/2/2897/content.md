@@ -34,6 +34,10 @@ Periods appear in a number of situations in classical algebraic geometry. Specif
 
 ## References
 
+Overview
+
+* [Claire Voisin]], _From Analysis situs to the theory of periods_, lecture at Inst. Henri Poincaré, 2013 [yt](https://www.youtube.com/watch?v=8RIqZX4hKqs)
+
 ## In differential geometry
 
 * [[Georges de Rham]], p. 135 of: *Differentiable Manifolds -- Forms, Currents, Harmonic Forms*, Grundlehren **266**, Springer (1984) &lbrack;[doi:10.1007/978-3-642-61752-2](https://doi.org/10.1007/978-3-642-61752-2)&rbrack;
