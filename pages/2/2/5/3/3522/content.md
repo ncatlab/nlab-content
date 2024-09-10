@@ -194,7 +194,7 @@ The following dictionary indicates what the correspondence between the two subje
   power series.
 
   If $f(x)=a_1 x+a_2 x^2 + \cdots$, 
-  then $f(x)/x= a_1+a_1 x^2+ \cdots $
+  then $f(x)/x= a_1+a_2 x+ \cdots $
 
   Similarly, the loop space functor is shifting down 
   the homotopy groups
