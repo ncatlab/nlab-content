@@ -115,9 +115,9 @@ $$
   \,.
 $$
 
-We call the unique solution $u $ of this differential equation that satisfies $u(0) = e$ the [[parallel transport]] of $A$ and write it $u = P \exp(\int_0^{(-)} A)$.
+We call the unique solution $u $ of this differential equation that satisfies $u(0) = e$ the [[parallel transport]] of $A$ and write it $u = P \exp\big(\int_0^{(-)} A\big)$.
 
-Now for $g : \mathbb{R} \to G$ a function, the _gauge transformed_ parallel transport is
+Now for $g \colon \mathbb{R} \to G$ a function, the _gauge transformed_ parallel transport is
 
 $$
   g^{-1} P \exp(\int_0^{(-)} A) g
@@ -136,6 +136,88 @@ $$
   A' = g^{-1}A g + g^{-1} d g
   \,.
 $$
+
+### In coordinates under the exponential map
+ {#InCoordinatesUnderExponentialMap}
+
+Any choice of [[linear basis]] $\mathfrak{g} \;\simeq\; \mathbb{R}\big\langle (T_i)_{i \in I} \big\rangle$ for the [[Lie algebra]] $\mathfrak{g}$ of the given [[Lie group]] $G$ induces linear [[coordinate functions]] $(x^i)_{i \in I}$ on the [[Cartesian space]] [[underlying]] $\mathfrak{g}$, with points parameterized as
+$$
+  x^i T_i \,\in\, \mathfrak{g}
+$$
+
+(where we use the [[Einstein summation convention]] throughout). In terms of these coordinates, the [[pullback of differential forms|pullback]] $(e^i)_{i \in I}$ of the Maurer-Cartan form along the [[exponential map]] $exp \,\colon\, \mathfrak{g} \longrightarrow G$
+at any point $X = x^i T_i$ is (by [Helgason 2001, Thm. 7.4](#Helgason01))
+$$
+    e^i
+    \;=\;
+    \mathrm{d}x^i
+    \left(
+      \frac
+        {1 - exp(- ad X)}
+        {ad X}
+      (\partial_k)
+    \right)
+    \mathrm{d}x^k
+$$
+where (by [ibid, p. 36](#Helgason01))
+$$
+  \frac{1 - exp(-A)}{ A }
+  \;\;
+  \coloneqq
+  \;\;
+  \sum_{n=0}^\infty
+  \tfrac{1}{(n+1)!}
+  (-A)^n
+  \,.
+$$
+(for $A \colon \mathfrak{g} \to \mathfrak{g}$ any [[linear map|linear]] [[endomorphism]]) so that:
+$$
+  e^i
+  \;=\;
+  \mathrm{d}x^i
+  \left(
+    \textstyle{
+      \sum_{n = 0}^\infty
+    }
+    \tfrac{1}{(n+1)!}
+    (
+      - ad X
+    )^n
+    (\partial_k)
+  \right)
+  \mathrm{d}x^k
+  \,.
+$$
+
+Unwinding this with 
+$$
+  (ad X)
+  \;=\;
+  \big(
+    x^j
+    f^\bullet_{j \bullet}
+  \big)
+  \,,
+$$
+(where $f^i_{j k} \in \mathbb{R}$ denote the structure constants in the given basis, such that $[X_j, X_k] = f^i_{j k} X_i$)
+we get:
+$$
+  e^i
+    \;=\;
+  \mathrm{d}x^i
+  -
+  \tfrac{1}{2}
+  f^i_{j k}x^j \mathrm{d}x^k
+  +
+  \tfrac{1}{6}
+  f^i_{j k'}
+  f^{k'}_{k l}
+  x^j x^k \mathrm{d}x^l
+  + 
+  \cdots
+  \,.
+$$
+
 
 
 ## On smooth $\infty$-groups {#OnInftyLieGroup}
@@ -237,6 +319,10 @@ Discussion in [[synthetic differential geometry]]:
 Discussion via [[Lie algebroids]] and [[Lie groupoids]]:
 
 * Anthony D. Blaom, *A Characterisation of Smooth Maps into a Homogeneous Space*, SIGMA **18** (2022) 029 &lbrack;[arXiv:1702.02717](https://arxiv.org/abs/1702.02717), [doi:10.3842/SIGMA.2022.029](https://doi.org/10.3842/SIGMA.2022.029)&rbrack;
+
+Expression of the Maurer-Cartan form in linear [[coordinates]] on the [[Lie algebra]] $\mathfrak{g}$ after [[pullback of differential forms|pullback]] along the [[exponential map]] $exp \colon \mathfrak{g} \longrightarrow G$:
+
+* {#Helgason01} [[Sigurdur Helgason]], §I.8 in: *Differential geometry, Lie groups and symmetric spaces*, Graduate Studies in Mathematics **34** (2001) \[<a href="https://bookstore.ams.org/gsm-34">ams:gsm-34</a>\]
 
 
 
