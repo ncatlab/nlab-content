@@ -513,9 +513,9 @@ Standard textbook accounts:
 
 * {#Lounesto} [[Pertti Lounesto]], _Clifford  Algebras and Spinors_, London Mathematical Society **286**, Cambridge University Press (2001) &lbrack;[doi:10.1017/CBO9780511526022](https://doi.org/10.1017/CBO9780511526022)&rbrack;
 
-See also
+See also:
 
-* [[Eckhard Meinrenken]], *Clifford algebras and Lie groups*, Ergebn. Mathem. & Grenzgeb., Springer (2013) &lbrack;[doi:10.1007/978-3-642-36216-3](https://doi.org/10.1007/978-3-642-36216-3)&rbrack;
+* [[Eckhard Meinrenken]]: *Clifford algebras and Lie groups*, Ergebn. Mathem. & Grenzgeb., Springer (2013) &lbrack;[doi:10.1007/978-3-642-36216-3](https://doi.org/10.1007/978-3-642-36216-3)&rbrack;
 
 
 
