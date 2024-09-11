@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $\infty$-Lie theory
+#### Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
@@ -299,7 +299,7 @@ and
 
 Further early discussion: 
 
-* {#Schur1891} [[Friedrich Schur]]: (16) in: *Zur Theorie der endlichen Transformationsgruppen*, Math. Ann. **38** (1891) 263–286 &lbrack;[doi:10.1007/BF01199254](https://doi.org/10.1007/BF01199254)&rbrack;
+* {#Schur1891} [[Friedrich Schur]], around (16) in: *Zur Theorie der endlichen Transformationsgruppen*, Math. Ann. **38** (1891) 263–286 &lbrack;[doi:10.1007/BF01199254](https://doi.org/10.1007/BF01199254)&rbrack;
 
 Introductions in the broader context of [[Cartan geometry]]:
 
