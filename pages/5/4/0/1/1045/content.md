@@ -80,7 +80,7 @@ $$
 
 (Recall the notation for the [[comma category]] $(Y,A) \;\coloneqq\; (Y, const_A)$ whose objects are pairs $(U \in C, (Y(U) \to A) \in [C^{op}, Set] )$.
 
-For the full extension $\hat F : [C^{op}, Set] \to [D^{op}. Set]$ this yields
+For the full extension $\hat F : [C^{op}, Set] \to [D^{op}, Set]$ this yields
 
 $$
   \begin{aligned}
