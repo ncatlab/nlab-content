@@ -25,3 +25,5 @@ See also:
 
 [[!redirects Frobenius manifolds]]
 
+[[!redirects Dubrovin-Frobenius manifold]]
+[[!redirects Dubrovin-Frobenius manifolds]]
