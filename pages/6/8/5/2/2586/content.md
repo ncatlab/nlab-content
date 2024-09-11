@@ -205,7 +205,7 @@ We have
 
   * [[Spin(3)]] $\simeq Sp(1) \simeq SU(2) \simeq S^3$ (the [[special unitary group]] [[SU(2)]]
 
-    the inclusion $Spin(2) \hookrightarrow Spin(3)$ corresponds to the canonical $S^1 \hookrightarrow S^3$ (see e.g. [Gorbunov-Ray 92](#GorbunovRay92))
+    the inclusion $Spin(2) \hookrightarrow Spin(3)$ corresponds to the canonical $S^1 \hookrightarrow S^3$ (see e.g. [Gorbounov-Ray 92](#GorbounovRay92))
 
   * [[Spin(4)]] $\simeq Sp(1)\times Sp(1) \simeq S^3 \times S^3$
 
@@ -307,9 +307,12 @@ Textbook accounts:
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], chapter I, section 2 of _[[Spin geometry]]_, Princeton University Press (1989)
 
-* [[Howard Georgi]], §21 & 22 in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+* [[Eckhard Meinrenken]]: *Clifford algebras and Lie groups*, Ergebn. Mathem. & Grenzgeb., Springer (2013) &lbrack;[doi:10.1007/978-3-642-36216-3](https://doi.org/10.1007/978-3-642-36216-3)&rbrack;
 
-  > with an eye towards application to [[spinors]] in (the [[standard model of particle physics|standard model]] of) [[particle physics]]
+* [[Howard Georgi]], §21 & 22 in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+  > (with an eye towards application to [[spinors]] in (the [[standard model of particle physics|standard model]] of) [[particle physics]])
+
+
 
 
 See also
@@ -324,7 +327,7 @@ Examples of sporadic (exceptional) spin group isomorphisms incarnated as [[isoge
 
 * {#Garrett13} [[Paul Garrett]], _Sporadic isogenies to orthogonal groups_ (July 2013) &lbrack;[pdf](http://www.math.umn.edu/~garrett/m/v/sporadic_isogenies.pdf), [[Garrett-SporadicIsogenies.pdf:file]] &rbrack;
  
-* {#GorbunovRay92} [[Vassily Gorbunov]], [[Nigel Ray]], _Orientations of $Spin$ Bundles and Symplectic Cobordism_, Publ. RIMS, Kyoto Univ. 28 (1992), 39-55 ([[GorbunovRaySpinBundles.pdf:file]], [doi: 10.2977/prims/1195168855](https://www.ems-ph.org/journals/show_abstract.php?issn=0034-5318&vol=28&iss=1&rank=4))
+* {#GorbounovRay92} [[Vassily Gorbounov]], [[Nigel Ray]], _Orientations of $Spin$ Bundles and Symplectic Cobordism_, Publ. RIMS, Kyoto Univ. 28 (1992), 39-55 ([[GorbunovRaySpinBundles.pdf:file]], [doi: 10.2977/prims/1195168855](https://www.ems-ph.org/journals/show_abstract.php?issn=0034-5318&vol=28&iss=1&rank=4))
 
 The [[exceptional isomorphism]] [[Spin(5)]] $\simeq$ [[Sp(2)]] is discussed via [[triality]] in 
 
