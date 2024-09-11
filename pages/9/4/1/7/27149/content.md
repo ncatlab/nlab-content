@@ -1,12 +1,19 @@
-_Friedrich Schur_ was a mathematician at the end of 19th and beginning of 20th century working on differential geometry and Lie groups. He proved the formula for the differential of the exponential map for Lie groups. 
 
-Do not confuse with algebraist [[Issai Schur]].
+> Not to be confused with [[algebra|algebraist]] [[Issai Schur]].
+
+
+_Friedrich Schur_ was a mathematician at the end of 19th and beginning of 20th century working on [[differential geometry]] and [[Lie groups]]. He proved the formula for the differential of the [[exponential map]] for [[Lie groups]]. 
+
+* [Wikipedia entry](https://de.wikipedia.org/wiki/Friedrich_Schur)
+
 
 ## Selected works
 
-The differential of the exponential map is computed explicitly in
+Early discussion of [[Lie theory]] ([[Maurer-Cartan form]], [[exponential map]], ...)
 
-* Friedrich Schur, _Zur Theorie der endlichen Transformationsgruppen_, Abh. Math. Sem. Univ. Hamburg, 4: 15--32 (1891) [doi](https://doi.org/10.1007/BF01199254)
+* [[Friedrich Schur]]: (16) in: *Zur Theorie der endlichen Transformationsgruppen*, Math. Ann. **38** (1891) 263–286 &lbrack;[doi:10.1007/BF01199254](https://doi.org/10.1007/BF01199254)&rbrack;
+
+
 
 category: people
 
