@@ -318,12 +318,13 @@ Discussion in [[synthetic differential geometry]]:
 
 Discussion via [[Lie algebroids]] and [[Lie groupoids]]:
 
-* Anthony D. Blaom, *A Characterisation of Smooth Maps into a Homogeneous Space*, SIGMA **18** (2022) 029 &lbrack;[arXiv:1702.02717](https://arxiv.org/abs/1702.02717), [doi:10.3842/SIGMA.2022.029](https://doi.org/10.3842/SIGMA.2022.029)&rbrack;
+* Anthony D. Blaom, *A characterisation of smooth maps into a homogeneous space*, SIGMA **18** (2022) 029 &lbrack;[arXiv:1702.02717](https://arxiv.org/abs/1702.02717), [doi:10.3842/SIGMA.2022.029](https://doi.org/10.3842/SIGMA.2022.029)&rbrack;
 
 Expression of the Maurer-Cartan form in linear [[coordinates]] on the [[Lie algebra]] $\mathfrak{g}$ after [[pullback of differential forms|pullback]] along the [[exponential map]] $exp \colon \mathfrak{g} \longrightarrow G$:
 
 * {#Helgason01} [[Sigurdur Helgason]], §I.8 in: *Differential geometry, Lie groups and symmetric spaces*, Graduate Studies in Mathematics **34** (2001) \[<a href="https://bookstore.ams.org/gsm-34">ams:gsm-34</a>\]
 
+* [[Eckhard Meinrenken]], Theorem C.2 in Appendix C of *Clifford algebras and Lie groups*, Ergebn. Mathem. & Grenzgeb., Springer (2013) &lbrack;[doi:10.1007/978-3-642-36216-3](https://doi.org/10.1007/978-3-642-36216-3)&rbrack;
 
 
 ### On coset spaces
