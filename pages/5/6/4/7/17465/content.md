@@ -42,8 +42,8 @@ For [[dendriform algebra]]s
 
 * [[María Ronco]], Eulerian idempotents and Milnor--Moore theorem for certain non-cocommutative Hopf algebras_, J. Alg. __254__ (2002) 152--172 
  
-A homotopification 
+A homotopification:
 
-* [[Imma Gálvez-Carrillo]], [[María Ronco]], [[Andy Tonks]], _On differential Hopf algebras and $B_\inf$ algebras_, [https://arxiv.org/abs/2409.06632](arXiv:2409.06632)
+* [[Imma Gálvez-Carrillo]], [[María Ronco]], [[Andy Tonks]]: _On differential Hopf algebras and $B_\inf$ algebras_ &lbrack;[arXiv:2409.06632](https://arxiv.org/abs/2409.06632)&rbrack;
 
 category: algebra
