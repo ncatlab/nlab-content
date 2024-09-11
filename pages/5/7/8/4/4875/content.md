@@ -129,9 +129,11 @@ The [[site]] of definition for the [[Cahiers topos]] is the category of spaces t
 
 ## References
 
+* {#KolarSlovakMichor93} [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], Def. 35.2 of: _[[Natural operations in differential geometry]]_, Springer (1993) &lbrack;[book webpage](http://www.emis.de/monographs/KSM/), [doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3), [pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf)&rbrack;
+
 * {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]], _On Theories of Superalgebras of Differentiable Functions_ ([arXiv:1211.6134](http://arxiv.org/abs/1211.6134))
 
-[[!include cohesion - table]]
+
 
 [[!redirects infinitesimally thickened points]]
 
