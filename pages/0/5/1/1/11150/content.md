@@ -132,6 +132,11 @@ Relation ot Liouville theory to the [[Nambu-Goto action]]:
 
 * [[Yuri Makeenko]], *The Nambu-Goto string as higher-derivative Liouville theory* &lbrack;[arXiv:2407.01136](https://arxiv.org/abs/2407.01136)&rbrack;
 
+Via [[celestial holography]]:
+
+* Igor Mol: *Partial Differential Equations for MHV Celestial Amplitudes in Liouville Theory* &lbrack;[arXiv:2409.05936](https://arxiv.org/abs/2409.05936)&rbrack;
+
+
 
 category: physics
 
