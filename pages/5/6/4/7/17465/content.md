@@ -1,3 +1,16 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include algebra - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -9,13 +22,28 @@ The [[universal enveloping algebra]] of a [[Lie algebra]] naturally becomes a [[
 
 ## References
 
-The result is due to
+The result over algebraically closed field of characteristic zero is due to
 
 * {#MilnorMoore65} [[John Milnor]], [[John Moore]], _On the structure of Hopf algebras_, Annals of Math. __81__ (1965), 211-264. ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/milnor-moore-ann-math-1965.pdf))
+
+Discussion on the generalizations on the ground field is in
+
+* [MO question](https://mathoverflow.net/questions/259307/cartier-kostant-milnor-moore-theorem)
+
+* [[Daniel Quillen]], _Rational homotopy theory_, Annals of Mathematics __90__, No. 2 (1969) 205--295
 
 Discussion for the special case of abelian [[restricted Lie algebras]] (with an eye towards its use in the [[May spectral sequence]]) is in
 
 * {#May66} [[Peter May]],  _The cohomology of restricted Lie algebras and of Hopf algebras_, Journal of Algebra 3, 123-146 (1966) ([pdf](http://math.uchicago.edu/~may/PAPERS/3.pdf))
 
 * [[Peter May]], _Some remarks on the structure of Hopf algebras_, Proceedings of the AMS, vol 23, No. 3 (1969) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/9.pdf))
+
+For [[dendriform algebra]]s
+
+* [[María Ronco]], Eulerian idempotents and Milnor--Moore theorem for certain non-cocommutative Hopf algebras_, J. Alg. __254__ (2002) 152--172 
  
+A homotopification 
+
+* [[Imma Gálvez-Carrillo]], [[María Ronco]], [[Andy Tonks]], _On differential Hopf algebras and $B_\inf$ algebras_, [https://arxiv.org/abs/2409.06632](arXiv:2409.06632)
+
+category: algebra
