@@ -24,7 +24,7 @@ $$
   \,.
 $$
 
-In classical [[algebraic number theory]] one embeds a [[number field]] into the [[cartesian product]] of its [[completions]] at its [[archimedean absolute values]]. This embedding is very useful in the [[proofs]] of several fundamental [[theorems]]. However, it was noticed by [[Claude Chevalley]] and [[André Weil]] that the situation was improved somewhat if the number field is embedded in the cartesian product of its [[formal completions]] at all of its [[absolute values]]. With a few additional restrictions, these objects are known as the _[[adeles]]_, and the [[group of units|units]] of this ring are called the _ideles_.
+In classical [[algebraic number theory]] one embeds a [[number field]] into the [[Cartesian product]] of its [[completions]] at its [[archimedean absolute values]]. This embedding is very useful in the [[proofs]] of several fundamental [[theorems]]. However, it was noticed by [[Claude Chevalley]] and [[André Weil]] that the situation was improved somewhat if the number field is embedded in a certain [[restricted product]] of its [[formal completions]] at all of its [[absolute values]]. These objects are known as the _[[adeles]]_, and the [[group of units|units]] of this ring are called the _ideles_.
 
 
 When considering the adeles and ideles, it is their [[topology]] as much as their algebraic structure that is of interest. Many important results in [[number theory]] translate into simple statements about the topologies of the adeles and ideles. For example, the finiteness of the [[ideal class group]] and the [[Dirichlet unit theorem]] are equivalent to a certain quotient of the ideles being compact and discrete.
