@@ -23,6 +23,7 @@ Every [[associative algebra]] is a pre-Lie algebra, but not conversely.  The rea
 $$  [a,b] = a \cdot b - b \cdot a $$
 makes $A$ into a Lie algebra.  But this is also true for pre-Lie algebras!  It is a fun exercise to derive the [[Jacobi identity]] from equation \eqref{identity}.
 
+*  Chengming Bai, An introduction to pre-Lie algebras. In: Algebra and Applications 1: Nonssociative Algebras and Categories, Wiley Online Library (2021), 245-273.
 
 ## Examples
 
