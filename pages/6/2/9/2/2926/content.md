@@ -291,11 +291,15 @@ See at _[[Chern character]]_ for more on this, and see at _[[differential cohomo
 
 Named after
 
-* [[Ludwig Maurer]], _Über allgemeinere Invarianten-Systeme_, Münchener Berichte **18** (1888) 103-150
+* [[Ludwig Maurer]]: _Über allgemeinere Invarianten-Systeme_, Münchener Berichte **18** (1888) 103-150
 
 and 
 
 * [[Élie Cartan]], *Sur la structure des groupes infinis de transformation*, Annales scientifiques de l’É.N.S. 3e série, tome 21 (1904) 153-206 &lbrack;[numdam:ASENS_1904_3_21__153_0](http://www.numdam.org/item?id=ASENS_1904_3_21__153_0)&rbrack;
+
+Further early discussion: 
+
+* [[Friedrich Schur]]: (16) in: *Zur Theorie der endlichen Transformationsgruppen*, Math. Ann. **38** (1891) 263–286 &lbrack;[doi:10.1007/BF01199254](https://doi.org/10.1007/BF01199254)&rbrack;
 
 Introductions in the broader context of [[Cartan geometry]]:
 
