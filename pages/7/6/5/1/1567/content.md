@@ -186,9 +186,13 @@ Instead this dual gives the lattice [[co-Heyting algebra|co-Heyting]] structure 
 
 $$(u \backslash v) = \bigwedge_{u \leq v \vee x} x$$ 
 
-If a lattice has both properties, as in a [[completely distributive lattice]], then it has [[bi-Heyting algebra|bi-Heyting]] structure (both  Heyting and co-Heyting) and the two exponentials are equal.
+If a lattice has both properties, as in a [[completely distributive lattice]], then it has [[bi-Heyting algebra|bi-Heyting]] structure (both  Heyting and co-Heyting), but the two exponentials are not necessarily equal.
   
-$$(u \Rightarrow v) = \bigvee_{x \wedge u \leq v} x \qquad  = \qquad (u \backslash v) = \bigwedge_{u \leq v \vee x} x$$ 
+$$(u \Rightarrow v) = \bigvee_{x \wedge u \leq v} x$$
+
+and 
+
+$$(u \backslash v) = \bigwedge_{u \leq v \vee x} x$$
 
 > Does it make sense to define "infinitely distributive property" for non-complete lattices? (Something like: "Whenever the join exists, it satisfies the infinite distributive law.")
 
@@ -244,7 +248,7 @@ Every distributive lattice, regarded as a [[category]] (a [[(0,1)-category]]), i
 ### Completion
 
 
-The [[completely distributive lattice|completely distributive]] [[algebraic lattices]] (the [[frames of opens]] of [[Alexandroff locales]] ) form a [[reflective subcategory]] of that of all distributive lattices. The reflector is called _[[canonical extension]]_.
+The [[completely distributive lattice|completely distributive]] [[algebraic lattices]] (the [[frames of opens]] of [[Alexandroff locales]]) form a [[reflective subcategory]] of that of all distributive lattices. The reflector is called _[[canonical extension]]_.
 
 ## References
 
