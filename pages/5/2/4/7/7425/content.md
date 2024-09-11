@@ -158,7 +158,7 @@ With the exception of the extreme case of $n=0$, the fields $K(n)$ do not admit 
 +-- {: .num_prop}
 ###### Proposition
 
-If $E$ is an [[∞-field]] then $E \otimes K(n) \neq 0$ and $E$ admits the structure of a $K(n)$-[[module spectrum|module]].
+If $E$ is an [[∞-field]] and $E \otimes K(n) \neq 0$, then $E$ admits the structure of a $K(n)$-[[module spectrum|module]].
 
 =--
 
