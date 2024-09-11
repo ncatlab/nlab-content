@@ -146,7 +146,7 @@ $$
 $$
 
 (where we use the [[Einstein summation convention]] throughout). In terms of these coordinates, the [[pullback of differential forms|pullback]] $(e^i)_{i \in I}$ of the Maurer-Cartan form along the [[exponential map]] $exp \,\colon\, \mathfrak{g} \longrightarrow G$
-at any point $X = x^i T_i$ is (by [Helgason 2001 Thm. 7.4](#Helgason01), [Meinrenken 2013 Thm. C.2](#Meinrenken13))
+at any point $X = x^i T_i$ is (by [Schur 1891 (36)](#Schur1891), [Helgason 2001 Thm. 7.4](#Helgason01), [Meinrenken 2013 Thm. C.2](#Meinrenken13))
 $$
     e^i
     \;=\;
@@ -299,7 +299,7 @@ and
 
 Further early discussion: 
 
-* [[Friedrich Schur]]: (16) in: *Zur Theorie der endlichen Transformationsgruppen*, Math. Ann. **38** (1891) 263–286 &lbrack;[doi:10.1007/BF01199254](https://doi.org/10.1007/BF01199254)&rbrack;
+* {#Schur1891} [[Friedrich Schur]]: (16) in: *Zur Theorie der endlichen Transformationsgruppen*, Math. Ann. **38** (1891) 263–286 &lbrack;[doi:10.1007/BF01199254](https://doi.org/10.1007/BF01199254)&rbrack;
 
 Introductions in the broader context of [[Cartan geometry]]:
 
