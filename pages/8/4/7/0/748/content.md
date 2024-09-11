@@ -60,6 +60,10 @@ The [[duality|dual]] notion is an [[under category]].
 
 ## Properties
 
+### Comonadicity
+
+If $C$ admits binary coproducts with the fixed object $c$, then the forgetful functor $C/c \to C$ is [[comonadic]]. See [[coreader comonad]] for more details.
+
 ### Relation to codomain fibration
 
 The assignment of overcategories $C/c$ to objects $c \in C$ extends to a [[functor]]
