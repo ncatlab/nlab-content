@@ -80,6 +80,8 @@ Review:
 
 * {#Serre64} [[Jean-Pierre Serre]]: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500** (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
 
+* [[Sigurdur Helgason]], Thm. 7.5 in: *Differential geometry, Lie groups and symmetric spaces*, Graduate Studies in Mathematics **34** (2001) &lbrack;[ams:gsm-34](https://bookstore.ams.org/gsm-34)&rbrack;
+
 
 ### For Lie groupoids and Lie algebroids
 
