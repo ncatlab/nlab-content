@@ -3350,6 +3350,22 @@ Neumann algebras**
 
 \linebreak
 
+* {#Dinar24} 09 Sep 2024
+
+  [Yassir Dinar](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/yassir-dinar.html) (Sultan Qaboos University, Oman, and NYUAD):
+
+  **Dubrovin-Frobenius Manifolds from Classical $W$-Algebras**
+
+  cf.: [arXiv:1911.00271](https://arxiv.org/abs/1911.00271)
+
+  > [[Dubrovin-Frobenius manifolds]] offer a remarkable geometric realization for potentials that satisfy the Witten-Dijkgraaf-Verlinde-Verlinde (WDVV) equations, which describe the [[moduli space]] of two-dimensional [[topological field theories]]. These manifolds have emerged in various branches of mathematics, including [[invariant theory]], [[quantum cohomology]], [[integrable systems]], [[singularity theory]], and [[information geometry]].
+
+  > A key method for constructing [[Dubrovin-Frobenius manifolds]] lies within the notion of local [[Poisson brackets]] of hydrodynamic type. Such a bracket can be obtained by considering the leading term of a local Poisson bracket admitting a dispersionless limit. On the other hand, we can construct, beginning from any [[nilpotent Lie algebra|nilpotent]] element in a [[simple Lie algebra]], a local [[Poisson bracket]] known as classical $W$-algebra using Drinfeld-Sokolov reduction.
+
+  > In this talk, I will present recent findings and address the challenges involved in constructing Dubrovin-Frobenius manifolds from classical $W$-algebras. I will also explore the geometric insights that arise from this process, offering new perspectives on the intricate relationship between algebraic structures and the geometric realization of Dubrovin-Frobenius manifolds.
+
+\linebreak
+
 
 ## External presentations
  {#ExternalTalk}
