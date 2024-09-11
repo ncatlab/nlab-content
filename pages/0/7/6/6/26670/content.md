@@ -17,6 +17,8 @@ Further discussion:
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], §I.2 in: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) \[<a href="https://doi.org/10.1142/0224">doi:10.1142/0224</a>, toc: [[CDF91-TOC.pdf:file]], ch I.2: [[CastellaniDAuriaFre-ChI2.pdf:file]]\]
 
+* [[Sigurdur Helgason]], §I.8 in: *Differential geometry, Lie groups and symmetric spaces*, Graduate Studies in Mathematics **34** (2001) \[<a href="https://bookstore.ams.org/gsm-34">ams:gsm-34</a>\]
+
 * C. C. Briggs, *A Sequence of Generalizations of Cartan's Conservation of Torsion Theorem* \[<a href="https://arxiv.org/abs/gr-qc/9908034">arXiv:gr-qc/9908034</a>\]
 
 * [[Loring Tu]], §22 in: _Differential Geometry -- Connections, Curvature, and Characteristic Classes_, Springer (2017) \[<a href="https://www.springer.com/gp/book/9783319550824">ISBN:978-3-319-55082-4</a>\]
