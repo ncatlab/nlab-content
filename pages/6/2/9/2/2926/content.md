@@ -146,7 +146,7 @@ $$
 $$
 
 (where we use the [[Einstein summation convention]] throughout). In terms of these coordinates, the [[pullback of differential forms|pullback]] $(e^i)_{i \in I}$ of the Maurer-Cartan form along the [[exponential map]] $exp \,\colon\, \mathfrak{g} \longrightarrow G$
-at any point $X = x^i T_i$ is (by [Helgason 2001, Thm. 7.4](#Helgason01))
+at any point $X = x^i T_i$ is (by [Helgason 2001 Thm. 7.4](#Helgason01), [Meinrenken 2013 Thm. C.2](#Meinrenken13))
 $$
     e^i
     \;=\;
@@ -159,7 +159,7 @@ $$
     \right)
     \mathrm{d}x^k
 $$
-where (by [ibid, p. 36](#Helgason01))
+where (by [Helgason p. 36](#Helgason01), [Meinrenken p. 99](#Meinrenken13))
 $$
   \frac{1 - exp(-A)}{ A }
   \;\;
@@ -168,9 +168,8 @@ $$
   \sum_{n=0}^\infty
   \tfrac{1}{(n+1)!}
   (-A)^n
-  \,.
 $$
-(for $A \colon \mathfrak{g} \to \mathfrak{g}$ any [[linear map|linear]] [[endomorphism]]) so that:
+(for $A \colon \mathfrak{g} \to \mathfrak{g}$ any [[linear map|linear]] [[endomorphism]]), so that:
 $$
   e^i
   \;=\;
@@ -188,7 +187,6 @@ $$
   \mathrm{d}x^k
   \,.
 $$
-
 Unwinding this with 
 $$
   (ad X)
@@ -324,7 +322,7 @@ Expression of the Maurer-Cartan form in linear [[coordinates]] on the [[Lie alge
 
 * {#Helgason01} [[Sigurdur Helgason]], §I.8 in: *Differential geometry, Lie groups and symmetric spaces*, Graduate Studies in Mathematics **34** (2001) \[<a href="https://bookstore.ams.org/gsm-34">ams:gsm-34</a>\]
 
-* [[Eckhard Meinrenken]], Theorem C.2 in Appendix C of *Clifford algebras and Lie groups*, Ergebn. Mathem. & Grenzgeb., Springer (2013) &lbrack;[doi:10.1007/978-3-642-36216-3](https://doi.org/10.1007/978-3-642-36216-3)&rbrack;
+* {#Meinrenken13} [[Eckhard Meinrenken]], Theorem C.2 in Appendix C of: *Clifford algebras and Lie groups*, Ergebn. Mathem. & Grenzgeb., Springer (2013) &lbrack;[doi:10.1007/978-3-642-36216-3](https://doi.org/10.1007/978-3-642-36216-3)&rbrack;
 
 
 ### On coset spaces
