@@ -36,7 +36,7 @@ Including discussion of [[enriched profunctors]]\ bimodules, in the context of o
 Memoirs of the American Mathematical Society, 249 (1184), 2017, (v) + 110pp.
  [Arxiv preprint: 1405.7270](https://arxiv.org/pdf/1405.7270.pdf)  [DOI:10.1090/memo/1184](https://doi.org/10.1090/memo/1184)
 
-From the AMS website: _The authors develop further the theory of operads and also analytic functors. In particular, they introduce the bicategory OpdBim of operad bimodules, that has operads as 0-cells, operad bimodules as 1-cells and operad bimodule maps as 2-cells, and prove that it is cartesian closed. In order to obtain this result, the authors extend the theory of distributors and the formal theory of monads._
+From the AMS website: _The authors develop further the theory of operads and analytic functors. In particular, they introduce the bicategory OpdBim of operad bimodules, that has operads as 0-cells, operad bimodules as 1-cells and operad bimodule maps as 2-cells, and prove that it is cartesian closed. In order to obtain this result, the authors extend the theory of distributors and the formal theory of monads._
 
 ## Related entries 
 
