@@ -1,9 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
 
 ## Definition
-A **dominion** is a [[category with display maps]] whose display maps are closed under composition and [[monic]]. It can be considered a minimal setting in which [[partial maps]] can be defined.
+A **dominion** is a [[category with display maps]] whose display maps are [[monomorphisms]] closed under [[composition]]. It can be considered a minimal setting in which [[partial maps]] can be defined.
 
 ## Relation to dominances
 
