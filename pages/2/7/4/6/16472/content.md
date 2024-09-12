@@ -3,7 +3,6 @@
 
 * [cv](http://fisica.unipv.it/personale/PersFiles/Curr_308.pdf)
 
-
 ## Selected writings
 
 On [[self-dual higher gauge theory]] on [[Lorentzian spacetimes]] via [[ordinary differential cohomology]]:
@@ -56,6 +55,11 @@ Formulation of the [[CS/WZW correspondence]] in [[homotopical AQFT]]:
 On [[AQFT on curved spacetimes]] in terms of [[stacks]] of [[categories]] ([[2-sheaves]]) of field theories :
 
 * [[Marco Benini]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]], *Haag-Kastler stacks* &lbrack;[arXiv:2404.14510](https://arxiv.org/abs/2404.14510)&rbrack;
+
+Discussion of [[lattice gauge theory|lattice]] [[2d Yang-Mills theory]] via [[derived algebraic geometry]] and [[factorization algebra|prefactorization algebras]]:
+
+* [[Marco Benini]], Tomás Fernández, [[Alexander Schenkel]]: *Derived algebraic geometry of 2d lattice Yang-Mills theory* &lbrack;[arXiv:2409.06873](https://arxiv.org/abs/2409.06873)&rbrack;
+
 
 ## Related entries
 
