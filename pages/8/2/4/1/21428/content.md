@@ -103,6 +103,8 @@ See also:
 
 * Niklas Garner, [[Natalie M. Paquette]], *Twistorial monopoles & chiral algebras* &lbrack;[arXiv:2305.00049](https://arxiv.org/abs/2305.00049)&rbrack;
 
+* Arjun Bagchi, Arthur Lipstein, Mangesh Mandlik, Aditya Mehra. *3d Carrollian Chern-Simons theory and 2d Yang-Mills* (2024). ([arXiv:2407.13574](https://arxiv.org/abs/2407.13574)).
+
 Review:
 
 * [[Sabrina Pasterski]], *A Chapter on Celestial Holography*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, &lbrack;[arXiv:2310.04932](https://arxiv.org/abs/2310.04932)&rbrack;
