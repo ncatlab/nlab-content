@@ -147,21 +147,21 @@ More recently, [[Jacob Lurie]] has referred to the analogue notion for [[(∞,1)
 
 * Tom Avery, [[Tom Leinster]], _Isbell conjugacy and the reflexive completion_, arXiv:2102.08290 (2021). ([abstract](https://arxiv.org/abs/2102.08290))
 
-* {#GabrielUlmer71} [[Pierre Gabriel|Peter Gabriel]], [[Friedrich Ulmer]], _Lokal pr&#228;sentierbare Kategorien_ , LNM **221** Springer Heidelberg 1971. (&#167; 3, pp.38-44)
+* {#GabrielUlmer71} [[Pierre Gabriel|Peter Gabriel]], [[Friedrich Ulmer]], _Lokal pr&#228;sentierbare Kategorien_, LNM **221** Springer Heidelberg 1971. (&#167; 3, pp.38-44)
 
-* {: #MR0175954 } [[John Isbell]], _Adequate subcategories_ , Illinois J. Math. **4** (1960) pp.541-552. [MR0175954](http://www.ams.org/mathscinet-getitem?mr=0175954). ([euclid](https://projecteuclid.org/euclid.ijm/1255456274))
+* {: #MR0175954 } [[John Isbell]], _Adequate subcategories_, Illinois J. Math. **4** (1960) pp.541-552. [MR0175954](http://www.ams.org/mathscinet-getitem?mr=0175954). ([euclid](https://projecteuclid.org/euclid.ijm/1255456274))
  
-* [[John Isbell]], _Subobjects, adequacy, completeness and categories of algebras_ , Rozprawy Mat. **36** (1964) pp.1-32. ([toc](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e), [pdf](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e/c/rm36_01.pdf))
+* [[John Isbell]], _Subobjects, adequacy, completeness and categories of algebras_, Rozprawy Mat. **36** (1964) pp.1-32. ([toc](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e), [pdf](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e/c/rm36_01.pdf))
 
-* {#Kelly} [[Max Kelly]], _Basic Concepts of Enriched Category Theory_ , Cambridge UP 1982. (Reprinted as [TAC reprint no.10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) (2005); chapter 5, pp.85-112)
+* {#Kelly} [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge UP 1982. (Reprinted as [TAC reprint no.10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) (2005); chapter 5, pp.85-112)
 
 * [[William Lawvere]], _John Isbell's Adequate Subcategories_, TopCom **11** no.1 2006. ([link](http://at.yorku.ca/t/o/p/d/65.htm))
 
-* [[Saunders Mac Lane]], _Categories for the Working Mathematician_ , Springer Heidelberg 1998&#178;. (section X.6, pp.245ff, 250)
+* [[Saunders Mac Lane]], _Categories for the Working Mathematician_, Springer Heidelberg 1998&#178;. (section X.6, pp.245ff, 250)
 
-* [[Horst Schubert]], _Kategorien II_ , Springer Heidelberg 1970. (section 17.2, pp.29ff)
+* [[Horst Schubert]], _Kategorien II_, Springer Heidelberg 1970. (section 17.2, pp.29ff)
 
-* [[Friedrich Ulmer]], _Properties of dense and relative adjoint functors_ , J. of Algebra **8** (1968) pp.77-95.
+* [[Friedrich Ulmer]], _Properties of dense and relative adjoint functors_, J. of Algebra **8** (1968) pp.77-95.
 
 * [[Giacomo Tendas]], *Dense functors and density presentations*, unpublished notes ([pdf](https://gtendas.github.io/pdfs/day.pdf))
 
