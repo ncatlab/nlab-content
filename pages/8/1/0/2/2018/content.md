@@ -4,7 +4,7 @@
 ###Context###
 #### Algebra
 +--{: .hide}
-[[!include higher algebra - contents]]
+[[!include algebra - contents]]
 =--
 =--
 =--
@@ -134,9 +134,9 @@ A dual condition is artinian: an __[[artinian ring]]__ is a ring satisfying the 
 
 ## Related concepts
 
-* [[Noetherian module]]
+* [[Noetherian module]], [[Noetherian bimodule]]
 
-* [[Noetherian bimodule]]
+* [[noetherian object]]
 
 * [[Noetherian poset]]
 
@@ -148,8 +148,9 @@ Introduced by [[Emmy Noether]] in
 
 * [[Emmy Noether]], _Idealtheorie in Ringbereichen_, Mathematische Annalen 83:1 (1921), 24–66.  [doi:10.1007/bf01464225](https://doi.org/10.1007/bf01464225).
 
-* [wikipedia](http://en.wikipedia.org/wiki/Noetherian_ring), _[[noetherian object]]_
+* [wikipedia](https://en.wikipedia.org/wiki/Noetherian_ring)
 
+* [[K. R. Goodearl]], R. B. Warfield, _An introduction to noncommutative Noetherian rings_, London Math. Society Student Texts __16__ (1st ed,), 1989, xviii+303 pp.; or 61 (2nd ed.), 2004, xxiv+344 pp. 
 
 [[!redirects noetherian ring]]
 [[!redirects noetherian]]
