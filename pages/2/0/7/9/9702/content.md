@@ -29,6 +29,10 @@ On the [[supergravity C-field]] over [[ADE singularities]]:
 
 * [[Ron Donagi]], [[Martin Wijnholt]]: *The M-Theory Three-Form and Singular Geometries* &lbrack;[arXiv:2310.05838](https://arxiv.org/abs/2310.05838)&rbrack;
 
+On generalized [[Pfaffians]]:
+
+* [[Jacques Distler]], Nathan Donagi, [[Ron Donagi]]: *On Generalized Pfaffians* &lbrack;[arXiv:2409.06871](https://arxiv.org/abs/2409.06871)&rbrack;
+
 
 
 
