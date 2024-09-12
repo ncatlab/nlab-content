@@ -109,11 +109,11 @@ The functor $el\colon \mathbf{Set}^{\mathcal{C}} \to \mathbf{Cat}$ has a right a
 ###### Proof
 By a simple coend computation
 $$
-\begin{array}{rl}
-\mathbf{Cat}(el(F),D)&\cong \mathbf{Cat}\Big(  \int^c J c\times\delta(F  c), D\Big)\\ &\cong \int_c\mathbf{Cat}\big(J c\times \delta(F c),D\big)\\ 
+\begin{aligned}
+\mathbf{Cat}(el(F),D)&\cong \mathbf{Cat}\left(  \int^c J c\times\delta(F  c), D\right)\\ &\cong \int_c\mathbf{Cat}\big(J c\times \delta(F c),D\big)\\ 
 &\cong \int_c \mathbf{Set}\big(F c,[J c,D]_0\big)\\ 
 &\cong \mathbf{Set}^{\mathcal{C}}(F, K(D))
-\end{array}
+\end{aligned}
 $$
 where $K(D)\colon c\mapsto [J c,D]_0$.
 =--
