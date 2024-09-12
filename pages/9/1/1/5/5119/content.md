@@ -104,7 +104,7 @@ The function $m$ is a normal operator.
 
 The proof is a simple manipulation of the definitions.
 
-The dual operator $l$ is given by $l(T) = \{w\in W\mid \forall t\in T \neg R w t\}$. (Again look at this for the preorder and equivalence frame cases.)
+The dual operator $l$ is given by $l(T) = \{w\in W\mid \forall t\in W \setminus T, \neg R w t\}$. (Again look at this for the preorder and equivalence frame cases.)
 
 It is easy to extend this example to $\mathfrak{F} = (W ,R_1,\ldots, R_n)$ with the result being a BAO of type $n$.
 =--
