@@ -112,6 +112,8 @@ See also [Taylor 1999, Exp. 8.3.6](#Taylor99).
 
 * [[categorical semantics of dependent type theory]]
 
+* [[dominion]]
+
 ## References
 
 The notion is due to
@@ -123,7 +125,8 @@ The notion is due to
 
 
 
-
+[[!redirects category with display map]]
+[[!redirects category with display maps]]
 [[!redirects display map]]
 [[!redirects display maps]]
 [[!redirects display morphism]]
