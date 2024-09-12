@@ -860,6 +860,7 @@ Curiously, the light-cone gauge quantization of the GS-string also does wor howe
 
 * [[geometry of physics -- fundamental super p-branes]]
 
+
 ## References
 
 ### Super-string as a GS-sigma model
@@ -883,6 +884,9 @@ See also the historical comments in
 
 * {#Schwarz16} [[John Schwarz]], slides 24-25 of _String Theory in the Twentieth Century_, talk at [Strings 2016](http://ymsc.tsinghua.edu.cn:8090/strings/) ([pdf](http://ymsc.tsinghua.edu.cn:8090/strings/slides/8.1/Schwarz.pdf))
 
+Early discussion of coupling the GS superstring to general [[background fields]] in $D=4$:
+
+* {#Gates90} [[S. James Gates Jr.]]: *Progress Toward Covariant Formulation of All $D=4$ GS-type $\sigma$-model Actons*, in: *Superstrings and Particle Theory*, Proceedings of the Conference in Tuscaloosa 8–11 November 1989, World Scientific (1990) &lbrack;[doi:10.1142/1051](https://doi.org/10.1142/1051), [[Gates-D4GSModels.pdf:file]]&rbrack;
 
 A standard textbook reference for the GS superstring is
 
