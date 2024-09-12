@@ -15,6 +15,11 @@ On [[operads]]:
 
 * [[Jean-Louis Loday]], [[Bruno Vallette]], *Algebraic Operads*, Grundlehren der mathematischen Wissenschaften **346**, Springer (2012) &lbrack;[ISBN 978-3-642-30362-3](https://www.springer.com/gp/book/9783642303616), [pdf](http://irma.math.unistra.fr/~loday/PAPERS/LodayVallette.pdf)&rbrack
 
+On doubly [[monoidal categories]] of [[quadratic operads]]:
+
+* [[Yuri Ivanovich Manin]], [[Bruno Vallette]], _Monoidal structures on the categories of quadratic data_, Documenta Mathematica __25__ (2020) 1727-1786 &lbrack;[arXiv:1902.03778](https://arxiv.org/abs/1902.03778)&rbrack;
+
+
 See also:
 
 * Johan Leray, Bruno Vallette, _Pre-Calabi--Yau algebras and homotopy double Poisson gebras_, [arXiv:2203.05062](https://arxiv.org/abs/2203.05062)
