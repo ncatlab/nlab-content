@@ -33,7 +33,7 @@ This, then, is, generally, the definition of _internal hom_ in any [[cartesian m
 $$
   \mathcal{C}(A, [X,Z]) \stackrel{\simeq}{\to} \mathcal{C}(A \otimes X, Z)
 $$
-which is [[natural isomorphism|natural]] in all three [[variables]].  (The rightward map here is often called __[[currying]]__, especially in a [[closed monoidal category]] (and more especially for the $\lambda$-[[lambda-calculus|calculus]]).)
+which is [[natural isomorphism|natural]] in all three [[variables]].  (The leftward map here is often called __[[currying]]__, especially in a [[closed monoidal category]] (and more especially for the $\lambda$-[[lambda-calculus|calculus]]).)
 
 In particular this implies that in a closed monoidal category the external hom is re-obtained from the internal hom as its set of [[generalized elements]] out of the [[unit object|tensor unit]] $I \in \mathcal{C}$ in that
 
