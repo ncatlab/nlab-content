@@ -37,6 +37,7 @@ The original articles:
 See also:
 
 * Wikipedia, _[Frobenius manifold](http://en.wikipedia.org/wiki/Frobenius_manifold)_
+* [[Yuri Manin]], _Frobenius manifolds, quantum cohomology, and moduli spaces_, Amer. Math. Soc. Colloqium Publications __47__, 1999
 
 Generalization to [[supergeometry]] (Frobenius [[supermanifolds]]) and relation to [[quantum cohomology]] of [[complex projective space]]:
 
@@ -55,8 +56,9 @@ Survey:
 
 * [[Yassir Dinar]]: *Dubrovin-Frobenius Manifolds from Classical $W$-Algebras*, [talk at](CQTS#DinarSep24) [[CQTS]] @ NYU Abu Dhabi (Sep 2024) &lbrack;slides: [[Dinar-CQTS-Sep-2024.pdf:file]]&rbrack;
 
+Appearance in [[singularity theory]], along with a generalization (F-manifolds) is studied in
 
-
+* [[Claus Hertling]], _Frobenius manifolds and moduli spaces for singularities_, Cambridge University Press 2002.
 
 [[!redirects Frobenius manifolds]]
 
