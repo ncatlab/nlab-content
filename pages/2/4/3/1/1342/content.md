@@ -57,7 +57,7 @@ Descent is best understood as a direct generalization of the  situation for 0-st
 For $S$ any small [[category]] and [[Set]] the category of small sets, write $\mathrm{PSh}(S) = [S^{op}, Set]$ for the category of [[presheaf|presheaves]] on $S$. Categories of this form enjoy various nice properties which are familiar from $Set$ itself,  and which are summarized by saying that $\mathrm{PSh}(S)$ is a [[topos]]. The relevance of
 this for the present purpose is that there is a natural notion of morphisms of topoi, which are [[functors]] respecting this structure in some sense: these are called [[geometric morphisms]].
 
-A [[category of sheaves]] on $S$ is a sub-topos of $PSh(S)$ in that it is a [[full and faithful functor]] $Sh(S)\hookrightarrow PSh(S)$ which is a [[geometric morphism]].
+A [[category of sheaves]] on $S$ is a sub-topos of $PSh(S)$ in that there is a [[full and faithful functor]] $Sh(S)\hookrightarrow PSh(S)$ which is a [[geometric morphism]].
 
 One finds that the [[reflective subcategory]] $Sh(S) \hookrightarrow PSh(S)$ of sheaves inside presheaves is the [[localization]] of $PSh(S)$ at morphisms $f : Y \to X$ called [[local isomorphisms]], which are determined by and determine the choice of topos-inclusion. A [[presheaf]] $A$ is a [[sheaf]] precisely if it is a [[local object]] with respect to these [[local isomorphisms]], that is precisely if
 
