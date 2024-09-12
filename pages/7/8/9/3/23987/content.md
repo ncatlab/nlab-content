@@ -2,7 +2,7 @@
 <a href="https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html">
 <img src="https://ncatlab.org/schreiber/files/CQTS-logo_animated.gif" width="380" alt="animated logo of CQTS">
 </a>
-</div>Portal
+</div>
 
 The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html)* ([nyuad.nyu.edu/L.cqts](https://nyuad.nyu.edu/cqts))  is a Research Center, launched in 2022, within the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
 
@@ -3215,6 +3215,7 @@ Stone-von Neumann**
 
 \linebreak
 
+
 ### Feb 2024
 
 * {#ChenFeb2024} 07 Feb 2024
@@ -3350,15 +3351,18 @@ Neumann algebras**
 
 \linebreak
 
-* {#Dinar24} 09 Sep 2024
 
-  [Yassir Dinar](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/yassir-dinar.html) (Sultan Qaboos University, Oman, and NYUAD):
+* {#DinarSep24} 09 Sep 2024
+
+  [[Yassir Dinar]] (Sultan Qaboos University, Oman, and NYUAD):
 
   **Dubrovin-Frobenius Manifolds from Classical $W$-Algebras**
 
-  cf.: [arXiv:1911.00271](https://arxiv.org/abs/1911.00271)
+  slides: [[Dinar-CQTS-Sep-2024.pdf:file]]
 
-  > [[Dubrovin-Frobenius manifolds]] offer a remarkable geometric realization for potentials that satisfy the Witten-Dijkgraaf-Verlinde-Verlinde (WDVV) equations, which describe the [[moduli space]] of two-dimensional [[topological field theories]]. These manifolds have emerged in various branches of mathematics, including [[invariant theory]], [[quantum cohomology]], [[integrable systems]], [[singularity theory]], and [[information geometry]].
+  cf.: [arXiv:1911.00271](Frobenius+manifold#Dinar21)
+
+  > [[Dubrovin-Frobenius manifolds]] offer a remarkable geometric realization for potentials that satisfy the Witten-Dijkgraaf-Verlinde-Verlinde (WDVV) equations, which describe the [[moduli space]] of [[2d TQFT|two-dimensional]] [[topological field theories]]. These manifolds have emerged in various branches of mathematics, including [[invariant theory]], [[quantum cohomology]], [[integrable systems]], [[singularity theory]], and [[information geometry]].
 
   > A key method for constructing [[Dubrovin-Frobenius manifolds]] lies within the notion of local [[Poisson brackets]] of hydrodynamic type. Such a bracket can be obtained by considering the leading term of a local Poisson bracket admitting a dispersionless limit. On the other hand, we can construct, beginning from any [[nilpotent Lie algebra|nilpotent]] element in a [[simple Lie algebra]], a local [[Poisson bracket]] known as classical $W$-algebra using Drinfeld-Sokolov reduction.
 
@@ -3369,6 +3373,8 @@ Neumann algebras**
 
 ## External presentations
  {#ExternalTalk}
+
+The following is a (very) inclomplete list of selected invited presentations by CQTS members at other institutes.
 
 \linebreak
 
