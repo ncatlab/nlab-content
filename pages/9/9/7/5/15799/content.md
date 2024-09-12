@@ -102,6 +102,10 @@ A [[higher gauge theory|higher gauge]] [[5d Chern-Simons theory]] analogous to [
 
 * [[Alexander Schenkel]], Benoit Vicedo: *5d 2-Chern-Simons theory and 3d integrable field theories* &lbrack;[arXiv:2405.08083](https://arxiv.org/abs/2405.08083)&rbrack;
 
+Discussion of [[lattice gauge theory|lattice]] [[2d Yang-Mills theory]] via [[derived algebraic geometry]] and [[factorization algebra|prefactorization algebras]]:
+
+* [[Marco Benini]], Tomás Fernández, [[Alexander Schenkel]]: *Derived algebraic geometry of 2d lattice Yang-Mills theory* &lbrack;[arXiv:2409.06873](https://arxiv.org/abs/2409.06873)&rbrack;
+
 
 
 ## Related entries
