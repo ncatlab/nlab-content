@@ -11,6 +11,8 @@
 * [[differential form with logarithmic singularities]]
 
 * [[Picard-Lefschetz theory]]
+* [[Milnor fiber]]
+* [[Milnor algebra]], [[vanishing cycle]]
 
 * [[orbifold]]
 
@@ -27,6 +29,9 @@
 * Wikipedia, _[Mathematical singularity](http://en.wikipedia.org/wiki/Mathematical_singularity)_
 
 * A. O. Remizov, _A brief introduction to singularity theory_, ([pdf](http://www.sissa.it/fa/download/publications/remizov.pdf))
+
+* [[Claus Hertling]], _Frobenius manifolds and moduli spaces for singularities_, Cambridge University Press 2002.
+
 
 [[!redirects singularities]]
 
