@@ -58,6 +58,7 @@ Every effective epimorphism is, of course, a [[regular epimorphism]] and hence a
 
 * In an [[(∞,1)-topos]] the bare notion of epimorphism disappears, and [[effective epimorphism in an (∞,1)-category]] becomes the default notion of epiness. A morphism in an $(\infty,1)$-topos is effective epi precisely if its [[n-truncated object in an (∞,1)-category|0-truncation]] is an epimorphism (hence an effective epimorphism) in the underlying 1-topos. This is Proposition 7.2.1.14 in Higher Topos Theory.
 
+* In [[Top|the category of topological spaces]], open covers provide an example of effective epimorphisms. Suppose $X = \bigcup_{i \in I} U_i$ for $U_i \subset X$ open subsets. Then the gluing/pasting lemma states that continuous maps $f : X \to Y$ naturally correspond to families of continuous maps $f_i : U_i \to Y$ that agree on the intersections, so $f_i |_{U_i \cap U_j} = f_j |_{U_i \cap U_j}$. But this is precisely the statement that the induced morphism $\coprod_{i \in I} U_i \to X$ (induced by the inclusion maps $U_i \to X$) is an effective epi! Of course, arbitrary categories may not have arbitrary coproducts, hence why this definition uses a single object.
 
 ## Related concepts
 
