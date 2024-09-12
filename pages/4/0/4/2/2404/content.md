@@ -41,7 +41,6 @@ Introducing the [[ADHM construction]] for [[Yang-Mills instantons]]:
 Introducing the notion of [[quantum computation]]:
 
 * {#Manin1980} [[Yuri I. Manin]], Introduction to: *Computable and Uncomputable*, Sov. Radio (1980) &lbrack;Russian original: [[Manin-1980.pdf:file]]&rbrack;, English translation on p. 69-77 of *Mathematics as Metaphor: Selected essays of Yuri I. Manin*, Collected Works **20**, AMS (2007) &lbrack;[ISBN:978-0-8218-4331-4](https://bookstore.ams.org/cworks-20/)&rbrack;
-
   > Perhaps, for a better understanding of &lbrack;molecular biology&rbrack;, we need a mathematical theory of quantum automata.
 
 and review of [[Shor's algorithm]]:
@@ -57,22 +56,9 @@ On the [[Penrose-Ward transform]] relating [[twistor space]] to [[Minkowski spac
 
 * [[Yuri Manin]], _[[Gauge Field Theory and Complex Geometry]]_, Grundlehren der Mathematischen Wissenschaften **289**, Springer (1988) &lbrack;[doi:10.1007/978-3-662-07386-5](https://doi.org/10.1007/978-3-662-07386-5)&rbrack;
 
+Introducing [[quantum linear groups]] as universal co-acting bialgebras (and their quotient [[Hopf algebras]]):
 
-On [[homological algebra]] and [[homotopical algebra]] (via [[triangulated categories]] and including the [[model structure on dgc-algebras]] for [[rational homotopy theory]]):
-
-* [[Sergei Gelfand]], [[Yuri Manin]], _[[Methods of homological algebra]]_,  transl. from the 1988 Russian (Nauka Publ.) original, Springer 1996. xviii+372 pp. 2nd corrected ed. 2002 ([doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5))
-
-Introduced [[quantum linear group]]s as universal coacting bialgebras (and their quotient Hopf algebras) in
-
-* [[Yu. I. Manin]], _Quantum groups and non-commutative geometry_, CRM, Montreal 1988.
-
-Some of these structures have repercussion on the study of [[quadratic operad]]s, as in
-
-* [[Yuri Ivanovich Manin]], [[Bruno Vallette]], _Monoidal structures on the categories of quadratic data_, Documenta Mathematica __25__, 1727--1786
-
-On relations of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]] of [[algebraic curves]]:
-
-* [[Yuri Manin]], [[Matilde Marcolli]], _Holography principle and arithmetic of algebraic curves_, Adv. Theor. Math. Phys. 5 (2002) 617-650 ([arXiv:hep-th/0201036](https://arxiv.org/abs/hep-th/0201036)
+* [[Yuri I. Manin]], _Quantum groups and non-commutative geometry_, CRM Short COurses, Springer (1988) &lbrack;[doi:10.1007/978-3-319-97987-8](https://doi.org/10.1007/978-3-319-97987-8)&rbrack;
 
 On [[quantum cohomology]] and [[Gromov-Witten invariants]]
 
@@ -81,6 +67,30 @@ On [[quantum cohomology]] and [[Gromov-Witten invariants]]
 * [[Yuri Manin]], _Frobenius manifolds, quantum cohomology, and moduli spaces_, Amer. Math. Soc. Colloqium Publications __47__, 1999
 
 * [[Maxim Kontsevich]], [[Yuri Manin]], [[Ralph Kaufmann]], _Quantum cohomology of a product_,  Invent. Math. __124__ (1996) 313-339 [doi](https://doi.org/10.1007/s002220050055) arXiv:[q-alg/9502009](https://arxiv.org/abs/q-alg/9502009)
+
+
+On [[homological algebra]] and [[homotopical algebra]] (via [[triangulated categories]] and including the [[model structure on dgc-algebras]] for [[rational homotopy theory]]):
+
+* [[Sergei Gelfand]], [[Yuri Manin]], _[[Methods of homological algebra]]_,  transl. from the 1988 Russian (Nauka Publ.) original, Springer 1996. xviii+372 pp. 2nd corrected ed. 2002 ([doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5))
+
+
+On [[Frobenius manifolds]] and [[quantum cohomology]]:
+
+* [[Yuri Manin]]: *Frobenius manifolds, quantum cohomology, and moduli spaces*, Colloqium Publications **47**, Amer. Math. Soc. (1999) &lbrack;[ams:](https://bookstore.ams.org/coll-47)&rbrack;
+
+and generalized to Frobenius [[supermanifolds]] in [[supergeometry]]:
+
+* [[Yuri I. Manin]], [[Sergei A. Merkulov]]: *Semisimple Frobenius (super)manifolds and quantum cohomology of $P^r$*, Topol. Methods in Nonlinear Analysis **9** (1997) 107-161 &lbrack;[arXiv:alg-geom/9702014](https://arxiv.org/abs/alg-geom/9702014), [doi:10.12775/TMNA.1997.006](http://dx.doi.org/10.12775/TMNA.1997.006)&rbrack;
+
+On relations of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]] of [[algebraic curves]]:
+
+* [[Yuri Manin]], [[Matilde Marcolli]], _Holography principle and arithmetic of algebraic curves_, Adv. Theor. Math. Phys. 5 (2002) 617-650 ([arXiv:hep-th/0201036](https://arxiv.org/abs/hep-th/0201036)
+
+On doubly [[monoidal categories]] and [[quadratic operads]]:
+
+* [[Yuri Ivanovich Manin]], [[Bruno Vallette]], _Monoidal structures on the categories of quadratic data_, Documenta Mathematica __25__ (2020) 1727-1786 &lbrack;[arXiv:1902.03778](https://arxiv.org/abs/1902.03778)&rbrack;
+
+
 
 
 ## Quotes
