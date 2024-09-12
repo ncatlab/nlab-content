@@ -15,9 +15,9 @@
 
 ## Idea
 
-A _bump function_ is a [[smooth function]] with [[compact support]], especially one that is not zero on a space that it not [[compact space|compact]].
+A _bump function_ is a [[smooth function]] with [[compact support]], especially one that is not zero on a space that is not [[compact space|compact]].
 
-One reason the category [[SmthMfd]] of [[smooth manifolds]] and [[smooth functions]] is important, hence one reason why [[differential geometry]] is special, is that a good supply of bump functions exists; this fact accounts for the great flexibility of smooth objects, in stark contrast to [[analytic geometry]] or [[algebraic varieties]] (since non-zero analytic or algebraic functions with compact support exist only on compact spaces). For instance, bump functions can be used to construct _[[partition of unity|partitions of unity]]_, which can in turn be used to smoothly patch together local structures into a global structure without obstruction, as for example [[Riemannian metric|Riemannian metrics]] and more generally [[inner products on vector bundles]] (see [this prop.](inner+product+on+vector+bundles#ExistenceOfInnerProductOfTopologicalVectorBundlesOverParacompactHausdorffSpaces)).
+One reason the category [[SmthMfd]] of [[smooth manifolds]] (with  [[smooth functions]] between them) is important, hence one reason why [[differential geometry]] is special, is that a good supply of bump functions exists. This fact accounts for the great flexibility of smooth objects, in stark contrast to [[analytic geometry]] or [[algebraic varieties]] (since non-zero analytic or algebraic functions with compact support exist only on [[compact spaces]]). For instance, bump functions can be used to construct _[[partitions of unity]]_, which can in turn be used to smoothly patch together local structures into a global structure without obstruction, as for example [[Riemannian metric|Riemannian metrics]] and more generally [[inner products on vector bundles]] (see [this prop.](inner+product+on+vector+bundles#ExistenceOfInnerProductOfTopologicalVectorBundlesOverParacompactHausdorffSpaces)).
 
 
 ## Constructions
@@ -172,7 +172,7 @@ $$
   \frac{\phi_\varepsilon}{{\|\phi_\varepsilon\|}_1}
 $$ 
 
-so that the family $(\psi_\varepsilon)_\varepsilon$ is a smooth [[approximation to the identity]] (of convolution, the [[Dirac distribution|Dirac functional]]), compactly supported on the closed ball of radius $\varepsilon$ and having an $L^1$-norm equal to $1$. Then, it is standard that for any pair $K \subset V$ with $K$ [[compact subspace|compact]] and $V$ [[open subspace|open]] in a cartesian space $\mathbb{R}^n$, we can choose an open $U$ containing $K$ and with compact [[closure]] contained in $V$, and then taking the [[convolution]] product 
+so that the family $(\psi_\varepsilon)_\varepsilon$ is a smooth approximation to the identity (of convolution, the [[Dirac distribution|Dirac functional]]), compactly supported on the closed ball of radius $\varepsilon$ and having an $L^1$-norm equal to $1$. Then, it is standard that for any pair $K \subset V$ with $K$ [[compact subspace|compact]] and $V$ [[open subspace|open]] in a cartesian space $\mathbb{R}^n$, we can choose an open $U$ containing $K$ and with compact [[closure]] contained in $V$, and then taking the [[convolution]] product 
 $$\psi_\varepsilon \ast \chi_U$$ 
 of $\psi_\varepsilon$ with the [[characteristic function]] $\chi_U$, for $\varepsilon$ sufficiently small, we obtain a smooth function equal to $1$ on $K$ and equal to $0$ outside $V$.
 
