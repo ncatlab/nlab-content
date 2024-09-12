@@ -152,7 +152,12 @@ In the more general context of volume-dependent theories:
 
 * Richard Wedeen. *Volume-Dependent Field Theories* (2024). &lbrack;[arXiv:2402.06691](https://arxiv.org/abs/2402.06691)&rbrack;
 
+Discussion of [[lattice gauge theory|lattice]] 2d Yang-Mills theory via [[derived algebraic geometry]] and [[factorization algebra|prefactorization algebras]]:
 
+* [[Marco Benini]], Tomás Fernández, [[Alexander Schenkel]]: *Derived algebraic geometry of 2d lattice Yang-Mills theory* &lbrack;[arXiv:2409.06873](https://arxiv.org/abs/2409.06873)&rbrack;
+
+[[!redirects 2d Yang-Mills theory]]
+[[!redirects 2d Yang-Mills theories]]
 
 [[!redirects Two-dimensional Yang--Mills theory]]
 [[!redirects Yang--Mills theory in two dimensions]]
