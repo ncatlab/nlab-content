@@ -6,43 +6,196 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Algebra
++--{: .hide}
+[[!include algebra - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
 * table of contents
 {:toc}
 
+
+## Idea
+ {#Idea}
+
+The [[functor]] which sends 
+
+1. [[smooth manifolds]] to their [[algebras of functions|algebras of]] [[smooth functions]] with values in the [[real numbers]], regarded just as $\mathbb{R}$-[[associative algebras|algebras]] (instead of, say [[smooth algebras]] aka "$C^\infty$-rings"),
+
+1. [[smooth functions]] between these manifolds to the corresponding [[pullback of a function|pullback]]/[[precomposition]] [[algebra homomorphisms]] between these function algebras
+
+turns out to be [[fully faithful functor|fully faithful]], hence a [[full subcategory]] embedding of [[SmthMfd]] into the [[opposite category|opposite]] of [[Alg|$\mathbb{R}Alg$]].
+
+This is remarkable, because such a relation between [[spaces]] and their [[algebras of functions]] is (more) manifest only for [[affine varieties]] in [[algebraic geometry]], where however it holds essentially by construction. 
+In constrast, nothing in the usual definition of [[smooth manifolds]] manifestly suggests that they behave to some extent similarly to [[affine varieties]] with respect to $\mathbb{R}$-algebras of smooth functions.
+
+Related "miracles" in [[differential geometry]], revealing a maybe surprising [[algebraic geometry|algebro-geometric]]-nature, are the facts that:
+
+* [[derivations of smooth functions are vector fields]],
+
+* [[smooth Serre-Swan theorem|finitely generated projective modules over smooth functions are smooth vector bundles]].
+
+Accordingly, the embedding of smooth manifolds into [[formal duality|formal duals]] of $\mathbb{R}$-algebras allows to import some constructions and tools from [[algebraic geometry]] into [[differential geometry]] *without* strengthening the notion of "algebra" to something like [[smooth algebras]].
+
+This is useful and is used particularly for discussions in [[synthetic differential geometry]] --- cf. e.g. the emphasis on "Weil algebras", hence of would-be function algebras on [[infinitesimally thickened points]], in [Kolář, Michor & Slovák 1993 §35](#KolarSlovakMichor93).
+
+
+
 ## Statement
 
-+-- {: .num_theorem #Embedding}
-###### Theorem
+\begin{lemma}\label{MilnorExercise}
+**(Milnor's exercise)**
+\linebreak
+For a [[smooth manifold]] $X \in SmthMfd$, the [[evaluation map]] (from its [[underlying]] [[set]] to the [[hom-set]])
+$$
+  \begin{array}{l}
+   X 
+     &\overset{ev}{\longrightarrow}& 
+   Hom_{Alg_{\mathbb{R}}}
+   \big(
+     C^\infty(X)
+     ,\,
+     \mathbb{R}
+   \big)
+   \\
+   x &\mapsto&
+   \big(
+     \phi \,\mapsto\, \phi(x)
+   \big)
+  \end{array}
+$$
+is a [[bijection]].
+\end{lemma}
+(due to [Milnor & Stasheff (1974) Prob. 1-C (p. 11)](#MilnorStasheff74), detailed proof in [Kolář, Michor & Slovák 1993 Lem. 35.8 & Cor. 35.9](#KolarSlovakMichor93))
 
+Milnor's exercise (Lem. \ref{MilnorExercise}) implies --- and also is the special case for $X = \ast$ (the [[point space|point]]) of:
+\begin{theorem}
 The [[functor]]
 $$
-  C^\infty(-) 
-   \;\colon\; 
-  SmoothMfd 
-    \longrightarrow 
+  \begin{array}{ccc}
+  SmthMfd 
+    &\longrightarrow& 
   Alg_{\mathbb{R}}^{op}
+  \\
+  X &\mapsto& C^\infty(X)
+  \\
+  \mathllap{{}^f}\Big\downarrow
+  &&  
+  \Big\uparrow\mathrlap{{}^{{f^\ast}}}
+  \\
+  Y
+  &\mapsto&
+  C^\infty(Y)  
+  \end{array}
 $$
-which sends a [[smooth manifold]] ([[finite number|finite]] [[dimension|dimensional]], [[paracompact topological space|paracompact]], [[second countable topological space|second countable]]) to (the [[formal dual]] of) its $\mathbb{R}$-[[associative algebra|algebra]] of [[smooth functions]] is a [[full and faithful functor]].
+which sends a [[smooth manifold]] ([[finite number|finite]] [[dimension|dimensional]], [[paracompact topological space|paracompact]], [[second countable topological space|second countable]]) to (the [[formal dual]] of) its $\mathbb{R}$-[[associative algebra|algebra]] of [[smooth functions]], $C^\infty(X) \coloneqq C^\infty(X, \mathbb{R})$, is a [[full and faithful functor]].
 
-In other words, for two [[smooth manifolds]] $X,Y$ there is a [[natural bijection]] between the [[smooth functions]] $X \to Y$ and the $\mathbb{R}$-[[associative algebra|algebra]] [[homomorphisms]] $C^\infty(X)\leftarrow C^\infty(Y)$.
+In other words, given a [[pair]] of [[smooth manifolds]] $X,Y$ then the operation of [[precomposition]] ([[pullback of a function|pullback of functions]]) $f^\ast(g) \coloneqq g \circ f$ constitutes a [[natural bijection]] 
 
-In particular, the [[diffeomorphisms]] between smooth manifolds are in [[natural bijection]] to the [[isomorphisms]] between these algebras.
+$$
+  \begin{array}{l}
+    C^\infty(X,Y)
+    &\overset{\sim}{\longrightarrow}&
+   Hom_{Alg_{\mathbb{R}}}\big(
+     C^\infty(Y)
+     ,\,
+     C^\infty(X)
+   \big)
+   \\
+   f &\mapsto& f^\ast
+  \end{array}
+$$
 
-=--
+between 
+
+1. the [[smooth functions]] $X \to Y$,
+
+1. the $\mathbb{R}$-[[associative algebra|algebra]] [[homomorphisms]] $C^\infty(X)\leftarrow C^\infty(Y)$.
+
+In particular, the [[diffeomorphisms]] between smooth manifolds are in [[natural bijection]] to the [[isomorphisms]] between their [[algebras of functions]].
+\end{theorem}
+([Kolář, Slovák & Michor 1993 Cor. 35.10](#KolarSlovakMichor93))
+\begin{proof}
+\label{ProofFromMilnorExercise}
+It is clear that the functor is [[faithful functor|faithful]]; we need to show that it is [[full functor|full]], hence that for any $\mathbb{R}$-algebra homomorphism
+$$
+  \phi
+  \;\colon\;
+  C^\infty(Y, \mathbb{R})
+  \longrightarrow
+  C^\infty(X, \mathbb{R})
+$$
+there exists a smooth function $f \colon X \to Y$ such that $\phi = f^\ast$.
+
+To that end, observe that given a point $x \in X$, the [[postcomposition]] of $\phi$ with the [[evaluation map]] at $x$
+$$  
+  C^\infty(Y, \mathbb{R})
+  \overset{ \phi }{\longrightarrow}
+  C^\infty(X, \mathbb{R})
+  \overset{ ev_x }{\longrightarrow}
+  \mathbb{R}
+$$
+is an algebra homomorphism of the form assumed in Milnor's exercise (Lem. \ref{MilnorExercise}) and thus given uniquely by evaluation at some point $f(x) \in Y$
+$$
+  ev_x \circ \phi \;=\; ev_{f(x)}
+  \,.
+$$
+This implies that $\phi$ acts on any $g \in C^\infty(Y)$ by
+$$
+  \begin{array}{rcl}
+    g 
+     &\overset{\phi}{\mapsto}& 
+    \big(
+      x \mapsto \phi(g)(x)
+    \big)
+    \\
+    &=&
+    \Big(
+      x \mapsto ev_x(\phi(g))
+    \Big)
+    \\
+    &=&
+    \Big(
+      x \mapsto ev_{f(x)}(g)
+    \Big)
+    \\
+    &=&
+    \Big(
+      x \mapsto g\big(f(x)\big)
+    \Big)
+    \\
+    &=&
+    \Big(
+      x \mapsto (g \circ f)(x)
+    \Big)
+    \mathrlap{\,,}
+  \end{array}
+$$
+hence that it acts by precomposition with the assignment $f$:
+$$
+  \phi(g) \;=\; g \circ f
+  \,.
+$$
+
+It just remains to observe that this $f$ is necessarily [[smooth function|smooth]]. But since $\phi$ is given on *all* $g \in C^\infty(Y)$ this way, to see that $f$ is smooth at some $x$ take $g$ to be any smooth function which is [[constant function|constant]] on $1 \in \mathbb{R}$ in an [[open neighbourhood]] $U$ of $f(x)$ (e.g. a suitable [[bump function]]). Then $(g \circ f)_{\vert f^{-1}(U)} = f_{\vert f^{-1}(U)}$, which thus is smooth.
+\end{proof}
+
+
+
 
 \begin{remark}\label{Attribution}
 **(attribution)**
 \linebreak
 For the case of [[diffeomorphisms]], Thm. \ref{Embedding} was proven by [Pursell (1952)](#Pursell52), following an announcement by [Shanks (1951)](#Shanks51). This is the case that most reviews focus on, e.g. [Grabowski (1978)](#Grabowski78), [Marsden, Ratiu & Abraham (2002)](#MarsdenRatiuAbraham02), [Grabowski (2005)](#Grabowski05).
 
-For the case that the domain is a point the statement is an an [[exercise]] (without reference to Pursell) in [Milnor & Stasheff (1974), Problem 1-C (p. 11)](#MilnorStasheff74), sometimes now referred to as "Milnor's exercise". 
+For the case that the domain is a point the statement is left as an [[exercise]] (without reference to Pursell) in [Milnor & Stasheff (1974) Problem 1-C (p. 11)](#MilnorStasheff74), sometimes now referred to as "Milnor's exercise" (Lem. \ref{MilnorExercise}), with a detailed proof given in [Kolář, Slovák & Michor (1993) 35.8-9](#KolarSlovakMichor93) 
 
-The general statement of Thm. \ref{Embedding}, with a detailed proof, is given in [Kolář, Slovák & Michor (1993), lemma 35.8, corollaries 35.9, 35.10](#KolarSlovakMichor93).
+The general statement of Thm. \ref{Embedding} appears as [Kolář, Slovák & Michor (1993) 35.10](#KolarSlovakMichor93).
 \end{remark}
 
 
@@ -95,9 +248,9 @@ following an announcement in
 
 * {#Shanks51} M. E. Shanks, *Rings of functions on locally compact spaces*, 469th meeting of the AMS (1951) &lbrack;[pdf](https://www.ams.org/journals/bull/1951-57-04/S0002-9904-1951-09521-X/S0002-9904-1951-09521-X.pdf)&rbrack; 
 
-The statement for domain a point is due to
+The statement for domain a point is due to:
 
-* {#MilnorStasheff74} [[John Milnor]], [[James Stasheff]], Problem 1-C (p. 11) in: _Characteristic Classes_, Annals of Mathematics Studies, Princeton University Press (1974) &lbrack;[ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76)&rbrack;
+* {#MilnorStasheff74} [[John Milnor]], [[James Stasheff]], Problem 1-C (p. 11) in: _Characteristic Classes_, Annals of Mathematics Studies, Princeton University Press (1974) &lbrack;[ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76), [pdf](/nlab/files/Milnor_exercise.pdf)&rbrack;
 
 with a proof spelled out in:
 
