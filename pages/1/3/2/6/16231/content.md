@@ -1,7 +1,13 @@
 
 Sylvester James Gates Jr., known as Jim Gates, works on [[supersymmetry]], [[supergravity]] and [[superstring theory]].
 
+* [institute page](https://umdphysics.umd.edu/people/faculty/current/item/167-gatess.html)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Sylvester_James_Gates)
+
+* [InSpire page](https://inspirehep.net/authors/1008785)
+
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=40774)
 
 
 ## Selected writings
@@ -37,6 +43,11 @@ On [[Riemann normal coordinates]] in [[supergeometry]] with application to [[sig
 and to [[supergravity]]:
 
 * [[Marcus Grisaru]], [[Marcia E. Knutt-Wehlau]], [[Warren Siegel]], *A Superspace normal coordinate derivation of the density formula*, Nucl. Phys. B **523** (1998) 663-679 \[<a href="https://doi.org/10.1016/S0550-3213(98)00151-5">doi:10.1016/S0550-3213(98)00151-5</a>, [arXiv:hep-th/9711120](https://arxiv.org/abs/hep-th/9711120)\]
+
+Early discussion of coupling the [[Green-Schwarz superstring]] to general [[background fields]] in $D=4$:
+
+* {#Gates90} [[S. James Gates Jr.]]: *Progress Toward Covariant Formulation of All $D=4$ GS-type $\sigma$-model Actons*, in: *Superstrings and Particle Theory*, Proceedings of the Conference in Tuscaloosa 8–11 November 1989, World Scientific (1990) &lbrack;[doi:10.1142/1051](https://doi.org/10.1142/1051), [[Gates-D4GSModels.pdf:file]]&rbrack;
+
 
 On [[supersymmetry]] via [[adinkras]]:
 
