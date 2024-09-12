@@ -34,17 +34,25 @@ The original articles:
 
 * [[Boris Dubrovin]], *Geometry and Analytic Theory of Frobenius Manifolds*, Extra Volume ICM II (1998) 315–326 &lbrack;[arXiv:math/9807034](https://arxiv.org/abs/math/9807034)&rbrack;
 
+Monograph with relation to [[quantum cohomology]]:
+
+* [[Yuri Manin]]: *Frobenius manifolds, quantum cohomology, and moduli spaces*, Colloqium Publications **47**, Amer. Math. Soc. (1999) &lbrack;[ams:](https://bookstore.ams.org/coll-47)&rbrack;
+
 See also:
 
 * Wikipedia, _[Frobenius manifold](http://en.wikipedia.org/wiki/Frobenius_manifold)_
-* [[Yuri Manin]], _Frobenius manifolds, quantum cohomology, and moduli spaces_, Amer. Math. Soc. Colloqium Publications __47__, 1999
+
 
 Generalization to [[supergeometry]] (Frobenius [[supermanifolds]]) and relation to [[quantum cohomology]] of [[complex projective space]]:
 
 * [[Yuri I. Manin]], [[Sergei A. Merkulov]]: *Semisimple Frobenius (super)manifolds and quantum cohomology of $P^r$*, Topol. Methods in Nonlinear Analysis **9** (1997) 107-161 &lbrack;[arXiv:alg-geom/9702014](https://arxiv.org/abs/alg-geom/9702014), [doi:10.12775/TMNA.1997.006](http://dx.doi.org/10.12775/TMNA.1997.006)&rbrack;
 
+Frobenius manifolds in [[singularity theory]], along with a generalization (F-manifolds):
 
-Relation to [[W-algebras]]:
+* [[Claus Hertling]]: _Frobenius manifolds and moduli spaces for singularities_, Cambridge University Press (2002) &lbrack;[doi:10.1017/CBO9780511543104](https://doi.org/10.1017/CBO9780511543104)&rbrack;
+
+
+Obtaining Frobenius manifolds from [[W-algebras]]:
 
 * [[Yassir I. Dinar]]: *Frobenius manifolds from regular classical $W$-algebras*, Advances in Mathematics **226** Issue 6 (2011) 5018-5040 &lbrack;[arXiv:1001.0611](https://arxiv.org/abs/1001.0611), [doi:10.1016/j.aim.2010.12.024](https://doi.org/10.1016/j.aim.2010.12.024)&rbrack;
 
@@ -56,9 +64,7 @@ Survey:
 
 * [[Yassir Dinar]]: *Dubrovin-Frobenius Manifolds from Classical $W$-Algebras*, [talk at](CQTS#DinarSep24) [[CQTS]] @ NYU Abu Dhabi (Sep 2024) &lbrack;slides: [[Dinar-CQTS-Sep-2024.pdf:file]]&rbrack;
 
-Appearance in [[singularity theory]], along with a generalization (F-manifolds) is studied in
 
-* [[Claus Hertling]], _Frobenius manifolds and moduli spaces for singularities_, Cambridge University Press 2002.
 
 [[!redirects Frobenius manifolds]]
 
