@@ -56,7 +56,7 @@ One can view the resulting value as a mixture, analogous to a convex combination
 
 In the language of [[probability theory]], we are taking the [[expectation value]] of the [[random variable]] $f$ on the [[probability space]] $(X,p)$.
 
-The very similar construction can be given by replacing $\mathbb{R}$ with a generic Banach space, using [[Bochner integrals]]. 
+A very similar construction can be given by replacing $\mathbb{R}$ with a generic Banach space, using [[Bochner integrals]]. 
 
 
 ### For probability measures
