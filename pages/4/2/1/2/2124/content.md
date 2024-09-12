@@ -63,7 +63,7 @@ The degeneracy of BPS states in string theory has been used to provide a microsc
 ## Formalization in higher differential geometry
  {#InTermsOfHigherDifferentialGeometry}
 
-> The following are some observations on the formalization of BPS states from the [[nPOV]], in [[higher differential geometry]], following ([Sati-Schreiber 15](#SatiSchreiber15)).
+> The following are some observations on the formalization of BPS states from the [[nPOV]], in [[higher differential geometry]], following ([Sati & Schreiber 2015](#SatiSchreiber15)).
 
 Let $\mathbb{R}^{d-1,1|N}$ be a [[super-Minkowski spacetime]], let $(d,N,p)$ be in the [[brane scan]] and write
 
@@ -316,7 +316,7 @@ Detailed discussion of examples for various backgrounds is in
 
 Discussion of this in [[higher differential geometry]] via the [[Poisson bracket Lie n-algebra]] is in 
 
-* {#SatiSchreiber15} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Lie n-algebras of BPS charges]]_ ([arXiv:1507.08692](http://arxiv.org/abs/1507.08692))
+* {#SatiSchreiber15} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Lie n-algebras of BPS charges]]_,  J. High Energ. Phys. **2017** 87 (2017) &lbrack;[arXiv:1507.08692](http://arxiv.org/abs/1507.08692), <a href="http://link.springer.com/article/10.1007/JHEP03(2017)087">doi:10.1007/JHEP03(2017)087</a>&rbrack;
 
 Discussion of relation of [[M5-brane]] BPS states to [[knot invariants]] includes
 
