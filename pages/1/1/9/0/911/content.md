@@ -107,7 +107,7 @@ The functor $el\colon \mathbf{Set}^{\mathcal{C}} \to \mathbf{Cat}$ has a right a
 =--
 +-- {: .proof}
 ###### Proof
-By a simple coend computation
+By a simple [[coend]] computation:
 $$
 \begin{aligned}
 \mathbf{Cat}(el(F),D)&\cong \mathbf{Cat}\left(  \int^c J c\times\delta(F  c), D\right)\\ &\cong \int_c\mathbf{Cat}\big(J c\times \delta(F c),D\big)\\ 
