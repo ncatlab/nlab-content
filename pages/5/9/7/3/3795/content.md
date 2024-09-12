@@ -95,7 +95,7 @@ Relation to [[Hilbert schemes]]:
 
 * Michele Cirafici, Annamaria Sinkovics, [[Richard Szabo]], _Cohomological gauge theory, quiver matrix models and Donaldson-Thomas theory_, Nucl. Phys. B809: 452-518, 2009 ([arXiv:0803.4188](https://arxiv.org/abs/0803.4188))
 
-* Artan Sheshmani, _Hilbert Schemes, Donaldson-Thomas theory, Vafa-Witten and Seiberg-Witten theories_, Notices of the International Congress  of Chines Mathematics (2019) ([j.mp:2U7qd01](http://j.mp/2U7qd01), [pdf](https://scholar.harvard.edu/files/artan/files/iccm_07_02_a03.pdf))
+* [[Artan Sheshmani]], _Hilbert Schemes, Donaldson-Thomas theory, Vafa-Witten and Seiberg-Witten theories_, Notices of the International Congress  of Chines Mathematics (2019) ([j.mp:2U7qd01](http://j.mp/2U7qd01), [pdf](https://scholar.harvard.edu/files/artan/files/iccm_07_02_a03.pdf))
 
 
 [[!redirects Donaldson-Thomas invariants]]
