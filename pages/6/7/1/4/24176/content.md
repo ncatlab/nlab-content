@@ -87,6 +87,6 @@ See also:
 
 * {#UFP13} [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
-
+* {#Rijke17} [[Egbert Rijke]], *The join construction*, 26 Jan 2017, ([arXiv:1701.07538](https://arxiv.org/abs/1701.07538))
 
 category: category theory
