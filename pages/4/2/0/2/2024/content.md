@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
@@ -15,7 +15,7 @@
 
 ## Idea
 
-An _overt_ space is a [[topological space]] that satisfies a condition [[de Morgan duality|logically dual]] to that satisfied by a *[[compact space]]*.  An overt space is also called _open_ (in French, there is only one word, 'ouvert').
+An _overt_ space is a space (of a sort studied in [[topology]]) that satisfies a condition [[de Morgan duality|logically dual]] to that satisfied by a *[[compact space]]*.  An overt space is also called _open_ (in French, there is only one word, 'ouvert') or _locally positive_.
 
 
 ## Motivation
@@ -54,11 +54,13 @@ In the case of [[locales]], it is sufficient to require the above definition onl
 
 In impredicative constructive mathematics, [[overt locales]] can be characterized by the *positive covering lemma*: $X$ is overt iff every open $U\in O(X)$ can be covered by positive opens, and iff every covering of an open $U$ can be refined to a covering by positive elements.
 
+
 ## Examples
 
 * At least in impredicative constructive mathematics, the [[topological locale|locale induced by a topological space]] is overt. An open subspace $U$ is positive if and only if it is inhabited.
 
 * At least in impredicative constructive mathematics, the [[spectrum of a commutative ring]] $A$ (defined as the locale whose frame is the frame of radical ideals) is overt if and only if any element of $A$ is nilpotent or not nilpotent.
+
 
 ## Remarks
 
@@ -68,11 +70,13 @@ Note that overtness is expressed only in terms of a [[left adjoint]], whereas op
 
 An overt space may also be called **locally $(-1)$-connected**, since this condition is the [[(0,1)-topos]]-theoretic version of the notion of [[locally connected topos]] and [[locally n-connected (n,1)-topos]].  A similar thing happens for higher local connectivity involving the Frobenius reciprocity condition, which must be imposed on general [[geometric morphisms]] to make them locally $n$-connected, but is automatic for morphisms to the point.
 
+
 ## In synthetic topology
 
 In [[synthetic topology]], we interpret 'space' to mean simply 'set' (or [[type]], i.e. the basic objects of our foundational system).  If the notion of 'open' is specified by a [[dominance]], then there is an induced nontrivial notion of "overt set", defined essentially as above.  For instance, the [[Rosolini dominance]] is the smallest dominance such that $\mathbb{N}$ is overt, whereas if all sets are overt then the dominance is trivial.
 
 On the other hand, if by 'open' we mean an open subset [in the sense of Penon](/nlab/show/open+subspace#SynTop), then all sets are overt.
+
 
 ## References
 
@@ -88,16 +92,19 @@ Some of the history is described in the introduction to:
 
 * [[Bas Spitters]], _Locatedness and Overt Sublocales_, Annals of Pure and Applied Logic, 162:1, October 2010, Pages 36&#8211;54. ([arxiv](http://arxiv.org/abs/math/0703561))
 
+
 [[!redirects overt space]]
 [[!redirects overt spaces]]
-[[!redirects open space]]
-[[!redirects open spaces]]
-
-[[!redirects locally (-1)-connected space]]
-[[!redirects locally (-1)-connected spaces]]
-[[!redirects locally (-1)-connected locale]]
-[[!redirects locally (-1)-connected locales]]
-
 [[!redirects overt]]
 [[!redirects overtness]]
 
+[[!redirects open space]]
+[[!redirects open spaces]]
+
+[[!redirects locally positive space]]
+[[!redirects locally positive spaces]]
+[[!redirects locally positive]]
+[[!redirects local positivity]]
+
+[[!redirects locally (-1)-connected space]]
+[[!redirects locally (-1)-connected spaces]]
