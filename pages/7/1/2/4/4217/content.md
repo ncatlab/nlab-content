@@ -86,6 +86,8 @@ If one has the [[boolean domain]] and the [[existential quantifier]], then the d
 
 $$A \vee B \coloneqq \exists b:\mathrm{bool}.((b = \mathrm{true}) \to A) \times ((b = \mathrm{false}) \to B)$$
 
+[[Mike Shulman]] shows that the [[disjunction]] $P \vee Q$ of two [[mere propositions]] $P$ and $Q$ is also the [[join type]] of the two types $P * Q$. 
+
 ## Classical vs constructive
 
 There are a variety of connectives that are distinct in [[intuitionistic logic]] but are all equivalent to disjunction in [[classical logic]].  Here is a Hasse diagram of some of them, with the strongest statement at the bottom and the weakest at the top (so that each statement entails those above it):
@@ -143,6 +145,10 @@ $$ \begin {gathered}
 The definition of the disjunction of two types in dependent type theory as the propositional truncation of the sum type is found in:
 
 * {#UFP13} [[Univalent Foundations Project]], §3.7 in: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+The definition of the disjunction of two mere propositions in dependent type theory as the [[join type]] of propositions is found in:
+
+* [[Mike Shulman]], *Cohomology*, Homotopy type theory blog ([web](http://homotopytypetheory.org/2013/07/24/cohomology/))
 
 And the disjunction of two types defined from the type of propositions and dependent product types can be found in:
 
