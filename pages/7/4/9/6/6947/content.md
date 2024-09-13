@@ -51,9 +51,9 @@ $$\frac{\Gamma, x:A \vdash P(x) \; \mathrm{prop} \quad \Gamma \vdash x:A \quad \
 
 $$\frac{\Gamma, x:A \vdash P(x) \; \mathrm{prop} \quad \Gamma, \exists x:A.P(x) \; \mathrm{true} \vdash Q \; \mathrm{prop} \quad \Gamma, x:A, P(x) \; \mathrm{true} \vdash Q \; \mathrm{true}}{\Gamma, \exists x:A.P(x) \; \mathrm{true} \vdash Q \; \mathrm{true}}$$
 
-### In type theory
+### In dependent type theory
 
-In [[type theory]] under the identification of [[propositions as types]], the existential quantifier is given by the [[bracket type]] of the [[dependent sum type]]. Existential quantifier types in general could be regarded as a particular sort of [[higher inductive type]]. In [[Coq]] syntax: 
+In [[dependent type theory]] under the identification of [[propositions as some types]], the existential quantifier is given by the [[bracket type]] of the [[dependent sum type]]. Existential quantifier types in general could be regarded as a particular sort of [[higher inductive type]]. In [[Coq]] syntax: 
 
     Inductive existquant (T:Type) (P:T->Type) : Type :=
     | exist : forall (x:T), P x -> existquant T P
@@ -85,6 +85,10 @@ and if $A \simeq B$, then $(A \to C) \simeq (B \to C)$. In addition, for all typ
 
 $$\left[\sum_{x:A} B(x)\right] \simeq \left(\prod_{P:\mathrm{Prop}} \left(\left(\sum_{x:A} B(x)\right) \to P\right) \to P\right) \simeq \left(\prod_{P:\mathrm{Prop}} \left(\prod_{x:A} B(x) \to C\right)\right)$$
 \end{proof}
+
+There is also another definition of the existential quantifier of a family of [[mere propositions]] $P(x)$ indexed by $x:A$, as the [[dependent pushout type]] of the $A$-indexed family of functions $\lambda f:\prod_{x:A} P(x).f(x)$ from the [[dependent product type]] $\prod_{x:A} P(x)$ to the type $P(x)$. 
+
+This is the same as the other two definitions because every mere proposition is a [[subtype]] of the [[unit type]], and the existential quantification of $P(x)$ is the $A$-indexed [[union]] of all the $P(x)$ as subtypes of the unit types, and the union of all the $P(x)$ as subtypes of the unit type is defined to be, the [[dependent pushout type]] of the family of dependent product projection functions from the [[dependent product type]] $\prod_{x:A} P(x)$ to each $P(x)$ for $x:A$. 
 
 ## Properties
 
