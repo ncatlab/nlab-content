@@ -66,7 +66,7 @@ This gives a vivid intuitive picture of the mechanism underlying the corresponde
 
 The AdS/CFT correspondence has been widely discussed and is mostly understood by default only in the *[[large N limit|large $N$ limit]]* and for large [['t Hooft coupling]], where the given gauge theory is dual to plain [[classical field theory|classical]] [[supergravity]], which stands out as being particularly tractable and well-understood.
 
-But it is expected ([AGMOO99](#AharonyGubserMaldacenaOoguriOz99), [p. 60](https://arxiv.org/pdf/hep-th/9905111.pdf#page=61)) that the [[duality in string theory|duality]] still applies in the opposite [[large 1/N limit]], now involving on the [[gravity]]-side corrections 
+But it is expected (cf. [AGMOO99](#AharonyGubserMaldacenaOoguriOz99) [p. 60](https://arxiv.org/pdf/hep-th/9905111.pdf#page=61), [Chester 2018](#Chester18), [Chester & Perlmutter 2018 p. 2](#ChesterPerlmutter18)) that the [[duality in string theory|duality]] still applies in the opposite [[large 1/N limit]], now involving on the [[gravity]]-side corrections 
 
 1. from [[perturbative string theory]] (for small [['t Hooft coupling]], there are some checks of such stringy corrections) and 
 
@@ -682,7 +682,11 @@ See also
   
 Discussion of the $CFT_6$ in $AdS_7/CFT_6$ via [[conformal bootstrap]]:
 
-* [[Shai Chester]], [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_, J. High Energ. Phys. (2018) 2018: 116 ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
+* {#Chester18} [[Shai Chester]], _Bootstrapping M-theory_, PhD thesis, Princeton (2018) &lbrack;[[ChesterBootstrappingMTheory.pdf:file]], [ark:88435/dsp01kw52jb833](http://arks.princeton.edu/ark:/88435/dsp01kw52jb833)&rbrack;
+
+* Nathan B. Agmon, [[Shai Chester]], Silviu S. Pufu, _Solving M-theory with the Conformal Bootstrap_, JHEP 06 (2018) 159 &lbrack;[arXiv:1711.07343](https://arxiv.org/abs/1711.07343)&rbrack;
+
+* {#ChesterPerlmutter18} [[Shai Chester]], [[Eric Perlmutter]]: *M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture*, J. High Energ. Phys. **2018** 116 (2018) &lbrack;[arXiv:1805.00892](https://arxiv.org/abs/1805.00892), <a href="https://doi.org/10.1007/JHEP08(2018)116">doi:10.1007/JHEP08(2018)116</a>&rbrack;
 
 * [[Luis Alday]], [[Shai Chester]], Himanshu Raj, _6d $(2,0)$ and M-theory at 1-loop_ ([arXiv:2005.07175](https://arxiv.org/abs/2005.07175))
 
