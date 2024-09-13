@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
 # Church numerals
 
 * toc
@@ -14,6 +29,10 @@ The $n$th Church numeral $\underline{n}$ is the operation of "iteration $n$ time
 ## Connection to realizability
 
 The Church numeral $\underline{n}$ can be regarded as a [[realizer]] or "proof" that we can do induction up to $n$.  See [this discussion](https://nforum.ncatlab.org/discussion/8622/church-numerals-are-realizers/).
+
+## References
+
+Named after *[[Alonzo Church]]*.
 
 [[!redirects Church numerals]]
 
