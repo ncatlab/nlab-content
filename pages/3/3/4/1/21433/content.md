@@ -9,9 +9,9 @@ On the [[conformal bootstrap]]:
 
 Discussion of [[large 1/N limit|small N]] effects in [[M-theory]] using the [[conformal bootstrap]]:
 
-* Nathan B. Agmon, [[Shai Chester]], Silviu S. Pufu, _Solving M-theory with the Conformal Bootstrap_, JHEP 06 (2018) 159 ([arXiv:1711.07343](https://arxiv.org/abs/1711.07343))
+* Nathan B. Agmon, [[Shai Chester]], Silviu S. Pufu, _Solving M-theory with the Conformal Bootstrap_, JHEP 06 (2018) 159 &lbrack;[arXiv:1711.07343](https://arxiv.org/abs/1711.07343)&rbrack;
 
-* [[Shai Chester]], _Bootstrapping M-theory_, 2018 ([[ChesterBootstrappingMTheory.pdf:file]])
+* {#Chester18} [[Shai Chester]], _Bootstrapping M-theory_, PhD thesis, Princeton (2018) &lbrack;[[ChesterBootstrappingMTheory.pdf:file]], [ark:88435/dsp01kw52jb833](http://arks.princeton.edu/ark:/88435/dsp01kw52jb833)&rbrack;
 
 
 Specifically for the [[D=6 N=(2,0) SCFT]] on the [[M5-brane]] via [[AdS7/CFT6]]:
