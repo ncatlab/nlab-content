@@ -86,7 +86,7 @@ If one has the [[boolean domain]] and the [[existential quantifier]], then the d
 
 $$A \vee B \coloneqq \exists b:\mathrm{bool}.((b = \mathrm{true}) \to A) \times ((b = \mathrm{false}) \to B)$$
 
-[[Mike Shulman]] shows that the [[disjunction]] $P \vee Q$ of two [[mere propositions]] $P$ and $Q$ is also the [[join type]] of the two types $P * Q$. 
+The [[disjunction]] $P \vee Q$ of two [[mere propositions]] $P$ and $Q$ is also the [[join type]] of the two types $P * Q$. This is because every mere proposition is a [[subtype]] of the [[unit type]], and the disjunction of $P$ and $Q$ is the [[union]] of $P$ and $Q$ as two subtypes of the unit types, and the union of $P$ and $Q$ as subtypes of the unit type is defined to be the [[join type]] of $P$ and $Q$, the [[pushout type]] of the two product projection functions from the [[product type]] $P \times Q$ to $P$ and $Q$ respectively. 
 
 ## Classical vs constructive
 
@@ -148,7 +148,7 @@ The definition of the disjunction of two types in dependent type theory as the p
 
 The definition of the disjunction of two mere propositions in dependent type theory as the [[join type]] of propositions is found in:
 
-* [[Mike Shulman]], *Cohomology*, Homotopy type theory blog ([web](http://homotopytypetheory.org/2013/07/24/cohomology/))
+* {#Shulman13} [[Mike Shulman]], *Cohomology*, Homotopy type theory blog ([web](http://homotopytypetheory.org/2013/07/24/cohomology/))
 
 And the disjunction of two types defined from the type of propositions and dependent product types can be found in:
 
