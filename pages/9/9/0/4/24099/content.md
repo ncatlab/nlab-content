@@ -15,9 +15,9 @@
 
 ## Definition 
 
-A [[locale]] $L$ is **locally positive** (or **overt** or **open**) if every [[open sublocale]] $O \in \mathcal{O}(L)$ is an indexed join of [[positive open sublocales]], or equivalently, if it has a base of positive open sublocales. 
+A [[locale]] $L$ is __locally positive__ (or _locally $(-1)$-connected_, _overt_, or _open_, but not to be confused with an [[open sublocale]]) if every [[open sublocale]] $O \in \mathcal{O}(L)$ is an indexed join of [[positive open sublocales]], or equivalently, if it has a base of positive open sublocales. 
 
-Other definitions of a locally positive locale include that the unique map $!:L \to 1$ is open, and that the product projection $\pi_2:L \times L' \to L'$ is open for every locale $L'$. 
+Other definitions of a locally positive locale include that the unique map $!:L \to 1$ is [[open map|open]], and that the product projection $\pi_2:L \times L' \to L'$ is open for every locale $L'$.
 
 
 ## See also 
@@ -42,7 +42,12 @@ Other definitions of a locally positive locale include that the unique map $!:L 
 
 [[!redirects locally positive locale]]
 [[!redirects locally positive locales]]
+
 [[!redirects overt locale]]
 [[!redirects overt locales]]
+
 [[!redirects open locale]]
 [[!redirects open locales]]
+
+[[!redirects locally (-1)-connected locale]]
+[[!redirects locally (-1)-connected locales]]
