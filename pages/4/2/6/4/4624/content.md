@@ -33,7 +33,9 @@ If $C$ is [[finitely complete category|finitely complete]], then the subobjects 
 
 In any [[coherent category]] (such as a [[pretopos]]), the subobjects form a distributive [[lattice]], so we may speak of the __lattice of subobjects__.  
 
-In any [[Heyting category]] (such as a [[topos]]), the subobjects of $X$ form a [[Heyting algebra]], so we may speak of the __algebra of subobjects__.  
+In any [[Heyting category]] (such as an [[elementary topos]]), the subobjects of $X$ form a [[Heyting algebra]], so we may speak of the __algebra of subobjects__.  
+
+In any [[geometric category]] (such as a [[Grothendieck topos]]), the subobjects of $X$ form a [[frame]], so we may speak of the __frame of subobjects__.  
 
 The reader can probably think of other variations on this theme.
 
@@ -58,6 +60,8 @@ If one opts for the alternative[^1] definition that subobjects _are_ monomorphis
 * Every [[regular category]] $C$ is a [[regular hyperdoctrine]] induced by the subobject poset functor, where the subobject poset functor has codomain the [[subcategory]] of [[infimum]]-[[semilattices]] $\mathrm{Sub}:C^\op \to InfSemiLat$. 
 
 * Every [[coherent category]] $C$ is a [[coherent hyperdoctrine]] induced by the subobject poset functor, where the subobject poset functor has codomain the [[subcategory]] of [[distributive lattices]] $\mathrm{Sub}:C^\op \to DistLat$. 
+
+* Every [[geometric category]] $C$ is a [[geometric hyperdoctrine]] induced by the subobject poset functor, where the subobject poset functor has codomain the [[subcategory]] of [[frames]] $\mathrm{Sub}:C^\op \to Frm$. 
 
 * Every [[Heyting category]] $C$ is a [[first-order hyperdoctrine]] induced by the subobject poset functor, where the subobject poset functor has codomain the [[subcategory]] of [[Heyting algebras]] $\mathrm{Sub}:C^\op \to HeytAlg$. 
 
@@ -116,3 +120,8 @@ If one opts for the alternative[^1] definition that subobjects _are_ monomorphis
 [[!redirects algebras of subobjects]]
 [[!redirects subobject algebra]]
 [[!redirects subobject algebras]]
+
+[[!redirects frame of subobjects]]
+[[!redirects frame of subobjects]]
+[[!redirects subobject frame]]
+[[!redirects subobject frame]]
