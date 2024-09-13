@@ -69,12 +69,12 @@ This is reviewed in ([GLSW, section 2](#GLSW)).
 
 Original articles:
 
-* K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for d=11 supergravity?_, Class. Quant. Grav.17:3689-3702, 2000 ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034))
+* K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for d=11 supergravity?_, Class. Quant. Grav. **17** (2000) 3689-3702 &lbrack;[arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034), [doi:10.1088/0264-9381/17/18/308](https://doi.org/10.1088/0264-9381/17/18/308)&rbrack;
 
 * {#Hull07} [[Chris Hull]], *Generalised Geometry for M-Theory*, JHEP 0707:079 (2007) &lbrack;[arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203), [doi:10.1088/1126-6708/2007/07/079](https://doi.org/10.1088/1126-6708/2007/07/079)&rbrack;
  
 
-* {#PachecoWaldram08} Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_, JHEP 0809:123, 2008 ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
+* {#PachecoWaldram08} Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_, JHEP 0809:123 (2008) &lbrack;[arXiv:0804.1362](http://arxiv.org/abs/0804.1362)&rbrack;
   
 
 * {#GLSW} [[Mariana Graña]], [[Jan Louis]], Aaron Sim, [[Daniel Waldram]], _$E_{7(7)}$ formulation of $N=2$ backgrounds_ ([arXiv:0904.2333](http://arxiv.org/abs/0904.2333))
