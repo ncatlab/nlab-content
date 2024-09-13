@@ -483,13 +483,16 @@ Relation to the [[Kochen-Specker theorem]]:
 
 
   
-Review:
+Introduction and review:
 
 * [[John F. Clauser]], [[Abner Shimony]], *Bell's theorem. Experimental tests and implications*, Rep. Prog. Phys. **41** (1978) 1881 &lbrack;[doi:10.1088/0034-4885/41/12/002](https://iopscience.iop.org/article/10.1088/0034-4885/41/12/002)&rbrack;
 
 * {#Kuperberg05} [[Greg Kuperberg]], section 1.6.2 of: _A concise introduction to quantum probability, quantum mechanics, and quantum computation_ (2005) &lbrack;[pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf), [[Kuperberg-ConciseQuantum.pdf:file]]&rbrack;
 
 * [[Valter Moretti]], Thm. 4.49 of: *Fundamental Mathematical Structures of Quantum Theory*, Springer (2019) &lbrack;[doi:10.1007/978-3-030-18346-2](https://doi.org/10.1007/978-3-030-18346-2)&rbrack;
+
+* M.S.Guimaraes, I. Roditi, S.P. Sorella: *Introduction to Bell's inequality in Quantum Mechanics* &lbrack;[arXiv:2409.07597](https://arxiv.org/abs/2409.07597)&rbrack;
+
 
 and on a background of [[quantum logic]]:
 
