@@ -167,7 +167,7 @@ For analogous discussion in [[7d supergravity]] and [[4d supergravity]], see the
 
 ### Alternative
 
-From a different perspective the M-theory algebra extensions were (apparently independently) introduced in
+Alternatively, from considerations of brane charges, the M-theory algebra extensions were (apparently independently) introduced in
 
  * {#vHvP82} [[Jan-Willem van Holten]], [[Antoine Van Proeyen]], _$N=1$ supersymmetry algebras in $d = 2, 3, 4 \,mod\, 8$_ J. Phys. A **15** (1982) 3763 &lbrack;[doi:10.1088/0305-4470/15/12/028](https://iopscience.iop.org/article/10.1088/0305-4470/15/12/028), [spire:177060](https://inspirehep.net/literature/177060)&rbrack;
 
@@ -223,6 +223,11 @@ Arguments that the charges of the M-theory super Lie algebra may be identified i
 * [[Peter West]], _$E_{11}$, $SL(32)$ and Central Charges_, Phys.Lett.B575:333-342,2003 ([arXiv:hep-th/0307098v2](http://arxiv.org/abs/hep-th/0307098v2))
 
 * [[Paul Cook]], around p. 75 of _Connections between Kac-Moody algebras and M-theory_ ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
+
+Relation to [[exceptional field theory]]:
+
+* [[Igor Bandos]]: *Exceptional field theories, superparticles in an enlarged 11D superspace and higher spin theories*, Nucl. Phys. B **925** (2017) 28-62 &lbrack;[arXiv:1612.01321](https://arxiv.org/abs/1612.01321), [doi:10.1016/j.nuclphysb.2017.10.001](https://doi.org/10.1016/j.nuclphysb.2017.10.001)&rbrack;
+
 
 
 [[!redirects M-theory Lie algebra]]
