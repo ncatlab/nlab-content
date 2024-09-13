@@ -38,6 +38,8 @@ Original articles:
 
 See also 
 
+* [[Alonzo Church]]: _Schröder's Anticipation of the Simple Theory of Types_, Erkenntnis **10** (1976) 407-411 &lbrack;[doi:10.1007/BF00176047](https://doi.org/10.1007/BF00176047)&rbrack;
+
 * Stanford Encyclopedia of Philosophy, *[Church’s Type Theory](https://plato.stanford.edu/entries/type-theory-church/)*
 
 Establishing the [[syntax-semantics duality|syntax/semantics]] [[relation between category theory and type theory|relation between]] [[cartesian closed categories]] and simply-typed lambda calculi:
