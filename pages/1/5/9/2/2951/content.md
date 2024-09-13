@@ -91,10 +91,9 @@ On [[2d conformal field theory]] and [[modular functors]]:
 
 Further on the [[FQFT|functorial]]-definition of [[2d conformal field theory]]:
 
-* [[Graeme Segal]], *The definition of conformal field theory*, in: K. Bleuler, M. Werner (eds.), *Differential geometrical methods in theoretical physics* (Proceedings of Research Workshop, Como 1987), NATO Adv. Sci. Inst., Ser. C: Math. Phys. Sci. **250** Kluwer Acad. Publ., Dordrecht (1988) 165-171 $[$[doi:10.1007/978-94-015-7809-7](https://doi.org/10.1007/978-94-015-7809-7)$]$
+* [[Graeme Segal]], *The definition of conformal field theory*, in: K. Bleuler, M. Werner (eds.), *Differential geometrical methods in theoretical physics* (Proceedings of Research Workshop, Como 1987), NATO Adv. Sci. Inst., Ser. C: Math. Phys. Sci. **250** Kluwer Acad. Publ., Dordrecht (1988) 165-171 &lbrack;[doi:10.1007/978-94-015-7809-7](https://doi.org/10.1007/978-94-015-7809-7)&rbrack;
 
-* [[Graeme Segal]], *The definition of conformal field theory*, in: [[Ulrike Tillmann]] (ed.), *Topology, geometry and quantum field theory* , London Math. Soc. Lect. Note Ser. **308**, Cambridge University Press (2004) 421-577 $[$[doi:10.1017/CBO9780511526398.019](https://doi.org/10.1017/CBO9780511526398.019), [pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf), [[SegalDefinitionCFT.pdf:file]]$]$
-
+* [[Graeme Segal]], *The definition of conformal field theory*, in: [[Ulrike Tillmann]] (ed.), *Topology, geometry and quantum field theory* , London Math. Soc. Lect. Note Ser. **308**, Cambridge University Press (2004) 421-577 &lbrack;[doi:10.1017/CBO9780511526398.019](https://doi.org/10.1017/CBO9780511526398.019), [pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf), [[SegalDefinitionCFT.pdf:file]]&rbrack;
 
 
 
@@ -120,6 +119,10 @@ review talks:
 * [[Graeme Segal]], _Wick rotation and the positivity of energy in quantum field theory_, talk at Institut des Hautes Études Scientifiques (IHÉS), June 2014 ([video recording](https://www.youtube.com/watch?feature=player_embedded&v=vTvXHL6ZJik))
 
 * [[Graeme Segal]], *Wick Rotation and the Positivity of Energy in Quantum Field Theory*, talk at IAS Physics Group Meeting, December 2021 ([video recording](https://www.ias.edu/video/wick-rotation-and-positivity-energy-quantum-field-theory))
+
+On [[quantum field theory]]:
+
+* [[Graeme Segal]]: *A point of view on quantum field theory*, lecture series at International Center for Mathematical Sciences (July 2024) &lbrack;video: [part 1](https://youtu.be/iABSxSNBTCk?list=PLUbgZHsSoMEVKB1ePqcmZgoVavZqsAFBj), [part 2](https://youtu.be/a3bni4NiaaI?list=PLUbgZHsSoMEVKB1ePqcmZgoVavZqsAFBj), [part 3](https://youtu.be/pph0hCrIJ4k?list=PLUbgZHsSoMEVKB1ePqcmZgoVavZqsAFBj), [part 4](https://youtu.be/07wUiwEPHwQ?list=PLUbgZHsSoMEVKB1ePqcmZgoVavZqsAFBj)&rbrack;
 
 
 
