@@ -617,7 +617,7 @@ and later work by Russell, where it is used to prevent [[paradoxes]] of [[set th
 
 * [[Alonzo Church]], _A Formulation of the Simple Theory of Types_, The Journal of Symbolic Logic Vol. 5, No. 2 (Jun., 1940), pp. 56-68 ([JSTOR](http://www.jstor.org/stable/2266170?seq=1#page_scan_tab_contents))
 
-* [[Alonzo Church]], _Schröder's Anticipation of the Simple Theory of Types_, Erkenntnis **10** (1976) 407-411
+* [[Alonzo Church]]: _Schröder's Anticipation of the Simple Theory of Types_, Erkenntnis **10** (1976) 407-411 &lbrack;[doi:10.1007/BF00176047](https://doi.org/10.1007/BF00176047)&rbrack;
 
 This is reviewed for instance in
 
