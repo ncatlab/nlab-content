@@ -66,10 +66,10 @@ Every [[atom]] of $L$ is positive, and indeed an atom is precisely a [[minimal e
 Although classically trivial, a key property of positivity in the constructive context is this:
 $$ \bigvee A = \bigvee A^+ ,$$
 where $A^+$ is the set of positive elements of $A$.
-
 A special case is
 $$ a = \bigvee \{a\}^+ = \bigvee \{ a | \lozenge{a} \} $$
 for any element $a$.
+But note that in impredicative constructive matematics, Definition \ref{constdef} does *not* necessarily satisfy this; rather, that definition satisfies either property (hence both) if and only if it satisfies Definition \ref{predconstdef}.  So these properties are really for Definitions \ref{preddef} and \ref{predconstdef} only.
 
 
 [[!redirects positive element]]
