@@ -607,13 +607,17 @@ where it has the famous passage
 
 Also
 
+* {#Russell08} [[Bertrand Russell]], _Mathematical Logic as Based on the Theory of Types_, American Journal of Mathematics, Vol. 30, No. 3 (Jul., 1908), pp. 222-262
+
 * {#RussellWhitehead10} [[Bertrand Russell]], [[Alfred Whitehead]],  _[[Principia Mathematica]]_, 1910
 
 and later work by Russell, where it is used to prevent [[paradoxes]] of [[set theory]] such as the [[liar's paradox]] (via a "[[ramified type|ramified hierarchy]]" of types) and [[Russell's paradox]] (via an "extensional hierarchy" of types). This then evolved into the "[[simple type theory]]":
 
-* {#Russell08} [[Bertrand Russell]], _Mathematical Logic as Based on the Theory of Types_, American Journal of Mathematics, Vol. 30, No. 3 (Jul., 1908), pp. 222-262
+* Leon Chwistek, The Theory of Constructive Types: Principles of Logic and Mathematics, Krakow: University Press, 1925, 98 pp. Extracted from the Annales de la Société Polonaise de Mathématique. (In DjVu format) [Linked from this page, under Bibliography, On logic and mathematics.](http://www.monoskop.org/Leon_Chwistek)
 
 * [[Alonzo Church]], _A Formulation of the Simple Theory of Types_, The Journal of Symbolic Logic Vol. 5, No. 2 (Jun., 1940), pp. 56-68 ([JSTOR](http://www.jstor.org/stable/2266170?seq=1#page_scan_tab_contents))
+
+* [[Alonzo Church]], _Schröder's Anticipation of the Simple Theory of Types_, Erkenntnis **10** (1976) 407-411
 
 This is reviewed for instance in
 
@@ -641,8 +645,6 @@ Survey of the history of type theoryL
 
 
 Of course there is also discussion of formalized [[types]] originating in [[computer science]] as _[[data types]]_, see there for references.
-
-* Leon Chwistek, The Theory of Constructive Types: Principles of Logic and Mathematics, Krakow: University Press, 1925, 98 pp. Extracted from the Annales de la Société Polonaise de Mathématique. (In DjVu format) [Linked from this page, under Bibliography, On logic and mathematics.](http://www.monoskop.org/Leon_Chwistek)
 
 Surveys of and introductions:
 
