@@ -184,6 +184,13 @@ The [[poset of truth values]] $\Omega$ is a [[frame]] equivalent to the [[frame 
 
 =--
 
++-- {: .num_example}
+###### Example
+
+For $\mathcal{E}$ a [[geometric category]] and $X$ an [[object]] in $\mathcal{E}$, the [[subobject poset]] $\mathrm{Sub}(X)$ is a [[frame]]. 
+
+=--
+
 +-- {: .num_prop} 
 ###### Proposition 
 A [[sup-lattice|complete]] [[decidable equality|decidable]] [[linear order]] is a frame. 
