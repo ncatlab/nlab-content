@@ -74,7 +74,7 @@ is a [[bijection]].
 (due to [Milnor & Stasheff (1974) Prob. 1-C (p. 11)](#MilnorStasheff74), detailed proof in [Kolář, Michor & Slovák 1993 Lem. 35.8 & Cor. 35.9](#KolarSlovakMichor93))
 
 Milnor's exercise (Lem. \ref{MilnorExercise}) implies --- and also is the special case for $X = \ast$ (the [[point space|point]]) of:
-\begin{theorem}
+\begin{theorem}\label{Embedding}
 The [[functor]]
 $$
   \begin{array}{ccc}
@@ -182,9 +182,8 @@ $$
   \,.
 $$
 
-It just remains to observe that this $f$ is necessarily [[smooth function|smooth]]. But since $\phi$ is given on *all* $g \in C^\infty(Y)$ this way, to see that $f$ is smooth at some $x$ take $g$ to be any smooth function which is [[constant function|constant]] on $1 \in \mathbb{R}$ in an [[open neighbourhood]] $U$ of $f(x)$ (e.g. a suitable [[bump function]]). Then $(g \circ f)_{\vert f^{-1}(U)} = f_{\vert f^{-1}(U)}$, which thus is smooth.
+It just remains to observe that this $f$ is necessarily [[smooth function|smooth]]. But since $\phi$ is given on *all* $g \in C^\infty(Y)$ this way, to see that $f$ is smooth at some $x \in X$, choose any [[coordinate chart]] $U \subset Y$ around $f(x) \in Y$ and consider a $g$ which restricts to one of the [[coordinate functions]] $x^i$ on $U$. Then $(g \circ f)_{\vert f^{-1}(U)} = f^i_{\vert f^{-1}(U)}$ is the $i$th coordinate component of $f$ restricted to a neighbourhood of $x$, and this being smooth for all $i$ means that $f$ is smooth around $x$.
 \end{proof}
-
 
 
 
