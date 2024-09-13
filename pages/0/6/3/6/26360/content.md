@@ -134,6 +134,10 @@ and section 6.9 and 7.3 of:
 
 * [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
+see also:
+
+* [[Egbert Rijke]], *The join construction*, 26 Jan 2017, ([arXiv:1701.07538](https://arxiv.org/abs/1701.07538))
+
 [[!redirects set truncation]]
 [[!redirects set truncations]]
 
