@@ -166,6 +166,8 @@ $$w:A, x:I \vdash \mathrm{transport}_{\mathrm{descFam}_{\mathrm{pushout}_{A, I, 
 
 * The [[union]] of a family of [[subtypes]] of a type $A$ is given by the dependent pushout of the [[dependent pullback]] of the [[embedding of types|embeddings]] into $A$. 
 
+* The [[existential quantification]] of a family of [[mere propositions]] $P(x)$ indexed by $x:A$ is the dependent pushout of the $A$-indexed family of functions $\lambda f:\prod_{x:A} P(x).f(x)$ from the [[dependent product type]] $\prod_{x:A} P(x)$ to the type $P(x)$. 
+
 * Binary [[pushout types]] are boolean-indexed dependent pushout types. 
 
 * When the family of [[codomains]] $B(x)$ indexed by $x:I$ is a constant family of types, then the dependent pushout type are called **dependent coequalizer types** or **wide coequalizer types**. 
