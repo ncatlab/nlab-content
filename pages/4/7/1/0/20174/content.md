@@ -29,7 +29,7 @@ When $C$ is locally small and cocomplete as before, if the [[algebraically-free 
 
 ## Related pages
 
-* [[injective object]]
+* [[injective object]], [[projective object]]
 * [[algebraic small object argument]]
 * [[algebraically fibrant object]]
 
