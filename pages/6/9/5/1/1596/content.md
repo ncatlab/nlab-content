@@ -72,6 +72,7 @@ Note that a subcategory $D$ of an $n$-category $C$ is $(k-1)$-replete if and onl
 
 
 
+[[!redirects replete]]
 [[!redirects replete subcategory]]
 [[!redirects replete subcategories]]
 [[!redirects replete image]]
