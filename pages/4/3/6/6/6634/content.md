@@ -9,7 +9,6 @@
 =--
 =--
 
-# Lax morphisms
 * table of contents
 {:toc}
 
@@ -89,7 +88,7 @@ If we want to consider both lax and colax $T$-morphisms together, the natural st
 
 The 2-category $T Alg_p$ is fairly well-behaved; for strict $T$, it admits all strict [[PIE-limits]] (if the base 2-category does), and therefore all [[2-limits]] (i.e. bilimits).  When $T$ is [[accessible functor|accessible]], $T Alg_p$ admits all 2-colimits as well (but not, in general, many strict 2-colimits).
 
-However, the 2-categories $T Alg_l$ and $T Alg_c$ are not so well-behaved; they do not have many limits or colimits.  But once we enhance them to [[F-categories]], they admit all [[rigged limits]].  All three 2-categories also admit [[lax morphism classifier|morphism classifiers]]; that is, the inclusions $T Alg_s \to T Alg_*$ have left 2-adjoints.
+However, the 2-categories $T Alg_l$ and $T Alg_c$ are not so well-behaved; they do not have many limits or colimits.  But once we enhance them to [[F-categories]], they admit all [[rigged limits]].  All three 2-categories also admit [[weak morphism classifiers]]; that is, the inclusions $T Alg_s \to T Alg_*$ have left 2-adjoints.
 
 
 ## Related pages
