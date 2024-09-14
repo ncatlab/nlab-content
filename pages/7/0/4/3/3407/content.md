@@ -20,7 +20,7 @@
 
 ## Definition
 
-__$Dist Lat$__ is the [[category]] whose [[objects]] are [[distributive lattices]] and whose [[morphisms]] are lattice [[homomorphisms]], that is [[functions]] which preserve finitary [[meets]] and [[joins]] (equivalently, binary meets and joins and the [[top]] and [[bottom]] elements).  $Dist Lat$ is a [[replete]] [[subcategory]] of [[Pos]] and a [[full]] and [[replete]] [[subcategory]] of [[Lat]].
+__$Dist Lat$__ is the [[category]] whose [[objects]] are [[distributive lattices]] and whose [[morphisms]] are lattice [[homomorphisms]], that is [[functions]] which preserve finitary [[meets]] and [[joins]] (equivalently, binary meets and joins and the [[top]] and [[bottom]] elements).  $Dist Lat$ is a [[replete subcategory|replete]] [[subcategory]] of [[Pos]] and a [[full subcategory|full]] and [[replete subcategory|replete]] [[subcategory]] of [[Lat]].
 
 ## Properties
 
