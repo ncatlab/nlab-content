@@ -300,6 +300,12 @@ Next, we have the equivalence of the $\mathrm{LPO}_\mathbb{N}$ with the [[analyt
 The [[analytic LPO]] for the following sets of real numbers are equivalent to the LPO for the [[natural numbers]]: the [[Cauchy real numbers]] $\mathbb{R}_C$, the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]] $\mathbb{R}_E$/$\mathbb{R}_H$, and the subfield of [[Dedekind real numbers]] $\mathbb{R}_\Sigma \subseteq \mathbb{R}_D$ which are constructed out of [[Dedekind cuts]] valued in the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma \subseteq \Omega$. 
 \end{theorem}
 
+Let $C$ denote the [[category]] of [[discrete field|discrete]] [[sequentially Cauchy complete]] [[Archimedean ordered fields]]. $C$ is a [[groupoid]] and a [[subsingleton]] [[principle of equivalence|up to]] [[uniqueness quantifier|unique]] [[isomorphism]]: for every two [[objects]] $R \in C$ and $R' \in C$ there exists a unique [[morphism]] between $R$ and $R'$ which is an [[isomorphism]]. 
+
+\begin{theorem}
+LPO for the natural numbers holds if and only if there is an object $\mathbb{R} \in C$, which will necessarily be unique up to unique isomorphism, and LPO for the natural numbers fails if and only if $C$ is an [[empty category]]. 
+\end{theorem}
+
 There are other equivalent statements from [[real analysis]]:
 
 \begin{theorem}
