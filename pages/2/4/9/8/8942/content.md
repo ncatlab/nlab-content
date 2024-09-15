@@ -9,15 +9,16 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The $\mathbb{Z}_2$-[[orbifold]]/[[higher orientifold]] [[fixed point]] in [[Hořava-Witten theory]] might be called it _[[O-plane|O9-plane]]_ but is often called the _M9-brane_ (e.g. [GKSTY 02, section 3](#GKSTY02), [Moore-Peradze-Saulina 04](#MoorePeradzeSaulina04)), even though it is on a different conceptual footing than the genuine [[M2-brane]] and [[M5-brane]].
+The [[cyclic group of order two|$\mathbb{Z}_2$]]-[[orbifold]]/[[higher orientifold]] [[fixed point]] in [[Hořava-Witten theory]] might be called it _[[O-plane|O9-plane]]_ but is often called the _M9-brane_ (e.g. [GKSTY 02, section 3](#GKSTY02), [Moore-Peradze-Saulina 04](#MoorePeradzeSaulina04)), even though it is on a different conceptual footing than the genuine [[M2-brane]] and [[M5-brane]].
 
-In ([Hull 97, pages 8-9](#Hull97)) the M9-brane was argued to be the object whose charge is the [[Poincaré duality|Poincaré dual]] to the time-component of the [[M2-brane]] charge as it appears in the [[M-theory super Lie algebra]] via
+[Hull 1997, pages 8-9](#Hull97) argued that the M9-brane is the object whose charge is the [[Poincaré duality|Poincaré dual]] to the time-component of the [[M2-brane]] charge as it appears in the [[M-theory super Lie algebra]] via
 
 $$
   \wedge^2 (\mathbb{R}^{10,1})^\ast 
@@ -27,7 +28,7 @@ $$
 $$ 
 
  
-(In the same way the time component of the [[M5-brane]] charge is argued to be dual to the charge of the [[KK-monopole]], see there.)
+(Analogously, the time component of the [[M5-brane]] charge is argued to be dual to the charge of the [[KK-monopole]], see [there](Kaluza-Klein+monopole#OtherBraneCharges).)
 
 
 Under the [[duality in string theory|duality]] between [[M-theory]] and [[type IIA string theory]] the M9-brane may be identified with the [[O8-plane]]:
@@ -67,7 +68,8 @@ Early discussion of the possibility of a kind of 9-brane in [[11d supergravity]]
 
 * [[Mees de Roo]], p. 5 of: *Intersecting branes and Supersymmetry*, in: *Supersymmetry and Quantum Field Theory*, Proceedings of the D. Volkov Memorial Seminar Held in Kharkov, Ukraine, 5–7 January 1997, Springer (1998) &lbrack;[arXiv:hep-th/9703124](https://arxiv.org/abs/hep-th/9703124), [doi:10.1007/BFb0105225](https://doi.org/10.1007/BFb0105225)&rbrack;
 
-* {#Hull97} [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl. Phys. B **509** (1998) 216-251 &lbrack;[arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162)&rbrack;
+* {#Hull97} [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl. Phys. B **509** (1998) 216-251 &lbrack;[arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162), <a href="https://doi.org/10.1016/S0550-3213(97)00501-4">doi:10.1016/S0550-3213(97)00501-4</a>&rbrack;
+
 
 
 On M9-branes (and apparently introducing that terminology) as lifts of the [[D8-branes]] in [[massive type IIA string theory]]:
