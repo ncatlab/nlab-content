@@ -1,7 +1,8 @@
 
+This page records:
 
 
-* [[Mike Duff]]:
+* [[Michael Duff]]:
 
   \linebreak
 
@@ -17,20 +18,19 @@
 
   \linebreak
 
-  questions by [[Hisham Sati|H. Sati]]
+  (questions by [[Hisham Sati|H. Sati]])
+
+on the early history of and the future perspective of [[M-theory]].
 
   \linebreak
 
-  view recording:
+  video recording:
 
   * first min: [YT](https://youtu.be/hCCmYwwKmhc)
 
-  * full: [YT](https://youtu.be/aHj_Thu8d54)
-
-  * [pre-recording](https://nyu.zoom.us/rec/share/zJBpF4Ch-39JWdLy62vjQvQiGaq6aaa8hCQX_qILzRpfMN17dpCEJSXld0pzPxFC?startTime=1579698234000)
+  * full: [YT](https://youtu.be/aHj_Thu8d54), [Zm](https://nyu.zoom.us/rec/share/zJBpF4Ch-39JWdLy62vjQvQiGaq6aaa8hCQX_qILzRpfMN17dpCEJSXld0pzPxFC?startTime=1579698234000)
 
 
-on the early history of and the perspective of [[M-theory]].
 
 \linebreak
 
@@ -293,6 +293,6 @@ Further early exposition of [[M-theory]]:
 \linebreak
 
 
-
 category: reference
 
+[[!redirects Perspectives on M-Theory]]
