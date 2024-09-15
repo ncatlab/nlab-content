@@ -83,7 +83,6 @@ A **formal topology** or **formal space** is a [[type]] $S$ together with
 *  an [[element]] $\top:S$,
 *  a [[binary operation]] $\cap:S \times S \to S$,
 *  a [[binary relation]] $a \lhd A$ between elements of $S$, $a:S$, and [[subtypes]] of $S$, $A:S \to \Omega$, and
-*  a [[unary relation]] $\Diamond a$ on $S$,
 
 such that
 
@@ -102,14 +101,28 @@ $$a \lhd \sum_{z:S} \prod_{x:S} \prod_{y:S} (x \in_S A) \times (y \in_S B) \time
 $$\prod_{a:S} \prod_{A:S \to \Omega} \prod_{B:S \to \Omega} (a \lhd A) \times (a \lhd B) \to \left(a \lhd \sum_{z:S} \prod_{x:S} \prod_{y:S} (x \in_S A) \times (y \in_S B) \times (z =_S x \cap y)\right)$$
 6.  For all elements $a:S$, $a \lhd \{\top\}$,
 $$\prod_{a:S} a \lhd \{\top\}$$
-7.  For all elements $a:S$ and subsets $A:S \to \Omega$, if $\Diamond a$ and $a \lhd A$, there exists an element $x:S$ such that $x \in_S A$ and $\Diamond x$. 
+
+One can define the [[positivity predicate]] $\Diamond a$ on $S$ by 
+
+$$\Diamond a \coloneqq \prod_{A:S \to \Omega} (a \lhd A) \to (\exists x:S.x \in_S A)$$
+
+\begin{theorem}
+For all elements $a:S$ and subsets $A:S \to \Omega$, if $\Diamond a$ and $a \lhd A$, there exists an element $x:S$ such that $x \in_S A$ and $\Diamond x$. 
 $$\prod_{a:S} \prod_{A:S \to \Omega} (\Diamond a) \times (a \lhd A) \to \sum_{x:S} (x \in_S A) \times (\Diamond x)$$
-8.  For all elements $a:S$ and subsets $A:S \to \Omega$, if $\Diamond a$ implies $a \lhd A$, then $a \lhd A$. 
+\end{theorem}
+
+\begin{theorem}
+For all elements $a:S$ and subsets $A:S \to \Omega$, if $\Diamond a$ implies $a \lhd A$, then $a \lhd A$. 
 $$\prod_{a:S} \prod_{A:S \to \Omega} (\Diamond a \to a \lhd A) \to (a \lhd A)$$
+\end{theorem}
 
 ### Predicative definition
 
 Suppose that the [[dependent type theory]] does not have a [[type of all propositions]], nor any [[type universes]]. This means that subtypes of a type $S$ do not form a type, which is necessary for defining the cover relation, which is inherently a relation between elements of $S$ and subtypes of $S$. However, one can resolve this problem by using a definition of formal topology which does not require a cover relation in its definition, and then [[inductively define]] the cover relation on $S$ as a [[higher inductive type|higher]] [[inductive family]] of [[inductive cover relations]] for every single type in $A$. 
+
+In addition, the positivity predicate $S$ also needs to be separately defined. 
+
+#### Cover relation
 
 Ayberk Tosun in [Tosun 2020](#Tosun20) defined a **formal topology** as a [[poset]] $(A, \leq)$ with families of types $x:A \vdash B(x)$, $x:A, y:B(x) \vdash C(x, y)$ and a dependent function 
 
@@ -196,6 +209,21 @@ $$\frac{
 \Gamma \vdash a:A \quad \Gamma \vdash I \; \mathrm{type} \quad \Gamma \vdash e:I \hookrightarrow A \quad \Gamma \vdash p:a \lhd_I e \quad \Gamma \vdash q:a \lhd_I e
 \end{array}
 }{\Gamma \vdash \mathrm{squash}_I(a, e, p, q):p =_{a \lhd_I e} q}$$
+
+#### Positivity predicate
+
+Since we cannot quantify over subtypes, we needs to use an [[inference rule]] to define the positivity predicate:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \Diamond x \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, p:\Diamond x, q:\Diamond x \vdash \mathrm{squash}_\Diamond(x, p, q):p =_{\Diamond x} q}$$
+
+$$\frac{
+\begin{array}{c}
+\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash I \; \mathrm{type} \quad \Gamma \vdash e:I \hookrightarrow A \\ 
+\Gamma \vdash a:A \quad \Gamma \vdash p:(a \lhd_I e) \to (\exists x:I.e(x) =_A a)
+\end{array}
+}{\Gamma \vdash \mathrm{pos}_{A, I}(e, a, p):\Diamond a}$$
 
 ## Related concepts
 
