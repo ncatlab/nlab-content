@@ -93,9 +93,30 @@ For [[Bruhat-Tits tree]] [[tensor network states]] one finds that the [[holograp
 
 ### General
 
-The original article (according to [ZLSS15, p. ix](#ZaanenLiuSunSchalm15)), regarding [[AdS4/CFT3-duality]] from a [[condensed matter physics]]-perspective:
+The original article (according to [ZLSS15, p. ix](#ZaanenLiuSunSchalm15)), regarding [[AdS4/CFT3-duality]] (hence with the [[bulk]] theory being [[11d supergravity]], whence "[[M-theory]]") as a tool for understanding [[non-perturbative effect|strongly coupled]] [[condensed matter physics]] (specifically [[superconductivity]]):
 
 * [[Christopher P. Herzog]], [[Pavel Kovtun]], [[Subir Sachdev]], [[Dam Thanh Son]], *Quantum critical transport, duality, and M-theory*, Phys. Rev. D **75** (2007) 085020 &lbrack;[arXiv:hep-th/0701036](https://arxiv.org/abs/hep-th/0701036), [doi:10.1103/PhysRevD.75.085020](https://doi.org/10.1103/PhysRevD.75.085020)&rbrack;
+
+similarly:
+
+* [[Jerome P. Gauntlett]], Julian Sonner, Toby Wiseman: *Holographic superconductivity in M-Theory* &lbrack;[arXiv:0907.3796](https://arxiv.org/abs/0907.3796)&rbrack;
+
+
+* [[Steven S. Gubser]], [[Silviu S. Pufu]], [[Fabio D. Rocha]]: *Quantum critical superconductors in string theory and M-theory* &lbrack;[arXiv:0908.0011](https://arxiv.org/abs/0908.0011)&rbrack;
+
+* [[Jerome Gauntlett]], Julian Sonner, Toby Wiseman: *Quantum Criticality and Holographic Superconductors in M-theory* &lbrack;[arXiv:0912.0512](https://arxiv.org/abs/0912.0512)&rbrack;
+
+* Aristomenis Donos, [[Jerome P. Gauntlett]], Julian Sonner, Benjamin Withers: *Competing orders in M-theory: superfluids, stripes and metamagnetism* &lbrack;[arXiv:1212.0871](https://arxiv.org/abs/1212.0871)&rbrack;
+
+* *Semi-local quantum criticality in string/M-theory* <a href="https://doi.org/10.1007/JHEP03(2013)103">doi:10.1007/JHEP03(2013)103</a>
+
+* *M-theory,graphene-branes and superconducting wormholes* &lbrack;[doi:10.1142/S0219887817501675](https://doi.org/10.1142/S0219887817501675)&rbrack;
+
+
+* Yu-Sen An, Li Li, Fu-Guo Yang, Run-Qiu Yang: *Interior Structure and Complexity Growth Rate of Holographic Superconductor from M-Theory* &lbrack;[arXiv:2205.02442](https://arxiv.org/abs/2205.02442)&rbrack;
+
+
+
 
 
 Monographs:
