@@ -185,18 +185,21 @@ Under further [[T-duality]] to [[type IIB superstring theory]]/[[F-theory]] thes
 [[!include F-branes -- table]]
 
 ### Other Brane charges (?)
+ {#OtherBraneCharges}
 
-In ([Hull 97](#Hull97)) it was argued that the KK-monopole in [[11-dimensional supergravity]] is the object which carries the 6-form charge [[Poincaré duality|Poincaré dual]] to the time-component of the 5-form charge of the [[M5-brane]] as appearing in the [[M-theory super Lie algebra]] via
+[Hull 1997](#Hull97) argued (around equation 2.12) that the KK-monopole in [[11-dimensional supergravity]] is the object which carries the 6-form charge [[Poincaré duality|Poincaré dual]] to the time-component of the 5-form charge of the [[M5-brane]] as appearing in the [[M-theory super Lie algebra]], via
 
 $$
   \wedge^5 (\mathbb{R}^{10,1})^\ast
   \simeq
-  \wedge^5 (\mathbb{R}^{10})^\ast \oplus \wedge^6 \mathbb{R}^{10}
+  \wedge^5 (\mathbb{R}^{10})^\ast 
+    \oplus  
+  \wedge^6 \mathbb{R}^{10}
   \,.
 $$
 
 
-(The same kind of relation identifies the time-component of the [[M2-brane]] charge with the charge of the [[M9-brane]], see there.)
+(An analogous relation identifies the time-component of the [[M2-brane]] charge with the charge of the [[M9-brane]], see there.)
 
 
 ## Related concepts
@@ -239,7 +242,7 @@ Discussion of [[topological T-duality]] for KK-monopoles is in
 
 * {#Townsend95} [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys. Lett. B **350** (1995) 184-187 &lbrack;[arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068)&rbrack;
 
-* {#Hull97} [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl.Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
+* {#Hull97} [[Chris Hull]]: _Gravitational Duality, Branes and Charges_, Nucl. Phys. B **509** (1998) 216-251 &lbrack;[arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162), <a href="https://doi.org/10.1016/S0550-3213(97)00501-4">doi:10.1016/S0550-3213(97)00501-4</a>&rbrack;
 
 * {#Sen97a} [[Ashoke Sen]], _Kaluza-Klein Dyons in String Theory_, Phys. Rev. Lett. 79:1619-1621, 1997 ([arXiv:hep-th/9705212](http://arxiv.org/abs/hep-th/9705212))
 
