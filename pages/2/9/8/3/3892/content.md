@@ -112,9 +112,14 @@ The notion of _Klein geometry_ goes back to
 
 in the context of what came to be known as the [[Erlangen program]].
 
-A review is for instance in 
+Review:
 
 * Vladimir Kisil, _Erlangen Programme at Large: An Overview_ ([arXiv:1106.1686](http://arxiv.org/abs/1106.1686))
+
+Monograph account in the broader context of [[Cartan geometry]]:
+
+* {#Sharpe97} [[Richard W. Sharpe]]: *Shapes Fantastic: Klein Geometries*, Chapter 4 in: *Differential geometry -- Cartan's generalization of Klein's Erlagen program*, Graduate Texts in Mathematics **166**, Springer (1997) &lbrack;[ISBN:9780387947327](https://link.springer.com/book/9780387947327)&rbrack;
+
 
 ### Alternative terminology
  {#ReferencesAlternativeTerminology}
