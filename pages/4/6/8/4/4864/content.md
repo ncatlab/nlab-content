@@ -108,7 +108,7 @@ Interview with [[Mike Duff]] by Graham Fermelo, _The universe speaks in numbers 
 > (16:44) We don't understand the theory sufficiently well yet to do so.
 
 
-## Selected writing
+## Selected writings
 
 On [[KK-compactification]] of [[11-dimensional supergravity]] on a [[squashed sphere|squashed]] [[7-sphere]] with [[G₂-holonomy]] ([[M-theory on G₂-manifolds]]):
 
@@ -203,6 +203,10 @@ On [[Freudenthal magic square|magic squares]] of [[magic supergravities]]  and [
 * {#BorstenDuffHughesNagy13} [[Leron Borsten]], [[Michael Duff]], [[Mia J. Hughes]], [[Silvia Nagy]], *A magic square from Yang-Mills squared*, Phys. Rev. Lett. **112** (2014) 131601  &lbrack;[arXiv:1301.4176](http://arxiv.org/abs/1301.4176)&rbrack;
 
 * {#ABDHN} [[Alexandros Anastasiou]], [[Leron Borsten]], [[Michael Duff]], [[Mia J. Hughes]], [[Silvia Nagy]], *A magic pyramid of supergravities*, JHEP (2014) 178 &lbrack;[arXiv:1312.6523](http://arxiv.org/abs/1312.6523)&rbrack;
+
+On the early history of the notion of *[[M-theory]]*:
+
+* [[Michael Duff]]: *M-history without the M*, Contemporary Physics **57** 1 (2016) &lbrack;[arXiv:1501.04098](http://arxiv.org/abs/1501.04098), [doi:10.1080/00107514.2014.992964](https://doi.org/10.1080/00107514.2014.992964)&rbrack;
 
 
 
