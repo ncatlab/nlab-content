@@ -54,6 +54,8 @@ consisting of [[sequence]] with [[p-norm|$\ell^p$-norm]] at most $C$.
 
 * [[solid module]]
 
+* [[gaseous vector space]]
+
 
 ## References
 
