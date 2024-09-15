@@ -320,12 +320,11 @@ The claim that this torsion constraint in  [[11-dimensional supergravity]] is al
 
 * {#CandielloLechner93} A. Candiello, [[Kurt Lechner]], _Duality in Supergravity Theories_, Nucl.Phys. B412 (1994) 479-501 ([arXiv:hep-th/9309143](http://arxiv.org/abs/hep-th/9309143))
 
-
-* {#Howe97} [[Paul Howe]], _Weyl Superspace_, Physics Letters B, Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
+* {#Howe97} [[Paul Howe]]: *Weyl Superspace*, Physics Letters B, **415** 2 (1997) 149-155 &lbrack;[arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184), <a href="https://doi.org/10.1016/S0370-2693(97)01261-6">doi:10.1016/S0370-2693(97)01261-6</a>&rbrack;
 
 concisely reviewed in 
 
-* {#CederwallGranNilssonTsimpis04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Supersymmetric Corrections to Eleven-Dimensional Supergravity_, JHEP 0505:052, 2005 ([arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107))
+* {#CederwallGranNilssonTsimpis04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], _Supersymmetric Corrections to Eleven-Dimensional Supergravity_, JHEP 0505:052 (2005) &lbrack;[arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107)&rbrack;
 
 For commentary see also ([Nilsson 00, section 2](#Nilsson00)) and
 
