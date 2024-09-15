@@ -684,7 +684,7 @@ Discussion of the $CFT_6$ in $AdS_7/CFT_6$ via [[conformal bootstrap]]:
 
 * {#Chester18} [[Shai Chester]], _Bootstrapping M-theory_, PhD thesis, Princeton (2018) &lbrack;[[ChesterBootstrappingMTheory.pdf:file]], [ark:88435/dsp01kw52jb833](http://arks.princeton.edu/ark:/88435/dsp01kw52jb833)&rbrack;
 
-* Nathan B. Agmon, [[Shai Chester]], Silviu S. Pufu, _Solving M-theory with the Conformal Bootstrap_, JHEP 06 (2018) 159 &lbrack;[arXiv:1711.07343](https://arxiv.org/abs/1711.07343)&rbrack;
+* Nathan B. Agmon, [[Shai Chester]], [[Silviu S. Pufu]]: *Solving M-theory with the Conformal Bootstrap*, J. High Energ. Phys. **2018** 159 (2018). &lbrack;[arXiv:1711.07343](https://arxiv.org/abs/1711.07343), <a href="https://doi.org/10.1007/JHEP06(2018)159">doi:10.1007/JHEP06(2018)159</a>&rbrack;
 
 * {#ChesterPerlmutter18} [[Shai Chester]], [[Eric Perlmutter]]: *M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture*, J. High Energ. Phys. **2018** 116 (2018) &lbrack;[arXiv:1805.00892](https://arxiv.org/abs/1805.00892), <a href="https://doi.org/10.1007/JHEP08(2018)116">doi:10.1007/JHEP08(2018)116</a>&rbrack;
 
@@ -812,6 +812,29 @@ Further reviews include the following:
 * Alberto Salvio, _Superconductivity, Superfluidity and Holography_ ([arXiv:1301.0201](http://arxiv.org/abs/1301.0201))
 
 * _[Holography and Extreme Chromodynamics](http://igfae.usc.es/~holoquark2018/)_, Santiago de Compostela, July 2018
+
+On [[AdS-CMT|holographic]] [[superconductors]] via [[AdS4/CFT3 duality]] (hence with the [[bulk]] theory being [[11d supergravity]] aka [[M-theory]]):
+
+The original article (according to [ZLSS15, p. ix](AdS-CMT#ZaanenLiuSunSchalm15)), regarding [[AdS4/CFT3-duality]] (hence with the [[bulk]] theory being [[11d supergravity]], whence "[[M-theory]]") as a tool for understanding [[non-perturbative effect|strongly coupled]] [[condensed matter physics]] (specifically [[superconductivity]]):
+
+* [[Christopher P. Herzog]], [[Pavel Kovtun]], [[Subir Sachdev]], [[Dam Thanh Son]], *Quantum critical transport, duality, and M-theory*, Phys. Rev. D **75** (2007) 085020 &lbrack;[arXiv:hep-th/0701036](https://arxiv.org/abs/hep-th/0701036), [doi:10.1103/PhysRevD.75.085020](https://doi.org/10.1103/PhysRevD.75.085020)&rbrack;
+
+and further discussion:
+{#MoreOnHolographicSuperconductorsViaMTheory}
+
+* [[Jerome P. Gauntlett]], [[Julian Sonner]], Toby Wiseman: *Holographic superconductivity in M-Theory*,  J. High Energ. Phys. **2010** 60 (2010) &lbrack;[arXiv:0907.3796](https://arxiv.org/abs/0907.3796), <a href="https://doi.org/10.1007/JHEP02(2010)060">doi:10.1007/JHEP02(2010)060</a>&rbrack;
+
+* [[Steven S. Gubser]], [[Silviu S. Pufu]], Fabio D. Rocha: *Quantum critical superconductors in string theory and M-theory*, Phys. Lett. B **683** (2010) 201-204 &lbrack;[arXiv:0908.0011](https://arxiv.org/abs/0908.0011), [doi:10.1016/j.physletb.2009.12.017](https://doi.org/10.1016/j.physletb.2009.12.017)&rbrack;
+
+* [[Jerome Gauntlett]], [[Julian Sonner]], Toby Wiseman: *Quantum Criticality and Holographic Superconductors in M-theory*, J. High Energ. Phys. **2010** 60 (2010) &lbrack;[arXiv:0912.0512](https://arxiv.org/abs/0912.0512), <a href="https://doi.org/10.1007/JHEP02(2010)060">doi:10.1007/JHEP02(2010)060</a>&rbrack;
+
+* Aristomenis Donos, [[Jerome P. Gauntlett]], [[Julian Sonner]], Benjamin Withers: *Competing orders in M-theory: superfluids, stripes and metamagnetism*, J. High Energ. Phys. **2013** 108 (2013) &lbrack;[arXiv:1212.0871](https://arxiv.org/abs/1212.0871), <a href="https://doi.org/10.1007/JHEP03(2013)108">doi:10.1007/JHEP03(2013)108</a>&rbrack;
+
+* Aristomenis Donos, [[Jerome P. Gauntlett]], Christiana Pantelidou: *Semi-local quantum criticality in string/M-theory*, J. High Energ. Phys. **2013** 103 (2013) &lbrack;<a href="https://doi.org/10.1007/JHEP03(2013)103">doi:10.1007/JHEP03(2013)103</a>, [arXiv:1212.1462](https://arxiv.org/abs/1212.1462)&rbrack;
+
+* Yu-Sen An, Li Li, Fu-Guo Yang, Run-Qiu Yang: *Interior Structure and Complexity Growth Rate of Holographic Superconductor from M-Theory*,  J. High Energ. Phys. **2022** 133 (2022) &lbrack;[arXiv:2205.02442](https://arxiv.org/abs/2205.02442), <a href="https://doi.org/10.1007/JHEP08(2022)133">doi:10.1007/JHEP08(2022)133</a>&rbrack;
+
+
 
 ### Applications in mathematics
 
