@@ -205,7 +205,7 @@ The full extension was named "M-algebra" in
 
 In ([D'Auria-Fr&#233; 82](#DAuriaFre82)) the motivation is from the formulation of the fields of [[11-dimensional supergravity]] as connections with values in the [[supergravity Lie 3-algebra]], see at _[[D'Auria-Fré formulation of supergravity]]_. Realization of the M-theory super Lie algebra as the algebra of [[derivations]] of the [[supergravity Lie 3-algebra]] is in 
 
-* {#Castellani05} [[Leonardo Castellani]], _Lie derivatives along antisymmetric tensors, and the M-theory superalgebra_, J. Phys. Math. Volume 3 (2011), 1-7. ([arXiv:hep-th/0508213](http://arxiv.org/abs/hep-th/0508213), [Euclid](http://projecteuclid.org/euclid.jpm/1359468398))
+* {#Castellani05} [[Leonardo Castellani]], _Lie derivatives along antisymmetric tensors, and the M-theory superalgebra_, J. Phys. Math. **3** (2011)  1-7 &lbrack;[arXiv:hep-th/0508213](http://arxiv.org/abs/hep-th/0508213), [euclid:jpm/1359468398](http://projecteuclid.org/euclid.jpm/1359468398)&rbrack;
 
 with amplification in
 
