@@ -186,6 +186,10 @@ What are the diagrams for this?  I seem to recall that we need a [[distributive 
 
 * {#JT77}[[Peter Johnstone]], _Topos Theory_, Academic Press New York 1977. (Dover reprint Minneola 2014, chap. 6)
 
+* Hans-Joachim Baues, Mamuka Jibladze, and Andy Tonks, _Cohomology of monoids in monoidal categories_, Contemporary Mathematics 202 (1997): 137-166.
+
+* [[Stephen Lack]], _Note on the construction of free monoids_, Applied categorical structures 18 (2010): 17-29.
+
 The list [[monad]] as a [[monad in computer science]]:
 
 * [[Tarmo Uustalu]], p.25 of: *Monads and Interaction Lecture 1* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs1.pdf), [[Uustalu-Monads1.pdf:file]]&rbrack;, lecture notes for [MGS 2021](https://staffwww.dcs.shef.ac.uk/people/G.Struth/mgs21.html) (2021):
