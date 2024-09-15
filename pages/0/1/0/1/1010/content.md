@@ -156,10 +156,17 @@ Now let $ C $ be a $ U $-moderate category (and not small). Then the category of
 ## References
  {#References}
 
-The original account:
+As a solution to foundational problems of [[category theory]] the concept was apparently brought up by Grothendieck (cf. [below](#Kroemer06), p.149) in the context of 1958 Bourbaki discussions. It makes a sketchy appearance in [[SGA1]] in exposé VI on [[fibered category|fibered categories]].
+
+Fuller early accounts are
+
+* [[Pierre Gabriel]], *[[Des Categories Abeliennes]]*, Bulletin de la Société Mathématique de France **90** (1962) 323-448 &lbrack;[numdam:BSMF_1962__90__323_0](http://www.numdam.org/item?id=BSMF_1962__90__323_0)&rbrack;
+
+* [[Johann Sonner]], *On the formal definition of categories*, Math. Zeitschr. **80** (1962) 163-176 &lbrack;[eudml:170093](https://eudml.org/doc/170093), [[Sonner-FormalDefCategories.pdf:file]]&rbrack;
+
+The "official" account is then:
 
 * [[Nicolas Bourbaki]], _Univers_, Appendix to Expose I in [[SGA 4]] (1963-64)
-
 
 Further early discussion:
 
@@ -169,11 +176,15 @@ Comprehensive historical review with further references:
 
 * [[Ralf Krömer]], §6.4.4 in: *Tool and object: A history and philosophy of category theory*, Science Networks. Historical Studies **32**, Springer (2007) &lbrack;[doi:10.1007/978-3-7643-7524-9](https://doi.org/10.1007/978-3-7643-7524-9)&rbrack;
 
+* {#Kroemer06}[[Ralf Krömer]], _La « machine de Grothendieck », se fonde-t-elle seulement sur des vocables métamathématiques? Bourbaki et les catégories au cours des années cinquante_, Revue d’Histoire des Mathématiques **12** 111–154 ([Numdam](http://www.numdam.org/item/RHM_2006__12_1_119_0/))
+
+For more information on the origin of the terminology consult:
+
+* [[Colin McLarty]], _Authorship of Grothendieck universes_ [Mathoverflow](https://mathoverflow.net/questions/117517/authorship-of-grothendieck-universes)
+
 Most texts on [[category theory]] and related topics mention the topic of Grothendieck universes without providing details. Exceptions are:
 
 * {#Isbell66} [[John Isbell]], *Structure of categories*, Bulletin of the American Mathematical Society **72** (1966), 619-655. &lbrack;[euclid:1183528163](http://projecteuclid.org/euclid.bams/1183528163), [ams:1966-72-04/S0002-9904-1966-11541-0](https://www.ams.org/journals/bull/1966-72-04/S0002-9904-1966-11541-0/)&rbrack;
-
-* [[Johann Sonner]], *On the formal definition of categories*, Math. Zeitschr. **80** (1962) 163-176 &lbrack;[eudml:170093](https://eudml.org/doc/170093), [[Sonner-FormalDefCategories.pdf:file]]&rbrack;
 
 * [[Horst Schubert]], §3.2 in: *Categories*, Springer (1972) &lbrack;[doi:10.1007/978-3-642-65364-3](https://doi.org/10.1007/978-3-642-65364-3)&rbrack;
 
@@ -186,8 +197,6 @@ Discussions spelling out more details:
 * [[Zhen Lin Low]], _Universes for category theory_ &lbrack;[arxiv/1304.5227](http://arxiv.org/abs/1304.5227)&rbrack;
 
 * [[Paul Blain Levy]], _Formulating Categorical Concepts using Classes_ &lbrack;[arXiv:1801.08528](https://arxiv.org/abs/1801.08528)&rbrack;
-
-
 
 
 
