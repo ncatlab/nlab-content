@@ -426,7 +426,7 @@ as a "non-committed" shorthand for "membrane theory"
 
 and
 
-* {#Witten95} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl. Phys. B **463* (1996) 383-397 &lbrack;[arXiv:hep-th/9512219](http://arxiv.org/abs/hep-th/9512219)&rbrack;
+* {#Witten95} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl. Phys. B **463** (1996) 383-397 &lbrack;[arXiv:hep-th/9512219](http://arxiv.org/abs/hep-th/9512219)&rbrack;
 
 which coined the association
 
@@ -438,7 +438,7 @@ that later gained much publicity:
 
 The argument that the regularized [[M2-brane]] [[worldvolume]] theory is the [[BFSS matrix model]] is discussed in
 
-* {#NicolaiHelling98} [[Hermann Nicolai]], Robert Helling, _Supermembranes and M(atrix) Theory_,  Lectures given by H. Nicolai at the Trieste Spring School on Non-Perturbative Aspects of String Theory and Supersymmetric Gauge Theories, 23 - 31 March 1998 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103))
+* {#NicolaiHelling98} [[Hermann Nicolai]], Robert Helling: *Supermembranes and M(atrix) Theory*,  in *[ICTP Spring School on Nonperturbative Aspects of String Theory and Supersymmetric Gauge Theories](https://inspirehep.net/conferences/971546)* (1998) 29-74  &lbrack;[arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103), [spire:476366](https://inspirehep.net/literature/476366)&rbrack;
 
 * {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav. Cosmol. **8** 1 (2002) Rev. Mex. Fis. **49S1**  (2003) 1-10 &lbrack;[arXiv:hep-th/0201182](http://arxiv.org/abs/hep-th/0201182)&rbrack;
 
