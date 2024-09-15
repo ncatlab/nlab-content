@@ -120,7 +120,7 @@ and [[asymptotic boundary|asymptotically]] [[anti-de Sitter spacetime|AdS]] [[st
 
 Discussion of [[large 1/N limit|small N]] effects in [[M-theory]] using the [[conformal bootstrap]]:
 
-* Nathan B. Agmon, [[Shai Chester]], Silviu S. Pufu, _Solving M-theory with the Conformal Bootstrap_, JHEP 06 (2018) 159 ([arXiv:1711.07343](https://arxiv.org/abs/1711.07343))
+* Nathan B. Agmon, [[Shai Chester]], [[Silviu S. Pufu]]: *Solving M-theory with the Conformal Bootstrap*, J. High Energ. Phys. **2018** 159 (2018). &lbrack;[arXiv:1711.07343](https://arxiv.org/abs/1711.07343), <a href="https://doi.org/10.1007/JHEP06(2018)159">doi:10.1007/JHEP06(2018)159</a>&rbrack;
 
 * {#Chester18} [[Shai Chester]], _Bootstrapping M-theory_, PhD thesis, Princeton (2018) &lbrack;[[ChesterBootstrappingMTheory.pdf:file]], [ark:88435/dsp01kw52jb833](http://arks.princeton.edu/ark:/88435/dsp01kw52jb833)&rbrack;
 
@@ -137,9 +137,9 @@ Specifically for the [[D=6 N=(2,0) SCFT]] on the [[M5-brane]] via [[AdS7/CFT6]]:
 
 Specifically for the [[D=3 SCFT]] ([[BLG-model]], [[ABJM model]]) on the [[M2-brane]] via [[AdS4/CFT3]]
 
-* Nathan B. Agmon, [[Shai Chester]], Silviu S. Pufu, _The M-theory Archipelago_ ([arXiv:1907.13222](https://arxiv.org/abs/1907.13222))
+* Nathan B. Agmon, [[Shai Chester]], [[Silviu S. Pufu]]: *The M-theory Archipelago*,  J. High Energ. Phys. **2020** 10 (2020) &lbrack;<a href="https://doi.org/10.1007/JHEP02(2020)010">doi:10.1007/JHEP02(2020)010</a>, [arXiv:1907.13222](https://arxiv.org/abs/1907.13222)&rbrack;
 
-* Damon J. Binder, [[Shai Chester]], Max Jerdee, Silviu S. Pufu, _The 3d $\mathcal{N}=6$ Bootstrap: From Higher Spins to Strings to Membranes_ ([arXiv:2011.05728](https://arxiv.org/abs/2011.05728))
+* Damon J. Binder, [[Shai Chester]], Max Jerdee, [[Silviu S. Pufu]]: *The 3d $\mathcal{N}=6$ Bootstrap: From Higher Spins to Strings to Membranes*, J. High Energ. Phys. **2021** 83 (2021) &lbrack;[arXiv:2011.05728](https://arxiv.org/abs/2011.05728), <a href="https://doi.org/10.1007/JHEP05(2021)083">doi:10.1007/JHEP05(2021)083</a>&rbrack;
 
 
 
