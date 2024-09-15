@@ -97,23 +97,20 @@ The original article (according to [ZLSS15, p. ix](#ZaanenLiuSunSchalm15)), rega
 
 * [[Christopher P. Herzog]], [[Pavel Kovtun]], [[Subir Sachdev]], [[Dam Thanh Son]], *Quantum critical transport, duality, and M-theory*, Phys. Rev. D **75** (2007) 085020 &lbrack;[arXiv:hep-th/0701036](https://arxiv.org/abs/hep-th/0701036), [doi:10.1103/PhysRevD.75.085020](https://doi.org/10.1103/PhysRevD.75.085020)&rbrack;
 
-similarly:
+and further discussion along these lines (for more referenceson holographic superconductors see [below](#ReferencesApplicationToSuperconductivity)):
+{#MoreOnHolographicSuperconductorsViaMTheory}
 
-* [[Jerome P. Gauntlett]], Julian Sonner, Toby Wiseman: *Holographic superconductivity in M-Theory* &lbrack;[arXiv:0907.3796](https://arxiv.org/abs/0907.3796)&rbrack;
+* [[Jerome P. Gauntlett]], [[Julian Sonner]], Toby Wiseman: *Holographic superconductivity in M-Theory*,  J. High Energ. Phys. **2010** 60 (2010) &lbrack;[arXiv:0907.3796](https://arxiv.org/abs/0907.3796), <a href="https://doi.org/10.1007/JHEP02(2010)060">doi:10.1007/JHEP02(2010)060</a>&rbrack;
 
+* [[Steven S. Gubser]], [[Silviu S. Pufu]], Fabio D. Rocha: *Quantum critical superconductors in string theory and M-theory*, Phys. Lett. B **683** (2010) 201-204 &lbrack;[arXiv:0908.0011](https://arxiv.org/abs/0908.0011), [doi:10.1016/j.physletb.2009.12.017](https://doi.org/10.1016/j.physletb.2009.12.017)&rbrack;
 
-* [[Steven S. Gubser]], [[Silviu S. Pufu]], [[Fabio D. Rocha]]: *Quantum critical superconductors in string theory and M-theory* &lbrack;[arXiv:0908.0011](https://arxiv.org/abs/0908.0011)&rbrack;
+* [[Jerome Gauntlett]], [[Julian Sonner]], Toby Wiseman: *Quantum Criticality and Holographic Superconductors in M-theory*, J. High Energ. Phys. **2010** 60 (2010) &lbrack;[arXiv:0912.0512](https://arxiv.org/abs/0912.0512), <a href="https://doi.org/10.1007/JHEP02(2010)060">doi:10.1007/JHEP02(2010)060</a>&rbrack;
 
-* [[Jerome Gauntlett]], Julian Sonner, Toby Wiseman: *Quantum Criticality and Holographic Superconductors in M-theory* &lbrack;[arXiv:0912.0512](https://arxiv.org/abs/0912.0512)&rbrack;
+* Aristomenis Donos, [[Jerome P. Gauntlett]], [[Julian Sonner]], Benjamin Withers: *Competing orders in M-theory: superfluids, stripes and metamagnetism*, J. High Energ. Phys. **2013** 108 (2013) &lbrack;[arXiv:1212.0871](https://arxiv.org/abs/1212.0871), <a href="https://doi.org/10.1007/JHEP03(2013)108">doi:10.1007/JHEP03(2013)108</a>&rbrack;
 
-* Aristomenis Donos, [[Jerome P. Gauntlett]], Julian Sonner, Benjamin Withers: *Competing orders in M-theory: superfluids, stripes and metamagnetism* &lbrack;[arXiv:1212.0871](https://arxiv.org/abs/1212.0871)&rbrack;
+* Aristomenis Donos, [[Jerome P. Gauntlett]], Christiana Pantelidou: *Semi-local quantum criticality in string/M-theory*, J. High Energ. Phys. **2013** 103 (2013) &lbrack;<a href="https://doi.org/10.1007/JHEP03(2013)103">doi:10.1007/JHEP03(2013)103</a>, [arXiv:1212.1462](https://arxiv.org/abs/1212.1462)&rbrack;
 
-* *Semi-local quantum criticality in string/M-theory* <a href="https://doi.org/10.1007/JHEP03(2013)103">doi:10.1007/JHEP03(2013)103</a>
-
-* *M-theory,graphene-branes and superconducting wormholes* &lbrack;[doi:10.1142/S0219887817501675](https://doi.org/10.1142/S0219887817501675)&rbrack;
-
-
-* Yu-Sen An, Li Li, Fu-Guo Yang, Run-Qiu Yang: *Interior Structure and Complexity Growth Rate of Holographic Superconductor from M-Theory* &lbrack;[arXiv:2205.02442](https://arxiv.org/abs/2205.02442)&rbrack;
+* Yu-Sen An, Li Li, Fu-Guo Yang, Run-Qiu Yang: *Interior Structure and Complexity Growth Rate of Holographic Superconductor from M-Theory*,  J. High Energ. Phys. **2022** 133 (2022) &lbrack;[arXiv:2205.02442](https://arxiv.org/abs/2205.02442), <a href="https://doi.org/10.1007/JHEP08(2022)133">doi:10.1007/JHEP08(2022)133</a>&rbrack;
 
 
 
@@ -279,8 +276,9 @@ Application to [[Bose-Einstein condensates]], [[superfluidity]] and [[vortices]]
 
 
 ### Application to superconductivity
+ {#ReferencesApplicationToSuperconductivity}
 
-Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
+Further discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]] (beyond the references [above](#MoreOnHolographicSuperconductorsViaMTheory)):
 
 * [[Steven S. Gubser]]: *Breaking an Abelian gauge symmetry near a black hole horizon*, Phys. Rev. D **78** 065034 (2008) &lbrack;[arXiv:0801.2977](https://arxiv.org/abs/0801.2977), [doi:10.1103/PhysRevD.78.065034](https://doi.org/10.1103/PhysRevD.78.065034)&rbrack;
 
