@@ -29,6 +29,11 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
 * [[Steven S. Gubser]]: *Breaking an Abelian gauge symmetry near a black hole horizon*, Phys. Rev. D **78** 065034 (2008) &lbrack;[arXiv:0801.2977](https://arxiv.org/abs/0801.2977), [doi:10.1103/PhysRevD.78.065034](https://doi.org/10.1103/PhysRevD.78.065034)&rbrack;
 
+On [[AdS-CMT|holographic]] [[superconductors]] via [[AdS4/CFT3 duality]] (i.e. with the [[bulk]] in [[11d supergravity]] aka [[M-theory]]):
+
+* [[Steven S. Gubser]], [[Silviu S. Pufu]], Fabio D. Rocha: *Quantum critical superconductors in string theory and M-theory*, Phys. Lett. B **683** (2010) 201-204 &lbrack;[arXiv:0908.0011](https://arxiv.org/abs/0908.0011), [doi:10.1016/j.physletb.2009.12.017](https://doi.org/10.1016/j.physletb.2009.12.017)&rbrack;
+
+
 On the [[p-adic AdS/CFT correspondence]]:
 
 * [[Steven Gubser]], Johannes Knaute, Sarthak Parikh, Andreas Samberg, Przemek Witaszczyk, _$p$-adic AdS/CFT_ ([arXiv:1605.01061](https://arxiv.org/abs/1605.01061))
