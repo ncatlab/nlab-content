@@ -13,7 +13,6 @@
 =--
 =--
 
-# Disjoint unions
 * table of contents
 {: toc}
 
