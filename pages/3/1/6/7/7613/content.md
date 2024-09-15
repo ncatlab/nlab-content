@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -398,11 +399,11 @@ and the first statement of what came to be known as the [[duality between type I
 
 A comprehensive collection of early articles is in 
 
-* {#Duff99} [[Mike Duff]], _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP (1999) &lbrack;[ISBN:9780750306720](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720)&rbrack;
+* {#Duff99} [[Michael Duff]], _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP (1999) &lbrack;[ISBN:9780750306720](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720)&rbrack;
 
 For some time though the success of [[string theory]] in 10-dimensions caused resistence to the idea of a theory of [[membranes]] in 11-dimensions, an account is in ([Duff 99](#Duff99)) and in brevity on the first pages of
 
-* [[Mike Duff]], _M-history without the M_ ([arXiv:1501.04098](http://arxiv.org/abs/1501.04098))
+* [[Michael Duff]]: *M-history without the M*, Contemporary Physics **57** 1 (2016) &lbrack;[arXiv:1501.04098](http://arxiv.org/abs/1501.04098), [doi:10.1080/00107514.2014.992964](https://doi.org/10.1080/00107514.2014.992964)&rbrack;
 
 The article that convinced the community of M-theory was
 
@@ -425,7 +426,7 @@ as a "non-committed" shorthand for "membrane theory"
 
 and
 
-* {#Witten95} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl.Phys.B463:383-397,1996 ([arXiv:hep-th/9512219](http://arxiv.org/abs/hep-th/9512219))
+* {#Witten95} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl. Phys. B **463* (1996) 383-397 &lbrack;[arXiv:hep-th/9512219](http://arxiv.org/abs/hep-th/9512219)&rbrack;
 
 which coined the association
 
@@ -433,7 +434,7 @@ which coined the association
 
 that later gained much publicity:
 
-* {#Witten98} [[Edward Witten]], _Magic, Mystery, and Matrix_, Notices of the AMS, volume 45, number 9 (1998) ([pdf](http://www.ams.org/notices/199809/witten.pdf))
+* {#Witten98} [[Edward Witten]]: *Magic, Mystery, and Matrix*, Notices of the AMS **45** 9 (1998) &lbrack;[pdf](http://www.ams.org/notices/199809/witten.pdf), [[Witten-MagicMysteryMatrix.pdf:file]], full issue:[pdf](https://www.ams.org/notices/199810/199810FullIssue.pdf)&rbrack;
 
 The argument that the regularized [[M2-brane]] [[worldvolume]] theory is the [[BFSS matrix model]] is discussed in
 
@@ -461,9 +462,9 @@ Despite the magic and mystery, the relation to the original abbreviation for _me
 * [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl. Phys. Proc. Suppl. 68:11-16, 1998 ([arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034))
 
 
-Early articles clarifying the relation to [[type II string theory]] now known as [[F-theory]]:
+Early articles clarifying the relation to [[type II string theory]], now known as *[[F-theory]]*:
 
-* {#Schwarz95} [[John Schwarz]], _The Power of M Theory_, Phys.Lett. B **367** (1996) 97-103 &lbrack;<a href="https://doi.org/10.1016/0370-2693(95)01429-2">doi:10.1016/0370-2693(95)01429-2</a>, [arXiv:hep-th/9510086](http://arxiv.org/abs/hep-th/9510086)&rbrack;
+* {#Schwarz95} [[John Schwarz]], _The Power of M Theory_, Phys. Lett. B **367** (1996) 97-103 &lbrack;<a href="https://doi.org/10.1016/0370-2693(95)01429-2">doi:10.1016/0370-2693(95)01429-2</a>, [arXiv:hep-th/9510086](http://arxiv.org/abs/hep-th/9510086)&rbrack;
 
 * {#Johnson97} [[Clifford Johnson]], _From M-theory to F-theory, with Branes_, Nucl. Phys. B **507** (1997) 227-244 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(97)00550-6">doi:10.1016/S0550-3213(97)00550-6</a>[arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155)&rbrack;
 
