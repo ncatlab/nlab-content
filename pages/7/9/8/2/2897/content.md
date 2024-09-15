@@ -38,7 +38,7 @@ Overview:
 
 * [[Claire Voisin]], _From Analysis situs to the theory of periods_, lecture at Inst. Henri Poincaré (2013) &lbrack;[yt](https://www.youtube.com/watch?v=8RIqZX4hKqs)&rbrack;
 
-## In differential geometry
+### In differential geometry
 
 * [[Georges de Rham]], p. 135 of: *Differentiable Manifolds -- Forms, Currents, Harmonic Forms*, Grundlehren **266**, Springer (1984) &lbrack;[doi:10.1007/978-3-642-61752-2](https://doi.org/10.1007/978-3-642-61752-2)&rbrack;
 
@@ -58,7 +58,7 @@ A popularization is in
 
 See also
 
-* A. B. Goncharov, _Periods and mixed motives_, [math.AG/0202154](http://arxiv.org/abs/math/0202154)
+* [[A. B. Goncharov]], _Periods and mixed motives_, [math.AG/0202154](http://arxiv.org/abs/math/0202154)
 
 * mathoverflow: [ring of periods not a field](http://mathoverflow.net/questions/20497/is-it-known-that-the-ring-of-periods-is-not-a-field)
 
