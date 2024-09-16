@@ -7,11 +7,17 @@ Damour made the theoretical prediction ([Buonanno-Damour 98](#BuonannoDamour98),
 
 On [[U-duality]]:
 
-
 * [[Thibault Damour]], [[Marc Henneaux]], [[Hermann Nicolai]], _$E(10)$ and a 'small tension expansion' of M
 theory_, Phys. Rev. Lett. 89, 221601 (2002) ([arXiv:hep-th/0207267](http://arxiv.org/abs/hep-th/0207267));
 
 * {#Damour14} [[Thibault Damour]], _Quantum supersymmetric Bianchi IX  Cosmology and its hidden Kac-Moody Structure_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[DamourSQC14.pdf:file]])
+
+On [[E10]]-[[U-duality]] [[exceptional field theory]] with [[fermions]] ($E_{10}/K(E_{10})$-coset model [[supersymmetric quantum mechanics]]):
+
+* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$K(E10)$, Supergravity and Fermions*, JHEP 0608:046 (2006) &lbrack;[arXiv:hep-th/0606105](https://arxiv.org/abs/hep-th/0606105), [doi:10.1088/1126-6708/2006/08/046](https://doi.org/10.1088/1126-6708/2006/08/046)&rbrack;
+
+
+
 
 On prediction of [[gravitational wave]] profiles emitted by [[black hole]] [[relativistic binaries]] (as later detected by [[LIGO]]:
 
@@ -33,7 +39,10 @@ On prediction of [[gravitational wave]] profiles emitted by [[black hole]] [[rel
 
 * {#Damour19} [[Thibault Damour]], _On the gravitational interaction of spinning bodies_, talk at _[Souriau2019](http://souriau2019.fr/?page_id=2)_  ([video recording](https://www.youtube.com/watch?v=8HO3DLKircs))
 
-## Related $n$Lab entries
+
+
+
+## Related entries
 
 * [[relativistic binary]]
 
