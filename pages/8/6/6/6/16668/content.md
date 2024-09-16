@@ -56,15 +56,15 @@ Precursors include
 
 * [[Olaf Hohm]], [[Henning Samtleben]], _U-duality covariant gravity_ ([arXiv:1307.0509](http://arxiv.org/abs/1307.0509))
 
-The original articles are
+The original articles:
 
-* [[Olaf Hohm]], [[Henning Samtleben]], _Exceptional Form of $D=11$ Supergravity_, Phys. Rev. Lett. 111, 231601 (2013) ([arXiv:1308.1673](http://arxiv.org/abs/1308.1673))
+* [[Olaf Hohm]], [[Henning Samtleben]]: *Exceptional Form of $D=11$ Supergravity*, Phys. Rev. Lett. **111** 231601 (2013) &lbrack;[arXiv:1308.1673](http://arxiv.org/abs/1308.1673), [doi:10.1103/PhysRevLett.111.231601](https://doi.org/10.1103/PhysRevLett.111.231601)&rbrack;
 
-* [[Olaf Hohm]], [[Henning Samtleben]], _Exceptional Field Theory I: $E_{6(6)}$ covariant Form of M-Theory and Type IIB_, Phys. Rev. D 89, 066016 (2014) ([arXiv:1312.0614](http://arxiv.org/abs/1312.0614))
+* [[Olaf Hohm]], [[Henning Samtleben]]: _Exceptional Field Theory I: $E_{6(6)}$ covariant Form of M-Theory and Type IIB_, Phys. Rev. D **89** 066016 (2014) &lbrack;[arXiv:1312.0614](http://arxiv.org/abs/1312.0614), [doi:10.1103/PhysRevD.89.066016](https://doi.org/10.1103/PhysRevD.89.066016)&rbrack;
 
-* [[Olaf Hohm]], [[Henning Samtleben]], _Exceptional Field Theory II: $E_{7(7)}$_, Phys. Rev. D 89, 066017 (2014) ([arXiv:1312.4542](http://arxiv.org/abs/1312.4542))
+* [[Olaf Hohm]], [[Henning Samtleben]]: _Exceptional Field Theory II: $E_{7(7)}$_, Phys. Rev. D **89** 066017 (2014) &lbrack;[arXiv:1312.4542](http://arxiv.org/abs/1312.4542), [doi:10.1103/PhysRevD.89.066017](https://doi.org/10.1103/PhysRevD.89.066017)&rbrack;
 
-* [[Olaf Hohm]], [[Henning Samtleben]], _Exceptional Field Theory III: $E_{8(8)}$_, 	Phys. Rev. D 90, 066002 (2014) ([arXiv:1406.3348](http://arxiv.org/abs/1406.3348))
+* [[Olaf Hohm]], [[Henning Samtleben]]: _Exceptional Field Theory III: $E_{8(8)}$_, Phys. Rev. D **90** 066002 (2014) ([arXiv:1406.3348](http://arxiv.org/abs/1406.3348))
 
 Review:
 
