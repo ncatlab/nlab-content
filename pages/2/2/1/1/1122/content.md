@@ -124,7 +124,7 @@ See also:
 * {#Renaudin06} [[Olivier Renaudin]], Section 1.2 of: *Plongement de certaines théories homotopiques de Quillen dans les dérivateurs*, Journal of Pure and Applied Algebra Volume 213, Issue 10, October 2009, Pages 1916-1935
 ([arXiv:math/0603339](https://arxiv.org/abs/math/0603339), [doi:10.1016/j.jpaa.2009.02.014](https://doi.org/10.1016/j.jpaa.2009.02.014))
 
-Two bicategories of $k$-linear [[Grothendieck categories]] as a bicategories of fractions
+Two bicategories of $k$-linear [[Grothendieck categories]] as bicategories of fractions
 
 * J. Ramos González, _Grothendieck categories as a bilocalization of linear sites_, Appl Categor Struct 26, 717--745 (2018) [doi](https://doi.org/10.1007/s10485-017-9511-1)
 
