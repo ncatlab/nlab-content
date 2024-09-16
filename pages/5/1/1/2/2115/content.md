@@ -52,5 +52,8 @@ __Commutative algebra__ is the subject studying commutative algebras. It is clos
 Discussion of commutative algebra with [[constructive mathematics|constructive]] methods:
 
 * Henri Lombardi, Claude Quitt&#233;, _Commutative algebra: Constructive methods. Finite projective modules_ ([arXiv:1605.04832](https://arxiv.org/abs/1605.04832))
+
 [[!redirects commutative algebras]]
 [[!redirects commutative unital algebra]]
+[[!redirects commutative real algebras]]
+[[!redirects commutative real algebra]]
