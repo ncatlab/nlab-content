@@ -1,7 +1,20 @@
 
-* [website](http://perso.ens-lyon.fr/henning.samtleben/henning_samtleben/home.html)
+* [institute page](http://perso.ens-lyon.fr/henning.samtleben/henning_samtleben/home.html)
+
+* [GoogleScholar page](https://scholar.google.fr/citations?user=2wgDhd4AAAAJ&hl=fr)
+
+* [InSpire page](https://inspirehep.net/authors/990473)
+
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=121406)
+
 
 ## Selected writings
+
+Discussion of [[E9]] in view of [[U-duality]]-symmetry of [[D=11 supergravity]] [[Kaluza-Klein reduction|reduced]] to $D=2$ ([[finite-dimensional vector space|finite-dimensional]] [[representations]] of the [[maximal compact subgroup|maximal compact]] subalgebra $\mathfrak{k} = Lie\big(K(E_9)\big)$:
+
+* [[Hermann Nicolai]], [[Henning Samtleben]]: *On $K(E_9)$*, Pure and Applied Mathematics Quarterly **1** 1 (2005) 180–204 &lbrack;[arXiv:hep-th/0407055](http://arxiv.org/abs/hep-th/0407055), [doi:10.4310/PAMQ.2005.v1.n1.a8](https://dx.doi.org/10.4310/PAMQ.2005.v1.n1.a8)&rbrack;
+
+
 
 On [[D=3 supergravity|D=3]] [[gauged supergravity]] and introducing the concept of [[tensor hierarchies]]:
 
