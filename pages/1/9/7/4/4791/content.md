@@ -130,4 +130,8 @@ On [[string bordism]] of the [[classifying space]] of $E_8$:
 
 * [[Michael Hill]], *The $String$  bordism of $B E_8$ and $B E_8 \times B E_8$ through dimension 14*, Ill. J. Math. **53** 1 (2009) 183-196 &lbrack;[doi:10.1215/ijm/1264170845](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-53/issue-1/The-string-bordism-of-BE_8-and-BE_8times-BE_8-through-dimension/10.1215/ijm/1264170845.full)&rbrack;
 
+On $E_8$-[[exceptional field theory]]-formulation of [[D=11 supergravity]]:
+
+* [[Olaf Hohm]], [[Henning Samtleben]]: _Exceptional Field Theory III: [[E8|$E_{8(8)}$]]_, Phys. Rev. D **90** 066002 (2014) &lbrack;[arXiv:1406.3348](http://arxiv.org/abs/1406.3348), [doi:10.1103/PhysRevD.90.066002](https://doi.org/10.1103/PhysRevD.90.066002)&rbrack;
+
 [[!redirects E8]]
