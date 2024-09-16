@@ -10,6 +10,7 @@
 +-- {: .hide}
 [[!include modalities - contents]]
 =--
+
 =--
 =--
 
@@ -90,7 +91,7 @@ a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad}, say t
 
 1. a **$Q$-weak equivalence** if $Q(f)$ is a weak equivalence;
 
-1. **a $Q$-cofibation** if it is a cofibration.
+1. **a $Q$-cofibration** if it is a cofibration.
 
 1. **a $Q$-fibration** if it has the [[right lifting property]] against the morphisms that are both ($Q$-)cofibrations as well as $Q$-weak equivalences.
 
@@ -689,7 +690,7 @@ The [[Bousfield-Friedlander model structure]] $SeqSpectra_{stable}$ on [[sequent
 
 The theorem is due to 
 
-* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], section A.3 of  _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://ncatlab.org/nlab/files/BousfieldFriedlanderSpectra.pdf))
+* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], section A.3 of  _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math. __658__, Springer, Berlin, 1978, pp. 80--130. ([pdf](https://ncatlab.org/nlab/files/BousfieldFriedlanderSpectra.pdf))
 
 and in improved form due to 
 
@@ -698,7 +699,7 @@ and in improved form due to
 
 The right-properness condition is shown to be unnecessary in 
 
-* {#Stanculescu} [[Alexandru E. Stanculescu]], *Note on a theorem of Bousfield and Friedlander*, Topology and its Applications **155** 13 (2008) 1434-1438 &lbrack;[arxiv:0806.4547](https://arxiv.org/abs/0806.4547), [doi:10.1016/j.topol.2008.05.003](https://doi.org/10.1016/j.topol.2008.05.003)&rbrack;
+* {#Stanculescu} [[Alexandru E. Stanculescu]], *Note on a theorem of Bousfield and Friedlander*, Topology and its Applications **155** 13 (2008) 1434--1438 &lbrack;[arxiv:0806.4547](https://arxiv.org/abs/0806.4547), [doi:10.1016/j.topol.2008.05.003](https://doi.org/10.1016/j.topol.2008.05.003)&rbrack;
 
 Textbook accounts include
 
