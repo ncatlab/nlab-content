@@ -55,23 +55,23 @@ The fact that every simply laced hyperbolic Kac-Moody algebra is a sub Lie algeb
 
 Discussion of $E_{10}$ as [[U-duality]] of [[supergravity]]/[[M-theory]]:
 
-The case of [[E₁₀]] is discussed for [[boson|bosonic]] degrees of freedom in 
+For [[boson|bosonic]] degrees of freedom:
 
-* [[Thibault Damour]], [[Marc Henneaux]], [[Hermann Nicolai]], _$E(10)$ and a 'small tension expansion' of M
-theory_, Phys. Rev. Lett. 89, 221601 (2002) ([arXiv:hep-th/0207267](http://arxiv.org/abs/hep-th/0207267));
+* [[Thibault Damour]], [[Marc Henneaux]], [[Hermann Nicolai]], _$E(10)$ and a "small tension expansion" of M
+theory_, Phys. Rev. Lett. **89** 221601 (2002) &lbrack;[arXiv:hep-th/0207267](http://arxiv.org/abs/hep-th/0207267)&rbrack;
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]], _$E(10)$ and $SO(9,9)$ invariant supergravity_, JHEP 0407,
-041 (2004) ([arXiv:hep-th/0407101](http://arxiv.org/abs/hep-th/0407101))
+041 (2004) &lbrack;[arXiv:hep-th/0407101](http://arxiv.org/abs/hep-th/0407101)&rbrack;
 
-and for fermionic degrees of freedom in [[supergravity|supersymmetric]] [[quantum cosmology]] in 
+and for [[fermion|fermionic]] degrees of freedom in [[supergravity|supersymmetric]] [[quantum cosmology]]: 
 
 * {#Damour14} [[Thibault Damour]], _Quantum supersymmetric Bianchi IX  Cosmology and its hidden Kac-Moody Structure_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[DamourSQC14.pdf:file]])
 
-Review includes
+Review:
 
-* {#Nicolai08} [[Hermann Nicolai]], _Wonders of $E_{10}$ and $K(E_{10})$_ (2008) ([pdf](http://ipht.cea.fr/Pisp/pierre.vanhove/Paris08/talk_PDF/nicolai.pdf))
+* {#Nicolai08} [[Hermann Nicolai]]: *Wonders of $E_{10}$ and $K(E_{10})$*, talk at *Wonders of Gauge Theory and Supergravity*, IHP Paris (2008) &lbrack;[[Nicolai-WondersOfE10.pdf:file]]&rbrack;
 
-* {#Nicolai14} [[Hermann Nicolai]], _On Exceptional Geometry and Supergravity_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[NicolaiTalk14.pdf:file]])
+* {#Nicolai14} [[Hermann Nicolai]], _On Exceptional Geometry and Supergravity_, talk at *[Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z)* &lbrack;[[NicolaiTalk14.pdf:file]]&rbrack;
 
 Discussion of [[phenomenology]]:
 
