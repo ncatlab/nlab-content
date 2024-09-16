@@ -28,7 +28,53 @@ A hyperbolic [[Kac-Moody Lie algebra]] in the E-series
 
 * [[E₆]], [[E₇]], [[E₈]], [[E₉]], **E₁₀**, [[E₁₁]], $\cdots$
 
+
 ## Properties
+
+### Maximal compact subalgebra
+ {#MaximalCompactSubalgebra}
+
+In contrast to $\mathfrak{e}_{10(10)}$ itself, its "maximal compact subalgebra" $\mathfrak{k}_{10(10)}$ has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite dimensional]] [[representations]].
+
+> (due to Nicolai, Kleinschmidt, et al., references to be listed)
+
+Among these is in particular a spinor representation $\mathbf{32}$ and a vector-spinor representation $\mathbf{320}$
+
+$$
+  \mathbf{32}
+  ,\,
+  \mathbf{320}
+  \;\in\;
+  Rep^{fdim}_{\mathbb{R}}\big(\mathfrak{k}_{10(10)}\big)
+$$
+
+akin to the familiar reps of $\mathfrak{so}(10)$ of the same name/dimension.
+
+Remarkably, the [[symmetric algebra|symmetrized]] [[tensor product of representations|tensor product]] of this spinorial $\mathbf{32}$ with itself decomposes as a 1-dimenional [[trivial representation]] with a 527-dimensional [[irrep]]:
+
+$$
+  \mathbf{32}
+  \otimes_{sym}
+  \mathbf{32}  
+  \;\;
+  \simeq
+  \;\;
+  \mathbf{1}
+  \oplus
+  \mathbf{527}
+  \;\;\;\;\;
+  \in
+  \;\;
+  Rep^{fdim}_{\mathbb{R}}\big(
+    \mathfrak{k}_{10(10)}
+  \big)
+  \,.
+$$
+
+([Damour, Kleinschmidt & Nicolai 2006 p 37](#DamourKleinschmidtNicolai06)).
+
+
+
 
 ### As U-duality group of 1d M-theory
  {#AsUDualityOf1dMTheory}
@@ -69,7 +115,7 @@ and for [[fermion|fermionic]] degrees of freedom
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *IIA and IIB spinors from $K(E_{10})$*, Phys. Lett.B **637** (2006) 107-112 &lbrack;[arXiv:hep-th/0603205](https://arxiv.org/abs/hep-th/0603205), [doi:10.1016/j.physletb.2006.04.007](https://doi.org/10.1016/j.physletb.2006.04.007)&rbrack;
 
-* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$K(E_{10})$, Supergravity and Fermions*, JHEP 0608:046 (2006) &lbrack;[arXiv:hep-th/0606105](https://arxiv.org/abs/hep-th/0606105), [doi:10.1088/1126-6708/2006/08/046](https://doi.org/10.1088/1126-6708/2006/08/046)&rbrack;
+* {#DamourKleinschmidtNicolai06} [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$K(E_{10})$, Supergravity and Fermions*, JHEP 0608:046 (2006) &lbrack;[arXiv:hep-th/0606105](https://arxiv.org/abs/hep-th/0606105), [doi:10.1088/1126-6708/2006/08/046](https://doi.org/10.1088/1126-6708/2006/08/046)&rbrack;
 
 and application to [[supersymmetric quantum mechanics|supersymmetric]] [[quantum cosmology]]: 
 
