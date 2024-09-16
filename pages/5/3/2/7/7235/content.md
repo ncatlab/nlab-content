@@ -277,6 +277,11 @@ Further discussion includes
 
 * {#GLSW} [[Mariana Graña]], [[Jan Louis]], Aaron Sim, [[Daniel Waldram]], section 3.1 of  _$E_{7(7)}$ formulation of $N=2$ backgrounds_ ([arXiv:0904.2333](http://arxiv.org/abs/0904.2333))
 
+On $E_7$-[[exceptional field theory]] formulation of [[D=11 supergravity]]:
+
+* [[Olaf Hohm]], [[Henning Samtleben]]: _Exceptional Field Theory II: [[E7|$E_{7(7)}$]]_, Phys. Rev. D **89** 066017 (2014) &lbrack;[arXiv:1312.4542](http://arxiv.org/abs/1312.4542), [doi:10.1103/PhysRevD.89.066017](https://doi.org/10.1103/PhysRevD.89.066017)&rbrack;
+
+
 [[!redirects E7]]
 
  
