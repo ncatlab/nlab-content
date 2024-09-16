@@ -96,14 +96,17 @@ On [[E10]] as [[U-duality]]-group of [[supergravity]]/[[M-theory]]:
 
 * {#Nicolai14} [[Hermann Nicolai]], _On Exceptional Geometry and Supergravity_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[NicolaiTalk14.pdf:file]])
 
+
+On [[E10]]-[[U-duality]] [[exceptional field theory]] with [[fermions]] ($E_{10}/K(E_{10})$-coset model [[supersymmetric quantum mechanics]]):
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *IIA and IIB spinors from $K(E_{10})$*, Phys. Lett.B **637** (2006) 107-112 &lbrack;[arXiv:hep-th/0603205](https://arxiv.org/abs/hep-th/0603205), [doi:10.1016/j.physletb.2006.04.007](https://doi.org/10.1016/j.physletb.2006.04.007)&rbrack;
+
+* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$K(E10)$, Supergravity and Fermions*, JHEP 0608:046 (2006) &lbrack;[arXiv:hep-th/0606105](https://arxiv.org/abs/hep-th/0606105), [doi:10.1088/1126-6708/2006/08/046](https://doi.org/10.1088/1126-6708/2006/08/046)&rbrack;
+
 and speculation about relation to [[phenomenology]] ([[standard model of particle physics]]):
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Standard model fermions and $K(E_{10})$*, Physics Letters B
 **747** (2015) 251-254 &lbrack;[arXiv:1504.01586](https://arxiv.org/abs/1504.01586), [doi:10.1016/j.physletb.2015.06.005](https://doi.org/10.1016/j.physletb.2015.06.005)&rbrack;
-
-On [[E10]]-[[U-duality]] [[exceptional field theory]] with [[fermions]] ($E_{10}/K(E_{10})$-coset model [[supersymmetric quantum mechanics]]):
-
-* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$K(E10)$, Supergravity and Fermions*, JHEP 0608:046 (2006) &lbrack;[arXiv:hep-th/0606105](https://arxiv.org/abs/hep-th/0606105), [doi:10.1088/1126-6708/2006/08/046](https://doi.org/10.1088/1126-6708/2006/08/046)&rbrack;
 
 
 On [[E9]] [[BPS states]]:
