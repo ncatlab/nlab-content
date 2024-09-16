@@ -1,5 +1,9 @@
 
-* [webpage](http://www.aei.mpg.de/~axkl/)
+
+* [Insitute page](https://www.aei.mpg.de/person/23540/32801)
+
+* [InSpire page](https://inspirehep.net/authors/1024476)
+
 
 ## Selected writings
 
@@ -21,6 +25,12 @@ On [[E11]]-[[exceptional field theory|exceptional]] [[supergravity]]:
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _On supersymmetric E11 exceptional field theory_ ([arXiv:1907.02080](https://arxiv.org/abs/1907.02080))
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _A master exceptional field theory_ ([arXiv:2103.13411](https://arxiv.org/abs/2103.13411))
+
+
+Discussion of [[E9]] in view of [[U-duality]]-symmetry of [[D=11 supergravity]] [[Kaluza-Klein reduction|reduced]] to $D=2$ ([[finite-dimensional vector space|finite-dimensional]] [[representations]] of the [[maximal compact subgroup|maximal compact]] subalgebra $\mathfrak{k} = Lie\big(K(E_9)\big)$:
+
+* [[Axel Kleinschmidt]], Ralf Köhl, Robin Lautenbacher, [[Hermann Nicolai]]: *Representations of involutory subalgebras of affine Kac-Moody algebras*, Commun. Math. Phys. **392** (2022) 89–123 &lbrack;[arXiv:2102.00870](https://arxiv.org/abs/2102.00870), [doi:10.1007/s00220-022-04342-9](https://doi.org/10.1007/s00220-022-04342-9)&rbrack;
+
 
 On maximal [[gauged supergravity|gauged]] [[D=2 supergravity]] via [[KK-reduction]] of [[D=11 supergravity]]:
 
