@@ -3,6 +3,11 @@
 **(Milnor's exercise)**
 \linebreak
 For a [[smooth manifold]] $X \in SmthMfd$, the [[evaluation map]] (from its [[underlying]] [[set]] to the [[hom-set]])
+
+\begin{tikzcd}[sep=0pt]
+  \mathrm{TikZZZZZ}
+\end{tikzcd}
+
 $$
   \begin{array}{l}
    X 
