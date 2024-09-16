@@ -26,7 +26,7 @@ An analogue in triangulated setup: every triangulated category which is well gen
 
 In the setup of (pretriangulated) dg-categories and t-structures
 
-* Francesco Genovese, Julia Ramos González, _A derived Gabriel--Popescu theorem for t-structures via derived injectives_, Intern. Math. Res. Notices __2023__:6 (2023) 4695--4760 [doi](https://doi.org/10.1093/imrn/rnab367) [arXiv:2105.02561](https://arxiv.org/abs/2105.02561)
+* Francesco Genovese, [[Julia Ramos González]], _A derived Gabriel--Popescu theorem for t-structures via derived injectives_, Intern. Math. Res. Notices __2023__:6 (2023) 4695--4760 [doi](https://doi.org/10.1093/imrn/rnab367) [arXiv:2105.02561](https://arxiv.org/abs/2105.02561)
 
 * Francesco Genovese, _A derived Gabriel-Popescu Theorem for t-structures via derived injectives_, talk at Toposes Online 2021 [yt](https://www.youtube.com/watch?v=u_mTHhb1Rw4)
 
