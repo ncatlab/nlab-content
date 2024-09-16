@@ -21,7 +21,7 @@
 
 A $V$-[[enriched category]] $C$, for $V = $ [[Grpd]] (the [[category]] of [[groupoids]]), has for every ordered pair $x,y$ of [[object]]s a [[groupoid]] $C(x,y)$ of [[morphism]]s between $x$ and $y$. This [[hom-object]] is hence a **hom-groupoid** in this case. 
 
-For this reason such a category may be thought of as a [[locally groupoidal 2-category]], or [[(2,1)-category]].
+For this reason such a category may be thought of as a [[locally groupoidal 2-category]], or [[strict (2,1)-category]].
 
 
 ## Examples
