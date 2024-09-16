@@ -1,6 +1,9 @@
 
-* [webpage](http://www.aei.mpg.de/english/php-Skripte/quMembPage/index.php?personKey=nicolai)
+* [institute page](https://www.aei.mpg.de/300646/homepage-of-hermann-nicolai)
 
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Hermann_Nicolai)
+
+* [inspire page](https://inspirehep.net/authors/995715)
 
 ## Selected writings
 
@@ -80,7 +83,7 @@ On [[E10]] as [[U-duality]]-group of [[supergravity]]/[[M-theory]]:
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]], _$E(10)$ and $SO(9,9)$ invariant supergravity_, JHEP 0407,
 041 (2004) ([arXiv:hep-th/0407101](http://arxiv.org/abs/hep-th/0407101))
 
-* {#Nicolai08} [[Hermann Nicolai]], _Wonders of $E_{10}$ and $K(E_{10})$_ (2008) ([pdf](http://ipht.cea.fr/Pisp/pierre.vanhove/Paris08/talk_PDF/nicolai.pdf))
+* {#Nicolai08} [[Hermann Nicolai]]: *Wonders of $E_{10}$ and $K(E_{10})$*, talk at *Wonders of Gauge Theory and Supergravity*, IHP Paris (2008) &lbrack;[[Nicolai-WondersOfE10.pdf:file]]&rbrack;
 
 * {#Nicolai14} [[Hermann Nicolai]], _On Exceptional Geometry and Supergravity_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[NicolaiTalk14.pdf:file]])
 
