@@ -7,6 +7,7 @@
 
 ## Selected writings
 
+
 Introducing what came to be called the *[[Nicolai map]]*:
 
 * [[Hermann Nicolai]], *On a new characterization of scalar supersymmetric theories*, Physics Letters B **89** 3–4 (1980) Pages 341-346 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)90138-0">doi:10.1016/0370-2693(80)90138-0</a>&rbrack;
@@ -15,6 +16,7 @@ Introducing what came to be called the *[[Nicolai map]]*:
 **176** 2 (1980) 419-428 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90460-5">doi:10.1016/0550-3213(80)90460-5</a>&rbrack;
 
 * [[Hermann Nicolai]], *Supersymmetric functional integration measures*, NATO Advanced Study Institute on Supersymmetry, Bonn (Aug 1984) 393-420 &lbrack;[cds:155731](https://cds.cern.ch/record/155731)&rbrack;
+
 
 
 On [[quantization]] of the [[M2-brane]] [[Green-Schwarz sigma-model]] by the [[BFSS matrix model]]:
@@ -29,7 +31,7 @@ On a [[perturbation series]] for the [[M2-brane]] [[Green-Schwarz sigma-model]] 
 
 * [[Olaf Lechtenfeld]], [[Hermann Nicolai]], *A perturbative expansion scheme for supermembrane and matrix theory* ([arXiv:2109.00346](https://arxiv.org/abs/2109.00346))
 
-On relation to the [[string theory]]-[[dilaton]] under [[double dimensional reduction]]:
+and on the relation to the [[string theory]]-[[dilaton]] under [[double dimensional reduction]]:
 
 * [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Fundamental Membranes and the String Dilaton* &lbrack;[arXiv:2208.05822](https://arxiv.org/abs/2208.05822)&rbrack;
 
@@ -56,6 +58,13 @@ On [[D=3 supergravity|D=3]] [[gauged supergravity]] and introducing the concept 
 * {#NicolaiSamtleben00} [[Hermann Nicolai]], [[Henning Samtleben]], _Maximal gauged supergravity in three dimensions_, Phys. Rev. Lett. 86 (2001) 1686-1689 ([arXiv:hep-th/0010076](https://arxiv.org/abs/hep-th/0010076))
 
 * {#NicolaiSamtleben01} [[Hermann Nicolai]], [[Henning Samtleben]], _Compact and Noncompact Gauged Maximal Supergravities in Three Dimensions_ ([arXiv:hep-th/0103032](http://arxiv.org/abs/hep-th/0103032))
+
+Discussion of [[E9]] in view of [[U-duality]]-symmetry of [[D=11 supergravity]] [[Kaluza-Klein reduction|reduced]] to $D=2$ ([[finite-dimensional vector space|finite-dimensional]] [[representations]] of the [[maximal compact subgroup|maximal compact]] subalgebra $\mathfrak{k} = Lie\big(K(E_9)\big)$:
+
+* [[Hermann Nicolai]], [[Henning Samtleben]]: *On $K(E_9)$*, Pure and Applied Mathematics Quarterly **1** 1 (2005) 180–204 &lbrack;[arXiv:hep-th/0407055](http://arxiv.org/abs/hep-th/0407055), [doi:10.4310/PAMQ.2005.v1.n1.a8](https://dx.doi.org/10.4310/PAMQ.2005.v1.n1.a8)&rbrack;
+
+* [[Axel Kleinschmidt]], Ralf Köhl, Robin Lautenbacher, [[Hermann Nicolai]]: *Representations of involutory subalgebras of affine Kac-Moody algebras*, Commun. Math. Phys. **392** (2022) 89–123 &lbrack;[arXiv:2102.00870](https://arxiv.org/abs/2102.00870), [doi:10.1007/s00220-022-04342-9](https://doi.org/10.1007/s00220-022-04342-9)&rbrack;
+
 
 On [[tensor hierarchies]] in [[gauged supergravity]] and possible relation to [[U-duality]] and [[M-theory]]:
 
