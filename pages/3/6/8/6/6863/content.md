@@ -96,11 +96,19 @@ On [[E10]] as [[U-duality]]-group of [[supergravity]]/[[M-theory]]:
 
 * {#Nicolai14} [[Hermann Nicolai]], _On Exceptional Geometry and Supergravity_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[NicolaiTalk14.pdf:file]])
 
-* [[Axel Kleinschmidt]], [[Hermann Nicolai]], _Standard model fermions and $K(E_{10})$_ ([arXiv:1504.01586](https://arxiv.org/abs/1504.01586))
+and speculation about relation to [[phenomenology]] ([[standard model of particle physics]]):
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Standard model fermions and $K(E_{10})$*, Physics Letters B
+**747** (2015) 251-254 &lbrack;[arXiv:1504.01586](https://arxiv.org/abs/1504.01586), [doi:10.1016/j.physletb.2015.06.005](https://doi.org/10.1016/j.physletb.2015.06.005)&rbrack;
+
+On [[E10]]-[[U-duality]] [[exceptional field theory]] with [[fermions]] ($E_{10}/K(E_{10})$-coset model [[supersymmetric quantum mechanics]]):
+
+* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$K(E10)$, Supergravity and Fermions*, JHEP 0608:046 (2006) &lbrack;[arXiv:hep-th/0606105](https://arxiv.org/abs/hep-th/0606105), [doi:10.1088/1126-6708/2006/08/046](https://doi.org/10.1088/1126-6708/2006/08/046)&rbrack;
+
 
 On [[E9]] [[BPS states]]:
 
-* {#EHKNT07} [[Francois Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065,2007 ([arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285))
+* {#EHKNT07} [[Francois Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065 (2007) &lbrack;[arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285)&rbrack;
 
 On [[E10]] and [[E11]] [[representation theory]]:
 
