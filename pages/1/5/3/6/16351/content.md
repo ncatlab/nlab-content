@@ -38,6 +38,10 @@ Related "miracles" in [[differential geometry]], revealing a maybe surprising [[
 
 * [[derivations of smooth functions are vector fields]],
 
+* [[Kähler C^∞-differentials of smooth functions are differential 1-forms]],
+
+* [[smooth differential forms form the free C^∞-DGA on smooth functions]]
+
 * [[smooth Serre-Swan theorem|finitely generated projective modules over smooth functions are smooth vector bundles]].
 
 Accordingly, the embedding of smooth manifolds into [[formal duality|formal duals]] of $\mathbb{R}$-algebras allows to import some constructions and tools from [[algebraic geometry]] into [[differential geometry]] *without* strengthening the notion of "algebra" to something like [[smooth algebras]].
