@@ -7,9 +7,23 @@
 
 ## Selected writings
 
+On [[E10]]-[[U-duality]] [[exceptional field theory]] with [[fermions]] ($E_{10}/K(E_{10})$-coset model [[supersymmetric quantum mechanics]]):
+
+* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$K(E10)$, Supergravity and Fermions*, JHEP 0608:046 (2006) &lbrack;[arXiv:hep-th/0606105](https://arxiv.org/abs/hep-th/0606105), [doi:10.1088/1126-6708/2006/08/046](https://doi.org/10.1088/1126-6708/2006/08/046)&rbrack;
+
+
 On [[U-duality]] and [[diffeomorphisms]] in [[exceptional generalized geometry]]:
 
 * [[David Berman]], [[Martin Cederwall]], [[Axel Kleinschmidt]], [[Daniel C. Thompson]], _The gauge structure of generalised diffeomorphisms_, High Energ. Phys. 2013, 64 (2013) &lbrack;[arXiv:1208.5884](http://arxiv.org/abs/1208.5884)&rbrack;
+
+
+On a possible role of [[E10]]-[[U-duality]] in [[phenomenology]] (the [[standard model of particle physics]]):
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Standard model fermions and $K(E_{10})$*, Physics Letters B
+**747** (2015) 251-254 &lbrack;[arXiv:1504.01586](https://arxiv.org/abs/1504.01586), [doi:10.1016/j.physletb.2015.06.005](https://doi.org/10.1016/j.physletb.2015.06.005)&rbrack;
+
+
+
 
 On [[E9]]-[[exceptional field theory]]-formulation of [[D=11 supergravity]]:
 
