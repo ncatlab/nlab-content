@@ -87,8 +87,14 @@ Cohomological properties are discussed in
 
   _Cohomology mod 3 of the classifying space of the exceptional Lie group $E_6$, II : The Weyl group invariants_ ([arXiv:1201.3414](http://arxiv.org/abs/1201.3414))
 
-See also
+See also:
 
 * Wikipedia, _[E₆](http://en.wikipedia.org/wiki/E6_%28mathematics%29)_
+
+On $E_6$-[[exceptional field theory]] formulation of [[D=11 supergravity]]:
+
+* [[Olaf Hohm]], [[Henning Samtleben]]: _Exceptional Field Theory I: [[E6|$E_{6(6)}$]] covariant Form of M-Theory and Type IIB_, Phys. Rev. D **89** 066016 (2014) &lbrack;[arXiv:1312.0614](http://arxiv.org/abs/1312.0614), [doi:10.1103/PhysRevD.89.066016](https://doi.org/10.1103/PhysRevD.89.066016)&rbrack;
+
+
 
 [[!redirects E6]]
