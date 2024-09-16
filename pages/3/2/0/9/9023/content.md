@@ -48,15 +48,34 @@ $E_9$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] 
 
 ## References
 
-* [[Hermann Nicolai]], [[Henning Samtleben]], _On $K(E_9)$_ ([arXiv:hep-th/0407055](http://arxiv.org/abs/hep-th/0407055))
+### General
 
-* {#EHKNT07} [[François Englert]], [[Laurent Houart]], [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An E9 multiplet of BPS states_, JHEP 0705:065 (2007) &lbrack;[arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285)&rbrack;
+(...)
+
+### As U-duality symmetry
+
+Discussion of $E_9$ in view of [[U-duality]]-symmetry of [[D=11 supergravity]] [[Kaluza-Klein reduction|reduced]] to $D=2$:
+
+On [[finite-dimensional vector space|finite-dimensional]] [[representations]] of the [[maximal compact subgroup|maximal compact]] subalgebra $\mathfrak{k} = Lie\big(K(E_9)\big)$:
+
+* [[Hermann Nicolai]], [[Henning Samtleben]]: *On $K(E_9)$*, Pure and Applied Mathematics Quarterly **1** 1 (2005) 180–204 &lbrack;[arXiv:hep-th/0407055](http://arxiv.org/abs/hep-th/0407055), [doi:10.4310/PAMQ.2005.v1.n1.a8](https://dx.doi.org/10.4310/PAMQ.2005.v1.n1.a8)&rbrack;
+
+* [[Axel Kleinschmidt]], Ralf Köhl, Robin Lautenbacher, [[Hermann Nicolai]]: *Representations of involutory subalgebras of affine Kac-Moody algebras*, Commun. Math. Phys. **392** (2022) 89–123 &lbrack;[arXiv:2102.00870](https://arxiv.org/abs/2102.00870), [doi:10.1007/s00220-022-04342-9](https://doi.org/10.1007/s00220-022-04342-9)&rbrack;
+
+* Benedikt König: *$\mathfrak{k}$-structure of basic representation of affine algebras* &lbrack;[arXiv:2407.12748](https://arxiv.org/abs/2407.12748)&rbrack;
+
+On [[BPS states]] of [[D=11 supergravity]] via the [[representation theory]] of $E_9$:
+
+* {#EHKNT07} [[François Englert]], [[Laurent Houart]], [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An E9 multiplet of BPS states_, JHEP 0705:065 (2007) &lbrack;[arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285), [doi:10.1088/1126-6708/2007/05/065](https://doi.org/10.1088/1126-6708/2007/05/065)&rbrack;
+
 
 On $E_9$-[[exceptional field theory]]-formulation of [[D=11 supergravity]]:
 
 * [[Guillaume Bossard]], [[Franz Ciceri]], [[Gianluca Inverso]], [[Axel Kleinschmidt]], [[Henning Samtleben]]: *[[E9|$E_9$]] exceptional field theory I. The potential*  J. High Energ. Phys. **2019** 89 (2019) &lbrack;[arXiv:1811.04088](https://arxiv.org/abs/1811.04088), <a href="https://doi.org/10.1007/JHEP03(2019)089">doi:10.1007/JHEP03(2019)089</a>&rbrack;
 
 * [[Guillaume Bossard]], [[Franz Ciceri]], [[Gianluca Inverso]], [[Axel Kleinschmidt]], [[Henning Samtleben]]: *[[E9|$E_9$]] exceptional field theory II. The complete dynamics*,  J. High Energ. Phys. **2021** 107 (2021). &lbrack;[arXiv:2103.12118](https://arxiv.org/abs/2103.12118), <a href="https://doi.org/10.1007/JHEP05(2021)107">doi:10.1007/JHEP05(2021)107</a>&rbrack;
+
+
 
 
 [[!redirects E9]]
