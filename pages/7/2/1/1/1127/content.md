@@ -169,7 +169,9 @@ which was published as
 
 * {#Hovey01} [[Mark Hovey]], _Model category structures on chain complexes of sheaves_, Trans. Amer. Math. Soc. **353** 6 (2001) &lbrack;[ams:S0002-9947-01-02721-0](https://www.ams.org/journals/tran/2001-353-06/S0002-9947-01-02721-0), [jstor:221954](https://www.jstor.org/stable/221954)&rbrack;  
 
+Two bicategories of $k$-linear Grothendieck categories as a [[bicategories of fractions]]
 
+* [[Julia Ramos González]], _Grothendieck categories as a bilocalization of linear sites_, Appl Categor Struct 26, 717--745 (2018) [doi](https://doi.org/10.1007/s10485-017-9511-1)
 
 
 [[!redirects Grothendieck categories]]
