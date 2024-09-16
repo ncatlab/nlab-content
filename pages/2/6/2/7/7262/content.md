@@ -63,7 +63,15 @@ theory_, Phys. Rev. Lett. **89** 221601 (2002) &lbrack;[arXiv:hep-th/0207267](ht
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]], _$E(10)$ and $SO(9,9)$ invariant supergravity_, JHEP 0407,
 041 (2004) &lbrack;[arXiv:hep-th/0407101](http://arxiv.org/abs/hep-th/0407101)&rbrack;
 
-and for [[fermion|fermionic]] degrees of freedom in [[supergravity|supersymmetric]] [[quantum cosmology]]: 
+and for [[fermion|fermionic]] degrees of freedom 
+
+* S. de Buyl, [[Marc Henneaux]], L. Paulot: *Extended $E_8$ Invariance of 11-Dimensional Supergravity*, Journal of High Energy Physics **2006** JHEP02 (2006) &lbrack;[arXiv:hep-th/0512292](https://arxiv.org/abs/hep-th/0512292), [doi:10.1088/1126-6708/2006/02/056](https://doi.org/10.1088/1126-6708/2006/02/056)&rbrack;
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *IIA and IIB spinors from $K(E_{10})$*, Phys. Lett.B **637** (2006) 107-112 &lbrack;[arXiv:hep-th/0603205](https://arxiv.org/abs/hep-th/0603205), [doi:10.1016/j.physletb.2006.04.007](https://doi.org/10.1016/j.physletb.2006.04.007)&rbrack;
+
+* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$K(E_{10})$, Supergravity and Fermions*, JHEP 0608:046 (2006) &lbrack;[arXiv:hep-th/0606105](https://arxiv.org/abs/hep-th/0606105), [doi:10.1088/1126-6708/2006/08/046](https://doi.org/10.1088/1126-6708/2006/08/046)&rbrack;
+
+and application to [[supersymmetric quantum mechanics|supersymmetric]] [[quantum cosmology]]: 
 
 * {#Damour14} [[Thibault Damour]], _Quantum supersymmetric Bianchi IX  Cosmology and its hidden Kac-Moody Structure_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[DamourSQC14.pdf:file]])
 
@@ -75,11 +83,18 @@ Review:
 
 Discussion of [[phenomenology]]:
 
-* [[Axel Kleinschmidt]], [[Hermann Nicolai]], _Standard model fermions and $K(E_{10})$_ ([arXiv:1504.01586](https://arxiv.org/abs/1504.01586))
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Standard model fermions and $K(E_{10})$*, Physics Letters B
+**747** (2015) 251-254 &lbrack;[arXiv:1504.01586](https://arxiv.org/abs/1504.01586), [doi:10.1016/j.physletb.2015.06.005](https://doi.org/10.1016/j.physletb.2015.06.005)&rbrack;
 
-* {#MeissnerNicolai18a} Krzysztof A. Meissner, [[Hermann Nicolai]], _Standard Model Fermions and Infinite-Dimensional R-Symmetries_, Phys. Rev. Lett. 121, 091601 (2018) ([arXiv:1804.09606](https://arxiv.org/abs/1804.09606))
+* {#MeissnerNicolai18a} [[Krzysztof A. Meissner]], [[Hermann Nicolai]], _Standard Model Fermions and Infinite-Dimensional R-Symmetries_, Phys. Rev. Lett. **121** 091601 (2018) &lbrack;[arXiv:1804.09606](https://arxiv.org/abs/1804.09606), [doi:10.1103/PhysRevLett.121.091601](https://doi.org/10.1103/PhysRevLett.121.091601)&rbrack;
 
-* {#MeissnerNicolai18b} Krzysztof A. Meissner, [[Hermann Nicolai]], _Planck Mass Charged Gravitino Dark Matter_, Phys. Rev. D 100, 035001 (2019) ([arXiv:1809.01441](https://arxiv.org/abs/1809.01441))
+* {#MeissnerNicolai18b} [[Krzysztof A. Meissner]], [[Hermann Nicolai]]: _Planck Mass Charged Gravitino Dark Matter_, Phys. Rev. D **100** 035001 (2019) &lbrack;[arXiv:1809.01441](https://arxiv.org/abs/1809.01441)&rbrack;
+
+See also:
+
+* Jeffrey Brown, Surya Ganguli, [[Ori J. Ganor]], Craig Helfgott: *$E_{10}$ Orbifolds*, Journal of High Energy Physics **2005** JHEP06 (2005) &lbrack;[arXiv:hep-th/0409037](https://arxiv.org/abs/hep-th/0409037), [doi:10.1088/1126-6708/2005/06/057](https://doi.org/10.1088/1126-6708/2005/06/057)&rbrack;
+
+
 
 [[!redirects E10]]
 
