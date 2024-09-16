@@ -63,6 +63,24 @@ $$
 
 On the other hand, the [[special orthogonal group]] $SO(16)$ is _not_ a [[subgroup]] of $E_8$ (e.g. [McInnes 99a, p. 11](SemiSpin16#McInnes99a)).
 
+Under the inclusion of the maximal compact subgroup, the [[fundamental representation]] of $E_{8(8)}$ [[branching rule|branches]] as 
+
+\begin{tikzcd}[sep=0pt]
+  \mathrm{SemiSpin}(16)
+  \ar[rr, "{ \iota }"]
+  &&
+  E_{8(8)}
+  \\
+  \mathbf{120}
+  \oplus
+  \mathbf{128}
+  &\rotatebox{180}{$\longmapsto$}&
+  \mathbf{248}
+\end{tikzcd}
+
+(e.g. [Hohm & Samtleben 2014 p 4](#HohmSamtleben14))
+
+
 ### Invariant polynomials
 
 By the above discussion of homotopy groups, it follows (by [[Chern-Weil theory]]) that the first [[invariant polynomials]] on the [[Lie algebra]] $\mathfrak{e}_8$ are the quadratic [[Killing form]] and then next an octic polynomial. That is described in ([Cederwall-Palmkvist](#CederwallPalmkvist)).
@@ -132,6 +150,6 @@ On [[string bordism]] of the [[classifying space]] of $E_8$:
 
 On $E_8$-[[exceptional field theory]]-formulation of [[D=11 supergravity]]:
 
-* [[Olaf Hohm]], [[Henning Samtleben]]: _Exceptional Field Theory III: [[E8|$E_{8(8)}$]]_, Phys. Rev. D **90** 066002 (2014) &lbrack;[arXiv:1406.3348](http://arxiv.org/abs/1406.3348), [doi:10.1103/PhysRevD.90.066002](https://doi.org/10.1103/PhysRevD.90.066002)&rbrack;
+* {#HohmSamtleben14} [[Olaf Hohm]], [[Henning Samtleben]]: _Exceptional Field Theory III: [[E8|$E_{8(8)}$]]_, Phys. Rev. D **90** 066002 (2014) &lbrack;[arXiv:1406.3348](http://arxiv.org/abs/1406.3348), [doi:10.1103/PhysRevD.90.066002](https://doi.org/10.1103/PhysRevD.90.066002)&rbrack;
 
 [[!redirects E8]]
