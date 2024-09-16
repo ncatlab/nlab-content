@@ -13,3 +13,5 @@ On the [[D=6 N=(1,0) SCFT]] on [[heterotic M5-branes]] and their [[KK-compactifi
 
 
 category: people
+
+[[!redirects Ori J. Ganor]]
