@@ -31,7 +31,7 @@ The [[functor]] which sends
 
 turns out to be [[fully faithful functor|fully faithful]], hence a [[full subcategory]] embedding of [[SmthMfd]] into the [[opposite category|opposite]] of [[Alg|$\mathbb{R}Alg$]].
 
-This is remarkable, because such a relation between [[spaces]] and their [[algebras of functions]] is (more) manifest only for [[affine varieties]] in [[algebraic geometry]], where however it holds essentially by construction. 
+This is remarkable, because such a relation between [[spaces]] and their *plain* [[algebras of functions]] is (more) manifest only for [[affine varieties]] in [[algebraic geometry]], where however it holds essentially by construction. 
 In contrast, nothing in the usual definition of [[smooth manifolds]] manifestly suggests that they behave to some extent similarly to [[affine varieties]] with respect to $\mathbb{R}$-algebras of smooth functions. (See also at *[[duality between algebra and geometry]]*.)
 
 Related "miracles" in [[differential geometry]], revealing a maybe surprising [[algebraic geometry|algebro-geometric]]-nature, are the facts that:
