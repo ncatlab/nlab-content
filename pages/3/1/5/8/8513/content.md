@@ -2,7 +2,7 @@
 * [homepage](https://www.msri.org/~de)
 * [wikipedia](https://en.wikipedia.org/wiki/David_Eisenbud)
 
-A comprehensive monograph on commutative algebra
+A comprehensive monograph on [[commutative algebra]]
 
 * David Eisenbud, _Commutative algebra with a view toward algebraic geometry_, Graduate Texts in Mathematics __150__
 [MR1322960](https://mathscinet.ams.org/mathscinet-getitem?mr=1322960)
