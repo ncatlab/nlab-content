@@ -34,7 +34,7 @@ One of the affine [[Kac-Moody groups]] in the E-series.
 ### Representations of maximal compact subalgebra
  {#RepresentationsOfMaximalCompactSubalgebra}
 
-In contrast to the full [[affine Lie algebra]] $\mathfrak{e}_{9(9)}$, the [[maximal compact subgroup|maximal compact]] subalgebra $\mathfrak{k}_{9(9)} \,\coloneqq\, Lie\big(K(E_{9(9)})\big)$ has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite-dimensional]] [[representations]] &lbrack;[Nicolai & Samtleben 2005](#NicolaiSamtleben05), [KKLN22](#KKLN22)&rbrack;.
+In contrast to the full [[affine Lie algebra]] $\mathfrak{e}_{9(9)}$, the "maximal compact subalgebra" $\mathfrak{k}_{9(9)} \,\coloneqq\, Lie\big(K(E_{9(9)})\big)$ has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite-dimensional]] [[representations]] &lbrack;[Nicolai & Samtleben 2005](#NicolaiSamtleben05), [KKLN22](#KKLN22)&rbrack;.
 
 Specifically, under the [[restricted representation|restriction]] ("[[branching rule|branching]]") of the basic representation of $\mathfrak{e}_{9(9)}$ along the inclusion $\mathfrak{k}_{9(9)} \hookrightarrow \mathfrak{e}_{9(9)}$ the first (namely: *parabolic level zero*) $\mathfrak{k}$-[[irrep]] [[direct sum|summand]] has [[dimension of a vector space|dimension]] $2^{rk(\mathfrak{e}_8)} = 256$. &lbrack;[König 2024, top of p 38 and pp 41-42](#König24)&rbrack;.
 
