@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -86,11 +87,13 @@ $E_{10}$ is conjectured (e.g. [Nicolai 08](#Nicolai08)) to be the [[U-duality]] 
 
 ## References
 
+
 ### General
 
-Lecture notes include
+Lecture notes:
 
-* [[Hermann Nicolai]], _Infinite dimensional symmetries_ (2009) ([pdf](http://www.itp.uni-hannover.de/~lechtenf/Events/Lectures/nicolai.pdf))
+* {#NicolaiSchlotterer09} [[Hermann Nicolai]] (notes by [[Oliver Schlotterer]]): _Infinite dimensional symmetries_, lecture at *Saalburg summer school* in Wolfersdorf, Thuringia (2009) &lbrack;[[NicolaiSchlotterer-InfinDimSymmetries.pdf:file]]&rbrack;
+
 
 The fact that every simply laced hyperbolic Kac-Moody algebra is a sub Lie algebra of $E_{10}$ is due to
 
