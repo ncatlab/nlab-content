@@ -34,9 +34,8 @@ A hyperbolic [[Kac-Moody Lie algebra]] in the E-series
 ### Maximal compact subalgebra
  {#MaximalCompactSubalgebra}
 
-In contrast to $\mathfrak{e}_{10(10)}$ itself, its "maximal compact subalgebra" $\mathfrak{k}_{10(10)}$ has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite dimensional]] [[representations]].
+In contrast to $\mathfrak{e}_{10(10)}$ itself, its "maximal compact subalgebra" $\mathfrak{k}_{10(10)}$ has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite dimensional]] [[representations]] ([KKLN22](Kac-Moody+algebra#KKLN22)).
 
-> (due to Nicolai, Kleinschmidt, et al., references to be listed)
 
 Among these is in particular a spinor representation $\mathbf{32}$ and a vector-spinor representation $\mathbf{320}$
 
