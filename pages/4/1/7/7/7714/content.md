@@ -48,7 +48,7 @@ via [[Kaluza-Klein reduction|KK-reduction]] of the "[[M-algebra]]".
 
 It became more widely appreciated under the heading "[[exceptional generalized geometry]]" with:
 
-* {#Hull} [[Christopher M. Hull]], *Generalised Geometry for M-Theory*, JHEP 0707:079 (2007) &lbrack;[arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203), [doi:10.1088/1126-6708/2007/07/079](https://doi.org/10.1088/1126-6708/2007/07/079)&rbrack;
+* {#Hull07} [[Christopher M. Hull]], *Generalised Geometry for M-Theory*, JHEP 0707:079 (2007) &lbrack;[arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203), [doi:10.1088/1126-6708/2007/07/079](https://doi.org/10.1088/1126-6708/2007/07/079)&rbrack;
 
 The actual term "exceptional tangent bundle" appears, in the context of *[[exceptional field theory]]*, for instance in 
 
