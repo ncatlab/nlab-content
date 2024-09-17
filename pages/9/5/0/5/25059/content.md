@@ -12,6 +12,11 @@ On the [[CP^1 sigma-model|$\mathbb{C}P^1$ sigma-model]]:
 
 * [[Shmuel Elitzur]], [[Yaron Oz]], [[Eliezer Rabinovici]], [[Johannes Walcher]], *Open/Closed Topological $\mathbb{C}P^1$ Sigma Model Revisited*,  J. High Energ. Phys. **2012** 101 (2012) &lbrack;[arXiv:1106.2967](https://arxiv.org/abs/1106.2967)&rbrack;
 
+On [[U-duality]] symmetry in the [[BFSS matrix model]]:
+
+* [[Shmuel Elitzur]], [[Amit Giveon]], [[David Kutasov]], [[Eliezer Rabinovici]]: *Algebraic Aspects of Matrix Theory on $T^d$*, Nucl. Phys. B **509** (1998) 122-144 &lbrack;[arXiv:hep-th/9707217](https://arxiv.org/abs/hep-th/9707217), <a href="https://doi.org/10.1016/S0550-3213(97)00622-6">doi:10.1016/S0550-3213(97)00622-6</a>&rbrack;
+
+
 On [[NS5-brane]]-[[brane intersections|intersections]] with [[D-branes]]:
 
 * {#EGKRS00} [[Shmuel Elitzur]], [[Amit Giveon]], [[David Kutasov]], [[Eliezer Rabinovici]], [[Gor Sarkissian]], *D-Branes in the Background of NS Fivebranes*, JHEP 0008 (2000) 046 &lbrack;[arXiv:hep-th/0005052](https://arxiv.org/abs/hep-th/0005052), [doi:10.1088/1126-6708/2000/08/046](https://doi.org/10.1088/1126-6708/2000/08/046)&rbrack;
