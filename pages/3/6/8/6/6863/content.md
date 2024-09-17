@@ -112,6 +112,10 @@ On [[E10]] as [[U-duality]]-group of [[supergravity]]/[[M-theory]]:
 
 * {#Nicolai14} [[Hermann Nicolai]], _On Exceptional Geometry and Supergravity_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[NicolaiTalk14.pdf:file]])
 
+On [[E10]] and [[E11]] [[representation theory]]:
+
+* {#NicolaiFischbacher03} [[Hermann Nicolai]], Thomas Fischbacher, _Low Level Representations for $E_{10}$ and $E_{11}$_ &lbrack;[arXiv:hep-th/0301017](http://arxiv.org/abs/hep-th/0301017)&rbrack;
+
 
 On [[E10]]-[[U-duality]] [[exceptional field theory]] with [[fermions]] ($E_{10}/K(E_{10})$-coset model [[supersymmetric quantum mechanics]]):
 
@@ -129,9 +133,11 @@ On [[E9]] [[BPS states]]:
 
 * {#EHKNT07} [[Francois Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065 (2007) &lbrack;[arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285)&rbrack;
 
-On [[E10]] and [[E11]] [[representation theory]]:
 
-* {#NicolaiFischbacher03} [[Hermann Nicolai]], Thomas Fischbacher, _Low Level Representations for E10 and E11_ ([arXiv:hep-th/0301017](http://arxiv.org/abs/hep-th/0301017))
+On infinite-dimensional [[Kac-Moody algebras]] as [[U-duality]] [[symmetries]] of [[D=11 supergravity]], with focus on the example of [[E10]]:
+
+* {#NicolaiSchlotterer09} [[Hermann Nicolai]] (notes by [[Oliver Schlotterer]]): _Infinite dimensional symmetries_, lecture at *Saalburg summer school* in Wolfersdorf, Thuringia (2009) &lbrack;[[NicolaiSchlotterer-InfinDimSymmetries.pdf:file]]&rbrack;
+
 
 On super-heavy [[gravitinos]] as [[dark matter]] candidates, by embedding [[D=4 N=8 supergravity]] into [[E10]]-[[U-duality]]-invariant [[M-theory]]:
 
