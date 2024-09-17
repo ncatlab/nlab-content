@@ -271,6 +271,9 @@ Review and introduction:
 
 * Ben Gripaios, _Lectures: From quantum mechanics to the Standard Model_ ([arXiv:2005.06355](https://arxiv.org/abs/2005.06355))
 
+* [[Fernando Quevedo]], Andreas Schachner: *Cambridge Lectures on The Standard Model* &lbrack;[arXiv:2409.09211](https://arxiv.org/abs/2409.09211)&rbrack;
+
+
 Mathematical ([[representation theory|representation theoretic]]) review with an eye towards [[grand unified theory]]:
 
 * [[Howard Georgi]], *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
