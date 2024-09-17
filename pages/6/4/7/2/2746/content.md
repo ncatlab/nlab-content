@@ -23,6 +23,10 @@ On a [[category of fibrant objects]]-structure [[model structure for L-infinity 
 
 * [[Christopher L. Rogers]], _An explicit model for the homotopy theory of finite type Lie $n$-algebras_, Algebr. Geom. Topol. 20 (2020) 1371-1429 ([arXiv:1809.05999](https://arxiv.org/abs/1809.05999), [doi:10.2140/agt.2020.20.1371](https://doi.org/10.2140/agt.2020.20.1371))
 
+On [[Lie integration]] of [[L-infinity algebras]] to [[smooth infinity-groups]] ([[Lie's third theorem]] in [[higher Lie theory]]):
+
+* [[Christopher L. Rogers]], [[Jesse Wolfson]]: *Lie's Third Theorem for Lie $\infty$-Algebras* &lbrack;[arXiv:2409.08957](https://arxiv.org/abs/2409.08957)&rbrack;
+
 
 
 
