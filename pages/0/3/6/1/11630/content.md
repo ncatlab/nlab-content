@@ -136,16 +136,18 @@ U-duality may be understood as being the combination of [[T-duality]] for the co
 
 * [[mysterious duality]]
 
+
+
 ## References
  {#References}
 
 ### General
 
-The hidden [[E7]]-symmetry of the [[KK-compactification]] of [[11-dimensional supergravity]] on a 7-dimensional fiber to maximal $N = 8$ [[4d supergravity]] was first noticed in
+The hidden [[E7]]-symmetry of the [[KK-compactification]] of [[11-dimensional supergravity]] on a 7-dimensional [[torus]] to [[D=4 N=8 supergravity]] was first noticed in
 
-* {#CremmerJulia78} [[Eugene Cremmer]], [[Bernard Julia]], _The $N = 8$ supergravity theory. I. The Lagrangian_, Phys. Lett. 80B (1978) 48
+* {#CremmerJulia78} [[Eugene Cremmer]], [[Bernard Julia]], _The $N = 8$ supergravity theory. I. The Lagrangian_, Phys. Lett. B **80** (1978) 48 &lbrack;[spire:131572](https://inspirehep.net/literature/131572), <a href="https://doi.org/10.1016/0370-2693(78)90303-9">doi:10.1016/0370-2693(78)90303-9</a>&rbrack;
 
-* {#CremmerJulia79} [[Eugene Cremmer]], [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B 159 (1979) 141 ([spire](http://inspirehep.net/record/140465?ln=en)) 
+* {#CremmerJulia79} [[Eugene Cremmer]], [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B **159** (1979) 141 &lbrack;<a href="https://doi.org/10.1016/0550-3213(79)90331-6">doi;10.1016/0550-3213(79)90331-6</a>, [spire:140465](https://inspirehep.net/literature/140465)&rbrack;
 
 and more generally in 
 
@@ -159,21 +161,29 @@ The further U-duality groups for compactifications of 11d SuGra including [[E6]]
 
 * [[Bernard Julia]], _Group Disintegrations_, in Hawking, Rocek (eds.): _Superspace and Supergravity_, Cambridge University Press (1981) &lbrack;[spire:155019](https://inspirehep.net/literature/155019)&rbrack;
 
-Review:
+The concept and terminology of U-duality in [[string theory]]/[[M-theory]] originates with:
 
-* [Obers-Pioline 98, section 4.2](#ObersPioline98)
+* {#HullTownsend94} [[Chris Hull]], [[Paul Townsend]]: *Unity of Superstring Dualities*, Nucl. Phys. B **438** (1995) 109-137 &lbrack;[arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167), <a href="https://doi.org/10.1016/0550-3213(94)00559-W">doi:10.1016/0550-3213(94)00559-W</a>&rbrack;
+
+Discussion via the [[BFSS matrix model]]:
+
+* [[Shmuel Elitzur]], [[Amit Giveon]], [[David Kutasov]], [[Eliezer Rabinovici]]: *Algebraic Aspects of Matrix Theory on $T^d$*, Nucl. Phys. B **509** (1998) 122-144 &lbrack;[arXiv:hep-th/9707217](https://arxiv.org/abs/hep-th/9707217), <a href="https://doi.org/10.1016/S0550-3213(97)00622-6">doi:10.1016/S0550-3213(97)00622-6</a>&rbrack;
+
+
+Early teview:
+
+* {#ObersPioline98} [[Niels Obers]], [[Boris Pioline]], *U-duality and M-Theory*, Phys. Rept. **318** (1999) 113-225 &lbrack;[arXiv:hep-th/9809039](https://arxiv.org/abs/hep-th/9809039), <a href="https://doi.org/10.1016/S0370-1573(99)00004-6">doi:10.1016/S0370-1573(99)00004-6</a>&rbrack;
+
+* [[Hermann Nicolai]]: *On M-Theory*,  J Astrophys Astron **20**,  (1999) 149–164 &lbrack;[arXiv:hep-th/9801090](https://arxiv.org/abs/hep-th/9801090), [doi:10.1007/BF02702349](https://doi.org/10.1007/BF02702349)&rbrack;
 
 * [[Bernard de Wit]], [[Hermann Nicolai]]: *Hidden Symmetries, Central Charges and All That*, Class. Quant. Grav. **18** (2001) 3095-3112 &lbrack;[arXiv:hep-th/0011239](https://arxiv.org/abs/hep-th/0011239), [doi:10.1088/0264-9381/18/16/302](https://doi.org/10.1088/0264-9381/18/16/302)&rbrack;
 
 * [[Pietro Fré]], Floriana Gargiulo, Ksenya Rulik, Mario Trigiante: _The general pattern of Kac Moody extensions in supergravity and the issue of cosmic billiards_, Nucl. Phys. B **741** (2006) 42-82 &lbrack;[arXiv:hep-th/0507249](http://arxiv.org/abs/hep-th/0507249)&rbrack;
 
+* [[Paul Cook]], *Connections between Kac-Moody algebras and M-theory*, PhD thesis, King's College London (2007) &lbrack;[arXiv:0711.3498](http://arxiv.org/abs/0711.3498), [webpage](https://kclpure.kcl.ac.uk/portal/en/publications/connections-between-kac-moody-algebras-and-m-theory)&rbrack;
 
 
-The concept and terminology of U-duality in string theory/M-theory originates in 
-
-* {#HullTownsend94} [[Chris Hull]], [[Paul Townsend]]: *Unity of Superstring Dualities*, Nucl. Phys. B **438** (1995) 109-137 &lbrack;[arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167), <a href="https://doi.org/10.1016/0550-3213(94)00559-W">doi:10.1016/0550-3213(94)00559-W</a>&rbrack;
-
-A textbook account is in 
+Monographs:
 
 * {#West12} [[Peter West]], section 17.3 of _[[Introduction to Strings and Branes]]_, Cambridge University Press 2012
 
@@ -196,14 +206,11 @@ with slides in
 
 * {#Samtleben07} [[Henning Samtleben]], _Gauged supergravity and U-duality_, 2007  ([pdf](http://www.desy.de/uni-th/stringth/ggfl/talks/Samtleben.pdf))
 
-Reviews with more [[M-theory]] lore include
+Further discussion with an eye towards [[M-theory]]:
 
-* {#ObersPioline98} [[Niels Obers]], [[Boris Pioline]], *U-duality and M-Theory*, Phys. Rept. **318** (1999) 113-225 &lbrack;[arXiv:hep-th/9809039](https://arxiv.org/abs/hep-th/9809039), <a href="https://doi.org/10.1016/S0370-1573(99)00004-6">doi:10.1016/S0370-1573(99)00004-6</a>&rbrack;
+* Shun'ya Mizoguchi, Germar Schroeder, _On Discrete U-duality in M-theory_, Class. Quant. Grav. **17** (2000) 835-870 &lbrack;[arXiv:hep-th/9909150](http://arxiv.org/abs/hep-th/9909150)&rbrack;
 
-
-* Shun'ya Mizoguchi, Germar Schroeder, _On Discrete U-duality in M-theory_, Class.Quant.Grav. 17 (2000) 835-870 ([arXiv:hep-th/9909150](http://arxiv.org/abs/hep-th/9909150))
-
-* {#Roest04} Diederik Roest, _M-theory and Gauged Supergravities_, Fortsch.Phys.53:119-230,2005 ([arXiv:hep-th/0408175](http://arxiv.org/abs/hep-th/0408175))
+* {#Roest04} [[Diederik Roest]]: *M-theory and Gauged Supergravities*, Fortsch. Phys. **53** (2005) 119-230 &lbrack;[arXiv:hep-th/0408175](http://arxiv.org/abs/hep-th/0408175), [doi:10.1002/prop.200410192](https://doi.org/10.1002/prop.200410192)&rbrack;
 
 
 
