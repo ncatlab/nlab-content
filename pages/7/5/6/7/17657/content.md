@@ -1,6 +1,6 @@
 
 Fernando Quevedo is director of [ICTP](https://www.ictp.it/) and now
-professor of physics at NYU Abu Dhabi, working on [[high energy physics]]  [[phenomenology]].
+professor of physics at NYU Abu Dhabi. He works on ([[string theory|string theoretic]]) [[high energy physics]] [[phenomenology]].
 
 * [institute page](http://www.damtp.cam.ac.uk/person/fq201) (Cambridge)
 
