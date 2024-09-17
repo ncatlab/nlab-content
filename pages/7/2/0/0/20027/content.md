@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On infinite-dimensional [[Kac-Moody algebras]] as [[U-duality]] [[symmetries]] of [[D=11 supergravity]], with focus on the example of [[E10]]:
+
+* {#NicolaiSchlotterer09} [[Hermann Nicolai]] (notes by [[Oliver Schlotterer]]): _Infinite dimensional symmetries_, lecture at *Saalburg summer school* in Wolfersdorf, Thuringia (2009) &lbrack;[[NicolaiSchlotterer-InfinDimSymmetries.pdf:file]]&rbrack;
+
+
 On [[string scattering amplitudes]] for the [[Berkovits superstring|Berkovits-formulation]] of the [[superstring]]:
 
 * {#MafraSchlotterer18a} [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude I: Pure spinors and superfield kinematics_ ([arXiv:1812.10969](https://arxiv.org/abs/1812.10969))
@@ -25,7 +30,7 @@ On [[2-loop]] [[string scattering amplitudes]] of the [[superstring]]:
 * [[Eric D'Hoker]], [[Carlos Mafra]], [[Boris Pioline]], [[Oliver Schlotterer]], _Two-loop superstring five-point amplitudes II: Low energy expansion and S-duality_ ([doi:2008.08687](https://arxiv.org/abs/2008.08687))
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[superstring scattering amplitudes]]
 
