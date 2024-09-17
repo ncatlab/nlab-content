@@ -27,16 +27,6 @@ On [[quantization]] of the [[M2-brane]] [[Green-Schwarz sigma-model]] by the [[B
 
 * {#NicolaiHelling98} [[Hermann Nicolai]], [[Robert C. Helling]], _Supermembranes and M(atrix) Theory_, In _Trieste 1998, Nonperturbative aspects of strings, branes and supersymmetry_ 29-74 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103), [spire:476366](http://inspirehep.net/record/476366))
 
-On a [[perturbation series]] for the [[M2-brane]] [[Green-Schwarz sigma-model]] quantized to the [[BFSS matrix model]]:
-
-* [[Olaf Lechtenfeld]], [[Hermann Nicolai]], *A perturbative expansion scheme for supermembrane and matrix theory* ([arXiv:2109.00346](https://arxiv.org/abs/2109.00346))
-
-and on the relation to the [[string theory]]-[[dilaton]] under [[double dimensional reduction]]:
-
-* [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Fundamental Membranes and the String Dilaton* &lbrack;[arXiv:2208.05822](https://arxiv.org/abs/2208.05822)&rbrack;
-
-* [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Evidence for a stable supermassive gravitino with charge $2/3$?* &lbrack;[arXiv:2303.09131](https://arxiv.org/abs/2303.09131)&rbrack;
-
 
 On the [[singleton representation|singleton representations]] of the [[orthosymplectic super Lie algebra]]:
 
@@ -58,6 +48,11 @@ On [[D=3 supergravity|D=3]] [[gauged supergravity]] and introducing the concept 
 * {#NicolaiSamtleben00} [[Hermann Nicolai]], [[Henning Samtleben]], _Maximal gauged supergravity in three dimensions_, Phys. Rev. Lett. 86 (2001) 1686-1689 ([arXiv:hep-th/0010076](https://arxiv.org/abs/hep-th/0010076))
 
 * {#NicolaiSamtleben01} [[Hermann Nicolai]], [[Henning Samtleben]], _Compact and Noncompact Gauged Maximal Supergravities in Three Dimensions_ ([arXiv:hep-th/0103032](http://arxiv.org/abs/hep-th/0103032))
+
+On [[U-duality]]:
+
+* [[Bernard de Wit]], [[Hermann Nicolai]]: *Hidden Symmetries, Central Charges and All That*, Class. Quant. Grav. **18** (2001) 3095-3112 &lbrack;[arXiv:hep-th/0011239](https://arxiv.org/abs/hep-th/0011239), [doi:10.1088/0264-9381/18/16/302](https://doi.org/10.1088/0264-9381/18/16/302)&rbrack;
+
 
 Discussion of [[E9]] in view of [[U-duality]]-symmetry of [[D=11 supergravity]] [[Kaluza-Klein reduction|reduced]] to $D=2$ ([[finite-dimensional vector space|finite-dimensional]] [[representations]] of the [[maximal compact subgroup|maximal compact]] subalgebra $\mathfrak{k} = Lie\big(K(E_9)\big)$:
 
@@ -128,6 +123,18 @@ On super-heavy [[gravitinos]] as [[dark matter]] candidates, by embedding [[D=4 
 On [[higher spin gauge theory]] and [[Kac-Moody algebras]]:
 
 * [[Marc Henneaux]], [[Axel Kleinschmidt]], [[Hermann Nicolai]], _Higher spin gauge fields and extended Kac-Moody symmetries_ ([arXiv:1110.4460](http://arxiv.org/abs/1110.4460))
+
+
+On a [[perturbation series]] for the [[M2-brane]] [[Green-Schwarz sigma-model]] quantized to the [[BFSS matrix model]]:
+
+* [[Olaf Lechtenfeld]], [[Hermann Nicolai]], *A perturbative expansion scheme for supermembrane and matrix theory* ([arXiv:2109.00346](https://arxiv.org/abs/2109.00346))
+
+and on the relation to the [[string theory]]-[[dilaton]] under [[double dimensional reduction]]:
+
+* [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Fundamental Membranes and the String Dilaton* &lbrack;[arXiv:2208.05822](https://arxiv.org/abs/2208.05822)&rbrack;
+
+* [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Evidence for a stable supermassive gravitino with charge $2/3$?* &lbrack;[arXiv:2303.09131](https://arxiv.org/abs/2303.09131)&rbrack;
+
 
 On [[quantum gravity]]:
 
