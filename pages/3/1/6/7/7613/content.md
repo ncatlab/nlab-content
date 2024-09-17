@@ -470,14 +470,16 @@ Early articles clarifying the relation to [[type II string theory]], now known a
 
 The relation also to the [[heterotic string]] was understood in [Hořava & Witten 95](#HoravaWitten95) see at _[[Horava-Witten theory]]_.
 
-Early review:
+Early review and discussion:
 
 * [[Paul Townsend]], *Four Lectures on M-theory*, in: *Proceedings of the ICTP summer school on High Energy Physics and Cosmology*, Trieste (1996) &lbrack;[arXiv:hep-th/9612121](http://arxiv.org/abs/hep-th/9612121), [spire:427195](https://inspirehep.net/literature/427195)&rbrack;
+
+* [[Hermann Nicolai]]: *On M-Theory*,  J Astrophys Astron **20**,  (1999) 149–164 &lbrack;[arXiv:hep-th/9801090](https://arxiv.org/abs/hep-th/9801090), [doi:10.1007/BF02702349](https://doi.org/10.1007/BF02702349)&rbrack;
+  > (focus on [[U-duality]] and early idea of [[exceptional field theory]])
 
 * {#ObersPioline98} [[Niels A. Obers]], [[Boris Pioline]], *U-duality and M-Theory*, Phys. Rept. **318** (1999) 113-225 &lbrack;[arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039), <a href="https://doi.org/10.1016/S0370-1573(99)00004-6">doi:10.1016/S0370-1573(99)00004-6</a>&rbrack;
 
 * [[John Schwarz]], *Introduction to M Theory and AdS/CFT Duality*, in: *Quantum Aspects of Gauge Theories, Supersymmetry and Unification* Lecture Notes in Physics **525**, Springer (1999)  &lbrack;[arXiv:hep-th/9812037](https://arxiv.org/abs/hep-th/9812037), [doi:10.1007/BFb0104239](https://doi.org/10.1007/BFb0104239)&rbrack;
-
   >  (with an eye towards [[AdS/CFT duality]])
 
 
