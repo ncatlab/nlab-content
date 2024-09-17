@@ -92,14 +92,18 @@ Here the $level \leq 2$-truncation happens to coincide with the bosonic [[body]]
 
 * H. Mkrtchyan, R. Mkrtchyan, _$E_{11},K_{11}$ and $EE_{11}$_ ([arXiv:hep-th/0407148](http://arxiv.org/abs/hep-th/0407148))
 
+
 ### Relation to supergravity
  {#ReferencesRelationToSupergravity}
 
-Literature discussing $E_{11}$ [[U-duality]] and in the context of [[exceptional generalized geometry]] of [[11-dimensional supergravity]].
+Literature discussing $E_{11}$ [[U-duality]] and in the context of [[exceptional generalized geometry]] of [[11-dimensional supergravity]] and in view of [[M-theory]].
 
-Review includes
+* [[Peter West]]: *$E_11$ and M Theory*, Class. Quant. Grav. **18** (2001) 4443-4460 &lbrack;[arXiv:hep-th/0104081](https://arxiv.org/abs/hep-th/0104081), [doi:10.1088/0264-9381/18/21/305](https://doi.org/10.1088/0264-9381/18/21/305)&rbrack;
 
-* [[Peter West]], section 17.5 of _[[Introduction to Strings and Branes]]_
+
+Review:
+
+* [[Peter West]], section 17.5 of *[[Introduction to Strings and Branes]]*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139045926](https://doi.org/10.1017/CBO9781139045926)&rbrack;
 
 * [[Fabio Riccioni]], _$E_{11}$ and M-theory_, talk at [Strings07](http://www.ift.uam.es/strings07/) ([pdf slides](http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2007/riccioni.pdf))
 
