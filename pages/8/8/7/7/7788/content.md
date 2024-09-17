@@ -85,7 +85,7 @@ Here the $level \leq 2$-truncation happens to coincide with the bosonic [[body]]
 ### Maximal compact subalgebra
  {#MaximalCompactSubalgebra}
 
-In contrast to $\mathfrak{e}_{11(11)}$ itself, its "maximal compact subalgebra" $\mathfrak{k}_{11(11)}$ has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite-dimensional]] [[representations]].
+In contrast to $\mathfrak{e}_{11(11)}$ itself, its "maximal compact subalgebra" $\mathfrak{k}_{11(11)}$ has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite-dimensional]] [[representations]] ([KKLN22](Kac-Moody+algebra#KKLN22)).
 
 In particular there is an irrep $\mathbf{528}$ of $\mathfrak{k}_{11(11)}$ &lbrack;[Gomis, Kleinschmidt & Palmkvist 2019 p 29](#GomisKleinschmidtPalmkvist19)&rbrack;.
 
