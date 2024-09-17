@@ -41,6 +41,8 @@ Exposition and review:
 
 * {#Baez04} [[John Baez]], [p. 11](https://arxiv.org/pdf/quant-ph/0404040.pdf#page=11) of *Quantum Quandaries: a Category-Theoretic Perspective*, in D. Rickles et al. (ed.) *The structural foundations of quantum gravity*, Clarendon Press (2006) 240-265 &lbrack;[arXiv:quant-ph/0404040](https://arxiv.org/abs/quant-ph/0404040), [ISBN:9780199269693](https://global.oup.com/academic/product/the-structural-foundations-of-quantum-gravity-9780199269693)&rbrack;
 
+* [[Luuk Stehouwer]] *Unitary fermionic topological field theory* ([PhD thesis](https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/11374))
+
 Further discussion:
 
 * Honglin Zhu, *The Hermitian axiom on two-dimensional topological quantum field theories*, J. Math. Phys. **64**  (2023) 022301 &lbrack;[arXiv:2206.07193](https://arxiv.org/abs/2206.07193), [doi:10.1063/5.0121440](https://doi.org/10.1063/5.0121440)&rbrack;
