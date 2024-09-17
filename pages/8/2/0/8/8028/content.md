@@ -13,10 +13,15 @@ On [[E10]]-[[U-duality]] [[exceptional field theory]] with [[fermions]] ($E_{10}
 
 * [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$K(E10)$, Supergravity and Fermions*, JHEP 0608:046 (2006) &lbrack;[arXiv:hep-th/0606105](https://arxiv.org/abs/hep-th/0606105), [doi:10.1088/1126-6708/2006/08/046](https://doi.org/10.1088/1126-6708/2006/08/046)&rbrack;
 
+On the [[maximal compact subalgebras]] of [[E9]] and [[E10]], respectively, and their [[finite-dimensional vector space|finite-dimensional]] [[linear representations]]:
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]], [[Jakob Palmkvist]]: *$K(E_9)$ from $K(E_{10})$*, Journal of High Energy Physics **2007** JHEP06 (2007) &lbrack;[arXiv:hep-th/0611314](https://arxiv.org/abs/hep-th/0611314), [doi:10.1088/1126-6708/2007/06/051](https://doi.org/10.1088/1126-6708/2007/06/051)&rbrack;
+
+
 
 On [[U-duality]] and [[diffeomorphisms]] in [[exceptional generalized geometry]]:
 
-* [[David Berman]], [[Martin Cederwall]], [[Axel Kleinschmidt]], [[Daniel C. Thompson]], _The gauge structure of generalised diffeomorphisms_, High Energ. Phys. 2013, 64 (2013) &lbrack;[arXiv:1208.5884](http://arxiv.org/abs/1208.5884)&rbrack;
+* [[David Berman]], [[Martin Cederwall]], [[Axel Kleinschmidt]], [[Daniel C. Thompson]], _The gauge structure of generalised diffeomorphisms_, High Energ. Phys. **2013** 64 (2013) &lbrack;[arXiv:1208.5884](http://arxiv.org/abs/1208.5884)&rbrack;
 
 
 On a possible role of [[E10]]-[[U-duality]] in [[phenomenology]] (the [[standard model of particle physics]]):
@@ -46,6 +51,7 @@ On [[E11]]-[[exceptional field theory|exceptional]] [[supergravity]]:
 Discussion of [[E9]] in view of [[U-duality]]-symmetry of [[D=11 supergravity]] [[Kaluza-Klein reduction|reduced]] to $D=2$ ([[finite-dimensional vector space|finite-dimensional]] [[representations]] of the [[maximal compact subgroup|maximal compact]] subalgebra $\mathfrak{k} = Lie\big(K(E_9)\big)$:
 
 * [[Axel Kleinschmidt]], Ralf Köhl, Robin Lautenbacher, [[Hermann Nicolai]]: *Representations of involutory subalgebras of affine Kac-Moody algebras*, Commun. Math. Phys. **392** (2022) 89–123 &lbrack;[arXiv:2102.00870](https://arxiv.org/abs/2102.00870), [doi:10.1007/s00220-022-04342-9](https://doi.org/10.1007/s00220-022-04342-9)&rbrack;
+
 
 
 On maximal [[gauged supergravity|gauged]] [[D=2 supergravity]] via [[KK-reduction]] of [[D=11 supergravity]]:
