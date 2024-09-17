@@ -99,7 +99,7 @@ Discussion for [[E11]]:
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Jakob Palmkvist]], [[Christopher Pope]], [[Ergin Sezgin]], _Beyond $E_{11}$_, JHEP 05 (2017) 020 \[<a href="https://doi.org/10.1007/JHEP05(2017)020">doi:10.1007/JHEP05(2017)020</a>, [arXiv:1703.01305](https://arxiv.org/abs/1703.01305)\]
 
-* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _On supersymmetric E11 exceptional field theory_ ([arXiv:1907.02080](https://arxiv.org/abs/1907.02080))
+* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]]: *On supersymmetric E11 exceptional field theory*, J. High Energ. Phys. **2019** 165 (2019) &lbrack;[arXiv:1907.02080](https://arxiv.org/abs/1907.02080), <a href="https://doi.org/10.1007/JHEP10(2019)165">doi:10.1007/JHEP10(2019)165</a>&rbrack;
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _A master exceptional field theory_ ([arXiv:2103.13411](https://arxiv.org/abs/2103.13411))
 
