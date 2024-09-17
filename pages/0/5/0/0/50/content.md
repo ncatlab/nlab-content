@@ -116,6 +116,15 @@ and in the introduction of
 
 * [[Chenchang Zhu]], _Lie II theorem for Lie algebroids via stacky Lie groupoids_ &lbrack;[arXiv:math/0701024](http://arxiv.org/abs/math/0701024)&rbrack;
 
+### In higher Lie theory 
+
+
+On [[L-infinity algebras]] related to [[smooth infinity-groups]] in [[higher Lie theory]]:
+
+> (see also references at *[[Lie integration]]*)
+
+* [[Christopher L. Rogers]], [[Jesse Wolfson]]: *Lie's Third Theorem for Lie $\infty$-Algebras* &lbrack;[arXiv:2409.08957](https://arxiv.org/abs/2409.08957)&rbrack;
+
 
 
 
