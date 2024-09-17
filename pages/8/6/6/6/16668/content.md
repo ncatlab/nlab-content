@@ -59,6 +59,10 @@ Precursors on [[U-duality]] covariant formulations of [[D=11 supergravity]]:
 
 * [[Bernard de Wit]], [[Hermann Nicolai]]: _Local SU(8) invariance in $d = 11$ supergravity_, talk at *[Nuffield Workshop on Supersymmetry and its Applications](https://inspirehep.net/conferences/966045)*, 0357 &lbrack;[spire:218601](http://inspirehep.net/record/218601)&rbrack;
 
+* [[Hermann Nicolai]]: *On M-Theory*,  J Astrophys Astron **20**,  (1999) 149–164 &lbrack;[arXiv:hep-th/9801090](https://arxiv.org/abs/hep-th/9801090), [doi:10.1007/BF02702349](https://doi.org/10.1007/BF02702349)&rbrack;
+  > (the term "[[exceptional geometry]]" appear here)
+
+
 * [[Olaf Hohm]], [[Henning Samtleben]]: *U-duality covariant gravity*,  J. High Energ. Phys. **2013** 80 (2013) &lbrack;[arXiv:1307.0509](http://arxiv.org/abs/1307.0509), <a href="https://doi.org/10.1007/JHEP09(2013)080">doi:10.1007/JHEP09(2013)080</a>&rbrack;
 
 The original articles introducing the terminologu of "exceptional field theory":
