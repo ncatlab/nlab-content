@@ -64,13 +64,17 @@ Some examples are discussed at
 
 ## References
 
-Review includes
+Review:
 
-* Martin Weidner, _Gauged Supergravities in Various Spacetime Dimensions_, Fortsch.Phys.55:843-945,2007 ([arXiv:hep-th/0702084](http://arxiv.org/abs/hep-th/0702084))
+* {#Roest04} [[Diederik Roest]]: *M-theory and Gauged Supergravities*, Fortsch. Phys. **53** (2005) 119-230 &lbrack;[arXiv:hep-th/0408175](http://arxiv.org/abs/hep-th/0408175), [doi:10.1002/prop.200410192](https://doi.org/10.1002/prop.200410192)&rbrack;
 
-* {#Samtleben08} [[Henning Samtleben]], _Lectures on Gauged Supergravity and Flux Compactifications_ ([arXiv:0808.4076](http://arxiv.org/abs/0808.4076))
+* Martin Weidner, _Gauged Supergravities in Various Spacetime Dimensions_, Fortsch.Phys. **55**  843-945 (2007) &lbrack;[arXiv:hep-th/0702084](http://arxiv.org/abs/hep-th/0702084)&rbrack;
 
-* Mario Trigiante, _Gauged Supergravities_, Physics Reports Volume 680, 31 March 2017, Pages 1-175 ([arXiv:1609.09745](https://arxiv.org/abs/1609.09745), [doi:10.1016/j.physrep.2017.03.001](https://doi.org/10.1016/j.physrep.2017.03.001))
+* {#Samtleben08} [[Henning Samtleben]], _Lectures on Gauged Supergravity and Flux Compactifications_ &lbrack;[arXiv:0808.4076](http://arxiv.org/abs/0808.4076)&rbrack;
+
+* Mario Trigiante, _Gauged Supergravities_, Physics Reports **680** (2017) 1-175 &lbrack;[arXiv:1609.09745](https://arxiv.org/abs/1609.09745), [doi:10.1016/j.physrep.2017.03.001](https://doi.org/10.1016/j.physrep.2017.03.001)&rbrack;
+
+
 
 Discussion of the origin in [[KK-compactification]] of [[11-dimensional supergravity]]/[[M-theory]] is in
 
