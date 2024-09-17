@@ -17,6 +17,11 @@ On [[supergravity]] and [[duality in string theory]]:
 
 * [[Bernard de Wit]], [[Jan Louis]], *Supersymmetry and Dualities in various dimensions*, NATO Sci. Ser. C **520** (1999) 33-101 &lbrack;[arXiv:hep-th/9801132](https://arxiv.org/abs/hep-th/9801132), [inspire:453367](https://inspirehep.net/literature/453367)&rbrack;
 
+On [[U-duality]]:
+
+* [[Bernard de Wit]], [[Hermann Nicolai]]: *Hidden Symmetries, Central Charges and All That*, Class. Quant. Grav. **18** (2001) 3095-3112 &lbrack;[arXiv:hep-th/0011239](https://arxiv.org/abs/hep-th/0011239), [doi:10.1088/0264-9381/18/16/302](https://doi.org/10.1088/0264-9381/18/16/302)&rbrack;
+
+
 On [[gauged supergravity]] and introducing the concept of [[tensor hierarchies]]:
 
 * [[Bernard de Wit]], [[Henning Samtleben]], _Gauged maximal supergravities and hierarchies of nonabelian vector-tensor systems_, Fortsch. Phys. 53 (2005) 442-449 ([arXiv:hep-th/0501243](https://arxiv.org/abs/hep-th/0501243))
