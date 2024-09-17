@@ -790,7 +790,7 @@ The idea of identifying the [[Sullivan construction]] applied to [[Chevalley-Eil
 
 * {#Hinich97} [[Vladimir Hinich]], _Descent of Deligne groupoids_, Internat. Math. Res. Notices, 5:223&#8211;239, 1997 ([doi](http://dx.doi.org/10.1155/S1073792897000160), [preprint ddg.pdf](http://math.haifa.ac.il/hinich/WEB/mypapers/ddg.pdf))
 
-and for [[nilpotent ∞-Lie algebras]] in:
+and for [[nilpotent L-infinity algebras]]:
 
 * {#Getzler04} [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$ algebras_, Annals of Mathematics, 170 (2009), 271-301 &lbrack;[math.AT/0404003](http://arxiv.org/abs/math/0404003)&rbrack;
 
@@ -800,15 +800,18 @@ This was refined from integration to bare $\infty$-groupoids to an integration t
 
 * {#Henriques} [[André Henriques]], _Integrating $L_\infty$ algebras_, Compos. Math. __144__  (2008), no. 4, 1017--1045 ([doi](http://dx.doi.org/10.1112/S0010437X07003405),[math.AT/0603563](http://arxiv.org/abs/math.AT/0603563))
 
-
 (whose origin possibly preceeds that of Getzler's article).
 
 For general [[∞-Lie algebroids]] the general idea of the integration process by "$d$-paths" had been indicated in 
 
 * {#Severa01} [[Pavol Severa]],  _[[Some title containing the words "homotopy" and "symplectic", e.g. this one]]_, based on a talk at _[Poisson 2000](http://www.lpthe.jussieu.fr/~dito/poissongeometry/Poisson2000/index.html)_, [CIRM Marseille Luminy](https://www.cirm-math.fr/), June 2000 ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
 
-
 * Pavol &#352;evera, Michal &#352;ira&#328;, _Integration of differential graded manifolds_, [arxiv/1506.04898](http://arxiv.org/abs/1506.04898)
+
+Cast along the lines of [[Lie's third theorem]]:
+
+* [[Christopher L. Rogers]], [[Jesse Wolfson]]: *Lie's Third Theorem for Lie $\infty$-Algebras* &lbrack;[arXiv:2409.08957](https://arxiv.org/abs/2409.08957)&rbrack;
+
 
 Lie integration of [[dg-modules]] to [[smooth spectrum|smooth]] [[parameterized spectra]] ([[twisted cohomology|twisted]] [[differential cohomology theories]]);
 
