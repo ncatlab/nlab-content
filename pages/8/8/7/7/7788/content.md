@@ -82,6 +82,13 @@ Here the $level \leq 2$-truncation happens to coincide with the bosonic [[body]]
 [^ThanksToKleinschmidt]: private communication with [[Axel Kleinschmidt]] 
 
 
+### Maximal compact subalgebra
+ {#MaximalCompactSubalgebra}
+
+In contrast to $\mathfrak{e}_{11(11)}$ itself, its "maximal compact subalgebra" $\mathfrak{k}_{11(11)}$ has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite-dimensional]] [[representations]].
+
+In particular there is an irrep $\mathbf{528}$ of $\mathfrak{k}_{11(11)}$ &lbrack;[Gomis, Kleinschmidt & Palmkvist 2019 p 29](#GomisKleinschmidtPalmkvist19)&rbrack;.
+
 ## References
 
 ### General 
@@ -186,13 +193,19 @@ Relation to [[Borcherds superalgebras]] is discussed in
 
 * {#Palmkvist12} Jakob Palmkvist, _Tensor hierarchies, Borcherds algebras and $E_{11}$_, JHEP 1202 (2012) 066 ([arXiv:1110.4892](http://arxiv.org/abs/1110.4892))
 
-
 On [[E₁₁]]-[[exceptional field theory]]:
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _On supersymmetric $E_{11}$ exceptional field theory_ ([arXiv:1907.02080](https://arxiv.org/abs/1907.02080))
 
-
-
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _A master exceptional field theory_ ([arXiv:2103.13411](https://arxiv.org/abs/2103.13411))
 
+
+Relation to [[free Lie algebras|free]] [[super Lie algebras]]:
+
+* {#GomisKleinschmidtPalmkvist19} [[Joaquim Gomis]], [[Axel Kleinschmidt]], [[Jakob Palmkvist]]: *Symmetries of M-theory and free Lie superalgebras*, J. High Energ. Phys. **2019** 160 (2019) &lbrack;[arXiv:1809.09171](https://arxiv.org/abs/1809.09171), <a href="https://doi.org/10.1007/JHEP03(2019)160">doi:10.1007/JHEP03(2019)160</a>&rbrack;
+
+
+
 [[!redirects E11]]
+
+[[!redirects e11]]
