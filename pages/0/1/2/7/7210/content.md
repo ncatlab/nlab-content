@@ -1,7 +1,21 @@
 
+* [institute page](https://www.uu.nl/staff/BQPJdeWit)
+
+* [personal page](https://webspace.science.uu.nl/~wit00103/default.htm)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Bernard_de_Wit)
 
+* [inspire page](https://inspirehep.net/authors/1012244)
+
+
 ## Selected writings
+
+Early discussion of [[U-duality]]-covariant [[D=11 supergravity]] (later: "[[exceptional field theory]]"):
+
+* [[Bernard de Wit]], [[Hermann Nicolai]]: _D = 11 Supergravity With Local $SU(8)$ Invariance_, Nucl. Phys. B 274, 363 (1986) &lbrack;<a href="https://doi.org/10.1016/0550-3213(86)90290-7">doi:10.1016/0550-3213(86)90290-7</a>, [spire:227409](http://inspirehep.net/record/227409)&rbrack;
+
+* [[Bernard de Wit]], [[Hermann Nicolai]]: _Local SU(8) invariance in $d = 11$ supergravity_, talk at *[Nuffield Workshop on Supersymmetry and its Applications](https://inspirehep.net/conferences/966045)*, 0357 &lbrack;[spire:218601](http://inspirehep.net/record/218601)&rbrack;
+
 
 On the regularized [[quantization]] of the [[supermembrane]] (the [[kappa-symmetry|kappa-symmetric]] [[Green-Schwarz sigma-model]] for the [[M2-brane]]) to the [[BFSS matrix model]]:
 
