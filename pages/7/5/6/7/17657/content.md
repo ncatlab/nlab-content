@@ -1,5 +1,13 @@
 
+Fernando Quevedo is director of [ICTP](https://www.ictp.it/) and now
+professor of physics at NYU Abu Dhabi, working on [[high energy physics]]  [[phenomenology]].
+
+* [institute page](http://www.damtp.cam.ac.uk/person/fq201) (Cambridge)
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Fernando_Quevedo)
+
+* [InSpire page](https://inspirehep.net/authors/992530)
+
 
 ## Selected writings
 
@@ -19,6 +27,10 @@ On [[supergravity]] coupled to the (non-supersymmetric) [[standard model of part
 On [[moduli stabilization]] in [[string theory]]:
 
 * [[Liam McAllister]], [[Fernando Quevedo]], *Moduli Stabilization in String Theory*, in: *[[Handbook of Quantum Gravity]]* &lbrack;[arXiv:2310.20559](https://arxiv.org/abs/2310.20559)&rbrack;
+
+On the [[standard model of particle physics]]:
+
+* [[Fernando Quevedo]], Andreas Schachner: *Cambridge Lectures on The Standard Model* &lbrack;[arXiv:2409.09211](https://arxiv.org/abs/2409.09211)&rbrack;
 
 ## Related  entries
 
