@@ -60,3 +60,7 @@ Textbook account in a context of [[non-perturbative quantum field theory]]:
 See also
 
 * Wikipedia, _[Haag's theorem](https://en.wikipedia.org/wiki/Haag%27s_theorem)_
+
+
+* Chris Mitsch, Marian Gilton, David Freeborn: *How Haag-tied is QFT, really?* &lbrack;[arXiv:2212.06977](https://arxiv.org/abs/2212.06977)&rbrack;
+
