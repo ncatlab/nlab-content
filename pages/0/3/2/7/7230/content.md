@@ -59,11 +59,14 @@ Discussion of [[G₂ manifolds]] is in
 
 * Spiro Karigiannis, _$G_2$-manifolds -- Exceptional structures in geometry arising from exceptional algebra_ ([pdf](http://www.math.uwaterloo.ca/~karigian/talks/waterloo.pdf)) 
 
+
 ### In supergravity
 
-Applications to [[KK-compactification]] of [[11d supergravity]] (see also at _[[M-theory on G₂-manifolds]]_) is discussed in 
+Applications to [[U-duality]]-covariant formulations of [[11d supergravity]] ([[exceptional field theory]], see there for more) 
 
 * [[George Papadopoulos]], [[Paul Townsend]], _Compactifications of $D = 11$ supergravity on spaces of exceptional holonomy_ ([arXiv:hep-th/9506150](http://arxiv.org/abs/hep-th/9506150))
+
+* [[Hermann Nicolai]]: *On M-Theory*, J Astrophys Astron **20** (1999) 149–164 &lbrack;[arXiv:hep-th/9801090](https://arxiv.org/abs/hep-th/9801090), [doi:10.1007/BF02702349](https://doi.org/10.1007/BF02702349)&rbrack;
 
 * K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for d=11 supergravity?_ ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034))
 
