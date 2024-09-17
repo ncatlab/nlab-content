@@ -26,6 +26,8 @@ Ontology is the branch of [[philosophy]] concerned with [[being]] and [[becoming
 
 * [[first law of thought]]
 
+* [[ontology log]]
+
 ## References
 
 * Wikipedia, [Ontology](http://en.wikipedia.org/wiki/Ontology)
