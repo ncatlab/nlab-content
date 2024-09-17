@@ -149,13 +149,15 @@ The hidden [[E7]]-symmetry of the [[KK-compactification]] of [[11-dimensional su
 
 and more generally in 
 
-* [[Bernard de Wit]], [[Hermann Nicolai]], _D = 11 Supergravity With Local SU(8) Invariance_, Nucl. Phys. B 274, 363 (1986) ([spire](http://inspirehep.net/record/227409?ln=en)),  _Local SU(8) invariance in $d = 11$ supergravity_ ([spire](http://inspirehep.net/record/218601?ln=en))
+* [[Bernard de Wit]], [[Hermann Nicolai]]: _D = 11 Supergravity With Local $SU(8)$ Invariance_, Nucl. Phys. B 274, 363 (1986) &lbrack;<a href="https://doi.org/10.1016/0550-3213(86)90290-7">doi:10.1016/0550-3213(86)90290-7</a>, [spire:227409](http://inspirehep.net/record/227409)&rbrack;
+
+* [[Bernard de Wit]], [[Hermann Nicolai]]: _Local SU(8) invariance in $d = 11$ supergravity_, talk at *[Nuffield Workshop on Supersymmetry and its Applications](https://inspirehep.net/conferences/966045)*, 0357 &lbrack;[spire:218601](http://inspirehep.net/record/218601)&rbrack;
 
 The further U-duality groups for compactifications of 11d SuGra including [[E6]], [[E7]], [[E8]] were identified in
 
-* [[Eugene Cremmer]], _Supergravities in 5 dimensions_, in Hawking, Rocek (eds.) _Superspace and Supergravity_, Cambridge University Press 1981
+* [[Eugene Cremmer]], *Supergravities in 5 dimensions*, in Hawking, Rocek (eds.) _Superspace and Supergravity_, Cambridge University Press (1981) &lbrack;[spire:155020](https://inspirehep.net/literature/155020)&rbrack;
 
-* [[Bernard Julia]], _Group Disintegrations_, in Hawking, Rocek (eds.) _Superspace and Supergravity_, Cambridge University Press 1981
+* [[Bernard Julia]], _Group Disintegrations_, in Hawking, Rocek (eds.): _Superspace and Supergravity_, Cambridge University Press (1981) &lbrack;[spire:155019](https://inspirehep.net/literature/155019)&rbrack;
 
 Review:
 
@@ -163,13 +165,13 @@ Review:
 
 * [[Bernard de Wit]], [[Hermann Nicolai]]: *Hidden Symmetries, Central Charges and All That*, Class. Quant. Grav. **18** (2001) 3095-3112 &lbrack;[arXiv:hep-th/0011239](https://arxiv.org/abs/hep-th/0011239), [doi:10.1088/0264-9381/18/16/302](https://doi.org/10.1088/0264-9381/18/16/302)&rbrack;
 
-* [[Pietro Fré]], Floriana Gargiulo, Ksenya Rulik, Mario Trigiante, _The general pattern of Kac Moody extensions in supergravity and the issue of cosmic billiards_, Nucl.Phys. B741 (2006) 42-82 &lbrack;[arXiv:hep-th/0507249](http://arxiv.org/abs/hep-th/0507249)&rbrack;
+* [[Pietro Fré]], Floriana Gargiulo, Ksenya Rulik, Mario Trigiante: _The general pattern of Kac Moody extensions in supergravity and the issue of cosmic billiards_, Nucl. Phys. B **741** (2006) 42-82 &lbrack;[arXiv:hep-th/0507249](http://arxiv.org/abs/hep-th/0507249)&rbrack;
 
 
 
 The concept and terminology of U-duality in string theory/M-theory originates in 
 
-* {#HullTownsend94} [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_ Nucl.Phys.B438:109-137 (1995) ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
+* {#HullTownsend94} [[Chris Hull]], [[Paul Townsend]]: *Unity of Superstring Dualities*, Nucl. Phys. B **438** (1995) 109-137 &lbrack;[arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167), <a href="https://doi.org/10.1016/0550-3213(94)00559-W">doi:10.1016/0550-3213(94)00559-W</a>&rbrack;
 
 A textbook account is in 
 
