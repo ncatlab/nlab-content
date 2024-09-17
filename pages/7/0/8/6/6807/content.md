@@ -85,6 +85,8 @@ There are furcher technical open issues, such as the open question whether the t
 
 * [[Myers effect]]
 
+
+
 ## References
  {#References}
 
@@ -115,6 +117,11 @@ and with more details on the [[discrete light front quantization]] involved:
 * {#Seiberg97} [[Nathan Seiberg]], *Why is the Matrix Model Correct?*, Phys. Rev. Lett. **79** (1997) 3577-3580 &lbrack;[arXiv:hep-th/9710009](https://arxiv.org/abs/hep-th/9710009), [doi:10.1103/PhysRevLett.79.3577](https://doi.org/10.1103/PhysRevLett.79.3577)&rbrack;
 
 * [[Adel Bilal]], *DLCQ of M-Theory as the Light-Like Limit*, Phys. Lett. B **435** (1998) 312-318 &lbrack;[arXiv:hep-th/9805070](https://arxiv.org/abs/hep-th/9805070), <a href="https://doi.org/10.1016/S0370-2693(98)00811-9">doi:10.1016/S0370-2693(98)00811-9</a>&rbrack;
+
+In relation to [[U-duality]]:
+
+* [[Shmuel Elitzur]], [[Amit Giveon]], [[David Kutasov]], [[Eliezer Rabinovici]]: *Algebraic Aspects of Matrix Theory on $T^d$*, Nucl. Phys. B **509** (1998) 122-144 &lbrack;[arXiv:hep-th/9707217](https://arxiv.org/abs/hep-th/9707217), <a href="https://doi.org/10.1016/S0550-3213(97)00622-6">doi:10.1016/S0550-3213(97)00622-6</a>&rbrack;
+
 
 In view of [[flat space holography]]:
 
