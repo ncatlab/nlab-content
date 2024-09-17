@@ -66,13 +66,19 @@ Collections of articles include
 
 * N. Sthanumoorty, K. Misra (eds.), _Kac-Moody Lie algebras and related topics_, Contemporary Mathematics 343 AMS (2002)
 
+On non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite-dimensional]] [[representations]] of involutary ("maximal compact") subalgebras $\mathfrak{k}$:
+
+* {#KKLN22}  [[Axel Kleinschmidt]], [[Ralf Köhl]], [[Robin Lautenbacher]], [[Hermann Nicolai]]: *Representations of involutory subalgebras of affine Kac-Moody algebras*, Commun. Math. Phys. **392** (2022) 89–123 &lbrack;[arXiv:2102.00870](https://arxiv.org/abs/2102.00870), [doi:10.1007/s00220-022-04342-9](https://doi.org/10.1007/s00220-022-04342-9)&rbrack;
+
+
+
 ### The $E$-series
 
 * [[E7]], [[E8]], [[E9]], [[E10]], [[E11]], ...
 
-Surveys include
+Surveys:
 
-* wikipedia, _[En](http://en.wikipedia.org/wiki/En_%28Lie_algebra%29)_
+* Wikipedia, _[En](http://en.wikipedia.org/wiki/En_%28Lie_algebra%29)_
 
 The fact that every simply laced hyperbolic Kac-Moody algebra appears as a subalgebra of [[E10]] is in 
 
