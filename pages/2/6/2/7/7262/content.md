@@ -50,7 +50,7 @@ $$
 
 akin to the familiar reps of $\mathfrak{so}(10)$ of the same name/dimension.
 
-Remarkably, the [[symmetric algebra|symmetrized]] [[tensor product of representations|tensor product]] of this spinorial $\mathbf{32}$ with itself decomposes as a 1-dimenional [[trivial representation]] with a 527-dimensional [[irrep]]:
+Remarkably, the [[symmetric algebra|symmetrized]] [[tensor product of representations|tensor product]] of this spinorial $\mathbf{32}$ with itself decomposes as a 1-dimensional [[trivial representation]] with a 527-dimensional [[irrep]]:
 
 $$
   \mathbf{32}
