@@ -105,7 +105,7 @@ Review includes
 
 * [[Fabio Riccioni]], [[Peter West]], _The $E_{11}$ origin of all maximal supergravities_, JHEP 0707:063,2007 ([arXiv:0705.0752](http://arxiv.org/abs/0705.0752), [spire](http://inspirehep.net/record/749966/))
 
-* [[Paul Cook]], _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
+* [[Paul Cook]], *Connections between Kac-Moody algebras and M-theory*, PhD thesis, King's College London (2007) &lbrack;[arXiv:0711.3498](http://arxiv.org/abs/0711.3498), [webpage](https://kclpure.kcl.ac.uk/portal/en/publications/connections-between-kac-moody-algebras-and-m-theory)&rbrack;
 
 * {#West16} [[Peter West]], _A brief review of E theory_, in:  *Memorial Volume on Abdus Salam's 90th Birthday*, World Scientific (2017) 135-176 &lbrack[arXiv:1609.06863](http://arxiv.org/abs/1609.06863), [doi:10.1142/9789813144873_0009](https://doi.org/10.1142/9789813144873_0009)&rbrack;
 
