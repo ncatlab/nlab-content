@@ -17,6 +17,13 @@ Introducing what came to be called the *[[Nicolai map]]*:
 
 * [[Hermann Nicolai]], *Supersymmetric functional integration measures*, NATO Advanced Study Institute on Supersymmetry, Bonn (Aug 1984) 393-420 &lbrack;[cds:155731](https://cds.cern.ch/record/155731)&rbrack;
 
+
+On the [[singleton representation|singleton representations]] of the [[orthosymplectic super Lie algebra]]:
+
+* {#NicolaiSezgin84} [[Hermann Nicolai]], [[Ergin Sezgin]], _Singleton representations of $Osp(N,4)$_,  Physics Letters B, Volume 143, Issues 4&#8211;6, 16 August 1984, Pages 389-395
+
+
+
 Early discussion of [[U-duality]]-covariant [[D=11 supergravity]] (later: "[[exceptional field theory]]"):
 
 * [[Bernard de Wit]], [[Hermann Nicolai]]: _D = 11 Supergravity With Local $SU(8)$ Invariance_, Nucl. Phys. B 274, 363 (1986) &lbrack;<a href="https://doi.org/10.1016/0550-3213(86)90290-7">doi:10.1016/0550-3213(86)90290-7</a>, [spire:227409](http://inspirehep.net/record/227409)&rbrack;
@@ -34,15 +41,13 @@ On [[quantization]] of the [[M2-brane]] [[Green-Schwarz sigma-model]] by the [[B
 * {#NicolaiHelling98} [[Hermann Nicolai]], [[Robert C. Helling]], _Supermembranes and M(atrix) Theory_, In _Trieste 1998, Nonperturbative aspects of strings, branes and supersymmetry_ 29-74 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103), [spire:476366](http://inspirehep.net/record/476366))
 
 
-On the [[singleton representation|singleton representations]] of the [[orthosymplectic super Lie algebra]]:
-
-* {#NicolaiSezgin84} [[Hermann Nicolai]], [[Ergin Sezgin]], _Singleton representations of $Osp(N,4)$_,  Physics Letters B, Volume 143, Issues 4&#8211;6, 16 August 1984, Pages 389-395
 
 On [[gauged supergravity|gauged]] [[D=4 N=8 supergravity]]:
 
 * [[Bernard de Wit]], [[Hermann Nicolai]], _$N=8$ supergravity with local $SO(8)\times SU(8)$ invariance_, Phys. Lett. 108 B (1982) 285 (<a href="https://doi.org/10.1016/0370-2693(82)91194-7">doi:10.1016/0370-2693(82)91194-7</a>)
 
 * [[Bernard de Wit]]. [[Hermann Nicolai]], _$N = 8$ supergravity_,  Nucl. Phys. B208 (1982) 323 (<a href="https://doi.org/10.1016/0550-3213(82)90120-1">doi:10.1016/0550-3213(82)90120-1</a>)
+
 
 
 On [[D=3 supergravity]]:
@@ -55,7 +60,10 @@ On [[D=3 supergravity|D=3]] [[gauged supergravity]] and introducing the concept 
 
 * {#NicolaiSamtleben01} [[Hermann Nicolai]], [[Henning Samtleben]], _Compact and Noncompact Gauged Maximal Supergravities in Three Dimensions_ ([arXiv:hep-th/0103032](http://arxiv.org/abs/hep-th/0103032))
 
-On [[U-duality]]:
+
+On [[U-duality]] symmetry of [[D=11 supergravity]] in view of [[M-theory]]:
+
+* [[Hermann Nicolai]]: *On M-Theory*, J Astrophys Astron **20** (1999) 149–164 &lbrack;[arXiv:hep-th/9801090](https://arxiv.org/abs/hep-th/9801090), [doi:10.1007/BF02702349](https://doi.org/10.1007/BF02702349)&rbrack;
 
 * [[Bernard de Wit]], [[Hermann Nicolai]]: *Hidden Symmetries, Central Charges and All That*, Class. Quant. Grav. **18** (2001) 3095-3112 &lbrack;[arXiv:hep-th/0011239](https://arxiv.org/abs/hep-th/0011239), [doi:10.1088/0264-9381/18/16/302](https://doi.org/10.1088/0264-9381/18/16/302)&rbrack;
 
