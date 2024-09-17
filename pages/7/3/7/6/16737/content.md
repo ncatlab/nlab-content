@@ -28,7 +28,7 @@
 
 In the [[philosophy of science]] and particularly the _[[philosophy of physics]]_, the [[philosophy|philosophical]] sentiment which expresses the following perspective on the description of [[physics]] by [[mathematics]] might deserve to be called _exceptional naturalism_ or similar:
 
-> Since nature (reality) *is exceptional in that it has existence*, it is plausible that it is the [[exceptional structures]] among all [[mathematical structures|mathematical]] [[structures]] -- such as the exceptional examples in the classification of [[simple Lie groups]], the [[exceptional Lie groups]] -- that play a role in the mathematical description of nature, hence in [[physics]] and specifically in [[phenomenology]].
+> Since nature (reality) *is exceptional in that it has existence*, it is plausible that it is the [[exceptional structures]] among all [[mathematical structures|mathematical]] [[structures]] --- such as the exceptional examples in the classification of [[simple Lie groups]], the [[exceptional Lie groups]] --- that play a role in the mathematical description of nature, hence in [[physics]] and specifically in [[phenomenology]].
 
 In that this perspective provides _a priori_ grounds for the way the universe is, it may be contrasted with [[empiricism]].
 
@@ -76,12 +76,12 @@ and:
 
 > There is a growing interest in the logical possibility that [[exceptional  mathematical structures]] ([[exceptional Lie algebra|exceptional Lie and superLie algebras]], the [[exceptional Jordan algebra]], etc.) could be linked to an ultimate "exceptional" formulation for a [[theory of everything|Theory Of Everything]] (TOE). The maximal [[division algebra]] of the [[octonions]] can be held as the mathematical responsible for the existence of the [[exceptional structures]] mentioned above.
 
-[Moore 14](#Moore14) writes, in a survey of the state of [[mathematical physics]] applied to fundamental high energy physics ("Physical Mathematics"):
+[Moore 14](#Moore14) writes, in a survey of the state of [[mathematical physics]] applied to fundamental [[high energy physics]]/[[particle physics]] ("Physical Mathematics"):
 
 > it must be said that much of Physical Mathematics has a predilection
 for special, sporadic, and exceptional structures. $[$...$]$ I cannot forecast what stormy weather our field is destined to endure, but I can confidently forecast abundant [[moonshine]] in the years ahead. (section 11 "Exceptional structures")
 
-A related comment in the context of [[F-theory]] [[GUT]] [[phenomenology]] requiring a point with [[ADE classification|E-type]] symmetry is in ([Vafa 15, slide 11](#Vafa15)):
+[Vafa 15, slide 11](#Vafa15) makes a related comment -- in the context of [[F-theory]] [[GUT]] [[phenomenology]] requiring a point with [[ADE classification|E-type]] symmetry:
 
 >The [[landscape of string theory vacua|landscape]] concept typically goes against things being exceptional. Here we seem
 to have evidence to the contrary. 
@@ -90,9 +90,11 @@ to have evidence to the contrary.
 
 [Harvey & Moore 2020](#HarveyMoore20) write:
 
-> Physicists who wonder about the ultimate structure of our universe can be divided into two classes. The first class believes that our universe is chosen at random from a huge ensemble of possible universes. The second class believes that our universe and the fundamental laws that govern it are based on some beautiful and exceptional mathematical structure. String theory provides evidence for both points of view... The authors of the present paper are philosophically inclined towards the point of view of the second class of physicists and are thus interested in studying special points in the landscape of string compactifications that involve beautiful and exceptional mathematical structures. Certainly among these special points the ones associated to moonshine are amongst the most beautiful.
+> Physicists who wonder about the ultimate structure of our universe can be divided into two classes. The first class believes that our universe is chosen at random from a huge ensemble of possible universes. The second class believes that our universe and the fundamental laws that govern it are based on some beautiful and exceptional mathematical structure. [[string theory|String theory]] provides evidence for both points of view... The authors of the present paper are philosophically inclined towards the point of view of the second class of physicists and are thus interested in studying special points in the [[landscape of string theory vacua|landscape of string compactifications]] that involve beautiful and exceptional mathematical structures. Certainly among these special points the ones associated to [[moonshine]] are amongst the most beautiful.
+
 
 \linebreak
+
 
 ## Related entries
 
