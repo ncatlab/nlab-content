@@ -157,9 +157,15 @@ The further U-duality groups for compactifications of 11d SuGra including [[E6]]
 
 * [[Bernard Julia]], _Group Disintegrations_, in Hawking, Rocek (eds.) _Superspace and Supergravity_, Cambridge University Press 1981
 
-Review includes ([Obers-Pioline 98, section 4.2](#ObersPioline98)), see also
+Review:
 
-* [[Pietro Fré]], Floriana Gargiulo, Ksenya Rulik, Mario Trigiante, _The general pattern of Kac Moody extensions in supergravity and the issue of cosmic billiards_, Nucl.Phys. B741 (2006) 42-82 ([arXiv:hep-th/0507249](http://arxiv.org/abs/hep-th/0507249))
+* [Obers-Pioline 98, section 4.2](#ObersPioline98)
+
+* [[Bernard de Wit]], [[Hermann Nicolai]]: *Hidden Symmetries, Central Charges and All That*, Class. Quant. Grav. **18** (2001) 3095-3112 &lbrack;[arXiv:hep-th/0011239](https://arxiv.org/abs/hep-th/0011239), [doi:10.1088/0264-9381/18/16/302](https://doi.org/10.1088/0264-9381/18/16/302)&rbrack;
+
+* [[Pietro Fré]], Floriana Gargiulo, Ksenya Rulik, Mario Trigiante, _The general pattern of Kac Moody extensions in supergravity and the issue of cosmic billiards_, Nucl.Phys. B741 (2006) 42-82 &lbrack;[arXiv:hep-th/0507249](http://arxiv.org/abs/hep-th/0507249)&rbrack;
+
+
 
 The concept and terminology of U-duality in string theory/M-theory originates in 
 
