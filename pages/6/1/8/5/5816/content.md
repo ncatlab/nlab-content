@@ -103,6 +103,10 @@ and studied further in
 
 * [[Richard Garner]] and [[Mike Shulman]], *Enriched categories as a free cocompletion*, [arXiv](http://arxiv.org/abs/1301.3191)
 
+A theorem about representing lax enriched functors as lax algebras:
+
+* [[Cristina Pedicchio]], _Relazioni tra K-morfismi e lax-algebre_ (1979), [pdf](https://www.openstarts.units.it/server/api/core/bitstreams/504222d5-c20e-4243-b8c3-cb0e94dafdae/content)
+
 [[!redirects enriched bicategories]]
 [[!redirects enriched 2-category]]
 [[!redirects pseudo enriched category]]
