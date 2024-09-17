@@ -249,3 +249,8 @@ Discussion as Hopf-superalgebras includes
 
 [[!redirects super-group]]
 [[!redirects super-groups]]
+
+[[!redirects super-Lie group]]
+[[!redirects super-Lie groups]]
+
+
