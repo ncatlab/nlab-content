@@ -53,11 +53,15 @@ of a $d$-dimensional [[Minkowski space]] with the [[fundamental representation]]
 
 ## References
 
-Precursors:
+Precursors on [[U-duality]] covariant formulations of [[D=11 supergravity]]:
+
+* [[Bernard de Wit]], [[Hermann Nicolai]]: _D = 11 Supergravity With Local $SU(8)$ Invariance_, Nucl. Phys. B 274, 363 (1986) &lbrack;<a href="https://doi.org/10.1016/0550-3213(86)90290-7">doi:10.1016/0550-3213(86)90290-7</a>, [spire:227409](http://inspirehep.net/record/227409)&rbrack;
+
+* [[Bernard de Wit]], [[Hermann Nicolai]]: _Local SU(8) invariance in $d = 11$ supergravity_, talk at *[Nuffield Workshop on Supersymmetry and its Applications](https://inspirehep.net/conferences/966045)*, 0357 &lbrack;[spire:218601](http://inspirehep.net/record/218601)&rbrack;
 
 * [[Olaf Hohm]], [[Henning Samtleben]]: *U-duality covariant gravity*,  J. High Energ. Phys. **2013** 80 (2013) &lbrack;[arXiv:1307.0509](http://arxiv.org/abs/1307.0509), <a href="https://doi.org/10.1007/JHEP09(2013)080">doi:10.1007/JHEP09(2013)080</a>&rbrack;
 
-The original articles on exceptional field theory formulation of [[D=11 supergravity]]:
+The original articles introducing the terminologu of "exceptional field theory":
 
 * [[Olaf Hohm]], [[Henning Samtleben]]: *Exceptional Form of $D=11$ Supergravity*, Phys. Rev. Lett. **111** 231601 (2013) &lbrack;[arXiv:1308.1673](http://arxiv.org/abs/1308.1673), [doi:10.1103/PhysRevLett.111.231601](https://doi.org/10.1103/PhysRevLett.111.231601)&rbrack;
 
