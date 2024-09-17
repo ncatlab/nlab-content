@@ -19,6 +19,8 @@ Introducing [[D=4 N=8 supergravity]] by [[KK-reduction]] of [[D=11 supergravity]
 
 * {#CremmerJulia78} [[Eugene Cremmer]], [[Bernard Julia]]: *The $N=8$ supergravity theory. I. The Lagrangian*, Phys. Lett. B **80** 1-2 (1978) 48-51 &lbrack;<a href="https://doi.org/10.1016/0370-2693(78)90303-9">doi:10.1016/0370-2693(78)90303-9</a>&rbrack;
 
+and noticing the hidden [[E7]] [[U-duality]] symemtry:
+
 * {#CremmerJulia79} [[Eugene Cremmer]], [[Bernard Julia]], *The $SO(8)$ Supergravity*, Nucl. Phys. B **159** (1979) 141 &lbrack;<a href="https://doi.org/10.1016/0550-3213(79)90331-6">doi:10.1016/0550-3213(79)90331-6</a>, [spire:140465](http://inspirehep.net/record/140465)&rbrack;
 
 
