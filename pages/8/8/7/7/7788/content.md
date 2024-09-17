@@ -87,7 +87,8 @@ Here the $level \leq 2$-truncation happens to coincide with the bosonic [[body]]
 
 In contrast to $\mathfrak{e}_{11(11)}$ itself, its "maximal compact subalgebra" $\mathfrak{k}_{11(11)}$ has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite-dimensional]] [[representations]] ([KKLN22](Kac-Moody+algebra#KKLN22)).
 
-In particular there is an irrep $\mathbf{528}$ of $\mathfrak{k}_{11(11)}$ &lbrack;[Gomis, Kleinschmidt & Palmkvist 2019 p 29](#GomisKleinschmidtPalmkvist19)&rbrack;.
+In particular there is an irrep $\mathbf{528}$ of $\mathfrak{k}_{11(11)}$ &lbrack;[Gomis, Kleinschmidt & Palmkvist 2019 p 29](#GomisKleinschmidtPalmkvist19), [BKS19, appendix D](#BKS19)&rbrack;.
+
 
 ## References
 
@@ -195,7 +196,7 @@ Relation to [[Borcherds superalgebras]] is discussed in
 
 On [[E₁₁]]-[[exceptional field theory]]:
 
-* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _On supersymmetric $E_{11}$ exceptional field theory_ ([arXiv:1907.02080](https://arxiv.org/abs/1907.02080))
+* {#BKS19} [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]]: *On supersymmetric E11 exceptional field theory*, J. High Energ. Phys. **2019** 165 (2019) &lbrack;[arXiv:1907.02080](https://arxiv.org/abs/1907.02080), <a href="https://doi.org/10.1007/JHEP10(2019)165">doi:10.1007/JHEP10(2019)165</a>&rbrack;
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _A master exceptional field theory_ ([arXiv:2103.13411](https://arxiv.org/abs/2103.13411))
 
