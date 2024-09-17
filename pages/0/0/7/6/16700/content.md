@@ -9,7 +9,7 @@ On [[D1-D7 brane intersections]] as fuzzy funnels on [[fuzzy 6-spheres]]:
 
 On [[Kac-Moody algebras]] in [[M-theory]] ([[U-duality]]):
 
-* [[Paul Cook]], _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
+* [[Paul Cook]], *Connections between Kac-Moody algebras and M-theory*, PhD thesis, King's College London (2007) &lbrack;[arXiv:0711.3498](http://arxiv.org/abs/0711.3498), [webpage](https://kclpure.kcl.ac.uk/portal/en/publications/connections-between-kac-moody-algebras-and-m-theory)&rbrack;
 
 On the [[dual graviton]] in terms of [[E11]] [[U-duality]]:
 
