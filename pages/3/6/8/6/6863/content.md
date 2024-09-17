@@ -75,6 +75,12 @@ Discussion of [[E9]] in view of [[U-duality]]-symmetry of [[D=11 supergravity]] 
 * [[Axel Kleinschmidt]], Ralf Köhl, Robin Lautenbacher, [[Hermann Nicolai]]: *Representations of involutory subalgebras of affine Kac-Moody algebras*, Commun. Math. Phys. **392** (2022) 89–123 &lbrack;[arXiv:2102.00870](https://arxiv.org/abs/2102.00870), [doi:10.1007/s00220-022-04342-9](https://doi.org/10.1007/s00220-022-04342-9)&rbrack;
 
 
+On the [[maximal compact subalgebras]] of [[E9]] and [[E10]], respectively, and their [[finite-dimensional vector space|finite-dimensional]] [[linear representations]]:
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]], [[Jakob Palmkvist]]: *$K(E_9)$ from $K(E_{10})$*, Journal of High Energy Physics **2007** JHEP06 (2007) &lbrack;[arXiv:hep-th/0611314](https://arxiv.org/abs/hep-th/0611314), [doi:10.1088/1126-6708/2007/06/051](https://doi.org/10.1088/1126-6708/2007/06/051)&rbrack;
+
+
+
 On [[tensor hierarchies]] in [[gauged supergravity]] and possible relation to [[U-duality]] and [[M-theory]]:
 
 * [[Bernard de Wit]], [[Hermann Nicolai]], [[Henning Samtleben]], _Gauged Supergravities, Tensor Hierarchies, and M-Theory_, JHEP 0802:044, 2008 ([arXiv:0801.1294](https://arxiv.org/abs/0801.1294))
