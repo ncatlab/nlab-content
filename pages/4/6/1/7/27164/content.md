@@ -4,9 +4,9 @@
 
 ## Idea
 
-An ontology log ("olog", spoken like "o log") is a labeled [[graph]] with [[concept with an attitude|an attitude]]: vertices are labeled with ontological types and edges are labeled with aspects of ontological relationships. The [[path category]] of an ontology log is a [[diagram]] with an attitude, representing an ontology which can be interpreted in a chosen setting. Non-trivial ontological facts can be added as path equivalences.
+An ontology log ("olog", spoken like "o log") is a labeled [[graph]] with [[concept with an attitude|an attitude]]: [[vertices]] are labeled with ontological types and [[edges]] are labeled with aspects of ontological relationships. The [[path category]] of an ontology log is a [[diagram]] with an attitude, representing an ontology which can be interpreted in a chosen setting. Non-trivial ontological facts can be added as path equivalences.
 
-As originally introduced in ([Spivak & Kent 2012](#SpivakKent2012)), ologs are diagrams into **[[Set]]** or another [[topos]]. However, as they anticipated, and as later realized by ([Patterson 2017](#Patterson17)), ologs can be generalized to diagrams into **[[Rel]]** or another [[bicategory of relations]].
+As originally introduced in ([Spivak & Kent 2012](#SpivakKent2012)), ologs are [[diagrams]] into **[[Set]]** or another [[topos]]. However, as they anticipated, and as later realized by ([Patterson 2017](#Patterson17)), ologs can be generalized to diagrams into **[[Rel]]** or another [[bicategory of relations]].
 
 
 ## Definition 
