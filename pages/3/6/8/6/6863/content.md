@@ -18,18 +18,22 @@ Introducing what came to be called the *[[Nicolai map]]*:
 * [[Hermann Nicolai]], *Supersymmetric functional integration measures*, NATO Advanced Study Institute on Supersymmetry, Bonn (Aug 1984) 393-420 &lbrack;[cds:155731](https://cds.cern.ch/record/155731)&rbrack;
 
 
+
 On the [[singleton representation|singleton representations]] of the [[orthosymplectic super Lie algebra]]:
 
-* {#NicolaiSezgin84} [[Hermann Nicolai]], [[Ergin Sezgin]], _Singleton representations of $Osp(N,4)$_,  Physics Letters B, Volume 143, Issues 4&#8211;6, 16 August 1984, Pages 389-395
+* {#NicolaiSezgin84} [[Hermann Nicolai]], [[Ergin Sezgin]], _Singleton representations of $Osp(N,4)$_,  Physics Letters B, **143** 4-6 (1984) 389-395
 
 
 
-Early discussion of [[U-duality]]-covariant [[D=11 supergravity]] (later: "[[exceptional field theory]]"):
+Realizing [[local symmetry|local]] $\mathfrak{su}(8)$ [[U-duality]] symmetry of [[D=11 supergravity]]:
 
 * [[Bernard de Wit]], [[Hermann Nicolai]]: _D = 11 Supergravity With Local $SU(8)$ Invariance_, Nucl. Phys. B 274, 363 (1986) &lbrack;<a href="https://doi.org/10.1016/0550-3213(86)90290-7">doi:10.1016/0550-3213(86)90290-7</a>, [spire:227409](http://inspirehep.net/record/227409)&rbrack;
 
 * [[Bernard de Wit]], [[Hermann Nicolai]]: _Local SU(8) invariance in $d = 11$ supergravity_, talk at *[Nuffield Workshop on Supersymmetry and its Applications](https://inspirehep.net/conferences/966045)*, 0357 &lbrack;[spire:218601](http://inspirehep.net/record/218601)&rbrack;
 
+Realizing [[local symmetry|local]] $\mathfrak{so}(18)$ [[U-duality]] symmetry of [[D=11 supergravity]]:
+
+* [[Hermann Nicolai]]: *$d=11$ Supergravity with local $SO(16)$ invariance*, Physics Letters B **187** 3–4 (1987)  316-320 &lbrack;<a href="https://doi.org/10.1016/0370-2693(87)91102-6">doi:10.1016/0370-2693(87)91102-6</a>&rbrack;
 
 
 On [[quantization]] of the [[M2-brane]] [[Green-Schwarz sigma-model]] by the [[BFSS matrix model]]:
