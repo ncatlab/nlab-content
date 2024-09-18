@@ -33,7 +33,7 @@ According to [[Jean Dieudonné]], the Bourbaki series of expositions is dedicate
 Bourbaki has been blamed for following too formal an approach. Indeed, the  books are void of much motivation and application, apart from a few of introductions and few chapters on history. 
 
 
-Apart from the Bourbaki volumes, there is also a lively _Bourbaki seminar_ which takes place in Paris on certain Saturdays, is open to public and has non-Bourbaki members as invited speakers who present and discuss topics,chosen in advance, of recent development in mathematics. The expositions are subsequently published. 
+Apart from the Bourbaki volumes, there is also a lively _Bourbaki seminar_ which takes place in Paris on certain Saturdays, is open to public and has non-Bourbaki members as invited speakers who present and discuss topics, chosen in advance, of recent development in mathematics. The expositions are subsequently published. 
 
 
 ## Selected writings
@@ -92,6 +92,8 @@ Accounts of the history of the Bourbaki project include the following:
 
 * {#Dieudonne} [[Jean Dieudonné]], _The work of Nicolas Bourbaki_, Amer. Math. Monthly __77__ (1970) 134-145 &lbrack;[MR252179](http://www.ams.org/mathscinet-getitem?mr=252179), [doi](http://dx.doi.org/10.2307/2317325)&rbrack;
 
+* Dennis Guedj, _Nicholas Bourbaki, Collective Mathematician - An Interview with Claude Chevalley_, The Mathematical Intelligencer **7** no. 2 (1985) pp.18-22.
+
 * Bourbaki's biography at math tutor: the [pre-war years](http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Bourbaki_1.html), the [after-war years](http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Bourbaki_2.html)
 
 * [[Armand Borel]]: _[25 years with Bourbaki](http://www.ega-math.narod.ru/Bbaki/Bourb3.htm)_
@@ -108,11 +110,15 @@ Discussion of Bourbaki's notion of _[[mathematical structure]]_ and the relation
 
 * {#Corry} [[Leo Corry]]: _Nicolas Bourbaki: Theory of structures_ &lbrack;[pdf](http://www.tau.ac.il/~corry/publications/articles/pdf/bourbaki-structures.pdf)&rbrack; Chapter 7  of: *Modern Algebra and the Rise of Mathematical Structures*, Springer (2004) &lbrack;[doi:10.1007/978-3-0348-7917-0](https://doi.org/10.1007/978-3-0348-7917-0)&rbrack;
 
+* {#Kroemer06}[[Ralf Krömer]], _La « machine de Grothendieck », se fonde-t-elle seulement sur des vocables métamathématiques? Bourbaki et les catégories au cours des années cinquante_, Revue d’Histoire des Mathématiques **12** 111–154 ([Numdam](http://www.numdam.org/item/RHM_2006__12_1_119_0/))
+
 
 * {#CTList} Category Theory List, Staffan Angere, _[Bourbaki & category theory](https://web.archive.org/web/20160427073919/http://comments.gmane.org/gmane.science.mathematics.categories/7283)_
 
 * David Aubin, _The Withering Immortality of Nicolas Bourbaki: A Cultural Connector at the Confluence of Mathematics, Structuralism, and the Oulipo in France_, Science in Context 10 (1997), 297-342. ([pdf](http://www.math.jussieu.fr/~daubin/publis/1997.pdf))
  {#Aubin}
+
+* Alberto Peruzzi, Silvano Zipoli Caiani (eds.), _Structures Mères: Semantics, Mathematics, and Cognitive Science_, Springer (2020). ([doi](https://doi.org/10.1007/978-3-030-51821-9))
 
 [^fine]: According to Liliane Beaulieu, a pre-eminent historian of Bourbaki, this rule was however violated many times, and she could find no written trace of the rule's being formally adopted. See [Aubin](#Aubin), footnote 3.  
 
