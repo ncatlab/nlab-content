@@ -28,6 +28,10 @@ Formulation of [[D=11 supergravity]] in [[superspace]] (via [[supergeometry]]):
 
 * {#CremmerFerrara80} [[Eugène Cremmer]], [[Sergio Ferrara]], *Formulation of Eleven-Dimensional Supergravity in Superspace*, Phys.Lett. B **91** (1980) 61 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)90662-0">doi:10.1016/0370-2693(80)90662-0</a>&rbrack;
 
+More on [[U-duality]]-covariant [[D=11 supergravity]], including also discussion of [[E8]]:
+
+* [[Eugene Cremmer]]: *Supergravities in 5 dimensions*, in: *[Superspace and Supergravity](https://inspirehep.net/literature/172773)*, Cambridge University Press (1981) &lbrack;[spire:155020](https://inspirehep.net/literature/155020), [[Cremmer-SuGraIn5d.pdf:file]]&rbrack;
+
 
 
 ## Related entries
