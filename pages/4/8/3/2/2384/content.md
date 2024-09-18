@@ -16,17 +16,11 @@ This section presents category theoretic models using categories as ways to desc
 
 ### Ologs
 
-[[ontology|Ontologies]] are used in [genomics](https://en.wikipedia.org/wiki/Genomics) to classify categories of observable phenomena such as [diseases](https://www.ebi.ac.uk/ols/ontologies/doid) or [gene expressions](https://en.wikipedia.org/wiki/Gene_Ontology). A category-theoretic model called "Ologs" was proposed to formalize such ontologies. _Ologs _ are freely generated categories over graphs whose objects and arrows are defined by (English) sentences such that
-
-* each object is a [nominal sentence](https://en.wikipedia.org/wiki/Nominal_sentence) about a given topic;
-
-* each arrow is encoded by a [grammatical predicate](https://en.wikipedia.org/w/index.php?title=Predicate) starting with the verb _is_ but deprived of its last [grammatical object](https://en.wikipedia.org/wiki/Object) such that the arrow, its source and its target all together define a semantically correct (English) sentence.
-
-The idea is that each arrow of an olog describes a fact about a given topic.
+[[ontology|Ontologies]] are used in [genomics](https://en.wikipedia.org/wiki/Genomics) to classify categories of observable phenomena such as [diseases](https://www.ebi.ac.uk/ols/ontologies/doid) or [gene expressions](https://en.wikipedia.org/wiki/Gene_Ontology). Ontologies can be formalized with category theory as [[ontology log|ontology logs]], or "ologs" for short. The idea is that an olog is like a [[diagram]] where each arrow describes an aspect of some types of things under study. For example, the following olog describes [single-gene genetic disorders](https://en.wikipedia.org/wiki/Genetic_disorder):
 
 \begin{centre}
     \begin{xymatrix@C=10em}
-        \fbox{$\textrm{chromosome }x$} \ar[r]^-{\textrm{is the owner of}} & \fbox{$\textrm{gene }y$} \ar[r]^-{\textrm{(which) is reponsible for}} & \fbox{$\textrm{disease }z$}
+        \fbox{$\textrm{a (monogenic) genetic disorder}$} \ar[r]^-{\textrm{is provoked by mutations in}} & \fbox{$\textrm{a gene}$} \ar[r]^-{\textrm{is found in}} & \fbox{$\textrm{a chromosome}$}
     \end{xymatrix}
 \end{centre}
 
@@ -66,7 +60,6 @@ We can show that if the preorder $(\Omega,\preceq)$ defines a [[lattice]], then 
 
 Ologs and biology:
 
-* [[David Spivak|DI Spivak]], RE Kent, _Ologs: A categorical framework for knowledge representation_, [pdf](https://math.mit.edu/~dspivak/informatics/olog.pdf)
 * JY Wong, J McDonald, M Taylor-Pinney, [[David Spivak|DI Spivak]], KaplanDL , MJ Buehler, _Materials by Design: Merging Proteins and Music_, Nano Today. 2012 Dec 1;7(6):488-495,  [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3752788/)
 * T. Giesa, [[David Spivak|DI Spivak]], MJ. Buehler, _Reoccurring patterns in hierarchical protein materials and music: The power of analogies_, [pdf](https://arxiv.org/pdf/1111.5297.pdf)
 
