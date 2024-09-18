@@ -48,7 +48,7 @@ $$
   Rep^{fdim}_{\mathbb{R}}\big(\mathfrak{k}_{10(10)}\big)
 $$
 
-akin to the familiar reps of $\mathfrak{so}(10)$ of the same name/dimension.
+akin to the familiar reps of $\mathfrak{so}(10)$ of the same name/dimension &lbrack;[deBuyl, Henneaux & Paulot 2005 §8](#deBuylHenneauxPaulot05), [Kleinschmidt & Nicolai 2006](#KleinschmidtNicolai06)&rbrack;.
 
 Remarkably, the [[symmetric algebra|symmetrized]] [[tensor product of representations|tensor product]] of this spinorial $\mathbf{32}$ with itself decomposes as a 1-dimensional [[trivial representation]] with a 527-dimensional [[irrep]]:
 
@@ -146,6 +146,12 @@ See also:
 ### Maximal compact subalgebra
 
 More on the [[maximal compact subalgebras]] of [[E9]] and [[E10]], respectively, and their [[finite-dimensional vector space|finite-dimensional]] [[linear representations]]:
+
+* {#deBuylHenneauxPaulot05} Sophie de Buyl, [[Marc Henneaux]], Louis Paulot: *Hidden Symmetries and Dirac Fermions*, Class. Quant. Grav. **22** (2005) 3595-3622 &lbrack;[arXiv:hep-th/0506009](https://arxiv.org/abs/hep-th/0506009), [doi:10.1088/0264-9381/22/17/018](https://doi.org/10.1088/0264-9381/22/17/018)&rbrack;
+
+
+* {#KleinschmidtNicolai06} [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *IIA and IIB spinors from $K(E_{10})$*, Phys. Lett. B **637** (2006) 107-112 &lbrack;[arXiv:hep-th/0603205](https://arxiv.org/abs/hep-th/0603205), [doi:10.1016/j.physletb.2006.04.007](https://doi.org/10.1016/j.physletb.2006.04.007)&rbrack;
+
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]], [[Jakob Palmkvist]]: *$K(E_9)$ from $K(E_{10})$*, Journal of High Energy Physics **2007** JHEP06 (2007) &lbrack;[arXiv:hep-th/0611314](https://arxiv.org/abs/hep-th/0611314), [doi:10.1088/1126-6708/2007/06/051](https://doi.org/10.1088/1126-6708/2007/06/051)&rbrack;
 
