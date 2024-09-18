@@ -1,5 +1,12 @@
 
-* [website](http://math.konradwaldorf.de/)
+* [personal page](http://math.konradwaldorf.de/)
+
+* [institute page](https://math-inf.uni-greifswald.de/institut/ueber-uns/mitarbeitende/waldorf/)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=eWUT0fQAAAAJ)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=129687)
+
 
 ## Selected writings
 
@@ -54,7 +61,7 @@ Reviewed in:
 
 * [[Konrad Waldorf]], *The stringor bundle*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#WaldorfMar2023), video:[YT](https://www.youtube.com/watch?v=wX99ZbMuyMA)&rbrack;
 
-Construction of the [[Connes fusion]]-operation on [[fibers]] [[stringor bundles]]:
+Construction of the [[Connes fusion]]-operation on [[fibers]] of [[stringor bundles]]:
 
 * [[Peter Kristel]], [[Konrad Waldorf]]: *Connes fusion of spinors on loop space*, Compositio Mathematica **160** 7 (2024)  1596-1650  &lbrack;[arXiv:2012.08142](https://arxiv.org/abs/2012.08142), [doi:10.1112/S0010437X24007188](https://doi.org/10.1112/S0010437X24007188)&rbrack;
 
