@@ -88,21 +88,26 @@ Here the $level \leq 2$-truncation happens to coincide with the bosonic [[body]]
 
 In contrast to $\mathfrak{e}_{11(11)}$ itself, its "maximal compact subalgebra" $\mathfrak{k}_{11(11)}$ has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite-dimensional]] [[representations]] ([KKLN22](Kac-Moody+algebra#KKLN22)), 
 
-In particular there is an irrep $\mathbf{32} \,\in\, Rep_{\mathbb{R}}( \mathfrak{k}_{11(11)} )$ which when restricted to the sub Lie algebra $\mathfrak{so}_{1,10} \hookrightarrow \mathfrak{k}_{11(11)}$ is the usual [[Majorana spinor]] representation $\mathbf{32}$ of [[D=11 supergravity]] &lbrack;[Bossard, Kleinschmidt & Sezgin 2019 p 42](#BossardKleinschmidtSezgin19)&rbrack;
+In particular there is:
 
-Moreover, there is an irrep $\mathbf{528}$ of $\mathfrak{k}_{11(11)}$ &lbrack;[Gomis, Kleinschmidt & Palmkvist 2019 p 29](#GomisKleinschmidtPalmkvist19), [BKS19, appendix D](#BKS19)&rbrack; and this is the [[symmetric algebra|symmetric power]] of the spinor rep &lbrack;[Bossard, Kleinschmidt & Sezgin 2019 Apdx D](#BossardKleinschmidtSezgin19)&rbrack;
-$$
-  \mathbf{32} 
-    \otimes_{sym} 
-  \mathbf{32}
-  \;\simeq\;
-  \mathbf{528}
-  \;\;
-  \in
-  \;
-  Rep_{\mathbb{R}}(\mathfrak{k}_{11(11)})
-  \,.
-$$
+* an irrep $\mathbf{32} \,\in\, Rep_{\mathbb{R}}( \mathfrak{k}_{11(11)} )$ which when restricted to the sub Lie algebra $\mathfrak{so}_{1,10} \hookrightarrow \mathfrak{k}_{11(11)}$ is the usual [[Majorana spinor]] representation $\mathbf{32}$ of [[D=11 supergravity]] &lbrack;[Bossard, Kleinschmidt & Sezgin 2019 p 42](#BossardKleinschmidtSezgin19)&rbrack;
+
+* an irrep $\mathbf{352} \,\in\, Rep_{\mathbb{R}}( \mathfrak{k}_{11(11)} )$ which when restricted to $\mathfrak{k}_{10(10)}$ branches to $\mathbf{320} \oplus \mathbf{32}$, the first summand now corresponding to the $\Gamma$-traceless tensor-spinor irrep of $\mathfrak{so}_{1,10}$ &lbrack;[BKS19, p 42](#BKS19)&rbrack;
+
+* an irrep $\mathbf{528}$ of $\mathfrak{k}_{11(11)}$ &lbrack;[Gomis, Kleinschmidt & Palmkvist 2019 p 29](#GomisKleinschmidtPalmkvist19), [BKS19, appendix D](#BKS19)&rbrack; and this is the [[symmetric algebra|symmetric power]] of the spinor rep &lbrack;[Bossard, Kleinschmidt & Sezgin 2019 Apdx D](#BossardKleinschmidtSezgin19)&rbrack;
+
+  $$
+    \mathbf{32} 
+      \otimes_{sym} 
+    \mathbf{32}
+    \;\simeq\;
+    \mathbf{528}
+    \;\;
+    \in
+    \;
+    Rep_{\mathbb{R}}(\mathfrak{k}_{11(11)})
+    \,.
+  $$
 
 ## References
 
@@ -210,7 +215,7 @@ Relation to [[Borcherds superalgebras]]:
 
 On [[E₁₁]]-[[exceptional field theory]]:
 
-* {#BKS19} [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]]: *On supersymmetric E11 exceptional field theory*, J. High Energ. Phys. **2019** 165 (2019) &lbrack;[arXiv:1907.02080](https://arxiv.org/abs/1907.02080), <a href="https://doi.org/10.1007/JHEP10(2019)165">doi:10.1007/JHEP10(2019)165</a>&rbrack;
+* {#BKS19} [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]]: *On supersymmetric $E_{11}$ exceptional field theory*, J. High Energ. Phys. **2019** 165 (2019) &lbrack;[arXiv:1907.02080](https://arxiv.org/abs/1907.02080), <a href="https://doi.org/10.1007/JHEP10(2019)165">doi:10.1007/JHEP10(2019)165</a>&rbrack;
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _A master exceptional field theory_ ([arXiv:2103.13411](https://arxiv.org/abs/2103.13411))
 
