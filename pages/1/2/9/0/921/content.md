@@ -87,7 +87,7 @@ so we need to specify an [[equivalence relation]] on the Cauchy sequences.  Thus
 
 We can generalise this to any [[Cauchy sequence]] of rational numbers, and $\mathbb{R}$ is constructed as a [[subquotient]] of the [[function set]] $\mathbb{Q}^{\mathbb{N}}$.
 
-This construction is equivalent to the construction by Dedekind cuts, at least assuming [[weak countable choice]] (which also follows from [[excluded middle]]).  Thus it is popular in both [[classical mathematics]] and traditional [[constructive mathematics]] (which accepts [[countable choice]]).  However, in stricter forms of constructive mathematics, including those used as [[internal languages]] in [[topos theory]], the Cauchy reals and Dedekind reals are not equivalent.  (On the other hand, by generalising to Cauchy [[nets]], we recover the Dedekind reals again.)
+This construction is equivalent to the construction by Dedekind cuts, at least assuming the [[weak countable choice]] principle $\mathrm{AC}_{\mathbb{N}2}$ (which also follows from [[excluded middle]]).  Thus it is popular in both [[classical mathematics]] and traditional [[constructive mathematics]] (which accepts [[countable choice]]).  However, in stricter forms of constructive mathematics, including those used as [[internal languages]] in [[topos theory]], the Cauchy reals and Dedekind reals are not equivalent.  (On the other hand, by generalising to Cauchy [[nets]], we recover the Dedekind reals again.)
 
 See [[Cauchy real number]] and [[generalized Cauchy real number]] for more.
 
