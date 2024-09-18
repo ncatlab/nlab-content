@@ -14,6 +14,7 @@ On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]
 
 * [[Marc Henneaux]], [[Wout Merbis]], Arash Ranjbar, _Asymptotic dynamics of $AdS_3$ gravity with two asymptotic regions_ ([arXiv:1912.09465](https://arxiv.org/abs/1912.09465))
 
+
 On [[self-dual higher gauge fields]]:
 
 * {#HenneauxTeitelboim88} [[Marc Henneaux]], [[Claudio Teitelboim]], _Dynamics of chiral (self-dual) $p$-forms_, Physics Letters B **206** 4 (1988) 650-654 &lbrack;<a href="https://doi.org/10.1016/0370-2693(88)90712-5">doi:10.1016/0370-2693(88)90712-5</a>&rbrack;
@@ -39,6 +40,11 @@ On [[local BRST cohomology]] and [[BV-formalism]]:
 and application to [[gravity]] and/or [[Yang-Mills theory]] ([[Einstein-Yang-Mills theory]]):
 
 * [[Glenn Barnich]], [[Friedemann Brandt]], [[Marc Henneaux]], _Local BRST cohomology in Einstein-Yang-Mills theory_, Nucl. Phys. B **455** (1995) 357-408 &lbrack;<a href="https://doi.org/10.1016/0550-3213(95)00471-4">doi:10.1016/0550-3213(95)00471-4</a>[arXiv:hep-th/9505173](https://arxiv.org/abs/hep-th/9505173)&rbrack;
+
+On [[U-duality]]-symmetry and fermionic representations of its [[maximal compact subalgebras]] (in particular for that of [[E10]]):
+
+* {#deBuylHenneauxPaulot05} Sophie de Buyl, [[Marc Henneaux]], Louis Paulot: *Hidden Symmetries and Dirac Fermions*, Class. Quant. Grav. **22** (2005) 3595-3622 &lbrack;[arXiv:hep-th/0506009](https://arxiv.org/abs/hep-th/0506009), [doi:10.1088/0264-9381/22/17/018](https://doi.org/10.1088/0264-9381/22/17/018)&rbrack;
+
 
 
 ## Related entries
