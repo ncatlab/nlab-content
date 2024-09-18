@@ -35,6 +35,7 @@ $E_{11}$ is conjectured ([West 01](#West01)) to be the [[U-duality]] group (see 
 
 [[!include U-duality -- table]]
 
+
 ### Fundamental representation and brane charges
  {#FundamentalRepresentationAndBraneCharges}
 
@@ -85,10 +86,23 @@ Here the $level \leq 2$-truncation happens to coincide with the bosonic [[body]]
 ### Maximal compact subalgebra
  {#MaximalCompactSubalgebra}
 
-In contrast to $\mathfrak{e}_{11(11)}$ itself, its "maximal compact subalgebra" $\mathfrak{k}_{11(11)}$ has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite-dimensional]] [[representations]] ([KKLN22](Kac-Moody+algebra#KKLN22)).
+In contrast to $\mathfrak{e}_{11(11)}$ itself, its "maximal compact subalgebra" $\mathfrak{k}_{11(11)}$ has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite-dimensional]] [[representations]] ([KKLN22](Kac-Moody+algebra#KKLN22)), 
 
-In particular there is an irrep $\mathbf{528}$ of $\mathfrak{k}_{11(11)}$ &lbrack;[Gomis, Kleinschmidt & Palmkvist 2019 p 29](#GomisKleinschmidtPalmkvist19), [BKS19, appendix D](#BKS19)&rbrack;.
+In particular there is an irrep $\mathbf{32} \,\in\, Rep_{\mathbb{R}}( \mathfrak{k}_{11(11)} )$ which when restricted to the sub Lie algebra $\mathfrak{so}_{1,10} \hookrightarrow \mathfrak{k}_{11(11)}$ is the usual [[Majorana spinor]] representation $\mathbf{32}$ of [[D=11 supergravity]] &lbrack;[Bossard, Kleinschmidt & Sezgin 2019 p 42](#BossardKleinschmidtSezgin19)&rbrack;
 
+Moreover, there is an irrep $\mathbf{528}$ of $\mathfrak{k}_{11(11)}$ &lbrack;[Gomis, Kleinschmidt & Palmkvist 2019 p 29](#GomisKleinschmidtPalmkvist19), [BKS19, appendix D](#BKS19)&rbrack; and this is the [[symmetric algebra|symmetric power]] of the spinor rep &lbrack;[Bossard, Kleinschmidt & Sezgin 2019 Apdx D](#BossardKleinschmidtSezgin19)&rbrack;
+$$
+  \mathbf{32} 
+    \otimes_{sym} 
+  \mathbf{32}
+  \;\simeq\;
+  \mathbf{528}
+  \;\;
+  \in
+  \;
+  Rep_{\mathbb{R}}(\mathfrak{k}_{11(11)})
+  \,.
+$$
 
 ## References
 
@@ -182,11 +196,11 @@ and was further explored in
 
 
 
-Relation to [[exceptional field theory]] is discussed in
+Relation to [[exceptional field theory]]:
 
 * Alexander G. Tumanov, [[Peter West]], _$E_{11}$ and exceptional field theory_ ([arXiv:1507.08912](http://arxiv.org/abs/1507.08912))
 
-Relation to [[Borcherds superalgebras]] is discussed in
+Relation to [[Borcherds superalgebras]]:
 
 * Pierre Henry-Labordere, [[Bernard Julia]], Louis Paulot, _Borcherds symmetries in M-theory_, JHEP 0204 (2002) 049 ([arXiv:hep-th/0203070](http://arxiv.org/abs/hep-th/0203070))
 
@@ -199,6 +213,14 @@ On [[E₁₁]]-[[exceptional field theory]]:
 * {#BKS19} [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]]: *On supersymmetric E11 exceptional field theory*, J. High Energ. Phys. **2019** 165 (2019) &lbrack;[arXiv:1907.02080](https://arxiv.org/abs/1907.02080), <a href="https://doi.org/10.1007/JHEP10(2019)165">doi:10.1007/JHEP10(2019)165</a>&rbrack;
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _A master exceptional field theory_ ([arXiv:2103.13411](https://arxiv.org/abs/2103.13411))
+
+On spinor representatons of the [[maximal compact subalgebra]] $\mathfrak{k}_{11(11)}$:
+
+* {#KleinschnidtNicolai06} [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *IIA and IIB spinors from $K(E_{10})$*, Phys. Lett. B **637** (2006) 107-112 &lbrack;[arXiv:hep-th/0603205](https://arxiv.org/abs/hep-th/0603205), [doi:10.1016/j.physletb.2006.04.007](https://doi.org/10.1016/j.physletb.2006.04.007)&rbrack;
+
+* {#DamourKleinschmidtNicolai} [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Hidden symmetries and the fermionic sector of eleven-dimensional supergravity*, Phys. Lett. B **634** (2006) 319-324 &lbrack;[arXiv:hep-th/0512163](https://arxiv.org/abs/hep-th/0512163), [doi:10.1016/j.physletb.2006.01.015](https://doi.org/10.1016/j.physletb.2006.01.015)&rbrack;
+
+* {#BossardKleinschmidtSezgin19} [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]]: *On supersymmetric $E_{11}$ exceptional field theory*, J. High Energ. Phys. **2019** 165 (2019) &lbrack;[arXiv:1907.02080](https://arxiv.org/abs/1907.02080), <a href="https://doi.org/10.1007/JHEP10(2019)165">doi:10.1007/JHEP10(2019)165</a>&rbrack;
 
 
 Relation to [[free Lie algebras|free]] [[super Lie algebras]]:
