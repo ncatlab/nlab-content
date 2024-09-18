@@ -294,7 +294,12 @@ theory_, Phys. Rev. Lett. 89, 221601 (2002) ([arXiv:hep-th/0207267](http://arxiv
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]], _$E(10)$ and $SO(9,9)$ invariant supergravity_, JHEP 0407,
 041 (2004) ([arXiv:hep-th/0407101](http://arxiv.org/abs/hep-th/0407101))
 
-and for fermionic degrees of freedom in [[supergravity|supersymmetric]] [[quantum cosmology]] in 
+and for fermionic degrees of freedom 
+
+* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Hidden symmetries and the fermionic sector of eleven-dimensional supergravity*, Phys. Lett. B **634** (2006) 319-324 &lbrack;[arXiv:hep-th/0512163](https://arxiv.org/abs/hep-th/0512163), [doi:10.1016/j.physletb.2006.01.015](https://doi.org/10.1016/j.physletb.2006.01.015)&rbrack;
+
+
+and for [[supergravity|supersymmetric]] [[quantum cosmology]] in 
 
 * {#Damour14} [[Thibault Damour]], _Quantum supersymmetric Bianchi IX  Cosmology and its hidden Kac-Moody Structure_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[DamourSQC14.pdf:file]])
 
