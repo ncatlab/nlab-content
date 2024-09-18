@@ -28,7 +28,6 @@ The name is due to the fact that this gauge field unifies the [[electromagnetic 
 
 ## References
 
-### General
 
 The electroweak interaction was introduced in:
 
@@ -62,14 +61,15 @@ Discussion in [[causal perturbation theory]] is in
 
 * Andreas Aste, [[Michael Dütsch]], [[Günter Scharf]], _Perturbative gauge invariance: electroweak theory II_, Annalen Phys.8:389-404,1999 ([arXiv:hep-th/9702053](http://arxiv.org/abs/hep-th/9702053))
 
-* {#Scharf01} [[Günter Scharf]], chapter 4 of _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
+* {#Scharf01} [[Günter Scharf]], chapter 4 of _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley (2001)
+
+See also:
+
+* José M. Gracia-Bondía, Karl-Henning Rehren, Joseph C. Várilly: *The full electroweak interaction: an autonomous account* &lbrack;[arXiv:2409.10668](https://arxiv.org/abs/2409.10668)&rbrack;
 
 
-### In relation to flavour anomalies
 
-In relation to [[flavour anomalies]]:
 
-* Lina Alasfar, Aleksandr Azatov, Jorge de Blas, Ayan Paul, Mauro Valli, _B anomalies under the lens of electroweak precision_ ([arXiv:2007.04400](https://arxiv.org/abs/2007.04400))
 
 
 [[!redirects electroweak]]
