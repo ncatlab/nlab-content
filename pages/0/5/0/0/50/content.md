@@ -18,7 +18,7 @@
 
 There is an obvious [[functor]]
 $$
-  Lie \;colon\; Lie Gp \to Lie Alg
+  Lie \;\colon\; Lie Gp \to Lie Alg
 $$
 from [[LieGroups]] to [[LieAlgebras]] -- *[[Lie differentiation]]* -- which sends any [[Lie group]] to its [[Lie algebra]] and every [[group homomorphism]] of Lie groups to the corresponding [[algebra homomorphism]] of Lie algebras. 
 
