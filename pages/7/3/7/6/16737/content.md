@@ -38,11 +38,12 @@ Sources where a sentiment of exceptional naturalism has been expressed include t
 
 [[David Olive]] (in [Olive & Landsberg 1989](#OliveLand89)) writes:
 
-> The results...add the stunning new question as to why nature has an apparent predilection for exceptional structures such as the E groups.
+> The results... add the stunning new question as to why nature has an apparent predilection for exceptional structures such as the E groups.
 
 and:
 
 > I sense that the trail of exceptional structures is growing even warmer.
+
 
 [Baez 95](#Baez95), in a context of the role of the [[monster group]] in [[physics]], writes:
 
