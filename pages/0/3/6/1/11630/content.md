@@ -17,6 +17,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -143,23 +144,25 @@ U-duality may be understood as being the combination of [[T-duality]] for the co
 
 ### General
 
-The hidden [[E7]]-symmetry of the [[KK-compactification]] of [[11-dimensional supergravity]] on a 7-dimensional [[torus]] to [[D=4 N=8 supergravity]] was first noticed in
+The hidden global [[E7]]-symmetry (and local $K(E_7) \simeq SU(8)$-symmetry) of the [[KK-compactification]] of [[11-dimensional supergravity]] on a 7-dimensional [[torus]] to [[D=4 N=8 supergravity]] was first realized
 
 * {#CremmerJulia78} [[Eugene Cremmer]], [[Bernard Julia]], _The $N = 8$ supergravity theory. I. The Lagrangian_, Phys. Lett. B **80** (1978) 48 &lbrack;[spire:131572](https://inspirehep.net/literature/131572), <a href="https://doi.org/10.1016/0370-2693(78)90303-9">doi:10.1016/0370-2693(78)90303-9</a>&rbrack;
 
 * {#CremmerJulia79} [[Eugene Cremmer]], [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B **159** (1979) 141 &lbrack;<a href="https://doi.org/10.1016/0550-3213(79)90331-6">doi;10.1016/0550-3213(79)90331-6</a>, [spire:140465](https://inspirehep.net/literature/140465)&rbrack;
 
-and more generally in 
-
 * [[Bernard de Wit]], [[Hermann Nicolai]]: _D = 11 Supergravity With Local $SU(8)$ Invariance_, Nucl. Phys. B 274, 363 (1986) &lbrack;<a href="https://doi.org/10.1016/0550-3213(86)90290-7">doi:10.1016/0550-3213(86)90290-7</a>, [spire:227409](http://inspirehep.net/record/227409)&rbrack;
 
 * [[Bernard de Wit]], [[Hermann Nicolai]]: _Local $SU(8)$ invariance in $d = 11$ supergravity_, talk at *[Nuffield Workshop on Supersymmetry and its Applications](https://inspirehep.net/conferences/966045)*, 0357 &lbrack;[spire:218601](http://inspirehep.net/record/218601)&rbrack;
 
-The further U-duality groups for compactifications of 11d SuGra including [[E6]], [[E7]], [[E8]] were identified in
+and the hidden global [[E8]]-symmetry (and local $K(\mathfrak{e}_8) \simeq \mathfrak{so}_{16}$-symmetry) in
 
-* [[Eugene Cremmer]], *Supergravities in 5 dimensions*, in Hawking, Rocek (eds.) _Superspace and Supergravity_, Cambridge University Press (1981) &lbrack;[spire:155020](https://inspirehep.net/literature/155020)&rbrack;
+* [[Eugene Cremmer]]: *Supergravities in 5 dimensions*, in: *[Superspace and Supergravity](https://inspirehep.net/literature/172773)*, Cambridge University Press (1981) &lbrack;[spire:155020](https://inspirehep.net/literature/155020), [[Cremmer-SuGraIn5d.pdf:file]], ISBN:0521239087&rbrack;
 
-* [[Bernard Julia]], _Group Disintegrations_, in Hawking, Rocek (eds.): _Superspace and Supergravity_, Cambridge University Press (1981) &lbrack;[spire:155019](https://inspirehep.net/literature/155019)&rbrack;
+* [[Hermann Nicolai]]: *$d=11$ Supergravity with local $SO(16)$ invariance*, Physics Letters B **187** 3–4 (1987)  316-320 &lbrack;<a href="https://doi.org/10.1016/0370-2693(87)91102-6">doi:10.1016/0370-2693(87)91102-6</a>&rbrack;
+
+See also:
+
+* [[Bernard Julia]], _Group Disintegrations_, in: *[Superspace and Supergravity](https://inspirehep.net/literature/172773)*, Cambridge University Press (1981) &lbrack;[spire:155019](https://inspirehep.net/literature/155019), ISBN:0521239087&rbrack;
 
 The concept and terminology of U-duality in [[string theory]]/[[M-theory]] originates with:
 
