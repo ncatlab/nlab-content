@@ -26,6 +26,11 @@ in computer science and quantum physics (not to mention pure mathematics itself)
 
 > category theory has found applications in a wide range of disciplines outside of pure mathematics—even beyond the closely related fields of computer science and quantum physics. These disciplines include chemistry, neuroscience, systems biology, natural language processing, causality, network theory, dynamical systems, and database theory to name a few. And what do they all have in common? ... In other words, the techniques, tools, and ideas of category theory are being used to identify recurring themes across these various disciplines with the purpose of making them a little more formal.
 
+##Examples##
+
+In [[systems theory]]:
+
+* [[Conway's law]]
 
 ##References##
 
