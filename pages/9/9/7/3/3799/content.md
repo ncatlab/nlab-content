@@ -44,7 +44,9 @@ On a [[string diagram]]-calculus for ([[virtual double category|virtual]]) [[dou
 
 * [[David Jaz Myers]], *String Diagrams for (Virtual) Proarrow Equipments* (2017) &lbrack;slides: [pdf](http://www.mat.uc.pt/~ct2017/slides/myers_d.pdf), [[Myers-StringDiagrams2017.pdf:file]]&rbrack;
 
+A type system with semantics in virtual equipments:
 
+* Max S. New and Daniel R. Licata. 2023. A Formal Logic for Formal Category Theory. In Foundations of Software Science and Computation Structures - 26th International Conference, FoSSaCS 2023. [DOI](https://doi.org/10.1007/978-3-031-30829-1\_6)
 
 
 [[!redirects virtual equipments]]
