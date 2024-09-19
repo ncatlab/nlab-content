@@ -19,7 +19,10 @@
 
 ## Idea
 
-As [[type theory]] has [[categorical semantics]] in 1-[[categories]], _2-type theory_ has semantics in [[2-categories]].  There are, potentially, many different kinds of "2-type theory" with different uses and semantics.  2-type theory is closely related to (and sometimes the same as) *[[directed type theory]]*.
+As [[type theory]] has [[categorical semantics]] in 1-[[categories]], _2-type theory_ has semantics in [[2-categories]].
+In particular, a 2-type theory can have semantics in the 2-category [[Cat]], which would mean that contexts and closed types are modelled as categories.
+
+There are, potentially, many different kinds of "2-type theory" with different uses and semantics.  2-type theory is closely related to (and sometimes the same as) *[[directed type theory]]*.
 
 ## Applications
 
@@ -52,6 +55,12 @@ On 2-type theory:
 * [[Mike Shulman]], _[[michaelshulman:2-categorical logic]]_
 
 * Philip Saville, *Cartesian closed bicategories: type theory and coherence*. PhD thesis, 2020. [pdf](https://arxiv.org/pdf/2007.00624.pdf).
+
+* A type system with semantics in [[virtual equipment]]s:
+
+  Max S. New and Daniel R. Licata. 2023. A Formal Logic for Formal Category Theory. In Foundations of Software Science and Computation Structures - 26th International Conference, FoSSaCS 2023. [DOI](https://doi.org/10.1007/978-3-031-30829-1\_6)
+
+* Andrea Laretto, Fosco Loregian, and Niccolò Veltri. 2024. Directed equality with dinaturality. [ArXiv](https://arxiv.org/abs/2409.10237)
 
 
 
