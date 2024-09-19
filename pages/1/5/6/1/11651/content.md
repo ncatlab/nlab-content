@@ -51,7 +51,7 @@ $$
 
 ([Brylinski 94, prop. 1.1](#Brylinski94)).
 
-A higher analog of the connecting homomorphism abive may be interpreted as being the [[Beilinson regulator]] from $K_1(X)$ to [[Deligne cohomology]] in degree 3 ([Brylinski 94, section 3](#Brylinski94)).
+A higher analog of the connecting homomorphism above may be interpreted as being the [[Beilinson regulator]] from $K_1(X)$ to [[Deligne cohomology]] in degree 3 ([Brylinski 94, section 3](#Brylinski94)).
 
 
 ## Examples
