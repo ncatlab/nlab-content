@@ -13,9 +13,13 @@
 
 ## Definition
 
-A [[type universe]] $U$ has **impredicative polymorphism** if [[dependent product types]] of $U$-indexed families of $U$-small types are themselves $U$-small. 
+A [[type universe]] $U$ has **impredicative polymorphism**  or is **impredicative** if [[dependent product types]] of $U$-indexed families of $U$-small types are themselves $U$-small. 
 
-Like all other conditions on [[Tarski universes]], there is an orthogonal axis for which impredicativity might vary: weak or strict impredicativity, which has to do with whether one uses an [[equivalence of types]] or [[judgmental equality]] to define small types. 
+For [[Russell universes]], this is given by the [[inference rule]]
+
+$$\frac{\Gamma, X:U \vdash P(X):U}{\Gamma \vdash \prod_{X:U} P(X):U}$$
+
+The situation is a little bit more complicated for [[Tarski universes]]. Like all other conditions on [[Tarski universes]], there is an orthogonal axis for which impredicativity might vary: weak or strict impredicativity, which has to do with whether one uses an [[equivalence of types]] or [[judgmental equality]] to define small types. 
 
 * A Tarski universe $(U, T)$ has **weak impredicative polymorphism** or is **weakly impredicative** if for all functions $P:U \to U$ the [[dependent product type]] $\prod_{X:U} P(X)$ is [[essentially small type|essentially $U$-small]]
 
@@ -29,6 +33,10 @@ $$\frac{\Gamma, X:U \vdash P(X):U}{\Gamma \vdash \forall X:U.P(X):U} \qquad \fra
 
 * The base universe $\mathrm{Set}$ historically had impredicative polymorphism in [[Coq]], according to [Pédrot 2022](#Pédrot22). 
 
+## Properties
+
+Impredicative polymorphism is inconsistent with [[propositional resizing]] for a universe $U$. 
+
 ## Related concepts
 
 * [[polymorphism]]
@@ -41,7 +49,15 @@ $$\frac{\Gamma, X:U \vdash P(X):U}{\Gamma \vdash \forall X:U.P(X):U} \qquad \fra
 
 * [[propositional resizing]]
 
+* [[taboo]]
+
 ## References
+
+* [[Andrew Pitts]], *Nontrivial Power Types can't be Subtypes of Polymorphic Types* ([pdf](https://www.cl.cam.ac.uk/~amp12/papers/nontpt/nontpt.pdf))
+
+* [[Taichi Uemura]], *Cubical Assemblies, a Univalent and Impredicative Universe and a Failure of Propositional Resizing*, in 24th International Conference on Types for Proofs and Programs (TYPES 2018). Leibniz International Proceedings in Informatics (LIPIcs), Volume 130, pp. 7:1-7:20, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2019) ([doi:10.4230/LIPIcs.TYPES.2018.7](https://doi.org/10.4230/LIPIcs.TYPES.2018.7), [arXiv:1803.06649](https://arxiv.org/abs/1803.06649))
+
+* *Dependent Type Theory vs Polymorphic Type Theory*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Dependent.20Type.20Theory.20vs.20Polymorphic.20Type.20Theory))
 
 * {#Pédrot22} Pierre-Marie Pédrot, *Why not have `Prop : Set` in Coq?*, Proof Assistant StackExchange, 27 June 2022. ([web](https://proofassistants.stackexchange.com/questions/1551/why-not-have-prop-set-in-coq))
 
