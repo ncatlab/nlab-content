@@ -91,6 +91,7 @@ In particular, every impredicative [[strictly Tarski universe]] is strictly impr
 * [[type of all propositions]]
 * [[local propositional resizing]], [[global propositional resizing]]
 * [[impredicative dependent type theory]]
+* [[impredicative universe]]
 
 ## References
 
@@ -99,21 +100,6 @@ In particular, every impredicative [[strictly Tarski universe]] is strictly impr
 [[!redirects propositional resizing]]
 [[!redirects weak propositional resizing]]
 [[!redirects strict propositional resizing]]
-
-[[!redirects impredicative universe]]
-[[!redirects impredicative universes]]
-[[!redirects impredicative Tarski universe]]
-[[!redirects impredicative Tarski universes]]
-
-[[!redirects weakly impredicative universe]]
-[[!redirects weakly impredicative universes]]
-[[!redirects weakly impredicative Tarski universe]]
-[[!redirects weakly impredicative Tarski universes]]
-
-[[!redirects strictly impredicative universe]]
-[[!redirects strictly impredicative universes]]
-[[!redirects strictly impredicative Tarski universe]]
-[[!redirects strictly impredicative Tarski universes]]
 
 [[!redirects axiom of propositional resizing]]
 [[!redirects axiom schema of propositional resizing]]
