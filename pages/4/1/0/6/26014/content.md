@@ -166,3 +166,7 @@ Further activity:
 [[!redirects higher-form symmetry]]
 [[!redirects higher-form symmetries]]
 
+[[!redirects categorified symmetry]]
+[[!redirects categorified symmetries]]
+
+
