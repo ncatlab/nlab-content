@@ -33,9 +33,13 @@ $$\frac{\Gamma, X:U \vdash P(X):U}{\Gamma \vdash \forall X:U.P(X):U} \qquad \fra
 
 * The base universe $\mathrm{Set}$ historically had impredicative polymorphism in [[Coq]], according to [Pédrot 2022](#Pédrot22). 
 
+* In [[dependent type theory]] defined using a single [[type]] [[judgment]], the [[universe of all propositions]] is a type universe with impredicative polymorphism if and only if [[weak function extensionality]] holds.  
+
+* More generally, let $\Omega$ be a [[universe of propositions]], and assume [[weak function extensionality]] holds. Then $\Omega$ has impredicative polymorphism if and only if it is closed under [[dependent product types]] of predicates in $\Omega$; i.e. $\Omega$ is an [[inflattice]]. 
+
 ## Properties
 
-Impredicative polymorphism is inconsistent with [[propositional resizing]] for a universe $U$. 
+Impredicative polymorphism of any universe $U$ with a [[type]] which is not a [[mere proposition]] is inconsistent with [[propositional resizing]] for a universe $U$. 
 
 ## Related concepts
 
@@ -50,6 +54,10 @@ Impredicative polymorphism is inconsistent with [[propositional resizing]] for a
 * [[propositional resizing]]
 
 * [[taboo]]
+
+* [[type of all propositions]]
+
+* [[weak function extensionality]]
 
 ## References
 
