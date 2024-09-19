@@ -1142,7 +1142,7 @@ _[string -- Symplectic geometry and geometric quantization](string#ReferencesSym
 ### General
  {#ReferencesGeneral}
 
-Original references include
+Original references:
 
 * {#Souriau69} [[Jean-Marie Souriau]], _[Structure des systemes dynamiques](http://www.jmsouriau.com/structure_des_systemes_dynamiques.htm)_, Dunod, Paris (1970)
 
@@ -1166,15 +1166,17 @@ A fairly comprehensive textbook with modern developments is
 * [[Nicholas Woodhouse]], _Geometric Quantization_, Oxford University Press (1997)
  {#Woodhouse}
 
-Introductions and lecture notes include
+Introductions and lecture notes:
 
 * William Gordon Ritter, _Geometric Quantization_ ([arXiv:math-ph/0208008](http://arxiv.org/abs/math-ph/0208008))
 
-* [[Matthias Blau]], _Symplectic geometry and geometric quantization_ ([[BlauGeometricQuantization.pdf:file]])
- {#Blau}
+* {#Blau} [[Matthias Blau]], _Symplectic geometry and geometric quantization_ ([[BlauGeometricQuantization.pdf:file]])
+ 
 
-* [[Eugene Lerman]], _Geometric quantization; a crash course_ ([arXiv:1206.2334](http://arxiv.org/abs/1206.2334))
- {#Lerman}
+* {#Lerman} [[Eugene Lerman]], _Geometric quantization; a crash course_ ([arXiv:1206.2334](http://arxiv.org/abs/1206.2334))
+
+* Andrea Carosso: *Geometric Quantization* &lbrack;[arXiv:1801.02307](https://arxiv.org/abs/1801.02307)&rbrack;
+ 
 
 Lecture notes with an emphasis on [[semiclassical states]]:
 
