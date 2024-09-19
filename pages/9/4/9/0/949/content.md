@@ -113,6 +113,10 @@ The philosophy behind this sort of impredicative definition is that any inhabita
 
 This sort of impredicativism can be shown to be incompatible with impredicative set-theoretic axioms such as power sets; see [this paper](https://www.cl.cam.ac.uk/~amp12/papers/nontpt/nontpt.pdf) of Andy Pitts.  Since such type theories generally do have function types, it follows that they cannot be classical.
 
+However, the [[type universes]] as talked about in the previous paragraphs usually have non-propositional types. There do exist [[type universes]] which have impredicative polymorphism and are consistent with power sets: these are the [[universes of propositions]], the universes $\Omega$ where every type is a [[mere proposition]], and [[impredicative polymorphism]] says that $\Omega$ is closed under [[dependent product types]] of [[predicates]] valued in $\Omega$. 
+
+In particular, the condition of having a [[universe of all propositions]] $\mathrm{Prop}$ is exactly that of having [[power sets]] in the type theory, and $\mathrm{Prop}$ has [[impredicative polymorphism]] if and only if [[weak function extensionality]] holds, which is equivalent to [[function extensionality]]. 
+
 ## The category of sets
 
 So what is the category of sets in predicative mathematics?
