@@ -47,13 +47,11 @@ In addition, in [King 2024](#King24) there are more generalizations of the princ
 
 There are also generalisations of the principles of omniscience involving [[inequality spaces]]:
 
-* Every [[inequality space]] has [[decidable tight apartness]], which generalises [[LPO]] and [[analytic LPO]]
+* Every [[inequality space]] has [[decidable tight apartness]], which generalises [[LPO]] and [[analytic LPO]]. In the presence of [[function sets]], this is equivalent to [[excluded middle]]. 
 
-* Every [[inequality space]] has [[decidable equality]], which generalises [[WLPO]] and [[analytic WLPO]]
+* Every [[inequality space]] has [[decidable equality]], which generalises [[WLPO]] and [[analytic WLPO]]. In the presence of [[function sets]], this is equivalent to [[weak excluded middle]]. 
 
-* Every [[inequality space]] has [[stable relation|stable]] [[tight apartness]], which generalises [[Markov's principle]] and [[analytic Markov's principle]]
-
-These are all still weaker than [[excluded middle]] since in general, the [[set of truth values]] is only an [[inequality space]] if and only if [[excluded middle]] holds. 
+* Every [[inequality space]] has [[stable relation|stable]] [[tight apartness]], which generalises [[Markov's principle]] and [[analytic Markov's principle]]. In the presence of [[function sets]], this is equivalent to the [[double negation law]]. 
 
 ## References
 
