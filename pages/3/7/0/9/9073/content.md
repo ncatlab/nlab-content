@@ -15,15 +15,19 @@ On [[celestial amplitudes]]:
 
 On a motivic approach to [[scattering amplitudes]]:
 
-* [[Nima Arkani-Hamed]], Jacob Bourjaily, Freddy Cachazo, [[Alexander Goncharov]], Alexander Postnikov, Jaroslav Trnka, _Grassmannian geometry of scattering amplitudes_, Cambridge Univ. Press 2016
+* [[Nima Arkani-Hamed]], Jacob Bourjaily, Freddy Cachazo, [[Alexander Goncharov]], [[Alexander Postnikov]], Jaroslav Trnka, _Grassmannian geometry of scattering amplitudes_, Cambridge Univ. Press 2016
 
 On [[scattering amplitudes]]: 
 
 * [[Nima Arkani-Hamed]]: *Geometry of scattering amplitudes*, lecture at *Amplitudes Summer School*, QMAP @UC Davis (2018) &lbrack;video(11 hrs):[YT](https://www.youtube.com/watch?v=fCi195e9QD4)&rbrack;
 
-On the [[combinatorics]] of [[scattering amplitudes]] in [[Yang-Mills theory]]:
+[[total positivity|Total positivity]] and [[positroid]]s play role in the computation of scattering amplitudes in supersymmetric Yang--Milss:
 
-* [[Nima Arkani-Hamed]], Qu Cao, Jin Dong, Carolina Figueiredo, Song He: *Scalar-Scaffolded Gluons and the Combinatorial Origins of Yang-Mills Theory* &lbrack;[arXiv:2401.00041](https://arxiv.org/abs/2401.00041)&rbrack;
+* [[Nima Arkani-Hamed]], [[Thomas Lam]], [[Marcus Spradlin]], _Positive configuration space_, Commun. Math. Phys. 384, 909--954 (2021) [doi](https://doi.org/10.1007/s00220-021-04041-x)
+
+More on the [[combinatorics]] of [[scattering amplitudes]] in [[Yang-Mills theory]]:
+
+* [[Nima Arkani-Hamed]], Qu Cao, Jin Dong, Carolina Figueiredo, Song He: *Scalar-scaffolded gluons and the combinatorial origins of Yang-Mills theory* &lbrack;[arXiv:2401.00041](https://arxiv.org/abs/2401.00041)&rbrack;
 
 
 
