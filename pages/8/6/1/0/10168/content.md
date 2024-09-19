@@ -35,6 +35,10 @@ On [[epimorphisms]] and [[acyclic types]] in [[univalent type theory]]:
 
 * [[Ulrik Buchholtz]], [[Tom de Jong]], [[Egbert Rijke]], *Epimorphisms and Acyclic Types in Univalent Mathematics*, ([arXiv:2401.14106](https://arxiv.org/abs/2401.14106))
 
+On a [[dependent type theory]] [[conservative extension]] of [[primitive recursive arithmetic]]:
+
+* [[Ulrik Buchholtz]], [[Johannes Schipp von Branitz]], *Primitive Recursive Dependent Type Theory* ([arXiv:2404.01011](https://arxiv.org/abs/2404.01011))
+
 category: people
 
 [[!redirects UlrikBuchholtz]]
