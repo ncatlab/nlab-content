@@ -30,7 +30,11 @@ Let $T$ be a [[Lawvere theory]], i.e., a category with finite products $T$ equip
 
 Abstractly, PRA can be described as the initial Skolem theory. Precise statements to this effect are difficult to pin down in the literature. (More later)
 
-##Related pages
+## Related pages
 
 * [[ordinal analysis]]
 * [[finite mathematics]]
+
+## References
+
+* [[Ulrik Buchholtz]], [[Johannes Schipp von Branitz]], *Primitive Recursive Dependent Type Theory* ([arXiv:2404.01011](https://arxiv.org/abs/2404.01011))
