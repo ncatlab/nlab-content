@@ -3370,6 +3370,22 @@ Neumann algebras**
 
 \linebreak
 
+* {#RileySep24} 18 Sep 2024
+
+  [[Mitchell Riley]] (CQTS @ NYUAD):
+
+  **Lazy Algorithms in Algebraic Topology**
+
+  cf. [github.com/mvr/at](https://github.com/mvr/at)
+
+  > Finite [[simplicial complexes]] are easily represented on a computer as lists of the [[simplices]] that they contain. In this form, it is not difficult to perform constructions involving them or compute invariants such as their [[ordinary homology|homology]]. However, most spaces important to [[algebraic topology]] cannot be represented in this way, and so a new strategy is needed.
+
+  > [Effective Algebraic Topology](computational+topology#ReferencesComputationalAlgebraicTopology) is a collection of techniques for manipulating certain infinite [[simplicial sets]] [[algorithm|algorithmically]], retaining the ability to perform the same sorts of calculations as in the finite case. I will give an overview of the field and demonstrate some of the computations that can be performed.
+
+\linebreak
+
+
+
 
 ## External presentations
  {#ExternalTalk}
@@ -3628,6 +3644,25 @@ The following is a (very) inclomplete list of selected invited presentations by 
 
 \linebreak
 
+### Sep 2024
+  {#ExternalSep2024}
+
+* {#GiotopoulosSep2024} 18 Sep 2024
+
+  [[Grigorios Giotopoulos]] (NYU AD): 
+
+  **Sheaf Topos Theory as a setting for Physics**
+
+  talk at *[Workshop on Noncommutative and Generalized Geometry in String Theory](http://www.physics.ntua.gr/corfu2024/nc.html)*, Corfu Summer Institute
+
+  slides: &lbrack;[[Giotopoulos-ToposTheoryForPhysics.pdf:file]]&rbrack;
+
+   > on ([[quantum field theory|quantum]]) [[field theory]] expressed in the [[topoi]] of [[smooth sets]] and [[super smooth sets]].
+
+
+\linebreak
+
+\linebreak
 
 
 ***
