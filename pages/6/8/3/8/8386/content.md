@@ -75,6 +75,8 @@ for all functions $f$ with that signature ([Wadler 89](#Wadler89), figure 1).
 
 * [[logical relations]]
 
+* [[impredicative polymorphism]]
+
 * [[parametric dependent type theory]]
 
 ## References
