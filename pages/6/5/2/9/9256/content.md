@@ -66,6 +66,9 @@ See also:
 
 
 ### Computational algebraic topology
+ {#ReferencesComputationalAlgebraicTopology}
+
+* Rolf Schön: *Effective Algebraic Topology*, Memoirs of the AMS **451**, AMS (1991) &lbrack;[ams:memo-92-451](https://bookstore.ams.org/memo-92-451)&rbrack; 
 
 [[constructive mathematics|Constructive]]$\;$[[homology groups]] and [[homotopy groups]]:
 
@@ -73,6 +76,7 @@ See also:
 **126** 5 (2002) 389-412 &lbrack;[arXiv:math/0111243](https://arxiv.org/abs/math/0111243), <a href="https://doi.org/10.1016/S0007-4497(02)01119-3">doi:10.1016/S0007-4497(02)01119-3</a>&rbrack;
 
 * *[[Kenzo]]* (computer system for computational topology)
+
 
 ### Computational Homotopy groups
 
