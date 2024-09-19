@@ -188,8 +188,7 @@ Further developments of the proposed $E_{11}$ formulation of [[M-theory]] includ
 
 Discussion of the [[semidirect product]] of $E_{11}$ with its $l_1$-[[representation]], and arguments that the [[charges]] of the [[M-theory super Lie algebra]] and in fact further brane charges may be identified inside $l_1$ originate in
 
-* {#West04} [[Peter West]], _$E_{11}$, $SL(32)$ and Central Charges_, Phys.Lett.B575:333-
-342,2003 ([arXiv:hep-th/0307098](http://arxiv.org/abs/hep-th/0307098))
+* {#West04} [[Peter West]]: *$E_{11}$, $SL(32)$ and Central Charges*, Phys. Lett. B **575** (2003) 333-342 &lbrack;[arXiv:hep-th/0307098](http://arxiv.org/abs/hep-th/0307098), [doi:10.1016/j.physletb.2003.09.059](https://doi.org/10.1016/j.physletb.2003.09.059)&rbrack;
 
 and was further explored in 
 
