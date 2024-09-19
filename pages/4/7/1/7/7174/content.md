@@ -80,7 +80,7 @@ On [[E11]]-[[exceptional generalized geometry]] for [[D=11 supergravity]]/[[M-th
 
 * {#West01} [[Peter West]], _$E_{11}$ and M theory_, Class. Quant. Grav., 18:4443&#8211;4460, 2001 ([arXiv:hep-th/0104081](http://arxiv.org/abs/hep-th/0104081))
 
-* {#West03} [[Peter West]], _$E_{11}$, $SL(32)$ and Central Charges_, Phys. Lett. B575:333-342, 2003 ([arXiv:hep-th/0307098](http://arxiv.org/abs/hep-th/0307098))
+* {#West04} [[Peter West]]: *$E_{11}$, $SL(32)$ and Central Charges*, Phys. Lett. B **575** (2003) 333-342 &lbrack;[arXiv:hep-th/0307098](http://arxiv.org/abs/hep-th/0307098), [doi:10.1016/j.physletb.2003.09.059](https://doi.org/10.1016/j.physletb.2003.09.059)&rbrack;
 
 * {#West04} [[Peter West]], _$E_{11}$ origin of Brane charges and U-duality multiplets_, JHEP 0408 (2004) 052 ([arXiv:hep-th/0406150](http://arxiv.org/abs/hep-th/0406150))
 
