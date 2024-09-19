@@ -1,6 +1,12 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Robert_Wald)
 
+* [InSpire page](https://inspirehep.net/authors/984275)
+
+* *Interview* at AIP Oral History (2020) &lbrack;[webpage](https://www.aip.org/history-programs/niels-bohr-library/oral-histories/47228)&rbrack;
+
+
+
 ## Selected writings
 
 On [[general relativity]]:
