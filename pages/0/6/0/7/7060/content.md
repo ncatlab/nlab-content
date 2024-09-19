@@ -331,6 +331,34 @@ for Tarski types of propositions.
 
 The [[law of excluded middle]] states that every proposition is decidable $\mathrm{lem}:\prod_{P:\mathrm{Prop}} P \vee \neg P$, or equivalently that there is an equivalence $\mathrm{lem}':\mathrm{Bool} \simeq \mathrm{Prop}$ between the type of propositions and the type of booleans. 
 
+## Impredicative polymorphism
+
+Given a universe of all propositions $\mathrm{Prop}$, [[impredicative polymorphism]] of $\mathrm{Prop}$ is equivalent to [[weak function extensionality]]. 
+
+More generally, a universe of propositions $\Omega$ has [[impredicative polymorphism]] if and only if $\Omega$ is closed under [[dependent product types]] of [[predicates]] valued in $\Omega$. 
+
+## Propositional resizing
+
+\begin{theorem}
+Any universe of propositions satisfying [[propositional resizing]] is a [[contractible type]].
+\end{theorem}
+
+\begin{proof}
+Given a universe of propositions $\Omega$, the type of all propositions in $\Omega$ is $\Omega$ itself. Then [[propositional resizing]] says that $\Omega$ has an element $\Omega':\Omega$ such that its type reflection is $\Omega$ itself. This implies that $\Omega$ itself a [[mere proposition]] by definition of universe of proposiions, which implies that $\Omega$ is a contractible type by the element $\Omega':\Omega$ and the fact that for all other elements $P:\Omega$, $P = \Omega'$. 
+\end{proof}
+
+\begin{theorem}
+Any universe of propositions $\Omega$ closed under the [[empty type]] does not satisfy [[propositional resizing]]. 
+\end{theorem}
+
+\begin{proof}
+Suppose that $\Omega$ is closed under the empty type $\emptyset$ represented in $\Omega$ by the element $\bot:\Omega$, and satisfies [[propositional resizing]]. Then one has that $\bot = \Omega'$ since $\Omega$ is a [[mere proposition]], and by transport one has $\emptyset \simeq \Omega$, but since $\Omega$ is contractible by propositional resizing, the empty type is also contractible, which is [[false]]. 
+\end{proof}
+
+\begin{theorem}
+The [[universe of all propositions]] $\mathrm{Prop}$ does not satisfy [[propositional resizing]]. 
+\end{theorem}
+
 ## Categorical semantics
 
 The [[categorical semantics]] of the type of all propositions is the [[subobject classifier]]. 
@@ -431,5 +459,26 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 [[!redirects weak Tarski types of all propositions]]
 [[!redirects strict Tarski type of all propositions]]
 [[!redirects strict Tarski types of all propositions]]
+
+[[!redirects universe of all propositions]]
+[[!redirects universes of all propositions]]
+[[!redirects weak universe of all propositions]]
+[[!redirects weak universes of all propositions]]
+[[!redirects strict universe of all propositions]]
+[[!redirects strict universes of all propositions]]
+
+[[!redirects Russell universe of all propositions]]
+[[!redirects Russell universes of all propositions]]
+[[!redirects weak Russell universe of all propositions]]
+[[!redirects weak Russell universes of all propositions]]
+[[!redirects strict Russell universe of all propositions]]
+[[!redirects strict Russell universes of all propositions]]
+
+[[!redirects Tarski universe of all propositions]]
+[[!redirects Tarski universes of all propositions]]
+[[!redirects weak Tarski universe of all propositions]]
+[[!redirects weak Tarski universes of all propositions]]
+[[!redirects strict Tarski universe of all propositions]]
+[[!redirects strict Tarski universes of all propositions]]
 
 [[!redirects Prop]]
