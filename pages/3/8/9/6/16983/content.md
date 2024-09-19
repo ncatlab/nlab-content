@@ -46,6 +46,7 @@ These taboos are unprovable in (constructive) [[weakly predicative mathematics]]
 * [[coinductive types]]
 * [[propositional resizing]]
 * [[type of all propositions]]
+* [[impredicative polymorphism]]
 
 ### Strongly predicative taboos
 
