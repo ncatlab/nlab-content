@@ -22,6 +22,10 @@ Expositions:
 
 * [[Grigorios Giotopoulos]], *Towards Non-Perturbative Lagrangian Field Theory via the Topos of Smooth Sets*, [talk at](M-Theory+and+Mathematics#Giotopoulos2024) *[[M-Theory and Mathematics]]*, [[CQTS]] (Jan 2024) &lbrack;video:[kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_z8xmdmu5?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_z8xmdmu5)&rbrack;
 
+* [[Grigorios Giotopoulos]]: *Sheaf Topos Theory as a setting for Physics*, talk at *[Workshop on Noncommutative and Generalized Geometry in String Theory](http://www.physics.ntua.gr/corfu2024/nc.html)*, Corfu Summer Institute (2024) &lbrack;[[Giotopoulos-ToposTheoryForPhysics.pdf:file]]&rbrack;
+  > (also on [[super smooth sets]])
+
+
 
 
 
