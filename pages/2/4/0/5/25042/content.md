@@ -18,6 +18,8 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{t
 
 * Weak function extensionality is equivalent to [[function extensionality]]. 
 
+* In the presence of a [[universe of all propositions]] $\Omega$, weak function extensionality is equivalent to [[impredicative polymorphism]] for $\Omega$. 
+
 ## See also
 
 * [[function extensionality]]
