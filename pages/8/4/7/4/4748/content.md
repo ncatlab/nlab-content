@@ -772,3 +772,7 @@ Understanding [[higher parallel transport]] of [[circle n-bundles with connectio
 
 [[!redirects higher volume holonomy]]
 [[!redirects higher volume holonomies]]
+
+
+[[!redirects higher dimensional parallel transport]]
+[[!redirects higher dimensional holonomy]]
