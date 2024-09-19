@@ -1,6 +1,16 @@
-Physicist, co-founder of [[perturbative quantum field theory]] (see [[Schwinger-Tomonaga-Feynman-Dyson]])
 
-* [webpage](http://www.sns.ias.edu/dyson)
+
+Freeman Dyson (1923-020) was a physicist, co-founder of [[perturbative quantum field theory]] (cf. *[[Schwinger-Tomonaga-Feynman-Dyson]]*).
+
+* [institute page](https://www.ias.edu/sns/dyson)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Freeman_Dyson)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=8rO77FUAAAAJ&hl=en)
+
+* [MacTutor biography page](https://mathshistory.st-andrews.ac.uk/Biographies/Dyson/)
+
+* *Freeman Dyson* interviews at *Web Of Stories* [YT playlist](https://www.youtube.com/playlist?list=PLVV0r6CmEsFzDA6mtmKQEgWfcIu49J4nN)
 
 ## selected writings
 
