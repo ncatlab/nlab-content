@@ -33,6 +33,13 @@ On [[extended super Minkowski spacetimes]] in the language of the  [[D'Auria-Fre
 * C. Chrysso&#8204;malakos, [[José de Azcárraga]], [[José M. Izquierdo]], C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_, Nucl. Phys. B **567** (2000) 293-330  &lbrack;[arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137), <a href="https://doi.org/10.1016/S0550-3213(99)00512-X">doi:10.1016/S0550-3213(99)00512-X</a>&rbrack;
 
 
+On the [[M-algebra]] and [[D=11 supergravity]]:
+
+* {#BandosAzcarragaIzquierdoPiconVarela04} [[Igor Bandos]], [[José de Azcárraga]], [[José M. Izquierdo]], Moises Picon, [[Oscar Varela]]: _On the underlying gauge group structure of D=11 supergravity_, Phys. Lett.B **596** (2004) 145-155 \[<a href="https://doi.org/10.1016/j.physletb.2004.06.079">doi:10.1016/j.physletb.2004.06.079</a>, [arXiv:hep-th/0406020](http://arxiv.org/abs/hep-th/0406020)\]
+
+* {#BdAPV05} [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, [[Oscar Varela]]: _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. **317** (2005) 238-279 \[<a href="https://doi.org/10.1016/j.aop.2004.11.016">doi:10.1016/j.aop.2004.11.016</a>, [arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100)\]
+
+
 
 
 ## Related entries
