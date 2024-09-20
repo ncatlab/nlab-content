@@ -113,9 +113,10 @@ Generalization to exceptional [[super-spacetimes]]:
 
 * Daniel Butter, [[Henning Samtleben]], [[Ergin Sezgin]], _$E_{7(7)}$-Exceptional Field Theory in Superspace_ ([arXiv:1811.00038](https://arxiv.org/abs/1811.00038))
 
-Application to [[AdS4/CFT3]]:
+On [[AdS4/CFT3 duality]] via [[exceptional field theory]] and [[super Chern-Simons theory]]:
 
-* Oscar Varela, _Super-Chern-Simons spectra from Exceptional Field Theory_ ([arXiv:2010.09743](https://arxiv.org/abs/2010.09743))
+* [[Oscar Varela]]: _Super-Chern-Simons spectra from Exceptional Field Theory_, J. High Energ. Phys. **2021** 283 (2021) &lbrack;[arXiv:2010.09743](https://arxiv.org/abs/2010.09743), <a href="https://doi.org/10.1007/JHEP04(2021)283">doi:10.1007/JHEP04(2021)283</a>&rbrack;
+
 
 See also:
 
