@@ -34,6 +34,14 @@ On [[extended super Minkowski spacetimes]] in the language of the  [[D'Auria-Fre
 
 * [[José de Azcárraga]], [[Jerome Gauntlett]], J. M. Izquierdo, [[Paul Townsend]], _Topological extensions of the supersymmetry algebra for extended objects_, Phys. Rev. Lett. __63__ (1989) 2443 ([spire](https://inspirehep.net/record/26393?ln=en))
 
+On the [[M-algebra]] and [[D=11 supergravity]]:
+
+* {#BandosAzcarragaIzquierdoPiconVarela04} [[Igor Bandos]], [[José de Azcárraga]], [[José M. Izquierdo]], Moises Picon, [[Oscar Varela]]: _On the underlying gauge group structure of D=11 supergravity_, Phys. Lett.B **596** (2004) 145-155 \[<a href="https://doi.org/10.1016/j.physletb.2004.06.079">doi:10.1016/j.physletb.2004.06.079</a>, [arXiv:hep-th/0406020](http://arxiv.org/abs/hep-th/0406020)\]
+
+* {#BdAPV05} [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, [[Oscar Varela]]: _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. **317** (2005) 238-279 \[<a href="https://doi.org/10.1016/j.aop.2004.11.016">doi:10.1016/j.aop.2004.11.016</a>, [arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100)\]
+
+
+
 category: people
 
 [[!redirects Jose M. Izquierdo]]
