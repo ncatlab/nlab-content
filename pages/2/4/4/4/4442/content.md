@@ -452,7 +452,7 @@ See also:
 
 Via [[exceptional field theory]]:
 
-* Oscar Varela, _Super-Chern-Simons spectra from Exceptional Field Theory_ ([arXiv:2010.09743](https://arxiv.org/abs/2010.09743))
+* [[Oscar Varela]]: _Super-Chern-Simons spectra from Exceptional Field Theory_, J. High Energ. Phys. **2021** 283 (2021) &lbrack;[arXiv:2010.09743](https://arxiv.org/abs/2010.09743), <a href="https://doi.org/10.1007/JHEP04(2021)283">doi:10.1007/JHEP04(2021)283</a>&rbrack;
 
 
 ### Introductions and surveys
