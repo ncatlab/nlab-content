@@ -33,10 +33,15 @@ This is ([CruttwellShulman, def. 7.6](#CruttwellShulman)).
 
 ## References
 
-
-
 * {#CruttwellShulman} [[Geoff Cruttwell]], [[Mike Shulman]], Section 7 of: _A unified framework for generalized multicategories_, &lbrack;[arXiv:0907.2460](http://arxiv.org/abs/0907.2460)&rbrack;
 
+The [[formal category theory]] of [[monads]] and [[adjunctions]] (and more generally [[relative monads]] and [[relative adjunctions]]) is developed in:
+
+* [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, Journal of Pure and Applied Algebra 107676. (2024) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
+
+* {#AM23b} [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_ (2023) &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
+
+* [[Nathanael Arkor]], [[Dylan McDermott]], _The pullback theorem for relative monads_ (2024) &lbrack;[arXiv:2404.01281](https://arxiv.org/abs/2404.01281)&rbrack;
 
 On a [[string diagram]]-calculus for ([[virtual double category|virtual]]) [[double categories]] with ([[virtual equipment|virtual]]) [[2-category equipped with proarrows|pro-arrow equipments]]:
 
