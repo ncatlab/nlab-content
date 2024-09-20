@@ -1,4 +1,5 @@
 
+\tableofcontents
 
 ## Idea
 
