@@ -44,19 +44,19 @@ to flatness. The [[Weyl tensor]] is the specific instance of $\kappa_H$ in confo
 
 ## References
 
-General discussion includes
+General discussion:
 
-* [[Andreas Čap]], H. Schichl, _Parabolic Geometries and Canonical Cartan Connections_ Hokkaido Math. J. 29 no.3 (2000), 453-505
+* [[Andreas Čap]], H. Schichl: _Parabolic Geometries and Canonical Cartan Connections_, Hokkaido Math. J. **29** 3 (2000) 453-505 &lbrack;[pdf](https://www.mat.univie.ac.at/~herman/papers/esi450.pdf)&rbrack;
 
-* {#Cap05} [[Andreas Čap]], _Two constructions with parabolic geometries_, [arXiv:0504389](http://arxiv.org/abs/math/0504389)
+* {#Cap05} [[Andreas Čap]]: *Two constructions with parabolic geometries* &lbrack;[arXiv:0504389](http://arxiv.org/abs/math/0504389)*rbrack;
 
-* [[Felipe Leitner]], part 1, section 5 of _Applications of Cartan and Tractor Calculus to Conformal and CR-Geometry_, 2007 ([pdf](http://elib.uni-stuttgart.de/opus/volltexte/2009/3922/pdf/HabilKopf.pdf))
+* [[Felipe Leitner]], part 1, section 5 of _Applications of Cartan and Tractor Calculus to Conformal and CR-Geometry_ (2007)  &lbrack;[pdf](http://elib.uni-stuttgart.de/opus/volltexte/2009/3922/pdf/HabilKopf.pdf)&rbrack;
 
-* {#CapSlovak09} [[Andreas Čap]], [[Jan Slovák]],  _Parabolic Geometries I -- Background and General Theory_, AMS 2009
+* {#CapSlovak09} [[Andreas Čap]], [[Jan Slovák]]: *Parabolic Geometries I -- Background and General Theory*, AMS (2009) &lbrack;[ams:surv-154](https://bookstore.ams.org/surv-154)&rbrack;
 
-Relation to [[twistor spaces]] is discussed in
+Relation to [[twistor spaces]]:
 
-* {#Cap01} [[Andreas Čap]], _Correspondence spaces and twistor spaces for parabolic geometries_, J. Reine Angew. Math. 582 (2005) 143-172 ([arXiv:math/0102097](http://arxiv.org/abs/math/0102097))
+* {#Cap01} [[Andreas Čap]]: *Correspondence spaces and twistor spaces for parabolic geometries*, J. Reine Angew. Math. **582** (2005) 143-172 &lbrack;[arXiv:math/0102097](http://arxiv.org/abs/math/0102097)&rbrack;
 
 Discussion of [[BGG sequences]] in parabolic geometry includes
 
