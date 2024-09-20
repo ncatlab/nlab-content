@@ -249,6 +249,10 @@ Relation to the paracyclic category:
 
 * {#NS} [[Thomas Nikolaus]], [[Peter Scholze]], *On topological cyclic homology* ([arxiv:1707.01799](https://arxiv.org/abs/1707.01799))
 
+From a topological perspective
+
+* [[Julie Bergner|Julia E. Bergner]], Walker H. Stern, _Cyclic Segal Spaces_, arXiv:2409.11945 (2024). ([abstract](https://arxiv.org/abs/2409.11945))
+
 See also 
 
 * Wikipedia, _[Cyclic category](https://en.wikipedia.org/wiki/Cyclic_category)_
