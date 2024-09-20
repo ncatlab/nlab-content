@@ -734,6 +734,10 @@ An abstract algebraic model of the algebra of Chern's characteristic classes and
 
 * Israel M. Gelfand, Mikhail M. Smirnov, _The algebra of Chern-Simons classes, the Poisson bracket on it, and the action of the gauge group_,  Lie theory and geometry, 261--288, Progr. Math. __123__, Birkh&#228;user 1994; _Chern-Simons classes and cocycles on the Lie algebra of the gauge group_, The Gelfand Mathematical Seminars, 1993--1995,  101--122, Birkh&#228;user 1996.
 
+On the geometric interpretation of the Chern-Simons invariant for more general principal bundles:
+
+* Andreas Čap, Keegan J. Flood, Thomas Mettler. *Flat extensions and the Chern-Simons 3-form* (2024). ([arXiv:2409.12811](https://arxiv.org/abs/2409.12811)).
+
 [[!redirects Chern-Simons forms]]
 
 [[!redirects Chern-Simons 3-form]]
