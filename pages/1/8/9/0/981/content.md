@@ -251,7 +251,7 @@ Relation to the paracyclic category:
 
 From a topological perspective
 
-* [[Julie Bergner|Julia E. Bergner]], Walker H. Stern, _Cyclic Segal Spaces_, arXiv:2409.11945 (2024). ([abstract](https://arxiv.org/abs/2409.11945))
+* [[Julia E. Bergner]], Walker H. Stern: *Cyclic Segal Spaces* &lbrack;[arXiv:2409.11945](https://arxiv.org/abs/2409.11945)&rbrack;
 
 See also 
 
