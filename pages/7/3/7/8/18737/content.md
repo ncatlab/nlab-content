@@ -41,7 +41,7 @@ $$\frac{\Gamma}{\Gamma \vdash 0:I} \qquad \frac{\Gamma}{\Gamma \vdash 1:I}$$
 
 Equality of dimensions in the interval is a face formula:
 
-$$\frac{\Gamma \vdash r:I \quad \Gamma \vdash s:I}{\Gamma \vdash r = s:I}$$
+$$\frac{\Gamma \vdash r:I \quad \Gamma \vdash s:I}{\Gamma \vdash r = s:F}$$
 
 and face formulas are closed under disjunction
 
