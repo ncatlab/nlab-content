@@ -92,6 +92,8 @@ Connections to [[simplicial sets]] are in:
 
 * [[Alain Connes]], Caterina Consani, _Cyclic structures and the topos of simplicial sets_, [1309.0394](http://arxiv.org/abs/1309.0394)
 
+* [[Julie Bergner|Julia E. Bergner]], Walker H. Stern, _Cyclic Segal Spaces_, arXiv:2409.11945 (2024). ([abstract](https://arxiv.org/abs/2409.11945))
+
 The identification of the category of cyclic sets as the [[classifying topos]] for [[abstract circles]] is due to 
 
 * {#Moerdijk96} [[Ieke Moerdijk]], _Cyclic sets as a classifying topos_, 1996 ([[MoerdijkCyclic.pdf:file]])
