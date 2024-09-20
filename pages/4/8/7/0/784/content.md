@@ -230,5 +230,9 @@ The _invertible_ case of Segal spaces, hence models for [[groupoid objects in an
 
 * [[Julia Bergner]], _Adding inverses to diagrams II: Invertible homotopy theories are spaces_, Homology, Homotopy and Applications, Vol. 10 (2008), No. 2, pp.175-193. ([web](http://www.intlpress.com/hha/v10/n2/a9/), [arXiv:0710.2254](http://arxiv.org/abs/0710.2254))
 
+On [[cyclic set|cyclic]] Segal spaces:
+
+* [[Julia E. Bergner]], Walker H. Stern: *Cyclic Segal Spaces* &lbrack;[arXiv:2409.11945](https://arxiv.org/abs/2409.11945)&rbrack;
+
 
 [[!redirects Segal spaces]]
