@@ -37,6 +37,13 @@ On [[type II supergravity]]:
 
 * {#BNS04} [[Igor Bandos]], [[Alexei Nurmagambetov]], [[Dmitri Sorokin]], _Various Faces of Type IIA Supergravity_, Nucl. Phys. B676 (2004) 189-228 ([arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153))
 
+On the [[M-algebra]] and [[D=11 supergravity]]:
+
+* {#BandosAzcarragaIzquierdoPiconVarela04} [[Igor Bandos]], [[José de Azcárraga]], [[José M. Izquierdo]], Moises Picon, [[Oscar Varela]]: _On the underlying gauge group structure of D=11 supergravity_, Phys. Lett.B **596** (2004) 145-155 \[<a href="https://doi.org/10.1016/j.physletb.2004.06.079">doi:10.1016/j.physletb.2004.06.079</a>, [arXiv:hep-th/0406020](http://arxiv.org/abs/hep-th/0406020)\]
+
+* {#BdAPV05} [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, [[Oscar Varela]]: _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. **317** (2005) 238-279 \[<a href="https://doi.org/10.1016/j.aop.2004.11.016">doi:10.1016/j.aop.2004.11.016</a>, [arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100)\]
+
+
 On the [[superembedding formalism]] for [[superstrings]] in [[super AdS spacetime]]:
 
 * [[Igor A. Bandos]]: *Superembedding approach to superstring in $AdS_5 \times S^5$ superspace*, in: *Fundamental Interactions* (2009) 303-334 &lbrack;[arXiv:0812.0257](https://arxiv.org/abs/0812.0257), [doi:10.1142/9789814277839_0018](https://doi.org/10.1142/9789814277839_0018)&rbrack;
