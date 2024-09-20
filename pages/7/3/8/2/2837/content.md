@@ -24,10 +24,6 @@ On [[model categories]] presenting [[(infinity,0)-categories|$(\infty,0)$-catego
 
 * [[Julia E. Bergner]], *Adding inverses to diagrams II: Invertible homotopy theories are spaces*, Homology, Homotopy Appl. **10** 2 (2008) 175-193 &lbrack;[doi:10.4310/HHA.2008.v10.n2.a9](https://dx.doi.org/10.4310/HHA.2008.v10.n2.a9), [doi:0710.2254](https://arxiv.org/abs/0710.2254), erratum:[doi:10.4310/HHA.2012.v14.n1.a15](https://dx.doi.org/10.4310/HHA.2012.v14.n1.a15)&rbrack;
 
-On [[cyclic sets]]
-
-* [[Julie Bergner|Julia E. Bergner]], Walker H. Stern, _Cyclic Segal Spaces_, arXiv:2409.11945 (2024). ([abstract](https://arxiv.org/abs/2409.11945))
-
 On the [[cyclic category]] and [[cyclic set|cyclic]] [[Segal spaces]]:
 
 * [[Julia E. Bergner]], Walker H. Stern: *Cyclic Segal Spaces* &lbrack;[arXiv:2409.11945](https://arxiv.org/abs/2409.11945)&rbrack;
