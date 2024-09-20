@@ -319,7 +319,7 @@ Review:
 
 A discussion from the point of view of [[(∞,1)-topos theory]] is in 
 
-* {#JardineLuo} [[Rick Jardine]], Z. Luo, _Higher order principal bundles_ , K-theory (2004) ([web](http://www.math.uiuc.edu/K-theory/0681/))
+* {#JardineLuo} [[Rick Jardine]], Z. Luo, _Higher order principal bundles_ , K-theory (2004) ([web](https://web.archive.org/web/20050212221131id_/http://www.math.uwo.ca:80/~jardine/papers/cocycles8.pdf))
  
 
 The definition for $n$-gerbes as $n$-truncated and $n$-connected objects (see [[∞-gerbe]]) is in
