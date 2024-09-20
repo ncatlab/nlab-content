@@ -115,20 +115,25 @@ They find (see also [Bandos, Azcarraga, Izquierdo, Picon & Varela 2004](#BandosA
 
 Two versions of a fermionic extension of the Polyvector extensions of $\mathfrak{Iso}(\mathbb{R}^{10,1|32})$ on which the [[M2-brane]] [[Lie algebra cohomology|4-cocycle]] trivializes were first found in
 
-* {#DAuriaFre82} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B **201** (1982) 101-140 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]&rbrack;
+* {#DAuriaFre82} [[Riccardo D'Auria]], [[Pietro Fré]]: _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B **201** (1982) 101-140 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]&rbrack;
 
 
 and then a 1-parameter family of such was discovered in
 
-* {#BandosAzcarragaIzquierdoPiconVarela04} [[Igor Bandos]], [[José de Azcárraga]], [[José M. Izquierdo]], Moises Picon, Oscar Varela, _On the underlying gauge group structure of D=11 supergravity_, Phys. Lett.B **596** (2004) 145-155 \[<a href="https://doi.org/10.1016/j.physletb.2004.06.079">doi:10.1016/j.physletb.2004.06.079</a>, [arXiv:hep-th/0406020](http://arxiv.org/abs/hep-th/0406020)\]
+* {#BandosAzcarragaIzquierdoPiconVarela04} [[Igor Bandos]], [[José de Azcárraga]], [[José M. Izquierdo]], Moises Picon, [[Oscar Varela]]: _On the underlying gauge group structure of D=11 supergravity_, Phys. Lett.B **596** (2004) 145-155 \[<a href="https://doi.org/10.1016/j.physletb.2004.06.079">doi:10.1016/j.physletb.2004.06.079</a>, [arXiv:hep-th/0406020](http://arxiv.org/abs/hep-th/0406020)\]
 
-* {#BdAPV05} [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, Oscar Varela, _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. **317** (2005) 238-279 \[<a href="https://doi.org/10.1016/j.aop.2004.11.016">doi:10.1016/j.aop.2004.11.016</a>, [arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100)\]
+* {#BdAPV05} [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, [[Oscar Varela]]: _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. **317** (2005) 238-279 \[<a href="https://doi.org/10.1016/j.aop.2004.11.016">doi:10.1016/j.aop.2004.11.016</a>, [arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100)\]
 
 That a limiting case of this is given by the [[orthosymplectic super Lie algebra]] $\mathfrak{osp}(1\vert 32)$:
 
 * {#FernandezIzquierdoOlmo15} J. J. Fernandez, [[José M. Izquierdo]], M. A. del Olmo, *Contractions from $osp(1|32) \oplus osp(1|32)$ to the M-theory superalgebra extended by additional fermionic generators*, Nuclear Physics B **897** (2015) 87-97 &lbrack;[arXiv:1504.05946](http://arxiv.org/abs/1504.05946), [doi:10.1016/j.nuclphysb.2015.05.018](https://doi.org/10.1016/j.nuclphysb.2015.05.018)&rbrack;
 
-Further discussion:
+Review and further discussion:
+
+* [[Oscar Varela]]: *Symmetry and holonomy in M Theory*, PhD thesis, Valencia (2006) &lbrack;[arXiv:hep-th/0607088](https://arxiv.org/abs/hep-th/0607088), [hdl:10550/15484](https://hdl.handle.net/10550/15484),  [spire:1397691](https://inspirehep.net/literature/1397691)&rbrack;
+
+
+
 
 * {#AndrianopoliDAuriaRavera16} [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], *Hidden Gauge Structure of Supersymmetric Free Differential Algebras*, JHEP 1608 (2016) 095 &lbrack;[arXiv:1606.07328](https://arxiv.org/abs/1606.07328), <a href=" https://doi.org/10.1007/JHEP08(2016)095">doi:10.1007/JHEP08(2016)095</a>&rbrack;
 
