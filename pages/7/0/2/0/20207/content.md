@@ -1,12 +1,12 @@
 [[!redirects David Myers]]
 
-David Jaz Myers is postdoctoral researcher at [[CQTS]] @ NYU Abu Dhabi.
+
 
 * [personal webpage](http://davidjaz.com/)
 
-* [institute page](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/david-myers.html) at NYU Abu Dhabi
+* [old institute page](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/david-myers.html) at NYU Abu Dhabi
 
-* [old institute page](https://mathematics.jhu.edu/directory/david-myers/) at Johns Hopkins 
+* [older institute page](https://mathematics.jhu.edu/directory/david-myers/) at Johns Hopkins 
 
 
 ## Selected writings
