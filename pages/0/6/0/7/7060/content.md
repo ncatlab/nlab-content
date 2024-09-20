@@ -387,6 +387,8 @@ The [[categorical semantics]] of the type of all propositions is the [[subobject
 
 * [[local propositional resizing]]
 
+* [[impredicative polymorphism]]
+
 * [[impredicative dependent type theory]]
 
 ## References
@@ -460,6 +462,13 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 [[!redirects strict Tarski type of all propositions]]
 [[!redirects strict Tarski types of all propositions]]
 
+[[!redirects Coquand type of all propositions]]
+[[!redirects Coquand types of all propositions]]
+[[!redirects weak Coquand type of all propositions]]
+[[!redirects weak Coquand types of all propositions]]
+[[!redirects strict Coquand type of all propositions]]
+[[!redirects strict Coquand types of all propositions]]
+
 [[!redirects universe of all propositions]]
 [[!redirects universes of all propositions]]
 [[!redirects weak universe of all propositions]]
@@ -480,5 +489,12 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 [[!redirects weak Tarski universes of all propositions]]
 [[!redirects strict Tarski universe of all propositions]]
 [[!redirects strict Tarski universes of all propositions]]
+
+[[!redirects Coquand universe of all propositions]]
+[[!redirects Coquand universes of all propositions]]
+[[!redirects weak Coquand universe of all propositions]]
+[[!redirects weak Coquand universes of all propositions]]
+[[!redirects strict Coquand universe of all propositions]]
+[[!redirects strict Coquand universes of all propositions]]
 
 [[!redirects Prop]]
