@@ -32,7 +32,7 @@ Write $BMod$ for the [[colored operad|colored]] [[symmetric operad]] whose
 
   * if $Y = \mathfrak{a}_*$ and all $X_i = \mathfrak{a}_*$ then again: the set of [[linear orders]] of $n$ elements;
 
-  * if $Y = \mathfrak{n}$: the set of linear orders $\{i_1 \lt \cdots \lt i_n\}$ such that there is exactly one index $i_k$ with $X_{i_k} = \mathfrak{n}$ and $X_{i_j} = \mathfrak{a}_-$ for all $j \lt k$ and $X_{i_j} = \mathfrak{a}_+$ for all $k \gt k$.
+  * if $Y = \mathfrak{n}$: the set of linear orders $\{i_1 \lt \cdots \lt i_n\}$ such that there is exactly one index $i_k$ with $X_{i_k} = \mathfrak{n}$ and $X_{i_j} = \mathfrak{a}_-$ for all $j \lt k$ and $X_{i_j} = \mathfrak{a}_+$ for all $j \gt k$.
 
 * [[composition]] is given by the composition of linear orders as for the [[associative operad]].
 
