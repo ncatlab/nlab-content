@@ -25,6 +25,8 @@ A textbook on [[differential geometry]], including an account of [[Schouten–Ni
 
 * [[generalized smooth algebra|C∞-ring]]
 
+* [[Milnor's exercise]]
+
 category: people
 
 [[!redirects Peter W. Michor]]
