@@ -92,7 +92,7 @@ Further discussion:
 
 * [[Igor Bandos]], Jerzy Lukierski, Christian Preitschopf, [[Dmitri Sorokin]], _OSp supergroup manifolds, superparticles and supertwistors_, Phys.Rev.D61:065009, 2000 ([arXiv:hep-th/9907113](https://arxiv.org/abs/hep-th/9907113))
 
-* {#BergshoessProeyen00} [[Eric Bergshoeff]], [[Antoine Van Proeyen]], _The many faces of $OSp(1|32)$_, Class. Quantum Grav. 17 (2000) 3277&#8211;3303 ([arXiv:hep-th/0003261](http://arxiv.org/abs/hep-th/0003261))
+* {#BergshoessProeyen00} [[Eric Bergshoeff]], [[Antoine Van Proeyen]]: *The many faces of $OSp(1|32)$*, Class. Quantum Grav. **17** (2000) 3277-3303 &lbrack;[arXiv:hep-th/0003261](http://arxiv.org/abs/hep-th/0003261), [doi:10.1088/0264-9381/17/16/312](https://iopscience.iop.org/article/10.1088/0264-9381/17/16/312)&rbrack;
 
 * [[Horatiu Nastase]], _Towards a Chern-Simons M theory of $OSp(1\vert 32) \times OSp(1\vert 32)$_ ([arXiv:hep-th/0306269](https://arxiv.org/abs/hep-th/0306269))
 
