@@ -1,7 +1,7 @@
 
-Daniel Freed is a mathematician at University of Texas, Austin.
+Daniel Freed is a mathematician at Harvard University.
 
-* [website](http://www.ma.utexas.edu/users/dafr/)
+* [website](https://people.math.harvard.edu/~dafr/)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Dan_Freed)
 
