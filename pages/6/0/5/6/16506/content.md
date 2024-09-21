@@ -489,7 +489,7 @@ For $B$ a [[set]], the [[Kleisli category]] for the $B$-reader monad has $B$-[[t
 ### General modules over the reader monad
  {#AlgebrasForTheReaderMonad}
 
-The reader monad on [[Set]] (and similar) does not generally arise from a [[monadic adjunction]] and its general [[algebra over a monad|algebras]] may not be easily characterizable. (See also [MO:a/868317](https://math.stackexchange.com/a/868317/58526).)
+In general, the [[algebra over a monad|algebras]] for the function monad are not easily characterizable. (See also [MO:a/868317](https://math.stackexchange.com/a/868317/58526).)
 
 A special case is when $W$ is a 2 element set, where the $W$-reader algebras on $Set$ correspond to [[idempotent]] [[semigroups]], also known as _[[rectangular band|rectangular bands]]_. 
 
