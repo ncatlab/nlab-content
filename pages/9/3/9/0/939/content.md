@@ -76,7 +76,7 @@ monads [[internalization|internal]] to this 2-category of monads.
 
 In particular, distributive laws themselves make a 2-category. 
 
-There are other variants like distributive laws between a monad and an [[endofunctor]], "mixed" distributive laws between a monad and a comonad (the variants for algebras and coalgebras called [[entwining structures]]), distributive laws between actions of two different monoidal categories on the same category, for [[PROP]]s and so on. 
+There are other variants like distributive laws between a monad and an [[endofunctor]], **mixed distributive laws** between a monad and a comonad (the variants for algebras and coalgebras called [[entwining structures]]), distributive laws between actions of two different monoidal categories on the same category, for [[PROP]]s and so on. 
 
 Having a distributive law $l$ from one monad to another enables to define the composite monad $\mathbf T\circ_l\mathbf P$. This correspondence extends to a 2-functor $\mathrm{comp} \,\colon\, \mathrm{Mnd}(\mathrm{Mnd}(C))\to\mathrm{Mnd}(C)$. An analogue of this 2-functor in the mixed setup is a [[2-functor]] from the bicategory of entwinings to a bicategory of [[corings]].
 
@@ -293,6 +293,8 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 * [[T. Brzeziński]], [[S. Majid]], _Coalgebra bundles_, Comm. Math. Phys.  **191** 2  (1998) 467--492 &lbrack;[arXiv:q-alg/9602022](http://arxiv.org/abs/q-alg/9602022)&rbrack;
 
+For a thorough study of mixed distributive laws, see:
+
 * {#PowerWatanabe99} [[John Power]], [[Hiroshi Watanabe]], *Distributivity for a monad and a comonad*, Electronic Notes in Theoretical Computer Science **19** (1999) 102 &lbrack;<a href="https://doi.org/10.1016/S1571-0661(05)80271-3">doi:10.1016/S1571-0661(05)80271-3</a>, [[PowerWatanabe-Distributivity.pdf:file]]&rbrack;
 
 
@@ -317,7 +319,6 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 * [[Zoran Škoda]], _Some equivariant constructions in noncommutative geometry_, Georgian Math. J. 16 (2009) 1; 183--202 ([arXiv:0811.4770](http://front.math.ucdavis.edu/0811.4770))
 
 * Bachuki Mesablishvili, [[Robert Wisbauer]], *Bimonads and Hopf monads on categories*, Journal of K-Theory **7** 2 (2011) 349-388  &lbrack;[arXiv:0710.1163](https://arxiv.org/abs/0710.1163), [doi:10.1017/is010001014jkt105](https://doi.org/10.1017/is010001014jkt105)&rbrack;
-
 
 * [[Francisco Marmolejo]], Adrian Vazquez-Marquez, *No-iteration mixed distributive laws*, Mathematical Structures in Computer Science **27** 1 (2017) 1-16 &lbrack;[doi:10.1017/S0960129514000656](https://doi.org/10.1017/S0960129514000656)&rbrack;
 
