@@ -293,6 +293,10 @@ For many standard choices of [[tensor products]] in the presence of [[direct sum
 
 * [[T. Brzeziński]], [[S. Majid]], _Coalgebra bundles_, Comm. Math. Phys.  **191** 2  (1998) 467--492 &lbrack;[arXiv:q-alg/9602022](http://arxiv.org/abs/q-alg/9602022)&rbrack;
 
+For a study of distributive laws between monads and (pointed) endofunctors, see:
+
+* Marina Lenisa, John Power, and Hiroshi Watanabe, _Distributivity for endofunctors, pointed and co-pointed endofunctors, monads and comonads_, Electronic Notes in Theoretical Computer Science 33 (2000): 230-260.
+
 For a thorough study of mixed distributive laws, see:
 
 * {#PowerWatanabe99} [[John Power]], [[Hiroshi Watanabe]], *Distributivity for a monad and a comonad*, Electronic Notes in Theoretical Computer Science **19** (1999) 102 &lbrack;<a href="https://doi.org/10.1016/S1571-0661(05)80271-3">doi:10.1016/S1571-0661(05)80271-3</a>, [[PowerWatanabe-Distributivity.pdf:file]]&rbrack;
@@ -335,6 +339,10 @@ On distributive laws for [[relative monads]]:
 Invertible distributive laws are considered in Lemma 4.12 of:
 
 * [[Bob Rosebrugh]], [[Richard J. Wood]], *Distributive Adjoint Strings*, Theory and Applications of Categories, **1** 6 (1995) 119-145 &lbrack;[tac:1-06](http://www.tac.mta.ca/tac/volumes/1995/n6/1-06abs.html)&rbrack;
+
+* Stefano Kasangian, [[Stephen Lack]], and [[Enrico Vitale]]. _Coalgebras, braidings, and distributive laws_, Theory and Applications of Categories 13.8 (2004): 129-146. ([html](https://www.emis.de/journals/TAC/volumes/13/8/13-08abs.html))
+
+* Alain Bruguieres and Alexis Virelizier, _Quantum double of Hopf monads and categorical centers_, Transactions of the American Mathematical Society 364.3 (2012): 1225-1279.
 
 [[!redirects distributive laws]]
 [[!redirects mixed distributive law]]
