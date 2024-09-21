@@ -1,5 +1,12 @@
 
-* [webpage](http://itf.fys.kuleuven.be/~toine/home.htm)
+* [personal page](http://itf.fys.kuleuven.be/~toine/home.htm)
+
+* [InSpire page](https://inspirehep.net/authors/992727)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=Mv9d7cEAAAAJ&hl=en)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=98824)
+
 
 ## Selected writings:
 
@@ -9,6 +16,9 @@ On [[super p-brane]] [[sigma models]] perturbed around the [[asymptotic boundary
 
 * [[Piet Claus]], [[Renata Kallosh]], J. Kumar, [[Paul K. Townsend]], [[Antoine Van Proeyen]], *Conformal Theory of M2, D3, M5 and "D1+D5" Branes*, JHEP 9806 (1998) 004 &lbrack;[arXiv:hep-th/9801206](https://arxiv.org/abs/hep-th/9801206), [doi:10.1088/1126-6708/1998/06/004](https://doi.org/10.1088/1126-6708/1998/06/004)&rbrack;
 
+On [[Clifford algebra]] and [[spinors]] with application to [[supersymmetry]]:
+
+* [[Antoine Van Proeyen]]: *Tools for supersymmetry*, Proceedings of *[Spring School on Quantum Field Theory. Supersymmetries and Superstrings](https://inspirehep.net/conferences/972589), Calimanesti, Romania, April 24-30, 1998*, Ann. U. Craiova Phys. **9** I (1999) 1-48 &lbrack;[arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030), [spire:508121](https://inspirehep.net/literature/508121)&rbrack;
 
 
 Formulation of ([[Lagrangian densities]] for) [[type II supergravity]] with "democratic"/"[[pregeometric RR-field|pregeometric]]" [[RR-fields]] subject to [[self-dual higher gauge theory|self-duality]]:
