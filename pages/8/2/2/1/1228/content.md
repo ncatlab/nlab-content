@@ -104,7 +104,7 @@ $$
   \,.
 $$
 
-Yet another way to state this is as a [[colimit]] over the [[comma category]] $(Y,F)$, for $Y$ the [[Yoneda embedding]]:
+Yet another way to state this is as a [[colimit]] over the [[comma category]] $(Y,F)$, for $Y$ the [[Yoneda embedding]] (the [[category of elements]] of $F$):
 
 $$
   F \simeq colim_{(U \to F) \in (Y,F)} Y(U)
