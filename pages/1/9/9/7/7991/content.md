@@ -64,9 +64,9 @@ $$
   \,.
 $$
 
-e.g. ([Robinson-Rawnsley 89, p. 19](#RobinsonRawnsley89), [Derezi&#324;ski-G&#233;rard 13, def. 10.24](#DerezinskiG&#233;rard13))
+(e.g. [Robinson & Rawnsley 1989 p. 19](#RobinsonRawnsley89), [Derezi&#324;ski & G&#233;rard 20 13 def. 10.24](#DerezinskiG&#233;rard13))
 
-Alternatively, there is again a characterization by [[quadratic Hamiltonians]] ([Robinson-Rawnsley 89, theorem (2.4)](#RobinsonRawnsley89)
+Alternatively, there is again a characterization by [[quadratic Hamiltonians]] ([Robinson & Rawnsley 1989 theorem (2.4)](#RobinsonRawnsley89))
 
 ### Circle extension $MU^c$ of $U$
  {#CirclExtensionMUc}
