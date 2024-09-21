@@ -40,7 +40,7 @@ where
 
 The composite $Flag \circ U$ is called the **subdivision** $Sd$; it is an endofunctor of $SimpComplex$.  A vertex of $Sd(X)$ is a simplex of $X$. 
 
-Let $\alpha_X : X \to Sd(X)$ be a morphism of simplicial complexes that sends a vertex $v$ of $X$ to the vertex $\{v\}$ of $Sd(X)$. Then ${|f|}: {|X|}\xrightarrow{\cong} {|Sd(X)|}$ is an isomorphism, where $|-|$ is the usual [[geometric realization]] of simplicial complexes. In terms of categories, $\alpha$ is a natural transformation from the identity to the endofunctor $Sd$ whose geometric realization is a natural isomorphism.
+There is an isomorphism ${|X|} \cong {|Sd(X)|}$, where $|-|$ is the usual [[geometric realization]] of simplicial complexes.
 
 This is what it looks like for $X$ the 2-simplex.
  
