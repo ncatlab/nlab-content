@@ -1,5 +1,5 @@
 
-> See also _[[quaternionic unitary group]]_.
+> See also _[[quaternionic unitary group]]_ for the compact form.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -31,7 +31,7 @@ $$
   \,.
 $$
 
-The symplectic group should not be confused with the [[compact symplectic group]] $Sp(n)$, which is the [[maximal compact subgroup]] of the _complex_ symplectic group $Sp(2n,\mathbb{C})$.
+The real symplectic group $Sp(2n,\mathbb{R})$ should not be confused with the *[[compact symplectic group]]* $Sp(n)$, which is the [[maximal compact subgroup]] of the _complex_ symplectic group $Sp(2n,\mathbb{C})$.
 
 ## Properties
 
@@ -56,6 +56,8 @@ The unique connected [[double cover]] obtained from this is the [[metaplectic gr
 
 ## Related concepts
 
+* [[conformal symplectic group]]
+
 * [[affine symplectic group]]
 
 * [[metaplectic group]]
@@ -67,6 +69,7 @@ The unique connected [[double cover]] obtained from this is the [[metaplectic gr
 * A higher analog of the symplectic group in [[2-plectic geometry]] is the [[exceptional Lie group]] [[G₂]] (see there for more details).
 
 * [[quaternionic unitary group]]
+
 
 ## References
 	
