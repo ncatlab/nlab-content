@@ -192,7 +192,7 @@ $$
 
 =--
 
-In the general perspective of [[(∞,1)-topos theory]] this appears as  ([JardineLuo, theorem 23](#JardineLuo)). 
+In the general perspective of [[(∞,1)-topos theory]] this appears as  ([Jardine & Luo, theorem 23](#JardineLuo)). 
 
 
 +-- {: .num_cor}
@@ -317,9 +317,9 @@ Review:
 * [[Ieke Moerdijk]], _Introduction to the language of stacks and gerbes_ ([arXiv:math/0212266](http://arxiv.org/abs/math/0212266))
 
 
-A discussion from the point of view of [[(∞,1)-topos theory]] is in 
+A discussion from via [[model structure on simplicial presheaves]]:
 
-* {#JardineLuo} [[Rick Jardine]], Z. Luo, _Higher order principal bundles_ , K-theory (2004) ([web](https://web.archive.org/web/20050212221131id_/http://www.math.uwo.ca:80/~jardine/papers/cocycles8.pdf))
+* [[John F. Jardine]], Z. Luo: *Higher order principal bundles*, Mathematical Proceedings of the Cambridge Philosophical Society **140** 2 (2006) 221-243 &lbrack;[doi:10.1017/S0305004105008911](https://doi.org/10.1017/S0305004105008911), web.archive:[pdf](https://web.archive.org/web/20050212221131id_/http://www.math.uwo.ca:80/~jardine/papers/cocycles8.pdf)&rbrack;
  
 
 The definition for $n$-gerbes as $n$-truncated and $n$-connected objects (see [[∞-gerbe]]) is in
