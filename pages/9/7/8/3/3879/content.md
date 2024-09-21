@@ -102,7 +102,7 @@ The version of this belief in the necessity of deep mathematics for physics to b
 
 * {#Dirac78} [[Paul Dirac]], _The mathematical foundations of quantum theory_, pages 1-8 in A. R. Marlow (ed.) _Mathematical Foundations of Quantum Theory_, Ac. Press 1978
 
-  > "One should keep the need for a sound mathematical basis dominating one’s search  for a new theory. Any physical or philosophical ideas that one has must be adjusted to  fit the mathematics. Not the way round. 
+  > "One should keep the need for a sound mathematical basis dominating one’s search  for a new theory. Any physical or philosophical ideas that one has must be adjusted to fit the mathematics. Not the way round. 
 
 > Too many physicists are inclined to start from some preconceived physical ideas  and then to try to develop them and a mathematical scheme that incorporates them.  Such a line of attack is unlikely to lead to success. One runs into difficulties and no  reasonable way out of them. One ought then to realize that one's whole line of approach  is wrong and to seek a new starting point with a sound mathematical basis."
 
@@ -120,6 +120,9 @@ The version of this belief in the necessity of deep mathematics for physics to b
   _Models in Mechanics_, Akad&eacute;miai Kiad&oacute;, 1986 ([djvu](http://szofi.elte.hu/~szaboa/MatolcsiKonyvek/djvu/konyv/mechanics_ocr.djvu))
 
 * [[Walter Thirring]], *A Course in Mathematical Physics* -- 1 *Classical Dynamical Systems* and 2 *Classical Field Theory*, Springer (1988, 1992) &lbrack;[doi:10.1007/978-1-4684-0517-0](https://doi.org/10.1007/978-1-4684-0517-0)&rbrack;
+
+* [[Igor Dolgachev]]: *A brief introduction to Physics for Mathematicians*, lecture notes, University of Michigan (1995/96) &lbrack;[pdf](https://dept.math.lsa.umich.edu/~idolga/physicsbook.pdf), [[Dolgachev-IntroMathPhys.pdf:file]]&rbrack;
+
 
 * {#Hassani99} [[Sadri Hassani]], *Mathematical Physics -- A Modern Introduction to Its Foundations* Springer 1999, 2002, 20013 ([ISBN:9783319011943](https://www.springer.com/de/book/9783319011943), [pdf](http://202.38.64.11/~jmy/documents/ebooks/Hassani%20Mathematical%20Physics%20A%20Modem%20Introduction%20to%20Its%20Foundations%20-%20S.%20Hassani%20%5B0-387-98579-4%5D.pdf))
 
