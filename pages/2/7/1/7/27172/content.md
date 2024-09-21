@@ -1,6 +1,6 @@
-# Conway's law
-* this block creates the table of contents, leave as is
-{: toc}
+
+
+\tableofcontents
 
 ## Idea
 
@@ -51,11 +51,16 @@ Note that formally the organization actually stamps out a [[preimage]] of the ho
 
 ## Examples
 
-([Conway 1968](#Conway68)) gives the following anecdote: eight people were assigned to build two [[compiler|compilers]]. They were divided into a team of five people and a team of three people, each team producing one compiler. The five-person team produced a five-pass compiler and the three-person team produced a three-pass compiler.
+[Conway 1968](#Conway68) gives the following anecdote: eight people were assigned to build two [[compiler|compilers]]. They were divided into a team of five people and a team of three people, each team producing one compiler. The five-person team produced a compiler that "ran in five phases, while the three-person team produced one that ran in three.
 
 
 ## References
 
 The original paper:
 
-{#Conway68} * [Melvin Conway](https://en.wikipedia.org/wiki/Melvin_Conway), *How Do Committees Invent?*, Datamation **14(5)** (1968) p28-31 &lbrack;[html](https://www.melconway.com/Home/Committees_Paper.html), [pdf](https://www.melconway.com/Home/pdf/committees.pdf)&rbrack;
+* {#Conway68} [Melvin Conway](https://en.wikipedia.org/wiki/Melvin_Conway), *How Do Committees Invent?*, Datamation **14** 5 (1968) 28-31 &lbrack;[html](https://www.melconway.com/Home/Committees_Paper.html), [pdf](https://www.melconway.com/Home/pdf/committees.pdf)&rbrack;
+
+See also:
+
+* Wikipedia  *[Conway's law](https://en.m.wikipedia.org/wiki/Conway%27s_law)
+
