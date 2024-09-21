@@ -531,7 +531,7 @@ Further references:
 
   > (on rigorous [[path integrals]])
 
-* Leon Takhtajan, _[[Quantum mechanics for mathematicians]]_, Amer. Math. Soc. (2008)
+* Leon Takhtajan, _[[Quantum mechanics for mathematicians]]_, Amer. Math. Soc. (2008) &lbrack;[ISBN:978-0-8218-4630-8](https://bookstore.ams.org/gsm-95)&rbrack;
 
 * Michael Movshev, *Concepts of Quantum Mechanics* (2008) &lbrack;[web](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html)&rbrack; 
 
