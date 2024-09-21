@@ -21,7 +21,9 @@
 ## Idea
 
 
-A _linear isomophism_ is a [[linear map]] which is an [[isomorphism]] (in the given ambient [[category of modules]]/[[category of vector spaces]]), hence which has an [[inverse function]] that is also a linear map.
+A _linear isomophism_ is a [[linear map|linear]] [[endomorphism]] $V \to V$ (on some [[linear space]] $V$) which is an [[isomorphism]] (in the given ambient [[category of modules]]/[[category of vector spaces]]), hence which has an [[inverse function]] that is also a [[linear map]].
+
+The [[group]] formed by linear isomorphisms under their [[composition]] is called the *[[general linear group]]* $GL(V)$ of the given [[linear space]] $V$.
 
 ## Related concepts
 
