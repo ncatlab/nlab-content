@@ -1132,7 +1132,8 @@ See also
 
 * I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
 
-* [[Antoine Van Proeyen]], _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
+* [[Antoine Van Proeyen]]: *Tools for supersymmetry*, Proceedings of *[Spring School on Quantum Field Theory. Supersymmetries and Superstrings](https://inspirehep.net/conferences/972589), Calimanesti, Romania, April 24-30, 1998*, Ann. U. Craiova Phys. **9** I (1999) 1-48 &lbrack;[arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030), [spire:508121](https://inspirehep.net/literature/508121)&rbrack;
+
 
 Discussion of the relation between [[supersymmetry and division algebras]] includes
 
