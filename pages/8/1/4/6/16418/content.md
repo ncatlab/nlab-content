@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _orthosymplectic supergroup_ $OSp(N|2p)$ is the sub-[[supergroup]] of the [[general linear supergroup]] $GL(N|2p)$ on those elements which preserve the canonical graded-symmetric [[bilinear form]] on the [[super vector space]] $\mathbb{R}^{N|2p}$, i.e. the form which is the canonical symmetric bilinear form on the even elements $\mathbb{R}^{N}$, is the canonical [[symplectic form]] on the odd elements in $\mathbb{R}^{0|2p}$ and is zero on mixed pairs of elements.
+The _orthosymplectic supergroup_ $OSp(N|2p)$ is the [[subobject|sub]]-[[supergroup]] of the [[general linear supergroup]] $GL(N|2p)$ on those elements which preserve the canonical graded-symmetric [[bilinear form]] on the [[super vector space]] $\mathbb{R}^{N|2p}$, i.e. the form which is the canonical [[symmetric bilinear form]] on the even elements $\mathbb{R}^{N}$, is the canonical [[symplectic form]] on the odd elements in $\mathbb{R}^{0|2p}$ and is zero on mixed pairs of elements.
 
 The corresponding [[super Lie algebras]] are called the _orthosymplectic Lie algebras_ $\mathfrak{osp}(N|2p)$. Over a [[field]] of [[characteristic zero]] these constitute the infinite $B$- and $D$-series in the [classification of simple super Lie algebras](super+Lie+algebra#Classification). 
 They are closely related to [[superconformal]] symmetry (e.g. [D'Auria, Ferrara & Lledo-Varadarajan 2p00](#DAuriaFerrareLledoVaradarajan00)), see at _[supersymmetry -- Classification -- Superconformal symmetry](supersymmetry#ClassificationSuperconformal)_.
