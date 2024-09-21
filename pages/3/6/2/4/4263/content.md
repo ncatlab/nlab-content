@@ -58,13 +58,12 @@ The really clear term for a spatial locale is 'locale with enough points to sepa
 1. Hofmann–Lawson duality (1978; see Picado–Pultr, Theorem 6.4.3 and Proposition 6.3.3): assuming the [[axiom of choice]], [[locally compact locales]] are spatial.
 In particular, [[compact regular locales]] are locally compact, hence automatically spatial.
 
-2. Any [[coherent locale]] is also spatial.
+2. Every [[coherent locale]] is spatial.
+In particular, [[Stone locales]], [[Stonean locales]], and [[hyperstonean locales]] are spatial.
 
-2. More generally, the meet of a countable family of open sublocales (i.e., a $G_\delta$-sublocale) of a [[compact regular locale]] is spatial.
+3. The meet of a countable family of open sublocales (i.e., a $G_\delta$-sublocale) of a [[compact regular locale]] is spatial.
 
-3. The completion of a [[uniform locale]] with a countable basis of uniformity is spatial.
-
-4. [[Stonean locale|Stonean locales]] are spatial.
+4. The completion of a [[uniform locale]] with a countable basis of uniformity is spatial.
 
 ## Related concepts
 
