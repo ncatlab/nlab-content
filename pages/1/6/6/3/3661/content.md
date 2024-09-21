@@ -170,7 +170,8 @@ An analogue of Conduch&#233; functors for [[∞-categories]], classified by maps
 A discussion of ULF functors (including the fact they form a factorisation system) is contained in:
 
 * [Pullback-homomorphisms](https://golem.ph.utexas.edu/category/2010/08/pullbackhomomorphisms.html), n-Category Café (2010)
- 
+
+* [[Tom Leinster]], _Notions of Möbius inversion_, Bulletin of the Belgian Mathematical Society-Simon Stevin 19.5 (2012): 909-933.
 
 [[!redirects Conduché fibration]]
 [[!redirects Conduchè fibration]]
