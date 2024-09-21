@@ -723,9 +723,9 @@ A principal $\infty$-bundle over a [[0-connected]] object / [[delooping]] object
 
 The notion of principal $\infty$-bundle (often addressed in the relevant literature in the language of [[torsors]]) appears in the context of the [[simplicial presheaf]] [[model structure on simplicial presheaves|model]] for generalized spaces in
 
-* [[Rick Jardine]], Z. Luo, _Higher order principal bundles_, Mathematical Proceedings of the Cambridge Philosophical Society **140** 2 (2006) 221-243 &lbrack;[doi:10.1017/S0305004105008911](https://doi.org/10.1017/S0305004105008911)&rbrack;
+* [[Rick Jardine]], Z. Luo: *Higher order principal bundles*, Mathematical Proceedings of the Cambridge Philosophical Society **140** 2 (2006) 221-243 &lbrack;[doi:10.1017/S0305004105008911](https://doi.org/10.1017/S0305004105008911), web.archive:[pdf](https://web.archive.org/web/20050212221131id_/http://www.math.uwo.ca:80/~jardine/papers/cocycles8.pdf)&rbrack;
 
-* [[Rick Jardine]], _Cocycle categories_, in *Algebraic Topology* Abel Symposia **4**  (2009) &lbrack;[arXiv:math.AT/0605198](http://arxiv.org/abs/math.AT/0605198), [doi:10.1007/978-3-642-01200-6_8](https://doi.org/10.1007/978-3-642-01200-6_8)&rbrack;
+* [[Rick Jardine]]: _Cocycle categories_, in *Algebraic Topology* Abel Symposia **4**  (2009) &lbrack;[arXiv:math.AT/0605198](http://arxiv.org/abs/math.AT/0605198), [doi:10.1007/978-3-642-01200-6_8](https://doi.org/10.1007/978-3-642-01200-6_8)&rbrack;
 
 An earlier description in terms of simplicial objects is
 
