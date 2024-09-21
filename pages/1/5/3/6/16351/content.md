@@ -87,11 +87,19 @@ $$\phi(f)=\phi(f(y)+\sum_i (x_i-y_i)\cdot g_i)=f(y)+\sum_i (\phi(x_i)-y_i)\cdot 
 where the functions $g_i$ are provided by [[Hadamard's lemma]].
 
 For a general $M$,
-use [[Whitney's embedding theorem]] to embed $M$ into some $\mathbf{R}^n$ and consider the composition
+use [[Whitney's embedding theorem]] to embed $M$ into some $\mathbf{R}^n$.
+Without loss of generality we can assume the embedding to be proper so that the subset $M\subset\mathbf{R}^n$ is closed.
+
+Consider the composition
 $$C^\infty(\mathbf{R}^n)\to C^\infty(M)\to \mathbf{R},$$
 where the first homomorphism $\rho$ is given by restricting along the embedding.
 The composition is given by evaluating at some point $p\in\mathbf{R}^n$.
-We have $p\in M$ because every composition $\phi\rho$ must vanish on the kernel of $\rho$, but the evaluation homomorphism at $p\notin M$ does not. 
+
+If $p\notin M$, we can construct a smooth function $b$ that vanishes on $M$ and does not vanish at $p$.
+For example, we can take the smooth function with zero locus $M$ constructed by the smooth Tietze extension theorem, or simply use smooth bump functions.
+The function $b$ vanishes on $M$ and therefore belongs to the kernel of the map $\rho$.
+The evaluation homomorphism at $p\notin M$ does not vanish on the element $b$, hence cannot factor through the map $\rho$, a contradiction.
+Therefore, we must have $p\in M$.
 \end{proof}
 
 Milnor's exercise (Lem. \ref{MilnorExercise}) implies --- and also is the special case for $X = \ast$ (the [[point space|point]]) of:
