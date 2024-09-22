@@ -1,5 +1,62 @@
 
-The *Sugimoto string theory* is a non-[[supersymmetry|supersymmetric]] version of [[type I string theory]], given by 10d [[type IIB string theory]] on an $O9^+$ [[orientifold]] (instead of $O9^-$), hence with [[RR-field tadpole cancellation]] by 32 *[[anti-brane|anti]]* [[D9-branes]] (instead of plain D9-branes), whose [[gauge group]] is the [[symplectic group]] acting on $\mathbb{R}^{32}$ (beware the different notations: either "$Sp(32)$" or "$Sp(16)$", [Sugimot 1999](#Sugimoto99) wrote "$USp(32)$").
+
+## Fixed point subgroup
+
+Given a [[group]] $G$ and an [[automorphism]] (or just an [[endomorphism]]) $\phi \colon G \xrightarrow{\;} G$, its [[set]] of [[fixed points]]
+
+$$
+  G^\phi
+  \;\coloneqq\;
+  \Big\{
+    g \in G
+    \;\Big\vert\;
+    \phi(g)
+    =
+    g
+  \Big\}
+  \;\subset\;
+  G
+$$
+
+evidently constitutes a [[subgroup]], called the *fixed-point subgroup* of $\phi$.
+
+The analogous statement holds for $G$ replaced by any [[algebra|algebraic]] [[structure]]: The endomorphism property ensures that with a [[pair]] of [[elements]] being fixed by $\phi$, so is their [[binary operation|product]] in the algebra:
+
+$$
+  \phi(g_i)
+  =
+  g_i
+  \;\;
+  \Rightarrow
+  \;\;
+  \phi\big(
+    g_1 \cdot g_2
+  \big)
+  \;=\;
+  \phi(g_1)
+  \cdot
+  \phi(g_2)
+  \;=\;
+  g_1 \cdot g_2
+$$
+
+## Examples
+
+\begin{example}
+  If $\phi = Ad_g$ is an [[inner automorphism]] ancting by [[conjugation action|conjugation]] with an element$g \in G$, then its fixed-point subgroup $G^\phi$ is the *[[centralizer subgroup]]* $C_G(g)$.
+\end{example}
+
+## References
+
+* Wikipedia: *[Fixed-point subgroup](https://en.wikipedia.org/wiki/Fixed-point_subgroup)*
+
+
+
+
+## Sugimoto string theory
+
+
+The *Sugimoto string theory* is a non-[[supersymmetry|supersymmetric]] version of [[type I string theory]], given by 10d [[type IIB string theory]] on an $O9^+$ [[orientifold]] (instead of $O9^-$), hence with [[RR-field tadpole cancellation]] by 32 *[[anti-brane|anti]]* [[D9-branes]] (instead of plain D9-branes), whose [[gauge group]] is the [[symplectic group]] acting on $\mathbb{R}^{32}$ (beware the different notations: either "$Sp(32;\mathbb{R})$" or "$Sp(16)$", [Sugimoto 1999](#Sugimoto99) wrote "$USp(32)$").
 
 ## Referemces
 
