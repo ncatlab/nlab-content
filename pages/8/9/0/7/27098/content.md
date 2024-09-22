@@ -22,13 +22,13 @@ Similarly, one can define a coreflection along a functor by a [[morphism]] $\eps
 
 Let $F \colon C\to D$ be a [[functor]] and $d$ an object of the [[category]] $D$. 
 
-A __reflection__ of $d$ along $F$ is a [[pair]] $(L_d,\eta_d)$ of 
+A __reflection__ of $d$ along $F$ (synonym: __universal arrow__ from $d$ to $F$) is a [[pair]] $(L_d,\eta_d)$ of 
 
 * an [[object]] $L_d\in C$ 
 
 * a [[morphism]] $\eta_d \colon d\to F(L_d)$ in $D$ 
 
-which is [[universal property|universal]] in the sense that for any [[object]] $c \in C$ and morphism $f \colon d\to F(c)$ there is a unique $\alpha \colon L_d\to c$ such that $F(\alpha)\circ\eta_d = f$. 
+which is [[universal property|universal]] in the sense that for any [[object]] $c \in C$ and morphism $f \colon d\to F(c)$ there is a unique $\alpha \colon L_d\to c$ such that $F(\alpha)\circ\eta_d = f$. In other words, it is an initial object in the [[comma category]] $d/F$.
 
 In other words this means that a reflection is an [[relative adjunction|adjoint relative to]] the functor $1 \to D$ which picks out $d \in D$.
 
@@ -42,14 +42,22 @@ which is universal in the sense that for any $c\in C$ and a morphism $g \colon F
 
 In other words this means that a coreflection is a [[relative coadjunction|coadjoint relative to]] the functor $1 \to D$ which picks out $d \in D$.
 
+If $F:C\to D$ is a [[pseudofunctor]] among bicategories (homomorphism of bicategories) and $d$ an object of $D$, then a __biuniversal arrow__ from $d$ to $F$ is an [[object]] $L$ in $C$ and a morphism $u:L\to F(c)$ such that for every object $c$ in $C$ the functor $Hom_C(L,c)\to Hom_D(d,F(c))$ given by $f\mapsto F(f)\circ u$, $\gamma\mapsto F(\gamma)\circ 1_u$ (where $f,f':d\to c$ and $\gamma:f\to f'$ is a 2-cell) is an [[equivalence of categories]]. 
 
 ## Related concepts
 
+* [[adjunction]]
 * [[relative adjunction]]
 
 ## Literature 
 
 *  [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_,  I.3.1
 
-[[!redirects coreflection along a functor]]
+For the bicategorical case see for example around def. 9.4 in 
 
+* [[Thomas M. Fiore]], _Pseudo limits, biadjoints, and pseudo algebras: categorical foundations of conformal field theory_, Memoirs of the Amer. Math. Soc. __182__ (2006), no. 860. 171 pages. arXiv:[math.CT/0408298](https://arxiv.org/abs/math.CT/0408298)
+
+[[!redirects coreflection along a functor]]
+[[!redirects universal arrow]]
+[[!redirects universal arrows]]
+[[!redirects biuniversal arrow]]
