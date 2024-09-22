@@ -23,7 +23,7 @@ $$
 ## Sugimoto string theory
 
 
-The *Sugimoto string theory* is a non-[[supersymmetry|supersymmetric]] version of [[type I string theory]], given by 10d [[type IIB string theory]] on an $O9^+$ [[orientifold]] (instead of $O9^-$), hence with [[RR-field tadpole cancellation]] by 32 *[[anti-brane|anti]]* [[D9-branes]] (instead of plain D9-branes), whose [[gauge group]] is the [[symplectic group]] acting on $\mathbb{R}^{32}$ (beware the different notations: either "$Sp(32;\mathbb{R})$" or "$Sp(16)$", [Sugimoto 1999](#Sugimoto99) wrote "$USp(32)$").
+The *Sugimoto string theory* is a non-[[supersymmetry|supersymmetric]] version of [[type I string theory]], given by 10d [[type IIB string theory]] on an $O9^+$ [[orientifold]] (instead of $O9^-$), hence with [[RR-field tadpole cancellation]] by 32 *[[anti-brane|anti]]* [[D9-branes]] (instead of plain D9-branes), whose [[gauge group]] is the [[symplectic group]] $USp(32)$.
 
 ## Referemces
 
