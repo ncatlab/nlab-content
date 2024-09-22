@@ -26,15 +26,15 @@ The canonical [[line bundle]] on the [[product]] of an [[abelian group]] ([[abel
 
 The idea is briefly summarized in 
 
-* [[Akhil Mathew]], section 10 of _[Duality for abelian varieties](http://amathew.wordpress.com/2013/03/21/duality-for-abelian-varieties/)_
+* [[Akhil Mathew]], section 10 of: _[Duality for abelian varieties](http://amathew.wordpress.com/2013/03/21/duality-for-abelian-varieties/)_
 
-Lecture notes include
+Lecture notes:
 
-* John Meth, Kelly McKinnie, _The Poincar&#233; bundle_ ([pdf](https://www.ma.utexas.edu/users/gfarkas/teaching/abvar/projectmeth.pdf))
+* John Meth, Kelly McKinnie, _The Poincar&#233; bundle_ &lbrack;[pdf](http://web.archive.org/web/20150326212613/https://www.ma.utexas.edu/users/gfarkas/teaching/abvar/projectmeth.pdf)&rbrack;
 
-Textbook accounts include
+Monographs:
 
-* {#Polsihchuk03} [[Alexander Polishchuk]], section 16.3 of _Abelian varieties, Theta functions and the Fourier transform_, Cambridge University Press (2003) ([pdf](http://math1.unice.fr/~beauvill/pubs/poli.pdf))
+* {#Polsihchuk03} [[Alexander Polishchuk]], section 16.3 of: _Abelian varieties, Theta functions and the Fourier transform_, Cambridge University Press (2003) &lbrack;[pdf](http://math1.unice.fr/~beauvill/pubs/poli.pdf)&rbrack;
 
 
 [[!redirects Poincaré line bundles]]
