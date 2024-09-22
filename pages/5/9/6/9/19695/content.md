@@ -362,11 +362,16 @@ For more on this see at _[Topological G-space -- Fixed loci with residual Weyl g
 
 ## Related concepts
 
+* [[fixed point group]]
+
 * [[homotopy fixed points]]
 
 * [[Elmendorf's theorem]]
 
+* [[equivariant homotopy theory]]
+
 * [[equivariant differential topology]]
+
 
 [[!redirects fixed point spaces]]
 
