@@ -224,7 +224,7 @@ More on the [[Green-Schwarz mechanism]] in [[Hořava-Witten theory]]:
 
 Explicit discussion of [[worldvolume]] [[CFT]] of the [[M2-branes]] ending on the HW fixed points and becoming [[heterotic strings]] is discussed, via the [[BLG model]], in 
 
-* {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_, Physics Letters B Volume 749, 7 October 2015, Pages 363&#8211;367 ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
+* {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_, Physics Letters B **749** (2015) 363-367 &lbrack;[arXiv:1507.07931](http://arxiv.org/abs/1507.07931)&rbrack;
 
 
 After [[KK-reduction]] to [[5d supergravity]] there is a corresponding 5d mechanism, see the references [there](5-dimensional+supergravity#ReferencesHWCompactification).
