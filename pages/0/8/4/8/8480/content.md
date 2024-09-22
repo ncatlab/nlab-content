@@ -224,6 +224,8 @@ Todd: To be related to structures over a modal operator, as at my web, or to dia
 
 * [[fixed point space]]
 
+* [[fixed point group]]
+
 **Theorems**
 
 * [[Lawvere's fixed point theorem]]
