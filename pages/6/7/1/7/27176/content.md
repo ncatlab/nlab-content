@@ -42,9 +42,9 @@ $$
   \phi(g_i)
   =
   g_i
-  \;\;\;
+  \;\;\;\;\;
   \Rightarrow
-  \;\;\;
+  \;\;\;\;\;
   \phi\big(
     g_1 \cdot g_2
   \big)
@@ -67,6 +67,8 @@ $$
 * [[fixed point subspace]]
 
 ## References
+
+See also:
 
 * Wikipedia: *[Fixed-point subgroup](https://en.wikipedia.org/wiki/Fixed-point_subgroup)*
 
