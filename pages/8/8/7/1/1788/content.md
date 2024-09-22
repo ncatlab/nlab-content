@@ -1,55 +1,22 @@
 
 
-## Fixed point subgroup
 
-Given a [[group]] $G$ and an [[automorphism]] (or just an [[endomorphism]]) $\phi \colon G \xrightarrow{\;} G$, its [[set]] of [[fixed points]]
 
 $$
-  G^\phi
-  \;\coloneqq\;
-  \Big\{
-    g \in G
-    \;\Big\vert\;
-    \phi(g)
-    =
-    g
-  \Big\}
-  \;\subset\;
-  G
-$$
-
-evidently constitutes a [[subgroup]], called the *fixed-point subgroup* of $\phi$.
-
-The analogous statement holds for $G$ replaced by any [[algebra|algebraic]] [[structure]]: The endomorphism property ensures that with a [[pair]] of [[elements]] being fixed by $\phi$, so is their [[binary operation|product]] in the algebra:
-
-$$
-  \phi(g_i)
-  =
-  g_i
-  \;\;
-  \Rightarrow
-  \;\;
-  \phi\big(
-    g_1 \cdot g_2
+  \big(
+    \overline{\theta}
+    \Gamma^{b c}
+    \mathrm{d}\theta
   \big)
-  \;=\;
-  \phi(g_1)
-  \cdot
-  \phi(g_2)
-  \;=\;
-  g_1 \cdot g_2
+  \big(\overline{\psi}
+  \Gamma_{b a}\psi
+  \big)
+  \big(
+    \overline{\theta}
+    \Gamma^{a}{}_{c}
+    \mathrm{d}\theta
+  \big)
 $$
-
-## Examples
-
-\begin{example}
-  If $\phi = Ad_g$ is an [[inner automorphism]] ancting by [[conjugation action|conjugation]] with an element$g \in G$, then its fixed-point subgroup $G^\phi$ is the *[[centralizer subgroup]]* $C_G(g)$.
-\end{example}
-
-## References
-
-* Wikipedia: *[Fixed-point subgroup](https://en.wikipedia.org/wiki/Fixed-point_subgroup)*
-
 
 
 
