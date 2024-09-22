@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -39,7 +40,9 @@ $$
 of all [[elements]] $c \in G$ which commute with the elements of $S$.
 \end{definition}
 
-Notice the similarity with but the difference to the concept of _[[normalizer subgroup]]_, see Prop. \ref{RelationToNormalizer}.
+Equivalently, the centralizer is the joint [[fixed point subgroup]] of the [[inner automorphisms]] on $G$ given by [[conjugation action|conjugation]] with the elements $s \in S$. 
+
+Notice the similarity with but the difference to the concept of _[[normalizer subgroup]]_, cf. Prop. \ref{RelationToNormalizer}.
 
 
 ## Properties
