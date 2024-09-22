@@ -706,7 +706,7 @@ $\,$
 ###### Definition
 **(universal arrow)**
 
-Given a [[functor]] $R \;\colon\; \mathcal{D} \to \mathcal{C}$, and an object $c\in \mathcal{C}$, a _universal arrow_ from $c$ to $R$ is an [[initial object]] of the [[comma category]] $(c/R)$.  This means that it consists of 
+Given a [[functor]] $R \;\colon\; \mathcal{D} \to \mathcal{C}$, and an object $c\in \mathcal{C}$, a _universal arrow_ from $c$ to $R$ (or a [[reflection along a functor|reflection]] of $c$ along $R$) is an [[initial object]] of the [[comma category]] $(c/R)$.  This means that it consists of 
 
 1. an [[object]] $L(c)\in \mathcal{D}$ 
 
@@ -1701,15 +1701,10 @@ More on the notion of [[transformation of adjoints]]:
   > (in the context of the [[model structure on a Grothendieck construction]])
 
 
-  
-
 [[!redirects adjoint functors]]
 
 [[!redirects adjoint pair of functors]]
 [[!redirects adjoint pairs of functors]]
-
-[[!redirects universal arrow]]
-[[!redirects universal arrows]]
 
 [[!redirects universal morphism]]
 [[!redirects universal morphisms]]
