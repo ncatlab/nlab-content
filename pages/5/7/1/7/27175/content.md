@@ -37,7 +37,7 @@ $$
 $$
 \end{definition}
 
-(e.g. [Taylor 2021 §1](#Taylor21)).
+(e.g. [Guillemin & Sternberg 1977 p 115](#GuilleminSternberg77), [Malle & Testerman 2012 p. 7](#MalleTesterman12), [Taylor 2021 §1](#Taylor21)).
 
 \begin{remark}
 Remembering just this *conformal scale* $\lambda$ evidently constitutes a [[group homomorphism]] from $CSp(V,\omega)$ to $k^\times$, whose [[kernel]] is the ordinary [[symplectic group]]:
@@ -68,7 +68,12 @@ $$
 
 ## References
 
+* {#GuilleminSternberg77} [[Victor Guillemin]], [[Shlomo Sternberg]], p. 115 of: *Geometric asymptotics*, Mathematical Surveys and Monographs **14**, AMS (1977) &lbrack;[ams:surv-14](https://bookstore.ams.org/surv-14)&rbrack;
+
 * Rudolf Scharlau, Pham Huu Tiep: *Symplectic group lattices*, Trans. Amer. Math. Soc. **351** (1999) 2101-2139 &lbrack;[doi:10.1090/S0002-9947-99-02469-1](https://doi.org/10.1090/S0002-9947-99-02469-1)&rbrack;
+
+* {#MalleTesterman12} Gunter Malle, Donna Testerman, p. 7 of: *Linear Algebraic Groups and Finite Groups of Lie Type*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511994777](https://doi.org/10.1017/CBO9780511994777)&rbrack;
+
 
 
 
