@@ -47,7 +47,7 @@ On a smooth open/closed [[functorial field theory]] exhibiting the [[string]]'s 
 
 On geometric [[T-duality]]:
 
-* [[Konrad Waldorf]], *Geometric T-duality: Buscher rules in general topology* &lbrack;[arXiv:2207.11799](https://arxiv.org/abs/2207.11799)&rbrack;
+* [[Konrad Waldorf]]: *Geometric T-duality: Buscher rules in general topology*,  Ann. Henri Poincaré **25** (2024) 1285–1358 &lbrack;[arXiv:2207.11799](https://arxiv.org/abs/2207.11799), [doi:10.1007/s00023-023-01295-0](https://doi.org/10.1007/s00023-023-01295-0)&rbrack;
 
 On [[2-vector bundles]] for [[2-vector spaces]] regarded ([here](2-vector+space#ReferencesAsAlgebrasWithBimodules)) as algebras with bimodules between them:
 
