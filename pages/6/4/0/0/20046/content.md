@@ -10,8 +10,14 @@ On [[Poisson-Lie T-duality]]:
 
 * {#Hassler20} [[Falk Hassler]], Thomas Rochais, _$\alpha'$-corrected Poisson-Lie T-duality_ ([arXiv:2007.07897](https://arxiv.org/abs/2007.07897))
 
+On [[T-duality]] and [[double field theory]] formulated on [[superspace]]:
 
-## Related $n$Lab entries
+* Daniel Butter, [[Falk Hassler]], [[Christopher N. Pope]], Haoyu Zhang: *Generalized Dualities and Supergroups* &lbrack;[arXiv:2307.05665](https://arxiv.org/abs/2307.05665)&rbrack;
+
+
+
+
+## Related entries
 
 * [[Poisson-Lie T-duality]]
 
