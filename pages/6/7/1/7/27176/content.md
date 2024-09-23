@@ -73,11 +73,11 @@ See also:
 * Wikipedia: *[Fixed-point subgroup](https://en.wikipedia.org/wiki/Fixed-point_subgroup)*
 
 
+[[!redirects fixed point group]]
 [[!redirects fixed point groups]]
 
 [[!redirects fixed-point group]]
 [[!redirects fixed-point groups]]
-
 
 [[!redirects fixed point subgroup]]
 [[!redirects fixed point subgroups]]
@@ -85,4 +85,14 @@ See also:
 [[!redirects fixed-point subgroup]]
 [[!redirects fixed-point subgroups]]
 
+[[!redirects fixed point monoid]]
+[[!redirects fixed point monoids]]
 
+[[!redirects fixed-point monoid]]
+[[!redirects fixed-point monoids]]
+
+[[!redirects fixed point submonoid]]
+[[!redirects fixed point submonoids]]
+
+[[!redirects fixed-point submonoid]]
+[[!redirects fixed-point submonoids]]
