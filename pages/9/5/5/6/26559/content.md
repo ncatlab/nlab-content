@@ -368,7 +368,7 @@ In summary:
     }
 \end{imagefromfile}
 
-The spacetime domains on which to exhibit fluxes of singular EM-branes (monopoles) and of  solitonic EM-branes (vortices) are as shown on the left of the following graphics, respectively, whose right hand side already shows the [[classifying maps]] of their quantized charges, further discussed [below](#FluxQuantizationLaws):
+{#HomotopicalEMFluxQuantization} The spacetime domains on which to exhibit fluxes of singular EM-branes (monopoles) and of  solitonic EM-branes (vortices) are as shown on the left of the following graphics, respectively, whose right hand side already shows the [[classifying maps]] of their quantized charges, further discussed [below](#FluxQuantizationLaws):
 
 \begin{imagefromfile}
     "file_name": "GeomPhys-ChargeOfMonopolesAndVortices.jpg",
