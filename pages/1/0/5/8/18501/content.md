@@ -1,5 +1,3 @@
-# Final pullback complements
-
 * table of contents
 {: toc}
 
@@ -10,7 +8,14 @@ A *final pullback complement* is a "universal completion of a pair of [[arrows]]
 ## Definition
 
 Given [[morphisms]] $m:C\to A$ and $g:A\to D$ in a [[category]], a **pullback complement** is a pair of arrows $f:C\to B$ and $n:B\to D$ such that the square
-$$ \array{ C & \to & A \\ \downarrow & & \downarrow \\ B & \to & D }$$
+\begin{tikzcd}
+	C & A \\
+	B & D
+	\arrow["m", from=1-1, to=1-2]
+	\arrow["f"', from=1-1, to=2-1]
+	\arrow["g", from=1-2, to=2-2]
+	\arrow["n"', from=2-1, to=2-2]
+\end{tikzcd}
 [[commutative square|commutes]] and is a [[pullback]].  This is of course the dual of a [[pushout complement]].
 
 A morphism of pullback complements is a map $B\to B'$ making the obvious diagrams commute.  A **final pullback complement** is a [[terminal object]] in the category of pullback complements.  Since they have a universal property, final pullback complements are unique up to unique isomorphism when they exist.
