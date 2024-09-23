@@ -1,5 +1,7 @@
 
-* [webpage](http://people.physics.tamu.edu/pope/)
+* [personal page](http://people.physics.tamu.edu/pope/)
+
+* [InSpire page](https://inspirehep.net/authors/992978)
 
 ## Selected writings
 
@@ -39,11 +41,14 @@ On [[E11]]-[[exceptional field theory|exceptional]] [[supergravity]]:
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Jakob Palmkvist]], [[Christopher Pope]], [[Ergin Sezgin]], _Beyond $E_{11}$_, JHEP 05 (2017) 020 \[<a href="https://doi.org/10.1007/JHEP05(2017)020">doi:10.1007/JHEP05(2017)020</a>, [arXiv:1703.01305](https://arxiv.org/abs/1703.01305)\]
 
-
 On the work of [[Mike Duff]]:
 
 * [[Leron Borsten]], [[Alessio Marrani]], [[Christopher N. Pope]], [[Kellogg Stelle]], *Introduction to the special issue dedicated to Michael J. Duff FRS on the occasion of his 70th birthday*, Proceedings of the Royal Society A, 
 **478** (2022) 2259 &lbrack;[doi:10.1098/rspa.2022.0166](https://doi.org/10.1098/rspa.2022.0166)&rbrack;
+
+On [[T-duality]] and [[double field theory]] formulated on [[superspace]]:
+
+* Daniel Butter, [[Falk Hassler]], [[Christopher N. Pope]], Haoyu Zhang: *Generalized Dualities and Supergroups* &lbrack;[arXiv:2307.05665](https://arxiv.org/abs/2307.05665)&rbrack;
 
 
 
