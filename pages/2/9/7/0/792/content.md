@@ -139,7 +139,7 @@ Discussion in [[rational homotopy theory]]/[[dg-geometry]] is in
 
 and a derivation of the rules of topological T-duality from analysis of the [[super p-brane]] super-cocycles in super rational homotopy theory (with a [[doubled supergeometry]]) is given in 
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_, [ATMP Volume 22 (2018) Number 5](http://www.intlpress.com/site/pub/pages/journals/items/atmp/content/vols/0022/0005/) ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](https://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3))
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]*, Adv. Theor. Math. Phys **22 5 (2018) &lbrack;[arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](https://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3)&rbrack;
 
 reviewed in 
 
@@ -151,9 +151,9 @@ and further expanded on on
 
 * [[Hisham Sati]], [[Urs Schreiber]], p. 7 of: *[[schreiber:Cyclification of Orbifolds]]* &lbrack;[arXiv:2212.13836](https://arxiv.org/abs/2212.13836)&rbrack;
 
-See also
+See also:
 
-* [[Domenico Fiorenza]], Mattia Coloma, Eugenio Landi, _A very short note on the (rational) graded Hori map_ ([arXiv:2003.13066](https://arxiv.org/abs/2003.13066))
+* [[Domenico Fiorenza]], Mattia Coloma, [[Eugenio Landi]]: _A very short note on the (rational) graded Hori map_, Communications in Algebra **50** 5 (2022) &lbrack;[arXiv:2003.13066](https://arxiv.org/abs/2003.13066), [doi:10.1080/00927872.2021.2005076](https://doi.org/10.1080/00927872.2021.2005076)&rbrack;
 
 
 Comprehensive discussion in [[higher differential geometry]]:
