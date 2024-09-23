@@ -74,6 +74,11 @@ On [[t-structures]] and [[reflective factorization systems]]:
 
 * [[Domenico Fiorenza]], [[Fosco Loregian]], [[Giovanni Marchetti]], *Hearts and towers in stable $\infty$-categories*,  J. Homotopy Relat. Struct. **14**  (2019) 993–1042 &lbrack;[arXiv:1501.04658](https://arxiv.org/abs/1501.04658), [doi:10.1007/s40062-019-00237-0](https://doi.org/10.1007/s40062-019-00237-0)&rbrack;
 
+On [[rational homotopy theory|rational]] [[topological T-duality]]:
+
+* [[Domenico Fiorenza]], Mattia Coloma, [[Eugenio Landi]]: _A very short note on the (rational) graded Hori map_, Communications in Algebra **50** 5 (2022) &lbrack;[arXiv:2003.13066](https://arxiv.org/abs/2003.13066), [doi:10.1080/00927872.2021.2005076](https://doi.org/10.1080/00927872.2021.2005076)&rbrack;
+
+
 
 
 category: people
