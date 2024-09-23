@@ -272,9 +272,6 @@ Precursors include (according to [Schwarz 96, first paragraph](#Schwarz96)):
 
 * Keiji Kikkawa, Masami Yamasaki, _Casimir effects in superstring theories_, Physics Letters B Volume 149, Issues 4–5, 20 December 1984, Pages 357-360 (<a href="https://doi.org/10.1016/0370-2693(84)90423-4">doi:10.1016/0370-2693(84)90423-4</a>)
 
-Discussion for the [[superstring]] is in
-
-* M. Abou-Zeid, [[Chris Hull]], [[Ulf Lindström]], [[Martin Roček]], _T-Duality in $(2,1)$ Superspace_ ([arXiv:1901.00662](https://arxiv.org/abs/1901.00662))
 
 Review:
 
@@ -343,9 +340,8 @@ Discussion of the [[sigma-model]] description of T-duality in this context inclu
 
 * Jonas Persson, _T-duality and Generalized Complex Geometry_ ([arXiv:hep-th/0612034](http://arxiv.org/abs/hep-th/0612034))
 
-Further references are
+On [[Poisson-Lie T-duality]]:
 
-* Willie Carl Merrell, _Application of superspace techniques to effective actions, complex geometry and T-duality in String theory_ ([pdf](http://www.lib.umd.edu/drum/bitstream/1903/6865/1/umi-umd-4355.pdf))
 
 * Peggy Kao, _T-duality and Poisson-Lie T-duality in generalized geometry_ ([pdf](http://tpsrv.anu.edu.au/Members/bouwknegt/Kao.pdf))
 
@@ -380,6 +376,21 @@ Lift of T-duality from [[string theory]] to a [[SL(2,Z)]]-[[U-duality]] acting o
 * [[Maria P. Garcia del Moral]], I. Martin, [[Alvaro Restuccia]], *Nonperturbative $SL(2,\mathbb{Z})$ $(p,q)$-strings manifestly realized on the quantum M2* &lbrack;[arXiv:0802.0573](https://arxiv.org/abs/0802.0573)&rbrack;
 
 * [[Maria P. Garcia del Moral]], J. M. Pena, [[Alvaro Restuccia]], *Aspects of the T-duality construction for the Supermembrane theory*, J. Phys.: Conf. Ser. **720** (2016) 012025 &lbrack;[arXiv:1504.06907](https://arxiv.org/abs/1504.06907), [doi:10.1088/1742-6596/720/1/012025](https://doi.org/10.1088/1742-6596/720/1/012025)&rbrack;
+
+hupf
+
+T-duality formulated on [[superspace]]:
+
+
+* M. Abou-Zeid, [[Chris Hull]], [[Ulf Lindström]], [[Martin Roček]]: *T-Duality in $(2,1)$ Superspace*,  J. High Energ. Phys. **2019** 138 (2019) &lbrack;[arXiv:1901.00662](https://arxiv.org/abs/1901.00662), <a href="https://doi.org/10.1007/JHEP06(2019)138">doi:10.1007/JHEP06(2019)138</a>&rbrack;
+
+* Willie Carl Merrell: *Application of superspace techniques to effective actions, complex geometry and T-duality in String theory*, PhD thesis, University of Maryland (2007) &lbrack;[hdl:1903/6865](http://hdl.handle.net/1903/6865)&rbrack;
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]*, Adv. Theor. Math. Phys **22** 5 (2018) &lbrack;[arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](https://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3)&rbrack;
+
+* Daniel Butter, [[Falk Hassler]], [[Christopher N. Pope]], Haoyu Zhang: *Generalized Dualities and Supergroups* &lbrack;[arXiv:2307.05665](https://arxiv.org/abs/2307.05665)&rbrack;
+
+
 
 
 ### In topological phases of matter
