@@ -10,6 +10,8 @@ Member of [[CQTS]] at NYU Abu Dhabi.
 ## Selected writings
 On [[topological quantum computation ]]:
 
+* [[Vivek Kumar Singh]], Akash Sinha, Pramod Padmanabhan, Vladimir Korepin, *Unitary tetrahedron quantum gates*, &lbrack;[arXiv:2407.10731](https://arxiv.org/abs/2407.10731)&rbrack;
+
 * [[Vivek Kumar Singh]], Akash Sinha, Pramod Padmanabhan, Indrajit Jana, *Dyck Paths and Topological Quantum Computation*, &lbrack;[arXiv:2306.16062v1](https://arxiv.org/abs/2306.16062)&rbrack;
 
 On [[topological entanglement entropy]] in [[Chern-Simons theory]]:
@@ -27,6 +29,9 @@ On [[knot theory]]:
 
 * Satoshi Nawata, P. Ramadevi,[[Vivek Kumar Singh]], *Colored HOMFLY polynomials that distinguish mutant knots
 *, J.Knot Theor.Ramifications 26 (2017) 14, **1750096** &lbrack;[arXiv:1504.00364](https://arxiv.org/abs/1504.00364),<a href="https://doi.org/10.1142/S0218216517500961"> doi:10.1142/S0218216517500961</a>&rbrack;
+
+* A. Mironov, A. Morozov, An. Morozov, P. Ramadevi, [[Vivek Kumar Singh]], A. Sleptsov, *Colored HOMFLY polynomials of knots presented as double fat diagrams*, JHEP 07 (2015) 109 &lbrack;[arXiv:1504.00371](https://arxiv.org/abs/1504.00371),<a href="
+https://doi.org/10.1007/JHEP07%282015%29109"> doi:10.1007/JHEP07(2015)109</a>&rbrack;
 
 * Saswati Dhara, A. Mironov, A. Morozov, An. Morozov, P. Ramadevi, [[Vivek Kumar Singh]], A. Sleptsov, *Multi-Colored Links From 3-strand Braids Carrying Arbitrary Symmetric Representations*, Annales Henri Poincare 20 (2019) 12, **4033-4054** &lbrack;[arXiv:1805.03916](https://arxiv.org/abs/1805.03916),<a href="https://doi.org/10.1007/s00023-019-00841-z"> doi:10.1007/s00023-019-00841-z</a>&rbrack;
 
