@@ -87,9 +87,23 @@ Further review:
 
 * [[Urs Schreiber]], _[[geometry of physics -- supergeometry]]_
 
+On [[T-duality]] formulated on superspace:
+
+
+
+* M. Abou-Zeid, [[Chris Hull]], [[Ulf Lindström]], [[Martin Roček]]: *T-Duality in $(2,1)$ Superspace*,  J. High Energ. Phys. **2019** 138 (2019) &lbrack;[arXiv:1901.00662](https://arxiv.org/abs/1901.00662), <a href="https://doi.org/10.1007/JHEP06(2019)138">doi:10.1007/JHEP06(2019)138</a>&rbrack;
+
+* Willie Carl Merrell: *Application of superspace techniques to effective actions, complex geometry and T-duality in String theory*, PhD thesis, University of Maryland (2007) &lbrack;[hdl:1903/6865](http://hdl.handle.net/1903/6865)&rbrack;
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]*, Adv. Theor. Math. Phys **22** 5 (2018) &lbrack;[arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](https://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3)&rbrack;
+
+* Daniel Butter, [[Falk Hassler]], [[Christopher N. Pope]], Haoyu Zhang: *Generalized Dualities and Supergroups* &lbrack;[arXiv:2307.05665](https://arxiv.org/abs/2307.05665)&rbrack;
+
+
+
 Discussion of superspace within [[philosophy of physics]]:
 
-* Tushar Menon, _Taking up superspace -- the spacetime structure of supersymmetric field theory_ ([philsci:14682](http://philsci-archive.pitt.edu/14682/), [pdf](https://core.ac.uk/download/pdf/157868366.pdf),)
+* Tushar Menon, _Taking up superspace -- the spacetime structure of supersymmetric field theory_ ([philsci:14682](http://philsci-archive.pitt.edu/14682/), [pdf](https://core.ac.uk/download/pdf/157868366.pdf))
 
 
 [[!redirects superspaces]]
