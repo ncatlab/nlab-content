@@ -184,7 +184,7 @@ using [[adjusted Weil algebra|adjusted]] [[principal 2-connections]]:
 
 * [[Hyungrok Kim]], [[Christian Saemann]], *Non-Geometric T-Duality as Higher Groupoid Bundles with Connections* &lbrack;[arXiv:2204.01783](https://arxiv.org/abs/2204.01783)&rbrack;
 
-* {#Waldorf22} [[Konrad Waldorf]], *Geometric T-duality: Buscher rules in general topology* &lbrack;[arXiv:2207.11799](https://arxiv.org/abs/2207.11799)&rbrack;
+* {#Waldorf22} [[Konrad Waldorf]]: *Geometric T-duality: Buscher rules in general topology*,  Ann. Henri Poincaré **25** (2024) 1285–1358 &lbrack;[arXiv:2207.11799](https://arxiv.org/abs/2207.11799), [doi:10.1007/s00023-023-01295-0](https://doi.org/10.1007/s00023-023-01295-0)&rbrack;
 
 * [[Hyungrok Kim]], [[Christian Saemann]], *T-duality as Correspondences of Categorified Principal Bundles with Adjusted Connections* &lbrack;[arXiv:2303.16162](https://arxiv.org/abs/2303.16162)&rbrack;
 
