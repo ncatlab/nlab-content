@@ -2459,6 +2459,22 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > [[quantum sensing|Quantum sensing]] using magnetic resonance techniques, such as [[NMR|Nuclear Magnetic Resonance]] (NMR), Magnetic Resonance Imaging (MRI), etc. utilizes the [[quantum physics|quantum]] properties of the [[nucleus|nuclear]] [[spins]] to explore the structural and dynamical characteristics of [[molecules]]. This makes it a powerful tool for materials science, biomedical, and quantum technology applications. However, these techniques suffer from an inherent low signal sensitivity. A hyperpolarization method known as Dynamic Nuclear Polarization (DNP) enhances the sensitivity of NMR and MRI by transferring polarization from electron spins to nuclear spins. The traditional DNP methods face challenges in efficiently polarizing systems with broad Electron Paramagnetic Resonance (EPR) lines. To overcome this limitation, Integrated Solid Effect (ISE) DNP is widely used for improved polarization transfer efficiency. Despite its broad application, the role of quantum coherences in ISE DNP remains poorly understood. The quantum coherences generated during electron-nucleus Double-Quantum (DQ) and Zero-Quantum (ZQ) transitions are crucial for maximizing DNP efficiency. Using density matrix formalism, we provide a detailed analysis of quantum coherences in the ZQ and DQ subspaces, as well as the electron's Single-Quantum (SQ) basis, revealing their impact on ISE DNP. Our findings offer new insights into utilizing room-temperature hyperpolarization in biomedical applications.
 
+\linebreak
+
+* {#SchreiberSep24} 23 Sep 2024
+
+  [[Urs Schreiber]] (NYU AD, CQTS):
+
+  **Abelian Anyons on Flux-Quantized M5-Branes**
+
+  cf.: [[schreiber:Abelian Anyons on Flux-Quantized M5-Branes|arXiv:2408.11896]]
+
+  > While [[fractional quantum Hall effect|fractional quantum Hall systems]] provide the best experimental evidence yet of (abelian) [[anyons]] plausibly necessary for future [[topological quantum computation|fault-tolerant]] [[quantum computation]], like all [[non-perturbative quantum field theory|strongly-coupled quantum systems]] their physics is not deeply understood. But, generally a promising approach is to ([[AdS-CMT|holographically]]) realize such systems on [[branes]] in [[string theory|string]]/[[M-theory]]; and specifically an old [argument by Hellerman & Susskind](quantum+Hall+effect#HellermanSusskind01) gives a sketch of fractional quantum Hall states arising via [[discrete light cone quantization]] of [[M5-brane|M5]]/[[M9-brane|M9]]-[[brane intersections]].
+
+  > In this talk I survey (following [[schreiber:Abelian Anyons on Flux-Quantized M5-Branes|arXiv:2408.11896]]) a rigorous derivation of abelian [[anyon]] [[quantum states]] on [[M5-brane|M5]]$\perp$[[MO9-brane|MO9]]-[[branes]] (“[open M5-branes](M5-brane#OpenM5BranesReferences)”) on the [[discrete light cone quantization|discrete light cone]], after globally completing the traditional local field content on the [[M5-brane|M5]]-[[worldvolume]] via a [[geometry of physics -- flux quantization|flux-quantization law]] compatible with the ambient [[11d supergravity]], specifically taken to be in [[Cohomotopy|unstable co-Homotopy]] [[cohomology]] ("[[schreiber:Hypothesis H]]"). 
+
+  > The main step in the proof uses a [theorem of Okuyama](group-completed+configuration+space+of+points#Okuyama05) to identify [[Cohomotopy|co-Homotopy]] [[moduli spaces]] with [[configuration spaces]] of [[strings]] with charged endpoints, and identifies their [[loop spaces]] with [[cobordism]] of [[framed links]] that, under topological [[light cone quantization]], turn out to be identified with the regularized [[Wilson loops]] of abelian [[Chern-Simons theory]].
+
 
 ***
 
@@ -3710,6 +3726,7 @@ Researchers:
 * [[Vivek Kumar Singh]]
 
 * [[Sachin Valera]]
+
 
 ### Former
 
