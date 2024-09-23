@@ -16,10 +16,76 @@
 
 ## Idea
 
-A [[physical system]] in [[solid state physics]] consisting of [[electrons]] confined to an essentially 2-dimensional surface and subject to a perpendicular [[magnetic field]].
+At sufficiently low tempetrature, [[quantum physics|quantum effects]] change the nature of the classical [[Hall effect]], in two ways:
 
-In an appropriate limit of low [[temperature]] aspects of this system are described by the [[topological quantum field theory]] called _[[Chern-Simons theory]]_. In this limit the system has been proposed as constituting a possible implementation of [[topological quantum computation]].
+1. in the *integral* quantum Hall effect, quantization of the [[energy]] into *Landau levels* of electrons that are circulating in a transverse [[magnetic field]] while confined to a plane, causes the [[Hall effectHall resistance]], which classically increases linearly with increasing external [[magnetic field]], to instead intermittently form constant "plateaus" as these get "filled" by electron states,
 
+1. in the *fractional quantum Hall effect*, strong external magnetic field causes these Landau levels to be filled only partially and the strongly Coulomb-coupled electrons to form [[bound states]] "with" magnetic [[flux quantization|flux quanta]] that may exhibit effective *fractional* charge and, apparently, "fractional statistics" ([[anyon|anyonic]] [[braiding]] behaviour).
+
+
+### Integer quantum Hall effect
+
+(...)
+
+
+### Fractional quantum Hall effect
+ {#IdeaFQHE}
+
+A neat informal account is given by [Störmer 1999](#Störmer99):
+
+> "In the [[fractional quantum Hall effect|FQHE]], the electrons assume an even more favorable state \[than in the IQHE\], unforeseen by theory, by conducting an elaborate, mutual, quantum-mechanical dance. Many-particle effects are extraordinarily challenging to address theoretically. \[...\] on occasion many-particle interactions become the essence of a physical effect. [[superconductivity|Superconductivity]] and [[superfluidity]] are of such intricate origin. To account for their occurrence one had to devise novel, sophisticated theoretical means. The emergence of the FQHE requires such a new kind of thinking. \[...\] 
+
+> It was an important conceptual step to realize that an
+impinging [[magnetic field]] $B$ could be viewed as creating
+tiny whirlpools, so-called [[vortices]], in this lake of
+charge—one for each [[flux quantization|flux quantum]] $\phi_0 = h/e$ of the magnetic field. \[...\] Casting electron-electron correlation in terms of vortex attachment facilitates the comprehension of this intricate many-particle behavior. Regarding the vortices as little whirlpools ultimately remains a crutch for visualizing something that has no classical analog. \[...\] 
+
+\begin{imagefromfile}
+    "file_name": "Stormer99-Fig14.jpg",
+    "float": "right",
+    "width": 360,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+> At magnetic fields higher than the $i = 1$ IQHE, the stronger magnetic field provides more flux quanta and hence there are more vortices than there are electrons. The Pauli principle is readily satisfied by placing one vortex onto each electron \[Fig. 14(a)\]—but there are more vortices available. The electron system can considerably reduce its electrostatic Coulomb energy by placing more vortices onto each electron \[Fig. 14(b)\]. More vortices on an electron generate a bigger surrounding whirlpool, pushing further away all fellow electrons, thereby reducing the repulsive energy. \[...\]
+
+> Vortices are the expression of flux quanta in the 2D electron system, and each vortex can be thought of as
+having been created by a flux quantum. Conceptually, it
+is advantageous to represent the vortices simply by their
+"generators", the flux quanta themselves. Then the placement of vortices onto electrons becomes equivalent to the attachment of magnetic flux quanta to the carriers. Electrons plus flux quanta can be viewed as new entities, which have come to be called composite particles, CPs. 
+
+> As these objects move through the liquid, the flux quanta act as an invisible shield against other electrons. Replacing the system of highly interacting electrons by a system of electrons with such a "guard ring" -- compliments of the magnetic field -- removes most of the electron-electron interaction from the problem and leads to composite particles which are almost void of mutual interactions. It is a minor miracle that such a transformation from a very complex many-particle problem of well-known objects (electrons in a magnetic field) to a much simpler single-particle problem of rather complex objects (electrons plus flux quanta) exists and that it was discovered.
+
+> CPs act differently from bare electrons. All of the external magnetic field has been incorporated into the particles via flux quantum attachment to the electrons. Therefore, from the perspective of CPs, the magnetic field has disappeared and they no longer are subject to it. They inhabit an apparently field-free 2D plane. Yet more importantly, the attached flux quanta change the character of the particles from fermions to bosons and back to fermions. \[...\]
+
+\begin{imagefromfile}
+    "file_name": "Stormer99-Fig16.jpg",
+    "float": "right",
+    "width": 360,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+> {#StormerOnThirdFractionModel} As the magnetic field deviates from exactly $\nu = 1/3$ filling to higher fields, more vortices are being created (Fig. 16). They are not attached to any electrons, since this would disturb the symmetry of the condensed state. The amount of charge deficit in any of these vortices amounts to exactly 1/3 of an electronic charge. These quasiholes (whirlpool in the electron lake) are effectively positive charges as compared to the negatively charged electrons. An analogous argument can be made for magnetic fields slightly below $\nu = 1/3$ and the creation of quasielectrons of negative charge $e/3$. Quasiparticles can move freely through the 2D plane and transport electrical current. They are the famous 1/3 charged particles of the FQHE that have been observed by various experimental means \[...\]. 
+
+> Plateau formation in the FQHE arises, in analogy to plateau formation in the IQHE from potential fluctuations and the resulting localization of carriers. In the case of the FQHE the carriers are not electrons, but, instead, the bizarre fractionally charged quasiparticles.
+
+> &lbrack;end of excerpt from [Störmer 1999](#Störmer99)&rbrack;
+
+
+\linebreak
 
 ## Properties
 
@@ -119,8 +185,7 @@ Review of this theory behind the quantum Hall effect:
 
 Review and survey of the FQHE:
 
-* [[Horst L. Störmer|Horst L. Stormer]]: *Nobel Lecture: The fractional quantum Hall effect*, Rev. Mod. Phys. **71** (1999) 875 \[<a href="https://doi.org/10.1103/RevModPhys.71.875">doi:10.1103/RevModPhys.71.875</a>\]
-
+* {#Störmer99} [[Horst L. Störmer]]: *Nobel Lecture: The fractional quantum Hall effect*, Rev. Mod. Phys. **71** (1999) 875 \[<a href="https://doi.org/10.1103/RevModPhys.71.875">doi:10.1103/RevModPhys.71.875</a>\]
 
 * [[Steven M. Girvin]], *Introduction to the Fractional Quantum Hall Effect*, S&eacute;minaire Poincar&eacute; **2** (2004) 53–74, reprinted in *The Quantum Hall Effect*, Progress in Mathematical Physics **45**, Birkhäuser (2005)  &lbrack;[pdf](http://www.bourbaphy.fr/girvin.pdf), [doi:10.1007/3-7643-7393-8_4](https://doi.org/10.1007/3-7643-7393-8_4)&rbrack;
 
