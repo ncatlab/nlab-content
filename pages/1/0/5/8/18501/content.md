@@ -1,5 +1,15 @@
-* table of contents
-{: toc}
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Limits and colimits
++-- {: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 ## Idea
 
