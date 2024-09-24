@@ -270,7 +270,7 @@ The analogous statement in [[topology]] is:
 
 The case of the category of [[smooth manifolds]] with (just) [[diffeomorphisms]] between them is proved in
 
-* {#Pursell52} [[Lyle Eugene Pursell]], _Algebraic structures associated with smooth manifolds_, PhD dissertation, Purdue University, (1952)  93 pp.  &lbrack;ISBN:978-1392-88143-9, [proquest:2327629257](https://www.proquest.com/docview/2327629257)&rbrack;
+* {#Pursell52} [[Lyle Eugene Pursell]], _Algebraic structures associated with smooth manifolds_, PhD dissertation, Purdue University, (1952)  93 pp.  &lbrack;ISBN:978-1392-88143-9, [proquest:2327629257](https://www.proquest.com/docview/2327629257)&rbrack;, [[pursell-dissertation.pdf:file]]
 
 following an announcement in 
 
