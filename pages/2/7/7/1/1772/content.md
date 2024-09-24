@@ -83,7 +83,6 @@ $$
   \,.
 $$
 
-{#ConcSheafOnConcSite}
 +-- {: .un_def}
 ###### Definition
 
@@ -95,7 +94,23 @@ A **concrete sheaf** is a presheaf that is both concrete and a [[sheaf]].
 
 So a concrete presheaf $X$ is a [[subobject]] of the presheaf $U \mapsto Hom_{Set}(Hom_C(*,U), X(*))$.
 
+We can equivalently define a concrete presheaves as a sets with structure. 
+
+First, for $U\in C$, write $|U|$ for the underlying set $Hom_C(*,U)$, and note that we can regard $Hom_C(U,V)\subseteq Hom_{Set}(|U|,|V|)$ since $Hom_C(*,-)$ is faithful. 
+
+Then a concrete presheaf $X$ is given by a set $|X|$ together with, for each $U\in C$ a $|U|$-ary relation $X(U)\subseteq |X|^{|U|}$, such that for any $f:U\to V$ in $C$, 
+$g\in X(V)$ implies $gf\in X(U)$, and such that $X(*)=|X|$. 
+
+This data defines a concrete presheaf $X:C^{\op}\to Set$, and every concrete presheaf is isomorphic to one of this form.
+
+To give a natural transformation between concrete presheaves $X\to Y$ is to give a function $|X|\to |Y|$ that preserves the relations.  
+
++-- {: .un_def #ConcSheafOnConcSite}
+###### Definition 
+
 Write $Conc(Sh(C)) \hookrightarrow Sh(C)$ for the [[full subcategory]] of the [[category of sheaves]] on concrete sheaves.
+
+=--
 
 
 
