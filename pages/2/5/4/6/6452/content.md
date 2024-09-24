@@ -38,6 +38,7 @@ century_, Springer Undergraduate Mathematics Series
 * Dirk Jan Struik, _A concise history of mathematics_
 * [[Umberto Bottazzini]], _Il flauto di Hilbert: Storia della matematica_, UTET Universit&#224;, 473pp.; _The higher calculus: A history of real and complex analysis from Euler to Weierstrass_, Springer 1986
 * B. L. van  der  Waerden, _Geometry and algebra in ancient civilizations_, Springer 1983 [gBooks](https://books.google.hr/books?id=-pTzCAAAQBAJ)
+* [[Alexandre Borovik]], M. G. Katz, _Who gave you the Cauchy--Weierstrass tale? The dual history of rigorous calculus_, Found. Sci. __17__, 245--276 (2012) [doi](https://doi.org/10.1007/s10699-011-9235-x)
 
 ## Wiki, collection and encyclopaedia articles
 
