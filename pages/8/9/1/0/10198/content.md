@@ -58,8 +58,8 @@ The [[philosophy]] of [[mathematics]].
 
 * [[George Lakoff]], Rafael E. N&#250;&#241;ez, _Where mathematics comes from_, Basic Books 2000, xviii+493 pp. [MR2001i:00013](http://www.ams.org/mathscinet-getitem?mr=1794854)
 
-* [[Yuri Manin|Yuri I. Manin]], _Mathematics as Metaphor:
-Selected Essays of Yuri Manin_, Amer. Math. Soc. 2007
+* [[Yuri Manin|Yuri I. Manin]], _Mathematics as Metaphor_:
+Selected Essays of Yuri Manin, Amer. Math. Soc. 2007
 
 * Michael D. Potter, _Set theory and its philosophy: a critical introduction_, Oxford Univ. Press 2004
 
@@ -73,7 +73,7 @@ Selected Essays of Yuri Manin_, Amer. Math. Soc. 2007
 
 * Paolo Mancosu, _Philosophy of mathematics and mathematical practice in the seventeenth century_, OUP, 1996.
 
-* Imre Lakatos, _Proof and refutations_
+* Imre Lakatos, _Proofs and refutations_, in J. Worrall & E. Zahar (Eds.), The logic of mathematical discovery. Cambridge University Press 1978
 
 * [[Hermann Weyl]], _Philosophy of Mathematics and Natural Science_, Princeton University Press, 2nd edition, Princeton University Press, 1950 ([ISBN:9780691141206](https://press.princeton.edu/books/paperback/9780691141206/philosophy-of-mathematics-and-natural-science))
 
