@@ -36,6 +36,10 @@ Monographs:
 
 * {#Polsihchuk03} [[Alexander Polishchuk]], section 16.3 of: _Abelian varieties, Theta functions and the Fourier transform_, Cambridge University Press (2003) &lbrack;[pdf](http://math1.unice.fr/~beauvill/pubs/poli.pdf)&rbrack;
 
+Discussion in [[differential geometry]] and with an eye towards of ([[topological T-duality|topological]] and geometric) [[T-duality]]:
+
+* [[Konrad Waldorf]], §2.2 in: *Geometric T-duality: Buscher rules in general topology*,  Ann. Henri Poincaré **25** (2024) 1285–1358 &lbrack;[arXiv:2207.11799](https://arxiv.org/abs/2207.11799), [doi:10.1007/s00023-023-01295-0](https://doi.org/10.1007/s00023-023-01295-0)&rbrack;
+
 
 [[!redirects Poincaré line bundles]]
 
