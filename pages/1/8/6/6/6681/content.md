@@ -104,6 +104,13 @@ surveyed in:
 
 * [[Juan Maldacena]], *Three point amplitudes + Soft theorems in the BFSS matrix model*, talk at *[KITP Conference: Spacetime and String Theory](https://online.kitp.ucsb.edu/online/strings-c24/)* (Apr 2024) &lbrack;[doi;10.26081/K62T48](https://doi.org/10.26081/K62T48)&rbrack;
 
+On the [[no boundary proposal]]:
+
+* [[Juan Maldacena]], *Comments on the no boundary wavefunction and slow roll inflation* &lbrack;[arXiv:2403.10510](https://arxiv.org/abs/2403.10510)&rbrack;
+
+* Victor Ivo, Yue-Zhou Li, [[Juan Maldacena]]: *The no boundary density matrix* &lbrack;[arXiv:2409.14218](https://arxiv.org/abs/2409.14218)&rbrack;
+
+
 
 
 ## Related entries
