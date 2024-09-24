@@ -22,7 +22,7 @@
 
 Quillen's _small object argument_ is a transfinite functorial construction of a [[weak factorization system]] (on some [[category]] $C$) that is **cofibrantly generated** by a set of [[morphisms]] $I \subset Mor(C)$. 
 
-This construction is notably used in the theory of [[model category|model categories]] and in particular [[cofibrantly generated model category|cofibrantly generated model categories]] in order to demonstrate the existence of the  required factorization of morphisms into composites of (acyclic) cofibrations following by (acyclic) fibrations, and in order to find such factorization choices [[functorial factorization|functorially]].
+This construction is notably used in the theory of [[model category|model categories]] and in particular [[cofibrantly generated model category|cofibrantly generated model categories]] in order to demonstrate the existence of the  required factorization of morphisms into composites of (acyclic) cofibrations followed by (acyclic) fibrations, and in order to find such factorization choices [[functorial factorization|functorially]].
 
 The small object argument is the simplest when the underlying category is [[locally presentable category|locally presentable]], in which case the resulting weak factorization system is called [[combinatorial wfs|combinatorial]], and is an ingredient in a [[combinatorial model category]].  A more general notion is that of an [[accessible weak factorization system]], which can be constructed by the [[algebraic small object argument]] from a more general "category of generating maps".
 
