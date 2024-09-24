@@ -163,6 +163,8 @@ For a [[simplicial set]] regarded as a [[presheaf]] on the [[simplex category]],
 
 * [[Grothendieck construction]]
 
+* [[2-Grothendieck construction]]
+
 * [[(∞,1)-Grothendieck construction]]
 
 * [[semi-direct product]]
