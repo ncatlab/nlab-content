@@ -88,6 +88,10 @@ _[[schreiber:Introduction to Homological Algebra|Introduction]]_
 
   * [[homotopy limit]], [[homotopy colimit]]
 
+  * [[lim^1 and Milnor sequences]]
+
+  * [[fr-code]]
+
 * [[abelian sheaf cohomology]]
 
 
