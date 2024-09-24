@@ -18,6 +18,8 @@ On [[configuration spaces of points]] in general poisition inside [[complex proj
 
 * [[Nima Arkani-Hamed]], [[Thomas Lam]], [[Marcus Spradlin]], *Positive configuration space*, Commun. Math. Phys. **384** (2021) 909–954  &lbrack;[arXiv:2003.03904](https://arxiv.org/abs/2003.03904), [doi:10.1007/s00220-021-04041-x](https://doi.org/10.1007/s00220-021-04041-x)&rbrack;
 
+Combinatorial geometry
 
+* [[Thomas Lam]], [[Alexander Postnikov]], _Alcoved polytopes I_, arXiv:[math.CO/0501246](https://arxiv.org/abs/math/0501246)
 
 category: people
