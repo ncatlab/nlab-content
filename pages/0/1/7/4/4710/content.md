@@ -53,6 +53,8 @@ $$ 1 = a u $$
 $$ 1 = u a $$
 (on the right).
 
+All units in a unital ring form a group, the group of units.
+
 In a [[commutative ring]] (or rig), a __unit__ is an element of $R$ that has an [[inverse element|inverse]], period.  Of course, a commutative ring $R$ is a [[field]] just when every non-[[zero]] element is a unit.
 
 
