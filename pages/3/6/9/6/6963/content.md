@@ -1,5 +1,3 @@
-
-# $\mathcal{M}$-categories
 * table of contents
 {: toc}
 
@@ -90,11 +88,11 @@ $$\hom_{\mathcal{M}}((0, 1), (T, L)) \cong L.$$
 
 $\mathcal{M}$-categories are mentioned as $Subset$-categories (thinking of $\mathcal{M}$ as the category of [[subset]] inclusions) in
 
-*  [[John Power]] (2002), Premonoidal categories as categories with algebraic structure, Theoretical Computer Science 278, [pdf](http://www.inf.ed.ac.uk/publications/online/0413.pdf).
+*  [[John Power]] (2002), _Premonoidal categories as categories with algebraic structure_, Theoretical Computer Science 278, [pdf](http://www.inf.ed.ac.uk/publications/online/0413.pdf).
 
 We discussed them in the [[nlabmeta:n-Forum]] as part of a discussion of the category of [[Banach spaces]]:
 
-*  [[Mark Meckes]] et al (2011), Banach space, n-Forum, ([discussion link](https://nforum.ncatlab.org/discussion/3289/banach-space/)).
+*  [[Mark Meckes]] et al. (2011), Banach space, n-Forum, ([discussion link](https://nforum.ncatlab.org/discussion/3289/banach-space/)).
 
 
 [[!redirects M-category]]
