@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[homological algebra]] it turns out that a host of common (co)homological constructions (such as [[group homology]], [[cyclic homology]], etc.) may be cast in a unified way as [[homotopy limits]] of [[functors]] on [[categories]] of [[presentations]] of the given alebraic [[structure]] ([[group]], [[Lie algebra]], [[associative algebra]], etc.) &lbrack;[Ivanov & Mikhailov 2015](#IvanovMikhailov15)&rbrack;, in fact all these functors may systematically be indexed by "fr-codes" &lbrack;[Ivanov & Mikhailov 2017](#IvanovMikhailov17)&rbrack;.
+In [[homological algebra]] it turns out that a host of common (co)homological constructions (such as [[group homology]], [[cyclic homology]], etc.) may be cast in a unified way as [[homotopy limits]] of [[functors]] on [[categories]] of [[presentations]] of the given algebraic [[structure]] ([[group]], [[Lie algebra]], [[associative algebra]], etc.) &lbrack;[Ivanov & Mikhailov 2015](#IvanovMikhailov15)&rbrack;, in fact all these functors may systematically be indexed by "fr-codes" &lbrack;[Ivanov & Mikhailov 2017](#IvanovMikhailov17)&rbrack;.
 
 ## References
 
