@@ -5,7 +5,7 @@
 
 On [[topological stacks]] and [[differentiable stacks]]:
 
-* {#Carchedi11} [[David Carchedi]], _Categorical Properties of Topological and Diffentiable Stacks_, PhD thesis, Universiteit Utrecht, 2011 ([dspace:1874/208971](https://dspace.library.uu.nl/handle/1874/208971), [pdf](http://math.gmu.edu/~dcarched/Thesis_David_Carchedi.pdf), [[CarchediDifferentiableStacks.pdf:file]])
+* {#Carchedi11} [[David Carchedi]], _Categorical Properties of Topological and Differentiable Stacks_, PhD thesis, Universiteit Utrecht, 2011 ([dspace:1874/208971](https://dspace.library.uu.nl/handle/1874/208971), [pdf](http://math.gmu.edu/~dcarched/Thesis_David_Carchedi.pdf), [[CarchediDifferentiableStacks.pdf:file]])
 
 On [[smooth superalgebras]]:
 
