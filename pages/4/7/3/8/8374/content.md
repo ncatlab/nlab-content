@@ -1,11 +1,29 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/David_Hilbert)
 
+* {#Reid70} Constanze Reid: *Hilbert*, Springer (1970) &lbrack;[doi:10.1007/978-3-662-28615-9](https://doi.org/10.1007/978-3-662-28615-9)&rbrack;
+
+
 ## Selected writings
 
 On the mathematical foundations of [[quantum mechanics]]:
 
 * {#HilbertvonNeumannNordheim} [[David Hilbert]], [[John von Neumann]], [[Lothar W. Nordheim]], *Über die Grundlagen der Quantenmechanik*,  Math. Ann. **98** (1928) 1–30 &lbrack;[doi:10.1007/BF01451579](https://doi.org/10.1007/BF01451579)&rbrack;
+
+
+## Related pages
+
+* [[Hilbert's problems]]
+
+* [[Hilbert's program]]
+
+* [[Einstein-Hilbert action]]
+
+* [[Hilbert's theorem 90]]
+
+* [[Hilbert space]]
+
+* [[Naturerkennen und Logik]]
 
 
 ## Further resources
@@ -24,26 +42,40 @@ Lectures by Hilbert on [[physics]] and especially on [[general relativity]] are 
 
   see also [[Eugene Wigner]], _[[The Unreasonable Effectiveness of Mathematics in the Natural Sciences]]_
 
-## Stories
+## Quotes and anecdotes
  {#Stories}
+
+In [[mathematics]]:
+
+From [archive.org/details/philosophyoferns033109mbp](https://archive.org/details/philosophyoferns033109mbp):
 
 > Cassirer liked to tell the following story: once he met the great mathematician Hilbert, the "Euclid of our time," and asked him about one of the latter's disciples. Hilbert answered: "He is all right. You know, for a mathematician he did not have enough imagination. But he has become a poet and now he is doing fine.   
 
-(from [archive.org/details/philosophyoferns033109mbp](https://archive.org/details/philosophyoferns033109mbp))
+\linebreak
 
-## Related pages
+{#PhysicsTooHard} On [[physics]] (cf. *[[Hilbert's sixth problem]]*), quoted in [Reid 1970 p 126](#Reid70):
 
-* [[Hilbert's problems]]
+> "Physics is much too hard for physicists."
 
-* [[Hilbert's program]]
+(echoed in Amati/Witten's [quote](Edward+Witten#BeenSaid): "String theory is part of the physics of the twenty-first century that fell by chance into the twentieth century.").
 
-* [[Einstein-Hilbert action]]
+Here is the full paragraph in [Reid 1970 p 126](#Reid70):
 
-* [[Hilbert's theorem 90]]
+\begin{imagefromfile}
+    "file_name": "HilbertOnPhysics-Reidp127.jpg",
+    "width": 550,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
 
-* [[Hilbert space]]
 
-* [[Naturerkennen und Logik]]
+
+
 
 category: people
 
