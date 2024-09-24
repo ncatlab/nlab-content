@@ -102,6 +102,21 @@ I haven\'t managed to find either a proof or a counterexample to the converse (i
 Response: If $R$ is a rng with a unit $u$, then every element uniquely factors through $u$. In particular, $u$ itself does. $u = a u$, with $a$ unique. So $a$ is an identity.
 
 Reply: Why is $a$ an identity then?  This works if the rng is commutative: given any $v$, write $v$ as $b u$, and then $a v = a (b u) = b (a u) = b u = v$.  But without commutativity (and associativity), this doesn\'t work.
+
+Response: I believe it also works in the non-commutative case, but for a more complicated reason.
+Suppose $R$ is a not-necessarily-commutative rng with a unit $u$;
+first, observe that $u$ is neither a left nor a right zero divisor, as the equations $0=x\cdot u$ and $0=u\cdot x$ both have $0$ as a solution, and that must be unique.
+Now, denote by ${}_a u^{-1}$ the unique element s.t. $a= {}_a u^{-1} \cdot u$, and denote by $u^{-1}_b$ the unique element s.t. $b= u\cdot u^{-1}_b$;
+we want to show that $u^{-1}_u= {}_u u^{-1}$ and that is the unit of $R$.
+First, notice that
+$$ a\cdot u^{-1}_u= {}_a u^{-1}\cdot u \cdot u^{-1}_u= {}_a u^{-1} \cdot u = a$$
+and
+$$ {}_u u^{-1} \cdot b= {}_u u^{-1} \cdot u\cdot u^{-1}_b=u\cdot u^{-1}_b=b,$$
+for all $a,b\in R$;
+therefore, we just need to show that $u^{-1}_u= {}_u u^{-1}$.
+To do it, notice that, on the one hand, one has $u = {}_u u^{-1}\cdot u$;
+on the other hand, one has $u\cdot u^{-1}_u \cdot u=u\cdot u$, hence $u\cdot (u^{-1}_u\cdot u-u)=0$, which must imply $u= u^{-1}_u\cdot u$ since $u$ is not a zero divisor;
+by uniqueness of the solution $x$ to $u=x\cdot u$, we deduce that $u^{-1}_u= {}_u u^{-1}$.
 =--
 
 It is this meaning of 'unit' which gives rise to the [[unit of an adjunction]].
