@@ -165,6 +165,8 @@ The original article:
 
 * {#Whitney35} [[Hassler Whitney]], _On the abstract properties of linear dependence_, American Journal of Mathematics (The Johns Hopkins University Press) **57** 3  (1935) 509-533 &lbrack;[jstor:2371182](http://jstor.org/stable/2371182), [MR1507091](http://www.ams.org/mathscinet-getitem?mr=1507091)&rbrack;
 
+* H. H. Crapo, [[Gian Carlo Rota]], _On the foundations of combinatorial theory: combinatorial geometries_, MIT Press, Cambridge 1970
+
 On the [[category]] of matroids with *strong maps* between them:
 
 * [[Chris Heunen]], [[Vaia Patta]], *The category of matroids*, Applied Categorical Structures **26** (2018) 205–237 &lbrack;[arXiv:1512.01390](https://arxiv.org/abs/1512.01390), [doi:10.1007/s10485-017-9490-2](https://doi.org/10.1007/s10485-017-9490-2)&rbrack;
@@ -205,6 +207,8 @@ Further references:
 * P. S. Kung, _A source book in matroid theory_, Birkh&#228;user, Boston, 1986.
 * Jim Geelen, Bert Gerards, Geoff Whittle, _Towards a structure theory for matrices and matroids_ , ICM 2006 Proceedings 827--842 [pdf](https://homepages.ecs.vuw.ac.nz/~whittle/pubs/towards_a_structure_theory_for_matrices_and_matroids.pdf)
 * [[I. M. Gelfand]], R. M. Goresky, R. D. MacPherson, _Combinatorial geometries, convex polyhedra, and Schubert cells_, Adv. Math. __63 (1987) 301--316 
+* [[Federico Ardila]], _The geometry of geometries: matroid theory, old and new_, [arXiv:2111.08726](https://arxiv.org/abs/2111.08726)
+
 
 category: combinatorics, model theory
 
