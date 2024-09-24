@@ -90,7 +90,7 @@ The identification of [[super AdS spacetime|super $AdS_4\times S^7$]] with a [[c
 
 Further discussion:
 
-* [[Igor Bandos]], Jerzy Lukierski, Christian Preitschopf, [[Dmitri Sorokin]], _OSp supergroup manifolds, superparticles and supertwistors_, Phys.Rev.D61:065009, 2000 ([arXiv:hep-th/9907113](https://arxiv.org/abs/hep-th/9907113))
+* [[Igor Bandos]], Jerzy Lukierski, Christian Preitschopf, [[Dmitri Sorokin]]: _$OSp$ supergroup manifolds, superparticles and supertwistors_, Phys. Rev. D **61** (2000) 065009 &lbrack;[arXiv:hep-th/9907113](https://arxiv.org/abs/hep-th/9907113)&rbrack;
 
 * {#BergshoessProeyen00} [[Eric Bergshoeff]], [[Antoine Van Proeyen]]: *The many faces of $OSp(1|32)$*, Class. Quantum Grav. **17** (2000) 3277-3303 &lbrack;[arXiv:hep-th/0003261](http://arxiv.org/abs/hep-th/0003261), [doi:10.1088/0264-9381/17/16/312](https://iopscience.iop.org/article/10.1088/0264-9381/17/16/312)&rbrack;
 
