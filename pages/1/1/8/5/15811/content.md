@@ -44,3 +44,11 @@ Review and further discussion:
 
 * Wikipedia, *[Hartle-Hawking state](https://en.wikipedia.org/wiki/Hartle%E2%80%93Hawking_state)*
 
+See also:
+
+* Victor Ivo, Yue-Zhou Li, [[Juan Maldacena]]: *The no boundary density matrix* &lbrack;[arXiv:2409.14218](https://arxiv.org/abs/2409.14218)&rbrack;
+
+
+
+
+
