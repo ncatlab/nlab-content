@@ -25,5 +25,9 @@ Other works
 
 * {#Nima2021} [[Nima Arkani-Hamed]], [[Thomas Lam]], [[Marcus Spradlin]], _Positive configuration space_, Commun. Math. Phys. 384, 909--954 (2021) [doi](https://doi.org/10.1007/s00220-021-04041-x)
 
+An analogue for flag matroids and flag varieties
+
+* Jonathan Boretsky, _The tropical geometry of flag positroids_, PhD Thesis, Harvard 2024 [pdf](https://dash.harvard.edu/bitstream/handle/1/37378818/Boretsky%20DAC-merged.pdf?sequence=1&isAllowed=y)
+
 
 category: combinatorics, algebra
