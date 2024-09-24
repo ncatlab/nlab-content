@@ -11,7 +11,9 @@ He got his PhD in 1952 from Purdue University, advised by Merrill E. Shanks.
 
 On the [[embedding of smooth manifolds into formal duals of R-algebras]]:
 
-* [[Lyle Eugene Pursell]], _Algebraic structures associated with smooth manifolds_, PhD dissertation, Purdue University, 1952.  93 pp.  ISBN: 978-1392-88143-9.  [PDF](https://www.proquest.com/docview/2327629257).
+* {#Pursell52} [[Lyle Eugene Pursell]]: _Algebraic structures associated with smooth manifolds_, PhD dissertation, Purdue University (1952)  93 pp.  &lbrack;ISBN:978-1392-88143-9, [proquest:2327629257](https://www.proquest.com/docview/2327629257), [pdf](https://ncatlab.org/nlab/files/pursell-dissertation.pdf)&rbrack;
+
+
 
 On [[Gram-Schmidt orthogonalization]] via [[Gaussian elimination]]:
 
