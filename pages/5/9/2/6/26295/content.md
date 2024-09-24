@@ -26,7 +26,7 @@ Generalization of the [[Grothendieck construction]] from [[categories]] to [[2-c
 
 Definition of a bicategory of elements construction for pseudo-distributors/pseudo-profunctors:
 
-* [[Ross Street]], §1.10 of: _Fibrations in bicategories_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], **21** 2 (1980) 111-160 &lbrack;[numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)&rbrack;
+* [[Ross Street]], §1.10 of: _Fibrations in bicategories_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], **21** 2 (1980) 111-160 &lbrack;[numdam](http://www.numdam.org/article/CTGDC_1980__21_2_111_0.pdf)&rbrack;
 
 More exhaustive references:
 
