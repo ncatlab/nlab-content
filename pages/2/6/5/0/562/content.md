@@ -444,6 +444,8 @@ _Toby_:  So the multiplication is strictly associative, but the $2$-group itself
 
 * [[foliated category]]
 
+* [[Grothendieck construction]], [[category of elements]]
+
 ## References 
  {#References}
 
