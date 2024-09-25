@@ -1,3 +1,4 @@
+[[!redirects coherence theorem for monoidal categories]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -19,17 +20,21 @@
 
 ## Idea
 
-The _coherence theorem for [[monoidal categories]]_, like many [[coherence theorems]], has several forms (or, alternatively, refers to several different theorems):
+The [[coherence theorem]] and [[strictification theorem]] for [[monoidal categories]] may each take several forms. In [[Categories for the Working Mathematician]], [[Mac Lane]] shows (page 257 -- 260) how to derive coherence from strictification and conversely.
+
+### Coherence theorems
 
 1. Every "formal" diagram in a [[monoidal category]] made up of [[associators]] and [[unitors]] commutes.
 
 1. Every diagram in a *free* monoidal category made up of associators and unitors commutes.
 
+1. Every monoidal category is equivalent to an [[unbiased monoidal category]].
+
+### Strictification theorems
+
 1. The free monoidal category on some given data is equivalent to the free [[strict monoidal category]] on the same data.
 
 1. Every monoidal category is monoidally equivalent to a [[strict monoidal category]].
-
-1. Every monoidal category is equivalent to an [[unbiased monoidal category]].
 
 1. The forgetful 2-functor $StrMonCat \to MonCat$ has a strict [[left adjoint]] and the components of the unit are equivalences in $MonCat$.
 
@@ -68,3 +73,5 @@ See also section 5 of
 ## See also
 
 - [[coherence theorem for symmetric monoidal categories]]
+
+[[!redirects coherence theorem for monoidal categories]]
