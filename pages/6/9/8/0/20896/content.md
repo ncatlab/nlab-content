@@ -75,5 +75,5 @@ This conjecture was proved in [Kim 16](#Kim16) under the assumption that the obj
 [[!redirects commutative monoidal categories]]
 [[!redirects Commutative monoidal category]]
 [[!redirects Commutative monoidal categories]]
-
-
+[[!redirects strict symmetric monoidal category]]
+[[!redirects strict symmetric monoidal categories]]
