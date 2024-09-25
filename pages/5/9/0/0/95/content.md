@@ -61,7 +61,7 @@ $$
   \,.
 $$
 
-This corresponds to what is referred to as the *total homotopy order of a space* by [Quinn (1995)](#Quinn95), although similar ideas were explored by several researchers at that time.
+This corresponds to what is referred to as the *homotopy Euler characteristic* by [Kontsevich (1988)](#Kontsevich88) and the *total homotopy order of a space* by [Quinn (1995)](#Quinn95), although similar ideas were explored by several researchers at that time.
 
 
 
@@ -116,6 +116,8 @@ This corresponds to what is referred to as the *total homotopy order of a space*
 * [[João Faria Martins]],  On the homotopy type and the fundamental crossed complex of the skeletal filtration of a CW-complex (web [pdf](http://www.intlpress.com/HHA/v9/n1/a13/) ) 
 
 * [[João Faria Martins]], [[Tim Porter]], On Yetter's Invariant and an Extension of the Dijkgraaf-Witten Invariant to Categorical Groups, (web [pdf] (http://www.tac.mta.ca/tac/volumes/18/4/18-04abs.html )) 
+
+* {#Kontsevich88} [[Maxim Kontsevich]], _Rational conformal field theory and invariants of 3-dimensional manifolds_, Centre de Physique Théorique Marseille, preprint 2189, (web [pdf](https://www.ihes.fr/~maxim/TEXTS/3TQFT_and_RCFT.pdf))
 
 * [[Tom Leinster]], _The Euler characteristic of a category_ ([arXiv](http://arxiv.org/abs/math.CT/0610260), [TWF](http://math.ucr.edu/home/baez/week244.html), [blog](http://golem.ph.utexas.edu/category/2007/02/this_weeks_finds_in_mathematic_5.html), [blog](http://golem.ph.utexas.edu/category/2006/10/euler_characteristic_of_a_cate.html))
 
