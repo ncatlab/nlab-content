@@ -40,11 +40,11 @@ This distinction could also be made in [[set theory]]: Given a proposition $P$, 
 
 * a **merely cotransitive relation** or **merely weakly linear relation** on a set $A$ is a relation $\sim$ which for all $x$, $y$, and $z$ one can construct an element 
 
-$$\mathrm{cotransitive}(x, y, z) \in \left[\{\top \vert x \sim y\} \uplus \{\top \vert y \sim z\}\right]^{\{\top \vert P\}}$$
+$$\mathrm{cotransitive}(x, y, z) \in \left[\{\top \vert x \sim y\} \uplus \{\top \vert y \sim z\}\right]^{\{\top \vert x \sim z\}}$$
 
 * a **purely cotransitive relation** or **purely weakly linear relation** or **constructively cotransitive relation** or **constructively weakly linear relation** on a set $A$ is a relation $\sim$ which for all $x$, $y$, and $z$ one can construct an element 
 
-$$\mathrm{cotransitive}(x, y, z) \in \left(\{\top \vert x \sim y\} \uplus \{\top \vert y \sim z\}\right)^{\{\top \vert P\}}$$
+$$\mathrm{cotransitive}(x, y, z) \in \left(\{\top \vert x \sim y\} \uplus \{\top \vert y \sim z\}\right)^{\{\top \vert x \sim z\}}$$
 
 ## Related concepts
 
