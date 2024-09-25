@@ -13,7 +13,7 @@
 * table of contents
 {: toc}
 
-## Idea ##
+## Idea
 
 Generally, a **coherence theorem** in [[category theory]] and [[higher category theory]] asserts that a [[coherence law]] is satisfied: it is a means of getting a handle on categorical structures where laws only hold up to [[isomorphism]] or higher [[k-morphism]] equivalences.
 
@@ -25,11 +25,7 @@ Coherence theorems are often useful when working with algebras in a doctrine, si
 
 ## Coherence versus strictification
 
-Confusing, the terms [[coherence theorem]] and [[strictification theorem]] are often interchanged. While they are related, and many structures of interest satisfy both coherence and strictification theorems, they are distinct.
-
-An explicit description of the free algebras for a doctrine is often helpful, if not essential, in proving a [[strictification theorem]], since in a strict structure where constraints become equalities, many more diagrams will turn out to commute (being composed of identities).  On the other hand, given a [[strictification theorem]], if we have an explicit description of the strict structure (which is generally easier to come by), we can often deduce a characterization of the free algebras for the weak structure.
-
-One thing to beware of is that, even for structures whose free-algebra coherence theorem is of the form "all diagrams commute", it does not necessarily follow that all such algebras can be fully strictified.
+See [[coherence versus strictification]].
 
 ## List of coherence theorems
  {#ListOfTheorems}
@@ -41,10 +37,7 @@ One thing to beware of is that, even for structures whose free-algebra coherence
 * [[coherence theorem for closed symmetric monoidal categories]]
 
 * [coherence theorem for bicategories](/nlab/show/bicategory#Coherence)
-* [[Lack's coherence theorem]] (not a true coherence theorem)
 * [coherence theorem for tricategories](/nlab/show/tricategory#Coherence)
-
-* [[coherence theorem for bicategories with finite limits]]
 * [[coherence theorem for monoidal bicategories]]
 * [[coherence theorem for braided monoidal bicategories]]
 * [[coherence theorem for symmetric monoidal bicategories]]
@@ -71,6 +64,5 @@ For some general frameworks, see the following.
 
 * [[Thomas Fiore]], Po Hu, and Igor Kriz. _Laplaza sets, or how to select coherence diagrams for pseudo algebras_, Advances in mathematics 218.6 (2008): 1705-1722.
 * Miles Gould. _Coherence for categorified operadic theories_, PhD thesis, [arXiv:1002.0879](https://arxiv.org/abs/1002.0879) (2010).
-
 
 [[!redirects coherence theorems]]
