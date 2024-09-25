@@ -1,5 +1,3 @@
-[[!redirects coherence theorem for monoidal categories]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -72,6 +70,8 @@ See also section 5 of
 
 ## See also
 
-- [[coherence theorem for symmetric monoidal categories]]
+- [[coherence and strictification for symmetric monoidal categories]]
+- [[coherence theorem]]
+- [[strictification theorem]]
 
 [[!redirects coherence theorem for monoidal categories]]
