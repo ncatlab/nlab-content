@@ -71,7 +71,13 @@ For now, see [[coherence theorem for bicategories with finite limits]], which gi
 
 ## Strictification versus coherence
 
-See [coherence versus strictification](https://ncatlab.org/nlab/show/coherence+theorem#coherence_versus_strictification).
+See [[strictification versus coherence]].
+
+## List of strictification theorems
+
+* [[coherence and strictification for monoidal categories]]
+* [[coherence and strictification for symmetric monoidal categories]]
+* [[strictification for bicategories with finite limits]]
 
 ## Related pages
 
