@@ -133,6 +133,8 @@ Monographs:
 
 * [[Charles Misner]], [[Kip Thorne]], [[John Wheeler]], _[[Gravitation]]_ (1973)
 
+* [[Theodore Frankel]]: *Gravitational Curvature*, Freeman, San Francisco (1979) &lbrack;[ark:13960/t58d7nn19](https://archive.org/details/gravitationalcur0000fran/)&rbrack;
+
 * [[Robert Wald]], *General Relativity*, University of Chicago Press (1984) &lbrack;[doi:10.7208/chicago/9780226870373.001.0001](https://doi.org/10.7208/chicago/9780226870373.001.0001), [pdf](http://fma.if.usp.br/~mlima/teaching/PGF5292_2021/Wald_GR.pdf)&rbrack;
 
 * [[Garth Warner]]: *Mathematical Aspects of General Relativity*, EPrint Collection, University Of Washington (2006) &lbrack;[hdl:1773/2637](http://hdl.handle.net/1773/2637), [pdf](https://sites.math.washington.edu//~warner/MAGR_Warner.pdf), [[Warner-GeneralRelativity.pdf:file]]&rbrack;
