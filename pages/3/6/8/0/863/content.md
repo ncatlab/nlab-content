@@ -85,6 +85,42 @@ One often sees $x \lt y$ defined as $x \le y$ but $x \ne y$; this is equivalent,
 
 Keep in mind, however, that the only use of [[excluded middle]] in the classical theory is the assumption that $x = y$, $x \lt y$, and $x \leq y$ are always either true or false.  There is therefore a perfect correspondence between [[decidable subset|decidable]] strict linear orders and decidable total orders on sets with [[decidable equality]].
 
+### Decidable pseudo-orders
+
+A pseudo-order on a set $A$ is [[decidable relation|decidable]] if for all $x$ and $y$ in $A$, $x \lt y$ or $\neg (x \lt y)$. 
+
+Given a proposition $P$, $P$ can be made into a [[subsingleton]] [[set]] by considering the subset $\{\top \vert P\} \coloneqq \{p \in \{\top\} \vert (p = \top) \wedge P\}$ of the [[singleton]] $\{\top\}$. Let $A \uplus B$ denote the [[disjoint union]] of sets $A$ and $B$, and let $B^A$ denote the function set with domain $A$ and codomain $B$.  
+
+\begin{theorem}
+Every decidable pseudo-order on a set $A$ is [[purely cotransitive]]: Given elements $x$, $y$, and $z$ in $A$, one can construct an element of the function set
+
+$$\mathrm{cotransitive}(x, y, z) \in \left(\{\top \vert x \lt y\} \uplus \{\top \vert y \lt z\}\right)^{\{\top \vert x \lt z\}}$$
+\end{theorem}
+
+\begin{proof}
+We prove this by case analysis. 
+
+Suppose that $x \lt y$. Then one can construct the element $\top \in \{\top \vert x \lt y\}$ and by definition of [[disjoint union]] an element $(0, \top) \in \{\top \vert x \lt y\} \uplus \{\top \vert y \lt z\}$. $\mathrm{cotransitive}(x, y, z)$ is given by the constant function $t \mapsto (0, \top)$. 
+
+Now suppose that $\neg (x \lt y)$. This means that $y \leq x \lt z$, and one can construct the element $\top \in \{\top \vert y \lt z\}$. By definition of [[disjoint union]] one can construct an element $(1, \top) \in \{\top \vert x \lt y\} \uplus \{\top \vert y \lt z\}$. $\mathrm{cotransitive}(x, y, z)$ is given by the constant function $t \mapsto (1, \top)$.
+
+Since $x \lt y$ is decidable this covers every possible case. Thus, every decidable pseudo-order is purely cotransitive. 
+\end{proof}
+
+The above proof first appeared for the pseudo-order of the [[real numbers]] in theorem 11.4.3 of the [[HoTT book]] in the context of [[dependent type theory]]. 
+
+\begin{corollary}
+Suppose that the [[rational numbers]] are a [[subset]] of the decidably pseudo-ordered set $A$, and the canonical injection $i:\mathbb{Q} \to A$ is strictly monotonic. Then for every element $x$ of $A$ one can construct a [[locator]] for $x$.  
+\end{corollary}
+
+\begin{proof}
+The locator is given by the [[dependent function]]
+
+$$(q, r) \mapsto \mathrm{cotransitive}(i(q), x, i(r)) \in \prod_{q, r \in \mathbb{Q}} \left(\{\top \vert q \lt x\} \uplus \{\top \vert x \lt r\}\right)^{\{\top \vert q \lt r\}}$$
+
+which always exists by the previous theorem and by the fact that the rational numbers are a subset of $A$ which preserves the pseudo-order. 
+\end{proof}
+
 ## See also
 
 * [[total order]]
@@ -97,6 +133,10 @@ Keep in mind, however, that the only use of [[excluded middle]] in the classical
 * Wikipedia, [https://en.wikipedia.org/wiki/Pseudo-order](https://en.wikipedia.org/wiki/Pseudo-order)
 
 * Heyting, Arend (1966). Intuitionism: an introduction (2nd ed.). Amsterdam: North-Holland Pub. Co. p. 106. ISBN:978-0-444-53406-4
+
+For a proof that the decidable pseudo-order on the real numbers is purely cotransitive, see theorem 11.4.3 of:
+
+* {#UFP13} [[Univalent Foundations Project]], Section 11.3 of: *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 [[!redirects pseudo-order]]
 [[!redirects pseudo-orders]]
