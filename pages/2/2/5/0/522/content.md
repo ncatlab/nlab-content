@@ -29,24 +29,6 @@ Since universal bundles are examples of this construction, we here speak of _gen
 
 One generalizaton of "generalized universal bundles" is that the objects in question need not be groupoidal, i.e. they behave like [[directed spaces]]. In this case the [[homotopy pullbacks]] familiar from topology are replaced by [[comma object]] constructions. This is useful in various applications. For instance the constructions [[category of elements]] and [[Grothendieck construction]] can be understood as such directed homotopy pullbacks of the point.
 
-See also
-
-* [[fibration sequence]]
-
-  * [[homotopy limit]]
-
-  * [[homotopy pullback]]
-
-* [[principal bundle]]
-
-* [[principal 2-bundle]]
-
-* [[principal ∞-bundle]]
-
-and in particular
-
-* [[universal principal ∞-bundle]].
-
 ## Definition
 
 Let $C$ be a [[closed monoidal category]] with [[interval object]] $I$. Then for any [[pointed object]] $pt \stackrel{pt_B}{\to}B$ in $C$ the **generalized universal $B$-bundle** is (if it exists) the morphism
@@ -305,7 +287,25 @@ $$
   \,.
 $$
 
-For more on this see at *[[infinity-action|$\infty$-action]]*
+For more on this see at *[[infinity-action|$\infty$-action]]*.
+
+## Related pages
+
+* [[fibration sequence]]
+
+  * [[homotopy limit]]
+
+  * [[homotopy pullback]]
+
+* [[principal bundle]]
+
+* [[principal 2-bundle]]
+
+* [[principal ∞-bundle]]
+
+and in particular
+
+* [[universal principal ∞-bundle]]
 
 
 [[!redirects generalized universal bundles]]
