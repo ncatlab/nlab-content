@@ -119,6 +119,10 @@ therefore, we just need to show that $u^{-1}_u= {}_u u^{-1}$.\linebreak
 To accomplish this, first notice that, on the one hand, one has $u = {}_u u^{-1}\cdot u$;\linebreak
 on the other hand, one has $u\cdot u^{-1}_u \cdot u=u\cdot u$, hence $u\cdot (u^{-1}_u\cdot u-u)=0$, which must imply $u= u^{-1}_u\cdot u$ since $u$ is not a zero divisor.\linebreak
 By uniqueness of the solution $x$ to $u=x\cdot u$, we deduce that $u^{-1}_u= {}_u u^{-1}$.
+
+Addendum: Having uniqueness for the solutions is essential in order for the converse to hold.\linebreak
+This is because, if a rng has an identity, the units are not zero divisors, therefore the equations of the form $a=x\cdot u$ and $a=u\cdot x$ all have a unique solution;\linebreak
+therefore, by contrapositive, if some of these equations have multiple solutions, then the rng has no identity.
 =--
 
 It is this meaning of 'unit' which gives rise to the [[unit of an adjunction]].
@@ -143,7 +147,7 @@ It is this meaning of 'unit' which gives rise to the [[unit of an adjunction]].
 
 See also 
 
-* Wilkipedia, _<a href="https://en.wikipedia.org/wiki/Unit_(ring_theory)">Unit (Ring theory)</a>_
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Unit_(ring_theory)">Unit (Ring theory)</a>_
 
 [[!redirects unit]]
 [[!redirects units]]
