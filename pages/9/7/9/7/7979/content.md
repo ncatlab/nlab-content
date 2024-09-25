@@ -308,7 +308,7 @@ On the Maxwell [[Green's function]] ([[propagator]]) and numerical solutions:
 
 Formulation of Maxwell's equations via "[[geometric algebra]]":
 
-* {#DoranLasenby03} [[Chris Doran]], [[Anthony Lasenby]], _Geometric algebra for physicists_, Cambridge University Press (2003) ([pdf](http://catdir.loc.gov/catdir/samples/cam033/2002035182.pdf))
+* {#DoranLasenby03} [[Chris Doran]], Anthony Lasenby: _Geometric algebra for physicists_, Cambridge University Press (2003) ([pdf](http://catdir.loc.gov/catdir/samples/cam033/2002035182.pdf))
 
 * {#Arthur11} John W. Arthur, *Understanding Geometric Algebra for Electromagnetic Theory*, John Wiley & Sons Inc. (2011). (ISBN:978-0470941638, [doi:10.1002/9781118078549](https://doi.org/10.1002/9781118078549))
 
