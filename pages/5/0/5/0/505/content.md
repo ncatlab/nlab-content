@@ -14,6 +14,20 @@ Sometimes a slightly different convention is used: There what we call subsinglet
 
 =--
 
+## Generating subsingletons from propositions
+
+Given a proposition $P$ and a singleton $\{*\}$, one can construct the subsingleton
+
+$$\{p \in \{*\} \vert (p = *) \wedge P\}$$
+
+This means that one can use the set-theoretic operations to define the [[BHK interpretation]] of logic: Given two propositions $P$ and $Q$, purely $P$ or $Q$ is given by an element of the binary [[disjoint union]]
+
+$$\{p \in \{*\} \vert (p = *) \wedge P\} \uplus \{p \in \{*\} \vert (p = *) \wedge Q\}$$
+
+and the pure existential quantifier of a [[predicate]] $P(x)$ on a set $A$ is given by an element of the indexed [[disjoint union]]
+
+$$\biguplus_{x \in A} \{p \in \{*\} \vert (p = *) \wedge P(x)\}$$
+
 ## Relation to the principles of omniscience
 
 Suppose that $A$ is a subsingleton. Then the [[existential quantifier]] $\exists x.x \in A$ which says that $A$ is an [[inhabited set]] is [[logical equivalence|equivalent]] to the [[existential quantifier]] $\exists x:A.(\lambda t.1)(x) = 1$, where $\lambda t.1$ is the [[constant function]] from $A$ to the [[boolean domain]] which takes elements of $A$ to the boolean $1 \in \mathrm{bool}$. Then, one can show that various [[principles of omniscience]] are equivalent to weak versions of the [[internal logic|internal]] excluded middle, via the special case of the constant function $\lambda t.1$: 
