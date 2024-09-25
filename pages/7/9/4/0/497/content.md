@@ -127,7 +127,7 @@ Excluded middle can be seen as a very weak form of the [[axiom of choice]] (a sl
 
 (Here, a set $A$ is **finite** or **finitely-indexed** (respectively) if, for some natural number $n$, there is a bijection or surjection (respectively) $\{0, \ldots, n - 1\} \to A$.)
 
-The proof is as follows.  If $p$ is a truth value, then divide $\{0,1\}$ by the equivalence relation where $0 \equiv 1$ iff $p$ holds.  Then we have a surjection $2\to A$, whose domain is $2$ (and in particular, finite), and whose codomain $A$ is finitely-indexed.  But this surjection splits iff $p$ is true or false, so if either $2$ is choice or $2$-indexed sets are projective, then PEM holds.
+The proof is as follows.  If $p$ is a truth value, then divide $\{0,1\}$ by the equivalence relation where $0 \equiv 1$ iff $p$ holds.  Then we have a surjection $2\to A$, whose domain is $2$ (and in particular, finite), and whose codomain $A$ is 2-indexed (and thus finitely-indexed).  But this surjection splits iff $p$ is true or false, so if either $2$ is choice or $2$-indexed sets are projective, then PEM holds.
 
 On the other hand, if PEM holds, then we can show by induction that if $A$ and $B$ are choice, so is $A\sqcup B$ (add details).  Thus, all finite sets are choice.  Now if $n\to A$ is a surjection, exhibiting $A$ as finitely indexed, it has a section $A\to n$.  Since a finite set is always projective, and any retract of a projective object is projective, this shows that $A$ is projective.
 
@@ -140,6 +140,10 @@ $$\left(\prod_{x \in A} \biguplus_{y \in B(x)} \{\top \vert P(x, y)\}\right) \to
 or the always true statement that every [[split surjection]] splits. 
 
 ## Other equivalent statements
+
+* Every set $A$ with a [[surjection]] from the [[boolean domain]] to $A$ is either a [[singleton]] or in [[bijection]] with the [[boolean domain]]. 
+
+* The set of [[equivalence relations]] on the [[boolean domain]] is in [[bijection]] with the [[boolean domain]]. 
 
 * Morgan Rogers showed [here](https://golem.ph.utexas.edu/category/2023/01/freedom.html#c062002) that the fact that the [[category of sets]] is a [[Boolean topos]] is equivalent to the fact that every [[pointed set]] is a [[free object|free]] pointed set. 
 
