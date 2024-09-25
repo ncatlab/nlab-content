@@ -1,4 +1,5 @@
-
+[[!redirects coherence theorem for symmetric monoidal categories]]
+[[!redirects coherence theorem for symmetric monoidal categories]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -19,20 +20,28 @@
 
 ## Idea
 
-The _coherence theorem for [[symmetric monoidal categories]]_, like many [[coherence theorems]], has several forms (or, alternatively, refers to several different theorems):
+
+The [[coherence theorem]] and [[strictification theorem]] for [[symmetric monoidal categories]] may each take several forms.
+
+### Coherence theorems
 
 1. Every diagram in a free [[symmetric monoidal category]] made up of [[associators]] and [[unitors]] and symmetries ([[braidings]]), and in which both sides have the same underlying [[permutation]], commutes.
 
 1. The free symmetric monoidal category on some given data is equivalent to the free [[symmetric strict monoidal category]] on the same data.
 
-1. Every symmetric monoidal category is symmetric-monoidally equivalent to a symmetric strict monoidal category.
-
 1. Every symmetric monoidal category is equivalent to an [[unbiased symmetric monoidal category]].
+
+### Strictification theorems
+
+1. Every symmetric monoidal category is symmetric-monoidally equivalent to a symmetric strict monoidal category.
 
 1. The forgetful 2-functor $SymStrMonCat \to SymMonCat$ has a strict [[left adjoint]] and the components of the unit are equivalences in $SymMonCat$.
 
 Note that in a symmetric strict monoidal category, the associators and unitors are identities, but the symmetry is not in general.
 
+## Related pages
+
+- [[coherence and strictification for monoidal categories]]
 
 ## References
 
