@@ -83,14 +83,19 @@ Moreover, [[lens space]]-topology with its [[integral cohomology|integral]] [[to
 * [[Jean-Pierre Luminet]]: *[Cosmic Topology](http://www.scholarpedia.org/article/Cosmic_Topology)*, Scholarpedia (2015) &lbrack;[doi:10.4249/scholarpedia.31544](http://dx.doi.org/10.4249/scholarpedia.31544)&rbrack;
 
 * [[Jean-Pierre Luminet]], *The Status of Cosmic Topology after Planck Data*,  Universe **2** 1 (2016) 1 &lbrack;[doi:10.3390/universe2010001](https://doi.org/10.3390/universe2010001), [arXiv:1601.03884](https://arxiv.org/abs/1601.03884)&rbrack;
-
   > (discussion relative to [[Planck Collaboration|Planck Data]])
 
 * Jaspreet Sandhu, *Cosmic Topology* &lbrack;[arXiv:1612.04157](https://arxiv.org/abs/1612.04157)&rbrack;
 
 * Yashar Akrami et al., *Promise of Future Searches for Cosmic Topology*, Phys. Rev. Lett. **132** 17 (2024) 171501 &lbrack;[arXiv:2210.11426](https://arxiv.org/abs/2210.11426), [doi:10.1103/PhysRevLett.132.171501](https://doi.org/10.1103/PhysRevLett.132.171501)&rbrack;
 
+The COMPACT collaboration:
+
+* COMPACT Collaboration: *Cosmic topology. Part I. Limits on orientable Euclidean manifolds from circle searches* &lbrack;[arXiv:2211.02603](https://arxiv.org/abs/2211.02603)&rbrack;
+
 * COMPACT Collaboration: *Cosmic topology. Part Ic. Limits on lens spaces from circle searches* &lbrack;[arXiv:2409.02226](https://arxiv.org/abs/2409.02226)&rbrack;
+
+* COMPACT Collaboration: *Cosmic topology. Part IIa. Eigenmodes, correlation matrices, and detectability of orientable Euclidean manifolds* &lbrack;[arXiv:2306.17112](https://arxiv.org/abs/2306.17112)&rbrack;
 
 See also:
 
