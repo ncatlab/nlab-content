@@ -194,7 +194,7 @@ The [[tensor unit]] in the [[symmetric monoidal (infinity,1)-category]] of cyclo
 
 * [[Clark Barwick]], [[Saul Glasman]], _Noncommutative syntomic realization_ ([pdf](http://dl.dropbox.com/u/1741495/papers/tornado2.pdf))
 
-* {#Malkiewich15} [[Cary Malkiewich]], _A visual introduction to cyclic sets and cyclotomic spectra_, 2015 ([pdf](http://math.uiuc.edu/~cmalkiew/ytm_2015.pdf))
+* {#Malkiewich15} [[Cary Malkiewich]]: *A visual introduction to cyclic sets and cyclotomic spectra*, talk at *Young Topologists Meeting* Lausanne, Switzerland (2015) &lbrack;[pdf](https://people.math.binghamton.edu/malkiewich/ytm_2015.pdf), [[Malkiewich-Cyclic.pdf:file]]&rbrack;
 
 * {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_,  Acta Math. **221** 2 (2018) 203-409 &lbrack;[arXiv:1707.01799](https://arxiv.org/abs/1707.01799), [doi:10.4310/ACTA.2018.v221.n2.a1](https://dx.doi.org/10.4310/ACTA.2018.v221.n2.a1)&rbrack;
 
