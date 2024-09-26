@@ -170,3 +170,6 @@ For the impredicative definition of the real numbers using a type of proposition
 
 [[!redirects type of real numbers]]
 [[!redirects types of real numbers]]
+
+[[!redirects universe of real numbers]]
+[[!redirects universes of real numbers]]
