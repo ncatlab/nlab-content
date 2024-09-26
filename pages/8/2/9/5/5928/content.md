@@ -150,7 +150,7 @@ The only difference to the Kripke&#8211;Joyal semantics of the _little_ Zariski 
 
 ## Related concepts
 
-[[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ [[étale site]] $\to$ [[Nisnevich site]] $\to$ **Zariski site**
+[[fpqc site]] $\to$ [[fppf site]] $\to$ [[syntomic site]] $\to$ [[étale site]] $\to$ [[Nisnevich site]] $\to$ **Zariski site**
 
 * [[spectrum of a commutative ring]]
 
