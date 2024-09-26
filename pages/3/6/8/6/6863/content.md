@@ -74,6 +74,8 @@ On [[U-duality]] symmetry of [[D=11 supergravity]] in view of [[M-theory]]:
 
 Discussion of [[E9]] in view of [[U-duality]]-symmetry of [[D=11 supergravity]] [[Kaluza-Klein reduction|reduced]] to $D=2$ ([[finite-dimensional vector space|finite-dimensional]] [[representations]] of the [[maximal compact subgroup|maximal compact]] subalgebra $\mathfrak{k} = Lie\big(K(E_9)\big)$:
 
+* {#KleinschmidtNicolaiVigano20} [[Axel Kleinschmidt]], [[Hermann Nicolai]], Adriano Viganò: *On spinorial representations of involutory subalgebras of Kac-Moody algebras*, In: *Partition Functions and Automorphic Forms*, Moscow Lectures **5**, Springer  (2020) &lbrack;[arXiv:1811.11659](https://arxiv.org/abs/1811.11659), [doi:10.1007/978-3-030-42400-8_4](https://doi.org/10.1007/978-3-030-42400-8_4)&rbrack;
+
 * [[Hermann Nicolai]], [[Henning Samtleben]]: *On $K(E_9)$*, Pure and Applied Mathematics Quarterly **1** 1 (2005) 180–204 &lbrack;[arXiv:hep-th/0407055](http://arxiv.org/abs/hep-th/0407055), [doi:10.4310/PAMQ.2005.v1.n1.a8](https://dx.doi.org/10.4310/PAMQ.2005.v1.n1.a8)&rbrack;
 
 * [[Axel Kleinschmidt]], Ralf Köhl, Robin Lautenbacher, [[Hermann Nicolai]]: *Representations of involutory subalgebras of affine Kac-Moody algebras*, Commun. Math. Phys. **392** (2022) 89–123 &lbrack;[arXiv:2102.00870](https://arxiv.org/abs/2102.00870), [doi:10.1007/s00220-022-04342-9](https://doi.org/10.1007/s00220-022-04342-9)&rbrack;
