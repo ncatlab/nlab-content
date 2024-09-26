@@ -27,3 +27,6 @@ calculus](http://en.wikipedia.org/wiki/Simply-typed_lambda_calculus), which is r
 For a definition of the minimal logic, see Chapter 2 in
 
 * [[Sergei P. Odintsov]], _Constructive Negations and Paraconsistency_, Trends in Logic 26, Springer, 2008.  [doi](http://dx.doi.org/10.1007/978-1-4020-6867-6).
+
+* Ingebregt Johansson, _Der  Minimalkalkül,  ein  reduzierter  intuitionistischer  Formalismus_,  Compositio Mathematica **4** (1937) pp. 119-136. ([numdam](http://www.numdam.org/item/CM_1937__4__119_0/))
+
