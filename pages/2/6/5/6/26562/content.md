@@ -202,6 +202,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Constructions of free Markov and CD categories: [Fritz-Liang'23](#free_gs).
 
+* Notions of [[conditional independence]] as [[universal properties]]: [Simpson'18](#independence), [Simpson'24](#atomic_sheaf).
+
 * Study of joint and marginal distributions for [[probability monads]]: [Fritz-Perrone'18](#bimonoidal_monads).
 
 * Markov categories for [[partial maps]]: [Di Lavore-Román'23](#partial_markov).
@@ -222,7 +224,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * A monad encoding [[probabilistic point processes]] combining probability and nondeterminism: [Dash-Staton'20](#point_processes).
 
-* [[random variables|Random variables]] in terms of [[sheaves]]: [Simpson'17](#probability_shaves).
+* [[random variables|Random variables]] in terms of [[sheaves]]: [Simpson'17](#probability_sheaves), [Simpson'24](#atomic_sheaf).
 
 (...)
 
@@ -455,6 +457,10 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#name_gen} Marcin Sabok, Sam Staton, Dario Stein, Michael Wolman, _Probabilistic Programming Semantics for Name Generation_, Proceedings of POPL, 2021. ([arXiv](https://arxiv.org/abs/2007.08638))
 
 * {#probability_sheaves} [[Alex Simpson]], _Probability Sheaves and the Giry Monad_, ([pdf](https://coalg.org/mfps-calco2017/calco-papers/calco2017-1.pdf))
+
+* {#independence} [[Alex Simpson]], _Category-theoretic structure for independence and conditional independence_, ENTCS, 2018. ([link](https://www.sciencedirect.com/science/article/pii/S1571066118300318))
+
+* {#atomic_sheaf} [[Alex Simpson]], _Equivalence and Conditional Independence in Atomic Sheaf Logid_, Proceedings of LICS, 2024. ([arXiv](https://arxiv.org/abs/2405.11073))
 
 * {#definetti_ned} Sam Staton and Ned Summers, _Quantum de Finetti Theorems as Categorical Limits, and Limits of State Spaces of C*-algebras_, Proceedings of Quantum Physics and Logic, 2022. ([arXiv](https://arxiv.org/abs/2207.05832))
 
