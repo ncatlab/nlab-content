@@ -114,6 +114,10 @@ See also the examples at _[[operad]]_.
 
 ## References
 
+Multicategories were introduced in:
+
+* [[Joachim Lambek]], _Deductive systems and categories II. Standard constructions and closed categories_, Category Theory, Homology Theory and their Applications I: Proceedings of the Conference held at the Seattle Research Center of the Battelle Memorial Institute, June 24–July 19, 1968 Volume One. Berlin, Heidelberg: Springer Berlin Heidelberg, 2006.
+
 * [[Tom Leinster]], _Higher operads, higher categories_, London Math. Soc. Lec. Note Series __298__, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049)
  {#Leinster}
 
