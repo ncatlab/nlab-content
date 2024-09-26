@@ -337,6 +337,9 @@ See also:
 
 * [[Martin Greiter]], [[Frank Wilczek]], *Fractional Statistics* &lbrack;[arXiv:2210.02530](https://arxiv.org/abs/2210.02530)&rbrack;
 
+On the history of the concept:
+
+* Gerald A. Goldin: *The Prediction of Anyons: Its History and Wider Implications*, SciPost Phys. Proc. **14** 005 (2023)  &lbrack;[arXiv:2212.12632](https://arxiv.org/abs/2212.12632), [doi: 10.21468/SciPostPhysProc.14.005](https://scipost.org/SciPostPhysProc.14.005)&rbrack;
 
 
 Rigorous discussion in terms of [[superselection sectors]] in [[algebraic quantum field theory]]:
