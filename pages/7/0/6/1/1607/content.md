@@ -37,6 +37,8 @@ By the discussion at [[k-tuply monoidal (n,r)-category]] a tetracategory with a 
 
 ## References
 
+### Weak 4-categories
+
 The structure of a tetracategories was given by [[Todd Trimble]].
 
 * Todd Trimble [Notes on Tetracategories](http://math.ucr.edu/home/baez/trimble/tetracategories.html)
@@ -53,8 +55,18 @@ The structure of a tetracategories was given by [[Todd Trimble]].
 
 A polished writeup of the definition appears in section 3.2 of
 
-* [[Alex Hoffnung]], _Spans in 2-Categories: A monoidal tricategory_ ([arXiv:1112.0560](http://arxiv.org/abs/1112.0560))
- {#Hoffnung}
+* {#Hoffnung} [[Alex Hoffnung]], _Spans in 2-Categories: A monoidal tricategory_ ([arXiv:1112.0560](http://arxiv.org/abs/1112.0560))
+
+### Strict 4-categories
+
+On [[strict n-category|strict]] 4-categories
+
+via a [[string diagram]]-calculus:
+
+* Manuel Araújo: *String diagrams for 4-categories and fibrations of mapping 4-groupoids*, Theory and Applications of Categories **41** 38 (2024) 1352-1398  &lbrack;[arXiv:2012.03797](https://arxiv.org/abs/2012.03797), [tac:41-38](http://www.tac.mta.ca/tac/volumes/41/38/41-38abs.html)&rbrack;
+
+
+ 
 
 [[!redirects tetracategories]]
 
