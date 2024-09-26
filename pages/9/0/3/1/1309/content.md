@@ -46,7 +46,7 @@ This is the cyclic counterpart of a monotone function between linear orders (one
 
 ## Remarks
 
-* One would like the [[cycle category]] $\Lambda$ to be the category of [[finite set|finite]] [[inhabited set|nonempty]] cyclically ordered sets and monotone functions, just as the [[simplex category]] $\Delta$ is the category of finite nonempty linearly ordered sets and monotone functions.  However, this seems to fail for the $0$-cycle, which has a nontrivial loop and is therefore not [[terminal object|terminal]] (unlike the cyclically ordered [[singleton]], which is terminal).
+* One would like the [[cycle category]] $\Lambda$ to be the category of [[finite set|finite]] [[inhabited set|inhabited]] cyclically ordered sets and monotone functions, just as the [[simplex category]] $\Delta$ is the category of finite inhabited linearly ordered sets and monotone functions.  However, this seems to fail for the $0$-cycle, which has a nontrivial loop and is therefore not [[terminal object|terminal]] (unlike the cyclically ordered [[singleton]], which is terminal).
 
 
 ## Related concepts
