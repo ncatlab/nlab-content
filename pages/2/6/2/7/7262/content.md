@@ -35,7 +35,7 @@ A hyperbolic [[Kac-Moody Lie algebra]] in the E-series
 ### Maximal compact subalgebra
  {#MaximalCompactSubalgebra}
 
-In contrast to $\mathfrak{e}_{10(10)}$ itself, its "maximal compact subalgebra" $\mathfrak{k}_{10(10)}$ has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite dimensional]] [[representations]] ([KKLN22](Kac-Moody+algebra#KKLN22)).
+In contrast to $\mathfrak{e}_{10(10)}$ itself, its "maximal compact subalgebra" $\mathfrak{k}_{10(10)}$ has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite dimensional]] [[representations]] ([Kleinschmidt, Nicolai & Vigano 2020](#KleinschmidtNicolaiVigano20), [KKLN22](Kac-Moody+algebra#KKLN22)).
 
 
 Among these is in particular a spinor representation $\mathbf{32}$ and a vector-spinor representation $\mathbf{320}$
@@ -146,6 +146,9 @@ See also:
 ### Maximal compact subalgebra
 
 More on the [[maximal compact subalgebras]] of [[E9]] and [[E10]], respectively, and their [[finite-dimensional vector space|finite-dimensional]] [[linear representations]]:
+
+* {#KleinschmidtNicolaiVigano20} [[Axel Kleinschmidt]], [[Hermann Nicolai]], Adriano Viganò: *On spinorial representations of involutory subalgebras of Kac-Moody algebras*, In: *Partition Functions and Automorphic Forms*, Moscow Lectures **5**, Springer  (2020) &lbrack;[arXiv:1811.11659](https://arxiv.org/abs/1811.11659), [doi:10.1007/978-3-030-42400-8_4](https://doi.org/10.1007/978-3-030-42400-8_4)&rbrack;
+
 
 * {#deBuylHenneauxPaulot05} Sophie de Buyl, [[Marc Henneaux]], Louis Paulot: *Hidden Symmetries and Dirac Fermions*, Class. Quant. Grav. **22** (2005) 3595-3622 &lbrack;[arXiv:hep-th/0506009](https://arxiv.org/abs/hep-th/0506009), [doi:10.1088/0264-9381/22/17/018](https://doi.org/10.1088/0264-9381/22/17/018)&rbrack;
 
