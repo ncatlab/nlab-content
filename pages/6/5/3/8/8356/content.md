@@ -38,7 +38,69 @@ Closely related to the point of being synonymous is the paradigm of *[[propositi
 
 Indeed, the fully formal version of the BHK interpretation may be understood as being the [[inference rules]], specifically the [[term introduction rules]], of [[intuitionistic type theory]] (as amplified in [Girard (1989, §2)](#Girard89) and [Martin-Löf (1996, Lec 3)](#MartinLöf96)).
 
+## In mathematical foundations
 
+### Dependent type theory
+
+In [[dependent type theory]], propositions are usually defined as [[subsingletons]], types $A$ in which given $x:A$ and $y:A$ one can construct an [[identification]] $p(x, y):\mathrm{Id}_A(x, y)$. Predicates on a type $A$ are families of subsingletons $P(x)$ indexed by $x:A$. 
+
+The [[BHK interpretation]] of predicate logic is defined using basic type theoretic operations: Given two propositions $P$ and $Q$, purely $P$ or $Q$ is given by an element of the binary [[sum type]]
+
+$$P + Q$$
+
+and the pure existential quantifier of a [[predicate]] $P(x)$ on a type $A$ is given by an element of the [[dependent sum type]]
+
+$$\sum_{x:A} P(x)$$
+
+Also, 
+
+* false is given by the [[empty type]]
+
+* true is given by any [[contractible type]]
+
+* implication is given by the [[function type]]
+$$P \to Q$$
+
+* conjunction is given by the binary [[product type]]
+$$P \times Q$$
+
+* and the universal quantification is given by the indexed [[Cartesian product]]
+$$\prod_{x:A} P(x)$$
+
+### Set theory
+
+The BHK interpretation of logic is also possible to express in set theory; in particular, in the [[internal logic]] of the resulting [[category of sets]] that arises from the set theory. 
+
+Propositions in the internal logic are given by the [[subsingletons]], which are the sets $A$ in which for all $x$ and $y$ in $A$, $x = y$. Given any [[singleton]] $\{*\}$, any external proposition $P$ can be turned into an subsingleton via the subset 
+
+$$\{p \in \{*\} \vert (p = *) \wedge P\}$$
+
+This means that one can use the set-theoretic operations to define the [[BHK interpretation]] of predicate logic: Given two propositions $P$ and $Q$, purely $P$ or $Q$ is given by an element of the binary [[disjoint union]]
+
+$$\{p \in \{*\} \vert (p = *) \wedge P\} \uplus \{p \in \{*\} \vert (p = *) \wedge Q\}$$
+
+and the pure existential quantifier of a [[predicate]] $P(x)$ on a set $A$ is given by an element of the indexed [[disjoint union]]
+
+$$\biguplus_{x \in A} \{p \in \{*\} \vert (p = *) \wedge P(x)\}$$
+
+Also, 
+
+* false is given by the [[empty set]], which is isomorphic to 
+$$\{p \in \{*\} \vert (p = *) \wedge \bot\}$$
+
+* true is given by any [[singleton]], which is isomorphic to 
+$$\{p \in \{*\} \vert (p = *) \wedge \top\}$$
+
+* implication is given by the [[function set]]
+$${\{p \in \{*\} \vert (p = *) \wedge Q\}}^{\{p \in \{*\} \vert (p = *) \wedge P\} }$$
+
+* conjunction is given by the binary [[Cartesian product]]
+$$\{p \in \{*\} \vert (p = *) \wedge P\} \times \{p \in \{*\} \vert (p = *) \wedge Q\}$$
+
+* and the universal quantification is given by the indexed [[Cartesian product]]
+$$\prod_{x \in A} \{p \in \{*\} \vert (p = *) \wedge P(x)\}$$
+
+Using this one can translate any theorems and proofs of set-level mathematics done in dependent type theory using the BHK interpretation over to set theory. 
 
 ## Historical versions
  {#HistoricalVersions}
