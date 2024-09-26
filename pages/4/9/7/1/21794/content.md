@@ -75,7 +75,7 @@ The [[category]] of $L$-complete modules is the smallest abelian [[full subcateg
 
 ##References##
 
-* {#Salch20} [[Andrew Salch]], Approximation of subcategories by abelian subcategories ([arXiv:2011.01827](https://arxiv.org/abs/2011.01827))
+* {#Salch20} [[Andrew Salch]], Approximation of subcategories by abelian subcategories ([arXiv:1006.0048](https://arxiv.org/abs/1006.0048))
 
 * [[Charles Rezk]], _Analytic completion_ ([pdf](https://rezk.web.illinois.edu/analytic-paper.pdf))
 
