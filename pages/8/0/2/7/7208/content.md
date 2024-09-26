@@ -105,6 +105,8 @@ The following references discuss aspects of the Kac-Moody [[exceptional geometry
 
 On non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite-dimensional]] [[representations]] of involutary ("maximal compact") subalgebras $\mathfrak{k}$:
 
+* {#KleinschmidtNicolaiVigano20} [[Axel Kleinschmidt]], [[Hermann Nicolai]], Adriano Viganò: *On spinorial representations of involutory subalgebras of Kac-Moody algebras*, In: *Partition Functions and Automorphic Forms*, Moscow Lectures **5**, Springer  (2020) &lbrack;[arXiv:1811.11659](https://arxiv.org/abs/1811.11659), [doi:10.1007/978-3-030-42400-8_4](https://doi.org/10.1007/978-3-030-42400-8_4)&rbrack;
+
 * {#KKLN22}  [[Axel Kleinschmidt]], [[Ralf Köhl]], [[Robin Lautenbacher]], [[Hermann Nicolai]]: *Representations of involutory subalgebras of affine Kac-Moody algebras*, Commun. Math. Phys. **392** (2022) 89–123 &lbrack;[arXiv:2102.00870](https://arxiv.org/abs/2102.00870), [doi:10.1007/s00220-022-04342-9](https://doi.org/10.1007/s00220-022-04342-9)&rbrack;
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]], [[Jakob Palmkvist]]: *$K(E_9)$ from $K(E_{10})$*, Journal of High Energy Physics **2007** JHEP06 (2007) &lbrack;[arXiv:hep-th/0611314](https://arxiv.org/abs/hep-th/0611314), [doi:10.1088/1126-6708/2007/06/051](https://doi.org/10.1088/1126-6708/2007/06/051)&rbrack;
