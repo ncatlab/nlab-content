@@ -83,7 +83,7 @@ Textbook account (in the generality of [[cyclic spaces]]):
 
 Exposition:
 
-* {#Malkiewich15} [[Cary Malkiewich]], _A visual introduction to cyclic sets and cyclotomic spectra_, 2015 ([pdf](http://math.uiuc.edu/~cmalkiew/ytm_2015.pdf))
+* {#Malkiewich15} [[Cary Malkiewich]], _A visual introduction to cyclic sets and cyclotomic spectra_, 2015 ([pdf](https://people.math.binghamton.edu/malkiewich/ytm_2015.pdf))
 
 
 
