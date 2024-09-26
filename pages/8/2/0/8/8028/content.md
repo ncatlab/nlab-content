@@ -15,6 +15,9 @@ On [[E10]]-[[U-duality]] [[exceptional field theory]] with [[fermions]] ($E_{10}
 
 On the [[maximal compact subalgebras]] of [[E9]] and [[E10]], respectively, and their [[finite-dimensional vector space|finite-dimensional]] [[linear representations]]:
 
+* {#KleinschmidtNicolaiVigano20} [[Axel Kleinschmidt]], [[Hermann Nicolai]], Adriano Viganò: *On spinorial representations of involutory subalgebras of Kac-Moody algebras*, In: *Partition Functions and Automorphic Forms*, Moscow Lectures **5**, Springer  (2020) &lbrack;[arXiv:1811.11659](https://arxiv.org/abs/1811.11659), [doi:10.1007/978-3-030-42400-8_4](https://doi.org/10.1007/978-3-030-42400-8_4)&rbrack;
+
+
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]], [[Jakob Palmkvist]]: *$K(E_9)$ from $K(E_{10})$*, Journal of High Energy Physics **2007** JHEP06 (2007) &lbrack;[arXiv:hep-th/0611314](https://arxiv.org/abs/hep-th/0611314), [doi:10.1088/1126-6708/2007/06/051](https://doi.org/10.1088/1126-6708/2007/06/051)&rbrack;
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Generalised holonomies and $K(E_9)$*, J. High Energ. Phys. **2021** 54 (2021) &lbrack;[arXiv:2107.02445](https://arxiv.org/abs/2107.02445), <a href="https://doi.org/10.1007/JHEP09(2021)054">doi:10.1007/JHEP09(2021)054</a>&rbrack;
