@@ -159,6 +159,11 @@ The case of [[scalar field theory]] (such as [[phi^n-theory|$\phi^n$-theory]]):
 
 * {#BuchholtzFredenhagen20} [[Detlev Buchholz]], [[Klaus Fredenhagen]], _A $C^\ast$-algebraic approach to interacting quantum field theories_,  Commun. Math. Phys. **377** (2020) 947–969  &lbrack;[arXiv:1902.06062](https://arxiv.org/abs/1902.06062), [doi:10.1007/s00220-020-03700-9](https://doi.org/10.1007/s00220-020-03700-9)&rbrack;
 
+See also:
+
+* M. Rovira, A. Parreño, R. J. Perry: *A Variational Approach to Quantum Field Theory* &lbrack;[arXiv:2409.17887](https://arxiv.org/abs/2409.17887)&rbrack;
+
+
 Relevance of non-perturbative methods in [[condensed matter theory]] ([[quantum materials]]) and [[quantum information theory]] ([[topological quantum computation]]):
 
 *  Alvaro Ferraz, [[Kumar S. Gupta]], [[Gordon W. Semenoff]], Pasquale Sodano (eds): *Strongly Coupled Field Theories for Condensed Matter and Quantum Information Theory*, Springer Proceedings in Physics **239**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-35473-2](https://doi.org/10.1007/978-3-030-35473-2), [pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-35473-2.pdf)&rbrack;
