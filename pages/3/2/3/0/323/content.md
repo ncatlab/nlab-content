@@ -317,6 +317,9 @@ Morphisms admitting pullbacks along them are called **carrable** in some places,
 * [[Bertrand Toen]], _A master course on algebraic stacks (Toulouse 2005)_ cours 2 ([web](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/cours2.pdf))
 * [[André Joyal]], _Notes on Clans and Tribes_, [arxiv:1710.10238](https://arxiv.org/abs/1710.10238)
 
+They are called **quarrable** in:
+
+* {#Cockett93} [[Robin Cockett]], *Introduction to distributive categories*, Mathematical Structures in Computer Science **3** (2009) 277-307 &lbrack;<a href="https://doi.org/10.1017/S0960129500000232">doi:10.101/S0960129500000232</a>&rbrack;
 
 [[!redirects pullbacks]]
 [[!redirects pullback square]]
