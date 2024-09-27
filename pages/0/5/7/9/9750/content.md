@@ -299,9 +299,9 @@ Exposition is in
 
 and further discussion in 
 
-* {#Alfonsi19} [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_, Fortsch. d. Phys. 2020 ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089), [doi:10.1002/prop.202000010](https://doi.org/10.1002/prop.202000010))
+* {#Alfonsi19} [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_, Fortsch. d. Phys. **68** 3-4 (2020) &lbrack;[arXiv:1912.07089](https://arxiv.org/abs/1912.07089), [doi:10.1002/prop.202000010](https://doi.org/10.1002/prop.202000010)&rbrack;
 
-* [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
+* [[Luigi Alfonsi]]: *The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective*, Fortschr. Phys. **69** 7 (2021) &lbrack;[arXiv:2007.04969](https://arxiv.org/abs/2007.04969), [doi:10.1002/prop.202000102](https://doi.org/10.1002/prop.202000102)&rbrack;
 
 
 ### Reduction of membrane to string
