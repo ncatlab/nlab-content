@@ -33,7 +33,7 @@ The _Schanuel topos_ is the [[sheaf topos]] $Sh(FinSet^{op}_{mono},J)$ where $Fi
 
 * The Schanuel topos $Sh(FinSet^{op}_{mono},J)$ is [[atomic topos|atomic]] over $Set$ ([[Stephen Schanuel|S. Schanuel]], cf. (Wraith 1978), p.335) hence Boolean. This fact can be viewed as a reflex of the _urelements_ in Fraenkel-Mostowski set theory.
 
-* The Schanuel topos $Sh(FinSet^{op}_{mono},J)$ is [[locally finitely presentable category|locally finitely presentable]] since is category of atoms is [[co-well-founded category|co-well-founded]] (cf. Marquès [2024](#Marq24)).
+* The Schanuel topos $Sh(FinSet^{op}_{mono},J)$ is [[locally finitely presentable category|locally finitely presentable]] since its category of atoms is [[co-well-founded category|co-well-founded]] (cf. Marquès [2024](#Marq24)).
 
 * $Sh(FinSet^{op}_{mono},J)$ is the [[classifying topos]] $Set[D_\infty]$ for the [[theory of decidable objects#Infinite decidable objects|theory of infinite decidable objects]] $D_\infty$ i.e. for a Grothendieck topos $\mathcal{E}$ geometric morphisms $\mathcal{E}\to Sh(FinSet^{op}_{mono},J)$ correspond to infinite [[decidable objects]] in $\mathcal{E}$. $Sh(FinSet^{op}_{mono},J)$ is equivalent to $Sh_{\neg\neg}([FinSet_mono,Set])$ where $[FinSet_mono,Set]$ classifies [[decidable object|decidable objects]].
 
