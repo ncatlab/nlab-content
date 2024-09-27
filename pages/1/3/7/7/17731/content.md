@@ -2651,6 +2651,8 @@ If $\tilde\phi = \phi$ then $(-,-)$ is called _compatible_ with $\langle-,- \ran
 
 ## References
 
+Named after *[[Ettore Majorana]]*.
+
 The traditional component discussion in terms of a [[charge conjugation matrix]] is discussed for instance in 
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.7.3 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
