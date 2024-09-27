@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents 
 {:toc}
@@ -45,14 +46,14 @@ The identification of the concept of (super-)$L_\infty$-algebras has a non-linea
 
 [Lada-Stasheff 92](#LadaStasheff92) credit [Schlessinger-Stasheff 85](deformation+theory#SchlessingerStasheff85) with the introduction of the concept, but while that article considers many closely related structures, it does not consider $L_\infty$-algebras as such. [Lada-Markl 94](#LadaMarkl94) credit other work by Schlessinger-Stasheff as the origin, but that work appeared much later as [Schlessinger-Stasheff 12](deformation+theory#SchlessingerStasheff12).
 
-According to [Stasheff 16, slide 25](#Stasheff16), Zwiebach had this structure already in 1989, when Stasheff recognized it in a talk by Zwiebach at a [[GUT]] conference in Chapel-Hill.   Zwiebach, in turn, was following the [[BV-formalism]] of [Batalin-Vilkovisky 83](#BatalinVilkovisky83), [Batakin-Fradkin 83](#BatakinFradkin83), whose relation to $L_\infty$-algebras was later amplified in [Stasheff 96](#Stasheff96), [Stasheff 97](#Stasheff97).
+According to [Stasheff 16, slide 25](#Stasheff16), [[Barton Zwiebach|Zwiebach]] had this structure already in 1989, when [[Jim Stasheff|Stasheff]] recognized it in a talk by Zwiebach at a [[GUT]] conference in Chapel-Hill.   Zwiebach, in turn, was following the [[BV-formalism]] of [Batalin-Vilkovisky 83](#BatalinVilkovisky83), [Batakin-Fradkin 83](#BatakinFradkin83), whose relation to $L_\infty$-algebras was later amplified in [Stasheff 96](#Stasheff96), [Stasheff 97](#Stasheff97).
 
 The observation that these systems of higher brackets are fully characterized by their Chevalley-Eilenberg dg-(co-)algebras
 is due to [Lada-Markl 94](#LadaMarkl94).
 See [Sati-Schreiber-Stasheff 08, around def. 13](#SatiSchreiberStasheff08).
 
 But in this dual incarnation, [[L-∞ algebras]] and more generally [[super L-∞ algebras]] (of [[finite type]]) 
-had secretly been introduced, independently of the [[BV-formalism]] of [Batalin-Vilkovisky 83](#BatalinVilkovisky83), [Batakin-Fradkin 83](#BatakinFradkin83),  within the [[supergravity]] literature already in [D'Auria-Fr&#233;-Regge 80](#DAuriaFreRegge80) and explicitly in [van Nieuwenhuizen 82](#Nieuwenhuizen82).
+had secretly been introduced, independently of the [[BV-formalism]] of [Batalin-Vilkovisky 83](#BatalinVilkovisky83), [Batakin-Fradkin 83](#BatakinFradkin83),  within the [[supergravity]] literature already in [D'Auria-Fr&#233;-Regge 80](D'Auria-Fré-Regge+formulation+of+supergravity#DAuriaFréRegge80b) and explicitly in [van Nieuwenhuizen 82](#Nieuwenhuizen82).
 The concept was picked up in the [[D'Auria-Fré formulation of supergravity]] ([D'Auria-Fr&#233; 82](#DAuriaFre82)) and eventually came to be referred to as "FDA"s (short for "free differential algebra") in the [[supergravity]] literature (but beware that these dg-algebras 
 are in general [[free construction|free]] only as graded-[[supercommutative superalgebras]], not as differential algebras)
 The relation between super $L_\infty$-algebras and the "FDA"s of the [[supergravity]] literature is made explicit in ([FSS 13](#FSS13)).
