@@ -61,6 +61,8 @@ For more see also at _[[higher category theory and physics]]_.
 
 Implicitly, in their equivalent [[formal dual]] guise of [[Chevalley-Eilenberg algebras]] (see [above](#ReformulationInTermsOfSemifreeDGAlgebra)), $L_\infty$-algebras of [[finite type]] -- in fact [[super L-∞ algebras]] -- play a pivotal role in the [[D'Auria-Fré formulation of supergravity]] at least since 
 
+* {#Nieuwenhuizen82} [[Peter van Nieuwenhuizen]], _Free Graded Differential Superalgebras_, in: *Group Theoretical Methods in Physics*, Lecture Notes in Physics **180**, Springer (1983) 228–247 \[<a href="https://doi.org/10.1007/3-540-12291-5_29">doi:10.1007/3-540-12291-5_29</a>, [spire:182644](http://inspirehep.net/record/182644)\]
+
 * {#DAuriaFre}  [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B **201** (1982) 101-140 \[<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]\]
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], Ch III.6 in: *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) \[<a href="https://doi.org/10.1142/0224">doi:10.1142/0224</a>, ch III.6: [[CastellaniDAuriaFre-ChIII6.pdf:file]]\]
