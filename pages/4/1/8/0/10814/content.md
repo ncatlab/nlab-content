@@ -253,12 +253,11 @@ Comprehensive discussion in [[higher differential geometry]]:
 {#ReferencesInHigherDifferentialGeometry}
 
 * {#Alfonsi19} [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_, Fortsch. d. Phys. 2020 &lbrack;[arXiv:1912.07089](https://arxiv.org/abs/1912.07089), [doi:10.1002/prop.202000010](https://doi.org/10.1002/prop.202000010)&rbrack;
+  > (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
 
-  (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
+* {#Alfonsi20} [[Luigi Alfonsi]]: *The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective*, Fortschr. Phys. **69** 7 (2021) &lbrack;[arXiv:2007.04969](https://arxiv.org/abs/2007.04969), [doi:10.1002/prop.202000102](https://doi.org/10.1002/prop.202000102)&rbrack;
 
-* {#Alfonsi20} [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
-
-* [[Luigi Alfonsi]], _Towards an extended/higher correspondence -- Generalised geometry, bundle gerbes and global Double Field Theory_ ([arXiv:2102.10970](https://arxiv.org/abs/2102.10970))
+* [[Luigi Alfonsi]], _Towards an extended/higher correspondence -- Generalised geometry, bundle gerbes and global Double Field Theory_, Complex Manifolds **8** special issue "Generalized Geometry" (2021) 302-328 &lbrack;[arXiv:2102.10970](https://arxiv.org/abs/2102.10970), [doi:10.1515/coma-2020-0121](https://doi.org/10.1515/coma-2020-0121)&rbrack;
 
 
 
