@@ -2430,7 +2430,7 @@ Slides from talks:
 
 * {#coecke_spekkens11} [[Bob Coecke]] and Robert W. Spekkens, _Picturing classical and quantum Bayesian inference_, Synthese, 186(3), 2012. ([arXiv](https://arxiv.org/abs/1102.2368))
 
-* {#fong12} [[Brendan Fong]], _Causal theories: A categorical prespective on Bayesian networks_, master thesis, University of Oxford, 2012. ([arXiv](https://arxiv.org/abs/1301.6201))
+* {#fong12} [[Brendan Fong]], _Causal theories: A categorical perspective on Bayesian networks_, master thesis, University of Oxford, 2012. ([arXiv](https://arxiv.org/abs/1301.6201))
 
 
 ### Further references
