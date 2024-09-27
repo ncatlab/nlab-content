@@ -382,6 +382,15 @@ Moreover,
 +-- {: .num_prop}
 ###### Proposition
 
+Ind-completion commutes with [[comma category|comma categories]], i.e., if $F:\mathcal{C}\to\mathcal{E}$ and $G:\mathcal{D}\to\mathcal{E}$ are functors, then $Ind(F/G)$ is equivalent to $(Ind(F)/Ind(G))$.
+
+=--
+
+([KashiwaraSchapira 06, prop. 6.4.2](#KashiwaraSchapira06))
+
++-- {: .num_prop}
+###### Proposition
+
 Let $\mathcal{C}_1$ and $\mathcal{C}_2$ be two [[small categories]]. By prop. \ref{FunctorialityOfInd} the two [[projections]] out of their [[product category]] induce a functor of the form
 
 $$
