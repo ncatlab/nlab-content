@@ -46,11 +46,11 @@ On global [[double field theory]] formulated in [[higher differential geometry]]
 
   (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
 
-* [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_, Fortschr. Phys. 2021, 2000102 ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969), [doi:10.1002/prop.202000102](https://doi.org/10.1002/prop.202000102)))
+* {#Alfonsi20} [[Luigi Alfonsi]]: *The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective*, Fortschr. Phys. **69** 7 (2021) &lbrack;[arXiv:2007.04969](https://arxiv.org/abs/2007.04969), [doi:10.1002/prop.202000102](https://doi.org/10.1002/prop.202000102)&rbrack;
 
 Review:
 
-* [[Luigi Alfonsi]], _Towards an extended/higher correspondence -- Generalised geometry, bundle gerbes and global Double Field Theory_ ([arXiv:2102.10970](https://arxiv.org/abs/2102.10970))
+* [[Luigi Alfonsi]], _Towards an extended/higher correspondence -- Generalised geometry, bundle gerbes and global Double Field Theory_, Complex Manifolds **8** special issue "Generalized Geometry" (2021) 302-328 &lbrack;[arXiv:2102.10970](https://arxiv.org/abs/2102.10970), [doi:10.1515/coma-2020-0121](https://doi.org/10.1515/coma-2020-0121)&rbrack;
 
 On the [[geometric quantization]] of a [[sigma-model]] in [[double field theory]]:
 
