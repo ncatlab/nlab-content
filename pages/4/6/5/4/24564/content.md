@@ -43,6 +43,8 @@ While many researchers began to dismiss the whole approach of "Majorana zero mod
 
 ## References
 
+Named after *[[Ettore Majorana]]*.
+
 ### MZM in nanowires
 
 The general strategy of realizing [[Majorana zero modes]] in supercondocuting/semiconducting nanowires is motivated by the [[Kitaev spin chain]]:
