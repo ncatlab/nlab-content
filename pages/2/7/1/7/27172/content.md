@@ -10,13 +10,13 @@ In [[systems theory]], human-designed systems have designers, by definition. Com
 
 ### Graphs
 
-In 1968, Melvin Conway proposed **Conway's law**, stating that the [[graph]] of a system is equipped with a [[homomorphism]] to its graph of designers. Quoting ([Conway 1968](#Conway68)):
+In 1968, Melvin Conway proposed **Conway's law**, stating that the [[graph]] of a system is equipped with a [[homomorphism]] to its graph of designers. Quoting ([Conway 1968](#Conway68), p3):
 
 +-- {: .standout}
 "Speaking as a mathematician might, we would say that there is a homomorphism from the linear graph of a system to the linear graph of its design organization."
 =--
 
-Conway argues informally as follows: a human cannot design a system component which interacts with another component without some sort of communication with that other component's designer, even indirectly through forwarded messages or documentation. As such, if any two components interact, then their designers must have communicated. Therefore the process of assigning designers to components must preserve adjacency. This assignment also is a [[function]] on vertices and therefore a [[graph homomorphism]].
+Conway argues informally as follows: a human cannot design a system component which interacts with another component without some sort of communication with that other component's designer, even indirectly through forwarded messages or documentation. As such, if any two components interact, then their designers must have communicated. Therefore the process of assigning designers to components must preserve adjacency. This assignment from components to designers also is a [[function]] on vertices and therefore a [[graph homomorphism]] ([Conway 1968](#Conway68), p2-3, "proof").
 
 Note that Conway writes of "linear graphs," which are graphs that include virtual vertices representing compositions of system components. Each virtual vertex is equivalent to a collection of edges, and the reader may verify that they are preserved by graph homomorphisms.
 
@@ -38,7 +38,7 @@ Authorship is a functor from a system to its designers.
 
 ## Properties
 
-([Conway 1968](#Conway68)) also includes the following important corollary:
+([Conway 1968](#Conway68)) also includes the following important corollary (p3):
 
 +-- {: .standout}
 "To the extent that an organization is not completely flexible in its communication structure, that organization will stamp out an image of itself in every design it produces."
@@ -51,7 +51,7 @@ Note that formally the organization actually stamps out a [[preimage]] of the ho
 
 ## Examples
 
-[Conway 1968](#Conway68) gives the following anecdote: eight people were assigned to build two [[compiler|compilers]]. They were divided into a team of five people and a team of three people, each team producing one compiler. The five-person team produced a compiler that "ran in five phases, while the three-person team produced one that ran in three.
+[Conway 1968](#Conway68) gives the following anecdote (p3): eight people were assigned to build two [[compiler|compilers]]. They were divided into a team of five people and a team of three people, each team producing one compiler. The five-person team produced a compiler that "ran in five phases, while the three-person team produced one that ran in three." In 1968, a compiler phase would have been represented physically by a [deck of punched cards](https://en.wikipedia.org/wiki/Punched_card); a five-phase compiler would be implemented as five decks of cards which could be concatenated into a single deck and run through a computer.
 
 
 ## References
