@@ -23,7 +23,7 @@
 
 ## Idea
 
-In the context of [[T-duality]] and in particular of [[differential T-duality]] one considers (as discussed in detail there) [[fiber products]] of two [[torus]]-[[fiber bundles]] together with a [[circle 2-bundle]] on this, ([[circle n-bundle with connection|with connection]]). 
+In the context of [[T-duality]] and in particular of [[differential T-duality]] one considers (as discussed there) [[fiber products]] of [[pairs]] of [[torus]]-[[fiber bundles]] equipped with a [[circle 2-bundle]] ([[circle n-bundle with connection|with connection]]). 
 
 In some disguise, this has been called _$B_n$-geometry_ ([Baraglia](#Baraglia)). The T-duality interpretation is made explicit in [Bouwknegt](Bouwknegt)
 
@@ -76,16 +76,16 @@ The term $B_n$-geometry was introduced in
 
 A review is in
 
-* {#Hitchin} [[Nigel Hitchin]], talks at StringMath2012,  ([pdf](http://www.hcm.uni-bonn.de/fileadmin/stringmath2012/plenary_talks/03-Hitchin.pdf))
+* {#Hitchin} [[Nigel Hitchin]], talks at StringMath2012 &lbrack;[pdf](http://www.hcm.uni-bonn.de/fileadmin/stringmath2012/plenary_talks/03-Hitchin.pdf)&rbrack;
  
 
-The relation to T-duality is made clear around slide 80 of
+The relation to T-duality is made clear around slide 80 of:
 
-* {#Bouwknegt} [[Peter Bouwknegt]], _Courant Algebroids and Generalizations of Geometry_, talk at StringMath2011 ([pdf](http://www.math.upenn.edu/StringMath2011/notes/Bouwknegt_StringMath2011_talk.pdf))
+* {#Bouwknegt} [[Peter Bouwknegt]], _Courant Algebroids and Generalizations of Geometry_, talk at StringMath2011 &lbrack;[pdf](http://www.math.upenn.edu/StringMath2011/notes/Bouwknegt_StringMath2011_talk.pdf)&rbrack;
  
 
 A discussion of the [[infinity-Lie theory|higher Lie theoretic]] aspects is in 
 
-* [[Ernesto Lupercio]], Camilo Rengifo, [[Bernardo Uribe]], _T-duality and exceptional generalized geometry through symmetries of dg-manifolds_ ([arXiv:1208.6048](http://arxiv.org/abs/1208.6048))
+* [[Ernesto Lupercio]], Camilo Rengifo, [[Bernardo Uribe]], _T-duality and exceptional generalized geometry through symmetries of dg-manifolds_ &lbrack;[arXiv:1208.6048](http://arxiv.org/abs/1208.6048)&rbrack;
 
 [[!redirects geometry of type Bn]]
