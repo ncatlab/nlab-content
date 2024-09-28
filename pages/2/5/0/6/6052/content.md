@@ -88,8 +88,7 @@ Modern treatments are in
 * [[G. Böhm]], _Hopf algebroids_, (a chapter of) Handbook of algebra, [arxiv:math.RA/0805.3806](http://arxiv.org/abs/0805.3806)
 * [[Kornél Szlachányi]], _The monoidal Eilenberg&#8211;Moore construction and bialgebroids_, J. Pure Appl. Algebra __182__, no. 2&#8211;3 (2003) 287&#8211;315; _Fiber functors, monoidal sites and Tannaka duality for bialgebroids_, [arxiv/0907.1578](http://arxiv.org/abs/0907.1578)
 * [[T. Brzeziński]], G. Militaru, _Bialgebroids, $\times_{R}$-bialgebras and duality_, J. Algebra 251: 279-294, 2002, [math.QA/0012164](http://arxiv.org/abs/math/0012164)
-* J. Donin, A. Mudrov, _Quantum groupoids and dynamical categories_,  
-J. Algebra __296__ (2006), no. 2, 348&#8211;384, [math.QA/0311316](http://arxiv.org/abs/math/0311316), [MR2007b:17022](http://www.ams.org/mathscinet-getitem?mr=2201046), [doi](http://dx.doi.org/10.1016/j.jalgebra.2006.01.001); MPIM-2004-21, [dvi](http://www.mpim-bonn.mpg.de/preblob/1921) with hyperlinks, [ps](http://www.mpim-bonn.mpg.de/preblob/1922)
+* J. Donin, [[Andrey Mudrov]], _Quantum groupoids and dynamical categories_,  J. Algebra __296__ (2006), no. 2, 348--384, [math.QA/0311316](https://arxiv.org/abs/math/0311316), [MR2007b:17022](http://www.ams.org/mathscinet-getitem?mr=2201046), [doi](https://doi.org/10.1016/j.jalgebra.2006.01.001)
 
 There is also a notion of quasibialgebroid, where the coassociativity is weakened by a [[bialgebra cocycle|bialgebroid 3-cocycle]]. See also [[Hopf algebroid]]. 
 
