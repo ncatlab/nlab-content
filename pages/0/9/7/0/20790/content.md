@@ -39,6 +39,10 @@ Further discussion:
 
 * [[Emanuel Katz]], Gustavo Marques Tavares, Yiming Xu, _A solution of 2D QCD at Finite $N$ using a conformal basis_ &lbrack;[arxiv:1405.6727](https://arxiv.org/abs/1405.6727)&rbrack;
 
+See also:
+
+* Jeremias Aguilera Damia, Giovanni Galati, Luigi Tizzano. *Symmetries, Universes and Phases of $\text{QCD}_2$ with an Adjoint Dirac Fermion* (2024). ([arXiv:2409.17989](https://arxiv.org/abs/2409.17989)).
+
 ### As a string theory
 
 The understanding of 2d QCD as the [[effective field theory]] of a [[string theory]] ("Gross-Taylor model"):
