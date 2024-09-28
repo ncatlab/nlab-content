@@ -22,7 +22,7 @@
 
 ## Idea
 
-An _orientifold_ ([Dai-Leigh-Polchinski 89, p. 12](#DaiLeighPolchinski89)) is a [[target space|target]] [[spacetime]] for [[string theory|string]] [[sigma-models]] that combines aspects of $\mathbb{Z}_2$-[[orbifold]]s with _[[orientation]] reversal_ on the worldsheet, whence the name.
+An _orientifold_ ([Dai-Leigh-Polchinski 89, p. 12](#DaiLeighPolchinski89)) is a [[target space|target]] [[spacetime]] for [[string theory|string]] [[sigma-models]] that combines aspects of $\mathbb{Z}_2$-[[orbifold]]s with _[[orientation]] reversal_ on the worldsheet, hence the name.
 
 In [[type II string theory]] orientifold backgrounds (inducing e.g. [[type I string theory]], and the [[Sugimoto string]]) with $\mathbb{Z}_2$-[[fixed points]] -- called _[[O-planes]]_ (see there for more) --  are required for [[RR-field tadpole cancellation]]. This is a key consistency condition in particular for [[intersecting D-brane models]] used in [[string phenomenology]].
 
