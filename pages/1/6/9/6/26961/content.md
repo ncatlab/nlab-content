@@ -71,7 +71,7 @@ In Markov categories, one can model iid samples using the *copy map* (see at [[M
 * [[De Finetti's theorem]] says that every [[exchangeable probability measure]] is a unique [[convex mixture]] of iid ones.
 * The [[Hewitt-Savage zero-one law]] says that given iid random variables, the probability of each [[exchangeable event]] is either zero or one, i.e. it is a [[zero-one measure]]. 
 
-* The [[Kolmogorov zero-one law]], similarly, says that given iid [[random variables]], the probability of each [[tail event event]] is a [[zero-one measure]]. 
+* The [[Kolmogorov zero-one law]], similarly, says that given iid [[random variables]], the probability of each [[tail event]] is a [[zero-one measure]]. 
 
 * The [[law of large numbers]] says that given integrable iid random variables, the [[empirical mean]] tends to the [[expectation value]].
 
