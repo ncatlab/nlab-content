@@ -10,15 +10,17 @@ called [[transvectant]]s found by Gordan,
 
 * P. Gordan, _Das Zerfallen der Curven in gerade Linien_, Math. Ann., 45 (1894), pp. 411-427 [doi](https://doi.org/10.1007/BF01446687)
 
-Moscovici and Connes have constructed a sequence of Hopf algebras $\mathcal{H}_q$ related to geometry of [[foliation]]s. Hopf algebra $\mathcal{H}_q$ has deformations which may be given by universal deformation formulas, or in other words, by [[Drinfeld twist]]s which are power series in formal variable with unit free term. These 2-cocycles have the structure appearing in Rankin-Cohen brackets and are called Rankin-Cohen deformations and are akin in structure to what is in quantum group context known as [[Jordanian twist]]s, coming from the work of Gurevich on (generalized) Jordanian R-matrices, and of Ogievetsky, Coll-Gerstenhaber-Giaquinto and in a closer symmetrized form by Giaquinto and Zhang. An isomorphism between (reduced) Rankin-Cohen deformation and Jordanian deformation has been exhibited by Samsonov.
+[[Henri Moscovici|Moscovici]] and [[Alain Connes|Connes]] have constructed a sequence of Hopf algebras $\mathcal{H}_q$ related to geometry of [[foliation]]s. Hopf algebra $\mathcal{H}_q$ has deformations which may be given by universal deformation formulas, or in other words, by [[Drinfeld twist]]s which are power series in formal variable with unit free term. These 2-cocycles have the structure appearing in Rankin-Cohen brackets and are called __Rankin-Cohen deformations__ and are akin in structure to what is in quantum group context known as [[Jordanian twist]]s, coming from the work of [[Dimitri Gurevich]] on (generalized) Jordanian R-matrices, and of Ogievetsky, Coll-Gerstenhaber-Giaquinto and in a closer symmetrized form by Giaquinto and Zhang. An isomorphism between (reduced) Rankin-Cohen deformation and Jordanian deformation has been exhibited by Samsonov.
 
 ## Literature
 
 * R. A. Rankin, _The construction of automorphic forms from the derivatives of a given form_, J. Indian Math.Soc., (N.S.) 20 (1956) 103–116
-* H. Cohen, _Sums involving the values at negative integers of L-functions of quadratic characters_, Math.Ann. 217 (1975) 271-285
-* P. Cohen, Yu. Manin, D. Zagier, _Automorphic pseudodifferential operators_, Algebraic aspects of integrable systems, 17–47, Progr. Nonlinear Differential Equations Appl.26, Birkauser 1997
-* [[Alain Connes]], [[Henri Moscovici]], _Rankin-Cohen brackets and the Hopf algebra of transverse geometry_, Mosc. Math. J. __4__:1 (2004) 111–130
+* H. Cohen, _Sums involving the values at negative integers of L-functions of quadratic characters_, Math.Ann. 217 (1975) 271--285
+* P. Cohen, [[Yuri Manin]], [[Don Zagier]], _Automorphic pseudodifferential operators_, Algebraic aspects of integrable systems, 17--47, Progr. Nonlinear Differential Equations Appl.26, Birkauser 1997
+* [[Alain Connes]], [[Henri Moscovici]], _Rankin-Cohen brackets and the Hopf algebra of transverse geometry_, Mosc. Math. J. __4__:1 (2004) 111--130
 * R. Rochberg, X. Tang, Y. Yao, _A survey of Rankin-Cohen deformations_, Perspectives on Noncommutative Geometry, Fields Inst. Commun. 61:7 (2011) [arXiv:0909.4364](https://arxiv.org/abs/0909.4364)
-* P. Bieliavsky, X. Tang, Y. Yao, _Rankin–Cohen brackets and formal quantization_, Adv. Math. __212__:1 (2007) 293-314 [doi](https://doi.org/10.1016/j.aim.2006.10.007)
+* [[Pierre Bieliavsky]], X. Tang, Y. Yao, _Rankin--Cohen brackets and formal quantization_, Adv. Math. __212__:1 (2007) 293--314 [doi](https://doi.org/10.1016/j.aim.2006.10.007)
 * M. Samsonov, _Quantization of semi-classical twists and noncommutative geometry_, Lett. Math. Phys. __75__ (2006) 63–77 [doi](https://doi.org/10.1007/s11005-005-0038-2)
-* Y.–J. Choie, W. Eholzer, _Rankin–Cohen operators for Jacobi and Siegel forms_, J. Number Theory 68 (1998) 160–177
+* Y.-J. Choie, W. Eholzer, _Rankin--Cohen operators for Jacobi and Siegel forms_, J. Number Theory 68 (1998) 160--177
+
+[[!redirects Rankin-Cohen deformation]]
