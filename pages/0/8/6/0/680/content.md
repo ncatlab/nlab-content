@@ -704,29 +704,32 @@ The relation of these with the abelian version is given in
 
 The paper
 
-* [[G. J. Ellis]] and [[R. Steiner]] _Higher-dimensional crossed modules and the homotopy groups  of $(n+1)$}-ads. _J. Pure Appl. Algebra_ **46** (2-3) (1987) 117--136.
+* [[G. J. Ellis]], [[R. Steiner]] _Higher-dimensional crossed modules and the homotopy groups  of $(n+1)$}-ads. _J. Pure Appl. Algebra_ **46** (2-3) (1987) 117--136.
 
 should also be seen as of Dold-Kan type. The homotopical applications  considerably generalise results on the [[Blakers-Massey theorem]].
 
 See also
 
-* Brown, R. _Modelling and computing homotopy types: I_, Indagationes Math: Special Issue in honor of L.E.J. Brouwer, (2017)
+* [[Ronald Brown]], _Modelling and computing homotopy types: I_, Indagationes Math: Special Issue in honor of L.E.J. Brouwer, (2017)
  ([pdf](http://groupoids.org.uk/pdffiles/brouwer-honor.pdf))
 
 
 The discussion of Dold--Kan in the general context of [[semi-abelian category|semi-abelian categories]] is in
 
 * [[Dominique Bourn]], _Moore normalisation and Dold--Kan theorem for semi-Abelian categories_, in
-Categories in algebra, geometry and mathematical physics , volume 431 of Contemp. Math.,
-105--124, Amer. Math. Soc., Providence, RI. (2007)
+Categories in algebra, geometry and mathematical physics , Contemp. Math. __431__, 105--124, Amer. Math. Soc., Providence, RI. (2007)
+
+Dold-Kan correspondence in idempotent complete additive categories
+
+* [[Volodymyr Lyubashenko]], _Dold--Kan correspondence, revisited_, Appl. Categor. Struct. __30__, 543–-567 (2022). [doi](https://doi.org/10.1007/s10485-021-09665-7)
 
 The classical Dold-Kan theorem occurs as a special case among others from [[combinatorics]] and [[representation theory]], and in particular from homological stability, in:
 
-* {#Slomiiska} [[Jolanta Słomińska]], _Dold-Kan type theorems and Morita equivalences of functor categories_, Journal of Algebra **274** 1 (2004) 118-137 $[$[doi:10.1016/j.jalgebra.2003.10.025](https://doi.org/10.1016/j.jalgebra.2003.10.025)$]$
+* {#Slomiiska} [[Jolanta Słomińska]], _Dold-Kan type theorems and Morita equivalences of functor categories_, Journal of Algebra **274** 1 (2004) 118--137 $[$[doi:10.1016/j.jalgebra.2003.10.025](https://doi.org/10.1016/j.jalgebra.2003.10.025)$]$
 
 A similar framework was independently rediscovered in:
 
-* [[Stephen Lack]], [[Ross Street]], _Combinatorial Categorical Equivalences_, arxiv:1402.7151 (2014).  ([link](http://arxiv.org/abs/1402.7151))
+* [[Stephen Lack]], [[Ross Street]], _Combinatorial categorical equivalences_, [arXiv:1402.7151](http://arxiv.org/abs/1402.7151))
 
 A stable homotopical version of these general correspondences was developed in:
 
