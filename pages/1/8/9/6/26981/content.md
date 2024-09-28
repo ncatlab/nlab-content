@@ -93,7 +93,7 @@ sep=large,%
 X \ar{dr}{\delta} \ar[dashed]{d} \\
 SX \ar[hookrightarrow]{r}{\iota} & PX \ar[shift left]{r}{\delta} \ar[shift right]{r}[swap]{P\delta} & PPX 
 \end{tikzcd}
-This map $X\to SX$ forms the unit of the [[adjunction]]. 
+This map $X\to S X$ forms the unit of the [[adjunction]]. 
 
 (More on this at [[zero-one measure#the_monad_of_zeroone_measures|zero-one measure]].)
 
