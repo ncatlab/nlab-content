@@ -80,6 +80,8 @@ In Markov categories, one can model iid samples using the *copy map* (see at [[M
 
 * [[probability theory]], [[categorical probability]]
 
+* [[observational monad]], [[sampling map]]
+
 * [[de Finetti's theorem]], [[Hewitt-Savage zero-one law]], [[Kolmogorov zero-one law]], [[law of large numbers]]
 
 * [[infinitary tensor product]], [[Kolmogorov extension theorem]]
