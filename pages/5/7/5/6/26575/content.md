@@ -24,7 +24,7 @@
 ## Idea
 
 In a [[category]] with all [[products]], one can take finite products of objects, and hence one has a [[monoidal category]].
-One can however also take _infinite products_. In some situations, such as in [[categorical probability]], one is interesting in taking a infinitary version of a tensor product. 
+One can however also take _infinite products_. In some situations, such as in [[categorical probability]], one is interested in taking an infinitary version of a tensor product. 
 
 In measure-theoretic [[probability theory]], such a construction is provided by [[Kolmogorov's extension theorem]], and the same idea can be used in general:
 
