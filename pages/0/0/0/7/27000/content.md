@@ -19,7 +19,7 @@
 In [[probability theory]], a *tail event* is an event which, intuitively, does not depend on the initial terms of a sequence. 
 (For example, think of the truth value of the statement "The sequence $(x_n)$ has a limit": it does not depend on the first terms, but only on the "tail" of the sequence.)
 
-Sometimes, in fields such as [[economics]], *tail event* refers to the mostly unrelated notion of *rare event*. (Think of a point very far right or very far left of a [[gaussian distribution]], i.e. on the "tail".)
+Sometimes, in fields such as [[economics]], *tail event* refers to the mostly unrelated notion of *rare event*. (Think of a point very far right or very far left of a [[Gaussian distribution]], i.e. on the "tail".)
 
 
 ## Definition
