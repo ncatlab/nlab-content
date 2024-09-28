@@ -82,7 +82,7 @@ The sampling map, by its universal property, can be seen as "generating" the ran
 
 ## See also
 
-* [[Giry monad]], [[probability monad]], [[monad in computer science]]
+* [[Giry monad]], [[probability monad]], [[monad in computer science]], [[observational monad]]
 * [[Markov category]], [[thunk-force category]], [[Kleisli category]]
 * [[Markov kernel]], [[iid samples]]
 
