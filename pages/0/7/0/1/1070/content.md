@@ -37,7 +37,7 @@ Associated to $\mathcal{A}$ is
 
 * the [[stable ∞-category]] $K_\infty(\mathcal{A})$ of [[chain complexes]] in $C$.
 
-The  _derived category_ $D(C)$ of $C$ is equivalently
+The  _derived category_ $D(C)$ of $\mathcal{A}$ is equivalently
 
 * the [[homotopy category|1-categorical homotopy category]] of $Ch_\bullet(\mathcal{A})$ with respect to the [[quasi-isomorphisms]];
 
