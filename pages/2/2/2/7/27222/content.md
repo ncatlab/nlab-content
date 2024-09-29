@@ -6,6 +6,7 @@
 On [[reflection equation algebra]]
 
 * [[Andrey Mudrov]], _Characters of $U_q(gl(n))$-reflection equation algebra_, Lett. Math. Phys. __60__:3, 283--291 (2002) [doi](https://doi.org/10.1023/A:1016283527111)
+* J. Donin, P. P. Kulish, [[A. I. Mudrov]], _On a universal solution to the reflection equation_, Lett. Math. Phys. __63__ (2003) 179--194 [doi](https://doi.org/10.1023/A:1024438101617)
 
 On [[bialgebroid]]s and dynamical quantum Yang-Baxter equation
 
