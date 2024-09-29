@@ -141,3 +141,8 @@ For expository and other material, see [[category of cubes - exposition]].
 For the semicartesian cube category:
 
 * [[Mike Shulman]], *Towards a Third-Generation HOTT Part 3* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-12.pdf), [video](https://www.youtube.com/watch?v=9pDddxB7LbE))
+
+[[!redirects symmetric cube category]]
+[[!redirects semicartesian cube category]]
+[[!redirects cartesian cube category]]
+[[!redirects de Morgan cube category]]
