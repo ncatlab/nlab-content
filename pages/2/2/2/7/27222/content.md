@@ -14,3 +14,4 @@ On [[bialgebroid]]s and dynamical quantum Yang-Baxter equation
 * J. Donin, [[Andrey Mudrov]], _Dynamical Yang-Baxter equation and quantum vector bundles_, Comm. Math. Phys. __254__ (2005), no. 3, 719--760,  [math.QA/0306028](https://arxiv.org/abs/math/0306028), [MR2006i:81099](http://www.ams.org/mathscinet-getitem?mr=2126489), [doi](https://doi.org/10.1007/s00220-004-1247-8)
 
 category: people
+[[!redirects A. I. Mudrov]]
