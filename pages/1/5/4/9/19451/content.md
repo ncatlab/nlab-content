@@ -130,6 +130,8 @@ See also:
 
 * [[John Bourke]], [[Stephen Lack]], _Skew monoidal categories and skew multicategories_, Journal of Algebra **506** (2018), 237-266. &lbrack;[arXiv:1708.06088](https://arxiv.org/abs/1708.06088), [doi:10.1016/j.jalgebra.2018.02.039](https://doi.org/10.1016/j.jalgebra.2018.02.039)&rbrack;
 
+* Ben Fuller, _Semidirect products of monoidal categories_, [arXiv:1510.08717](https://arxiv.org/abs/1510.08717) (2015).
+
 Examples of skew-closed monoidal structures on [[model categories]] which become monoidal on the [[homotopy category of a model category|homotopy category]]:
 
 * [[John Bourke]], *Skew structures in 2-category theory and homotopy theory*, J. Homotopy Relat. Struct. **12** 1 (2017) 31-81 &lbrack;[arXiv:1510.01467](https://arxiv.org/abs/1510.01467), [doi:10.1007/s40062-015-0121-z](https://doi.org/10.1007/s40062-015-0121-z)&rbrack;
