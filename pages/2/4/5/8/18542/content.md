@@ -1,4 +1,7 @@
 
+> (not to be confused with [[N. M. Bogoliubov]])
+
+Nikolay Nikolayevich Bogolyubov (1909-1992)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Nikolay_Bogolyubov)
 
@@ -17,7 +20,14 @@ On ([[AQFT|algebraic]]) [[quantum field theory]]:
 
 category: people
 
+[[!redirects Nikolay N. Bogolyubov]]
+
+
 [[!redirects Nikolay Bogoliubov]]
+[[!redirects Nikolay N. Bogoliubov]]
 
 [[!redirects Bogoliubov]]
 [[!redirects Bogolyubov]]
+
+
+
