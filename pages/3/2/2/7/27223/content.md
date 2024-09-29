@@ -13,7 +13,7 @@
 
 ## Idea
 
-The *quantum inverse scattering method* (QISM) is a method for solving [[quantum integrable systems]], inspired by the [[classical inverse scattering method]]. It springs from the quantum inverse scattering problem: find the quantum [[potential energy|potential]] from given [[scattering]] data. 
+The *quantum inverse scattering method* (QISM) is a method for solving [[quantum integrable systems]], inspired by the [[classical inverse scattering method]] and Bethe Ansatz. It springs from the quantum inverse scattering problem: find the quantum [[potential energy|potential]] from given [[scattering]] data. 
 
 [[quantum groups|Quantum groups]] were discovered within development of QISM, where they play a prominent role. 
 
