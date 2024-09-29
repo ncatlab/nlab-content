@@ -10,10 +10,9 @@ On the [[Knizhnik-Zamolodchikov equation]] and [[Hecke algebras]]:
 
 * [[Ivan Cherednik]], *Lectures on Knizhnik-Zamolodchikov equations and Hecke algebras*, Mathematical Society of Japan Memoirs **1998** (1998) 1--96 $[$[doi:10.2969/msjmemoirs/00101C010](https://doi.org/10.2969/msjmemoirs/00101C010)$]$
 
-Cherednik introduced the reflection equation in the context of [[quantum inverse scattering]] method with boundary conditions
+Cherednik introduced the [[reflection equation]] in the context of [[quantum inverse scattering]] method with [[boundary conditions]]:
 
-* [[I. V. Cherednik]], _Factorizing particles on a half-line and root systems_, Theoretical
-and Mathematical Physics __61__ (1984) 977--983 [doi](https://10.1007/BF01038545)
+* [[I. V. Cherednik]]: _Factorizing particles on a half-line and root systems_, Theoretical and Mathematical Physics __61__ (1984) 977-983 &lbrack;[doi:10.1007/BF01038545](https://10.1007/BF01038545), [doi:10.1007/BF01038545](https://doi.org/10.1007/BF01038545)&rbrack;
 
 [[double Hecke algebra|Double Hecke algebras]] are also called Cherednik algebras, after I. Cherednik who introduced in a series of works in early 1990s:
 
