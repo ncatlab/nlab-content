@@ -242,7 +242,7 @@ Now we will argue that these statements hold for arbitrary commutative rings.
 ###### Remark
 a)  The category $\lambda Ring$ of $\lambda$-rings is [[monadic]] and [[comonadic]] over the category of $C Ring$ of commutative rings.
 
-b)  The category $\lambda Ring_{\neg tor}$ of $\lambda$-rings is [[monadic]] and [[comonadic]] over the category of $C Ring_{\neg tor}$ of commutative rings.
+b)  The category $\lambda Ring_{\neg tor}$ of torsion-free $\lambda$-rings is [[monadic]] and [[comonadic]] over the category of $C Ring_{\neg tor}$ of torsion-free commutative rings.
 =--
 
 +-- {: .num_prop}
