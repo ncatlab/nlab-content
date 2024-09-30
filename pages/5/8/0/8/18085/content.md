@@ -31,4 +31,6 @@ An early observation that the [[Prof|bicategory of profunctors]] should be a [[K
 
 * [[René Guitart]]. _Monades involutives complémentées_, Cahiers de topologie et géométrie différentielle catégoriques **16** 1 (1975) 17-101 &lbrack;[numdam:CTGDC_1975__16_1_17_0](http://www.numdam.org/item/CTGDC_1975__16_1_17_0)&rbrack;
 
-[[!redirects relative pseudomonad]]
+[[!redirects relative pseudomonads]]
+[[!redirects relative 2-monad]]
+[[!redirects relative 2-monads]]
