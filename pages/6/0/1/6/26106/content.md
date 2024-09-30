@@ -72,6 +72,11 @@ For [[super Yang-Mills theory]] in [[light cone gauge]]:
 
 * Nipun Bhave, Saurabh Pant, *Nicolai maps and uniqueness in the light-cone gauge* &lbrack;[arXiv:2406.18238](https://arxiv.org/abs/2406.18238)&rbrack;
 
+See also:
+
+* [[Olaf Lechtenfeld]]: *Nicolai maps for supersymmetric sigma models* &lbrack;[arXiv:2409.18855](https://arxiv.org/abs/2409.18855)&rbrack;
+
+
 
 
 
