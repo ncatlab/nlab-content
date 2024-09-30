@@ -3675,6 +3675,23 @@ The following is a (very) inclomplete list of selected invited presentations by 
 
    > on ([[quantum field theory|quantum]]) [[field theory]] expressed in the [[topoi]] of [[smooth sets]] and [[super smooth sets]].
 
+\linebreak
+
+* Sep 2024
+
+  CNN's "[Decoding Quantum Computation](https://edition.cnn.com/2024/09/23/world/video/decoded-quantum-computing-spc-intl)"
+
+  briefly mentions (in minute 20:00)  
+
+  CQTS's [research program on top. quantum programming](https://ncatlab.org/schreiber/show/QPL2024) 
+
+<center>
+<a href="https://edition.cnn.com/2024/09/23/world/video/decoded-quantum-computing-spc-intl">
+<img src="https://ncatlab.org/nlab/files/CNN-DecodingQC-min20.jpg" width="640">
+</a>
+</center>
+  
+
 
 \linebreak
 
