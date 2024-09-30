@@ -627,6 +627,11 @@ see also
 
 * Peter Banks, Erik Panzer, Brent Pym, _Multiple zeta values in deformation quantization_ ([arXiv:1812.11649](https://arxiv.org/abs/1812.11649))
 
+* Kelvin Ritland: *Deformation quantization generates all multiple zeta values* &lbrack;[arXiv:2409.18450](https://arxiv.org/abs/2409.18450)&rbrack;
+
+
+
+
 This secretly uses the [[Poisson sigma-model]] (see there for more details) induced by the given target [[Poisson Lie algebroid]].
 
 A popular exposition of formal deformation quantization with emphasis of the [[string theory|stringy]] [[Poisson sigma-model]]-construction:
