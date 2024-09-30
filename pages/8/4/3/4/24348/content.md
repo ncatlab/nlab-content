@@ -85,6 +85,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Introspective Theories and Geminal Categories|[[Sridhar Ramesh]]|2023|[eScholarship repository](https://escholarship.org/uc/item/3mn0c475)| on [[Löb's theorem]] and the [[Gödel incompleteness theorem]] |
 |Scalar Enrichment and Cotraces in Bicategories|Callum William Reader|2023|[White Rose repository](https://etheses.whiterose.ac.uk/33327/)| on [[traces]] and [[cotraces]] in [[monoidal bicategories]] | 
 | On Monadic Vector-Valued Integration|Benedikt Peterseim|2023|[arXiv](https://arxiv.org/abs/2403.19681)| on [[probability monads]] on [[convenient categories of topological spaces]] | |
+|Commutativity of Relative Pseudomonads|Andrew Slattery|2024|[White Rose repository](https://etheses.whiterose.ac.uk/35372/)| on [[commutative monads]], [[lax-idempotent pseudomonads]], and [[relative pseudomonads]] |
 |Doctrinal and Groupoidal Representations of Classifying Topoi|Joshua L. Wrigley|2024|[PDF](https://jlwrigley.github.io/thesis/thesis_wrigley.pdf)| |
 
 
