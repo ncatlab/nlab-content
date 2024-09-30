@@ -76,9 +76,8 @@ In the absence of AC, one might argue that algebraic Kan complexes are a better 
 
 ## References
 
-* {#Nikolaus} [[Thomas Nikolaus]], _Algebraic models for higher categories_, Indagationes Mathematicae
-Volume 21, Issues 1–2, July 2011, Pages 52-75
- ([arXiv/1003.1342](http://arxiv.org/abs/1003.1342), [doi:10.1016/j.indag.2010.12.004](https://doi.org/10.1016/j.indag.2010.12.004))
+* {#Nikolaus} [[Thomas Nikolaus]]: *Algebraic models for higher categories*, Indagationes Mathematicae
+**21** 1–2 (2011) 52-75 &lbrack;[arXiv:1003.1342](http://arxiv.org/abs/1003.1342), [doi:10.1016/j.indag.2010.12.004](https://doi.org/10.1016/j.indag.2010.12.004)&rbrack;
 
 
 [[!redirects algebraic Kan complex]]
