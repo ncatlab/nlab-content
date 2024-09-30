@@ -1040,7 +1040,7 @@ The interpretation of the cocycles for the [[D-branes]] and for the [[M5-brane]]
 
 * {#CAIB99} C. Chrysso‌malakos, [[José de Azcárraga]], [[José M. Izquierdo]], C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_, Nucl. Phys. B **567** (2000) 293-330  &lbrack;[arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137), <a href="https://doi.org/10.1016/S0550-3213(99)00512-X">doi:10.1016/S0550-3213(99)00512-X</a>&rbrack;
 
-* {#Sakaguchi00} Makoto Sakaguchi, _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
+* {#Sakaguchi00} Makoto Sakaguchi: *IIB-Branes and New Spacetime Superalgebras*, JHEP 0004 (2000) 019 &lbrack;[arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143), [doi:10.1088/1126-6708/2000/04/019](https://iopscience.iop.org/article/10.1088/1126-6708/2000/04/019)&rbrack;
 
 
 * {#AzcarragaIzquierdo01} [[José de Azcárraga]], [[José Izquierdo|J. M. Izquierdo]], _Superalgebra cohomology, the geometry of extended superspaces and superbranes_ ([arXiv:hep-th/0105125](https://arxiv.org/abs/hep-th/0105125))
