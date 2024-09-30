@@ -136,6 +136,9 @@ See also
 
 * Yuhma Asano: *Quantisation of type IIB superstring theory and the matrix model* &lbrack;[arXiv:2408.04000](https://arxiv.org/abs/2408.04000)&rbrack;
 
+* [[Sean A. Hartnoll]], Jun Liu: *The Polarised IKKT Matrix Model* &lbrack;[arXiv:2409.18706](https://arxiv.org/abs/2409.18706)&rbrack;
+
+
 In relation to the [[Brandenberger-Vafa mechanism]]:
 
 * [[Robert Brandenberger]], Julia Pasiecznik: *On the Origin of the $SO(9) \to SO(3) \times SO(6)$ Symmetry Breaking in the IKKT Matrix Model* &lbrack;[arXiv:2409.00254](https://arxiv.org/abs/2409.00254)&rbrack;
