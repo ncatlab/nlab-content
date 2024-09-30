@@ -181,6 +181,11 @@ On the history of [[supersymmetry]]:
 
 * [[Hermann Nicolai]], *Reflections on Supersymmetry* &lbrack;[arXiv:2311.06051](https://arxiv.org/abs/2311.06051)&rbrack;
 
+Survey of [[D=4 N=8 supergravity]]:
+
+* [[Hermann Nicolai]]:
+*$\mathcal{N}=8$ Supergravity, and beyond* &lbrack;[arXiv:2409.18656](https://arxiv.org/abs/2409.18656)&rbrack;
+
 
 
 ## Related entries
