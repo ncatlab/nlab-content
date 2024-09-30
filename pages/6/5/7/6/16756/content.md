@@ -28,6 +28,8 @@ On the [[Nicolai map]]:
 
 * [[Olaf Lechtenfeld]], *Nicolai maps for super Yang-Mills on the light cone* &lbrack;[arXiv:2406.04406](https://arxiv.org/abs/2406.04406)&rbrack;
 
+* [[Olaf Lechtenfeld]]: *Nicolai maps for supersymmetric sigma models* &lbrack;[arXiv:2409.18855](https://arxiv.org/abs/2409.18855)&rbrack;
+
 
 
 On [[Sasakian manifolds]] and [[quiver gauge theory]]:
