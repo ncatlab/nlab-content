@@ -25,7 +25,7 @@ Write $\Omega^\bullet$ for the [[holomorphic de Rham complex]].
 The Fr&#246;licher spectral sequence has the form
 
 $$
-  E_1^{p,1}
+  E_1^{p,q}
   =
   (H^q(X,\Omega^p), \partial)
    \Rightarrow
