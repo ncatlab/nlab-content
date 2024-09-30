@@ -210,6 +210,12 @@ and further gaugings by non-compact gauge groups in
 
 * [[Chris Hull]], _New Gauged $N=8$, $D=4$ Supergravities_, _Class.Quant.Grav.20:5407-5424,2003_ ([arXiv:hep-th/0204156](https://arxiv.org/abs/hep-th/0204156))
 
+Review:
+
+* [[Hermann Nicolai]]:
+*$\mathcal{N}=8$ Supergravity, and beyond* &lbrack;[arXiv:2409.18656](https://arxiv.org/abs/2409.18656)&rbrack;
+
+
 #### $N = 8$ Perturbative quantum supergravity
  {#PerturbativeQuantumSupergravityN8}
 
