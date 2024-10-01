@@ -6,6 +6,39 @@
 \linebreak
 
 
+
+**Abstract.** The global (non-perturbative) definition of higher gauge fields requires choices of "flux-quantization laws".
+
+This is classical for electromagnetism (with Dirac quantization given by line bundles), and famous for RR-fields (whose quantization conjecturally is in topological K-theory).
+
+But when the higher Maxwell-type equations are non-linear in the fluxes
+(as they generically are in higher dimensional supergravity) then such
+Whitehead-generalized
+cohomology theories fail as flux-quantization laws, and what is needed
+are more general *non-abelian cohomology* theories (as in: non-abelian
+Poincaré duality).
+
+I will first discuss the algebraic topology behind this statement, notably the
+generalization of the Chern character map from K-theory to nonabelian cohomology
+via classical methods of dg-algebraic rational homotopy theory,
+following our monograph `doi:10.1142/13422`.
+
+Then I will turn to the example of 11d super-gravity, and explain how
+one viable flux quantization here (aka: a "model for the C-field")
+is given by twisted forms of Pontrjagin-Borsuk-Spanier's "Co-Homotopy" theory,
+and how the choice of this law ("Hypothesis H") provably implies
+phenomena that have been conjectured to hold in the completion of 11d
+super-gravity
+by "M-theory" -- such as the half-integral ($\lambda/2$-shifted)
+quantization of the 4-flux density.
+
+This is reporting on joint work with Hisham Sati.
+
+Some form of lecture notes will be available at:
+
+`ncatlab.org/schreiber/show/Introduction+to+Hypothesis+H`
+
+
 ## Sugimoto string theory
 
 
