@@ -212,8 +212,7 @@ and further gaugings by non-compact gauge groups in
 
 Review:
 
-* [[Hermann Nicolai]]:
-*$\mathcal{N}=8$ Supergravity, and beyond* &lbrack;[arXiv:2409.18656](https://arxiv.org/abs/2409.18656)&rbrack;
+* [[Hermann Nicolai]]: *$\mathcal{N}=8$ Supergravity, and beyond* &lbrack;[arXiv:2409.18656](https://arxiv.org/abs/2409.18656)&rbrack;
 
 
 #### $N = 8$ Perturbative quantum supergravity
