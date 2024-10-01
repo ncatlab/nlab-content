@@ -25,6 +25,10 @@ A readable monograph is
 
 * [[Vladimir E. Korepin]], [[N. M. Bogoliubov]], A. G. Izergin: *Quantum inverse scattering method and correlation functions*, Cambridge Monographs on Mathematical Physics, Cambridge University Press (1993) &lbrack;[doi:10.1017/CBO9780511628832](https://doi.org/10.1017/CBO9780511628832), [arXiv:cond-mat/9301031](https://arxiv.org/abs/cond-mat/9301031)&rbrack;
 
+A monograph emphasising (bi)hamiltonian methods is
+
+* [[Ludwig D. Faddeev]], [[Leon A. Takhtajan]], *Hamiltonian methods in the theory of solitons*, Springer (2007) &lbrack;[doi:10.1007/978-3-540-69969-9](https://doi.org/10.1007/978-3-540-69969-9)&rbrack;
+
 The [[reflection equation]] is introduced in the case with boundary conditions in:
 
 * [[I. V. Cherednik]]: _Factorizing particles on a half-line and root systems_, Theoretical and Mathematical Physics __61__ (1984) 977-983 &lbrack;[doi:10.1007/BF01038545](https://10.1007/BF01038545), [doi:10.1007/BF01038545](https://doi.org/10.1007/BF01038545)&rbrack;
