@@ -153,6 +153,9 @@ On super-heavy [[gravitinos]] as [[dark matter]] candidates, by embedding [[D=4 
 
 * [[Krzysztof A. Meissner]], [[Hermann Nicolai]], _Supermassive gravitinos and giant primordial black holes_ ([arXiv:2007.11889](https://arxiv.org/abs/2007.11889))
 
+* Adrianna Kruk, Michał Lesiuk, [[Krzysztof A. Meissner]], [[Hermann Nicolai]]: *Signatures of supermassive charged gravitinos in liquid scintillator detectors* &lbrack;[arXiv:2407.04883](https://arxiv.org/abs/2407.04883)&rbrack;
+
+
 On [[higher spin gauge theory]] and [[Kac-Moody algebras]]:
 
 * [[Marc Henneaux]], [[Axel Kleinschmidt]], [[Hermann Nicolai]], _Higher spin gauge fields and extended Kac-Moody symmetries_ ([arXiv:1110.4460](http://arxiv.org/abs/1110.4460))
@@ -183,8 +186,7 @@ On the history of [[supersymmetry]]:
 
 Survey of [[D=4 N=8 supergravity]]:
 
-* [[Hermann Nicolai]]:
-*$\mathcal{N}=8$ Supergravity, and beyond* &lbrack;[arXiv:2409.18656](https://arxiv.org/abs/2409.18656)&rbrack;
+* [[Hermann Nicolai]]: *$\mathcal{N}=8$ Supergravity, and beyond* &lbrack;[arXiv:2409.18656](https://arxiv.org/abs/2409.18656)&rbrack;
 
 
 
