@@ -12,12 +12,16 @@ On [[mathematical physics]]:
 
 On the [[mass gap problem]]:
 
-* [[Ludvig Faddeev]], _Mass in Quantum Yang-Mills Theory_, Bull Braz Math Soc, New Series **33** 2 (2002) 201-212 &lbrack;[arXiv:0911.1013](https://arxiv.org/abs/0911.1013)&rbrack;
+* [[Ludvig Faddeev]], _Mass in quantum Yang-Mills theory_, Bull. Braz. Math. Soc., New Series **33** 2 (2002) 201--212 &lbrack;[arXiv:0911.1013](https://arxiv.org/abs/0911.1013)&rbrack;
 
 On [[solitons]]:
 
 * [[Ludwig D. Faddeev]], [[Leon Takhtajan]], *Hamiltonian methods in the theory of solitons*, Springer (2007) &lbrack;[doi:10.1007/978-3-540-69969-9](https://doi.org/10.1007/978-3-540-69969-9)&rbrack;
 
+[[FRT construction]] of [[quantum groups]]
+
+* [[Nikolai Reshetikhin|N. Yu. Reshetikhin]], [[Leon  Takhtajan|L. A. Takhtajan]], [[Ludwig Fadeev|L. D. Faddeev]], _Quantization of Lie groups and Lie algebras_, Algebra i analiz __1__, 178 (1989) (Russian), English transl. in Leningrad Math. J. 1.
+* [[Ludwig Faddeev|L. D. Faddeev]], [[Nikolai Reshetikhin|N. Yu. Reshetikhin]], [[L. A. Takhtajan]], _Quantum Groups. Braid Group, Knot Theory and Statistical Mechanics_, in: Adv. Ser. Math. Phys. __9__, World Sci. 1989, pp. 97--110
 
 
 ## Related entries
