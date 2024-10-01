@@ -292,7 +292,7 @@ Reviews include for instance
 
 Relation to [[equivariant cohomology]]:
 
-* [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_, Topology vol. 23 No. 1 1984  ([pdf](https://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/BOOKS/atiyahbott_moment.pdf))
+* [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_, Topology vol. 23 No. 1 1984  ([pdf](https://www.math.stonybrook.edu/~mmovshev/MAT570Spring2008/BOOKS/atiyahbott_moment.pdf))
 
 ### Generalization: group-valued momentum maps
 
