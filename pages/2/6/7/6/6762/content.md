@@ -108,13 +108,21 @@ to be an isomorphism, where the vertical arrows are invertible symmetry constrai
 \end{proof} 
 
 \begin{corollary} 
-If $D$ is cartesian closed, and the reflector $L \colon D \to C$ preserves products, then $C$ is cartesian closed. 
+If $D$ is cartesian closed, and the reflector $L \colon D \to C$ preserves products, then $C$ is cartesian closed. Conversely, if $C$ is cartesian closed and $C \to D$ is a [[dense functor]], then the reflector preserves products.
 \end{corollary} 
 
 \begin{proof} 
-We have already seen under the hypotheses that if $c, c'$ are in $C$, then the exponential $c^{c'}$ as calculated in $D$ is in $C$. Furthermore, $C$ inherits products from $D$, because $R \colon C \to D$ is monadic and monadic functors reflect limits. The adjunction $C(c'' \times c', c) \cong C(c'', c^{c'})$ holds because it holds when interpreted in $D$ and $C$ is fully embedded in $D$. 
+We have already seen under the hypotheses that if $c, c'$ are in $C$, then the exponential $c^{c'}$ as calculated in $D$ is in $C$. Furthermore, $C$ inherits products from $D$, because $R \colon C \to D$ is monadic and monadic functors reflect limits. The adjunction $C(c'' \times c', c) \cong C(c'', c^{c'})$ holds because it holds when interpreted in $D$ and $C$ is fully embedded in $D$.
+
+For the converse, see Theorem 3.10 of [Street 1980](#Street80).
 \end{proof} 
 
 ## Reference 
 
 * {#Day72} [[Brian Day]], *A reflection theorem for closed categories*, Journal of Pure and Applied Algebra **2** 1 (1972), 1-11. &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90021-7">doi:10.1016/0022-4049(72)90021-7</a>&rbrack;
+
+* {#Street80} [[Ross Street]], *Cosmoi of internal categories*, Transactions of the American Mathematical Society **258** 2 (1980) 271-318 &lbrack;[doi:10.2307/1998059](https://doi.org/10.2307/1998059)&rbrack;
+
+A version for [[skew monoidal categories]] is given in:
+
+* [[Steve Lack]] and [[Ross Street]], _Skew-monoidal reflection and lifting theorems_, Theory & Applications of Categories 30 (2015).
