@@ -1,7 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include algebra - contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+
 # Antisubalgebras
 * table of contents
 {: toc}
+
 
 ## Idea
 
@@ -23,20 +39,40 @@ A [[subset]] $A$ of $X$ is __[[open subset|open]]__ (or $\ne$-open) if, whenever
 
 
 ## Examples
+ {#Examples}
 
 Unless otherwise noted, all of the constructions in these examples should be [[predicative mathematics|predicative]].
 
+\begin{example}
 The [[empty subset]] of any algebra is an antisubalgebra, the __empty antisubalgebra__ or __improper antisubalgebra__, whose complement is the [[improper subset|improper]] subalgebra (which is all of $X$).  An antisubalgebra is __[[proper subset|proper]]__ if it is [[inhabited subset|inhabited]]; the ability to have a positive definition of when an antisubalgebra is proper is a significant motivation for the concept.
+\end{example}
 
+\begin{example}
 If $A$ is an antisubalgebra and $c$ is a constant (given by an operation $X^0 \to X$ or a composite of same with other operations), then $p \ne c$ whenever $p \in A$.  If the theory has well-behaved constants, then we can define the __trivial antisubalgebra__ to be the subset of those elements $p$ such that $p \ne c$ for each constant $c$ (the $\ne$-complement of the [[trivial subalgebra]]).  In general, we may also take the __trivial antisubalgebra__ to be the [[union]] of all antisubalgebras (but this is not predicative).
+\end{example}
 
-Instead of [[subgroups]], use antisubgroups.  In this case the definition can be simplified a bit: a subset $A$ of an inequality group $X$ is an __antisubgroup__ if $p \ne 1 $ whenever $p \in A$, $p \in A$ or $q \in A$ whenever $p q \in A$, and $p \in A$ whenever $p^{-1} \in A$.  We need not assume that $A$ is open; this can be proved from strong extensionality of the group operations on $X$ and the stronger form of the nullary anticlosure condition ("$p \ne 1 $ whenever $p \in A$" is a strengthening of the condition $\neg (1\in A)$ that would be the literal nullary case of the general definition.)  An antisubgroup $A$ is __[[normal subgroup|normal]]__ if $p q \in A$ whenever $q p \in A$.  The __[[trivial subgroup|trivial]] antisubgroup__ is the $\ne$-complement of $\{1\}$.
 
-Instead of [[ideals]] (of [[rings]]), use antiideals.  (Technically, these are antisubalgebras of the ring as a module over itself.)  Again we can omit $\ne$-openness by strengthening the nullary condition.  In detail, a subset $A$ of $X$ is a __two-sided antiideal__ (or simply an __antiideal__ in the commutative case) if $p \ne 0 $ whenever $p \in A$, $p \in A$ or $q \in A$ whenever $p + q \in A$, and $p \in A$ and $q \in A$ whenever $p q \in A$.  $A$ is a __left antiideal__ if instead the last condition requires only that $p \in A$, and $A$ is a __right antiideal__ if instead the last condition requires only that $q \in A$.  It follows that an antiideal $A$ is proper iff $1 \in A$.  $A$ is __[[prime ideal|prime]]__ (or _antiprime_) if it is proper and $p r q \in A$ for some $r$ whenever $p \in A$ and $q \in A$; in the commutative case, we can say that $p q \in A$ whenever $p \in A$ and $q \in a$.  $A$ is __[[maximal ideal|minimal]]__ (or _antimaximal_) if it is proper and, for each $p \in A$, for some $q$, for each $r \in A$, $p q + r \ne 1$ and $q p + r \ne 1$ (which is constructively stronger than being prime and [[minimal element|minimal]] among proper ideals); of course, we only need one of these two inequalities in the commutative case.  The __[[trivial ideal|trivial]] antiideal__ is the $\ne$-complement of $\{0\}$.
 
-Note that a [[union]] of antisubalgebras is again an antisubalgebra.  Given any subset $B$ of $X$, the antisubalgebra __generated__ by $B$ is the union of all antisubalgebras contained in $B$.  (This construction is not predicative, although it may still be true predicatively that the generated subalgebra exists in some situations.)
+The anti-analog of [[subgroups]], are anti-subgroups. Their  definition can be simplified a bit:
+\begin{example}
+A subset $A$ of an inequality group $X$ is an __antisubgroup__ if $p \ne 1 $ whenever $p \in A$, $p \in A$ or $q \in A$ whenever $p q \in A$, and $p \in A$ whenever $p^{-1} \in A$.  We need not assume that $A$ is open; this can be proved from strong extensionality of the group operations on $X$ and the stronger form of the nullary anticlosure condition ("$p \ne 1 $ whenever $p \in A$" is a strengthening of the condition $\neg (1\in A)$ that would be the literal nullary case of the general definition.)  An antisubgroup $A$ is __[[normal subgroup|normal]]__ if $p q \in A$ whenever $q p \in A$.  The __[[trivial subgroup|trivial]] antisubgroup__ is the $\ne$-complement of $\{1\}$.
+\end{example}
 
+The anti-analog of [[ideals]] (of [[rings]]) are [[antiideals]]. (Technically, these are antisubalgebras of the ring as a module over itself.)  Again we can omit $\ne$-openness by strengthening the nullary condition:
+
+\begin{example}\label{AntiIdeals}
+A subset $A$ of $X$ is a __two-sided antiideal__ (or simply an __[[antiideal]]__ in the commutative case) if $p \ne 0 $ whenever $p \in A$, $p \in A$ or $q \in A$ whenever $p + q \in A$, and $p \in A$ and $q \in A$ whenever $p q \in A$.  $A$ is a __left antiideal__ if instead the last condition requires only that $p \in A$, and $A$ is a __right antiideal__ if instead the last condition requires only that $q \in A$.  It follows that an antiideal $A$ is proper iff $1 \in A$.  $A$ is __[[prime ideal|prime]]__ (or _antiprime_) if it is proper and $p r q \in A$ for some $r$ whenever $p \in A$ and $q \in A$; in the commutative case, we can say that $p q \in A$ whenever $p \in A$ and $q \in a$.  $A$ is __[[maximal ideal|minimal]]__ (or _antimaximal_) if it is proper and, for each $p \in A$, for some $q$, for each $r \in A$, $p q + r \ne 1$ and $q p + r \ne 1$ (which is constructively stronger than being prime and [[minimal element|minimal]] among proper ideals); of course, we only need one of these two inequalities in the commutative case.  The __[[trivial ideal|trivial]] antiideal__ is the $\ne$-complement of $\{0\}$.
+\end{example}
+
+\begin{example}
+Note that a [[union]] of antisubalgebras is again an antisubalgebra.  
+
+Given any subset $B$ of $X$, the antisubalgebra __generated__ by $B$ is the union of all antisubalgebras contained in $B$.  (This construction is not predicative, although it may still be true predicatively that the generated subalgebra exists in some situations.)
+\end{example}
+
+\begin{example}
 In some cases, we may prefer to anti-generate: given any subset $B$ of $X$, the antisubalgebra __antigenerated__ by $B$ is the union of all antisubalgebras whose elements are all distinct from ($\ne$) each element of $B$, in other words the antisubalgebra generated by the $\ne$-complement of $B$.  For example, the trivial antisubgroup of a group is antigenerated by $\{1\}$, and the trivial antiideal of a ring is antigenerated by $\{0\}$.  More generally than these examples, we may talk of the __[[cyclic subgroup|cyclic antisubgroup]]__ or __[[principal ideal|principal antiideal]]__ antigenerated by a given element of the group or ring.
+\end{example}
 
 
 ## Quotient algebras
@@ -59,27 +95,34 @@ As noted at [[apartness relation]], an apartness relation on a set $X$ is equiva
 In other words, antisubalgebras of an inequality algebra are equivalent to closed subalgebras of a localic algebra, in the case when the latter is the quotient of a discrete algebra by a closed localic congruence.
 
 
+## Related entries
+
+* [[anti-ideal]]
+
+
 ## References
 
-According to [Troelstra and van Dalen](#TvD):
+According to [Troelstra and van Dalen](#TroelstraVanDalen88):
 
 > The study of algebraic structures in an intuitionistic setting was undertaken by Heyting ([1941](#Heyting1941))... in full generality, equipped with an apartness relation.  The notion of an antisubstructure, implicit in Heyting's treatment of ideals in polynomial rings, was formulated explicitly by D.S. Scott ([1979](#Scott1979)) (N.B. the first draft of this paper contains a good deal more than the published version).  Ruitenburg ([1982](#Ruitenberg1982Thesis), [1982A](#Ruitenberg1982)) deals with intuitionistic algebra in the spirit of Heyting and Scott.
 
-* [[Arend Heyting]], _Untersuchungen &#252;ber intuitionistische Algebra_, 1941
-  {#Heyting1941}
+* {#Heyting1941} [[Arend Heyting]], _Untersuchungen &#252;ber intuitionistische Algebra_, 1941
+  
 
-* [[Dana Scott]], _Identity and existence in intuitionistic logic_, 1979
-  {#Scott1979}
+* {#Scott1979} [[Dana Scott]], _Identity and existence in intuitionistic logic_, 1979
+  
 
-* [[Wim Ruitenberg]], _Intuitionistic Algebra_, Ph.D. Thesis, Rijksuniversiteit Utrecht, 1982
-  {#Ruitenberg1982Thesis}
+* {#Ruitenberg1982Thesis} [[Wim Ruitenberg]], _Intuitionistic Algebra_, Ph.D. Thesis, Rijksuniversiteit Utrecht, 1982
+  
 
-* [[Wim Ruitenberg]], _Primality and invertibility of polynomials_, 1982
-  {#Ruitenberg1982}
+* {#Ruitenberg1982} [[Wim Ruitenberg]], _Primality and invertibility of polynomials_, 1982
+  
+* {#TroelstraVanDalen88} [[Anne Sjerp Troelstra]], [[Dirk van Dalen]]: *Constructivism in Mathematics -- An introduction*, Volume II, Studies in Logic and the Foundations of Mathematics **123**: North Holland (1988) &lbrack;[ISBN:9780444703583](https://shop.elsevier.com/books/constructivism-in-mathematics-vol-2/troelstra/978-0-444-70358-3)&rbrack;
 
-* Surprisingly, antisubalgebras make hardly any appearence in [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]].  _A Course in Constructive Algebra_.  Springer, 1987.
+Surprisingly, antisubalgebras make hardly any appearence in 
 
-* More can be found in [[Anne Troelstra]] and [[Dirk van Dalen]], _Constructivism in Mathematics_ (volume 2).
+* [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]]: _A Course in Constructive Algebra_, Springer (1987)
+
 
 
 [[!redirects antisubalgebra]]
@@ -116,41 +159,6 @@ According to [Troelstra and van Dalen](#TvD):
 [[!redirects trivial antisubgroups]]
 [[!redirects trivial anti-subgroup]]
 [[!redirects trivial anti-subgroups]]
-
-[[!redirects antiideal]]
-[[!redirects antiideals]]
-[[!redirects anti-ideal]]
-[[!redirects anti-ideals]]
-
-[[!redirects left antiideal]]
-[[!redirects left antiideals]]
-[[!redirects left anti-ideal]]
-[[!redirects left anti-ideals]]
-
-[[!redirects right antiideal]]
-[[!redirects right antiideals]]
-[[!redirects right anti-ideal]]
-[[!redirects right anti-ideals]]
-
-[[!redirects two-sided antiideal]]
-[[!redirects two-sided antiideals]]
-[[!redirects two-sided anti-ideal]]
-[[!redirects two-sided anti-ideals]]
-
-[[!redirects prime antiideal]]
-[[!redirects prime antiideals]]
-[[!redirects prime anti-ideal]]
-[[!redirects prime anti-ideals]]
-
-[[!redirects minimal antiideal]]
-[[!redirects minimal antiideals]]
-[[!redirects minimal anti-ideal]]
-[[!redirects minimal anti-ideals]]
-
-[[!redirects trivial antiideal]]
-[[!redirects trivial antiideals]]
-[[!redirects trivial anti-ideal]]
-[[!redirects trivial anti-ideals]]
 
 [[!redirects generated antisubalgebra]]
 [[!redirects generated antisubalgebras]]
@@ -197,24 +205,12 @@ According to [Troelstra and van Dalen](#TvD):
 [[!redirects anti-subgroup anti-generated]]
 [[!redirects anti-subgroups anti-generated]]
 
-[[!redirects antigenerated antiideal]]
-[[!redirects antigenerated antiideals]]
-[[!redirects antiideal antigenerated]]
-[[!redirects antiideals antigenerated]]
-[[!redirects anti-generated anti-ideal]]
-[[!redirects anti-generated anti-ideals]]
-[[!redirects anti-ideal anti-generated]]
-[[!redirects anti-ideals anti-generated]]
 
 [[!redirects cyclic antisubgroup]]
 [[!redirects cyclic antisubgroups]]
 [[!redirects cyclic anti-subgroup]]
 [[!redirects cyclic anti-subgroups]]
 
-[[!redirects principal antiideal]]
-[[!redirects principal antiideals]]
-[[!redirects principal anti-ideal]]
-[[!redirects principal anti-ideals]]
 
 [[!redirects anticongruence]]
 [[!redirects anticongruences]]
