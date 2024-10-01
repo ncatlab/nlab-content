@@ -151,6 +151,9 @@ That every ideal is contained in a prime ideal is a [[prime ideal theorem]]; tha
 
 * [[ideal predicate]]
 
+* [[anti-ideal]]
+
+
 [[!redirects ideal]]
 [[!redirects ideals]]
 
