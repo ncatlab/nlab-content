@@ -19,7 +19,7 @@ For example, a [[quotient Hopf algebra]] $B$ of $H$, with quotient map $\pi: H\t
 * H-J. Schneider, _Principal homogeneous spaces for arbitrary Hopf algebras_, 
 Israel J. Math. __72__ (1990), no. 1-2, 167--195 [MR92a:16047](http://www.ams.org/mathscinet-getitem?mr=1098988) [doi](http://dx.doi.org/10.1007/BF02764619)
 * [[Tomasz Brzeziński]], _Quantum homogeneous spaces as quantum quotient spaces_, J. Math. Phys. __37__ (1996), 2388--2399
-* K. De Commer, M. Yamashita, _Tannaka-Krein duality for compact quantum homogeneous spaces. I. General theory_, [arxiv/1211.6552](https://arxiv.org/abs/1211.6552)
+* [[Kenny De Commer]], M. Yamashita, _Tannaka-Krein duality for compact quantum homogeneous spaces. I. General theory_, [arxiv/1211.6552](https://arxiv.org/abs/1211.6552)
 * Pawel Kasprzak, _On a certain approach to quantum homogeneous spaces_, Comm. Math. Phys., [arxiv/1007.2438](https://arxiv.org/abs/1007.2438)
 * [[Nicola Ciccoli]], [[Rita Fioresi]], [[Fabio Gavarini]], _Quantization of projective homogeneous spaces and duality principle_, J. Noncomm. Geom. __2__:4 (2008) 449---496 [doi](https://doi.org/10.4171/jncg/26)
 
