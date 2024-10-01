@@ -3,7 +3,7 @@
 ## Idea
 
 Given a solution of the matrix quantum Yang-Baxter equation $R\in End(V\otimes V)$, which can be viewed as a certain endomorphism of $V\otimes V$ for a finite-dimensional vector space $V$, one defines the __RTT bialgebra__ $A(R)$ which is as an algebra
-free associative algebra $F$ on $n^2$ generators $T^i_j$ forming a matrix $T = (T^i_j)\in F\otimes End(V)$
+free associative algebra $F$ on $n^2$ generators $T^i_j$ (these generators could be viewed as elements of the dual $End^*(V)$) forming a matrix $T = (T^i_j)\in F\otimes End(V)$
 modulo the relations packed in a matrix form as
 $$
 R (T\otimes Id) (Id\otimes T) = (Id\otimes T) (T\otimes Id) R,
