@@ -2476,6 +2476,22 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   > The main step in the proof uses a [theorem of Okuyama](group-completed+configuration+space+of+points#Okuyama05) to identify [[Cohomotopy|co-Homotopy]] [[moduli spaces]] with [[configuration spaces]] of [[strings]] with charged endpoints, and identifies their [[loop spaces]] with [[cobordism]] of [[framed links]] that, under topological [[light cone quantization]], turn out to be identified with the regularized [[Wilson loops]] of abelian [[Chern-Simons theory]].
 
 
+\linebreak
+
+* {#KorepinSep2024} 30 Sep 2024
+
+  [[Vladimir Korepin]] (Stony Brook University, USA):
+
+  **Lessons of Many-Body Quantum Mechanics for Circuit Design**
+
+  cf. [arXiv:2406.08320](https://arxiv.org/abs/2406.08320)
+
+  slides: [[Korepin-CQTS2024.pdf:file]]
+
+  > Brick-wall [[quantum circuits|circuits]] composed of the [[Yang-Baxter equation|Yang-Baxter]] [[quantum gates|gates]] are integrable. It becomes an important tool to study the [[quantum many-body physics|quantum many-body system]] out of equilibrium. To put the Yang-Baxter gate on the [[quantum computer]], it has to be decomposed into the native gates of quantum computers. It is favorable to apply the least number of native two-qubit gates to construct the Yang-Baxter gate. We study the geometric representations of all $X$-type braid gates and their corresponding Yang-Baxter gates via the Yang-Baxterization. We find that the braid and Yang-Baxter gates can only exist on certain edges and faces of the two-qubit tetrahedron. We identify the parameters by which the braid and Yang-Baxter gates are the Clifford gate, the matchgate, and the dual-unitary gate. The geometric representations provide the optimal decompositions of the braid and Yang-Baxter gates in terms of other two-qubit gates. We also find that the entangling powers of the Yang-Baxter gates are determined by the spectral parameters. Our results provide the necessary conditions to construct the braid and Yang-Baxter gates on quantum computers.
+
+\linebreak
+
 ***
 
 \linebreak
