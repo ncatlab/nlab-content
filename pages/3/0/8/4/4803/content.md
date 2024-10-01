@@ -234,7 +234,7 @@ Discussion of the gravitino as a [[dark matter]] candidate:
 
 * {#EllisOlive10} [[John Ellis]], [[Keith Olive]], _Supersymmetric Dark Matter Candidates_ ([arXiv:1001.3651](http://arxiv.org/abs/1001.3651))
 
-A proposal for super-heavy [[gravitinos]] as [[dark matter]], by embedding [[D=4 N=8 supergravity]] into [[E10]]-[[U-duality]]-invariant [[M-theory]]:
+{#NicolaiMeissner} A proposal for super-heavy [[gravitinos]] as [[dark matter]], by embedding [[D=4 N=8 supergravity]] into [[E10]]-[[U-duality]]-invariant [[M-theory]]:
 
 * {#MeissnerNicolai18a} [[Krzysztof A. Meissner]], [[Hermann Nicolai]], _Standard Model Fermions and Infinite-Dimensional R-Symmetries_, Phys. Rev. Lett. 121, 091601 (2018) ([arXiv:1804.09606](https://arxiv.org/abs/1804.09606))
 
@@ -251,6 +251,8 @@ Further duscussion:
 * [[Krzysztof A. Meissner]], [[Hermann Nicolai]], _Supermassive gravitinos and giant primordial black holes_ ([arXiv:2007.11889](https://arxiv.org/abs/2007.11889))
 
 * [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Evidence for a stable supermassive gravitino with charge $2/3$?* &lbrack;[arXiv:2303.09131](https://arxiv.org/abs/2303.09131)&rbrack;
+
+* Adrianna Kruk, Michał Lesiuk, [[Krzysztof A. Meissner]], [[Hermann Nicolai]]: *Signatures of supermassive charged gravitinos in liquid scintillator detectors* &lbrack;[arXiv:2407.04883](https://arxiv.org/abs/2407.04883)&rbrack;
 
 
 
