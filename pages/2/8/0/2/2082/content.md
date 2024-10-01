@@ -42,7 +42,7 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 * [[noncommutative geometry]], [[noncommutative algebraic geometry]], [[deformation quantization]]
 
 * [[quantum inverse scattering method]], [[Knizhnik-Zamolodchikov equation]], [[Tannaka duality]], [[Yang-Baxter equation]], [[classical Yang-Baxter equation]], [[quantum Yang-Baxter equation]], [[dynamical Yang-Baxter equation]], [[reflection equation]]
-* [[Hopf algebra]], [[bialgebra]], [[gebra]], [[Yangian]], [[matrix bialgebra]], [[quantum linear group]], [[quantized function algebra]], [[quantized enveloping algebra]]
+* [[Hopf algebra]], [[bialgebra]], [[gebra]], [[Yangian]], [[RTT algebra]], [[matrix bialgebra]], [[quantum linear group]], [[quantized function algebra]], [[quantized enveloping algebra]]
 * [[braided monoidal category]], [[quantum double]], [[Heisenberg double]], [[Yetter-Drinfeld module]]
 * [[quantum homogeneous space]], [[quantum flag manifold]], [[quantum symmetric pair]], [[Hopf-Galois extension]], [[noncommutative principal bundle]]
 
