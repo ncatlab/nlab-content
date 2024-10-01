@@ -317,6 +317,9 @@ A proposal for super-heavy [[gravitinos]] as [[dark matter]], by embedding [[D=4
 
 * {#MeissnerNicolai18b} [[Krzysztof A. Meissner]], [[Hermann Nicolai]], _Planck Mass Charged Gravitino Dark Matter_, Phys. Rev. D 100, 035001 (2019) ([arXiv:1809.01441](https://arxiv.org/abs/1809.01441))
 
+* Adrianna Kruk, Michał Lesiuk, [[Krzysztof A. Meissner]], [[Hermann Nicolai]]: *Signatures of supermassive charged gravitinos in liquid scintillator detectors* &lbrack;[arXiv:2407.04883](https://arxiv.org/abs/2407.04883)&rbrack;
+
+
 following the proposal towards the end of
 
 * {#GellMann83} [[Murray Gell-Mann]], introductory talk at _[Shelter Island II](https://en.wikipedia.org/wiki/Shelter_Island_Conference)_, 1983 ([[Gell-Mann_ShelterIslandII_1983.pdf:file]]) 
