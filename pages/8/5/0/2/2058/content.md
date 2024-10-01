@@ -20,7 +20,7 @@
 
 ## Definition
 
-Let $C$ be a [[category]] with [[pullbacks]] and [[colimits]] of some [[small category|shape]] $D$.  We say that colimits of shape $D$ are __stable by [[base change]]__, or __stable under pullback__, or that these colimits are __universal__ if for every functor $G : D \to C$ and for all [[pullback]] diagrams of the form
+Let $C$ be a [[category]] with [[pullbacks]] and [[colimits]] of some [[small category|shape]] $D$.  We say that colimits of shape $D$ are __stable by [[base change]]__, or __stable under pullback__, or that these colimits are __universal__, if for every functor $G : D \to C$ and for all [[pullback]] diagrams of the form
 
 $$
   \array{
