@@ -8,9 +8,17 @@
 =--
 =--
 =--
+
+
+\tableofcontents
+
 ## Idea
 
-Skew brace is a set with two group structures with some compatibilities. It is a generalization of the concept of [[brace]] (algebraic structure due W. Rump), to which it reduces when one of the groups is Abelian. They can be used to construct solutions of [[set-theoretic Yang-Baxter equation]]; their actions can be used to construct solutions of the [[reflection equation]].
+A *skew brace* is a [[set]] equipped with a [[pair]] of [[group]] [[structures]] satisfying some compatibility conditions. 
+
+This is a generalization of the concept of *[[brace]]* (an algebraic structure due W. Rump), which it reduces to when one of the groups is [[abelian group|Abelian]]. 
+
+Skew baces can be used to construct solutions to the [[set-theoretic Yang-Baxter equation]]; their actions can be used to construct solutions of the [[reflection equation]].
 
 ## Literature
 
@@ -32,3 +40,4 @@ In construction of solutions of the [[reflection equation]]
 
 category: algebra
 [[!redirects skew braces]]
+
