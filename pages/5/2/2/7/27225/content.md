@@ -19,6 +19,7 @@ On [[quantum circuits]] and [[quantum many-body physics]]:
 
 * [[Vladimir Korepin]]: *Lessons of Many-Body Quantum Mechanics for Circuit Design*, [talk at](CQTS#KorepinSep2024) [[CQTS]] @ NYU Abu Dhabi (Sep 2024) &lbrack;[arXiv:2406.08320](https://arxiv.org/abs/2406.08320), slides:[[Korepin-CQTS2024.pdf:file]]&rbrack;
 
+category: people
 
 
 [[!redirects Vladimir E. Korepin]]
