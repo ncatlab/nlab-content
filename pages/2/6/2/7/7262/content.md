@@ -100,6 +100,7 @@ The fact that every simply laced hyperbolic Kac-Moody algebra is a sub Lie algeb
 * Sankaran Viswanath, _Embeddings of hyperbolic Kac-Moody algebras into $E_{10}$_ ([pdf](http://math.iisc.ernet.in/~svis/ehk.pdf))
 
 ### Relation to supergravity
+ {#ReferencesRelationToSupergravity}
 
 Discussion of $E_{10}$ as [[U-duality]] of [[supergravity]]/[[M-theory]]:
 
