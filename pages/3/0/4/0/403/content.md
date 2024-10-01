@@ -320,7 +320,7 @@ Let $\mathbf{E}$ be a finitely complete cartesian closed category. Then the cate
 
 +-- {: .proof} 
 ###### Proof 
-First suppose $\mathbf{E}$ is finitely complete. Then the category of directed graphs $\mathbf{E}^{\bullet \stackrel{\to}{\to} \bullet}$ is also finitely complete, and since $Cat(\mathbf{E})$ is monadic over $\mathbf{E}^{\bullet \stackrel{\to}{\to} \bullet}$, it follows that $Cat(\mathbf{E})$ is also finitely complete. 
+First suppose $\mathbf{E}$ is finitely complete. Then, since $Cat(\mathbf{E})$ is the category of models for a [[limit sketch]] in $E$, it follows that $Cat(\mathbf{E})$ is also finitely complete. 
 
 Now suppose that $\mathbf{E}$ is finitely complete and cartesian closed. Let $\Delta_3$ denote the category of nonempty ordinals up to and including the ordinal with 4 elements. We have a full and faithful embedding 
 
