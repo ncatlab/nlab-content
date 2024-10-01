@@ -39,10 +39,14 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 ## Related concepts
 
 * [[quantum algebra]]
+* [[noncommutative geometry]], [[noncommutative algebraic geometry]], [[deformation quantization]]
 
-* [[Hopf algebra]], [[bialgebra]], [[gebra]], [[braided monoidal category]], [[noncommutative algebraic geometry]], [[noncommutative geometry]], [[Hopf-Galois extension]], [[matrix bialgebra]], [[Knizhnik-Zamolodchikov equation]], [[Tannaka duality]], [[Yangian]], [[Yang-Baxter equation]], [[classical Yang-Baxter equation]], [[quantum Yang-Baxter equation]], [[dynamical Yang-Baxter equation]], [[quantum linear group]], [[quantized function algebra]], [[quantized enveloping algebra]]
+* [[quantum inverse scattering method]], [[Knizhnik-Zamolodchikov equation]], [[Tannaka duality]], [[Yang-Baxter equation]], [[classical Yang-Baxter equation]], [[quantum Yang-Baxter equation]], [[dynamical Yang-Baxter equation]], [[reflection equation]]
+* [[Hopf algebra]], [[bialgebra]], [[gebra]], [[Yangian]], [[matrix bialgebra]], [[quantum linear group]], [[quantized function algebra]], [[quantized enveloping algebra]]
+* [[braided monoidal category]], [[quantum double]], [[Heisenberg double]], [[Yetter-Drinfeld module]]
+* [[quantum homogeneous space]], [[quantum flag manifold]], [[quantum symmetric pair]], [[Hopf-Galois extension]], [[noncommutative principal bundle]]
 
-* [[Poisson Lie group]]
+* [[Poisson Lie group]], [[dressing action]]
 
 * [[quantum 2-group]]
 
@@ -52,13 +56,13 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 ## References
 
 
-* {#Drinfeld87} [[Vladimir Drinfeld]], _Quantum groups_, in: A. Gleason (ed.) *[Proceedings of the](https://archive.org/details/proceedingsofint0002inte_v5c3/mode/2up) [1986 International Congress of Mathematics](https://inspirehep.net/conferences/966215?ui-citation-summary=true)* **1** (1987) 798-820 &lbrack;[pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1986.1/ICM1986.1.ocr.pdf)&rbrack;
+* {#Drinfeld87} [[Vladimir Drinfeld]], _Quantum groups_, in: A. Gleason (ed.) *[Proceedings of the](https://archive.org/details/proceedingsofint0002inte_v5c3/mode/2up) [1986 International Congress of Mathematics](https://inspirehep.net/conferences/966215?ui-citation-summary=true)* **1** (1987) 798--820 &lbrack;[pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1986.1/ICM1986.1.ocr.pdf)&rbrack;
 
   expanded version:
 
-  Journal of Soviet Mathematics **41** (1988) 898–915 &lbrack;[doi:10.1007/BF01247086](https://doi.org/10.1007/BF01247086)&rbrack;
+  Journal of Soviet Mathematics **41** (1988) 898--915 &lbrack;[doi:10.1007/BF01247086](https://doi.org/10.1007/BF01247086)&rbrack;
 
-* {#Tjin92} [[Tjark Tjin]], *An introduction to quantized Lie groups and algebras*, Int. J. Mod. Phys. A **7** (1992) 6175-6213 &lbrack;[arXiv:hep-th/9111043](https://arxiv.org/abs/hep-th/9111043), [doi:10.1142/S0217751X92002805](https://doi.org/10.1142/S0217751X92002805)&rbrack;
+* {#Tjin92} [[Tjark Tjin]], *An introduction to quantized Lie groups and algebras*, Int. J. Mod. Phys. A **7** (1992) 6175--6213 &lbrack;[arXiv:hep-th/9111043](https://arxiv.org/abs/hep-th/9111043), [doi:10.1142/S0217751X92002805](https://doi.org/10.1142/S0217751X92002805)&rbrack;
 
 
 * [[Christian Kassel]], _Quantum groups_, Graduate Texts in Mathematics __155__, Springer 1995 ([doi:10.1007/978-1-4612-0783-2](https://link.springer.com/book/10.1007/978-1-4612-0783-2), [webpage](http://www-irma.u-strasbg.fr/~kassel/QGbk.html), [errata pdf](http://www-irma.u-strasbg.fr/~kassel/QGerrata030399.pdf))
@@ -68,9 +72,9 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 
 * [[Yuri Manin|Yu. I. Manin]], _Quantum groups and non-commutative geometry_, CRM, Montreal 1988.
 
-* B. Parshall, J.Wang, _Quantum linear groups_, Mem. Amer. Math. Soc. 89(1991), No. 439, vi+157 pp.
+* [[Brian Parshall]], J.Wang, _Quantum linear groups_, Mem. Amer. Math. Soc. 89(1991), No. 439, vi+157 pp.
 
-* N. Yu. Reshetikhin, L. A. Takhtajan, L. D. Faddeev, _Quantization of Lie groups and Lie algebras_, Algebra i analiz __1__, 178 (1989) (Russian), English translation in Leningrad Math. J. 1.
+* [[Nikolai Reshetikhin|N. Yu. Reshetikhin]], [[Leon  Takhtajan|L. A. Takhtajan]], [[Ludwig Fadeev|L. D. Faddeev]], _Quantization of Lie groups and Lie algebras_, Algebra i analiz __1__, 178 (1989) (Russian), English translation in Leningrad Math. J. 1.
 
 * [[Arun Ram]], _A survey of quantum groups: background, motivation, and results_, in: Geometric analysis and Lie theory in mathematics and physics, A. Carey and M. Murray eds., Australian Math. Soc. Lecture Notes Series __11__, Cambridge Univ. Press 1997, pp. 20-104. [pdf](http://www.ms.unimelb.edu.au/~ram/Publications/1997AustMSLectNotesv11p20.pdf)
 
@@ -95,7 +99,7 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 
 * Bangming Deng, Jie Du, [[Brian Parshall]], Jianpan Wang, _Finite dimensional algebras and quantum groups_, Mathematical Surveys and Monographs __150__, Amer. Math. Soc. 2008. xxvi+759 pp. [MR2009i:17023)](http://www.ams.org/mathscinet-getitem?mr=2457938)
 
-* [[Tom Bridgeland]], _Quantum groups via Hall algebras of complexes_, Annals of Mathematics __177__:2 (2013) 739-759 (21 pages) 
+* [[Tom Bridgeland]], _Quantum groups via Hall algebras of complexes_, Annals of Mathematics __177__:2 (2013) 739--759 (21 pages) 
 
 * [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]], *Berkeley Lectures on Lie Groups and Quantum Groups*, 2020 ([pdf](http://categorified.net/LieQuantumGroups.pdf))
 
@@ -113,8 +117,6 @@ In the generality of [[noncartesian internal categories]]:
 On elliptic quantum groups:
 
 * [[Hitoshi Konno]], *Elliptic Quantum Groups*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2405.11193](https://arxiv.org/abs/2405.11193)&rbrack;
-
-
 
 
 See also:
