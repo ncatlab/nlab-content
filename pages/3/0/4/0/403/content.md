@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -509,12 +510,13 @@ Discussion of the [[canonical model structure]] on categories of internal catego
 
 Discussion of [[localization]] and [[anafunctors]] between internal categories:
 
-* [[David Roberts]], _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], Vol. 26, 2012, No. 29, pp 788-829, [tac:26-29](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](http://arxiv.org/abs/1101.2363)
+* [[David Roberts]], _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], **26** 29 (2012) 29 788-829 &lbrack;[tac:26-29](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](http://arxiv.org/abs/1101.2363)&rbrack;
 
 An old discussion on variants of internal categories, crossed modules and 2-groups is archived [here](http://nforum.mathforge.org/discussion/621/internal-category/?Focus=29967#Comment_29967).
 
-A good general reference is:
-* Adrian Miranda, _Internal categories_, Master's thesis at Macquarie University, 2018 ([url](https://figshare.mq.edu.au/articles/thesis/Internal_categories/19434626)).
+A good general reference:
+
+* Adrian Miranda: _Internal categories_, MSc thesis, Macquarie University (2018) &lbrack;[url](https://figshare.mq.edu.au/articles/thesis/Internal_categories/19434626), [[Miranda-InternalCategories.pdf:file]]&rbrack;,
 
 [[!redirects internal categories]]
 
