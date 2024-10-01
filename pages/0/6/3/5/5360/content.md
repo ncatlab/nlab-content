@@ -72,6 +72,8 @@ This amounts to an involutory [[quandle]] object $Q$ in the category of smooth m
 
 * [[Sigurdur Helgason]], *Differential geometry, Lie groups and symmetric spaces*, Graduate Studies in Mathematics **34** (2001) &lbrack;[ams:gsm-34](https://bookstore.ams.org/gsm-34)&rbrack;
 
+* S. Araki, _On root systems and an infinitesimal classification of irreducible symmetric spaces_, J. Math. Osaka City Univ. 13 (1962) 1--34
+
 
 The definition in terms of [[quandles]] coincides with the classical definition in the case of connected symmetric spaces.  For details, including a comparison of other definitions of symmetric space, see:
 
