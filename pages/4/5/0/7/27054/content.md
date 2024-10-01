@@ -17,4 +17,11 @@ On [[Askey--Wilson polynomials]]
 
 * [[Masatoshi Noumi]], J.V. Stokman: Askey-Wilson polynomials: an affine Hecke algebra approach, in Laredo Lectures on Orthogonal Polynomials and Special Functions (R.Alvarez-Nodarse, F.Marcellan and W.Van Assche, Eds), pp. 111--144, Nova Science Publishers, 2004. [math.QA/0001033](https://arxiv.org/abs/math/0001033) 
 
+On an approach to [[quantum symmetric pair]]s using solutions to [[reflection equation]]
+
+* [[Masatoshi Noumi]], _Macdonald’s symmetric polynomials as zonal spherical functions on some quantum homogeneous spaces_, Adv. Math. __123__ (1996) 16--77 arXiv:[math/9503224](https://arxiv.org/abs/math/9503224)
+* [[Masatoshi Noumi]], T. Sugitani, _Quantum symmetric spaces and related $q$-orthogonal polynomials_, Group theoretical methods in physics (Singapore) (A. Arima et. al., ed.), World Scientific 1995, pp. 28--40
+* Mathijs S. Dijkhuizen, [[Masatoshi Noumi]], _A family of quantum projective spaces and related $q$-hypergeometric orthogonal polynomials_, Trans. Amer. Math. Soc. __350__ (1998) 3269--3296 [doi](https://doi.org/10.1090/S0002-9947-98-01971-0)
+
+
 category: people
