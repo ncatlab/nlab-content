@@ -95,7 +95,7 @@ $$
   \,.
 $$
 
-This may equivalently be understood as the [[Grothendieck construction]] on the functor $X$.
+$\mathcal{C}_{/X}$ is equivalently the [[category of elements]] of $X$.
 
 \linebreak
 
