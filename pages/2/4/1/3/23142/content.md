@@ -26,7 +26,7 @@ Let $\mathcal{C}$ be any [[small category]].
 ### Over a representable
  {#IdeaOverARepresentable}
 
-For $X \,\in\, \mathcal{C}$ an [[object]], the [[category of presheaves]] $PSh\big( \mathcal{C}_{/X}\big)$ on the [[slice category]] $\mathcal{C}_{/X}$ is [[equivalence of categories|equivalent]] to the [[slice category|slice]] $PSh(\mathcal{C})_{/X}$ of the [[category of presheaves]] on $\mathcal{C}$ over the [[image]] of $X$ under the [[Yoneda embedding]].
+For $X \,\in\, \mathcal{C}$ an [[object]], the [[category of presheaves]] $PSh\big( \mathcal{C}_{/X}\big)$ on the [[slice category]] $\mathcal{C}_{/X}$ is [[equivalence of categories|equivalent]] to the [[slice category|slice]] $PSh(\mathcal{C})_{/y(X)}$ of the [[category of presheaves]] on $\mathcal{C}$ over the [[image]] of $X$ under the [[Yoneda embedding]].
 
 The former [[presheaf topos]] is manifestly a [[Grothendieck topos]], whence this equivalence shows that also the slice $PSh(\mathcal{C})_{/X}$ is a Grothendieck topos. This is the archetypical special case of the *[[fundamental theorem of topos theory]]* which says that all [[slice category|slices]] of toposes are themselves toposes: *[[slice toposes]]*.
 
