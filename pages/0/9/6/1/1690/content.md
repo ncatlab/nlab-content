@@ -11,6 +11,8 @@ the matrix equations $\Delta G = G \otimes G$ (i.e. in components
 $\Delta g^i_j = \sum_{k = 1}^n g^i_k \otimes g^k_j$)
 and $\epsilon G = 1$ (reading in components $\epsilon (g^i_j) = \delta^i_j$).
 
+[[RTT bialgebra]] for any $R$-matrix is an example of a matrix bialgebra.
+
 According to a result of Redford every finite-dimensional Hopf algebra over a [[field]] is a matrix Hopf algebra with respect to some basis. 
 
 The free (noncommutative) associative algebra $F$
