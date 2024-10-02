@@ -187,6 +187,10 @@ On equivalence of VOAs:
 
 * Sven Möller, Brandon C. Rayhaun: *Equivalence Relations on Vertex Operator Algebras, I: Genus* &lbrack;[arXiv:2408.07117](https://arxiv.org/abs/2408.07117)&rbrack;
 
+On [[orbifolds]] of VOAs
+
+* [[Terry Gannon]], Andrew Riesen: *Orbifolds of Pointed Vertex Operator Algebras I* &lbrack;[arXiv:2410.00809](https://arxiv.org/abs/2410.00809)&rbrack;
+
 
 
 
