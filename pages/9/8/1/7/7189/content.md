@@ -53,6 +53,12 @@ $$
 $$
 where 
 
+* the carrier functor $\mathbb{T}^G$ is given by the end
+$$
+  \mathbb{T}^G(A) = \int_{B \in \mathcal{B}} \mathcal{A}(A, GB) \pitchfork GB
+$$
+where $\pitchfork$ is [[power]], i.e. repeated product.
+
 * the *[[monad unit]]* $\eta^G \colon id_\mathcal{A}\Rightarrow T^G$ is the [[natural transformation]] given by the [[universal property]] of $(T^G,\;\alpha)$ with respect to the pair $(id_\mathcal{A},\;1_G)\;$, 
 
 * the *monad multiplication* $\mu^G \colon T^G\circ T^G\Rightarrow T^G$ results from the [[universal property]] of $(T^G,\;\alpha)$ with respect to the pair $(T^G\circ T^G,\;\alpha\circ (1_{T^G}\ast\alpha))$.
