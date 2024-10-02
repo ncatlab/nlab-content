@@ -18,20 +18,21 @@
 ## Idea
 
 A **rational topological space** is a [[topological space]] 
-all whose (reduced) [[integral cohomology|integral homology]] groups are [[vector space]]s over the [[rational numbers]] $\mathbb{Q}$. 
+all whose (reduced) [[integral cohomology|integral homology]] groups are [[vector spaces]] over the [[rational numbers]] $\mathbb{Q}$. 
 
 Every [[simply connected topological space|simply connected]] [[topological space]] has a [[rationalization]]
 and passing to that rationalization amounts to forgetting all
-[[torsion]] information in the homology groups and the 
-[[homotopy group]]s of that space. So rational spaces are a 
-way to approximate homotopical and cohomological characteristics
-of topological spaces. The idea is that comparatively little information
+[[torsion subgroup|torsion]] in the [[homology groups|homology]]- and [[homotopy group|homotopy]]-groups of that space. 
+
+Thereby  rational spaces serve as  approximations to the [[homotopy type]] of general [[topological spaces]] in [[rational homotopy theory]].
+
+The idea is that comparatively little information
 (though sometimes crucial information) is lost by passing to 
-rationalizations, while there are powerful tools to handle and compute
-with rational spaces. In particular, there is a precise sense in which
-rational spaces are modeled by graded commutative
-[[differential graded algebra|differential graded cochain algebra]]s.
-This is the topic of [[rational homotopy theory]].
+rationalizations, while there are powerful tools to handle and compute with rational spaces. 
+
+In particular, there is a precise sense in which
+the [[homotopy types]] of ([[nilpotent space|nilpotent]], [[finite type]]) rational spaces are modeled simply by  [[differential graded cochain algebras]]: This is the [[fundamental theorem of dg-algebraic rational homotopy theory]].
+
 
 ## Definition
 
