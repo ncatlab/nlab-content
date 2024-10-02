@@ -36,7 +36,7 @@ In the original paper, the following definition was given.
 +-- {: .num_defn}
 ###### Definition
 Let $\mathcal{A}$ be a $k$-linear triangulated category with finite-dimensional [[Hom]]'s and $k$ algebraically closed.  A **Serre functor** $S : \mathcal{A} \to \mathcal{A}$ is an additive equivalence that commutes with the translation functor, with [[natural isomorphisms|natural]] (in both variables) [[isomorphisms]] $\phi_{A,B} \colon \Hom_\mathcal{A}(A,B) \stackrel{\sim}{\to} \Hom_{\mathcal{A}}(B,S(A))^*$ for any objects $A$ and $B$, such that the composite
-  \[ (\phi^{-1}_{S(A),S(B)})^* \circ \phi_{A,B} : \Hom(A,B) \to \Hom(B,S(A))^* \to \Hom(S(A), S(B)) \]
+  \[ (\phi^{-1}_{B, S(A)})^* \circ \phi_{A,B} : \Hom(A,B) \to \Hom(B,S(A))^* \to \Hom(S(A), S(B)) \]
 coincides with the isomorphism induced by $S$.
 =--
 
