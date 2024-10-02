@@ -60,6 +60,8 @@ An __infinitary pretopos__ is an [[infinitary coherent category]] which is both 
 
 An infinitary pretopos (perhaps with [[well-powered category|well-poweredness]] included) is sometimes called an "$\infty$-pretopos" (e.g. in the [[Elephant]]), but we avoid that term because of potential confusion with the notion of [[(∞,1)-pretopos]].
 
+Infinitary pretoposes are precisely the algebras for the [[free cocompletion]] pseudomonad on $Lex$, the [[2-category]] of [[finitely complete categories]]. See [GL12](#GL12).
+
 ## Examples
 
 * Of course, any [[topos]] is a [[pretopos]], so any example there is an example of a [[pretopos]].
@@ -118,6 +120,8 @@ The [[codomain fibration]] of a pretopos is always a [[stack]] for its precanoni
 * {#Taylor} [[Paul Taylor]], [MathOverflow answer](https://mathoverflow.net/questions/382348/subobjects-in-the-category-of-compact-hausdorff-spaces/382351#382351).
 
 * [[Marino Gran]], [[Enrico Vitale]], *On the exact completion of the homotopy category*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **39** 4 (1998)  287-297 &lbrack;[numdam:CTGDC_1998__39_4_287_0](http://www.numdam.org/item/CTGDC_1998__39_4_287_0)&rbrack;
+
+* {#GL12} [[Richard Garner]] and [[Stephen Lack]], [_Lex colimits_](http://dx.doi.org/10.1016/j.jpaa.2012.01.003), JPAA 216.6, 2012.
 
 [[!redirects pretopos]]
 [[!redirects pretoposes]]
