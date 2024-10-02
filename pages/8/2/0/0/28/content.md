@@ -756,7 +756,7 @@ This is usually denoted $Ho(Grpd)$.
 Of course what the above really means is that, without quotienting out homotopies,
 groupoids form a [[2-category]], in fact a [[(2,1)-category]], in fact an [[enriched category]]
 which is enriched over the naive 1-category of groupoids from remark \ref{1CategoryOfGroupoids},
-hece a [[strict 2-category]] with [[hom-groupoids]].
+hence a [[strict 2-category]] with [[hom-groupoids]].
 
 
 \subsection{Equivalences of groupoids}
