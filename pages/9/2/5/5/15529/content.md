@@ -51,6 +51,8 @@ The result was announced by Walters on the [[Isle of Thorns]] in 1976, a proof c
 
 * [[totally distributive category]]
 
+* [[infinitary pretopos]]
+
 ## Link
 
 * {#Walters14}[[Bob Walters]], _Lex total categories and Grothendieck toposes I-IV_ , series of blog posts 2014. ([link](http://rfcwalters.blogspot.com/2014/07/lex-total-categories-and-grothendieck.html))
