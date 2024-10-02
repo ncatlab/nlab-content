@@ -42,11 +42,11 @@ See also:
 
 * Christian Schwiebert, _Extended reflection equation algebras, the braid group on a handlebody and associated link polynomials_, J. Math. Physics 02/1994; [doi](https://doi.org/10.1063/1.530751) [hep-th/9402051](http://arxiv.org/abs/hep-th/9402051); _Reflection equation and link polynomials for arbitrary genus solid tori_, [hep-th/9301023](https://arxiv.org/abs/hep-th/9301023)
 
-* Stephan Kolb, J. V. Stokman, _Reflection equation algebras, coideal subalgebras, and their centres_ Sel. Math. New Ser. __15__, 621--664 (2009) [doi](https://doi.org/10.1007/s00029-009-0007-1)
+* [[Stefan Kolb]], [[J. V. Stokman]], _Reflection equation algebras, coideal subalgebras, and their centres_ Sel. Math. New Ser. __15__, 621--664 (2009) [doi](https://doi.org/10.1007/s00029-009-0007-1)
 
 * J. Donin, P. P. Kulish, [[A. I. Mudrov]], _On a universal solution to the reflection equation_, Lett. Math. Phys. __63__ (2003) 179--194 [doi](https://doi.org/10.1023/A:1024438101617)
 
-* Martina Balagović, Stefan Kolb, _Universal K-matrix for quantum symmetric pairs_, Journal für die reine und angewandte Mathematik (Crelles Journal) 2019, 747 (2016) [doi](https://doi.org/10.1515/crelle-2016-0012)
+* Martina Balagović, [[Stefan Kolb]], _Universal K-matrix for quantum symmetric pairs_, Journal für die reine und angewandte Mathematik (Crelles Journal) 2019, 747 (2016) [doi](https://doi.org/10.1515/crelle-2016-0012)
 
 [[!redirects reflection equation]]
 [[!redirects reflection equation algebras]]
