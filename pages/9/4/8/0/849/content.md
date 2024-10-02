@@ -159,7 +159,7 @@ The internal homs in a [[symmetric monoidal category|symmetric]] [[closed monoid
 ###### Proposition
 **([[internal hom]] [[bifunctor]])**
 
-Let $\mathcal{C}$ be a [[symmetric monoidal category]] such that for each object $X \in \mathcal{C}$ the  functor $X \otimes (-)$ has a [[right adjoint]] $[X,-]$. Then this is already equivalent to Def. \ref{ClosedMonoidalCategory}, in that there is a unique functor out of the [[product category]]of $\mathcal{C}$ with its [[opposite category]]
+Let $\mathcal{C}$ be a [[symmetric monoidal category]] such that for each object $X \in \mathcal{C}$ the  functor $X \otimes (-)$ has a [[right adjoint]] $[X,-]$. Then this is already equivalent to Def. \ref{ClosedMonoidalCategory}, in that there is a unique functor out of the [[product category]] of $\mathcal{C}$ with its [[opposite category]]
 
 $$
   [-,-]
