@@ -18,6 +18,6 @@ On [[Yetter-Drinfeld module]]s
 
 On quantum Grassmannians and [[quantum flag varieties]]
 
-* E. Taft, [[Jacob Towber]], _Quantum deformation of flag schemes and Grassmann schemes $q$-deformation of the shape-algebra for $GL(n)$_, J. Algebra __142__ (1991), 1-3
+* [[Earl Taft]], [[Jacob Towber]], _Quantum deformation of flag schemes and Grassmann schemes $q$-deformation of the shape-algebra for $GL(n)$_, J. Algebra __142__ (1991) 1-36 <a href="https://doi.org/10.1016/0021-8693(91)90214-S">doi</a>
 
-categroy: people
+category: people
