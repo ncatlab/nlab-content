@@ -47,6 +47,13 @@ See also:
 
 * Wikipedia, *[Quantum simulator](https://en.wikipedia.org/wiki/Quantum_simulator)*
 
+On quantum simulation of the [[Dirac equation]]:
+
+* L. Lamata, J. León, T. Schätz, [[Enrique Solano]]: *Dirac Equation and Quantum Relativistic Effects in a Single Trapped Ion*, Phys. Rev. Lett. **98** 253005 (2007) &lbrack;[doi:10.1103/PhysRevLett.98.253005](https://doi.org/10.1103/PhysRevLett.98.253005)&rbrack;
+
+* R. Gerritsma, G. Kirchmair, F. Zähringer, [[Enrique Solano]], R. Blatt & C. F. Roos: *Quantum simulation of the Dirac equation*, Nature **463** 68–71 (2010) &lbrack;[doi:10.1038/nature08688](https://doi.org/10.1038/nature08688)&rbrack;
+
+
 On quantum simulation of ([[lattice QFT|lattice]]) [[quantum field theory]]:
 
 * [[John Preskill]], *Simulating quantum field theory with a quantum computer*, 36th Annual International Symposium on Lattice Field Theory, PoS **334** (2019) &lbrack;[doi:10.22323/1.334.0024](https://doi.org/10.22323/1.334.0024), 
