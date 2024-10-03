@@ -11,5 +11,9 @@ On [[quantum simulation]] of the [[Dirac equation]]:
 
 * R. Gerritsma, G. Kirchmair, F. Zähringer, [[Enrique Solano]], R. Blatt & C. F. Roos: *Quantum simulation of the Dirac equation*, Nature **463** 68–71 (2010) &lbrack;[doi:10.1038/nature08688](https://doi.org/10.1038/nature08688)&rbrack;
 
+## Related links
+
+* [Kipu Days 2024](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#KipuDays2024) at [[CQTS]], NYU AD (Oct 2024)
+
 
 category: people
