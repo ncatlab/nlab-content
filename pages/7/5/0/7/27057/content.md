@@ -13,7 +13,7 @@ Introduced in
 See also
 
 * Wikipedia: [Askey--Wilson polynomials](https://en.wikipedia.org/wiki/Askey%E2%80%93Wilson_polynomials)
-* [[Masatoshi Noumi]], J.V. Stokman, _Askey--Wilson polynomials: an affine Hecke algebra approach_, in Laredo Lectures on Orthogonal Polynomials and Special Functions (R.Alvarez-Nodarse, F.Marcellan and W.Van Assche, Eds), pp. 111--144, Nova Science Publishers, 2004. [math.QA/0001033](https://arxiv.org/abs/math/0001033)
+* [[Masatoshi Noumi]], [[Jasper V. Stokman]], _Askey--Wilson polynomials: an affine Hecke algebra approach_, in Laredo Lectures on Orthogonal Polynomials and Special Functions (R.Alvarez-Nodarse, F.Marcellan and W.Van Assche, Eds), pp. 111--144, Nova Science Publishers, 2004  [math.QA/0001033](https://arxiv.org/abs/math/0001033)
 
 [[!redirects Askey--Wilson polynomials]]
 [[!redirects Askey-Wilson polynomials]]
