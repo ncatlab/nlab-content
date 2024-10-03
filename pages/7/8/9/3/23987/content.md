@@ -1527,7 +1527,7 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
 
   > The required precision to perform [[quantum simulations]] beyond the capabilities of classical computers imposes major experimental and theoretical challenges. The key to solving these issues are highly precise ways of characterizing analog quantum simulators. Here, we report on theoretical and experimental work on estimating the free Hamiltonian parameters of bosonic excitations in a [superconducting-qubit](superconductivity#SuperconductingQBitsReferences) analog quantum simulator from measured time-series. We achieve the required levels of precision in estimating the Hamiltonian parameters by maximally exploiting the model structure, making it robust against noise and state-preparation and measurement (SPAM) errors. Our learning algorithm is highly scalable both in terms of the required amounts of data and post-processing. To achieve this, we develop a new super-resolution technique for frequency extraction from matrix time-series and make use of constrained manifold optimization for the eigenspace reconstruction. For up to 14 coupled [superconducting qubits](superconductivity#SuperconductingQBitsReferences) on two Sycamore processors, we identify the Hamiltonian parameters - verifying the implementation on one of them up to sub-MHz precision - and construct a spatial implementation error map for a grid of 27 qubits. Our results constitute a fully characterized, highly accurate implementation of an analog dynamical quantum simulation and introduce a diagnostic toolkit for understanding, calibrating, and improving analog quantum processors.
 
-* Enrique Solano (Kipu Quantum, Berlin, Germany):
+* [[Enrique Solano]] (Kipu Quantum, Berlin, Germany):
 
   **Useful Quantum Computing in the NISQ Era**
 
@@ -1731,7 +1731,45 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
   > Beyond the present [NISQ era](/nlab/show/quantum+computation#ReferencesNISQ), useful heavy-duty [[nLab:quantum computation|quantum programs]] will arguably necessitate (1.) *[[nLab:topological quantum computation|topological]]* [[nLab:quantum circuits]] for error-protection and (2.) (classical-)[[nLab:software verification|computer-verified certificates of correctness]] --- hence essentially a formal verification logic of the underlying [[nLab:topological phases of matter|topological]] [[nLab:quantum system|quantum processes]] --- which may seem a tall order. But we have recently shown that the [[nLab:conservative extension|(conservative) extension]] of the ([[nLab:programming language|programming]] & [[nLab:software verification|certification]]-)language of "[[nLab:homotopy type theory|Homotopy Type Theory]]" (`HoTT`) by "[[nLab:linear homotopy type theory|linear homotopy types]]" (`LHoTT`, for which prototypes exist [on paper](/nlab/show/dependent+linear+type+theory#Riley22Thesis)) namely: by [classically-controlled](quantum+computation#ClassicalControlQuantumData) [[nLab:topological quantum computation|topological quantum]] [[nLab:data types]], naturally lends itself to just this purpose. In this talk I will give an introduction to and survey of this approach to *Topological Quantum Programming Certification via Linear Homotopy Types*, developed at [[nLab:CQTS]] @ NYUAD ("[[schreiber:Topological Quantum Gates in Homotopy Type Theory|Topological Quantum Gates in HoTT]]" [arXiv:2303.02382](https://arxiv.org/abs/2303.02382), "[[schreiber:Entanglement of Sections]]" [arXiv:2309.07245](https://arxiv.org/abs/2309.07245), "[[schreiber:The Quantum Monadology]]" [arXiv:2310.15735](https://arxiv.org/abs/2310.15735), "[[schreiber:Quantum and Reality]]" [arXiv:2311.11035](https://arxiv.org/abs/2311.11035)).
 
 
+\linebreak
 
+
+### Oct 2024
+
+
+03 Oct 2024
+
+**The Quantum Academic Workshop**
+
+04 Oct 2024
+
+**Quantum Industry Day**
+
+[www.q-innovision.com/quantum-industry-day](https://www.q-innovision.com/quantum-industry-day)
+
+<center>
+<a href="https://www.q-innovision.com/quantum-industry-day/">
+<img src="https://ncatlab.org/nlab/files/QuantumIndustryDayAtCQTS-2024.jpg" width="860">
+</a>
+</center>
+
+
+* [[Enrique Solano]]:
+
+  **Strategic Overview: Quantum Computing in the next Decade** 
+
+* Daniel Voltz:
+
+  **Quantum Computing in Action: Cutting-Edge Applications for Industry Pioneers**
+
+* Michael Falkenthal:
+
+  **Advanced Quantum Applications: Real-World Use Cases on Kipu Quantum’s Platform**
+
+
+
+
+  
 
 
 \linebreak
