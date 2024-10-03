@@ -77,6 +77,12 @@ The Dirac equation in a [[gravity|gravitational]] [[Schwarzschild spacetime]] [[
 
 * Paul M. Alsing, *Bound states of the Dirac equation in Schwarzschild spacetime: an exploration of intuition for the curious student* &lbrack;[arXiv:2207.00905](https://arxiv.org/abs/2207.00905)&rbrack;
 
+On [[quantum simulation]] of the Dirac equation:
+
+* L. Lamata, J. León, T. Schätz, [[Enrique Solano]]: *Dirac Equation and Quantum Relativistic Effects in a Single Trapped Ion*, Phys. Rev. Lett. **98** 253005 (2007) &lbrack;[doi:10.1103/PhysRevLett.98.253005](https://doi.org/10.1103/PhysRevLett.98.253005)&rbrack;
+
+* R. Gerritsma, G. Kirchmair, F. Zähringer, [[Enrique Solano]], R. Blatt & C. F. Roos: *Quantum simulation of the Dirac equation*, Nature **463** 68–71 (2010) &lbrack;[doi:10.1038/nature08688](https://doi.org/10.1038/nature08688)&rbrack;
+
 
 
 [[!redirects Dirac equations]]
