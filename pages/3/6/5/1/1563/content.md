@@ -182,26 +182,24 @@ Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([tac]
 
   (on the interpretation of [[quantifiers]] in [[categorical logic]] as [[base change]] [[adjoints]])
 
+* {#Lawvere69} [[William Lawvere]], _Diagonal Arguments and Cartesian Closed Categories_, Lecture Notes in Mathematics, **92** (1969) 134-145 &lbrack;[tac:15](http://tac.mta.ca/tac/reprints/articles/15/tr15abs.html)&rbrack;
+
+   (On deriving [[Gödel's incompleteness theorem]] etc. from [[Lawvere's fixed point theorem]])
+
 * [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: _[[Seminar on Triples and Categorical Homology Theory]]_, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
 
   (on [[monads]] in [[universal algebra]] and ([[cohomology|co-]])[[homology]]-theory:
 )
 
-* (with [[Max Kelly]]) *On the complete lattice of essential localizations*, Bull. Soc. Math. Belgique **41** (1989) 289–319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
-
-  > (on [[essential localizations]])
-
-
-* _Equality in hyperdoctrines and comprehension schema as an adjoint functor_.  In A. Heller, ed., _Proc. New York Symp. on Applications of Categorical Algebra_, pp. 1--14.  AMS, 1970. ([[LawvereComprehension.pdf:file]])
-
-    (on [[comprehension]] in [[hyperdoctrines]])
 
 * *Quantifiers and sheaves*, Actes Congrès intern. Math. **1** (1970) 329-334 &lbrack;[pdf](https://raw.githubusercontent.com/mattearnshaw/lawvere/master/pdfs/1970-quantifiers-and-sheaves.pdf), [[Lawvere-QuantifiersAndSheaves.pdf:file]]&rbrack;
 
     on [[geometric modalities]]/[[Lawvere-Tierney topology]] and [[universal quantifier|universal]]/[[existential quantifier|existential]] [[quantifiers]] related to [[dependent product]]/[[dependent sum]] further developed in:
 
-*  _Equality in hyperdoctrines and
-comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14.
+* _Equality in hyperdoctrines and comprehension schema as an adjoint functor_.  In A. Heller, ed., _Proc. New York Symp. on Applications of Categorical Algebra_, pp. 1--14.  AMS, 1970. ([[LawvereComprehension.pdf:file]])
+
+    (on [[comprehension]] in [[hyperdoctrines]])
+
 
 * {#PerugiaNotes} _Teoria delle categorie sopra un topos di base_, lecture notes from Perugia (1972--73) &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/1972-perugia-lecture-notes.pdf), [[LawverePerugia1972.pdf:file]]&rbrack;
 
@@ -259,6 +257,11 @@ Lecture notes University of Chicago 1975.
 * _More on graphic toposes_, Cah. Top. G&#233;om. Diff. Cat. **XXXII** no. 1 (1991) pp.5-10. ([Numdam](http://www.numdam.org/item?id=CTGDC_1991__32_1_5_0))
 
   (on [[graphic category|graphic categories]] and their presheaf categories)
+
+* (with [[Max Kelly]]) *On the complete lattice of essential localizations*, Bull. Soc. Math. Belgique **41** (1989) 289–319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
+
+  > (on [[essential localizations]])
+
 
 * _[[Some Thoughts on the Future of Category Theory]]_ in A. Carboni, M. Pedicchio, G. Rosolini (eds.), _Category Theory_  , [[Como|Proceedings of the International Conference held in Como]], LNM **1488** Springer Heidelberg 1991.
 
