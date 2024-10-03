@@ -30,8 +30,8 @@ The earlier approach via [[reflection equation]] is from
 
 * [[Masatoshi Noumi]], _Macdonald’s symmetric polynomials as zonal spherical functions on some quantum homogeneous spaces_, Adv. Math. __123__ (1996) 16--77 arXiv:[math/9503224](https://arxiv.org/abs/math/9503224)
 * [[Masatoshi Noumi]], T. Sugitani, _Quantum symmetric spaces and related $q$-orthogonal polynomials_, Group theoretical methods in physics (Singapore) (A. Arima et. al., ed.), World Scientific 1995, pp. 28--40
-* M. S. Dijkhuizen, _Some remarks on the construction of quantum symmetric spaces_, Acta Appl. Math. __44__ (1996), no. 1-2, 59--80 [doi](https://doi.org/10.1007/BF00116516)
-* Mathijs S. Dijkhuizen, [[Masatoshi Noumi]], _A family of quantum projective spaces and related $q$-hypergeometric orthogonal polynomials_, Trans. Amer. Math. Soc. __350__ (1998) 3269--3296 [doi](https://doi.org/10.1090/S0002-9947-98-01971-0)
+* [[Mathijs S. Dijkhuizen]], _Some remarks on the construction of quantum symmetric spaces_, Acta Appl. Math. __44__ (1996), no. 1-2, 59--80 [doi](https://doi.org/10.1007/BF00116516)
+* [[Mathijs S. Dijkhuizen]], [[Masatoshi Noumi]], _A family of quantum projective spaces and related $q$-hypergeometric orthogonal polynomials_, Trans. Amer. Math. Soc. __350__ (1998) 3269--3296 [doi](https://doi.org/10.1090/S0002-9947-98-01971-0)
 
 The comparison between the two approaches is made in 
 
