@@ -18,7 +18,7 @@ In 2-categorical algebra, there are many kinds of morphism  between objects: e.g
 
 In many situations, we can study the weaker kinds of morphism using the strict kinds of morphism using a **weak morphism classifier**. A weak morphism classifier for an object $A$ is an object $A'$ such that weak morphisms $A \to B$ are in [[natural bijection]] with strict morphisms $A' \to B$.
 
-Dually, a **weak morphism coclassifier** is an object $B'$ such that weak morphisms $A \to B$ and in natural bijection with strict morphisms $A \to B'$.
+Dually, a **weak morphism coclassifier** is an object $B'$ such that weak morphisms $A \to B$ are in natural bijection with strict morphisms $A \to B'$.
 
 ## Definition
 
