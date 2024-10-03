@@ -1527,6 +1527,8 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
 
   > The required precision to perform [[quantum simulations]] beyond the capabilities of classical computers imposes major experimental and theoretical challenges. The key to solving these issues are highly precise ways of characterizing analog quantum simulators. Here, we report on theoretical and experimental work on estimating the free Hamiltonian parameters of bosonic excitations in a [superconducting-qubit](superconductivity#SuperconductingQBitsReferences) analog quantum simulator from measured time-series. We achieve the required levels of precision in estimating the Hamiltonian parameters by maximally exploiting the model structure, making it robust against noise and state-preparation and measurement (SPAM) errors. Our learning algorithm is highly scalable both in terms of the required amounts of data and post-processing. To achieve this, we develop a new super-resolution technique for frequency extraction from matrix time-series and make use of constrained manifold optimization for the eigenspace reconstruction. For up to 14 coupled [superconducting qubits](superconductivity#SuperconductingQBitsReferences) on two Sycamore processors, we identify the Hamiltonian parameters - verifying the implementation on one of them up to sub-MHz precision - and construct a spatial implementation error map for a grid of 27 qubits. Our results constitute a fully characterized, highly accurate implementation of an analog dynamical quantum simulation and introduce a diagnostic toolkit for understanding, calibrating, and improving analog quantum processors.
 
+\linebreak
+
 * [[Enrique Solano]] (Kipu Quantum, Berlin, Germany):
 
   **Useful Quantum Computing in the NISQ Era**
@@ -1735,7 +1737,7 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
 
 
 ### Oct 2024
-
+  {#KipuDays2024}
 
 03 Oct 2024
 
@@ -1743,7 +1745,7 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
 
 04 Oct 2024
 
-**Quantum Industry Day**
+**Quantum Industry Day** -- Towards Industrial Usefulness with [Kipu Quantum](https://kipu-quantum.com/)
 
 [www.q-innovision.com/quantum-industry-day](https://www.q-innovision.com/quantum-industry-day)
 
@@ -1753,8 +1755,12 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
 </a>
 </center>
 
+\linebreak
 
-* [[Enrique Solano]]:
+
+Talks:
+
+* [[Enrique Solano]] (Kipu Quantum, Berlin, Germany):
 
   **Strategic Overview: Quantum Computing in the next Decade** 
 
