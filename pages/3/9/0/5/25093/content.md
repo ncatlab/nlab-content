@@ -19,4 +19,12 @@ His _opus magnum_:
 
 * {#Petersen02} [[Uwe Petersen]], _[[Diagonal Method and Dialectical Logic]] 3 vols._, Der Andere Verlag, Osnabrück (2002). 
 
+## Related entries
+
+* [[affine logic]]
+
+* [[antithesis interpretation|antithesis translation]]
+
+* [[Lawvere's fixed point theorem]]
+
 category: people
