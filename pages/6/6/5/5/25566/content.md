@@ -14,6 +14,12 @@ The list's messages are archived in a number of different ways, depending on dat
 
 * An dump of the [Gmane](https://en.wikipedia.org/wiki/Gmane) archive (otherwise only accessible via the protocol [nntp](https://en.wikipedia.org/wiki/Network_News_Transfer_Protocol)) can be found on [GitHub](https://github.com/punkdit/categories/), which is searchable, but not sorted or archived in any particularly human-readable way.
 
+## Subscriptions
+
+To subscribe, please email `js.lemay@mq.edu.au` or `categories-admin@mq.edu.au` with the word 'subscribe'.
+
+To unsubscribe, please email `js.lemay@mq.edu.au` or `categories-admin@mq.edu.au` with the word 'unsubscribe'.
+
 ## Links
 
 The website for the old categories mailing list (categories@mta.ca):
