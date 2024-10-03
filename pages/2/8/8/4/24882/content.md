@@ -19,7 +19,7 @@
 
 # Idea
 
-_Adámek's fixed point theorem_ gives a method to construct an [[initial algebra of an endofunctor]] by "iterating" the functor.
+_Adámek's fixed point theorem_ gives a method to construct an [[initial algebra of an endofunctor]] by "iterating" the functor. The fact that this gives a "fixed point" of the endofunctor is given by [[Lambek's theorem]].
 
 ## Construction 
 
