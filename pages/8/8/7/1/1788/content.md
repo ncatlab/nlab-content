@@ -1,21 +1,6 @@
 
 
-
-
-[[QuantumIndustryDayAtCQTS-2024.jpg:file]]
-
-\begin{imagefromfile}
-    "file_name": "QuantumIndustryDayAtCQTS-2024.jpg",
-    "width": 570,
-    "unit": "px",
-    "margin": {
-        "top": -20,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    },
-    "caption": "From [Erlich 09, section 1.1](#Erlich09)"
-\end{imagefromfile}
+<img src="/nlab/files/QuantumAcademicDay-2024.jpg" width="800">
 
 
 ## Sugimoto string theory
