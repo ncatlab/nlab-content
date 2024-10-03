@@ -1741,22 +1741,13 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
 
 03 Oct 2024
 
-**The Quantum Academic Workshop**
-
-04 Oct 2024
-
-**Quantum Industry Day** -- Towards Industrial Usefulness with [Kipu Quantum](https://kipu-quantum.com/)
-
-[www.q-innovision.com/quantum-industry-day](https://www.q-innovision.com/quantum-industry-day)
+**NYU CQTS X QinnovisionQuantum Computing Workshop** -- [PlanQK](https://www.planqk.de/) platform training
 
 <center>
-<a href="https://www.q-innovision.com/quantum-industry-day/">
-<img src="https://ncatlab.org/nlab/files/QuantumIndustryDayAtCQTS-2024.jpg" width="860">
-</a>
+<img src="/nlab/files/QuantumAcademicDay-2024.jpg" width="800">
 </center>
 
 \linebreak
-
 
 Talks:
 
@@ -1772,10 +1763,22 @@ Talks:
 
   **Advanced Quantum Applications: Real-World Use Cases on Kipu Quantum’s Platform**
 
+\linebreak
 
+04 Oct 2024
 
+**Quantum Industry Day** -- Towards Industrial Usefulness with [Kipu Quantum](https://kipu-quantum.com/)
 
-  
+[www.q-innovision.com/quantum-industry-day](https://www.q-innovision.com/quantum-industry-day)
+
+<center>
+<a href="https://www.q-innovision.com/quantum-industry-day/">
+<img src="https://ncatlab.org/nlab/files/QuantumIndustryDayAtCQTS-2024.jpg" width="900">
+</a>
+</center>
+
+\linebreak
+
 
 
 \linebreak
