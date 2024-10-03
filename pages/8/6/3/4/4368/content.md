@@ -35,7 +35,7 @@ $$
 
 where [[Lex]] is the 2-category of:
 
-* [[small category|small]] [[finitely complete categories]], 
+* [[small category|small]]$\:$ [[finitely complete categories]], 
 
 * [[finite limit]]$\:$ [[preserved limit|preserving]] [[functors]], and 
 
