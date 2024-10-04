@@ -161,6 +161,8 @@ There are many different _models_ for bringing the abstract notion of higher cat
 
       * [[simplicial T-complex]]
 
+  * [[(∞,Z)-category]]
+
   * [[n-category]] = (n,n)-category
 
     * [[2-category]], [[(2,1)-category]]
