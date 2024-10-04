@@ -16,6 +16,9 @@ On [[path integrals]] for point mechanics via [[Lie algebroids]]:
 
 * [[Joshua Lackman]], *A Mathematical Definition of Path Integrals on Symplectic Manifolds* &lbrack;[arXiv:2406.14547](https://arxiv.org/abs/2406.14547)&rbrack;
 
+* [[Joshua Lackman]]: *On an Axiomatization of Path Integral Quantization and its Equivalence to Berezin's Quantization* &lbrack;[arXiv:2410.02739](https://arxiv.org/abs/2410.02739)&rbrack;
+
+
 On methods of [[quantization]] ([[geometric quantization]], [[strict deformation quantization]],...):
 
 * [[Joshua Lackman]], *Geometric Quantization Without Polarizations* &lbrack;[arXiv:2405.01513](https://arxiv.org/abs/2405.01513)&rbrack;
