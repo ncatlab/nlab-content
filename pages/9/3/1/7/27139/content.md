@@ -32,16 +32,36 @@ The antithesis interpretation also explains why there are often both weak and st
 
 Since every proposition comes with an antithesis proposition in the antithesis interpretation, the natural notion of a [[subset]] is actually a pair of [[disjoint subsets]], leading to a potentially far-reaching reinterpretation of the role of [[higher-order logic]] in constructive mathematics, with concepts like a family of collections of subsets becoming a disjoint pair of families of disjoint pairs of collections of disjoint pairs of subsets.
 
+## From a philosophical perspective
+
+Philosophically the antithesis translation positions itself at the crossroad of several approaches to "logicist metaphysics" that usually are thought to be incompatible:
+
+One the hand, the British philosopher [[Michael Dummett]] has argued for [[intuitionistic logic]] as the _constructivist_ "logical basis of metaphysics". But if the suggestions in the concluding section of [Shulman (2002)](#Shulman2022}) are borne out and affine logic turns out as a/the viable approach to constructivist _mathematics_ this might call for a revision of constructivist _metaphysics_ as well which in the aftermath could find itself in rapprochement to _classical_ metaphysics since affine logic has an involutive negation.
+
+On the other hand, the construction of the antithesis model by forming pairs $(P^+,P^-)$ such that $P^+\wedge P^-\simeq 0$ looks a like a neat illustration of "speculative thinking" as suggested by [[Georg Hegel|Hegel]] who writes in the lectures on the philosophy of religion (A II):
+
+> Spekulativ denken heißt, ein Wirkliches auflösen und dieses sich so entgegensetzen, daß die Unterschiede nach Denkbestimmungen entgegengesetzt sind und der Gegenstand als Einheit beider gefaßt wird.[^HG]
+
+The German philosopher [[Uwe Petersen]] has indeed argued that a contraction-free logic with abstraction and unrestricted [[comprehension scheme|comprehension]] (plus a [[Lawvere's fixed point theorem|general fixed point property]]) serves as the natural habitat for a formal approach to _speculative_ metaphysics of the Hegelian ilk.
+
 ## Related concepts
 
 * [[constructive mathematics]]
 
 * [[affine logic]], [[linear logic]]
 
+* [[Chu construction]]
+
+* [[Dialectica construction]]
+
+* [[double negation translation]]
+
 ## References
 
 * {#Shulman2022} [[Michael Shulman]], *Affine logic for constructive mathematics*. Bulletin of Symbolic Logic, Volume 28, Issue 3, September 2022. pp. 327 - 386 ([doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28), [arXiv:1805.07518](https://arxiv.org/abs/1805.07518))
 
+[^HG]: "Thinking speculatively means to dissolve a real and to oppose it with itself in such a manner that the differences are opposed according to their thought determinations and the object is conceived as the unity of both of them."
+ Hegel, _Vorlesungen über die Philosophie der Religion I - Werke 16_, Suhrkamp Frankfurt 1986. (p.30)
 
 [[!redirects antithesis translation]]
 
