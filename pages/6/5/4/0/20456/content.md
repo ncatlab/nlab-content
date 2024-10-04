@@ -25,6 +25,8 @@
 
 Prismatic cohomology is a cohomology theory for p-adic [[formal schemes]] which can specialize into various $p$-adic cohomology theories, including [[étale cohomology]], [[de Rham cohomology]] and [[crystalline cohomology]], as well as the so far conjectural $q$-de Rham cohomology of [[Peter Scholze]]. It is a geometric approach to integral [[p-adic Hodge theory]].
 
+Prismatic cohomology relies heavily on the idea of a [[Joyal delta-ring|$\delta$-ring]], introduced by [[Andre Joyal]] to formalize how a ring equipped with a [[Frobenius lift]] is analogous to ring equipped with a [[derivation]].
+
 ## Prisms
 
 A prism is a pair $(A,I)$ where $A$ is a $\delta$-ring and $I$ is an ideal defining a Cartier divisor on $\mathrm{Spec}(A)$, such that $A$ is derived $(p,I)$-complete, and $p \in I + \phi(I)A$.
