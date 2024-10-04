@@ -26,6 +26,8 @@ via (possibly [[infinite-dimensional manifold|infinite-dimensional]]) [[superman
 
 * Viola Gattus, Apostolos Pilaftsis, *Supergeometric Approach to Quantum Field Theory*,  CORFU2023, PoS **463**  (2024) 156 \[<a href="https://doi.org/10.22323/1.463.0156">doi:10.22323/1.463.0156</a>, <a href="https://arxiv.org/abs/2404.13107">arXiv:2404.13107</a>\]
 
+* Viola Gattus, Apostolos Pilaftsis: *Supergeometric Quantum Effective Action* \[<a href="https://arxiv.org/abs/2406.13594">arXiv:2406.13594</a>\]
+
 
 and more generally via [[smooth super sets]]:
 
