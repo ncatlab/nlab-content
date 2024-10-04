@@ -22,6 +22,11 @@ Relating [[supermultiplets]] to [[L-infinity algebras|$L_\infty$-algebras]] via 
 
 * [[Martin Cederwall]], Simon Jonsson, [[Jakob Palmkvist]], [[Ingmar Saberi]], *Canonical supermultiplets and their Koszul duals* &lbrack;[arXiv:2304.01258](https://arxiv.org/abs/2304.01258)&rbrack;
 
+On the [[Gromoll-Meyer sphere|Gromoll-Meyer]] [[exotic 7-sphere]]:
+
+* [[David S. Berman]], [[Martin Cederwall]], Tancredi Schettini Gherardini: *Curvature of an exotic 7-sphere* &lbrack;[arXiv:2410.01909](https://arxiv.org/abs/2410.01909)&rbrack;
+
+
 
 
 
