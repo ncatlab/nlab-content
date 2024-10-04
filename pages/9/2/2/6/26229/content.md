@@ -1,16 +1,24 @@
 
-This page compiles pointers to material contained in the (upcoming)
+This page compiles pointers to material contained in the (upcoming) book:
 
 \linebreak
 
-* **[Encyclopedia of Mathematical Physics](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8)**, 2nd edition
+* [[Richard Szabo]], [[Martin Bojowald]] (eds.):
+
+  \linebreak
+
+  **[Encyclopedia of Mathematical Physics](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8)**, 2nd edition
 
   \linebreak
 
   Elsevier (expected Oct 2024)
 
-  (cf. 1st ed. leaflet: [pdf](https://www.math.ucdavis.edu/~temple/!!!PubsForWeb/cv70.pdf))
+  ISBN:9780323957038
 
+
+  \linebreak
+
+  [webpage](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8)
 
 on [[mathematical physics]].
 
