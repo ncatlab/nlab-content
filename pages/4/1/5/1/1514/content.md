@@ -347,13 +347,15 @@ On dicretization of path integrals for [[AKSZ sigma-models]]:
 
 * [[Joshua Lackman]], *A Mathematical Definition of Path Integrals on Symplectic Manifolds* &lbrack;[arXiv:2406.14547](https://arxiv.org/abs/2406.14547)&rbrack;
 
+* [[Joshua Lackman]]: *On an Axiomatization of Path Integral Quantization and its Equivalence to Berezin's Quantization* &lbrack;[arXiv:2410.02739](https://arxiv.org/abs/2410.02739)&rbrack;
+
 
 ### Stochastic integration theory
 
 The following articles use the integration over [[Wiener measures]] on [[stochastic processes]] for formalizing the path ingegral.
 
-* [[James Norris]], _A complete differential formalism for stochastic calculus in manifolds_, S&#233;minaire de probabilit&#233;s de Strasbourg,  26 (1992), p. 189-209 ([NUMDAM]( http://www.numdam.org/item?id=SPS_1992__26__189_0))
- {#Norris92}
+* {#Norris92} [[James Norris]], _A complete differential formalism for stochastic calculus in manifolds_, S&#233;minaire de probabilit&#233;s de Strasbourg,  26 (1992), p. 189-209 ([NUMDAM]( http://www.numdam.org/item?id=SPS_1992__26__189_0))
+ 
 
 * Vassili Kolokoltsov, _Path integration: connecting pure jump and Wiener processes_ ([pdf](http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/kolokoltsov/minnesota.pdf))
 
