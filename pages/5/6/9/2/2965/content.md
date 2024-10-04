@@ -23,7 +23,7 @@ A **small presheaf** on a category $C$ is a [[presheaf]] which is determined by 
 
 ## Definition
 
-Let $C$ be a [[category]] which is [[locally small category|locally small]], but possibly [[large category|large]].  A presheaf $F\colon C^{op}\to Set$ is **small** if it is the left [[Kan extension]] of some functor whose domain is a [[small category]], or equivalently if it is a small [[colimit]] of [[representable functors]].
+Let $C$ be a [[category]] which is [[locally small category|locally small]], but possibly [[large category|large]].  A presheaf $F\colon C^{op}\to Set$ is **small** if it is the left [[Kan extension]] of some functor whose domain is a [[small category]], or equivalently if it is a small [[colimit]] of [[representable functors]] (see Proposition 4.83 of [Kelly](#Kelly82)).
 
 Of course, if $C$ is itself small, then every presheaf is small.
 
@@ -56,6 +56,8 @@ These results can all be generalized to [[enriched categories]], and also relati
 
 
 ## References
+
+* {#Kelly82} [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
 * [[B. J. Day]], [[Steve Lack]], _Limits of small functors_, JPAA, [pdf](http://www.maths.usyd.edu.au/u/stevel/papers/small.pdf)
 
