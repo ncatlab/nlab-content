@@ -29,4 +29,8 @@ On [[proper geometric morphisms]] between [[(infinity,1)-toposes|$(\infty,1)$-to
 
 * [[Louis Martini]], [[Sebastian Wolf]], _Proper morphisms of ∞-topoi_ &lbrack;[arXiv:2311.08051](https://arxiv.org/abs/2311.08051)&rbrack;.
 
+On [[(∞,2)-toposes]]:
+
+* Fernando Abellán, [[Louis Martini]], _(∞,2)-Topoi and descent_ &lbrack;[arXiv:2410.02014](https://arxiv.org/abs/2410.02014)&rbrack;
+
 category: people
