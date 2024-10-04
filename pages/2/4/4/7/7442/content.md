@@ -34,6 +34,9 @@ The archetypical example is the [[(infinity,2)-category of (infinity,1)-categori
 
 ## References
 
+* Fernando Abellán, [[Louis Martini]], _(∞,2)-Topoi and descent_ &lbrack;[arXiv:2410.02014](https://arxiv.org/abs/2410.02014)&rbrack;
+
+
 Discussion of, potentially, the [[internal language]] of $(\infty,2)$-toposes as a form of [[directed homotopy type theory]]:
 
 * {#CisinskiEtAl23} [[Denis-Charles Cisinski]], [[Hoang Kim Nguyen]], Tashi Walde: *Univalent Directed Type Theory*, lecture series in the *[CMU Homotopy Type Theory Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)* (13, 20, 27 Mar 2023) &lbrack;[web](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html#230313)&rbrack;
