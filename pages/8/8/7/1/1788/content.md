@@ -21,3 +21,5 @@ Further discussion:
 * Hector Parra de Freitas, p. 166 of: *String Compactifications with Half-maximal Supersymmetry*, PhD thesis, Université Paris-Saclay (2023) &lbrack;[hal/tel-04234221](https://theses.hal.science/tel-04234221), [pdf](https://theses.hal.science/tel-04234221v1/file/133300_PARRA_DE_FREITAS_2023_archivage.pdf)&rbrack;
 
 
+
+
