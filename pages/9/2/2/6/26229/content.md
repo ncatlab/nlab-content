@@ -3,7 +3,7 @@ This page compiles pointers to material contained in the (upcoming)
 
 \linebreak
 
-* **Encyclopedia of Mathematical Physics**, 2nd edition
+* **[Encyclopedia of Mathematical Physics](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8)**, 2nd edition
 
   \linebreak
 
