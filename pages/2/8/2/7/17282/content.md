@@ -51,6 +51,8 @@ The next step was Spinoza's proposal to take construction as the model for the c
 
 * [[intuitionism]]
 
+* [[antithesis interpretation]]
+
 * [[Attempt to Introduce the Concept of Negative Quantities into Philosophy|Concept of Negative Quantities]]
 
 * [[Aufhebung]]
@@ -66,6 +68,9 @@ The next step was Spinoza's proposal to take construction as the model for the c
 * W. Bartuschat, _Baruch de Spinoza_ , Beck M&#252;nchen 1996. (Section III.1.a)
 
 * O. Becker, _Mathematische Existenz: Untersuchungen zur Logik und Ontologie mathematischer Ph&#228;nomene_ , Jahrbuch f&#252;r Philosophie und ph&#228;nomenologische Forschung **VIII** (1927) pp.439-768. ([pdf](http://www.digizeitschriften.de/download/PPN827944462_0008/PPN827944462_0008___LOG_0009.pdf))
+
+* G. Freudenthal, _Definition and Construction - Salomon Maimon’s Philosophy of 
+Geometry_, Preprint **317** of the Max Planck Institute for the History of Sci­ence Berlin 2006.
 
 * F. W. J. Schelling, _Vorlesungen &#252;ber die Methode des akademischen Studiums_ , Meiner Hamburg 1974[1803]. (Fourth lecture: _'&#220;ber das Studium der reinen Vernunftwissenschaften: der Mathematik, und der Philosophie im Allgemeinen'_)
 
