@@ -13,16 +13,22 @@
 ## Basic theorems
 
 * [[homotopy hypothesis]]-theorem
+
 * [[delooping hypothesis]]-theorem
+
 * [[periodic table]]
+
 * [[stabilization hypothesis]]-theorem
+
 * [[michaelshulman:exactness hypothesis]]
+
 * [[holographic principle of higher category theory|holographic principle]]
 
 
 ## Applications
 
 * [[applications of (higher) category theory]]
+
 * [[higher category theory and physics]]
 
 ## Models
@@ -43,6 +49,7 @@
     * [[Kan complex]]
       * [[algebraic Kan complex]]
       * [[simplicial T-complex]]
+  * [[(∞,Z)-category]]
   * [[n-category]] = (n,n)-category
     * [[2-category]], [[(2,1)-category]]
     * [[1-category]]
