@@ -1,7 +1,43 @@
 
+$$
+  \sigma(r)
+  \;\coloneqq\;
+  (-1)^{r(r+1)/2}
+$$
 
-<img src="/nlab/files/QuantumAcademicDay-2024.jpg" width="800">
+$$
+  \sigma(r+1)
+  \;=\;
+  (-1)^{
+    (r+1)(r+2)/2
+  }
+  \;=\;
+  (-1)^{
+    (r^2 + r + 2r + 2)/2
+  }
+  \;=\;
+  \sigma(r)
+  \cdot
+  (-1)^{
+    (2r + 2)/2
+  }
+  \;=\;
+  -(-1)^r \cdot \sigma(r)
+$$
 
+$$
+  \sigma(r-1)
+  \;=\;
+  (-1)^{
+    (r-1)r/2
+  }
+  \;=\;
+  (-1)^{
+    (r^2 + r - 2r)/2
+  }
+  \;=\;
+  (-1)^r \, \sigma(r)
+$$
 
 ## Sugimoto string theory
 
