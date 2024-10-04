@@ -305,7 +305,7 @@ The general formulation of pointwise Kan extensions in general enriched contexts
 
 * [in terms of weighted (co)limits](#PointwiseByWeightedColimits).
 
-In the case that the codomain category is [[tensoring|(co)tensored]] these may be expressed equivalently
+In the case that the codomain category is [[copower|(co)powered]] these may be expressed equivalently
 
 * [in terms of (co)ends](#PointwiseByCoEnds).
 
@@ -380,8 +380,9 @@ If the $V$-[[enriched category]] $D$ is [[power]]ed over $V$, then the above wei
 
 $$
   (Ran_p F)(c') \simeq \int_{c \in C} C'(c',p(c))\pitchfork F(c)
-  \,.
 $$
+
+(where again $F : C \to D$ and $p : C \to C'$).
 
 So in particular when $D = V$ this is
 
@@ -394,7 +395,7 @@ So in particular when $D = V$ this is
 ([Kelly (4.24)](#Kelly))
 
 
-Similarly, if $D$ is [[copower|tensored]] over $V$, then the left Kan extension is given by a [[coend]].
+Similarly, if $D$ is [[copower|copowered]] over $V$, then the left Kan extension is given by a [[coend]].
 
 \[
   \label{LeftKanExtensionViaCoendFormula}
@@ -740,7 +741,7 @@ $$
 
 Here the last step is called sometimes the [[co-Yoneda lemma]]. It follows for instance by observing that $\int^{c' \in C} D(F(c'), d') \cdot C(c,c')$ is equivalently dually the expression for the left Kan extension of the non-representable $D(F(-),d') : C^{op} \to \mathcal{V}$ along the _identity_ functor.
 
-Similarly for the second, if $H : D \to E$ is any $\mathcal{V}$-[[enriched functor]] with $E$ [[tensoring|tensored]] over $\mathcal{V}$, then its left Kan extension evaluated on the image of $F$ is
+Similarly for the second, if $H : D \to E$ is any $\mathcal{V}$-[[enriched functor]] with $E$ [[copower|copowered]] over $\mathcal{V}$, then its left Kan extension evaluated on the image of $F$ is
 
 $$
   \begin{aligned}
