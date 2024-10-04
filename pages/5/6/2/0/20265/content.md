@@ -98,7 +98,7 @@ Generalization of the construction to a large class of [[exotic 7-spheres]]:
 
 * C. Duran, T. Puettmann, A. Rigas, _An infinite family of Gromoll-Meyer spheres_. Arch. Math. (2010) 95: 269 ([arXiv:math/0610349](https://arxiv.org/abs/math/0610349), [doi:10.1007/s00013-010-0161-x](https://doi.org/10.1007/s00013-010-0161-x))
 
-See also
+See also:
 
 * Jost-Hinrich Eschenburg, Martin Kerin, _Almost positive curvature on the Gromoll-Meyer sphere_,  Proc. Amer. Math. Soc ([arXiv:0711.2987](https://arxiv.org/abs/0711.2987))
 
@@ -108,6 +108,10 @@ See also
 * Llohann D. Sperança, _Pulling back the Gromoll-Meyer construction and models of exotic spheres_, Proceedings of the American Mathematical Society 144.7 (2016): 3181-3196 ([arXiv:1010.6039](https://arxiv.org/abs/1010.6039))
 
 * Llohann D. Sperança, _Explicit Constructions over the Exotic 8-sphere_ ([pdf](https://www.ime.unicamp.br/~rigas/sigma8EncontroTopol.pdf), [[SperancaExoticSpheres.pdf:file]])
+
+* [[David S. Berman]], [[Martin Cederwall]], Tancredi Schettini Gherardini: *Curvature of an exotic 7-sphere* &lbrack;[arXiv:2410.01909](https://arxiv.org/abs/2410.01909)&rbrack;
+
+
 
 For a proof that the Gromoll-Meyer sphere is the only exotic sphere that is a [[biquotient]] of a [[compact Lie group]] see
 
