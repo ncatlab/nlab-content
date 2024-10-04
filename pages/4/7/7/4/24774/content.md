@@ -8,7 +8,7 @@ This page compiles pointers to material contained in the (upcoming) book collect
 
   \linebreak
 
-  **Handbook of Quantum Gravity**
+  **[Handbook of Quantum Gravity](https://link.springer.com/referencework/9789819976805)**
 
   \linebreak
 
