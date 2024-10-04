@@ -16,7 +16,9 @@
 
 ## Idea
 
-A _combinatorial spectrum_ is to a [[spectrum]] of [[topological space]]s as a [[simplicial set]] is to a [[topological space]]: it is a [[graded set]] that behaves like a set of simplices constituting a space, where the special property is that the simplices are not just in non-negative degree $n \in \mathbb{N}$ but in all integral degrees $n \in \mathbb{Z}$.
+_Combinatorial spectra_ is to [[spectra]] of [[topological spaces]] as a [[simplicial sets]] are to [[topological spaces]]: 
+
+Combinatorial spectra are [[graded sets]] that behaves like a set of [[simplices]] constituting a space, but such that the simplices are not just in [[natural number|non-negative]] degree $n \in \mathbb{N}$ but in all [[integer|integral]] degrees $n \in \mathbb{Z}$, hence including negative degrees.
 
 ## Definition
 
@@ -129,6 +131,10 @@ of [[homotopy theories]] between combinatorial spectra and ordinary spectra buil
 ### Stable Dold-Kan correspondence
 
 Combinatorial spectra [[internalization|internal]] to [[abelian groups]] ([Kan 63, def. 51](#Kan63)) are [[equivalence of categories|equivalent]] to [[chain complexes]] ([Kan 63, prop.5.8](#Kan63)). See at _[[stable Dold-Kan correspondence]]_ for more on this.
+
+## Related concepts
+
+* [[(∞,Z)-category]]
 
 ## References
 
