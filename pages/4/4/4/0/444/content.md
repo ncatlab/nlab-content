@@ -1033,7 +1033,7 @@ $$
 
 ## Related concepts
 
-* [[monad with arities]]
+* [[Barratt nerve]]
 
 * [[Duskin nerve]]
 
@@ -1044,6 +1044,8 @@ $$
 * [[homotopy coherent nerve]]
 
 * [[dg-nerve]]
+
+* [[monad with arities]]
 
 
 ## References
