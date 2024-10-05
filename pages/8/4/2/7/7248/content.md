@@ -13,21 +13,29 @@ This page collects material related to the textbook
 
 * [[Paul Goerss]], [[J. F. Jardine]]:
 
+  \linebreak
+
   **Simplicial homotopy theory** 
+
+  \linebreak
 
   Progress in Mathematics, Birkhäuser  (1999) 
 
-  Modern Birkhäuser  Classics (2009)
+  Modern Birkhäuser Classics (2009)
+
+  \linebreak
 
   [doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4)
 
-  ([webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/) with ps and dvi version - note that section and theorem etc numbers differ from the published version!)
+  [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/) (with `ps` and `dvi` versions -- beware that numbering differs from the published version)
 
 on [[simplicial homotopy theory]] via the [[classical model structure on simplicial sets]].
 
+\linebreak
 
+(There is also an article by [[E. B. Curtis]] with this name, from 1971.)
 
-There is also an article by [[E. B. Curtis]] with this name, from 1971.
+\linebreak
 
 We list the notions explained in the book for searchability. 
 
