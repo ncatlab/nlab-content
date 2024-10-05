@@ -167,6 +167,8 @@ Indeed, let $R$ be a formula that represents the unary predicate $\neg Prov$, an
 
 * [[arithmetic universe]]
 
+* [[introspective theory]]
+
 ## References 
  {#References}
 
