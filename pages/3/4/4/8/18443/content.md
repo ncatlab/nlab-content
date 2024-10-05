@@ -79,6 +79,8 @@ Note that the assumptions about the later modality $\blacktriangleright$ are usu
 
 * [[synthetic guarded domain theory]]
 
+* [[introspective theory]]
+
 
 
 ## References
