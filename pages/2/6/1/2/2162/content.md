@@ -99,15 +99,17 @@ and also the projected matrix $\bar{J}$ which is the image of $J$ as a matrix ov
 
 The original articles include:
 
-* [[Ralph H. Fox]], _Free differential calculus I: Derivation in the free group ring_, Annals Math. __57__ 3 (1953) 547-560 &lbrack;[doi:10.2307/1969736](https://doi.org/10.2307/1969736), [jstor:1969736](https://www.jstor.org/stable/1969736)&rbrack;
+* [[Ralph H. Fox]], _Free differential calculus I: Derivation in the free group ring_, Annals Math. __57__ 3 (1953) 547--560 &lbrack;[doi:10.2307/1969736](https://doi.org/10.2307/1969736), [jstor:1969736](https://www.jstor.org/stable/1969736)&rbrack;
 
-* [[Ralph H. Fox]], _Free differential calculus II: The isomorphism problem of groups_, Annals Math. __59__ 2 (1954) 196-210 &lbrack;[doi:10.2307/1969686](https://doi.org/10.2307/1969686), [jstor:1969686](https://www.jstor.org/stable/1969686)&rbrack;
+* [[Ralph H. Fox]], _Free differential calculus II: The isomorphism problem of groups_, Annals Math. __59__ 2 (1954) 196-2-10 &lbrack;[doi:10.2307/1969686](https://doi.org/10.2307/1969686), [jstor:1969686](https://www.jstor.org/stable/1969686)&rbrack;
 
-* [[Ralph H. Fox]], _Free differential calculus III: Subgroups_, Annals Math. __64__ 3 (1956) 407-419 &lbrack;[doi:10.2307/1969592](https://doi.org/10.2307/1969592), [jstor:1970044](https://www.jstor.org/stable/1970044)&rbrack;
+* [[Ralph H. Fox]], _Free differential calculus III: Subgroups_, Annals Math. __64__ 3 (1956) 407--419 &lbrack;[doi:10.2307/1969592](https://doi.org/10.2307/1969592), [jstor:1970044](https://www.jstor.org/stable/1970044)&rbrack;
 
-* [[Kuo Tsai Chen]], [[Ralph H. Fox]], R. C. Lyndon, _Free differential calculus IV: The quotient groups of the lower central series_, Ann. Math. __68__ 1 (1958) 81-95 &lbrack;[doi:10.2307/1970044](https://doi.org/10.2307/1970044), [jstor:1970044](https://www.jstor.org/stable/1970044)&rbrack;
+* [[Kuo Tsai Chen]], [[Ralph H. Fox]], R. C. Lyndon, _Free differential calculus IV: The quotient groups of the lower central series_, Ann. Math. __68__ 1 (1958) 81--95 &lbrack;[doi:10.2307/1970044](https://doi.org/10.2307/1970044), [jstor:1970044](https://www.jstor.org/stable/1970044)&rbrack;
 
-* [[Ralph H. Fox]], _Free differential calculus V. The Alexander matrices re-examined_, Ann. Math. __71__ 3 (1960) 408-422 &lbrack;[doi:10.2307/1969936](https://doi.org/10.2307/1969936), [jstor:1969936](https://www.jstor.org/stable/1969936)&rbrack;
+* [[Ralph H. Fox]], _Free differential calculus V. The Alexander matrices re-examined_, Ann. Math. __71__ 3 (1960) 408--422 &lbrack;[doi:10.2307/1969936](https://doi.org/10.2307/1969936), [jstor:1969936](https://www.jstor.org/stable/1969936)&rbrack;
+
+* William M Goldman, _The symplectic nature of fundamental groups of surfaces_, Adv, Math. __54__:2 (1984) 200--225 <a href="https://doi.org/10.1016/0001-8708(84)90040-9">doi</a>
 
 with textbook treatments in 
 
@@ -119,7 +121,7 @@ with textbook treatments in
 
 and more recently
 
-* Valentino Zocca, _Fox calculus, symplectic forms and moduli spaces_, Trans. AMS__350__, 4, (1998) 1429--1466, [pdf](http://www.ams.org/journals/tran/1998-350-04/S0002-9947-98-02052-2/S0002-9947-98-02052-2.pdf)
+* Valentino Zocca, _Fox calculus, symplectic forms and moduli spaces_, Trans. Amer. Math. Soc. __350__, 4, (1998) 1429--1466, [pdf](http://www.ams.org/journals/tran/1998-350-04/S0002-9947-98-02052-2/S0002-9947-98-02052-2.pdf)
 
 * [en.wikipedia:Fox derivative](http://en.wikipedia.org/wiki/Fox_derivative)
 
