@@ -378,13 +378,14 @@ Original articles:
 
 * {#Quillen68} [[Daniel Quillen]], *The geometric realization of a Kan fibration is a Serre fibration.  Proc. Amer. Math. Soc. 19 1968 1499--1500.  [pdf](https://www.ams.org/journals/proc/1968-019-06/S0002-9939-1968-0238322-1/S0002-9939-1968-0238322-1.pdf)
 
-Textbook accounts:
+Monographs:
 
 * {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section VII.3 of: *[[Simplicial homotopy theory]]*, Progress in Mathematics, Birkh&#228;user (1999) 
 Modern Birkh&#228;user Classics (2009)
 &lbrack;[doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4)&rbrack;
 
-* {#FP90}  [[Rudolf Fritsch]], [[Renzo A. Piccinini]], _Cellular structures in topology_, Cambridge studies in advanced mathematics Vol. 19, Cambridge University Press (1990). ([doi:10.1017/CBO9780511983948](https://doi.org/10.1017/CBO9780511983948), [pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf)) 
+* {#FP90}  [[Rudolf Fritsch]], [[Renzo A. Piccinini]] §4.2 and §4.3 in: _Cellular structures in topology_, Cambridge studies in advanced mathematics **19** Cambridge University Press (1990) &lbrack;[doi:10.1017/CBO9780511983948](https://doi.org/10.1017/CBO9780511983948), [pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf)&rbrack;
+
 
 
 Lecture notes:
