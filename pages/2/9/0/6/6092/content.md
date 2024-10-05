@@ -45,8 +45,7 @@ where $sgn(p)$ is +1 if $T_p \gamma_1, T_p \gamma_2$ is an oriented [[basis]] of
 
 The original definition is due to
 
-* W. Goldman, _Invariant functions on Lie groups and Hamiltonian flows of surface group representations_ ,
-Invent. Math. (1986), no. 85, 263302.
+* [[William M. Goldman]], _Invariant functions on Lie groups and Hamiltonian flows of surface group representations_, Invent. Math. __85__ (1986), no. 85, 263--302 [doi](https://doi.org/10.1007/BF01389091)
 
 The relation to [[string topology]] is due to
 
