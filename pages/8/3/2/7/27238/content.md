@@ -42,7 +42,7 @@ $$
 \end{example}
 &lbrack;[WJR13 p 28](#WaldhausenJahrenRognes13)&rbrack;
 
-But on "non-singular" simplicial sets such as produced by [[subdivision]] $Sd \,\colon\, sSet \xrightarrow{\;} sSet$, the Barratt nerve produces a [[weak homotopy equivalence|weakly homotopy equivalent]] type:
+But on "non-singular" simplicial sets such as produced by [[subdivision]] $Sd \,\colon\, sSet \xrightarrow{\;} sSet$, the Barratt nerve produces [[weak homotopy equivalence|weakly homotopy equivalent]] types:
 
 \begin{proposition}\label{BaSdIsHomotopyGood}
   The [[natural transformation]]
