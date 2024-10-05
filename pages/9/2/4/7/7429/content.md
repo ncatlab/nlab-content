@@ -25,6 +25,8 @@ On the [[group completion theorem]]:
 
 * [[Barratt-Eccles operad]]
 
+* [[Barratt nerve]]
+
 
 category:people
 
