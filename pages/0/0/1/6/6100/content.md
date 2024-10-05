@@ -66,7 +66,7 @@ The existence of the Thomas model structure implies that every [[homotopy type]]
 +-- {: .num_defn #PosetOfSimplicesInNerveOfCategory}
 ###### Definition
 
-For $C$ a [[category]], let $\nabla C$ be the [[poset]] of non-degenerate[[simplices]] in the [[nerve]] $N C$, ordered by inclusion.
+For $C$ a [[category]], let $\nabla C$ be the [[poset]] of non-degenerate [[simplices]] in the [[subdivision]] of the [[nerve]] $N C$, ordered by inclusion.
 
 =--
 
@@ -76,11 +76,17 @@ For $C$ a [[category]], let $\nabla C$ be the [[poset]] of non-degenerate[[simpl
 For every category $\mathcal{C}$ the poset $\nabla \mathcal{C}$ from def. \ref{PosetOfSimplicesInNerveOfCategory} has [[weak homotopy equivalence|weakly homotopy equivalent]] geometric realization
 
 $$
-  {\vert N(\nabla \mathcal{C}) \vert} \simeq_{wh} {\vert \mathcal{C} \vert}  
+  {\vert N(\nabla \mathcal{C}) \vert} 
+    \;\simeq_{wh}\; 
+  {\vert \mathcal{C} \vert}  
   \,.
 $$
 
 =--
+
+(e.g. by [this Prop.](Barratt+nerve#BaSdIsHomotopyGood))
+
+
 
 
 
