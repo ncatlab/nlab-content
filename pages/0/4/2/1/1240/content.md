@@ -462,13 +462,14 @@ _[[Zuckerman induction]]_. See there for more details.
 
 * encyclopaedia of math [induced representation](https://www.encyclopediaofmath.org/index.php/Induced_representation)
 
-Original articles includes
+Original articles:
 
-* {#Mackey52} [[George Mackey]], _Induced representations of locally compact groups I_, Annals of Mathematics, 55 (1952) 101&#8211;139; 
+* {#Mackey52} [[George Mackey]], *Induced representations of locally compact groups I*, Annals of Mathematics **55** 1 (1952) 101-139 &lbrack;[doi:10.2307/1969423](https://doi.org/10.2307/1969423), [jstor:1969423](https://www.jstor.org/stable/1969423)&rbrack;
 
-* {#Mackey53} [[George Mackey]], _Induced representations of locally compact groups II_, Annals of Mathematics, 58 (1953) 193&#8211;221; 
+* {#Mackey53} [[George Mackey]]: _Induced representations of locally compact groups II_, Annals of Mathematics **58** 2 (1953) 193-221 &lbrack;[doi:10.2307/1969786](https://doi.org/10.2307/1969786), [jstor:1969786](https://www.jstor.org/stable/1969786)&rbrack; 
 
-* {#Mackey68} [[George Mackey]], _Induced representations of groups and quantum mechanics_, W. A. Benjamin, New York, 1968
+* {#Mackey68} [[George Mackey]]: *Induced representations of groups and quantum mechanics*, W. A. Benjamin, New York (1968) &lbrack;[ark:/13960/t6841m201](https://archive.org/details/inducedrepresent0000mack)&rbrack;
+  > (cf. *[[Wigner classification]]*)
 
 
 Textbook accounts include
