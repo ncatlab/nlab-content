@@ -1,5 +1,5 @@
 
-> For more details see also at _[[CW-complex]]_.
+> For more see also at _[[CW-complex]]_.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -67,7 +67,7 @@ A _finite cell complex_ or _countable cell complex_ is a cell complex with a [[f
 
 Textbook account:
 
-* {#FritschPiccinini90} [[Rudolf Fritsch]], [[Renzo Piccinini]], _Cellular structures in topology_, Cambridge University Press (1990) ([doi:10.1017/CBO9780511983948](https://doi.org/10.1017/CBO9780511983948), [pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf))
+* {#FritschPiccinini90} [[Rudolf Fritsch]], [[Renzo Piccinini]], _Cellular structures in topology_, Cambridge University Press (1990) &lbrack;[doi:10.1017/CBO9780511983948](https://doi.org/10.1017/CBO9780511983948), [pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf)&rbrack;
 
 
 A discussion in the context of [[algebraic model categories]] is in 
