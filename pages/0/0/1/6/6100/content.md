@@ -66,7 +66,7 @@ The existence of the Thomas model structure implies that every [[homotopy type]]
 +-- {: .num_defn #PosetOfSimplicesInNerveOfCategory}
 ###### Definition
 
-For $C$ a [[category]], let $\nabla C$ be the [[poset]] of [[simplices]] in the [[nerve]] $N C$, ordered by inclusion.
+For $C$ a [[category]], let $\nabla C$ be the [[poset]] of non-degenerate[[simplices]] in the [[nerve]] $N C$, ordered by inclusion.
 
 =--
 
