@@ -16,7 +16,7 @@
 
 ## Idea
 
-The concept of _[[coherent state]]_ in [[quantum mechanics]]/[[quantum physics]] may be formalized in the context of _[[geometric quantization]]_, The original definition is due to ([Rawnsley 77](#Rawnsley77)), further developments include ([Kirwin 07](#Kirwin07)).
+The concept of _[[coherent state]]_ in [[quantum mechanics]]/[[quantum physics]] may be formalized in the context of _[[geometric quantization]]_, The original definition is due to [Rawnsley 1977](#Rawnsley77), further developments include [Kirwin 2007](#Kirwin07).
 
 
 ## Related concepts
@@ -25,11 +25,12 @@ The concept of _[[coherent state]]_ in [[quantum mechanics]]/[[quantum physics]]
 
 ## References
 
-The original reference that interpreted coherent states in [[geometric quantization]] over [[Kähler manifold]]s is
+The original reference that interpreted coherent states in [[geometric quantization]] over [[Kähler manifolds]]:
 
-* {#Rawnsley77} J. H. Rawnsley, _Coherent states and K&#228;hler manifolds_, Quart. J. Math. Oxford (2), 28 (1977), pp. 403&#8211;415
+* {#Rawnsley77} [[John H. Rawnsley]]: _Coherent states and Kähler manifolds_, Quart. J. Math. Oxford **2** 28 (1977) 403-415 &lbrack;[doi:10.1093/qmath/28.4.403](https://doi.org/10.1093/qmath/28.4.403)&rbrack;
 
-A review and further developments of these considerations are in
+
+Review and further developments:
 
 * [[Mauro Spera]], _On K&#228;hlerian coherent states_ ([djvu](http://www.bio21.bas.bg/proceedings/Proceedings_files/vol1/GEOM19.DJVU))
 
