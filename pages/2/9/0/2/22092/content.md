@@ -52,7 +52,7 @@ More in detail:
 \end{example}
 
 \begin{proposition}
-  Let $X$ and $Y$ by [[smooth manifolds]], both possibly [[manifold with boundary|with boundary]]. If [[continuous functions]] $f,g \;\colon\; X \xrightarrow{\;} Y$ are continuously [[homotopy|homotopic]], then they are also smoothly homotopic  
+  Let $X$ and $Y$ by [[smooth manifolds]], both possibly [[manifold with boundary|with boundary]]. If [[smooth functions]] $f,g \;\colon\; X \xrightarrow{\;} Y$ are continuously [[homotopy|homotopic]], then they are also smoothly homotopic  
 \end{proposition}
 
 ([Lee 2012, Thm. 9.28 (2nd ed.)](#Lee12))
