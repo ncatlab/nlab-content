@@ -13,11 +13,11 @@ There are two useful equivalent definitions of introspective theory.
 \begin{definition}
 An **introspective theory** is
 
-* a [[category with finite limits]] $T$
+* a [[category with finite limits]] $T$, with
 
-* with an [[internal]] [[category with finite limits]] $C$ and
+* an [[internal]] [[category with finite limits]] $C$ and
 
-* an [[indexed functor]] from the [[self-indexing]] $T/-$ to $C$ (viewed as a $C$-[[indexed category|indexed]] [[category with finite limits]]):
+* an [[indexed functor]] $F$ from the [[self-indexing]] $T/-$ to $C$ (viewed as a $C$-[[indexed category|indexed]] [[category with finite limits]]):
 \begin{centre}
     \begin{tikzcd}
         T^\mathrm{op} \arrow[r, shift left=7pt, "T/-" name=0] \arrow[r, shift right=7pt, "C"' name=1]
@@ -32,9 +32,9 @@ The following definition is equivalent to the above, but it more directly resemb
 \begin{definition}
 An **introspective theory** is
 
-* a [[category with finite limits]] $T$
+* a [[category with finite limits]] $T$, with
 
-* with an [[internal]] [[category with finite limits]] $C$,
+* an [[internal]] [[category with finite limits]] $C$,
 
 * a [[finitely continuous functor|finite limit preserving functor]] $\mathcal{S}$ from $T$ to $\mathrm{Hom}_T(1, C)$, and
 
