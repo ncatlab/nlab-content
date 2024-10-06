@@ -1,4 +1,4 @@
-
+s
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -39,22 +39,52 @@ Let $(M^{2n},\omega)$ be a [[symplectic manifold]] and let $d\mu$ be a [[measure
 
 2. A [[subcategory]] of [[Hilbert spaces]] given by a [[subspace]] of [[sections]] of the [[prequantum line bundle]], such that pointwise [[evaluation]] is [[continuous function|continuous]].
 
-3. Maps $q \colon M\to P(\mathcal{H})\subset B(\mathcal{H}),$ such that $1_{\mathcal{H}} = \int_M q\,d\mu$ and whose [[3-point function]] is $\Delta.$
+3. Maps $q \colon M\to P(\mathcal{H})\subset B(\mathcal{H}),$ with the overcompleteness property: $1_{\mathcal{H}} = \int_M q\,d\mu$ and whose [[3-point function]] is $\Delta.$
 
 Item 2 presents by far the most common way of thinking about [[geometric quantization]], with the other two (especially 1) being nearly completely overlooked. However, it can be argued that 2 is really just a way of computing 3 or 1, where the latter is the only one which really generalizes to Poisson manifolds. This is because the path integral is a section of 
 
-$$\pi_0^*\mathcal{L}^*\otimes \pi_1^*\mathcal{L}\to M\times M  ,$$
+$$\pi_0^*\mathcal{L}^*\otimes \pi_1^*\mathcal{L}\to M\times M\,,$$
 
-and for [[Poisson manifolds]] we can replace $M\times M$ by the [[symplectic groupoid]]. 
+and for [[Poisson manifolds]] we can replace $M\times M$ by the [[symplectic groupoid]]. More specifically, the path integral is a Hermitian, idempotent section of the twisted convolution algebra. For symplectic manifolds, it is formally given by 
+$$\Omega(a,b)=\int_{\gamma(0)=a}^{\gamma(1)=b}\mathcal{D}\gamma\,P(\gamma)\in\text{Hom}(\mathcal{L}_{a},\mathcal{L}_{b})\,,
+$$
+where $P(\gamma)$ is parallel transport over $\gamma.$
 
 In the most common examples, 2 is given by holomorphic sections of a [[Kähler manifold]]. In 3, $q$ is a [[classifying map]] for $\mathcal{L}$ and points in its image are called *[[coherent states]]* -- it is not just any classifying map though, it has an overcompleteness property. This is [[Felix Berezin|Berezin]]'s formulation of [[quantization]], whereas 1 is how Klauder conceived of quantization. For a quote: by 
 
 > "all these different procedures to quantize phase space \[can physically\] be thought of as just different ways of regularizing and defining properly the path integral" &lbrack;[[Davide Gaiotto]], [yt](https://youtu.be/EwwGAf2K1uQ?si=eG8E6ILPOtN10obr&t=220)&rbrack;
 
-That something like this was true seems to have been first known to [Odzijewicz 1992] (#Odzijewicz92), who stated a related equivalence of categories and knew the relationship to path integrals.
+That something like this was true seems to have been first made explicit in [Odzijewicz 1992] (#Odzijewicz92), who stated a related equivalence of categories and knew the relationship to path integrals.
+
+The simplest and most natural example of this is when $\mathcal{H}$ is finite dimensional and $M=P(\mathcal{H}).$ Items 1 and 3 are very natural to describe here, while item 2 is a bit more complicated but quickly follows from the description of 1. We'll first describe item 3. 
+
+In this example, $q$ is the identity.
+It's not immediately obvious that this example satisfies the overcompleteness property, but it does with respect to the Fubini–Study measure (up to a constant). There is a natural map
+$$\langle\rangle: B(\mathcal{H})\to C^{\infty}(P(\mathcal{H}))\,,\quad \langle H\rangle([v])=\langle v,Hv\rangle\,,$$
+where $v$ is any normalized representative of $[v].$ This is just the expectation value of $H$ in the state $[v].$ This map is a morphism of Lie algebras, with respect to the commutator on $B(\mathcal{H})$ and the Poisson bracket on $P(\mathcal{H}).$ This is a bit surprising, because it is so commonly stated that there is no physically reasonable morphism of Lie algebras in the other direction, while this direction receives relatively little attention. In fact, the expectation value map is just the adjoint of [[Felix Berezin|Berezin]]'s quantization map, which is given by (up to a constant)
+$$Q_f=\int_M fq\,\, \omega^n_{FS}.$$
+The overcompleteness property says that $Q_1=1_{\mathcal{H}}.$ More precisely, $\langle \rangle=Q^{\dagger}$
+where $B(\mathcal{H})$ is equipped with the Hilbert–Schmidt inner product. The significance of $\langle \rangle$ being a Lie algebra morphism is that, with respect to classical observables of the form $\langle H\rangle\,,$ the classical and quantum mechanics are the same. That is,  
+$$i\frac{\partial}{\partial t}\Psi=H\Psi$$
+if and only if $t\mapsto [\Psi](t)$ is the Hamiltonian flow of the Hamiltonian vector field of $\langle H\rangle.$ Equivalently, $A\in B(\mathcal{H})$ satisfies Heisenberg's equation of motion with respect to $H$ if and only if $\langle A\rangle$ satisfies Hamilton's equations of motion with respect to $\langle H\rangle.$
+
+As for item 1, the line bundle is the canonical bundle and the path integral 
+$$\Omega([x],[y])=\int_{\gamma(0)=[x]}^{\gamma(1)=[y]}\mathcal{D}\gamma\,P(\gamma)\in\text{Hom}(\mathcal{L}_{x},\mathcal{L}_{y})$$
+is the map $x\mapsto x[y]\,,$
+where we are identifying $[y]$ with its associated one–dimensional projection.
+
+There are now two ways of describing item 2. The traditional way is by taking the Hilbert space to be that of holomorphic sections. The second way of describing it is by taking the Hilbert space to be the image of the orthogonal projection defined by the path integal, ie.
+$$\Psi\mapsto\int_{P(\mathcal{H})}\Psi([x])\Omega([x],\cdot)\omega^n_{FS}\,.$$
+These are the same as $P$ is the orthogonal projection onto holomorphic sections. 
+
+Mark $S^1$ with the cyclically ordered points. The 3-point function is given by 
+$$\Delta([x],[y],[z])=\int_{\gamma_{[x],[y],[z]}}\mathcal{D}\gamma\,P(\gamma)\, ,$$
+where the path integral is over all maps $S^1\to P(\mathcal{H})$ such that the marked points map to $[x],[y],[z].$ Explicitly, $\Delta$ is defined by the equation
+$$[x][y][z][x]=\Delta([x],[y],[z])[x]\,.$$
+
+This tells most of the story for $P(\mathcal{H}).$ There is another class of examples that is just as natural and almost just as simple. These are symplectic submanifolds of $P(\mathcal{H})$ which satisfy the overcompleteness condition. These are more interesting because the quantum mechanics and classical mechanics are different, however there are still Hamiltonians for which they agree.
 
 ## References
-
 The observation is due to:
 
 * {#Kibble79} [[Tom W. B. Kibble]], *Geometrization of quantum mechanics*, Communications in Mathematical Physics **65** (1979) 189–201 &lbrack;[doi:10.1007/BF01225149](https://doi.org/10.1007/BF01225149)&rbrack;
