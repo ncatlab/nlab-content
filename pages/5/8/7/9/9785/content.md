@@ -184,7 +184,7 @@ with further amplification including
 
 * {#Townsend97a} [[Paul Townsend]], _M(embrane) theory on $T^9$_, Nucl. Phys. Proc. Suppl. **68** (1998) 11-16 \[<a href="https://doi.org/10.1016/S0920-5632(98)00136-4">doi:10.1016/S0920-5632(98)00136-4</a>, [arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034)\]
 
-* {#Townsend97b} [[Paul Townsend]], *M-theory from its superalgebra*, Cargese lectures (1997) &lbrack;[arXiv:hep-th/9712004](http://arxiv.org/abs/hep-th/9712004)&rbrack;
+* {#Townsend97b} [[Paul Townsend]]: *M-theory from its superalgebra*, in *Strings, Branes and Dualities*, NATO ASI Series **520**, Springer (1999) &lbrack;[arXiv:hep-th/9712004](http://arxiv.org/abs/hep-th/9712004), [doi:10.1007/978-94-011-4730-9_5](https://doi.org/10.1007/978-94-011-4730-9_5)&rbrack;
 
 In their global form, where differential forms are replaced by their de Rham cohomology classes on curved superspacetimes, these algebras were identified (for the case including the 2-form piece but not the 5-form piece) as the algebras of [[conserved currents]] of the [[Green-Schwarz super p-brane sigma-models]] in
 
