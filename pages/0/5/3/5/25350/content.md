@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -32,23 +33,23 @@ Now, the standard perspective is certainly not wrong, but various authors have i
 
 ## Explanation
 
-Let $(M^{2n},\omega)$ be a symplectic manifold and let $d\mu$ be a measure on $M$ (which is always of the form $h\omega^n$ for some function $h$). Let $\mathcal{L}\to M$ be a prequantum line bundle and let $\Delta:M^3\to\mathbb{C}$ be a smooth function. There is an equivalence of categories between:
+Let $(M^{2n},\omega)$ be a [[symplectic manifold]] and let $d\mu$ be a [[measure]] on $M$ (which is always of the form $h\omega^n$ for some function $h$). Let $\mathcal{L}\to M$ be a [[prequantum line bundle]] and let $\Delta:M^3\to\mathbb{C}$ be a [[smooth function]]. There is an [[equivalence of categories]] between:
 
-1. Quantizations obtained via a path integral over curves in $M,$ whose amplitude is given by parallel transport and whose 3-point function is $\Delta.$
+1. Quantizations obtained via a [[path integral]] over [[curves]] in $M,$ whose amplitude is given by [[parallel transport]] and whose [[3-point function]] is $\Delta.$
 
-2. A subcategory of Hilbert spaces given by a subspace of sections of the prequantum line bundle, such that pointwise evaluation is continuous.
+2. A [[subcategory]] of [[Hilbert spaces]] given by a [[subspace]] of [[sections]] of the [[prequantum line bundle]], such that pointwise [[evaluation]] is [[continuous function|continuous]].
 
-3. Maps $q:M\to P(\mathcal{H})\subset B(\mathcal{H}),$ such that $1_{\mathcal{H}} = \int_M q\,d\mu$ and whose 3-point function is $\Delta.$
+3. Maps $q \colon M\to P(\mathcal{H})\subset B(\mathcal{H}),$ such that $1_{\mathcal{H}} = \int_M q\,d\mu$ and whose [[3-point function]] is $\Delta.$
 
-2 presents by far the most common way of thinking about quantization, with the other two (especially 1) being nearly completely overlooked. However, it can be argued that 2 is really just a way of computing 3 or 1, where the latter is the only one which really generalizes to Poisson manifolds. This is because the path integral is a section of 
+Item 2 presents by far the most common way of thinking about [[geometric quantization]], with the other two (especially 1) being nearly completely overlooked. However, it can be argued that 2 is really just a way of computing 3 or 1, where the latter is the only one which really generalizes to Poisson manifolds. This is because the path integral is a section of 
 
 $$\pi_0^*\mathcal{L}^*\otimes \pi_1^*\mathcal{L}\to M\times M  ,$$
 
-and for Poisson manifolds we can replace $M\times M$ by the symplectic groupoid. 
+and for [[Poisson manifolds]] we can replace $M\times M$ by the [[symplectic groupoid]]. 
 
-In the most common examples, 2 is given by holomorphic sections of a Kahler manifold. In 3, $q$ is a classifying map for $\mathcal{L}$ and points in its image are called coherent states — it is not just any classifying map though, it has an overcompleteness property. This is Berezin's formulation of quantization, whereas 1 is how Klauder conceived of quantization. For a quote: by 
+In the most common examples, 2 is given by holomorphic sections of a [[Kähler manifold]]. In 3, $q$ is a [[classifying map]] for $\mathcal{L}$ and points in its image are called *[[coherent states]]* -- it is not just any classifying map though, it has an overcompleteness property. This is [[Felix Berezin|Berezin]]'s formulation of [[quantization]], whereas 1 is how Klauder conceived of quantization. For a quote: by 
 
- ``  all these different procedures to quantize phase space [can physically] be thought of as just different ways of regularizing and defining properly the path integral" – Davide Gaiotto, https://youtu.be/EwwGAf2K1uQ?si=eG8E6ILPOtN10obr&t=220.
+> "all these different procedures to quantize phase space \[can physically\] be thought of as just different ways of regularizing and defining properly the path integral" &lbrack;[[Davide Gaiotto]], [yt](https://youtu.be/EwwGAf2K1uQ?si=eG8E6ILPOtN10obr&t=220)&rbrack;
 
 ## References
 
