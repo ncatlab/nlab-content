@@ -1,5 +1,5 @@
 
-* [webpage](http://folk.uio.no/rognes/home.html)
+* [webpage](https://www.mn.uio.no/math/english/people/aca/rognes/)
 
 ## Selected writings
 
