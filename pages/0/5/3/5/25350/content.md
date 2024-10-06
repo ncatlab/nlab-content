@@ -51,6 +51,8 @@ In the most common examples, 2 is given by holomorphic sections of a [[Kähler m
 
 > "all these different procedures to quantize phase space \[can physically\] be thought of as just different ways of regularizing and defining properly the path integral" &lbrack;[[Davide Gaiotto]], [yt](https://youtu.be/EwwGAf2K1uQ?si=eG8E6ILPOtN10obr&t=220)&rbrack;
 
+That something like this was true seems to have been first known to [Odzijewicz 1992] (#Odzijewicz92), who stated a related equivalence of categories and knew the relationship to path integrals.
+
 ## References
 
 The observation is due to:
@@ -60,7 +62,7 @@ The observation is due to:
     
 The idea was picked up in:
 
-* Anatol Odzijewicz, _Coherent state method in geometric quantization_, in Twenty Years of Bialowiez: a mathematical anthology, Aspects of Differential Geometric Methods in Physics_ (pp 47-78) , World Sci. Monogr. Ser. Math. 8 (2005); _Coherent states and geometric quantization_,  Comm. Math. Phys.  __150__  (1992),  no. 2, 385&#8211;413 [doi](http://ams.mpim-bonn.mpg.de/leavingmsn?url=http://projecteuclid.org/getRecord?id=euclid.cmp/1104251870) [94c:58077](http://www.ams.org/mathscinet-getitem?mr=1194023)
+* {#Odzijewicz92} Anatol Odzijewicz, _Coherent state method in geometric quantization_, in Twenty Years of Bialowiez: a mathematical anthology, Aspects of Differential Geometric Methods in Physics_ (pp 47-78) , World Sci. Monogr. Ser. Math. 8 (2005); _Coherent states and geometric quantization_,  Comm. Math. Phys.  __150__  (1992),  no. 2, 385&#8211;413 [doi](http://ams.mpim-bonn.mpg.de/leavingmsn?url=http://projecteuclid.org/getRecord?id=euclid.cmp/1104251870) [94c:58077](http://www.ams.org/mathscinet-getitem?mr=1194023)
 
 * {#Hughston96} [[Lane P. Hughston]], *Geometry of stochastic state vector reduction*, Proceedings of the Royal Society A **452** 1947 (1996) &lbrack;[doi:10.1098/rspa.1996.0048](https://doi.org/10.1098/rspa.1996.0048), [jstor:52944](https://www.jstor.org/stable/52944)&rbrack;
 
