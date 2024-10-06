@@ -16,11 +16,8 @@ Discussion of [[large 1/N limit|small N]] effects in [[M-theory]] using the [[co
 
 Specifically for the [[D=6 N=(2,0) SCFT]] on the [[M5-brane]] via [[AdS7/CFT6]]:
 
-* {#ChesterPerlmutter18} [[Shai Chester]], [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_, J. High Energ. Phys. (2018) 2018: 116 ([arXiv:1805.00892](https://arxiv.org/abs/1805.00892))
-
-  from p. 2:
-
-  > On the other hand, given our utter lack of a complete description of M-theory, the bulk is  not  terribly  useful  for  determining  finite aspects of the dual CFT. However, we can turn this problem around using the modern perspective of the conformal bootstrap, which gives an a priori independent formulation of the (local sector of the) CFT. This provides an independent tool for constructing M-theory at the non-perturbative level, a philosophy that we will substantiate in this work.
+* {#ChesterPerlmutter18} [[Shai Chester]], [[Eric Perlmutter]], _M-Theory Reconstruction from $(2,0)$ CFT and the Chiral Algebra Conjecture_, J. High Energ. Phys. (2018) **2018** 116 (2018) &lbrack;[arXiv:1805.00892](https://arxiv.org/abs/1805.00892), <a href="https://doi.org/10.1007/JHEP08(2018)116">doi:10.1007/JHEP08(2018)116</a>&rbrack;
+  > &lbrack;p 2:&rbrack; On the other hand, given our utter lack of a complete description of M-theory, the bulk is  not  terribly useful for  determining finite aspects of the dual CFT. However, we can turn this problem around using the modern perspective of the conformal bootstrap, which gives an a priori independent formulation of the (local sector of the) CFT. This provides an independent tool for constructing M-theory at the non-perturbative level, a philosophy that we will substantiate in this work.
 
 * [[Luis Alday]], [[Shai Chester]], Himanshu Raj, _6d $(2,0)$ and M-theory at 1-loop_ ([arXiv:2005.07175](https://arxiv.org/abs/2005.07175))
 
