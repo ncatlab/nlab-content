@@ -30,6 +30,25 @@ This is fairly immediate to see from mathematical inspection, but the perspectiv
 
 Now, the standard perspective is certainly not wrong, but various authors have inevitably suggested that the "geometrical formulation"  (more descriptive would be: "symplectic formulation") of quantum mechanics may point to some deeper truth, and if only to show some kind of conceptual unity where one is used to amplifying the dichotomy.
 
+## Explanation
+
+Let $(M^{2n},\omega)$ be a symplectic manifold and let $d\mu$ be a measure on $M$ (which is always of the form $h\omega^n$ for some function $h$). Let $\mathcal{L}\to M$ be a prequantum line bundle and let $\Delta:M^3\to\mathbb{C}$ be a smooth function. There is an equivalence of categories between:
+
+1. Quantizations obtained via a path integral over curves in $M,$ whose amplitude is given by parallel transport and whose 3-point function is $\Delta.$
+
+2. A subcategory of Hilbert spaces given by a subspace of sections of the prequantum line bundle, such that pointwise evaluation is continuous.
+
+3. Maps $q:M\to P(\mathcal{H})\subset B(\mathcal{H}),$ such that $1_{\mathcal{H}} = \int_M q\,d\mu$ and whose 3-point function is $\Delta.$
+
+2 presents by far the most common way of thinking about quantization, with the other two (especially 1) being nearly completely overlooked. However, it can be argued that 2 is really just a way of computing 3 or 1, where the latter is the only one which really generalizes to Poisson manifolds. This is because the path integral is a section of 
+
+$$\pi_0^*\mathcal{L}^*\otimes \pi_1^*\mathcal{L}\to M\times M  ,$$
+
+and for Poisson manifolds we can replace $M\times M$ by the symplectic groupoid. 
+
+In the most common examples, 2 is given by holomorphic sections of a Kahler manifold. In 3, $q$ is a classifying map for $\mathcal{L}$ and points in its image are called coherent states — it is not just any classifying map though, it has an overcompleteness property. This is Berezin's formulation of quantization, whereas 1 is how Klauder conceived of quantization. For a quote: by 
+
+ ``  all these different procedures to quantize phase space [can physically] be thought of as just different ways of regularizing and defining properly the path integral" – Davide Gaiotto, https://youtu.be/EwwGAf2K1uQ?si=eG8E6ILPOtN10obr&t=220.
 
 ## References
 
@@ -40,11 +59,14 @@ The observation is due to:
     
 The idea was picked up in:
 
+* Anatol Odzijewicz, _Coherent state method in geometric quantization_, in Twenty Years of Bialowiez: a mathematical anthology, Aspects of Differential Geometric Methods in Physics_ (pp 47-78) , World Sci. Monogr. Ser. Math. 8 (2005); _Coherent states and geometric quantization_,  Comm. Math. Phys.  __150__  (1992),  no. 2, 385&#8211;413 [doi](http://ams.mpim-bonn.mpg.de/leavingmsn?url=http://projecteuclid.org/getRecord?id=euclid.cmp/1104251870) [94c:58077](http://www.ams.org/mathscinet-getitem?mr=1194023)
+
 * {#Hughston96} [[Lane P. Hughston]], *Geometry of stochastic state vector reduction*, Proceedings of the Royal Society A **452** 1947 (1996) &lbrack;[doi:10.1098/rspa.1996.0048](https://doi.org/10.1098/rspa.1996.0048), [jstor:52944](https://www.jstor.org/stable/52944)&rbrack;
 
   > (with speculations on the implication for [[quantum state collapse]])
 
 * {#AshtekarSchilling99} Abhay Ashtekar, Troy A. Schilling, *Geometrical Formulation of Quantum Mechanics*, in: *On Einstein’s Path* Springer (1999) &lbrack;[arXiv:gr-qc/9706069](https://arxiv.org/abs/gr-qc/9706069), [doi:10.1007/978-1-4612-1422-9_3](https://doi.org/10.1007/978-1-4612-1422-9_3)&rbrack;
+
 
 Further discussion:
 
