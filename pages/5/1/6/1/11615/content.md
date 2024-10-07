@@ -36,7 +36,7 @@ Often the "synthetic approach" is just referred to as "axiomatic". For instance 
 
   Here instead of defining the concept of _[[smooth manifold]]_ analytically by "point-set methodology" as is traditional (a [[set]] of points equipped with a [[topology]] and a [[smooth structure]], etc.) one imposes one single [[axiom]] scheme in the ambient [[topos]] (the "[[Kock-Lawvere axiom]]" in this case) which essentially ensures that for all [[objects]]/[[types]] $X$ there exists also an object/type $T X$ which behaves as the [[tangent bundle]] of $X$ should. These axioms then turn out to have [[models]] in [[smooth spaces]] (which include [[smooth manifolds]]) but also in other, such as [[algebraic geometry]] and [[supergeometry]].
 
-  Alternatively one may set up synthetic differential geometry via axioms for [[differential cohesion]].
+Alternatively one may set up synthetic differential geometry via axioms for [[differential cohesion]].
 
 * **[[synthetic homotopy theory]]** -- With the advent of [[homotopy type theory]], which may be regarded to some extent as a further abstraction of axioms similar to those of model categories, it became more common to speak of this as "synthetic homotopy theory", as, for example, in the [[Homotopy Type Theory -- Univalent Foundations of Mathematics|HoTT book]]. For a list of work carried out in homotopy type theory, see at *[[mathematics presented in homotopy type theory]]*
 
@@ -68,6 +68,12 @@ Synthetic approaches are naturally compatible with [[constructive mathematics]]/
 
 There is at least some similarity between synthetic mathematics and [[domain specific embedded programming languages]], see for instance ([Hudak 98, section 3.2](http://ncatlab.org/nlab/show/domain+specific+embedded+programming+language#Hudak98)). In ([Hudak 98, figure 2](http://ncatlab.org/nlab/show/domain+specific+embedded+programming+language#Hudak98)) this shows aspects of a real-world DSL for "geometric region analysis" embedded in [[Haskell]] which under the [[relation between type theory and category theory]]/[[computational trinitarianism]] one immediately recognizes as a fragment of [[synthetic geometry]].
 
+## Philosophical arguments
+
+Proving an arithmetic result in [[Peano arithmetic]], or more generally a statement in an appropriate axiomatic theory, ensures axiomatic purity (a notion of [[purity of methods]]) as defined by [Lehet (2021)](#Lehet21).
+
+Moreover, such proofs are certain to be valid because of the nature of the fundamental objects considered, as captured by the axioms of the theory, and not by accident because of their particular construction in such and such a system.
+
 ## Related concepts
 
 * [[analytic versus synthetic]]
@@ -83,6 +89,7 @@ See also
 
 * Wikipedia, _[Analytic-synthetic distinction](https://en.wikipedia.org/wiki/Analytic%E2%80%93synthetic_distinction)_
 
+* {#Lehet21} Ellen Lehet, _Impurity in Contemporary mathematics_ (2021).
 
 
 ### Synthetic homotopy theory
