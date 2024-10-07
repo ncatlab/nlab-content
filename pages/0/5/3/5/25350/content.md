@@ -65,12 +65,16 @@ where $v$ is any normalized representative of $[v].$ This is just the expectatio
 $$i\frac{\partial}{\partial t}\Psi=H\Psi$$
 if and only if $t\mapsto [\Psi](t)$ is the Hamiltonian flow of the Hamiltonian vector field of $\langle H\rangle.$ Equivalently, $A\in B(\mathcal{H})$ satisfies Heisenberg's equation of motion with respect to $H$ if and only if $\langle A\rangle$ satisfies Hamilton's equations of motion with respect to $\langle H\rangle.$
  
-In fact, the expectation value map is just the adjoint of [[Felix Berezin|Berezin]]'s quantization map, which is given by (up to a constant)
-$$Q_f=\int_M fq\,\, \omega^n\,.$$
-More precisely, $\langle \rangle=Q^{\dagger},$
-where $B(\mathcal{H})$ is equipped with the Hilbert–Schmidt inner product, ie.
-$$Tr(Q_f^*A)=\int_{P(\mathcal{H})} f^*\langle A\rangle \omega^n\,.$$
-The overcompleteness property says that $Q_1=1_{\mathcal{H}},$ which means that $\langle \rangle$ intertwines the trace map with integration.
+There is also a natural map from classically mixed states to quantum mixed states, ie. [[density matrix]]. It is given by
+$$f\mapsto Q_f=\int_{P(\mathcal{H})}f\,q\,\omega^n\,,$$
+where $f\ge 0$ and 
+$$\int_{P(\mathcal{H})}f\,\omega^n=1\,.$$
+From the overcompleteness property, it follows that
+$$Tr(Q_{f}A)=\int_{P(\mathcal{H})} f\,\langle A\rangle \omega^n\,.$$
+This means that $\langle \rangle$ also preserves the state structure. Mathematically, $\langle\rangle=Q^{\dagger},$ where the inner product is the Hilbert–Schmidt inner product. $Q_f$ is known as [[Felix Berezin|Berezin]]'s contravariant symbol, and $\langle \rangle$ is known as Berezin's covariant symbol.
+
+The 3–point function (which is really a degree 2 cochain on the pair [[groupoid]] and determines a class in [[groupoid cohomology]]) determines the first [[Chern class]] of the prequantum line bundle and is given by
+$$\Delta([x],[y],[z])=\langle x|y\rangle\langle y|z\rangle\langle z|x\rangle\,.$$
 
 As for item 1, the line bundle is the canonical bundle and the path integral 
 $$\Omega([x],[y])=\int_{\gamma(0)=[x]}^{\gamma(1)=[y]}\mathcal{D}\gamma\,P(\gamma)\in\text{Hom}(\mathcal{L}_{x},\mathcal{L}_{y})$$
@@ -80,10 +84,6 @@ There are now two ways of describing item 2. The traditional way is by taking th
 $$\Psi\mapsto\Big([y]\mapsto\int_{P(\mathcal{H})}\Psi([x])|y\rangle\langle y|\omega^n\Big)\,.$$
 These two Hilbert spaces are the same as this is the orthogonal projection onto holomorphic sections. 
 
-Mark $S^1$ with the cyclically ordered points. The 3-point function is given by 
-$$\Delta([x],[y],[z])=\int_{\gamma_{[x],[y],[z]}}\mathcal{D}\gamma\,P(\gamma)\, ,$$
-where the path integral is over all maps $S^1\to P(\mathcal{H})$ such that the marked points map to $[x],[y],[z].$ Explicitly, $\Delta$ is defined by the equation
-$$|x\rangle\langle x|y\rangle\langle y|z\rangle\langle z|x\rangle\langle x|=\Delta([x],[y],[z])|x\rangle\langle x|\,.$$
 
 This tells most of the story for $P(\mathcal{H}).$ There is another class of examples that is just as natural and almost just as simple. These are symplectic submanifolds of $P(\mathcal{H})$ which satisfy the overcompleteness condition. These are more interesting because the quantum mechanics and classical mechanics are different, however there are still Hamiltonians for which they agree.
 
