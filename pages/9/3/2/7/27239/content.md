@@ -17,10 +17,10 @@ An **introspective theory** is
 
 * an [[internal]] [[category with finite limits]] $C$ and
 
-* an [[indexed functor]] $F$ from the [[self-indexing]] $T/-$ to $C$ (viewed as a $T$-[[indexed category|indexed]] [[category with finite limits]]):
+* an [[indexed functor]] $F$ from the [[self-indexing]] $T/{-}$ to $C$ (viewed as a $T$-[[indexed category|indexed]] [[category with finite limits]]):
 \begin{centre}
     \begin{tikzcd}
-        T^\mathrm{op} \arrow[r, shift left=7pt, "T/-" name=0] \arrow[r, shift right=7pt, "C"' name=1]
+        T^\mathrm{op} \arrow[r, shift left=7pt, "T/{-}" name=0] \arrow[r, shift right=7pt, "C"' name=1]
         \arrow["F", shorten <=3pt, shorten >=3pt, Rightarrow, from=0, to=1] & 
         \mathrm{LexCat}
     \end{tikzcd}
