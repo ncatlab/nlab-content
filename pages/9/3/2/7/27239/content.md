@@ -17,7 +17,7 @@ An **introspective theory** is
 
 * an [[internal]] [[category with finite limits]] $C$ and
 
-* an [[indexed functor]] $F$ from the [[self-indexing]] $T/-$ to $C$ (viewed as a $C$-[[indexed category|indexed]] [[category with finite limits]]):
+* an [[indexed functor]] $F$ from the [[self-indexing]] $T/-$ to $C$ (viewed as a $T$-[[indexed category|indexed]] [[category with finite limits]]):
 \begin{centre}
     \begin{tikzcd}
         T^\mathrm{op} \arrow[r, shift left=7pt, "T/-" name=0] \arrow[r, shift right=7pt, "C"' name=1]
@@ -38,12 +38,12 @@ An **introspective theory** is
 
 * a [[finitely continuous functor|finite limit preserving functor]] $\mathcal{S}$ from $T$ to $\mathrm{Hom}_T(1, C)$, and
 
-* a [[natural transformation]] $\mathcal{N}$ from the [[Yoneda embedding]] of $T$ to $\mathrm{Hom}(1, \mathcal{S}(-))$:
+* a [[natural transformation]] $\mathcal{N}$ from the identity on $T$ to $\mathrm{Hom}_C(1, \mathcal{S}(-))$:
 \begin{centre}
     \begin{tikzcd}
-        T\arrow[rr, "\mathrm{yoneda}" name=0]\arrow[dr, "\mathcal{S}"']&& 
-        \mathrm{Psh}(T)\\
-        & \mathrm{Hom}_T(1, C)\arrow[ur, "{\mathrm{Hom}(1, -)}"']\arrow["\mathcal{N}", shorten <=3pt, shorten >=3pt, from=0, Rightarrow]
+        T\arrow[rr, "\mathrm{id}" name=0]\arrow[dr, "\mathcal{S}"']&& 
+        T\\
+        & \mathrm{Hom}_T(1, C)\arrow[ur, "{\mathrm{Hom}_C(1, -)}"']\arrow["\mathcal{N}", shorten <=3pt, shorten >=3pt, from=0, Rightarrow]
     \end{tikzcd}
 \end{centre}
 
