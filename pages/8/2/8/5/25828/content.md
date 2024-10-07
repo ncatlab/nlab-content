@@ -21,6 +21,10 @@ On [[black brane|black]] [[M2-M5 brane bound states]]:
 
 * Jay Armas, [[Vasilis Niarchos]], [[Niels A. Obers]], Section 2 of: _Thermal transitions of metastable M-branes_, J. High Energ. Phys. (2019) 2019: 128 &lbrack;[arXiv:1904.13283](https://arxiv.org/abs/1904.13283)&rbrack;
 
+On [[BFSS matrix model|BFSS]] [[matrix models]] and [[AdS/CFT]] [[holography]]:
+
+* [[Chris D. A. Blair]], Johannes Lahnsteiner, [[Niels A. Obers]], Ziqi Yan: *Matrix Theory Reloaded: A BPS Road to Holography* &lbrack;[arXiv:2410.03591](https://arxiv.org/abs/2410.03591)&rbrack;
+
 
 category: people
 
