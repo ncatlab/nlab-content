@@ -393,6 +393,8 @@ Surveys include:
 
 * [[Michiel Hazewinkel]], _Formal Groups and Applications_, review in [Project Euclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183548600)
 
+* H. Lenstra, Construction of the ring of Witt vectors, Eur. J. Math (2019) 5, 1234-–1241.  ([pdf](https://math.berkeley.edu/~hwl/papers/witt.pdf))
+
 * [[Richard Pink]], Finite group schemes, ([pdf](http://www.math.ethz.ch/~pink/ftp/FGS/CompleteNotes.pdf){#Pink})
 
 * Joseph Rabinoff, _The theory of Witt vectors_, ([arXiv](https://arxiv.org/abs/1409.7445))
