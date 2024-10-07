@@ -308,6 +308,10 @@ and concerning the analog of its [[holographic entanglement entropy]]:
 
 * Tarek Anous, Joanna L. Karczmarek, Eric Mintun, [[Mark Van Raamsdonk]], Benson Way, _Areas and entropies in BFSS/gravity duality_ ([arXiv:1911.11145](https://arxiv.org/abs/1911.11145))
 
+See also:
+
+* [[Chris D. A. Blair]], Johannes Lahnsteiner, [[Niels A. Obers]], Ziqi Yan: *Matrix Theory Reloaded: A BPS Road to Holography* &lbrack;[arXiv:2410.03591](https://arxiv.org/abs/2410.03591)&rbrack;
+
 
 
 
