@@ -29,7 +29,7 @@ Conventions differ regarding which type of duals are which. One convention is as
 
 $$\text{ev}_{A}:A\otimes A^*\to 1,\,\, \text{coev}_{A}:1\to A^*\otimes A$$
 
-where $1$ is the tensor unit, subject the the [[triangle identities]] (snake diagrams)
+where $1$ is the tensor unit, subject to the [[triangle identities]] (snake diagrams)
 
 $$(\text{ev}_A\otimes \text{id}_A)\circ (\text{id}_A\otimes \text{coev}_{A})=\text{id}_{A},$$
 
@@ -39,7 +39,7 @@ A left dual is an object $A^*$ paired with morphisms $\text{ev}_A:A^*\otimes A\t
 
 ## Examples
 
-The canonical example of a rigid category is the category $\text{Vec}_k$ of finite dimensional [[vector space |vector spaces]] over a field $k$. Namely, given a vector space $V$ the standard dual $V^*=\text{Hom}_k(V,k)$ serves as a categorical dual for $V$. Explicitely we have the following:
+The canonical example of a rigid category is the category $\text{Vec}_k$ of finite dimensional [[vector space |vector spaces]] over a field $k$. Namely, given a vector space $V$ the standard dual $V^*=\text{Hom}_k(V,k)$ serves as a categorical dual for $V$. Explicitly we have the following:
 
 \begin{proposition} Let $k$ be a field. For every vector space $V\in \text{Vec}_k$, define the maps
 
