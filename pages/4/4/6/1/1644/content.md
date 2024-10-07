@@ -67,7 +67,7 @@ is the [[groupoid]] which is the maximal [[subcategory|sub]]-[[groupoid]] of $C$
 This construction extends to a 1-[[functor]]
 
 $$
-  Core \colon Cat \to Grpd
+  core \colon Cat \to Grpd
   \,.
 $$
 
@@ -87,7 +87,7 @@ Given a [[preorder|preordered set]], regarded as a category, taking its core is 
 \end{example}
 
 \begin{example}
-The core of [[FinSet]] is known as the *[[permutation groupoid]]* or *[[symmetric groupoid]]* or similar.
+The core of [[FinSet]] is known as the *[[permutation groupoid]]* or *[[symmetric groupoid]]* or something similar.
 
 A *[[combinatorial species]]* is a [[functor]] from the [[symmetric groupoid]] to [[Set]].
 \end{example}
@@ -100,7 +100,7 @@ A *[[combinatorial species]]* is a [[functor]] from the [[symmetric groupoid]] t
 +-- {: .num_prop }
 ###### Proposition
 
-The core-functor of def. \ref{CoreOfCategories} is [[right adjoint]] to the [[full subcategory]]-inclusion $U \colon Grpd \to Cat$ of groupoids into categories. 
+The core functor of def. \ref{CoreOfCategories} is [[right adjoint]] to the [[full subcategory]]-inclusion $U \colon Grpd \to Cat$ of groupoids into categories. 
 
 $$
   Grpd
@@ -127,7 +127,7 @@ $$
 has to send [[isomorphisms]] to isomorphisms, hence has to send every [[morphism]] of $A$ to an [[isomorphism]] in $C$. This means that it factors through the core-inclusion
 
 $$
-  A \to Core(C) \to C
+  A \to core(C) \to C
   \,.
 $$
 
