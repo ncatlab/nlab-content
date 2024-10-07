@@ -60,29 +60,30 @@ The simplest and most natural example of this is when $\mathcal{H}$ is finite di
 
 In this example, $q$ is the identity.
 It's not immediately obvious that this example satisfies the overcompleteness property, but it does with respect to the Fubini–Study measure (up to a constant). There is a natural map
-$$\langle\rangle: B(\mathcal{H})\to C^{\infty}(P(\mathcal{H}))\,,\quad \langle H\rangle([v])=\langle v,Hv\rangle\,,$$
-where $v$ is any normalized representative of $[v].$ This is just the expectation value of $H$ in the state $[v].$ This map is a morphism of Lie algebras, with respect to the commutator on $B(\mathcal{H})$ and the Poisson bracket on $P(\mathcal{H}).$ This is a bit surprising, because it is so commonly stated that there is no physically reasonable morphism of Lie algebras in the other direction, while this direction receives relatively little attention. In fact, the expectation value map is just the adjoint of [[Felix Berezin|Berezin]]'s quantization map, which is given by (up to a constant)
+$$\langle\rangle: B(\mathcal{H})\to C^{\infty}(P(\mathcal{H}))\,,\quad \langle H\rangle([v])=\langle v|H|v\rangle\,,$$
+where $v$ is any normalized representative of $[v].$ This is just the expectation value of $H$ in the state $[v].$ This map is a morphism of Lie algebras, with respect to the commutator on $B(\mathcal{H})$ and the Poisson bracket on $P(\mathcal{H}).$ This is a bit surprising, because it is so commonly stated that there is no physically reasonable morphism of Lie algebras in the other direction, while this direction receives relatively little attention. The significance of $\langle \rangle$ being a Lie algebra morphism is that, with respect to classical observables of the form $\langle H\rangle\,,$ the classical and quantum mechanics are the same. That is,  
+$$i\frac{\partial}{\partial t}\Psi=H\Psi$$
+if and only if $t\mapsto [\Psi](t)$ is the Hamiltonian flow of the Hamiltonian vector field of $\langle H\rangle.$ Equivalently, $A\in B(\mathcal{H})$ satisfies Heisenberg's equation of motion with respect to $H$ if and only if $\langle A\rangle$ satisfies Hamilton's equations of motion with respect to $\langle H\rangle.$
+ 
+In fact, the expectation value map is just the adjoint of [[Felix Berezin|Berezin]]'s quantization map, which is given by (up to a constant)
 $$Q_f=\int_M fq\,\, \omega^n\,.$$
 More precisely, $\langle \rangle=Q^{\dagger},$
 where $B(\mathcal{H})$ is equipped with the Hilbert–Schmidt inner product, ie.
-$$Tr(Q_f^*A)=\langle f,\langle A\rangle \rangle_{P(\mathcal{H})}\,.$$
-The overcompleteness property says that $Q_1=1_{\mathcal{H}},$ which means that $Q$ preserves both minimally mixed states (ie. pure states) and the maximally mixed state. The significance of $\langle \rangle$ being a Lie algebra morphism is that, with respect to classical observables of the form $\langle H\rangle\,,$ the classical and quantum mechanics are the same. That is,  
-$$i\frac{\partial}{\partial t}\Psi=H\Psi$$
-if and only if $t\mapsto [\Psi](t)$ is the Hamiltonian flow of the Hamiltonian vector field of $\langle H\rangle.$ Equivalently, $A\in B(\mathcal{H})$ satisfies Heisenberg's equation of motion with respect to $H$ if and only if $\langle A\rangle$ satisfies Hamilton's equations of motion with respect to $\langle H\rangle.$
+$$Tr(Q_f^*A)=\int_{P(\mathcal{H})} f^*\langle A\rangle \omega^n\,.$$
+The overcompleteness property says that $Q_1=1_{\mathcal{H}},$ which means that $\langle \rangle$ intertwines the trace map with integration.
 
 As for item 1, the line bundle is the canonical bundle and the path integral 
 $$\Omega([x],[y])=\int_{\gamma(0)=[x]}^{\gamma(1)=[y]}\mathcal{D}\gamma\,P(\gamma)\in\text{Hom}(\mathcal{L}_{x},\mathcal{L}_{y})$$
-is the map $x\mapsto x[y]\,,$
-where we are identifying $[y]$ with its associated one–dimensional projection.
+is the map $\langle x|\mapsto \langle x|y\rangle\langle y|\,.$
 
 There are now two ways of describing item 2. The traditional way is by taking the Hilbert space to be that of holomorphic sections. The second way of describing it is by taking the Hilbert space to be the image of the orthogonal projection defined by the path integal, ie.
-$$\Psi\mapsto\int_{P(\mathcal{H})}\Psi([x])\Omega([x],\cdot)\omega^n\,.$$
-These are the same as $P$ is the orthogonal projection onto holomorphic sections. 
+$$\Psi\mapsto\Big([y]\mapsto\int_{P(\mathcal{H})}\Psi([x])|y\rangle\langle y|\omega^n\Big)\,.$$
+These two Hilbert spaces are the same as this is the orthogonal projection onto holomorphic sections. 
 
 Mark $S^1$ with the cyclically ordered points. The 3-point function is given by 
 $$\Delta([x],[y],[z])=\int_{\gamma_{[x],[y],[z]}}\mathcal{D}\gamma\,P(\gamma)\, ,$$
 where the path integral is over all maps $S^1\to P(\mathcal{H})$ such that the marked points map to $[x],[y],[z].$ Explicitly, $\Delta$ is defined by the equation
-$$[x][y][z][x]=\Delta([x],[y],[z])[x]\,.$$
+$$|x\rangle\langle x|y\rangle\langle y|z\rangle\langle z|x\rangle\langle x|=\Delta([x],[y],[z])|x\rangle\langle x|\,.$$
 
 This tells most of the story for $P(\mathcal{H}).$ There is another class of examples that is just as natural and almost just as simple. These are symplectic submanifolds of $P(\mathcal{H})$ which satisfy the overcompleteness condition. These are more interesting because the quantum mechanics and classical mechanics are different, however there are still Hamiltonians for which they agree.
 
