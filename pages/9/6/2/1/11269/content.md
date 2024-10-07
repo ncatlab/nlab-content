@@ -71,5 +71,3 @@ The necessary assumptions for Lawvere's account are reduced in various ways in
 [[!redirects diagonalization argument]]
 [[!redirects diagonalization arguments]]
 
-
-[[!redirects diagonal arguments]]
