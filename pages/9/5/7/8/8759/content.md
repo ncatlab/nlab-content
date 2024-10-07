@@ -19,9 +19,8 @@ A [[graph]] is _reflexive_ if for each [[vertex]] $v$ there is a (specified) [[e
 
 
 A **reflexive [[quiver]]** has a specified identity edge $i_X: X \to X$ on each object (vertex) $X$.
-The [[free category]] on a reflexive quiver has the same objects,
- [[identity morphism]]s corresponding to the identity edges,
- and non-identity morphisms consisting of paths of non-identity edges.
+
+The [[free category]] on a reflexive quiver has the same objects, [[identity morphism]]s corresponding to the identity edges, and non-identity morphisms consisting of paths of non-identity edges.
 
 ## Properties 
 
