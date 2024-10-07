@@ -1,4 +1,3 @@
-s
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -56,6 +55,8 @@ In the most common examples, 2 is given by holomorphic sections of a [[Kähler m
 
 That something like this was true seems to have been first made explicit in [Odzijewicz 1992] (#Odzijewicz92), who stated a related equivalence of categories and understood the relationship to path integrals.
 
+### On Complex Projective Space
+
 The simplest and most natural example of this is when $\mathcal{H}$ is finite dimensional and $M=P(\mathcal{H})$ with $\omega$ being the Fubini–Study form. Items 1 and 3 are very natural to describe here, while item 2 is a bit more complicated but quickly follows from the description of 1. We'll first describe item 3. 
 
 In this example, $q$ is the identity.
@@ -85,7 +86,19 @@ $$\Psi\mapsto\Big([y]\mapsto\int_{P(\mathcal{H})}\Psi([x])|y\rangle\langle y|\om
 These two Hilbert spaces are the same as this is the orthogonal projection onto holomorphic sections. 
 
 
-This tells most of the story for $P(\mathcal{H}).$ There is another class of examples that is just as natural and almost just as simple. These are symplectic submanifolds of $P(\mathcal{H})$ which satisfy the overcompleteness condition. These are more interesting because the quantum mechanics and classical mechanics are different, however there are still Hamiltonians for which they agree.
+This tells most of the story for $P(\mathcal{H}).$ 
+
+### Projective Submanifolds
+
+There is another class of examples that is just as natural and almost just as simple as $P(\mathcal{H}).$ These are symplectic submanifolds $\iota:M^{2n}\xhookrightarrow{} P(\mathcal{H})$ which satisfy the overcompleteness condition, ie. up to a constant,
+$$1_{\mathcal{H}}=\int_M q\omega^n\,,$$
+where $q:M\xhookrightarrow{}B(\mathcal{H})$ is the canonical inclusion.
+
+These are more interesting because the quantum mechanics and classical mechanics are different, ie.
+$\langle \rangle$ is not a morphism of Lie algebras. However, there is a Lie subalgebra on which it is a morphism, and otherwise all other formulas discussed in the previous section remain valid. This subalgebra is given as follows: let $H\in B(\mathcal{H})$ be such that for all $A\in B(\mathcal{H})\,,$
+$$\{\langle H\rangle,\langle A\rangle\}_{P(\mathcal{H})}\circ \iota =\{\langle H\rangle,\langle A\rangle\}_{M}$$
+
+The set of all such $H$ is a Lie algebra as is its image under $\langle\rangle.$ Furthermore, $\langle\rangle$ restricted to this Lie subalgebra is an injective morphism.
 
 ## References
 The observation is due to:
