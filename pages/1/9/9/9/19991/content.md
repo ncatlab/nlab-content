@@ -212,6 +212,12 @@ See also
 * Wikipedia, _[Point group](https://en.wikipedia.org/wiki/Point_group)_
 
 
+Further discussion:
+
+* Chunxiao Liu, Weicheng Ye: *Crystallography, Group Cohomology, and Lieb-Schultz-Mattis Constraints* &lbrack;[arXiv:2410.03607](https://arxiv.org/abs/2410.03607)&rbrack;
+
+
+
 
 [[!redirects crystallographic groups]]
 
