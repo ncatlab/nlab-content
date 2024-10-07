@@ -26,7 +26,7 @@ What is called the "geometrization of quantum mechanics" by [Kibble (1979)](#Kib
 
 1. the [[curves]] in $P \mathscr{H}$ which correspond to solutions of the [[Schrödinger equation]] are [[Hamiltonian flows]] with respect to this symplectic structure.
 
-This is fairly immediate to see from mathematical inspection, but the perspective is somewhat surprising from the point of view of standard accounts of [[classical physics|classical]]/[[quantum physics]], which tend to frame [[symplectic geometry]] and its [[Hamiltonian flows]] as the hallmark of [[classical physics|classical]] [[phase spaces]] and [[classical physics]], and to highlight [[quantization]] as a [[deformation]] of this symplectic structure (whence: "[[deformation quantization]]").
+This is fairly immediate to see from mathematical inspection, but the perspective is somewhat surprising from the point of view of standard accounts of [[classical physics|classical]]/[[quantum physics]], which tend to frame [[symplectic geometry]] and its [[Hamiltonian flows]] as the hallmark of [[classical physics|classical]] [[phase spaces]] and [[classical physics]], and to highlight [[quantization]] as a [[deformation]] of this symplectic structure (whence: "[[deformation quantization]]"). It follows that instead of thinking of quantization of a symplectic manifold $(M,\omega)$ as some kind of deformation to operators on a Hilbert space, one can think of it as merely replacing the classical mechanics of $M$ with the classical mechanics of $P(\mathcal{H}).$ 
 
 Now, the standard perspective is certainly not wrong, but various authors have inevitably suggested that the "geometrical formulation"  (more descriptive would be: "symplectic formulation") of quantum mechanics may point to some deeper truth, and if only to show some kind of conceptual unity where one is used to amplifying the dichotomy.
 
@@ -75,7 +75,8 @@ $$Tr(Q_{f}A)=\int_{P(\mathcal{H})} f\,\langle A\rangle \omega^n\,.$$
 This means that $\langle \rangle$ also preserves the state structure. Mathematically, $\langle\rangle=Q^{\dagger},$ where the inner product is the Hilbert–Schmidt inner product. $Q_f$ is known as [[Felix Berezin|Berezin]]'s contravariant symbol, and $\langle \rangle$ is known as Berezin's covariant symbol.
 
 The 3–point function (which is really a degree 2 cochain on the pair [[groupoid]] and determines a class in [[groupoid cohomology]]) determines the first [[Chern class]] of the prequantum line bundle and is given by
-$$\Delta([x],[y],[z])=\langle x|y\rangle\langle y|z\rangle\langle z|x\rangle\,.$$
+$$\Delta([x],[y],[z])=\langle x|y\rangle\langle y|z\rangle\langle z|x\rangle\,.$$ 
+This is the same 3–point function that appears in the [[Poisson sigma-model]] in the context of [[formal deformation quantization]].
 
 As for item 1, the line bundle is the canonical bundle and the path integral 
 $$\Omega([x],[y])=\int_{\gamma(0)=[x]}^{\gamma(1)=[y]}\mathcal{D}\gamma\,P(\gamma)\in\text{Hom}(\mathcal{L}_{x},\mathcal{L}_{y})$$
@@ -90,7 +91,7 @@ This tells most of the story for $P(\mathcal{H}).$
 
 ### Projective Submanifolds
 
-There is another class of examples that is just as natural and almost just as simple as $P(\mathcal{H}).$ These are symplectic submanifolds $\iota:M^{2n}\xhookrightarrow{} P(\mathcal{H})$ which satisfy the overcompleteness condition, ie. up to a constant,
+There is another class of examples that is just as natural and almost just as simple as $P(\mathcal{H}).$ These are symplectic submanifolds $\iota:M^{2n}\xhookrightarrow{} P(\mathcal{H})$ which satisfy the overcompleteness condition, ie. up to a constant
 $$1_{\mathcal{H}}=\int_M q\omega^n\,,$$
 where $q:M\xhookrightarrow{}B(\mathcal{H})$ is the canonical inclusion.
 
@@ -98,7 +99,19 @@ These are more interesting because the quantum mechanics and classical mechanics
 $\langle \rangle$ is not a morphism of Lie algebras. However, there is a Lie subalgebra on which it is a morphism, and otherwise all other formulas discussed in the previous section remain valid. This subalgebra is given as follows: let $H\in B(\mathcal{H})$ be such that for all $A\in B(\mathcal{H})\,,$
 $$\{\langle H\rangle,\langle A\rangle\}_{P(\mathcal{H})}\circ \iota =\{\langle H\rangle,\langle A\rangle\}_{M}$$
 
-The set of all such $H$ is a Lie algebra as is its image under $\langle\rangle.$ Furthermore, $\langle\rangle$ restricted to this Lie subalgebra is an injective morphism.
+The set of all such $H$ is a Lie algebra as is its image under $\langle\rangle.$ Furthermore, $\langle\rangle$ restricted to this Lie subalgebra is an injective morphism. This Lie subalgebra can be identified with the set of operators which, under Schrodinger's equation, preserves $M.$
+
+### The General Case
+
+In general then, to quantize as a symplectic manifold $M$ it is enough to embed it into $P(\mathcal{H})$ in such a way that the embedded submanifold has the overcompleteness property. It's not clear to what extent this can be done exactly, however it can be done for Kahler manifolds which have a nice enough group of symmetries, eg. $T^*\mathbb{R}^n$ and the upper half plane. However, for all prequantizable compact manifolds (and many non–compact ones) this can be done approximately, ie.
+\begin{theorem}
+Let $(M,\omega)$ be a prequantizable compact symplectic manifold. Then there exists a sequence of embeddings
+$$q_k:M\xhookrightarrow{}P(\mathcal{H}_k)$$
+such that 
+$$\|q_k^*\omega_{FS}/k-\omega\|_{C^m}=\mathcal{O}(1/k)$$
+for all $m\in\mathbb{N},$ and such that $q_k(M)$ is overcomplete with respect to a measure $d\mu_k$ for which $d\mu_{k}/k^n \to \omega^n\,.$
+\end{theorem}
+Here, $\omega_{FS}$ is the Fubini–Study form. This theorem identifies the structure used to quantize and get star products on general compact symplectic manifolds, [Borthwicke–Uribe] (#Borthwicke–Uribe), [Schlichenmaier](#Schlichenmaier). This theorem follows from theorem 1.1 of [Dai–Liu–Ma](#Dai–Liu–Ma), theorem 3.6 of [Ma–Marinescu] (#Ma–Marinescu), and the observation that the symplectic Kodaira embedding is overcomplete.
 
 ## References
 The observation is due to:
@@ -133,7 +146,15 @@ Discussion of dynamics of [[mixed states]] ([[density matrices]]), now via [[Poi
 
 * Pritish Sinha, Ankit Yadav, *Poisson Geometric Formulation of Quantum Mechanics* &lbrack;[arXiv:2312.05615](https://arxiv.org/abs/2312.05615)&rbrack;
 
+On theorems related to quantizations which induce [[star products]] on general symplectic manifolds:
 
+* {#Borthwicke–Uribe} David Borthwick, Alejandro Uribe. Almost complex structures and geometric quantization (arXiv:dg-ga/9608006)
+
+* {#Dai–Liu–Ma} Xianzhe Dai, Kefeng Liu, Xiaonan Ma. On the asymptotic expansion of Bergman kernel. (arXiv:math/0404494v2)
+
+* {#Ma–Marinescu} Xiaonan Ma, George Marinescu. Generalized Bergman kernels on symplectic manifolds. (arXiv:math/0411559v3)
+
+* {#Schlichenmaier} Martin Schlichenmaier. Berezin-Toeplitz quantization for compact Kaehler manifolds. A Review of Results. (arXiv:1003.2523v1)
 
 [[!redirects symplectic formulation of quantum mechanics]]
 
