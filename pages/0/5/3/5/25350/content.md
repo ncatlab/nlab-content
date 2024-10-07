@@ -72,7 +72,7 @@ where $f\ge 0$ and
 $$\int_{P(\mathcal{H})}f\,\omega^n=1\,.$$
 From the overcompleteness property, it follows that
 $$Tr(Q_{f}A)=\int_{P(\mathcal{H})} f\,\langle A\rangle \omega^n\,.$$
-This means that $\langle \rangle$ also preserves the state structure. Mathematically, $\langle\rangle=Q^{\dagger},$ where the inner product is the Hilbert–Schmidt inner product. $Q_f$ is known as [[Felix Berezin|Berezin]]'s contravariant symbol, and $\langle \rangle$ is known as Berezin's covariant symbol.
+This means that $\langle \rangle$ also preserves the state structure. Mathematically, $\langle\rangle=Q^{\dagger},$ where the inner product is the Hilbert–Schmidt inner product. $Q_f$ is known as [[Felix Berezin|Berezin]]'s contravariant symbol, and $\langle \rangle$ is known as Berezin's covariant symbol. Of course, $Q$ is really defined on any reasonably nice function — in general it should be interpreted as an operator, not a state. $Q$ agrees with the Berezin–Toeplitz quantization, [Schlichenmaier](#Schlichenmaier).
 
 The 3–point function (which is really a degree 2 cochain on the pair [[groupoid]] and determines a class in [[groupoid cohomology]]) determines the first [[Chern class]] of the prequantum line bundle and is given by
 $$\Delta([x],[y],[z])=\langle x|y\rangle\langle y|z\rangle\langle z|x\rangle\,.$$ 
