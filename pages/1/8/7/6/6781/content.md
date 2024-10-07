@@ -168,6 +168,10 @@ See also Chapter 5, Sections 1, 11, and 12 of:
 
 * {#EGNO16} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]]. *Tensor categories*. Vol. 205. American Mathematical Soc., 2016.
 
+A complete classification of quasi-Hopf algebras of dimension 6:
+
+* Daniel Bulacu, Matteo Misurati. *Quasi-Hopf Algebras of Dimension $6$* (2024). ([arXiv:2410.03476](https://arxiv.org/abs/2410.03476)).
+
 
 [[!redirects quasibialgebra]]
 [[!redirects quasihopf algebra]]
