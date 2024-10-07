@@ -56,17 +56,17 @@ In the most common examples, 2 is given by holomorphic sections of a [[Kähler m
 
 That something like this was true seems to have been first made explicit in [Odzijewicz 1992] (#Odzijewicz92), who stated a related equivalence of categories and understood the relationship to path integrals.
 
-The simplest and most natural example of this is when $\mathcal{H}$ is finite dimensional and $M=P(\mathcal{H}).$ Items 1 and 3 are very natural to describe here, while item 2 is a bit more complicated but quickly follows from the description of 1. We'll first describe item 3. 
+The simplest and most natural example of this is when $\mathcal{H}$ is finite dimensional and $M=P(\mathcal{H})$ with $\omega$ being the Fubini–Study form. Items 1 and 3 are very natural to describe here, while item 2 is a bit more complicated but quickly follows from the description of 1. We'll first describe item 3. 
 
 In this example, $q$ is the identity.
 It's not immediately obvious that this example satisfies the overcompleteness property, but it does with respect to the Fubini–Study measure (up to a constant). There is a natural map
 $$\langle\rangle: B(\mathcal{H})\to C^{\infty}(P(\mathcal{H}))\,,\quad \langle H\rangle([v])=\langle v,Hv\rangle\,,$$
 where $v$ is any normalized representative of $[v].$ This is just the expectation value of $H$ in the state $[v].$ This map is a morphism of Lie algebras, with respect to the commutator on $B(\mathcal{H})$ and the Poisson bracket on $P(\mathcal{H}).$ This is a bit surprising, because it is so commonly stated that there is no physically reasonable morphism of Lie algebras in the other direction, while this direction receives relatively little attention. In fact, the expectation value map is just the adjoint of [[Felix Berezin|Berezin]]'s quantization map, which is given by (up to a constant)
-$$Q_f=\int_M fq\,\, \omega^n_{FS}.$$
-The overcompleteness property says that $Q_1=1_{\mathcal{H}}.$ More precisely, $\langle \rangle=Q^{\dagger},$
+$$Q_f=\int_M fq\,\, \omega^n\,.$$
+More precisely, $\langle \rangle=Q^{\dagger},$
 where $B(\mathcal{H})$ is equipped with the Hilbert–Schmidt inner product, ie.
-$$Tr(A^*Q_f)=\int_{P(\mathcal{H})}\langle A^*\rangle f\,\omega^n_{FS}\,.$$
-The significance of $\langle \rangle$ being a Lie algebra morphism is that, with respect to classical observables of the form $\langle H\rangle\,,$ the classical and quantum mechanics are the same. That is,  
+$$Tr(Q_f^*A)=\langle f,\langle A\rangle \rangle_{P(\mathcal{H})}\,.$$
+The overcompleteness property says that $Q_1=1_{\mathcal{H}},$ which means that $Q$ preserves both minimally mixed states (ie. pure states) and the maximally mixed state. The significance of $\langle \rangle$ being a Lie algebra morphism is that, with respect to classical observables of the form $\langle H\rangle\,,$ the classical and quantum mechanics are the same. That is,  
 $$i\frac{\partial}{\partial t}\Psi=H\Psi$$
 if and only if $t\mapsto [\Psi](t)$ is the Hamiltonian flow of the Hamiltonian vector field of $\langle H\rangle.$ Equivalently, $A\in B(\mathcal{H})$ satisfies Heisenberg's equation of motion with respect to $H$ if and only if $\langle A\rangle$ satisfies Hamilton's equations of motion with respect to $\langle H\rangle.$
 
@@ -76,7 +76,7 @@ is the map $x\mapsto x[y]\,,$
 where we are identifying $[y]$ with its associated one–dimensional projection.
 
 There are now two ways of describing item 2. The traditional way is by taking the Hilbert space to be that of holomorphic sections. The second way of describing it is by taking the Hilbert space to be the image of the orthogonal projection defined by the path integal, ie.
-$$\Psi\mapsto\int_{P(\mathcal{H})}\Psi([x])\Omega([x],\cdot)\omega^n_{FS}\,.$$
+$$\Psi\mapsto\int_{P(\mathcal{H})}\Psi([x])\Omega([x],\cdot)\omega^n\,.$$
 These are the same as $P$ is the orthogonal projection onto holomorphic sections. 
 
 Mark $S^1$ with the cyclically ordered points. The 3-point function is given by 
