@@ -349,7 +349,7 @@ As an Abelian group $W(A)$ is isomorphic to the group of curves in the one-dimen
 
 ## Related concepts
 
-* [[Witt Cohomology]]
+* [[Witt cohomology]]
 
 * [[Lambda-ring]]
 
@@ -365,7 +365,7 @@ As an Abelian group $W(A)$ is isomorphic to the group of curves in the one-dimen
 
 ### Original texts and classical surveys
 
-witt vectors were introduced in
+Witt vectors were introduced in
 
 * [[Ernst Witt]], _Zyklische K&#246;rper und Algebren der Characteristik $p$ vom Grad $p^n$. Struktur diskret bewerteter perfekter K&#246;rper mit vollkommenem Restklassenk&#246;rper der Charakteristik $p^n$_, J. Reine Angew. Math. , 176 (1936) pp. 126&#8211;140, ([web](http://www.digizeitschriften.de/main/dms/img/?IDDOC=504725))
 
@@ -377,11 +377,10 @@ See also
 
 * [[Michiel Hazewinkel]], _Twisted Lubin-Tate formal group laws, ramified Witt vectors and (ramified) Artin-Hasse exponentials_, Transactions of the AMS (1980)
 
-Surveys incluce
+Surveys include:
 
 * [[eom]], _[Witt vector](http://www.encyclopediaofmath.org/index.php/Witt_vector)_
  {#eom}
-
 
 * Michel Demazure, _[[Demazure, lectures on p-divisible groups|Lectures on p-divisible groups]]_ ([web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups))
   {#Demazure}
@@ -392,37 +391,36 @@ Surveys incluce
 * [[Michiel Hazewinkel]],  _[[Hazewinkel, Witt vectors|Witt vectors]]_, ([arXiv](http://arxiv.org/abs/0804.3888))
   {#Hazewinkel08}
 
-* [[Michiel Hazewinkel]], _Formal Groups and Applications_, review in [projecteuclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183548600)
+* [[Michiel Hazewinkel]], _Formal Groups and Applications_, review in [Project Euclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183548600)
 
+* [[Richard Pink]], Finite group schemes, ([pdf](http://www.math.ethz.ch/~pink/ftp/FGS/CompleteNotes.pdf){#Pink})
 
-* Joseph Rabinoff, _The theory of Witt vectors_ ([pdf](http://math.stanford.edu/~rabinoff/misc/witt.pdf))
+* Joseph Rabinoff, _The theory of Witt vectors_, ([arXiv](https://arxiv.org/abs/1409.7445))
 
-* [[Richard Pink]], finite group schemes, [pdf](http://www.math.ethz.ch/~pink/ftp/FGS/CompleteNotes.pdf){#Pink}
+* Niranjan Ramachandran, Zeta functions, Grothendieck groups, and the Witt ring, ([arXiv](https://arxiv.org/abs/1407.1813))
 
-Review in the context of the [[Kummer-Artin-Schreier-Witt exact sequence]] is in 
+A review in the context of the [[Kummer-Artin-Schreier-Witt exact sequence]] is in 
 
-* {#MezardRomagnyTossici11} Ariane M&#233;zard, Matthieu Romagny, Dajano Tossici, section 2 of _Sekiguchi-Suwa theory revisited_ ([arXiv:1104.2222](http://arxiv.org/abs/1104.2222))
-
+* {#MezardRomagnyTossici11} Ariane M&#233;zard, Matthieu Romagny, Dajano Tossici, section 2 of _Sekiguchi-Suwa theory revisited_ ([arXiv](http://arxiv.org/abs/1104.2222))
 
 ### Further development of the theory
-
-* [[Dmitri Kaledin]], [[non-commutative Witt vectors]]
-
-* [[Dmitri Kaledin]], universal Witt vectors and the ''Japanese cocycle'', [pdf](http://imperium.lenin.ru/~kaledin/math/jap.pdf)
-
-* [[Lars Hesselholt]], [[Ib Madsen]], _On the de Rham-Witt complex in [[mixed characteristic]]_, [pdf](http://www.math.uiuc.edu/K-theory/0551/paper.pdf)
-
-* [[Lars Hesselholt]], Witt vectors of non-commutative rings and topological cyclic homology, [pdf](http://www.math.uiuc.edu/K-theory/0135/derived.pdf)
 
 * {#DS88} A. Dress, C. Siebeneicher, _The Burnside ring of profinite groups and
 the Witt vector construction_, Adv. Math., 70, (1988), 87&#8211;132.[link](https://reader.elsevier.com/reader/sd/pii/0001870888900527?token=448709A2504AA684DD56C07A8907E9344F0C761E77B09F8B840FF05D2E8B5338DCBBCAF713EEE9E24BCB91E2FAD4883D&originRegion=eu-west-1&originCreation=20221117110955)
 
+* [[Dmitri Kaledin]], [[non-commutative Witt vectors]]
+
+* [[Dmitri Kaledin]], universal Witt vectors and the ''Japanese cocycle'', ([pdf](http://imperium.lenin.ru/~kaledin/math/jap.pdf))
+
+* [[Lars Hesselholt]], [[Ib Madsen]], On the de Rham-Witt complex in [[mixed characteristic]], ([pdf](http://www.math.uiuc.edu/K-theory/0551/paper.pdf))
+
+* [[Lars Hesselholt]], Witt vectors of non-commutative rings and topological cyclic homology, ([pdf](http://www.math.uiuc.edu/K-theory/0135/derived.pdf))
 
 In the context of [[Borger's absolute geometry]]:
 
-* {#Borger08} [[James Borger]], _The basic geometry of Witt vectors, I: The affine case_ ([arXiv:0801.1691](http://arxiv.org/abs/0801.1691))
+* {#Borger08} [[James Borger]], _The basic geometry of Witt vectors, I: The affine case_ ([arXiv](http://arxiv.org/abs/0801.1691))
 
-* {#Borger10} [[James Borger]], _The basic geometry of Witt vectors, II: Spaces_ ([arXiv:1006.0092](http://arxiv.org/abs/1006.0092))
+* {#Borger10} [[James Borger]], The basic geometry of Witt vectors, II: Spaces ([arXiv](http://arxiv.org/abs/1006.0092))
 
 
 [[!redirects rings of Witt vectors]]
