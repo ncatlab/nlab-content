@@ -113,6 +113,8 @@ for all $m\in\mathbb{N},$ and such that $q_k(M)$ is overcomplete with respect to
 \end{theorem}
 Here, $\omega_{FS}$ is the Fubini–Study form. This theorem identifies the structure used to quantize and get star products on general compact symplectic manifolds, [Borthwicke–Uribe] (#Borthwicke–Uribe), [Schlichenmaier](#Schlichenmaier). This theorem follows from theorem 1.1 of [Dai–Liu–Ma](#Dai–Liu–Ma), theorem 3.6 of [Ma–Marinescu] (#Ma–Marinescu), and the observation that the symplectic Kodaira embedding is overcomplete.
 
+Note that, there don't seem to be any (convincing?) examples of quantizations of symplectic manifolds which can't be strenghtened to a quantization of this form, so this perspective seems universal. Eg. Consider the quantization of $T^*\mathbb{R}$ using the polarization with $x=const.$ One can define coherent states using the lowering operator $\hat{x}+i\hat{p}$ and then one immediately gets all of this additional structure.
+
 ## References
 The observation is due to:
 
