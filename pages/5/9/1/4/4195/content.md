@@ -62,6 +62,8 @@ One may have to practice visualizing this before it all sinks in, but it's a tre
 
 * {#JoyalStreet} [[André Joyal]], [[Ross Street]], _Braided tensor categories_,  Adv. Math. 1993 ([pdf](http://web.science.mq.edu.au/~street/JS1.pdf))
 
+* Paul Wilson, [[Dan Ghica]] and [[Fabio Zanasi]].  "String Diagrams for Strictification and Coherence".  *Logical Methods in Computer Science* 2024
+
 See also section 5 of
 
 * [[Saunders Mac Lane]], Topology and Logic as a Source of Algebra (Retiring Presidential Address), _Bulletin of the AMS_ 82:1, January 1976. ([euclid](https://projecteuclid.org/euclid.bams/1183537593))
