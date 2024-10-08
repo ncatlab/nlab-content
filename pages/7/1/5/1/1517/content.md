@@ -62,7 +62,7 @@ If $F$ is a [[copointed endofunctor]] with copoint $\epsilon : F \to Id$, then b
 
 Each of the following examples is of the form $X\to F(X)$, (description of endofunctor $F\colon Set\to Set$) : (description of coalgebra). Where it appears, $A$ is a given fixed set.
 
-* $X \to D(X)$, the set of [[probability distributions]] on $X$: Markov chain on $X$.
+* $X \to D(X)$, the set of [[probability distributions]] on $X$: [[Markov chain]] on $X$.
 * $X \to \mathcal{P}(X)$, the [[power set]] of $X$: binary relation on $X$, and also the simplest type of [[Kripke frames]].
 * $X \to X^A \times bool$, with $X^A$ the set of functions $A\to X$ and $bool = \{0,1\}$: [[deterministic automaton]].
 * $X \to \mathcal{P}(X)^A\times bool$: [[nondeterministic automaton]].
