@@ -77,7 +77,7 @@ The ramifications of the classical coherent states is in
 
 * Enrico Onofri, _A note on coherent state representations of Lie groups_, J. Math. Phys. __16__:5, 1087-1089, may 1975. 
 
-* Wojciech Lisiecki, _Coherent state representations. A survey_, Reports on Mathematical Physics __35__:2--3 (1995) 327--358 <a: href="https://doi.org/10.1016/0034-4877(96)8">doi</a>
+* Wojciech Lisiecki, _Coherent state representations. A survey_, Reports on Mathematical Physics __35__:2--3 (1995) 327--358 <a href="https://doi.org/10.1016/0034-4877(96)89292-5">doi</a>
 
 * [[Mauro Spera]], _On a generalized uncertainty principle, coherent states and the moment map_, J. of Geometry and Physics 12 (1993) 165--182.
 
