@@ -10,6 +10,11 @@ On infinite-dimensional [[Kac-Moody algebras]] as [[U-duality]] [[symmetries]] o
 * {#NicolaiSchlotterer09} [[Hermann Nicolai]] (notes by [[Oliver Schlotterer]]): _Infinite dimensional symmetries_, lecture at *Saalburg summer school* in Wolfersdorf, Thuringia (2009) &lbrack;[[NicolaiSchlotterer-InfinDimSymmetries.pdf:file]]&rbrack;
 
 
+On [[supersymmetry]] in higher dimensions with application to [[Lagrangian]] [[field theory]] and the [[MSSM]]:
+
+* [[Sven Krippendorf]], [[Fernando Quevedo]], [[Oliver Schlotterer]]: _Cambridge Lectures on Supersymmetry and Extra Dimensions_ (2010) &lbrack;[arXiv:1011.1491](http://arxiv.org/abs/1011.1491), [spire:875723](https://inspirehep.net/literature/875723)&rbrack;
+
+
 On [[string scattering amplitudes]] for the [[Berkovits superstring|Berkovits-formulation]] of the [[superstring]]:
 
 * {#MafraSchlotterer18a} [[Carlos Mafra]], [[Oliver Schlotterer]], _Towards the $n$-point one-loop superstring amplitude I: Pure spinors and superfield kinematics_ ([arXiv:1812.10969](https://arxiv.org/abs/1812.10969))
