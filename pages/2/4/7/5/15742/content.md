@@ -39,6 +39,8 @@ On [[superalgebra]] and [[supergeometry]] ([[Grassmann algebra]], [[super vector
 
 * [[Lie-Poisson structure]]
 
+* [[Berezin quantization]]
+
 * [[Berezin integration]]
 
 * [[Berezinian]]
