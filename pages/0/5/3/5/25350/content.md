@@ -34,24 +34,40 @@ Now, the standard perspective is certainly not wrong, but various authors have i
 
 ## Explanation
 
-Let $(M^{2n},\omega)$ be a [[symplectic manifold]] and let $d\mu$ be a [[measure]] on $M$ (which is always of the form $h\omega^n$ for some function $h$). Let $\mathcal{L}\to M$ be a [[prequantum line bundle]] and let $\Delta:M^3\to\mathbb{C}$ be a [[smooth function]]. There is an [[equivalence of categories]] between:
+Let $(M^{2n},\omega)$ be a [[symplectic manifold]] and let $d\mu$ be a [[measure]] on $M$ (which is always of the form $h\omega^n$ for some [[smooth function]] $h$). Let $\mathcal{L}\to M$ be a [[prequantum line bundle]] and let $\Delta:M^3\to\mathbb{C}$ be a [[smooth function]]. 
 
-1. (Path integral quantization) Quantizations obtained via a [[path integral]] over [[curves]] in $M,$ whose amplitude is given by [[parallel transport]] and whose [[3-point function]] is $\Delta.$
+Then there is an [[equivalence of categories]] between:
 
-2. (Geometric quantization) The [[category]] of [[Hilbert spaces]] given by a [[subspace]] of [[sections]] of the [[prequantum line bundle]], such that pointwise [[evaluation]] is [[continuous function|continuous]] and whose curvature is $VE(\log{\Delta})$ ($VE$ is the [[van Est]] map).
+1. {#Item1} (**[[path integral quantization|Path integral quantization]]**) Quantizations obtained via a [[path integral]] over [[curves]] in $M,$ whose amplitude is given by [[parallel transport]] and whose [[3-point function]] is $\Delta.$
 
-3. (Berezin quantization) Maps $q \colon M\to P(\mathcal{H})\subset B(\mathcal{H}),$ with the overcompleteness property: $1_{\mathcal{H}} = \int_M q\,d\mu$ and whose [[3-point function]] is $\Delta.$
+2. {#Item2} (**[[geometric quantization|Geometric quantization]]**) The [[category]] of [[Hilbert spaces]] given by a [[subspace]] of [[sections]] of the [[prequantum line bundle]], such that pointwise [[evaluation]] is [[continuous function|continuous]] and whose [[curvature 2-form|curvature]] is $VE(\log{\Delta})$ ($VE$ is the [[van Est]] map).
 
-Item 2 presents by far the most common way of thinking about [[quantization]], with the other two (especially 1) being nearly completely overlooked. However, it can be argued that 2 is really just a way of computing 3 or 1, where the latter is the only one which really generalizes to Poisson manifolds. This is because the path integral is a section of 
+3. {#Item3} (**Berezin quantization**) Maps 
+
+   \[
+     \label{qMapsMToP}
+     q \colon M \to P(\mathcal{H})\subset B(\mathcal{H}),
+   \] 
+
+   with the overcompleteness property: 
+  
+   \[
+     \label{OvercompletenessProperty}
+     1_{\mathcal{H}} = \textstyle{\int_M} q\,d\mu
+   \] 
+
+   and whose [[3-point function]] is $\Delta.$
+
+[Item 2](#Item2) presents by far the most common way of thinking about [[quantization]], with the other two (especially 1) being nearly completely overlooked. However, it can be argued that 2 is really just a way of computing 3 or 1, where the latter is the only one which really generalizes to Poisson manifolds. This is because the path integral is a section of 
 
 $$\pi_0^*\mathcal{L}^*\otimes \pi_1^*\mathcal{L}\to M\times M\,,$$
 
-and for [[Poisson manifolds]] we can replace $M\times M$ by the [[symplectic groupoid]]. More specifically, the path integral is a certain Hermitian, idempotent section of the twisted convolution algebra. For symplectic manifolds, it is formally given by 
+and for [[Poisson manifolds]] we can replace $M\times M$ by the [[symplectic groupoid]]. More specifically, the path integral is a certain Hermitian, idempotent section of the twisted [[convolution algebra]]. For symplectic manifolds, it is formally given by 
 $$\Omega(a,b)=\int_{\gamma(0)=a}^{\gamma(1)=b}\mathcal{D}\gamma\,P(\gamma)\in\text{Hom}(\mathcal{L}_{a},\mathcal{L}_{b})\,,
 $$
 where $P(\gamma)$ is parallel transport over $\gamma.$
 
-In the most common examples, 2 is given by holomorphic sections of a [[Kähler manifold]]. In 3, $q$ is a [[classifying map]] for $\mathcal{L}$ and points in its image are called *[[coherent states]]* -- it is not just any classifying map though, it has an overcompleteness property. This is [[Felix Berezin|Berezin]]'s formulation of [[quantization]], whereas 1 is how [Klauder](#klauder) conceived of quantization. For a quote:  
+In the most common examples, [item 2](#Item2) is given by holomorphic sections of a [[Kähler manifold]]. In [item 3](#Item3), $q$ is a [[classifying map]] for $\mathcal{L}$ and points in its image are called *[[coherent states]]* -- it is not just any classifying map though, it has an overcompleteness property. This is [[Felix Berezin|Berezin]]'s formulation of [[quantization]], whereas [item 1](#Item1) is how [Klauder](#klauder) conceived of quantization. For a quote:  
 
 > "all these different procedures to quantize phase space \[can physically\] be thought of as just different ways of regularizing and defining properly the path integral" &lbrack;[[Davide Gaiotto]], [yt](https://youtu.be/EwwGAf2K1uQ?si=eG8E6ILPOtN10obr&t=220)&rbrack;
 
@@ -59,32 +75,65 @@ That something like this was true seems to have been first made explicit in [Odz
 
 ### On Complex Projective Space
 
-The simplest and most natural example of this is when $\mathcal{H}$ is finite dimensional and $M=P(\mathcal{H})$ with $\omega$ being the Fubini–Study form. Items 1 and 3 are very natural to describe here, while item 2 is a bit more complicated but quickly follows from the description of 1. We'll first describe item 3. 
+The simplest and most natural example of this is when $\mathcal{H}$ is [[finite-dimensional Hilbert space|finite dimensional]] and [[complex projective space|$M=P(\mathcal{H})$]] with $\omega$ being the [[Fubini-Study metric|Fubini–Study]] form. [Item 1](#Item1) and [item 3](#Item3) are very natural to describe here, while [item 2](#Item2) is a bit more complicated but quickly follows from the description of 1. We'll first describe item 3. 
 
-In this example, $q$ is the identity.
-It's not immediately obvious that this example satisfies the overcompleteness property, but it does with respect to the Fubini–Study measure (up to a constant). There is a natural map
-$$\langle\rangle: B(\mathcal{H})\to C^{\infty}(P(\mathcal{H}))\,,\quad \langle H\rangle([v])=\langle v|H|v\rangle\,,$$
-where $v$ is any normalized representative of $[v].$ This is just the expectation value of $H$ in the state $[v].$ This map (multiplied by $i$) is a morphism of Lie algebras, with respect to the commutator on $B(\mathcal{H})$ and the Poisson bracket on $P(\mathcal{H}).$ This is a bit surprising, because it is so commonly stated that there is no physically reasonable morphism of Lie algebras in the other direction, while this direction receives relatively little attention. The significance of $i\langle \rangle$ being a Lie algebra morphism is that, with respect to classical observables of the form $\langle H\rangle\,,$ the classical and quantum mechanics are the same. That is,  
-$$i\frac{\partial}{\partial t}\Psi=H\Psi$$
-if and only if $t\mapsto [\Psi](t)$ is the Hamiltonian flow of the Hamiltonian vector field of $\langle H\rangle.$ Equivalently, $A\in B(\mathcal{H})$ satisfies Heisenberg's equation of motion with respect to $H$ if and only if $\langle A\rangle$ satisfies Hamilton's equations of motion with respect to $\langle H\rangle.$
+In this example, $q$ (eq:qMapsMToP) is the [[identity morphism|identity]].
+It's not immediately obvious that this example satisfies the overcompleteness property (eq:OvercompletenessProperty), but it does with respect to the Fubini–Study measure (up to a constant). There is a natural map
+$$
+  \langle\rangle 
+  \,\colon\, 
+  B(\mathcal{H})
+    \to 
+  C^{\infty}\big(P(\mathcal{H})\big)
+  \,,\quad 
+  \langle H\rangle\big([v]\big)
+    \,=\,
+  \langle v|H|v\rangle
+  \,,
+$$
+where $v$ is any normalized representative of $[v]$. This is just the [[expectation value]] of $H$ in the state $[v]$. The map (multiplied by the [[imaginary unit]] $\mathrm{i}$) is a [[homomorphism]] of [[Lie algebras]], with respect to the [[commutator]] on $B(\mathcal{H})$ and the [[Poisson bracket]] on $P(\mathcal{H})$. This is a bit surprising, because it is so commonly stated that there is no physically reasonable morphism of Lie algebras in the other direction, while this direction receives relatively little attention. The significance of $\mathrm{i}\langle \rangle$ being a Lie algebra morphism is that, with respect to [[classical observables]] of the form $\langle H\rangle\,,$ the classical and quantum mechanics are the same. That is,  
+$$
+  \mathrm{i}\frac{\partial}{\partial t}\Psi
+   \,=\,
+  H\Psi
+$$
+if and only if $t\mapsto [\Psi](t)$ is the [[Hamiltonian flow]] of the [[Hamiltonian vector field]] of $\langle H\rangle$. Equivalently, $A\in B(\mathcal{H})$ satisfies [[Heisenberg picture|Heisenberg's]] [[equation of motion]] with respect to $H$ if and only if $\langle A\rangle$ satisfies [[Hamilton's equation|Hamilton's equations of motion]] with respect to $\langle H\rangle.$
  
-There is also a natural map from classically mixed states to quantum mixed states, ie. [[density matrix]]. It is given by
-$$f\mapsto Q_f=\int_{P(\mathcal{H})}f\,q\,\omega^n\,,$$
+There is also a natural map from classically mixed states to [[quantum mixed states]], ie. [[density matrices]]. 
+It is given by
+$$
+  f\mapsto Q_f
+  \,=\,
+  \int_{P(\mathcal{H})} f\,q\,\omega^n
+  \,,
+$$
 where $f\ge 0$ and 
-$$\int_{P(\mathcal{H})}f\,\omega^n=1\,.$$
-From the overcompleteness property, it follows that
-$$Tr(Q_{f}A)=\int_{P(\mathcal{H})} f\,\langle A\rangle \omega^n\,.$$
-This means that $\langle \rangle$ also preserves the state structure. Mathematically, $\langle\rangle=Q^{\dagger},$ where the inner product is the Hilbert–Schmidt inner product. $Q_f$ is known as [[Felix Berezin|Berezin]]'s contravariant symbol, and $\langle \rangle$ is known as Berezin's covariant symbol. Of course, $Q$ is really defined on any reasonably nice function — in general it should be interpreted as an operator, not a state. $Q$ agrees with the Berezin–Toeplitz quantization, [Schlichenmaier](#Schlichenmaier).
+$$
+  \int_{P(\mathcal{H})}f\,\omega^n
+  \,=\,
+  1\,.
+$$
+From the overcompleteness property (#OvercompletenessProperty), it follows that
+$$
+  Tr(Q_{f}A)
+  \,=\,
+  \int_{P(\mathcal{H})} f\,\langle A\rangle \omega^n\,.
+$$
+This means that $\langle \rangle$ also preserves the state structure. Mathematically, $\langle\rangle=Q^{\dagger}$, where the [[inner product]] is the Hilbert–Schmidt inner product. $Q_f$ is known as [[Felix Berezin|Berezin]]'s contravariant symbol, and $\langle \rangle$ is known as Berezin's covariant symbol. Of course, $Q$ is really defined on any reasonably nice function — in general it should be interpreted as an operator, not a state. $Q$ agrees with the Berezin–Toeplitz quantization &lbrack;[Schlichenmaier 2010](#Schlichenmaier2010)&rbrack;.
 
 The 3–point function (which is really a degree 2 cochain on the pair [[groupoid]] and determines a class in [[groupoid cohomology]]) determines the first [[Chern class]] of the prequantum line bundle and is given by
-$$\Delta([x],[y],[z])=\langle x|y\rangle\langle y|z\rangle\langle z|x\rangle\,.$$ 
+$$
+  \Delta([x],[y],[z])
+  \,=\,
+  \langle x|y\rangle\langle y|z\rangle\langle z|x\rangle\,.
+$$ 
 This is the same 3–point function that appears in the [[Poisson sigma-model]] in the context of [[formal deformation quantization]].
 
-As for item 1, the line bundle is the canonical bundle and the path integral 
+As for [item 1](#Item1), the line bundle is the [[canonical line bundle]] and the [[path integral]] 
 $$\Omega([x],[y])=\int_{\gamma(0)=[x]}^{\gamma(1)=[y]}\mathcal{D}\gamma\,P(\gamma)\in\text{Hom}(\mathcal{L}_{x},\mathcal{L}_{y})$$
 is the map $\langle x|\mapsto \langle x|y\rangle\langle y|\,.$
 
-There are now two ways of describing item 2. The traditional way is by taking the Hilbert space to be that of holomorphic sections. The second way of describing it is by taking the Hilbert space to be the image of the orthogonal projection defined by the path integal, ie.
+There are now two ways of describing [item 2](#Item2). The traditional way is by taking the Hilbert space to be that of holomorphic sections. The second way of describing it is by taking the Hilbert space to be the image of the orthogonal projection defined by the path integal, ie.
 $$\Psi\mapsto\Big([y]\mapsto\int_{P(\mathcal{H})}\Psi([x])|y\rangle\langle y|\omega^n\Big)\,.$$
 These two Hilbert spaces are the same as this is the orthogonal projection onto holomorphic sections. 
 
@@ -113,7 +162,7 @@ such that
 $$\|q_k^*\omega_{FS}/k-\omega\|_{C^m}=\mathcal{O}(1/k)$$
 for all $m\in\mathbb{N},$ and such that $q_k(M)$ is overcomplete with respect to a measure $d\mu_k$ for which $d\mu_{k}/k^n \to \omega^n\,.$
 \end{theorem}
-Here, $\omega_{FS}$ is the Fubini–Study form. This theorem identifies the structure used to quantize and get star products on general compact symplectic manifolds, [Borthwicke–Uribe] (#Borthwicke–Uribe), [Schlichenmaier](#Schlichenmaier). This theorem follows from theorem 1.1 of [Dai–Liu–Ma](#Dai–Liu–Ma), theorem 3.6 of [Ma–Marinescu] (#Ma–Marinescu), and the observation that the symplectic Kodaira embedding is overcomplete.
+Here, $\omega_{FS}$ is the Fubini–Study form. This theorem identifies the structure used to quantize and get star products on general compact symplectic manifolds, [Borthwicke & Uribe] (#Borthwicke–Uribe), [Schlichenmaier](#Schlichenmaier2010). This theorem follows from theorem 1.1 of [Dai–Liu–Ma](#Dai–Liu–Ma), theorem 3.6 of [Ma–Marinescu] (#Ma–Marinescu), and the observation that the symplectic Kodaira embedding is overcomplete.
 
 Note that, there don't seem to be any (convincing?) examples of quantizations of symplectic manifolds which can't be strenghtened to a quantization of this form, so this perspective seems universal. Eg. Consider the quantization of $T^*\mathbb{R}$ using the polarization with $x=const.$ One can define coherent states using the lowering operator $\hat{x}+i\hat{p}$ and then one immediately gets all of this additional structure.
 
@@ -172,7 +221,7 @@ On theorems related to quantizations which induce [[star products]] on general s
 
 * {#Ma–Marinescu} Xiaonan Ma, George Marinescu. Generalized Bergman kernels on symplectic manifolds. (arXiv:math/0411559v3)
 
-* {#Schlichenmaier} Martin Schlichenmaier. Berezin-Toeplitz quantization for compact Kaehler manifolds. A Review of Results. (arXiv:1003.2523v1)
+* {#Schlichenmaier2010} [[Martin Schlichenmaier]]: *Berezin-Toeplitz quantization for compact Kaehler manifolds -- A Review of Results*, Adv. Math. Phys. **2010** 927280 (2010) &lbrack;[arXiv:1003.2523](https://arxiv.org/abs/1003.2523), [doi:10.1155/2010/927280](https://doi.org/10.1155/2010/927280)&rbrack;
 
 [[!redirects symplectic formulation of quantum mechanics]]
 
