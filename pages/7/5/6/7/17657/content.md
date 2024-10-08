@@ -19,6 +19,10 @@ On [[moduli stabilization]]:
 
 * [[Vijay Balasubramanian]], Per Berglund, [[Joseph Conlon]], [[Fernando Quevedo]], _Systematics of Moduli Stabilisation in Calabi-Yau Flux Compactifications_,  JHEP 0503:007,2005 ([arXiv:hep-th/0502058](http://arxiv.org/abs/hep-th/0502058))
 
+On [[supersymmetry]] in higher dimensions with application to [[Lagrangian]] [[field theory]] and the [[MSSM]]:
+
+* [[Sven Krippendorf]], [[Fernando Quevedo]], [[Oliver Schlotterer]]: _Cambridge Lectures on Supersymmetry and Extra Dimensions_ (2010) &lbrack;[arXiv:1011.1491](http://arxiv.org/abs/1011.1491), [spire:875723](https://inspirehep.net/literature/875723)&rbrack;
+
 
 On [[supergravity]] coupled to the (non-supersymmetric) [[standard model of particle physics]]:
 
