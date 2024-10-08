@@ -56,7 +56,7 @@ Then there is an [[equivalence of categories]] between:
      1_{\mathcal{H}} = \textstyle{\int_M} q\,d\mu
    \] 
 
-   and whose [[3-point function]] is $\Delta.$
+   and whose [[3-point function]] is $\Delta.$ Here we are using the identification of points in projective space with rank–one orthogonal projections.
 
 [Item 2](#Item2) presents by far the most common way of thinking about [[quantization]], with the other two (especially 1) being nearly completely overlooked. However, it can be argued that 2 is really just a way of computing 3 or 1, where the latter is the only one which really generalizes to Poisson manifolds. This is because the path integral is a section of 
 
@@ -147,7 +147,7 @@ $$1_{\mathcal{H}}=\int_M q\omega^n\,.$$
 
 
 These are more interesting because the quantum mechanics and classical mechanics are different, ie.
-$i\langle \rangle$ is not a morphism of Lie algebras. However, there is a Lie subalgebra on which it is an injective morphism, and otherwise all other formulas discussed in the previous section remain valid. This Lie subalgebra can be identified with the set of operators which, under Schrodinger's equation, preserves $M.$
+$i\langle \rangle$ is not a morphism of Lie algebras. However, there is a Lie subalgebra on which it is an injective morphism, and otherwise all other formulas discussed in the previous section remain valid. This Lie subalgebra can be identified with the set of operators which, under Schrodinger's equation, preserve $M.$
 
 One can think of $P(\mathcal{H})$ as the pure states, and $q(M)$ as the subset of pure states that are classical states.
 
@@ -155,13 +155,13 @@ One can think of $P(\mathcal{H})$ as the pure states, and $q(M)$ as the subset o
 ### The General Case
 
 In general then, to quantize as a symplectic manifold $M$ it is enough to embed it into $P(\mathcal{H})$ in such a way that the embedded submanifold has the overcompleteness property. It's not clear to what extent this can be done exactly, however it can be done for Kahler manifolds which have a nice enough group of symmetries, eg. $T^*\mathbb{R}^n$ and the upper half plane. However, for all prequantizable compact manifolds (and many non–compact ones) this can be done approximately, ie.
-\begin{theorem}
+\begin{corollary}
 Let $(M,\omega)$ be a prequantizable compact symplectic manifold. Then there exists a sequence of embeddings
 $$q_k:M\xhookrightarrow{}P(\mathcal{H}_k)$$
 such that 
 $$\|q_k^*\omega_{FS}/k-\omega\|_{C^m}=\mathcal{O}(1/k)$$
 for all $m\in\mathbb{N},$ and such that $q_k(M)$ is overcomplete with respect to a measure $d\mu_k$ for which $d\mu_{k}/k^n \to \omega^n\,.$
-\end{theorem}
+\end{corollary}
 Here, $\omega_{FS}$ is the Fubini–Study form. This theorem identifies the structure used to quantize and get star products on general compact symplectic manifolds, [Borthwicke & Uribe] (#Borthwicke–Uribe), [Schlichenmaier](#Schlichenmaier2010). This theorem follows from theorem 1.1 of [Dai–Liu–Ma](#Dai–Liu–Ma), theorem 3.6 of [Ma–Marinescu] (#Ma–Marinescu), and the observation that the symplectic Kodaira embedding is overcomplete.
 
 Note that, there don't seem to be any (convincing?) examples of quantizations of symplectic manifolds which can't be strenghtened to a quantization of this form, so this perspective seems universal. Eg. Consider the quantization of $T^*\mathbb{R}$ using the polarization with $x=const.$ One can define coherent states using the lowering operator $\hat{x}+i\hat{p}$ and then one immediately gets all of this additional structure.
