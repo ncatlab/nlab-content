@@ -38,6 +38,8 @@ On [[quantum groups]]:
 
 * [[Anthony Joseph]], [[Gail Letzter]], _Separation of variables for quantized enveloping algebras_, Amer. J. Math. __116__ 1 (1994) 127--177 [doi:10.2307/2374984](https://doi.org/10.2307/2374984)
 
+* [[Anthony Joseph]], _Faithfully flat embeddings for minimal primitive quotients of quantized enveloping algebras_, 79--106 in:  Israel Mathematics Conference Proceedings __7__, Bar-Ilan University 1993; 176 pp.  Quantum Deformations of Algebras and Their Representations, ed. Anthony Joseph, Steven Shnider.
+
 On [[Goldie rank]]
 
 * [[Anthony Joseph]], Lance W. Small, _An additivity principle for Goldie rank_, Israel J. Math. __31__ (1978) 105--114 [doi](https://doi.org/10.1007/BF02760541)
