@@ -54,11 +54,11 @@ For instance the automorphisms of the [[supergravity Lie 3-algebra]] gives the "
 
 ### General
 
-Introductions and lecture notes include
+Introductions and lecture notes:
 
 * Jos&#233; D. Edelstein, _Lecture 6: Extended supersymmetry_, talk at _Supersymmetry_, Santiago de Compostela, November 20, 2012  ([pdf](http://www-fp.usc.es/~edels/SUSY/L6_SUSY.pdf))
 
-* Sven Krippendorf, Fernando Quevedo, Oliver Schlotterer, section 2.3 of _Cambridge Lectures on Supersymmetry and Extra Dimensions_ ([arXiv:1011.1491](http://arxiv.org/abs/1011.1491))
+* [[Sven Krippendorf]], [[Fernando Quevedo]], [[Oliver Schlotterer]], section 2.3 of: _Cambridge Lectures on Supersymmetry and Extra Dimensions_ (2010) &lbrack;[arXiv:1011.1491](http://arxiv.org/abs/1011.1491), [spire:875723](https://inspirehep.net/literature/875723)&rbrack;
 
 * _Theories with extended supersymmetry_ ([pdf](http://people.sissa.it/~bertmat/lect6.pdf))
 
