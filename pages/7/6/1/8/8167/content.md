@@ -56,6 +56,9 @@ Theoretical predictions
 
 Review:
 
+* [[Sven Krippendorf]], [[Fernando Quevedo]], [[Oliver Schlotterer]], section 6 of: _Cambridge Lectures on Supersymmetry and Extra Dimensions_ (2010) &lbrack;[arXiv:1011.1491](http://arxiv.org/abs/1011.1491), [spire:875723](https://inspirehep.net/literature/875723)&rbrack;
+
+
 * S. F. King, S. Moretti, R. Nevzorov, _A Review of the Exceptional Supersymmetric Standard Model_ ([arXiv:2002.02788](https://arxiv.org/abs/2002.02788))
 
 * [[Michael Dine]], _Supersymmetry and string theory: beyond the standard model_, Cambridge University Press (2006, 2007) &lbrack;[ISBN:9781009290920](https://www.cambridge.org/ae/academic/subjects/physics/particle-physics-and-nuclear-physics/supersymmetry-and-string-theory-beyond-standard-model-2nd-edition?format=HB), [pdf](http://www.nucleares.unam.mx/~alberto/apuntes/dine.pdf)&rbrack;
