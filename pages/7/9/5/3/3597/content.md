@@ -176,4 +176,7 @@ On [[quantum circuits]] with density matrices:
 [[!redirects mixed quantum state]]
 [[!redirects mixed quantum states]]
 
+[[!redirects quantum mixed state]]
+[[!redirects quantum mixed states]]
+
 
