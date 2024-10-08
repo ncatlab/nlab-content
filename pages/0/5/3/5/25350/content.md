@@ -36,17 +36,17 @@ Now, the standard perspective is certainly not wrong, but various authors have i
 
 Let $(M^{2n},\omega)$ be a [[symplectic manifold]] and let $d\mu$ be a [[measure]] on $M$ (which is always of the form $h\omega^n$ for some function $h$). Let $\mathcal{L}\to M$ be a [[prequantum line bundle]] and let $\Delta:M^3\to\mathbb{C}$ be a [[smooth function]]. There is an [[equivalence of categories]] between:
 
-1. Quantizations obtained via a [[path integral]] over [[curves]] in $M,$ whose amplitude is given by [[parallel transport]] and whose [[3-point function]] is $\Delta.$
+1. (Path integral quantization) Quantizations obtained via a [[path integral]] over [[curves]] in $M,$ whose amplitude is given by [[parallel transport]] and whose [[3-point function]] is $\Delta.$
 
-2. A [[subcategory]] of [[Hilbert spaces]] given by a [[subspace]] of [[sections]] of the [[prequantum line bundle]], such that pointwise [[evaluation]] is [[continuous function|continuous]].
+2. (Geometric quantization) The [[category]] of [[Hilbert spaces]] given by a [[subspace]] of [[sections]] of the [[prequantum line bundle]], such that pointwise [[evaluation]] is [[continuous function|continuous]] and whose curvature is $VE(\log{\Delta})$ ($VE$ is the [[van Est]] map).
 
-3. Maps $q \colon M\to P(\mathcal{H})\subset B(\mathcal{H}),$ with the overcompleteness property: $1_{\mathcal{H}} = \int_M q\,d\mu$ and whose [[3-point function]] is $\Delta.$
+3. (Berezin quantization) Maps $q \colon M\to P(\mathcal{H})\subset B(\mathcal{H}),$ with the overcompleteness property: $1_{\mathcal{H}} = \int_M q\,d\mu$ and whose [[3-point function]] is $\Delta.$
 
-Item 2 presents by far the most common way of thinking about [[geometric quantization]], with the other two (especially 1) being nearly completely overlooked. However, it can be argued that 2 is really just a way of computing 3 or 1, where the latter is the only one which really generalizes to Poisson manifolds. This is because the path integral is a section of 
+Item 2 presents by far the most common way of thinking about [[quantization]], with the other two (especially 1) being nearly completely overlooked. However, it can be argued that 2 is really just a way of computing 3 or 1, where the latter is the only one which really generalizes to Poisson manifolds. This is because the path integral is a section of 
 
 $$\pi_0^*\mathcal{L}^*\otimes \pi_1^*\mathcal{L}\to M\times M\,,$$
 
-and for [[Poisson manifolds]] we can replace $M\times M$ by the [[symplectic groupoid]]. More specifically, the path integral is a Hermitian, idempotent section of the twisted convolution algebra. For symplectic manifolds, it is formally given by 
+and for [[Poisson manifolds]] we can replace $M\times M$ by the [[symplectic groupoid]]. More specifically, the path integral is a certain Hermitian, idempotent section of the twisted convolution algebra. For symplectic manifolds, it is formally given by 
 $$\Omega(a,b)=\int_{\gamma(0)=a}^{\gamma(1)=b}\mathcal{D}\gamma\,P(\gamma)\in\text{Hom}(\mathcal{L}_{a},\mathcal{L}_{b})\,,
 $$
 where $P(\gamma)$ is parallel transport over $\gamma.$
@@ -55,7 +55,7 @@ In the most common examples, 2 is given by holomorphic sections of a [[Kähler m
 
 > "all these different procedures to quantize phase space \[can physically\] be thought of as just different ways of regularizing and defining properly the path integral" &lbrack;[[Davide Gaiotto]], [yt](https://youtu.be/EwwGAf2K1uQ?si=eG8E6ILPOtN10obr&t=220)&rbrack;
 
-That something like this was true seems to have been first made explicit in [Odzijewicz 1992] (#Odzijewicz92), who stated a related equivalence of categories and understood the relationship to path integrals.
+That something like this was true seems to have been first made explicit in [Odzijewicz 1992] (#Odzijewicz92), who stated a related equivalence of categories and the relationship to path integrals.
 
 ### On Complex Projective Space
 
