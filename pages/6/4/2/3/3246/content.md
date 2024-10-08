@@ -1,6 +1,16 @@
+## Statement
+
 **Jacobian conjecture**: Let $k$ be an [[algebraically closed field]] of characteristics zero, $n\geq 2$ and $\phi: k^n\to k^n$ a (regular) [[endomorphism]] of $k^n$ with constant Jacobian (the determinant of the Jacobian matrix, which is in this polynomial case algebraically defined). Then $\phi$ is a regular [[automorphism]], i.e. has a polynomially defined inverse. 
 
-The conjecture has been stated by Keller in 1939 and is still open. There were many failed attempts to prove the Jacobian conjecture, especially for $n = 2$; there are also some reductions to special cases. For example, it is known that the Jacobian conjecture holds iff it holds for $\phi$ a polynomial map of degree 3. The Jacobian conjecture is also known to hold at least for those $\phi$ which have a rational inverse.  
+## State of the research
+
+The conjecture has been stated by Keller in 1939 and is still open. There were many failed attempts to prove the Jacobian conjecture, especially for $n = 2$; there are also some reductions to special cases. For example, it is known that the Jacobian conjecture holds iff it holds for $\phi$ a polynomial map of degree 3. The Jacobian conjecture is also known to hold at least for those $\phi$ which have a rational inverse. 
+
+## Literature 
+
+A survey:
+
+* [[Hyman Bass]], E. H. Connell, D. Wright, _The Jacobian conjecture: Reduction of degree and formal expansion of the inverse_, Bull Amer. Math. Soc. 7 (1982)
 
 * A. van den Essen, [Jacobian conjecture](http://eom.springer.de/J/j120010.htm), Springer Online Encyclopedia of Mathematics
 
@@ -24,3 +34,5 @@ There is a recent proof of related Kontsevich's statement on automorphisms of We
 There is an interesting blog discussion, from the point of view of [[algebraic geometry]]:
 
 * David Speyer at _secret blogging seminar_: [how not to prove the Jacobian conjecture](http://sbseminar.wordpress.com/2009/05/27/how-not-to-prove-the-jacobian-conjecture)
+
+category: algebra
