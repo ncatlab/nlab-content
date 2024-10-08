@@ -119,7 +119,13 @@ $$
   \,=\,
   \int_{P(\mathcal{H})} f\,\langle A\rangle \omega^n\,.
 $$
-This means that $\langle \rangle$ also preserves the state structure. Mathematically, $\langle\rangle=Q^{\dagger}$, where the [[inner product]] is the Hilbert–Schmidt inner product. $Q_f$ is known as [[Felix Berezin|Berezin]]'s contravariant symbol, and $\langle \rangle$ is known as Berezin's covariant symbol. Of course, $Q$ is really defined on any reasonably nice function — in general it should be interpreted as an operator, not a state. $Q$ agrees with the Berezin–Toeplitz quantization &lbrack;[Schlichenmaier 2010](#Schlichenmaier2010)&rbrack;.
+This means that $\langle \rangle$ also preserves the state structure. Mathematically, $\langle\rangle=Q^{\dagger}$, where the [[inner product]] is the Hilbert–Schmidt inner product. $Q_f$ is known as [[Felix Berezin|Berezin]]'s contravariant symbol, and $\langle \rangle$ is known as Berezin's covariant symbol. Of course, $Q$ is really defined on any reasonably nice function — in general it should be interpreted as an operator, not a state. $Q$ agrees with the Berezin–Toeplitz quantization &lbrack;[Schlichenmaier 2010](#Schlichenmaier2010)&rbrack;. Let us emphasize that $f\ge 0\implies Q_f\ge 0$ and 
+$$
+  Tr(Q_{f})
+  \,=\,
+  \int_{P(\mathcal{H})} f\, \omega^n\,.
+$$
+These are important properties of a quantization map to have, since this is exactly what is needed for it to preserve states. If $Q$ is an abstract quantization map with this property, then $Q$ is compatible with a prequantum line bundle if and only if $Q$ preserves pure states.
 
 The 3–point function (which is really a degree 2 cochain on the pair [[groupoid]] and determines a class in [[groupoid cohomology]]) determines the first [[Chern class]] of the prequantum line bundle and is given by
 $$
