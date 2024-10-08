@@ -125,7 +125,7 @@ $$
   \,=\,
   \int_{P(\mathcal{H})} f\, \omega^n\,.
 $$
-These are important properties of a quantization map to have, since this is exactly what is needed for it to preserve states. If $Q$ is an abstract quantization map with this property, then $Q$ is compatible with a prequantum line bundle if and only if $Q$ preserves pure states.
+These are important properties of a quantization map to have, since this is exactly what is needed for it to preserve states. If $Q$ is an abstract quantization map with this property, then $Q$ is compatible with a prequantum line bundle if and only if $Q$ preserves pure states. By the overcompleteness property, it's similarly true that $\langle \rangle$ intertwines the trace with integration, so it also preserves states — however, it certainly doesn't preserve pure states! $\langle\rangle$ maps quantum pure states to classical mixed states, this introduces uncertainty.
 
 The 3–point function (which is really a degree 2 cochain on the pair [[groupoid]] and determines a class in [[groupoid cohomology]]) determines the first [[Chern class]] of the prequantum line bundle and is given by
 $$
