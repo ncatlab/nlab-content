@@ -94,6 +94,11 @@ Universal localization of [[group rings]] (and connections to certain noncommuta
 
 * [[M. Farber]], [[Pierre Vogel]], _The Cohn localization of the free group ring_, Math. Proc.  Camb. Phil. Soc. (1992) 111, 433  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/fv.pdf))
 
+Examples for commutative rings
+
+* L. Angeleri Hügel, F. Marks, Jan Št’ovíček, R. Takahashi, J. Vitória, _Flat ring epimorphisms and universal localizations of commutative rings_, The Quarterly Journal of Mathematics __71__:4 (2020) 1489--1520 [doi](https://doi.org/10.1093/qmath/haaa041)
+
+
 
 [[!redirects Cohn localization]]
 [[!redirects Cohn universal localization]]
