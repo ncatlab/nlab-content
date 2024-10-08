@@ -236,7 +236,7 @@ Discussion of the gravitino as a [[dark matter]] candidate:
 
 {#NicolaiMeissner} A proposal for super-heavy [[gravitinos]] as [[dark matter]], by embedding [[D=4 N=8 supergravity]] into [[E10]]-[[U-duality]]-invariant [[M-theory]]:
 
-* {#MeissnerNicolai18a} [[Krzysztof A. Meissner]], [[Hermann Nicolai]], _Standard Model Fermions and Infinite-Dimensional R-Symmetries_, Phys. Rev. Lett. 121, 091601 (2018) ([arXiv:1804.09606](https://arxiv.org/abs/1804.09606))
+* {#MeissnerNicolai18a} [[Krzysztof A. Meissner]], [[Hermann Nicolai]]: *Standard Model Fermions and Infinite-Dimensional R-Symmetries*, Phys. Rev. Lett. **121** 091601 (2018) &lbrack;[arXiv:1804.09606](https://arxiv.org/abs/1804.09606), [doi:10.1103/PhysRevLett.121.091601](https://doi.org/10.1103/PhysRevLett.121.091601)&rbrack;
 
 * {#MeissnerNicolai18b} [[Krzysztof A. Meissner]], [[Hermann Nicolai]], _Planck Mass Charged Gravitino Dark Matter_, Phys. Rev. D 100, 035001 (2019) ([arXiv:1809.01441](https://arxiv.org/abs/1809.01441))
 
