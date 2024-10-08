@@ -106,6 +106,14 @@ Let $e: E \rightarrow X$ be an arrow in a category $\mathcal{C}$ which is an equ
 If $g,h : A \rightarrow E$ are arrows of $\mathcal{C}$ such that $e \circ g = e \circ h$, then it follows immediately from the uniqueness part of the universal property of an equaliser that $g = h$.
 \end{proof}
 
+
++-- {: .num_prop}
+###### Proposition
+
+$f = g$ if and only if $id : X \to X$ is an equalizer of $f$ and $g$. Similarly, given any equalizer $e : eq \to X$ of $f$ and $g$, $f = g$ if and only if $e$ is an isomorphism, which because $e$ is monic, one only needs to verify that it has a [[section]].
+
+=--
+
 ## Related concepts
 
 * [[homotopy equalizer]]
