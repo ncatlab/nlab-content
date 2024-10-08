@@ -26,7 +26,9 @@ What is called the "geometrization of quantum mechanics" by [Kibble (1979)](#Kib
 
 1. the [[curves]] in $P \mathscr{H}$ which correspond to solutions of the [[Schrödinger equation]] are [[Hamiltonian flows]] with respect to this symplectic structure.
 
-This is fairly immediate to see from mathematical inspection, but the perspective is somewhat surprising from the point of view of standard accounts of [[classical physics|classical]]/[[quantum physics]], which tend to frame [[symplectic geometry]] and its [[Hamiltonian flows]] as the hallmark of [[classical physics|classical]] [[phase spaces]] and [[classical physics]], and to highlight [[quantization]] as a [[deformation]] of this symplectic structure (whence: "[[deformation quantization]]"). It follows that instead of thinking of quantization of a symplectic manifold $(M,\omega)$ as some kind of deformation to operators on a Hilbert space, one can think of it as merely replacing the classical mechanics of $M$ with the classical mechanics of $P(\mathcal{H}).$ 
+This is fairly immediate to see from mathematical inspection, but the perspective is somewhat surprising from the point of view of standard accounts of [[classical physics|classical]]/[[quantum physics]], which tend to frame [[symplectic geometry]] and its [[Hamiltonian flows]] as the hallmark of [[classical physics|classical]] [[phase spaces]] and [[classical physics]], and to highlight [[quantization]] as a [[deformation]] of this symplectic structure (whence: "[[deformation quantization]]"). 
+
+It follows that instead of thinking of a quantization of a symplectic manifold $(M,\omega)$ as some kind of deformation to operators on a Hilbert space, one can think of it as merely replacing the classical mechanics of $M$ with the classical mechanics of $P(\mathcal{H}).$ 
 
 Now, the standard perspective is certainly not wrong, but various authors have inevitably suggested that the "geometrical formulation"  (more descriptive would be: "symplectic formulation") of quantum mechanics may point to some deeper truth, and if only to show some kind of conceptual unity where one is used to amplifying the dichotomy.
 
@@ -49,7 +51,7 @@ $$\Omega(a,b)=\int_{\gamma(0)=a}^{\gamma(1)=b}\mathcal{D}\gamma\,P(\gamma)\in\te
 $$
 where $P(\gamma)$ is parallel transport over $\gamma.$
 
-In the most common examples, 2 is given by holomorphic sections of a [[Kähler manifold]]. In 3, $q$ is a [[classifying map]] for $\mathcal{L}$ and points in its image are called *[[coherent states]]* -- it is not just any classifying map though, it has an overcompleteness property. This is [[Felix Berezin|Berezin]]'s formulation of [[quantization]], whereas 1 is how Klauder conceived of quantization. For a quote: by 
+In the most common examples, 2 is given by holomorphic sections of a [[Kähler manifold]]. In 3, $q$ is a [[classifying map]] for $\mathcal{L}$ and points in its image are called *[[coherent states]]* -- it is not just any classifying map though, it has an overcompleteness property. This is [[Felix Berezin|Berezin]]'s formulation of [[quantization]], whereas 1 is how [Klauder](#klauder) conceived of quantization. For a quote:  
 
 > "all these different procedures to quantize phase space \[can physically\] be thought of as just different ways of regularizing and defining properly the path integral" &lbrack;[[Davide Gaiotto]], [yt](https://youtu.be/EwwGAf2K1uQ?si=eG8E6ILPOtN10obr&t=220)&rbrack;
 
@@ -62,7 +64,7 @@ The simplest and most natural example of this is when $\mathcal{H}$ is finite di
 In this example, $q$ is the identity.
 It's not immediately obvious that this example satisfies the overcompleteness property, but it does with respect to the Fubini–Study measure (up to a constant). There is a natural map
 $$\langle\rangle: B(\mathcal{H})\to C^{\infty}(P(\mathcal{H}))\,,\quad \langle H\rangle([v])=\langle v|H|v\rangle\,,$$
-where $v$ is any normalized representative of $[v].$ This is just the expectation value of $H$ in the state $[v].$ This map is a morphism of Lie algebras, with respect to the commutator on $B(\mathcal{H})$ and the Poisson bracket on $P(\mathcal{H}).$ This is a bit surprising, because it is so commonly stated that there is no physically reasonable morphism of Lie algebras in the other direction, while this direction receives relatively little attention. The significance of $\langle \rangle$ being a Lie algebra morphism is that, with respect to classical observables of the form $\langle H\rangle\,,$ the classical and quantum mechanics are the same. That is,  
+where $v$ is any normalized representative of $[v].$ This is just the expectation value of $H$ in the state $[v].$ This map (multiplied by $i$) is a morphism of Lie algebras, with respect to the commutator on $B(\mathcal{H})$ and the Poisson bracket on $P(\mathcal{H}).$ This is a bit surprising, because it is so commonly stated that there is no physically reasonable morphism of Lie algebras in the other direction, while this direction receives relatively little attention. The significance of $i\langle \rangle$ being a Lie algebra morphism is that, with respect to classical observables of the form $\langle H\rangle\,,$ the classical and quantum mechanics are the same. That is,  
 $$i\frac{\partial}{\partial t}\Psi=H\Psi$$
 if and only if $t\mapsto [\Psi](t)$ is the Hamiltonian flow of the Hamiltonian vector field of $\langle H\rangle.$ Equivalently, $A\in B(\mathcal{H})$ satisfies Heisenberg's equation of motion with respect to $H$ if and only if $\langle A\rangle$ satisfies Hamilton's equations of motion with respect to $\langle H\rangle.$
  
@@ -91,15 +93,15 @@ This tells most of the story for $P(\mathcal{H}).$
 
 ### Projective Submanifolds
 
-There is another class of examples that is just as natural and almost just as simple as $P(\mathcal{H}).$ These are symplectic submanifolds $\iota:M^{2n}\xhookrightarrow{} P(\mathcal{H})$ which satisfy the overcompleteness condition, ie. up to a constant
-$$1_{\mathcal{H}}=\int_M q\omega^n\,,$$
-where $q:M\xhookrightarrow{}B(\mathcal{H})$ is the canonical inclusion.
+There is another class of examples that is just as natural and almost just as simple as $P(\mathcal{H}).$ These are symplectic submanifolds $q:M^{2n}\xhookrightarrow{} P(\mathcal{H})\subset B(\mathcal{H}) $ which satisfy the overcompleteness condition, ie. up to a constant
+$$1_{\mathcal{H}}=\int_M q\omega^n\,.$$
+
 
 These are more interesting because the quantum mechanics and classical mechanics are different, ie.
-$\langle \rangle$ is not a morphism of Lie algebras. However, there is a Lie subalgebra on which it is a morphism, and otherwise all other formulas discussed in the previous section remain valid. This subalgebra is given as follows: let $H\in B(\mathcal{H})$ be such that for all $A\in B(\mathcal{H})\,,$
-$$\{\langle H\rangle,\langle A\rangle\}_{P(\mathcal{H})}\circ \iota =\{\langle H\rangle,\langle A\rangle\}_{M}$$
+$i\langle \rangle$ is not a morphism of Lie algebras. However, there is a Lie subalgebra on which it is an injective morphism, and otherwise all other formulas discussed in the previous section remain valid. This Lie subalgebra can be identified with the set of operators which, under Schrodinger's equation, preserves $M.$
 
-The set of all such $H$ is a Lie algebra as is its image under $\langle\rangle.$ Furthermore, $\langle\rangle$ restricted to this Lie subalgebra is an injective morphism. This Lie subalgebra can be identified with the set of operators which, under Schrodinger's equation, preserves $M.$
+One can think of $P(\mathcal{H})$ as the pure states, and $q(M)$ as the subset of pure states that are classical states.
+
 
 ### The General Case
 
@@ -114,6 +116,15 @@ for all $m\in\mathbb{N},$ and such that $q_k(M)$ is overcomplete with respect to
 Here, $\omega_{FS}$ is the Fubini–Study form. This theorem identifies the structure used to quantize and get star products on general compact symplectic manifolds, [Borthwicke–Uribe] (#Borthwicke–Uribe), [Schlichenmaier](#Schlichenmaier). This theorem follows from theorem 1.1 of [Dai–Liu–Ma](#Dai–Liu–Ma), theorem 3.6 of [Ma–Marinescu] (#Ma–Marinescu), and the observation that the symplectic Kodaira embedding is overcomplete.
 
 Note that, there don't seem to be any (convincing?) examples of quantizations of symplectic manifolds which can't be strenghtened to a quantization of this form, so this perspective seems universal. Eg. Consider the quantization of $T^*\mathbb{R}$ using the polarization with $x=const.$ One can define coherent states using the lowering operator $\hat{x}+i\hat{p}$ and then one immediately gets all of this additional structure.
+
+###Relationship to Kostant-Souriau Operators
+
+Under the equivalence of categories from item 3 to item 2,
+$$\langle x|\to \big([y]\mapsto \langle x|y\rangle\langle y|\big)$$
+
+gives a map $I:\mathcal{H}\to \Gamma(M,\mathcal{L}).$ If $H\in B(\mathcal{H})$ is such that the Hamiltonian vector field $X_{\langle H\rangle}$ is tangent to $q:M\xhookrightarrow{} P(\mathcal{H}),$ then
+$$H=I^{-1}\circ (\nabla_{X_{\langle H\rangle}}+i\langle H\rangle)\circ I\,.$$
+Therefore, $i\langle\rangle$ extends the Kostant-Souriau prequantization map. Note that, generically the Kostant-Souriau prequantization map doesn't work at all, ie. it doesn't quantize any non–constant functions! Eg. a generic genus $g\ge 3$ Riemann surface has no nontrivial automorphisms, and therefore on a generic genus $g\ge 3$ surface the Kostant-Souriau prequantization map only quantizes constants. As a result, it only gives operators which are constant multiples of the identity.
 
 ## References
 The observation is due to:
@@ -144,9 +155,14 @@ Further discussion:
 
 * Hoshang Heydari, *Geometric formulation of quantum mechanics* &lbrack;[arXiv:1503.00238](https://arxiv.org/abs/1503.00238)&rbrack;
 
+* {#klauder} J.R. Klauder. 
+Quantization is Geometry, After All. Annals Phys. 188 (1988) 120-141. DOI: 10.1016/0003-4916(88)90092-9
+
+
 Discussion of dynamics of [[mixed states]] ([[density matrices]]), now via [[Poisson geometry]]:
 
 * Pritish Sinha, Ankit Yadav, *Poisson Geometric Formulation of Quantum Mechanics* &lbrack;[arXiv:2312.05615](https://arxiv.org/abs/2312.05615)&rbrack;
+
 
 On theorems related to quantizations which induce [[star products]] on general symplectic manifolds:
 
