@@ -49,6 +49,10 @@ A modern survey:
 
 * Weiqiang Wang, _Quantum symmetric pairs_, ICM 2022, EMS (2022) &lbrack;[arXiv:2112.10911](https://arxiv.org/abs/2112.10911), [doi:10.4171/icm2022/76](https://doi.org/10.4171/icm2022/76)&rbrack;
 
+Classical symmetric spaces have R-matrix Poisson structure which could be quantized as another approach to quantum symmetric spaces
+
+* J. Donin, S. Shnider, _Quantum symmetric spaces_, J. Pure Appl. Algebra __100__ (1995) 103--117
+
 category: algebra
 
 [[!redirects quantum symmetric pairs]]
