@@ -51,7 +51,7 @@ Note that in a symmetric strict monoidal category, the associators and unitors a
 
 * [[Andre Joyal]] and [[Ross Street]].  "Braided tensor categories".  *Adv. Math* 1993
 
-* [[Paul Wilson]], [[Dan Ghica]] and [[Fabio Zanasi]].  "String Diagrams for Strictification and Coherence".  *Logical Methods in Computer Science* 2024
+* [[Paul Wilson]], [[Dan Ghica]], [[Fabio Zanasi]]: *String Diagrams for Strictification and Coherence*, Logical Methods in Computer Science* (2024) &lbrack;[arXiv:2201.11738](https://arxiv.org/abs/2201.11738)&rbrack;
 
 See also section 5 of
 
