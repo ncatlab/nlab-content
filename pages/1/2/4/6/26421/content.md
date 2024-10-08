@@ -19,9 +19,16 @@ with a survey in
 * [[Martin Schlichenmaier]], _Deformation quantization for almost-Kähler manifolds_, J. of Nonlinear Math. Phys.
 **11**, Supplement (2004) 49–54 &lbrack;[doi:10.2991/jnmp.2004.11.s1.6](https://doi.org/10.2991/jnmp.2004.11.s1.6), [pdf](http://www.atlantis-press.com/php/download_paper.php?id=540)&rbrack;
 
+On [[Berezin quantization]] of [[Kaehler manifolds]]:
+
+* {#Schlichenmaier2010} [[Martin Schlichenmaier]]: *Berezin-Toeplitz quantization for compact Kaehler manifolds -- A Review of Results*, Adv. Math. Phys. **2010** 927280 (2010) &lbrack;[arXiv:1003.2523](https://arxiv.org/abs/1003.2523), [doi:10.1155/2010/927280](https://doi.org/10.1155/2010/927280)&rbrack;
+
+
 ## Related pages
 
 * [[deformation quantization of the 2-sphere]]
+
+* [[geometrical formulation of quantum mechanics]]
 
 
 category: people
