@@ -34,7 +34,7 @@ If one thinks of the canonical embedding $S^1 \hookrightarrow \mathbb{C}$ of the
 
 The original and motivating example is the real version of [[complex K-theory]] called [[KR-theory]]. The real-oriented version of [[complex cobordism]] is [[MR-theory]] and that of [[Morava E-theory]] is [[BPR-theory]].
 
-A modern review is in ([Hu-Kriz 01, section 2](#Hu-Kriz01)).
+A modern review is in ([Hu & Kriz 01, section 2](#Hu-Kriz01)).
 
 Beware the terminological issue expanded on also at _[[KR-theory]]_: real-oriented versions of "complex" cohomology theory, being genuinely $\mathbb{Z}_2$-equivariant, are richer than just the "orthogonal" [[homotopy fixed point]] theory. In particular on $\mathbb{Z}_2$-spaces of the form $X\cup X$ on which $\mathbb{Z}_2$ acts by swapping the two copies, the real version reduces to the original version on $X$. Hence real-oriented cohomology is a genuine generalization of complex-oriented cohomology. For instance [[KR-theory]] subsumes both [[complex K-theory]] as well as [[KO-theory]] as well as [[KSC-theory]].
 
@@ -84,7 +84,7 @@ The definition is originally due to:
 
 Discussion of the [[Adams-Novikov spectral sequence]] in this context is in
 
-* {#Hu-Kriz01} [[Po Hu]], [[Igor Kriz]], _Real-oriented homotopy theory and an analogue of the Adams-Novikov spectral sequence_, Topology 40 (2001) 317-399 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/hukriz.pdf))
+* {#Hu-Kriz01} [[Po Hu]], [[Igor Kriz]]: *Real-oriented homotopy theory and an analogue of the Adams-Novikov spectral sequence*, Topology **40** (2001) 317-399 &lbrack;<a href="https://doi.org/10.1016/S0040-9383(99)00065-8">doi:10.1016/S0040-9383(99)00065-8</a>, [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/hukriz.pdf)&rbrack;
 
 [[!redirects real-oriented cohomology theories]]
 
