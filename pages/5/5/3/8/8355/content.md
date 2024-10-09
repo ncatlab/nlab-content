@@ -19,7 +19,7 @@
 
 ## Idea
 
-Elementary function arithmetic, or EFA, is a [[first-order theory]] of [[natural numbers]], one of the weakest fragments of [[arithmetic]] strong enough to do nontrivial mathematics. It is strictly weaker than [[Peano arithmetic]]. 
+Elementary function arithmetic (EFA), also known as $I\Delta_0 + \exp$, is a [[first-order theory]] of [[natural numbers]], one of the weakest fragments of [[arithmetic]] strong enough to do nontrivial mathematics. It is strictly weaker than [[Peano arithmetic]].
 
 Regarding the strength of EFA, [[Harvey Friedman]] has put forth the following "grand conjecture": 
 
