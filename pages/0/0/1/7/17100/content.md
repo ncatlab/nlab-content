@@ -27,7 +27,7 @@ This pages collects links related to
 
   Amsterdam: North-Holland, pp. 213&#8211;253,  
 
-  ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+  ([pdf](https://www.math.uchicago.edu/~may/PAPERS/Newfirst.pdf))
 
 on the basics of [[stable homotopy theory]] in terms of the [[model category]] of [[S-modules]] with its [[symmetric smash product of spectra]].
 
