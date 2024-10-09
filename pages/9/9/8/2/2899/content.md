@@ -101,7 +101,7 @@ A jointly surjective collection of &#233;tale morphisms $\{U_i \to X\}$ is calle
 
 Most of the pairs of conditions in def. \ref{EquivalentConditionsForEtale} can be read as constraining the fiber of the morphism to be first suitably surjective/[[bundle]]-like ([[smooth morphism of schemes|smooth]], [[flat morphism|flat]]) and second suitably locally injective ([[unramified]]).
 
-Specifically the first condition has an [[infinitesimal object|infinitesimal anlog]]: a [[formally étale morphism]] is a [[formally smooth morphism|formally smooth]] and [[formally unramified morphism]]. These notions also have an interpretation in [[synthetic differential geometry]] and there they correspond to the statement that a [[local diffeomorphism]] is a [[submersion]] which is also an [[immersion of smooth manifolds]].
+Specifically the first condition has an [[infinitesimal object|infinitesimal]] analog: a [[formally étale morphism]] is a [[formally smooth morphism|formally smooth]] and [[formally unramified morphism]]. These notions also have an interpretation in [[synthetic differential geometry]] and there they correspond to the statement that a [[local diffeomorphism]] is a [[submersion]] which is also an [[immersion of smooth manifolds]].
 
 =--
 
