@@ -582,7 +582,7 @@ section 3 of
 
 and specifically for [[symmetric smash product of spectra|symmetric]] [[model categories of spectra]]
 
-* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], section 7 of _[[Modern foundations for stable homotopy theory]]_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], section 7 of _[[Modern foundations for stable homotopy theory]]_ ([pdf](https://www.math.uchicago.edu/~may/PAPERS/Newfirst.pdf))
 
 
 Original articles include
