@@ -140,7 +140,7 @@ For any [[quasicompact quasiseparated morphism|quasi-compact quasi-separated]] $
 
 * {#Huybrechts08} [[Daniel Huybrechts]], _Fourier-Mukai transforms_ (2008) &lbrack;[pdf](http://www.math.uni-bonn.de/people/huybrech/Garda2.pdf), [[Huybrechts-FourierMukai.pdf:file]]&rbrack;
 
-* C. Bartocci, [[Ugo Bruzzo]], D. Hernandez Ruiperez, _Fourier-Mukai and Nahm transforms in geometry and mathematical physics_, Progress in Mathematics 276, Birkhauser 2009.
+* Claudio Bartocci, [[Ugo Bruzzo]], Daniel Hernandez Ruiperez: *Fourier-Mukai and Nahm transforms in geometry and mathematical physics*, Progress in Mathematics **276**, Birkhäuser (2009) &lbrack;[doi:10.1007/b11801](https://doi.org/10.1007/b11801)&rbrack;
 
 * {#RVdB2015} Alice Rizzardo, [[Michel Van den Bergh]], _An example of a non-Fourier-Mukai functor between derived categories of coherent sheaves_ 
 ([arXiv:1410.4039](http://arxiv.org/abs/1410.4039))
@@ -173,7 +173,7 @@ Discussion of the effect of [[T-duality]] on [[RR-field]] [[flux densities]] (in
 
 * [[Kentaro Hori]], [[Yaron Oz]], Section 3.1 of: *F-Theory, T-Duality on K3 Surfaces and $N=2$ Supersymmetric Gauge Theories in Four Dimensions*, Nucl. Phys. B **501** (1997) 97-108 &lbrack;[arXiv:hep-th/9702173](https://arxiv.org/abs/hep-th/9702173), <a href="https://doi.org/10.1016/S0550-3213(97)00361-1">doi:10.1016/S0550-3213(97)00361-1</a>&rbrack;
 
-* [[Kentaro Hori]]: (1.1) and pp. 13 pf: *D-branes, T-duality, and Index Theory*, Adv. Theor. Math. Phys. **3** 2 (1999) 281-342 &lbrack;[arXiv:hep-th/9902102](https://arxiv.org/abs/hep-th/9902102), [doi:10.4310/ATMP.1999.v3.n2.a5](https://dx.doi.org/10.4310/ATMP.1999.v3.n2.a5),  journal:[pdf](https://www.intlpress.com/site/pub/files/_fulltext/journals/atmp/1999/0003/0002/ATMP-1999-0003-0002-a005.pdf)&rbrack;
+* [[Kentaro Hori]]: (1.1) and pp. 13 of: *D-branes, T-duality, and Index Theory*, Adv. Theor. Math. Phys. **3** 2 (1999) 281-342 &lbrack;[arXiv:hep-th/9902102](https://arxiv.org/abs/hep-th/9902102), [doi:10.4310/ATMP.1999.v3.n2.a5](https://dx.doi.org/10.4310/ATMP.1999.v3.n2.a5),  journal:[pdf](https://www.intlpress.com/site/pub/files/_fulltext/journals/atmp/1999/0003/0002/ATMP-1999-0003-0002-a005.pdf)&rbrack;
   > (whence "Hori's formula")
 
 with explicit formulation in the context if [[topological T-duality]]:
@@ -187,13 +187,19 @@ Survery and Review:
 
 * Bjorn Andreas, Daniel Hernandez Ruiperez: *Fourier Mukai Transforms and Applications to String Theory*, Rev. R. Acad. Cienc. Exactas Fis. Nat. Ser. A Mat **99** 1 (2005) 29-77 &lbrack;[arXiv:math/0412328](https://arxiv.org/abs/math/0412328), [spire:667425](https://inspirehep.net/literature/667425), journal: [pdf](https://mat.usal.es/ruiperez/Site/Papers_files/4_ANDREAS.PDF)&rbrack;
 
-For [[spherical T-duality]]:
+For [[non-abelian T-duality]]:
 
-* [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]]: *Spherical T-duality and the spherical Fourier–Mukai transform*, Journal of Geometry and Physics **133** (2018) 303-314 &lbrack;[doi:10.1016/j.geomphys.2018.07.020](https://doi.org/10.1016/j.geomphys.2018.07.020), [arXiv:1502.04444](https://arxiv.org/abs/1502.04444)&rbrack;
+* Eva Gevorgyan, [[Gor Sarkissian]]: *Defects, Non-abelian T-duality, and the Fourier-Mukai transform of the Ramond-Ramond fields*,  J. High Energ. Phys. **2014** 35 (2014) \[<a href="https://doi.org/10.1007/JHEP03(2014)035">doi:10.1007/JHEP03(2014)035</a>, [arXiv:1310.1264](https://arxiv.org/abs/1310.1264)\]
+
 
 On [[superspace]]:
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: Prop. 6.4 in: *[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]*, Adv. Theor. Math. Phys **22** 5 (2018) &lbrack;[arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](https://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3)&rbrack;
+
+
+For [[spherical T-duality]]:
+
+* [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]]: *Spherical T-duality and the spherical Fourier–Mukai transform*, Journal of Geometry and Physics **133** (2018) 303-314 &lbrack;[doi:10.1016/j.geomphys.2018.07.020](https://doi.org/10.1016/j.geomphys.2018.07.020), [arXiv:1502.04444](https://arxiv.org/abs/1502.04444)&rbrack;
 
 
 
