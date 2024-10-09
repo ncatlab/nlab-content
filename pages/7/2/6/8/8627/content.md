@@ -55,4 +55,4 @@ Note that in a symmetric strict monoidal category, the associators and unitors a
 
 See also section 5 of
 
-* [[Saunders Mac Lane]], Topology and Logic as a Source of Algebra (Retiring Presidential Address), _Bulletin of the AMS_ 82:1, January 1976. ([euclid](https://projecteuclid.org/euclid.bams/1183537593))
+* [[Saunders Mac Lane]], Topology and Logic; as a Source of Algebra (Retiring Presidential Address), _Bulletin of the AMS_ 82:1, January 1976. ([euclid](https://projecteuclid.org/euclid.bams/1183537593))
