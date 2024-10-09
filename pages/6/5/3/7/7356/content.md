@@ -234,9 +234,9 @@ Discussion of [[T-duality]] in the strong coupling limit is due to
 
 That [[S-duality]] of [[type II string theory]] may be interpreted in terms of [[conformal transformations]] on the [[fiber]] for [[M-theory]] compactified on a [[torus]] was originally observed in 
 
-* [[John Schwarz]], _An $SL(2,\mathbb{Z})$-Multiplet of Type IIB Superstrings_, Phys.Lett.B 360:13-18, 1995; ERRATUM-ibid.B364:252, 1995 ([arXiv:hep-th/9508143](https://arxiv.org/abs/hep-th/9508143))
+* [[John Schwarz]]: *An $SL(2,\mathbb{Z})$-Multiplet of Type IIB Superstrings*, Phys. Lett. B **360** (1995) 13-18 ERRATUM-ibid. B **364** (1995) 252 &lbrack;[arXiv:hep-th/9508143](https://arxiv.org/abs/hep-th/9508143)&rbrack;
 
-* [[Paul Aspinwall]], _Some Relationships Between Dualities in String Theory_, Nucl.Phys.Proc.Suppl. 46 (1996) 30-38 ([arXiv:hep-th/9508154](https://arxiv.org/abs/hep-th/9508154))
+* [[Paul Aspinwall]], _Some Relationships Between Dualities in String Theory_, Nucl. Phys. Proc. Suppl. **46** (1996) 30-38 &lbrack;[arXiv:hep-th/9508154](https://arxiv.org/abs/hep-th/9508154), <a href="https://doi.org/10.1016/0920-5632(96)00004-7">doi:10.1016/0920-5632(96)00004-7</a>&rbrack;
 
 The original article on F-theory as such is
 
@@ -244,7 +244,8 @@ The original article on F-theory as such is
 
 An early survey of its relation to [[M-theory]] with [[M5-branes]] is in 
 
-* {#Johnson97} [[Clifford Johnson]], _From M-theory to F-theory, with Branes_, Nucl.Phys. B507 (1997) 227-244 ([arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155))
+* {#Johnson97} [[Clifford Johnson]]: *From M-theory to F-theory, with Branes*, Nucl. Phys. B **507** (1997) 227-244 &lbrack;[arXiv:hep-th/9706155](http://arxiv.org/abs/hep-th/9706155), <a href="https://doi.org/10.1016/S0550-3213(97)00550-6">doi:10.1016/S0550-3213(97)00550-6</a>&rbrack;
+
 
 A more recent survey is
 
