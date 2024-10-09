@@ -103,6 +103,11 @@ Here the distinction between upper and lower indices cannot be maintained, altho
 
 ## References
 
+Historical origins:
+
+* [[Arthur Cayley]]: *A Memoir on the Theory of Matrices*, Philosophical Transactions of the Royal Society of London, **148** (1858) 17-37 &lbrack;[jstor:108649](https://www.jstor.org/stable/108649)&rbrack;
+
+
 Discussion in the generality of [[monoidal category|monoidal]] [[category theory]] is in
 
 * [[John Harding]], section 2  of _[[matrixcalculus.pdf:file]]_
