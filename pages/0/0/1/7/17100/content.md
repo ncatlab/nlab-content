@@ -86,7 +86,7 @@ on the basics of [[stable homotopy theory]] in terms of the [[model category]] o
 
 ## 6. The smash product of $R$-modules and function $R$-modules
 
-## 7. $Tor$ and $Ext$ in topology and algebra
+## 7. $Tor$ and $Ext$ in topology, and algebra.
 
 * [[Tor]], [[Ext]]
 
