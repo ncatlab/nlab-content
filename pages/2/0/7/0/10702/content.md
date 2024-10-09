@@ -36,7 +36,7 @@ More abstractly, Adams operations can be defined on any [[Lambda-ring]]. They ar
 ## Definition
  {#Definition}
 
-The Adams operations have an explicit definition in terms of the [[Lambda-ring]] structure on [[topological K-theory]], this we state as def. \ref{DefinitionInTermsOfLambdaRing} below. While explicit, this definition may look contrived on first sight. But it turns out that it satisfies a list of properties, of which two simple ones already uniquely characterize the Adams operations.  This is proposition \ref{TheBasicProperties} below.
+The Adams operations have an explicit definition in terms of the [[Lambda-ring]] structure on [[topological K-theory]], this we state as def. \ref{DefinitionInTermsOfLambdaRing} below. While explicit, this definition may look contrived on first sight. But it turns out that it satisfies a list of properties, of which two simple ones already uniquely characterize the Adams operations. This is proposition \ref{TheBasicProperties} below.
 
 +-- {: .num_prop #LambdaRingStructureOnKTheory}
 ###### Definition
