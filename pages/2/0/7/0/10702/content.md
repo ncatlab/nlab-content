@@ -48,17 +48,17 @@ $$
   \lambda_t[E]
   \;\coloneqq\;
   \underoverset{k = 0}{\infty}{\sum}
-  [\wedge^k_X E] t^k
+  [\Lambda^k X E] t^k
   \;\;\in\;\;
   K(X)[ [t] ] 
 $$
 
-for the [[formal power series]] with [[coefficients]] in the ring $K(X)$ being the K-theory classes of the skew-symmetrized [[tensor product of vector bundles]] of $E$ with itself. 
+for the [[formal power series]] whose [[coefficients]] in the ring $K(X)$ being the K-theory classes of the exterior powers $\Lambda^k X$, i.e. the skew-symmetrized tensor powers of $E$. 
 
-Since the constant term of this power series is always the unit $[\wedge^0 E] = 1$, hence
+Since the constant term of this power series is always the unit $[\Lambda^0 E] = 1$, hence
 
 $$
-  \lambda_t[E] \in 1 + (t) \cdot K(X)[ [t] ]
+  \lambda_t[E] \in 1 + (t) \cdot K(X)[ [t] ],
 $$
 
 there exists a multiplicative inverse formal power series $\lambda_t[E]^{-1}$.
@@ -182,15 +182,39 @@ Moreover, the first two of these already uniquely characterize the Adams operati
 
 =--
 
-For a proof see e.g. [Wirthmuller 12, section 11](#Wirthmuller12).   For 2. we can do the following calculation.  Suppose $L$ is a line bundle, so that $\Lambda^2(L) = 0$ and $\lambda_{-t}([L]) = 1 - t [L]$.  Then 
+For a proof see e.g. [Wirthmuller 12, section 11](#Wirthmuller12).    For item 1 recall that for any vector bundles $E$ and $F$ we have
 
-$$  \sum_{k=0}^\infty t^k \psi^k([L]) = 
-1 - t \frac{d}{d t} \log \lambda_{-t}([L]) = 
-1 - t \frac{d}{d t} \log(1 - t[L]) = 
-1 + \frac{t[L]}{1 - t[L]} = \frac{1}{1 - t[L]} = 
-\sum_{k=0}^\infty t^k [L]^k $$
+$$ \Lambda^n (E \oplus F) \cong \bigoplus_{k = 0}^n \Lambda^k E \otimes \Lambda^{n-k} F $$
 
-so $\psi_k([L]) = [L]^k$.
+hence a calculation gives
+
+$$ \lambda_t(x + y) = \lambda_t(x) \cdot \lambda_t(y) $$
+
+and thus
+
+$$ \log \lambda_t(x + y) = \lambda_t(x) + \lambda_t(y). $$
+
+That is, $\log \lambda_t(x)$ is additive as a function of $x$. Since
+
+$$ \sum_{k=0}^\infty t^k \psi^k(x) 
+= \mathrm{rank}(x) - t \frac{d}{d t} \log \lambda_{-t}(x) $$
+
+and both terms are right are additive as a function of $x$, we conclude
+
+$$ \psi^k(x + y) = \psi^k(x) + \psi^k(y) $$
+
+For item 2 we can do the following calculation.  Suppose that $x$ is the class of a line bundle $L$, so that $\Lambda^2 L = 0$ hence $\lambda_{-t}(x) = 1 - t x$.  Then 
+
+$$ \begin{array}{ccl} 
+\sum_{k=0}^\infty t^k \psi^k(x) 
+&=& 1 - t \frac{d}{d t} \log \lambda_{-t}(x) \\ 
+&=& 1 - t \frac{d}{d t} \log(1 - t x) \\
+&=& 1 + \frac{t x}{1 - t x} \\
+&=& \frac{1}{1 - t x} \\ 
+&=& \sum_{k=0}^\infty t^k x^k 
+\end{array} $$
+
+so $\psi_k(x) = x^k$.
 
 
 
