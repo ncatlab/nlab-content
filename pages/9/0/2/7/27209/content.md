@@ -26,6 +26,9 @@ In [[homological algebra]] it turns out that a host of common (co)homological co
 * [[Sergei O. Ivanov]], [[Roman Mikhailov]], Fedor Pavutnitskiy:  *Limits, standard complexes and $\mathbf{fr}$-codes*,  Sb. Math. **211** (2020) 1568 &lbrack;[arXiv:1906.08793](https://arxiv.org/abs/1906.08793), [doi:10.1070/SM9348](https://doi.org/10.1070/SM9348), [doi:10.1070/SM9348](https://doi.org/10.1070/SM9348)&rbrack;
 
 
+* Nikita Golub: *Functorial Languages in Homological Algebra*, [talk at](#Golub2024) [[CQTS]] @ NYU Abu Dhabi (Oct 2024) &lbrack;slides:[[Golub-CQTSOct2024.pdf:file]]&rbrack;
+
+
 [[!redirects fr-codes]]
 
 [[!redirects fr-language]]
