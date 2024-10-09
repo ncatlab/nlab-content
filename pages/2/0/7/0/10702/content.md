@@ -95,7 +95,7 @@ $$
   \begin{aligned}
     \psi_t(E)
     & \coloneqq
-   \underoverset{\infty}{k = 0}{\sum}
+   \underoverset{k = 0}{\infty}{\sum}
    \psi^k(E) t^k
    \\
     & \coloneqq
@@ -122,7 +122,7 @@ $$
      \lambda_{-t}(E)
      \\
      & =
-     \underoverset{\infty}{k = 0}{\sum}
+     \underoverset{k = 0}{\infty}{\sum}
      \left(
         1  - \lambda_{-t}(E)
      \right)^k
@@ -182,7 +182,15 @@ Moreover, the first two of these already uniquely characterize the Adams operati
 
 =--
 
-e.g. [Wirthmuller 12, section 11](#Wirthmuller12)
+For a proof see e.g. [Wirthmuller 12, section 11](#Wirthmuller12).   For 2. we can do the following calculation.  Suppose $L$ is a line bundle, so that $\Lambda^2(L) = 0$ and $\lambda_{-t}([L]) = 1 - t [L]$.  Then 
+
+$$  \sum_{k=0}^\infty t^k \psi^k([L]) = 
+1 - t \frac{d}{d t} \log \lambda_{-t}([L]) = 
+1 - t \frac{d}{d t} \log(1 - t[L]) = 
+1 + \frac{t[L]}{1 - t[L]} = \frac{1}{1 - t[L]} = 
+\sum_{k=0}^\infty t^k [L]^k $$
+
+so $\psi_k([L]) = [L]^k$.
 
 
 
