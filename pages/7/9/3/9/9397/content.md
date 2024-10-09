@@ -9,12 +9,16 @@ Introducing the [[octonions]]:
 
 * {#Cayley1845} [[Arthur Cayley]], _On certain results relating to quaternions_,  The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science Series 3 Volume 26, 1845 - Issue 171 ([doi:10.1080/14786444508562684](https://doi.org/10.1080/14786444508562684))
 
-
 Cayley's 1848 paper on elimination theory contains probably the first serious application of [[homological algebra]], including [[Koszul complexes]]. It is reproduced and commented in the book 
 
 * [[I. M. Gelfand]], [[Mikhail Kapranov|M. M. Kapranov]], A. Zelevinsky, _Discriminants, [[resultants]], and multidimensional determinants_, Birkh&#228;user 1994, 523 pp.
 
-## Related $n$Lab entries
+Introducing [[matrices]] and [[matrix calculus]]:
+
+* [[Arthur Cayley]]: *A Memoir on the Theory of Matrices*, Philosophical Transactions of the Royal Society of London, **148** (1858) 17-37 &lbrack;[jstor:108649](https://www.jstor.org/stable/108649)&rbrack;
+
+
+## Related entries
 
 * [[resultant]]
 
