@@ -27,3 +27,6 @@ In [[homological algebra]] it turns out that a host of common (co)homological co
 
 
 [[!redirects fr-codes]]
+
+[[!redirects fr-language]]
+[[!redirects fr-languages]]
