@@ -27,6 +27,10 @@ For $k = 2$ again there is the "[[Parke-Taylor formula]]" efficiently expressing
 
 See also at [[motives in physics]]
 
+## Related concepts
+
+* [[surfaceology]]
+
 ## References
 
 Review:
