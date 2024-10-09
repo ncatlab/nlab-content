@@ -1,5 +1,5 @@
 
-_Arthur Cayley_ (16 August 1821 &#8211; 26 January 1895) is one of the principal and most prolific mathematicians of 19-th century, especially in [[algebra]]. He also worked on questions in [[algebraic geometry]], [[graph theory]], ...
+_Arthur Cayley_ (16 August 1821 &#8211; 26 January 1895) is one of the principal and most prolific mathematicians of 19-th century, especially in [[algebra]]. He also worked on questions in [[algebraic geometry]], [[graph theory]] ...
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Arthur_Cayley)
 
