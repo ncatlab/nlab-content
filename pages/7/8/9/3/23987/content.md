@@ -3463,6 +3463,7 @@ Neumann algebras**
 
 \linebreak
 
+
 ### Oct 2024
 
 * {#Golub2024} 09 Oct 2024
@@ -3470,6 +3471,8 @@ Neumann algebras**
   Nikita Golub (Saint Petersburg State University):
 
   **Functorial Languages in Homological Algebra**
+
+  slides: [[Golub-CQTSOct2024.pdf:file]]
 
   > In our talk, we shall dive into a number of phenomena related to the [[homotopy limit|higher limit]] approach to the description of [[functors]] of [[homological algebra|homological]] nature. The first examples appeared in the work of [[Daniel Quillen|Quillen]] on [[Hochschild homology]] of algebras, where he showed that Hochschild homology of an algebra can be represented as limits of some functors from the category of free [[algebra extension|extensions]] of a given algebra. Further similar formulas [were derived](fr-code#IvanovMikhailov15) by [[Roman Mikhailov]] and [[Sergey Ivanov]] in the context of [[group homology]], who showed that group homology of a group can be expressed as higher limits of certain functors along the category of free extensions of the group. They further proposed the construction of [[fr-language]], where $f$ and $r$ are some functorial [[ideals]] of the functor of [[group rings]]. It allows us to describe lots of graded functors from the category of groups to the category of abelian groups by simple expressions of the form $f r + r f$, $r r + f r f$. 
 
