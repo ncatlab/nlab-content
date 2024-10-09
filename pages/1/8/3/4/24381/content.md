@@ -21,3 +21,7 @@ On [[rationalization]] of possibly non-[[nilpotent homotopy types]] (such as via
 category: people
 
 [[!redirects Sergei Ivanov]]
+
+[[!redirects Sergey Ivanov]]
+[[!redirects Sergey O. Ivanov]]
+
