@@ -131,6 +131,8 @@ In general, what we can say is that for two fixed categories $C$ and $D$, the fu
 
     * [[extranatural transformation]], **dinatural transformation**
 
+    * [[strong dinatural transformation]]
+
   * [[pseudonatural transformation]]
 
   * [[lax natural transformation]]
