@@ -127,6 +127,8 @@ For any [[quasicompact quasiseparated morphism|quasi-compact quasi-separated]] $
 
 ## References
 
+### General
+
 * {#Mukai81} [[Shigeru Mukai]],  _Duality between $D(X)$ and $D(\hat X)$ with its application to Picard sheaves_. Nagoya Mathematical Journal 81: 153&#8211;175. (1981)
 
 * {#BondalBergh2002} [[Alexei Bondal]], [[Michel van den Bergh]].  _Generators and representability of functors in commutative and noncommutative geometry_, 2002, [arXiv](http://arxiv.org/abs/math/0204218)
@@ -136,7 +138,7 @@ For any [[quasicompact quasiseparated morphism|quasi-compact quasi-separated]] $
 *  Lutz Hille, Michel van den Bergh, _Fourier-Mukai transforms_ ([arXiv:0402043](http://arxiv.org/abs/math/0402043))
  
 
-* {#Huybrechts08} [[Daniel Huybrechts]], _Fourier-Mukai transforms_, 2008 ([pdf](http://www.math.uni-bonn.de/people/huybrech/Garda2.pdf))
+* {#Huybrechts08} [[Daniel Huybrechts]], _Fourier-Mukai transforms_ (2008) &lbrack;[pdf](http://www.math.uni-bonn.de/people/huybrech/Garda2.pdf), [[Huybrechts-FourierMukai.pdf:file]]&rbrack;
 
 * C. Bartocci, [[Ugo Bruzzo]], D. Hernandez Ruiperez, _Fourier-Mukai and Nahm transforms in geometry and mathematical physics_, Progress in Mathematics 276, Birkhauser 2009.
 
@@ -159,10 +161,44 @@ Discussion in the context of [[geometric Langlands duality]] is in
 
 * {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_ ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
 
-
 For a discussion of Fourier-Mukai transforms in the setting of $(\infty,1)$-enhancements, see
 
 * {#BenZviNadlerPreygel13} [[David Ben-Zvi]], [[David Nadler]], Anatoly Preygel.  _Integral transforms for coherent sheaves_,  [arXiv:1312.7164](http://arxiv.org/abs/1312.7164)
+
+
+### For T-duality
+ {#ReferencesForTDuality}
+
+Discussion of the effect of [[T-duality]] on [[RR-field]] [[flux densities]] (in [[ordinary cohomology]] or in [[topological K-theory]]) as a Fourier-Mukai-like transform goes back to:
+
+* [[Kentaro Hori]], [[Yaron Oz]], Section 3.1 of: *F-Theory, T-Duality on K3 Surfaces and $N=2$ Supersymmetric Gauge Theories in Four Dimensions*, Nucl. Phys. B **501** (1997) 97-108 &lbrack;[arXiv:hep-th/9702173](https://arxiv.org/abs/hep-th/9702173), <a href="https://doi.org/10.1016/S0550-3213(97)00361-1">doi:10.1016/S0550-3213(97)00361-1</a>&rbrack;
+
+* [[Kentaro Hori]]: (1.1) and pp. 13 pf: *D-branes, T-duality, and Index Theory*, Adv. Theor. Math. Phys. **3** 2 (1999) 281-342 &lbrack;[arXiv:hep-th/9902102](https://arxiv.org/abs/hep-th/9902102), [doi:10.4310/ATMP.1999.v3.n2.a5](https://dx.doi.org/10.4310/ATMP.1999.v3.n2.a5),  journal:[pdf](https://www.intlpress.com/site/pub/files/_fulltext/journals/atmp/1999/0003/0002/ATMP-1999-0003-0002-a005.pdf)&rbrack;
+  > (whence "Hori's formula")
+
+with explicit formulation in the context if [[topological T-duality]]:
+
+* {#BouwknegtEvslinMathai04} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], (1.9) in: _T-Duality: Topology Change from H-flux_, Commun. Math. Phys. **249** (2004) 383-415 &lbrack;[hep-th/0306062](http://arxiv.org/abs/hep-th/0306062), [doi:10.1007/s00220-004-1115-6](https://doi.org/10.1007/s00220-004-1115-6)&rbrack; 
+
+
+Survery and Review:
+
+* Martin Ruderer, *Fourier-Mukai Transforms from T-Duality*, PhD thesis, Regensburg (2015)  &lbrack;[urn:nbn:de:bvb:355-epub-314033](https://nbn-resolving.org//urn:nbn:de:bvb:355-epub-314033), [pdf](https://epub.uni-regensburg.de/31403/6/final.pdf)&rbrack;
+
+* Bjorn Andreas, Daniel Hernandez Ruiperez: *Fourier Mukai Transforms and Applications to String Theory*, Rev. R. Acad. Cienc. Exactas Fis. Nat. Ser. A Mat **99** 1 (2005) 29-77 &lbrack;[arXiv:math/0412328](https://arxiv.org/abs/math/0412328), [spire:667425](https://inspirehep.net/literature/667425), journal: [pdf](https://mat.usal.es/ruiperez/Site/Papers_files/4_ANDREAS.PDF)&rbrack;
+
+For [[spherical T-duality]]:
+
+* [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]]: *Spherical T-duality and the spherical Fourier–Mukai transform*, Journal of Geometry and Physics **133** (2018) 303-314 &lbrack;[doi:10.1016/j.geomphys.2018.07.020](https://doi.org/10.1016/j.geomphys.2018.07.020), [arXiv:1502.04444](https://arxiv.org/abs/1502.04444)&rbrack;
+
+On [[superspace]]:
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: Prop. 6.4 in: *[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]*, Adv. Theor. Math. Phys **22** 5 (2018) &lbrack;[arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](https://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3)&rbrack;
+
+
+
+
+
 
 
 [[!redirects Fourier-Mukai transforms]]
