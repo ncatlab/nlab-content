@@ -45,6 +45,9 @@ The [[axioms]] of EFA are
 
 * The [induction axiom](http://ncatlab.org/nlab/show/second+order+arithmetic#secondorder_axioms_11) for formulas all of whose quantifiers are bounded. 
 
+## Example
+
+For example, in order to prove in EFA that addition is [[commutative]], one can prove $(\forall a)(\forall b)(a \leq b \vee b \leq a)$ on the one hand, and, on the other hand, prove by induction over a $\Delta_0$ formula that $(\forall a)(\forall b \leq a)(a+b=b+a)$ holds.
 
 ## Related concepts
 
