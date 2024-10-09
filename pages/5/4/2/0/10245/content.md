@@ -66,6 +66,10 @@ with a [[matrix model]]-description in:
 
 * {#KachruOzYin98} [[Shamit Kachru]], [[Yaron Oz]], [[Zheng Yin]], *Matrix Description of Intersecting M5 Branes* JHEP 9811:004, (1998) ([arXiv:hep-th/9803050](https://arxiv.org/abs/hep-th/9803050))
 
+See also
+
+* {#West12} [[Peter West]]: Section 14.6.1 of *[[Introduction to Strings and Branes]]*,  Cambridge University Press (2012)
+
 
 For more on this:
 
