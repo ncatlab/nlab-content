@@ -41,7 +41,7 @@ An approach to calculating [[scattering amplitudes]] in [[quantum field theory]]
 
 * Nima Arkani-Hamed, Carolina Figueiredo, *Circles and Triangles, the NLSM and Tr($\phi^3$)* &lbrack;[arXiv:2403.04826](https://arxiv.org/abs/2403.04826)&rbrack;
 
-* Shounak De, Andrzej Pokraka, Marcos Skowronek, Marcus Spradlin, Anastasia Volovich, *Surfaceology for Colored Yukawa Theory*, Journel of High Energy Physics 2024, 160 (2024). &lbrack;<a href="https://doi.org/10.1007/JHEP09(2024)160">doi:10.1007/JHEP09(2024)160</a> [arXiv:2406.04411](https://arxiv.org/abs/2406.04411)&rbrack;
+* Shounak De, Andrzej Pokraka, Marcos Skowronek, Marcus Spradlin, Anastasia Volovich, *Surfaceology for Colored Yukawa Theory*, Journel of High Energy Physics 2024, 160 (2024). &lbrack;<a href="https://doi.org/10.1007/JHEP09(2024)160">doi:10.1007/JHEP09(2024)160</a>, [arXiv:2406.04411](https://arxiv.org/abs/2406.04411)&rbrack;
 
 Journalistic coverage includes
 
