@@ -1,4 +1,6 @@
 
+* [personal page](https://egbertrijke.github.io/)
+
 * [page on HoTT site](http://homotopytypetheory.org/author/egbertrijke/)
 
 * [github page](https://github.com/EgbertRijke)
