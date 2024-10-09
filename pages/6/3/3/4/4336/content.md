@@ -73,9 +73,17 @@ Determinants and [[determinant]] like notions, and special cases: [[quasidetermi
 
 ## References
 
+Historical origins:
+
+* [[Arthur Cayley]]: *A Memoir on the Theory of Matrices*, Philosophical Transactions of the Royal Society of London, **148** (1858) 17-37 &lbrack;[jstor:108649](https://www.jstor.org/stable/108649)&rbrack;
+
 Textbook accounts:
 
 * [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §2 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
+
+See also: 
+
+* Wikipedia: <a href="https://en.wikipedia.org/wiki/Matrix_(mathematics)">Matrix (mathematics)</a>
 
 
 
