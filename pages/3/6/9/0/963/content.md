@@ -193,7 +193,7 @@ Discussion of quantales as a model for [[linear logic]] and [[quantum logic]]:
 
 A monograph on quantales:
 
-* Kimmo I. Rosenthal, _Quantales and their applications_, Pitman Res. Notes in Math. Series 234, Longman 1990
+* [[Kimmo I. Rosenthal]], _Quantales and their applications_, Pitman Res. Notes in Math. Series 234, Longman 1990
 
 {#automata}Relations with automata and process semantics
 
