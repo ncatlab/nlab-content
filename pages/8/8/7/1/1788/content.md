@@ -1,4 +1,10 @@
 
+[[topos]] [[set]] and
+
+[[topos]] $T$ and
+
+$T$ [[topos]] 
+
 $\ldots$
 
 ## Definition
