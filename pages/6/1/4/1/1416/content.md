@@ -249,7 +249,7 @@ This is due to ([KarazerisVelebil](#KarazerisVelebil)).
 ### Classifying toposes and Diaconescu's theorem
   {#DiaconescuTheorem}
 
-The following statement is known as _[[Diaconescu's theorem]]_, see there for more details. It says that the internally flat functors, def. \ref{InternallyFlat} $F \colon C \to \mathcal{E}$ are precisely the [[inverse images]] of [[geometric morphisms]] from $E$ into the [[presheaf topos]] over $C$.
+The following statement is known as _[[Diaconescu's theorem]]_, see there for more details. It says that the internally flat functors, def. \ref{InternallyFlat} $F \colon C \to \mathcal{E}$ are precisely the [[inverse images]] of [[geometric morphisms]] from $\mathcal{E}$ into the [[presheaf topos]] over $C$.
 
 +-- {: .num_theorem}
 ###### Theorem
