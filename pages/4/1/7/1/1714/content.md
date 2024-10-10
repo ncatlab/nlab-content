@@ -11,7 +11,6 @@
 
 
 
-
 # Higher morphisms ($k$-morphisms)
 * table of contents
 {: toc}
