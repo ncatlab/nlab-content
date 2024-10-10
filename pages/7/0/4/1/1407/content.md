@@ -605,12 +605,15 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 
 * [[N. D. Hari Dass]], *The Birth of String Theory* &lbrack;[doi:10.1007/978-3-031-35358-1_17](https://doi.org/10.1007/978-3-031-35358-1_17)&rbrack;, Ch. 17 in: *Strings to Strings -- Yang-Mills Flux Tubes, QCD Strings and Effective String Theories*, Lecture Notes in Physics **1018**, Springer (2024) \[<a href="https://doi.org/10.1007/978-3-031-35358-1">doi:10.1007/978-3-031-35358-1</a>\]
 
-On the history of the [[S-matrix]]-approach to [[QFT]] in view of the origin of string theory:
 
 * Robert van Leeuwen, *From S-matrix theory to strings: Scattering data and the commitment to non-arbitrariness* &lbrack;[arXiv:2403.06690](https://arxiv.org/abs/2403.06690)&rbrack;
+  > (on the history of the [[S-matrix]]-approach to [[QFT]] in view of the origin of string theory)
 
-
+* [[Peter Goddard]]: *String Theory in Its Early Years*, talk at *[Perspectives in Theoretical Physics](https://sites.google.com/view/plectics-calendar/series/perspectives/th-physics/pithp-092024?authuser=0)*, Plectics Lab (Sep 2024) &lbrack;video:[YT](https://youtu.be/acwNRCKRxZQ)&rbrack;
   
+* [[Paolo Di Vecchia]]: *The Birth Of String Theory And The Effective Lagrangian Of QCD*, talk at *[Perspectives in Theoretical Physics](https://sites.google.com/view/plectics-calendar/series/perspectives/th-physics/pithp-092024?authuser=0)*, Plectics Lab (Sep 2024) &lbrack;video:[YT](https://youtu.be/cQFggWdNL1M)&rbrack;
+
+* [[Emil Martinec]]: *Worldsheet Histories -- Developing The Conceptual Framework of String Theory*, talk at *[Perspectives in Theoretical Physics](https://sites.google.com/view/plectics-calendar/series/perspectives/th-physics/pithp-092024?authuser=0)*, Plectics Lab (Sep 2024) &lbrack;video:[YT](https://youtu.be/kKvnXX8M76E)&rbrack;
 
 
 
