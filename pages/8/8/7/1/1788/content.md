@@ -1,11 +1,55 @@
 
-[[topos]] [[set]] and
+**A notorious bug:**
 
-[[topos]] $T$ and
+The code 
 
-$T$ [[topos]] 
+"<nowiki>[[Set]] [[topos]]</nowiki>"
 
-$\ldots$
+renders as:
+
+[[Set]] [[topos]]
+
+(lacking the whitespace).
+
+Similarly the code
+
+"<nowiki>[[Set]] &dollar;topos&dollar;</nowiki>"
+
+renders without the whitespace:
+
+[[Set]] $topos$ 
+
+This issue goes away when we are not at the beginning of a line. For instance
+
+"<nowiki>A [[Set]] [[topos]]</nowiki>"
+
+renders correctly as
+
+A [[Set]] [[topos]]
+
+and 
+
+"<nowiki>A [[Set]] &dollar;topos&dollar;</nowiki>"
+
+renders correctly as
+
+A [[Set]] $topos$
+
+
+
+\linebreak
+
+\linebreak
+
+\linebreak
+
+***
+
+\linebreak
+
+\linebreak
+
+\linebreak
 
 ## Definition
 
