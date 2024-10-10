@@ -39,9 +39,13 @@ Historical and expository accounts of the "principle of extremal action" or "act
 
 * Agamenon R. E. Oliveira, *History of Two Fundamental Principles of Physics: Least Action and Conservation of Energy*, Advances in Historical Studies **3** 2 (2014) &lbrack;[doi:10.4236/ahs.2014.32008](http://dx.doi.org/10.4236/ahs.2014.32008)&rbrack;
 
+* Alberto Rojo, Anthony Bloch: *The Principle of Least Action
+-- History and Physics*, Cambridge University Press (2018) &lbrack;[ISBN:9780521869027](https://www.cambridge.org/ae/universitypress/subjects/physics/history-philosophy-and-foundations-physics/principle-least-action-history-and-physics?format=HB&isbn=9780521869027)&rbrack;
+
 * Walter Dittrich, *The Development of the Action Principle -- A Didactic History from Euler-Lagrange to Schwinger*, SpringerBriefs in Physics, Springer (2021) &lbrack;[doi:10.1007/978-3-030-69105-9](https://doi.org/10.1007/978-3-030-69105-9)&rbrack;
 
 * [[Douglas Cline]], *Variational Principles in Classical Mechanics*, University of Rochester (2021) &lbrack;[pdf](http://classicalmechanics.lib.rochester.edu/pdf/Variational_Principles_in_Classical_Mechanics_3e_final_fbcover.pdf), <a href="https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Variational_Principles_in_Classical_Mechanics_(Cline)">online version</a>&rbrack;
+
 
 
 See also:
