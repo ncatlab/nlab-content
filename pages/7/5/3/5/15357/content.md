@@ -23,6 +23,8 @@ Thesis
 
 * [[Kimmo I. Rosenthal]], _Quotient systems in Grothendieck topoi_, Cahiers de topologie et géométrie différentielle catégoriques __23__:4 (1982) 425--438 [numdam](http://www.numdam.org/item?id=CTGDC_1982__23_4_425_0)
 
+* [[Kimmo I. Rosenthal]], _Sheaves and local equivalence relations_, Cahiers de Topologie et Géométrie Différentielle Catégoriques __25__ (1984) no. 2, pp. 179--206 [numdam](http://www.numdam.org/item/CTGDC_1984__25_2_179_0)
+
 [[!redirects Kimmo I. Rosenthal]]
 [[!redirects K. I. Rosenthal]]
 
