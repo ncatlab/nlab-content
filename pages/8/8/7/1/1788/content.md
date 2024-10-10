@@ -35,8 +35,6 @@ renders correctly as
 
 A [[Set]] $topos$
 
-
-
 \linebreak
 
 \linebreak
@@ -50,6 +48,24 @@ A [[Set]] $topos$
 \linebreak
 
 \linebreak
+
+[[test2.txt:file]]
+
+\linebreak
+
+\linebreak
+
+\linebreak
+
+
+***
+
+\linebreak
+
+\linebreak
+
+\linebreak
+
 
 ## Definition
 
