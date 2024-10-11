@@ -17,11 +17,11 @@ On [[total positivity]] in the context of [[reductive group]]s
 
 * George Lusztig, _Total positivity in reductive groups. In: Brylinski, JL., Brylinski, R., Guillemin, V., Kac, V. (eds) Lie Theory and Geometry. Progress in Mathematics __123__; Birkhäuser 1994 [doi](https://doi.org/10.1007/978-1-4612-0261-5_20)
 
-On [[quantum group]]s (and relations to quivers and canonical bases)
+On [[quantum group]]s (and relations to quivers and [[canonical bases]])
 
 * George Lusztig, _Quivers, perverse sheaves, and quantized enveloping algebras_ J. Amer. Math. Soc., 4(2):365--421 (1991)
-* G. Lusztig, _Canonical bases arising from quantized enveloping algebras_, J. Amer. Math. Soc. 3(2),
-447–498 (1990)
+* [[George Lusztig]], _Canonical bases arising from quantized enveloping algebras_, J. Am. Math. Soc. __3__ (2), 447--498 (1990) [doi](https://doi.org/10.1090%2FS0894-0347-1991-1088333-2)
+* [[George Lusztig]], _Canonical bases in tensor products. Proc. Natl. Acad. Sci. 89 (1992) 8177--8179 [doi](https://doi.org/10.1073%2Fpnas.89.17.8177)
 * G. Lusztig, _Quivers, perverse sheaves, and quantized enveloping algebras_, J. Amer. Math. Soc. 4(2),
 365–421 (1991)
 * G. Lusztig, _Introduction to Quantum Groups_, Birkhauser (1992)
