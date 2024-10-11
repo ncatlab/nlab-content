@@ -23,6 +23,8 @@ An approach to calculating [[scattering amplitudes]] in [[quantum field theory]]
 
 * [[associahedron]]
 
+* [[Tr(ϕ³)]]
+
 ## References
 
 * Nima Arkani-Hamed, Hadleigh Frost, Giulio Salvatori, Pierre-Guy Plamondon, Hugh Thomas, *All Loop Scattering As A Counting Problem* &lbrack;[arXiv:2309.15913](https://arxiv.org/abs/2309.15913)&rbrack;
