@@ -46,4 +46,6 @@ On [[category theory]]:
 
 * [[Randall-Sundrum model]]
 
+* [[Tr(ϕ³)]]
+
 category: people
