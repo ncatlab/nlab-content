@@ -35,7 +35,7 @@ More on the [[combinatorics]] of [[scattering amplitudes]] in [[Yang-Mills theor
 
 On [[category theory]]:
 
-“six months ago, if you said the word category theory to me, I would have laughed in your face and said useless formal nonsense, and yet it’s somehow turned into something very important in my intellectual life in the last six months or so” (@ 44:05 in [The End of Space-Time](https://youtu.be/GL77oOnrPzY) July 2022)
+> “six months ago, if you said the word category theory to me, I would have laughed in your face and said useless formal nonsense, and yet it’s somehow turned into something very important in my intellectual life in the last six months or so” (@ 44:05 in [The End of Space-Time](https://youtu.be/GL77oOnrPzY) July 2022)
 
 
 
