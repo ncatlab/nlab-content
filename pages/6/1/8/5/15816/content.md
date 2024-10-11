@@ -59,7 +59,7 @@ See *[Votex anyons](braid+group+statistics#VortexAnyons)* at *[[braid group stat
 
 ### General
 
-A historical abandoned but influential speculation on [[cortex strings]]:
+A historical abandoned but influential speculation on [[vortex strings]]:
 
 * [[Lord Kelvin]], _[[On Vortex Atoms]]_
 
@@ -82,6 +82,11 @@ On quantum vortices as in [[superconductors]] or [[Bose-Einstein condensates]]/[
 Discussion via [[AdS/CMT]]:
 
 * Markus A. G. Amano, Minoru Eto, *Holographic Global Vortices with Novel Boundary Conditions* &lbrack;[arXiv:2404.03212](https://arxiv.org/abs/2404.03212)&rbrack;
+
+On stable vortex [[knots]] in [[Bose-Einstein condensates]]:
+
+* Yuta Nozaki, Yuya Koda, [[Muneto Nitta]]: *Quantum Knots that Never Come Untied
+Michikazu Kobayashi* &lbrack;[arXiv:2410.07470](https://arxiv.org/abs/2410.07470)&rbrack;
 
 
 
