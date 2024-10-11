@@ -179,7 +179,7 @@ A brief remark on free operads is in (1.12) of
 
 A detailed discussion is in Part II, chapter I, section 1.9 of
 
-* [[Martin Markl]], S. Shnider, [[Jim Stasheff]], _Operads in Algebra, Topology and Physics_, Surveys and Monographs of the Amer. Math. Soc. 96 (2002).
+* [[Martin Markl]], [[Steven Shnider]], [[Jim Stasheff]], _Operads in Algebra, Topology and Physics_, Surveys and Monographs of the Amer. Math. Soc. 96 (2002).
 
 and in section 3 of 
 
