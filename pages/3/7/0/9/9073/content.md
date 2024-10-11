@@ -4,7 +4,7 @@
 ## Selected writings
 
 
-On [[configuration spaces of points]] in general poisition inside [[complex projective spaces]]:
+On [[configuration spaces of points]] in general position inside [[complex projective spaces]]:
 
 * [[Nima Arkani-Hamed]], [[Thomas Lam]], [[Marcus Spradlin]], *Positive configuration space*, Commun. Math. Phys. **384** (2021) 909–954  &lbrack;[arXiv:2003.03904](https://arxiv.org/abs/2003.03904), [doi:10.1007/s00220-021-04041-x](https://doi.org/10.1007/s00220-021-04041-x)&rbrack;
 
