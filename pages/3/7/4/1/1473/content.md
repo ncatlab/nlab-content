@@ -22,13 +22,13 @@ $$
   \left(
     \underset{i \in I}{\forall}
     \left(
-       X_i \, \text{compact}
+       X_i \,\text{compact}
     \right)
   \right)
     \;\Rightarrow\;
   \left(
      \underset{i \in I}{\prod} X_i
-     \, \text{compact}
+     \,\text{compact}
   \right)
   \,.
 $$
