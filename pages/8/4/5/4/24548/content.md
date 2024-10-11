@@ -1,10 +1,10 @@
-I am a master's student at the University of Bonn.
+I am a PhD student at the Max-Planck Institute for Mathematics in Bonn under the supervision of Markus Hausmann. Previously, I've studied at the University of Bonn, the University of Minnesota and the Technical University of Munich.
 
-I obtained my undergraduate degree at the Technical University of Munich. In Fall 2019, I was an exchange student at the University of Minnesota.
+My research interests include higher category theory and equivariant stable homotopy theory. 
 
 Pursuing ([[higher category theory|higher]]) [[category theory]] and [[homotopy theory]].
 
-See [JourneyInMath](https://journeyinmath.wordpress.com) for my blog and [QiZhuMath](https://qizhumath.wixsite.com/math) for my website.
+See [JourneyInMath](https://journeyinmath.wordpress.com) and [JourneysOfMathematicians](https://journeysofmathematicians.wordpress.com/) for my blogs and [QiZhuMath](https://qizhumath.wixsite.com/math) for my website.
 
 ## Selected writings
 
