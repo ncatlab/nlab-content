@@ -68,8 +68,8 @@ Namely, a [[commuting diagram]] of the outer form is equivalently just the choic
 
 Note that we have defined surjectivity with help of a simplest counterexample: the map on the left is perhaps the simplest example
 of a non-surjective map. We shall see that this pattern holds
-in other examples as well. Part of the reason that a map never has the left lifting property with respect to itself unless it is an isomorphism,
-and thus taking the lifting prperty is a simplest way to define a class of morphism not containing a given counterexample or without a given property
+in other examples as well. Part of the reason is that a map never has the left lifting property with respect to itself unless it is an isomorphism,
+and thus taking the lifting property is a simplest way to define a class of morphism not containing a given counterexample or without a given property
 in a matter useful in a diagram chasing computation.
 
 \linebreak
