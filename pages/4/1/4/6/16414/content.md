@@ -12,7 +12,19 @@ Early classification of [[superconformal algebras]]:
 
 On [[Cayley 4-forms]]:
 
-* [[Mikhail Katz]], [[Steven Shnider]], _Cayley 4-form, comass, and triality isomorphisms_ ([arXiv:0801.0283](http://arxiv.org/abs/0801.0283))
+* [[Mikhail Katz]], [[Steven Shnider]], _Cayley 4-form, comass, and triality isomorphisms_ ([arXiv:0801.0283](https://arxiv.org/abs/0801.0283))
+
+On [[operad]]s
+
+* [[Martin Markl]], [[Steven Shnider]], [[Jim Stasheff]], _Operads in algebra, topology and physics_, Surveys and Monographs of the Amer. Math. Soc. 96 (2002)
+
+On [[quantum group]]s
+
+* Steven Shnider, [[Shlomo Sternberg]], _Quantum groups: from coalgebras to Drinfeld algebras: a guided tour_, Graduate texts in mathematical physics, 2., International Press 1993
+
+* [[Joseph Donin]], [[Steven Shnider]], _Quantum symmetric spaces_, J. Pure Appl. Algebra __100__ (1995) 103--117 <a href="https://doi.org/10.1016/0022-4049(95)00015-O">doi</a>
+
+* [[Joseph Donin]], [[Steven Shnider]], _Cohomological construction of quantized universal enveloping algebras_, Trans.Amer. Math. Soc. __349__:4 (1997) 1611--1632 [jstor](https://www.jstor.org/stable/2155295)
 
 
 ## Related entries
