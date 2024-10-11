@@ -26,6 +26,10 @@ The notion in the general framework of left coideal subalgebras is due to:
 
 * [[Gail Letzter]], _Quantum symmetric pairs and their zonal spherical functions_, Transformation Groups **8** (2003) 261--292 &lbrack;[arXiv:math/0204103](https://arxiv.org/abs/math/0204103), [doi:10.1007/s00031-003-0719-9](https://doi.org/10.1007/s00031-003-0719-9)&rbrack;
 
+* [[Gail Letzter]], _Coideal subalgebras and quantum symmetric pairs_, In: S. Montgomery, H.-J. Schneider(eds.) New directions in Hopf algebras (Cambridge), vol. 43, pp. 117--166, MSRI Publications, Cambridge University Press 2002
+
+* [[Gail Letzter]], _Quantum zonal spherical functions and Macdonald polynomials_, Adv. Math. 189 (2004) 88--147 [doi](https://doi.org/10.1016%2Fj.aim.2003.11.007)
+
 The earlier approach via [[reflection equation]] is from
 
 * [[Masatoshi Noumi]], _Macdonald’s symmetric polynomials as zonal spherical functions on some quantum homogeneous spaces_, Adv. Math. __123__ (1996) 16--77 arXiv:[math/9503224](https://arxiv.org/abs/math/9503224)
@@ -44,6 +48,8 @@ Further developments:
 * Martina Balagović, [[Stefan Kolb]], _The bar involution for quantum symmetric pairs_, Representation Theory __19__ (2015) 186--210 &lbrack;[arXiv:1409.5074](https://arxiv.org/abs/1409.5074), [doi:10.1090/ert/469](http://dx.doi.org/10.1090/ert/469)&rbrack;
 
 * Martina Balagović, [[Stefan Kolb]], _Universal K-matrix for quantum symmetric pairs_, J. Reine Angew. Math. __747__ (2019) 299--353 &lbrack;[arXiv:1507.06276](https://arxiv.org/abs/1507.06276), [doi:10.1515/crelle-2016-0012](https://doi.org/10.1515/crelle-2016-0012)&rbrack;
+
+* H. Bao, W. Wang, _Canonical bases arising from quantum symmetric pairs_, Invent. math. __213__ (2018) 1099--1177 [doi](https://doi.org/10.1007/s00222-018-0801-5)
 
 A modern survey:
 
