@@ -35,7 +35,7 @@ This means that $P$ is projective if for any
 
 1. [[epimorphism]]$\;q \colon A \twoheadrightarrow B$, 
 
-{#DefiningLiftingDiagram} $f$ factors through $q$, making a [[commuting diagram]] of this form:
+{#DefiningLiftingDiagram} $f$ factors through $q$, making a [[commuting diagram]] (a *[[lift]]*) of this form:
 
 \begin{tikzcd}[sep=20pt]
   && 
