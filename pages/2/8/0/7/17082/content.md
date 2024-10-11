@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -584,10 +585,7 @@ in the category of simplicial objects in the [[category of filters]].
 * [covering space lifting properties](covering+space#LiftingProperties)
 
 
-[[!redirects lifts]]
 
-[[!redirects lifting]]
-[[!redirects liftings]]
 
 [[!redirects lifting property]]
 [[!redirects lifting properties]]
@@ -598,7 +596,5 @@ in the category of simplicial objects in the [[category of filters]].
 [[!redirects left lifting properties]]
 
 
-[[!redirects lifting problem]]
-[[!redirects lifting problems]]
 
 
