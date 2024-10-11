@@ -1,3 +1,4 @@
+[[lift]]
 
 **A notorious bug:**
 
