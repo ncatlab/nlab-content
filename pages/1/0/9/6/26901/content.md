@@ -57,7 +57,7 @@ A modern survey:
 
 Classical symmetric spaces have R-matrix Poisson structure which could be quantized as another approach to quantum symmetric spaces
 
-* J. Donin, S. Shnider, _Quantum symmetric spaces_, J. Pure Appl. Algebra __100__ (1995) 103--117
+* J. Donin, [[Steven Shnider]], _Quantum symmetric spaces_, J. Pure Appl. Algebra __100__ (1995) 103--117 <a href="https://doi.org/10.1016/0022-4049(95)00015-O">doi</a>
 
 category: algebra
 
