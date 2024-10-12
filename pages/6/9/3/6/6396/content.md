@@ -50,6 +50,11 @@ On the [[self-dual string]]:
 
 * [[John Schwarz]], _Self-Dual Superstring in Six Dimensions_ ([arXiv:hep-th/9604171](https://arxiv.org/abs/hep-th/9604171))
 
+On [[T-duality]] in [[M-theory]] ([[F-theory]]):
+
+* {#Schwarz96} [[John Schwarz]]: *M Theory Extensions of T Duality*, in: *Frontiers in Quantum Field Theory*, World Scientific (1996) 3-14 &lbrack;[arXiv:hep-th/9601077](https://arxiv.org/abs/hep-th/9601077), [doi:10.1142/3245](https://doi.org/10.1142/3245)&rbrack;
+
+
 On the [[Perry-Schwarz action]] for the [[Green-Schwarz sigma-model]] of the [[M5-brane]] with the [[self-dual higher gauge field]] after [[KK-compactification]] to 5d (and [[double dimensional reduction]] to the [[D4-brane]]):
 
 * {#PerrySchwarz96} [[Malcolm Perry]], [[John Schwarz]], _Interacting Chiral Gauge Fields in Six Dimensions and Born-Infeld Theory_, Nucl. Phys. B489 (1997) 47-64 ([arXiv:hep-th/9611065](http://arxiv.org/abs/hep-th/9611065))
