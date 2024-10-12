@@ -67,7 +67,6 @@ An original article collecting all the weak/strong electric/magnetic dualities:
 
 ### Surveys and lecture notes
 
-
 * {#Schwarz97} [[John Schwarz]]: *Lectures on Superstring and M Theory Dualities*, Nucl. Phys. Proc. Suppl. **55B** (1997) 1-32 &lbrack;[arXiv:hep-th/9607201](https://arxiv.org/abs/hep-th/9607201), <a href="https://doi.org/10.1016/S0920-5632(97)00070-4">doi:10.1016/S0920-5632(97)00070-4</a>&rbrack;
 
 
@@ -83,8 +82,11 @@ An original article collecting all the weak/strong electric/magnetic dualities:
 
 * [[Michael Duff]], chapter 6 of: _[[The World in Eleven Dimensions]]: Supgergravity, Supermembranes and M-theory_, IoP 1999
 
+* {#West12} [[Peter West]]: *Symmetries of String Theory*, Ch 7 of: *[[Introduction to Strings and Branes]]*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139045926](https://doi.org/10.1017/CBO9781139045926)&rbrack;
+
 
 * {#Polchinski14} [[Joseph Polchinski]]: *Dualities*, Studies in History and Philosophy of Modern Physics **59** (C) (2017) 6-20 &lbrack;[arXiv:1412.5704](http://arxiv.org/abs/1412.5704), [doi:10.1016/j.shpsb.2015.08.011](https://doi.org/10.1016/j.shpsb.2015.08.011)&rbrack;
+
 
 
 More on dualities induced on [[K3]]-compactifications:
