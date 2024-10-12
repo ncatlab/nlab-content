@@ -228,7 +228,7 @@ A large number of realizations of the exact field content of the [[standard mode
 
 Discussion of [[T-duality]] in the strong coupling limit is due to
 
-* {#Schwarz96} [[John Schwarz]], _M Theory Extensions of T Duality_ ([arXiv:hep-th/9601077](https://arxiv.org/abs/hep-th/9601077))
+* {#Schwarz96} [[John Schwarz]]: *M Theory Extensions of T Duality*, in: *Frontiers in Quantum Field Theory*, World Scientific (1996) 3-14 &lbrack;[arXiv:hep-th/9601077](https://arxiv.org/abs/hep-th/9601077), [doi:10.1142/3245](https://doi.org/10.1142/3245)&rbrack;
 
 * {#Russo97} [[Jorge Russo]], _T-duality in M-theory and supermembranes_, Phys.Lett. B400 (1997) 37-42 ([arXiv:hep-th/9701188](https://arxiv.org/abs/hep-th/9701188))
 
