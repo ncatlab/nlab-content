@@ -275,28 +275,26 @@ Precursors include (according to [Schwarz 96, first paragraph](#Schwarz96)):
 
 Review:
 
-* Amit Giveona, Massimo Porrati, Eliezer Rabinovicia, _Target space duality in string theory_, Physics Reports Volume 244, Issues 2–3, August 1994, Pages 77-202 (<a href="https://doi.org/10.1016/0370-1573(94)90070-1">doi:10.1016/0370-1573(94)90070-1</a>)
+* [[Amit Giveon]], [[Massimo Porrati]], [[Eliezer Rabinovici]]: _Target space duality in string theory_, Physics Reports **244** 2–3 (1994) 77-202 &lbrack;<a href="https://doi.org/10.1016/0370-1573(94)90070-1">doi:10.1016/0370-1573(94)90070-1</a>&rbrack;
 
-* E. Alvarez, [[Luis Alvarez-Gaume]], Y. Lozano, _An Introduction to T-Duality in String Theory_, Nucl.Phys.Proc.Suppl.41:1-20,1995 ([arXiv:hep-th/9410237](https://arxiv.org/abs/hep-th/9410237))
+* E. Alvarez, [[Luis Alvarez-Gaumé]], [[Yolanda Lozano]]: _An Introduction to T-Duality in String Theory_, Nucl. Phys. Proc. Suppl. **41** (1995) 1-20 &lbrack;[arXiv:hep-th/9410237](https://arxiv.org/abs/hep-th/9410237), <a href="https://doi.org/10.1016/0920-5632(95)00429-D">doi:10.1016/0920-5632(95)00429-D</a>&rbrack;
 
 * [[Jonathan Rosenberg]], *Topology, $C^*$-algebras, and string duality*, Regional Conference Series in Mathematics **111**, Amer. Math. Soc. (2009)  &lbrack;[doi:10.1090/cbms/111](https://doi.org/10.1090/cbms/111), [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:05632075&type=pdf&format=complete)&rbrack;
-
   > (focus on [[topological T-duality]])
 
-
-* {#West12} [[Peter West]], section 17.1 of _[[Introduction to Strings and Branes]]_, Cambridge University Press 2012
+* {#West12} [[Peter West]], section 17.1 of _[[Introduction to Strings and Branes]]_, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139045926](https://doi.org/10.1017/CBO9781139045926)&rbrack;
 
 * [[Mathai Varghese]], _T-duality: A basic introduction_, 10th Geometry and Physics Conference _Quantum Geometry_, Anogia 2012 ([[Mathai12.pdf:file]])
 
 * Jnanadeva Maharana, _The Worldsheet Perspective of T-duality Symmetry in String Theory_ ([arXiv:1302.1719](http://arxiv.org/abs/1302.1719))
 
-* Mark Bugden, _A Tour of T-duality: Geometric and Topological Aspects of T-dualities_, ([arXiv:1904.03583](https://arxiv.org/abs/1904.03583))
+* Mark Bugden, _A Tour of T-duality: Geometric and Topological Aspects of T-dualities_ &lbrack;[arXiv:1904.03583](https://arxiv.org/abs/1904.03583)&rbrack;
 
 
 
-Discussion at strong coupling ("[[F-theory]]") includes
+Discussion at strong coupling ("[[F-theory]]"):
 
-* {#Schwarz96} [[John Schwarz]], _M Theory Extensions of T Duality_ ([arXiv:hep-th/9601077](https://arxiv.org/abs/hep-th/9601077))
+* {#Schwarz96} [[John Schwarz]]: *M Theory Extensions of T Duality*, in: *Frontiers in Quantum Field Theory*, World Scientific (1996) 3-14 &lbrack;[arXiv:hep-th/9601077](https://arxiv.org/abs/hep-th/9601077), [doi:10.1142/3245](https://doi.org/10.1142/3245)&rbrack;
 
 * {#Russo97} [[Jorge Russo]], _T-duality in M-theory and supermembranes_, Phys.Lett. B400 (1997) 37-42 ([arXiv:hep-th/9701188](https://arxiv.org/abs/hep-th/9701188))
 
@@ -304,8 +302,7 @@ Discussion at strong coupling ("[[F-theory]]") includes
 Dscussion in [[higher differential geometry]]:
 
 * {#Alfonsi19} [[Luigi Alfonsi]], _Global Double Field Theory is Higher Kaluza-Klein Theory_, Fortsch. d. Phys. 2020 ([arXiv:1912.07089](https://arxiv.org/abs/1912.07089), [doi:10.1002/prop.202000010](https://doi.org/10.1002/prop.202000010))
-
-  (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
+  > (relating [[Kaluza-Klein compactification]] on [[principal ∞-bundles]] to [[double field theory]], [[T-folds]], [[non-abelian T-duality]], [[type II geometry]], [[exceptional geometry]], ...)
 
 * [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
 
