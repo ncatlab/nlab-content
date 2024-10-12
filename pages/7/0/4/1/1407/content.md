@@ -325,7 +325,7 @@ Popular exposition:
 
 * {#Green86} [[Michael Green]], _Superstrings_, Scientific American Vol. 255, No. 3 (September 1986), pp. 48-63 ([jstor:24976036](https://www.jstor.org/stable/24976036))
 
-Textbooks on [[string theory]] and [[M-theory]] include the following (for more see at _[[books about string theory]]_):
+Textbooks on [[string theory]] and [[M-theory]] (for more see at _[[books about string theory]]_):
 
 * {#GreenSchwarzWitten88} [[Michael Green]], [[John Schwarz]], [[Edward Witten]], _Superstring theory_, 3 vols. Cambridge Monographs on Mathematical Physics 1988 (Vol 1: [spire:250488](http://inspirehep.net/record/250488), [ISBN:9781107029118](https://www.cambridge.org/us/academic/subjects/physics/theoretical-physics-and-mathematical-physics/superstring-theory-25th-anniversary-edition-volume-1?format=HB&isbn=9781107029118); Vol 2: [spire:1384879](http://inspirehep.net/record/1384879), [doi:10.1017/CBO9781139248570](https://doi.org/10.1017/CBO9781139248570))
 
@@ -341,6 +341,15 @@ Textbooks on [[string theory]] and [[M-theory]] include the following (for more 
 * [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  
 
   _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]]: 
+
+  *String Theory and M-Theory: A Modern Introduction*, 
+
+  Cambridge University Press (2006) 
+
+  &lbrack;[doi:10.1017/CBO9780511816086](https://doi.org/10.1017/CBO9780511816086), [pdf](https://nucleares.unam.mx/~alberto/apuntes/bbs.pdf)&rbrack;
+
 
 * [[Michael Douglas]], [[Elias Kiritsis]] et. al. (eds.), 
 
@@ -368,7 +377,9 @@ Textbooks on [[string theory]] and [[M-theory]] include the following (for more 
 
   _[[Introduction to Strings and Branes]]_, 
 
-  Cambridge University Press 2012
+  Cambridge University Press (2012)
+
+  &lbrack;[doi:10.1017/CBO9781139045926](https://doi.org/10.1017/CBO9781139045926)&rbrack;
 
 * [[Gregory Moore]],
 
