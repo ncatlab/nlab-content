@@ -5,6 +5,11 @@
 ## Selected writings
 
 
+On [[T-duality]]:
+
+* E. Alvarez, [[Luis Alvarez-Gaumé]], [[Yolanda Lozano]]: _An Introduction to T-Duality in String Theory_, Nucl. Phys. Proc. Suppl. **41** (1995) 1-20 &lbrack;[arXiv:hep-th/9410237](https://arxiv.org/abs/hep-th/9410237), <a href="https://doi.org/10.1016/0920-5632(95)00429-D">doi:10.1016/0920-5632(95)00429-D</a>&rbrack;
+
+
 On [[massive type IIA string theory]] and its embedding in [[M-theory]] via [[M9-branes]]:
 
 * [[Eric Bergshoeff]], [[Yolanda Lozano]], [[Tomas Ortin]], *Massive Branes*, Nucl. Phys. B **518** (1998) 363-423 &lbrack;[arXiv:hep-th/9712115](https://arxiv.org/abs/hep-th/9712115), <a href="https://doi.org/10.1016/S0550-3213(98)00045-5">doi:10.1016/S0550-3213(98)00045-5</a>&rbrack;
