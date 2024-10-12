@@ -57,18 +57,18 @@ Whatever it is otherwise, [[string theory]] turns out to be an organizational pr
 
 ### Original articles
 
-The original article suggesting the relation of 11d sugra to string theory is
+The original article suggesting the relation of [[D=11 supergravity]] to [[string theory]] ([[M-theory]]):
 
-* [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+* [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_, Nucl. Phys. B **443** (1995) 85-126 &lbrack;[arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124)&rbrack;
 
-An original article collecting all the weak/strong electric/magnetic dualities is 
+An original article collecting all the weak/strong electric/magnetic dualities:
 
-* [[Mike Duff]], _M-theory (the theory formerly known as string)_, Int.J.Mod.Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
+* [[Mike Duff]], _M-theory (the theory formerly known as string)_, Int. J. Mod. Phys. A **11** (1996) 5623-5642 &lbrack;[arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117)&rbrack;
 
 ### Surveys and lecture notes
 
 
-* {#Schwarz97} [[John Schwarz]], _Lectures on Superstring and M Theory Dualities_, Nucl. Phys. Proc. Suppl. 55B:1-32, 1997 ([arXiv:hep-th/9607201](https://arxiv.org/abs/hep-th/9607201))
+* {#Schwarz97} [[John Schwarz]]: *Lectures on Superstring and M Theory Dualities*, Nucl. Phys. Proc. Suppl. **55B** (1997) 1-32 &lbrack;[arXiv:hep-th/9607201](https://arxiv.org/abs/hep-th/9607201), <a href="https://doi.org/10.1016/S0920-5632(97)00070-4">doi:10.1016/S0920-5632(97)00070-4</a>&rbrack;
 
 
 * [[Michael Dine]], _String Theory Dualities_ &lbrack;[arXiv:hep-th/9609051](https://arxiv.org/abs/hep-th/9609051)&rbrack;
@@ -77,14 +77,14 @@ An original article collecting all the weak/strong electric/magnetic dualities i
 
 * {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora, _Duality in Quantum Field Theory (and String Theory)_, AIP Conference Proceedings 423, 46 (1998) ([arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180))
 
-* Stefan Forste, [[Jan Louis]], _Duality in String Theory_, Nucl. Phys. Proc. Suppl. 61A:3-22, 1998 ([arXiv:hep-th/9612192](https://arxiv.org/abs/hep-th/9612192))
+* Stefan Forste, [[Jan Louis]]: *Duality in String Theory*, Nucl. Phys. Proc. Suppl. **61**A (1998) 3-22 &lbrack;[arXiv:hep-th/9612192](https://arxiv.org/abs/hep-th/9612192), <a href="https://doi.org/10.1016/S0920-5632(97)00516-1">doi:10.1016/S0920-5632(97)00516-1</a>&rbrack;
 
-* [[Ashoke Sen]], _Duality symmetries in string theory_, Current Science Vol. 77, No. 12, 25 December 1999 ([jstor:24104472](https://www.jstor.org/stable/24104472))
+* [[Ashoke Sen]]: _Duality symmetries in string theory_, Current Science **77** 12 (1999) &lbrack;[jstor:24104472](https://www.jstor.org/stable/24104472)&rbrack;
 
-* [[Mike Duff]], chapter 6 of _[[The World in Eleven Dimensions]]: Supgergravity, Supermembranes and M-theory_, IoP 1999
+* [[Michael Duff]], chapter 6 of: _[[The World in Eleven Dimensions]]: Supgergravity, Supermembranes and M-theory_, IoP 1999
 
 
-* {#Polchinski14} [[Joseph Polchinski]], _Dualities_ ([arXiv:1412.5704](http://arxiv.org/abs/1412.5704))
+* {#Polchinski14} [[Joseph Polchinski]]: *Dualities*, Studies in History and Philosophy of Modern Physics **59** (C) (2017) 6-20 &lbrack;[arXiv:1412.5704](http://arxiv.org/abs/1412.5704), [doi:10.1016/j.shpsb.2015.08.011](https://doi.org/10.1016/j.shpsb.2015.08.011)&rbrack;
 
 
 More on dualities induced on [[K3]]-compactifications:
