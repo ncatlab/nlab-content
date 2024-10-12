@@ -132,7 +132,7 @@ One may take care of the existence of these conjugation actions/natural transfor
 
 For more introduction on this see at _[[geometry of physics -- homotopy types]]_.
 
-In either of these two cases, beware that the category [[Grp]] of [[groups]] is _not_ a [[full subcategory]] either of the [[homotopy category]] $Ho(Grpd)$ or of the [[(2,1)-category]] [[Grpd]], because conjugation action is is not part of the definition of $Grp$. Instead in [[homotopy theory]] it is _[[pointed object|pointed]]_ one-object groupoids which are equivalent to groups
+In either of these two cases, beware that the category [[Grp]] of [[groups]] is _not_ a [[full subcategory]] either of the [[homotopy category]] $Ho(Grpd)$ or of the [[(2,1)-category]] [[Grpd]], because conjugation action is not part of the definition of $Grp$. Instead in [[homotopy theory]] it is _[[pointed object|pointed]]_ one-object groupoids which are equivalent to groups
 
 $$
   Grp \hookrightarrow Grpd^{\ast/}
