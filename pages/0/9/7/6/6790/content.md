@@ -18,6 +18,11 @@ On the [Chern-Simons level renormalization](Chern-Simons+level#LevelRenormalizat
 * [[Luis Alvarez-Gaumé]], J. M. F. Labastida, A. V. Ramallo, *A note on perturbative Chern-Simons theory*, Nuclear Physics B **334** 1 (1990) 103-124 (<a href="https://doi.org/10.1016/0550-3213(90)90658-Z">doi:10.1016/0550-3213(90)90658-Z</a>)
 
 
+On [[T-duality]]:
+
+* E. Alvarez, [[Luis Alvarez-Gaumé]], [[Yolanda Lozano]]: _An Introduction to T-Duality in String Theory_, Nucl. Phys. Proc. Suppl. **41** (1995) 1-20 &lbrack;[arXiv:hep-th/9410237](https://arxiv.org/abs/hep-th/9410237), <a href="https://doi.org/10.1016/0920-5632(95)00429-D">doi:10.1016/0920-5632(95)00429-D</a>&rbrack;
+
+
 On [[duality in physics]] and specifically [[duality in string theory]]:
 
 * {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora, Section IV.B of: _Duality in Quantum Field Theory (and String Theory)_, AIP Conference Proceedings 423, 46 (1998) ([arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180))
