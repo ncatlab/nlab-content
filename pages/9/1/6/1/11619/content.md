@@ -5,7 +5,7 @@
 
 Textbook account of [[perturbative string theory]] and [[M-theory]]/[[F-theory]]:
 
-* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], _String Theory and M-Theory: A Modern Introduction_, Cambridge University Press 2006 ([doi:10.1017/CBO9780511816086](https://doi.org/10.1017/CBO9780511816086))
+* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]]: *String Theory and M-Theory: A Modern Introduction*, Cambridge University Press (2006) &lbrack;[doi:10.1017/CBO9780511816086](https://doi.org/10.1017/CBO9780511816086), [pdf](https://nucleares.unam.mx/~alberto/apuntes/bbs.pdf)&rbrack;
 
 
 On the [[BFSS matrix model]]:
