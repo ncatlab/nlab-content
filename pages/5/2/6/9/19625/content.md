@@ -25,7 +25,7 @@ An ideal $I$ of $R$ is __irreducible__ if $I$ is [[proper ideal|proper]] and, wh
 
 $$ \forall\, J \in Idl(R),\; \forall\, K \in Idl(R),\; I = J \cap K \;\Rightarrow\; I = J \;\vee\; I = K .$$
 
-Also, $I$ is __completely irreducible__ if, whenever $I$ contains the intersection of any collection of ideals of $R$, $I$ contains at least one of the ideals in that collection:
+Also, $I$ is __completely irreducible__ if, whenever $I$ equals the intersection of any collection of ideals of $R$, $I$ equals at least one of the ideals in that collection:
 
 $$ \forall\, \mathcal{J} \subseteq Idl(R),\; I = \bigcap \mathcal{J} \;\Rightarrow\; \exists\, J \in Idl(R),\; J \in \mathcal{J} \;\wedge\; I = J .$$
 
