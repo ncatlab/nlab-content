@@ -78,9 +78,11 @@ As for the [[string 2-group]], this defines an [[infinity-group extension]] (the
 
 ## References
 
-* {#FSS12} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_, Journal of Geometry and Physics, Volume 74, 2013, Pages 130&#8211;163 ([arXiv:1207.5449](http://arxiv.org/abs/1207.5449))
+* {#FSS12} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], §3.2.1 in: *[[schreiber:Extended higher cup-product Chern-Simons theories]]*, Journal of Geometry and Physics **74** (2013) 130-163 &lbrack;[arXiv:1207.5449](http://arxiv.org/abs/1207.5449), [doi:10.1016/j.geomphys.2013.07.011](https://doi.org/10.1016/j.geomphys.2013.07.011)&rbrack;
 
-* {#Nikolaus14} [[Thomas Nikolaus]], _[[T-Duality in K-theory and Elliptic Cohomology]]_, talk at _String Geometry Network Meeting_, Feb 2014, ESI Vienna ([website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html))
+* {#Nikolaus14} [[Thomas Nikolaus]], _[[T-Duality in K-theory and Elliptic Cohomology]]_, talk at _String Geometry Network Meeting_ ESI Vienna (Feb 2014) &lbrack;[website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html)&rbrack;
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Rem. 7.2 in: *[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]*, Adv. Theor. Math. Phys **22** 5 (2018) &lbrack;[arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](https://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3)&rbrack;
 
 * {#NikolausWaldorf18} [[Thomas Nikolaus]], [[Konrad Waldorf]], *Higher geometry for non-geometric T-duals*, Commun. Math. Phys. **374** (2020) 317-366 &lbrack;[arXiv:1804.00677](https://arxiv.org/abs/1804.00677), [doi:10.1007/s00220-019-03496-3](https://doi.org/10.1007/s00220-019-03496-3)&rbrack;
 
