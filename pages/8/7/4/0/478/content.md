@@ -43,7 +43,7 @@ Here the [[term]] $(a,p)$ is one witness for the [[contractible type|contractibi
 
 Since $IsContr(A)$ is itself [contractible](contractible+type#properties_18), we could say that $(a,p)$ is *the* witness for the contractibility of the type $A$, which may explain why we do not generally mention it.
 
-If we wish to extend this treatment to types which are [[propositions]], we might call such types $FactThat(P)$, for some statement $P$. Then if $P$ holds, we can introduce a term $the(FactThat(P))$.
+If we wish to extend this treatment to types which are [[propositions]], we might call such types $FactThat(P)$, for some statement $P$. Then if $P$ holds, we can introduce a term '$the(FactThat(P))$'.
 
 
 ## References
@@ -71,5 +71,3 @@ Discussion in [[homotopy type theory]]:
 [[!redirects unique up to unique coherent isomorphism]]
 [[!redirects unique up to unique equivalence]]
 [[!redirects unique up to unique coherent equivalence]]
-
-[Spanish Version](https://chicksgold.com/blog/generalized-the) by [ChicksGold](https://chicksgold.com).
