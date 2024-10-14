@@ -20,6 +20,11 @@ Generalization of [[Poisson-Lie T-duality]] to [[U-duality]] in [[exceptional ge
 
 * [[Chris D. A. Blair]], [[Daniel C. Thompson]], Sofia Zhidkova, _Exploring Exceptional Drinfeld Geometries_, JHEP 09 (2020) 151 &lbrack;[arxiv:2006.12452](https://arxiv.org/abs/2006.12452)&rbrack;
 
+On [[double field theory|doubled]] [[superspace]] ([double supergeoemtry](type+II+geometry#ReferencesDoubledSupergeometry)):
+
+* [[Chris D. A. Blair]], Ondrej Hulik, Alexander Sevrin, [[Daniel C. Thompson]]: *Doubled space and extended supersymmetry*,  J. High Energ. Phys. **2022** 119 (2022) \[<a href=" https://doi.org/10.1007/JHEP08(2022)119">doi:10.1007/JHEP08(2022)119</a>\]
+
+
 
 
 category: people
