@@ -56,8 +56,7 @@ Re-deriving the [[BMN matrix model]] via the [[superembedding formalism]]:
 
 On [[double supergeometry]]:
 
-* {#Bandos15} [[Igor Bandos]], _Superstring in doubled superspace_, Physics Letters B Volume 751, 17 December 2015, Pages 408-412 ([arXiv:1507.07779](https://arxiv.org/abs/1507.07779))
-
+* [[Igor Bandos]]: *Superstring in doubled superspace*, Physics Letters B **751** (2015) 408-412 &lbrack;[doi:10.1016/j.physletb.2015.10.081](https://doi.org/10.1016/j.physletb.2015.10.081)&rbrack;
 On [[super-exceptional generalized geometry]]:
 
 * {#Bandos16} [[Igor Bandos]], _Exceptional field theories, superparticles in an enlarged 11D superspace and higher spin theories_, Nucl. Phys. B925 (2017) 28-62 ([arXiv:1612.01321](https://arxiv.org/abs/1612.01321))
