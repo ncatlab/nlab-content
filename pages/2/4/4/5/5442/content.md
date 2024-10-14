@@ -7,7 +7,7 @@ is a textbook that leads from basics of [[category theory]] and [[algebra]] to a
 
 In addition, the project issued a collection of several more advanced articles which are beyond the current state of the main textbook project:
 
-* Stacks Project Expository Collection (SPEC), ed. by Pieter Belmans, Wei Ho, [[Aise Johan de Jong]], London Math. Soc. Lec. Note Series __480__, 268--289 [doi](https://doi.org/10.1017/9781009051897.011)
+* Pieter Belmans, Wei Ho, [[Aise Johan de Jong]], Eds., _Stacks Project Expository Collection_, London Math. Soc. Lec. Note Series __480__,  Cambridge University Press,  2022, [doi:10.1017/9781009051897](https://doi.org/10.1017/9781009051897)
 
 ## See also
 
