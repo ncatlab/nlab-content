@@ -91,10 +91,9 @@ and its [[anti de Sitter spacetime|AdS]] version
 
 Streamlined proof and exposition is in
 
-* {#BaezHuerta09} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry I_, in R. Doran, G. Friedman and [[Jonathan Rosenberg]] (eds.), _Superstrings, Geometry, Topology, and $C^*\ast$-algebras_, Proc. Symp. Pure Math. 81, AMS, Providence, 2010, pp. 65-80 ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
+* {#BaezHuerta09} [[John Baez]], [[John Huerta]]: _Division algebras and supersymmetry I_, in: _Superstrings, Geometry, Topology, and $C^*\ast$-algebras_, Proc. Symp. Pure Math. **81**, AMS (2010) 65-80 &lbrack;[arXiv:0909.0551](http://arxiv.org/abs/0909.0551), [ISBN:978-0-8218-4887-6](https://bookstore.ams.org/view?ProductCode=PSPUM/81)&rbrack;
 
-* {#BaezHuerta10} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_, Adv. Math. Theor. Phys. 15 (2011), 1373-1410  ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
-
+* {#BaezHuerta10} [[John Baez]], [[John Huerta]]: _Division algebras and supersymmetry II_, Adv. Math. Theor. Phys. **15** (2011) 1373-1410  &lbrack;[arXiv:1003.34360](http://arxiv.org/abs/1003.3436), [doi:10.4310/ATMP.2011.v15.n5.a4](https://doi.org/10.4310/ATMP.2011.v15.n5.a4)&rbrack;
 
 
 The case of 2-component quaternionic spinors in 6d (see at [[SL(2,H)]]) is discussed in more detail in:
