@@ -15,9 +15,10 @@ To get Hopf algebras one further quotients the RTT algebra by further relations 
 
 [[Shahn Majid]] complemented this with another algebra $B(R)$ which is paired with $A(R)$ but the pairing is degenerate. Then in an minimal way one finds biideals in $A(R)$ and $B(R)$ such that the quotients become Hopf algebras in a nondegenerate pairing, which may be viewed as the quantum groups of the function and of the universal enveloping algebra type. 
 
-## Examples
+## Examples and variants
 
 * [[quantum linear group]]s 
+* a class of generalizations appear as [[face algebra]]s
 
 ## Literature
 
