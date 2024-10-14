@@ -10,7 +10,6 @@
 =--
 
 
-# Tall--Wraith monoids
 * table of contents
 {: toc}
 
@@ -235,7 +234,7 @@ In the important example where $T$ is the theory of commutative rings and $\Lamb
 
 * [[Andrew Stacey|A. Stacey]] and S. Whitehouse, _The Hunting of the Hopf Ring_,   Homology, Homotopy and Applications __11__(2), 2009, 75--132, [online](http://intlpress.com/HHA/v11/n2/a6), [arXiv/0711.3722](http://arxiv.org/abs/0711.3722).
 
-An old and long query-discussion has been archived starting [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=291&Focus=26302#Comment_26302).
+An old and long query-discussion has been archived starting [here](https://nforum.ncatlab.org/discussion/291/updated-reference-in-tallwraith-monoid/?Focus=26302#Comment_26302).
 
 [[!redirects Tall-Wraith monoid]]
 [[!redirects Tall-Wraith monoids]]
