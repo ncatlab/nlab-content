@@ -44,10 +44,13 @@ This fits with the fact that $M$ is an extension of $A$ by unary operations, so 
 ## Related pages
 
 - [[Tall–Wraith monoid]]
+- [[plethory]]
 
 ## References
 
 * [[Peter Freyd]], _Algebra valued functors in general and tensor products in particular_, Colloquium mathematicum. Vol. 14. No. 1. Polska Akademia Nauk. Instytut Matematyczny PAN, 1966.
+
+* [[Gavin Wraith]], _Algebras over Theories_ , Colloquium Mathematicum **XXIII** no.2 (1971) pp.181-190. ([link](https://eudml.org/doc/264519))
 
 * [[Francis Borceux]] and [[Enrico M. Vitale]], _On the notion of bimodel for functorial semantics_, Applied Categorical Structures 2.3 (1994): 283-295.
 
