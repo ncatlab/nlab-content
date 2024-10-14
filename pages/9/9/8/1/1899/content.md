@@ -225,6 +225,9 @@ which are simultaneously *monadic and comonadic*: the comonadicity means $G$ is 
 In the important example where $T$ is the theory of commutative rings and $\Lambda$ is the bialgebra $\mathbb{Z}[x_1, x_2, \ldots]$, equipped with a Tall-Wraith multiplication $\Lambda \odot \Lambda \to \Lambda$ given by [[plethysm]] (a decategorified product that arises by viewing $\Lambda$ as the Grothendieck ring of the category of $Ab$-valued [[species]] together with its substitution or plethystic product), the category $Alg_\Lambda$ may be identified with the category of [[lambda-rings]]. In this case the monad $\Lambda \odot -$ has right adjoint given by $\hom(\Lambda, -)$. The *right* adjoint $CRing \to \Lambda Ring$ to the forgetful functor is the big Witt functor, often denoted $W$. 
 =-- 
 
+## Related pages
+
+- [[bimodel]]
 
 ## References
 
