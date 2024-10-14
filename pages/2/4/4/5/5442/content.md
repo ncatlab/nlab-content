@@ -5,6 +5,10 @@ The document
 
 is a textbook that leads from basics of [[category theory]] and [[algebra]] to a discussion of [[scheme | schemes]], [[algebraic space | spaces]] and [[algebraic stack | algebraic stacks]].
 
+In addition, the project issued a collection of several more advanced articles which are beyond the current state of the main textbook project:
+
+* Stacks Project Expository Collection (SPEC), ed. by Pieter Belmans, Wei Ho, [[Aise Johan de Jong]], London Math. Soc. Lec. Note Series __480__, 268--289 [doi](https://doi.org/10.1017/9781009051897.011)
+
 ## See also
 
 * [[Kerodon]]
