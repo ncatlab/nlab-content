@@ -1,43 +1,39 @@
-{:myproof: .proof style="margin-left:2em;"}
-{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-
-# Infinitary Lawvere theories
+[[!redirects infinitary Lawvere theory]]
 * table of contents
 {: toc}
 
 ## Idea
 
-An infinitary Lawvere theory is a generalisation of a [[Lawvere theory]] to allow infinitary operations.  As a motivating example, consider the theory of [[suplattices]], where we have, for every [[cardinal number]] $\kappa$, an operation to take the [[supremum]] of $\kappa$-many elements.
+An **infinitary algebraic theory** is a variant of the notion of [[algebraic theory]] that permits operations of any (infinite) arity. As a motivating example, consider the theory of [[suplattices]], where we have, for every [[cardinal number]] $\kappa$, an operation to take the [[supremum]] of $\kappa$-many elements.
 
-Size issues can be tricky for infinitary Lawvere theories.  Na&#239;vely, you would expect an infinitary Lawvere theory of [[complete lattices]] too, but there is none, because a smallness condition fails.  (This is connected to the nonexistence of [[free complete lattices]].)
+Size issues can be tricky for infinitary algebraic theories. Na&#239;vely, one might expect there to be an infinitary algebraic theory of [[complete lattices]] too, but there is none, because a smallness condition fails. (This is connected to the nonexistence of [[free complete lattices]].)
 
-In accordance with the [[red herring principle]], an infinitary Lawvere theory should not be thought of a special case of a [[Lawvere theory]].  To avoid this, one may call the latter a *finitary* Lawvere theory.
+(To explicitly distinguish between infinitary algebraic theories and algebraic theories, we may sometimes call the former **finitary**.)
 
-There are also many-sorted infinitary Lawvere theories, as well as $\kappa$-ary Lawvere theories for any [[regular cardinal]] $\kappa$.
-
+The notion of infinitary algebraic theory is distinguished here from the concept of **$\kappa$-ary algebraic theory** for an [[arity class]] $\kappa$, since these behave more similarly to finitary algebraic theories.
 
 ## Definitions
 
-A __many-sorted infinitary Lawvere theory__ is a [[locally small category]] $\mathcal{D}$ with all small [[products]] and with a small collection $\mathcal{R}$ of objects (called __sorts__) such that every object is a small product of these sorts.
+A __many-sorted infinitary algebraic theory__ is a [[locally small category]] $\mathcal{D}$ with all small [[products]] and with a small collection $\mathcal{R}$ of objects (called __sorts__) such that every object is a small product of these sorts.
 
-Given a small [[set]] $S$, an __$S$-sorted infinitary Lawvere theory__ is a locally small category $\mathcal{D}$ with all small products and equipped with an $S$-indexed family $\mathcal{R}$ of objects (called __sorts__) such that every object is a small product of these sorts.  (Note that an $S$-indexed family of objects is precisely a [[functor]] to $\mathcal{D}$ from the [[discrete category]] on $S$.)
+Given a small [[set]] $S$, an __$S$-sorted infinitary algebraic theory__ is a locally small category $\mathcal{D}$ with all small products and equipped with an $S$-indexed family $\mathcal{R}$ of objects (called __sorts__) such that every object is a small product of these sorts.  (Note that an $S$-indexed family of objects is precisely a [[functor]] to $\mathcal{D}$ from the [[discrete category]] on $S$.)
 
-If $(\mathcal{D},\mathcal{R})$ is an $S$-sorted infinitary Lawvere theory, then $\mathcal{D}$ is a many-sorted infinitary Lawvere theory; conversely, any many-sorted infinitary Lawvere theory may be interpreted as an $S$-sorted infinitary Lawvere theory, where $S$ is (the set of isomoprhism classes of) an appropriate family $\mathcal{R}$ and the $S$-indexed family is given by the identity indexing.
+If $(\mathcal{D},\mathcal{R})$ is an $S$-sorted infinitary algebraic theory, then $\mathcal{D}$ is a many-sorted infinitary algebraic theory; conversely, any many-sorted infinitary algebraic theory may be interpreted as an $S$-sorted infinitary algebraic theory, where $S$ is (the set of isomoprhism classes of) an appropriate family $\mathcal{R}$ and the $S$-indexed family is given by the identity indexing.
 
-An __unsorted infinitary Lawvere theory__ is a locally small category $\mathcal{D}$ with all small products and equipped with an object $R$ (so that $(\mathcal{D},R)$ is a [[pointed category]]) such that every object is [[isomorphic]] to $R^n$ for some small cardinal number $n$.  An __infinitary Lawvere theory__ is by default an unsorted infinitary Lawvere theory, invoking the [[red herring principle]].  Note that an unsorted infinitary Lawvery theory is the same thing as a $1$-sorted infinitary Lawvere theory.
+An __unsorted infinitary algebraic theory__ is a locally small category $\mathcal{D}$ with all small products and equipped with an object $R$ (so that $(\mathcal{D},R)$ is a [[pointed category]]) such that every object is [[isomorphic]] to $R^n$ for some small cardinal number $n$.  An __infinitary algebraic theory__ is by default an unsorted infinitary algebraic theory, invoking the [[red herring principle]].  Note that an unsorted infinitary Lawvery theory is the same thing as a $1$-sorted infinitary algebraic theory.
 
-We will give the definitions of further special cases for unsorted infinitary Lawvere theories, but these definitions may also be generalised to the many-sorted case.
+We will give the definitions of further special cases for unsorted infinitary algebraic theories, but these definitions may also be generalised to the many-sorted case.
 
-Given a [[regular cardinal]] $\kappa$, a __$\kappa$-ary Lawvere theory__ is a locally small pointed category $(\mathcal{D},R)$ with all $n$-ary products for $n \lt \kappa$ such that every object is isomorphic to $R^n$ for some $n \lt \kappa$.  Every $\kappa$-ary Lawvere theory may be interpreted as an infinitary Lawvere theory by using the free category with all small products on $\mathcal{D}$.  More generally, every $\kappa$-ary Lawvere theory may be interpreted as a $\lambda$-ary Lawvere theory if $\kappa \leq \lambda$.
+Given a [[regular cardinal]] $\kappa$, a __$\kappa$-ary algebraic theory__ is a locally small pointed category $(\mathcal{D},R)$ with all $n$-ary products for $n \lt \kappa$ such that every object is isomorphic to $R^n$ for some $n \lt \kappa$.  Every $\kappa$-ary algebraic theory may be interpreted as an infinitary algebraic theory by using the free category with all small products on $\mathcal{D}$.  More generally, every $\kappa$-ary algebraic theory may be interpreted as a $\lambda$-ary algebraic theory if $\kappa \leq \lambda$.
 
-A __bounded infinitary Lawvere theory__ is an infinitary Lawvere theory which is (under the interpretation above) [[equivalence of categories|equivalent]] to some $\kappa$-ary Lawvere theory.
+A __bounded infinitary algebraic theory__ is an infinitary algebraic theory which is (under the interpretation above) [[equivalence of categories|equivalent]] to some $\kappa$-ary algebraic theory.
 
-A __finitary Lawvere theory__ is a locally small pointed category $(\mathcal{D},R)$ with all finitary products such that every object is isomorphic to $R^n$ for some [[natural number]] $n$.  A __[[Lawvere theory]]__ is by default a finitary Lawvere theory, invoking the [[red herring principle]].  Note that a finitary Lawvere theory is the same thing as an $\aleph_0$-ary Lawvere theory.
+A __finitary algebraic theory__ is a locally small pointed category $(\mathcal{D},R)$ with all finitary products such that every object is isomorphic to $R^n$ for some [[natural number]] $n$.  A __[[algebraic theory]]__ is by default a finitary algebraic theory, invoking the [[red herring principle]].  Note that a finitary algebraic theory is the same thing as an $\aleph_0$-ary algebraic theory.
 
 
 ## Size matters
 
-Given a category $\mathcal{D}$ with small products, we may be interested in knowing whether it is equivalent to a many-sorted infinitary Lawvere theory (with a set of sorts). [Freyd and Street (1995)](http://tac.mta.ca/tac/volumes/1995/n9/1-09abs.html) have shown that a category $\mathcal{D}$ is [[small category|small]] if and only if both $\mathcal{D}$ and the [[functor category]] $[\mathcal{D},Set]$ are locally small.  Analogously, it seems that a category $\mathcal{D}$ with products may be given the structure of a many-sorted infinitary Lawvere theory (with a set of sorts) if and only if both $\mathcal{D}$ and $Prod[\mathcal{D},Set]$ (the category of [[product-preserving functor]]s from $\mathcal{D}$ to $Set$, a [[full subcategory]] of $[\mathcal{D},Set]$) are locally small.  In both cases, the 'only if' part is straightfoward, but we haven't yet proved the 'if' part.
+Given a category $\mathcal{D}$ with small products, we may be interested in knowing whether it is equivalent to a many-sorted infinitary algebraic theory (with a set of sorts). [Freyd and Street (1995)](http://tac.mta.ca/tac/volumes/1995/n9/1-09abs.html) have shown that a category $\mathcal{D}$ is [[small category|small]] if and only if both $\mathcal{D}$ and the [[functor category]] $[\mathcal{D},Set]$ are locally small.  Analogously, it seems that a category $\mathcal{D}$ with products may be given the structure of a many-sorted infinitary algebraic theory (with a set of sorts) if and only if both $\mathcal{D}$ and $Prod[\mathcal{D},Set]$ (the category of [[product-preserving functor]]s from $\mathcal{D}$ to $Set$, a [[full subcategory]] of $[\mathcal{D},Set]$) are locally small.  In both cases, the 'only if' part is straightfoward, but we haven't yet proved the 'if' part.
 
 See [the n-Forum](https://nforum.ncatlab.org/comments.php?DiscussionID=1673) for more preliminary results.
 
@@ -46,7 +42,7 @@ See [the n-Forum](https://nforum.ncatlab.org/comments.php?DiscussionID=1673) for
 
 +-- {: .un_lemma}
 ###### Conjecture
-A multi-sorted infinitary Lawvere theory $\mathcal{D}$ defines a [[monadic category]] over [[Set]] by taking the [[functor category]] consisting of all **product-preserving** covariant functors from $\mathcal{D}$ in to $Set$.
+A multi-sorted infinitary algebraic theory $\mathcal{D}$ defines a [[monadic category]] over [[Set]] by taking the [[functor category]] consisting of all **product-preserving** covariant functors from $\mathcal{D}$ in to $Set$.
 =--
 
 Let us write this functor category as $Prod[\mathcal{D},Set]$ and start by showing that it is a [[locally small category]].
@@ -55,6 +51,9 @@ Let us write this functor category as $Prod[\mathcal{D},Set]$ and start by showi
 ###### Lemma
 The category $Prod[\mathcal{D},Set]$ of product-preserving functors and natural transformations is locally small.
 =--
+
+{:myproof: .proof style="margin-left:2em;"}
+{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 +-- {: myproof}
 ###### Proof
@@ -72,7 +71,7 @@ is a set.  We define a function $[V_1,V_2] \to \prod_{s \in S} Set(V_1(D_s), V_2
 \alpha \mapsto \big(\alpha_{D_s}\big)_{s \in S}.
 \end{equation}
 
-Let $D \in \mathcal{D}$ be an arbitrary object.  From the definition of a multi-sorted infinitary Lawvere theory, there is an isomorphism
+Let $D \in \mathcal{D}$ be an arbitrary object.  From the definition of a multi-sorted infinitary algebraic theory, there is an isomorphism
 $$
 d \colon D \cong \prod_{s \in S} D_s^{X_s}
 $$
@@ -604,4 +603,13 @@ The projection selects the $(s_0,v)$th term of the element in question, and this
 
 ## References
 
+* [[Fred Linton]], _Some aspects of equational categories_, Proceedings of the Conference on Categorical Algebra, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4_3](https://doi.org/10.1007/978-3-642-99902-4_3)&rbrack;
 * [[Martin Brandenburg]], _Large limit sketches and topological space objects_ ([arXiv:2106.11115](https://arxiv.org/abs/2106.11115))
+
+[[!redirects infinitary algebraic theories]]
+[[!redirects infinitary Lawvere theory]]
+[[!redirects infinitary Lawvere theories]]
+[[!redirects large algebraic theory]]
+[[!redirects varietal theory]]
+[[!redirects varietal theories]]
+[[!redirects large algebraic theories]]
