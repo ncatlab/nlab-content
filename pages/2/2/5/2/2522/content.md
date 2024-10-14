@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -1185,6 +1186,11 @@ On holomorphically [[topological twist|twisted]] [[superconformal algebras]]:
 
 * [[Ingmar Saberi]], [[Brian Williams]], *Superconformal algebras and holomorphic field theories* ([arXiv:1910.04120](https://arxiv.org/abs/1910.04120))
 
+On superconformal symmetry via [[derived geometry]]:
+
+* Fabian Hahner, Surya Raghavendran, [[Ingmar Saberi]], [[Brian R. Williams]]: *Local superconformal algebras* &lbrack;[arXiv:2410.08176](https://arxiv.org/abs/2410.08176)&rbrack;
+
+
 
 
 
@@ -1252,6 +1258,9 @@ Remembering that there is a considerable difference between global low energy su
 [[!redirects superconformal algebras]]
 [[!redirects super-conformal algebra]]
 [[!redirects super-conformal algebras]]
+
+[[!redirects superconformal symmetry]]
+[[!redirects superconformal symmetries]]
 
 
 [[!redirects local supersymmetry]]
