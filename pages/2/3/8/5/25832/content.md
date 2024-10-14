@@ -11,6 +11,11 @@ A review of [[exceptional field theory]]:
 
 * [[David Berman]], [[Chris D. A. Blair]], _The Geometry, Branes and Applications of Exceptional Field Theory_,  International Journal of Modern Physics A **35** 30 (2020) 2030014  &lbrack;[arXiv:2006.09777](http://arxiv.org/abs/2006.09777), [doi:10.1142/S0217751X20300148](https://doi.org/10.1142/S0217751X20300148)&rbrack;
 
+On [[double field theory|doubled]] [[superspace]] ([double supergeometry](type+II+geometry#ReferencesDoubledSupergeometry)):
+
+* [[Chris D. A. Blair]], Ondrej Hulik, Alexander Sevrin, [[Daniel C. Thompson]]: *Doubled space and extended supersymmetry*,  J. High Energ. Phys. **2022** 119 (2022) \[<a href=" https://doi.org/10.1007/JHEP08(2022)119">doi:10.1007/JHEP08(2022)119</a>\]
+
+
 On [[BFSS matrix model|BFSS]] [[matrix models]] and [[AdS/CFT]] [[holography]]:
 
 * [[Chris D. A. Blair]], Johannes Lahnsteiner, [[Niels A. Obers]], Ziqi Yan: *Matrix Theory Reloaded: A BPS Road to Holography* &lbrack;[arXiv:2410.03591](https://arxiv.org/abs/2410.03591)&rbrack;
