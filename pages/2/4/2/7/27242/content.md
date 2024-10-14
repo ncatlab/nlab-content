@@ -15,7 +15,7 @@
 
 ## Idea
 
-The most mathematically precise and successful form of [[quantization]]. It is equivalent to path integral quantization. All compact symplectic manifolds can be quantized using Berezin quantization, as shown in [BorthwickUribe](#BorthwickUribe), and Toeplitz quantization is a special case. When the Kostant–Souriau operator is defined it agrees with Berezin quantization, except that Berezin quantization is defined on all observables, whereas generically the Kostant-Souriau operators are trivial (generically, a genus $g\ge 3$ surface with the Kahler polarization has no automorphisms, so here the Kostant–Souriau maps are only defined on constants). 
+The most mathematically precise and successful form of [[quantization]], in the sense that all compact symplectic manifolds can be quantized using Berezin quantization, as shown in [BorthwickUribe](#BorthwickUribe), and Toeplitz quantization is a special case. It is equivalent to path integral quantization. When the Kostant–Souriau operator is defined it agrees with Berezin quantization, except that Berezin quantization is defined on all observables, whereas on a generic Kahler manifold the Kostant–Souriau prequantum operators are trivial (generically, a genus $g\ge 3$ surface with the Kahler polarization has no automorphisms, so here the Kostant–Souriau maps are only defined on constants). 
 
 ## Ingredients
 
@@ -30,7 +30,7 @@ $$\langle A\rangle(x)=Tr(q(x)A)\;.$$
 It follows that $\langle\rangle=Q^{\dagger},$ and that both $\langle\rangle$ and $Q$ preserve states. That is, if $f\ge 0$ and $\int_M f\,d\mu=1$ then $Q_f\ge 0$ and $Tr(Q_f)=1;$ if $A\ge 0$ and $Tr(A)=1$ then $\langle A\rangle\ge 0$ and $\int_M\langle A\rangle\,d\mu=1.$
 
 ##Relationship to Geometric Quantization
-The prequantum line bundle of [[geometric quantization]] is the pullback of the canonical bundle over $P(\mathcal{H})$ by $q.$
+The prequantum line bundle of [[geometric quantization]] is the pullback of the canonical bundle over $P(\mathcal{H})$ by $q.$ If the Hamiltonian vector field of $\langle A\rangle\in C^{\infty}(P(\mathcal{H}))$ is tangent to $q$ (with respect to the Fubini–Study form) then $A$ is equal to the Kostant–Souriau operator. 
 ## Related entries
 
 * [[geometrical formulation of quantum mechanics]]
