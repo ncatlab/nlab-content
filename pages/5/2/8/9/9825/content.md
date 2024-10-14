@@ -141,6 +141,7 @@ Namely -- by the [above](#Definition) -- a quantum measurement is formally refle
 * [[mutually unbiased bases]]
 
 
+
 ## References
 
 ### General
@@ -171,7 +172,6 @@ Review and discussion:
 
   > (form the perspective of [[open quantum systems]] and with focus on [[relativistic field theory]])
 
-
 * {#Renes15} [[Joseph M. Renes]], §A of: *Quantum Information Theory* (2015) &lbrack;[pdf](https://edu.itp.phys.ethz.ch/hs15/QIT/renes_lecture_notes14.pdf)&rbrack; De Gruyter (2022) &lbrack;[doi:10.1515/9783110570250](https://doi.org/10.1515/9783110570250)&rbrack;
 
 * {#Landsman17} [[Klaas Landsman]], Section 11: of _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
@@ -179,6 +179,12 @@ Review and discussion:
 In view of dynamical [[quantum decoherence]]:
 
 * [[Maximilian Schlosshauer]], *Decoherence, the measurement problem, and interpretations of quantum mechanics*,  	Rev. Mod. Phys. **76** (2004) 1267-1305 &lbrack;[arXiv:quant-ph/0312059](https://arxiv.org/abs/quant-ph/0312059), [doi:10.1103/RevModPhys.76.1267](https://doi.org/10.1103/RevModPhys.76.1267)&rbrack;
+
+On experimental realization in cloud chambers:
+
+* {#Schonfield21} Jonathan F. Schonfield: *The First Droplet in a Cloud Chamber Track*, Found Phys **51** 47 (2021) &lbrack;[doi:10.1007/s10701-021-00452-x](https://doi.org/10.1007/s10701-021-00452-x)&rbrack;
+
+* {#Schonfield22} Jonathan F. Schonfield: *Measured distribution of cloud chamber tracks from radioactive decay: A new empirical approach to investigating the quantum measurement problem*, Open Physics **20** 1 (2022) &lbrack;[doi:10.1515/phys-2022-0009](https://doi.org/10.1515/phys-2022-0009)&rbrack;
 
 See also:
 
