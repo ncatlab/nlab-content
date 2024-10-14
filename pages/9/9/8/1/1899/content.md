@@ -228,6 +228,7 @@ In the important example where $T$ is the theory of commutative rings and $\Lamb
 ## Related pages
 
 - [[bimodel]]
+- [[plethory]]
 
 ## References
 
