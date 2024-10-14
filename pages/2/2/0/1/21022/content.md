@@ -1,10 +1,7 @@
 * [website](https://www.mathi.uni-heidelberg.de/~saberi/)
 
-### Related entries
 
-* [[p-adic AdS-CFT]]
-
-### Writings
+### Selected writings
 
 On [[Chern-Simons theory]], [[D=3 gravity]], [[p-adic AdS/CFT duality]], [[BTZ black holes]], [[knot theory]] and [[3-manifolds]]:
 
@@ -32,6 +29,16 @@ On holomorphic [[topological twist|twists]] of [[superconformal algebras]]:
 Relating [[supermultiplets]] to [[L-infinity algebras|$L_\infty$-algebras]] via [[pure spinor]]-formalism:
 
 * [[Martin Cederwall]], Simon Jonsson, [[Jakob Palmkvist]], [[Ingmar Saberi]], *Canonical supermultiplets and their Koszul duals* &lbrack;[arXiv:2304.01258](https://arxiv.org/abs/2304.01258)&rbrack;
+
+On [[superconformal symmetry]] via [[derived geometry]]:
+
+* Fabian Hahner, Surya Raghavendran, [[Ingmar Saberi]], [[Brian R. Williams]]: *Local superconformal algebras* &lbrack;[arXiv:2410.08176](https://arxiv.org/abs/2410.08176)&rbrack;
+
+### Related entries
+
+* [[p-adic AdS-CFT]]
+
+
 
 
 category: people
