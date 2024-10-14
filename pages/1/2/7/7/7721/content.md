@@ -415,18 +415,19 @@ Much of the discussion of type II geometry has in fact been purely bosonic, igno
 
 In contrast, discussion combining [[doubled geometry]] with [[super-geometry]] includes the following:
 
-* Machiko Hatsuda, Kiyoshi Kamimura, [[Warren Siegel]], _Superspace with manifest T-duality from type II superstring_, J. High Energ. Phys. (2014) 2014: 39 ([arXiv:1403.3887](https://arxiv.org/abs/1403.3887))
+* Machiko Hatsuda, Kiyoshi Kamimura, [[Warren Siegel]], *Superspace with manifest T-duality from type II superstring*, J. High Energ. Phys.  **2014** 39 (2014) &lbrack;[arXiv:1403.3887](https://arxiv.org/abs/1403.3887), <a href="https://doi.org/10.1007/JHEP06(2014)039">doi:10.1007/JHEP06(2014)039</a>&rbrack;
 
-* {#Bandos15} [[Igor Bandos]], _Superstring in doubled superspace_, Physics Letters B Volume 751, 17 December 2015, Pages 408-412 ([arXiv:1507.07779](https://arxiv.org/abs/1507.07779))
+* {#Bandos15} [[Igor Bandos]]: *Superstring in doubled superspace*, Physics Letters B **751** (2015) 408-412 &lbrack;[doi:10.1016/j.physletb.2015.10.081](https://doi.org/10.1016/j.physletb.2015.10.081), [arXiv:1507.07779](https://arxiv.org/abs/1507.07779)&rbrack;
 
-* {#Cederwall16} [[Martin Cederwall]], _Double supergeometry_, J. High Energ. Phys. (2016) 155 ([arXiv:1603.04684](https://arxiv.org/abs/1603.04684))
+* {#Cederwall16} [[Martin Cederwall]], _Double supergeometry_, J. High Energ. Phys. **2016** 155 (2016) &lbrack;[arXiv:1603.04684](https://arxiv.org/abs/1603.04684), <a href="https://doi.org/10.1007/JHEP06(2016)155">doi:10.1007/JHEP06(2016)155</a>&rbrack;
 
-* Bojan Nikolić, Branislav Sazdović, _T-dualization of type II superstring theory in double space_, Eur. Phys. J. C77 (2017) no.3, 197 ([arXiv:1505.06044](https://arxiv.org/abs/1505.06044))
+* Bojan Nikolić, Branislav Sazdović, _T-dualization of type II superstring theory in double space_, Eur. Phys. J. C **77** 3 (2017) 197 &lbrack;[arXiv:1505.06044](https://arxiv.org/abs/1505.06044), [doi:10.1140/epjc/s10052-017-4758-0](https://doi.org/10.1140/epjc/s10052-017-4758-0)&rbrack;
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 6 of: _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_, [ATMP Volume 22 (2018) Number 5](http://www.intlpress.com/site/pub/pages/journals/items/atmp/content/vols/0022/0005/) ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]*, Adv. Theor. Math. Phys **22** 5 (2018) &lbrack;[arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](https://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3)&rbrack;
 
-* Bojan Nikolić, Branislav Sazdović, _Advantage of the second-order formalism in double space T-dualization of type II superstring_ ([arXiv:1907.03571](https://arxiv.org/abs/1907.03571))
+* Bojan Nikolić, Branislav Sazdović, _Advantage of the second-order formalism in double space T-dualization of type II superstring_ &lbrack;[arXiv:1907.03571](https://arxiv.org/abs/1907.03571)&rbrack;
 
+* [[Chris D. A. Blair]], Ondrej Hulik, Alexander Sevrin, [[Daniel C. Thompson]]: *Doubled space and extended supersymmetry*,  J. High Energ. Phys. **2022** 119 (2022) \[<a href=" https://doi.org/10.1007/JHEP08(2022)119">doi:10.1007/JHEP08(2022)119</a>\]
 
 
 See also the references on the corresponding [[super-geometry]]-enhancement of [[exceptional generalized geometry]]: _[Super-exceptional geometry -- References](exceptional+generalized+geometry#SuperExceptionalGeometryReferences)_
