@@ -1,3 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+* table of contents
+{: toc}
+
+## Idea
+
 Let $A$ and $B$ be [[algebraic theory|algebraic theories]]. The category $[A,B]$ of **$(A,B)$-bimodels** and their homomorphisms is the category of $A$-models and homomorphisms in $B Mod^{op}$. An alternative description is that is a co-$A$-model in $B Mod$. Each such bimodel $M$ determines and is determined by a pair of [[adjoint functor]]s
 
 $$Hom_B(M,?): B Mod \to A Mod$$
@@ -23,6 +40,10 @@ But it seems OK to me to call it an '$A$-monad'.  ---Toby
 
 This fits with the fact that $M$ is an extension of $A$ by unary operations, so one should be reminded of monoids, maybe? ---Gavin
 =--
+
+## Related pages
+
+- [[Tall–Wraith monoid]]
 
 ## References
 
