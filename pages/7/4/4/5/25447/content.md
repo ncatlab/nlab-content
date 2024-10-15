@@ -19,7 +19,7 @@ On [[simple type theory]]:
 
 On [[formal category theory|formal theory]] of [[relative monads]] via [[virtual equipments]]:
 
-* [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, Journal of Pure and Applied Algebra 107676. (2024) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
+* [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, Journal of Pure and Applied Algebra 107676. (2024) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack.
 
 * {#AM23b} [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_ (2023) &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
 
