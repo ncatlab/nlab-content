@@ -106,6 +106,6 @@ Over [[algebraic stacks]]/[[Deligne-Mumford stacks]] the GRR theorem is discusse
 
 For a [[categorification]] of GRR, see
 
-* Marc Hoyois, Pavel Safronov, Sarah Scherotzke, Nicolò Sibilla, _The categorified Grothendieck--Riemann--Roch theorem_, ([arXiv:1804.00879](https://arxiv.org/abs/1804.00879)) 
+* [[Marc Hoyois]], [[Pavel Safronov]], [[Sarah Scherotzke]], Nicolò Sibilla, _The categorified Grothendieck--Riemann--Roch theorem_, ([arXiv:1804.00879](https://arxiv.org/abs/1804.00879)) 
 
 [[!redirects Riemann-Roch theorem]]
