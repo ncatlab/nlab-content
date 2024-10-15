@@ -8,7 +8,7 @@
 * [[Ludmil Katzarkov]], [[Tony Pantev]], [[Bertrand Toën]], _Schematic homotopy types and non-abelian Hodge theory_, [math.AG/0107129](http://arxiv.org/abs/math/0107129)
 
 
-On [[string phenomenology]] in [[heterotic M-theory]]:
+On [[string phenomenology]], in [[heterotic M-theory]]:
 
 * {#DOPW99} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Models from Heterotic M-theory_, Adv. Theor. Math. Phys. 5 (2002) 93-137 ([arXiv:hep-th/9912208](https://arxiv.org/abs/hep-th/9912208))
 
