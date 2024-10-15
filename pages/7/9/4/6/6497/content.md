@@ -1,4 +1,4 @@
-__George Lusztig__ is a mathematician at MIT, born in Romania. He has many deep contributions to Lie theory and representation theory, especially using and developing the methods of [[geometric representation theory]]. He discovered the canonical bases of quantum and Lie groups (in a sense dual to the crystal basis of [[Masaki Kashiwara]]).
+__George Lusztig__; is a mathematician at MIT, born in Romania. He has many deep contributions to Lie theory and representation theory, especially using and developing the methods of [[geometric representation theory]]. He discovered the canonical bases of quantum and Lie groups (in a sense dual to the crystal basis of [[Masaki Kashiwara]]).
 
 * $n$Lab: [[Kazhdan-Lusztig theory]]
 * [homepage](http://math.mit.edu/~gyuri/)
@@ -30,7 +30,7 @@ On [[quantum group]]s (and relations to quivers and [[canonical bases]])
 
 On Kazhdan-Luzstig correspondence and monoidal structures
 
-* George Lusztig, [[David Kazhdan]], _Tensor structures arising from affine Lie algebras_, J. Amer. Math. Soc. __6__ (1993) 905-947 [doi](https://doi.org/10.1090/S0894-0347-1993-99999-X), Part II: J. Amer. Math. Soc. (1993), 949-1011 [doi](https://doi.org/10.1090/S0894-0347-1993-1186962-0); Part III: J. Amer. Math. Soc. (1994) 335-381 [doi](https://doi.org/10.1090/S0894-0347-1994-1239506-X); Part IV: J. Amer. Math. Soc. (1994) 383-453 [doi](https://doi.org/10.1090/S0894-0347-1994-1239507-1)
+* George Lusztig, [[David Kazhdan]], _Tensor structures arising from affine Lie algebras_, J. Amer. Math. Soc. __6__ (1993) 905-947 [doi](https://doi.org/10.1090/S0894-0347-1993-99999-X), Part II: J. Amer. Math. Soc. (1993), 949-1011 [doi](https://doi.org/10.1090/S0894-0347-1993-1186962-0); Part III: J. Amer. Math. Soc. (1994) 335-381 [doi](https://doi.org/10.1090/S0894-0347-1994-1239506-X); Part IV: J. Amer. Math. Soc. (1994) 383-453 [doi](https://doi.org/10.1090/S0894-0347-1994-1239507-1).
 * G. Lusztig, _Comments on my papers_, [arXiv:1707.09368](https://arxiv.org/abs/1707.09368), 55 pages, contains historical notes on some of Lusztig's papers and the list of 247 publications till mid 2017
 
 [[!redirects G. Lusztig]]
