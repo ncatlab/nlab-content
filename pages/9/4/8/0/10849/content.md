@@ -24,9 +24,9 @@ On [[derived geometry|derived]] [[symplectic geometry]] ([[shifted symplectic st
 
 * [[Damien Calaque]], [[Tony Pantev]], [[Bertrand Toen]], [[Michel Vaquie]], [[Gabriele Vezzosi]], _Shifted Poisson structures and deformation quantization_, Journal of topology 10.2 (2017) 483--584 [arXiv:1506.03699](http://arxiv.org/abs/1506.03699)
 
-On [[preprojective algebras]]
+On [[preprojective algebras]] and [[Calabi-Yau structure]]s
 
-* Tristan Bozec, [[Damien Calaque]], Sarah Scherotzke, _Calabi-Yau structures for multiplicative preprojective algebras_, J. Noncommut. Geom. __17__(3) (2023) 783--810  [arXiv:2102.12336](https://arxiv.org/abs/2102.12336)
+* Tristan Bozec, [[Damien Calaque]], [[Sarah Scherotzke]], _Calabi-Yau structures for multiplicative preprojective algebras_, J. Noncommut. Geom. __17__(3) (2023) 783--810  [arXiv:2102.12336](https://arxiv.org/abs/2102.12336)
 
 Review of [[shifted symplectic structures]]:
 
