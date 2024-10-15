@@ -8,11 +8,11 @@
 =--
 =--
 
-## Idea
+## Idea:
 
 Coalgebroid is a horizontal categorification of a coalgebra. The concept may be introduced in various levels of generality.
 
-## Literature
+## Literature:
 
 * Phùng Hô Hai, _Tannaka-Krein duality for Hopf algebroids_, Israel Journal of Mathematics __167__, 193--225 [doi](https://doi.org/10.1007/s11856-008-1047-5)
 
