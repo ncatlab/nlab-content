@@ -158,6 +158,7 @@ A relative version is defined for functors instead of categories,
 * Christopher Brav, [[Nick Rozenblyum]], _The cyclic Deligne conjecture and Calabi-Yau structures_, [arXiv:2305.10323](https://arxiv.org/abs/2305.10323) 
 * [[Bernhard Keller]], Yu Wang, _An introduction to relative Calabi-Yau structures_, [arXiv:2111.10771](https://arxiv.org/abs/2111.10771)
 * Christopher Kuo, Wenyuan Li, _Relative Calabi-Yau structure on microlocalization_, [arXiv:2408.04085](https://arxiv.org/abs/2408.04085)
+* [[Ludmil Katzarkov]], Pranav Pandit, Theodore Spaide, _Calabi-Yau structures, spherical functors, and shifted symplectic structures_, Adv. Math. __392__ (2021) 108037 [doi](https://doi.org/10.1016/j.aim.2021.108037)
 
 [[!redirects Calabi-Yau category]]
 [[!redirects Calabi-Yau categories]]
