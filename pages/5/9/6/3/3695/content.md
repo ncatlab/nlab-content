@@ -55,7 +55,7 @@ Sibuya's has a textbook chapter on Stokes phenomena
 
 * [[Valerio Toledano Laredo]], _Stability conditions and Stokes factors_, audio of the talk at UCSB, [link](http://doug-pc.itp.ucsb.edu/online/duality09/toledanolaredo1); slides [pdf](http://doug-pc.itp.ucsb.edu/online/duality09/toledanolaredo1/pdf/Toledanolaredo1_String_Duality_KITP.pdf)
 
-* [[L. Katzarkov]], [[M. Kontsevich]], [[T. Pantev]], _Hodge theoretic aspects of mirror symmetry_, [arxiv/0806.0107](http://arxiv.org/abs/0806.0107)
+* [[L. Katzarkov]], [[M. Kontsevich]], [[T. Pantev]], _Hodge theoretic aspects of mirror symmetry_, [arxiv/0806.0107](http://arxiv.org/abs/0806.0107) Proc. of Symposia in Pure Math. __78__ (2008), "From Hodge theory to integrability  and TQFT: $tt^*$-geometry",  eds. Ron Y. Donagi and Katrin Wendland, 87--174
 
 * M. Loday-Richaud, _Stokes cocycle and differential Galois groups_, J. Math. Sci. __124__, No. 5, 2004, [pdf](http://www.springerlink.com/content/h42h3vk6w59q0820/fulltext.pdf)
 
