@@ -114,7 +114,7 @@ If $D$ is cartesian closed, and the reflector $L \colon D \to C$ preserves produ
 \begin{proof} 
 We have already seen under the hypotheses that if $c, c'$ are in $C$, then the exponential $c^{c'}$ as calculated in $D$ is in $C$. Furthermore, $C$ inherits products from $D$, because $R \colon C \to D$ is monadic and monadic functors reflect limits. The adjunction $C(c'' \times c', c) \cong C(c'', c^{c'})$ holds because it holds when interpreted in $D$ and $C$ is fully embedded in $D$.
 
-For the converse, see Theorem 3.10 of [Street 1980](#Street80).
+For the converse, you can see Theorem 3.10 of [Street 1980](#Street80).
 \end{proof} 
 
 ## Reference 
