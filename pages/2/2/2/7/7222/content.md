@@ -76,7 +76,7 @@ The formulation in terms of [[topological K-theory]] is due to:
 
 * {#AtiyahHirzebruch61} [[Michael Atiyah]], [[Friedrich Hirzebruch]], _Vector bundles and homogeneous spaces_, Proc. Symp. Pure Math. 3, 7&#8211;38 (1961) 
 
-Early textbook accounts:
+Early textbook account:
 
 * {#Karoubi78} [[Max Karoubi]], Chapter V.4 of: _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
 
