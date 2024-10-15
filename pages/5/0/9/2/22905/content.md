@@ -253,7 +253,9 @@ It has then be developed for the purposes of machine learning in:
 
 * {#Gavranovic2019} [[Bruno Gavranović]], _Compositional Deep Learning_ &lbrack;[arXiv:1907.08292](https://arxiv.org/abs/1907.08292)&rbrack;
 
-* {#Cruttwell2021} [[G.S.H. Cruttwell]], [[Bruno Gavranović]], [[Neil Ghani]], Paul Wilson, Fabio Zanasi, _Categorical Foundations of Gradient-Based Learning_, ([arXiv:2103.01931](https://arxiv.org/abs/2103.01931))
+* {#Cruttwell2021} [[G.S.H. Cruttwell]], [[Bruno Gavranović]], [[Neil Ghani]], [[Paul Wilson]], [[Fabio Zanasi]], _Categorical Foundations of Gradient-Based Learning_, ([arXiv:2103.01931](https://arxiv.org/abs/2103.01931))
+
+* {#Cruttwell2024} [[G.S.H. Cruttwell]], [[Bruno Gavranović]], [[Neil Ghani]], [[Paul Wilson]], [[Fabio Zanasi]], _Deep Learning for Parametric Lenses_, ([arXiv:2404.00408](https://arxiv.org/abs/2404.00408))
 
 and generalized further to [[actegories]] for the purposes of categorical cybernetics in:
 
