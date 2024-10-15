@@ -59,7 +59,7 @@ The notion is due to:
 
 * [[Jan Schouten]], _On the differential operators of the first order in tensor calculus_, In: Convegno Int. Geom. Diff. Italia. (1953) 1–7
 
-* [[Albert Nijenhuis]], _Jacobi-type identities for bilinear differential concomitants of certain tensor fields I_, Indagationes Mathematicae **17** (1955) 390–403 &lbrack;[doi:10.1016/S1385-7258(55)50054-0](https://doi.org/10.1016/S1385-7258(55)50054-0)&rbrack;
+* [[Albert Nijenhuis]], _Jacobi-type identities for bilinear differential concomitants of certain tensor fields I_, Indagationes Mathematicae **17** (1955) 390--403 &lbrack;<a href="https://doi.org/10.1016/S1385-7258(55)50054-0">doi:10.1016/S1385-7258(55)50054-0</a>&rbrack;
 
 A coordinate-free treatment is given in
 
@@ -73,6 +73,13 @@ Textbook account: Chapter 33.2 of
 
 * [[Peter W. Michor]], _Topics in Differential Geometry_, Graduate Studies in Mathematics 93 (2008).  [PDF](https://www.mat.univie.ac.at/~michor/dgbook.pdf).
 
+A generalization is via so called Vinogradov bracket
+
+* A. M. Vinogradov, Объединение скобок Схоутена и Нийенхейса, когомологии и супердифференциальные операторы (Unification of the Schouten and Nijenhuis brackets, cohomology, and superdifferential operators), Mat. Zametki 47(6), 138 (1990) mathnet.ru:[mzm3270](http://mi.mathnet.ru/mzm3270)
+
+which is in turn the antisymmetrization of the derived bracket,
+
+* Yvette Kosmann-Schwarzbach, _Derived brackets_, Lett. Math. Phys. __69__, 61–87 (2004) [doi](https://doi.org/10.1007/s11005-004-0608-8)
 
 [[!redirects Schouten-Nijenhuis bracket]]
 [[!redirects Schouten–Nijenhuis bracket]]
