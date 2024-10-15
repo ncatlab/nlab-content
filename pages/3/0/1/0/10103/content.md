@@ -11,8 +11,6 @@
 =--
 =--
 
-# Distributive monoidal categories
-
 * table of contents
 {: toc}
 
