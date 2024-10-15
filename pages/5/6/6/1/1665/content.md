@@ -19,11 +19,13 @@ The notion of _Kan lift_ in a [[2-category]] or in a [[bicategory]] is [[duality
 
 Informally, a Kan lift is a best approximate solution to the problem of finding a lift $\widetilde{f}: A \to B$ of an arrow ([[morphism]]) $f: A \to C$ through an arrow $p: B \to C$, as in the [[diagram]]
 
-$$\array{
- & & B \\
- & & \downarrow p \\
-A & \overset{f}{\to} & C
-}$$
+\begin{tikzcd}
+	& B \\
+	A & C
+	\arrow["p", from=1-2, to=2-2]
+	\arrow["{Rift_p f}", dashed, from=2-1, to=1-2]
+	\arrow["f"', from=2-1, to=2-2]
+\end{tikzcd}
 
 Of course, lifts typically don't literally exist in the sense of an equation $p \circ \widetilde{f} = f$ or an [[isomorphism]] $p \circ \widetilde{f} \cong f$. But in good situations, one may have the next best thing: a [[2-morphism|2-cell]] $p \circ \widetilde{f} \Rightarrow f$ which is universal among 2-cells of this form. This gives the notion of _right_ Kan lift. The notion of _left_ Kan lift is similar, but with 2-cells in the opposite direction. 
 
