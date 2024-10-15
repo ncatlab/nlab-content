@@ -99,7 +99,7 @@ For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+
 
 
 
-## publications
+## publications:
 
 
 * see [at GoogleScholar](https://scholar.google.com/citations?hl=en&user=bDfHFDcAAAAJ)
