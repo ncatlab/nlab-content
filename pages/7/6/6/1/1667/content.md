@@ -8,9 +8,18 @@ Hitherto I have not used wikis much, but have preferred to restrict myself to a 
 
 ## Selected writings
 
+On [[birings]] and what came to be called the *[[Tall-Wraith monoid]]*:
+
+* D. Tall, [[Gavin Wraith]]: *Representable functors and operations on rings*,  Proc. London Math. Soc. **s3-20** 4, (1970) 619-643 &lbrack;[doi:10.1112/plms/s3-20.4.619](http://dx.doi.org/10.1112/plms/s3-20.4.619), [MR265348](http://www.ams.org/mathscinet-getitem?mr=265348)&rbrack;
+
+
 On [[indexed categories]]:
 
 * [[P. T. Johnstone]], [[R. Paré]], [[R. D. Rosebrugh]], [[D. Schumacher]], [[R. J. Wood]], [[G. C. Wraith]], _Indexed Categories and Their Applications_, Lecture Notes in Mathematics **661** (1978) &lbrack;[doi:10.1007/bfb0061362](https://doi.org/10.1007/bfb0061362)&rbrack;
+
+## Related entries
+
+* [[plethory]]
 
 
 category: people
