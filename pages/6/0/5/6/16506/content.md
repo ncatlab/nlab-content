@@ -48,7 +48,7 @@ Then we describe it, more generally as the monad induced by a right [[base chang
 
 * [via base change](#DefinitionViaBaseChange).
 
-In this form the construction makes sense more generally (see for instance the *[[quantum reader monad]]*).
+In this form the construction makes more sense  generally (see for instance the *[[quantum reader monad]]*).
 
 We write 
 
