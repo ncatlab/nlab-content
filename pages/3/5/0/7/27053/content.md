@@ -14,7 +14,7 @@ It has been proved by Cherednik in 1995; for that purpose he (earlier) introduce
 
 * [[Ivan Cherednik]], _Double affine Hecke algebras and Macdonald’s conjectures_, Ann. of Math.(2) 141:1 (1995) 191--216.
 
-See at the beginning of the talk
+See at the beginning of the talk.
 
 * [[Yuri Berest]], _Representation homology and strong Macdonald conjectures_ (slides [pdf](https://math.berkeley.edu/~sashau/Berest-slides.pdf))
 
