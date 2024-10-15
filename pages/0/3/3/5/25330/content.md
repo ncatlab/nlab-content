@@ -58,7 +58,7 @@ The above is due to ([Siehler 2000, theorem 1.2(1)](#Siehler2000)).
 
 ## Examples
 
-* $TY(\mathbb{Z}_{2})$ is realised by two distinct unitary fusion categories (distinguished by the Frobenius-Schur indicator $\varkappa_{m}\in\{+1,-1\}$ of $m$), each of which admit $4$ distinct braidings. All $8$ of these unitary braided fusion categories (UBFCs) are [modular](modular+tensor+category). In particular, the $4$ UBFCs with $\varkappa_{m}=+1$ are also known as the Ising categories (which describe [$SU(2)$-anyons](su2-anyon) at level $k=2$).
+* $TY(\mathbb{Z}_{2})$ is realised by two distinct unitary fusion categories (distinguished by the Frobenius-Schur indicator $\varkappa_{m}\in\{+1,-1\}$ of $m$), each of which admit $4$ distinct braidings. All $8$ of these unitary braided fusion categories (UBFCs) are [modular](modular+tensor+category). Two of the UBFCs with $\varkappa_{m}=+1$ are known as the Ising categories, while two of the UBFCs with $\varkappa_{m}=-1$ describe [$SU(2)$-anyons](su2-anyon) at level $k=2$.
 
 * As worked out in [Tambara & Yamagami (1998)](#Tambara1998tensor), for $TY(\mathbb{Z}_2\times\mathbb{Z}_2)$, there are two possible choices of roots ($\tau=\pm\frac{1}{2}$), and two choices of classes of bicharacters. For $\tau=\frac{1}{2}$ and trivial bicharacter, $TY$ is the [[category of representations]] of the [[dihedral group]] $D_8$. For $\tau=-\frac{1}{2}$ and trivial character, this is the representation category of the [[quaternion group]] $Q_8$. For $\tau=\frac{1}{2}$ and nontrivial character, this is the representation category of the Kac-Paljutkin 8-dimensional [[Hopf algebra]]. The remaining choice does not correspond to the category of representations of a Hopf algebra (see also [[Tannaka duality]]). 
 
