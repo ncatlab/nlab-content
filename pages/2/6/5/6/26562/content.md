@@ -383,15 +383,15 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#hypernormalization} [[Bart Jacobs]], _Hyper Normalisation and Conditioning for Discrete Probability Distributions_, LMCS 13, 2017. ([arXiv](https://arxiv.org/abs/1607.02790))
 
-* {#causal_surgery} [[Bart Jacobs]], Aleks Kissinger, Fabio Zanasi, _Causal Inference by String Diagram Surgery_, ([arXiv:1811.08338](https://arxiv.org/abs/1811.08338))
+* {#causal_surgery} [[Bart Jacobs]], [[Aleks Kissinger]], [[Fabio Zanasi]], _Causal Inference by String Diagram Surgery_, ([arXiv:1811.08338](https://arxiv.org/abs/1811.08338))
 
 * {#definetti_limit} [[Bart Jacobs]], [[Sam Staton]], _De Finetti's construction as a categorical limit_, Proceedings of CMCS, 2021. ([arXiv:2003.01964](https://arxiv.org/abs/2003.01964))
 
 * {#overdrawing} [[Bart Jacobs]] and [[Dario Stein]], _Overdrawing Urns using Categories of Signed Probabilities_, Proceedings of Applied Category Theory, EPTCS 397, 2023. ([arXiv](https://arxiv.org/abs/2312.12453))
 
-* {#essential_bayes} [[Bart Jacobs]], Fabio Zanasi, _The Logical Essentials of Bayesian Reasoning_, ([arXiv:1804.01193](https://arxiv.org/abs/1804.01193))
+* {#essential_bayes} [[Bart Jacobs]], [[Fabio Zanasi]], _The Logical Essentials of Bayesian Reasoning_, ([arXiv:1804.01193](https://arxiv.org/abs/1804.01193))
 
-* {#bayes_adjoint} [[Bart Jacobs]], Fabio Zanasi, and Octavio Zapata, _Bayesian Factorisation as Adjoint, [abstract](http://wadt18.cs.rhul.ac.uk/submissions/WADT18A33.pdf)
+* {#bayes_adjoint} [[Bart Jacobs]], [[Fabio Zanasi]], and Octavio Zapata, _Bayesian Factorisation as Adjoint, [abstract](http://wadt18.cs.rhul.ac.uk/submissions/WADT18A33.pdf)
 
 * {#jones_plotkin89} Claire Jones and [[Gordon Plotkin]], _A probabilistic powerdomain of evaluations_, Procedings of LICS, 1989. ([doi](https://doi.org/10.1109/LICS.1989.39173))
 
