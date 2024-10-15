@@ -1251,6 +1251,9 @@ Remembering that there is a considerable difference between global low energy su
 [[!redirects supersymmetries]]
 [[!redirects Supersymmetry]]
 
+[[!redirects super-symmetry]]
+[[!redirects super-symmetries]]
+
 [[!redirects supersymmetry algebra]]
 [[!redirects supersymmetry algebras]]
 
