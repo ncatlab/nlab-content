@@ -82,6 +82,8 @@ If such a lift exists at all, one also says that $h$ has the *left [[lifting pro
 
 * [[projective object]]
 
+* [[orthogonality]]
+
 
 [[!redirects lifts]]
 
