@@ -9,7 +9,6 @@
 =--
 =--
 
-# The representable functor theorem
 * table of contents
 {: toc}
 
