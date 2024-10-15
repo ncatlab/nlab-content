@@ -61,7 +61,7 @@ Given such a setup, Pronk constructs the [[localization]] of $B$ at $W$ and the 
 
 ## Example
 
-Let $S$ be a category with binary products and pullbacks together with a class of [[davidroberts:class of admissible maps|admissible maps]] $E$.
+Let $S$ be a category with binary products and pullbacks, together with a class of [[davidroberts:class of admissible maps|admissible maps]] $E$.
 
 +-- {: .num_theorem}
 ######Theorem: 
