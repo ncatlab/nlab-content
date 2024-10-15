@@ -1,6 +1,13 @@
-* [webpage](https://pbelmans.ncag.info)
 
-* [webpage](https://www.uantwerpen.be/en/staff/pieter-belmans/)
+
+* [personal webpage](https://pbelmans.ncag.info)
+
+* [institute webpage](https://www.uni.lu/fstm-en/people/pieter-belmans/)
+
+* [GoogleScholar page](https://scholar.google.co.uk/citations?user=dX7G0o4AAAAJ)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=219852)
+
 
 ## Selected writings
 
