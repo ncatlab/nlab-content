@@ -78,13 +78,14 @@ Textbook accounts:
 
 * [[Siegfried Bosch]], *Algebraic Geometry and Commutative Algebra*, Universitext, Springer (2017) &lbrack;[doi:10.1007/978-1-4471-4829-6](https://doi.org/10.1007/978-1-4471-4829-6)&rbrack;
 
-*  Ulrich Görtz, Torsten Wedhorn, *Algebraic Geometry I: Schemes*, Springer (2020) &lbrack;[doi:10.1007/978-3-658-30733-2](https://doi.org/10.1007/978-3-658-30733-2)&rbrack; 
+*  Ulrich Görtz, Torsten Wedhorn, *Algebraic Geometry I: Schemes*, Springer (2020) &lbrack;[doi:10.1007/978-3-658-30733-2](https://doi.org/10.1007/978-3-658-30733-2)&rbrack; ; *Algebraic Geometry II: Cohomology of Schemes*, Springer 2023
 
-* * [[Robin Hartshorne]], Algebraic Geometry, Graduate Texts in Mathematics volume 52, Springer 1977. &lbrack; [doi link](https://doi.org/10.1007/978-1-4757-3849-0) &rbrack;
+
+* [[Robin Hartshorne]], Algebraic Geometry, Graduate Texts in Mathematics __52__, Springer 1977. &lbrack;[doi:10.1007/978-1-4757-3849-0](https://doi.org/10.1007/978-1-4757-3849-0)&rbrack;
 
 Lecture notes:
 
-* [[Ravi Vakil]], _Foundations Of Algebraic Geometry_, Course notes ([web](http://math.stanford.edu/~vakil/216blog/))
+* [[Ravi Vakil]], _Foundations of algebraic geometry_, Course notes ([web](http://math.stanford.edu/~vakil/216blog/))
 
 See also the references at _[[functorial geometry]]_.
 
