@@ -348,4 +348,5 @@ For their [[black brane]]-reductions see:
 
 [[!redirects double dimensional reductions]]
 
-[[!redirects double dimensional reduction]]
+[[!redirects double-dimensional reduction]]
+[[!redirects double-dimensional reductions]]
