@@ -47,4 +47,4 @@ An approach to calculating [[scattering amplitudes]] in [[quantum field theory]]
 
 Journalistic coverage includes
 
-* Charlie Wood, *Physicists Reveal a Quantum Geometry That Exists Outside of Space and Time*, Quanta Magazine, Sep 25, 2024 (hosted at Simons Foundation) [html](https://www.quantamagazine.org/physicists-reveal-a-quantum-geometry-that-exists-outside-of-space-and-time-20240925/)
+* Charlie Wood, *Physicists Reveal a Quantum Geometry That Exists Outside of Space and Time*, Quanta Magazine, Sep 25, 2024 (hosted at Simons Foundation) [html](https://www.quantamagazine.org/physicists-reveal-a-quantum-geometry-that-exists-outside-of-space-and-time-20240925/).
