@@ -132,7 +132,9 @@ On the learning algorithm as analogous to the [[AdS/CFT correspondence]]:
 
 * [[David Spivak]], _Learners' languages_, ([arXiv:2103.01189](https://arxiv.org/abs/2103.01189))
 
-* G.S.H. Cruttwell, [[Bruno Gavranović]], [[Neil Ghani]], Paul Wilson, Fabio Zanasi, _Categorical Foundations of Gradient-Based Learning_, ([arXiv:2103.01931](https://arxiv.org/abs/2103.01931))
+* G.S.H. Cruttwell, [[Bruno Gavranović]], [[Neil Ghani]], [[Paul Wilson]], [[Fabio Zanasi]], _Categorical Foundations of Gradient-Based Learning_, ([arXiv:2103.01931](https://arxiv.org/abs/2103.01931))
+
+* {#Cruttwell2024} [[G.S.H. Cruttwell]], [[Bruno Gavranović]], [[Neil Ghani]], [[Paul Wilson]], [[Fabio Zanasi]], _Deep Learning for Parametric Lenses_, ([arXiv:2404.00408](https://arxiv.org/abs/2404.00408))
 
 * [[Bruno Gavranović]], Paul Lessard, Andrew Dudzik, Tamara von Glehn, João G. M. Araújo, Petar Veličković, _Categorical Deep Learning: An Algebraic Theory of Architectures_ &lbrack;[arXiv:2402.15332](https://arxiv.org/abs/2402.15332)&rbrack;
  
