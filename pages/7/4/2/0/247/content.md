@@ -33,7 +33,7 @@ On [[synthetic differential geometry]]:
 
 * [[Mike Shulman]], _Chicago Pizza-Seminar: Synthetic Differential Geometry_ ([pdf](http://home.sandiego.edu/~shulman/papers/sdg-pizza-seminar.pdf))
 
-## Talks
+## Talks.
 
 On [[higher observational type theory]]:
 
