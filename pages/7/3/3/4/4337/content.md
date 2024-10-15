@@ -56,13 +56,13 @@ In other words,
 
 The idea was introduced here, where it was called a "biring triple":
 
-* {#TW70} D. Tall and [[Gavin Wraith|G. Wraith]], Representable functors and operations on rings, _Proc. London Math. Soc._ **3** (1970), 619--643.
+* {#TW70} D. Tall, [[Gavin Wraith]]: *Representable functors and operations on rings*,  Proc. London Math. Soc. **s3-20** 4, (1970) 619-643 &lbrack;[doi:10.1112/plms/s3-20.4.619](http://dx.doi.org/10.1112/plms/s3-20.4.619), [MR265348](http://www.ams.org/mathscinet-getitem?mr=265348)&rbrack;
 
 The term "plethory" was introduced here:
 
-* {#BW05} [[James Borger]], [[Ben Wieland]],  Plethystic algebra, _Advances in Mathematics_ **194** (2005), 246--283.  ([web](http://wwwmaths.anu.edu.au/~borger/papers/03/paper03.html))
+* {#BW05} [[James Borger]], Ben Wieland, *Plethystic algebra*, _Advances in Mathematics_ **194** (2005) 246--283  &lbrack;[web](http://wwwmaths.anu.edu.au/~borger/papers/03/paper03.html)&rbrack;
 
-* {#BMT21} [[John Baez]], [[Joe Moeller]], [[Todd Trimble]], Schur functors and categorified plethysm, [arXiv:2106.00190](https://arxiv.org/abs/2106.00190)
+* {#BMT21} [[John Baez]], [[Joe Moeller]], [[Todd Trimble]]: *Schur functors and categorified plethysm* &lbrack;[arXiv:2106.00190](https://arxiv.org/abs/2106.00190)&rbrack;
 
 [[!redirects plethories]] 
 [[!redirects biring triple]] 
