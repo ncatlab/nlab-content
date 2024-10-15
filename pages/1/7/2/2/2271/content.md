@@ -44,11 +44,18 @@ On [[graph complexes]] and their [[quasi-isomorphism]] to differential forms on 
 
 * {#Kontsevich94} [[Maxim Kontsevich]], pages 11-12 of _Feynman diagrams and low-dimensional topology_, First European Congress of Mathematics, 1992, Paris, vol. II, Progress in Mathematics __120__, Birkh&#228;user (1994), 97&#8211;121 ([pdf](http://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
 
-* {#Kontsevich99b} [[Maxim Kontsevich]], around Def. 15 and Lemma 3 in _Operads and Motives in Deformation Quantization_, Lett. Math. Phys. 48 35-72, 1999 ([arXiv:math/9904055](https://arxiv.org/abs/math/9904055))
+* {#Kontsevich99b} [[Maxim Kontsevich]], around Def. 15 and Lemma 3 in _Operads and Motives in Deformation Quantization_, Lett. Math. Phys. __48__, 35-72, 1999 ([arXiv:math/9904055](https://arxiv.org/abs/math/9904055))
 
 Specifically on [[Vassiliev knot invariants]]:
 
 * [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
+
+On [[homological mirror symmetry]]
+
+* [[Maxim Kontsevich]], _Homological algebra of mirror symmetry_, Proc. ICM Z&#252;rich 1994, [alg-geom/9411018](http://arxiv.org/abs/alg-geom/9411018)
+
+* [[Ludmil Katzarkov]], [[Maxim Kontsevich]], [[Tony Pantev]], _Hodge theoretic aspects of mirror symmetry_, [arxiv/0806.0107](http://arxiv.org/abs/0806.0107) Proc. of Symposia in Pure Math. __78__ (2008), "From Hodge theory to integrability  and TQFT: $tt^*$-geometry",  eds. Ron Y. Donagi and Katrin Wendland, 87--174
+
 
 On [[wall crossing]] phenomena:
 
@@ -60,6 +67,17 @@ On [[Wick rotation]] in [[quantum field theory]] in terms of complex metrics:
 
 * [[Maxim Kontsevich]], [[Graeme Segal]], *Wick rotation and the positivity of energy in quantum field theory*, The Quarterly Journal of Mathematics **72** 1-2 (2021) 673–699 &lbrack;[arXiv:2105.10161](https://arxiv.org/abs/2105.10161), [doi:10.1093/qmath/haab027](https://doi.org/10.1093/qmath/haab027)&rbrack;
 
+On [[deformation theory]]
+
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Deformation theory I_ ([ps](http://www.math.ksu.edu/~soibel/Book-vol1.ps)); _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I_, [math.AG/0606241](https://arxiv.org/abs/math/0606241)
+
+On [[Deligne conjecture]]
+
+* [[Maxim Kontsevich]], [[Yan Soibelman]], *Deformations of algebras over operads and Deligne's conjecture*,[arXiv:math/0001151](https://arxiv.org/abs/math/0001151)
+
+On stability conditions and [[Donaldson-Thomas invariants]]
+
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](https://arxiv.org/abs/0811.2435)
 
 category: people
 
