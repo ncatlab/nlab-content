@@ -27,7 +27,7 @@ On [[mysterious duality]]/[[U-duality]] understood via [[Hypothesis H]] by [[aut
 
 On [[superstring|super]] [[string scattering amplitudes]]:
 
-* Sergio Luigi Cacciatori, Samuel Grushevsky, [[Alexander A. Voronov]], *Tree-Level Superstring Amplitudes: The Neveu-Schwarz Sector* &lbrack;[arXiv:2403.09600](https://arxiv.org/abs/2403.09600)&rbrack;
+* Sergio Cacciatori, Samuel Grushevsky, [[Alexander A. Voronov]], *Tree-Level Superstring Amplitudes: The Neveu-Schwarz Sector* &lbrack;[arXiv:2403.09600](https://arxiv.org/abs/2403.09600)&rbrack;
 
 On [[rational homotopy theory]] in [[mathematical physics]], such as in [[Hypothesis H]]:
 
