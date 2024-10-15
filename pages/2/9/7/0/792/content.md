@@ -96,7 +96,7 @@ The formalization with the above topological/[[homotopy theory|homotopy theoreti
 
 A refined version of this using [[smooth stacks]] is due to
 
-* [[Ulrich Bunke]], [[Thomas Nikolaus]], _T-Duality via Gerby Geometry and Reductions_ ([arXiv:1305.6050](http://arxiv.org/abs/1305.6050))
+* [[Ulrich Bunke]], [[Thomas Nikolaus]]: *T-Duality via Gerby Geometry and Reductions*,  Reviews in Mathematical Physics **27** 05 1550013 (2015)  &lbrack;[arXiv:1305.6050](http://arxiv.org/abs/1305.6050), [doi:10.1142/S0129055X15500130](https://doi.org/10.1142/S0129055X15500130)&rbrack;
 
 * {#Nikolaus14} [[Thomas Nikolaus]], _[[T-Duality in K-theory and Elliptic Cohomology]]_, talk at _String Geometry Network Meeting_, Feb 2014, ESI Vienna ([website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html))
 
