@@ -20,6 +20,8 @@ See at the beginning of the talk
 
 * Wolfram's mathworld: [Macdonald's Constant-Term Conjecture](https://mathworld.wolfram.com/MacdonaldsConstant-TermConjecture.html)
 
+* S. L. Cacciatori, F. Dalla Piazza, A. Scotti, _Compact Lie groups: Euler constructions and generalized Dyson conjecture_, Trans. Amer. Math. Soc. __369__ (2017) 4709--4724 [doi](https://doi.org/10.1090/tran/6795)
+
 
 [[!redirects The Macdonald Constant-Term Conjecture]]
 [[!redirects Macdonald constant-term conjecture]]
