@@ -7,7 +7,7 @@ quantization]], [[coherent states]] etc.),
 [[noncommutative algebraic geometry]] and [[noncommutative localization]], [[Hopf algebra]]s, [[bialgebroid]]s, categories, [[cohomology]], 
 in particular nonabelian cohomology/[[descent]] theory. 
 
-My other scientific interests include historical linguistics (general principles and Indo-European), interface between language and computation (computational [[linguistics]], construction of compilers and computer language design), [[blockchain]] technology and medical herbs (herbal tea) but most of these past hobbies are latent now for a long time. I used to play piano [accordion](http://en.wikipedia.org/wiki/Accordion). My native tongue is the [kajkavian dialect](http://en.wikipedia.org/wiki/Kajkavian_dialect) of Croatian. In Croatian we use diacritics for the sch-sound: &#352;koda.
+My other scientific interests include historical linguistics (general principles and Indo-European)and interface between language and computation (computational [[linguistics]], construction of compilers and computer language design), [[blockchain]] technology and medical herbs (herbal tea) but most of these past hobbies are latent now for a long time. I used to play piano [accordion](http://en.wikipedia.org/wiki/Accordion). My native tongue is the [kajkavian dialect](http://en.wikipedia.org/wiki/Kajkavian_dialect) of Croatian. In Croatian we use diacritics for the sch-sound: &#352;koda.
 
 View a list of some of my mathematical/physical [[zoranskoda:my writings|articles]] and [[zoranskoda:talks|talks]]. My other web page is [here](https://www.irb2.hr/korisnici/zskoda) I have a (low-activity) blog [here](http://mathlight.wordpress.com).
 
