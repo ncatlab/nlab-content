@@ -232,7 +232,7 @@ In the important example where $T$ is the theory of commutative rings and $\Lamb
 
 ## References
 
-* D. Tall, [[Gavin Wraith|G. Wraith]], _Representable functors and operations on rings_,  Proc. London Math. Soc. (3), 1970, 619--643, [MR265348](http://www.ams.org/mathscinet-getitem?mr=265348), [doi](http://dx.doi.org/10.1112/plms/s3-20.4.619)
+* D. Tall, [[Gavin Wraith]]: *Representable functors and operations on rings*,  Proc. London Math. Soc. **s3-20** 4, (1970) 619-643 &lbrack;[doi:10.1112/plms/s3-20.4.619](http://dx.doi.org/10.1112/plms/s3-20.4.619), [MR265348](http://www.ams.org/mathscinet-getitem?mr=265348)&rbrack;
 
 * [[James Borger]], B. Wieland, _Plethystic algebra_, Adv. Math. __194__ (2005), no. 2, 246&#8211;283, [doi](http://dx.doi.org/10.1016/j.aim.2004.06.006), [pdf](http://wwwmaths.anu.edu.au/~borger/papers/03/lambda.pdf), [MR2006i:13044](http://www.ams.org/mathscinet-getitem?mr=2139914)
 
