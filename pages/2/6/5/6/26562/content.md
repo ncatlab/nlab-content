@@ -480,7 +480,7 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#filters_virgo} Nathaniel Virgo, _Unifilar Machines and the Adjoint Structure of Bayesian Filtering_, Proceedings of ACT, 2023. ([arXiv](https://arxiv.org/abs/2305.02826))
 
-* {#markov_causal} Yimu Yin, Jiji Zhang ,_Markov categories, causal theories, and the do-calculus_, 2022. ([arXiv](https://arxiv.org/abs/2204.04821))
+* {#markov_causal} Yimu Yin, Jiji Zhang, _Markov categories, causal theories, and the do-calculus_, 2022. ([arXiv](https://arxiv.org/abs/2204.04821))
 
 
 
