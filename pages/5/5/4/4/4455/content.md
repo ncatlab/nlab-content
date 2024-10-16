@@ -72,7 +72,7 @@ In predicative constructive mathematics, subsets are large and therefore are pro
 
 +-- {: .num_defn}
 ###### Definition
-Given a small [[sigma-frame|$\sigma$-frame]] $\Sigma$ that embeds into the large set of propositions $\mathrm{Prop}_\mathcal{U}$ for a universe $\mathcal{U}$ and a linearly ordered set $S$, a __cut__ in $S$ is a pair of functions $L, U: S to \Sigma$ that satisfy the following eight properties:
+Given a small [[sigma-frame|$\sigma$-frame]] $\Sigma$ that embeds into the large set of propositions $\mathrm{Prop}_\mathcal{U}$ for a universe $\mathcal{U}$ and a linearly ordered set $S$, a __cut__ in $S$ is a pair of functions $L, U: S \to \Sigma$ that satisfy the following eight properties:
 
 1.  There is an element $a \in S$ such that $L(a) = \top$.
 2.  There is an element $b \in S$ such that $U(b) = \top$.
