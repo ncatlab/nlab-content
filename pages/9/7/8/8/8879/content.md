@@ -13,6 +13,8 @@ __Fa&#224; di Bruno formula__ is a remarkable combinatorial formula for higher d
 Bruno formula, enumeration of ballot paths, enriched rooted trees and
 increasing rooted trees_, [arXiv:1610.03602](https://arxiv.org/abs/1610.03602)
 
+* Wikipedia: [Faà di Bruno's formula](https://en.wikipedia.org/wiki/Fa%C3%A0_di_Bruno%27s_formula)
+
 In works of T. J. Robinson the formula is treated in the context of vertex algebras, calculus with [[formal power series]] and in logarithmic calculus, as well as in a connection to the [[umbral calculus]]:
 
 * Thomas J. Robinson, _New perspectives on exponentiated derivations, the formal Taylor theorem, and Fa&#224; di Bruno's formula_, Proc.Conf.Vert.Op.Alg., Cont.Math. __497__ (2009) 185-198 [arxiv/0903.3391](http://arxiv.org/abs/0903.3391); _Formal calculus and umbral calculus_, Electronic Journal of Combinatorics, 17(1) (2010) R95 [arxiv/0912.0961](http://arxiv.org/abs/0912.0961) 
