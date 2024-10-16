@@ -33,7 +33,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Cartesianess|[[Susan Niefield]]|1978|[proquest](https://www.proquest.com/docview/302920643)| on [[exponentiable objects]] (there called "cartesian objects") |
 |Algebraic and locally algebraic functors|James J. Dukarm|1980|[Scan](https://summit.sfu.ca/_flysystem/fedora/sfu_migrate/3281/b12244193a.pdf)| on locally equational categories |
 |The Theory of Triposes|[[Andrew Pitts]]|1981|[Scan](https://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)| on [[triposes]] |
-|Limits in 2-categories of locally presentable categories|[[Greg Bird]]|1984|[Scan](http://science.mq.edu.au/~street/BirdPhD.pdf)| |
+|Limits in 2-categories of locally presentable categories|[[Greg Bird]]|1984|[Scan](http://science.mq.edu.au/~street/BirdPhD.pdf)| on [[flexible limits]], [[lax morphism classifiers]], and [[locally presentable categories]] |
 |Operational Categories|Colin Barry Jay|1984|[Category Theory Archive](https://github.com/CategoryTheoryArchive/archive/blob/main/resources/1984_jay_generalising-structure-semantics.pdf) | |
 |Butler's theorems and adjoint squares|[[John Power]]|1984|[Scan](https://central.bac-lac.gc.ca/.item?id=TC-QMM-121093&op=pdf&app=Library&is_thesis=1&oclc_number=1032920922)| on the [[adjoint lifting theorem]] and [[adjoint triangle theorem]] |
 |Pasting diagrams in n-categories with applications to coherence theorems and categories of paths|[[Michael Johnson]]|1988|[postscript](http://web.science.mq.edu.au/~mike/papers/0.ps)| |
