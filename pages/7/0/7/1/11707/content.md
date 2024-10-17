@@ -11,7 +11,7 @@ While Girard's prose is notoriously demanding, exegesis may be found in ([Abrusc
 
 ### Getting rid of semantics
 
-Usually, [[semantics]] dictates what logic is. It allows and forbids manipulations of symbols by following what we consider logic to be, in a dualism between symbol (interpreted) and its meaning (interpreted). An ambition of the transcendental syntax is to _get rid of semantics_ (which is actually a distinguished form of syntax) by redirecting the computational power of semantics and its dialogue with syntax and putting it at the same level as syntax: the barrier is broken and everything becomes synctatic objects of same nature interacting in a same space from which logical meaning emerges. This approach is meant to make more explicit the mechanisms underlying logical reasoning (which appears in types, formulas, specifications, computer programs, mathematical proofs, computational constraints, computational complexity, ...).
+Usually, [[semantics]] dictates what logic is. It allows and forbids manipulations of symbols by following what we consider logic to be, in a dualism between symbol (interpreted) and its meaning (interpreter). An ambition of the transcendental syntax is to _get rid of semantics_ (which is actually a distinguished form of syntax) by redirecting the computational power of semantics and its dialogue with syntax and putting it at the same level as syntax: the barrier is broken and everything becomes synctatic objects of same nature interacting in a same space from which logical meaning emerges. This approach is meant to make more explicit the mechanisms underlying logical reasoning (which appears in types, formulas, specifications, computer programs, mathematical proofs, computational constraints, computational complexity, ...).
 
 ## Philosophical interpretation
 
@@ -117,8 +117,6 @@ The transcendental syntax may also serve as a way to develop new ideas and conce
 * [[Critique of Pure Reason]]
 
 * [[computational type theory]]
-
-* [[cubical type theory]]
 
 * [[type theory]]
 
