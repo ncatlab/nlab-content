@@ -132,6 +132,9 @@ Non-geometric [[flux compactification]]:
 
 * Yoan Gautier, [[Chris Hull]], Dan Israël, _Heterotic/type II Duality and Non-Geometric Compactifications_ ([arXiv:1906.02165](https://arxiv.org/abs/1906.02165))
 
+* [[Hyungrok Kim]], [[Christian Saemann]]: *Non-Geometric T-Duality as Higher Groupoid Bundles with Connections* &lbrack;[arXiv:2204.01783](https://arxiv.org/abs/2204.01783), [spire:2063353](https://inspirehep.net/literature/2063353)&rbrack;
+
+
 
 [[!redirects non-geometric string vacua]]
 
