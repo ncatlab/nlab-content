@@ -133,6 +133,8 @@ Classical references are
 
 * Volker Zöberlein, _Doctrines on 2-categories_ , Math. Zeitschrift **148** (1976) pp.267-279. ([gdz](https://gdz.sub.uni-goettingen.de/id/PPN266833020_0148?tify={%22pages%22:[273],%22view%22:%22info%22}))
 
+* [[Francisco Marmolejo]], _Doctrines whose structure forms a fully faithful adjoint string_, Theory and Applications of Categories 3 (1997), 23--44. ([TAC](http://www.tac.mta.ca/tac/volumes/1997/n2/3-02abs.html))
+
 Textbook accounts:
 
 * [[Peter Johnstone]], _Sketches of an elephant vol.1_ , Oxford UP 2004. (B1.1.11, pp.250-54)
