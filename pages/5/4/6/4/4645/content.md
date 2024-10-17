@@ -2743,7 +2743,7 @@ Then construct a [[Cech cohomology|Cech cocycle]] for [[Deligne cohomology]] in 
      \,,
    $$
 
-   where $cs(A) = \langle A \wedge F_A\rangle + c \langle A \wedge [A \wedge A]\rangle  $ is the [[Chern-Simons form]] of the connection form $A$ with respect to the cocyle $\mu(A) = \langle A \wedge [A \wedge A]\rangle$.
+   where $cs(A) = \langle A \wedge F_A\rangle + c \langle A \wedge [A \wedge A]\rangle  $ is the [[Chern-Simons form]] of the connection form $A$ with respect to the cocycle $\mu(A) = \langle A \wedge [A \wedge A]\rangle$.
 
 
 They then prove:
