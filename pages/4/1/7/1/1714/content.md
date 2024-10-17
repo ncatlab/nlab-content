@@ -42,17 +42,6 @@ Many notions of algebraic higher category, such as those due to Batanin, Leinste
 
 A $1$-morphism may simply be called a [[morphism]]; a $0$-morphism is an [[object]].
 
-For the purposes of [[negative thinking]], it may be useful to recognise that every $\infty$-category has a $(-1)$-morphism, which is the source and target of every object.  (In the geometric picture, this comes as the $(-1)$-simplex of an [[augmented simplicial set]].)
-
-+-- {: .query}
->every (non-empty? -David R) $\infty$-category
-
-I think every.  Up to equivalence, a $k$-morphism in $C$ is given by a functor from the oriented $k$-simplex to $C$.  As the $(-1)$-simplex is empty, there is a unique such functor for every $C$; thus every $C$ has a unique $(-1)$-morphism.
-
-Also note that every $k$-morphism has $k + 1$ identity $(k+1)$-morphisms, which just happen to all be the same (which can be made a result of the [[Eckmann–Hilton argument]]).  Thus, the $(-1)$-morphism has $0$ identity $0$-morphisms, so we don\'t need any object.  (This confused me once.)
-
----[[Toby Bartels]]
-=--
 
 ## Related concepts
 
