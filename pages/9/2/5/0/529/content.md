@@ -283,7 +283,7 @@ Let $A$ be an [[abelian group]] and $R$ a [[commutative ring]]. Then $R[A]$ is a
 ### Of central extensions & Twisted group algebras
  {#OfCentralExtensionsAndTwistedGroupAlgebras}
 
-A [[quotient algebra]] of the group algebra of a [[central extension]] $G^\omega$ of a group $G$ corresponding to a [[group cocycle|group 2-cocyle]] $\omega \,\colon\, G \times G \to k$ is the *$\omega$-twisted* group algebra of $G$ (eg. [Nachbin 1993, Ch 2, Thm. 4.1](#Nachbin93)).
+A [[quotient algebra]] of the group algebra of a [[central extension]] $G^\omega$ of a group $G$ corresponding to a [[group cocycle|group 2-cocycle]] $\omega \,\colon\, G \times G \to k$ is the *$\omega$-twisted* group algebra of $G$ (eg. [Nachbin 1993, Ch 2, Thm. 4.1](#Nachbin93)).
 
 \begin{example}
 \label{ComplexGroupAlgebraOfCircleCentralExtension}
@@ -303,7 +303,7 @@ $$
   1
 $$
 
-classified by a [[circle group]]-valued [[group cocycle|group 2-cocyle]] with [[underlying]] [[function]]
+classified by a [[circle group]]-valued [[group cocycle|group 2-cocycle]] with [[underlying]] [[function]]
 
 $$
   \omega
