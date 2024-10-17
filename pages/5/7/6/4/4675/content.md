@@ -967,7 +967,7 @@ $$
 
 over the identically vanishing cocycle.
 
-In terms of the component formulas spelled out in the [above discussion](#InheteroticSugra) of the GS-mechanism, this amounts to restricting to those cocyles for which n each degree the equations
+In terms of the component formulas spelled out in the [above discussion](#InheteroticSugra) of the GS-mechanism, this amounts to restricting to those cocycles for which in each degree the equations
 
 $$
   C = 0
