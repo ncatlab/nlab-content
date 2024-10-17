@@ -101,7 +101,7 @@ Another textbook account is in [Milne 2017, 15.a (16.a) in the pdf](#Milne17), a
 \begin{remark}\label{AsGroup1Cocycles}
 **(as 1-[[cocycles]] in [[group cohomology]])**
 \linebreak
-  In the special case that $\Gamma$ in Def. \ref{CrossedHomomorphism} is an [[abelian group]], crossed homomorphisms are also known as *[[cocycles]] in [[group cohomology]]* in degree 1 (e.g. [Brown 1982, p. 45](#Brown82)). In general they may be understood as 1-cocyles in [[non-abelian cohomology|non-abelian]] group cohomology (e.g. [NSW 2008, p. 16](#NWS08)).
+  In the special case that $\Gamma$ in Def. \ref{CrossedHomomorphism} is an [[abelian group]], crossed homomorphisms are also known as *[[cocycles]] in [[group cohomology]]* in degree 1 (e.g. [Brown 1982, p. 45](#Brown82)). In general they may be understood as 1-cocycles in [[non-abelian cohomology|non-abelian]] group cohomology (e.g. [NSW 2008, p. 16](#NWS08)).
 \end{remark}
 
 \begin{example}\label{ConstantFunctionOnNeutralElement}
