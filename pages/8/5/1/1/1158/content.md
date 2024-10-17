@@ -2131,7 +2131,7 @@ under the name "multiplicative de Rham complex" (and in the context of studying 
 
 with the application to [[Beilinson regulators]]. Later the evident version of the Deligne complex in [[differential geometry]] over [[smooth manifolds]] gained more attention and is still referred to as "Deligne cohomology".
 
-Identifying the [[background field|background]] [[B-field]] in [[2d CFT]] ([[worldsheet]] [[string theory]]) as a Deligne 3-cocyle ([[bundle gerbe]] [[connection on a bundle gerbe|with connection]]):
+Identifying the [[background field|background]] [[B-field]] in [[2d CFT]] ([[worldsheet]] [[string theory]]) as a Deligne 3-cocycle ([[bundle gerbe]] [[connection on a bundle gerbe|with connection]]):
 
 * [[Krzysztof Gawędzki]], *Topological Actions in two-dimensional Quantum Field Theories*, in: _Nonperturbative quantum field theory_, Nato Science Series B **185**, Springer (1986) &lbrack;[spire:257658](http://inspirehep.net/record/257658), [doi:10.1007/978-1-4613-0729-7_5](https://doi.org/10.1007/978-1-4613-0729-7_5), [[Gawedzki-TopologicalActions.pdf:file]]&rbrack;
 
