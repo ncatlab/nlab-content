@@ -39,7 +39,7 @@ Therefore strongly adjoint functors are in particular [[adjoint functors]] in th
 
 For instance appendix 6 of 
 
-* [[Bill Lawvere]], _Outline of synthetic differential geometry_ ([pdf](http://www.acsu.buffalo.edu/~wlawvere/SDG_Outline.pdf))
+* [[Bill Lawvere]], _Outline of synthetic differential geometry_ ([pdf](https://ncatlab.org/nlab/files/LawvereSDGOutline.pdf))
 
 
 [[!redirects strong adjoint functors]]
