@@ -89,30 +89,63 @@ In other words, the Hopf fibration is the $U(1)$-bundle with unit first [[Chern 
 An explicit [[topological space]] presenting the Hopf fibration may be obtained as follows. Identify
 
 $$ 
-  S^3 \simeq \{(z_0, z_1) \in \mathbb{C}\times \mathbb{C} \,|\, {|z_0|}^2 + {|z_1|}^2 = 1\} = S(\mathbb{C}^2)
+  S^3 
+   \;\simeq\; 
+  \big\{
+    (z_0, z_1) \in \mathbb{C}\times \mathbb{C} 
+    \,\big\vert\, 
+    {|z_0|}^2 + {|z_1|}^2 = 1
+  \big\} 
+  \;=\; 
+  S(\mathbb{C}^2)
 $$
 
 and
 
-$$S^2 \simeq \mathbb{C P}^1 \simeq \mathbb{C} \sqcup \{\infty\}$$ 
+$$
+  S^2 
+    \;\simeq\; 
+  \mathbb{C P}^1 
+    \;\simeq\; 
+  \mathbb{C} \sqcup \{\infty\}
+  \,.
+$$ 
 
 Then the [[continuous function]] $S^3 \to S^2$ defined by  
 
-$$(z_0, z_1) \mapsto \frac{z_0}{z_1}$$ 
+$$
+  (z_0, \,z_1) 
+    \;\mapsto\; 
+  \frac{z_0}{z_1}
+$$ 
 
-gives the Hopf fibration. (Thus, the Hopf fibration is a circle bundle naturally associated with the canonical [[line bundle]].) Alternatively, if we use 
+gives the Hopf fibration. (Thus, the Hopf fibration is the circle bundle naturally [[associated bundle|associated]] with the [[canonical line bundle]].) 
+
+Alternatively, if we identify
 
 $$
-  S^2 \simeq \{(z, x) \in \mathbb{C} \times \mathbb{R} 
-  \,|\,
-  {|z|}^2 + x^2 = 1\} = S(\mathbb{C} \times \mathbb{R})
+  S^2 
+    \;\simeq\; 
+  \big\{
+    (z, x) \in \mathbb{C} \times \mathbb{R} 
+    \,\big\vert\,
+    {|z|}^2 + x^2 = 1
+  \big\} 
+    \,=\, 
+  S(\mathbb{C} \times \mathbb{R})
+$$
+
+and identify this presentation of the 2-sphere with the complex projective line via [[stereographic projection]], then the Hopf fibration is identified with the map 
+
+$$
+  (z_0, z_1) 
+    \;\mapsto\; 
+  \big(
+    2 z_0 \overline{z_1} 
+    ,\, 
+    {|z_0|}^2 - {|z_1|}^2
+  \big)
   \,.
-$$
-
-and identify this presentation of the 2-sphere with the complex projective line via [[stereographic projection]], the Hopf fibration is identified with the map  $S^3 \to S^2$ given by sending
-
-$$
-  (z_0, z_1) \mapsto (2 z_0 \overline{z_1} , {|z_0|}^2 - {|z_1|}^2).
 $$
 
 ### Realization via quaternions
