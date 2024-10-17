@@ -93,7 +93,7 @@ Fixing $G$ a finite group, we acquire the following examples (see section 3.2 of
 
 1. Let $R \in \mathcal{A}$ be an object in $\mathcal{A}$. Then, the **constant Mackey functor** $\underline{R}$ assigns $R$ to every transitive $G$-set, whose restriction maps are all the identity, and whose transfer maps $G/H \rightarrow G/K$ are multiplication by $\left| H/K \right|$.
 
-2. The **Burnside Mackey functor** $A(G)$ is defined by letting $A(G)([G/H])$ be the [[Grothendieck group]] of the cocartesian symmetric monoidla category of finite $H$-sets, with restriction and transfer given by restriction and induction, respectively.
+2. The **Burnside Mackey functor** $A(G)$ is defined by letting $A(G)([G/H])$ be the [[Grothendieck group]] of the cocartesian symmetric monoidal category of finite $H$-sets, with restriction and transfer given by restriction and induction, respectively.
 
 3. The **representation Mackey functor** $R(G)$ is defined by letting $R(G)([G/H])$ be the [[Grothendieck group]] of the symmetric monoidal category of finite-dimensional $H$-representations,  with restriction and transfer given by restriction and induction,  respectively.
 
