@@ -68,7 +68,7 @@ $$
   }
 $$
 
-where now $c_{p+2}$ is the classifying $(p+2)$-cocyle.
+where now $c_{p+2}$ is the classifying $(p+2)$-cocycle.
 
 This concept makese sense not just for [[∞-groups]] in any [[(∞,1)-topos]], but also for instance for ([[nLab:super L-∞ algebra|super]]) [[L-∞ algebras]].
 
