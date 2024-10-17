@@ -5,7 +5,7 @@
 
 ## Idea
 
-"Transcendental syntax" ([Girard 13](#Girard13)) is the name of a proposal (or maybe a pamphlete) by [[Jean-Yves Girard]] which means to rethink fundamental aspects of [[formal logic]], of [[syntax]]/[[semantics]] in the light of computer science (and more especially through the so-called [[Curry-Howard correspondence | Curry-Howard-Lambek correspondence]]. According to Girard, _[[linear logic]]_ and _[[Geometry of Interaction]]_ are but exercises in transcendental syntax ([Girard 13b](#Girard13b)).
+"Transcendental syntax" ([Girard 13](#Girard13)) is the name of a proposal (or maybe a pamphlete) by [[Jean-Yves Girard]] which means to rethink fundamental aspects of [[formal logic]], of [[syntax]]/[[semantics]] in the light of computer science (and more especially through the so-called [[Curry-Howard correspondence | Curry-Howard-Lambek correspondence]]). According to Girard, _[[linear logic]]_ and _[[Geometry of Interaction]]_ are but exercises in transcendental syntax ([Girard 13b](#Girard13b)).
 
 While Girard's prose is notoriously demanding, exegesis may be found in ([Abrusci-Pistone 12](#AbrusciPistone12)) for the philosophical side, ([Rouleau 13](#Rouleau13)) which was written before the more modern developements of transcendental syntax by means of stars and constellations ([Girard 13b](#Girard13b)) or ([Eng 23](#Eng23)) for an attempt to formalize and contextualize Girard's last works from the point of view of computer science.
 
