@@ -24,7 +24,7 @@ His point of view can be seen as an update of [[Kant]]'s epistemology taking *co
 | **A posteriori / Explicit** | Constat            | Usine                 |
 | **A priori / Implicit**     | Performance        | Usage                 |
 
-The idea is that logic studies the relationship between questions (formulas being a special case) which are subjective and their answers (proofs being a special case) which are objective, by means of finite objects (because reasoning should be finite and verifiable, otherwise it would not even be possible). In order to be freed from those "prejudices", one should start by defining the *answers*, seen as neutral and meaningless. Then, the point would be to study the sufficient conditions making the logical concepts (proofs, formulas, logical correctness) emerge from the meaningless. In reference to [[Kant]], Girard uses the expression ``conditions of possibility of language".
+The idea is that logic studies the relationship between questions (formulas being a special case) which are subjective and their answers (proofs being a special case) which are objective, by means of finite objects (because reasoning should be finite and verifiable, otherwise it would not even be possible). In order to be freed from those "prejudices", one should start by defining the *answers*, seen as neutral and meaningless. Then, the point would be to study the sufficient conditions making the logical concepts (proofs, formulas, logical correctness) emerge from the meaningless. In reference to [[Kant]], Girard uses the expression "conditions of possibility of language".
 
 The **answers** correspond to the space of computation (generalizing proofs) which can be evaluated (**performance**) into a [[normal form]] (**constat**). This is the space where proofs are constructed but not yet considered logically meaningful or correct. It is the material on which logic is constructed.
 
@@ -48,9 +48,9 @@ The elementary objects (analytic) considered by Girard are called *constellation
 
 Answers are constellations and questions correspond to two notions of types:
 
-- by using [[realizability]] techniques for linear logic as in ludics or Seiller's interaction graphs, we can define [[formula | formulas]] called *behaviors*. This corresponds to types "à la Curry" where untyped computational objects are typed a posteriori.
+- by using [[realizability]] techniques for linear logic as in ludics or Seiller's interaction graphs, we can define [[formula | formulas]] called *behaviors*.
 
-- Inspired by the logical correctness of [[proof net | proof nets]], we can define types as a finite sets of tests (encoded as constellations). If a constellation passes all tests, it can be labelled by the corresponding type label. This is close to types "à la Church" where types exist before the computational objects being typed. In the context of [[proof net | proof nets]], it corresponds to testing proof structures against correction graphs.
+- Inspired by the logical correctness of [[proof net | proof nets]], we can define types as a finite sets of tests (encoded as constellations). If a constellation passes all tests, it can be labelled by the corresponding type label. In the context of [[proof net | proof nets]], it corresponds to testing proof structures against correction graphs.
 
 Although never explicitly mentioned by Girard, the transcendental syntax is very close to [[realizability | realizability theory]]. In realizability theory, types are designed from a model of computation (for instance, natural numbers and recursive functions or lambda-terms with beta-reduction). However, the transcendental syntax is able to speak about logical correctness (through linear logic). Note that other alternative approaches for the reconstruction of linear logic exist such as Beffara's concurrent realizability ([Beffara 06](#Beffara06)).
 
@@ -64,7 +64,7 @@ A car (analytics) can be certified by a factory (usine) and receive a label (typ
 
 ### Automata theory
 
-An finite automata is a machine receiving a finite word as input and which either accepts or rejects it. Hence, there are two kind of objects (analytic): machines and words and machines can only interact with words.
+A finite automaton is a machine receiving a finite word as input and which either accepts or rejects it. Hence, there are two kind of objects (analytic): machines and words and machines can only interact with words.
 
 Only by interaction, a way to tell whether a machine recognizes some language is to feed it with all the words of that language (Girard's use). However, in the case the language is infinite (e.g. all binary words ending with 00), you would never be able to conclude. However, we are still able to reason on automata and words by an external logical reasoning and analysis.
 
@@ -72,7 +72,7 @@ The idea of the transcendental syntax would be to reify this external reasoning 
 
 Those exotic objects are what Girard calls the "hidden files" of logic, in reference to hidden files in Unix systems which are often essential but invisible.
 
-This is reminiscent of how the space of real numbers is extended to complex numbers in order to solve some equations.
+This is reminiscent of how the space of real numbers is extended to complex numbers in order to solve some equations, or also of how the set of real numbers is a completion of rationals (where irrationnals are seen as such exotic elements).
 
 ### Lambda-calculus
 
