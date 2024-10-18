@@ -22,11 +22,11 @@ Integral cohomology is best known maybe in its incarnation as [[singular cohomol
 
 ## Geometric models
 
-* integral cohomology in degree 1 classifies [[complex line bundle]];
+* integral cohomology in degree 2 classifies [[complex line bundles]];
 
-* integral cohomology in degree 2 classifies complex line [[bundle gerbe]] / line [[principal 2-bundle|2-bundle]]s;
+* integral cohomology in degree 3 classifies complex line [[bundle gerbes]] / line [[principal 2-bundle|2-bundles]];
 
-* integral cohomology in degree $n$ classifies line [[circle n-bundles|n-bundles]].
+* integral cohomology in degree $n+1$ classifies line [[circle n-bundles|circle $n$-bundles]].
 
 ## Related concepts
 
