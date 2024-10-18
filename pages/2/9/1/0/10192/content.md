@@ -13,6 +13,12 @@ On [[supersymmetry]] via [[adinkras]]:
 
 * {#DoranFauxGatesHubschIgaLandweberMiller11} [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], [[Tristan Hübsch]], [[Kevin Iga]], [[Greg Landweber]], R. L. Miller, _Codes and Supersymmetry in One Dimension_, Adv. Theor. Math. Phys. **15** (2011) 1909-1970 &lbrack;[arXiv:1108.4124](https://arxiv.org/abs/1108.4124), [doi;10.4310/ATMP.2011.v15.n6.a7](https://doi.org/10.4310/ATMP.2011.v15.n6.a7)&rbrack;
 
+On the relation of [[adinkras]] to special [[super Riemann surfaces]] via [[dessins d'enfants]]:
+
+* [[Charles Doran]], [[Kevin Iga]], [[Greg Landweber]], [[Stefan Méndez-Diez]], _Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras_, Adv. Theor. Math. Phys. **19** 5 (2015) 1043-1113 &lbrack;[arXiv:1311.3736](https://arxiv.org/abs/1311.3736), [doi:10.4310/ATMP.2015.v19.n5.a4](https://dx.doi.org/10.4310/ATMP.2015.v19.n5.a4), [pdf](https://www.charlesdoran.net/uploads/6/7/5/1/6751141/22_geometrization_of_n_extended_1_dimensional_supersymmetry_algebras_i_2015.pdf)&rbrack;
+
+* [[Charles Doran]], [[Kevin Iga]], Jordan Kostiuk, [[Stefan Méndez-Diez]], *Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras II*, Adv. Theor. Math> Physics **22** 3 (2018) &lbrack;[arXiv:1610.09983](https://arxiv.org/abs/1610.09983)&rbrack;
+
 
 ## Related entries
 
