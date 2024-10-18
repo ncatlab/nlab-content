@@ -94,7 +94,7 @@ Often specializations of the general concept play a role:
 
 ## Mann's approach
 
-Mann ([Mann22](#Mann22)) has developed an abstract framework for a six-functor formalism that combines the approaches of Liu-Zheng and Gaitsgory-Rozenblyum and applies it to [[rigid analytic geometry]], in particular in combination with [[condensed mathematics]] and [[almost mathematics]] to construct an [[$\infty$-category]] of derived solid $\mathcal{O}_{X}^{+}/\pi$ almost modules (see also [Scholze22](#Scholze22)).
+Mann ([Mann 22](#Mann22)) has developed an abstract framework for a six-functor formalism that combines the approaches of Liu-Zheng and Gaitsgory-Rozenblyum and applies it to [[rigid analytic geometry]], in particular in combination with [[condensed mathematics]] and [[almost mathematics]] to construct an [[$\infty$-category]] of derived solid $\mathcal{O}_{X}^{+}/\pi$ almost modules (see also [Scholze22](#Scholze22)).
 
 \begin{definition}
 Let $C$ be an $\infty$-category admitting finite limits and let $E$ be a class of morphisms stable under pullback and composition, and including all isomorphisms. The symmetric monoidal $\infty$-category of correspondences $\mathrm{Corr}(C,E)$ has as its objects the objects in $C$, and has as its morphisms the correspondences in $C$, i.e. for objects $X$ and $Y$ of $C$ a morphism from $X$ to $Y$ is given by an object $W$ of $C$ together with maps
@@ -234,10 +234,11 @@ Grothendieck six operations formalism using diagrams of topoi
 
 Six operations formalism for [[rigid analytic geometry]] is in 
 
-* {#Mann22} Lucas Mann, _A p-Adic 6-Functor Formalism in Rigid-Analytic Geometry_ ([arXiv:2206.02022](https://arxiv.org/abs/2206.02022))
+* {#Mann22} [[Lucas Mann]], _A p-Adic 6-Functor Formalism in Rigid-Analytic Geometry_ ([arXiv:2206.02022](https://arxiv.org/abs/2206.02022))
 
-The abstract approach behind Mann's work is the subject of [Scholze (2022)](#Scholze22).
+The abstract approach behind Mann's work is the subject of [Scholze (2022)](#Scholze22) and developed in
 
+* {#HeyerMann24} Claudius Heyer, [[Lucas Mann]], _6-Functor Formalisms and Smooth Representations_ &lbrack;[arXiv:2410.13038](https://arxiv.org/abs/2410.13038)&rbrack;
  
 
 
