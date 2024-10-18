@@ -308,7 +308,8 @@ In 2 dimensions
 
 * Dongfeng Gao, [[Kentaro Hori]], Section 7.3 of: _On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds_ ([arXiv:1004.3972](https://arxiv.org/abs/1004.3972))
 
-* {#DMR14} [[Charles Doran]], Stefan Mendez-Diez, [[Jonathan Rosenberg]], _String theory on elliptic curve orientifolds and KR-theory_ ([arXiv:1402.4885](http://arxiv.org/abs/1402.4885))
+* {#DMR14} [[Charles Doran]], [[Kevin Iga]], Jordan Kostiuk, [[Stefan Méndez-Diez]], *Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras II*, Adv. Theor. Math> Physics **22** 3 (2018) &lbrack;[arXiv:1610.09983](https://arxiv.org/abs/1610.09983)&rbrack;
+
 
 #### Of dimension 3
 
