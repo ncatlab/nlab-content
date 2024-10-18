@@ -298,7 +298,9 @@ O-Plane charge in the presence of [[discrete torsion]]:
 
 O-Plane charge in [[differential K-theory|differential]] [[equivariant K-theory|equivariant]] [[KR-theory]]:
 
-* {#DMR13} [[Charles Doran]], Stefan Mendez-Diez, [[Jonathan Rosenberg]], _T-duality For Orientifolds and Twisted KR-theory_ ([arXiv:1306.1779](http://arxiv.org/abs/1306.1779))
+* {#DMR13} [[Charles Doran]], [[Kevin Iga]], [[Greg Landweber]], [[Stefan Méndez-Diez]], _Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras_, Adv. Theor. Math. Phys. **19** 5 (2015) 1043-1113 &lbrack;[arXiv:1311.3736](https://arxiv.org/abs/1311.3736), [doi:10.4310/ATMP.2015.v19.n5.a4](https://dx.doi.org/10.4310/ATMP.2015.v19.n5.a4), [pdf](https://www.charlesdoran.net/uploads/6/7/5/1/6751141/22_geometrization_of_n_extended_1_dimensional_supersymmetry_algebras_i_2015.pdf)&rbrack;
+
+* {#DoranIgaKostiukMendes-Diez16} [[Charles Doran]], [[Kevin Iga]], Jordan Kostiuk, [[Stefan Méndez-Diez]], *Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras II*, Adv. Theor. Math> Physics **22** 3 (2018) &lbrack;[arXiv:1610.09983](https://arxiv.org/abs/1610.09983)&rbrack;
 
 
 * {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
