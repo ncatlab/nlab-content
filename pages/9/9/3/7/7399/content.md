@@ -119,9 +119,11 @@ Connection to [[matrix model]]s and integrable hierarchies is discussed in
 
 * Jan Ambj&#248;rn, Leonid Chekhov, _The matrix model for dessins d'enfants_, [arxiv/1404.4240](http://arxiv.org/abs/1404.4240)
 
-The relation to [[super multiplet]] classification via [[adinkras]] is due to
+On a relation to [[super multiplet]] classification via [[adinkras]]:
 
-* {#DoranIgaLandweberMendez-Diez13} [[Charles Doran]], Kevin Iga, [[Greg Landweber]], Stefan Mendez-Diez, _Geometrization of $N$-Extended 1-Dimensional Supersymmetry Algebras_ ([arXiv:1311.3736](https://arxiv.org/abs/1311.3736))
+* [[Charles Doran]], [[Kevin Iga]], [[Greg Landweber]], [[Stefan Méndez-Diez]], _Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras_, Adv. Theor. Math. Phys. **19** 5 (2015) 1043-1113 &lbrack;[arXiv:1311.3736](https://arxiv.org/abs/1311.3736), [doi:10.4310/ATMP.2015.v19.n5.a4](https://dx.doi.org/10.4310/ATMP.2015.v19.n5.a4), [pdf](https://www.charlesdoran.net/uploads/6/7/5/1/6751141/22_geometrization_of_n_extended_1_dimensional_supersymmetry_algebras_i_2015.pdf)&rbrack;
+
+* [[Charles Doran]], [[Kevin Iga]], Jordan Kostiuk, [[Stefan Méndez-Diez]], *Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras II*, Adv. Theor. Math> Physics **22** 3 (2018) &lbrack;[arXiv:1610.09983](https://arxiv.org/abs/1610.09983)&rbrack;
 
 
 
