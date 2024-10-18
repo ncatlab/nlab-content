@@ -74,11 +74,11 @@ See also
 * {#DHokerPhong05} [[Eric D'Hoker]], [[Duong Phong]], _Complex geometry and supergeometry_, Current Developments in Mathematics 2005 (2007): 1-40 ([euclid:1223654523](https://projecteuclid.org/euclid.cdm/1223654523))
 
 
-Discussion of super Riemann surfaces induced by [[supermultiplets]] for $N$-extended $d = 1$ supersymmetry -- via [[adinkra]] symbols, is due to
+Discussion of super Riemann surfaces induced by [[supermultiplets]] for $N$-extended $d = 1$ supersymmetry -- via [[adinkra]] symbols:
 
-* {#DoranIgaLandweberMendez-Diez13} [[Charles Doran]], [[Kevin Iga]], [[Greg Landweber]], [[Stefan Méndez-Diez]], _Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras_ ([arXiv:1311.3736](https://arxiv.org/abs/1311.3736))
+* {#DoranIgaLandweberMendez-Diez13} [[Charles Doran]], [[Kevin Iga]], [[Greg Landweber]], [[Stefan Méndez-Diez]], _Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras_, Adv. Theor. Math. Phys. **19** 5 (2015) 1043-1113 &lbrack;[arXiv:1311.3736](https://arxiv.org/abs/1311.3736), [doi:10.4310/ATMP.2015.v19.n5.a4](https://dx.doi.org/10.4310/ATMP.2015.v19.n5.a4), [pdf](https://www.charlesdoran.net/uploads/6/7/5/1/6751141/22_geometrization_of_n_extended_1_dimensional_supersymmetry_algebras_i_2015.pdf)&rbrack;
 
-* {#DoranIgaKostiukMendes-Diez16} [[Charles Doran]], [[Kevin Iga]], Jordan Kostiuk, [[Stefan Méndez-Diez]], _Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras II_ ([arXiv:1610.09983](https://arxiv.org/abs/1610.09983))
+* {#DoranIgaKostiukMendes-Diez16} [[Charles Doran]], [[Kevin Iga]], Jordan Kostiuk, [[Stefan Méndez-Diez]], *Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras II*, Adv. Theor. Math> Physics **22** 3 (2018) &lbrack;[arXiv:1610.09983](https://arxiv.org/abs/1610.09983)&rbrack;
 
 
 
