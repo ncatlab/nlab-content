@@ -27,7 +27,7 @@ We survey how these concepts relate to each other. See the respective entries fo
 +-- {: .num_example}
 ###### Extension problem
 
-Given morphisms $i:A\to X$, $f:A\to Y$ find an [[extension]] of $f$ to $X$, i.e. a morphism $\tilde{f}:X\to Y$ such that $i\circ\tilde{f}=f$. Notice that if $i:A\hookrightarrow X$ is a [[subobject]], then $i\circ\tilde{f}$ is the [[restriction]] $\tilde{f}{|_A}$, and the condition is $\tilde{f}{|_A} = f$. 
+Given morphisms $i:A\to X$, $f:A\to Y$ find an [[extension]] of $f$ to $X$, i.e. a morphism $\tilde{f}:X\to Y$ such that $\tilde{f}\circ i=f$. Notice that if $i:A\hookrightarrow X$ is a [[subobject]], then $\tilde{f}\circ i$ is the [[restriction]] $\tilde{f}{|_A}$, and the condition is $\tilde{f}{|_A} = f$. 
 
 =--
 
