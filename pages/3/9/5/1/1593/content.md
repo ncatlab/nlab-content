@@ -221,11 +221,13 @@ Related lecture notes / slides include
 * {#Freed} [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_, lecures at _[K-Theory and Quantum Fields](http://www.esi.ac.at/activities/events/2012/k-theory-and-quantum-fields)_, ESI 2012 ([[FreedESI2012.pdf:file]])
  
 
-A detailed list of examples of [[KR-theory]] of orientifolds and their [[T-duality]] is in 
+A detailed list of examples of [[KR-theory]] of orientifolds and their [[T-duality]]:
 
-* {#DMR13} [[Charles Doran]], Stefan Mendez-Diez, [[Jonathan Rosenberg]], _T-duality For Orientifolds and Twisted KR-theory_ ([arXiv:1306.1779](http://arxiv.org/abs/1306.1779))
+* {#DMR13} [[Charles Doran]], [[Stefan Mendez-Diez]], [[Jonathan Rosenberg]]: *T-duality For Orientifolds and Twisted KR-theory*, Lett. Math. Phys. **104** 11 (2014) 1333-1364 &lbrack;[arXiv:1306.1779](http://arxiv.org/abs/1306.1779), [doi:10.1007/s11005-014-0715-0](https://doi.org/10.1007/s11005-014-0715-0)&rbrack;
 
-* {#DMR14} [[Charles Doran]], Stefan Mendez-Diez, [[Jonathan Rosenberg]], _String theory on elliptic curve orientifolds and KR-theory_ ([arXiv:1402.4885](http://arxiv.org/abs/1402.4885))
+* {#DMR14} [[Charles Doran]], [[Stefan Mendez-Diez]], [[Jonathan Rosenberg]]: *String theory on elliptic curve orientifolds and KR-theory*, Commun. Math. Phys. **335**  (2015) 955–1001 &lbrack;[arXiv:1402.4885](https://arxiv.org/abs/1402.4885), [doi:10.1007/s00220-014-2200-0](https://doi.org/10.1007/s00220-014-2200-0)&rbrack;
+
+
 
 
 A formulation of some of the relevant aspects of (bosonic) orientifolds in terms of the  [[schreiber:differential cohomology in an (∞,1)-topos -- survey|differential nonabelian cohomology]] with coefficients in the [[2-group]] $AUT(U(1))$ coming from the [[crossed module]] $[U(1) \to \mathbb{Z}_2]$ is indicated in 
