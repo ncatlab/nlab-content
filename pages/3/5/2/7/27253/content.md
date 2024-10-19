@@ -6,7 +6,7 @@ In the case of [[σ-finite measure spaces]], the theorem classifies them up to a
 
 As explained in the article [[categories of measure theory]], for a truly general, unrestricted statement for non-[[σ-finite measure spaces]] there are additional subtleties to consider: equality almost everywhere must be refined to weak equality almost everywhere, and [[σ-finite measure spaces]] should be replaced by Marczewski-compact strictly localizible measure spaces.
 
-In this unrestricted form, by the [[Gelfand-type duality for commutative von Neumann algebras]], Maharam's theorem also classifies isomorphism classes of [[localizable Boolean algebras]], [[abelian von Neumann algebras]], and [[hyperstonean spaces]] (or [[hyperstonean locales]]).  (In particular, the original formulation in the 1942 paper by Maharam uses measure algebras, i.e., Boolean algebras of measurable subsets modulo measure 0 subsets.)
+In this unrestricted form, by the [[Gelfand-type duality for commutative von Neumann algebras]], Maharam's theorem also classifies isomorphism classes of [[localizable Boolean algebras]] (equivalently: [[measurable locales]]), [[abelian von Neumann algebras]], and [[hyperstonean spaces]] (or [[hyperstonean locales]]).  (In particular, the original formulation in the 1942 paper by Maharam uses measure algebras, i.e., Boolean algebras of measurable subsets modulo measure 0 subsets.)
 
 ## Statement
 
@@ -19,9 +19,25 @@ In particular, if $\kappa=0$, we get a classification of isomorphism classes of 
 
 Otherwise, $\kappa$ is infinite, and we get a classification of isomorphism classes of ergodic atomless (or diffuse) measure spaces: such spaces are isomorphic to $\mathfrak{c}\times 2^\kappa$, where $\mathfrak{c}$ and $\kappa$ are infinite cardinals.
 
+For $\kappa=\aleph_0$, we get $2^\kappa\cong\mathbf{R}$, the real line.
+For $\kappa\gt\aleph_0$, we get non-[[σ-finite measure spaces]], which occur naturally in [[stochastic processes]].
+
 Thus, a completely general object $X$ has the form
-$$\coprod_\kappa \mathfrak{c}_\kappa\times 2^\kappa,$$
-where $\kappa$ runs over 0 and all infinite cardinals, $\mathfrak{c}_\kappa$ is a cardinal that is infinite or 0 if $\kappa\ne0$, and $\mathfrak{c}_\kappa\ne0$ only for a set of $\kappa$.
+$$A\sqcup\coprod_\kappa \mathfrak{c}_\kappa\times 2^\kappa,$$
+where $A$ is a discrete measure space, $\kappa$ runs over all infinite cardinals, $\mathfrak{c}_\kappa$ is an infinite cardinal or 0, and $\mathfrak{c}_\kappa\ne0$ only for a set of cardinals $\kappa$.
+
+Such an object $X$ is a [[σ-finite measure space]] if and only if $A$ and $\mathfrak{c}_{\aleph_0}$ are countable and for every $\kappa\gt\aleph_0$ we have $\mathfrak{c}_\kappa=0$.
+
+## Relative version
+
+There is also a relative version of Maharam's theorem, which classifies morphisms in any of the equivalent categories considered above.
+
+Observe that morphisms $2^\kappa\to2^\lambda$ exist if and only if $\kappa\ge\lambda$.
+For example, there are no morphisms from the terminal space $2^0$ (i.e., a singleton) to the real line $\mathbf{R}\cong 2^{\aleph_0}$, since the image of such a point is a measure 0 subset, whose preimage therefore cannot have measure 0.  In the language of [[commutative von Neumann algebras]], this translates to saying that there are no normal \*-homomorphisms $L^\infty(\mathbf{R})\to\mathbf{C}$.
+
+Observe also that we have a natural notion of locality for a measure space: a covering family is given by a family of measurable subsets whose [[essential supremum]] equals the entire space.  (This is more than just an analogy to open covers in [[topological spaces]]: when translated to the language of [[locales]], the two notions become identical.)
+
+With these two observations in mind, we can succinctly formulate the relative Maharam theorem as follows: every morphism $f\colon X\to Y$ locally in $X$ and $Y$ is isomorphic to a morphism of the form $2^\kappa\to2^\lambda$, where $\kappa\ge\lambda$ and the map is given by projecting to the first $\lambda$ coordinates.
 
 ## References
 
