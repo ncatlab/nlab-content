@@ -84,6 +84,8 @@ Books about or using Bishop's constructive mathematics include:
 
 * {#BridgesRichman}[[Douglas Bridges]] and [[Fred Richman]], _Varieties of constructive mathematics_ (1987)
 
+* {#BridgesRichman}[[Douglas Bridges]], {#IshiharaHajime}[[Hajime Ishihara]], {#RathjenMichael}[[Michael Rathjen]] and [[Helmut Schwichtenberg]], _Handbook of Constructive Mathematics_ (2023)
+
 Other papers mentioned above:
 
 * {#Waaldijk} [[Frank Waaldijk]], _On the foundations of constructive mathematics - especially in relation to the theory of continuous functions_  (2001).  [web site](http://www.fwaaldijk.nl/mathematics.html)
