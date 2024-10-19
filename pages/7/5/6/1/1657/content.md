@@ -320,6 +320,10 @@ category: analysis
 [[!redirects complete measures]]
 [[!redirects complete measure space]]
 [[!redirects complete measure spaces]]
+[[!redirects sigma-finite measure space]]
+[[!redirects sigma-finite measure spaces]]
+[[!redirects σ-finite measure space]]
+[[!redirects σ-finite measure spaces]]
 
 [[!redirects finitely measurable set]]
 [[!redirects finitely measurable sets]]
