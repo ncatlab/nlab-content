@@ -64,19 +64,18 @@ The [[opposite category]] of commutative von Neumann algebras admits a non-[[car
 
 ## References
 
-* [[Jacques Dixmier]],
-_Sur certains espaces considérés par [[M. H. Stone]]_.
+* [[Jacques Dixmier]], _Sur certains espaces considérés par [[M. H. Stone]]_.
 Summa Brasiliensis Mathematicae 2 (1951), 151–182.
 [PDF](https://dmitripavlov.org/scans/dixmier.pdf).
 
-* [[Irving E. Segal]],
-_Equivalences of measure spaces_.
+* [[Irving E. Segal]], _Equivalences of measure spaces_.
 American Journal of Mathematics 73:2 (1951), 275–313.
 [doi:10.2307/2372178](https://doi.org/10.2307/2372178).
 
-* [[Dmitri Pavlov]]
-_Gelfand-type duality for commutative von Neumann algebras_.
+* [[Dmitri Pavlov]], _Gelfand-type duality for commutative von Neumann algebras_.
 [2005.05284](https://arxiv.org/abs/2005.05284)
 
 
 [[!redirects commutative von Neumann algebras]]
+[[!redirects abelian von Neumann algebras]]
+[[!redirects abelian von Neumann algebra]]
