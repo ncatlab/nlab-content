@@ -22,6 +22,7 @@ $$
 ## Related concepts
 
 * [[quantum inverse scattering method]]
+* [[quantum symmetric pair]]
 
 ## References
 
