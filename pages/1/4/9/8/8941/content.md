@@ -139,12 +139,15 @@ $$
 
 The most general coefficients for Hopf cyclic cohomology are called stable anti-Yetter-Drinfeld modules; the definition of [[anti-Yetter-Drinfeld module]]s is very similar.  
 
+## Nichols algebras
+
+To every YD module one assigns a [[Nichols algebra]], see there.
+
 ## Literature
 
 ### YD modules over Hopf/bi-algebras
 
-* Susan Montgomery, _Hopf algebras and their actions on rings_, 
-CBMS Lecture Notes __82__, AMS 1993, 240p.
+* Susan Montgomery, _Hopf algebras and their actions on rings_, CBMS Lecture Notes __82__, AMS 1993, 240p.
 
 * A.M. Semikhatov, _Yetter--Drinfeld structures on Heisenberg doubles and chains_, [arXiv:0908.3105](https://arxiv.org/abs/0908.3105)
 
@@ -165,8 +168,6 @@ Journal of Algebra __169__:3 (1994) 874--890 [doi](https://doi.org/10.1006/jabr.
 * D. Bulacu, S. Caenepeel, F. Panaite, _Doi--Hopf modules and Yetter--Drinfeld categories for quasi-Hopf algebras_, Communications in Algebra, 34 (9), 3413--3449 (2006) [math.QA/0311379](https://arxiv.org/abs/math/0311379)
 
 * Florin Panaite, Dragos Stefan, _Deformation cohomology for Yetter--Drinfel'd modules and Hopf (bi)modules_, [math.QA/0006048](https://arxiv.org/abs/math/0006048)
-
-* Nicol&#225;s Andruskiewitsch, Istv&#225;n Heckenberger, Hans-J&#252;rgen Schneider, _The Nichols algebra of a semisimple Yetter--Drinfeld module_,  American J. of Math. __132__:6, (2010) 1493--1547 [doi](https://doi.org/10.1353/ajm.2010.0019)
 
 * M. Cohen, D. Fischman, [[Susan Montgomery|S. Montgomery]], _On Yetter--Drinfeld categories and $H$-commutativity_, Commun. Algebra __27__ (1999) 1321--1345
 
