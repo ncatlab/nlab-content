@@ -36,6 +36,11 @@ A relation between [[reflection equation algebra]]s and  FRT algebras is discuss
 
 * Joseph Donin, [[Andrey Mudrov]], _Reflection equation- and FRT-type algebras_,  Czech J Phys __52__, 1201--1206 (2002) [doi](https://doi.org/10.1023/A:1021324718185)
 
+Other articles
+
+* A. Abella, [[Nicolás Andruskiewitsch]], _Compact quantum groups arising from the FRT construction_,  Bol. Acad. Nacional de Ciencias (Córdoba) 63, 15--44 (1999) [pdf](https://www.famaf.unc.edu.ar/~andrus/aa-frt.pdf)
+
+
 category: algebra
 
 [[!redirects FRT algebra]]
