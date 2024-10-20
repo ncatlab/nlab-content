@@ -1,10 +1,20 @@
+## Definition
+
 Given a field $k$ and two $k$-[[bialgebra]]s $A$ and $B$ with [[Hopf pairing]] $\lt, \gt : A\otimes B\to k$, one defines a left [[Hopf action]] $\blacktriangleright$ of $B$ on $A$ by formulas
 $$
 b\blacktriangleright a = \sum \lt b, a_{(2)}\gt a_{(1)}= (\lt,\gt \otimes \id)(b\otimes \tau\Delta_A(a))
 $$
-one forms the __Heisenberg double__ corresponding to these data as the crossed product algebra ("smash product") $A\sharp B$ associated to the Hopf action $\blacktriangleright$. If $H$ is finite-dimensional then the Heisenberg double has a structure of a [[scalar extension bialgebroid]].
+The __Heisenberg double__ corresponding to these data is the [[crossed product algebra]] (Hopf algebraic "smash product") $A\sharp B$ associated to the Hopf action $\blacktriangleright$. 
 
-For example if $A = S(V)$ is the symmetric (Hopf) algebra on a finite-dimensional vector space $V$, and $B$ its algebraic dual $(S(V))^*\cong \hat{S}(V^*)$, considered as its dual topological Hopf algebra, the result is the [[Weyl algebra]] of [[regular differential operators]], completed with respect to the filtration corresponding to the degree of differential operator. If $B$ is just the finite dual of $S(V)$ which is a usual Hopf algebra, then there is no completion, of course. 
+## Examples
+
+The motivating example is the following: when $A = S(V)$ is the symmetric (Hopf) algebra on a finite-dimensional vector space $V$, and $B$ its algebraic dual $(S(V))^*\cong \hat{S}(V^*)$, considered as its dual topological Hopf algebra, the result is the [[Weyl algebra]] of [[regular differential operators]], completed with respect to the filtration corresponding to the degree of differential operator. If $B$ is just the finite dual of $S(V)$ which is a usual Hopf algebra, then there is no completion, of course. 
+
+## Properties
+
+If $H$ is finite-dimensional then the Heisenberg double has a structure of a [[scalar extension bialgebroid]].
+
+## Literature
 
 * [[Jiang-Hua Lu]], _On the Drinfeld double and the Heisenberg double of a Hopf algebra_, Duke Math. J. __74__ (1994) 763&#8211;776.
 
@@ -16,7 +26,7 @@ An example of an infinite dimensional analogue coming from Lie algebras is treat
 
 * S. Meljanac, [[Z. Škoda]], _Lie algebra type noncommutative phase spaces are Hopf algebroids_, [arxiv:1409.8188](https://arxiv.org/abs/1409.8188)
 
-which partly refers to previous paper (which however neglects the issues related to completions, and has some expositional errors)
+which partly refers to the following earlier paper (which however neglects the issues related to completions, and has some expositional errors)
 
 * [[Zoran Škoda]], _Heisenberg double versus deformed derivatives_, Int. J. of Modern Physics A __26__, Nos. 27 & 28 (2011) 4845--4854, [arXiv:0909.3769](https://arxiv.org/abs/0909.3769), [doi](https://doi.org/10.1142/S0217751X11054772) 
 
@@ -29,9 +39,9 @@ Miscellaneous articles on Heisenberg doubles
 
 * F. Panaite, _Doubles of (quasi) Hopf algebras and some examples of quantum groupoids and vertex groups related to them_, [math.QA/0101039](https://arxiv.org/abs/math/0101039)
 
-* A.M. Semikhatov, _A Heisenberg double addition to the logarithmic Kazhdan&#8211;Lusztig duality_, [arXiv:0905.2215](http://arxiv.org/abs/0905.2215).
+* [[A. M. Semikhatov]], _A Heisenberg double addition to the logarithmic Kazhdan--Lusztig duality_, Lett. Math. Phys. __92__ (2010) 81--98 [arXiv:0905.2215](https://arxiv.org/abs/0905.2215).
 
-* A.M. Semikhatov, _Yetter--Drinfeld structures on Heisenberg doubles and chains_, [arXiv:0908.3105](https://arxiv.org/abs/0908.3105)
+* [[A. M. Semikhatov]], _Yetter--Drinfeld structures on Heisenberg doubles and chains_, [arXiv:0908.3105](https://arxiv.org/abs/0908.3105)
 
 There are some generalizations or Heisenberg doubles in different setups
 
