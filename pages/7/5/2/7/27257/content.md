@@ -11,6 +11,8 @@ __Alexei Mikhailovich Semikhatov__ is a Russian mathematical physicist. He is al
 
 * [[A. M. Semikhatov]], _A Heisenberg double addition to the logarithmic Kazhdan--Lusztig duality_, Lett. Math. Phys. __92__:81--98, 2010 [arXiv:0905.2215](https://arxiv.org/abs/0905.2215) 
 
+* [[A. M. Semikhatov]], _Yetter--Drinfeld structures on Heisenberg doubles and chains_, [arXiv:0908.3105](https://arxiv.org/abs/0908.3105)
+
 * [[Boris Feigin]], A. M. Gainutdinov, [[A. M. Semikhatov]], I. Yu. Tipunin, _Logarithmic extensions of minimal models: characters and modular transformations_, Nucl.Phys. __B757__:303--343,2006 [hep-th/0606196](https://arxiv.org/abs/hep-th/0606196); 
 
 * [[Boris Feigin]], A. M. Gainutdinov, [[A. M. Semikhatov]], I. Yu. Tipunin, _Modular group representations and fusion in logarithmic conformal field theories and in the quantum group center_, Commun. Math. Phys. __265__ (2006) 47--93; 
