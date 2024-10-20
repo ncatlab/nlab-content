@@ -82,20 +82,19 @@ See also:
 
 * 2011 workshop [Logarithmic CFT and representation theory](http://www.phys.ens.fr/~jacobsen/acfta/ws_1.html)
 
-* Matthias R Gaberdiel, [[Ingo Runkel]], _From boundary to bulk in logarithmic CFT_, J. Phys. A: Math. Theor. 41 075402 (2008) [doi](http://dx.doi.org/10.1088/1751-8113/41/7/075402)
+* Matthias R Gaberdiel, [[Ingo Runkel]], _From boundary to bulk in logarithmic CFT_, J. Phys. A: Math. Theor. __41__ 075402 (2008) [doi](https://doi.org/10.1088/1751-8113/41/7/075402)
 
-* A. M. Semikhatov, I. Yu. Tipunin, _Logarithmic $\widehat{sl}(2)$ CFT models from Nichols algebras 1_, [arxiv/1301.2235](http://arxiv.org/abs/1301.2235)
+* [[A. M. Semikhatov]], I. Yu. Tipunin, _Logarithmic $\widehat{sl}(2)$ CFT models from Nichols algebras 1_, [arxiv/1301.2235](https://arxiv.org/abs/1301.2235)
 
-* A. M. Semikhatov, _Factorizable ribbon quantum groups in logarithmic conformal field theories_, Theor.Math.Phys.154:433-453, 2008 [arxiv/0705.4267](http://arxiv.org/abs/0705.4267);  _A Heisenberg double addition to the logarithmic Kazhdan--Lusztig duality_, Lett.Math.Phys.92:81-98, 2010 [arxiv/0905.2215](http://arxiv.org/abs/0905.2215) 
+* [[A. M. Semikhatov]], _Factorizable ribbon quantum groups in logarithmic conformal field theories_, Theor.Math.Phys.154:433--453, 2008 [arxiv/0705.4267](http://arxiv.org/abs/0705.4267);  _A Heisenberg double addition to the logarithmic Kazhdan--Lusztig duality_, Lett.Math.Phys.92:81--98, 2010 [arxiv/0905.2215](http://arxiv.org/abs/0905.2215) 
 
-* [[Boris Feigin]], A M Gainutdinov, A M Semikhatov, I Yu Tipunin, _Logarithmic extensions of minimal models: characters and modular transformations_, Nucl.Phys. __B757__:303-343,2006 [hep-th/0606196](http://arxiv.org/abs/hep-th/0606196); 
+* [[Boris Feigin]], A. M. Gainutdinov, [[A. M. Semikhatov]], I. Yu. Tipunin, _Logarithmic extensions of minimal models: characters and modular transformations_, Nucl.Phys. __B757__:303--343,2006 [hep-th/0606196](http://arxiv.org/abs/hep-th/0606196); 
 
-  * _Modular group representations and fusion in logarithmic conformal field theories
-and in the quantum group center_, Commun. Math. Phys. 265 (2006) 47&#8211;93; 
+  * _Modular group representations and fusion in logarithmic conformal field theories and in the quantum group center_, Commun. Math. Phys. 265 (2006) 47--93; 
 
-  * _Kazhdan&#8211;Lusztig correspondence for the representation category of the triplet $W$-algebra in logarithmic CFT_, Theor. Math. Phys. 148 (2006) 1210&#8211;1235; 
+  * _Kazhdan--Lusztig correspondence for the representation category of the triplet $W$-algebra in logarithmic CFT_, Theor. Math. Phys. 148 (2006) 1210--1235; 
 
-  * _Kazhdan&#8211;Lusztig-dual quantum group for logarithmic extensions of Virasoro minimal models_, J. Math. Phys. __48__ (2007) 032303
+  * _Kazhdan--Lusztig-dual quantum group for logarithmic extensions of Virasoro minimal models_, J. Math. Phys. __48__ (2007) 032303
 
 * Philippe Ruelle, _Logarithmic conformal invariance in the Abelian sandpile model_, [arxiv/1303.4310](http://arxiv.org/abs/1303.4310)
 
