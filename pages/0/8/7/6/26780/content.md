@@ -8,10 +8,10 @@ He proved a descent theorem on [[Hopf-Galois extension]]s which is an analogue o
 
 The descent theorem is also known as [[Schneider's descent theorem]].
 
-On [[Nichols algebras]] and related program on classification of pointed Hopf algebras
+On [[Nichols algebras]] and related program of classification of pointed Hopf algebras
 
 * Nicol&#225;s Andruskiewitsch, Istv&#225;n Heckenberger, Hans-J&#252;rgen Schneider, _The Nichols algebra of a semisimple Yetter--Drinfeld module_,  American J. of Math. __132__:6, (2010) 1493--1547 [doi](https://doi.org/10.1353/ajm.2010.0019)
-* N. Andruskiewitsch, [[H.-J. Schneider]], _Finite quantum groups and Cartan matrices_, Adv. Math. 154 (2000), 1--45
+* [[Nicolás Andruskiewitsch]], [[H.-J. Schneider]], _Finite quantum groups and Cartan matrices_, Adv. Math. 154 (2000), 1--45
 * N. Andruskiewitsch, H.-J. Schneider, _Pointed Hopf algebras_, MSRI Publ. 43 (2002), 1--68.
 
 category: people
