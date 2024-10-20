@@ -30,6 +30,10 @@ The converse of bosonization explains for instance why [[self-dual higher gauge 
 
 * [[string theory]]
 
+A related phenomenon in algebra is
+
+* [[Radford-Majid bosonisation]] 
+
 
 ## References
 
