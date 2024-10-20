@@ -58,7 +58,7 @@ Although never explicitly mentioned by Girard, the transcendental syntax is very
 
 ### Car factory
 
-This is an example given by Girard in his book ([_Le fantôme de la transparence_](#Girard16c)).
+This is an example given by Girard in his book [_"Le fantôme de la transparence"_](#Girard16c).
 
 A car (analytics) can be certified by a factory (usine) and receive a label (type) which can guarantees that it will work as expected (adequacy). However, it would be absurd to drive 20000km with a car only to show that it can do it (actual use cannot serve as effective testing). Those factory tests are effective, finite, partial but sufficient. They are well-chosen and can be more laxist or strict.
 
