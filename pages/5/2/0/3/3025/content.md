@@ -30,4 +30,9 @@ for one approach, and
 
 for a refinement of this approach.
 
+A treatment of 3-Hilbert spaces, the further categorification of 2-Hilbert spaces, is in
+
+* Quan Chen, Giovanni Ferrer, Brett Hungar, David Penneys, Sean Sanford, _Manifestly unitary higher Hilbert spaces_ &lbrack;[arXiv:2410.05120](https://arxiv.org/abs/2410.05120)&rbrack;
+
+
 [[!redirects 2-Hilbert spaces]]
