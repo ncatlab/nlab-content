@@ -2539,6 +2539,21 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+### OCt 2024
+
+* Sheng-Jie Huang (Oxford University and Max Planck Institute for the Physics of Complex Systems):
+
+  **Quantum Matter Through the Lens of Topological Holography**
+
+  > It is well known that symmetry offers valuable insights for organizing [[quantum phases]] of matter and leads to important physical consequences, such as [conservation laws]] and constraints on the low-energy dynamics of a [[quantum field theory]].
+
+  > Recently, significant progress has been made in generalizing the concept of symmetry and exploring its connection to [[topological defects]]. In this talk, I will introduce a [[holographic principle]] for [[generalized symmetries]], referred to as topological holography, which describes the generalized symmetry of a quantum system in terms of a [[topological order]] in one higher dimension.
+
+  > This framework decouples the topological data from the local dynamics of the theory and provides a unified description of symmetry and duality in both gapped and gapless phases of matter. Specifically, I will focus on various exotic quantum critical points and gapless phases in (1+1)d, including phase transitions between [[symmetry protected topological phase|symmetry-protected topological]] (SPT) phases, symmetry-enriched quantum critical points, deconfined quantum critical points, and intrinsically gapless SPT phases.
+
+
+\linebreak
+
 ***
 
 \linebreak
