@@ -77,7 +77,7 @@ See also
 
 * Wikipedia, _[Polar coordinate system](http://en.wikipedia.org/wiki/Polar_coordinate_system)_
 
-* Wikipedia, _[Spherical coordinare system](https://en.wikipedia.org/wiki/Spherical_coordinate_system)_
+* Wikipedia, _[Spherical coordinate system](https://en.wikipedia.org/wiki/Spherical_coordinate_system)_
 
 
 [[!redirects polar coordinate]]
