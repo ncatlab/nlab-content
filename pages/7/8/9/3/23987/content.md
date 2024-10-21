@@ -2539,9 +2539,11 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
-### OCt 2024
+### Oct 2024
 
-* Sheng-Jie Huang (Oxford University and Max Planck Institute for the Physics of Complex Systems):
+* 21 Oct 2024
+
+  Sheng-Jie Huang (Oxford University and Max Planck Institute for the Physics of Complex Systems):
 
   **Quantum Matter Through the Lens of Topological Holography**
 
