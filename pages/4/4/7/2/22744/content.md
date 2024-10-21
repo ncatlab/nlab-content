@@ -39,3 +39,7 @@ See also:
 
 [[!redirects quantum phase transitions]]
 
+[[!redirects quantum phase]]
+[[!redirects quantum phases]]
+
+
