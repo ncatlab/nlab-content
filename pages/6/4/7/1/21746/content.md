@@ -114,7 +114,7 @@ The [[Sierpinski topos]] $Set^2$ is a connected, locally connected and local top
 
 The concept originates with
 
-* {#JW84}[[André Joyal]], [[Gavin Wraith]], _Eilenberg-Mac Lane Toposes and Cohomology_ , pp.117-131 in Cont. Math. **92** AMS 1984.
+* {#JW84}[[André Joyal]], [[Gavin Wraith]], _Eilenberg-Mac Lane Toposes and Cohomology_ , pp.117-131 in Cont. Math. **30** AMS 1984.
 
 * {#W83}[[Gavin Wraith]], _Toposes and simplicial sets: the cohomological connection_ , pp.281-290 in _Category theoretic methods in geometry_ , no.**35** Aarhus Univ. Var. Publ. Ser. 1983.
 
