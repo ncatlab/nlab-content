@@ -44,17 +44,17 @@ A **$J$-relative monad $T$** &lbrack;[ACU15, Def. 2.1](#ACU15)&rbrack; comprises
 
 - a function $T \colon |A| \to |E|$, the **underlying functor**;
 
-- for each object $X \in |A|$, a morphism $\eta_X \colon JX \to TX$ in $E$, the **unit**;
+- for each object $X \in |A|$, a morphism $\eta_X \colon J X \to T X$ in $E$, the **unit**;
 
-- for each morphism $f \colon JX \to TY$ in $A$, a morphism $f^\dagger \colon TX \to TY$ in $E$, the **extension operator**,
+- for each morphism $f \colon J X \to T Y$ in $A$, a morphism $f^\dagger \colon T X \to T Y$ in $E$, the **extension operator**,
 
 such that, for each $X, Y, Z \in |A|$, the following equations hold:
 
-- $f = f^\dagger \circ \eta_X$ for each $f \colon JX \to TY$ (**left unitality**);
+- $f = f^\dagger \circ \eta_X$ for each $f \colon J X \to T Y$ (**left unitality**);
 
-- $(\eta_X)^\dagger = 1_{TX}$ (**right unitality**);
+- $(\eta_X)^\dagger = 1_{T X}$ (**right unitality**);
 
-- $(g^\dagger \circ f)^\dagger = \g^\dagger \circ f^\dagger$ for each $f \colon JX \to TY$ and $g \colon JY \to TZ$.
+- $(g^\dagger \circ f)^\dagger = \g^\dagger \circ f^\dagger$ for each $f \colon J X \to T Y$ and $g \colon J Y \to T Z$.
 
 \end{definition}
 
