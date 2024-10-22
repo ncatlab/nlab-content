@@ -2541,11 +2541,13 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 ### Oct 2024
 
-* 21 Oct 2024
+* {#HuangOct2024} 21 Oct 2024
 
   Sheng-Jie Huang (Oxford University and Max Planck Institute for the Physics of Complex Systems):
 
   **Quantum Matter Through the Lens of Topological Holography**
+
+  cf. [arXiv:2405.09611](https://arxiv.org/abs/2405.09611)
 
   > It is well known that symmetry offers valuable insights for organizing [[quantum phases]] of matter and leads to important physical consequences, such as [conservation laws]] and constraints on the low-energy dynamics of a [[quantum field theory]].
 
