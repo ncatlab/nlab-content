@@ -115,6 +115,10 @@ See [[(∞,2)-category]].
 ## References
  {#References}
 
+See also:
+
+* Wikipedia, _[Simplicially enriched category](https://en.wikipedia.org/wiki/Simplicially_enriched_category)_
+
 Discussion the context of ([[simplicial model category|simplicial]]) [[model category]] theory:
 
 * {#Quillen67} [[Daniel Quillen]], II §1 of: *[[Homotopical Algebra]]*, Lecture Notes in Mathematics **43**, Springer (1967) &lbrack;[doi:10.1007/BFb0097438](https://doi.org/10.1007/BFb0097438)&rbrack;
