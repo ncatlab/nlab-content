@@ -1,3 +1,4 @@
+
 # Diamonds
 * table of contents
 {: toc}
@@ -10,7 +11,7 @@ In [[graph theory]], by a  _diamond_ one means a finite [[directed graph]] witho
 
 ## Completing spans to diamonds
 
-It is often interesting wheather a given [[span]] in some partial ordered set can be completed into a diamond. The property of a collection of spans to consist of spans which are expandable into diamonds is very useful in the theory of [[rewriting]] systems and producing normal forms in algebra. There are classical results e.g. Newman's diamond lemma ([wikipedia](https://en.wikipedia.org/wiki/Newman%27s_lemma)), &#352;ir&#353;ov-Bergman's diamond lemma (&#352;ir&#353;ov is also sometimes spelled as Shirshov), and [[Church-Rosser theorem]] (and the corresponding Church-Rosser [[confluent category|confluence property]]).
+It is often interesting whether a given [[span]] in some partial ordered set can be completed into a diamond. The property of a collection of spans to consist of spans which are expandable into diamonds is very useful in the theory of [[rewriting]] systems and producing normal forms in algebra. There are classical results e.g. Newman's diamond lemma ([wikipedia](https://en.wikipedia.org/wiki/Newman%27s_lemma)), &#352;ir&#353;ov-Bergman's diamond lemma (&#352;ir&#353;ov is also sometimes spelled as Shirshov), and [[Church-Rosser theorem]] (and the corresponding Church-Rosser [[confluent category|confluence property]]).
 
 * [[Alonzo Church]], J. Barkley Rosser, _Some properties of conversion_,  Trans. AMS __39__, No. 3. (May 1936), pp. 472&#8211;482, ([jstor](http://www.jstor.org/stable/1989762))
 
@@ -31,9 +32,12 @@ See [[zoranskoda:diamond lemma]] and the discussion starting [here](http://nforu
 
 > The celebrated Diamond Lemma of Bergman gives an effectively verifiable criterion of uniqueness of normal forms for term rewriting in associative algebras. We present a new way to interpret and prove this result from the viewpoint of homotopical algebra. Our main result states that every multiplicative free resolution of an algebra with monomial relations gives rise to its own Diamond Lemma, so that Bergman's condition of "resolvable ambiguities" becomes the first non-trivial component of the Maurer--Cartan equation in the corresponding tangent complex. The same approach works for many other algebraic structures, emphasizing the relevance of computing multiplicative free resolutions of algebras with monomial relations. 
 
-## Other notion of a diamond
+## Other notions of diamonds
 
-Distinguish from the 5-edge 4-point [undirected diamond graph](http://en.wikipedia.org/wiki/Diamond_graph).
+There is also 
+
+* the 5-edge 4-point [undirected diamond graph](http://en.wikipedia.org/wiki/Diamond_graph).
+
 
 ## Related entries
 
