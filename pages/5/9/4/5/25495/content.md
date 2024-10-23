@@ -57,6 +57,8 @@ Application to [[quantum sensing]]:
 
 * Nick R. Neuling, Robin D. Allert, [[Dominik B. Bucher]], *Prospects of Single-Cell NMR Spectroscopy with Quantum Sensors*, Current Opinion in Biotechnology **83** (2023) 102975 &lbrack;[arXiv:2306.07593](https://arxiv.org/abs/2306.07593), [doi:10.1016/j.copbio.2023.102975](https://doi.org/10.1016/j.copbio.2023.102975)&rbrack;
 
+* M. Barson et al.: *Nanomechanical sensing using spins in diamond*, Nano Letters **17** 3 (2017) &lbrack;[arXiv:1612.05325](https://arxiv.org/abs/1612.05325), [doi:10.1021/acs.nanolett.6b04544](https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.6b04544)&rbrack;
+
 
 Survey:
 
