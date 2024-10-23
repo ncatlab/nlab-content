@@ -18,7 +18,7 @@ We begin with the definition of [[coherence spaces]], presented in a way that is
 
 If $u\subset X$ and $v\subseteq X$, write $u\perp v$ if $|u\cap v|\leq 1$. Given $U\subseteq P(X)$, let ${U}^\perp=\{v \subseteq X \mid \forall u \in U. u \perp v\}$. Now a [[coherence space]] can be given by a set $X$ together with a set $U\subseteq P(X)$ of cliques and a set $V\subseteq P(X)$ of co-cliques that are orthogonal in the sense that $U=V^\perp$ and $V=U^\perp$. 
 
-In this presentation of coherence spaces, we can regard $u$ as a relation $1\to X$, and $v$ as a relation $X\to 1$. The relation $\perp$ is then a family of subsets $\perp_X\subseteq [1\to X]\times [X\to 1]$. 
+In this presentation of coherence spaces, we can regard $u$ as a relation $1\to X$, and $v$ as a relation $X\to \bot$. The relation $\perp$ is then a family of subsets $\perp_X\subseteq [1\to X]\times [X\to \bot]$. 
 
 ### General definition of double gluing along hom-sets with tight orthogonality
 
