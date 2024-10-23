@@ -371,6 +371,12 @@ $$
 
 * [[(infinity,1)-category]]
 
+## References
+
+See also:
+
+* Wikipedia, _[Topological category](https://en.wikipedia.org/wiki/Topological_category)_
+
 [[!redirects topologically enriched categories]]
 
 [[!redirects Top-enriched category]]
