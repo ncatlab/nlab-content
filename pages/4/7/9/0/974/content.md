@@ -161,7 +161,7 @@ of [[categories of presheaves]] on some small category $K$.
 =--
 
 
-This appears as [Adámek & Rosický (1994), prop 1.46](#AdámekRosický94).
+This appears as [Adámek & Rosický (1994), prop 1.46](#AdámekRosický94) and [Gabriel & Ulmer (1971), Satz 8.5(c) and Bemerkung 8.6(c)](#GabrielUlmer).
 
 +-- {: .num_remark}
 ###### Remark
