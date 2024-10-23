@@ -73,11 +73,10 @@ Each of the functors $-^a$, $-^{f^*(a)}$ and $f^*$ has a [[left adjoint]], so by
 is an isomorphism for each $a$ in $\mathcal{Y}$ and $c$ in $\mathcal{X}$.  
 
 This holds for instance for the [[base change]] between [[slice categories]] $\mathcal{C}_{/b}$, $\mathcal{C}_{/b'}$ of a [[finitely complete category]] $\mathcal{C}$ along a morphism $f \colon b' \to b $ -- by the [[pasting law]] in $\mathcal{C}$:
-
 \[
   \label{PastingLawForLexCategories}
   \array{
-    f^\ast a \times_b c
+    f^\ast a \times_{b'} c
     &\longrightarrow&
     f^\ast a 
     &\longrightarrow&
