@@ -78,7 +78,7 @@ If $C$ has a [[terminal object]] $\ast$, then the $J$-injective objects $I$ acco
 +-- {: .num_defn #EnoughInjectives}
 ###### Definition
 
-Ones says that a category $C$ has **enough injectives** if every object admits a [[monomorphism]] into an injective object.
+One says that a category $C$ has **enough injectives** if every object admits a [[monomorphism]] into an injective object.
 
 
 =--
