@@ -2555,6 +2555,32 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > This framework decouples the topological data from the local dynamics of the theory and provides a unified description of symmetry and duality in both gapped and gapless phases of matter. Specifically, I will focus on various exotic quantum critical points and gapless phases in (1+1)d, including phase transitions between [[symmetry protected topological phase|symmetry-protected topological]] (SPT) phases, symmetry-enriched quantum critical points, deconfined quantum critical points, and intrinsically gapless SPT phases.
 
+\linebreak
+
+* {#PeddibhotlaOct2024} 22 Oct 2024
+
+  Phani Kumar Peddibhotla (Indian Institute of Science Education and Research, Bhopal, India):
+
+  **Quantum Sensing Using NV Centers in Diamond**
+
+  cf.: [arXiv:1612.05325](https://arxiv.org/abs/1612.05325)
+
+  > Diamond serves as an ideal [[crystal|crystalline]] host for a variety of point defects due to its exceptional qualities such as wide [[electronic band structure|band]] gap, small [[spin-orbit coupling]], and its availability in high-quality, isotopically purified single crystals. Among the possible defects, [[nitrogen-vacancy center in diamond|the nitrogen-vacancy (NV) defect]], which is an optically active paramagnetic defect, has been extensively studied as its [[spin]] [[quantum state|state]] can be optically initialized and [[quantum measurement|measured]] at room temperature, and can be manipulated via [[electron]] [[spin resonance]] by microwave [[electromagnetic radiation|radiation]].
+
+  > Owing to its unique properties, the NV center in diamond has been used to measure a number of physical quantities such as [[magnetic field]], [[electric field]], [[temperature]], and stress/[[strain]] at ambient conditions &lbrack;[1](3PeddibhotlaOct2024Ref1), [2](#PeddibhotlaOct2024Ref2)&rbrack;. Consequently, NV quantum sensors have not only enabled the measurement of magnetic resonance from a single electron spin and a few nuclear spins &lbrack;[1](#PeddibhotlaOct2024Ref1)&rbrack;, but also emerged as a spectroscopic tool for imaging the charge and strain environments intrinsic to the diamond lattice &lbrack;[3](#PeddibhotlaOct2024Ref3),[4](#PeddibhotlaOct2024Ref4)&rbrack;.
+
+  > In this talk, I'll discuss our recent work on utilizing NV sensors for high-sensitivity scalar, vector, and zero-field magnetometry applications.
+
+  > References:
+
+  > {#PeddibhotlaOct2024Ref1} 1. R. Schirhagl et al, Annual Reviews in Physical Chemistry, 2014, 65, 83.
+
+  > {#PeddibhotlaOct2024Ref2} 2. P. Peddibhotla et al, [Nano Letters, 2017, 17 (3), 1496](https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.6b04544)
+
+  > {#PeddibhotlaOct2024Ref3} 3. T. Mittiga et al, Phys. Rev. Lett. 121, 246402 (2018).
+
+  > {#PeddibhotlaOct2024Ref4} 4. S. Kumar et al, 2023 Quantum Sci. Technol. 8 025011
+
 
 \linebreak
 
@@ -3500,6 +3526,17 @@ Neumann algebras**
   > In our work, we have provided a formalisation of their construction and constructed new languages using the [[lower central series]], which have a close connection with nilpotency. We notice that these functorial languages acquire remarkable properties when we restrict them to different varieties of groups.
 
   > We will lift all constructions to spectra and demonstrate that functorial languages on a given manifold of groups (or simply subcategories of a category of groups) give rise to some [[stable infinity-categories]], which we call functorial surfaces. Then applying the [[algebraic K-theory]] to functorial surfaces, we arrive at flux spectra. This may provide a bridge between [[group theory]] and [[stable homotopy theory]].
+
+\linebreak
+
+* 23 Oct 2024
+
+  Nizar Demni (Aix-Marseille Université (AMU) France and NYUAD):
+
+  **From the Dunkl Intertwining Operator to Simple Hurwitz Numbers**
+
+  > I'll start with a review of finite [[root systems]] and their related matters (Weyl chambers, reflection groups, multiplicity functions). Then, I'll introduce the Dunkl derivatives and the Dunkl intertwining operator. In this context, I'll discuss the commutativity of the former and the existence of the latter, relying on a deformed [[de Rham cohomology]] and the reflection [[group algebra]]. Finally, I'll focus on the Itzykson-Zuber-Harish-Chandra integral, its various expansions, and raise the problem of a mysterious connection to simple Hurwitz numbers.
+
 
 \linebreak  
 
