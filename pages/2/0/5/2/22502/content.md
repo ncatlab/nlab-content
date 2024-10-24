@@ -39,3 +39,4 @@ category: people
 [[!redirects I. G. MacDonald]]
 [[!redirects I. G. Macdonald]]
 [[!redirects Ian MacDonald]]
+[[!redirects Ian Grant MacDonald]]
