@@ -35,7 +35,7 @@ Events after [PSSL 100](http://www.julia-goedecke.de/PSSL100/pssl100.html):
 
 * [PSSL108](https://sites.google.com/view/beppemetere/pssl-108) (2023, Terrasini)
 
-* [PSSL109](https://b-starkenburg.github.io/PSSL-2024/) (2024, Leiden)
+* [PSSL109](https://dutchcats.github.io/PSSL-2024/index.html) (2024, Leiden)
 
 
 ## Related pages
