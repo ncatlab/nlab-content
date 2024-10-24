@@ -151,8 +151,12 @@ Locally presentable categories are precisely the [[accessible functor|accessibly
 
 $$
   (L \dashv i) 
-  :
-  C \stackrel{\overset{L}{\leftarrow}}{\underset{i}{\hookrightarrow}}
+  \;\colon\;
+  C 
+  \underoverset
+    {\underset{i}{\hookrightarrow}}
+    {\overset{L}{\leftarrow}}
+    {\;\;\bot\;\;}
   PSh(K)
 $$
 
