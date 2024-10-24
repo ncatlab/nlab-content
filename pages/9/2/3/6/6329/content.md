@@ -35,7 +35,7 @@ The pictures are named after those physicists ([[Werner Heisenberg]], [[Erwin Sc
 
 ### With global time
 
-Let us assume a global notion of [[time]], say a [[background field|fixed background]] [[spacetime]] which is [[globally hyperbolic spacetime|globally hyperbolic]], so that it admits a [[foliation]] into [[Cauchy surfaces]], and choose a [[time] [[coordinate]] for this foliation.  The upshot of this is that each [[event]] occurs at a time $t$, and conversely we can speak of [[space]] at any time $t$ (at least within certain bounds).  Thus we may speak sensibly of either the state of the world at time $t$ or the value of some observable quantity at time $t$.
+Let us assume a global notion of [[time]], say a [[background field|fixed background]] [[spacetime]] which is [[globally hyperbolic spacetime|globally hyperbolic]], so that it admits a [[foliation]] into [[Cauchy surfaces]], and choose a [[time]] [[coordinate]] for this foliation.  The upshot of this is that each [[event]] occurs at a time $t$, and conversely we can speak of [[space]] at any time $t$ (at least within certain bounds).  Thus we may speak sensibly of either the state of the world at time $t$ or the value of some observable quantity at time $t$.
 
 Because this is a picture of [[dynamics]], states or observables (as appropriate to the picture) will vary through time.  We therefore have a [[time evolution]] operator $U(t,t')$ between any two times $t,t'$; actually, we need consider only $U(t) \coloneqq U(t,0)$, since $U(t,t') = U(t) \circ U(t')^{-1}$.
 
