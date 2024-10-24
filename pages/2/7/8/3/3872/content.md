@@ -55,8 +55,6 @@ On [[commutative algebra]]:
 
 * [[Michael Atiyah]], [[Ian G. Macdonald]], _Introduction to commutative algebra_, (1969, 1994) $[$[pdf](http://math.univ-lyon1.fr/~mathieu/CoursM2-2020/AMD-ComAlg.pdf), [ISBN:9780201407518](https://www.routledge.com/Introduction-To-Commutative-Algebra/Atiyah/p/book/9780201407518)$]$
 
-
-
 On the [[KO-theory]] of [[complex projective 3-space]]:
 
 * [[Michael Atiyah]], E. Rees, _Vector bundles on projective 3-space_ Invent. Math.35, 131–153 (1976) ([[AtiyahReesVectorBundlesOnCP3.pdf:file]])
@@ -220,5 +218,6 @@ category: people
 [[!redirects Atiyah]]
 [[!redirects Sir Michael Atiyah]]
 
+[[!redirects Michael Francis Atiyah]]
 
 
