@@ -33,8 +33,15 @@ A [[topological space]] $X$ is **semi-locally simply-connected** if it has a bas
 The [[Euclidean space|Euclidean]] [[circle]] 
 
 $$
-  S^1 = \left\{ x \in \mathbb{R}^2 \;\vert\;  {\Vert x\Vert} = 1\right\}
-  \subset \mathbb{R}^2
+  S^1 
+   \;=\; 
+  \big\{ 
+    x \in \mathbb{R}^2 
+    \;\big\vert\;  
+    {\Vert x\Vert} = 1
+  \big\}
+  \;\subset\; 
+  \mathbb{R}^2
 $$
 
 is locally simply connected
@@ -47,7 +54,9 @@ is locally simply connected
 By definition of the [[subspace topology]] and the defining [[topological base]] of the [[Euclidean plane]], a [[base for a topology|base for the topology]] of $S^1$ is given by the [[images]] of [[open intervals]] under the [[local homeomorphism]]
 
 $$
-  (cos(-), sin(-)) \;\colon\; \mathbb{R}^1 \to S^1
+  \big(cos(-), sin(-)\big) 
+    \;\colon\; 
+  \mathbb{R}^1 \longrightarrow S^1
   \,.
 $$
 
@@ -71,7 +80,8 @@ For a [[topos]]-theoretic notion of locally $n$-connected see [[locally n-connec
 
 * [[locally path-connected topological space]]
 
-[[!redirects semi-locally simply topological connected space]]
+
+[[!redirects semi-locally simply-connected topological spaces]]
 
 [[!redirects semi-locally simply connected space]]
 [[!redirects semi-locally simply connected spaces]]
@@ -96,4 +106,6 @@ For a [[topos]]-theoretic notion of locally $n$-connected see [[locally n-connec
 
 [[!redirects locally simply-connected topological space]]
 [[!redirects locally simply-connected topological spaces]]
+
+[[!redirects semi-locally simply topological connected space]]
 
