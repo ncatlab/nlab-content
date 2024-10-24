@@ -72,6 +72,10 @@ On the [[relativistic particle]], and related systems, in [[BV-BRST formalism]]:
 
 * [[Alberto Cattaneo]], [[Michele Schiavina]], _On time_, Lett. Math. Phys. **107** (2017) 375-408 &lbrack;[doi:10.1007/s11005-016-0907-x](https://doi.org/10.1007/s11005-016-0907-x), [arXiv:1607.02412](http://arxiv.org/abs/1607.02412)&rbrack;
 
+On [[boundary field theory]] and the [[standard model of gravity]]:
+
+* Giovanni Canepa, [[Alberto S. Cattaneo]], Filippo Fila-Robattino, Manuel Tecchiolli: *Boundary structure of the standard model coupled to gravity*, Ann. Henri Poincaré (2024) &lbrack;[arXiv:2307.14955](https://arxiv.org/abs/2307.14955), [doi:10.1007/s00023-024-01485-4](https://doi.org/10.1007/s00023-024-01485-4)&rbrack;
+
 
 
 ## Related entries
