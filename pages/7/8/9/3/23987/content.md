@@ -3535,6 +3535,8 @@ Neumann algebras**
 
   **From the Dunkl Intertwining Operator to Simple Hurwitz Numbers**
 
+  slides: [[Demni-Dunkl-Oct2024.pdf:file]]
+
   > I'll start with a review of finite [[root systems]] and their related matters (Weyl chambers, reflection groups, multiplicity functions). Then, I'll introduce the Dunkl derivatives and the Dunkl intertwining operator. In this context, I'll discuss the commutativity of the former and the existence of the latter, relying on a deformed [[de Rham cohomology]] and the reflection [[group algebra]]. Finally, I'll focus on the Itzykson-Zuber-Harish-Chandra integral, its various expansions, and raise the problem of a mysterious connection to simple Hurwitz numbers.
 
 
@@ -3882,6 +3884,7 @@ Researchers:
 * [[Vivek Kumar Singh]]
 
 * [[Sachin Valera]]
+
 
 
 ### Former
