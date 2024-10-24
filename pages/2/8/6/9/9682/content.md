@@ -61,6 +61,10 @@ Discussion of the [[BV-formalism|BV-]][[phase space]] and [[Poisson n-algebras|P
 
 * [[Alberto Cattaneo]], *Poisson Structures from Corners of Field Theories*, [talk at](CQTS#CattaneoNov2023) [[CQTS]] (22 Nov 2023) &lbrack;slides: [[Cattaneo-PoissonStrucFromCorners.pdf:file]], video: [YT](https://youtu.be/_bGH09FmAxk)&rbrack;
 
+and application to the [[standard model of particle physics]]:
+
+* Giovanni Canepa, [[Alberto S. Cattaneo]], Filippo Fila-Robattino, Manuel Tecchiolli: *Boundary structure of the standard model coupled to gravity*, Ann. Henri Poincaré (2024) &lbrack;[arXiv:2307.14955](https://arxiv.org/abs/2307.14955), [doi:10.1007/s00023-024-01485-4](https://doi.org/10.1007/s00023-024-01485-4)&rbrack;
+
 
 
 
