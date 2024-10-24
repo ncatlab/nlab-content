@@ -37,6 +37,8 @@ $$\frac{a}{b} \div \frac{c}{d} = \frac{a \cdot d}{b \cdot c}$$
 
 * The ring of fractions of the [[integers]] is the [[rational numbers]] $\mathbb{Q} \coloneqq \mathbb{Z}[\mathrm{Reg}(\mathbb{Z})^{-1}]$. 
 
+* The ring of fractions of a [[discrete integral domain]] is a [[discrete field]]. 
+
 * The ring of fractions of a [[Heyting integral domain]] is a [[Heyting field]]. 
 
 * The ring of fractions of a [[strict approximate integral domain]] is a [[local ring]]. 
@@ -55,7 +57,11 @@ $$\frac{a}{b} \div \frac{c}{d} = \frac{a \cdot d}{b \cdot c}$$
 
 ## References
 
+* [[Michael Francis Atiyah]], [[Ian Grant MacDonald]]. *Introduction to Commutative Algebra*. Addison-Wesley, 1969.  ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/AtiyahMacdonald.pdf), [pdf](https://wstein.org/edu/Fall2003/252/references/Atiyah-MacDonald/Atiyah-McDonald-Commutative_Algebra.pdf))
+
 * [[Frank Quinn]], *Proof Projects for Teachers* ([pdf](https://personal.math.vt.edu/fquinn/education/pfs4teachers0.pdf))
+
+* [[Max Zeuner]], *Univalent Foundations of Constructive Algebraic Geometry* ([arXiv:2407.17362](https://arxiv.org/abs/2407.17362))
 
 [[!redirects rings of fractions]]
 
