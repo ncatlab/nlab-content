@@ -26,7 +26,7 @@ $$
   \,.
 $$ 
 
-This generalizes the concept of a plain *[[monad]]* on $\mathcal{C}$, which is recovered as the special case of grading by the the [[terminal category|terminal]] monoidal category $1$. 
+This generalizes the concept of a plain *[[monad]]* on $\mathcal{C}$, which is recovered as the special case of grading by the [[terminal category|terminal]] monoidal category $1$. 
 
 Equivalently, an $\mathcal{M}$-grading is a [[action of a monoidal category|lax action]] of $\mathcal{M}$ on $\mathcal{C}$, which in turn is equivalently a lax [[2-functor]] to [[Cat]] from the [[delooping#deloopings_of_higher_categorical_structures|delooping]] of $\mathcal{M}$, i.e.: $\mathbf{B} \mathcal{M} \to Cat$. 
 
