@@ -232,6 +232,8 @@ On holographic descriptions of [[topological semimetals]] via the [[AdS-CMT corr
 
 * Nishal Rai, Karl Landsteiner: *Hydrodynamic Modes of Holographic Weyl Semimetals* &lbrack;[arXiv:2408.06192](https://arxiv.org/abs/2408.06192)&rbrack;
 
+* Vladimir Juričić, Olivera Miskovic, Francisca Ramírez Carrasco: *Holographic Weyl semimetals with dislocations* &lbrack;[arXiv:2410.18853](https://arxiv.org/abs/2410.18853)&rbrack;
+
 
 Review:
 
