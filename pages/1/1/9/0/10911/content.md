@@ -143,6 +143,11 @@ In relation to the [[Brandenberger-Vafa mechanism]]:
 
 * [[Robert Brandenberger]], Julia Pasiecznik: *On the Origin of the $SO(9) \to SO(3) \times SO(6)$ Symmetry Breaking in the IKKT Matrix Model* &lbrack;[arXiv:2409.00254](https://arxiv.org/abs/2409.00254)&rbrack;
 
+See also:
+
+* Shota Komatsu, Adrien Martina, João Penedones, Antoine Vuignier, Xiang Zhao: *Einstein gravity from a matrix integral -- Part I* &lbrack;[arXiv:2410.18173](https://arxiv.org/abs/2410.18173)&rbrack;
+
+
 
 
 
