@@ -60,6 +60,8 @@ Construction in [[M-theory]]:
 
 * Marwan Najjar, Jiahua Tian, Yi-Nan Wang, *3d $\mathcal{N}=2$ theories from M-theory on CY4 and IIB brane box* &lbrack;[arXiv:2312.17082](https://arxiv.org/abs/2312.17082)&rbrack;
 
+* Andrea Sangiovanni, Roberto Valandro: *M-theory geometric engineering for rank-0 3d $\mathcal{N}=2$ theories* &lbrack;[arXiv:2410.13943](https://arxiv.org/abs/2410.13943)&rbrack;
+
 
 
 [[!redirects D=3 N=2 SYM]]
