@@ -86,6 +86,8 @@ Relation to [[M2-branes]]:
 
 * Jarod Hattab, [[Eran Palti]]: *On Calabi-Yau manifolds at strong topological string coupling* &lbrack;[arXiv:2409.01721](https://arxiv.org/abs/2409.01721)&rbrack;
 
+* Jarod Hattab, [[Eran Palti]]: *Notes on integrating out M2 branes* &lbrack;[arXiv:2410.15809](https://arxiv.org/abs/2410.15809)&rbrack;
+
 
 
 ### Relation to black hole microstate counting
