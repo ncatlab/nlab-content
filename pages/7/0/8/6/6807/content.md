@@ -101,13 +101,11 @@ First inkling of [[matrix models]] from the [[large N limit]] of [[QCD]]:
 * A. Gonzalez-Arroyo, M. Okawa, _Twisted-Eguchi-Kawai model: A reduced model for large-
 $N$ lattice gauge theory_, Phys. Rev. D 27, 2397 (1983) ([doi:10.1103/PhysRevD.27.2397](https://doi.org/10.1103/PhysRevD.27.2397))
 
-
 The original articles on the BFSS matrix model:
 
 * {#BanksFischlerShenkerSusskind96} [[Tom Banks]], [[Willy Fischler]], [[Stephen Shenker]], [[Leonard Susskind]], _M Theory As A Matrix Model: A Conjecture_,  Phys. Rev. D **55** (1997) &lbrack;[doi:10.1103/PhysRevD.55.5112](https://doi.org/10.1103/PhysRevD.55.5112), [arXiv:hep-th/9610043](http://arxiv.org/abs/hep-th/9610043)&rbrack;
 
 * [[Leonard Susskind]], _Another Conjecture about M(atrix) Theory_ ([arXiv:hep-th/9704080](https://arxiv.org/abs/hep-th/9704080)) 
-
   > (argument for [[small N limit|small N]]-validity)
 
 and with more details on the [[discrete light front quantization]] involved:
@@ -152,7 +150,10 @@ See also
 
 * [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl. Phys. Proc. Suppl. **68** (1998) 11-16 &lbrack;[arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034)&rbrack;
 
-* [[Chris D. A. Blair]], Johannes Lahnsteiner, [[Niels A. Obers]], Ziqi Yan. *Unification of Decoupling Limits in String and M-theory*. (2023). ([arXiv:2311.10564](https://arxiv.org/abs/2311.10564))
+* [[Chris D. A. Blair]], Johannes Lahnsteiner, [[Niels A. Obers]], Ziqi Yan. *Unification of Decoupling Limits in String and M-theory* &lbrack;[arXiv:2311.10564](https://arxiv.org/abs/2311.10564)&rbrack;
+
+* Henry W. Lin, Zechuan Zheng: *Bootstrapping Ground State Correlators in Matrix Theory, Part I* &lbrack;[arXiv:2410.14647](https://arxiv.org/abs/2410.14647)&rbrack;
+
 
 Discussion as a solution to the open problem of defining [[M-theory]] is in 
 
