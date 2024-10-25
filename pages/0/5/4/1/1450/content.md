@@ -160,7 +160,7 @@ A [[differential form|differential 1-form]] is a morphism $\omega : T X \to R$ t
 for a sufficiently well behaved object $X$ in a [[smooth topos]], there is the [[simplicial object]] which is the [[infinitesimal singular simplicial complex]] $X^{(\Delta^\bullet_{inf})}$ of $X$. Taking functions on this produces the [[cosimplicial algebra]] $Hom(X^{\Delta^\bullet_{inf}}, R)$. Its [[Moore complex|normalized Moore cochain complex]] is isomorphic to the [[de Rham complex|de Rham dg-algebra]] of differential forms on $X$:
 
 $$
-  N^\bullet(Hom(X^{(\Delta^{inf}_\bullet)}),R)
+  N^\bullet(Hom(X^{(\Delta^{inf}_\bullet)},R))
   =
   \Omega^\bullet_{dR}(X)
   \,.
