@@ -24,7 +24,7 @@
 
 The [[smash product]] on [[pointed topological spaces]] induces a smash product on [[spectra]].
 
-This is the canonical [[tensor product]] in the [[symmetric monoidal (infinity,1)-category of spectra]]. There are various [[model category]] [[presentable (infinity,1)-category|presentations]] for which which are symmetric [[monoidal model categories]] (such as the [[highly structured spectra]]: [[S-modules]], [[symmetric spectra]] and [[orthogonal spectra]], but also for instance [[excisive functors]]). See at _[[symmetric monoidal category of spectra]]_ for more on this. Passing to the [[stable homotopy category]], it become a [[symmetric monoidal category]] under the smash product. Under mild assumptions, this is the essentially unique symmetric tensor product with [[unit]] the [[sphere spectrum]] ([Shipley 01](#Shipley01)).
+This is the canonical [[tensor product]] in the [[symmetric monoidal (infinity,1)-category of spectra]]. There are various [[model category]] [[presentable (infinity,1)-category|presentations]] which are symmetric [[monoidal model categories]] (such as the [[highly structured spectra]]: [[S-modules]], [[symmetric spectra]] and [[orthogonal spectra]], but also for instance [[excisive functors]]). See at _[[symmetric monoidal category of spectra]]_ for more on this. Passing to the [[stable homotopy category]], it become a [[symmetric monoidal category]] under the smash product. Under mild assumptions, this is the essentially unique symmetric tensor product with [[unit]] the [[sphere spectrum]] ([Shipley 01](#Shipley01)).
 
 ### History
 
