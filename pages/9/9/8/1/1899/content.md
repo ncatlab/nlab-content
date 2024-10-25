@@ -194,7 +194,7 @@ $$T U S \cdot R \stackrel{\overset{\epsilon U S \cdot R}{\to}}{\underset{\beta U
 
 Here $\epsilon U S$ is the same as the $T$-algebra structure $T U S \to U S$ on $S$. Whereas $\beta X: T X \cdot R \to X \cdot R$ is a component of the $T$-module structure $W_R T \to W_R$; it is mated by the $- \cdot R \dashv \hom(R, -)$ adjunction to the component of the coalgebra structure $\phi X: T X \to \hom(R, X \cdot R)$. 
 
-To extract the $T$-coalgebra structure on $S \odot R$, let us observe generally that if $F: C \to D$ is a left adjoint, then for any category $E$ there is an induced left adjoint $[1_E, F]: [E, C] \to [E, D]$ and similarly an induced left adjoint $Ladj(E, C) \to Ladj(E, D)$. Applying this to the case where $C = D = E = Set^T$ and where $F$ is the left adjoint to the lift $\hom(R, -): Set^T \to Set^T$, we find that 
+To extract the $T$-coalgebra structure on $S \odot R$, let us observe generally that if $F: C \to D$ is a left adjoint, then for any category $E$ there is an induced left adjoint $[1_E, F]: [E, C] \to [E, D]$; if $C$ is a [[locally presentable category|locally presentable]], there is similarly an induced left adjoint $Ladj(E, C) \to Ladj(E, D)$. Applying this to the case where $C = D = E = Set^T$ and where $F$ is the left adjoint to the lift $\hom(R, -): Set^T \to Set^T$, we find that 
 
 $$- \odot R: Ladj(Set^T, Set^T) \to Ladj(Set^T, Set^T)$$ 
 
