@@ -204,9 +204,9 @@ For discussion in [[stable homotopy theory]] modeled on [[symmetric spectra]] is
 
 * {#Schwede12} [[Stefan Schwede]], part II, prop. 6.30 of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
-See also
+See also:
 
-* wikipedia, _[Hurewicz theorem](http://en.wikipedia.org/wiki/Hurewicz_theorem)_
+* Wikipedia: _[Hurewicz theorem](http://en.wikipedia.org/wiki/Hurewicz_theorem)_
 
 In the generality of the [[Boardman homomorphism]]:
 
