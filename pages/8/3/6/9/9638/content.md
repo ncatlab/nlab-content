@@ -324,8 +324,7 @@ Further introduction and survey:
 
   *Introduction to Quantum Information Science II* (2022) &lbrack;[pdf](https://www.scottaaronson.com/qisii.pdf)&rbrack;
 
-
-* National Academies of Sciences, Engineering, and Medicine, _Quantum Computing: Progress and Prospects_, The National Academies Press 2019 ([doi:10.17226/25196](https://doi.org/10.17226/25196))
+* Emily Grumblin, Mark Horowitz (eds.): _Quantum Computing: Progress and Prospects_, The National Academies Press (2019) &lbrack;[doi:10.17226/25196](https://doi.org/10.17226/25196)&rbrack;
 
 * Qiang Zhang, Feihu Xu, Li Li, Nai-Le Liu, Jian-Wei Pan, *Quantum information research in China*, Quantum Sci. Technol. 4 040503 ([doi:10.1088/2058-9565/ab4bea](https://iopscience.iop.org/article/10.1088/2058-9565/ab4bea))
 
@@ -346,6 +345,8 @@ Further introduction and survey:
 * [[Peter Shor]], *Quantum Computation*, Lecture notes (2022) &lbrack;[web](https://math.mit.edu/~shor/435-LN/)&rbrack;
 
 * Anton Frisk et al., *Lecture notes on quantum computing* &lbrack;[arXiv:2311.08445](https://arxiv.org/abs/2311.08445)&rbrack;
+
+* I. I. Beterov: *Progress and Prospects in the Field of Quantum Computing*, Optoelectron. Instrument. Proc. **60** (2024) 74–83 &lbrack;[doi:10.3103/S8756699024700043](https://doi.org/10.3103/S8756699024700043)&rbrack;
 
 
 On "continuous variable" analog quantum computation:
