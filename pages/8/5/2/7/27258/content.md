@@ -17,7 +17,7 @@
 
 ## Definition
 
-A **$\mathbb{Z}$-functor** or **integer functor** is a [[functor]] from the [[category]] of [[commutative rings]] [[CRing]] to the [[category of sets]] [[Set]]. The category of $\mathbb{Z}$-functors is thus the [[functor category]] $\mathrm{Set}^\mathrm{CRing}$. 
+A **$\mathbb{Z}$-functor** or **integers functor** is a [[functor]] from the [[category]] of [[commutative rings]] [[CRing]] to the [[category of sets]] [[Set]]. The category of $\mathbb{Z}$-functors is thus the [[functor category]] $\mathrm{Set}^\mathrm{CRing}$. 
 
 ## Examples
 
