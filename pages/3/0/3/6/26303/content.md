@@ -28,6 +28,7 @@ The *Category Theory Octoberfest* (usually simply called *Octoberfest*) is an an
 - [2018](https://ct-octoberfest.github.io/2018/)
 - [2019](https://ct-octoberfest.github.io/)
 - [2023](https://richardblute.ca/octoberfest-2023/)
+- [2024](https://richardblute.ca/octoberfest-2024/)
 
 ## Related pages
 
