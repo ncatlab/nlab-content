@@ -77,6 +77,7 @@ For [[black branes]]:
 
 * {#Smith02} [[Douglas J. Smith]], *Intersecting brane solutions in string and M-theory*, Class. Quant. Grav. **20** R233 (2003) &lbrack;[arXiv:hep-th/0210157](https://arxiv.org/abs/hep-th/0210157), [doi:10.1088/0264-9381/20/9/203](https://doi.org/10.1088/0264-9381/20/9/203)&rbrack;
 
+* Jacob Bardzell, Kevin Federico, Danielle Smith, Timm Wrase: *On the absence of supergravity solutions for localized, intersecting sources*,  J. High Energ. Phys. **2024** 83 (2024) &lbrack;<a href="https://doi.org/10.1007/JHEP06(2024)083">doi:10.1007/JHEP06(2024)083</a>, [arXiv:2403.09873](https://arxiv.org/abs/2403.09873)&rbrack; 
 
 
 For [[M-branes]]:
