@@ -27,12 +27,12 @@
 ## Idea
 
 
-A [[differentiable manifold]] is a [[topological space]] which is _locally_ [[homeomorphism|homeomorphic]] to a [[Euclidean space]] (a [[topological manifold]]) and such that the [[gluing functions]] which relate these Euclidean [[local charts]] to each other are [[differentiable functions]], for a fixed degree of differentiability. If one considers arbitrary differentiablity, then one speaks of _smooth manifolds_. For a general discussion see at _[[manifold]]_.
+A [[differentiable manifold]] is a [[topological space]] which is _locally_ [[homeomorphism|homeomorphic]] to a [[Euclidean space]] (a [[topological manifold]]) and such that the [[gluing functions]] which relate these Euclidean [[local charts]] to each other are [[differentiable functions]], for a fixed degree of differentiability. If one considers arbitrary differentiablity, then one speaks of _smooth manifolds_. For a general discussion, see at _[[manifold]]_.
 
 
 Differential and smooth manifolds are the basis for much of [[differential geometry]]. They are the analogs in differential geometry of what [[schemes]] are in [[algebraic geometry]].
 
-If one relaxes the condition from being locally isomorphic to a Euclidean space to admitting local smooth maps from a Euclidean space, then one obtains the concept of [[diffeological spaces]] or even [[smooth sets]], see at _[[generalized smooth space]]_ for more on this.
+If one relaxes the condition from being locally isomorphic to a Euclidean space to admitting local smooth maps from a Euclidean space, then one obtains the concept of [[diffeological spaces]] or even [[smooth sets]]; see at _[[generalized smooth space]]_ for more on this.
 
 The generalization of differentiable manifolds to [[higher differential geometry]] are [[orbifolds]] and more generally [[differentiable stacks]]. If one combines this with the generalization to [[smooth sets]] then one obtains the concept of [[smooth stacks]] and eventually [[smooth infinity-stacks]].
 
@@ -42,17 +42,17 @@ Smooth manifolds form a category, [[SmoothManifolds]].
 
 ### Traditional definition
 
-For the traditional definition see at _[[differentiable manifold]]_.
+For the traditional definition, see at _[[differentiable manifold]]_.
 
 ### Patching as idempotent splitting
 
 The lecture notes [Lawvere 1973, Ex. 3.21](#Lawvere73) reported a somewhat surprising observation:
 
-In the case of [[smooth manifolds]] the process of piecing together the local data can be elegantly summed up as [[Karoubi envelope|splitting of idempotents]] in a [[category of open subsets]] of [[Euclidean spaces]]. More precisely:
+In the case of [[smooth manifolds]], the process of piecing together the local data can be elegantly summed up as [[Karoubi envelope|splitting of idempotents]] in a [[category of open subsets]] of [[Euclidean spaces]]. More precisely:
 
 Let [[Diff|$Diff$]] be the category of [[smooth manifolds]] and [[smooth maps]], where by a "smooth manifold", we mean a [[finite number|finite]]-[[dimension of a manifold|dimensional]], [[second-countable topological space|second-countable]], [[Hausdorff space|Hausdorff]], [[smooth manifold|$C^\infty$]] [[manifold]] without [[boundary of a manifold|boundary]].  
 
-Let $i \colo Open \hookrightarrow Diff$ be the [[full subcategory]] whose objects are the [[open subspaces]] of [[finite number|finite]]-[[dimension of a manifold|dimensional]] [[Cartesian spaces]]. 
+Let $i \colon Open \hookrightarrow Diff$ be the [[full subcategory]] whose objects are the [[open subspaces]] of [[finite number|finite]]-[[dimension of a manifold|dimensional]] [[Cartesian spaces]]. 
 
 \begin{theorem}
 \label{IdSplittingCompletionTheorem}
@@ -66,13 +66,13 @@ The [[subcategory]] $i \colon Open \hookrightarrow Diff$ exhibits $Diff$ as an i
 
 By a general [[Karoubi envelope#def2|lemma for idempotent splittings]], it suffices to prove that 
 
-* Every smooth manifold is a smooth [[retract]] of an open set in Euclidean space; 
+* every smooth manifold is a smooth [[retract]] of an open set in Euclidean space; and
 
-* If $p : U \to U$ is a smooth idempotent on an open set $U \subseteq \mathbb{R}^n$, then the subset $Fix(p) \hookrightarrow U$ is an [[embedding of smooth manifolds|embedded]] submanifold. 
+* if $p : U \to U$ is a smooth idempotent on an open set $U \subseteq \mathbb{R}^n$, then the subset $Fix(p) \hookrightarrow U$ is an [[embedding of smooth manifolds|embedded]] submanifold. 
 
-For the first statement, we use the fact that any manifold $M$ can be realized as a closed submanifold of some $\mathbb{R}^n$, and every closed submanifold has a [[tubular neighborhood theorem|tubular neighborhood]] $U \subseteq \mathbb{R}^n$. In this case $U$ carries a structure of vector bundle over $M$ in such a way that the inclusion $M \hookrightarrow U$ is identified with the zero section, so that the bundle projection $U \to M$ provides a retraction, with right inverse given by the zero section. 
+For the first statement, we use the fact that any manifold $M$ can be realized as a closed submanifold of some $\mathbb{R}^n$, and every closed submanifold has a [[tubular neighborhood theorem|tubular neighborhood]] $U \subseteq \mathbb{R}^n$. In this case, $U$ carries the structure of a vector bundle over $M$ in such a way that the inclusion $M \hookrightarrow U$ is identified with the zero section, so that the bundle projection $U \to M$ provides a retraction, with right inverse given by the zero section. 
 
-For the second statement (cf. [Zack 2014](#Zack14)), assume that the origin $0$ is a fixed point of $p$, and let $T_0(U) \cong \mathbb{R}^n$ be its tangent space (observe the presence of a _canonical_ isomorphism to $\mathbb{R}^n$). Thus we have idempotent linear maps $d p(0), Id-d p(0): T_0(U) \to T_0(U)$ where the latter factors through the inclusion $\ker \; d p(0) \hookrightarrow T_0(U)$ via a projection map $\pi: T_0(U) \to \ker \; d p(0)$. We have a map $f: U \to \mathbb{R}^n$ that takes $x \in U$ to $x - p(x)$; let $g$ denote the composite 
+For the second statement (cf. [Zack 2014](#Zack14)), assume that the origin $0$ is a fixed point of $p$, and let $T_0(U) \cong \mathbb{R}^n$ be its tangent space (observe the presence of a _canonical_ isomorphism to $\mathbb{R}^n$). Thus, we have idempotent linear maps $d p(0), Id-d p(0): T_0(U) \to T_0(U)$, where the latter factors through the inclusion $\ker \; d p(0) \hookrightarrow T_0(U)$ via a projection map $\pi: T_0(U) \to \ker \; d p(0)$. We have a map $f: U \to \mathbb{R}^n$ that takes each $x \in U$ to $x - p(x)$; let $g$ denote the composite 
 
 $$U \stackrel{f}{\longrightarrow} \mathbb{R}^n \cong T_0(U) \stackrel{\pi}{\longrightarrow} \ker\; d p(0).$$ 
 
@@ -82,7 +82,7 @@ Now we make some easy observations:
 
 1. The map $p: U \to U$ restricts to a map $p: g^{-1}(0) \to g^{-1}(0)$, by idempotence of $p$. 
 
-1. The derivative $d g(0): T_0(U) \to T_0(\ker \; d p(0)) \cong \ker \; d p(0)$ is $\pi$ again since $Id - d p(0)$ is idempotent. Thus $d g(0)$ has full rank ($m$ say), and so the restriction of $g$ to some neighborhood $V$ has $0$ as a regular value, and $g^{-1}(0) \cap V$ is a manifold of dimension $m$ by the [[implicit function theorem]]. The tangent space $T_0(g^{-1}(0) \cap V)$ is canonically identified with $im(d p(0))$. 
+1. The derivative $d g(0): T_0(U) \to T_0(\ker \; d p(0)) \cong \ker \; d p(0)$ is $\pi$ again, since $Id - d p(0)$ is idempotent. Thus, $d g(0)$ has full rank ($m$ say), and so the restriction of $g$ to some neighborhood $V$ has $0$ as a regular value, and $g^{-1}(0) \cap V$ is a manifold of dimension $m$, by the [[implicit function theorem]]. The tangent space $T_0(g^{-1}(0) \cap V)$ is canonically identified with $im(d p(0))$. 
 
 
 1. There are smaller neighborhoods $V'' \subseteq V' \subseteq V$ so that $p$ restricts to maps $p_1, p_2$ as in the following diagram ($i, i', i''$ are inclusion maps, all taking a domain element $x$ to itself): 
@@ -99,7 +99,7 @@ and such that $p_1, p_2$ are diffeomorphisms by the [[implicit function theorem|
 $$i p_1 = p i' = p p i''q = p i'' q = i',$$ 
 so that $p_1(x) = x$ for every $x \in g^{-1}(0) \cap V'$. Hence $g^{-1}(0) \cap V' \subseteq Fix(p)$. 
 
-From all this it follows that $Fix(p) \cap V' = g^{-1}(0) \cap V'$, meaning $Fix(p)$ is locally diffeomorphic to $\mathbb{R}^m$, and so $Fix(p)$ is an embedded submanifold of $\mathbb{R}^n$. 
+From all this, it follows that $Fix(p) \cap V' = g^{-1}(0) \cap V'$, meaning $Fix(p)$ is locally diffeomorphic to $\mathbb{R}^m$, and so $Fix(p)$ is an embedded submanifold of $\mathbb{R}^n$. 
 =--
 
 +-- {: .num_remark} 
@@ -117,9 +117,9 @@ Another proof of this result may be found [here](http://www.mat.univie.ac.at/~mi
 
 There is a fundamental and [[category theory|general abstract]] way to think of smooth manifolds, which realizes their theory as a special case of general constructions in [[higher geometry]]. 
 
-In this context one specifies for instance $\mathcal{G}$ a [[geometry (for structured (∞,1)-toposes)]] and then plenty of geometric notions are defined canonically in terms of $\mathcal{G}$. The theory of smooth manifolds appears if one takes $\mathcal{G} = $ [[CartSp]]. 
+In this context, one specifies for instance $\mathcal{G}$ a [[geometry (for structured (∞,1)-toposes)]] and then plenty of geometric notions are defined canonically in terms of $\mathcal{G}$. The theory of smooth manifolds appears if one takes $\mathcal{G} = $ [[CartSp]]. 
 
-Alternatively one can specify [[differential cohesion]] and proceed as discussed at _[differential cohesion -- structures - Cohesive manifolds (separated)](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#CohesivemanifoldsSeparated)_.
+Alternatively, one can specify [[differential cohesion]] and proceed as discussed at _[differential cohesion -- structures - Cohesive manifolds (separated)](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#CohesivemanifoldsSeparated)_.
 
 This is discussed in [The geometry CartSp](#TheGeometryCartSp) below.
 
@@ -139,7 +139,7 @@ $$
   \mathcal{O} : \mathcal{G} \to \mathcal{X}
 $$
 
-is a $\mathcal{G}$-[[algebra over an algebraic theory|algebra]] in $\mathcal{X}$. This makes $\mathcal{X}$ is $\mathcal{G}$-[[ringed topos]]. For $\mathcal{G} = $ [[CartSp]] this algebra is a [[smooth algebra]] in $\mathcal{X}$. If $\mathcal{X}$ has a [[site]] of definition $X$, then this is a [[sheaf]] of [[smooth algebra | smooth algebras]] on $X$. 
+is a $\mathcal{G}$-[[algebra over an algebraic theory|algebra]] in $\mathcal{X}$. This makes $\mathcal{X}$ a $\mathcal{G}$-[[ringed topos]]. For $\mathcal{G} = $ [[CartSp]], this algebra is a [[smooth algebra]] in $\mathcal{X}$. If $\mathcal{X}$ has a [[site]] of definition $X$, then this is a [[sheaf]] of [[smooth algebra | smooth algebras]] on $X$. 
 
 If $\mathcal{O}$ sends [[covering]] families $\{U_i \to U\}$ in $\mathcal{G}$ to [[effective epimorphism]] $\coprod_i \mathcal{O}(U_i) \to \mathcal{O}(U)$ we say that it is a _local $\mathcal{G}$-algebra_ in $\mathcal{X}$, making $\mathcal{X}$ a $\mathcal{G}$-[[locally ringed topos]].
 
