@@ -30,3 +30,8 @@ An $(\infty,\mathbb{Z})$-category extends the concept of a [[(∞,∞)-category]
 
 [[!redirects (infinity,Z)-category]]
 [[!redirects (infinity,Z)-categories]]
+
+[[!redirects Z-category]]
+[[!redirects Z-categories]]
+
+
