@@ -615,10 +615,57 @@ Discussion of solutions with $N = 1$ global supersymmetry left and their relatio
 * {#GMPT} [[Mariana Graña]], [[Ruben Minasian]], Michela Petrini, [[Alessandro Tomasiello]], _Generalized structures of $N=1$ vacua_, [arXiv:hep-th/0505212](http://arxiv.org/abs/hep-th/0505212)
   
 ### Phenomenology
+ {#PhenomenologyReferences}
+  
+On supergravity [[phenomenology]]:
 
-Discussion of implications of supergravity for [[phenomenology]]/[[cosmology]] includes
+#### Dark matter
+
+Discussion of the [[gravitino]] as a [[dark matter]] candidate:
+
+* {#EllisOlive10} [[John Ellis]], [[Keith Olive]], _Supersymmetric Dark Matter Candidates_ ([arXiv:1001.3651](http://arxiv.org/abs/1001.3651))
+
+{#NicolaiMeissner} A proposal for super-heavy [[gravitinos]] as [[dark matter]], by embedding [[D=4 N=8 supergravity]] into [[E10]]-[[U-duality]]-invariant [[M-theory]]:
+
+* {#MeissnerNicolai18a} [[Krzysztof A. Meissner]], [[Hermann Nicolai]]: *Standard Model Fermions and Infinite-Dimensional R-Symmetries*, Phys. Rev. Lett. **121** 091601 (2018) &lbrack;[arXiv:1804.09606](https://arxiv.org/abs/1804.09606), [doi:10.1103/PhysRevLett.121.091601](https://doi.org/10.1103/PhysRevLett.121.091601)&rbrack;
+
+* {#MeissnerNicolai18b} [[Krzysztof A. Meissner]], [[Hermann Nicolai]], _Planck Mass Charged Gravitino Dark Matter_, Phys. Rev. D 100, 035001 (2019) ([arXiv:1809.01441](https://arxiv.org/abs/1809.01441))
+
+following the proposal towards the end of
+
+* {#GellMann83} [[Murray Gell-Mann]], introductory talk at _[Shelter Island II](https://en.wikipedia.org/wiki/Shelter_Island_Conference)_, 1983 ([[Gell-Mann_ShelterIslandII_1983.pdf:file]]) 
+
+  in: _Shelter Island II: Proceedings of the 1983 Shelter Island Conference on Quantum Field Theory and the Fundamental Problems of Physics_. MIT Press. pp. 301&#8211;343. ISBN 0-262-10031-2.
+
+Further discussion:
+
+* [[Krzysztof A. Meissner]], [[Hermann Nicolai]], _Supermassive gravitinos and giant primordial black holes_ ([arXiv:2007.11889](https://arxiv.org/abs/2007.11889))
+
+* [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Evidence for a stable supermassive gravitino with charge $2/3$?* &lbrack;[arXiv:2303.09131](https://arxiv.org/abs/2303.09131)&rbrack;
+
+* Adrianna Kruk, Michał Lesiuk, [[Krzysztof A. Meissner]], [[Hermann Nicolai]]: *Signatures of supermassive charged gravitinos in liquid scintillator detectors* &lbrack;[arXiv:2407.04883](https://arxiv.org/abs/2407.04883)&rbrack;
+
+#### Dark energy
+
+On supergravity [[phenomenology]] in relation to [[dark energy]]/[[cosmological constant]]:
+
+* Y. Aghababaie, [[Cliff P. Burgess]], S.L. Parameswaran, [[Fernando Quevedo]]: *Towards a Naturally Small Cosmological Constant from Branes in 6D Supergravity*,   Nucl. Phys.  B **680** (2004) 389-414 &lbrack;[arXiv:hep-th/0304256](https://arxiv.org/abs/hep-th/0304256), [doi:10.1016/j.nuclphysb.2003.12.015](https://doi.org/10.1016/j.nuclphysb.2003.12.015)&rbrack;
+
+#### Cosmic inflation
+
+On supergravity in [[cosmic inflation]]:
 
 * {#DalianisFarakos15} Ioannis Dalianis, [[Fotis Farakos]], _On the initial conditions for inflation with plateau potentials: the $R + R^2$ (super)gravity case_ ([arXiv:1502.01246](http://arxiv.org/abs/1502.01246))
+
+
+#### Standard model of particle physics
+
+On the [[phenomenology]] of supergravity coupled to the (non-supersymmetric) [[standard model of particle physics]]:
+
+* [[Cliff P. Burgess]], [[Fernando Quevedo]]: *Who's Afraid of the Supersymmetric Dark? The Standard Model vs Low-Energy Supergravity*, Fortschr. Physik **70** 7-8 (2022) 2200077 &lbrack;[arXiv:2110.13275](https://arxiv.org/abs/2110.13275), [doi:10.1002/prop.202200077](https://doi.org/10.1002/prop.202200077)&rbrack;
+
+
+
 
 
 [[!redirects supergravity]]
