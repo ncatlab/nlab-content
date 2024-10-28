@@ -330,6 +330,9 @@ Talks on polynomial functors are available at
 * _Workshop on Polynomial Functors_, Topos Institute,
 15--19 March 2021. ([website](https://topos.site/p-func-2021-workshop/))
 
+* _Workshop on Polynomial Functors 2_, Topos Institute,
+March 14–18, 2022. ([website](https://topos.site/events/p-func-workshop/))
+
 Monograph on polynomial functors in view of [[categorical systems theory]]:
 
 * {#SpivakPoly} [[David Spivak]], [[Nelson Niu]], _Polynomial Functors: A General Theory of Interaction_ &lbrack;[webpage](https://topos.site/poly-course/), [pdf](https://topos.site/poly-book.pdf)&rbrack;
