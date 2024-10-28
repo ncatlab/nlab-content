@@ -416,22 +416,21 @@ The topic of [[quantum measurement]] of non-abelian anyons is crucial to their i
  {#ExperimentalRealization}
 
 
-While the occurrence of [[anyon]]-excitations in the [[quantum Hall effect]] is a robust theoretical prediction (see the references [above](#AnyonsInTheQuantumHallEffectReferences)), and while the quantum Hall effect itself has long been established in [[experiment]], the actual observation of anyons in these systems is subtle:
+While the occurrence of [[anyon]]-excitations in the [[fractional quantum Hall effect]] is a robust theoretical prediction (see the references [above](#AnyonsInTheQuantumHallEffectReferences)), and while the fractional quantum Hall effect itself has long been established in [[experiment]], the actual observation of anyons in these systems is subtle:
 
 An early claim of the observation of non-abelian anyons seems to remain unconfirmed:
 
 * Sanghun An, P. Jiang, H. Choi, W. Kang, S. H. Simon, L. N. Pfeiffer, K. W. West, K. W. Baldwin, _Braiding of Abelian and Non-Abelian Anyons in the Fractional Quantum Hall Effect_ ([arXiv:1112.3400](https://arxiv.org/abs/1112.3400))
 
-The claimed observation of abelian anyons is more securely established (via the fractional/integer [[quantum Hall effect]]):
+The claimed observation of abelian anyons is more securely established:
 
 * H. Bartolomei, et al.: *Fractional statistics in anyon collisions*, Science **368** 6487 (2020) 173-177  \[<a href="https://doi.org/10.1126/science.aaz5601">doi:10.1126/science.aaz5601</a>, [arXiv:2006.13157](https://arxiv.org/abs/2006.13157)\]
 
-* James Nakamura et al.: _Direct observation of anyonic braiding statistics_, Nat. Phys. **16** (2020) 931–936 \[<a href="https://doi.org/10.1038/s41567-020-1019-1">doi:10.1038/s41567-020-1019-1</a>\]
+* James Nakamura et al.: *Direct observation of anyonic braiding statistics*, Nat. Phys. **16** (2020) 931–936 \[<a href="https://doi.org/10.1038/s41567-020-1019-1">doi:10.1038/s41567-020-1019-1</a>\]
 
 * Bob Yirka, _Best evidence yet for existence of anyons_, PhysOrg News (July 10, 2020)  \[<a href="https://phys.org/news/2020-07-evidence-anyons.html">phys.org/news/2020-07</a>\]
 
 * P. Glidic et al.: *Signature of anyonic statistics in the integer quantum Hall regime*, Nature Commun. **15** 6578 (2024) 1 \[<a href="https://doi.org/10.1038/s41467-024-50820-0">doi:10.1038/s41467-024-50820-0</a>, [arXiv:2401.06069](https://arxiv.org/abs/2401.06069)\]
-
 
 
 
