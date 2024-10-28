@@ -235,7 +235,7 @@ When considering the [[internal logic]] of a given [[topos]] $\mathcal{E}$ relat
 
 * The inclusion [[FinSet]] $\hookrightarrow$ [[Set]] is logical.
 
-* More generally, for any [[small category]] $C$ the inclusion
+* More generally, for any [[finite category]] $C$ the inclusion
 
   $$
     [C^{op}, FinSet] \hookrightarrow [C^{op}, Set]
