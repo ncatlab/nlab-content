@@ -3722,7 +3722,7 @@ Further introduction and review:
 
 * Joshua Lieber, *Introduction to Braid Groups*, 2011 ([pdf](https://math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Lieber.pdf))
 
-* {#González-Meneses11} [[Juan González-Meneses]], *Basic results on braid groups*, Annales Mathématiques Blaise Pascal, Tome 18 1 (2011) 15-59 &lbrack;[ambp:AMBP_2011__18_1_15_0](https://ambp.centre-mersenne.org/item/?id=AMBP_2011__18_1_15_0)&rbrack;
+* {#González-Meneses11} [[Juan González-Meneses]], *Basic results on braid groups*, Annales Mathématiques Blaise Pascal, **18** 1 (2011) 15-59 &lbrack;[ambp:AMBP_2011__18_1_15_0](https://ambp.centre-mersenne.org/item/?id=AMBP_2011__18_1_15_0), [numdam:AMBP_2011__18_1_15_0](http://www.numdam.org/item/AMBP_2011__18_1_15_0)&rbrack;
 
 * Alexander I. Suciu, He Wang, *The pure braid groups and their relatives*,  Perspectives in Lie theory, 403-426, Springer INdAM series, vol. 19, Springer, Cham, 2017 ([arXiv:1602.05291](https://arxiv.org/abs/1602.05291))
 
@@ -3734,7 +3734,7 @@ Further introduction and review:
 
 * [[Jennifer C. H. Wilson]], *Representation stability and the braid groups*, talk at *[ICERM -- Braids](https://icerm.brown.edu/programs/sp-s22/)* (Feb 2022) &lbrack;[pdf](https://app.icerm.brown.edu/assets/362/3661/3661_3250_021720221430_Slides.pdf)&rbrack;
 
-* {#Abadie22} Marie Abadie, §1 in: *A journey around mapping class groups and their presentations* (2022) &lbrack;[pdf](https://christianurech.github.io/Semester_Project.pdf)&rbrack;
+* {#Abadie22} Marie Abadie, §1 in: *A journey around mapping class groups and their presentations* (2022) &lbrack;[pdf](https://christianurech.github.io/Semester_Project.pdf), [[Abadie-MCG.pdf:file]]&rbrack;
 
 See also:
 
@@ -3822,6 +3822,7 @@ On [[moduli spaces of monopoles]] related to [[braid groups]]:
 * [[Fred Cohen]], [[Ralph Cohen]], B. M. Mann, R. J. Milgram, _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
 
 * [[Ralph Cohen]], John D. S. Jones  _Monopoles, braid groups, and the Dirac operator_, Comm. Math. Phys. Volume 158, Number 2 (1993), 241-266 ([euclid:cmp/1104254240](https://projecteuclid.org/euclid.cmp/1104254240))
+
 
 
 
