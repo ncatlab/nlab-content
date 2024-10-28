@@ -1,4 +1,4 @@
-
+ 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -16,13 +16,15 @@
 * table of contents
 {:toc}
 
-## Idea
+## Idea {#Idea}
 
 As for [[localization]] of ordinary [[categories]], there are slightly different notions of what a localization of an [[(∞,1)-category]] is.
 
-One definition is in terms of [[simplicial localizations]]; another is in terms of [[reflective (∞,1)-subcategories]]:
+One definition is in terms of [[simplicial localizations]] or [[quasicategory of fractions]]; another is in terms of [[reflective (∞,1)-subcategories]]:
 
-A _[[localization]]_ , in this sense, of an [[(∞,1)-category]] $C$ is a functor $L : C \to C_0$ to an $(\infty,1)$-subcategory $C_0 \hookrightarrow C$ such that with $c$ any object there is a morphism connecting it to its localization 
+A [[localization]] in the first sense is a functor $L:C \to D $ of $\infty$-categories that is initial among the functors inverting a prescribed set of morphisms of $C$.
+
+A _[[localization]]_ , in the second sense, of an [[(∞,1)-category]] $C$ is a functor $L : C \to C_0$ to an $(\infty,1)$-subcategory $C_0 \hookrightarrow C$ such that with $c$ any object there is a morphism connecting it to its localization 
 
 $$
   c \to L(c)
@@ -36,7 +38,23 @@ Since localizations are entirely determined by which morphisms in $C$ are sent t
 
 
 
-## Definition
+## Definitions
+
+As explained in [Idea](#Idea), there are two common definitions that are referred to as localizations of $\infty$-categories.
+
+The following definition appears in [kerodon, tag01MP](https://kerodon.net/tag/01MP).
+
++-- {: .un_defn}
+###### Definition
+
+Let $C$ be an $\infty$-category and $W$ a set of morphisms of $C$. A functor $L:C\to D$ is said to exhibit $D$ as a **(Dwyer--Kan)** **localization of $C$ with respect to $W$** if for each $\infty$-category $E$, the functor
+
+$$\operatorname{Fun}(D,E)\to \operatorname{Fun}(C,E)$$
+
+is fully faithful and its essential image consists of those functors $C\to E$ that carry each morphism of $W$ into equivalences of $E$.
+=--
+
+The following second definition appears in [[Higher Topos Theory|HTT, def. 5.2.7.2]]:
 
 +-- {: .un_defn}
 ###### Definition
@@ -53,8 +71,10 @@ In other words: $L$ is a localization if it is the **reflector** of a [[reflecti
 
 =--
 
-This is [[Higher Topos Theory|HTT, def. 5.2.7.2]].
-
++-- {: .un_rem}
+###### Remark
+Reflective localizations are a special case of Dwyer--Kan localizations. This is  [kerodon, tag04JL](https://kerodon.net/tag/04JL).
+=--
 
 ## Examples
 
@@ -70,10 +90,15 @@ This is [[Higher Topos Theory|HTT, def. 5.2.7.2]].
 
 ## References
 
-This is the topic of  of
+Reflective localization is the topic of 
 
 * [[Jacob Lurie]], §5.2.7 & §5.5.4 of: *[[Higher Topos Theory]]* (2009)
+* [[Jacob Lurie]], _Kerodon_,&lbrack;[Reflective Localizations, tag:02FY](https://kerodon.net/tag/02FY)&rbrack;
 
+Dwyer--Kan localization (also called [[simplicial localizations]] or [[quasicategory of fractions]]) are treated in
+
+* [[Jacob Lurie]], _Kerodon_,&lbrack;[Localization, tag:01M4](https://kerodon.net/tag/01M4)&rbrack;
+* [[Markus Land]], Section 2.4 of _Introduction to Infinity-Categories_, Compact Textbooks in Mathematics,Birkh\"auser/Springer, Cham, (2021) &lbrack;[doi:10.1007/978-3-030-61524-6](https://doi.org/10.1007/978-3-030-61524-6)&rbrack;
 * [[Jacob Lurie]], pp. 485 of: *[[Higher Algebra]]* (2017)
 
 With an eye towards [[modal homotopy type theory]]:
