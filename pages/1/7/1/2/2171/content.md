@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
+#### Knot theory
++--{: .hide}
+[[!include knot theory - contents]]
+=--
 =--
 =--
 
@@ -3353,7 +3357,7 @@ It has been shown ([An & Maciazek 2006](#AnMaciazek2006), using discrete [[Morse
 
 The braid group $Br(n)$ may be alternatively described as the [[mapping class group]] of a 2-disk $D^2$ with $n$ punctures. 
 
-(review includes [Birman 1975, §4](#Birman75), [González-Meneses 2011, §1.4](#González-Meneses11), [Abadie 2022, §1.3(#Abadie22))
+(review includes [Birman 1975 §4](#Birman75), [González-Meneses 2011 §1.4](#González-Meneses11), [Abadie 2022 §1.3](#Abadie22))
 
 Concretely, consider 
 
@@ -3363,13 +3367,13 @@ Concretely, consider
 
 1. $Homeo^{\partial}\big(D^2 \setminus \{z_1, \cdots, z_n\} \big)$ 
 
-   denoting the [[mapping space]] of [[automorphism|auto]]-[[homeomorphisms]] which restrict to the [[identity]] on the [[boundary]] [[circle]], regarding with its canonical [[group]] structure;
+   denoting the [[mapping space]] of [[automorphism|auto]]-[[homeomorphisms]] which restrict to the [[identity]] on the [[boundary]] [[circle]], regarded with its canonical [[group]] [[structure]] under [[composition]];
 
 1. $Homeo^{\partial}_id\big(D^2 \setminus \{z_1, \cdots, z_n\} \big)$ 
 
-   denoting the [[subgroup]] which is the [[connected component]] of the [[identity]].
+   denoting the [[subgroup]] which is the [[connected component]] of the [[identity]] (which is readily seen to be a [[normal subgroup]]).
 
-Then the [[mapping class group]] is 
+Then the [[mapping class group]] is the [[quotient group]]:
 
 $$
   MCG
@@ -3396,7 +3400,7 @@ Now observe that
      \,.
    $$
 
-Combining this implies that for every $[\phi] \,\in\, MCG\big(D^2 \setminus \{z_1, \cdots, z_n\}big)$ therese is an [[isotopy]] of $\iota[\phi] \to id$ under which the locations of the punctures trace out a braid (in the sense of a [[loop]] in the symmetrized [[configuration space of points]]). This construction yields a morphism from the [[mappign class group]] to the [[braid group]]
+Combining this implies that for every $[\phi] \,\in\, MCG\big(D^2 \setminus \{z_1, \cdots, z_n\}\big)$ there is an [[isotopy]] to the [[identity]], $\iota[\phi] \to id$, under which the locations of the punctures trace out a [[braid]] (in the sense of a [[loop]] in the symmetrized [[configuration space of points]]). This construction constitutes a [[group homomorphism]] from the [[mapping class group]] to the [[braid group]]
 $$
   MCG
   \big(
@@ -3412,7 +3416,7 @@ and this is an [[isomorphism]].
 \begin{remark}\label{ActionOfBraidGroupOnFundamentalGroupOfPuncturedDisk}
 **(action of braid group on fundamental group of $n$-punctured disk)**
 \linebreak
-It follows in particular that the braid group $Br(n)$ has a canonical [[group action]] on the [[fundamental group]] of the $n$-punctured disk. Since the latter is [[isomorphism|isomorphic]] to the [[free group]] on $n$ generators, this leads to the purely algebraic characterization of the braid group [below](#AsAutomorphismsOfAFreeGroup).
+It follows in particular that the braid group $Br(n)$ has a canonical [[group action]] on the [[fundamental group]] of the $n$-punctured disk. Since the latter is [[isomorphism|isomorphic]] to the [[free group]] on $n$ [[generators and relations|generators]], this leads to the purely algebraic characterization of the braid group [below](#AsAutomorphismsOfAFreeGroup).
 
 See also eg. [Margalit & Winarski (2021), §7](#MargalitWinarski21), [Amram, Lawrence & Vishne (2012), §7](#AmramLawrenceVishne12).
 \end{remark}
