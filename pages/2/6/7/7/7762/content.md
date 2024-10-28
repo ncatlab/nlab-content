@@ -43,7 +43,7 @@
 
 * [[Jacob Lurie]], _Ultracategories_, ([pdf](http://www.math.harvard.edu/~lurie/papers/Conceptual.pdf))
 
-* [[Francisco Marmolejo]], _Ultraproducts and continuous families of models_, ([thesis](https://dalspace.library.dal.ca/handle/10222/55092), poor quality photocopy).
+* [[Francisco Marmolejo]], _Ultraproducts and continuous families of models_, ([thesis](https://dalspace.library.dal.ca/handle/10222/55092); [pdf](http://peterlefanulumsdaine.com/files/marmolejo-1995-phd-thesis.pdf)).
 
 Some more general variants are achieved in 
 
