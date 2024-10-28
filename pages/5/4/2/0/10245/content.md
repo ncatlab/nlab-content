@@ -68,7 +68,7 @@ with a [[matrix model]]-description in:
 
 See also
 
-* {#West12} [[Peter West]]: Section 14.6.1 of *[[Introduction to Strings and Branes]]*,  Cambridge University Press (2012)
+* {#West12} [[Peter West]], section 14.6.1 of: *[[Introduction to Strings and Branes]]*,  Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139045926](https://doi.org/10.1017/CBO9781139045926)&rbrack;
 
 
 For more on this:
@@ -77,7 +77,7 @@ For more on this:
 
 See also:
 
-* S. Bellucci, N. Kozyrev, S. Krivonos, A Sutulin: *Component on-shell actions of supersymmetric 3-branes: I. 3-brane in $D = 6$*,  Class. Quantum Grav. **32** (2015) 035025 \[<a href="https://iopscience.iop.org/article/10.1088/0264-9381/32/3/035025">doi:10.1088/0264-9381/32/3/035025</a>\]
+* S. Bellucci, N. Kozyrev, S. Krivonos, A Sutulin: *Component on-shell actions of supersymmetric 3-branes: I. 3-brane in $D = 6$*,  Class. Quantum Grav. **32** (2015) 035025 \[<a href="https://iopscience.iop.org/article/10.1088/0264-9381/32/3/035025">doi:10.1088/0264-9381/32/3/035025</a>, [arXiv:1409.0641](https://arxiv.org/abs/1409.0641)\]
 
 The relation to [[D=4 N=2 super Yang-Mills theory]]:
 
