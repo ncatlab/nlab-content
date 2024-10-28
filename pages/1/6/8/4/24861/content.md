@@ -32,6 +32,10 @@ See also:
 
 * Wikipedia, *[Cooper pair](https://en.wikipedia.org/wiki/Cooper_pair)*
 
+* Alan M. Kadin: *Spatial Structure of the Cooper Pair*, J. Supercond and Novel Magn. **20** 4 (2007) 258
+&lbrack;[cond-mat/0510279](https://arxiv.org/abs/cond-mat/0510279), [doi:10.1007/s10948-006-0198-z](https://doi.org/10.1007/s10948-006-0198-z)&rbrack;
+
+
 [[!redirects Cooper pairs]]
 
 [[!redirects BCS pair]]
