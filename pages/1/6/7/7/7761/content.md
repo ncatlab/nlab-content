@@ -42,7 +42,7 @@ For a different notion of ultracategory see
 
 On a [[2-monad|2-monadic]] treatment of ultracategories:
 
-* [[Francisco Marmolejo]], _Ultraproducts and continuous families of models_, PhD thesis (1995) &lbrack;[hdl:10222/55092](https://dalspace.library.dal.ca/handle/10222/55092), [pdf](https://dalspace.library.dal.ca/bitstream/handle/10222/55092/NN08788.PDF?sequence=1&isAllowed=y)&rbrack;
+* [[Francisco Marmolejo]], _Ultraproducts and continuous families of models_, PhD thesis (1995) &lbrack;[hdl:10222/55092](https://dalspace.library.dal.ca/handle/10222/55092); [pdf](http://peterlefanulumsdaine.com/files/marmolejo-1995-phd-thesis.pdf)&rbrack;
 
 [[!redirects ultracategories]]
 
