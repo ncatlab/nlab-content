@@ -38,6 +38,11 @@ A [[Set]] $topos$
 
 \linebreak
 
+More testing:
+
+[[topos]] [[topos]] [[topos]] [[topos]]
+[[Set]]  [[topos]] (two whitespaces)
+
 \linebreak
 
 \linebreak
