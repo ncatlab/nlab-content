@@ -9,7 +9,7 @@ This entry colllects material related to the book
 
   [ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1)
 
-  [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf)
+  [pdf](https://jfdmath.sitehost.iu.edu/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf)
 
 
 on [[transformation groups]]/[[topological G-spaces]] and their [[equivariant differential topology]], [[equivariant homotopy theory]] and [[equivariant cohomology]] ([[Bredon cohomology]]).
