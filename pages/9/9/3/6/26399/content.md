@@ -130,3 +130,4 @@ and analyzed as "convex powercones" by
 * Jean Goubault-Larrecq: *Prevision domains and convex powercones*, in: Proc. FOSSACS 2008, Lecture Notes in Computer Science **4962**, Springer (2008) 318–333 &lbrack;[doi:10.1007/978-3-540-78499-9\_23](https://doi.org/10.1007/978-3-540-78499-9_23)&rbrack;
 
 [[!redirects convex powerset of distributions monads]]
+[[!redirects convex powerset monad]]
