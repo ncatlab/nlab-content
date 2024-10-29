@@ -71,7 +71,8 @@ The results of Chorny--Dwyer are cited by Rosický in
 
 See also
 
-* [[Boris Chorny]], David White, _Homotopy theory of homotopy presheaves_. [arXiv:1805.05378](https://arxiv.org/abs/1805.05378).
+* [[Georg Biedermann]], [[Boris Chorny]], _Duality and small functors_, Algebraic & Geometric Topology 15 (2015) 2609--2657 [doi](https://doi.org/10.2140/agt.2015.15.2609)
+* [[Boris Chorny]], David White, _A variant of a Dwyer-Kan theorem for model categories_ (v1: _Homotopy theory of homotopy presheaves_), Algebraic & Geometric Topology __24__:4, 2185--2208 [arXiv:1805.05378](https://arxiv.org/abs/1805.05378)
 
 On when [[finitely continuous]] [[presheaves]] are small:
 
