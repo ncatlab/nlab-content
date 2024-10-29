@@ -172,7 +172,7 @@ See there for more details.
 
 ## References
 
-The notion of multi-adjoints is credited by [Osmond 20a](#Osmond2020a), [20b](#Osmond2020a) to:
+The notion of multi-adjoints is due to
 
 * [[Yves Diers]], _Cat&eacute;gories localisables_, PhD thesis. Paris 6 et Centre universitaire de Valenciennes et du Hainaut Cambr&eacute;sis (1977) &lbrack;[[Categories localisables.pdf:file]]&rbrack;
 
@@ -180,7 +180,7 @@ The notion of multi-adjoints is credited by [Osmond 20a](#Osmond2020a), [20b](#O
 
 * [[Yves Diers]], _Une construction universelle des spectres, topologies spectrales et faisceaux structuraux_, Communication in Algebra Volume 12, Issue 17-18 (1984) ([doi:10.1080/00927878408823101](https://doi.org/10.1080/00927878408823101))
 
-(in discussion of the notion of [[spectrum (geometry)|spectra in geometry]]).
+(in discussion of the notion of [[spectrum (geometry)|spectra in geometry]]). See  the papers by Osmond listed below.
 
 See also:
 
