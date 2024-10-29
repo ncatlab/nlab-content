@@ -39,6 +39,7 @@ For example, given a [[metric Lie algebra]] $\mathfrak{g}$ (with [[string diagra
 
 For more see the references at _[[tensor network state]]_.
 
+
 ### General
 
 Review and exposition:
@@ -64,6 +65,9 @@ Review and exposition:
 See also: 
 
 * Wikipedia, _[Matrix product state](https://en.wikipedia.org/wiki/Matrix_product_state)_
+
+* [[Frank Verstraete]], [[J. Ignacio Cirac]], V. Murg: _Matrix Product States, Projected Entangled Pair States, and variational renormalization group methods for quantum spin systems_, Adv. Phys. **57** (2008) 143 &lbrack;[arXiv:0907.2796](https://arxiv.org/abs/0907.2796), [doi:10.1080/14789940801912366](https://doi.org/10.1080/14789940801912366)&rbrack;
+
 
 ### In quantum computation
 
