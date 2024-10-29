@@ -9,7 +9,8 @@ On [[tensor network states]]:
 
 On [[matrix product states]] in [[solid state physics]]
 
-* [[Frank Verstraete]], J. I. Cirac, V. Murg, _Matrix Product States, Projected Entangled Pair States, and variational renormalization group methods for quantum spin systems_, Adv. Phys. 57,143 (2008) ([arXiv:0907.2796](https://arxiv.org/abs/0907.2796))
+* [[Frank Verstraete]], [[J. Ignacio Cirac]], V. Murg: _Matrix Product States, Projected Entangled Pair States, and variational renormalization group methods for quantum spin systems_, Adv. Phys. **57** (2008) 143 &lbrack;[arXiv:0907.2796](https://arxiv.org/abs/0907.2796), [doi:10.1080/14789940801912366](https://doi.org/10.1080/14789940801912366)&rbrack;
+
 
 On [[tree tensor networks]] in [[solid state physics]]:
 
