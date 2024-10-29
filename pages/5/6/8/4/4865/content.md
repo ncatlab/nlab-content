@@ -428,16 +428,22 @@ Review of [[U-duality]] and [[exceptional generalized geometry]]  in [[KK-compac
 
 
 [[!redirects 11d supergravity]]
-
+[[!redirects 11D supergravity]]
 [[!redirects D=11 supergravity]]
-
 [[!redirects d=11 supergravity]]
 
-
-[[!redirects 11-dimensional supergravity]]
-[[!redirects 11-dimensional supergravity]]
+[[!redirects 11d super-gravity]]
+[[!redirects 11D super-gravity]]
+[[!redirects D=11 super-gravity]]
+[[!redirects d=11 super-gravity]]
 
 [[!redirects D=11 SuGra]]
+[[!redirects 11D SuGra]]
+
+
+[[!redirects 11-dimensional supergravity]]
+[[!redirects 11-dimensional supergravity]]
+
 
 
 
