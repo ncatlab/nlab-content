@@ -101,7 +101,6 @@ The affine line without its origin, $\mathbb{A}^1 - \{0\}$ comes canonically wit
 On [[algebraic schemes]] and algebraic groups via [[functorial geometry]]:
 
 * [[Michel Demazure]], [[Pierre Gabriel]], _Groupes algebriques_, tome 1,  avec un appendice _Corps de classes local_ par [[Michiel Hazewinkel|Hazewinkel M]], Mason and Cie, Paris (1970) 
-
   > (later volumes never appeared)
 
 English translation:
