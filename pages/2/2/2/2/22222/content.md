@@ -40,10 +40,10 @@ If in Def. \ref{MultiAdjoints} we weaken the notion of [[adjunction]] in the opp
 \begin{theorem}\label{HomCharacterization}
 Having a left multi-adjoint can be equivalently characterized as follows:
 
-$R : D \to C$ has a left multi-adjoint $(I, L)$ with $I : Obj(C) \to Set$ and $L : (x : Obj(C)) \to I(x) \to Obj(D)$ if for all $x$ and $y$, there is an isomorphism $\alpha : \Sigma(i \in I(x)).Hom_D(L(x, i), y) \cong Hom_C(x, Ry)$, natural in $y$.
+$R : D \to C$ has a left multi-adjoint $(I, L)$ with $I : Obj(C) \to Set$ and $L : (x : Obj(C)) \to I(x) \to Obj(D)$ if for all $x$ and $y$, there is an isomorphism $\alpha : \Sigma(i \in I(x)).Hom_D(L(x, i), y) \cong Hom_C(x, R y)$, natural in $y$.
 \end{theorem}
 \begin{proof}
-We first prove the Hom-characterization from the definition. Given $(i, \phi : L(x, i) \to y)$, we get $\alpha(\phi) := R\phi \circ \eta_{x, i} : x \to Ry$. The definition demands that this is an isomorphism. To see naturality, let $\chi : y \to z$.
+We first prove the Hom-characterization from the definition. Given $(i, \phi : L(x, i) \to y)$, we get $\alpha(\phi) := R\phi \circ \eta_{x, i} : x \to R y$. The definition demands that this is an isomorphism. To see naturality, let $\chi : y \to z$.
 Then
 \[
         R\chi \circ \alpha(i, \phi) = R\chi \circ R\phi \circ \eta_{x,i} = \alpha(i, \chi \circ \phi).
