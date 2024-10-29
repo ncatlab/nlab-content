@@ -67,7 +67,7 @@ An object that is both initial and [[terminal object|terminal]] is called a [[ze
 
 * The [[field]] of [[rational numbers]] $\mathbb{Q}$ is the initial object of $Field_0$ (category of fields with [[characteristic]] $0$) and the [[prime field]] $\mathbb{F}_p$ is the initial object of $Field_p$ (category of fields with characteristic $p$), but none are the initial object of [[Field]] (category of all fields), which actually doesn't have one at all.
 
-* The terminal object of a [[under category|coslice category]] $x/C$ is the [[identity morphism]] $x \to x$.
+* The initial object of a [[under category|coslice category]] $x/C$ is the [[identity morphism]] $x \to x$.
 
 * An initial object in a category of [[central extensions]] of a given algebraic object is called a _[[universal central extension]]_.
 
