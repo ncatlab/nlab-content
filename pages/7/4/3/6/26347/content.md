@@ -47,7 +47,7 @@ See also:
 
 * Wikipedia, *[Quantum simulator](https://en.wikipedia.org/wiki/Quantum_simulator)*
 
-Quantum simulation on trapped-ion quantum hardware:
+Quantum simulation on [[trapped-ion quantum hardware]]:
 
 * Michael Foss-Feig, Guido Pagano, Andrew C. Potter, Norman Y. Yao: *Progress in Trapped-Ion Quantum Simulation*, Annual Reviews of Condensed Matter Physics (2024) &lbrack;[arXiv:2409.02990](https://arxiv.org/abs/2409.02990)&rbrack;
 
@@ -78,6 +78,9 @@ On quantum simulation of [[anyons]]:
 * [[Mohsin Iqbal]], [[Nathanan Tantivasadakarn]]: *Topological Order from Measurements and Feed-Forward on a Trapped Ion Quantum Computer*, Nature Communications Physics **7** (2024) 205 \[<a href="https://doi.org/10.1038/s42005-024-01698-3">doi:10.1038/s42005-024-01698-3</a>, [arXiv:2302.01917](https://arxiv.org/abs/2302.01917)\]
 
 * [[Mohsin Iqbal]], [[Nathanan Tantivasadakarn]], R. Verresen et al., Figure 5 in : *Non-Abelian topological order and anyons on a trapped-ion processor*, Nature **626** (2024) 505–511 \[<a href="https://doi.org/10.1038/s41586-023-06934-4">doi:10.1038/s41586-023-06934-4</a>\]
+
+  Nature research briefing: *Topological matter created on a quantum chip produces quasiparticles with computing power* \[<a href="https://doi.org/10.1038/d41586-023-04126-8">doi:10.1038/d41586-023-04126-8</a>\]
+  
 
 
 
