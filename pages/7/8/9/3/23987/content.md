@@ -708,17 +708,17 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   **Fault-Tolerant Topological Quantum Computing: From Concepts to Experiments**
 
-  > To date, the construction of scalable fault-tolerant [[quantum computers]] remains a fundamental scientific and technological challenge, due to the influence of unavoidable [[noise]]. In my talk, I will first introduce basic concepts of topological [[quantum error correction codes]], which allow one to protect quantum information during storage and processing. I will discuss recent theory work, perspectives and recent collaborative experimental breakthroughs towards fault-tolerant [[quantum error correction]] on various physical quantum computing platforms. This includes the first realisation of repeated high-performance quantum error-correction cycles on a topological surface code with [superconducting qubits](superconductivity#SuperconductingQBitsReferences) [1], and the first demonstration of a universal and fault-tolerant logical gate set with trapped ions [2]. Furthermore, I will present new fundamental connections between topological [[quantum error correction]] and classical statistical mechanics models, in the context of the correction of qubit loss [3,4] and the determination of fundamental error thresholds for circuit noise [5].
+  > To date, the construction of scalable fault-tolerant [[quantum computers]] remains a fundamental scientific and technological challenge, due to the influence of unavoidable [[noise]]. In my talk, I will first introduce basic concepts of topological [[quantum error correction codes]], which allow one to protect quantum information during storage and processing. I will discuss recent theory work, perspectives and recent collaborative experimental breakthroughs towards fault-tolerant [[quantum error correction]] on various physical quantum computing platforms. This includes the first realisation of repeated high-performance quantum error-correction cycles on a topological surface code with [superconducting qubits](superconductivity#SuperconductingQBitsReferences) [1], and the first demonstration of a universal and fault-tolerant logical gate set with [[trapped ions]] \[2\]. Furthermore, I will present new fundamental connections between topological [[quantum error correction]] and classical statistical mechanics models, in the context of the correction of qubit loss \[3,4\] and the determination of fundamental error thresholds for circuit noise \[5\].
 
-  > [1] S. Krinner et al., *Realizing repeated quantum error correction in a distance-three surface code*, [Nature 605, 669 (2022)](quantum+error+correction#MüllerWallraffEtAl22)
+  > \[1\] S. Krinner et al., *Realizing repeated quantum error correction in a distance-three surface code*, [Nature 605, 669 (2022)](quantum+error+correction#MüllerWallraffEtAl22)
 
-  > [2] L. Postler et al., Demonstration of fault-tolerant universal quantum gate operations, Nature 605, 675 (2022)
+  > \[2\] L. Postler et al., Demonstration of fault-tolerant universal quantum gate operations, Nature 605, 675 (2022)
 
-  > [3] D. Vodola, et al., Twins Percolation
+  > \[3\] D. Vodola, et al., Twins Percolation
 
-  > [4] R. Stricker et al., Deterministic correction of qubit loss, Nature 585, 207 (2020)
+  > \[4\] R. Stricker et al., Deterministic correction of qubit loss, Nature 585, 207 (2020)
 
-  > [5] D. Vodola et al., Fundamental thresholds of realistic quantum error correction circuits from classical spin models, Quantum 6, 618 (2022)
+  > \[5\] D. Vodola et al., Fundamental thresholds of realistic quantum error correction circuits from classical spin models, Quantum 6, 618 (2022)
 
 
 
@@ -1533,7 +1533,7 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
 
   **Useful Quantum Computing in the NISQ Era**
 
-  > I will describe digital, analog, and digital-analog quantum computing paradigms. Furthermore, I will discuss the possibility of reaching [[quantum advantage]] for industry use cases with current quantum computers in trapped ions, superconducting circuits, neutral atoms, and photonic systems.
+  > I will describe digital, analog, and digital-analog quantum computing paradigms. Furthermore, I will discuss the possibility of reaching [[quantum advantage]] for industry use cases with current quantum computers in [[trapped ions]], superconducting circuits, neutral atoms, and photonic systems.
 
 * [[Javad Shabani]] (NYU New York):
 
@@ -2054,11 +2054,11 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > [[quantum physics|Quantum]] technology is a rapidly advancing field that is poised to revolutionize numerous industries, including [[quantum computing|computing]], communications, [[quantum sensing|sensing]], and [[cryptography]]. At its core, quantum technology relies on the principles of [[quantum mechanics]], which allow for the creation of devices that operate on the quantum level. These devices based on quantum technology can perform tasks that are impossible or prohibitively difficult for [[classical physics|classical]] devices. One of the most promising applications of quantum technology is in [[quantum computing]], quantum communications, and [[quantum sensors]].
 
-  > Trapped ions are one of the promising platform for [[quantum computing]] and sensing. In this approach, individual ions are trapped in a vacuum chamber using [[electromagnetic fields]] and manipulated using [[lasers]] to perform quantum operations. As a quantum system, trapped ions offer several advantages. First, they have long coherence times, meaning that the quantum state of the ion can be preserved for a longer period, allowing for more complex calculations. Second, trapped ions can be precisely controlled and manipulated, allowing for the implementation of high-fidelity quantum gates. Finally, trapped ions can be entangled with one another, allowing for the implementation of quantum algorithms that are impossible to simulate on classical computers. Trapped ions also have great potential as [[quantum sensors]]. By using the properties of the ions to measure changes in their environment, trapped ions can detect minute changes in [[temperature]], [[magnetic fields]], and [[electric fields]], among other things. This makes them useful for applications in precision measurement, such as in atomic clocks, [[gravitational wave]] detection, and magnetometry.
+  > [[trapped ion|Trapped ions]] are one of the promising platform for [[quantum computing]] and [[quantum sensing|sensing]]. In this approach, individual ions are trapped in a vacuum chamber using [[electromagnetic fields]] and manipulated using [[lasers]] to perform quantum operations. As a quantum system, [[trapped ions]] offer several advantages. First, they have long coherence times, meaning that the quantum state of the ion can be preserved for a longer period, allowing for more complex calculations. Second, [[trapped ions]] can be precisely controlled and manipulated, allowing for the implementation of high-fidelity quantum gates. Finally, [[trapped ions]] can be entangled with one another, allowing for the implementation of quantum algorithms that are impossible to simulate on classical computers. Trapped ions also have great potential as [[quantum sensors]]. By using the properties of the ions to measure changes in their environment, trapped ions can detect minute changes in [[temperature]], [[magnetic fields]], and [[electric fields]], among other things. This makes them useful for applications in precision measurement, such as in atomic clocks, [[gravitational wave]] detection, and magnetometry.
 
   > One of the major challenges facing trapped ion systems is scalability. While individual ions have been used to perform simple quantum algorithms, scaling the system up to include a large number of ions is a difficult task. However, recent advances in ion trap technology have made it possible to trap larger numbers of ions and transport them in 2D and 3D space to perform more complex operations for quantum computation and sensing experiments. Realization of such devices is not far away. As compared to present atomic clocks, a new generation of quantum-enhanced clocks is now emerging showing significantly improved accuracy. Sensitive physical measurements are an essential component of modern science and technology. Developments in [[quantum sensors]] will outdate their classical counterparts.
 
-  > We will present recent developments and opportunities in quantum technology applications based on trapped ions, including quantum computation and sensing.
+  > We will present recent developments and opportunities in quantum technology applications based on [[trapped ions]], including [[quantum computation]] and [[quantum sensing|sensing]].
 
 \linebreak
 
