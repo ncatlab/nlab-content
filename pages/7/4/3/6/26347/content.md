@@ -47,6 +47,10 @@ See also:
 
 * Wikipedia, *[Quantum simulator](https://en.wikipedia.org/wiki/Quantum_simulator)*
 
+Quantum simulation on trapped-ion quantum hardware:
+
+* Michael Foss-Feig, Guido Pagano, Andrew C. Potter, Norman Y. Yao: *Progress in Trapped-Ion Quantum Simulation*, Annual Reviews of Condensed Matter Physics (2024) &lbrack;[arXiv:2409.02990](https://arxiv.org/abs/2409.02990)&rbrack;
+
 On quantum simulation of the [[Dirac equation]]:
 
 * L. Lamata, J. León, T. Schätz, [[Enrique Solano]]: *Dirac Equation and Quantum Relativistic Effects in a Single Trapped Ion*, Phys. Rev. Lett. **98** 253005 (2007) &lbrack;[doi:10.1103/PhysRevLett.98.253005](https://doi.org/10.1103/PhysRevLett.98.253005)&rbrack;
@@ -60,10 +64,20 @@ On quantum simulation of ([[lattice QFT|lattice]]) [[quantum field theory]]:
 [arXiv:1811.10085](https://arxiv.org/abs/1811.10085)&rbrack;
 
 
-
 specifically of  [[scattering amplitudes]] of [[bound states]]:
 
 * Matteo Turco, Gonçalo M. Quinta, João Seixas, Yasser Omar, *Towards Quantum Simulation of Bound States Scattering* &lbrack;[arXiv:2305.07692](https://arxiv.org/abs/2305.07692)&rbrack;
+
+On quantum simulation of [[anyons]]:
+
+* T. Andersen et al.: *Non-Abelian braiding of graph vertices in a superconducting processor*, Nature **618** (2023) 264–269 \[<a href="https://arxiv.org/abs/2210.10255">arXiv:2210.10255</a>, [doi:10.1038/s41586-023-05954-4](https://doi.org/10.1038/s41586-023-05954-4)\]
+
+* Daniel Nigg, Markus Mueller, Esteban A. Martinez, Philipp Schindler, Markus Hennrich, Thomas Monz, Miguel A. Martin-Delgado, Rainer Blatt:
+  *Experimental Quantum Computations on a Topologically Encoded Qubit*, Science 18 Jul 2014: Vol. 345, Issue 6194, pp. 302-305 ([arXiv:1403.5426](https://arxiv.org/abs/1403.5426), [doi:10.1126/science.1253742](https://science.sciencemag.org/content/345/6194/302))
+
+* [[Mohsin Iqbal]], [[Nathanan Tantivasadakarn]]: *Topological Order from Measurements and Feed-Forward on a Trapped Ion Quantum Computer*, Nature Communications Physics **7** (2024) 205 \[<a href="https://doi.org/10.1038/s42005-024-01698-3">doi:10.1038/s42005-024-01698-3</a>, [arXiv:2302.01917](https://arxiv.org/abs/2302.01917)\]
+
+* [[Mohsin Iqbal]], [[Nathanan Tantivasadakarn]], R. Verresen et al., Figure 5 in : *Non-Abelian topological order and anyons on a trapped-ion processor*, Nature **626** (2024) 505–511 \[<a href="https://doi.org/10.1038/s41586-023-06934-4">doi:10.1038/s41586-023-06934-4</a>\]
 
 
 
