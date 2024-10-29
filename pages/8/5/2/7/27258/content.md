@@ -50,12 +50,12 @@ $$(a_R \cdot b_R)(x) \coloneqq a_R(x) \cdot b_R(x)$$
 
 ## References
 
-The terminology is due to
+The terminology "$\mathbb{Z}$-functor" is due to
 
 * [[Michel Demazure]], [[Pierre Gabriel]], _Groupes algebriques_, tome 1,  avec un appendice _Corps de classes local_ par [[Michiel Hazewinkel|Hazewinkel M]], Mason and Cie, Paris (1970) 
   > (later volumes never appeared)
 
-English translation:
+popularized through the English translation of the first couple of chapters:
 
 * [[Michel Demazure]], [[Peter Gabriel]], *Introduction to algebraic geometry and algebraic groups*, North-Holland mathematics studies **39** (1980) &lbrack;[ISBN:9780080871509](https://shop.elsevier.com/books/introduction-to-algebraic-geometry-and-algebraic-groups/demazure/978-0-444-85443-8)&rbrack;
 
