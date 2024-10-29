@@ -94,6 +94,7 @@ where $U$ is the forgetful functor (representing the [[affine line]]). Details o
 
 * [[space and quantity]]
 
+* [[Z-functor]]
 
 ## References
 
