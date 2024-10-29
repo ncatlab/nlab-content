@@ -23,6 +23,12 @@ On enhancement of [[simplicial model categories|simplicial]] [[monoidal model ca
 
 * [[Haldun Özgür Bayındır]], [[Boris Chorny]], *Admissible replacements for simplicial monoidal model categories*, Algebr. Geom. Topol. **23** (2023) 43-73 &lbrack;[arXiv:2008.00515](https://arxiv.org/abs/2008.00515), [doi:10.2140/agt.2023.23.43](https://doi.org/10.2140/agt.2023.23.43)&rbrack;
 
+On homotopy presheaves 
+
+* [[Boris Chorny]], David White, _A variant of a Dwyer-Kan theorem for model categories_ (v1 title: _Homotopy theory of homotopy presheaves_), Algebraic & Geometric Topology __24__:4, 2185--2208 [arXiv:1805.05378](https://arxiv.org/abs/1805.05378)
+* Georg Biedermann, Boris Chorny, _Duality and small functors_, Algebraic & Geometric Topology 15 (2015) 2609--2657 [doi](https://doi.org/10.2140/agt.2015.15.2609)
+
+
 
 
 ## Related entries
