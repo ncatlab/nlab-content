@@ -103,6 +103,9 @@ Functoriality now follows easily from uniqueness of lifting for a discrete fibra
 
 Dually, there is an orthogonal factorisation system $(E,M)$ on $Cat$ for which $E$ is the class of [[initial functors]] and $M$ is the class of [[discrete opfibrations]].
 
+## Related entries
+
+* [[axiom of separation|comprehension scheme]]
 
 ## References
 
@@ -111,6 +114,8 @@ Dually, there is an orthogonal factorisation system $(E,M)$ on $Cat$ for which $
 Note there is a mistake in the proof of the main theorem of the paper above, as noted on page 74 of:
 
 * {#Kelly82} [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
+
+* {#Lawvere70} [[Lawvere]], F. W. _Equality in hyperdoctrines and comprehension schema as an adjoint functor_.  In A. Heller, ed., _Proc. New York Symp. on Applications of Categorical Algebra_, pp. 1--14.  AMS, 1970. ([[LawvereComprehension.pdf:file]])
 
 * [[Fosco Loregian]], [[Emily Riehl]], *Categorical Notions of Fibration*, Expositiones Mathematicae **38**, 2020. ([arXiv:1806.06129](https://arxiv.org/abs/1806.06129), [doi:10.1016/j.exmath.2019.02.004](https://doi.org/10.1016/j.exmath.2019.02.004))
 
