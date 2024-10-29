@@ -172,7 +172,7 @@ See there for more details.
 
 ## References
 
-The notion of multi-adjoints is due to
+The notion of multi-adjoints was developed by Diers in a series of publications.
 
 * [[Yves Diers]], _Cat&eacute;gories localisables_, PhD thesis. Paris 6 et Centre universitaire de Valenciennes et du Hainaut Cambr&eacute;sis (1977) &lbrack;[[Categories localisables.pdf:file]]&rbrack;
 
