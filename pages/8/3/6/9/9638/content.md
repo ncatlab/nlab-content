@@ -173,6 +173,8 @@ This idea of classically controlled quantum programming via [[dependent linear t
 
 * [[measurement-based quantum computation]]
 
+* [[trapped-ion quantum computing]]
+
 * [[quantum Hall effect]], [[Chern-Simons theory]].
 
 * [[superoperator]]
@@ -241,6 +243,11 @@ and in ([[quantum cryptography|quantum]]) [[cryptography]] ([[Shor's algorithm]]
 * [[Daniel R. Simon]], *On the power of quantum computation*, SIAM Journal on Computing **26** 5 (1997) &lbrack;[doi:10.1137/S0097539796298637](https://doi.org/10.1137/S0097539796298637), [pdf](https://courses.cs.washington.edu/courses/cse599/01wi/papers/simon_qc.pdf)&rbrack;
 
 * [[Peter W. Shor]], *Algorithms for quantum computation: discrete logarithms and factoring*,  Proceedings 35th Annual Symposium on Foundations of Computer Science, IEEE Comput. Soc. Press: 124-134 (1994) &lbrack;[doi:10.1109/SFCS.1994.365700](https://doi.org/10.1109/SFCS.1994.365700)&rbrack;
+
+The first realistic proposal for actually building a [[quantum gate]] (namely on [[trapped-ion quantum computing|trapped ions]]):
+
+* {#CiracZoller95} [[J. Ignacio Cirac]], [[Peter Zoller]]: *Quantum Computations with Cold Trapped Ions*, Phys. Rev. Lett. **74** (1995) 4091 &lbrack;[doi:10.1103/PhysRevLett.74.4091](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.74.4091)&rbrack;
+
 
 Review:
 
