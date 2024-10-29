@@ -32,16 +32,16 @@ In the presence of [[classical logic]], complete small categories reduce to [[co
 +-- {: .num_theorem #CompleteSmallCategoriesArePosets}
 ###### Theorem
 
-If (in some [[universe]] $U$) a small [[category]] $D$ has [[products]] of families of objects whose size is at least that of its [[hom-set|set of morphisms]], then $D$ is a [[preorder]].  In particular, any complete small category is a [[preorder]].  
+If a [[category]] $D$ has [[products]] of families of objects whose size is at least that of its [[hom-set|set of morphisms]], then $D$ is a [[preorder]].  In particular, any complete small category is a [[preorder]].  
 
 =--
 
 +-- {: .proof}
 ######Proof
 
-Let $x$, $y$ be any two objects, and suppose (contrary to $D$ being a preorder) that there are at least two different morphisms $x \,\underoverset{s}{r}{\rightrightarrows}\, y$. Then the set of morphisms 
+Let $x$, $y$ be any two objects, and suppose (contrary to $D$ being a preorder) that there are at least two different morphisms $x \rightrightarrows y$. Then the set of morphisms 
 
-$$x \to \prod_{f \in Mor(D)} y$$ 
+$$D(x, \prod_{f \in Mor(D)} y) \cong \prod_{f \in Mor(D)} D(x, y)$$ 
 
 has [[cardinality]] at least $2^{|Mor(D)|} \gt {|Mor(D)|}$, which is a contradiction. 
 
