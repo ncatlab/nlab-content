@@ -47,7 +47,7 @@ See also:
 
 * Wikipedia, *[Quantum simulator](https://en.wikipedia.org/wiki/Quantum_simulator)*
 
-Quantum simulation on [[trapped-ion quantum hardware]]:
+Quantum simulation on [[trapped-ion quantum computing|trapped-ion quantum hardware]]:
 
 * Michael Foss-Feig, Guido Pagano, Andrew C. Potter, Norman Y. Yao: *Progress in Trapped-Ion Quantum Simulation*, Annual Reviews of Condensed Matter Physics (2024) &lbrack;[arXiv:2409.02990](https://arxiv.org/abs/2409.02990)&rbrack;
 
