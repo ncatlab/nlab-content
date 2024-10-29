@@ -322,7 +322,7 @@ There exists a
 
 * and whose [[model category|model structure]] is given by
 
-  * cofibrations are those morphisms whose underlying morphisms of [[simplicial set]]s ate cofibrations, hence [[monomorphism]]s
+  * cofibrations are those morphisms whose underlying morphisms of [[simplicial set]]s are cofibrations, hence [[monomorphism]]s
   
   * weak equivalences are those morphisms $S \to T$ such that for all $A \to N(FinSet_*)$ that are $(\infty,1)$-categories of operations by the above definition, the morphism of [[SSet]]-[[hom object]]s
 
