@@ -710,15 +710,17 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   > To date, the construction of scalable fault-tolerant [[quantum computers]] remains a fundamental scientific and technological challenge, due to the influence of unavoidable [[noise]]. In my talk, I will first introduce basic concepts of topological [[quantum error correction codes]], which allow one to protect quantum information during storage and processing. I will discuss recent theory work, perspectives and recent collaborative experimental breakthroughs towards fault-tolerant [[quantum error correction]] on various physical quantum computing platforms. This includes the first realisation of repeated high-performance quantum error-correction cycles on a topological surface code with [superconducting qubits](superconductivity#SuperconductingQBitsReferences) [1], and the first demonstration of a universal and fault-tolerant logical gate set with [[trapped ions]] \[2\]. Furthermore, I will present new fundamental connections between topological [[quantum error correction]] and classical statistical mechanics models, in the context of the correction of qubit loss \[3,4\] and the determination of fundamental error thresholds for circuit noise \[5\].
 
-  > \[1\] S. Krinner et al., *Realizing repeated quantum error correction in a distance-three surface code*, [Nature 605, 669 (2022)](quantum+error+correction#MüllerWallraffEtAl22)
+  > References
 
-  > \[2\] L. Postler et al., Demonstration of fault-tolerant universal quantum gate operations, Nature 605, 675 (2022)
+  > [1] S. Krinner et al., *Realizing repeated quantum error correction in a distance-three surface code*, [Nature 605, 669 (2022)](quantum+error+correction#MüllerWallraffEtAl22)
 
-  > \[3\] D. Vodola, et al., Twins Percolation
+  > [2] L. Postler et al., Demonstration of fault-tolerant universal quantum gate operations, Nature 605, 675 (2022)
 
-  > \[4\] R. Stricker et al., Deterministic correction of qubit loss, Nature 585, 207 (2020)
+  > [3] D. Vodola, et al., Twins Percolation
 
-  > \[5\] D. Vodola et al., Fundamental thresholds of realistic quantum error correction circuits from classical spin models, Quantum 6, 618 (2022)
+  > [4] R. Stricker et al., Deterministic correction of qubit loss, Nature 585, 207 (2020)
+
+  > [5] D. Vodola et al., Fundamental thresholds of realistic quantum error correction circuits from classical spin models, Quantum 6, 618 (2022)
 
 
 
