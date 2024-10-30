@@ -12,6 +12,10 @@ On [[small N corrections]] in [[ABJM theory]] and [[higher curvature corrections
 
 * [[Nikolay Bobev]], Anthony M. Charles, [[Dongmin Gang]], [[Kiril Hristov]], Valentin Reys, *Higher-Derivative Supergravity, Wrapped M5-branes, and Theories of Class $\mathcal{R}$*,  J. High Energ. Phys. **2021** 58 (2021) \[<a href="https://doi.org/10.1007/JHEP04(2021)058">doi:10.1007/JHEP04(2021)058</a>, [arXiv:2011.05971](https://arxiv.org/abs/2011.05971)\]
 
+On the [[BMN matrix model]]:
+
+* [[Nikolay Bobev]], Pieter Bomans, Fridrik Freyr Gautason: *Spherical Branes and the BMN Matrix Quantum Mechanics* &lbrack;[arXiv:2410.21376](https://arxiv.org/abs/2410.21376)&rbrack;
+
 
 category: people
 
