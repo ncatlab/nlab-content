@@ -44,7 +44,7 @@ Let $f\colon A\to B$ be a [[tight morphism]] and $g\colon A \nrightarrow B$ a [[
 such that $\phi \circ_\tau \psi = id_{g}$ and $\phi \circ_\lambda \psi = id_{f}$, where $\circ_\tau$ and $\circ_\lambda$ denote, respectively, loose and tight composition of 2-cells.
 
 Given such a companion pair, we say that $f$ and $g$ are **companions** of each other.
-A double category admitting companions to all its tight morphisms is sometimes called a **company**.
+A double category for which every tight morphism admits a companion may be called **companionable**.
 
 ## Examples
 
@@ -91,6 +91,7 @@ This latter reference explains the relationship between companions to connection
 
 * [[Thomas M. Fiore]], _Pseudo Algebras and Pseudo Double Categories_, _Journal of Homotopy and Related Structures_, Volume 2, Number 2, pages 119-170, 2007. 51 pages.
 
+* [[Robert Pare]], _Seeing double_, Talk given at FMCS 2018, ([pdf](https://www.mscs.dal.ca/~pare/FMCS2.pdf))
 
 [[!redirects companion]]
 [[!redirects companions]]
