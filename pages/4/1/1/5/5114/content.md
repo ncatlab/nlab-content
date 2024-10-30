@@ -1,4 +1,3 @@
-[[!redirects Frobenius monoidal functors]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -135,8 +134,14 @@ Beware of the *un*-related terminoilogy:
 
 ## References
 
-Equation (3.26), (3.27) in [p. 81](http://www.math.tamu.edu/~maguiar/a.pdf) of
+* {#AguiarMahajan} [[Marcelo Aguiar]], [[Swapneel Mahajan]], (3.26), (3.27) on [p. 81](http://www.math.tamu.edu/~maguiar/a.pdf) of: _[[Monoidal Functors, Species and Hopf Algebras]]_, CRM Monograph Series __29__, Amer. Math. Soc. (2010) &lbrack;[ISBN:978-0-8218-4776-3](https://bookstore.ams.org/crmm-29/), [pdf](http://www.math.cornell.edu/~maguiar/a.pdf)&rbrack;
 
-* [[Marcelo Aguiar]], [[Swapneel Mahajan]], _[[Monoidal Functors, Species and Hopf Algebras]]_
-{#AguiarMahajan}
-* M. B. McCurdy, [[R. Street]], _What separable Frobenius monoidal functors preserve_, [arxiv/0904.3449](http://arxiv.org/abs/0904.3449) and Cahiers TGDC, 51 (2010)p. 29 - 50.
+* M. B. McCurdy, [[R. Street]], *What separable Frobenius monoidal functors preserve*, [[Cahiers]] TGDC **51** (2010) 29-50 &lbrack;[arxiv/0904.3449](http://arxiv.org/abs/0904.3449)&rbrack; .
+
+Relation to [[Drinfeld centers]]:
+
+* Johannes Flake, Robert Laugwitz, Sebastian Posur: *Frobenius monoidal functors from ambiadjunctions and their lifts to Drinfeld centers* &lbrack;[arXiv:2410.08702](https://arxiv.org/abs/2410.08702)&rbrack;
+
+
+[[!redirects Frobenius monoidal functors]]
+
