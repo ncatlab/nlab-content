@@ -39,6 +39,10 @@ They also play a major role in
 
 * S. Balchin, _Homotopy of planar Lie group equivariant presheaves_, J. Homotopy Relat. Struct. 13, 555--580 (2018) [doi](https://doi.org/10.1007/s40062-017-0193-z)
 
+Recent work
+
+* Gabriel Angelini-Knoll, Mona Merling, Maximilien Péroux, _Topological $\Delta G$ homology of rings with twisted $G$-action_, [arXiv:2409.18187](https://arxiv.org/abs/2409.18187)
+
 [[!redirects skew-simplicial set]]
 [[!redirects skew-simplicial sets]]
 [[!redirects crossed simplicial set]]
