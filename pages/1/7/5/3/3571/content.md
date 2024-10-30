@@ -1,5 +1,9 @@
 
-This page is about Kenneth Stephen Brown mathematician at Cornell University specialized in topology and algebra. Algebraist [[Ken A. Brown]] has a separate page.
+> Not to be confused with algebraist [[Ken A. Brown]].
+
+***
+
+Kenneth Stephen Brown is a mathematician at Cornell University specialized in [[topology]] and [[algebra]]. 
 
 * [webpage](https://pi.math.cornell.edu/~kbrown/)
 
