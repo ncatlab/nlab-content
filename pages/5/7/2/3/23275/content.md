@@ -18,6 +18,8 @@
 * table of contents 
 {: toc}
 
+##Idea
+Every functor $F:C\to D$ factors as a [[final functor]] followed by a [[discrete fibration]].
 
 ##Statement
  {#Statement}
@@ -103,6 +105,12 @@ Functoriality now follows easily from uniqueness of lifting for a discrete fibra
 
 Dually, there is an orthogonal factorisation system $(E,M)$ on $Cat$ for which $E$ is the class of [[initial functors]] and $M$ is the class of [[discrete opfibrations]].
 
+## Remark on the terminology
+
+Under the functorial reformulation of the [[axiom of separation|axiom of comprehension]] by [[William Lawvere|Lawvere]] ([1970](#Lawvere70)) the comprehensive factorization can be viewed as a generalization of the epi-mono factorization of a function $f:X\to Y$ occurring in the context of set-theoretic comprehension: the best approximation of $f$ by a property in $2^Y$ (i.e. $\chi_{im f}$) has extension $im f\hookrightarrow Y$. Hence (in the notation of the above proof) the discrete fibration $m:\int K\to D$ given by the factorization $F=me$ can be viewed as the "extension" of the approximation of $F$ by the "property" $K$ in $Set^{D}$.
+
+More generally, instances of the comprehension scheme correspond to factorization systems (cf. [Berger-Kaufmann](#Bergkauf)).
+
 ## Related entries
 
 * [[axiom of separation|comprehension scheme]]
@@ -119,13 +127,17 @@ Note there is a mistake in the proof of the main theorem of the paper above, as 
 
 * [[Fosco Loregian]], [[Emily Riehl]], *Categorical Notions of Fibration*, Expositiones Mathematicae **38**, 2020. ([arXiv:1806.06129](https://arxiv.org/abs/1806.06129), [doi:10.1016/j.exmath.2019.02.004](https://doi.org/10.1016/j.exmath.2019.02.004))
 
-* [[Clemens Berger]], [[Ralph M. Kaufmann]], *Comprehensive Factorization Systems*, Tbilisi Math. J. 10 (2017), 255-277 ([doi:10.1515/tmj-2017-0112](https://projecteuclid.org/journals/tbilisi-mathematical-journal/volume-10/issue-3/Comprehensive-factorisation-systems/10.1515/tmj-2017-0112.short))
+* {#BergKauf]}[[Clemens Berger]], [[Ralph M. Kaufmann]], *Comprehensive Factorization Systems*, Tbilisi Math. J. 10 (2017), 255-277 ([doi:10.1515/tmj-2017-0112](https://projecteuclid.org/journals/tbilisi-mathematical-journal/volume-10/issue-3/Comprehensive-factorisation-systems/10.1515/tmj-2017-0112.short))
 
 * [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Kan Extensions are Partial Colimits. Applied Categorical Structures **30**, 685–753 (2022). ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531). [doi:10.1007/s10485-021-09671-9](https://doi.org/10.1007/s10485-021-09671-9))
 
 Internal comprehensive factorisations (and [[torsors]]) are considered in:
 
 * [[Ross Street]], [[Dominic Verity]], *The comprehensive factorization and torsors*, [[TAC]] **23** (2010)  42-75 &lbrack;[tac:23-03](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html)&rbrack;
+
+A generalisation to a bicategorical factorization system on $CAT$ is considered in:
+
+* [[Ross Street]], *Variation on a Comprehensive Theme*, [[TAC]] **37** (2021)  964-978 &lbrack;[tac:37-29](http://www.tac.mta.ca/tac/volumes/37/29/37-29.pdf)&rbrack;
 
 [[!redirects comprehensive factorization systems]]
 [[!redirects comprehensive factorization]]
