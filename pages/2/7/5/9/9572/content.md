@@ -247,6 +247,10 @@ In relation to [[spectra of tensor triangulated categories]]:
 
 * Kent B. Vashaw, _Balmer spectra and Drinfeld centers_ ([arXiv:2010.11287](https://arxiv.org/abs/2010.11287))
 
+Relation to [[Frobenius monoidal functors]]:
+
+* Johannes Flake, Robert Laugwitz, Sebastian Posur: *Frobenius monoidal functors from ambiadjunctions and their lifts to Drinfeld centers* &lbrack;[arXiv:2410.08702](https://arxiv.org/abs/2410.08702)&rbrack;
+
 
 
 [[!redirects Drinfeld centers]]
