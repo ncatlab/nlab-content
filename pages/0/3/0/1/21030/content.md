@@ -114,6 +114,8 @@ See also
 
 * Chi-Ming Chang, *Witten index of BMN matrix quantum mechanics* &lbrack;[arXiv:2404.18442](https://arxiv.org/abs/2404.18442)&rbrack;
 
+* [[Nikolay Bobev]], Pieter Bomans, Fridrik Freyr Gautason: *Spherical Branes and the BMN Matrix Quantum Mechanics* &lbrack;[arXiv:2410.21376](https://arxiv.org/abs/2410.21376)&rbrack;
+
 
 
 
