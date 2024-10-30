@@ -34,7 +34,7 @@ Amnesticity is really a property of [[strict functors]] (or anafunctors) between
 
 Let $C$ and $D$ be two [[strict categories]], and let $U$ be a [[strict functor]] from $D$ to $C$.  We say that $U$ is __amnestic__ if its [[groupoid core]] reflects [[identity morphisms]].  
 
-Explicitly, $U$ is amnestic iff, for every [[isomorphism]] $f \colon a \to B$ in $D$ that $U$ takes to an [[identity morphism]] $U(f) = id_{U(a)} = id_{U(b)}$, then already $f$ itself is an [[identity morphism]].
+Explicitly, $U$ is amnestic iff, for every [[isomorphism]] $f \colon a \to b$ in $D$ that $U$ takes to an [[identity morphism]] $U(f) = id_{U(a)} = id_{U(b)}$, then already $f$ itself is an [[identity morphism]].
 
 In other words, a functor is amnestic if its strict [[fibers]] are [[gaunt category|gaunt]].
 
