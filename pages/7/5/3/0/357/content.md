@@ -22,9 +22,9 @@ A **virtual double category** or **$fc$-multicategory** is a common generalizati
 * vertical arrows, which form a category
 * horizontal arrows, which do not have identities or composites, and
 * 2-cells which have
-  * a horizontal source and target, which are vertical arrows,
-  * a vertical target, which is a horizontal arrow, and
-  * a vertical source, which is a composable string of horizontal arrows.
+  * vertical source and target arrows,
+  * a horizontal multi-source, i.e. a string of horizontal arrows, and
+  * a horizontal target arrow.
 
 2-cells are usually drawn like this:
 
@@ -48,6 +48,8 @@ Finally, the 2-cells can be composed in a more or less evident way, akin to comp
 [[virtual-double-category-composite.png:pic]]
 
 Virtual double categories are related to double categories precisely as ordinary multicategories are related to monoidal categories (see [[generalized multicategory]] and [[tensor product]]).
+
+The dual notion in which 2-cells have a single horizontal source and a multi-ary horizontal target may be called a covirtual double category, although the term oplax double category also exists in the literature e.g. [Dawson, Paré, Pronk](#DawsonParePronk10).
 
 ## Definition
 
@@ -241,6 +243,10 @@ They are called **lax double categories** in:
 
 * {#DPP06} [[Robert Dawson]], [[Robert Paré]] and [[Dorette Pronk]], _Paths in double categories_, Theory and Applications of Categories, Vol. 16, No. 18, 2006, pp. 460-521. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/16/18/16-18abs.html)&rbrack;
 
+and the dual concept is called **oplax double category** in:
+
+* {#DawsonParePronk10} R. Dawson, [[Robert Paré]], [[Dorette Pronk]], _The span construction_, Theory Appl. Categ. __24__ (2010), No. 13, 302&#8211;377, [TAC](http://www.tac.mta.ca/tac/volumes/24/13/24-13abs.html) [MR2720187](http://www.ams.org/mathscinet-getitem?mr=2720187)
+
 The name **virtual double category** is introduced in:
 
 * {#CruttwellShulman} [[Geoff Cruttwell]], [[Mike Shulman]], _A unified framework for generalized multicategories_ &lbrack;[arXiv:0907.2460](http://arxiv.org/abs/0907.2460)&rbrack;
@@ -256,3 +262,4 @@ On a [[string diagram]]-calculus for ([[virtual double category|virtual]]) [[dou
 [[!redirects virtual double categories]]
 [[!redirects fc-multicategory]]
 [[!redirects fc-multicategories]]
+[[!redirects covirtual double category]]
