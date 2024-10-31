@@ -175,7 +175,7 @@ This is a weak 2-category: it has a nontrivial [[associator]]: composition of sp
 
 We can also obtain a [[pseudo-double category]], whose [[loose]] structure is as above, whose [[tight]] morphisms are functions, and whose cells are commuting diagrams,
 
-\[\begin{tikzcd}
+\begin{tikzcd}
 	A & S & B \\
 	{A'} & {S'} & {B'}
 	\arrow["p", from=1-1, to=2-1]
@@ -185,7 +185,7 @@ We can also obtain a [[pseudo-double category]], whose [[loose]] structure is as
 	\arrow["r", from=1-3, to=2-3]
 	\arrow["h", from=2-2, to=2-1]
 	\arrow["i"', from=2-2, to=2-3]
-\end{tikzcd}\]
+\end{tikzcd}
 
 Moreover, when $C$ is an arbitrary category, not necessarily having pullbacks, one can still obtain a [[covirtual double category]]. More details can be found in Section 4 of [Dawson, Paré, Pronk](#DawsonParePronk10) (where the term oplax double category is used).
 
