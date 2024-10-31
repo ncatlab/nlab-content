@@ -20,7 +20,7 @@
 
 ## Idea ##
 
-The notion of a _net $C^*$-systems_ combines the notion of a [[C-star system]] with the notion of [[local net of observables]]. In this way, the notion of [[global gauge groups]] is introduced into the [[Haag-Kastler approach]] to [[AQFT]].
+The notion of a _net of $C^*$-systems_ combines the notion of a [[C-star system]] with the notion of [[local net of observables]]. In this way, the notion of [[global gauge groups]] is introduced into the [[Haag-Kastler approach]] to [[AQFT]].
 
 ## Definition ##
 
@@ -35,7 +35,7 @@ so that $(\mathcal{A}, \alpha_G)$ is a [[C-star system]].
 +-- {: .num_defn}
 ###### Definition 
 
-The tupel $(\mathcal{A}_I, \alpha_G)$ is a **net of $C^*$-systems** if $\alpha_g(\mathcal{A}_i) \subseteq \mathcal{A}_i \; \forall g \in G$.
+The tuple $(\mathcal{A}_I, \alpha_G)$ is a **net of $C^*$-systems** if $\alpha_g(\mathcal{A}_i) \subseteq \mathcal{A}_i \; \forall g \in G$.
 
 =--
 
