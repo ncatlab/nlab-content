@@ -34,7 +34,7 @@ A **linearly distributive category** (also called a **weakly distributive catego
 
 \[ \delta^R:(A\parr B) \otimes C \to A \parr (B \otimes C) \]
 
-and the obvious six pentagon equations and four triangle equations that make the monoidal structures work together nicely.  (Some of these equations can be interpreted as saying that the $\delta$s are [[tensorial strengths]] for the functors $(A\parr -)$ and $(-\parr C)$ with respect to the $\otimes$ monoidal structure.)  A **symmetric linearly distributive category** is one in which both monoidal structures are symmetric and three squares commute relating the symmetries to the $\delta$s.
+and the obvious six pentagon equations and four triangle equations that make the monoidal structures work together nicely ([Cockett-Seely 1997](#CockettSeely97)).  (Some of these equations can be interpreted as saying that the $\delta$s are [[tensorial strengths]] for the functors $(A\parr -)$ and $(-\parr C)$ with respect to the $\otimes$ monoidal structure.)  A **symmetric linearly distributive category** is one in which both monoidal structures are symmetric and three squares commute relating the symmetries to the $\delta$s.
 
 These extra associators are sometimes called "distributors", and should not be confused with [[profunctors]].  The term is a pun on the distributivity of multiplication over addition, but "linearized" so that each variable only appears once in the result.
 
@@ -64,7 +64,7 @@ $$ F_\otimes (A) \otimes F_\parr(B) \to F_\parr(A\otimes B)$$
 
 $$ F_\parr (A) \otimes F_\otimes(B) \to F_\parr(A\otimes B)$$
 
-satisfying appropriate coherence conditions ([Cockett-Seely 1999](#CockettSeely99)).  A **linear natural transformation** $F\to G$ consists of a monoidal transformations $F_\otimes \to G_\otimes$  and $F_\parr \to G_\parr$ satisfying further coherence conditions.  This defines a 2-category of linearly distributive categories, which has the property of embedding the 2-category of $\ast$-autonomous categories and arbitrary lax monoidal functors (see below).
+satisfying appropriate coherence conditions ([Cockett-Seely 1999](#CockettSeely99)).  A **linear natural transformation** $\alpha: F\to G$ consists of a monoidal transformations $\alpha_\otimes: F_\otimes \to G_\otimes$  and $\alpha_\parr: G_\parr \to F_\parr$ satisfying further coherence conditions.  This defines a 2-category of linearly distributive categories, which has the property of embedding the 2-category of $\ast$-autonomous categories and arbitrary lax monoidal functors (see below).
 
 On the other hand, a linear functor in this sense is more general than a functor between underlying [[polycategories]] (see below).  The latter probably coincide with linear functors having the property that $F_\otimes = F_\parr$ as functors (so that the same functor $F$ is $\otimes$-lax monoidal and $\parr$-colax monoidal) and the linear strengths are identities.  We might call these **Frobenius linear functors**, since such a $1\to C$ is the same as a [[Frobenius algebra]] in $C$, and when specialized to the monoidal case $\otimes=\parr$ they coincide with [[Frobenius monoidal functors]].
 
@@ -134,7 +134,7 @@ These examples satisfy the extra property that the distributors $\delta$ are [[i
 
 ### Linear bicategories
 
-[[linear bicategory|Linear bicategories]] are a [[horizontal categorification]] of linearly distributive categories.
+[[linear bicategory|Linear bicategories]] are a [[horizontal categorification]] of linearly distributive categories ([Cockett-Koslowski-Seely 1999](#CKS99)).
 
 ## Internal structures
 
@@ -209,10 +209,13 @@ Linearly distributive categories have now been used as the substrate for a numbe
 * [[Paul-André Melliès]], [Categorical Semantics of Linear Logic](http://www.pps.univ-paris-diderot.fr/~mellies/papers/panorama.pdf), published in [[Pierre-Louis Curien]], Hugo Herbelin, Jean-Louis Krivine, Paul-Andr&#233; Melli&#232;s. _Interactive models of computation and program behaviour_, Panoramas et Synth&#232;ses 27, Soci&#233;t&#233; Math&#233;matique de France, 2009. 
 
 * {#HH} Willem Heijltjes, [[Robin Houston]], _No proof nets for MLL with units: proof equivalence in MLL is PSPACE-complete_, CSL-LICS '14 Proceedings of the Joint Meeting of the Twenty-Third EACSL Annual Conference on Computer Science Logic (CSL) and the Twenty-Ninth Annual ACM/IEEE Symposium on Logic in Computer Science (LICS), Article No. 50. ([web](http://dl.acm.org/citation.cfm?id=2603126)) 
+
+* {#CKS99}[[Robin Cockett]],[[Jürgen Koslowski]],[[Robert Seely]]*Introduction to linearly distributive categories*, Mathematical Structures in Computer Science, Vol. 10, 2000 pp 165-.203 ([pdf] https://www.math.mcgill.ca/rags/bicats/bicat.pdf))
  
 Frobenius algebras in linearly distributive categories are discussed in
 
 * {#Egger2010} [[Jeff Egger]], *The Frobenius relations meet linear distributivity*, Theory and Applications of Categories, Vol. 24, 2010, No. 2, pp 25-38. ([web](http://tac.mta.ca/tac/volumes/24/2/24-02abs.html))
+
 
 [[!redirects weakly distributive category]]
 [[!redirects weakly distributive categories]]
