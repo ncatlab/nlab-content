@@ -19,12 +19,12 @@
 A **virtual double category** or **$fc$-multicategory** is a common generalization of a [[monoidal category]], a [[bicategory]], a [[double category]], and a [[multicategory]].  It contains:
 
 * objects
-* vertical arrows, which form a category
-* horizontal arrows, which do not have identities or composites, and
+* tight arrows, which form a category
+* loose arrows, which do not have identities or composites, and
 * 2-cells which have
-  * vertical source and target arrows,
-  * a horizontal multi-source, i.e. a string of horizontal arrows, and
-  * a horizontal target arrow.
+  * tight source and target arrows,
+  * a loose multi-source, i.e. a string of loose arrows, and
+  * a loose target arrow.
 
 2-cells are usually drawn like this:
 
@@ -32,7 +32,7 @@ A **virtual double category** or **$fc$-multicategory** is a common generalizati
 
 Note that this includes the case when $n=0$, i.e. a cell of "nullary" source.  In this case, we must have $X_0 = X_n$. 
 
-Note that the "empty" case of a string of horizontal arrows this has a single object $X$ in which case the 2-cell looks like:
+Note that the "empty" case of a string of loose arrows this has a single object $X$ in which case the 2-cell looks like:
 
 \begin{tikzcd}% https://q.uiver.app/?q=WzAsNCxbMSwwLCJYIl0sWzAsMiwiWV8wIl0sWzIsMiwiWV8xIl0sWzEsMSwiXFxEb3duYXJyb3cgXFxhbHBoYSJdLFswLDEsImYiLDJdLFswLDIsImciXSxbMSwyLCJxIiwyLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiYmFycmVkIn19fV1d
 	& X \\
@@ -49,7 +49,7 @@ Finally, the 2-cells can be composed in a more or less evident way, akin to comp
 
 Virtual double categories are related to double categories precisely as ordinary multicategories are related to monoidal categories (see [[generalized multicategory]] and [[tensor product]]).
 
-The dual notion in which 2-cells have a single horizontal source and a multi-ary horizontal target may be called a covirtual double category, although the term oplax double category also exists in the literature e.g. [Dawson, Paré, Pronk](#DawsonParePronk10).
+The dual notion in which 2-cells have a single loose source and a multi-ary loose target may be called a covirtual double category, although the term oplax double category also exists in the literature e.g. [Dawson, Paré, Pronk](#DawsonParePronk10).
 
 ## Definition
 
@@ -63,12 +63,12 @@ We can also give an explicit definition, which was more or less already given in
 
 ## Examples
 
-* A [[multicategory]] is a virtual double category with a single object and a single vertical morphism (the identity morphism). 
+* A [[multicategory]] is a virtual double category with a single object and a single tight morphism (the identity morphism). 
 * Any double category is an example, and thus also any bicategory
-viewing the arrows as horizontal.
+viewing the arrows as loose.
 * For any [[monoidal category]] $V$, there is a virtual double category
-of $V$-matrices whose objects are sets, vertical arrows are functions
-and a horizontal arrow $p : X \to Y$ is a family of objects $p_{y,x}
+of $V$-matrices whose objects are sets, tight arrows are functions
+and a loose arrow $p : X \to Y$ is a family of objects $p_{y,x}
 \in V$ for each $x\in X, y \in Y$, and a 2-cell from $X_0
 \overset{p_1}{\to} X_1 \to\dots \to X_n$ to $Y_0 \overset{q}{\to} Y_1$
 along $f : X_0 \to Y_0, g : X_n \to Y_n$ is a family of arrows
@@ -76,7 +76,7 @@ $\alpha_{x_0,...} : p_1(x_1,x_0)\otimes p_2(x_2,x_1)\otimes\dots \to
 q(g(x_n),f(x_0))$ in $V$ (using the unit of the monoidal category if the source string is empty).
 If $V$ has certain colimits that are preserved by $\otimes$ then
 composites exist and this virtual double category is pseudo.
-* Given a monad on a virtual double category, the [[generalized multicategory| horizontal kleisli
+* Given a monad on a virtual double category, the [[generalized multicategory| loose kleisli
 double category]] produces a virtual double
 category that is only pseudo under strong conditions on the monad. In
 particular, "free monoid" monad on the double category of sets and
@@ -91,11 +91,11 @@ There are notions of **functor**, **transformation**, and **profunctor** between
 
 A **functor** of virtual double categories is fairly obvious; it takes each kind of morphism/cell to the same kind, preserving sources, targets, composition, and identities.
 
-The relevant **transformations** are a "virtual" version of [[vertical transformations]] between ordinary double categories.  Specifically, a transformation $\alpha\colon F\to G$ has a vertical arrow component $\alpha_X\colon F X\to G X$ for each object $X$ of the domain, and a cell component
+The relevant **transformations** are a "virtual" version of [[tight transformations]] between ordinary double categories.  Specifically, a transformation $\alpha\colon F\to G$ has a tight arrow component $\alpha_X\colon F X\to G X$ for each object $X$ of the domain, and a cell component
 $$\array{F X & \overset{F p}{\to} & F Y\\
   ^{\alpha_X}\downarrow & \Downarrow ^{\alpha_p}& \downarrow^{\alpha_Y}\\
   G X& \underset{G p}{\to} & G Y}$$
-for each horizontal arrow $p\colon X\to Y$ in the domain.  These must be natural with respect to vertical composition of arrows and of 2-cells, where we must of course allow composites with arbitrary arities in the latter case.
+for each loose arrow $p\colon X\to Y$ in the domain.  These must be natural with respect to tight composition of arrows and of 2-cells, where we must of course allow composites with arbitrary arities in the latter case.
 
 Virtual double categories, functors, and transformations form a [[strict 2-category]], and thus we can apply all notions of 2-category theory to it.  In particular, we have a notion of a [[monad]] *on* a virtual double category, which is the starting point for one theory of [[generalized multicategories]].
 
@@ -104,13 +104,13 @@ Virtual double categories, functors, and transformations form a [[strict 2-categ
 
 The **profunctors** between virtual double categories are a similar "virtualization" of the notion of [[double profunctor]] between double categories.  Explicitly, a profunctor $H\colon C &#8696; D$ consists of:
 
-* An ordinary [[profunctor]] $H_0\colon C_0 &#8696; D_0$ between the categories of objects and vertical arrows.
-* For each string of horizontal arrows $X_0 \overset{p_1}{\to} X_1 \to\dots \to X_n$ in $D$, each horizontal arrow $Y_0 \overset{q}{\to} Y_1$ in $C$, and each pair of elements $f \in H_0 (X_0,Y_0)$ and $g\in H_0(X_n,Y_1)$, a set of "hetero-cells" of shape
+* An ordinary [[profunctor]] $H_0\colon C_0 &#8696; D_0$ between the categories of objects and tight arrows.
+* For each string of loose arrows $X_0 \overset{p_1}{\to} X_1 \to\dots \to X_n$ in $D$, each loose arrow $Y_0 \overset{q}{\to} Y_1$ in $C$, and each pair of elements $f \in H_0 (X_0,Y_0)$ and $g\in H_0(X_n,Y_1)$, a set of "hetero-cells" of shape
 
   [[virtual-double-category-cell.png:pic]]
 
 
-* The hetero-cells are acted on by the 2-cells of $D$ on the top, and by the 2-cells of $C$ on the bottom, in an evident way, respecting the given action of vertical arrows of $D$ and $C$ on the elements of $H_0$.
+* The hetero-cells are acted on by the 2-cells of $D$ on the top, and by the 2-cells of $C$ on the bottom, in an evident way, respecting the given action of tight arrows of $D$ and $C$ on the elements of $H_0$.
 
 Every [[double profunctor]] induces such a profunctor in an evident way, but even if $C$ and $D$ are (non-virtual) double categories, not every "virtual double profunctor" from $C$ to $D$ need be a double functor; only those for which the "hetero-cells" also factor uniquely through the opcartesian cells in $D$ which make it "representable."
 
@@ -145,7 +145,7 @@ For $T$ a monad on $\mathbb{X} \in $ [[vDbl]], a **$T$-monoid** is
 
 * an object $X_0 \in \mathbb{X}$;
 
-* a horizontal morphism $X_0 \stackrel{X}{&#8696;} T X_0$
+* a loose morphism $X_0 \stackrel{X}{&#8696;} T X_0$
 
 * an [[action]] [[2-morphism]]
 
@@ -219,7 +219,7 @@ This is ([CruttwellShulman, page 7](#CruttwellShulman)).
 
 ## Enriching categories
 
-Virtual double categories can be viewed as "the natural place in which to enrich categories."  Specifically, for any set $A$, there is a virtual double category $A_{ch}$ which has $A$ as its objects, only identity vertical arrows, exactly one horizontal arrow from every object to every other object, and exactly one 2-cell in every possible niche.  For any other virtual double category $W$, a functor $A_{ch}\to W$ of virtual double categories is the same as a $W$-enriched category with object set $A$.
+Virtual double categories can be viewed as "the natural place in which to enrich categories."  Specifically, for any set $A$, there is a virtual double category $A_{ch}$ which has $A$ as its objects, only identity tight arrows, exactly one loose arrow from every object to every other object, and exactly one 2-cell in every possible niche.  For any other virtual double category $W$, a functor $A_{ch}\to W$ of virtual double categories is the same as a $W$-enriched category with object set $A$.
 
 ## Related pages
 
