@@ -433,6 +433,10 @@ A standard textbook account is around corollary A1.5.3 in
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
+Another textbook account, that also includes the set-theoretic intuition, is in section 6 and 9.7 of
+
+* [[Steve Awodey]], _Category Theory_
+
 The relation between local cartesian closure and base change/[[hyperdoctrine]] structure is sometimes attributed to
 
 * [[Peter Freyd]], _Aspects of topoi_, Bull. Australian Math. Soc. 7 (1972), 1-76.
