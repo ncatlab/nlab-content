@@ -433,14 +433,14 @@ A standard textbook account is around corollary A1.5.3 in
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
-Another textbook account, that also includes the set-theoretic intuition, is in section 6 and 9.7 of
+Another textbook account, that also includes the set-theoretic intuition:
 
-* [[Steve Awodey]], _Category Theory_
+* {#Awodey06} [[Steve Awodey]] section 6 & 9.7 of: *Category theory*, Oxford University Press (2006, 2010) &lbrack;[doi:10.1093/acprof:oso/9780198568612.001.0001](https://doi.org/10.1093/acprof:oso/9780198568612.001.0001), [ISBN:9780199237180](https://global.oup.com/ukhe/product/category-theory-9780199237180), [pdf](http://englishonlineclub.com/pdf/Category%20Teory%20%5BEnglishOnlineClub.com%5D.pdf)&rbrack;
 
 The relation between local cartesian closure and base change/[[hyperdoctrine]] structure is sometimes attributed to
 
-* [[Peter Freyd]], _Aspects of topoi_, Bull. Australian Math. Soc. 7 (1972), 1-76.
- {#Freyd}
+* {#Freyd} [[Peter Freyd]], _Aspects of topoi_, Bull. Australian Math. Soc. 7 (1972), 1-76.
+ 
 
 A discussion of [[dependent type theory]] as the [[internal language]] of locally cartesian closed categories is in 
 
