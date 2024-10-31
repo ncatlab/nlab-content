@@ -43,16 +43,17 @@ such that for every morphism $f: c \to c'$ in $C$,
 
 If drawn out as a commutative diagram, this becomes a "hexagon identity":
 
-\[
-\begin{array}{ccccccc}
- &  & F(c,c) & \overset{\alpha_{c}}{\to} & G(c,c)\\
- & \overset{\mathclap{F(f,c)}}{\nearrow} &  &  &  & \overset{\mathclap{G(c,f)}}{\searrow}\\
-F(c',c) &  &  &  &  &  & G(c,c')\\
- & \underset{\mathclap{F(c',f)}}{\searrow} &  &  &  & \underset{\mathclap{G(f,c')}}{\nearrow}\\
- &  & F(c',c') & \underset{\alpha_{c'}}{\to} & G(c',c')
-\end{array}\,.
-\]
- 
+\begin{tikzcd}
+	          & {F(c,c)}   & {G(c,c)}   & \\
+	{F(c',c)} &            &            & {G(c,c')} \\
+	          & {F(c',c')} & {G(c',c')} &
+	\arrow["{\alpha_c}", from=1-2, to=1-3]
+	\arrow["{G(c,f)}", from=1-3, to=2-4]
+	\arrow["{F(f,c)}", from=2-1, to=1-2]
+	\arrow["{F(c',f)}"', from=2-1, to=3-2]
+	\arrow["{\alpha_{c'}}"', from=3-2, to=3-3]
+	\arrow["{G(f,c')}"', from=3-3, to=2-4]
+\end{tikzcd}
 
 ### Special cases
 
