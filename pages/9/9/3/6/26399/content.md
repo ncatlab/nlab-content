@@ -93,6 +93,12 @@ since the right hand side is equal to
 $(x +_0.5 z) \oplus (y+_0.5 z) \oplus x \oplus (y+_0.5 x)$,
 and we can compare the convex hulls of the two points of the left-hand side $[(0.5,0,0.5),(0.5,0.5,0)]$  and the four points of the right-hand side [(0.5,0,0.5),(0,0.5,0.5),(1,0,0),(0.5,0.5,0)], which are different convex subsets of the 2-simplex (triangle). 
 
+## See also
+
+* [[probability monad]]
+* [[monad in computer science]]
+* [[nonlinear probability theory]]
+
 ## References
 
 Convex powersets of distributions have been considered by various authors over the last few decades. 
@@ -128,6 +134,8 @@ and analyzed as "convex powercones" by
 * [[Regina Tix]], [[Klaus Keimel]], [[Gordon D. Plotkin]]: *Semantic domains for combining probability and non-determinism*, Electronic Notes in Theoretical Computer Science, **222** (2009) 3–99 &lbrack;[doi:10.1016/j.entcs.2009.01.002](https://doi.org/10.1016/j.entcs.2009.01.002)&rbrack;
 
 * Jean Goubault-Larrecq: *Prevision domains and convex powercones*, in: Proc. FOSSACS 2008, Lecture Notes in Computer Science **4962**, Springer (2008) 318–333 &lbrack;[doi:10.1007/978-3-540-78499-9\_23](https://doi.org/10.1007/978-3-540-78499-9_23)&rbrack;
+
+category: probability
 
 [[!redirects convex powerset of distributions monads]]
 [[!redirects convex powerset monad]]
