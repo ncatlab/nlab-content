@@ -347,7 +347,9 @@ See also:
 
 * Antonin Delpeuch, _The word problem for double categories_, [arxiv](https://arxiv.org/abs/1907.09927)
 
-* Virtual Double Categories Workshop 2022 ([webpage](https://bryceclarke.github.io/virtual-double-categories-workshop/)).
+* Virtual Double Categories Workshop, 2022 ([webpage](https://bryceclarke.github.io/virtual-double-categories-workshop/2022/index.html))
+
+* Second Virtual Workshop on Double Categories, 2024 ([webpage](https://bryceclarke.github.io/virtual-double-categories-workshop/index.html))
 
 On [[model structures on DblCat]]:
 
