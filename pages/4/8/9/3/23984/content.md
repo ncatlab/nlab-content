@@ -490,11 +490,14 @@ The notion in [[homotopy type theory]]:
 
 Implementation in [[Agda]]:
 
-* [[Martín Hötzel Escardó]], *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580), [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)&rbrack;
+* [[Martín Hötzel Escardó]] pp 20 in: *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580), [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)&rbrack;
 
 and in [cubical Agda](Agda#CubicalAgda):
 
 * [[1lab]], *Transport* &lbrack;[#12111](https://1lab.dev/1Lab.Path.html#12111)&rbrack;
+
+* {#MyersRiley24} [[David Jaz Myers]], [[Mitchell Riley]], [lecture 2.5](https://github.com/CQTS/introduction-to-cubical/blob/master/lectures/2--Paths-and-Identifications/2-5--Transport.lagda.md) of course notes for *Introduction to Cubical Agda* at [[CQTS]] @ NYU Abu Dhabi (2023, 24) &lbrack;[github](https://github.com/CQTS/introduction-to-cubical/tree/master/lectures)&rbrack;
+
 
 [[Gottfried Leibniz|Leibniz]]'s original paragraph (from an unpublished manuscript probably written after 1683) is reproduced in the Latin original in:
 
