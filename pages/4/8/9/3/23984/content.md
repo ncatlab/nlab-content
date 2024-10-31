@@ -488,6 +488,13 @@ The notion in [[homotopy type theory]]:
 
 * [[Egbert Rijke]], pp. 18 in: *Homotopy Type Theory* (2012) &lbrack;[pdf](https://studenttheses.uu.nl/bitstream/handle/20.500.12932/11704/hott.pdf?sequence=1)&rbrack;
 
+and in [[cubical type theory]]:
+
+* [[Cyril Cohen]], [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]]: Section 4.6 of *Cubical Type Theory: a constructive interpretation of the univalence axiom* &lbrack;[arXiv:1611.02108](https://arxiv.org/abs/1611.02108)&rbrack;
+
+* [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]]: Def. 3 in: *On Higher Inductive Types in Cubical Type Theory* &lbrack;[arXiv:1802.01170](https://arxiv.org/abs/1802.01170)&rbrack;
+
+
 Implementation in [[Agda]]:
 
 * [[Martín Hötzel Escardó]] pp 20 in: *Introduction to Univalent Foundations of Mathematics with Agda* &lbrack;[arXiv:1911.00580](https://arxiv.org/abs/1911.00580), [webpage](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/)&rbrack;
