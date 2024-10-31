@@ -148,7 +148,7 @@ To see this, observe that
   A \;\simeq\; \varnothing
   \,,
 \]
-where we used that $LConst$ is a [[left adjoint]] and that [[left adjoints preserve colimits]] ([hence](initial+object#InitialObjectIsEmptyColimit) [[preserved colimit|preserve]] [[initial objects]]), we consideted the [[adjunction unit]] $\eta_A$, and
+where we used that $LConst$ is a [[left adjoint]] and that [[left adjoints preserve colimits]] ([hence](initial+object#InitialObjectIsEmptyColimit) [[preserved colimit|preserve]] [[initial objects]]), we considered the [[adjunction unit]] $\eta_A$, and
 where the last implication follows since the [[initial object]] in any topos is [[strict initial object|strict]].
 
 But this gives
