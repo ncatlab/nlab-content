@@ -173,7 +173,21 @@ This is a weak 2-category: it has a nontrivial [[associator]]: composition of sp
 
 (Note that we must choose a specific pullback when defining the composite of a pair of morphisms in $Span(C)$, if we want to obtain a [[bicategory]] as traditionally defined; this requires the [[axiom of choice]]. Otherwise we obtain a bicategory with 'composites of morphisms defined only up to canonical iso-2-morphism'; such a structure can be modeled by an [[anabicategory]] or an [[opetopic bicategory]].)
 
-By including functions as well, instead of a bicategory we obtain a [[pseudo-double category]].
+We can also obtain a [[pseudo-double category]], whose [[loose]] structure is as above, whose [[tight]] morphisms are functions, and whose cells are commuting diagrams,
+
+\[\begin{tikzcd}
+	A & S & B \\
+	{A'} & {S'} & {B'}
+	\arrow["p", from=1-1, to=2-1]
+	\arrow["f"', from=1-2, to=1-1]
+	\arrow["g", from=1-2, to=1-3]
+	\arrow["q", from=1-2, to=2-2]
+	\arrow["r", from=1-3, to=2-3]
+	\arrow["h", from=2-2, to=2-1]
+	\arrow["i"', from=2-2, to=2-3]
+\end{tikzcd}\]
+
+Moreover, when $C$ is an arbitrary category, not necessarily having pullbacks, one can still obtain a [[covirtual double category]]. More details can be found in Section 4 of [Dawson, Paré, Pronk](#DawsonParePronk10) (where the term oplax double category is used).
 
 ## Properties
 
