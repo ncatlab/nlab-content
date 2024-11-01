@@ -153,7 +153,7 @@ a [[topological subspace]] $S \subset X$ is called:
 
 \end{defn}
 
-([Palais 61, Def. 2.1.1](#Palais61), recalled as [Karppinen 16, Def. 6.1.1](#Karppinen16))
+([Palais 61, Def. 2.1.1](#Palais61), recalled as [Karppinen 16, Def. 6.1.1](#Karppinen16), a modern version of proof (simplified) can be found in [Guillemin-Ginzburg-Karshon, Appendix B Theorem B.24](#GGK02). The groupoid version can be found in [Zambon-Zhu, Lemma 3.11](#ZZ04).)
 
 
 
@@ -394,6 +394,11 @@ Original discussion:
 
 
 * {#Palais61} [[Richard Palais]], _On the Existence of Slices for Actions of Non-Compact Lie Groups_, Annals of Mathematics Second Series **73** 2 (1961) 295-323 &lbrack;[jstor:1970335](https://www.jstor.org/stable/1970335), [doi:10.2307/1970335](https://doi.org/10.2307/1970335), [pdf](http://vmm.math.uci.edu/ExistenceOfSlices.pdf)&rbrack;
+
+
+* {#GGK02} [[Victor Guillemin]], [[Viktor Ginzburg]], [[Yael Karshon]], _Moment Maps, Cobordisms, and Hamiltonian Group Actions_, Mathematical Surveys and Monographs Volume 98 (2002)
+
+* {#ZZ04} [[Marco Zambon]], [[Chenchang Zhu]], _Contact reduction and groupoid actions_,  Trans. Amer. Math. Soc. 358 (2006), no. **3**, 1365–1401. (https://arxiv.org/pdf/math/0405047 ). 
 
 * {#Bredon72} [[Glen Bredon]], Section II.4 of: _[[Introduction to compact transformation groups]]_, Academic Press (1972) &lbrack;[ISBN:9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf)&rbrack;
 
