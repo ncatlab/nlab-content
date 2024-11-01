@@ -291,12 +291,18 @@ Review:
 * Mark Bugden, _A Tour of T-duality: Geometric and Topological Aspects of T-dualities_ &lbrack;[arXiv:1904.03583](https://arxiv.org/abs/1904.03583)&rbrack;
 
 
-
 Discussion at strong coupling ("[[F-theory]]"):
 
 * {#Schwarz96} [[John Schwarz]]: *M Theory Extensions of T Duality*, in: *Frontiers in Quantum Field Theory*, World Scientific (1996) 3-14 &lbrack;[arXiv:hep-th/9601077](https://arxiv.org/abs/hep-th/9601077), [doi:10.1142/3245](https://doi.org/10.1142/3245)&rbrack;
 
 * {#Russo97} [[Jorge Russo]], _T-duality in M-theory and supermembranes_, Phys.Lett. B400 (1997) 37-42 ([arXiv:hep-th/9701188](https://arxiv.org/abs/hep-th/9701188))
+
+
+On the [[worldsheet]] formulation of T-duality in the presence of [[background field|background]] [[RR-fields]]
+
+via the [[pure spinor superstring]]:
+
+* Raphael Benichou, [[Giuseppe Policastro]], [[Jan Troost]], *T-duality in Ramond-Ramond backgrounds*, Phys. Lett. B **661** (2008) 192-195 &lbrack;[arXiv:0801.1785](https://arxiv.org/abs/0801.1785), [doi:10.1016/j.physletb.2008.01.059](https://doi.org/10.1016/j.physletb.2008.01.059)&rbrack;
 
 
 Dscussion in [[higher differential geometry]]:
