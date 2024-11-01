@@ -82,6 +82,14 @@ An account going from classical computation to [[quantum computation]]:
 
 * [[Alexei Y. Kitaev]], A. H. Shen, M. N. Vyalyi, *Classical and Quantum Computation*, Graduate Studies in Mathematics **47** (2002) &lbrack;[doi:10.1090/gsm/047](http://dx.doi.org/10.1090/gsm/047)&rbrack;
 
+On computation in relation to [[physics]]:
+
+* Hector Zenil (ed.): *A Computable Universe -- Understanding and Exploring Nature as Computation*, World Scientific (2012) &lbrack;[doi:10.1142/8306](https://doi.org/10.1142/8306)&rbrack;
+
+  foreword by [[Roger Penrose]] &lbrack;[arXiv:1205.5823](https://arxiv.org/abs/1205.5823)&rbrack;
+
+  introduction by Hector Zenil &lbrack;[arXiv:1206.0376](https://arxiv.org/abs/1206.0376)&rbrack;
+
 
 \linebreak
 
