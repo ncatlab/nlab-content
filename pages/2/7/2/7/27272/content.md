@@ -28,12 +28,21 @@ A [[Grothendieck topology]] $J$ on a small [[Cauchy complete]] category $\mathca
 Let $\mathcal{C}$ be a small [[Cauchy complete]] category and $J$ a [[Grothendieck topology ]] on $\mathcal{C}$, an object 
 $U\in\mathcal{C}$ is called **$J$-irreducible** if the only covering [[sieve]] is the maximal sieve.
 
-$J$ is called **rigid** when every object $X\in \mathcal{C}$ admits a $J$-[[cover|covering]] by a $J$-irreducible object.
+$J$ is called **rigid** when every object $X\in \mathcal{C}$ admits a $J$-[[cover|covering]] by  $J$-irreducible objects.
 
 
 ## Properties
 
-(...)
++-- {: .num_prop #rigidsubtopos}
+###### Proposition
+Let $J$ be a rigid topology on the small Cauchy complete category $\mathcal{C}$ and $J|_{\mathcal{D}}$ the induced [[Grothendieck topology]] on the full subcategory $\mathcal{D}$ of $J$-irreducible objects. Then 
+ 
+$$Sh(\mathcal{C},J)\simeq Sh(\mathcal{D},J|_{\mathcal{D}})\simeq Set^{\mathcal{D}^{op}}\qquad .$$
+
+=--
+
+The first equivalence follows from the [[comparison lemma]] and the second equivalence from the fact that $J|_{\mathcal{D}}$ is the minimal topology on $\mathcal{D}$ whence every presheaf is a sheaf (cf. [Johnstone](#Johnstone02), B2.2.18).
+Since $Set^{\mathcal{D}^{op}}\hookrightarrow Set^{\mathcal{C}^{op}}$ arises by [[Kan extension]] of the (full) subcategory inclusion $\mathcal{D}\hookrightarrow \mathcal{C}$ the subtopos inclusion is in fact [[essential subtopos|essential]].
 
 
 ## Related entries
