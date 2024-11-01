@@ -91,6 +91,10 @@ which take a more nPOV of automata theory.
 
 On the laws of [[fundamental physics]] as possibly governed by simple automata:
 
+* [[Konrad Zuse]]: *Rechnender Raum*, Schriften zur Datenverarbeitung 1, Viehweg & Sohn (1969) &lbrack;[doi:https://doi.org/10.1007/978-3-663-02723-2](https://doi.org/10.1007/978-3-663-02723-2), [[Zuse-RechnenderRaum.pdf:file]]&rbrack;
+
+  English translation: *Calculating Space*, MIT Technical Translation, AZT-70-164-GEMIT (1970) &lbrack;[[Zuse-CalculatingSpace.pdf:file]]&rbrack;
+
 * [[Stephen Wolfram]]: *A New Kind of Science*, Wolfram Media (2002) &lbrack;[ISBN:978-1-57955-008-0](https://www.wolfram-media.com/products/nks/), [www.wolframscience.com](https://www.wolframscience.com), [Wikipedia entry](https://en.wikipedia.org/wiki/A_New_Kind_of_Science)&rbrack;
 
 An early discussion of automata via [[string diagrams]] in the [[Cartesian monoidal category]] of [[finite sets]]:
