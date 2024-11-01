@@ -3908,11 +3908,28 @@ Researchers:
         "top": -20,
         "bottom": 20,
         "right": 0, 
-        "left": -200
+        "left": 40
     }
 \end{imagefromfile}
 
 $\;\;\;\;\;$[[Grigorios Giotopoulos|Giotopoulos]]$\;$[[Adrian Clough|Clough]] [[Sachin Valera|Valera]] XX [[Amaria Javed|Javed]] [[Mitchell Riley|Riley]] [[Hisham Sati|Sati]] [[Urs Schreiber|Schreiber]] [[Muhammad Shafique|Shafique]] [[David J. Myers|Myers]]  YY Rahman
+
+\linebreak
+
+**2024**
+
+\begin{imagefromfile}
+    "file_name": "CQTS-GroupPhoto-2024.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": -200
+    }
+\end{imagefromfile}
+
 
 ***
 
