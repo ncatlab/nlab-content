@@ -65,6 +65,8 @@ The corresponding [[adjoint modalities]] are $(q_!\cdot i_!)\cdot (i^\ast \cdot 
 
 ## Related concepts
 
+* [[rigid topology]]
+
 * [[quality type]]
 
 * [[subtopos]]
