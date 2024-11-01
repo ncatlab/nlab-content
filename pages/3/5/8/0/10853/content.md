@@ -18,16 +18,19 @@
 =--
 
 
-
 This page collects links related to the lecture note
 
-* [[William Lawvere]],
+* [[William Lawvere]]:
 
-  _Toposes of laws of motion_ , 
+  \linebreak
 
-  transcript of a talk in Montreal, Sept. 1997 
+  **Toposes of Laws of Motion**
 
-  ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
+  \linebreak
+
+  transcript of a talk in Montreal (Sept. 1997) 
+
+  &lbrack;[[Lawvere-ToposesOfLawsOfMotion.pdf:file]]&rbrack;
 
 on the formulation of [[differential equations]]/[[continuum mechanics]] in [[synthetic differential geometry]] and the notion of [[toposes of laws of motion]].
 
