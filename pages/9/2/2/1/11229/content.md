@@ -75,7 +75,12 @@ Decent discussion of computability in physics includes the following
 
 * Robert Rosen, _Church's thesis and its relation to the concept of realizability in biology and physics_, Bulletin of Mathematical Biophysics 24 (1962), 375&#8211;393.
 
-* {#Zuse67} [[Konrad Zuse]], _Rechnender Raum_, Elektronische Datenverarbeitung 8 (1967), 336&#8211;344.
+* {#Zuse67} [[Konrad Zuse]]: *Rechnender Raum*, Schriften zur Datenverarbeitung 1, Viehweg & Sohn (1969) &lbrack;[doi:https://doi.org/10.1007/978-3-663-02723-2](https://doi.org/10.1007/978-3-663-02723-2), [[Zuse-RechnenderRaum.pdf:file]]&rbrack;
+
+  English translation: *Calculating Space*, MIT Technical Translation, AZT-70-164-GEMIT (1970) &lbrack;[[Zuse-CalculatingSpace.pdf:file]]&rbrack;
+
+  reprinted as chapter 36 of: Hector Zenil (ed.) *A Computable Universe -- Understanding and Exploring Nature as Computation*, World Scientific (2012) &lbrack;[doi:10.1142/8306](https://doi.org/10.1142/8306)&rbrack;
+
 
 * {#Kreisel74} [[Georg Kreisel]], _A notion of mechanistic theory_, Synthese 29 (1974), 11&#8211;26.
 
@@ -86,6 +91,9 @@ Decent discussion of computability in physics includes the following
   Marian Pour-El, Ning Zhong, _The wave equation with computable initial data whose unique solution is nowhere computable_, Math. Logic Quart. 43 (1997) no. 4, 499-509.
 
 * {#Bridges95} [[Douglas Bridges]], _Constructive mathematics and unbounded operators -- a reply to Hellman_, J. Philosophical Logic 24, 549&#8211;561 (1995)
+
+* [[Douglas S. Bridges]]: *Can Constructive Mathematics Be Applied in Physics?*, Journal of Philosophical Logic **28** 5 (1999) 439-453 &lbrack;[jstor:30226680](https://www.jstor.org/stable/30226680), [doi:10.1023/A:1004420413391](https://doi.org/10.1023/A:1004420413391)&rbrack;
+
 
 * {#WeihrauchZhong01} [[Klaus Weihrauch]],  Ning Zhong, _Is the linear Schr&#246;dinger Propagator Turing Computable?_ , in Jens Blanck et al (eds.) _Computability and Complexity in Analysis: 4th International Workshop_ , CCA, Springer 2001
 
@@ -102,19 +110,27 @@ Volume 22, Issue 6, December 2006, Pages 918&#8211;935
 
 * {#Streicher12} [[Thomas Streicher]], _Computability Theory for Quantum Theory_, talk at Logic Seminar Univ. Utrecht in July 2012 ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/TALKS/qtdm.pdf))
 
+* [[Stephen Wolfram]]: *A New Kind of Science*, Wolfram Media (2002) &lbrack;[ISBN:978-1-57955-008-0](https://www.wolfram-media.com/products/nks/), [www.wolframscience.com](https://www.wolframscience.com), [Wikipedia entry](https://en.wikipedia.org/wiki/A_New_Kind_of_Science)&rbrack;
+
+* Hector Zenil (ed.): *A Computable Universe -- Understanding and Exploring Nature as Computation*, World Scientific (2012) &lbrack;[doi:10.1142/8306](https://doi.org/10.1142/8306)&rbrack;
+
+  foreword by [[Roger Penrose]] &lbrack;[arXiv:1205.5823](https://arxiv.org/abs/1205.5823)&rbrack;
+
+  introduction by Hector Zenil &lbrack;[arXiv:1206.0376](https://arxiv.org/abs/1206.0376)&rbrack;
+
 * Stanford Encyclopedia of Philosophy, _[Computation in physics](http://plato.stanford.edu/entries/computation-physicalsystems/)_
 
 Some general remarks on the impact of [[realizability]] ([[intuitionistic mathematics|intuitionistic]]/[[constructive mathematics]]) on computability in physics and the [[Church-Turing thesis]] are in 
 
-* [[Andrej Bauer]],  section 4 of _Intuitionistic Mathematics and Realizability in the Physical World_, in  [[Hector Zenil]] (ed.) _[A Computable Universe: Understanding and Exploring Nature as Computation](http://www.worldscientific.com/worldscibooks/10.1142/8306)_, World Scientific 2012 ([web](http://math.andrej.com/2014/03/04/intuitionistic-mathematics-and-realizability-in-the-physical-world/), [pdf](http://math.andrej.com/wp-content/uploads/2014/03/real-world-realizability.pdf))
+* [[Andrej Bauer]]: *Intuitionistic Mathematics and Realizability in the Physical World*, in *A Computable Universe* (2012) 143-157 &lbrack;[doi:10.1142/9789814374309_0008](https://doi.org/10.1142/9789814374309_0008), [pdf](https://math.andrej.com/wp-content/uploads/2014/03/real-world-realizability.pdf), [webpage](https://math.andrej.com/2014/03/04/intuitionistic-mathematics-and-realizability-in-the-physical-world/)&rbrack;
 
 A useful set of lecture notes on the mathematical background of [[computability]] and [[realizability]] is in
 
 * {#Bauer05} [[Andrej Bauer]], _Realizability as connection between constructive and computable mathematics_, in T. Grubba, P. Hertling, H. Tsuiki, and [[Klaus Weihrauch]], (eds.) _CCA 2005 - Second International Conference on Computability and Complexity in Analysis_, August 25-29,2005, Kyoto, Japan, ser. Informatik Berichte, , vol. 326-7/2005. FernUniversit&#228;t Hagen, Germany, 2005, pp. 378&#8211;379. ([pdf](http://math.andrej.com/data/c2c.pdf))
 
-* {#GerochHartle} Robert Geroch, [[James Hartle]], _Computability and physical theories_, Foundations of Physics June 1986, Volume 16, Issue 6, pp 533-550 ([doi](http://dx.doi.org/10.1007/BF01886519), [PDF](http://link.springer.com/content/pdf/10.1007/BF01886519.pdf))
+* {#GerochHartle} [[Robert Geroch]], [[James Hartle]]: *Computability and physical theories*, Foundations of Physics, **16** 6 (1986) 533-550 &lbrack;[doi:10.1007/BF01886519](http://dx.doi.org/10.1007/BF01886519), [pdf](http://link.springer.com/content/pdf/10.1007/BF01886519.pdf)&rbrack;
 
-* {#Baez} John Baez, _Recursivity in Quantum Mechanics_, [PDF](http://math.ucr.edu/home/baez/recursivity.pdf)
+* {#Baez} [[John Baez]], _Recursivity in Quantum Mechanics_, [PDF](http://math.ucr.edu/home/baez/recursivity.pdf)
 [[!redirects computable quantum physics]]
 
 Ye presents a constructive development of part of quantum theory and relativity theory.
