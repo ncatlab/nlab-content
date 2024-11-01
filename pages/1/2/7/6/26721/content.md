@@ -31,7 +31,7 @@ An _orbital $\infty$-category_ is an [[(∞,1)-category]] satisfying a weak axio
 Given $\mathcal{T}$ an [[(∞,1)-category]], we write $\mathbb{F}_{\mathcal{T}} \coloneqq  \mathcal{T}^{\amalg}$ for its finite [[free coproduct completion|coproduct completion]].
 
 \begin{definition}
-  An $\infty$-category $\mathcal{T}$ is **orbital** if $\mathbb{F}_{\mathcal{T}}$ admits finite (co)products.
+  An $\infty$-category $\mathcal{T}$ is **orbital** if $\mathbb{F}_{\mathcal{T}}$ admits pullbacks.
 \end{definition}
 
 \begin{definition}
