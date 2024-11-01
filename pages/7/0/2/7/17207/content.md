@@ -4,7 +4,7 @@
 
 ## Idea 
 
-A *shelf* is a set with a binary operation that distributes over itself. Shelves are similar to [[racks]] (and there are forgetful functors from racks to shelves), but shelves are axiomatically simpler. 
+A *shelf* is a set with a binary operation that distributes over itself.  The most widely studied class of shelves are the [[racks]], and among those the [[quandles]], but the axioms for shelves are simpler. 
 
 ## Definitions 
 
