@@ -338,7 +338,7 @@ in: *Reuniting the Antipodes -- Constructive and Nonstandard Views of the Contin
 
 *   [[Auke B. Booij]], Analysis in univalent type theory ([pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf))
 
-On constructive mathematics applied to [[physics]]:
+On constructive mathematics applied to [[physics]] (cf. *[[computable physics]]*):
 
 * [[Douglas S. Bridges]]: *Can Constructive Mathematics Be Applied in Physics?*, Journal of Philosophical Logic **28** 5 (1999) 439-453 &lbrack;[jstor:30226680](https://www.jstor.org/stable/30226680), [doi:10.1023/A:1004420413391](https://doi.org/10.1023/A:1004420413391)&rbrack;
 
