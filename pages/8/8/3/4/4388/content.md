@@ -95,6 +95,8 @@ On the laws of [[fundamental physics]] as possibly governed by simple automata:
 
   English translation: *Calculating Space*, MIT Technical Translation, AZT-70-164-GEMIT (1970) &lbrack;[[Zuse-CalculatingSpace.pdf:file]]&rbrack;
 
+  reprinted as chapter 36 of: Hector Zenil (ed.) *A Computable Universe -- Understanding and Exploring Nature as Computation*, World Scientific (2012) &lbrack;[doi:10.1142/8306](https://doi.org/10.1142/8306)&rbrack;
+
 * [[Stephen Wolfram]]: *A New Kind of Science*, Wolfram Media (2002) &lbrack;[ISBN:978-1-57955-008-0](https://www.wolfram-media.com/products/nks/), [www.wolframscience.com](https://www.wolframscience.com), [Wikipedia entry](https://en.wikipedia.org/wiki/A_New_Kind_of_Science)&rbrack;
 
 An early discussion of automata via [[string diagrams]] in the [[Cartesian monoidal category]] of [[finite sets]]:
