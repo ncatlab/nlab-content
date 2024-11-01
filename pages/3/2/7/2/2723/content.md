@@ -114,9 +114,16 @@ Here is some blog discussion about this topic:
 
 Nekrasov work referred to above is partly from
 
-* Nathan Berkovits, [[Nikita Nekrasov]], _The character of pure spinors_, Letters in Mathematical Physics (2005) 74:75--109 [doi](https://doi.org/10.1007/s11005-005-0009-7)
+* [[Nathan Berkovits]], [[Nikita Nekrasov]], _The character of pure spinors_, Letters in Mathematical Physics (2005) 74:75--109 [doi](https://doi.org/10.1007/s11005-005-0009-7)
+
+[[!redirects Berkovits superstrings]]
 
 [[!redirects Berkovits string]]
+[[!redirects Berkovits strings]]
 
 [[!redirects pure spinor superstring]]
+[[!redirects pure spinor superstrings]]
+
+[[!redirects pure-spinor superstring]]
+[[!redirects pure-spinor superstrings]]
 
