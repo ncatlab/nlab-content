@@ -1,6 +1,3 @@
-
-# Colax/lax comma object
-
 * table of contents
 {: toc}
 
