@@ -16,6 +16,10 @@ On the [[Dedekind real numbers]] via [[abstract Stone duality]]:
 
 * [[Andrej Bauer]], *Efficient Computation with Dedekind Reals*, talk at *[Computability and complexity in analysis 2008](https://math.andrej.com/2008/08/24/efficient-computation-with-dedekind-reals/)* and at *[Mathematics, Algorithms and Proofs 2008](http://cdsagenda5.ictp.trieste.it/full_display.php?smr=0&ida=a07167)* (2008) &lbrack;[web](https://math.andrej.com/2008/08/24/efficient-computation-with-dedekind-reals/), slides: [pdf](https://math.andrej.com/wp-content/uploads/2008/08/slides-map2008.pdf), extended abstract: [pdf](https://math.andrej.com/wp-content/uploads/2008/08/abstract-cca2008.pdf)&rbrack;
 
+On [[intuitionism]]/[[constructive mathematics]]/[[realizability]] and [[physics]]:
+
+* [[Andrej Bauer]]: *Intuitionistic Mathematics and Realizability in the Physical World*, in *A Computable Universe* (2012) 143-157 &lbrack;[doi:10.1142/9789814374309_0008](https://doi.org/10.1142/9789814374309_0008), [pdf](https://math.andrej.com/wp-content/uploads/2014/03/real-world-realizability.pdf), [webpage](https://math.andrej.com/2014/03/04/intuitionistic-mathematics-and-realizability-in-the-physical-world/)&rbrack;
+
 
 On the [[HoTT book real numbers]]:
 
