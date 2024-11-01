@@ -303,8 +303,9 @@ Gentle introductions:
 
 * [[Douglas Bridges]], _Introducing constructive mathematics_, Lecture Notes, Nis 2013 ([pdf](http://www2.masfak.ni.ac.rs/cmfp2013/Nis%20lecture%20170113.pdf))
 
-* [[Andrej Bauer]], _Five Stages of Accepting Constructive Mathematics_, 
-Bull. Amer. Math. Soc. 54 (2017), 481-498 ([pdf](http://dx.doi.org/10.1090/bull/1556)]. See also a talk at IAS March 18, 2013  ([video](http://video.ias.edu/members/1213/0318-AndrejBauer)).
+* [[Andrej Bauer]]: _Five Stages of Accepting Constructive Mathematics_, Bull. Amer. Math. Soc. **54** (2017)  481-498 &lbrack;[doi:10.1090/bull/1556](http://dx.doi.org/10.1090/bull/1556), [pdf](https://www.ams.org/journals/bull/2017-54-03/S0273-0979-2016-01556-4/S0273-0979-2016-01556-4.pdf)&rbrack;
+
+  based on a talk at IAS (March 18, 2013) &lbrack;[video](http://video.ias.edu/members/1213/0318-AndrejBauer)&rbrack;
 
 * [[Fred Richman]], _[Interview with a constructive mathematician](http://math.fau.edu/richman/docs/intrview.html)_,  Modern Logic 6 (1996), no. 3, 247&#8211;271 ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=1400617))
 
@@ -336,6 +337,13 @@ in: *Reuniting the Antipodes -- Constructive and Nonstandard Views of the Contin
 *  [[Frank Waaldijk]] (2003). [On the foundations of constructive mathematics - especially in relation to the theory of continuous functions](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf) (PDF).
 
 *   [[Auke B. Booij]], Analysis in univalent type theory ([pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf))
+
+On constructive mathematics applied to [[physics]]:
+
+* [[Douglas S. Bridges]]: *Can Constructive Mathematics Be Applied in Physics?*, Journal of Philosophical Logic **28** 5 (1999) 439-453 &lbrack;[jstor:30226680](https://www.jstor.org/stable/30226680), [doi:10.1023/A:1004420413391](https://doi.org/10.1023/A:1004420413391)&rbrack;
+
+* [[Andrej Bauer]]: *Intuitionistic Mathematics and Realizability in the Physical World*, in *A Computable Universe* (2012) 143-157 &lbrack;[doi:10.1142/9789814374309_0008](https://doi.org/10.1142/9789814374309_0008), [pdf](https://math.andrej.com/wp-content/uploads/2014/03/real-world-realizability.pdf), [webpage](https://math.andrej.com/2014/03/04/intuitionistic-mathematics-and-realizability-in-the-physical-world/)&rbrack;
+
 
 In view of [[reverse mathematics]]:
 
@@ -369,6 +377,7 @@ The relation to [[realizability]] and [[computability]] is discussed in
 On [[commutative algebra]] with constructive methods:
 
 * [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
+
 
 
 
