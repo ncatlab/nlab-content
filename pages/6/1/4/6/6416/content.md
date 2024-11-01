@@ -7,13 +7,17 @@ On [[Cauchy surfaces]] in [[globally hyperbolic spacetimes]]:
 
 * [[Robert Geroch]], §5, Thm. 11 in: *Domain of Dependence*, J. Math. Phys. **11** (1970) 437–449 &lbrack;[doi:10.1063/1.1665157](https://doi.org/10.1063/1.1665157)&rbrack;
 
+On [[computability]] and [[physics]] (cf. *[[computable physics]]*):
+
+* {#GerochHartle} [[Robert Geroch]], [[James Hartle]]: *Computability and physical theories*, Foundations of Physics, **16** 6 (1986) 533-550 &lbrack;[doi:10.1007/BF01886519](http://dx.doi.org/10.1007/BF01886519), [pdf](http://link.springer.com/content/pdf/10.1007/BF01886519.pdf)&rbrack;
+
 
 On [[quantum mechanics]]:
 
 * [[Robert Geroch]], *Geometrical Quantum Mechanics*, University of Chicago (1974) &lbrack;[pdf](http://strangebeautiful.com/other-texts/geroch-geom-qm.pdf), [[Geroch-GeometricalQuantumMechanics.pdf:file]]&rbrack;
 
 
-On [[mathematical physics]], making explicit the [[categories]] of some of its basic ingredients:
+On [[mathematical physics]], making explicit the [[categories]] (and some basic [[category theory]]) of some of its basic ingredients:
 
 * [[Robert Geroch]], _Mathematical Physics_, Chicago 1985 ([ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html))
 
