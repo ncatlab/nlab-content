@@ -33,6 +33,8 @@ A [[program]]. A construction of a [[term]] of some [[type]]. The topic of [[com
 
 * [[computability]]
 
+* [[computable physics]]
+
 * [[programs as proofs]]
 
 * [[computational type theory]]
@@ -82,7 +84,7 @@ An account going from classical computation to [[quantum computation]]:
 
 * [[Alexei Y. Kitaev]], A. H. Shen, M. N. Vyalyi, *Classical and Quantum Computation*, Graduate Studies in Mathematics **47** (2002) &lbrack;[doi:10.1090/gsm/047](http://dx.doi.org/10.1090/gsm/047)&rbrack;
 
-On computation in relation to [[physics]]:
+On computation in relation to [[physics]] (cf. *[[computable physics]]*):
 
 * Hector Zenil (ed.): *A Computable Universe -- Understanding and Exploring Nature as Computation*, World Scientific (2012) &lbrack;[doi:10.1142/8306](https://doi.org/10.1142/8306)&rbrack;
 
