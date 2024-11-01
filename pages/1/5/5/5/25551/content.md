@@ -8,7 +8,7 @@
 
 * blog: [writings.stephenwolfram.com](https://writings.stephenwolfram.com)
 
-On the laws of [[fundamental physics]] as possibly governed by simple [[automata]]:
+On the laws of [[fundamental physics]] as possibly governed by simple [[automata]] (cf. *[[computable physics]]*):
 
 * [[Stephen Wolfram]]: *A New Kind of Science*, Wolfram Media (2002) &lbrack;[ISBN:978-1-57955-008-0](https://www.wolfram-media.com/products/nks/), [www.wolframscience.com](https://www.wolframscience.com), [Wikipedia entry](https://en.wikipedia.org/wiki/A_New_Kind_of_Science)&rbrack;
 
