@@ -107,7 +107,7 @@ Dually, there is an orthogonal factorisation system $(E,M)$ on $Cat$ for which $
 
 ## Remark on the terminology
 
-Under the functorial reformulation of the [[axiom of separation|axiom of comprehension]] by [[William Lawvere|Lawvere]] ([1970](#Lawvere70)) the comprehensive factorization can be viewed as a generalization of the epi-mono factorization of a function $f:X\to Y$ occurring in the context of set-theoretic comprehension: the best approximation of $f$ by a property in $2^Y$ (i.e. $\chi_{im f}$) has extension $im f\hookrightarrow Y$. Hence (in the notation of the above proof) the discrete fibration $m:\int K\to D$ given by the factorization $F=me$ can be viewed as the "extension" of the approximation of $F$ by the "property" $K$ in $Set^{D}$.
+Under the functorial reformulation of the [[axiom of separation|axiom of comprehension]] by [[William Lawvere|Lawvere]] ([1970](#Lawvere70)) the comprehensive factorization can be viewed as a generalization of the epi-mono factorization of a function $f:X\to Y$ occurring in the context of set-theoretic comprehension: the best approximation of $f$ by a property in $2^Y$ (i.e. $\chi_{im f}$) has extension $im f\hookrightarrow Y$. Hence (in the notation of the above proof) the discrete fibration $m:\int K\to D$ given by the factorization $F=m{}e$ can be viewed as the "extension" of the approximation of $F$ by the "property" $K$ in $Set^{D}$.
 
 More generally, instances of the comprehension scheme correspond to factorization systems (cf. [Berger-Kaufmann](#Bergkauf)).
 
