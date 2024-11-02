@@ -4,13 +4,37 @@
 
 * [InSpire page](https://inspirehep.net/authors/1024476)
 
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=278629)
+
 
 ## Selected writings
 
-On [[E10]] as [[U-duality]]-group of [[supergravity]]/[[M-theory]]: 
+On a 1d [[sigma-model]] on a [[coset space]] of the [[E10]] [[U-duality]]-[[group]] as a potential model for the [[M-theory]]-completion of [[11D supergravity]]: 
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]]: _$E(10)$ and $SO(9,9)$ invariant supergravity_, JHEP 0407,
 041 (2004) &lbrack;[arXiv:hep-th/0407101](http://arxiv.org/abs/hep-th/0407101), [doi:10.1088/1126-6708/2004/07/041](https://doi.org/10.1088/1126-6708/2004/07/041)&rbrack;
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$E_{10}$ Cosmology*, JHEP 01 (2006) 137 &lbrack;[arXiv:hep-th/0511290](https://arxiv.org/abs/hep-th/0511290), [doi:10.1088/1126-6708/2006/01/137](https://iopscience.iop.org/article/10.1088/1126-6708/2006/01/137)&rbrack;
+  > ([[cosmology|cosmological]] solutions)
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Maximal supergravities and the $E_{10}$ model*,  International Journal of Modern Physics D **15** 10 (2006) 1619-1642 &lbrack;[doi:10.1142/S0218271806009005](https://doi.org/10.1142/S0218271806009005)&rbrack;
+
+
+* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Constraints and the $E_{10}$ Coset Model*, Class. Quant. Grav. **24** (2007) 6097-6120 &lbrack;[arXiv:0709.2691](https://arxiv.org/abs/0709.2691), [doi:10.1088/0264-9381/24/23/025](https://doi.org/10.1088/0264-9381/24/23/025)&rbrack;
+
+
+* [[Marc Henneaux]], Ella Jamsin, [[Axel Kleinschmidt]], Daniel Persson: *On the $E_{10}$/Massive Type IIA Supergravity Correspondence*, Phys. Rev. D **79** (2009) 045008 &lbrack;[arXiv:0811.4358](https://arxiv.org/abs/0811.4358), [doi:10.1103/PhysRevD.79.045008](https://doi.org/10.1103/PhysRevD.79.045008)&rbrack;
+  > (relation to [[massive type IIA string theory]])
+
+* [[Eric A. Bergshoeff]], [[Olaf Hohm]], [[Axel Kleinschmidt]], [[Hermann Nicolai]], Teake A. Nutma, [[Jakob Palmkvist]]: *$E_{10}$ and Gauged Maximal Supergravity*, JHEP 0901:020 (2009) &lbrack;[doi:10.1088/1126-6708/2009/01/020](https://doi.org/10.1088/1126-6708/2009/01/020), [arXiv:0810.5767](https://arxiv.org/abs/0810.5767)&rbrack;
+  > (relation to [[D=3 supergravity|D=3]] [[gauged supergravity]])
+
+* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Sugawara-type constraints in hyperbolic coset models*, Commun. Math. Phys. **302** (2011) 755-788 &lbrack;[arXiv:0912.3491](https://arxiv.org/abs/0912.3491), [doi:10.1007/s00220-011-1188-y](https://doi.org/10.1007/s00220-011-1188-y)&rbrack;
+
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *The $E_{10}$ Wheeler-DeWitt operator at low levels*, J. High Energ. Phys. **2022** 92 (2022) &lbrack;[arXiv:2202.12676](https://arxiv.org/abs/2202.12676), <a href="https://doi.org/10.1007/JHEP04(2022)092">doi:10.1007/JHEP04(2022)092</a>&rbrack;
+  > (relation to the [[Wheeler-DeWitt equation]] for [[11D supergravity]])
+
 
 
 On [[E10]]-[[U-duality]] [[exceptional field theory]] with [[fermions]] ($E_{10}/K(E_{10})$-coset model [[supersymmetric quantum mechanics]]):
