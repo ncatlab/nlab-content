@@ -229,6 +229,14 @@ The following is a collection of quotes from authors that highlight the open pro
 
 \linebreak
 
+[Carlevaro 2006, p 5](#Carlevaro06):
+
+> Despite these successes, M-theory remains somewhat elusive and is still in want of a complete and closed
+formulation. In particular, its fundamental degrees of freedom are still unknown, which in principle prevents
+us from establishing the full quantum theory.
+
+\linebreak
+
 {#Moore14} [[Physical Mathematics and the Future|Moore 14, pages 43-44]]:
 
 >  We still have no fundamental formulation of "[[M-theory]]" - the hypothetical theory of which [[11-dimensional supergravity]] and the five [[string theories]] are all special limiting cases. Work on formulating the fundamental principles underlying M-theory has noticeably waned. 
@@ -354,7 +362,7 @@ Formulating the [[D=6 N=(2,0) SCFT]] expected on [[coincident brane|coincident]]
 
 > Let me close this discussion of M5-branes with some open problems and wish list of results:
 
-> i) Provide a field definition/construction of the (2,0) theory $[$...$]$
+> i) Provide a field definition/construction of the (2,0) theory \[...\]
 
 > ii) Find the mathematical structures that best capture aspects of the (2,0) theory $[$...$]$
 
@@ -482,12 +490,17 @@ Early review and discussion:
 * [[John Schwarz]], *Introduction to M Theory and AdS/CFT Duality*, in: *Quantum Aspects of Gauge Theories, Supersymmetry and Unification* Lecture Notes in Physics **525**, Springer (1999)  &lbrack;[arXiv:hep-th/9812037](https://arxiv.org/abs/hep-th/9812037), [doi:10.1007/BFb0104239](https://doi.org/10.1007/BFb0104239)&rbrack;
   >  (with an eye towards [[AdS/CFT duality]])
 
+Further developments:
+
+* {#Carlevaro06} [[Luca Carlevaro]]: *Three approaches to M-theory*, PhD thesis (2006) &lbrack;[hdl:123456789/16186](https://libra.unine.ch/handle/123456789/16186), [pdf](https://libra.unine.ch/server/api/core/bitstreams/b5eedf5f-8029-4700-83cb-806d0737a669/content), [spire:1253257](https://inspirehep.net/literature/1253257)&rbrack;
+  > ([[BFSS matrix model]] and [[orthosymplectic super Lie algebra|$\mathfrak{osp}(1\vert 32)$]]-enhancement, [[heterotic M-theory]], and [[E10|$E_{10}$]]-[[U-duality]])
 
 Surveys of the discussion of E-series [[Kac-Moody algebras]]/[[Kac-Moody groups]] in the context of M-theory include 
 
 * Sophie de Buyl, _Kac-Moody Algebras in M-theory_, PhD thesis ([pdf](http://theses.ulb.ac.be/ETD-db/collection/available/ULBetd-06072006-153117/unrestricted/kmalgebrasinmth.pdf))
 
 * [[Paul Cook]], _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
+
 
 ### Relation to AdS/CFT
 
