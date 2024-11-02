@@ -28,6 +28,10 @@ On [[D=6 supergravity]] with [[number of supersymmetries|$\mathcal{N} = (4,0)$]]
 
 * [[Yannick Bertrand]], [[Stefan Hohenegger]], [[Olaf Hohm]], [[Henning Samtleben]], *Supersymmetric action for 6D $(4,0)$ supergravity*, JHEP (2022) &lbrack;[arXiv:2206.04100](https://arxiv.org/abs/2206.04100)&rbrack;
 
+Relating the [[E10]] [[U-duality]] covariant [[sigma-model]] description of, hypothetically, [[M-theory]] to [[D=3 supergravity|D=3]] [[gauged supergravity]]:
+
+* [[Eric A. Bergshoeff]], [[Olaf Hohm]], [[Axel Kleinschmidt]], [[Hermann Nicolai]], Teake A. Nutma, [[Jakob Palmkvist]]: *$E_{10}$ and Gauged Maximal Supergravity*, JHEP 0901:020 (2009) &lbrack;[doi:10.1088/1126-6708/2009/01/020](https://doi.org/10.1088/1126-6708/2009/01/020), [arXiv:0810.5767](https://arxiv.org/abs/0810.5767)&rbrack;
+
 
 ## Related entries
 
