@@ -86,9 +86,17 @@ On [[E11]]-[[exceptional generalized geometry]] for [[D=11 supergravity]]/[[M-th
 
 * {#West05} [[Peter West]], _$E_{11}$, ten forms and supergravity_, JHEP0603:072,2006 ([arXiv:hep-th/0511153](http://arxiv.org/abs/hep-th/0511153))
 
-* {#West11} [[Peter West]], _Generalised geometry, eleven dimensions and $E_{11}$_, J. High Energ. Phys. (2012) 2012: 18 ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
+On the derivation of the [[equations of motion]] of [[11D supergravity]] and maximally supersymmetric [[5d supergravity]] from an [[exceptional generalized geometry|exceptional]] [[vielbein]] with values in the [[semidirect product]] [[E11|$E_{11}$]] with its [[fundamental representation]]:
 
-* {#West16} [[Peter West]], _A brief review of E theory_,  International Journal of Modern Physics A Vol. 31, No. 26, 1630043 (2016)  ([arXiv:1609.06863](http://arxiv.org/abs/1609.06863), [doi:10.1142/S0217751X1630043X](https://doi.org/10.1142/S0217751X1630043X))
+* {#West11} [[Peter West]]: *Generalised geometry, eleven dimensions and $E_{11}$*, J. High Energ. Phys. **2012** (2012) 18 &lbrack;[arXiv:1111.1642](http://arxiv.org/abs/1111.1642), <a href="https://doi.org/10.1007/JHEP02(2012)018">doi:10.1007/JHEP02(2012)018</a>&rbrack;
+
+* [[Alexander G. Tumanov]], [[Peter West]]: _$E_{11}$ must be a symmetry of strings and branes_, Physics Letters B **759** 10 (2016) 663-671 &lbrack;[arXiv:1512.01644](https://arxiv.org/abs/1512.01644), [doi:10.1016/j.physletb.2016.06.011](https://doi.org/10.1016/j.physletb.2016.06.011)&rbrack;
+
+* [[Alexander G. Tumanov]], [[Peter West]]: *$E_{11}$ in $11d$*, Physics Letters B **758** (2016) 278285 &lbrack;[arXiv:1601.03974](https://arxiv.org/abs/1601.03974), [doi:10.1016/j.physletb.2016.04.058](https://doi.org/10.1016/j.physletb.2016.04.058)&rbrack;
+
+Review
+
+* {#West16} [[Peter West]]: _A brief review of E theory_, in:  *Memorial Volume on Abdus Salam's 90th Birthday*, World Scientific (2017) 135-176 &lbrack;[arXiv:1609.06863](http://arxiv.org/abs/1609.06863), [doi:10.1142/9789813144873_0009](https://doi.org/10.1142/9789813144873_0009)&rbrack;
 
 Discussion of the [[dual graviton]] in terms of [[E11]] [[U-duality]]:
 
@@ -101,6 +109,10 @@ Discussion of the [[dual graviton]] in terms of [[E11]] [[U-duality]]:
 On basics of [[string theory]]:
 
 * [[Peter West]], _[[Introduction to Strings and Branes]]_, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139045926](https://doi.org/10.1017/CBO9781139045926)&rbrack;
+
+On [[E11|$E_{11}$]]-[[exceptional field theory]]:
+
+* [[Alexander G. Tumanov]], [[Peter West]]: _$E_{11}$ and exceptional field theory_,  International Journal of Modern Physics A **31** 12 (2016) 1650066  &lbrack;[arXiv:1507.08912](http://arxiv.org/abs/1507.08912), [doi:10.1142/S0217751X16500664](https://doi.org/10.1142/S0217751X16500664)&rbrack;
 
 
 On [[Abdus Salam]] and the early history of [[supersymmetry]]:
