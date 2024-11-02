@@ -42,9 +42,16 @@ and application to [[gravity]] and/or [[Yang-Mills theory]] ([[Einstein-Yang-Mil
 
 * [[Glenn Barnich]], [[Friedemann Brandt]], [[Marc Henneaux]], _Local BRST cohomology in Einstein-Yang-Mills theory_, Nucl. Phys. B **455** (1995) 357-408 &lbrack;<a href="https://doi.org/10.1016/0550-3213(95)00471-4">doi:10.1016/0550-3213(95)00471-4</a>[arXiv:hep-th/9505173](https://arxiv.org/abs/hep-th/9505173)&rbrack;
 
-On [[E10]] [[U-duality]]-symmetric [[M-theory]]]:
+On a 1d [[sigma-model]] on a [[coset space]] of the [[E10]] [[U-duality]]-[[group]] as a potential model for the [[M-theory]]-completion of [[11D supergravity]]: 
 
 * [[Thibault Damour]], [[Marc Henneaux]], [[Hermann Nicolai]]: *$E(10)$ and a "small tension expansion" of M theory*, Phys. Rev. Lett. **89** 221601 (2002) &lbrack;[arXiv:hep-th/0207267](http://arxiv.org/abs/hep-th/0207267), [doi:10.1103/PhysRevLett.89.221601](https://doi.org/10.1103/PhysRevLett.89.221601)&rbrack;
+
+* [[Marc Henneaux]], Mauricio Leston, Daniel Persson, Philippe Spindel: *Geometric Configurations, Regular Subalgebras of E10 and M-Theory Cosmology*, JHEP 0610:021 (2006) &lbrack;[arXiv:hep-th/0606123](https://arxiv.org/abs/hep-th/0606123), [doi:10.1088/1126-6708/2006/10/021](https://doi.org/10.1088/1126-6708/2006/10/021)&rbrack;
+  > ([[cosmology|cosmological]] solutions)
+
+* [[Marc Henneaux]], Ella Jamsin, [[Axel Kleinschmidt]], Daniel Persson: *On the $E_{10}$/Massive Type IIA Supergravity Correspondence*, Phys. Rev. D **79** (2009) 045008 &lbrack;[arXiv:0811.4358](https://arxiv.org/abs/0811.4358), [doi:10.1103/PhysRevD.79.045008](https://doi.org/10.1103/PhysRevD.79.045008)&rbrack;
+  > (relation to [[massive type IIA string theory]])
+
 
 On [[U-duality]]-symmetry and fermionic representations of its [[maximal compact subalgebras]] (in particular for that of [[E10]]):
 
