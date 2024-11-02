@@ -45,7 +45,7 @@ On [[topological string theory]] and [[integrable systems]]:
 
 On [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]:
  
-* {#AtiyahDijkgraafHitchin10} [[Michael Atiyah]], [[Robbert Dijkgraaf]], [[Nigel Hitchin]], _Geometry and physics_, Phil. Trans. R. Soc. A 13 March 2010 vol. 368 no. 1914 913-926 ([pdf](http://rsta.royalsocietypublishing.org/content/368/1914/913.full.pdf), [doi;10.1098/rsta.2009.0227](https://royalsocietypublishing.org/doi/10.1098/rsta.2009.0227))
+* {#AtiyahDijkgraafHitchin10} [[Michael Atiyah]], [[Robbert Dijkgraaf]], [[Nigel Hitchin]], _Geometry and physics_, Phil. Trans. R. Soc. A **368** 1914 (2010) 913-926 &lbrack;[doi:10.1098/rsta.2009.0227](https://royalsocietypublishing.org/doi/10.1098/rsta.2009.0227), [pdf](http://rsta.royalsocietypublishing.org/content/368/1914/913.full.pdf)&rbrack;
 
 * {#Dijkgraaf14} [[Robbert Dijkgraaf]], _The Unreasonable Effectiveness Of Quantum Physics in Modern Mathematics_, [Perimeter Public Lecture](http://pirsa.org/C04001) 2014 ([web](http://pirsa.org/14030094), [pdf slides](http://pirsa.org/pdf/loadpdf.php?pirsa_number=14030094)).
 
