@@ -154,7 +154,7 @@ and for [[fermion|fermionic]] degrees of freedom
 
 * {#DamourKleinschmidtNicolai06} [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$K(E_{10})$, Supergravity and Fermions*, JHEP 0608:046 (2006) &lbrack;[arXiv:hep-th/0606105](https://arxiv.org/abs/hep-th/0606105), [doi:10.1088/1126-6708/2006/08/046](https://doi.org/10.1088/1126-6708/2006/08/046)&rbrack;
 
-* [[Axel Kleinschmidt]]: *Unifying R-symmetry in M-theory*, in *New Trends in Mathematical Physics*, Springer (2009) &lbrack;[arXiv:hep-th/0703262](https://arxiv.org/abs/hep-th/0703262), [doi:10.1007/978-90-481-2810-5_26](https://doi.org/10.1007/978-90-481-2810-5_26)&rbrack;
+* [[Axel Kleinschmidt]]: *Unifying R-symmetry in M-theory*, in *New Trends in Mathematical Physics*, Springer (2009) 389-401 &lbrack;[arXiv:hep-th/0703262](https://arxiv.org/abs/hep-th/0703262), [doi:10.1007/978-90-481-2810-5_26](https://doi.org/10.1007/978-90-481-2810-5_26)&rbrack;
 
 
 and application to [[supersymmetric quantum mechanics|supersymmetric]] [[quantum cosmology]]: 
@@ -163,7 +163,7 @@ and application to [[supersymmetric quantum mechanics|supersymmetric]] [[quantum
 
 Review:
 
-* {#Carlevaro06} [[Luca Carlevaro]]: *Three approaches to M-theory*, PhD thesis (2006) &lbrack;[hdl:123456789/16186](https://libra.unine.ch/handle/123456789/16186), [pdf](https://libra.unine.ch/server/api/core/bitstreams/b5eedf5f-8029-4700-83cb-806d0737a669/content), [spire:1253257](https://inspirehep.net/literature/1253257)&rbrack;
+* {#Carlevaro06} [[Luca Carlevaro]], part III of: *Three approaches to M-theory*, PhD thesis (2006) &lbrack;[hdl:123456789/16186](https://libra.unine.ch/handle/123456789/16186), [pdf](https://libra.unine.ch/server/api/core/bitstreams/b5eedf5f-8029-4700-83cb-806d0737a669/content), [spire:1253257](https://inspirehep.net/literature/1253257)&rbrack;
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Maximal supergravities and the $E_{10}$ model*,  International Journal of Modern Physics D **15** 10 (2006) 1619-1642 &lbrack;[doi:10.1142/S0218271806009005](https://doi.org/10.1142/S0218271806009005)&rbrack;
 
