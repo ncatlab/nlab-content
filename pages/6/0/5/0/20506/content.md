@@ -32,7 +32,7 @@ The phrase is picked up also in [Dijkgraaf 14](#Dijkgraaf14), [Moore 14, p. 10](
 
 ## References
 
-* {#AtiyahDijkgraafHitchin10} [[Michael Atiyah]], [[Robbert Dijkgraaf]], [[Nigel Hitchin]], _Geometry and physics_, Phil. Trans. R. Soc. A 13 March 2010 vol. 368 no. 1914 913-926 ([pdf](http://rsta.royalsocietypublishing.org/content/368/1914/913.full.pdf), [doi:10.1098/rsta.2009.0227](https://royalsocietypublishing.org/doi/10.1098/rsta.2009.0227))
+* {#AtiyahDijkgraafHitchin10} [[Michael Atiyah]], [[Robbert Dijkgraaf]], [[Nigel Hitchin]], _Geometry and physics_, Phil. Trans. R. Soc. A **368** 1914 (2010) 913-926 &lbrack;[doi:10.1098/rsta.2009.0227](https://royalsocietypublishing.org/doi/10.1098/rsta.2009.0227), [pdf](http://rsta.royalsocietypublishing.org/content/368/1914/913.full.pdf)&rbrack;
 
 * {#Moore14} [[Gregory Moore]], _[[Physical Mathematics and the Future]]_, talk at [Strings 2014](http://physics.princeton.edu/strings2014/) ([talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf), [[MooreVisionTalk2014.pdf:file]])
 
