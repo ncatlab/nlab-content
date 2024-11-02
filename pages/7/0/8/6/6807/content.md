@@ -133,6 +133,9 @@ Review:
 
 * [[Washington Taylor]], _M(atrix) Theory: Matrix Quantum Mechanics as a Fundamental Theory_, Rev. Mod. Phys. **73** (2001) 419-462 &lbrack;[arXiv:hep-th/0101126](https://arxiv.org/abs/hep-th/0101126)&rbrack;
 
+* {#Carlevaro06} [[Luca Carlevaro]]: *Three approaches to M-theory*, PhD thesis (2006) &lbrack;[hdl:123456789/16186](https://libra.unine.ch/handle/123456789/16186), [pdf](https://libra.unine.ch/server/api/core/bitstreams/b5eedf5f-8029-4700-83cb-806d0737a669/content), [spire:1253257](https://inspirehep.net/literature/1253257)&rbrack;
+
+
 * {#Ydri18} [[Badis Ydri]], _Review of M(atrix)-Theory, Type IIB Matrix Model and Matrix String Theory_ &lbrack;[arXiv:1708.00734](https://arxiv.org/abs/1708.00734)), published as: _Matrix Models of String Theory_, IOP 2018 ([ISBN:978-0-7503-1726-9](https://iopscience.iop.org/book/978-0-7503-1726-9)&rbrack;
 
 * [[Juan Maldacena]]: *The BFSS conjecture, a review*, talk at *[Strings 2024](https://indico.cern.ch/event/1284995/)* (2024) &lbrack;[indico:5975486](https://indico.cern.ch/event/1284995/contributions/5975486), [pdf](https://indico.cern.ch/event/1284995/contributions/5975486/attachments/2869735/5024000/Maldacena.pdf)&rbrack;
