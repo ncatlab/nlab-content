@@ -24,7 +24,7 @@ Let $f\colon M \to N$ be a [[smooth map]] of smooth manifolds. A point $q \in N$
 
 More generally, if $W \subset N$ is a submanifold, we say that the map $f$ is __transversal along__ $W$ if for every point $x\in f^{-1}(W)$ there is an equality
 $$
-T_{f(x)} N = T_{f(x)}W + (T_x f)(T_x X)
+T_{f(x)} N = T_{f(x)}W + (T_x f)(T_x M)
 .$$ 
 In particular, $f$ is transveral along every regular value $p \in N$. The implicit function theorem asserts that the [[preimage]] $f^{-1}(W)$ is a smooth submanifold of $M$, the [[normal bundle]] $\nu(f^{-1}(W) \subset M)$ is isomorphic to $f^*(\nu(W\subset N))$, and the differential $T f$ exhibits the fiberwise isomorphism $\nu(f^{-1}(W)\subset M)\to \nu(W\subset N)$.
 
