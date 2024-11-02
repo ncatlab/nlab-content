@@ -248,7 +248,7 @@ Discussion in the context of [[adelic integration]] and [[higher arithmetic geom
 
 * {#Tate50} [[John Tate]], _Fourier analysis in number fields, and Hecke's zeta-functions_, Algebraic Number Theory (Proc. Instructional Conf., Brighton, 1965), Thompson, Washington, D.C., pp. 305&#8211;34 1950
 
-* {#Fesenko08} [[Ivan Fesenko]], _Adelic approch to the zeta function of arithmetic schemes in dimension two_, Moscow Math. J. 8 (2008), 273&#8211;317 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/ada.pdf))
+* {#Fesenko08} [[Ivan Fesenko]], _Adelic approch to the zeta function of arithmetic schemes in dimension two_, Moscow Math. J. 8 (2008), 273&#8211;317 ([pdf](https://ivanfesenko.org/wp-content/uploads/2021/10/ada.pdf))
 
 with review including 
 
