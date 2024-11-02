@@ -5,7 +5,7 @@
 
   * [[reflective subcategory|reflective]], [[coreflective subcategory|coreflective]], [[bireflective subcategory|bireflective]]
 
-  * [[abelian subcategory|abelian]], [[Serre subcategory|Serre]] [[topologizing subcategory|topologizing]]
+  * [[abelian subcategory|abelian]], [[Serre subcategory|Serre]], [[topologizing subcategory|topologizing]]
 
   * [[internal subcategory]]
 
