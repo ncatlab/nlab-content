@@ -96,6 +96,9 @@ Further discussion:
 
 * [[Horatiu Nastase]], _Towards a Chern-Simons M theory of $OSp(1\vert 32) \times OSp(1\vert 32)$_ ([arXiv:hep-th/0306269](https://arxiv.org/abs/hep-th/0306269))
 
+* {#Carlevaro06} [[Luca Carlevaro]]: *Three approaches to M-theory*, PhD thesis (2006) &lbrack;[hdl:123456789/16186](https://libra.unine.ch/handle/123456789/16186), [pdf](https://libra.unine.ch/server/api/core/bitstreams/b5eedf5f-8029-4700-83cb-806d0737a669/content), [spire:1253257](https://inspirehep.net/literature/1253257)&rbrack;
+
+
 * [[Itzhak Bars]], Dmitry Rychkov. *Background Independent String Field Theory* &lbrack;[arXiv:1407.4699](https://arxiv.org/abs/1407.4699)&rbrack;
 
   > (on [[string field theory]] with [[orthosymplectic super Lie algebra|$OSp(d\vert 2)$]]-symmetry)
