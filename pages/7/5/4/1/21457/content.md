@@ -8,6 +8,11 @@ On the [[maximal compact subalgebras]] of [[E9]] and [[E10]], respectively, and 
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]], [[Jakob Palmkvist]]: *$K(E_9)$ from $K(E_{10})$*, Journal of High Energy Physics **2007** JHEP06 (2007) &lbrack;[arXiv:hep-th/0611314](https://arxiv.org/abs/hep-th/0611314), [doi:10.1088/1126-6708/2007/06/051](https://doi.org/10.1088/1126-6708/2007/06/051)&rbrack;
 
+Relating the [[E10]] [[U-duality]] covariant [[sigma-model]] description of, hypothetically, [[M-theory]] to [[D=3 supergravity|D=3]] [[gauged supergravity]]:
+
+* [[Eric A. Bergshoeff]], [[Olaf Hohm]], [[Axel Kleinschmidt]], [[Hermann Nicolai]], Teake A. Nutma, [[Jakob Palmkvist]]: *$E_{10}$ and Gauged Maximal Supergravity*, JHEP 0901:020 (2009) &lbrack;[doi:10.1088/1126-6708/2009/01/020](https://doi.org/10.1088/1126-6708/2009/01/020), [arXiv:0810.5767](https://arxiv.org/abs/0810.5767)&rbrack;
+
+
 On [[M2-brane 3-algebras]]:
 
 * [[Jakob Palmkvist]], _Three-algebras, triple systems and 3-graded Lie superalgebras_, J. Phys. A43:015205, 2010 ([arXiv:0905.2468](https://arxiv.org/abs/0905.2468))
