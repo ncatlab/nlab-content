@@ -3,8 +3,9 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Marc_Henneaux)
 
-## Selected writings
 
+
+## Selected writings
 
 On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]] relation to a [[2d CFT]] [[boundary field theory]] (well before [[AdS/CFT]] was conceived from [[string theory]]):
 
@@ -40,6 +41,10 @@ On [[local BRST cohomology]] and [[BV-formalism]]:
 and application to [[gravity]] and/or [[Yang-Mills theory]] ([[Einstein-Yang-Mills theory]]):
 
 * [[Glenn Barnich]], [[Friedemann Brandt]], [[Marc Henneaux]], _Local BRST cohomology in Einstein-Yang-Mills theory_, Nucl. Phys. B **455** (1995) 357-408 &lbrack;<a href="https://doi.org/10.1016/0550-3213(95)00471-4">doi:10.1016/0550-3213(95)00471-4</a>[arXiv:hep-th/9505173](https://arxiv.org/abs/hep-th/9505173)&rbrack;
+
+On [[E10]] [[U-duality]]-symmetric [[M-theory]]]:
+
+* [[Thibault Damour]], [[Marc Henneaux]], [[Hermann Nicolai]]: *$E(10)$ and a "small tension expansion" of M theory*, Phys. Rev. Lett. **89** 221601 (2002) &lbrack;[arXiv:hep-th/0207267](http://arxiv.org/abs/hep-th/0207267), [doi:10.1103/PhysRevLett.89.221601](https://doi.org/10.1103/PhysRevLett.89.221601)&rbrack;
 
 On [[U-duality]]-symmetry and fermionic representations of its [[maximal compact subalgebras]] (in particular for that of [[E10]]):
 
