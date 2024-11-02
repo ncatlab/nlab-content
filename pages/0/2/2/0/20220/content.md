@@ -239,9 +239,9 @@ The formulas of [Sethi-Vafa-Witten 96](#SethiVafaWitten96) and [Becker-Becker 96
 
 Further discussion:
 
-* [[Sergei Gukov]], [[Cumrun Vafa]], [[Edward Witten]], _CFT's From Calabi-Yau Four-folds_, Nucl. Phys. B584:69-108, 2000; Erratum-ibid.B608:477-478, 2001 ([arXiv:hep-th/9906070](https://arxiv.org/abs/hep-th/9906070))
+* [[Sergei Gukov]], [[Cumrun Vafa]], [[Edward Witten]]: _CFT's From Calabi-Yau Four-folds_, Nucl. Phys. B **584** (2000) 69-108,  Erratum-ibid. **608** (2001) 477-478 &lbrack;[arXiv:hep-th/9906070](https://arxiv.org/abs/hep-th/9906070)&rbrack;
 
-* Keshav Dasgupta, Govindan Rajesh, [[Savdeep Sethi]], _M Theory, Orientifolds and G-Flux_, JHEP 9908 (1999) 023 ([arXiv:hep-th/9908088](https://arxiv.org/abs/hep-th/9908088))
+* Keshav Dasgupta, Govindan Rajesh, [[Savdeep Sethi]], _M Theory, Orientifolds and G-Flux_, JHEP 9908 (1999) 023 &lbrack;[arXiv:hep-th/9908088](https://arxiv.org/abs/hep-th/9908088), [doi:10.1088/1126-6708/1999/08/023](https://doi.org/10.1088/1126-6708/1999/08/023)&rbrack;
 
 Lecture notes:
 
