@@ -1,20 +1,17 @@
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "100" src="https://0.academia-photos.com/26650/8691/8255/s200_charles.wells.jpg" alt="Charles Wells" /></div>
 
+Charles Frederick Wells (1937-2017) was a Professor of Mathematics at Case Western Reserve University. His research interests were in [[group theory]], [[category theory]] and its connections with theoretical computer science, in mathematical discourse, and in the problems of teaching and understanding mathematics.
 
-Charles Wells is Professor Emeritus of Mathematics at 
-[Case Western Reserve University](http://en.wikipedia.org/wiki/Case_Western_Reserve_University); his research interest has been in [[group theory]], [[category theory]] and its connections with theoretical computer science, in mathematical discourse, and in the problems of teaching and understanding mathematics.
+* [Wikipedia](https://en.wikipedia.org/wiki/Charles_Wells_%28mathematician%29)
 
-* [website](http://www.cwru.edu/artsci/math/wells/home.html)
+* [archived website](https://web.archive.org/web/20161231073212/http://www.cwru.edu/artsci/math/wells/home.html)
 
-* [publications](http://www.cwru.edu/artsci/math/wells/pub/papers.html)
-
-
+* [archived publications](https://web.archive.org/web/20160320014458/http://www.cwru.edu/artsci/math/wells/pub/papers.html)
 ## Selected writings:
 
 On the [[categorical wreath product]]:
 
 * [[Charles Wells]]: _A Krohn-Rhodes theorem for categories_, J. Algebra **64** 1 (1980) 37-45 \[<a href="https://doi.org/10.1016/0021-8693(80)90130-1">doi:10.1016/0021-8693(80)90130-1</a>\]
-
 
 Exposition of [[sheaf toposes]]:
 
