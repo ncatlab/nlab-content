@@ -188,7 +188,7 @@ The original articles are
 * {#HoravaWitten96} [[Petr Hořava]], [[Edward Witten]]:  _Eleven dimensional supergravity on a manifold with boundary_, Nucl. Phys. B **475** (1996) 94 \[<a href="https://doi.org/10.1016/0550-3213(96)00308-2">doi:10.1016/0550-3213(96)00308-2</a>, [arXiv:hep-th/9603142](http://arxiv.org/abs/hep-th/9603142)\]
  
 
-Review is in 
+Review:
 
 * [[Piyush Kumar]], _Ho&#345;ava-Witten theory_ (2004) ([pdf](http://theory.uchicago.edu/~sethi/Teaching/P484-W2004/hwitten.pdf))
 
@@ -197,6 +197,9 @@ Review is in
 * {#Ovrut02} [[Burt Ovrut]], _Lectures on Heterotic M-Theory_, in *Strings, Branes and Extra Dimensions*, TASI 2001, World Scientific (2004) 359-407  &lbrack;[arXiv:hep-th/0201032](http://arxiv.org/abs/hep-th/0201032), [doi:10.1142/9789812702821_0007](https://doi.org/10.1142/9789812702821_0007)&rbrack;
 
 * {#Falkowski} [[Adam Falkowski]], section 3 of: *Five dimensional locally supersymmetric theories with branes*, Master Thesis, Warsaw (1999?) &lbrack;[[FalkowskiLecture.pdf:file]]&rbrack;
+
+* {#Carlevaro06} [[Luca Carlevaro]]: *Three approaches to M-theory*, PhD thesis (2006) &lbrack;[hdl:123456789/16186](https://libra.unine.ch/handle/123456789/16186), [pdf](https://libra.unine.ch/server/api/core/bitstreams/b5eedf5f-8029-4700-83cb-806d0737a669/content), [spire:1253257](https://inspirehep.net/literature/1253257)&rbrack;
+
 
 The [[black brane|black]] [[M2-brane]] solution in HW-theory, supposedly yielding the [[black brane|black]] [[heterotic string]] at the intersection with the [[M9-brane]] is discussed in
 
