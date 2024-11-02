@@ -5,11 +5,13 @@ Damour made the theoretical prediction ([Buonanno-Damour 98](#BuonannoDamour98),
 
 ## Selected writings
 
-On [[E10]] [[U-duality]]-symmetric [[M-theory]]]:
+On [[E10]] [[U-duality]]-symmetric [[M-theory]]:
 
 * [[Thibault Damour]], [[Marc Henneaux]], [[Hermann Nicolai]]: *$E(10)$ and a "small tension expansion" of M theory*, Phys. Rev. Lett. **89** 221601 (2002) &lbrack;[arXiv:hep-th/0207267](http://arxiv.org/abs/hep-th/0207267), [doi:10.1103/PhysRevLett.89.221601](https://doi.org/10.1103/PhysRevLett.89.221601)&rbrack;
 
 * [[Thibault Damour]], [[Hermann Nicolai]]: *Eleven dimensional supergravity and the $E_{10}/K(E_{10})$ sigma-model at low $A_9$ levels*, in Proceedings of the *XXV International Colloquium on Group Theoretical Methods in Physics, 2-6 August 2004, Cocoyoc, Mexico*, Routledge (2005) 93-111 &lbrack;[arXiv:hep-th/0410245](https://arxiv.org/abs/hep-th/0410245), [ISBN:9780750310086](https://www.routledge.com/Group-Theoretical-Methods-in-Physics-Proceedings-of-the-XXV-International-Colloqium-on-Group-Theoretical-Methods-in-Physics-Cocoyoc-Mexico-2/Pogosyan-Vincent-Wolf/p/book/9780750310086?srsltid=AfmBOopQu0UGWkX8-nMBU1xaKZdDXtl7Z9kUpqvWiOArkVvi_3k5qtHt)&rbrack;
+
+* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Constraints and the $E_{10}$ Coset Model*, Class. Quant. Grav. **24** (2007) 6097-6120 &lbrack;[arXiv:0709.2691](https://arxiv.org/abs/0709.2691), [doi:10.1088/0264-9381/24/23/025](https://doi.org/10.1088/0264-9381/24/23/025)&rbrack;
 
 
 * {#Damour14} [[Thibault Damour]], _Quantum supersymmetric Bianchi IX  Cosmology and its hidden Kac-Moody Structure_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[DamourSQC14.pdf:file]])
