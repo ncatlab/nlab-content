@@ -107,12 +107,11 @@ B 274, 363 (1986)
 supergravity?_, Class. Quant. Grav. 17, 3689 (2000) ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034)).
  
 
-On [[E10]] as [[U-duality]]-group of [[supergravity]]/[[M-theory]]: 
+On a 1d [[sigma-model]] on a [[coset space]] of the [[E10]] [[U-duality]]-[[group]] as a potential model for the [[M-theory]]-completion of [[11D supergravity]]: 
 
 * [[Thibault Damour]], [[Marc Henneaux]], [[Hermann Nicolai]]: *$E(10)$ and a "small tension expansion" of M theory*, Phys. Rev. Lett. **89** 221601 (2002) &lbrack;[arXiv:hep-th/0207267](http://arxiv.org/abs/hep-th/0207267), [doi:10.1103/PhysRevLett.89.221601](https://doi.org/10.1103/PhysRevLett.89.221601)&rbrack;
 
 * [[Thibault Damour]], [[Hermann Nicolai]]: *Eleven dimensional supergravity and the $E_{10}/K(E_{10})$ sigma-model at low $A_9$ levels*, in Proceedings of the *XXV International Colloquium on Group Theoretical Methods in Physics, 2-6 August 2004, Cocoyoc, Mexico*, Routledge (2005) 93-111 &lbrack;[arXiv:hep-th/0410245](https://arxiv.org/abs/hep-th/0410245), [ISBN:9780750310086](https://www.routledge.com/Group-Theoretical-Methods-in-Physics-Proceedings-of-the-XXV-International-Colloqium-on-Group-Theoretical-Methods-in-Physics-Cocoyoc-Mexico-2/Pogosyan-Vincent-Wolf/p/book/9780750310086?srsltid=AfmBOopQu0UGWkX8-nMBU1xaKZdDXtl7Z9kUpqvWiOArkVvi_3k5qtHt)&rbrack;
-
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]]: _$E(10)$ and $SO(9,9)$ invariant supergravity_, JHEP 0407,
 041 (2004) &lbrack;[arXiv:hep-th/0407101](http://arxiv.org/abs/hep-th/0407101), [doi:10.1088/1126-6708/2004/07/041](https://doi.org/10.1088/1126-6708/2004/07/041)&rbrack;
@@ -120,9 +119,19 @@ On [[E10]] as [[U-duality]]-group of [[supergravity]]/[[M-theory]]:
 * [[Thibault Damour]], [[Hermann Nicolai]]: *Higher order M theory corrections and the Kac-Moody algebra $E_{10}$*, Class. Quant. Grav. **22** (2005) 2849-2880 &lbrack;[arXiv:hep-th/0504153](https://arxiv.org/abs/hep-th/0504153), [doi:10.1088/0264-9381/22/14/003](https://doi.org/10.1088/0264-9381/22/14/003)&rbrack;
   > (relating to [[higher curvature corrections]])
 
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$E_{10}$ Cosmology*, JHEP 01 (2006) 137 &lbrack;[arXiv:hep-th/0511290](https://arxiv.org/abs/hep-th/0511290), [doi:10.1088/1126-6708/2006/01/137](https://iopscience.iop.org/article/10.1088/1126-6708/2006/01/137)&rbrack;
+  > ([[cosmology|cosmological]] solutions)
+
+* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Constraints and the $E_{10}$ Coset Model*, Class. Quant. Grav. **24** (2007) 6097-6120 &lbrack;[arXiv:0709.2691](https://arxiv.org/abs/0709.2691), [doi:10.1088/0264-9381/24/23/025](https://doi.org/10.1088/0264-9381/24/23/025)&rbrack;
+
 * {#Nicolai08} [[Hermann Nicolai]]: *Wonders of $E_{10}$ and $K(E_{10})$*, talk at *Wonders of Gauge Theory and Supergravity*, IHP Paris (2008) &lbrack;[[Nicolai-WondersOfE10.pdf:file]]&rbrack;
 
 * {#Nicolai14} [[Hermann Nicolai]], _On Exceptional Geometry and Supergravity_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[NicolaiTalk14.pdf:file]])
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *The $E_{10}$ Wheeler-DeWitt operator at low levels*, J. High Energ. Phys. **2022** 92 (2022) &lbrack;[arXiv:2202.12676](https://arxiv.org/abs/2202.12676), <a href="https://doi.org/10.1007/JHEP04(2022)092">doi:10.1007/JHEP04(2022)092</a>&rbrack;
+  > (relation to the [[Wheeler-DeWitt equation]] for [[11D supergravity]])
+
+
 
 On [[E10]] and [[E11]] [[representation theory]]:
 
