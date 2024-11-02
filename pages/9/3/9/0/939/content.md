@@ -208,7 +208,7 @@ $$
     \longrightarrow 
   \mathcal{E}(D_2)
 $$
-with two-sided Kelisli composition
+with two-sided Kleisli composition
 
 $$
   prog_{12} \text{>=>} prog_{23}
