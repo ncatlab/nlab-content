@@ -620,6 +620,8 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 * Robert van Leeuwen, *From S-matrix theory to strings: Scattering data and the commitment to non-arbitrariness* &lbrack;[arXiv:2403.06690](https://arxiv.org/abs/2403.06690)&rbrack;
   > (on the history of the [[S-matrix]]-approach to [[QFT]] in view of the origin of string theory)
 
+* {#Schwarz2024} [[John Schwarz]]: *A Personal View Of Early Years Of String Theory*, talk at Plectics Lab Interdisciplinary Colloquium (May 2024) &lbrack;video:[YT](https://youtu.be/dROdUEJu630)&rbrack;
+
 * [[Peter Goddard]]: *String Theory in Its Early Years*, talk at *[Perspectives in Theoretical Physics](https://sites.google.com/view/plectics-calendar/series/perspectives/th-physics/pithp-092024?authuser=0)*, Plectics Lab (Sep 2024) &lbrack;video:[YT](https://youtu.be/acwNRCKRxZQ)&rbrack;
   
 * [[Paolo Di Vecchia]]: *The Birth Of String Theory And The Effective Lagrangian Of QCD*, talk at *[Perspectives in Theoretical Physics](https://sites.google.com/view/plectics-calendar/series/perspectives/th-physics/pithp-092024?authuser=0)*, Plectics Lab (Sep 2024) &lbrack;video:[YT](https://youtu.be/cQFggWdNL1M)&rbrack;
