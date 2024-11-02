@@ -146,7 +146,7 @@ On [[twisted K-theory]] and [[twisted equivariant K-theory]]:
 
 On [[physics]] and [[mathematics]] ([[quantum mechanics]], [[string theory]], ..., cf. at *[[The Unreasonable Effectiveness of Mathematics in the Natural Sciences|The Unreasonable Effectiveness...]]*):
 
-* [[Michael Atiyah]]: *The Nature of Space*, KITP Public Lecture (Oct 2025) &lbrack;[webpage](https://online.kitp.ucsb.edu/online/plecture/atiyah/), slides: [pdf](https://online.kitp.ucsb.edu/online/plecture/atiyah/pdf/Atiyah_KITP_PL.pdf), [[Atiyah-NatureOfSpace.pdf:file]]&rbrack;
+* [[Michael Atiyah]]: *The Nature of Space*, KITP Public Lecture (Oct 2005) &lbrack;[webpage](https://online.kitp.ucsb.edu/online/plecture/atiyah/), slides: [pdf](https://online.kitp.ucsb.edu/online/plecture/atiyah/pdf/Atiyah_KITP_PL.pdf), [[Atiyah-NatureOfSpace.pdf:file]]&rbrack;
 
 
 On [[Raoul Bott]]:
