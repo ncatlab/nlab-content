@@ -95,13 +95,13 @@ Discussion of solitonic [[black brane]] (and [[exotic brane]]) solutions in term
 
 Discussion for [[E11]]:
 
-* Alexander G. Tumanov, [[Peter West]], _$E_{11}$ and exceptional field theory_ ([arXiv:1507.08912](http://arxiv.org/abs/1507.08912))
+* [[Alexander G. Tumanov]], [[Peter West]]: _$E_{11}$ and exceptional field theory_,  International Journal of Modern Physics A **31** 12 (2016) 1650066  &lbrack;[arXiv:1507.08912](http://arxiv.org/abs/1507.08912), [doi:10.1142/S0217751X16500664](https://doi.org/10.1142/S0217751X16500664)&rbrack;
 
-* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Jakob Palmkvist]], [[Christopher Pope]], [[Ergin Sezgin]], _Beyond $E_{11}$_, JHEP 05 (2017) 020 \[<a href="https://doi.org/10.1007/JHEP05(2017)020">doi:10.1007/JHEP05(2017)020</a>, [arXiv:1703.01305](https://arxiv.org/abs/1703.01305)\]
+* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Jakob Palmkvist]], [[Christopher Pope]], [[Ergin Sezgin]]: _Beyond $E_{11}$_, JHEP 05 (2017) 020 \[<a href="https://doi.org/10.1007/JHEP05(2017)020">doi:10.1007/JHEP05(2017)020</a>, [arXiv:1703.01305](https://arxiv.org/abs/1703.01305)\]
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]]: *On supersymmetric $E_{11}$ exceptional field theory*, J. High Energ. Phys. **2019** 165 (2019) &lbrack;[arXiv:1907.02080](https://arxiv.org/abs/1907.02080), <a href="https://doi.org/10.1007/JHEP10(2019)165">doi:10.1007/JHEP10(2019)165</a>&rbrack;
 
-* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _A master exceptional field theory_ ([arXiv:2103.13411](https://arxiv.org/abs/2103.13411))
+* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]]: *A master exceptional field theory*,  J. High Energ. Phys. **2021** 185 (2021) &lbrack;[arXiv:2103.13411](https://arxiv.org/abs/2103.13411), <a href="https://doi.org/10.1007/JHEP06(2021)185">doi:10.1007/JHEP06(2021)185</a>&rbrack;
 
 
 Discussion for [[E9]]:
