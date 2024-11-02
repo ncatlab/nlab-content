@@ -43,7 +43,7 @@ See also:
 
 * [[David Hilbert]], _[[Naturerkennen und Logik]]_, Lecture at the _Kongress der Gesellschaft Deutscher Naturforscher und &#196;rtze_, 1930  ([pdf](http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.pdf), [audio](http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.mp3))
 
-* [[Michael Atiyah]]: *The Nature of Space*, KITP Public Lecture (Oct 2025) &lbrack;[webpage](https://online.kitp.ucsb.edu/online/plecture/atiyah/), slides: [pdf](https://online.kitp.ucsb.edu/online/plecture/atiyah/pdf/Atiyah_KITP_PL.pdf), [[Atiyah-NatureOfSpace.pdf:file]]&rbrack;
+* [[Michael Atiyah]]: *The Nature of Space*, KITP Public Lecture (Oct 2005) &lbrack;[webpage](https://online.kitp.ucsb.edu/online/plecture/atiyah/), slides: [pdf](https://online.kitp.ucsb.edu/online/plecture/atiyah/pdf/Atiyah_KITP_PL.pdf), [[Atiyah-NatureOfSpace.pdf:file]]&rbrack;
 
 * {#AtiyahDijkgraafHitchin10} [[Michael Atiyah]], [[Robbert Dijkgraaf]], [[Nigel Hitchin]], _Geometry and physics_, Phil. Trans. R. Soc. A **368** 1914 (2010) 913-926 &lbrack;[doi:10.1098/rsta.2009.0227](https://royalsocietypublishing.org/doi/10.1098/rsta.2009.0227), [pdf](http://rsta.royalsocietypublishing.org/content/368/1914/913.full.pdf)&rbrack;
   > on, conversely: _[[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]_
