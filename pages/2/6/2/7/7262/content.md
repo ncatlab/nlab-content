@@ -171,6 +171,10 @@ Review:
 
 * {#Nicolai14} [[Hermann Nicolai]], _On Exceptional Geometry and Supergravity_, talk at *[Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z)* &lbrack;[[NicolaiTalk14.pdf:file]]&rbrack;
 
+* [[Hermann Nicolai]]: *$\mathcal{N}=8$ Supergravity, and beyond* &lbrack;[arXiv:2409.18656](https://arxiv.org/abs/2409.18656)&rbrack;
+
+
+
 Discussion of [[phenomenology]]:
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Standard model fermions and $K(E_{10})$*, Physics Letters B
