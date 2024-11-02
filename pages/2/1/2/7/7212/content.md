@@ -5,12 +5,15 @@ Damour made the theoretical prediction ([Buonanno-Damour 98](#BuonannoDamour98),
 
 ## Selected writings
 
-On [[U-duality]]:
+On [[E10]] [[U-duality]]-symmetric [[M-theory]]]:
 
-* [[Thibault Damour]], [[Marc Henneaux]], [[Hermann Nicolai]], _$E(10)$ and a 'small tension expansion' of M
-theory_, Phys. Rev. Lett. 89, 221601 (2002) ([arXiv:hep-th/0207267](http://arxiv.org/abs/hep-th/0207267));
+* [[Thibault Damour]], [[Marc Henneaux]], [[Hermann Nicolai]]: *$E(10)$ and a "small tension expansion" of M theory*, Phys. Rev. Lett. **89** 221601 (2002) &lbrack;[arXiv:hep-th/0207267](http://arxiv.org/abs/hep-th/0207267), [doi:10.1103/PhysRevLett.89.221601](https://doi.org/10.1103/PhysRevLett.89.221601)&rbrack;
 
 * {#Damour14} [[Thibault Damour]], _Quantum supersymmetric Bianchi IX  Cosmology and its hidden Kac-Moody Structure_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[DamourSQC14.pdf:file]])
+
+* [[Thibault Damour]], [[Hermann Nicolai]]: *Higher order M theory corrections and the Kac-Moody algebra $E_{10}$*, Class. Quant. Grav. **22** (2005) 2849-2880 &lbrack;[arXiv:hep-th/0504153](https://arxiv.org/abs/hep-th/0504153), [doi:10.1088/0264-9381/22/14/003](https://doi.org/10.1088/0264-9381/22/14/003)&rbrack;
+  > (relating to [[higher curvature corrections]])
+
 
 On [[E10]]-[[U-duality]] [[exceptional field theory]] with [[fermions]] ($E_{10}/K(E_{10})$-coset model [[supersymmetric quantum mechanics]]):
 
