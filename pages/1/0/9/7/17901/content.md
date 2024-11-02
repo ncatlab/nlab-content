@@ -54,7 +54,7 @@ Original articles:
 
 * {#DeWitt67} [[Bryce DeWitt]], *Quantum Theory of Gravity. I. The Canonical Theory*, Phys. Rev. **160** (1967) 1113 &lbrack;[doi:10.1103/PhysRev.160.1113](https://doi.org/10.1103/PhysRev.160.1113)&rbrack;
 
-The Wheeler-DeWitt equation is (5.5) in [DeWitt 1967](#DeWitt67)
+The [[Wheeler-DeWitt equation]] is (5.5) in [DeWitt 1967](#DeWitt67)
 
 Review:
 
@@ -66,7 +66,13 @@ See also:
 
 * Wikipedia, *[Wheeler-DeWitt equation](https://en.wikipedia.org/wiki/Wheeler%E2%80%93DeWitt_equation)*
 
-“Quantum Theory of Gravity. I. The Canonical Theory”
+* *Quantum Theory of Gravity. I. The Canonical Theory*
+
+For [[11D supergravity]] and comparing to the 1d [[sigma-model]] on a [[coset space]] of its [[E10]] [[U-duality]]-group:
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *The $E_{10}$ Wheeler-DeWitt operator at low levels*, J. High Energ. Phys. **2022** 92 (2022) &lbrack;[arXiv:2202.12676](https://arxiv.org/abs/2202.12676), <a href="https://doi.org/10.1007/JHEP04(2022)092">doi:10.1007/JHEP04(2022)092</a>&rbrack;
+
+
 
 [[!redirects Wheeler-DeWitt equation]]
 [[!redirects Wheeler-DeWitt equations]]
