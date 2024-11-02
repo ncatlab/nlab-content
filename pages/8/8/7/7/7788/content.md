@@ -115,7 +115,7 @@ In particular there is:
 
 * [[Peter West]], section 16.7 of _[[Introduction to Strings and Branes]]_
 
-* {#NicolaiFischbacher03} [[Hermann Nicolai]], Thomas Fischbacher, _Low Level Representations for E10 and E11_ ([arXiv:hep-th/0301017](http://arxiv.org/abs/hep-th/0301017))
+* {#NicolaiFischbacher03} [[Hermann Nicolai]], [[Thomas Fischbacher]]: _Low Level Representations for $E_{10}$ and $E_{11}$_, in *Kac-Moody Lie Algebras and Related Topics* &lbrack;[arXiv:hep-th/0301017](http://arxiv.org/abs/hep-th/0301017), [doi:10.1090/conm/343](https://doi.org/10.1090/conm/343)&rbrack;
 
 * H. Mkrtchyan, R. Mkrtchyan, _$E_{11},K_{11}$ and $EE_{11}$_ ([arXiv:hep-th/0407148](http://arxiv.org/abs/hep-th/0407148))
 
