@@ -2,11 +2,11 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Atiyah)
 
-* Notices of the AMS, _Memories of Sir Michael Atiyah_ ([pdf](https://www.ams.org/journals/notices/201911/rnoti-p1834.pdf), [[MemoriesOfAtiyah.pdf:file]])
+* _Memories of Sir Michael Atiyah_, Notices of the AMS &lbrack;[pdf](https://www.ams.org/journals/notices/201911/rnoti-p1834.pdf), [[MemoriesOfAtiyah.pdf:file]]&rbrack;
 
-  * [[Bernd Schroers]], _Michael Atiyah and Physics: the Later Years_,  ([arXiv:1910.10630](https://arxiv.org/abs/1910.10630))
+  * [[Bernd Schroers]], _Michael Atiyah and Physics: the Later Years_ &lbrack;[arXiv:1910.10630](https://arxiv.org/abs/1910.10630)&rbrack;
 
-* [[Alain Connes]], Joseph Kouneiher, _Sir Michael Atiyah, a Knight Mathematician A tribute to Michael Atiyah, an inspiration and a friend_ ([arxiv:1910.07851](https://arxiv.org/abs/1910.07851))
+* [[Alain Connes]], Joseph Kouneiher: _Sir Michael Atiyah, a Knight Mathematician A tribute to Michael Atiyah, an inspiration and a friend_ ([arxiv:1910.07851](https://arxiv.org/abs/1910.07851))
 
 * [[Nigel Hitchin]], _Sir Michael Atiyah OM. 22 April 1929–11 January 2019_, Biographical Memoirs of the FRS, September 2020 ([doi:10.1098/rsbm.2020.0001](https://doi.org/10.1098/rsbm.2020.0001))
 
@@ -42,14 +42,12 @@ Introducing the [[Atiyah-Bott fixed point theorem]]:
 
 Introducing what came to be known as [[Karoubi K-theory]]:
 
-* [[Michael Atiyah]], [[Isadore Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS, Tome **37** (1969) 5-26 $[$[numdam:PMIHES_1969__37__5_0](http://www.numdam.org/item/PMIHES_1969__37__5_0)$]$
-
-
+* [[Michael Atiyah]], [[Isadore Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS, Tome **37** (1969) 5-26 &lbrack;[numdam:PMIHES_1969__37__5_0](http://www.numdam.org/item/PMIHES_1969__37__5_0)&rbrack;
 
 
 On [[Bott periodicity]]:
 
-* [[Michael Atiyah]], _Bott periodicity and the index of elliptic operators_, The Quarterly Journal of Mathematics, Volume 19, Issue 1, 1968, Pages 113–140 ([doi:10.1093/qmath/19.1.113](https://doi.org/10.1093/qmath/19.1.113))
+* [[Michael Atiyah]]: _Bott periodicity and the index of elliptic operators_, The Quarterly Journal of Mathematics, **19** 1 (1968) 113–140 &lbrack;[doi:10.1093/qmath/19.1.113](https://doi.org/10.1093/qmath/19.1.113)&rbrack;
 
 On [[commutative algebra]]:
 
@@ -146,6 +144,11 @@ On [[twisted K-theory]] and [[twisted equivariant K-theory]]:
 
 * {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
 
+On [[physics]] and [[mathematics]] ([[quantum mechanics]], [[string theory]], ..., cf. at *[[The Unreasonable Effectiveness of Mathematics in the Natural Sciences|The Unreasonable Effectiveness...]]*):
+
+* [[Michael Atiyah]]: *The Nature of Space*, KITP Public Lecture (Oct 2025) &lbrack;[webpage](https://online.kitp.ucsb.edu/online/plecture/atiyah/), slides: [pdf](https://online.kitp.ucsb.edu/online/plecture/atiyah/pdf/Atiyah_KITP_PL.pdf), [[Atiyah-NatureOfSpace.pdf:file]]&rbrack;
+
+
 On [[Raoul Bott]]:
 
 * [[Michael Atiyah]], *[Raoul Harry Bott: 24 September 1923 – 20 December 2005](https://celebratio.org/Bott_R/article/296/)*, Celebratio Mathematica (2007)
@@ -153,8 +156,7 @@ On [[Raoul Bott]]:
 
 On [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]:
 
-* {#AtiyahDijkgraafHitchin10} [[Michael Atiyah]], [[Robbert Dijkgraaf]], [[Nigel Hitchin]], _Geometry and physics_, Phil. Trans. R. Soc. A 13 March 2010 vol. 368 no. 1914 913-926 ([pdf](http://rsta.royalsocietypublishing.org/content/368/1914/913.full.pdf), [doi;10.1098/rsta.2009.0227](https://royalsocietypublishing.org/doi/10.1098/rsta.2009.0227))
-
+* {#AtiyahDijkgraafHitchin10} [[Michael Atiyah]], [[Robbert Dijkgraaf]], [[Nigel Hitchin]], _Geometry and physics_, Phil. Trans. R. Soc. A **368** 1914 (2010) 913-926 &lbrack;[doi:10.1098/rsta.2009.0227](https://royalsocietypublishing.org/doi/10.1098/rsta.2009.0227), [pdf](http://rsta.royalsocietypublishing.org/content/368/1914/913.full.pdf)&rbrack;
 
 
 On patterns in the [[characteristic classes]] ([[Chern classes]]) of [[complex surfaces]], together with some speculations about an anlogy with [[atomic number]] of [[atomic nuclei]] (inspired by [[hadron Kaluza-Klein theory]]):
