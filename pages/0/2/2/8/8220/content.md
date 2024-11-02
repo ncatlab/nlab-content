@@ -74,6 +74,11 @@ Emphasis on [[non-perturbative effects]]:
 
 * Anna Ijjas, Frans Pretorius, [[Paul Steinhardt]], _Stability and the gauge problem in non-perturbative cosmology_,  Journal of Cosmology and Astroparticle Physics, Volume 2019, January 2019 ([arXiv:1809.07010](https://arxiv.org/abs/1809.07010), [doi:10.1088/1475-7516/2019/01/015](https://iopscience.iop.org/article/10.1088/1475-7516/2019/01/015))
 
+With [[11D supergravity]] via its [[E10]]-[[sigma-model]] formulation:
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$E_{10}$ Cosmology*, JHEP 01 (2006) 137 &lbrack;[arXiv:hep-th/0511290](https://arxiv.org/abs/hep-th/0511290), [doi:10.1088/1126-6708/2006/01/137](https://iopscience.iop.org/article/10.1088/1126-6708/2006/01/137)&rbrack;
+
+
 
 ### In terms of AQFT on curved spacetimes
 
