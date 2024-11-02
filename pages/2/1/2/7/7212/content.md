@@ -13,6 +13,7 @@ On [[E10]] [[U-duality]]-symmetric [[M-theory]]:
 
 * [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Constraints and the $E_{10}$ Coset Model*, Class. Quant. Grav. **24** (2007) 6097-6120 &lbrack;[arXiv:0709.2691](https://arxiv.org/abs/0709.2691), [doi:10.1088/0264-9381/24/23/025](https://doi.org/10.1088/0264-9381/24/23/025)&rbrack;
 
+* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Sugawara-type constraints in hyperbolic coset models*, Commun. Math. Phys. **302** (2011) 755-788 &lbrack;[arXiv:0912.3491](https://arxiv.org/abs/0912.3491), [doi:10.1007/s00220-011-1188-y](https://doi.org/10.1007/s00220-011-1188-y)&rbrack;
 
 * {#Damour14} [[Thibault Damour]], _Quantum supersymmetric Bianchi IX  Cosmology and its hidden Kac-Moody Structure_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[DamourSQC14.pdf:file]])
 
