@@ -226,10 +226,13 @@ On spinor representatons of the [[maximal compact subalgebra]] $\mathfrak{k}_{11
 
 * {#BossardKleinschmidtSezgin19} [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]]: *On supersymmetric $E_{11}$ exceptional field theory*, J. High Energ. Phys. **2019** 165 (2019) &lbrack;[arXiv:1907.02080](https://arxiv.org/abs/1907.02080), <a href="https://doi.org/10.1007/JHEP10(2019)165">doi:10.1007/JHEP10(2019)165</a>&rbrack;
 
-
 Relation to [[free Lie algebras|free]] [[super Lie algebras]]:
 
 * {#GomisKleinschmidtPalmkvist19} [[Joaquim Gomis]], [[Axel Kleinschmidt]], [[Jakob Palmkvist]]: *Symmetries of M-theory and free Lie superalgebras*, J. High Energ. Phys. **2019** 160 (2019) &lbrack;[arXiv:1809.09171](https://arxiv.org/abs/1809.09171), <a href="https://doi.org/10.1007/JHEP03(2019)160">doi:10.1007/JHEP03(2019)160</a>&rbrack;
+
+See also:
+
+* H Mkrtchyan, R. Mkrtchyan: *Remarks on $E_{11}$ approach*,  Modern Physics Letters A **21** 06 (2006) 503-514 &lbrack;[doi:10.1142/S0217732306019645](https://doi.org/10.1142/S0217732306019645), [arXiv:hep-th/0507183](https://arxiv.org/abs/hep-th/0507183)&rbrack;
 
 
 
