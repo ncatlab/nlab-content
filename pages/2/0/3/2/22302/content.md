@@ -8,7 +8,7 @@ On [[E11]]-[[exceptional field theory|exceptional]] [[supergravity]]:
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _On supersymmetric E11 exceptional field theory_ ([arXiv:1907.02080](https://arxiv.org/abs/1907.02080))
 
-* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]], _A master exceptional field theory_ ([arXiv:2103.13411](https://arxiv.org/abs/2103.13411))
+* [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Ergin Sezgin]]: *A master exceptional field theory*,  J. High Energ. Phys. **2021** 185 (2021) &lbrack;[arXiv:2103.13411](https://arxiv.org/abs/2103.13411), <a href="https://doi.org/10.1007/JHEP06(2021)185">doi:10.1007/JHEP06(2021)185</a>&rbrack;
 
 
 
