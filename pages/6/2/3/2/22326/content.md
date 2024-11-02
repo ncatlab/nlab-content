@@ -48,6 +48,15 @@ Via analysis of would-be [[superparticle]] [[scattering amplitudes]] on [[D=11 s
 * [[Kasper Peeters]], [[Jan Plefka]], [[Steffen Stern]], _Higher-derivative gauge field terms in the M-theory action_, JHEP 0508 (2005) 095 ([arXiv:hep-th/0507178](https://arxiv.org/abs/hep-th/0507178))
 
 
+#### Via exceptional geometry
+
+Via [[geodesic motion]] on the [[coset space]] of the [[U-duality]] [[Lac-Moody group]] [[E10|$E_{10}$]] by its "maximal compact" subgroup $K(E_{10})$:
+
+* [[Thibault Damour]], [[Hermann Nicolai]]: *Higher order M theory corrections and the Kac-Moody algebra $E_{10}$*, Class. Quant. Grav. **22** (2005) 2849-2880 &lbrack;[arXiv:hep-th/0504153](https://arxiv.org/abs/hep-th/0504153), [doi:10.1088/0264-9381/22/14/003](https://doi.org/10.1088/0264-9381/22/14/003)&rbrack;
+  > (relating to [[higher curvature corrections]])
+
+
+
 
 #### Via lifting 10d stringy corrections
 
