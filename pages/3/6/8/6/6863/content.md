@@ -122,11 +122,20 @@ On a 1d [[sigma-model]] on a [[coset space]] of the [[E10]] [[U-duality]]-[[grou
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$E_{10}$ Cosmology*, JHEP 01 (2006) 137 &lbrack;[arXiv:hep-th/0511290](https://arxiv.org/abs/hep-th/0511290), [doi:10.1088/1126-6708/2006/01/137](https://iopscience.iop.org/article/10.1088/1126-6708/2006/01/137)&rbrack;
   > ([[cosmology|cosmological]] solutions)
 
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Maximal supergravities and the $E_{10}$ model*,  International Journal of Modern Physics D **15** 10 (2006) 1619-1642 &lbrack;[doi:10.1142/S0218271806009005](https://doi.org/10.1142/S0218271806009005)&rbrack;
+
+
 * [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Constraints and the $E_{10}$ Coset Model*, Class. Quant. Grav. **24** (2007) 6097-6120 &lbrack;[arXiv:0709.2691](https://arxiv.org/abs/0709.2691), [doi:10.1088/0264-9381/24/23/025](https://doi.org/10.1088/0264-9381/24/23/025)&rbrack;
 
 * {#Nicolai08} [[Hermann Nicolai]]: *Wonders of $E_{10}$ and $K(E_{10})$*, talk at *Wonders of Gauge Theory and Supergravity*, IHP Paris (2008) &lbrack;[[Nicolai-WondersOfE10.pdf:file]]&rbrack;
 
-* {#Nicolai14} [[Hermann Nicolai]], _On Exceptional Geometry and Supergravity_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[NicolaiTalk14.pdf:file]])
+* [[Eric A. Bergshoeff]], [[Olaf Hohm]], [[Axel Kleinschmidt]], [[Hermann Nicolai]], Teake A. Nutma, [[Jakob Palmkvist]]: *$E_{10}$ and Gauged Maximal Supergravity*, JHEP 0901:020 (2009) &lbrack;[doi:10.1088/1126-6708/2009/01/020](https://doi.org/10.1088/1126-6708/2009/01/020), [arXiv:0810.5767](https://arxiv.org/abs/0810.5767)&rbrack;
+  > (relation to [[D=3 supergravity|D=3]] [[gauged supergravity]])
+
+* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Sugawara-type constraints in hyperbolic coset models*, Commun. Math. Phys. **302** (2011) 755-788 &lbrack;[arXiv:0912.3491](https://arxiv.org/abs/0912.3491), [doi:10.1007/s00220-011-1188-y](https://doi.org/10.1007/s00220-011-1188-y)&rbrack;
+
+
+* {#Nicolai14} [[Hermann Nicolai]], _On Exceptional Geometry and Supergravity_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) (2014) &lbrack;[[NicolaiTalk14.pdf:file]]&rbrack;
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *The $E_{10}$ Wheeler-DeWitt operator at low levels*, J. High Energ. Phys. **2022** 92 (2022) &lbrack;[arXiv:2202.12676](https://arxiv.org/abs/2202.12676), <a href="https://doi.org/10.1007/JHEP04(2022)092">doi:10.1007/JHEP04(2022)092</a>&rbrack;
   > (relation to the [[Wheeler-DeWitt equation]] for [[11D supergravity]])
@@ -135,7 +144,7 @@ On a 1d [[sigma-model]] on a [[coset space]] of the [[E10]] [[U-duality]]-[[grou
 
 On [[E10]] and [[E11]] [[representation theory]]:
 
-* {#NicolaiFischbacher03} [[Hermann Nicolai]], Thomas Fischbacher, _Low Level Representations for $E_{10}$ and $E_{11}$_ &lbrack;[arXiv:hep-th/0301017](http://arxiv.org/abs/hep-th/0301017)&rbrack;
+* {#NicolaiFischbacher03} [[Hermann Nicolai]], [[Thomas Fischbacher]]: _Low Level Representations for $E_{10}$ and $E_{11}$_, in *Kac-Moody Lie Algebras and Related Topics* &lbrack;[arXiv:hep-th/0301017](http://arxiv.org/abs/hep-th/0301017), [doi:10.1090/conm/343](https://doi.org/10.1090/conm/343)&rbrack;
 
 
 On [[E10]]-[[U-duality]] [[exceptional field theory]] with [[fermions]] ($E_{10}/K(E_{10})$-coset model [[supersymmetric quantum mechanics]]):
