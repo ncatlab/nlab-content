@@ -138,7 +138,7 @@ Review:
 
 * [[Paul Cook]], *Connections between Kac-Moody algebras and M-theory*, PhD thesis, King's College London (2007) &lbrack;[arXiv:0711.3498](http://arxiv.org/abs/0711.3498), [webpage](https://kclpure.kcl.ac.uk/portal/en/publications/connections-between-kac-moody-algebras-and-m-theory)&rbrack;
 
-* {#West16} [[Peter West]], _A brief review of E theory_, in:  *Memorial Volume on Abdus Salam's 90th Birthday*, World Scientific (2017) 135-176 &lbrack[arXiv:1609.06863](http://arxiv.org/abs/1609.06863), [doi:10.1142/9789813144873_0009](https://doi.org/10.1142/9789813144873_0009)&rbrack;
+* {#West16} [[Peter West]]: _A brief review of E theory_, in:  *Memorial Volume on Abdus Salam's 90th Birthday*, World Scientific (2017) 135-176 &lbrack;[arXiv:1609.06863](http://arxiv.org/abs/1609.06863), [doi:10.1142/9789813144873_0009](https://doi.org/10.1142/9789813144873_0009)&rbrack;
 
 
 Original articles include the following:
@@ -153,14 +153,13 @@ A precursor to ([West 01](#West01)) is
 
 as explained in ([Henneaux-Julia-Levie 10](#HenneauxJuliaLevie10)).
 
-The derivation of the [[equations of motion]] of [[11-dimensional supergravity]] and maximally supersymmetric [[5d supergravity]] from a [[vielbein]] with values in the [[semidirect product]] $E_{11}$ with its [[fundamental representation]] is due to
+The derivation of the [[equations of motion]] of [[11-dimensional supergravity]] and maximally supersymmetric [[5d supergravity]] from a [[vielbein]] with values in the [[semidirect product]] $E_{11}$ with its [[fundamental representation]]:
 
-* {#West11} [[Peter West]], _Generalised geometry, eleven dimensions and $E_{11}$_, J. High Energ. Phys. (2012) 2012: 18 ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
+* {#West11} [[Peter West]]: *Generalised geometry, eleven dimensions and $E_{11}$*, J. High Energ. Phys. **2012** (2012) 18 &lbrack;[arXiv:1111.1642](http://arxiv.org/abs/1111.1642), <a href="https://doi.org/10.1007/JHEP02(2012)018">doi:10.1007/JHEP02(2012)018</a>&rbrack;
 
-* Alexander G. Tumanov, [[Peter West]], _$E_{11}$ must be a symmetry of strings and branes_, Physics Letters B Volume 759, 10 August 2016, Pages 663&#8211;671 ([arXiv:1512.01644](https://arxiv.org/abs/1512.01644))
+* [[Alexander G. Tumanov]], [[Peter West]]: _$E_{11}$ must be a symmetry of strings and branes_, Physics Letters B **759** 10 (2016) 663-671 &lbrack;[arXiv:1512.01644](https://arxiv.org/abs/1512.01644), [doi:10.1016/j.physletb.2016.06.011](https://doi.org/10.1016/j.physletb.2016.06.011)&rbrack;
 
-* Alexander G. Tumanov, [[Peter West]], _$E_{11}$ in $11d$_, Physics Letters B Volume 758, 10 July 2016, Pages 278&#8211;285 ([arXiv:1601.03974](https://arxiv.org/abs/1601.03974))
-
+* [[Alexander G. Tumanov]], [[Peter West]]: *$E_{11}$ in $11d$*, Physics Letters B **758** (2016) 278285 &lbrack;[arXiv:1601.03974](https://arxiv.org/abs/1601.03974), [doi:10.1016/j.physletb.2016.04.058](https://doi.org/10.1016/j.physletb.2016.04.058)&rbrack;
 
 This way that elements of [[cosets]] of the [[semidirect product]] $E_{11}$ with its [[fundamental representation]] may encode [[equations of motion]] of [[11-dimensional supergravity]] follows previous considerations for [[Einstein equations]] in 
 
