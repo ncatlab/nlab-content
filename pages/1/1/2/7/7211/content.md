@@ -85,6 +85,7 @@ A complete list of un-gauged supergravities in 3 dimensions was given in
 * [[Bernard de Wit]], A.K. Tollsten, [[Hermann Nicolai]], _Locally supersymmetric D=3 non-linear sigma models_, Nucl. Phys. B392 (1993) 3 ([arXiv:hep-th/9208074](https://arxiv.org/abs/hep-th/9208074))
 
 
+
 See also
 
 * Gabriele Tartaglino-Mazzucchelli, _Topics in $3D$ $N=2$ AdS supergravity in superspace_, ([arXiv:1202.0109](http://arxiv.org/abs/1202.0109))
@@ -134,6 +135,12 @@ with details in
 * {#deWitNicolai13} [[Bernard de Wit]], [[Hermann Nicolai]], _Deformations of gauged SO(8) supergravity and supergravity in eleven dimensions_ ([arXiv:1302.6219](http://arxiv.org/abs/1302.6219))
  
 (see also at _[[exceptional generalized geometry]]_).
+
+Relation to the [[E10]] [[U-duality]]-covariant sigma-model:
+
+* [[Eric A. Bergshoeff]], [[Olaf Hohm]], [[Axel Kleinschmidt]], [[Hermann Nicolai]], Teake A. Nutma, [[Jakob Palmkvist]]: *$E_{10}$ and Gauged Maximal Supergravity*, JHEP 0901:020 (2009) &lbrack;[doi:10.1088/1126-6708/2009/01/020](https://doi.org/10.1088/1126-6708/2009/01/020), [arXiv:0810.5767](https://arxiv.org/abs/0810.5767)&rbrack;
+  > (relation to [[D=3 supergravity|D=3]] [[gauged supergravity]])
+
 
 See also
 
