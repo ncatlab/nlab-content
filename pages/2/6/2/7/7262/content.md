@@ -99,23 +99,51 @@ The fact that every simply laced hyperbolic Kac-Moody algebra is a sub Lie algeb
 
 * Sankaran Viswanath: *Embeddings of hyperbolic Kac-Moody algebras into $E_{10}$* &lbrack;[arXiv:0801.2586](https://arxiv.org/abs/0801.2586), [doi:10.1007/s11005-007-0214-7](https://doi.org/10.1007/s11005-007-0214-7), [doi:10.1007/s11005-007-0214-7](https://doi.org/10.1007/s11005-007-0214-7)&rbrack;
 
+See also:
+
+* {#NicolaiFischbacher03} [[Hermann Nicolai]], [[Thomas Fischbacher]]: _Low Level Representations for $E_{10}$ and $E_{11}$_, in *Kac-Moody Lie Algebras and Related Topics* &lbrack;[arXiv:hep-th/0301017](http://arxiv.org/abs/hep-th/0301017), [doi:10.1090/conm/343](https://doi.org/10.1090/conm/343)&rbrack;
+
+* [[Thomas Fischbacher]]: *The structure of $E_{10}$ at higher $A_9$ levels -- a first algorithmic approach*, JHEP 0508:012 (2005) &lbrack;[arXiv:hep-th/0504230](https://arxiv.org/abs/hep-th/0504230), [doi:10.1088/1126-6708/2005/08/012](https://doi.org/10.1088/1126-6708/2005/08/012)&rbrack;
+
+
+
 ### Relation to supergravity
  {#ReferencesRelationToSupergravity}
 
-Discussion of $E_{10}$ as [[U-duality]] of [[supergravity]]/[[M-theory]]:
+Discussion of a 1d [[sigma-model]] on  $E_{10}/K(E_{10})$ as [[U-duality]]-covariant formuation of [[11D supergravity]]/[[M-theory]]:
 
 For [[boson|bosonic]] degrees of freedom:
 
 * [[Thibault Damour]], [[Marc Henneaux]], [[Hermann Nicolai]]: *$E(10)$ and a "small tension expansion" of M theory*, Phys. Rev. Lett. **89** 221601 (2002) &lbrack;[arXiv:hep-th/0207267](http://arxiv.org/abs/hep-th/0207267), [doi:10.1103/PhysRevLett.89.221601](https://doi.org/10.1103/PhysRevLett.89.221601)&rbrack;
 
-* [[Thibault Damour]], [[Hermann Nicolai]]: *Eleven dimensional supergravity and the $E_{10}/K(E_{10})$ sigma-model at low $A_9$ levels*, in Proceedings of the *XXV International Colloquium on Group Theoretical Methods in Physics, 2-6 August 2004, Cocoyoc, Mexico*, Routledge (2005) 93-111 &lbrack;[arXiv:hep-th/0410245](https://arxiv.org/abs/hep-th/0410245), [ISBN:9780750310086](https://www.routledge.com/Group-Theoretical-Methods-in-Physics-Proceedings-of-the-XXV-International-Colloqium-on-Group-Theoretical-Methods-in-Physics-Cocoyoc-Mexico-2/Pogosyan-Vincent-Wolf/p/book/9780750310086?srsltid=AfmBOopQu0UGWkX8-nMBU1xaKZdDXtl7Z9kUpqvWiOArkVvi_3k5qtHt)&rbrack;
-
-
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]]: _$E(10)$ and $SO(9,9)$ invariant supergravity_, JHEP 0407,
 041 (2004) &lbrack;[arXiv:hep-th/0407101](http://arxiv.org/abs/hep-th/0407101), [doi:10.1088/1126-6708/2004/07/041](https://doi.org/10.1088/1126-6708/2004/07/041)&rbrack;
 
+* [[Thibault Damour]], [[Hermann Nicolai]]: *Eleven dimensional supergravity and the $E_{10}/K(E_{10})$ sigma-model at low $A_9$ levels*, in Proceedings of the *XXV International Colloquium on Group Theoretical Methods in Physics, 2-6 August 2004, Cocoyoc, Mexico*, Routledge (2005) 93-111 &lbrack;[arXiv:hep-th/0410245](https://arxiv.org/abs/hep-th/0410245), [ISBN:9780750310086](https://www.routledge.com/Group-Theoretical-Methods-in-Physics-Proceedings-of-the-XXV-International-Colloqium-on-Group-Theoretical-Methods-in-Physics-Cocoyoc-Mexico-2/Pogosyan-Vincent-Wolf/p/book/9780750310086?srsltid=AfmBOopQu0UGWkX8-nMBU1xaKZdDXtl7Z9kUpqvWiOArkVvi_3k5qtHt)&rbrack;
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$E_{10}$ Cosmology*, JHEP 01 (2006) 137 &lbrack;[arXiv:hep-th/0511290](https://arxiv.org/abs/hep-th/0511290), [doi:10.1088/1126-6708/2006/01/137](https://iopscience.iop.org/article/10.1088/1126-6708/2006/01/137)&rbrack;
+  > ([[cosmology|cosmological]] solutions)
+
+* [[Marc Henneaux]], Mauricio Leston, Daniel Persson, Philippe Spindel: *Geometric Configurations, Regular Subalgebras of E10 and M-Theory Cosmology*, JHEP 0610:021 (2006) &lbrack;[arXiv:hep-th/0606123](https://arxiv.org/abs/hep-th/0606123), [doi:10.1088/1126-6708/2006/10/021](https://doi.org/10.1088/1126-6708/2006/10/021)&rbrack;
+  > ([[cosmology|cosmological]] solutions)
+
+* [[Marc Henneaux]], Ella Jamsin, [[Axel Kleinschmidt]], Daniel Persson: *On the $E_{10}$/Massive Type IIA Supergravity Correspondence*, Phys. Rev. D **79** (2009) 045008 &lbrack;[arXiv:0811.4358](https://arxiv.org/abs/0811.4358), [doi:10.1103/PhysRevD.79.045008](https://doi.org/10.1103/PhysRevD.79.045008)&rbrack;
+  > (relation to [[massive type IIA string theory]])
+
 * [[Thibault Damour]], [[Hermann Nicolai]]: *Higher order M theory corrections and the Kac-Moody algebra $E_{10}$*, Class. Quant. Grav. **22** (2005) 2849-2880 &lbrack;[arXiv:hep-th/0504153](https://arxiv.org/abs/hep-th/0504153), [doi:10.1088/0264-9381/22/14/003](https://doi.org/10.1088/0264-9381/22/14/003)&rbrack;
   > (relating to [[higher curvature corrections]])
+
+* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Constraints and the $E_{10}$ Coset Model*, Class. Quant. Grav. **24** (2007) 6097-6120 &lbrack;[arXiv:0709.2691](https://arxiv.org/abs/0709.2691), [doi:10.1088/0264-9381/24/23/025](https://doi.org/10.1088/0264-9381/24/23/025)&rbrack;
+
+
+* [[Eric A. Bergshoeff]], [[Olaf Hohm]], [[Axel Kleinschmidt]], [[Hermann Nicolai]], Teake A. Nutma, [[Jakob Palmkvist]]: *$E_{10}$ and Gauged Maximal Supergravity*, JHEP 0901:020 (2009) &lbrack;[doi:10.1088/1126-6708/2009/01/020](https://doi.org/10.1088/1126-6708/2009/01/020), [arXiv:0810.5767](https://arxiv.org/abs/0810.5767)&rbrack;
+  > (relation to [[D=3 supergravity|D=3]] [[gauged supergravity]])
+
+* [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Sugawara-type constraints in hyperbolic coset models*, Commun. Math. Phys. **302** (2011) 755-788 &lbrack;[arXiv:0912.3491](https://arxiv.org/abs/0912.3491), [doi:10.1007/s00220-011-1188-y](https://doi.org/10.1007/s00220-011-1188-y)&rbrack;
+
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *The $E_{10}$ Wheeler-DeWitt operator at low levels*, J. High Energ. Phys. **2022** 92 (2022) &lbrack;[arXiv:2202.12676](https://arxiv.org/abs/2202.12676), <a href="https://doi.org/10.1007/JHEP04(2022)092">doi:10.1007/JHEP04(2022)092</a>&rbrack;
+  > (relation to the [[Wheeler-DeWitt equation]] for [[11D supergravity]])
 
 
 and for [[fermion|fermionic]] degrees of freedom 
@@ -126,13 +154,18 @@ and for [[fermion|fermionic]] degrees of freedom
 
 * {#DamourKleinschmidtNicolai06} [[Thibault Damour]], [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *$K(E_{10})$, Supergravity and Fermions*, JHEP 0608:046 (2006) &lbrack;[arXiv:hep-th/0606105](https://arxiv.org/abs/hep-th/0606105), [doi:10.1088/1126-6708/2006/08/046](https://doi.org/10.1088/1126-6708/2006/08/046)&rbrack;
 
+* [[Axel Kleinschmidt]]: *Unifying R-symmetry in M-theory*, in *New Trends in Mathematical Physics*, Springer (2009) &lbrack;[arXiv:hep-th/0703262](https://arxiv.org/abs/hep-th/0703262), [doi:10.1007/978-90-481-2810-5_26](https://doi.org/10.1007/978-90-481-2810-5_26)&rbrack;
+
+
 and application to [[supersymmetric quantum mechanics|supersymmetric]] [[quantum cosmology]]: 
 
-* {#Damour14} [[Thibault Damour]], _Quantum supersymmetric Bianchi IX  Cosmology and its hidden Kac-Moody Structure_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) ([[DamourSQC14.pdf:file]])
+* {#Damour14} [[Thibault Damour]], _Quantum supersymmetric Bianchi IX  Cosmology and its hidden Kac-Moody Structure_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) &lbrack;[[DamourSQC14.pdf:file]]&rbrack;
 
 Review:
 
 * {#Carlevaro06} [[Luca Carlevaro]]: *Three approaches to M-theory*, PhD thesis (2006) &lbrack;[hdl:123456789/16186](https://libra.unine.ch/handle/123456789/16186), [pdf](https://libra.unine.ch/server/api/core/bitstreams/b5eedf5f-8029-4700-83cb-806d0737a669/content), [spire:1253257](https://inspirehep.net/literature/1253257)&rbrack;
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Maximal supergravities and the $E_{10}$ model*,  International Journal of Modern Physics D **15** 10 (2006) 1619-1642 &lbrack;[doi:10.1142/S0218271806009005](https://doi.org/10.1142/S0218271806009005)&rbrack;
 
 * {#Nicolai08} [[Hermann Nicolai]]: *Wonders of $E_{10}$ and $K(E_{10})$*, talk at *Wonders of Gauge Theory and Supergravity*, IHP Paris (2008) &lbrack;[[Nicolai-WondersOfE10.pdf:file]]&rbrack;
 
