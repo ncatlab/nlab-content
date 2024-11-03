@@ -222,7 +222,7 @@ General discussion:
 
 * [[Eric Bergshoeff]], Sorin Cucu, Tim de Wit, Jos Gheerardyn, Stefan Vandoren, [[Antoine Van Proeyen]], _$N=2$ supergravity in five dimensions revisited_ ([arXiv:hep-th/0403045](http://arxiv.org/abs/hep-th/0403045))
 
-* [[Katrin Becker]], [[Melanie Becker]], Daniel Butter, [[William Linch III]], Stephen Randall, _Five-dimensional Supergravity in N = 1/2 Superspace_ ([arXiv:1909.09208](https://arxiv.org/abs/1909.09208))
+* [[Katrin Becker]], [[Melanie Becker]], [[Daniel Butter]], [[William Linch III]], Stephen Randall: *Five-dimensional Supergravity in $N = 1/2$ Superspace*, J. High Energ. Phys. **2020** 98 (2020) &lbrack;[arXiv:1909.09208](https://arxiv.org/abs/1909.09208), <a href="https://doi.org/10.1007/JHEP03(2020)098">doi:10.1007/JHEP03(2020)098</a>&rbrack;
 
 * Edoardo Lauria, [[Antoine Van Proeyen]], _$\mathcal{N}=2$ Supergravity in $D=4,5,6$ Dimensions_ ([arXiv:2004.11433](https://arxiv.org/abs/2004.11433))
 
