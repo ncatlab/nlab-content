@@ -74,7 +74,7 @@ The discrete case follows by combining the posetal and groupoidal cases, so it r
 
 ## Related concepts
 
-* [[congruence]] [[2-congruence]]
+* [[congruence]], [[2-congruence]]
 
 * [[internal category]], [[internal category in an (infinity,1)-category]]
 
