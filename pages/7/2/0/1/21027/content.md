@@ -12,12 +12,12 @@ On [[D=6 supergravity]] formulated on [[superspace]]:
 * [[Cesar Arias]], *The Geometry of 6D, $\mathcal{N} = (1,0)$ Superspace and its Matter Couplings* &lbrack;[arXiv:1511.00335](https://arxiv.org/abs/1511.00335), [spire:1402402](https://inspirehep.net/literature/1402402)&rbrack;
 
 
-
-On [[D=5 supergravity]]:
+On [[D=5 supergravity]] formulated in $\mathcal{N} = 1/2$ [[superspace]]:
 
 * [[William Linch III]], Markus A. Luty, J. Phillips, _Five dimensional supergravity in $N = 1$ superspace_, Phys. Rev. D **68** (2003) 025008  &lbrack;[arXiv:hep-th/0209060](https://arxiv.org/abs/hep-th/0209060)&rbrack;
 
-* [[Katrin Becker]], [[Melanie Becker]], Daniel Butter, [[William Linch III]], Stephen Randall, _Five-dimensional Supergravity in $N = 1/2$ Superspace_ ([arXiv:1909.09208](https://arxiv.org/abs/1909.09208))
+
+* [[Katrin Becker]], [[Melanie Becker]], [[Daniel Butter]], [[William Linch III]], Stephen Randall: *Five-dimensional Supergravity in $N = 1/2$ Superspace*, J. High Energ. Phys. **2020** 98 (2020) &lbrack;[arXiv:1909.09208](https://arxiv.org/abs/1909.09208), <a href="https://doi.org/10.1007/JHEP03(2020)098">doi:10.1007/JHEP03(2020)098</a>&rbrack;
 
 
 category: people
