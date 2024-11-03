@@ -72,7 +72,7 @@ This general definition we discuss below in
 
 * [Fully general definition in homotopy type theory](#InHomotopyTypeTheory).
 
-The special case where $V = \mathbf{B}^n A$ is the $n$-fold [[delooping]] of an [[abelian group]] is important for applications and also because in this case powerful tools of [[homological algebra]] can be applied and group cohomology of ordinary groups may be computed in tersm of of [[Ext]]-functors. This we discuss in 
+The special case where $V = \mathbf{B}^n A$ is the $n$-fold [[delooping]] of an [[abelian group]] is important for applications and also because in this case powerful tools of [[homological algebra]] can be applied and group cohomology of ordinary groups may be computed in terms of of [[Ext]]-functors. This we discuss in 
 
 * [Of an ordinary group with abelian group coefficients - In terms of homological algebra](#InTermsOfHomologicalAlgebra).
 
