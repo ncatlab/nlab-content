@@ -72,12 +72,13 @@ A comprehensive account and classification of the polyvector extensions of the s
 
 The derivation of the extended supersymmetry [[M-theory Lie algebra]] as the [[derivations]] of the [[supergravity Lie 3-algebra]] is, somewhat implicitly, in 
 
-* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
-{#CastellaniDAuriaFre}
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_
+
 
 A more explicit discussion of this in terms of [[super L-infinity algebra]] [[homotopy theory]] is in 
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
- {#FSS13}
+* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_
+ 
 
+[[!redirects extended super-symmetry]]
 
