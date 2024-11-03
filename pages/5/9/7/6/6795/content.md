@@ -89,6 +89,10 @@ On [[E11]]-[[exceptional field theory|exceptional]] [[supergravity]]:
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Jakob Palmkvist]], [[Christopher Pope]], [[Ergin Sezgin]], _Beyond $E_{11}$_, JHEP 05 (2017) 020 \[<a href="https://doi.org/10.1007/JHEP05(2017)020">doi:10.1007/JHEP05(2017)020</a>, [arXiv:1703.01305](https://arxiv.org/abs/1703.01305)\]
 
+On [[E7|$E_7$]] [[exceptional field theory]] on [[superspace]]:
+
+* [[Daniel Butter]], [[Henning Samtleben]], [[Ergin Sezgin]]: *$E_{7(7)}$-Exceptional Field Theory in Superspace*, J. High Energ. Phys. **2019** 87 (2019)  &lbrack;[arXiv:1811.00038](https://arxiv.org/abs/1811.00038), <a href="https://doi.org/10.1007/JHEP01(2019)087">doi:10.1007/JHEP01(2019)087</a>&rbrack;
+
 
 On [[Freund-Rubin compactifications]] in [[11d supergravity]]:
 
