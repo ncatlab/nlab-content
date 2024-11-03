@@ -505,7 +505,7 @@ for all objects $x, y$
 +-- {: .num_remark #SymmetricMonoidalCategoriesCoherenceTheorem}
 ###### Remark
 
-In analogy to the [[coherence theorem for monoidal categories]] (remark \ref{CoherenceForMonoidalCategories}, roughly speaking "all diagrams commute") there is a [[coherence theorem for symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}), saying that two parallel morphisms, built freely (see remark \ref{SymmetricMonoidalCategoriesCoherenceTheorem}) from [[associators]], [[unitors]] and [[braidings]], are equal if and only if they correspond to the same [[permutation]] of objects.
+In analogy to the [[coherence theorem for monoidal categories]] (remark \ref{CoherenceForMonoidalCategories}, roughly speaking "all diagrams commute") there is a [[coherence theorem for symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}), saying that two parallel morphisms, built freely (see remark \ref{CoherenceForMonoidalCategories}) from [[associators]], [[unitors]] and [[braidings]], are equal if and only if they correspond to the same [[permutation]] of objects.
 
 =--
 
