@@ -30,7 +30,7 @@ A __simple function__ from $X$ to $K$ is a formal $K$-[[linear combination]] of 
 
 Here we identify a measurable set $A$ with its [[characteristic function]] $\chi_A$, so the formal linear combination $\sum_i c_i A_i$ is identified with the function $\sum_i c_i \chi_{A_i}$, which is measurable and whose range is contained in the finite set of sums of the $c_i$.  (If there are $n$ terms in the linear combination, then there are at most $2^n$ such sums.)
 
-However, the na&#239;ve notion of equality of linear combinations is finer than equality of the corresponding functions, so we must combine Definition \ref{lincomb} with a definition of equality:
+However, the na&#239;ve partition by equality induced by linear combinations is finer than equality of the corresponding functions, so we must combine Definition \ref{lincomb} with a definition of equality:
 
 +-- {: .num_defn #equal}
 ###### Definition
