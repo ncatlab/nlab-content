@@ -101,6 +101,7 @@ The following references discuss aspects of the Kac-Moody [[exceptional geometry
 * Daniel Persson, Nassiba Tabti, _Lectures on Kac-Moody algebras with applications in (Super-)Gravity_ ([pdf](http://www.ulb.ac.be/sciences/ptm/pmif/Rencontres/KMModaveLectures2007.pdf))
 
 ### Maximal compact subalgebras
+ {#ReferencesMaximalCompactSubalgebra}
 
 On non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite-dimensional]] [[representations]] of involutary ("maximal compact") subalgebras $\mathfrak{k}$:
 
