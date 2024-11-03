@@ -30,7 +30,7 @@ Original articles:
 
 See also:
 
-* Wikipedia, _[Generaralized Kac-Moody algebra](https://en.wikipedia.org/wiki/Generalized_Kac&#8211;Moody_algebra)_
+* Wikipedia, _[Generalized Kac-Moody algebra](https://en.wikipedia.org/wiki/Generalized_Kac%E2%80%93Moody_algebra)_
 
 Relation to [[U-duality]] and [[E11]] (via  [[mysterious duality]]) is discussed in 
 
