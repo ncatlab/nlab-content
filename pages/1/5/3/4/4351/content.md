@@ -90,6 +90,10 @@ $$
 
 The tropical hyperfield has as its underlying set $\mathbb{T} = [0,\infty]$.  The product of $a, b \in \mathbb{T}$ is defined to be the usual *sum* of nonnegative numbers for $a, b\in [0,\infty)$, and we define $a \cdot \infty = \infty$.   The sum of $a,b \in \mathbb{T}$ is defined to be $a \max b$ when $a \ne b$, but when $a = b$ it is defined to be the set $[0,a]$.
 
+**Proposition.**  For any commutative ring $R$,  hyperring homomorphisms $\phi \colon R \to \mathbb{T}$ are the same as nonarchimedean valuations $\phi \colon R \to [0,\infty]$.
+
+This was observed first by Viro, but a proof can be found in Lorscheid's _Tropical geometry over the tropical hyperfield_, Theorem 2.2.
+
 ## Related entries
 
 * [[ring]]
