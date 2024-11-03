@@ -395,7 +395,7 @@ T-duality formulated on [[superspace]] (see also references at *[double supergeo
 
 * [[Chris D. A. Blair]], Ondrej Hulik, Alexander Sevrin, [[Daniel C. Thompson]]: *Doubled space and extended supersymmetry*,  J. High Energ. Phys. **2022** 119 (2022) \[<a href=" https://doi.org/10.1007/JHEP08(2022)119">doi:10.1007/JHEP08(2022)119</a>\]
 
-* Daniel Butter, [[Falk Hassler]], [[Christopher N. Pope]], Haoyu Zhang: *Generalized Dualities and Supergroups*, J. High Energ. Phys. **2023** 52 (2023) &lbrack;[arXiv:2307.05665](https://arxiv.org/abs/2307.05665), <a href="https://doi.org/10.1007/JHEP12(2023)052">doi:10.1007/JHEP12(2023)052</a>&rbrack;
+* [[Daniel Butter]], [[Falk Hassler]], [[Christopher N. Pope]], Haoyu Zhang: *Generalized Dualities and Supergroups*, J. High Energ. Phys. **2023** 52 (2023) &lbrack;[arXiv:2307.05665](https://arxiv.org/abs/2307.05665), <a href="https://doi.org/10.1007/JHEP12(2023)052">doi:10.1007/JHEP12(2023)052</a>&rbrack;
 
 
 
