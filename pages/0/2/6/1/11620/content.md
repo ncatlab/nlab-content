@@ -44,10 +44,10 @@ On [[supersymmetry breaking]] in [[flux compactifications]] of [[M-theory]]:
 
 On [[D=5 supergravity]] formulated in $\mathcal{N} = 1/2$ [[superspace]]:
 
-* [[Katrin Becker]], [[Melanie Becker]], Daniel Butter, William D. Linch III, Stephen Randall, _Five-dimensional Supergravity in N = 1/2 Superspace_ ([arXiv:1909.09208](https://arxiv.org/abs/1909.09208))
+* [[Katrin Becker]], [[Melanie Becker]], [[Daniel Butter]], [[William Linch III]], Stephen Randall: *Five-dimensional Supergravity in $N = 1/2$ Superspace*, J. High Energ. Phys. **2020** 98 (2020) &lbrack;[arXiv:1909.09208](https://arxiv.org/abs/1909.09208), <a href="https://doi.org/10.1007/JHEP03(2020)098">doi:10.1007/JHEP03(2020)098</a>&rbrack;
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[non-perturbative effect]]
 
