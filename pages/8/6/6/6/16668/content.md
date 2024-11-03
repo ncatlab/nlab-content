@@ -111,7 +111,7 @@ Discussion for [[E9]]:
 
 Generalization to exceptional [[super-spacetimes]]:
 
-* Daniel Butter, [[Henning Samtleben]], [[Ergin Sezgin]], _$E_{7(7)}$-Exceptional Field Theory in Superspace_ ([arXiv:1811.00038](https://arxiv.org/abs/1811.00038))
+* [[Daniel Butter]], [[Henning Samtleben]], [[Ergin Sezgin]]: *$E_{7(7)}$-Exceptional Field Theory in Superspace*, J. High Energ. Phys. **2019** 87 (2019)  &lbrack;[arXiv:1811.00038](https://arxiv.org/abs/1811.00038), <a href="https://doi.org/10.1007/JHEP01(2019)087">doi:10.1007/JHEP01(2019)087</a>&rbrack;
 
 On [[AdS4/CFT3 duality]] via [[exceptional field theory]] and [[super Chern-Simons theory]]:
 
