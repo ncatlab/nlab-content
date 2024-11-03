@@ -59,4 +59,12 @@ The actual term "exceptional tangent bundle" appears, in the context of *[[excep
 [[!redirects exceptional tangent bundles]]
 
 [[!redirects exceptional generalized tangent bundle]]
-[[!redirects exceptional generalized tangent bundle]]
+[[!redirects exceptional generalized tangent bundles]]
+
+[[!redirects exceptional tangent space]]
+[[!redirects exceptional tangent spaces]]
+
+[[!redirects exceptional generalized tangent space]]
+[[!redirects exceptional generalized tangent spaces]]
+
+
