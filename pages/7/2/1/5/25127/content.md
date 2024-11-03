@@ -67,7 +67,7 @@ The generalization to [[inductive-recursive types]] is due to
 
 * [[Peter Dybjer]], *A general formulation of simultaneous inductive-recursive definitions in type theory*, The Journal of Symbolic Logic **65** 2 (2000) 525-549 $[$[doi:10.2307/2586554](https://doi.org/10.2307/2586554), [pdf](http://www.cse.chalmers.se/~peterd/papers/Inductive_Recursive.pdf)$]$
 
-* [[Peter Dybjer]], [[Anton Setzer]], *Indexed induction-recursion*, in *Proof Theory in Computer Science* PTCS 2001. Lecture Notes in Computer Science**2183** Springer (2001) $[$[doi:10.1007/3-540-45504-3_7](https://doi.org/10.1007/3-540-45504-3_7), [pdf](http://www.cse.chalmers.se/~peterd/papers/InductionRecursionInitialAlgebras.pdf)$]$
+* [[Peter Dybjer]], [[Anton Setzer]], *Indexed induction-recursion*, in *Proof Theory in Computer Science* PTCS 2001. Lecture Notes in Computer Science**2183** Springer (2001) $[$[doi:10.1007/3-540-45504-3_7](https://doi.org/10.1007/3-540-45504-3_7), [pdf](https://www.cse.chalmers.se/~peterd/papers/Indexed_IR.pdf)$]$
 
 See also:
 
