@@ -18,7 +18,7 @@
 ## Idea
  {#Idea}
 
-An *$R$-matrix* is a solition to a [[Yang-Baxter equation]]:
+An *$R$-matrix* is a solution to a [[Yang-Baxter equation]]:
 
 A __classical r-matrix__ is a solution of  [[classical Yang-Baxter equation]]. 
 
