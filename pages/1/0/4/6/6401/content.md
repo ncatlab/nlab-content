@@ -67,8 +67,6 @@ The formulation of [[supergravity]] on [[super spacetime]] [[supermanifolds]]:
 * [[S. James Gates Jr.]], Liang Lu, Robert N. Oerter: *Simplified $SU(2)$ spinning string superspace supergravity*, Physics Letters B **218** 1 (1989) 33-38 \[<a href="https://doi.org/10.1016/0370-2693(89)90470-X">doi:10.1016/0370-2693(89)90470-X</a>, [spire:263912](https://inspirehep.net/literature/263912)\]
   > (for the [[superstring]] [[worldvolume]])
 
-
-
 For more on this see the:
 
 * *[[D'Auria-Fré-Regge formulation of supergravity]]*
@@ -97,7 +95,7 @@ On [[T-duality]] formulated on superspace:
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]*, Adv. Theor. Math. Phys **22** 5 (2018) &lbrack;[arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](https://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3)&rbrack;
 
-* Daniel Butter, [[Falk Hassler]], [[Christopher N. Pope]], Haoyu Zhang: *Generalized Dualities and Supergroups* &lbrack;[arXiv:2307.05665](https://arxiv.org/abs/2307.05665)&rbrack;
+* [[Daniel Butter]], [[Falk Hassler]], [[Christopher N. Pope]], Haoyu Zhang: *Generalized Dualities and Supergroups*, J. High Energ. Phys. **2023** 52 (2023) &lbrack;[arXiv:2307.05665](https://arxiv.org/abs/2307.05665), <a href="https://doi.org/10.1007/JHEP12(2023)052">doi:10.1007/JHEP12(2023)052</a>&rbrack;
 
 
 
