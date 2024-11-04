@@ -22,5 +22,5 @@ Recent connection to a case of BRST complex and related equivariant cohomology
 
 
 category: physics
-
+[[!redirects Keldysh-Schwinger formalism]]
 
