@@ -2583,6 +2583,19 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > {#PeddibhotlaOct2024Ref4} 4. S. Kumar et al, 2023 Quantum Sci. Technol. 8 025011
 
+\linebreak
+
+### Nov 2024
+
+* 04 Nov 2024
+
+  [[Edison Murairi]] (Fermi National Accelerator Laboratory (Fermilab)):
+
+  **Simulating QCD on Quantum Computers**
+
+  cf.: [arXiv:2208.11789](https://arxiv.org/abs/2208.11789)
+
+  > Despite significant progress in the last decades, numerical simulations of [[QCD]] on classical computers encounter significant challenges. For example, the [[Hilbert space]] grows exponentially with the [[degrees of freedom]], and Monte Carlo simulations of [[lattice QCD]] suffer from the [[sign problem in lattice QCD|sign problem]] at finite fermion density. [[quantum computers|Quantum computers]] are promising candidates to study QCD [[non-perturbative quantum field theory|non-perturbatively]]. However, [[quantum simulation|simulating]] [[QCD]] on a [[quantum computer]] requires digitizing infinite-dimensional [[gluon]] [[field (physics)|fields]], while minimizing the number of [[qubits]] (or [[qudits]]). Moreover, the digitization scheme must also support efficient [[quantum circuits]] to perform time evolutions and compute quantities of interest. Several digitization schemes have been proposed recently. In this talk, I will present the method of finite discrete groups, and analysis of its [[qubits]] and [[quantum circuits]] cost.
 
 \linebreak
 
