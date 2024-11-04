@@ -48,7 +48,7 @@ A *[[homomorphism]] of hyperrings* is a [[map]] $f \,\colon\, R_1 \to R_2$ such 
 
 1. $\forall a,b\in R_1 \,\colon\, f(a \cdot b) = f(a) \cdot f(b)$.
 
-A **hyperfield** is a hyperring for which $(R \setminus \{0\}, \cdot)$ is a [[group]].
+A **hyperfield** is a hyperring for which $(R \setminus \{0\}, \cdot)$ is a [[group]] and $0 \ne 1$.
 
 
 ## Examples
