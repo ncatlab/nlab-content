@@ -71,7 +71,7 @@ On [[finite-dimensional vector space|finite-dimensional]] [[representations]] of
 
 * {#NicolaiSamtleben05} [[Hermann Nicolai]], [[Henning Samtleben]]: *On $K(E_9)$*, Pure and Applied Mathematics Quarterly **1** 1 (2005) 180–204 &lbrack;[arXiv:hep-th/0407055](http://arxiv.org/abs/hep-th/0407055), [doi:10.4310/PAMQ.2005.v1.n1.a8](https://dx.doi.org/10.4310/PAMQ.2005.v1.n1.a8)&rbrack;
 
-* {#KKLN22} [[Axel Kleinschmidt]], [[Ralf Köhl]], [[Robin Lautenbacher]], [[Hermann Nicolai]]: *Representations of involutory subalgebras of affine Kac-Moody algebras*, Commun. Math. Phys. **392** (2022) 89–123 &lbrack;[arXiv:2102.00870](https://arxiv.org/abs/2102.00870), [doi:10.1007/s00220-022-04342-9](https://doi.org/10.1007/s00220-022-04342-9)&rbrack;
+* {#KKLN22} [[Axel Kleinschmidt]], Ralf Köhl, Robin Lautenbacher, [[Hermann Nicolai]]: *Representations of involutory subalgebras of affine Kac-Moody algebras*, Commun. Math. Phys. **392** (2022) 89–123 &lbrack;[arXiv:2102.00870](https://arxiv.org/abs/2102.00870), [doi:10.1007/s00220-022-04342-9](https://doi.org/10.1007/s00220-022-04342-9)&rbrack;
 
 * {#König24} Benedikt König: *$\mathfrak{k}$-structure of basic representation of affine algebras* &lbrack;[arXiv:2407.12748](https://arxiv.org/abs/2407.12748)&rbrack;
 
