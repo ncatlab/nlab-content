@@ -125,9 +125,11 @@ Of course, in a [[Heyting 2-category]], the latter three axioms can equivalently
 
 which have perhaps the most familiar form.
 
-## Every Point-wise Representable Profunctor is a Functor
+## Every Point-wise Representable Profunctor is the graph of a Functor
 
-For now see [[representability determines functoriality]], which should eventually be merged with this page. 
+Let $P : C \to Psh(D)$ be a [[profunctor]] that is point-wise representable in that for each $c \in C$, we have a $F_0(c)$ with a natural isomorphism $e_c : Y(F_0(c)) \cong P(c)$. Then we can extend this $F_0$ to a functor $F : C \to D$ as follows. Given $f : C(c,c')$, the functorial action of $P$ gives a natural transformation $P(f) : P(c) \to P(c')$. We can compose this with the natural isomorphisms to get a natural transformation $e_c \circ P(f) \circ e_{c'}^{-1} : Y(F_0(c)) \to Y(F_0(c'))$. Since the Yoneda embedding is fully faithful, there is a unique $F(f)$ such that $Y(F(f)) = e_c \circ P(f) \circ e_{c'}^{-1}$. This action preserves identity and composition by straightforward calculation, and we can define a natural isomorphism $e : Y \circ F \cong P$.
+
+For more see [[representability determines functoriality]], which should eventually be merged with this page. 
 
 ## References
 
