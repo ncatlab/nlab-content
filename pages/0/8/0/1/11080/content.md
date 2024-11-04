@@ -2516,7 +2516,7 @@ $\,$
 
 The traditional concept of [[integration of differential forms]] over a [[compact space|compact]] [[smooth manifold]] $\Sigma$ applies in smooth families of differential forms and hence constitutes in fact a [[smooth function]] from the [[smooth set|smooth]] [[moduli space]] of [[differential forms]] on the given manifold, this is Def. \ref{ParameterizedIntegrationOfDifferentialForms} below.
 
-Using this, [[transgression of differential forms]] may be defines as the application of the [[mapping space]]-[[functor]] out of $\Sigma$ to the [[modulating morphisms]] of [[differential forms]] and applying [[integration of differential forms]] to the result (Def. \ref{TransgressionOfDifferentialFormsToMappingSpaces} below). This simple construction turns out to be equivalent to the traditional definition (Prop. \ref{EquivalenceOfTransgressionOfDifferentialFormsToMappingSpaces} below).
+Using this, [[transgression of differential forms]] may be defined as the application of the [[mapping space]]-[[functor]] out of $\Sigma$ to the [[modulating morphisms]] of [[differential forms]] and applying [[integration of differential forms]] to the result (Def. \ref{TransgressionOfDifferentialFormsToMappingSpaces} below). This simple construction turns out to be equivalent to the traditional definition (Prop. \ref{EquivalenceOfTransgressionOfDifferentialFormsToMappingSpaces} below).
 
 
 +-- {: .num_defn #ParameterizedIntegrationOfDifferentialForms}
