@@ -10,6 +10,8 @@ There are several notions of noncommutative differential calculus. See related p
 
 This entry is about the version of "Cartan calculus" for associative algebras introduced by [[Boris Tsygan]], [[Dmitri Tamarkin]] and [[Ryszard Nest]], and studied also by Dolgushev, Kowalzig and others. 
 
+Some early ideas of extending Cartan calculus to noncommutative geometry are from Gelfand et al. and from Reinhart.
+
 
 ## Definition
 
@@ -69,6 +71,8 @@ See also the case of [[Batalin-Vilkovisky algebra]].
 
 
 ## References
+
+* I. M. Gel'fand, Yu. L. Daletskii, B. L. Tsygan, _On a variant of noncommutative differential geometry_, Dokl. Akad. Nauk SSSR __308__:6 (1989) 1293--1297; Engl. transl.: Dokl. Math. __40__:2 (1990) 422--426 [mathnet.ru](https://www.mathnet.ru/eng/dan6899)
 
 * [[Dmitri Tamarkin]], [[Boris Tsygan]], _Noncommutative differential calculus, homotopy BV algebras and formality conjectures_, Metods of Functional Analysis and topology, 1, 2001 arXiv:[math.KT/0002116](https://arxiv.org/abs/math/0002116)
 
