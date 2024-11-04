@@ -1066,7 +1066,9 @@ Original articles:
 
 * [[Nicholas M. Katz]], *On the differential equations satisfied by period matrices*, Publications Mathématiques de l'IHÉS, Tome **35** (1968) 71-106 $[$[numdamPMIHES_1968__35__71_0](http://www.numdam.org/item/PMIHES_1968__35__71_0)$]$
 
-* {#Grothendieck66} [[Alexander Grothendieck]], *On the de Rham cohomology of algebraic varieties*, Publications Mathématiques de l'IHÉS, Tome **29** (1966) 95-103 $[$[numdam:PMIHES_1966__29__95_0](http://www.numdam.org/item/?id=PMIHES_1966__29__95_0)$]$ 
+* {#Grothendieck66} [[Alexander Grothendieck]], *On the de Rham cohomology of algebraic varieties*, Publications Mathématiques de l'IHÉS, Tome **29** (1966) 95-103 $[$[numdam:PMIHES_1966__29__95_0](http://www.numdam.org/item/?id=PMIHES_1966__29__95_0)$]$
+
+* Sec. (3.2), (3.3), (3.4) in: A. [[Grothendieck]], _Crystals and the de Rham cohomology of schemes_, in "Dix exposes sur la cohomologie des schemas", Adv. Stud. Pure Math. 3, North Holland 1968, 306--358 [pdf](https://download.uni-mainz.de/mathematik/Algebraische%20Geometrie/Lehre/WS23.Padische.1966.Grothendieck.CRCSscan.pdf) 
 
 * [[Nicholas M. Katz]], [[Tadao Oda]], *On the differentiation of De Rham cohomology classes with respect to parameters*, J. Math. Kyoto Univ. **8** 2 (1968) 199-213 $[$[doi:10.1215/kjm/1250524135](https://projecteuclid.org/journals/kyoto-journal-of-mathematics/volume-8/issue-2/On-the-differentiation-of-De-Rham-cohomology-classes-with-respect/10.1215/kjm/1250524135.full)$]$
 
@@ -1075,7 +1077,6 @@ Original articles:
 * [[Pierre Deligne]], *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) $[$[publications.ias:355](https://publications.ias.edu/node/355)$]$
 
 * [[Phillip A. Griffiths]], *Periods of integrals on algebraic manifolds: Summary of main results and discussion of open problems*, Bull. Amer. Math. Soc. **76** (1970) 228-296 $[$[doi:10.1090/S0002-9904-1970-12444-2](https://doi.org/10.1090/S0002-9904-1970-12444-2)$]$
-
 
 Textbook accounts:
 
