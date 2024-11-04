@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _Bi-Yang-Mills equations_ (or _Bi-YM equations_) arise from a generalization of the Yang-Mills action functional, so that the curvature is replaced by its adjoint derivative. While a vanishing curvature gives a flat connection, its vanishing adjoint derivative gives a Yang-Mills connection. Hence by switching to local extrema, Bi-Yang-Mills connections are to Yang-Mills connections what these are to flat connections.
+The _Bi-Yang-Mills equations_ (or _Bi-YM equations_) arise from a generalization of the Yang-Mills action functional, so that the curvature is replaced by its adjoint derivative. While a vanishing curvature gives a flat connection, its vanishing adjoint derivative gives a Yang-Mills connection. Hence by only requiring local extrema, Bi-Yang-Mills connections are to Yang-Mills connections what these are to flat connections. While Yang-Mills connections can be seen as a non-linear generalization of [[harmonic maps]], Bi-Yang-Mills connections can be seen as a non-linear generalization of biharmonic maps.
 
 ## Bi-Yang-Mills action functional
 
