@@ -28,6 +28,10 @@ The _Yang-Mills equations_ are the [[equations of motion]]/[[Euler-Lagrange equa
 
 * [[Yang-Mills monopole]]
 
+* [[F-Yang-Mills equation]]
+
+* [[Bi-Yang-Mills equation]]
+
 ## References
 
 (For full list of references see at _[[Yang-Mills theory]]_)
