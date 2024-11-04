@@ -1,8 +1,12 @@
 Introduced by [[Israel Gelfand|Gelfand]] and Ponomarev in study of representations of quivers
 
-* I. M. Gelfand, V. A. Ponomarev, _Model algebras and representations of graphs:, Funkc. Anal. i Priložen. 13 (1979) 1–12. Engl.transl. Func. Anal. Appl. 13 (1979) 157–166.
+* I. M. Gelfand, V. A. Ponomarev, _Model algebras and representations of graphs:, Funkc. Anal. i Priložen. 13 (1979) 1--12. Engl.transl. Func. Anal. Appl. 13 (1979) 157–166.
 
-Deformed version is described in
+When a path algebra of the quiver is replaced by a more general finite dimensional hereditary $k$-algebra $A$, the construction of the algebra structure on a representative system of indecomposable left (right) $A$-modules is proposed in 
+
+* D. Baer, W. Geigle, H. Lenzing, _The preprojective algebra of a tame hereditary Artin algebra_, Commun. Algebra 15 (1987), 425--457 [doi](https://doi.org/10.1080/00927878708823425)
+
+The deformed version is described in
 
 * [[W. Crawley-Boevey]], Martin P. Holland, _Noncommutative deformations of Kleinian singularities_, Duke Math. J. 92 (3): 605–635 (1998) [doi](https://doi.org/10.1215/S0012-7094-98-09218-3) [MR1620538](https://mathscinet.ams.org/mathscinet-getitem?mr=1620538)
 
