@@ -16,6 +16,12 @@ On [[spinning particles]] and their [[worldline]] [[supersymmetry]]:
 
 * [[Lars Brink]], [[Paolo Di Vecchia]], [[Paul Howe]], *A Lagrangian formulation of the classical and quantum dynamics of spinning particles*, Nucl. Phys. B **118** (1977) 76 &lbrack;<a href="https://doi.org/10.1016/0550-3213(77)90364-9">doi:10.1016/0550-3213(77)90364-9</a>&rbrack;
 
+
+A [[superspace]]-formulation of [[D=4 N=8 supergravity]] with manifest $SU(8)$-[[U-duality]] ([[exceptional field theory]]):
+
+* [[Lars Brink]], [[Paul Howe]]: *The $N = 8$ supergravity in superspace*, Physics Letters B **88** 3–4 (1979) 268-272 &lbrack;<a href="https://doi.org/10.1016/0370-2693(79)90464-7">doi:10.1016/0370-2693(79)90464-7</a>&rbrack;
+
+
 Formulation of [[D=11 supergravity]] in [[superspace]] (via [[supergeometry]]):
 
 * [[Lars Brink]], [[Paul Howe]], *Eleven-Dimensional Supergravity on the Mass-Shell in Superspace*, Phys.Lett. B **91** (1980) 384 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)91002-3">doi:10.1016/0370-2693(80)91002-3</a>&rbrack;
