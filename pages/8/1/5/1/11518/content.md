@@ -53,16 +53,16 @@ such that
 
 1. $\sigma_{V,V} = id$;
 
-1. for any $Z \hookrightarrow V \hookrightarrow W$ we have [[commuting diagrams]]
+1. for any $V \hookrightarrow W \hookrightarrow Z$ we have [[commuting diagrams]]
 
    $$
      \array{
-       S^{Z-W}\wedge S^{V-W} \wedge E_V
-       &\stackrel{S^{Z-W}\wedge(\sigma_{V,W})}{\longrightarrow}& S^{Z-W}E_W
+       S^{Z-W}\wedge S^{W-V} \wedge E_V
+       &\stackrel{S^{Z-W}\wedge(\sigma_{V,W})}{\longrightarrow}& S^{Z-W} \wedge E_W
        \\
-       \downarrow && \downarrow^{\mathrlap{\Sigma_{Z,W}}}
+       \downarrow && \downarrow^{\mathrlap{\sigma_{W,Z}}}
        \\
-       S^{Z-V}E_V &\stackrel{\sigma_{V,Z}}{\longrightarrow}& E_Z
+       S^{Z-V} \wedge E_V &\stackrel{\sigma_{V,Z}}{\longrightarrow}& E_Z
      }
    $$
 
