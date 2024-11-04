@@ -210,6 +210,11 @@ and further gaugings by non-compact gauge groups in
 
 * [[Chris Hull]], _New Gauged $N=8$, $D=4$ Supergravities_, _Class.Quant.Grav.20:5407-5424,2003_ ([arXiv:hep-th/0204156](https://arxiv.org/abs/hep-th/0204156))
 
+A [[superspace]]-formulation with manifest $SU(8)$-[[U-duality]] ([[exceptional field theory]]):
+
+* [[Lars Brink]], [[Paul Howe]]: *The $N = 8$ supergravity in superspace*, Physics Letters B **88** 3–4 (1979) 268-272 &lbrack;<a href="https://doi.org/10.1016/0370-2693(79)90464-7">doi:10.1016/0370-2693(79)90464-7</a>&rbrack;
+
+
 Review:
 
 * [[Hermann Nicolai]]: *$\mathcal{N}=8$ Supergravity, and beyond* &lbrack;[arXiv:2409.18656](https://arxiv.org/abs/2409.18656)&rbrack;
