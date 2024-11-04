@@ -229,7 +229,7 @@ Then consider the [[function]]
 
 $$
   \array{
-    \underset{n \in \mathbb{N}}{\prod}
+    \underset{n \in \mathbb{N}}{\prod} \{0,1\}
       &\overset{\kappa}{\longrightarrow}&
     [0,1]
     \\
