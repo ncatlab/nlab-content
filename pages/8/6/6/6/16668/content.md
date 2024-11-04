@@ -111,7 +111,13 @@ Discussion for [[E9]]:
 
 Generalization to exceptional [[super-spacetimes]]:
 
+* [[Lars Brink]], [[Paul Howe]]: *The $N = 8$ supergravity in superspace*, Physics Letters B **88** 3–4 (1979) 268-272 &lbrack;<a href="https://doi.org/10.1016/0370-2693(79)90464-7">doi:10.1016/0370-2693(79)90464-7</a>&rbrack;
+
 * [[Daniel Butter]], [[Henning Samtleben]], [[Ergin Sezgin]]: *$E_{7(7)}$-Exceptional Field Theory in Superspace*, J. High Energ. Phys. **2019** 87 (2019)  &lbrack;[arXiv:1811.00038](https://arxiv.org/abs/1811.00038), <a href="https://doi.org/10.1007/JHEP01(2019)087">doi:10.1007/JHEP01(2019)087</a>&rbrack;
+
+* Sudarshan Ananth, Nipun Bhave: *Exceptional symmetries in light-cone superspace* &lbrack;[arXiv:2410.19463](https://arxiv.org/abs/2410.19463)&rbrack;
+
+
 
 On [[AdS4/CFT3 duality]] via [[exceptional field theory]] and [[super Chern-Simons theory]]:
 
