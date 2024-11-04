@@ -45,7 +45,7 @@ Moreover this has also a crystalline version: **crystals of affine schemes**. Th
 * [[Dennis Gaitsgory]], Nick Rozenblyum, _Crystals and D-modules_, [arxiv/1111.2087](https://arxiv.org/abs/1111.2087)
 * A. [[Beilinson]], V. Drinfel'd, _Chiral algebras_ contains a section on D-schemes.
 
-* A. [[Grothendieck]], _Crystals and the de Rham cohomology of schemes_, in "Dix exposes sur la cohomologie des schemas"
+* A. [[Grothendieck]], _Crystals and the de Rham cohomology of schemes_, in "Dix exposes sur la cohomologie des schemas", Adv. Stud. Pure Math. 3, North Holland 1968, 306--358 [pdf](https://download.uni-mainz.de/mathematik/Algebraische%20Geometrie/Lehre/WS23.Padische.1966.Grothendieck.CRCSscan.pdf)
 
 * [[Clark Barwick]], _$\mathcal{D}$-crystals_, notes from 2006 talk, [pdf](https://www.maths.ed.ac.uk/~cbarwick/papers/D-crys.pdf)
 
