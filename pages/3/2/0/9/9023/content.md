@@ -90,7 +90,10 @@ On $E_9$-[[exceptional field theory]]-formulation of [[D=11 supergravity]]:
 
 
 
-On the [[maximal compact subalgebras]] of [[E9]] and [[E10]], respectively, and their [[finite-dimensional vector space|finite-dimensional]] [[linear representations]]:
+On the [[maximal compact subalgebras]] of [[E9]] (and [[E10]]) and their [[finite-dimensional vector space|finite-dimensional]] [[linear representations]]:
+
+* [[Hermann Nicolai]], [[Henning Samtleben]]: *On $K(E_9)$*, Q. J. Pure Appl. Math. **1** (2005) 180-204 &lbrack;[arXiv:hep-th/0407055](https://arxiv.org/abs/hep-th/0407055), [doi:10.4310/PAMQ.2005.v1.n1.a8](https://dx.doi.org/10.4310/PAMQ.2005.v1.n1.a8)&rbrack;
+
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]], [[Jakob Palmkvist]]: *$K(E_9)$ from $K(E_{10})$*, Journal of High Energy Physics **2007** JHEP06 (2007) &lbrack;[arXiv:hep-th/0611314](https://arxiv.org/abs/hep-th/0611314), [doi:10.1088/1126-6708/2007/06/051](https://doi.org/10.1088/1126-6708/2007/06/051)&rbrack;
 
