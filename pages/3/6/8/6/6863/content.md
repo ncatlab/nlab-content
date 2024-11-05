@@ -35,6 +35,10 @@ Realizing [[local symmetry|local]] $\mathfrak{so}(18)$ [[U-duality]] symmetry of
 
 * [[Hermann Nicolai]]: *$d=11$ Supergravity with local $SO(16)$ invariance*, Physics Letters B **187** 3–4 (1987)  316-320 &lbrack;<a href="https://doi.org/10.1016/0370-2693(87)91102-6">doi:10.1016/0370-2693(87)91102-6</a>&rbrack;
 
+On [[D=2 supergravity]]:
+
+* [[Hermann Nicolai]]: *The integrability of $N=16$ supergravity*, Physics Letters B **194** 3 (1987) 402-407 \[<a hredf="https://doi.org/10.1016/0370-2693(87)91072-0">doi:10.1016/0370-2693(87)91072-0</a>, [spire:21766](https://inspirehep.net/literature/21766)\]
+
 
 On [[quantization]] of the [[M2-brane]] [[Green-Schwarz sigma-model]] by the [[BFSS matrix model]]:
 
