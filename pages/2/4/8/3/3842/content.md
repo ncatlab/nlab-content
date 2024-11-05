@@ -316,7 +316,9 @@ Original discussion:
 
 * [[Marta Bunge]], *Categories of Set-Valued Functors*, PhD thesis, University of Pennsylvania (1966) &lbrack;[[Bunge-SetValuedFunctors.pdf:file]]&rbrack;
 
-https://ncatlab.org/nlab/files/Bunge-SetValuedFunctors.pdf
+  Reprints in Theory and Applications of Categories, **30** (2024) 1-84 &lbrack;[tac:tr30](http://www.tac.mta.ca/tac/reprints/articles/30/tr30abs.html)&rbrack;
+
+
 
 * {#SGA4} [[Michael Artin|M.Artin]], [[Alexander Grothendieck|A.Grothendieck]], [[J. L. Verdier]] (eds.), *Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - [[SGA 4]]*, LNM 269 Springer (1972)
 
@@ -354,7 +356,7 @@ The result about Artin gluings of presheaf toposes is due to Carboni and Johnsto
 
 and is explained in section C.3 of Tom Leinster's book, 
 
-* {#Lein} [[Tom Leinster]], *Higher Categories, Higher Operads*, ([https://arxiv.org/abs/math/0305049](https://arxiv.org/abs/math/0305049)). 
+* {#Lein} [[Tom Leinster]], *Higher Categories, Higher Operads* &lbrack;[arXiv:math/0305049](https://arxiv.org/abs/math/0305049)&rbrack;
 
 [[!redirects categories of presheaves]]
 [[!redirects presheaf category]]
