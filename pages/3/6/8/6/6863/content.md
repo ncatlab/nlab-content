@@ -78,12 +78,15 @@ Discussion of [[E9]] in view of [[U-duality]]-symmetry of [[D=11 supergravity]] 
 
 * [[Hermann Nicolai]], [[Henning Samtleben]]: *On $K(E_9)$*, Pure and Applied Mathematics Quarterly **1** 1 (2005) 180–204 &lbrack;[arXiv:hep-th/0407055](http://arxiv.org/abs/hep-th/0407055), [doi:10.4310/PAMQ.2005.v1.n1.a8](https://dx.doi.org/10.4310/PAMQ.2005.v1.n1.a8)&rbrack;
 
-* [[Axel Kleinschmidt]], Ralf Köhl, Robin Lautenbacher, [[Hermann Nicolai]]: *Representations of involutory subalgebras of affine Kac-Moody algebras*, Commun. Math. Phys. **392** (2022) 89–123 &lbrack;[arXiv:2102.00870](https://arxiv.org/abs/2102.00870), [doi:10.1007/s00220-022-04342-9](https://doi.org/10.1007/s00220-022-04342-9)&rbrack;
+* [[Axel Kleinschmidt]], [[Ralf Köhl]], [[Robin Lautenbacher]], [[Hermann Nicolai]]: *Representations of involutory subalgebras of affine Kac-Moody algebras*, Commun. Math. Phys. **392** (2022) 89–123 &lbrack;[arXiv:2102.00870](https://arxiv.org/abs/2102.00870), [doi:10.1007/s00220-022-04342-9](https://doi.org/10.1007/s00220-022-04342-9)&rbrack;
 
 
 On the [[maximal compact subalgebras]] of [[E9]] and [[E10]], respectively, and their [[finite-dimensional vector space|finite-dimensional]] [[linear representations]]:
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]], [[Jakob Palmkvist]]: *$K(E_9)$ from $K(E_{10})$*, Journal of High Energy Physics **2007** JHEP06 (2007) &lbrack;[arXiv:hep-th/0611314](https://arxiv.org/abs/hep-th/0611314), [doi:10.1088/1126-6708/2007/06/051](https://doi.org/10.1088/1126-6708/2007/06/051)&rbrack;
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *On higher spin realizations of $K(E_{10})$*, J. High Energ. Phys. **2013** 41 (2013) &lbrack;[arXiv:1307.0413](https://arxiv.org/abs/1307.0413), <a href="https://doi.org/10.1007/JHEP08(2013)041">doi:10.1007/JHEP08(2013)041</a>&rbrack;
+
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Generalised holonomies and $K(E_9)$*, J. High Energ. Phys. **2021** 54 (2021) &lbrack;[arXiv:2107.02445](https://arxiv.org/abs/2107.02445), <a href="https://doi.org/10.1007/JHEP09(2021)054">doi:10.1007/JHEP09(2021)054</a>&rbrack;
 
