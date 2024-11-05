@@ -26,7 +26,7 @@
 
 ## Idea
 
-The concept of _real oriented cohomology theory_ ([Araki 78](#Araki78), [Araki 79](#Araki79)) is the analog of that of _[[complex oriented cohomology theory]]_ in the context of $\mathbb{Z}_2$-[[equivariant cohomology theory]].
+The concept of _real oriented cohomology theory_ ([Araki-Murayama 78](#AM78), [Araki 79](#Araki79)) is the analog of that of _[[complex oriented cohomology theory]]_ in the context of $\mathbb{Z}_2$-[[equivariant cohomology theory]].
 
 Where [[complex oriented cohomology theory]] singles out the [[classifying space]] $B S^1 =$[[BU(n)|$B U(1)$]] of the [[circle group]], in real-oriented cohomology theory its role is played by this same space but equipped with the $\mathbb{Z}_2$-[[∞-action]] induced by the $\mathbb{Z}_2$-[[action]] $S^1 \to S^1$ on the circle that identifies the two semi-circles.
 
@@ -74,7 +74,7 @@ In [[physics]] ([[string theory]]) where ([[gauge field|gauge]]) [[field (physic
 
 The definition is originally due to:
 
-* {#Araki78} [[Shôrô Araki]], *$\tau$-Cohomology Theories*, Japanese Journal of Mathematics **4** 2 (1978) 363-416 &lbrack;[doi:10.4099/math1924.4.363](https://doi.org/10.4099/math1924.4.363)&rbrack;
+* {#AM78} [[Shôrô Araki]], Mitutaka Murayama, *$\tau$-Cohomology Theories*, Japanese Journal of Mathematics **4** 2 (1978) 363-416 &lbrack;[doi:10.4099/math1924.4.363](https://doi.org/10.4099/math1924.4.363)&rbrack;
 
 * {#Araki79} [[Shôrô Araki]], *Forgetful spectral sequences*, Osaka Journal of Mathematics **16** 1 (1979) 173-199 &lbrack;[Euclid](https://projecteuclid.org/journals/osaka-journal-of-mathematics/volume-16/issue-1/Forgetful-spectral-sequences/ojm/1200771837.full)&rbrack;
 
