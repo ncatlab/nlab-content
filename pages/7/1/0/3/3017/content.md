@@ -27,7 +27,7 @@ For usefully working with bicategories of this kind, it is typically of crucial 
 
 A fibrant double category is essentially the same as a _[[proarrow equipment]]_ on a bicategory. See there for more.
 
-Fibrant double categories have also been called **framed bicategories** ([Shulman '08](#Shulman08)) and **gregarious double categories** ([DPP10](#DawsonParePronk10).
+Fibrant double categories have also been called **framed bicategories** ([Shulman '08](#Shulman08)) and **gregarious double categories** ([DPP10](#DawsonParePronk10)).
 
 ## Definition
 
