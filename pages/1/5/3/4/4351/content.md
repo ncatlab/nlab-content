@@ -61,6 +61,15 @@ We can form many examples of hyperrings by [[quotient ring|quotienting]] a ring 
 
 In particular, if $R$ is a hyperfield so is $R/G$.
 
+We say a hyperring is *doubly distributive* if obeys the familiar identity
+
+$$ (a + b)(c + d) = a c + a d + b c + b d $$
+
+Not every hyperring is doubly distributive (see the example of the triangle hyperring below): in general, we merely have
+
+$$ (a + b)(c + d) \subseteq a c + a d + b c + b d $$
+
+However, every hyperring $R/G$ obtained as a quotient of a ring $R$ by the above construction is doubly distributive.
 
 ### The Krasner hyperfield $\mathbb{K}$
 
@@ -110,11 +119,15 @@ $$
 
 ### The tropical hyperfield $\mathbb{T}$
 
-The tropical hyperfield has as its underlying set $\mathbb{T} = [0,\infty]$.  The product of $a, b \in \mathbb{T}$ is defined to be the usual *sum* of nonnegative numbers for $a, b\in [0,\infty)$, and we define $a \cdot \infty = \infty$.   The sum of $a,b \in \mathbb{T}$ is defined to be $a \max b$ when $a \ne b$, but when $a = b$ it is defined to be the set $[0,a]$.
+The *tropical hyperfield* has as its underlying set $\mathbb{T} = [0,\infty]$.  The product of $a, b \in \mathbb{T}$ is defined to be the usual *sum* of nonnegative numbers for $a, b\in [0,\infty)$, and we define $a \cdot \infty = \infty$.   The sum of $a,b \in \mathbb{T}$ is defined to be $a \max b$ when $a \ne b$, but when $a = b$ it is defined to be the set $[0,a]$.
 
 **Proposition.**  For any commutative ring $R$,  hyperring homomorphisms $\phi \colon R \to \mathbb{T}$ are the same as nonarchimedean valuations $\phi \colon R \to [0,\infty]$.
 
 This was observed first by Viro, but a proof can be found in Lorscheid's _Tropical geometry over the tropical hyperfield_, Theorem 2.2.
+
+### The triangle hyperfield $\Delta$
+
+The *triangle hyperfield* $\Delta$ is the set $\mathbb{R}^+ = [0,\infty)$ with its usual multiplication, where the sum of $a$ and $b$ is the set of all $c \in \mathbb{R}^+$ such $a,b,c$ are the lengths of the sides of a (possibly degenerate) triangle in the plane. Viro showed $\Delta$ is a hyperfield in Theorem 5.4 of his paper on hyperfields in [[tropical geometry]].  He also proved that this hyperfield is not doubly distributive.
 
 ## Related entries
 
