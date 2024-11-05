@@ -17,6 +17,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -140,6 +141,7 @@ Review:
 
 * {#West16} [[Peter West]]: _A brief review of E theory_, in:  *Memorial Volume on Abdus Salam's 90th Birthday*, World Scientific (2017) 135-176 &lbrack;[arXiv:1609.06863](http://arxiv.org/abs/1609.06863), [doi:10.1142/9789813144873_0009](https://doi.org/10.1142/9789813144873_0009)&rbrack;
 
+* Keith Glennon: *An Overview of the $E_{11}$ Program*, talk at OIST, Okinawa (2024) &lbrack;[pdf](https://groups.oist.jp/sites/default/files/imce/u102002/Keith%20Glennon%20OIST%20Presentation%202024.pdf), [[Glennon-E11Program.pdf:file]]&rbrack;
 
 Original articles include the following:
 
@@ -149,7 +151,7 @@ The observation that $E_{11}$ seems to neatly organize the structures in [[11-di
 
 On the encoding of [[spacetime signature|spacetime signature(s)]] in $\mathfrak{e}_{11}$:
 
-* [[Arjan Keurentjes]]: *$E_{11}$: Sign of the times*, Nucl. Phys. B **697** (2004) 302-318 &lbrack;[arXiv:hep-th/0402090](https://arxiv.org/abs/hep-th/0402090), [doi:10.1016/j.nuclphysb.2004.06.058](https://doi.org/10.1016/j.nuclphysb.2004.06.058)&rbrack;
+* {#Keurentjes04} [[Arjan Keurentjes]]: *$E_{11}$: Sign of the times*, Nucl. Phys. B **697** (2004) 302-318 &lbrack;[arXiv:hep-th/0402090](https://arxiv.org/abs/hep-th/0402090), [doi:10.1016/j.nuclphysb.2004.06.058](https://doi.org/10.1016/j.nuclphysb.2004.06.058)&rbrack;
 
 
 A precursor to ([West 01](#West01)) is 
