@@ -13,6 +13,9 @@ On [[categories of presheaves]]:
 
 * {#Bunge66} [[Marta Bunge]], *Categories of set valued functors*, PhD thesis, University of Pennsylvania (1966) &lbrack;[[Bunge-CategoriesOfSetValuedFunctors.pdf:file]]&rbrack;
 
+  Reprints in Theory and Applications of Categories, **30** (2024) 1-84 &lbrack;[tac:tr30](http://www.tac.mta.ca/tac/reprints/articles/30/tr30abs.html)&rbrack;
+
+
 On [[internal presheaves]] in [[elementary toposes]]:
 
 * [[Marta Bunge]], *Internal Presheaf Toposes*, [[Cahiers|Cahiers de topologie et géométrie différentielle catégoriques]] **18** 3 (1977) 291-330 &lbrack;[numdam:CTGDC_1977__18_3_291_0](http://www.numdam.org/item/?id=CTGDC_1977__18_3_291_0)&rbrack;
