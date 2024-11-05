@@ -55,7 +55,7 @@ A **hyperfield** is a hyperring for which $(R \setminus \{0\}, \cdot)$ is a [[gr
 
 ### Equivalence classes in a ring
 
-We can form many examples of hyperrings by [[quotient ring|quotienting]] a ring $R$ by some [[subgroup]] $G \subset R^{\times}$ of its [[group of units]].  More in detail, an element of the hyperring $R/G$ is given by an [[equivalence class]] of elements of $R$, where $x \sim y$ if and only if $x = y g$ for some $g \in G$.   Multiplication descends straightforwardly from $R$ to $R/G$, while addition become multivalued: the sum of equivalence classes $[x]$ and $[y]$ is the set of all equivalence classes $[x + y]$.
+We can form many examples of hyperrings by [[quotient ring|quotienting]] a ring $R$ by some [[subgroup]] $G \subseteq R^{\times}$ of its [[group of units]] such that $r G = G r$ for all $r \in R$. In more detail, an element of the hyperring $R/G$ is given by an [[equivalence class]] of elements of $R$, where $x \sim y$ if and only if $x = y g$ for some $g \in G$.   Thanks to the condition $r G = G r$, multiplication descends straightforwardly from $R$ to $R/G$, while addition become multivalued: the sum of equivalence classes $[x]$ and $[y]$ is the set of all equivalence classes $[x + y]$.
 
 In particular, if $R$ is a hyperfield so is $R/G$.
 
