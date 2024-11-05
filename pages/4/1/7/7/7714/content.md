@@ -54,6 +54,12 @@ The actual term "exceptional tangent bundle" appears, in the context of *[[excep
 
 * {#BermanBlair06} [[David Berman]], [[Chris D. A. Blair]], (4.4) of: _The Geometry, Branes and Applications of Exceptional Field Theory_,  International Journal of Modern Physics A **35** 30 (2020) 2030014  &lbrack;[arXiv:2006.09777](http://arxiv.org/abs/2006.09777), [doi:10.1142/S0217751X20300148](https://doi.org/10.1142/S0217751X20300148)&rbrack;
 
+and the term "exceptional tangent space" (or rather "exceptional generalised tangent space") appears for instance in
+
+* Paulo P. Pacheco, [[Daniel Waldram]]: §2.2 in: *M-theory, exceptional generalised geometry and superpotentials*, JHEP 0809: 123 (2008) &lbrack;[arXiv:0804.1362](https://arxiv.org/abs/0804.1362), [doi:10.1088/1126-6708/2008/09/123](https://doi.org/10.1088/1126-6708/2008/09/123)&rbrack;
+
+* André Coimbra, Charles Strickland-Constable, [[Daniel Waldram]]: *$E_{d(d)} \times \mathbb{R}^+$ Generalised Geometry, Connections and M theory*,  J. High Energ. Phys. **2014** 54 (2014) &lbrack;[arXiv:1112.3989](https://arxiv.org/abs/1112.3989), <a href="https://doi.org/10.1007/JHEP02(2014)054">doi:10.1007/JHEP02(2014)054</a>&rbrack;
+
 
 
 [[!redirects exceptional tangent bundles]]
