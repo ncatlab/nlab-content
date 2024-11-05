@@ -8,12 +8,18 @@ An **ontology log** ("olog", spoken like "o log") is a labeled [[graph]] with [[
 
 Ontology logs provide a basis for [[database]] construction. In particular, an ontology log can serve as the schema for structured data.
 
-As originally introduced in ([Spivak & Kent 2012](#SpivakKent12)), ologs are [[diagrams]] into **[[Set]]** or another [[topos]]. However, as they anticipated, and as later realized by ([Patterson 2017](#Patterson17)), ologs can be generalized to diagrams into **[[Rel]]** or another [[bicategory of relations]].
+As originally introduced in ([Spivak & Kent 2012](#SpivakKent12)), ologs are [[diagrams]] into **[[Set]]** or another [[topos]]. However, as they anticipated, and as later realized by ([Patterson 2017](#Patterson17)), ologs can be generalized to diagrams into **[[Rel]]** or another [[bicategory of relations]], and as elaborated by ([Lambert & Patterson 2024](#LambertPatterson24)), ologs can also be generalized to diagrams into [[double category|double categories]].
 
 
-## Definition 
+## Definition
 
-An ontology log is a [[commuting diagram]] into a topos or a bicategory of relations. In the former case, they are known as **functional ologs**, and in the latter case, they are known as **relational ologs**. The labels of the diagram are expected to adhere to language-specific good practices. Labeled objects, arrows, and equivalences are called **types**, **aspects**, and **facts** respectively.
+An ontology log is a [[commuting diagram]]. Three flavors of ontology log are known:
+
+1. **functional ologs**, which target topoi;
+1. **relational ologs**, which target bicategories of relations; and
+1. **double ologs**, which target double categories.
+
+The labels of the diagram are expected to adhere to language-specific good practices. Labeled objects, arrows, and 2-cells are called **types**, **aspects**, and **facts** respectively.
 
 Target categories are called **data categories** and functors from ontology logs to data categories are called **instance data**. ([Patterson 2017](#Patterson17), p. 26)
 
@@ -59,3 +65,4 @@ Facts do not need to be labeled, but the author should indicate as many of them 
 
 * {#SpivakKent12} [[David Spivak|DI Spivak]], RE Kent, _Ologs: A Categorical Framework for Knowledge Representation_, PLoS ONE **7(1)** 2012 &lbrack;[arxiv:1102.1889](https://arxiv.org/abs/1102.1889), [doi:10.1371/journal.pone.0024274](https://doi.org/10.1371/journal.pone.0024274)&rbrack;
 * {#Patterson17} E Patterson, _Knowledge Representation in Bicategories of Relations_, 2017 [arxiv:1706.00526](https://arxiv.org/abs/1706.00526)
+* {#LambertPatterson24} M Lambert, E Patterson, _Representing Knowledge and Querying Data using Double-Functorial Semantics_, &lbrack;[arxiv:2403.19884](https://arxiv.org/abs/2403.19884)&rbrack;
