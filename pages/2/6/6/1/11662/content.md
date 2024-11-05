@@ -63,6 +63,8 @@ The [[U-duality]] group (see there) of maximal 2d SuGra is [[E9]] (its [[split r
 
 ## References
 
+* [[Hermann Nicolai]]: *The integrability of $N=16$ supergravity*, Physics Letters B **194** 3 (1987) 402-407 \[<a hredf="https://doi.org/10.1016/0370-2693(87)91072-0">doi:10.1016/0370-2693(87)91072-0</a>, [spire:21766](https://inspirehep.net/literature/21766)\]
+
 * T. Fujiwara, Y. Igarashi, R. Kuriki, T. Tabei, _BFV-BRST Quantization of 2D Supergravity_ ([arXiv:hep-th/9502127](http://arxiv.org/abs/hep-th/9502127))
 
 * S. Bellucci, E. Ivanov, _$N=(4,4)$, 2D supergravity in $SU(2)\times SU(2)$ harmonic superspace_ ([arXiv:hep-th/0003154](http://arxiv.org/abs/hep-th/0003154))
