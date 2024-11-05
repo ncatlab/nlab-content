@@ -173,7 +173,9 @@ Discussion via the [[BFSS matrix model]]:
 * [[Shmuel Elitzur]], [[Amit Giveon]], [[David Kutasov]], [[Eliezer Rabinovici]]: *Algebraic Aspects of Matrix Theory on $T^d$*, Nucl. Phys. B **509** (1998) 122-144 &lbrack;[arXiv:hep-th/9707217](https://arxiv.org/abs/hep-th/9707217), <a href="https://doi.org/10.1016/S0550-3213(97)00622-6">doi:10.1016/S0550-3213(97)00622-6</a>&rbrack;
 
 
-Early teview:
+Early review:
+
+* [[Eugène Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]]: *Dualisation of Dualities, I*, Nucl. Phys.  B **523** (1998) 73-144 &lbrack;[arXiv:hep-th/9710119](https://arxiv.org/abs/hep-th/9710119), <a href="https://doi.org/10.1016/S0550-3213(98)00136-9">doi:10.1016/S0550-3213(98)00136-9</a>&rbrack;
 
 * {#ObersPioline98} [[Niels Obers]], [[Boris Pioline]], *U-duality and M-Theory*, Phys. Rept. **318** (1999) 113-225 &lbrack;[arXiv:hep-th/9809039](https://arxiv.org/abs/hep-th/9809039), <a href="https://doi.org/10.1016/S0370-1573(99)00004-6">doi:10.1016/S0370-1573(99)00004-6</a>&rbrack;
 
