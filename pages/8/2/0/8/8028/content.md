@@ -50,6 +50,8 @@ On the [[maximal compact subalgebras]] of [[E9]] and [[E10]], respectively, and 
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]], [[Jakob Palmkvist]]: *$K(E_9)$ from $K(E_{10})$*, Journal of High Energy Physics **2007** JHEP06 (2007) &lbrack;[arXiv:hep-th/0611314](https://arxiv.org/abs/hep-th/0611314), [doi:10.1088/1126-6708/2007/06/051](https://doi.org/10.1088/1126-6708/2007/06/051)&rbrack;
 
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *On higher spin realizations of $K(E_{10})$*, J. High Energ. Phys. **2013** 41 (2013) &lbrack;[arXiv:1307.0413](https://arxiv.org/abs/1307.0413), <a href="https://doi.org/10.1007/JHEP08(2013)041">doi:10.1007/JHEP08(2013)041</a>&rbrack;
+
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Generalised holonomies and $K(E_9)$*, J. High Energ. Phys. **2021** 54 (2021) &lbrack;[arXiv:2107.02445](https://arxiv.org/abs/2107.02445), <a href="https://doi.org/10.1007/JHEP09(2021)054">doi:10.1007/JHEP09(2021)054</a>&rbrack;
 
 
@@ -84,7 +86,7 @@ On [[E11]]-[[exceptional field theory|exceptional]] [[supergravity]]:
 
 Discussion of [[E9]] in view of [[U-duality]]-symmetry of [[D=11 supergravity]] [[Kaluza-Klein reduction|reduced]] to $D=2$ ([[finite-dimensional vector space|finite-dimensional]] [[representations]] of the [[maximal compact subgroup|maximal compact]] subalgebra $\mathfrak{k} = Lie\big(K(E_9)\big)$:
 
-* [[Axel Kleinschmidt]], Ralf Köhl, Robin Lautenbacher, [[Hermann Nicolai]]: *Representations of involutory subalgebras of affine Kac-Moody algebras*, Commun. Math. Phys. **392** (2022) 89–123 &lbrack;[arXiv:2102.00870](https://arxiv.org/abs/2102.00870), [doi:10.1007/s00220-022-04342-9](https://doi.org/10.1007/s00220-022-04342-9)&rbrack;
+* [[Axel Kleinschmidt]], [[Ralf Köhl]], [[Robin Lautenbacher]], [[Hermann Nicolai]]: *Representations of involutory subalgebras of affine Kac-Moody algebras*, Commun. Math. Phys. **392** (2022) 89–123 &lbrack;[arXiv:2102.00870](https://arxiv.org/abs/2102.00870), [doi:10.1007/s00220-022-04342-9](https://doi.org/10.1007/s00220-022-04342-9)&rbrack;
 
 
 
