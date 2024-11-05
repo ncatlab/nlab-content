@@ -41,9 +41,11 @@ $$
 
 ([Baba & Shintani 23, Definition 4.8](#BabaShintani23), [Baba 23]({#Baba23}))
 
-The _$F$-Yang-Mills action functional_ (or _$F$-YM action functional_) is given by:
+Let $G$ be a [[compact]] [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and $E\twoheadrightarrow B$ be a [[principal bundle|principal $G$-bundle]] with a [[orientable]] [[Riemannian manifold]] $B$. Let $\operatorname{Ad}(E)\coloneqq E\times_G\mathfrak{g}$ be its [[adjoint bundle]]. The _$F$-Yang-Mills action functional_ (or _$F$-YM action functional_) is given by:
 
 $$
+\operatorname{YM}_F\colon
+\Omega^1(B,\operatorname{Ad}(E))\rightarrow\mathbb{R},
 \operatorname{YM}_F(A)
 \coloneqq\int_B F\left(
 \frac{1}{2}\|F_A\|^2
