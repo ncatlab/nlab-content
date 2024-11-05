@@ -147,6 +147,11 @@ The observation that $E_{11}$ seems to neatly organize the structures in [[11-di
 
 * {#West01} [[Peter West]], _$E_{11}$ and M theory_, Class. Quant. Grav., 18:4443&#8211;4460, 2001. ([arXiv:hep-th/0104081](http://arxiv.org/abs/hep-th/0104081))
 
+On the encoding of [[spacetime signature|spacetime signature(s)]] in $\mathfrak{e}_{11}$:
+
+* [[Arjan Keurentjes]]: *$E_{11}$: Sign of the times*, Nucl. Phys. B **697** (2004) 302-318 &lbrack;[arXiv:hep-th/0402090](https://arxiv.org/abs/hep-th/0402090), [doi:10.1016/j.nuclphysb.2004.06.058](https://doi.org/10.1016/j.nuclphysb.2004.06.058)&rbrack;
+
+
 A precursor to ([West 01](#West01)) is 
 
 * [[Bernard Julia]], _Dualities in the classical supergravity limits_ ([arXiv:hep-th/9805083](http://arxiv.org/abs/hep-th/9805083))
