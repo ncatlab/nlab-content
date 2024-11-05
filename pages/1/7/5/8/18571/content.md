@@ -43,6 +43,9 @@ Discussion of superfluids via [[AdS-CFT in condensed matter physics]]:
 
 * [[Mario Flory]], Sebastian Grieninger, Sergio Morales-Tejera, *Critical and near-critical relaxation of holographic superfluids* &lbrack;[arXiv:2209.09251](https://arxiv.org/abs/2209.09251)&rbrack;
 
+* Meng Gao, Zhuan Ning, Yu Tian, Hongbao Zhang: *Holographic homogeneous superfluid on the sphere* &lbrack;[arXiv:2411.01572](https://arxiv.org/abs/2411.01572)&rbrack;
+
+
 
 On superfluidity/[[superconductivity]] *of* [[anyons]]:
 
