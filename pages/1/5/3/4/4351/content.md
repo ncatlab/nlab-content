@@ -127,7 +127,13 @@ This was observed first by Viro, but a proof can be found in Lorscheid's _Tropic
 
 ### The triangle hyperfield $\Delta$
 
-The *triangle hyperfield* $\Delta$ is the set $\mathbb{R}^+ = [0,\infty)$ with its usual multiplication, where the sum of $a$ and $b$ is the set of all $c \in \mathbb{R}^+$ such $a,b,c$ are the lengths of the sides of a (possibly degenerate) triangle in the plane. Viro showed $\Delta$ is a hyperfield in Theorem 5.4 of his paper on hyperfields in [[tropical geometry]].  He also proved that this hyperfield is not doubly distributive.
+The *triangle hyperfield* $\Delta$ is the set $\mathbb{R}^+ = [0,\infty)$ with its usual multiplication, where the sum of $a$ and $b$ is the set of all $c \in \mathbb{R}^+$ such $a,b,c$ are the lengths of the sides of a triangle in the plane (allowing sides of length zero). Viro showed $\Delta$ is a hyperfield in Theorem 5.4 of his paper on hyperfields in [[tropical geometry]].  This hyperfield is not doubly distributive, because 
+
+$$ (2 + 1) \cdot (2 + 1) = [1,3] \cdot [1,3] = [1,9] $$
+
+while
+
+$$ 2 \cdot 2 + 2 \cdot 1 + 1 \cdot 2 + 1 \cdot 1 = 4 + 2 + 2 + 1 = [0,9] $$
 
 ## Related entries
 
