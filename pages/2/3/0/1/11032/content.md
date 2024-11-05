@@ -29,39 +29,74 @@ Graphically, the trace of an endomorphism $f:A\to A$ is represented by the close
 
 The ambiguity in whether to close the loop to the right or to the left is codified in the difference between left and right traced categories. Every [[pivotal category]] can be canonically made into a planar traced category by using its implicit distinguished morphisms to close loops. Pivotal categories which induce spherical traced structures are known as [[spherical categories]]. In this way, traced monoidal categories generalize the trace operation to categories which do not necessarily have duals.
 
-In [[denotational semantics]] of programming languages, the trace is used to model [[recursion]], though if the language is not [[substructural]], then this can be simplified to a [[fixed point operator]].
+In [[denotational semantics]] of programming languages, the trace is used to model [[recursion]], though if the language is not [[substructural logic|substructural]], then this can be simplified to a [[fixed point operator]].
 
 ## Definition
 
 The original definition due to ([Joyal-Street-Verity 96](#JoyalStreetVerity96)) is stated in the setting of [[balanced monoidal categories]]. Here we present a very general formulation, as given in [Selinger's survey](#Selinger2011).
 
-A [[monoidal category]] $\mathscr{C}$ is said to be _right traced_ if it is equipped with family of operations
 
-$$\tr^X_R:\text{Hom}(A\otimes X,B\otimes X)\to \text{hom}(A,B)$$
+A [[monoidal category]] $\mathscr{C}$ is said to be _right traced_ if it is equipped with family of [[maps]]
+
+$$
+  \tr^X_R
+  \,\colon\,
+  \text{Hom}(A\otimes X,B\otimes X)
+    \longrightarrow
+  \text{hom}(A,B)
+$$
 
 for all $A,B,X\in \mathscr{X}$, satisfying the following four axioms:
 
- * **Tightening** (naturality in $A,B$) For all $A,B,C,D,X\in\mathscr{C}$, $g:A\to B$, $f:B\otimes X\to C\otimes X$, $h:C\to D$
+* {#Tightening} **Tightening** (naturality in $A,B$) For all $A,B,C,D,X\in\mathscr{C}$, $h \colon A\to B$, $f \colon B\otimes X\to C\otimes X$, $g \colon C\to D$
 
-$$\tr_R^X((g\otimes \text{id}_X)\circ f\circ (h\otimes \text{id}_X))=g\circ \tr_R^X(f)\circ h$$
+  $$
+    \tr_R^X\big(
+      (g\otimes \text{id}_X) 
+        \circ 
+      f \circ (h\otimes \text{id}_X)
+   \big)
+    \;=\;
+    g \circ \tr_R^X(f) \circ h
+  $$
 
- * **Sliding** (naturality in $X$) for all $A,B,X,Y\in $, $f:A\otimes X\to B\otimes Y$, $g:Y\to X$
+* **Sliding** (naturality in $X$) for all $A,B,X,Y\in $, $f \colon A\otimes X\to B\otimes Y$, $g \colon Y\to X$
 
-$$\tr_R^{X}((\text{id}_B\otimes g)\circ f)=\tr_R^{Y}(f\circ (\text{id}_A\otimes g))$$
+  $$
+    \tr_R^{X}\big(
+      (\text{id}_B\otimes g) \circ f
+    \big)
+    \;=\;
+    \tr_R^{Y}\big(
+      f \circ (\text{id}_A\otimes g)
+    \big)
+  $$
 
- * **Vanishing** For all $A,B,X,Y\in \mathscr{C}$,
+* **Vanishing** For all $A, B, X, Y \in \mathscr{C}$,
 
-$$\tr^1_R(f)=f,\,\, \forall \, f:A\to B$$
+  $$
+    \tr^1_R(f)
+      \;=\;
+    f,\,\, \forall \, f\colon A\to B
+  $$
 
-and
+  and
 
-$$\tr^{X\otimes Y}_R(f)=\tr_R^X(\tr_R^Y(f))$$
+  $$
+    \tr^{X\otimes Y}_R(f)
+    \;=\;
+    \tr_R^X\big( \tr_R^Y(f) \big)
+  $$
 
-for all $f:A\otimes X\otimes Y\to B\otimes X\otimes Y$.
+  for all $f \colon A\otimes X\otimes Y\to B\otimes X\otimes Y$.
 
- * **Strength** For all $A,B,C,D,X\in \mathscr{C}$, $f:C\otimes X\to D\otimes X$, $g:A\to B$
+* **Strength** For all $A,B,C,D,X\in \mathscr{C}$, $f \colon C\otimes X\to D\otimes X$, $g \colon A\to B$
 
-$$\tr_R^X(g\otimes f)=g\otimes \tr_R^X(f)$$
+  $$
+    \tr_R^X(g\otimes f)
+    \;=\;
+    g \otimes \tr_R^X(f)
+  $$
 
 Graphically, we fix the notation for right trace
 
@@ -188,7 +223,7 @@ Since any full monoidal subcategory of a traced monoidal category inherits a tra
 
 ### Relation to feedback categories
 
-[[feedback categories|Feedback categories]]  [KSW02](#KatisSabadiniWalters02) are a weakening of the axioms of traced monoidal categories. Feedback categories do not satisfy the yanking axiom and they only satisfy a weaker form of naturality on the object to be traced. Examples include some categories of automata.
+[[feedback categories|Feedback categories]]$\;$[KSW02](#KatisSabadiniWalters02) are a weakening of the axioms of traced monoidal categories. Feedback categories do not satisfy the yanking axiom and they only satisfy a weaker form of naturality on the object to be traced. Examples include some categories of automata.
 
 ### Categorical semantics
 
