@@ -273,6 +273,9 @@ Application to [[Bose-Einstein condensates]], [[superfluidity]] and [[vortices]]
 
 * Zi-Qiang Zhao, Zhang-Yu Nie, Jing-Fei Zhang, Xin Zhang, Matteo Baggioli, *Dynamical and thermodynamic crossovers in the supercritical region of a holographic superfluid model* &lbrack;[arXiv:2406.05345](https://arxiv.org/abs/2406.05345)&rbrack;
 
+* Meng Gao, Zhuan Ning, Yu Tian, Hongbao Zhang: *Holographic homogeneous superfluid on the sphere* &lbrack;[arXiv:2411.01572](https://arxiv.org/abs/2411.01572)&rbrack;
+
+
 
 
 
