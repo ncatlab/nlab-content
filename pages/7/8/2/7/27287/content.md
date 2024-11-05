@@ -23,10 +23,12 @@ The _Bi-Yang-Mills equations_ (or _Bi-YM equations_) arise from a generalization
 
 ## Bi-Yang-Mills action functional
 
-The _Bi-Yang-Mills action functional_ (or _Bi-YM action functional_) is given by:
+Let $G$ be a [[compact]] [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and $E\twoheadrightarrow B$ be a [[principal bundle|principal $G$-bundle]] with a compact [[orientable]] [[Riemannian manifold]] $B$. Let $\operatorname{Ad}(E)\coloneqq E\times_G\mathfrak{g}$ be its [[adjoint bundle]]. The _Bi-Yang-Mills action functional_ (or _Bi-YM action functional_) is given by:
 
 $$
-\operatorname{BiYM}_F(A)
+\operatorname{BiYM}\colon
+\Omega^1(B,\operatorname{Ad}(E))\rightarrow\mathbb{R},
+\operatorname{BiYM}(A)
 \coloneqq\int_B\|\delta_A F_A\|^2\mathrm{d}\vol_g.
 $$
 
