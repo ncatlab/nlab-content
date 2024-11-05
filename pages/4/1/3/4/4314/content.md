@@ -213,6 +213,18 @@ Volume 197, Issue 1, 20 October 2005, Pages 120-139
 
 * Giulio Lo Monaco, _Vopěnka's principle in ∞-categories_, [arxiv:2105.04251](https://arxiv.org/abs/2105.04251)
 
+The [[large cardinal]] strength of the weak Vopěnka principle is discussed in
+
+* [[Trevor M. Wilson]], _The large cardinal strength of Weak Vopěnka's Principle_, [arXiv](https://arxiv.org/abs/1907.00284).
+
+The following paper shows that weak Vopěnka's principle is indeed weaker than Vopěnka's principle:
+
+* [[Trevor M. Wilson]], _Weak Vopěnka's Principle does not imply Vopěnka's Principle_, [arXiv](https://arxiv.org/abs/1909.09333).
+
+Applications to localizations of presentable (∞,1)-categories are discussed in
+
+* [[Carles Casacuberta]], [[Javier J. Gutiérrez]], _Homotopy reflectivity is equivalent to the weak Vopěnka principle_, [arXiv](https://arxiv.org/abs/2410.21244).
+
 category: foundational axiom
 
 [[!redirects Vopěnka's principle]]
