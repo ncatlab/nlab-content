@@ -14,6 +14,10 @@ Introducing [[D=4 N=8 supergravity]] by [[KK-reduction]] of [[D=11 supergravity]
 
 * {#CremmerJulia79} [[Eugene Cremmer]], [[Bernard Julia]], *The $SO(8)$ Supergravity*, Nucl. Phys. B **159** (1979) 141 &lbrack;<a href="https://doi.org/10.1016/0550-3213(79)90331-6">doi:10.1016/0550-3213(79)90331-6</a>, [spire:140465](http://inspirehep.net/record/140465)&rbrack;
 
+On hidden [[duality in string theory|duality]]-[[symmetries]] ("[[U-duality]]") in [[torus|toroidal]] [[Kaluza-Klein compactifications]] of [[11D supergravity]]:
+
+* [[Eugène Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]]: *Dualisation of Dualities, I*, Nucl. Phys.  B **523** (1998) 73-144 &lbrack;[arXiv:hep-th/9710119](https://arxiv.org/abs/hep-th/9710119), <a href="https://doi.org/10.1016/S0550-3213(98)00136-9">doi:10.1016/S0550-3213(98)00136-9</a>&rbrack;
+
 
 
 On [[first-order formulation of gravity|first order formulation]] of [[supergravity]]:
