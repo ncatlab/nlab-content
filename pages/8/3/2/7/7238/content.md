@@ -12,6 +12,13 @@ On [[U-duality]]:
 
 * [[Arjan Keurentjes]], _The topology of U-duality (sub-)groups_, Class.Quant.Grav. 21 (2004) 1695-1708 ([arXiv:hep-th/0309106](https://arxiv.org/abs/hep-th/0309106))
 
+On the encoding of [[spacetime signature|spacetime signature(s)]] in [[E11|$\mathfrak{e}_{11}$]]:
+
+* [[Arjan Keurentjes]]: *$E_{11}$: Sign of the times*, Nucl. Phys. B **697** (2004) 302-318 &lbrack;[arXiv:hep-th/0402090](https://arxiv.org/abs/hep-th/0402090), [doi:10.1016/j.nuclphysb.2004.06.058](https://doi.org/10.1016/j.nuclphysb.2004.06.058)&rbrack;
+
+
+
+
 
 
 category: people
