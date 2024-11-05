@@ -204,6 +204,8 @@ More on the [[maximal compact subalgebras]] of [[E9]] and [[E10]], respectively,
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]], [[Jakob Palmkvist]]: *$K(E_9)$ from $K(E_{10})$*, Journal of High Energy Physics **2007** JHEP06 (2007) &lbrack;[arXiv:hep-th/0611314](https://arxiv.org/abs/hep-th/0611314), [doi:10.1088/1126-6708/2007/06/051](https://doi.org/10.1088/1126-6708/2007/06/051)&rbrack;
 
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *On higher spin realizations of $K(E_{10})$*, J. High Energ. Phys. **2013** 41 (2013) &lbrack;[arXiv:1307.0413](https://arxiv.org/abs/1307.0413), <a href="https://doi.org/10.1007/JHEP08(2013)041">doi:10.1007/JHEP08(2013)041</a>&rbrack;
+
 
 
 
