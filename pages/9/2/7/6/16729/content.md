@@ -32,6 +32,10 @@ More on [[U-duality]]-covariant [[D=11 supergravity]], including also discussion
 
 * [[Eugene Cremmer]]: *Supergravities in 5 dimensions*, in: *[Superspace and Supergravity](https://inspirehep.net/literature/172773)*, Cambridge University Press (1981) &lbrack;[spire:155020](https://inspirehep.net/literature/155020), [[Cremmer-SuGraIn5d.pdf:file]]&rbrack;
 
+On hidden [[duality in string theory|duality]]-[[symmetries]] ("[[U-duality]]") in [[torus|toroidal]] [[Kaluza-Klein compactifications]] of [[11D supergravity]]:
+
+* [[Eugène Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]]: *Dualisation of Dualities, I*, Nucl. Phys.  B **523** (1998) 73-144 &lbrack;[arXiv:hep-th/9710119](https://arxiv.org/abs/hep-th/9710119), <a href="https://doi.org/10.1016/S0550-3213(98)00136-9">doi:10.1016/S0550-3213(98)00136-9</a>&rbrack;
+
 
 
 ## Related entries
