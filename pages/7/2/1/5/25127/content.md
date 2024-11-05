@@ -1,3 +1,4 @@
+[[!redirects history of inductive types -- references]]
 
 ### History of inductive types
  {#ReferencesHistoryOfInductiveTypes}
