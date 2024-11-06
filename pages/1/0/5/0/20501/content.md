@@ -5,8 +5,7 @@
 
 On [[photon]]/[[pion]] [[interaction]]:
 
-* Ruvi Aviv, [[Anthony Zee]], _Low-Energy Theorem for $\gamma \to 3 \pi$_
-Phys. Rev. D 5, 2372 (1972) ([doi:10.1103/PhysRevD.5.2372](https://doi.org/10.1103/PhysRevD.5.2372))
+* Ruvi Aviv, [[Anthony Zee]], _Low-Energy Theorem for $\gamma \to 3 \pi$_, Phys. Rev. D 5, 2372 (1972) ([doi:10.1103/PhysRevD.5.2372](https://doi.org/10.1103/PhysRevD.5.2372))
 
 The model of [[anyon statistics]] as an [[Aharonov-Bohm effect]] of a "[[fictitious gauge field]]" sourced by and coupled to each anyon:
 
@@ -25,10 +24,14 @@ On [[Hopf-Wess-Zumino terms]]:
 * {#WilczekZee84} [[Frank Wilczek]], [[Anthony Zee]], _Linking Numbers, Spin, and Statistics of Solitons_, Phys. Rev. Lett. 51, 2250, 1983 ([doi:10.1103/PhysRevLett.51.2250](https://doi.org/10.1103/PhysRevLett.51.2250))
 
 
-
 On [[quantum spin liquids]] as exhibiting [[topological order]]:
 
 * [[Xiao-Gang Wen]], [[Frank Wilczek]], [[Anthony Zee]], *Chiral spin states and superconductivity*, Phys. Rev. B **39** (1989) 11413 &lbrack;[doi:10.1103/PhysRevB.39.11413](https://doi.org/10.1103/PhysRevB.39.11413)&rbrack;
+
+On [[quantum field theory]]:
+
+* [[Anthony Zee]]:  *Quantum Field Theory in a Nutshell* 2nd ed., Princeton University Press (2010) &lbrack;[ISBN:9780691140346](https://press.princeton.edu/books/hardcover/9780691140346/quantum-field-theory-in-a-nutshell?srsltid=AfmBOoovOHTlGiQ8S-JqFUpn26ihzhfNQocoId3eN9SUZ8WYL83oyKG0)&rbrack;
+
 
 
 category: people
