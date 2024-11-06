@@ -113,7 +113,12 @@ $$
 
 ## References
 
-Section _[Fields](geometry+of+physics#Fields)_ at 
+For instance
+
+* [[Ralph Blumenhagen]], Pascal du Bosque, [[Falk Hassler]], [[Dieter Lüst]]: section 5.1 of: *Generalized Metric Formulation of Double Field Theory on Group Manifolds*, J. High Energ. Phys. **2015** 56 (2015) &lbrack;[arXiv:1502.02428](https://arxiv.org/abs/1502.02428), <a href="https://doi.org/10.1007/JHEP08(2015)056">doi:10.1007/JHEP08(2015)056</a>&rbrack;
+
+
+See also the section _[Fields](geometry+of+physics#Fields)_ at 
 
 * _[[geometry of physics]]_
 
