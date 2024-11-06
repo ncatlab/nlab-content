@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+On [[double field theory]]:
+
+* [[Olaf Hohm]], [[Dieter Lüst]], [[Barton Zwiebach]]: *The Spacetime of Double Field Theory: Review, Remarks, and Outlook*, **61** 10 (2013) 926-966 &lbrack;[arXiv:1309.2977](https://arxiv.org/abs/1309.2977), [doi:10.1002/prop.201300024](https://doi.org/10.1002/prop.201300024)&rbrack;
+
+
+
 On [[exceptional field theory]]-formulation of [[D=4 gravity]]
 
 * [[Olaf Hohm]], [[Henning Samtleben]]: *U-duality covariant gravity*,  J. High Energ. Phys. **2013** 80 (2013) &lbrack;[arXiv:1307.0509](http://arxiv.org/abs/1307.0509), <a href="https://doi.org/10.1007/JHEP09(2013)080">doi:10.1007/JHEP09(2013)080</a>&rbrack;
