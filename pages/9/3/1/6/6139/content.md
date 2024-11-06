@@ -21,7 +21,7 @@
 
 For $X$ any kind of [[space]] (or possibly a [[directed space]], viewed as some sort of [[category]] or higher dimensional analogue of one), its [[loop space object]]s $\Omega_x X$ canonically inherit a [[monoidal category|monoidal structure]], coming from concatenation of [[loops]].
 
-If $x \in X$ is essentially unique, then $\Omega_x X$ equipped with this monoidal structure remembers all of the structure of $X$: we say $X \simeq B \Omega_x X$ call $B A$ the _[[delooping]]_ of the monoidal object $A$.
+If $x \in X$ is essentially unique, then $\Omega_x X$ equipped with this monoidal structure remembers all of the structure of $X$: we say $X \simeq B \Omega_x X$ and call $B A$ the _[[delooping]]_ of the monoidal object $A$.
 
 What all these terms ("loops" $\Omega$, "delooping" $B$ etc.) mean in detail and how they are _presented_ concretely depends on the given setup. We discuss some of these below in the section [Examples](#Examples).
 
@@ -309,7 +309,7 @@ $$
   \,.
 $$
 
-This establishes that $\pi_1$ is alspo an equivalence on all [[hom-groupoids]].
+This establishes that $\pi_1$ is also an equivalence on all [[hom-groupoids]].
 
 =--
 
