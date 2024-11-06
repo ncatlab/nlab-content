@@ -197,6 +197,8 @@ Introductions:
 * [[Garth Warner]]: *Quantum Gauge Theory*, seminar notes, University of Washington  &lbrack;[pdf](https://sites.math.washington.edu//~warner/QGTSeminar_Warner.pdf), [[Warner-QuantumGaugeTheory.pdf:file]]&rbrack;
   > ([[gauge theory]])
 
+* [[Anthony Zee]]:  *Quantum Field Theory in a Nutshell* 2nd ed., Princeton University Press (2010) &lbrack;[ISBN:9780691140346](https://press.princeton.edu/books/hardcover/9780691140346/quantum-field-theory-in-a-nutshell?srsltid=AfmBOoovOHTlGiQ8S-JqFUpn26ihzhfNQocoId3eN9SUZ8WYL83oyKG0)&rbrack;
+
 * [[Matthew Schwartz]], *Quantum Field Theory and the Standard Model*, Cambridge University Press (2014) &lbrack;[ISBN:9781107034730](https://www.cambridge.org/de/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-field-theory-and-standard-model?format=HB&isbn=9781107034730), [doi:10.1017/9781139540940](https://doi.org/10.1017/9781139540940), [pdf](https://indico.ihep.ac.cn/event/11134/attachments/3783/4308/QFT-Schwartz.pdf)&rbrack;
 
 * [[Michel Talagrand]], *What is a Quantum Field Theory? -- A first Introduction for Mathematicians*, Cambridge University Press (2022) &lbrack;[doi:10.1017/9781108225144](https://doi.org/10.1017/9781108225144)&rbrack; 
