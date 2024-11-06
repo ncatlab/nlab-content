@@ -17,9 +17,9 @@
 
 A **hyperring** is like a [[ring]] but not with an [[underlying]] [[abelian group]] but with an underlying [[canonical hypergroup]], hence it is a *[[hypermonoid]]* with additional ring-like [[structure]].  This means that [[addition]] in a hyperring $R$  is a [[multi-valued function]].  A **hyperfield** is a hyperring where every nonzero element has a multiplicative inverse.
 
-In 2010, Oleg Viro wrote:
+From [Viro 2010](#Viro10):
 
-> Krasner, Marshall, Connes and Consani and the author came to hyperfields for different reasons, motivated by different mathematical problems, but we came to the same conclusion: the hyperrings and hyperfields are great, very useful and very underdeveloped in the mathematical literature… Probably, the main obstacle for hyperfields to become a mainstream notion is that a multivalued operation does not fit to the tradition of set-theoretic terminology, which forces to avoid multivalued maps at any cost. I believe the taboo on multivalued maps has no real ground, and eventually will be removed.  Hyperfields, as well as multigroups, hyperrings and multirings, are legitimate algebraic objects related in many ways to the classical core of mathematics… I believe hyperfields are to displace the tropical semifield in the [[tropical geometry]]. They suit the role better. In particular, with hyperfields the varieties are defined by equations, as in other branches of algebraic geometry.
+> "Krasner, Marshall, Connes and Consani and the author came to hyperfields for different reasons, motivated by different mathematical problems, but we came to the same conclusion: the hyperrings and hyperfields are great, very useful and very underdeveloped in the mathematical literature… Probably, the main obstacle for hyperfields to become a mainstream notion is that a multivalued operation does not fit to the tradition of set-theoretic terminology, which forces to avoid multivalued maps at any cost. I believe the taboo on multivalued maps has no real ground, and eventually will be removed.  Hyperfields, as well as multigroups, hyperrings and multirings, are legitimate algebraic objects related in many ways to the classical core of mathematics… I believe hyperfields are to displace the tropical semifield in the [[tropical geometry]]. They suit the role better. In particular, with hyperfields the varieties are defined by equations, as in other branches of algebraic geometry."
 
 ## Definition
 
@@ -123,7 +123,7 @@ The *tropical hyperfield* has as its underlying set $\mathbb{T} = [0,\infty]$.  
 
 **Proposition.**  For any commutative ring $R$,  hyperring homomorphisms $\phi \colon R \to \mathbb{T}$ are the same as nonarchimedean valuations $\phi \colon R \to [0,\infty]$.
 
-This was observed first by Viro, but a proof can be found in Lorscheid's _Tropical geometry over the tropical hyperfield_, Theorem 2.2.
+This was observed first by [Viro (2010)](#Viro10), but a proof can be found in Lorscheid's _Tropical geometry over the tropical hyperfield_, Theorem 2.2.
 
 ### The triangle hyperfield $\Delta$
 
@@ -189,7 +189,7 @@ On [[algebraic geometry]] over hyperrings:
 
 On the tropical hyperfield:
 
-* [[Oleg Viro]], _Hyperfields for tropical geometry I. hyperfields and dequantization_ &lbrack;[arXiv:1006.3034](https://arxiv.org/abs/1006.3034)&rbrack;
+* {#Viro10} Oleg Viro: *Hyperfields for tropical geometry I. hyperfields and dequantization* &lbrack;[arXiv:1006.3034](https://arxiv.org/abs/1006.3034)&rbrack;
 
 * [[Oliver Lorscheid]], _Tropical geometry over the tropical hyperfield_ &lbrack;[arXiv:1907.01037](https://arxiv.org/abs/1907.01037)&rbrack;
 
