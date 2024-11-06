@@ -22,7 +22,7 @@
 ## Idea
  {#Idea}
 
-A **classifying space** for some sort of data is (the [[homotopy type]] of) a [[topological space]] $A$, such that [[homotopy classes]] of maps $X \to A$ correspond to [[equivalence classes]] of that kind of kind of data "parameterized" over suitable base spaces $X$.
+A **classifying space** for some sort of data is (the [[homotopy type]] of) a [[topological space]] $A$, such that [[homotopy classes]] of maps $X \to A$ correspond to [[equivalence classes]] of that kind of data "parameterized" over suitable base spaces $X$.
 
 > Beware the similarity with but distinction to *[[moduli stacks]]* $\mathbf{A}$, which are such that not just the [[equivalence classes]] match, but that the full [[infinity-groupoid|$\infty$-groupoid]] of (structured) maps $X \to \mathbf{A}$ is [[equivalence of infinity-groupoids|equivalent]] to the [[infinity-groupoid|$\infty$-groupoid]] of the given kind of data on a suitable stack $X$. Hence a classifying space is "coarser" than a moduli stack --- which sounds like a disadvantage but is often an advantage in applications: classifying spaces serve to reduce information to homotopy classes of maps.
 
