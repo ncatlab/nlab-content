@@ -47,3 +47,5 @@ Type I [[string phenomenology]] and discussion of [[GUT]]s based on [[SO(32)]] t
 
 * {#Yamatsu17} Naoki Yamatsu, _String-Inspired Special Grand Unification_, Progress of Theoretical and Experimental Physics, Volume 2017, Issue 10, 1  ([arXiv:1708.02078](https://arxiv.org/abs/1708.02078), [doi:10.1093/ptep/ptx135](https://doi.org/10.1093/ptep/ptx135))
 
+* Not properly open strings but built via pairs: {#Rivero24} A. Rivero, An Interpretaion of Scalars in SO(32), Eur. Phys. J. C 84, 1058 (2024). (<a href="https://link.springer.com/article/10.1140/epjc/s10052-024-13368-3">doi:10.1140/epjc/s10052-024-13368-3</a>)
+
