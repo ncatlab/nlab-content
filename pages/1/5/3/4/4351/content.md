@@ -158,7 +158,7 @@ The notion of hyperring and hyperfield is due to:
 
 Another early reference is
 
-* D. Stratigopoulos, *Hyperanneaux non commutatifs: Hyperanneaux, hypercorps, hypermodules, hyperespaces vectoriels  et leurs propriétés élémentaires*, C. R. Acad. Sci. Paris Sér. A-B **269** (1969) A489-A492
+* Dimitrios Stratigopoulos, *Hyperanneaux non commutatifs: Hyperanneaux, hypercorps, hypermodules, hyperespaces vectoriels  et leurs propriétés élémentaires*, C. R. Acad. Sci. Paris Sér. A-B **269** (1969) A489-A492
 
 See also:
 
