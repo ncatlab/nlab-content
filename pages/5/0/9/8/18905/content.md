@@ -182,10 +182,11 @@ A systematic development of Euclidean [[renormalization|renormalized]] [[perturb
 
 ### Thermal quantum field theory
 
-A good introduction is in 
+Introductions:
 
 * {#FullingRuijsenaars87} S.A. Fulling, S.N.M. Ruijsenaars, _Temperature, periodicity and horizons_, Physics Reports Volume 152, Issue 3, August 1987, Pages 135-176 ([pdf](https://www1.maths.leeds.ac.uk/~siru/papers/p26.pdf), <a href="https://doi.org/10.1016/0370-1573(87)90136-0">doi:10.1016/0370-1573(87)90136-0</a>)
 
+* Alberto Salvio: *Introduction to Thermal Field Theory* &lbrack;[arXiv:2411.02498](https://arxiv.org/abs/2411.02498)&rbrack;
 
 The idea of Wick rotating thermal relativistic field theory to compact periodic Euclidean time apparently goes back to 
 
