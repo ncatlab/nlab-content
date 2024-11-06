@@ -3,7 +3,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Algebraic Quantum Field Theory
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -62,4 +62,11 @@ and specifically with an eye to discussion of the [[quark-gluon plasma]] in
 
 * {#Blaizot04} Jean-Paul Blaizot, around p. 17 of _Thermodynamics of the high temperature Quark-Gluon Plasma_, AIP Conf. Proc. 739, 63-96 (2004) ([doi:10.1063/1.1843592](https://doi.org/10.1063/1.1843592))
 
+Review:
+
+* Alberto Salvio: *Introduction to Thermal Field Theory* &lbrack;[arXiv:2411.02498](https://arxiv.org/abs/2411.02498)&rbrack;
+
+
 [[!redirects high-temperature thermal field theory]]
+
+
