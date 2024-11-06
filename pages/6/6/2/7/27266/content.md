@@ -20,12 +20,12 @@ In traditional [[probability theory]], one defines probability as a quantity whi
 * [[additive]] under finite or countable unions;
 * neutral to [[risk]].
 
-*Nonlinear probability theory* concerns itself with situations where the properties above do not hold, but where one still wants a consistent mathematical theory.
+**Nonlinear probability theory** concerns itself with situations where the properties above do not hold, but where one still wants a consistent mathematical theory.
 It turns out that the three properties are in fact related to one another, and so is their failure, and part of the theory is indeed to study the relation between the three.
 
-Related ideas are sometimes called *imprecise probability theory*, *robust statistics*, *infra-Bayesianism*, and other names.
+Related ideas are sometimes called **imprecise probability theory**, **robust statistics**, **infra-Bayesianism**, and other names.
 
-From the point of view of [[computer science]], these ideas arise when one wants to combine the [[computational effects]] of [[probability]] and ([[power set]]-style) [[nondeterminism]].
+From the point of view of [[computer science]], these ideas arise when one wants to combine the [[computational effects]] of [[probability]] and ([[power set]]-style) [[nondeterministic computation|nondeterminism]].
 
 
 ## Main constructions 
