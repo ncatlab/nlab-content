@@ -116,7 +116,7 @@ $$
   \,.
 $$ 
 
-In fact, up to [[natural isomorphism]], there are only two functors $F \colon Cat \to Cat$ that are [[equivalence of categories|equivalences]]: the [[identity functor]] $id_{CaT}$ and the oppositization functor $op$.  In other words, the [[automorphism 2-group]] $Aut(Cat)$ of all [[autoequivalences]]  of the 1-category $Cat$ is equivalent to the group [[cyclic group of order 2|$\mathbb{Z}/2$]] viewed as a 0-truncated [[2-group]].
+In fact, up to [[natural isomorphism]], there are only two functors $F \colon Cat \to Cat$ that are [[equivalence of categories|equivalences]]: the [[identity functor]] $id_{Cat}$ and the oppositization functor $op$.  In other words, the [[automorphism 2-group]] $Aut(Cat)$ of all [[autoequivalences]]  of the 1-category $Cat$ is equivalent to the group [[cyclic group of order 2|$\mathbb{Z}/2$]] viewed as a 0-truncated [[2-group]].
 
 To see this, note that any autoequivalence of the 1-category $Cat$ fixes the [[terminal object]] $\ast$ up to unique [[isomorphism]], and the [[arrow category]] 2 is the unique minimal generator (i.e. it is a generator and no proper [[subobject]] is a generator) so it is also fixed up to isomorphism.  Since every category is functorially a [[colimit]] of copies of 2, once we know whether the autoequivalence fixes or swaps the two maps $1 \to 2$ the autoequivalence is determined up to a natural isomorphism, so every such autoequivalence is naturally isomorphic to either the identity or $op$.  
 
