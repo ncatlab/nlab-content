@@ -29,7 +29,13 @@ On [[string phenomenology]] and the [[landscape of perturbative string theory va
 
 * _Seeing through the String Landscape(a string hunter’s companion)_, 2008 ([pdf](http://theo2.inrne.bas.bg/~dobrev/Luest.pdf))
 
-## Related $n$Lab entries
+On [[double field theory]]:
+
+* [[Olaf Hohm]], [[Dieter Lüst]], [[Barton Zwiebach]]: *The Spacetime of Double Field Theory: Review, Remarks, and Outlook*, **61** 10 (2013) 926-966 &lbrack;[arXiv:1309.2977](https://arxiv.org/abs/1309.2977), [doi:10.1002/prop.201300024](https://doi.org/10.1002/prop.201300024)&rbrack;
+
+
+
+## Related entries
 
 * [[string theory]]
 
