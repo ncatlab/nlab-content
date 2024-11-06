@@ -216,7 +216,9 @@ Double field theory is supposed to formalize the [[non-geometric backgrounds]] o
 
 ## References
 
-### Foundational papers
+### General
+
+Original articles:
 
 The idea of "doubled spacetime geometry" is a variant of the idea of [[T-folds]], due to
 
@@ -225,6 +227,14 @@ The idea of "doubled spacetime geometry" is a variant of the idea of [[T-folds]]
 The coinage of the term "double field theory" for field theory on such doubled geometry goes back to
 
 * [[Chris Hull]], [[Barton Zwiebach]], _Double Field Theory_, JHEP 0909:099,2009 ([arXiv:0904.4664](http://arxiv.org/abs/0904.4664))
+
+Review:
+
+* Gerardo Aldazabal, Diego Marques, Carmen Nunez: *Double Field Theory: A Pedagogical Review*, Class. Quant. Grav. **30** (2013) 163001 &lbrack;[arXiv:1305.1907](https://arxiv.org/abs/1305.1907), [doi:10.1088/0264-9381/30/16/163001](https://doi.org/10.1088/0264-9381/30/16/163001)&rbrack;
+
+* [[Olaf Hohm]], [[Dieter Lüst]], [[Barton Zwiebach]]: *The Spacetime of Double Field Theory: Review, Remarks, and Outlook*, **61** 10 (2013) 926-966 &lbrack;[arXiv:1309.2977](https://arxiv.org/abs/1309.2977), [doi:10.1002/prop.201300024](https://doi.org/10.1002/prop.201300024)&rbrack;
+
+
 
 ### Formalization in para-Hermitian geometry
 
