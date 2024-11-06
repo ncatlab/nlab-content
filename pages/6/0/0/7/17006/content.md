@@ -30,6 +30,8 @@ Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKK
 
 * [[Harold C. Steinacker]], [[Tung Tran]], *Quantum $\mathfrak{hs}$-Yang-Mills from the IKKT matrix model* &lbrack;[arXiv:2405.09804](https://arxiv.org/abs/2405.09804)&rbrack;
 
+* Alessandro Manta, [[Harold C. Steinacker]], Tung Tran: *$\mathfrak{hs}$-extended gravity from the IKKT matrix model* &lbrack;[arXiv:2411.02598](https://arxiv.org/abs/2411.02598)&rbrack;
+
 
 On [[cosmology]] within the [[IKKT matrix model]]:
 
