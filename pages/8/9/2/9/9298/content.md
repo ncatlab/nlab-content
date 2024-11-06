@@ -6,7 +6,7 @@ A cartesian fibration $X\to \Delta^n$ is by the $(\infty,1)$-Grothendieck constr
 ###### Definition
 The *mapping simplex* $M(\phi)$ of $\phi$ is defined by:
 
-* For a nonempty finite finite linear order $L$ with greatest element $j$, a map $\Delta^L\to M(\phi)$ consists of a order preserving map $f:L\to [n]$ and a morphism $\sigma:\Delta^L\to A^{f(j)}$.
+* For a nonempty finite linear order $L$ with greatest element $j$, a map $\Delta^L\to M(\phi)$ consists of an order preserving map $f:L\to [n]$ and a morphism $\sigma:\Delta^L\to A^{f(j)}$.
 
 * Given two such linear orders $L$ and $L^\prime$ with greatest elements $j$ resp. $j^\prime$ there is a natural map $M(\phi)(\Delta^{L^\prime})\to M(\phi)(\Delta^{L})$ sending $(f,\sigma)$  to $(f\circ p, e\circ \sigma)$, where $e:A^{f(j^\prime)}\to A^{f(p(j))}$ is obtained by $\phi$.
 
