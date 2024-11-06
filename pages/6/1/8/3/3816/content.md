@@ -44,7 +44,10 @@ proteins.
 
 > (See also the general references at *[[non-perturbative quantum field theory]]*.)
 
-* D J Wallace, *Solitons and Instantons: An Introduction to Solitons and Instantons in Quantum Field Theory*,  Phys. Bull. **34** 29 (1983) &lbrack;[doi:10.1088/0031-9112/34/1/043](https://iopscience.iop.org/article/10.1088/0031-9112/34/1/043)&rbrack;
+* [[Ramamurti Rajaraman]]: *Solitons and Instantons: An Introduction to Solitons and Instantons in Quantum Field Theory*, North Holland (1984) &lbrack;ISBN:9780444862297, [spire:181162](https://inspirehep.net/literature/181162)&rbrack;
+
+* [[Anthony Zee]]: Section V.6 of: *Quantum Field Theory in a Nutshell* 2nd ed. , Princeton University Press (2010) &lbrack;[ISBN:9780691140346](https://press.princeton.edu/books/hardcover/9780691140346/quantum-field-theory-in-a-nutshell?srsltid=AfmBOoovOHTlGiQ8S-JqFUpn26ihzhfNQocoId3eN9SUZ8WYL83oyKG0)&rbrack;
+
 
 * [[Michio Jimbo]], [[Tetsuji Miwa]], [[Etsuro Date]], (transl. from Japanese by [[Miles Reid|M. Reid]]), *Solitons: differential equations, symmetries and infinite dimensional algebras*,  Cambridge Tracts in Mathematics **135** (2012) &lbrack;[ISBN:9781107404199](https://www.cambridge.org/us/universitypress/subjects/mathematics/geometry-and-topology/solitons-differential-equations-symmetries-and-infinite-dimensional-algebras)&rbrack;
 
