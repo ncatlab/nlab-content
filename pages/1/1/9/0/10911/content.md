@@ -138,6 +138,9 @@ See also
 
 * [[Sean A. Hartnoll]], Jun Liu: *The Polarised IKKT Matrix Model* &lbrack;[arXiv:2409.18706](https://arxiv.org/abs/2409.18706)&rbrack;
 
+* Alessandro Manta, [[Harold C. Steinacker]], Tung Tran: *$\mathfrak{hs}$-extended gravity from the IKKT matrix model* &lbrack;[arXiv:2411.02598](https://arxiv.org/abs/2411.02598)&rbrack;
+
+
 
 In relation to the [[Brandenberger-Vafa mechanism]]:
 
