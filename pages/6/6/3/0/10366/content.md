@@ -67,6 +67,10 @@ A comprehensive account and classification of the polyvector extensions of the s
 
 * {#ACDP} [[Dmitry Vladimirovich Alekseevsky]], [[Vicente Cortés]], [[Chandrashekar Devchand]], [[Antoine Van Proeyen]], _Polyvector Super-Poincar&#233; Algebras_ Commun.Math.Phys. 253 (2004) 385-422 ([arXiv:hep-th/0311107](http://arxiv.org/abs/hep-th/0311107))
 
+Understanding as extension of [[Noether's theorem|Noether]] [[conserved charge|charges]] of [[probe brane]] [[sigma-models]]:
+
+* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], [[José M. Izquierdo]], [[Paul Townsend]]: *Topological Extensions of the Supersymmetry Algebra for Extended Objects*, Phys. Rev. Lett. **63** (1989) 2443 &lbrack;[doi:10.1103/PhysRevLett.63.2443](https://doi.org/10.1103/PhysRevLett.63.2443), [spire:26393](https://inspirehep.net/record/26393?ln=en)&rbrack;
+
 
 ### From super Lie $n$-algebras
 
