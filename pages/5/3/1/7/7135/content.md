@@ -36,6 +36,10 @@ On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]
 * A. Achucarro, [[Paul Townsend]], _A Chern-Simons Action for Three-Dimensional anti-De Sitter Supergravity Theories_, Phys. Lett. B180 (1986) 89 (<a href="https://doi.org/10.1016/0370-2693(86)90140-1">doi:10.1016/0370-2693(86)90140-1</a>, [spire:21208](http://inspirehep.net/record/21208))
 
 
+Understanding [[extended supersymmetry]]-[[super Lie algebras|algebras]] as [[Lie algebra extension|extension]] by [[Noether's theorem|Noether]] [[conserved charge|charges]] of [[probe brane]] [[sigma-models]]:
+
+* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], [[José M. Izquierdo]], [[Paul Townsend]]: *Topological Extensions of the Supersymmetry Algebra for Extended Objects*, Phys. Rev. Lett. **63** (1989) 2443 &lbrack;[doi:10.1103/PhysRevLett.63.2443](https://doi.org/10.1103/PhysRevLett.63.2443), [spire:26393](https://inspirehep.net/record/26393?ln=en)&rbrack;
+
 
 
 Early discussion of the [[duality between type IIA string theory and M-theory]] in view of [[double dimensional reduction]] of the [[M2-brane]]:
