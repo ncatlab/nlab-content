@@ -496,6 +496,20 @@ While [[strict omega-groupoids]] in the sense of
 The issue however is somewhat subtle, as highlighted by Voevodsky [here](http://ncatlab.org/nlab/show/homotopy+type+theory#VoevodskyIASTalk2014).
 For more on this see at _[[Simpson's conjecture]]_.
 
+
+### For diagrammatic $(\infty, 0)$-categories.{#ForDgmSet}
+[[diagrammatic set|Diagrammatic sets]] are a topologically sound alternative to [[computad|polygraphs]]: a diagrammatic set is a presheaf over the [[atom category]], whose objects include many of the [[geometric shape for higher structures]]. 
+
+There, an $(\infty, \infty)$-category is a diagrammatic set in which any suitable assemblage of $n$-cells can be composed, via a $(n + 1)$-cell, into a single $n$-cell. For $0 \le n \le \infty$, an $(\infty, n)$-category is an $(\infty, \infty)$-category in which all cells of dimension $\gt n$ are "weakly invertible". 
+
+\begin{theorem}
+There is a model structure on diagrammatic sets whose fibrant objects are exactly the $(\infty, 0)$-categories and which is Quillen equivalent to the standard model structure on simplicial sets. 
+\end{theorem}      
+\begin{proof}
+This is [Corollary 5.8](#ChanavatHadzihasanovic2024Model).
+\end{proof}
+
+
 ## Generalizations
 
 ### For stratified spaces
@@ -584,6 +598,12 @@ Cubical methods are also essential in
 topology: filtered spaces, crossed complexes, cubical homotopy
 groupoids_, EMS Tracts in Mathematics Vol. 15, 703 pages. (August
 2011).
+
+Diagrammatic $(\infty, 0)$-category are discussed in
+
+* {#ChanavatHadzihasanovic2024Homotopy} Chanavat, Hadzihasanovic, _Diagrammatic sets as a model of homotopy types_, 2024 ([arXiv:2407.06285](https://arxiv.org/abs/2407.06285v1))
+
+* {#ChanavatHadzihasanovic2024Model} Chanavat, Hadzihasanovic, _Model structures for diagrammatic $(\infty,n)$-categories_, 2024 ([arXiv:2410.19053](https://www.arxiv.org/abs/2410.19053))
 
 A version for [[stratified spaces]] is discussed in
 
