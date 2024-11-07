@@ -187,7 +187,9 @@ A description of the [[free cocompletion]] of a category with [[finite coproduct
 
 * [[Marta Bunge]], [[Aurelio Carboni]], _The Symmetric Topos_  ,  JPAA **105** (1995) pp.233-249.
 
-They furthermore claim that the [[free cocompletion]] of a category under all small colimits is given by the free cocompletion under reflexive coequalisers of the [[free coproduct completion]] of the category (see the end of §2). However, this claim is not proven, and seems dubious, considering that reflexive coequalisers do not commute with [[products]] in [[Set]].
+They furthermore claim that the [[free cocompletion]] of a category under all small colimits is given by the free cocompletion under reflexive coequalisers of the [[free coproduct completion]] of the category (see the end of §2). However, this claim is not proven, and seems dubious, considering that reflexive coequalisers do not commute with infinite [[products]] in [[Set]], as shown in Example 4.3 of:
+
+* [[Jiří Adámek]], [[Václav Koubek]], and [[Jiří Velebil]], _A duality between infinitary varieties and algebraic theories_, Commentationes Mathematicae Universitatis Carolinae 41.3 (2000): 529-541.
  
 
 [[!redirects reflexive coequalizer]]
