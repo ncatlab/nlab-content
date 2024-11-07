@@ -211,7 +211,7 @@ $$
 (This a also referred to as "$G$ seen at stage $S$", or similar.)
 
 Now, the lift (eq:PresheafWithValuesInGroups) of such a presheaf of sets to a presheaf of groups equips for each object $S \in \mathcal{C}$ the set $G(S) \coloneqq y(G)(S) \coloneqq Hom_C(S,G) $ with an ordinary group [[structure]]
-$\big(G(S), \cdot_S, \athrm{e}_S\big)$, in particular with a product operation (a map of sets) of the form
+$\big(G(S), \cdot_S, \mathrm{e}_S\big)$, in particular with a product operation (a map of sets) of the form
 
 $$
   \cdot_S 
