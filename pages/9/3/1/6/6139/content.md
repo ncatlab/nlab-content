@@ -82,7 +82,7 @@ The [[hom-groupoids]] between connected groupoids with fundamental groups $G$ an
 $$
   Grpd(\mathbf{B}G, \mathbf{B}H)
   \simeq
-   Grp(G,H)//_{ad}H
+   Grp(G,H)//_{Ad}H
 $$
 
 Given two group homomorphisms $\phi_1, \phi_2 \colon G \longrightarrow H$ then an [[isomorphism]] between them in this hom-groupoid is an element $h \in H$ such that 
@@ -376,7 +376,7 @@ A groupal $E_1$-algebra -- hence an groupal [[A-∞ algebra]] object in $\mathbf
 +-- {: .num_theorem #LoopingDeloopingForHigherStacks}
 ###### Theorem
 
-Let $k \gt 0$, let $\mathbf{H}$ be an [[(∞,1)-category of (∞,1)-sheaves]] and let $\mathbf{H}_*^{\geq k}$ denote the [[full subcategory]] of the category $\mathbf{H}_{*}$ of [[pointed objects]], spanned by those pointed objects thar are $k-1$-[[connected]] (i.e. their first $k$ [[homotopy groups in an (∞,1)-topos|homotopy sheaves]]) vanish. Then there is a canonical equivalence of [[(∞,1)-category|(∞,1)-categories]]
+Let $k \gt 0$, let $\mathbf{H}$ be an [[(∞,1)-category of (∞,1)-sheaves]] and let $\mathbf{H}_*^{\geq k}$ denote the [[full subcategory]] of the category $\mathbf{H}_{*}$ of [[pointed objects]], spanned by those pointed objects that are $k-1$-[[connected]] (i.e. their first $k$ [[homotopy groups in an (∞,1)-topos|homotopy sheaves]]) vanish. Then there is a canonical equivalence of [[(∞,1)-category|(∞,1)-categories]]
 
 $$
   \mathbf{H}^{\ast/}_{\geq k} \simeq Mon^{gp}_{\mathbb{E}[k]}(\mathbf{H}) \,.
