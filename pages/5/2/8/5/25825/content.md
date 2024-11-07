@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+Understanding [[extended supersymmetry]]-[[super Lie algebras|algebras]] as [[Lie algebra extension|extension]] by [[Noether's theorem|Noether]] [[conserved charge|charges]] of [[probe brane]] [[sigma-models]]:
+
+* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], [[José M. Izquierdo]], [[Paul Townsend]]: *Topological Extensions of the Supersymmetry Algebra for Extended Objects*, Phys. Rev. Lett. **63** (1989) 2443 &lbrack;[doi:10.1103/PhysRevLett.63.2443](https://doi.org/10.1103/PhysRevLett.63.2443), [spire:26393](https://inspirehep.net/record/26393?ln=en)&rbrack;
+
+
 On [[Lie groups]], [[Lie algebras]], [[Lie algebra cohomology]] and applications to [[physics]]:
 
 * [[José de Azcárraga]], [[José M. Izquierdo]], *[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]*, Cambridge Monographs of Mathematical Physics, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511599897](https://doi.org/10.1017/CBO9780511599897)&rbrack;
@@ -32,7 +37,6 @@ On [[extended super Minkowski spacetimes]] in the language of the  [[D'Auria-Fre
 
 * C. Chrysso&#8204;malakos, [[José de Azcárraga]], [[José M. Izquierdo]], C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_, Nucl. Phys. B **567** (2000) 293-330  &lbrack;[arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137), <a href="https://doi.org/10.1016/S0550-3213(99)00512-X">doi:10.1016/S0550-3213(99)00512-X</a>&rbrack;
 
-* [[José de Azcárraga]], [[Jerome Gauntlett]], J. M. Izquierdo, [[Paul Townsend]], _Topological extensions of the supersymmetry algebra for extended objects_, Phys. Rev. Lett. __63__ (1989) 2443 ([spire](https://inspirehep.net/record/26393?ln=en))
 
 On the [[M-algebra]] and [[D=11 supergravity]]:
 
