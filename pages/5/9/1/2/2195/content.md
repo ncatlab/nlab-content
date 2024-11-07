@@ -59,7 +59,14 @@ The Fourier transform of $f\in L_1(G,\mu)$ is always continuous and bounded on $
 
 In the classical case of __Fourier series__, where $G=\mathbb{Z}$ (the additive group of [[integers]]) and $\hat{G}=S^1$ (the [[circle group]]), the Fourier transform restricts to a unitary operator between the [[Hilbert spaces]] $L_2(S^1,d t)$ and $l_2(\mathbb{Z})$ and the Fourier coefficients are the numbers
 
-$$c_n := \hat{f}(\chi_n) = \int_0^1 f(t) e^{-2\pi i n t} d t,$$
+$$
+  c_n 
+    \;\coloneqq\; 
+  \hat{f}(\chi_n) 
+    \;=\; 
+  \int_0^1 f(t) e^{-2\pi \mathrm{i} n t} \mathrm{d} t
+  \,,
+$$
 
 for $n\in\mathbb{Z}$, where the functions $\chi_n(t)= e^{2\pi i n t}$ form an orthonormal basis of $L_2(S^1,d t)$. The Fourier transform $\hat{\chi_n}$ is then viewed as the  $\mathbb{Z}$-series $\delta_n$ which in the $n$-th place has $1$ and elsewhere $0$. The Fourier transform replaces the operator of differentiation $d/d t$ by the operator of multiplication by the series $\{2\pi i n\}_{n\in\mathbb{Z}}$.
 
