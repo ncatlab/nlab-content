@@ -97,7 +97,7 @@ there exists a diagonal dashed filler.
 \end{definition}
 
 
-The paper [CH24homotopy](#ChanavatHadzihasanovic2024) settles the Kan diagrammatic sets as model of [[infinity-groupoid|∞-groupoids]] in their following theorem:
+The paper [CH24homotopy](#ChanavatHadzihasanovic2024Homotopy) settles the Kan diagrammatic sets as model of [[infinity-groupoid|∞-groupoids]] in their following theorem:
 \begin{theorem}\label{kan_model_structure}
 There exists a [[cofibrantly generated model category|cofibrantely generated model structure]] on diagrammatic sets where
 
@@ -223,7 +223,7 @@ An older treatment of diagrammatic sets:
 
 For an updated version, together with results for higher groupoids:
  
-* {#ChanavatHadzihasanovic2024} Clémence Chanavat, Amar Hadzihasanovic, _Diagrammatic sets as a model of homotopy types_, 2024 ([arXiv:2407.06285](https://arxiv.org/abs/2407.06285v1))
+* {#ChanavatHadzihasanovic2024Homotopy} Clémence Chanavat, Amar Hadzihasanovic, _Diagrammatic sets as a model of homotopy types_, 2024 ([arXiv:2407.06285](https://arxiv.org/abs/2407.06285v1))
 
 For the notion of equivalence in diagrammatic sets:
 
