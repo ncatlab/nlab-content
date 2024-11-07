@@ -3554,6 +3554,16 @@ Neumann algebras**
 
   > I'll start with a review of finite [[root systems]] and their related matters (Weyl chambers, reflection groups, multiplicity functions). Then, I'll introduce the Dunkl derivatives and the Dunkl intertwining operator. In this context, I'll discuss the commutativity of the former and the existence of the latter, relying on a deformed [[de Rham cohomology]] and the reflection [[group algebra]]. Finally, I'll focus on the Itzykson-Zuber-Harish-Chandra integral, its various expansions, and raise the problem of a mysterious connection to simple Hurwitz numbers.
 
+\linebreak
+
+### Nov 2024
+
+* {#BeniniNov2024} 06 Nov 2024
+
+  [[Marco Benini]]  (University of Genova, Italy):
+
+  > After a gentle introduction to [[relativistic field theory|Lorentzian]] [[quantum field theory]] as axiomatized by [[algebraic quantum field theory]] (Haag-Kastler, Brunetti-Fredenhagen-Verch, ...) and by [[factorization algebras]] (Costello-Gwilliam, ...), we shall present a [[equivalence of categories|categorical equivalence]] between these two axiomatic approaches that relies crucially on the intricate interplay between the principles of [[causality]] and [[time-slice axiom|determinism]]. We shall then rediscover this equivalence from a novel [[stack|stacky]] perspective and illustrate why this point of view offers a promising solution to the open problem (motivated by [[gauge theory]]) of establishing a [[higher category theory|higher categorical]] analog of the above-mentioned equivalence, where the interplay between causality and determinism acquires a [[homotopy theory|homotopical]] flavour.
+
 
 \linebreak  
 
