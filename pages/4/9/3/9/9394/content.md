@@ -9,7 +9,14 @@ Jos&#233; Adolfo de Azc&#225;rraga is full university professor of Theoretical P
 
 * [personal webpage](https://sites.google.com/a/azcarraga.es/j-a-de-azcarraga/)
 
+
+
 ## Selected writings
+
+Understanding [[extended supersymmetry]]-[[super Lie algebras|algebras]] as [[Lie algebra extension|extension]] by [[Noether's theorem|Noether]] [[conserved charge|charges]] of [[probe brane]] [[sigma-models]]:
+
+* {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], [[José M. Izquierdo]], [[Paul Townsend]]: *Topological Extensions of the Supersymmetry Algebra for Extended Objects*, Phys. Rev. Lett. **63** (1989) 2443 &lbrack;[doi:10.1103/PhysRevLett.63.2443](https://doi.org/10.1103/PhysRevLett.63.2443), [spire:26393](https://inspirehep.net/record/26393?ln=en)&rbrack;
+
 
 On [[Lie groups]], [[Lie algebras]], [[Lie algebra cohomology]] and applications to [[physics]]:
 
