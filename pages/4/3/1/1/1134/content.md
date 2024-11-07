@@ -299,7 +299,7 @@ Discussion from the point of view of [[functorial geometry]]:
 
 ### As locally ringed spaces
 
-* {#BerezinLeites75} [[Felix A. Berezin]], [[Dimitry A. Leites]], _Supermanifolds_, (Russian) Dokl. Akad. Nauk SSSR __224__ (1975), no. 3, 505--508; English transl.: Soviet Math. Dokl. __16__ (1975), no. 5, 1218--1222 (1976) &lbrack;[mathnet:dan39282](https://www.mathnet.ru/eng/dan39282)&rbrack;
+* {#BerezinLeites75} [[Felix A. Berezin]], [[Dimitry A. Leites]]: _Supermanifolds_, (Russian) Dokl. Akad. Nauk SSSR __224__ 3 (1975) 505-508; English transl.: Soviet Math. Dokl. __16__ 5 (1975) 1218-1222 &lbrack;[mathnet:dan39282](https://www.mathnet.ru/eng/dan39282)&rbrack;
 
 * {#Batchelor79} [[Marjorie Batchelor]], *The structure of supermanifolds*, Trans. Amer. Math. Soc. **253** (1979) 329-338 &lbrack;[doi:10.1090/S0002-9947-1979-0536951-0](https://doi.org/10.1090/S0002-9947-1979-0536951-0)&rbrack;
 
@@ -359,7 +359,7 @@ The site of formal duals not just to [[Grassmann algebras]] but to all super-[[i
 
 * Katsumi Yagi: *Super manifolds*, Osaka J. Math. **25** 4 (1988) 909-932 &lbrack;[euclid:ojm/1200781174](https://projecteuclid.org/journals/osaka-journal-of-mathematiacs/volume-25/issue-4/Super-manifolds/ojm/1200781174.full)&rbrack;
 
-* {#DeWitt92} [[Bryce DeWitt]], *Supermanifolds*, Monographs on Mathematical Physics, Cambridge University Press (1992) &lbrack;[doi:10.1017/CBO9780511564000](https://doi.org/10.1017/CBO9780511564000)&rbrack;  
+* {#DeWitt92} [[Bryce DeWitt]], *Supermanifolds*, Monographs on Mathematical Physics, Cambridge University Press (1984, 1992) &lbrack;[doi:10.1017/CBO9780511564000](https://doi.org/10.1017/CBO9780511564000)&rbrack;  
 
 * {#Rogers07} [[Alice Rogers]], *Supermanifolds: Theory and Applications*, World Scientific (2007) &lbrack;[doi:10.1142/1878](https://doi.org/10.1142/1878)&rbrack;
 
