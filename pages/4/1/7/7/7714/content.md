@@ -61,6 +61,10 @@ and the term "exceptional tangent space" (or rather "exceptional generalised tan
 * André Coimbra, Charles Strickland-Constable, [[Daniel Waldram]]: *$E_{d(d)} \times \mathbb{R}^+$ Generalised Geometry, Connections and M theory*,  J. High Energ. Phys. **2014** 54 (2014) &lbrack;[arXiv:1112.3989](https://arxiv.org/abs/1112.3989), <a href="https://doi.org/10.1007/JHEP02(2014)054">doi:10.1007/JHEP02(2014)054</a>&rbrack;
 
 
+Argument that the [[M-algebra]] constitutes the maximal ($n=11$) (super-)exceptional tangent space:
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *The M-algebra completes the hierarchy of Super-Exceptional Tangent Spaces* &lbrack;[arXiv:2411.03661](https://arxiv.org/abs/2411.03661)&rbrack;
+
 
 [[!redirects exceptional tangent bundles]]
 
