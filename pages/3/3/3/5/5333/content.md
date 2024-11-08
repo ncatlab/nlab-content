@@ -233,6 +233,9 @@ On non-supersymmetric [[branes]] in heterotic string theory:
 
 * [[Justin Kaidi]], *Non-Supersymmetric Heterotic Branes*, talk at TH String Theory Seminar (Nov 2023) &lbrack;[cds:2881994](https://cds.cern.ch/record/2881994)&rbrack;
 
+* [[Justin Kaidi]], [[Yuji Tachikawa]], [[Kazuya Yonekura]]: *On non-supersymmetric heterotic branes* &lbrack;[arXiv:2411.04344](https://arxiv.org/abs/2411.04344)&rbrack;
+
+
 
 ### Orbifold and orientifold compactifications
 
@@ -383,7 +386,6 @@ Reviews include
 * {#Donagi98} [[Ron Donagi]], _ICMP lecture on heterotic/F-theory duality_ ([arXiv:hep-th/9802093](http://arxiv.org/abs/hep-th/9802093))
 
 * Bj&#246;rn Andreas, _$N=1$ Heterotic/F-theory duality_ PhD thesis ([pdf](http://edoc.hu-berlin.de/dissertationen/physik/andreas-bjoern/PDF/Andreas.pdf))
-
 
 
 
