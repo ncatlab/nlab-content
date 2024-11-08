@@ -279,6 +279,9 @@ Relation to [[homotopical algebraic quantum field theory]]:
 
 * [[Marco Benini]], Giorgio Musante, [[Alexander Schenkel]], *Quantization of Lorentzian free BV theories: factorization algebra vs algebraic quantum field theory* &lbrack;[arXiv:2212.02546](https://arxiv.org/abs/2212.02546)&rbrack;
 
+* [[Marco Benini]]: *A stacky approach to the comparison of axiomatizations of quantum field theory*, [talk at](CQTS#BeniniNov2024) [[CQTS]], NYU Abu Dhabi (Nov 2024) &lbrack;slides:[[Benini-CQTS-Nov2024.pdf:file]]&rbrack;
+
+
 [[conformal net|Conformal nets]] exhibit factorization algebras
 
 * [[Andre Henriques]], _Conformal nets are factorization algebras_, [arXiv:1611.05529](https://arxiv.org/abs/1611.05529)
