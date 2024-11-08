@@ -3562,6 +3562,10 @@ Neumann algebras**
 
   [[Marco Benini]]  (University of Genova, Italy):
 
+  **A stacky approach to the comparison of axiomatizations of quantum field theory**
+
+  slides: [[Benini-CQTS-Nov2024.pdf:file]]
+
   > After a gentle introduction to [[relativistic field theory|Lorentzian]] [[quantum field theory]] as axiomatized by [[algebraic quantum field theory]] (Haag-Kastler, Brunetti-Fredenhagen-Verch, ...) and by [[factorization algebras]] (Costello-Gwilliam, ...), we shall present a [[equivalence of categories|categorical equivalence]] between these two axiomatic approaches that relies crucially on the intricate interplay between the principles of [[causality]] and [[time-slice axiom|determinism]]. We shall then rediscover this equivalence from a novel [[stack|stacky]] perspective and illustrate why this point of view offers a promising solution to the open problem (motivated by [[gauge theory]]) of establishing a [[higher category theory|higher categorical]] analog of the above-mentioned equivalence, where the interplay between causality and determinism acquires a [[homotopy theory|homotopical]] flavour.
 
 
@@ -3954,7 +3958,9 @@ $\;\;\;\;\;$[[Grigorios Giotopoulos|Giotopoulos]]$\;$[[Adrian Clough|Clough]] [[
 \end{imagefromfile}
 
 
+
 ***
+
 
 \linebreak
 
