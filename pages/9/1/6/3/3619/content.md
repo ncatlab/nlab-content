@@ -33,7 +33,7 @@ $$
   p : H_1 \times H_2 \to H_1 \otimes H_2
 $$
 
-which sends a pair of states $(\psi_1, \psi_2)$ to their tensor product $\psi_1 \otimes \psi_2$. States in the [[image]] of $p$ are called **product states** or **separable states**. An **entangled state** is a state which is _not_ a product state.
+which sends a pair of states $(\psi_1, \psi_2)$ to their tensor product $\psi_1 \otimes \psi_2$. States in the [[image]] of $p$ are called **product states** or **separable states**. An **entangled state** is a state which is _not_ a product state. Such a state corresponds to **non-simple tensors**. 
 
 
 ## Examples
