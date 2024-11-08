@@ -20,4 +20,9 @@ On the mod-2 [[elliptic genus]], both as a [[partition function]] of a [[superst
 * [[Yuji Tachikawa]], [[Mayuko Yamashita]], [[Kazuya Yonekura]], *Remarks on mod-2 elliptic genus* &lbrack;[arXiv:2302.07548](https://arxiv.org/abs/2302.07548)&rbrack;
 
 
+On non-supersymmetric [[branes]] in [[heterotic string theory]]:
+
+* [[Justin Kaidi]], [[Yuji Tachikawa]], [[Kazuya Yonekura]]: *On non-supersymmetric heterotic branes* &lbrack;[arXiv:2411.04344](https://arxiv.org/abs/2411.04344)&rbrack;
+
+
 category: people
