@@ -71,11 +71,11 @@ and keeps everything at the morphisms level.
 
 One could say that $Tw(C)$ *classifies* [[wedge|wedges]], in the sense that for any functor $F \colon C^{op} \times C \to B$,
 
-* [[extranatural transformation|extranatural transformations]] $\ e \stackrel{\bullet}{\to} F $ 
+* [[extranatural transformation|extranatural transformations]] of the form $e \stackrel{\bullet}{\to} F $ 
 
 are the same as
 
-* [[natural transformation|natural transformations]] $\ e \to F \circ \pi_C $ 
+* [[natural transformation|natural transformations]] of the form $e \to F \circ \pi_C $ 
 
 This can be used to give a proof of the reduction of [[end|ends]] to [[conical limit|conical limits]] in the $\mathbf{Set}$-enriched case, and is used in the construction of [[ends in a derivator]].
 
