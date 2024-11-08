@@ -113,6 +113,8 @@ Relation to [[factorization algebras]]:
 
 * [[Marco Benini]], Giorgio Musante, [[Alexander Schenkel]], *Quantization of Lorentzian free BV theories: factorization algebra vs algebraic quantum field theory* &lbrack;[arXiv:2212.02546](https://arxiv.org/abs/2212.02546)&rbrack;
 
+* [[Marco Benini]]: *A stacky approach to the comparison of axiomatizations of quantum field theory*, [talk at](CQTS#BeniniNov2024) [[CQTS]], NYU Abu Dhabi (Nov 2024) &lbrack;slides:[[Benini-CQTS-Nov2024.pdf:file]]&rbrack;
+
 
 Review:
 
