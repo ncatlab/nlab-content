@@ -1,7 +1,7 @@
 
 
 
-* [Institute page](https://phys.washington.edu/people/justin-kaidi)
+* [Institute page](https://ias.kyushu-u.ac.jp/en/staff/view.php?cId=773&divi=4)
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=nilwx_0AAAAJ&hl=en)
 
@@ -23,6 +23,7 @@ On non-[[supersymmetry|supersymmetric]] [[branes]] in [[heterotic string theory]
 
 * [[Justin Kaidi]], [[Kantaro Ohmori]], [[Yuji Tachikawa]], [[Kazuya Yonekura]], *Non-supersymmetric heterotic branes* &lbrack;[arXiv:2303.17623](https://arxiv.org/abs/2303.17623)&rbrack; 
 
+* [[Justin Kaidi]], [[Yuji Tachikawa]], [[Kazuya Yonekura]]: *On non-supersymmetric heterotic branes* &lbrack;[arXiv:2411.04344](https://arxiv.org/abs/2411.04344)&rbrack;
 
 
 category: people
