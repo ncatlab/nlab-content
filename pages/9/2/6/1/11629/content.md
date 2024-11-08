@@ -62,6 +62,8 @@ On non-[[supersymmetry|supersymmetric]] [[branes]] in [[heterotic string theory]
 
 * [[Justin Kaidi]], [[Kantaro Ohmori]], [[Yuji Tachikawa]], [[Kazuya Yonekura]], *Non-supersymmetric heterotic branes* &lbrack;[arXiv:2303.17623](https://arxiv.org/abs/2303.17623)&rbrack; 
 
+* [[Justin Kaidi]], [[Yuji Tachikawa]], [[Kazuya Yonekura]]: *On non-supersymmetric heterotic branes* &lbrack;[arXiv:2411.04344](https://arxiv.org/abs/2411.04344)&rbrack;
+
 
 On the mod-2 [[elliptic genus]], both as a [[partition function]] of a [[superstring]] as well as via the [[string-orientation of tmf]]:
 
