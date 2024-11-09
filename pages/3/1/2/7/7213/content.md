@@ -82,12 +82,12 @@ Original articles:
 
 * G. Aldazabala, E. Andr&#233;sb, P. C&#225;marac, [[Mariana Graña]], _U-dual fluxes and generalized geometry_, JHEP 1011:083,2010 ([arXiv:1007.5509](http://arxiv.org/abs/1007.5509))
 
-* [[Mariana Graña]], Francesco Orsi, _$N=1$ vacua in Exceptional Generalized Geometry_  ([arXiv:1105.4855](http://arxiv.org/abs/1105.4855))
- {#GranaOrsi}
+* {#GranaOrsi} [[Mariana Graña]], Francesco Orsi, _$N=1$ vacua in Exceptional Generalized Geometry_  ([arXiv:1105.4855](http://arxiv.org/abs/1105.4855))
+ 
 
 * [[Mariana Graña]], Francesco Orsi, _N=2 vacua in Generalized Geometry_, ([arXiv:1207.3004](http://arxiv.org/abs/1207.3004))
 
-* Andr&#233; Coimbra, Charles Strickland-Constable, [[Daniel Waldram]], _$E_{d(d)} \times \mathbb{R}^+$ Generalised Geometry, Connections and M theory_ ([arXiv:1112.3989](http://arxiv.org/abs/1112.3989))
+* André Coimbra, [[Charles Strickland-Constable]], [[Daniel Waldram]]: *Supergravity as Generalised Geometry I: Type II Theories*,  J. High Energ. Phys. **2011** 91 (2011). &lbrack;[arXiv:1107.1733](http://arxiv.org/abs/1107.1733), <a href="https://doi.org/10.1007/JHEP11(2011)091">doi:10.1007/JHEP11(2011)091</a>&rbrack;
 
 
 * {#Baraglia11} [[David Baraglia]], _Leibniz algebroids, twistings and exceptional generalized geometry_, Journal of Geometry and Physics 62 (2012), pp. 903-934 ([arXiv:1101.0856](http://arxiv.org/abs/1101.0856))
