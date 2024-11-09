@@ -31,6 +31,11 @@ On [[flux compactifications]] in terms of [[G-structure]]:
 
 * [[Jerome Gauntlett]], Dario Martelli, Stathis Pakis, [[Daniel Waldram]], _G-Structures and Wrapped NS5-branes_, Commun.Math.Phys. 247 (2004) 421-445 ([arxiv:hep-th/0205050](https://arxiv.org/abs/hep-th/0205050))
 
+The genuine reformulation of [[type II supergravity]] as a $\big(O(d)\times O(d) \hookrightarrow O(d,d)\big)$-gauge/gravity theory (cf. *[[type II geometry]]*):
+
+* André Coimbra, [[Charles Strickland-Constable]], [[Daniel Waldram]]: *Supergravity as Generalised Geometry I: Type II Theories*,  J. High Energ. Phys. **2011** 91 (2011). &lbrack;[arXiv:1107.1733](http://arxiv.org/abs/1107.1733), <a href="https://doi.org/10.1007/JHEP11(2011)091">doi:10.1007/JHEP11(2011)091</a>&rbrack;
+
+
 On generalized [[G-structures]] and [[exceptional generalized geometry]] of [[flux compactifications]] and in [[AdS/CFT]]: 
 
 * [[Daniel Waldram]], *Fluxes, holography and uses of Exceptional Generalized Geometry*, talk at *[[Strings 2022]]* &lbrack;[indico:4940880](https://indico.cern.ch/event/1085701/contributions/4940880), [slides](https://indico.cern.ch/event/1085701/contributions/4940880/attachments/2482886/4262576/Daniel%20Waldram%20Strings2022-waldram.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=e222a3a9-ebf4-445c-ada0-f7b1d592d908) &rbrack;
