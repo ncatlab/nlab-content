@@ -44,7 +44,7 @@ $$
   \Lambda[n]_i \hookrightarrow \Delta[n]
 $$
 
-for all $n \in \mathbb{N}$ and all $i$ _smaller_ than $n$ -- $0 \leq i \lt n$, we have that every commuting diagram
+for all $n \in \mathbb{N}$ and all $i$ _smaller_ than $n$ ($0 \leq i \lt n$), we have that every commuting diagram
 
 $$
   \array{
