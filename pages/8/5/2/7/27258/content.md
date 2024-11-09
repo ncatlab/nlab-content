@@ -26,7 +26,7 @@ A **$\mathbb{Z}$-functor** or **integers functor** is a [[functor]] from the [[c
 
 * The [[forgetful functor]] $\mathbb{A}^1:\mathrm{CRing} \to \mathrm{Set}$ is a $\mathbb{Z}$-functor. 
 
-* More generally, any [[affine scheme]] is a $\mathbb{Z}$-functor. 
+* An [[affine scheme]] is a [[representable functor|representable]] $\mathbb{Z}$-functor. 
 
 ## Properties
 
