@@ -47,6 +47,10 @@ Relation to [[L-infinity algebras|$L_\infty$-algebras]] via [[pure spinor]]-form
 
 * [[Martin Cederwall]], Simon Jonsson, [[Jakob Palmkvist]], [[Ingmar Saberi]], *Canonical supermultiplets and their Koszul duals* &lbrack;[arXiv:2304.01258](https://arxiv.org/abs/2304.01258)&rbrack;
 
+See also:
+
+* [[Ruben Minasian]], [[Charles Strickland-Constable]], [[Yi Zhang]]: *On symmetries and dynamics of exotic supermultiplets*, J. High Energ. Phys. **2021** 174 (2021)  &lbrack;[arXiv:2007.08888](https://arxiv.org/abs/2007.08888), <a href="https://doi.org/10.1007/JHEP01(2021)174">doi:10.1007/JHEP01(2021)174</a>&rbrack;
+
 
 
 [[!redirects super multiplets]]
