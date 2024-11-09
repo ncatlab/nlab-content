@@ -652,6 +652,11 @@ On quantum channel capacity:
 
 * Alexander S. Holevo, *Quantum channel capacities*, Quantum Electron. **50** 440 (2020) &lbrack;[doi:10.1070/QEL17285/meta](https://iopscience.iop.org/article/10.1070/QEL17285/meta)&rbrack;
 
+Axiomatization via [[2-categories]] of [[von Neumann algebras]]:
+
+* Robert Allen, Dominic Verdon: *$\mathbb{C}P^\infty$ and beyond: 2-categorical dilation theory*, Theory and Applications of Categories **41** 50 (2024) 1783-1811 &lbrack;[arXiv:2310.15776](https://arxiv.org/abs/2310.15776), [tac:41-50](http://www.tac.mta.ca/tac/volumes/41/50/41-50abs.html)&rbrack;
+
+
 [[!redirects quantum channel]]
 [[!redirects quantum channels]]
 [[!redirects quantum operation]]
