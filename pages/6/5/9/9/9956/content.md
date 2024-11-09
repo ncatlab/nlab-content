@@ -1,7 +1,15 @@
 
 David Berman is professor in theoretical [[physics]] at Queen Mary University of London.
 
-* [webpage](http://www.strings.ph.qmul.ac.uk/~dsb/)
+* [personal page](http://www.strings.ph.qmul.ac.uk/~dsb/)
+
+* [institute page](https://www.qmul.ac.uk/spcs/staff/academics/profiles/dsberman.html)
+
+* [inSpire page](https://inspirehep.net/authors/1016608)
+
+* [GoogleScholar page](https://scholar.google.co.uk/citations?user=q77ke3EAAAAJ&hl=en)
+
+
 
 ## Selected writings
 
