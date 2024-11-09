@@ -26,6 +26,11 @@ On [[boundary conditions]] for interacting [[M2-branes]] in regarding through th
 * {#BPST09} [[David Berman]], [[Malcolm J. Perry]], [[Ergin Sezgin]], [[Daniel C. Thompson]], *Boundary Conditions for Interacting Membranes*, JHEP 1004:025, 2010 &lbrack;[arXiv:0912.3504](https://arxiv.org/abs/0912.3504), <a href="https://doi.org/10.1007/JHEP04(2010)025">doi:10.1007/JHEP04(2010)025</a>&rbrack;
 
 
+Early discussion of enriching [[spacetime]] by [[M2-brane]] charges in higher analogy to [[double field theory]] and similar to later discussion of [[exceptional field theory]]:
+
+* [[David S. Berman]], [[Malcolm J. Perry]]: *Generalized Geometry and M theory*,  J. High Energ. Phys. **2011** 74 (2011)  &lbrack;[arXiv:1008.1763v4](https://arxiv.org/abs/1008.1763v4), <a href="https://doi.org/10.1007/JHEP06(2011)074">doi:10.1007/JHEP06(2011)074</a>&rbrack;
+
+
 ## Related entries
 
 * [[M5-brane]]
