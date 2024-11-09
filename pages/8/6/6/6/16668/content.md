@@ -62,10 +62,14 @@ Precursors on [[U-duality]] covariant formulations of [[D=11 supergravity]]:
 * [[Hermann Nicolai]]: *On M-Theory*,  J Astrophys Astron **20**,  (1999) 149–164 &lbrack;[arXiv:hep-th/9801090](https://arxiv.org/abs/hep-th/9801090), [doi:10.1007/BF02702349](https://doi.org/10.1007/BF02702349)&rbrack;
   > (the term "[[exceptional geometry]]" appear here)
 
-
 * [[Olaf Hohm]], [[Henning Samtleben]]: *U-duality covariant gravity*,  J. High Energ. Phys. **2013** 80 (2013) &lbrack;[arXiv:1307.0509](http://arxiv.org/abs/1307.0509), <a href="https://doi.org/10.1007/JHEP09(2013)080">doi:10.1007/JHEP09(2013)080</a>&rbrack;
 
-The original articles introducing the terminologu of "exceptional field theory":
+And precursor geometry enriched by brane winding charges in higher analogy to [[double field theory]]:
+
+* [[David S. Berman]], [[Malcolm J. Perry]]: *Generalized Geometry and M theory*,  J. High Energ. Phys. **2011** 74 (2011)  &lbrack;[arXiv:1008.1763v4](https://arxiv.org/abs/1008.1763v4), <a href="https://doi.org/10.1007/JHEP06(2011)074">doi:10.1007/JHEP06(2011)074</a>&rbrack;
+
+
+The original articles introducing the terminology of "exceptional field theory":
 
 * [[Olaf Hohm]], [[Henning Samtleben]]: *Exceptional Form of $D=11$ Supergravity*, Phys. Rev. Lett. **111** 231601 (2013) &lbrack;[arXiv:1308.1673](http://arxiv.org/abs/1308.1673), [doi:10.1103/PhysRevLett.111.231601](https://doi.org/10.1103/PhysRevLett.111.231601)&rbrack;
 
