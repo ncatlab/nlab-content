@@ -13,7 +13,7 @@
 
 ## Idea
 
-A notion of [[topological space]] which comes with predefined notions of neighbourhood, apartness, and nearness, without having to define any of them in terms of the others. 
+A notion of [[topological space]] which comes with predefined notions of [[neighbourhood]], apartness, and nearness, without having to define any of them in terms of the others. 
 
 ## Definition
 
