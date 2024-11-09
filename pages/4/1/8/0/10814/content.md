@@ -145,6 +145,7 @@ $$
 where $[\,\cdot\,,\,\cdot\,]$, $\mathcal{L}_X$ and $\mathrm{d}$ are usual Lie bracket, Lie derivative and differential on $T\mathcal{F}_+$. On the other hand $[\,\cdot\,,\,\cdot\,]^\ast$, $\mathcal{L}^\ast_\alpha$ and $\mathrm{d}^\ast$ are Lie bracket, Lie derivative and differential on $T\mathcal{F}_+^\ast$ induced by the former ones. 
 
 ### Analogy with geometric quantization
+
 The analogy between [[geometric quantization]] and DFT was firstly noticed by [[David Berman]]. 
 
 Given a symplectic manifold $(M,\omega)$ there exist couples of lagrangian foliations $\mathcal{F}_+,\mathcal{F}_-$ of $M$ defined by
@@ -223,6 +224,15 @@ Original articles:
 The idea of "doubled spacetime geometry" is a variant of the idea of [[T-folds]], due to
 
 * {#Hull06} [[Chris Hull]], _Doubled geometry and T-folds_ JHEP0707:080,2007  ([arXiv:hep-th/0605149](http://arxiv.org/abs/hep-th/0605149))
+
+The terminology "section condition" in double field hteory originates with the following article (which is more generally concerned with a kind of [[exceptional field theory]]):
+
+* [[David S. Berman]], [[Malcolm J. Perry]]: *Generalized Geometry and M theory*,  J. High Energ. Phys. **2011** 74 (2011)  &lbrack;[arXiv:1008.1763v4](https://arxiv.org/abs/1008.1763v4), <a href="https://doi.org/10.1007/JHEP06(2011)074">doi:10.1007/JHEP06(2011)074</a>&rbrack;
+
+  > &lbrack;p 3:&rbrack; "One half of the \[doubled\] space is the usual geometry and the other is its T-dual. Of course one also must define a *section* on the doubled space to relate it to a particular duality frame in order to retrieve some kind of conventional spacetime picture."
+
+  > &lbrack;p. 4:&rbrack; "a kind of section condition describing how one takes a section through the extended space that results in our usual spacetime view. \[...\] there are many possible ways of taking a section through the doubled space and these are of course related by T-duality transformations. The absence of a globally defined section is also possible and it is this possibility that gives rise to so called nongeometric backgrounds such as T-folds where local geometric patches are related by transition function given by T-duality transformations. "
+
 
 The coinage of the term "double field theory" for field theory on such doubled geometry goes back to
 
