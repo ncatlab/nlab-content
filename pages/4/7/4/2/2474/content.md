@@ -134,7 +134,7 @@ $$
   \big\}
 $$
 
-form a [[partial order|partially ordered]] [[complex vector space]] by declaring an element $A$ to be "larger" than some $B$ if the difference is a [[normal operator]]
+form a [[partial order|partially ordered]] [[real vector space]] by declaring an element $A$ to be "larger" than some $B$ if the difference is a [[normal operator]]
 
 $$
   A \geq B 
@@ -160,7 +160,7 @@ $$
   \,.
 $$
 
-(It is (only) this [[partial order]] on the [[underlying]] [[complex vector space]] of $\mathcal{A}$ that determines which [[linear functions]] $\mathcal{A} \to \mathbb{C}$ count as *[[states on a C-star algebra|states]]*.) 
+(It is (only) this [[partial order]] on the [[underlying]] [[real vector space]] of $\mathcal{A}$ that determines which [[linear functions]] $\mathcal{A} \to \mathbb{C}$ count as *[[states on a C-star algebra|states]]*.) 
 
 E.g. [Murphy (1990) §2.2](#Murphy90), [Blackadar (2006) §II.3.1](#Blackadar06)
 
