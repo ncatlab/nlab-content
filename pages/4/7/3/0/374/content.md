@@ -302,6 +302,8 @@ The [[Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets 
 
 * [[sheaf on a topological space]]
 
+* [[pretopological space]]
+
 [[!include topology -- references]] 
 
 
