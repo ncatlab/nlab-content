@@ -360,9 +360,9 @@ Though see also the following, which uses more modern terminology:
 
 A thorough 2-categorical account is contained in:
 
-* [[Claude Auderset]], _Adjonctions et monades au niveau des $2 $-catégories_, Cahiers de topologie et géométrie différentielle 15.1 (1974): 3-20.
+* Claude Auderset: _Adjonctions et monades au niveau des $2 $-catégories_, [[Cahiers]] de topologie et géométrie différentielle **15** 1 (1974) 3-20.
 
-* [[Stephen Schanuel]] and [[Ross Street]], _The free adjunction_, Cahiers de topologie et géométrie différentielle catégoriques 27.1 (1986): 81-8
+* [[Stephen Schanuel]], [[Ross Street]]: _The free adjunction_, [[Cahiers]] de topologie et géométrie différentielle catégoriques **27** 1 (1986)  81-8
 
 Review:
 
