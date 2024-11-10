@@ -51,6 +51,9 @@ JT-gravity gives a good approximation to the [[anti de Sitter spacetime|AdS]]-fa
 
 ## References
 
-* [[Paul Ginsparg]], [[Gregory Moore]], _Lectures on 2D gravity and 2D string theory (TASI 1992)_ ([arXiv:hep-th/9304011](https://arxiv.org/abs/hep-th/9304011))
+* [[Paul Ginsparg]], [[Gregory Moore]]: *Lectures on 2D gravity and 2D string theory (TASI 1992)* &lbrack;[arXiv:hep-th/9304011](https://arxiv.org/abs/hep-th/9304011)&rbrack;
+
+* J. Ambjørn, T. Budd: *Two-Dimensional Quantum Geometry*, Acta Physica Polonica B **44** 12 (2013) 2537 &lbrack;[arXiv:1310.8552](https://arxiv.org/abs/1310.8552), [doi:10.5506/APhysPolB.44.2537](https://doi.org/10.5506/APhysPolB.44.2537)&rbrack;
+
 
 [[!redirects 2d gravity]]
