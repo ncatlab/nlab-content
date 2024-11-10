@@ -13,7 +13,7 @@ Suggesting [[enriched category|enrichment]] in [[multicategories]]:
 
 On the role of [[adjunctions]] and [[dualities]] in [[mathematics]]:
 
-* {#Lambek} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1981)
+* {#Lambek81} [[Joachim Lambek]]: *The Influence of Heraclitus on Modern Mathematics*, in: Joseph Agassi, Robert S. Cohen (eds.) _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, , 111-21. Boston: D. Reidel Publishing Co. (1981) 111-121 &lbrack;[doi:10.1007/978-94-009-8462-2_6](https://doi.org/10.1007/978-94-009-8462-2_6), [pdf](https://link.springer.com/content/pdf/10.1007/978-94-009-8462-2_6.pdf)&rbrack;
 
 On [[categorical logic]] and [[topos theory]] (and establishing the [[relation between category theory and type theory|relation]] between [[simply-typed lambda calculus]] and [[cartesian closed categories]]):
 
