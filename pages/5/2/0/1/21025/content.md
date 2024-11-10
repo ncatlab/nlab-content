@@ -22,13 +22,13 @@
 \linebreak
 
 
-This page collects material related to:
+This page compiles material related to:
 
 \linebreak
 
 A **conference series on [[M-theory]] and [[mathematics]]**.
 
-> These workshops bring together experts on the mathematical aspects of [[M-theory]], the main candidate for a [[theory of everything]], with implications to [[string theory]] and [[quantum field theory]] and interactions with [[geometry]] and [[algebraic topology]].
+> These workshops bring together experts on mathematical aspects of [[M-theory]], a candidate [[non-perturbative quantum field theory|non-perturbative]] "[[theory of everything]]", with implications to [[string theory]], [[quantum field theory]] and [[condensed matter theory]], and interactions with [[geometry]] and [[algebraic topology]].
 
 \linebreak
 
@@ -453,7 +453,7 @@ Theory and M-Theory**
 
 <img src="/nlab/files/MTheoryAndMathematics2023-GroupPhoto.jpg">
 
-> {#GroupPhoto2023} (from left to right: [[Sachin Valera|Valera]], [[Branislav Jurco|Jurčo]], [[David Berman|Berman]], [[Luigi Alfonsi|Alfonsi]], [[Fei Han|Han]], [[Urs Schreiber|Schreiber]], [[Varghese Mathai|Mathai]], [[Christian Saemann|Saemann]], [[Hisham Sati|Sati]], [[Alexander Voronov|Voronov]], [[Neil Lambert|Lambert]], [[Ibrahima Bah|Bah]], [[Dimitrios Tsimpis|Tsimpis]], [[Chris Hull|Hull]], [[Alessio Marrani|Marrani]], [[Yang-Hui He|He]], [[Vivek Kumar Singh|Singh]], [[Grigorios Giotopoulos|Giotopoulos]], [[Richard Szabo|Szabo]], )
+> {#GroupPhoto2023} [[Sachin Valera|Valera]], [[Branislav Jurco|Jurčo]], [[David Berman|Berman]], [[Luigi Alfonsi|Alfonsi]], [[Fei Han|Han]], [[Urs Schreiber|Schreiber]], [[Varghese Mathai|Mathai]], [[Christian Saemann|Saemann]], [[Hisham Sati|Sati]], [[Alexander Voronov|Voronov]], [[Neil Lambert|Lambert]], [[Ibrahima Bah|Bah]], [[Dimitrios Tsimpis|Tsimpis]], [[Chris Hull|Hull]], [[Alessio Marrani|Marrani]], [[Yang-Hui He|He]], [[Vivek Kumar Singh|Singh]], [[Grigorios Giotopoulos|Giotopoulos]], [[Richard Szabo|Szabo]]
 
 \linebreak
 
