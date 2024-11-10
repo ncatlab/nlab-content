@@ -40,6 +40,9 @@ Understanding [[extended supersymmetry]]-[[super Lie algebras|algebras]] as [[Li
 
 * {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], [[José M. Izquierdo]], [[Paul Townsend]]: *Topological Extensions of the Supersymmetry Algebra for Extended Objects*, Phys. Rev. Lett. **63** (1989) 2443 &lbrack;[doi:10.1103/PhysRevLett.63.2443](https://doi.org/10.1103/PhysRevLett.63.2443), [spire:26393](https://inspirehep.net/record/26393?ln=en)&rbrack;
 
+Understanding [[super p-brane]]-species as classified by the [[Lie algebra cohomology]] of their [[target spacetime|target]] [[super-Minkowski spacetime]] [[super Lie algebras]]:
+
+* {#AzcarragaTownsend89} [[José de Azcárraga]], [[Paul Townsend]]: *Superspace geometry and the classification of supersymmetric extended objects*, Physical Review Letters **62** 22 (1989) &lbrack;[doi:10.1103/PhysRevLett.62.2579](https://doi.org/10.1103/PhysRevLett.62.2579), [spire:284635](http://inspirehep.net/record/284635)&rbrack;
 
 
 Early discussion of the [[duality between type IIA string theory and M-theory]] in view of [[double dimensional reduction]] of the [[M2-brane]]:
