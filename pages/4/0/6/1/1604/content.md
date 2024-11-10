@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 # Pretopological spaces
 * tic
 {: toc}
@@ -128,6 +138,13 @@ Note that an interior is open, and a closure is closed.  Indeed, the open sets i
 
 In the definition of pretopology, the neighbourhoods of each point may be given completely independently of any other point.  So the notion of topological space may also be seen as requiring some coherence between the neighbourhoods of nearby points.
 
+## Related concepts
+
+* [[topological space]]
+
+## References
+
+(...)
 
 [[!redirects pretopological space]]
 [[!redirects pretopological spaces]]
