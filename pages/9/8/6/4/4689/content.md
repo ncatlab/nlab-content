@@ -328,6 +328,11 @@ That it appears earliest at 3-loops was established in
 
 Specifically for [[N=8 d=4 supergravity]] there is evidence that it might be finite at all loops. See the references [there](4-dimensional+supergravity#PerturbativeQuantumSupergravityN8).
 
+Review:
+
+* Assaf Shomer: *A pedagogical explanation for the non-renormalizability of gravity* &lbrack;[arXiv:0709.3555](https://arxiv.org/abs/0709.3555), [spire:761598](https://inspirehep.net/literature/761598)&rbrack;
+
+
 ### From string field theory
 
 Derivation of [[graviton]]-[[scattering amplitudes]] from [[string field theory]]:
