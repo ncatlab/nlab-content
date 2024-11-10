@@ -81,13 +81,17 @@ In fact, we can easily characterise the topological pretopologies, allowing us t
 
 In the terms defined below, a topological space is a pretopological space in which every preinterior is open.
 
-There are many examples of pretopological spaces that are not topological spaces, although the following two are rather artificial:
+There are many examples of pretopological spaces that are not topological spaces, although the last two are rather artificial:
+
+* $\mathbb{Z}^2$ becomes a pretopological space if we say a neighborhood of a point $(x,y)$ is any set $U \subseteq \mathbb{Z}^2$ that contains all these points:
+
+$$(x+i, y+j) \; \text{where} \; i,j \in \{-1,0,1\}$$
 
 * There is a pretopology on $\mathbb{R}$ where the neighborhoods of rational numbers are those from the Euclidean topology, while those of the irrational numbers are those from the discrete topology.
 
 * Consider a [[metric space]] $S$; according to the usual pretopology on $S$, $U$ is a neighborhood of $x$ if there is a positive number $\epsilon$ such that $U$ contains the ball $ \{ y \;|\; d(x,y) \lt \epsilon \} $.  Now given a [[natural number]] $n$, we will give $S^n$ the _plus pretopology_: $U$ is a neighborhood of $\vec{x} = (x_1,\ldots,x_n)$ if there is a positive number $\epsilon$ such that $U$ contains the $l^0$-ball $ \{ \vec{y} \;|\; \inf_i d(x_i,y_i) \lt \epsilon \} $.  (If $S$ is a line and $n = 2$, then this neighborhood is a plus sign '+' with $(x_1,x_2)$ at the centre and cross bars of length $2 \epsilon$.)  Then $S^n$ is a pretopological space, but it is topological only if $n \leq 1$ or $S$ is a [[subsingleton]].
 
-The second example, based on Section 15.6 of [[HAF]], can probably be generalised to a [[uniform space]] $S$.  Possibly there is some interesting universal property of this 'plus product', although it seems to go from $Unif \times Unif$ to $Pre Top$, so maybe we need to work in a different category.  (There is a notion of [[uniform convergence space]] that generalises uniform spaces much like convergence spaces generalise topological spaces; perhaps the plus product takes place there.)
+The first example, and many similar examples, arise naturally in the theory of cellular automata.  The third example, based on Section 15.6 of [[HAF]], can probably be generalized to any [[uniform space]] $S$.  Possibly there is some interesting universal property of this 'plus product', although it seems to go from $Unif \times Unif$ to $Pre Top$, so maybe we need to work in a different category.  (There is a notion of [[uniform convergence space]] that generalises uniform spaces much like convergence spaces generalise topological spaces; perhaps the plus product takes place there.)
 
 
 ## Topological structure
