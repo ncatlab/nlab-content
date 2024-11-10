@@ -53,9 +53,9 @@ $$
   T P
 $$
 
-for the [[vector field]] on $P$ which is the [[derivative]] of the $G$-[[action]] $G \times P \overset{\rho}{\to} P$ along $v$, then differential form $\omega$ is _basic_ precisely if
+for the [[vector field]] on $P$ which is the [[derivative]] of the $G$-[[action]] $G \times P \overset{\rho}{\to} P$ along $v$, then a differential form $\omega$ is _basic_ precisely if
 
-1. it is annihilated by the contraction with $\hat v$
+1. it is annihilated by the [[tensor contraction|contraction]] with $\hat v$
    
    $$
      \iota_{\hat v} \omega = 0
