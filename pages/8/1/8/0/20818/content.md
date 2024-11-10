@@ -3,6 +3,9 @@ James Bjorken (1934-2024)
 
 * [Wikipedia entry](https://en.m.wikipedia.org/wiki/James_Bjorken)
 
+* [inSpire page](https://inspirehep.net/authors/1016238)
+
+
 ## Selected writings
 
 On the [[quantum mechanics]] of [[relativistic particles]] ([[Klein-Gordon equation]], [[Dirac equation]])
