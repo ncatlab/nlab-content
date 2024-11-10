@@ -962,18 +962,18 @@ Discussion of [[T-duality]] for the Green-Schwarz string is in
 The WZW nature of the second term in the GS action, recognized in ([Henneaux-Mezincescu 85](#HenneauxMezincescu85)) is
 discussed in
 
-* {#Rabin87} [[Jeffrey Rabin]], _Supermanifold Cohomology and the Wess-Zumino Term of the Covariant Superstring Action_, Commun Math. Phys. 108, 375-389 (1987) ([Euclid:1104116532](https://projecteuclid.org/euclid.cmp/1104116532))
+* {#Rabin87} [[Jeffrey Rabin]]: *Supermanifold Cohomology and the Wess-Zumino Term of the Covariant Superstring Action*, Commun Math. Phys. **108** (1987) 375-389 &lbrack;[euclid:cmp/1104116532](https://projecteuclid.org/euclid.cmp/1104116532)&rbrack;
 
 * B. Milewski, _Superstrings from sigma models_,  Classical and Quantum Gravity, Volume 4, Number 3 (1987)
 
 * A.P. Isaev, E.A. Ivanov, _On Sigma Model Formulation of Green-Schwarz Superstring_, Mod.Phys.Lett. A4 (1989) 351-359 ([spire:266793](http://inspirehep.net/record/266793), [doi:10.1142/S0217732389000423](https://www.worldscientific.com/doi/abs/10.1142/S0217732389000423)) 
 
-* {#AzcarragaTownsend89} [[José de Azcárraga]], [[Paul Townsend]], _Superspace geometry and the classification of supersymmetric extended objects_, Physical Review Letters Volume 62, Number 22 (1989) ([spire](http://inspirehep.net/record/284635?ln=en))
+* {#AzcarragaTownsend89} [[José de Azcárraga]], [[Paul Townsend]]: *Superspace geometry and the classification of supersymmetric extended objects*, Physical Review Letters **62** 22 (1989) &lbrack;[doi:10.1103/PhysRevLett.62.2579](https://doi.org/10.1103/PhysRevLett.62.2579), [spire:284635](http://inspirehep.net/record/284635)&rbrack;
 
-an with its [[infinity-Lie theory|Lie theoretic]] meaning
+and with its [[infinity-Lie theory|Lie theoretic]] meaning
 made fully explicit (in "FDA" language) in
 
-* {#AzcarragaIzquierdo95} [[José de Azcárraga]], [[José Izquierdo]], chapter 8 of _[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]_, Cambridge monographs of mathematical physics (1995)
+* {#AzcarragaIzquierdo95} [[José de Azcárraga]], [[José Izquierdo]], chapter 8 of *[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]*, Cambridge monographs of Mathematical Physics (1995) &lbrack;[doi:10.1017/CBO9780511599897](https://doi.org/10.1017/CBO9780511599897)&rbrack;
 
 The original "brane scan" classification of GS action functionals by WZW terms:
 
