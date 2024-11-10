@@ -937,3 +937,8 @@ On [[Lie algebra cohomology]] of [[super Lie algebras]] (see also the [[Green-Sc
 [[!redirects super Lie bracket]]
 [[!redirects super Lie brackets]]
 
+[[!redirects super-Lie algebra]]
+[[!redirects super-Lie algebras]]
+
+
+
