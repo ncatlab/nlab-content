@@ -137,7 +137,7 @@ to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the 
 ## References
 
 
-* {#Lambek81} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1981)
+* {#Lambek81} [[Joachim Lambek]]: *The Influence of Heraclitus on Modern Mathematics*, in: Joseph Agassi, Robert S. Cohen (eds.) _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, , 111-21. Boston: D. Reidel Publishing Co. (1981) 111-121 &lbrack;[doi:10.1007/978-94-009-8462-2_6](https://doi.org/10.1007/978-94-009-8462-2_6), [pdf](https://link.springer.com/content/pdf/10.1007/978-94-009-8462-2_6.pdf)&rbrack;
 
 * {#PorstTholen91} [[Hans-E. Porst]], [[Walter Tholen]], _Concrete Dualities_ in H. Herrlich, [[Hans-E. Porst]] (eds.) _Category Theory at Work_, Heldermann Verlag 1991 ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
 
@@ -148,7 +148,7 @@ to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the 
 
 * {#LawvereRosebrugh} [[William Lawvere]], [[Bob Rosebrugh]], chaper 7 of: _[[Sets for Mathematics]]_ (2004) &lbrack;[web](http://www.mta.ca/~rrosebru/setsformath/)&rbrack;
 
-* {#Corfield17} [[David Corfield]], _Duality as a category-theoretic concept_, Science Part B: Studies in History and Philosophy of Modern Physics Volume 59, August 2017, Pages 55-61 ([doi:10.1016/j.shpsb.2015.07.004](https://doi.org/10.1016/j.shpsb.2015.07.004))
+* {#Corfield17} [[David Corfield]]: *Duality as a category-theoretic concept*, Science Part B: Studies in History and Philosophy of Modern Physics **59** (2017) 55-61 &lbrack;[doi:10.1016/j.shpsb.2015.07.004](https://doi.org/10.1016/j.shpsb.2015.07.004)&rbrack;
 
 
 Discussion of duality specifically in [[homological algebra]] and [[stable homotopy theory]] with emphasis on the concept of [[dualizing object in a closed category]] (and the induced [[Umkehr maps]] etc.) is in
