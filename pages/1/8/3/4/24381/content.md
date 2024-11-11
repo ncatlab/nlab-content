@@ -1,6 +1,8 @@
 
 * [institute page](https://math-cs.spbu.ru/en/people/sergei-ivanov/)
 
+* [personal page](https://www.sergei-o-ivanov.com/)
+
 ## Selected writings
 
 On [[fr-codes]] in [[homological algebra]]:
