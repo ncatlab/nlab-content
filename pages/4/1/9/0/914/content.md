@@ -416,8 +416,6 @@ But by construction this net has the property that for every neighbourhood $V$ o
 ###### Proposition
 **(continuous functions detected by nets)**
 
-Assuming [[excluded middle]], then
-
 Let $(X,\tau_X)$ and $(Y,\tau_Y)$ be two [[topological space]]. Then a [[function]] $f \colon X \to Y$ between their underlying sets is [[continuous function|continuous]] precisely if for every net $\nu \colon A \to X$ that [[convergence|converges]] to some [[limit point]] $x \in X$ (def. \ref{Convergence}), the image net $f\circ \nu$ converges to  $f(x)\in Y$.
 
 =--
@@ -432,6 +430,8 @@ But since $f$ is continuous, the [[pre-image]] $f^{-1}(U_{f(x)}) \subset X$ is a
 We give two proofs of the other direction.
 
 _proof 1_
+
+Assuming [[excluded middle]], 
 
 Conversely, suppose that $f$ is not continuous. We need to find a net $\nu$ that converges to some $x \in X$, and show that $f \circ \nu$ does not converge to $f(x)$. (This is the [[contrapositive]] of the reverse implication, and by [[excluded middle]] equivalent to it.)
 
