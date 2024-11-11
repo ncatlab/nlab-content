@@ -137,6 +137,8 @@ See also:
 
 * [[Juven Wang]], *C-P-T Fractionalization*, Phys. Rev. D **106** (2022) 105009 &lbrack;[arXiv:2109.15320](https://arxiv.org/abs/2109.15320), [doi:10.1103/PhysRevD.106.105009](https://doi.org/10.1103/PhysRevD.106.105009)&rbrack;
 
+* I. P-Castro, J. L. Díaz-Cruz, A. Pérez-Lorenzana: *CPT Symmetry and its Breaking in the chiral fermion formalism* &lbrack;[arXiv:2411.05242](https://arxiv.org/abs/2411.05242)&rbrack;
+
 
 
 
