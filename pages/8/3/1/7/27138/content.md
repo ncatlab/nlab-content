@@ -13,7 +13,7 @@
 
 ## Idea
 
-A notion of [[topological space]] which comes with predefined notions of [[neighbourhood]], apartness, and nearness, without having to define any of them in terms of the others. 
+A notion of [[topological space]] which comes with predefined notions of [[neighbourhood]], [[point-set apartness]], and nearness, without having to define any of them in terms of the others. 
 
 ## Definition
 
@@ -31,7 +31,7 @@ A **unified topological space** is a [[set]] $A$ with a **unified topology** - t
 
   * if $x \ll U$, then $x \ll \{y \in A \vert y \ll U\}$
 
-* $\bowtie$ satisfies the following apartness axioms: 
+* $\bowtie$ is a [[point-set apartness space|point-set apartness]] in the usual sense: 
 
   * if $x \bowtie U$, then $x \in U$ is false
 
@@ -62,6 +62,8 @@ A **unified topological space** is a [[set]] $A$ with a **unified topology** - t
 ## Related concepts
 
 * [[topological space]]
+
+* [[point-set apartness space]]
 
 * [[antithesis interpretation]]
 
