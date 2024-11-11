@@ -51,5 +51,7 @@ Explicitly, this means that:
 
 * {#Schauenburg01} [[Peter Schauenburg]], *Turning Monoidal Categories into Strict Ones*, New York Journal of Mathematics **7** (2001) 257-265 &lbrack;[nyjm:j/2001/7-16](http://nyjm.albany.edu/j/2001/7-16.html), [eudml:121925](https://eudml.org/doc/121925)&rbrack;
 
+Note that there may be a gap in the proof of the main result of the paper above: see [this abstract](https://dutchcats.github.io/PSSL-2024/schedule.html) by [[Paul Levy]].
+
 
 [[!redirects strict monoidal categories]]
