@@ -22,8 +22,8 @@
 
 ## Definition
 
-For $n \in \mathbb{N}$ the **orthogonal group** is the group of [[isometry|isometries]] of a real $n$-dimensional [[Hilbert space]]. This is naturally a [[Lie group]].
-This is canonically isomorphic to the group of $n \times n$ orthogonal [[matrices]].
+For $n \in \mathbb{N}$ the **orthogonal group** $O(n)$ is the group of [[isometry|isometries]] of a real $n$-dimensional [[Hilbert space]]. This is naturally a [[Lie group]].
+This is isomorphic to the group of $n \times n$ orthogonal [[matrices]].
 
 More generally there is a notion of _[[orthogonal group of an inner product space]]_.
 
