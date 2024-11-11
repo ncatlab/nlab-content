@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 # Apartness spaces
 * table of contents
 {: toc}
@@ -99,6 +109,9 @@ However, a continuous map between apartness spaces in the above sense apparently
 
 Thus, the category of locally decomposable apartness spaces is equivalent to the category of locally decomposable topological spaces.
 
+## Related concepts
+
+* [[unified topological space]]
 
 ## References
 
@@ -117,6 +130,10 @@ The above definition in terms of an apartness relation between points and subset
 * [[Douglas Bridges]] and Luminita Vita, *Apartness and Uniformity: A Constructive Development*. 2011, [link](http://link.springer.com/book/10.1007%2F978-3-642-22415-7)
  {#BV11}
 
+
+[[!redirects point-set apartness]]
+[[!redirects point–set apartness]]
+[[!redirects point--set apartness]]
 
 [[!redirects apartness space]]
 [[!redirects apartness spaces]]
