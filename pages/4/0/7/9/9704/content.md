@@ -129,6 +129,11 @@ Experimental search for magnetic monopoles via the [[Schwinger effect]]:
 
 * [[Bobby Acharya]] et al., *First experimental search for production of magnetic monopoles via the Schwinger mechanism* ([arXiv:2106.11933](https://arxiv.org/abs/2106.11933))
 
+See also:
+
+* Arttu Rajantie: *Magnetic monopoles -- theory overview* &lbrack;[arXiv:2411.05753](https://arxiv.org/abs/2411.05753)&rbrack;
+
+
 
 A general account of [[vacuum]] [[QFT with defects|defects]] such as [[domain walls]] and monopoles:
 
