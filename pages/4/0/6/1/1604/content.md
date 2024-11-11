@@ -142,6 +142,8 @@ In the definition of pretopology, the neighbourhoods of each point may be given 
 
 * [[topological space]]
 
+* [[sigma-pretopological space]]
+
 ## References
 
 (...)
