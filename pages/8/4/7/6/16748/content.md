@@ -24,7 +24,14 @@ $$
 
 This follows directly from the defining formula $P(A|B) = P(A \wedge B)/P(B)$ for [[conditional probability]].  The rule may also be written in the expanded form
 
-$$ P(H|E) = \frac{P(E|H) P(H)} {P(E|H) P(H) - P(E|\neg{H}) P(H) + P(E|\neg{H})} ,$$
+$$ 
+  P(H|E) 
+  \;=\; 
+  \frac{P(E|H) P(H)} {P(E|H) P(H) 
+  \,-\, 
+  P(E|\neg{H}) P(H) + P(E|\neg{H})}
+  \,,
+$$
 
 which additionally uses some of the axioms of probability, or somewhere in between these two forms.
 
@@ -35,6 +42,12 @@ As a theorem, it is quite trivial; the point is in its application as a rule for
 ### In quantum physics
 
 In [[quantum mechanics]], the [[collapse of the wavefunction]] may be seen as a generalization of Bayes\'s Rule to [[quantum probability theory]].  This is key to the [[Bayesian interpretation of quantum mechanics]].
+
+## Related entries
+
+* [[Bayesian inversion]]
+
+
 
 
 [[!redirects Bayes Rule]]
