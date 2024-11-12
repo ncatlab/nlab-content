@@ -312,9 +312,7 @@ The concept of double dimensional reduction was introduced, for the case of the 
 
 The above "brane scan" table showing the double dimensional reduction pattern of the super-$p$-branes given by the [[Green-Schwarz action functional]] (see there for more references on this) is taken from 
 
-* {#Duff} [[Michael Duff]], _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 (1987) ([scan](http://ccdb4fs.kek.jp/cgi-bin/img/allpdf?198708425))
- 
-
+* {#Duff} [[Michael Duff]]: *Supermembranes: the first fifteen weeks*, Class. Quantum Grav. **5** 189 (1988) &lbrack;[doi:10.1088/0264-9381/5/1/023](https://iopscience.iop.org/article/10.1088/0264-9381/5/1/023)&rbrack;
 
 
 ### Reduction of M5-brane to D4-brane
