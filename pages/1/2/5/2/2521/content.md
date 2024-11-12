@@ -183,6 +183,11 @@ For [[AQFT]]-like discussion of [[supersymmetry|supersymmetric]] [[field theory]
 
 * Thomas-Paul Hack, Florian Hanisch, [[Alexander Schenkel]]: Section 3 of: *Supergeometry in locally covariant quantum field theory*, Commun. Math. Phys. **342** 615 (2016) \[<a href="https://doi.org/10.1007/s00220-015-2516-4">doi:10.1007/s00220-015-2516-4</a>, [arXiv:1501.01520](https://arxiv.org/abs/1501.01520)\]
 
+See also:
+
+* Johannes Moerland: *Spinorial Superspaces and Super Yang-Mills Theories* &lbrack;[arXiv:2411.06165](https://arxiv.org/abs/2411.06165)&rbrack;
+
+
 
 
 [[!include supergeometry of fermion fields -- references]]
