@@ -68,5 +68,10 @@ The coadjoint orbits are the [[symplectic leaves]] of that structure; hence each
 * Bradley N. Currey, _The Structure of the Space of Coadjoint Orbits of an Exponential Solvable Lie Group_, ransactions of the American Mathematical Society
 Vol. 332, No. 1 (Jul., 1992), pp. 241-269, ([JSTOR](http://www.jstor.org/stable/2154031))
 
+In [[particle physics]]:
+
+* Ismaël Ahlouche Lahlali, Josh A. O'Connor: *Coset symmetries and coadjoint orbits* &lbrack;[arXiv:2411.05918](https://arxiv.org/abs/2411.05918)&rbrack;
+
+
 
 [[!redirects coadjoint orbits]]
