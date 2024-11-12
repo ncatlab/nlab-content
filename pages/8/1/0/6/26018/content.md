@@ -45,6 +45,8 @@ with fiber functor $F$ from the Hopf category $End(F)$.
 
 * {#Green23} David Green, *Tannaka-Krein reconstruction for fusion 2-categories* (2023) &lbrack;[arXiv:2309.05591](https://arxiv.org/abs/2309.05591)&rbrack;
 
+* [[Thibault Decoppet]], Peter Huston, [[Theo Johnson-Freyd]], [[Dmitri Nikshych]], [[David Penneys]], Julia Plavnik, [[David Reutter]], [[Matthew Yu]]. *The Classification of Fusion 2-Categories* (2024). ([arXiv:2411.05907](https://arxiv.org/abs/2411.05907)).
+
 On the classification of fermionic (i.e. super-) fusion 2-categories:
 
 * [[Thibault Decoppet]]. *Extension Theory and Fermionic Strongly Fusion 2-Categories* (2024). ([arXiv:2403.03211](https://arxiv.org/abs/2403.03211)).
