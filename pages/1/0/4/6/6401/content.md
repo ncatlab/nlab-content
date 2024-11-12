@@ -97,7 +97,9 @@ On [[T-duality]] formulated on superspace:
 
 * [[Daniel Butter]], [[Falk Hassler]], [[Christopher N. Pope]], Haoyu Zhang: *Generalized Dualities and Supergroups*, J. High Energ. Phys. **2023** 52 (2023) &lbrack;[arXiv:2307.05665](https://arxiv.org/abs/2307.05665), <a href="https://doi.org/10.1007/JHEP12(2023)052">doi:10.1007/JHEP12(2023)052</a>&rbrack;
 
+More mathematical discussion via [[supermanifolds]]:
 
+* Johannes Moerland: *Spinorial Superspaces and Super Yang-Mills Theories* &lbrack;[arXiv:2411.06165](https://arxiv.org/abs/2411.06165)&rbrack;
 
 Discussion of superspace within [[philosophy of physics]]:
 
