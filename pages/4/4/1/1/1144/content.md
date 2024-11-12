@@ -1272,7 +1272,7 @@ Survey and review:
 
 * {#FelixHalperin} [[Yves Félix]], [[Steve Halperin]], _Rational homotopy theory via Sullivan models: a survey_,  Notices of the International Congress of Chinese Mathematicians Volume 5 (2017) Number 2 ([arXiv:1708.05245](https://arxiv.org/abs/1708.05245), [doi:10.4310/ICCM.2017.v5.n2.a3](https://dx.doi.org/10.4310/ICCM.2017.v5.n2.a3))
 
-* {#Ivanov22} [[Sergei O. Ivanov]], _An Overview of Rationalization Theories of Non-simply Connected Spaces and Non-nilpotent Groups_, Acta. Math. Sin.-English Ser. 38, 1705–1721 (2022). ([arXiv:2111.10694](https://arxiv.org/abs/2111.10694), [doi:10.1007/s10114-022-2063-9](https://doi.org/10.1007/s10114-022-2063-9) )
+* {#Ivanov22} [[Sergei O. Ivanov]]: _An Overview of Rationalization Theories of Non-simply Connected Spaces and Non-nilpotent Groups_, Acta. Math. Sin.-English Ser. **38**  (2022) 1705–1721 &lbrack;[arXiv:2111.10694](https://arxiv.org/abs/2111.10694), [doi:10.1007/s10114-022-2063-9](https://doi.org/10.1007/s10114-022-2063-9)&rbrack;
 
 Review that makes the [[L-infinity algebra]] aspect completely manifest:
 
