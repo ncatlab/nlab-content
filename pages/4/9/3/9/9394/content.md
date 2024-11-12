@@ -24,7 +24,7 @@ Understanding [[super p-brane]]-species as classified by the [[Lie algebra cohom
 
 On [[Lie groups]], [[Lie algebras]], [[Lie algebra cohomology]] and applications to [[physics]]:
 
-* [[José de Azcárraga]], [[José M. Izquierdo]], *[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]*, Cambridge Monographs of Mathematical Physics, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511599897](https://doi.org/10.1017/CBO9780511599897)&rbrack;
+* [[José de Azcárraga]], [[José M. Izquierdo]], *[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]*, Monographs on Mathematical Physics, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511599897](https://doi.org/10.1017/CBO9780511599897)&rbrack;
 
 * [[José de Azcárraga]], [[José M. Izquierdo]], J. C. Perez Bueno, *An introduction to some novel applications of Lie algebra cohomology and physics*, RACSAM **95** 2 (2001) 225-248 &lbrack;[arXiv:physics/9803046](http://arxiv.org/abs/physics/9803046), [eudml:40921](https://eudml.org/doc/40921)&rbrack;
 
