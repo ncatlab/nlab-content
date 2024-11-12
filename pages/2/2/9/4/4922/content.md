@@ -413,6 +413,10 @@ On [[coset spaces]] ([[homogeneous spaces]]) and their [[Maurer-Cartan forms]] i
 
 * {#Castellani01} [[Leonardo Castellani]], *On G/H geometry and its use in M-theory compactifications*, Annals Phys. **287** (2001) 1-13 &lbrack;[arXiv:hep-th/9912277](https://arxiv.org/abs/hep-th/9912277), [doi:10.1006/aphy.2000.6097](https://doi.org/10.1006/aphy.2000.6097)&rbrack;
 
+Further in [[particle physics]]:
+
+* Ismaël Ahlouche Lahlali, Josh A. O'Connor: *Coset symmetries and coadjoint orbits* &lbrack;[arXiv:2411.05918](https://arxiv.org/abs/2411.05918)&rbrack;
+
 
 
 
