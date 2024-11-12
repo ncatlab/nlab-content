@@ -2608,8 +2608,10 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   If a [[quantum state]] distributed over regions of space provides the [[expectation values]] of [[observables]] on those regions, what object provides the expectation values of observables measured sequentially in time? Such objects have recently been given a mathematically rigorous formulation and are called "states over time". This formalism, together with the recent advances in [[categorical probability theory]], has led to a notion of [[Bayes' rule]] in [[quantum theory]]. In this setting, [[Bayes' rule]] provides a method to calculate [[Bayesian inversion|reverse processes]] that give rise to time-reversal symmetric [[expectation values]] of [[quantum measurement|measurements]]. I will introduce these ideas, summarizing key concepts from references \[1,2,3\].
 
   > &lbrack;1&rbrack; Parzygnat, Fullwood "From time-reversal symmetry to quantum Bayes' rules" PRX Quantum 4, 020334 (2023) [arXiv:2212.08088](https://arxiv.org/abs/2212.08088)  
-  > &lbrack;1&rbrack; Fullwood, Parzygnat "Operator representation of spatiotemporal quantum correlations" [arXiv:2405.17555](https://arxiv.org/abs/2405.17555) 
-> &lbrack;3&rbrack; Parzygnat, Fullwood "Time-symmetric correlations for open quantum systems" [arXiv:2407.11123](https://arxiv.org/abs/2407.11123)
+
+  > &lbrack;2&rbrack; Fullwood, Parzygnat "Operator representation of spatiotemporal quantum correlations" [arXiv:2405.17555](https://arxiv.org/abs/2405.17555) 
+
+  > &lbrack;3&rbrack; Parzygnat, Fullwood "Time-symmetric correlations for open quantum systems" [arXiv:2407.11123](https://arxiv.org/abs/2407.11123)
 
 
   
@@ -3970,7 +3972,7 @@ $\;\;\;\;\;$[[Grigorios Giotopoulos|Giotopoulos]]$\;$[[Adrian Clough|Clough]] [[
         "top": -20,
         "bottom": 20,
         "right": 0, 
-        "left": -200
+        "left": -10
     }
 \end{imagefromfile}
 
