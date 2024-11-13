@@ -399,7 +399,7 @@ Similarly, if $D$ is [[copower|copowered]] over $V$, then the left Kan extension
 
 \[
   \label{LeftKanExtensionViaCoendFormula}
-  (Lan_p F)(c') \simeq \int^{c \in C} C'(p(c),c')\otimes F(c)
+  (Lan_p F)(c') \simeq \int^{c \in C} C'(p(c),c') \cdot F(c)
   \,.
 \]
 
