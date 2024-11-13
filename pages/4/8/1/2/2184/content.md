@@ -58,8 +58,7 @@ In all four of the above, edges are interpreted as *unordered* pairs.  If we ins
 *  a __directed loop graph__ consists of $V$, $E$, and an injective function $d: E \hookrightarrow V^2$;
 *  a __[[directed pseudograph]]__ consists of $V$, $E$, and a function $d: E \to V^2$.
 
-Directed pseudographs are commonly used in [[category theory]], where they are often called 'directed graphs', 'digraphs', or (less ambiguously) '[[quivers]]'.
-
+Directed pseudographs are commonly used in [[category theory]], where they are often called 'directed graphs', 'digraphs', (less ambiguously) '[[quivers]]', or often in fact simply 'graphs'.
 
 The same terminological ambiguities as above apply here as well, and they can be resolved in the same way, including using 'simple directed graph' for a directed graph if necessary.  One can also use 'undirected' in place of 'directed' to emphasise that the previous definitions apply instead of these.
 
