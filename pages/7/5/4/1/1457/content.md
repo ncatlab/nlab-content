@@ -104,9 +104,9 @@ This is equivalently an $(R_{\geq 0}, \geq, +, 0)$-[[enriched set]].
 
 Given any [[Archimedean integral domain]] $R$ and an Archimedean integral subdomain $S \subseteq R$, then $S$ is an $(R_{\geq 0}, \geq, +, 0)$-enriched set. 
 
-### In homotopy type theory
+### In dependent type theory
 
-In [[homotopy type theory]], metric and pseudometric spaces could be defined as any [[type]], not just 0-truncated types. Let $\mathbb{R}$ be some suitable notion of real number, and 
+In [[dependent type theory]], metric and pseudometric spaces could be defined as any [[type]], not just 0-truncated types. Let $\mathbb{R}$ be some suitable notion of real number, and 
 $$\mathbb{R}_{\geq 0} \coloneqq \sum_{a:\mathbb{R}} a \geq 0$$ 
 be the non-negative real numbers. 
 
