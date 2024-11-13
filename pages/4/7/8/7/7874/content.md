@@ -22,6 +22,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -130,6 +131,13 @@ with some related chat in _[[schreiber:Quantization via Linear homotopy types]]_
 Possible hints for further relation between [[2d SCFT]] and [[tmf]] are presented in
 
 * [[Davide Gaiotto]], [[Theo Johnson-Freyd]], _Holomorphic SCFTs with small index_ ([arXiv:1811.00589](https://arxiv.org/abs/1811.00589))
+
+On $string^h$-orientation of tmf with level structure:
+
+* Sanath K. Devalapurkar: *A $String$-ANALOGUE OF $Spin^{\mathbf{C}}$* &lbrack;[pdf](https://sanathdevalapurkar.github.io/files/string-analogue-spinc.pdf), [[Devalapurkar-StringAnalogue.pdf:file]]&rbrack;
+
+* [[Arun Debray]], [[Matthew Yu]]: *Type IIA String Theory and tmf with Level Structure* &lbrack;[arXiv:2411.07299](https://arxiv.org/abs/2411.07299)&rbrack;
+
 
 [[!redirects sigma-orientation]]
 
