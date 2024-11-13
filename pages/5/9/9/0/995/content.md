@@ -24,11 +24,6 @@ A _filter_ is [[duality|dual]] to an [[ideal]].
 
 A [[proper filter]] is equivalently the [[eventuality filter]] of a [[net]].
 
-Filters of subsets form a [[category of filters|category]]
-whose [[situs|simplicial category]] provides a somewhat more 
-formalisation of the intuition of "nearness" than the usual topological one; in particular, it contains the categories of topological and of uniform spaces, of simplicial sets, and of filters themselves, allowing to reformulate in terms of this category notions 
-such as limit, equicontinuity, locally trivial, and geometric realization.  
-
 In [[predicative mathematics]], filters of subsets are [[large category|large]], but [[locally small category|locally small]]. 
 
 ## Definitions
@@ -148,7 +143,7 @@ In a [[metric space]] $S$, a filter $F$ on $S$ is __Cauchy__ if it has elements 
 
 * [[upper set]]/[[(0,1)-copresheaf]], **filter**/[[(0,1)-cosheaf]]
 
-* [[category of filters]]
+* [[category of filters]], [[situs]]
 
 * [[filter of a ring]]
 
