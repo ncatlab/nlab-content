@@ -26,7 +26,7 @@ We discuss three equivalent definitions of comma categories
 
 * [Explicitly in components](#InComponents)
 
-* [As a fiber product](#AsAFiberProduct)
+* [As a pullback](#AsAPullback)
 
 * [As a 2-limit](#AsA2Limit)
 
@@ -96,8 +96,8 @@ These functors and natural transformation together give the comma category a [[2
 \end{remark}
 
 
-### Via fiber products in the 1-category Cat
- {#AsAFiberProduct}
+### As a pullback in the 1-category of categories
+ {#AsAPullback}
 
 Let $I = \{a \to b\}$ be the (directed) [[interval category]] and $E^I = Funct(I,E)$ the [[functor category]]. 
 
@@ -126,7 +126,7 @@ in the standard sense of pullback of morphisms in the 1-category [[Cat]] of cate
 
 Compare this with the construction of [[homotopy pullback]] ([here](homotopy+pullback#HomotopyPullbackByFactorizationLemma)), hence with the definition of [[loop space object]] and also with [[generalized universal bundle]].
 
-### Via 2-category theory: as a 2-limit
+### As a 2-limit in the 2-category of categories
  {#AsA2Limit}
 
 The comma category is the [[comma object]] of the [[cospan]] $C\overset{f}{\rightarrow}E\overset{g}{\leftarrow}D$ in the [[2-category]] $Cat$.  This means it is an appropriate [[weighted limit|weighted]] 2-categorical [[2-limit|limit]] (in fact, a [[strict 2-limit]]) of the diagram
