@@ -123,15 +123,15 @@ Coalg(C, \mu(A_0, A_1) \times \mu(A_1, A_2)) & \cong & Coalg(C, \mu(A_0, A_1)) \
 
 * M. E. Sweedler, _Hopf algebras_, Mathematics Lecture Note Series, W. A. Benjamin, 1969
 * [[Mathieu Anel]], [[André Joyal]], _Sweedler Theory for (co)algebras and the bar-cobar constructions_, [arXiv:1309.6952](https://arxiv.org/abs/1309.6952)
-
-A dual notion to measuring coalgebra is [[Tambara's universal coacting bialgebra]] from
-
-* [[Daisuke Tambara]], _The coendomorphism bialgebra of an algebra_, J. Fac. Sci. Univ. Tokyo Sect. IA Math, __37__, 425-456, 1990 [pdf](https://repository.dl.itc.u-tokyo.ac.jp/record/39399/files/jfs370210.pdf)
 * [[Martin Hyland]], [[Ignacio López Franco]], [[Christina Vasilakopoulou]], _Hopf measuring comonoids and enrichment_, Proc. London Math. Soc. __115__:5 (2017) 1118-1148, [doi](https://doi.org/10.1112/plms.12064)
 * [[Christina Vasilakopoulou]], _Enrichment of categories of algebras and modules_, [arXiv:1205.6450](https://arxiv.org/abs/1205.6450)
 * [[Marjorie Batchelor]], _Measuring coalgebras, quantum group-like objects, and non-commutative geometry_, In: Bartocci, C., [[Ugo Bruzzo|Bruzzo, U.]], Cianci, R. (eds) Differential Geometric Methods in Theoretical Physics. Lecture Notes in Physics __375__ [doi](https://doi.org/10.1007/3-540-53763-5_45); _Measuring comodules - their applications_, J.  Geom. Physics __36__:3-4 (2009) 251-269 (<a href="https://doi.org/10.1016/S0393-0440(00)00024-3">doi</a>); _Difference operators, measuring coalgebras and quantum group like objects_, Adv. Math. __105__, 190-218 (1994) [pdf](https://core.ac.uk/download/pdf/81927027.pdf)
 * Maximilien Péroux, _The coalgebraic enrichment of algebras in higher categories_, J. Pure Appl. Alg. __226__:3 (2022) 106849 [doi](https://doi.org/10.1016/j.jpaa.2021.106849)
 * Paige Randall North, Maximilien Péroux, _Coinductive control of inductive data types_, [arXiv:2303.16793](https://arxiv.org/abs/2303.16793)
+
+A dual notion to measuring coalgebra is [[Tambara's universal coacting bialgebra]] from
+
+* [[Daisuke Tambara]], _The coendomorphism bialgebra of an algebra_, J. Fac. Sci. Univ. Tokyo Sect. IA Math, __37__, 425-456, 1990 [pdf](https://repository.dl.itc.u-tokyo.ac.jp/record/39399/files/jfs370210.pdf)
 
 
 [[!redirects measure coalgebras]]
