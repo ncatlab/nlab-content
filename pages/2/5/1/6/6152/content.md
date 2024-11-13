@@ -24,7 +24,7 @@
 
 ## Idea
 
-A [[forgetful functor]] from a [[category]] of [[actions]]/[[representations]] to the underlying [[sets]]/[[spaces]] is often called a _[[fiber functor]]_, notably in the context of [[Tannaka duality]] and [[Galois theory]].
+A [[forgetful functor]] from a [[category]] of [[actions]]/[[representations]] to the underlying [[sets]]/[[spaces]] is often called a _fiber functor_, notably in the context of [[Tannaka duality]] and [[Galois theory]].
 
 The archetypical example which gives rise to the term is the following. If one has the  [[category]] $Et(X)$ of [[covering spaces]]  of a (nice enough) [[topological space]] $X$, then after picking any point $x \in X$ the operation of forming the [[fibre]] over that point gives a [[functor]] $fib_x \colon Et(X)\to Set$ to the category [[Set]] of [[sets]]. The [[natural automorphisms]] of this functor form the (algebraic) [[Chevalley fundamental group|fundamental group]], $\pi_1(X)$. The main theorem of the [[Galois theory|Galois-Poincaré theory]] of [[covering spaces]] can be viewed as stating that this sets up an [[equivalence of categories]] between that category of covering spaces and the category of $\pi_1$[[permutation representation|-sets]]. This equivalence is compatible with the chosen fibre functor and the further [[forgetful functor]] from $\pi_1-Sets$ to $Sets$. Extracting from this situation, that forgetful functor is thought of as being a _fibre functor_ as well.  Any category of [[G-sets]], for $G$ a [[group]], gives a [[monoidal category]], and the forgetful functor is a [[monoidal functor]]; of course, the category of [[G-sets]] corresponds to the category of [[permutation representations]] of $G$, and generalising this basic example leads to the following idea.
 
