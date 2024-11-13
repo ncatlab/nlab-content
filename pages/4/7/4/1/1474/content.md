@@ -64,8 +64,14 @@ Here is an equivalent definition (constructively equivalent to Definition \ref{c
 +-- {: .num_defn #convergence}
 ###### Definition
 
-Given a [[net]] (or equivalently, a proper [[filter]]) in $S$, if it converges to both $x$ and $y$, then $x = y$.
+Given a [[net]] (or equivalently, a proper [[filter]]) $F$ in $S$, if it converges to both $x$ and $y$, then $x = y$.
 =--
+
+Or equivalently,
+
+\begin{definition}
+Given a [[net]] (or equivalently, a proper [[filter]]) $F$ in $S$, the set of all limits of $F$ is a [[subsingleton]].
+\end{definition}
 
 That is, convergence in a Hausdorff space is unique.
 
