@@ -21,7 +21,7 @@
 
 ## Idea
 
-_Factorization homology_  is a notion of [[homology theory]] for [[framed manifold|framed]] $n$-[[dimension|dimensional]] [[manifolds]] with coefficients in [[En-algebras]], due to ([Francis](#Francis)). It is similar in spirit to _[[factorization algebras]]_, _[[blob homology]]_ and _[[topological chiral homology]]_. In fact the definition of factorization homology turns out to be equivalent to that of topological chiral topology ([Francis b](#Francisb)).
+_Factorization homology_  is a notion of [[homology theory]] for [[framed manifold|framed]] $n$-[[dimension|dimensional]] [[manifolds]] with coefficients in [[En-algebras]], due to [Francis 2011](#Francis). It is similar in spirit to _[[factorization algebras]]_, _[[blob homology]]_ and _[[topological chiral homology]]_. In fact the definition of factorization homology turns out to be equivalent to that of [[topological chiral homology]] ([Francis b](#Francisb)).
 
 
 ## Definition
@@ -146,13 +146,14 @@ $$
 
 The definition appears in section 3 of 
 
-* [[John Francis]], _The tangent complex and Hochschild cohomology of $\mathcal{E}_n$-rings_ ([arXiv:1104.0181](http://arxiv.org/abs/1104.0181))
- {#Francis}
+* {#Francis} [[John Francis]], _The tangent complex and Hochschild cohomology of $\mathcal{E}_n$-rings_ ([arXiv:1104.0181](http://arxiv.org/abs/1104.0181))
+ 
 
 A detailed account is in 
 
-* [[David Ayala]], [[John Francis]], _Factorization homology of topological manifolds_ ([arXiv:1206.5522](http://de.arxiv.org/abs/1206.5522))
- {#Francisb}
+
+* {#Francisb} [[David Ayala]], [[John Francis]], §4 in: *Factorization homology of topological manifolds*, Journal of Topology **8** 4 (2015) 1045-1084 &lbrack;[arXiv:1206.5522](https://arxiv.org/abs/1206.5522), [doi:10.1112/jtopol/jtv028](https://doi.org/10.1112/jtopol/jtv028)&rbrack;
+ 
 
 A survey that also covers [[factorization algebras]] is
 
