@@ -62,7 +62,7 @@ up to a small error.
 
 A number of elementary notions can be formulated using the [[situs|category of simplicial objects of the category of filters]]. 
 
-
+The [[situs|simplicial category]] of the category of filters provides a somewhat more formalisation of the intuition of "nearness" than the usual topological one; in particular, it contains the categories of topological and of uniform spaces, of simplicial sets, and of filters themselves, allowing to reformulate in terms of this category notions such as limit, equicontinuity, locally trivial, and geometric realization.  
 
 ## Application to analysis and topology
 
