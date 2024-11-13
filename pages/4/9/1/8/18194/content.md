@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include 2-category theory - contents]]
 =--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
 =--
 =--
 
