@@ -37,7 +37,7 @@ A smooth and differential refinement is discussed in
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_ .
 
-A [[truncated object|truncation]] of this reproduces the _differential integra Wu structures_ considered in 
+A [[truncated object|truncation]] of this reproduces the _differential integral Wu structures_ considered in 
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
 
