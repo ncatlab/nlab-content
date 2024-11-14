@@ -34,7 +34,7 @@ $$
   \,
 $$
 
-one may think of this as a [[stabilization]] of generalized [[nonabelian cohomology]] theories (in the sense of [FSS23, §2](nonabelian+cohomology#FSS20)) $U_n(X)$ whose classifying spaces are the [[unitary groups]] $U(n)$. For this reason, we may call the groups $[X,U(n)] \,\coloneqq\, \pi_0 Map\big(X,U(n)\big)$ the **unstable** $\tilde{K}^1$-theory groups of $X$, at stage $n$.
+one may think of this as a [[stabilization]] of generalized [[nonabelian cohomology]] theories (in the sense of [Lurie 14, Def. 6](nonabelian+cohomology#Lurie14), [FSS23, §2](nonabelian+cohomology#FSS20)) $U_n(X)$ whose classifying spaces are the [[unitary groups]] $U(n)$. For this reason, we may call the groups $[X,U(n)] \,\coloneqq\, \pi_0 Map\big(X,U(n)\big)$ the **unstable** $\tilde{K}^1$-theory groups of $X$, at stage $n$.
 
 
 ## Definition
