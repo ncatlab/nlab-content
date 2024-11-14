@@ -123,9 +123,11 @@ By restricting $Grph$ to $SimpGrph$ the [[quasitopos]] of [[simple graph|simple 
 
 The above slice construction keeps the label set $L$ fixed but if one wants to consider all possible labellings at once, application of [[Artin gluing]] to $i_*\colon Set\to Grph$ provides the appropriate topos $Grph\downarrow i_*$: This has objects $(L,G,l:G\to i_*(L))$ where $L$ is the set of "labels", $G$ a graph and the graph homorphism $l$ a labelling of $G$. A morphism $X_1\to X_2$ is a pair of maps $(f:L_1\to L_2, g:G_1\to G_2)$ satisfying $i_*(f)\circ l_1 = l_2\circ g$.
 
-By general facts on [[Artin gluing]], $Grph\downarrow i_*$ comes equipped with two [[subtopos|subtopos inclusions]] $Set\hookrightarrow Grph\downarrow i_*$ and $Grph\hookrightarrow Grph\downarrow i_*$, the first one being an [[open geometric morphism]] with [[inverse image]] projection a [[logical morphism]] as well as a [[fibration]] (cf. [[Elephant]], B1.3.7(b), p.269)) whereas the latter is [[closed subtopos|closed]].
+By general facts on [[Artin gluing]], $Grph\downarrow i_*$ comes equipped with two [[subtopos|subtopos inclusions]] $Set\hookrightarrow Grph\downarrow i_*$ and $Grph\hookrightarrow Grph\downarrow i_*$, the first one being an [[open geometric morphism]] with [[inverse image]] projection a [[logical morphism]] as well as a [[fibration]] (cf. [[Elephant]], B1.3.7(b), p.269) whereas the latter is [[closed subtopos|closed]].
 
-Nothing here hinges on $i_*$ being [[fully faithful]] (cf. [Lawvere](#Law89), p.278) or its exactness properties though the resulting [[comma category]] might loose some of its good properties e.g. $Grph\downarrow i_!$ provides a category of loopless labelled graphs.
+Nothing here hinges on $i_*$ being [[fully faithful]] (cf. [Lawvere](#Law89), p.278) or its exactness properties though the resulting [[comma category]] might loose some of its good properties for more general functors $i$ e.g. $Grph\downarrow i_!$ provides a category of loopless labelled graphs.
+
+If one would (more unusually) like to label nodes instead of arcs, one can consider the inclusion $j$ of  $N$ into $N\rightrightarrows A$ instead of the above $i$. This induces the complementary (essential) subtopos inclusion $Grph_{\neg\neg}\hookrightarrow Grph$ where $j_*$ now reinterprets a set $X$ as the complete graph on node set $X$ whence labelling graph morphisms $G\to j_*(L)$ pick up labels drawn from $L$ for the nodes of $G$.
 
 ## Notions of subgraphs from the nPOV
 
