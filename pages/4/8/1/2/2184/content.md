@@ -109,6 +109,24 @@ A __[[morphism]]__ from $G$ to $G'$ should consist of functions $f: V \to V'$ an
 
 Under the second notion of morphism (where simple graphs are identified with sets equipped with a symmetric reflexive relation), the [[category of simple graphs]] has many desirable properties (q.v.). 
 
+## Notions of labelled graphs
+
+The [[commutative diagram|commutative diagrams]] one sees in texts on category theory or on the nLab are often examples of _labelled graphs_ i.e. basically quivers with names attached to their directed edges. These can be described in categorical terms:
+
+Consider the obvious inclusion $i$ of the one morphism category $A$ into the category $N\rightrightarrows A$ underlying the topos $Grph$ of [[quiver|quivers]]. This induces an [[level|essential localisation]] $i_!\dashv i^*\dashv i_*\colon Set \hookrightarrow Grph$.
+
+Here $i_*$ interprets a set $X$ as the one node graph with arc set $X$, whereas $i^*$ maps a graph $G$ to its arc set $G[A]$ and $i_!$ maps a set $X$ to the graph with node set $\{src,trg\}\times X$ where $x\in X$ becomes now an arc $x$ from $(src,x)$ to $(trg,x)$.
+
+The [[slice topos]] $Grph/i_*(L)$ then the yields a first notion of a graph labelled by the set $L$ of labels. Since this slice is equivalent to the [[category of elements]] of $Hom(-,i_*(L))$ the projection $\pi\colon Grph/i_*(L)\to Grph$ is a [[fibration]].
+
+By restricting $Grph$ to $SimpGrph$ the [[quasitopos]] of [[simple graph|simple graphs]] that arises as the category of [[separated object|separated objects]] for the [[double negation|double negation topology]] on $Grph$ and taking $L=M$ a monoid, $SimpGrph/i_*(M)$ models the concept of a labelled transition system from [[automaton|automata theory]].
+
+The above slice construction keeps the label set $L$ fixed but if one wants to consider all possible labellings at once, application of [[Artin gluing]] to $i_*\colon Set\to Grph$ provides the appropriate topos $Grph\downarrow i_*$: This has objects $(L,G,l:G\to i_*(L))$ where $L$ is the set of "labels", $G$ a graph and the graph homorphism $l$ a labelling of $G$. A morphism $X_1\to X_2$ is a pair of maps $(f:L_1\to L_2, g:G_1\to G_2)$ satisfying $i_*(f)\circ l_1 = l_2\circ g$.
+
+By general facts on [[Artin gluing]], $Grph\downarrow i_*$ comes equipped with two [[subtopos|subtopos inclusions]] $Set\hookrightarrow Grph\downarrow i_*$ and $Grph\hookrightarrow Grph\downarrow i_*$, the first one being an [[open geometric morphism]] with [[inverse image]] projection a [[logical morphism]] as well as a [[fibration]] (cf. [[Elephant]], B1.3.7(b), p.269)) whereas the latter is [[closed subtopos|closed]].
+
+Nothing here hinges on $i_*$ being [[fully faithful]] (cf. [Lawvere](#Law89), p.278) or its exactness properties though the resulting [[comma category]] might loose some of its good properties e.g. $Grph\downarrow i_!$ provides a category of loopless labelled graphs.
+
 ## Notions of subgraphs from the nPOV
 
 A usual definition of _subgraph_ in combinatorics is, roughly: _subset_. 
@@ -265,7 +283,7 @@ Textbooks:
 
 Other references:
 
-* [[Bill Lawvere]] (1989), _Qualitative distinctions between some toposes of generalized graphs_, in Categories in computer science and logic (Boulder, CO,   1987), volume 92 of _Contemporary Mathematics_, 261--299. American Mathematical Society, Providence, RI.
+* {#Law89}[[Bill Lawvere]] (1989), _Qualitative distinctions between some toposes of generalized graphs_, in Categories in computer science and logic (Boulder, CO,   1987), volume 92 of _Contemporary Mathematics_, 261--299. American Mathematical Society, Providence, RI.
 
 * E. Babson, H. Barcelo, M. de Longueville, R. Laubenbacher, A Homotopy Theory for Graphs, [arXiv:math/0403146 ](http://arxiv.org/abs/math/0403146)
 
