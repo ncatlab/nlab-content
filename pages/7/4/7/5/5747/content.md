@@ -105,7 +105,7 @@ The [[nerve]] of a [[semicategory]] is a semi-simplicial set (satisfying the [[S
 
 ### Model category structure
 
-There is a _[[model structure on semi-simplicial sets]]_, [[transferred model structure|transferred]] along the [[right adjoint]] to the [[forgetful functor]] from the [[model structure on simplicial sets]]. 
+There is a _[[model structure on semi-simplicial sets]]_, [[transferred model structure|transferred]] along the [[right adjoint]] to the [[forgetful functor]] from the [[model structure on simplicial sets]].
 
 ## Related concepts
 
@@ -189,6 +189,10 @@ as a [[semi-model category]]:
 as a [[fibration category]] and [[cofibration category]]:
 
 * {#Sattler18} [[Christian Sattler]], *Constructive homotopy theory of marked semisimplicial sets* ([arXiv:1809.11168](https://arxiv.org/abs/1809.11168))
+
+on the lattice of [[Lawvere-Tierney topology|Lawvere-Tierney topologies]]:
+
+* {#RHE24}A. Rosset, H. H. Hansen, J. Endrullis, _Characterisation of Lawvere-Tierney Topologies on Simplicial Sets, Bicolored Graphs, and Fuzzy Sets_, arXiv:2407.04535 (2024). ([abstract](https://arxiv.org/abs/2407.04535))  
 
 
 [[!redirects semi-simplicial sets]]
