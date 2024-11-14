@@ -19,6 +19,7 @@ On [[Bayesian inversion]] for [[quantum systems]] (via [[quantum channels]]):
 
 * [[Arthur J. Parzygnat]], [[James Fullwood]]: *Time-symmetric correlations for open quantum systems* &lbrack;[arXiv:2407.11123](https://arxiv.org/abs/2407.11123)&rbrack;
 
+* [[Arthur Parzygnat]]: *A Spatiotemporal Extension of Density Matrices and Time-Reversal Symmetry for Measurements*, [talk at](Center+for+Quantum+and+Topological+Systems#ParzygnatNov2024) [[CQTS]] (Nov 2024) &lbrack;slides:[[Parzygnat-CQTS-Nov2024.pdf:file]]&rbrack;
 
 
 
