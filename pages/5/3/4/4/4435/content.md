@@ -53,7 +53,7 @@ One finds that:
 
 * $[\iota_v, \iota_w] = 0$;
 
-* $[d_{dR},\iota_v]=0$.
+* $[d_{dR},d_{dR}]=0$.
 
 These relations are sometimes called **Cartan calculus**. The first one is sometimes called **Cartan's magic formula** or _[[Cartan's homotopy formula]]_.
 
