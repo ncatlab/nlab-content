@@ -34,6 +34,9 @@
 
 * [[Dennis Gaitsgory]], [[Jacob Lurie]]: *Nonabelian Poincaré Duality*, section 3 in: *Weil's conjecture for function fields* (2014-2017) &lbrack;[pdf](https://www.math.ias.edu/~lurie/papers/tamagawa.pdf), [[GaitsgoryLurie-WeilConjecture.pdf:file]]&rbrack;
 
+* [[Jacob Lurie]], §5.5.6 in: *[[Higher Algebra]]* ($\sim$2017) &lbrack;[pdf](https://www.math.ias.edu/~lurie/papers/HA.pdf)&rbrack;
+
+
 * [[Jeremy Miller]]: *Nonabelian Poincaré duality after stabilizing*, Trans. Amer. Math. Soc. **367** (2015) 1969-1991  \[<a href="https://www.ams.org/journals/tran/2015-367-03/S0002-9947-2014-06186-2">doi:2015-367-03/S0002-9947-2014-06186-2</a>, [arXiv:1209.2773](https://arxiv.org/abs/1209.2773)\]
 
 * [[Foling Zou]], §4 in: *A geometric approach to equivariant factorization homology and nonabelian Poincaré duality*, Math. Z. **303** 98 (2023) &lbrack;[arXiv:2008.08234](https://arxiv.org/abs/2008.08234), [doi:10.1007/s00209-023-03253-2](https://doi.org/10.1007/s00209-023-03253-2)&rbrack;
@@ -62,3 +65,7 @@ Generalization via nonabelian Poincaré duality of [[stable splitting of mapping
 * Lauren Bandklayder, _Stable splitting of mapping spaces via nonabelian Poincaré duality_ ([arxiv:1705.03090](https://arxiv.org/abs/1705.03090))
 
 [[!redirects nonabelian Poincare duality]]
+
+[[!redirects non-abelian Poincaré duality]]
+[[!redirects non-abelian Poincare duality]]
+
