@@ -79,7 +79,6 @@ More testing:
 
 \linebreak
 
-* Let $i$ be the obvious inclusion of the one morphism category $A$ into the "site" $N\rightrightarrows A$ underlying the category of [[quiver|quivers]]. This induces an [[level of a topos|essential subtopos]] $i_!\dashv i^*\dashv i_*: Set\hookrightarrow Grph$ where $i_*$ takes a set $X$ to the graph with one node and arc set $X$ and $i^*$ takes a graph $G$ to its arc set $G[A]$.
 
 ## Sugimoto string theory
 
