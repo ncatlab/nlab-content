@@ -119,7 +119,7 @@ Here $i_*$ interprets a set $X$ as the one node graph with arc set $X$, whereas 
 
 The [[slice topos]] $Grph/i_*(L)$ then the yields a first notion of a graph labelled by the set $L$ of labels. Since this slice is equivalent to the [[category of elements]] of $Hom(-,i_*(L))$ the projection $\pi\colon Grph/i_*(L)\to Grph$ is a [[fibration]].
 
-By restricting $Grph$ to $SimpGrph$ the [[quasitopos]] of [[simple graph|simple graphs]] that arises as the category of [[separated object|separated objects]] for the [[double negation|double negation topology]] on $Grph$ and taking $L=M$ a monoid, $SimpGrph/i_*(M)$ models the concept of a labelled transition system from [[automaton|automata theory]].
+Since the [[separated object|separated objects]] for the [[double negation|double negation topology]] on $Grph/i_*(L)$ are exactly the L-labelled graphs with no parallel arcs receiving the same label, the [[quasitopos]] of all these graphs can be identified with the category of a labelled transition systems over alphabet $L$ familiar from [[automaton|automata theory]] (cf. [Vigna](#Vigna97),  p.8).
 
 The above slice construction keeps the label set $L$ fixed but if one wants to consider all possible labellings at once, application of [[Artin gluing]] to $i_*\colon Set\to Grph$ provides the appropriate topos $Grph\downarrow i_*$: This has objects $(L,G,l:G\to i_*(L))$ where $L$ is the set of "labels", $G$ a graph and the graph homorphism $l$ a labelling of $G$. A morphism $X_1\to X_2$ is a pair of maps $(f:L_1\to L_2, g:G_1\to G_2)$ satisfying $i_*(f)\circ l_1 = l_2\circ g$.
 
@@ -127,7 +127,7 @@ By general facts on [[Artin gluing]], $Grph\downarrow i_*$ comes equipped with t
 
 Nothing here hinges on $i_*$ being [[fully faithful]] (cf. [Lawvere](#Law89), p.278) or its exactness properties though the resulting [[comma category]] might loose some of its good properties for more general functors $i$ e.g. $Grph\downarrow i_!$ provides a category of loopless labelled graphs.
 
-If one would (more unusually) like to label nodes instead of arcs, one can consider the inclusion $j$ of  $N$ into $N\rightrightarrows A$ instead of the above $i$. This induces the complementary (essential) subtopos inclusion $Grph_{\neg\neg}\hookrightarrow Grph$ where $j_*$ now reinterprets a set $X$ as the complete graph on node set $X$ whence labelling graph morphisms $G\to j_*(L)$ pick up labels drawn from $L$ for the nodes of $G$.
+If one would (more unusually) like to label _nodes_ instead of arcs, one can consider the inclusion $j$ of  $N$ into $N\rightrightarrows A$ instead of the above $i$. This induces the complementary (essential) subtopos inclusion $Grph_{\neg\neg}\hookrightarrow Grph$ where $j_*$ now reinterprets a set $X$ as the complete graph on node set $X$ whence labelling graph morphisms $G\to j_*(L)$ pick up labels drawn from $L$ for the nodes of $G$ this time.
 
 ## Notions of subgraphs from the nPOV
 
@@ -301,6 +301,8 @@ Other references:
 * {#Kock2016BM} [[Joachim Kock]], Cospan construction of the graph category of Borisov and Manin, [arXiv:1611.10342](https://arxiv.org/abs/1611.10342)
 
 * Martin Schmidt, _Functorial Approach to Graph and Hypergraph Theory_, ([arXiv:1907.02574](https://arxiv.org/abs/1907.02574))
+
+* {#Vigna97}Sebastiano Vigna, _A guided tour in the topos of graphs_, 1997. ([arXiv:0306394](https://arxiv.org/abs/math/0306394))
 
 
 See also [[quiver#references|quiver - references]].
