@@ -94,6 +94,10 @@ A [[Wirthmüller context]] in the presence of an un-twisted [[Wirthmüller isomo
 
 Every [[self-adjoint functor]] forms an ambidextrous adjunction.
 
+###### Example
+
+If $F \dashv G$ is an [[adjoint equivalence]], then there are ambidextrous adjunctions $F \dashv G \dashv F$ and $G \dashv F \dashv G$.
+
 =--
 
 ## Related concepts
