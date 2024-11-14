@@ -2597,6 +2597,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > Despite significant progress in the last decades, numerical simulations of [[QCD]] on classical computers encounter significant challenges. For example, the [[Hilbert space]] grows exponentially with the [[degrees of freedom]], and Monte Carlo simulations of [[lattice QCD]] suffer from the [[sign problem in lattice QCD|sign problem]] at finite fermion density. [[quantum computers|Quantum computers]] are promising candidates to study QCD [[non-perturbative quantum field theory|non-perturbatively]]. However, [[quantum simulation|simulating]] [[QCD]] on a [[quantum computer]] requires digitizing infinite-dimensional [[gluon]] [[field (physics)|fields]], while minimizing the number of [[qubits]] (or [[qudits]]). Moreover, the digitization scheme must also support efficient [[quantum circuits]] to perform time evolutions and compute quantities of interest. Several digitization schemes have been proposed recently. In this talk, I will present the method of finite discrete groups, and analysis of its [[qubits]] and [[quantum circuits]] cost.
 
+
 \linebreak
 
 * {#ParzygnatNov2024} 11 Nov 2024
@@ -2605,7 +2606,9 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **A Spatiotemporal Extension of Density Matrices and Time-Reversal Symmetry for Measurements**
 
-  If a [[quantum state]] distributed over regions of space provides the [[expectation values]] of [[observables]] on those regions, what object provides the expectation values of observables measured sequentially in time? Such objects have recently been given a mathematically rigorous formulation and are called "states over time". This formalism, together with the recent advances in [[categorical probability theory]], has led to a notion of [[Bayes' rule]] in [[quantum theory]]. In this setting, [[Bayes' rule]] provides a method to calculate [[Bayesian inversion|reverse processes]] that give rise to time-reversal symmetric [[expectation values]] of [[quantum measurement|measurements]]. I will introduce these ideas, summarizing key concepts from references \[1,2,3\].
+  slides: [[Parzygnat-CQTS-Nov2024.pdf:file]]
+
+  > If a [[quantum state]] distributed over regions of space provides the [[expectation values]] of [[observables]] on those regions, what object provides the expectation values of observables measured sequentially in time? Such objects have recently been given a mathematically rigorous formulation and are called "states over time". This formalism, together with the recent advances in [[categorical probability theory]], has led to a notion of [[Bayes' rule]] in [[quantum theory]]. In this setting, [[Bayes' rule]] provides a method to calculate [[Bayesian inversion|reverse processes]] that give rise to time-reversal symmetric [[expectation values]] of [[quantum measurement|measurements]]. I will introduce these ideas, summarizing key concepts from references \[1,2,3\].
 
   > &lbrack;1&rbrack; Parzygnat, Fullwood "From time-reversal symmetry to quantum Bayes' rules" PRX Quantum 4, 020334 (2023) [arXiv:2212.08088](https://arxiv.org/abs/2212.08088)  
 
