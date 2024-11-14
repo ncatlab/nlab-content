@@ -255,8 +255,12 @@ For the quantum case:
 
 * [[Arthur J. Parzygnat]], [[James Fullwood]]: *Time-symmetric correlations for open quantum systems* &lbrack;[arXiv:2407.11123](https://arxiv.org/abs/2407.11123)&rbrack;
 
-
 * {#noncomm_disintegrations} [[Arthur J. Parzygnat]], Benjamin P. Russo, _Non-commutative disintegrations: existence and uniqueness in finite dimensions_, Journal of Noncommutative Geometry 17(3), 2023. ([arXiv](https://arxiv.org/abs/1907.09689))
+
+Review:
+
+* [[Arthur Parzygnat]]: *A Spatiotemporal Extension of Density Matrices and Time-Reversal Symmetry for Measurements*, [talk at](Center+for+Quantum+and+Topological+Systems#ParzygnatNov2024) [[CQTS]] (Nov 2024) &lbrack;slides:[[Parzygnat-CQTS-Nov2024.pdf:file]]&rbrack;
+
 
 
 category: probability
