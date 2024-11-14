@@ -41,7 +41,7 @@ $$Sh(\mathcal{C},J)\simeq Sh(\mathcal{D},J|_{\mathcal{D}})\simeq Set^{\mathcal{D
 
 =--
 
-The first equivalence follows from the [[comparison lemma]] and the second equivalence from the fact that $J|_{\mathcal{D}}$ is the minimal topology on $\mathcal{D}$ whence every presheaf is a sheaf (cf. [Johnstone](#Johnstone02), B2.2.18).
+The first equivalence follows from the [[comparison lemma]] and the second equivalence from the fact that $J|_{\mathcal{D}}$ is the minimal topology on $\mathcal{D}$ whence every presheaf is a sheaf (cf. [Johnstone](#Johnstone02), C2.2.18).
 Since $Set^{\mathcal{D}^{op}}\hookrightarrow Set^{\mathcal{C}^{op}}$ arises by [[Kan extension]] of the (full) subcategory inclusion $\mathcal{D}\hookrightarrow \mathcal{C}$ the subtopos inclusion is in fact [[essential subtopos|essential]].
 
 ## Examples
@@ -50,7 +50,7 @@ Since $Set^{\mathcal{D}^{op}}\hookrightarrow Set^{\mathcal{C}^{op}}$ arises by [
 
 * Similarly, $J_{max}$ the collection of all sieves is rigid because then no object is $J_{max}$-irreducible which in turn says by the definition of rigidity that $\empty\in J_{max}(X)$ for any $X$ which in turn implies that every sieve $\empty\subseteq S\in J_{max}(X)$.
 
-* On a [[finite category|finite]] Cauchy complete category every [[Grothendieck topology]] is rigid (cf. [Johnstone](#Johnstone02), B2.2.21).
+* On a [[finite category|finite]] Cauchy complete category $\mathcal{C}$ every [[Grothendieck topology]] is rigid (cf. [Johnstone](#Johnstone02), C2.2.21); By a remark there on p.562 the same holds if merely _all slices $\mathcal{C}/X$ are finite_ as happens e.g. in the case of the [[semi-simplicial set|semi-simplex category]] $\Delta_+$ where any object $[n]$ receives only maps from $[n']$ with $n'\leq n$.
 
 
 ## Related entries
