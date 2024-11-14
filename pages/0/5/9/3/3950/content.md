@@ -101,7 +101,7 @@ A 2-category with finite 2-limits and 2-colimits is **pre-equippable** if it has
 
 It is **equippable** if in addition it satisfies:
 
-* Morphisms in $\mathcal{M}$ are closed under pushout and tensors with $I$.
+* Morphisms in $\mathcal{M}$ are closed under pushout and [[copowers]] with the [[interval category]] $I$.
 =--
 
 Co-conservative morphisms are also called **liberal**.  Recall that by definition of codiscreteness, if $A\to C \leftarrow B$ is a codiscrete cofibration, then $A+B\to C$ is cofaithful and liberal; thus the first two conditions are compatible.
@@ -172,7 +172,7 @@ Note that since coreflections are determined by a universal property, the compos
 
 In the second case we mean that $\mathcal{M}$ is the class of all morphisms right orthogonal to the morphisms $A+B\to C$ such that $A\to C \leftarrow B$ is a codiscrete cofibration, and then $\mathcal{E}$ is the class of all morphisms left orthogonal to $\mathcal{M}$.  This implies, of course, that $\mathcal{E}$ contains the codiscrete cofibrations.
 
-Neither of the above choices is guaranteed to produce a factorization system (since the factorizations may not exist), but if either one does, then that factorization system is automatically pre-equippable.  In the first case this is obvious, since all codiscrete cofibrations are cofaithful and liberal, while in the second case, it follows since inverters and equifiers are then necessarily in $\mathcal{M}$, and anything left orthogonal to inverters and equifiers must be cofaithful and liberal.  Thus, a 2-category is equippable if either of these two choices produces a factorization system for which $\mathcal{M}$ is closed under pushout and tensors with $I$.
+Neither of the above choices is guaranteed to produce a factorization system (since the factorizations may not exist), but if either one does, then that factorization system is automatically pre-equippable.  In the first case this is obvious, since all codiscrete cofibrations are cofaithful and liberal, while in the second case, it follows since inverters and equifiers are then necessarily in $\mathcal{M}$, and anything left orthogonal to inverters and equifiers must be cofaithful and liberal.  Thus, a 2-category is equippable if either of these two choices produces a factorization system for which $\mathcal{M}$ is closed under pushout and [[copowers]] with $I$.
 
 +-- {: .un_prop}
 ###### Proposition
@@ -186,7 +186,7 @@ $$\array{X\sqcup Y & \overset{[a,a']}{\to} & A\\
   E & \underset{[f a, f a']}{\to} & B}$$
 where the bottom arrow is the identity on the nontrivial hom-object $B(f a,f a')$.  A lifting in this square supplies a [[section]] of $A(a,a') \to B(f a, f a')$, and uniqueness of lifting against the collage of $A(a,a')$ (also as a profunctor $I\to I$) shows that it is an inverse isomorphism; hence $f$ is $V$-fully faithful.
 
-Finally, it is straightforward to verify that $V$-fully-faithful functors are closed under pushout and tensors with $I$.
+Finally, it is straightforward to verify that $V$-fully-faithful functors are closed under pushout and copowers with $I$.
 =--
 
 +-- {: .un_prop}
