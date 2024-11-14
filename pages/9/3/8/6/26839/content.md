@@ -97,6 +97,9 @@ The COMPACT collaboration:
 
 * COMPACT Collaboration: *Cosmic topology. Part IIa. Eigenmodes, correlation matrices, and detectability of orientable Euclidean manifolds* &lbrack;[arXiv:2306.17112](https://arxiv.org/abs/2306.17112)&rbrack;
 
+* COMPACT Collaboration: *Cosmic topology. Part IIIa. Microwave background parity violation without parity-violating microphysics* &lbrack;[arXiv:2407.09400](https://arxiv.org/abs/2407.09400)&rbrack;
+
+
 See also:
 
 * Wikipedia, *[Global universe structure](https://en.wikipedia.org/wiki/Shape_of_the_universe#Global_universe_structure)*
