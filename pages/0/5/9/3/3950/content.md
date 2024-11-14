@@ -119,7 +119,7 @@ For any $X$ in $K$, we have a codiscrete cofibration $X\to X \times I \leftarrow
 
 +-- {: .un_prop}
 ###### Proposition
-Any representably fully faithful morphism is right orthogonal to any [[cocomma object]].  In particular, $K$ is pre-equippable and every codiscrete cofibration is a cocomma object, then $\mathcal{M}$ is precisely the class of representably fully faithful morphisms.
+Any representably fully faithful morphism is right orthogonal to any [[cocomma object]].  In particular, if $K$ is pre-equippable and every codiscrete cofibration is a cocomma object, then $\mathcal{M}$ is precisely the class of representably fully faithful morphisms.
 =--
 +-- {: .proof}
 ###### Proof
