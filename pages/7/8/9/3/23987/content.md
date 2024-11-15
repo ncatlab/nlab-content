@@ -1781,6 +1781,26 @@ Talks:
 
 \linebreak
 
+### Nov 2024
+
+{#MENAQuantum2024} **MENA Quantum Conference 2024**
+
+[nyuad.nyu.edu/en/events/2024/november/mena-quantum.html](https://nyuad.nyu.edu/en/events/2024/november/mena-quantum.html)
+
+23-24 Nov 2024
+
+\begin{imagefromfile}
+    "file_name": "CQTS-MENAQuantum2024-Banner.jpg",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
 
 
 \linebreak
