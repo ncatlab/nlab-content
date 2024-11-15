@@ -37,3 +37,7 @@ For more see at _[[geometry of physics -- perturbative quantum field theory]]_ t
 [[!redirects trajectory]]
 [[!redirects trajectories]]
 
+[[!redirects field configuration]]
+[[!redirects field configurations]]
+
+
