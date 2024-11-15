@@ -135,7 +135,7 @@ $$
   \tilde E^\bullet(-) 
 $$
 
-such that:
+{#AxiomsReduced} such that:
 
 1. **([[homotopy invariance]])** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \simeq f_2$ between them, then the induced [[homomorphisms]] of abelian groups are [[equality|equal]] 
 
