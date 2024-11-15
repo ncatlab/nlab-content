@@ -3656,10 +3656,5 @@ The formulation of this in [[smooth super infinity-groupoids]] is ([FSS, section
 [[!redirects field (in physics)]]
 [[!redirects fields (in physics)]]
 
-[[!redirects gauge field]]
-[[!redirects gauge fields]]
 
 
-
-[[!redirects field configuration]]
-[[!redirects field configurations]]
