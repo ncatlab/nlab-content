@@ -259,7 +259,7 @@ Two independent developments around 2009 put non-abelian generalized cohomology 
 
 \linebreak
 
-With non-abelian generalized cohomology thus recognized as a respectable subject, one is led to generalize familiar constructions in abelian cohomology, as far as possible, and to explore the consequences.
+With non-abelian generalized cohomology thus recognized as a worthwhile subject, one is led to generalize familiar constructions in abelian cohomology, as far as possible, and to explore the consequences.
 
 First, one may straightforwardly equip non-abelian cohomology with further attributes: Considering the right hand side of (eq:NonabelianCohomology) not just for plain spaces but for sheaves of spaces ([[infinity-stack|higher stacks]]) leads to non-abelian generalized sheaf cohomology, including, in particular, non-abelian generalized versions of [[twisted cohomology]] and of [[equivariant cohomology]].
 
