@@ -128,15 +128,19 @@ Frobenius monoidal functors are a special case of Frobenius *linear* functors be
 
 * **Frobenius monoidal functor**
 
-Beware of the *un*-related terminoilogy:
+This concept is related to that of
 
 * [[Frobenius functor]]
+
+albeit in a nontrivial way. See Theorem 3.18 of ([Flake et al 2024](#FLP24)) for more on this.
 
 ## References
 
 * {#AguiarMahajan} [[Marcelo Aguiar]], [[Swapneel Mahajan]], (3.26), (3.27) on [p. 81](http://www.math.tamu.edu/~maguiar/a.pdf) of: _[[Monoidal Functors, Species and Hopf Algebras]]_, CRM Monograph Series __29__, Amer. Math. Soc. (2010) &lbrack;[ISBN:978-0-8218-4776-3](https://bookstore.ams.org/crmm-29/), [pdf](http://www.math.cornell.edu/~maguiar/a.pdf)&rbrack;
 
 * M. B. McCurdy, [[R. Street]], *What separable Frobenius monoidal functors preserve*, [[Cahiers]] TGDC **51** (2010) 29-50 &lbrack;[arxiv/0904.3449](http://arxiv.org/abs/0904.3449)&rbrack; .
+
+* {#FLP24} Johannes Flake, Robert Laugwitz, Sebastian Posur. *Frobenius monoidal functors from ambiadjunctions and their lifts to Drinfeld centers* (2024). ([arXiv:2410.08702](https://arxiv.org/abs/2410.08702)).
 
 Relation to [[Drinfeld centers]]:
 
