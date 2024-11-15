@@ -15,7 +15,7 @@
 ## Idea
  {#Idea}
 
-In general, *[[localization]]* is a process of [[free construction|freely]] adjoining [[inverses]] to an algebraic structure. In [[category theory]], the _localization_ $\mathcal{C}[W^{-1}]$ of a [[category]] $\mathcal{C}$ at a [[class]] $W$ of its [[morphisms]] is -- if it exists -- the result of universally making all morphisms in $W$ into [[isomorphisms]]. A __localization functor__ is any functor $C\to C[W^{-1}]$ satisfying the universal property of the localization at some $W$.
+In general, *[[localization]]* is a process of [[free construction|freely]] adjoining [[inverses]] to an algebraic structure. In [[category theory]], the _localization_ $\mathcal{C}[W^{-1}]$ of a [[category]] $\mathcal{C}$ at a [[class]] $W$ of its [[morphisms]] is -- if it exists (see below) -- the result of universally making all morphisms in $W$ into [[isomorphisms]]. A __localization functor__ is any functor $C\to C[W^{-1}]$ satisfying the universal property of the localization at some $W$.
 
 Some authors call any localization of a category a _category of fractions_  ([Gabriel & Zisman, §1.1](#GabrielZisman67); [Borceux 1994 I, Def. 5.2.1](#Borceux94)), while other authors reserve this name for the case that $W$ admits a "[[calculus of fractions]]" (e.g. [Fritz 2011](#Fritz11)). Conversely, some authors use "localization" to refer exclusively to the latter case (e.g. [Verdier 1996, Def. 2.2.5](#Verdier96);  [Stacks Project](#StacksProject)).
 
