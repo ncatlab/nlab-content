@@ -19,9 +19,7 @@ Comments on the analogy between [[power operations]] in [[homotopy theory]] and 
 
 * {#Guillot06} [[Pierre Guillot]], _Adams operations in cohomotopy_ ([arXiv:0612327](http://arxiv.org/abs/math/0612327))
 
-* {#MoravaSanthanam} [[Jack Morava]], Rekha Santhanam, _Power operations and absolute geometry_, 2012 ([pdf](http://www.lemiller.net/media/slidesconf/AbsolutePower.pdf))
-
-* {#MoravaSanthanam12} [[Jack Morava]], Rakha Santhanam, _Power operations and Absolute geometry_, 2012 ([pdf](http://www.lemiller.net/media/slidesconf/AbsolutePower.pdf))
+* {#MoravaSanthanam12} [[Jack Morava]], Rakha Santhanam: _Power operations and Absolute geometry_ (2012) &lbrack;[pdf](/nlab/files/AbsolutePower.pdf)&rbrack;
 
 On [[configuration spaces of points]] and a possible [[Galois group]] over the [[sphere spectrum]]:
 
