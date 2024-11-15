@@ -14,30 +14,358 @@
 * table of contents
 {:toc}
 
+
 ## Idea
+ {#Idea}
 
-The notion of [[cohomology]] finds its natural general formulation in terms of [[hom-spaces]] in an [[(∞,1)-topos]], as described at [[cohomology]]. Many of the cohomologies which have been traditionally considered, such as [[abelian sheaf cohomology|sheaf cohomology]], turn out to be just a special case of the general situation, for objects which are sufficiently abelian in the sense of [[stable (infinity,1)-category|stable (∞,1)-categories]].
+The notion of [[cohomology]] finds its natural general formulation in terms of [[hom-spaces]] in an [[(∞,1)-topos]], as described at *[[cohomology]]*. Many of the cohomologies which have been traditionally considered, such as [[abelian sheaf cohomology|sheaf cohomology]], turn out to be just a special case of the general situation, for objects which are sufficiently abelian in the sense of [[stable (infinity,1)-category|stable (∞,1)-categories]].
 
-Therefore to amplify that one is looking at general [[cohomology]] without restricting to [[abelian sheaf cohomology|abelian cohomology]] one sometimes speaks of  **nonabelian cohomology**. 
+Therefore to amplify that one is looking at general [[cohomology]] without restricting to [[abelian sheaf cohomology|abelian cohomology]] one speaks of  **nonabelian cohomology**. 
 
-## History
+\linebreak
 
-It was originally apparently John Roberts who understood (remarkably: while thinking about [[quantum field theory]] in the guise of [[AQFT]]) that general cohomology is about coloring simplices in $\infty$-categories.  
+To say this in a bit more detail:
 
-* John E. Roberts, _Mathematical Aspects of Local Cohomology_
-talk at Colloqium on Operator Algebras and their Applications to Mathematical Physics, Marseille 20-24 June, 1977 .
 
-This is recounted for instance by Ross Street in
+### Cohomology via classifying spaces
 
-* [[Ross Street]], _Categorical and combinatorial aspects of descent theory_ ([pdf](http://arxiv.org/ftp/math/papers/0303/0303175.pdf))
+It is a classical and yet possibly undervalued fact that *reasonable [[cohomology]] theories have [[classifying spaces]]* (and more generally *[[moduli stacks|classifying stacks]]*). To quickly recall (more details and pointers in [FSS23, §2](#FSS23)):
 
-and 
+**Ordinary cohomology.**
+This begins with the observation that ([[reduced cohomology|reduced]]) [[ordinary cohomology|ordinary]] [[singular cohomology]], with [[coefficients]] in a [[discrete group|discrete]] [[abelian group]] $A$, is classified in degree $n$ by [[Eilenberg-MacLane spaces]] $K(A,n)$ -- in that on well-behaved topological spaces $X$, notably on [[smooth manifolds]], there are [[natural isomorphisms]] between the ordinary [[cohomology groups]] and the [[connected components]] of the respective ([[pointed topological space|pointed]]) [[mapping spaces]]:
+\[
+  \label{OrdinaryCohomologyRepresented}
+  H^n(X;\, A)
+  \;\simeq\;
+  \pi_0
+  \,
+  \mathrm{Maps}
+  \big(
+    X,\,
+    K(A,n)
+  \big)
+  \,,
+  \;\;\;\;\;\;\;\;\;\;\;
+  \widetilde H^n(X;\, A)
+  \;\simeq\;
+  \pi_0
+  \,
+  \mathrm{Maps}^{\ast/\!}
+  \big(
+    X,\,
+    K(A,n)
+  \big)
+  \,.
+\]
+This equivalence makes manifest the [characteristic properties](Whiethead-generalized+cohomology#AxiomsReduced) of cohomology: homotopy invariance, exactness and wedge property, since these are now immediately implied by general abstract properties of mapping spaces.
 
-* [[Ross Street]], _An australian conspectus on higher categories_ ([pdf](http://www.math.mq.edu.au/~street/Minneapolis.pdf)).
+Moreover, these EM-spaces are in fact [[loop spaces]] of each other, via weak homotopy equivalences
+\[
+  \label{LoopingEquivOnEmSpaces}
+  \sigma_n
+  \;\colon\;
+    K(A,n)
+    \xrightarrow{\;\sim\;}
+    \Omega K(A,n+1)
+\]
+that thereby represent the *[[suspension isomorphisms]]* between ordinary cohomology groups, as follows: 
+
+$$
+  \widetilde H^{n}(X;A)
+    \;\simeq\;
+  \mathrm{Maps}^{\ast/\!}\big(
+    X
+    ,\,
+    K(A,n)
+  \big)
+  \xrightarrow{
+    (\sigma_n)_\ast
+  }
+  \mathrm{Maps}^{\ast/\!}\big(
+      X
+      ,\,
+      \Omega
+      K(A,n+1)
+  \big)
+  \;\simeq\;
+  \mathrm{Maps}^{\ast/\!}\big(
+      \Sigma
+      X
+      ,\,
+      K(A,n+1)
+    \big)
+    \;\simeq\;
+    \widetilde H^{n+1}\big(
+      \Sigma X
+      ;\,
+      A
+    \big)
+    \,.
+$$
+
+
+\linebreak
+
+**Ordinary non-abelian cohomology.**
+Note here that it is the loop space property \eqref{LoopingEquivOnEmSpaces}, and hence the corresponding [[suspension isomorphism]], which reflect the fact that the coefficient $A$ has been assumed to be an *abelian* group:
+For a non-abelian group $G$, an Eilenberg-MacLane space $K(G, 1) \,\simeq\, B G$ still exists, but is *not a loop space*.
+
+While the suspension isomorphism is thus lost for non-abelian coefficients, the assignment
+\[
+  \label{OrdinaryNonAbelianCohomology}
+  X
+  \;\;
+   \mapsto
+  \;\;
+  H^1\big(
+    X
+    ;\, 
+    G
+  \big)
+  \;\;
+  \coloneqq
+  \;\;
+  \pi_0
+  \,
+  \mathrm{Maps}\big(
+    X
+    ,\,
+    B G
+  \big)
+  \;\;\;
+  \in\;
+  \mathrm{Set}^{\ast/}
+\]
+still satisfies homotopy invariance, exactness and wedge property, just by the general properties of mapping spaces, and hence has all the characteristic properties of ordinary cohomology -- except for its abelian-ness.
+Accordingly, (eq:OrdinaryNonAbelianCohomology) is known as *non-abelian cohomology, famous from early applications in [[Chern-Weil theory]].
+
+\linebreak
+
+**Whitehead-generalized cohomology.** But if or as long as we do insist on abelian cohomology groups related by suspension isomorphisms, we may still immediately generalize ordinary cohomology in the form (eq:OrdinaryCohomologyRepresented), simply by using any other sequence of classifying spaces $(E_n)_{n=0}^\infty$, being successive loop spaces of each other as in (eq:LoopingEquivOnEmSpaces),
+$$
+  \sigma_n \,:\,
+    E_n
+    \xrightarrow{\; \sim \;}
+    E_{n+1}
+    \,,
+$$
+as such called a *[[sequential spectrum|sequential]] [[Omega-spectrum|$\Omega$-spectrum]] of spaces*, or just a *spectrum*, for short. The [[Brown representability theorem]] says that the resulting assignments
+$$
+  X
+  \;\;
+  \mapsto
+  \;\;
+  E^n(X)
+  \,\coloneqq\,
+  \pi_0
+  \,
+  \mathrm{Maps}\big(
+    X
+    ;\,
+    E_n
+  \big)
+$$
+are equivalently the *[[Whitehead-generalized cohomology|generalized cohomology theories]]* as introduced by Whitehead, including examples such as [[K-theory]], [[elliptic cohomology]] and [[cobordism cohomology]].
+
+\linebreak
+
+**Non-abelian generalized cohomology.** But as we just saw, suspension isomorphisms are to be regarded as *extra* structure on cohomology. Not necessarily requiring them leads to consider *any pointed space* $\mathscr{A}$ as the classifying space of a non-abelian generalized cohomology theory, defined in evident generalization of (eq:OrdinaryNonAbelianCohomology) simply by
+\[
+  \label{NonabelianCohomology}
+  H^1\big(
+    X
+    ;\,
+    \Omega\mathscr{A}
+  \big)
+  \;\;
+  \coloneqq
+  \;\;
+  \pi_0
+  \,
+  \mathrm{Maps}\big(
+    X
+    ,\,
+    \mathscr{A}
+  \big)
+  \,.
+\]
+Here the notation on the left is suggestive of the fact that any loop space $\Omega \mathscr{A}$ canonically carries the structure of a higher homotopy-coherent group -- a groupal $A_\infty$-space or [[infinity-group|$\infty$-group]], for short --  whose de-looping [is equivalent](May+recognition+theorem#statement) to the connected component $\mathscr{A}_0$ of the original space:
+\[
+  \label{DeloopingEquivalence}
+  \mathscr{A}_0
+  \;\;
+  \simeq
+  \;\;
+  B \, \Omega \mathscr{A}
+  \,.
+\]
+
+For instance, in the archetypical case where
+$\mathscr{A} \,\equiv\, S^n$ is the [[n-sphere|$n$-sphere]], then the non-abelian generalized cohomology theory that it classifies is known as (unstable) [[Cohomotopy]] $\pi^n$
+\[
+  \label{Cohomotopy}
+  \widetilde H^1\big(
+    X
+    ;\, 
+    \Omega S^n
+  \big)
+  \;\;
+  \equiv
+  \;\;
+  \pi_0
+  \,
+  \mathrm{Maps}^{\ast/\!}\big(
+    X
+    ,\,
+    S^n
+  \big)
+  \;\;
+  \equiv
+  \;\;
+  \pi^n(X)
+  \,,
+\]
+in dual reference to the familar *homotopy* groups
+$$
+  \pi_n(X)
+  \;\;
+  \simeq
+  \;\;
+  \pi_0
+  \,
+  \mathrm{Maps}^{\ast/\!}\big(
+    S^n
+    ,\,
+    X
+  \big)
+  \,.
+$$
+
+Another example of non-abelian generalized cohomology is [[unstable topological K-theory]], whose classifying spaces are taken to be finite stages $\mathrm{U}(n)$ of the sequential colimits which construct the classifying spaces of topological K-theory.
+
+### Developing non-abelian cohomology
+
+Fundamental, elementary and compelling as the notion of non-abelian generalized cohomology in (eq:NonabelianCohomology) is, it has long remained underappreciated. For example, none of the original authors on [[Cohomotopy]] (eq:Cohomotopy) address their subject as a cohomology theory, instead the early development revolves around partial fixes for the perceived defect of co-homotopy sets to not in general carry group structure.
+The situation does not improve with the early development of "[[non-abelian gerbes]]", whose original description appears unwieldy. 
+
+Explicit acknowledgement of (stacky) non-abelian generalized cohomology  in the transparent guise (eq:NonabelianCohomology)
+appears only in a lecture of 2002 [Toen 2002](#Toen02), (possibly following [Simpson 2002](#Simpson02) where non-abelian generalization of [[de Rham cohomology]] is considered). 
+
+Two independent developments around 2009 put non-abelian generalized cohomology into practical context: 
+
+* The discovery of [[nonabelian Poincaré duality]] ([Lurie 09 §3.8](nonabelian+Poincaré+duality#Lurie09)), relating non-abelian cohomology (later made explicit in [Lurie 2014 Def. 6](#Lurie14)) of manifolds  to "non-abelian homology" in the guise of "[[topological chiral homology]]" (which, in contrast to non-abelian cohomology, takes work to define); 
+
+* The observation in theoretical physics ([SS 2008](#SS08), [Sc 2009](#Schreiber09)) that [[geometry of physics -- flux quantization|charge/flux-quantization laws]] for [[higher gauge fields]] are generally in non-abelian cohomology.
+
+\linebreak
+
+With non-abelian generalized cohomology thus recognized as a respectable subject, one is led to generalize familiar constructions in abelian cohomology, as far as possible, and to explore the consequences.
+
+First, one may straightforwardly equip non-abelian cohomology with further attributes: Considering the right hand side of (eq:NonabelianCohomology) not just for plain spaces but for sheaves of spaces ([[infinity-stack|higher stacks]]) leads to non-abelian generalized sheaf cohomology, including, in particular, non-abelian generalized versions of [[twisted cohomology]] and of [[equivariant cohomology]].
+
+\linebreak
+
+**Equivariant non-abelian cohomology.** Via the above identification of cohomology sets with homotopy-classes of maps to a classifying space, every flavor of [[homotopy theory]] comes with its corresponding flavor of cohomology theories. 
+
+In *[[equivariant homotopy theory]]* one considers topological spaces $\mathscr{A}$ equipped with the [[group action|action]] $G \curvearrowright \mathscr{A}$ of a (finite, for our purposes) group $G$ and with $G$-equivariant maps between them -- and the corresponding flavor of cohomology is *equivariant cohomology*:
+\[
+  \label{EquivariantCohomology}
+  H^1_G\big(
+    X;\,
+    \Omega\mathscr{A}
+  \big)
+  \;\;
+  =
+  \;\;
+  \pi_0
+  \, 
+  \mathrm{Maps}\big(
+    G \curvearrowright X
+    ,\,
+    G \curvearrowright \mathscr{A}
+  \big)^G
+  \,.
+\]
+
+Here the notion of $G$-homotopy equivalence of maps is straightforward but, at face value, technically cumbersome to reason about. However, [[Elmendorf's theorem]] reveals that $G$-homotopy equivalences (between $G$-cell complexes) are nothing but systems of ordinary weak homotopy equivalences between the $H$-fixed spaces $\mathscr{A}^H$ for all subgroups $H \subset G$. These systems of fixed spaces are conveniently re-packaged as presheaves on a small category called the *[[orbit category]]* $\mathrm{Orb}(G)$ of $G$, whence $G$-equivariant homotopy theory is equivalently the homotopy theory of [[(infinity,1)-presheaf|presheaves of spaces]] on $\mathrm{Orb}(G)$.
+
+\linebreak
+
+**Twisted non-abelian cohomology.** 
+Somewhat similarly, given any space $\mathscr{B}$ in any homotopy theory, the *[[slice (infinity,1)-category|$\mathscr{B}$-slice]]* is the [[homotopy theory]] whose objects are spaces fibered over $\mathscr{B}$ with maps between them respecting the fibration up to specified homotopy. If we assume, without essential restriction, that the base space is connected, then we may identify it as $\mathscr{B} \,\simeq\, B \mathscr{G}$, as in (eq:DeloopingEquivalence), which exhibits any fibration over it as the [[Borel construction]] $\mathscr{A} \sslash \mathscr{G}$ of the homotopy-quotient of a homotopy-coherent action $\mathscr{G} \acts \mathscr{A}$.
+
+If we now think of a domain object $X \xrightarrow{\tau} B\mathscr{G}$ in this $B \mathscr{G}$-slice as a *twist* and of a codomain object $\mathscr{A} \sslash \mathscr{G} \xrightarrow{p}  B \mathscr{G}$ as a *[[local coefficient bundle]]*, then the corresponding non-abelian cohomology is just the homotopy classes of sections of the $\tau$-associated $\mathscr{A}$-fiber bundle, and as such is $\tau$-twisted $\mathscr{A}$-cohomology:
+
+
+\begin{imagefromfile}
+    "file_name": "TwistedNonalianCohomology.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+This works generally: If all spaces here are *in addition* equipped with $G$-actions as in (eq:EquivariantCohomology), hence if we are looking at a slice of equivariant homotopy, then the above is automatically *twisted equivariant* non-abelian cohomology.
+
+
+\linebreak
+
+
+**The non-abelian character.**
+One famous construction on abelian cohomology is the *[[Chern-Dold character map]]* to [[de Rham cohomology]], which in the case of [[topological K-theory|K-cohomology]] becomes the familar [[Chern character]] (and which on ordinary cohomology is essentially just the [[de Rham theorem]]). 
+One may think of the Chern-Dold character as universally extracting the [[torsion subgroup|non-torsion]] data in the [[cohomology groups]]. 
+Its generalization to non-abelian cohomology was developed in [FSS23](#FSS23): 
+
+Observing that the Chern-Dold character is essentially just the [[cohomology operation]] induced by  *[[rationalization]]* of the [[classifying space]], 
+$$
+  \mathscr{A}
+  \xrightarrow{
+    \phantom{--}
+    \eta^{\mathbb{Q}}
+    \phantom{--}
+  }    
+  L^{\!\mathbb{Q}}\mathscr{A}
+$$
+as such it makes sense in the generality of non-abelian classifying spaces (immediately so under mild technical assumptions, such as [[nilpotent topological space|nilpotency]], but with more work also more generally). In view of this, the [[fundamental theorem of dg-algebraic rational homotopy theory]] may be re-cast as a *non-abelian de Rham theorem* which identifies, over smooth manifolds $X$, the resulting non-abelian rational cohomology with the [[concordance classes]] of flat differential forms having coefficients in the real [[Whitehead algebra|Whitehead-bracket $L_\infty$-algebra]] $\mathfrak{l}\mathscr{A}$ of the classifying space:
+
+\begin{imagefromfile}
+    "file_name": "NonabelianCharacterMap.jpg",
+    "width": 670,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Since generalized cohomology theories are typically hard to analyze, in particular non-abelian ones, this character map may be regarded as extracting the first non-trivial stage of more tractable invariants. For instance, the character of a non-abelian class is the first obstruction to a trivialization of that class.
+
+In the mentioned application to physics, the [[flux densities]] of a [[higher gauge field]] are sourced by charges which appear as classes in [[non-abelian de Rham cohomology]] on the right, and the completion of the higher gauge theory by a [[geometry of physics -- flux quantization|flux-quantization law]] means to lift these charges through the character map to classes in a chosen non-abelian cohomology theory on the left.
+
+\linebreak
+
+
+
+## More history
+
+It was originally apparently [[John Roberts]] who understood (remarkably: while thinking about [[quantum field theory]] in the guise of [[AQFT]]) that general cohomology is about coloring simplices in $\infty$-categories.  
+
+* [[John E. Roberts]], *Mathematical Aspects of Local Cohomology*, in: *Algèbres d’opérateurs et leurs applications en physique mathématique*, Colloques Internationaux du Centre National de la Recherche Scientifique (C.N.R.S) **274**, Paris (1979) 321–332 &lbrack;ISBN:2-222-02441-2, [pdf](https://dmitripavlov.org/scans/roberts-mathematical-aspects-of-local-cohomology.pdf), [[Roberts-LocalCohomology.pdf:file]]&rbrack;
+
+This is recounted in
+
+* [[Ross Street]], pages 9-10 of: *An Australian conspectus of higher category theory*, talk at Institute for Mathematics and its Applications Summer Program: *$n$-Categories: Foundations and Applications* at the University of Minnesota (Minneapolis, 7–18 June 2004), in: *[[Towards Higher Categories]]*, The IMA Volumes in Mathematics and its Applications **152**, Springer (2010) 237-264 &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/Street.pdf), [[Street-Conspectus.pdf:file]], [doi:10.1007/978-1-4419-1524-5](https://link.springer.com/book/10.1007/978-1-4419-1524-5)&rbrack;
+
 
 Parallel to this development of the notion of [[descent|descent and codescent]] there was the development of [[homotopical cohomology theory]] as described in
 
-* Kenneth S. Brown, _Abstract Homotopy Theory and Generalized Sheaf Cohomology_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458 ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Abstract%20homotopy%20theory%20and%20generalized%20sheaf%20cohomology.pdf))
+* [[Kenneth S. Brown]], _Abstract Homotopy Theory and Generalized Sheaf Cohomology_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458 ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Abstract%20homotopy%20theory%20and%20generalized%20sheaf%20cohomology.pdf))
 
 The two approaches are different, but closely related. Their relation is via the notion of [[descent|codescent]].
 
@@ -99,7 +427,9 @@ For more see
 For $X$ a [[topological space]] and $A$ an [[∞-groupoid]], the standard way to define the [[nonabelian cohomology]] of $X$ with coefficients in $A$ is to define it as the intrinsic cohomology as seen in [[∞Grpd]] $\simeq$ [[Top]]:
 
 $$
-  H(X,A) := \pi_0 Top(X, |A|) \simeq \pi_0 \infty Func(Sing X, A)
+  H(X,A) 
+   \;\coloneqq\; 
+  \pi_0 Top(X, |A|) \simeq \pi_0 \infty Func(Sing X, A)
   \,,
 $$
 
@@ -113,8 +443,10 @@ For $X$ a [[topological space]] and $Op(X)$ its [[category of open subsets]] equ
 
 $$
   \mathbf{H}
-  :=
-  Sh_{(\infty,1)}(X) := Sh_{(\infty,1)}(Op(X))
+    \;\coloneqq\;
+  Sh_{(\infty,1)}(X) 
+    \;\coloneqq\; 
+  Sh_{(\infty,1)}(Op(X))
 $$
 
 be the [[(∞,1)-category of (∞,1)-sheaves]] on $X$. The space $X$ itself is naturally identified with the [[terminal object]] $X = * \in Sh_{(\infty,1)}(X)$. This is the [[petit topos]] incarnation of $X$.
@@ -134,7 +466,9 @@ Under the [[constant (∞,1)-sheaf]] functor $LConst$ an an [[∞-groupoid]] $A 
 There is therefore the _intrinsic_ [[cohomology]] of the $(\infty,1)$-topos $Sh_{(\infty,1)}(X)$ with coefficients in the [[constant ∞-stack|constant (∞,1)-sheaf]] on $A$
   
 $$
-  H'(X,A) := \pi_0 Sh_{(\infty,1)}(X)(X, LConst A)
+  H'(X,A) 
+  \;\coloneqq\; 
+  \pi_0 Sh_{(\infty,1)}(X)(X, LConst A)
   \,.
 $$
 
@@ -153,7 +487,9 @@ $$
 If $X$ is a [[paracompact space]], then these two definitins of [[nonabelian cohomology]] of $X$ with [[constant ∞-stack|constant coefficients]] $A \in \infty Grpd$ agree:
 
 $$
-  H(X,A) := \pi_0 \infty Grpd(Sing X,A)  \simeq Sh_{(\infty,1)}(X)(X,LConst A)
+  H(X,A) 
+  \;\coloneqq\; 
+  \pi_0 \infty Grpd(Sing X,A)  \simeq Sh_{(\infty,1)}(X)(X,LConst A)
   \,.
 $$
 
@@ -339,13 +675,13 @@ In a context of [[nonabelian Hodge theory]]:
 
 * [[Carlos Simpson]], _Secondary Kodaira-Spencer classes and nonabelian Dolbeault cohomology_ ([arXiv:alg-geom/9712020](http://arxiv.org/abs/alg-geom/9712020))
 
-* [[Carlos Simpson]], _Algebraic aspects of higher nonabelian Hodge theory_,  in: [[Fedor Bogomolov]], [[Ludmil Katzarkov]] (eds.), _Motives, polylogarithms and Hodge theory, Part II_ (Irvine, CA, 1998), Int. Press Lect. Ser., 3, II, Int. Press, 2002, 2016, 417-604.  ([arXiv:math/9902067](http://arxiv.org/abs/math/9902067), [ISBN:9781571462909](https://www.intlpress.com/site/pub/pages/books/items/00000089/index.php))
+* {#Simpson02} [[Carlos Simpson]]: _Algebraic aspects of higher nonabelian Hodge theory_,  in: [[Fedor Bogomolov]], [[Ludmil Katzarkov]] (eds.), _Motives, polylogarithms and Hodge theory, Part II_ (Irvine, CA, 1998), Int. Press Lect. Ser., 3, II, Int. Press, (2002, 2016) 417-604 &lbrack;[arXiv:math/9902067](http://arxiv.org/abs/math/9902067), [ISBN:9781571462909](https://www.intlpress.com/site/pub/pages/books/items/00000089/index.php)&rbrack;
 
 * [[Carlos Simpson]], [[Tony Pantev]], [[Ludmil Katzarkov]], _Nonabelian mixed Hodge structures_ ([arXiv:math/0006213](http://arxiv.org/abs/math/0006213))
 
 Generally:
 
-* {#Toen02} [[Bertrand Toën]], Def. 6.0.6 in: _Stacks and Non-abelian cohomology_, lecture at _[Introductory Workshop on Algebraic Stacks, Intersection Theory, and Non-Abelian Hodge Theory](https://www.msri.org/realvideo/index04.html)_, MSRI 2002 ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html), [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps), [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/msri2002.pdf), [[ToenStacksAndNonabelianCohomology.pdf:file]])
+* {#Toen02} [[Bertrand Toën]], Def. 6.0.6 in: _Stacks and Non-abelian cohomology_, lecture at _[Introductory Workshop on Algebraic Stacks, Intersection Theory, and Non-Abelian Hodge Theory](https://www.msri.org/realvideo/index04.html)_, MSRI (2002) &lbrack;[slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html), [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps), [pdf](https://perso.math.univ-toulouse.fr/btoen/files/2015/02/msri2002.pdf), [[ToenStacksAndNonabelianCohomology.pdf:file]]&rbrack;
 
 * [[J. F. Jardine]], Z. Luo, _Higher principal bundles_, Mathematical Proceedings of the Cambridge Philosophical Society,  Volume 140, Issue 2 March 2006 , pp. 221-243 ([pdf](http://www.math.uiuc.edu/K-theory/0681/cocycles6.pdf), [doi:10.1017/S0305004105008911](https://doi.org/10.1017/S0305004105008911))
 
@@ -370,16 +706,21 @@ On [[cohomology operations]] on components of [[Whitehead-generalized cohomology
 
 * [[John Michael Boardman]], [[David Copeland Johnson]], [[W. Stephen Wilson]], _Unstable Operations in Generalized Cohomology_ ([pdf](https://hopf.math.purdue.edu/Boardman-Johnson-Wilson/bjw.pdf)), in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
-The suggestion that *every* ([[pointed topological space|pointed]]) [[topological space|space]] may be regarded as being the [[classifying space]] of a non-abelian cohomology theory, and that this is what defines non-abelian cohomology in general:
+The suggestion that *every* ([[pointed topological space|pointed]]) [[topological space|space]]/[[infinity-stack|$\infty$-stack]] may be regarded as being the [[classifying space]] of a non-abelian cohomology theory, and that this is what defines non-abelian cohomology in general:
 
-* {#Schreiber09} [[Urs Schreiber]]: *[[schreiber:Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]]*, talk at *[[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]*, Oberwolfach Report **28** (2009) &lbrack;[[OWR_2009_28.pdf:file]]&rbrack;
+* [Toën 2002](#Toen02)
+
+* {#SS08} [[Hisham Sati]], [[Urs Schreiber]] et al., p 41 of: *Twisted differential nonabelian cohomology* (2008) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schreiber/nactwist.pdf), [[Schreiber-nactwist.pdf:file]]&rbrack;
+
+* {#Schreiber09} [[Urs Schreiber]]: *[[schreiber:Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]]*, talk at *[[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]*, Oberwolfach Report **28** (2009) 1578-1582 &lbrack;[[OWR_2009_28.pdf:file]], [doi:10.4171/owr/2009/28](https://doi.org/10.4171/owr/2009/28)&rbrack;
  > (in [[twisted cohomology|twisted]] and [[differential cohomology|differential]] generality)
 
-* {#Lurie14} [[Jacob Lurie]], Def. 6 in: *Nonabelian Poincaré Duality*, Lecture 8 in *[Tamagawa Numbers via Nonabelian Poincare Duality (282y)](https://www.math.ias.edu/~lurie/282y.html)* (2014) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/282ynotes/LectureVIII-Poincare.pdf), [[Lurie-NonabPoincareDuality.pdf:file]]&rbrack;
+* {#Lurie14} [[Jacob Lurie]], Def. 6 in: *Nonabelian Poincaré Duality*, Lecture 8 in *[Tamagawa Numbers via Nonabelian Poincaré Duality (282y)](https://www.math.ias.edu/~lurie/282y.html)* (2014) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/282ynotes/LectureVIII-Poincare.pdf), [[Lurie-NonabPoincareDuality.pdf:file]]&rbrack;
   > (in view of [[nonabelian Poincaré duality]])
 
-* {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
+* {#FSS23} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
   > (generalizing the [[Chern-Dold character]] to nonabelian cohomology in this sense)
+
 
 
 
