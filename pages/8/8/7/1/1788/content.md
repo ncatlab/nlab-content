@@ -1,4 +1,8 @@
 
+
+***
+
+
 * Niccolò Cribiori, Dieter Lust: *String dualities and modular symmetries in supergravity: a review*, in: *Half a century of Supergravity*, Cambridge University Press &lbrack;[arXiv:2411.06516](https://arxiv.org/abs/2411.06516)&rbrack;
 
 
