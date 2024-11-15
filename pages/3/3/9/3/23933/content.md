@@ -43,6 +43,8 @@ On [[anabelian geometry]]:
 
 * [[Kirti Joshi]], *On Mochizuki's idea of Anabelomorphy and its applications* ([arxiv:2003.01890](https://arxiv.org/abs/2003.01890))
 
+* [[Kirti Joshi]], *The Absolute Grothendieck Conjecture is false for Fargues-Fontaine Curves* ([arxiv:2008.01228](https://arxiv.org/abs/2008.01228))
+
 On the Hitchin-Mochizuki morphism and Frobenius destablized vector bundles on curves:
 
 * [[Kirti Joshi]], Christian Pauly, *Opers of higher types, Quot-schemes and Frobenius instability loci* ([Épijournal de Géométrie Algébrique, Volume 4, 2020, Article Nr. 17] (https://epiga.episciences.org/6962))
