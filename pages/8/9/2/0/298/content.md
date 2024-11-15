@@ -161,7 +161,7 @@ See also:
 
 * [[Keith Hubbard]], _The duality between vertex operator algebras and coalgebras, modules and comodules_, &lbrack;[pdf](http://www.faculty.sfasu.edu/hubbardke/duality.pdf)&rbrack;
 
-* Bong H. Lian, Andrew R. Linshaw: *Vertex Algebras and Commutative Algebras* &lbrack;[arXiv:2107.03243](https://arxiv.org/abs/2107.03243)&rbrack;
+* [[Bong H. Lian]], [[Andrew R. Linshaw]]: *Vertex algebras and commutative algebras* &lbrack;[arXiv:2107.03243](https://arxiv.org/abs/2107.03243)&rbrack;
 
 
 
