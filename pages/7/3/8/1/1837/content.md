@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
+#### Field Theory
 +--{: .hide}
-[[!include physicscontents]]
+[[!include AQFT and operator algebra contents]]
 =--
 #### Differential cohomology
 +--{: .hide}
@@ -346,5 +346,3 @@ More comprehensive historical accounts include
 
 [[!redirects gauge principle]]
 
-[[!redirects gauge field]]
-[[!redirects gauge fields]]
