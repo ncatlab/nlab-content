@@ -164,10 +164,10 @@ and discussion of power operations in [[Morava E-theory]] is in
 
 * {#Strickland98} [[Neil Strickland]], _Morava E-theory of symmetric groups_ ([arXiv:math/9801125](http://arxiv.org/abs/math/9801125))
 
-Comments on the analogy between power operations in homotopy theory and [[Lambda ring]] structure in [[Borger's absolute geometry]] are in
+Comments on the analogy between power operations in homotopy theory and [[Lambda ring]] [[structure]] in [[Borger's absolute geometry]]:
 
-* {#Guillot06} [[Pierre Guillot]], _Adams operations in cohomotopy_ ([arXiv:0612327](http://arxiv.org/abs/math/0612327))
+* {#Guillot06} [[Pierre Guillot]], _Adams operations in cohomotopy_ &lbrack;[arXiv:0612327](http://arxiv.org/abs/math/0612327)&rbrack;
 
-* {#MoravaSanthanam12} [[Jack Morava]], Rakha Santhanam, _Power operations and Absolute geometry_, 2012 ([pdf](https://ncatlab.org/nlab/files/AbsolutePower.pdf))
+* {#MoravaSanthanam12} [[Jack Morava]], Rakha Santhanam: _Power operations and Absolute geometry_ (2012) &lbrack;[pdf](/nlab/files/AbsolutePower.pdf)&rbrack;
 
 [[!redirects power operations]]
