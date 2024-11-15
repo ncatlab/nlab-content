@@ -19,7 +19,9 @@
 
 Pontrjagin was a full member of the (Soviet) Academy of Sciences. He was blind since the age of 14.
 
-* wikipedia [in German](http://de.wikipedia.org/wiki/Lew_Semjonowitsch_Pontrjagin), [in English](http://en.wikipedia.org/wiki/Lev_Pontryagin), [in Russian](http://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BD%D1%82%D1%80%D1%8F%D0%B3%D0%B8%D0%BD,_%D0%9B%D0%B5%D0%B2_%D0%A1%D0%B5%D0%BC%D1%91%D0%BD%D0%BE%D0%B2%D0%B8%D1%87), [[joyalscatlab:Pontryagin, Lev|entry at joyalscatlab]]
+* Wikipedia on Pontrjagin: [in German](http://de.wikipedia.org/wiki/Lew_Semjonowitsch_Pontrjagin), [in English](http://en.wikipedia.org/wiki/Lev_Pontryagin), [in Russian](http://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BD%D1%82%D1%80%D1%8F%D0%B3%D0%B8%D0%BD,_%D0%9B%D0%B5%D0%B2_%D0%A1%D0%B5%D0%BC%D1%91%D0%BD%D0%BE%D0%B2%D0%B8%D1%87), 
+
+* [[joyalscatlab:Pontryagin, Lev|entry at joyalscatlab]]
 
 ## Selected writings
 
@@ -34,11 +36,11 @@ Introducing [[Pontryagin's theorem]] -- the [[bijection]] between [[cobordism cl
 
 the [[first stable homotopy group of spheres]]:
 
-* [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication I_, Doklady Akademii Nauk SSSR 19(3) (1938), 147-149
+* [[Lev Pontrjagin]]: _[[Classification of continuous maps of a complex into a sphere]]_, _Communication I_, Doklady Akademii Nauk SSSR **19** 3 (1938) 147-149
 
 and the [[second stable homotopy group of spheres]]:
 
-* {#Pontrjagin38} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication II_, Dokl. Akad. Nauk SSSR 19 (1938), 361-363
+* {#Pontrjagin38} [[Lev Pontrjagin]], _[[Classification of continuous maps of a complex into a sphere]]_, _Communication II_, Dokl. Akad. Nauk SSSR **19** (1938) 361-363
 
   > (this article contains a famous mistake, see [[Michael Hopkins|Hopkins]]'s talk at [Atiyah's 80th Birthday conference](https://www.maths.ed.ac.uk/~v1ranick/atiyah80.htm), see [slide 8](https://www.maths.ed.ac.uk/~v1ranick/hopkins.pdf#page=8), [9:45](https://empg.maths.ed.ac.uk/Videos/Atiyah80/Hopkins.mov))
 
