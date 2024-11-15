@@ -17,6 +17,7 @@
 
 * [[Weil conjecture on Tamagawa numbers]]
 
+
 ## References
 
 ### General
@@ -26,7 +27,7 @@
 * [[Sadok Kallel]]: *Particle Spaces on Manifolds and Generalized Poincaré Dualities*, Quarterly J. Math. **52** 1 (2001) 45–70 \[<a href="https://doi.org/10.1093/qjmath/52.1.45">doi:10.1093/qjmath/52.1.45</a>, [arXiv:math/9810067](https://arxiv.org/abs/math/9810067)\]
   > (the abelian case reducing to ordinary [[Poincaré duality]])
 
-* [[Jacob Lurie]], §3.8 in: *Derived Algebraic Geometry VI: $\mathbb{E}_k$ Algebras* &lbrack;[arXiv:0911.0018](https://arxiv.org/abs/0911.0018)&rbrack;
+* {#Lurie09} [[Jacob Lurie]], §3.8 in: *Derived Algebraic Geometry VI: $\mathbb{E}_k$ Algebras* &lbrack;[arXiv:0911.0018](https://arxiv.org/abs/0911.0018)&rbrack;
 
 * [[Jacob Lurie]], *Nonabelian Poincaré Duality*, Lecture 8 in *[Tamagawa Numbers via Nonabelian Poincare Duality (282y)](https://www.math.ias.edu/~lurie/282y.html)* (2014) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/282ynotes/LectureVIII-Poincare.pdf), [[Lurie-NonabPoincareDuality.pdf:file]]&rbrack;
 
