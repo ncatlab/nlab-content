@@ -33,7 +33,7 @@ from $n$-copies of the 2-[[ball]] to itself, which restrict on each component to
 
 * a rotation
 
-of the disk (regarded via its standard [[embedding]] $D \hookrightarrow \mathbb{R}^2$ into the 2-simensional [[Cartesian space]]) such that the images of all disks are disjoint.
+of the disk (regarded via its standard [[embedding]] $D \hookrightarrow \mathbb{R}^2$ into the 2-dimensional [[Cartesian space]]) such that the images of all disks are disjoint.
 =--
 
 +-- {: .num_remark}
