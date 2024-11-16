@@ -2738,12 +2738,12 @@ The "ring of complex vector bundles" $K(X)$ was introduced in
 
 and shown to give a [[Whitehead-generalized cohomology]] theory in
 
-* {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Vector bundles and homogeneous spaces_, 1961, Proc. Sympos. Pure Math., Vol. III pp. 7&#8211;38 American Mathematical Society, Providence, R.I. (<a href="https://doi.org/10.1142/9789814401319_0008">doi:10.1142/9789814401319_0008</a>, [web](http://hirzebruch.mpim-bonn.mpg.de/87/), [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181))
+* {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Vector bundles and homogeneous spaces_, Proc. Sympos. Pure Math. **III**, American Mathematical Society (1961) 7-38 &lbrack;<a href="https://doi.org/10.1142/9789814401319_0008">doi:10.1142/9789814401319_0008</a>, [web](http://hirzebruch.mpim-bonn.mpg.de/87/), [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181)&rbrack;
 
 
 Early lecture notes:
 
-*  {#Atiyah67}  [[Michael Atiyah]], *K-theory*, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin 1967 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf), [[AtiyahKTheory.pdf:file]])
+*  {#Atiyah67}  [[Michael Atiyah]], *K-theory*, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin (1967) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf), [[AtiyahKTheory.pdf:file]]&rbrack;
 
 * [[Raoul Bott]], *Lectures on $K(X)$*, Benjamin (1969) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/bottk.pdf), [[Bott-KTheory.pdf:file]]&rbrack;
 
@@ -2753,9 +2753,9 @@ Representable K-theory over non-compact spaces was considered in
 
 * {#Karoubi70} [[Max Karoubi]], _Espaces Classifiants en K-Th&#233;orie_, Transactions of the American Mathematical Society Vol. 147, No. 1 (Jan., 1970), pp. 75-115  ([jstor](http://www.jstor.org/stable/1995218))
 
-and (over [[classifying spaces]] in the context of [[equivariant K-theory]]) in
+and (over [[classifying spaces]] in the context of [[equivariant K-theory]]) in:
 
-* {#SegalAtiyah69} [[Graeme Segal]], [[Michael Atiyah]], section 4 of _Equivariant K-theory and completion_, J. Differential Geometry 3 (1969), 1&#8211;18. MR 0259946 
+* {#SegalAtiyah69} [[Graeme Segal]], [[Michael Atiyah]], section 4 of: _Equivariant K-theory and completion_, J. Differential Geometry **3** (1969) 1-18 &lbrack;MR 0259946&rbrack; 
 
 
 Early lecture notes on topological K-theory in a general context of [[stable homotopy theory]] and [[generalized cohomology theory]] includes
@@ -2765,18 +2765,17 @@ Early lecture notes on topological K-theory in a general context of [[stable hom
 Textbook accounts:
 
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
-
   > (in view of [[U-bordism theory]] and the [[e-invariant]])
 
 * {#Switzer75} [[Robert Switzer]], sections 11 and 13.90 of: _Algebraic Topology - Homotopy and Homology_, Grundlehren **212** Springer (1975) &lbrack;[doi:10.1007/978-3-642-61923-6_12](https://doi.org/10.1007/978-3-642-61923-6_12)&rbrack;
 
-* {#Karoubi} [[Max Karoubi]], _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften 226, Springer 1978 ([pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3))
+* {#Karoubi} [[Max Karoubi]], _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3)&rbrack;
 
 * {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_, 2003/2009 ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
 * [[Dai Tamaki]], [[Akira Kono]], Section 4.1 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
 
-Further introductions include
+Further introductions:
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
 
