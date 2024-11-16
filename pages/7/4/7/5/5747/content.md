@@ -107,6 +107,14 @@ The [[nerve]] of a [[semicategory]] is a semi-simplicial set (satisfying the [[S
 
 There is a _[[model structure on semi-simplicial sets]]_, [[transferred model structure|transferred]] along the [[right adjoint]] to the [[forgetful functor]] from the [[model structure on simplicial sets]].
 
+### The lattice of subtoposes
+
+Since the maps in $\Delta_+$ are all strictly monotone, any object $[n]$ receives only (finitely many) morphisms from objects $[m]$ with $m\leq n$ whence all [[slice category|slices]] $\Delta_+/[n]$ are [[finite category|finite]]. This is sufficient for all [[Grothendieck topology|Grothendieck topologies]] on $\Delta_+$ to be [[rigid topology|rigid]] whence all subtoposes of $Set^{\Delta_+^{op}}$ are [[level of a topos|essential]] and of [[presheaf topos|presheaf type]] and their lattice is isomorphic to the lattice of [[Cauchy-complete category|Cauchy-complete]] [[full subcategory|full subcategories]] of $\Delta_+$.
+
+This situation is familiar from $\Delta$ but in the latter case there are fewer Cauchy-complete subcategories available, since an object $[n]$ having non-trivial idempotents its inclusion automatically requires the presence of all $[m]$ with $m\,$<$\,n$ in the subcategory whence there a countably many subtoposes corresponding to the $n$-truncated subcategories on the objects $[0],\dots ,[n]$ (plus the two trivial subcategories).
+
+For further details on the [[Lawvere-Tierney topology|Lawvere-Tierney topologies]], [[closure operator|closure operators]] and [[sheaf|sheaves]] involved in both cases see [Rosset-Hansen-Endrullis (2024)](#RHE24).
+
 ## Related concepts
 
 * [[simplicial object]]
