@@ -400,17 +400,17 @@ school/conference in Leiden: Frobenius lifts and lambda rings 5-10. October 2009
 
 The $\lambda$-ring structure on [[equivariant elliptic cohomology]] is due to
 
-* {#Ganter07} [[Nora Ganter]], _Stringy power operations in Tate K-theory_, Homology, Homotopy, Appl., 2013; arXiv:math/0701565
+* {#Ganter07} [[Nora Ganter]], _Stringy power operations in Tate K-theory_, Homology, Homotopy, Appl., 2013, &lbrack;[arXiv:math/0701565](https://arxiv.org/abs/math/0701565)&rbrack;
 
 
-* {#Ganter13} [[Nora Ganter]], Power operations in orbifold Tate K-theory"; arXiv:1301.2754
+* {#Ganter13} [[Nora Ganter]], _Power operations in orbifold Tate K-theory_ &lbrack;[arXiv:1301.2754](https://arxiv.org/abs/1301.2754)&rbrack;
 
 Discussion in the context of [[Borger's absolute geometry]] is in
 
 * {#Borger08} [[James Borger]], section 1 of _The basic geometry of Witt vectors, I: The affine case_ ([arXiv:0801.1691](http://arxiv.org/abs/0801.1691))
 
 
-* {#Borger09} [[James Borger]], _Lambda-rings and the field with one element_ ([arXiv/0906.3146](http://arxiv.org/abs/0906.3146))
+* {#Borger09} [[James Borger]], _Lambda-rings and the field with one element_ ([arXiv:0906.3146](http://arxiv.org/abs/0906.3146))
 
 
 [[!redirects Lambda-ring]]
