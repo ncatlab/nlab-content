@@ -13,7 +13,7 @@
 
 ## Idea
 
-An **enhanced 2-category** (or **$\mathcal{F}$-category**) is like a [[2-category]], but with two types of 1-morphism, one of which we think of as "stricter" than the other.  The stricter morphisms are called **tight** and the less strict ones are called **loose**.
+An **enhanced 2-category** (or **$\mathcal{F}$-category**) is like a [[2-category]], but with two types of [[1-morphisms]], one of which we think of as "stricter" than the other.  The stricter morphisms are called **tight** and the less strict ones are called **loose**.
 
 ## Definition
 
