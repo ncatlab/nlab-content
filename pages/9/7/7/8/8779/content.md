@@ -35,3 +35,5 @@ Under the standard [[linear representation]] of $U(1)$ on the [[complex numbers]
 
 [[!redirects circle principal bundles]]
 
+[[!redirects U(1)-principal bundle]]
+
