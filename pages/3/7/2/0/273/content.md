@@ -59,7 +59,7 @@ This begins with the observation that ([[reduced cohomology|reduced]]) [[ordinar
 \]
 This equivalence makes manifest the [characteristic properties](Whiethead-generalized+cohomology#AxiomsReduced) of cohomology: homotopy invariance, exactness and wedge property, since these are now immediately implied by general abstract properties of mapping spaces.
 
-Moreover, these EM-spaces are in fact [[loop spaces]] of each other, via weak homotopy equivalences
+Moreover, these EM-spaces are in fact [[loop spaces]] of each other, via [[weak homotopy equivalences]]
 \[
   \label{LoopingEquivOnEmSpaces}
   \sigma_n
@@ -136,12 +136,12 @@ While the suspension isomorphism is thus lost for non-abelian coefficients, the 
   \in\;
   \mathrm{Set}^{\ast/}
 \]
-still satisfies homotopy invariance, exactness and wedge property, just by the general properties of mapping spaces, and hence has all the characteristic properties of ordinary cohomology -- except for its abelian-ness.
+still satisfies homotopy invariance, exactness and wedge property, just as before by the general properties of mapping spaces, and hence has all the characteristic properties of ordinary cohomology -- except for its abelian-ness.
 Accordingly, (eq:OrdinaryNonAbelianCohomology) is known as *non-abelian cohomology*, famous from early applications in [[Chern-Weil theory]].
 
 \linebreak
 
-**Whitehead-generalized cohomology.** But if or as long as we do insist on abelian cohomology groups related by suspension isomorphisms, we may still immediately generalize ordinary cohomology in the form (eq:OrdinaryCohomologyRepresented), simply by using any other sequence of classifying spaces $(E_n)_{n=0}^\infty$, being successive loop spaces of each other as in (eq:LoopingEquivOnEmSpaces),
+**Whitehead-generalized cohomology.** If or as long as we do insist on abelian cohomology groups related by suspension isomorphisms, we may still immediately generalize ordinary cohomology in the form (eq:OrdinaryCohomologyRepresented), simply by using any other sequence of classifying spaces $(E_n)_{n=0}^\infty$, being successive loop spaces of each other as in (eq:LoopingEquivOnEmSpaces),
 $$
   \sigma_n \,:\,
     E_n
@@ -150,7 +150,7 @@ $$
     E_{n+1}
     \,,
 $$
-as such called a *[[sequential spectrum|sequential]] [[Omega-spectrum|$\Omega$-spectrum]] of spaces*, or just a *spectrum*, for short. The [[Brown representability theorem]] says that the resulting assignments
+as such called a *[[sequential spectrum|sequential]] [[Omega-spectrum|$\Omega$-spectrum]] of spaces*, or just a *[[spectrum]]*, for short. The [[Brown representability theorem]] says that the resulting assignments
 $$
   X
   \;\;
@@ -162,15 +162,15 @@ $$
   \,
   \mathrm{Maps}\big(
     X
-    ;\,
+    ,\,
     E_n
   \big)
 $$
-are equivalently the *[[Whitehead-generalized cohomology|generalized cohomology theories]]* as introduced by Whitehead, including examples such as [[K-theory]], [[elliptic cohomology]] and [[cobordism cohomology]].
+are equivalently the "[[Whitehead-generalized cohomology|generalized cohomology theories]]" as introduced by Whitehead, including examples such as [[K-theory]], [[elliptic cohomology]] and [[cobordism cohomology]].
 
 \linebreak
 
-**Non-abelian generalized cohomology.** But as we just saw, suspension isomorphisms are to be regarded as *extra* structure on cohomology. Not necessarily requiring them leads to consider *any pointed space* $\mathscr{A}$ as the classifying space of a non-abelian generalized cohomology theory, defined in evident generalization of (eq:OrdinaryNonAbelianCohomology) simply by
+**Non-abelian generalized cohomology.** But as we just saw, suspension isomorphisms are to be regarded as *[[extra structure|extra]]* [[structure]] on cohomology. Not necessarily requiring them leads to consider *any pointed space* $\mathscr{A}$ (which we may as well assume to be [[connected topological space|connected]]) as the classifying space of a *non-abelian generalized cohomology* theory, defined in evident generalization of (eq:OrdinaryNonAbelianCohomology) simply by
 \[
   \label{NonabelianCohomology}
   H^1\big(
@@ -190,10 +190,10 @@ are equivalently the *[[Whitehead-generalized cohomology|generalized cohomology 
   \big)
   \,.
 \]
-Here the notation on the left is suggestive of the fact that any loop space $\Omega \mathscr{A}$ canonically carries the structure of a higher homotopy-coherent group -- a groupal $A_\infty$-space or [[infinity-group|$\infty$-group]], for short --  whose de-looping [is equivalent](May+recognition+theorem#statement) to the connected component $\mathscr{A}_0$ of the original space:
+Here the notation on the left is suggestive of the fact that any loop space $\Omega \mathscr{A}$ canonically carries the structure of a higher homotopy-coherent group -- a groupal $A_\infty$-space or [[infinity-group|$\infty$-group]], for short --  whose de-looping [is equivalent](May+recognition+theorem#statement) to the connected component of the original space:
 \[
   \label{DeloopingEquivalence}
-  \mathscr{A}_0
+  \mathscr{A}
   \;\;
   \simeq
   \;\;
@@ -201,7 +201,7 @@ Here the notation on the left is suggestive of the fact that any loop space $\Om
   \,.
 \]
 
-For instance, in the archetypical case where
+For example, in the archetypical case where
 $\mathscr{A} \,\equiv\, S^n$ is the [[n-sphere|$n$-sphere]], then the non-abelian generalized cohomology theory that it classifies is known as (unstable) [[Cohomotopy]] $\pi^n$
 \[
   \label{Cohomotopy}
@@ -226,7 +226,7 @@ $\mathscr{A} \,\equiv\, S^n$ is the [[n-sphere|$n$-sphere]], then the non-abelia
   \pi^n(X)
   \,,
 \]
-in dual reference to the familar *homotopy* groups
+in dual reference to the familar *[[homotopy groups|homotopy]]* groups
 $$
   \pi_n(X)
   \;\;
@@ -242,7 +242,7 @@ $$
   \,.
 $$
 
-Another example of non-abelian generalized cohomology is [[unstable topological K-theory]], whose classifying spaces are taken to be finite stages $\mathrm{U}(n)$ of the sequential colimits which construct the classifying spaces of topological K-theory.
+Another example of non-abelian generalized cohomology is [[unstable topological K-theory]], whose classifying spaces are taken to be finite stages $\mathrm{U}(n)$ of the sequential colimits which construct the classifying spaces of [[topological K-theory]].
 
 ### Developing non-abelian cohomology
 
@@ -250,11 +250,11 @@ Fundamental, elementary and compelling as the notion of non-abelian generalized 
 The situation does not improve with the early development of "[[non-abelian gerbes]]", whose original description appears unwieldy. 
 
 Explicit acknowledgement of (stacky) non-abelian generalized cohomology  in the transparent guise (eq:NonabelianCohomology)
-appears only in a lecture of 2002 [Toen 2002](#Toen02), (possibly following [Simpson 2002](#Simpson02) where non-abelian generalization of [[de Rham cohomology]] is considered). 
+appears only in a lecture of [Toën 2002](#Toen02), (possibly following [Simpson 2002](#Simpson02) where non-abelian generalization of [[de Rham cohomology]] is considered). 
 
 Two independent developments around 2009 put non-abelian generalized cohomology into practical context: 
 
-* The discovery of [[nonabelian Poincaré duality]] ([Lurie 09 §3.8](nonabelian+Poincaré+duality#Lurie09)), relating non-abelian cohomology (later made explicit in [Lurie 2014 Def. 6](#Lurie14)) of manifolds  to "non-abelian homology" in the guise of "[[topological chiral homology]]" (which, in contrast to non-abelian cohomology, takes work to define); 
+* The discovery of [[nonabelian Poincaré duality]] ([Lurie 2009 §3.8](nonabelian+Poincaré+duality#Lurie09)), relating non-abelian cohomology (as later made explicit in [Lurie 2014 Def. 6](#Lurie14)) of manifolds  to "non-abelian *homology*" in the guise of "[[topological chiral homology]]" (which, in contrast to non-abelian cohomology, takes work to define); 
 
 * The observation in theoretical physics ([SS 2008](#SS08), [Sc 2009](#Schreiber09)) that [[geometry of physics -- flux quantization|charge/flux-quantization laws]] for [[higher gauge fields]] are generally in non-abelian cohomology.
 
@@ -262,7 +262,7 @@ Two independent developments around 2009 put non-abelian generalized cohomology 
 
 With non-abelian generalized cohomology thus recognized as a worthwhile subject, one is led to generalize familiar constructions in abelian cohomology, as far as possible, and to explore the consequences.
 
-First, one may straightforwardly equip non-abelian cohomology with further attributes: Considering the right hand side of (eq:NonabelianCohomology) not just for plain spaces but for sheaves of spaces ([[infinity-stack|higher stacks]]) leads to non-abelian generalized sheaf cohomology, including, in particular, non-abelian generalized versions of [[twisted cohomology]] and of [[equivariant cohomology]].
+First, one may straightforwardly equip non-abelian cohomology with further attributes: Considering the right hand side of (eq:NonabelianCohomology) not just for plain spaces but for sheaves of spaces ([[infinity-stack|higher stacks]]) leads to non-abelian generalized sheaf cohomology, including, in particular, non-abelian generalized versions of [[twisted cohomology]], of [[equivariant cohomology]] and [[nonabelian differential cohomology]].
 
 \linebreak
 
@@ -318,7 +318,7 @@ This works generally: If all spaces here are *in addition* equipped with $G$-act
 
 **The non-abelian character.**
 One famous construction on abelian cohomology is the *[[Chern-Dold character map]]* to [[de Rham cohomology]], which in the case of [[topological K-theory|K-cohomology]] becomes the familar [[Chern character]] (and which on ordinary cohomology is essentially just the [[de Rham theorem]]). 
-One may think of the Chern-Dold character as universally extracting the [[torsion subgroup|non-torsion]] data in the [[cohomology groups]]. 
+One may think of the Chern-Dold character as universally extracting the [[torsion subgroup|non-torsion]] data of cohomology. 
 Its generalization to non-abelian cohomology was developed in [FSS23](#FSS23): 
 
 Observing that the Chern-Dold character is essentially just the [[cohomology operation]] induced by  *[[rationalization]]* of the [[classifying space]], 
@@ -331,7 +331,7 @@ $$
   }    
   L^{\!\mathbb{Q}}\mathscr{A}
 $$
-as such it makes sense in the generality of non-abelian classifying spaces (immediately so under mild technical assumptions, such as [[nilpotent topological space|nilpotency]], but with more work also more generally). In view of this, the [[fundamental theorem of dg-algebraic rational homotopy theory]] may be re-cast as a *non-abelian de Rham theorem* which identifies, over smooth manifolds $X$, the resulting non-abelian rational cohomology with the [[concordance classes]] of flat differential forms having coefficients in the real [[Whitehead algebra|Whitehead-bracket $L_\infty$-algebra]] $\mathfrak{l}\mathscr{A}$ of the classifying space:
+as such it makes sense in the generality of non-abelian classifying spaces (immediately so under mild technical assumptions, such as [[nilpotent topological space|nilpotency]], but with more work also more generally). In view of this, the [[fundamental theorem of dg-algebraic rational homotopy theory]] may be re-cast as a *[[non-abelian de Rham theorem]]* which identifies, over smooth manifolds $X$, the resulting non-abelian rational cohomology with the [[concordance classes]] of [[flat L-infinity algebra valued differential form|flat differential forms having coefficients]] in the real [[Whitehead algebra|Whitehead-bracket $L_\infty$-algebra]] $\mathfrak{l}\mathscr{A}$ of the classifying space:
 
 \begin{imagefromfile}
     "file_name": "NonabelianCharacterMap.jpg",
@@ -345,7 +345,7 @@ as such it makes sense in the generality of non-abelian classifying spaces (imme
     }
 \end{imagefromfile}
 
-Since generalized cohomology theories are typically hard to analyze, in particular non-abelian ones, this character map may be regarded as extracting the first non-trivial stage of more tractable invariants. For instance, the character of a non-abelian class is the first obstruction to a trivialization of that class.
+Since generalized cohomology theories are typically hard to analyze, in particular non-abelian ones, this character map may be regarded as extracting the first non-trivial stage of more tractable invariants. For instance, the character of a non-abelian class is the first [[obstruction]] to the trivialization of that class.
 
 In the mentioned application to physics, the [[flux densities]] of a [[higher gauge field]] are sourced by charges which appear as classes in [[non-abelian de Rham cohomology]] on the right, and the completion of the higher gauge theory by a [[geometry of physics -- flux quantization|flux-quantization law]] means to lift these charges through the character map to classes in a chosen non-abelian cohomology theory on the left.
 
