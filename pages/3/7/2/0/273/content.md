@@ -108,7 +108,7 @@ $$
 
 **Ordinary non-abelian cohomology.**
 Note here that it is the loop space property \eqref{LoopingEquivOnEmSpaces}, and hence the corresponding [[suspension isomorphism]], which reflect the fact that the coefficient $A$ has been assumed to be an *abelian* group:
-For a non-abelian group $G$, an Eilenberg-MacLane space $K(G, 1) \,\simeq\, B G$ still exists, but is *not a loop space*.
+For a non-abelian group $G$, an Eilenberg-MacLane space $K(G, 1) \,\simeq\, B G$ still exists (cf. *[[classifying space]]*), but is *not a loop space*.
 
 While the suspension isomorphism is thus lost for non-abelian coefficients, the assignment
 \[
@@ -137,7 +137,7 @@ While the suspension isomorphism is thus lost for non-abelian coefficients, the 
   \mathrm{Set}^{\ast/}
 \]
 still satisfies homotopy invariance, exactness and wedge property, just by the general properties of mapping spaces, and hence has all the characteristic properties of ordinary cohomology -- except for its abelian-ness.
-Accordingly, (eq:OrdinaryNonAbelianCohomology) is known as *non-abelian cohomology, famous from early applications in [[Chern-Weil theory]].
+Accordingly, (eq:OrdinaryNonAbelianCohomology) is known as *non-abelian cohomology*, famous from early applications in [[Chern-Weil theory]].
 
 \linebreak
 
@@ -146,6 +146,7 @@ $$
   \sigma_n \,:\,
     E_n
     \xrightarrow{\; \sim \;}
+    \Omega
     E_{n+1}
     \,,
 $$
