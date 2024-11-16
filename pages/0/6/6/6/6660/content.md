@@ -70,6 +70,29 @@ In general, a weighted limit of such a diagram in a (strict) $\mathcal{F}$-categ
 
 One of the most important things about $\mathcal{F}$-categories is that they allow us to define the classes of [[rigged limits]], which are the $\mathcal{F}$-weighted limits that are [[created limit|created]] by the forgetful functors from the various $\mathcal{F}$-categories of algebras and strict/pseudo/lax/colax morphisms over a 2-monad (or an $\mathcal{F}$-monad).
 
+## Properties of $\mathcal{F}$
+
+As mentioned above, the [[base of enrichment]] $\mathcal{F}$ is well behaved. For instance, it is [[cartesian closed]] and [[locally finitely presentable category|locally finitely presentable]] (hence [[complete category|complete]] and [[cocomplete category|cocomplete]]). Cartesian closure is proven in [Lack and Shulman](#LS); we establish local finite presentability below.
+
+\begin{proposition}
+	$\mathcal{F}$ is locally finitely presentable.
+\end{proposition}
+
+\begin{proof}
+	Since $\mathbb{CAT}^\to$ is locally finitely presentable, to show that $\mathcal{F}$ is locally finitely presentable, it suffices by Theorem 1.39 of [[Locally Presentable and Accessible Categories]] to show that $\mathcal{F}$ is a [[orthogonal subcategory problem|finite orthogonality class]] in $\mathbb{CAT}^\to$. First, note that, for any category $\mathbb{C}$, a morphism $m \colon X \to Y$ is orthogonal in $\mathbb{C}$ to a morphism $e \colon A \to B$ if and only if $m$ is orthogonal, as an object in $\mathbb{C}^\to$, to the following square.
+	\begin{tikzcd}
+		A & B \\
+		B & B
+		\arrow["e", from=1-1, to=1-2]
+		\arrow["e"', from=1-1, to=2-1]
+		\arrow["{1_B}", from=1-2, to=2-2]
+		\arrow["{1_B}"', from=2-1, to=2-2]
+	\end{tikzcd}
+	It remains to observe that injectivity-on-objects and full faithfulness are both properties of functors captured by orthogonality in $\mathbb{CAT}$.
+    - A functor is injective-on-objects if and only if it is orthogonal to the unique functor $\{ * \quad *' \} \to \{ * \}$.
+    - A functor is fully faithful if and only if it is orthogonal to the unique identity-on-objects functor $\{ * \quad *' \} \to \{ * \to *' \}$.
+\end{proof}
+
 ## Related pages
 
 * [[rigged limit]]
