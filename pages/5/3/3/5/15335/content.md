@@ -1,3 +1,7 @@
+\tableofcontents
+
+## Definition
+
 Let $SemiLat$ be the category of meet-[[semilattices]] (i.e., [[posets]] admitting finite meets); equivalently, the category of idempotent commutative monoids. Regarding [[Sierpinski space]] $\mathbf{2} = \{0 \leq 1\}$ ambimorphically either as a [[topological space]] or as a meet-semilattice, i.e., an internal idempotent commutative monoid in $Top$ seen as a [[dualizing object]], there is a pair of [[adjoint functors]] given by homming into $\mathbf{2}$, 
 
 $$Top \stackrel{Top(-, \mathbf{2})^{op}}{\to} SemiLat^{op} \;\; \dashv \;\; SemiLat^{op} \stackrel{SemiLat(-, \mathbf{2})}{\to} Top.$$ 
@@ -27,3 +31,7 @@ already $\mathcal{U} \in \Phi$, we see $\{F \in Filt(X): U \in F\} \in \Phi$ by 
 
 To see $\mu_X(\Phi) \subseteq \bigcup \{\bigcap \mathcal{U}: \mathcal{U} \in \Phi\}$, suppose $U \in \mu_X(\Phi)$, and then put $\mathcal{U}' = \{F: Filt(X)\; |\; U \in F\}$. Then $\mathcal{U}' \in \Phi$, and $U \in \bigcap \mathcal{U}'$ by definition, so $U \in \bigcup \{\bigcap \mathcal{U}: \mathcal{U} \in \Phi\}$. 
 =-- 
+
+## Related concepts
+
+* [[filter]]
