@@ -41,5 +41,26 @@ The [[isomorphisms]] between preconverence spaces $S$ and $T$ are the [[bijectio
 * [[sequential preconvergence space]]
 * [[convergence space]]
 
+## References
+
+There are a number of different concepts of a "preconvergence space" in the existing mathematical literature on convergence theory, which all differ from the given definition above. 
+
+There is the notion of preconvergence space as a generalisation of [[convergence spaces]] and [[filter spaces]], but this notion of preconvergence space has an additional isotone condition that is also found in convergence spaces and filter spaces, but not in the given definition above: 
+
+* Dolecki, Szymon; Mynard, Frédéric (2016). *Convergence Foundations Of Topology*. New Jersey: World Scientific Publishing Company. ISBN 978-981-4571-52-4. [OCLC](https://en.wikipedia.org/wiki/OCLC_(identifier)) [945169917](https://search.worldcat.org/oclc/945169917).
+
+* Dolecki, Szymon (2009). Mynard, Frédéric; Pearl, Elliott (eds.). "An initiation into convergence theory". *Beyond Topology*. Contemporary Mathematics Series A.M.S. **486**: 115–162. ([pdf](http://dolecki.perso.math.cnrs.fr/init_IX07.pdf))
+
+* Dolecki, Szymon; Mynard, Frédéric (2014). "A unified theory of function spaces and hyperspaces: local properties". *Houston J. Math*. **40** (1): 285–318. ([pdf](http://dolecki.perso.math.cnrs.fr/18dolecki.pdf))
+
+In the literature about uniform convergence, there is also the notion of preconvergence space as a specific kind of preuniform convergence space: 
+
+* Preuß, Gerhard. “Non-symmetric convenient topology and its relations to convenient topology.” Topology
+Proceedings, Volume 29, No.2, 2005, Pages 595-611, [pdf](https://topology.nipissingu.ca/tp/reprints/v29/tp29216.pdf). 
+
+* Fang, Jinming. “Lattice-valued preuniform convergence spaces.” Fuzzy Sets and Systems, vol. 251, Sept. 2014, pp. 52–70, [doi:10.1016/j.fss.2013.11.010](https://doi.org/10.1016/j.fss.2013.11.010). 
+
+* Preuß, Gerhard. “Prefilter spaces and a precompletion of preuniform convergence spaces related to some well-known completions.” Topology and Its Applications, vol. 156, no. 12, July 2009, pp. 2005–2012, [doi:10.1016/j.topol.2009.03.026](https://doi.org/10.1016/j.topol.2009.03.026). 
+
 [[!redirects preconvergence space]]
 [[!redirects preconvergence spaces]]
