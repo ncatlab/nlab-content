@@ -45,6 +45,11 @@ A **$\sigma$-complete Boolean algebra** is a [[Boolean algebra]] which is also a
 
 * [[measure space]]
 
+## References
+
+* [[Thierry Coquand]], [[Jonas Höfer]], [[Hugo
+Moeneclaey]], *Model for Synthetic Stone Duality* ([draft pdf](https://felix-cherubini.de/condensed-sheaves.pdf))
+
 [[!redirects sigma-complete Boolean algebra]]
 [[!redirects sigma-complete Boolean algebras]]
 
