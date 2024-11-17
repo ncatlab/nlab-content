@@ -215,7 +215,7 @@ Discussion in [[toposes]] is in
 
 * {#McLarty} [[Colin McLarty]], section 17.6 of _Elementary Categories, Elementary Toposes_
 
-* {#ConsequencesDatabase} The [Consequences of the Axiom of Choice Project](http://consequences.emich.edu/conseq.htm) provides an interactive data base that can be used to search for implications between various (weakened) forms of the Axiom of Choice. [Choiceless grapher](http://cgraph.inters.co/) builds on this data and provides a graphical presentation.
+* {#ConsequencesDatabase} The [Consequences of the Axiom of Choice Project](http://consequences.emich.edu/conseq.htm) provides an interactive data base that can be used to search for implications between various (weakened) forms of the Axiom of Choice. [Choiceless grapher](http://cgraph.inters.co/) (cf. [github.com/ioannad/jeffrey](https://github.com/ioannad/jeffrey)) builds on this data and provides a graphical presentation.
 
 * Gon&#231;alo Gutierres da Concei&#231;&#227;o, _The Axiom of Countable Choice in Topology_, [pdf](http://www.mat.uc.pt/~ggutc/teses/teseingles.pdf)
 
