@@ -38,6 +38,9 @@ Arguments realizing [[anyon|anyonic]] [[topological order]] in the [[worldvolume
 
 * Gil Young Cho, [[Dongmin Gang]], Hee-Cheol Kim: *M-theoretic Genesis of Topological Phases*, J. High Energ. Phys. **2020** 115 (2020) \[<a href="https://arxiv.org/abs/2007.01532">arXiv:2007.01532</a>, <a href=" https://doi.org/10.1007/JHEP11(2020)115">doi:10.1007/JHEP11(2020)115</a>\]
 
+* Sunjin Choi, [[Dongmin Gang]], Hee-Cheol Kim: *Infrared phases of 3D Class R theories*,  J. High Energ. Phys. **2022** 151 (2022) \[<a href="https://doi.org/10.1007/JHEP11(2022)151">doi:10.1007/JHEP11(2022)151</a>, [arXiv:2206.11982](https://arxiv.org/abs/2206.11982)\]
+
+
 On [[small N corrections]] in [[ABJM theory]] and [[higher curvature corrections]] in the [[AdS/CFT duality|AdS/CFT dual]] [[D=4 supergravity]]:
 
 * [[Nikolay Bobev]], Anthony M. Charles, Dongmin Gang, [[Kiril Hristov]], Valentin Reys, *Higher-Derivative Supergravity, Wrapped M5-branes, and Theories of Class $\mathcal{R}$*,  J. High Energ. Phys. **2021** 58 (2021) \[<a href="https://doi.org/10.1007/JHEP04(2021)058">doi:10.1007/JHEP04(2021)058</a>, [arXiv:2011.05971](https://arxiv.org/abs/2011.05971)\]
