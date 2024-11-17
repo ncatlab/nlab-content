@@ -347,7 +347,12 @@ as such it makes sense in the generality of non-abelian classifying spaces (imme
 
 Since generalized cohomology theories are typically hard to analyze, in particular non-abelian ones, this character map may be regarded as extracting the first non-trivial stage of more tractable invariants. For instance, the character of a non-abelian class is the first [[obstruction]] to the trivialization of that class.
 
+\linebreak
+
+**Nonabelian cohomology and gauge fields.**
 In the mentioned application to physics, the [[flux densities]] of a [[higher gauge field]] are sourced by charges which appear as classes in [[non-abelian de Rham cohomology]] on the right, and the completion of the higher gauge theory by a [[geometry of physics -- flux quantization|flux-quantization law]] means to lift these charges through the character map to classes in a chosen non-abelian cohomology theory on the left.
+
+[[!include cohomology and gauge fields -- table]]
 
 \linebreak
 
