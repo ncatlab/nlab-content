@@ -68,7 +68,12 @@ Via [[KK-compactification]] on [[closed manifold|closed]] [[3-manifolds]] ([[Sei
 
 * [[Shawn X. Cui]], [[Yang Qiu]], [[Zhenghan Wang]], *From Three Dimensional Manifolds to Modular Tensor Categories*, Commun. Math. Phys. **397** (2023) 1191–1235 \[<a href="https://doi.org/10.1007/s00220-022-04517-4">doi:10.1007/s00220-022-04517-4</a>, [arXiv:2101.01674](https://arxiv.org/abs/2101.01674)\]
 
+* Sunjin Choi, [[Dongmin Gang]], Hee-Cheol Kim: *Infrared phases of 3D Class R theories*,  J. High Energ. Phys. **2022** 151 (2022) \[<a href="https://doi.org/10.1007/JHEP11(2022)151">doi:10.1007/JHEP11(2022)151</a>, [arXiv:2206.11982](https://arxiv.org/abs/2206.11982)\]
+
+
 * [[Federico Bonetti]], [[Sakura Schäfer-Nameki]], Jingxiang Wu, *$MTC[M_3,G]$: 3d Topological Order Labeled by Seifert Manifolds* \[<a href="https://arxiv.org/abs/2403.03973">arXiv:2403.03973</a>\]
+
+
 
 
 Via [[3-brane in 6d|3-brane]] [[defect branes|defects]]:
