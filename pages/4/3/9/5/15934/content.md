@@ -23,7 +23,7 @@ A _Seifert 3-manifold_ is a [[3-manifold]] which is the total space of a [[circl
 
 ## References
 
-## General
+### General
 
 See also:
 
