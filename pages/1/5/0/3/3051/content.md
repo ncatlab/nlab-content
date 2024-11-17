@@ -73,6 +73,7 @@ See also:
 
 * J. Bénabou, _Théories relatives &#224; un corpus_, C. R. Acad. Sci. Paris **281** S&#233;rie A (1975) 831-834. &lbrack;[gallica](http://gallica.bnf.fr/ark:/12148/bpt6k6228235m/f105.image#)&rbrack;
 
+* [Scattered Notes on Benabouian Questions](https://www2.mathematik.tu-darmstadt.de/~streicher/BeNo.pdf), recorded by [[Thomas Streicher]]
 
 
 ## Related entries
