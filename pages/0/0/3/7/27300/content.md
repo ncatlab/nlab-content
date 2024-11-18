@@ -43,7 +43,7 @@ According to the [category theory Zulip](#CTZulip), these structures are equival
 
 Some discussion about this mathematical structure happened on the category theory Zulip in: 
 
-* {#CTZulip} *One Space to Rule Them All?*, Category Theory Zulip. ([web](https://categorytheory.zulipchat.com/#narrow/channel/229199-learning.3A-questions/topic/One.20Space.20to.20Rule.20Them.20All.3F))
+* {#CTZulip} *One Space to Rule Them All?*, Category Theory Zulip. ([web](https://categorytheory.zulipchat.com/#narrow/channel/229199-learning.3A-questions/topic/One.20Space.20to.20Rule.20Them.20All.3F/near/482905446))
 
 [[!redirects generalised filter space]]
 [[!redirects generalised filter spaces]]
