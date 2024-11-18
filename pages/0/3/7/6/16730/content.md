@@ -31,6 +31,11 @@ The morphisms of filter spaces are the [[continuous functions]]; a function $f$ 
 
 A filter space that satisfies an additional directedness criterion is precisely a [[convergence space]]; see there for a variety of intermediate notions leading up to ordinary [[topological spaces]].
 
+## Related concepts
+
+* [[preconvergence space]]
+
+* [[convergence space]]
 
 ## References
 
