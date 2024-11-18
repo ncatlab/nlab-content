@@ -349,7 +349,7 @@ Since generalized cohomology theories are typically hard to analyze, in particul
 
 \linebreak
 
-**Nonabelian cohomology and gauge fields.**
+{#NACGauge} **Nonabelian cohomology and gauge fields.**
 In the mentioned application to physics, the [[flux densities]] of a [[higher gauge field]] are sourced by charges which appear as classes in [[non-abelian de Rham cohomology]] on the right, and the completion of the higher gauge theory by a [[geometry of physics -- flux quantization|flux-quantization law]] means to lift these charges through the character map to classes in a chosen non-abelian cohomology theory on the left.
 
 [[!include cohomology and gauge fields -- table]]
