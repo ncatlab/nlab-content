@@ -34,7 +34,13 @@ On [[orbifolds]] regarded as geometric local quotient [[diffeological spaces]]:
 
 On the [[moment map]] in [[diffeology]]:
 
-* {#IZ10} [[Patrick Iglesias-Zemmour]], *The moment map in diffeology*, Memoirs of the American Mathematical Society (2010) $[$[web](http://math.huji.ac.il/~piz/Site/The%20Articles/084469EE-D890-4CAA-8A13-1C655A76CF63.html), [ISBN: 978-1-4704-0586-1](https://bookstore.ams.org/memo-207-972)$]$
+* {#IZ10} [[Patrick Iglesias-Zemmour]], *The moment map in diffeology*, Memoirs of the American Mathematical Society (2010) &lbrack;[web](http://math.huji.ac.il/~piz/Site/The%20Articles/084469EE-D890-4CAA-8A13-1C655A76CF63.html), [ISBN: 978-1-4704-0586-1](https://bookstore.ams.org/memo-207-972)&rbrack;
+
+On [[Seifert manifolds]] and the corresponding [[orbifolds]] via [[diffeological spaces]]:
+
+* [[Patrick Iglesias-Zemmour]], Jean-Paul Mohsen: *Seifert Orbifolds* (2015) &lbrack;[pdf](http://math.huji.ac.il/~piz/documents/DBlog-Rmk-SeifO.pdf), [[IglesiasZemmour-Mohsen-SeifertOrbifolds.pdf:file]]&rbrack;
+
+
 
 On [[manifolds with boundaries and corners]] as [[diffeological spaces]], and on [[differential forms]] on these:
 
