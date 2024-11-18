@@ -39,7 +39,7 @@ the group structure carries over to $B O(n)$.
 
 ## Smallest classifying space
 
-The smallest classifying space $B O(1)$ is the [[infinite real projective space]] $\mathbb{R}P^\infty$. It is also a [[Eilenberg--MacLane space]] $K(\mathbb{Z}_2,1)$, hence $U(1)$ [[principal bundles]] over a space are classified by its first [[cohomology]] in the [[field]] $\mathbb{Z}_2$ of two elements:
+The smallest classifying space $B O(1)$ is the [[infinite real projective space]] $\mathbb{R}P^\infty$. It is also a [[Eilenberg--MacLane space]] $K(\mathbb{Z}_2,1)$, hence $O(1)$ [[principal bundles]] over a space are classified by its first [[cohomology]] in the [[field]] $\mathbb{Z}_2$ of two elements:
 $$
 Prin_{O(1)}(X)
 =[X,B O(1)]
@@ -47,7 +47,7 @@ Prin_{O(1)}(X)
 =[X,K(\mathbb{Z}_2,1)]
 \cong H^1(X;\mathbb{Z}_2)
 $$
-Higher classifying spaces are not necessarily [[Eilenberg-MacLane spaces]], but [[continuous maps]] into them are possible, giving the idea behind [[characteristic classes]]. But they are defined for [[vector bundles]], which can be constructed from [[principal bundles]] using the [[balanced product]] $Prin_{O(n)}(X)\rightarrow Vect_\mathbb{R}^n(X),E\mapsto E\times_{O(n)}\mathbb{R}^n$.
+Higher classifying spaces are not necessarily [[Eilenberg-MacLane spaces]], but [[continuous maps]] into them are possible, giving the idea behind [[characteristic classes]]. But they are defined for associated [[vector bundles]], which can be constructed from [[principal bundles]] using the [[balanced product]] $Prin_{O(n)}(X)\rightarrow Vect_\mathbb{R}^n(X),E\mapsto E\times_{O(n)}\mathbb{R}^n$.
 
 ## Cohomology
 
