@@ -9,25 +9,52 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Definition
 
-A _Seifert 3-manifold_ is a [[3-manifold]] which is the total space of a [[circle bundle]] over a 2-dimensional [[orbifold]].
+A _Seifert 3-manifold_ is a [[3-manifold]] which is the total space of a [[circle]]-[[fiber bundle]] ([[circle bundle]]) over a 2-dimensional [[orbifold]]. Since the circle-fibration [[structure]] may not be unique one also speaks more explicitly of *Seifert-fibered manifolds* or *Seifert fibrations*.
+
+If already the total space is a 3-orbifold, one correspondingly speaks of a *Seifert orbifold* etc. (e.g. [Mecchia & Seppi 2020 Def. 2.6](#MecchiaSeppi20)).
+
 
 ## Related concepts
 
 * [[lens space]]
 
+
 ## References
 
-### General
+### Seifert 3-manifolds
+
+The original article:
+
+* [[Herbert Seifert]]: *Topology of 3-dimensional fibered spaces*, in: *A textbook of topology*, Pure Appl. Math. **89**, Academic Press (1980) 139–152 &lbrack;[pdf](https://www.math.csi.cuny.edu/abhijit/k3m/Seifert-FiberedSpaces-english.pdf)&rbrack;
+
+Discussion via [[diffeological spaces]]:
+
+* [[Patrick Iglesias-Zemmour]], Jean-Paul Mohsen: *Seifert Orbifolds* (2015) &lbrack;[pdf](http://math.huji.ac.il/~piz/documents/DBlog-Rmk-SeifO.pdf), [[IglesiasZemmour-Mohsen-SeifertOrbifolds.pdf:file]]&rbrack;
 
 See also:
 
 * Wikipedia, _[Seifert fiber space](http://en.wikipedia.org/wiki/Seifert_fiber_space)_
+
+
+
+### Seifert 3-orbifolds
+
+Generalization to the case that already the total space is an [[orbifold]] (not just its $S^1$-quotient):
+
+* [[Francis Bonahon]], [[Laurent C. Siebenmann]]: *The classification of Seifert fibred 3-orbifolds*, in: *Low Dimensional Topology*, Cambridge University Press (2010) 19-85 &lbrack;[doi:10.1017/CBO9780511662744.002]( https://doi.org/10.1017/CBO9780511662744.002)&rbrack;
+
+See also:
+
+* {#MecchiaSeppi20} Mattia Mecchia, Andrea Seppi: *On the diffeomorphism type of Seifert fibered spherical 3-orbifolds*, Rend. Istit. Mat. Univ. Trieste **52** (2020) 1-39 &lbrack;[arXiv:2005.12023](https://arxiv.org/abs/2005.12023), [doi:10.13137/2464-8728/30920](https://doi.org/10.13137/2464-8728/30920)&rbrack;
+
+
 
 ### In field theory
 
@@ -53,5 +80,11 @@ Claim of a relation between Seifert manifolds and [[topological order]]:
 
 [[!redirects Seifert fiber space]]
 [[!redirects Seifert fiber spaces]]
+
+[[!redirects Seifert orbifold]]
+[[!redirects Seifert orbifolds]]
+
+[[!redirects Seifert 3-orbifold]]
+[[!redirects Seifert 3-orbifolds]]
 
 
