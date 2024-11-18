@@ -1,4 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+
 #Contents#
 * table of contents
 {:toc}
