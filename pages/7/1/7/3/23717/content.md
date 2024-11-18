@@ -82,11 +82,11 @@ $$isPointwiseContinuous(f) \coloneqq \forall c \in X. isContinuousAt(f, c)$$
 
 =--
 
-+-- {: .num_defn #BetweenPreconvergenceSpaces}
++-- {: .num_defn #BetweenGeneralizedFilterSpaces}
 ###### Definition
-**(pointwise continuous function between preconvergence spaces)**
+**(pointwise continuous function between generalised filter spaces)**
 
-Let $(X, \mathcal{F}(X), \mathrm{isLimit}_X)$ and $(Y, \mathcal{F}(Y), \mathrm{isLimit}_Y)$ be [[preconvergence spaces]]. A function $f:X \to Y$ is __continuous at a point__ $c \in X$ if 
+Let $(X, \mathcal{F}(X), \mathrm{isLimit}_X)$ and $(Y, \mathcal{F}(Y), \mathrm{isLimit}_Y)$ be [[generalised filter spaces]]. A function $f:X \to Y$ is __continuous at a point__ $c \in X$ if 
  
 $$isContinuousAt(f, c) \coloneqq \forall F \in \mathcal{F}(X).\mathrm{isLimit}_X(F, c) \to \mathrm{isLimit}_Y(f(F), f(c)))$$
 
