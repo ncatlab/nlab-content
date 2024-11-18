@@ -113,7 +113,7 @@ Since the maps in $\Delta_+$ are all strictly monotone, any object $[n]$ receive
 
 This situation is familiar from $\Delta$ but in the latter case there are fewer Cauchy-complete subcategories available, since an object $[n]$ having non-trivial idempotents its inclusion automatically requires the presence of all $[m]$ with $m\,$<$\,n$ in the subcategory whence there are countably many subtoposes corresponding to the $n$-truncated subcategories on the objects $[0],\dots ,[n]$ (plus the two trivial subcategories).
 
-The [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] $j_w$ on $Set^{\Delta_+^{op}}$ are indexed by infinite words $w$ over the alphabet $\{0,1\}$. They are partially ordered by $j_w\leq j_v$ iff $w_i\leq v_i$ for all letter positions $i=0,1,2,\dots$, where (unsurprisingly) letter 0 counts as smaller than letter 1. The information contained in the $i$-th letter of $w$ is whether the [[closure operator]] corresponding to $j_w$ adds $i$-dimensional semi-simplices to subobjects ($w_i=1$) or not ($w_i=0$) e.g. $j_{111\dots}$ adds all semi-simplices of every dimension implying that the empty subobject is $j_{111\dots}$-dense in every object thereby preventing all non-terminal objects from being $j_{111\dots}$-sheaves i.e. $j_{111\dots}=j_max$ while $j_{000\dots}$ where no semi-simplex of any dimension is added and every presheaf is a $j_{000\dots}$-sheaf corresponds to $j_min$. A topology $j_w$ corresponds to a [[dense subtopos]] precisely when $w$ starts with 0.
+The [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] $j_w$ on $Set^{\Delta_+^{op}}$ are indexed by infinite words $w$ over the alphabet $\{0,1\}$. They are partially ordered by $j_w\leq j_z$ iff $w_i\leq z_i$ for all letter positions $i=0,1,2,\dots$, where (unsurprisingly) letter 0 counts as smaller than letter 1. The information contained in the $i$-th letter of $w$ is whether the [[closure operator]] corresponding to $j_w$ adds $i$-dimensional semi-simplices to subobjects ($w_i=1$) or not ($w_i=0$) e.g. $j_{111\dots}$ adds all semi-simplices of every dimension implying that the empty subobject is $j_{111\dots}$-dense in every object thereby preventing all non-terminal objects from being $j_{111\dots}$-sheaves i.e. $j_{111\dots}=j_max$ while $j_{000\dots}$ where no semi-simplex of any dimension is added and every presheaf is a $j_{000\dots}$-sheaf corresponds to $j_min$. A topology $j_w$ corresponds to a [[dense subtopos]] precisely when $w$ starts with 0.
 
 There is a countably infinite number of co-atoms $j_w$ where $w$ contains exactly one 0. These correspond to different copies of $Set$ induced by the inclusion of the one-morphism category on the objects $[n]$ in $\Delta_+$. In particular, the dense [[double negation]] copy $j_{\neg\neg}$ corresponds to $j_{0111\dots}$, the $j_{\neg\neg}$-sheaves consisting of semi-simplicial sets with an arbitrary set of $0$-semi-simplexes (= vertices) and exactly one $n$-semi-simplex in the higher dimensions for every configuration of $n$-1-semi-simplices which can bound an $n$-semi-simplex.
 
@@ -121,27 +121,16 @@ A topology $j_w$ restricts to a topology $j_w|_n$ on the n-truncation $\Delta_+|
 
 A similar description is available for the [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] $j_w$ on [[simplicial set|simplicial sets]] with the same interpretation of the letters but there $w$ has to start with a (possibly empty, possibly infinite) block of zeros expressing that the respective sheaf categories consists of $m$-truncated simplicial sets, where $m+1$ is the length of the block of zeros with which $w$ starts e.g. $j_{00111\dots}$ corresponds to the 1-truncation, the topos of [[reflexive graph|reflexive graphs]].
 
-In $Set^{\Delta_+^{op}}$ the topologies $j_w$ with $w=0^m111\dots,\quad m=0,\dots ,\infty$ correspond precisely to the [[open subtopos|open subtoposes]]. To see, this consider the [[terminal object]] 1 of $Set^{\Delta_+^{op}}$: in contrast to [[SSet]] where the degeneracies prevent this, we can truncate 1 at arbitrary dimensions by simply ommitting the higher dimensional semi-simplices. Hence there is a countably infinite number of non-trivial [[subterminal object|subterminal objects]] $U_n$ with $U_n([k])=\empty\, ,\, n+1\leq k$ around this time. By generalities, the corresponding [[open subtopos]] is equivalent to $Set^{\Delta_+^{op}}/U_n$ but clearly this is equivalent to the full subcategory of semi-simplicial sets $X$ with $X([k])=\empty\, ,\, n+1\leq k$. This is not a subtopos but the [[coreflective subcategory]] that comes with the [[level of a topos|level]] corresponding to $j_{0^n111\dots}$ whose sheaves and morphisms are entirely determined by the semi-simplices of dimension $\leq n$.
+In $Set^{\Delta_+^{op}}$ these topologies $j_w$ with $w=0^m111\dots,\quad m=0,\dots ,\infty$ correspond precisely to the [[open subtopos|open subtoposes]]. To see, this consider the [[terminal object]] 1 of $Set^{\Delta_+^{op}}$: in contrast to [[SSet]] where the degeneracies prevent this, we can truncate 1 at arbitrary dimensions by simply omitting the higher dimensional semi-simplices. Hence there is a countably infinite number of non-trivial [[subterminal object|subterminal objects]] $U_n$ around this time with $U_n([k])=\empty\, ,\, k\geq n+1$. By generalities, the corresponding [[open subtopos]] is equivalent to $Set^{\Delta_+^{op}}/U_n$ but clearly this is equivalent to the full subcategory of semi-simplicial sets $X$ with $X([k])=\empty\, ,\, k\geq n+1$. This is not a subtopos but the [[coreflective subcategory]] that comes with the [[level of a topos|level]] corresponding to $j_{0^n111\dots}$ whose sheaves and morphisms are entirely determined by the semi-simplices of dimension $\leq n$.
 
-Where there are open subtoposes, there are [[closed subtopos|closed subtoposes]]. To determine them, let's have a look at the lattice operations: the [[join]] $j_w\vee j_z$ of two topologies is given by the topology $j_{w\vee z}$ with $(w\vee z)_i=w_i$ in case $w_i=z_i$ or else $(w\vee z)_i=1$. As usual, the sheaf topos corresponding to $j_w\vee j_z$ is given by the intersection of the two sheaf toposes. The meet $j_w\wedge j_z$ is given by $j_{w\wedge z}$ with $(w\wedge z)_i=w_i$ in case $w_i=z_i$ or else $(w\wedge z)_i=0$. Hence the [[complement]] of a topology $j_w$ is given by $j_{\overline{w}}$ with $\overline{w}_i\neq w_i$ for all $i$ e.g. for an open topology $j_{0^n111\dots}$ the closed complement is given by $j_{1^n000\dots}$.
+Where there are open subtoposes, there are [[closed subtopos|closed subtoposes]]. To determine them, let's have a look at the lattice operations: the [[join]] $j_w\vee j_z$ of two topologies is given by the topology $j_{w\vee z}$ with $(w\vee z)_i=w_i$ in case $w_i=z_i$ or else $(w\vee z)_i=1$. As usual, the sheaf topos corresponding to $j_w\vee j_z$ is given by the intersection of the two sheaf toposes. The [[meet]] $j_w\wedge j_z$ is given by $j_{w\wedge z}$ with $(w\wedge z)_i=w_i$ in case $w_i=z_i$ or else $(w\wedge z)_i=0$. Hence the [[complement]] of a topology $j_w$ is given by $j_{\overline{w}}$ with $\overline{w}_i\neq w_i$ for all $i$ e.g. for an open topology $j_{0^n111\dots}$ the closed complement is given by $j_{1^n000\dots}$.
 
-The open and closed topologies are from from being the only complemented topologies - in fact, the letter flipping operation $w\to\overline{w}$ gives a complement to _every_ topology!
+The open and closed topologies are from being the only complemented topologies - in fact, the letter flipping operation $w\to\overline{w}$ provides for _every_ topology $j_w$ a _complement_ $j_\overline{w}$!
+
+Let us call a topology $j_w$ _locally closed_ when the corresponding sheaf topos is [[locally closed subtopos|locally closed]] i. e. $j_w$ is the join of an open and a closed topology. The locally closed topologies that are neither open nor closed themselves are then necessarily of the form $j_{1^n0^m111\dots}$.
 
 For further details on the [[Lawvere-Tierney topology|Lawvere-Tierney topologies]], [[closure operator|closure operators]] and [[sheaf|sheaves]] involved in both cases see [Rosset-Hansen-Endrullis (2024)](#RHE24).
 
-## Related concepts
-
-* [[simplicial object]]
-
-  * [[simplicial set]]
-
-  * [[simplicial object in an (∞,1)-category]]
-
-* [[semi-simplicial object]]
-
-* [[semicategory]]
-
-* [[semi-Segal space]]
 
 ## Historical and terminological remarks
  {#History}
@@ -160,7 +149,17 @@ Similarly, the subcategory of injective functions of the simplex category was wr
 
 ## Related concepts
 
+* [[simplicial object]]
+
+  * [[simplicial set]]
+
+  * [[simplicial object in an (∞,1)-category]]
+
 * [[semi-simplicial object]]
+
+* [[semicategory]]
+
+* [[semi-Segal space]]
 
 * [[semi-simplicial topological space]]
 
