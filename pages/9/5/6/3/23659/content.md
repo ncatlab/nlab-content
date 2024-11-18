@@ -91,13 +91,13 @@ which makes $V$ an [[Euclidean space]].
 
 ## Convergence
 
-Every $T$-premetric space is a [[sequential preconvergence space]] with the convergence relation $x \to b$ between sequences $x$ and elements $b$ true if and only if for all elements $U \in T$, there exists a natural number $N \in \mathbb{N}$ such that for all natural numbers $n \geq N$, $x_n \sim_U b$. 
+Every $T$-premetric space is a [[generalised sequential space]] with the convergence relation $x \to b$ between sequences $x$ and elements $b$ true if and only if for all elements $U \in T$, there exists a natural number $N \in \mathbb{N}$ such that for all natural numbers $n \geq N$, $x_n \sim_U b$. 
 
 Given a $T$-premetric space $(S, \sim)$ and a sequence $x:\mathbb{N} \to S$, a modulus of Cauchy convergence is a function $M:T \to \mathbb{N}$ such that for all elements $U \in T$ and for all natural numbers $m \geq M(\epsilon)$ and $n \geq M(\epsilon)$, $x_m \sim_U x_n$.  
 
 A $T$-premetric space $S$ is **[[sequentially Cauchy complete]]** if every [[Cauchy sequence]] has a unique limit. A $T$-premetric space $S$ is **sequentially modulated Cauchy complete** if every sequence with a modulus of Cauchy convergence has a unique limit. 
 
-All this could be generalised to [[nets]], since every $T$-premetric space is also a [[preconvergence space]] with the convergence relation $x \to b$ between nets $x$ and elements $b$ true if and only if for all elements $U \in T$ and [[directed sets]] $I$, there exists an element $N \in I$ such that for all natural numbers $n \geq N$, $x_n \sim_U b$. 
+All this could be generalised to [[nets]], since every $T$-premetric space is also a [[generalised net space]] with the convergence relation $x \to b$ between nets $x$ and elements $b$ true if and only if for all elements $U \in T$ and [[directed sets]] $I$, there exists an element $N \in I$ such that for all elements $n \geq N$, $x_n \sim_U b$. 
 
 ## See also ##
 
