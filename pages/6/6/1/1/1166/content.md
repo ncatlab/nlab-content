@@ -45,7 +45,7 @@ These properties of subsequential spaces should be compared with analogous ones 
 
 ## See also
 
-* [[sequential preconvergence space]]
+* [[generalised sequential space]]
 
 ## References
 
