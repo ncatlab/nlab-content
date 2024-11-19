@@ -55,8 +55,10 @@ Note: the list is ordered first by year, then alphabetically by last name.
 | Coherence for Categorified Operadic Theories | Miles Gould | 2008 | [Glasgow repository](https://theses.gla.ac.uk/689/1/2009gouldphd.pdf) | on [[categorification]], [[coherence]] and [[operads]] |
 | Double Categories and Base Change in Homotopy Theory | [[Michael Shulman]] | 2009 |[ProQuest](https://www.proquest.com/docview/305052318?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses) | |
 | Codescent objects in 2-dimensional universal algebra | [[John Bourke]] | 2010 | [pdf](http://www.math.muni.cz/~bourkej/papers/JohnBThesis.pdf) | on [[codescent objects]] and 2-dimensional generalisations of [[internal categories]] |
-|Homology operations in the spectral sequence of a cosimplicial space|Philip Hackney|2010|[pdf](http://phck.net/thesis.pdf)| |
-|Fundamental bigroupoids and 2-covering spaces|[[David Roberts]]|2010|[Adelaide repository](https://hdl.handle.net/2440/62680)| |
+| Homology operations in the spectral sequence of a cosimplicial space|Philip Hackney|2010|[pdf](http://phck.net/thesis.pdf)| |
+| On constructions of left determined model structures | Marc Olschok | 2010 | [pdf](https://is.muni.cz/th/xhch5/diss.pdf) | |
+| On categories of algebras | Jan Pavlík | 2010 | [pdf](https://is.muni.cz/th/os4lf/d90.pdf) | |
+| Fundamental bigroupoids and 2-covering spaces|[[David Roberts]]|2010|[Adelaide repository](https://hdl.handle.net/2440/62680)| |
 |Algebraic Model Structures|[[Emily Riehl]]|2011|[pdf](https://emilyriehl.github.io/files/phdthesis.pdf)| |
 |Grothendieck categories of enriched functors|Hassan Al Hwaeer| 2014 |[core](https://core.ac.uk/outputs/161880844)| |
 | Analysis and construction of logical systems: a category-theoretic approach | Michał R. Przybyłek | 2014 | [pdf](https://www.mimuw.edu.pl/~mrp/phd_mrp.pdf) | |
@@ -81,6 +83,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Toposes of Monoid Actions|[[Morgan Rogers]]|2021|[arXiv](https://arxiv.org/abs/2112.10198)| |
 |Monadic and Higher-Order Structure|[[Nathanael Arkor]]|2022|[Cambridge repository](https://www.repository.cam.ac.uk/handle/1810/338940)| on [[relative monads]], [[second-order algebraic theories]], and monad–theory correspondences in a [[proarrow equipment]] |
 |Pseudomonads, Relative Monads and Strongly Finitary Notions of Multicategory|[[Gabriele Lobbia]]|2022|[Leeds repository](https://etheses.whiterose.ac.uk/30578/)| |
+| Large cardinals and oo-categories | Giulio Lo Monaco | 2022 | [Masaryk repository](https://is.muni.cz/th/bj8wp/doctoral_thesis.pdf) | |
 |Topics in the theory of enriched accessible categories|[[Giacomo Tendas]]|2022|[Macquarie repository](https://figshare.mq.edu.au/articles/thesis/Topics_in_the_theory_of_enriched_accessible_categories/21638081/1)| |
 |Operads in 2-categories and models of structure interchange|Sophie D. Espalungue d'Arros|2023|[theses.fr repository](https://theses.fr/2023ULILB053)| |
 |Introspective Theories and Geminal Categories|[[Sridhar Ramesh]]|2023|[eScholarship repository](https://escholarship.org/uc/item/3mn0c475)| on [[Löb's theorem]] and the [[Gödel incompleteness theorem]] |
