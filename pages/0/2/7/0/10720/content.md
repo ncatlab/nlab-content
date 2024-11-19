@@ -38,7 +38,7 @@ $$
 
 between the [[Moore spectrum]] of the quotient $\mathbb{Q}/\mathbb{Z}$ and the [[coproduct]] of the Moore spectra of all [[cyclic groups]]/[[finite fields]] of [[prime]] order (e.g. [Strickland 12, MO comment](http://mathoverflow.net/a/91057/381)).
 
-This goversn the global [[fracture theorem|arithmetic fracture theorem]] [in stable homotopy theory](fracture+theorem#InStableHomotopyTheory).
+This governs the global [[fracture theorem|arithmetic fracture theorem]] [in stable homotopy theory](fracture+theorem#InStableHomotopyTheory).
 
 
 ### Morava E-theory and Morava K-theory
