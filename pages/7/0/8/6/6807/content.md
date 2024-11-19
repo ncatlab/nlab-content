@@ -273,12 +273,10 @@ Relation to [[black holes in string theory]]:
 
 * {#KabatTaylor97} Daniel Kabat, [[Washington Taylor]], _Spherical membranes in Matrix theory_, Adv.Theor.Math.Phys.2:181-206,1998 ([arXiv:hep-th/9711078](https://arxiv.org/abs/hep-th/9711078)) 
 
-* Yoshifumi Hyakutake, _Black Hole and Fuzzy Objects in BFSS Matrix Model_ 
-([arXiv:1801.07869](https://arxiv.org/abs/1801.07869))
+* Yoshifumi Hyakutake, _Black Hole and Fuzzy Objects in BFSS Matrix Model_ &lbrack;[arXiv:1801.07869](https://arxiv.org/abs/1801.07869)&rbrack;
 
 * {#DuSahakian18} Haoxing Du, Vatche Sahakian, _Emergent geometry from stochastic dynamics, or Hawking evaporation in M(atrix) theory_ ([arXiv:1812.05020](https://arxiv.org/abs/1812.05020))
-
-  (combination with [[random matrix theory]])
+  > (combination with [[random matrix theory]])
 
 * Oscar J. C. Dias, [[Jorge E. Santos]]: *The Low Energy Limit of BFSS Quantum Mechanics* &lbrack;[arXiv:2407.15921](https://arxiv.org/abs/2407.15921)&rbrack;
 
@@ -315,6 +313,27 @@ and concerning the analog of its [[holographic entanglement entropy]]:
 See also:
 
 * [[Chris D. A. Blair]], Johannes Lahnsteiner, [[Niels A. Obers]], Ziqi Yan: *Matrix Theory Reloaded: A BPS Road to Holography* &lbrack;[arXiv:2410.03591](https://arxiv.org/abs/2410.03591)&rbrack;
+
+
+### Cosmology
+ {#Cosmology}
+
+On [[non-perturbative effect|non-perturbative]] [[string theory|string theoretic]] [[cosmology]] (and the [[Brandenberger-Vafa mechanism]]) via the [[BFSS matrix model|BFSS]]/[[IKKT matrix model]]:
+
+* [[Suddhasattwa Brahma]], [[Robert Brandenberger]], [[Samuel Laliberte]]: *Emergent Cosmology from Matrix Theory*,  J. High Energ. Phys. **2022** 67 (2022) &lbrack;[arXiv:2107.11512](https://arxiv.org/abs/2107.11512), <a href="https://doi.org/10.1007/JHEP03(2022)067">doi:10.1007/JHEP03(2022)067</a>&rbrack;
+
+* [[Suddhasattwa Brahma]], [[Robert Brandenberger]], [[Samuel Laliberte]]: *Emergent Early Universe Cosmology from BFSS Matrix Theory*,  International Journal of Modern Physics D **31** 14 (2022) 2242004 &lbrack;[arXiv:2205.06016](https://arxiv.org/abs/2205.06016), [doi:10.1142/S0218271822420044](https://doi.org/10.1142/S0218271822420044)&rbrack;
+
+* [[Suddhasattwa Brahma]], [[Robert Brandenberger]], [[Samuel Laliberte]]: *Emergent Metric Space-Time from Matrix Theory*,  J. High Energ. Phys. **2022** 31 (2022) &lbrack;[arXiv:2206.12468](https://arxiv.org/abs/2206.12468), <a href="https://doi.org/10.1007/JHEP09(2022)031">doi:10.1007/JHEP09(2022)031</a>&rbrack;
+
+* [[Suddhasattwa Brahma]], [[Robert Brandenberger]], [[Samuel Laliberte]]: *BFSS Matrix Model Cosmology: Progress and Challenges*, Physics **5** 1 (2023)  &lbrack;[arXiv:2210.07288](https://arxiv.org/abs/2210.07288), [doi:10.3390/physics5010001](https://doi.org/10.3390/physics5010001)&rbrack;
+
+* [[Robert Brandenberger]]: *Emergent Metric Space-Time from the BFSS Matrix Model*, talk at Perimeter Institute (May 2023) &lbrack;[doi:10.48660/23050109](https://doi.org/10.48660/23050109), video:[pirsa:23050109](https://pirsa.org/23050109), slides:[pdf](https://pdf.pirsa.org/files/23050109.pdf)&rbrack;
+
+* [[Robert Brandenberger]], Julia Pasiecznik: *On the Origin of the $SO(9) \to SO(3) \times SO(6)$ Symmetry Breaking in the IKKT Matrix Model* &lbrack;[arXiv:2409.00254](https://arxiv.org/abs/2409.00254), [spire:2824186](https://inspirehep.net/literature/2824186)&rbrack;
+
+
+See also at *[IKKT matrix model -- References -- Computer simulation](IKKT+matrix+model#ReferencesComputerSimulation)*.
 
 
 
