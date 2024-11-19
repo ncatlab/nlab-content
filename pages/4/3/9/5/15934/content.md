@@ -60,7 +60,10 @@ See also:
 
 On the [[3d-3d correspondence]] for Seifert manifolds:
 
+* [[Sergei Gukov]], [[Du Pei]], pp 7 in: *Equivariant Verlinde formula from fivebranes and vortices*, Commun. Math. Phys. **355** (2017) 1–50 &lbrack;[arXiv:1501.01310](https://arxiv.org/abs/1501.01310), [doi:10.1007/s00220-017-2931-9](https://doi.org/10.1007/s00220-017-2931-9)&rbrack;
+
 * [[Du Pei]]: *3d-3d correspondence for Seifert manifolds*, PhD thesis (2016) &lbrack;[spire:1469350](https://inspirehep.net/literature/1469350), [pdf](https://inspirehep.net/files/d509ff9e32448da3a5674f286b93224a)&rbrack;
+
 
 Claim of a relation between Seifert manifolds and [[topological order]]:
 
