@@ -34,6 +34,14 @@ The original article:
 
 * [[Herbert Seifert]]: *Topology of 3-dimensional fibered spaces*, in: *A textbook of topology*, Pure Appl. Math. **89**, Academic Press (1980) 139–152 &lbrack;[pdf](https://www.math.csi.cuny.edu/abhijit/k3m/Seifert-FiberedSpaces-english.pdf)&rbrack;
 
+Monographs:
+
+* [[Kyung Bai Lee]], [[Frank Raymond]]: *Seifert Fiberings*, Mathematical Surveys and Monographs (2010) **166** &lbrack;[doi:10.1090/surv/166](https://doi.org/10.1090/surv/166), toc:[pdf](https://www.ams.org/books/surv/166/surv166-endmatter.pdf)&rbrack;
+
+Further survery:
+
+* [[Kyung Bai Lee]], [[Frank Raymond]]: *Seifert Manifolds* &lbrack;[arXiv:math/0108188](https://arxiv.org/abs/math/0108188)&rbrack;
+
 Discussion via [[diffeological spaces]]:
 
 * [[Patrick Iglesias-Zemmour]], Jean-Paul Mohsen: *Seifert Orbifolds* (2015) &lbrack;[pdf](http://math.huji.ac.il/~piz/documents/DBlog-Rmk-SeifO.pdf), [[IglesiasZemmour-Mohsen-SeifertOrbifolds.pdf:file]]&rbrack;
