@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -32,20 +33,24 @@ There are various conditions of various strengths considered in the literature. 
 
 ## References
 
+
+
 See also:
 
 * Wikipedia, _[Energy condition](http://en.wikipedia.org/wiki/Energy_condition)_
 
-Discussion of the [[averaged null energy condition]]  for [[conformal field theory]] on [[de Sitter spacetime]] and [[anti de Sitter spacetime]]:
 
+On the [[averaged null energy condition]]:
 
-* Felipe Rosso, _Global aspects of conformal symmetry and the ANEC in dS and AdS_ ([arXiv:1912.08897](https://arxiv.org/abs/1912.08897))
+* Felipe Rosso, _Global aspects of conformal symmetry and the ANEC in dS and AdS_ &lbrack;[arXiv:1912.08897](https://arxiv.org/abs/1912.08897)&rbrack;
+  > (for [[conformal field theory]] on [[de Sitter spacetime]] and [[anti de Sitter spacetime]])
+
+* Hidde Stoffels: *Positive thinking: A search for energy conditions* &lbrack;[arXiv:2411.11050](https://arxiv.org/abs/2411.11050)&rbrack;
+
 
 See also:
 
-
 * Taha A Malik, Rafael Lopez-Mobilia, _Proof of the quantum null energy condition for free fermionic field theories_ ([arXiv:1910.07594](https://arxiv.org/abs/1910.07594))
-
 
 * Philipp Stanzer, _Numerical Relativity, Holography and the Quantum Null Energy Condition_ ([arXiv:2009.07040](https://arxiv.org/abs/2009.07040))
 
@@ -57,5 +62,9 @@ See also:
 [[!redirects null energy conditions]]
 
 [[!redirects dominant energy condition]]
+
+
+[[!redirects averaged null energy condition]]
+[[!redirects averaged null energy conditions]]
 
 
