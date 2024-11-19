@@ -92,7 +92,7 @@ Specifically for [[Seifert 3-manifolds]] (such as [[lens spaces]]):
 
 Review is in
 
-* {#Dimofte14} [[Tudor Dimofte]], _3d Superconformal Theories from Three-Manifolds_, In: [[Jörg  Teschner]] (ed.), *Exact Results on $\mathcal{N} = 2$ Supersymmetric Gauge Theories*, Springer 2015 ([arXiv:1412.7129](https://arxiv.org/abs/1412.7129), [doi:10.1007/978-3-319-18769-3_11](https://doi.org/10.1007/978-3-319-18769-3_11))
+* {#Dimofte14} [[Tudor Dimofte]]: *3d Superconformal Theories from Three-Manifolds*, in: [[Jörg  Teschner]] (ed.), *Exact Results on $\mathcal{N} = 2$ Supersymmetric Gauge Theories*, Springer (2015) 339-373 &lbrack;[arXiv:1412.7129](https://arxiv.org/abs/1412.7129), [doi:10.1007/978-3-319-18769-3_11](https://doi.org/10.1007/978-3-319-18769-3_11)&rbrack;
 
 
 Relation of the [[AGT-correspondence]] to the [[D=6 N=(2,0) SCFT]] and the [[3d-3d correspondence]]:
