@@ -14,6 +14,11 @@ Cumrun Vafa is a [[string theory|string theorist]] at Harvard.
 ## Selected writings
  {#SelectedWritings}
 
+Introducing what came to be called the [[Brandenberger-Vafa mechanism]] in [[string theory|string theoretic]] [[cosmology]]:
+
+* [[Robert Brandenberger]], [[Cumrun Vafa]]: _Superstrings in the Early Universe_, Nucl. Phys. B **316** (1989) 391 &lbrack;[spire263348](http://inspirehep.net/record/263348), <a href="https://doi.org/10.1016/0550-3213(89)90037-0">doi:10.1016/0550-3213(89)90037-0</a>&rbrack;
+
+
 On the [[quantum cohomology]] induced by [[supersymmetry|supersymmetric]] [[CP^N sigma-model|$\mathbb{C}P^N$ sigma-models]]:
 
 * [[Sergio Cecotti]], [[Cumrun Vafa]], *Exact Results for Supersymmetric Sigma Models*, Phys. Rev. Lett. **68** (1992) 903-906 &lbrack;[arXiv:hep-th/9111016](https://arxiv.org/abs/hep-th/9111016), [doi:10.1103/PhysRevLett.68.903](https://doi.org/10.1103/PhysRevLett.68.903)&rbrack;
