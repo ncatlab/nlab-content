@@ -83,7 +83,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Toposes of Monoid Actions|[[Morgan Rogers]]|2021|[arXiv](https://arxiv.org/abs/2112.10198)| |
 |Monadic and Higher-Order Structure|[[Nathanael Arkor]]|2022|[Cambridge repository](https://www.repository.cam.ac.uk/handle/1810/338940)| on [[relative monads]], [[second-order algebraic theories]], and monad–theory correspondences in a [[proarrow equipment]] |
 |Pseudomonads, Relative Monads and Strongly Finitary Notions of Multicategory|[[Gabriele Lobbia]]|2022|[Leeds repository](https://etheses.whiterose.ac.uk/30578/)| |
-| Large cardinals and oo-categories | Giulio Lo Monaco | 2022 | [Masaryk repository](https://is.muni.cz/th/bj8wp/doctoral_thesis.pdf) | |
+| Large cardinals and $\infty$-categories | Giulio Lo Monaco | 2022 | [Masaryk repository](https://is.muni.cz/th/bj8wp/doctoral_thesis.pdf) | |
 |Topics in the theory of enriched accessible categories|[[Giacomo Tendas]]|2022|[Macquarie repository](https://figshare.mq.edu.au/articles/thesis/Topics_in_the_theory_of_enriched_accessible_categories/21638081/1)| |
 |Operads in 2-categories and models of structure interchange|Sophie D. Espalungue d'Arros|2023|[theses.fr repository](https://theses.fr/2023ULILB053)| |
 |Introspective Theories and Geminal Categories|[[Sridhar Ramesh]]|2023|[eScholarship repository](https://escholarship.org/uc/item/3mn0c475)| on [[Löb's theorem]] and the [[Gödel incompleteness theorem]] |
