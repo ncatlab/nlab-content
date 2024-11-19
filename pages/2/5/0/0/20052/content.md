@@ -23,7 +23,8 @@
 
 ## Idea
 
-A **valuation** is a construction analogous to that of a [[measure]], which is however more compatible with [[constructive mathematics]], and readily generalizable to contexts such as [[point-free topology]].
+A **valuation** is a construction analogous to that of a [[measure]], which is defined on a [[topological space]] rather than on a [[measurable space]].
+As such, it is more compatible with [[constructive mathematics]], and readily generalizable to contexts such as [[point-free topology]].
 
 On most spaces of interest for measure theory and probability (such as [[metric spaces]]) the notions of suitably continuous valuations and measures coincide (see [below](#extending_valuations_to_measures)).
 
