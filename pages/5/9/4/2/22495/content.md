@@ -19,6 +19,9 @@ On the [[Verlinde formula]] for [[logarithmic CFTs]]:
 
 * [[Thomas Creutzig]], [[Terry Gannon]], _Logarithmic conformal field theory, log-modular tensor categories and modular forms_, J. Phys. A __50__, 404004 (2017) ([doi:10.1088/1751-8121/aa8538](https://doi.org/10.1088/1751-8121/aa8538), [arXiv:1605.04630](https://arxiv.org/abs/1605.04630))
 
+* [[Thomas Creutzig]]: *Resolving Verlinde's formula of logarithmic CFT* &lbrack;[arXiv:2411.11383](https://arxiv.org/abs/2411.11383)&rbrack;
+
+
 On [[braided fusion categories]] formed by [[affine Lie algebra]]-[[representations]] at admissible fractional [[level (Chern-Simons theory)|level]]:
 
 * [[Thomas Creutzig]], [[Yi-Zhi Huang]], [[Jinwei Yang]], *Braided tensor categories of admissible modules for affine Lie algebras*, Commun. Math. Phys. **362** (2018) 827–854 &lbrack;[arXiv:1709.01865](https://arxiv.org/abs/1709.01865)&rbrack;
