@@ -51,9 +51,15 @@ See also:
 
 * Juergen Fuchs, Christoph Schweigert, _A representation theoretic approach to the WZW Verlinde formula_, 1997
 
-A generalization to [[logarithmic 2d CFTs]] has been suggested in:
+A generalization of the Verlinde formula to [[logarithmic 2d CFTs]]:
+
+* [[David Ridout]], [[Simon Wood]], *The Verlinde formula in logarithmic CFT*,  J. Phys.: Conf. Ser. **597** 012065 $[$[arXiv:1409.0670](https://arxiv.org/abs/1409.0670), [doi:10.1088/1742-6596/597/1/012065](https://doi.org/10.1088/1742-6596/597/1/012065)$]$
 
 * [[Thomas Creutzig]], [[Terry Gannon]], _Logarithmic conformal field theory, log-modular tensor categories and modular forms_, J. Phys. A __50__, 404004 (2017) ([doi:10.1088/1751-8121/aa8538](https://doi.org/10.1088/1751-8121/aa8538), [arXiv:1605.04630](https://arxiv.org/abs/1605.04630))
+
+* [[Thomas Creutzig]]: *Resolving Verlinde's formula of logarithmic CFT* &lbrack;[arXiv:2411.11383](https://arxiv.org/abs/2411.11383)&rbrack;
+
+
 
 [[!redirects Verlinde formulas]]
 
