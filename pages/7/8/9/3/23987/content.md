@@ -1769,7 +1769,7 @@ Talks:
 
 04 Oct 2024
 
-**Quantum Industry Day** -- Towards Industrial Usefulness with [Kipu Quantum](https://kipu-quantum.com/)
+ **Quantum Industry Day** -- Towards Industrial Usefulness with [Kipu Quantum](https://kipu-quantum.com/)
 
 [www.q-innovision.com/quantum-industry-day](https://www.q-innovision.com/quantum-industry-day)
 
@@ -1781,13 +1781,34 @@ Talks:
 
 \linebreak
 
+
 ### Nov 2024
 
-{#MENAQuantum2024} **MENA Quantum Conference 2024**
+
+{#QuantumIndustryDayNov2024} 19 Nov 2024
+
+**Quantum Industry Day -- Exploring Quantum Frontiers with IBM Quantum Technology**
+
+[www.q-innovision.com/quantum-industry-day-november-2024-ibm](https://www.q-innovision.com/quantum-industry-day-november-2024-ibm)
+
+
+<center>
+<a href="https://www.q-innovision.com/quantum-industry-day-november-2024-ibm">
+<img src="/nlab/files/CQTS-QuantumIndustryDay-Nov2024.jpg" width="520">
+</a>
+</center>
+
+
+
+\linebreak
+
+{#MENAQuantum2024} 23-24 Nov 2024
+
+**MENA Quantum Conference 2024**
 
 [nyuad.nyu.edu/en/events/2024/november/mena-quantum.html](https://nyuad.nyu.edu/en/events/2024/november/mena-quantum.html)
 
-23-24 Nov 2024
+
 
 \begin{imagefromfile}
     "file_name": "CQTS-MENAQuantum2024-Banner.jpg",
