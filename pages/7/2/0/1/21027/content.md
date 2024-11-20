@@ -27,3 +27,6 @@ category: people
 [[!redirects William Linch]]
 
 [[!redirects William D. Linch III]]
+[[!redirects William D. Linch]]
+
+
