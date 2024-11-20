@@ -209,6 +209,9 @@ The content of this section is at
 
 ## References 
 
+### General
+
+
 The concept of [[sigma-models]] originates with the introduction of the [[σ-meson]] to [[chiral perturbation theory]] in
 
 * [[Murray Gell-Mann]], M. Lévy, _The axial vector current in beta decay_, Il Nuovo Cimento (1955-1965) volume 16, pages 705–726 (1960) ([doi:10.1007/BF02859738](https://doi.org/10.1007/BF02859738))
@@ -286,6 +289,12 @@ Discussion of [[geometric Langlands duality]] in terms of 2d sigma-models on sta
 See also:
 
 * Rafał R. Suszek. *Towards higher super-$\sigma$-model categories*. (2023). ([arXiv:2311.01768](https://arxiv.org/abs/2311.01768)).
+
+
+
+[[!include exceptional-geometric brane sigma-models -- references]]
+
+
 
 [[!redirects sigma-models]]
 [[!redirects sigma model]]
