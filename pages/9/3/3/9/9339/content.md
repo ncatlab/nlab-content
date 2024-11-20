@@ -30,6 +30,11 @@ Monographs:
 
 * [[Marius Crainic]], [[Rui Loja Fernandes]], *Lectures on Poisson Geometry*, Graduate Studies in Mathematics **217**, Amer. Math. Soc. (2021) &lbrack;[ISBN:978-1-4704-6430-1](https://bookstore.ams.org/view?ProductCode=GSM/217)&rbrack;
 
+Exposition and survey of the field:
+
+* Ivan Contreras, Diego Martinez, Nicolas Martinez, Diego Rodriguez: *Symplectic Geometry, Poisson Geometry, and Beyond* &lbrack;[arXiv:2411.12551](https://arxiv.org/abs/2411.12551)&rbrack;
+
+
 For more see the references at *[[Poisson manifold]]*.
 
 
