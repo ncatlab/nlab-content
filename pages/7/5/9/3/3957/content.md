@@ -75,7 +75,7 @@ A standard textbook reference is
 
 A survey is for instance in the slides
 
-* {#Blute} [[Richard Blute]], _Convenient Vector Spaces, Convenient Manifolds and Differential Linear Logic_ (2011) ([pdf](http://aix1.uottawa.ca/~rblute/FMCS.pdf))
+* {#Blute} [[Richard Blute]], _Convenient Vector Spaces, Convenient Manifolds and Differential Linear Logic_ (2011) ([pdf](https://web.archive.org/web/20211027014629/http://aix1.uottawa.ca/~rblute/FMCS.pdf))
  
 
 Results on equivalent characterizations are for instance in
