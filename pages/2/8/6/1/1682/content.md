@@ -588,7 +588,9 @@ More on the role of lifting the [[Witten genus]] to tmf from the point of view o
 
 * [[Yuji Tachikawa]], [[Mayuko Yamashita]], *Anderson self-duality of topological modular forms, its differential-geometric manifestations, and vertex operator algebras* &lbrack;[arXiv:2305.06196](https://arxiv.org/abs/2305.06196)&rbrack;
 
+On [[Adams operations]] for tmf:
 
+* Jack Morgan Davies, _Constructing and calculating Adams operations on dualisable topological modular forms_ &lbrack;[arXiv:2104.13407](https://arxiv.org/abs/2104.13407)&rbrack;
 
 
 [[!redirects Tmf]]
