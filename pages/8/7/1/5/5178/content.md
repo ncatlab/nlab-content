@@ -252,7 +252,7 @@ but under the name "[[fibered category]]" (*catégorie fibrée*) which later bec
 
 An early monograph:
 
-* [[P. T. Johnstone]], [[R. Paré]], [[R. D. Rosebrugh]], [[D. Schumacher]], [[R. J. Wood]], [[G. C. Wraith]], _Indexed Categories and Their Applications_, Lecture Notes in Mathematics **661** (1978) &lbrack;[doi:10.1007/bfb0061362](https://doi.org/10.1007/bfb0061362)&rbrack;
+* [[P. T. Johnstone]], [[R. Paré]], [[R. D. Rosebrugh]], [[D. Schumacher]], [[R. J. Wood]], [[G. C. Wraith]], _Indexed Categories and Their Applications_, Lecture Notes in Mathematics **661** (1978) &lbrack;[doi:10.1007/BFb0061360](https://doi.org/10.1007/BFb0061360)&rbrack;
 
 Early discussion in the context of [[categorical semantics]] in [[computer science]]:
 
