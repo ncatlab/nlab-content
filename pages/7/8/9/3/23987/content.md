@@ -3631,6 +3631,18 @@ Neumann algebras**
 
   > After a gentle introduction to [[relativistic field theory|Lorentzian]] [[quantum field theory]] as axiomatized by [[algebraic quantum field theory]] (Haag-Kastler, Brunetti-Fredenhagen-Verch, ...) and by [[factorization algebras]] (Costello-Gwilliam, ...), we shall present a [[equivalence of categories|categorical equivalence]] between these two axiomatic approaches that relies crucially on the intricate interplay between the principles of [[causality]] and [[time-slice axiom|determinism]]. We shall then rediscover this equivalence from a novel [[stack|stacky]] perspective and illustrate why this point of view offers a promising solution to the open problem (motivated by [[gauge theory]]) of establishing a [[higher category theory|higher categorical]] analog of the above-mentioned equivalence, where the interplay between causality and determinism acquires a [[homotopy theory|homotopical]] flavour.
 
+\linebreak
+
+* {#OstenNov2024} 20 Nov 2024
+
+  [[David Osten]] (University of Wroclaw, Poland):
+
+  **Exceptional Generalised Geometry as a Symmetry Principle for Sigma Models**
+
+  cf. [2402.10269](https://arxiv.org/abs/2402.10269)
+
+  > [[exceptional field theory|Exceptional field theory]] has been a useful technique in the investigation of [[supergravity]]. In this talk I will demonstrate that it can be applied to the [[world-volume]] point of view as well, as an alternative [[symmetry]] principle to [[supersymmetry]]. I present the construction of half-[[BPS state|BPS]] [[brane]] [[sigma models]] in [[string theory|string]] and [[M-theory]] using only data from [[exceptional generalised geometry]]. When employing exceptional generalisd geometry these sigma models take a universal form in their [[Hamiltonian]] formulation which is expected to extend also to the enigmatic [[exotic branes]]. (Based on [2402.10269](https://arxiv.org/abs/2402.10269))
+
 
 \linebreak  
 
