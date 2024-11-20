@@ -75,12 +75,11 @@ Applications to [[U-duality]]-covariant formulations of [[11d supergravity]] ([[
 
 For more along these lines see the references at _[[exceptional generalized geometry]]_.
 
-### As M-brane target space
 
-Discusssion of [[M-brane]] [[sigma-models]] on exceptional geometry [[target spaces]]:
 
-* [[Yuho Sakatani]], [[Shozo Uehara]], _Branes in Extended Spacetime: Brane Worldvolume Theory Based on Duality Symmetry_, Phys. Rev. Lett. **117** 191601 (2016) &lbrack;[arXiv:1607.04265](https://arxiv.org/abs/1607.04265), [talk slides](http://www2.yukawa.kyoto-u.ac.jp/~qft.web/2016/slides/sakatani.pdf)&rbrack;
 
-* [[Yuho Sakatani]], [[Shozo Uehara]], _Exceptional M-brane sigma models and $\eta$-symbols_ &lbrack;[arXiv:1712.10316](https://arxiv.org/abs/1712.10316)&rbrack;
+[[!include exceptional-geometric brane sigma-models -- references]]
+
+
 
 [[!redirects exceptional geometries]]
