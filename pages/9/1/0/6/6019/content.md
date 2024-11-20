@@ -52,19 +52,34 @@ The [[space]] of all these is the _[[space of trajectories]]_ (space of historie
 * [[worldsheet instanton]]
 
 * [[world sheets for world sheets]]
+
+
+
+[[!redirects worldvolumes]]
+
+[[!redirects world-volume]]
+[[!redirects world-volumes]]
+
+[[!redirects world volume]]
+[[!redirects world volumes]]
+
   
 [[!redirects worldline]]
+[[!redirects worldlines]]
+
+[[!redirects world-line]]
+[[!redirects world-lines]]
+
+[[!redirects world line]]
+[[!redirects world lines]]
+
 
 [[!redirects worldsheet]]
 [[!redirects worldsheets]]
 
-[[!redirects worldvolumes]]
-
-[[!redirects worldlines]]
-
-[[!redirects world line]]
-[[!redirects world volume]]
-[[!redirects world sheet]]
-
 [[!redirects world-sheet]]
 [[!redirects world-sheets]]
+
+[[!redirects world sheet]]
+[[!redirects world sheets]]
+
