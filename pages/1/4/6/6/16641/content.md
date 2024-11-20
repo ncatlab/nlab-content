@@ -37,7 +37,7 @@ Claim that the proper application of [[holographic entanglement entropy]] to the
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[NSR superstring]], [[2d SCFT]]
 
