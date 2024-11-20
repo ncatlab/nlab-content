@@ -11,7 +11,9 @@ Rick Blute is a mathematician at the University of Ottawa.  His areas of interes
 
 see also his
 
-* [webpage](http://aix1.uottawa.ca/~rblute/)
+* [webpage](https://richardblute.ca/)
+
+* [archive departmental webpage](https://web.archive.org/web/20211206121823/http://aix1.uottawa.ca/~rblute/)
 
 ## Related entries
 
