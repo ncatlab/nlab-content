@@ -1,4 +1,10 @@
 
+* [personal page](https://web.mathi.uni-heidelberg.de/physmath/noja)
+
+* [GoogleScholar page](https://scholar.google.at/citations?user=6vEBiloAAAAJ&hl=de)
+
+* [inSpire page](https://inspirehep.net/authors/1670896)
+
 * [MathematicsGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=231366)
 
 
