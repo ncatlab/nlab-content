@@ -26,6 +26,8 @@ In the case for the [[natural numbers type]] homotopy canonicity states that eve
 
 * [[Chris Kapulkin]] and [[Christian Sattler]] have an unpublished proof that [[homotopy type theory]] has homotopy canonicity, even though HoTT does not have [[canonicity]]
 
+* [[Rafaël Bocquet]] has a [published](#Bocquet2023) proof that HoTT has homotopy canonicity
+
 * [[cubical type theory]] has homotopy canonicity
 
 ## References
@@ -37,3 +39,5 @@ In the case for the [[natural numbers type]] homotopy canonicity states that eve
 * [[Benno van den Berg]], [[Martijn den Besten]], *Quadratic type checking for objective type theory* ([arXiv:2102.00905](https://arxiv.org/abs/2102.00905))
 
 * [[Christian Sattler]], *Homotopy canonicity of homotopy type theory*. Talk at the International Conference on Homotopy Type Theory 2019. ([slides](https://hott.github.io/HoTT-2019/conf-slides/Sattler.pdf))
+
+* {#Bocquet2023} [[Rafaël Bocquet]], _Strict Rezk completions of models of HoTT and homotopy canonicity_, 2023, ([arXiv:2311.05849](https://arxiv.org/abs/2311.05849))
