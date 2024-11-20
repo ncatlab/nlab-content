@@ -64,6 +64,7 @@ The BRST complex described a homotopical [[quotient]] of a space by an infinites
 [[!include gauge field - table]]
 
 
+
 ## References
 
 ### General
@@ -94,7 +95,12 @@ Similarly the bulk of the textbook
 
 considers the Hamiltonian formulation. Chapters 17 and 18 are about the Lagrangian ("antifield") formulation, with section 18.4 devoted to the relation between the two.
 
-The [[L-infinity algebroid]]-structure of the [[local BRST complex]] on the [[jet bundle]] is made manifest in
+Review includes:
+
+* {#Jiang95} Shuhan Jiang, *BRST cohomology*, Section 3 in: *Mathematical Structures of Cohomological Field Theories*, PhD thesis (1995) &lbrack;[urn:nbn:de:bsz:15-qucosa2-869402](https://nbn-resolving.org//urn:nbn:de:bsz:15-qucosa2-869402), [spire:2701230](https://inspirehep.net/literature/2701230), [pdf](https://inspirehep.net/files/183359de739dfbf2a8118cd6e5d44700)&rbrack;
+
+
+The [[L-infinity algebroid|$L_\infty$-algebroid]]-structure of the [[local BRST complex]] on the [[jet bundle]] is made manifest in
 
 * {#Barnich10} [[Glenn Barnich]], _A note on gauge systems from the point of view of Lie algebroids_, in: *XXIX Workshop on Geometric Methods in Physics*, AIP Conference Proceedings, **1307** 7 (2010) &lbrack;[arXiv:1010.0899](https://arxiv.org/abs/1010.0899), [doi:/10.1063/1.3527427]( https://doi.org/10.1063/1.3527427)&rbrack;
 
@@ -103,9 +109,9 @@ Lecture notes from this perspective:
 * [[Urs Schreiber]]: around [Ex. 10.28](https://ncatlab.org/nlab/show/geometry+of+physics+--+perturbative+quantum+field+theory#LocalOffShellBRSTComplex) in *[[geometry of physics -- perturbative quantum field theory]]* (2018)
 
 
-Discussion with more emphasis on the applications to quantum field theory of interest is in lecture 3 of 
+Discussion with more emphasis on the applications to quantum field theory of interest: 
 
-* [[Edward Witten]], _Dynamics of Quantum Field Theory_ in vol II, starting page 1119, of [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey,  [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. 
+* [[Edward Witten]], in lecture 3 of: _Dynamics of Quantum Field Theory_ in vol II, starting page 1119, of [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey,  [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. 
 
 The [[perturbative quantum field theory|perturbative quantization]] of [[gauge theories]] ([[Yang-Mills theory]]) in [[causal perturbation theory]]/[[perturbative AQFT]] is discussed (for trivial [[principal bundles]] and restricted to [[gauge invariant observables]]) via [[BRST-complex]]/[[BV-formalism]] in
 
@@ -151,6 +157,15 @@ In relation to [[equivariant de Rham cohomology]]:
 * {#Kalkman93} [[Jaap Kalkman]], _BRST model applied to symplectic geometry_, Ph.D. Thesis, Utrecht, 1993 ([arXiv:hep-th/9308132 (broken)](https://arxiv.org/abs/hep-th/9308132), [cds:9308132](http://cds.cern.ch/record/568522), [pdf](http://cds.cern.ch/record/568522/files/9308132.pdf))
 
 * [[Jaap Kalkman]], _BRST Model for Equivariant Cohomology and  Representatives for the Equivariant Thom Class_, Comm. Math. Phys. Volume 153, Number 3 (1993), 447-463. ([euclid:1104252784](http://projecteuclid.org/euclid.cmp/1104252784))
+
+Making explicit that general observables constitute the functions on the BRST complex regarded as a [[dg-manifold]]:
+
+* [[Anton Kapustin]], Yi Li: *Open String BRST Cohomology for Generalized Complex Branes*, Adv. Theor. Math. Phys. **9** (2005) 559-574 &lbrack;[arXiv:hep-th/0501071](https://arxiv.org/abs/hep-th/0501071), [euclid](https://projecteuclid.org/journals/advances-in-theoretical-and-mathematical-physics/volume-9/issue-4)&rbrack;
+
+* {#Jiang23} Shuhan Jiang, Def. 4.3 in: *Mathematical Structures of Cohomological Field Theories*, Journal of Geometry and Physics **185** (2023) 104744 &lbrack;[doi:10.1016/j.geomphys.2022.104744](https://doi.org/10.1016/j.geomphys.2022.104744), [arXiv:2202.12425](https://arxiv.org/abs/2202.12425)&rbrack;
+
+
+
 
 ### History
 
