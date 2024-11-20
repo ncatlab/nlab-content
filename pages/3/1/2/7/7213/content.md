@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -135,9 +136,14 @@ For the [[worldvolume]] [[physical theory|theory]] of the [[M5-brane]] this is d
 
 * Machiko Hatsuda, Kiyoshi Kamimura, _M5 algebra and $SO(5,5)$ duality_ ([arXiv:1305.2258](http://arxiv.org/abs/1305.2258))
 
-More on generalized exceptional [[sigma-models]]:
+More on generalized exceptional [[sigma-models]] for [[branes]]:
 
-* David Osten, *On the universal exceptional structure of world-volume theories in string and M-theory* &lbrack;[arXiv:2402.10269](https://arxiv.org/abs/2402.10269)&rbrack;
+* [[David Osten]]: *Currents, charges and algebras in exceptional generalised geometry*,  J. High Energ. Phys. **2021** 70 (2021) &lbrack;[arXiv:2103.03267](https://arxiv.org/abs/2103.03267), <a href="https://doi.org/10.1007/JHEP06(2021)070">doi:10.1007/JHEP06(2021)070</a>&rbrack;
+
+* [[David Osten]]: *On exceptional QP-manifolds*, J. High Energ. Phys. **2024** 28 (2024). &lbrack;[arXiv:2306.11093](https://arxiv.org/abs/2306.11093), <a href="https://doi.org/10.1007/JHEP01(2024)028">doi:10.1007/JHEP01(2024)028</a>&rbrack;
+
+* [[David Osten]]: *On the universal exceptional structure of world-volume theories in string and M-theory*, Physics Letters B **855** (2024) 138814 &lbrack;[arXiv:2402.10269](https://arxiv.org/abs/2402.10269), [doi:10.1016/j.physletb.2024.138814](https://doi.org/10.1016/j.physletb.2024.138814)&rbrack;
+
 
 
 ### Super-exceptional generalized geometry
