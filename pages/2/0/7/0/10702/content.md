@@ -420,6 +420,11 @@ Review:
 * Wikipedia, _[Adams operation](http://en.wikipedia.org/wiki/Adams_operation)_
 
 * [[Jacob Lurie]], remark 2 in: _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 35 _The image of $J$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture35.pdf))
+
+Adams operations on [[tmf]]
+
+* Jack Morgan Davies, _Constructing and calculating Adams operations on dualisable topological modular forms_ &lbrack;[arXiv:2104.13407](https://arxiv.org/abs/2104.13407)&rbrack;
+
  
 ### In representation theory
  {#ReferencesInRepresentationTheory}
