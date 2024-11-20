@@ -36,5 +36,7 @@ On [[doubled supergeometry]]:
 
 * Machiko Hatsuda, Kiyoshi Kamimura, [[Warren Siegel]], _Superspace with manifest T-duality from type II superstring_, J. High Energ. Phys. (2014) 2014: 39 ([arXiv:1403.3887](https://arxiv.org/abs/1403.3887))
 
+[[!redirects Warren D. Siegel]]
+
 
 category: people
