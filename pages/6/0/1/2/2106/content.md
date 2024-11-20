@@ -62,6 +62,11 @@ Lecture notes:
 
 * Konstantin Athanassopoulos, *Notes on Symplectic Geometry*, lecture notes (2015) &lbrack;[pdf](http://users.math.uoc.gr/~athanako/symplectic.pdf), [[Athanassopoulos-Symplectic.pdf:file]]&rbrack;
 
+Survey of the field:
+
+* Ivan Contreras, Diego Martinez, Nicolas Martinez, Diego Rodriguez: *Symplectic Geometry, Poisson Geometry, and Beyond* &lbrack;[arXiv:2411.12551](https://arxiv.org/abs/2411.12551)&rbrack;
+
+
 
 Discussion from the point of view of [[homological algebra]] of [[abelian sheaves]] is in
 
