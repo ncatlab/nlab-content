@@ -19,7 +19,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -53,6 +52,9 @@ of a $d$-dimensional [[Minkowski space]] with the [[fundamental representation]]
 
 ## References
 
+### General
+
+
 Precursors on [[U-duality]] covariant formulations of [[D=11 supergravity]]:
 
 * [[Bernard de Wit]], [[Hermann Nicolai]]: _D = 11 Supergravity With Local $SU(8)$ Invariance_, Nucl. Phys. B 274, 363 (1986) &lbrack;<a href="https://doi.org/10.1016/0550-3213(86)90290-7">doi:10.1016/0550-3213(86)90290-7</a>, [spire:227409](http://inspirehep.net/record/227409)&rbrack;
@@ -60,7 +62,7 @@ Precursors on [[U-duality]] covariant formulations of [[D=11 supergravity]]:
 * [[Bernard de Wit]], [[Hermann Nicolai]]: _Local SU(8) invariance in $d = 11$ supergravity_, talk at *[Nuffield Workshop on Supersymmetry and its Applications](https://inspirehep.net/conferences/966045)*, 0357 &lbrack;[spire:218601](http://inspirehep.net/record/218601)&rbrack;
 
 * [[Hermann Nicolai]]: *On M-Theory*,  J Astrophys Astron **20**,  (1999) 149–164 &lbrack;[arXiv:hep-th/9801090](https://arxiv.org/abs/hep-th/9801090), [doi:10.1007/BF02702349](https://doi.org/10.1007/BF02702349)&rbrack;
-  > (the term "[[exceptional geometry]]" appear here)
+  > (the term "[[exceptional geometry]]" appears here)
 
 * [[Olaf Hohm]], [[Henning Samtleben]]: *U-duality covariant gravity*,  J. High Energ. Phys. **2013** 80 (2013) &lbrack;[arXiv:1307.0509](http://arxiv.org/abs/1307.0509), <a href="https://doi.org/10.1007/JHEP09(2013)080">doi:10.1007/JHEP09(2013)080</a>&rbrack;
 
@@ -132,18 +134,13 @@ See also:
 
 On application to [[KK-reduction]] of [[D=10 supergravity]] and [[D=11 supergravity]] on [[squashed sphere|squashed]] [[7-spheres]]:
 
-* {#DuboeufMalekSamtleben23} Bastien Duboeuf, [[Emanuel Malek]], [[Henning Samtleben]],
-*Kaluza-Klein Spectrometry beyond Consistent Truncations: The Squashed $S^7$*,  J. High Energ. Phys. **2023** 62 (2023) &lbrack;[arXiv:2212.01135](https://arxiv.org/abs/2212.01135), <a href="https://doi.org/10.1007/JHEP04(2023)062">doi:10.1007/JHEP04(2023)062</a>&rbrack;
-
-On [[super p-brane]] [[sigma-models]] via [[exceptional geometry]]:
-
-* [[David Osten]]: *Currents, charges and algebras in exceptional generalised geometry*,  J. High Energ. Phys. **2021** 70 (2021) &lbrack;[arXiv:2103.03267](https://arxiv.org/abs/2103.03267), <a href="https://doi.org/10.1007/JHEP06(2021)070">doi:10.1007/JHEP06(2021)070</a>&rbrack;
-
-* [[David Osten]]: *On exceptional QP-manifolds*, J. High Energ. Phys. **2024** 28 (2024). &lbrack;[arXiv:2306.11093](https://arxiv.org/abs/2306.11093), <a href="https://doi.org/10.1007/JHEP01(2024)028">doi:10.1007/JHEP01(2024)028</a>&rbrack;
-
-* [[David Osten]]: *On the universal exceptional structure of world-volume theories in string and M-theory*, Physics Letters B **855** (2024) 138814 &lbrack;[arXiv:2402.10269](https://arxiv.org/abs/2402.10269), [doi:10.1016/j.physletb.2024.138814](https://doi.org/10.1016/j.physletb.2024.138814)&rbrack;
+* {#DuboeufMalekSamtleben23} Bastien Duboeuf, [[Emanuel Malek]], [[Henning Samtleben]]: *Kaluza-Klein Spectrometry beyond Consistent Truncations: The Squashed $S^7$*,  J. High Energ. Phys. **2023** 62 (2023) &lbrack;[arXiv:2212.01135](https://arxiv.org/abs/2212.01135), <a href="https://doi.org/10.1007/JHEP04(2023)062">doi:10.1007/JHEP04(2023)062</a>&rbrack;
 
 
+
+
+
+[[!include exceptional-geometric brane sigma-models -- references]]
 
 
 
