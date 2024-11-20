@@ -880,8 +880,7 @@ A talk about the historical origins of the standard Chern-Simons forms see
 
 A discussion of Chern-Simons theory as a canonical object in [[infinity-Chern-Weil theory]] and its [[higher geometric quantization]] is in
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
- {#FiorenzaSatiSchreiber}
+* {#FiorenzaSatiSchreiber} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_, in: *Mathematical Aspects of Quantum Field Theories*, Mathematical Physics Studies, Springer (2014) 153-211 &lbrack;[arXiv:1301.2580](https://arxiv.org/abs/1301.2580), [doi:10.1007/978-3-319-09949-1](https://doi.org/10.1007/978-3-319-09949-1)&rbrack; 
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_
 
