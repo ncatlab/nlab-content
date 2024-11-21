@@ -487,8 +487,12 @@ Original discussion:
 
 * [[Hermann Weyl]], §III.13 in: *Gruppentheorie und Quantenmechanik*, S. Hirzel, Leipzig (1931), translated by H. P. Robertson: *The Theory of Groups and Quantum Mechanics*, Dover (1950) &lbrack;[ISBN:0486602699](https://store.doverpublications.com/0486602699.html), [ark:/13960/t1kh1w36w](https://archive.org/details/ost-chemistry-quantumtheoryofa029235mbp/page/n15/mode/2up)&rbrack;
 
+Exposition:
 
-Monographs
+* D. S. Passman: *What is a Group Ring?*, The American Mathematical Monthly **83** 3 (1976)  &lbrack;[doi:10.1080/00029890.1976.11994069](https://doi.org/10.1080/00029890.1976.11994069)&rbrack;
+
+
+Monographs:
 
 for the case of [[locally compact topological groups]]:
 
