@@ -59,7 +59,7 @@ proteins.
 
 * [[Ludwig D. Faddeev]], V. E. Korepin, _Quantum theory of solitons_ (1987)
 
-* [[David Tong]], _TASI Lectures on Solitons_ ([web](http://www.damtp.cam.ac.uk/user/tong/tasi.html)), 
+* [[David Tong]]: *TASI Lectures on Solitons*, lectures at *[TASI 2005](https://www.colorado.edu/physics/events/summer-intensive-programs/theoretical-advanced-study-institute-elementary-particle-physics#2005)* &lbrack;[arXiv:hep-th/0509216](https://arxiv.org/abs/hep-th/0509216), [web](http://www.damtp.cam.ac.uk/user/tong/tasi.html)&rbrack; 
 
 * Anastasia Doikou, Iain Findlay, _Solitons: conservation laws & dressing methods_ ([arXiv:1812.11914](https://arxiv.org/abs/1812.11914))
 
