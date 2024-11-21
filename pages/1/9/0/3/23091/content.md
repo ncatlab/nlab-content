@@ -47,12 +47,14 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 
 * [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], *Algebraic topology from a homotopical viewpoint*, Springer (2008) ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
 
-* [[Jeffrey Strom]], *Modern classical homotopy theory*, Graduate Studies in Mathematics **127**, American Mathematical Society (2011) $[$[doi:10.1090/gsm/127](http://www.ams.org/books/gsm/127/)$]$
+* [[Jeffrey Strom]], *Modern classical homotopy theory*, Graduate Studies in Mathematics **127**, American Mathematical Society (2011) \[<a href="http://www.ams.org/books/gsm/127">ams:gsm/127</a>\]
 
-* [[Martin Arkowitz]], *Introduction to Homotopy Theory*, Springer (2011) $[$[doi:10.1007/978-1-4419-7329-0](https://doi.org/10.1007/978-1-4419-7329-0)$]$
+* [[Martin Arkowitz]], *Introduction to Homotopy Theory*, Springer (2011) \[<a href="https://doi.org/10.1007/978-1-4419-7329-0">doi:10.1007/978-1-4419-7329-0</a>\]
+
+* [[Anatoly Fomenko]], [[Dmitry Fuchs]]: *Homotopical Topology*, Graduate Texts in Mathematics **273**, Springer (2016) \[<a href="https://doi.org/10.1007/978-3-319-23488-5">doi:10.1007/978-3-319-23488-5</a>, <a href="https://www.cimat.mx/~gil/docencia/2020/topologia_diferencial/[Fomenko,Fuchs]Homotopical_Topology(2016).pdf">pdf</a>\]
+
 
 * [[Dai Tamaki]], *Fiber Bundles and Homotopy*, World Scientific (2021) \[<a href="https://doi.org/10.1142/12308">doi:10.1142/12308</a>\]
-
   > (motivated from [[classifying spaces]] for [[principal bundles]]/[[fiber bundles]])
 
 
