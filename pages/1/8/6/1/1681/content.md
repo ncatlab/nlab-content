@@ -260,11 +260,14 @@ Early review is in
 Textbook accounts:
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf), [doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
-
   > (EM-spaces are constructed in section 6, the cohomology theory they represent is discussed in section 7.1, and its equivalence to singular cohomology is Corollary 12.1.20)
 
 
 * {#May} [[Peter May]], Chapter 22 of: _A concise course in algebraic topology_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/maybook.pdf))
+
+* [[Anatoly Fomenko]], [[Dmitry Fuchs]], §11.7-8 & p 263 in: *Homotopical Topology*, Graduate Texts in Mathematics **273**, Springer (2016) \[<a href="https://doi.org/10.1007/978-3-319-23488-5">doi:10.1007/978-3-319-23488-5</a>, <a href="https://www.cimat.mx/~gil/docencia/2020/topologia_diferencial/[Fomenko,Fuchs]Homotopical_Topology(2016).pdf">pdf</a>\]
+  > (EM-spaces appear in §11.7-8 and that maps to them give ordinary cohomology is proven on p. 263)
+
 
 Lecture notes:
 
