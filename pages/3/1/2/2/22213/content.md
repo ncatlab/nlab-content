@@ -22,7 +22,7 @@ A *tabulator* is a kind of [[double limit]], i.e. a [[limit]] in a [[double cate
 
 ## Definition
 
-The _tabulator_ of a [[vertical morphism]] $u \colon A \nrightarrow B$ in a [[double category]] $\mathbb{D}$ consists of an object $Tu$ and a [[2-morphism]]
+The _tabulator_ of a [[loose morphism]] $u \colon A \nrightarrow B$ in a [[double category]] $\mathbb{D}$ consists of an object $Tu$ and a [[2-morphism]]
 \begin{tikzcd}
 Tu
 \arrow[r, "p"]
@@ -50,12 +50,12 @@ X
 \arrow[r, "g"']
 & B
 \end{tikzcd}
-there is a unique horizontal morphism $x \colon X \rightarrow T u$ such that 
+there is a unique tight morphism $x \colon X \rightarrow T u$ such that 
 $\tau_{u} x = \xi$. 
 
 2. The tetrahedron condition holds (see [Paré, page 478](#Pare2011)). 
 
-If only the first universal property holds, we say that the vertical morphism has a _$1$-tabulator_. 
+If only the first universal property holds, we say that the loose morphism has a _$1$-tabulator_. 
 
 ## Properties
 
