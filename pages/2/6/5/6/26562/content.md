@@ -82,13 +82,15 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 ### Probability and measure theory
 
+* Aldous-Hoover theorem: proven using [[Markov categories]] in [CFGKL](#aldous_hoover).
+
 * Approximations of Markov chains: [CDPP'09](#approx_markov), [DDGS'18](#krn).
 
 * [[Carathéodory's extension theorem]]: proven using [[probability monads]] (as [[codensity monads]]) in [Van Belle'22](#vb_codensity).
 
 * [[conditional expectation|Conditional expectations]]: first expressed categorically in [Panangaden](#panangaden_condexp)  and [CDPP'09](#approx_markov), then in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales) then using [[partial evaluations]] in [Perrone'18](#Perrone_thesis), [FP'20](#pev) and [FGPR'23](#fritz_representable), and finally in [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger) and [Perrone-Van Belle'24](#dagger_martingales).
 
-* [[De Finetti's theorem]]: stated, interpreted and proven in terms of [[Markov categories]] with [[probability monads]]. Main results in [Fritz-Gonda-Perrone'21](#fritz_definetti), see also [Moss-Perrone'22](#det_submonad) for further context. An analogous result was proven in the [[category of couplings]], [Ensarguet-Perrone'23](#ergodic_dagger). An additional, independent categorical approach is given in [Jacobs-Staton'20](#definetti_limit).
+* [[De Finetti's theorem]]: stated, interpreted and proven in terms of [[Markov categories]] with [[probability monads]]. Main results in [Fritz-Gonda-Perrone'21](#fritz_definetti), see also [Moss-Perrone'22](#det_submonad) and [CFGKL](#aldous_hoover) for further context. An analogous result was proven in the [[category of couplings]], [Ensarguet-Perrone'23](#ergodic_dagger). An additional, independent categorical approach is given in [Jacobs-Staton'20](#definetti_limit).
 
 * [[ergodic decomposition|Ergodic decomposition theorem]]: proven for deterministic [[dynamical systems]] using [[Markov categories]] in [Moss-Perrone'23](#markov_ergodic), and extended to the stochastic case using [[Markov categories]] and [[categories of couplings]] in [Ensarguet-Perrone'23](#ergodic_dagger).
 
@@ -265,6 +267,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 * {#vanbreugel} Franck van Breugel, _The metric monad for probabilistic nondeterminism_, unpublished, 2005. ([pdf](http://www.cse.yorku.ca/~franck/research/drafts/monad.pdf))
 
 * {#approx_markov} Philippe Chaput, Vincent Danos, [[Prakash Panangaden]] and [[Gordon Plotkin]], _Approximating Markov processes by averaging_, Proceedings of ICALP 2009. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/new_plain.pdf))
+
+* {#aldous_hoover} Leihao Chen, [[Tobias Fritz]], Tomáš Gonda, Andreas Klingler, Antonio Lorenzin, _The Aldous-Hoover Theorem in Categorical Probability_, ([arXiv:2411.12840](https://arxiv.org/abs/2411.12840))
 
 * {#Chentsov65} N. N. Chentsov, _The categories of mathematical statistics_, Dokl. Akad. SSSR 164, 1965.
 
