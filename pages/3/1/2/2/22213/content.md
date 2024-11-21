@@ -22,7 +22,7 @@ A *tabulator* is a kind of [[double limit]], i.e. a [[limit]] in a [[double cate
 
 ## Definition
 
-The _tabulator_ of a [[loose morphism]] $u \colon A \nrightarrow B$ in a [[double category]] $\mathbb{D}$ consists of an object $Tu$ and a [[2-morphism]]
+The _tabulator_ of a [[loose morphism]] $u \colon A \nrightarrow B$ in a [[double category]] $\mathbb{D}$ consists of an object $T u$ and a [[2-morphism]]
 \begin{tikzcd}
 Tu
 \arrow[r, "p"]
