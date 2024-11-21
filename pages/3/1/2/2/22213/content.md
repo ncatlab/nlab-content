@@ -37,23 +37,23 @@ Tu
 \end{tikzcd}
 with the universal properties:
 
-1. For every [[2-morphism]] 
+  1. For every [[2-morphism]] 
 \begin{tikzcd}
-X
-\arrow[r, "f"]
-\arrow[d, "\bullet"{anchor=center}, "id"']
-\arrow[rd, phantom, "\xi"]
-& A
-\arrow[d, "\bullet"{anchor=center}, "u"]
-\\
-X
-\arrow[r, "g"']
-& B
+   X
+   \arrow[r, "f"]
+   \arrow[d, "\bullet"{anchor=center}, "id"']
+   \arrow[rd, phantom, "\xi"]
+   & A
+   \arrow[d, "\bullet"{anchor=center}, "u"]
+   \\
+   X
+   \arrow[r, "g"']
+   & B
 \end{tikzcd}
-there is a unique tight morphism $x \colon X \rightarrow T u$ such that 
-$\tau_{u} x = \xi$. 
+  there is a unique tight morphism $x \colon X \rightarrow T u$ such that 
+    $\tau_{u} x = \xi$. 
 
-2. The tetrahedron condition holds (see [Paré, page 478](#Pare2011)). 
+  2. The tetrahedron condition holds (see [Paré, page 478](#Pare2011)). 
 
 If only the first universal property holds, we say that the loose morphism has a _$1$-tabulator_. 
 
