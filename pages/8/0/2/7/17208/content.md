@@ -1019,9 +1019,13 @@ Prop. \ref{HGroupRingSpectrumSurjectsOntoTopologicalKTheory} is sharpened by _[[
 
 Textbook accounts:
 
+* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Exp. 14.22 of: _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer (1982) &lbrack;[doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0)&rbrack;
+
 * {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
-* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Exp. 14.22 of: _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0))
+
+* [[Anatoly Fomenko]], [[Dmitry Fuchs]], §1.3 & p. 139 in: *Homotopical Topology*, Graduate Texts in Mathematics **273**, Springer (2016) \[<a href="https://doi.org/10.1007/978-3-319-23488-5">doi:10.1007/978-3-319-23488-5</a>, <a href="https://www.cimat.mx/~gil/docencia/2020/topologia_diferencial/[Fomenko,Fuchs]Homotopical_Topology(2016).pdf">pdf</a>\]
+
 
 In the context of [[quantum state spaces]]:
 
