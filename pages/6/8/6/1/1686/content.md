@@ -811,11 +811,11 @@ An elementary pedagogical introduction is in
 * [[Timothy Chow]], _You could have invented spectral sequences_, Notices of the AMS (2006) ([pdf](http://www.ams.org/notices/200601/fea-chow.pdf))
  {#Chow}
 
-Textbook accounts include
+Textbook accounts:
 
-* [[John McCleary]], _A User's Guide to Spectral Sequences_, Cambridge University Press 
+* [[John McCleary]]: *A User's Guide to Spectral Sequences*, Cambridge University Press (2010) &lbrack;[doi:10.1017/CBO9780511626289](https://doi.org/10.1017/CBO9780511626289)&rbrack;
 
-* {#Weibel} [[Charles Weibel]], chapter 5, _An introduction to homological algebra_ Cambridge studies in advanced mathematics 38 (1994)
+* {#Weibel} [[Charles Weibel]], chapter 5 of: _An introduction to homological algebra_ Cambridge studies in advanced mathematics 38 (1994)
 
 
 * [[Raoul Bott]], [[Loring Tu]], section 14 of _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
