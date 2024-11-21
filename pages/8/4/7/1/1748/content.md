@@ -246,7 +246,13 @@ Note that a homotopy is not the same as an [[identification]] $f = g$. However t
 
 ## References 
 
-See the references at _[[homotopy theory]]_ and at _[[model category]]_.
+> See also the references at _[[homotopy theory]]_ and at _[[model category]]_.
+
+Textbook accounts:
+
+
+* [[Anatoly Fomenko]], [[Dmitry Fuchs]], §3.1 in: *Homotopical Topology*, Graduate Texts in Mathematics **273**, Springer (2016) \[<a href="https://doi.org/10.1007/978-3-319-23488-5">doi:10.1007/978-3-319-23488-5</a>, <a href="https://www.cimat.mx/~gil/docencia/2020/topologia_diferencial/[Fomenko,Fuchs]Homotopical_Topology(2016).pdf">pdf</a>\]
+
 
 Discussion in [[computational topology]]:
 
