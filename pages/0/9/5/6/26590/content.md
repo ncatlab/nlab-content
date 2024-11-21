@@ -97,6 +97,8 @@ Moreover, since the [[iid random variables#iid_samples|iid sampling map]] denote
 
 Just as it happens for [[standard Borel spaces]], in any [[observational monad|observationally]] [[Markov category#representable_markov_categories|representable Markov category]] with [[Markov category#conditionals|conditionals]] and [[Markov category#kolmogorov_products|Kolmogorov products]], a version of de Finetti's theorem holds, and the proof is completely analogous to the measure-theoretic one ([FGP'21](#fritz_definetti)).
 
+See also ([CFGKL](#aldous_hoover)) for a similar statement under different assumptions.
+
 Conversely, one can define *de Finetti limits* in a Markov category as particular [[limits]] which are compatible with the Markov structure, and show that such a limit always gives a [[probability monad]], making the Markov category representable ([FFL'23](#quantum_definetti), section 3.6).
   
 
@@ -139,6 +141,8 @@ Category-theoretic accounts:
 * {#fritz_representable} [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], Eigil Fjeldgren Rischel, _Representable Markov categories and comparison of statistical experiments in categorical probability_, Theoretical Computer Science 961, 2023. ([arXiv:2010.07416](https://arxiv.org/abs/2010.07416))
 
 * {#ergodic_dagger} Noé Ensarguet, [[Paolo Perrone]], Categorical probability spaces, ergodic decompositions, and transitions to equilibrium, [arXiv:2310.04267](https://arxiv.org/abs/2310.04267)
+
+* {#aldous_hoover} Leihao Chen, [[Tobias Fritz]], Tomáš Gonda, Andreas Klingler, Antonio Lorenzin, _The Aldous-Hoover Theorem in Categorical Probability_, ([arXiv:2411.12840](https://arxiv.org/abs/2411.12840))
 
 
 For the quantum case:
