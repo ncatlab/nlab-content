@@ -79,7 +79,7 @@ and expanded on in
 
 The BRST formalism originates around
 
-* [[Carlo Becchi]], A. Rouet, [[Raymond Stora]], (1976). Renormalization of gauge theories. Ann. Phys. 98: 287,
+* [[Carlo Becchi]], A. Rouet, [[Raymond Stora]]: *Renormalization of gauge theories*, Ann. Phys. **98** 287 (1976)
 
  * [[I. V. Tyutin]], (1975), _Gauge Invariance in Field Theory and Statistical Physics in Operator Formalism_, [arXiv:0812.0580](https://arxiv.org/abs/0812.0580).
 
