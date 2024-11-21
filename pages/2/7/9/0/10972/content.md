@@ -40,6 +40,12 @@ A review of the history of the discovery is here:
 
 [[!include superconducting qbits -- references]]
 
+### Via holography
+
+* Fabiano F. Santos, Henrique Boschi-Filho: *Geometric Josephson junction* &lbrack;[arXiv:2407.10008](https://arxiv.org/abs/2407.10008)&rbrack;
+
+
+
 
 
 [[!redirects Josephson's effect]]
