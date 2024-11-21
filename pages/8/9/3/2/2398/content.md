@@ -30,7 +30,7 @@
 
 The **de Rham theorem** (named after [[Georges de Rham]]) asserts that the [[de Rham cohomology]] $H^n_{dR}(X)$ of a smooth [[manifold]] $X$ (without boundary) is [[isomorphism|isomorphic]] to the [[real cohomology]] $H^n(X, \mathbb{R})$, hence its [[ordinary cohomology]] with [[real number]] [[coefficients]], as computed for instance by the [[singular cohomology|singular]] or [[Čech cohomology]] with real coefficients. 
 
-The theorem has several dozens of different proofs. For example in the &#268;ech approach one can make a double complex whose first row is the &#268;ech complex of a covering and first column is the de Rham complex and other entries are mixed and use spectral sequence argument (see the textbook of Bott and Tu, or the geometry lectures book by Postnikov, semester III). 
+The theorem has several dozens of different proofs. For example in the &#268;ech approach one can make a double complex whose first row is the &#268;ech complex of a covering and first column is the de Rham complex and other entries are mixed and use spectral sequence argument (cf. [Bott & Tu 1982](#BottTu82), [Postnikov 1989](#Postnikov89)). 
  
 This is maybe best formulated, understood and proven in the context of [[abelian sheaf cohomology]]:
 
@@ -126,7 +126,7 @@ Specifically
 The de Rham theorem in $\mathcal{T}$ then asserts that for $X$ a manifold regarded as an object in the well-adapted smooth topos $\mathcal{T}$ the morphism
 
 $$
-  \int : H^p(X) \to H_p(X,R)^*
+  \textstyle{\int} \;\colon\; H^p(X) \to H_p(X,R)^*
 $$
 
 in $\mathcal{T}$ is an [[isomorphism]] for all $p \in \mathbb{N}$. This implies the standard (external) de Rham theorem.
@@ -135,9 +135,9 @@ This is discussed in chapter IV of
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ for the toposes $\mathcal{T} = \mathcal{G}, \mathcal{F}$ (see [models](http://ncatlab.org/nlab/show/Models+for+Smooth+Infinitesimal+Analysis#Models)).
 
-A little bit a long these lines for [[diffeological space]]s is also in
+Discussion for [[diffeological spaces]]:
 
-* Patrick Iglesias-Zemmour, _De Rham calculus_ ([pdf](http://math.huji.ac.il/~piz/documents/D6.pdf))
+* [[Patrick Iglesias-Zemmour]], _De Rham calculus_ ([pdf](http://math.huji.ac.il/~piz/documents/D6.pdf))
 
 ## Related concepts
 
@@ -166,10 +166,10 @@ A little bit a long these lines for [[diffeological space]]s is also in
 
 Textbook accounts:
 
+* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Thm. 8.9 & Prop. 10.6 of: *[[Differential Forms in Algebraic Topology]]*, Springer (1982) &lbrack;[doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0)&rbrack;
 
-* [[M M Postnikov]], *Differentiable manifolds*, vol. III of: *Lectures on geometry,*
+* {#Postnikov89} [[M M Postnikov]], *Differentiable manifolds*, vol. III of: *Lectures on geometry* (1989) &lbrack;[ark:/13960/s2ccbwqpt99](https://archive.org/details/postnikov-lectures-in-geometry-semester-3-smooth-manifolds-mir-1989/page/7/mode/2up)&rbrack; 
 
-* [[Raoul Bott]], [[Loring Tu]], Thm. 8.9 & Prop. 10.6 of: _[[Differential Forms in Algebraic Topology]]_, Springer (1982)
 
 * [[Jean Gallier]], [[Jocelyn Quaintance]], Ch. 9 in: *Homology, Cohomology, and Sheaf Cohomology for Algebraic Topology, Algebraic Geometry, and Differential Geometry*, World Scientific (2022) &lbrack;[doi:10.1142/12495](https://doi.org/10.1142/12495), [webpage](https://www.cis.upenn.edu/~jean/gbooks/sheaf-coho.html)&rbrack;
 
