@@ -1035,7 +1035,7 @@ See also
 * Wikipedia, _[Complex projective space](https://en.wikipedia.org
 /wiki/Complex_projective_space)_
 
-[[Topological complexity]] of complex projective space:
+[[topological complexity|Topological complexity]] of complex projective space:
 
 * {#FarberTabachnikovYuzvinsky02} [[Michael Farber]], [[Serge Tabachnikov]], [[Sergey Yuzvinsky]], _Topological robotics: motion planning in projective spaces_ (2002), [arXiv:math/0210018](https://arxiv.org/abs/math/0210018);
 
