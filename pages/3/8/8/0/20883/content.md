@@ -359,7 +359,12 @@ reviewed in
 
 Discussion of [[fundamental representation|fundamental]] $\mathfrak{gl}(n)$-weight systems in terms of [[Cayley distance kernels]] on the [[symmetric group]]:
 
-* {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]* ([arXiv:2105.02871](https://arxiv.org/abs/2105.02871))
+* {#CSS21} [[David Corfield]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Fundamental weight systems are quantum states]]*, Letters in Mathematical Physics **113** 112 (2023) &lbrack;[arXiv:2105.02871](https://arxiv.org/abs/2105.02871), [doi:10.1007/s11005-023-01725-4](https://doi.org/10.1007/s11005-023-01725-4)&rbrack;
+
+See also:
+
+* Dmitry Khudoteplov, Elena Lanina, Alexey Sleptsov: *Construction of Lie algebra weight system kernel via Vogel algebra* &lbrack;[arXiv:2411.14417](https://arxiv.org/abs/2411.14417)&rbrack;
+
 
 ### Via string diagrams
 
