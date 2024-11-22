@@ -313,7 +313,7 @@ See also
 * Wikipedia, _[Courant algebroid](http://en.wikipedia.org/wiki/Courant_algebroid)_
 
 
-The relation between the two different Lie-alebroid-like  definition of Courant algebroids, one with skew, the other with non-skew brackets inspired on the level of [[L-infinity algebra|Lie 2-algebras]] the treatment
+The relation between the two different Lie-algebroid-like  definition of Courant algebroids, one with skew, the other with non-skew brackets inspired on the level of [[L-infinity algebra|Lie 2-algebras]] the treatment
 
 * [[Dmitry Roytenberg]], _On weak Lie 2-algebras_ ([arXiv/0712.3461](http://arxiv.org/abs/0712.3461))
 
