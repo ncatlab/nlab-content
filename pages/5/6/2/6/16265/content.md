@@ -41,7 +41,7 @@ The appeal to the axiom of choice _in the form discussed above_ is unnecessary, 
 
 ## Without the axiom of choice
 
-However, it is possible to recover some of König's theorem in the absence of the axiom of choice. For sets $A$, $B$, define $(A \nsucceq B)$ to be the set of assignments $f \mapsto n(f)$ which for each partial function $f:A \rightharpoonup B$ specify an element $n(f) \in B \setminus im(f)$. This set being nonempty imiplies a strong form of "there are no partial surjections $A \twoheadrightarrow B$" (aka $A \ngeq^* B$), and the definition is as one might define $A \ngeq^* B$ using [[propositions as types]]. Conversely, if AC holds, then the $(A \nsucceq B)$ is nonempty iff $A \lt B$.
+However, it is possible to recover some of König's theorem in the absence of the axiom of choice. For sets $A$, $B$, define $(A \nsucceq B)$ to be the set of assignments $f \mapsto n(f)$ which for each partial function $f:A \rightharpoonup B$ specify an element $n(f) \in B \setminus im(f)$. This set being nonempty implies a strong form of "there are no partial surjections $A \twoheadrightarrow B$" (aka $A \ngeq^* B$), and the definition is as one might define $A \ngeq^* B$ using [[propositions as types]]. Conversely, if AC holds, then the $(A \nsucceq B)$ is nonempty iff $A \lt B$.
 
 +-- {: .num_theorem} 
 ###### Proposition 
