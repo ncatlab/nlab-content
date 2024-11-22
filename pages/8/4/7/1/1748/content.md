@@ -253,6 +253,8 @@ Textbook accounts:
 
 * [[Anatoly Fomenko]], [[Dmitry Fuchs]], §3.1 in: *Homotopical Topology*, Graduate Texts in Mathematics **273**, Springer (2016) \[<a href="https://doi.org/10.1007/978-3-319-23488-5">doi:10.1007/978-3-319-23488-5</a>, <a href="https://www.cimat.mx/~gil/docencia/2020/topologia_diferencial/[Fomenko,Fuchs]Homotopical_Topology(2016).pdf">pdf</a>\]
 
+* [[Adam Marsh]]: Fig. 4.2.2 in: _Mathematics for Physics: An Illustrated Handbook_, World Scientific (2018) &lbrack;[doi:10.1142/10816](https://doi.org/10.1142/10816), [book webpage](https://www.mathphysicsbook.com/)&rbrack;
+
 
 Discussion in [[computational topology]]:
 
