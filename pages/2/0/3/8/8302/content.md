@@ -249,6 +249,14 @@ In terms of [[current (distribution theory)|currents]]:
 
 * [[Georges de Rham]], Chapter IV of: *Differentiable Manifolds -- Forms, Currents, Harmonic Forms*, Grundlehren **266**, Springer (1984) &lbrack;[doi:10.1007/978-3-642-61752-2](https://doi.org/10.1007/978-3-642-61752-2)&rbrack;
 
+Textbook accounts:
+
+* {#Hatcher02} [[Allen Hatcher]], §2 in: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
+
+
+* [[Anatoly Fomenko]], [[Dmitry Fuchs]], §2 in: *Homotopical Topology*, Graduate Texts in Mathematics **273**, Springer (2016) \[<a href="https://doi.org/10.1007/978-3-319-23488-5">doi:10.1007/978-3-319-23488-5</a>, <a href="https://www.cimat.mx/~gil/docencia/2020/topologia_diferencial/[Fomenko,Fuchs]Homotopical_Topology(2016).pdf">pdf</a>\]
+
+
 Comprehensive monograph:
 
 * [[Jean Gallier]], [[Jocelyn Quaintance]], *Homology, Cohomology, and Sheaf Cohomology for Algebraic Topology, Algebraic Geometry, and Differential Geometry*, World Scientific (2022) &lbrack;[doi:10.1142/12495](https://doi.org/10.1142/12495), [webpage](https://www.cis.upenn.edu/~jean/gbooks/sheaf-coho.html)&rbrack;
