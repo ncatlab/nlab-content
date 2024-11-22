@@ -8,9 +8,9 @@ On the conjectural [[D-brane charge quantization in topological K-theory]]:
 
 The idea that [[D-branes]] have [[Dirac charge quantization]] in [[topological K-theory]] originates with the observation that their charge expressed in [[RR-field]] [[flux densities]] resembles the image of a [[Chern character]]:
 
-* {#GreenHarveyMoore97} [[Michael Green]], [[Jeffrey A. Harvey]], [[Gregory Moore]], *I-Brane Inflow and Anomalous Couplings on D-Branes*, Class. Quant. Grav. **14** (1997) 47-52 $[$[arXiv:hep-th/9605033](https://arxiv.org/abs/hep-th/9605033), [doi:10.1088/0264-9381/14/1/008](https://doi.org/10.1088/0264-9381/14/1/008)$]$
+* {#GreenHarveyMoore97} [[Michael Green]], [[Jeffrey A. Harvey]], [[Gregory Moore]], *I-Brane Inflow and Anomalous Couplings on D-Branes*, Class. Quant. Grav. **14** (1997) 47-52 \[<a href="https://doi.org/10.1088/0264-9381/14/1/008">doi:10.1088/0264-9381/14/1/008</a>, [arXiv:hep-th/9605033](https://arxiv.org/abs/hep-th/9605033)\]
 
-* {#MinasianMoore97} [[Ruben Minasian]], [[Gregory Moore]], *K-theory and Ramond-Ramond charge*, JHEP 9711:002 (1997) $[$[arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230), [doi:10.1088/1126-6708/1997/11/002](https://doi.org/10.1088/1126-6708/1997/11/002)$]$
+* {#MinasianMoore97} [[Ruben Minasian]], [[Gregory Moore]], *K-theory and Ramond-Ramond charge*, JHEP 9711:002 (1997) \[<a href="https://doi.org/10.1088/1126-6708/1997/11/002">doi:10.1088/1126-6708/1997/11/002</a>, [arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230)\]
 
 Further early discussion:
 
@@ -18,7 +18,7 @@ Further early discussion:
 
 * {#Horava98} [[Petr Hořava]], *Type IIA D-Branes, K-Theory, and Matrix Theory* (1998). ([hep-th/9812135](https://arxiv.org/abs/hep-th/9812135)).
 
-* {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], *On Ramond-Ramond fields and K-theory*, JHEP 0005 (2000) 044 $[$[arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027), [doi:10.1088/1126-6708/2000/05/044](https://doi.org/10.1088/1126-6708/2000/05/044)$]$
+* {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], *On Ramond-Ramond fields and K-theory*, JHEP 0005 (2000) 044 \[<a href="https://doi.org/10.1088/1126-6708/2000/05/044">doi:10.1088/1126-6708/2000/05/044</a>, [arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027)\]
 
 and with emphasis on the full picture of [[twisted differential K-theory|twisted]] [[differential K-theory]] in:
 
@@ -63,7 +63,7 @@ Understanding the [[solitonic brane|solitonic]] (non-singular) D-branes and thei
  
 Towards a [[BFSS matrix model|matrix model]] taking these K-theoretic effects into account ([[K-matrix model]]):
 
-* {#AsakawaSugimotoTerashima01} [[Tsuguhiko Asakawa]], [[Shigeki Sugimoto]], [[Seiji Terashima]], *D-branes, Matrix Theory and K-homology*, JHEP 0203 (2002) 034 $[$[arXiv:hep-th/0108085](https://arxiv.org/abs/hep-th/0108085), [doi:10.1088/1126-6708/2002/03/034](https://doi.org/10.1088/1126-6708/2002/03/034)$]$
+* {#AsakawaSugimotoTerashima01} [[Tsuguhiko Asakawa]], [[Shigeki Sugimoto]], [[Seiji Terashima]], *D-branes, Matrix Theory and K-homology*, JHEP 0203 (2002) 034 \[<a href="https://doi.org/10.1088/1126-6708/2002/03/034">doi:10.1088/1126-6708/2002/03/034</a>, [arXiv:hep-th/0108085](https://arxiv.org/abs/hep-th/0108085)\]
 
 
 
@@ -73,7 +73,7 @@ Discussion of charge quantization in [[twisted K-theory]] for the case of non-va
 
 * [Witten 98, Sec. 5.3](#Witten98) (for [[torsion subgroup|torsion]] twists)
 
-* [[Peter Bouwknegt]], [[Varghese Mathai]], *D-branes, B-fields and twisted K-theory*, Int. J. Mod. Phys. A **16** (2001) 693-706 $[$[arXiv:hep-th/0002023](https://arxiv.org/abs/hep-th/0002023), [doi:10.1088/1126-6708/2000/03/007](https://doi.org/10.1088/1126-6708/2000/03/007)$]$
+* [[Peter Bouwknegt]], [[Varghese Mathai]], *D-branes, B-fields and twisted K-theory*, Int. J. Mod. Phys. A **16** (2001) 693-706 \[<a href="https://doi.org/10.1088/1126-6708/2000/03/007">doi:10.1088/1126-6708/2000/03/007</a>, [arXiv:hep-th/0002023](https://arxiv.org/abs/hep-th/0002023)\]
 
 An elaborate proposal for the correct flavour of [[equivariant K-theory|equivariant]] [[KR-theory]] needed for [[orientifolds]] is sketched in:
 
@@ -82,7 +82,7 @@ An elaborate proposal for the correct flavour of [[equivariant K-theory|equivari
 
 Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type II string theory]] 
 
-* {#GradySati19a} [[Daniel Grady]], [[Hisham Sati]], *Ramond-Ramond fields and twisted differential K-theory*, Advances in Theoretical and Mathematical Physics **26** 5 (2022)  $[$[doi:10.4310/ATMP.2022.v26.n5.a2](https://dx.doi.org/10.4310/ATMP.2022.v26.n5.a2), [arXiv:1903.08843](https://arxiv.org/abs/1903.08843)$]$
+* {#GradySati19a} [[Daniel Grady]], [[Hisham Sati]], *Ramond-Ramond fields and twisted differential K-theory*, Advances in Theoretical and Mathematical Physics **26** 5 (2022)  \[<a href="https://dx.doi.org/10.4310/ATMP.2022.v26.n5.a2">doi:10.4310/ATMP.2022.v26.n5.a2</a>, [arXiv:1903.08843](https://arxiv.org/abs/1903.08843)\]
 
 Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[KO-theory|orthogonal]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type I string theory]] (on [[orientifolds]]):
 
@@ -107,7 +107,7 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 * {#Evslin06} [[Jarah Evslin]], _What Does(n't) K-theory Classify?_, Modave Summer School in Mathematical Physics ([arXiv:hep-th/0610328](https://arxiv.org/abs/hep-th/0610328), [spire:730502](https://inspirehep.net/literature/730502))
 
 
-* {#Fredenhagen08} [[Stefan Fredenhagen]], _Physical Background to the K-Theory Classification of D-Branes: Introduction and References_ ([doi:10.1007/978-3-540-74956-1_1](https://doi.org/10.1007/978-3-540-74956-1_1)), chapter in: [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin Schottenloher]],  _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer (2008) 1-9 $[$[doi:10.1007/978-3-540-74956-1](https://doi.org/10.1007/978-3-540-74956-1), [pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf)$]$
+* {#Fredenhagen08} [[Stefan Fredenhagen]], _Physical Background to the K-Theory Classification of D-Branes: Introduction and References_ ([doi:10.1007/978-3-540-74956-1_1](https://doi.org/10.1007/978-3-540-74956-1_1)), chapter in: [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin Schottenloher]],  _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer (2008) 1-9 \[<a href="https://doi.org/10.1007/978-3-540-74956-1">doi:10.1007/978-3-540-74956-1</a>, [pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf)\]
 
 * [[Fabio Ruffino]], _Topics on topology and superstring theory_ ([arXiv:0910.4524](http://arxiv.org/abs/0910.4524))
 
@@ -131,11 +131,11 @@ based on
 
 * {#ReisSzabo05} Rui Reis, [[Richard Szabo]], _Geometric K-Homology of Flat D-Branes_ , Commun. Math. Phys. **266** (2006) 71-122 &lbrack;[arXiv:hep-th/0507043](https://arxiv.org/abs/hep-th/0507043)&rbrack;
 
-* {#BrodzkiMathaiRosenbergSzabo06} [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. **277** (2008) 643-706 $[$[arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020), [doi:10.1007/s00220-007-0396-y](https://doi.org/10.1007/s00220-007-0396-y)$]$
+* {#BrodzkiMathaiRosenbergSzabo06} [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. **277** (2008) 643-706 \[<a href="https://doi.org/10.1007/s00220-007-0396-y">doi:10.1007/s00220-007-0396-y</a>, [arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020)\]
 
 * {#BMRS2} [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]],  _Noncommutative correspondences, duality and D-branes in bivariant K-theory_, Adv. Theor. Math. Phys. 13:497-552, 2009 ([arXiv:0708.2648](http://arxiv.org/abs/0708.2648))
  
-* [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]],  _D-branes, KK-theory and duality on noncommutative spaces_, J. Phys. Conf. Ser. **103** 012004 (2008) $[$[arXiv:0709.2128](http://arxiv.org/abs/0709.2128), [doi:10.1088/1742-6596/103/1/012004](https://doi.org/10.1088/1742-6596/103/1/012004)$]$
+* [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]],  _D-branes, KK-theory and duality on noncommutative spaces_, J. Phys. Conf. Ser. **103** 012004 (2008) \[<a href="https://doi.org/10.1088/1742-6596/103/1/012004">doi:10.1088/1742-6596/103/1/012004</a>, [arXiv:0709.2128](http://arxiv.org/abs/0709.2128)\]
 
 In particular ([BMRS2](#BMRS2)) discusses the definition and construction of D-brane charge as a generalized [[index]] in [[KK-theory]]. The discussion there focuses on the untwisted case. Comments on the generalization of this to topologicall non-trivial [[B-field]] and hence [[twisted K-theory]] is in
 
@@ -164,7 +164,7 @@ The closest available towards an actual check of the argument for K-theory via [
 
 which, however, concludes (on [p. 32](https://arxiv.org/pdf/1308.4400.pdf#page=33)) with:
 
-> It would also be interesting to see if these developments can shed light on the long-speculated relation between string field theory and the K-theoretic description of D-brane charge $[$[75, 76, 77](D-brane#DBraneChargeQuantizationInTopologicalKTheory)$]$. We leave these questions for future work.
+> It would also be interesting to see if these developments can shed light on the long-speculated relation between string field theory and the K-theoretic description of D-brane charge $[$[75, 76, 77](D-brane#DBraneChargeQuantizationInTopologicalKTheory)\]. We leave these questions for future work.
 
 See also 
 
