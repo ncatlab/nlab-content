@@ -1,3 +1,5 @@
+[[!redirects A higher limit approach]]
+[[!redirects A higher limit approach]]
 [[!redirects Sandbox]]
 [[!redirects A higher limit approach]]
 [[!redirects A higher limit approach]]
@@ -19,12 +21,21 @@
 
 ## Idea
 
-In homological algebra one usually studies functors of the form $\mathcal{A}\to Ab, k-mod, \dots$ defined via derived functors where $\mathcal{A}$ is some category of groups, algebras over a ring $k$ and etc., and $Ab, k-mod$ are categories of abelian groups and $k$-modules, where $k$ is some ring. 
+In [[homological algebra]] one usually studies [functors](https://ncatlab.org/nlab/show/functor) of the form $\mathcal{A}\to Ab, k-mod, \dots$ defined via [derived functors](https://ncatlab.org/nlab/show/derived+functor+in+homological+algebra) where $\mathcal{A}$ is some category of [groups](https://ncatlab.org/nlab/show/group), [algebras over a ring](https://ncatlab.org/nlab/show/associative+unital+algebra) $k$ and etc., and $Ab, k-mod$ are categories of [abelian groups](https://ncatlab.org/nlab/show/Ab) and [$k$-modules](https://ncatlab.org/nlab/show/module), where $k$ is some [[ring]]. 
 
 
-For instance, for the category of groups $\mathcal{A}=Gr$, using the left derived functors $L_q(\mathbb{Z}\otimes_{\mathbb{Z}G}(-))$ of the functor of coinvariants $\mathbb{Z}\otimes_{\mathbb{Z}G}(-): \mathbb{Z}G-mod\to Ab$ one usually defines group homology $H_q(G;A)=L_q(\mathbb{Z}\otimes_{\mathbb{Z}G}(-))(A)$ of a group $G$ with coefficients in a $\mathbb{Z}G$-modules $A$. 
+For instance, for the category of [groups](https://ncatlab.org/nlab/show/group) $\mathcal{A}=Gr$, using the left derived functors $L_q(\mathbb{Z}\otimes_{\mathbb{Z}G}(-))$ of the functor of coinvariants $\mathbb{Z}\otimes_{\mathbb{Z}G}(-): \mathbb{Z}G-mod\to Ab$ one usually defines [group homology](https://ncatlab.org/nlab/show/group+homology) $H_q(G;A)=L_q(\mathbb{Z}\otimes_{\mathbb{Z}G}(-))(A)$ of a group $G$ with coefficients in a $\mathbb{Z}G$-modules $A$. 
 
-Another example is the cyclic homology of an algebra $A$ over $k$. It is usually defined
+
+The idea of a higher limit approach is to use categories $Pres(A)$ of extensions $0\to I\to P\to A\to 0$ where $P$ is a [projective object](https://ncatlab.org/nlab/show/projective+object) in a category of algebraic objects $\mathcal{A}$ (e.g free presentations of groups) and describe such functors of homological nature $H:\mathcal{A}\to Ab, k-mod,\dots$ using derived/higher (co)limits of some simple functors $\mathcal{F}$ from the category $H\simeq lim^{*}, colim_{*}(\mathcal{F}:Pres(A)\to Ab, k-mod, \dots)$.  
+
+This approach originates in the work &lbrack;[Quillen89](#QuillenCyclic89)&rbrack;, where, for instance, he derived the formula: 
+
+\begin{equation}
+HC_{2n}(A)=lim(F/(I^{n+1}+[F,F]))
+\end{equation}
+where $HC_{2n}(A)$ is [[cyclic homology]] of $A$ over a [[field]] of characteristic zero $k$ and $F/(I^{n+1}+[F,F])$ takes a free algebra extension $0\to I\to F\to A\to 0$ and sends it to the abelian group $F/(I^{n+1}+[F,F])$. 
+
 
 
 ## References
@@ -32,3 +43,9 @@ Another example is the cyclic homology of an algebra $A$ over $k$. It is usually
 The original articles
 
 * {#QuillenCyclic89} [[Daniel Quillen]]: *Cyclic cohomology and algebra extensions*, K-Theory v. 3, n. 3 (1989): 205-246 &lbrack;[doi:10.1007/BF00533370](https://doi.org/10.1007/BF00533370)&rbrack;
+
+* {#EmmanouilMikhailov08} [[Roman Mikhailov]], Ioannis Emmanouil: *A limit approach to group homology*, Journal of Algebra
+Volume 319, Issue 4, 15 February 2008, Pages 1450-1461 &lbrack;[doi:10.1016/j.jalgebra.2007.12.006](https://doi.org/10.1016/j.jalgebra.2007.12.006)&rbrack;
+
+
+* {#IvanovMikhailov15} [[Sergei O. Ivanov]], [[Roman Mikhailov]]: *A higher limit approach to homology theories*, Journal of Pure and Applied Algebra **219** 6 (2015) 1915-1939 &lbrack;[arXiv:1309.4920](https://arxiv.org/abs/1309.4920), [doi:10.1016/j.jpaa.2014.07.016](https://doi.org/10.1016/j.jpaa.2014.07.016)&rbrack;
