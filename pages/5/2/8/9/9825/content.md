@@ -194,6 +194,9 @@ Discussion in the refined context of ([[local field theory|local]] [[algebraic q
 
 * [[Christopher J. Fewster]], [[Rainer Verch]], *Measurement in Quantum Field Theory* in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2304.13356](https://arxiv.org/abs/2304.13356)&rbrack;
 
+* Jan Mandrysch, Miguel Navascués: *Quantum Field Measurements in the Fewster-Verch Framework* &lbrack;[arXiv:2411.13605](https://arxiv.org/abs/2411.13605)&rbrack;
+
+
 
 ### Formalization
 
