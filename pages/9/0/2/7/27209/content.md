@@ -39,12 +39,13 @@ These are [functors](https://ncatlab.org/nlab/show/functor) on the [category](ht
 Let $Pres(G)\subset Pres$ denote a fiber of a [[functor]] $Pres\to Gr$ sending a free [extension](https://ncatlab.org/nlab/show/extension) $1\to R\to F\to G\to 1$ to $G$. Given an $\mathbf{f\r}$-expression $w(\mathbf{f},\mathbf{r})$ and a group $G$, one can define
 $${}^i[w(\mathbf{f},\mathbf{r})](G) := lim^i (w(\mathbf{f},\mathbf{r})|_{Pres(G)}).$$
 
+where $lim^i (\mathcal{F}: C\to Ab)$ denotes the [$i$-th right derived](https://ncatlab.org/nlab/show/derived+functor+in+homological+algebra) functor of the [limit](https://ncatlab.org/nlab/show/limit) functor $lim: Fun(C,Ab)\to Ab$.
 
 It turns out that by exploiting some features of the category $Pres(G)$ this construction can be made functorial in [group](https://ncatlab.org/nlab/show/group) $G$. The first such feature is that it has all binary [coproducts](https://ncatlab.org/nlab/show/coproduct) (in particular, its [classifying space](https://ncatlab.org/nlab/show/classifying+space) is [contractible](https://ncatlab.org/nlab/show/contractible+space)). That feature is used in by authors of &lbrack;[Ivanov & Mikhailov 2015](#IvanovMikhailov15)&rbrack;, &lbrack;[Ivanov & Mikhailov 2017](#IvanovMikhailov17)&rbrack; extensively, since it ensures triviality of [higher limits](https://ncatlab.org/nlab/show/derived+limit+functor) of constant functors.
 Secondly, this category is strongly connected, in that the hom-set ${\sf hom}(c,c')$ is not empty for any pair of objects $c$ and $c'$.
 Hence, with each $\mathbf{f\r}$-expression $w(\mathbf{f},\mathbf{r})$ we associate a graded [functor](https://ncatlab.org/nlab/show/functor) from the category of [groups](https://ncatlab.org/nlab/show/group) to [abelian groups](https://ncatlab.org/nlab/show/Ab) ${}^i[w(\mathbf{f},\mathbf{r})]: Gr \to Ab.$
 
-
+In &lbrack;[Golub 2024](#GolubNikita24)&rbrack; author suggests a homotopy theoretic construction not using the homological algebra.
 
 
 ## Calculations
@@ -52,6 +53,9 @@ Hence, with each $\mathbf{f\r}$-expression $w(\mathbf{f},\mathbf{r})$ we associa
 
 
 
+
+
+##Relation with the stable homotopy theory
 
 
 
@@ -67,7 +71,7 @@ The original articles
 
 Further discussion:
 
-* Nikita Golub: *Functorial languages in homological algebra and the lower central series* &lbrack;[arXiv:2410.05708](https://arxiv.org/abs/2410.05708)&rbrack;
+* {#GolubNikita24} Nikita Golub: *Functorial languages in homological algebra and the lower central series* &lbrack;[arXiv:2410.05708](https://arxiv.org/abs/2410.05708)&rbrack;
 
 * Nikita Golub: *Functorial Languages in Homological Algebra*, [talk at](CQTS#Golub2024) [[CQTS]] @ NYU Abu Dhabi (Oct 2024) &lbrack;slides:[[Golub-CQTSOct2024.pdf:file]]&rbrack;
 
