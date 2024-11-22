@@ -24,7 +24,7 @@
 
 Generally, the term _Mackey functor_ refers to an [[additive functor]] from a ([[subcategory]] of) a [[category of correspondences]] (in a [[disjunctive category]] $\mathcal{C}$) to possibly any other [[additive category]] which however usually is the "base" abelian category. More generally the term now refers to the fairly obvious [[homotopy theory|homotopy theoretic]] or [[higher category theory|higher categorical]] refinements of this concept.
 
-Therefore the concept of Mackey functors is similar to that of [[sheaves with transfer]] and as such appears (implicitly) in the discussion of [[motives]] (explicitly e.g. in [Kahn-Yamazaki 11, section 2](#KahnYamazaki11), where $\mathcal{C}$ is a category of suitable [[schemes]]).
+Therefore the concept of Mackey functors is similar to that of [[sheaves with transfer]] and as such appears (implicitly) in the discussion of [[motives]] (explicitly e.g. in [Kahn-Yamazaki 11, section 2](#KahnYamazaki11), where $\mathcal{C}$ is a category of suitable [[schemes]]. Much more relevant references are: [this article of Weibel](#Weibel05) and Voevodsky's seminal article defining his triangulated category of motives, specifically [Section 3.4](#Voevodsky00) about geometrical 0-motives).
 
 Specifically, the concept was introduced and named as such in the context of [[representation theory]] ([Dress 71](#Dress71)) and [[equivariant homotopy theory]]/[[equivariant cohomology]] ([May 96](#May96)). Here the underlying [[category of correspondences]] is that in [[finite set|finite]] [[G-sets]], called the _[[Burnside category]]_.  
 
@@ -252,6 +252,10 @@ For Mackey functors [[enriched]] over [[closed category|closed]] [[multicategori
 Relation of Mackey functors to [[sheaves with transfer]] in the theory of [[motives]]:
 
 * {#KahnYamazaki11} [[Bruno Kahn]], Takao Yamazaki, _Voevodsky's motives and Weil reciprocity_, Duke Mathematical Journal 162, 14 (2013) 2751-2796 ([arXiv:1108.2764](http://arxiv.org/abs/1108.2764))
+
+* {#Weibel05} Weibel, Charles. _Transfer functors on k-algebras._ Journal of Pure and Applied Algebra 201.1-3 (2005): 340-366
+
+* {#Voevodsky00} Voevodsky, Vladimir. _Triangulated categories of motives over a field._ Cycles, transfers, and motivic homology theories 143 (2000): 188-238.
 
 [[categorification|Categorification]] to Mackey [[2-functors]] is discussed found in 
 
