@@ -13,7 +13,7 @@
 
 ## Idea
 
-The *Bargmann--Fock space* (also *Bargmann-Segal space* or *Segal--Bargmann space*) is a [[Hilbert space]] of [[complex numbers|complex]] [[analytic functions]] with certain growth conditions.
+The *Bargmann--Fock space* (also *Bargmann-Segal space* or *Segal--Bargmann space*) is a [[Hilbert space]] of [[complex numbers|complex]] [[analytic functions|analytic]] [[square integrable functions|square integrable]] functions with respect to the [[Gaussian probability distribution|Gaussian weighted]][[Lebesgue measure]].
 
 ## Related concepts
 
