@@ -59,6 +59,9 @@ Discussion for [[curved spacetime]]:
 
 * [[M. D. Pollock]], *On the Dirac equation in curved space-time*, Acta Physica Polonica B **41** (2010) &lbrack;[InSpire:874211](https://inspirehep.net/literature/874211), [pdf](https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=41&page=1827)&rbrack;
 
+* Peter Collas, David Klein: *The Dirac equation in general relativity, a guide for calculations*, Springer Briefs in Physics, Springer (2019) &lbrack;[arXiv:1809.02764](https://arxiv.org/abs/1809.02764), [doi:10.1007/978-3-030-14825-6](https://doi.org/10.1007/978-3-030-14825-6)&rbrack;
+
+
 
 
 The [[path integral]] approach to the Dirac equation:
