@@ -213,7 +213,7 @@ Further discussion and review:
 
 * [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_,  Lecture Notes in Physics, Springer (2008) &lbrack;[pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf)&rbrack;
 
-* [[Adam Marsh]]: _Gauge Theories and Fiber Bundles: Definitions, Pictures, and Results_ &lbrack;[arXiv:1607.03089](https://arxiv.org/abs/1607.03089)&rbrack, chapter 10 in: [[Adam Marsh]], _Mathematics for Physics: An Illustrated Handbook_, World Scientific (2018) &lbrack;[doi:10.1142/10816](https://doi.org/10.1142/10816), [book webpage](https://www.mathphysicsbook.com/)&rbrack;
+* [[Adam Marsh]]: _Gauge Theories and Fiber Bundles: Definitions, Pictures, and Results_ &lbrack;[arXiv:1607.03089](https://arxiv.org/abs/1607.03089)&rbrack;, chapter 10 in: [[Adam Marsh]], _Mathematics for Physics: An Illustrated Handbook_, World Scientific (2018) &lbrack;[doi:10.1142/10816](https://doi.org/10.1142/10816), [book webpage](https://www.mathphysicsbook.com/)&rbrack;
 
 * {#RudolphSchmidt17} [[Gerd Rudolph]], [[Matthias Schmidt]], _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics Series, Springer (2017) &lbrack;[doi:10.1007/978-94-024-0959-8](https://doi.org/10.1007/978-94-024-0959-8)&rbrack;
 
