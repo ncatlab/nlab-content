@@ -59,10 +59,16 @@ For $\mathcal{E}$ a [[topos]], then the following are equivalent:
 
 +--{: .num_prop}
 ###### Proposition
-Let $j$ be a [[Lawvere-Tierney topology]] on $\mathcal{E}$. Then $\mathcal{E}_j$ is Boolean iff there exists a [[subterminal object]] $U$ such that $j$ is the largest topology such that $U\rightarrowtail 1$ is $j$-closed.
+Let $j$ be a [[Lawvere-Tierney topology]] on $\mathcal{E}$. Then $\mathcal{E}_j$ is Boolean iff there exists a [[subterminal object]] $U$ such that $j$ is the largest topology such that $U\rightarrowtail 1$ is $j$-closed, or equivalently, that $U$ is a $j$-sheaf.
 =--
 
-[(Johnstone 2002, p.220)](#Johnstone)
+Topologies $j$ satisfying the latter condition are called **quasi-closed** and sometimes denoted $q(U)$. They can also be described by the Heyting algebra operations on $\Omega$ as the composite
+
+$$\Omega\simeq\Omega\times 1\overset{1\times(\chi_U,\chi_U)}{\to}\Omega\times\Omega\times\Omega\overset{\Rightarrow\times 1}{\to}\Omega\times \Omega\overset{\Rightarrow}{\to}\Omega\quad .$$
+The corresponding quasi-closed subtoposes $Sh_{q(U)}(\mathcal{E})$ are the double negation subtoposes $Sh_{\neg\neg}(Sh_{c(U)}(\mathcal{E}))$ of the [[closed subtopos|closed subtoposes]] $Sh_{c(U)}(\mathcal{E})$ corresponding to the [[subterminal object]] $U$.
+
+For a proof of the proposition and the other assertions see [(Johnstone 2002, p.220)](#Johnstone).
+
 
 +--{: .num_prop}
 ###### Proposition
