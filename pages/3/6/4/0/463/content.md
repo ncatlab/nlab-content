@@ -14,6 +14,11 @@
 
 * D. Ben-Zvi, [[BenZviGeometricFunctionTheory.pdf:file]] (Jan 2009).
 
+On the [[D=6 N=(2,0) SCFT]]:
+
+* [[David Ben-Zvi]]: _Theory $\mathcal{X}$ and Geometric Representation Theory_, talks at _[Mathematical Aspects of Six-Dimensional Quantum Field Theories](http://www.ihes.fr/~celliott/workshop/)_ IHES 2014, notes by [[Qiaochu Yuan]] ([[BenZvi-TheoryX-I.pdf:file]], [[BenZvi-TheoryX-II.pdf:file]], [[BenZvi-TheoryX-III.pdf:file]])
+
+
 Discussion of [[topological quantum field theory]] with an eye towards [[supersymmetry|supersymmetric]] field theory, in terms of the [[ordinary homology]] of [[configuration spaces of points]] (see also at _[[correlators as differential forms on configuration spaces of points]]_):
 
 * [[Christopher Beem]], [[David Ben-Zvi]], [[Mathew Bullimore]], [[Tudor Dimofte]], [[Andrew Neitzke]], _Secondary products in supersymmetric field theory_ ([arXiv:1809.00009](https://arxiv.org/abs/1809.00009))
@@ -34,7 +39,7 @@ On the [[relative Langlands program]]
 
 * D. Ben-Zvi has given many interesting answers to [http://mathoverflow.net](MathOverflow) questions, and a list can be found at [MO user page:David Ben-Zvi](http://mathoverflow.net/users/582/david-ben-zvi).
 
-## Related $n$Lab entries
+## Related entries
 
 * [[geometric function theory]]
 
