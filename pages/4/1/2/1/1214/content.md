@@ -34,7 +34,7 @@ In any Malcev category, every [[internal category]] is an [[internal groupoid]].
 \end{proposition}
 
 \begin{proposition}
-The category of [[internal categories]] and functors in a Mal’cev category is Mal’cev category. ([Gran 1999, Theorem 3.2](#Gran99))
+The category of [[internal categories]] and functors in an exact Mal’cev category is an exact Mal’cev category. ([Gran 1999, Theorem 3.2](#Gran99))
 \end{proposition}
 
 ## Related notions
