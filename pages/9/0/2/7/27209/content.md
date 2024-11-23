@@ -1,6 +1,5 @@
-[[!redirects fr-code]]
-[[!redirects fr-code]]
-[[!redirects fr-code]]
+
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -60,16 +59,11 @@ Hence, with each $\mathbf{f\r}$-expression $w(\mathbf{f},\mathbf{r})$ we associa
 In &lbrack;[Golub 2024](#GolubNikita24)&rbrack; author suggests a homotopy theoretic construction not using the homological algebra.
 
 
-## Calculations
 
+## Related entries
 
-(...)
+* [[higher limit approach to homology]]
 
-
-
-## Relation with the stable homotopy theory
-
-(...)
 
 
 ## References
@@ -89,8 +83,8 @@ Further discussion:
 * Nikita Golub: *Functorial Languages in Homological Algebra*, [talk at](CQTS#Golub2024) [[CQTS]] @ NYU Abu Dhabi (Oct 2024) &lbrack;slides:[[Golub-CQTSOct2024.pdf:file]]&rbrack;
 
 
-
 [[!redirects fr-codes]]
+
 
 [[!redirects fr-language]]
 [[!redirects fr-languages]]
