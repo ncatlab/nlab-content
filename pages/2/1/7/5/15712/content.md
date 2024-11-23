@@ -17,7 +17,7 @@ On [[exact real computer arithmetic]]:
 
 On [[differential calculus]] via [[coinduction]]:
 
-* [[Martín Escardó]], [[Duško Pavlović]], _Calculus in coinductive form_ (1998) ([pdf](https://web.archive.org/web/20230117043841/http://www.isg.rhul.ac.uk/dusko/papers/1998-lapl-LICS.pdf))
+* [[Martín Escardó]], [[Duško Pavlović]]: *Calculus in coinductive form*, in *Proceedings of Thirteenth Annual IEEE Symposium on Logic in Computer Science* (1998) 408-417 &lbrack;[doi:10.1109/LICS.1998.705675](https://doi.org/10.1109/LICS.1998.705675), [pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=705675)&rbrack;
 
 On [[cartesian closed category|cartesian closed]] [[convenient categories of topological spaces]], such as [[compactly generated topological spaces]]:
 
