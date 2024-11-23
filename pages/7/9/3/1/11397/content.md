@@ -40,6 +40,7 @@ On the [[Beck-Chevalley condition]] in [[Goursat categories]]:
 
 Presenting a [[pretorsion theory]] on [[Cat]] whose torsion(-free) objects are the [[groupoids]] ([[skeletal categories]], respectively), hence whose "trivial objects" are the [[skeletal groupoids]]:
 
-* [[Francis Borceux]], [[Federico Campanini]], [[Marino Gran]], [[Walter Tholen]], *Groupoids and skeletal categories form a pretorsion theory in $Cat$* &lbrack;[arXiv:2207.08487](https://arxiv.org/abs/2207.08487)&rbrack;
+* [[Francis Borceux]], [[Federico Campanini]], [[Marino Gran]], [[Walter Tholen]], _Groupoids and skeletal categories form a pretorsion theory in $Cat$_, Advances in Math. __426__ (2023) 109110,  &lbrack;[arXiv:2207.08487](https://arxiv.org/abs/2207.08487)&rbrack; 
+
 
 category:people
