@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On [[differential calculus]] via [[coinduction]]:
+
+* [[Martín Escardó]], [[Duško Pavlović]]: *Calculus in coinductive form*, in *Proceedings of Thirteenth Annual IEEE Symposium on Logic in Computer Science* (1998) 408-417 &lbrack;[doi:10.1109/LICS.1998.705675](https://doi.org/10.1109/LICS.1998.705675), [pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=705675)&rbrack;
+
+
 On [[categorical semantics]] of [[constructive logic]] and [[intuitionistic type theory]]:
 
 * {#Pavlovic1990} [[Duško Pavlović]], *Predicates and Fibrations*, PhD thesis, Utrecht (1990) &lbrack;[pdf](https://dusko.org/wp-content/uploads/2020/03/1990-proefschrift-dusko.pdf), [[Pavlovic-PredicatesAndFibrations.pdf:file]]&rbrack;
