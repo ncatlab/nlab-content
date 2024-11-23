@@ -654,6 +654,50 @@ The [[Hodge theorem]] asserts that for a compact K&#228;hler manifold, the canon
 
 [[!include normed division algebra Riemannian geometry -- table]]
 
+
+## Kapranov $L_{\infty}$-algebras
+
+Let $T$ further denote the [[tangent bundle]] of a [[complex manifold]] $X$ and $\mathcal{O}_X$ is a [[sheaf]] of [[holomorphic functions]] on $X$, $\alpha_{T_X}$ is the [[Atiyah Lie algebroid|Atiyah class]] of the [[tangent bundle]] of $X$.  
+One of the main observations in [Kapranov99](#Kapranov99) is the following (Theorem 2.3. [Kapranov99](#Kapranov99)):
+
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $X$ be any complex manifold and $A$ be any quasicoherent sheaf of commutative $\mathcal{O}_X$-algebras. Then:
+
+(a) The maps $H^i(X, T \otimes A) \otimes H^j(X, T \otimes A) \to H^{i+j+1}(X, T \otimes A)$		   
+given by composing the cup-product with $\alpha_{T_X} \in H^1(X, \mathrm{Hom}(S^2 T, T))$, make the graded vector space $H^{\bullet - 1}(X, T \otimes A)$ into a graded Lie algebra.
+
+(b) For any holomorphic vector bundle $E$ on $X$ the maps
+$H^i(X, T \otimes A) \otimes H^j(X, E \otimes A) \to H^{i+j+1}(X, E \otimes A)$		
+given by composing the cup-product with the Atiyah class $\alpha_E \in H^1(X, \mathrm{Hom}(T \otimes E, E)),$ make $H^{\bullet - 1}(X, E \otimes A)$ into a graded $H^{\bullet - 1}(X, T \otimes A)$-module.
+=--
+	
+
+
+Moreover, if $X$ is a Kähler manifold then this graded Lie algebra admits a lift to [[L-infinity-algebra]] on the shifted [[Dolbeault complex]]. 
+
+Given a Kähler metric $h$ with [[connection]] $\nabla$ consider $\widetilde{\nabla} = \nabla + \overline{\partial}$, where $\overline{\partial}$ is the $(0,1)$-connection defining the [[complex structure|complex manifold]]. Then the curvature $R$ of $\widetilde{\nabla}$ is the Dolbeault representative of the [[Atiyah Lie algebroid|Atiyah class]] $\alpha_{T_X}$. In fact, $h$ being Kähler the connection is torsionless and the curvature $R \in \Omega^{0,1}(\mathrm{Hom}(S^2 T, T))$.
+
+Further the author defines tensor fields $R_n$, $n \geq 2$, as higher covariant derivatives of the curvature:
+\[ \quad R_n \in \Omega^{0,1}(\mathrm{Hom}(S^2 T \otimes T^{\otimes (n-2)}, T)), \quad R_2 := R, \quad R_{i+1} = \nabla R_i.
+\]
+
++-- {: .num_theorem}
+###### Theorem
+The maps
+\[
+b_n : \Omega^{0, j_1}(T) \otimes \cdots \otimes \Omega^{0, j_n}(T) \to \Omega^{0, j_1 + \cdots + j_n + 1}(T), \quad n \geq 2,
+\]
+given by composing the wedge product (with values in $\Omega^{0, \bullet}(T^{\otimes n})$) with
+\[
+R_n \in \Omega^{0, 1}(\mathrm{Hom}(T^{\otimes n}, T)),
+\]
+make the shifted Dolbeault complex $\Omega^{0, \bullet - 1}(T)$ into a weak Lie algebra.
+=--
+
+
 ## Related concepts
 
 * [[bilinear form]], [[quadratic form]], [[sesquilinear form]]
@@ -717,6 +761,27 @@ Discussion of [[spin structures]] in K&#228;hler manifolds is for instance in
 Discussion of [[Hodge theory]] on K&#228;hler manifolds is in 
 
 * {#BiquerdHoering08} O. Biquard, A. H&#246;ring, _K&#228;hler geometry and Hodge theory_, 2008 ([pdf](http://math.unice.fr/~hoering/hodge/hodge.pdf))
+
+
+
+On Kapranov's $L_{\infty}$-structure:
+
+* {#Kapranov99} [[Mikhail Kapranov]], _Rozansky&#8211;Witten invariants via Atiyah classes_,  Compositio Math.  __115__ (1999), no. 1, 71--113 ([MR2000h:57056](http://www.ams.org/mathscinet-getitem?mr=2000h:57056), [doi](http://dx.doi.org/10.1023/A:1000664527238), [alg-geom/9704009](http://arxiv.org/abs/alg-geom/9704009))
+
+
+
+For further developing of this concept in view of the [[Fedosov deformation quantization]]:
+
+* {#KwokwaiNaichungQin2020} Kwokwai Chan, Naichung Conan Leung, Qin Li, _Kapranov's L∞ structures, Fedosov's star products, and one-loop exact BV quantizations on Kähler manifolds_, [abs/2008.07057](https://arxiv.org/abs/2008.07057)
+ 
+
+On quantization of Kähler manifolds:
+
+* {#KwokwaiNaichungQin2020quant} Kwokwai Chan, Naichung Conan Leung, Qin Li, _Quantization of Kähler manifolds_, [abs/2009.03690](https://arxiv.org/abs/2009.03690)
+
+
+
+
 
 Discussion of [[Kähler orbifolds]]:
 
