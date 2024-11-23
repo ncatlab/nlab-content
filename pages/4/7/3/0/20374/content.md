@@ -90,6 +90,9 @@ Relation to [[higher dimensional WZW model|4d WZW theory]]:
 
 * Masashi Hamanaka, Shan-Chi Huang: *Solitons in 4d Wess-Zumino-Witten models -- Towards unification of integrable systems* &lbrack;[arXiv:2408.16554](https://arxiv.org/abs/2408.16554)&rbrack;
 
+See also 
+
+* Wikipedia, _[Four-dimensional Chern–Simons theory](https://en.wikipedia.org/wiki/Four-dimensional_Chern%E2%80%93Simons_theory)_
 
 [[!redirects semi-topological 4d Chern-Simons theory]]
 [[!redirects semi-holomorphic D=4 Chern-Simons theory]]
