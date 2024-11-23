@@ -272,7 +272,7 @@ The functor $T$ is [[parametric right adjoint|familially representable]]: there 
 
 $$T(F)(d) = \sum_{x \in T(1)(d)} Set^{C^{op}}(W_{(d, x)}, F).$$ 
 
-The Artin gluing itself is then describable as the [[collage]] of the [[profunctor]] $W: C \nrightarrow (y_D \downarrow T(1))$ defined by the formula 
+The Artin gluing itself is then describable as the presheaf category over the [[collage]] of the [[profunctor]] $W: C \nrightarrow (y_D \downarrow T(1))$ defined by the formula 
 
 $$W(c; (d, x: D(-, d) \to T(1))) = W_{(d, x)}(c).$$ 
 For details, see for example Appendix C.3 of [Leinster](#Lein). The result is due to [Carboni and Johnstone](#cj). 
