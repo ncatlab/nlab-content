@@ -357,6 +357,10 @@ See also
 
 * MathOverflow, _[torsors-for-monoids](http://mathoverflow.net/questions/25863/torsors-for-monoids/25886)_, [torsors-for-finite-group-schemes](https://mathoverflow.net/questions/46678/torsors-for-finite-group-schemes)
 
+On viewing torsors as [[enriched categories]] (namely, [[Cauchy complete]]/[[copower|copowered]] categories enriched in a [[group]] seen as a [[discrete category]]):
+
+* [Torsors and Enriched Categories](https://golem.ph.utexas.edu/category/2013/06/torsors_and_enriched_categorie.html), [[Simon Willerton]], [[n-category café]]
+
 [[!redirects torsors]]
 
 [[!redirects principal homogeneous space]]
