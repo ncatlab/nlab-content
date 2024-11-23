@@ -17,13 +17,13 @@ Discussion of [[higher gauge theory]] modeling the [[Green-Schwarz mechanisms]] 
 
 * {#FSS15} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:The moduli 3-stack of the C-field|The $E_8$ moduli 3-stack of the C-field in M-theory]]*, Comm. Math. Phys. **333** 1 (2015) 117-151 \[<a href="https://arxiv.org/abs/1202.2455">arXiv:1202.2455</a>, [doi:10.1007/s00220-014-2228-1](https://doi.org/10.1007/s00220-014-2228-1)\]
 
-* [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], _Exploring 2-Group Global Symmetries_,  J. High Energ. Phys. **2019** 184 (2019) ([arXiv:1802.04790](https://arxiv.org/abs/1802.04790), <a href="https://doi.org/10.1007/JHEP02(2019)184">doi:10.1007/JHEP02(2019)184</a>)
+* [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]]: *Exploring 2-Group Global Symmetries*, J. High Energ. Phys. **2019** 184 (2019) ([arXiv:1802.04790](https://arxiv.org/abs/1802.04790), <a href="https://doi.org/10.1007/JHEP02(2019)184">doi:10.1007/JHEP02(2019)184</a>)
 
 * {#BeniniCordovaHsin19} [[Francesco Benini]], [[Clay Cordova]], [[Po-Shen Hsin]], *On 2-Group Global Symmetries and Their Anomalies*,  J. High Energ. Phys. **2019** 118 (2019) ([arXiv:1803.09336](https://arxiv.org/abs/1803.09336), <a href="https://doi.org/10.1007/JHEP03(2019)118">doi:10.1007/JHEP03(2019)118</a>)
 
 * {#FSS22} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Twistorial Cohomotopy implies Green-Schwarz anomaly cancellation]]*, Reviews in Mathematical Physics **34** 05 (2022) 2250013 \[<a href="https://doi.org/10.1142/S0129055X22500131">doi:10.1142/S0129055X22500131</a>, [arXiv:2008.08544](https://arxiv.org/abs/2008.08544)\]
 
-* [[Clay Cordova]], [[Thomas T. Dumitrescu]], [[Kenneth Intriligator]], *2-Group Global Symmetries and Anomalies in Six-Dimensional Quantum Field Theories*,  J. High Energ. Phys. 2021, 252 (2021) ([arXiv:2009.00138](https://arxiv.org/abs/2009.00138), <a href="https://doi.org/10.1007/JHEP04(2021)252">doi:10.1007/JHEP04(2021)252</a>)
+* [[Clay Cordova]], [[Thomas T. Dumitrescu]], [[Kenneth Intriligator]], *2-Group Global Symmetries and Anomalies in Six-Dimensional Quantum Field Theories*,  J. High Energ. Phys. **2021** 252 (2021) \[<a href="https://doi.org/10.1007/JHEP04(2021)252">doi:10.1007/JHEP04(2021)252</a>, [arXiv:2009.00138](https://arxiv.org/abs/2009.00138)\]
 
 * [[Michele Del Zotto]], [[Kantaro Ohmori]], _2-Group Symmetries of 6D Little String Theories and T-Duality_, Annales Henri Poincaré **22** (2021) 2451–2474  \[<a href="https://arxiv.org/abs/2009.03489">arXiv:2009.03489</a>, <a href="https://doi.org/10.1007/s00023-021-01018-3">doi:10.1007/s00023-021-01018-3</a>\]
 
