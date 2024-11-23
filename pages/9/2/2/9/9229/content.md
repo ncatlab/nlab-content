@@ -62,3 +62,7 @@ Discussion in terms of [[factorization algebras of observables]] is in
 
 * {#Gwilliam} [[Owen Gwilliam]], section 6.1.3 of _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
 
+See also 
+
+* Wikipedia, _[Six-dimensional holomorphic Chern–Simons theory](https://en.wikipedia.org/wiki/Six-dimensional_holomorphic_Chern%E2%80%93Simons_theory)_
+
