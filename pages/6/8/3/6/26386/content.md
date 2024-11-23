@@ -17,6 +17,8 @@
 
 ## Idea
 
+### In dependent type theory
+
 In [[dependent type theory]], having a [[type of all types]] results in various paradoxes, such as [[Russell's paradox]] and [[Girard's paradox]]. There are two ways to resolve this issue. One way is to simply add a [[universe of small types]] and accept that not all types are small. On the other hand, one can use a **hierarchy of universes** or **universe hierarchy** and postulate that every type is an element of universes in this universe hierarchy: Given an universe level $\kappa$, each [[type universe]] $U_\kappa$ consists of only the $U_\kappa$-small types, and $U_\kappa$ itself, while not an element of $U_\kappa$, is an element of the successor universe $U_{\kappa^+}$, where $\kappa^+$ is the successor universe level. Most commonly used for the universe levels are the [[natural numbers]], but other options are available as well, such as the [[integers]] or the [[ordinal numbers]]. 
 
 There are a few advantages of using a hierarchy of universes where every type is an element of the hierarchy, instead of a single separate type judgment, in the formulation of dependent type theory:
