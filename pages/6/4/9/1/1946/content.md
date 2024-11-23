@@ -191,7 +191,7 @@ A [[morphism]] $f \colon X \to Y$ in the [[functor category]] $\mathcal{C}^{\mat
 \begin{remark}\label{ReedyCofibrantObjects}
 In particular this means that:
 
-1. An object $X$ is Reedy-cofibrant iff the comparison maps $L_r \to X_r$ (eq:ComparisonMapsFromLatchingToMatchingObject) from its latching object are cofibrations.
+1. An object $X$ is Reedy-cofibrant iff the comparison maps $L_r X \to X_r$ (eq:ComparisonMapsFromLatchingToMatchingObject) from its latching object are cofibrations.
 
 1. An object $X$ is Reedy-fibrant iff the comparison maps $X_r \to M_r X$ (eq:ComparisonMapsFromLatchingToMatchingObject) to its matching object are fibrations.
 
