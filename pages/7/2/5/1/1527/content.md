@@ -72,13 +72,13 @@ by the [[chain rule]], whence $D(f/r) \sim D((1+x)^r/r)$. Hence $f/r$ is bisimil
 
 * Davide Sangiorgi, Jan Rutten (eds.), _Advanced Topics in Bisimulation and Coinduction_, Cambridge Universtity Press (2012) ([web](http://www.cs.unibo.it/~sangio/AdvancedBook.html))
 
-Discussion of [[differential calculus]] in terms of coinduction is in 
+On [[differential calculus]] via coinduction:
 
-* Martin Escardo, Du&#353;ko Pavlovi&#263;, _Calculus in coinductive form_ (1998) ([web](https://ieeexplore.ieee.org/abstract/document/705675) or [pdf](http://dusko.org/wp-content/uploads/2020/03/current.pdf))
+* [[Martín Escardó]], [[Duško Pavlović]]: *Calculus in coinductive form*, in *Proceedings of Thirteenth Annual IEEE Symposium on Logic in Computer Science* (1998) 408-417 &lbrack;[doi:10.1109/LICS.1998.705675](https://doi.org/10.1109/LICS.1998.705675), [pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=705675)&rbrack;
 
 About coinduction in [[cubical type theory]]:
 
-* [[Magnus Baunsgaard Kristensen]], [[Rasmus Ejlers Møgelberg]], [[Andrea Vezzosi]], *Greatest HITs: Higher inductive types in coinductive definitions via induction under clocks* ([arXiv:2102.01969](https://arxiv.org/abs/2102.01969))
+* Magnus Baunsgaard Kristensen, [[Rasmus Ejlers Møgelberg]], [[Andrea Vezzosi]], *Greatest HITs: Higher inductive types in coinductive definitions via induction under clocks* ([arXiv:2102.01969](https://arxiv.org/abs/2102.01969))
 
 [[!redirects coinductions]]
 
