@@ -149,7 +149,7 @@ also
 
 * [[Lucrezia Ravera]], *On the hidden symmetries of $D=11$ supergravity*, Springer Proceedings in Mathematics & Statistics **396** Springer (2021) \[<a href="https://doi.org/10.1007/978-981-19-4751-3_15">doi:10.1007/978-981-19-4751-3_15</a>, [arXiv:2112.00445](https://arxiv.org/abs/2112.00445)\]
 
-* [[Laura Andrianopoli]], [[Riccardo D'Auria]], *Supergravity in the Geometric Approach and its Hidden Graded Lie Algebra* &lbrack;[arXiv:2404.13987](https://arxiv.org/abs/2404.13987)&rbrack;
+* [[Laura Andrianopoli]], [[Riccardo D'Auria]], *Supergravity in the Geometric Approach and its Hidden Graded Lie Algebra*, Expositiones Mathematicae &lbrack;[arXiv:2404.13987](https://arxiv.org/abs/2404.13987) [10.1016/j.exmath.2024.125631](https://doi.org/10.1016/j.exmath.2024.125631)&rbrack;
 
 
 
