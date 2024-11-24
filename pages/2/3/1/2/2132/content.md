@@ -658,44 +658,70 @@ The [[Hodge theorem]] asserts that for a compact K&#228;hler manifold, the canon
 ## Kapranov $L_{\infty}$-algebras
 
 Let $T$ further denote the [[tangent bundle]] of a [[complex manifold]] $X$ and $\mathcal{O}_X$ is a [[sheaf]] of [[holomorphic functions]] on $X$, $\alpha_{T_X}$ is the [[Atiyah Lie algebroid|Atiyah class]] of the [[tangent bundle]] of $X$.  
-One of the main observations in [Kapranov99](#Kapranov99) is the following (Theorem 2.3. [Kapranov99](#Kapranov99)):
+One of the main observations in [Kapranov 1999](#Kapranov99) is the following (Theorem 2.3. [Kapranov 1999](#Kapranov99)):
 
 
-+-- {: .num_theorem}
-###### Theorem
+\begin{theorem}
 
-Let $X$ be any complex manifold and $A$ be any quasicoherent sheaf of commutative $\mathcal{O}_X$-algebras. Then:
+Let $X$ be any [[complex manifold]] and $A$ be any [[quasicoherent sheaf]] of commutative $\mathcal{O}_X$-algebras. Then:
 
-(a) The maps $H^i(X, T \otimes A) \otimes H^j(X, T \otimes A) \to H^{i+j+1}(X, T \otimes A)$		   
-given by composing the cup-product with $\alpha_{T_X} \in H^1(X, \mathrm{Hom}(S^2 T, T))$, make the graded vector space $H^{\bullet - 1}(X, T \otimes A)$ into a graded Lie algebra.
+(a) The maps $H^i(X, T \otimes A) \otimes H^j(X, T \otimes A) \longrightarrow H^{i+j+1}(X, T \otimes A)$		   
+given by composing the [[cup product]] with $\alpha_{T_X} \in H^1(X, \mathrm{Hom}(S^2 T, T))$, make the [[graded vector space]] $H^{\bullet - 1}(X, T \otimes A)$ into a [[graded object|graded]] [[Lie algebra]].
 
-(b) For any holomorphic vector bundle $E$ on $X$ the maps
+(b) For any [[holomorphic vector bundle]] $E$ on $X$ the maps
 $H^i(X, T \otimes A) \otimes H^j(X, E \otimes A) \to H^{i+j+1}(X, E \otimes A)$		
-given by composing the cup-product with the Atiyah class $\alpha_E \in H^1(X, \mathrm{Hom}(T \otimes E, E)),$ make $H^{\bullet - 1}(X, E \otimes A)$ into a graded $H^{\bullet - 1}(X, T \otimes A)$-module.
-=--
+given by composing the [[cup-product]] with the [[Atiyah class]] $\alpha_E \in H^1(X, \mathrm{Hom}(T \otimes E, E)),$ make $H^{\bullet - 1}(X, E \otimes A)$ into a [[graded module|graded]] $H^{\bullet - 1}(X, T \otimes A)$-[[module]].
+
+\end{theorem}
 	
 
 
-Moreover, if $X$ is a Kähler manifold then this graded Lie algebra admits a lift to [[L-infinity-algebra]] on the shifted [[Dolbeault complex]]. 
+Moreover, if $X$ is a Kähler manifold then this graded Lie algebra admits a lift to a [[L-infinity-algebra|$L_\infty$-algebra]] on the shifted [[Dolbeault complex]]. 
 
-Given a Kähler metric $h$ with [[connection]] $\nabla$ consider $\widetilde{\nabla} = \nabla + \overline{\partial}$, where $\overline{\partial}$ is the $(0,1)$-connection defining the [[complex structure|complex manifold]]. Then the curvature $R$ of $\widetilde{\nabla}$ is the Dolbeault representative of the [[Atiyah Lie algebroid|Atiyah class]] $\alpha_{T_X}$. In fact, $h$ being Kähler the connection is torsionless and the curvature $R \in \Omega^{0,1}(\mathrm{Hom}(S^2 T, T))$.
+Given a [[Kähler metric]] $h$ with [[connection]] $\nabla$ consider $\widetilde{\nabla} = \nabla + \overline{\partial}$, where $\overline{\partial}$ is the $(0,1)$-connection defining the [[complex structure|complex manifold]]. Then the [[curvature]] $R$ of $\widetilde{\nabla}$ is the Dolbeault representative of the [[Atiyah Lie algebroid|Atiyah class]] $\alpha_{T_X}$. In fact, $h$ being Kähler the connection is torsionless and the curvature $R \in \Omega^{0,1}(\mathrm{Hom}(S^2 T, T))$.
 
-Further the author defines tensor fields $R_n$, $n \geq 2$, as higher covariant derivatives of the curvature:
-\[ \quad R_n \in \Omega^{0,1}(\mathrm{Hom}(S^2 T \otimes T^{\otimes (n-2)}, T)), \quad R_2 := R, \quad R_{i+1} = \nabla R_i.
+Further, the author defines [[tensor fields]] $R_n$, $n \geq 2$, as higher [[covariant derivatives]] of the curvature:
+\[ 
+   \quad 
+    R_n \,\in\, 
+   \Omega^{0,1}\big(
+     \mathrm{Hom}(S^2 T \otimes T^{\otimes (n-2)}, T)
+   \big), 
+   \quad 
+   R_2 \coloneqq R, 
+   \quad 
+   R_{i+1} = \nabla R_i.
 \]
 
-+-- {: .num_theorem}
-###### Theorem
+
+\begin{theorem}
+\label{KapranovTheorem}
+
 The maps
 \[
-b_n : \Omega^{0, j_1}(T) \otimes \cdots \otimes \Omega^{0, j_n}(T) \to \Omega^{0, j_1 + \cdots + j_n + 1}(T), \quad n \geq 2,
+  b_n 
+    \,\colon\, 
+  \Omega^{0, j_1}(T) 
+     \otimes \cdots \otimes 
+  \Omega^{0, j_n}(T) 
+  \longrightarrow 
+  \Omega^{0, j_1 + \cdots + j_n + 1}(T)
+  \,, \quad 
+  n \geq 2,
 \]
-given by composing the wedge product (with values in $\Omega^{0, \bullet}(T^{\otimes n})$) with
+given by composing the [[wedge product]] (with values in $\Omega^{0, \bullet}(T^{\otimes n})$) with
 \[
-R_n \in \Omega^{0, 1}(\mathrm{Hom}(T^{\otimes n}, T)),
+  R_n 
+   \;\in\; 
+  \Omega^{0, 1}\big(
+    \mathrm{Hom}(T^{\otimes n}, T)
+  \big)
+  \,,
 \]
 make the shifted Dolbeault complex $\Omega^{0, \bullet - 1}(T)$ into a weak Lie algebra.
-=--
+
+\end{theorem}
+
 
 
 ## Related concepts
@@ -705,7 +731,7 @@ make the shifted Dolbeault complex $\Omega^{0, \bullet - 1}(T)$ into a weak Lie 
 * [[symplectic form]], [[Hermitian form]]
 
 
-* **K&#228;hler manifold**, [[hyper-Kähler manifold]], [[quaternionic Kähler manifold]]
+* [[hyper-Kähler manifold]], [[quaternionic Kähler manifold]]
 
   * [[Kähler potential]]
 
