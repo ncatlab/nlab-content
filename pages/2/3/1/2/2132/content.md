@@ -718,7 +718,7 @@ given by composing the [[wedge product]] (with values in $\Omega^{0, \bullet}(T^
   \big)
   \,,
 \]
-make the shifted Dolbeault complex $\Omega^{0, \bullet - 1}(T)$ into a [[L-infinity-algebra]].
+make the shifted Dolbeault complex $\Omega^{0, \bullet - 1}(T)$ into an [[L-infinity-algebra|$L_\infty$-algebra]] (called a "weak Lie algebra" in [Kapranov 1999](#Kapranov99)).
 
 \end{theorem}
 
@@ -792,7 +792,7 @@ Discussion of [[Hodge theory]] on K&#228;hler manifolds is in
 
 On Kapranov's $L_{\infty}$-structure:
 
-* {#Kapranov99} [[Mikhail Kapranov]], _Rozansky&#8211;Witten invariants via Atiyah classes_,  Compositio Math.  __115__ (1999), no. 1, 71--113 ([MR2000h:57056](http://www.ams.org/mathscinet-getitem?mr=2000h:57056), [doi](http://dx.doi.org/10.1023/A:1000664527238), [alg-geom/9704009](http://arxiv.org/abs/alg-geom/9704009))
+* {#Kapranov99} [[Mikhail Kapranov]], _Rozansky-Witten invariants via Atiyah classes_,  Compositio Math.  __115__ 1 (1999) 71-113 &lbrack;[MR2000h:57056](http://www.ams.org/mathscinet-getitem?mr=2000h:57056), [doi:10.1023/A:1000664527238](http://dx.doi.org/10.1023/A:1000664527238), [arXiv:alg-geom/9704009](http://arxiv.org/abs/alg-geom/9704009)&rbrack;
 
 
 
