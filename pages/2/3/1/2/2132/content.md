@@ -718,7 +718,7 @@ given by composing the [[wedge product]] (with values in $\Omega^{0, \bullet}(T^
   \big)
   \,,
 \]
-make the shifted Dolbeault complex $\Omega^{0, \bullet - 1}(T)$ into a weak Lie algebra.
+make the shifted Dolbeault complex $\Omega^{0, \bullet - 1}(T)$ into a [[L-infinity-algebra]].
 
 \end{theorem}
 
