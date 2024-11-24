@@ -446,5 +446,9 @@ See also
 
 [[!redirects cup products]]
 
+[[!redirects cup-product]]
+[[!redirects cup-products]]
+
+
 [[!redirects cup product in abelian Cech cohomology]]
 [[!redirects cup product in Cech cohomology]]
