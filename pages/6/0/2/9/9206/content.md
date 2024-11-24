@@ -71,6 +71,10 @@ Volume 940, March 2019, Pages 54-62 ([arXiv:1812.07206](https://arxiv.org/abs/18
 
 * Dongsu Bak, [[Andreas Gustavsson]], _One dyonic instanton in 5d maximal SYM theory_ ([arXiv:1305.3637](https://arxiv.org/abs/1305.3637))
 
+On Yang-Mills [[solitons]] in 5d as [[Yang-Mills instantons]] in 4d:
+
+* [[Constantinos Papageorgakis]], Andrew B. Royston: *Instanton-soliton loops in 5D super-Yang-Mills*, Proc. Symp. Pure Math. **88** (2014) 351-360 &lbrack;[arXiv:1409.4093](https://arxiv.org/abs/1409.4093), [doi:10.1090/pspum/088](https://doi.org/10.1090/pspum/088), [spire:1336668](https://inspirehep.net/literature/1336668)&rbrack;
+
 
 
 [[topological twists]]:
