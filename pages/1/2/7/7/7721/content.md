@@ -389,7 +389,7 @@ encoded by type II geometry.
 
 The appearance of type II geometry in [[type II supergravity]]/[[type II string theory]] is discussed for instance in
 
-* Ian Ellwood, _NS-NS fluxes in Hitchin's generalized geometry_ ([arXiv:hep-th/0612100](http://arxiv.org/abs/hep-th/0612100))
+* {#Ellwood07} Ian Ellwood: _NS-NS fluxes in Hitchin's generalized geometry_ &lbrack;[arXiv:hep-th/0612100](https://arxiv.org/abs/hep-th/0612100)&rbrack;
 
 * {#GMPW} [[Mariana Graña]], [[Ruben Minasian]], Michela Petrini, [[Daniel Waldram]], _T-duality, Generalized Geometry and Non-Geometric Backgrounds_ ([arXiv:0807.4527](http://arxiv.org/abs/0807.4527))
  
