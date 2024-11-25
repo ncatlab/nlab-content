@@ -25,6 +25,9 @@ If already the total space is a 3-orbifold, one correspondingly speaks of a *Sei
 
 * [[lens space]]
 
+Beware that there is also the *un-related* concept of 
+
+* [[Seifert surfaces]]
 
 ## References
 
@@ -34,9 +37,16 @@ The original article:
 
 * [[Herbert Seifert]]: *Topology of 3-dimensional fibered spaces*, in: *A textbook of topology*, Pure Appl. Math. **89**, Academic Press (1980) 139–152 &lbrack;[pdf](https://www.math.csi.cuny.edu/abhijit/k3m/Seifert-FiberedSpaces-english.pdf)&rbrack;
 
+Lecture notes:
+
+* Mark Jankins, Walter Neumann: *Lectures on Seifert Manifolds*, Brandeis University (1981) &lbrack;[pdf](https://www.math.columbia.edu/department/neumann/preprints/neumann_lectures%20on%20seifert%20manifolds.pdf)&rbrack;
+
+
 Monographs:
 
 * [[Kyung Bai Lee]], [[Frank Raymond]]: *Seifert Fiberings*, Mathematical Surveys and Monographs (2010) **166** &lbrack;[doi:10.1090/surv/166](https://doi.org/10.1090/surv/166), toc:[pdf](https://www.ams.org/books/surv/166/surv166-endmatter.pdf)&rbrack;
+
+
 
 Further survery:
 
