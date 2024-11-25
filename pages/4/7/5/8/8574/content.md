@@ -22,16 +22,29 @@
 
 The _Yang-Mills equations_ are the [[equations of motion]]/[[Euler-Lagrange equations]] of [[Yang-Mills theory]]. They generalize [[Maxwell's equations]].
 
-## Abelian Yang-Mills equation
+## Details
 
-For an abelian [[Lie group]] as [[structure group]], its [[Lie algebra]] is also abelian and hence all [[Lie brackets]] vanish and makes the [[Yang-Mills equation]] into:
+### General form
+
+(...)
+
+### Abelian case
+ {#AbelianCase}
+
+For an [[abelian group|abelian]] [[Lie group]] as [[structure group]], its [[Lie algebra]] is also abelian and hence all [[Lie brackets]] vanish and makes the [[Yang-Mills equation]] reduce to the *[[Maxwell equation]]*:
 
 $$
-\mathrm{d}\star\mathrm{d}A
-=0.
+  \mathrm{d}\star\mathrm{d}A
+  \;=\;
+  0
+  \,.
 $$
 
-## Connection with generalized Laplace equation
+
+
+## Properties
+
+### Relation with generalized Laplace equation
 
 Let:
 
@@ -47,9 +60,12 @@ be a [[generalized Laplace operator]].
 The [[Bianchi identity]] $\mathrm{d}_A F_A=0$ and the [[Yang-Mills equation]] $\delta_A F_A=0$ combine to:
 
 $$
-\Delta_A F_A
-=0.
+  \Delta_A F_A
+  \;=\;
+  0
+  \,.
 $$
+
 
 ## Related concepts
 
