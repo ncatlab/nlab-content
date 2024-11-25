@@ -149,7 +149,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 
 If one untruncates the codomain of the function, one gets choice operators for every set-indexed family of type:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{AGC}_\infty^{A, B}:\mathrm{isSet}(A) \to \left(\prod_{x:A} [B(x)]\right) \to \left[\prod_{x:A} B(x)\right]}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{AGC}_\infty^{A, B}:\mathrm{isSet}(A) \to \left(\prod_{x:A} [B(x)]\right) \to \prod_{x:A} B(x)}$$
 
 Similarly, the [[axiom of countable choice]] says that the [[dependent product type|dependent product]] of a family of inhabited sets indexed by the natural numbers is itself inhabited:
 
