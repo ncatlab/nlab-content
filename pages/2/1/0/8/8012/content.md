@@ -21,10 +21,22 @@
 
 A **Seifert surface** (named after [[Herbert Seifert]]) is an [[orientable]] [[surface]] whose [[boundary]] is a given [[knot]] or [[link]].
 
+## Related concepts
+
+* [[knot]]
+
+* [[Alexander polynomial]]
+
+Beware that there is the *un-related* concept of:
+
+* [[Seifert manifolds]]
+
 ## References
 
-* wikipedia [Seifert surface](http://en.wikipedia.org/wiki/Seifert_surface)
+See also:
 
-Related entries: [[knot]], [[Alexander polynomial]]
+* Wikipedia, *[Seifert surface](http://en.wikipedia.org/wiki/Seifert_surface)*
+
+
 
 [[!redirects Seifert surfaces]]
