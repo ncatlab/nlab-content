@@ -16,7 +16,7 @@
 
 ## Idea
 
-The notion of _inner fibration_ of [[simplicial set]]s is one of the notion of [[fibrations of quasi-categories]].
+The notion of _inner fibration_ of [[simplicial set]]s is one of the notions of [[fibrations of quasi-categories]].
 
 When the notion of [[(∞,1)-category]] is incarnated in terms of the notion of [[quasi-category]], an _inner fibration_ is a morphism of [[simplicial set]]s $C \to D$ such that each fiber is a quasi-category and such that over each morphism $f : d_1 \to d_2$ of $D$, $C$ may be thought of as the [[cograph of a profunctor|cograph of an (∞,1)-profunctor]] $C_{d_1} &#8696; C_{d_2}$.
 
