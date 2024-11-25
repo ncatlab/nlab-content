@@ -65,7 +65,7 @@ $$
 =0.
 $$
 
-([Hu & Hu 15](#HuHu15), [Cheng 21, Definition 3.1]({#Cheng21}), [Han, Jin & Wen 23](#HanJinWen23))
+([Hu & Hu 15](#HuHu15), [Cheng 21, Definition 3.1](#Cheng21), [Han, Jin & Wen 23](#HanJinWen23))
 
 ## Properties
 
