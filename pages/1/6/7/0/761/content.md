@@ -217,8 +217,27 @@ There are (at least) two code functions that can be given, which are listed in s
 * [[higher homotopy van Kampen theorem]]
 
 ## References
+ {#References}
 
-See also this [mathoverflow discussion](http://mathoverflow.net/questions/40945/compelling-evidence-that-two-basepoints-are-better-than-one)
+The Seifert-van Kampen theorem is named after
+
+* [[Herbert Seifert]]: *Konstruction drei dimensionaler geschlossener Räume*, Berichte Sachs. Akad. Leipzig, Math.-Phys. Kl. *83* (1931) 26–66
+
+* [[Egbert van Kampen]]: *On the connection between the fundamental groups of some related spaces*, American Journal of Mathematics **55** (1933) 261–267 &lbrack;[jstor:51000091](https://www.jstor.org/stable/51000091)&rbrack;
+
+Introduction and review:
+
+* [[Peter May]], chapter 2 of: *[[A Concise Course in Algebraic Topology]]*, University of Chicago Press (1999) &lbrack;[ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf)&rbrack;
+
+* {#Hatcher02} [[Allen Hatcher]], section 1.2 of: *Algebraic Topology*, Cambridge University Press (2002) \[<a href="https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401">ISBN:9780521795401</a>, [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)\]
+
+
+See also: 
+
+* Wikipedia: *[Seifert-van Kampen theorem](https://en.wikipedia.org/wiki/Seifert%E2%80%93Van_Kampen_theorem#References)*
+
+
+
 
 The use of a set of base points for a pushout theorem and so determining the fundamental group of the circle was published in
 
@@ -227,6 +246,9 @@ The use of a set of base points for a pushout theorem and so determining the fun
 The more general theorem for the fundamental groupoid on a set of base points: 
 
 * [[Ronnie Brown]] and A. Razak, _A van Kampen theorem for unions of non-connected  spaces_, Archiv. Math. 42 (1984) 85-88. [pdf](http://pages.bangor.ac.uk/pdffiles/brown-razak.pdf) 
+
+See also this [mathoverflow discussion](http://mathoverflow.net/questions/40945/compelling-evidence-that-two-basepoints-are-better-than-one)
+
 
 The pushout theorem is among  applications of groupoids to $1$-dimensional homotopy theory (e.g. gluing theorem, covering spaces, orbit spaces) and to the Jordan Curve Theorem in:
 
