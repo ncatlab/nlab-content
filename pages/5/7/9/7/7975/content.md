@@ -58,30 +58,29 @@ One way of achieving [[moduli stabilization]] for KK-compactifications in [[Eins
 
 ## References
 
+* {#Graña05} [[Mariana Graña]]: *Flux compactifications in string theory: a comprehensive review*, Phys. Rept. **423** (2006) 91-158 &lbrack;[arXiv:hep-th/0509003](https://arxiv.org/abs/hep-th/0509003), [doi:10.1016/j.physrep.2005.10.008](https://doi.org/10.1016/j.physrep.2005.10.008)&rbrack;
 
-* [[Michael Douglas]], [[Shamit Kachru]], _Flux compactification_, Rev. Mod. Phys. __79__ (2007) 733&#8211;796 ([arXiv:hep-th/0610102](http://arxiv.org/abs/hep-th/0610102))
+* [[Michael Douglas]], [[Shamit Kachru]]: _Flux compactification_, Rev. Mod. Phys. __79__ (2007) 733-796 &lbrack;[arXiv:hep-th/0610102](http://arxiv.org/abs/hep-th/0610102), [doi:10.1103/RevModPhys.79.733](https://doi.org/10.1103/RevModPhys.79.733)&rbrack;
 
-* [[Frederik Denef]], [[Michael Douglas]], [[Shamit Kachru]], _Physics of string flux compactifications_, Ann.Rev.Nucl.Part.Sci.57:119-144,2007, [hep-th/0701050](http://arxiv.org/abs/hep-th/0701050), [doi](http://dx.doi.org/10.1146/annurev.nucl.57.090506.123042)
+* [[Frederik Denef]], [[Michael Douglas]], [[Shamit Kachru]]: _Physics of string flux compactifications_, Ann. Rev. Nucl. Part. Sci. **57** (2007) 119-144 &lbrack;[hep-th/0701050](http://arxiv.org/abs/hep-th/0701050), [doi:10.1146/annurev.nucl.57.090506.123042](http://dx.doi.org/10.1146/annurev.nucl.57.090506.123042)&rbrack;
 
-* [[Frederik Denef]], _Introduction to flux compactifications_, lecture at Summer School on particle physics, cosmology and strings - Perimeter Institute 2007, [video](http://pirsa.org/07080009) 
+* [[Frederik Denef]]: _Introduction to flux compactifications_, lecture at *Summer School on Particle Physics, Cosmology and Strings*, Perimeter Institute (2007) &lbrack;[video](http://pirsa.org/07080009)&rbrack;
 
-* {#Tomasiello22} Alessandro Tomasiello, _Geometry of String Theory Compactifications_, 
-Cambridge University Press,2022, [doi](https://doi.org/10.1017/9781108635745)
+* {#Tomasiello22} [[Alessandro Tomasiello]]: _Geometry of String Theory Compactifications_: Cambridge University Press (2022) &lbrack;[doi:10.1017/9781108635745](https://doi.org/10.1017/9781108635745)&rbrack;
 
-* {#Prieto24} David Prieto, _Moduli Stabilization and Stability in Type II/F-theory flux compactifications_,([arXiv:abs/2401.13339](https://arxiv.org/abs/2401.13339))
+* {#Prieto24} [[David Prieto]]: _Moduli Stabilization and Stability in Type II/F-theory flux compactifications_ &lbrack;[arXiv:abs/2401.13339](https://arxiv.org/abs/2401.13339)&rbrack;
 
-* {#Ellwood07} Ian Ellwood, _NS-NS fluxes in Hitchin's generalized geometry_,([arXiv:hep-th/0612100](https://arxiv.org/abs/hep-th/0612100))
+Via [[generalized complex geometry]]:
 
-
-* {#Graña05} Mariana Graña, _Flux compactifications in string theory: a comprehensive review_,([arXiv:hep-th/0509003v3](https://arxiv.org/abs/hep-th/0509003v3))
-
+* {#Ellwood07} Ian Ellwood: _NS-NS fluxes in Hitchin's generalized geometry_ &lbrack;[arXiv:hep-th/0612100](https://arxiv.org/abs/hep-th/0612100)&rbrack;
 
 
-A good survey of the story of flux compactifications in [[F-theory]] is in 
+
+In view of [[F-theory]]:
 
 * {#Denef08} [[Frederik Denef]], _Les Houches Lectures on Constructing String Vacua_, in _[[String theory and the real world]]_ ([arXiv:0803.1194](http://arxiv.org/abs/0803.1194))
 
-For [[F-theory]]-discussion see also at _[F-theory -- References -- Flux compactification](F-theory#FluxAndInstantons)_.
+* _[F-theory -- References -- Flux compactification](F-theory#FluxAndInstantons)_.
 
 See also
 
