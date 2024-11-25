@@ -146,16 +146,21 @@ $$
 =0.
 $$
 
-## See also
+## Related entries
 
 * [[stable Yang-Mills-Higgs pair]]
 
+* [[Einstein-Yang-Mills-Dirac-Higgs theory]]
+
 ## References
 
-* {#Taubes82a} [[Clifford Taubes]], _The existence of a non-minimal solution to the $\operatorname{SU}(2)$ Yang-Mills-Higgs equations on $\mathbb{R}^3$ Part I_ (1982), Communications in Mathematical Physics **86**, pp. 257–298, [doi:10.1007/BF01206014](https://doi.org/10.1007/BF01206014)
-* {#Taubes82b} [[Clifford Taubes]], _The existence of a non-minimal solution to the $\operatorname{SU}(2)$ Yang-Mills-Higgs equations on $\mathbb{R}^3$ Part II_ (1982), Communications in Mathematical Physics **86**, pp. 299–320, [doi:10.1007/BF01212170](https://doi.org/10.1007/BF01212170)
-* {#Taubes84} [[Clifford Taubes]], _On the Yang--Mills--Higgs equations_ (1984), Bulletin of the American Mathematical Society **10**, pp. 295–297, [doi:10.1090/s0273-0979-1984-15254-6](https://doi.org/10.1090/s0273-0979-1984-15254-6)
-* {#Taubes85} [[Clifford Taubes]], _Min-max theory for the Yang-Mills-Higgs equations_ (1985), Communications in Mathematical Physics **97**, pp. 295–297, [doi:10.1007/BF01221215](https://doi.org/10.1007/BF01221215)
+* {#Taubes82a} [[Clifford Taubes]], _The existence of a non-minimal solution to the $\operatorname{SU}(2)$ Yang-Mills-Higgs equations on $\mathbb{R}^3$ Part I_, Communications in Mathematical Physics **86** (1982) 257–298 &lbrack;[doi:10.1007/BF01206014](https://doi.org/10.1007/BF01206014)&rbrack;
+
+* {#Taubes82b} [[Clifford Taubes]], _The existence of a non-minimal solution to the $\operatorname{SU}(2)$ Yang-Mills-Higgs equations on $\mathbb{R}^3$ Part II_, Communications in Mathematical Physics **86** (1982) 299–320 &lbrack;[doi:10.1007/BF01212170](https://doi.org/10.1007/BF01212170)&rbrack;
+
+* {#Taubes84} [[Clifford Taubes]], _On the Yang--Mills--Higgs equations_, Bulletin of the American Mathematical Society **10** (1984) 295–297 &lbrack;[doi:10.1090/s0273-0979-1984-15254-6](https://doi.org/10.1090/s0273-0979-1984-15254-6)&rbrack;
+
+* {#Taubes85} [[Clifford Taubes]], _Min-max theory for the Yang-Mills-Higgs equations_, Communications in Mathematical Physics **97** (1985) 295–297 &lbrack;[doi:10.1007/BF01221215](https://doi.org/10.1007/BF01221215)&rbrack;
 
 See also:
 
