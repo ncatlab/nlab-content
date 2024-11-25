@@ -30,7 +30,7 @@ d_F
 \coloneqq\sup_{t\geq 0}\frac{tF'(t)}{F(t)}.
 $$
 
-([Wei 22]({#Wei22}))
+([Wei 22](#Wei22))
 
 Since $F$ is a $C^2$ function, one can also consider the following constant:
 
@@ -39,7 +39,7 @@ d_{F'}
 =\sup_{t\geq 0}\frac{tF''(t)}{F'(t)}.
 $$
 
-([Baba & Shintani 23, Definition 4.8](#BabaShintani23), [Baba 23]({#Baba23}))
+([Baba & Shintani 23, Definition 4.8](#BabaShintani23), [Baba 23](#Baba23))
 
 Let $G$ be a [[compact]] [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and $E\twoheadrightarrow B$ be a [[principal bundle|principal $G$-bundle]] with a [[orientable]] [[Riemannian manifold]] $B$. Let $\operatorname{Ad}(E)\coloneqq E\times_G\mathfrak{g}$ be its [[adjoint bundle]]. The _$F$-Yang-Mills action functional_ (or _$F$-YM action functional_) is given by:
 
@@ -52,7 +52,7 @@ $$
 \right)\mathrm{d}\vol_g.
 $$
 
-([Baba & Shintani 23, Definition 3.1](#BabaShintani23), [Baba 23]({#Baba23}))
+([Baba & Shintani 23, Definition 3.1](#BabaShintani23), [Baba 23](#Baba23))
 
 For a flat connection $A\in\Omega^1(B,\operatorname{Ad}(E))$ (with $F_A=0$), one has $\operatorname{YM}_F(A)=F(0)\operatorname{vol}(M)$. Hence $F(0)=0$ is required to avert divergence for a non-compact manifold $B$, although this condition can also be left out as only the derivative $F'$ is of further importance.
 
@@ -76,19 +76,19 @@ F'\left(
 =0.
 $$
 
-([Baba & Shintani 23, Corollary 3.4](#BabaShintani23), [Baba 23]({#Baba23}))
+([Baba & Shintani 23, Corollary 3.4](#BabaShintani23), [Baba 23](#Baba23))
 
 For a $F$-Yang-Mills connection $A\in\Omega^1(B,\operatorname{Ad}(E))$, its curvature $F_A\in\Omega^2(B,\operatorname{Ad}(E))$ is called _$F$-Yang-Mills field_ (or _$F$-YM field_).
 
 A $F$-Yang–Mills connection/field with:
 
-* $F(t)=\exp(t)$ (or $F(t)=\exp(t)-1$ for normalization) is called _(normed) exponential Yang–Mills connection/field_. In this case, one has $d_{F'}=\infty$. The exponential and normed exponential Yang-Mills action functional are denoted with $\operatorname{YM}_\mathrm{e}$ and $\operatorname{YM}_\mathrm{e}^0$ respectively. ([Matsura & Urakawa 95]({#MatsuraUrakawa95}))
+* $F(t)=\exp(t)$ (or $F(t)=\exp(t)-1$ for normalization) is called _(normed) exponential Yang–Mills connection/field_. In this case, one has $d_{F'}=\infty$. The exponential and normed exponential Yang-Mills action functional are denoted with $\operatorname{YM}_\mathrm{e}$ and $\operatorname{YM}_\mathrm{e}^0$ respectively. ([Matsura & Urakawa 95](#MatsuraUrakawa95))
 
 * $F(t)=\frac{1}{p}(2t)^{\frac{p}{2}}$ is called _$p$-Yang–Mills connection/field_. Usual Yang–Mills connections/fields are exactly the $2$-Yang–Mills connections/fields. In this case, one has $d_{F'}=\frac{p}{2}-1$.  The $p$-Yang-Mills action functional is denoted with $\operatorname{YM}_p$.
 
 * $F(t)=\sqrt{1-2t}-1$ or $F(t)=\sqrt{1+2t}-1$ is called _Yang–Mills–Born–Infeld connection/field_ (or _YMBI connection/field_) with negative or positive sign respectively. In these cases, one has $d_{F'}=\infty$ and $d_{F'}=0$ respectively. The Yang-Mills-Born-Infeld action functionals with negative and positive sign are denoted with $\operatorname{YMBI}^-$ and $\operatorname{YMBI}^+$ respectively.
 
-([Baba & Shintani 23, Example 3.2](#BabaShintani23), [Wei 22]({#Wei22}), [Baba 23]({#Baba23}))
+([Baba & Shintani 23, Example 3.2](#BabaShintani23), [Wei 22](#Wei22), [Baba 23](#Baba23))
 
 ## Stable $F$-Yang-Mills connections
 
@@ -101,7 +101,7 @@ $$
 
 for all smooth families $A\colon(-\varepsilon,\varepsilon)\rightarrow\Omega^1(B,\operatorname{Ad}(E))$ with $A(t)=A$. It is called _weakly stable_ if only $\geq 0$ holds. A $F$-Yang–Mills connection, which is not weakly stable, is called _unstable_. If $A\in\Omega^1(B,\operatorname{Ad}(E))$ is a _(weakly) stable_ or _unstable $F$-Yang-Mills connection_, its curvature $F_A\in\Omega^2(B,\operatorname{Ad}(E))$ is also called _(weakly) stable_ or _unstable $F$-Yang-Mills field_.
 
-([Baba & Shintani 23, Definition 3.6](#BabaShintani23), [Baba 23]({#Baba23}))
+([Baba & Shintani 23, Definition 3.6](#BabaShintani23), [Baba 23](#Baba23))
 
 ## Properties
 
@@ -109,7 +109,7 @@ for all smooth families $A\colon(-\varepsilon,\varepsilon)\rightarrow\Omega^1(B,
 For a Yang-Mills connection with constant curvature, its stability as Yang-Mills connection implies its stability as exponential Yang-Mills connection.
 \end{lemma}
 
-([Matsura & Urakawa 95, Corollary 6.2]({#MatsuraUrakawa95}))
+([Matsura & Urakawa 95, Corollary 6.2](#MatsuraUrakawa95))
 
 \begin{lemma}
 Every non-flat exponential Yang-Mills connection over $S^n$ with $n\geq 5$ and:
@@ -120,7 +120,7 @@ $$
 is flat.
 \end{lemma}
 
-([Baba & Shintani 23, Proposition 4.14](#BabaShintani23), [Baba 23]({#Baba23}))
+([Baba & Shintani 23, Proposition 4.14](#BabaShintani23), [Baba 23](#Baba23))
 
 \begin{lemma}
 Every non-flat Yang-Mills-Born-Infeld connection over $S^n$ with $n\geq 5$ and:
@@ -137,7 +137,7 @@ is flat.
 For $n\gt 4(d_{F'}+1)$, every non-flat $F$-Yang-Mills connection over $S^n$ is unstable.
 \end{theorem}
 
-([Baba & Shintani 23, Theorem 1.2 and Corollary 4.12](#BabaShintani23), [Baba 23]({#Baba23}), [Baba 23]({#Baba23}))
+([Baba & Shintani 23, Theorem 1.2 and Corollary 4.12](#BabaShintani23), [Baba 23](#Baba23), [Baba 23](#Baba23))
 
 \begin{lemma}
 For $n\gt 2p$, every non-flat $p$-Yang-Mills connection over $S^n$ is unstable.
@@ -149,7 +149,7 @@ For $n\gt 4$, every non-flat Yang-Mills-Born-Infeld connection with positive sig
 For $0\leq d_{F'}\leq\frac{1}{6}$, every non-flat $F$-Yang-Mills connection over the [[Cayley plane]] $F_4/\operatorname{Spin}(9)$ is instable.
 \end{lemma}
 
-([Baba 23]({#Baba23}))
+([Baba 23](#Baba23))
 
 ## Related concepts
 
