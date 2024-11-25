@@ -5,6 +5,14 @@
 
 * [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=15668)
 
+## Related concepts
+
+* [[Seifert-van Kampen theorem]]
+
+* [[Seifert surface]]
+
+* [[Seifert 3-manifold]]
+
 
 ## Selected writings
 
