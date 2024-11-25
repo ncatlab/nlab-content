@@ -23,9 +23,9 @@
 
 ## Idea
 
-The _Yang--Mills [[field (physics)|field]]_ is the [[gauge theory|gauge field]] of [[Yang-Mills theory]]. 
+The _Yang--Mills [[field (physics)|field]]_ is the [[gauge field]] of [[Yang-Mills theory|Yang-Mills]] [[gauge theory]]. 
 
-It is modeled by a cocycle $\hat F \in \mathbf{H}(X, \mathbf{B}U(n)_{conn})$ in differential [[nonabelian cohomology]]. Here $\mathbf{B} U(n)_{conn}$ is the [[moduli stack]] of $U(n)$-[[principal connections]], the [[stackification]] of the [[groupoid of Lie-algebra valued forms]], regarded as a [[groupoid]] [[internal category|internal to]] [[smooth spaces]].
+The YM field is modeled by [[principal connections]], or more abstractly by [[cocycles]] $\hat F \in \mathbf{H}(X, \mathbf{B}U(n)_{conn})$ in [[differential nonabelian cohomology]]. Here $\mathbf{B} U(n)_{conn}$ is the [[moduli stack]] of $U(n)$-[[principal connections]], the [[stackification]] of the [[groupoid of Lie-algebra valued forms]], regarded as a [[groupoid]] [[internal category|internal to]] [[smooth spaces]].
 
 This is usually represented by a [[vector bundle]] [[connection on a bundle|with connection]]. 
 
@@ -49,13 +49,25 @@ As a [[nonabelian cohomology|nonabelian]] [[Čech cohomology|Čech cocycle]] the
     \,.
   $$
 
-# Examples #
+## Examples 
 
 * For $U(n) = U(1)$ this is the [[electromagnetic field]].
 
-* For $U(n) = SU(2) \times U(1)$ this is the "electroweak field";
+* For $U(n) = SU(2) \times U(1)$ this is the "[[electroweak field]]";
 
-* For $U(n) = SU(3) $ this is the strong nuclear force field.
+* For $U(n) = SU(3) $ this is the [[strong nuclear force]] field.
+
+## Related entries
+
+* [[gauge field]]
+
+* [[gauge theory]]
+
+* [[Yang-Mills theory]]
+
+* [[Yang-Mill equation]]
+
+* [[Yang-Mills instanton]]
 
 
 [[!redirects Yang--Mills field]]
