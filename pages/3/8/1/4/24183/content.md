@@ -62,7 +62,7 @@ Arguments realizing such anyonic topological order in the [[worldvolume]]-[[quan
 
 Via [[KK-compactification]] on [[closed manifold|closed]] [[3-manifolds]] ([[Seifert manifolds]]) analogous to the [[3d-3d correspondence]] (which instead uses [[hyperbolic 3-manifolds]]):
 
-* Gil Young Cho, [[Dongmin Gang]], Hee-Cheol Kim: *M-theoretic Genesis of Topological Phases*, J. High Energ. Phys. **2020** 115 (2020) \[<a href="https://arxiv.org/abs/2007.01532">arXiv:2007.01532</a>, <a href=" https://doi.org/10.1007/JHEP11(2020)115">doi:10.1007/JHEP11(2020)115</a>\]
+* {#CGK20} Gil Young Cho, [[Dongmin Gang]], Hee-Cheol Kim: *M-theoretic Genesis of Topological Phases*, J. High Energ. Phys. **2020** 115 (2020) \[<a href="https://arxiv.org/abs/2007.01532">arXiv:2007.01532</a>, <a href=" https://doi.org/10.1007/JHEP11(2020)115">doi:10.1007/JHEP11(2020)115</a>\]
 
 * [[Shawn X. Cui]], Paul Gustafson, [[Yang Qiu]], Qing Zhang, *From Torus Bundles to Particle-Hole Equivariantization*, Lett Math Phys **112** 15 (2022) \[<a href="https://doi.org/10.1007/s11005-022-01508-3">doi:10.1007/s11005-022-01508-3</a>, [arXiv:2106.01959](https://arxiv.org/abs/2106.01959)\]
 
