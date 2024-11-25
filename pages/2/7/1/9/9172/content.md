@@ -22,6 +22,8 @@ The name is due to the fact that this gauge field unifies the [[electromagnetic 
 
 ## Related concepts
 
+* [[Yang-Mills field]]
+
 * [[QED]], [[QCD]]
 
 * [[standard model of particle physics]]
