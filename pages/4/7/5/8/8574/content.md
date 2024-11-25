@@ -22,6 +22,35 @@
 
 The _Yang-Mills equations_ are the [[equations of motion]]/[[Euler-Lagrange equations]] of [[Yang-Mills theory]]. They generalize [[Maxwell's equations]].
 
+## Abelian Yang-Mills equation
+
+For an abelian [[Lie group]] as [[structure group]], its [[Lie algebra]] is also abelian and hence all [[Lie brackets]] vanish and makes the [[Yang-Mills equation]] into:
+
+$$
+\mathrm{d}\star\mathrm{d}A
+=0.
+$$
+
+## Connection with generalized Laplace equation
+
+Let:
+
+$$
+\Delta_A
+\coloneqq\delta_A\mathrm{d}_A
++\mathrm{d}_A\delta_A\colon
+\Omega^k(B,\operatorname{Ad}(E))\rightarrow\Omega^k(B,\operatorname{Ad}(E))
+$$
+
+be a [[generalized Laplace operator]].
+
+The [[Bianchi identity]] $\mathrm{d}_A F_A=0$ and the [[Yang-Mills equation]] $\delta_A F_A=0$ combine to:
+
+$$
+\Delta_A F_A
+=0.
+$$
+
 ## Related concepts
 
 * [[Yang-Mills instanton]]
