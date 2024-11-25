@@ -1,2 +1,1 @@
-
-...
+$$0 \to A \stackrel{i}\to B \stackrel{\pi}\to C \to 0$$
