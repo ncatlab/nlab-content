@@ -19,7 +19,10 @@
 
 ## Idea
 
-A _(weakly) stable Yang-Mills-Higgs connection_ (or _(weakly) stable YMH connection_) is a [[Yang-Mills-Higgs connection]], around which the Yang-Mills-Higgs action functional is positive or even strictly positively curved. [[Yang-Mills-Higgs connections]] are critical points of the Yang-Mills-Higgs action functional, hence the first derivative is required to vanish. For (weakly) stable Yang-Mills connections, the second derivative is additionally required to be positive or even strictly positive.
+A _(weakly) stable Yang-Mills-Higgs connection_ (or _(weakly) stable YMH connection_) is a [[Yang-Mills-Higgs connection]], around which the Yang-Mills-Higgs [[action functional]] is positive or even strictly positively curved:
+
+[[Yang-Mills-Higgs connections]] are [[critical points]] of the Yang-Mills-Higgs action functional, where the first [[variational calculus|variational]] derivative vanishes. For (weakly) stable Yang-Mills connections, the second derivative is additionally required to be positive or even strictly positive.
+
 
 ## Basics
 
