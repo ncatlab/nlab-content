@@ -44,15 +44,24 @@ $$
 
 ## Properties
 
-### Relation with generalized Laplace equation
+### Relation to generalized Laplace equation
 
 Let:
 
 $$
-\Delta_A
-\coloneqq\delta_A\mathrm{d}_A
-+\mathrm{d}_A\delta_A\colon
-\Omega^k(B,\operatorname{Ad}(E))\rightarrow\Omega^k(B,\operatorname{Ad}(E))
+  \Delta_A
+  \;\coloneqq\;
+  \delta_A\mathrm{d}_A
+  \,+\,
+  \mathrm{d}_A \delta_A
+  \;\colon\;
+  \Omega^k\big(
+    B,\, Ad(E)
+  \big)
+  \longrightarrow
+  \Omega^k\big(
+    B,\, Ad(E)
+  \big)
 $$
 
 be a [[generalized Laplace operator]].
