@@ -25,6 +25,19 @@ Applied to [[supergravity]] this may in particular yield [[perturbative string t
 
 One way of achieving [[moduli stabilization]] for KK-compactifications in [[Einstein-Maxwell theory]] or [[supergravity]]/[[string theory]] is to consider [[gauge fields]] and/or [[higher gauge fields]] in the compact space. Their (higher) [[field strength]]/[[curvature]] forms ("[[fluxes]]") parameterize mass terms for the compactification moduli and hence may, under suitable conditions, stabilize them.
 
+## No-go theorems
+
+
+### dS No-go
+
+
+## Role of generalised geometry 
+
+
+
+
+
+
 ## Related concepts
 
 * [[flux]], [[flux tube]], [[flux quantization]]
@@ -35,6 +48,14 @@ One way of achieving [[moduli stabilization]] for KK-compactifications in [[Eins
 
 * [[G₂-MSSM]]
 
+* [[pure spinor]]
+
+* [[generalised complex geometry]]
+
+* [[generalized Calabi-Yau manifold]]
+
+
+
 ## References
 
 
@@ -43,6 +64,17 @@ One way of achieving [[moduli stabilization]] for KK-compactifications in [[Eins
 * [[Frederik Denef]], [[Michael Douglas]], [[Shamit Kachru]], _Physics of string flux compactifications_, Ann.Rev.Nucl.Part.Sci.57:119-144,2007, [hep-th/0701050](http://arxiv.org/abs/hep-th/0701050), [doi](http://dx.doi.org/10.1146/annurev.nucl.57.090506.123042)
 
 * [[Frederik Denef]], _Introduction to flux compactifications_, lecture at Summer School on particle physics, cosmology and strings - Perimeter Institute 2007, [video](http://pirsa.org/07080009) 
+
+* {#Tomasiello22} Alessandro Tomasiello, _Geometry of String Theory Compactifications_, 
+Cambridge University Press,2022, [doi](https://doi.org/10.1017/9781108635745)
+
+* {#Prieto24} David Prieto, _Moduli Stabilization and Stability in Type II/F-theory flux compactifications_,([arXiv:abs/2401.13339](https://arxiv.org/abs/2401.13339))
+
+* {#Ellwood07} Ian Ellwood, _NS-NS fluxes in Hitchin's generalized geometry_,([arXiv:hep-th/0612100](https://arxiv.org/abs/hep-th/0612100))
+
+
+* {#Graña05} Mariana Graña, _Flux compactifications in string theory: a comprehensive review_,([arXiv:hep-th/0509003v3](https://arxiv.org/abs/hep-th/0509003v3))
+
 
 
 A good survey of the story of flux compactifications in [[F-theory]] is in 
