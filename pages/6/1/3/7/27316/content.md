@@ -57,7 +57,7 @@ $$
 
 for all smooth families $\alpha\colon(-\varepsilon,\varepsilon)\rightarrow\Omega^1(B,\operatorname{Ad}(E))$ with $\alpha(0)=A$. It is called _weakly stable_ if only $\geq 0$ holds. If it is not weakly stable, it is called _unstable_.
 
-([Chiang 2013, Definition 3.1.7]({#Chiang13}))
+([Chiang 2013, Definition 3.1.7](#Chiang13))
 
 For comparison, the condition for a _Yang-Mills connection_ (or _YM connection_) is:
 
@@ -74,7 +74,7 @@ If $A$ is a (weakly) stable or unstable Yang-Mills connection, $F_A$ is also cal
 Every weakly stable Yang-Mills connection on $S^n$ for $n\geq 5$ is flat.
 \end{theorem}
 
-([Bourguignon & Lawson 81, Theorem A]({#BourguignonLawson81}), [Kobayashi, Ohnita & Takeuchi 86, Theorem 1.3.]({#KobayashiOhnitaTakeuchi86}), [Kawai 86]({#Kawai86}), [Chiang 13, Theorem 3.1.9]({#Chiang13}))
+([Bourguignon & Lawson 81, Theorem A](#BourguignonLawson81), [Kobayashi, Ohnita & Takeuchi 86, Theorem 1.3.](#KobayashiOhnitaTakeuchi86), [Kawai 86](#Kawai86), [Chiang 13, Theorem 3.1.9](#Chiang13))
 
 [[James Simons]] presented this result without written publication during a symposium on _Minimal Submanifolds and Geodesics_ in Tokyo in September 1977.
 
@@ -88,7 +88,7 @@ $$
 at every point for all principal curvatures $\lambda_i$, then all weakly stable Yang-Mills connections on it are flat.
 \end{theorem}
 
-([Kawai 86]({#Kawai86}))
+([Kawai 86](#Kawai86))
 
 This includes the previous theorem as a special case.
 
@@ -96,19 +96,19 @@ This includes the previous theorem as a special case.
 Every weakly stable $\operatorname{SU}(2)$- or $\operatorname{SU}(3)$-Yang-Mills field on $S^4$ is either [[D=4 Yang-Mills theory|selfdual]] or [[D=4 Yang-Mills theory|anti-selfdual]].
 \end{theorem}
 
-([Bourguignon & Lawson 81, Theorem B]({#BourguignonLawson81}), [Chiang 213, Theorem 3.1.10]({#Chiang13}))
+([Bourguignon & Lawson 81, Theorem B](#BourguignonLawson81), [Chiang 213, Theorem 3.1.10](#Chiang13))
 
 \begin{theorem}
 All weakly stable Yang-Mills connections on a [[compact]] [[orientable]] [[homogeneous space|homogeneous]] Riemannian $4$-manifold with [[structure group]] $\operatorname{SU}(2)$ are either [[D=4 Yang-Mills theory|selfdual]], [[D=4 Yang-Mills theory|antiselfdual]] or reduce to an abelian field.
 \end{theorem}
 
-([Bourguignon & Lawson 81, Theorem B']({#BourguignonLawson81}), [Chiang 213, Theorem 3.1.11]({#Chiang13}))
+([Bourguignon & Lawson 81, Theorem B'](#BourguignonLawson81), [Chiang 213, Theorem 3.1.11](#Chiang13))
 
 ## Yang-Mills-unstable manifolds
 
 A [[compact]] [[Riemannian manifold]], for which no [[principal bundle]] over it (with a [[compact]] [[Lie group]] as [[structure group]]) has a stable Yang-Mills connection is called _Yang-Mills-unstable_ (or _YM-unstable_). For example, the spheres $S^n$ are Yang–Mills-unstable for $n\geq 5$ because of the above result from [[James Simons]]. A Yang–Mills-unstable manifold always has a vanishing second [[Betti number]].
 
-([Kobayashi, Ohnita & Takeuchi 86, Theorem 2.17.]({#KobayashiOhnitaTakeuchi86}))
+([Kobayashi, Ohnita & Takeuchi 86, Theorem 2.17.](#KobayashiOhnitaTakeuchi86))
 
 Central for the proof is that the infinite [[complex projective space]] $\mathbb{C}P^\infty$ is the classifying space $\operatorname{BU}(1)$ as well as the [[Eilenberg-MacLane space]] $K(\mathbb {Z} ,2)$. Hence principal $\operatorname{U}(1)$-bundles over a Yang–Mills-unstable manifold $X$ (but even more generally every [[CW complex]]) are classified by its second [[cohomology]] (with integer coefficients):
 
