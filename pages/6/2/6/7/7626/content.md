@@ -98,7 +98,7 @@ parameter $\theta = \pi(1 - 1/n)$.
 
 It follows ([Wu 1984](#Wu84), [Imbo, Imbo & Sudarshan 1990](#ImboImboSudarshan90)) that (quoting from [Fröhlich, Gabbiani & Marchetti 1990, p. 20](#FroehlichGabbianiMarchetti90)):
 
-> If $\theta \in\!\!\!\!\!/ \frac{1}{2}\mathbb{Z}$ the [[space of quantum states|Hilbert space]] of [[anyon]] [[wave functions]] must be chosen to be a space of [[multi-valued functions]] with half-[[monodromies]] given by the [[complex phase|phase]] factors $exp(2 \pi \mathrm{i} \theta)$. Such wave functions can be viewed as single-valued functions on the [[universal cover]] $\widetilde M_n$ of $M_n$ $[$the [[configuration space of points]]$]$.
+> If $\theta \in\!\!\!\!\!/ \frac{1}{2}\mathbb{Z}$ the [[space of quantum states|Hilbert space]] of [[anyon]] [[wave functions]] must be chosen to be a space of [[multi-valued functions]] with half-[[monodromies]] given by the [[complex phase|phase]] factors $exp(2 \pi \mathrm{i} \theta)$. Such wave functions can be viewed as single-valued functions on the [[universal cover]] $\widetilde M_n$ of $M_n$ &lbrack;the [[configuration space of points]]&rbrack.
 
 Further discussion of anyon-[[wavefunctions]] as [[multi-valued functions]] on a [[configuration space of points]], hence [[equivariant functions]] on its [[universal cover]]: [BCMS93, §1](#BCMS93), [Mund & Schrader 1995](#MundSchrader93), [DFT97, §1](#DFT97) [Myrheim 1999](#Myrheim99), [DMV03](#DMV03), [Murthy & Shankar 2009](#MurthyShankar09)
 
@@ -117,10 +117,10 @@ This seamlessly leads over to:
 
 In practice, many (most?) incarnations of the concept of anyons are *[anyonic defects](#AnyonicDefects)* -- [[non-perturbative effect|non-perturbative]] [[soliton|solitonic]] [[defects]] (of [[codimension]]=2), akin to *[[vortices]]* in fluids:
 
-> *Anyonic particles are best viewed as a kind of topological defects that reveal non-trivial properties of the ground state.* $[$[Kitaev 2006, p. 4](#Kitaev06)$]$
+> *Anyonic particles are best viewed as a kind of topological defects that reveal non-trivial properties of the ground state.* &lbrack;[Kitaev 2006, p. 4](#Kitaev06)&rbrack;
 
 >  *Anyons can arise in two ways: as localised excitations of an interacting
-quantum Hamiltonian or as defects in an ordered system.*  $[$[Das Sarma, Freedman & Nayak 2015, p. 1](topological+quantum+computation#DasSarmaFreedmanNayak15)$]$
+quantum Hamiltonian or as defects in an ordered system.*  &lbrack;[Das Sarma, Freedman & Nayak 2015, p. 1](topological+quantum+computation#DasSarmaFreedmanNayak15)&rbrack;
 
 (Compare also the original discussions in [Goldin, Menikoff & Sharp 1981, §III](#GoldinMenikoffSharp81), [Wilczek 1982a](#Wilczek82a) & [Wilczek 1990, p. 5](#Wilczek90), which offer a quantum particle "[[bound state|bound]]" to a classical & infinite [[solenoid]] -- hence a 2d [[magnetic monopole]] [[defect]] -- as a decent model for an anyon.)
 
@@ -194,8 +194,7 @@ Much attention in current efforts towards realizing [[topological quantum comput
 {#MayGeneralize} This situation may generalize to [[parafermion]]-[[su(2)-anyons]], where 
 
 > each (anti)[[soliton]] carries [[parafermion]] zero mode which supplies
-it with the non-Abelian statistics $[$[Tsvelik 2014a](parafermion#Tsvelik2014a), [p. 2](https://arxiv.org/pdf/1404.2840.pdf#page=2), cf. [Borcherding 2018, pp. 3](parafermion#Borcherding18).
-$]$
+it with the non-Abelian statistics &lbrack;[Tsvelik 2014a](parafermion#Tsvelik2014a), [p. 2](https://arxiv.org/pdf/1404.2840.pdf#page=2), cf. [Borcherding 2018, pp. 3](parafermion#Borcherding18)&rbrack;.
 
 
 
@@ -219,9 +218,9 @@ $]$
 
 Around 2020 the view has been emerging that also defects "in momentum/reciprocal space" may behave as anyonic defects under braiding in momentum space. This applies concretely to nodal points (where [[electron bands]] touch or cross) in the momentum space [[Brillouin torus]] of [[topological semi-metals]]:
 
-> here are band crossing points, henceforth called [[vortices]] $[$[Ahnm Park & Yang 2019](#AhnParkYang19)$]$
+> here are band crossing points, henceforth called [[vortices]] &lbrack;[Ahnm Park & Yang 2019](#AhnParkYang19)&rbrack;
 
-> a new type non-Abelian "braiding" of nodal-line rings inside the momentum space $[$[Tiwari & Bzdušek 2020](#TiwariBzdusek20)$]$
+> a new type non-Abelian "braiding" of nodal-line rings inside the momentum space &lbrack;[Tiwari & Bzdušek 2020](#TiwariBzdusek20)&rbrack;
 
 \begin{imagefromfile}
     "file_name": "BraidingOfBandNodes-220529.jpg",
@@ -240,17 +239,17 @@ Around 2020 the view has been emerging that also defects "in momentum/reciprocal
 
 Curiously, these reciprocal/momemtum space anyons lend themselves to tractable laboratory manipulation in a way that has remained notoriously elusive for "position space" anyons:
 
-> Our work opens up routes to readily manipulate Weyl nodes using only slight external parameter changes, paving the way for the practical realization of reciprocal space braiding $[$[CBSM22](#CBSM22)$]$,
+> Our work opens up routes to readily manipulate Weyl nodes using only slight external parameter changes, paving the way for the practical realization of reciprocal space braiding &lbrack;[CBSM22](#CBSM22)&rbrack;,
 
 specifically
 
-> it is possible to controllably braid Kagome band nodes in monolayer $\mathrm{Si}_2 \mathrm{O}_3$ using strain and/or an external electric field $[$[PBMS22](#PBMS22)$]$,
+> it is possible to controllably braid Kagome band nodes in monolayer $\mathrm{Si}_2 \mathrm{O}_3$ using strain and/or an external electric field &lbrack;[PBMS22](#PBMS22)&rbrack;,
 
 leading to:
 
 > new opportunities for exploring non-Abelian braiding of band crossing points (nodes) in reciprocal space, providing an alternative to the real space braiding exploited by other strategies. 
 
-> Real space braiding is practically constrained to boundary states, which has made experimental observation and manipulation difficult; instead, reciprocal space braiding occurs in the bulk states of the band structures and we demonstrate in this work that this provides a straightforward platform for non-Abelian braiding. $[$[PBSM22](#PBSM22)$]$.
+> Real space braiding is practically constrained to boundary states, which has made experimental observation and manipulation difficult; instead, reciprocal space braiding occurs in the bulk states of the band structures and we demonstrate in this work that this provides a straightforward platform for non-Abelian braiding. &lbrack;[PBSM22](#PBSM22)&rbrack;.
 
 
 
@@ -290,25 +289,25 @@ The concept of [[anyons]] satisfying [[braid group statistics]] originated indep
 
 * {#LeinaasMyrheim77} [[Jon Magne Leinaas]], [[Jan Myrheim]], _On the theory of identical particles_, _К теории тождествениых частиц_, Nuovo Cim B 37, 1–23 (1977) ([doi:10.1007/BF02727953](https://doi.org/10.1007/BF02727953))
 
-* {#GoldinMenikoffSharp81} G. A. Goldin, R. Menikoff, D. H. Sharp, *Representations of a local current algebra in nonsimply connected space and the Aharonov–Bohm effect*, J. Math. Phys. **22** 1664 (1981) $[$[doi:10.1063/1.525110](https://doi.org/10.1063/1.525110)$]$ 
+* {#GoldinMenikoffSharp81} G. A. Goldin, R. Menikoff, D. H. Sharp, *Representations of a local current algebra in nonsimply connected space and the Aharonov–Bohm effect*, J. Math. Phys. **22** 1664 (1981) &lbrack;[doi:10.1063/1.525110](https://doi.org/10.1063/1.525110)&rbrack; 
 
-* {#Wilczek82a} [[Frank Wilczek]], _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. **48** (1982) 1144 (reprinted in [Wilczek 1990, p. 163-165](#Wilczek90)) $[$[doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144)$]$
+* {#Wilczek82a} [[Frank Wilczek]], _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. **48** (1982) 1144 (reprinted in [Wilczek 1990, p. 163-165](#Wilczek90)) &lbrack;[doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144)&rbrack;
 
 The term *anyon* was introduced in:
 
-* {#Wilczek82b} [[Frank Wilczek]], *Quantum Mechanics of Fractional-Spin Particles*, Phys. Rev. Lett. **49** (1982) 957 (reprinted in [Wilczek 1990, p. 166-168](#Wilczek90)) $[$[doi:10.1103/PhysRevLett.49.957](https://doi.org/10.1103/PhysRevLett.49.957)$]$
+* {#Wilczek82b} [[Frank Wilczek]], *Quantum Mechanics of Fractional-Spin Particles*, Phys. Rev. Lett. **49** (1982) 957 (reprinted in [Wilczek 1990, p. 166-168](#Wilczek90)) &lbrack;[doi:10.1103/PhysRevLett.49.957](https://doi.org/10.1103/PhysRevLett.49.957)&rbrack;
 
 Identification of anyon phases (specifically in the [[quantum Hall effect]]) as [[Berry phases]] of an [[quantum adiabatic theorem|adiabatic transport]] of anyon positions:
 
-* {#AvrosSchriefferWilczek84} [[Daniel P. Arovas]], [[John Robert Schrieffer]], [[Frank Wilczek]], _Fractional Statistics and the Quantum Hall Effect_, Phys. Rev. Lett. 53, 722 (1984) $[$[doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722)$]$
+* {#AvrosSchriefferWilczek84} [[Daniel P. Arovas]], [[John Robert Schrieffer]], [[Frank Wilczek]], _Fractional Statistics and the Quantum Hall Effect_, Phys. Rev. Lett. 53, 722 (1984) &lbrack;[doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722)&rbrack;
 
 
 
 The "[[fictitious gauge field]]"-method for modelling anyons:
 
-* {#ArovasSchriefferWilczekZee85} [[Daniel P. Arovas]], [[Robert Schrieffer]], [[Frank Wilczek]], [[Anthony Zee]], *Statistical mechanics of anyons*, Nuclear Physics B **251** (1985) 117-126 (reprinted in [Wilczek 1990, p. 173-182](#Wilczek90)) $[$<a href="https://doi.org/10.1016/0550-3213(85)90252-4">doi:10.1016/0550-3213(85)90252-4</a>$]$
+* {#ArovasSchriefferWilczekZee85} [[Daniel P. Arovas]], [[Robert Schrieffer]], [[Frank Wilczek]], [[Anthony Zee]], *Statistical mechanics of anyons*, Nuclear Physics B **251** (1985) 117-126 (reprinted in [Wilczek 1990, p. 173-182](#Wilczek90)) &lbrack;<a href="https://doi.org/10.1016/0550-3213(85)90252-4">doi:10.1016/0550-3213(85)90252-4</a>&rbrack;
 
-* {#ChenWilczekWittenHalperin89} [[Yi-Hong Chen]], [[Frank Wilczek]], [[Edward Witten]], [[Bertrand Halperin]], *On Anyon Superconductivity*,  International Journal of Modern Physics B **03** 07 (1989) 1001-1067 (reprinted in [Wilczek 1990, p. 342-408](#Wilczek90))  $[$[doi:10.1142/S0217979289000725](https://doi.org/10.1142/S0217979289000725), [[CWWH-AnyonSuperfluidity.pdf:file]]$]$
+* {#ChenWilczekWittenHalperin89} [[Yi-Hong Chen]], [[Frank Wilczek]], [[Edward Witten]], [[Bertrand Halperin]], *On Anyon Superconductivity*,  International Journal of Modern Physics B **03** 07 (1989) 1001-1067 (reprinted in [Wilczek 1990, p. 342-408](#Wilczek90))  &lbrack;[doi:10.1142/S0217979289000725](https://doi.org/10.1142/S0217979289000725), [[CWWH-AnyonSuperfluidity.pdf:file]]&rbrack;
 
 * {#Wilczek91} [[Frank Wilczek]], *States of Anyon Matter*,  International Journal of Modern Physics B **05** 09 (1991) 1273-1312 &lbrack;[doi:10.1142/S0217979291000626](https://doi.org/10.1142/S0217979291000626)&rbrack;
 
@@ -320,9 +319,9 @@ and with specific emphasis on the resulting (abelian!) [[Chern-Simons theory]]:
 
 The suggestion that the anyonic [[ground state]]-[[wavefunctions]] are essentially [[conformal blocks]] of [[2d CFT]] (notably for [[su(2)-anyons]]):
 
-* {#MooreRead91} [[Gregory Moore]], [[Nicholas Read]], *Nonabelions in the fractional quantum hall effect*, Nuclear Physics B **360** 2–3 (1991) 362-396 $[$<a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>, [pdf](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)$]$
+* {#MooreRead91} [[Gregory Moore]], [[Nicholas Read]], *Nonabelions in the fractional quantum hall effect*, Nuclear Physics B **360** 2–3 (1991) 362-396 &lbrack;<a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>, [pdf](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)&rbrack;
 
-* {#ReadRezayi99} [[Nicholas Read]], [[Edward Rezayi]], *Beyond paired quantum Hall states: Parafermions and incompressible states in the first excited Landau level*, Phys. Rev. B **59** (1999) 8084 $[$[doi:10.1103/PhysRevB.59.8084](https://doi.org/10.1103/PhysRevB.59.8084)$]$
+* {#ReadRezayi99} [[Nicholas Read]], [[Edward Rezayi]], *Beyond paired quantum Hall states: Parafermions and incompressible states in the first excited Landau level*, Phys. Rev. B **59** (1999) 8084 &lbrack;[doi:10.1103/PhysRevB.59.8084](https://doi.org/10.1103/PhysRevB.59.8084)&rbrack;
 
 More comprehensive accounts of anyons:
 
@@ -344,11 +343,11 @@ On the history of the concept:
 
 Rigorous discussion in terms of [[superselection sectors]] in [[algebraic quantum field theory]]:
 
-* {#FroehlichMarchetti88} [[Jürg Fröhlich]], [[Pieralberto Marchetti]], *Quantum field theory of anyons*, Lett. Math. Phys. **16** (1988) 347–358 (reprinted in [Wilczek 1990, p. 202-213](#Wilczek90)) $[$[doi:10.1007/BF00402043](https://doi.org/10.1007/BF00402043)$]$
+* {#FroehlichMarchetti88} [[Jürg Fröhlich]], [[Pieralberto Marchetti]], *Quantum field theory of anyons*, Lett. Math. Phys. **16** (1988) 347–358 (reprinted in [Wilczek 1990, p. 202-213](#Wilczek90)) &lbrack;[doi:10.1007/BF00402043](https://doi.org/10.1007/BF00402043)&rbrack;
 
-* [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], *Braid statistics in local quantum theory*, Reviews in Mathematical Physics, **2** 03 (1990) 251-353 $[$[doi:10.1142/S0129055X90000107](https://doi.org/10.1142/S0129055X90000107)$]$
+* [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], *Braid statistics in local quantum theory*, Reviews in Mathematical Physics, **2** 03 (1990) 251-353 &lbrack;[doi:10.1142/S0129055X90000107](https://doi.org/10.1142/S0129055X90000107)&rbrack;
 
-* {#FroehlichGabbianiMarchetti90} [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], [[Pieralberto Marchetti]], *Braid statistics in three-dimensional local quantum field theory*, in: H.C. Lee (ed.) *Physics, Geometry and Topology* NATO ASI Series, **238** Springer (1990)  $[$[doi:10.1007/978-1-4615-3802-8_2](https://doi.org/10.1007/978-1-4615-3802-8_2), [[FroehlichGabbianiMarchetti-BraidStatistics.pdf:file]]$]$
+* {#FroehlichGabbianiMarchetti90} [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], [[Pieralberto Marchetti]], *Braid statistics in three-dimensional local quantum field theory*, in: H.C. Lee (ed.) *Physics, Geometry and Topology* NATO ASI Series, **238** Springer (1990)  &lbrack;[doi:10.1007/978-1-4615-3802-8_2](https://doi.org/10.1007/978-1-4615-3802-8_2), [[FroehlichGabbianiMarchetti-BraidStatistics.pdf:file]]&rbrack;
 
 * [[Klaus Fredenhagen]], Karl-Henning Rehren, [[Bert Schroer]], _Superselection sectors with braid group statistics and exchange algebras -- I: General theory_,   Comm. Math. Phys. Volume 125, Number 2 (1989), 201-226.  ([euclid:cmp/1104179464](http://projecteuclid.org/euclid.cmp/1104179464))
 
@@ -356,30 +355,30 @@ Rigorous discussion in terms of [[superselection sectors]] in [[algebraic quantu
 
 Discussion of anyon-[[wavefunctions]] as [[multi-valued functions]] on a [[configuration space of points]]:
 
-* {#Wu84} [[Yong-Shi Wu]], *Multiparticle Quantum Mechanics Obeying Fractional Statistics*, Phys. Rev. Lett. **53** (1984) 111 $[$[doi:10.1103/PhysRevLett.53.111](https://doi.org/10.1103/PhysRevLett.53.111), [pdf](https://core.ac.uk/download/pdf/276286925.pdf)$]$
+* {#Wu84} [[Yong-Shi Wu]], *Multiparticle Quantum Mechanics Obeying Fractional Statistics*, Phys. Rev. Lett. **53** (1984) 111 &lbrack;[doi:10.1103/PhysRevLett.53.111](https://doi.org/10.1103/PhysRevLett.53.111), [pdf](https://core.ac.uk/download/pdf/276286925.pdf)&rbrack;
 
 * [Fröhlich, Gabbiani & Marchetti 1990, p. 20](#FroehlichGabbianiMarchetti90)
 
-* {#ImboImboSudarshan90} Tom Imbo, Chandni Shah Imbo, E. C. G. Sudarshan, *Identical particles, exotic statistics and braid groups*, Physics Letters B **234** 1–2, (1990) 103-107 $[$<a href="https://doi.org/10.1016/0370-2693(90)92010-G">doi:10.1016/0370-2693(90)92010-G</a>, [pdf](https://lib-extopc.kek.jp/preprints/PDF/2000/0033/0033552.pdf)$]$
+* {#ImboImboSudarshan90} Tom Imbo, Chandni Shah Imbo, E. C. G. Sudarshan, *Identical particles, exotic statistics and braid groups*, Physics Letters B **234** 1–2, (1990) 103-107 &lbrack;<a href="https://doi.org/10.1016/0370-2693(90)92010-G">doi:10.1016/0370-2693(90)92010-G</a>, [pdf](https://lib-extopc.kek.jp/preprints/PDF/2000/0033/0033552.pdf)&rbrack;
 
 
-* {#BCMS93} Garth A. Baker, Geoff S. Canright, Shashikant B. Mulay, Carl Sundberg, *On the spectral problem for anyons*, Communications in Mathematical Physics **153** (1993) 277–295 $[$[doi:10.1007/BF02096644](https://doi.org/10.1007/BF02096644)$]$
+* {#BCMS93} Garth A. Baker, Geoff S. Canright, Shashikant B. Mulay, Carl Sundberg, *On the spectral problem for anyons*, Communications in Mathematical Physics **153** (1993) 277–295 &lbrack;[doi:10.1007/BF02096644](https://doi.org/10.1007/BF02096644)&rbrack;
 
-* {#MundSchrader93} J. Mund, [[Robert Schrader]], *Hilbert Spaces for Nonrelativistic and Relativistic "Free" Plektons (Particles with Braid Group Statistics)*, in *Advances in dynamical systems and quantum physics* (Capri, 1993), World Sci. (1995) 235–259 $[$[arXiv:hep-th/9310054](https://arxiv.org/abs/hep-th/9310054)$]$
+* {#MundSchrader93} J. Mund, [[Robert Schrader]], *Hilbert Spaces for Nonrelativistic and Relativistic "Free" Plektons (Particles with Braid Group Statistics)*, in *Advances in dynamical systems and quantum physics* (Capri, 1993), World Sci. (1995) 235–259 &lbrack;[arXiv:hep-th/9310054](https://arxiv.org/abs/hep-th/9310054)&rbrack;
 
   followed up by:
 
-  [[Klaus Fredenhagen]], [[Matthias Gaberdiel]] and Stefan M. Rüger, *Scattering states of plektons (particles with braid group statistics) in 2+1 dimensional quantum field theory*, Communications in Mathematical Physics **175** (1996) 319–335 $[$[doi:10.1007/BF02102411](https://doi.org/10.1007/BF02102411)$]$
+  [[Klaus Fredenhagen]], [[Matthias Gaberdiel]] and Stefan M. Rüger, *Scattering states of plektons (particles with braid group statistics) in 2+1 dimensional quantum field theory*, Communications in Mathematical Physics **175** (1996) 319–335 &lbrack;[doi:10.1007/BF02102411](https://doi.org/10.1007/BF02102411)&rbrack;
 
-* {#DFT97} Gianfausto Dell'Antonio, Rodolfo Figari & Alessandro Teta, *Statistics in Space Dimension Two*, Letters in Mathematical Physics **40** (1997) 235–256 $[$[doi:10.1023/A:1007361832622](https://doi.org/10.1023/A:1007361832622)$]$
+* {#DFT97} Gianfausto Dell'Antonio, Rodolfo Figari, Alessandro Teta: *Statistics in Space Dimension Two*, Letters in Mathematical Physics **40** (1997) 235–256 &lbrack;[doi:10.1023/A:1007361832622](https://doi.org/10.1023/A:1007361832622)&rbrack;
 
     
 
-* {#Myrheim99} [[Jan Myrheim]], *Anyons*, p. 265-414 in: *Topological aspects of low dimensional systems*, Les Houches LXIX, Springer (1999) $[$[doi:10.1007/3-540-46637-1](https://doi.org/10.1007/3-540-46637-1), [[Myrheim-Anyons.pdf:file]]$]$
+* {#Myrheim99} [[Jan Myrheim]], *Anyons*, p. 265-414 in: *Topological aspects of low dimensional systems*, Les Houches LXIX, Springer (1999) &lbrack;[doi:10.1007/3-540-46637-1](https://doi.org/10.1007/3-540-46637-1), [[Myrheim-Anyons.pdf:file]]&rbrack;
 
-* {#MurthyShankar09} [[M.V.N. Murthy]], [[Ramamurti Shankar]], *Exclusion Statistics: From Pauli to Haldane* (1999, 2009) $[$[dspace:123456789/334](https://dspace.imsc.res.in/xmlui/handle/123456789/334), [pdf](https://www.imsc.res.in/xmlui/bitstream/handle/123456789/334/MR120.pdf?sequence=1), [[MurthyShankar-ExclusionStatistics.pdf:file]]$]$
+* {#MurthyShankar09} [[M.V.N. Murthy]], [[Ramamurti Shankar]], *Exclusion Statistics: From Pauli to Haldane* (1999, 2009) &lbrack;[dspace:123456789/334](https://dspace.imsc.res.in/xmlui/handle/123456789/334), [pdf](https://www.imsc.res.in/xmlui/bitstream/handle/123456789/334/MR120.pdf?sequence=1), [[MurthyShankar-ExclusionStatistics.pdf:file]]&rbrack;
 
-* {#DMV03} G. Date, [[M.V.N. Murthy]], [[Radhika Vathsan]], *Classical and Quantum Mechanics of Anyons* $[$[arXiv:cond-mat/0302019](https://arxiv.org/abs/cond-mat/0302019)$]$
+* {#DMV03} G. Date, [[M.V.N. Murthy]], [[Radhika Vathsan]], *Classical and Quantum Mechanics of Anyons* &lbrack;[arXiv:cond-mat/0302019](https://arxiv.org/abs/cond-mat/0302019)&rbrack;
 
 The topic of [[quantum measurement]] of non-abelian anyons is crucial to their identification in [[experiment]] but has received little attenion, exceptions being:
 
