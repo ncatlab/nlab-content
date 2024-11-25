@@ -21,7 +21,10 @@
 
 ## Idea
 
-In the context of [[electromagnetism]], _Maxwell's equations_ are the [[equations of motion]] for the electromagnetic [[field strength]] [[electric current]] and [[magnetic current]].
+In the context of [[electromagnetism]], _Maxwell's equations_ are the [[equations of motion]] for the electromagnetic [[field strength]] [[electric current]] and [[magnetic current]]. 
+
+(This is the specialization of the *[[Yang-Mills equations]]* for the case that the [[structure group]] is [[abelian group|abelian]], see [there](Yang-Mills+equation#AbelianCase)).
+
 
 ## Three dimensional formulation 
 
