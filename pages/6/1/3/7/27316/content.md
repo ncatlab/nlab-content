@@ -19,7 +19,10 @@
 
 ## Idea
 
-A _(weakly) stable Yang-Mills connection_ (or _(weakly) stable YM connection_) is a Yang-Mills connection, around which the Yang-Mills action functional is positively or even strictly positively curved. Yang-Mills connections are critical points of the Yang-Mills action functional, hence the first derivative of a variation is required to vanish. For (weakly) stable Yang-Mills connection, the second derivative is additionally required to be positive or even strictly positive.
+A _(weakly) stable Yang-Mills-Higgs connection_ (or _(weakly) stable YMH connection_) is a [[Yang-Mills-Higgs connection]], around which the Yang-Mills-Higgs [[action functional]] is positive or even strictly positively curved:
+
+[[Yang-Mills-Higgs connections]] are [[critical points]] of the Yang-Mills-Higgs action functional, where the first [[variational calculus|variational]] derivative vanishes. For (weakly) stable Yang-Mills connections, the second derivative is additionally required to be positive or even strictly positive.
+
 
 ## Basics
 
@@ -121,6 +124,7 @@ On a non-trivial principal $\operatorname{U}(1)$-bundles over $X$, which exists 
 Open problems about Yang-Mills-unstable manifolds include:
 
 * Is a [[simply connected]] compact simple [[Lie group]] always Yang-Mills-unstable?
+
 * Is a Yang-Mills-instable simply connected compact Riemannian manifold always harmonically instable? Since $S^n\times S^1$ for $n\geq 5$ is Yang-Mills-unstable, but not harmonically instable, the condition to be simply connected cannot be dropped.
 
 ## See also
