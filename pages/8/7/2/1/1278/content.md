@@ -423,8 +423,7 @@ Differential cohomology was first developed for the special cases of [[ordinary 
 The suggestion that differential cohomology is or should be characterized by the [[differential cohomology diagram]] is due to
 
 * {#SimonsSullivan07} [[James Simons]], [[Dennis Sullivan]], _Axiomatic Characterization of Ordinary Differential Cohomology_ ([arXiv:math/0701077](http://arxiv.org/abs/math/0701077))
-
-  (discussed there for [[ordinary differential cohomology]])
+  > (discussed there for [[ordinary differential cohomology]])
 
 and
 
@@ -442,7 +441,7 @@ motivated by applications in [[higher gauge theory]] and [[string theory]], as e
 
 with further reviews including
 
-* [[Alessandro Valentino]], _Differential cohomology and quantum gauge fields_ ([pdf](http://www.uni-math.gwdg.de/sandro/seminarGoett.pdf))
+* [[Alessandro Valentino]]: *Differential cohomology and quantum gauge fields* (2008) &lbrack;[[Valentino-DiffCohAndQuantumGauge.pdf:file]]&rbrack;
 
 * {#Szabo12} [[Richard Szabo]], _Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology_, contribution to: *7th International Conference on Mathematical Methods in Physics (ICMP 2012)* &lbrack;[arXiv:1209.2530](http://arxiv.org/abs/1209.2530), [doi:10.22323/1.175.0009](https://doi.org/10.22323/1.175.0009), [inspire:1185286](https://inspirehep.net/literature/1185286)&rbrack;
 
