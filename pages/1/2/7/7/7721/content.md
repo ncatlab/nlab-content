@@ -383,6 +383,7 @@ encoded by type II geometry.
 * [[twisted smooth cohomology in string theory]]
 
 
+
 ## References
 
 ### General
@@ -407,6 +408,10 @@ the geometry of the reduction $O(d) \times O(d) \to O(d,d)$ was referred to as "
 Review:
 
 * [[Charles Strickland-Constable]]: *Supergravity Fluxes and Generalised Geometry*, in: Proceedings of _[[Higher Structures in M-Theory 2018]]_, Fortschritte der Physik, Special Issue **67** 8-9 &lbrack;[arXiv:1903.02842](https://arxiv.org/abs/1903.02842), [doi:10.1002/prop.201910021](https://doi.org/10.1002/prop.201910021)&rbrack;
+
+Issues with [[higher curvature corrections]]:
+
+* Steven Weilong Hsia, Ahmed Rakin Kamal, [[Linus Wulff]]: *No manifest T-duality at order $\alpha'{}^3$* &lbrack;[arXiv:2411.15302](https://arxiv.org/abs/2411.15302)&rbrack;
 
 
 
