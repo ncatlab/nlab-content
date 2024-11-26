@@ -35,6 +35,11 @@ Early consideration of the idea of [[superstring]] [[sigma-models]] where both t
 
 * R. Brooks, F. Muhammad, [[S. James Gates Jr.]]: *Matter Coupled to $D=2$ Simple Unidexterous Supergravity, Local $(Supersymmetry)^2$ and Strings*, Class. Quant. Grav. **3** 5 (1986) 745-751 \[<a href="https://doi.org/10.1088/0264-9381/3/5/005">doi:10.1088/0264-9381/3/5/005</a>, [spire:237390](https://inspirehep.net/literature/237390)\]
 
+On [[type IIA supergravity]] formulated in [[superspace]]:
+
+* James L. Carr, [[S. James Gates Jr.]], Robert N. Oerter: *$D = 10$, $N = 2a$ Supergravity in Superspace*, Physics Letters B
+**189** 1–2 (1987) 68-74 &lbrack;<a href="https://doi.org/10.1016/0370-2693(87)91271-8">doi:10.1016/0370-2693(87)91271-8</a>, [spire:235791](https://inspirehep.net/literature/235791)&rbrack;
+
 
 On [[Riemann normal coordinates]] in [[supergeometry]] with application to [[sigma-models]]:
 
