@@ -27,9 +27,9 @@ A **Seifert surface** (named after [[Herbert Seifert]]) is an [[orientable]] [[s
 
 * [[Alexander polynomial]]
 
-Beware that there is the *un-related* concept of:
+Beware that there is also the *un-related* concept of:
 
-* [[Seifert manifolds]]
+* [[Seifert-fibered manifolds]]
 
 ## References
 
