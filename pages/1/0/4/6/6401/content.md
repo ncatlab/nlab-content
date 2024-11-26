@@ -64,6 +64,10 @@ The formulation of [[supergravity]] on [[super spacetime]] [[supermanifolds]]:
 
 * [[S. James Gates Jr.]], *On-shell and conformal $N=4$ supergravity in superspace*, Nuclear Physics B **213** 3 (1983) 409-444 &lbrack;<a href="https://doi.org/10.1016/0550-3213(83)90229-8">doi:10.1016/0550-3213(83)90229-8</a>&rbrack;
 
+* James L. Carr, [[S. James Gates Jr.]], Robert N. Oerter: *$D = 10$, $N = 2a$ Supergravity in Superspace*, Physics Letters B
+**189** 1–2 (1987) 68-74 &lbrack;<a href="https://doi.org/10.1016/0370-2693(87)91271-8">doi:10.1016/0370-2693(87)91271-8</a>, [spire:235791](https://inspirehep.net/literature/235791)&rbrack;
+
+
 * [[S. James Gates Jr.]], Liang Lu, Robert N. Oerter: *Simplified $SU(2)$ spinning string superspace supergravity*, Physics Letters B **218** 1 (1989) 33-38 \[<a href="https://doi.org/10.1016/0370-2693(89)90470-X">doi:10.1016/0370-2693(89)90470-X</a>, [spire:263912](https://inspirehep.net/literature/263912)\]
   > (for the [[superstring]] [[worldvolume]])
 
