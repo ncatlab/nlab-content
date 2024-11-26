@@ -68,6 +68,10 @@ Original constructions (mostly of [[type IIA supergravity|type IIA]]):
 * I. C. G. Campbell, [[Peter C. West]] *$N = 2$, $D = 10$ non-chiral supergravity and its spontaneous compactification*, Nuclear Physics B
 **243** 1 (1984) 112-124 &lbrack;<a href="https://doi.org/10.1016/0550-3213(84)90388-2">doi:10.1016/0550-3213(84)90388-2</a>&rbrack;
 
+Discussion on [[superspace]]:
+
+* James L. Carr, [[S. James Gates Jr.]], Robert N. Oerter: *$D = 10$, $N = 2a$ Supergravity in Superspace*, Physics Letters B
+**189** 1–2 (1987) 68-74 &lbrack;<a href="https://doi.org/10.1016/0370-2693(87)91271-8">doi:10.1016/0370-2693(87)91271-8</a>, [spire:235791](https://inspirehep.net/literature/235791)&rbrack;
 
 
 See also the general references at _[[supergravity]]_.
