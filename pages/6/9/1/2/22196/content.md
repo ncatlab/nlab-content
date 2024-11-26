@@ -11,6 +11,9 @@ The nLab's [[nlabmeta:technical board]] decides about how to use these funds for
 \section{Donate!}
   {#Donate}
 
+
+> {#DonationPause} **Update Nov 2024:** For technical reasons and since the $n$Lab is well-funded at the moment, the following **donation mechanism is paused until further notice**.
+
 If you like to support the $n$Lab financially, you are welcome to send a donation (a one-off fixed amount or a running monthly sum) through the following mechanism, kindly provided by the _[Topos Institute](https://topos.institute/)_ (thanks to [[Brendan Fong]]!):
 
 <center>
