@@ -1,8 +1,12 @@
-* [Webpage](http://mathnt.mat.jhu.edu/mathnew/Faculty/HomePages/~morava.htm)
+
+* [institute page](https://mathematics.jhu.edu/directory/jack-morava)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Jack_Morava)
 
+* [GoogleScholar page](https://scholar.google.com/citations?user=8zFRipkAAAAJ&hl=en)
+
 * [[Michael Hopkins]]: _Talk on Jack Morava's work at Jack's 60th birthday conference_ ([web](http://www.mathematics.jhu.edu/new/moravavideo.htm))
+
 
 ## Selected writings
 
