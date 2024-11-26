@@ -584,6 +584,8 @@ A review with emphasis on the coupling to the [[M2-brane]]:
 
 Further developments:
 
+* Oleg Lunin: *$1/2$-BPS states in M theory and defects in the dual CFTs*,  Journal of High Energy Physics **2007** 10 (2007) &lbrack;[arXiv:0704.3442](https://arxiv.org/abs/0704.3442), [doi:10.1088/1126-6708/2007/10/014](https://doi.org/10.1088/1126-6708/2007/10/014)&rbrack;
+
 * [[Pichet Vanichchapongjaroen]], *Covariant M5-brane action with self-dual 3-form*, J. High Energ. Phys. **2021** 39 (2021)  &lbrack;[arXiv:2011.14384](https://arxiv.org/abs/2011.14384), <a href="https://doi.org/10.1007/JHEP05(2021)039">doi:10.1007/JHEP05(2021)039</a>&rbrack;
 
 * Sukŗti Bansal, *Manifestly Covariant Polynomial M5-brane Lagrangians*,  J. High Energ. Phys. **2024** 87 (2024)  &lbrack;[arXiv:2307.13449](https://arxiv.org/abs/2307.13449), <a href="https://doi.org/10.1007/JHEP01(2024)087">doi:10.1007/JHEP01(2024)087</a>&rbrack;
