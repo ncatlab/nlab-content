@@ -19,7 +19,7 @@
 
 ## Idea 
 
-A **Seifert surface** (named after [[Herbert Seifert]]) is an [[orientable]] [[surface]] whose [[boundary]] is a given [[knot]] or [[link]].
+A **Seifert surface** (named after [[Herbert Seifert]]) is an [[orientable]] [[surface]] whose [[boundary]] is a given [[knot]] or [[link]]. This concept may be extended to higher [[dimensions]] where a [[compact]] oriented $(n+1)$-manifold forms the boundary of a higher-dimensional link, a disconnected union of $m$ copies of the $n$-sphere as a submanifold of the $(n+2)$-sphere.
 
 ## Related concepts
 
