@@ -29,4 +29,4 @@ The corresponding posetal reflection $A'$ of $A$ is the preorder on the [[quotie
 \]
 It's easy to show both $\simeq$ and $\leq'$ are well-defined.
 
-Abstractly, the correspondence $(A, \leq) \mapsto (A', \leq')$ is [[functor|functorial]] from preorders to posets, and in fact exhibits posets as a [[reflective subcategory]] of preorders (hence the name).
+Abstractly, the correspondence $(A, \leq) \mapsto (A', \leq')$ is [[functor|functorial]] from preorders to posets, and in fact exhibits [[Pos]] as a [[reflective subcategory]] of preorders (hence the name).
