@@ -321,9 +321,13 @@ Discussion for 3+3-dimensional split:
 
 * Sheng-Lan Ko, [[Dmitri Sorokin]], Pichet Vanichchapongjaroen, _The M5-brane action revisited_, JHEP11(2013)072 ([arXiv:1308.2231](https://arxiv.org/abs/1308.2231))
 
+
 Claim that combining the super-embedding formalism with [[super-exceptional generalized geometry]], the [[Perry-Schwarz action functional|Perry-Schwarz-type Lagrangian]] for the [[M5-brane]] emerges as the relative trivialization of the super-cocycle of the M5-brane relative to its super-exceptional embedding:
 
-* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Super-exceptional embedding construction of the M5-brane|Super-exceptional geometry: origin of heterotic M-theory and super-exceptional embedding construction of M5]]_ ([arXiv:1908.00042](https://arxiv.org/abs/1908.00042))
+* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: _[[schreiber:Super-exceptional embedding construction of the M5-brane|Super-exceptional geometry: Super-exceptional embedding construction of M5]]_, J. High Energy Physics **2020** 107 (2020)  \[<a href="https://doi.org/10.1007/JHEP02(2020)107">doi:10.1007/JHEP02(2020)107</a>, [arXiv:1908.00042](https://arxiv.org/abs/1908.00042)\]
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Super-exceptional M5-brane model -- Emergence of SU(2)-flavor sector]]*, J. Geometry and Physics **170** (2021) 104349 \[<a href="https://doi.org/10.1016/j.geomphys.2021.104349">doi:10.1016/j.geomphys.2021.104349</a>,  [arXiv:2006.00012](https://arxiv.org/abs/2006.00012)\]
+ 
 
 
 [[!redirects superembedding formalism]]
