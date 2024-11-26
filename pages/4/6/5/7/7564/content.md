@@ -88,6 +88,11 @@ Relation to [[M2-branes]]:
 
 * Jarod Hattab, [[Eran Palti]]: *Notes on integrating out M2 branes* &lbrack;[arXiv:2410.15809](https://arxiv.org/abs/2410.15809)&rbrack;
 
+On [[non-perturbative effects]] and [[resurgence theory|resurgence]] in topological string theory:
+
+* [[Marcos Marino]]: *Les Houches lectures on non-perturbative topological strings* &lbrack;[arXiv:2411.16211](https://arxiv.org/abs/2411.16211)&rbrack;
+
+
 
 
 ### Relation to black hole microstate counting
