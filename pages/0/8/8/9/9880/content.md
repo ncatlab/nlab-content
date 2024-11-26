@@ -204,15 +204,15 @@ Discussion for [[phi^4 theory]] is in
 
 * {#Serone18} Marco Serone, from 2:46 on in _A look at $\phi^4_2$ using perturbation theory_, January 2018 ([recording](https://www.youtube.com/watch?v=J4nxvY1rOhI))
 
-Discussion for [[QCD]] includes
+Discussion for [[QCD]]:
 
-* [[Marcos Mariño]], _Instantons and Large $N$ -- An introduction to non-perturbative methods in QFT_ ([pdf](http://laces.web.cern.ch/laces/LACES10/notes/instlargen.pdf))
+* [[Marcos Mariño]]: _Instantons and Large $N$ -- An Introduction to Non-Perturbative Methods in QFT_, Cambridge University Press (2015) &lbrack;[doi:10.1017/CBO9781107705968](https://doi.org/10.1017/CBO9781107705968), [pdf](http://laces.web.cern.ch/laces/LACES10/notes/instlargen.pdf)&rbrack;
 
-and in ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]] and [[string theory]] is in
+and for ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]] and [[string theory]]:
 
-* {#Marino12} [[Marcos Mariño]], _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_, Fortschritte der Physik 62.5‐6 (2014): 455-540 ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
+* {#Marino12} [[Marcos Mariño]], _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_, Fortschritte der Physik **62** 5‐6 (2014) 455-540 &lbrack;[arXiv:1206.6272](http://arxiv.org/abs/1206.6272)&rbrack;
 
-* {#Marino15} [[Marcos Mariño]], _Non-perturbative effects in string theory and AdS/CFT_, [Spring School on Superstring Theory and Related Topics 2015](http://indico.ictp.it/event/a14251/)  ([[MarinoNonPerturbative.pdf:file]], [pdf](http://indico.ictp.it/event/a14251/session/89/contribution/401/material/0/0.pdf), [recording](https://youtu.be/5hw6l-JSpc4?list=PLzYFBWfshN8eqXZFYg2jBZSii7lHaeyXJ))
+* {#Marino15} [[Marcos Mariño]]: _Non-perturbative effects in string theory and AdS/CFT_, *[Spring School on Superstring Theory and Related Topics 2015](http://indico.ictp.it/event/a14251/)*  &lbrack;[[MarinoNonPerturbative.pdf:file]], [pdf](http://indico.ictp.it/event/a14251/session/89/contribution/401/material/0/0.pdf), [recording](https://youtu.be/5hw6l-JSpc4?list=PLzYFBWfshN8eqXZFYg2jBZSii7lHaeyXJ)&rbrack;
 
 In [[QCD]] ([[hadrodynamics]]) via [[operator product expansion]]:
 
