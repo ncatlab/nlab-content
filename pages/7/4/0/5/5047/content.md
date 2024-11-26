@@ -9,6 +9,11 @@
 
 ## Selected writings
 
+On abelian [[higher gauge theory]] via [[Whitehead-generalized cohomology|Whitehead-generalized]] [[differential cohomology]]:
+
+* [[Richard J. Szabo]]: *Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology*, PoS **ICMP 2012** (2013) 009 &lbrack;[arXiv:1209.2530](https://arxiv.org/abs/1209.2530), [doi:10.22323/1.175.0009](https://doi.org/10.22323/1.175.0009)&rbrack;
+
+
 On [[self-dual higher gauge theory]] on [[Lorentzian spacetimes]] via [[ordinary differential cohomology]]:
 
 * [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. **349** (2017) 361-392 &lbrack;[arXiv:1511.00316](https://arxiv.org/abs/1511.00316), [doi:10.1007/s00220-016-2669-9](https://doi.org/10.1007/s00220-016-2669-9)&rbrack;
