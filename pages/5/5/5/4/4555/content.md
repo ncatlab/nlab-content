@@ -65,6 +65,13 @@ For a review in the broader context of [[differential cohomology]] see also
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_ (2005)
 
+[[!redirects Cheeger-Simons differential characters]]
+
 [[!redirects differential character]]
 [[!redirects differential characters]]
-[[!redirects Cheeger-Simons differential characters]]
+
+[[!redirects Cheeger-Simons character]]
+[[!redirects Cheeger-Simons characters]]
+
+
+
