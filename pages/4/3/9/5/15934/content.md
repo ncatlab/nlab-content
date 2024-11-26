@@ -16,9 +16,13 @@
 
 ## Definition
 
-A _Seifert 3-manifold_ is a [[3-manifold]] which is the total space of a [[circle]]-[[fiber bundle]] ([[circle bundle]]) over a 2-dimensional [[orbifold]]. Since the circle-fibration [[structure]] may not be unique one also speaks more explicitly of *Seifert-fibered manifolds* or *Seifert fibrations*.
+A _Seifert 3-manifold_ is a [[3-manifold]] which is the total space of a [[circle]]-[[fiber bundle]] ([[circle bundle]]) over a 2-dimensional [[orbifold]]. Since the circle-fibration [[structure]] may not be unique one also speaks more explicitly of *Seifert-fibered manifolds*.
 
 If already the total space is a 3-orbifold, one correspondingly speaks of a *Seifert orbifold* etc. (e.g. [Mecchia & Seppi 2020 Def. 2.6](#MecchiaSeppi20)).
+
+Fully generally one speaks of *Seifert fibrations*. 
+
+(Beware that there is also the *un-related* notion of *[[Seifert surfaces]]*, also considered in higher dimensions: These are coboundaries of [[knots]].)
 
 
 ## Related concepts
@@ -60,6 +64,7 @@ See also:
 
 * Wikipedia, _[Seifert fiber space](http://en.wikipedia.org/wiki/Seifert_fiber_space)_
 
+* [[Encyclopedia of Mathematics]]: *[Seifert fibration](https://encyclopediaofmath.org/index.php?title=Seifert_fibration)*
 
 
 ### Seifert 3-orbifolds
@@ -83,7 +88,7 @@ On the [[3d-3d correspondence]] for Seifert manifolds:
 * [[Du Pei]]: *3d-3d correspondence for Seifert manifolds*, PhD thesis (2016) &lbrack;[spire:1469350](https://inspirehep.net/literature/1469350), [pdf](https://inspirehep.net/files/d509ff9e32448da3a5674f286b93224a)&rbrack;
 
 
-Claim of a relation between Seifert manifolds and [[topological order]]:
+Claim of a relation between Seifert manifolds and [[topological order]] in the guise of [[fusion categories]]:
 
 * Gil Young Cho, [[Dongmin Gang]], Hee-Cheol Kim: *M-theoretic Genesis of Topological Phases*, J. High Energ. Phys. **2020** 115 (2020) \[<a href="https://arxiv.org/abs/2007.01532">arXiv:2007.01532</a>, <a href=" https://doi.org/10.1007/JHEP11(2020)115">doi:10.1007/JHEP11(2020)115</a>\]
   > (by [[wrapped brane|wrapping]] [[M5-branes]] on, among others, Seifert manifolds)
@@ -94,13 +99,21 @@ Claim of a relation between Seifert manifolds and [[topological order]]:
 * [[Federico Bonetti]], [[Sakura Schäfer-Nameki]], Jingxiang Wu: *$MTC[M_3,G]$: 3d Topological Order Labeled by Seifert Manifolds* &lbrack;[arXiv:2403.03973](https://arxiv.org/abs/2403.03973)&rbrack;
 
 
-[[!redirects Seifert 3-manifolds]]
+[[!redirects Seifert fibrations]
+
+[[!redirects Seifert fiber space]]
+[[!redirects Seifert fiber spaces]]
+
+[[!redirects Seifert-fibered manifold]]
+[[!redirects Seifert-fibered manifolds]]
 
 [[!redirects Seifert manifold]]
 [[!redirects Seifert manifolds]]
 
-[[!redirects Seifert fiber space]]
-[[!redirects Seifert fiber spaces]]
+
+[[!redirects Seifert 3-manifold]]
+[[!redirects Seifert 3-manifolds]]
+
 
 [[!redirects Seifert orbifold]]
 [[!redirects Seifert orbifolds]]
