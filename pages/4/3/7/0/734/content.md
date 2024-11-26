@@ -76,7 +76,7 @@ Conversely, from any category with weak finite limits one can construct an [[exa
 ## Relation to homotopy limits 
  {#RelationToHomotopyLimits}
 
-Unlike usages of 'weak' in terms like [[weak n-category]], a weak limit is not be like a [[homotopy limit]] or a [[2-limit]], which satisfy uniqueness (as well as existence) albeit only up to higher [[homotopy|homotopies]] or [[weak equivalence|equivalences]].
+Unlike usages of 'weak' in terms like [[weak n-category]], a weak limit is not like a [[homotopy limit]] or a [[2-limit]], which satisfy uniqueness (as well as existence) albeit only up to higher [[homotopy|homotopies]] or [[weak equivalence|equivalences]].
 
 However, some homotopy limits induce the corresponding type of weak limit in the corresponding [[homotopy category]].  For example, suppose that
 $$\array{ P & \overset{p}{\to} & A\\
