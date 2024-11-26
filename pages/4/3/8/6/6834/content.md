@@ -218,18 +218,24 @@ See at *[[schreiber:infinity-Chern-Simons theory]]*
 * [[adjusted Weil algebra]]
 
 
+
 ## References
 
 ### General
 
 Introduction and exposition:
 
-* {#BaezHuerta10} [[John Baez]], [[John Huerta]], _An invitation to higher gauge theory_, General Relativity and Gravitation 43 (2011), 2335-2392 ([arXiv:1003.4485](https://arxiv.org/abs/1003.4485))
+* {#Freed00} [[Daniel Freed]]: *[[Dirac charge quantization and generalized differential cohomology]]*, Surveys in Differential Geometry **7** (2002) 129-194  &lbrack;[arxiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220), [doi:10.4310/SDG.2002.v7.n1.a6](https://dx.doi.org/10.4310/SDG.2002.v7.n1.a6)&rbrack;
+
+* [[Alessandro Valentino]]: *Differential cohomology and quantum gauge fields* (2008) &lbrack;[[Valentino-DiffCohAndQuantumGauge.pdf:file]]&rbrack;
+
+* {#BaezHuerta10} [[John Baez]], [[John Huerta]], _An invitation to higher gauge theory_, General Relativity and Gravitation **43** (2011) 2335-2392 &lbrack;[arXiv:1003.4485](https://arxiv.org/abs/1003.4485), [doi:10.1007/s10714-010-1070-9](https://doi.org/10.1007/s10714-010-1070-9)&rbrack;
+
+* [[Richard J. Szabo]]: *Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology*, PoS **ICMP 2012** (2013) 009 &lbrack;[arXiv:1209.2530](https://arxiv.org/abs/1209.2530), [doi:10.22323/1.175.0009](https://doi.org/10.22323/1.175.0009)&rbrack;
 
 * [[Luigi Alfonsi]], §2 in: *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
 
-* [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
-
+* [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]]: *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
 * PhysicsForums-Insights _[Why higher category theory in physics?](https://www.physicsforums.com/insights/higher-category-theory-physics/)_
 
@@ -240,9 +246,9 @@ Introduction and exposition:
 
 * _[Examples of prequantum field theories II: Higher gauge fields](https://www.physicsforums.com/insights/examples-prequantum-field-theories-ii-higher-gauge-fields/)
 
-For technical introduction to the [[RR-field]] as a higher gauge field (for more see at *[[Dirac charge quantization]]*):
+More on the [[RR-field]] as a higher gauge field (for more see at *[[Dirac charge quantization]]*):
 
-* {#Freed00} [[Daniel Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_, Surveys in Differential Geometry, Int. Press, Somerville, MA, 2000, pp. 129&#8211;194 ([arxiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220))
+
 
 * {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
 
