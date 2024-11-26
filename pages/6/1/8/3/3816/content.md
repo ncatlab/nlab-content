@@ -67,4 +67,8 @@ proteins.
 
 * [[Emma Previato]], _Hyperelliptic quasi-periodic and soliton solutions of the nonlinear Schrödinger equation_, Duke Math. J. 52(2): 329--377 (1985) [doi](https://doi.org/10.1215/S0012-7094-85-05218-4) 
 
+* Shuang-Yong Zhou: *Non-topological solitons and quasi-solitons* &lbrack;[arXiv:2411.16604](https://arxiv.org/abs/2411.16604)&rbrack;
+
+
+
 [[!redirects solitons]]
