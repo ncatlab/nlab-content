@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On abelian [[higher gauge field]] via [[Whitehead-generalized cohomology|Whitehead-generalized]] [[differential cohomology]]:
+
+* [[Alessandro Valentino]]: *Differential cohomology and quantum gauge fields* (2008) &lbrack;[[Valentino-DiffCohAndQuantumGauge.pdf:file]]&rbrack;
+
 
 On [[QFTs with defects]] via [[higher algebra|higher]] [[categorical algebra]]:
 
