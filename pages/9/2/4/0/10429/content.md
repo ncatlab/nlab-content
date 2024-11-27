@@ -29,14 +29,14 @@
 ### General
  {#GeneralIdea}
 
-In [[solid state physics]], a [[phase of matter]] (of a [[quantum material]]) is called *topological* (sometimes: a *topological state of matter*), within a given [[energy]] bound $\Delta$ (the "gap") if external deformations of the system that are gentle enough -- namely "[[adiabatic theorem|adiabatic]]" -- not to excite modes ([[quanta]]) $\gt \Delta$ above the [[ground state]] leave the main properties of the system [[invariant]]. This is vaguely reminiscent of how [[topology]] is concerned with properties of [[spaces]] that are invariant under "gentle" -- namely "[[continuous map|continuous]]" -- deformations. Indeed, it turns out or is expected that topological phases of matter may be characterized (classified) by certain [[homeomorphism classes]] or rather by [[homotopy classes]] of the kind studied in [[topology]], or rather in [[homotopy theory]] and [[generalized cohomology theory]] (e.g. the [[K-theory classification of topological phases of matter]]).
+In [[solid state physics]], a [[phase of matter]] (of a [[quantum material]]) is called *topological* (sometimes: a *topological state of matter*), within a given [[energy]] bound $\Delta$ (the "[[spectral gap|gap]]") if external deformations of the system that are gentle enough -- namely "[[adiabatic theorem|adiabatic]]" -- not to excite modes ([[quanta]]) $\gt \Delta$ above the [[ground state]] leave the main properties of the system [[invariant]]. This is vaguely reminiscent of how [[topology]] is concerned with properties of [[spaces]] that are invariant under "gentle" -- namely "[[continuous map|continuous]]" -- deformations. Indeed, it turns out or is expected that topological phases of matter may be characterized (classified) by certain [[homeomorphism classes]] or rather by [[homotopy classes]] of the kind studied in [[topology]], or rather in [[homotopy theory]] and [[generalized cohomology theory]] (e.g. the [[K-theory classification of topological phases of matter]]).
 
 Such topological phases are fundamentally different from classical [[phases of matter]] in that they are *not* controlled by the [[Landau theory of phase transitions]].
 
 
 ### Topological insulators
 
-For instance, a [[topological insulator]]-phase of a [[crystal|crystalline]] material (a prime example being [[graphene]], see also [below](#ExampleGraphene)) is one where the [[valence band]] of energies occupied by the crystal's [[electrons]] is separated by such an energy gap from the [[conduction band]], and where the [[valence bundle]] of the electron's occupied [[quantum states]], as a [[topological vector bundle]] over the material's [[Brillouin torus]], has (see also [[fiber bundles in physics]]):
+For instance, a [[topological insulator]]-phase of a [[crystal|crystalline]] material (a prime example being [[graphene]], see also [below](#ExampleGraphene)) is one where the [[valence band]] of energies occupied by the crystal's [[electrons]] is separated by such an [[spectral gap|energy gap]] from the [[conduction band]], and where the [[valence bundle]] of the electron's occupied [[quantum states]], as a [[topological vector bundle]] over the material's [[Brillouin torus]], has (see also [[fiber bundles in physics]]):
 
 1. a non-[[trivial bundle|trivial]] [[equivariant bundle|equivariant]] [[homeomorphism class]], in fact 
 
@@ -78,7 +78,7 @@ If a more fine-grained topological phase is "[[symmetry protected topological ph
 
 More generally, there are topological phases where small [[quantum adiabatic theorem|adiabatic]] deformations have no effect, as before, but where the [[topological space]] *of possible deformations* has itself a non-trivial [[topological space|topology]], for instance a non-trivial [[fundamental group]], in which case the end result of a  *[[loop]] of deformations* may have the effect of having transformed the system's [[ground state]] by a [[unitary operator]] which depends on the [[homotopy class]] of this loop.
 
-For example, if there is an energy gap *except* over a [[codimension]]$\geq 2$ [[submanifold]] of "band crossings" or "nodal loci" inside the [[Brillouin torus]], where the gap closes right at the [[chemical potential]], then one speaks of a *topological [[semi-metal]]*-phase. 
+For example, if there is an [[energy gap]] *except* over a [[codimension]]$\geq 2$ [[submanifold]] of "band crossings" or "nodal loci" inside the [[Brillouin torus]], where the [[spectral gap|gap]] closes right at the [[chemical potential]], then one speaks of a *topological [[semi-metal]]*-phase. 
 In this case the [[valence bundle]] is well-defined (only) on the [[complement]] of these "nodal" points, as before, and as such again invariant under gentle deformations, but now these external deformations (which will gently shift the [[energy bands]]) may move the position of the nodal band-crossing points through the [[Brillouin torus]]. 
 If a loop of such deformations has the effect of [[braid group|braiding]] these nodal points around each other then it may in total have the effect of having transformed the [[ground state]] by an operation in a [[braid group representation]]. 
 
@@ -114,7 +114,7 @@ The [[AdS3-CFT2 and CS-WZW correspondence|CS-WZW correspondence]] between [[Cher
 
 The idea to use the resulting monodromy [[braid representations]] constituted by the [[conformal blocks]] as [[quantum gates]] in a [[quantum computer]] underlies the subject of *[[topological quantum computation]]*.
 
-The technical problem with implementing this and related ideas is that, in general, the energy gap of a topological phase of matter is small, so that it is first of all hard to detect and second it will be hard to *preserve* (hence hard to remain in the topological phase) as one tries to put the "topological properties" of a [[quantum material]] to use.
+The technical problem with implementing this and related ideas is that, in general, the [[energy gap]] of a topological phase of matter is small, so that it is first of all hard to detect and second it will be hard to *preserve* (hence hard to remain in the topological phase) as one tries to put the "topological properties" of a [[quantum material]] to use.
 
 
 
