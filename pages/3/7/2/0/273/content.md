@@ -24,7 +24,7 @@ Therefore to amplify that one is looking at general [[cohomology]] without restr
 
 \linebreak
 
-To say this in a bit more detail:
+To say this in a bit more detail (following [[schreiber:The Character Map in Equivariant Twistorial Cohomotopy|SS24]]):
 
 
 ### Cohomology via classifying spaces
