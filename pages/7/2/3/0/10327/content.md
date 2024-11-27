@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -10,5 +21,7 @@ That part of the [[energy]] of a [[mechanical system]] which arises (via [[Legen
 ## Related concepts
 
 * [[potential]]
+
+* [[voltage]]
 
 [[!redirects potential energies]]
