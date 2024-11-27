@@ -123,7 +123,9 @@ All the above definitions can be found in [Day-Street 97](#DS97), except for the
 
 
 ## References
+A concise unifying review, eliminating some extra conditions, plus, recovering KV definition from tricategories:
 
+[[Fatimah Rita Ahmadi]] *Monoidal 2-Categories: A Review* ([arXiv:2011.02830v3](https://arxiv.org/pdf/2011.02830))
 
 Slightly different definitions of these various structures can be found in the following sequence of papers:
 
@@ -142,6 +144,8 @@ Correction of the KV definition by adding one axiom:
 A definition of braided Gray-monoid equivalent to Baez-Neuchl, also defining [[sylleptic monoidal 2-category|sylleptic]] and [[symmetric monoidal 2-category|symmetric]] Gray-monoids:
 
 * {#DS97}  [[Brian Day]], [[Ross Street]], *Monoidal Bicategories and Hopf Algebroids*, Advances in Mathematics Volume 129, Issue 1, 15 July 1997, Pages 99-157 ([doi:10.1006/aima.1997.1649](https://doi.org/10.1006/aima.1997.1649))
+
+
 
 Further modification of the definition by adding an axiom relating to the tensor unit:
 
