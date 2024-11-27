@@ -8,12 +8,15 @@
 
 On the [[D'Auria-Fre formulation of supergravity]], [[pure spinors]] and the [[supermembrane]]
 
-* [[Pietro Fré]], [[Pietro Antonio Grassi]],
-_Pure spinors, free differential algebras, and the supermembrane_, Nucl. Phys.  B 763:1-34, 2007 ([arXiv:hep-th/0606171] (http://www.arxiv.org/abs/hep-th/0606171))
+* [[Pietro Fré]], [[Pietro Antonio Grassi]]: _Pure spinors, free differential algebras, and the supermembrane_, Nucl. Phys.  B 763:1-34, 2007 ([arXiv:hep-th/0606171] (http://www.arxiv.org/abs/hep-th/0606171))
 
 On the [[D'Auria-Fre formulation of supergravity]], [[rheonomy]] and [[pure spinors]]:
 
 * [[Pietro Fré]], [[Pietro Antonio Grassi]], _Free differential algebras, rheonomy, and pure spinors_ ([arXiv:0801.3076] (http://www.arxiv.org/abs/0801.3076))
+
+* [[Riccardo D'Auria]], [[Pietro Fré]], [[Pietro A. Grassi]], [[Mario Trigiante]]: *Pure Spinor Superstrings on Generic type IIA Supergravity Backgrounds*, J. High Energy Physics **2008**  07 (2008) &lbrack;[arXiv:0803.1703](https://arxiv.org/abs/0803.1703), [doi:10.1088/1126-6708/2008/07/059](https://doi.org/10.1088/1126-6708/2008/07/059)&rbrack;
+  > ([[type IIA supergravity]])
+
 
 
 Discussion of the [[Hodge star operator]] on [[supermanifolds]] (in terms of [[picture changing operators]] and integral top-forms for [[integration over supermanifolds]]):
