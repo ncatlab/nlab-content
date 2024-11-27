@@ -19,20 +19,22 @@ The original articles on the [[D'Auria-Fre formulation of supergravity]]:
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], *About bosonic rheonomic symmetry and the generation of a spin-1 field in $D=5$ supergravity*, Nuclear Physics B
 **173** 3 (1980) 456-476 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90013-9">doi:10.1016/0550-3213(80)90013-9</a>&rbrack;
-
   > (on [[D=4 N=1 supergravity]])
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], A. J. da Silva, *Geometric structure of $N=1$, $D=10$ and $N=4$, $D=4$ super Yang-Mills theory*, Nuclear Physics B **196** 2 (1982) 205-239 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90036-0">doi:10.1016/0550-3213(82)90036-0</a>&rbrack;
-
   > (on [[D=10 super Yang-Mills theory|D=10]] and [[D=4 N=4 super Yang-Mills theory]])
 
 * {#DAuriaFre82} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B **201** (1982) 101-140 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]&rbrack;
-
   > (on [[D=11 supergravity]])
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], [[Paul Townsend]],  *Invariance of actions, rheonomy and the new minimal $N=1$ supergravity in the group manifold approach*, Ann. Phys. 155 (1984) 423-446 &lbrack;[cds:143990](https://cds.cern.ch/record/143990), <a href="http://dx.doi.org/10.1016/0003-4916(84)90007-1">doi:10.1016/0003-4916(84)90007-1</a>, [pdf](https://cds.cern.ch/record/143990/files/198305027.pdf)&rbrack;
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+* [[Riccardo D'Auria]], [[Pietro Fré]], [[Pietro A. Grassi]], [[Mario Trigiante]]: *Pure Spinor Superstrings on Generic type IIA Supergravity Backgrounds*, J. High Energy Physics **2008**  07 (2008) &lbrack;[arXiv:0803.1703](https://arxiv.org/abs/0803.1703), [doi:10.1088/1126-6708/2008/07/059](https://doi.org/10.1088/1126-6708/2008/07/059)&rbrack;
+  > ([[type IIA supergravity]])
+
+
 
 * [[Riccardo D'Auria]], _Geometric supergravity_ ([arXiv:2005.13593](https://arxiv.org/abs/2005.13593)) in:  [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific 2019 ([doi:10.1142/11643](https://doi.org/10.1142/11643)) 
 
