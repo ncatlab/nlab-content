@@ -3,6 +3,12 @@
 
 ## Selected writings
 
+
+On the [[Green-Schwarz action functional]] for [[D-branes]] (and on their [[background field|background]] [[type IIA supergravity]] on [[superspace]]):
+
+* [[Martin Cederwall]], Alexander von Gussich, [[Bengt E. W. Nilsson]], [[Per Sundell]], Anders Westerberg: *The Dirichlet Super-$p$-Branes in Ten-Dimensional Type IIA and IIB Supergravity*, Nucl. Phys. B **490** (1997) 179-201 &lbrack[arXiv:hep-th/9611159](https://arxiv.org/abs/hep-th/9611159), <a href="https://doi.org/10.1016/S0550-3213(97)00075-8">doi:10.1016/S0550-3213(97)00075-8</a>&rbrack;
+
+
 On [[D=14 supersymmetry]]:
 
 * I. Rudychev, [[Ergin Sezgin]], [[Per Sundell]], _Supersymmetry in Dimensions Beyond Eleven_, Nucl. Phys. Proc. Suppl. **68** (1998) 285-294 \[<a href="https://doi.org/10.1016/S0920-5632(98)00162-5">doi:10.1016/S0920-5632(98)00162-5</a>, [arXiv:hep-th/9711127](https://arxiv.org/abs/hep-th/9711127)\]
