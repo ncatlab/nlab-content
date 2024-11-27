@@ -68,7 +68,7 @@ specifically of  [[scattering amplitudes]] of [[bound states]]:
 
 * Matteo Turco, Gonçalo M. Quinta, João Seixas, Yasser Omar, *Towards Quantum Simulation of Bound States Scattering* &lbrack;[arXiv:2305.07692](https://arxiv.org/abs/2305.07692)&rbrack;
 
-On quantum simulation of [[anyons]]:
+{#OfAnyons} On quantum simulation of [[anyons]]:
 
 * T. Andersen et al.: *Non-Abelian braiding of graph vertices in a superconducting processor*, Nature **618** (2023) 264–269 \[<a href="https://arxiv.org/abs/2210.10255">arXiv:2210.10255</a>, [doi:10.1038/s41586-023-05954-4](https://doi.org/10.1038/s41586-023-05954-4)\]
 
