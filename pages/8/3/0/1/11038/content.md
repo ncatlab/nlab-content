@@ -41,6 +41,7 @@ As such, typical quantum logic gates operate on a *small* number of [[qbits]], w
 
 
 ## Examples
+ {#Examples}
 
 The first examples are linearizations of classical  [[logic gates]], or rather of their [[reversible computation|reversible]] versions:
 
