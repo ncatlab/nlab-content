@@ -5,9 +5,10 @@ Aleksandar Mikovic is Associate Professor at the Department of Mathematics, Lus√
 
 ##Selected writings
 
-On [[DBI-action]] and [[Green-Schwarz action functional]] for [[D-branes]]:
+On the [[DBI-action]] and [[Green-Schwarz action functional]] for [[D-branes]]:
 
-* [[Martin Cederwall]], Alexander von Gussich, [[Aleksandar Mikovic]], [[Bengt Nilsson]], Anders Westerberg, _On the Dirac-Born-Infeld Action for D-branes_,  Phys.Lett.B390:148-152, 1997 ([arXiv:hep-th/9606173](https://arxiv.org/abs/hep-th/9606173))
+* [[Martin Cederwall]], Alexander von Gussich, [[Aleksandar Mikovic]], [[Bengt Nilsson]], Anders Westerberg: _On the Dirac-Born-Infeld Action for D-branes_,  Phys. Lett. B **390** (1997) 148-152 &lbrack;[arXiv:hep-th/9606173](https://arxiv.org/abs/hep-th/9606173), <a href="https://doi.org/10.1016/S0370-2693(96)01367-6">doi:10.1016/S0370-2693(96)01367-6</a>&rbrack;
+
 
 
 On [[spin networks]]:
