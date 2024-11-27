@@ -70,9 +70,9 @@ Via [[KK-compactification]] on [[closed manifold|closed]] [[3-manifolds]] ([[Sei
 
 * Sunjin Choi, [[Dongmin Gang]], Hee-Cheol Kim: *Infrared phases of 3D Class R theories*,  J. High Energ. Phys. **2022** 151 (2022) \[<a href="https://doi.org/10.1007/JHEP11(2022)151">doi:10.1007/JHEP11(2022)151</a>, [arXiv:2206.11982](https://arxiv.org/abs/2206.11982)\]
 
-
 * [[Federico Bonetti]], [[Sakura Schäfer-Nameki]], Jingxiang Wu, *$MTC[M_3,G]$: 3d Topological Order Labeled by Seifert Manifolds* \[<a href="https://arxiv.org/abs/2403.03973">arXiv:2403.03973</a>\]
 
+* {#SS24} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyons on M5-Probes of Seifert 3-Orbifolds]]* \[<a href="https://arxiv.org/abs/2411.16852">arXiv:2411.16852</a>\]
 
 
 
