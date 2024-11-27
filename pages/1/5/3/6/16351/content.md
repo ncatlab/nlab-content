@@ -52,7 +52,7 @@ This is useful and is used particularly for discussions in [[synthetic different
 ## Statement
 
 \begin{lemma}\label{MilnorExercise}
-**(Milnor's exercise)**
+**([Pursell, Section 8](#Pursell), 1952)**
 \linebreak
 For a [[smooth manifold]] $X \in SmthMfd$, the [[evaluation map]] (from its [[underlying]] [[set]] to the [[hom-set]])
 $$
@@ -74,7 +74,8 @@ $$
 $$
 is a [[bijection]].
 \end{lemma}
-(due to [Milnor & Stasheff (1974) Prob. 1-C (p. 11)](#MilnorStasheff74), detailed proof in [Kolář, Michor & Slovák 1993 Lem. 35.8 & Cor. 35.9](#KolarSlovakMichor93))
+
+The statement also appears in [Milnor & Stasheff (1974) Prob. 1-C (p. 11)](#MilnorStasheff74) and a detailed proof different from the one below is given by [Kolář, Michor & Slovák 1993 Lem. 35.8 & Cor. 35.9](#KolarSlovakMichor93).
 
 \begin{proof}
 We provide a simplified proof using [[Hadamard's lemma]].
@@ -101,7 +102,7 @@ The evaluation homomorphism at $p\notin M$ does not vanish on the element $b$, h
 Therefore, we must have $p\in M$.
 \end{proof}
 
-Milnor's exercise (Lem. \ref{MilnorExercise}) implies --- and also is the special case for $X = \ast$ (the [[point space|point]]) of:
+Pursell's theorem (Lemma \ref{MilnorExercise}) implies --- and also is the special case for $X = \ast$ (the [[point space|point]]) of:
 \begin{theorem}\label{Embedding}
 The [[functor]]
 $$
@@ -168,7 +169,7 @@ $$
   \overset{ ev_x }{\longrightarrow}
   \mathbb{R}
 $$
-is an algebra homomorphism of the form assumed in Milnor's exercise (Lem. \ref{MilnorExercise}) and thus given uniquely by evaluation at some point $f(x) \in Y$
+is an algebra homomorphism of the form assumed in Pursell's theorem (Lemma \ref{MilnorExercise}) and thus given uniquely by evaluation at some point $f(x) \in Y$
 $$
   ev_x \circ \phi \;=\; ev_{f(x)}
   \,.
@@ -220,9 +221,10 @@ It just remains to observe that this $f$ is necessarily [[smooth function|smooth
 \linebreak
 For the case of [[diffeomorphisms]], Thm. \ref{Embedding} was proven by [Pursell (1952)](#Pursell52), following an announcement by [Shanks (1951)](#Shanks51). This is the case that most reviews focus on, e.g. [Grabowski (1978)](#Grabowski78), [Marsden, Ratiu & Abraham (2002)](#MarsdenRatiuAbraham02), [Grabowski (2005)](#Grabowski05).
 
-For the case that the domain is a point the statement is left as an [[exercise]] (without reference to Pursell) in [Milnor & Stasheff (1974) Problem 1-C (p. 11)](#MilnorStasheff74), sometimes now referred to as "Milnor's exercise" (Lem. \ref{MilnorExercise}), with a detailed proof given in [Kolář, Slovák & Michor (1993) 35.8-9](#KolarSlovakMichor93) 
+For the case that the domain is a point the statement is contained in the dissertation of [Pursell](#Pursell) (Section 8), see Lemma \ref{MilnorExercise}.
+It is also left as an [[exercise]] (without reference to Pursell) in [Milnor & Stasheff (1974) §1, Problem 1-C (p. 11)](#MilnorStasheff74), sometimes now referred to (not entirely appropriately) as "Milnor's exercise", even though Pursell's proof was published 22 years prior in 1952.  A detailed proof is also given in [Kolář, Slovák & Michor (1993) 35.8-9](#KolarSlovakMichor93).
 
-The general statement of Thm. \ref{Embedding} appears as [Kolář, Slovák & Michor (1993) 35.10](#KolarSlovakMichor93).
+The general statement of Theorem \ref{Embedding} appears as [Kolář, Slovák & Michor (1993) 35.10](#KolarSlovakMichor93).
 \end{remark}
 
 
@@ -275,11 +277,15 @@ following an announcement in
 
 * {#Shanks51} M. E. Shanks, *Rings of functions on locally compact spaces*, 469th meeting of the AMS (1951) &lbrack;[pdf](https://www.ams.org/journals/bull/1951-57-04/S0002-9904-1951-09521-X/S0002-9904-1951-09521-X.pdf)&rbrack; 
 
-The statement for domain a point is due to:
+See also
+
+* J. Grabowski, _Isomorphisms of algebras of smooth functions revisited_. Arch. Math. 85, 190–196 (2005). [doi](https://doi.org/10.1007/s00013-005-1268-3).
+
+The statement for domain a point also appears as an exercise in
 
 * {#MilnorStasheff74} [[John Milnor]], [[James Stasheff]], Problem 1-C (p. 11) in: _Characteristic Classes_, Annals of Mathematics Studies, Princeton University Press (1974) &lbrack;[ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76), [pdf](/nlab/files/Milnor_exercise.pdf)&rbrack;
 
-with a proof spelled out in:
+A proof is spelled out in
 
 * {#Dubuc79} [[Eduardo Dubuc]], Prop. 0.7 in: *Sur les modèles de la géométrie différentielle synthétique*, [[Cahiers|Cahiers de Topologie et Géométrie Différentielle Catégoriques]] **20**  3 (1979) 231-279  &lbrack;[numdam:CTGDC_1979__20_3_231_0](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)&rbrack; 
 
@@ -304,7 +310,7 @@ Discussion that takes the dual algebraic formulation as the very definition of [
 
 * {#Nestruev03} [[Jet Nestruev]], section 6 of: _Smooth manifolds and Observables_, Graduate Texts in Mathematics 218, Springer 2003 ([doi:10.1007/b98871](https://link.springer.com/book/10.1007/b98871))
 
-The analog of the statement for real algebras refined to [[smooth algebras]] is theorem 2.8 in
+The analog of the statement for real algebras refined to [[smooth algebras]] is Theorem 2.8 in
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ Springer (1991)
 
