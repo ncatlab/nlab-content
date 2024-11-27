@@ -485,7 +485,7 @@ in particular in [[quantum machine learning]]:
 ### Noisy intermediate-scale quantum (NISQ) computing
  {#ReferencesNISQ}
 
-The origin of the notion
+The origin of the notion:
 
 * Nikolaj Moll et al., *Quantum optimization using variational algorithms on near-term quantum devices*, Quantum Science and Technology **3** 3 (2018) &lbrack[arXiv:1710.01022](https://arxiv.org/abs/1710.01022), [doi:10.1088/2058-9565/aab822](https://doi.org/10.1088/2058-9565/aab822)&rbrack;
 
@@ -493,11 +493,9 @@ The origin of the notion
 
 
 
-
 {#NISQLimitations} On the limitations of NISQ machines in achieving any [[quantum advantage]]:
 
 * Daniel Koch, Brett Martin, Saahil Patel, Laura Wessing, and Paul M. Alsing, *Demonstrating NISQ era challenges in algorithm design on IBM's 20 qubit quantum computer*, AIP Advances **10** 095101 (2020) &lbrack;[doi:10.1063/5.0015526](https://doi.org/10.1063/5.0015526)&rbrack;
-
 
 * {#LeymannBarzen20} Frank Leymann, Johanna Barzen, *The bitter truth about gate-based quantum algorithms in the NISQ era*, Quantum Sci. Technol. **5** 044007 (2020) &lbrack;[doi:10.1088/2058-9565/abae7d](https://iopscience.iop.org/article/10.1088/2058-9565/abae7d)&rbrack;
 
@@ -527,8 +525,12 @@ The origin of the notion
 
   > "A large range of problem areas with quadratic quantum speedups, such as many current machine learning training approaches, accelerating drug design and protein folding with Grover’s algorithm, speeding up Monte Carlo simulations through quantum walks, as well as more traditional scientific computing simulations including the solution of many non-linear systems of equations, such as fluid dynamics in the turbulent regime, weather, and climate simulations will not achieve quantum advantage with current quantum algorithms in the foreseeable future."
 
-
 * IEEE Spectrum, *Quantum Computing’s Hard, Cold Reality Check* (Dec. 2023) &lbrack;[web](https://spectrum.ieee.org/quantum-computing-skeptics)&rbrack;
+
+On the resulting drop in investment:
+
+* {#McKenzie2024} James McKenzie: *Quantum winter? No chance!*,  Physics World, **37** 5 (2024) 41 &lbrack;[doi:10.1088/2058-7058/37/05/32](https://iopscience.iop.org/article/10.1088/2058-7058/37/05/32)&rbrack;
+
 
 
 ### Quantum programming via monads
