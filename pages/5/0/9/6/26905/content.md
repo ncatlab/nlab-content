@@ -15,7 +15,7 @@
 
 The *Bargmann--Fock space* (also *Bargmann-Segal space* or *Segal--Bargmann space*) is a [[Hilbert space]] of [[holomorphic functions|holomorphic]] [[square integrable functions|square integrable]] functions with respect to the [[Gaussian probability distribution|Gaussian weighted]] [[Lebesgue measure]].
 
-By taking the [[Taylor series]] of these square integrable holomorphic functions $f(z)$ in $z$, we see how they can be regarded as elements of the usual Bosonic [[Fock space]].
+By taking the [[Taylor series]] of these square integrable holomorphic functions $f(z)$ in $z$, we see how they can be regarded as elements of the usual bosonic [[Fock space]].
 
 
 Sometimes the Bargmann--Fock space is taken to be the space of square integrable antiholomorphic functions (ie. holomorphic in $\bar z$).  This different convention corresponds to the choice of [[complexification]] of the [[configuration space]] of states $\mathbb{R}^n$, and this is connected to the usual bosonic [[Fock space]] by taking Taylor series of $f(z)$ in $\bar z$.
