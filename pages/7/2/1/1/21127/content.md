@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[solid state physics]] a material is said to have a _gapped Hamiltonian_ if in the [[thermodynamic limit]] of infinite [[volume]] it [[Hamiltonian]] has a [[mass gap]].
+In [[solid state physics]] a material is said to have a _gapped Hamiltonian_ if in the [[thermodynamic limit]] of infinite [[volume]] its [[Hamiltonian]] has a [[spectral gap]] over the [[ground state]].
 
 ## Related concepts
 
