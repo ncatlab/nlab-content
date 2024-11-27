@@ -24,6 +24,7 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
 The idea of *topological quantum computation* is to implement [[quantum computation]] on [[quantum systems]] whose dynamics is described by [[topological quantum field theory]] (TQFT), so that the defining invariance of TQFTs under local perturbations implements protection of the [[quantum coherence]] by fundamental physical principles, instead of after the fact by [[quantum error correction]].
  
@@ -39,9 +40,9 @@ The idea of *topological quantum computation* is to implement [[quantum computat
 
 **The Problem of Contemporary Quantum Computing.**
 
-Ordinary quantum computing architectures 
+Common quantum computing architectures 
 
-> (such as with [spin resonance](nuclear+magnetic+resonance#SpinResonanceQBitsReferences), [superconducting qbits](superconductivity#SuperconductingQBitsReferences), [[trapped-ion quantum computing|trapped ions]], ...)
+> (such as based on [superconducting qbits](superconductivity#SuperconductingQBitsReferences), [[trapped-ion quantum computing|trapped ions]], [spin resonance](nuclear+magnetic+resonance#SpinResonanceQBitsReferences), ...)
 
 suffer from an intrinsic tension:
 
@@ -83,7 +84,7 @@ For this we need a quantum system (like a crystalline material) with the followi
 
    > (Meaning: The material's [[Hamiltonian]] has a [[spectral gap]] above the [[ground state]].)
   
-3. **control parameters**:
+3. {#ControlParameters} **control parameters**:
 
    the above properties hold for a range of external tunable parameters
 
@@ -205,7 +206,7 @@ most attention has been given to a single approach:
 
 \linebreak
 
-This is what we discuss next. 
+That's what we discuss next. 
 
 
 \linebreak
@@ -217,11 +218,16 @@ This is what we discuss next.
 
 
 ### Via anyon braiding
+ {#IdeaViaAnyonBraiding}
 
 
+In specialization of the [above general idea](#GeneralIdea), the  original proposal due to [Kitaev 2003](#Kitaev03) and [Freedman, Kitaev, Larsen & Wang 2003](#FreedmanKitaevLarsenWang03) (which has become canonized in the literature) is to envision 
 
-The original and almost universally considered approach of 
-implementing the [above general idea](#GeneralIdea) is to envision (due to [Kitaev 2003](#Kitaev03) and [Freedman, Kitaev, Larsen & Wang 2003](#FreedmanKitaevLarsenWang03)) an effectively 2-dimensional [[quantum material]] (such as an atomic monolayer similar to [[graphene]]) with some [[defect]] points of sorts, whose positions constitute the above parameter, hence whose parameter space is a [[configuration space of points]] in the plane.
+* an effectively 2-dimensional [[quantum material]]  (such as an atomic monolayer similar to [[graphene]]),
+
+* with some *[[defect]] points* of sorts (whose expected nature in real materials remains vague at this point),
+
+* whose positions constitute the [above parameters](#ControlParameters), hence whose parameter space is a [[configuration space of points]] in the plane.
 
 The  [[motion group|motion]] in such a parameter space is a [[braid]] (of "[[worldlines]]" of defect points) and if this acts non-trivially on the material's ground states by [[quantum adiabatic theorem|adiabatic]] transformations, then one refers to these defects as "[[defect]] [[anyons]]":
 
@@ -231,11 +237,36 @@ The  [[motion group|motion]] in such a parameter space is a [[braid]] (of "[[wor
 </a>
 </center>
 
-At least "abelian" such anyons (whose [[braid representation]] factors through a [[representation of the symmetric group]]) are thought to be seen in [[fractional quantum Hall effect|fractional quantum Hall systems]] (though their controlled movement along the above lines seems out of reach). 
+> (graphics from [[schreiber:Topological QBits in Flux-Quantized Supergravity|SS24]])
 
-Generally, such defect anyons are expected to be [[effective field theory|effectively described]] by some kind of [[Chern-Simons theory]]/[[Reshetikhin-Turaev construction|Reshetikhin-Turaev theory]].
+\linebreak
 
-Topological quantum computation protocols with anyons are often assumed to start by creating anyon/anti-anyon pairs out of the "anyon [[vacuum]]", then braid their worldlines and finally annihilate them again (so that the total process is described by a [[link]] which, when regarded as a [[Wilson loop]] may be understood as parameterizing a [[quantum observable]] of [[Chern-Simons theory]]):
+**Status of anyonic quantum computation.**
+
+Experimentally, at least *[abelian anyons](#FocusOnAbelianAnyons)* (whose [[braid representation]] factors through a [[representation of the symmetric group]]) [are seen](braid+group+statistics#ExperimentalRealization) in [[fractional quantum Hall effect|fractional quantum Hall systems]] --- though their controlled movement along the above lines seems out of reach. 
+
+{#ChernSimonsTheory} Theoretically, such defect anyons are expected to be [[effective field theory|effectively described]] by some kind of [[Chern-Simons theory]]/[[Reshetikhin-Turaev construction|Reshetikhin-Turaev theory]], and hence ultimately classified by [[modular tensor categories]] --- though attempts to derive some of these expectations from microscopic physics are rare.
+
+> (A more microscopic argument for anyonic defects not in position-space but in "reciprocal" momentum-space (the [[Brillouin torus]]), appearing there as the familiar [[band nodes]] of [[topological semimetals]], is made in [[schreiber:Anyonic topological order in TED K-theory|SS23]].)
+
+A general problem on both of these fronts is that anyonic [[topological order]] is supposed to arise in [[strongly correlated systems]] which, like all [[non-perturbative field theory|non-perturbative physics]], remains ill-understood in general. 
+
+One approach on this front is to find [[geometric engineering of quantum field theory|geometric engineering]] of anyonic [[topological order]] on [[M-branes]] (or their [[AdS-CFT in condensed matter physics|holographic dual]] bulk gravity), cf. [CGK20](topological+order#CGK20), [SS24](topological+order#SS24). 
+
+\linebreak
+
+**Miscellaneous approaches.**
+
+Much attention in the 2010s had been given to claims of experimental detection of anyons in the form of "[[Majorana zero modes]]" (MZMs), but these claims [seem not to hold water](Majorana+zero+mode#But). In any case, these MZMs are by design stuck at the end of nanowires and hence are not movable and in particular not braidable in the above sense.
+
+More recently the idea of *[quantum *simulation* of anyons](quantum+simulation+OfAnyons)* on ordinary quantum hardware has found more attention, though the relevance of this, if any, to the original idea of quantum-error protection by fundamental physical principles may remain to be discussed.
+
+\linebreak
+
+
+**Topological quantum protocols.**
+
+Topological quantum computation protocols with defect anyons are often assumed to start by creating anyon/anti-anyon pairs out of the "anyon [[vacuum]]", then braid their worldlines and finally annihilate them again --- so that the total process is described by a [[link]] which, when regarded as a [[Wilson loop]], may be understood as parameterizing a [[quantum observable]] of the [[Chern-Simons theory]] mentioned [above](#ChernSimonsTheory):
 
 
 \begin{imagefromfile}
@@ -266,7 +297,7 @@ In any case, in this scheme the topological [[quantum gates]] are encoded by [[b
         "right": 0, 
         "left": 10
     },
-    "caption": "From Sati-Schreiber 21"
+    "caption": "(from Sati-Schreiber 21)"
 \end{imagefromfile}
 
 
@@ -280,13 +311,33 @@ In any case, in this scheme the topological [[quantum gates]] are encoded by [[b
         "right": 0, 
         "left": 10
     },
-    "caption": "From [Lahtinen & Pachos 17](#LahtinenPachos17)"
+    "caption": "(from [Lahtinen-Pachos 17](#LahtinenPachos17))"
 \end{imagefromfile}
+
+\linebreak
+
+**Topological Quantum Compilation.**
+
+This means that quantum gates based on anyon braiding are (going to be) quite different from the [standard](quantum+logic+gate#Examples) [[quantum gates]] traditionally considered in [[qbit]]-based [[quantum circuits]].
+
+{#BraidImplementingCNotGate} For example, the following lengthy braid has been proposed &lbrack;[Hormozi, Zikos, Bonesteel & Simon (2007)](#HormoziZikosBonesteelSimon07)&rbrack; as a possible topological implementation of a *single* [[CNOT gate]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/BraidImplementingCNOTGate.jpg" width="800">
+</center>
+
+Hence if and when such topological quantum hardware becomes available, a major issue on the quantum software side will be the *[[quantum compilation|compilation]]* of [[quantum algorithms]] to the exotic-seeming machine-level gates (cf. *[topological quantum compilation](/nlab/show/Solovay-Kitaev+theorem#ReferencesInTopologicalQuantumComputation)*). 
+
+It [has been argued](certified+programming#ReferencesForQuantumProgrammingLanguages) that the complexity of this process will make its [[certified programming|formal verification]] a practical necessity.
+
+
+
+\linebreak
 
 
 ### Extended TQC?
 
-It is interesting to note that:
+It may be interesting to note that:
 
 * ([[pure braid group|pure]]) [[braid group representations]] are equivalently degree-1 [[cocycles]] in the [[non-abelian cohomology]] of the [[configuration space of points]] (ordered) in the [[Euclidean plane]],;
 
@@ -346,7 +397,7 @@ Highlighting the need for topological stabilization mechanisms:
 
 * {#DasSarma22} [[Sankar Das Sarma]], *Quantum computing has a hype problem*, [MIT Technology Review (March 2022)](https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/)
 
-  > "The qubit systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. $[\cdots]$ What is missing is the breakthrough \[...\] bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called topological quantum computing."
+  > "The qubit systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. \[\cdots\] What is missing is the breakthrough \[...\] bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called topological quantum computing."
 
 
 
@@ -361,7 +412,6 @@ Highlighting the need for topological stabilization mechanisms:
 
 
 [[!include anyons in topological superconductors -- references]]
-
 
 
 
