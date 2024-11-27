@@ -248,15 +248,6 @@ The first realistic proposal for actually building a [[quantum gate]] (namely on
 
 * {#CiracZoller95} [[J. Ignacio Cirac]], [[Peter Zoller]]: *Quantum Computations with Cold Trapped Ions*, Phys. Rev. Lett. **74** (1995) 4091 &lbrack;[doi:10.1103/PhysRevLett.74.4091](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.74.4091)&rbrack;
 
-
-Review:
-
-* Renato Portugal, *Basic Quantum Algorithms* &lbrack;[arXiv:2201.10574](https://arxiv.org/abs/2201.10574)&rbrack;
-
-* Kamil Khadiev, *Lecture Notes on Quantum Algorithms* &lbrack;[arXiv:2212.14205](https://arxiv.org/abs/2212.14205)&rbrack;
-
-* [[Alessandro Luongo]], *[Quantum algorithms for data analysis](https://quantumalgorithms.org)*
-
 Quantum computation became widely thought to be not just a theoretical but a plausible practical possibility with the theoretical understanding of [[quantum error correction]] (which however remains to be implemented scalably):
 
 * {#Shor95} [[Peter W. Shor]], *Scheme for reducing decoherence in quantum computer memory*, Phys. Rev. A 52, R2493(R) 1995 ([doi:10.1103/PhysRevA.52.R2493](https://doi.org/10.1103/PhysRevA.52.R2493))
@@ -270,6 +261,21 @@ Early review:
 * [[Adriano Barenco]], *Quantum Physics and Computers*,  Contemp. Phys. **37** (1996) 375-389 &lbrack;[arXiv:quant-ph/9612014](https://arxiv.org/abs/quant-ph/9612014), [doi:10.1080/00107519608217543](https://doi.org/10.1080/00107519608217543)&rbrack;
 
 * [[Yuri I. Manin]], *Classical computing, quantum computing, and Shor's factoring algorithm*, Astérisque, **266** Séminaire Bourbaki 862 (2000) 375-404 &lbrack;[arXiv:quant-ph/9903008](https://arxiv.org/abs/quant-ph/9903008), [numdam:SB_1998-1999__41__375_0](http://www.numdam.org/item/?id=SB_1998-1999__41__375_0)&rbrack;
+
+Monograph on experimental realizations of [[quantum gates]]/[[quantum computers]]:
+
+* {#CCEHRSZ07} Chen, Church, Englert, Henkel, Rohwedder, Scully, Zubairy:  *Quantum Computing Devices -- Principles, Designs, and Analysis*, Routledge (2007) &lbrack;[ISBN:9780367390372](https://www.routledge.com/Quantum-Computing-Devices-Principles-Designs-and-Analysis/Chen-Church-Englert-Henkel-Rohwedder-Scully-Zubairy/p/book/9780367390372?srsltid=AfmBOooGiSmyK4mzxjmR1LBJz4zU9cgCpp_z4cPiCzEhM6SJo4b2GxRp)&rbrack;
+
+Review of [[quantum algorithms]]:
+
+* Ashley Montanaro, *Quantum algorithms: an overview*, npj Quantum Information **2** 15023 (2016) &lbrack;[doi:10.1038/npjqi.2015.23](https://doi.org/10.1038/npjqi.2015.23)&rbrack;
+
+* Renato Portugal: *Basic Quantum Algorithms* &lbrack;[arXiv:2201.10574](https://arxiv.org/abs/2201.10574)&rbrack;
+
+* Kamil Khadiev: *Lecture Notes on Quantum Algorithms* &lbrack;[arXiv:2212.14205](https://arxiv.org/abs/2212.14205)&rbrack;
+
+* [[Alessandro Luongo]]: *[Quantum algorithms for data analysis](https://quantumalgorithms.org)*
+
 
 An alternative/parallel approach to avoiding errors due to [[decoherence]] is [[topological quantum computation]], see [there](topological+quantum+computation#References) for references.
 
