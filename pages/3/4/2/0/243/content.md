@@ -37,7 +37,7 @@ $$
 
 then the _end_ of the functor picks out the universal [[subobject]] on which the left and right action coincides.  Dually, the _coend_ of $F$ is the universal quotient of $\coprod_{c \in C} F(c,c)$ that forces the two actions of $F$ on that object to be equal.
 
-A classical example of an _end_ is the $V$-object of [[natural transformations]] between $V$-[[enriched functors]] in [[enriched category theory]].  Perhaps the most common way in which ends and coends arise is through homs and tensor products of (generalized) modules, and their close cousins, weighted limits and weighted colimits. These concepts are fundamental in enriched category theory. 
+A classical example of an _end_ is the $V$-object of [[natural transformations]] between $V$-[[enriched functors]] in [[enriched category theory]].  Perhaps the most common way in which ends and coends arise is through homs and tensor products of (generalized) modules, and their close cousins, [[weighted limits]] and [[weighted colimits]]. These concepts are fundamental in enriched category theory. 
 
 
 
