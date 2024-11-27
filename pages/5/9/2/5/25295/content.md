@@ -22,6 +22,11 @@ On realizing [[qbits]] and [[quantum gates]] (hence [[quantum computation]]) via
 
 * [[Olivier Ezratty]], *Perspective on superconducting qubit quantum computing*, Eur. Phys. J. A **59** 94 (2023) \[<a href="https://doi.org/10.1140/epja/s10050-023-01006-7">doi:10.1140/epja/s10050-023-01006-7</a>\]
 
+Monograph:
+
+* Chen, Church, Englert, Henkel, Rohwedder, Scully, Zubairy, section 9 of:  *Quantum Computing Devices Principles, Designs, and Analysis*, Routledge (2007) \[<a href="https://www.routledge.com/Quantum-Computing-Devices-Principles-Designs-and-Analysis/Chen-Church-Englert-Henkel-Rohwedder-Scully-Zubairy/p/book/9780367390372?srsltid=AfmBOooGiSmyK4mzxjmR1LBJz4zU9cgCpp_z4cPiCzEhM6SJo4b2GxRp">ISBN:9780367390372</a>\]
+
+
 Fine detail of the pulse control:
 
 * M. Werninghaus, D. J. Egger, F. Roy, S. Machnes, F. K. Wilhelm, S. Filipp: *Leakage reduction in fast superconducting qubit gates via optimal control*, npj Quantum Information **7** 14 (2021) $[$[doi:10.1038/s41534-020-00346-2](https://doi.org/10.1038/s41534-020-00346-2)$]$
