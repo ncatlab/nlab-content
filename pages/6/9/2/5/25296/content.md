@@ -23,7 +23,12 @@ The very first proof-of-principle [[quantum computations]] were made with [[nucl
 
 See also:
 
-* Lieven Vandersypen, Mark Eriksson: *Quantum computing with semiconductor spins*, Physics Today **72** 8 (2019) 38 $[$[doi:10.1063/PT.3.4270](https://doi.org/10.1063/PT.3.4270)$]$
+* Lieven Vandersypen, Mark Eriksson: *Quantum computing with semiconductor spins*, Physics Today **72** 8 (2019) 38 \[<a href="https://doi.org/10.1063/PT.3.4270">doi:10.1063/PT.3.4270</a>\]
+
+Monograph:
+
+* Chen, Church, Englert, Henkel, Rohwedder, Scully, Zubairy, section 10 of:  *Quantum Computing Devices -- Principles, Designs, and Analysis*, Routledge (2007) \[<a href="https://www.routledge.com/Quantum-Computing-Devices-Principles-Designs-and-Analysis/Chen-Church-Englert-Henkel-Rohwedder-Scully-Zubairy/p/book/9780367390372?srsltid=AfmBOooGiSmyK4mzxjmR1LBJz4zU9cgCpp_z4cPiCzEhM6SJo4b2GxRp">ISBN:9780367390372</a>\]
+
 
 Exposition, review and outlook:
 
