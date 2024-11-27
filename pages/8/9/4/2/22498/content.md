@@ -153,3 +153,9 @@ In relation to [[quantum information theory]]:
 [[!redirects symmetric group representation]]
 [[!redirects symmetric group representations]]
 
+[[!redirects representation of the symmetric group]]
+[[!redirects representations of the symmetric group]]
+
+[[!redirects representation of a symmetric group]]
+[[!redirects representations of a symmetric group]]
+
