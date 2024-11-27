@@ -101,6 +101,8 @@ But for this string theory, at least, there are hints as to its non-perturbative
 
 ## Related concepts
 
+* [[strongly correlated system]]
+
 * [[non-perturbative effect]]
 
 * [[Borel resummation]], [[resurgence theory]]
