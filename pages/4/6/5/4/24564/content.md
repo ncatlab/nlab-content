@@ -27,7 +27,7 @@ These Majorana zero modes were theoretically introduced in a [[spin chain]] [[mo
 
 {#Following} Following these proposals and especially after [Microsoft Quantum](https://www.microsoft.com/en-us/research/research-area/quantum-computing) (with [QuTech](https://qutech.nl/) at TU Delft) declared ([Nov 2016](https://blogs.microsoft.com/ai/microsoft-doubles-quantum-computing-bet/)) the concrete aim of realizing [[topological quantum computation]] based on topological qbits given by such "Majorana zero modes" (following the plan laid out in [Das Sarma, Freedman & Nayak 15](#DasSarmaFreedmanNayak15)), the topic attracted [enormous attention](https://scholar.google.com/scholar?cites=12195292414684872731&as_sdt=2005&sciodt=0,5&hl=en) in [[solid state physics]].
 
-But prominent claims of experimental detection of (these kinds of) Majorana zero modes had to be retracted: 
+{#But} But prominent claims of experimental detection of (these kinds of) Majorana zero modes had to be retracted: 
 
 * [by *Nature* in 2021](https://www.nature.com/articles/d41586-021-00612-z) 
 
