@@ -65,7 +65,7 @@ Review:
 * [[Eric C. Rowell]], *Braids, Motions and Topological Quantum Computing* \[<a href="https://arxiv.org/abs/2208.11762">arXiv:2208.11762</a>, [spire:2141848](https://inspirehep.net/literature/2141848)\]
 
 
-Focus on *[[abelian anyons]]*:
+{#FocusOnAbelianAnyons} Focus on *[[abelian anyons]]*:
 
 * [[Jiannis K. Pachos]], *Quantum computation with abelian anyons on the honeycomb lattice*, International Journal of Quantum Information **4** 6 (2006) 947-954 \[<a href="https://doi.org/10.1142/S0219749906002328">doi:10.1142/S0219749906002328</a>, [arXiv:quant-ph/0511273](https://arxiv.org/abs/quant-ph/0511273)\]
 
