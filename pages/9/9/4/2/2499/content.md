@@ -1109,29 +1109,28 @@ The original articles that introduced specifically the D'Auria-Fré-formalism fo
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], *About bosonic rheonomic symmetry and the generation of a spin-1 field in $D=5$ supergravity*, Nuclear Physics B
 **173** 3 (1980) 456-476 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90013-9">doi:10.1016/0550-3213(80)90013-9</a>&rbrack;
-
   > (on [[D=4 N=1 supergravity]])
 
 * [[Pietro Fré]], *Extended supergravity on the supergroup manifold: $N=3$ and $N=2$ theories*, Nuclear Physics B
 **186** 1 (1981) 44-60 &lbrack;<a href="https://doi.org/10.1016/0550-3213(81)90092-4">doi:10.1016/0550-3213(81)90092-4</a>&rbrack;
-
   > (on [[D=4 N=2 supergravity|D=4 N=2]] and [[D=4 N=3 supergravity]])
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], A. J. da Silva, *Geometric structure of $N=1$, $D=10$ and $N=4$, $D=4$ super Yang-Mills theory*, Nuclear Physics B **196** 2 (1982) 205-239 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90036-0">doi:10.1016/0550-3213(82)90036-0</a>&rbrack;
-
   > (on [[D=10 super Yang-Mills theory|D=10]] and [[D=4 N=4 super Yang-Mills theory]] with emphasis on [[Fierz identities]])
 
 * {#DAuriaFreMainaRegge82} [[Riccardo D'Auria]], [[Pietro Fré]],  E. Maina, [[Tullio Regge]],  *A New Group Theoretical Technique for the Analysis of Bianchi Identities and Its Application to the Auxiliary Field Problem of $D=5$ Supergravity*, Annals Phys. 139 (1982) 93 &lbrack;<a href="http://dx.doi.org/10.1016/0003-4916(82)90007-0">doi:10.1016/0003-4916(82)90007-0</a>, [spire:167640](http://inspirehep.net/record/167640)&rbrack;
-
   > (on [[D=5 supergravity]] with emphasis on [[Fierz identities]])
 
 * {#DAuriaFre82} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B **201** (1982) 101-140 &lbrack;<a href="https://doi.org/10.1016/0550-3213(82)90376-5">doi:10.1016/0550-3213(82)90376-5</a>,  [[GeometricSupergravityErrata.pdf:file]]&rbrack;
-
   > (in [[D=11 supergravity]])
 
 * {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, [[Krzysztof Pilch]], [[Peter van Nieuwenhuizen]], *Gauging of $d = 11$ supergravity?*, Annals of Physics **146** 1 (1983) 35-77 &lbrack;[spire:11998](https://inspirehep.net/literature/11998), <a href="https://doi.org/10.1016/0003-4916(83)90052-0">doi:10.1016/0003-4916(83)90052-0</a>&rbrack;
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], [[Paul Townsend]],  *Invariance of actions, rheonomy and the new minimal $N=1$ supergravity in the group manifold approach*, Ann. Phys. 155 (1984) 423-446 &lbrack;[cds:143990](https://cds.cern.ch/record/143990), <a href="http://dx.doi.org/10.1016/0003-4916(84)90007-1">doi:10.1016/0003-4916(84)90007-1</a>, [pdf](https://cds.cern.ch/record/143990/files/198305027.pdf)&rbrack;
+
+* [[Riccardo D'Auria]], [[Pietro Fré]], [[Pietro A. Grassi]], [[Mario Trigiante]]: *Pure Spinor Superstrings on Generic type IIA Supergravity Backgrounds*, J. High Energy Physics **2008**  07 (2008) &lbrack;[arXiv:0803.1703](https://arxiv.org/abs/0803.1703), [doi:10.1088/1126-6708/2008/07/059](https://doi.org/10.1088/1126-6708/2008/07/059)&rbrack;
+  > (for [[type IIA supergravity]])
+
 
 Early review with an eye towards more mathematical language:
 
