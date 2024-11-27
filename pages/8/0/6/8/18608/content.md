@@ -35,6 +35,8 @@ This issue is well and widely known in the [[particle physics]]-community, see f
 
 ## Related pages
 
+* [[spectral gap]]
+
 * [[confinement]]
 
 * [[mass term]]
