@@ -27,21 +27,20 @@ Often the term *adiabatic quantum computation* is used by default for [[optimiza
 
 On the other hand, the possibly most prominent example of adiabatic quantum computation is often not advertized as such (but see [CLBFN 2015](#CLBFN15)), namely [[topological quantum computation]] by adiabatic [[braid group|braiding]] of [defect anyons](braid+group+statistics#AsBraidingOfDefects) (whose positions is the external parameter, varying in a [[configuration space of points]]). This is made explicit in [Freedman, Kitaev, Larsen & Wang 2003, pp. 6](#FreedmanKitaevLarsenWang03); [Nayak, Simon, Stern & Freedman 2008, §II.A.2 (p. 6)](#NayakSimonSternFreedman08); and [Cheng, Galitski & Das Sarma 2011, p. 1](#ChengGalitskiDasSarma11); see also [Arovas, Schrieffer, Wilczek & Zee 1985, p. 1](#ArovasSchriefferWilczekZee85) and [Stanescu 2020, p. 321](#Stanescu20); [Barlas & Prodan 2020](#BarlasProdan20).
 
-The following graphics shows this with labelling indicative of [momentum-space anyons](braid+group+statistics#ReferencesAnyonicBraidingInMomentumSpace):
 
 \begin{imagefromfile}
-    "file_name": "AdiabaticBraidingOfBandNodes-220604.jpg",
-    "width": 600,
+    "file_name": "AnyonBraidingSchematics.jpg",
+    "width": 640,
     "unit": "px",
     "margin": {
-        "top": -40,
+        "top": -30,
         "bottom": 20,
         "right": 0, 
         "left": 10
     }
 \end{imagefromfile}
 
-> (graphics from [[schreiber:Topological Quantum Computation in TED-K|SS22]]) 
+> (graphics from [[schreiber:Topological QBits in Flux-Quantized Supergravity|SS24]]) 
 
 ## Related concepts
 
