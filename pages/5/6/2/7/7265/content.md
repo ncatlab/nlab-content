@@ -3,11 +3,12 @@
 
 ## Selected writings
 
-On [[DBI-action]] and [[Green-Schwarz action functional]] for [[D-branes]]:
+On the [[DBI-action]] and [[Green-Schwarz action functional]] for [[D-branes]] (and on their [[background field|background]] [[type IIA supergravity]] on [[superspace]]):
 
-* [[Martin Cederwall]], Alexander von Gussich, [[Aleksandar Mikovic]], [[Bengt Nilsson]], Anders Westerberg, _On the Dirac-Born-Infeld Action for D-branes_,  Phys.Lett.B390:148-152, 1997 ([arXiv:hep-th/9606173](https://arxiv.org/abs/hep-th/9606173))
+* [[Martin Cederwall]], Alexander von Gussich, [[Aleksandar Mikovic]], [[Bengt Nilsson]], Anders Westerberg: _On the Dirac-Born-Infeld Action for D-branes_,  Phys. Lett. B **390** (1997) 148-152 &lbrack;[arXiv:hep-th/9606173](https://arxiv.org/abs/hep-th/9606173), <a href="https://doi.org/10.1016/S0370-2693(96)01367-6">doi:10.1016/S0370-2693(96)01367-6</a>&rbrack;
 
-* {#CGNSW96} [[Martin Cederwall]], Alexander von Gussich, [[Bengt Nilsson]], Per Sundell, Anders Westerberg, _The Dirichlet Super-p-Branes in Ten-Dimensional Type IIA and IIB Supergravity_, Nucl.Phys. B490 (1997) 179-201 ([arXiv:hep-th/9611159](http://arxiv.org/abs/hep-th/9611159))
+* [[Martin Cederwall]], Alexander von Gussich, [[Bengt E. W. Nilsson]], [[Per Sundell]], Anders Westerberg: *The Dirichlet Super-$p$-Branes in Ten-Dimensional Type IIA and IIB Supergravity*, Nucl. Phys. B **490** (1997) 179-201 &lbrack[arXiv:hep-th/9611159](https://arxiv.org/abs/hep-th/9611159), <a href="https://doi.org/10.1016/S0550-3213(97)00075-8">doi:10.1016/S0550-3213(97)00075-8</a>&rbrack;
+
 
 On [[U-duality]] and [[diffeomorphisms]] in [[exceptional generalized geometry]]:
 
