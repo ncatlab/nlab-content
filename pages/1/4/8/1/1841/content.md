@@ -373,6 +373,8 @@ Which implies that with the magnetic charge being quantized, also the electric c
 
 ## Related concepts
 
+* [[voltage]]
+
 * [[fiber bundles in physics]]
 
 * [[Dirac charge quantization]]
@@ -397,7 +399,9 @@ Which implies that with the magnetic charge being quantized, also the electric c
 
 ## References
 
-[[Maxwell's equations]] originate in
+> See also the references at *[[electromagnetism]]*:
+
+[[Maxwell's equations]] originate in:
 
 * [[James Clerk Maxwell]], _[A Dynamical Theory of the Electromagnetic Field](http://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field),_ Philosophical Transactions of the Royal Society of London 155, 459--512 (1865).
  {#Maxwell}
@@ -406,9 +410,11 @@ Which implies that with the magnetic charge being quantized, also the electric c
 
 * [[P.A.M. Dirac]], _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72.
 
-Review is for instance in
+Review:
 
-* [[Theodore Frankel]], section 5.5 of _[[The Geometry of Physics - An Introduction]]_
+* [[Theodore Frankel]], section 5.5 of: *[[The Geometry of Physics - An Introduction]]*, Cambridge University Press (1997, 2004, 2012) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377), [webpage](http://www.math.ucsd.edu/~tfrankel/)&rbrack;
+
+  
 
 
 Discussions of the basic geometry behind Maxwell equations can be found in 
