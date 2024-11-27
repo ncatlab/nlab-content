@@ -52,7 +52,7 @@ This is useful and is used particularly for discussions in [[synthetic different
 ## Statement
 
 \begin{lemma}\label{MilnorExercise}
-**([Pursell, Section 8](#Pursell), 1952)**
+**([Pursell, Section 8](#Pursell52), 1952)**
 \linebreak
 For a [[smooth manifold]] $X \in SmthMfd$, the [[evaluation map]] (from its [[underlying]] [[set]] to the [[hom-set]])
 $$
