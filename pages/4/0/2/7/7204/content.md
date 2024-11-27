@@ -73,6 +73,13 @@ Discussion on [[superspace]]:
 * James L. Carr, [[S. James Gates Jr.]], Robert N. Oerter: *$D = 10$, $N = 2a$ Supergravity in Superspace*, Physics Letters B
 **189** 1–2 (1987) 68-74 &lbrack;<a href="https://doi.org/10.1016/0370-2693(87)91271-8">doi:10.1016/0370-2693(87)91271-8</a>, [spire:235791](https://inspirehep.net/literature/235791)&rbrack;
 
+* [[Martin Cederwall]], Alexander von Gussich, [[Bengt E. W. Nilsson]], [[Per Sundell]], Anders Westerberg: *The Dirichlet Super-$p$-Branes in Ten-Dimensional Type IIA and IIB Supergravity*, Nucl. Phys. B **490** (1997) 179-201 &lbrack[arXiv:hep-th/9611159](https://arxiv.org/abs/hep-th/9611159), <a href="https://doi.org/10.1016/S0550-3213(97)00075-8">doi:10.1016/S0550-3213(97)00075-8</a>&rbrack;
+
+* [[Riccardo D'Auria]], [[Pietro Fré]], [[Pietro A. Grassi]], [[Mario Trigiante]]: *Pure Spinor Superstrings on Generic type IIA Supergravity Backgrounds*, J. High Energy Physics **2008**  07 (2008) &lbrack;[arXiv:0803.1703](https://arxiv.org/abs/0803.1703), [doi:10.1088/1126-6708/2008/07/059](https://doi.org/10.1088/1126-6708/2008/07/059)&rbrack;
+
+
+
+
 
 See also the general references at _[[supergravity]]_.
 
