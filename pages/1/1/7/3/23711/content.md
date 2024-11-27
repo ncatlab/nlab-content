@@ -220,7 +220,7 @@ Nat. Phys. **18** 1341–1346 (2022) &lbrack;[arXiv:2107.10837](https://arxiv.or
 and background on "heavy fermions":
 
 * Norbert Grewe, Frank Steglich, *Heavy fermions*, Chapter 97 in: *Handbook on the Physics and Chemistry of Rare Earths*
-**14 (1991) 343-474 \[<a href="https://doi.org/10.1016/S0168-1273(05)80103-5">doi:10.1016/S0168-1273(05)80103-5</a>\]
+**14** (1991) 343-474 \[<a href="https://doi.org/10.1016/S0168-1273(05)80103-5">doi:10.1016/S0168-1273(05)80103-5</a>\]
 
 
 
