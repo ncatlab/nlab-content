@@ -75,19 +75,19 @@ A general right $J$-module $W: J^{op} \to Set$ may be called a **weight** (with 
 
 ## Definition ## 
 
-Let $J$ be a [[small category]]. Given a functor $W: J^{op} \to Set$ (the _weight_) and a functor $F: J \to C$ (the _diagram_), the **weighted colimit** or tensor product is an object $W \cdot F$ of $C$ together with an isomorphism 
+Let $J$ be a [[small category]]. Given a functor $W: J^{op} \to Set$ (the _weight_) and a functor $F: J \to C$ (the _diagram_), the **weighted colimit** or tensor product is an object $W * F$ of $C$ together with an isomorphism 
 
-$$C(W \cdot F, c) \cong Set^{J^{op}}(W, C(F-, c))$$ 
+$$C(W * F, c) \cong Set^{J^{op}}(W, C(F-, c))$$ 
 
 that is [[natural isomorphism|natural]] in objects $c$ of $C$. (By the [[Yoneda lemma]], such an isomorphism is induced by a uniquely determined transformation 
 
-$$W(j) \to C(F(j), W \cdot F),$$ 
+$$W(j) \to C(F(j), W * F),$$ 
 
 natural in $j$, which is a weighted analogue of the universal cocone.) 
 
-The notion of weighted colimit carries over in straightforward fashion to categories enriched in a complete, cocomplete, closed symmetric monoidal category $V$. In that case, if $J$ is a small $V$-category (that is a $V$-enriched category whose object class is small), and if $F: J \to C$ and $W: J^{op} \to V$ are $V$-functors, then a colimit of $F$ with respect to the weight $W$ is an object $W \cdot F$ of $C$ together with an $V$-[[enriched natural transformation|natural]] isomorphism 
+The notion of weighted colimit carries over in straightforward fashion to categories enriched in a complete, cocomplete, closed symmetric monoidal category $V$. In that case, if $J$ is a small $V$-category (that is a $V$-enriched category whose object class is small), and if $F: J \to C$ and $W: J^{op} \to V$ are $V$-functors, then a colimit of $F$ with respect to the weight $W$ is an object $W * F$ of $C$ together with an $V$-[[enriched natural transformation|natural]] isomorphism 
 
-$$C(W \cdot F, c) \cong V^{J^{op}}(W, C(F-, c))$$ 
+$$C(W * F, c) \cong V^{J^{op}}(W, C(F-, c))$$ 
 
 (between $V$-functors in the argument $c$). In fact, we can dispense with the conditions that $V$ be complete, cocomplete, and closed, at the cost of not being able to refer to functor categories $V^{J^{op}}$, without which the notion is conceptually harder to express. 
 
@@ -95,7 +95,7 @@ A leitmotif playing in the background is that the category of weights $Set^{J^{o
 
 $$\widetilde{F}: V^{J^{op}} \to C$$ 
 
-which is given by the weighted colimit construction $W \mapsto W \cdot F$. 
+which is given by the weighted colimit construction $W \mapsto W * F$. 
 
 ## Examples
 
@@ -107,7 +107,11 @@ which is given by the weighted colimit construction $W \mapsto W \cdot F$.
 
 ## Cocompleteness
 
-An enriched category admits [[coends]] if it admits [[conical colimits]] and [[copowers]]. It admits all weighted colimits if it admits [[coends]] and [[copowers]]. Thus a category with all conical colimits and copowers is cocomplete.
+An enriched category admits [[coends]] if it admits [[conical colimits]] and [[copowers]]. It admits all weighted colimits if it admits [[coends]] and [[copowers]]. Explicitly, for $W: J^{op} \to Set$ and $F: J \to C$:
+
+$$W * F \cong \int^{j \in J} W(j) \cdot F(j)$$
+
+Thus a category with all conical colimits and copowers is cocomplete.
 
 ## Related entries
 
