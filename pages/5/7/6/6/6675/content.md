@@ -125,9 +125,9 @@ Such operations on ground states are called **[holonomic quantum gates](adiabati
 
 > (From "[[holonomy]]" for the [[parallel transport]] of a [[Berry connection]] along [[loops]].)
 
-these are **protected from external noise** quanta of energy $\lt \epsilon$
+these are **protected from external [[noise]]** quanta of energy $\lt \epsilon$
 
-**but** may still be sensitive no **noise in the parameter paths**.
+**but** may still be sensitive no **[[noise]] in the parameter paths**.
 
 \linebreak
 
@@ -161,9 +161,9 @@ the resulting adiabatic quantum processes are **[[topological quantum computatio
 
 In principle these are:
 
-1. protected against external noise quanta of energy $\lt \epsilon$, *and*
+1. protected against external [[noise]] quanta of [[energy]] $\lt \epsilon$, *and*
 
-2. protected again any noise in the parameter path.
+2. protected against any [[noise]] in the parameter path.
 
 In fact, the quantum operation induced by a parameter variation will
 
@@ -218,8 +218,24 @@ This is what we discuss next.
 
 ### Via anyon braiding
 
-The traditional paradigm for potentially realizing topological quantum computation in practice ([Kitaev 03](#Kitaev03), [Freedman, Kitaev, Larsen & Wang03](#FreedmanKitaevLarsenWang03))
-considers [[adiabatic quantum computation|adiabatic]] [[braiding]] of [defect anyons](braid+group+statistics#AsBraidingOfDefects) in effectively 2-dimensional [[quantum materials]], such as in the [[quantum Hall effect]] and [[effective field theory|effectively described]] by some kind of [[Chern-Simons theory]]/[[Reshetikhin-Turaev construction|Reshetikhin-Turaev theory]]:
+
+
+The original and almost universally considered approach of 
+implementing the [above general idea](#GeneralIdea) is to envision (due to [Kitaev 2003](#Kitaev03) and [Freedman, Kitaev, Larsen & Wang 2003](#FreedmanKitaevLarsenWang03)) an effectively 2-dimensional [[quantum material]] (such as an atomic monolayer similar to [[graphene]]) with some [[defect]] points of sorts, whose positions constitute the above parameter, hence whose parameter space is a [[configuration space of points]] in the plane.
+
+The  [[motion group|motion]] in such a parameter space is a [[braid]] (of "[[worldlines]]" of defect points) and if this acts non-trivially on the material's ground states by [[quantum adiabatic theorem|adiabatic]] transformations, then one refers to these defects as "[[defect]] [[anyons]]":
+
+<center>
+<a href="https://arxiv.org/pdf/2411.00628#page=7">
+<img src="/nlab/files/AnyonBraidingSchematics.jpg" width="600">
+</a>
+</center>
+
+At least "abelian" such anyons (whose [[braid representation]] factors through a [[representation of the symmetric group]]) are thought to be seen in [[fractional quantum Hall effect|fractional quantum Hall systems]] (though their controlled movement along the above lines seems out of reach). 
+
+Generally, such defect anyons are expected to be [[effective field theory|effectively described]] by some kind of [[Chern-Simons theory]]/[[Reshetikhin-Turaev construction|Reshetikhin-Turaev theory]].
+
+Topological quantum computation protocols with anyons are often assumed to start by creating anyon/anti-anyon pairs out of the "anyon [[vacuum]]", then braid their worldlines and finally annihilate them again (so that the total process is described by a [[link]] which, when regarded as a [[Wilson loop]] may be understood as parameterizing a [[quantum observable]] of [[Chern-Simons theory]]):
 
 
 \begin{imagefromfile}
@@ -237,8 +253,7 @@ considers [[adiabatic quantum computation|adiabatic]] [[braiding]] of [defect an
 
 \linebreak
 
-Here topological [[quantum gates]] are encoded by [[braid group]]-elements 
-and are executed by [[actions]] through [[braid representations]] on the [[space of quantum states]]:
+In any case, in this scheme the topological [[quantum gates]] are encoded by [[braid group]]-elements and are executed by [[actions]] through [[braid representations]] on the [[space of quantum states]]:
 
 
 \begin{imagefromfile}
