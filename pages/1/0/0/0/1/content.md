@@ -40,7 +40,7 @@ If you take a little time to find something in the literature, or to work throug
 
 A fundamental idea behind the nLab is that the linking between pages of a wiki is a profound way to record knowledge, placing it in a rich context.
 
-For more, see also [[Urs Schreiber]]'s thoughts at [[schreiber:What is... the nLab|What is... the nLab?]]. 
+For more, see also [[Urs Schreiber]]’s thoughts at [[schreiber:What is... the nLab|What is... the nLab?]]. 
 
 
 ## nForum, discussion, comments, and questions
