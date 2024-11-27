@@ -13,6 +13,10 @@ On the [[M2-brane]] [[Green-Schwarz sigma-model|sigma-model]] on a [[target spac
 
 * [[Gianguido Dall'Agata]], Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, [[Mario Trigiante]], §4.1 in: *The $Osp(8|4)$ singleton action from the supermembrane*, Nucl. Phys. B **542** (1999) 157-194 &lbrack;[arXiv:hep-th/9807115](https://arxiv.org/abs/hep-th/9807115), <a href="https://doi.org/10.1016/S0550-3213(98)00765-2">doi:10.1016/S0550-3213(98)00765-2</a>&rbrack;
 
+On [[type IIA supergravity]] on [[superspace]] ([[D'Auria-Fré-Regge formulation of supergravity]]):
+
+* [[Riccardo D'Auria]], [[Pietro Fré]], [[Pietro A. Grassi]], [[Mario Trigiante]]: *Pure Spinor Superstrings on Generic type IIA Supergravity Backgrounds*, J. High Energy Physics **2008**  07 (2008) &lbrack;[arXiv:0803.1703](https://arxiv.org/abs/0803.1703), [doi:10.1088/1126-6708/2008/07/059](https://doi.org/10.1088/1126-6708/2008/07/059)&rbrack;
+
 
 On [[D=7 supergravity]]:
 
