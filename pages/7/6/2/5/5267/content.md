@@ -17,7 +17,7 @@
 ## Idea
 
 
-For a [[linear operator]] $A$ on a [[finite-dimensional vector space|finite-dimensional]] [[complex vector space]] $V$, the spectrum of $A$ is simply the [[subset]] of the [[complex numbers]] consisting of the [[eigenvalues]] of $A$. 
+For a [[linear operator]] $A$ on a [[finite-dimensional vector space|finite-dimensional]] [[complex vector space]] $V$, the *spectrum* of $A$ is simply the [[subset]] of the [[complex numbers]] consisting of the [[eigenvalues]] of $A$. 
 
 In the case that $V$ is an infinite-dimensional complex [[separable Hilbert space]], the ([[normal eigenvalue|normal]]) eigenvalues only form the *discrete spectrum*.  Instead, the full spectrum is the set of all $\lambda \in \mathbb{C}$ for which the [[resolvent]] $(A-\lambda I)^{-1}$ is not a [[bounded operator]]. 
 
@@ -30,6 +30,8 @@ If $A$ is a [[bounded linear operator]] on a complex separable Hilbert space, th
 The set $\sigma_d(A)$ of ordinary [[normal eigenvalues|normal]] [[eigenvalues]] of $A$ is a subset of $\sigma(A)$ called the *discrete spectrum* of $A$. In particular case when $A$ is a [[compact operator]] the spectrum consists of the discrete spectrum only, except for possible addition of point $0$.
 
 ## Related concepts
+
+* [[spectral gap]]
 
 * [[spectral theory]]
 
