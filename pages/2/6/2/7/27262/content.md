@@ -39,6 +39,11 @@ Review of trapped-ion quantum computing:
 
 * Kenneth R. Brown, John Chiaverini, Jeremy M. Sage & Hartmut Häffner: *Materials challenges for trapped-ion quantum computers*, Nat Rev Mater **6** (2021) 892–905 &lbrack;[doi:10.1038/s41578-021-00292-1](https://doi.org/10.1038/s41578-021-00292-1)&rbrack;
 
+Monograph:
+
+* Chen, Church, Englert, Henkel, Rohwedder, Scully, Zubairy, section 6 of:  *Quantum Computing -- Devices Principles, Designs, and Analysis*, Routledge (2007) &lbrack;[ISBN:9780367390372](https://www.routledge.com/Quantum-Computing-Devices-Principles-Designs-and-Analysis/Chen-Church-Englert-Henkel-Rohwedder-Scully-Zubairy/p/book/9780367390372?srsltid=AfmBOooGiSmyK4mzxjmR1LBJz4zU9cgCpp_z4cPiCzEhM6SJo4b2GxRp)&rbrack;
+
+
 See also:
 
 * Wikipedia: *[Trapped-ion quantum computer](https://en.wikipedia.org/wiki/Trapped-ion_quantum_computer)*
