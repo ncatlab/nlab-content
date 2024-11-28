@@ -1,121 +1,40 @@
-For $G \,\equiv\, A$ an *[[abelian group|abelian]] [[topological group|group]]*, one readily sees that there is a [[fiber]]-wise $A$-[[tensor product]] of principal $A$-bundles
 
-\begin{tikzcd}[sep=0pt]
-    \mathrm{Prnc}A\mathrm{Bndl}(X)_{/\sim}
-    \,\times\,
-    \mathrm{Prnc}A\mathrm{Bndl}(X)_{/\sim}
-    \ar[
-      rr
-    ]
-    &&
-    \mathrm{Prnc}A\mathrm{Bndl}(X)_{/\sim}    
-    \\
-    \big(
-      \,
-      [P],
-      \,
-      [P']
-      \,
-    \big)
-    &\longmapsto&
-    \big[
-      P \times_A P'
-    \big]
+### Mix, isomix and compact linearly distributive categories
+
+There are a series of structural steps by which linearly distributive categories collapses to a monoidal categories as shown in the picture below. 
+
+\begin{center}
+\begin{imagefromfile}
+        "file_name": "LDC_schematic.jpg",
+        "width": 600,
+        "unit": "px"
+\end{imagefromfile}
+\end{center}
+ 
+A **mix category** is an LDC with a **mix map** ${ m}:\bot\to\top$, and a  such that:
+
+1) The following diagram commutes
+
+\begin{tikzcd}
+	{A \otimes B} & {A \otimes(\bot \oplus B)} & {(A \otimes \bot) \oplus B} \\
+	{(A \oplus \bot) \otimes B} && {(A  \otimes \top) \oplus B} \\
+	{A \oplus ( \bot \otimes B)} & {A \oplus ( \top \otimes B)} & {A \oplus B}
+	\arrow["\simeq", from=1-1, to=1-2]
+	\arrow["\simeq"', from=1-1, to=2-1]
+	\arrow["{{mx} := }"{description}, dashed, from=1-1, to=3-3]
+	\arrow["{\delta^L}", from=1-2, to=1-3]
+	\arrow["{A \otimes {m} \oplus B}", from=1-3, to=2-3]
+	\arrow["{\delta^R}"', from=2-1, to=3-1]
+	\arrow["\simeq", from=2-3, to=3-3]
+	\arrow["{A \oplus {m} \otimes B}"', from=3-1, to=3-2]
+	\arrow["\simeq"', from=3-2, to=3-3]
 \end{tikzcd}
 
-given by
 
-> (NB: This tensor product of fibrations exists also for non-abelian $G$, but the commutativity of $A$ is needed for principality, namely for the resulting transition functions to again by given by group multiplication.)
+2) The map, $\mx_{A,B}: A \otimes B \to A \oplus B$, called the mixor is natural in both the arguments.
 
-$$
-  (P \times_A P')_x
-  \;\coloneqq\;
-  \Big\{
-    (p, p')
-    \,\in \,
-    P_x \times P'{}_{\!\!\!x}
-  \Big\}\Big/\Big(
-    (a \cdot p,\, p')
-    \sim
-    (p,\, a^{-1} \cdot p')
-  \Big)
-  \,,
-$$
-which makes the isomorphism classes naturally form an abelian group. 
+An **isomix category** is a mix category in which the mix map is a natural isomorphism, $m: \bot \simeq \top$.
 
-Under the classification of principal $A$-bundles by $A$-cohomology, this means that
-the classifying space $B A$ (may be chosen such that it) carries topological group structure itself!, so that the construction iterates:
+In an isomix category, the mixor is automatically a natural transformation. The mix map being an isomorphism does not imply that the mixor is a natural isomorphism.
 
-$$
-  A \;\in\; 
-  \mathrm{AbGrp}(\mathrm{TopSpc})
-  \;\;\;\;\;\;\;\;\;
-  \vdash
-  \;\;\;\;\;\;\;\;\;
-  \left\{
-  \begin{array}{l}
-  B^2 A
-  \;\coloneqq\;
-  B(B A)
-  \\
-  B^3 A
-  \;:=\;
-  B\big(B(B A)\big)
-  \\
-  \;\;\;\vdots
-  \\
-  B^{1+n} \;:=\; B\big(B^n A\big)
-  \mathrlap{\,.}
-  \end{array}
-  \right.
-$$
-
-For a *[[discrete group|discrete]]* abelian group $A$ (such as [[integers|$A = \mathbb{Z}$]]) these higher-order classifying spaces are also denoted "$K(A,n)$" and called "[[Eilenberg-MacLane spaces]]":
-
-$$
-  A \,\in\,
-  \mathrm{AbGrp}(\mathrm{Set})
-  \;\;\;\;\;\;\;\;\;\;
-  \vdash
-  \;\;\;\;\;\;\;\;\;\;
-  K(A,n)
-  \;\;
-  :=
-  \;\;
-  B^n A
-  \,.
-$$
-
-But this means that for abelian group coefficients $A$ there is *higher-degree $A$-cohomology* appearing as a special case of non-abelian cohomology, as follows:
-
-$$
-  H^{1+n}\big(
-    X
-    ;\,
-    A
-  \big)
-  \;\;
-  :=
-  \;\;
-  H^1\big(
-    X
-    ;\,
-    B^nA
-  \big)
-  \;\;
-  :=
-  \;\;
-  \pi_0
-  \, \mathrm{Maps}\big(
-    X
-    ,\,
-    B^{1+n} A
-  \big)
-  \,.
-$$
-
-Of course, when $A$ is discrete then there is also *[[Čech cohomology]]* and *[[singular cohomology]]* with coefficients in $A$. A classical theorem says that (on our smooth manifold domain $X$) all these notions of [[ordinary cohomology]] agree, hence that
-
-$$
-   \text{Ordinary}\;A\text{-cohomology has classifying spaces}\; B^n A \,=\, K(A,n).
-$$
+An isomix category in which the mixor is a natural isomorphism is a compact LDC. The term "compact" here refers to the fact that both the monoidal structures are isomorphic. All compact LDCs are linearly equivalent to the underlying monoidal categories on the tensor $\otimes$ and the par $\oplus$.
