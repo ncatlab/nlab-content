@@ -30,13 +30,20 @@ Another way to say essentially the same thing is that a $\ast$-autonomous catego
 
 A **linearly distributive category** (also called a **weakly distributive category**) is a [[monoidal category]] in two ways, with monoidal structures $(\otimes, \top)$ and $(\parr, \bot)$ equipped with extra associator natural transformations
 
-\[ \delta^L:A\otimes (B\parr C) \to (A \otimes B) \parr C \]
+\[ \delta^L:A \otimes (B\parr C) \to (A \otimes B) \parr C \]
 
-\[ \delta^R:(A\parr B) \otimes C \to A \parr (B \otimes C) \]
+\[ \delta^R:(A \parr B) \otimes C \to A \parr (B \otimes C) \]
 
 and the obvious six pentagon equations and four triangle equations that make the monoidal structures work together nicely ([Cockett-Seely 1997](#CockettSeely97)).  (Some of these equations can be interpreted as saying that the $\delta$s are [[tensorial strengths]] for the functors $(A\parr -)$ and $(-\parr C)$ with respect to the $\otimes$ monoidal structure.)  A **symmetric linearly distributive category** is one in which both monoidal structures are symmetric and three squares commute relating the symmetries to the $\delta$s.
 
 These extra associators are sometimes called "distributors", and should not be confused with [[profunctors]].  The term is a pun on the distributivity of multiplication over addition, but "linearized" so that each variable only appears once in the result.
+
+In a symmetric LDC, the symmetry maps induce the following **permuting** distributivity maps:
+\[ \delta^L_R : A \otimes (B \parr C) \to B \parr (A \otimes C) \]
+ 
+\[  \delta^R_L : (B \parr C) \otimes A \to (B \otimes A) \parr C \]
+
+An LDC which is equipped with all the four linear distributivity maps is said to be **non-planar**.
 
 **Warning:** a [[distributive category]] *cannot* be made into a linearly distributive category with $\otimes = \times$ and $\parr = +$ unless it is a [[partial order]] (but every [[distributive lattice]] is indeed a linearly distributive category) (for a proof, see [Cockett-Seely 1997](#CockettSeely97)).  This mistake is easy to make and even appears in print in one or two places.
 
@@ -72,6 +79,20 @@ Yet stronger is the notion of *strong* Frobenius linear functor, in which the la
 
 
 ## Related structures
+
+### Mix, isomix and compact linearly distributive categories
+
+There are a series of structural steps by which linearly distributive categories collapses to a monoidal categories as shown in the picture below. 
+
+\begin{center}
+\begin{imagefromfile}
+        "file_name": "LDC_schematic.jpg",
+        "width": 300,
+        "unit": "px"
+\end{imagefromfile}
+\end{center}
+ 
+
 
 ### Star-autonomous category
 
@@ -211,6 +232,9 @@ Linearly distributive categories have now been used as the substrate for a numbe
 * {#HH} Willem Heijltjes, [[Robin Houston]], _No proof nets for MLL with units: proof equivalence in MLL is PSPACE-complete_, CSL-LICS '14 Proceedings of the Joint Meeting of the Twenty-Third EACSL Annual Conference on Computer Science Logic (CSL) and the Twenty-Ninth Annual ACM/IEEE Symposium on Logic in Computer Science (LICS), Article No. 50. ([web](http://dl.acm.org/citation.cfm?id=2603126)) 
 
 * {#CKS99}[[Robin Cockett]],[[Jürgen Koslowski]],[[Robert Seely]]*Introduction to linearly distributive categories*, Mathematical Structures in Computer Science, Vol. 10, 2000 pp 165-.203 ([pdf] https://www.math.mcgill.ca/rags/bicats/bicat.pdf))
+
+* {#CS97}[[Robin Cockett]] and [[R.A.G. Seely]], 1997. _Proof theory for full intuitionistic linear logic, bilinear logic, and mix categories_. 1997. [[TAC]] 5:3. [Web](http://tac.mta.ca/tac/volumes/1997/n5/3-05abs.html).
+
  
 Frobenius algebras in linearly distributive categories are discussed in
 
