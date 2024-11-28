@@ -102,7 +102,7 @@ is (pointwise, right) exact, if and only if, for any cell
 
 witnessing $r$ as the right Kan extension of $d$ along $K$, the composite cell $\epsilon \circ \phi$ witnesses $r \circ f$ as the right Kan extension of $g \circ f$ along $J$.
 
-If the companions of $f$ and $g$ exist, such a cell is exact just when the canonical cell $J \odot g_{*} \Rightarrow f_{*} \odot K$. See Section 4 of [Koudenburg 2014](#Koudenburg2014) for more details.
+If the companions of $f$ and $g$ exist, such a cell is exact just when the canonical cell $J \odot g_{*} \Rightarrow f_{*} \odot K$ is invertible. See Section 4 of [Koudenburg 2014](#Koudenburg2014) for more details.
 
 ## Examples
 
