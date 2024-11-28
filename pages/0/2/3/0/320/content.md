@@ -79,16 +79,18 @@ Ordinary (permutative/symmetric) operads, and their generalization to [[symmetri
 
 ### Relation to monoidal categories
 
-There is a [[2-adjunction]] between the [[2-category]] of multicategories and the 2-category of [[monoidal categories]], [[strict monoidal functors]], and [[monoidal natural transformations]].
+There is a [[2-adjunction]] between the [[2-category]] of multicategories and the 2-category of [[strict monoidal categories]], [[strict monoidal functors]], and [[monoidal natural transformations]].
 \begin{tikzcd}
-	{\textbf{Multicat}} & {\textbf{MonCat}_s}
+	{\textbf{Multicat}} & {\textbf{StrMonCat}_s}
 	\arrow[""{name=0, anchor=center, inner sep=0}, "F", shift left=2, from=1-1, to=1-2]
 	\arrow[""{name=1, anchor=center, inner sep=0}, "U", shift left=2, from=1-2, to=1-1]
 	\arrow["\dashv"{anchor=center, rotate=-90}, draw=none, from=0, to=1]
 \end{tikzcd}
-The left adjoint sends a multicategory to the its **monoidal envelope** (which is a [[representable multicategory]]). The right adjoint sends a monoidal category to the multicategory with the same objects, and multimorphisms $A_1, \ldots, A_n \to B$ given by morphisms $A_1 \otimes \cdots \otimes A_n \to B$.
+The left adjoint sends a multicategory to its **monoidal envelope**. The right adjoint sends a strict monoidal category to the multicategory with the same objects, and multimorphisms $A_1, \ldots, A_n \to B$ given by morphisms $A_1 \otimes \cdots \otimes A_n \to B$ (which is a [[representable multicategory]]).
 
-The right adjoint is [[faithful functor|faithful]] and [[locally fully faithful]], but not full (in general, the functors of multicategories correspond to [[lax monoidal functors]]).
+The right adjoint is [[faithful functor|faithful]] and [[locally fully faithful]], but not full (in general, the functors of multicategories correspond to [[lax monoidal functors]]). Furthermore, this 2-adjunction is [[2-monadic]] and [[lax-idempotent 2-adjunction|lax-idempotent]], and the unit is compontentwise [[full and faithful]], i.e. for each multicategory $M$, $M \to UFM$ is [[fully faithful]]. The [[pseudoalgebras]] for the induced [[2-monad]] are precisely the [[representable multicategories]], equivalently the (non-strict) [[monoidal categories]].
+
+There is also a [[fully faithful]] 2-functor $StrMonCat_l \to Multicat$ (abstractly, this is the forgetful functor from the 2-category of [[strict algebras]] and [[lax morphisms]] for the induced 2-monad).
 
 ### Exponentiability
 
