@@ -357,6 +357,113 @@ In the mentioned application to physics, the [[flux densities]] of a [[higher ga
 \linebreak
 
 
+### Ordinary non-abelian cohomology
+ {#OrdinaryNonabelianCohomology}
+
+For $G$ a [[Hausdorff space|Hausdorff]]-[[topological group]], a *[[principal bundle|principal $G$-bundle]]* $P$ over a base space $X$ is a [[map]] $P \xrightarrow{\;} X$ such that there exists an [[open cover]] $C \coloneqq \coprod_i U_i \overset{\iota}{\twoheadrightarrow} X$ over which $P$ is identified with the trivial fibration $C \!\times\! G$ in a way that the [[fibers]] are identified by $G$-valued [[transition functions]] $g \,:\, C \!\times_X\! C \xrightarrow{\;} G$ on double overlaps of charts, $C \times_X C \,=\, \underset{i,j}{\coprod} \, U_i \cap U_j$:
+
+\begin{imagefromfile}
+    "file_name": "PrncBundlLocTriv-Schematics.jpg",
+    "width": 860,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+These [[transition functions]] clearly satisfy on triple overlaps $C \times_X C \times_X C$ the *Čech cocycle* condition
+
+\begin{imagefromfile}
+    "file_name": "CechCocycle-Schematics.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+and transform under a principal bundle [[isomorphism]] $P \xrightarrow{ \phi } P'$ by the *Čech coboundary* relation
+
+\begin{imagefromfile}
+    "file_name": "CechCoboundary-Schematics.jpg",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+whence the [[isomorphism classes]] of principal bundles map to the *[[Čech cohomology]]* of the base space:
+
+$$
+  \mathrm{Prncpl}G\mathrm{Bndl}(X)_{\!\big/\sim}
+  \xrightarrow{\phanrtom{--} \sim \phantom{--}}
+  H^1\big(X;\, G\big)
+  \,.
+$$
+
+As indicated, this map is in fact a [[bijection]] (for well-behaved $X$, such as [[smooth manifolds]]), as one finds effectively by reading the above construction in reverse.
+
+The outer parts of these diagrams then also show that if we write 
+
+* [[delooping groupoid|$\mathbf{B}G$]] for the Lie groupoid with a single object and $G$ worth of morphisms, 
+
+* [[Cech groupoid|$\widehat X$]] for the Lie groupoid with $C$ as its manifold of objects and $C \!\times_X\! C$ as its manifold of morphisms, 
+
+  for $C \xrightarrow{\iota} X$ a [[good open cover|*good* open cover]] (over which every $G$-bundle trivializes),
+
+then the groupoid of principal $G$-bundles is identified with the groupoid of [[smooth functors]] $g \,\colon\, \widehat{X} \xrightarrow{\;} \mathbf{B}G$ with smooth natural transformations between these:
+
+\begin{imagefromfile}
+    "file_name": "CechCohomology-Schematics.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+A deeper but classical theorem says (cf. [[schreiber:Equivariant principal infinity-bundles|SS25]] [Thm. 4.1.3](https://arxiv.org/pdf/2112.13654#page=171))  that this situation is preserved by the  "[[topological realization]]" of [[Lie groupoids]] to [[topological spaces]]
+$$
+  \left\vert-\right\vert 
+    \,\colon\,
+  SmthGrpd
+  \longrightarrow
+  TopSpc
+$$
+under which a smooth functor $g \,\colon\, \widehat X \xrightarrow{\;} \mathbf{B}G$ becomes a [[continuous map]] $\left\vert g\right\vert \;\colon\; \vert\widehat{X}\vert \xrightarrow{\;}  \vert\mathbf{B}G\vert$ from $\vert\widehat{X}\vert \simeq X$ to the *[[classifying space]]* $B G \,\coloneqq\, \left\vert\mathbf{B}G\right\vert$ -- which still represents isomorphism classes of principal $G$-bundles:
+
+\begin{imagefromfile}
+    "file_name": "PrncBndlToNonabCohomology.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+This is the **ordinary nonabelian cohomology** of $X$.
+
+
+
 
 ## More history
 
