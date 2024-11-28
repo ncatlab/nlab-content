@@ -16,69 +16,70 @@
 
 ## Idea
 
-A **linearly distributive category** is a [[category]] with two [[monoidal structures]] $\otimes$ ("times") and $\invamp$ ("par")  that "distribute" in the sense that there is a map (not necessarily invertible)
+A **linearly distributive category** is a [[category]] with two [[monoidal structures]] $\otimes$ ("times") and $\oplus$ ("par" written as $\invamp$ in linear logic)  that "distribute" in the sense that there is a map (not necessarily invertible)
 
 $$
-   \delta \colon A \otimes (B \parr C) \longrightarrow (A \otimes B) \parr C
+   \delta \colon A \otimes (B \oplus C) \longrightarrow (A \otimes B) \oplus C
 $$
 
 Linearly distributive categories are the "representable" form of [[polycategories]], and they are also what "remains" of a [[star-autonomous category]] when the involution is forgotten but the dual tensor $A\invamp B \coloneqq (A^* \otimes B^*)^*$ is remembered.
 
-Another way to say essentially the same thing is that a $\ast$-autonomous category is like a [[compact closed category]] in which the [[unit]] and [[counit]] of the [[dual objects]] refer to two different tensor products: we have $\top \to A \parr A^*$ but $A^* \otimes A \to \bot$, where $(\otimes,\top)$ and $(\parr,\bot)$ are two different monoidal structures.  A linearly distributive category encodes the necessary relationship between two such monoidal structures such that this makes sense, i.e. such that the [[triangle identities]] can be stated.
+Another way to say essentially the same thing is that a $\ast$-autonomous category is like a [[compact closed category]] in which the [[unit]] and [[counit]] of the [[dual objects]] refer to two different tensor products: we have $\top \to A \oplus A^*$ but $A^* \otimes A \to \bot$, where $(\otimes,\top)$ and $(\oplus,\bot)$ are two different monoidal structures.  A linearly distributive category encodes the necessary relationship between two such monoidal structures such that this makes sense, i.e. such that the [[triangle identities]] can be stated.
 
 ## Definition
 
-A **linearly distributive category** (also called a **weakly distributive category**) is a [[monoidal category]] in two ways, with monoidal structures $(\otimes, \top)$ and $(\parr, \bot)$ equipped with extra associator natural transformations
+A **linearly distributive category** (also called a **weakly distributive category**) is a [[monoidal category]] in two ways, with monoidal structures $(\otimes, \top)$ and $(\oplus, \bot)$ equipped with extra associator natural transformations
 
-\[ \delta^L:A \otimes (B\parr C) \to (A \otimes B) \parr C \]
+\[ \delta^L:A \otimes (B\oplus C) \to (A \otimes B) \oplus C \]
 
-\[ \delta^R:(A \parr B) \otimes C \to A \parr (B \otimes C) \]
+\[ \delta^R:(A \oplus B) \otimes C \to A \oplus (B \otimes C) \]
 
-and the obvious six pentagon equations and four triangle equations that make the monoidal structures work together nicely ([Cockett-Seely 1997](#CockettSeely97)).  (Some of these equations can be interpreted as saying that the $\delta$s are [[tensorial strengths]] for the functors $(A\parr -)$ and $(-\parr C)$ with respect to the $\otimes$ monoidal structure.)  A **symmetric linearly distributive category** is one in which both monoidal structures are symmetric and three squares commute relating the symmetries to the $\delta$s.
+and the obvious six pentagon equations and four triangle equations that make the monoidal structures work together nicely ([Cockett-Seely 1997](#CockettSeely97)).  (Some of these equations can be interpreted as saying that the $\delta$s are [[tensorial strengths]] for the functors $(A\oplus -)$ and $(-\oplus C)$ with respect to the $\otimes$ monoidal structure.)  A **symmetric linearly distributive category** is one in which both monoidal structures are symmetric and three squares commute relating the symmetries to the $\delta$s.
 
 These extra associators are sometimes called "distributors", and should not be confused with [[profunctors]].  The term is a pun on the distributivity of multiplication over addition, but "linearized" so that each variable only appears once in the result.
 
 In a symmetric LDC, the symmetry maps induce the following **permuting** distributivity maps:
-\[ \delta^L_R : A \otimes (B \parr C) \to B \parr (A \otimes C) \]
+\[ \delta^L_R : A \otimes (B \oplus C) \to B \oplus (A \otimes C) \]
  
-\[  \delta^R_L : (B \parr C) \otimes A \to (B \otimes A) \parr C \]
+\[  \delta^R_L : (B \oplus C) \otimes A \to (B \otimes A) \oplus C \]
 
 An LDC which is equipped with all the four linear distributivity maps is said to be **non-planar**.
 
-**Warning:** a [[distributive category]] *cannot* be made into a linearly distributive category with $\otimes = \times$ and $\parr = +$ unless it is a [[partial order]] (but every [[distributive lattice]] is indeed a linearly distributive category) (for a proof, see [Cockett-Seely 1997](#CockettSeely97)).  This mistake is easy to make and even appears in print in one or two places.
+**Warning:** a [[distributive category]] *cannot* be made into a linearly distributive category with $\otimes = \times$ and $\oplus = +$ unless it is a [[partial order]] (but every [[distributive lattice]] is indeed a linearly distributive category) (for a proof, see [Cockett-Seely 1997](#CockettSeely97)).  This mistake is easy to make and even appears in print in one or two places.
 
 ## Examples
 
-* Any [[star-autonomous category]] is linearly distributive, with $A \parr B = (A^* \otimes B^*)^*$.  See that page for many examples of this.
+* Any [[star-autonomous category]] is linearly distributive, with $A \oplus B = (A^* \otimes B^*)^*$.  See that page for many examples of this.
 
-* Any [[distributive lattice]] is linearly distributive, with $A\otimes  B = A\wedge B$ and $A\parr B = A\vee B$.  (This does *not* extend to [[distributive categories]].)
+* Any [[distributive lattice]] is linearly distributive, with $A\otimes  B = A\wedge B$ and $A\oplus B = A\vee B$.  (This does *not* extend to [[distributive categories]].)
 
-* Any monoidal category is linearly distributive trivially with $\parr = \otimes$.
+* Any monoidal category is linearly distributive trivially with $\oplus = \otimes$.
 
-* If $D$ is an [[invertible object]] in a monoidal category, then defining $A\parr B = A\otimes D \otimes B$ yields a linearly distributive structure whose linear distributors are isomorphisms.
+* If $D$ is an [[invertible object]] in a monoidal category, then defining $A\oplus B = A\otimes D \otimes B$ yields a linearly distributive structure whose linear distributors are isomorphisms.
 
 * The category of modules for a [[bialgebra]] in any linearly distributive category (hence, in particular, in any [[star-autonomous category]]) is again linearly distributive.  It is generally only star-autonomous if the bialgebra is a [[Hopf algebra]].
 
 ## Linear functors and transformations
 
-A **linear functor** $F:C\to D$ between linearly distributive categories consists of a pair of functors $F_\otimes, F_\parr$ such that, $F_\otimes$ is a [[lax monoidal functor]] with respect to $\otimes$, $F_\parr$ is a [[colax monoidal functor]] with respect to $\parr$, and there are "linear strengths"
+A **linear functor** $F:C\to D$ between linearly distributive categories consists of a pair of functors $F_\otimes, F_\oplus$ such that, $F_\otimes$ is a [[lax monoidal functor]] with respect to $\otimes$, $F_\oplus$ is a [[colax monoidal functor]] with respect to $\oplus$, and there are "linear strengths"
 
-$$ F_\otimes (A\parr B) \to F_\parr(A) \parr F_\otimes (B) $$
+$$ F_\otimes (A\oplus B) \to F_\oplus(A) \oplus F_\otimes (B) $$
 
-$$ F_\otimes (A\parr B) \to F_\otimes(A) \parr F_\parr(B) $$
+$$ F_\otimes (A\oplus B) \to F_\otimes(A) \oplus F_\oplus(B) $$
 
-$$ F_\otimes (A) \otimes F_\parr(B) \to F_\parr(A\otimes B)$$
+$$ F_\otimes (A) \otimes F_\oplus(B) \to F_\oplus(A\otimes B)$$
 
-$$ F_\parr (A) \otimes F_\otimes(B) \to F_\parr(A\otimes B)$$
+$$ F_\oplus (A) \otimes F_\otimes(B) \to F_\oplus(A\otimes B)$$
 
-satisfying appropriate coherence conditions ([Cockett-Seely 1999](#CockettSeely99)).  A **linear natural transformation** $\alpha: F\to G$ consists of a monoidal transformations $\alpha_\otimes: F_\otimes \to G_\otimes$  and $\alpha_\parr: G_\parr \to F_\parr$ satisfying further coherence conditions.  This defines a 2-category of linearly distributive categories, which has the property of embedding the 2-category of $\ast$-autonomous categories and arbitrary lax monoidal functors (see below).
+satisfying appropriate coherence conditions ([Cockett-Seely 1999](#CockettSeely99)).  A **linear natural transformation** $\alpha: F\to G$ consists of a monoidal transformations $\alpha_\otimes: F_\otimes \to G_\otimes$  and $\alpha_\oplus: G_\oplus \to F_\oplus$ satisfying further coherence conditions.  This defines a 2-category of linearly distributive categories, which has the property of embedding the 2-category of $\ast$-autonomous categories and arbitrary lax monoidal functors (see below).
 
-On the other hand, a linear functor in this sense is more general than a functor between underlying [[polycategories]] (see below).  The latter probably coincide with linear functors having the property that $F_\otimes = F_\parr$ as functors (so that the same functor $F$ is $\otimes$-lax monoidal and $\parr$-colax monoidal) and the linear strengths are identities.  We might call these **Frobenius linear functors**, since such a $1\to C$ is the same as a [[Frobenius algebra]] in $C$, and when specialized to the monoidal case $\otimes=\parr$ they coincide with [[Frobenius monoidal functors]].
+On the other hand, a linear functor in this sense is more general than a functor between underlying [[polycategories]] (see below).  The latter probably coincide with linear functors having the property that $F_\otimes = F_\oplus$ as functors (so that the same functor $F$ is $\otimes$-lax monoidal and $\oplus$-colax monoidal) and the linear strengths are identities.  We might call these **Frobenius linear functors**, since such a $1\to C$ is the same as a [[Frobenius algebra]] in $C$, and when specialized to the monoidal case $\otimes=\oplus$ they coincide with [[Frobenius monoidal functors]].
 
 Yet stronger is the notion of *strong* Frobenius linear functor, in which the lax and colax monoidal structures are [[strong monoidal functor|strong]].
 
 
 ## Related structures
+
 
 ### Mix, isomix and compact linearly distributive categories
 
@@ -87,16 +88,42 @@ There are a series of structural steps by which linearly distributive categories
 \begin{center}
 \begin{imagefromfile}
         "file_name": "LDC_schematic.jpg",
-        "width": 300,
+        "width": 600,
         "unit": "px"
 \end{imagefromfile}
 \end{center}
  
+A **mix category** is an LDC with a **mix map** ${ m}:\bot\to\top$, and a  such that:
 
+1) The following diagram commutes
+
+\begin{tikzcd}
+	{A \otimes B} & {A \otimes(\bot \oplus B)} & {(A \otimes \bot) \oplus B} \\
+	{(A \oplus \bot) \otimes B} && {(A  \otimes \top) \oplus B} \\
+	{A \oplus ( \bot \otimes B)} & {A \oplus ( \top \otimes B)} & {A \oplus B}
+	\arrow["\simeq", from=1-1, to=1-2]
+	\arrow["\simeq"', from=1-1, to=2-1]
+	\arrow["{{mx} := }"{description}, dashed, from=1-1, to=3-3]
+	\arrow["{\delta^L}", from=1-2, to=1-3]
+	\arrow["{A \otimes {m} \oplus B}", from=1-3, to=2-3]
+	\arrow["{\delta^R}"', from=2-1, to=3-1]
+	\arrow["\simeq", from=2-3, to=3-3]
+	\arrow["{A \oplus {m} \otimes B}"', from=3-1, to=3-2]
+	\arrow["\simeq"', from=3-2, to=3-3]
+\end{tikzcd}
+
+
+2) The map, $\mx_{A,B}: A \otimes B \to A \oplus B$, called the mixor is natural in both the arguments.
+
+An **isomix category** is a mix category in which the mix map is a natural isomorphism, $m: \bot \simeq \top$.
+
+In an isomix category, the mixor is automatically a natural transformation. The mix map being an isomorphism does not imply that the mixor is a natural isomorphism.
+
+An isomix category in which the mixor is a natural isomorphism is a **compact LDC**. The term "compact" here refers to the fact that both the monoidal structures are isomorphic. All compact LDCs are linearly equivalent to the underlying monoidal categories on the tensor $\otimes$ and the par $\oplus$.
 
 ### Star-autonomous category
 
-Any [[star-autonomous category]] has an underlying symmetric linearly distributive category where we define $A\parr B \coloneqq (A^* \otimes B^*)^*$, or equivalently $A\parr B \coloneqq A^* \multimap B$, where $\multimap$ is the internal-hom.  The left distributor, for instance, is obtained as follows:
+Any [[star-autonomous category]] has an underlying symmetric linearly distributive category where we define $A\oplus B \coloneqq (A^* \otimes B^*)^*$, or equivalently $A\oplus B \coloneqq A^* \multimap B$, where $\multimap$ is the internal-hom.  The left distributor, for instance, is obtained as follows:
 $$\array{\arrayopts{\rowlines{solid}}
 \array{\arrayopts{\rowlines{solid}}
 (A\otimes B)^* \longrightarrow (A\otimes B)^* \\
@@ -109,17 +136,17 @@ A \otimes (A\otimes B)^* \longrightarrow (B^* \multimap C) \multimap C \\
 A\otimes (B^*\multimap C) \longrightarrow (A \otimes B)^* \multimap C
 }$$
 
-Conversely, we say that a symmetric linearly distributive category with monoidal structures $(\otimes,\top)$ and $(\parr,\bot)$ has a **negation** if every object $A$ has a [[dualizable object|dual]] $\neg A$ and arrows
+Conversely, we say that a symmetric linearly distributive category with monoidal structures $(\otimes,\top)$ and $(\oplus,\bot)$ has a **negation** if every object $A$ has a [[dualizable object|dual]] $\neg A$ and arrows
 
-$$\top \to A \parr \neg A, \qquad \neg A \otimes A \to \bot$$ 
+$$\top \to A \oplus \neg A, \qquad \neg A \otimes A \to \bot$$ 
 
 subject to triangular equations 
 
-$$1_A = \left( A \cong \top \otimes A \to (A \parr \neg A) \otimes A \stackrel{dist}{\to} A \parr (\neg A \otimes A) \to A \parr \bot \cong A \right)$$ 
+$$1_A = \left( A \cong \top \otimes A \to (A \oplus \neg A) \otimes A \stackrel{dist}{\to} A \oplus (\neg A \otimes A) \to A \oplus \bot \cong A \right)$$ 
 
 $$\,$$ 
 
-$$1_{\neg A} = \left( \neg A \cong \neg A \otimes \top \to \neg A \otimes (A \parr \neg A) \stackrel{dist}{\to} (\neg A \otimes A) \parr \neg A \to \bot \parr \neg A \cong \neg A \right).$$ 
+$$1_{\neg A} = \left( \neg A \cong \neg A \otimes \top \to \neg A \otimes (A \oplus \neg A) \stackrel{dist}{\to} (\neg A \otimes A) \oplus \neg A \to \bot \oplus \neg A \cong \neg A \right).$$ 
 
 Then symmetric linearly distributive categories with negations are the same as $\ast$-autonomous categories; see ([Cockett-Seely 1997](#CockettSeely97)).  Moreover:
 
@@ -132,17 +159,17 @@ Then symmetric linearly distributive categories with negations are the same as $
 
 ### Polycategories
 
-Any linearly distributive category has an underlying [[polycategory]] where we define $Hom(A_1,\dots,A_n; B_1,\dots,B_m)$ to be $Hom(A_1\otimes \cdots \otimes A_n; B_1 \parr \cdots \parr B_m)$.
+Any linearly distributive category has an underlying [[polycategory]] where we define $Hom(A_1,\dots,A_n; B_1,\dots,B_m)$ to be $Hom(A_1\otimes \cdots \otimes A_n; B_1 \oplus \cdots \oplus B_m)$.
 The polycategorical compositions are obtained using the distributors.  For instance, we should be able to compose $f:(A,B) \to (C,D,E)$ with $g:(F,D,G) \to H$ to get $g\circ f : (F,A,B,G) \to (C,H,E)$; in a linearly distributive category this is the composite
 $$\begin{aligned}
   F\otimes (A\otimes B)\otimes G
-  &\xrightarrow{1_F\otimes f\otimes 1_G} F\otimes (C\parr D\parr E)\otimes G\\
-  &\xrightarrow{\delta} ((F\otimes (C\parr D)) \parr E)\otimes G\\
-  &\xrightarrow{\delta} ((C\parr (F\otimes D)) \parr E)\otimes G\\
-  &\xrightarrow{\cong} ((C\parr E) \parr (F\otimes D))\otimes G\\
-  &\xrightarrow{\delta} (C\parr E) \parr ((F\otimes D)\otimes G)\\
-  &\xrightarrow{1_{C\parr E}\parr g} (C\parr E) \parr H\\
-  &\xrightarrow{\cong} C\parr H\parr E
+  &\xrightarrow{1_F\otimes f\otimes 1_G} F\otimes (C\oplus D\oplus E)\otimes G\\
+  &\xrightarrow{\delta} ((F\otimes (C\oplus D)) \oplus E)\otimes G\\
+  &\xrightarrow{\delta} ((C\oplus (F\otimes D)) \oplus E)\otimes G\\
+  &\xrightarrow{\cong} ((C\oplus E) \oplus (F\otimes D))\otimes G\\
+  &\xrightarrow{\delta} (C\oplus E) \oplus ((F\otimes D)\otimes G)\\
+  &\xrightarrow{1_{C\oplus E}\oplus g} (C\oplus E) \oplus H\\
+  &\xrightarrow{\cong} C\oplus H\oplus E
 \end{aligned}$$
 Conversely, a polycategory that is suitably "representable" yields a linearly distributive category.  Also, the forgetful functor from linearly distributive categories and *strong Frobenius* linear functors to polycategories has a left adjoint ([Cockett-Seely 1997](#CockettSeely97)).
 
@@ -151,7 +178,7 @@ Conversely, a polycategory that is suitably "representable" yields a linearly di
 
 Any [[symmetric monoidal category]] becomes a linearly distributive category in which both monoidal structures are the same; all the required structure and coherence conditions follow straight from coherence for symmetric monoidal categories.  Note that such examples are almost never [[star-autonomous]].
 
-These examples satisfy the extra property that the distributors $\delta$ are [[isomorphisms]].  However, not every linearly distributive category in which the distributors are isomorphisms are of this form; the rest are "shifted monoidal categories" in which $A \parr B \coloneqq A \otimes \bot^{-1} \otimes B$, where $\bot$ is a chosen $\otimes$-invertible object.
+These examples satisfy the extra property that the distributors $\delta$ are [[isomorphisms]].  However, not every linearly distributive category in which the distributors are isomorphisms are of this form; the rest are "shifted monoidal categories" in which $A \oplus B \coloneqq A \otimes \bot^{-1} \otimes B$, where $\bot$ is a chosen $\otimes$-invertible object.
 
 ### Linear bicategories
 
@@ -170,7 +197,7 @@ Linearly distributive categories that are both closed and co-closed can be ident
 A key feature of linearly distributive categories is the existence of [[morphisms]] of the form
 
 $$
-   \delta \colon A \otimes (B \parr C) \longrightarrow (A \otimes B) \parr C
+   \delta \colon A \otimes (B \oplus C) \longrightarrow (A \otimes B) \oplus C
 $$
 
 which exhibit linear [[distributivity]].  The importance of this map had previously  been overlooked in the [[linear logic]] community due to the (continuing) tendency to write [[sequents]]  in a one-sided manner.  However, the importance of the map was eventually realized by a number of people, albeit usually in the case of [[posets]]. [Cockett-Seely 1997](#CockettSeely97) referred to [Lambek 1993](#Lambek93) for a survey of some of those developments.
