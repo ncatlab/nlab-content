@@ -29,9 +29,9 @@ In [[quantum physics]] this is often considered for the [[Hamiltonian operator]]
 
 Moreover, often the term is by default understood as referring to a gap above the [[ground state]], hence such that the only energy [[eigenvalue]] smaller than all $E \in I$ is that of the ground state (typically taken to be [[zero]]).
 
-While spectral gaps are ubiquituous in single-atom quantum systems (cf. the famous discrete energy levels of the [[hydrogen atom]]) they tend to disappear in the [[thermodynamic limit]] when [[quantum many-body physics|many atoms]] are brought close together, whereby their energy level fuse into continuous [[energy bands]].
+While spectral gaps are ubiquituous in single-atom quantum systems (cf. the famous discrete energy levels of the [[hydrogen atom]]) they tend to disappear in the [[thermodynamic limit]] when [[quantum many-body physics|many atoms]] are brought close together, whereby their energy levels fuse into continuous [[energy bands]].
 
-For this reason, in [[condensed matter theory]] "[[gapped Hamiltonians]]" are the exception, not the rule (cf. also *[[topological phases of matter]]*).
+For this reason, in [[condensed matter theory]] "[[gapped Hamiltonians]]" are the remarkable exception, not the rule (cf. also *[[topological phases of matter]]*).
 
 
 ## Related concepts
