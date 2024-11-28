@@ -39,7 +39,7 @@ If $g_1 : X \to A_1$ and $g_2 : X \to A_2$ are two cocycles in $\mathbf{H}(X,A_1
 
 $$
   g_1 \cdot g_2   
-  \;\coloneq\; 
+  \;\coloneqq\; 
   X \stackrel{(id,id)}{\longrightarrow}
   X \times X
   \stackrel{g_1 \times g_2}{\to}
