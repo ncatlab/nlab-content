@@ -209,7 +209,7 @@ This is summarized in the following table:
  {#HigherGaugeFields}
 
 
-Beyond the [[prequantum n-bundles]] involved in any [[extended prequantum field theory]], there are various [[theory (physics)|theories]]in physics that involve [[field (physics)|fields]] which themselves are already given by higher geometric structure, notably [[higher gauge fields]] given by [[connection on an infinity-bundle|higher connections]] on [[principal infinity-bundle|higher principal bundles]]. These arise notably in higher dimensional [[supergravity]] [[theory (physics)|theories]] and their [[UV-completion]]: [[string theory]]. 
+Beyond the [[prequantum n-bundles]] involved in any [[extended prequantum field theory]], there are various [[theory (physics)|theories]] in physics that involve [[field (physics)|fields]] which themselves are already given by higher geometric structure, notably [[higher gauge fields]] given by [[connection on an infinity-bundle|higher connections]] on [[principal infinity-bundle|higher principal bundles]]. These arise notably in higher dimensional [[supergravity]] [[theory (physics)|theories]] and their [[UV-completion]]: [[string theory]]. 
 
 The first example along these lines is the [[Kalb-Ramond field]] or [[B-field]], which is a higher order version of the [[electromagnetic field]]. In order to fully capture the nature of these fields, one needs to describe them in higher geometry. Notably [[quantum anomaly]] cancellation conditions can lead to fairly intricate structures of the [[moduli infinity-stacks]] of such fields. For instance anomaly-free [[heterotic string theory|heterotic]]  [[background gauge fields]] are given by moduli 2-stacks of [[twisted differential string structures]]. 
 
