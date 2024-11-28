@@ -56,8 +56,7 @@ Review:
 
 * [[Taro Kimura]], *Seiberg–Witten Geometry*, Chapter 4 in: *Instanton Counting, Quantum Geometry and Algebra*, Mathematical Physics Studies, Springer (2021) &lbrack;[doi:10.1007/978-3-030-76190-5_4](https://doi.org/10.1007/978-3-030-76190-5_4)&rbrack;
 
-
-* J&#252;rgen Einhorn, Thomas Friedrich, _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
+* Jürgen Einhorn, Thomas Friedrich, _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
 
 * [[Simon Donaldson]], _The Seiberg-Witten equations and 4-manifold topology_ ([pdf](http://www.ams.org/journals/bull/1996-33-01/S0273-0979-96-00625-8/S0273-0979-96-00625-8.pdf))
 
@@ -65,6 +64,8 @@ Review:
 * [[Matilde Marcolli]], _Seiberg-Witten gauge theory_, [pdf](http://www.its.caltech.edu/~matilde/swcosi.pdf)
 
 * piljin yi, _Seiberg-Witten theory -- with a view toward MQCD_ ([pdf](http://newton.kias.re.kr/~piljin/public_html/thesis/SW-MQCD.pdf&#8206;))
+
+* [[Yuji Tachikawa]], *$\mathcal{N}=2$ supersymmetric dynamics for pedestrians*, Lecture Notes in Physics **890** (2014) &lbrack;[arXiv:1312.2684](https://arxiv.org/abs/1312.2684), [doi:10.1007/978-3-319-08822-8](https://link.springer.com/book/10.1007%2F978-3-319-08822-8), also "...for dummies": [webpage](http://www-hep.phys.s.u-tokyo.ac.jp/~yujitach/tmp/dummies/dummies.html#dummiesse7.html), [pdf](https://member.ipmu.jp/yuji.tachikawa/lectures/dummies/dummies2.pdf)&rbrack;
 
 
 * Wikipedia, _[Seiberg-Witten invariants](https://en.wikipedia.org/wiki/Seiberg-Witten_invariant)_
