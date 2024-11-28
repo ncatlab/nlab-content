@@ -16,8 +16,8 @@ On [[5-brane webs]] and [[D=4 N=2 super Yang-Mills theory]]:
 
 On [[D=4 N=2 super Yang-Mills theory]]:
 
+* [[Yuji Tachikawa]], *$\mathcal{N}=2$ supersymmetric dynamics for pedestrians*, Lecture Notes in Physics **890** (2014) &lbrack;[arXiv:1312.2684](https://arxiv.org/abs/1312.2684), [doi:10.1007/978-3-319-08822-8](https://link.springer.com/book/10.1007%2F978-3-319-08822-8), also "...for dummies": [webpage](http://www-hep.phys.s.u-tokyo.ac.jp/~yujitach/tmp/dummies/dummies.html#dummiesse7.html), [pdf](https://member.ipmu.jp/yuji.tachikawa/lectures/dummies/dummies2.pdf)&rbrack;
 
-* [[Yuji Tachikawa]], *$\mathcal{N}=2$ supersymmetric dynamics for pedestrians*, Lecture Notes in Physics, vol. 890, 2014 ([arXiv:1312.2684](https://arxiv.org/abs/1312.2684), [doi:10.1007/978-3-319-08822-8](https://link.springer.com/book/10.1007%2F978-3-319-08822-8), [web version](http://www-hep.phys.s.u-tokyo.ac.jp/~yujitach/tmp/dummies/dummies.html#dummiesse7.html))
 
 
 
