@@ -23,48 +23,74 @@
 For $G$ a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$, a $G$-[[principal bundle]] $P \to X$ on a [[smooth manifold]] $X$ induces a collection of classes in the [[de Rham cohomology]] of $X$: the classes of the [[curvature characteristic form]]s 
 
 $$
-  \langle F_A \wedge \cdots F_A \rangle \in \Omega^{2n}_{closed}(X)
+  \langle F_A \wedge \cdots \wedge F_A \rangle 
+    \;\in\; 
+  \Omega^{2n}_{clsd}(X)
 $$ 
 
-of the [[curvature]] 2-form $F_A \in \Omega^2(P, \mathfrak{g})$ of any [[connection on a bundle|connection]] on $P$, and for each [[invariant polynomial]] $\langle -\rangle$ of arity $n$ on $\mathfrak{g}$.
+of the [[curvature]] [[differential 2-form|2-form]] $F_A \in \Omega^2(P, \mathfrak{g})$ of any [[connection on a bundle|connection]] on $P$, and for each [[invariant polynomial]] $\langle -\rangle$ of arity $n$ on $\mathfrak{g}$.
 
 This is a map from the first [[nonabelian cohomology]] of $X$ with coefficients in $G$ to the [[de Rham cohomology]] of $X$
 
 $$
-  char : H^1(X,G) \to \prod_{n_i} H_{dR}^{2 n_i}(X)
+  char 
+  \;\colon\; 
+  H^1(X,G) 
+    \longrightarrow 
+  \textstyle{\prod_{n_i}} H_{dR}^{2 n_i}(X)
+  \,,
 $$
 
-where $i$ runs over a set of generators of the invariant polynomials. This is the analogy in [[nonabelian cohomology|nonabelian]] [[differential cohomology]] of the generalized [[Chern character]] map in [[generalized (Eilenberg-Steenrod) cohomology|generalized Eilenberg-Steenrod]]-[[differential cohomology]].
+where $i$ runs over a set of generators of the [[invariant polynomials]]. This is the analogue in ordinary [[nonabelian cohomology|nonabelian]] [[differential cohomology]] of the generalized [[Chern character]] map in [[generalized (Eilenberg-Steenrod) cohomology|generalized Eilenberg-Steenrod]]-[[differential cohomology]].
 
 
 ## Plain Chern-Weil homomorphism
 
-This subsection is to give an outline of construction of Weil homomorphism as in  [Kobayashi-Nomizu 63](#KobayashiNomizu63)
+We give an outline of construction of Weil homomorphism following [Kobayashi & Nomizu 1963](#KobayashiNomizu63).
 
- Let $G$ be a [[Lie group]] and $\mathfrak{g}$ be its [[Lie algebra]]. Given an element $g\in G$, the adjoint map   $Ad(g):G\rightarrow G$  is defined as $Ad(g)(h)=ghg^{-1}$. For $g\in G$, let $ad(g):\mathfrak{g}\rightarrow \mathfrak{g}$ be the differential of $Ad(g):G\rightarrow G$ at $e\in G$. 
+\linebreak
+
+ Let $G$ be a [[Lie group]] and $\mathfrak{g}$ be its [[Lie algebra]]. Given an element $g\in G$, the [[adjoint action]]   $Ad(g) \,\colon\, G \longrightarrow G$  is defined as $Ad(g)(h)=g  h g^{-1}$. For $g\in G$, let $ad(g) \,\colon\,\mathfrak{g}\rightarrow \mathfrak{g}$ be the differential of $Ad(g) \,\colon\, G\rightarrow G$ at $e\in G$. 
 
  Let $I^k(G)$ denote the set of symmetric, multilinear maps 
 $$
-f:\underbrace{\mathfrak{g}\times\cdots\times\mathfrak{g}}_{k ~\text{times}}\rightarrow \mathbb{R}
+  f  
+  \,\colon\,
+  \underset{
+    k \; \text{factors}
+  }{
+    \underbrace{
+      \mathfrak{g}\times\cdots\times\mathfrak{g}
+    }
+  }
+   \longrightarrow 
+  \mathbb{R}
 $$
-that are $G$ invariant in the sense that 
-$f(ad(g)(t_1),\cdots,ad(g)(t_k))=f(t_1,\cdots,t_k)$
- for all $g\in G$ and $t_i\in \mathfrak{g}$. These $I^k(G)$ are vector spaces over $\mathbb{R}$. Let $I(G)$ denote the $\mathbb{R}$ algebra $\oplus_{k=0}^{\infty}I^k(G)$.
+that are $G$-invariant in that 
+$$
+  f\big(
+    ad(g)(t_1),\cdots,ad(g)(t_k)
+  \big) 
+  \;=\; 
+  f(t_1,\cdots,t_k)
+$$
+for all $g\in G$ and $t_i\in \mathfrak{g}$. These $I^k(G)$ are [[real vector spaces]]. Let $I(G)$ denote the $\mathbb{R}$ algebra $\oplus_{k=0}^{\infty}I^k(G)$.
 
-Let $M$ be a manifold and $H^*(M,\mathbb{R})$ be the deRham cohomology ring of $M$. 
+Let $M$ be a [[smooth manifold]] and $H^*(M,\mathbb{R})$ be the deRham cohomology ring of $M$. 
 
-Given a principal $G$ bundle over $M$, say $\pi:P\rightarrow M$, Weil homomorphism gives a homomorphism $I(G)\rightarrow H^*(M,\mathbb{R})$. Though it does not depend on connection on $P(M,G)$, the construction of this map is done after fixing a connection on $P(M,G)$.  Outline of the construction is as follows. 
+Given a $G$-[[principal bundle]] over $M$, say $\pi \colon P\rightarrow M$, the Weil homomorphism gives a homomorphism $I(G)\rightarrow H^*(M,\mathbb{R})$. Though it does not depend on connection on $P(M,G)$, the construction of this map is done after fixing a connection on $P(M,G)$.  Outline of the construction is as follows:
 
 1. Fix a connection $\Gamma$ on $P(M,G)$. Let $\Omega$ denote the curvature of $\Gamma$.
 
-2. Given an element $f\in I^k(G)$, define  a $2k$-form $f(\Omega)$on $P$.
-\item Prove that the $2k$ form $f(\Omega)$ on $P$ projects uniquely to a $2k$ form on $M$ and call it $\tilde{f}(\Omega)$ i.e., $\pi^*(\tilde{f}(\Omega))=f(\Omega)$.
+2. Given an element $f\in I^k(G)$, define a $2k$-form $f(\Omega)$ on $P$.
+
+   Prove that the $2k$ form $f(\Omega)$ on $P$ projects uniquely to a $2k$ form on $M$ and call it $\tilde{f}(\Omega)$ i.e., $\pi^*\big(\tilde{f}(\Omega)\big) = f(\Omega)$.
 
 3.  Next step is to prove that $\tilde{f}(\Omega)$ is closed $2k$ form on $M$.  To prove $\tilde{f}(\Omega)$ is closed, it suffices to prove that $f(\Omega)$ is closed. 
 
-4. For a **special** $k$-form $\varphi$ on $P$, the exterior differential $d\varphi$ coincides with the exterior covariant differential $D\varphi$ of $\varphi$ i.e., $d\varphi=D\varphi$. That **special** property is  that $\varphi=\pi^*\sigma $ for some $k$-form $\sigma$ on $M$.
+4. For a **special** $k$-form $\varphi$ on $P$, the [[exterior differential]] $d\varphi$ coincides with the exterior covariant differential $D\varphi$ of $\varphi$ i.e., $d\varphi=D\varphi$. That **special** property is  that $\varphi=\pi^*\sigma $ for some $k$-form $\sigma$ on $M$.
 
-5. As $f(\Omega)$ has that **special** property, we see that $d(f(\Omega))=D(f(\Omega))$.
+5. As $f(\Omega)$ has that **special** property, we see that $d\big(f(\Omega)\big) = D\big(f(\Omega)\big)$.
 
 6. By Bianchi's identity, we have $D\Omega=0$. We then see that $D\Omega=0$ implies that $D(f(\Omega))=0$   i.e., $d(f(\Omega))=D(f(\Omega))=0$ for $f\in I^k(G)$ i.e., $f(\Omega)$ is a closed $2k$-form on $P$. Thus, $\tilde{f}(\Omega)$ is a closed $2k$-form on $M$, giving an element in the deRham cohomology $H^{2k}(M,\mathbb{R})$.
 
@@ -75,7 +101,7 @@ $f(\Omega_0)-f(\Omega_1)=d \Phi$ for some $2k-1$ form $\Phi$ on $P$ that project
 
 9. We then see that $f(\Omega_0)-f(\Omega_1)=d \Phi$ for some $2k-1$ form $\Phi$ on $P$ that projects to a unique $2k-1$ form $\tilde{\Phi}$ on $M$. This confirm that the assignment $f\mapsto f(\Omega)$ is independent of the connection $\Gamma$ that we have started with. We can extend this linearly to $I(G)\rightarrow H^*(M,\mathbb{R})$.
 
- Given a principal bundle $\pi:P\rightarrow M$ the morphism  defined above $I(G)\rightarrow H^*(M,\mathbb{R})$ is called the Weil homomorphism.
+ Given a principal bundle $\pi \,\colon\, P\rightarrow M$ the morphism  defined above $I(G)\rightarrow H^*(M,\mathbb{R})$ is called the Weil homomorphism.
 
 
 ## Refined Chern–Weil homomorphism
