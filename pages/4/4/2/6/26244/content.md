@@ -80,7 +80,7 @@ The functor
 $$Fun(K,F): Fun(K,C)\to Fun(K,B)$$
 is a functor between ∞-categories that need not preserve weak equivalences.
 
-Now comes the (potentially) creative part: equip the relative ∞-categories $Fun(K,C) and Fun(K,B)$
+Now comes the (potentially) creative part: equip the relative ∞-categories $Fun(K,C)$ and $Fun(K,B)$
 with model structures such that $Fun(K,F)$ is a right Quillen functor.
 In many situations of interest this can be done immediately using existing tools.
 
