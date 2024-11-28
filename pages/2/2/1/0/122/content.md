@@ -327,4 +327,6 @@ See also *[[category theory#references|category theory - references]]*.
 [[!redirects natural map]]
 [[!redirects natural maps]]
 
+[[!redirects internal natural transformation]]
+[[!redirects internal natural transformations]]
 
