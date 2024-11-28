@@ -143,19 +143,21 @@ Note that if $s \subseteq t$ is an inclusion of simplices in $K$, then there is 
 
 If a topological space can be described up to homeomorphism as the geometric realization of a simplicial complex, we say it is **triangulable**, and a **triangulation** of a space $X$ is a simplicial complex $K$ together with a homeomorphism $h: |K| \to X$. (This is discussed in a bit more detail in the entry on [[classical triangulation]]. 
 
-There is another stronger notion of triangulation used by geometric topologists: a **piecewise-linear (PL) structure** on a [[topological manifold]] $X$ is given by a [[manifold|PL atlas]], where the transition functions are piecewise-linear homeomorphisms. (A homeomorphism $U \to V$ is **piecewise linear** if its graph is the intersection of $U \times V$ with a semilinear set $S$, meaning that $S$ is given by a finite Boolean combination of solution sets of linear inequalities.)  
+There is another stronger notion of triangulable used by geometric topologists: a **piecewise-linear (PL) structure** on a [[topological manifold]] $X$ is given by a [[manifold|PL atlas]], where the transition functions are piecewise-linear homeomorphisms. (A homeomorphism $U \to V$ is **piecewise linear** if its graph is the intersection of $U \times V$ with a semilinear set $S$, meaning that $S$ is given by a finite Boolean combination of solution sets of linear inequalities.) A triangulation is then called compatible, if $h: |K| \to X$ is piecewise linear. Every PL manifold admits a compatible triangulation.
 
 
 
 #### Examples from manifold theory
 
-* All [[manifold|smooth manifolds]] are triangulable and, in fact, admit PL structures. 
+* All [[manifold|smooth manifolds]] are triangulable and, in fact, admit canonical PL structures. 
 
 * All topological manifolds in dimensions 2 and 3 admit PL structures, and are in fact smoothable (admit a smooth manifold structure). 
 
 * The $E_8$ [[E8 manifold|manifold]] does not admit a triangulation, much less a PL structure. 
 
-* In dimensions $n \geq 5$, the $(n-2)$-fold suspension of the [[Poincaré sphere]] is homeomorphic to the $n$-sphere, hence is triangulable, but it does not admit a PL structure. 
+* In dimensions $n \geq 5$, the $(n-2)$-fold suspension of the [[Poincaré sphere]] is homeomorphic to the $n$-sphere. A triangulation on the Poincaré sphere then defines a triangulation on the suspension, which is not compatible with any PL structure on the $n$-sphere.
+
+* The manifold $E_8 \times T^k$ is triangulable for $k \geq 1$ but does not admit a PL structure.
 
 #### Relation to simplicial sets
 
