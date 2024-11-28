@@ -63,6 +63,8 @@ This is a "functional" definition, which generalizes correctly to other contexts
 
 ## Generalizations
 
+### In 2-categories
+
 The definition given above generalizes directly to squares inhabited by a 2-cell in any [[2-category]], and any suitable notion of "(pointwise) Kan extension" which may exist along morphisms in that 2-category.  This includes:
 
 * Internal [[pointwise Kan extension]]s in any [[2-category]] with finite [[2-limits]].
@@ -72,6 +74,35 @@ The definition given above generalizes directly to squares inhabited by a 2-cell
 
 The combinatorial characterization of exact squares has a corresponding version for any of these generalizations, although in different cases it will be more or less explicit.
 
+### In double categories
+
+The notion of exact 2-cell in a 2-category further generalizes to the notion of exact cell in a double category. A cell $\phi$,
+
+\begin{tikzcd}[sep=small]
+	A && B \\
+	& \phi \\
+	C && D
+	\arrow["J", "\shortmid"{marking}, from=1-1, to=1-3]
+	\arrow["f"', from=1-1, to=3-1]
+	\arrow["g", from=1-3, to=3-3]
+	\arrow["K"', "\shortmid"{marking}, from=3-1, to=3-3]
+\end{tikzcd}
+
+is (pointwise, right) exact, if and only if, for any cell
+
+\begin{tikzcd}[sep=small]
+	C && D \\
+	& \epsilon \\
+	M && M
+	\arrow["K", "\shortmid"{marking}, from=1-1, to=1-3]
+	\arrow["r"', from=1-1, to=3-1]
+	\arrow["d", from=1-3, to=3-3]
+	\arrow[Rightarrow, no head, from=3-1, to=3-3]
+\end{tikzcd}
+
+witnessing $r$ as the right Kan extension of $d$ along $K$, the composite cell $\epsilon \circ \phi$ witnesses $r \circ f$ as the right Kan extension of $g \circ f$ along $J$.
+
+If the companions of $f$ and $g$ exist, such a cell is exact just when the canonical cell $J \odot g_{*} \Rightarrow f_{*} \odot K$. See Section 4 of [Koudenburg 2014](#Koudenburg2014) for more details.
 
 ## Examples
 
@@ -189,10 +220,14 @@ Hence it is an isomorphism if and only if $y_! x^* \to w_! z^*$ is an isomorphis
 While this argument does not generalize to general enriched categories and proarrow equipments, it does generalize in a different direction.  The notion of [[derivator]] is essentially designed exactly so that this argument works, up until the last step: in a general derivator, colimits of constant diagrams may depend on more (or less) than the set of connected components of the domain.  For instance, in the derivator of [[∞-groupoids]], the colimit of a constant diagram is a copower with the [[nerve]] of the domain category, a finer invariant than its $\pi_0$.  It is a theorem of Cisinski that this is the finest possible: colimits of constant diagrams in a derivator never depend on anything more than the nerve of the domain.  Therefore, this yields a characterization of the [[homotopy exact squares]] for computing [[homotopy Kan extensions]] in derivators: the squares where the functor $(b/A/c) \to D(v(b),g(c))$ induces a weak equivalence of nerves.
 
 
-##References
+## References
 
 Some of the early theory is in
 
 * [[René Guitart]], _Relations et carrés exacts,_ Ann. Sc. Math. Qué., juillet 1980, vol. IV, N° 2, p. 103-125.
+
+For double categories, see Section 4 of
+
+* {#Koudenburg2014} [[Seerp Roald Koudenburg]], _On pointwise Kan extensions in double categories_, Theory and Applications of Categories, Vol. 29, 2014, No. 27, pp 781-818. 
 
 [[!redirects exact squares]]
