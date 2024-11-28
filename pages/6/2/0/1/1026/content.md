@@ -1,4 +1,7 @@
 
+> This page is about plain [[functors]] preserving [[limits]]. For [[internal functors]] in [[Top]], hence between [[topological groupoids]], see there.
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
