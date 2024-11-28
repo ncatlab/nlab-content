@@ -521,7 +521,7 @@ The origin of the notion:
 
   > "Nor are there persuasive theoretical arguments indicating that commercially viable applications will be found that do not use quantum error-correcting codes and fault-tolerant quantum computing."
 
-* Torsten Hoefler, Thomas Haener, [[Matthias Troyer]], *Disentangling Hype from Practicality: On Realistically Achieving Quantum Advantage*, Communications of the ACM **66**  5 (May 2023) 82-87 &lbrack;[arXiv:2307.00523](https://arxiv.org/abs/2307.00523), [acm pdf](https://dl.acm.org/doi/pdf/10.1145/3571725), [doi:10.1145/3571725](https://doi.org/10.1145/3571725)&rbrack;
+* {#HHT23} Torsten Hoefler, Thomas Haener, [[Matthias Troyer]], *Disentangling Hype from Practicality: On Realistically Achieving Quantum Advantage*, Communications of the ACM **66**  5 (May 2023) 82-87 &lbrack;[arXiv:2307.00523](https://arxiv.org/abs/2307.00523), [acm pdf](https://dl.acm.org/doi/pdf/10.1145/3571725), [doi:10.1145/3571725](https://doi.org/10.1145/3571725)&rbrack;
 
   > "A large range of problem areas with quadratic quantum speedups, such as many current machine learning training approaches, accelerating drug design and protein folding with Grover’s algorithm, speeding up Monte Carlo simulations through quantum walks, as well as more traditional scientific computing simulations including the solution of many non-linear systems of equations, such as fluid dynamics in the turbulent regime, weather, and climate simulations will not achieve quantum advantage with current quantum algorithms in the foreseeable future."
 
