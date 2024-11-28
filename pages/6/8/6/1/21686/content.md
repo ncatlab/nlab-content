@@ -18,7 +18,7 @@ The [[differential geometry|differential-geometric]] [[Chern-Weil homomorphism]]
 
 \linebreak
 
-  (These two articles have the same content, with the same section outline, but not the same wording. The first one is a tad more detailed. The second one briefly attributes the construction to [[André Weil|Weil]], without reference.)
+  (These two articles have the same content, with the same section outline, but not the same wording. The first one is a tad more detailed. The second one briefly attributes the construction to [[André Weil|Weil]], but without reference.)
 
 and around equation (10) of:
 
@@ -76,21 +76,20 @@ Review of the [[Chern-Weil homomorphism]]:
 * [[John Milnor]], [[Jim Stasheff]], Appendix C of: _Characteristic classes_, Princeton Univ. Press (1974) ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76))
 
 * {#Meinrenken03} [[Eckhard Meinrenken]], Section 5 of: *Group actions on manifolds*, Lecture Notes 2003 ([pdf](http://www.math.toronto.edu/mein/teaching/LectureNotes/action.pdf), [[Meinrenken_GroupActionsOnManifolds.pdf:file]])
-
   > (via [[equivariant de Rham cohomology]])
 
-* {#HopkinsSinger} [[Mike Hopkins]], [[Isadore Singer]], Section 3.3 of: _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
-J. Differential Geom. Volume 70, Number 3 (2005), 329-452 ([arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216), [euclid:1143642908](https://projecteuclid.org/euclid.jdg/1143642908))
+* {#HopkinsSinger} [[Mike Hopkins]], [[Isadore Singer]], Section 3.3 of: _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_, J. Differential Geom. **70** Number 3 (2005), 329-452 ([arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216), [euclid:1143642908](https://projecteuclid.org/euclid.jdg/1143642908))
 
-* {#FSS10} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], Section 2.1 in: _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_, Advances in Theoretical and Mathematical Physics, Volume 16 Issue 1 (2012), pages 149-250 ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735), [euclid:1358950853](http://projecteuclid.org/euclid.atmp/1358950853), [doi:10.1007/BF02104916](https://doi.org/10.1007/BF02104916)) 
+* {#FSS10} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], Section 2.1 in: _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_, Advances in Theoretical and Mathematical Physics **16** 1 (2012) 149-250 \[<a href="https://doi.org/10.1007/BF02104916">doi:10.1007/BF02104916</a>, [arXiv:1011.4735](http://arxiv.org/abs/1011.4735), [euclid:1358950853](http://projecteuclid.org/euclid.atmp/1358950853)\] 
+  > (in generalization to [[principal ∞-bundles]])
 
-  (in generalization to [[principal ∞-bundles]])
+* [[Daniel Freed]], [[Michael Hopkins]]: _Chern-Weil forms and abstract homotopy theory_, Bull. Amer. Math. Soc. **50** (2013) 431-468  \[<a href="https://doi.org/10.1090/S0273-0979-2013-01415-0">doi:10.1090/S0273-0979-2013-01415-0</a>, [arXiv:1301.5959](https://arxiv.org/abs/1301.5959)\] 
+  > (using the stacky language of [FSS 10](#FSS10))
 
-* [[Daniel Freed]], [[Michael Hopkins]], _Chern-Weil forms and abstract homotopy theory_, Bull. Amer. Math. Soc. 50 (2013), 431-468  ([arXiv:1301.5959](https://arxiv.org/abs/1301.5959), [doi:10.1090/S0273-0979-2013-01415-0](https://doi.org/10.1090/S0273-0979-2013-01415-0))
+* Adel Rahman: _Chern-Weil theory_ (2017 $[$[[RahmanChernWeilTheory.pdf:file]]\]
 
-  (using the stacky language of [FSS 10](#FSS10))
-
-* Adel Rahman, _Chern-Weil theory_, 2017 ([[RahmanChernWeilTheory.pdf:file]])
+* {#FSS23} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: Section 8 of: *[[schreiber:The Character Map in Non-Abelian Cohomology]]*, World Scientific (2023) \[<a href="https://doi.org/10.1142/13422">doi:10.1142/13422</a>\]
+  > (as a special case of the character map on generalized [[nonabelian cohomology]])
 
 With an eye towards applications in [[mathematical physics]]:
 
@@ -98,13 +97,13 @@ With an eye towards applications in [[mathematical physics]]:
 
 * [[Gerd Rudolph]], [[Matthias Schmidt]], Chapter 4 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
-See also in:
+See also:
 
-* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_, Academic Press (1973)
 
 Enhancement of the Chern-Weil homomorphism from [[ordinary cohomology]]-groups to [[dg-categories]] of [[infinity-local systems|$\infty$-local systems]]:
 
-* [[Camilo Arias Abad]], Santiago Pineda Montoya, Alexander Quintero Velez, *Chern-Weil theory for $\infty$-local systems* $[$[arXiv:2105.00461](https://arxiv.org/abs/2105.00461)$]$
+* [[Camilo Arias Abad]], Santiago Pineda Montoya, Alexander Quintero Velez, *Chern-Weil theory for $\infty$-local systems* \[<a href="https://arxiv.org/abs/2105.00461">arXiv:2105.00461</a>\]
 
 
 
