@@ -79,7 +79,16 @@ Ordinary (permutative/symmetric) operads, and their generalization to [[symmetri
 
 ### Relation to monoidal categories
 
-There is a [[faithful functor]] from [[monoidal categories]] to [[multicategories]], given by forming [[representable multicategories|represented multicategories]].  Conversely, to any multicategory $C$ there is an associated (strict) monoidal category $F(C)$, whose objects (respectively, arrows) are [[lists]] of objects (respectively, arrows) of $C$, and where the tensor product in $F(C)$ is given by concatenation.
+There is a [[2-adjunction]] between the [[2-category]] of multicategories and the 2-category of [[monoidal categories]], [[strict monoidal functors]], and [[monoidal natural transformations]].
+\begin{tikzcd}
+	{\textbf{Multicat}} & {\textbf{MonCat}_s}
+	\arrow[""{name=0, anchor=center, inner sep=0}, "F", shift left=2, from=1-1, to=1-2]
+	\arrow[""{name=1, anchor=center, inner sep=0}, "U", shift left=2, from=1-2, to=1-1]
+	\arrow["\dashv"{anchor=center, rotate=-90}, draw=none, from=0, to=1]
+\end{tikzcd}
+The left adjoint sends a multicategory to the its **monoidal envelope** (which is a [[representable multicategory]]). The right adjoint sends a monoidal category to the multicategory with the same objects, and multimorphisms $A_1, \ldots, A_n \to B$ given by morphisms $A_1 \otimes \cdots \otimes A_n \to B$.
+
+The right adjoint is [[faithful functor|faithful]] and [[locally fully faithful]], but not full (in general, the functors of multicategories correspond to [[lax monoidal functors]]).
 
 ### Exponentiability
 
