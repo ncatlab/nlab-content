@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -417,13 +418,13 @@ As indicated, this map is in fact a [[bijection]] (for well-behaved $X$, such as
 
 The outer parts of these diagrams then also show that if we write 
 
-* [[delooping groupoid|$\mathbf{B}G$]] for the Lie groupoid with a single object and $G$ worth of morphisms, 
+* [[delooping groupoid|$\mathbf{B}G$]] for the [[topological groupoid]] with a single object and $G$ worth of morphisms, 
 
-* [[Cech groupoid|$\widehat X$]] for the Lie groupoid with $C$ as its manifold of objects and $C \!\times_X\! C$ as its manifold of morphisms, 
+* [[Cech groupoid|$\widehat X$]] for the [[topological groupoid]] with $C$ as its manifold of objects and $C \!\times_X\! C$ as its manifold of morphisms, 
 
   for $C \xrightarrow{\iota} X$ a [[good open cover|*good* open cover]] (over which every $G$-bundle trivializes),
 
-then the groupoid of principal $G$-bundles is identified with the groupoid of [[smooth functors]] $g \,\colon\, \widehat{X} \xrightarrow{\;} \mathbf{B}G$ with smooth natural transformations between these:
+then the groupoid of principal $G$-bundles is identified with the groupoid of [[Top|continuous]] [[internal functor|functors]] $g \,\colon\, \widehat{X} \xrightarrow{\;} \mathbf{B}G$ with [[Top|continuous]] [[internal natural transformation|natural transformations]] between these:
 
 \begin{imagefromfile}
     "file_name": "CechCohomology-Schematics.jpg",
@@ -437,7 +438,7 @@ then the groupoid of principal $G$-bundles is identified with the groupoid of [[
     }
 \end{imagefromfile}
 
-A deeper but classical theorem says (cf. [[schreiber:Equivariant principal infinity-bundles|SS25]] [Thm. 4.1.3](https://arxiv.org/pdf/2112.13654#page=171))  that this situation is preserved by the  "[[topological realization]]" of [[Lie groupoids]] to [[topological spaces]]
+A deeper but classical theorem says (cf. [[schreiber:Equivariant principal infinity-bundles|SS25]] [Thm. 4.1.3](https://arxiv.org/pdf/2112.13654#page=171))  that this situation is preserved by the  "[[topological realization]]" of [[topological groupoids]] to [[topological spaces]]
 $$
   \left\vert-\right\vert 
     \,\colon\,
@@ -445,7 +446,7 @@ $$
   \longrightarrow
   TopSpc
 $$
-under which a smooth functor $g \,\colon\, \widehat X \xrightarrow{\;} \mathbf{B}G$ becomes a [[continuous map]] $\left\vert g\right\vert \;\colon\; \vert\widehat{X}\vert \xrightarrow{\;}  \vert\mathbf{B}G\vert$ from $\vert\widehat{X}\vert \simeq X$ to the *[[classifying space]]* $B G \,\coloneqq\, \left\vert\mathbf{B}G\right\vert$ -- which still represents isomorphism classes of principal $G$-bundles:
+under which a continuous functor $g \,\colon\, \widehat X \xrightarrow{\;} \mathbf{B}G$ becomes a [[continuous map]] $\left\vert g\right\vert \;\colon\; \vert\widehat{X}\vert \xrightarrow{\;}  \vert\mathbf{B}G\vert$ from $\vert\widehat{X}\vert \simeq X$ to the *[[classifying space]]* $B G \,\coloneqq\, \left\vert\mathbf{B}G\right\vert$ -- which still represents isomorphism classes of principal $G$-bundles:
 
 \begin{imagefromfile}
     "file_name": "PrncBndlToNonabCohomology.jpg",
@@ -460,7 +461,7 @@ under which a smooth functor $g \,\colon\, \widehat X \xrightarrow{\;} \mathbf{B
 \end{imagefromfile}
 
 
-This is the **ordinary nonabelian cohomology** of $X$.
+This is the **[[ordinary nonabelian cohomology]]** of $X$.
 
 
 
@@ -844,5 +845,14 @@ The suggestion that *every* ([[pointed topological space|pointed]]) [[topologica
 
 [[!redirects non-abelian cohomology theory]]
 [[!redirects non-abelian cohomology theories]]
+
+[[!redirects ordinary nonabelian cohomology]]
+[[!redirects ordinary nonabelian cohomology theory]]
+[[!redirects ordinary nonabelian cohomology theories]]
+
+[[!redirects ordinary non-abelian cohomology]]
+[[!redirects ordinary non-abelian cohomology theory]]
+[[!redirects ordinary non-abelian cohomology theories]]
+
 
 
