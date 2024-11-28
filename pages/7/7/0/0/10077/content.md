@@ -36,7 +36,7 @@ There are then various axioms, which in particular say that $J$ is a $\diamond$-
 
 It is equivalent to ask that $(C,\diamond,I)$ is a pseudomonoid structure on $(C,\star,J)$ in the 2-category $MonCat_c$ of monoidal categories and *colax* monoidal functors.
 
-The map $I\to J$ is actually determined by the rest of the structure; it is the composite
+The map $I\to J$ can be shown to be equal to the composite
 $$I \xrightarrow{\cong} (J\star I)\diamond (I\star J) \to (J\diamond I) \star (I\diamond J) \xrightarrow{\cong} J $$
 as well as the dual composite.  If this map is an isomorphism, the duoidal category is called **normal**.
 
