@@ -378,7 +378,7 @@ $\mathbb{N}\cup\{\infty\}$ of the natural numbers with an element "at [[infinity
 
 This space is actually a [[Stone space]], and corresponds via [[Stone duality]] to the [[Boolean algebra]] of the finite and cofinite subsets of $\mathbb{N}$, with the usual [[Boolean algebra]] operations of [[union]] and [[complement|set-complement]]. 
 
-To see this, notice that the [[clopen sets]] in the space are those that are either [[finite set|finite]] and not containing $\infty$, or [[cofinite set|cofinite]] and containing $\infty$. So a clopen set is determined by giving either a finite or a cofinite subset of $\mathbb{N}$, and then adding $\infty$ if it is cofinite. Under this correspondence, the Boolean algebra operations on finite and cofinite subsets of $\mathbb{N}$ correspond to the Boolean algebra operations on the clopen sets.
+To see this, notice that the [[clopen sets]] in the space are those that are either [[finite set|finite]] and not containing $\infty$, or [[cofinite set|cofinite]] and containing $\infty$. So a clopen set is determined by giving either a finite or a cofinite subset of $\mathbb{N}$, and then adding $\infty$ if it is finite. Under this correspondence, the Boolean algebra operations on finite and cofinite subsets of $\mathbb{N}$ correspond to the Boolean algebra operations on the clopen sets.
 
 Another reason that this space is important is because to give a continuous map $\mathbb{N}\cup\{\infty\}\to X$ to a topological space $X$ is to give a convergent sequence in $X$. This can then be used as a foundation: [[Johnstone's topological topos]] is a category of [[sheaves]] on the continuous [[endofunctions]] of $(\mathbb{N}\cup\{\infty\})$, and [[subsequential spaces]] are a subcategory of [[concrete sheaves]]. 
 \end{example}
