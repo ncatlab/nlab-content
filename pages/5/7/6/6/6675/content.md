@@ -48,11 +48,13 @@ suffer from an intrinsic tension:
 
 1. [[quantum gates]] are **implemented via [[interaction]]** between [[subsystems]],
 
-1. but [[quantum coherence|coherence]] requires **avoiding interaction**
+1. but [[quantum coherence|coherence]] requires **avoiding interaction**.
 
 > (cf. [CCEHRSZ 07](quantum+computation#CCEHRSZ07) p 272: "*Quantum logic gates involving two atomic qubits must overcome the problem of the short range coherent interaction of neutral atoms, while maintaining atom confinement and suppressing decoherence. The main challenge is to perform the gate sufficiently fast compared to typical decoherence and relaxation times.*")
 
-This problem haunts contemporary [NISQ](quantum+computation#ReferencesNISQ) devices (whence "Quantum Winter", cf. [McKenzie 2024](quantum+computation#McKenzie2024)) 
+This problem haunts contemporary [NISQ](quantum+computation#ReferencesNISQ) devices (cf. [HHT 23](quantum+computation#HHT23)), 
+
+whence the "Quantum Winter" (cf. [McKenzie 24](quantum+computation#McKenzie2024)).
 
 \linebreak
 
@@ -66,7 +68,9 @@ Can this work? In principle: Yes!
 
 \linebreak
 
-For this we need a quantum system (like a crystalline material) with the following properties:
+For this we need a quantum system (say a crystalline [[quantum material]]) 
+
+with the following properties:
 
 1. **degenerate ground states**:
 
@@ -86,11 +90,11 @@ For this we need a quantum system (like a crystalline material) with the followi
   
 3. {#ControlParameters} **control parameters**:
 
-   the above properties hold for a range of external tunable parameters
+   the above properties hold for a range of [[continuous function|continuously]] tunable parameters
 
    such as [[strain]] or [[voltage]] applied to the crystal
 
-   > (Meaning: A [[vector bundle]] of ground state Hilbert spaces $\mathscr{H}_p$ over a [[topological space]] $P$ of parameter values $p \in P$.)
+   > (Meaning: We have [[vector bundle]] of [[ground state]] [[Hilbert spaces]] $\mathscr{H}_p$ over a [[topological space]] $P$ of parameter values $p \in P$.)
 
 \linebreak
 
@@ -102,18 +106,18 @@ Under these conditions:
 
 * sufficiently slow ("[[quantum adiabatic theorem|adiabatic]]") variation of the external parameters
 
-* does not excite the system: it remains in a ground state
+* does not excite the system: it *remains* in a ground state
 
 * but **the different ground states may transform into each other**
 
-  > (Meaning: Each parameter path $\gamma \,\colon\, p \to p'$ induces a [[Berry phase]] [[unitary operator]] $U_\gamma \,\colon\, \mathscr{H}_p \xrightarrow{\;} \mathscr{H}_{p'}$ )
+  > (Meaning: Each parameter path $\gamma \,\colon\, p \to p'$ induces a [[Berry phase]] [[unitary operator]] $U_\gamma \,\colon\, \mathscr{H}_p \xrightarrow{\;} \mathscr{H}_{p'}$.)
 
 
 \linebreak
 
 This is part of a general phenomenon of [[quantum physics]]:
 
-While [[quantum fluctuations]] are much like [[thermodynamics|thermal]] flcutuations
+While [[quantum fluctuations]] are a little like [[thermodynamics|thermal]] flcutuations
 
 one key difference is that they remain present at [[absolute zero]].
 
@@ -122,11 +126,11 @@ one key difference is that they remain present at [[absolute zero]].
 
 \linebreak
 
-Such operations on ground states are called **[holonomic quantum gates](adiabatic+quantum+computation#ReferencesGeometricPhaseGates)**
+Such operations on ground states are called **[holonomic quantum gates](adiabatic+quantum+computation#ReferencesGeometricPhaseGates)**.
 
 > (From "[[holonomy]]" for the [[parallel transport]] of a [[Berry connection]] along [[loops]].)
 
-these are **protected from external [[noise]]** quanta of energy $\lt \epsilon$
+These are **protected from external [[noise]]** quanta of energy $\lt \epsilon$
 
 **but** may still be sensitive no **[[noise]] in the parameter paths**.
 
@@ -134,33 +138,33 @@ these are **protected from external [[noise]]** quanta of energy $\lt \epsilon$
 
 **Topological invariance.**
 
-To overcome this last issue, look for such quantum systems which in addition have
+To overcome this last issue, look for such quantum systems which *in addition* have:
 
 1. **parameter topology**
 
-   the parameter space has "holes", in that
+   The parameter space has "holes", in that
 
-   some closed parameter paths cannot continuously be deformed to constant paths
+   some closed parameter paths cannot continuously be deformed to constant paths.
 
    > (Meaning: The [[fundamental group]] of parameter space is non-[[trivial group|trivial]].)
 
 1. **local parameter independence**
 
-   all parameter paths with the same endpoints
+   All parameter paths with the same endpoints
 
    that are continuous deformations of each other
 
-   yield the same transformation on ground states
+   yield the same transformation on ground states.
 
    > (Meaning: The [[Berry connection]] is [[flat connection|flat]].)
 
-[[quantum material|Quantum materials]] with all these properties are called [[topological order|topologically ordered]];
+[[quantum material|Quantum materials]] with all these properties are **[[topological order|topologically ordered]]**;
 
 the resulting adiabatic quantum processes are **[[topological quantum computation|topological quantum gates]]**.
 
 \linebreak
 
-In principle these are:
+In principle, such topological quantum gates are:
 
 1. protected against external [[noise]] quanta of [[energy]] $\lt \epsilon$, *and*
 
@@ -168,7 +172,9 @@ In principle these are:
 
 In fact, the quantum operation induced by a parameter variation will
 
-depend *only* on **how much the path winds around the holes** of parameter space
+*depend only on the discrete data* of 
+
+**how much the path winds around the holes** of parameter space
 
 <center>
 <a href="https://arxiv.org/pdf/2303.02382#page=21">
@@ -188,25 +194,27 @@ topological quantum architecture may in principle
 
 \linebreak
 
-This is the **theory behind topological quantum gates**;
+So far this is the **theory behind topological quantum gates**.
 
-on the one hand it is extremely general: 
+On the one hand it is extremely general: 
 
-* any kind of topologically parameterized quantum system would do
+* any kind of topologically parameterized quantum system could do.
 
-on the other hand it is very ambitious: 
+On the other hand it is very ambitious: 
 
 * suitable such system have yet to be devised in the labs.
+
+\linebreak
 
 But the range of possibilities has hardly been explored,
 
 most attention has been given to a single approach:
 
-* braiding of anyonic defects in position space
+* braiding of anyonic defects in position space.
 
 \linebreak
 
-That's what we discuss next. 
+That's what we discuss [next](#IdeaViaAnyonBraiding). 
 
 
 \linebreak
@@ -221,7 +229,9 @@ That's what we discuss next.
  {#IdeaViaAnyonBraiding}
 
 
-In specialization of the [above general idea](#GeneralIdea), the  original proposal due to [Kitaev 2003](#Kitaev03) and [Freedman, Kitaev, Larsen & Wang 2003](#FreedmanKitaevLarsenWang03) (which has become canonized in the literature) is to envision 
+In specialization of the [above general idea](#GeneralIdea), the  
+
+original proposal due to [Kitaev 2003](#Kitaev03) and [FKLW 2003](#FreedmanKitaevLarsenWang03) (which has become canonized in the literature) is to envision 
 
 * an effectively 2-dimensional [[quantum material]]  (such as an atomic monolayer similar to [[graphene]]),
 
@@ -229,7 +239,11 @@ In specialization of the [above general idea](#GeneralIdea), the  original propo
 
 * whose positions constitute the [above parameters](#ControlParameters), hence whose parameter space is a [[configuration space of points]] in the plane.
 
-The  [[motion group|motion]] in such a parameter space is a [[braid]] (of "[[worldlines]]" of defect points) and if this acts non-trivially on the material's ground states by [[quantum adiabatic theorem|adiabatic]] transformations, then one refers to these defects as "[[defect]] [[anyons]]":
+The  [[motion group|motion]] in such a parameter space is a [[braid]] (of "[[worldlines]]" of defect points) and 
+
+if this acts non-trivially on the material's ground states by [[quantum adiabatic theorem|adiabatic]] transformations, 
+
+then one refers to these defects as **[[defect]] [[anyons]]**:
 
 <center>
 <a href="https://arxiv.org/pdf/2411.00628#page=7">
@@ -243,21 +257,67 @@ The  [[motion group|motion]] in such a parameter space is a [[braid]] (of "[[wor
 
 **Status of anyonic quantum computation.**
 
-Experimentally, at least *[abelian anyons](#FocusOnAbelianAnyons)* (whose [[braid representation]] factors through a [[representation of the symmetric group]]) [are seen](braid+group+statistics#ExperimentalRealization) in [[fractional quantum Hall effect|fractional quantum Hall systems]] --- though their controlled movement along the above lines seems out of reach. 
+Experimentally, 
 
-{#ChernSimonsTheory} Theoretically, such defect anyons are expected to be [[effective field theory|effectively described]] by some kind of [[Chern-Simons theory]]/[[Reshetikhin-Turaev construction|Reshetikhin-Turaev theory]], and hence ultimately classified by [[modular tensor categories]] --- though attempts to derive some of these expectations from microscopic physics are rare.
+at least *[abelian anyons](#FocusOnAbelianAnyons)* 
 
-> (A more microscopic argument for anyonic defects not in position-space but in "reciprocal" momentum-space (the [[Brillouin torus]]), appearing there as the familiar [[band nodes]] of [[topological semimetals]], is made in [[schreiber:Anyonic topological order in TED K-theory|SS23]].)
+> (whose [[braid representation]] factors through a [[representation of the symmetric group]]) 
 
-A general problem on both of these fronts is that anyonic [[topological order]] is supposed to arise in [[strongly correlated systems]] which, like all [[non-perturbative field theory|non-perturbative physics]], remains ill-understood in general. 
+[are seen](braid+group+statistics#ExperimentalRealization) in [[fractional quantum Hall effect|fractional quantum Hall systems]], 
 
-One approach on this front is to find [[geometric engineering of quantum field theory|geometric engineering]] of anyonic [[topological order]] on [[M-branes]] (or their [[AdS-CFT in condensed matter physics|holographic dual]] bulk gravity), cf. [CGK20](topological+order#CGK20), [SS24](topological+order#SS24). 
+though their controlled movement along the above lines seems out of reach. 
 
 \linebreak
 
-**Miscellaneous approaches.**
+{#ChernSimonsTheory} Theoretically, 
 
-Much attention in the 2010s had been given to claims of experimental detection of anyons in the form of "[[Majorana zero modes]]" (MZMs), but these claims [seem not to hold water](Majorana+zero+mode#But). In any case, these MZMs are by design stuck at the end of nanowires and hence are not movable and in particular not braidable in the above sense.
+such defect anyons are expected to be [[effective field theory|effectively described]] by 
+
+some kind of [[Chern-Simons theory]]/[[Reshetikhin-Turaev construction|Reshetikhin-Turaev theory]]
+
+> (and hence ultimately classified by [[modular tensor categories]]),
+
+though attempts to derive some of these expectations from microscopic physics are rare.
+
+> (A more microscopic argument for anyonic defects not in position-space but in "reciprocal" momentum-space -- the [[Brillouin torus]] --, appearing there as the familiar [[band nodes]] of [[topological semimetals]], is made in [[schreiber:Anyonic topological order in TED K-theory|SS23]].)
+
+\linebreak
+
+**The open problem of strongly-coupled quantum systems.**
+
+A general problem on both of these fronts is that 
+
+anyonic [[topological order]] is supposed to arise in [[strongly correlated systems]] which, like 
+
+all [[non-perturbative field theory|non-perturbative physics]], remains ill-understood in general.
+
+\linebreak
+
+The directly analogous problem in [[particle physics]],
+
+where the the [[energy gap]] is known as the *[[mass gap]]*,
+
+has been termed a [Millennium Problem](https://en.wikipedia.org/wiki/Millennium_Prize_Problems) by the [Clay Math Institute](https://www.claymath.org/)
+
+> (cf. the [Mass Gap Problem](mass gap#ReferencesMassGapProblem))
+
+\linebreak
+
+One plausible approach on this front is to find 
+
+**[[geometric engineering of quantum field theory|geometric engineering]]** of anyonic [[topological order]] on [[M-branes]] 
+
+or their **[[AdS-CFT in condensed matter physics|holographic dual]]** [[D=11 supergravity|bulk gravity]].
+
+> (cf. [CGK20](topological+order#CGK20), [SS24](topological+order#SS24)) 
+
+
+
+\linebreak
+
+**Loosely related approaches.**
+
+Much attention in the 2010s had been given to claims of experimental detection of anyons in the form of "[[Majorana zero modes]]" (MZMs) -- but these claims [seem not to hold water](Majorana+zero+mode#But). In any case, these MZMs are by design stuck at the end of nanowires and hence are not movable and in particular not braidable in the above sense.
 
 More recently the idea of *[quantum *simulation* of anyons](quantum+simulation+OfAnyons)* on ordinary quantum hardware has found more attention, though the relevance of this, if any, to the original idea of quantum-error protection by fundamental physical principles may remain to be discussed.
 
