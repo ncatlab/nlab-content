@@ -358,8 +358,12 @@ In the mentioned application to physics, the [[flux densities]] of a [[higher ga
 \linebreak
 
 
-### Ordinary non-abelian cohomology
- {#OrdinaryNonabelianCohomology}
+## More details
+ {#MoreDetails}
+
+\linebreak
+
+### Ordinary Principal Bundles
 
 For $G$ a [[Hausdorff space|Hausdorff]]-[[topological group]], a *[[principal bundle|principal $G$-bundle]]* $P$ over a base space $X$ is a [[map]] $P \xrightarrow{\;} X$ such that there exists an [[open cover]] $C \coloneqq \coprod_i U_i \overset{\iota}{\twoheadrightarrow} X$ over which $P$ is identified with the trivial fibration $C \!\times\! G$ in a way that the [[fibers]] are identified by $G$-valued [[transition functions]] $g \,:\, C \!\times_X\! C \xrightarrow{\;} G$ on double overlaps of charts, $C \times_X C \,=\, \underset{i,j}{\coprod} \, U_i \cap U_j$:
 
@@ -438,6 +442,12 @@ then the groupoid of principal $G$-bundles is identified with the groupoid of [[
     }
 \end{imagefromfile}
 
+
+\linebreak
+
+### Ordinary Nonabelian Cohomology
+ {#OrdinaryNonabelianCohomology}
+
 A deeper but classical theorem says (cf. [[schreiber:Equivariant principal infinity-bundles|SS25]] [Thm. 4.1.3](https://arxiv.org/pdf/2112.13654#page=171))  that this situation is preserved by the  "[[topological realization]]" of [[topological groupoids]] to [[topological spaces]]
 $$
   \left\vert-\right\vert 
@@ -463,8 +473,215 @@ under which a continuous functor $g \,\colon\, \widehat X \xrightarrow{\;} \math
 
 This is the **[[ordinary nonabelian cohomology]]** of $X$.
 
+\linebreak
+
+### Ordinary Abelian Cohomology
+ {#OrdinaryAbelianCohomology}
+
+In the special case that $G \,\equiv\, A$ an *[[abelian group|abelian]] [[topological group|group]]*, one readily sees that there is a [[fiber]]-wise $A$-[[tensor product]] of principal $A$-bundles
+
+\begin{tikzcd}[sep=0pt]
+    \mathrm{Prnc}A\mathrm{Bndl}(X)_{/\sim}
+    \,\times\,
+    \mathrm{Prnc}A\mathrm{Bndl}(X)_{/\sim}
+    \ar[
+      rr
+    ]
+    &&
+    \mathrm{Prnc}A\mathrm{Bndl}(X)_{/\sim}    
+    \\
+    \big(
+      \,
+      [P],
+      \,
+      [P']
+      \,
+    \big)
+    &\longmapsto&
+    \big[
+      P \times_A P'
+    \big]
+\end{tikzcd}
+
+given by
+$$
+  (P \times_A P')_x
+  \;\coloneqq\;
+  \Big\{
+    (p, p')
+    \,\in \,
+    P_x \times P'{}_{\!\!\!x}
+  \Big\}\Big/\Big(
+    (a \cdot p,\, p')
+    \sim
+    (p,\, a^{-1} \cdot p')
+  \Big)
+  \,,
+$$
+which makes the isomorphism classes naturally form an abelian group. 
+
+> (NB: As a tensor product of fibrations this exists also for non-abelian $G$, but the commutativity of $A$ is needed for its principality, namely for the resulting transition functions to again by given by group multiplication.)
 
 
+Under the classification of principal $A$-bundles by $A$-cohomology, this means that
+the classifying space $B A$ (may be chosen such that it) carries topological group structure itself!, so that the construction iterates:
+
+$$
+  A \;\in\; 
+  \mathrm{AbGrp}(\mathrm{TopSpc})
+  \;\;\;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;\;\;
+  \left\{
+  \begin{array}{l}
+  B^2 A
+  \;\coloneqq\;
+  B(B A)
+  \\
+  B^3 A
+  \;\coloneqq\;
+  B\big(B(B A)\big)
+  \\
+  \;\;\;\vdots
+  \\
+  B^{1+n} \;\coloneqq\; B\big(B^n A\big)
+  \mathrlap{\,.}
+  \end{array}
+  \right.
+$$
+
+For a *[[discrete group|discrete]]* abelian group $A$ (such as [[integers|$A = \mathbb{Z}$]]) these higher-order classifying spaces are also denoted "$K(A,n)$" and called "[[Eilenberg-MacLane spaces]]":
+
+$$
+  A \,\in\,
+  \mathrm{AbGrp}(\mathrm{Set})
+  \;\;\;\;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;\;\;\;
+  K(A,n)
+  \;\;
+  \coloneqq
+  \;\;
+  B^n A
+  \,.
+$$
+
+But this means that for abelian group coefficients $A$ there is *higher-degree $A$-cohomology* appearing as a special case of non-abelian cohomology, as follows:
+
+$$
+  H^{1+n}\big(
+    X
+    ;\,
+    A
+  \big)
+  \;\;
+  \coloneqq
+  \;\;
+  H^1\big(
+    X
+    ;\,
+    B^nA
+  \big)
+  \;\;
+  \coloneqq
+  \;\;
+  \pi_0
+  \, \mathrm{Maps}\big(
+    X
+    ,\,
+    B^{1+n} A
+  \big)
+  \,.
+$$
+
+Of course, when $A$ is discrete then there is also *[[Čech cohomology]]* and *[[singular cohomology]]* with coefficients in $A$. A classical theorem says that (on our smooth manifold domain $X$) all these notions of [[ordinary cohomology]] agree, hence that
+
+$$
+   Ordinary \; A\text{-}cohomology \; has \; classifying \; spaces \; B^n A \,=\, K(A,n).
+$$
+
+\linebreak
+
+### Ordinary Characteristic Classes
+  {#OrdinaryCharacteristicClasses}
+
+Thereby we obtain an immediate means to *approximate non-abelian cohomology by abelian cohomology*: Every map of classifying spaces $c \colon B G \xrightarrow{\phantom{--}} B^n A$, hence every *[[universal characteristic class]]*
+$$
+  [c]
+  \;\in\;
+  H^n\big(
+    B G
+    ;\,
+    A
+  \big)
+  \,,
+$$
+induces a *[[cohomology operation]]* from non-abelian to abelian cohomology, simply by [[composition]] of classifying maps:
+
+\begin{imagefromfile}
+    "file_name": "CharacteristicClassSchematics.jpg",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+For example, the [[frame bundle]] $\mathrm{Fr}_X$ of a [[Riemannian manifold]] $X$ is an [[orthogonal group|$O(d)$]]-[[principal bundle]], whose [[classifying space]] carries universal [[Pontrjagin classes]] $p_n \,\in\, H^{4n}\big(B \mathrm{O}(d);\, \mathbb{Z}\big)$, which evaluate to the Pontrjagin classes of $X$:
+$$
+  p_n[X]
+  \;\coloneqq\;
+  p_n[T X]
+  \;\coloneqq\;
+  p_n[\mathrm{Fr}_X]
+  \;\coloneqq\;
+  \big[
+    X
+    \xrightarrow{
+      \vdash \mathrm{Fr}_X
+    }
+    B\mathrm{O}(d)
+    \xrightarrow{p_n}
+    B^{4n}\mathbb{Z}
+  \big]
+  \;\;
+  \in
+  \;\;
+  H^{4n}(X; \,\mathbb{Z})
+  \,.
+$$
+
+We see again that:
+$$
+  \begin{array}{c}
+  In \; terms \; of \; classifying \; spaces,
+  \\
+  cohomology \; and \; characteristic \; classes
+  \\
+  become \; conceptually \; very \; transparent.
+  \end{array}
+$$
+
+### Ordinary Invariant Polynomials
+
+(...)
+
+
+### Ordinary Connections
+
+(...)
+
+### Ordinary Chern-Weil Homomorphism
+
+(...)
+
+
+
+\linebreak
 
 ## More history
 
@@ -834,7 +1051,6 @@ The suggestion that *every* ([[pointed topological space|pointed]]) [[topologica
 
 * {#FSS23} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalized]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
   > (generalizing the [[Chern-Dold character]] to nonabelian cohomology in this sense)
-
 
 
 
