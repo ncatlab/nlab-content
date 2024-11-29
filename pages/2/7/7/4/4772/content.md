@@ -47,18 +47,24 @@ This is often written as $ad(g)(x) = g^{-1} x g$ even though for a general Lie g
 
 Since this is a linear action, it is called the _[[adjoint representation]]_ of a Lie group. The [[associated bundles]] with respect to this representation are called [[adjoint bundles]].
 
+
 ### Of a Lie algebra on itself
+ {#OfALieAlgebraOnItself}
 
 Differentiating the above example also in the second argument, yields the adjoint action of a Lie algebra on itself
 
 $$
-  ad : \mathfrak{g} \times \mathfrak{g} \to \mathfrak{g}
+  ad 
+    \,\colon\, 
+  \mathfrak{g} \times \mathfrak{g} 
+    \longrightarrow 
+  \mathfrak{g}
 $$
 
 which is simply the Lie bracket
 
 $$
-  ad_x : y \mapsto [x,y]
+  ad_x \,\colon\, y \mapsto [x,y]
   \,.
 $$
 
