@@ -25,6 +25,7 @@ The original _May recognition theorem_ ([May 72](#May72)) characterizes the [[ho
 The statement generalizes from [[∞Grpd]] to any [[(∞,1)-topos]] ([Lurie 09b, 1.3](#Lurie09b), [Lurie 17, 5.2.6](#Lurie17)).
 
 ## Statement
+ {#Statement}
 
 
 +-- {: .num_prop #RecognitionForGroupsInAnInfinityTopos} 
