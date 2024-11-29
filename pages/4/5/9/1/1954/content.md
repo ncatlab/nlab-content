@@ -31,13 +31,13 @@ The notion of _Ehresmann connection_ is one of the various equivalent definition
 Let $G$ be a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and $P \to X$ a $G$-[[principal bundle]]. Let
 
 $$
-  \rho : P \times G \to P
+  \rho \;\colon\; P \times G \longrightarrow P
 $$
 
 be the [[action]] of $G$ on $P$ and
 
 $$
-  \rho_* : \mathfrak{g} \to \Gamma(T P)
+  \rho_* \;\colon\; \mathfrak{g} \longrightarrow \Gamma(T P)
 $$
 
 its derivative, sending each element $x \in \mathfrak{g}$ to the [[vector field]] on $P$ that at $p \in P$ is the push-forward $\rho(p,-)_*(x)$.
@@ -117,14 +117,24 @@ Using $\iota_{\rho_*(x)} A = x$ we have by [[Cartan calculus]]
 
 $$
   \begin{aligned}
-     \iota_{\rho_*(x)} F_A &=
-     \iota_{\rho_*(x)} ( d_{dR} A + \frac{1}{2} [A\wedge A] )
+     \iota_{\rho_*(x)} F_A 
+     &=
+     \iota_{\rho_*(x)} 
+     \big( 
+       \mathrm{d} A + \tfrac{1}{2} [A\wedge A] 
+     \big)
      \\
      & =
-     \mathcal{L}_{\rho_*(x)} A - d_{dR} \iota_{\rho_*(x)} A +
-     [x,A]
+     \mathcal{L}_{\rho_*(x)} A 
+       - 
+     \mathrm{d} \iota_{\rho_*(x)} A 
+       +
+     [x, A]
      \\
-     & = \mathcal{L}_{\rho_*(x)} A + [x,A]
+     & = 
+     \mathcal{L}_{\rho_*(x)} A 
+       + 
+    [x, A]
      \,.
   \end{aligned}
 $$
@@ -220,10 +230,14 @@ $$
 and the evaluation of the curvature in the invariant polynomials corresponds to the precomposition with the morphism
 
 $$
-  W(\mathfrak{g}) \leftarrow CE(b^{2k-1}\mathbb{R} ) : \langle - \rangle
+  W(\mathfrak{g}) 
+    \longleftarrow 
+  CE(b^{2k-1}\mathbb{R} ) 
+  \;\colon\; 
+  \langle - \rangle
 $$
 
-described at [[∞-Lie algebra cohomology]].
+described at *[[∞-Lie algebra cohomology]]*.
 
 to show that these forms descend, it is sufficient  to show that for all $x \in \mathfrak{g}$ we have 
 
@@ -231,7 +245,7 @@ to show that these forms descend, it is sufficient  to show that for all $x \in 
 
 1. $\mathcal{L}_{\rho_*(x)} \langle F_A \rangle = 0$
 
-The first follows from $\iota_{\rho_*(x)} F_A = 0$. The second from this, the $d_{dR}$-closure just discussed and [[Cartan's magic formula]] for the [[Lie derivative]].
+The first follows from $\iota_{\rho_*(x)} F_A = 0$. The second from this, the $\mathrm{d}$-closure just discussed and [[Cartan's magic formula]] for the [[Lie derivative]].
 
 =--
 
