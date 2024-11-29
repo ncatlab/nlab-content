@@ -9,14 +9,15 @@
 =--
 =--
 
-# Representable multicategories #
 * table of contents
 {:toc}
 
 ## Idea
 
-The _representable multicategory_ underlying a [[monoidal category]] $C$ is a [[multicategory]] whose $n$-ary morphisms are the [[morphisms]] out of $n$-fold [[tensor products]] in $C$, i.e.
+A multicategory is **representable** when it admits tensor products of objects that represent its multimorphisms so that, for instance:
+$$M(A_1, \ldots, X \otimes Y, \ldots A_n; B) \cong M(A_1, \ldots, X, Y, \ldots, A_n; B)$$
 
+We may construct from every representable multicategory a [[monoidal category]]. Conversely, every monoidal category $C$ gives rise to a representable multicategory $Rep(C)$, by defining
 $$
   Rep(C)_n(c_1, \cdots, c_n,c)
   := 
