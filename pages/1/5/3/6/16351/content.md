@@ -279,6 +279,8 @@ following an announcement in
 
 See also
 
+* Janez Mrčun, _On isomorphisms of algebras of smooth functions_, Proceedings of the American Mathematical Society 133:10 (2005), 3109-3113.  [arXiv](https://arxiv.org/abs/math/0309179), [doi](http://dx.doi.org/10.1090/s0002-9939-05-07979-7).
+
 * J. Grabowski, _Isomorphisms of algebras of smooth functions revisited_. Arch. Math. 85, 190–196 (2005). [doi](https://doi.org/10.1007/s00013-005-1268-3).
 
 The statement for domain a point also appears as an exercise in
