@@ -211,7 +211,7 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-For $X$ ab [[n-connected topological space]], then for $k \leq 2n$ there are [[isomorphisms]]
+For $X$ an [[n-connected topological space]], then for $k \leq 2n$ there are [[isomorphisms]]
 
 $$
   H_k(X) \simeq H_{k-1}(\Omega X)
