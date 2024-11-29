@@ -53,13 +53,19 @@ So if
 $$
   \mathcal{C}(X,Y) 
   \;=\; 
-  \underset{i \in \pi_0\mathcal{C}(X,Y)}{\coprod} \mathcal{C}(X,Y)_{i }
+  \underset{
+    i \in \pi_0\mathcal{C}(X,Y)
+  }{\coprod} 
+  \mathcal{C}(X,Y)_{i }
   \;\;\;\;\;\;
   \text{and}
   \;\;\;\;\;\;
   \mathcal{C}(X,Z) 
   \;=\; 
-  \underset{j \in \pi_0(\mathcal{C}(X,Z)}{\coprod} \mathcal{C}(X,Z)_j
+  \underset{
+     j \in \pi_0\mathcal{C}(X,Z)
+  }{\coprod} 
+  \mathcal{C}(X,Z)_j
 $$ 
 
 is the decomposition into [[connected components]], then there is an [[injective function]]
@@ -72,7 +78,7 @@ $$
   \pi_0 \mathcal{C}(X,Z)
 $$
 
-such that $\mathcal{C}(X,f)$ is given by component maps $\mathcal{C}(X,Y)_i \to \mathcal{C}(X,Z)_{j(i)}$ which are each an equivalence.
+such that $\mathcal{C}(X,f)$ is given by component maps $\mathcal{C}(X,Y)_i \to \mathcal{C}(X,Z)_{j(i)}$ which all equivalences.
 
 ## Properties
 
