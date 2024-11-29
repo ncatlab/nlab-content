@@ -90,7 +90,7 @@ $$
   \,.
 $$
 
-Moreover, for $B i \colon B U(n_1) \longrightarrow BU(n_2)$ the canonical inclusion for $n_1 \leq n_2 \in \mathbb{N}$, then the induced pullback map on cohomology 
+Moreover, for $B i \,\colon\, B U(n_1) \longrightarrow BU(n_2)$ the canonical inclusion for $n_1 \leq n_2 \in \mathbb{N}$, then the induced pullback map on cohomology 
 
 $$
    (B i)^\ast 
