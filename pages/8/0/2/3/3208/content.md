@@ -52,7 +52,7 @@ There are several different viewpoint on theories:
 
   that preserve some (typically [[stuff, structure, property|property-like]]) [[stuff, structure, property|structures]] on $C_{\mathcal{T}}$, such as certain classes of [[colimit]]s or of [[limits]], pertinent to the fragment of logic at hand. Then a completeness theorem would be the statement that the canonical map 
 
-  $$C_{\mathcal{T}} \to \prod_{models F in Set} Set$$ 
+  $$C_{\mathcal{T}} \to \prod_{models\ F\ in\ Set} Set$$ 
 
   is a [[full and faithful functor|full faithful embedding]] (one that preserves all relevant logical structure). For this reason, completeness theorems are also known as _embedding theorems_. 
 
