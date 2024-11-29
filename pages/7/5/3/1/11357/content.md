@@ -61,3 +61,6 @@ On conformal twists of [[SCFT|super-conformal field theories]]:
 
 [[!redirects topological twists]]
 
+On a general approach to twisting D=4 N=2 theories based on the notion of transfer of structure group, and proposals for twisting non-Lagrangian theories (such as theories of Class S):
+
+* [[Gregory W. Moore]], [[Vivek Saxena]], [[Ranveer Kumar Singh]], *Topological Twisting of 4d N=2 Supersymmetric Field Theories* (2024). ([arXiv:2411.14396](https://arxiv.org/abs/2411.14396)).
