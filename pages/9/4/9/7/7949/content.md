@@ -26,7 +26,11 @@ The generalization of the notion of _[[image]]_ from [[category theory]] to [[(�
 Let $\mathbf{H}$ be an [[(∞,1)-topos]]. Then by the discussion at _[[(n-connected, n-truncated) factorization system]]_ there is a [[orthogonal factorization system in an (∞,1)-category|orthogonal factorization system]] 
 
 $$
-  (Epi(\mathbf{H}), Mono(\mathbf{H})) \subset Mor(\mathbf{H}) \times Mor(\mathbf{H})
+  \big(
+    Epi(\mathbf{H}), Mono(\mathbf{H})
+  \big) 
+  \,\subset\, 
+  Mor(\mathbf{H}) \times Mor(\mathbf{H})
 $$
 
 whose left class consists of the [[n-connected object in an (∞,1)-topos|(-1)-connected]] morphisms, the [[effective epimorphism in an (∞,1)-category|(∞,1)-effective epimorphisms]], while the right class consists of the [[n-truncated object in an (∞,1)-category|(-1)-truncated morphisms]] morphisms, hence the [[monomorphism in an (∞,1)-category|(∞,1)-monomorphisms]].
