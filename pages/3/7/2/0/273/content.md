@@ -298,9 +298,8 @@ Somewhat similarly, given any space $\mathscr{B}$ in any homotopy theory, the *[
 
 If we now think of a domain object $X \xrightarrow{\tau} B\mathscr{G}$ in this $B \mathscr{G}$-slice as a *twist* and of a codomain object $\mathscr{A} \sslash \mathscr{G} \xrightarrow{p}  B \mathscr{G}$ as a *[[local coefficient bundle]]*, then the corresponding non-abelian cohomology is just the homotopy classes of sections of the $\tau$-associated $\mathscr{A}$-fiber bundle, and as such is $\tau$-twisted $\mathscr{A}$-cohomology:
 
-
 \begin{imagefromfile}
-    "file_name": "TwistedNonalianCohomology.jpg",
+    "file_name": "TwistedNonalianCohomologyB.jpg",
     "width": 600,
     "unit": "px",
     "margin": {
