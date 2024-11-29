@@ -666,18 +666,186 @@ $$
   \end{array}
 $$
 
-### Ordinary Invariant Polynomials
+\linebreak
 
-(...)
+### Ordinary Character Map
+ {#OrdinaryCharacterMap}
+
+One more notion of cohomology available on [[smooth manifolds]] $X$ is *[[de Rham cohomology]]* $H^{n}_{\mathrm{dR}}(X)$, which we may understand -- non-traditionally but equivalently [FSS23 Prop. 6.4](#FSS23) -- as equivalence classes of closed differential forms modulo *[[concordance]]* of [[closed differential form|closed forms]]:
+$$
+  H^n_{\mathrm{dR}}(X)
+  \;\;
+  =
+  \;\;
+  \Omega^n_{\mathrm{dR}}(X)_{\mathrm{clsd}}
+  \big/
+  \Big(
+    \omega^{(0)} 
+      \,\sim\,
+    \omega^{(1)}
+    \;\;\;
+    \mbox{iff}
+    \;\;
+    \exists
+    \;
+    {
+      \widehat{\omega}
+      \,\in\,
+      \Omega^n_{\mathrm{dR}}(
+        [0,1]
+          \times 
+        X 
+      )_{\mathrm{clsd}}
+    }
+    \;
+    \mbox{s.t.}
+    \;\,
+    \widehat{\omega}_{\vert_0}
+    =
+    \omega^{(0)}
+    ,\;
+    \widehat{\omega}_{\vert_1}
+    =
+    \omega^{(1)}
+  \Big)
+  \,.
+$$
+By the [[de Rham isomorphism]], this, too, coincides with a special case of our general notion of cohomology, namely with abelian cohomology for coefficients the real numbers $\mathbb{R}$ (regarded as a [[discrete group|discrete]] topological group). 
+
+Combined with the cohomology operation induced by [[extension of scalars]] $\mathbb{Z} \hookrightarrow \mathbb{R}$, hence by the induced $B^n \mathbb{Z} \xrightarrow{\;} B^n \mathbb{R}$, this gives a map from [[integral cohomology|integral]] to [[de Rham cohomology]], which we may call the *ordinary character map*
+
+\begin{imagefromfile}
+    "file_name": "OrdinaryCharacterMap.jpg",
+    "width": 520,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Beware that this character map is not in general [[injective function|injective]], in fact it forgets exactly the *[[torsion subgroups]]* of the [[integral cohomology]] group.
+Nevertheless --- or rather: therefore! --- the ordinary character map provides the *first approximation* to integral cohomology, which is generally more readily computed than the full integral cohomology.
+
+In consequence, when applied to integral characteristic classes then the ordinary character gives a useful first approximation to ordinary non-abelian cohomology. Specifically for [[unitary group|unitary]] principal bundles we obtain a sequence of *Chern-de Rham classes*:
+
+\begin{imagefromfile}
+    "file_name": "ChernDeRhamClasses.jpg",
+    "width": 750,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+But since de Rham cohomology is a local differential-geometric notion, the question arises: 
+
+$$
+\begin{array}{c}
+Is \; it \; possible \; to \; construct \; the \; Chern\text{-}de \; Rham \; classes
+\\
+directly \; by \; differential \; geometry \; on \; principal \; bundles
+\\
+without \; going \; through \; these \; topological constructions?
+\end{array}
+$$
+
+[[principal connection|Connections]] are the answer to this question.
+
+\linebreak
 
 
 ### Ordinary Connections
+ {#OrdinaryConnections}
 
-(...)
+For $G$ a [[Lie group]] and $\mathfrak{g}$ its [[Lie algebra]], we denote the  ([[presheaf|functor assigning]]) flat [[Lie algebra valued differential forms|$\mathfrak{g}$-valued differential forms]] by
+$$
+  \Omega^1_{\mathrm{dR}}\big(
+    -
+    ;\,
+    \mathfrak{g}
+  \big)_{\mathrm{flat}}
+  \;\;
+  \coloneqq
+  \;\;
+  \Big\{
+    A \in \Omega^1_{\mathrm{dR}}(
+      -
+      ;\,
+      \mathfrak{g}
+    )
+    \;\Big\vert\;
+    \mathrm{d} A 
+    +
+    \tfrac{1}{2}
+    [A \wedge A]
+    \,=\,
+    0
+  \Big\}
+  \mathrlap{\,.}
+$$
 
-### Ordinary Chern-Weil Homomorphism
+There is a *universal* such flat form, called the *[[Maurer-Cartan form]]*
+$
+  \theta 
+  \;\in\;
+  \Omega^1_{\mathrm{dR}}(G;\, \mathfrak{g})_{\mathrm{flat}}
+$,
+in that the flat forms on any [[Cartesian space]] $\mathbb{R}^n$, $n \in \mathbb{N}$, are the [[pullback of differential forms|pullbacks]] of the MC-form along [[smooth maps]] $\phi \colon \mathbb{R}^n \xrightarrow{\;} G$, unique up to rigid translation along the group:
 
-(...)
+\begin{imagefromfile}
+    "file_name": "UniversalPropertyOfMCForm.jpg",
+    "width": 280,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+
+Hence on a trivial $G$-bundle $P = X \times G$ we have a flat form $A \,\coloneqq\, \mathrm{pr}_G^\ast \theta$ which restricts on each fiber to the MC-form.
+
+On a non-trivial principal $G$-bundle $P$ we still find a $\mathfrak{g}$-valued differential form $A \in \Omega^1_{\mathrm{dR}}(P;\, \mathfrak{g})$ that restricts on each fiber to the MC-form, but it may not itself be flat anymore, the failure being its *[[curvature 2-form|curvature]]*
+$$
+  F_A
+  \,\coloneqq\,
+  \mathrm{d}A
+  +
+  \tfrac{1}{2}
+  [A \wedge A]
+  \;\in\;
+  \Omega^2_{\mathrm{dR}}(P;\, \mathfrak{g})
+  \,,
+$$
+which is therefore a measure for the non-triviality of $P$, at least if we also demand that it is a *[[horizontal form]]* in that it vanishes on vectors tangent to the fibers -- in this case $A$ is called a *[[Ehresmann connection|principal connection]]*. 
+
+[[Cartan calculus]] then shows that all [$\mathrm{ad}$](adjoint+action#OfALieAlgebraOnItself)-*[[invariant polynomials]]* $\langle -, \cdots, -\rangle \;\in\; \mathrm{Sym}(\mathfrak{g}^\ast)^{\mathfrak{g}}$ evaluated on the curvature 2-form are in fact closed *[[basic differential form|basic forms]]* in that they are [[pullback of differential forms|pulled back]] from closed forms on the base manifold:
+
+\begin{imagefromfile}
+    "file_name": "EhresmannConditionsDiagramB.jpg",
+    "width": 580,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+Thus: *Connections on principal bundles extract de Rham classes on their base space measuring their non-triviality.*
+
+That these indeed give the above Chern-de Rham classes is the content of the *[[Chern-Weil theorem]]*.
 
 
 
