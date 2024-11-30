@@ -44,6 +44,17 @@ First inkling of matrix models from the [[large N limit]] of [[QCD]]:
 * A. Gonzalez-Arroyo, M. Okawa, _Twisted-Eguchi-Kawai model: A reduced model for large-
 $N$ lattice gauge theory_, Phys. Rev. D 27, 2397 (1983) ([doi:10.1103/PhysRevD.27.2397](https://doi.org/10.1103/PhysRevD.27.2397))
 
+### For 2D quantum gravity
+
+On matrix models for [[D=2 quantum gravity]]:
+
+* Edouard Brézin, Jean Zinn-Justin: *Renormalization Group Approach to Matrix Models*, Phys. Lett. B **288** (1992) 54-58 &lbrack;[arXiv:hep-th/9206035](https://arxiv.org/abs/hep-th/9206035), <a href="https://doi.org/10.1016/0370-2693(92)91953-7">doi:10.1016/0370-2693(92)91953-7</a>&rbrack;
+
+* Astrid Eichhorn, Tim Koslowski: *Continuum limit in matrix models for quantum gravity from the Functional Renormalization Group*, Phys. Rev. D **88** (2013) 084016 &lbrack;[arXiv:1309.1690](https://arxiv.org/abs/1309.1690), [doi:10.1103/PhysRevD.88.084016](https://doi.org/10.1103/PhysRevD.88.084016)&rbrack;
+
+
+
+
 
 ### In string/M-theory
 
