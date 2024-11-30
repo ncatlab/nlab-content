@@ -194,7 +194,7 @@ In this context, all of the non-natural aspects of the traditional theory of pri
 
 * accordingly there is no mismatch between the various definitions anymore as in the context of topological spaces: the condition of principality becomes equivalent to the quotient space condition.
 
-Moreover, all these fact are fairly direct consequences simply of the [[Giraud axioms]] that characterize [[(2,1)-toposes]] in the first place.
+Moreover, all these facts are fairly direct consequences simply of the [[Giraud axioms]] that characterize [[(2,1)-toposes]] in the first place.
 
 Conversely, the traditional theory nicely naturally embeds into a [[(2,1)-topos]] -- for instance that of [[(2,1)-sheaves]] over the [[site]] [[Top]] (or rather some [[small site|small]] [[dense subsite]]   thereof) -- and the higher topos theory helps to study it there. 
 
