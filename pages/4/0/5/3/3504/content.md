@@ -103,16 +103,16 @@ con aplicaciones en la Teor&#237;a Matem&#225;tica de la M&#250;sica_, Sociedad 
 
 Besides the monumental [Mazzola (2002)](#Mazzola02), the following employ category theory:
 
-* Drew Flieder, _Towards a mathematical foundation for music theory and composition: a theory of structure_, Journal of Mathematics and Music. ([pdf](https://www.tandfonline.com/doi/full/10.1080/17459737.2024.2379788?src=exp-la))
 
-* Thomas Noll, _The topos of triads_, pp.1-26 in Fripertinger, Reich (eds.),  _Colloquium on Mathematical Music Theory_,
-Grazer Math. Ber. **347** (2005). ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.134.5669))
+* Thomas Noll, _The topos of triads_, in: Fripertinger, Reich (eds.):  _Colloquium on Mathematical Music Theory_, Grazer Math. Ber. **347** (2005) 1-26 &lbrack;[researchgate](https://www.researchgate.net/publication/228614514_The_Topos_of_Triads)&rbrack;
 
-* Alexandre Popoff, Moreno Andreatta, Andree Ehresmann, _Groupoids and wreath products of musical transformations: A categorical approach from poly-Klumpenhouwer networks_, pp. 33-45 in Mathematics and Computation in Music. MCM 2019. Lecture Notes in Computer Science, vol 11502. Springer. ([pdf](https://hal.archives-ouvertes.fr/hal-02392889/document))
+* Alexandre Popoff, Moreno Andreatta, Andree Ehresmann, _Groupoids and wreath products of musical transformations: A categorical approach from poly-Klumpenhouwer networks_, in: *Mathematics and Computation in Music MCM 2019*, Lecture Notes in Computer Science **11502**, Springer (2019) 33-45 &lbrack;[hal-02392889v1](https://hal.science/hal-02392889v1), [doi:10.1007/978-3-030-21392-3](https://doi.org/10.1007/978-3-030-21392-3)&rbrack;
 
-* Alexandre Popoff, Jason Yust, _Meter networks: a categorical framework for metrical analysis_, Journal of Mathematic and Music. ([pdf](https://doi.org/10.1080/17459737.2020.1836687))
+* Alexandre Popoff, Jason Yust: _Meter networks: a categorical framework for metrical analysis_, Journal of Mathematics and Music (2020) &lbrack;[doi:10.1080/17459737.2020.1836687](https://doi.org/10.1080/17459737.2020.1836687)&rbrack;
 
-Methods of physics are employed to study tonality in
+* Drew Flieder: *Towards a mathematical foundation for music theory and composition: a theory of structure*, Journal of Mathematics and Music (2024) &lbrack;[doi:10.1080/17459737.2024.2379788](https://doi.org/10.1080/17459737.2024.2379788)&rbrack;
+
+Methods of [[physics]] are employed to study tonality in
 
 * Peter beim Graben, Reinhard Blutner, _Toward a Gauge Theory of Musical Forces_, pp. 99-111 in LNCS **10106** (2017).  ([draft](http://www.blutner.de/GrabenBlutnerQI16.pdf))
 
@@ -169,7 +169,7 @@ no.1-2 (2002) pp.57&#8211;126.
 
 *  J. Tennenbaum,  _The Foundations of Scientific Musical Tuning_, in Staff, Sigerson (eds.), _A Manual On the rudiments of Tuning and Registration_, Schiller Institute Washington 1992.
 
-* J. S. Walker, D. W. Gary, _Mathematics and Music: Composition, Perception, and Performance_, Taylor&Francis Boca Raton 2013.
+* J. S. Walker, D. W. Gary, _Mathematics and Music: Composition, Perception, and Performance_, Taylor & Francis Boca Raton 2013.
 
 
 
