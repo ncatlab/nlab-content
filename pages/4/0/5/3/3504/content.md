@@ -103,6 +103,8 @@ con aplicaciones en la Teor&#237;a Matem&#225;tica de la M&#250;sica_, Sociedad 
 
 Besides the monumental [Mazzola (2002)](#Mazzola02), the following employ category theory:
 
+* Drew Flieder, _Towards a mathematical foundation for music theory and composition: a theory of structure_, Journal of Mathematics and Music. ([pdf](https://www.tandfonline.com/doi/full/10.1080/17459737.2024.2379788?src=exp-la))
+
 * Thomas Noll, _The topos of triads_, pp.1-26 in Fripertinger, Reich (eds.),  _Colloquium on Mathematical Music Theory_,
 Grazer Math. Ber. **347** (2005). ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.134.5669))
 
