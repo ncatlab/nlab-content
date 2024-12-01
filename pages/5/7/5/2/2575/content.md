@@ -41,7 +41,7 @@ The Chern-Simons TQFT was introduced in ([Witten 1989](#Witten89)).
 
 The properties of the field configuration space of Chern-Simons
 theory depends on the properties of its [[gauge group]] $G$. If $G$ is 
-a [[simply connected topological space|simply connected]] [[Lie group]], then then configuration space is isomorphic simply to the space of [[Lie algebra valued 1-forms]] on the given base manifold. Generally, though, it is given by $G$-[[principal bundles]] with [[connection on a bundle|connection]]. We discuss the first case separately
+a [[simply connected topological space|simply connected]] [[Lie group]], then the configuration space is isomorphic simply to the space of [[Lie algebra valued 1-forms]] on the given base manifold. Generally, though, it is given by $G$-[[principal bundles]] with [[connection on a bundle|connection]]. We discuss the first case separately
 
 1. [for simply connected gauge groups](#ClassicalForSimplyConnectedGaugeGroup)
 
