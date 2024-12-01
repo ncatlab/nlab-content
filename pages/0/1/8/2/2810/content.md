@@ -39,7 +39,7 @@ An [[algebra over an operad]] over $E_k$ is an [[Ek-algebra]].
 
 **Remark**
 
-Many models for $E_\infty$-operads in the literature are not in fact cofibrant in the [[model structure on operads]], but are $\Sigma$-cofibrant. By the therem at [[model structure on algebras over an operad]], this is sufficient for their categories of algebras to present the correct $\infty$-categories of [[E-∞ algebras]].
+Many models for $E_\infty$-operads in the literature are not in fact cofibrant in the [[model structure on operads]], but are $\Sigma$-cofibrant. By the theorem at [[model structure on algebras over an operad]], this is sufficient for their categories of algebras to present the correct $\infty$-categories of [[E-∞ algebras]].
 
 (...)
 
