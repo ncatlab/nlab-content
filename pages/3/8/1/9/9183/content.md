@@ -128,6 +128,10 @@ On the apparent resolution of the [missing satellite problem](https://en.wikiped
 
 ### General
 
+Original articles:
+
+* [[Phillip James E. Peebles]]: *Large-scale background temperature and mass fluctuations due to scale-invariant primeval perturbations*, Astrophysical Journal, Part 2 - Letters to the Editor, vol. 263 (1982) L1-L5 &lbrack;[doi:10.1086/183911](https://ui.adsabs.harvard.edu/abs/1982ApJ...263L...1P/abstract), [pdf](https://articles.adsabs.harvard.edu/pdf/1982ApJ...263L...1P)&rbrack;
+
 Review:
 
 * {#Einasto09} Jaan Einasto, _Dark matter_ ([arXiv:0901.0632](https://arxiv.org/abs/0901.0632)) 2009
