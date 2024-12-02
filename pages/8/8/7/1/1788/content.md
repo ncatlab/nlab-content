@@ -1,4 +1,8 @@
 
+> The *global* completion of the higher tensor fields in 11D Sugra and on its M5-probes, via appropriate "flux quantization"-laws, has traditionally received little attention and is riddled by notorious subtleties, such as the half-integral shifts and non-linear Gauss laws in the bulk, and the non-linear self-duality and bulk-twisted Gauss law on the M5. I'll try to give an exposition of our approach to solving this issue with novel tools from geometric homotopy theory. Curiously, this interplays delicately with the super-space formulation of on-shell 11D SuGra and the super-embedding of its M5-probes -- which suggests that further M-theoretic completion ought to involve flux-quantization on super-space versions of exceptional geometry. I'll close with some recent observations in this regard revolving around a new role for the "hidden M-algebra".
+
+***
+
 ### Mix, isomix and compact linearly distributive categories
 
 There are a series of structural steps by which linearly distributive categories collapses to a monoidal categories as shown in the picture below. 
