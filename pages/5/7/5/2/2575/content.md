@@ -704,7 +704,7 @@ We want to make sense of the integral when the function $f$ is allowed to take o
  \[
  C = \sum_p n_p C_p
 \]
-In this way we can make sense of the integral $I$ by {\em defining} it as the integral over these new cycles ("contours"): 
+In this way we can make sense of the integral $I$ by *defining* it as the integral over these new cycles ("contours"): 
 \[
  I(\lambda)  = \sum_{\text{crit. points} p} n_p I_p(\lambda)
 \]
