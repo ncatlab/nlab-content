@@ -34,7 +34,7 @@ Let $C$ be a [[quasi-category]] and $c \in C$ one of its [[object]]s (a vertex i
 
 * The projection from the [[over quasi-category]] $C_{/c} \to C$ is a [[model structure on simplicial sets|trivial fibration of simplicial sets]].
 
-* For every object $d$ of $C$ the right hom Kan-complex into $d$ is contractible:
+* For every object $d$ of $C$ the right hom Kan-complex into $c$ is contractible:
 
 $$
   Hom_C^R(d,c) \simeq {*}
