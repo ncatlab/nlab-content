@@ -286,7 +286,8 @@ This last example was one of the first investigated by Whitehead and his proof a
 ## References
  {#References}
 
-The second axiom for a crossed module first appeared as footnote 35 on p. 422 of Whitehead's paper:
+
+Historically, the second axiom for a crossed module first appeared as footnote 35 on p. 422 of:
 
 * {#Whitehead41} [[J.H.C. Whitehead]], *On adding relations to homotopy groups*, Ann. of Math. **42** 2 (1941) 409–428 &lbrack;[doi:10.2307/1968907](https://doi.org/10.2307/1968907)&rbrack;;
 
@@ -315,6 +316,10 @@ further exposition:
 
 *  {#BaezLauda03} [[John Baez]], [[Aaron Lauda]], pp. 45 of: *HDA V: 2-Groups*, Theory and Applications of Categories **12** (2004) 423-491. &lbrack;[arXiv:math.QA/0307200](http://arxiv.org/abs/math.QA/0307200)&rbrack;
 
+Monograph:
+
+* [[Friedrich Wagemann]]: *Crossed Modules*, Studies in Mathematics **82**, De Gruyter (2021) &lbrack;[doi:10.1515/9783110750959](https://doi.org/10.1515/9783110750959)&rbrack;
+
  
 The following paper 
 
@@ -334,7 +339,11 @@ See also
 
 On crossed modules in other algebraic contexts:
 
-* A. S-T. Lue, _Cohomology of groups relative to a variety_, J. Algebra 69 (1) (1981) 155–174.
+* A. S-T. Lue, _Cohomology of groups relative to a variety_, J. Algebra **69** 1 (1981) 155–174
+
+* Johan Leray, Salim Rivière, [[Friedrich Wagemann]]: *Crossed modules and cohomology of algebras over an operad* &lbrack;[arXiv:2411.04614](https://arxiv.org/abs/2411.04614)&rbrack;
+  > (in the generality of [[algebras over an operad]])
+
 
 Discussion of crossed modules [[internalization|internal to]] the [[category]] of [[Lie-Rinehart algebras]]:
 
