@@ -31,6 +31,8 @@ A **mix category** is an LDC with a **mix map** ${ m}:\bot\to\top$, and a  such 
 \end{tikzcd}
 
 
+
+
 2) The map, $\mx_{A,B}: A \otimes B \to A \oplus B$, called the mixor is natural in both the arguments.
 
 An **isomix category** is a mix category in which the mix map is a natural isomorphism, $m: \bot \simeq \top$.
@@ -38,3 +40,4 @@ An **isomix category** is a mix category in which the mix map is a natural isomo
 In an isomix category, the mixor is automatically a natural transformation. The mix map being an isomorphism does not imply that the mixor is a natural isomorphism.
 
 An isomix category in which the mixor is a natural isomorphism is a compact LDC. The term "compact" here refers to the fact that both the monoidal structures are isomorphic. All compact LDCs are linearly equivalent to the underlying monoidal categories on the tensor $\otimes$ and the par $\oplus$.
+
