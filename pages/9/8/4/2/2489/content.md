@@ -118,7 +118,12 @@ On the history of this and related concepts:
 
 The [[crossed modules]] (in groups or Lie groups) and the differential crossed modules are examples of the [[internal crossed module]]s. A good theory of them is developed in [[semiabelian categories]]. 
 
-* [[George Janelidze]], _Internal crossed modules_, Georgian Math. J. 10 (2003) 99114 ([journal](http://www.heldermann.de/GMJ/GMJ10/GMJ101/gmj1008.htm)).
+* [[George Janelidze]], _Internal crossed modules_, Georgian Math. J. 10 (2003) 99114 ([journal](http://www.heldermann.de/GMJ/GMJ10/GMJ101/gmj1008.htm))
+
+Further discussion:
+
+* [[Friedrich Wagemann]]: *On Lie algebra crossed modules*, Comm. Algebra **34** 5 (2006) 1699-1722 &lbrack;[arXiv:math/0611375](https://arxiv.org/abs/math/0611375), [doi:10.1080/00927870500542705](https://doi.org/10.1080/00927870500542705)&rbrack;
+
 
 
 
