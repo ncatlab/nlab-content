@@ -28,7 +28,7 @@ A _fuzzy sphere_ is a variant of an [[n-sphere]] in [[noncommutative geometry]].
 ### Fuzzy 2-sphere
  {#Fuzzy2SphereDefinition}
 
-For $N \in \mathbb{N}$, $N \geq 2$, the _fuzzy 2-sphere_ of $N$ bits is the [[formal duality|formal dual]] to the [[associative algebra]] which is the sub-algebra in the [[matrix algebra]] $Mat_{N \times N}$ generated from the elements of the $N$-dimensional [[complex numbers|complex]] [[irreducible representation|irreducible]] [[Lie algebra representation]] of [[su(2)]].
+For $2 \leq N \in \mathbb{N}$, the _fuzzy 2-sphere_ of $N$ "bits" is the [[formal duality|formal dual]] to the [[associative algebra]] which is the sub-algebra in the [[matrix algebra]] $Mat_{N \times N}$ generated from the elements of the $N$-dimensional [[complex numbers|complex]] [[irreducible representation|irreducible]] [[Lie algebra representation]] of [[su(2)]].
 
 We now say this more in detail:
 
@@ -39,12 +39,13 @@ First to introduce relevant notation and to set out the proper choices of normal
 
 \linebreak
 
-With $\mathfrak{su}(2)$ the [[Lie algebra]] [[su(2)]] of [[SU(2)]], with [[complexification]] the [[special linear Lie algebra]] [[sl(2)]] (see [here](su2#Complexification))
+With [[su(2)|$\mathfrak{su}(2)$]] the [[Lie algebra]] of [[SU(2)]], whose [[complexification]] is the [[special linear Lie algebra]] [[sl(2)]] (see [here](su2#Complexification))
 
 $$
   \mathfrak{su}(2) \otimes_{\mathbb{R}} \mathbb{C}
   \;\simeq\;
   \mathfrak{sl}(2,\mathbb{C})
+  \,,
 $$
 
 write
@@ -107,24 +108,26 @@ In the discussion of [[angular momentum]] in [[quantum mechanics]] the image
   Mat_{N \times N}
 \]
 
-of the [[Casimir element]] (eq:TheUnrepresentedR2) under the representation (eq:TheNDimensionalRepresentation) is traditionally denoted $J^2$, and the canonical [[linear basis]] for the N-dimensional representation $\rho$ (eq:TheNDimensionalRepresentation) is then traditionally denoted $\{\vert j, m \rangle\}_{m = -j}^{m = +j}$ with
+of the [[Casimir element]] (eq:TheUnrepresentedR2) under the representation (eq:TheNDimensionalRepresentation) is traditionally denoted $J^2$, and the canonical [[linear basis]] for the N-dimensional representation $\rho$ (eq:TheNDimensionalRepresentation) is then traditionally denoted $\big\{\left\vert j, m \right\rangle\big\}_{m = -j}^{m = +j}$, with
 
 \[
   \label{EigenvaluesOfCasimir}
-  J^2 \vert j,m\rangle \;=\; j(j+1)
-  \phantom{AAA}
+  J^2 \left\vert j,m \right\rangle \;=\; j(j+1)
+  \phantom{--}
+  \text{for}
+  \phantom{-}
   m \in \{-j, -j+1, \cdots, j-1, j\}
-  \,.
+  \,,
 \]
 
 hence with 
 
 $$
-  N(j) = 2 j + 1  
+  N(j) \,=\, 2 j + 1  
   \;\;
   \Leftrightarrow
   \;\;
-  j(N) = \tfrac{1}{2}(N - 1)
+  j(N) \,=\, \tfrac{1}{2}(N - 1)
   \,.
 $$
 
@@ -276,7 +279,7 @@ $$
   \end{aligned}   
 $$
 
-In this vein, one defines the fuzzy refinement of the [[integral]] of functions over the [[2-sphere]], against its canonical [[volume form]], to be given by the matrix [[trace]], normalized as follows
+In this vein, one defines the fuzzy refinement of the [[integral]] of functions over the [[2-sphere]] against its canonical [[volume form]], to be given by the matrix [[trace]], normalized as follows
 
 \[
   \label{FuzzyS2Integration}
@@ -393,6 +396,9 @@ The [[fuzzy spheres]] appear in [[D-brane geometry]]:
 ## References
 
 ### General
+
+* Ludwik Dabrowski: *The Garden of Quantum Spheres*, Banach Center Publications **61** (2003) 37-48 &lbrack;[arXiv:math/0212264](https://arxiv.org/abs/math/0212264), [dml:282292](https://eudml.org/doc/282292)&rbrack;
+
 
 Review in the context of [[D-brane geometry]], [[matrix models]] of [[string theory]]/[[M-theory]] ([[BFSS matrix model]], [[BMN matrix model]], [[IKKT matrix model]]):
 
