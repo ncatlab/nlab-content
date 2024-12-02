@@ -1,5 +1,3 @@
-# Clubs in a 2-category
-
 * table of contents
 {: toc}
 
