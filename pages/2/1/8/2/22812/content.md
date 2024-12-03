@@ -7,7 +7,7 @@ This page compiles pointers for the collection of seminar notes
 
   Extraits du Séminaire Bourbaki 1957-1962
 
-  * original: [pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/FGA.pdf), [[FGA.pdf:file]]
+  * original: [pdf](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/FGA.pdf), [[FGA.pdf:file]]
 
     English translation by [[Tim Hosgood]]: [web version](https://translations.thosgood.com/fga/).
 
