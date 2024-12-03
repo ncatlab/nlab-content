@@ -201,7 +201,7 @@ $$
 
 which may be thought of as [[generators and relations|generated]] from a $B$-[[indexed set]] of mutually orthogonal [[projection operators]].
 
-Then the induxed $\mathbb{1}^B$-writer monad on $k$-[[VectorSpaces]] (in the sense [above](#DefinitionInMonoidalCategory)) is [[isomorphism|isomorphic]] to the linear version of the $B$-[[reader monad]].
+Then the induced $\mathbb{1}^B$-writer monad on $k$-[[VectorSpaces]] (in the sense [above](#DefinitionInMonoidalCategory)) is [[isomorphism|isomorphic]] to the linear version of the $B$-[[reader monad]].
 This is related to the notion of [[quantum measurement]], and as such is discussed at: *[[quantum reader monad]]*. 
 
 
