@@ -23,6 +23,12 @@ On [[weak countable choice]]:
 
 * [[Fred Richman]], [[Douglas Bridges]], Peter Schuster, *A weak countable choice principle*. Proceedings of the American Mathematical Society **128** 9 (2000) 2749-2752 &lbrack;[doi:10.1090/S0002-9939-00-05327-2](http://dx.doi.org/10.1090/S0002-9939-00-05327-2)&rbrack;
 
+On [[constructive mathematics]]:
+
+* [[Douglas Bridges]]: *Introducing constructive mathematics*, talk notes (~2015) &lbrack;[[Bridges-IntroducingConstructiveMath.pdf:file]]&rbrack;
+
+
+
 category:people
 
 [[!redirects Douglas S. Bridges]]
