@@ -70,7 +70,9 @@ The following general abstract statement of the homotopy hypothesis is often use
 
 There is an [[equivalence of (∞,1)-categories]]
 
-$(\Pi \dashv |-|) : $ [[Top]] $\simeq$ [[∞Grpd]].
+$(\Pi \dashv |-|) : $ [[Top]]$[W^{-1}]$ $\simeq$ [[∞Grpd]]
+
+where $W$ denotes the weak homotopy equivalences, and $[W^{-1}]$ denotes the $(\infty,1)$-categorical localization.
 
 =--
 
