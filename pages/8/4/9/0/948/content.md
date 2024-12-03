@@ -17,6 +17,7 @@
 =--
 =--
 
+
 # Constructive mathematics
 * table of contents
 {: toc}
@@ -301,13 +302,13 @@ Early monographs:
 
 Gentle introductions:
 
-* [[Douglas Bridges]], _Introducing constructive mathematics_, Lecture Notes, Nis 2013 ([pdf](http://www2.masfak.ni.ac.rs/cmfp2013/Nis%20lecture%20170113.pdf))
+* [[Douglas Bridges]]: *Introducing constructive mathematics*, talk notes (~2015) &lbrack;[[Bridges-IntroducingConstructiveMath.pdf:file]]&rbrack;
 
 * [[Andrej Bauer]]: _Five Stages of Accepting Constructive Mathematics_, Bull. Amer. Math. Soc. **54** (2017)  481-498 &lbrack;[doi:10.1090/bull/1556](http://dx.doi.org/10.1090/bull/1556), [pdf](https://www.ams.org/journals/bull/2017-54-03/S0273-0979-2016-01556-4/S0273-0979-2016-01556-4.pdf)&rbrack;
 
   based on a talk at IAS (March 18, 2013) &lbrack;[video](http://video.ias.edu/members/1213/0318-AndrejBauer)&rbrack;
 
-* [[Fred Richman]], _[Interview with a constructive mathematician](https://projecteuclid.org/journals/modern-logic/volume-6/issue-3/Interview-with-a-constructive-mathematician/rml/1204835729.full)_,  Modern Logic 6 (1996), no. 3, 247&#8211;271 ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=1400617))
+* [[Fred Richman]], _[Interview with a constructive mathematician](https://projecteuclid.org/journals/modern-logic/volume-6/issue-3/Interview-with-a-constructive-mathematician/rml/1204835729.full)_,  Modern Logic **6** 3 (1996) 247-271 &lbrack;[MathSciNet](http://www.ams.org/mathscinet-getitem?mr=1400617)&rbrack;
 
 * {#Blechschmidt15} [[Ingo Blechschmidt]], _Double-negation translation and CPS transforms_, 2015 ([pdf](http://rawgit.com/iblech/talk-constructive-mathematics/master/negneg-translation-notes.pdf))
 
