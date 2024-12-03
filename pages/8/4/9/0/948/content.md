@@ -307,7 +307,7 @@ Gentle introductions:
 
   based on a talk at IAS (March 18, 2013) &lbrack;[video](http://video.ias.edu/members/1213/0318-AndrejBauer)&rbrack;
 
-* [[Fred Richman]], _[Interview with a constructive mathematician](http://math.fau.edu/richman/docs/intrview.html)_,  Modern Logic 6 (1996), no. 3, 247&#8211;271 ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=1400617))
+* [[Fred Richman]], _[Interview with a constructive mathematician](https://projecteuclid.org/journals/modern-logic/volume-6/issue-3/Interview-with-a-constructive-mathematician/rml/1204835729.full)_,  Modern Logic 6 (1996), no. 3, 247&#8211;271 ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=1400617))
 
 * {#Blechschmidt15} [[Ingo Blechschmidt]], _Double-negation translation and CPS transforms_, 2015 ([pdf](http://rawgit.com/iblech/talk-constructive-mathematics/master/negneg-translation-notes.pdf))
 
