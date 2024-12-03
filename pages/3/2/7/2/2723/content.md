@@ -59,6 +59,8 @@ Relation to the [[RNS string]]:
 
 * [[Nathan Berkovits]], *Manifest Spacetime Supersymmetry and the Superstring* ([arXiv:2106.04448](https://arxiv.org/abs/2106.04448))
 
+* [[Nathan Berkovits]]: *Equivalence Proof of Pure Spinor and Ramond-Neveu-Schwarz Superstring Amplitudes* &lbrack;[arXiv:2411.19778](https://arxiv.org/abs/2411.19778)&rbrack;
+
 
 
 Relation to the [[Green-Schwarz superstring]]:
