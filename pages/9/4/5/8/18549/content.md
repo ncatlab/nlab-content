@@ -139,7 +139,7 @@ $$
 * {#Melrose03} [[Richard Melrose]], chapter 1 of _Introduction to microlocal analysis_, 2003 ([pdf](http://www-math.mit.edu/~rbm/iml90.pdf))
 
 
-* [[Sergiu Klainerman]], chapter 5 of _Lecture notes in analysis_, 2011 ([pdf](https://web.math.princeton.edu/~seri/homepage/courses/Analysis2011.pdf))
+* [[Sergiu Klainerman]], chapter 5 of _Lecture notes in analysis_, 2011 ([pdf](https://web.math.princeton.edu/~seri/courses/Analysis2011.pdf))
 
 
 [[!redirects Fourie transforms of distributions]]
