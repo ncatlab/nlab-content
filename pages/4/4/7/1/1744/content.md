@@ -182,7 +182,7 @@ induces an [[isomorphism]] on all [[simplicial homotopy groups]] in degree $\lt 
 It follows from the above that for $X$ a [[Kan complex]], the sequence
 
 $$
-  X = \underset{\leftarrow}{\lim}\, cosk_n X \to \cdots \to cosk_{n+1} X \to cosk_{n} X \to \cdots \to *
+  X = \underset{\leftarrow}{\lim}\; cosk_n X \to \cdots \to cosk_{n+1} X \to cosk_{n} X \to \cdots \to *
 $$
 
 is a [[Postnikov tower]] for $X$.
