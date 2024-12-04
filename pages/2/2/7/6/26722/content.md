@@ -150,12 +150,12 @@ $$
 ### As incomplete Tambara functors
 
 In [CHLL 24](#Tambara), it is shown that the equivariant Day convolution [[equivariant symmetric monoidal category|G-symmetric monoidal structure]] structure on the equivariant functor category $\mathrm{Fun}(\mathrm{Span}(\underline{\mathbb{F}_G}), \mathcal{C})$ restricts to a $G$-symmetric monoidal structure on the [[G-∞-category]] $\underline{\mathrm{CMon}}_G(\mathcal{C})$ of [[G-commutative monoids]] in $\mathcal{C}$.
-Then, [CHLL 24 Theorem B](#Tambara) shows the following.
+Then, [CHLL 24 Theorem B](#Tambara) concludes that $\mathcal{N}_{I\infty}$-algebras are homotopy-coherent [[Tambara functor|incomplete Tambra functors]].
 
 \begin{theorem}
   There is a fully faithful functor
 $$
-  \mathrm{CAlg}_I(\underline{\mathrm{Sp}}_G^{\otimes}) \hookrightarrow \mathrm{Fun}^{\times}(\mathrm{BiSpan}(\mathbb{F}_G), \mathcal{S})
+  \mathrm{CAlg}_I(\underline{\mathrm{Sp}}_G^{\otimes}) \hookrightarrow \mathrm{Fun}^{\times}(\mathrm{BiSpan}_I(\mathbb{F}_G), \mathcal{S})
 $$
   whose image consists of the functors whose $H$-value "additive" commutative monoid is grouplike for all $H \subset G$.
 \end{theorem} 
