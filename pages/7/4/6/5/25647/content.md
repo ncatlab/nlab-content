@@ -6,6 +6,7 @@ Do not include recent references that are likely still to appear. If the author 
 
 |Title|Author|Cited in|Likely appeared as|URL/Comments|
 |-----|------|--------|----------------------|------------|
+|*Introduction to Bicategories II*|[[Jean Bénabou]]|*Introduction to Bicategories*, [[Jean Bénabou]] (1967)| -- | Intended to study [[modifications]]; 2-dimensional [[representability]], [[adjointness]], [[equivalence]], [[limits]]; bicategories in which the composition functors have right adjoints; examples|
 |*Produits tensoriels d'esquisses*|[[Christian Lair]]|*Categories of sketched structures*, [[Andrée Bastiani]] and [[Charles Ehresmann]] (1972)| -- | On the tensor product of [[sketches]]|
 |*Relative functorial semantics, II: Beck's Theorem*|[[Fred Linton]]|*Relative Functorial Semantics, III: Triples vs. Theories*, [[Fred Linton]] (1974)| -- | |
 |*Extracts from the Archives of Categorical Folklore, I: Pro-categories*|[[Fred Linton]]|*Relative Functorial Semantics, III: Triples vs. Theories*, [[Fred Linton]] (1974)| -- | |
