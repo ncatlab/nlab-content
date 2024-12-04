@@ -307,5 +307,10 @@ Constructing [[modular functors]] from [[pivotal category|pivotal]] [[bicategori
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Yang Yang]], *String-net models for pivotal bicategories* &lbrack;[arXiv:2302.01468](https://arxiv.org/abs/2302.01468)&rbrack;
 
+Relation to [[factorization homology]] of [[surfaces]]:
+
+* [[Adrien Brochier]], [[Lukas Woike]]: *A Classification of Modular Functors via Factorization Homology* &lbrack;[arXiv:2212.11259](https://arxiv.org/abs/2212.11259)&rbrack;
+
+
 
 [[!redirects modular functors]]
