@@ -3654,6 +3654,8 @@ Neumann algebras**
 
   **Skein Algebras and Skein Modules Beyond Semisimplicity**
 
+  slides: [[Woike-CQTS-Nov2024.pdf:file]]
+
   cf. [arXiv:2409.17047](https://arxiv.org/abs/2409.17047), [arXiv:2212.11259](https://arxiv.org/abs/2212.11259)
 
   > Skein-theoretic methods play an important role for the construction of [[topological field theories]] and related structures. Classically, these methods use [[ribbon categories|ribbon]] [[fusion categories]] as an input and hence need [[semisimple category|semisimplicity]]. In this talk, I will discuss generalizations of skein theory that work beyond semisimplicity, and partly even without [[rigid monoidal category|rigid]] [[dual object|duals]]. To this end, I will give an overview of different joint papers with [[Adrien Brochier|Brochier]] and [[Lukas Müller|Müller]] and explain the relation to work of Costantino-Geer-Patureau-Mirand, Brown-Haïoun and Runkel-Schweigert-Tham on admissible skeins.
