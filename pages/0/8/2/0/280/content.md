@@ -245,6 +245,8 @@ An action of a set $X$ in itself is also called a __[[binary operation]]__, and 
 
 * [[coaction]]
 
+* [[action groupoid]]
+
 * [[representation]], [[∞-representation]]
 
 * [[module]], [[∞-module]]
