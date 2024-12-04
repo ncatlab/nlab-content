@@ -359,6 +359,10 @@ and further discussed in:
 
 * [[Charles Walker]], _Bicategories of spans as generic bicategories_, [arXiv:2002.10334](https://arxiv.org/abs/2002.10334) (2020).
 
+See also Theorem 5.2.1 and 5.3.7 of:
+
+* Paul Balmer, and Ivo Dell'Ambrogio. _Mackey 2-functors and Mackey 2-motives_. [arXiv:1808.04902](https://arxiv.org/abs/1808.04902) (2018).
+
 The structure of a [[k-tuply monoidal (n,r)-category|monoidal]] [[tricategory]] on spans in [[2-categories]] is discussed in  
 
 * {#Hoffnung} [[Alex Hoffnung]], _Spans in 2-Categories: A monoidal tricategory_ ([arXiv:1112.0560](http://arxiv.org/abs/1112.0560))
