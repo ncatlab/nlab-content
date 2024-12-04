@@ -3644,6 +3644,21 @@ Neumann algebras**
   > [[exceptional field theory|Exceptional field theory]] has been a useful technique in the investigation of [[supergravity]]. In this talk I will demonstrate that it can be applied to the [[world-volume]] point of view as well, as an alternative [[symmetry]] principle to [[supersymmetry]]. I present the construction of half-[[BPS state|BPS]] [[brane]] [[sigma models]] in [[string theory|string]] and [[M-theory]] using only data from [[exceptional generalised geometry]]. When employing exceptional generalisd geometry these sigma models take a universal form in their [[Hamiltonian]] formulation which is expected to extend also to the enigmatic [[exotic branes]]. (Based on [2402.10269](https://arxiv.org/abs/2402.10269))
 
 
+\linebreak
+
+### Dec 2024
+
+* {#WoikeDec2024} 04 Dec 2024
+
+  [[Lukas Woike]] (Bourgogne University, France): 
+
+  **Skein Algebras and Skein Modules Beyond Semisimplicity**
+
+  cf. [arXiv:2409.17047](https://arxiv.org/abs/2409.17047), [arXiv:2212.11259](https://arxiv.org/abs/2212.11259)
+
+  > Skein-theoretic methods play an important role for the construction of [[topological field theories]] and related structures. Classically, these methods use [[ribbon categories|ribbon]] [[fusion categories]] as an input and hence need [[semisimple category|semisimplicity]]. In this talk, I will discuss generalizations of skein theory that work beyond semisimplicity, and partly even without [[rigid monoidal category|rigid]] [[dual object|duals]]. To this end, I will give an overview of different joint papers with [[Adrien Brochier|Brochier]] and [[Lukas Müller|Müller]] and explain the relation to work of Costantino-Geer-Patureau-Mirand, Brown-Haïoun and Runkel-Schweigert-Tham on admissible skeins.
+
+
 \linebreak  
 
 
