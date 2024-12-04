@@ -15,6 +15,10 @@ On [[4d TQFTs]] from [[fully dualizable object|fully dualizable]] [[braided mono
 
 * [[Adrien Brochier]], [[David Jordan]], [[Pavel Safronov]], [[Noah Snyder]], _Invertible braided tensor categories_ ([arXiv:2003.13812](https://arxiv.org/abs/2003.13812))
 
+On [[modular functors]] in terms of [[factorization homology]] of [[surfaces]]:
+
+* [[Adrien Brochier]], [[Lukas Woike]]: *A Classification of Modular Functors via Factorization Homology* &lbrack;[arXiv:2212.11259](https://arxiv.org/abs/2212.11259)&rbrack;
+
 
 
 category: people
