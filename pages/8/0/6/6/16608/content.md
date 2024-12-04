@@ -11,14 +11,6 @@
 >A Mackey functor is represented by a "$G$-equivariant Eilenberg&#8211;MacLane spectrum", ... a Tambara functor is represented by a commutative "$G$-equivariant Eilenberg-MacLane ring spectrum" ([AB15](#AB15))
 
 
-## Examples
-
-Burnside rings, representation rings, zeroth stable homotopy group of a genuine equivariant $E_{\infty}$-ring.
-
->the homotopy category of Eilenberg MacLane commutative ring spectra is equivalent to the category of Tambara functors. ([Ull13](#Ull13))
-
-Some other examples are related to [[Witt-Burnside functors]], Witt rings in the sense of Dress and Siebeneicher.
-
 ## Definition
 ### In parts
 Given a sequence of maps of finite $G$-sets $X \xrightarrow{g} Y \xrightarrow{h} Z$, we define **distributor** diagram
@@ -113,6 +105,114 @@ whose blue inner diagram is defined by the distributor
   A $G$-semi-Tambara functor is a **Tambara functor** if its underlying additive semi-Mackey functor is a Mackey functor.
 \end{definition}
 
+In this formalism, given a semi-Tambara functor $X$, restriction $R_K^H\colon X(H) \rightarrow X(K)$ is implemented by functoriality under the bispan 
+\[
+  G/H \leftarrow G/K = G/K = G/K,
+\]
+norms by 
+\[
+  G/K = G/K \rightarrow G/H = G/H,
+\]
+and transfers by
+\[
+  G/K = G/K = G/K \rightarrow G/H.
+\]
+
+## Examples
+
+(under construction...)
+
+Burnside rings, representation rings, zeroth stable homotopy group of a genuine equivariant $E_{\infty}$-ring.
+
+>the homotopy category of Eilenberg MacLane commutative ring spectra is equivalent to the category of Tambara functors. ([Ull13](#Ull13))
+
+Some other examples are related to [[Witt-Burnside functors]], Witt rings in the sense of Dress and Siebeneicher.
+
+### The Borel construction
+Given $S$ a [[semiring]] with $G$-action through homomorphisms, we have a coefficient system $S^{\bullet}$ whose $[G/H]$-value is the invariants $S^H$.
+We give this the additional structure of a _semi-mackey functor_ by first using the semiring isomorphism
+\[
+  S^H \simeq \mathrm{Hom}^G(G/H,S)
+\]
+under the pointwise semiring structure, then given a map of transitive $G$-sets $r\colon G/K \rightarrow G/H$, writing
+\[
+  T_K^H(f)(x) = \sum_{r(y) = x}  f(y).
+\]
+We then give this the structure of a _Tambara functor_ along $q\colon G/K \rightarrow G/H$ by the formula
+\[
+  N_K^H(f)(x) = \prod_{q(y) = x}  f(y)
+\]
+In particular, we may view $T_K^H$ as being defined by a "left Kan extension" formula and $N_K^H$ via "right Kan extension."
+
+Note that restricting to the value on $G/e$ yields a functor $U\colon \mathrm{sTamb}_{G}(\mathcal{C}) \rightarrow \mathrm{sRing}_{G}(\mathcal{C})$.
+The following is Example 6.3 of [Strickland 12]{#Strickland12}
+
+\begin{proposition}
+  The Borel construction is right adjoint to $U\colon \mathrm{sTamb}_{G}(\mathcal{C}) \rightarrow \mathrm{sRing}_{G}(\mathcal{C})$.
+\end{proposition}
+
+### Representation semi-Tambara functors
+Given $H \subset G$ a subgroup, note that (isomorphism classes of) $H$-representations correspond with $G$-equivariant vector bundles over $[G/H]$:
+\[
+  \mathrm{Vect}_k^{G}([G/H]) \simeq \mathrm{Rep}^H.
+\]
+Restriction gives these the structure of a coefficient system;
+we may give these a semiring structure under $(\oplus,\otimes)$.
+Moreover, we lift this to a semi-Mackey structure
+with transfers given by induction
+\[ 
+  T_K^H(V)_x \simeq \bigoplus_{r(y) = x} V_y 
+\]
+and norms given by tensor-induction
+\[ 
+  N_K^H(V)_x \simeq \bigotimes\limits_{q(y) = x} V_y. 
+\]
+
+### An explicit example 
+Let $G = C_2 = \{ e, \sigma \}$.
+Then, a *C_2*-Mackey functor consists of the data
+
+* an Abelian group $X$ with $C_2$-action,
+* an Abelian group $Y$,
+* a $C_2$-equivariant restriction homomorphism $R\colon Y \rightarrow X$ (under trivial action on $Y$), and 
+* a $C_2$-equivariant transfer homomorphism $T\colon X \rightarrow Y$,
+
+subject to the *double coset formula*
+
+\[
+  RT(a) = a + \sigma a.
+\]
+
+Thus, a $C_2$-Tambara functor consists of 
+* a semiring $X$ with $C_2$-action,
+* a semiring  $Y$,
+* a $C_2$-equivariant semiring homomorphism $R\colon Y \rightarrow X$ (under trivial action on $Y$), 
+* a $C_2$-equivariant additive map $T\colon X \rightarrow Y$, and
+* a $C_2$-equivariant multiplicative map $N\colon X \rightarrow Y$,
+
+subject to the double coset formulas
+
+* $RT(a) = a + \sigma a$
+ 
+* $RN(a) = a \cdot \sigma a$
+
+and the distributivity formula
+
+* $T(a R(b)) = T(a) b.$
+
+We may explicitly define a $C_2$-Tambara funcgtor by underlying coefficient system semiring $X = \mathbb{Z}[\alpha] / \alpha^2$, $Y = \mathbb{Z}[\beta, \gamma] / (\beta^2, \beta \gamma, \gamma^2, 2\gamma)$, under trivial $C_2$-action and restriction map
+\[
+  R(i  + j\beta + k\gamma) = i + 2j\alpha.
+\]
+We may give this a Tambara structure by transfer
+\[
+  T(i + j\alpha) = 2i + j\beta
+\]
+and norm
+\[
+  N(i + j\alpha) = i^2 + ij\beta + j^2 \gamma.
+\]
+
 ## Related concepts
 
 * [[Mackey functor]]
@@ -122,18 +222,71 @@ whose blue inner diagram is defined by the distributor
 
 ##References
 
+Originally,
+
 * {#Tam93} [[Daisuke Tambara]], _On multiplicative transfer_, Comm. Algebra 21 (1993), no. 4, 1393&#8211;1420 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/tambara.pdf)).
 
-* [[Neil Strickland]], _Tambara Functors_, [arXiv:1205.2516](http://arxiv.org/abs/1205.2516)
-* [[Morten Brun]], _Witt vectors and Tambara functors_, [arXiv:math/0304495](http://arxiv.org/abs/math/0304495)
+Other references in homotopy theory,
 
-* {#AB15} [[Vigleik Angeltveit]] and [[Anna Marie Bohmann]], _Graded Tambara Functors_, ([arXiv:1504.00668](http://arxiv.org/abs/1504.00668))
-[[!redirects Tambara functors]]
-* {#Ull13} [[John Ullman]], _Tambara Functors and Commutative Ring Spectra_, ([arXiv:1304.4912](http://arxiv.org/abs/1304.4912))
+* {#Strickland12} [[Neil Strickland]], _Tambara Functors_, [arXiv:1205.2516](http://arxiv.org/abs/1205.2516)
+
 * [[Michael Hill]], _Derived Equivariant Algebraic Geometry_, ([lecture and notes](https://www.msri.org/workshops/689/schedules/18236))
 * Kristen Mazur, _On the Structure of Mackey Functors and Tambara Functors_, ([thesis](http://sites.lafayette.edu/mazurk/files/2013/07/Mazur-Thesis-4292013.pdf))
+
+* {#Ull13} [[John Ullman]], _Tambara Functors and Commutative Ring Spectra_, ([arXiv:1304.4912](http://arxiv.org/abs/1304.4912))
+
 * {#Hill17} [[Michael Hill]], _On the Andre-Quillen homology of Tambara functors_, ([arXiv:1701.06219](https://arxiv.org/abs/1701.06219))
-* [[Andrew Blumberg]], [[Michael Hill]], _Incomplete Tambara functors_, ([arXiv:1603.03292](https://arxiv.org/abs/1603.03292))
+
+On variations of Tambara functors,
+
+* {#AB15} [[Vigleik Angeltveit]] and [[Anna Marie Bohmann]], _Graded Tambara Functors_, ([arXiv:1504.00668](http://arxiv.org/abs/1504.00668))
+
+* [[Michael Hill]], [[Andrew Blumberg]], _Incomplete Tambara functors_, ([arXiv:1603.03292](https://arxiv.org/abs/1603.03292))
+
+* [[Michael Hill]], [[Andrew Blumberg]], _The right adjoint to the equivariant operadic forgetful functor on incomplete Tambara functors_, ([arXiv:1711.11246](https://arxiv.org/abs/1711.11246))
+
+* [[Michael Hill]], [[Andrew Blumberg]], _Bi-incomplete Tambara functors_, ([arXiv:2104.10521](https://arxiv.org/abs/2104.10521))
+
+* [[Michael Hill]], [[David Mehrle]], [[J.D. Quigley]], _Free incomplete Tambara functors are almost never flat_, ([arXiv:2105.11513](https://arxiv.org/abs/2105.11513))
+
+* [[David Chan]], _Bi-incomplete Tambara functors as O-commutative monoids_, ([arXiv:2208.05555](https://arxiv.org/abs/2208.05555))
+
+* [[Ben Spitz]], _Norms of Generalized Mackey and Tambara Functors_, ([arXiv:2409.13131](https://arxiv.org/abs/2409.13131))
+
+[[!redirects Tambara functors]]
+
+
+Relationship with Witt vectors,
+
+* [[Morten Brun]], _Witt vectors and Tambara functors_, ([arXiv:math/0304495](http://arxiv.org/abs/math/0304495)),
+
+* [[Hiroyuki Nakaoka]], _Tambarization of a Mackey functor and its application to the Witt-Burnside construction_, ([arXiv:1010.0812](https://arxiv.org/abs/1010.0812))
+
+In algebra,
+
+* [[Hiroyuki Nakaoka]], _A generalization of The Dress construction for a Tambara functor, and polynomial Tambara functors_, ([arXiv:1012.1911](https://arxiv.org/abs/1012.1911))
+
+* [[Hiroyuki Nakaoka]], _Ideals of Tambara functors_ ([arXiv:1101.5982](https://arxiv.org/abs/1101.5982)),
+
+* [[Hiroyuki Nakaoka]], _On the fractions of semi-Mackey and Tambara functors_ ([arXiv:1103.3991](https://arxiv.org/abs/1103.3991)),
+
+* [[Hiroyuki Nakaoka]], _Biset transformations of Tambara functors_ ([arXiv:1105.0714](https://arxiv.org/abs/1105.0714)),
+
+* [[Hiroyuki Nakaoka]], _Spectrum of the Burnside Tambara functor on a cyclic $p$-group_ ([arXiv:1301.1453](https://arxiv.org/abs/1301.1453)).
+
+* Maxine Calle, Sam Ginnett, _The Spectrum of the Burnside Tambara Functor of a Cyclic Group_, ([arXiv:2011.04729](https://arxiv.org/abs/2011.04729))
+
+* Noah Wisdom, _A classification of $C_{p^n}$-Tambara fields_, ([arXiv:2409.02966](https://arxiv.org/abs/2409.02966))
+
+* [[David Chan]], [[David Mehrle]], [[J.D. Quigley]], [[Ben Spitz]], [[Danika Van Niel]], _On the Tambara Affine Line_ ([arXiv:2410.23052](https://arxiv.org/abs/2410.23052))
+
+In derived algebra,
+
+* [[David Mehrle]], [[J.D. Quigley]], [[Michael Stahlhauer]], _Koszul Resolutions over Free Incomplete Tambara Functors for Cyclic $p$-Groups_ ([arXiv:2407.18382](https://arxiv.org/abs/2407.18382))
+
+* [[David Mehrle]], [[J.D. Quigley]], [[Michael Stahlhauer]], _Pathological Computations of Mackey Functor-valued Tor over Cyclic Groups_ ([arXiv:2410.11974](https://arxiv.org/abs/2410.11974))
+
+In higher algebra,
 
 * [[Elden Elmanto]], [[Rune Haugseng]], _On distributivity in higher algebra I: The universal property of bispans_, ([arXiv:2010.15722](https://arxiv.org/abs/2010.15722))
 
