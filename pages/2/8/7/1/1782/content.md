@@ -398,7 +398,7 @@ The [[algebraic K-theory]] of [[ring spectra]]:
 
 * [[Jacob Lurie]], _Algebraic K-Theory of Ring Spectra_, Lecture 19 of _[Algebraic K-Theory and Manifold Topology](https://www.math.ias.edu/~lurie/281.html)_, 2014 ([pdf](http://people.math.harvard.edu/~lurie/281notes/Lecture19-Rings.pdf))
 
-The  algebraic K-theory of specifically of [[suspension spectra]] of [[loop spaces]] (Waldhausen's _[[A-theory]]_) is originally due to
+The  algebraic K-theory specifically of [[suspension spectra]] of [[loop spaces]] (Waldhausen's _[[A-theory]]_) is originally due to:
 
 * [[Friedhelm Waldhausen]], _Algebraic K-theory of spaces_, In: A. Ranicki N.,  Levitt, F. Quinn (eds.), Algebraic and Geometric Topology, Lecture Notes in Mathematics, vol 1126. Springer, Berlin, Heidelberg (1985) ([doi:10.1007/BFb0074449](https://doi.org/10.1007/BFb0074449))
 
