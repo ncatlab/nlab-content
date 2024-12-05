@@ -38,12 +38,13 @@ We follow the account in ([Barwick 14](#Barwick14)), which incarnates a perspect
 
 Let $\mathcal{C}$ be a [[disjunctive (∞,1)-category]] and write $\Span(\mathcal{C})$ for the [[(∞,1)-category of correspondences]] in $\mathcal{C}$ and let $\mathcal{A}$ be an [[(∞,1)-category]] with finite products.
 
-Then an _$\mathcal{A}$-valued Mackey functor_ on $\mathcal{C}$ is a product-preserving functor
+Then an _$\mathcal{A}$-valued semi-Mackey functor_ on $\mathcal{C}$ is a product-preserving functor
 
 $$
   M \;\colon\; \Span(\mathcal{C}) \longrightarrow \mathcal{A}
   \,.
 $$
+If $\mathcal{A}$ is additive, we say that $M$ is a **Mackey functor**.
 
 Notice that this means that $M$ is in particular:
 
@@ -97,6 +98,28 @@ Fixing $G$ a finite group, we acquire the following examples (see section 3.2 of
 
 3. The **representation Mackey functor** $R(G)$ is defined by letting $R(G)([G/H])$ be the [[Grothendieck group]] of the symmetric monoidal category of finite-dimensional $H$-representations,  with restriction and transfer given by restriction and induction,  respectively.
 
+### Additive completion of semi-Mackey functors
+{#AdditiveCompletion}
+The free commutative monoid functor $\mathrm{Fr}\colon \mathcal{C} \rightarrow \mathrm{CMon}(\mathcal{C})$ is the unit of an adjunction whose left adjoint includes the category of (small) [[[biproduct|semiadditive categories]] into [[cartesian product|categories with products]];
+specifically, given $\mathcal{B}$ a [[semiadditive category]], postcomposition with $\mathrm{Fr}$ induces an equivalence
+\[
+  \mathrm{Fun}^\times(\mathcal{B}, \mathcal{C}) \xrightarrow{\sim} \mathrm{Fun}^{\times} (\mathcal{B}, \mathrm{CMon}(\mathcal{C})),
+\]
+and in particular, it induces an equivalence
+\[
+  \mathrm{sMack}(\mathcal{C}) \simeq \mathrm{sMack}(\mathrm{CMon}(\mathcal{C}).
+\]
+We define _Mackey functors in $\mathcal{C}$_ to be the subcategory
+\[
+  \mathrm{Mack}(\mathcal{C}) \coloneqq \mathrm{sMack}(\mathrm{CGrp}(\mathcal{C})) \subset \mathrm{sMack}(\mathrm{CMon}(\mathcal{C})) \simeq \\mathrm{sMack}(\mathcal{C})
+\]
+
+\begin{proposition}
+  Mackey functors form a [[reflective subcategory]] of semi-Mackey functors. 
+\end{proposition}
+
+This follows formally from the fact that the [[group completion]] functor $(-)_{\simeq}\colon \mathrm{CGrp}(\mathcal{C}) \subset \mathrm{CMon}(\mathcal{C})$ is compatible with products;
+in particular, given $M$ a semi-Mackey functor, the value of $M_{\simeq}$ at the orbit $G/H$ is the [[group completion]] $M(G/H)_{\simeq}$, and the restrictions and transfers are gotten by group completing the restrictions and transfers of $M$.
 
 ### Equivariant spectra 
  {#EquivariantSpectra}
