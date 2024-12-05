@@ -275,15 +275,12 @@ Discussion of black holes via the [[BFSS matrix model]] includes the following:
 * Yoshifumi Hyakutake, _Black Hole and Fuzzy Objects in BFSS Matrix Model_ 
 ([arXiv:1801.07869](https://arxiv.org/abs/1801.07869))
 
-
 ### Relation to topological string amplitudes
 
 Discussion of black hole microstates via the [[topological string]]'s [[Gopakumar-Vafa invariants]]:
 
-* [[Rajesh Gopakumar]], [[Cumrun Vafa]], _M-Theory and Topological Strings--I_ ([arXiv:hep-th/9809187](https://arxiv.org/abs/hep-th/9809187))
+* [[Rajesh Gopakumar]], [[Cumrun Vafa]], _M-Theory and Topological Strings--I_ ([arXiv:hep-th/9809187](https://arxiv.org/abs/hep-th/9809187), [bibcode:1998hep.th....9187G](https://ui.adsabs.harvard.edu/abs/1998hep.th....9187G))
 
-* [[Rajesh Gopakumar]], [[Cumrun Vafa]], _M-Theory and Topological Strings--II_ ([arXiv:hep-th/9812127](https://arxiv.org/abs/hep-th/9812127))
-
- 
+* [[Rajesh Gopakumar]], [[Cumrun Vafa]], _M-Theory and Topological Strings--II_ ([arXiv:hep-th/9812127](https://arxiv.org/abs/hep-th/9812127), [bibcode:1998hep.th...12127G](https://ui.adsabs.harvard.edu/abs/1998hep.th...12127G))
 
 [[!redirects black hole in string theory]]
