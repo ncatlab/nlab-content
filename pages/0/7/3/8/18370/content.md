@@ -17,7 +17,6 @@ Introducing [[Gopakumar-Vafa invariant]] and [[Gopakumar-Vafa duality]]:
 
 * [[Rajesh Gopakumar]], [[Cumrun Vafa]], _Topological Gravity as Large N Topological Gauge Theory_, Adv. Theor. Math. Phys. 2:413-442, 1998 ([arXiv:hep-th/9802016](https://arxiv.org/abs/hep-th/9802016))
 
-* [[Rajesh Gopakumar]], [[Cumrun Vafa]], _On the Gauge Theory/Geometry Correspondence_, Adv. Theor. Math. Phys. 3 (1999) 1415-1443 ([arXiv:hep-th/9811131](https://arxiv.org/abs/hep-th/9811131))
 
 Discussion of effective [[non-commutative geometry]] exhibited by open [[M2-branes]] [[intersecting brane|ending on]] [[M5-branes]] induced by a constant [[B-field]] [[flux density]] on the M5-[[worldvolume]]:
 
