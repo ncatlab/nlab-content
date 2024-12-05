@@ -55,8 +55,12 @@ Including [[Wilson loop observables]] in [[Chern-Simons theory as a topological 
 * [[Hirosi Ooguri]], [[Cumrun Vafa]], _Knot Invariants and Topological Strings_, Nucl. Phys. B 577:419-438, 2000 ([arXiv:hep-th/9912123](https://arxiv.org/abs/hep-th/9912123))
 
 
-Introducing [[Gopakumar-Vafa duality]]:
+Introducing [[Gopakumar-Vafa invariant]] and [[Gopakumar-Vafa duality]]:
 
+
+* [[Rajesh Gopakumar]], [[Cumrun Vafa]], _M-Theory and Topological Strings--I_ (1998), ([arXiv:hep-th/9809187](https://arxiv.org/abs/hep-th/9809187), [bibcode:1998hep.th....9187G](https://ui.adsabs.harvard.edu/abs/1998hep.th....9187G))
+
+* [[Rajesh Gopakumar]], [[Cumrun Vafa]], _M-Theory and Topological Strings--II_ (1998), ([arXiv:hep-th/9812127](https://arxiv.org/abs/hep-th/9812127), [bibcode:1998hep.th...12127G](https://ui.adsabs.harvard.edu/abs/1998hep.th...12127G))
 
 * [[Rajesh Gopakumar]], [[Cumrun Vafa]], _Topological Gravity as Large N Topological Gauge Theory_, Adv. Theor. Math. Phys. 2:413-442, 1998 ([arXiv:hep-th/9802016](https://arxiv.org/abs/hep-th/9802016))
 
