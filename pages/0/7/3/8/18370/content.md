@@ -9,7 +9,11 @@ On [[open/closed string duality]] in interpreting [['t Hooft double line notatio
 
 * {#Gopakumar04} [[Rajesh Gopakumar]], _Free Field Theory as a String Theory?_, Comptes Rendus Physique 5 (2004) 1111-1119 ([hep-th/0409233](https://arxiv.org/abs/hep-th/0409233))
 
-Introducing [[Gopakumar-Vafa duality]]:
+Introducing [[Gopakumar-Vafa invariant]] and [[Gopakumar-Vafa duality]]:
+
+* [[Rajesh Gopakumar]], [[Cumrun Vafa]], _M-Theory and Topological Strings--I_ (1998), ([arXiv:hep-th/9809187](https://arxiv.org/abs/hep-th/9809187), [bibcode:1998hep.th....9187G](https://ui.adsabs.harvard.edu/abs/1998hep.th....9187G))
+
+* [[Rajesh Gopakumar]], [[Cumrun Vafa]], _M-Theory and Topological Strings--II_ (1998), ([arXiv:hep-th/9812127](https://arxiv.org/abs/hep-th/9812127), [bibcode:1998hep.th...12127G](https://ui.adsabs.harvard.edu/abs/1998hep.th...12127G))
 
 * [[Rajesh Gopakumar]], [[Cumrun Vafa]], _Topological Gravity as Large N Topological Gauge Theory_, Adv. Theor. Math. Phys. 2:413-442, 1998 ([arXiv:hep-th/9802016](https://arxiv.org/abs/hep-th/9802016))
 
