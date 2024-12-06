@@ -168,6 +168,8 @@ The corresponding fact is also notably false for [[groupoids]], i.e. $Gpd(Stone)
 
 * [[Jacob Lurie]], section A.1.1 of _[[Spectral Algebraic Geometry]]_.
 
+* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
+
 There is a version in model theory, [[Makkai duality]],
 
 * [[M. Makkai]], _Stone duality for first-order logic_, Adv. Math. __65__ (1987) no. 2, 97--170, <a href="http://dx.doi.org/10.1016/0001-8708(87)90020-X">doi</a>, [MR89h:03067](http://www.ams.org/mathscinet-getitem?mr=900266); _Duality and definability in first order logic_, Mem. Amer. Math. Soc. __105__ (1993), no. 503
