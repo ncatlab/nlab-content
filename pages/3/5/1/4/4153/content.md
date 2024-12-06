@@ -9,6 +9,12 @@
 
 In [[set theory]], the axiom of **dependent choice** (DC) states that if $X$ is a nonempty ([[inhabited set|inhabited]]) set and if $R$ is a [[entire relation|total]] binary relation on $X$, then there exists a sequence $x\colon \mathbb{N} \to X$ such that $(x_n, x_{n+1})$ belongs to $R$ for all $n \in \mathbb{N}$. It is strictly weaker than the full [[axiom of choice]], but strictly stronger than the axiom of [[countable choice]]. It is called _dependent_ choice because the available choices for $x_{n+1}$ depend on the choice of $x_n$ made at the previous stage.
 
+There is another way to express the axiom of dependent choice which uses [[surjections]] instead of entire relations: 
+
+The **axiom of dependent choice** states that given a [[family of sets]] $X_n$ and a family of [[surjections]] $f_n:X_{n + 1} \to X_n$ indexed by natural numbers $n \in \mathbb{N}$: 
+$$X_0 \overset{f_0}\leftarrow X_1 \overset{f_1}\leftarrow X_1 \overset{f_2}\leftarrow \ldots$$
+the projection function to $X_0$ from the [[sequential limit]] $\underset{\leftarrow}\lim X_n$ of the above diagram is a surjection. 
+
 ### In dependent type theory
 
 In [[dependent type theory]], the **axiom of dependent choice** states that if $A$ is an [[inhabited set]] and if $R$ is a [[entire relation]] on $A$, then then there exists a sequence $a:\mathbb{N} \to A$ such that for all $n:\mathbb{N}$, $R(a(n), a(n + 1))$ holds. 
@@ -65,7 +71,7 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{DC}_\mathbb{N}:\prod_{R:\m
 
 * Wikipedia, [Axiom of dependent choice](https://en.wikipedia.org/wiki/Axiom_of_dependent_choice)
 
-* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
+* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203), [summary](https://felix-cherubini.de/condensed-summary.pdf))
 
 category: foundational axiom
 
