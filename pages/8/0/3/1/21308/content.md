@@ -96,6 +96,8 @@ Condensed mathematics has also been used in [ClausenScholze22](#ClausenScholze22
 
 * [[analytic geometry]]
 
+* [[synthetic condensed mathematics]]
+
 ## References
 
 * {#ScholzeLCM} [[Peter Scholze]], _Lectures on condensed mathematics_, [pdf](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)
