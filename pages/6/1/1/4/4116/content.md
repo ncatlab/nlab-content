@@ -89,6 +89,8 @@ Finally, since $((z_{n,k})_k)_n$ converges to $w_k$ in the object of Cauchy *seq
 
 * [[topological site]]
 
+* [[category of light condensed sets]]
+
 # Links
 
 
