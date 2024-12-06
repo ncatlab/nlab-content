@@ -31,7 +31,7 @@ Recall that a [[light profinite set]] is a [[countable set|countable]] [[limit]]
 
 The category of light condensed sets $\mathrm{LightCondSet}$ is a [[Grothendieck topos]]. 
 
-There is a functor that reflects the category of light condensed sets back onto the category of [[sequential topological spaces]]
+The category of [[sequential topological spaces]] embed fully faithfully into the category of light condensed sets, and there is a functor that reflects the category of light condensed sets back onto the category of [[sequential topological spaces]]. 
 
 ## Related concepts
 
@@ -50,6 +50,10 @@ There is a functor that reflects the category of light condensed sets back onto 
 * {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
 
 * *What does the topos of (light) condensed sets classify?* ([MathOverflow](https://mathoverflow.net/questions/470338/what-does-the-topos-of-light-condensed-sets-classify))
+
+* *Clausen–Scholze's Theorem 9.1 of Analytic.pdf, in view of light condensed sets, AKA is the Liquid Tensor Experiment easier now?* ([MathOverflow](https://mathoverflow.net/questions/467433/clausen-scholzes-theorem-9-1-of-analytic-pdf-in-view-of-light-condensed-sets))
+
+* [[David Roberts]], answer to *Notions of convergence not corresponding to topologies* ([MathOverflow](https://mathoverflow.net/a/464564))
 
 [[!redirects light condensed set]]
 [[!redirects light condensed sets]]
