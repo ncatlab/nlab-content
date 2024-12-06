@@ -56,19 +56,9 @@ Here we collect some consequences of the countable axiom of choice.
 
 Unlike the full axiom of choice, countable choice is often considered to be a [[constructive mathematics|constructively]] acceptable principle.  In particular, it does not imply the principle of [[excluded middle]].  It is a consequence of [[COSHEP]].  A stronger version of countable choice, also a consequence of $COSHEP$, is the axiom of [[dependent choice]] ($DC$).  In general, $DC$ is enough to justify results in [[analysis]] involving [[sequences]].
 
-### DC for natural numbers ($\mathrm{DC}_\mathbb{N}$ or $\mathrm{AC}_{00}$)
+### $\mathrm{AC}_{00}$
 
-Sometimes in foundations it is useful to consider a weaker version of countable choice, called __$AC_{00}$__.  This states that any entire relation from $\mathbb{N}$ to itself contains a functional entire relation (i.e. a [[sequence]] in $\mathbb{N}$), and is the axiom of [[dependent choice]] but restricted to the [[natural numbers]] and thus can also be called $\mathrm{DC}_\mathbb{N}$. 
-
-In terms of surjections, the axiom states that any surjection $p\colon X \to \mathbb{N}$ has a section if $X$ is a [[subset]] of $\mathbb{N} \times \mathbb{N}$ and $p$ is the [[restriction]] to $X$ of a product projection.  $AC_{00}$ is enough to prove that every [[Dedekind real number]] is a [[Cauchy real number]] (the converse is always true).
-
-In dependent type theory this is given by the following [[inference rule]]:
-
-$$\frac{\Gamma, x:\mathbb{N}, y:\mathbb{N} \vdash R(x, y) \; \mathrm{type}}{\Gamma \vdash \mathrm{AC}_{00}^{R}:\left(\prod_{x:\mathbb{N}} \left(\prod_{y:\mathbb{N}} \mathrm{isProp}(R(x, y))\right) \times \exists y:\mathbb{N}.R(x, y)\right) \to \exists a:\mathbb{N} \to \mathbb{N}.\prod_{n:\mathbb{N}} R(a(n), a(n + 1))}$$
-
-If the dependent type theory has a [[type of all propositions]] $\mathrm{Prop}$, this can be simplified down to the [[axiom]]
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{AC}_{00}:\prod_{R:\mathbb{N} \times \mathbb{N} \to \mathrm{Prop}} \left(\prod_{x:\mathbb{N}} \exists y:\mathbb{N}.R(x, y)\right) \to \exists a:\mathbb{N} \to \mathbb{N}.\prod_{n:\mathbb{N}} R(a(n), a(n + 1))}$$
+Sometimes in foundations it is useful to consider a weaker version of countable choice, called __$AC_{00}$__.  This states that any entire relation $R$ from $\mathbb{N}$ to itself contains a functional entire relation, i.e. there exists a [[sequence]] $x$ in $\mathbb{N}$ such that $R(n, x_n)$ holds. In terms of surjections, the axiom states that any surjection $p\colon X \to \mathbb{N}$ has a section if $X$ is a [[subset]] of $\mathbb{N} \times \mathbb{N}$ and $p$ is the [[restriction]] to $X$ of a product projection. $AC_{00}$ is enough to prove that every [[Dedekind real number]] is a [[Cauchy real number]] (the converse is always true).
 
 ### Weak countable choice {#WCC}
 
