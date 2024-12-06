@@ -50,6 +50,8 @@ Alternatively one may set up synthetic differential geometry via axioms for [[di
 
 * [[synthetic algebraic geometry]]
 
+* [[synthetic Stone duality]]
+
 * [[synthetic probability theory]]
 
 * [[synthetic computability theory]]
