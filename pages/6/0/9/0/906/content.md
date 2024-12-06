@@ -40,8 +40,7 @@ Equivalently, a topological space is sequential iff it is a [[quotient space]] (
 
 * The category of sequential spaces is [[cartesian closed category|cartesian closed]]. See also [[convenient category of topological spaces]]. 
 
-
-* The category of sequential spaces embeds fully faithfully into the category of light [[condensed sets]] ([Clausen-Scholze 2023](#ClausenScholze_lect3), see timestamp 9:00)
+* The category of sequential spaces embeds fully faithfully into the category of [[light condensed sets]] ([Clausen-Scholze 2023](#ClausenScholze_lect3), see timestamp 9:00)
 
 ## In constructive mathematics
 
