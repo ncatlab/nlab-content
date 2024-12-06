@@ -130,6 +130,8 @@ The [[diagonal argument]] also shows the uncountability of the real numbers (non
 
 which discusses both the origin of the 1874 article and the questions of constructivity that arose in its aftermath.
 
+* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
+
 That in the absence of [[countable choice]] and [[excluded middle]] it is consistent that the [[Dedekind real numbers]] are denumerably indexed:
 
 * {#Bauer22} [[Andrej Bauer]], *The countable reals* ([video](https://www.youtube.com/watch?v=4CBFUojXoq4)). 
