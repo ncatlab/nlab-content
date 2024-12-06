@@ -45,7 +45,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \
 
 ### Dependent choice for the natural numbers
 
-Dependent choice for the [[natural numbers]] $\mathrm{DC}_\mathbb{N}$, also called $AC_{00}$ as it is a weak version of the [[axiom of countable choice]], states that if $R$ is a [[entire relation|total]] binary relation on $\mathbb{N}$, then there exists a sequence $x$ in $\mathbb{N}$ such that $R(x_n, x_{n+1})$ holds for all $n \in \mathbb{N}$. This is sufficient to prove that the [[Dedekind real numbers]] and the [[Cauchy real numbers]] coincide. 
+Dependent choice for the [[natural numbers]] $\mathrm{DC}_\mathbb{N}$ states that if $R$ is a [[entire relation]] on $\mathbb{N}$, then there exists a sequence $x$ in $\mathbb{N}$ such that $R(x_n, x_{n+1})$ holds for all $n \in \mathbb{N}$. $\mathrm{DC}_\mathbb{N}$ is enough to prove that every [[Dedekind real number]] is a [[Cauchy real number]] (the converse is always true).
 
 In dependent type theory this is given by the following [[inference rule]]:
 
