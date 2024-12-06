@@ -64,10 +64,10 @@ Many of the results that have originated from this view have been implemented in
 
 * [[Davorin Lešnik]], _Synthetic Topology and Constructive Metric Spaces_, PhD, 2010 ([arXiv:2104.10399](https://arxiv.org/abs/2104.10399))
 
-
-
 * [[Davorin Lešnik]], _Unified Approach to Real Numbers in Various Mathematical Settings_, 2014 ([arXiv:1402.6645](https://arxiv.org/abs/1402.6645))
 
 * [[Steven Vickers]], _Locales and toposes as spaces, 2007 ([pdf](https://www.cs.bham.ac.uk/~sjv/LocTopSpaces.pdf))
+
+* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
 
 [[!redirects relation between type theory and topology]]
