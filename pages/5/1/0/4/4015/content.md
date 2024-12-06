@@ -70,7 +70,7 @@ In [[constructive mathematics]], the full fan theorem is equivalent to any and a
 *  As a [[locale]], [[Cantor space]] has enough points (is [[topological locale|topological]]).
 *  As a [[topological space]], Cantor space is [[compact space|compact]].
 
-Assuming some amount of countable/dependent choice (probably pretty weak: haven't checked myself though), the full fan theorem is equivalent to each of the following statements:
+Assuming that the [[Cauchy real numbers]] and [[Dedekind real numbers]] coincide, the full fan theorem is equivalent to each of the following statements:
 
 *  As a topological space, the (located Dedekind) [[unit interval]] is [[compact space|compact]] (the [[Heine-Borel theorem|Heine–Borel theorem]]).
 *  As a topological space, the (located Dedekind) [[real line]] is [[locally compact space|locally compact]].
@@ -81,7 +81,9 @@ Assuming some amount of countable/dependent choice (probably pretty weak: haven'
    *  a function whose domain is the unit interval is kontinuous *if and only if* it is uniformly continuous (in the usual metric-space sense); and
    *  the function $(x \mapsto 1/x)$ defined on $\dot{\mathbb{R}}^+$ is kontinuous.
 
-However, some of these equivalences fail in the absence of countable choice. See
+However, some of these equivalences fail if the Cauchy real numbers and the Dedekind real numbers do not coincide. 
+
+More generally, see
 
 *  Moerdijk, Ieke. “Heine-Borel Does Not Imply the Fan Theorem.” Journal of Symbolic Logic, vol. 49, no. 2, 1984, pp. 514–519., doi:10.2307/2274182
 
