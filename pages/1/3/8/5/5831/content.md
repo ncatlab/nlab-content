@@ -46,7 +46,9 @@ On [[projective spaces]] in [[synthetic algebraic geometry]]:
 
 * [[Felix Cherubini]], [[Thierry Coquand]], [[Matthias Hutzler]], [[David Wärn]]: *Projective Space in Synthetic Algebraic Geometry* &lbrack;[arxiv:2405.13916](https://arxiv.org/abs/2405.13916)&rbrack;
 
+On [[synthetic Stone duality]]:
 
+* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
 
 ## Related entries
 
