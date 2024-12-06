@@ -68,10 +68,6 @@ Dually, a __[[coexponential object]]__ in $C$ is an exponential object in the [[
 
 {#WhenCIsNotCartesian} When $C$ is not cartesian but merely monoidal, then the analogous notion is that of a [[internal hom|left/right internal hom]].
 
-## Properties
-
-* If $C$ has equalizers of coreflexive pairs, then any pullback of an exponentiable morphism is exponentiable.  This follows from the [[adjoint triangle theorem]], since the left adjoint $\Sigma_f$ of pullback is [[comonadic functor|comonadic]].
-
 ## Examples 
 
 Of course, in any cartesian closed category every object is exponentiable and exponentiating.  In general, exponentiable objects are more common and important than exponentiating ones, since the existence of $X^Y$ is usually more related to properties of $Y$ than properties of $X$.
@@ -155,6 +151,8 @@ Now suppose that $C$ is a [[distributive category]].  Then we have these isomorp
 Here $Y + Z$ is a [[coproduct]] of $Y$ and $Z$, while $0$ is an [[initial object]].  Thus in a distributive category, the exponentiable objects are closed under coproducts.
 
 Note that any cartesian closed category with finite coproducts must be distributive, so all of the isomorphisms above hold in any closed [[2-rig]] (such as [[Set]], of course).
+
+If $C$ has equalizers of coreflexive pairs, then any pullback of an exponentiable morphism is exponentiable.  This follows from the [[adjoint triangle theorem]], since the left adjoint $\Sigma_f$ of pullback is [[comonadic functor|comonadic]].
 
 
 ## Related concepts
