@@ -147,6 +147,11 @@ For the category of _light_ condensed sets, there is a functor that reflects bac
 * {#Campbell20} [[Alexander Campbell]], _How nice is the category of condensed sets?_, [talk abstract](https://centre-of-australian-category-theory.github.io/seminar/talks/1632).
 * {#Campbell21} [[Alexander Campbell]], _The universal property of the category of condensed sets_, [talk abstract](https://maths.anu.edu.au/news-events/events/universal-property-category-condensed-sets)
 * {#ClausenScholze23}[[Dustin Clausen]], [[Peter Scholze]], _Analytic Stacks,_ [YouTube playlist](https://www.youtube.com/playlist?list=PLx5f8IelFRgGmu6gmL-Kf_Rl_6Mm7juZO), [website](https://indico.math.cnrs.fr/event/10345/)
+
+For specifically [[light condensed sets]]:
+
+* {#Wärn24} [[David Wärn]], *On internally projective sheaves of groups* ([arXiv:2409.12835](https://arxiv.org/pdf/2409.12835))
+
 * {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
 
 The equivalence of various sites for condensed sets is established in
