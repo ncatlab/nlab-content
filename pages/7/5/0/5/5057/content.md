@@ -1,5 +1,5 @@
 
-Yde Venema is an associate professor at the Institute for Logic, Language and Computation at the Universiteit van Amsterdam.
+Yde Venema is a professor at the Institute for Logic, Language and Computation at the Universiteit van Amsterdam.
 
 He is interested in [[modal logic]] and its (mathematical) foundations and, in particular in algebraic and coalgebraic aspects of modal logic. 
 
