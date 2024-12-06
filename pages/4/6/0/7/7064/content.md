@@ -482,6 +482,15 @@ Expressing the homotopy groups of the [[2-sphere]] in terms of Brunnian [[braid 
 
 * A. J. Berrick, [[Frederick R. Cohen]], Y. L. Wong and J. Wu: *Configurations, braids, and homotopy groups*, J. Amer. Math. Soc. **19** (2006) 265-326 &lbrack;[doi:10.1090/S0894-0347-05-00507-2](https://doi.org/10.1090/S0894-0347-05-00507-2), [pdf](https://www.ams.org/journals/jams/2006-19-02/S0894-0347-05-00507-2/S0894-0347-05-00507-2.pdf)&rbrack;
 
+On presentation of homotopy groups of the [[2-sphere]] as centers of certain groups with finite presentations:
+
+* [[Roman Mikhailov]], Jie Wu. *A combinatorial description of homotopy groups of spheres* (2011). ([arXiv:1108.3055](https://arxiv.org/abs/1108.3055)).
+
+On nontriviality of homotopy groups of the [[2-sphere]]: 
+
+* [[Roman Mikhailov]], Sergey Ivanov. *On nontriviality of homotopy groups of spheres* (2015). ([arXiv:1506.00952](https://arxiv.org/abs/1506.00952)).
+
+
 ### Image of the J-homomorphism
 
 Discussion of the [[image]] of the [[J-homomorphism]] is due to
