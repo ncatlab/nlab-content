@@ -60,14 +60,6 @@ In addition, in the presence of [[countable choice]], the difference between *de
 
 Under the [[BHK interpretation]] of constructive mathematics, one only has the BHK versions of denumerably indexed, countably indexed, subcountably indexed. 
 
-The authors of [CCGM](#CCGM) provide the following alternative definitions of a countable set:
-
-* A set $T$ is **enumerable** if and only if there is a [[surjection]] from the [[natural numbers]] to the [[disjoint union]] $T + 1$ of $T$ with a [[singleton]] $1$. 
-
-* A set $T$ is **strongly countable** if and only if there exists a bijection between $T$ and either a [[finite set]] or the [[natural numbers]]. 
-
-* A set $T$ is **subcountable** if there exists an bijection between $T$ and a [[decidable subset]] of the [[natural numbers]]. 
-
 ### Uncountable sets
 
 There are a number of different definitions of an uncountable set, which all differ in the absence of [[countable choice]]:
@@ -137,10 +129,6 @@ The [[diagonal argument]] also shows the uncountability of the real numbers (non
 * Wikipedia, _[Cantor's first set theory article](https://en.wikipedia.org/wiki/Cantor%27s_first_set_theory_article)_ 
 
 which discusses both the origin of the 1874 article and the questions of constructivity that arose in its aftermath.
-
-Some classically equivalent but constructively different definitions of a countable set can be found in 
-
-* {#CCGM} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([draft pdf](https://felix-cherubini.de/condensed.pdf))
 
 That in the absence of [[countable choice]] and [[excluded middle]] it is consistent that the [[Dedekind real numbers]] are denumerably indexed:
 
