@@ -127,6 +127,10 @@ Cf. [[Urysohn metrization theorem]] and [[Polish space]]. I ([[Todd Trimble]]) a
 
 [[!redirects second-countable]]
 
+## References
+
+* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
+
 [[!redirects second-countable space]]
 [[!redirects second-countable spaces]]
 [[!redirects second countable space]]
