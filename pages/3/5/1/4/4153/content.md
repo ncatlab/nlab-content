@@ -1,4 +1,4 @@
-
+ 
 # Dependent choice
 * table of contents
 {: toc}
@@ -13,18 +13,47 @@ In [[set theory]], the axiom of **dependent choice** (DC) states that if $X$ is 
 
 In [[dependent type theory]], the **axiom of dependent choice** states that if $A$ is an [[inhabited set]] and if $R$ is a [[entire relation]] on $A$, then then there exists a sequence $a:\mathbb{N} \to A$ such that for all $n:\mathbb{N}$, $R(a(n), a(n + 1))$ holds. 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:A, y:A \vdash R(x, y) \; \mathrm{type}}{\Gamma \vdash \mathrm{DC}_\mathbb{N}^A:(\mathrm{isSet}(A) \times [A]) \to \left(\prod_{x:A} \left(\prod_{y:A} \mathrm{isProp}(R(x, y))\right) \times \exists y:A.R(x, y)\right) \to \exists a:\mathbb{N} \to A.\prod_{n:\mathbb{N}} R(a(n), a(n + 1))}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \; \mathrm{type}}{\Gamma \vdash \mathrm{DC}_{A}^{R}:(\mathrm{isSet}(A) \times [A]) \to \left(\prod_{x:A} \left(\prod_{y:A} \mathrm{isProp}(R(x, y))\right) \times \exists y:A.R(x, y)\right) \to \exists a:\mathbb{N} \to A.\prod_{n:\mathbb{N}} R(a(n), a(n + 1))}$$
+
+If the dependent type theory has a [[type of all propositions]] $\mathrm{Prop}$, this can be simplified down to the [[inference rule]]
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{DC}_{A}:(\mathrm{isSet}(A) \times [A]) \to \prod_{R:A \times A \to \mathrm{Prop}} \left(\prod_{x:A} \exists y:A.R(x, y)\right) \to \exists a:\mathbb{N} \to A.\prod_{n:\mathbb{N}} R(a(n), a(n + 1))}$$
 
 ## Applications
 
 Typical applications of dependent choice include [[Kőnig's lemma]] and the [[Baire category theorem]] for [[complete metric spaces]].
-
 
 ## Acceptability
 
 For a number of schools of [[constructive mathematics]], dependent choice is considered an acceptable alternative to full AC, and the principle holds (assuming that it holds in [[Set]]) in quite a few [[toposes]] of interest in which full AC doesn't hold, including all [[presheaf toposes]] and the [[effective topos]].  In fact, it follows from the stronger [[presentation axiom]], which holds in many of these toposes and also has a constructive justification.
 
 Like countable choice, it fails for sheaves over the space of real numbers.
+
+## Variations
+
+### Dependent $n$-choice and $\infty$-choice
+
+In [[dependent type theory]], the axiom of dependent choice requires that $A$ be a [[set]]. This can be generalised to the **axiom of dependent $n$-choice** by replacing the set requirement with an $n$-truncation requirement for $A$: if $A$ is an inhabited $n$-truncated type and if $R$ is a [[entire relation]] on $A$, then then there exists a sequence $a:\mathbb{N} \to A$ such that for all $n:\mathbb{N}$, $R(a(n), a(n + 1))$ holds. 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \; \mathrm{type}}{\Gamma \vdash \mathrm{DC}_{n, A}^{R}:(\mathrm{is}n\mathrm{type}(A) \times [A]) \to \left(\prod_{x:A} \left(\prod_{y:A} \mathrm{isProp}(R(x, y))\right) \times \exists y:A.R(x, y)\right) \to \exists a:\mathbb{N} \to A.\prod_{n:\mathbb{N}} R(a(n), a(n + 1))}$$
+
+These are stronger axioms as $n$ increases. 
+
+In the limit as $n$ goes to infinity, this is called the **axiom of dependent infinity-choice**, where $A$ doesn't have any truncation requirements: if $A$ is an inhabited type and if $R$ is a [[entire relation]] on $A$, then then there exists a sequence $a:\mathbb{N} \to A$ such that for all $n:\mathbb{N}$, $R(a(n), a(n + 1))$ holds. 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A, y:A \vdash R(x, y) \; \mathrm{type}}{\Gamma \vdash \mathrm{DC}_{\infty, A}^{R}:[A] \to \left(\prod_{x:A} \left(\prod_{y:A} \mathrm{isProp}(R(x, y))\right) \times \exists y:A.R(x, y)\right) \to \exists a:\mathbb{N} \to A.\prod_{n:\mathbb{N}} R(a(n), a(n + 1))}$$
+
+### Dependent choice for the natural numbers
+
+Dependent choice for the [[natural numbers]] $\mathrm{DC}_\mathbb{N}$, also called $AC_{00}$ as it is a weak version of the [[axiom of countable choice]], states that if $R$ is a [[entire relation|total]] binary relation on $\mathbb{N}$, then there exists a sequence $x$ in $\mathbb{N}$ such that $R(x_n, x_{n+1})$ holds for all $n \in \mathbb{N}$. This is sufficient to prove that the [[Dedekind real numbers]] and the [[Cauchy real numbers]] coincide. 
+
+In dependent type theory this is given by the following [[inference rule]]:
+
+$$\frac{\Gamma, x:\mathbb{N}, y:\mathbb{N} \vdash R(x, y) \; \mathrm{type}}{\Gamma \vdash \mathrm{DC}_\mathbb{N}^{R}:\left(\prod_{x:\mathbb{N}} \left(\prod_{y:\mathbb{N}} \mathrm{isProp}(R(x, y))\right) \times \exists y:\mathbb{N}.R(x, y)\right) \to \exists a:\mathbb{N} \to \mathbb{N}.\prod_{n:\mathbb{N}} R(a(n), a(n + 1))}$$
+
+If the dependent type theory has a [[type of all propositions]] $\mathrm{Prop}$, this can be simplified down to the [[axiom]]
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{DC}_\mathbb{N}:\prod_{R:\mathbb{N} \times \mathbb{N} \to \mathrm{Prop}} \left(\prod_{x:\mathbb{N}} \exists y:\mathbb{N}.R(x, y)\right) \to \exists a:\mathbb{N} \to \mathbb{N}.\prod_{n:\mathbb{N}} R(a(n), a(n + 1))}$$
 
 ## Related concepts
 
@@ -43,4 +72,8 @@ category: foundational axiom
 [[!redirects dependent choice]]
 [[!redirects dependent choices]]
 [[!redirects axiom of dependent choice]]
-[[!redirects axiom of dependent choices]]
+[[!redirects axioms of dependent choice]]
+[[!redirects axiom of dependent n-choice]]
+[[!redirects axioms of dependent n-choice]]
+[[!redirects axiom of dependent infinity-choice]]
+[[!redirects axioms of dependent infinity-choice]]
