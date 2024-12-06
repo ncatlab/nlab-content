@@ -133,6 +133,8 @@ Thus, untruncated LLPO is strictly stronger than truncated LLPO, unlike the case
 
 * {#Grossack24} [[Chris Grossack]], *Life in Johnstone's Topological Topos 3 -- Bonus Axioms* ([web](https://grossack.site/2024/07/03/topological-topos-3-bonus-axioms))
 
+* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
+
 [[!redirects LLPO]]
 [[!redirects lesser limited principle of omniscience]]
 [[!redirects lesser limited principles of omniscience]]
