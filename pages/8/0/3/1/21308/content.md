@@ -109,6 +109,7 @@ Condensed mathematics has also been used in [ClausenScholze22](#ClausenScholze22
 
 * {#DustinScholze20}[[Dustin Clausen]], [[Peter Scholze]], _Masterclass in condensed mathematics,_ [YouTube playlist](https://www.youtube.com/playlist?list=PLAMniZX5MiiLXPrD4mpZ-O9oiwhev-5Uq), [website](https://www.math.ku.dk/english/calendar/events/condensed-mathematics/) (including pdf notes)
 
+* {#LeStum24} [[Bernard Le Stum]], *An introduction to condensed mathematics*, ([pdf](https://perso.univ-rennes1.fr/bernard.le-stum/bernard.le-stum/Enseignement_files/CondensedBook.pdf))
 
 [[formal proof|Formalization]]/[[certified programming|verification]] in [[proof assistants]] ([[Lean]]):
 
