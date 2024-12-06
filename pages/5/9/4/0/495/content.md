@@ -161,4 +161,8 @@ Representables, and arbitrary coproducts of representables, are projective, and 
 
   * [[flat module]]
 
+## References
+
+* {#Wärn24} [[David Wärn]], *On internally projective sheaves of groups* ([arXiv:2409.12835](https://arxiv.org/pdf/2409.12835))
+
 [[!redirects internally projective objects]]
