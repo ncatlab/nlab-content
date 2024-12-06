@@ -36,6 +36,7 @@ Like countable choice, it fails for sheaves over the space of real numbers.
 
 * Wikipedia, [Axiom of dependent choice](https://en.wikipedia.org/wiki/Axiom_of_dependent_choice)
 
+* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
 
 category: foundational axiom
 
