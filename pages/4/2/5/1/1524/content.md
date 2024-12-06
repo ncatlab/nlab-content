@@ -79,6 +79,7 @@ The analogous statement for [[Dedekind real numbers]] might be called the **[[an
 
 * {#Mandelkern} Mark Mandelkern, _Constructively Complete Finite Sets_, Mathematical Logic Quarterly **34**, issue 2 (1988) 97–103, doi:[10.1002/malq.19880340202](https://doi.org/10.1002/malq.19880340202).
 
+* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
 
 For a recent comparison see:
 
