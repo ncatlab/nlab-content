@@ -49,6 +49,8 @@ and simplicial profinite spaces are the same thing.
 
 * [[pro-homotopy theory]]
 
+* [[light profinite set]]
+
 ## References
 
 The primary meaning (as Stone space) is used in sources on profinite groups, for which see the entries _[[Stone space]]_, _[[profinite group]]_.
