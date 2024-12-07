@@ -31,13 +31,21 @@ By this definition, $0$ (the cardinality of the [[empty set]]) and $\aleph_0$ (t
 
 A __weakly inaccessible cardinal__ is a regular weak [[limit cardinal]]; sometimes inaccessible cardinals are called _strongly inaccessible_ in contrast.  Here, $\kappa$ is a _weak limit_ if $\lambda\lt\kappa$ implies $\lambda^+\lt\kappa$, where $\lambda^+$ is the smallest cardinal number $\gt\lambda$.  Every strongly inaccessible cardinal is also weakly inaccessible, while the converse is true assuming the generalized [[continuum hypothesis]].  
 
-
 ## Properties
 
 An (uncountable) cardinal $\kappa$ is inaccessible precisely when the $\kappa$th level $V_\kappa$ of the [[von Neumann hierarchy]] is a [[Grothendieck universe]]  ([Williams](#Williams)), and hence in particular itself a model of axiomatic [[set theory]].  For this reason, the existence of inaccessible cardinals cannot be proven in ordinary axiomatic set theory such as [[ZFC]].  The axiom asserting that there exists an inaccessible (which amounts to the existence of a Grothendieck universe) is thus the beginning of the study of [[large cardinal]]s.  
 
 If one thinks of $\aleph_0$ as already an inaccessible cardinal, then the [[axiom of infinity]] may be seen as itself the first large cardinal axiom.
 
+## Generalisations
+
+### In Boolean toposes
+
+The concept of an inaccessible cardinal can be generalised to any [[Boolean topos]] with choice. Given an [[Boolean topos]] $\mathcal{E}$ where all [[epimorphisms]] are [[split epimorphism|split]], the set of [[cardinals]] $\mathrm{Card}(\mathcal{E})$ is the [[quotient set|quotient]] of the groupoid of objects $\mathrm{Ob}(\mathcal{E})$ by [[existential quantifier|mere existence]] of an [[isomorphism]], with the [[cardinality]] function being the canonical quotient map $t \mapsto \vert t \vert:\mathrm{Ob}(\mathcal{E}) \to \mathrm{Card}(\mathcal{E})$. 
+$$\forall x, y \in \mathrm{Ob}(\mathcal{E}), \vert x \vert = \vert y \vert \iff \exists f \in \mathrm{Hom}_\mathcal{E}(x, y).(\exists g \in \mathrm{Hom}_\mathcal{E}(y, x).g \circ f = \mathrm{id}_x) \wedge (\exists h \in \mathrm{Hom}_\mathcal{E}(y, x).f \circ h = \mathrm{id}_y)$$
+The same quotient operation leads to a [[poset]] structure on $\mathrm{Card}(\mathcal{E})$ induced by the [[monomorphisms]] in $\mathcal{E}$, and $\mathcal{E}$ being a [[Boolean topos]] implies that the poset structure on $\mathrm{Card}(\mathcal{E})$ is a [[decidable relation|decidable]] [[total order]] with its negation being a [[pseudo-order]]. As a result, the same definitions of a regular cardinal, a strong limit cardinal, and an inaccessible cardinal in set theory can be made in $\mathrm{Card}(\mathcal{E})$. 
+
+An object $x \in \mathrm{Ob}(\mathcal{E})$ is called an **inaccessible object** if its cardinality is inaccessible. 
 
 ## Related concepts
 
@@ -55,7 +63,6 @@ If one thinks of $\aleph_0$ as already an inaccessible cardinal, then the [[axio
 Historical review with comprehensive references:
 
 * [[Ralf Krömer]], §6.4.5 in: *Tool and object: A history and philosophy of category theory*, Science Networks. Historical Studies **32** (2007) &lbrack;[doi:10.1007/978-3-7643-7524-9](https://doi.org/10.1007/978-3-7643-7524-9)&rbrack;
-
 
 See also:
 
@@ -76,3 +83,17 @@ The proof that a Tarski-[[Grothendieck universe]] is equivalently a set of $\kap
 [[!redirects strongly inaccessible cardinals]]
 [[!redirects weakly inaccessible cardinal]]
 [[!redirects weakly inaccessible cardinals]]
+
+[[!redirects inaccessible set]]
+
+[[!redirects strongly inaccessible set]]
+[[!redirects strongly inaccessible sets]]
+[[!redirects weakly inaccessible set]]
+[[!redirects weakly inaccessible sets]]
+
+[[!redirects inaccessible object]]
+
+[[!redirects strongly inaccessible object]]
+[[!redirects strongly inaccessible objects]]
+[[!redirects weakly inaccessible object]]
+[[!redirects weakly inaccessible objects]]
