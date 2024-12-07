@@ -114,8 +114,10 @@ In particular, if $\mathbf{B}$ is locally small and has [[pullback|pullbacks]], 
 
 ## Examples
 
-There are some at [[M-category]], to put also here.
+* Any model $(V, \in_V)$ of a [[material set theory]] is a strict category, with $V$ being the set of objects of the strict category, and given elements $a \in V$ and $b \in V$, the hom-set $\mathrm{hom}_V(a, b)$ is the [[function set]] between the sets 
+$$\{x \in V \vert x \in_V a\} \qquad \mathrm{and} \qquad \{x \in V \vert x \in_V b\}$$
 
+There are some at [[M-category]], to put also here.
 
 ## Strict higher categories
 
