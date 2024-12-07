@@ -45,8 +45,7 @@ $$
 
 ## Related entries
 
-* [[spindle orbifold][
-
+* [[spindle orbifold]]
 
 ## References
 
