@@ -186,6 +186,9 @@ with further amplification including
 
 * {#Townsend97b} [[Paul Townsend]]: *M-theory from its superalgebra*, in *Strings, Branes and Dualities*, NATO ASI Series **520**, Springer (1999) &lbrack;[arXiv:hep-th/9712004](http://arxiv.org/abs/hep-th/9712004), [doi:10.1007/978-94-011-4730-9_5](https://doi.org/10.1007/978-94-011-4730-9_5)&rbrack;
 
+* [[Chris Hull]]: pp 5 in: *Gravitational Duality, Branes and Charges*, Nucl. Phys. B **509** (1998) 216-251 &lbrack;[arXiv:hep-th/9705162](https://arxiv.org/abs/hep-th/9705162), <a href="https://doi.org/10.1016/S0550-3213(97)00501-4">doi:10.1016/S0550-3213(97)00501-4</a>&rbrack;
+
+
 In their global form, where differential forms are replaced by their de Rham cohomology classes on curved superspacetimes, these algebras were identified (for the case including the 2-form piece but not the 5-form piece) as the algebras of [[conserved currents]] of the [[Green-Schwarz super p-brane sigma-models]] in
 
 * {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], [[José M. Izquierdo]], [[Paul Townsend]]: *Topological Extensions of the Supersymmetry Algebra for Extended Objects*, Phys. Rev. Lett. **63** (1989) 2443 &lbrack;[doi:10.1103/PhysRevLett.63.2443](https://doi.org/10.1103/PhysRevLett.63.2443), [spire:26393](https://inspirehep.net/record/26393?ln=en)&rbrack;
