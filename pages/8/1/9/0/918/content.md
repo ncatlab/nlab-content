@@ -107,6 +107,16 @@ In a category $\mathcal{C}$ with a [[terminal object]] $1$ and binary [[equalise
 Suppose there are parallel morphisms $g, h:B\rightarrow C$ such that for every global element $y:1\rightarrow B$, $g \circ y = h \circ y$. One could construct an equaliser $f:eq(g,h)\rightarrow B$, which implies that $g \circ f = h \circ f$ and that for any global element $x:1\rightarrow eq(g,h)$, $g \circ f \circ x = h \circ f \circ x$. This implies that for every global element $y:1\rightarrow B$, there exists a global element $x:1\rightarrow eq(g,h)$ where $y = f \circ x$, and the equaliser $f:eq(g,h)\rightarrow B$ is a surjection. Since every surjection is a [[split epimorphism]], $f$ has a section $i:B\rightarrow eq(g,h)$ such that $f \circ i = 1_{B}$, the identity morphism on $B$, $g \circ f \circ i = h \circ f \circ i$, $g \circ 1_{B} = h \circ 1_{B}$, and $g = f$. Because for every global element $y:1\rightarrow B$, $g \circ y = h \circ y$ implies $g = h$, the terminal object $1$ is a [[separator]].
 =--
 
+## In dependent type theory
+
+In [[dependent type theory]], surjections are defined in the same way as they are in set theory: a [[function]] $f:A \to B$ between types $A$ and $B$ is a **surjection** if for all [[terms]] $b:B$ the [[fiber]] of $f$ over $b$ is [[inhabited]]. 
+
+$$isSurjective(f) \coloneqq \prod_{b:B} \Vert fiber(f, b) \Vert$$
+
+However, unlike set theory, [[surjections]] are not necessarily the same as [[epimorphisms]] in dependent type theory. For example, the unique function from the [[boolean domain]] $\mathbb{2}$ to the [[unit type]] is a surjection, but it is not a epimorphism if the type theory has the [[circle type]] with its large recursion principle. In fact, surjections and epimorphisms correspond in dependent type theory if and only if an [[axiom of set truncation]] holds in the type theory.
+
+Instead, [[surjections]] in dependent type theory correspond to the [[effective epimorphisms]] in set theory and category theory. This is because in dependent type theory, types in general represent [[infinity-groupoid|$\infty$-groupoids]] and form an [[(infinity,1)-category]], and so the relevant notion is that of an [[effective epimorphism in an (infinity,1)-category]]. 
+
 ## Related concepts
 
 * [[injection]]
