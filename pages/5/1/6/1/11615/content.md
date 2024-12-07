@@ -40,7 +40,13 @@ Alternatively one may set up synthetic differential geometry via axioms for [[di
 
 * **[[synthetic homotopy theory]]** -- With the advent of [[homotopy type theory]], which may be regarded to some extent as a further abstraction of axioms similar to those of model categories, it became more common to speak of this as "synthetic homotopy theory", as, for example, in the [[Homotopy Type Theory -- Univalent Foundations of Mathematics|HoTT book]]. For a list of work carried out in homotopy type theory, see at *[[mathematics presented in homotopy type theory]]*
 
-* [[synthetic topology]]
+* **[[synthetic topology]]** -- There are many different approaches for doing [[topology]] synthetically. Some of them include:
+
+  * [[synthetic Stone duality]], which sets up the [[topos]] of [[light condensed sets]] via axioms
+
+  * [[abstract Stone duality]], which sets up the [[category]] of [[locally compact locales]] via axioms
+
+  * [[real-cohesive homotopy type theory]], which sets up the [[(infinity,1)-topos]] of [[Euclidean topological infinity-groupoids]] via axioms
 
 * [[synthetic differential topology]]
 
@@ -49,8 +55,6 @@ Alternatively one may set up synthetic differential geometry via axioms for [[di
   * [[synthetic guarded domain theory]]
 
 * [[synthetic algebraic geometry]]
-
-* [[synthetic Stone duality]]
 
 * [[synthetic probability theory]]
 
