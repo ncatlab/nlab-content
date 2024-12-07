@@ -15,6 +15,10 @@ The **axiom of dependent choice** states that given a [[family of sets]] $X_n$ a
 $$X_0 \overset{f_0}\leftarrow X_1 \overset{f_1}\leftarrow X_1 \overset{f_2}\leftarrow \ldots$$
 the projection function to $X_0$ from the [[sequential limit]] $\underset{\leftarrow}\lim X_n$ of the above diagram is a surjection. 
 
+### In a topos or pretopos
+
+More generally, given an [[elementary topos]] or a [[pretopos]] $\mathcal{E}$ with [[sequential limits]], the **axiom of dependent choice** states that given a sequence of objects $X:\mathbb{N} \to \mathrm{Ob}(\mathcal{E})$ and a [[dependent sequence]] of [[epimorphisms]] $f_n:\mathrm{hom}_\mathcal{E}(X_{n + 1}, X_{n})$ indexed by $n \in \mathbb{N}$, the projection function to $X_0$ from the [[sequential limit]] $\underset{\leftarrow}\lim X_n$ of the above diagram is an epimorphism. 
+
 ### In dependent type theory
 
 In [[dependent type theory]], the **axiom of dependent choice** states that if $A$ is an [[inhabited set]] and if $R$ is a [[entire relation]] on $A$, then then there exists a sequence $a:\mathbb{N} \to A$ such that for all $n:\mathbb{N}$, $R(a(n), a(n + 1))$ holds. 
