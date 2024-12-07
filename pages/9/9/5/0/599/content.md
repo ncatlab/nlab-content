@@ -1,14 +1,18 @@
 
 # Ronnie Brown
 
-Ronnie Brown (died 6th December 2024) was a British topologist well known for his work on Non-Abelian Algebraic Topology jointly with [[P. J. Higgins]]. His work involved the in-depth examination of the homotopy theory and applications of [[crossed complexes]].  He was also well known for his work on the Popularisation of Mathematics, and for his correspondence with [[Alexander Grothendieck]] which was one of the motivating inputs for Grothendieck's notes on [[Pursuing Stacks]].
+Ronnie Brown (1935-2024) was a British topologist well known for his work on "[[Nonabelian Algebraic Topology]]" jointly with [[P. J. Higgins]]. His work involved the in-depth examination of the homotopy theory and applications of [[crossed complexes]].  He was also well known for his work on the Popularisation of Mathematics, and for his correspondence with [[Alexander Grothendieck]] which was one of the motivating inputs for Grothendieck's notes on [[Pursuing Stacks]].
 
-* [website](http://www.groupoids.org.uk)
+* [personal page](http://www.groupoids.org.uk)
+
+* <a href="https://en.m.wikipedia.org/wiki/Ronald_Brown_(mathematician)">Wikipedia entry</a>
 
 * [list of publications](http://groupoids.org.uk/publicfull.htm)
 
 
 ## Research Areas
+
+> The following was written into this entry by Ronnie Brown himself:
 
 My DPhil Thesis (submitted 1961) under Michael Barratt was on the algebraic topology of function spaces, more specifically to make some progress in computing the homotopy type oh the function space $X^Y$ by induction on the Postnikov system of $X$. In the following, numbers in round  brackets  refer to my publication list, with many downloadable as pdfs. 
 
@@ -74,9 +78,15 @@ For more information, see the entry on [[nonabelian algebraic topology]].
 
 Discussion of [[exponential law for spaces|exponential objects]] in [[slice categories]] of [[compactly generated topological spaces]] (towards [[locally cartesian closed category|local cartesian closure]]):
 
-* {#BoothBrown78a} [[Peter I. Booth]], [[Ronnie Brown]], *Spaces of partial maps, fibred mapping spaces and the compact-open topology*, General Topology and its Applications **8**  2 (1978) 181-195 $[$<a href="https://doi.org/10.1016/0016-660X(78)90049-1">doi:10.1016/0016-660X(78)90049-1</a>$]$
+* {#BoothBrown78a} [[Peter I. Booth]], [[Ronnie Brown]], *Spaces of partial maps, fibred mapping spaces and the compact-open topology*, General Topology and its Applications **8**  2 (1978) 181-195 &lbrack;<a href="https://doi.org/10.1016/0016-660X(78)90049-1">doi:10.1016/0016-660X(78)90049-1</a>&rbrack:
 
-* {#BoothBrown78b} [[Peter I. Booth]], [[Ronnie Brown]], *On the application of fibred mapping spaces to exponential laws for bundles, ex-spaces and other categories of maps*, General Topology and its Applications **8** 2 (1978) 165-179 $[$<a href="https://doi.org/10.1016/0016-660X(78)90048-X">doi:10.1016/0016-660X(78)90048-X</a>$]$
+* {#BoothBrown78b} [[Peter I. Booth]], [[Ronnie Brown]], *On the application of fibred mapping spaces to exponential laws for bundles, ex-spaces and other categories of maps*, General Topology and its Applications **8** 2 (1978) 165-179 &lbrack;<a href="https://doi.org/10.1016/0016-660X(78)90048-X">doi:10.1016/0016-660X(78)90048-X</a>&rbrack;
+
+On [[algebraic topology]] using [[strict ∞-groupoids]] (often in the equivalent guise of [[crossed complexes]], slightly "nonabelian" [[chain complexes]]):
+
+* [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]]: *[[Nonabelian Algebraic Topology]]: filtered spaces, crossed complexes, cubical homotopy groupoids*, Tracts in Mathematics **15**, European Mathematical Society (2011) &lbrack;ISBN 978-3-03719-083-8, [doi:10.4171/083](https://doi.org/10.4171/083), [webpage](http://groupoids.org.uk/nonab-a-t.html)&rbrack;
+
+
 
 
 
