@@ -29,7 +29,7 @@
 
 ## Idea
 
-**$\mathbb{R}$-cohesive homotopy type theory** or **real-cohesive homotopy type theory** is a version of [[cohesive homotopy type theory]] which has the [[axiom of real cohesion]]. It provides a [[synthetic mathematics|synthetic]] [[foundation]] for [[topology]], [[real analysis]], [[classical homotopy theory]], and [[algebraic topology]]. 
+**$\mathbb{R}$-cohesive homotopy type theory** or **real-cohesive homotopy type theory** is a version of [[cohesive homotopy type theory]] which has the [[axiom of real cohesion]]. It provides a [[synthetic mathematics|synthetic]] [[foundation]] for [[topology]], [[real analysis]], [[classical homotopy theory]], and [[algebraic topology]]. A model of real-cohesive homotopy type theory is the [[Euclidean-topological infinity-groupoids]]. 
 
 ## Presentation
 
