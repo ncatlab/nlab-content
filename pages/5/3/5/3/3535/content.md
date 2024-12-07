@@ -6,7 +6,11 @@ On [[categories]] and [[groupoids]]:
 
 * [[Philip J. Higgins]], *Categories and Groupoids*, Mathematical  Studies **32**, van Nostrand New  York (1971), Reprints in Theory and Applications of Categories **7** (2005) 1-195 &lbrack;[tac:tr7] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/7/tr7-2a4.pdf)&rbrack;
 
-For his long standing collaboration with [[Ronnie Brown]] on [[nonabelian algebraic topology]], see [here](http://groupoids.org.uk/nonab-a-t.html).
+On [[algebraic topology]] using [[strict ∞-groupoids]] (often in the equivalent guise of [[crossed complexes]], slightly "nonabelian" [[chain complexes]]):
+
+* [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]]: *[[Nonabelian Algebraic Topology]]: filtered spaces, crossed complexes, cubical homotopy groupoids*, Tracts in Mathematics **15**, European Mathematical Society (2011) &lbrack;ISBN 978-3-03719-083-8, [doi:10.4171/083](https://doi.org/10.4171/083), [webpage](http://groupoids.org.uk/nonab-a-t.html)&rbrack;
+
+For more on his long standing collaboration with [[Ronnie Brown]] on [[nonabelian algebraic topology]], see [here](http://groupoids.org.uk/nonab-a-t.html).
 
 His earlier paper
 
