@@ -133,11 +133,23 @@ The large recursion principle for circle types states that if:
 
 1. We have a type $A$
 
-1. We have an autoequivalence $e:A \to A$
+1. We have an autoequivalence $e:A \simeq A$
 
 then we have a type family $x:S^1 \vdash C(x)$ such that $C(\mathrm{base})$ results in $A$ and [[transport]] across $\mathrm{loop}$ results in $e$.
 
 $$C(\mathrm{base}) \equiv A \qquad \mathrm{tr}_{S^1}^C(\mathrm{base}, \mathrm{base}, \mathrm{loop}) \equiv e$$
+
+Usually, the second computation principle is given by a typal equality, similarly to the recursion and induction principles
+
+$$\beta_{S^1}^{\mathrm{loop},A}(e):\mathrm{tr}_{S^1}^C(\mathrm{base}, \mathrm{base}, \mathrm{loop}) =_{A \simeq A} e$$
+
+There are also typal computation rules for the type as well, which postulate an equivalence of types instead of a judgmental equality, with
+
+$$\beta_{S^1}^{\mathrm{base},A}(e):C(\mathrm{base}) \simeq A \qquad \beta_{S^1}^{\mathrm{base},A}(e) \circ \mathrm{tr}_{S^1}^C(\mathrm{base}, \mathrm{base}, \mathrm{loop}) \circ \beta_{S^1}^{\mathrm{base},A}(e)^{-1} \equiv \circ e$$
+
+Similarly, the second computation principle can be given by a typal equality, similarly to the recursion and induction principles:
+
+$$\beta_{S^1}^{\mathrm{loop},A}(e):\beta_{S^1}^{\mathrm{base},A}(e) \circ \mathrm{tr}_{S^1}^C(\mathrm{base}, \mathrm{base}, \mathrm{loop}) \circ \beta_{S^1}^{\mathrm{base},A}(e)^{-1} =_{A \simeq A} e$$
 
 ### In terms of higher inductive types
 {#InTermsOfHigherInductiveTypes}
