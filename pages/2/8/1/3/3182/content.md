@@ -995,7 +995,7 @@ This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the 
 
 ## Related concepts
 
-* [[D-topological space space]], [[diffeological space]]
+* [[D-topological space]], [[diffeological space]]
 
 * [[cohesive (∞,1)-topos]]
 
