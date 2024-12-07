@@ -333,6 +333,12 @@ $$
 $$
 subject to the equations $f h = f k$ and $g h = g k$, both $f$ and $g$ are strong, but not strict, epimorphisms.
 
+## In dependent type theory
+
+In [[dependent type theory]], epimorphisms are defined in the same way as they are in set theory or category theory: a function $f:A \to B$ between types $A$ and $B$ is an **epimorphism** if for all types $X$ the precomposition function $g \mapsto f \circ g:(X \to A) \to (X \to B)$ is an [[embedding of types]], embeddings in dependent type theory being the equivalent of [[monomorphisms]] in [[category theory]] or [[injections]] in [[set theory]]. 
+
+However, unlike set theory, [[epimorphisms]] are not necessarily the same as [[surjections]] in dependent type theory. For example, the unique function from the [[boolean domain]] $\mathbb{2}$ to the [[unit type]] is a surjection, but it is not a epimorphism if the type theory has the [[circle type]] with its large recursion principle. In fact, surjections and epimorphisms correspond in dependent type theory if and only if an [[axiom of set truncation]] holds in the type theory. 
+
 ## Related concepts
 
 * [[monomorphism]]
@@ -349,13 +355,19 @@ Textbook accounts:
 
 * [[Saunders MacLane]], §I.5 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-
 * [[Francis Borceux]], Section 1.8 in: *[[Handbook of Categorical Algebra]]* Vol. 1: *Basic Category Theory* &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
 
 See also:
 
 * [[G. M. Kelly]], _Monomorphisms, Epimorphisms, and Pullbacks_, Journal of the Australian Mathematical Society 9.1-2 (1969), pp. 124–142.  [doi:10.1017/s1446788700005693](https://doi.org/10.1017/s1446788700005693).
 
+Epimorphisms in [[dependent type theory]]:
+
+* [[Tom de Jong]], *Acyclic types and epimorphisms in HoTT*, [[Homotopy Type Theory Electronic Seminar Talks]], 17 November 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Jong-2022-11-17-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=vohAYPAAWxs))
+
+* [[Ulrik Buchholtz]], [[Tom de Jong]], [[Egbert Rijke]], *Epimorphisms and Acyclic Types in Univalent Mathematics*, ([arXiv:2401.14106](https://arxiv.org/abs/2401.14106))
+
+[[!redirects epimorphism]]
 [[!redirects epimorphisms]]
 [[!redirects epic]]
 [[!redirects epics]]
@@ -367,3 +379,8 @@ See also:
 [[!redirects Epics]]
 [[!redirects Epi]]
 [[!redirects Epis]]
+
+[[!redirects epimorphism in dependent type theory]]
+[[!redirects epimorphisms in dependent type theory]]
+[[!redirects epimorphism in homotopy type theory]]
+[[!redirects epimorphisms in homotopy type theory]]
