@@ -81,10 +81,18 @@ In the model of [[infinity-groupoids]] as [[simplicial sets]]/[[Kan complexes]],
 
 * {#BarwickHaine19} [[Clark Barwick]], [[Peter Haine]], _Pyknotic objects, I. Basic notions_, ([arXiv:1904.09966](https://arxiv.org/abs/1904.09966)
 
+* {#Zhu23} [[Qi Zhu]], *Fractured Structure on Condensed Anima*, MSc thesis (2023) &lbrack;[pdf](https://1429cecd-24a0-4223-8b7c-1ebf47aa12e2.filesusr.com/ugd/8e912a_fe1c2f8e90094d0fa065fb8129687963.pdf), [[QiZhu-FracturedCondensed.pdf:file]]&rbrack;
 
 See [[condensed mathematics]] and [[infinity-groupoid#Anima]]. 
 
+[[!redirects condensed infinity-groupoid]]
 [[!redirects condensed infinity-groupoids]]
 [[!redirects condensed anima]]
 [[!redirects condensed ∞-groupoids]]
 [[!redirects condensed ∞-groupoid]]
+
+[[!redirects pyknotic infinity-groupoid]]
+[[!redirects pyknotic infinity-groupoids]]
+[[!redirects pyknotic anima]]
+[[!redirects pyknotic ∞-groupoids]]
+[[!redirects pyknotic ∞-groupoid]]
