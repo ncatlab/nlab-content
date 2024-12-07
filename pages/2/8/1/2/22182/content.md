@@ -124,6 +124,21 @@ and similarly, the (non-dependent) **universal property of the circle type** is 
 
 $$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_\mathrm{base}:C \quad \Gamma \vdash c_\mathrm{loop}:c_\mathrm{base} =_{C} c_\mathrm{base}}{\Gamma \vdash \mathrm{rec}_{S^1}^{C}(c_\mathrm{base}, c_\mathrm{loop}):\exists!c:S^1 \to C.\sum_{p:c(\mathrm{base}) =_{C(\mathrm{base})} c_\mathrm{base}} \mathrm{ap}_c(\mathrm{base}, \mathrm{base}, \mathrm{loop}) =_{z:C.z =_{C} z}^{(c(\mathrm{base}), c_\mathrm{base}, p)} c_\mathrm{loop}}$$
 
+#### Large recursion principle
+{#LargeRecursionPrinciple}
+
+There is also a large recursion principle which allows one to construct a family of types indexed by the circle type from a type and an [[autoequivalence]]: 
+
+The large recursion principle for circle types states that if:
+
+1. We have a type $A$
+
+1. We have an autoequivalence $e:A \to A$
+
+then we have a type family $x:S^1 \vdash C(x)$ such that $C(\mathrm{base})$ results in $A$ and [[transport]] across $\mathrm{loop}$ results in $e$.
+
+$$C(\mathrm{base}) \equiv A \qquad \mathrm{tr}_{S^1}^C(\mathrm{base}, \mathrm{base}, \mathrm{loop}) \equiv e$$
+
 ### In terms of higher inductive types
 {#InTermsOfHigherInductiveTypes}
 
@@ -288,6 +303,8 @@ If one doesn't have a type of integers or a [[type universe]], then the extensio
 $$\lambda p:\mathrm{base} =_{S^1} \mathrm{base}.p \bullet \mathrm{loop}:(\mathrm{base} =_{S^1} \mathrm{base}) \simeq (\mathrm{base} =_{S^1} \mathrm{base})$$
 
 This is a special case of the extensionality principle of [[coequalizer types]] and [[pushout types]] as detailed in [Kraus and Raumer (2019)](#KrausRaumer19). 
+
+The [[circle type#LargeRecursionPrinciple|large recursion principle]] of the circle type also implies the extensionality principle of the circle type. 
 
 ### The circle type and infinity
 
