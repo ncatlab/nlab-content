@@ -61,7 +61,7 @@ Original introduction:
 
 Further references:
 
-* {#IonelParker99} Eleny-Nicoleta Ionel und Thomas H. Parker, _The Gopakumar–Vafa formula for symplectic manifolds_ (1999), _Annals of Mathematics, Second Edition_ **187** (1), pp. 1–64, [doi:10.4007/annals.2018.187.1.1](https://annals.math.princeton.edu/2018/187-1/p01), [arxiv:1306.1516](https://arxiv.org/abs/1306.1516), [bibcode:1998hep.th...11131G](https://ui.adsabs.harvard.edu/abs/1998hep.th...11131G)
+* {#IonelParker99} [[Eleny-Nicoleta Ionel]], [[Thomas H. Parker]], _The Gopakumar–Vafa formula for symplectic manifolds_ (1999), _Annals of Mathematics, Second Edition_ **187** (1), pp. 1–64, [doi:10.4007/annals.2018.187.1.1](https://annals.math.princeton.edu/2018/187-1/p01), [arxiv:1306.1516](https://arxiv.org/abs/1306.1516), [bibcode:1998hep.th...11131G](https://ui.adsabs.harvard.edu/abs/1998hep.th...11131G)
 
 * {#Toda21} Yukinobu Toda, _Recent Progress on the Donaldson–Thomas Theory: Wall-Crossing and Refined Invariants_ (2021.12.15) , [doi:10.1007/978-981-16-7838-7](https://link.springer.com/book/10.1007/978-981-16-7838-7)
 
