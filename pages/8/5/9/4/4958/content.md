@@ -11,8 +11,6 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -207,6 +205,9 @@ So $\Gamma$ does commute with colimits if $X$ is [[small-projective]]. Since all
 
 =--
 
+### Pyknotic $\infty$-groupoids
+
+The $(\infty,1)$-topos of [[pyknotic infinity-groupoid|pyknotic $\infty$-groupoids]] is a local $(\infty,1)$-topos, according to [Zhu 2023](#Zhu23). 
 
 ## Related concpepts
 
@@ -239,7 +240,9 @@ The 1-categorical notion is discussed in
 
 * [[Peter Johnstone]], [[Ieke Moerdijk]], _Local maps of toposes_  Proc. London Math. Soc.  (1989)   s3-58  (2):  281-305.  ([pdf](http://plms.oxfordjournals.org/content/s3-58/2/281.full.pdf+html))
 
+That pyknotic $\infty$-groupoids (note the author uses "condensed" to mean "pyknotic") form a local $(\infty,1)$-topos:
 
+* {#Zhu23} [[Qi Zhu]], *Fractured Structure on Condensed Anima*, MSc thesis (2023) &lbrack;[pdf](https://1429cecd-24a0-4223-8b7c-1ebf47aa12e2.filesusr.com/ugd/8e912a_fe1c2f8e90094d0fa065fb8129687963.pdf), [[QiZhu-FracturedCondensed.pdf:file]]&rbrack;
 
 
 [[!redirects local (∞,1)-geometric morphisms]]
