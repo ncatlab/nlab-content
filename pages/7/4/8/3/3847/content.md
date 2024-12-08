@@ -116,7 +116,7 @@ Toen's derived Hall algebras
 
 * Bangming Deng, Jie Du, [[Brian Parshall]], Jianpan Wang, _Finite dimensional algebras and quantum groups_, Mathematical Surveys and Monographs __150__, Amer. Math. Soc. 2008. xxvi+759 pp. (chap. 10: Ringel-Hall algebras) [MR2009i:17023)](https://mathscinet.ams.org/mathscinet-getitem?mr=2457938)
 
-* [[David Hernandez]], [[Bernard Leclerc]], _Quantum Grothendieck rings and derived Hall algebras_, J. Reine Angew. Math. 701 (2015) 77--126 [doi](https://doi.org/10.1515/crelle-2013-0020) [arXiv/1109.0862](https://arxiv.org/abs/1109.0862)
+* [[David Hernandez]], [[Bernard Leclerc]]: _Quantum Grothendieck rings and derived Hall algebras_, J. Reine Angew. Math. **701** (2015) 77-126 &lbrack;[doi](https://doi.org/10.1515/crelle-2013-0020), [arXiv/1109.0862](https://arxiv.org/abs/1109.0862)&rbrack;
 
 * Parker E. Lowrey, _The moduli stack and motivic Hall algebra for the bounded derived category_, [arxiv/1110.5117](http://arxiv.org/abs/1110.5117)
 
