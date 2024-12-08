@@ -45,7 +45,7 @@ Lecture notes:
 
 * [[Minoru Wakimoto ]], *Lectures on Infinite-Dimensional Lie Algebra*, World Scientific (2001) &lbrack;[doi:10.1142/4269](https://doi.org/10.1142/4269)&rbrack;
 
-* David Hernandez, _An introduction to affine Kac-Moody algebras_ (2006) ([pdf](http://www.ctqm.au.dk/events/2006/October/Week42/Masterclassnotes.pdf))
+* [[David Hernandez]]: *An introduction to affine Kac-Moody algebras*, lecture notes (2006) &lbrack;[pdf](http://www.ctqm.au.dk/events/2006/October/Week42/Masterclassnotes.pdf), [[Hernandez-AffineKacMoody.pdf:file]]&rbrack;
 
 * {#Gordon08} [[Iain Gordon]], _Infinite-dimensional Lie algebras_ (2008/9) ([pdf](http://www.maths.ed.ac.uk/~igordon/LA1.pdf)
 
