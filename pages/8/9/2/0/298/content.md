@@ -147,9 +147,11 @@ says that the Moonshine VOA is, up to isomorphism the unique VOA with these prop
 
 * {#FrenkenHuangLepowsky} [[Igor Frenkel]], [[Yi-Zhi Huang]], [[James Lepowsky]], _On Axiomatic approaches to Vertex Operator Algebras and Modules_, Memoirs of the AMS Vol 104, No 494 (1993)
 
-Brief review:
+Review:
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], pp. 4 of: *Algebraic structures in two-dimensional conformal field theory*, Encyclopedia of Mathematical Physics &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
+
+* {#Bu2024} [[Chenjing Bu]]: *[Vertex algebras done right](https://chenjing-bu.github.io/posts/2024/vertex-algebras-done-right/)*, blog post (2024)
 
 
 See also:
