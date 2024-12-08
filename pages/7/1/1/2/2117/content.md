@@ -119,6 +119,10 @@ For universes in [[class theory]] and [[algebraic set theory]], see
 
 * [[Steve Awodey]]. *Notes on algebraic set theory*, Notes for lectures given at the Summer School on Topos Theory, Haute-Bodeux, Belgium. May 29 to June 5, 2005. Carnegie Mellon University Technical Report No. CMU-PHIL-170. June 2005. ([pdf](https://www.phil.cmu.edu/projects/ast/Papers/bnotes.pdf))
 
+For Grothendieck's early use of the term
+
+* [[Alexander Grothendieck]]. *Sur la formalisation des catégories et foncteurs*, Rédaction Bourbaki [No. 307] Fonds Pierre Cartier (Archives Henri Poincaré) ([pdf](https://csg.igrothendieck.org/wp-content/uploads/2024/06/U2u.pdf))
+
 ### In type theory
 
 * [[Martin Hofmann]], section 2.1.6 of _Syntax and semantics of dependent types_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985))
