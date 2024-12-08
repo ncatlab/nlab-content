@@ -1,5 +1,5 @@
 
-# Ronnie Brown
+\tableofcontents
 
 Ronnie Brown (1935-2024) was a British topologist well known for his work on "[[Nonabelian Algebraic Topology]]" jointly with [[P. J. Higgins]]. His work involved the in-depth examination of the homotopy theory and applications of [[crossed complexes]].  He was also well known for his work on the Popularisation of Mathematics, and for his correspondence with [[Alexander Grothendieck]] which was one of the motivating inputs for Grothendieck's notes on [[Pursuing Stacks]].
 
