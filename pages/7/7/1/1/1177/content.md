@@ -11,11 +11,11 @@ The operation called _Connes fusion_ (after [[Alain Connes]]) is a tensor produc
 
 Connes fusion is used to define fusion of positive energy representations of the [[loop group]] $\mathcal{L}S U(N)$ in
 
-* Antony Wassermann, _Operator algebras and conformal field theory III_ ([arXiv](http://arxiv.org/abs/math.OA/9806031)) .
+* [[Antony Wassermann]]: *Operator algebras and conformal field theory III. Fusion of positive energy representations of $L S U(N)$ using bounded operators*, Invent math **133** (1998) 467–538 &lbrack;[arXiv:math.OA/9806031](http://arxiv.org/abs/math.OA/9806031), [doi:10.1007/s002220050253](https://doi.org/10.1007/s002220050253)&rbrack;
 
-It is used in a proposal for a construction of [[string group]]-[[principal bundle]]s in the context of finding geometric models for [[elliptic cohomology]] in 
+It is used in a proposal for a construction of [[string group]]-[[principal bundles]] in the context of finding geometric models for [[elliptic cohomology]] in 
 
-* [[Stephan Stolz]] and [[Peter Teichner]], _What is an elliptic object?_ ([link](http://math.berkeley.edu/~teichner/Papers/Oxford.pdf))
+* [[Stephan Stolz]] and [[Peter Teichner]], _[[What is an elliptic object?]]_ ([link](http://math.berkeley.edu/~teichner/Papers/Oxford.pdf))
 
 
 
