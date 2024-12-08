@@ -54,7 +54,7 @@ The generalization of [[Chern-Simons theory]] to [[manifolds]] of infinite [[dim
 
 * Yoshiaki Maeda, [[Steven Rosenberg]], Fabi&#225;n Torres-Ardila, _Riemannian geometry on loop spaces, part II: characteristic classes on $LM$_ ([pdf](http://math.bu.edu/people/sr/articles/CAGv2.pdf))
 
-* [[Sylvie Paycha]], Simon Scott, _Chern-Weil forms associated with superconnections_ ([pdf](http://math.univ-bpclermont.fr/~paycha/articles/PaychaScottfinalproceedings.pdf))
+* [[Sylvie Paycha]], Simon Scott, _Chern-Weil forms associated with superconnections_ ([pdf](https://www.researchgate.net/publication/253606665_Chern-weil_forms_associated_with_superconnections))
 
 * Raymond Vozzo, _Loop Groups and Characteristic Classes_ (2010) ([pdf](http://www.mpim-bonn.mpg.de/webfm_send/24))
 
