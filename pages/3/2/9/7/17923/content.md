@@ -37,3 +37,6 @@ For [[connected topological space|connected]] [[compact Lie groups]], a Cartan s
 * Wikipedia, _[Cartan subgroup](https://en.wikipedia.org/wiki/Cartan_subgroup)_
 
 [[!redirects ranks of Lie groups]]
+
+[[!redirects rank of a Lie algebra]]
+[[!redirects ranks of Lie algebras]]
