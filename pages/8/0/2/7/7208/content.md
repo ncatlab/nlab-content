@@ -47,24 +47,26 @@ On the [[Wess-Zumino-Witten model]] [[2d CFT]] via [[Kac-Moody algebra]] and [[V
 
 * [[Peter Goddard]], [[David Olive]], *Kac-Moody and Virasoro algebras in relation to quantum physics*,  International Journal of Modern Physics A **01** 02 (1986) 303-414 &lbrack;[doi:10.1142/S0217751X86000149](https://doi.org/10.1142/S0217751X86000149), [spire:18583](https://inspirehep.net/literature/18583)&rbrack;
 
-See also:
-
-* wikipedia, _[Kac-Moody algebra](http://en.wikipedia.org/wiki/Kac%E2%80%93Moody_algebra)_
-
 Lecture notes:
 
-* {#Wassermann11} [[Antony Wassermann]], _Kac-Moody and Virasoro algebras_, course notes (2011) ([pdf](https://www.dpmms.cam.ac.uk/~ajw/course11.pdf))
+* {#Wassermann11} [[Antony Wassermann]]: *Kac-Moody and Virasoro algebras*, course notes (2011) &lbrack;[arXiv:1004.1287](https://arxiv.org/abs/1004.1287)&rbrack;
 
-* [[Hermann Nicolai]], _Infinite dimensional symmetries_ (2009) ([pdf](http://www.itp.uni-hannover.de/~lechtenf/Events/Lectures/nicolai.pdf))
+With an eye towards [[U-duality]] in [[11D supergravity]]:
 
-The standard textbook is
+* {#NicolaiSchlotterer09} [[Hermann Nicolai]] (notes by [[Oliver Schlotterer]]): _Infinite dimensional symmetries_, lecture at *Saalburg summer school* in Wolfersdorf, Thuringia (2009) &lbrack;[[NicolaiSchlotterer-InfinDimSymmetries.pdf:file]]&rbrack;
+
+
+A standard textbook account:
 
 * [[Victor G. Kac]], *Infinite Dimensional Lie Algebras*,  Progress in Mathematics **44** Springer 1983 &lbrack;[doi:10.1007/978-1-4757-1382-4](https://link.springer.com/book/10.1007/978-1-4757-1382-4)&rbrack;, Cambridge University Press (1990) &lbrack;[doi:10.1017/CBO9780511626234](https://doi.org/10.1017/CBO9780511626234)&rbrack;
 
-
 Collections of articles:
 
-* N. Sthanumoorty, K. Misra (eds.), _Kac-Moody Lie algebras and related topics_, Contemporary Mathematics 343 AMS (2002)
+* N. Sthanumoorty, K. Misra (eds.): *Kac-Moody Lie algebras and related topics*, Contemporary Mathematics **343** AMS (2002) &lbrack;ISBN:978-0-8218-7933-7, [ams:conm-343](https://bookstore.ams.org/conm-343)&rbrack;
+
+See also:
+
+* Wikipedia: *[Kac-Moody algebra](http://en.wikipedia.org/wiki/Kac%E2%80%93Moody_algebra)*
 
 
 
@@ -77,16 +79,16 @@ Surveys:
 
 * Wikipedia, _[En](http://en.wikipedia.org/wiki/En_%28Lie_algebra%29)_
 
-The fact that every simply laced hyperbolic Kac-Moody algebra appears as a subalgebra of [[E10]] is in 
+The fact that every simply laced hyperbolic Kac-Moody algebra appears as a subalgebra of [[E10|$E_{10}$]]: 
 
 * Sankaran Viswanath: *Embeddings of hyperbolic Kac-Moody algebras into $E_{10}$* &lbrack;[arXiv:0801.2586](https://arxiv.org/abs/0801.2586), [doi:10.1007/s11005-007-0214-7](https://doi.org/10.1007/s11005-007-0214-7), [doi:10.1007/s11005-007-0214-7](https://doi.org/10.1007/s11005-007-0214-7)&rbrack;
 
 ### Affine Lie algebras
 
-As far as applications this is the most important class. 
-See $n$Lab entry [[affine Lie algebra]] and 
+> For more see also at *[[affine Lie algebra]]*.
 
-* [[David Hernandez]], _An introduction to affine Kac-Moody algebras_ ([pdf](http://www.ctqm.au.dk/events/2006/October/Week42/Masterclassnotes.pdf))
+* [[David Hernandez]]: *An introduction to affine Kac-Moody algebras*, lecture notes (2006) &lbrack;[pdf](http://www.ctqm.au.dk/events/2006/October/Week42/Masterclassnotes.pdf), [[Hernandez-AffineKacMoody.pdf:file]]&rbrack;
+
 
 ### In supergravity
 
