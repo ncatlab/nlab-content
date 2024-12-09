@@ -129,10 +129,22 @@ Instead, [[surjections]] in dependent type theory correspond to the [[effective 
 
 * [[equivariant function]]
 
+## References
+
+For surjections in [[dependent type theory]], see section 15.2 of:
+
+* [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
+
+or section 4.6 of:
+
+* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+
+see also: 
+
+* [[Egbert Rijke]], *The join construction*, 26 Jan 2017, ([arXiv:1701.07538](https://arxiv.org/abs/1701.07538))
 
 [[!redirects surjective function]]
 [[!redirects surjective functions]]
-
 
 [[!redirects surjections]]
 [[!redirects surjective]]
@@ -140,4 +152,3 @@ Instead, [[surjections]] in dependent type theory correspond to the [[effective 
 [[!redirects surjective maps]]
 
 [[!redirects surjectivity]]
-
