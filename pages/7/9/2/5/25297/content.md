@@ -28,5 +28,10 @@ On [[tmf]] in relation to [[elliptic genera]] as [[partition functions]] of [[2d
 
 * [[Theo Johnson-Freyd]], [[Mayuko Yamashita]], *On the 576-fold periodicity of the spectrum SQFT: The proof of the lower bound via the Anderson duality pairing* \[<a href="https://arxiv.org/abs/2404.06333">arXiv:2404.06333</a>\]
 
+On [[equivariant elliptic cohomology]]:
+
+* [[Ying-Hsuan Lin]], [[Mayuko Yamashita]]: *Topological Elliptic Genera I -- The mathematical foundation* \[<a href="https://arxiv.org/abs/2412.02298">arXiv:2412.02298</a>\]
+
+
 
 category: people
