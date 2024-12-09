@@ -32,6 +32,10 @@ A square matrix which is its own transpose, $A =A^T$, is called a [[symmetric ma
 
 * [[dagger-compact category]]
 
+## References
+
+* Wikipedia: *[Transpose](https://en.wikipedia.org/wiki/Transpose)*
+
 [[!redirects transpose matrices]]
 [[!redirects matrix transposition]]
 
