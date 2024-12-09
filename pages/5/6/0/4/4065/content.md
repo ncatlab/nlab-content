@@ -112,7 +112,7 @@ EMS Series of Lectures in Mathematics. European Mathematical Society (EMS), Z&#2
 
 Possible relation to [[elliptic cohomology]] ([[topological modular forms]]):
 
-* Jan Albert, Justin Kaidi, Ying-Hsuan Lin, *Topological modularity of Supermoonshine* $[$[arXiv:2210.14923](https://arxiv.org/abs/2210.14923)$]$
+* Jan Albert, [[Justin Kaidi]], [[Ying-Hsuan Lin]], *Topological modularity of Supermoonshine*, Progress of Theoretical and Experimental Physics, **2023** 3 (2023) 033B06 \[<a href="https://arxiv.org/abs/2210.14923">arXiv:2210.14923</a>, <a href="https://doi.org/10.1093/ptep/ptad034">doi:10.1093/ptep/ptad034</a>\]
 
 
 ### Realization in superstring theory
