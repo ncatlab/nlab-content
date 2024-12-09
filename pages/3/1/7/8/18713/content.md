@@ -12,7 +12,7 @@ On [[schreiber:Higher Prequantum Geometry]]:
 
 On [[smooth ∞-groupoids]] and their [[shape via the cohesive path ∞-groupoid]]:
 
-* {#Bunk20} [[Severin Bunk]], *The $\mathbb{R}$-Local Homotopy Theory of Smooth Spaces* ([arXiv:2007.06039](https://arxiv.org/abs/2007.06039))
+* {#Bunk20} [[Severin Bunk]], *The $\mathbb{R}$-Local Homotopy Theory of Smooth Spaces*, J. Homotopy Relat. Struct. (2022) &lbrack;[arXiv:2007.06039](https://arxiv.org/abs/2007.06039), [doi:10.1007/s40062-022-00318-7](https://doi.org/10.1007/s40062-022-00318-7)&rbrack;
 
 
 On [[principal ∞-bundles]]:
