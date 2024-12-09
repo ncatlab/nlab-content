@@ -111,7 +111,7 @@ $$\forall_{d: D} r(d, c) \Rightarrow s(d, b)$$
 
 * In $Cat$, if $A$ is small and $B$ is locally small, and if $F: A \to B$ is a functor, then we have a Yoneda embedding $y: A \to P A = Set^{A^{op}}$ and a functor $B(F-, -): B \to P A$, and there is a canonical map 
 $$y_A \to B(F-, -) \circ f$$ 
-(essentially, $hom(a, b) \to hom(F a, F b)$ taking $f: a \to b$ to $F f: F a \to F b$). This arrow exhibits $F$ as a left Kan lift of $y$ through $B(F-, -)$, which is moreover absolute. This example is important in the theory of Yoneda structures, due to Street and Walters; see Mark Weber's updated [development](http://www.pps.jussieu.fr/~weber/Two-toposes4.pdf) in the context of 2-topos theory.
+(essentially, $hom(a, b) \to hom(F a, F b)$ taking $f: a \to b$ to $F f: F a \to F b$). This arrow exhibits $F$ as a left Kan lift of $y$ through $B(F-, -)$, which is moreover absolute. This example is important in the theory of [[Yoneda structure|Yoneda structures]], due to Street and Walters; see Mark Weber's updated [development](http://www.pps.jussieu.fr/~weber/Two-toposes4.pdf) in the context of 2-topos theory.
 
 ## References
 
