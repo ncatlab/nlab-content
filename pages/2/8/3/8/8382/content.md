@@ -37,7 +37,7 @@ For some, abduction also signifies the creative process of coming up with a good
 
 ## Abduction as lifting
 
-In Peirce's [Harvard lectures, p. 315](#Harvard), he describes the triad -- _deduction_, _induction_, _abduction_ -- in terms of the logical relations between three concepts, $M$, $P$ and $S$.
+In Peirce's [Harvard lectures, p. 135](#Harvard), he describes the triad -- _deduction_, _induction_, _abduction_ -- in terms of the logical relations between three concepts, $M$, $P$ and $S$.
 
 * Deduction strings together, say, $M$ is $P$ and $P$ is $S$ to give $M$ is $S$.
 
