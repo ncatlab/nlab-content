@@ -136,4 +136,5 @@ The original page about semi-simplicial types on the wiki of the Univalent Found
 
 * {#Kolomatskaia22} [[Astra Kolomatskaia]], *Semi-Simplicial Types*, [[Homotopy Type Theory Electronic Seminar Talks]], 15 December 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Kolomaskaia-2022-12-15-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=fQv2FpeFxew))
 
-
+[[!redirects semi-simplicial type in homotopy type theory]]
+[[!redirects semi-simplicial types in homotopy type theory]]
