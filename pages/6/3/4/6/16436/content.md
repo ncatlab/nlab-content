@@ -74,7 +74,7 @@ General discussion:
 
 * [[Antoine Van Proeyen]], sections 4.5, 4.7 of: _Tools for supersymmetry_ &lbrack;[arXiv:hep-th/9910030](https://arxiv.org/abs/hep-th/9910030)&rbrack;
 
-* {#KTM22} Sergei Kuzenko, Gabriele Tartaglino-Mazzucchelli, *Supertwistor realisations of AdS superspaces*, The European Physical Journal C **82** 2 (2022) 146 &lbrack;[doi:10.1140/epjc/s10052-022-10072-y](https://doi.org/10.1140/epjc/s10052-022-10072-y), [arXiv:2108.03907](https://arxiv.org/abs/2108.03907)&rbrack;
+* {#KTM22} [[Sergei Kuzenko]], Gabriele Tartaglino-Mazzucchelli: *Supertwistor realisations of AdS superspaces*, The European Physical Journal C **82** 2 (2022) 146 &lbrack;[doi:10.1140/epjc/s10052-022-10072-y](https://doi.org/10.1140/epjc/s10052-022-10072-y), [arXiv:2108.03907](https://arxiv.org/abs/2108.03907)&rbrack;
 
 Specifically concerning super-$AdS_4 \times S^7$ ([[superspace|super]]-[[near horizon geometry]] of [[black brane|black]] [[M2-branes]] as in [[AdS4/CFT3-duality]]):
 
@@ -100,6 +100,10 @@ Review:
 Specifically for the [[superstring]] on super-$AdS_5 \times S^5$:
 
 * [[Igor A. Bandos]]: *Superembedding approach to superstring in $AdS_5 \times S^5$ superspace*, in: *Fundamental Interactions* (2009) 303-334 &lbrack;[arXiv:0812.0257](https://arxiv.org/abs/0812.0257), [doi:10.1142/9789814277839_0018](https://doi.org/10.1142/9789814277839_0018)&rbrack;
+
+Specifically for $AdS^{4\vert 4 \mathcal{N}}$:
+
+* Nowar E. Koning, [[Sergei M. Kuzenko]], Emmanouil S. N. Raptakis: *The anti-de Sitter supergeometry revisited* &lbrack;[arXiv:2412.03172](https://arxiv.org/abs/2412.03172)&rbrack;
 
 
 
