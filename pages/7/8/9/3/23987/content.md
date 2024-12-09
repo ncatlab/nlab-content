@@ -2658,7 +2658,19 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   > &lbrack;3&rbrack; Parzygnat, Fullwood "Time-symmetric correlations for open quantum systems" [arXiv:2407.11123](https://arxiv.org/abs/2407.11123)
 
 
-  
+\linebreak
+
+### Nov 2024
+
+* {#HuangDec2024} 09 Dec 2024
+
+  Yingyi Huang (Guangdong University of Technology, China):
+
+  **Search for Majorana Zero Modes in Full-Shell Hybrid Nanowires for Topological Quantum Computing**
+
+  cf.: [arXiv:1904.13374](https://arxiv.org/abs/1904.13374)
+
+  > Majorana fermions are fermions that were originally proposed in particle physics by Ettore Majorana and are characterized as being their own anti-particle. In condensed matter systems, Majorana quasiparticles occur as fractionalized excitations with an associated topologically protected degeneracy. In this talk, I will briefly review the basic concepts and recent developments in the study of Majorana zero modes in semiconductor-superconductor nanowires and $Fe$-based superconductors, and discuss the possible quantum anomalous vortex and Majorana zero mode in full-shell hybrid nanowires.  
 
 \linebreak
 
