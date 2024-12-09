@@ -235,6 +235,8 @@ On non-supersymmetric [[branes]] in heterotic string theory:
 
 * [[Justin Kaidi]], [[Yuji Tachikawa]], [[Kazuya Yonekura]]: *On non-supersymmetric heterotic branes* &lbrack;[arXiv:2411.04344](https://arxiv.org/abs/2411.04344)&rbrack;
 
+* Masaki Fukuda, Shun K. Kobayashi, Kento Watanabe, Kazuya Yonekura: *Black $p$-Branes in Heterotic String Theory* &lbrack;[arXiv:2412.02277](https://arxiv.org/abs/2412.02277)&rbrack;
+
 
 
 ### Orbifold and orientifold compactifications
