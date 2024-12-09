@@ -84,18 +84,19 @@ Here the $level \leq 2$-truncation happens to coincide with the bosonic [[body]]
 [^ThanksToKleinschmidt]: private communication with [[Axel Kleinschmidt]] 
 
 
-### Maximal compact subalgebra
- {#MaximalCompactSubalgebra}
+### Temporal involutory subalgebra
+ {#TemporalInvolutorySubalgebra}
 
-In contrast to $\mathfrak{e}_{11(11)}$ itself, its "maximal compact subalgebra" $\mathfrak{k}_{11(11)}$ has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite-dimensional]] [[representations]] ([KKLN22](Kac-Moody+algebra#KKLN22)), 
+
+In contrast to $\mathfrak{e}_{11(11)}$ itself, its *temporal* "[involutory subalgebra](Kac-Moody+algebra#OnMaximalCompactSubalgebra)" $\mathfrak{k}_{1,10}$ ([Englert & Houart 2004 §2.2](#EnglertHouart04), the $H_{11}$ of [Keurentjes 2004](#Keurentjes04)) has non-[[trivial representation|trivial]] [[finite-dimensional vector space|finite-dimensional]] [[representations]] ([KKLN22](Kac-Moody+algebra#KKLN22)), 
 
 In particular there is:
 
-* an irrep $\mathbf{32} \,\in\, Rep_{\mathbb{R}}( \mathfrak{k}_{11(11)} )$ which when restricted to the sub Lie algebra $\mathfrak{so}_{1,10} \hookrightarrow \mathfrak{k}_{11(11)}$ is the usual [[Majorana spinor]] representation $\mathbf{32}$ of [[D=11 supergravity]] &lbrack;[Bossard, Kleinschmidt & Sezgin 2019 p 42](#BossardKleinschmidtSezgin19)&rbrack;
+* an irrep $\mathbf{32} \,\in\, Rep_{\mathbb{R}}( \mathfrak{k}_{1,10} )$ which when restricted to the sub Lie algebra $\mathfrak{so}_{1,10} \hookrightarrow \mathfrak{k}_{11(11)}$ is the usual [[Majorana spinor]] representation $\mathbf{32}$ of [[D=11 supergravity]] &lbrack;[Bossard, Kleinschmidt & Sezgin 2019 p 42](#BossardKleinschmidtSezgin19)&rbrack;
 
-* an irrep $\mathbf{352} \,\in\, Rep_{\mathbb{R}}( \mathfrak{k}_{11(11)} )$ which when restricted to $\mathfrak{k}_{10(10)}$ branches to $\mathbf{320} \oplus \mathbf{32}$, the first summand now corresponding to the $\Gamma$-traceless tensor-spinor irrep of $\mathfrak{so}_{1,10}$ &lbrack;[BKS19, p 42](#BKS19)&rbrack;
+* an irrep $\mathbf{352} \,\in\, Rep_{\mathbb{R}}( \mathfrak{k}_{1,10} )$ which when restricted to $\mathfrak{k}_{10(10)}$ branches to $\mathbf{320} \oplus \mathbf{32}$, the first summand now corresponding to the $\Gamma$-traceless tensor-spinor irrep of $\mathfrak{so}_{1,10}$ &lbrack;[BKS19, p 42](#BKS19)&rbrack;
 
-* an irrep $\mathbf{528}$ of $\mathfrak{k}_{11(11)}$ &lbrack;[Gomis, Kleinschmidt & Palmkvist 2019 p 29](#GomisKleinschmidtPalmkvist19), [BKS19, appendix D](#BKS19)&rbrack; and this is the [[symmetric algebra|symmetric power]] of the spinor rep &lbrack;[Bossard, Kleinschmidt & Sezgin 2019 Apdx D](#BossardKleinschmidtSezgin19)&rbrack;
+* an irrep $\mathbf{528}$ of $\mathfrak{k}_{1,10}$ &lbrack;[Gomis, Kleinschmidt & Palmkvist 2019 p 29](#GomisKleinschmidtPalmkvist19), [BKS19, appendix D](#BKS19)&rbrack; and this is the [[symmetric algebra|symmetric power]] of the spinor rep &lbrack;[Bossard, Kleinschmidt & Sezgin 2019 Apdx D](#BossardKleinschmidtSezgin19)&rbrack;
 
   $$
     \mathbf{32} 
@@ -106,9 +107,10 @@ In particular there is:
     \;\;
     \in
     \;
-    Rep_{\mathbb{R}}(\mathfrak{k}_{11(11)})
+    Rep_{\mathbb{R}}(\mathfrak{k}_{1,10})
     \,.
   $$
+
 
 ## References
 
@@ -159,6 +161,11 @@ A precursor to ([West 01](#West01)) is
 * [[Bernard Julia]], _Dualities in the classical supergravity limits_ ([arXiv:hep-th/9805083](http://arxiv.org/abs/hep-th/9805083))
 
 as explained in ([Henneaux-Julia-Levie 10](#HenneauxJuliaLevie10)).
+
+The *temporal* modification of the Cartan involution needed to define $\mathfrak{k}_{1,10}$:
+
+* {#EnglertHouart04} [[François Englert]], [[Laurent Houart]]: *$\mathcal{G}^{+++}$ Invariant Formulation of Gravity and M-Theories: Exact BPS Solutions*, JHEP01(2004)002 &lbrack;[arXiv:hep-th/0311255](https://arxiv.org/abs/hep-th/0311255), [doi:10.1088/1126-6708/2004/01/002](https://doi.org/10.1088/1126-6708/2004/01/002)&rbrack;
+
 
 The derivation of the [[equations of motion]] of [[11-dimensional supergravity]] and maximally supersymmetric [[5d supergravity]] from a [[vielbein]] with values in the [[semidirect product]] $E_{11}$ with its [[fundamental representation]]:
 
