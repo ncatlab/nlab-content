@@ -58,7 +58,6 @@ Relation to [[Kac-Weyl characters]] of [[loop group representations]]
 * {#Ganter12} [[Nora Ganter]], _The elliptic Weyl character formula_, Compositio Mathematica, Vol 150, Issue 7 (2014), pp 1196-1234  ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
 
 
-
 The case of [[twisted ad-equivariant Tate K-theory]]:
 
 * {#Ganter07} [[Nora Ganter]], Section 3.1 in: _Stringy power operations in Tate K-theory_ ([arXiv:math/0701565](https://arxiv.org/abs/math/0701565))
@@ -82,6 +81,7 @@ See also:
 
 * Nicolò Sibilla, Paolo Tomasini: *Equivariant Elliptic Cohomology and Mapping Stacks I* \[<a href="https://arxiv.org/abs/2303.10146">arXiv:2303.10146</a>\]
 
+* [[Ying-Hsuan Lin]], [[Mayuko Yamashita]]: *Topological Elliptic Genera I -- The mathematical foundation* \[<a href="https://arxiv.org/abs/2412.02298">arXiv:2412.02298</a>\]
 
 
 #### Via derived $E_\infty$-geometry
