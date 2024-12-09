@@ -81,7 +81,7 @@ For [[(∞,1)-toposes]], this is [[Higher Topos Theory|HTT, theorem 6.1.0.6 (3) 
 
 More generally, colimits are stable in any [[locally cartesian closed category]], since in that case the pullback functors $f^*$ all have right adjoints.  Conversely, if $C$ is cocomplete with all stable colimits, and the [[adjoint functor theorem]] applies to all its slice categories, then it is locally cartesian closed.
 
-Colimits are also stable in any [[regular category|regular]] infinitary [[extensive category]].
+Colimits are also stable in any [[exact category|exact]] infinitary [[extensive category]], since all colimits can be constructed out of coproducts, images, and quotients of equivalence relations, which are all pullback-stable in an exact and infinitary-extensive category.
 
 But colimits are not stable in, for instance, $C = $ [[Ab]].
 
