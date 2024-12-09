@@ -15,7 +15,7 @@
 
 ## Idea
 
-The most mathematically precise and successful form of [[quantization]], in the sense that all compact symplectic manifolds can be quantized using Berezin quantization, as shown in [BorthwickUribe](#BorthwickUribe), and Toeplitz quantization is a special case. It is equivalent to path integral quantization. When the Kostant–Souriau operator is defined it agrees with Berezin quantization, except that Berezin quantization is defined on all observables, whereas on a generic Kahler manifold the Kostant–Souriau prequantum operators are trivial (generically, a genus $g\ge 3$ surface with the Kahler polarization has no automorphisms, so here the Kostant–Souriau maps are only defined on constants). 
+A mathematically precise and successful form of [[quantization]]: all compact symplectic manifolds can be quantized using Berezin quantization, as shown in [BorthwickUribe](#BorthwickUribe), and Toeplitz quantization is a special case. It is equivalent to path integral quantization. When the Kostant–Souriau operator is defined it agrees with Berezin quantization, except that Berezin quantization is defined on all observables, whereas on a generic Kahler manifold the Kostant–Souriau prequantum operators are trivial (generically, a genus $g\ge 3$ surface with the Kahler polarization has no automorphisms, so here the Kostant–Souriau maps are only defined on constants). 
 
 ## Ingredients
 
