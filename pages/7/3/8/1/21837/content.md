@@ -126,11 +126,11 @@ Discussion properly via [[(2,1)-dimensional Euclidean field theory]]:
 
 See also:
 
-* Ying-Hsuan Lin, [[Du Pei]], *Holomorphic CFTs and topological modular forms* &lbrack;[arXiv:2112.10724](https://arxiv.org/abs/2112.10724)&rbrack;
+* [[Ying-Hsuan Lin]], [[Du Pei]], *Holomorphic CFTs and topological modular forms*,  Commun. Math. Phys. **401**  (2023) 325–332 \[<a href="https://arxiv.org/abs/2112.10724">arXiv:2112.10724</a>, <a href="https://doi.org/10.1007/s00220-023-04639-3">doi:10.1007/s00220-023-04639-3</a>\]
 
-* Jan Albert, Justin Kaidi, Ying-Hsuan Lin, *Topological modularity of Supermoonshine* $[$[arXiv:2210.14923](https://arxiv.org/abs/2210.14923)$]$
+* Jan Albert, [[Justin Kaidi]], [[Ying-Hsuan Lin]], *Topological modularity of Supermoonshine*, Progress of Theoretical and Experimental Physics, **2023** 3 (2023) 033B06 \[<a href="https://arxiv.org/abs/2210.14923">arXiv:2210.14923</a>, <a href="https://doi.org/10.1093/ptep/ptad034">doi:10.1093/ptep/ptad034</a>\]
 
-* [[Yuji Tachikawa]], [[Mayuko Yamashita]], [[Kazuya Yonekura]], *Remarks on mod-2 elliptic genus* $[$[arXiv:2302.07548](https://arxiv.org/abs/2302.07548)$]$
+* [[Yuji Tachikawa]], [[Mayuko Yamashita]], [[Kazuya Yonekura]], *Remarks on mod-2 elliptic genus* \[<a href="https://arxiv.org/abs/2302.07548">arXiv:2302.07548</a>\]
 
 * [[Yuji Tachikawa]], Hao Y. Zhang, *On a $\mathbb{Z}_3$-valued discrete topological term in 10d heterotic string theories* \[<a href="https://arxiv.org/abs/2403.08861">arXiv:2403.08861</a>\]
 
@@ -157,11 +157,11 @@ The interpretation of [[equivariant elliptic genera]] as [[partition functions]]
 
 Proposals on physics aspects of lifting the [[Witten genus]] to [[topological modular forms]]:
 
-* [[Yuji Tachikawa]], *Topological modular forms and the absence of a heterotic global anomaly*, Progress of Theoretical and Experimental Physics, **2022** 4 (2022) 04A107 $[$[arXiv:2103.12211](https://arxiv.org/abs/2103.12211), [doi:10.1093/ptep/ptab060](https://doi.org/10.1093/ptep/ptab060)$]$
+* [[Yuji Tachikawa]], *Topological modular forms and the absence of a heterotic global anomaly*, Progress of Theoretical and Experimental Physics, **2022** 4 (2022) 04A107 \[<a href="https://doi.org/10.1093/ptep/ptab060">doi:10.1093/ptep/ptab060</a>, [arXiv:2103.12211](https://arxiv.org/abs/2103.12211)\]
 
-* [[Yuji Tachikawa]], [[Mayuko Yamashita]], *Topological modular forms and the absence of all heterotic global anomalies*, Comm. Math. Phys. **402** (2023) 1585-1620 $[$[arXiv:2108.13542](https://arxiv.org/abs/2108.13542), [doi:10.1007/s00220-023-04761-2](https://doi.org/10.1007/s00220-023-04761-2)$]$
+* [[Yuji Tachikawa]], [[Mayuko Yamashita]], *Topological modular forms and the absence of all heterotic global anomalies*, Comm. Math. Phys. **402** (2023) 1585-1620 \[<a href="https://doi.org/10.1007/s00220-023-04761-2">doi:10.1007/s00220-023-04761-2</a>, [arXiv:2108.13542](https://arxiv.org/abs/2108.13542)\]
 
-* [[Yuji Tachikawa]], [[Mayuko Yamashita]], *Anderson self-duality of topological modular forms, its differential-geometric manifestations, and vertex operator algebras* $[$[arXiv:2305.06196](https://arxiv.org/abs/2305.06196)$]$
+* [[Yuji Tachikawa]], [[Mayuko Yamashita]], *Anderson self-duality of topological modular forms, its differential-geometric manifestations, and vertex operator algebras* \[<a href="https://arxiv.org/abs/2305.06196">arXiv:2305.06196</a>\]
 
 
 ##### M5-brane elliptic genus
