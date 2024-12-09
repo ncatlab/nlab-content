@@ -51,6 +51,8 @@ Further discussion:
 
 * Max Schult, *Nahm's Equations and Rational Maps from $\mathbb{C}P^1$ to $\mathbb{C}P^n$* \[<a href="https://arxiv.org/abs/2310.18058">arXiv:2310.18058</a>\]
 
+* L. A. Ferreira, L. R. Livramento: *Harmonic, Holomorphic and Rational Maps from Self-Duality* &lbrack;[arXiv:2412.02636](https://arxiv.org/abs/2412.02636)&rbrack;
+
 
 Review:
 
