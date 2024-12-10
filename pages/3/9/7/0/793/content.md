@@ -380,7 +380,6 @@ Lift of T-duality from [[string theory]] to a [[SL(2,Z)]]-[[U-duality]] acting o
 
 * [[Maria P. Garcia del Moral]], J. M. Pena, [[Alvaro Restuccia]], *Aspects of the T-duality construction for the Supermembrane theory*, J. Phys.: Conf. Ser. **720** (2016) 012025 &lbrack;[arXiv:1504.06907](https://arxiv.org/abs/1504.06907), [doi:10.1088/1742-6596/720/1/012025](https://doi.org/10.1088/1742-6596/720/1/012025)&rbrack;
 
-hupf
 
 T-duality formulated on [[superspace]] (see also references at *[double supergeometry](type+II+geometry#ReferencesDoubledSupergeometry)*):
 
