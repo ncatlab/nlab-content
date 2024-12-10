@@ -100,7 +100,7 @@ G
    }
    \big\downarrow 
    & 
-   \underset{\mathrm{e}}{\searrow}
+   \underset{id}{\searrow}
    & 
    \big\downarrow m 
    \\
