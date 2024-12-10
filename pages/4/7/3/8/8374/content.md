@@ -42,6 +42,11 @@ Lectures by Hilbert on [[physics]] and especially on [[general relativity]] are 
 
   see also [[Eugene Wigner]], _[[The Unreasonable Effectiveness of Mathematics in the Natural Sciences]]_
 
+* Radio address (1930)
+
+  James T. Smith: *David Hilbert's Radio Address*, Convergence (February 2014) &lbrack;[old.maa.org/press/periodicals/convergence/david-hilberts-radio-address](https://old.maa.org/press/periodicals/convergence/david-hilberts-radio-address)&rbrack;
+
+
 ## Quotes and anecdotes
  {#Stories}
 
