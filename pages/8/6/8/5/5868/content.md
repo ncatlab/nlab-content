@@ -30,6 +30,11 @@ On [[discrete torsion]]:
 
 * [[Kiyonori Gomi]], [[Yuji Terashima]], _Discrete Torsion Phases as Topological Actions_, Commun. Math. Phys. (2009) 287: 889 ([doi:10.1007/s00220-009-0736-1](https://doi.org/10.1007/s00220-009-0736-1))
 
+On [[topological insulators]] and the [[Fu-Kane-Mele invariant]]:
+
+* Giuseppe De Nittis, [[Kiyonori Gomi]]: *Classification of "Quaternionic" Bloch-bundles: Topological Quantum Systems of type AII*, Commun. Math. Phys. **339** (2015) 1–55 &lbrack;[arXiv:1404.5804](https://arxiv.org/abs/1404.5804), [doi:10.1007/s00220-015-2390-0](https://doi.org/10.1007/s00220-015-2390-0)&rbrack;
+
+
 On combined [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[KR-theory]] of [[orbifold|orbi-]] [[orientifolds]]:
 
 * {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134), [spire:1601772](http://inspirehep.net/record/1601772))
