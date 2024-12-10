@@ -3,9 +3,13 @@
 
 ## Selected writings
 
-On [[topological insulators]]:
+On [[topological insulators]] and the [[Fu-Kane-Mele invariant]]:
 
-* [[Liang Fu]], [[Charles Kane]], [[Eugene Mele]], *Topological Insulators in Three Dimensions*, Phys. Rev. Lett. **98** (2007) 106803 $[$[doi:10.1103/PhysRevLett.98.106803](https://doi.org/10.1103/PhysRevLett.98.106803)$]$
+* [[Liang Fu]], [[Charles L. Kane]]: *Time Reversal Polarization and a $\mathbb{Z}_2$ Adiabatic Spin Pump*, Phys. Rev. B **74** (2006) 195312 &lbrack;[arXiv:cond-mat/0606336](https://arxiv.org/abs/cond-mat/0606336), [doi:10.1103/PhysRevB.74.195312](https://doi.org/10.1103/PhysRevB.74.195312)&rbrack;
+
+* {#FuKaneMele07} [[Liang Fu]], [[Charles L. Kane]], [[Eugene J. Mele]]: *Topological Insulators in Three Dimensions*, Phys. Rev. Lett. **98**  (2007) 106803 &lbrack;[arXiv:cond-mat/0607699](https://arxiv.org/abs/cond-mat/0607699), [arXiv:10.1103/PhysRevLett.98.106803](https://doi.org/10.1103/PhysRevLett.98.106803)&rbrack;
+
+
 
 On realizing [[Majorana zero modes]] via [[topological insulators]]:
 
