@@ -33,7 +33,7 @@ Given a non-cartesian [[monoidal category]] one can still make sense of group ob
 \linebreak
 A **group object** or **internal group** [[internalization|internal to]] a category $\mathcal{C}$ with [[finite products]] (binary [[Cartesian products]] and a [[terminal object]] $\ast$) is 
 
-* an [[object]] $G$ in $\mathcal{C}$ (say with $g :  G \to \ast$ the unique morphism to the terminal object)
+* an [[object]] $G$ in $\mathcal{C}$ (say with $p \colon  G \to \ast$ the unique morphism to the [[terminal object]])
 
 * and [[morphisms]] in $\mathcal{C}$ as follows:
 
@@ -100,7 +100,7 @@ G
    }
    \big\downarrow 
    & 
-   \underset{\mathrm{e} \circ g}{\searrow}
+   \underset{\mathrm{e} \circ p}{\searrow}
    & 
    \big\downarrow m 
    \\
