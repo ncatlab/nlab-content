@@ -69,21 +69,20 @@ This yields the relatively young subjects of symplectic and contact topologies, 
 
 ## References
 
-Though some of the basic results, methods and conjectures of differential topology go back to [Poincar&#233;](http://en.wikipedia.org/wiki/Henri_Poincar%C3%A9), Whitney, Morse and Pontrjagin, it became an independent field only in the late 1950s and early 1960s with the seminal works of Smale, Thom, Milnor and Hirsch. Soon after the initial effort on foundations, mainly in the American school, a strong activity started in Soviet Union (Albert Schwarz, A. S. Mishchenko, S. Novikov, V. A. Rokhlin, M. Gromov...). 
+Though some of the basic results, methods and conjectures of differential topology go back to [[Henri Poincaré|Poincaré]], [[Hassler Whitney|Whitney]], [[Anthony P. Morse|Morse]] and [[Lev Pontrjagin|Pontrjagin]], it became an independent field only in the late 1950s and early 1960s with the seminal works of [[Stephen Smale|Smale]], [[René Thom|Thom]], [[John Milnor|Milnor]] and [[Morris Hirsch|Hirsch]]. Soon after the initial effort on foundations, mainly in the American school, a strong activity started in Soviet Union ([[Albert Schwarz]], [[Alexandr S. Mishchenko|A. S. Mishchenko]], [[Sergei Novikov|S. Novikov]], [[Vladimir Abramovich Rokhlin|V. A. Rokhlin]], [[Mikhail Gromov|M. Gromov]],...). 
 
 
 Introductions and monographs:
 
-* {#Milnor64} [[John Milnor]], _Differential topology_, chapter 6 in T. L. Saaty (ed.) _Lectures On Modern Mathematic II_ 1964 ([[Milnor_DifferentialTopology.pdf:file]])
+* {#Milnor64} [[John Milnor]]: _Differential topology_, chapter 6 in T. L. Saaty (ed.), _Lectures On Modern Mathematic II_ (1964) &lbrack;[[Milnor_DifferentialTopology.pdf:file]]&rbrack;
 
-* [[John Milnor]], _Lectures on the h-cobordism theorem_, 1965 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/surgery/hcobord.pdf)) 
+* [[John Milnor]], _Lectures on the h-cobordism theorem_ (1965) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/surgery/hcobord.pdf)&rbrack;
 
-* [[James R. Munkres]], _Elementary Differential Topology_, Annals of Mathematics Studies 54 (1966), Princeton University Press ([doi:10.1515/9781400882656](http://dx.doi.org/10.1515/9781400882656)).
+* [[James R. Munkres]]: _Elementary Differential Topology_, Annals of Mathematics Studies **54**, Princeton University Press (1966) &lbrack;[doi:10.1515/9781400882656](http://dx.doi.org/10.1515/9781400882656)&rbrack;
 
-* Andrew H. Wallace, _Differential topology: first steps_, Benjamin 1968.
+* Andrew H. Wallace: *Differential topology: first steps*, Benjamin (1968) &lbrack;[ark:/13960/t5s830222](https://archive.org/details/differentialtopo0000wall/page/n5/mode/2up)&rbrack;
 
-
-* [[Victor Guillemin]], Alan Pollack, _Differential topology_, Prentice-Hall 1974
+* [[Victor Guillemin]], Alan Pollack: *Differential topology*, Prentice-Hall (1974) &lbrack;[doi:10.1090/chel/370](https://doi.org/10.1090/chel/370), [pdf](https://math.ucr.edu/~res/math260s10/old/difftopGP.pdf), <a href="https://www.cimat.mx/~gil/docencia/2020/topologia_diferencial/%5BGuillemin,Pollack%5DDifferential_Topology(1974).pdf">pdf</a>&rbrack;
 
 * [[Morris Hirsch]], _Differential topology_, Springer Graduate Texts in Mathematics **33** (1976) &lbrack;[doi:10.1007/978-1-4684-9449-5](https://link.springer.com/book/10.1007/978-1-4684-9449-5), [gBooks](http://books.google.com/books/about/?id=iSvnvOodWl8C)&rbrack;
 
@@ -91,18 +90,17 @@ Introductions and monographs:
 
   > (translated from the German 1973 edition)
 
-* [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Math. __82__, Springer 1982. xiv+331 pp.
+* [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Math. __82__, Springer (1982) &lbrack;[doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0)&rbrack;
 
-* [[John Milnor]], _Topology from the differential viewpoint_, Princeton University Press, 1997. ([ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf))
+* [[John Milnor]]: _Topology from the differential viewpoint_, Princeton University Press (1997) &lbrack;[ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf)&rbrack;
 
-* [[Mladen Bestvina]] (notes by [[Adam Keenan]]), _Differentiable Topology and Geometry_, 2002 ([pdf](http://www.math.utah.edu/~keenan/manifoldsnotes.pdf), [[BestvinaKeenanDifferentialTopology.pdf:file]])
-
-
-
-* [[C. T. C. Wall]], _Differential topology_, Cambridge Studies in Advanced Mathematics 154, 2016
+* [[Mladen Bestvina]] (notes by [[Adam Keenan]]): *Differentiable Topology and Geometry* (2002) &lbrack;[pdf](http://www.math.utah.edu/~keenan/manifoldsnotes.pdf), [[BestvinaKeenanDifferentialTopology.pdf:file]]&rbrack;
 
 
-* [[Joel W. Robbin]], [[Dietmar Salamon]], _Introduction to differential topology_, 294 pp, webdraft 2018 [pdf](https://people.math.ethz.ch/~salamon/PREPRINTS/difftop.pdf)
+* [[C. T. C. Wall]]: *Differential topology*, Cambridge Studies in Advanced Mathematics **154**, Cambridge University Press (2016) &lbrack;[doi:10.1017/CBO9781316597835](https://doi.org/10.1017/CBO9781316597835), [pdf](https://www.maths.ed.ac.uk/~v1ranick/surgery/wall.pdf)&rbrack;
+
+
+* [[Joel W. Robbin]], [[Dietmar Salamon]], _Introduction to differential topology_, webdraft (2018) 294 pp &lbrack;[pdf](https://people.math.ethz.ch/~salamon/PREPRINTS/difftop.pdf)&rbrack;
 
 * {#Benedetti19} [[Riccardo Benedetti]], _Lectures on Differential Topology_, Graduate Studies in Mathematics **218**, AMS 2021  ([arXiv:1907.10297](https://arxiv.org/abs/1907.10297), [ISBN: 978-1-4704-6674-9](https://bookstore.ams.org/cdn-1631100821985/gsm-218/))
 
@@ -110,14 +108,14 @@ Survey with connections to [[algebraic topology]]:
 
 * [[Sergei Novikov]], _Topology I -- General survey_, in: Encyclopedia of Mathematical Sciences Vol. 12, Springer 1986 ([doi:10.1007/978-3-662-10579-5](https://link.springer.com/book/10.1007/978-3-662-10579-5), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/novikovsurv.pdf))
 
-* [[Jean Dieudonné]], _A History of Algebraic and Differential Topology, 1900 - 1960_, Modern Birkh&auml;user Classics 2009 ([ISBN:978-0-8176-4907-4](https://www.springer.com/de/book/9780817649067))
+* [[Jean Dieudonné]], _A History of Algebraic and Differential Topology, 1900 - 1960_, Modern Birkh&auml;user Classics (2009) &lbrack;[ISBN:978-0-8176-4907-4](https://www.springer.com/de/book/9780817649067)&rbrack;
 
 
-See also 
+See also:
 
-* Wikipedia, _[Differential topology](https://en.wikipedia.org/wiki/Differential_topology)_
+* Wikipedia: _[Differential topology](https://en.wikipedia.org/wiki/Differential_topology)_
 
 Generalization to [[equivariant differential topology]]:
 
-* {#Wasserman69} [[Arthur Wasserman]], _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
+* {#Wasserman69} [[Arthur Wasserman]], _Equivariant differential topology_, Topology **8** (1969) 127-150 &lbrack;[pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf)&rbrack;
 
