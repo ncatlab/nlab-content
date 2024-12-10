@@ -34,6 +34,10 @@ Review:
 
 * [[Guo Chuan Thiang]], *K-theory and T-duality of topological phases*, Adelaide (2018) \[&nbsp;[[Thiang-KTheoryTopPhases.pdf:file]]\]
 
+On [[topological semimetals]]:
+
+* [[Guo Chuan Thiang]]: *Topological Semimetals*, [[Encyclopedia of Mathematical Physics 2nd ed]] (2024) &lbrack;[arXiv:2407.12692](https://arxiv.org/abs/2407.12692)&rbrack;
+
 
 
 category: people
