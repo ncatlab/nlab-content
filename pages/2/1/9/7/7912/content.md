@@ -5,6 +5,11 @@
 
 ## Selected writings
 
+On [[differential topology]]:
+
+* [[Victor Guillemin]], Alan Pollack: *Differential topology*, Prentice-Hall (1974) &lbrack;[doi:10.1090/chel/370](https://doi.org/10.1090/chel/370), [pdf](https://math.ucr.edu/~res/math260s10/old/difftopGP.pdf), <a href="https://www.cimat.mx/~gil/docencia/2020/topologia_diferencial/%5BGuillemin,Pollack%5DDifferential_Topology(1974).pdf">pdf</a>&rbrack;
+
+
 On [[differential geometry]] with focus of [[geometric optics]] and [[current (distribution theory)|currents]]:
 
 * [[Victor Guillemin]], [[Shlomo Sternberg]], *Geometric asymptotics*, Mathematical Surveys and Monographs **14**, AMS (1977) &lbrack;[ams:surv-14](https://bookstore.ams.org/surv-14)&rbrack;
