@@ -211,6 +211,11 @@ On [[gapped Hamiltonian|gapped]] quantum [[spin]] systems:
 
 * Amanda Young, *Quantum Spin Systems*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.07848](https://arxiv.org/abs/2308.07848)&rbrack;
 
+On [[topological semimetals]]:
+
+* [[Guo Chuan Thiang]]: *Topological Semimetals*, [[Encyclopedia of Mathematical Physics 2nd ed]] (2024) &lbrack;[arXiv:2407.12692](https://arxiv.org/abs/2407.12692)&rbrack;
+
+
 On applications of [[coarse geometry]] to [[topological insulators]] in [[solid state physics]]:
 
 * [[Matthias Ludewig]], *Coarse geometry and its applications in solid state physics*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.06384](https://arxiv.org/abs/2308.06384)&rbrack;
