@@ -284,6 +284,11 @@ On [[perturbative quantum gravity]] via [[string-localized quantum fields]]:
 
 * Christian Gaß, [[José M. Gracia-Bondía]], Karl-Henning Rehren, *Quantum general covariance* &lbrack;[arXiv:2304.09843](https://arxiv.org/abs/2304.09843)&rbrack;
 
+See also:
+
+* Enrico Herrmann, Murat Kologlu, Ian Moult: *Energy Correlators in Perturbative Quantum Gravity* &lbrack;[arXiv:2412.05384](https://arxiv.org/abs/2412.05384)&rbrack;
+
+
 
 For more discussion of perturbative [[supergravity]] see at 
 
