@@ -25,7 +25,7 @@ An archetypical example of internalization is the notion of *[[internal groups]]
 
 Where the [[Bourbaki]]-style definition of a [[group]] is, of course: 
 
-* A *group* is a [[set]] $G$ equipped with [[functions]] $e \,\colon\,\ast \to G$ and $m \colon G \times G \to G$ and $(-)^{-1} \colon G \to G$  satisfying three conditions: [[unitality]], [[associativity]], [[inverses]].
+* A *group* is a [[set]] $G$ equipped with [[functions]] $\mathrm{e} \,\colon\,\ast \to G$ (the [[neutral element]]) and $m \colon G \times G \to G$ (the group [[binary operation|operation]]) and $(-)^{-1} \colon G \to G$ ([[inverse elements]])  satisfying three conditions: [[unitality]], [[associativity]], [[inverses]],
 
 one observes that here:
 
@@ -36,7 +36,7 @@ one observes that here:
 and that this is _only_ [[mathematical structure|structure]] on [[Sets]] that the definition of [[groups]] is making use of.
 Therefore, we may abstract away from [[Sets]], consider _any_ [[category]] $\mathcal{C}$ with [[finite products]] and declare that:
 
-* An _[[internal group]]_ in $\mathcal{C}$ is an [[object]] $G$ of $\mathcal{C}$ equipped with [[morphisms]] $e \colon \ast \to G$ (i.e. out of the [[terminal object]]) and $m \colon G \times G \to G$ (i.e. out of the [[Cartesian product]]-object) and $(-)^{-1} \colon G \to G$ such that the following [[commuting diagram|diagrams commute]] in $\mathcal{C}$:
+* An _[[internal group]]_ in $\mathcal{C}$ is an [[object]] $G$ of $\mathcal{C}$ equipped with [[morphisms]] $\mathrm{e} \colon \ast \to G$ (i.e. out of the [[terminal object]]) and $m \colon G \times G \to G$ (i.e. out of the [[Cartesian product]]-object) and $(-)^{-1} \colon G \to G$ such that the following [[commuting diagram|diagrams commute]] in $\mathcal{C}$:
 
   * [[unitality]]
 
@@ -45,7 +45,7 @@ Therefore, we may abstract away from [[Sets]], consider _any_ [[category]] $\mat
         G \times \ast
         &
         \overset{
-          id \times e
+          id \times \mathrm{e}
         }{\longrightarrow}
         &
         G \times G
@@ -67,7 +67,7 @@ Therefore, we may abstract away from [[Sets]], consider _any_ [[category]] $\mat
         \ast \times G
         &
         \overset{
-          e \times id
+          \mathrm{e} \times id
         }{\longrightarrow}
         &
         G \times G
@@ -133,7 +133,7 @@ Therefore, we may abstract away from [[Sets]], consider _any_ [[category]] $\mat
         &&
         \ast
         &
-        \underset{ e }{\longrightarrow}
+        \underset{ \mathrm{e} }{\longrightarrow}
         &
         G
       }
@@ -162,7 +162,7 @@ Therefore, we may abstract away from [[Sets]], consider _any_ [[category]] $\mat
         &&
         \ast
         &
-        \underset{ e }{\longrightarrow}
+        \underset{ \mathrm{e} }{\longrightarrow}
         &
         G
      }
