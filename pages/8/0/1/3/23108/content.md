@@ -1,5 +1,5 @@
 
-* [webpage](https://web.ma.utexas.edu/users/a.debray/)
+* [webpage](https://adebray.github.io/)
 
 ## Selected writings
 
