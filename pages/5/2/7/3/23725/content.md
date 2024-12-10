@@ -51,9 +51,14 @@ Textbooks on [[solid state physics]] traditionally speak of the "reciprocal latt
 
 * {#Tong2017} [[David Tong]], [§2.2.2](http://www.damtp.cam.ac.uk/user/tong/aqm/solidstate.pdf#page=57) in: *Lectures on solid state physics* (2017) $[$[pdf](http://www.damtp.cam.ac.uk/user/tong/aqm/solidstate.pdf), [webpage](http://www.damtp.cam.ac.uk/user/tong/solidstate.html)$]$
 
-The resulting Brillouin torus $Hom_{Grp}\big(\Lambda, \, \mathbb{R} \big)/Hom_{Grp}\big(\Lambda, \, \mathbb{Z} \big)$ is often left implicit. It is made explicit in:
+The resulting Brillouin torus $Hom_{Grp}\big(\Lambda, \, \mathbb{R} \big)/Hom_{Grp}\big(\Lambda, \, \mathbb{Z} \big)$ is often left implicit. It is made explicit for instance in:
 
-* {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], [p. 52](https://arxiv.org/pdf/1208.5055.pdf#page=52) of: _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 $[$[arXiv:1208.5055](https://arxiv.org/abs/1208.5055), [doi:10.1007/s00023-013-0236-x](https://doi.org/10.1007/s00023-013-0236-x)$]$
+* {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], [p. 52](https://arxiv.org/pdf/1208.5055.pdf#page=52) of: _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 &lbrack;[arXiv:1208.5055](https://arxiv.org/abs/1208.5055), [doi:10.1007/s00023-013-0236-x](https://doi.org/10.1007/s00023-013-0236-x)&rbrack;
+
+* [[Guo Chuan Thiang]], §2.1 in: *Topological Semimetals*, [[Encyclopedia of Mathematical Physics 2nd ed]] (2024) &lbrack;[arXiv:2407.12692](https://arxiv.org/abs/2407.12692)&rbrack;
+
+
+
 
 [[!redirects Brillouin tori]]
 
