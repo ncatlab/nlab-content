@@ -13,6 +13,8 @@
 =--
 =--
 
+
+
 #Contents#
 * table of contents
 {:toc} 
@@ -85,18 +87,40 @@ Discussion of lifts of SW-invariants to [[M-theory]]:
 
 * [[Neil Lambert]], [[Peter West]], _Monopole Dynamics from the M-Fivebrane_, Nucl.Phys. B556 (1999) 177-196 &lbrack;[arXiv:hep-th/9811025](http://arxiv.org/abs/hep-th/9811025)&rbrack;
 
-
-A lift of Seiberg-Witten invariants to classes in [[circle group]]-[[equivariant stable cohomotopy]]:
-
-* M. Furuta,  (2001), _Monopole Equation and the 11/8-Conjecture_ , Mathematical Research Letters 8: 279--291 &lbrack;[doi](https://doi.org/10.4310/MRL.2001.v8.n3.a5)&rbrack;
-
-* Stefan Bauer, Mikio Furuta, _A stable cohomotopy refinement of Seiberg-Witten invariants: I_ &lbrack;[arXiv:math/0204340](https://arxiv.org/abs/math/0204340)&rbrack;
-
-* Stefan Bauer, _A stable cohomotopy refinement of Seiberg-Witten invariants: II_ &lbrack;[arXiv:math/0204267](https://arxiv.org/abs/math/0204267)&rbrack;
-
 See also:
 
 * Shuhan Jiang, [[Jürgen Jost]]: *Cohomological field theories and generalized Seiberg-Witten equations* &lbrack;[arXiv:2407.04019](https://arxiv.org/abs/2407.04019)&rbrack;
+
+
+
+### Lift to stable homotopy groups of spheres
+ {#ReferencesSeibergWittenInvariantsInStableHomotopy}
+
+A lift of Seiberg-Witten invariants to classes in [[circle group]]-[[equivariant homotopy group|equivariant]] [[stable homotopy groups of spheres]] (referred to in terms of [[stable Cohomotopy]] by some authors):
+
+* {#Furuta97} [[Mikio Furuta]]: *Stable-Homotopy version of Seiberg-Witten invariant*, Max Planck Institute for Mathematics Preprint (1997) &lbrack;[[Furuta-StableHomotopySeibergWitten.pdf:file]]&rbrack;
+
+* [[Mikio Furuta]]: *Monopole Equation and the 11/8-Conjecture*, Mathematical Research Letters **8** (2001) 279-291 &lbrack;[doi:10.4310/MRL.2001.v8.n3.a5](https://doi.org/10.4310/MRL.2001.v8.n3.a5)&rbrack;
+
+* [[Stefan Bauer]], [[Mikio Furuta]]: *A stable cohomotopy refinement of Seiberg-Witten invariants: I*, Invent. math. **155** (2004) 1–19 &lbrack;[arXiv:math/0204340](https://arxiv.org/abs/math/0204340), [doi:10.1007/s00222-003-0288-5](https://doi.org/10.1007/s00222-003-0288-5)&rbrack;
+
+* [[Stefan Bauer]]: *A stable cohomotopy refinement of Seiberg-Witten invariants: II*,  Invent. math. **155** (2004) 21–40 &lbrack;[arXiv:math/0204267](https://arxiv.org/abs/math/0204267), [doi:10.1007/s00222-003-0289-4](https://doi.org/10.1007/s00222-003-0289-4)&rbrack;
+
+Review:
+
+* Ming Xu: *The Bauer-Furuta invariant and a Cohomotopy refined Ruberman invariant*, PhD thesis, Stony Brook (2004) &lbrack;[[Xu-BauerFurutaInvariant.pdf:file]], [pdf](https://www.math.stonybrook.edu/alumni/2004-Ming-Xu.pdf)&rbrack;
+
+* Tim Perutz: MO comment &lbrack;[MO:a/139921](https://mathoverflow.net/a/139921/381)&rbrack;
+
+* [[Arun Debray]]: *Furuta's $10/8$ Theorem* (2019) &lbrack;[pdf](https://adebray.github.io/lecture_notes/s19_furuta.pdf), [[Debray-FurutaTheorem.pdf:file]]&rbrack;
+
+Further discussion:
+
+* {#FurutaKametaniMatsueMinami07} [[Mikio Furuta]], Yukio Kametani, Hirofumi Matsue, Norihiko Minami: *Homotopy theoretical considerations of the Bauer–Furuta stable homotopy Seiberg–Witten invariants*, Geometry and Topology Monographs **10** (2007) 155-166 &lbrack;[doi:10.2140/gtm.2007.10.155](http://dx.doi.org/10.2140/gtm.2007.10.155), [arXiv:0903.4462](https://arxiv.org/abs/0903.4462)&rbrack;
+
+* Nobuhiro Nakamura: *Bauer–Furuta invariants under $\mathbb{Z}_2$-actions*, Math. Z. **262** (2009) 219–233 &lbrack;[doi:10.1007/s00209-008-0370-1](https://doi.org/10.1007/s00209-008-0370-1)&rbrack;
+
+* Chanyoung Sung: *Equivariant Bauer-Furuta invariants on Some Connected Sums of 4-manifolds*, Tokyo J. Math. **40** 1 (2017) 53-63 &lbrack;[doi:10.3836/tjm/1502179215](https://projecteuclid.org/journals/tokyo-journal-of-mathematics/volume-40/issue-1/Equivariant-Bauer-Furuta-invariants-on-Some-Connected-Sums-of-4/10.3836/tjm/1502179215.full)&rbrack;
 
 
 
