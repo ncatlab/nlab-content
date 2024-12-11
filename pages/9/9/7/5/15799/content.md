@@ -54,6 +54,9 @@ On relating [[homotopy AQFT|homotopy]] [[algebraic quantum field theory]] via [[
 
 * [[Marco Benini]], Giorgio Musante, [[Alexander Schenkel]], *Quantization of Lorentzian free BV theories: factorization algebra vs algebraic quantum field theory* &lbrack;[arXiv:2212.02546](https://arxiv.org/abs/2212.02546)&rbrack;
 
+* [[Marco Benini]], [[Victor Carmona]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]]: *On the equivalence of AQFTs and prefactorization algebras* &lbrack;[arXiv:2412.07318](https://arxiv.org/abs/2412.07318)&rbrack;
+
+
 Discussion of [[orbifold|orbifolding]] via [[categorification]], in [[homotopical algebraic quantum field theory]]:
 
 * [[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], [[Lukas Woike]], _Categorification of algebraic quantum field theories_, Lett. Math. Phys. 2021 ([arXiv:2003.13713](https://arxiv.org/abs/2003.13713))
