@@ -98,7 +98,7 @@ Finally, $F Sp$ is the [[category]] whose [[objects]] are F-spaces and whose mor
 
 ## Examples
 
-The usual examples of F-spaces that are not Fr&#233;chet spaces are the [[Lebesgue spaces]] $l^p$ for $p \lt 0 \lt 1$.  These use a modified $p$-[[p-norm|norm]] in which
+The usual examples of F-spaces that are not Fr&#233;chet spaces are the [[Lebesgue spaces]] $l^p$ for $0 \lt p \lt 1$.  These use a modified $p$-[[p-norm|norm]] in which
 $$ {\|x\|_p} = \sum_i {|x_i|^p} $$
 (so without the $p$th root) to ensure that the [[triangle inequality]] (\ref{Gseminorm}.3) holds.
 
