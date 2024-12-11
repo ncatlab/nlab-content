@@ -1,4 +1,12 @@
 
+* [institute page](https://physics.snu.ac.kr/en/research-faculty/faculty/fulltime?mode=view&profidx=45)
+
+* [research group page](https://sites.google.com/view/arima275/)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=CXBW6_AAAAAJ&hl=en)
+
+* [inSpire page](https://inspirehep.net/authors/1058412)
+
 ## Selected writings
 
 On [[3d-3d correspondence]]:
