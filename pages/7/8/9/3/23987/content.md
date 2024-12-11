@@ -3655,6 +3655,18 @@ Neumann algebras**
 
   > [[exceptional field theory|Exceptional field theory]] has been a useful technique in the investigation of [[supergravity]]. In this talk I will demonstrate that it can be applied to the [[world-volume]] point of view as well, as an alternative [[symmetry]] principle to [[supersymmetry]]. I present the construction of half-[[BPS state|BPS]] [[brane]] [[sigma models]] in [[string theory|string]] and [[M-theory]] using only data from [[exceptional generalised geometry]]. When employing exceptional generalisd geometry these sigma models take a universal form in their [[Hamiltonian]] formulation which is expected to extend also to the enigmatic [[exotic branes]]. (Based on [2402.10269](https://arxiv.org/abs/2402.10269))
 
+\linebreak
+
+* {#NojaDec2024} 11 Dec 2024
+  
+  [[Simone Noja]] (Heidelberg University, Germany):
+
+  **The Geometry of Pure Spinor Superfield Formalism**
+
+  cf.: [arXiv:2404.07167](https://arxiv.org/abs/2404.07167)
+
+  >  In this talk I will introduce a mathematical perspective on the [[pure spinor]] [[superfield]] formalism. In particular, I will discuss how [[super multiplet|multiplets]] of fields appearing in [[supersymmetry|supersymmetric]] [[theory (physics)|theories]] can be constructed mathematically from geometric data related to certain [[algebraic varieties]] -- the nilpotence variety of the (super)symmetry algebra of the theory. After discussing some relevant examples, if time permits, I will hint at a generalization of the formalism in the direction of [[derived geometry]].
+
 
 \linebreak
 
