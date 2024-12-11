@@ -531,6 +531,9 @@ On the resulting drop in investment:
 
 * {#McKenzie2024} James McKenzie: *Quantum winter? No chance!*,  Physics World, **37** 5 (2024) 41 &lbrack;[doi:10.1088/2058-7058/37/05/32](https://iopscience.iop.org/article/10.1088/2058-7058/37/05/32)&rbrack;
 
+More optimistic outlook:
+
+* [[John Preskill]]: *Beyond NISQ: The Megaquop Machine*, talk at *[Q2B 2024 Silicon Valley](https://q2b.qcware.com/2024-conferences/silicon-valley/)* (Dec. 2024) &lbrack;[pdf](https://www.preskill.caltech.edu/talks/Preskill-Q2B-2024.pdf)&rbrack;
 
 
 ### Quantum programming via monads
