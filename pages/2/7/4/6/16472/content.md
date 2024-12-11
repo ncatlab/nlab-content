@@ -18,6 +18,7 @@ On relating [[homotopy AQFT|homotopy]] [[algebraic quantum field theory]] via [[
 
 * [[Marco Benini]]: *A stacky approach to the comparison of axiomatizations of quantum field theory*, [talk at](CQTS#BeniniNov2024) [[CQTS]], NYU Abu Dhabi (Nov 2024) &lbrack;slides:[[Benini-CQTS-Nov2024.pdf:file]]&rbrack;
 
+* [[Marco Benini]], [[Victor Carmona]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]]: *On the equivalence of AQFTs and prefactorization algebras* &lbrack;[arXiv:2412.07318](https://arxiv.org/abs/2412.07318)&rbrack;
 
 Discussion of [[orbifold|orbifolding]] via [[categorification]], in [[homotopical algebraic quantum field theory]]:
 
