@@ -413,7 +413,7 @@ Introduction and survey:
 
 * {#DevittNemotoMunro09} [[Simon J. Devitt]], [[Kae Nemoto]], [[William J. Munro]], *Quantum Error Correction for Beginners*, Rep. Prog. Phys. **76** (2013) 076001 &lbrack;[arXiv:0905.2794](https://arxiv.org/abs/0905.2794), [doi:10.1088/0034-4885/76/7/076001](https://iopscience.iop.org/article/10.1088/0034-4885/76/7/076001)&rbrack;
 
-* Daniel A. Lidar, Todd A. Brun (eds.): *Quantum Error Correction*, Cambridge University Press (2013) \[<a href="https://www.cambridge.org/de/universitypress/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/quantum-error-correction?format=HB&isbn=9780521897877">ISBN:9780521897877</a>\]
+* Daniel A. Lidar, Todd A. Brun (eds.): *Quantum Error Correction*, Cambridge University Press (2013) \[<a href="https://www.cambridge.org/de/universitypress/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/quantum-error-correction?format=HB&isbn=9780521897877">ISBN:9780521897877</a>, <a href="https://doi.org/10.1017/CBO9781139034807">doi:10.1017/CBO9781139034807</a>\]
 
 * Héctor Bombín: *An Introduction to Topological Quantum Codes*, in: *Quantum Error Correction*, Cambridge University Press (2013) \[<a href="https://www.cambridge.org/de/universitypress/subjects/physics/quantum-physics-quantum-information-and-quantum-computation/quantum-error-correction?format=HB&isbn=9780521897877">ISBN:9780521897877</a>, [arxiv:1311.0277](https://arxiv.org/abs/1311.0277)\]
 
@@ -430,6 +430,9 @@ Introduction and survey:
   Sec. 3 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
 
 * {#ZhuCross20} Guanyu Zhu, Andrew Cross, *[Hardware-aware approach for fault-tolerant quantum computation](https://www.ibm.com/blogs/research/2020/09/hardware-aware-quantum/)*, IBM Research Blog, September 2, 2020
+
+* Priya J. Nadkarni, Narayanan Rengaswamy, Bane Vasić: *Tutorial on Quantum Error Correction for 2024 Quantum Information Knowledge (QuIK) Workshop* &lbrack;[arXiv:2407.12737](https://arxiv.org/abs/2407.12737), [inSpire:2808724](https://inspirehep.net/literature/2808724)&rbrack;
+
 
 See also:
 
