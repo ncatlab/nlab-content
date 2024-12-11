@@ -1,5 +1,9 @@
 
-* [webpage](https://adebray.github.io/)
+* [personal page](https://adebray.github.io/)
+
+* [GoogleScholar entry](https://scholar.google.com/citations?user=BMnMcSMAAAAJ&hl=en)
+
+* [inSpire page](https://inspirehep.net/authors/1895234)
 
 ## Selected writings
 
