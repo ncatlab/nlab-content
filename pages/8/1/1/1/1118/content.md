@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents 
 {: toc}
@@ -21,11 +22,18 @@
 
 A _group object_ in a [[cartesian category|cartesian]] [[category]] $C$ is a [[group]] [[internalization|internal]] to $C$ (see at *[[internalization]]* for more on the general idea).
 
-Given a non-cartesian [[monoidal category]] one can still make sense of group objects in the [[formal duality|dual]] guise of [[Hopf monoids]], see there for more and see Rem. \ref{GroupObjectsInGeneralMonoidalCategories} below.
+In other words, a group object is something that behaves "just like" a [[group]] but which need not have (just) an [[underlying]] [[set]]. 
 
+For example, group objects in [[Top]] are [[topological groups]], while group objects in [[SmthMfd]] are [[Lie groups]], etc., see the *[Examples](#Examples)* below.
+
+Given a non-cartesian but [[braided monoidal category]] one can still make sense of group objects in the [[formal duality|dual]] guise of *[[Hopf monoids]]*, see there for more and see [further below](#InABraidedMonoidalCategory).
+
+
+ 
 ## Definition 
 
 ### In a cartesian monoidal category
+ {#InCartesianMonoidalCategory}
 
 \begin{definition}
 \label{GroupObjectInCartesianCategory}
@@ -37,6 +45,10 @@ A **group object** or **internal group** [[internalization|internal to]] a categ
 
 * and [[morphisms]] in $\mathcal{C}$ as follows:
 
+  * [[binary operation]] 
+   
+    $m \colon G\times G \to G$,
+
   * [[neutral element]]: 
 
     $\mathrm{e} \,\colon\,  \ast \to G$
@@ -45,11 +57,12 @@ A **group object** or **internal group** [[internalization|internal to]] a categ
 
     $(-)^{-1} \,\colon\, G\to G$
 
-  * [[binary operation]] $m \colon G\times G \to G$,
 
 such that the following [[commuting diagram|diagrams commute]]:
 
-$$
+([[associativity]])
+\[
+  \label{Associativity}
 \array{
   G\times G\times G 
   & \stackrel{id\times m}{\longrightarrow} 
@@ -65,9 +78,11 @@ $$
   \\
   G\times G & \stackrel{m}{\longrightarrow} & G
 }
-$$
-(expressing the fact multiplication is associative),
-$$
+\]
+
+([[unitality]])
+\[
+\label{Unitality}
 \array{
   G 
   & \stackrel{(\mathrm{e},id)}{\longrightarrow} 
@@ -80,9 +95,11 @@ $$
   \\
   G\times G & \underset{m}{\longrightarrow} &G
 }
-$$
-(telling us that the [[neutral element]] is a left and right [[unit element]]), and
-$$
+\]
+
+([[inverses|invertibility]]):
+\[
+\label{Invertibility}
 \array{
 G 
   & 
@@ -110,54 +127,162 @@ G
    &
    G
 }
-$$
-(telling us that the inverse map really does take an [[inverse element|inverse]]).
+\]
+
 \end{definition}
 
 \begin{remark}
-\label{UseOfDiagonalMorphism}
-The [[associativity law]] technically factors through the [[isomorphisms]] between $(G\times G)\times G$ and $G\times (G\times G)$. 
+More pedantically, the [[associativity law]] (eq:Associativity) actually factors through the [[associator]] [[isomorphisms]] $(G\times G)\times G \xrightarrow{\phantom{--}} G\times (G\times G)$, which is notationally suppressed above. 
+\end{remark}
 
+\begin{remark}
+\label{UseOfDiagonalMorphism}
 The [[pairing]] $(f,g)$ denotes $(f\times g)\circ\Delta$ where $\Delta$ is a [[diagonal morphism]].
 \end{remark}
 
 \begin{remark}
-Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can still speak of a group object $G$ in $\mathcal{C}$, as above.
+Even if $C$ does not have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can clearly still speak of a group object $G$ in $\mathcal{C}$, as above.
 \end{remark}
 
-### In a braided monoidal category
 
-Notice that the use of [[diagonal maps]] (Rem. \ref{UseOfDiagonalMorphism}) in Def. \ref{GroupObjectInCartesianCategory} precludes direct generalization of this definition of group objects to non-[[cartesian monoidal category|cartesian]] [[monoidal categories]], where such maps in general do not exist.
+\begin{remark}
+  The first two structures in Def. \ref{GroupObjectInCartesianCategory} ([[binary operation]] and [[neutral element]]) together with the first two properties ([[associativity]] and [[unitality]]) make a internal *[[monoid object]]*. The remaining structure ([[inverses]]) is what specializes this monoid object to a group object.
+\end{remark}
+
+There is an alternative way to encode the specialization from monoid objects to group objects:
+
+\begin{proposition}
+\label{GroupsAsMonoidsWithCartesianAssociativity}
+  A [[monoid object]] $(G, m, \mathrm{e})$ can be made into a group object according to Def. \ref{GroupObjectInCartesianCategory} iff its [[associativity]] [[diagram]] (eq:Associativity) is [[cartesian square|cartesian]] (meaning: exhibiting a [[pullback]] or [[fiber product]]).
+\end{proposition}
+\begin{proof}
+  First assume that $(G,m,\mathrm{e})$ becomes a group object via some $(-)^{-1} \,\colon\, G \to G$. In order to show that then (eq:Associativity) is Cartesian we may verify the [[universal property]] of a [[fiber product]]:
+
+Given any [[domain]] $D$ and [[morphisms]] 
+
+$$
+  (l_i, r_i)
+  \;\colon\;  
+  D \longrightarrow G \times G 
+  \,,\;\;\;\;\;\;\;
+  i \in \{1,2\}
+$$
+
+such that the following solid [[commuting diagram|diagram commutes]]
+
+\[\label{CartesianAssociativity}\]
+\begin{tikzcd}
+  & D
+  \ar[
+    ddl,
+    "{ (l_1, r_1) }"{swap}
+  ]
+  \ar[
+    ddr,
+    "{ (l_2, r_2) }"
+  ]
+  \ar[
+    d,
+    dashed,
+    "{ \exists ! }"{description}
+  ]
+  \\
+  & 
+  G \times G \times G
+  \ar[
+    dl,
+    "{ m \times \mathrm{id} }"
+  ]
+  \ar[
+    dr,
+    "{ \mathrm{id} \times m }"{swap}
+  ]
+  \\
+  G \times G 
+  \ar[
+    dr,
+    "{ m }"{swap}
+  ]
+    && 
+  G \times G
+  \ar[
+    dl,
+    "{ m }"
+  ]
+  \\
+  & G
+\end{tikzcd}
+
+we need to show that there exists a unique dashed morphism making the left and right triangles commute.
+
+By alternative [[projection]] to the two factors in the codomain $G \times G$ of these triangles, one immediately finds that the dashed morphism must be equal to both
+
+\[
+  \label{TheDashedMap}
+  \big(
+    l_2 ,\, m(l_2^{-1},l_1) ,\, r_1
+  \big)
+  \;\;\;
+  \text{and}
+  \;\;\;
+  \big(
+    l_2 ,\, m(r_2,r_1^{-1}) ,\, r_1
+  \big)
+  \,,
+\]
+
+which is indeed consistent by the assumption that the solid diagram commutes, and using again the assumed inverses, since this says that:
+
+$$
+  m(l_1, r_1) \;=\; m(l_2, r_2)
+  \;\;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;\; 
+  m(l_2^{-1}, l_1) \;=\; m(r_2, r_1^{-1})
+  \,.
+$$
+
+Conversely, assuming that the associativity square is Cartesian, we need to produce a consistent inverse-assigning map. To this end, specialize the maps in (eq:CartesianAssociativity) to $D \,\coloneqq\, G$ and
+
+$$
+  (l_1, r_1) \coloneqq (\mathrm{e}\circ p, id)
+  \;\;\;\;\;\;
+  \text{and}
+  \;\;\;\;\;\;
+  (l_2, r_2) \coloneqq (id, \mathrm{e}\circ p)
+  \,,
+$$
+
+whence the dashed map (eq:TheDashedMap) gives
+
+$$
+  G
+  \xrightarrow{
+    \;
+    \big(
+      \mathrm{e}\circ p ,\, (-)^{-1} ,\, \mathrm{e} \circ p
+    \big)
+    \;
+  }
+  G \times G \times G
+$$
+
+from which we may project out the desired map $(-)^{-1}$, that one readily checks to satisfy the invertibility law.
+\end{proof}
+
+
+
+### In a braided monoidal category
+ {#InABraidedMonoidalCategory}
+
+Notice (with Rem. \ref{UseOfDiagonalMorphism}) that the use of [[diagonal maps]]  in Def. \ref{GroupObjectInCartesianCategory} precludes direct generalization of this definition of group objects to non-[[cartesian monoidal category|cartesian]] [[monoidal categories]], where such maps in general do not exist.
 
 Hence, while the [[underlying]] [[monoid object]] may generally be defined in any [[monoidal category]], the internal formulation of existence of [[inverse elements]] typically uses [[extra structure]], such as that of a compatible [[comonoid object]]-[[structure]] to substitute for the missing [[diagonal maps]].
 
 Given this, inverses may be encoded by an *[[antipode]]* map and the resulting "monoidal group objects" are known as *[[Hopf monoids]]*. These subsume and generalize *[[Hopf algebras]]*, which are widely studied, for instance in their role as [[quantum groups]].  
 
-Hopf monoids may be defined in any [[symmetric monoidal category]], or more generally any [[braided monoidal category]], where the braiding is used in stating the fact that the comultiplication is a homomorphism of monoid objects.
+Hopf monoids may be defined in any [[symmetric monoidal category]], or more generally any [[braided monoidal category]], where the [[braiding]] is used in stating the fact that the comultiplication is a [[homomorphism]] of monoid objects.
 
-### In a monoidal category
-
-A surprising fact reported by Tom Leinster is that in the category of sets, a group is the same as a monoid with the extra property that the associativity square
-
-$$
-\array{
-  G\times G\times G 
-  & \stackrel{id\times m}{\longrightarrow} 
-  & 
-  G\times G
-  \\
-  {}^{
-    \mathllap{
-    m\times id
-    }
-  }
-  \big\downarrow && \big\downarrow m 
-  \\
-  G\times G & \stackrel{m}{\longrightarrow} & G
-}
-$$
-
-is a pullback.   Presumably it is also true that a group object in a cartesian monoidal category is the same as a monoid object in that category where the associativity square is a pullback.  This suggests that we can define a group object in *any* monoidal category to be a monoid object where the associativity square is a pullback.  The category does not need to have all pullbacks for this definition to parse.  However, the usefulness of this generalization remains to be studied.
 
 ### In terms of presheaves of groups
  {#InTermsOfPresheavesOfGroups}
