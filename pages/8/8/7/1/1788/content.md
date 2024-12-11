@@ -1,52 +1,6 @@
 
 
 
-\begin{tikzcd}
-  & D
-  \ar[
-    ddl,
-    "{ (l_1, r_1) }"{swap}
-  ]
-  \ar[
-    ddr,
-    "{ (l_2, r_2) }"
-  ]
-  \ar[
-    d,
-    dashed,
-    "{ \exists ! }"{description}
-  ]
-  \\
-  & 
-  G \times G \times G
-  \ar[
-    dl,
-    "{ m \times \mathrm{id} }"
-  ]
-  \ar[
-    dr,
-    "{ \mathrm{id} \times m }"{swap}
-  ]
-  \\
-  G \times G 
-  \ar[
-    dr,
-    "{ m }"{swap}
-  ]
-    && 
-  G \times G
-  \ar[
-    dl,
-    "{ m }"
-  ]
-  \\
-  & G
-\end{tikzcd}
-
-
-
-
-
 ***
 
 ### Mix, isomix and compact linearly distributive categories
