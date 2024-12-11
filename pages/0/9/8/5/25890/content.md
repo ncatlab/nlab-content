@@ -19,7 +19,7 @@ On the [[CP^1 sigma-model|$\mathbb{C}P^1$ sigma-model]]:
 
 * [[Shmuel Elitzur]], [[Yaron Oz]], [[Eliezer Rabinovici]], [[Johannes Walcher]], *Open/Closed Topological $\mathbb{C}P^1$ Sigma Model Revisited*,  J. High Energ. Phys. **2012** 101 (2012) &lbrack;[arXiv:1106.2967](https://arxiv.org/abs/1106.2967)&rbrack;
 
-On [[adinkras]] in relation to [[pure spinors]]:
+On [[super multiplets]] via [[derived geometry]] on [[pure spinor]] [[algebraic variety|varieties]] (and [[adinkras]]):
 
 * Richard Eager, [[Simone Noja]], Raphael Senghaas, [[Johannes Walcher]], *Adinkras and Pure Spinors* &lbrack;[arXiv:2404.07167](https://arxiv.org/abs/2404.07167)&rbrack;
 
