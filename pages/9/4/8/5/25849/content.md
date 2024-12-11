@@ -11,5 +11,10 @@ On [[AQFT on curved spacetimes]] in terms of [[stacks]] of [[categories]] ([[2-s
 
 * [[Marco Benini]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]], *Haag-Kastler stacks* &lbrack;[arXiv:2404.14510](https://arxiv.org/abs/2404.14510)&rbrack;
 
+On relating [[local nets]] of [[quantum observables]] in ([[homotopical AQFT|homotopical]]) [[AQFT]] to [[factorization algebras]]:
+
+* [[Marco Benini]], [[Victor Carmona]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]]: *On the equivalence of AQFTs and prefactorization algebras* &lbrack;[arXiv:2412.07318](https://arxiv.org/abs/2412.07318)&rbrack;
+
+
 
 category: people
