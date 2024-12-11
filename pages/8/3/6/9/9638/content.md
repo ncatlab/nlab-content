@@ -525,7 +525,7 @@ The origin of the notion:
 
   > "A large range of problem areas with quadratic quantum speedups, such as many current machine learning training approaches, accelerating drug design and protein folding with Grover’s algorithm, speeding up Monte Carlo simulations through quantum walks, as well as more traditional scientific computing simulations including the solution of many non-linear systems of equations, such as fluid dynamics in the turbulent regime, weather, and climate simulations will not achieve quantum advantage with current quantum algorithms in the foreseeable future."
 
-* IEEE Spectrum, *Quantum Computing’s Hard, Cold Reality Check* (Dec. 2023) &lbrack;[web](https://spectrum.ieee.org/quantum-computing-skeptics)&rbrack;
+* Edd Gent: *Quantum Computing’s Hard, Cold Reality Check*, IEEE Spectrum (Dec. 2023) &lbrack;[webpage](https://spectrum.ieee.org/quantum-computing-skeptics)&rbrack;
 
 On the resulting drop in investment:
 
