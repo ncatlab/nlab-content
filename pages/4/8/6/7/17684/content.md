@@ -56,6 +56,14 @@ Relating the [[D'Auria-Fré formulation of supergravity]] to pure spinor-formali
 
 * [[Pietro Antonio Grassi]], *Remarks on the Integral Form of $D=11$ Supergravity* &lbrack;[arXiv:2304.01743](https://arxiv.org/abs/2304.01743)&rbrack;
 
+On [[super multiplets]] via [[derived geoemtry]] on the pure spinor [[algebraic variety|variety]]:
+
+Discussion via [[derived geometry]] on the [[pure spinor]]-variety:
+
+* [[Chris Elliott]], [[Fabian Hahner]], [[Ingmar Saberi]]: *The Derived Pure Spinor Formalism as an Equivalence of Categories*, SIGMA **19** (2023) 022 &lbrack;[arXiv:2205.14133](https://arxiv.org/abs/2205.14133), [doi:10.3842/SIGMA.2023.022](https://doi.org/10.3842/SIGMA.2023.022)&rbrack;
+
+* Richard Eager, [[Simone Noja]], Raphael Senghaas, [[Johannes Walcher]]: *Adinkras and Pure Spinors* &lbrack;[arXiv:2404.07167](https://arxiv.org/abs/2404.07167)&rbrack;
+
 
 
 [[!redirects pure spinors]]
