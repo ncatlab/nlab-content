@@ -15,7 +15,7 @@
 
 ## Idea
 
-Let $A$ and $B$ be [[algebraic theory|algebraic theories]]. The category $[A,B]$ of **$(A,B)$-bimodels** and their homomorphisms is the category of $A$-models and homomorphisms in $B Mod^{op}$. An alternative description is that is a co-$A$-model in $B Mod$. Each such bimodel $M$ determines and is determined by a pair of [[adjoint functor]]s
+Let $A$ and $B$ be [[algebraic theory|algebraic theories]]. The category $[A,B]$ of **$(A,B)$-bimodels** and their homomorphisms is the category of $A$-models and homomorphisms in $B Mod^{op}$. An alternative description is that it is a co-$A$-model in $B Mod$. Each such bimodel $M$ determines and is determined by a pair of [[adjoint functor]]s
 
 $$Hom_B(M,?): B Mod \to A Mod$$
 
