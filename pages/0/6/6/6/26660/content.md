@@ -1,6 +1,10 @@
 
 * [personal page](https://www.math.purdue.edu/~cui177/)
 
+* [GoogleScholar page](https://scholar.google.com/citations?user=84TvCToAAAAJ&hl=en)
+
+* [inSpire page](https://inspirehep.net/authors/1893445)
+
 ## Selected writings
 
 On [[Levin-Wen models]]:
