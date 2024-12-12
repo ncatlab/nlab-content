@@ -313,10 +313,15 @@ Discussion from the point of view of [[functorial geometry]]:
 
 * {#Mirković04} [[Ivan Mirković]], Sec 2 in: *Notes on Super Math*, in *[Quantum Field Theory Seminar](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html)*, lecture notes (2004)  &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/1.SuperMath/8.pdf), [[Mirkovic-NotesOnSupermathematics.pdf:file]]&rbrack;
 
+* Andrew James Bruce: *A First Look at Supersymmetry* &lbrack;[arXiv:2412.07799](https://arxiv.org/abs/2412.07799)&rbrack;
+  > (exposition)
+
 
 A more general variant of this in the spirit of [[locally algebra-ed topos|locally algebra-ed toposes]]:
 
 * Alexander Alldridge, _A convenient category of supermanifolds_ ([arXiv:1109.3161](http://arxiv.org/abs/1109.3161))
+
+
 
 ### As manifolds over superpoints
  {#ReferencesOverSuperpoints}
