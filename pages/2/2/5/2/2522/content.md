@@ -1074,6 +1074,11 @@ Textbooks:
 
 * [[Steven Weinberg]], *The quantum theory of fields. Vol. 3: Supersymmetry*, Cambridge University Press (2000) &lbrack;[ISBN:9781139632638](https://www.cambridge.org/ae/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-theory-fields-volume-3?format=AR&isbn=9780521670555),  [spire:527189](https://inspirehep.net/literature/527189), [pdf](http://www.stat.ucla.edu/~ywu/research/documents/weinberg3.pdf)&rbrack;
 
+Exposition:
+
+* Andrew James Bruce: *A First Look at Supersymmetry* &lbrack;[arXiv:2412.07799](https://arxiv.org/abs/2412.07799)&rbrack;
+
+
 
 Further physics texts:
 
@@ -1118,7 +1123,7 @@ especially mathematical basics in:
 
 * [[Pierre Deligne]], [[John Morgan]], *Notes on supersymmetry*, in *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 41-98 &lbrack;[web version](http://www.math.ias.edu/qft), [[DeligneMorgan-NotesOnSusy.pdf:file]], [[DeligneMorgan-SignRule.pdf:file]]&rbrack;
 
-* {#Mircović04} [[Ivan Mircović]], *Notes on Super Math*, in *[Quantum Field Theory Seminar](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html)*, lecture notes (2004)  &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/1.SuperMath/8.pdf), [[Mirkovic-NotesOnSupermathematics.pdf:file]]&rbrack;
+* {#Mircović04} [[Ivan Mirković]], *Notes on Super Math*, in *[Quantum Field Theory Seminar](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/Fall.04.html)*, lecture notes (2004)  &lbrack;[pdf](https://people.math.umass.edu/~mirkovic/0.SEMINARS/1.QFT/1.SuperMath/8.pdf), [[Mirkovic-NotesOnSupermathematics.pdf:file]]&rbrack;
 
 
 * {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], *Supersolutions*, in: *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 227 &lbrack;[web version](http://www.math.ias.edu/qft), [arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)&rbrack;
