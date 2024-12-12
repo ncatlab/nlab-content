@@ -459,15 +459,12 @@ Via [[exceptional field theory]]:
 
 
 * [[Edward Witten]], *Baryons and Branes in Anti de Sitter Space* talk at *[String98](https://online.kitp.ucsb.edu/online/strings98/)* (1998) &lbrack;[web](https://online.kitp.ucsb.edu/online/strings98/witten/)&rbrack;
-
   > (by the title, apparently originally intended to touch on [[AdS-QCD]], but de facto ending with focus on the problem of [[flat space holography]])
 
 * [[Alexander Polyakov]], *The wall of the cave*, Int. J. Mod. Phys. A **14** (1999) 645-658 &lbrack;[arXiv:hep-th/9809057](https://arxiv.org/abs/hep-th/9809057), [doi:10.1142/S0217751X99000324](https://doi.org/10.1142/S0217751X99000324)&rbrack;
-
   > (early account with focus on [[AdS-QCD duality]])
 
 * [[John Schwarz]], *Introduction to M Theory and AdS/CFT Duality*, in: *Quantum Aspects of Gauge Theories, Supersymmetry and Unification* Lecture Notes in Physics **525**, Springer (1999)  &lbrack;[arXiv:hep-th/9812037](https://arxiv.org/abs/hep-th/9812037), [doi:10.1007/BFb0104239](https://doi.org/10.1007/BFb0104239)&rbrack;
-
   >  (early review with an eye towards [[M-theory]])
 
 * [[Jens L. Petersen]], _Introduction to the Maldacena Conjecture on AdS/CFT_, Int. J. Mod. Phys. A **14** (1999) 3597-3672 &lbrack;[hep-th/9902131](http://arxiv.org/abs/hep-th/9902131), [doi:10.1142/S0217751X99001676](http://dx.doi.org/10.1142/S0217751X99001676)&rbrack;
@@ -489,7 +486,6 @@ Via [[exceptional field theory]]:
 * [[Alberto Zaffaroni]], *Introduction to the AdS/CFT correspondence*, [LACES](https://laces.web.cern.ch/LACES19/index19.html) lectures (2009) &lbrack;[pdf](https://laces.web.cern.ch/laces09/notes/dbranes/lezionilosanna.pdf), [[Zaffaroni-AdSCFTLectures.pdf:file]]&rbrack;
 
 * [[Hans Günter Dosch]], *A Practical Guide to AdS/CFT*, lecture notes (2009) &lbrack;[pdf](https://www.thphys.uni-heidelberg.de/~dosch/wuhantot.pdf), [[Dosch-AdSCFT.pdf:file]]&rbrack;
-
   > (with aspects of *[[holographic QCD]]*)
 
 * [[Joseph Polchinski]], _Introduction to Gauge/Gravity Duality_ ([arXiv:1010.6134](https://arxiv.org/abs/1010.6134))
@@ -501,8 +497,9 @@ Via [[exceptional field theory]]:
 * [[Sebastian De Haro]], Daniel R. Mayerson, [[Jeremy Butterfield]], *Conceptual Aspects of Gauge/Gravity Duality*, Foundations of Physics **46** 11 (2016) 1381-1425 &lbrack;[arXiv:1509.09231](https://arxiv.org/abs/1509.09231), [doi:10.1007/s10701-016-0037-4](https://doi.org/10.1007/s10701-016-0037-4)&rbrack;
 
 * {#Erdmenger18} [[Johanna Erdmenger]], _Introduction to Gauge/Gravity Duality_, PoS [TASI2017](https://inspirehep.net/conferences/1591386) (2018) 001 &lbrack;[arXiv:1807.09872](https://arxiv.org/abs/1807.09872), [doi:10.22323/1.305.0001](https://doi.org/10.22323/1.305.0001)&rbrack;
-
   > (focus on [[holographic entanglement entropy]] and [[AdS/CMT duality]])
+
+* [[Matteo Baggioli]]: *Applied Holography -- A Practical Mini-Course*, Springer Briefs in Physics, Springer (2019) &lbrack;[doi:10.1007/978-3-030-35184-7](https://doi.org/10.1007/978-3-030-35184-7)&rbrack;
 
 * Nirmalya Kajuri, *ST4 Lectures on Bulk Reconstruction* &lbrack;[arXiv:2003.00587](https://arxiv.org/abs/2003.00587)&rbrack;
 
