@@ -1,5 +1,6 @@
 
 
+[[Noja-PureSpinorGeometry-CQTS-Dec2024.pdf:file]]
 
 ***
 
