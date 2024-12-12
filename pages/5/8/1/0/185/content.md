@@ -710,7 +710,7 @@ the square-0-extension $R \oplus N \to R$. (See [[module]]).
 
 From this structure alone a lot of further structure follows:
 
-* a [[derivation]] $\delta A \to N$ is precisely a [[section]] of the corresponding morphism $A \oplus N \to A$ in $C/A$, in the category $C$ namely a ring homomorphism 
+* a [[derivation]] $\delta: A \to N$ is precisely a [[section]] of the corresponding morphism $A \oplus N \to A$ in $C/A$, in the category $C$ namely a ring homomorphism 
 
   $$
     \array{
@@ -733,10 +733,12 @@ From this structure alone a lot of further structure follows:
 
   The fact that it is left adjoint is the universal property
   of the K&#228;hler differentials as the objects co-representing
-  derivations
+  derivations:
 
-  $Hom_{Ab(Ring/R)}(\Omega_K^1(A),N) \simeq 
-  Hom_{Ring/A}(A,A \oplus N)$.
+  $$
+    Hom_{Ab(Ring/R)}(\Omega_K^1(A),N) \simeq 
+  Hom_{Ring/A}(A,A \oplus N).
+  $$
 
   So every derivation $\delta : A \to N$ uniquely corresponds to a module morphism $\Omega^1_K(A) \to N$, namely the one that sends 
   $d a \mapsto \delta(a)$.
