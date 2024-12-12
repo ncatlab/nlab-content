@@ -99,9 +99,15 @@ Suppose given $g:hom_A(b,a)$ and $\eta:1_a = g \circ f$ and $\epsilon : f \circ 
 
 * [[equivalence of (∞,1)-categories]]
 
+* [[definitional isomorphism]]
+
 * [[EI-category]]
 
-* [[definitional isomorphism]]
+* [[gaunt category]], where all isomorphisms are identities
+
+* [[skeletal category]], where the only non-trivial isomorphisms are automorphisms
+
+* [[groupoid]], where all morphisms are isomorphisms
 
 ## References
 
