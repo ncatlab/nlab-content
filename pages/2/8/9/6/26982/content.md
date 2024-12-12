@@ -39,7 +39,7 @@ A [[probability measure]] $p$ on a [[measurable space]] $X$ is said to be **zero
 $$
 p(A) \;=\; 0 \qquad or \qquad p(A) \;=\; 1 .
 $$
-* Every real-valued [[random variable]] $f$ on the [[probability space]] $(X,p)$ [[almost surely]] constant (i.e. it is a [[determinstic random variable]]).
+* Every real-valued [[random variable]] $f$ on the [[probability space]] $(X,p)$ is [[almost surely]] constant (i.e. it is a [[determinstic random variable]]).
 * Every event (measurable subset) $A$ of $X$ is [[conditional independence|independent]] of itself:
 $$
 p(A) \;=\; p(A\cap A) \;=\; p(A)\,p(A) .
