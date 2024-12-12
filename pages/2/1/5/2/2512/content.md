@@ -144,6 +144,11 @@ On [[smooth sets]] as a [[convenient category of spaces|convenient category]] fo
 
 * [[Grigorios Giotopoulos]], [[Hisham Sati]], *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
 
+On [[topological quantum computation]] with [[anyons]]:
+
+* [[Hisham Sati]], [[Sachin Valera]]: *Topological Quantum Computing*, [[Encyclopedia of Mathematical Physics 2nd ed]] **4** (2025) 325-345 \[<a href="https://doi.org/10.1016/B978-0-323-95703-8.00262-7">doi:10.1016/B978-0-323-95703-8.00262-7</a>\]
+
+
 
 
 category: people
