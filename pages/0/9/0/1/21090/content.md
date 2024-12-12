@@ -979,7 +979,7 @@ has the interpretation of a _probability measure_ on $X$, or in terms of informa
 
 This reflect the intuition in our main examples:
 
-* In [[FinStoch]], a state is exactly a $n\times 1$ stochastic matrix, i.e.~a column vector whose entries sum to one. In other words, it is exactly a (discrete) probability distribution on $X$, of entries $p(x)$.
+* In [[FinStoch]], a state is exactly a $n\times 1$ stochastic matrix, i.e. a column vector whose entries sum to one. In other words, it is exactly a (discrete) probability distribution on $X$, of entries $p(x)$.
 * In [[Stoch]], a state es exactly a probability measure on a measurable space $(X,\mathcal{A})$, of values $p(A)$ for $A\in\mathcal{A}$. 
 * In [[Set]] (no randomness!), a state is exactly a function $1\to X$, i.e. a point $x$ of $X$. 
 
@@ -2241,7 +2241,7 @@ Giry ([Giry'82](#giry82)) first described [[Stoch]] as the Kleisli category of t
 Shortly after, computer scientists such as [[Eugenio Moggi|Moggi]] and [[Gordon Plotkin|Plotkin]] started considering monads in the context of effectful programming ([Moggi'89](#moggi89)), with probabilistic computation as a special case ([Jones-Plotkin'89](#jones_plotkin89)). (More details in [[monad (in computer science)]].)
 This is also the time when a number of [[probability monads]] were introduced, see there for more. 
 
-The first definition of a _garbage-share_ (a.k.a. _copy-discard_) category seems to be due to [[Fabio Gadducci|Gadducci]] ([Gadducci'96](#gadducci96)), who in his PhD thesis introduced such a structure (for strict monoidal categories), with in mind applications to formal languages (in particular graph term rewriting). In subsequent papers together with Andrea Corradini some further properties of these construction were studied, including higher-categorical ones ([Corradini-Gadducci'97](#corradini_gadducci97), [Corradini-Gadducci'99a](#corradini_gadducci99a), [Corradini-Gadducci'99b](#corradini_gadducci99b), [Corradini-Gadducci'02](#corradini_gadducci02)).
+The first definition of a _garbage-share_ (a.k.a. _copy-discard_) category seems to be due to [[Fabio Gadducci|Gadducci]] ([Gadducci'96](#gadducci96)), who in his PhD thesis introduced such a structure (for strict monoidal categories), with in mind applications to formal languages (in particular graph term rewriting). In subsequent papers together with Corradini some further properties of these construction were studied, including higher-categorical ones ([Corradini-Gadducci'97](#corradini_gadducci97), [Corradini-Gadducci'99a](#corradini_gadducci99a), [Corradini-Gadducci'99b](#corradini_gadducci99b), [Corradini-Gadducci'02](#corradini_gadducci02)).
 
 The first mention of Markov and CD-categories used for the purpose of probability seems to have first appeared in the work of Golubtsov ([Golubtsov'99](#golubtsov99)), who named the structure "category of information converters" or "information transformers", likely unaware of Gadducci's work, and first writing in Russian. In subsequent work ([Golubtsov'02](#golubtsov02), [Golubtsov-Mosaliuk'02](#golubtsov_mosaliuk02), [Golubtsov'04](#golubtsov04)) these structures were connected to [[Kleisli categories]], introducing what now we call a [representable Markov category](#representable_markov_categories).
 
