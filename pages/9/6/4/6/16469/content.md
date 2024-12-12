@@ -57,6 +57,8 @@ Discussion via [[derived geometry]] on the [[pure spinor]]-variety:
 
 * Richard Eager, [[Simone Noja]], Raphael Senghaas, [[Johannes Walcher]]: *Adinkras and Pure Spinors* &lbrack;[arXiv:2404.07167](https://arxiv.org/abs/2404.07167)&rbrack;
 
+* [[Simone Noja]]: *The Geometry of Pure Spinor Superfield Formalism*, [talk at](CQTS#NojaDec2024) [[CQTS]] (Dec 2024) &lbrack;[[Noja-PureSpinorGeometry-CQTS-Dec2024.pdf:file]]&rbrack;
+
 
 
 
