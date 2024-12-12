@@ -2,7 +2,7 @@
 ### The open problem of confinement
  {#OpenProblemConfinementReferences}
 
-While [[experiment]] as well as [[lattice gauge theory]]-computer simulation clearly show that [[confinement]] takes place, a real theoretical understanding has been missing (though [[AdS-QCD]] is now on a good track). This is the _confinement problem_. The same problem from the point of view of [[mathematics]] is called the _[[mass gap problem|mass gap]] [Millennium Problem](quantization+of+Yang-Mills+theory#ReferencesNonperturbativeTheoryAndMassGap)_. A related problem is the _[flavor problem](flavor+problem#TheFlavorProblem)_.
+While [[experiment]] as well as [[lattice gauge theory]]-computer simulation clearly show that [[confinement]] takes place, a real theoretical understanding has been missing (though [[AdS-QCD]] is now on a good track). This is the _confinement problem_. The same problem from the point of view of [[mathematics]] is called the _[[Yang-Mills mass gap]] [Millennium Problem](quantization+of+Yang-Mills+theory#ReferencesNonperturbativeTheoryAndMassGap)_. A related problem is the _[flavor problem](flavor+problem#TheFlavorProblem)_.
 
 The following is a list of quotes highlighting the open problem of confinement:
 
@@ -211,7 +211,7 @@ the many experimental cross section measurements.
 
 > Modern science is thus encumbered with the fundamental problem of [[gluon]]  and [[quark]] [[confinement]]; and confinement is crucial because it ensures absolute stability of the [[proton]].  $[\cdots]$ Without confinement,our Universe cannot exist.
 
-> As the 21st Century began, the Clay Mathematics Institute established seven Millennium Prize Problems. Each represents one of the toughest challenges in mathematics. The set contains the [[mass gap problem|problem of confinement]]; and  presenting a sound solution will win its discoverer 1,000,000 bucks. Even with  such motivation, today, almost fifty years after the discovery of [[quarks]], no rigorous solution has been found. Confinement and EHM are inextricably linked. Consequently, as  science plans for the next thirty  years, solving the problem of EHM has become a _grand challenge_. $[\cdots]$
+> As the 21st Century began, the Clay Mathematics Institute established seven Millennium Prize Problems. Each represents one of the toughest challenges in mathematics. The set contains the [[Yang-Mills mass gap|problem of confinement]]; and  presenting a sound solution will win its discoverer 1,000,000 bucks. Even with  such motivation, today, almost fifty years after the discovery of [[quarks]], no rigorous solution has been found. Confinement and EHM are inextricably linked. Consequently, as  science plans for the next thirty  years, solving the problem of EHM has become a _grand challenge_. $[\cdots]$
 
 > In trying to match [[QCD]] with Nature, one confronts the many complexities of strong, nonlinear dynamics in relativistic quantum field theory, e.g. the loss of particle number conservation, the frame and scale dependence of the  explanations and interpretations of observable processes, and the evolving character of the relevant degrees-of-freedom. [[electroweak field|Electroweak theory]] and phenomena are essentially [[perturbative quantum field theory|perturbative]]; hence, possess little of this complexity.  Science has never before encountered an [[interaction]] such as that at work in [[QCD]]. Understanding this interaction, explaining everything of which it is capable, can potentially change the way we look at the Universe.
 
