@@ -100,15 +100,18 @@ The original article (according to [ZLSS15, p. ix](#ZaanenLiuSunSchalm15)), rega
 and further discussion along these lines (for more referenceson holographic superconductors see [below](#ReferencesApplicationToSuperconductivity)):
 {#MoreOnHolographicSuperconductorsViaMTheory}
 
-* [[Jerome P. Gauntlett]], [[Julian Sonner]], Toby Wiseman: *Holographic superconductivity in M-Theory*,  J. High Energ. Phys. **2010** 60 (2010) &lbrack;[arXiv:0907.3796](https://arxiv.org/abs/0907.3796), <a href="https://doi.org/10.1007/JHEP02(2010)060">doi:10.1007/JHEP02(2010)060</a>&rbrack;
+* [[Jerome P. Gauntlett]], [[Julian Sonner]], [[Toby Wiseman]]: *Holographic superconductivity in M-Theory*, Phys. Rev. Lett. **103** (2009) 151601  &lbrack;[arXiv:0907.3796](https://arxiv.org/abs/0907.3796), <a href="https://doi.org/10.1103/PhysRevLett.103.151601">doi:10.1103/PhysRevLett.103.151601</a>&rbrack;
 
 * [[Steven S. Gubser]], [[Silviu S. Pufu]], Fabio D. Rocha: *Quantum critical superconductors in string theory and M-theory*, Phys. Lett. B **683** (2010) 201-204 &lbrack;[arXiv:0908.0011](https://arxiv.org/abs/0908.0011), [doi:10.1016/j.physletb.2009.12.017](https://doi.org/10.1016/j.physletb.2009.12.017)&rbrack;
 
-* [[Jerome Gauntlett]], [[Julian Sonner]], Toby Wiseman: *Quantum Criticality and Holographic Superconductors in M-theory*, J. High Energ. Phys. **2010** 60 (2010) &lbrack;[arXiv:0912.0512](https://arxiv.org/abs/0912.0512), <a href="https://doi.org/10.1007/JHEP02(2010)060">doi:10.1007/JHEP02(2010)060</a>&rbrack;
+* [[Jerome Gauntlett]], [[Julian Sonner]], [[Toby Wiseman]]: *Quantum Criticality and Holographic Superconductors in M-theory*, J. High Energ. Phys. **2010** 60 (2010) &lbrack;[arXiv:0912.0512](https://arxiv.org/abs/0912.0512), <a href="https://doi.org/10.1007/JHEP02(2010)060">doi:10.1007/JHEP02(2010)060</a>&rbrack;
 
 * Aristomenis Donos, [[Jerome P. Gauntlett]], [[Julian Sonner]], Benjamin Withers: *Competing orders in M-theory: superfluids, stripes and metamagnetism*, J. High Energ. Phys. **2013** 108 (2013) &lbrack;[arXiv:1212.0871](https://arxiv.org/abs/1212.0871), <a href="https://doi.org/10.1007/JHEP03(2013)108">doi:10.1007/JHEP03(2013)108</a>&rbrack;
 
 * Aristomenis Donos, [[Jerome P. Gauntlett]], Christiana Pantelidou: *Semi-local quantum criticality in string/M-theory*, J. High Energ. Phys. **2013** 103 (2013) &lbrack;<a href="https://doi.org/10.1007/JHEP03(2013)103">doi:10.1007/JHEP03(2013)103</a>, [arXiv:1212.1462](https://arxiv.org/abs/1212.1462)&rbrack;
+
+* [[Matteo Baggioli]], Section 4.3 of: *Applied Holography -- A Practical Mini-Course*, Springer Briefs in Physics, Springer (2019) &lbrack;[doi:10.1007/978-3-030-35184-7](https://doi.org/10.1007/978-3-030-35184-7)&rbrack;
+
 
 * Yu-Sen An, Li Li, Fu-Guo Yang, Run-Qiu Yang: *Interior Structure and Complexity Growth Rate of Holographic Superconductor from M-Theory*,  J. High Energ. Phys. **2022** 133 (2022) &lbrack;[arXiv:2205.02442](https://arxiv.org/abs/2205.02442), <a href="https://doi.org/10.1007/JHEP08(2022)133">doi:10.1007/JHEP08(2022)133</a>&rbrack;
 
@@ -132,13 +135,17 @@ Reviews and lectures:
 
 * [[John McGreevy]], *Holographic duality with a view toward many-body physics*, Adv. High Energy Phys. 723105 (2010) &lbrack;[arXiv:0909.0518](https://arxiv.org/abs/0909.0518), [doi:10.1155/2010/723105](https://doi.org/10.1155/2010/723105)&rbrack;
 
-* [[Subir Sachdev]], _Condensed matter and AdS/CFT_ ([arXiv:1002.2947](http://arxiv.org/abs/1002.2947))
+* [[Subir Sachdev]], _Condensed matter and AdS/CFT_ &lbrack;[arXiv:1002.2947](http://arxiv.org/abs/1002.2947)&rbrack;
+
+
+* [[Sean A. Hartnoll]]: *Horizons, holography and condensed matter*, in: *Black Holes in Higher Dimensions*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139004176.015](https://doi.org/10.1017/CBO9781139004176.015), [arXiv:1106.4324](https://arxiv.org/abs/1106.4324)&rbrack;
+
 
 * K. Schalm and R. Davison, _A simple introduction to AdS/CFT
-and its application to condensed matter physics_,  D-ITP Advanced Topics in Theoretical Physics Fall 2013, ([[SchalmDavisonAdSCFT.pdf:file]])
+and its application to condensed matter physics_,  D-ITP Advanced Topics in Theoretical Physics (2013) &lbrack;[[SchalmDavisonAdSCFT.pdf:file]]&rbrack;
 
 
-* [[Matteo Baggioli]], *Gravity, holography and applications to condensed matter* $[$[arXiv:1610.02681](https://arxiv.org/abs/1610.02681)$]$
+* [[Matteo Baggioli]], *Gravity, holography and applications to condensed matter* &lbrack;[arXiv:1610.02681](https://arxiv.org/abs/1610.02681)&rbrack;
 
 
 * {#Amoretti17} [[Andrea Amoretti]], _Condensed Matter Applications of AdS/CFT: Focusing on strange metals_, 2017 ([spire:1610363](http://inspirehep.net/record/1610363), [[AmorettiStrangeMetals.pdf:file]])
