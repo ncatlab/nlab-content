@@ -29,6 +29,11 @@ On [[quantum teleportation]] with [[anyons]]:
 * {#Valera23} [[Sachin J. Valera]], *Topological Quantum Teleportation and Superdense Coding Without Braiding* &lbrack;[arXiv:2303.17700](https://arxiv.org/abs/2303.17700)&rbrack;
 
 
+On [[topological quantum computing]] with [[anyons]]:
+
+* [[Hisham Sati]], [[Sachin Valera]]: *Topological Quantum Computing*, [[Encyclopedia of Mathematical Physics 2nd ed]] **4** (2025) 325-345 \[<a href="https://doi.org/10.1016/B978-0-323-95703-8.00262-7">doi:10.1016/B978-0-323-95703-8.00262-7</a>\]
+
+
 category: people
 
 [[!redirects Sachin Valera]]
