@@ -278,8 +278,7 @@ Further discussion:
 Discussion highlighting the lack of microscopic explanation of these phenomenological models:
 
 * [[Janusz E. Jacak]]: *Topological approach to electron correlations at fractional quantum Hall effect*, Annals of Physics **430** (2021) 168493 \[<a href="https://doi.org/10.1016/j.aop.2021.168493">doi:10.1016/j.aop.2021.168493</a>\]
-
-> "Though the Laughlin function very well approximates the true ground state at $\nu = \tfrac{1}{q}$, the physical mechanism of related correlations and of the whole hierarchy of the FQHE remained, however, still obscure."
+> &lbrack;p 3:&rbrack; "Though the Laughlin function very well approximates the true ground state at $\nu = \tfrac{1}{q}$, the physical mechanism of related correlations and of the whole hierarchy of the FQHE remained, however, still obscure."
 
 > "The so-called HH (Halperin–Haldane) model of consecutive generations of Laughlin states of anyonic quasiparticle excitations from the preceding Laughlin state has been abandoned early because of the rapid growth of the daughter quasiparticle size, which quickly exceeded the sample size."
 
