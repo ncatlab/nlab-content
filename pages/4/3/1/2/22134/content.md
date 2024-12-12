@@ -64,6 +64,7 @@ Review:
 
 * [[Eric C. Rowell]], *Braids, Motions and Topological Quantum Computing* \[<a href="https://arxiv.org/abs/2208.11762">arXiv:2208.11762</a>, [spire:2141848](https://inspirehep.net/literature/2141848)\]
 
+* [[Hisham Sati]], [[Sachin Valera]]: *Topological Quantum Computing*, [[Encyclopedia of Mathematical Physics 2nd ed]] **4** (2025) 325-345 \[<a href="https://doi.org/10.1016/B978-0-323-95703-8.00262-7">doi:10.1016/B978-0-323-95703-8.00262-7</a>\]
 
 {#FocusOnAbelianAnyons} Focus on *[[abelian anyons]]*:
 
@@ -102,7 +103,7 @@ on [[trapped-ion quantum hardware]]:
 
   Nature research briefing: *Topological matter created on a quantum chip produces quasiparticles with computing power* \[<a href="https://doi.org/10.1038/d41586-023-04126-8">doi:10.1038/d41586-023-04126-8</a>\]
 
-* {#FF24} Michael Foss-Feig, Guido Pagano, Andrew C. Potter, Norman Y. Yao: *Progress in Trapped-Ion Quantum Simulation*, Annual Reviews of Condensed Matter Physics (2024) &lbrack;[arXiv:2409.02990](https://arxiv.org/abs/2409.02990)&rbrack;
+* {#FF24} Michael Foss-Feig, Guido Pagano, Andrew C. Potter, Norman Y. Yao: *Progress in Trapped-Ion Quantum Simulation*, Annual Reviews of Condensed Matter Physics (2024) \[<a href="https://arxiv.org/abs/2409.02990">arXiv:2409.02990</a> <a href="https://doi.org/10.1146/annurev-conmatphys-032822-045619">doi:10.1146/annurev-conmatphys-032822-045619</a>\]
 
 
 
