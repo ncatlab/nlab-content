@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -18,12 +19,13 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-The _mass gap problem_ is an open conceptual problem in the [[quantization of Yang-Mills theory]], closely related to what in the [[phenomenology]] of [[quantum chromodynamics]] is called the _[[confinement]]_ of [[quarks]], hence the existence of ordinary [[hadron|hadronic]], in particular [[baryon|baryonic]] [[matter]].
+The _Yang-Mills Mass Gap problem_ is an open conceptual problem in the [[quantization of Yang-Mills theory]] (cf. general *[[spectral gaps]]* of [[quantum systems]]), closely related to what in the [[phenomenology]] of [[quantum chromodynamics]] is called the _[[confinement]]_ of [[quarks]], hence the existence of [[hadron|hadronic]], in particular [[baryon|baryonic]] [[matter]] at ordinary (non-excessive) [[temperatures]].
 
-The [[Lagrangian]] for [[Yang-Mills theory]] coupled to [[fermion fields]] (such as for [[QCD]]) makes manifest the existence of [[mass]]-less [[quarks]] and [[gluons]]. Indeed, at very high [[temperature]] [[QCD]] is thought to exhibit a [[quark-gluon plasma]] well described by these degrees of freedoms.
+The [[Lagrangian]] for [[Yang-Mills theory]] coupled to [[fermion fields]] (such as for [[QCD]]) makes manifest (only) the existence of [[mass]]-less [[quarks]] and [[gluons]]. Indeed, at very high [[temperature]] [[QCD]] is thought to exhibit a [[quark-gluon plasma]] well described by these degrees of freedoms.
 
-But at comparatively smaller [[temperature]] it is observed in [[experiment]] as well as in [[lattice QCD]] computer experiment that QCD exhibits _[[confinement]]_, meaning that the low energy states of the theory are not free massless quarks and gluons anymore, but that these form [[bound states]] in the form of [[hadrons]] (including, notably, [[protons]] and [[neutrons]], and hence all the ordinary [[baryon|baryonic]] [[matter]] of the [[observable universe]]). 
+But at comparatively smaller [[temperature]] it is observed in [[experiment]] as well as in [[lattice QCD]] [[computer experiment]] that [[QCD]] exhibits _[[confinement]]_, meaning that the low energy states of the theory are not free massless quarks and gluons anymore, but that these form [[bound states]] in the form of [[hadrons]] (including, notably, [[protons]] and [[neutrons]], and hence all the ordinary [[baryon|baryonic]] [[matter]] of the [[observable universe]]). 
 
 The existence of massive [[hadron]]-[[bound states]] in low-energy [[QCD]] is thus well-established [[phenomenology|phenomenologically]], but it is as yet lacking a conceptual theoretical explanation.
 
@@ -31,6 +33,13 @@ The _mass gap problem_ is the problem in [[mathematical physics]] to demonstrate
 
 This issue is well and widely known in the [[particle physics]]-community, see for instance [Kutschke 96, Section 3.1](#Kutschke96), [INFN 15](#INFN15). It gained more attention among the [[mathematics]]/[[mathematical physics]]-community when the [Clay Mathematics Institute](http://www.claymath.org/) declared the problem to be one in a list of "[Millennium Problems](http://www.claymath.org/millennium-problems)", see [Jaffe-Witten 2000](#JaffeWitten00), [Douglas 04](#Douglas04).
 
+In contrast to the other Millennium problems, the Yang-Mills mass gap problem is more wide-ranging, since the issue is not primarily to perform a complicated deduction in an otherwise well-understood theoretical framework, but to establish such a theoretical backdrop in the first place:
+
+Namely [[confinement|confined]] [[QCD]] is "strongly coupled", meaning that common methods of [[perturbative quantum field theory]] do not apply: What is needed to even state the mass gap problem with precision is first a formulation of [[Yang-Mills theory]] as a [[non-perturbative quantum field theory]] -- which is generally a wide open problem for interacting field theories in $D = 4$ [[spacetime]] [[dimensions]]. 
+
+While there exist several models for the [[quantum hadrodynamics]] in [[confinement|confined]] [[QCD]] ([[chiral perturbation theory]], [[Skyrmions]], ...) these are more or less *ad hoc* phenomenological models not actually derived from a "microscopic" theory like [[Yang-Mills theory]] and hence tend to assume the mass gap more than explaining it.
+
+A more fundamental approach to [[confinement|confined]] [[QCD]]/[[Yang-Mills theory|YM]] is *[[holographic QCD]]*, where notably the [[Skyrmion|Skyrme]] model with its predicted [[baryon]] [[masses]] appears as an emergent effect. 
 
 
 ## Related pages
@@ -185,6 +194,9 @@ Discussion in [[solid state physics]]:
 
 * Alessandra N. Braga, Wagner P. Pires, Jeferson Danilo L. Silva, Danilo T. Alves, Van Sérgio Alves, *Renormalization of the band gap in 2D materials near an interface between two dielectrics* &lbrack;[arXiv:2306.04759](https://arxiv.org/abs/2306.04759)&rbrack;
 
+[[!redirects Yang-Mills mass gap problem]]
+
+[[!redirects mass gap]]
 [[!redirects mass gaps]]
 
 [[!redirects mass gap problem]]
