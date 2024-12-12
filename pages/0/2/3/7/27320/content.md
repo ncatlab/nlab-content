@@ -42,7 +42,7 @@ For this reason, in [[condensed matter theory]] "[[gapped Hamiltonians]]" are th
 
 * [[topological phase of matter]]
 
-* [[mass gap]]
+* [[Yang-Mills mass gap]]
 
 ## References
 
