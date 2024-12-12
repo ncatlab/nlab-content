@@ -114,7 +114,7 @@ and this rule is 'dual' to one which introduces an identity:
 
 $$\frac{}{\vdash \neg A, A} \; identity.$$ 
 
-Categorically, the cut rule in this form corresponds to the arrow $\neg A \otimes A \to \bot$ that implements an evaluation, and the identity rule corresponds to an arrow $\top \to \neg A \wp A = A \multimap A$ that names an identity morphism. These two arrows are de Morgan dual to one another. 
+Categorically, the cut rule in this form corresponds to the arrow $\neg A \otimes A \to \bot$ that implements an evaluation, and the identity rule corresponds to an arrow $\top \to \neg A$ `⅋` $A = A \multimap A$ that names an identity morphism. These two arrows are de Morgan dual to one another. 
 
 ## Cut elimination as a computation
 
