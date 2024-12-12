@@ -2,6 +2,10 @@
 
 * [institute page](http://www.damtp.cam.ac.uk/research/gr/person/sah40)
 
+* [inSpire page](https://inspirehep.net/authors/1026494)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=Vi9BCpEAAAAJ&hl=en)
+
 
 ## Selected writings
 
@@ -16,6 +20,7 @@ On [[AdS/CFT in condensed matter physics]]:
 
 * [[Sean Hartnoll]], _Lectures on holographic methods for condensed matter physics_, Class. Quant. Grav. 26:224002, 2009 ([arXiv:0903.3246](https://arxiv.org/abs/0903.3246))
 
+* [[Sean A. Hartnoll]]: *Horizons, holography and condensed matter*, in: *Black Holes in Higher Dimensions*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139004176.015](https://doi.org/10.1017/CBO9781139004176.015), [arXiv:1106.4324](https://arxiv.org/abs/1106.4324)&rbrack;
 
 * {#HartnollLucasSachdev16} [[Sean Hartnoll]], [[Andrew Lucas]], [[Subir Sachdev]], _Holographic quantum matter_, MIT Press 2018 ([arXiv:1612.07324](https://arxiv.org/abs/1612.07324), [publisher](https://mitpress.ublish.com/book/holographic-quantum-matter))
 
