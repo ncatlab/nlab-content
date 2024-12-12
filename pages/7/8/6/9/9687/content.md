@@ -140,7 +140,7 @@ Now the lore of [[M-theory on G₂-manifolds]] predicts that [[KK-compactificati
 
 1. on the [[ADE-singularity]] $X_{2,\Gamma}$ yields [[non-abelian group|non-abelian]] [[Yang-Mills theory]] in 4d coupled to [[chiral fermions]].
 
-So in the first case a [[mass gap]] is manifest, while non-abelian gauge theory is not visible, while in the second case it is the other way around.
+So in the first case a [[Yang-Mills mass gap]] is manifest, while non-abelian gauge theory is not visible, while in the second case it is the other way around.
 
 But if there were an argument that [[M-theory on G₂-manifolds]] is in fact equivalent for compactification both on $X_{1,\Gamma}$ and on $X_{2,\Gamma}$. To the extent that this is true, it looks like an argument that could demonstrate confinement in non-abelian 4d gauge theory.
 
