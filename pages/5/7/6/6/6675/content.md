@@ -72,7 +72,7 @@ For this we need a quantum system (say a crystalline [[quantum material]])
 
 with the following properties:
 
-1. **degenerate ground states**:
+1. **ground states degenracy**:
 
    even when completely frozen at [[absolute zero]] [[temperature]]
 
