@@ -36,18 +36,24 @@ Notice that near-[[extremal black holes]] have been observed in nature, by the C
 
 * [[Liouville theory]]
 
+
 ## References
 
 ### General
 
-The theory is due to 
+The theory is due to
 
 * {#Teitelboim83} [[Claudio Teitelboim]], _Gravitation and hamiltonian structure in two spacetime dimensions_, Physics Letters B Volume 126, Issues 1–2, 23 June 1983, Pages 41-45 (<a href="https://doi.org/10.1016/0370-2693(83)90012-6">doi:10.1016/0370-2693(83)90012-6</a>
 
 * {#Jackiw85} [[Roman Jackiw]], _Lower dimensional gravity_, Nuclear Physics B
 Volume 252, 1985, Pages 343-356 (<a href="https://doi.org/10.1016/0550-3213(85)90448-1">doi:10.1016/0550-3213(85)90448-1</a>)
 
-See also 
+Lecture notes:
+
+* Gustavo J. Turiaci: *Les Houches lectures on two-dimensional gravity and holography* &lbrack;[arXiv:2412.09537](https://arxiv.org/abs/2412.09537)&rbrack;
+
+
+See also:
 
 * Wikipedia, _[Jackiw-Teitelboim gravity](https://en.wikipedia.org/wiki/Jackiw%E2%80%93Teitelboim_gravity)_
 
