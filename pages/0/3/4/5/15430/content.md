@@ -1,6 +1,6 @@
 
 
-* [webpage](http://perso.univ-rennes1.fr/bernard.le-stum/Bienvenue.html)
+* [webpage](https://perso.univ-rennes1.fr/bernard.le-stum/bernard.le-stum/Bienvenue.html)
 
 ## related $n$Lab entries
 
