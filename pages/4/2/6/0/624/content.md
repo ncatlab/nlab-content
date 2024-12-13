@@ -236,7 +236,7 @@ See at _[KK-theory -- Poincare duality](KK-theory#PoincareDualityAndThomIsomorph
 \begin{example}
 For $E$ an [[E-∞ ring]], then in the [[(∞,1)-category of (∞,1)-modules]] $E Mod$ the dualizable objects coincide with the [[compact objects]] and the [[perfect objects]].
 
-See at _[(∞,1)-category of (∞,1)-modules -- Compact generation](%28?%2C1%29-category+of+%28?%2C1%29-modules#CompactGeneration)_ for more.
+See at _[[(∞,1)-category of (∞,1)-modules]] – [Compact generation]((∞,1\)-category+of+(∞,1\)-modules#CompactGeneration)_ for more.
 \end{example}
 
 
