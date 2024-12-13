@@ -188,13 +188,21 @@ Some of the standard lore about necessity of and the problems of quantum gravity
 
 * [[Steven Carlip]], Dah-Wei Chiou, Wei-Tou Ni, Richard Woodard, _Quantum Gravity: A Brief History of Ideas and Some Prospects_, Int. J. Mod. Phys. D  ([arXiv:1507.08194](http://arxiv.org/abs/1507.08194))
 
-Exposition from the point of view of [[worldline formalism]] is in
+Exposition from the point of view of [[worldline formalism]]:
 
 * {#Witten11} [[Edward Witten]], _Quantum Gravity_, Solomon Lefschetz Memorial Lecture Series, November 2011 ([video](https://www.youtube.com/watch?v=uRdCJMYc2Ds#t=15))
 
-Textbook account:
+Lecture notes on various aspects:
 
-* Claus Kiefer, _Quantum Gravity_, Oxford University Press 2007 ([doi:10.1093/acprof:oso/9780199585205.001.0001](https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199585205.001.0001/acprof-9780199585205))
+* {#BBDKPT24} Ivano Basile, Luca Buoninfante, Francesco Di Filippo, Benjamin Knorr, Alessia Platania, Anna Tokareva: *Lectures in Quantum Gravity*, lectures at *[Towards Quantum Gravity](https://inspirehep.net/conferences/2755287)*, [Nordita](https://nordita.org/) (2024) &lbrack;[arXiv:2412.08690](https://arxiv.org/abs/2412.08690), videos:[YT](https://www.youtube.com/playlist?list=PLqd-pg7HkOgIXz1IVfkBR2f5bR6KPUu_M)&rbrack;
+
+Surveys of the state of and perspectives on the field:
+
+* Claus Kiefer, _Quantum Gravity_, Oxford University Press (2007) &lbrack;[doi:10.1093/acprof:oso/9780199585205.001.0001](https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199585205.001.0001/acprof-9780199585205)&rbrack;
+
+* *Visions in Quantum Gravity*, notes from participants of *[Quantum Gravity: from gravitational EFTs to UV complete approaches](https://inspirehep.net/conferences/2755287)*, [Nordita](https://nordita.org/) (2024) &lbrack;[arXiv:2412.08696](https://arxiv.org/abs/2412.08696), [videos](https://www.youtube.com/@Quantumgravity.nordita/playlists)&rbrack;
+
+
 
 ### As a perturbative quantum field theory
  {#ReferencesAsAnEffectiveFieldTheory}
@@ -227,13 +235,14 @@ Introduction, review and outlook:
 
 * {#Donoghue23} [[John Donoghue]], *Quantum General Relativity as an EFT*, podcast discussion on *[Theoretically Podcasting](https://www.youtube.com/@theoreticallypodcasting7390)*, Aug (2023) &lbrack;video: [YT](https://youtu.be/BEa27uCf6sE)&rbrack;
 
+* [BBDKPT24](#BBDKPT24), sections 2 & 3
 
 Aspects of [[gauge invariance]]:
 
 * [[Petr M. Lavrov]], [[Ilya Shapiro]], *Gauge invariant renormalizability of quantum gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.09271](https://arxiv.org/abs/2210.09271)&rbrack;
 
 
-A brief survey of the relevant mathematical issues with more pointers to the literature is in
+A brief survey of the relevant mathematical issues with more pointers to the literature:
 
 * [[Igor Khavkine]], _Gravity: an exercise in quantization_, talk at _Quantum Gravity in Perspective_, Munich, 31 May 2013 ([pdf slides](http://www.science.unitn.it/~khavkine/khavkine-munich.pdf), [video](https://www.youtube.com/watch?v=G5O9RKmXyfM#t=2444))
  
@@ -251,10 +260,12 @@ and with applications to [[cosmology]] in
 
 Regarding the [[cosmological constant]]:
 
-* [[John Donoghue]], *The cosmological constant and the use of cutoffs* ([arXiv:2009.00728](https://arxiv.org/abs/2009.00728))
+* [[John Donoghue]]: *The cosmological constant and the use of cutoffs*, Phys. Rev. D **104** 045005 (2021) &lbrack;[arXiv:2009.00728](https://arxiv.org/abs/2009.00728), [doi:10.1103/PhysRevD.104.045005](https://doi.org/10.1103/PhysRevD.104.045005)&rbrack;
 
 * David Prinz, *On Perturbative Quantum Gravity with a Cosmological Constant* &lbrack;[arXiv:2303.14160](https://arxiv.org/abs/2303.14160)&rbrack;
 
+
+* [[John Donoghue]]: *Do $\Lambda_{C C}$ and $G$ run?* &lbrack;[arXiv:2412.08773](https://arxiv.org/abs/2412.08773)&rbrack;
 
 Corrections at [[loop order|1-loop]] from [[quantum gravity]] to the [[anomalous magnetic moment]] of the [[leptons]] are discussed in
 
