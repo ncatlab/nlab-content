@@ -157,6 +157,10 @@ Realization of non-abelian holonomy on degenerate ground states in [[photonic wa
 
 References which make explicit that [[topological quantum computation]] by [[braiding]] of [[anyon]] [[worldlines]] is a form of adiabatic quantum computation:
 
+* [[Daniel P. Arovas]], [[Robert Schrieffer]], [[Frank Wilczek]]: *Fractional Statistics and the Quantum Hall Effect*, Phys. Rev. Lett. **53** (1984) 722 &lbrack;[doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722)&rbrack;
+  > "The statistics of quasiparticles entering the quantum Hall effect are deduced from the adiabatic theorem."
+
+
 * {#ArovasSchriefferWilczekZee85} [[Daniel P. Arovas]], [[Robert Schrieffer]], [[Frank Wilczek]], [[Anthony Zee]], *Statistical mechanics of anyons*, Nuclear Physics B **251** (1985) 117-126 (reprinted in [Wilczek 1990, p. 173-182](anyon#Wilczek90)) &lbrack;<a href="https://doi.org/10.1016/0550-3213(85)90252-4">doi:10.1016/0550-3213(85)90252-4</a>&rbrack;
 
 * [Childs, Farhi & Preskill (2002), p. 2](#ChildsFarhiPreskill02)
