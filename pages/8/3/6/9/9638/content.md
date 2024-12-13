@@ -535,6 +535,19 @@ More optimistic outlook:
 
 * [[John Preskill]]: *Beyond NISQ: The Megaquop Machine*, talk at *[Q2B 2024 Silicon Valley](https://q2b.qcware.com/2024-conferences/silicon-valley/)* (Dec. 2024) &lbrack;[pdf](https://www.preskill.caltech.edu/talks/Preskill-Q2B-2024.pdf)&rbrack;
 
+More concerned outlook:
+
+  > <div style="float:right;margin:-15px 0px 00px 20px;"><a href="https://youtu.be/E98zLxB7EQs?t=85"><img src="/nlab/files/DARPA-QBI-IFItTurnsOutNotPossible.jpg" width="230"></a></div>
+
+* {#DarpaQBI} DARPA: *[Quantum Benchmarjing Initiative](https://www.darpa.mil/work-with-us/quantum-benchmarking-initiative)*
+  > "to determine if it’s possible to build an industrially useful quantum computer much faster than conventional predictions. Specifically, QBI is designed to rigorously verify and validate if any quantum computing approach can achieve utility-scale operation — meaning its computational value exceeds its cost — by the year 2033."
+
+  > The [accompanying video](https://youtu.be/E98zLxB7EQs) says at [1:25](https://youtu.be/E98zLxB7EQs?t=85): 
+
+  > "If it turns out, as a lot of us suspect, that that's really not possible, and it really won't do something useful, or there isn't a path, we need to know that, too."
+
+
+
 
 ### Quantum programming via monads
  {#ReferencesInTermsOfMonads}
