@@ -1,8 +1,5 @@
 
 
-[[Noja-PureSpinorGeometry-CQTS-Dec2024.pdf:file]]
-
-***
 
 ### Mix, isomix and compact linearly distributive categories
 
