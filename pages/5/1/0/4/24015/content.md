@@ -21,9 +21,9 @@ On non-trivial [[braid group statistics|braiding]] of nodal points in the [[Bril
 
 {#InTwistedBilayerGraphene} Braiding of Dirac points in twisted bilayer [[graphene]]:
 
-* Jian Kang, Oskar Vafek, *Non-Abelian Dirac node braiding and near-degeneracy of correlated phases at odd integer filling in magic angle twisted bilayer graphene*, Phys. Rev. B **102** (2020) 035161 \[<a href="https://doi.org/10.1103/PhysRevB.102.035161">doi:10.1103/PhysRevB.102.035161</a>, [arXiv:2002.10360](https://arxiv.org/abs/2002.10360)\]
+* Jian Kang, Oskar Vafek: *Non-Abelian Dirac node braiding and near-degeneracy of correlated phases at odd integer filling in magic angle twisted bilayer graphene*, Phys. Rev. B **102** (2020) 035161 \[<a href="https://doi.org/10.1103/PhysRevB.102.035161">doi:10.1103/PhysRevB.102.035161</a>, [arXiv:2002.10360](https://arxiv.org/abs/2002.10360)\]
 
-* {#JBLZHLSJ21} Bin Jiang, [[Adrien Bouhon]], Zhi-Kang Lin, Xiaoxi Zhou, Bo Hou, Feng Li, [[Robert-Jan Slager]], Jian-Hua Jiang *Experimental observation of non-Abelian topological acoustic semimetals and their phase transitions*, Nature Physics **17** (2021) 1239-1246 \[<a href="https://doi.org/10.1038/s41567-021-01340-x">doi:10.1038/s41567-021-01340-x</a>, [arXiv:2104.13397](https://arxiv.org/abs/2104.13397)\]
+* {#JBLZHLSJ21} Bin Jiang, [[Adrien Bouhon]], Zhi-Kang Lin, Xiaoxi Zhou, Bo Hou, Feng Li, [[Robert-Jan Slager]], Jian-Hua Jiang: *Experimental observation of non-Abelian topological acoustic semimetals and their phase transitions*, Nature Physics **17** (2021) 1239-1246 \[<a href="https://doi.org/10.1038/s41567-021-01340-x">doi:10.1038/s41567-021-01340-x</a>, [arXiv:2104.13397](https://arxiv.org/abs/2104.13397)\]
 
   (analog realization in [[phononic crystals]])
 
