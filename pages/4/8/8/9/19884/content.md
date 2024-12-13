@@ -31,7 +31,7 @@ It is argued by [Simpson 2012](#Simpson12) that the Banach-Tarski paradox disapp
 
 > The usual contradictions are avoided $[$this way$]$. The different pieces in  the partitions defined by Vitali and by Banach and Tarski are deeply intertangled with  each  other.  According  to  our  notion  of "part",  two  such  intertangled pieces are not disjoint from each other, so additivity does not apply. An intuitive explanation for the failure of disjointness is that, although two such pieces share no point in common, they nevertheless overlap on the topological “glue” that bonds neighbouring points together.
 
-
+This had been observed earlier by Olivier Leroy, a student of Grothendieck, who developed measure theory over locales ([Leroy 1995]{#Leroy95}).
 
 ## References
 
@@ -51,3 +51,5 @@ See also:
 Discussion in [[point-free topology]]:
 
 * {#Simpson12} [[Alex Simpson]], _Measure, randomness and sublocales_, Annals of Pure and Applied Logic **163** 11 (2012) 1642-1659 &lbrack;[pdf](http://homepages.inf.ed.ac.uk/als/Research/Sources/mrs.pdf), [doi:10.1016/j.apal.2011.12.014](https://doi.org/10.1016/j.apal.2011.12.014)&rbrack;
+
+* {#Leroy95} [[Olivier Leroy]], _Théorie de la mesure dans les lieux réguliers. ou : Les intersections cachées dans le paradoxe de Banach-Tarski_, preprint (2013);&lbrack;[pdf](https://arxiv.org/pdf/1303.5631)&rbrack;
