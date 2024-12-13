@@ -22,7 +22,7 @@ In [[quantum physics]], the *quantum adiabatic theorem* for a [[parameterized qu
 
 For adiabatic transport along a [[loop]], $\gamma(0) = \gamma(1)$, this implies that the [[eigenspaces]] of the system are acted on by [[unitary operators]], which (at least for multiplicity/eigen-dimension 1) are  known as *[[Berry phases]]*.
 
-{#AsAModelForQuantumComputation} The adiabatic parameter-action on [[ground states]] of ([[topological order|topologically ordered]]) [[quantum materials]] is one model for [[quantum computation]], see at *[[adiabatic quantum computation]]*. If these adiabatic [[quantum gates]] depend only on the [[isotopy]] [[equivalence class|class]] of the parameter path, then one speaks of *[[topological quantum computation]]* (made explicit in [Arovas, Schrieffer, Wilczek & Zee 1985, p. 1](#ArovasSchriefferWilczekZee85), [Freedman, Kitaev, Larsen & Wang 2003, pp. 6](#FreedmanKitaevLarsenWang03) and [Nayak, Simon, Stern & Freedman 2008, §II.A.2 (p. 6)](#NayakSimonSternFreedman08), see also at *[braiding of anyonic defects](braid+group+statistics#AsBraidingOfDefects)*).
+{#AsAModelForQuantumComputation} The adiabatic parameter-action on [[ground states]] of ([[topological order|topologically ordered]]) [[quantum materials]] is one model for [[quantum computation]], see at *[[adiabatic quantum computation]]*. If these adiabatic [[quantum gates]] depend only on the [[isotopy]] [[equivalence class|class]] of the parameter path, then one speaks of *[[topological quantum computation]]* (made explicit in [Arovas, Schrieffer & Wilczek 1984](#ArovasSchriefferWilczek84), [Freedman, Kitaev, Larsen & Wang 2003, pp. 7](#FreedmanKitaevLarsenWang03) and [Nayak, Simon, Stern & Freedman 2008, §II.A.2 (p. 6)](#NayakSimonSternFreedman08), see also at *[braiding of anyonic defects](braid+group+statistics#AsBraidingOfDefects)*).
 
 The following graphics is meant to illustrate this general idea for the case of adiabatic transformation along the [[braid group|braiding]] of nodal points in the [[Brillouin torus]] of [[semi-metal]] [[quantum materials]] (see the discussion at *[[braid group statistics]] -- [anyonic band nodes](braid+group+statistics#AnyonicBandNodes)*):
 
@@ -113,16 +113,18 @@ See also:
 
 References which make explicit that the standard model of [[topological quantum computation]] by [[braid group statistics|braiding]] of [[anyons]] is a form of [[adiabatic quantum computation]]:
 
+* {#ArovasSchriefferWilczek84} [[Daniel P. Arovas]], [[Robert Schrieffer]], [[Frank Wilczek]]: *Fractional Statistics and the Quantum Hall Effect*, Phys. Rev. Lett. **53** (1984) 722 &lbrack;[doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722)&rbrack;
+  > "The statistics of quasiparticles entering the quantum Hall effect are deduced from the adiabatic theorem."
 
-* {#ArovasSchriefferWilczekZee85} [[Daniel P. Arovas]], [[Robert Schrieffer]], [[Frank Wilczek]], [[Anthony Zee]], *Statistical mechanics of anyons*, Nuclear Physics B **251** (1985) 117-126 (reprinted in [Wilczek 1990, p. 173-182](anyon#Wilczek90)) $[$<a href="https://doi.org/10.1016/0550-3213(85)90252-4">doi:10.1016/0550-3213(85)90252-4</a>$]$
+* {#ArovasSchriefferWilczekZee85} [[Daniel P. Arovas]], [[Robert Schrieffer]], [[Frank Wilczek]], [[Anthony Zee]]: *Statistical mechanics of anyons*, Nuclear Physics B **251** (1985) 117-126 (reprinted in [Wilczek 1990, p. 173-182](anyon#Wilczek90)) &lbrack;<a href="https://doi.org/10.1016/0550-3213(85)90252-4">doi:10.1016/0550-3213(85)90252-4</a>&rbrack;
 
-* {#FreedmanKitaevLarsenWang03} [[Michael Freedman]], [[Alexei Kitaev]], [[Michael Larsen]], [[Zhenghan Wang]], pp. 6 of *Topological quantum computation*,  Bull. Amer. Math. Soc. __40__ (2003), 31-38 ([arXiv:quant-ph/0101025](https://arxiv.org/abs/quant-ph/0101025), [doi:10.1090/S0273-0979-02-00964-3](https://doi.org/10.1090/S0273-0979-02-00964-3), [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf))
+* {#FreedmanKitaevLarsenWang03} [[Michael Freedman]], [[Alexei Kitaev]], [[Michael Larsen]], [[Zhenghan Wang]], pp. 7 of *Topological quantum computation*,  Bull. Amer. Math. Soc. __40__ (2003) 31-38 &lbrack;[arXiv:quant-ph/0101025](https://arxiv.org/abs/quant-ph/0101025), [doi:10.1090/S0273-0979-02-00964-3](https://doi.org/10.1090/S0273-0979-02-00964-3), [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf)&rbrack;
 
-* {#NayakSimonSternFreedman08} [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], §II.A.2 (p. 6) of: _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. **80** 1083 (2008) $[$[arXiv:0707.1888] (http://arxiv.org/abs/0707.1889), [doi:10.1103/RevModPhys.80.1083](https://doi.org/10.1103/RevModPhys.80.1083)$]$
+* {#NayakSimonSternFreedman08} [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], §II.A.2 (p. 6) of: *Non-Abelian Anyons and Topological Quantum Computation*, Rev. Mod. Phys. **80** 1083 (2008) &lbrack;[arXiv:0707.1888] (http://arxiv.org/abs/0707.1889), [doi:10.1103/RevModPhys.80.1083](https://doi.org/10.1103/RevModPhys.80.1083)&rbrack;
 
-* {#ChengGalitskiDasSarma11} [[Meng Cheng]], [[Victor Galitski]], [[Sankar Das Sarma]], *Non-adiabatic Effects in the Braiding of Non-Abelian Anyons in Topological Superconductors*, Phys. Rev. B **84** (2011) 104529 $[$[arXiv:1106.2549](https://arxiv.org/abs/1106.2549), [doi:10.1103/PhysRevB.84.104529](https://doi.org/10.1103/PhysRevB.84.104529)$]$
+* {#ChengGalitskiDasSarma11} [[Meng Cheng]], [[Victor Galitski]], [[Sankar Das Sarma]], *Non-adiabatic Effects in the Braiding of Non-Abelian Anyons in Topological Superconductors*, Phys. Rev. B **84** (2011) 104529 &lbrack;[arXiv:1106.2549](https://arxiv.org/abs/1106.2549), [doi:10.1103/PhysRevB.84.104529](https://doi.org/10.1103/PhysRevB.84.104529)&rbrack;
 
-* {#CLBFN15} Chris Cesare, Andrew J. Landahl, Dave Bacon, Steven T. Flammia, Alice Neels, *Adiabatic topological quantum computing*, Phys. Rev. A **92** (2015) 012336  $[$[arXiv:1406.2690](https://arxiv.org/abs/1406.2690), [doi:10.1103/PhysRevA.92.012336](https://doi.org/10.1103/PhysRevA.92.012336)$]$
+* {#CLBFN15} Chris Cesare, Andrew J. Landahl, Dave Bacon, Steven T. Flammia, Alice Neels, *Adiabatic topological quantum computing*, Phys. Rev. A **92** (2015) 012336  &lbrack;[arXiv:1406.2690](https://arxiv.org/abs/1406.2690), [doi:10.1103/PhysRevA.92.012336](https://doi.org/10.1103/PhysRevA.92.012336)&rbrack;
 
 
 
