@@ -21,7 +21,7 @@ A **geometric embedding** is the right notion of embedding or inclusion of [[top
 
 Notably the inclusion $Sh(S) \hookrightarrow PSh(S)$ of a [[category of sheaves]] into its [[presheaf]] [[topos]] or more generally the inclusion $Sh_j E \hookrightarrow E$ of sheaves in a topos $E$ into $E$ itself, is a geometric embedding. Actually every geometric embedding is of this form, up to equivalence of [[topos|topoi]].
 
-Another perspective is that a geometric embedding $F \hookrightarrow E$ is the [[localizations]] of $E$ at the class $W$ or morphisms that the [[left adjoint]] $E \to F$ sends to isomorphisms in $F$.
+Another perspective is that a geometric embedding $F \hookrightarrow E$ is the [[localization]] of $E$ at the class $W$ or morphisms that the [[left adjoint]] $E \to F$ sends to isomorphisms in $F$.
 
 The induced geometric morphism of a topological immersion $X \hookrightarrow Y$ is a geometric embedding. The converse holds if $Y$ is a $T_0$ space. (Example A4.2.12(c) in ([Johnstone](#Johnstone)))
 
