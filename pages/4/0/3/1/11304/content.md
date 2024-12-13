@@ -5,6 +5,7 @@
 
 On [[geometric engineering of quantum field theory]]:
 
+* [[Sheldon Katz]], [[Cumrun Vafa]]: *Matter From Geometry*,  Nucl. Phys. B **497** (1997) 146-154 &lbrack;[arXiv:hep-th/9606086](https://arxiv.org/abs/hep-th/9606086), <a href="https://doi.org/10.1016/S0550-3213(97)00280-0">doi:10.1016/S0550-3213(97)00280-0</a>&rbrack;
 
 * {#KatzKlemmVafa97} [[Sheldon Katz]], [[Albrecht Klemm]], [[Cumrun Vafa]], _Geometric Engineering of Quantum Field Theories_, Nucl.Phys. B497 (1997) 173-195 ([arXiv:hep-th/9609239](http://arxiv.org/abs/hep-th/9609239))
 
