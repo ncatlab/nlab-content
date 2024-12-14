@@ -48,6 +48,10 @@ Equivalently, given two [[rings]] $R$ and $S$, a $R$-$S$-bimodule is an [[abelia
 
 representing simultaneous left multiplication by scalars $r \in R$ and right multiplication by scalars $s \in S$. 
 
+#### Over a fixed ring
+
+In the case $R=S$ the category of $(R,R)$-bimodules can be described as the category of [[abelian group object | abelian group objects]] in the slice category of (not necessarily commutative) rings over $R$. See [[Beck module]] for a proof.
+
 ### Over a monoid in a monoidal category
 
 We can define in more generality what is a $(A,B)$-bimodule in a monoidal category $(\mathcal{C},\otimes,I)$ where $(A,\nabla^{A},\eta^{A})$ and $(B,\nabla^{B},\eta^{B})$ are two monoids. It is given by:
