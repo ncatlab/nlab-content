@@ -148,6 +148,24 @@ On [[topological quantum computation]] with [[anyons]]:
 
 * [[Hisham Sati]], [[Sachin Valera]]: *Topological Quantum Computing*, [[Encyclopedia of Mathematical Physics 2nd ed]] **4** (2025) 325-345 \[<a href="https://doi.org/10.1016/B978-0-323-95703-8.00262-7">doi:10.1016/B978-0-323-95703-8.00262-7</a>\]
 
+On [[geometry of physics -- flux quantization|flux quantization]] of the [[supergravity C-field]] via [[superspace]]-formulation of [[on-shell]] [[D=11 supergravity]]:
+
+* {#GiotopoulosSatiSchreiber24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], §3 of: *[[schreiber:Flux Quantization on 11d Superspace]]*, Journal of High Energy Physics **2024** 82 (2024) &lbrack;[arXiv:2403.16456](https://arxiv.org/abs/2403.16456), <a href="https://doi.org/10.1007/JHEP07(2024)082">doi:10.1007/JHEP07(2024)082</a>&rbrack;
+
+
+On [[geometry of physics -- flux quantization|flux quantization]] of the (non-linearly) [[self-dual higher gauge field]] on [[M5-brane]] [[worldvolumes]]:
+
+* {#GSS24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Flux Quantization on M5-Branes]]*, Journal of High Energy Physics **2024** 140 (2024) &lbrack;[arXiv:2406.11304](https://arxiv.org/abs/2406.11304), <a href="https://doi.org/10.1007/JHEP10(2024)140">doi:10.1007/JHEP10(2024)140</a>&rbrack;
+
+
+On [[T-duality]] and [[M-theory]] on [[superspace]]:
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Super-Lie-infinity T-Duality and M-Theory|Super $L_\infty$ T-Duality and M-theory]]* &lbrack;[arXiv:2411.10260](https://arxiv.org/abs/2411.10260)&rbrack;
+
+On [[superspace|super]]-[[exceptional tangent spaces]]:
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *The M-algebra completes the hierarchy of Super-Exceptional Tangent Spaces*, Physics Letters B &lbrack;[arXiv:2411.03661](https://arxiv.org/abs/2411.03661)&rbrack;
+
 
 
 
