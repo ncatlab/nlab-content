@@ -164,7 +164,7 @@ Returning now to existence of general coequalizers, here is a more difficult and
 
 +-- {: .num_prop} 
 ###### Proposition 
-If $C$ has coequalizers and equalizers of arbitrary sets of parallel morphisms, and if a monad $T: C \to C$ preserves colimits of countable chains $\omega \to C$, then $C^T$ has coequalizers. 
+Let $C$ be a category with finite colimits, colimits of chains $\kappa \to C$ (for $\kappa$ an infinite cardinal), and equalizers of arbitrary sets of endomorphisms. If a monad $T : C \to C$ preserves colimits of $\kappa$-chains, then $C^T$ admits coequalizers. 
 =-- 
 
 +-- {: .num_cor} 
