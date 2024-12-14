@@ -17,6 +17,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -322,9 +323,12 @@ as an operation on [[twisted K-theory|twisted]] [[differential K-theory]]:
 
 using [[adjusted Weil algebra|adjusted]] [[principal 2-connections]]:
 
-* [[Hyungrok Kim]], [[Christian Saemann]], *Non-Geometric T-Duality as Higher Groupoid Bundles with Connections* *lbrack;[arXiv:2204.01783](https://arxiv.org/abs/2204.01783)&rbrack;
+* [[Hyungrok Kim]], [[Christian Saemann]]: *Non-Geometric T-Duality as Higher Groupoid Bundles with Connections* &lbrack;[arXiv:2204.01783](https://arxiv.org/abs/2204.01783)&rbrack;
 
-* [[Hyungrok Kim]], [[Christian Saemann]], *T-duality as Correspondences of Categorified Principal Bundles with Adjusted Connections* &lbrack;[arXiv:2303.16162](https://arxiv.org/abs/2303.16162)&rbrack;
+* [[Christian Saemann]]: *Non-Geometric T-duality from
+Higher Groupoid Bundles with Connections*, talk at *ESI Workshop on Higher Structures* (2022) &lbrack;[pdf](https://www.esi.ac.at/uploads/00c2f5b8-cbb4-413e-a07c-039c22a59b48.pdf)&rbrack;
+
+* [[Hyungrok Kim]], [[Christian Saemann]], *T-duality as Correspondences of Categorified Principal Bundles with Adjusted Connections*, Proceedings of *CORFU2022*,  PoS **436** &lbrack;[arXiv:2303.16162](https://arxiv.org/abs/2303.16162), [doi:10.22323/1.436.0336](https://doi.org/10.22323/1.436.0336)&rbrack;
 
 * [[Konrad Waldorf]]: *Geometric T-duality: Buscher rules in general topology*,  Ann. Henri Poincaré **25** (2024) 1285–1358 &lbrack;[arXiv:2207.11799](https://arxiv.org/abs/2207.11799), [doi:10.1007/s00023-023-01295-0](https://doi.org/10.1007/s00023-023-01295-0)&rbrack;
  
@@ -346,7 +350,7 @@ Discussion of the [[sigma-model]] description of T-duality in this context inclu
 On [[Poisson-Lie T-duality]]:
 
 
-* Peggy Kao, _T-duality and Poisson-Lie T-duality in generalized geometry_ ([pdf](http://tpsrv.anu.edu.au/Members/bouwknegt/Kao.pdf))
+* Peggy Kao, _T-duality and Poisson-Lie T-duality in generalized geometry_, PhD thesis, Australian National University (2008) &lbrack;[[Kao-TDuality.pdf:file]]&rbrack;
 
 Discussion of the infinitesimal T-duality geometry, replacing [[gerbes]] on [[torus]]-[[fiber bundles]] with the corresponding [[dg-manifolds]] is in 
 
@@ -372,7 +376,7 @@ Discussion of T-duality that takes into account the [[super p-brane]] charges (i
 
 * {#BandosJulia03} [[Igor Bandos]], [[Bernard Julia]], _Superfield T-duality rules_, JHEP 0308 (2003) 032 ([arXiv:hep-th/0303075](https://arxiv.org/abs/hep-th/0303075))
 
-  reviewed in _Superfield T-duality rules in ten dimensions with one isometry_ ([arXiv:hep-th/0312299](https://arxiv.org/abs/hep-th/0312299))
+  reviewed in: _Superfield T-duality rules in ten dimensions with one isometry_ &lbrack;[arXiv:hep-th/0312299](https://arxiv.org/abs/hep-th/0312299)&rbrack;
 
 Lift of T-duality from [[string theory]] to a [[SL(2,Z)]]-[[U-duality]] acting on the [[M2-brane]]-[[Green-Schwarz action functional|sigma-model]]:
 
@@ -390,13 +394,13 @@ T-duality formulated on [[superspace]] (see also references at *[double supergeo
 
 * [[Igor Bandos]]: *Superstring in doubled superspace*, Physics Letters B **751** (2015) 408-412 &lbrack;[doi:10.1016/j.physletb.2015.10.081](https://doi.org/10.1016/j.physletb.2015.10.081), [arXiv:1507.07779](https://arxiv.org/abs/1507.07779)&rbrack;
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]*, Adv. Theor. Math. Phys **22** 5 (2018) &lbrack;[arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](https://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3)&rbrack;
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes|T-Duality from super Lie $n$-algebra cocycles for super $p$-branes]]*, Adv. Theor. Math. Phys **22** 5 (2018) &lbrack;[arXiv:1611.06536](https://arxiv.org/abs/1611.06536), [doi:10.4310/ATMP.2018.v22.n5.a3](https://dx.doi.org/10.4310/ATMP.2018.v22.n5.a3)&rbrack;
 
 * [[Chris D. A. Blair]], Ondrej Hulik, Alexander Sevrin, [[Daniel C. Thompson]]: *Doubled space and extended supersymmetry*,  J. High Energ. Phys. **2022** 119 (2022) \[<a href=" https://doi.org/10.1007/JHEP08(2022)119">doi:10.1007/JHEP08(2022)119</a>\]
 
 * [[Daniel Butter]], [[Falk Hassler]], [[Christopher N. Pope]], Haoyu Zhang: *Generalized Dualities and Supergroups*, J. High Energ. Phys. **2023** 52 (2023) &lbrack;[arXiv:2307.05665](https://arxiv.org/abs/2307.05665), <a href="https://doi.org/10.1007/JHEP12(2023)052">doi:10.1007/JHEP12(2023)052</a>&rbrack;
 
-
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Super-Lie-infinity T-Duality and M-Theory|Super $L_\infty$ T-Duality and M-theory]]* &lbrack;[arXiv:2411.10260](https://arxiv.org/abs/2411.10260)&rbrack;
 
 
 ### In topological phases of matter
