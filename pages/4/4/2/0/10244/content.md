@@ -256,7 +256,7 @@ Related discussion in the bosonic situation:
 
 Reformulation of "super-embeddings" via a supergeometric [[Darboux coframe]]-condition:
 
-* {#GSS24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], §2 in: *[[schreiber:Flux Quantization on M5-Branes]]* &lbrack;[arXiv:2406.11304](https://arxiv.org/abs/2406.11304)&rbrack;
+* {#GSS24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], §2 in: *[[schreiber:Flux Quantization on M5-Branes]]*, Journal of High Energy Physics **2024** 140 (2024) &lbrack;[arXiv:2406.11304](https://arxiv.org/abs/2406.11304), <a href="https://doi.org/10.1007/JHEP10(2024)140">doi:10.1007/JHEP10(2024)140</a>&rbrack;
 
 Actual examples of non-trivial super-embeddings (namely [holographic super-embeddings](AdS-CFT+correspondence#ReferencesMicroscopicAdSCFTViapBraneSigmaModesl) of [[M5-branes]] and [[M2-branes]]):
 
