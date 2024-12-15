@@ -111,8 +111,10 @@ and in particular, it induces an equivalence
 \]
 We define _Mackey functors in $\mathcal{C}$_ to be the subcategory
 \[
-  \mathrm{Mack}(\mathcal{C}) \coloneqq \mathrm{sMack}(\mathrm{CGrp}(\mathcal{C})) \subset \mathrm{sMack}(\mathrm{CMon}(\mathcal{C})) \simeq \\mathrm{sMack}(\mathcal{C})
+  \mathrm{Mack}(\mathcal{C}) \coloneqq \mathrm{sMack}(\mathrm{CGrp}(\mathcal{C})) \subset \mathrm{sMack}(\mathrm{CMon}(\mathcal{C})) \simeq \mathrm{sMack}(\mathcal{C})
 \]
+
+We then have the following.
 
 \begin{proposition}
   Mackey functors form a [[reflective subcategory]] of semi-Mackey functors. 
