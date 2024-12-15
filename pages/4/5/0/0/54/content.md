@@ -45,11 +45,21 @@ For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+
 
 ## selected talks
 
+* **[[schreiber:Super-Exceptional Geometry for 11D Supergravity]]**
+
+  [talk in](https://seminars.aei.mpg.de/seminar/26232): [HEP seminar](https://www.aei.mpg.de/358528/seminars-in-potsdam) @ [MPI for Gravitational Physics](https://www.aei.mpg.de/) (Dec 2024)
+
+  video: [YT](https://youtu.be/iayDIBPXTf4)
+
 * **[[schreiber:Higher Topos Theory in Physics]]**
 
   [talk in](https://researchseminars.org/talk/CaTheoryZulip/5/): [Zulip Category Theory Seminar](https://researchseminars.org/seminar/CaTheoryZulip) (Jun 2024)
 
   video: [YT](https://youtu.be/Gr_BCr1rYVM)
+
+* **[[schreiber:Towards Certified Topological Quantum Programming via Linear Homotopy Types]]**
+
+  talk at: [Quantum Information and Quantum Matter 2024](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#QuantumConference2024) NYUAD (May 2024)
 
 * **[Topological Quantum Programming with Linear Homotopy Types](/schreiber/show/Topological+Quantum+Gates+in+Homotopy+Type+Theory#HoTTEST2024)**
 
