@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -283,11 +282,21 @@ Maxwell's equations originate in:
 
 Some history and reflection:
 
-* A. C. T. Wu, [[Chen Ning Yang]], *Evolution of the concept of vector potential in the description of the fundamental interactions*,  International Journal of Modern Physics A **21** 16 (2006) 3235-3277 &lbrack;[doi:10.1142/S0217751X06033143](https://doi.org/10.1142/S0217751X06033143)&rbrack;
+* A. C. T. Wu, [[Chen Ning Yang]]: *Evolution of the concept of vector potential in the description of the fundamental interactions*,  International Journal of Modern Physics A **21** 16 (2006) 3235-3277 &lbrack;[doi:10.1142/S0217751X06033143](https://doi.org/10.1142/S0217751X06033143)&rbrack;
 
-* {#Dyson07} [[Freeman Dyson]], _Why is Maxwell’s Theory so hard to understand?_, Proceedings of [The Second European Conference on Antennas and Propagation, EuCAP 2007](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147) ([doi: 10.1049/ic.2007.1146](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147))
+* {#Dyson07} [[Freeman J. Dyson]], _Why is Maxwell’s Theory so hard to understand?_, Proceedings of [The Second European Conference on Antennas and Propagation, EuCAP 2007](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147) ([doi: 10.1049/ic.2007.1146](https://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=4446147))
 
 * [[Chen Ning Yang]], *The conceptual origins of Maxwell’s equations and gauge theory*, Phyics Today **67** 11 (2014) &lbrack;[doi:10.1063/PT.3.2585](https://doi.org/10.1063/PT.3.2585), [pdf](http://home.ustc.edu.cn/~lxsphys/2021-3-18/The%20conceptual%20origins%20of%20Maxwell%27s%20equations%20and%20gauge%20theory.pdf)&rbrack;
+
+See also:
+
+* [[Freeman J. Dyson]]: *Feynman's proof of Maxwell's equations*,  American Journal of Physics **58** (1990) 209-211 &lbrack;[pdf](https://physics.csuchico.edu/kagan/435B/problems/FeynmanPaper.pdf), [[DysonOnFeynmanOnMaxwell.pdf:file]]&rbrack;
+  > (recounting an observation by [[Richard Feynman]])
+
+  comment by N. Dombey: Am. J. Phys. **59** 1 (1991) 85 &lbrack;[journal](https://pubs.aip.org/aapt/ajp/article-abstract/59/1/85/1053837/Comment-on-Feynman-s-proof-of-the-Maxwell?redirectedFrom=fulltext), [[DombeyOnDysonOnFeynmanOnMaxwell.jpg:file]]&rbrack;
+
+  comment by I. E. Farquhar: Am. J. Phys. **59** 1 (1991) 87 &lbrack;[journal](https://pubs.aip.org/aapt/ajp/article-abstract/59/1/87/1053797/Comment-on-Feynman-s-proof-of-the-Maxwell?redirectedFrom=fulltext), [[FarquharOnDysonOnFeynmanOnMaxwell.jpg:file]]&rbrack;
+
 
 
 For Maxwell's equations in the generality of [[dielectric media]], see the references there, such as:
