@@ -1,5 +1,7 @@
 
-* [wikipedia](http://en.wikipedia.org/wiki/Richard_Feynman)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Richard_Feynman)
+
+* [[Freeman J. Dyson]]: *Feynman at Cornell*, Physics Today **42** 2 (1989) &lbrack;[doi:10.1063/1.881190](https://doi.org/10.1063/1.881190)&rbrack;
 
 
 ## Selected writings
@@ -34,6 +36,16 @@ Early discussion of [[quantum computation]]:
 and [[quantum gates]]/[[quantum circuits]]:
 
 * [[Richard Feynman]], *Quantum mechanical computers*, Foundations of Physics **16** (1986) 507–531 &lbrack;[doi:10.1007/BF01886518](https://doi.org/10.1007/BF01886518)&rbrack;
+
+On [[Maxwell's equations]]:
+
+* [[Freeman J. Dyson]]: *Feynman's proof of Maxwell's equations*,  American Journal of Physics **58** (1990) 209-211 &lbrack;[pdf](https://physics.csuchico.edu/kagan/435B/problems/FeynmanPaper.pdf), [[DysonOnFeynmanOnMaxwell.pdf:file]]&rbrack;
+
+    comment by N. Dombey: Am. J. Phys. **59** 1 (1991) 85 &lbrack;[journal](https://pubs.aip.org/aapt/ajp/article-abstract/59/1/85/1053837/Comment-on-Feynman-s-proof-of-the-Maxwell?redirectedFrom=fulltext), [[DombeyOnDysonOnFeynmanOnMaxwell.jpg:file]]&rbrack;
+
+  comment by I. E. Farquhar: Am. J. Phys. **59** 1 (1991) 87 &lbrack;[journal](https://pubs.aip.org/aapt/ajp/article-abstract/59/1/87/1053797/Comment-on-Feynman-s-proof-of-the-Maxwell?redirectedFrom=fulltext), [[FarquharOnDysonOnFeynmanOnMaxwell.jpg:file]]&rbrack;
+
+
 
 
 ## Related entries
