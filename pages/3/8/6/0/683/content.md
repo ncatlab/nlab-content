@@ -1112,7 +1112,7 @@ A nice discussion of the expression of homotopy colimits in terms of coends is i
 
 A collection of examples and exercises is in 
 
-* {#Isaacson} [[Samuel Isaacson]], _Excercises in homotopy colimits_ ([pdf](http://www-math.mit.edu/~mbehrens/TAGS/Isaacson_exer.pdf))
+* {#Isaacson} [[Samuel Isaacson]], _Excercises in homotopy colimits_ ([pdf](https://www3.nd.edu/~mbehren1/TAGS/Isaacson_exer.pdf))
 
 
 See also 
