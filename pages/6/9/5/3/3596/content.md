@@ -642,7 +642,45 @@ Similarly, the canonically defined term in the propositional computation rule is
 $$\frac{\Gamma, z:A \times A, p:Id_A(z), \Delta(z,p) \vdash C(z,p):Type \quad \Gamma \vdash t:\prod_{x:A} C(\Delta_A(x),r(x))}
 {\Gamma, x:A, \Delta(\lambda b:\mathbb{2}.x,r(x)) \vdash \beta(t,x):Id_{C(\lambda b:\mathbb{2}.x,r(x))}(J(t,\lambda b:\mathbb{2}.x,r(x)),t(x))}$$
 
-The original inference rules using the family of terms $t(x)$ dependent upon $x:A$ is then given by $\beta(\lambda x:A.t(x),x):\mathrm{Id}_{C(\Delta_A(x),r(x))}(J(\lambda x:A.t(x),\Delta_A(x),r(x)),t(x))$.  
+The original inference rules using the family of terms $t(x)$ dependent upon $x:A$ is then given by $\beta(\lambda x:A.t(x),x):\mathrm{Id}_{C(\Delta_A(x),r(x))}(J(\lambda x:A.t(x),\Delta_A(x),r(x)),t(x))$. 
+
+### Identity types between types
+
+Suppose that we have a [[dependent type theory with type variables]], presented using a single type judgment. Type variables allow for the definition of [[identity types]] between types: 
+
+* Formation rule for identity types between types:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A \; \mathrm{type}, B \; \mathrm{type} \vdash A = B \; \mathrm{type}}$$
+
+* Introduction rule for identity types between types:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A \; \mathrm{type} \vdash \mathrm{refl}(A):A = A}$$
+
+* Elimination rule for identity types between types:
+
+$$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B, \Delta(A, B, p) \vdash C(A, B, p) \; \mathrm{type} \quad \Gamma, A \; \mathrm{type}, \Delta(A, A, \mathrm{refl}(A)) \vdash t(A):C(A, A, \mathrm{refl}(A))}{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B, \Delta(A, B, p) \vdash \mathrm{ind}_=^{C, t}(A, B, p):C(A, B, p)}$$
+
+* Judgmental computation rule for identity types between types:
+
+$$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B, \Delta(A, B, p) \vdash C(A, B, p) \; \mathrm{type} \quad \Gamma, A \; \mathrm{type}, \Delta(A, A, \mathrm{refl}(A)) \vdash t(A):C(A, A, \mathrm{refl}(A))}{\Gamma, A ; \mathrm{type}, \Delta(A, A, \mathrm{refl}(A)) \vdash \mathrm{ind}_=^{C}(t, A, A, \mathrm{refl}(A)) \equiv t(A):C(A, A, \mathrm{refl}(A))}$$
+
+* Typal computation rule for identity types between types
+
+$$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B, \Delta(A, B, p) \vdash C(A, B, p) \; \mathrm{type} \quad \Gamma, A \; \mathrm{type}, \Delta(A, A, \mathrm{refl}(A)) \vdash t(A):C(A, A, \mathrm{refl}(A))}{\Gamma, A ; \mathrm{type}, \Delta(A, A, \mathrm{refl}(A)) \vdash \beta_{=}^{C, t}(A):\mathrm{ind}_=^{C}(t, A, A, \mathrm{refl}(A)) =_{C(A, A, \mathrm{refl}(A))} t(A)}$$
+
+If the dependent type theory has [[impredicative polymorphism]], then the $\Delta$ contexts can be removed from the elimination and computation rules of the identity types between types, simplifying the rules down to the following: 
+
+* Elimination rule for identity types between types:
+
+$$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B \vdash C(A, B, p) \; \mathrm{type} \quad \Gamma \vdash t:\Pi A.C(A, A, \mathrm{refl}(A))}{\Gamma \vdash \mathrm{ind}_=^{C}(t):\Pi A.\Pi B.\Pi (p:A = B).C(A, B, p)}$$
+
+* Judgmental computation rule for identity types between types:
+
+$$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B \vdash C(A, B, p) \; \mathrm{type} \quad \Gamma \vdash t:\Pi A.C(A, A, \mathrm{refl}(A))}{\Gamma, A \; \mathrm{type} \vdash \mathrm{ind}_=^{C}(t, A, A, \mathrm{refl}(A)) \equiv t(A):C(A, A, \mathrm{refl}(A))}$$
+
+* Typal computation rule for identity types between types:
+
+$$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B \vdash C(A, B, p) \; \mathrm{type} \quad \Gamma \vdash t:\Pi A.C(A, A, \mathrm{refl}(A))}{\Gamma \vdash \beta_{=}^{C}(t):\Pi A.\mathrm{ind}_=^{C}(t, A, A, \mathrm{refl}(A)) =_{C(A, A, \mathrm{refl}(A))} t(A)}$$
 
 ## Definition from an interval type
 
@@ -1269,7 +1307,7 @@ Discussion of issues of [[extensional type theory|extensional]]/[[intensional ty
 
 ### Polymorphism and identity types between types 
 
-Discussion about [[polymorphism]] and identity types between types in a dependent type theory with a type [[judgment]] and [[type]] [[variables]]:
+Discussion about [[polymorphism]] and identity types between types in a [[dependent type theory with type variables]]:
 
 * *Dependent Type Theory vs Polymorphic Type Theory*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Dependent.20Type.20Theory.20vs.20Polymorphic.20Type.20Theory))
 
