@@ -85,7 +85,7 @@ An original article collecting all the weak/strong electric/magnetic dualities:
 * {#West12} [[Peter West]]: *Symmetries of String Theory*, Ch 7 of: *[[Introduction to Strings and Branes]]*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139045926](https://doi.org/10.1017/CBO9781139045926)&rbrack;
 
 
-* {#Polchinski14} [[Joseph Polchinski]]: *Dualities*, Studies in History and Philosophy of Modern Physics **59** (C) (2017) 6-20 &lbrack;[arXiv:1412.5704](http://arxiv.org/abs/1412.5704), [doi:10.1016/j.shpsb.2015.08.011](https://doi.org/10.1016/j.shpsb.2015.08.011)&rbrack;
+* {#Polchinski14} [[Joseph Polchinski]]: *Dualities of Fields and Strings*, Studies in History and Philosophy of Modern Physics **59** (C) (2017) 6-20 &lbrack;[arXiv:1412.5704](http://arxiv.org/abs/1412.5704), [doi:10.1016/j.shpsb.2015.08.011](https://doi.org/10.1016/j.shpsb.2015.08.011)&rbrack;
 
 
 
