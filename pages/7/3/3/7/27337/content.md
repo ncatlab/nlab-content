@@ -23,6 +23,8 @@ In the first presentation of dependent type theory, the concept of a "type varia
 
 In the second presentation of dependent type theory, the theory does not come with the concept of a type variable, since the context can only be extended by term judgments, and not type judgments. While this is sufficient to define [[univalent universes]] and [[higher inductive types]] in the type theory, there are a few reasons why one might want to extend dependent type theory with type variables:
 
+* One wants a [[polymorphism|polymorphic]] [[dependent type theory]]. 
+
 * Large recursion principles of inductive types and higher inductive types $T$ are principles where given some existing data one can construct a type family $C(x)_{x:T}$ indexed by the inductive type $T$. (In the other formulation, large recursion principles are just the usual recursion principles for functions $T \to U$ into a type universe $U$.) While the large recursion principles of certain non-recursive inductive types and higher inductive types, such as the [[boolean domain]], the [[circle type]], and [[graph quotients]], can be defined without type variables, the large recursion principles of recursive inductive types and higher inductive types, such as the [[natural numbers type]] and [[W-types]], require type variables in the theory. 
 
 * With type variables, one can define [[identity types]] $A = B$ between types $A$ and $B$. This has a few benefits: 
@@ -34,6 +36,8 @@ In the second presentation of dependent type theory, the theory does not come wi
   3. The same goes with the weak large recursion principles: in the absence of either judgmental equality or identity types between types, the [[computation rules]] associated with large recursion principles state that one can construct an equivalence of types between certain types given in the [[elimination rules]] of the large recursion principles. With identity types between types, one can simply make use of an [[identification]] between types. 
 
 * The concept of [[impredicative polymorphism]] can be implemented as applying to the entire type theory, rather than to a single universe. 
+
+Dependent type theory with type variables is thus similar to [[System F]], which is a non-dependent [[polymorphism|polymorphic]] [[lambda calculus]] with type variables. 
 
 ## Definition
 
@@ -157,9 +161,9 @@ There is the usual notion of [[strict Tarski universe]] which states that, for e
 
 There is the usual notion of [[weak Tarski universe]] which states that, for example, 
 
-* the Tarski universe $(U, T)$ is weakly closed under dependent sum types if for $A:U$ and $B:T(A) \to U$ there is $\Sigma(A, B):U$ with an equivalence $e_\Sigma(A, B):T(\Sigma(A, B)) \simeq \sum_{x:T(A)} T(B(X))$
+* the Tarski universe $(U, T)$ is weakly closed under dependent sum types if for $A:U$ and $B:T(A) \to U$ there is $\Sigma(A, B):U$ with an [[equivalence of types|equivalence]] $e_\Sigma(A, B):T(\Sigma(A, B)) \simeq \sum_{x:T(A)} T(B(X))$
 
-* the Tarski universe $(U, T)$ is weakly closed under dependent product types if for $A:U$ and $B:T(A) \to U$ there is $\Pi(A, B):U$ with an equivalence $e_\Pi(A, B):T(\Pi(A, B)) \simeq \prod_{x:T(A)} T(B(X))$
+* the Tarski universe $(U, T)$ is weakly closed under dependent product types if for $A:U$ and $B:T(A) \to U$ there is $\Pi(A, B):U$ with an [[equivalence of types|equivalence]] $e_\Pi(A, B):T(\Pi(A, B)) \simeq \prod_{x:T(A)} T(B(X))$
 
 Then there is a stronger notion of weak Tarski universe which is only possible if there are identity types between types, which states that 
 
@@ -177,10 +181,21 @@ TODO: explain how type variables are necessary for certain large recursion princ
 
 * [[identity type]]
 
-* [[polymorphism]], [[impredicative polymorphism]]
+* [[univalence axiom]]
+
+* [[univalent type theory]]
+
+* [[polymorphism]]
+
+* [[impredicative polymorphism]]
+
+* [[System F]]
 
 ## References
 
 Some discussion about extending dependent type theory with type variables occurs in:
 
 * {#CTZulip} *Dependent Type Theory vs Polymorphic Type Theory*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Dependent.20Type.20Theory.20vs.20Polymorphic.20Type.20Theory))
+
+[[!redirects dependent type theory with type variables]]
+[[!redirects dependent type theories with type variables]]
