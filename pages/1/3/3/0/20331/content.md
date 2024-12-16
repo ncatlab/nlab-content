@@ -42,6 +42,10 @@ Every continuous map $\mathbb{H}P^n\rightarrow\mathbb{H}P^n$ for $n \geq 2$ has 
 
 ([Hatcher 02, page 180](#Hatcher02))
 
+### Cell structure
+
+See at *[[cell structure of projective spaces]]*.
+
 ### Homology
 
 +-- {: .num_prop #HomologyAndCohomologyOfQuaternionicProjectiveSpace}
