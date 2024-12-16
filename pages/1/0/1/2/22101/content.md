@@ -5,9 +5,14 @@
 
 ## Idea
 
-The _quaternionic projective plane_ $\mathbb{H}P^2$ is the [[projective plane]] over the [[skew-field]] of [[quaternions]].
+The _quaternionic projective plane_ $\mathbb{H}P^2$ is the [[projective plane]] over the [[skew-field]] of [[quaternions]], hence the quaternionic 2-dimensional [[quaternionic projective space]].
 
 ## Properties
+
+### Cell structure
+
+See at *[[cell structure of projective spaces]]*.
+
 
 ### As a quaternion-Kähler manifold / Wolf space
 
