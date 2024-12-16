@@ -33,7 +33,7 @@ In the case $n = 0$, the only ordered basis is the [[empty list]], but we still 
 In any case, this ensures that if $\omega$ is an orientation, then there is also an __opposite orientation__ $-\omega$.
 
 
-A fancier way to say the same is
+Another way to say the same is
 +-- {: .num_defn #bigwedge}
 ###### Definition
 
