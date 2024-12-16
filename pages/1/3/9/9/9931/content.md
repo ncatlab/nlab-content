@@ -98,7 +98,7 @@ For instance ([Lurie 10, lecture 12, example 16](#Lurie10)).
 +-- {: .num_example}
 ###### Example
 
-An [[elliptic curve]] over a [[field]] of [[positive number|positive]] [[characteristic]] whose [[formal group law]] has [[height of a formal group]] equal to 2 is called a _[[supersingular elliptic curve]]_. Otherwise the height equals 1 and the elliptic curve is called _ordinary_.
+An [[elliptic curve]] over a [[field]] of [[positive number|positive]] [[characteristic]] whose [[formal group law]] has [[height of a formal group|height]] equal to 2 is called a _[[supersingular elliptic curve]]_. Otherwise the height equals 1 and the elliptic curve is called _ordinary_.
 
 =--
 
