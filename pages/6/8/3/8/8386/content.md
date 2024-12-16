@@ -79,6 +79,8 @@ for all functions $f$ with that signature ([Wadler 89](#Wadler89), figure 1).
 
 * [[parametric dependent type theory]]
 
+* [[dependent type theory with type variables]]
+
 ## References
 
 The distinction between ad hoc and parametric polymorphism is originally due to [[Christopher Strachey]]:
