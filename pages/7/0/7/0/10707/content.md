@@ -28,14 +28,23 @@ Let $L = \pi_\bullet MU$ be the [[Lazard ring]].
 Write $G^+$ for the [[group scheme]] given on a [[ring]] $R$ by 
 
 $$
-  G^+(R) \coloneqq \{g\in R[ [x] ] \vert g(t) = b_1 t + b_2 t^2 + \cdots \; with\; b_1 \in R^\times \}
+  G^+(R) 
+    \;\coloneqq\; 
+  \big\{
+    g\in R[ [x] ] 
+    \;\big\vert\; 
+    g(t) = b_1 t + b_2 t^2 + \cdots 
+    \;\text{with}\; b_1 \in R^\times 
+  \big\}
   \,.
 $$
 
-There is a canonical [[action]] of $G^+$ on $Spec(L)$. The [[quotient stack]] of this action is the moduli stack of (1d commutative) formal groups
+There is a canonical [[group action|action]] of $G^+$ on $Spec(L)$. The [[quotient stack]] of this action is the [[moduli stack]] of (1d commutative) formal groups
 
 $$
-  \mathcal{M}_{fg} = (Spec(L))//G^+
+  \mathcal{M}_{fg} 
+  \;=\;
+  \big(Spec(L)\big)\sslash G^+
   \,.
 $$
 
