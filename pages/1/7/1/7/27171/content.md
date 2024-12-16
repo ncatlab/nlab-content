@@ -75,6 +75,6 @@ Impredicative polymorphism of any universe $U$ with a [[type]] which is not a [[
 [[!redirects weak impredicative polymorphism]]
 [[!redirects strict impredicative polymorphism]]
 
-[[!redirects impredicativly polymorphic]]
-[[!redirects weakly impredicativly polymorphic]]
-[[!redirects strictly impredicativly polymorphic]]
+[[!redirects impredicatively polymorphic]]
+[[!redirects weakly impredicatively polymorphic]]
+[[!redirects strictly impredicatively polymorphic]]
