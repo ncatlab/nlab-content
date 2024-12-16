@@ -124,7 +124,7 @@ $$
   R [ [ x_1, \cdots, x_n, \, y_1, \cdots, y_n ] ] 
 $$
 
-in $Adic R CAlg$ satisfying unitality, associativity.
+in $Adic R CAlg$ satisfying [[unitality]] and [[associativity]].
 
 This is a **commutative formal group law** if it is an abelian group object, hence if it in addition satisfies the corresponding commutativity condition.
 
@@ -155,21 +155,21 @@ $$
 (the [[image]] under $\mu$ in $R[ [ x,y ] ]$ of the element $t \in R [ [ t ] ]$) such that
 
 
-1. (unitality) 
+1. ([[unitality]]) 
 
    $$
      \mu(x,0) = x$ and $\mu(0,x) = x
      \,;
    $$
 
-1. (associativity) 
+1. ([[associativity]]) 
 
    $$
      \mu(x,\mu(y,z)) = \mu(\mu(x,y),z)
      \,;
    $$
 
-1. (commutativity) 
+1. ([[commutativity]]) 
   
    $$
      \mu(x,y) = \mu(y,x)
@@ -307,7 +307,7 @@ quotiented by the relations
 
 1. $a_{10} = a_{01} = 1$; $\forall i \neq 1: a_{i 0} = 0$
 
-1. the obvious associativity relation
+1. the obvious [[associativity]] condition
 
 for all $i,j,k$.
 
