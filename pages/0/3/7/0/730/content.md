@@ -34,7 +34,7 @@ $$
 
 Many basic properties of the category of simplicial sets follow as it being a special case of a [[category of presheaves]] over a [[small category]] (namely over the [[simplex category]]), and hence in particular a [[Grothendieck topos]].
 
-For example, this immediately implies (see [there](category+of +presheaves#GeneralProperties)) that and how $sSet$ is [[complete category|complete]] and [[cocomplete category|cocomplete]] (with [[limits]] and [[colimits]] constructed levelwise) and [[cartesian closed category|cartesian closed]]. 
+For example, this immediately implies (see [[category of presheaves#GeneralProperties | here]]) that and how $sSet$ is [[complete category|complete]] and [[cocomplete category|cocomplete]] (with [[limits]] and [[colimits]] constructed levelwise) and [[cartesian closed category|cartesian closed]]. 
 
 In this vein:
 
