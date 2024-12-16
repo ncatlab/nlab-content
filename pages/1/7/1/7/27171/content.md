@@ -59,6 +59,8 @@ Impredicative polymorphism of any universe $U$ with a [[type]] which is not a [[
 
 * [[weak function extensionality]]
 
+* [[dependent type theory with type variables]]
+
 ## References
 
 * [[Andrew Pitts]], *Nontrivial Power Types can't be Subtypes of Polymorphic Types* ([pdf](https://www.cl.cam.ac.uk/~amp12/papers/nontpt/nontpt.pdf))
