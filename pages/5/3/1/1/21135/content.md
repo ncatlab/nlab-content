@@ -64,7 +64,7 @@ Review:
 
 Generalization of the K-theory classification of free topological pgases to include interacting [[topological order]]:
 
-* {#SatiSchreiber23} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. **35** 03 (2023) 2350001 &lbrack;[arXiv:2206.13563](https://arxiv.org/abs/2206.13563), [doi:10.1142/S0129055X23500010](https://doi.org/10.1142/S0129055X23500010)&rbrack;
+* {#SatiSchreiber23} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>, [arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\]
 
 
 [[!include T-duality in K-theory classification of topological phases -- references]]
