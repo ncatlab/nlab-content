@@ -120,8 +120,9 @@ _[[relation between type theory and category theory]]_.
 
 * [[dependent type theoretic methods in natural language semantics]]
 
-* [[spartan type theory]]
+* [[dependent type theory with type variables]]
 
+* [[spartan type theory]]
 
 ## References
 
