@@ -36,6 +36,10 @@ Note that this models the $\beta\eta$ equivalence of System F only, not the more
 Note that by taking the "vertex" component of such a model, we get an underlying ordinary "equational" model of System F, and so we can see a relatonally parametric model as an extension of an equational model.
 The internalization to reflexive graphs models the relational structures: the "edge" components are the relations, the source/target maps ensure that each relation lies over an ordinary structure, and the reflexive edge models the notion of an identity/[[equality]] relation. The fibration requirement then provides a rich supply of relations: given a relation R and morphisms $f_s : B_s \to s(R)$ and $f_t : B_t \to t(R)$, the fibration structure defines a "weakest pre-relation" $R[f_s,f_t]$ with source and target $B_s,B_t$. Notably, if $R$ is an identity relation and one of $f_s,f_t$ is the identity, this is a kind of [[graph of a function|graph relation]] of a morphism. Compare the definition of a [[virtual equipment]], where the reflexive edges are analogous to the units and the fibration structure is analogous to the restrictions.
 
+## Related concepts
+
+* [[dependent type theory with type variables]]
+
 ## References
 
 The calculus now called *System F* was developed independently in the following works:
