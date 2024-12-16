@@ -972,7 +972,7 @@ This is _[[Milnor-Quillen's theorem on MU]]_ (involving [[Lazard's theorem]]).
 +-- {: .num_example}
 ###### Example
 
-The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{BrownPeterson} is [[universal property|universal]] for $p$-local cohomology theories in that $\mathbb{G}_{B P}$ is universal among $p$-local, [[p-typical formal group laws]].
+The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{BrownPeterson}, is [[universal property|universal]] for $p$-local cohomology theories in that $\mathbb{G}_{B P}$ is universal among $p$-local, [[p-typical formal group laws]].
 
 =--
 
