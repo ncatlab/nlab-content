@@ -13,6 +13,8 @@
 
 ## Definition
 
+### For universes
+
 A [[type universe]] $U$ has **impredicative polymorphism**  or is **impredicative** if [[dependent product types]] of $U$-indexed families of $U$-small types are themselves $U$-small. 
 
 For [[Russell universes]], this is given by the [[inference rule]]
@@ -29,17 +31,45 @@ $$\prod_{P:U \to U} \sum_{\forall_P:U} T(\forall_P) \simeq \prod_{X:U} T(P(X))$$
 
 $$\frac{\Gamma, X:U \vdash P(X):U}{\Gamma \vdash \forall X:U.P(X):U} \qquad \frac{\Gamma, X:U \vdash P(X):U}{\Gamma \vdash T(\forall X:U.P(X)) \equiv \prod_{X:U} T(P(X)) \; \mathrm{type}}$$
 
-## Examples
+### For dependent type theories
+
+In the presentation of dependent type theory using a hierarchy of universes, **impredicative polymorphism** is a resizing axiom which says that for all [[endofunctions]] $P:U_0 \to U_0$ on the first [[type universe]] $U_0$, the [[dependent product type]] $\prod_{X:U_0} P(X)$ is ([[essentially small type|essentially]]) [[small type|$U_0$-small]]. 
+
+In [[dependent type theory with type variables]], presented without universes but with a single type judgment, while there is no universe $U_0$ to quantify over for the dependent product type, using the type variable we can add an untyped version of the dependent product type $\Pi X.P(X)$ to the type theory for **impredicative polymorphism**. This type is similar to [[universal quantification]] $\forall X.P(X)$ in untyped [[first-order logic]], and $\Pi X.P(X)$ plays the same role in this presentation of dependent type theory that the type $\prod_{X:U_0} P(X)$ does for the other presentation of dependnet type theory. The rules for $\Pi X.P(X)$ are as follows:
+
+Formation rule:
+
+$$\frac{\Gamma, X \; \mathrm{type} \vdash P(X) \; \mathrm{type}}{\Gamma \vdash \Pi X.P(X) \; \mathrm{type}}$$
+
+Introduction rule:
+
+$$\frac{\Gamma, X \; \mathrm{type} \vdash P(X) \; \mathrm{type} \quad \Gamma, X \; \mathrm{type} \vdash p(X):P(x)}{\Gamma \vdash \lambda X.p(X):\Pi X.P(X)}$$
+
+Elimination rule:
+
+$$\frac{\Gamma, X \; \mathrm{type} \vdash P(X) \; \mathrm{type} \quad \Gamma \vdash p:\Pi X.P(X)}{\Gamma, A \; \mathrm{type} \vdash \mathrm{ev}(p, X):P(X)}$$
+
+Computation rules:
+
+* Judgmental computation rule:
+$$\frac{\Gamma, X \; \mathrm{type} \vdash P(X) \; \mathrm{type} \quad \Gamma, X \; \mathrm{type} \vdash p(X):P(x)}{\Gamma, X \; \mathrm{type} \vdash \mathrm{ev}(\lambda X.p(X), X) \equiv p(X):P(X)}$$
+* Typal computation rule:
+$$\frac{\Gamma, X \; \mathrm{type} \vdash P(X) \; \mathrm{type} \quad \Gamma, X \; \mathrm{type} \vdash p(X):P(x)}{\Gamma, X \; \mathrm{type} \vdash \beta_\Pi^{P, p}(X):\mathrm{ev}(\lambda X.p(X), X) =_{P(X)} p(X)}$$
+
+Uniqueness rules:
+
+* Judgmental uniqueness rule:
+$$\frac{\Gamma, X \; \mathrm{type} \vdash P(X) \; \mathrm{type} \quad \Gamma \vdash p:\Pi X.P(X)}{\Gamma \vdash \lambda X.\mathrm{ev}(p, X) \equiv p:\Pi X.P(x)}$$
+* Typal uniqueness rule:
+$$\frac{\Gamma, X \; \mathrm{type} \vdash P(X) \; \mathrm{type} \quad \Gamma \vdash p:\Pi X.P(X)}{\Gamma \vdash \eta_\Pi^P(p):\lambda X.\mathrm{ev}(p, X) =_{\Pi X.P(x)} p}$$
+
+## Examples of universes with impredicative polymorphism
 
 * The base universe $\mathrm{Set}$ historically had impredicative polymorphism in [[Coq]], according to [Pédrot 2022](#Pédrot22). 
 
 * In [[dependent type theory]] defined using a single [[type]] [[judgment]], the [[universe of all propositions]] is a type universe with impredicative polymorphism if and only if [[weak function extensionality]] holds.  
 
 * More generally, let $\Omega$ be a [[universe of propositions]], and assume [[weak function extensionality]] holds. Then $\Omega$ has impredicative polymorphism if and only if it is closed under [[dependent product types]] of predicates in $\Omega$; i.e. $\Omega$ is an [[inflattice]]. 
-
-## Properties
-
-Impredicative polymorphism of any universe $U$ with a [[type]] which is not a [[mere proposition]] is inconsistent with [[propositional resizing]] for a universe $U$. 
 
 ## Related concepts
 
@@ -80,3 +110,16 @@ Impredicative polymorphism of any universe $U$ with a [[type]] which is not a [[
 [[!redirects impredicatively polymorphic]]
 [[!redirects weakly impredicatively polymorphic]]
 [[!redirects strictly impredicatively polymorphic]]
+
+[[!redirects impredicatively polymorphic universe]]
+[[!redirects impredicatively polymorphic universes]]
+[[!redirects weakly impredicatively polymorphic universe]]
+[[!redirects weakly impredicatively polymorphic universes]]
+[[!redirects strictly impredicatively polymorphic universe]]
+[[!redirects strictly impredicatively polymorphic universes]]
+
+[[!redirects dependent type theory with impredicative polymorphism]]
+[[!redirects dependent type theories with impredicative polymorphism]]
+
+[[!redirects impredicatively polymorphic dependent type theory]]
+[[!redirects impredicatively polymorphic dependent type theories]]
