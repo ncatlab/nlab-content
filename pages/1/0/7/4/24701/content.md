@@ -315,9 +315,9 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{Z}} \qquad \frac{\Gamma 
 Induction rule for the integers type:
 $$\frac{\Gamma, x:\mathbb{Z} \vdash C(x):\mathrm{Type}_i \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{Z}} C(x) \simeq C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{Z}^C(c_0, c_s):\exists!c:\prod_{x:\mathbb{Z}} C(x).(c(0) =_{C(0)} c_0) \times \prod_{x:\mathbb{Z}} c(s(x)) =_{C(s(x))} c_s(c(x))}$$
 
-### With a separate type judgment
+### With a separate type judgment and type variables
 
-In this section, we describe a formalization of objective type theory using a type judgment, in the style of [Rijke 2022](#Rijke22). 
+In this section, we describe a formalization of objective type theory using a type judgment, in the style of [Rijke 2022](#Rijke22), as well as [[dependent type theory with type variables|type variables]]. 
 
 #### Judgments and contexts
 
@@ -329,32 +329,40 @@ This presentation of objective type theory consists of the following judgments:
 
 * Context judgments, where we judge $\Gamma$ to be a context, $\Gamma \; \mathrm{ctx}$. 
 
-Contexts are lists of element judgments $a:A$, $b:B$, $c:C$, et cetera, and are formalized by the rules for the empty context and extending the context by a element judgment
+Contexts are lists of type judgments and element judgments, et cetera, and are formalized by the rules for the empty context and extending the context by a type judgment and by an element judgment
 
-$$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, a:A) \; \mathrm{ctx}}$$
+$$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx}}{(\Gamma, A \; \mathrm{type}) \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, a:A) \; \mathrm{ctx}}$$
 
-#### Variable rule
+#### Variable rules
 
-There is one additional [[structural rule]] in objective type theory, the [[variable rule]]. 
+There are two additional [[structural rules]] in objective type theory, the [[variable rule]] for types and elements. 
 
-The variable rule states that we may derive a element judgment if the element judgment is in the context already:
+The variable rule for types states that we may derive a type judgment if the type judgment is in the context already:
+
+$$\frac{\Gamma, A \; \mathrm{type}, \Delta \; \mathrm{ctx}}{\Gamma, A \; \mathrm{type}, \Delta \vdash A \; \mathrm{type}}$$
+
+The variable rule for elements states that we may derive a element judgment if the element judgment is in the context already:
 
 $$\frac{\Gamma, a:A, \Delta \; \mathrm{ctx}}{\Gamma, a:A, \Delta \vdash a:A}$$
 
 #### Admissible structural rules
 
-The [[weakening rule]] and the [[substitution rule]] are [[admissible rules]]: they do not need to be explicitly included in the type theory as they could be proven by induction on the structure of all possible derivations. 
+The [[weakening rules]] and the [[substitution rules]] are [[admissible rules]]: they do not need to be explicitly included in the type theory as they could be proven by induction on the structure of all possible derivations. 
 
-Let $\mathcal{J}$ be any arbitrary judgment. Then the weakening rule is
-$$\frac{\Gamma, \Delta \vdash \mathcal{J} \quad \Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, \Delta \vdash \mathcal{J}}$$
-and the substitution rule is
-$$\frac{\Gamma \vdash a:A \quad \Gamma, b:A, \Delta(b) \vdash \mathcal{J}(b)}{\Gamma, \Delta(a) \vdash \mathcal{J}(a)}$$
+Let $\mathcal{J}$ be any arbitrary judgment. Then the weakening rules are
+$$\frac{\Gamma, \Delta \vdash \mathcal{J} \quad \Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, \Delta \vdash \mathcal{J}} \qquad \frac{\Gamma, \Delta \vdash \mathcal{J}}{\Gamma, A \; \mathrm{type}, \Delta \vdash \mathcal{J}}$$
+and the substitution rules are
+$$\frac{\Gamma \vdash a:A \quad \Gamma, b:A, \Delta(b) \vdash \mathcal{J}(b)}{\Gamma, \Delta(a) \vdash \mathcal{J}(a)} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, B \; \mathrm{type}, \Delta(B) \vdash \mathcal{J}(B)}{\Gamma, \Delta(A) \vdash \mathcal{J}(A)}$$
 
 #### Families of types and elements
 
 A family of types is a type $B$ in the context of the element judgment $x:A$, $x:A \vdash B \; \mathrm{type}$, they are usually written as $B(x)$ to indicate its dependence upon $x$. Given a particular element $a:A$, the type $B(a)$ is a type dependent upon $a:A$. 
 
-A family of terms is a term $b:B$ in the context of the variable judgment $x:A$, $x:A \vdash b:B$. They are likewise usually written as $b(x)$ to indicate its dependence upon $x$. Given a particular element $a:A$, the element $b(a)$ is an element dependent upon $a:A$. 
+A family of elements is an element $b:B$ in the context of the variable judgment $x:A$, $x:A \vdash b:B$. They are likewise usually written as $b(x)$ to indicate its dependence upon $x$. Given a particular element $a:A$, the element $b(a)$ is an element dependent upon $a:A$. 
+
+A universal family of types is a type $B$ in the context of a type variable judgment $X \; \mathrm{type}$, $X \; \mathrm{type} \vdash B \; \mathrm{type}$, they are usually written as $B(X)$ to indicate its dependence upon $X$. Given a particular type $A \; \mathrm{type}$, the type $B(A)$ is a type dependent upon $A$. 
+
+A universal family of elements is an element $b:B$ in the context of the type variable judgment $X \; \mathrm{type}$, $X \; \mathrm{type} \vdash b:B$. They are likewise usually written as $b(X)$ to indicate its dependence upon $x$. Given a particular type $A \; \mathrm{type}$, the element $b(A)$ is an element dependent upon $A \; \mathrm{type}$. 
 
 #### Identity types
 
@@ -369,6 +377,24 @@ $$\frac{\Gamma, x:A, y:A, p:x =_A y \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, 
 
 Computation rules for identity types:
 $$\frac{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash C(x, y, p) \; \mathrm{type}}{\Gamma, x:A, t:C(x, x, \mathrm{refl}_A(x) \vdash \beta_{=_A}(x, t):\mathrm{ind}_{=_A}(x, t, x, \mathrm{refl}_A(x)) =_{C(x, x, \mathrm{refl}_A(x))} t}$$
+
+#### Identity types between types
+
+Formation rule for identity types between types:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A \; \mathrm{type}, B \; \mathrm{type} \vdash A = B \; \mathrm{type}}$$
+
+Introduction rule for identity types between types:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A \; \mathrm{type} \vdash \mathrm{refl}(A):A = A}$$
+
+Elimination rule for identity types between types:
+$$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B, \Delta(A, B, p) \vdash C(A, B, p) \; \mathrm{type} \quad \Gamma, A \; \mathrm{type}, \Delta(A, A, \mathrm{refl}(A)) \vdash t(A):C(A, A, \mathrm{refl}(A))}{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B, \Delta(A, B, p) \vdash \mathrm{ind}_=^{C, t}(A, B, p):C(A, B, p)}$$
+
+Computation rule for identity types between types
+$$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B, \Delta(A, B, p) \vdash C(A, B, p) \; \mathrm{type} \quad \Gamma, A \; \mathrm{type}, \Delta(A, A, \mathrm{refl}(A)) \vdash t(A):C(A, A, \mathrm{refl}(A))}{\Gamma, A ; \mathrm{type}, \Delta(A, A, \mathrm{refl}(A)) \vdash \beta_{=}^{C, t}(A):\mathrm{ind}_=^{C}(t, A, A, \mathrm{refl}(A)) =_{C(A, A, \mathrm{refl}(A))} t(A)}$$
+
+#### Definitions
+
+Definitions of a symbol $b$ for the element $a:A$ are made by using [[identity types]] between the symbol and element: $\mathrm{def}_{a, b}:a =_A b$. Definitions of a symbol $B$ for the type $A$ are made in the same way using [[identity type#IdentityTypesBetweenTypes|identity types between types]], as $\mathrm{def}_{A, B}:A = B$. Thus, the [[identity type]] behaves very similarly to [[explicit conversion]] as discussed in section 9.2 of [Winterhalter2020](#Winterhalter20), even though we do not have universes here. 
 
 #### Dependent function types
 
@@ -386,82 +412,6 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 
 Uniqueness rules for dependent function types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:\prod_{x:A} B(x) \vdash \eta_{\prod_{x:A} B(x)}(f):f =_{\prod_{x:A} B(x)} \lambda(x:A).\mathrm{ind}_{\prod_{x:A} B(x)}(f, x)}$$
-
-#### Equivalence types
-
-Formation rules for equivalence types:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}}$$
-
-Introduction rules for equivalence types:
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:\prod_{x:A} B \quad \Gamma \vdash g:\prod_{y:B} A \\ 
-\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
-\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
-\end{array}{c}
-}{\Gamma \vdash \mathrm{toEquiv}(f, g, G, H, K):A \simeq B}$$
-
-Elimination rules for equivalence types:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{func}(e):\prod_{x:A} B}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{finv}(e):\prod_{y:B} A}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{sec}(e):\prod_{x:A} \mathrm{finv}(e)(\mathrm{func}(e)(x)) =_A x}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{ret}(e):\prod_{y:B} \mathrm{func}(e)(\mathrm{finv}(e)(y) =_{B} y}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{coh}(e):\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))}$$
-
-Computation rules for equivalence types:
-
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:\prod_{x:A} B \quad \Gamma \vdash g:\prod_{y:B} A \\ 
-\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
-\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
-\end{array}
-}{\Gamma \vdash \beta_{A \simeq B}^\mathrm{func}(f, g, G, H, K):\mathrm{func}(\mathrm{toEquiv}(f, g, G, H, K)) =_{\prod_{x:A} B} f}$$
-
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:\prod_{x:A} B \quad \Gamma \vdash g:\prod_{y:B} A \\ 
-\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
-\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
-\end{array}
-}{\Gamma \vdash \beta_{A \simeq B}^\mathrm{finv}(f, g, G, H, K):\mathrm{finv}(\mathrm{toEquiv}(f, g, G, H, K)) =_{\prod_{y:B} A} g}$$
-
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:\prod_{x:A} B \quad \Gamma \vdash g:\prod_{y:B} A \\ 
-\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
-\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
-\end{array}
-}{\Gamma \vdash \beta_{A \simeq B}^\mathrm{sec}(f, g, G, H, K):\mathrm{sec}(\mathrm{toEquiv}(f, g, G, H, K)) =_{\prod_{y:B} f(g(y)) =_{B} y} G}$$
-
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:\prod_{x:A} B \quad \Gamma \vdash g:\prod_{y:B} A \\ 
-\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
-\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
-\end{array}
-}{\Gamma \vdash \beta_{A \simeq B}^\mathrm{ret}(f, g, G, H, K):\mathrm{ret}(\mathrm{toEquiv}(f, g, G, H, K)) =_{\prod_{x:A} g(f(x)) =_{A} x} H}$$
-
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash f:\prod_{x:A} B \quad \Gamma \vdash g:\prod_{y:B} A \\ 
-\Gamma \vdash G:\prod_{x:A} g(f(x)) =_{A} x \quad \Gamma \vdash H:\prod_{y:B} f(g(y)) =_{B} y \\ 
-\Gamma \vdash K:\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))
-\end{array}
-}{\Gamma \vdash \beta_{A \simeq B}^\mathrm{coh}(f, g, G, H, K):\mathrm{coh}(\mathrm{toEquiv}(f, g, G, H, K)) =_{\prod_{x:A} H(f(x)) =_{f(g(f(x)) =_{B} f(x)} \mathrm{ap}_f(f(g(x)), x, G(x))} K}$$
-
-Uniqueness rules for equivalence types:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \eta_{A \simeq B}(e):\mathrm{toEquiv}(\mathrm{func}(e), \mathrm{finv}(e), \mathrm{sec}(e), \mathrm{ret}(e), \mathrm{coh}(e)) =_{A \simeq B} e}$$
-
-#### Definitions
-
-Definitions of a symbol $b$ for the element $a:A$ are made by using [[identity types]] between the symbol and element: $\mathrm{def}_{a, b}:a =_A b$. Definitions of a symbol $B$ for the type $A \; \mathrm{type}$ are made by using [[equivalence types]] between the symbol and the type: $\mathrm{def}_{A, B}:A \simeq B$. 
 
 #### Function types
 
@@ -518,17 +468,31 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathr
 Uniqueness rules for dependent pair types:
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, z:\sum_{x:A} B(x) \vdash \eta_{\sum_{x:A} B(x)}(z):z =_{\sum_{x:A} B(x)} \mathrm{in}(\mathrm{ind}_{\sum_{x:A} B(x))}^A(z), \mathrm{ind}_{\sum_{x:A} B(x)}^B(z))}$$
 
-#### isContr and uniqueness quantifiers
+#### isContr, uniqueness quantifiers, isEquiv, and equivalence types
 
-Now that we have [[equivalence types]], [[identity types]], [[dependent sum types]], and [[dependent product types]], we can use that to define 
+Now that we have [[identity types]], [[identity types#IdentityTypesBetweenTypes|identity types between types]], [[dependent sum types]], and [[dependent product types]], we can use that to define 
 
 * the [[isContr]] [[modality]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isContr}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{defisContr}(A):\mathrm{isContr}(A) \simeq \sum_{y:A} \prod_{z:A} y =_{A} z}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isContr}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{defisContr}(A):\mathrm{isContr}(A) = \sum_{y:A} \prod_{z:A} y =_{A} z}$$
 
 * the [[uniqueness quantifier]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \exists!x:A.B(x) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{def}\exists!_{x:A.B(x)}:\exists!x:A.B(x) \simeq \mathrm{isContr}\left(\sum_{x:A} B(x)\right)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \exists!x:A.B(x) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{def}\exists!_{x:A.B(x)}:\exists!x:A.B(x) = \mathrm{isContr}\left(\sum_{x:A} B(x)\right)}$$
+
+* the [[isEquiv]] [[type family]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash \mathrm{isEquiv}(f) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash \mathrm{defisEquiv}_{A, B}(f):\mathrm{isEquiv}(f) = \prod_{y:B} \exists!x:A.f(x) =_{B} y}$$
+
+* the [[equivalence type]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \simeq B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{def}_{A \simeq B}:(A \simeq B) = \sum_{f:A \to B} \mathrm{isEquiv}(f)}$$
+
+#### Univalence
+
+The [[univalence axiom]] states that the identity type between two types is equivalent to the equivalence type between said types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash \mathrm{ua}(A, B):(A = B) \simeq (A \simeq B)}$$
 
 #### Positive types
 
@@ -626,6 +590,8 @@ General dependent type theory references used for the formalizations of objectiv
 * {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
 * {#Winterhalter20} [[Theo Winterhalter]], *Formalisation and Meta-Theory of Type Theory* ([github](https://github.com/TheoWinterhalter/phd-thesis/releases/tag/v1.2.1))
+
+* {#CTZulip} *Dependent Type Theory vs Polymorphic Type Theory*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Dependent.20Type.20Theory.20vs.20Polymorphic.20Type.20Theory))
 
 [[!redirects objective type theory]]
 [[!redirects objective type theories]]
