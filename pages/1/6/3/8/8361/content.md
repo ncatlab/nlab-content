@@ -21,6 +21,8 @@ On [[confinement]] in [[super Yang-Mills theory]] and in plain [[Yang-Mills theo
 
 * [[Michael Dine]], *On the Possibility of Demonstrating Confinement in Non-Supersymmetric Theories by Deforming Confining Supersymmetric Theories* &lbrack;[arXiv:2211.17134](https://arxiv.org/abs/2211.17134)&rbrack;
 
+* [[Michael Dine]]: *Larkin Award Colloquium*, University of Santa Cruz, (Dec 2024) &lbrack;video:[YT](https://youtu.be/k34YTIBWMNk)&rbrack;
+
 
 
 category: people
