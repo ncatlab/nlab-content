@@ -67,5 +67,10 @@ Coupling with topological [[BF-theory]] in
 
 * {#Bizdadea09} C. Bizdadea, E. M. Cioroianu, A. Danehkar, M. Iordache, S. O. Saliu, S. C. Sararu, _Consistent interactions of dual linearized gravity in D=5: couplings with a topological BF model_, The European Physical Journal C (Particles and Fields) October 2009, 63:491 ([arXiv:0908.2169](https://arxiv.org/abs/0908.2169))
 
+See also:
+
+* [[Chris Hull]], [[Ulf Lindström]], Maxwell L. Velásquez Cotini Hutt: *Gauge-invariant charges of the dual graviton* &lbrack;[arXiv:2412.10503](https://arxiv.org/abs/2412.10503)&rbrack;
+
+
 [[!redirects dual gravitons]]
 
