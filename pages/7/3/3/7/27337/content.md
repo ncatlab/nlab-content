@@ -256,6 +256,32 @@ It is clear that type variables are needed, since otherwise the second requireme
 
 Similar requirements of type variables apply to the large recursion principles of more general recursive inductive types like [[W-types]]. 
 
+## Limitations without universes
+
+So far we have described in this article the various things we can do in dependent type theory with a single judgment if we extend the theory with type variables. However, there are still a few limitations if we do not have universes in the type theory. 
+
+### Structured types and the structure identity principle
+
+The first limitation comes from structured types and the [[structure identity principle]]. Traditionally this was said to be a consequence of the [[univalence axiom]], but we can add the univalence axiom to the type theory but still not be able to formulate the structure identity principle for various structured types. Traditionally, the type of structured types is a [[dependent sum type]], $\sum_{X:U} \mathrm{structure}(X)$ over a type family of structures $\mathrm{structure}(X)$ indeed by a [[type universe]] $X:U$. The issue is twofold: first of all, we don't have universes, so the usual dependent sum type is not able to be defined. 
+
+The lack of universes can be circumvented by attempting to define an untyped version of the dependent sum type, $\Sigma X.\mathrm{structure}(X)$ in the same way that [[impredicative polymorphism]] is defined using an untyped version of the dependent product type $\Pi x.P(X)$. However, this runs into the second issue: having an untyped version of the dependent sum type which is a [[dependent sum type]] for type variables $X \; \mathrm{type} \vdash P(X) \; \mathrm{type}$ leads to [[Girard's paradox]]. To see this is the case, take each $P(X)$ to be a [[contractible type]] family. Then $\Sigma X.P(X)$ is a [[type of all types]], since the dependent sum of a contractible family of types is always equivalent to the index type, and the index type of the untyped $\Sigma X.P(X)$ is the type which contains all types. As a result, it is impossible to construct $\Sigma X.\mathrm{structure}(X)$ for arbitrary $\mathrm{structure}(X)$ in the first place due to Girard's paradox. 
+
+The structure identity principle is specifically about characterising the identity type of the type of structured types $\Sigma X.\mathrm{structure}(X)$ in terms of structure-preserving equivalences. Since $\Sigma X.\mathrm{structure}(X)$ cannot be formed without trivialising the theory, the structure identity principle cannot be formulated without universes $U$, where we are then talking about only $U$-small structured types. 
+
+### Typal congruence rules
+
+Another limitation is in proving the typal congruence rules. Traditionally, with universes, the typal congruence rules for [[dependent product types]] or [[dependent sum types]] state that given an identification $p_A:A =_U A'$ between types and a [[heterogeneous identification]] $p_B:B =_{(-) \to U}^{A, A', p_A} B'$, one can construct an identification 
+$$\mathrm{congform}_\Pi(p_A, p_B):\Pi(A, B) =_U \Pi(A', B')$$
+or
+$$\mathrm{congform}_\Sigma(p_A, p_B):\Sigma(A, B) =_U \Sigma(A', B')$$ 
+via the [[action on identifications]]. 
+
+However, without universes and function types into universes, we cannot compare type families by equality. As a result, the various typal congruence rules involving identity types between types cannot be directly stated using identifications and heterogeneous identifications, even when using identity types between types. Instead, we have to use [[transport]] or the inductively defined $\mathrm{idtoequiv}$ function to convert the identification $p_A:A = A'$ to an equivalence $e_A:A \simeq A'$, and then we can state that given a [[homotopy]] $p_B:\prod_{x:A} B(x) = B'(e_A(x))$, one can construct an identification 
+$$\mathrm{congform}_\Pi(p_A, p_B):\Pi(A, B) = \Pi(A', B')$$
+or 
+$$\mathrm{congform}_\Sigma(p_A, p_B):\Sigma(A, B) = \Sigma(A', B')$$ 
+Since homotopies are not identifications, we cannot use the action on identifications, and the proof of the typal congruence rule becomes a lot more complicated. 
+
 ## Related concepts
 
 * [[identity type]]
