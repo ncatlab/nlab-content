@@ -93,7 +93,7 @@ $$\frac{\Gamma, X \; \mathrm{type} \vdash P(X) \; \mathrm{type} \quad \Gamma \vd
 
 ### Identity types between types
 
-Type variables allow for the formation of [[identity types]] between types. 
+Type variables allow for the formation of [[identity #IdentityTypesBetweenTypes|identity types between types]]. 
 
 * Formation rule for identity types between types:
 
@@ -129,7 +129,7 @@ $$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B \vdash C(A, B, p
 
 $$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B \vdash C(A, B, p) \; \mathrm{type} \quad \Gamma \vdash t:\Pi A.C(A, A, \mathrm{refl}(A))}{\Gamma \vdash \beta_{=}^{C}(t):\Pi A.\mathrm{ind}_=^{C}(t, A, A, \mathrm{refl}(A)) =_{C(A, A, \mathrm{refl}(A))} t(A)}$$
 
-### Univalence
+### Univalence axiom
 
 The [[univalence axiom]] states that the function 
 
