@@ -266,12 +266,14 @@ In [[homotopy type theory]] the type of booleans / bits looks as [above](#InType
 
 ## Properties
 
-### Descent and large elimination
+### Descent and large recursion
 
 The [[descent]] for the boolean domain states that given any types $A$ and $B$ one can construct a type family $x:\mathbb{2} \vdash \mathrm{descFam}_\mathbb{2}^{A, B}(x)$ with [[equivalences of types]] 
 $$\mathrm{descEquiv}_A:\mathrm{descFam}_\mathbb{2}^{A, B}(0) \simeq A \quad \mathrm{and} \quad \mathrm{descEquiv}_B:\mathrm{descFam}_\mathbb{2}^{A, B}(1) \simeq B$$ 
-Large elimination for the boolean domain strengthens the equivalences of types in descent to [[judgmental equality of types]] 
+Large recursion for the boolean domain strengthens the equivalences of types in descent to [[judgmental equality of types]] 
 $$\mathrm{descFam}_\mathbb{2}^{A, B}(0) \equiv A \quad \mathrm{and} \quad \mathrm{descFam}_\mathbb{2}^{A, B}(1) \equiv B$$
+If one is working in a [[dependent type theory with type variables]] which has [[identity type#IdentityTypesBetweenTypes|identity types between types]], then one can also use identifications of types instead of equivalences of types to express large recursion of the boolean domain:
+$$\mathrm{descId}_A:\mathrm{descFam}_\mathbb{2}^{A, B}(0) = A \quad \mathrm{and} \quad \mathrm{descId}_B:\mathrm{descFam}_\mathbb{2}^{A, B}(1) = B$$ 
 
 ### Extensionality principle of the boolean domain
 
@@ -372,7 +374,7 @@ Discussion in [[homotopy type theory]]:
 
 * {#LumsdaineShulman16} [[Peter LeFanu Lumsdaine]], [[Mike Shulman]], *Abstracting away from cell complexes*, &lbrack;talk slides [pdf](http://home.sandiego.edu/~shulman/papers/cellcxs.pdf)&rbrack;
 
-Large elimination and descent of the boolean domain can be found in 
+Large recursion and descent of the boolean domain can be found in 
 
 * {#Sattler23} [[Christian Sattler]], *Natural numbers from integers* ([pdf](https://www.cse.chalmers.se/~sattler/docs/naturals.pdf))
 
