@@ -375,6 +375,30 @@ or equivalently
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, m:\mathbb{N}, n:\mathbb{N} \vdash \delta(m, n):\mathrm{Id}_\mathbb{N}(m, n) \simeq \mathrm{Id}_\mathbb{2}(\mathrm{Eq}_\mathbb{N}(m, n), 1)}$$
 
+### Large recursion principle
+
+In [[dependent type theory]] presented using only a single [[type]] [[judgment]] $A \; \mathrm{type}$, the large recursion principle requires the need for [[dependent type theory with type variables|type variables in the dependent type theory]] (see [Category Theory Zulip](#CTZulip)). This is because the large recursion principle is given by the following: 
+
+Given 
+
+1. a type $T_0 \; \mathrm{type}$
+
+1. a family of types $n:\mathbb{N}, X \; \mathrm{type} \vdash T_s(n, X) \; \mathrm{type}$
+
+one can construct a family of types
+
+$$n:\mathbb{N} \vdash \mathrm{rec}_\mathbb{N}^{T_0, T_s}(n) \; \mathrm{type}$$
+
+such that 
+
+$$\mathrm{rec}_\mathbb{N}^{T_0, T_s}(0) \equiv T_0 \; \mathrm{type}$$
+
+and 
+
+$$n:\mathbb{N} \vdash \mathrm{rec}_\mathbb{N}^{T_0, T_s}(s(n)) \equiv T_s(n, \mathrm{rec}_\mathbb{N}^{T_0, T_s}(n) \; \mathrm{type}$$
+
+Without type variables, the second requirement in the large recursion principle that we have a family of types $n:\mathbb{N}, X \; \mathrm{type} \vdash T_s(n, X) \; \mathrm{type}$ will not be possible. 
+
 ## Properties
 
 ### General
@@ -928,6 +952,8 @@ The categorical interpretation of this is as a morphism $p \,\colon\, \mathbb{N}
 
 * [[type of finite types]]
 
+* [[dependent type theory with type variables]]
+
 ## References
 
 Original articles with emphasis on the nature of $\mathbb{N}$ as an [[inductive type]]:
@@ -966,6 +992,10 @@ Equivalence to binary presentations:
 * [[Nicolas Magaud]], [[Yves Bertot]], *Changing Data Structures in Type Theory: A Study of Natural Numbers*, in *Types for Proofs and Programs. TYPES 2000*, Lecture Notes in Computer Science **2277** &lbrack;[doi:10.1007/3-540-45842-5_12](https://doi.org/10.1007/3-540-45842-5_12), [pdf](https://dpt-info.u-strasbg.fr/~magaud/papers/types2000-nmagaud.pdf)&rbrack;
 
 * [[Nicolas Magaud]], *Changing Data Representation within the Coq*, in *Theorem Proving in Higher Order Logics. TPHOLs 2003*, Lecture Notes in Computer Science **2758** &lbrack;[doi:10.1007/10930755_6](https://doi.org/10.1007/10930755_6)&rbrack;
+
+Some discussion about the large recursion principle of the natural numbers type in [[dependent type theory with type variables]] occurs in:
+
+* {#CTZulip} *Dependent Type Theory vs Polymorphic Type Theory*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Dependent.20Type.20Theory.20vs.20Polymorphic.20Type.20Theory))
 
 That one can construct the [[natural numbers type]] from the integers type can be found in:
 
