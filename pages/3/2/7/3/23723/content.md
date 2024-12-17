@@ -55,7 +55,7 @@ Let $\ell \dashv r$ be an adjunction, inducing a monad $T_1$. One can form the [
 
 An obvious question is: does this process ever terminate? In unpublished work of Lack, it is [claimed](#Taylor) that this process terminates at $T_3$. In other words, $f_{T_3} \dashv u_{T_3}$ is a nuclear adjunction. Thus $T_3 \simeq T_5 \simeq \dots$ and $D_4 \simeq D_6 \simeq \dots$. Furthermore, if the domain of $\ell$ is [[Cauchy complete]], then it terminates at $D_2$.
 
-Under the simplifying assumptions of [[Cauchy completeness]], this is proven in [Pavlovic–Hughes](#PavlovicHughes20). They observe that this construction forms a [[pseudo-idempotent 2-monad]] on a 2-category of monads on $Cat$.
+Under the simplifying assumptions of [[Cauchy completeness]], this is proven in [Pavlovic–Hughes](#PavlovicHughes20). They observe that this construction forms a [[pseudo-idempotent 2-monad]] on a 2-category of monads in $Cat$.
 
 Note that this construction is distinct from [[monadic decomposition]], which instead constructs new monads from comparison functors, rather than (co)free–forgetful adjunctions.
 
