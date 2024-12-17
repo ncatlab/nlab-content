@@ -270,7 +270,7 @@ We define
 $$\mathrm{congintro}_{x:A.p(x)} \coloneqq \mathrm{ext}_{\prod_{x:A} B(x)}^{-1}^{-1}(\lambda (x:A).p(x)):(\lambda x:A.b(x)) =_{\prod_{x:A} B(x)} (\lambda x:A.b'(x))$$
 \end{proof}
 
-Finally, we present the typal congruence rule for the formation rule of function types, which relies upon the previous two results. The theorem and proof differs significantly whether one uses [[definitional isomorphisms]] or some notion of [[equivalences of types]].
+Finally, we present the typal congruence rule for the formation rule of function types, which relies upon the previous two results. The theorem and proof differs significantly whether one uses [[definitional isomorphisms]], some notion of [[equivalences of types]], or in a [[dependent type theory with type variables]], [[identity type#IdentityTypesBetweenTypes|identity types between types]]
 
 ##### Using definitional isomorphisms
 
@@ -705,6 +705,17 @@ $$\left(\mathrm{congform}(e_A, e_B), \mathrm{qInvToIsEquiv}\left(\mathrm{congfor
 By a common abuse of notation we denote the equivalence by the same name as the underlying function $\mathrm{congform}(e_A, e_B)$; thus we have 
 $$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \simeq \left(\prod_{x:A'} B'(x)\right)$$
 \end{proof}
+
+##### Using identity types between types
+
+We assume a [[dependent type theory with type variables]] and [[identity type#IdentityTypesBetweenTypes|identity types between types]]. 
+
+\begin{theorem}
+Given types $A$ and $A'$ and type families $x:A \vdash B(x)$, $x:A' \vdash B'(x)$ and [[identity type#IdentityTypesBetweenTypes|identity types between types]] $p_A:A = A'$ and dependent function $p_B:\prod_{x:A} B(x) = B'(\mathrm{idtoequiv}(p_A, x))$ consisting of a family of identity types between types, there is an identity type between the types
+$$\mathrm{congform}(p_A, p_B):\left(\prod_{x:A} B(x)\right) = \left(\prod_{x:A'} B'(x)\right)$$
+\end{theorem}
+
+...
 
 #### Weak dependent product types
 
