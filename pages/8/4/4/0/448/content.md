@@ -12,7 +12,7 @@
 * table of contents
 {:toc}
 
-##Idea and definition##
+## Idea and definition##
 
 A polyhedron (beware remark \ref{RemarkOnTerminology}) is a [[topological space]] made up of very simple bits 'glued' together. The 'bits' are **[[simplices]]** of different [[dimensions]]. An abstract _simplicial complex_ is a neat combinatorial way of giving the corresponding 'gluing' instructions, a bit like the plan of a construction kit!
 
@@ -189,6 +189,12 @@ Exposition:
 On simplicial complexes forming a [[quasitopos]] of [[concrete sheaves]]:
 
 * [[John Baez]] and [[Alex Hoffnung]], _Convenient Categories of Smooth Spaces_, Trans. Amer. Math. Soc. 363 (2011), 5789&#8211;5825. [(arXiv)](http://arxiv.org/abs/0807.1704)
+
+Mechanical computation of the [[ordinary homology]] of simplicial complexes:
+
+* Georg Frenck: *SiDra* &lbrack;[github](https://github.com/georgfrenck/SiDra/), demo:[YT](https://www.youtube.com/watch?v=JBbOWaeZRk4)&rbrack;
+
+See also the program *[[Kenzo]]*.
 
 
 [[!redirects simplicial complexes]]
