@@ -3,7 +3,7 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Ulf_Lindstr%C3%B6m)
 
-## selected writings
+## Selected writings
 
 * [[Paul Howe]], [[Ulf Lindström]], P. White, _Anomalies And Renormalization In The BRST-BV Framework_ , Phys. Lett. B246 (1990) 430.
 
@@ -17,8 +17,12 @@
 
 * M. Abou-Zeid, [[Chris Hull]], [[Ulf Lindström]], [[Martin Roček]], _T-Duality in $(2,1)$ Superspace_ ([arXiv:1901.00662](https://arxiv.org/abs/1901.00662))
 
+On the [[dual graviton]]:
 
-## related $n$Lab entries
+* [[Chris Hull]], [[Ulf Lindström]], Maxwell L. Velásquez Cotini Hutt: *Gauge-invariant charges of the dual graviton* &lbrack;[arXiv:2412.10503](https://arxiv.org/abs/2412.10503)&rbrack;
+
+
+## Related entries
 
 * [[3-dimensional supergravity]]
 
