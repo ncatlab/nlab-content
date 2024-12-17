@@ -31,7 +31,7 @@ In the second presentation of dependent type theory, the theory does not come wi
 
   1. With identity types between types, it is possible to define the [[univalence axiom]] and thus make the type theory a [[univalent type theory]] without requiring universes in the type theory. This is important since the univalence axiom implies the large recursion principles discussed in the previous point. 
 
-  2. In a [[dependent type theory]] without [[judgmental equality]], such as [[objective type theory]], it is cumbersome to define types in terms of other types, since one has to equip each definition with the structure of an [[equivalence of types]]. With identity types between types, one can simply make use of an [[identification]] between types. 
+  2. In a [[dependent type theory]] without [[judgmental equality]], such as [[objective type theory]], it is cumbersome to define or explicitly convert types in terms of other types, since one has to equip each definition or explicit conversion with the structure of an [[equivalence of types]]. With identity types between types, one can simply make use of an [[identification]] between types to represent [[definitional equality]] or [[explicit conversion]]. 
 
   3. The same goes with the weak large recursion principles: in the absence of either judgmental equality or identity types between types, the [[computation rules]] associated with large recursion principles state that one can construct an equivalence of types between certain types given in the [[elimination rules]] of the large recursion principles. With identity types between types, one can simply make use of an [[identification]] between types. 
 
@@ -269,6 +269,8 @@ Similar requirements of type variables apply to the large recursion principles o
 * [[impredicative polymorphism]]
 
 * [[System F]]
+
+* [[explicit conversion]]
 
 ## References
 
