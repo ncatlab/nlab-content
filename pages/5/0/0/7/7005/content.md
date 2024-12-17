@@ -391,6 +391,32 @@ In a post to the [Homotopy Type Theory Google Group](https://groups.google.com/f
 
 > [N]ot only is $X \times \mathcal{U}$ not univalent, it's not even "univalent on the image of $\mathcal{U}$", as was the case for the example in the groupoid model that I mentioned.
 
+## Univalence axiom without universes
+
+In [[dependent type theory with type variables]], presented using a single type judgment and with [[identity type#IdentityTypesBetweenTypes|identity types between types]], it is possible to state the univalence axiom without any [[type universes]]. 
+
+The **univalence axiom** states that the function 
+
+$$\mathrm{idtoequiv}(A, B):(A = B) \to (A \simeq B)$$
+
+inductively defined by 
+
+$$\mathrm{idtoequiv}(A, A, \mathrm{refl}(A)) \coloneqq \mathrm{id}_A$$
+
+is an [[equivalence of types]] for all types $A$ and $B$, 
+
+$$\mathrm{isEquiv}(\mathrm{idtoequiv}(A, B))$$
+
+where $\mathrm{id}_A \coloneqq \lambda x:A.x$ is the [[identity function]] on the type $A$. This is given by the following axiom:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A \; \mathrm{type}, B \; \mathrm{type} \vdash \mathrm{ua}(A, B):\mathrm{isEquiv}(\lambda p:A = B.\mathrm{idtoequiv}(A, B, p))}$$
+
+In [[impredicative polymorphism]], this is also given by the following axiom:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ua}:\Pi A.\Pi B.\mathrm{isEquiv}(\lambda p:A = B.\mathrm{idtoequiv}(A, B, p))}$$
+
+Unlike the other presentation of dependent type theory in terms of universes, in this presentation of dependent type theory with a type judgment and type variables, it *is consistent* to assume both the [[univalence axiom]] and an [[axiom of set truncation]] like [[UIP]] or [[axiom K]], since here there is no universe. 
+
 ## Related concepts
 
 * [[univalent foundations]]
@@ -407,6 +433,7 @@ In a post to the [Homotopy Type Theory Google Group](https://groups.google.com/f
 
 * [[directed univalence axiom]]
 
+* [[identity type#IdentityTypesBetweenTypes|identity type between types]]
 
 ## References
  {#References}
@@ -576,7 +603,9 @@ Application of univalence to [[proof]] transfer:
 
 * Cyril Cohen, Enzo Crance, Assia Mahboubi, *Trocq: Proof Transfer for Free, With or Without Univalence*, in: *Programming Languages and Systems. ESOP 2024*, Lecture Notes in Computer Science **14576**, Springer (2024) &lbrack;[arXiv:2310.14022](https://arxiv.org/abs/2310.14022), [doi:10.1007/978-3-031-57262-3_10](https://doi.org/10.1007/978-3-031-57262-3_10)&rbrack;
 
+Some discussion about the univalence axiom in [[dependent type theory with type variables]] occurs in:
 
+* {#CTZulip} *Dependent Type Theory vs Polymorphic Type Theory*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Dependent.20Type.20Theory.20vs.20Polymorphic.20Type.20Theory))
 
 
 [[!redirects univalence]]
