@@ -645,6 +645,8 @@ $$\frac{\Gamma, z:A \times A, p:Id_A(z), \Delta(z,p) \vdash C(z,p):Type \quad \G
 The original inference rules using the family of terms $t(x)$ dependent upon $x:A$ is then given by $\beta(\lambda x:A.t(x),x):\mathrm{Id}_{C(\Delta_A(x),r(x))}(J(\lambda x:A.t(x),\Delta_A(x),r(x)),t(x))$. 
 
 ### Identity types between types
+{#IdentityTypesBetweenTypes} 
+{#IdentityTypeBetweenTypes}
 
 Suppose that we have a [[dependent type theory with type variables]], presented using a single type judgment. Type variables allow for the definition of [[identity types]] between types: 
 
