@@ -108,6 +108,15 @@ The localization $L_F(X)$ of a type $X$ at a family of types $F:\prod_{i:I} S(i)
 
 * [[David Jaz Myers]], Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory ([arXiv:2205.15887](https://arxiv.org/abs/2205.15887))
 
+
+[[!redirects localization of a type]]
+[[!redirects localizations of a type]]
+
 [[!redirects localization of a type at a function]]
+[[!redirects localizations of a type at a function]]
+
 [[!redirects localization of a type at a type]]
+[[!redirects localizations of a type at a type]]
+
 [[!redirects localization of a type at a family of functions]]
+[[!redirects localizations of a type at a family of functions]]
