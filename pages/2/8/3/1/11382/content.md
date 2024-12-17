@@ -115,8 +115,11 @@ Discussion using the [[string theory results applied elsewhere|string theoretic]
 
 Discussion in relation to the [[soft graviton theorem]]:
 
+* Arnab Priya Saha, Biswajit Sahoo, [[Ashoke Sen]], _Proof of the Classical Soft Graviton Theorem in $D=4$_ &lbrack;[arXiv:1912.06413](https://arxiv.org/abs/1912.06413)&rbrack;
 
-* Arnab Priya Saha, Biswajit Sahoo, [[Ashoke Sen]], _Proof of the Classical Soft Graviton Theorem in $D=4$_ ([arXiv:1912.06413](https://arxiv.org/abs/1912.06413))
+Discussion via tools from [[scattering amplitudes]]:
+
+* [S-Matrix Marathon](https://www.ias.edu/sns/s-matrix-marathon) authors: *Records from the S-Matrix Marathon: Gravitational Physics from Scattering Amplitudes* &lbrack;[arXiv:2412.11649](https://arxiv.org/abs/2412.11649)&rbrack;
 
 
 ### Experimental observation
