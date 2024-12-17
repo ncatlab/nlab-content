@@ -69,6 +69,10 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \m
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}}{\Gamma \vdash \delta_{\mathrm{isProp}(A)}:\mathrm{isProp}(A) \simeq \prod_{x:A} \prod_{y:A} x =_A y}$$
 
+Assuming a [[dependent type theory with type variables]] and with [[identity type#IdentityTypesBetweenTypes|identity types between types]], the equivalence in the definition rule can be replaced with an [[identification]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash \mathrm{isProp}(A) \; \mathrm{type}}{\Gamma \vdash \delta_{\mathrm{isProp}(A)}:\mathrm{isProp}(A) = \prod_{x:A} \prod_{y:A} x =_A y}$$
+
 ## History
 
 The notion of definitional equality was introduced first in [[AUTOMATH]]. The following paper presents a suggestive explanation of this notion and how proof-checking was designed in this system (especially section 10):
