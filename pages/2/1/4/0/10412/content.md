@@ -31,6 +31,7 @@ See also at [[motives in physics]]
 
 * [[surfaceology]]
 
+
 ## References
 
 Review:
@@ -40,6 +41,9 @@ Review:
 * [[Henriette Elvang]], [[Yu-tin Huang]], *Scattering Amplitudes*, Cambridge University Press (2015) &lbrack;[arXiv:1308.1697](http://arxiv.org/abs/1308.1697), [doi:10.1017/CBO9781107706620]( https://doi.org/10.1017/CBO9781107706620)&rbrack;
 
 * Livia Ferro, Tomasz Lukowski, _Amplituhedra, and Beyond_, Topical Review invited by Journal of Physics A: Mathematical and Theoretical ([arXiv:2007.04342 ](https://arxiv.org/abs/2007.04342))
+
+* Shounak De, Dmitrii Pavlov, Marcus Spradlin, [[Anastasia Volovich]]: *From Feynman diagrams to the amplituhedron: a gentle review* &lbrack;[arXiv:2410.11757](https://arxiv.org/abs/2410.11757)&rbrack;
+
 
 For scattering amplitudes via the "amplituhedron" the integrand is discussed in
 
