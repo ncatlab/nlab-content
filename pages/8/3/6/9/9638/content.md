@@ -337,11 +337,12 @@ Further introduction and survey:
 
   *Introduction to Quantum Information Science II* (2022) &lbrack;[pdf](https://www.scottaaronson.com/qisii.pdf)&rbrack;
 
-* Emily Grumblin, Mark Horowitz (eds.): _Quantum Computing: Progress and Prospects_, The National Academies Press (2019) &lbrack;[doi:10.17226/25196](https://doi.org/10.17226/25196)&rbrack;
+* Emily Grumbling, Mark Horowitz (eds.): *Quantum Computing: Progress and Prospects*, National Academies of Sciences (2019) &lbrack;[ISBN:9780309479691](https://nap.nationalacademies.org/catalog/25196/quantum-computing-progress-and-prospects), [doi:10.17226/25196](https://doi.org/10.17226/25196)&rbrack;
 
 * Qiang Zhang, Feihu Xu, Li Li, Nai-Le Liu, Jian-Wei Pan, *Quantum information research in China*, Quantum Sci. Technol. 4 040503 ([doi:10.1088/2058-9565/ab4bea](https://iopscience.iop.org/article/10.1088/2058-9565/ab4bea))
 
-* Farzan Jazaeri, Arnout Beckers, Armin Tajalli, Jean-Michel Sallese, *A Review on Quantum Computing: Qubits, Cryogenic Electronics and Cryogenic MOSFET Physics*, 2019 MIXDES - 26th International Conference "Mixed Design of Integrated Circuits and Systems", 2019, pp. 15-25, ([arXiv:1908.02656](https://arxiv.org/abs/1908.02656), [doi:10.23919/MIXDES.2019.8787164](https://doi.org/10.23919/MIXDES.2019.8787164))
+* Farzan Jazaeri, Arnout Beckers, Armin Tajalli, Jean-Michel Sallese, *A Review on Quantum Computing: Qubits, Cryogenic Electronics and Cryogenic MOSFET Physics*, 2019 MIXDES - 26th International Conference "Mixed Design of Integrated Circuits and Systems" (2019) 15-25 &lbrack;[arXiv:1908.02656](https://arxiv.org/abs/1908.02656), [doi:10.23919/MIXDES.2019.8787164](https://doi.org/10.23919/MIXDES.2019.8787164)&rbrack;
+
 
 * [[Melanie Swan]], [[Renato P dos Santos]], [[Frank Witte]], Between Science and Economics, Volume 2: *Quantum Computing Physics, Blockchains, and Deep Learning Smart Networks*, World Scientific 2020 ([doi:10.1142/q0243](https://doi.org/10.1142/q0243))
 
@@ -493,7 +494,12 @@ The origin of the notion:
 
 
 
-{#NISQLimitations} On the limitations of NISQ machines in achieving any [[quantum advantage]]:
+{#NISQLimitations} On the limitations of ([[quantum error correction|quantum error-corrected]]) NISQ machines in achieving any [[quantum advantage]]:
+
+* Subhash Kak: *Prospects for Quantum Computing*, talk at CIFAR Nanotechnology program meeting, Halifax (November 2008) &lbrack;[arXiv:0902.4884](https://arxiv.org/abs/0902.4884)&rbrack;
+
+* M. I. Dyakonov: *Prospects for quantum computing: extremely doubtful*, Int. J. of Modern Physics: Conf. Series **33** (2014) 1460357 &lbrack;[arXiv:1401.3629](https://arxiv.org/abs/1401.3629), [doi:10.1142/S2010194514603573](https://doi.org/10.1142/S2010194514603573)&rbrack;
+
 
 * Daniel Koch, Brett Martin, Saahil Patel, Laura Wessing, and Paul M. Alsing, *Demonstrating NISQ era challenges in algorithm design on IBM's 20 qubit quantum computer*, AIP Advances **10** 095101 (2020) &lbrack;[doi:10.1063/5.0015526](https://doi.org/10.1063/5.0015526)&rbrack;
 
@@ -533,7 +539,11 @@ On the resulting drop in investment:
 
 More optimistic outlook:
 
+* S. G. Gill et al.: *Quantum Computing: Vision and Challenges* &lbrack;[arXiv:2403.02240](https://arxiv.org/abs/2403.02240)&rbrack;
+
 * [[John Preskill]]: *Beyond NISQ: The Megaquop Machine*, talk at *[Q2B 2024 Silicon Valley](https://q2b.qcware.com/2024-conferences/silicon-valley/)* (Dec. 2024) &lbrack;[pdf](https://www.preskill.caltech.edu/talks/Preskill-Q2B-2024.pdf)&rbrack;
+
+
 
 More concerned outlook:
 
