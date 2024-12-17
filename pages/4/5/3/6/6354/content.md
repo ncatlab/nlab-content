@@ -134,6 +134,11 @@ On [[Lagrangian densities]] for [[self-dual higher gauge theory|self-dual form f
 
 * {#Hull23} [[Chris Hull]], *Covariant Action for Self-Dual $p$-Form Gauge Fields in General Spacetimes* &lbrack;[arXiv:2307.04748](https://arxiv.org/abs/2307.04748)&rbrack;
 
+On the [[dual graviton]]:
+
+* [[Chris Hull]], [[Ulf Lindström]], Maxwell L. Velásquez Cotini Hutt: *Gauge-invariant charges of the dual graviton* &lbrack;[arXiv:2412.10503](https://arxiv.org/abs/2412.10503)&rbrack;
+
+
 
 ## Related entries
 
