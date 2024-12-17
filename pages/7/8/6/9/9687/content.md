@@ -321,7 +321,7 @@ See also:
 ### In super-Yang-Mills theory
  {#ReferencesInSuperYangMillsTheory}
 
-Confinement in [[N=2 D=4 super Yang-Mills theory]] by a version of the monopole condensation of ([t Hooft 75](#Hooft75), [Mandelstam 76](#Mandelstam76)) was demonstrated in
+Confinement in [[N=2 D=4 super Yang-Mills theory]] or [[super QCD]] by a version of the [[Yang-Mills monopole|monopole]] condensation &lbrack;['t Hooft 75](#Hooft75), [Mandelstam 76](#Mandelstam76)&rbrack; was demonstrated in
 
 * {#SeibergWitten94} [[Nathan Seiberg]], [[Edward Witten]], _Monopole Condensation, And Confinement In N=2 Supersymmetric Yang-Mills Theory_,  	Nucl.Phys.B426:19-52,1994; Erratum-ibid.B430:485-486,1994 ([arXiv:hep-th/9407087](http://arxiv.org/abs/hep-th/9407087))
 
@@ -332,6 +332,8 @@ Reviews with discussion of the impact on confinement in plain YM:
 * {#Yung00} Alexei Yung, _What Do We Learn about Confinement from the Seiberg-Witten Theory_ &lbrack;[arXiv:hep-th/0005088](http://arxiv.org/abs/hep-th/0005088)&rbrack;
 
 * [[Michael Dine]], *On the Possibility of Demonstrating Confinement in Non-Supersymmetric Theories by Deforming Confining Supersymmetric Theories* &lbrack;[arXiv:2211.17134](https://arxiv.org/abs/2211.17134)&rbrack;
+
+* [[Michael Dine]]: *Larkin Award Colloquium*, University of Santa Cruz, (Dec 2024) &lbrack;video:[YT](https://youtu.be/k34YTIBWMNk)&rbrack;
 
 See also:
 
