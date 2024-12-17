@@ -90,6 +90,8 @@ The left adjoint sends a multicategory to its **monoidal envelope**. The right a
 
 The right adjoint is [[faithful functor|faithful]] and [[locally fully faithful]], but not full (in general, the functors of multicategories correspond to [[lax monoidal functors]]). Furthermore, this 2-adjunction is [[2-monadic]] and [[lax-idempotent 2-adjunction|lax-idempotent]], and the unit is compontentwise [[full and faithful]], i.e. for each multicategory $M$, $M \to UFM$ is [[fully faithful]]. The [[pseudoalgebras]] for the induced [[2-monad]] are precisely the [[representable multicategories]], equivalently the (non-strict) [[monoidal categories]].
 
+The adjunction is also [[comonadic]], and is consequently an example of a [[nuclear adjunction]].
+
 There is also a [[fully faithful]] 2-functor $StrMonCat_l \to Multicat$ (abstractly, this is the forgetful functor from the 2-category of [[strict algebras]] and [[lax morphisms]] for the induced 2-monad).
 
 ### Exponentiability
@@ -139,6 +141,8 @@ See also:
  {#Leinster}
 
 * {#Pisani14} [[Claudio Pisani]], _Sequential multicategories_, Theory and Applications of Categories 29.19 (2014), [arXiv:1402.0253](https://arxiv.org/abs/1402.0253)
+
+* Section 2 of Elmendorf, Anthony D., and Michael A. Mandell. "Permutative categories, multicategories and algebraic K–theory." Algebraic & Geometric Topology 9.4 (2009): 2391-2441.
 
 [[!redirects multicategories]]
 
