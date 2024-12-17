@@ -114,6 +114,11 @@ Annual conference series:
 
 * *[Amplitudes 2023](https://indico.cern.ch/event/1228963/)*
 
+On scattering amplitudes of [[Yang-Mills theory]] and relating to the [[amplituhedron]]:
+
+* Shounak De, Dmitrii Pavlov, Marcus Spradlin, [[Anastasia Volovich]]: *From Feynman diagrams to the amplituhedron: a gentle review* &lbrack;[arXiv:2410.11757](https://arxiv.org/abs/2410.11757)&rbrack;
+
+
 
 ### Analytic methods
 
