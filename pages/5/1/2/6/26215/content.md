@@ -5,7 +5,7 @@
 
 In [[type theory]], there are many ways to represent the notion of conversion of [[terms]] from one to another in the syntax. Usually, this is represented by untyped or typed [[judgmental equality]] as a [[judgment]] $a \equiv b$ or $a \equiv b:A$ respectively. **Explicit conversion** is the representation of conversion as [[terms]] of a [[type]] $p:a \equiv b$. 
 
-In [[objective type theory]] and other [[weak type theories]] which don't have a judgmental equality as a judgment, explicit conversion is used for [[definitions]] and for [[beta-conversion]] and [[eta-conversion]], and is represented by [[identifications]] $p:a =_A b$ for [[elements]] and by [[equivalence of types|equivalences]] $e:A \simeq B$ for [[types]]. 
+In [[objective type theory]] and other [[weak type theories]] which don't have a judgmental equality as a judgment, explicit conversion is used for [[definitions]] and for [[beta-conversion]] and [[eta-conversion]], and is represented by [[identifications]] $p:a =_A b$ for [[elements]] and by [[equivalence of types|equivalences]] $e:A \simeq B$ for [[types]]. If the weak type theory has [[dependent type theory with type variables|type variables]] and [[identity type#IdentityTypesbetweenTypes|identity types between types]] $A = B$, one can use [[identifications]] $p:A = B$ instead of equivalences $e:A \simeq B$ for representing conversions between types. 
 
 ## Related concepts
 
