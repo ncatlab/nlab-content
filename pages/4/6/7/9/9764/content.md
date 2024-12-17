@@ -1,5 +1,9 @@
 
-* [webpage](https://www.ikerbasque.net/es/igor-bandos)
+* [personal page](https://www.ikerbasque.net/es/igor-bandos)
+
+* [inSpire page](https://inspirehep.net/authors/1017477)
+
+* [ikerbasque page](https://www.ikerbasque.net/en/igor-bandos)
 
 ## Selected writings
 
