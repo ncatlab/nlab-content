@@ -151,6 +151,22 @@ Similarly, the second computation principle can be given by a typal equality, si
 
 $$\beta_{S^1}^{\mathrm{loop},A}(e):\beta_{S^1}^{\mathrm{base},A}(e) \circ \mathrm{tr}_{S^1}^C(\mathrm{base}, \mathrm{base}, \mathrm{loop}) \circ \beta_{S^1}^{\mathrm{base},A}(e)^{-1} =_{A \simeq A} e$$
 
+If one is working in a [[dependent type theory with type variables]] which has [[identity type#IdentityTypesBetweenTypes|identity types between types]], then one can also use identifications of types instead of equivalences of types to express large recursion of the circle type:
+
+1. We have a type $A$
+
+1. We have an self-identification of types $p:A = A$
+
+then we have a type family $x:S^1 \vdash C(x)$ such that $C(\mathrm{base})$ results in $A$ and the [[action on identifications]] across $\mathrm{loop}$ results in $p$: 
+
+$$C(\mathrm{base}) \equiv A \qquad \mathrm{ap}_{S^1}^C(\mathrm{base}, \mathrm{base}, \mathrm{loop}) \equiv p$$
+
+Usually, the second computation principle is given by a typal equality, similarly to the recursion and induction principles
+
+$$\beta_{S^1}^{\mathrm{loop},A}(p):\mathrm{tr}_{S^1}^C(\mathrm{base}, \mathrm{base}, \mathrm{loop}) =_{A = A} p$$
+
+...
+
 ### In terms of higher inductive types
 {#InTermsOfHigherInductiveTypes}
 
