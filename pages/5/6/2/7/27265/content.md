@@ -13,6 +13,9 @@ First realistic proposal for experimentally implementing a [[quantum gate]] (nam
 
 * {#CiracZoller95} [[J. Ignacio Cirac]], [[Peter Zoller]]: *Quantum Computations with Cold Trapped Ions*, Phys. Rev. Lett. **74** (1995) 4091 &lbrack;[doi:10.1103/PhysRevLett.74.4091](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.74.4091)&rbrack;
 
+Historical reminiscences:
+
+* *Quantum Computing: Peter Zoller and Ignacio Cirac on the Quantum Revolution*, interview (Nov 2024) &lbrack;[YT](https://youtu.be/-X1vqlwhYck)&rbrack;
 
 On [[vortex]]$\;$[[anyons]] in [[Bose-Einstein condensates]]:
 
