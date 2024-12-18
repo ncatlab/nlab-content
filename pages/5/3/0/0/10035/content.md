@@ -90,6 +90,9 @@ Constructions in the generality of non-[[semisimple category|semisimple]] [[tens
 [[!redirects D=3 topological quantum field theory]]
 [[!redirects D=3 topological quantum field theories]]
 
+[[!redirects 3D TQFT]]
+[[!redirects 3D TQFTs]]
+
 [[!redirects 3d TQFT]]
 [[!redirects 3d TQFTs]]
 [[!redirects 3d topological field theory]]
