@@ -541,7 +541,7 @@ More optimistic outlook:
 
 * S. G. Gill et al.: *Quantum Computing: Vision and Challenges* &lbrack;[arXiv:2403.02240](https://arxiv.org/abs/2403.02240)&rbrack;
 
-* [[John Preskill]]: *Beyond NISQ: The Megaquop Machine*, talk at *[Q2B 2024 Silicon Valley](https://q2b.qcware.com/2024-conferences/silicon-valley/)* (Dec. 2024) &lbrack;[pdf](https://www.preskill.caltech.edu/talks/Preskill-Q2B-2024.pdf)&rbrack;
+* [[John Preskill]]: *Beyond NISQ: The Megaquop Machine*, talk at *[Q2B 2024 Silicon Valley](https://q2b.qcware.com/2024-conferences/silicon-valley/)* (Dec. 2024) &lbrack;[pdf](https://www.preskill.caltech.edu/talks/Preskill-Q2B-2024.pdf), [webpage](https://quantumfrontiers.com/2024/12/14/beyond-nisq-the-megaquop-machine/)&rbrack;
 
 
 
