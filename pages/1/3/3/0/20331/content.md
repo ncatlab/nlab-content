@@ -6,7 +6,7 @@
 
 ## Idea
 
-The [[quaternion|quaternionic]] [[projective space]] $\mathbb{H}P^n$ is the [[space]] of right (or left) [[quaternion]] [[lines]] through the origin in $\mathbb{H}^{n+1}$, hence the space of [[equivalence classes]] $[q_1, \cdots, q_{n+1}]$ of [[n-tuple|(n+1)-tuples]]  of [[quaternions]] excluding zero, under the [[equivalence relation]] given by right (or left) [[multiplication]] with non-zero quaternions
+The [[quaternion|quaternionic]] [[projective space]] $\mathbb{H}P^n$ is the [[space]] of right (or left) [[quaternion]] [[lines]] through the origin in $\mathbb{H}^{n+1}$, hence the space of [[equivalence classes]] $[q_1, \cdots, q_{n+1}]$ of [[n-tuple|(n+1)-tuples]]  of [[quaternions]], excluding [[zero]], under the [[equivalence relation]] given by right (or left) [[multiplication]] with non-zero quaternions
 
 $$
   \mathbb{H}P^n
