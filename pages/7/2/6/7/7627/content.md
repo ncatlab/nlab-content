@@ -23,7 +23,7 @@ Similarly, in the [[topological quantum field theory | (2+1)-TQFT]] setting isom
 
 In the [[standard model of particle physics]], every [[fundamental particle | particle]] has an antiparticle. For example, the antiparticle of the [[electron]] is the [[positron]].
 
-In the realm of (2+1)-TQFTs, the most simple example is the [[quantum double anyon model]] applied to an abelian group. For every finite abelian group $G$ such a model can be created, and quasiparticles can be explicitly described. They correspond to pairs $(g,\chi)$ where $g\in G$ is a group element and $\chi\in \widehat{G}$ is a [[character]]. The antiparticle is $(g^{-1},\chi^{-1})$, where both the inverses are taken with respect to the group operation.
+In the realm of [[3D TQFT|(2+1)-TQFTs]], the most simple example is the *quantum double anyon model* applied to an abelian group. For every finite abelian group $G$ such a model can be created, and quasiparticles can be explicitly described. They correspond to pairs $(g,\chi)$ where $g\in G$ is a group element and $\chi\in \widehat{G}$ is a [[character]]. The antiparticle is $(g^{-1},\chi^{-1})$, where both the inverses are taken with respect to the group operation.
 
 Just like inverses play a key role in the theory of finite groups, antiparticles play a key role in the theory of (2+1)-TQFTs and modular tensor categories.
 
@@ -41,20 +41,26 @@ Just like inverses play a key role in the theory of finite groups, antiparticles
 
 ## References
 
-A discussion of traditional and of formalized discussions of antimatter, with an eye towards [[AQFT]], is in 
+General exposition:
+
+* Beatriz Gato-Rivera: *Antimatter* &lbrack;[arXiv:2412.12128](https://arxiv.org/abs/2412.12128)&rbrack;
+
+See also:
+
+* Wikipedia: *[Antimatter](https://en.wikipedia.org/wiki/Antimatter)*
+
+On traditional and formalized discussions of antimatter, with an eye towards [[AQFT]]:
 
 * David Baker, [[Hans Halvorson]], _Antimatter_  ([pdf](http://philsci-archive.pitt.edu/4467/1/Antimatter.pdf))
 
-In 
+* [[Hans Halvorson]], around Remark 8.79 in  _Algebraic quantum field theory_ &lbrack;[pdf](http://www.princeton.edu/~hhalvors/aqft.pdf)&rbrack;
 
-* [[Hans Halvorson]], _Algebraic quantum field theory_ ([pdf](http://www.princeton.edu/~hhalvors/aqft.pdf))
 
-the topic appears around remark 8.79.
+See also:
 
-See also
+* R. Ascoli, G. Teppati und S. Termini: _Some remarks about particle-antiparticle superselection rules_, Lettere Al Nuovo Cimento (1969 - 1970) Volume 1, Number 4 (1969), 223-227 &lbrack;[pdf](https://link.springer.com/content/pdf/10.1007/BF02752486.pdf), [doi:10.1007/BF02752486](https://doi.org/10.1007/BF02752486)&rbrack;
 
-* R. Ascoli, G. Teppati und S. Termini, _Some remarks about particle-antiparticle superselection rules_, Lettere Al Nuovo Cimento (1969 - 1970)
-Volume 1, Number 4 (1969), 223-227, DOI: 10.
+
 
 [[!redirects antiparticles]]
 
