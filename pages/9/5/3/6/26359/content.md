@@ -37,16 +37,6 @@ $$
 \end{array}
 $$
 
-* Alternatively, if we don't have either a [[natural numbers type]] or a [[type of all propositions]], given the [[boolean domain]] $\mathrm{Bool}$, a type $A$ is finite if for all [[decidable subtypes]] $S:(A \to \mathrm{Bool}) \to \mathrm{Bool}$ of the set of decidable subtypes of $A$, if the [[empty subset|empty decidable subtype]] $\lambda x:A.\bot$ is in $S$, and for all decidable subtypes $P:A \to \mathrm{Bool}$ and $Q:A \to \mathrm{Bool}$ of $A$ such that $P$ being in $S$, $Q$ being a singleton decidable subtype, and $P$ and $Q$ being [[disjoint subset|disjoint]] together imply that the [[union]] $P \cup Q$ is in $S$, then the [[improper subset|improper decidable subtype]] $\lambda x:A.\top$ is in $S$.
-
-$$
-\mathrm{isFinite}(A) \equiv 
-\begin{array}{c}
-\prod_{S:(A \to \mathrm{Bool}) \to \mathrm{Bool}} (((\lambda x:A.\bot) \in S) \times \prod_{P:A \to \mathrm{Bool}} \prod_{Q:A \to \mathrm{Bool}} (P \in S) \\
-\times (\exists!x:A.x \in Q) \times (P \cap Q =_{A \to \mathrm{Bool}} \lambda x:A.\bot) \to (P \cup Q \in S)) \to ((\lambda x:A.\top) \in S)
-\end{array}
-$$
-
 The membership relation and the subtype operations used above are defined in the nLab article on [[subtypes]].
 
 The definitions of the various different types of finite types are agnostic regarding the definition of $\mathrm{isFinite}$, as they uses $\mathrm{isFinite}$ directly rather than a particular definition. 
