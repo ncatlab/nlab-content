@@ -1808,8 +1808,6 @@ Talks:
 
 [nyuad.nyu.edu/en/events/2024/november/mena-quantum.html](https://nyuad.nyu.edu/en/events/2024/november/mena-quantum.html)
 
-
-
 \begin{imagefromfile}
     "file_name": "CQTS-MENAQuantum2024-Banner.jpg",
     "width": 400,
@@ -1823,8 +1821,27 @@ Talks:
 \end{imagefromfile}
 
 
+\linebreak
+
+### Dec 2024
+
+16 Dec 2024
+
+**Quantum Industry Day -- IDQUantique** 
+
+[www.q-innovision.com/quantum-industry-day-idq-december](https://www.q-innovision.com/quantum-industry-day-idq-december)
+
+<center>
+<a href="https://www.q-innovision.com/quantum-industry-day-idq-december/">
+<img src="https://ncatlab.org/nlab/files/QuantumIndustryDayAtCQTS-Dec2024.jpg" width="900">
+</a>
+</center>
+
+
 
 \linebreak
+
+
 
 ***
 
