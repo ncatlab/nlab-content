@@ -1,4 +1,6 @@
 
+[[QuantumIndustryDayAtCQTS-Dec2024.jpg:file]]
+
 
 T-duality formulated on [[superspace]] (see also references at *[double supergeometry](type+II+geometry#ReferencesDoubledSupergeometry)*):
 
