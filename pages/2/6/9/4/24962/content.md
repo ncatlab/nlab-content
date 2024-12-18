@@ -42,6 +42,8 @@ Important examples include
 
 * [[endomorphism operad]]
 
+* [[codensity monad]]
+
 [[!redirects endomorphism monoid object]]
 [[!redirects endomorphism monoid objects]]
 
