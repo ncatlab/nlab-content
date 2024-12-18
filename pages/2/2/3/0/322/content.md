@@ -81,11 +81,11 @@ where $\sigma$ acts on the big tensor product on the left by permuting tensor fa
 
 The associativity condition will be left for others to fill in. 
 
-### Coloured operads {#PedestrianDefColouredOperad}
+### Colored operads {#PedestrianDefColoredOperad}
 
-There is an evident generalization of the above where we allow the operad to have several [[object]]s -- called _colours_ in operad theory. This models algebraic structures where elements of different _types_ may be fed into $n$-ary operations.
+There is an evident generalization of the above where we allow the operad to have several [[object]]s - called _colors_ in operad theory. This models algebraic structures where elements of different _types_ may be fed into $n$-ary operations.
 
-Let $C$ be a [[set]], called the _set of colours_ . Then a **coloured operad** is 
+Let $C$ be a [[set]], called the _set of colors_ . Then a **colored operad** $P$ is 
 
 * for each $n \in \mathbb{N}$ and each $(n+1)$-tuple $(c_1, \cdots, c_n, c)$ an object $P(c_1, \cdots, c_n;c) \in V$;
 
@@ -122,6 +122,11 @@ Let $C$ be a [[set]], called the _set of colours_ . Then a **coloured operad** i
 
 An equivalent term for a colored operad in $V$ is a [[symmetric multicategory]] which is [[enriched category|enriched]] over $V$.  Which term is used depends on the author and the point of view being taken.  (According to the common terminology of [[horizontal categorification]], one might also call a colored operad an "operad-oid," but thankfully this seems not to be common.  On the other hand one might adapt the terminology backwards and call a [[category]] a "colored [[monoid]]" or call a [[groupoid]] a "colored [[group]]".)
 
+### Relation to monoidal categories
+
+Every [[symmetric monoidal category|symmetric]] [[strict monoidal category]] $M$ has an underlying colored operad $P$ in $V = (Set, \times)$ where the set of colors is the set of all objects of $M$ and each $P(c_1, \cdots, c_n; c)$ is the set of all morphisms from $c_1 \otimes \cdots \otimes c_n$ to $c$, with composition and identities defined using those in $V$.  Conversely each colored operad in $(Set, \times)$ freely generates a symmetric strict monoidal category.  This gives rise to an adjunction between the category of colored operads in $(Set, \times)$ and the category of strict symmetric monoidal categories ([Elmendorf-Mandell 2007](#ElmendorfMandell2007)).  
+
+There is also an analogous adjunction between _non-symmetric_ colored operads, better known as [[multicategories]], and  monoidal categories.  This has been worked out at the 2-categorical level ([Hermida 2000](Hermida2000)).
 
 ### Algebras 
 
@@ -406,16 +411,16 @@ Ambient categories of relevance in practice are
 
 ### General
 
-* For $C$ a set, the [[initial object]] $I_C$ of $C$-coloured operads has $I_C(c;c) = I_V$ for all $c$ in $C$ and all other components of $I_C$ are the [[initial object]] of $V$.
+* For $C$ a set, the [[initial object]] $I_C$ of $C$-colored operads has $I_C(c;c) = I_V$ for all $c$ in $C$ and all other components of $I_C$ are the [[initial object]] of $V$.
 
 
 * There is also a canonical notion of [[free operad]].
 
 ## Properties
 
-### Change of colour
+### Change of color
 
-Coloured operads form a [[fibered category]] over the category [[Set]] of colours. The fiber over a set $C$ is the category of $C$-coloured operads. 
+Colored operads form a [[fibered category]] over the category [[Set]] of colors. The fiber over a set $C$ is the category of $C$-colored operads. 
 
 For $\alpha : D \to C$ a [[function]] of sets, there is an evident pullback functor
 
@@ -523,7 +528,6 @@ Monographs:
 
 * [[Jean-Louis Loday]], [[Bruno Vallette]], _Algebraic operads_, Grundlehren der mathematischen Wissenschaften, Volume 346, Springer-Verlag (2012), xviii+512 pp. ([pdf](https://www.math.univ-paris13.fr/~vallette/Operads.pdf), [ISBN 978-3-642-30362-3](https://www.springer.com/gp/book/9783642303616))
 
-
 * {#FresseMOF} [[Benoit Fresse]], _Modules over operads and functors_, Springer LNM __1967__, 2009, x+308 pp. [MR2010e:18009](http://www.ams.org/mathscinet-getitem?mr=2494775)
 
 * {#FresseHOGTG} [[Benoit Fresse]], *Homotopy of Operads and Grothendieck-Teichm&#252;ller Groups (Volumes 1 & 2)*, Mathematical Surveys and Monographs **217** (2017) &lbrack;[ISBN:978-1-4704-3480-9](https://bookstore.ams.org/surv-217/), [website](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/), [pdf (draft of Part I)](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.648.9110&rep=rep1&type=pdf)&rbrack;
@@ -536,6 +540,15 @@ See also:
 On [[rectification]] of [[symmetric operad|symmetric]] [[colored operads]]:
 
 * {#PavlovScholbach18} [[Dmitri Pavlov]], [[Jakob Scholbach]], *Admissibility and rectification of colored symmetric operads*, Journal of Topology **11** 3 (2018) 559-601 $[$[doi:10.1112/topo.12008](https://doi.org/10.1112/topo.12008), [arXiv:1410.5675](https://arxiv.org/abs/1410.5675)$]$
+
+Hermida constructed a monadic 2-adjunction between the 2-category of nonsymmetric colored operads in $(Set, \times)$ (which he calls [[multicategories]]) and the 2-category of strict monoidal categories in Theorem 7.2 of this paper:
+
+* {#Hermida2000} [[Claudio Hermida]], Representable multicategories, Advances in Mathematics, Volume 151, Issue 2, 2000, 164-225.  ([pdf](https://www.sciencedirect.com/science/article/pii/S0001870899918777/)) 
+
+Elmendorf and Mandell constructed an adjunction between the category of colored operads in $(Set, \times)$ (which they call "multicategories") and the category of symmetric strict monoidal categories (which they call "permutative categories") in Theorem 4.3 of this paper:
+
+* {#ElmendorfMandel2007} A. D. Elmendorf and M. A. Mandell, _Permutative categories, multicategories, and algebraic K-theory_ ([arXiv:0710.0082](https://arxiv.org/abs/0710.0082))
+
 
 On operads as [[double functors]] between certain [[double categories]]:
 
