@@ -48,7 +48,7 @@ In fact, as this example already shows, modules faithfully subsume vector bundle
 
 This identification of vector bundles with $R$-modules being the spaces of sections of a vector bundle on the space whose ring of functions is $R$ can be taken then as the very _definition_: notably in [[algebraic geometry]] Gelfand duality is taken to "hold by definition" in that an [[algebraic variety]] is essentially by definition the formal dual of a given ring, and the Serre-Swan theorem similarly becomes the statement that the space of sections of a vector bundle over a variety is equivalently given by a module over that ring. (See also at [[quasicoherent module]] for more on this.)
 
-This [[Isbell duality|duality]] between geometry and algebra allows us to re-interpret many statement about modules in terms of vector bundles. For instance 
+This [[Isbell duality|duality]] between geometry and algebra allows us to re-interpret many statements about modules in terms of vector bundles. For instance 
 
 * the [[direct sum]] of modules corresponds to fiberwise direct sum of vector bundles;
 
