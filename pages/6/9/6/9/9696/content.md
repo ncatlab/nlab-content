@@ -72,7 +72,7 @@ On [[noisy intermediate-scale quantum computing]]:
 
 and the outlook beyond:
 
-* [[John Preskill]]: *Beyond NISQ: The Megaquop Machine*, talk at *[Q2B 2024 Silicon Valley](https://q2b.qcware.com/2024-conferences/silicon-valley/)* (Dec. 2024) &lbrack;[pdf](https://www.preskill.caltech.edu/talks/Preskill-Q2B-2024.pdf)&rbrack;
+* [[John Preskill]]: *Beyond NISQ: The Megaquop Machine*, talk at *[Q2B 2024 Silicon Valley](https://q2b.qcware.com/2024-conferences/silicon-valley/)* (Dec. 2024) &lbrack;[pdf](https://www.preskill.caltech.edu/talks/Preskill-Q2B-2024.pdf), [webpage](https://quantumfrontiers.com/2024/12/14/beyond-nisq-the-megaquop-machine/)&rbrack;
 
 
 On [[quantum simulation]] of ([[lattice QFT|lattice]]) [[quantum field theory]]:
