@@ -211,6 +211,10 @@ On [[combinatorics]] of YM [[scattering amplitudes]]:
 
 * [[Nima Arkani-Hamed]], Qu Cao, Jin Dong, Carolina Figueiredo, Song He: *Scalar-Scaffolded Gluons and the Combinatorial Origins of Yang-Mills Theory* &lbrack;[arXiv:2401.00041](https://arxiv.org/abs/2401.00041)&rbrack;
 
+On the [[nonperturbative effect]] of "effective locality":
+
+* Yves Gabellini, Thierry Grandou, Ralf Hofmann: *On the Yang-Mills propagator at strong coupling* &lbrack;[arXiv:2412.12124](https://arxiv.org/abs/2412.12124)&rbrack;
+
 
 ### Classical solutions
 
