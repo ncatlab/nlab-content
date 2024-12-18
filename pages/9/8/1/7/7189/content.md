@@ -259,7 +259,11 @@ The codensity monad $R/R: B \to B$, being a monad in $Rel$, is a [[preorder]]. T
 
 ## Properties
 
-....
+\begin{proposition}
+  Let $G : B \to A$ be a functor admitting a codensity monad $T^G$ on $A$. The [[Kleisli category]] for $T^G$ has homs $Kl(T^G)(a, a') \cong [B^{op}, Set](B(a', G-), B(a, G-))$.
+\end{proposition}
+
+See [Bourn and Cordier 1980](#BC80), for instance.
 
 
 ## Related entries
@@ -281,8 +285,6 @@ The codensity monad $R/R: B \to B$, being a monad in $Rel$, is a [[preorder]]. T
 * [[idempotent monad]]
 
 
-
-
 ## References
 
 One of the first references is
@@ -299,7 +301,7 @@ Overview:
 
 * {#Leinster13}[[Tom Leinster]], _Codensity and the Ultrafilter Monad_ , TAC **12** no.13 (2013) pp.332-370.  &lbrack;[tac:28-13](http://www.tac.mta.ca/tac/volumes/28/13/28-13abs.html)&rbrack;
 
-See alos:
+See also:
 
 * nCafé blog 2012: *[Where do Monads come from?](https://golem.ph.utexas.edu/category/2012/09/where_do_monads_come_from.html)*
 
@@ -332,9 +334,9 @@ For a description of the [[Giry monad]] and other [[probability monads]] as code
 
 * Ruben Van Belle, _Probability monads as codensity monads_. Theory and Applications of Categories 38 (2022), 811–842, ([tac](http://tac.mta.ca/tac/volumes/38/21/38-21abs.html))
 
-
-
 Other references include
+
+* {#BC80} [[Dominique Bourn]] and Jean-Marc Cordier, _Distributeurs et théorie de la forme_, Cahiers de topologie et géométrie différentielle 21.2 (1980): 161-189.
 
 * {#Avery17} [[Tom Avery]], _Structure and Semantics_, ([arXiv:1708.01050](https://arxiv.org/abs/1708.01050))
 
