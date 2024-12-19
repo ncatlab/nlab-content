@@ -106,7 +106,9 @@ _[[relation between type theory and category theory]]_.
 * [[higher observational type theory]]
 * [[univalent type theory]]
 * [[propositional logic as a dependent type theory]]
+* [[higher order logic as a dependent type theory]]
 * [[impredicative dependent type theory]]
+* [[dependent type theory with type variables]]
 
 ## Related concepts
 
@@ -119,8 +121,6 @@ _[[relation between type theory and category theory]]_.
 * [[set theory and dependent type theory]]
 
 * [[dependent type theoretic methods in natural language semantics]]
-
-* [[dependent type theory with type variables]]
 
 * [[spartan type theory]]
 
