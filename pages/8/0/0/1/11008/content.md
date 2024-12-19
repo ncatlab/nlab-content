@@ -41,3 +41,6 @@ Theorem Proving Environment for Higher Order Logic_, 1993
 * Michael Norrish and Konrad Slind, *The HOL System LOGIC* ([pdf](https://master.dl.sourceforge.net/project/hol/hol/trindemossen-1/trindemossen-1-logic.pdf?viasf=1))
 
 [[!redirects HOL light]]
+
+[[!redirects HOL4]]
+
