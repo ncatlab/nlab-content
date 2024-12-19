@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -233,7 +234,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B:A \to \mathrm{Pro
 
 \subsection{Constructing the logical operators}
 
-TBD: Show how to construct [[truth]], [[falsehood]], [[disjunction]], [[conjunction]], [[implication]], [[negation]], [[exclusive disjunction]], the [[existential quantifier]], the [[uniqueness quantifier]], and the [[universal quantifier]] from [[dependent product types]], [[dependent sum types]], [[identity types]], and the [[type of all propositions]]. 
+In this section we construct [[truth]], [[falsehood]], [[disjunction]], [[conjunction]], [[implication]], [[negation]], the [[existential quantifier]], and the [[universal quantifier]] from [[dependent product types]], [[dependent sum types]], [[identity types]], and the [[type of all propositions]]. 
 
 \subsubsection{Universal quantification}
 
@@ -279,6 +280,29 @@ There are many different ways of defining truth $\top:\mathrm{Prop}$. One defini
 
 $$\top \coloneqq \bot \Rightarrow \bot$$
 
+\subsubsection{Conjunction}
+
+Given two [[h-propositions]] $A$ and $B$, the product type $A \times B$ is also an [[h-proposition]] by the [[binary action on identifications]]: 
+
+$$\mathrm{apbinary}_{\mathrm{pair}_{A, B}}:\prod_{x:A} \prod_{y:B} \prod_{x':A} \prod_{y:B'} ((x =_A x') \times (y =_B y')) \to (\mathrm{pair}_{A, B}(x, y) =_{A \times B} \mathrm{pair}_{A, B}(x', y'))$$
+
+Given $p_A:\prod_{x:A} \prod_{x':A} x =_A x'$ and $p_B:\prod_{y:B} \prod_{y':B} y =_B y'$, we have 
+
+$$\mathrm{apbinary}_{\mathrm{pair}_{A, B}}(x, y, x', y', p_A(x, x'), p_B(y, y')):\mathrm{pair}_{A, B}(x, y) =_{A \times B} \mathrm{pair}_{A, B}(x', y')$$
+
+and by the elimination rules of [[product types]], we have for $z:A \times B$, $z':A \times B$,
+
+$$\mathrm{apbinary}_{\mathrm{pair}_{A, B}}(\pi_{A, B}^A(z), \pi_{A, B}^B(z), \pi_{A, B}^A(z'), \pi_{A, B}^B(z'), p_A(\pi_{A, B}^A(z), \pi_{A, B}^A(z')), p_B(\pi_{A, B}^B(z), \pi_{A, B}^A(z'))):z =_{A \times B} z'$$
+
+and thus a dependent function
+
+$$\lambda z:A \times B.\lambda z':A \times B.\mathrm{apbinary}_{\mathrm{pair}_{A, B}}(\pi_{A, B}^A(z), \pi_{A, B}^B(z), \pi_{A, B}^A(z'), \pi_{A, B}^B(z'), p_A(\pi_{A, B}^A(z), \pi_{A, B}^A(z')), p_B(\pi_{A, B}^B(z), \pi_{A, B}^A(z'))):\mathrm{ishProp}(A \times B)$$
+
+As a result, the conjunction $P \wedge Q:\mathrm{Prop}$ of two propositions $P:\mathrm{Prop}$ and $Q:\mathrm{Prop}$ can be defined as 
+
+$$P \wedge Q \coloneqq \mathrm{toProp}_{\mathrm{El}(P) \times \mathrm{El}(Q)}(\lambda z:\mathrm{El}(P) \times \mathrm{El}(Q).\lambda z':\mathrm{El}(P) \times \mathrm{El}(Q).\mathrm{apbinary}_{\mathrm{pair}_{\mathrm{El}(P), \mathrm{El}(Q)}}(\pi_{\mathrm{El}(P), \mathrm{El}(Q)}^{\mathrm{El}(P)}(z), \pi_{\mathrm{El}(P), \mathrm{El}(Q)}^{\mathrm{El}(Q)}(z), \pi_{\mathrm{El}(P), \mathrm{El}(Q)}^{\mathrm{El}(P)}(z'), \pi_{\mathrm{El}(P), \mathrm{El}(Q)}^{\mathrm{El}(Q)}(z'), \mathrm{proptrunc}(P)(\pi_{\mathrm{El}(P), \mathrm{El}(Q)}^{\mathrm{El}(P)}(z), \pi_{\mathrm{El}(P), \mathrm{El}(Q)}^{\mathrm{El}(P)}(z')), \mathrm{proptrunc}(Q)(\pi_{\mathrm{El}(P), \mathrm{El}(Q)}^{\mathrm{El}(Q)}(z), \pi_{\mathrm{El}(P), \mathrm{El}(Q)}^{\mathrm{El}(Q)}(z'))))$$
+
+
 \subsubsection{Existential quantifier}
 
 In [[dependent type theory]] which uses the [[propositions as subsingletons]] interpretation, given a type $A$ and a family of [[h-propositions]] $(P(x))_{x:A}$, the existential quantifier is defined as the [[propositional truncation]] of the [[dependent sum type]] $\sum_{x:A} P(x)$. Given a [[type of all propositions]], the propositional truncation $[A]$ of a type $A$ is defined as the dependent product type
@@ -293,15 +317,51 @@ which by [[currying]] is equivalent to the type
 
 $$\prod_{Q:\mathrm{Prop}} \left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right) \to \mathrm{El}(Q)$$
 
-This type is an h-proposition by repeated applications of weak function extensionality: 
+This type is an h-proposition by repeated applications of weak function extensionality and the introduction rule of the type of all propositions: 
 
-...
+$$\mathrm{wfunext}_{\left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right)}\left(\lambda x:\left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right).Q\right):\mathrm{ishProp}\left(\left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right) \to \mathrm{El}(Q)\right)$$
+
+$$\mathrm{toProp}_{\left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right) \to \mathrm{El}(Q)}\left(\mathrm{wfunext}_{\left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right)}\left(\lambda x:\left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right).Q\right)\right):\mathrm{Prop}$$
+
+$$\mathrm{wfunext}_{\prod_{Q:\mathrm{Prop}} \left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right) \to \mathrm{El}(Q)}\left(\lambda Q:\mathrm{Prop}.\mathrm{toProp}_{\left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right) \to \mathrm{El}(Q)}\left(\mathrm{wfunext}_{\left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right)}\left(\lambda x:\left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right).Q\right)\right)\right):\mathrm{ishProp}\left(\prod_{Q:\mathrm{Prop}} \left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right) \to \mathrm{El}(Q)\right)$$
+
+As a result, the existential quantifier $\exists x:A.P(x)$ of the predicate $P:A \to \mathrm{Prop}$ can be defined as the proposition
+
+$$\exists x:A.P(x) \coloneqq \mathrm{toProp}_{\prod_{Q:\mathrm{Prop}} \left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right) \to \mathrm{El}(Q))}\left(\mathrm{wfunext}_{\prod_{Q:\mathrm{Prop}} \left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right) \to \mathrm{El}(Q)}\left(\lambda Q:\mathrm{Prop}.\mathrm{toProp}_{\left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right) \to \mathrm{El}(Q)}\left(\mathrm{wfunext}_{\left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right)}\left(\lambda x:\left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right).Q\right)\right)\right)\right)$$
+
+\subsubsection{Disjunction}
+
+In [[dependent type theory]] which uses the [[propositions as subsingletons]] interpretation, given two h-propositions $A$ and $B$, the existential quantifier is defined as the [[propositional truncation]] of the [[sum type]] $A + B$. Given a [[type of all propositions]], the propositional truncation $[A]$ of a type $A$ is defined as the dependent product type
+
+$$\prod_{Q:\mathrm{Prop}} (A \to \mathrm{El}(Q)) \to \mathrm{El}(Q)$$
+
+Assuming that we have two propositions $P:\mathrm{Prop}$ and $P':\mathrm{Prop}$, substituting the sum type $\mathrm{El}(P) + \mathrm{El}(P')$ in for $A$, we get the following type
+
+$$\prod_{Q:\mathrm{Prop}} \left((\mathrm{El}(P) + \mathrm{El}(P')) \to \mathrm{El}(Q)\right) \to \mathrm{El}(Q)$$
+
+which is equivalent to the type
+
+$$\prod_{Q:\mathrm{Prop}} (\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q)) \to \mathrm{El}(Q)$$
+
+The latter type still makes sense if the dependent type theory doesn't have any pre-defined [[sum types]], such as is the case for higher-order logic. 
+
+This type is an h-proposition by repeated applications of weak function extensionality and the introduction rule of the type of all propositions: 
+
+$$\mathrm{wfunext}_{(\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q))}\left(\lambda x:(\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q)).Q\right):\mathrm{ishProp}\left((\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q)) \to \mathrm{El}(Q)\right)$$
+
+$$\mathrm{toProp}_{(\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q)) \to \mathrm{El}(Q)}\left(\mathrm{wfunext}_{(\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q))}\left(\lambda x:(\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q)).Q\right)\right):\mathrm{Prop}$$
+
+$$\mathrm{wfunext}_{\prod_{Q:\mathrm{Prop}} (\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q)) \to \mathrm{El}(Q)}\left(\mathrm{toProp}_{(\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q)) \to \mathrm{El}(Q)}\left(\mathrm{wfunext}_{(\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q))}\left(\lambda x:(\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q)).Q\right)\right)\right):\mathrm{ishProp}\left(\prod_{Q:\mathrm{Prop}} (\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q)) \to \mathrm{El}(Q)\right)$$
+
+As a result, the disjunction $P \vee P':\mathrm{Prop}$ of the two propositions $P:\mathrm{Prop}$ and $P':\mathrm{Prop}$ can be defined as the proposition
+
+$$P \vee P' \coloneqq \mathrm{toProp}_{\prod_{Q:\mathrm{Prop}} (\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q)) \to \mathrm{El}(Q)}\left(\mathrm{wfunext}_{\prod_{Q:\mathrm{Prop}} (\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q)) \to \mathrm{El}(Q)}\left(\mathrm{toProp}_{(\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q)) \to \mathrm{El}(Q)}\left(\mathrm{wfunext}_{(\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q))}\left(\lambda x:(\mathrm{El}(P) \to \mathrm{El}(Q)) \times (\mathrm{El}(P') \to \mathrm{El}(Q)).Q\right)\right)\right)\right)$$
 
 \subsection{Excluded middle}
 
-The above rules are sufficient for [[intuitionistic logic|intuitionistic]] [[higher-order logic]]. However, higher-order logics like [[HOL]] and [[Isabelle]] are classical logics, and so require an additional axiom: the [[law of excluded middle]], which says that the propositin $P$ is either true or false:
+The above rules are sufficient for [[intuitionistic logic|intuitionistic]] [[higher-order logic]]. However, higher-order logics like [[HOL]] and [[Isabelle]] are classical logics, and so require an additional axiom: the [[law of excluded middle]], which says that the proposition $P$ is either true or false:
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \prod_{P:\mathrm{Prop}} \mathrm{El}(P) \vee \neg \mathrm{El}(P)}$$
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{lem}:\prod_{P:\mathrm{Prop}} \mathrm{El}(P \vee \neg P)}$$
 
 \section{Related concepts}
 
@@ -322,6 +382,8 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \prod_{P:\mathrm{Prop}} \mathrm{El
 \section{References}
 
 * {#Jacobs98} [[Bart Jacobs]], Chapter 10 in: *Categorical Logic and Type Theory*, Studies in Logic and the Foundations of Mathematics **141**, Elsevier (1998)  &lbrack;[ISBN:978-0-444-50170-7](https://www.sciencedirect.com/bookseries/studies-in-logic-and-the-foundations-of-mathematics/vol/141), [pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)&rbrack;
+
+* {#UFP13} [[Univalent Foundations Project]], *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 * {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
