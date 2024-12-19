@@ -74,3 +74,5 @@ Compare with [[propositions as sets]], which is the [[BHK interpretation]] of th
 [[!redirects propositions as some types]]
 [[!redirects propositions as subsingletons]]
 [[!redirects propositions as (-1)-truncated types]]
+[[!redirects propositions as codes for subsingletons]]
+[[!redirects propositions as codes for (-1)-truncated types]]
