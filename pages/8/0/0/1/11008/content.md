@@ -38,7 +38,6 @@ Isabelle/HOL_ ([pdf](https://kwarc.info/people/frabe/Research/RI_isabelle_10.pdf
 *  M. J. C. Gordon and T. F. Melham (editors), _Introduction to HOL: A
 Theorem Proving Environment for Higher Order Logic_, 1993
 
-* Michael Norrish and Konrad Slind, *The HOL System
-LOGIC* ([pdf](https://master.dl.sourceforge.net/project/hol/hol/trindemossen-1/trindemossen-1-logic.pdf?viasf=1))
+* Michael Norrish and Konrad Slind, *The HOL System LOGIC* ([pdf](https://master.dl.sourceforge.net/project/hol/hol/trindemossen-1/trindemossen-1-logic.pdf?viasf=1))
 
 [[!redirects HOL light]]
