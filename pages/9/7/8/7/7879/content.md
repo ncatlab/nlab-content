@@ -120,6 +120,8 @@ The use of Haskell in [[mathematics]] is discussed in the following references.
 
 * Dan Piponi, ["What Category do Haskell Types and Functions Live In?"](http://blog.sigfpe.com/2009/10/what-category-do-haskell-types-and.html), October 13, 2009.
 
+* Shuichi Yukita: *Category Theory Using Haskell -- An Introduction with Moggi and Yoneda* &lbrack;[doi:10.1007/978-3-031-68538-5](https://doi.org/10.1007/978-3-031-68538-5)&rbrack;
+
 The [[Kenzo]]-program for [[constructive mathematics|constructive]] [[algebraic topology]] ([[computational topology]]) re-written in [[Haskell]]:
 
 * [[Mitchell Riley]]: [github.com/mvr/at](https://github.com/mvr/at)
