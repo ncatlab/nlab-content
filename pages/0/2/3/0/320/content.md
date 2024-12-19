@@ -94,6 +94,8 @@ The adjunction is also [[comonadic]], and is consequently an example of a [[nucl
 
 There is also a [[fully faithful]] 2-functor $StrMonCat_l \to Multicat$ (abstractly, this is the forgetful functor from the 2-category of [[strict algebras]] and [[lax morphisms]] for the induced 2-monad).
 
+For details on some of this material see ([Hermida 2000](Hermida2000)).
+
 ### Exponentiability
 
 A multicategory is [[exponentiable object|exponentiable]] if and only if it is [[promonoidal category|promonoidal]] (Proposition 2.8 of [Pisani 2014](#Pisani14)). In particular, [[representable multicategories]] and [[sequential multicategories]] are exponentiable. This gives an abstract construction of the [[Day convolution]] tensor product on $[C, D]$ for any [[promonoidal category]] $C$ and any [[monoidal category]] $D$: it is precisely the (representable) multicategory structure on the functor multicategory $D^C$.
@@ -135,6 +137,10 @@ and developed further in:
 
 * Joachim Lambek, _Multicategories revisited_, Contemp. Math 92 (1989): 217-239.
 
+Hermida constructed a monadic 2-adjunction between the 2-category of nonsymmetric colored operads in $(Set, \times)$ (which he calls [[multicategories]]) and the 2-category of strict monoidal categories in Theorem 7.2 of this paper:
+
+* {#Hermida2000} [[Claudio Hermida]], _Representable multicategories_, Advances in Mathematics, Volume 151, Issue 2, 2000, 164-225.  ([pdf](https://www.sciencedirect.com/science/article/pii/S0001870899918777/)) 
+
 See also:
 
 * [[Tom Leinster]], _Higher operads, higher categories_, London Math. Soc. Lec. Note Series __298__, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049)
@@ -142,7 +148,11 @@ See also:
 
 * {#Pisani14} [[Claudio Pisani]], _Sequential multicategories_, Theory and Applications of Categories 29.19 (2014), [arXiv:1402.0253](https://arxiv.org/abs/1402.0253)
 
-* Section 2 of Elmendorf, Anthony D., and Michael A. Mandell. "Permutative categories, multicategories and algebraic K–theory." Algebraic & Geometric Topology 9.4 (2009): 2391-2441.
+In this paper Elmendorf and Mandell use "multicategory" to mean what others call a *symmetric* multicategory, or symmetric colored operad:
+
+* {#ElmendorfMandell2007} A. D. Elmendorf and M. A. Mandell, _Permutative categories, multicategories, and algebraic K-theory_ Algebraic & Geometric Topology 9.4 (2009): 2391-2441. ([arXiv:0710.0082](https://arxiv.org/abs/0710.0082))
+
+For more, see [[operad#relation_to_symmetric_monoidal_categories|Operad: relation to symmetric monoidal categories]].
 
 [[!redirects multicategories]]
 
