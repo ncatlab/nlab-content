@@ -305,6 +305,7 @@ In all forms of [[dependent type theory]] with [[identity types]], [[dependent p
 * [[type of propositions]]
 * [[two-level type theory]]
 * [[type theory with shapes]]
+* [[higher order logic as a dependent type theory]]
 
 \section{Bibliography}
 
