@@ -624,6 +624,8 @@ taking values in the coefficients of the given cohomology theory. Note that in t
 
   * [[fiber integration in K-theory]]
 
+* [[differential geometry and algebraic geometry]]
+
 [[!include generalized fiber integration synonyms - table]]
 
 ## References
