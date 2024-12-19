@@ -189,12 +189,16 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, b:A \vdash a =_A b \; \ma
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A \vdash \mathrm{refl}_A(a) : a =_A a}$$
 
 * Elimination rule for identity types:
-$$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C(a, b, p) \mathrm{type} \quad \Gamma \vdash t:\prod_{x:A} C(x, x, \mathrm{refl}_A(x))}{\Gamma, a:A, b:A, p:a =_A b \vdash J(t, a, b, p):C(a, b, p)}$$
+$$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C(a, b, p) \; \mathrm{type} \quad \Gamma \vdash t:\prod_{x:A} C(x, x, \mathrm{refl}_A(x))}{\Gamma, a:A, b:A, p:a =_A b \vdash J(t, a, b, p):C(a, b, p)}$$
 
 * Computation rules for identity types:
-$$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C(a, b, p) \mathrm{type} \quad \Gamma \vdash t:\prod_{x:A} C(x, x, \mathrm{refl}_A(x))}{\Gamma, x:A \vdash J(t, x, x, \mathrm{refl}(x)) \equiv t(x):C(x, x, \mathrm{refl}_A(x))}$$
+$$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C(a, b, p) \; \mathrm{type} \quad \Gamma \vdash t:\prod_{x:A} C(x, x, \mathrm{refl}_A(x))}{\Gamma, x:A \vdash J(t, x, x, \mathrm{refl}(x)) \equiv t(x):C(x, x, \mathrm{refl}_A(x))}$$
 
 \subsubsection{Type of all propositions}
+
+In [[dependent type theory]], a type $A$ is a [[subsingleton]] or [[h-proposition]] if for all $x:A$ and $y:A$ there is $p(x, y):x =_A y$. This is usually represented as a term $p$ of a dependent function type
+
+$$\mathrm{ishProp}(A) \coloneqq \prod_{x:A} \prod_{y:A} x =_A y$$
 
 The type of all propositions is given by the following [[natural deduction]] [[inference rules]]:
 
@@ -202,16 +206,16 @@ The type of all propositions is given by the following [[natural deduction]] [[i
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Prop} \; \mathrm{type}}$$
 
 * Introduction rules for the type of all propositions:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toProp}_A:\mathrm{isProp}(A) \to \mathrm{Prop}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toProp}_A:\mathrm{ishProp}(A) \to \mathrm{Prop}}$$
 
 * Elimination rules for the type of all propositions:
-$$\frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash \mathrm{El}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(\mathrm{El}(A))}$$
+$$\frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash \mathrm{El}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash \mathrm{proptrunc}(A):\mathrm{ishProp}(\mathrm{El}(A))}$$
 
 * Computation rules for the type of all propositions:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \mathrm{El}(\mathrm{toProp}_A(p)) \equiv A \; \mathrm{type}}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{ishProp}(A)}{\Gamma \vdash \mathrm{El}(\mathrm{toProp}_A(p)) \equiv A \; \mathrm{type}}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(A)}{\Gamma \vdash \mathrm{proptrunc}(\mathrm{toProp}_A(p)) \equiv p:\mathrm{isProp}(A)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{ishProp}(A)}{\Gamma \vdash \mathrm{proptrunc}(\mathrm{toProp}_A(p)) \equiv p:\mathrm{isProp}(A)}$$
 
 * Uniqueness rules for the type of all propositions:
 
@@ -225,7 +229,7 @@ $$\frac{\Gamma \vdash A:\mathrm{Prop} \quad \Gamma \vdash B:\mathrm{Prop}} {\Gam
 
 * Weak function extensionality:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B:A \to \mathrm{Prop}}{\Gamma \vdash \mathrm{wfunext}(A, B):\mathrm{isProp}\left(\prod_{x:A} \mathrm{El}(B(x))\right)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B:A \to \mathrm{Prop}}{\Gamma \vdash \mathrm{wfunext}(A, B):\mathrm{ishProp}\left(\prod_{x:A} \mathrm{El}(B(x))\right)}$$
 
 \subsection{Constructing the logical operators}
 
