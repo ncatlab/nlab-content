@@ -122,11 +122,13 @@ Let $C$ be a [[set]], called the _set of colors_ . Then a **colored operad** $P$
 
 An equivalent term for a colored operad in $V$ is a [[symmetric multicategory]] which is [[enriched category|enriched]] over $V$.  Which term is used depends on the author and the point of view being taken.  (According to the common terminology of [[horizontal categorification]], one might also call a colored operad an "operad-oid," but thankfully this seems not to be common.  On the other hand one might adapt the terminology backwards and call a [[category]] a "colored [[monoid]]" or call a [[groupoid]] a "colored [[group]]".)
 
-### Relation to monoidal categories
+### Relation to symmetric monoidal categories
 
 Every [[symmetric monoidal category|symmetric]] [[strict monoidal category]] $M$ has an underlying colored operad $P$ in $V = (Set, \times)$ where the set of colors is the set of all objects of $M$ and each $P(c_1, \cdots, c_n; c)$ is the set of all morphisms from $c_1 \otimes \cdots \otimes c_n$ to $c$, with composition and identities defined using those in $V$.  Conversely each colored operad in $(Set, \times)$ freely generates a symmetric strict monoidal category.  This gives rise to an adjunction between the category of colored operads in $(Set, \times)$ and the category of strict symmetric monoidal categories ([Elmendorf-Mandell 2007](#ElmendorfMandell2007)).  
 
-There is also an analogous adjunction between _non-symmetric_ colored operads, better known as [[multicategories]], and  monoidal categories.  This has been worked out at the 2-categorical level ([Hermida 2000](Hermida2000)).
+There is also an analogous adjunction between _non-symmetric_ colored operads, better known as [[multicategories]], and  monoidal categories. This was first worked out as a 2-adjunction between 2-categories ([Hermida 2000](Hermida2000)).  For more details, see [[multicategory#relation_to_monoidal_categories|Multicategory: relation to monoidal categories]].
+
+This 2-categorical treatment was later generalized to the symmetric case ([Weber 2009](Weber2009)).  Namely, there is a forgetful 2-functor from the 2-category of [[symmetric monoidal categories]], symmetric [[lax monoidal functors]] and [[monoidal natural transformations]] to a 2-category of colored operads in $(Set, \times)$, and this has a left 2-adjoint.  In fact symmetric monoidal categories may be seen as the adjoint pseudo-algebras of a lax idempotent 2-monad on the 2-category of colored operads in $(Set, \times)$.
 
 ### Algebras 
 
@@ -545,16 +547,17 @@ Hermida constructed a monadic 2-adjunction between the 2-category of nonsymmetri
 
 * {#Hermida2000} [[Claudio Hermida]], Representable multicategories, Advances in Mathematics, Volume 151, Issue 2, 2000, 164-225.  ([pdf](https://www.sciencedirect.com/science/article/pii/S0001870899918777/)) 
 
-Elmendorf and Mandell constructed an adjunction between the category of colored operads in $(Set, \times)$ (which they call "multicategories") and the category of symmetric strict monoidal categories (which they call "permutative categories") in Theorem 4.3 of this paper:
+Elmendorf and Mandell constructed an adjunction between the category of symmetric colored operads in $(Set, \times)$ (which they call "multicategories") and the category of symmetric strict monoidal categories (which they call "permutative categories") in Theorem 4.3 of this paper:
 
-* {#ElmendorfMandel2007} A. D. Elmendorf and M. A. Mandell, _Permutative categories, multicategories, and algebraic K-theory_ ([arXiv:0710.0082](https://arxiv.org/abs/0710.0082))
+* {#ElmendorfMandell2007} A. D. Elmendorf and M. A. Mandell, _Permutative categories, multicategories, and algebraic K-theory_ Algebraic & Geometric Topology 9.4 (2009): 2391-2441. ([arXiv:0710.0082](https://arxiv.org/abs/0710.0082))
 
+Weber treated a related adjunction at the 2-categorical level in Section 3.3 of this paper, using the term "symmetric multicategory" to mean the same thing as "colored operad in $(Set, \times)$":
+
+* {Weber2009} [[Mark Weber]], Free products of higher operad algebras.  ([arXiv:0909.4722](https://arxiv.org/abs/0909.4722))
 
 On operads as [[double functors]] between certain [[double categories]]:
 
 * [[Claudio Pisani]], _Operads as double functors_ ([arXiv:2208.07028](https://arxiv.org/abs/2208.07028))
-
-
 
 [[!redirects operads]]
 
