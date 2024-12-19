@@ -19,7 +19,7 @@ A _higher-order logic_ is any [[logic]] which features _higher-order predicates_
 
 [[type theory|Typed]] higher-order logic may be called higher-order type theory. Typed higher-order [[intuitionistic logic]] is often identified with the [[internal logic]] of a [[topos]].
 
-There are also examples of [[dependent type theory|dependently typed]] higher-order logics. One example of a dependently typed higher-order logic is a [[dependent type theory]] with a separate [[type]] [[judgment]], [[identity types]], [[dependent sum types]], [[dependent product types]], [[weak function extensionality]], a [[type of all propositions]], and a [[natural numbers type]]. This uses the [[propositions as some types]] interpretation of [[dependent type theory]].
+There are also examples of [[dependent type theory|dependently typed]] higher-order logics. One example of a dependently typed higher-order logic is a [[dependent type theory]] with a separate [[type]] [[judgment]], [[identity types]], [[dependent sum types]], [[dependent product types]], [[weak function extensionality]] and a [[type of all propositions]]. This uses the [[propositions as some types]] interpretation of [[dependent type theory]].
 
 ## Related concepts
 
@@ -35,6 +35,8 @@ There are also examples of [[dependent type theory|dependently typed]] higher-or
 
     * [[HOL]], [[Isabelle]]
     * Girard's System Fω (also called λω) and Coquand-Huet's [[calculus of constructions]] are the higher-order subsystems of [[pure type system#lambda_cube|Barendregt's lambda-cube]]
+
+  * [[higher-order logic as a dependent type theory]]
 
 * [[higher-order abstract syntax]]
 
@@ -64,6 +66,11 @@ There are also examples of [[dependent type theory|dependently typed]] higher-or
 [[!redirects higher order proposition]]
 [[!redirects higher order propositions]]
 [[!redirects higher-order predicate]]
-[[!redirects higher-order predicate]]
+[[!redirects higher-order predicates]]
 [[!redirects higher order predicate]]
-[[!redirects higher order predicate]]
+[[!redirects higher order predicates]]
+
+[[!redirects dependently typed higher-order logic]]
+[[!redirects dependently typed higher-order logics]]
+[[!redirects dependently typed higher order logic]]
+[[!redirects dependently typed higher order logics]]
