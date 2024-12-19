@@ -26,7 +26,7 @@
 
 Higher-order logic is a [[logic]] which contains the notion of [[higher-order predicates]], which are functions between [[predicates]]. Traditionally, higher-order logic, such as [[HOL4]] or [[Isabelle]], is presented as a [[simple type theory]]. In addition, intuitionistic higher-order logic is said to be the [[internal logic]] of an [[elementary topos]], and classical higher-order logic is said to be the internal logic of a [[Boolean topos]]. However, an elementary topos or Boolean topos is a [[locally cartesian closed category]], whose internal logic is a [[dependent type theory]]. This implies that higher-order logic can be presented as a [[dependent type theory]]. 
 
-Dependent type theory already has the ability to form higher-order functions via iterated [[function types]]. The only thing that is missing in dependent type theory is the ability to construct predicates, which are functions into a set of truth values. This is represented by an [[impredicative mathematics|impredicative]] [[type of all propositions]] $\mathrm{Prop}$ in dependent type theory. The idea behind the [[type of all propositions]] in dependent type theory is that [[propositions are codes for subsingletons]], and so for each proposition $P:\mathrm{Prop}$, it is possible to construct a type $\mathrm{El}(P)$ and a witness that $\mathrm{El}(P)$ is a [[subsingleton]] or [[h-propositions]]. 
+Dependent type theory already has the ability to form higher-order functions via iterated [[function types]]. The only thing that is missing in dependent type theory is the ability to construct predicates, which are functions into a set of truth values. This is represented by an [[impredicative mathematics|impredicative]] [[type of all propositions]] $\mathrm{Prop}$ in dependent type theory. The idea behind the [[type of all propositions]] in dependent type theory is the principle of [[propositions as codes for subsingletons]], and so for each proposition $P:\mathrm{Prop}$, it is possible to construct a type $\mathrm{El}(P)$ and a witness that $\mathrm{El}(P)$ is a [[subsingleton]] or [[h-propositions]]. 
 
 Adding a [[type of all propositions]] to dependent type theory is sufficient to construct all the usual first-order logical operations and values that are also required for higher-order logic, such as [[truth]], [[falsehood]], [[disjunction]], [[conjunction]], [[implication]], [[negation]], [[exclusive disjunction]], the [[existential quantifier]], the [[uniqueness quantifier]], and the [[universal quantifier]]. This is in contrast to higher-order logic presented as a [[simple type theory]], where each of the logical operations have to be added to the theory using [[axioms]]. 
 
@@ -229,11 +229,73 @@ $$\frac{\Gamma \vdash A:\mathrm{Prop} \quad \Gamma \vdash B:\mathrm{Prop}} {\Gam
 
 * Weak function extensionality:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B:A \to \mathrm{Prop}}{\Gamma \vdash \mathrm{wfunext}(A, B):\mathrm{ishProp}\left(\prod_{x:A} \mathrm{El}(B(x))\right)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B:A \to \mathrm{Prop}}{\Gamma \vdash \mathrm{wfunext}_A(B):\mathrm{ishProp}\left(\prod_{x:A} \mathrm{El}(B(x))\right)}$$
 
 \subsection{Constructing the logical operators}
 
 TBD: Show how to construct [[truth]], [[falsehood]], [[disjunction]], [[conjunction]], [[implication]], [[negation]], [[exclusive disjunction]], the [[existential quantifier]], the [[uniqueness quantifier]], and the [[universal quantifier]] from [[dependent product types]], [[dependent sum types]], [[identity types]], and the [[type of all propositions]]. 
+
+\subsubsection{Universal quantification}
+
+Given any type $A$ and predicate $P:A \to \mathrm{Prop}$ by [[weak function extensionality]], the [[dependent function type]] $\prod_{x:A} \mathrm{El}(P(x))$ is an [[h-proposition]]: 
+
+$$\mathrm{wfunext}_A(P):\mathrm{ishProp}\left(\prod_{x:A} \mathrm{El}(P(x))\right)$$
+
+This means that the [[universal quantifier]] can be defined via the introduction rules of the type of all propositions as 
+
+$$\forall x:A.P(x) \coloneqq \mathrm{toProp}_{\prod_{x:A} \mathrm{El}(P(x))}(\mathrm{wfunext}_A(P))$$
+
+\subsubsection{Falsehood}
+
+By [[weak function extensionality]], the dependent product type $\prod_{P:\mathrm{Prop}} \mathrm{El}(P)$ is a [[h-proposition]] with witness 
+
+$$\mathrm{wfunext}(\mathrm{Prop}, \mathrm{id}_\mathrm{Prop}):\mathrm{ishProp}\left(\prod_{P:\mathrm{Prop}} \mathrm{El}(P)\right)$$
+
+This dependent product type is the [[empty type]], since the definition implies that if the type has an element, then every proposition has an element and is thus a [[contractible type]]. Since the empty type is the subsingleton / h-proposition representation of [[falsehood]], this means that falsehood $\bot:\mathrm{Prop}$ can be defined via the introduction rules of the type of all propositions as 
+
+$$\bot \coloneqq \mathrm{toProp}_{\prod_{P:\mathrm{Prop}} \mathrm{El}(P)}(\mathrm{wfunext}_\mathrm{Prop}(\mathrm{id}_\mathrm{Prop}))$$
+
+\subsubsection{Implication and negation}
+
+Given any proposition $Q:\mathrm{Prop}$ and $P:\mathrm{Prop}$, one can define the constant predicate $\lambda x:\mathrm{El}(Q).P:\mathrm{El}(Q) \to \mathrm{Prop}$. By definition of [[function type]] in [[dependent type theory]], the function type $\mathrm{El}(Q) \to \mathrm{El}(P)$ is defined as the [[dependent function type]] 
+
+$$\mathrm{El}(Q) \to \mathrm{El}(P) \coloneqq \prod_{x:\mathrm{El}(Q)} \mathrm{El}(P) \equiv \prod_{x:\mathrm{El}(Q)} \mathrm{El}((\lambda x:\mathrm{El}(Q).P)(x))$$
+
+which is an [[h-proposition]] by [[weak function extensionality]]: 
+
+$$\mathrm{wfunext}_{\mathrm{El}(Q)}(\lambda x:\mathrm{El}(Q).P):\mathrm{ishProp}\left(\prod_{x:\mathrm{El}(Q)} \mathrm{El}((\lambda x:\mathrm{El}(Q).P)(x))\right)$$
+
+This means that implication $Q \Rightarrow P$ can be defined as the following proposition:
+
+$$Q \Rightarrow P \coloneqq \mathrm{toProp}_{\prod_{x:\mathrm{El}(Q)} \mathrm{El}((\lambda x:\mathrm{El}(Q).P)(x))}(\mathrm{wfunext}_{\mathrm{El}(Q)}(\lambda x:\mathrm{El}(Q).P))$$
+
+The negation $\neg P$ of a proposition $P:\mathrm{Prop}$ is given by implication into falsehood:
+
+$$\neg P \coloneqq P \Rightarrow \bot$$
+
+\subsubsection{Truth}
+
+There are many different ways of defining truth $\top:\mathrm{Prop}$. One definition is defining truth as false implying false, i.e. the negation of false:
+
+$$\top \coloneqq \bot \Rightarrow \bot$$
+
+\subsubsection{Existential quantifier}
+
+In [[dependent type theory]] which uses the [[propositions as subsingletons]] interpretation, given a type $A$ and a family of [[h-propositions]] $(P(x))_{x:A}$, the existential quantifier is defined as the [[propositional truncation]] of the [[dependent sum type]] $\sum_{x:A} P(x)$. Given a [[type of all propositions]], the propositional truncation $[A]$ of a type $A$ is defined as the dependent product type
+
+$$\prod_{Q:\mathrm{Prop}} (A \to \mathrm{El}(Q)) \to \mathrm{El}(Q)$$
+
+Assuming that we have a predicate $P:A \to \mathrm{Prop}$, substituting the dependent sum type $\sum_{x:A} \mathrm{El}(P(x))$ in for $A$, we get the following type
+
+$$\prod_{Q:\mathrm{Prop}} \left(\left(\sum_{x:A} \mathrm{El}(P(x))\right) \to \mathrm{El}(Q)\right) \to \mathrm{El}(Q)$$
+
+which by [[currying]] is equivalent to the type
+
+$$\prod_{Q:\mathrm{Prop}} \left(\prod_{x:A} (\mathrm{El}(P(x)) \to \mathrm{El}(Q))\right) \to \mathrm{El}(Q)$$
+
+This type is an h-proposition by repeated applications of weak function extensionality: 
+
+...
 
 \subsection{Excluded middle}
 
