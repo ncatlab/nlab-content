@@ -964,7 +964,7 @@ With [[excluded middle]] then:
 
 Let $R$ be a [[commutative ring]], and let $\mathcal{F} \subset R$ be an ideal in $R$, hence $V(\mathcal{F}) \subset Spec(R)$ is a Zariski closed subset in the [[prime spectrum of a commutative ring|prime spectrum]] of $R$. Then the following are equivalent:
 
-1. $V(\mathcal{F})$ is an [[irreducible closed subset]];
+1. $\mathcal{F}$ is a [[radical ideal]] and $V(\mathcal{F})$ is an [[irreducible closed subset]];
 
 1. $\mathcal{F}$ is a [[prime ideal]].
 
@@ -1064,21 +1064,26 @@ $$
      \,\text{or}\,
      \left(
        V(\mathcal{F}) \subset V(g)
+     \right)\\
+     \Leftrightarrow\,&
+     \left(
+         f \in nil(\mathcal{F})
      \right)
-     \\
-     \Leftrightarrow\,
-     &
+     \,\text{or}\,
+     \left(
+        g \in nil(\mathcal{F})
+     \right)\\
+     \Leftrightarrow\,&
      \left(
          f \in \mathcal{F}
      \right)
      \,\text{or}\,
      \left(
         g \in \mathcal{F}
-     \right)
-     \,.
+     \right),\\
   \end{aligned}
 $$
-
+where the last equivalence uses the fact that $\mathcal{F}$ is a [[radical ideal]].
 
 Now for the converse. Assume that $\mathcal{F}$ is a prime ideal and that $V(\mathcal{F}) = V(\mathcal{F}_1) \cup V(\mathcal{F}_2)$. Observe (as in the [proof](#WellDefinedZariskiTopologyOnSpecRProof) of prop. \ref{WellDefinedZariskiTopologyOnSpecR}) that this means equivalently that $\mathcal{F} = \mathcal{F}_1 \cdot \mathcal{F}_2$.
 We need to show
