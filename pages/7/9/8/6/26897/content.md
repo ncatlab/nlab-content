@@ -18,7 +18,7 @@ Over a decade before the [modern formulation](AdS-CFT+correspondence#ReferencesO
 \end{imagefromfile}
 
 
-[[immersion|Immersing]] the [[worldvolume]] of a [[sigma-model]] [[super p-brane|super $p$-brane]] (hence a "light" [[brane]] without [[backreaction]]) along the [[near horizon geometry]] (an [[anti de Sitter spacetime|AdS]] [[supergravity]] solution) of its own [[black brane]] incarnation  (hence the "heavy" incarnation of the same brane, causing [[backreaction]]), its [[worldvolume]] fluctuations (after [[super-diffeomorphism]] [[gauge fixing]]) are described by the corresponding [[superconformal field theory]] (exhibited by [[superconformal multiplets]] such as "*[[supersingletons]]*").
+[[immersion|Immersing]] the [[worldvolume]] of a [[sigma-model]] [[super p-brane|super $p$-brane]] (hence a "light" [[brane]] without [[backreaction]]) along the [[near horizon geometry]] (an [[anti de Sitter spacetime|AdS]] [[supergravity]] solution) of its own [[black brane]] incarnation  (hence the "heavy" incarnation of the same brane, causing [[backreaction]]), its [[worldvolume]] fluctuations (after [[super-diffeomorphism]] [[gauge fixing]]) are described by the corresponding [[superconformal field theory]] (exhibited by [[superconformal multiplets]] such as "*[[supersingletons]]*") \[graphics from [[schreiber:Holographic M-Brane Super-Embeddings|GSS24]]\].
 
 The original observation for the [[M2-brane]]:
 
