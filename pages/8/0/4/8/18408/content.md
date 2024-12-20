@@ -67,13 +67,13 @@ Review:
 Further discussion includes
  {#FurtherDiscussion}
 
-* Clifford Cheung, Grant N. Remmen, _Naturalness and the Weak Gravity Conjecture_, Phys. Rev. Lett. 113, 051601 (2014) ([arXiv:1402.2287](https://arxiv.org/abs/1402.2287))
+* [[Clifford Cheung]], [[Grant N. Remmen]]: *Naturalness and the Weak Gravity Conjecture*, Phys. Rev. Lett. **113** 051601 (2014) &lbrack;[arXiv:1402.2287](https://arxiv.org/abs/1402.2287), [doi:10.1103/PhysRevLett.113.051601](https://doi.org/10.1103/PhysRevLett.113.051601)&rbrack;
 
 * Yu Nakayama, Yasunori Nomura, _Weak Gravity Conjecture in AdS/CFT_, Phys. Rev. D 92, 126006 (2015) ([arXiv:1509.01647](https://arxiv.org/abs/1509.01647))
 
 * [[Ben Heidenreich]], [[Matthew Reece]], [[Tom Rudelius]], _Sharpening the Weak Gravity Conjecture with Dimensional Reduction_, JHEP02(2016)140 ([arXiv:1509.06374](https://arxiv.org/abs/1509.06374))
 
-* Clifford Cheung, Junyu Liu, Grant N. Remmen, _Proof of the Weak Gravity Conjecture from Black Hole Entropy_ ([arXiv:1801.08546](https://arxiv.org/abs/1801.08546))
+* [[Clifford Cheung]], Junyu Liu, [[Grant N. Remmen]]: *Proof of the Weak Gravity Conjecture from Black Hole Entropy* &lbrack;[arXiv:1801.08546](https://arxiv.org/abs/1801.08546), <a href="https://doi.org/10.1007/JHEP10(2018)004">doi:10.1007/JHEP10(2018)004</a>&rbrack;
 
 * Miguel Montero, _A Holographic Derivation of the Weak Gravity Conjecture_,  JHEP 03 (2019) 157 ([arXiv:1812.03978](https://arxiv.org/abs/1812.03978))
 
