@@ -219,6 +219,8 @@ Further discussion and review:
 
 * [[Kirill Krasnov]], §1.12 in: *Formulations of General Relativity*, Cambridge Monographs on Mathematical Physics, Cambridge University Press (2020) &lbrack;[doi:10.1017/9781108674652](https://doi.org/10.1017/9781108674652), taster:[pdf](https://www.maths.nottingham.ac.uk/plp/pmzkk/book_taster.pdf)&rbrack;
 
+* [[Roberto Percacci]]: *Non-Perturbative Quantum Field Theory -- An Introduction to Topological and Semiclassical Methods*, SISSA & ICTP (2024) &lbrack;[doi:10.22323/9788898587056](https://doi.org/10.22323/9788898587056), [pdf](https://library.oapen.org/bitstream/handle/20.500.12657/96025/9788898587056.pdf)&rbrack;
+
 
 Specifically in [[solid state physics]] ([[valence bundles]] and their [[K-theory classification of topological phases of matter]]):
 
