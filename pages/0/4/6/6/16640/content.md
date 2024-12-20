@@ -30,7 +30,7 @@ By taking $G$ and $A$ to be [[finite set|finite]] and counting elements, we get 
 
 $${|A|} = \sum_{orbits x} \frac{{|G|}}{{|Stab(a_x)|}}.$$ 
 
-We call an instance of this equation a *class equation*. By judicious choice of groups $G$ and $G$-sets $A$, often in combination with [[number theory|number-theoretic]] arguments, one can derive many useful consequences; some sample applications are given below. 
+This is sometimes called *Burnside's lemma*, *Burnside's counting theorem*, the *Cauchy–Frobenius lemma*, or the *orbit-counting theorem*.  Here we shall call an instance of this equation a *class equation*. By judicious choice of groups $G$ and $G$-sets $A$, often in combination with [[number theory|number-theoretic]] arguments, one can derive many useful consequences; some sample applications are given below. 
 
 Notice that reading the class equation equivalently as 
 
@@ -181,11 +181,18 @@ The Sylow theorems are routinely used throughout group theory. As a sample appli
 We have $n_p|q$ by Corollary \ref{numbertwoSylow}, but $n_p \neq q$ (using Theorem \ref{numberSylow} and $q \nequiv 1\; \mod p$), so $n_p = 1$. Arguing similarly we have $n_q|p^2$ but $n_q \neq p$ and $n_q \neq p^2$, so $n_q = 1$. The $p$-Sylow subgroup $P$ of order $p^2$ and the $q$-Sylow subgroup $Q$ of order $q$ are both abelian. $P \cap Q = \{1\}$ since $p, q$ are relatively prime, and $P, Q$ are normal subgroups of $G$ since $n_p, n_q$ are both $1$. It follows that $P Q$ is a subgroup of order $p^2 q$, hence $P Q = G$. Thus to prove $G$ abelian, it suffices to show that if $x \in P$ and $y \in Q$, then $x$ and $y$ commute, i.e., $x y x^{-1} y^{-1} = 1$. But by normality of $Q$, the element $(x y x^{-1}) y^{-1}$ belongs to $Q$; similarly, the element $x(y x^{-1} y^{-1})$ belongs to $P$, and so $x y x^{-1} y^{-1} \in P \cap Q = \{1\}$. The result follows. 
 =-- 
 
+
 ## Related concepts
 
 * [[class function]]
 
 * [[Klein geometry]]
+
+## References ##
+
+For more see 
+
+* _Burnside's lemma_, [Wikipedia](https://en.wikipedia.org/wiki/Burnside%27s_lemma).
 
 [[!redirects class equations]]
 
