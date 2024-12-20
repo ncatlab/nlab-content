@@ -94,13 +94,13 @@ See _[[ekpyrotic cosmology]]_.
 
 * Shinji Tsujikawa, _Introductory review of cosmic inflation_,  lecture notes given at The Second Tah Poe School on Cosmology _Modern Cosmology_, Naresuan (2003) ([arXiv:hep-ph/0304257](http://arxiv.org/abs/hep-ph/0304257)).
 
-* Jerome Martin, Christophe Ringeval, Vincent Vennin, _Encyclopaedia Inflationaris_ ([arXiv:1303.3787](http://arxiv.org/abs/1303.3787))
+* Jerome Martin, Christophe Ringeval, Vincent Vennin, *Encyclopaedia Inflationaris*, Phys. Dark Univ. **5**-**6** (2014) 75-235 &lbrack;[arXiv:1303.3787](https://arxiv.org/abs/1303.3787), [doi:10.1016/j.dark.2014.01.003](https://doi.org/10.1016/j.dark.2014.01.003)&rbrack;
+
 
 * Jerome Martin, _The Theory of Inflation_ ([arXiv:1807.11075](https://arxiv.org/abs/1807.11075))
 
 * Debika Chowdhury, Jerome Martin, Christophe Ringeval, Vincent Vennin, _Inflation after Planck: Judgment Day_ ([arXiv:1902.03951](https://arxiv.org/abs/1902.03951))
 
-* Jerome Martin, Christophe Ringeval, Vincent Vennin, *Encyclopaedia Inflationaris*, Phys. Dark Univ. **5**-**6** (2014) 75-235 &lbrack;[arXiv:1303.3787](https://arxiv.org/abs/1303.3787), [doi:10.1016/j.dark.2014.01.003](https://doi.org/10.1016/j.dark.2014.01.003)&rbrack;
 
 
 With emphasis on the [[Schwinger effect]]:
