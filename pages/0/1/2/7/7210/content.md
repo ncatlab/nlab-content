@@ -23,6 +23,11 @@ On the regularized [[quantization]] of the [[supermembrane]] (the [[kappa-symmet
 
 * [[Bernard de Wit]], W. L&#252;scher, [[Hermann Nicolai]], _The supermembrane is unstable_, Nucl. Phys. B320 (1989) 135 ([spire:266584](http://inspirehep.net/record/266584/), <a href="https://doi.org/10.1016/0550-3213(89)90214-9">doi:10.1016/0550-3213(89)90214-9</a>)
 
+On [[D=3 supergravity]]:
+
+* [[Bernard de Wit]], A.K. Tollsten, [[Hermann Nicolai]], _Locally supersymmetric D=3 non-linear sigma models_, Nucl. Phys. B **392** (1993) 3-38 &lbrack;[arXiv:hep-th/9208074](https://arxiv.org/abs/hep-th/9208074), <a href="https://doi.org/10.1016/0550-3213(93)90195-U">doi:10.1016/0550-3213(93)90195-U</a>&rbrack;
+
+
 On [[super anti de Sitter spacetime|super-$AdS_4$]] ([[superspace|super]]-[[near horizon geometry]] of [[black brane|black]] [[M2-branes]] as in [[AdS4/CFT3-duality]]):
 
 * [[Bernard de Wit]], [[Kasper Peeters]], [[Jan Plefka]], [[Alexander Sevrin]], *The M-theory two-brane in $AdS_4 \times S^7$ and $AdS_7 \times S^4$*, Physics Letters B **443** 1-4 (1998) 153-158 &lbrack;<a href="https://doi.org/10.1016/S0370-2693(98)01340-9">doi:10.1016/S0370-2693(98)01340-9</a>, [inspire:474621](https://inspirehep.net/literature/474621)&rbrack;
