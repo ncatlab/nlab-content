@@ -58,6 +58,10 @@ In classical logic, [first-order Peano arithmetic](https://ncatlab.org/nlab/show
 
 * [[classifying topos for the theory of objects]]
 
+* [[ΠW-pretopos]]
+
+* [[strongly predicative dependent type theory]]
+
 ## References
 
 * {#Cockett90} [[Robin Cockett]], _List-arithmetic distributive categories: Locoi_, JPAA **66** no.1 (1990) pp.1-29.
