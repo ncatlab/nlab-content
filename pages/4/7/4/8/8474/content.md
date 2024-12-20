@@ -26,7 +26,7 @@ A **$\Pi W$-pretopos** is a [[Π-pretopos]] with all [[W-types]].
 
 * A [[predicative topos]] is a $\Pi W$-pretopos satisfying the [[axiom of multiple choice]].
 
-
+* [[list-arithmetic pretopos]]
 
 ## References
 
