@@ -92,21 +92,23 @@ On [[general relativity|relativistic]] MOND [[model (in theoretical physics)|mod
 
 * {#Bekenstein04} [[Jacob Bekenstein]], *Relativistic gravitation theory for the modified Newtonian dynamics paradigm*, Physical Review D **70** 8 (2004) 083509, &lbrack;[arXiv:astro-ph/0403694](https://arxiv.org/abs/astro-ph/0403694), [doi:10.1103/PhysRevD.70.083509](https://doi.org/10.1103/PhysRevD.70.083509)&rbrack;
 
-* {#SkordisZlosnik21} [[Constantinos Skordis]], [[Tom Zlosnik]], *A new relativistic theory for Modified Newtonian Dynamics*. Physical Review Letters. Volume 127, Issue 16. Published 15 October 2021 ([doi:10.1103/PhysRevLett.127.161302](https://doi.org/10.1103/PhysRevLett.127.161302), [arXiv:2007.00082](https://arxiv.org/abs/2007.00082))
+* {#SkordisZlosnik21} [[Constantinos Skordis]], [[Tom Zlosnik]], *A new relativistic theory for Modified Newtonian Dynamics*. Physical Review Letters **127** 16 (2021) &lbrack;[doi:10.1103/PhysRevLett.127.161302](https://doi.org/10.1103/PhysRevLett.127.161302), [arXiv:2007.00082](https://arxiv.org/abs/2007.00082)&rbrack;
 
-* {#SkordisZlosnik22} [[Constantinos Skordis]], [[Tom Zlosnik]], *Aether scalar tensor theory: Linear stability on Minkowski space*. Physical Review D. Volume 106, Issue 10. Published 15 November 2022. ([doi:10.1103/PhysRevD.106.104041](https://doi.org/10.1103/PhysRevD.106.104041), [arXiv:2109.13287](https://arxiv.org/abs/2109.13287))
+* {#SkordisZlosnik22} [[Constantinos Skordis]], [[Tom Zlosnik]], *Aether scalar tensor theory: Linear stability on Minkowski space*. Physical Review D **106** 10 (2022) &lbrack;[doi:10.1103/PhysRevD.106.104041](https://doi.org/10.1103/PhysRevD.106.104041), [arXiv:2109.13287](https://arxiv.org/abs/2109.13287)&rbrack;
 
-* {#MMH23} [[Tobias Mistele]], [[Stacy McGaugh]], [[Sabine Hossenfelder]], *Aether Scalar Tensor theory confronted with weak lensing data at small accelerations*, ([arXiv:2301.03499](https://arxiv.org/abs/2301.03499))
+* {#Milgrom22} [[Mordehai Milgrom]], *Broader view of bimetric MOND*, Physical Review D **106** 8 (2022) &lbrack;[doi:10.1103/PhysRevD.106.084010](https://doi.org/10.1103/PhysRevD.106.084010), [arXiv:2208.10882](https://arxiv.org/abs/2208.10882)&rbrack;
 
-* {#Milgrom22} [[Mordehai Milgrom]], *Broader view of bimetric MOND*, Physical Review D, Volume 106, Issue 8. Published 10 October 2022. ([doi:10.1103/PhysRevD.106.084010](https://doi.org/10.1103/PhysRevD.106.084010), [arXiv:2208.10882](https://arxiv.org/abs/2208.10882))
+* {#MMH23} [[Tobias Mistele]], [[Stacy McGaugh]], [[Sabine Hossenfelder]]: *Aether Scalar Tensor theory confronted with weak lensing data at small accelerations* &lbrack;[arXiv:2301.03499](https://arxiv.org/abs/2301.03499)&rbrack;
 
-* {#TMZ23} [[Daniel Thomas]], [[Ali Mozaffari]], [[Tom Zlosnik]], *Consistent cosmological structure formation on all scales in relativistic extensions of MOND* ([arXiv:2303.00038](https://arxiv.org/abs/2303.00038))
+* {#TMZ23} [[Daniel Thomas]], [[Ali Mozaffari]], [[Tom Zlosnik]]: *Consistent cosmological structure formation on all scales in relativistic extensions of MOND*, Journal of Cosmology and Astroparticle Physics &lbrack;[arXiv:2303.00038](https://arxiv.org/abs/2303.00038), [doi:10.1088/1475-7516/2023/06/006](https://iopscience.iop.org/article/10.1088/1475-7516/2023/06/006)&rbrack;
 
-* {#Flanagan23} [[Eanna Flanagan]], *Khronometric theories of modified Newtonian dynamics* ([arXiv:2302.14846](https://arxiv.org/abs/2302.14846))
+* {#Flanagan23} [[Eanna Flanagan]], *Khronometric theories of modified Newtonian dynamics*, The Astrophysical Journal **958** 2 (2023) 107 &lbrack;[arXiv:2302.14846](https://arxiv.org/abs/2302.14846), [doi:10.3847/1538-4357/ad003d](https://iopscience.iop.org/article/10.3847/1538-4357/ad003d)&rbrack;
 
-* {#THCZ23} Shuxun Tian, Shaoqi Hou, Shuo Cao, Zong-Hong Zhu, *Time evolution of the local gravitational parameters and gravitational wave polarizations in a relativistic MOND theory*, Physical Review D, Volume 107, Issue 4. Published 24 February 2023. ([doi:10.1103/PhysRevD.107.044062](https://doi.org/10.1103/PhysRevD.107.044062), [arXiv:2302.13304](https://arxiv.org/abs/2302.13304))
+* {#THCZ23} Shuxun Tian, Shaoqi Hou, Shuo Cao, Zong-Hong Zhu: *Time evolution of the local gravitational parameters and gravitational wave polarizations in a relativistic MOND theory*, Physical Review D **107** 4 (2023) &lbrack;[doi:10.1103/PhysRevD.107.044062](https://doi.org/10.1103/PhysRevD.107.044062), [arXiv:2302.13304](https://arxiv.org/abs/2302.13304)&rbrack;
 
-* [[Martin Bojowald]], Erick I. Duque, *Emergent Modified Gravity* &lbrack;[arXiv:2404.06375](https://arxiv.org/abs/2404.06375)&rbrack;
+See also:
+
+* [[Martin Bojowald]], Erick I. Duque: *Emergent Modified Gravity*, Class. Quantum Grav. **41** (2024) 095008 &lbrack;[arXiv:2404.06375](https://arxiv.org/abs/2404.06375), [doi:10.1088/1361-6382/ad36a8](https://doi.org/10.1088/1361-6382/ad36a8)&rbrack;
 
 
 
