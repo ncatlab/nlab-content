@@ -1,1 +1,2 @@
-If spacetime is generalized to a variety, the moduli space of field configurations can be replaced by the moduli stack of principal bundles. Then spacetime is a smooth homotopy type. The essential insight to understand this connection between manifolds and varieties is fiber integration.
+
+[[differential geometry]] and [[algebraic geometry]], cf. *[[GAGA]]*
