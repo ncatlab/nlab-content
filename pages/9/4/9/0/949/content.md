@@ -163,6 +163,8 @@ Constructive mathematics generally requires great care with anything after the m
 
 * [[impredicative dependent type theory]]
 
+* [[strongly predicative dependent type theory]]
+
 ## References
 
 *  [[Solomon Feferman]]; [Relationships between Constructive, Predicative and Classical Systems of Analysis](http://hlombardi.free.fr/FefermanRelationships.pdf) (PDF).
