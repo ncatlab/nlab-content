@@ -241,6 +241,9 @@ Monographs:
 
 * {#Manton22} [[Nicholas Manton]], *Skyrmions – A Theory of Nuclei*, World Scientific (2022) &lbrack;[doi:10.1142/q0368 ](https://doi.org/10.1142/q0368)&rbrack;
 
+* [[Roberto Percacci]], section 2.4 of: *Non-Perturbative Quantum Field Theory -- An Introduction to Topological and Semiclassical Methods*, SISSA & ICTP (2024) &lbrack;[doi:10.22323/9788898587056](https://doi.org/10.22323/9788898587056), [pdf](https://library.oapen.org/bitstream/handle/20.500.12657/96025/9788898587056.pdf)&rbrack;
+
+
 Focus on the underlying [[topology]]:
 
 * [[Aiyalam P. Balachandran]], [[Giuseppe Marmo]], [[Bo-Sture Skagerstam]]: *Classical Topology and Quantum States*, World Scientific (1991) &lbrack;[doi:10.1142/1180](https://doi.org/10.1142/1180)&rbrack;
