@@ -6,7 +6,7 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
-#### Quantum field theory
+#### Quantum field theoryC
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
@@ -49,6 +49,13 @@ Discussion of the Veneziano amplitude on this context of [[string theory]]:
 
 * _The Veneziano amplitude_ ([pdf](https://web.archive.org/web/20140913102318/https://www.thphys.uni-heidelberg.de/~palti/Stringcourse/problemset8.pdf))
 
+More abstract characterization of the Veneziano amplitude:
+
+* [[Clifford Cheung]], [[Grant N. Remmen]]: *Veneziano Variations: How Unique are String Amplitudes?*, J. High Energ. Phys. **2023** (2023) 122 &lbrack;[arXiv:2210.12163](https://arxiv.org/abs/2210.12163), <a href="https://doi.org/10.1007/JHEP01(2023)122">doi:10.1007/JHEP01(2023)122</a>&rbrack;
+
+* [[Clifford Cheung]], Aaron Hillman, [[Grant N. Remmen]]: *A Bootstrap Principle for the Spectrum and Scattering of Strings*, Phys. Rev. Lett. **133** (2024) 251601 &lbrack;[arXiv:2406.02665](https://arxiv.org/abs/2406.02665), [doi:10.1103/PhysRevLett.133.251601](https://doi.org/10.1103/PhysRevLett.133.251601)&rbrack;
+
+
 Discussion in the context of [[Riemann hypothesis and physics]] is in
 
 * {#HJM15} [[Yang-Hui He]], Vishnu Jejjala, Djordje Minic, _From Veneziano to Riemann: A String Theory Statement of the Riemann Hypothesis_ ([arXiv:1501.01975](http://arxiv.org/abs/1501.01975))
@@ -59,7 +66,6 @@ Textbook review includes (16.49) in
 
 See also:
 
-* Clifford Cheung, Grant N. Remmen, *Veneziano Variations: How Unique are String Amplitudes?* &lbrack;[arXiv:2210.12163](https://arxiv.org/abs/2210.12163)&rbrack;
 
 * Nicholas Geiser, Lukas W. Lindwasser, *Generalized Veneziano and Virasoro amplitudes* &lbrack;[arXiv:2210.14920](https://arxiv.org/abs/2210.14920)&rbrack;
 
