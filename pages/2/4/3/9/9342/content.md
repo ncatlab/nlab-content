@@ -119,10 +119,11 @@ But for this string theory, at least, there are hints as to its non-perturbative
 
 
 ## References
+ {#References}
 
 > (See also references at *[[non-perturbative effect]]*, *[[soliton]]* and *[[instanton]]*, particularly at *[[Yang-Mills instanton]]*.)
 
-General introduction:
+Motivation via the generic [failure of convergence](perturbative+quantum+field+theory#ReferencesNonConvergenceOfThePerturbationSeries) of [[perturbative quantum field theory]]:
 
 * Alexander P. Bakulev, [[Dmitry Shirkov]], *Inevitability and Importance of Non-Perturbative Elements in Quantum Field Theory*, Proceedings of the 6th Mathematical Physics Meeting, Sept. 14--23 (2010) Belgrade, Serbia  27--54 &lbrack;[arXiv:1102.2380](https://arxiv.org/abs/1102.2380), ISBN:978-86-82441-30-4&rbrack; 
 
@@ -143,7 +144,12 @@ and via [[Wightman axioms]]:
 its perturbative expansion and raises conceptual problems such as the mathematical consistency of such an expansion.
   > As a matter of fact, after more than fifty years of QFT we are still in the embarrassing situation of not knowing a single non-trivial (even non-realistic) model of QFT in 3+1 dimensions, allowing a non-perturbative control."
 
-Collections:
+with focus on [[topological physics -- contents|topological physics]] ([[solitons]], [[Skyrmions]], [[instantons]], [[monopoles]], [[gauge anomalies]], ...):
+
+* [[Roberto Percacci]]: *Non-Perturbative Quantum Field Theory -- An Introduction to Topological and Semiclassical Methods*, SISSA & ICTP (2024) &lbrack;[doi:10.22323/9788898587056](https://doi.org/10.22323/9788898587056), [pdf](https://library.oapen.org/bitstream/handle/20.500.12657/96025/9788898587056.pdf)&rbrack;
+
+
+Further collections:
 
 * [[Gerard ’t Hooft]], [[Arthur Jaffe]], [[Gerhard Mack]], [[P. K. Mitter]], [[Raymond Stora]] (eds.) *Nonperturbative Quantum Field Theory*,  NATO Science Series B **185** (1988) &lbrack;[doi:10.1007/978-1-4613-0729-7](https://doi.org/10.1007/978-1-4613-0729-7)&rbrack;
 
