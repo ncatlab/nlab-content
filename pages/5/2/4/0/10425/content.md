@@ -63,6 +63,8 @@ Although it lacks the infinitary disjunctions of geometric logic, they can in ma
 
 * [[geometric mathematics]]
 
+* [[strongly predicative dependent type theory]]
+
 ## References
 
 * {#Vickers07}[[Steve Vickers]], _Locales and toposes as spaces_, Handbook of Spatial Logics, Springer 2007 ([pdf](http://www.cs.bham.ac.uk/~sjv/LocTopSpaces.pdf))
