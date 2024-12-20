@@ -27,6 +27,6 @@
 * [[S. Launois]], T. H. Lenagan, L. Rigal, _Prime ideals in the quantum grassmannian_, Sel. math., New ser. 13, 697 (2008) [doi](https://doi.org/10.1007/s00029-008-0054-z)
 * Thomas H. Lenagan, [[Milen T. Yakimov]], _Prime factors of quantum Schubert cell algebras and clusters for quantum Richardson varieties_, Journal für die reine und angewandte Mathematik (Crelles Journal) [doi](https://doi.org/10.1515/crelle-2016-0046)
 
-category: algebras
+category: algebra
 
 [[!redirects quantum Schubert cells]]
