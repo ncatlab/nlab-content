@@ -103,6 +103,9 @@ More generally, in [[string theory]] a [[brane]] which wraps a completely [[spac
 
 * [[Mikio Nakahara]], Section 10.5.5 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
+* [[Roberto Percacci]], section 3 of: *Non-Perturbative Quantum Field Theory -- An Introduction to Topological and Semiclassical Methods*, SISSA & ICTP (2024) &lbrack;[doi:10.22323/9788898587056](https://doi.org/10.22323/9788898587056), [pdf](https://library.oapen.org/bitstream/handle/20.500.12657/96025/9788898587056.pdf)&rbrack;
+
+
 
 See also literature at [[Yang-Mills instanton]].
 
