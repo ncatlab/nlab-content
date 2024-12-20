@@ -208,9 +208,9 @@ Discussion of [[confinement]] in the context of the [[AdS-CFT correspondence]] i
 #### Gravitational wave signatures
  {#GravitationalWaveSignatures}
 
-Application of the [[KLT relation]]/[[double copy]]-technique to computation of [[gravitational wave]]-signature of [[relativistic binary]] mergers:
+On using [[KLT relation]]/[[double copy]] for computing [[gravitational wave]]-signatures of [[relativistic binary]] mergers for use with [[LIGO]]:
 
-* {#BCRSSZ19} [[Zvi Bern]], Clifford Cheung, Radu Roiban, Chia-Hsien Shen, Mikhail P. Solon, Mao Zeng, _Scattering Amplitudes and the Conservative Hamiltonian for Binary Systems at Third Post-Minkowskian Order_, Phys. Rev. Lett. 122, 201603 (2019) ([arXiv:1901.04424](https://arxiv.org/abs/1901.04424))
+* {#BCRSSZ19} [[Zvi Bern]], [[Clifford Cheung]], [[Radu Roiban]], Chia-Hsien Shen, Mikhail P. Solon, Mao Zeng: _Scattering Amplitudes and the Conservative Hamiltonian for Binary Systems at Third Post-Minkowskian Order_, Phys. Rev. Lett. **122** 201603 (2019) &lbrack;[arXiv:1901.04424](https://arxiv.org/abs/1901.04424), [doi:10.1103/PhysRevLett.122.201603](https://doi.org/10.1103/PhysRevLett.122.201603)&rbrack;
 
 
 #### Black hole entropy
