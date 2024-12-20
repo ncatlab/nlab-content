@@ -88,7 +88,7 @@ Introduction and review:
 
 * {#SummersBuchholz} Stephen J. Summers, [[Detlev Buchholz]], _Scattering in Relativistic Quantum Field Theory: Fundamental Concepts and Tools_ &lbrack;[arXiv:math-ph/0509047] (https://arxiv.org/abs/math-ph/0509047)&rbrack;
 
-* Clifford Cheung, _TASI Lectures on Scattering Amplitudes_ &lbrack;[arXiv:1708.03872](https://arxiv.org/abs/1708.03872)&rbrack;
+* [[Clifford Cheung]]: *TASI Lectures on Scattering Amplitudes* (2017) &lbrack;[arXiv:1708.03872](https://arxiv.org/abs/1708.03872), video recordings: [YT](https://www.youtube.com/results?search_query=Clifford+Cheung+Lecture+Scattering+Amplitudes)&rbrack;
 
 * Simon Badger, Johannes Henn, [[Jan Plefka]], Simone Zoia, *Scattering Amplitudes in Quantum Field Theory* &lbrack;[arXiv:2306.05976](https://arxiv.org/abs/2306.05976)&rbrack;
 
