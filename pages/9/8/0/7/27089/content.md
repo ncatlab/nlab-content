@@ -27,6 +27,10 @@ These two ways to define a dependent type theory leads to many different ways to
 
   * For impredicative dependent type theory in the sense of a dependent type theory which has the [[propositional resizing axiom]]; these impredicative dependent type theories are stronger than the notion of impredicative dependent type theory using a single type judgment since these are the [[internal logics]] of [[(infinity, 1)-category|$(\infty, 1)$-categories]] with an infinite number of [[inaccessible cardinal|inaccessible]] [[object classifiers]]. 
 
+## Related concepts
+
+* [[strongly predicative dependent type theory]]
+
 category: disambiguation
 
 [[!redirects impredicative type theory]]
