@@ -115,7 +115,7 @@ $$D^0(F) \coloneqq \{f \in F \to F \vert isPointwiseDifferentiable(f)\}$$
 
 ### Admissibility 
 
-Let $\Sigma \subseteq \Omega$ be a [[subobject|sub]]-[[sigma-frame|$sigma$-frame]] of the [[frame of truth values]]. Then an Archimedean ordered field $F$ is **admissible for $\Sigma$** if the [[pseudo-order]] $(-)\lt(-):F \times F \to \Omega$ restricts to a binary function $(-)\lt(-):F \times F \to \Sigma$. 
+Let $\Sigma \subseteq \Omega$ be a [[subobject|sub]]-[[sigma-frame|$sigma$-frame]] of the [[frame of truth values]]. Then an Archimedean ordered field $F$ is [[admissible Archimedean ordered field|admissible for $\Sigma$]] if the [[pseudo-order]] $(-)\lt(-):F \times F \to \Omega$ restricts to a binary function $(-)\lt(-):F \times F \to \Sigma$. 
 
 ## Category of Archimedean ordered fields
 
@@ -170,6 +170,8 @@ Non-Archimedean ordered fields include
 * [[differentiable space]]
 
 * [[Archimedean ordered field setoid]]
+
+* [[admissible Archimedean ordered field]]
 
 ## References
 
