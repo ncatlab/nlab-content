@@ -109,6 +109,7 @@ _[[relation between type theory and category theory]]_.
 * [[higher order logic as a dependent type theory]]
 * [[impredicative dependent type theory]]
 * [[dependent type theory with type variables]]
+* [[strongly predicative dependent type theory]]
 
 ## Related concepts
 
