@@ -119,7 +119,7 @@ and discussed in mathematical detail in
 
 * {#Zhang11} [[Yan X Zhang]], _Adinkras for Mathematicians_ ([arXiv:1111.6055](https://arxiv.org/abs/1111.6055))
 
-* {#Zhang13} [[Yan X Zhang]], _The combinatorics of Adinkras_, PhD thesis, MIT (2013) ([pdf](http://math.mit.edu/~yanzhang/math/thesis_adinkras.pdf))
+* {#Zhang13} [[Yan X Zhang]], _The combinatorics of Adinkras_, PhD thesis, MIT (2013) ([pdf](https://web.archive.org/web/20190204030942/https://math.mit.edu/~yanzhang/math/thesis_adinkras.pdf))
 
 The [[dimensional reduction]] of the standard [[supermultiplets]] of $D = 4, \mathcal{N} = 1$ supersymmetry to adinkraic representations of $D = 1, \mathcal{N}=4$ is due to
 
