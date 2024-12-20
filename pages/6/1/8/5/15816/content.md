@@ -55,6 +55,7 @@ See *[Votex anyons](braid+group+statistics#VortexAnyons)* at *[[braid group stat
 
 * [[cosmic string]]
 
+
 ## References
 
 ### General
@@ -66,6 +67,9 @@ A historical abandoned but influential speculation on [[vortex strings]]:
 Reviews and surveys:
 
 * [[David Tong]], _TASI Lectures on Solitons_ ([web](http://www.damtp.cam.ac.uk/user/tong/tasi.html)), part 3: _Vortices_ ([pdf](http://www.damtp.cam.ac.uk/user/tong/tasi/vortex.pdf)) 
+
+* [[Roberto Percacci]], section 2.6 in: *Non-Perturbative Quantum Field Theory -- An Introduction to Topological and Semiclassical Methods*, SISSA & ICTP (2024) &lbrack;[doi:10.22323/9788898587056](https://doi.org/10.22323/9788898587056), [pdf](https://library.oapen.org/bitstream/handle/20.500.12657/96025/9788898587056.pdf)&rbrack;
+
 
 On water vortices forming [[knots]]:
 
