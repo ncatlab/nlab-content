@@ -54,6 +54,9 @@ Review and outlook:
 * Ryan Babbush, Jarrod R. McClean, Michael Newman, [[Craig Gidney]], Sergio Boixo, Hartmut Neven, *Focus beyond Quadratic Speedups for Error-Corrected Quantum Advantage*, PRX Quantum **2** 010103 (2021) &lbrack;[doi:10.1103/PRXQuantum.2.010103](https://doi.org/10.1103/PRXQuantum.2.010103)&rbrack;
 
 
+* {#LaRose24} Ryan LaRose: *A brief history of quantum vs classical computational advantage* &lbrack;[arXiv:2412.14703](https://arxiv.org/abs/2412.14703)&rbrack;
+
+
 
 Emphasis of the need of [[topological quantum computation|topological stabilization]]:
 
