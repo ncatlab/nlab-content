@@ -3,6 +3,9 @@ James Simons (1938-2024)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/James_Harris_Simons)
 
+* Memorial Tribute: *Jim Simons (1938–2024)*, Notices of the AMS **72** 1 (2024) 32-48 &lbrack;[doi:10.1090/noti3097](https://doi.org/10.1090/noti3097), [webpage](https://www.ams.org/journals/notices/202501/noti3097/noti3097.html?adat=January%202025&trk=3097&pdfissue=202501&pdffile=rnoti-p32.pdf&cat=none&type=.html), [pdf](https://www.ams.org/notices/202501/rnoti-p32.pdf), full issue:[pdf](https://www.ams.org/notices/202501/202501FullIssue.pdf)&rbrack;
+
+
 ## Selected writings
 
 On [[Chern-Weil theory]] and introducing [[Chern-Simons forms]]:
