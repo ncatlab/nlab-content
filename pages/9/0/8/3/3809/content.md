@@ -1,14 +1,19 @@
-[[!redirects Terrence Tao]]
 
 **Terence Tao** is an Australian-American mathematician, Fields medalist, and a professor at UCLA. Some of his major interests are in analysis (especially PDE-s, [[functional analysis]] and [[harmonic analysis]]), dynamical systems, [[number theory]] (especially the study of *integer sequences*), probability theory, and ergodic theory.
 
-* [wikipedia](http://en.wikipedia.org/wiki/Terence_Tao)
-* Tao's [homepage](http://www.math.ucla.edu/~tao) at UCLA
-* Terence Tao's blog: [What's new](http://terrytao.wordpress.com/)
+
+* [personal page](http://www.math.ucla.edu/~tao) at UCLA
+
+* personal blog: *[What's new](http://terrytao.wordpress.com/)*
+
+* [Wikipedia enty](http://en.wikipedia.org/wiki/Terence_Tao)
+
+* [GoogleScholar entry](https://scholar.google.com/citations?user=TFx_gLQAAAAJ&hl=en)
+
 
 ## Selected writings
 
-* [[Vitaly Bergelson]], [[Terence Tao]], *Multiple recurrence in quasirandom groups*. ([arXiv:1211.6372](https://arxiv.org/abs/1211.6372))
+* Vitaly Bergelson, [[Terence Tao]]: *Multiple recurrence in quasirandom groups* &lbrack;[arXiv:1211.6372](https://arxiv.org/abs/1211.6372)&rbrack;
 
 On [[measure theory]] via (secretly) [[Boolean toposes]]:
 
@@ -22,3 +27,4 @@ On [[proof assistants]] in relation to [[machine learning]]:
 category: people
 
 [[!redirects Terry Tao]]
+
