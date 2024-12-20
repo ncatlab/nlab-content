@@ -25,9 +25,11 @@ Set theory of all flavors, including [[material set theory]] and [[structural se
 
 Dependent type theory only has one notion of logic, which would correspond to the internal logic of the set theory. Thus, propositions are subsingletons. 
 
+However, with the [[axiom of extensionality]] or [[function extensionality]] usually assumed in [[set theory]], which correspond to a [[well-pointed category]], the external and internal predicate logic coincide with each other, so the fact that there are two logics in set theory isn't as relevant in mathematics as one might think. Nonetheless, the fact that set theory has an external logic means that when setting up the set theory, one needs to add many [[inference rules]] for the external predicate logic. This is in contrast to [[dependent type theory]], where the internal predicate logic is already derivable from the existing type formers: [[dependent product types]], [[dependent sum types]], [[identity types]], and the [[type of all propositions]], and so one doesn't need to add any additional inference rules specifically for the logic. 
+
 ### Equality
 
-Set theory of all flavors have only one notion of equality, [[propositional equality]], which is a proposition in the external logic. 
+Set theory of all flavors have only one notion of equality, [[propositional equality]], which is a proposition in the external predicate logic. 
 
 Most dependent type theories, like [[Martin-Löf type theory]], [[cubical type theory]], ([[higher observational type theory|higher]]) [[observational type theory]], [[two-level type theory]], [[simplicial type theory]], et cetera, all have two notions of equality, [[judgmental equality]] and [[typal equality]]. 
 
@@ -50,3 +52,4 @@ On the other hand, [[dependent type theory]] has only one notion of function whi
 * [[material versus structural set theory]]
 
 [[!redirects set theory and dependent type theory]]
+[[!redirects set theory vs dependent type theory]]
