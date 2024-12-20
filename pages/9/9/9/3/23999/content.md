@@ -18,10 +18,15 @@ A branch of [[physics]] that studies [[mechanical waves]].
 \section{See also}
 
 * [[sound]]
+
 * [[vibration]]
+
 * [[noise]]
+
 * [[music]]
+
 * [[wave]]
+
 * [[wave equation]]
 
 \section{References}
@@ -29,3 +34,6 @@ A branch of [[physics]] that studies [[mechanical waves]].
 See also:
 
 * Wikipedia, _[Acoustics](https://en.wikipedia.org/wiki/Acoustics)_
+
+[[!redirects sound wave]]
+[[!redirects sound waves]]
