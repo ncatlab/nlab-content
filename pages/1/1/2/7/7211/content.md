@@ -71,18 +71,23 @@ The ([[U-duality]]-)[[global gauge group]] of maximally [[supersymmetry|supersym
 
 * [[ABJM model]]
 
+
 ## References
 
 ### Generally
 
-Lecture notes include
+Lecture notes:
 
 * F. Ruiz Ruiz, [[Peter van Nieuwenhuizen]], _Lectures on Supersymmetry and Supergravity in $2+1$ Dimensions and regularization of supersymmetric gauge theories_ ([[Nieuwenhuizen3d.pdf:file]])
 
 
-A complete list of un-gauged supergravities in 3 dimensions was given in 
+A complete list of un-gauged supergravities in 3 dimensions:
 
-* [[Bernard de Wit]], A.K. Tollsten, [[Hermann Nicolai]], _Locally supersymmetric D=3 non-linear sigma models_, Nucl. Phys. B392 (1993) 3 ([arXiv:hep-th/9208074](https://arxiv.org/abs/hep-th/9208074))
+* [[Bernard de Wit]], A.K. Tollsten, [[Hermann Nicolai]], _Locally supersymmetric D=3 non-linear sigma models_, Nucl. Phys. B **392** (1993) 3-38 &lbrack;[arXiv:hep-th/9208074](https://arxiv.org/abs/hep-th/9208074), <a href="https://doi.org/10.1016/0550-3213(93)90195-U">doi:10.1016/0550-3213(93)90195-U</a>&rbrack;
+
+Formulation in [[BV-formalism]] and relation to [[AKSZ theory]]:
+
+* [[Alberto S. Cattaneo]], Nima Moshayedi, Alberto Smailovic Funcasta: *3D Supergravity In the Batalin--Vilkovisky Formalism* &lbrack;[arXiv:2412.14300](https://arxiv.org/abs/2412.14300)&rbrack;
 
 
 
