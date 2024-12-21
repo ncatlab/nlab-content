@@ -26,6 +26,11 @@ Solving the [[Arf-Kervaire invariant problem]] with methods of [[equivariant sta
 
 * {#HillHopkinsRavenelIntroduction} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire invariant problem in algebraic topology: introduction_ (2016) &lbrack;[pdf](http://math.ucla.edu/~mikehill/Research/CDMHistory.pdf)&rbrack;
 
+On [[Tambara functors]]:
+
+* [[Michael Hill]], [[David Mehrle]], [[J. D. Quigley]]: *Free incomplete Tambara functors are almost never flat*, International Mathematics Research Notices **2023** 5 (2023)  &lbrack;[arXiv:2105.11513](https://arxiv.org/abs/2105.11513), [doi:10.1093/imrn/rnab361](https://doi.org/10.1093/imrn/rnab361)&rbrack;
+
+
 
 
 category: people
