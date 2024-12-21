@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -178,7 +190,7 @@ and norms given by tensor-induction
 The **Representation Tambara functor** is the additive completion of this.
 
 ### Burnside Tambara functors
-Let $\mathcal{A}(S)$ be the [[grothendieck group]] 
+Let $\mathcal{A}(S)$ be the [[Grothendieck group]] 
 \[
   \mathcal{A}(S) \coloneqq K_0 \left((\mathbb{F}_G)_{/S} \right).
 \]
@@ -266,7 +278,7 @@ On variations of Tambara functors,
 
 * [[Michael Hill]], [[Andrew Blumberg]], _Bi-incomplete Tambara functors_, ([arXiv:2104.10521](https://arxiv.org/abs/2104.10521))
 
-* [[Michael Hill]], [[David Mehrle]], [[J.D. Quigley]], _Free incomplete Tambara functors are almost never flat_, ([arXiv:2105.11513](https://arxiv.org/abs/2105.11513))
+* [[Michael Hill]], [[David Mehrle]], [[J.D. Quigley]]: *Free incomplete Tambara functors are almost never flat*, International Mathematics Research Notices **2023** 5 (2023)  &lbrack;[arXiv:2105.11513](https://arxiv.org/abs/2105.11513), [doi:10.1093/imrn/rnab361](https://doi.org/10.1093/imrn/rnab361)&rbrack;
 
 * [[David Chan]], _Bi-incomplete Tambara functors as O-commutative monoids_, ([arXiv:2208.05555](https://arxiv.org/abs/2208.05555))
 
@@ -301,9 +313,9 @@ In algebra,
 
 In derived algebra,
 
-* [[David Mehrle]], [[J.D. Quigley]], [[Michael Stahlhauer]], _Koszul Resolutions over Free Incomplete Tambara Functors for Cyclic $p$-Groups_ ([arXiv:2407.18382](https://arxiv.org/abs/2407.18382))
+* [[David Mehrle]], [[J.D. Quigley]], [[Michael Stahlhauer]]: _Koszul Resolutions over Free Incomplete Tambara Functors for Cyclic $p$-Groups_ &lbrack;[arXiv:2407.18382](https://arxiv.org/abs/2407.18382)&rbrack;
 
-* [[David Mehrle]], [[J.D. Quigley]], [[Michael Stahlhauer]], _Pathological Computations of Mackey Functor-valued Tor over Cyclic Groups_ ([arXiv:2410.11974](https://arxiv.org/abs/2410.11974))
+* [[David Mehrle]], [[J.D. Quigley]], [[Michael Stahlhauer]], _Pathological Computations of Mackey Functor-valued $Tor$ over Cyclic Groups_ &lbrack;[arXiv:2410.11974](https://arxiv.org/abs/2410.11974)&rbrack;
 
 In higher algebra,
 
