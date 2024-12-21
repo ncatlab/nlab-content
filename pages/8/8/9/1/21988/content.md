@@ -18,7 +18,7 @@ which [[representable functor|co-represent]] these:
 * Ippei Ichigi, Katsumi Shimomura, _The Modulo Two Homotopy Groups of the $L_2$-Localization of the Ravenel Spectrum_, CUBO A Mathematical Journal,
 Vol. 10, No 03, (43–55). October 2008 ([cubo:1498](http://revistas.ufro.cl/ojs/index.php/cubo/article/view/1498))
 
-* Gabe Angelini-Knoll, J. D. Quigley, _The Segal Conjecture for topological Hochschild homology of the Ravenel spectra_, Journal of Topology 4.3 (2011): 591-622 ([arXiv:1705.03343](https://arxiv.org/abs/1705.03343), [doi:10.1112/jtopol/jtr015]( https://doi.org/10.1112/jtopol/jtr015))
+* Gabe Angelini-Knoll, [[J. D. Quigley]]: _The Segal Conjecture for topological Hochschild homology of the Ravenel spectra_, Journal of Topology **4** 3 (2011) 591-622 \[<a href="https://doi.org/10.1112/jtopol/jtr015">doi:10.1112/jtopol/jtr015</a>, [arXiv:1705.03343](https://arxiv.org/abs/1705.03343)\]
 
 * [[Jonathan Beardsley]], _A Theorem on Multiplicative Cell Attachments with an Application to Ravenel's $X(n)$ Spectra_, Journal of Homotopy and Related Structures volume 14, pages 611–624 (2019) ([arXiv:1708.03042](https://arxiv.org/abs/1708.03042), [doi:10.1007/s40062-018-0222-6](https://link.springer.com/article/10.1007/s40062-018-0222-6))
 
