@@ -128,6 +128,14 @@ Burnside rings, representation rings, zeroth stable homotopy group of a genuine 
 
 Some other examples are related to [[Witt-Burnside functors]], Witt rings in the sense of Dress and Siebeneicher.
 
+### Additive completion of semi-Tambara functors
+
+The following is Proposition 13.23 of [Strickland 12](Strickland12).
+
+\begin{proposition}
+  The [additive completion of semi-Mackey functors](https://ncatlab.org/nlab/show/Mackey+functor#AdditiveCompletion) underlies a left adjoint $\mathrm{sTamb}(\mathcal{C}) \rightarrow \mathrm{Tamb}(\mathcal{C})$ to the forgetful functor.
+\end{proposition} 
+
 ### The Borel construction
 Given $S$ a [[semiring]] with $G$-action through homomorphisms, we have a coefficient system $S^{\bullet}$ whose $[G/H]$-value is the invariants $S^H$.
 We give this the additional structure of a _semi-mackey functor_ by first using the semiring isomorphism
@@ -151,22 +159,33 @@ The following is Example 6.3 of [Strickland 12]{#Strickland12}
   The Borel construction is right adjoint to $U\colon \mathrm{sTamb}_{G}(\mathcal{C}) \rightarrow \mathrm{sRing}_{G}(\mathcal{C})$.
 \end{proposition}
 
-### Representation semi-Tambara functors
+### Representation Tambara functors
 Given $H \subset G$ a subgroup, note that (isomorphism classes of) $H$-representations correspond with $G$-equivariant vector bundles over $[G/H]$:
 \[
   \mathrm{Vect}_k^{G}([G/H]) \simeq \mathrm{Rep}^H.
 \]
 Restriction gives these the structure of a coefficient system;
 we may give these a semiring structure under $(\oplus,\otimes)$.
-Moreover, we lift this to a semi-Mackey structure
+Moreover, we lift this to a semi-Tambara structure
 with transfers given by induction
 \[ 
   T_K^H(V)_x \simeq \bigoplus_{r(y) = x} V_y 
 \]
 and norms given by tensor-induction
 \[ 
-  N_K^H(V)_x \simeq \bigotimes\limits_{q(y) = x} V_y. 
+  N_K^H(V)_x \simeq \bigotimes_{q(y) = x} V_y. 
 \]
+The **Representation Tambara functor** is the additive completion of this.
+
+### Burnside Tambara functors
+Let $\mathcal{A}(S)$ be the [[grothendieck group]] 
+\[
+  \mathcal{A}(S) \coloneqq K_0 \left((\mathbb{F}_G)_{/S} \right).
+\]
+This becomes a [[coefficient system]] under precomposition.
+Moreover, colimits in $\mathbb{F}_G$ are universal, so precomposition along a map of finite $G$-sets $S \rightarrow T$ possesses a both a left and right adjoint;
+the left adjoint to $[G/K] \rightarrow [G/H]$ is called *induction* and the right adjoint is called *coinduction*.
+The **Burnside Tambara functor** has coefficient system $\mathcal{A}(-)$, transfers given by induction, and norms given by coinduction.
 
 ### An explicit example 
 Let $G = C_2 = \{ e, \sigma \}$.
