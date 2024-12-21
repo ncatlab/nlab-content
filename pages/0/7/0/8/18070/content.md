@@ -1539,23 +1539,21 @@ General accounts:
 
 * [[Edward Fadell]], [[Sufian Husseini]], _Geometry and topology of configuration spaces_, Springer Monographs in Mathematics (2001)  &lbrack;[doi:10.1007/978-3-642-56446-8](https://link.springer.com/book/10.1007/978-3-642-56446-8), [MR2002k:55038](http://www.ams.org/mathscinet-getitem?mr=2002k:55038)&rbrack;
 
-* {#Cohen09} [[Frederick R. Cohen]]: *Introduction to configuration spaces and their applications*, in: *Braids* Lecture Notes Series, Institute for Mathematical Sciences, National University of Singapore **19** (2009)  183-261  &lbrack;[doi:10.1142/9789814291415_0003](https://doi.org/10.1142/9789814291415_0003), [doi:10.1142/7550](https://doi.org/10.1142/7550 ), [pdf](https://www.mimuw.edu.pl/~sjack/prosem/Cohen_Singapore.final.24.december.2008.pdf), [[Cohen-IntroConfigSpaces.pdf:file]]&rbrack;
+* {#Cohen09} [[Frederick R. Cohen]]: *Introduction to configuration spaces and their applications*, in: *Braids*, Lecture Notes Series, Institute for Mathematical Sciences, National University of Singapore **19** (2009)  183-261  &lbrack;[doi:10.1142/9789814291415_0003](https://doi.org/10.1142/9789814291415_0003), [doi:10.1142/7550](https://doi.org/10.1142/7550 ), [pdf](https://www.mimuw.edu.pl/~sjack/prosem/Cohen_Singapore.final.24.december.2008.pdf), [[Cohen-IntroConfigSpaces.pdf:file]]&rbrack;
 
 * [[Craig Westerland]], _Configuration spaces in geometry and topology_ (2011) &lbrack;[pdf](https://www.austms.org.au/Publ/Gazette/2011/Nov11/TechPaperWesterland.pdf)&rbrack;
-
-  (in [[geometry]] and [[topology]])
+  > (in [[geometry]] and [[topology]])
 
 * {#Knudsen18} [[Ben Knudsen]], _Configuration spaces in algebraic topology_ &lbrack;[arXiv:1803.11165](https://arxiv.org/abs/1803.11165)&rbrack;
+  > (in [[algebraic topology]])
 
-  (in [[algebraic topology]])
+* {#Williams20} [[Lucas Williams]]: *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal **21** 1 (2020) Article 8 &lbrack;[arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8)&rbrack;
 
-* {#Williams20} [[Lucas Williams]], *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8 &lbrack;[arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8)&rbrack;
-
-* {#Kallel24} [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2407.11092](https://arxiv.org/abs/2407.11092)&rbrack;
+* {#Kallel24} [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, [[Encyclopedia of Mathematical Physics 2nd ed]] **4** (2025) 98-135 &lbrack;[arXiv:2407.11092](https://arxiv.org/abs/2407.11092), [doi:10.1016/B978-0-323-95703-8.00211-1](https://doi.org/10.1016/B978-0-323-95703-8.00211-1)&rbrack;
 
 In relation to [[braid groups]]:
 
-* {#Birman75} [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press (1975) &lbrack;[ISBN:9780691081496](https://press.princeton.edu/books/paperback/9780691081496/braids-links-and-mapping-class-groups-am-82-volume-82), [preview pdf](https://api.pageplace.de/preview/DT0400.9781400881420_A26691398/preview-9781400881420_A26691398.pdf)&rbrack;
+* {#Birman75} [[Joan S. Birman]]: *Braids, links, and mapping class groups*, Princeton Univ Press (1975) &lbrack;[ISBN:9780691081496](https://press.princeton.edu/books/paperback/9780691081496/braids-links-and-mapping-class-groups-am-82-volume-82), [preview pdf](https://api.pageplace.de/preview/DT0400.9781400881420_A26691398/preview-9781400881420_A26691398.pdf)&rbrack;
 
 
 
