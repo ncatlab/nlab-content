@@ -142,6 +142,10 @@ Mathematical background:
 
 * [[Tristan Hübsch]], _Calabi-Yau Manifolds -- A Bestiary for Physicists_, World Scientific 1992 ([doi:10.1142/1410](https://doi.org/10.1142/1410))
 
+Consistent truncations:
+
+* Jieming Lin, Torben Skrzypek, [[Kellogg S. Stelle]]: *Compactification on Calabi-Yau threefolds: Consistent truncation to pure supergravity* &lbrack;[arXiv:2412.00186](https://arxiv.org/abs/2412.00186)&rbrack;
+
 
 
 
