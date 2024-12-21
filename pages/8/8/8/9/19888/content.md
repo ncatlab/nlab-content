@@ -29,7 +29,7 @@ On [[graph-indexed configuration spaces of points]]:
 
 Review of [[configuration spaces of points]] and their relation to [[Cohomotopy]] via the [[scanning map]]:
 
-* [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2407.11092](https://arxiv.org/abs/2407.11092)&rbrack;
+* {#Kallel24} [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, [[Encyclopedia of Mathematical Physics 2nd ed]] **4** (2025) 98-135 &lbrack;[arXiv:2407.11092](https://arxiv.org/abs/2407.11092), [doi:10.1016/B978-0-323-95703-8.00211-1](https://doi.org/10.1016/B978-0-323-95703-8.00211-1)&rbrack;
 
 
 
