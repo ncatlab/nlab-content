@@ -116,6 +116,11 @@ I need to figure out how it relates to the various versions of [[Konig's lemma|K
 
 Some of the results above may use [[countable choice]], but probably no more than $AC_{0,0}$ (which is choice for relations between $\mathbb{N}$ and itself).
 
+The fan theorem holds in [[synthetic Stone duality]]: 
+
+* [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
+
+and thus in the [[topos of light condensed sets]]. 
 
 ### Analysis without the fan theorem
 
@@ -156,6 +161,10 @@ Also:
 
 * [[Mike Fourman]], [[Martin Hyland]], _Sheaf models for analysis_. [PDF](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Oldpapers/analysis79.pdf)
   {#FourmanHyland}
+
+* {#Diener18} [[Hannes Diener]], *Constructive reverse mathematics*, Habilitationsschrift Fakultät IV - Naturwissenschaftlich-Technische Fakultät, 2018. ([arXiv:1804.05495](https://arxiv.org/abs/1804.05495), [dspace:ubsi/1306](https://dspace.ub.uni-siegen.de/handle/ubsi/1306))
+
+* {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
 
 [[!redirects fan theorem]]
 [[!redirects Fan theorem]]
