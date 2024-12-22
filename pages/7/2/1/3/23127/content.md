@@ -17,3 +17,6 @@ On [[numerable covers]]:
 
 
 [[!redirects Arthur Harold Stone]]
+
+
+category: people
