@@ -37,7 +37,7 @@ The category of [[sequential topological spaces]] embed fully faithfully into th
 
 In the [[internal logic]] of the topos of light condensed sets, the [[weak limited principle of omniscience]] (WLPO) for the natural numbers is false (and thus [[excluded middle]] also fails). 
 
-On the other hand, the [[lesser limited principle of omniscience]] (LLPO) does hold in the topos of light condensed sets. [[Markov's principle]] also holds in the topos of light condensed sets. 
+On the other hand, the [[lesser limited principle of omniscience]] (LLPO) does hold in the topos of light condensed sets. [[Markov's principle]] also holds in the topos of light condensed sets, as does the [[fan theorem]]. 
 
 The full [[intermediate value theorem]] and the [[Brouwer's fixed point theorem]] can be proven in the topos of light condensed sets. 
 
