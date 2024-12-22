@@ -352,7 +352,7 @@ $$
 =--
 
 This is briefly mentioned in [Bredon 93, p. 199](#Bredon93).
-The argument is spelled out in: [MO:a/1645794](https://math.stackexchange.com/a/1645794/58526), [Cutler 20, Prop. 1.6](#Cutler20).
+The argument is spelled out in [James 84 pp 72](#James84), [MO:a/1645794](https://math.stackexchange.com/a/1645794/58526), [Cutler 20, Prop. 1.6](#Cutler20).
 
 
 
@@ -575,12 +575,15 @@ The concept goes back to
 
 * {#Aleksandrov24} [[Pavel Aleksandrov]], _Über die Metrisation der im Kleinen kompakten topologischen Räume_, Mathematische Annalen (1924) Volume: 92, page 294-301 ([dml:159072](https://eudml.org/doc/159072))
 
-Textbook accounts:
+Monographs:
 
 * {#Kelley75} [[John Kelley]], p. 150 of: *General topology*, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) &lbrack;[ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251)&rbrack;
 
-
 * {#Bredon93} [[Glen Bredon]], p. 199 of: _Topology and Geometry_, Graduate Texts in Mathematics 139, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0), [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
+
+
+* {#James84} [[Ioan Mackenzie James]], Chapter 3 of: *General Topology and Homotopy Theory*, Springer (1984) &lbrack;[doi:10.1007/978-1-4613-8283-6](https://doi.org/10.1007/978-1-4613-8283-6)&rbrack;
+
 
 Review:
 
