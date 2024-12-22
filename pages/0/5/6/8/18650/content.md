@@ -1,6 +1,6 @@
 [[!redirects Ivan di Liberti]]
 
-[Ivan Di Liberti](https://diliberti.github.io) is a postdoc working in [[categorical logic]], general category theory and [[formal category theory]].
+[Ivan Di Liberti](https://diliberti.github.io) works in [[categorical logic]], general category theory and [[formal category theory]].
 
 ## Selected writings
 
