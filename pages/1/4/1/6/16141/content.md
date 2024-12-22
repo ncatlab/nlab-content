@@ -6,3 +6,6 @@ Anthony Blanc is a former student of [[Bertrand Toën]].
 * [[dg-categories]]
 * [[noncommutative motives]]
 * [[topological K-theory]], [[semi-topological K-theory]]
+
+
+category: people
