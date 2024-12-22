@@ -33,3 +33,4 @@ See also:
 * [[semicategory]]
 
 
+category: people
