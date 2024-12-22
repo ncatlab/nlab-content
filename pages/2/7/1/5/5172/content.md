@@ -17,7 +17,7 @@ On [[set theory]]:
 
 PhD thesis (journal version):
 
-* [[J. v. Neumann]], _Die Axiomatisierung der Mengenlehre_, Mathematische Zeitschrift 27 (1928), 669–752.  [doi](https://doi.org/10.1007/BF01171122).
+* [[J. v. Neumann]], _Die Axiomatisierung der Mengenlehre_, Mathematische Zeitschrift 27 (1928) 669–752  &lbrack;[doi](https://doi.org/10.1007/BF01171122)&rbrack;
 
 On [[Hermitian operators]] and introducing the formal definition of [[Hilbert spaces]]:
 
@@ -45,6 +45,10 @@ Proving the [[Stone-von Neumann theorem]]:
 Co-introducing [[Jordan algebras]] as [[algebras of quantum observables]]:
 
 * {#JordanvNeumannWigner34} [[Pascual Jordan]], [[John von Neumann]], [[Eugene Wigner]], *On an algebraic generalization of the quantum mechanical formalism*, Ann. Math. **35** (1934) 29-64 &lbrack;[jstor:1968117](https://www.jstor.org/stable/1968117), [doi:10.1007/978-3-662-02781-3_21](https://doi.org/10.1007/978-3-662-02781-3_21)&rbrack;
+
+Introducing [[von Neumann regular rings]]:
+
+* [[John von Neumann]]: *On Regular Rings*, Proc. Natl. Acad. Sci. U.S.A. **22** (1936) 707-713 &lbrack;[doi:10.1073/pnas.22.12.707](https://doi.org/10.1073/pnas.22.12.707)&rbrack;
 
 
 On [[quantum logic]]:
