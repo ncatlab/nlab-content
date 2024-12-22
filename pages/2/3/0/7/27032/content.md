@@ -90,6 +90,8 @@ as $P$ is decidable.
 
 * The [[LLPO]] follows from [[WLPO]], since [[WLPO]] is equivalent to untruncated LLPO, which implies truncated LLPO. However, the converse does not necessarily hold, since in <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates WLPO from LLPO. Similarly, [Grossack 24](#Grossack24) shows that Johnstone's topological topos separates WLPO from LLPO. 
 
+* The $\mathrm{WLPO}_\mathbb{N}$ implies the [[stable fan theorem]]. 
+
 ## Related concepts
 
 * [[principle of omniscience]]
