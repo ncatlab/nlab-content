@@ -24,23 +24,31 @@ The fan theorem is one of the basic principles of [[intuitionism]] that make it 
 
 ## Statement
 
-Consider the [[list|finite]] and [[infinite sequence|infinite]] sequences of [[binary digits]].  Given an infinite sequence $\alpha$ and a [[natural number]] $n$, let $\bar \alpha n$ be the finite sequence consisting of the first $n$ [[elements]] of $\alpha$.
+Consider the [[list|finite]] and [[infinite sequence|infinite]] sequences of [[binary digits]] $\mathbb{B}^*$ and $\mathbb{B}^\mathbb{N}$ respectively.  Given an infinite sequence $\alpha$ and a [[natural number]] $n$, let $\bar \alpha n$ be the finite sequence consisting of the first $n$ [[elements]] of $\alpha$.
 
 Let $B$ be a collection of [[finite set|finite]] sequences of bits (or _bitlists_), that is a [[subset]] of the [[free monoid]] on the [[boolean domain]].  Given an infinite sequence $\alpha$ and a natural number $n$, we say that $\alpha$ _$n$-bars_ $B$ if $\bar \alpha n \in B$; given only $\alpha$, we say that $\alpha$ _bars_ $B$ if $\alpha$ $n$-bars $B$ for some $n$.
 
-We are interested in these three properties of $B$:
+We are interested in these properties of $B$:
 
 *  $B$ is _[[decidable subset|decidable]]_:  For every finite sequence $u$, either $u \in B$ or $u \notin B$.  (This is trivial in [[classical logic]] but will hold constructively only for some subsets $B$.)
+*  $B$ is _stable_: For every finite sequence $u$, there exists a [[decidable subset]] $S \subseteq \mathbb{B}^* \times \mathbb{N}$ such that $u \in B$ [[if and only if]] there exists $n \in \mathbb{N}$ such that $(u, n) \in S$. See section 3.6 of [Diener (2018)](#Diener18).  
 *  $B$ is _barred_:  For every infinite sequence $\alpha$, $\alpha$ bars $B$.
 *  $B$ is _uniform_:  For some natural number $M$, for every infinite sequence $\alpha$, if $\alpha$ bars $B$ at all, then $\alpha$ $n$-bars $B$ for some $n \leq M$.
 
 A __bar__ is a barred subset $B$.
 
 +-- {.un_theorem}
-###### Decidable Fan Theorem
+###### Decidable Fan Theorem {#DecidableFanTheorem}
 
 Every decidable bar is uniform.
 (In other words, if a collection of bitlists is decidable and barred, then it is also uniform.)
+=--
+
++-- {.un_theorem}
+###### Stable Fan Theorem {#StableFanTheorem}
+
+Every stable bar is uniform. 
+(In other words, if a collection of bitlists is stable and barred, then it is also uniform.)
 =--
 
 +-- {.un_theorem}
@@ -48,9 +56,11 @@ Every decidable bar is uniform.
 Every bar is uniform. (In other words, if a collection of bitlists is barred, then it is also uniform.)
 =--
 
+Bishop's [[weak limited principle of omniscience]] for the [[natural numbers]] implies the stable fan theorem. 
+
 Although the fan theorem is about bars, it is different from the [[bar theorem]], also known as "[[bar induction]]", which is related but stronger. The fan theorem discusses bars on lists of elements of $\mathbb{B}$; the bar theorem discusses bars on lists of elements of $\mathbb{N}$.
 
-Bar induction has three forms; decidable bar induction, monotone bar induction, and full bar induction (each stronger than the previous). The decidable fan theorem follows from decidable bar induction; the full fan theorem follows from monotone bar induction. Full bar induction, the strongest of the three, is a classical theorem; however, full bar induction implies Bishop's limited [[principle of omniscience]]. [[function realizability|Kleene's second realizability model]] provides a model of monotone bar induction plus Brouwer's continuity principle.
+Bar induction has many forms; decidable bar induction, monotone bar induction, and full bar induction (each stronger than the previous). The decidable fan theorem follows from decidable bar induction; the full fan theorem follows from monotone bar induction. Full bar induction, the strongest of the three, is a classical theorem; however, full bar induction implies Bishop's limited [[principle of omniscience]]. [[function realizability|Kleene's second realizability model]] provides a model of monotone bar induction plus Brouwer's continuity principle.
 
 ### Obfuscation
 
@@ -172,3 +182,6 @@ Also:
 [[!redirects full fan theorem]]
 
 [[!redirects classical fan theorem]]
+
+[[!redirects decidable fan theorem]]
+[[!redirects stable fan theorem]]
