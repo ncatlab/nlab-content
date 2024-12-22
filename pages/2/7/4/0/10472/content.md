@@ -552,8 +552,10 @@ Textbook accounts:
 
 * {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], Chapters IV.4 and V.7 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967)  ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
 
+* {#Bredon93} [[Glen Bredon]]: *Topology and Geometry*, Graduate Texts in Mathematics **139**, Springer (1993) &lbrack;[doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0), [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf)&rbrack;
 
-* {#Bredon93} [[Glen Bredon]], _Topology and Geometry_, Graduate Texts in Mathematics 139, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0), [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
+* [[Ioan Mackenzie James]], Chapter 3 of: *General Topology and Homotopy Theory*, Springer (1984) &lbrack;[doi:10.1007/978-1-4613-8283-6](https://doi.org/10.1007/978-1-4613-8283-6)&rbrack;
+
 
 Review:
 
