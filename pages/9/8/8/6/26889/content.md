@@ -41,11 +41,14 @@ $$
 
 To illustrate the use of the rather curious-looking equation $a = a x a$, consider this:
 
-Lemma: Suppose $a \in A$.  If for some $x \in A$ we have $a = a x a$, then $e = a x$ is idempotent and $a A = e A$. Conversely, if $a A = e A$ for some idempotent $e \in A$, then $a = a x a$ for some $x \in A$, and we can take $e = a x$.
+\begin{lemma}
+Suppose $a \in A$.  If for some $x \in A$ we have $a = a x a$, then $e = a x$ is idempotent and $a A = e A$. Conversely, if $a A = e A$ for some idempotent $e \in A$, then $a = a x a$ for some $x \in A$, and we can take $e = a x$.
+\end{lemma}
 
-Proof:  For the first implication, suppose for some $x \in A$ we have $a = a x a$.   Then $a x = a x a x$ so $e = a x$ is idempotent, and we just need to show $a A = e A$.   Since $e = a x$ we have $e A \subseteq a A$.   On the other hand, since $ a = a x a = e a$ we have $a A \subseteq e A$.
+\begin{proof} For the first implication, suppose for some $x \in A$ we have $a = a x a$.   Then $a x = a x a x$ so $e = a x$ is idempotent, and we just need to show $a A = e A$.   Since $e = a x$ we have $e A \subseteq a A$.   On the other hand, since $ a = a x a = e a$ we have $a A \subseteq e A$.
 
 For the converse implication, suppose $a A = e A$ for some idempotent $e$.  This is equivalent to the conjunction of three conditions: $e \in a A$, $a \in e A$, and $e^2 = e$.      The first condition says $e = a x$ for some $x \in A$.  The second condition says $a = e y$ for some $y \in A$, which by the third condition implies $e a = e e y = e y = a$, which by the first implies $a x a = a$, as desired.
+\end{proof}
 
 ## References
 
