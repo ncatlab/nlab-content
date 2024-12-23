@@ -325,7 +325,7 @@ $$
   \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_p}
 $$
 
-is a nontrivial cocycle, hence for which there is such a Green-Schwarz action functional for $p$-branes on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ may be classified and form what is called the _[[brane scan]]_ ([Ach&#250;carro-Evans-TownsendWiltshire 87](#AETW87), [Brandt 12-13](#Brandt12-13)):
+is a nontrivial cocycle, hence for which there is such a Green-Schwarz action functional for $p$-branes on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ may be classified and form what is called the _[[brane scan]]_ ([Achúcarro, Evans, Townsend & Wiltshire 87](#AETW87), [Brandt 12-13](#Brandt12-13)):
 
 {#DuffBraneScan} <div style="float:left;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/DuffBraneScan.jpg" height="600">
@@ -977,7 +977,7 @@ made fully explicit (in "FDA" language) in
 
 The original "brane scan" classification of GS action functionals by WZW terms:
 
-* {#AETW87} Anna Ach&#250;carro, [[Jonathan Evans]], [[Paul Townsend]], [[David Wiltshire]], _Super $p$-Branes_, Phys. Lett. B **198** (1987) 441 &lbrack;[spire:22286](http://inspirehep.net/record/22286), <a href="https://doi.org/10.1016/0370-2693(87)90896-3">doi:10.1016/0370-2693(87)90896-3</a>, [pdf](https://ir.canterbury.ac.nz/xmlui/bitstream/handle/10092/9041/12616571_pbrane.pdf?sequence=1&isAllowed=y), [[SuperpBranes.pdf:file]]&rbrack;
+* {#AETW87} Anna Achúcarro, [[Jonathan Evans]], [[Paul Townsend]], [[David Wiltshire]]: _Super $p$-Branes_, Phys. Lett. B **198** (1987) 441 &lbrack;[spire:22286](http://inspirehep.net/record/22286), <a href="https://doi.org/10.1016/0370-2693(87)90896-3">doi:10.1016/0370-2693(87)90896-3</a>, [pdf](https://ir.canterbury.ac.nz/xmlui/bitstream/handle/10092/9041/12616571_pbrane.pdf?sequence=1&isAllowed=y), [[SuperpBranes.pdf:file]]&rbrack;
 
 A complete rigorous classification of all the relevant cocycles on the [[super Poincaré Lie algebra]] was given in
 
