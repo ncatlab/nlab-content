@@ -59,6 +59,8 @@ A symmetrical argument, i.e. one applied to the [[opposite ring]], shows that 1 
 ## Examples
 
 * Every [[field]] is a von Neumann regular ring. 
+* Every [[semisimple ring]] is von Neumann regular.
+* If $V$ is a vector space over a [[skew-field]] $K$, then $End_K(V)$ is von Neumann regular.
 
 ## References
 
