@@ -43,7 +43,7 @@
 
 * [[base topos]], [[indexed topos]]
 
-## Internal Logic
+## Internal Logic {#toc_internal_logic}
 
 * [[categorical semantics]]
 
