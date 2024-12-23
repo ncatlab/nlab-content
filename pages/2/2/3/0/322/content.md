@@ -14,9 +14,6 @@
 =--
 
 
-
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -128,7 +125,7 @@ Every [[symmetric monoidal category|symmetric]] [[strict monoidal category]] $M$
 
 There is also an analogous adjunction between _non-symmetric_ colored operads, better known as [[multicategories]], and  monoidal categories. This was first worked out as a 2-adjunction between 2-categories ([Hermida 2000](Hermida2000)).  For more details, see [[multicategory#relation_to_monoidal_categories|Multicategory: relation to monoidal categories]].
 
-This 2-categorical treatment was later generalized to the symmetric case ([Weber 2009](Weber2009)).  Namely, there is a forgetful 2-functor from the 2-category of [[symmetric monoidal categories]], symmetric [[lax monoidal functors]] and [[monoidal natural transformations]] to a 2-category of colored operads in $(Set, \times)$, and this has a left 2-adjoint.  In fact symmetric monoidal categories may be seen as the adjoint pseudo-algebras of a lax idempotent 2-monad on the 2-category of colored operads in $(Set, \times)$.
+This 2-categorical treatment was later generalized to the symmetric case ([Weber 2009](#Weber2009)).  Namely, there is a forgetful 2-functor from the 2-category of [[symmetric monoidal categories]], symmetric [[lax monoidal functors]] and [[monoidal natural transformations]] to a 2-category of colored operads in $(Set, \times)$, and this has a left 2-adjoint.  In fact symmetric monoidal categories may be seen as the adjoint pseudo-algebras of a lax idempotent 2-monad on the 2-category of colored operads in $(Set, \times)$.
 
 ### Algebras 
 
@@ -553,7 +550,7 @@ Elmendorf and Mandell constructed an adjunction between the category of symmetri
 
 Weber treated a related adjunction at the 2-categorical level in Section 3.3 of this paper, using the term "symmetric multicategory" to mean the same thing as "colored operad in $(Set, \times)$":
 
-* {Weber2009} [[Mark Weber]], Free products of higher operad algebras.  ([arXiv:0909.4722](https://arxiv.org/abs/0909.4722))
+* {#Weber2009} [[Mark Weber]], Free products of higher operad algebras.  ([arXiv:0909.4722](https://arxiv.org/abs/0909.4722))
 
 On operads as [[double functors]] between certain [[double categories]]:
 
