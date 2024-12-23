@@ -24,15 +24,14 @@
 
 ## Idea
 
-The **principle of induction** says that if a property of the 
+The **principle of induction** says that, if a property of the 
 [[natural numbers]] 
 
-1. is [[true]] for $0 \in \mathbb{N}$;
+1. is [[true]] for $0 \in \mathbb{N}$, and
 
-1. if it is true for $n \in \mathbb{N}$ then it is true for $n+1$;
+1. is true for $n+1$ whenever it is true for a natural number $n \in \mathbb{N}$,
 
-then it is true for every $n \in \mathbb{N}$. The intuitive notion of a property is in practical mathematics identified with (belonging to) a subset $S\subseteq\mathbb{N}$. Thus the mathematical induction says that if $0\in S$ and if $\forall n\in\mathbb{N}$ $n\in S\implies n+1\in S$ then $S = \mathbb{N}$. This is the way in
-the formal Dedekind-Peano arithmetics. Usually in logic one however uses a weaker form of induction which can be stated in a first order language (or in a type theory), namely where one limits to properties given by the predicates $P(n)$ [[dependent type|depending]] on natural numbers. The corresponding conclusion is the [[proposition]] $n \in \mathbb{N} \vdash P(n)$. 
+then it is true for every $n \in \mathbb{N}$. The intuitive notion of a property is in practical mathematics identified with (belonging to) a subset $S\subseteq\mathbb{N}$. Thus the induction principle for the natural numbers says that, if $0\in S$ and if $\forall n\in\mathbb{N}$ $n\in S\implies n+1\in S$, then $S = \mathbb{N}$. This is the way it is stated in formal Dedekind-Peano arithmetic. However, in logic, one usually uses a weaker form of induction which can be stated in a first order language (or in a type theory), namely where one limits to properties given by the predicates $P(n)$ [[dependent type|depending]] on natural numbers. The corresponding conclusion is the [[proposition]] $n \in \mathbb{N} \vdash P(n)$. 
 The latter version of the principle of induction is weaker because there are only
 $\aleph_0$ predicates but $2^{\aleph_0}$ subsets of $\mathbb{N}$.
 
