@@ -15,9 +15,6 @@
 =--
 
 
-
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -116,6 +113,10 @@ A strong claim is due to [Heinesen-Buchert 20](#HeinesenBuchert20), who present 
 > and (vi) the local expansion rate measurements (removal of the 'Hubble tension').
 
 > We believe that this model architecture needs convincing arguments to be rejected as a physically viable show-case, on the basis of which the model ingredients can be improved in order to build a physical cosmology in the future.
+
+[SLGRW25](#SLGRW25):
+
+> When considering the entire `Pantheon+` sample, we find very strong evidence $(ln B \gt 5)$ in favour of timescape over $\Lambda$CDM. \[...\]  Timescape, while statistically homogeneous and isotropic, departs from average Friedmann-Lemaıtre-Robertson-Walker evolution, and replaces dark energy by kinetic gravitational energy and its gradients,
 
 ### Impact
  {#Impact}
@@ -353,16 +354,18 @@ The proposal that backreaction of cosmic inhomogeneities may mimic a [[cosmologi
 * {#Rasanen03} [[Syksy Räsänen]], _Dark energy from backreaction_, JCAP 0402:003, 2004 ([arXiv:astro-ph/0311257](https://arxiv.org/abs/astro-ph/0311257))
 
 
-* {#AlnesAmarzguiouiGron06} H. Alnes, M. Amarzguioui and O. Gron, _An inhomogeneous alternative to dark energy?_, Phys. Rev. D 73, 083519 (2006) ([arXiv:astro-ph/0512006](https://arxiv.org/abs/astro-ph/0512006))
+* {#AlnesAmarzguiouiGron06} H. Alnes, M. Amarzguioui and O. Gron, _An inhomogeneous alternative to dark energy?_, Phys. Rev. D 73, 083519 (2006) &lbrack;[arXiv:astro-ph/0512006](https://arxiv.org/abs/astro-ph/0512006)&rbrack;
 
 
-* {#EnqvistMattsson06} Kari Enqvist, Teppo Mattsson, _The effect of inhomogeneous expansion on the supernova observations_, JCAP 0702:019,2007 ([arXiv:astro-ph/0609120](https://arxiv.org/abs/astro-ph/0609120))
+* {#EnqvistMattsson06} Kari Enqvist, Teppo Mattsson, _The effect of inhomogeneous expansion on the supernova observations_, JCAP 0702:019 (2007) &lbrack;[arXiv:astro-ph/0609120](https://arxiv.org/abs/astro-ph/0609120)&rbrack;
 
-* {#AlnesAmarzguioui06} Havard Alnes, Morad Amarzguioui, _The supernova Hubble diagram for off-center observers in a spherically symmetric inhomogeneous universe_, Phys. Rev. D75:023506, 2007 ([arXiv:astro-ph/0610331](https://arxiv.org/abs/astro-ph/0610331))
+* {#AlnesAmarzguioui06} Havard Alnes, Morad Amarzguioui, _The supernova Hubble diagram for off-center observers in a spherically symmetric inhomogeneous universe_, Phys. Rev. D75:023506 (2007) &lbrack;[arXiv:astro-ph/0610331](https://arxiv.org/abs/astro-ph/0610331)&rbrack;
 
-* {#Buchert07} [[Thomas Buchert]], _Dark Energy from structure: a status report_, Gen.Rel.Grav.40:467-527, 2008 ([arXiv:0707.2153](http://xxx.lanl.gov/abs/0707.2153))
+* {#Buchert07} [[Thomas Buchert]], _Dark Energy from structure: a status report_, Gen. Rel. Grav. **40** (2008) 467-527 &lbrack;[arXiv:0707.2153](http://xxx.lanl.gov/abs/0707.2153)&rbrack;
 
-* {#Sarkar08} [[Subir Sarkar]], _Is the evidence for dark energy secure?_, Gen. Rel. Grav.40:269-284, 2008 ([arXiv:0710.5307](https://arxiv.org/abs/0710.5307))
+* [[David L. Wiltshire]]: *Cosmic clocks, cosmic variance and cosmic averages*, New J. Phys. **9** (2007) 377 &lbrack;[doi:10.1088/1367-2630/9/10/377](https://doi.org/10.1088/1367-2630/9/10/377), [arXiv:gr-qc/0702082](https://arxiv.org/abs/gr-qc/0702082)&rbrack;
+
+* {#Sarkar08} [[Subir Sarkar]], _Is the evidence for dark energy secure?_, Gen. Rel. Grav. 40 (2008) 269-284 &lbrack;[arXiv:0710.5307](https://arxiv.org/abs/0710.5307)&rbrack;
 
 * {#Notari09} Alessio Notari, _Can an Inhomogeneous Universe mimic Dark Energy?_, 2009 ([[NotariInhomogeneousCosmology.pdf:file]])
  
@@ -422,6 +425,7 @@ The proposal that backreaction of cosmic inhomogeneities may mimic a [[cosmologi
 
 * {#SikoraGlod20} Szymon Sikora, Krzysztof Głód, _Construction of the cosmological model with periodically distributed inhomogeneities with growing amplitude_ ([arXiv:2005.06385](https://arxiv.org/abs/2005.06385))
 
+* {#SLGRW25} Antonia Seifert, Zachary G. Lane, Marco Galoppo, Ryan Ridden-Harper, [[David L. Wiltshire]]: *Supernovae evidence for foundational change to cosmological models*, MNRAS Letters **537** 1 (2025) L55-L60 &lbrack;[arXiv:2412.15143](https://www.arxiv.org/abs/2412.15143), [doi:10.1093/mnrasl/slae112](https://doi.org/10.1093/mnrasl/slae112)&rbrack;
 
 
 
