@@ -17,3 +17,5 @@ For biographical and other detail, see
 * [MacTutor biographical sketch](http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Bolzano.html)
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Bernard_Bolzano)
+
+category: people
