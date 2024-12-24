@@ -17,3 +17,5 @@ On a cohomological interpretation of [[entropy]]:
 * [[contact manifold]]
 
 * [[entropy]]
+
+category: people
