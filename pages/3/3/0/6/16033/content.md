@@ -31,3 +31,5 @@
 [[!redirects Fichte]]
 
 [[!redirects Johann Gottlieb Fichte]]
+
+category: people
