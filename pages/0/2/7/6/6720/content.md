@@ -22,3 +22,5 @@ _Comparing algebraic and topological K-theory_, in _Higher Algebraic K-Theory: a
 * [[comparison between algebraic and topological K-theory]]
 
 [[!redirects H. Gillet]]
+
+category: people
