@@ -5,4 +5,4 @@
 
 * [[Ribet's theorem]]
 
-cateory: people
+category: people
