@@ -31,3 +31,5 @@ __Felix C. Klein__ was a mathematician now famous for his study of [[group theor
 
 
 [[!redirects F. Klein]]
+
+category: people
