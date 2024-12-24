@@ -27,7 +27,7 @@ In his 1966 publication "Eindeutigkeit und Mehrdeutigkeit formaler Sprachen", EI
 In the early 80s, monoidal categories have been generalized to bicategories of [logic-topological nets](http://www.academia.edu/5888548/Hierarchical_design_based_on_a_calculus_of_nets) and used as the mathematical foundation of the VLSI design system "CADIC". 
  
 
-
+category: people
 
 
  
