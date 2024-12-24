@@ -14,3 +14,4 @@ Observation that [[vacua]]/[[ground states]] of the [[free field|free]] [[Dirac 
 [[!redirects Charles A. Hurst]]
 [[!redirects C. A. Hurst]]
 
+category: people
