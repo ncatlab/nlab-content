@@ -30,6 +30,9 @@ On [[von Neumann algebra factors]] [[algebra of observables|of observables]] for
 
 * [[Venkatesa Chandrasekaran]], [[Roberto Longo]], [[Geoff Penington]], [[Edward Witten]], *An Algebra of Observables for de Sitter Space*, Journal of High Energy Physics **2023**  82 (2023) &lbrack;[arXiv:2206.10780](https://arxiv.org/abs/2206.10780), <a href="https://doi.org/10.1007/JHEP02(2023)082">doi:10.1007/JHEP02(2023)082</a>&rbrack;
 
+On [[supergravity|super]]-[[JT-gravity]]:
+
+* [[Geoff Penington]], [[Edward Witten]]: *Algebras and states in super-JT gravity* &lbrack;[arXiv:2412.15549](https://arxiv.org/abs/2412.15549)&rbrack;
 
 
 
