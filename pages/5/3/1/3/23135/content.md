@@ -13,3 +13,6 @@ Corbin is a contributor.
 * [[separation axiom|Separation axiom]] and [[topological vector space]] could have zaha-style diagrams, see [this conversation](https://nforum.ncatlab.org/discussion/13419/catabase-a-database-of-categories/) for details.
 * [[timed set]], from the paper "Timed Sets, Functional Complexity, and Computability"
 * [[TurCat]], maybe? This is the category where each object is a [[Turing category]] and the arrows are functors which preserve restriction structure. It's a full subcategory of [[RCat]], where each object is a [[restriction category]].
+
+
+category:people
