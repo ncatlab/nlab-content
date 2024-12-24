@@ -23,3 +23,4 @@ On [[JT-gravity]] and [[AdS2/CF1]] in [[M-theory]]:
 
 * Junho Hong, [[Niall Macpherson]], Leopoldo A. Pando Zayas, _Aspects of $AdS_2$ classification in M-theory: Solutions with mesonic and baryonic charges_, JHEP 11 (2019) 127 ([arXiv:1908.08518](https://arxiv.org/abs/1908.08518))
 
+category: people
