@@ -48,3 +48,5 @@ On the [[Langlands program]]:
 [[!redirects Joseph N. Bernstein]]
 [[!redirects I. N. Bernšteĭn]]
 [[!redirects I. N. Bernstein]]
+
+category: people
