@@ -3,3 +3,5 @@ __Kenneth Kunen__ is a mathematician, Prof. Emeritus at University of Wisconsin-
 * [web](http://www.math.wisc.edu/~kunen)
 [[!redirects Ken Kunen]]
 [[!redirects K. Kunen]]
+
+category: people
