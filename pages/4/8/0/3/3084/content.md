@@ -3,6 +3,8 @@ Let $G$ be a [[group object|group]] in some category $C$ of [[space]]s. We assum
 
 Consider a $G$-space $X$ with [[action]] $\rho: G\times X\to X$ and projection $p: G\times X\to X$.  These data give rise to an [[action groupoid]] in the category of spaces, denoted by $[X/G]$ or sometimes $X//G$.  This groupoid can also be identified with its [[nerve]], which is a [[simplicial object]] in spaces.
 
+## Definition
+
 An __equivariant sheaf__ over a $G$-space $X$ is a $G$-[[equivariant object]] in $F_X$. In other words, it is a sheaf $x$ over $X$ together with an isomorphism $\theta : p^* x \to \rho^* x$ of sheaves over $G\times X$ satisfying the usual cocycle condition on $G\times G\times X$. All equivariant sheaves form the equivariant fiber $F_X^G$ of $F$ over $X$. The equivariant fiber over $X$ is thought of as a fiber over the simplicial object $[X/G]$.
 
 If the fibered category $F$ is a [[stack]] for some [[subcanonical topology|subcanonical Grothendieck topology]] on $C$ and $X$ a $G$-[[torsor]] over some true base space $X/G$ in $C$ then there is a descent along torsor: the equivariant fiber $F_X^G$ is canonically equivalent to the usual fiber over $X/G$. In other words the fibers over $[X/G]$ and $X/G$ are equivalent. 
@@ -13,9 +15,27 @@ Notice that being an equivariant sheaf is an additional structure on a sheaf, ra
 
 Note also that if "space" means [[topological space]] and $G$ is a [[topological group]] acting on the [[point]] $1$, then equivariant sheaves are just the same as continuous $G$-sets.  In particular, if $G$ is a discrete group, then equivariant sheaves are just the same as ordinary $G$-sets.
 
-Observe that the definition of equivariant sheaf only depends on the [[action groupoid]], and thus can be generalized to equivariant sheaves on any internal groupoid in the category of spaces.  If "space" means [[locale]], then every [[Grothendieck topos]] can be presented as the category of equivariant sheaves on some [[localic groupoid]].  This is a theorem of [[André Joyal]] and [[Miles Tierney]], and can be found in chapter C5 of the [[Elephant]].
+Observe that the definition of equivariant sheaf only depends on the [[action groupoid]], and thus can be generalized to equivariant sheaves on any internal groupoid in the category of spaces.  If "space" means [[locale]], then every [[Grothendieck topos]] can be presented as the category of equivariant sheaves on some [[localic groupoid]].  This is a theorem of [[André Joyal]] and [[Miles Tierney]] ([Joyal-Tierney 1984](#JT84)), and can be found in ([Elephant, C5](#Elephant))
 
 The appropriate notion of the "[[equivariant derived category]]" is in general not equal to the derived category of the [[abelian category]] of equivariant sheaves; one needs to resolve appropriately.  
+
+## References
+
+As a general reference:
+
+* {#Elephant} [[Peter Johnstone]], [[Sketches of an Elephant]], chapter C5.
+
+The proof that every Grothendieck topos is equivalent to a category of equivariant sheaves for some localic groupoid is in
+
+* {#JT84} [[André Joyal]] and [[Myles Tierney]], _An extension of the Galois theory of Grothendieck_, Mem. Amer. Math. Soc. 309, 1984. doi:[10.1090/memo/0309](https://doi.org/10.1090/memo/0309)
+
+and a shorter proof of this fact was given in
+
+* [[Christopher Townsend]], _A short proof of the localic groupoid representation of Grothendieck toposes_, Proc. Amer. Math. Soc. 142(3), 2014. doi:[10.1090/S0002-9939-2013-11829-0](https://doi.org/10.1090/S0002-9939-2013-11829-0), [arXiv:1812.10941](https://arxiv.org/abs/1812.10941)
+
+
+
+
 
 category: sheaf theory
 [[!redirects equivariant sheaves]]
