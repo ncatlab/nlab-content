@@ -16,3 +16,5 @@
 
 
 [[!redirects John Reynolds]]
+
+category: people
