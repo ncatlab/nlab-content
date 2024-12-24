@@ -33,5 +33,5 @@ On [[types]] ([[type theory]]) in [[mathematics]]:
 [[!redirects Nicolaas G. de Bruijn]]
 
 
-
+category: people
 
