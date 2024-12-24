@@ -18,3 +18,5 @@ On [[Seiberg-Witten theory]]:
 
 
 [[!redirects Juergen Jost]]
+
+category: people
