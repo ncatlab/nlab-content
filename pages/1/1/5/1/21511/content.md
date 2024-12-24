@@ -19,3 +19,5 @@ On [[model theory]]
 
 [[!redirects H. Jerome Keisler]]
 [[!redirects Howard Jerome Keisler]]
+
+category: people
