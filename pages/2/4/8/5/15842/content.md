@@ -11,3 +11,5 @@ Edwin Jaynes (1922-1998), physicist and proponent of an objective [[Bayesian rea
 * [[Bayesian reasoning]]
 
 * [[statistical significance]]
+
+category: people
