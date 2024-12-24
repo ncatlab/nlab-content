@@ -117,6 +117,10 @@ On [[tensor hierarchies]] in [[gauged supergravity]]:
 
 * Jesper Greitz, [[Paul Howe]], [[Jakob Palmkvist]], _The tensor hierarchy simplified_, Class. Quantum Grav. 31 (2014) 087001 ([arXiv:1308.4972](https://arxiv.org/abs/1308.4972))
 
+On [[D=6 supergravity]] formukated on [[free loop space]]:
+
+* [[Paul S. Howe]], U. Lindström: *Exotic gravity theory in loop space* &lbrack;[arXiv:2412.16292](https://arxiv.org/abs/2412.16292)&rbrack;
+
 
 
 
