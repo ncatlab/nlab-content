@@ -50,3 +50,5 @@ His paper on normed sets above (part 1 out of 3) is partly extending ideas from
 [[!redirects Nikolai Durov]]
 [[!redirects Николай Дуров]]
 [[!redirects Николай Валерьевич Дуров]]
+
+category: people
