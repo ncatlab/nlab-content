@@ -9,7 +9,7 @@
 
 * **Structural proof theory** is concerned with the structure of proofs and perspicuous proof calculi for elucidating this structure. This leads to the study of [[sequent calculi]] and of [[natural deduction]].
 
-* **Reductive proof theory** is the modern version of [[Hilbert's program]]: Instead of hoping to secure all of mathematics with finitistic means, one ask: _what rests on what?_ 
+* **Reductive proof theory** is the modern version of [[Hilbert's program]]: Instead of hoping to secure all of mathematics with finitistic means, one asks: _what rests on what?_ 
 
   That is, one asks for reductions between various formal systems, showing for example that some [[classical logic|classical]] systems can be reduced to [[constructive mathematics|constructive]] systems, or some systems which use _a priori_ [[impredicative]] principles can nevertheless be reduced to [[predicative]] systems. See also: [[reverse mathematics]].
 
