@@ -64,6 +64,14 @@ If you make any edits to the nLab, please follow the guidelines for announcing y
 
 The nLab should be viewable and editable in any modern web browser on any device. For technical reasons, browsers which are able to render [MathML](http://en.wikipedia.org/wiki/MathML), such as Firefox, may render very large pages quicker than other browsers, but these pages are few and far between, and most people will be able to use the browser of their choice. 
 
+The following custom themes are available for the nLab:
+
+* Dark theme by BinaryQuantumSoul: <https://userstyles.world/style/19674/nlab-full-redesign>
+
+* Dark theme by Paolo Perrone: <https://userstyles.world/style/15519/nlab-dark>
+
+
+
 Editing the nLab these days can be done more or less as in LaTeX. Macros are not currently available, but mathematics can be entered within dollar signs as usual, [theorem environments](https://ncatlab.org/nlab/show/HowTo#DefinitionTheoremProofEnvironments), sections and tables of contents can be defined as in LaTeX, [commutative diagrams](https://ncatlab.org/nlab/show/HowTo#diagrams) and figures can be created in Tikz or XyMatrix, and so on. For simple formatting, such as italics, and for some other things such as tables, [Markdown](https://en.wikipedia.org/wiki/Markdown) is used. 
 
 See the [[HowTo]] for more on editing the nLab. 
