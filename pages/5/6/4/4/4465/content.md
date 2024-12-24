@@ -62,7 +62,7 @@ Another way to derive Bekenstein-Hawking entropy in [[string theory]] is by comp
 
 Textbook account:
 
-* {#FrolovZelnikov11} [[Valeri Frolov]], Andrei Zelnikov, _Introduction to black hole physics_, Oxford 2011
+* {#FrolovZelnikov11} [[Valeri Frolov]], Andrei Zelnikov, _Introduction to black hole physics_, Oxford (2011)
 
 Review:
 
@@ -79,9 +79,12 @@ Review form the point of view of [[thermal field theory]]:
 
 Basic introductory accounts:
 
-* [[Robert Wald]], _The Thermodynamics of Black Holes_ ([arXiv:gr-qc/9912119](http://arxiv.org/abs/gr-qc/9912119))
+* [[Robert Wald]], _The Thermodynamics of Black Holes_ &lbrack;[arXiv:gr-qc/9912119](http://arxiv.org/abs/gr-qc/9912119)&rbrack;
 
-* [[Jacob Bekenstein]], _[Bekenstein-Hawking entropy](http://www.scholarpedia.org/article/Bekenstein-Hawking_entropy)_, (2008), Scholarpedia, 3(10):7375
+* [[Jacob Bekenstein]], _[Bekenstein-Hawking entropy](http://www.scholarpedia.org/article/Bekenstein-Hawking_entropy)_, Scholarpedia, **3** 10 (2008) 7375
+
+* [[Edward Witten]]: *Introduction to Black Hole Thermodynamics* &lbrack;[arXiv:2412.16795](https://arxiv.org/abs/2412.16795)&rbrack;
+
 
 and further review:
 
