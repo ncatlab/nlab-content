@@ -19,3 +19,6 @@ English translation:
 
 [[!redirects Demazure]]
 [[!redirects M. Demazure]]
+
+
+category: people
