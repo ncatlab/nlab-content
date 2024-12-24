@@ -628,6 +628,10 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 
 * [[Emil Martinec]]: *Worldsheet Histories -- Developing The Conceptual Framework of String Theory*, talk at *[Perspectives in Theoretical Physics](https://sites.google.com/view/plectics-calendar/series/perspectives/th-physics/pithp-092024?authuser=0)*, Plectics Lab (Sep 2024) &lbrack;video:[YT](https://youtu.be/kKvnXX8M76E)&rbrack;
 
+* [[John H. Schwarz]]: *From Hadrons to Gravitons via Strings*, in: *Fields, Gravity, Strings and Beyond: In Memory of Stanley Deser*
+&lbrack;[arXiv:2412.16885](https://arxiv.org/abs/2412.16885)&rbrack;
+
+
 
 
 [[!redirects string theories]]
