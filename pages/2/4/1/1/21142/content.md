@@ -13,3 +13,5 @@ Gilbert Ryle (1900-1976) was an Oxford philosopher, one of the early exponents o
 * {#Magidor} Ofra Magidor, _SEP: Gilbert Ryle_, ([SEP](https://plato.stanford.edu/entries/category-mistakes/))
 
 * {#Tanney} Julia Tanney, _SEP: Gilbert Ryle_, ([SEP](https://plato.stanford.edu/entries/ryle/))
+
+category: people
