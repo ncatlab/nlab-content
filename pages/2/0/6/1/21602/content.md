@@ -9,4 +9,4 @@ On [[embedding of smooth manifolds into formal duals of R-algebras]]:
 
 * [[Janusz Grabowski]], _Isomorphisms of algebras of smooth functions revisited_, Arch. Math. 85 (2005), 190-196 ([arXiv:math/0310295](https://arxiv.org/abs/math/0310295))
 
-categoru: people
+category: people
