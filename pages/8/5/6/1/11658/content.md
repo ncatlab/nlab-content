@@ -128,6 +128,9 @@ Further discussion:
 
 * [[Chris Hull]], *Gravity, Duality and Conformal Symmetry*, in *Quantum gravity, branes and M-theory* &lbrack;[arXi:2209.11716](https://arxiv.org/abs/2209.11716)&rbrack;
 
+* [[Paul S. Howe]], U. Lindström: *Exotic gravity theory in loop space* &lbrack;[arXiv:2412.16292](https://arxiv.org/abs/2412.16292)&rbrack;
+
+
 
 
 
