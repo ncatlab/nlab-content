@@ -79,3 +79,5 @@ On [[higher curvature corrections]] to the (abelian) [[DBI-action]] for [[D-bran
 * [[Green-Schwarz sigma-model]]
 
 * [[Green-Schwarz mechanism]]
+
+category: people
