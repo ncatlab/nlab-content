@@ -14,3 +14,5 @@ On the [[asymptotic expansion]] of the [[partition function (number theory)|part
 
 [[!redirects Godfrey Harold Hardy]]
 [[!redirects Godfrey Hardy]]
+
+category: people
