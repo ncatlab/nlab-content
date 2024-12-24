@@ -5,3 +5,5 @@ Catherine Ray is a graduate student at Northwestern University studying the inte
 * [blog](http://rin.io)
 
 She graduated with a B.S. in Computational Physics from George Mason University at 16, and accepted the Thiel Fellowship in 2014 to study mathematical physics full-time.
+
+category: people
