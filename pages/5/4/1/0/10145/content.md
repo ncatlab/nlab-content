@@ -5,3 +5,5 @@ David Edwards is an American mathematician working at the University of Georgia,
 
 [[!redirects D.A. Edwards]]
 [[!redirects D. A. Edwards]]
+
+category: people
