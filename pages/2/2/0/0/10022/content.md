@@ -291,6 +291,11 @@ Review:
 
 * [[Bowen Chen]], [[Bartlomiej Czech]], [[Zi-zhi Wang]], *Quantum Information in Holographic Duality*, Rept. Prog. Phys. **85** (2022) 4, 046001 &lbrack;[arXiv:2108.09188](https://arxiv.org/abs/2108.09188), [doi:10.1088/1361-6633/ac51b5](https://doi.org/10.1088/1361-6633/ac51b5)&rbrack;
 
+
+* [[Edward Witten]]  section 9 of: *Introduction to Black Hole Thermodynamics* &lbrack;[arXiv:2412.16795](https://arxiv.org/abs/2412.16795)&rbrack;
+
+
+
 Textbook account:
 
 * [[Mukund Rangamani]], [[Tadashi Takayanagi]], *Holographic Entanglement Entropy*, Lecture Notes in Physics **931**, Springer (2017) &lbrack;[doi:10.1007/978-3-319-52573-0](https://doi.org/10.1007/978-3-319-52573-0), [arXiv:1609.01287](https://arxiv.org/abs/1609.01287)&rbrack;
