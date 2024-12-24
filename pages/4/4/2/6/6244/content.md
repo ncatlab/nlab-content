@@ -9,3 +9,5 @@ __Boris Zilber__ is a logician and [[model theory|model theorist]] at Oxford.
 Related entries include [[Zariski geometry]]
 
 [[!redirects B. Zilber]]
+
+category: people
