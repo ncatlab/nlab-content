@@ -69,6 +69,9 @@ On [[supergravity]]-versions of JT-gravity:
 
 * Gustavo J. Turiaci, [[Edward Witten]], *$\mathcal{N} = 2$ JT Supergravity and Matrix Models* &lbrack;[arXiv:2305.19438](https://arxiv.org/abs/2305.19438)&rbrack;
 
+* [[Geoff Penington]], [[Edward Witten]]: *Algebras and states in super-JT gravity* &lbrack;[arXiv:2412.15549](https://arxiv.org/abs/2412.15549)&rbrack;
+
+
 
 
 
