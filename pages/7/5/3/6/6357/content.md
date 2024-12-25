@@ -9,6 +9,7 @@ An accessible presentation of Matiyasevich's theorem is in
 
 * [[Yuri Manin]], _Introduction to mathematical logic_, Springer
 
+category: people
 
 [[!redirects Matiyasevich]]
 [[!redirects Yu. Matiyasevich]]
