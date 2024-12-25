@@ -22,7 +22,7 @@ On the connection between [[prime spectra]] of quantum Grassmannians and positro
 * [[quantum group]] 
 
 
-category: person
+category: people
 
 [[!redirects Stephane Launois]]
 [[!redirects S. Launois]]
