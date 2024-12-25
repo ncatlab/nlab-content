@@ -10,5 +10,7 @@ __Shelah's categoricity conjecture.__ Let $T$ be a countable theory in $L_{\omeg
 $\mu\geq\beth_{\omega_1}$. More generally, let  $K = (K,\lt)$ be an [[abstract elementary class]]. If there exists $\lambda\geq|2^{LS(K)}|$ such that the number of isomorphism classes of models in cardinality $\lambda$ is $I(\lambda,K) = 1$ then $I(\mu,K) = 1$ holds for every
 $\mu\geq|2^{LS(K)}|$. 
 
+category: people
+
 [[!redirects Shelah]] 
 [[!redirects S. Shelah]]
