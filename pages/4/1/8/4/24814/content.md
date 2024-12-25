@@ -31,3 +31,4 @@ On the history of the development of the [[Haskell]] [[programming language]]:
 
 * [[Haskell]]
 
+category: people
