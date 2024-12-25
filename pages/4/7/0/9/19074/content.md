@@ -66,6 +66,7 @@ On [[lenses (in computer science)]]:
 * [[Michael Johnson]], [[Robert Rosebrugh]], [[Richard J. Wood]], *Lenses, fibrations and universal translations* Math. Structures Comput. Sci. **22** 1 (2012) 25–42 &lbrack;[doi:10.1017/S0960129511000442](https://doi.org/10.1017/S0960129511000442)&rbrack;
 
 
+category: people
 
 [[!redirects Richard Wood]] 
 
