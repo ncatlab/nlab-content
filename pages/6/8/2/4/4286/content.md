@@ -23,8 +23,6 @@ A _black hole_ is a [[spacetime]] that solves [[Einstein equations]] of [[genera
 
 Black holes are considered theoretically for [[gravity|gravitational theories]] in various number $d$ of dimension. For $d \geq 5$ a black hole [[spacetime]] may have nontrivial [[topology]], e.g. _[[black rings]]_ are possible. 
 
-Relating to the fact that the area of the event horizon must always increase, we must mention Penrose's global methods. Witten's positive energy theorem is essentially a consequence of the weak energy condition $ T_{\mu \nu} w^{\mu} w^{\nu} \geq 0 $
-
 
 ## Examples
 
