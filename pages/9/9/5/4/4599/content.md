@@ -293,7 +293,7 @@ $$
   (F_i, 0, 0, \cdots, 0)
 $$
 
-by using a [[partition of unity]] $big(\rho_i \in C^\infty(X)\big)$ subordinate to the cover $\{U_i \to X\}$, i.e. $x \in U_i \Rightarrow \rho_i(x) = 0$ and $\sum_i \rho_i = 1$.
+by using a [[partition of unity]] $\big(\rho_i \in C^\infty(X)\big)$ subordinate to the cover $\{U_i \to X\}$, i.e. $x \in U_i \Rightarrow \rho_i(x) = 0$ and $\sum_i \rho_i = 1$.
 
 For consider 
 
@@ -309,7 +309,7 @@ $$
       Z_{i_1, \cdots, i_{n+1}}
     \big)
     \\
-     +\; & 
+     \pm\; & 
     D 
     \big(
       0 ,\, 
@@ -346,24 +346,27 @@ $$
       \delta \textstyle{\sum} \rho Z
     \big)_{i_1, \cdots, i_{n+1}}
     & =
+    \pm
     \textstyle{\sum_{i_0}} \rho_{i_0}
     \textstyle{\sum_{k = 1}^{n+1}}
     (-1)^k
     Z_{i_0, i_1 \cdots, \hat i_k, \cdots, i_{n+1}}
     \\
     & =
+    \pm
     \textstyle{\sum_{i_0}} \rho_{i_0}
     Z_{i_1 ,\cdots, i_{n+1}}    
     \\
     & =
+    \pm
     Z_{i_1 ,\cdots, i_{n+1}}
     \,.
   \end{aligned}
 $$
 
-> where I am suppressing some evident signs...
+> (up to some sign which one can work out...)
 
-By recurseively adding coboundaries this way, we can annihilate all the higher Cech-components of the original cocycle and arrive at a cocycle of the form $(F_i, 0, \cdots, 0)$. 
+By recursively adding coboundaries this way, we can annihilate all the higher Cech-components of the original cocycle and arrive at a cocycle of the form $(F_i, 0, \cdots, 0)$. 
 
 Such a cocycle being $D$-closed says precisely that $F_i = F|_{U_i}$ for $F \in \Omega^n_{cl}(X)$ a globally defined closed differential form. Moreover, coboundaries between two cocycles both of this form 
 
