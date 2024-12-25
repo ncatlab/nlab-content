@@ -22,5 +22,7 @@ His biography has been published in T&#244;hoku Math. J. (see project [euclid](h
 
 * [[Tannaka duality]]
 
+category: people
+
 [[!redirects Tannaka]]
 [[!redirects T. Tannaka]]
