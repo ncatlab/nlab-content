@@ -1,4 +1,4 @@
-__Pierre Gabriel__ also often as __Peter Gabriel__ (1933-2015) was a French and Swiss mathematician, professor at Z&#252;rich, was a president of Swiss Mathematical Society in 1980/1981.
+__Pierre Gabriel__ also often as __Peter Gabriel__ (1933-2015) was a French and Swiss mathematician, professor at Z&#252;rich. He was a president of Swiss Mathematical Society in 1980/1981.
 
 * [webpage](http://www.pierre-peter-gabriel-mathematics.ch), [biography](http://www.pierre-peter-gabriel-mathematics.ch/biography/)
 
