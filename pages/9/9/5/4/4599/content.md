@@ -39,7 +39,7 @@ In this case the intrinsic differential cohomology reproduces [[ordinary differe
 
 ## The ambient context
 
-Let $\mathbf{H} := $ [[Smooth∞Grpd]] be the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoid]].  As usual, write
+Let $\mathbf{H} coloneqq $ [[Smooth∞Grpd]] be the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoid]].  As usual, write
 
 $$
   (\Pi \dashv Disc \dashv \Gamma \dashv coDisc) :
@@ -86,7 +86,8 @@ induced by this. Every such cocycle $\nabla \in \mathbf{H}_{diff}(X,\mathbf{B}^n
 We consider these constructions in the model $\mathbf{H} = $ [[Smooth∞Grpd]]. This is the [[(∞,1)-category of (∞,1)-sheaves]]
 
 $$
-  Smooth\infty Grpd :=
+  Smooth\infty Grpd 
+  \;\coloneqq\;
   Sh_{(\infty,1)}(CartSp_{smooth})
 $$
 
@@ -101,7 +102,7 @@ as described at [[presentations of (∞,1)-sheaf (∞,1)-toposes]].
 In $\mathbf{H} = $ [[Smooth∞Grpd]] a canonical choice for $A$ is the [[circle group]] 
 
 $$
-  A := U(1) = \mathbb{R}/\mathbb{Z}
+  A \coloneqq U(1) = \mathbb{R}/\mathbb{Z}
   \,.
 $$
 
@@ -145,7 +146,7 @@ A fibrant representative in $[CartSp^{op}, sSet]_{proj,cov}$ of $\mathbf{\flat} 
 
 $$
   \mathbf{\flat}\mathbf{B}^n U(1)_{chn}
-  :=
+  \;\coloneqq\;
   \Xi[C^\infty(-,U(1)) \stackrel{d_{dR}}{\to} \Omega^1(-) \stackrel{d_{dR}}{\to} \cdots \stackrel{d_{dR}}{\to} \Omega^n_{cl}(-)]
   \,,
 $$
@@ -154,7 +155,7 @@ and a fibrant representative of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ is
 
 $$
   \mathbf{\flat}_{dR}\mathbf{B}^n U(1)_{chn}
-  :=
+  \;\coloneqq\;
   \Xi[0 \to \Omega^1(-) \stackrel{d_{dR}}{\to} \cdots \stackrel{d_{dR}}{\to} \Omega^n_{cl}(-)]
   \,.
 $$
@@ -224,8 +225,11 @@ So for this section let $n \in \mathbb{N}$ with $n \geq 2$.
 Above in _[Flat U(1)-valued differential cohomology](#FlatCircleCohomology)_ we found a fibrant representative of $\mathbf{\flat}_{dR} \mathbf{B}^n U(1) \in Smooth\infty Grpd$ to be given by 
 
 $$
-  \Xi[\Omega^1(-) \stackrel{d_{dR}}{\to} \Omega^2(-)
-  \stackrel{d_{dR}}{\to} \cdots \to \Omega^n_{cl}(-)]
+  \Xi\big[
+    \Omega^1(-) 
+     \overset{d_{dR}}{\to} \Omega^2(-)
+     \overset{d_{dR}}{\to} \cdots \to \Omega^n_{cl}(-)
+  \big]
 $$ 
 
 in $[CartSp^{op}, sSet]_{proj, cov}$. 
@@ -233,35 +237,45 @@ in $[CartSp^{op}, sSet]_{proj, cov}$.
 +-- {: .num_prop }
 ###### Proposition
 
-For $X \in Smooth\infty Grpd$ a [[paracompact space|paracompact]] [[smooth manifold]] we have in for $\mathbf{H} = Smooth \infty Grpd$ a 
-[[natural isomorphism]]
+For $X \in Smooth\infty Grpd$ a [[paracompact space|paracompact]] [[smooth manifold]] we have in $\mathbf{H} = Smooth \infty Grpd$ a  [[natural isomorphism]]
 
 $$
-  H_{dR}(X,\mathbf{B}^n U(1))
-  :=
-  \pi_0 \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B}^n U(1))
-  \simeq
+  \pi_0 \mathbf{H}\big(
+    X,\,
+   \mathbf{\flat}_{dR} \mathbf{B}^n U(1)
+  \big)
+  \;\simeq\;
   H_{dR}^n(X)
   \,,
 $$ 
 
-where on the left we have the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20%28infinity,1%29-topos#deRhamCohomology">intrinsic (∞,1)-topos theoretic notion of de Rham cohomology</a>, and on the right the ordinary  notion of [[nLab:de Rham cohomology]] of a smooth manifold.
+where on the left we have the [intrinsic (∞,1)-topos theoretic notion of de Rham cohomology](cohesive%20%28infinity,1%29-topos#deRhamCohomology), and on the right the ordinary  notion of [[de Rham cohomology]] of a smooth manifold.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Let $\{U_i \to X\}$ be a [[nLab:good open cover]]. At [[Smooth∞Grpd]] is discussed that then the [[nLab:Cech nerve]] $C(\{U_i\}) \to X$ is a cofibrant [[nLab:resolution]] of $X$ in $[CartSp^{op}, sSet]_{proj,cov}$. Therefore we have
+Let $\{U_i \to X\}$ be a [[good open cover]]. At *[[Smooth∞Grpd]]* is discussed that then the [[Čech nerve]] $C(\{U_i\}) \to X$ is a [[cofibrant object|cofibrant]] [[resolution]] of $X$ in $[CartSp^{op}, sSet]_{proj,cov}$. Therefore we have
 
 $$
-  \mathbf{H}(X,\mathbf{\flat}_{dR} \mathbf{B}^n U(1))
-  \simeq
-  [CartSp^{op}, sSet](C(\{U_i\}), \Xi[\Omega^1(-) \stackrel{d_{dR}}{\to} \cdots \to \Omega^n_{cl}(-)])
+  \mathbf{H}\big(
+    X
+    ,\,
+    \mathbf{\flat}_{dR} \mathbf{B}^n U(1)
+  \big)
+  \;\simeq\;
+  [CartSp^{op}, sSet]\Big(
+    C(\{U_i\}),\, 
+    \Xi\big[
+      \Omega^1(-) 
+        \overset{d_{dR}}{\to} \cdots \to \Omega^n_{cl}(-)
+    \big]
+  \Big)
   \,.
 $$
 
-The right hand is the $\infty$-groupoid of cocylces in the [[nLab:Cech cohomology|Cech]] [[nLab:hypercohomology]] of the complex of sheaves of differential forms. A cocycle is given by a collection
+The right hand is the $\infty$-groupoid of cocylces in the [[nLab:Cech cohomology|Cech]] [[nLab:hypercohomology]] of the complex of sheaves of differential forms. A cocycle here is given by a collection
 
 $$
   (C_i, B_{i j}, A_{i j k}, \cdots  , Z_{i_0, \cdots, i_n})
@@ -279,7 +293,7 @@ $$
   (F_i, 0, 0, \cdots, 0)
 $$
 
-by using a [[partition of unity]] $(\rho_i \in C^\infty(X))$ subordinate to the cover $\{U_i \to X\}$, i.e. $x \in U_i \Rightarrow \rho_i(x) = 0$ and $\sum_i \rho_i = 1$.
+by using a [[partition of unity]] $big(\rho_i \in C^\infty(X)\big)$ subordinate to the cover $\{U_i \to X\}$, i.e. $x \in U_i \Rightarrow \rho_i(x) = 0$ and $\sum_i \rho_i = 1$.
 
 For consider 
 
@@ -295,7 +309,7 @@ $$
       Z_{i_1, \cdots, i_{n+1}}
     \big)
     \\
-     + & 
+     +\; & 
     D 
     \big(
       0 ,\, 
@@ -306,7 +320,7 @@ $$
      0
     \big)
     \\
-    =
+    =\;
     & 
     \big(
       C_i, \,
@@ -324,7 +338,7 @@ $$
   \end{aligned}
 $$
 
-where we use that from $(\delta Z)_{i_1, \cdots, i_{n+2}} = 0$ it follows that
+where we used with $(\delta Z)_{i_1, \cdots, i_{n+2}} = 0$ that
 
 $$
   \begin{aligned}
@@ -508,7 +522,7 @@ $\mathbf{B}U(1) \stackrel{\simeq}{\leftarrow} \mathbf{B} U(1)_{diff,chn}$ given 
 
 $$
   \mathbf{B}U(1)_{diff} 
-  :=
+  \;\coloneqq\;
   \Xi(
     \;
     C^\infty(-,U(1))
@@ -800,7 +814,7 @@ If we choose a [[nLab:partition of unity]] $(\rho_i \in C^\infty(X,\mathbb{R}))$
 let $(A_i g_{ij}, a_{i j})$ be an arbitrary pseudo-connection cocycle. Consider the Cech-hypercohomology coboundary given by $(\sum_{i_0} \rho_{i_0} a_{i_0 i}, 0)$. This lands in the shifted cocycle
 
 $$
-  (A'_i := A_i + \sum_{i_0} \rho_{i_0} a_{i_0 i}, g_{i j}, a'_{i j})
+  (A'_i \coloneqq A_i + \sum_{i_0} \rho_{i_0} a_{i_0 i}, g_{i j}, a'_{i j})
   \,,
 $$
 
@@ -842,11 +856,11 @@ $$
 is one which takes all the ordinary curvature forms to vanish identically
 
 $$
-  \nabla = (A_i := 0, g_{i j}, a_{i j})
+  \nabla = (A_i \coloneqq 0, g_{i j}, a_{i j})
   \,.
 $$
 
-This fixes the pseudo-components to be $a_{i j} = - d g_{i j}$. By the above discussion, this pseudo-connection with vanishing connection 1-forms is equivalent, as a pseudo-connection, to the ordinary connection cocycle with connection forms $(A_i := \sum_{i_0} \rho_{i_0} d g_{i_0 i})$. This is a <a href="http://ncatlab.org/nlab/show/connection+on+a+bundle#Properties">standard formula</a> for equipping $U(1)$-principal bundles with Cech cocycle $(g_{i j})$ with a connection.
+This fixes the pseudo-components to be $a_{i j} = - d g_{i j}$. By the above discussion, this pseudo-connection with vanishing connection 1-forms is equivalent, as a pseudo-connection, to the ordinary connection cocycle with connection forms $(A_i \coloneqq \sum_{i_0} \rho_{i_0} d g_{i_0 i})$. This is a <a href="http://ncatlab.org/nlab/show/connection+on+a+bundle#Properties">standard formula</a> for equipping $U(1)$-principal bundles with Cech cocycle $(g_{i j})$ with a connection.
 
 ### $U(1)_0$-groupoid bundles {#U1GroupoidBundle}
 
@@ -1020,7 +1034,7 @@ The pullback object in the top left is in this notation
 
 $$
   \mathbf{B}^n U(1)_{diff,chn}
-  :=
+  \;\coloneqq\;
   \Xi
   \left(
     \array{
@@ -1126,7 +1140,7 @@ For $n \in \mathbb{N}$, define the [[simplicial presheaf]] $\mathbf{B}^n U(1)_{s
 
 $$
   \mathbf{B}^n U(1)_{simp}
-  :=
+  \;\coloneqq\;
   \mathbf{cosk}_{n+1}
   (
   (U, [k]) \mapsto 
@@ -1206,7 +1220,7 @@ $\mathbf{\flat} \mathbf{B}^n \mathbb{R}_{simp}$ for the [[simplicial presheaf]]
 
 $$
   \mathbf{\flat}\mathbf{B}^n \mathbb{R}_{simp}
-  :=
+  \;\coloneqq\;
   \mathbf{cosk}_{n+1}
   (
     (U,[k])
@@ -1222,7 +1236,7 @@ and write $\mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_{simp} \in [CartSp^{op}, s
 
 $$
   \mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}_{simp}
-  :=
+  \;\coloneqq\;
   \mathbf{cosk}_{n+1}
   (
     (U,[k])
@@ -1275,7 +1289,7 @@ Write $\mathbf{B}^n  U(1)_{diff,simp}$ for the simplicial presheaf given by
 
 $$
   \mathbf{B}^n  U(1)_{diff,simp}
-  :=
+  \;\coloneqq\;
   \mathbf{cosk}_{n+1}
   (
     U,[k]
