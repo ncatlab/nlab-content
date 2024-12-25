@@ -9,13 +9,14 @@
 =--
 =--
 
+
 # The Continuum Hypothesis
 * table of contents
 {: toc}
 
 ## Idea
 
-> Cantor's continuum problem is simply the question: How many points are there on a straight line in Euclidean space? In other terms, the question is: How many different sets of integers do there exist?  K. G&#246;del ([1947](#Goedel47), p.515)
+> Cantor's continuum problem is simply the question: How many points are there on a straight line in Euclidean space? In other terms, the question is: How many different sets of integers do there exist?  &lbrack;[Gödel 1947 p 515](#Goedel47)&rbrack;
 
 The **continuum hypothesis** is a famous problem of [[set theory]] concerning the cardinality of the&#160;[[Dedekind real numbers|Dedekind]] [[real numbers]] (the "[[continuum]]"). The hypothesis in its classical form goes back to [[Georg Cantor|G. Cantor]] and was on top of [[Hilbert's problems|Hilbert's list]] of open problems in mathematics in 1900.
 
@@ -222,13 +223,19 @@ On the other hand, the behavior of the power operation on [[regular cardinal|sin
 
 * {#Easton70} W. Easton, _Powers of regular cardinals_, Ann. Math. Logic, 1 (2): 139&#8211;178, (1970) [doi:10.1016/0003-4843(70)90012-4](https://dx.doi.org/10.1016%2F0003-4843%2870%2990012-4) 
 
-A [[formal proof]] of the independence of the continuum hypothesis from [[ZFC]] is in 
+A [[formal proof]] of the independence of the continuum hypothesis from [[ZFC]]:
 
 * {#Han18} [[Jesse Han]], _Flypitch project -- Formal proof of the independence of CH_ ([github:flypitch](https://github.com/flypitch), [pdf](https://github.com/flypitch/flypitch-notes/blob/master/forcing-notes.pdf))
 
 published as
 
-* {#HanvanDoorn20} [[Jesse Han|Jesse Michael Han]] and [[Floris van Doorn]],  _A Formal Proof of the Independence of the Continuum Hypothesis_, Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs (2020) pp 353–366, doi:[https://doi.org/10.1145/3372885.3373826](https://doi.org/10.1145/3372885.3373826), arXiv:[2102.02901](https://arxiv.org/abs/2102.02901).
+* {#HanvanDoorn20} [[Jesse Han|Jesse Michael Han]], [[Floris van Doorn]]: _A Formal Proof of the Independence of the Continuum Hypothesis_, Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs (2020) 353–366 &lbrack;[doi:10.1145/3372885.3373826](https://doi.org/10.1145/3372885.3373826), [arXiv:2102.02901](https://arxiv.org/abs/2102.02901)&rbrack;
+
+See also
+
+* [[Daniel Gratzer]]: *On The Independence of the Continuum Hypothesis* (2019) &lbrack;[pdf](http://www.danielgratzer.com/papers/on-the-independence.pdf), [[Gratzer-IndependenceOfCH.pdf:file]]&rbrack;
+  > In these notes we present a short, mostly self-contained proof of the independence of the continuum hypothesis. The development is [[topos theory|topos-theoretic]]: we shall be presenting a specific [[topos]] which can model [[ZFC]] for which the continuum hypothesis fails. \[...\] With these notes I hope to illustrate the elegant [[topos theory|topos theoretic]] approach to [[forcing]] results that has become
+increasingly common in logic, [[type theory]], and mathematics at large.
 
 For the failure of the continuum to be equivalent to the powerset of the natural numbers in [[constructive mathematics]], see:
 
