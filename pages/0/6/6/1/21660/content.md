@@ -17,4 +17,4 @@ Introducing $H_3$-[[twisted de Rham cohomology]] (in discussion of the [[B-field
 
 * [[Ryan Rohm]], [[Edward Witten]], around (23) and appendix of: _The antisymmetric tensor field in superstring theory_, Annals of Physics Volume 170, Issue 2, September 1986, Pages 454-489 (<a href="https://doi.org/10.1016/0003-4916(86)90099-0">doi:10.1016/0003-4916(86)90099-0</a>)
 
-category: reference
+category: people
