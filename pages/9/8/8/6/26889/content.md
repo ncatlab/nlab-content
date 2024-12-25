@@ -64,7 +64,7 @@ A symmetrical argument, i.e. one applied to the [[opposite ring]], shows that 1 
 
 * For $V$ a [[vector space]] over a [[skew-field]] $K$, its [[endomorphism ring]] $End_K(V)$ is von Neumann regular.
 
-* The property of being a von Neumann regular ring is [[Morita invariant]], so if $A$ is a von Neumann regular ring so is the $n \times n$ matrix algebra $M_n(A)$.
+* The property of being a von Neumann regular ring is [[invariant]] under [[Morita equivalence]], so if $A$ is a von Neumann regular ring so is the $n \times n$ [[matrix algebra]] $M_n(A)$.
 
 
 ## References
