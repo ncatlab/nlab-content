@@ -29,4 +29,6 @@ See also:
 
 * Linear algebra problem book. The Dolciani Mathematical Expositions, 16. Mathematical Association of America, 1995.  ISBN: 0-88385-322-1.
 
+category: people
+
 [[!redirects Paul R. Halmos]]
