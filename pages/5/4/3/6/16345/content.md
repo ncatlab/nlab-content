@@ -4,3 +4,5 @@
 
 * [[Structural Complexity Of Proofs]]
 * [[lambda calculus]]
+
+category: people
