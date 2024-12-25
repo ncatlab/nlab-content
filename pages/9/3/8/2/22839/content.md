@@ -8,3 +8,5 @@ He is responsible for developing many fundamental concepts in this area,
 including the [[standard form of a von Neumann algebra]] (analogous
 to the [[L^2-space]]),
 [[noncommutative L^p-spaces]], [[weights]] and [[operator valued weights]] on [[von Neumann algebras]] (analogous to (fiberwise) [[measures]]), and many others.
+
+category: people
