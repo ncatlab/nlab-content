@@ -30,10 +30,12 @@ This page collects material related to the book
 
 on [[topos theory]].
 
+{#TheElephantAnalogy} The title refers to the strikingly different aspects of topos theory (such as [[functorial geometry|functorial]] [[geometry]] versus [[mathematical logic]]) by alluding to the Indian folklore story of the blind men and the elephant (cf. E. J. Robinson’s *[Tales and Poems of South India](https://archive.org/details/TalesAndPoemsOfSouthIndia)*), recalled in Johnstone's preface like this:
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
+> "Four men, who had been blind from birth, wanted to know what an elephant was like; so they asked an elephant-driver for information. He led them to an elephant, and invited them to examine it; so one man felt the elephant's leg, another its trunk, another its tail and the fourth its ear. Then they attempted to describe the elephant to one another. The first man said "The elephant is like a tree". "No," said the second, "the elephant is like a snake". "Nonsense!" said the third, "the elephant is like a broom". "You are all wrong," said the fourth, "the elephant is like a fan". And so they went on arguing amongst themselves, while the elephant stood watching them quietly."
+
+
+\tableofcontents
 
 ## A Toposes as Categories
 
