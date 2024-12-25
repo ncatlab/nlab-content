@@ -15,4 +15,6 @@ engl. transl. __21__ (1991), pp. 51--58.
 
 * [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_ (2007) &lbrack;[[RetakhWilson-Quasideterminants.pdf:file]]&rbrack;
 
+category: people
+
 [[!redirects V. Retakh]]
