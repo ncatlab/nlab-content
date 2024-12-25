@@ -46,7 +46,7 @@ Now suppose instead that we have a model $V$ of [[ZF]] set theory (for instance)
 
 Although by analogy, it would seem that a modern perspective should prefer the third approach ([Shulman 20](#Shulman20)), most material set theorists still seem to prefer one of the first two.
 
-Before [[Paul Cohen|Cohen]] showed how forcing could give rise to models of ZF(C), [[Abraham Fraenkel|Fraenkel]] introduced the method of [[permutation model]]s (later refined by Mostowski and Specker), which gave models of [[ZFA]], a version of ZF with [[urelements|atoms]]. See for example the [[basic Fraenkel model]].
+Before [Cohen 1963](#Cohen1963a) showed how forcing could give rise to models of ZF(C), [[Abraham Fraenkel|Fraenkel]] introduced the method of [[permutation models]] (later refined by Mostowski and Specker), which gave models of [[ZFA]], a version of ZF with [[urelements|atoms]]. See for example the [[basic Fraenkel model]].
 
 ## Related concepts
 
@@ -56,18 +56,31 @@ Before [[Paul Cohen|Cohen]] showed how forcing could give rise to models of ZF(C
 
 * [[homotopy type theory FAQ]] -- [What is homotopy type theory? -- For set theorists](http://ncatlab.org/nlab/show/homotopy+type+theory+FAQ)
 
+
 ## References
-
-Exposition is in 
-
-* [[Timothy Chow]], _A beginner's guide to forcing_, Contemp. Math ([arXiv:0712.1320](https://arxiv.org/abs/0712.1320))
-
-Another good introduction is in [Schoenfield 71](#Schoenfield71)
 
 ### General
 
+Exposition and introduction:
 
-* [[Paul Cohen]], _Set theory and the [[continuum hypothesis]]_, Benjamin, New York 1966
+* [[Timothy Chow]], _A beginner's guide to forcing_, Contemp. Math ([arXiv:0712.1320](https://arxiv.org/abs/0712.1320))
+
+* [Schoenfield 71](#Schoenfield71)
+
+The original proof via forcing of the independence from [[ZFC]] of the [[continuum hypothesis]]:
+
+* {#Cohen1963a} [[Paul J. Cohen]]: *The independence of the Continuum Hypothesis*, PNAS **50** 6 (1963) 1143-1148 &lbrack;[doi:10.1073/pnas.50.6.1143](https://doi.org/10.1073/pnas.50.6.1143), [pdf](https://pmc.ncbi.nlm.nih.gov/articles/PMC221287/pdf/pnas00240-0135.pdf)&rbrack;
+
+* {#Cohen1963b} [[Paul J. Cohen]]: *The independence of the Continuum Hypothesis II*, PNAS **51** 1 (1963) 105-110 &lbrack;[doi:10.1073/pnas.51.1.105](https://doi.org/10.1073/pnas.51.1.105), [pdf](https://pmc.ncbi.nlm.nih.gov/articles/PMC300611/pdf/pnas00175-0117.pdf)&rbrack;
+
+* {#Cohen1966} [[Paul J. Cohen]]: _Set theory and the continuum hypothesis_, Benjamin, New York (1966) &lbrack;[ark:/13960/s2qndx0d4n7 ](https://archive.org/details/settheorycontinu0000cohe)&rbrack;
+
+Historical reminiscences:
+
+* [[Paul J. Cohen]], _The Discovery of Forcing_, Rocky Mountain J. Math. **32** 4 (2002) &lbrack;[euclid.rmjm/1181070010](http://projecteuclid.org/euclid.rmjm/1181070010)&rbrack;
+
+
+Further discussion:
 
 * [[Gonzalo Reyes]], _Typical and generic in a Baire space for relations_, thesis 1967
 
@@ -79,10 +92,8 @@ Another good introduction is in [Schoenfield 71](#Schoenfield71)
 
 * S. Shelah, _Proper and Improper Forcing_ , Perspectives in Math. Logic vol. 5 Springer Heidelberg 1998. ([toc](http://projecteuclid.org/euclid.pl/1235419814#toc))
 
-* [[Paul Cohen]], _The Discovery of Forcing_, Rocky Mountain J. Math.
-Volume 32, Number 4 (2002), 1071-1100. ([Euclid](http://projecteuclid.org/euclid.rmjm/1181070010))
 
-* math overflow, what is the generic poset used in forcing really?, [web](http://mathoverflow.net/questions/51187/what-is-the-generic-poset-used-in-forcing-really)
+* MathOverflow: *What is the generic poset used in forcing really?* &lbrack;[MO:q/51187](https://mathoverflow.net/q/51187/381)&rbrack;
 
 ### In terms of classifying toposes
  {#ReferencesInTermsOfClassifyingToposes}
@@ -102,16 +113,19 @@ On the interpretation of forcing via [[classifying toposes]] (see also at [[Krip
 
 * {#Scedrov84} [[Andrej Ščedrov]], *Forcing and classifying topoi*, Memoirs of the American Mathematical Society (1984) &lbrack;[AMS:memo-48-295](https://bookstore.ams.org/memo-48-295/5)&rbrack;
 
+* J. Benavides, _The logic of sheaves, sheaf forcing and the independence of the Continuum Hypothesis_ &lbrack;[arXiv:1111.5854](https://arxiv.org/abs/1111.5854)&rbrack;
 
-* J. Benavides, _The logic of sheaves, sheaf forcing and the independence of the Continuum Hypothesis_ ([arXiv:1111.5854](https://arxiv.org/abs/1111.5854))
+* {#Roberts15} [[David Roberts]]: _Class forcing and topos theory_, talk at _[Topos at l'IHES](https://indico.math.cnrs.fr/event/747/)_ (2015) &lbrack;[talk notes](https://doi.org/10.4225/55/5b2252e3092af),  [video recording](https://youtu.be/4AaSySq8-GQ)&rbrack;
+
+* [[Daniel Gratzer]]: *On The Independence of the Continuum Hypothesis* (2019) &lbrack;[pdf](http://www.danielgratzer.com/papers/on-the-independence.pdf), [[Gratzer-IndependenceOfCH.pdf:file]]&rbrack;
+  > In these notes we present a short, mostly self-contained proof of the independence of the [[continuum hypothesis]]. The development is [[topos theory|topos-theoretic]]: we shall be presenting a specific [[topos]] which can model [[ZFC]] for which the continuum hypothesis fails. \[...\] With these notes I hope to illustrate the elegant [[topos theory|topos theoretic]] approach to [[forcing]] results that has become
+increasingly common in logic, [[type theory]], and mathematics at large.
+
+* {#Shulman20} [[Mike Shulman]]: _Answer to 'A better way to explain forcing?'_ (2020) &lbrack;[MO:a/370135](https://mathoverflow.net/a/370135)&rbrack;
 
 
-* {#Roberts15} [[David Roberts]], _Class forcing and topos theory_, talk at _[Topos at l'IHES](https://indico.math.cnrs.fr/event/747/)_ 2015 ([talk notes](https://doi.org/10.4225/55/5b2252e3092af),  [video recording](https://youtu.be/4AaSySq8-GQ))
+On [Scedrov 84](#Scedrov84), [[Peter Johnstone]] writes in his review ([The Journal of Symbolic Logic Vol. 50, No. 3 (Sep., 1985) pp 852-85](http://www.jstor.org/stable/2274338)):
 
-* {#Shulman20} [[Mike Shulman]], _Answer to 'A better way to explain forcing?'_, ([MathOverflow](https://mathoverflow.net/a/370135/447))
-
-On [Scedrov 84](#Scedrov84), [[Peter Johnstone]] writes in his review ([The Journal of Symbolic Logic Vol. 50, No. 3 (Sep., 1985), pp. 852-85]( http://www.jstor.org/stable/2274338 )):
-
->  Until recently, logicians could have been forgiven for treating topos theory as a closed book, whose applications to logic (however interesting they might appear from the outside) were accessible only to insiders well schooled in the mysteries of category theory $[...]$ $[$ Ščedrov's book makes $]$ a very clear case for the advantages of the topos-theoretic approach to forcing namely, that it provides a clear conceptual view of what generic structures really are, as well as a workable mean $[...]$ Although categorical ideas and terminology are inevitably present, they are handled so skilfully that the categoriphobic reader need have few qualms about them $[...]$ Ščedrov's work ought to go a long way towards demolishing the wall of incomprehension that has hitherto prevented many logicians from appreciating what topos theory has to offer their subject.
+>  Until recently, logicians could have been forgiven for treating topos theory as a closed book, whose applications to logic (however interesting they might appear from the outside) were accessible only to insiders well schooled in the mysteries of category theory \[$\ldots$\]. \[Ščedrov's book makes\] a very clear case for the advantages of the topos-theoretic approach to forcing namely, that it provides a clear conceptual view of what generic structures really are, as well as a workable mean \[$\ldots$\]. Although categorical ideas and terminology are inevitably present, they are handled so skillfully that the categoriphobic reader need have few qualms about them \[$\ldots$\]. Ščedrov's work ought to go a long way towards demolishing the wall of incomprehension that has hitherto prevented many logicians from appreciating what topos theory has to offer their subject.
 
 [[!redirects forcing]]
