@@ -5,3 +5,5 @@ He got his Diploma in 1958 (advised by [[Eduard Čech]]) and PhD degree in 1962 
 His PhD students include [[Tomáš Jech]].
 
 He is known for [[Vopěnka's principle]].
+
+category: people
