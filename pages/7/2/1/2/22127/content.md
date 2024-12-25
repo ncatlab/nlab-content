@@ -12,6 +12,8 @@ and a Professor Emeritus of Mathematics at the University of California, Berkele
 * [[Omega conjecture]]
 * [[axiom of determinacy]]
 
+category: people
+
 [[!redirects William Hugh Woodin]]
 [[!redirects Hugh Woodin]]
 [[!redirects Woodin]]
