@@ -88,7 +88,7 @@ See also
 
 * Wikipedia, _[Exceptional divisor](https://en.wikipedia.org/wiki/Exceptional_divisor)_
 
-category: algebraic geometry*
+category: algebraic geometry
 
 [[!redirects resolutions of singularities]]
 
