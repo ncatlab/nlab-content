@@ -16,7 +16,7 @@ Willard Van Orman Quine (1908–2000) was an analytic philosopher and logician /
 
 * [[salva veritate]]
 
-category: reference
+category: people
 
 
 [[!redirects Willard Van Orman Quine]]
