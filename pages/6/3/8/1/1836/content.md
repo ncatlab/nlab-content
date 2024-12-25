@@ -15,3 +15,4 @@ Proving the [[Nielsen-Schreier theorem]] on [[subgroups]] of [[free groups]] and
 
 * [[Schreier theory]]
 
+category: people
