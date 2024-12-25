@@ -267,9 +267,9 @@ $$
   (C_i, B_{i j}, A_{i j k}, \cdots  , Z_{i_0, \cdots, i_n})
 $$
 
-of differential forms, with $C_i \in \Omega^n_{cl}(U_i)$, $B_{i j} \in \Omega^{n-1}(U_i \cap U_j)$, etc. , such that this collection is annihilated by the total differentoal $D = d_{dR} \pm \delta$, where $d_{dR}$ is the de Rham differential and $\delta$ the alternating sum of the pullbacks along the face maps of the [[nLab:Cech nerve]].
+of differential forms, with $C_i \in \Omega^n_{cl}(U_i)$, $B_{i j} \in \Omega^{n-1}(U_i \cap U_j)$, etc. , such that this collection is annihilated by the total differential $D = d_{dR} \pm \delta$, where $d_{dR}$ is the [[de Rham differential]] and $\delta$ the alternating sum of the [[pullback of differential forms|pullbacks]] along the face maps of the [[Čech nerve]].
 
-It is a standard result of [[nLab:abelian sheaf cohomology]] that such cocycles represent classes in de Rham cohomology. 
+It is a standard result of [[abelian sheaf cohomology]] that such cocycles represent classes in de Rham cohomology. 
 
 But for the record and since the details of this computation will show up again at some mildly subtle points in further discussion below, we spell this out in some detail.
 
@@ -279,42 +279,72 @@ $$
   (F_i, 0, 0, \cdots, 0)
 $$
 
-by using a [[nLab:partition of unity]] $(\rho_i \in C^\infty(X))$ subordinate to the cover $\{U_i \to X\}$, i.e. $x \in U_i \Rightarrow \rho_i(x) = 0$ and $\sum_i \rho_i = 1$.
+by using a [[partition of unity]] $(\rho_i \in C^\infty(X))$ subordinate to the cover $\{U_i \to X\}$, i.e. $x \in U_i \Rightarrow \rho_i(x) = 0$ and $\sum_i \rho_i = 1$.
 
 For consider 
 
 $$
   \begin{aligned}
-     & (C_i, B_{i j}, A_{i j k}, \cdots  , Y_{i_1, \cdots, i_{n}}, Z_{i_1, \cdots, i_{n+1}})
-     \\
-     + & D (0, 0, \cdots, \sum_{i_0} \rho_{i_0} Z_{i_0, i_1, \cdots, i_{n}},0)
-     \\
-     =
-     & (C_i, B_{i j}, A_{i j k}, \cdots  , Y_{i_1, \cdots, i_{n}}
-     + d_{dR}\sum_{i_0} \rho_{i_0} Z_{i_0, i_1, \cdots, i_{n}}, 0)   
+     & 
+    \big(
+      C_i,\, 
+      B_{i j},\, 
+      A_{i j k},\, 
+      \cdots,\, 
+      Y_{i_1, \cdots, i_{n}},\, 
+      Z_{i_1, \cdots, i_{n+1}}
+    \big)
+    \\
+     + & 
+    D 
+    \big(
+      0 ,\, 
+      0 ,\, 
+      \cdots ,\, 
+      \textstyle{\sum_{i_0}} 
+        \rho_{i_0} Z_{i_0, i_1 ,\cdots, i_{n}},\,
+     0
+    \big)
+    \\
+    =
+    & 
+    \big(
+      C_i, \,
+      B_{i j}, \, 
+      A_{i j k}, \,
+      \cdots, \,
+      Y_{i_1, \cdots, i_{n}}
+       + 
+      \mathrm{d}_{dR}
+        \textstyle{\sum_{i_0}} 
+        \rho_{i_0} Z_{i_0, i_1, \cdots, i_{n}} ,\, 
+      0
+    \big)   
+    \,,
   \end{aligned}
-  \,,
 $$
 
 where we use that from $(\delta Z)_{i_1, \cdots, i_{n+2}} = 0$ it follows that
 
 $$
   \begin{aligned}
-    (\delta \sum \rho Z)_{i_1, \cdots, i_{n+1}}
-    &=
-    \sum_{i_0} \rho_{i_0}
-    \sum_{k = 1}^{n+1}
+    \big(
+      \delta \textstyle{\sum} \rho Z
+    \big)_{i_1, \cdots, i_{n+1}}
+    & =
+    \textstyle{\sum_{i_0}} \rho_{i_0}
+    \textstyle{\sum_{k = 1}^{n+1}}
     (-1)^k
     Z_{i_0, i_1 \cdots, \hat i_k, \cdots, i_{n+1}}
     \\
     & =
-    \sum_{i_0} \rho_{i_0}
+    \textstyle{\sum_{i_0}} \rho_{i_0}
     Z_{i_1 ,\cdots, i_{n+1}}    
     \\
     & =
     Z_{i_1 ,\cdots, i_{n+1}}
+    \,.
   \end{aligned}
-  \,.
 $$
 
 > where I am suppressing some evident signs...
@@ -353,12 +383,12 @@ $$
 
 in [[∞Grpd]].
 
-We show now that for $n \geq 1$ this reproduces the [[nLab:Deligne cohomology]] $H(X,\mathbb{Z}(n+1)_D^\infty)$ of $X$:
+We show now that for $n \geq 1$ this reproduces the [[Deligne cohomology]] $H(X,\mathbb{Z}(n+1)_D^\infty)$ of $X$:
 
 +-- {: .num_theorem #DeligneCohomologyTheorem}
 ###### Theorem
 
-For $X$ a [[nLab:paracompact space|paracompact]] [[nLab:smooth manifold]] we have
+For $X$ a [[paracompact space|paracompact]] [[smooth manifold]] we have
 
 $$
   H_{diff}(X,\mathbf{B}^n U(1))
@@ -402,7 +432,7 @@ $$
   \,.
 $$
 
-From the tradtional point of view of differential cohomology this may be what one expects to see, but from the intrinsic $(\infty,1)$-topos theoretic point of view it is quite unnatural -- and in fact "[[nLab:evil]]" -- to fix that set of objects of the $\infty$-groupoid. Of intrinsic meaning is only the set of their equivalences classes.
+From the tradtional point of view of differential cohomology this may be what one expects to see, but from the intrinsic $(\infty,1)$-topos theoretic point of view it is quite unnatural -- and in fact "[[evil]]" -- to fix that set of objects of the $\infty$-groupoid. Of intrinsic meaning is only the set of their equivalences classes.
 
 =--
 
@@ -410,7 +440,7 @@ From the tradtional point of view of differential cohomology this may be what on
 
 ### Circle bundles with connection {#CircleBundlesConnection}
 
-Before discussing [the full theorem](#DeligneCohomologyTheorem), it is instructive to start by looking at the special case $n=1$ in some detail, which is about ordinary  $U(1)$-[[nLab:principal bundle]]s [[nLab:connection on a bundle|with connection]]. 
+Before discussing [the full theorem](#DeligneCohomologyTheorem), it is instructive to start by looking at the special case $n=1$ in some detail, which is about ordinary  $U(1)$-[[principal bundle]]s [[connection on a bundle|with connection]]. 
 
 This contains in it already all the relevant structure of the general case, but the low categorical degree is more transparently written out and will allow us to pause to highlight some maybe noteworthy aspects of the situation, such as the phenomenon of _pseudo-connections_ [below](#CircleBunlePseudoConnection).
 
@@ -425,7 +455,7 @@ $$
   \,.
 $$
 
-Accordingly we have for the double [[nLab:delooping]] the model
+Accordingly we have for the double [[delooping]] the model
 
 $$
   \mathbf{B}^2 U(1)
@@ -436,7 +466,7 @@ $$
   \;)
 $$
 
-and for the [[nLab:universal principal ∞-bundle|universal principal 2-bundle]]
+and for the [[universal principal ∞-bundle|universal principal 2-bundle]]
 
 $$
   \mathbf{E}\mathbf{B}U(1)
@@ -473,7 +503,7 @@ $$
 
 In order to compute the differential cohomology 
 $\mathbf{H}_{diff}(-,\mathbf{B}U(1))$ by an ordinary
-pullback in [[nLab:sSet]] we also want to resolve the curvature characteristic morphism $\mathbf{B}U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)$ by a fibration. We claim that this may be obtained by choosing the resolution 
+pullback in [[sSet]] we also want to resolve the curvature characteristic morphism $\mathbf{B}U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^2 U(1)$ by a fibration. We claim that this may be obtained by choosing the resolution 
 $\mathbf{B}U(1) \stackrel{\simeq}{\leftarrow} \mathbf{B} U(1)_{diff,chn}$ given by
 
 $$
@@ -508,7 +538,7 @@ $$
   \,.
 $$
 
-By the [[nLab:Poincare lemma]] applied to each [[nLab:Cartesian space]], this is indeed a fibration.
+By the [[Poincaré lemma]] applied to each [[Cartesian space]], this is indeed a fibration.
 
 In the [next section](#AbGerbesConnection) we give the proof of this (simple) claim. Here in the warmup phase we instead want to discuss the geometric interpretation of this resolution, along the lines of the section <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+survey#CurvatureCharacteristicsI">curvature characteristics of 1-bundles</a> in the [[schreiber:differential cohomology in an (∞,1)-topos -- survey|survey-part]].
 
@@ -577,8 +607,7 @@ and picking the lowest horizontal morphism.
 
 Here the terms mean the following:
 
-* $INN(U(1))$ is the [[nLab:2-group]] $\Xi(U(1) \to U(1))$, which is a 
-  [[nLab:groupal model for universal principal ∞-bundles|groupal model for the universal U(1)-principal bundle]] $\mathbf{E}U(1)$;
+* $INN(U(1))$ is the [[2-group]] $\Xi(U(1) \to U(1))$, which is a  [[groupal model for universal principal ∞-bundles|groupal model for the universal U(1)-principal bundle]] $\mathbf{E}U(1)$;
 
 * $\mathbf{\Pi}_2(U)$ is the [[nLab:path 2-groupoid]] with homotopy class of 2-dimensional paths as 2-morphisms
 
@@ -764,7 +793,7 @@ But by the general abstract theory, up to isomorphism the differential cohomolog
 
 To get a feeling for what is going on, it may therefore be useful to re-tell the analgous story with pseudo-connections that are not genuine connections.
 
-By the very fact that $\mathbf{B}U(1) \stackrel{\simeq}{\leftarrow} \mathbf{B}_{diff}U(1)$ is a weak equivalence, it follows that every pseudo-connection is equivalent to an ordinary connection as cocoycles in $[CartSp^{op}, sSet](C(\{U_i\}), \mathbf{B}_{diff}(G))$. 
+By the very fact that $\mathbf{B}U(1) \stackrel{\simeq}{\leftarrow} \mathbf{B}_{diff}U(1)$ is a weak equivalence, it follows that every pseudo-connection is equivalent to an ordinary connection as cocycles in $[CartSp^{op}, sSet](C(\{U_i\}), \mathbf{B}_{diff}(G))$. 
 
 If we choose a [[nLab:partition of unity]] $(\rho_i \in C^\infty(X,\mathbb{R}))$ subordinate to the cover $\{U_i \to X\}$, then we can construct the corresponding coboundary explicitly:
 
