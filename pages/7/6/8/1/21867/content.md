@@ -125,3 +125,4 @@ Diagrams can be used to encode derivations in a [[formal grammar]]. Indeed, the 
 
 * {#GitHubDisCoPy} _DisCoPy's repository._ [github.com/discopy/discopy](https://github.com/discopy/discopy)
 
+category: reference
