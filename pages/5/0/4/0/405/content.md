@@ -13,6 +13,8 @@ A **category of cubes** is a category of [[geometric shapes for higher structure
 * reversals
 * diagonals
 
+A presheaf on a category of cubes is a [[cubical set]].
+
 ## Definitions
 
 ### The ordered cube category
