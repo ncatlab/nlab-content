@@ -64,7 +64,7 @@ $$
   \,,
 $$
 
-where $\lambda'$ denotes the *conjugate partition* (see [there](Young+diagram#Conjugation)).
+where $\lambda'$ denotes the *conjugate partition* (see [there](Young+diagram#Conjugation)). The quantities $\lambda_i - j$ and $\lambda'_j - i$ are commonly referred to as the *arm length* and *leg length* of box $(i,j)$, respectively.
 
 \end{defn}
 
