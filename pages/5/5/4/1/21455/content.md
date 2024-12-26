@@ -65,6 +65,8 @@ The mathematical formulation above is due to
 
 * {#Lavau17} [[Sylvain Lavau]], _Tensor hierarchies and Leibniz algebras_, J. Geom. Phys. 144:147-189 (2019) ([arXiv:1708.07068](https://arxiv.org/abs/1708.07068))
 
+* {#KotovStrobl19} [[Alexei Kotov]], [[Thomas Strobl]], _The Embedding Tensor, Leibniz-Loday Algebras, and Their Higher Gauge Theories_, Commun.Math.Phys. 376 (2019) 1, 235-258 ([arXiv:hep-th/1812.08611](https://arxiv.org/abs/1812.08611))
+
 with further discussion in:
 
 * {#LavauPalmkvist19} [[Sylvain Lavau]], [[Jakob Palmkvist]], _Infinity-enhancing of Leibniz algebras_ ([arXiv:1907.05752](https://arxiv.org/abs/1907.05752))
