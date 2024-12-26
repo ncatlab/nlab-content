@@ -26,11 +26,21 @@ Notice that it is easy to see that every smooth manifold embeds into the Euclide
 
 ## Related concepts
 
-* The analogous statement for [[Riemannian manifolds]] and [[isometry|isometric]] embeddings is the _[[Nash embedding theorem]]_.
+Analogous statements:
+
+* [[Riemannian manifolds]] and [[isometry|isometric]] embeddings: _[[Nash embedding theorem]]_
+
+* [[real-analytic manifolds]]: [[Grauert embedding theorem]]
+
+* [[complex manifolds]]: [[Narasimhan embedding theorem]]
+
+
 
 ## References
 
 Named after [[Hassler Whitney]].
+
+* [[Hassler Whitney]], _Differentiable manifolds_, Ann. Math. 37, 645–680 (1936).
 
 * {#Pontrjagin55} [[Lev Pontrjagin]], Section 2.2 of: _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
 
