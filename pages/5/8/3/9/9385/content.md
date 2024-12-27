@@ -105,9 +105,13 @@ Identification with [[(infinity,1)-functors|$(\infty,1)$-functors]] is made expl
 
 * [[Manuel Rivera]], [[Mahmoud Zeinalian]], §5 of: *The colimit of an $\infty$-local system as a twisted tensor product*, Higher Structures **4** 1 (2020) 33-56  &lbrack;[arXiv:1805.01264](https://arxiv.org/abs/1805.01264), [higher-structures:Vol4Iss1](https://higher-structures.math.cas.cz/api/files/issues/Vol4Iss1/RiveraZeinalian)&rbrack;
 
+and construction of a [[model category]] of $\infty$-local systems:
+
+* [[Hisham Sati]], [[Urs Schreiber]], §3 of: *[[schreiber:Entanglement of Sections]]* &lbrack;[arXiv:2309.07245](https://arxiv.org/abs/2309.07245)&rbrack;
+
 Enhancement of the [[Chern-Weil homomorphism]] from [[ordinary cohomology]]-groups to [[dg-categories]] of [[infinity-local systems|$\infty$-local systems]]:
 
-* [[Camilo Arias Abad]], Santiago Pineda Montoya, Alexander Quintero Velez, *Chern-Weil theory for $\infty$-local systems* $[$[arXiv:2105.00461](https://arxiv.org/abs/2105.00461)$]$
+* [[Camilo Arias Abad]], Santiago Pineda Montoya, Alexander Quintero Velez, *Chern-Weil theory for $\infty$-local systems*, Trans. Amer. Math. Soc. **377** (2024) 3129-3171 &lbrack;[arXiv:2105.00461](https://arxiv.org/abs/2105.00461), [doi:10.1090/tran/9068](https://doi.org/10.1090/tran/9068)&rbrack;
 
 
 
