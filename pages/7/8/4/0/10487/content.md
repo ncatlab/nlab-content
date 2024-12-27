@@ -49,6 +49,8 @@ On [[abelian Chern-Simons theory]] as an [[effective field theory]] for the [[fr
 
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Classification of Abelian quantum Hall states and matrix formulation of topological fluids*, Phys. Rev. B **46** (1992) 2290 &lbrack;[doi:10.1103/PhysRevB.46.2290](https://doi.org/10.1103/PhysRevB.46.2290)&rbrack;
 
+* [[Xiao-Gang Wen]]: *Topological orders and Edge excitations in FQH states*, Advances in Physics **44** 5 (1995) 405 &lbrack;[arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066), [doi:10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)&rbrack;
+
 
 The additional requirement that the Berry connection be non-abelian (and/or the presence of anyons):
 
