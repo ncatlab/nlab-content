@@ -28,6 +28,11 @@ On [[quantum spin liquids]] as exhibiting [[topological order]]:
 
 * [[Xiao-Gang Wen]], [[Frank Wilczek]], [[Anthony Zee]], *Chiral spin states and superconductivity*, Phys. Rev. B **39** (1989) 11413 &lbrack;[doi:10.1103/PhysRevB.39.11413](https://doi.org/10.1103/PhysRevB.39.11413)&rbrack;
 
+On [[abelian Chern-Simons theory]] as an [[effective field theory]] for the [[fractional quantum Hall effect]]:
+
+* [[Xiao-Gang Wen]], [[Anthony Zee]]: *Classification of Abelian quantum Hall states and matrix formulation of topological fluids*, Phys. Rev. B **46** (1992) 2290 &lbrack;[doi:10.1103/PhysRevB.46.2290](https://doi.org/10.1103/PhysRevB.46.2290)&rbrack;
+
+
 On [[quantum field theory]]:
 
 * [[Anthony Zee]]:  *Quantum Field Theory in a Nutshell* 2nd ed., Princeton University Press (2010) &lbrack;[ISBN:9780691140346](https://press.princeton.edu/books/hardcover/9780691140346/quantum-field-theory-in-a-nutshell?srsltid=AfmBOoovOHTlGiQ8S-JqFUpn26ihzhfNQocoId3eN9SUZ8WYL83oyKG0)&rbrack;
