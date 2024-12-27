@@ -49,6 +49,9 @@ On [[abelian Chern-Simons theory]] as an [[effective field theory]] for the [[fr
 
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Classification of Abelian quantum Hall states and matrix formulation of topological fluids*, Phys. Rev. B **46** (1992) 2290 &lbrack;[doi:10.1103/PhysRevB.46.2290](https://doi.org/10.1103/PhysRevB.46.2290)&rbrack;
 
+* [[Xiao-Gang Wen]], [[Anthony Zee]]: *Shift and spin vector: New topological quantum numbers for the Hall fluids*, Phys. Rev. Lett. **69** (1992) 953, Erratum Phys. Rev. Lett. **69** 3000 (1992) \[<a href="https://doi.org/10.1103/PhysRevLett.69.953">doi:10.1103/PhysRevLett.69.953</a>\]
+
+
 * [[Xiao-Gang Wen]]: *Topological orders and Edge excitations in FQH states*, Advances in Physics **44** 5 (1995) 405 &lbrack;[arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066), [doi:10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)&rbrack;
 
 
