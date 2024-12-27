@@ -18,7 +18,7 @@
 
 At sufficiently low tempetrature, [[quantum physics|quantum effects]] change the nature of the classical [[Hall effect]], in two ways:
 
-1. in the *integral* quantum Hall effect, quantization of the [[energy]] into *Landau levels* of electrons that are circulating in a transverse [[magnetic field]] while confined to a plane, causes the [[Hall effectHall resistance]], which classically increases linearly with increasing external [[magnetic field]], to instead intermittently form constant "plateaus" as these get "filled" by electron states,
+1. in the *integral* quantum Hall effect, quantization of the [[energy]] into *Landau levels* of electrons that are circulating in a transverse [[magnetic field]] while confined to a plane, causes the [[Hall effect|Hall resistance]], which classically increases linearly with increasing external [[magnetic field]], to instead intermittently form constant "plateaus" as these get "filled" by electron states,
 
 1. in the *fractional quantum Hall effect*, strong external magnetic field causes these Landau levels to be filled only partially and the strongly Coulomb-coupled electrons to form [[bound states]] "with" magnetic [[flux quantization|flux quanta]] that may exhibit effective *fractional* charge and, apparently, "fractional statistics" ([[anyon|anyonic]] [[braiding]] behaviour).
 
@@ -122,9 +122,9 @@ Review:
 
 * Daijiro Yoshioka: *The Quantum Hall Effect*, Springer (2002) \[<a href="https://doi.org/10.1007/978-3-662-05016-3">doi:10.1007/978-3-662-05016-3</a>\]
 
-*  Benoît Douçot, [[Vincent Pasquier]], Bertrand Duplantier, Vincent Rivasseau (eds.): *The Quantum Hall Effect -- Poincaré Seminar 2004*, Progress in Mathematical Physics, Springer (2005) \[<a href="https://doi.org/10.1007/3-7643-7393-8">doi:10.1007/3-7643-7393-8</a>\]
+* Benoît Douçot, [[Vincent Pasquier]], Bertrand Duplantier, Vincent Rivasseau (eds.): *The Quantum Hall Effect -- Poincaré Seminar 2004*, Progress in Mathematical Physics, Springer (2005) \[<a href="https://doi.org/10.1007/3-7643-7393-8">doi:10.1007/3-7643-7393-8</a>\]
 
-* {#Tong16} [[David Tong]], *The Quantum Hall Effect* (2016) $[$[course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]$]$
+* {#Tong16} [[David Tong]], *The Quantum Hall Effect* (2016) &lbrack;[course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
 
 * _The quantum Hall effect_ &lbrack;[pdf](http://www.tezu.ernet.in/rctp2015/SR%20On%20quantum%20Hall%20effect.pdf)&rbrack;
 
@@ -204,7 +204,7 @@ See also:
 * Wikipedia, *[Fractional Quantum Hall Effect](https://en.wikipedia.org/wiki/Fractional_quantum_Hall_effect)*
 
 
-A quick review of the description via [[Chern-Simons theory]] with further pointers is in the introduction of 
+A quick review of the description via [[abelian Chern-Simons theory]] with further pointers is in the introduction of:
 
 * Spencer D. Stirling, _Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories_, &lbrack;[arXiv:0807.2857](http://arxiv.org/abs/0807.2857)&rbrack;
 
@@ -264,9 +264,11 @@ The composite-fermion model (CF) which explains the FQHE as the [[integer quantu
 
 * [[Jainendra K. Jain]]: *Composite Fermions*, Cambridge University Press (2007) \[<a href="https://doi.org/10.1017/CBO9780511607561">doi:10.1017/CBO9780511607561</a>\]
 
-Introducing abelian [[Chern-Simons theory]] to the picture:
+Introducing **[[abelian Chern-Simons theory]]** to the picture:
 
 * Ana Lopez, [[Eduardo Fradkin]]: *Fractional quantum Hall effect and Chern-Simons gauge theories*, Phys. Rev. B **44** (1991) 5246 \[<a href="https://doi.org/10.1103/PhysRevB.44.5246">doi:10.1103/PhysRevB.44.5246</a>\]
+
+* [[Xiao-Gang Wen]], [[Anthony Zee]]: *Classification of Abelian quantum Hall states and matrix formulation of topological fluids*, Phys. Rev. B **46** (1992) 2290 &lbrack;[doi:10.1103/PhysRevB.46.2290](https://doi.org/10.1103/PhysRevB.46.2290)&rbrack;
 
 
 Further discussion:
