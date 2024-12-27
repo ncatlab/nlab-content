@@ -15,4 +15,9 @@ On [[exotic branes]] in [[string theory]]/[[M-theory]]:
 * [[Jose J. Fernandez-Melgarejo]], [[Tetsuji Kimura]], [[Yuho Sakatani]], *Weaving the Exotic Web*, JHEP **2018** 72 (2018) &lbrack;<a href="https://doi.org/10.1007/JHEP09(2018)072">doi:10.1007/JHEP09(2018)072</a>&rbrack;
 
 
+On [[heterotic string theory|heterotic]] [[double field theory]]:
+
+* [[Falk Hassler]], [[David Osten]], [[Yuho Sakatani]]: *Duality covariant curvatures for the heterotic string* &lbrack;[arXiv:2412.17893](https://arxiv.org/abs/2412.17893)&rbrack;
+
+
 category: people
