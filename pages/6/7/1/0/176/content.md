@@ -488,6 +488,8 @@ Discussion in relation to the [[AdS-CFT correspondence]]:
 
 * Matteo Broccoli, *Aspects of Conformal Field Theory* &lbrack;[arXiv:2212.11829](https://arxiv.org/abs/2212.11829)&rbrack;
 
+* Yuya Kusuki: *Modern Approach to 2D Conformal Field Theory* &lbrack;[arXiv:2412.18307](https://arxiv.org/abs/2412.18307)&rbrack;
+
 
 
 
