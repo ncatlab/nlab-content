@@ -1,1 +1,1 @@
-see [[cubical set]]
+See *[[cubical set]]*.
