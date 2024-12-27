@@ -283,7 +283,7 @@ Direct inspection shows that one may [[bijection|bijectively]] transmute such $b
   &
   bind^{\mathcal{E}}_{D, D'}
   \;\colon\;
-  \mathcal{E}(D) \times Hom\big( \mathcal{E}(D),\, \mathcal{E}(D')  \big)
+  \mathcal{E}(D) \times Hom\big( D,\, \mathcal{E}(D')  \big)
   \xrightarrow{
     \big(
       id_{\mathcal{E} D}, fmap_{D, \mathcal{E} D'}
