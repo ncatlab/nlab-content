@@ -90,8 +90,7 @@ On the history of [[string theory]]:
 * {#Schwarz96} [[John Schwarz]], _The Second Superstring Revolution_, Colloquium-level lecture presented at the Sakharov Conference (Moscow, May 1996), in: Proceedings of _COSMION 96: 2nd International Conference on Cosmo Particle Physics_ Dedicated to the 75th Anniversary of Andrei D. Sakharov. 1996. ([arXiv:hep-th/9607067](https://arxiv.org/abs/hep-th/9607067), [spire:969846](https://inspirehep.net/conferences/969846))
   >  (on the "second superstring revolution": the realization of [[D-branes]], [[dualities in string theory]] and [[M-theory]])
 
-* [[John H. Schwarz]]: *From Hadrons to Gravitons via Strings*, in: *Fields, Gravity, Strings and Beyond: In Memory of Stanley Deser*
-&lbrack;[arXiv:2412.16885](https://arxiv.org/abs/2412.16885)&rbrack;
+* [[John H. Schwarz]]: *From Hadrons to Gravitons via Strings*, in: *Fields, Gravity, Strings and Beyond: In Memory of Stanley Deser* &lbrack;[arXiv:2412.16885](https://arxiv.org/abs/2412.16885)&rbrack;
 
 Textbook account of [[perturbative string theory]] and [[M-theory]]/[[F-theory]]:
 
