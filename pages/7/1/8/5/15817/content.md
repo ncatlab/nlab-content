@@ -65,7 +65,7 @@ On [[triality]] and its application on [[string theory]]:
 
 On the [[quantum Hall effect]] and [[Laughlin wavefunctions]]:
 
-* {#Tong16} [[David Tong]], *The Quantum Hall Effect* (2016) $[$[course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]$]$
+* {#Tong16} [[David Tong]]: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
 
 
 Discussion of [[anomaly cancellation]] on the [[standard model of particle physics]]:
