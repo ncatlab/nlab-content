@@ -80,7 +80,7 @@ Both models validate [[univalence]] (like the BCH model) and can be used to mode
 
 ## Models
 
-Cubical type theory can be modeled in a number of varieties of [[cubical sets]], for example in a [[type-theoretic model structure]].
+Cubical type theory can be modeled in a number of varieties of [[cubical sets]], for example in a [[cubical-type model category]].
 
 ## Related concepts
 
@@ -112,8 +112,6 @@ On the CCHM model and type theory:
 * {#CubicalCanonicity} [[Simon Huber]], _Canonicity for Cubical Type Theory_ ([arXiv:1607.04156](https://arxiv.org/abs/1607.04156))
 
 * {#CubicalHIT} [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _On Higher Inductive Types in Cubical Type Theory_ ([arXiv:1802.01170](https://arxiv.org/abs/1802.01170))
-
-* [[homotopytypetheory:Evan Cavallo]], [[Robert Harper]], _Internal parametricity for cubical type theory_ ([PDF](http://www.cs.cmu.edu/~ecavallo/works/parametric-cubical.pdf))
 
 On the cartesian cubical model and type theory:
 
