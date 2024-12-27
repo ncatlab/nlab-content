@@ -19,7 +19,8 @@
 
 ## General
 
-These exist a class of [[model category]] [[mathematical structure|structures]] on certain [[categories]] of [[cubical sets]], due to [[Christian Sattler]], motivated by [[cubical type theory]].
+A cubical-type model category is a [[model category]] [[mathematical structure|structure]] arising from a construction due to [[Christian Sattler]] and its generalizations.
+These constructions are motivated by [[cubical type theory]] and can in particular be applied in certain [[categories]] of [[cubical sets]].
 
 ### Assumptions
 
@@ -57,9 +58,25 @@ The question whether the geometric realization for the cubical sets based on dis
 
 ## References
 
+Sattler's construction is in
+
+* {#sattlerEEP} [[Christian Sattler]], *The equivalence extension property and model structures* $[$[arXiv:2102.01104](https://arxiv.org/abs/2102.01104)$]$
+
+The following two notes describe the construction,  specialized to cubical sets, in more type-theoretic language.
+
 * {#mod2} [[Thierry Coquand]], *A model structure on some presheaf categories*, [pdf](http://www.cse.chalmers.se/~coquand/mod2.pdf)
 
 * {#cis3} [[Thierry Coquand]], *Some examples of complete Cisinski model structures*, [pdf](http://www.cse.chalmers.se/~coquand/cis3.pdf)
+
+A refactoring of part of the construction through the notion of "cylindrical premodel structure" is described in Section 3 of
+
+* {#csElegance} [[Evan Cavallo]] and [[Christian Sattler]], *Relative elegance and cartesian cubes with one connection*, $[$[arXiv:2211.14801](https://arxiv.org/abs/2211.14801)$]$
+
+and in the unpublished note
+
+* {#sattlerInterval} [[Christian Sattler]], *Cylindrical model structures*, [pdf](https://www.cse.chalmers.se/~sattler/docs/interval-model-structure.pdf)
+
+On equivalences with the model structure on simplicial sets:
 
 * {#sattlerHIM} [[Christian Sattler]], *Do cubical models of type theory also model homotopy types*, lecture at Hausdorff Trimester Program: Types, Sets and Constructions, [youtube](https://www.youtube.com/watch?v=wkPDyIGmEoA)
 
