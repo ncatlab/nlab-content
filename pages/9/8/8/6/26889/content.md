@@ -77,6 +77,10 @@ Von Neumann regular rings were introduced in
 
 * [[John von Neumann]]: *On Regular Rings*, Proc. Natl. Acad. Sci. U.S.A. **22** (1936) 707-713 &lbrack;[doi:10.1073/pnas.22.12.707](https://doi.org/10.1073/pnas.22.12.707)&rbrack;
 
+Reference book:
+
+* [[Ken Goodearl]]: *Von Neumann regular rings*, Monographs and Studies in Mathematics **4** (1979)
+
 See also:
 
 * Wikipedia, *[Von Neumann regular ring](https://en.wikipedia.org/wiki/Von_Neumann_regular_ring)*
