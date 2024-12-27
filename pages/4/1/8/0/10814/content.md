@@ -244,6 +244,10 @@ Review:
 
 * [[Olaf Hohm]], [[Dieter Lüst]], [[Barton Zwiebach]]: *The Spacetime of Double Field Theory: Review, Remarks, and Outlook*, **61** 10 (2013) 926-966 &lbrack;[arXiv:1309.2977](https://arxiv.org/abs/1309.2977), [doi:10.1002/prop.201300024](https://doi.org/10.1002/prop.201300024)&rbrack;
 
+See also:
+
+* [[Falk Hassler]], [[David Osten]], [[Yuho Sakatani]]: *Duality covariant curvatures for the heterotic string* &lbrack;[arXiv:2412.17893](https://arxiv.org/abs/2412.17893)&rbrack;
+
 
 
 ### Formalization in para-Hermitian geometry
