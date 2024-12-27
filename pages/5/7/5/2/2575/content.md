@@ -739,6 +739,8 @@ But there are also [[physical systems]] that one can set up in a laboratory expe
 
 * [[quantization of Chern-Simons theory]]
 
+* [[abelian Chern-Simons theory]]
+
 * [[Spin Chern-Simons theory]]
 
 * [[schreiber:∞-Chern-Simons theory]]
