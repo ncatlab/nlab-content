@@ -66,7 +66,10 @@ See also:
 
 * Wikipedia, *[Wheeler-DeWitt equation](https://en.wikipedia.org/wiki/Wheeler%E2%80%93DeWitt_equation)*
 
-* *Quantum Theory of Gravity. I. The Canonical Theory*
+Further discussion:
+
+* Eftychios Kaimakkamis, Hervé Partouche, Karunava Sil, Nicolaos Toumbas: *The exact Wheeler-DeWitt equation for the scale-factor minisuperspace model* &lbrack;[arXiv:2412.18532](https://arxiv.org/abs/2412.18532)&rbrack;
+
 
 For [[11D supergravity]] and comparing to the 1d [[sigma-model]] on a [[coset space]] of its [[E10]] [[U-duality]]-group:
 
