@@ -43,6 +43,10 @@ $$
 
 7.  Every right $A$-module is [[flat module|flat]].
 
+8.  Every finitely generated left $A$-module is [[projective module|projective]].
+
+9.  Every finitely generated right $A$-module is [[projective module|projective]].
+
 To illustrate the use of the rather curious-looking equation $a = a x a$, consider this result, which implies that 1 $\iff$ 3.
 
 \begin{lemma}
