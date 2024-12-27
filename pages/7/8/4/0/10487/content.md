@@ -28,7 +28,6 @@ Introducing and developing the notion of [[topological order]]:
 * E. Keski-Vakkuri, [[Xiao-Gang Wen]]: *Ground state structure of hierarchical QH states on torus and modular transformation*,
 Int. J. Mod. Phys. B **7** 4227 (1993) \[<a href="https://doi.org/10.1142/S0217979293003644">doi:10.1142/S0217979293003644</a>, [arXiv:hep-th/9303155](https://arxiv.org/abs/hep-th/9303155)\]
 
-
 * {#Wen93} [[Xiao-Gang Wen]], *Topological order and edge structure of $\nu = 1/2$ quantum Hall state*, Phys. Rev. Lett. **70** (1993) 355 $[$[doi:10.1103/PhysRevLett.70.355](https://doi.org/10.1103/PhysRevLett.70.355)$]$
 
 * {#Wen95} [[Xiao-Gang Wen]], *Topological orders and Edge excitations in FQH states*, Advances in Physics **44** (1995) 405 $[$[arXiv:cond-mat/9506066v2](https://arxiv.org/abs/cond-mat/9506066v2), [doi:10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)$]$
@@ -45,6 +44,11 @@ Further review:
 On [[quantum spin liquids]] as exhibiting [[topological order]]:
 
 * [[Xiao-Gang Wen]], [[Frank Wilczek]], [[Anthony Zee]], *Chiral spin states and superconductivity*, Phys. Rev. B **39** (1989) 11413 &lbrack;[doi:10.1103/PhysRevB.39.11413](https://doi.org/10.1103/PhysRevB.39.11413)&rbrack;
+
+On [[abelian Chern-Simons theory]] as an [[effective field theory]] for the [[fractional quantum Hall effect]]:
+
+* [[Xiao-Gang Wen]], [[Anthony Zee]]: *Classification of Abelian quantum Hall states and matrix formulation of topological fluids*, Phys. Rev. B **46** (1992) 2290 &lbrack;[doi:10.1103/PhysRevB.46.2290](https://doi.org/10.1103/PhysRevB.46.2290)&rbrack;
+
 
 The additional requirement that the Berry connection be non-abelian (and/or the presence of anyons):
 
