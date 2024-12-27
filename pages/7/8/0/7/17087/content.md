@@ -79,11 +79,12 @@ Mathematical discussion in the case of [[D=3 N=4 super Yang-Mills theory]]:
 * [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], _Towards a mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories, II_, Adv. Theor. Math. Phys. __22__ (2018) 1071-1147 ([arXiv:1601.03586](http://arxiv.org/abs/1601.03586))
 
 * [[Alexander Braverman]], [[Michael Finkelberg]], [[Hiraku Nakajima]], *Coulomb branches of 3d $\mathcal{N}=4$ quiver gauge theories and slices in the affine Grassmannian* (with appendices by Alexander Braverman, Michael Finkelberg, Joel Kamnitzer, Ryosuke Kodera, Hiraku Nakajima, Ben Webster, and Alex Weekes), Advances in Theoretical and Mathematical Physics __23__:1 (2019) ([arXiv:1604.03625](https://arxiv.org/abs/1604.03625))
-
   > (relation to the [[moduli space of Yang-Mills monopoles]])
 
-
 * [[Ben Webster]], _Koszul duality between Higgs and Coulomb categories $\mathcal{O}$_, ([arXiv:1611.06541](https://arxiv.org/abs/1611.06541))
+
+* Spencer Tamagni: *Coulomb Branches in 3d $\mathcal{N} = 4$ Revisited* &lbrack;[arXiv:2412.17904](https://arxiv.org/abs/2412.17904)&rbrack;
+
 
 See also:
 
