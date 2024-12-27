@@ -219,7 +219,7 @@ $$
   \right\}
 $$
 
-is an [[open cover]] of $\mathbb{R}^1$, it follows that $f$ is unqiuely fixed by its restrictions to these two subsets. 
+is an [[open cover]] of $\mathbb{R}^1$, it follows that $f$ is uniquely fixed by its restrictions to these two subsets. 
 
 Now unwinding the definition of $p$ shows that the condition that the two restrictions coincide on the intersection $S^1 \setminus \{s,s'\}$ implies that there is $n \in \mathbb{Z}$ such that $\phi(k) = k+ n$ and $\phi'(k) = k+n$.
 
