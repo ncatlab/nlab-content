@@ -4,6 +4,11 @@
 
 Introducing [[abelian Chern-Simons theory]] as an [[effective field theory]] exhibiting the [[fractional quantum Hall effect]] (abelian [[topological order]]):
 
+* [[Steven M. Girvin]], around (10.7.15) in: *Summary, Omissions and Unanswered Questions*, Chapter 10 of: *The Quantum Hall Effect*, Graduate Texts in Contemporary Physics, Springer (1986, 1990) \[<a href="https://doi.org/10.1007/978-1-4612-3350-3">doi:10.1007/978-1-4612-3350-3</a>\]
+
+
+* S. C. Zhang, T. H. Hansson S. Kivelson: *Effective-Field-Theory Model for the Fractional Quantum Hall Effect*, Phys. Rev. Lett. **62** (1989) 82 \[<a href="https://doi.org/10.1103/PhysRevLett.62.82">doi:10.1103/PhysRevLett.62.82</a>\]
+
 * [[A. P. Balachandran]], A. M. Srivastava: *Chern-Simons Dynamics and the Quantum Hall Effect* \[<a href="https://arxiv.org/abs/hep-th/9111006">arXiv:hep-th/9111006</a>, [spire:319826](https://inspirehep.net/literature/319826)\]
 
 * Ana Lopez, [[Eduardo Fradkin]]: *Fractional quantum Hall effect and Chern-Simons gauge theories*, Phys. Rev. B **44** (1991) 5246 \[<a href="https://doi.org/10.1103/PhysRevB.44.5246">doi:10.1103/PhysRevB.44.5246</a>\]
