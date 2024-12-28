@@ -16,6 +16,7 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 The formalism of *Markov categories* and *copy-discard categories* is one of the most recent [[categorical approaches to probability theory]]. 
@@ -2256,74 +2257,8 @@ Finally, the current form of Markov and copy-discard categories, which is also t
 ## Detailed list
  {#DetailedList}
 
-<table>
- <tr>
-  <th markdown="1">Markov category</th>
-  <th markdown="1">[[probability monad|Probability monad]]</th>
-  <th markdown="1">[[Markov category#conditionals|Conditionals]]</th>
-  <th markdown="1">[[Markov category#positivity|Positivity]]</th>
-  <th markdown="1">[[Markov category#kolmogorov_products|Kolmogorov products]]</th>
-  <th markdown="1">Further references</th>
- </tr>
- <tr>
-  <th markdown="1">[[Stoch]]</th>
-  <td markdown="1">[[Giry monad]] on [[sober measurable space|SoberMeas]]</td>
-  <td markdown="1">No ([Fritz'20](#fritzmarkov), Example 11.3)</td>
-  <td markdown="1">Yes ([Fritz'20](#fritzmarkov), Example 11.25)</td>
-  <td markdown="1">Not in general</td>
-  <td markdown="1">[Fritz'20](#fritzmarkov)</td>
- </tr>
-<tr>
-  <th markdown="1">[[Stoch#borelstoch|BorelStoch]]</th>
-  <td markdown="1">[[Giry monad]] on [[standard Borel space|BorelMeas]]</td>
-  <td markdown="1">Yes ([Kallenberg '17](#Kallenberg17), [B-M'19](#BM19))</td>
-  <td markdown="1">Yes ([Fritz'20](#fritzmarkov), Section 11)</td>
-  <td markdown="1">Countable ([Fritz-Rischel'19](#fritzrischel))</td>
-  <td markdown="1">[Fritz'20](#fritzmarkov)</td>
- </tr>
-<tr>
-  <th markdown="1">[[Stoch#finstoch|FinStoch]]</th>
-  <td markdown="1">Not representable (closely related to the [[distribution monad]])</td>
-  <td markdown="1">Yes ([Fritz'20](#fritzmarkov), Example 11.6)</td>
-  <td markdown="1">Yes ([Fritz'20](#fritzmarkov), Section 11)</td>
-  <td markdown="1">No</td>
-  <td markdown="1">[Fritz'20](#fritzmarkov)</td>
- </tr>
-<tr>
-  <th markdown="1">**TychStoch**</th>
-  <td markdown="1">[[extended probabilistic powerdomain#the_probability_monad_on_top|probability monad on topological spaces]] (here, Tychonoff)</td>
-  <td markdown="1"> No </td>
-  <td markdown="1"> Yes ([Fritz et al'23](#supports_idemp)) </td>
-  <td markdown="1"> ? </td>
-  <td markdown="1">[Fritz et al'23](#supports_idemp)</td>
- </tr>
-<tr>
-  <th markdown="1">**QBStoch**</th>
-  <td markdown="1">probability monad on [[quasi-Borel spaces]]</td>
-  <td markdown="1"> No ([Sabok et al'20](#name_gen))</td>
-  <td markdown="1"> No ([Sabok et al'20](#name_gen))</td>
-  <td markdown="1"> ? </td>
-  <td markdown="1">[Fritz et al'23](#dilations)</td>
- </tr>
-<tr>
-  <th markdown="1">**Gauss**</th>
-  <td markdown="1">?</td>
-  <td markdown="1"> Yes ([Fritz'20](#fritzmarkov))</td>
-  <td markdown="1"> Yes ([Fritz'20](#fritzmarkov))</td>
-  <td markdown="1"> No </td>
-  <td markdown="1">[Stein et al.'23](#gauss)</td>
- </tr>
-<tr>
-  <th markdown="1">**FinSetMulti**</th>
-  <td markdown="1">Finite nonempty [[power set]] monad</td>
-  <td markdown="1"> Yes ([Fritz'20](#fritzmarkov))</td>
-  <td markdown="1"> Yes ([Fritz'20](#fritzmarkov))</td>
-  <td markdown="1"> No ([Fritz-Rischel'19](#fritzrischel))</td>
-  <td markdown="1">[Stein et al.'23](#gauss)</td>
- </tr>
-</table>
+[[!include table of Markov categories]]
 
-(...to be expanded...)
 
 
 ## See also
@@ -2337,7 +2272,6 @@ Finally, the current form of Markov and copy-discard categories, which is also t
 * [[probability monad]], [[affine monad]], [[commutative monad]]
 
 * [[doctrine]], [[supply in a monoidal category]]
-
 
 
 
@@ -2390,7 +2324,7 @@ Slides from talks:
 
 * [[Tobias Fritz]], _Categorical Probability and the de Finetti theorem_, New York City Category Seminar, 2021. ([pdf](http://tobiasfritz.science/2021/markov_cats_nyc.pdf))
 
-* [[Tobias Fritz]], _Probability and Statistics as a Theory of Information Flow_, 2020 ([pdf](tobiasfritz.science/2020/markov_cats.pdf))
+* [[Tobias Fritz]], _Probability and Statistics as a Theory of Information Flow_, 2020 ([pdf](http://tobiasfritz.science/2020/markov_cats.pdf))
 
 * [[Tobias Fritz]], _A synthetic introduction to probability and statistics_, 2019 ([pdf](http://tobiasfritz.science/2019/markov_cats.pdf))
 
