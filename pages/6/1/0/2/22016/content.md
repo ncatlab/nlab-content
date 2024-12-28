@@ -24,3 +24,5 @@ On [[separable metric spaces]] in [[function realizability]]:
 * [[Andrew Swan]], *Double negation stable h-propositions in cubical sets*, [[Homotopy Type Theory Electronic Seminar Talks]], 9 February 2023 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Swan-2023-02-09-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=lNNrmuUQzkw))
 
 category: people
+
+[[!redirects Andrew W Swan]]
