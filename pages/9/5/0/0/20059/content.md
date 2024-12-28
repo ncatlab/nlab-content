@@ -60,7 +60,7 @@ The question whether the geometric realization for the cubical sets based on dis
 
 Sattler's construction is in
 
-* {#sattlerEEP} [[Christian Sattler]], *The equivalence extension property and model structures* $[$[arXiv:2102.01104](https://arxiv.org/abs/2102.01104)$]$
+* {#sattlerEEP} [[Christian Sattler]], *The equivalence extension property and model structures* $[$[arXiv:1704.06911](https://arxiv.org/abs/1704.06911)$]$
 
 The following two notes describe the construction,  specialized to cubical sets, in more type-theoretic language.
 
