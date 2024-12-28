@@ -68,7 +68,7 @@ The following two notes describe the construction,  specialized to cubical sets,
 
 * {#cis3} [[Thierry Coquand]], *Some examples of complete Cisinski model structures*, [pdf](http://www.cse.chalmers.se/~coquand/cis3.pdf)
 
-A refactoring of part of the construction through the notion of "cylindrical premodel structure" is described in Section 3 of
+A refactoring of part of the construction through the notion of "cylindrical [[premodel category]]" is described in Section 3 of
 
 * {#csElegance} [[Evan Cavallo]] and [[Christian Sattler]], *Relative elegance and cartesian cubes with one connection*, $[$[arXiv:2211.14801](https://arxiv.org/abs/2211.14801)$]$
 
