@@ -32,50 +32,43 @@ One major application of abelian Chern-Simons theory is as an [[effective field 
 
 ### General
 
-* Spencer D. Stirling: *Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories*, &lbrack;[arXiv:0807.2857](http://arxiv.org/abs/0807.2857)&rbrack;
+* [[Alexios P. Polychronakos]]: *Abelian Chern-Simons theories in $2+1$ dimensions*, Annals of Physics **203** 2 (1990) 231-254 \[<a href="https://doi.org/10.1016/0003-4916(90)90171-J">doi:10.1016/0003-4916(90)90171-J</a>\] 
+
+* [[Sergio Albeverio]], J. Schäfer: *Rigorous Approach to Abelian Chern-Simons Theory*, in *Groups and Related Topics*, Mathematical Physics Studies **13**,  Springer (1992) 143-152 &lbrack;[doi:10.1007/978-94-011-2801-8_12](https://doi.org/10.1007/978-94-011-2801-8_12)&rbrack;
+
+* G. Giavarini, C. P. Martin, F. Ruiz Ruiz: *Abelian Chern-Simons theory as the strong large-mass limit of topologically massive abelian gauge theory: the Wilson loop*, Nucl.Phys. B **412** (1994) 731-750 &lbrack;[arXiv:hep-th/9309049](https://arxiv.org/abs/hep-th/9309049), <a href="https://doi.org/10.1016/0550-3213(94)90397-2">doi:10.1016/0550-3213(94)90397-2</a>, [pdf](https://inis.iaea.org/collection/NCLCollectionStore/_Public/25/053/25053343.pdf)&rbrack;
+
+
+* Mihaela Manoliu: *Abelian Chern-Simons theory*, J. Math. Phys. **39** (1998) 170-206 &lbrack;[arXiv:dg-ga/9610001](https://arxiv.org/abs/dg-ga/9610001), [doi:10.1063/1.532333](https://doi.org/10.1063/1.532333)&rbrack;
+
+* Mihaela Manoliu: *Abelian Chern-Simons theory. II: A functional integral approach*, J. Math.Phys. **39** (1998) 207-217 &lbrack;[doi:10.1063/1.532312](https://doi.org/10.1063/1.532312)&rbrack;
+
+* Dmitriy Belov, [[Gregory W. Moore]]: *Classification of abelian spin Chern-Simons theories* &lbrack;[arXiv:hep-th/0505235](https://arxiv.org/abs/hep-th/0505235)&rbrack;
+
+* Spencer D. Stirling: *Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories*, PhD thesis, Austin (2008) &lbrack;[arXiv:0807.2857](http://arxiv.org/abs/0807.2857), [pdf](http://www.spencerstirling.com/papers/thesis_official.pdf), [ProQuest](https://www.proquest.com/docview/304474017?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses)&rbrack;
+
+* [[Anton Kapustin]], [[Natalia Saulina]]: *Topological boundary conditions in abelian Chern-Simons theory*, Nucl. Phys. B **845** (2011) 393-435 &lbrack;[arXiv:1008.0654](https://arxiv.org/abs/1008.0654), [doi:10.1016/j.nuclphysb.2010.12.017](https://doi.org/10.1016/j.nuclphysb.2010.12.017)&rbrack;
+
+
+* Diego Delmastro, [[Jaume Gomis]]: *Symmetries of Abelian Chern-Simons Theories and Arithmetic*, J. High Energ. Phys. **2021** 6 (2021) &lbrack;<a href="https://doi.org/10.1007/JHEP03(2021)006">doi:10.1007/JHEP03(2021)006</a>,[arXiv:1904.12884](https://arxiv.org/abs/1904.12884)&rbrack;
+
+Many general reviews of [[Chern-Simons theory]] have a section focused on the abelian case, for instance:
+
+* [[Gregory Moore]], §2 in: *Introduction to Chern-Simons Theories*, TASI lecture notes (2019) &lbrack;[pdf](https://www.physics.rutgers.edu/~gmoore/TASI-ChernSimons-StudentNotes.pdf), [[Moore-IntroChern-Simons.pdf:file]]&rbrack;
+
+
+* David Grabovsky, §1 in: *Chern–Simons Theory in a Knotshell* (2022) &lbrack;[pdf](https://web.physics.ucsb.edu/~davidgrabovsky/files-notes/CS%20and%20Knots.pdf), [[Grabovsky-CSTheory.pdf:file]]&rbrack;
 
 
 
-(...)
 
-### For the fractional quantum Hall effect
-
-Introducing abelian Chern-Simons theory as an [[effective field theory]] exhibiting the [[fractional quantum Hall effect]] (abelian [[topological order]]):
-
-* [[A. P. Balachandran]], A. M. Srivastava: *Chern-Simons Dynamics and the Quantum Hall Effect* \[<a href="https://arxiv.org/abs/hep-th/9111006">arXiv:hep-th/9111006</a>, [spire:319826](https://inspirehep.net/literature/319826)\]
-
-
-* Ana Lopez, [[Eduardo Fradkin]]: *Fractional quantum Hall effect and Chern-Simons gauge theories*, Phys. Rev. B **44** (1991) 5246 \[<a href="https://doi.org/10.1103/PhysRevB.44.5246">doi:10.1103/PhysRevB.44.5246</a>\]
-
-* [[Xiao-Gang Wen]], [[Anthony Zee]]: *Classification of Abelian quantum Hall states and matrix formulation of topological fluids*, Phys. Rev. B **46** (1992) 2290 \[<a href="https://doi.org/10.1103/PhysRevB.46.2290">doi:10.1103/PhysRevB.46.2290</a>\]
-
-* [[Xiao-Gang Wen]], [[Anthony Zee]]: *Shift and spin vector: New topological quantum numbers for the Hall fluids*, Phys. Rev. Lett. **69** (1992) 953, Erratum Phys. Rev. Lett. **69** 3000 (1992) \[<a href="https://doi.org/10.1103/PhysRevLett.69.953">doi:10.1103/PhysRevLett.69.953</a>\]
+[[!include abelian Chern-Simons for fractional quantum Hall effect -- references]]
 
 
 
-Early review:
-
-* [[Anthony Zee]]: *Quantum Hall Fluids*, in: *Field Theory, Topology and Condensed Matter Physics*, Lecture Notes in Physics **456**,  Springer (1995)  \[<a href="https://doi.org/10.1007/BFb0113369">doi:10.1007/BFb0113369</a>, [arXiv:cond-mat/9501022](https://arxiv.org/abs/cond-mat/9501022)\]
-
-* [[Xiao-Gang Wen]]: *Topological orders and Edge excitations in FQH states*, Advances in Physics **44** 5 (1995) 405 &lbrack;[arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066), [doi:10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)&rbrack;
-
-Further review and exposition:
-
-* [[Edward Witten]]: *Three Lectures On Topological Phases Of Matter*, La Rivista del Nuovo Cimento **39** (2016) 313-370 \[<a href="https://doi.org/10.1393/ncr/i2016-10125-3">doi:10.1393/ncr/i2016-10125-3</a>, [arXiv:1510.07698](https://arxiv.org/abs/1510.07698)\]
-
-* {#Tong16} [[David Tong]] §5 of: *The Quantum Hall Effect*, lecture notes (2016) \[<a href="https://arxiv.org/abs/1606.06687">arXiv:1606.06687</a>, [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]\]
-
-* Josef Wilsher: *The Chern–Simons Action & Quantum Hall Effect: Effective Theory, Anomalies, and Dualities of a
-Topological Quantum Fluid*, PhD thesis, Imperial College London (2020) \[<a href="https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2020/Joseph-Willsher-Dissertation.pdf">pdf</a>\]
-
-Further developments:
-
-* Christian Fräßdorf: *Abelian Chern-Simons Theory for the Fractional Quantum Hall Effect in Graphene*, Phys. Rev. B **97** 115123 (2018) \[<a href="https://doi.org/10.1103/PhysRevB.97.115123">doi:10.1103/PhysRevB.97.115123</a>, [arXiv:1712.03595](https://arxiv.org/abs/1712.03595)\]
-
-* Kristan Jensen, Amir Raz: *The Fractional Hall hierarchy from duality* \[<a href="https://arxiv.org/abs/2412.17761">arXiv:2412.17761</a>\]
-
-
-(...)
 
 
 [[!redirects abelian Chern-Simons theories]]
+
+[[!redirects U(1)-Chern-Simons theory]]
+[[!redirects U(1)-Chern-Simons theories]]
