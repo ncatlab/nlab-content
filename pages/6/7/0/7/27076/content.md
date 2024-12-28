@@ -4,7 +4,7 @@
 ### Quantum Hall effect via non-commutative geometry
  {#ReferencesNoncommutativeGeometryOfFQHE}
 
-Discussion of the [[integer quantum Hall effect]] via a [[Brillouin torus]] with [[noncommutative geometry]] and using the Connes-Chern character: 
+Discussion of the [[integer quantum Hall effect]] via a [[Brillouin torus]] with [[noncommutative geometry]] and using the Connes-[[Chern character]]: 
 
 * {#BvESB94} J. Bellissard, A. van Elst, H. Schulz-Baldes: _The noncommutative geometry of the quantum Hall effect_, J. Math. Phys. __35__ 5373 (1994) \[<a href="http://link.aip.org/link/doi/10.1063/1.530758">doi:10.1063/1.530758</a>, [cond-mat/9411052](http://arxiv.org/abs/cond-mat/9411052)\]
 
@@ -17,7 +17,7 @@ See also exposition in:
 * [[Vincent Pasquier]]: *Quantum Hall Effect and Non-commutative Geometry*, in: *Quantum Spaces*, Progress in Mathematical Physics **53**, Birkhäuser (2007) \[<a href="https://doi.org/10.1007/978-3-7643-8522-4_1">doi:10.1007/978-3-7643-8522-4_1</a>, [pdf](http://www.bourbaphy.fr/pasquier.pdf)\]
 
 
-Discussion of the [[fractional quantum Hall effect]] via abelian but [[noncommutative geometry|noncommutative]] ([[matrix model]]-)[[Chern-Simons theory]]:
+Discussion of the [[fractional quantum Hall effect]] via [[abelian Chern-Simons theory|abelian]] but [[noncommutative  field theory|noncommutative]] ([[matrix model]]-)[[Chern-Simons theory]]:
 
 * [[Leonard Susskind]]: *The Quantum Hall Fluid and Non-Commutative Chern Simons Theory* \[<a href="https://arxiv.org/abs/hep-th/0101029">arXiv:hep-th/0101029</a>\]
 
