@@ -33,6 +33,10 @@ A __premodel category__ is a [[bicomplete category]]
 equipped with a [[pair]] of [[weak factorization systems]]
 $(C,AF)$ and $(AC,F)$ such that $AC\subset C$ (equivalently, $AF\subset F$).
 
+The members of AC are called __anodyne cofibrations__ and the members of AF are called __anodyne fibrations__ (as in _[[anodyne morphism]]_).
+
+## Criteria for model categories
+
 [[model category|Model categories]] can be singled out among premodel categories by imposing the additional requirement that the [[class]] 
 
 $$
@@ -42,9 +46,20 @@ $$
   \,,
 $$
 
-obtained by [[composition|composing]] [[elements]] of $AC$ with those of $AF$, is closed under the [[2-out-of-3 property]].
+obtained by [[composition|composing]] [[elements]] of $AC$ with those of $AF$, is closed under the [[2-out-of-3 property]]. To check this condition, it suffices to check certain specialized cases of 2-out-of-3 (see [Cavallo & Sattler 2022, Theorem 3.8](#csElegance)):
 
-The members of AC are called __anodyne cofibrations__ and the members of AF are called __anodyne fibrations__ (as in _[[anodyne morphism]]_).
++-- {: .num_prop}
+###### Proposition
+
+In a premodel category, $W$ satisfies the 2-out-of-3 property if and only it the following conditions are satisfied:
+
+1. If $g,f$ are cofibrations such that $g f$ and $g$ are anodyne cofibrations, then $f$ is an anodyne cofibration. If $g,f$ are fibrations such that $g f$ and $f$ are anodyne fibrations, then $g$ is an anodyne fibration.
+
+1. Any (cofibration, anodyne fibration) factorization or (anodyne cofibration, fibration) factorization of a map in $W$ is an (anodyne cofibration, anodyne fibration) factorization.
+
+1. Any composite of an anodyne fibration followed by an anodyne cofibration is in $W$.
+
+=--
 
 ## Anodyne and trivial (co)fibrations
 
@@ -63,6 +78,8 @@ In principle one must also distinguish a third class of cofibrations that have t
 
 ## References
 
-* {#Barton} [[Reid William Barton]], _A model 2-category of enriched combinatorial premodel categories_ ([arXiv:2004.12937](https://arxiv.org/abs/2004.12937))
+* {#Barton} [[Reid William Barton]], _A model 2-category of enriched combinatorial premodel categories_. Doctoral dissertation. ([arXiv:2004.12937](https://arxiv.org/abs/2004.12937))
+
+* {#csElegance} [[Evan Cavallo]] and [[Christian Sattler]], _Relative elegance and cartesian cubes with one connection_, 2022. ([arXiv:2211.14801](https://arxiv.org/abs/2211.14801))
 
 [[!redirects premodel categories]]
