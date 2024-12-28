@@ -12,13 +12,6 @@
 
 ## Selected writings
 
-* _[[The Impact of D-Branes on Mathematics]]_ (2014)
-
-* _[[Physical Mathematics and the Future]]_ (2014)
-
-* _PiTP lectures on BPS states and wall-crossing in
-d = 4, N = 2 theories_ [pdf](http://www.physics.rutgers.edu/grad/695/PiTP-LectureNotes.pdf)
-
 
 Early argument that the [[RR-field]] [[flux]] [[differential form|density]]-expressions for [[D-brane charge]] are of the form of [[Chern characters]] on [[topological K-theory]], leading to the [[K-theory classification of D-brane charge]]:
 
@@ -50,6 +43,15 @@ On [[Lorentzian orbifolds]] as [[target spacetimes]] in [[string theory]]:
 
 * Hong Liu, [[Gregory Moore]], [[Nathan Seiberg]], _Strings in time-dependent orbifolds_, JHEP 0210:031, 2002 ([arXiv:hep-th/0206182](https://arxiv.org/abs/hep-th/0206182))
 
+On [[abelian Chern-Simons theory]] with application to the [[fractional quantum Hall effect]]:
+
+* Dmitriy Belov, [[Gregory W. Moore]]: *Classification of abelian spin Chern-Simons theories* &lbrack;[arXiv:hep-th/0505235](https://arxiv.org/abs/hep-th/0505235)&rbrack;
+
+
+On [[self-dual higher gauge theory]]:
+
+* Dmitriy Belov, [[Greg Moore]], _Holographic Action for the Self-Dual Field_ &lbrack;[arXiv:hep-th/0605038](http://arxiv.org/abs/hep-th/0605038)&rbrack;
+
 
 On [[quantization]] of the [[electromagnetic field]] in view of [[Dirac charge quantization]] and [[higher U(1)-gauge theory]]:
 
@@ -62,6 +64,25 @@ On potential [[experiments]] detecting [[uncertainty of fluxes]] in [[quantum el
 
 * [[Alexei Kitaev]], [[Gregory W. Moore]], [[Kevin Walker]], *Noncommuting Flux Sectors in a Tabletop Experiment* &lbrack;[arXiv:0706.3410](https://arxiv.org/abs/0706.3410)&rbrack;
 
+On [[BPS states]] and [[wall crossing]] in [[D=4 N=4 super Yang-Mills theory]]:
+
+* *PiTP lectures on BPS states and wall-crossing in
+d = 4, $\mathcal{N} = 2$ theories* (2010) &lbrack;[pdf](http://www.physics.rutgers.edu/grad/695/PiTP-LectureNotes.pdf)&rbrack;
+
+
+On [[D-branes]]:
+
+* _[[The Impact of D-Branes on Mathematics]]_ (2014)
+
+On [[mathematical physics]]:
+
+* _[[Physical Mathematics and the Future]]_ (2014)
+
+
+On [[Chern-Simons theory]]:
+
+* [[Gregory Moore]]: *Introduction to Chern-Simons Theories*, TASI lecture notes (2019) &lbrack;[pdf](https://www.physics.rutgers.edu/~gmoore/TASI-ChernSimons-StudentNotes.pdf), [[Moore-IntroChern-Simons.pdf:file]]&rbrack;
+
 
 On relating the [[Monster vertex operator algebra]] and its cousins to [[quantum error correction]]:
 
@@ -73,7 +94,7 @@ On the [[10-fold way]]:
 
 
 
-## Related $n$Lab entries
+## Relatedentries
 
 * [[Kalb-Ramond field]]
 
