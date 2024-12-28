@@ -289,6 +289,10 @@ them. The origin of this field and the manner of attachment of its flux quanta t
 
 
 
+[[!include abelian Chern-Simons for fractional quantum Hall effect -- references ]]
+
+
+
 [[!include quantum Hall effect via noncommutative geometry -- references]]
 
 
