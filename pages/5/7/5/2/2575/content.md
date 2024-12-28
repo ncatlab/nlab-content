@@ -803,7 +803,7 @@ But there are also [[physical systems]] that one can set up in a laboratory expe
 
 The local Chern-Simons term as an action functional for quantum field theory appears perhaps first in section III of
 
-* [[Stanley Deser]], [[Roman Jackiw]], S. Templeton, _Topologically Massive Gauge Theories_, Annals Phys. 140 (1982) 372-411 ([pdf](http://www.imamu.edu.sa/Scientific_selections/abstracts/Physics/Topologically%20Massive%20Gauge%20Theories.pdf))
+* [[Stanley Deser]], [[Roman Jackiw]], S. Templeton: _Topologically Massive Gauge Theories_, Annals Phys. **140** (1982) 372-411 &lbrack;[pdf](http://www.imamu.edu.sa/Scientific_selections/abstracts/Physics/Topologically%20Massive%20Gauge%20Theories.pdf)&rbrack;
 
 
 The [[geometric quantization]] and [[path integral]] [[quantization]] of Chern-Simons theory and the relation of its [[Wilson line]] [[observables]] to the [[Jones polynomial]] was introduced in
@@ -823,30 +823,36 @@ It derives its name from the *[[Chern-Simons forms]]* that were originally intro
 * [[Shiing-shen Chern]], [[James Simons]], _[[Characteristic forms and geometric invariants]]_, The Annals of Mathematics, Second Series **99** 1 (1974) &lbrack;[jstor:1971013](http://www.jstor.org/stable/1971013)&rbrack;
 
 
-A comprehensive and clean account of the classical aspects is in 
+Introduction and review:
 
-* [[Daniel Freed]], 
+* [[Michael Atiyah]], _The Geometry and Physics of Knots_,  Cambridge University Press (1990) &lbrack;[doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868)&rbrack;
+  > (emphasis on relation to [[knot theory]])
 
-  * _Classical Chern-Simons theory Part I_ , 
-    Adv. Math., 113 (1995), 237&#8211;303
-    ([arXiv:hep-th/9206021](http://arxiv.org/abs/hep-th/9206021))
-   {#FreedI}
 
+* [[Daniel Freed]]:
+
+  * {#FreedI} _Classical Chern-Simons theory Part I_ , 
+    Adv. Math. **113** (1995), 237-303 &lbrack;[arXiv:hep-th/9206021](http://arxiv.org/abs/hep-th/9206021)&rbrack;
+   
   * _Classical Chern-Simons theory, part II_ 
-    Houston J. Math., 28 (2002), pp. 293&#8211;310 ([pdf](http://www.ma.utexas.edu/users/dafr/cs2.pdf))
+    Houston J. Math. **28** (2002) 293-310 &lbrack;[pdf](http://www.ma.utexas.edu/users/dafr/cs2.pdf)&rbrack;
 
-  * _Remarks on Chern-Simons theory_ Bulletin (New Series) of the AMS, Volume 46, Number 2, April 2009, Pages 221&#8211;254S 0273-0979(09)01243-9 ([arXiv:0808.2507](http://arxiv.org/abs/0808.2507))
+  > (emphasis on the [[classical field theory|classical theory]])
 
-Relation to [[knot theory]]:
+* [[Daniel Freed]]: _Remarks on Chern-Simons theory_ Bulletin of the AMS **46** 2 (2009) 221-254S &lbrack;[arXiv:0808.2507](http://arxiv.org/abs/0808.2507)&rbrack;
 
-* [[Michael Atiyah]], _The Geometry and Physics of Knots_,  Cambridge University Press 1990 ([doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868))
+* [[Jorge Zanelli]], Luis Huerta: *Introduction to Chern-Simons theories*, PoS ICFI2010 (2010) 004 &lbrack;[doi:10.22323/1.124.0004](https://doi.org/10.22323/1.124.0004)&rbrack;
+
+* [[Gregory Moore]]: *Introduction to Chern-Simons Theories*, TASI lecture notes (2019) &lbrack;[pdf](https://www.physics.rutgers.edu/~gmoore/TASI-ChernSimons-StudentNotes.pdf), [[Moore-IntroChern-Simons.pdf:file]]&rbrack;
+
+* David Grabovsky: *Chern–Simons Theory in a Knotshell* (2022) &lbrack;[pdf](https://web.physics.ucsb.edu/~davidgrabovsky/files-notes/CS%20and%20Knots.pdf), [[Grabovsky-CSTheory.pdf:file]]&rbrack;
+
 
 
 See also:
 
 * {#CattaneoMnev08} [[Alberto Cattaneo]], [[Pavel Mnev]], _Remarks on Chern-Simons invariants_, Commun. Math. Phys. **293** (2010) 803-836 &lbrack;[arXiv:0811.2045](https://arxiv.org/abs/0811.2045)&rbrack;
 
-* David Grabovsky: *Chern–Simons Theory in a Knotshell* (2022) &lbrack;[pdf](https://web.physics.ucsb.edu/~davidgrabovsky/files-notes/CS%20and%20Knots.pdf), [[Grabovsky-CSTheory.pdf:file]]&rbrack;
 
 
 Discussion with emphasis on the [[symplectic structure]] on [[phase space]] and the expression of the [[Wilson lines]] by the [[orbit method]] is in
@@ -854,7 +860,7 @@ Discussion with emphasis on the [[symplectic structure]] on [[phase space]] and 
 * {#AlekseevMalkin} [[Anton Alekseev]], A. Z. Malkin, _Symplectic Geometry of the Chern-Simons theory_ ESI preprint 80 (1994) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.9821))
  
 
-A decent survey of the constructions within Chern-Simons theory is in 
+A decent survey of the constructions within Chern-Simons theory:
 
 * R. K. Kaul, T. R. Govindarajan, P. Ramadevi, _Schwarz Type Topological Quantum Field Theories_, Encyclopedia of Mathematical Physics (2005) ([arXiv:hep-th/0504100](http://arxiv.org/abs/hep-th/0504100))
 
@@ -870,11 +876,11 @@ The [[covariant phase space]] of Chern-Simons theory with its [[presymplectic st
 
 A detailed discussion of the symplectic structure on the moduli space of flat connections is in 
 
-* [[Michael Atiyah]], [[Raoul Bott]], _The Yang-Mills equations over Riemann surfaces_, Phil. Trans. R. Soc. Lond. A 308 (1982), 523-615. ([JSTOR](http://www.jstor.org/stable/37156))
- {#AtiyahBott}
+* {#AtiyahBott} [[Michael Atiyah]], [[Raoul Bott]], _The Yang-Mills equations over Riemann surfaces_, Phil. Trans. R. Soc. Lond. A 308 (1982), 523-615. ([JSTOR](http://www.jstor.org/stable/37156))
+ 
 
-* [[Alan Weinstein]], _The symplectic structure on moduli space_, The Floer memorial volume, 627{635, Progr. Math., 133, Birkhauser, Basel, (1995) ([pdf](http://math.berkeley.edu/~alanw/Moduli.pdf))
- {#Weinstein}
+* {#Weinstein} [[Alan Weinstein]], _The symplectic structure on moduli space_, The Floer memorial volume, 627{635, Progr. Math., 133, Birkhauser, Basel, (1995) ([pdf](http://math.berkeley.edu/~alanw/Moduli.pdf))
+ 
 
 A talk about the historical origins of the standard Chern-Simons forms see
 
@@ -885,6 +891,8 @@ A discussion of Chern-Simons theory as a canonical object in [[infinity-Chern-We
 * {#FiorenzaSatiSchreiber} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_, in: *Mathematical Aspects of Quantum Field Theories*, Mathematical Physics Studies, Springer (2014) 153-211 &lbrack;[arXiv:1301.2580](https://arxiv.org/abs/1301.2580), [doi:10.1007/978-3-319-09949-1](https://doi.org/10.1007/978-3-319-09949-1)&rbrack; 
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_
+
+
 
 ### With Wilson loops, defects and boundaries
  {#ReferencesWithWilsonLoops}
