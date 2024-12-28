@@ -170,6 +170,12 @@ The De Morgan, or "CCHM", cube category has faces, degeneracies, symmetries, dia
 
 ## References
 
+Zoologies of cube categories:
+
+* [[Marco Grandis]], and Mauri, L. Cubical sets and their site, _Theory Applic. Categories_ {11} (2003) 185--201. [tac](http://www.tac.mta.ca/tac/volumes/11/8/11-08abs.html).
+
+* [[Ulrik Buchholtz]], Edward Morehouse, _Varieties of Cubical Sets_,  In: Relational and Algebraic Methods in Computer Science. RAMICS 2017. Lecture Notes in Computer Science, vol 10226. [doi](http://dx.doi.org/10.1007/978-3-319-57418-9_5) [arXiv](https://arxiv.org/abs/1701.08189).
+
 For the semicartesian cube category:
 
 * [[Mike Shulman]], *Towards a Third-Generation HOTT Part 3* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-12.pdf), [video](https://www.youtube.com/watch?v=9pDddxB7LbE))
