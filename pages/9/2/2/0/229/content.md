@@ -164,6 +164,8 @@ An abelian group may also be seen as a [[discrete category|discrete]] [[compact 
 
 * [[abelian groupal setoid]]
 
+* [[abelian Chern-Simons theory]]
+
 ## References
 
 Textbook account:
