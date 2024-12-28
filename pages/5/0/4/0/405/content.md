@@ -5,13 +5,24 @@
 
 ## Idea
 
-A **category of cubes** is a category of [[geometric shapes for higher structures]] in which the basic shapes are cubes of all dimensions.  There are actually many different categories of cubes, depending on what sorts of operations are permitted between cubes; potential operations include:
+A **category of cubes** is a category of [[geometric shapes for higher structures]] in which the basic shapes are cubes of all dimensions.
+There are actually many different categories of cubes, depending on what sorts of operations are permitted between cubes.
+In general, we expect the following of a category of cubes:
 
-* faces and degeneracies
-* connections
-* symmetries
-* reversals
-* diagonals
+* It is a [[monoidal category]] $(\Box,\otimes,I^0)$: the monoidal product of the "$n$-cube" and "$m$-cube" is the "$(n+m)$-cube", and the monoidal unit is the "$0$-cube" $I^{0}$.
+* It contains an [[interval object]], the "1-cube", which is to say an object $I^{1}$ with two "faces" $i_0, i_1 \colon I^{0} \to I^{1}$ and a "degeneracy" $p \colon I^{1} \to I^{0}$ fitting in the diagram below.
+\begin{tikzcd}
+I^{0} \ar[dr,"id"{below left}] \ar[r,"i_0"] & I^{1} \ar[d,"p"] & \ar[l,"i_1"{above}] I^{1} \ar[dl,"id"{below right}] \\
+& I^{0}
+\end{tikzcd}
+* Every object can be written as a monoidal product of $n \ge 0$ copies of the "$1$-cube".
+
+Often one asks that the monoidal structure is [[strict monoidal category|strict]], in which case any cube category is a [[PRO]].
+Besides the faces and degeneracies, a cube category might also include
+
+* automorphisms of cubes, such as _permutations/symmetries_ or _reversals_;
+* additional face-like maps, such as _diagonals_;
+* additional degeneracy-like maps, such as [[connection on a cubical set|_connections_]].
 
 A presheaf on a category of cubes is a [[cubical set]].
 
