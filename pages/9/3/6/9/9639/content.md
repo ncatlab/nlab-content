@@ -118,6 +118,10 @@ Review:
 
 * {#vonKlitzing86} [[Klaus von Klitzing]], _The quantized Hall effect_, Rev. Mod. Phys. **58** 519 (1986) &lbrack;[doi:10.1103/RevModPhys.58.519](https://doi.org/10.1103/RevModPhys.58.519)&rbrack;
 
+* Richard E. Prange, [[Steven M. Girvin]] (eds.): *The Quantum Hall Effect*, Graduate Texts in Contemporary Physics, Springer (1986, 1990) &lbrack;[doi:10.1007/978-1-4612-3350-3](https://doi.org/10.1007/978-1-4612-3350-3)&rbrack;
+
+
+
 * Tapash Chakraborty, Pekka Pietiläinen: *The Quantum Hall Effects -- Integral and Fractional*, Springer Series in Solid State Sciences (1995) \[<a href="https://doi.org/10.1007/978-3-642-79319-6">doi:10.1007/978-3-642-79319-6</a>\]
 
 * Daijiro Yoshioka: *The Quantum Hall Effect*, Springer (2002) \[<a href="https://doi.org/10.1007/978-3-662-05016-3">doi:10.1007/978-3-662-05016-3</a>\]
@@ -187,7 +191,7 @@ Review and survey of the FQHE:
 
 * {#Störmer99} [[Horst L. Störmer]]: *Nobel Lecture: The fractional quantum Hall effect*, Rev. Mod. Phys. **71** (1999) 875 \[<a href="https://doi.org/10.1103/RevModPhys.71.875">doi:10.1103/RevModPhys.71.875</a>\]
 
-* [[Steven M. Girvin]], *Introduction to the Fractional Quantum Hall Effect*, S&eacute;minaire Poincar&eacute; **2** (2004) 53–74, reprinted in *The Quantum Hall Effect*, Progress in Mathematical Physics **45**, Birkhäuser (2005)  &lbrack;[pdf](http://www.bourbaphy.fr/girvin.pdf), [doi:10.1007/3-7643-7393-8_4](https://doi.org/10.1007/3-7643-7393-8_4)&rbrack;
+* [[Steven M. Girvin]]: *Introduction to the Fractional Quantum Hall Effect*, S&eacute;minaire Poincar&eacute; **2** (2004) 53–74, reprinted in *The Quantum Hall Effect*, Progress in Mathematical Physics **45**, Birkhäuser (2005)  &lbrack;[pdf](http://www.bourbaphy.fr/girvin.pdf), [doi:10.1007/3-7643-7393-8_4](https://doi.org/10.1007/3-7643-7393-8_4)&rbrack;
 
 * [[Peter Fulde]], §14.2 in: *Correlated Electrons in Quantum Matter*, World Scientific (2012) &lbrack;[doi:10.1142/8419](https://doi.org/10.1142/8419), [pdf](https://www.pks.mpg.de/fileadmin/user_upload/MPIPKS/group_pages/Electronic_Correlations/BOOK_Aktualisierung_Oct19.pdf)&rbrack;
 
