@@ -163,7 +163,7 @@ The following paper proves that [[cubical sets with connections]] (more specific
 The case of cubical sets with both max-connections and min-connections largely follows the case of cubical sets with max-connections, the corresponding category of cubes again being a [[strict test category]].
 The relevant results are stated explicitly as Corollary 3 and Theorem 3 of
 
-* Ulrik Buchholtz, Edward Morehouse, _Varieties of Cubical Sets_, [arXiv](https://arxiv.org/abs/1701.08189).
+* [[Ulrik Buchholtz]], Edward Morehouse, _Varieties of Cubical Sets_,  In: Relational and Algebraic Methods in Computer Science. RAMICS 2017. Lecture Notes in Computer Science, vol 10226. [doi](http://dx.doi.org/10.1007/978-3-319-57418-9_5) [arXiv](https://arxiv.org/abs/1701.08189).
 
 ### Cartesian cubical sets
 
