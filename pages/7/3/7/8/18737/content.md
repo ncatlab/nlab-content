@@ -97,44 +97,47 @@ Introductory lecture notes:
 
 Exposition in view of [[synthetic homotopy theory]]:
 
-* {#MortbergPujet20} [[Anders Mörtberg]], Loïc Pujet, _Cubical synthetic homotopy theory_,  CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs January 2020, pp. 158–171, [doi:10.1145/3372885.3373825](https://doi.org/10.1145/3372885.3373825), ([pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalsynthetic.pdf))
+* {#MortbergPujet20} [[Anders Mörtberg]], [[Loïc Pujet]], _Cubical synthetic homotopy theory_,  CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs January 2020, pp. 158–171, ([doi:10.1145/3372885.3373825](https://doi.org/10.1145/3372885.3373825), [pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalsynthetic.pdf))
 
 Original articles on the BCH model:
 
 * {#Coquand13} [[Thierry Coquand]] (with [[Marc Bezem]] and [[Simon Huber]]), _Computational content of the Axiom of Univalence_, September 2013 ([pdf](http://www.humboldt-kolleg.iam.unibe.ch/talks/Coquand.pdf))
 
-* {#BezemCoquandHuber17} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]], _The univalence axiom in cubical sets_ ([arXiv:1710.10941](https://arxiv.org/abs/1710.10941))
+* {#BezemCoquandHuber13} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]], _A Model of Type Theory in Cubical Sets_,  19th International Conference on Types for Proofs and Programs (TYPES 2013). ([doi:10.4230/LIPIcs.TYPES.2013.107](https://dx.doi.org/10.4230/LIPIcs.TYPES.2013.107))
+
+* {#BezemCoquandHuber17} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]], _The univalence axiom in cubical sets_, Journal of Automated Reasoning, 63, 2019. ([doi:10.1007/s10817-018-9472-6](https://dx.doi.org/10.1007/s10817-018-9472-6), [arXiv:1710.10941](https://arxiv.org/abs/1710.10941))
 
 On the CCHM model and type theory:
 
-* {#CohenCoquandHuberMoertberg17} [[Cyril Cohen]], [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _Cubical Type Theory: a constructive interpretation of the univalence axiom_ ([pdf](https://arxiv.org/pdf/1611.02108.pdf))
+* {#CohenCoquandHuberMoertberg17} [[Cyril Cohen]], [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _Cubical Type Theory: a constructive interpretation of the univalence axiom_,  21st International Conference on Types for Proofs and Programs (TYPES 2015). ([doi:10.4230/LIPIcs.TYPES.2015.5](https://dx.doi.org/10.4230/LIPIcs.TYPES.2015.5), [arXiv:1611.02108](https://arxiv.org/abs/1611.02108))
 
-* {#CubicalCanonicity} [[Simon Huber]], _Canonicity for Cubical Type Theory_ ([arXiv:1607.04156](https://arxiv.org/abs/1607.04156))
+* {#CubicalCanonicity} [[Simon Huber]], _Canonicity for Cubical Type Theory_, Journal of Automated Reasoning, 63, 2019. ([doi:10.1007/s10817-018-9469-1](https://dx.doi.org/10.1007/s10817-018-9469-1), [arXiv:1607.04156](https://arxiv.org/abs/1607.04156))
 
-* {#CubicalHIT} [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _On Higher Inductive Types in Cubical Type Theory_ ([arXiv:1802.01170](https://arxiv.org/abs/1802.01170))
+* {#CubicalHIT} [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _On Higher Inductive Types in Cubical Type Theory_, LICS '18: Proceedings of the 33rd Annual ACM/IEEE Symposium on Logic in Computer Science. ([doi:10.1145/3209108.3209197](https://dx.doi.org/10.1145/3209108.3209197), [arXiv:1802.01170](https://arxiv.org/abs/1802.01170))
 
 On the cartesian cubical model and type theory:
 
-* {#ABCFHL} Carlo Angiuli, Guillaume Brunerie, Thierry Coquand, Kuen-Bang Hou (Favonia), Robert Harper, and Daniel R. Licata, _Cartesian cubical type theory_, <https://www.cs.cmu.edu/~rwh/papers/uniform/uniform.pdf>
+* {#ABCFHL} [[Carlo Angiuli]], [[Guillaume Brunerie]], [[Thierry Coquand]], [[Kuen-Bang Hou (Favonia)]], [[Robert Harper]], and [[Daniel R. Licata]], _Syntax and models of Cartesian cubical type theory_, Mathematical Structures in Computer Science, 31(4), 2021. ([doi:10.1017/S0960129521000347](https://dx.doi.org/10.1017/S0960129521000347))
 
-* Carlo Angiuli, _Computational Semantics of Cartesian Cubical Type Theory_, Ph.D. Thesis, <https://www.cs.cmu.edu/~cangiuli/thesis/thesis.pdf>
+* [[Carlo Angiuli]], _Computational Semantics of Cartesian Cubical Type Theory_, Ph.D. Thesis. ([pdf](https://www.cs.cmu.edu/~cangiuli/thesis/thesis.pdf))
 
 On comparing the models:
 
-* [[homotopytypetheory:Evan Cavallo]], [[Anders Mörtberg]], Andrew W Swan, _Unifying Cubical Models of Univalent Type Theory_, 2019, [PDF](https://github.com/mortberg/gen-cart/blob/master/conference-paper.pdf)
+* [[Evan Cavallo]], [[Anders Mörtberg]], [[Andrew W Swan]], _Unifying Cubical Models of Univalent Type Theory_, 28th EACSL Annual Conference on Computer Science Logic (CSL 2020). ([doi:10.4230/LIPIcs.CSL.2020.14](https://dx.doi.org/10.4230/LIPIcs.CSL.2020.14))
 
-* [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]] _Homotopy canonicity for cubical type theory_, 2019 [PDF](https://arxiv.org/pdf/1902.06572)
+* [[Thierry Coquand]], [[Simon Huber]], [[Christian Sattler]], _Homotopy canonicity for cubical type theory_, 4th International Conference on Formal Structures for Computation and Deduction (FSCD 2019). ([doi:10.4230/LIPIcs.FSCD.2019.11](https://dx.doi.org/10.4230/LIPIcs.FSCD.2019.11), [arXiv:1902.06572](https://arxiv.org/abs/1902.06572))
 
-* {#Bentzen2019} [[Bruno Bentzen]], _Naive cubical type theory_, 2019 ([arXiv:1911.05844](https://arxiv.org/abs/1911.05844))
+* {#Bentzen2019} [[Bruno Bentzen]], _Naive cubical type theory_, Mathematical Structures in Computer Science, 31, 2021. ([doi:10.1017/S096012952200007X](https://doi.org/10.1017/S096012952200007X), [arXiv:1911.05844](https://arxiv.org/abs/1911.05844))
 
 Discussion of implementation in the [[proof assistant]] [[Cubical Agda]]:
 
-* {#VMA19} [[homotopytypetheory:Andrea Vezzosi]], [[Anders Mörtberg]] and Andreas Abel, _Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types_, 2019 ([pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalagda.pdf))
+* {#VMA19} [[homotopytypetheory:Andrea Vezzosi]], [[Anders Mörtberg]] and [[Andreas Abel]], _Cubical Agda: A Dependently Typed Programming Language with Univalence and Higher Inductive Types_, Proceedings of the ACM on Programming Languages, 3, ICFP, 2019. ([doi:10.1145/3341691](https://dx.doi.org/10.1145/3341691), [pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalagda.pdf)). Extended version in Journal of Functional Programming, 31, 2021: ([doi:10.1017/S0956796821000034](https://www.doi.org/10.1017/S0956796821000034), [pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalagda2.pdf))
 
 On [[normal form|normalization]] for cubical type theory:
 
-* [[Jonathan Sterling]], Carlo Angiuli, _Normalization for Cubical Type Theory_, ([arXiv:2101.11479](https://arxiv.org/abs/2101.11479))
-* [[Jonathan Sterling]], _First Steps in Synthetic Tait Computability: The Objective Metatheory of Cubical Type Theory_, ([pdf](https://www.jonmsterling.com/papers/sterling-2021-thesis.pdf))
+* [[Jonathan Sterling]], [[Carlo Angiuli]], _Normalization for Cubical Type Theory_, 36th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS), 2021. ([doi:10.1109/LICS52264.2021.9470719](https://dx.doi.org/10.1109/LICS52264.2021.9470719), [arXiv:2101.11479](https://arxiv.org/abs/2101.11479))
+
+* [[Jonathan Sterling]], _First Steps in Synthetic Tait Computability: The Objective Metatheory of Cubical Type Theory_. ([pdf](https://www.jonmsterling.com/papers/sterling-2021-thesis.pdf))
 
 On [[XTT]]:
 
