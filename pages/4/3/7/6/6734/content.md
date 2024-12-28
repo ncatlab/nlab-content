@@ -11,6 +11,10 @@ Introducing [[BTZ black holes]]:
 * [[Máximo Bañados]], [[Marc Henneaux]], [[Claudio Teitelboim]], [[Jorge Zanelli]], 
 _Geometry of the 2+1 Black Hole_, Phys. Rev. D48: 1506-1525, 1993 ([arXiv:gr-qc/9302012](https://arxiv.org/abs/gr-qc/9302012))
 
+On [[Chern-Simons theory]]:
+
+* [[Jorge Zanelli]], Luis Huerta: *Introduction to Chern-Simons theories*, PoS ICFI2010 (2010) 004 &lbrack;[doi:10.22323/1.124.0004](https://doi.org/10.22323/1.124.0004)&rbrack;
+
 
 Usage of full [[supergravity]] (retaining the [[gravitino]]) for [[AdS-CMT]], with application to [[graphene]]-like systems:
 
