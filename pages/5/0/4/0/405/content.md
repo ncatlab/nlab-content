@@ -126,7 +126,7 @@ Note that $\Box$ is _not_ the free strict monoidal category on $\square_{\leq 1}
 
 =--
 
-### Cubes with connection
+### Cubes with connections
 
 For $\alpha \in \{0,1\}$, an **$\alpha$-connection** in a cube category is a morphism $\gamma_\alpha \colon I^1 \otimes I^1 \to I^1$ such that $(I^1,\delta_\alpha,\gamma_\alpha)$ defines a [[monoid in a monoidal category]] and additionally the equations
 $$
