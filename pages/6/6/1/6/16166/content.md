@@ -2,7 +2,12 @@
 
 * [webpage](http://www-fourier.ujf-grenoble.fr/~sergerar/)
 
+
 ## Selected writings
+
+On the [[Kenzo]] software for computations in [[constructive algebraic topology]]:
+
+* [[Julio Rubio]], [[Francis Sergeraert]], Yvon Siret: *KENZO -- a Symbolic Software for Effective Homology Computation* (1999) &lbrack;[pdf](https://www-fourier.ujf-grenoble.fr/~sergerar/Kenzo/Kenzo-doc.pdf)&rbrack;
 
 On [[constructive mathematics|constructive]] methods in [[algebraic topology]] ([[constructive algebraic topology]]):
 
