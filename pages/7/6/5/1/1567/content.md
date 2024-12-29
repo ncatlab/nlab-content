@@ -255,3 +255,4 @@ The [[completely distributive lattice|completely distributive]] [[algebraic latt
 * {#A000372} OEIS sequence [A000372](https://oeis.org/A000372)
 
 [[!redirects distributive lattices]]
+[[!redirects Birkhoff duality]]
