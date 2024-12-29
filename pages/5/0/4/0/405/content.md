@@ -69,7 +69,7 @@ Let $n \geq 0$ be an integer. We denote the object $\underbrace{I^{1} \otimes \c
 +-- {: .num_defn}
 ###### Terminology
 
-In addition to the maps $\delta_0$ and $\delta_1$, maps of the orm $I^n \otimes \delta_\alpha \otimes I^m$ for $n,m \ge 0$ are also called faces.
+In addition to the maps $\delta_0$ and $\delta_1$, maps of the form $I^n \otimes \delta_\alpha \otimes I^m$ for $n,m \ge 0$ are also called *faces*.
 Finite composites of such maps may also be called faces.
 Likewise, maps of the form $I^m \otimes \epsilon I^m$ for $n,m \ge 0$ are also called degeneracies.
 
