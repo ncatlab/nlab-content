@@ -39,7 +39,7 @@ See also
 
 Generalization to [[equivariant cobordism]]:
 
-* [[Shôrô Araki]], *Equivariant $s$-cobordism theorems*, J. Math. Soc.  Japan **40** 2 (1988) &lbrack;[pdf](https://projecteuclid.org/journals/journal-of-the-mathematical-society-of-japan/volume-40/issue-2/Equivariant-s-cobordism-theorems/10.2969/jmsj/04020349.pdf)&rbrack;
+* [[Shôrô Araki]], Katsuo Kawakubo, *Equivariant $s$-cobordism theorems*, J. Math. Soc.  Japan **40** 2 (1988) &lbrack;[pdf](https://projecteuclid.org/journals/journal-of-the-mathematical-society-of-japan/volume-40/issue-2/Equivariant-s-cobordism-theorems/10.2969/jmsj/04020349.pdf)&rbrack;
 
 
 [[!redirects h cobordism theorem]]
