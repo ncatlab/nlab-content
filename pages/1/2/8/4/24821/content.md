@@ -10,6 +10,9 @@ On [[constructive mathematics|constructive]] methods in [[algebraic topology]] (
 
 On the [[Kenzo]] software for computations in [[constructive algebraic topology]]:
 
+* [[Julio Rubio]], [[Francis Sergeraert]], Yvon Siret: *KENZO -- a Symbolic Software for Effective Homology Computation* (1999) &lbrack;[pdf](https://www-fourier.ujf-grenoble.fr/~sergerar/Kenzo/Kenzo-doc.pdf)&rbrack;
+
+
 * Jonathan Heras, Vico Pascual, Ana Romero, [[Julio Rubio]], *Integrating multiple sources to answer questions in Algebraic Topology*, Lectures Notes in Artificial Intelligence **6167** (2010) &lbrack;[arXiv:1005.0749](https://arxiv.org/abs/1005.0749)&rbrack;
 
 * [[Julio Rubio]], *Formalization of Mathematics: why Algebraic Topology?*, MAP Spring School 2012 &lbrack;[pdf](http://www-sop.inria.fr/manifestations/MapSpringSchool/contents/JulioRubio.pdf)&rbrack;
