@@ -29,11 +29,13 @@ is [[dense subset|dense]] in the given [[space of quantum states|state space]], 
 
 The Reeh-Schlieder theorem can be proven to be valid in the [[Haag-Kastler vacuum representation]], but the statement itself is sometimes used as an [[axiom]] and called the **Reeh-Schlieder property** in this case.
 
-The Reeh-Schlieder theorem is of central importance for the mathematical structure theory of the [[Haag-Kastler approach]]. The _physical interpretation_ is counterintuitive and therefore to a certain degree controversial: Intuitively one might expect that for a localized observable $A \in \mathcal{M}(\mathcal{O})$ the vector $A \Omega$ should be localized in $\mathcal{O}$, that is the state should look like the vacuum in the [[causal complement]] of $\mathcal{O}$. But the Reeh-Schlieder theorem says that every, arbitrary state can be approximated by states of the kind $A \Omega$. This shows that the concept of _localized states_ is nontrivial in [[AQFT]] and needs to be handled with care.
+The Reeh-Schlieder theorem is of central importance for the mathematical structure theory of the [[Haag-Kastler approach]]. 
+
+Its _physical interpretation_ is counterintuitive and therefore to a certain degree controversial: Intuitively one might expect that for a localized observable $A \in \mathcal{M}(\mathcal{O})$ the vector $A \Omega$ should be localized in $\mathcal{O}$, in that the state should still look like the vacuum in the [[causal complement]] of $\mathcal{O}$. But the Reeh-Schlieder theorem says that every arbitrary state can be approximated by states of the kind $A \Omega$. This shows that the concept of _localized states_ is nontrivial in [[AQFT]] and needs to be handled with care.
 
 Complementary statements about the asymptotic "vacuum-like appearance" of localized observables exist, too, and are commonly referred to as *cluster theorems*.
 
-In other parts of the physics literature, notably in the context of [[conformal field theory]], the Reeh-Schlieder property is also called the **state-operator correspondence**. See also the remark by [Schroer, footnote 14, page 34](#Schroer).
+In other parts of the physics literature, notably in the context of [[conformal field theory]], the Reeh-Schlieder property is also called the **[[state-operator correspondence]]**, cf. [Schroer, footnote 14, page 34](#Schroer).
 
 
 ## Abstract ##
@@ -148,6 +150,7 @@ More generally there cannot be a nonzero localized observable that annihilates t
 
 The fact that the vacuum vector is cyclic means that any arbitrary state in the vacuum representation can be approximated by measurements in an arbitrary small bounded open region applied to the vacuum vector. This fact is sometimes referred to as the existence of [[vacuum fluctuations]]. A direct consequence of the Reeh-Schlieder theorem is therefore that to any regions $\mathcal{O}_1, \mathcal{O}_2$, no matter how far apart, there are many projections in the corresponding local algebras that are positively correlated in the vacuum state.
 
+
 ## Related theorems
 
 * [[spin-statistics theorem]]
@@ -156,11 +159,14 @@ The fact that the vacuum vector is cyclic means that any arbitrary state in the 
 
 * [[state-field correspondence]]
 
-## References ##
+* [[GNS-construction]]
 
-* Stephen J. Summers: _Yet More Ado About Nothing: The Remarkable Relativistic Vacuum State_ ([arXiv:0802.1854] (http://de.arxiv.org/abs/0802.1854))
 
-* [[Edward Witten]], section 2 of _Notes on Some Entanglement Properties of Quantum Field Theory_ ([arXiv:1803.04993](https://arxiv.org/abs/1803.04993))
+## References
+
+* [[Stephen J. Summers]]: _Yet More Ado About Nothing: The Remarkable Relativistic Vacuum State_, in *Deep Beauty -- Understanding the Quantum World through Mathematical Innovation*, Cambridge University Press (2011) pp 317-342 &lbrack;[arXiv:0802.1854] (http://arxiv.org/abs/0802.1854), [doi:10.1017/CBO9780511976971.009 ](https://doi.org/10.1017/CBO9780511976971.009)&rbrack;
+
+* [[Edward Witten]], section 2 of: _Notes on Some Entanglement Properties of Quantum Field Theory_ &lbrack;[arXiv:1803.04993](https://arxiv.org/abs/1803.04993)&rbrack;
 
 See also
 
@@ -171,13 +177,13 @@ The Reeh-Schlieder theorem can be generalized from [[Minkowski spacetime]] to mo
 
 * Alexander Strohmaier, Rainer Verch, Manfred Wollenberg: _Microlocal analysis of quantum fields on curved spacetimes: Analytic wavefront sets and Reeh-Schlieder theorems_ ([arXiv](http://xxx.uni-augsburg.de/abs/math-ph/0202003))
 
-About work to avoid the Reeh-Schlieder theorem and its counter intuitive implications see this:
+On efforts to avoid the Reeh-Schlieder theorem and its counter-intuitive implications:
 
 * [[Hans Halvorson]], _Reeh-Schlieder Defeats Newton-Wigner: On alternative localization schemes in relativistic quantum field theory_ ([arXiv](http://xxx.uni-augsburg.de/abs/quant-ph/0007060))
 
-The observation that the Reeh-Schlieder property describes what elsewhere is called the _operator-state correspondence_ is made explicit for instance in footnote 14 on page 34 of
+The observation that the Reeh-Schlieder property describes what elsewhere is called the _[[operator-state correspondence]]_ is made explicit in:
 
-* {#Schroer} [[Bert Schroer]], _Particle Physics and QFT at the Turn of the Century: Old principles with new concepts &lbrack;[pdf](http://cds.cern.ch/record/367824/files/9810080.pdf),[arXiv:hep-th/9810080](https://arxiv.org/abs/hep-th/9810080)&rbrack;
+* {#Schroer} [[Bert Schroer]], footnote 14 on page 34 of: *Particle Physics and QFT at the Turn of the Century: Old principles with new concepts* &lbrack;[pdf](http://cds.cern.ch/record/367824/files/9810080.pdf),[arXiv:hep-th/9810080](https://arxiv.org/abs/hep-th/9810080)&rbrack;
 
 
 [[!redirects Reeh-Schlieder Theorem]]
