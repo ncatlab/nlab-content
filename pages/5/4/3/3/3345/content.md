@@ -19,50 +19,50 @@
 
 ## Idea
 
-There is a [[model category]] structure on the [[category]] $[\Box^{op},Set]$ of [[cubical set]]s whose [[homotopy theory]] is that of the [[classical model structure on simplicial sets]].
+Various [[(∞,1)-categories]] can be presented by [[model structures]] on the [[category]] $[\Box^{op},Set]$ of [[cubical sets]], _i.e._, presheaves on a [[category of cubes]] $\Box$.
 
+For example, the theory of [[test categories]] produces model structures on categories of cubical sets whose [[homotopy theory]] is that of the [[classical model structure on simplicial sets]].
 Using this version of the [[homotopy hypothesis]]-theorem, cubical sets are a way to describe the [[homotopy type]] of [[∞-groupoid]]s using of all the [[geometric shapes for higher structures]] the [[cube]].
 
+Cubical sets can also be used to build model structures presenting other homotopy theories, such the [[model structures for cubical quasicategories]] presenting [[(∞,1)-categories]].
 
-## Definition
+## Presentations of infinity-groupoids
 
+### Ordered cubical sets
+
+Write $\Box$ for the _ordered cube category_ defined at _[[category of cubes]]_.
 There is an evident [[simplicial set]]-valued [[functor]]
 
 $$
-  \Box \to sSet
+  \begin{array}{rcl}
+    \Box &\to& sSet \\
+    I^n &\mapsto& (\Delta[1])^{\times n}
+  \end{array}
 $$
 
-from the [[cube category]] to [[sSet]], which sends the cubical $n$-cube to the simplicial $n$-cube
+from the [[cube category]] to [[sSet]] which sends the cubical $n$-cube to the simplicial $n$-cube.
+
+Similarly, there is a canonical [[Top]]-valued functor
 
 $$
-  \mathbf{1}^n \mapsto (\Delta[1])^{\times n}
-  \,.
-$$
-
-Similarly there is a canonical [[Top]]-valued functor
-
-$$
-  \Box \to Top
-$$
-
-$$
-  \mathbf{1}^n \mapsto (\Delta^1_{Top})^n
-  \,.
+  \begin{array}{rcl}
+    \Box &\to& Top \\
+    I^n &\mapsto& [0,1]^{n}
+  \end{array}
 $$
 
 The corresponding [[nerve and realization]] [[adjunction]]
 
 $$
-  (|-| \dashv Sing_\Box) : Top \stackrel{\overset{|-|}{\leftarrow}}{\underset{Sing_\Box}{\to}} Set^{\Box^{op}}
+  (|-| \dashv Sing_\Box) : Top \stackrel{\overset{|-|}{\leftarrow}}{\underset{Sing_\Box}{\to}} [\Box^{op},Set]
 $$
 
-is the cubical analogue of the simplicial nerve and realization discussed [above](#ForKanComplexes).
+is the cubical analogue of the simplicial nerve and realization adjunction.
 
-+-- {: .num_theorem}
++-- {: .num_theorem #OrderedCubeModelStructure}
 ###### Theorem
 
-
-There is a [[model structure on cubical sets]] $Set^{\Box^{op}}$ whose
+There is a [[model structure on cubical sets]] $[\Box^{op},Set]$ whose
 
 * weak equivalences are the morphisms that become weak equivalences under geometric realization $|-|$;
 
@@ -72,16 +72,19 @@ There is a [[model structure on cubical sets]] $Set^{\Box^{op}}$ whose
 
 This is ([Jardine, section 3](#Jardine)).
 
-Explicitly, a set of generating cofibrations is given by the boundary inclusions $\partial \Box^n \to \Box^n$, and a set of generating acyclic cofibrations is given by the horn inclusions $\sqcap_{k,\epsilon}^n \to \Box^n$. This is ([Cisinski, Thm 8.4.38](#Cisinski)). Thus, as a consequence of Cisinski's work, the fibrations are exactly cubical Kan fibrations.
++-- {: .num_theorem}
+###### Proposition
 
-## Properties
+An explicit set of generating cofibrations is given by the boundary inclusions $\partial \Box^n \to \Box^n$, and a set of generating acyclic cofibrations is given by the horn inclusions $\sqcap_{k,\epsilon}^n \to \Box^n$.
 
-### Homotopy theory
- {#HomotopyTheory}
+=--
 
+This is ([Cisinski 2006, Thm 8.4.38](#Cisinski)).
+
+As a consequence, the fibrations are exactly cubical Kan fibrations.
 The following theorem establishes a form of the [[homotopy hypothesis]] for cubical sets.
 
-+-- {: .num_theorem}
++-- {: .num_theorem #Ordered}
 ###### Theorem
 
 The [[unit of an adjunction|unit of the adjunction]]
@@ -90,7 +93,7 @@ $$
   A \to Sing_\Box(|A|)
 $$
 
-is a weak equivalence in $Set^{{\Box}^{op}}$ for every cubical set $A$.
+is a weak equivalence in $[\Box^{op},Set]$ for every cubical set $A$.
 
 The counit of the adjunction
 
@@ -103,7 +106,7 @@ is a weak equivalence in $Top$ for every topological space $X$.
 It follows that we have an [[equivalence of categories]] induced on the [[homotopy categories]]
 
 $$
-  Ho(Top) \simeq Ho(Set^{\Box^{op}})
+  Ho(Top) \simeq Ho([\Box^{op},Set])
   \,.
 $$
 
@@ -111,18 +114,33 @@ $$
 
 This is ([Jardine, theorem 29, corollary 30](#Jardine)).
 
-In fact, by the discussion at _[[adjoint (∞,1)-functor]]_  it follow that the [[derived functors]] of the adjunction exhibit the [[simplicial localizations]] of cubical sets equivalent to that of simplicial sets, hence makes their [[(∞,1)-categories]] [[equivalence of (∞,1)-categories|equivalent]] (hence equivalent to [[∞Grpd]]). 
+In fact, by the discussion at _[[adjoint (∞,1)-functor]]_  it follows that the [[derived functors]] of the adjunction exhibit the [[simplicial localizations]] of cubical sets equivalent to that of simplicial sets, hence makes their [[(∞,1)-categories]] [[equivalence of (∞,1)-categories|equivalent]] (hence equivalent to [[∞Grpd]]). 
 
+### Other cubical sets
 
-## Other kinds of cubical sets
+The model structure from Theorem \ref{OrderedCubeModelStructure} and the equivalence of its homotopy theory to that of [[Top]] can be derived using the theory of [[test categories]] (see ([Cisinski 2006, Section 8.4](#Cisinski))).
+Test category theory can be used more generally to derive model structures presenting [[∞Grpd]] on $[\Cube^{op},Set]$ for other cube categories $\Box$.
 
-In [[cubical type theory]] one uses more structured notions of cubical set (symmetric, cartesian, De Morgan, etc.)  In most cases such categories have both a test model structure, which is equivalent to spaces, and a [[cubical-type model structure]] that corresponds to the interpretation of type theory.  In many cases these are *not* equivalent, and the cubical-type model structure does not model classical homotopy types.  See [[cubical-type model structure]] for more discussion.
+The weak equivalences are not in general induced from the [[weak homotopy equivalences]] by the geometric realization functor $|-| \colon [\Box^{op},Set] \to Top$ sending $I^n$ to $[0,1]^{n}$, but rather from the weak equivalences of the [[Thomason model structure]] by the realization $[\Box^{op},Set] \to Cat$ sending $I^n$ to the slice category $\Box/I^n$.
+It is also not always true that the [[trivial cofibrations]] are generated by cubical horn inclusions $\sqcap_{k,\epsilon}^n \to \Box^n$, as is the case for the minimal cube category; such characterizations rely on [[Reedy category]] structure on the cube category.
 
+A case of particular interest is the ordered cube category with a connection.
+Unlike the minimal cube category, this cube category is a [[strict test category|test category]] ([Maltsiniotis 2009](#Maltsiniotis2009)), meaning its weak equivalences are closed under product.
+This is one motivation for using cubes with connections as opposed to the minimal cube category; see _[[connection on a cubical set]]_ for more details.
+
+[Buchholtz and Morehouse (2017)](#BuchholtzMorehouse) outline a class of cube categories and investigate which are test and/or strict test categories.
 
 ## Joyal-type model structures
 
-In complete analogy to [[simplicial sets]], there is also an analogue of the [[Joyal model structure]] on [[cubical sets]], with or without connection.  See the article [[model structures for cubical quasicategories]].
+In complete analogy to [[simplicial sets]], there is also an analogue of the [[Joyal model structure]] on [[cubical sets]], with or without connection.
+See the article _[[model structures for cubical quasicategories]]_.
 
+## Cubical-type model structures
+
+In [[cubical type theory]] one uses more structured notions of cubical set (symmetric, cartesian, De Morgan, etc.).
+In most cases such categories have both a [[test model structure]], which presents [[∞Grpd]], and a [[cubical-type model structure]] that corresponds to the interpretation of type theory.
+In many cases these are *not* equivalent, and the cubical-type model structure does not model classical homotopy types.
+See _[[cubical-type model structure]]_ for more discussion.
 
 ## Related concepts
 
@@ -156,14 +174,14 @@ The model structure on cubical sets as above is given in detail in
 
 The following paper proves that [[cubical sets with connections]] (more specifically, max-connections) form a [[strict test category]] and therefore admit a [[cartesian model structure]] that is Quillen equivalent to the [[Kan–Quillen model structure]] on [[simplicial sets]]:
 
-* [[Georges Maltsiniotis]], _La catégorie cubique avec connexions est une catégorie test stricte_, Homology, Homotopy and Applications 11:2 (2009), 309-326.  [doi](http://dx.doi.org/10.4310/hha.2009.v11.n2.a15).
+* {#Maltsiniotis2009} [[Georges Maltsiniotis]], _La catégorie cubique avec connexions est une catégorie test stricte_, Homology, Homotopy and Applications 11:2 (2009), 309-326.  [doi](http://dx.doi.org/10.4310/hha.2009.v11.n2.a15).
 
 ### Cubical sets with max-connections and min-connections
 
 The case of cubical sets with both max-connections and min-connections largely follows the case of cubical sets with max-connections, the corresponding category of cubes again being a [[strict test category]].
 The relevant results are stated explicitly as Corollary 3 and Theorem 3 of
 
-* [[Ulrik Buchholtz]], Edward Morehouse, _Varieties of Cubical Sets_,  In: Relational and Algebraic Methods in Computer Science. RAMICS 2017. Lecture Notes in Computer Science, vol 10226. [doi](http://dx.doi.org/10.1007/978-3-319-57418-9_5) [arXiv](https://arxiv.org/abs/1701.08189).
+* {#BuchholtzMorehouse2017} [[Ulrik Buchholtz]], [[Edward Morehouse]], _Varieties of Cubical Sets_, Relational and Algebraic Methods in Computer Science (RAMICS 2017), Lecture Notes in Computer Science **10226** (2017) 77--92 &lbrack;[arXiv:1701.08189](https://arxiv.org/abs/1701.08189), [doi:10.1007/978-3-319-57418-9_5](https://dx.doi.org/10.1007/978-3-319-57418-9_5)&rbrack;
 
 ### Cartesian cubical sets
 
