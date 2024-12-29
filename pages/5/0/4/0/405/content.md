@@ -280,13 +280,13 @@ There is a [[fully faithful functor]] $\Delta \to \overline{\Box}$ from the [[si
 
 The Kleene cube category is the choice that makes the evident functor $\Box \to Top$ faithful.
 The De Morgan cube category is used in the model of [[cubical type theory]] of [Cohen, Coquand, Huber & Mörtberg (2015)](#CohenCoquandHuberMoertberg2017), but the construction also works with Kleene and Boolean cubes.
-The Cauchy completion of the Boolean cube category is [[FinSet]], so the category of Boolean cubical sets is equivalent to the category of [[symmetric sets]].
+The Cauchy completion of the Boolean cube category is the category [[FinSet]]$_+$ of nonempty finite sets, so the category of Boolean cubical sets is equivalent to the category of [[symmetric sets]].
 
 ## As shapes for higher structures
 
 ### As test categories
 
-All of the cube categories described above are [[test categories]].
+All of the cube categories described above are [[test categories]] ([Buchholtz & Morehouse 2017](#BuchholtzMorehouse2017)).
 Hence their categories of [[cubical sets]] model [[homotopy types]].
 Cube categories with connections or diagonals are generally [[strict test categories]], while the ordered and symmetric cube categories are not.
 See _[[model structure on cubical sets]]_ and _[[connection on a cubical set]]_ for more details.
@@ -363,7 +363,12 @@ The Cauchy completion of the distributive lattice cube category is not an Eilenb
 
 =--
 
++-- {: .num_defn}
+###### Remark
+
 ([Cavallo & Sattler 2022](#CavalloSattler2022)) develops a generalization of the theory of EZ-categories which can be used to work with the semilattice cube category, but this theory does not apply to the distributive lattice cube category ([Cavallo & Sattler 2022, Appendix A.2](#CavalloSattler2022)).
+
+=--
 
 +-- {: .num_defn}
 ###### Proposition
