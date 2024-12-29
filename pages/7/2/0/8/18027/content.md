@@ -79,7 +79,7 @@ Some Birkhoff's variety-style theorems in a categorical setup for equational log
 See also:
     
 
-* Wikipedia, <a href="https://en.wikipedia.org/wiki/Variety_(universal_algebra)#Birkhoff.27s_theorem">Birkhoff's theorem</a>
+* Wikipedia, <a href="https://en.wikipedia.org/wiki/Variety_(universal_algebra)#Birkhoff's_variety_theorem">Birkhoff's theorem</a>
 
 category: algebra, logic
 
