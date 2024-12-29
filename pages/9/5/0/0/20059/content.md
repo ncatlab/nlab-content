@@ -21,7 +21,7 @@
 
 A cubical-type model category is a [[model category]] [[mathematical structure|structure]] whose fibrations are defined by a _uniform lifting condition_ against a generalized form of open box inclusions. 
 
-The term is not a precise technical one, but refers to model structures arising from a family of constructions, the first of which is due to [[Christian Sattler]].
+The term is not a precise technical one, but refers to model structures arising from a family of constructions, the first of which is due to [Sattler 2017](#sattlerEEP).
 These constructions are motivated by [[cubical type theory]] and can in particular be applied in certain [[categories]] of [[cubical sets]].
 
 ### Assumptions
@@ -68,11 +68,12 @@ Again, the model structure agrees with the [[test category|test model structure]
 
 The question whether the geometric realization for the cubical sets based on distributive lattices is an equivalence is still open, cf. also [Hackney and Rovelli](#hrInduced) and [Streicher and Weinberger](#swCuSi).
 
+
 ## References
 
 Sattler's construction is in
 
-* {#sattlerEEP} [[Christian Sattler]], *The equivalence extension property and model structures* $[$[arXiv:1704.06911](https://arxiv.org/abs/1704.06911)$]$
+* {#sattlerEEP} [[Christian Sattler]], *The equivalence extension property and model structures* &lbrack;[arXiv:1704.06911](https://arxiv.org/abs/1704.06911)&rbrack;
 
 and some elements appear in the earlier paper
 
