@@ -266,12 +266,13 @@ With an eye towards application in [[mathematical physics]]:
 * [[Mikio Nakahara]], Chapter 3 of _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
 
 
-
-
 The [[Riemann-Hilbert correspondence]]/[[de Rham theorem]] for $H A$-modules is established in 
 
 * {#BlockSmith09} [[Jonathan Block]], Aaron Smith, _A Riemann--Hilbert correspondence for infinity local systems_ ([arXiv:0908.2843](http://arxiv.org/abs/0908.2843))
- 
+
+On the [[Kenzo]] software for homology computations in [[constructive algebraic topology]]:
+
+* [[Julio Rubio]], [[Francis Sergeraert]], Yvon Siret: *KENZO -- a Symbolic Software for Effective Homology Computation* (1999) &lbrack;[pdf](https://www-fourier.ujf-grenoble.fr/~sergerar/Kenzo/Kenzo-doc.pdf)&rbrack; 
 
 [[!redirects ordinary homology theory]]
 
