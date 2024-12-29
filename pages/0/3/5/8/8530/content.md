@@ -17,7 +17,7 @@
 
 ## Definition
 
-A collection of [[integers]] is called _coprime_ or _relatively prime_ if the only common [[prime factor]] is 1, equivalently if their [[greatest common divisor]] is 1.
+A collection of [[integers]] is called _coprime_ or _relatively prime_ if their only common [[prime factor]] is 1, equivalently if their [[greatest common divisor]] is 1.
 
 ## Related concepts
 
