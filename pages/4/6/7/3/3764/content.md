@@ -49,7 +49,7 @@ $$
 
 of $\mathcal{A}$ on (a [[dense subspace]] of) $\mathcal{H}$; where $\langle -,-\rangle$ denotes the [[Hermitian form|Hermitian]] [[inner product]] on the [[Hilbert space]].
 
-Originally and typically by default this is considered for [[C*-algebras]] and [[C*-representations]] ([Gelfand & Naimark 1943](#GelfandNaimark43), [Segal 1947](#Segal47)), see for instance ([Schmüdgen 1090](#Schmuedgen90)), but the construction applies to general [[unital algebra|unital]] [[star algebras]] $\mathcal{A}$ ([Khavkine& Moretti 2015](#KhavkineMoretti15)) as well as to other [[coefficient]] [[rings]], such as to  [[formal power series algebras]] over $\mathbb{C}[ [\hbar] ]$ ([Bordemann & Waldmann 1996](#BordemannWaldmann96)). 
+Originally and typically by default this is considered for [[C*-algebras]] and [[C*-representations]] ([Gelfand & Naimark 1943](#GelfandNaimark43), [Segal 1947](#Segal47), see for instance [Schmüdgen 1990](#Schmuedgen90)), but the construction applies to general [[unital algebra|unital]] [[star algebras]] $\mathcal{A}$ ([Khavkine & Moretti 2015](#KhavkineMoretti15)) as well as to other [[coefficient]] [[rings]], such as to  [[formal power series algebras]] over $\mathbb{C}[ [\hbar] ]$ ([Bordemann & Waldmann 1996](#BordemannWaldmann96)). 
 
 The GNS-construction plays a central role in [[algebraic quantum field theory]] (cf. [Haag 1996](#Haag96), [Moretti 2017](#Moretti17), [Khavkine & Moretti 2015](#KhavkineMoretti15)), where $\mathcal{A}$ plays the role of an [[algebra of observables]] and $\rho \colon \mathcal{A} \to \mathbb{C}$ the role of an actual [[state]] of a [[physical system]] (whence the terminology) jointly constituting the "[[Heisenberg picture]]"-perspective of [[quantum physics]]; so that the GNS-construction serves to re-construct a corresponding [[Hilbert space|Hilbert]] [[space of states]] as in the [[Schrödinger picture]] of quantum physics. In this context the version for [[C*-algebras]] corresponds to [[non-perturbative quantum field theory]], while the generalization to [[formal power series algebras]] corresponds to [[perturbative quantum field theory]].
 
@@ -86,11 +86,11 @@ Given
         \;\;\;
            \vdash
         \;\;\;
-        \rho(A^\ast) = \overline{\rho(A)}
+        \rho\big(A^\ast\big) = \overline{\rho(A)}
         \,,
       \]
 
-   1. and satisfies "[positivity](state+on+a+star-algebra#PositivityCondition) in the sense that
+   1. and satisfies "[positivity](state+on+a+star-algebra#PositivityCondition)" in the sense that
 
       \[
         \label{StateSatisfiesPositivity}
@@ -98,11 +98,13 @@ Given
         \;\;\;
           \vdash
         \;\;\;
-        \rho(A^\ast A) \in \mathbb{R}_{\geq 0} \subset \mathbb{C}
+        \rho(A^\ast A) 
+          \in 
+        \mathbb{R}_{\geq 0} \subset \mathbb{C}
        \,,
       \]      
 
-there exists 
+then there exists 
 
 1. a [[C*-representation]] 
 
@@ -135,7 +137,7 @@ for all $A \in \mathcal{A}$.
 =--
 
 \begin{proof}\label{ProofOfGNS}
-Consider on the underlying [[complex vector space]] of $\mathcal{A}$ the [[sesquilinear form]] (inner product)
+Consider on the [[underlying]] [[complex vector space]] of $\mathcal{A}$ the [[sesquilinear form]] ([[inner product]])
 
 \[
   \label{InnerProductBeforeDevidingOutNullVectors}
@@ -162,17 +164,17 @@ By the "[positivity](state+on+a+star-algebra#PositivityCondition)"-condition (eq
   \,.
 \]
 
-However, (eq:InnerProductBeforeDevidingOutNullVectors) will in general not be definite, in that there may be a non-trivial [[linear subspace]] of 0-norm elements:
+However, (eq:InnerProductBeforeDevidingOutNullVectors) will in general not be definite, in that there may be a non-trivial [[linear subspace]] of [[norm]]=0 elements:
 
 \[
   \label{TheNullIdeal}
   \mathcal{N} 
     \;\coloneqq\; 
-  \big\{
+  \Big\{
     A \in \mathcal{A}
     \,\vert\,
-    \rho(A^\ast A) = 0
-  \big\}
+    \rho\big(A^\ast A\big) = 0
+  \Big\}
   \,,
 \]
 
@@ -335,7 +337,7 @@ $$
 
 where in the first and last step we used (eq:StateRespectsStar).
 
-Now descended to the quotient, the pairing $\langle-,-\rangle$ becomes [positive definite](sesquilinear+form#Definity) by construction, so that it defines a [[Hermitian form|Hermitian]] -- by (eq:StateRespectsStar) -- [[inner product]] on $\mathscr{H}$, making it the desired [[Hilbert space]].
+Descended to the quotient this way, the pairing $\langle-,-\rangle$ becomes [positive definite](sesquilinear+form#Definity) by construction, so that it defines a [[Hermitian form|Hermitian]] (by (eq:StateRespectsStar)) [[inner product]] on $\mathscr{H}$, making it the desired [[Hilbert space]].
 
 Finally, again by the left-ideal property (eq:NullSpaceIsLeftIdeal), the left multiplication [[action]] of $\mathcal{A}$ on itself also descends to an action on the quotient Hilbert space (eq:HilbertSpaceAsQuotientOfStarAlgebraByNullSpace):
 
@@ -385,7 +387,7 @@ $$
 $$
 \end{proof}
 
-Notice in summary that this GNS construction constitutes a kind of [[operator-state correspondence]] modulo null operators:
+In summary, notice that this GNS construction constitutes a kind of [[operator-state correspondence]] modulo null-operators:
 
 $$
   \begin{array}{rcl}
@@ -403,7 +405,7 @@ $$
 ### For $C^\ast$-categories
  {#ForCStarCategories}
 
-The GNS construction for $C^\ast$-algebras is a special case of a more general construction of [Ghez, Lina & Roberts 1985, Prop. 1.9](#GhezLinaRoberts85) applied to [[C*-categories]] ([[horizontal categorification]] of $C^\ast$-algebras):
+The GNS construction for $C^\ast$-algebras is a special case of a more general construction of [Ghez, Lina & Roberts 1985, Prop. 1.9](#GhezLinaRoberts85) applied to [[C*-categories]] (the [[horizontal categorification]] of $C^\ast$-algebras):
 
 +--{: .num_theorem}
 ###### Theorem
