@@ -155,6 +155,8 @@ $$
 
 * [[direct product of groups]]
 
+* [[bicrossed product]]
+
 * [[free product of groups]]
 
 * [[central product of groups]]
