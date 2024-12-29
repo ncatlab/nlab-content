@@ -6,14 +6,12 @@
 +-- {: .hide}
 [[!include functional analysis - contents]]
 =--
-#### Algebraic Quantum Field Theory
+#### Algebraic Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
-
-
 
 
 #Contents#
@@ -30,7 +28,7 @@ $$
   \,,
 $$
 
---- by a [[vector]] $\psi \in \mathcal{H}$ in a [[complex numbers|complex]] [[Hilbert space]] $\mathcal{H}$ as the "[[expectation value]]"
+--- by a [[vector]] $\psi \in \mathcal{H}$ in a [[complex numbers|complex]] [[Hilbert space]] $\mathcal{H}_\rho$ as the "[[expectation value]]"
 
 $$
   \begin{aligned}
@@ -44,12 +42,14 @@ $$
 with respect to some [[star-representation]] 
 
 $$
-  \pi \;\colon\; \mathcal{A} \longrightarrow End(\mathcal{H})
+  \pi \;\colon\; \mathcal{A} \longrightarrow End(\mathcal{H}_\rho)
 $$
 
-of $\mathcal{A}$ on (a [[dense subspace]] of) $\mathcal{H}$; where $\langle -,-\rangle$ denotes the [[Hermitian form|Hermitian]] [[inner product]] on the [[Hilbert space]].
+of $\mathcal{A}$ on (a [[dense subspace]] of) $\mathcal{H}_\rho$; where $\langle -,-\rangle$ denotes the [[Hermitian form|Hermitian]] [[inner product]] on the [[Hilbert space]].
 
-Originally and typically by default this is considered for [[C*-algebras]] and [[C*-representations]] ([Gelfand & Naimark 1943](#GelfandNaimark43), [Segal 1947](#Segal47), see for instance [Schmüdgen 1990](#Schmuedgen90)), but the construction applies to general [[unital algebra|unital]] [[star algebras]] $\mathcal{A}$ ([Khavkine & Moretti 2015](#KhavkineMoretti15)) as well as to other [[coefficient]] [[rings]], such as to  [[formal power series algebras]] over $\mathbb{C}[ [\hbar] ]$ ([Bordemann & Waldmann 1996](#BordemannWaldmann96)). 
+It follows that every [[mixed state]]/[[density matrix]] on $\mathcal{H}_\rho$ gives another algebraic state on $\mathcal{A}$, and the states on $\mathcal{A}$ arising this way are called the **folium** of states corresponding to $\rho$. &lbrack;[Haag 1996 p 124](#Haag96), cf. [Moretti 2017 Def. 14.9](#Moretti17)&rbrack;.
+
+Originally and typically by default the GNS construction is considered for [[C*-algebras]] and [[C*-representations]] ([Gelfand & Naimark 1943](#GelfandNaimark43), [Segal 1947](#Segal47), cf. e.g. [Schmüdgen 1990](#Schmuedgen90)), but the construction applies to general [[unital algebra|unital]] [[star algebras]] $\mathcal{A}$ ([Khavkine & Moretti 2015](#KhavkineMoretti15)) as well as to other [[coefficient]] [[rings]], such as to  [[formal power series algebras]] over $\mathbb{C}[ [\hbar] ]$ ([Bordemann & Waldmann 1996](#BordemannWaldmann96)). 
 
 The GNS-construction plays a central role in [[algebraic quantum field theory]] (cf. [Haag 1996](#Haag96), [Moretti 2017](#Moretti17), [Khavkine & Moretti 2015](#KhavkineMoretti15)), where $\mathcal{A}$ plays the role of an [[algebra of observables]] and $\rho \colon \mathcal{A} \to \mathbb{C}$ the role of an actual [[state]] of a [[physical system]] (whence the terminology) jointly constituting the "[[Heisenberg picture]]"-perspective of [[quantum physics]]; so that the GNS-construction serves to re-construct a corresponding [[Hilbert space|Hilbert]] [[space of states]] as in the [[Schrödinger picture]] of quantum physics. In this context the version for [[C*-algebras]] corresponds to [[non-perturbative quantum field theory]], while the generalization to [[formal power series algebras]] corresponds to [[perturbative quantum field theory]].
 
@@ -459,13 +459,13 @@ Textbook accounts:
 
 in the context of [[algebraic quantum field theory]]:
 
-* {#Haag96} [[Rudolf Haag]], *[[Local  Quantum  Physics -- Fields,  Particles,  Algebras]]*, Texts  and  Monographs  in Physics, Springer (1996) &lbrack;[ISBN 978-3-642-61458-3] (https://www.springer.com/gp/book/9783540610496)&rbrack;
+* {#Haag96} [[Rudolf Haag]], pp 123 of: *[[Local  Quantum  Physics -- Fields,  Particles,  Algebras]]*, Texts  and  Monographs  in Physics, Springer (1996) &lbrack;[ISBN 978-3-642-61458-3] (https://www.springer.com/gp/book/9783540610496)&rbrack;
 
 * {#Moretti17} [[Valter Moretti]], §14.1.3-5 in: _Spectral Theory and Quantum Mechanics -- Mathematical Foundations of Quantum Theories, Symmetries and Introduction to the Algebraic Formulation_, Springer (2017) &lbrack;[doi:10.1007/978-3-319-70706-8](https://doi.org/10.1007/978-3-319-70706-8)&rbrack;
 
 Review with an eye towards [[quantum probability]] and [[entropy]]:
 
-* A. P. Balachandran, T. R. Govindarajan, Amilcar R. de Queiroz, A. F. Reyes-Lega, Section II of: _Algebraic approach to entanglement and entropy_, Phys. Rev. A 88, 022301 (2013) ([arXiv:1301.1300](http://arxiv.org/abs/1301.1300))
+* [[A. P. Balachandran]], T. R. Govindarajan, Amilcar R. de Queiroz, A. F. Reyes-Lega, Section II of: *Algebraic approach to entanglement and entropy*, Phys. Rev. A **88** (2013) 022301  &lbrack;[arXiv:1301.1300](http://arxiv.org/abs/1301.1300), [doi:10.1103/PhysRevA.88.022301](https://doi.org/10.1103/PhysRevA.88.022301)&rbrack;
 
 See also 
 
@@ -503,3 +503,7 @@ category: operator algebras
 [[!redirects GNS representation]]
 [[!redirects GNS-representation]]
 [[!redirects GNS theorem]]
+
+[[!redirects folium]]
+[[!redirects folia]]
+
