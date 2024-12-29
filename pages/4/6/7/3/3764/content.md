@@ -459,9 +459,9 @@ Textbook accounts:
 
 in the context of [[algebraic quantum field theory]]:
 
-* {#Haag96} [[Rudolf Haag]], *[[Local  Quantum  Physics -- Fields,  Particles,  Algebras]]*,  Texts  and  Monographs  in Physics. Springer (1996).
+* {#Haag96} [[Rudolf Haag]], *[[Local  Quantum  Physics -- Fields,  Particles,  Algebras]]*, Texts  and  Monographs  in Physics, Springer (1996) &lbrack;[ISBN 978-3-642-61458-3] (https://www.springer.com/gp/book/9783540610496)&rbrack;
 
-* {#Moretti17} [[Valter Moretti]], _Spectral Theory and Quantum Mechanics -- Mathematical Foundations of Quantum Theories, Symmetries and Introduction to the Algebraic Formulation_, Springer (2017) &lbrack;[doi:10.1007/978-3-319-70706-8](https://doi.org/10.1007/978-3-319-70706-8)&rbrack;
+* {#Moretti17} [[Valter Moretti]], §14.1.3-5 in: _Spectral Theory and Quantum Mechanics -- Mathematical Foundations of Quantum Theories, Symmetries and Introduction to the Algebraic Formulation_, Springer (2017) &lbrack;[doi:10.1007/978-3-319-70706-8](https://doi.org/10.1007/978-3-319-70706-8)&rbrack;
 
 Review with an eye towards [[quantum probability]] and [[entropy]]:
 
