@@ -260,7 +260,7 @@ The codensity monad $R/R: B \to B$, being a monad in $Rel$, is a [[preorder]]. T
 ## Properties
 
 \begin{proposition}
-  Let $G : B \to A$ be a functor admitting a codensity monad $T^G$ on $A$. The [[Kleisli category]] for $T^G$ has homs $Kl(T^G)(a, a') \cong [B^{op}, Set](B(a', G-), B(a, G-))$.
+  Let $G : B \to A$ be a functor admitting a codensity monad $T^G$ on $A$. The [[Kleisli category]] for $T^G$ has homs $Kl(T^G)(a, a') \cong [B, Set](B(a', G-), B(a, G-))$.
 \end{proposition}
 
 See [Bourn and Cordier 1980](#BC80), for instance.
