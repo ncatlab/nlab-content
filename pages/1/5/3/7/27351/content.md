@@ -56,8 +56,15 @@ Many general reviews of [[Chern-Simons theory]] have a section focused on the ab
 
 * [[Gregory Moore]], §2 in: *Introduction to Chern-Simons Theories*, TASI lecture notes (2019) &lbrack;[pdf](https://www.physics.rutgers.edu/~gmoore/TASI-ChernSimons-StudentNotes.pdf), [[Moore-IntroChern-Simons.pdf:file]]&rbrack;
 
-
 * David Grabovsky, §1 in: *Chern–Simons Theory in a Knotshell* (2022) &lbrack;[pdf](https://web.physics.ucsb.edu/~davidgrabovsky/files-notes/CS%20and%20Knots.pdf), [[Grabovsky-CSTheory.pdf:file]]&rbrack;
+
+
+On the [[light-cone quantization]] of abelian Chern-Simons theory:
+
+* Prem P. Srivastava: *Light-Front Dynamics of Chern-Simons Systems* &lbrack;[arXiv:hep-th/9412239](https://arxiv.org/abs/hep-th/9412239)&rbrack;
+
+* L. R. U. Manssur: *Canonical Quantization of Chern-Simons on the Light-Front*, Phys. Lett. B **480** (2000) 229-236 &lbrack;[arXiv:hep-th/9910127v1](https://arxiv.org/abs/hep-th/9910127), <a href="https://doi.org/10.1016/S0370-2693(00)00380-4">doi:10.1016/S0370-2693(00)00380-4</a>&rbrack;
+
 
 
 
