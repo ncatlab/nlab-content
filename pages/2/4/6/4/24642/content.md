@@ -20,7 +20,7 @@ On [[real oriented cohomology theory]] in general and in particular on [[Real co
 
 On generalization of the [[h-cobordism theorem]] to [[equivariant cobordism]]:
 
-* [[Shôrô Araki]], *Equivariant $s$-cobordism theorems*, J. Math. Soc.  Japan **40** 2 (1988) &lbrack;[pdf](file:///C:/Users/us13/Downloads/04020349-2.pdf)&rbrack;
+* [[Shôrô Araki]], Katsuo Kawakubo, *Equivariant $s$-cobordism theorems*, J. Math. Soc.  Japan **40** 2 (1988) &lbrack;[pdf](https://projecteuclid.org/journals/journal-of-the-mathematical-society-of-japan/volume-40/issue-2/Equivariant-s-cobordism-theorems/10.2969/jmsj/04020349.pdf)&rbrack;
 
 
 category: people
