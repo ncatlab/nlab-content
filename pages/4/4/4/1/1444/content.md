@@ -1,10 +1,23 @@
-#Idea#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+\tableofcontents
+
+## Idea
 
 The **bicrossed product**, also known as the **Zappa–Szép product**, generalizes the [[semidirect product]] of groups.
 
-This construction is essential to the [[quantum double construction]] of Drinfel'd.
+This construction is essential to the [[quantum double]] construction of Drinfel'd.
 
-#Definition#
+## Definition 
 
 Given a pair of matched groups $H$ and $K$, the bicrossed product of groups $H\times K$ on the set $H \times K$
 is given by
@@ -23,9 +36,9 @@ Need to define the bicrossed product of algebras.
 =--
 
 
-#References#
+## References
 
-C. Kassel, Quantum Groups, Graduate Texts in Mathematics 155, Springer-Verlag, New York-Berlin, 1995.
+* [[Christian Kassel]]: *Quantum groups*, Graduate Texts in Mathematics __155__, Springer (1995) &lbrack;[doi:10.1007/978-1-4612-0783-2](https://link.springer.com/book/10.1007/978-1-4612-0783-2), [webpage](http://www-irma.u-strasbg.fr/~kassel/QGbk.html), [errata pdf](http://www-irma.u-strasbg.fr/~kassel/QGerrata030399.pdf)&rbrack;
 
 [[!redirects bicrossed products]]
 [[!redirects matched group]]
