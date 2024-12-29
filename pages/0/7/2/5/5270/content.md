@@ -18,6 +18,10 @@ and making explicit the role of the [[configuration space of points]]:
 
 * {#FroehlichGabbianiMarchetti90} [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], [[Pieralberto Marchetti]], *Braid statistics in three-dimensional local quantum field theory*, in: H.C. Lee (ed.) *Physics, Geometry and Topology* NATO ASI Series, **238** Springer (1990)  $[$[doi:10.1007/978-1-4615-3802-8_2](https://doi.org/10.1007/978-1-4615-3802-8_2), [[FroehlichGabbianiMarchetti-BraidStatistics.pdf:file]]$]$
 
+On [[abelian Chern-Simons theory]] as an [[effective field theory]] for the [[fractional quantum Hall effect]]:
+
+* [[Jürg Fröhlich]], [[Anthony Zee]]: *Large scale physics of the quantum hall fluid*, Nuclear Physics B **364** 3 (1991) 517-540 \[<a href="https://doi.org/10.1016/0550-3213(91)90275-3">doi:10.1016/0550-3213(91)90275-3</a>\]
+
 
 On [[non-perturbative quantum field theory]]:
 
