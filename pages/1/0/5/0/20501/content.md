@@ -30,6 +30,12 @@ On [[quantum spin liquids]] as exhibiting [[topological order]]:
 
 On [[abelian Chern-Simons theory]] as an [[effective field theory]] for the [[fractional quantum Hall effect]]:
 
+* [[Xiao-Gang Wen]], [[Anthony Zee]]: *Quantum statistics and superconductivity in two spatial dimensions*, Nuclear Physics B -- Proceedings Supplements **15** (1990) 135-156 \[<a href="https://doi.org/10.1016/0920-5632(90)90014-L">doi:10.1016/0920-5632(90)90014-L</a>\]
+
+* [[Jürg Fröhlich]], [[Anthony Zee]]: *Large scale physics of the quantum hall fluid*, Nuclear Physics B **364** 3 (1991) 517-540 \[<a href="https://doi.org/10.1016/0550-3213(91)90275-3">doi:10.1016/0550-3213(91)90275-3</a>\]
+
+* [[Xiao-Gang Wen]], [[Anthony Zee]]: *Topological structures, universality classes, and statistics screening in the anyon superfluid*, Phys. Rev. B **44** (1991) 274 \[<a href="https://doi.org/10.1103/PhysRevB.44.274">doi:10.1103/PhysRevB.44.274</a>\]
+
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Classification of Abelian quantum Hall states and matrix formulation of topological fluids*, Phys. Rev. B **46** (1992) 2290 &lbrack;[doi:10.1103/PhysRevB.46.2290](https://doi.org/10.1103/PhysRevB.46.2290)&rbrack;
 
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Shift and spin vector: New topological quantum numbers for the Hall fluids*, Phys. Rev. Lett. **69** (1992) 953, Erratum Phys. Rev. Lett. **69** 3000 (1992) \[<a href="https://doi.org/10.1103/PhysRevLett.69.953">doi:10.1103/PhysRevLett.69.953</a>\]
