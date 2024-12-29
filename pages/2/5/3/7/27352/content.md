@@ -2,20 +2,35 @@
 ### Abelian Chern-Simons for frational quantum Hall effect
  {#ReferencesAbCSForFQHE}
 
-Introducing [[abelian Chern-Simons theory]] as an [[effective field theory]] exhibiting the [[fractional quantum Hall effect]] (abelian [[topological order]]):
+The idea of [[abelian Chern-Simons theory]] as an [[effective field theory]] exhibiting the [[fractional quantum Hall effect]] (abelian [[topological order]]) goes back to
 
 * [[Steven M. Girvin]], around (10.7.15) in: *Summary, Omissions and Unanswered Questions*, Chapter 10 of: *The Quantum Hall Effect*, Graduate Texts in Contemporary Physics, Springer (1986, 1990) \[<a href="https://doi.org/10.1007/978-1-4612-3350-3">doi:10.1007/978-1-4612-3350-3</a>\]
 
+* [[Steven M. Girvin]], A. H. MacDonald, around (10) of: *Off-diagonal long-range order, oblique confinement, and the fractional quantum Hall effect*, Phys. Rev. Lett. **58** 12 (1987) (1987) 1252-1255 \[<a href="https://doi.org/10.1103/PhysRevLett.58.1252">doi:10.1103/PhysRevLett.58.1252</a>\]
 
 * S. C. Zhang, T. H. Hansson S. Kivelson: *Effective-Field-Theory Model for the Fractional Quantum Hall Effect*, Phys. Rev. Lett. **62** (1989) 82 \[<a href="https://doi.org/10.1103/PhysRevLett.62.82">doi:10.1103/PhysRevLett.62.82</a>\]
+
+and was made more explicit in:
+
+* [[Xiao-Gang Wen]], [[Anthony Zee]]: *Quantum statistics and superconductivity in two spatial dimensions*, Nuclear Physics B -- Proceedings Supplements **15** (1990) 135-156 \[<a href="https://doi.org/10.1016/0920-5632(90)90014-L">doi:10.1016/0920-5632(90)90014-L</a>\]
+
+* B. Blok, [[Xiao-Gang Wen]]: *Effective theories of the fractional quantum Hall effect at generic filling fractions*, Phys. Rev. B **42** (1990) 8133 \[<a href="https://doi.org/10.1103/PhysRevB.42.8133">doi:10.1103/PhysRevB.42.8133</a>\]
+
+* Z. F. Ezawa, A. Iwazaki: *Chern-Simons gauge theories for the fractional-quantum-Hall-effect hierarchy and anyon superconductivity*, Phys. Rev. B **43** (1991) 2637 \[<a href="https://doi.org/10.1103/PhysRevB.43.2637">doi:10.1103/PhysRevB.43.2637</a>\] 
 
 * [[A. P. Balachandran]], A. M. Srivastava: *Chern-Simons Dynamics and the Quantum Hall Effect* \[<a href="https://arxiv.org/abs/hep-th/9111006">arXiv:hep-th/9111006</a>, [spire:319826](https://inspirehep.net/literature/319826)\]
 
 * Ana Lopez, [[Eduardo Fradkin]]: *Fractional quantum Hall effect and Chern-Simons gauge theories*, Phys. Rev. B **44** (1991) 5246 \[<a href="https://doi.org/10.1103/PhysRevB.44.5246">doi:10.1103/PhysRevB.44.5246</a>\]
 
+* [[Jürg Fröhlich]], [[Anthony Zee]]: *Large scale physics of the quantum hall fluid*, Nuclear Physics B **364** 3 (1991) 517-540 \[<a href="https://doi.org/10.1016/0550-3213(91)90275-3">doi:10.1016/0550-3213(91)90275-3</a>\]
+
+* [[Xiao-Gang Wen]], [[Anthony Zee]]: *Topological structures, universality classes, and statistics screening in the anyon superfluid*, Phys. Rev. B **44** (1991) 274 \[<a href="https://doi.org/10.1103/PhysRevB.44.274">doi:10.1103/PhysRevB.44.274</a>\]
+
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Classification of Abelian quantum Hall states and matrix formulation of topological fluids*, Phys. Rev. B **46** (1992) 2290 \[<a href="https://doi.org/10.1103/PhysRevB.46.2290">doi:10.1103/PhysRevB.46.2290</a>\]
 
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Shift and spin vector: New topological quantum numbers for the Hall fluids*, Phys. Rev. Lett. **69** (1992) 953, Erratum Phys. Rev. Lett. **69** 3000 (1992) \[<a href="https://doi.org/10.1103/PhysRevLett.69.953">doi:10.1103/PhysRevLett.69.953</a>\]
+
+* [[Xiao-Gang Wen]]: *Theory of Edge States in Fractional Quantum Hall Effects*, International Journal of Modern Physics B **06** 10 (1992) 1711-1762 \[<a href="https://doi.org/10.1142/S0217979292000840">doi:10.1142/S0217979292000840</a>\]
 
 
 Early review:
