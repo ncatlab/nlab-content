@@ -3,6 +3,8 @@ __Aiyalam Parameswaran Balachandran__ is an Indian-American theoretical physicis
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/A._P._Balachandran)
 
+* [inSpire page](https://inspirehep.net/authors/1017586)
+
 
 ## Selected writings
 
@@ -15,11 +17,11 @@ On the [[spin-statistics theorem]] for [[non-relativistic particles]] via the [[
 
 * [[Aiyalam P. Balachandran]], A. Daughton, Z. C. Gu, [[Giuseppe Marmo]], [[Rafael D. Sorkin]] *Spin statistics theorems without relativity or field theory*, Int. J. Mod. Phys. A **8** (1993) 2993-3044 &lbrack;[doi:10.1142/S0217751X93001223](https://doi.org/10.1142/S0217751X93001223)&rbrack;
 
-On the notion of [[entropy]] in [[quantum probability theory]]:
+Discussion of [[density matrices]], [[quantum entanglement]] and [[entropy]] in [[quantum probability]]/[[algebraic quantum field theory|algebraic quantum theory]], via the [[GNS construction]]:
 
-* [[A. P. Balachandran]], T. R. Govindarajan, Amilcar R. de Queiroz, A. F. Reyes-Lega, _Algebraic approach to entanglement and entropy_, Phys. Rev. A 88, 022301 (2013) ([arXiv:1301.1300](http://arxiv.org/abs/1301.1300))
+* [[A. P. Balachandran]], T. R. Govindarajan, Amilcar R. de Queiroz, A. F. Reyes-Lega, Section II of: *Algebraic approach to entanglement and entropy*, Phys. Rev. A **88** (2013) 022301  &lbrack;[arXiv:1301.1300](http://arxiv.org/abs/1301.1300), [doi:10.1103/PhysRevA.88.022301](https://doi.org/10.1103/PhysRevA.88.022301)&rbrack;
 
-* [[A. P. Balachandran]], A. R. de Queiroz, S. Vaidya, *Entropy of Quantum States: Ambiguities*, Eur. Phys. J. Plus 128, 112 (2013) ([arXiv:1212.1239](https://arxiv.org/abs/1212.1239), [doi:10.1140/epjp/i2013-13112-3](https://doi.org/10.1140/epjp/i2013-13112-3))
+* [[A. P. Balachandran]], A. R. de Queiroz, S. Vaidya, *Entropy of Quantum States: Ambiguities*, Eur. Phys. J. Plus **128** (2013) 112 &lbrack;[arXiv:1212.1239](https://arxiv.org/abs/1212.1239), [doi:10.1140/epjp/i2013-13112-3](https://doi.org/10.1140/epjp/i2013-13112-3)&rbrack;
 
 On [[fiber bundles in physics]]:
 
