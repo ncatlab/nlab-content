@@ -1555,14 +1555,15 @@ In relation to [[braid groups]]:
 
 * {#Birman75} [[Joan S. Birman]]: *Braids, links, and mapping class groups*, Princeton Univ Press (1975) &lbrack;[ISBN:9780691081496](https://press.princeton.edu/books/paperback/9780691081496/braids-links-and-mapping-class-groups-am-82-volume-82), [preview pdf](https://api.pageplace.de/preview/DT0400.9781400881420_A26691398/preview-9781400881420_A26691398.pdf)&rbrack;
 
-
-
 In relation to the [[space of finite subsets]]:
 
 * {#Handel00} David Handel, _Some Homotopy Properties of Spaces of Finite Subsets of Topological Spaces_, Houston Journal of Mathematics, Electronic Edition Vol. 26, No. 4, 2000 (<a href="https://www.math.uh.edu/~hjm/pdf26(4)/08handel.pdf">pdf</a>[hjm:Vol26-4](https://www.math.uh.edu/~hjm/Vol26-4.html))
 
 * {#FelixTanre2010} [[Yves Félix]], [[Daniel Tanré]] _Rational homotopy of symmetric products and Spaces of finite subsets_, Contemp. Math 519 (2010): 77-92 ([pdf](http://tanre.org/Pro/Articles_files/SpnFiniteDef.pdf))
 
+In relation to [[graph complexes]]:
+
+* [[Ricardo Campos]]: *Configuration Spaces of Points*, [CIM Bulletin **41** (2020)](https://www.cim.pt/magazines/bulletin/41) 41-47 &lbrack;[pdf](https://www.cim.pt/magazines/bulletin/41/article/296/pdf), [hal:03754254](https://hal.science/hal-03754254)&rbrack;
 
 The [[algebra over an operad|algebra]]-[[structure]] of configuration spaces over [[little n-disk operads]]/[[Fulton-MacPherson operads]]:
 
@@ -1571,6 +1572,8 @@ The [[algebra over an operad|algebra]]-[[structure]] of configuration spaces ove
 On topological complexity of [[configuration space]]:
 
 * {#FarberGrant08} [[Michael Farber]], [[Mark Grant]], _Topological Complexity of the Klein bottle_ (2008), [arXiv:0806.4111](https://arxiv.org/pdf/0806.4111.pdf)
+
+
 
 ### Cohomotopy charge map
  {#ReferencesCohomotopyChargeMap}
