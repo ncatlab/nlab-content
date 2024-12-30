@@ -1,5 +1,9 @@
 
-* [webpage](http://theory.caltech.edu/~tdd/)
+* [personal page](https://www.dimoftelab.com/)
+
+* [inSpire page](https://inspirehep.net/authors/1056098)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=cGUE99UAAAAJ&hl=en)
 
 ## Selected writings
 
