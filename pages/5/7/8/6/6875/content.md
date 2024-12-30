@@ -14,7 +14,7 @@ There is also another early article from Rota:
 
 For the basic intuition for Hopf algebras in combinatorics see the chapter 5 of [[S. Majid]]'s _Foundation of quantum group theory_. Nowadays the major book on combinatorial Hopf algebras is
 
-* [[Marcelo Aguiar]], Swapneel Mahajan, _[[Monoidal Functors, Species and Hopf Algebras]]_, With forewords by [[Kenneth Brown]], Stephen Chase and [[André Joyal]]. CRM Monograph Series __29__ Amer. Math. Soc. 2010. lii+784 pp. ([pdf draft](http://www.math.cornell.edu/~maguiar/a.pdf))
+* [[Marcelo Aguiar]], Swapneel Mahajan, _[[Monoidal Functors, Species and Hopf Algebras]]_, With forewords by [[Kenneth Brown]], Stephen Chase and [[André Joyal]]. CRM Monograph Series __29__ Amer. Math. Soc. 2010. lii+784 pp. ([pdf draft](https://pi.math.cornell.edu/~maguiar/a.pdf))
 
 Other references include:
 
