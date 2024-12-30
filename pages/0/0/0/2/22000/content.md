@@ -51,4 +51,4 @@ The constructive axiom by the same name is discussed in:
 
 * {#Rathjen} Rathjen, "Choice principles in constructive and classical set theories"
 
-category: foundational axiom
+category: foundational axiom, logic
