@@ -60,7 +60,7 @@ may be [[deduction|deduced]]; the converse is the rule of [[modus ponens]].  (Ac
 
 Detailed discussion of the difference between judgements in the metalanguage and propositions in the object language is in the foundational lectures
 
-* [[Per Martin-Löf]], _On the meaning of logical constants and the justifications of the logical laws_, leture series in Siena (1983) ([web](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf))
+* [[Per Martin-Löf]], _On the meaning of logical constants and the justifications of the logical laws_, lecture series in Siena (1983) ([web](https://ncatlab.org/nlab/files/MartinLofOnTheMeaning96.pdf))
  {#Martin-L&#246;f83}
 
 
