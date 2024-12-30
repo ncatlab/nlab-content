@@ -1,7 +1,9 @@
 
-* [webpage](http://www.theory.caltech.edu/~preskill/)
+* [personal page](https://www.preskill.caltech.edu/)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/John_Preskill)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=K2BMBtcAAAAJ&hl=en)
 
 ## Selected writings
 
