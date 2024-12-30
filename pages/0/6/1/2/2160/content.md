@@ -1,19 +1,46 @@
-Euler's __dilogarithm__ is a complex valued function $Li_2$ given by
+
+\tableofcontents
+
+
+## Idea
+
+[[Leonhard Euler|Euler]]'s __dilogarithm__ is a [[complex numbers|complex]]-valued function $Li_2$ given by the [[series]]
 
 $$
-Li_2(x) = \sum_{n=1}^\infty \frac{x^n}{n^2}
+  Li_2(x) 
+  \;\coloneqq\; 
+  \sum_{n=1}^\infty \frac{x^n}{n^2}
 $$
 
 The dilogarithm is a special case of the [[polylogarithm]] $Li_n$. The __Bloch--Wigner dilogarithm__ is defined by
 
-$$ D(z) := Im(Li_2(z)) + arg(1-z) log |z| $$
+$$ 
+  D(z) 
+    \;\coloneqq\; 
+  Im\big(
+    Li_2(z)
+  \big) 
+    + 
+  arg(1-z) log \left\vert z \right\vert 
+  \,.
+$$
 
-The dilogarithm has remarkable relations to many areas of mathematics and [[mathematical physics]] including [[scissors congruence]], [[Reidemeister torsion]], [[regulator]]s in higher [[algebraic K-theory]], the Bloch group, [[CFT]], [[Liouville gravity]], [[hyperbolic geometry]] and [[cluster transformation]]s.  
+The dilogarithm has remarkable relations to many areas of mathematics and [[mathematical physics]] including [[scissors congruence]], [[Reidemeister torsion]], [[regulator]]s in higher [[algebraic K-theory]], the Bloch group, [[CFT]], [[Liouville gravity]], [[hyperbolic geometry]] and [[cluster transformations]].  
 
-See also the references at [mathworld](http://mathworld.wolfram.com/Dilogarithm.html)
-and P.P. Cook's [blog](http://ppcook.blogspot.com/2005/12/dilogarithms.html) and the related entry [[quantum dilogarithm]].
+## Related entries
 
-* Don Zagier, _The dilogarithm function_, in Frontiers in Number Theory, Physics, and Geometry II, pp. 3--35 (2007) [MR2290758](http://www.ams.org/mathscinet-getitem?mr=2290758) [doi:10.1007/978-3-540-30308-4](http://dx.doi.org/10.1007/978-3-540-30308-4) [preprint pdf](http://maths.dur.ac.uk/~dma0hg/dilog.pdf); _Polylogarithms, Dedekind zeta functions, and the algebraic K-theory of fields_, in Arithmetic Algebraic Geometry, Progr. Math. __89__, Birkh&#228;user, Boston, 1990, 391&#8211;430 [MR1085270](http://www.ams.org/mathscinet-getitem?mr=1085270)
+* [[quantum dilogarithm]]
+
+## References
+
+* Wikipedia: *[Dilogarithm](https://en.wikipedia.org/wiki/Dilogarithm)*
+
+* Mathworld: [Dilogarithm](http://mathworld.wolfram.com/Dilogarithm.html)
+
+* [[Paul P. Cook]]: [dilogarithms](http://ppcook.blogspot.com/2005/12/dilogarithms.html).
+
+
+* [[Don Zagier]], _The dilogarithm function_, in Frontiers in Number Theory, Physics, and Geometry II, pp. 3--35 (2007) [MR2290758](http://www.ams.org/mathscinet-getitem?mr=2290758) [doi:10.1007/978-3-540-30308-4](http://dx.doi.org/10.1007/978-3-540-30308-4) [preprint pdf](http://maths.dur.ac.uk/~dma0hg/dilog.pdf); _Polylogarithms, Dedekind zeta functions, and the algebraic K-theory of fields_, in Arithmetic Algebraic Geometry, Progr. Math. __89__, Birkh&#228;user, Boston, 1990, 391&#8211;430 [MR1085270](http://www.ams.org/mathscinet-getitem?mr=1085270)
 
 * A. N. Kirillov, _Dilogarithm identities_, Progr. Theoret. Phys. Suppl. 118 (1995), 61&#8211;142 [hep-th/9408113](http://arxiv.org/abs/hep-th/9408113)
 [MR1356515](http://www.ams.org/mathscinet-getitem?mr=1356515) [doi](http://dx.doi.org/10.1143/PTPS.118.61); _Identities for the Rogers dilogarithm function connected with simple Lie algebras_, J. Soviet Math. 47 (1989), 2450&#8211;2458.
@@ -36,4 +63,12 @@ and P.P. Cook's [blog](http://ppcook.blogspot.com/2005/12/dilogarithms.html) and
 
 * E. Aldrovandi, _On hermitian-holomorphic classes related to uniformization, the dilogarithm, and the Liouville action_, Commun. Math. Phys. (2004) 251: 27. [doi](https://doi.org/10.1007/s00220-004-116
 
+In relation to [[abelian Chern-Simons theory]]:
+
+* [[Daniel S. Freed]], [[Andrew Neitzke]]: *The dilogarithm and abelian Chern-Simons*, J. Differential Geom. **123**  2  (2023) 241-266 &lbrack;[arXiv:2006.12565](https://arxiv.org/abs/2006.12565), [doi:10.4310/jdg/1680883577](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-123/issue-2/The-dilogarithm-and-abelian-ChernSimons/10.4310/jdg/1680883577.short)&rbrack;
+
+
 category: analysis, physics
+
+[[!redirects dilogarithms]]
+
