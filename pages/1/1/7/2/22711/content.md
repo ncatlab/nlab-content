@@ -50,11 +50,13 @@ Accordingly, the role that the [[braid group]] plays in [[3d TQFTs]] such as [[C
 
 Original articles on motion groups:
 
-* {#Dahm62} D. Dahm, *A generalization of braid theory*, PhD thesis, Princeton University, 1962.
+* {#Dahm62} D. Dahm, *A generalization of braid theory*, PhD thesis, Princeton University (1962)
 
-* {#Goldsmith81} Deborah L. Goldsmith, *The theory of motion groups*, Michigan Math. J. 28(1): 3-17 (1981) ([doi:10.1307/mmj/1029002454](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-28/issue-1/The-theory-of-motion-groups/10.1307/mmj/1029002454.full))
+* {#Goldsmith81} [[Deborah L. Goldsmith]]: *The theory of motion groups*, Michigan Math. J. **28** 1 (1981) 3-17 &lbrack;[doi:10.1307/mmj/1029002454](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-28/issue-1/The-theory-of-motion-groups/10.1307/mmj/1029002454.full)&rbrack;
 
 Specifically on the loop braid group:
+
+* [[Deborah L. Goldsmith]]: *Motion of Links in the 3-Sphere*, Mathematica Scandinavica **50** 2 (1982) 167-205 &lbrack;[jstor:24491407](https://www.jstor.org/stable/24491407)&rbrack;
 
 * [[Xiao-Song Lin]], *The motion group of the unlink and its representations*, in: 
 
