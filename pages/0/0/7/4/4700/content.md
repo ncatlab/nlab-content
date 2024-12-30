@@ -1701,6 +1701,10 @@ The rough definition of the graph complex, and its relation to [[Chern-Simons th
 
 * Marko Berghoff, _Graph complexes from the geometric viewpoint_, [arXiv](https://arxiv.org/abs/2312.11237).
 
+In relation to [[configuration spaces of points]]:
+
+* [[Ricardo Campos]]: *Configuration Spaces of Points*, [CIM Bulletin **41** (2020)](https://www.cim.pt/magazines/bulletin/41) 41-47 &lbrack;[pdf](https://www.cim.pt/magazines/bulletin/41/article/296/pdf), [hal:03754254](https://hal.science/hal-03754254)&rbrack;
+
 
 ### As a rational model for configuration spaces
 
