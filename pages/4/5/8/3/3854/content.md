@@ -30,7 +30,9 @@ On [[boundary conditions]] for [[abelian Chern-Simons theory]]:
 
 * [[Anton Kapustin]], [[Natalia Saulina]]: *Topological boundary conditions in abelian Chern-Simons theory*, Nucl. Phys. B **845** (2011) 393-435 &lbrack;[arXiv:1008.0654](https://arxiv.org/abs/1008.0654), [doi:10.1016/j.nuclphysb.2010.12.017](https://doi.org/10.1016/j.nuclphysb.2010.12.017)&rbrack;
 
+On [[surface]]-[[defect field theory|defects]] in ([[abelian Chern-Simons theory|abelian]]) [[Chern-Simons theory]] and [[rational 2d conformal field theory]]:
 
+* [[Anton Kapustin]], [[Natalia Saulina]]: *Surface operators in 3d TFT and 2d Rational CFT*, in: [[Hisham Sati]], [[Urs Schreiber]] (eds.), *[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]*, Proceedings of Symposia in Pure Mathematics **83**, AMS (2011) &lbrack;[arXiv:1012.0911](http://arxiv.org/abs/1012.0911), [ams:pspum-83](https://bookstore.ams.org/pspum-83)&rbrack;
 
 
 On [[generalized global symmetries]]:
