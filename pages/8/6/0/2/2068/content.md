@@ -101,7 +101,7 @@ This is due to ([Gabriel-Zisman 67, IV.2, prop. 2.2](#GabrielZisman67)). The arg
 +-- {: .num_remark}
 ###### Remark
 
-Prop. \ref{PushoutProductOfSimplicialCofibrationWithAcyclicCOfibIsAcyclic} is the key lemma which implies (is effectively equivalent to) the statement that the [[classical model structure on simplicial sets]] is an [[enirched model category]] over itself.
+Prop. \ref{PushoutProductOfSimplicialCofibrationWithAcyclicCOfibIsAcyclic} is the key lemma which implies (is effectively equivalent to) the statement that the [[classical model structure on simplicial sets]] is an [[enriched model category]] over itself.
 
 =--
 
