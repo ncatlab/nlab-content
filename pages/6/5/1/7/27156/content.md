@@ -24,6 +24,10 @@ Discussion of [[large 1/N limit|small N]] effects in [[M-theory]] using the [[co
 
 * [[Shai M. Chester]], Ross Dempsey, [[Silviu S. Pufu]]: *Higher-derivative corrections in M-theory from precision numerical bootstrap* &lbrack;[arXiv:2412.14094](https://arxiv.org/abs/2412.14094)&rbrack;
 
+Discussion of ([[abelian Chern-Simons theory|abelian]]) [[Chern-Simons theory]] on [[M5-branes]]:
+
+* [[Márk Mezei]], [[Silviu S. Pufu]], Yifan Wang: *Chern-Simons theory from M5-branes and calibrated M2-branes*,  J. High Energ. Phys. **2019** 165 (2019) \[<a href="https://doi.org/10.1007/JHEP08(2019)165">doi:10.1007/JHEP08(2019)165</a>, [arXiv:1812.07572](https://arxiv.org/abs/1812.07572)\]
+
 
 category: people
 
