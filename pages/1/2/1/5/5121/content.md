@@ -17,7 +17,7 @@ This entry is about the book
 
   [ISBN:978-0-8218-4776-3](https://bookstore.ams.org/crmm-29/)
 
-  [pdf](http://www.math.cornell.edu/~maguiar/a.pdf)
+  [pdf](https://pi.math.cornell.edu/~maguiar/a.pdf)
 
 
 
