@@ -1,6 +1,11 @@
 
 * [personal page](https://physics.mcmaster.ca/~cburgess/cburgess/)
 
+* [inSpire page](https://inspirehep.net/authors/1014953)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=rZkwAnYAAAAJ&hl=en)
+
+
 ## Selected writings
 
 On [[partial differential equations]] appearing in [[mathematical physics]] and their solution by [[special functions]] ([[hypergeometric functions]]):
@@ -17,6 +22,16 @@ On [[supergravity]] [[phenomenology]] in relation to [[dark energy]]/[[cosmologi
 
 * Y. Aghababaie, [[Cliff P. Burgess]], S.L. Parameswaran, [[Fernando Quevedo]]: *Towards a Naturally Small Cosmological Constant from Branes in 6D Supergravity*,   Nucl. Phys.  B **680** (2004) 389-414 &lbrack;[arXiv:hep-th/0304256](https://arxiv.org/abs/hep-th/0304256), [doi:10.1016/j.nuclphysb.2003.12.015](https://doi.org/10.1016/j.nuclphysb.2003.12.015)&rbrack;
 
+On [[effective field theory]]:
+
+* [[Cliff P. Burgess]]: *Introduction to effective field theory*, Ann. Rev. Nucl. Part. Sci. **57** (2007) 329-362 &lbrack;[arXiv:hep-th/0701053](https://arxiv.org/abs/hep-th/0701053), [doi:10.1146/annurev.nucl.56.080805.140508](https://doi.org/10.1146/annurev.nucl.56.080805.140508)&rbrack;
+
+On the [[standard model of particle physics]]:
+
+* [[Cliff Burgess]], Guy Moore: *The Standard Model -- A Primer*, Cambridge University Press (2011) &lbrack;[doi:10.1017/CBO9780511819698](https://doi.org/10.1017/CBO9780511819698), [pdf](https://physics.mcmaster.ca/~cburgess/Book/Ch1-6SnippetSM.pdf)&rbrack;
+
+
+* [[Cliff P. Burgess]]: *Introduction to effective field theory*, Cambridge University Press (2020) &lbrack;[ISBN:9781139048040](https://www.cambridge.org/core/books/introduction-to-effective-field-theory/A9CDB35F4AA7921E3A9CFD573EBA8B64), ch. 1-6: [pdf](https://physics.mcmaster.ca/~cburgess/Book/Ch1-6SnippetEFT.pdf)&rbrack;
 
 On the [[phenomenology]] of [[supergravity]] coupled to the (non-supersymmetric) [[standard model of particle physics]]:
 
@@ -26,3 +41,4 @@ On the [[phenomenology]] of [[supergravity]] coupled to the (non-supersymmetric)
 category: people
 
 [[!redirects Cliff Burgess]]
+
