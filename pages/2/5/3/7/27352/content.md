@@ -52,6 +52,10 @@ For discussion of the [[fractional quantum Hall effect]] via [[abelian Chern-Sim
 
 * see [there](quantum+Hall+effect#ReferencesNoncommutativeGeometryOfFQHE).
 
+On edge modes:
+
+* {#Levin13} [[Michael Levin]]: *Protected edge modes without symmetry*, Phys. Rev. X **3** 021009 (2013) \[<a href="https://doi.org/10.1103/PhysRevX.3.021009">doi:10.1103/PhysRevX.3.021009</a>, [arXiv:1301.7355](https://arxiv.org/abs/1301.7355)\]
+
 
 Further developments:
 
