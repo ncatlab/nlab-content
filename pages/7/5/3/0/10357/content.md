@@ -23,7 +23,7 @@ On [[super anti-de Sitter spacetime|super-$AdS_4$]] (as in [[AdS4/CFT3-duality]]
 
 On [[abelian Chern-Simons theory]]:
 
-* Diego Delmastro, [[Jaume Gomis]]: *Symmetries of Abelian Chern-Simons Theories and Arithmetic*, J. High Energ. Phys. **2021** 6 (2021) &lbrack;<a href="https://doi.org/10.1007/JHEP03(2021)006">doi:10.1007/JHEP03(2021)006</a>,[arXiv:1904.12884](https://arxiv.org/abs/1904.12884)&rbrack;
+* Diego Delmastro, [[Jaume Gomis]]: *Symmetries of Abelian Chern-Simons Theories and Arithmetic*, J. High Energ. Phys. **2021** 6 (2021) &lbrack;<a href="https://doi.org/10.1007/JHEP03(2021)006">doi:10.1007/JHEP03(2021)006</a>, [arXiv:1904.12884](https://arxiv.org/abs/1904.12884)&rbrack;
 
 
 category: people
