@@ -27,6 +27,21 @@ By *abelian Chern-Simons theory* one means [[Chern-Simons theory]] with [[abelia
 
 One major application of abelian Chern-Simons theory is as an [[effective field theory]] of the [[fractional quantum Hall effect]].
 
+## Properties
+
+### Space of states
+
+For abelian Chern-Simons theory with $N$ field species and [[Lagrangian density]] of the form $K^{i j} A_i \wedge \mathrm{d} A_j$ for $K$ an $N \times N$ [[symmetric matrix]], the [[dimension of a vector space|dimension]] of the [[Hilbert space|Hilbert]] [[space of quantum states]] $\mathscr{H}_g$ obtained by [[geometric quantization]] over a [[surface]] of [[genus of a surface|surface]] $g$ (cf. *[[quantization of D=3 Chern-Simons theory]]*) is supposed to be
+
+$$ 
+  dim(\mathscr{H}_g)
+  \;=\;
+  \left\vert det(K)\right\vert^g
+  \,.
+$$
+
+([Belov & Moore 2005 p 26](#BelovMoore05))
+
 
 ## References
 
@@ -43,7 +58,7 @@ One major application of abelian Chern-Simons theory is as an [[effective field 
 
 * Mihaela Manoliu: *Abelian Chern-Simons theory. II: A functional integral approach*, J. Math.Phys. **39** (1998) 207-217 &lbrack;[doi:10.1063/1.532312](https://doi.org/10.1063/1.532312)&rbrack;
 
-* Dmitriy Belov, [[Gregory W. Moore]]: *Classification of abelian spin Chern-Simons theories* &lbrack;[arXiv:hep-th/0505235](https://arxiv.org/abs/hep-th/0505235)&rbrack;
+* {#BelovMoore05} Dmitriy Belov, [[Gregory W. Moore]]: *Classification of abelian spin Chern-Simons theories* &lbrack;[arXiv:hep-th/0505235](https://arxiv.org/abs/hep-th/0505235)&rbrack;
 
 * Spencer D. Stirling: *Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories*, PhD thesis, Austin (2008) &lbrack;[arXiv:0807.2857](http://arxiv.org/abs/0807.2857), [pdf](http://www.spencerstirling.com/papers/thesis_official.pdf), [ProQuest](https://www.proquest.com/docview/304474017?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses)&rbrack;
 
@@ -69,6 +84,9 @@ On [[boundary conditions]] and line-[[defect field theory|defects]] in abelian C
 * {#KapustinSaulina} [[Anton Kapustin]], [[Natalia Saulina]],  §3 in: *Surface operators in 3d TFT and 2d Rational CFT*, in: [[Hisham Sati]], [[Urs Schreiber]] (eds.), *[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]*, Proceedings of Symposia in Pure Mathematics **83**, AMS (2011) &lbrack;[arXiv:1012.0911](http://arxiv.org/abs/1012.0911), [ams:pspum-83](https://bookstore.ams.org/pspum-83)&rbrack;
 
 * [Levin 2013](#Levin13)
+
+* [[Anton Kapustin]]: *Ground-state degeneracy for abelian anyons in the presence of gapped boundaries*, Phys. Rev. B **89** (2014) 125307  &lbrack;[arXiv:1306.4254](https://arxiv.org/abs/1306.4254), [doi:10.1103/PhysRevB.89.125307](https://doi.org/10.1103/PhysRevB.89.125307)&rbrack;
+
 
 In relation to the [[dilogarithm]]:
 
