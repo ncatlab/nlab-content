@@ -3742,7 +3742,7 @@ See also:
 
 As an example of motion general "motion groups" (such as [[loop braid groups]]):
 
-* {#Goldsmith81} Deborah L. Goldsmith, *The theory of motion groups*, Michigan Math. J. 28(1): 3-17 (1981) ([doi:10.1307/mmj/1029002454](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-28/issue-1/The-theory-of-motion-groups/10.1307/mmj/1029002454.full))
+* {#Goldsmith81} [[Deborah L. Goldsmith]], *The theory of motion groups*, Michigan Math. J. **28** 1 (1981) 3-17 &lbrack;[doi:10.1307/mmj/1029002454](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-28/issue-1/The-theory-of-motion-groups/10.1307/mmj/1029002454.full)&rbrack;
 
 
 
