@@ -238,6 +238,7 @@ See also:
 
 * Wei Gu, Jirui Guo, Leonardo Mihalcea, Yaoxiong Wen, Xiaohan Yan, *A correspondence between the quantum K theory and quantum cohomology of Grassmannians* &lbrack;[arXiv:2406.13739](https://arxiv.org/abs/2406.13739)&rbrack;
 
+* Peter Koroteev, Andrey Smirnov: *On the Quantum K-theory of Quiver Varieties at Roots of Unity* &lbrack;[arXiv:2412.19383](https://arxiv.org/abs/2412.19383)&rbrack;
 
 
 
