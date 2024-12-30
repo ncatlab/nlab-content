@@ -286,7 +286,7 @@ The Cauchy completion of the Boolean cube category is the category [[FinSet]]$_+
 
 ### As test categories
 
-All of the cube categories described above are [[test categories]] ([Buchholtz & Morehouse 2017](#BuchholtzMorehouse2017)).
+Many (perhaps all) of the cube categories described above are [[test categories]] ([Buchholtz & Morehouse 2017](#BuchholtzMorehouse2017)).
 Hence their categories of [[cubical sets]] model [[homotopy types]].
 Cube categories with connections or diagonals are generally [[strict test categories]], while the ordered and symmetric cube categories are not.
 See _[[model structure on cubical sets]]_ and _[[connection on a cubical set]]_ for more details.
