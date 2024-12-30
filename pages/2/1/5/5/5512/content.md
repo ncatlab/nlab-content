@@ -138,6 +138,44 @@ $$
 
 The [[projection formula]] also holds in a [[Grothendieck context]] or a [[Verdier-Grothendieck context]] ([May 05](#May05)).
 
+### In weak factorization systems
+ {#InWeakFactorizationSystems} 
+
+A [[weak factorization system]] $(\mathcal{L},\mathcal{R})$ on a [[finitely complete category]] is said to satisfy the **Frobenius condition** when $\mathcal{L}$ is closed under [[pullback]] (i.e.,  [[base change]]) along morphisms in $\mathcal{R}$.
+
+The property seems to have been named by [Van den Berg and Garner (2012)](#VanDenBergGarner2012).
+This usage is related to [Frobenius reciprocity for adjoint functors](#InCategoryTheory) by the following observation ([Clementino, Giuli & Tholen 1996, Proposition 1.3](#ClementinoGiuliTholen1996)):
+
++-- {: .num_prop}
+###### Proposition
+
+An [[orthogonal factorization system|proper orthogonal factorization system]] $(\mathcal{E},\mathcal{M})$ in a finitely complete category $\mathcal{C}$ satisfies the Frobenius condition if and only if for all $f \colon X \to Y$, the adjunction $Sub_{\mathcal{M}}(X) : f_! \dashv f^* : Sub_{\mathcal{M}}(Y)$ satisfies the Frobenius condition (where $Sub_{\mathcal{M}}(X)$ is the poset of subobjects of $X$ in $\mathcal{M}$, $f^*$ is pullback along $f$, and $f_!$ sends $m$ to the $\mathcal{M}$ part of the factorization of $f m$).
+
+=--
+
+When the category is [[locally cartesian closed category|locally cartesian closed]], the Frobenius condition has an equivalent formulation in terms of [[dependent product]]:
+
++-- {: .num_prop}
+###### Proposition
+
+A weak factorization system $(\mathcal{L},\mathcal{R})$ on a [[locally cartesian closed category]] $\mathcal{C}$ satisfies the Frobenius condition if and only if for every $f : Y \to X$ in $\mathcal{R}$ and $g : Z \to Y$ in $\mathcal{R}$, the [[dependent product]] $\prod_f g \to X$ is in $\mathcal{R}$.
+
+=--
+
+In [[categorical models of dependent type theory]] where types are interpreted as maps in a right class (as in ([Van den Berg & Garner 2012](#VanDenBergGarner2012))), the Frobenius condition can thus be used to interpret [[dependent product types]].
+See for example ([Kapulkin & Lumsdaine 2021, Lemma 2.3.1](#KapulkinLumsdaine2021)).
+
+In the context of [[Quillen model categories]], the Frobenius condition is related to [[proper model category|right properness]] ([Gambino & Sattler 2017](#GambinoSattler2017)):
+
++-- {: .num_prop}
+###### Proposition
+
+A [[Quillen model category]] whose [[cofibrations]] are closed under pullback is [[proper model category|right proper]] if and only if its (trivial cofibration, fibration) weak factorization system satisfies the Frobenius condition.
+
+=--
+
+A model category which has cofibrations closed under pullback and a (trivial cofibration, fibration) wfs satisfying the Frobenius condition is a [[locally cartesian closed model category]] and thus presents a [[locally cartesian closed (∞,1)-category]].
+
 ## Properties
 
 ### Closed monoidal functors and the projection formula
@@ -369,6 +407,15 @@ Further MO discussion includes
 
 * [Wrong-way Frobenius reciprocity for finite groups representations](http://mathoverflow.net/questions/132272/wrong-way-frobenius-reciprocity-for-finite-groups-representations)
 
+Relating to the Frobenius condition for weak factorization systems:
+
+* {#ClementinoGiuliTholen1996} [[Maria Manuel Clementino]], Eraldo Giuli, [[Walter Tholen]], *Topology in a category: compactness*, Portugaliae Mathematica **53**(4) 397--433 (1996) &lbrack;[url](https://www.emis.de/journals/PM/53f4/2.html)&rbrack;
+
+* {#VanDenBergGarner2012} [[Benno van den Berg]], [[Richard Garner]], *Topological and Simplicial Models of Identity Types*, ACM Transactions on Computational Logic (TOCL) **13**(1) 1--44 (2012) &lbrack;[doi:10.1145/2071368.207137](https://www.emis.de/journals/PM/53f4/2.html),[arXiv:1007.4638](https://arxiv.org/abs/1007.4638)&rbrack;
+
+* {#GambinoSattler2017} [[Nicola Gambino]] and [[Christian Sattler]], *The Frobenius condition, right properness, and uniform ﬁbrations*, Journal of Pure and Applied Algebra **221** (2017). &lbrack;[doi:10.1016/j.jpaa.2017.02.013](https://dx.doi.org/10.1016/j.jpaa.2017.02.013),[arXiv:1510.00669](https://arxiv.org/abs/1510.00669)&rbrack; -- beware of section numbering discrepancy between the published and arXiv versions.
+
+* {#KapulkinLumsdaine2021} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *The Simplicial Model of Univalent Foundations (after Voevodsky)*, Journal of the European Mathematical Society **23** (2021) 2071–2126  $[$[arXiv:1211.2851](https://arxiv.org/abs/1211.2851), [doi:10.4171/jems/1050](https://doi.org/10.4171/jems/1050)$]$
 
 [[!redirects Frobenius reciprocity]]
 [[!redirects Frobenious reciprocity]]
