@@ -22,18 +22,15 @@
 ## Idea
  {#Idea}
 
-In [[constructive mathematics]] (originally: [[intuitionistic logic]]), the *BHK interpretation* of [[logical connectives]] (due to [Kolmogorov (1932, p. 59)](#Kolmogorov32), [Troelstra (1969, §2)](#Troelstra69), see the comments on attribution [below](#Attribution)) is such that the resulting [[proposition]] is regarded as [[true]] only if it is possible to [[constructive mathematics|construct]] a [[proof]] of its [[assertion]]. 
-
-For instance, to assert a [[logical conjunction]] ("and") or a [[universal quantification]] ("for all") is taken to mean to provide a proof of all the instances.
-
-Dually but more notably, to assert a [[logical disjunction]] ("or") or an [[existential quantification]] ("exists") is taken to mean to prove one of the instances, so that there is no intuitionistic existence statement without construction of an example (the "disjunction property", see [there](intuitionistic+logic#DisjunctionProperty)).
+In [[constructive mathematics]] (originally: [[intuitionistic logic]]), the *BHK interpretation* of [[logical connectives]] (due to [Kolmogorov (1932, p. 59)](#Kolmogorov32), [Troelstra (1969, §2)](#Troelstra69), see the comments on attribution [below](#Attribution)) is such that the resulting [[proposition]] is regarded as [[true]] only if it is possible to [[constructive mathematics|construct]] a [[proof]] of its [[assertion]].
+ 
+For instance, to assert a [[logical conjunction]] ("and") or a [[universal quantification]] ("for all") is taken to mean to provide a proof for all the instances.
+Dually, but more notably, to assert a [[logical disjunction]] ("or") or an [[existential quantification]] ("exists") is taken to mean to prove one of the instances, so that there is no intuitionistic existence statement without construction of an example (the "disjunction property", see [there](intuitionistic+logic#DisjunctionProperty)).
 
 This constructive interpretation of logical truth is the crux of the rejection of the [[principle of excluded middle]] in [[intuitionism]]/[[constructive mathematics]], for it implies that to prove $P \vee (\not P)$ (which may superficially/classically seem tautologous) one must prove $P$ or one must prove $\not P$ --- but neither proof may be known (e.g. if $P$ = [[Riemann hypothesis]]). 
-
 (Here the classical mathematician is regarded as "idealistic" in their assumption that either case must hold, even if it is impossible to tell which one.)
 
 In short this means that a proposition is regarded a [[true]] if there is an [[algorithm]], hence a [[computable function]],  to realize its [[proof]] whence one also speaks of the *[[realizability]] interpretation*. 
-
 Closely related to the point of being synonymous is the paradigm of *[[propositions as types]]* and *[[proofs as programs]]*, also known as the *[[Curry-Howard correspondence]]* in [[type theory]]. 
 
 Indeed, the fully formal version of the BHK interpretation may be understood as being the [[inference rules]], specifically the [[term introduction rules]], of [[intuitionistic type theory]] (as amplified in [Girard (1989, §2)](#Girard89) and [Martin-Löf (1996, Lec 3)](#MartinLöf96)).
