@@ -347,7 +347,7 @@ This includes in particular all ([[∞-stack]]-) [[(∞,1)-toposes]] (which shou
 
 =--
 
-Some form of this statement was originally formally conjectured in ([Joyal 11](Joyal11)), following ([Awodey 10](#Awodey10)). For more details see at _[locally cartesian closed (∞,1)-category](locally+cartesian+closed+%28infinity%2C1%29-category#InternalLogic)_.
+Some form of this statement was originally formally conjectured in ([Joyal 11](#Joyal11)), following ([Awodey 10](#Awodey10)). For more details see at _[locally cartesian closed (∞,1)-category](locally+cartesian+closed+%28infinity%2C1%29-category#InternalLogic)_.
 
 
 
