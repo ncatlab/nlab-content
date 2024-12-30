@@ -76,7 +76,7 @@ First treat the case of a $2 \times 2$ matrix
 
 $$\left( \begin{array}{ccc} a & & b\\ c & & d \end{array}\right)$$
 
-To prove is regular, suppose $c r c = c$ for some $r$, and calculate that 
+To prove this matrix is regular, suppose $c r c = c$ for some $r$, and calculate that 
 
 $$\left( \begin{array}{ccc} a & & b\\ c & & d \end{array}\right)\left( \begin{array}{ccc} 0 & & r\\ 0 & & 0 \end{array}\right)\left( \begin{array}{ccc} a & & b\\ c & & d \end{array}\right) - \left( \begin{array}{ccc} a & & b\\ c & & d \end{array}\right) = \left( \begin{array}{ccc} \ast & & \ast\\ c r c - c & & \ast \end{array}\right) = \left( \begin{array}{ccc} \ast & & \ast\\ 0 & & \ast \end{array}\right)$$ 
 
@@ -196,7 +196,7 @@ We sketch the proof as the end result after a series of lemmas.
 
 The lemmas and corollaries enter the proof of the Theorem:
 
-\begin{proof}: Taking $\mathfrak{m}$ to range over maximal ideals of $R$, the canonical quotient maps $R \to R/\mathfrak{m}$ are maps to fields, and these quotient maps "tuple" together to form a map into a product of fields 
+\begin{proof} Taking $\mathfrak{m}$ to range over maximal ideals of $R$, the canonical quotient maps $R \to R/\mathfrak{m}$ are maps to fields, and these quotient maps "tuple" together to form a map into a product of fields 
 
 $$\phi: R \to \prod_{\mathfrak{m}} R/\mathfrak{m}.$$ 
 
