@@ -11,7 +11,7 @@ In general, we expect the following of a category of cubes:
 * It is a [[monoidal category]] $(\Box,\otimes,I^0)$: the monoidal product of the "$n$-cube" and "$m$-cube" is the "$(n+m)$-cube", and the monoidal unit is the "$0$-cube" $I^{0}$.
 * It contains an [[interval object]], the "1-cube", which is to say an object $I^{1}$ with two "faces" $\delta_0, \delta_1 \colon I^{0} \to I^{1}$ and a "degeneracy" $\epsilon \colon I^{1} \to I^{0}$ fitting in the diagram below.
 \begin{tikzcd}
-I^{0} \ar[dr,"id"{below left}] \ar[r,"\delta_0"] & I^{1} \ar[d,"\epsilon"] & \ar[l,"\delta_1"{above}] I^{1} \ar[dl,"id"{below right}] \\
+I^{0} \ar[dr,"id"{below left}] \ar[r,"\delta_0"] & I^{1} \ar[d,"\epsilon"] & \ar[l,"\delta_1"{above}] I^{0} \ar[dl,"id"{below right}] \\
 & I^{0}
 \end{tikzcd}
 * Every object can be written as a monoidal product of $n \ge 0$ copies of the "$1$-cube".
@@ -62,7 +62,7 @@ The **ordered cube category** is the free strict monoidal category with terminal
 +-- {: .num_defn}
 ###### Notation
 
-Let $n \geq 0$ be an integer. We denote the object $\underbrace{I^{1} \otimes \cdots \otimes I^{1}}_{n}$ of $\Box$ by $I^{n}$. 
+Let $n \geq 0$ be an integer. We denote the object $\underset{n}{\underbrace{I^{1} \otimes \cdots \otimes I^{1}}}$ of $\Box$ by $I^{n}$. 
 
 =--
 
@@ -71,7 +71,7 @@ Let $n \geq 0$ be an integer. We denote the object $\underbrace{I^{1} \otimes \c
 
 In addition to the maps $\delta_0$ and $\delta_1$, maps of the form $I^n \otimes \delta_\alpha \otimes I^m$ for $n,m \ge 0$ are also called *faces*.
 Finite composites of such maps may also be called faces.
-Likewise, maps of the form $I^m \otimes \epsilon I^m$ for $n,m \ge 0$ are also called degeneracies.
+Likewise, maps of the form $I^n \otimes \epsilon \otimes I^m$ for $n,m \ge 0$ are also called degeneracies.
 
 =--
 
@@ -140,7 +140,7 @@ We may more generally refer to maps of the form $I^n \otimes \gamma_\alpha \otim
 +-- {: .num_defn}
 ###### Definition
 
-The **ordered cube category with a $\alpha$-connection** is the free strict monoidal category with terminal unit $(\Box,\otimes,I^0)$ equipped with an object $I^{1}$, two maps $\delta_0,\delta_1 : I^{0} \to I^{1}$, and an $\alpha$-connection.
+The **ordered cube category with an $\alpha$-connection** is the free strict monoidal category with terminal unit $(\Box,\otimes,I^0)$ equipped with an object $I^{1}$, two maps $\delta_0,\delta_1 : I^{0} \to I^{1}$, and an $\alpha$-connection.
 
 =--
 
@@ -173,7 +173,7 @@ Grandis and Mauri also take the connections to be symmetric, making $(I^1,\delta
 
 ### Cubes with reversals
 
-An **reversal** or **reversion** in a cube category is a involution $\rho \colon I^1 \to I^1$ such that $\rho \circ \delta_{\alpha} = \delta_{1-\alpha}$ for $\alpha \in \{0,1\}$.
+A **reversal** or **reversion** in a cube category is a involution $\rho \colon I^1 \to I^1$ such that $\rho \circ \delta_{\alpha} = \delta_{1-\alpha}$ for $\alpha \in \{0,1\}$.
 Topologically, we think of a reversal as the automorphism of the topological 1-cube $[0,1]$ sending $t$ to $1 - t$.
 
 +-- {: .num_defn}
