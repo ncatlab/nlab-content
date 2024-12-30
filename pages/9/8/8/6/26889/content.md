@@ -70,7 +70,7 @@ Again, by way of taking opposite rings, we have (1 $\iff$ 6) if and only if we h
 
 \begin{proposition} If $A$ is von Neumann regular, then so is the matrix ring $M_n(A)$ for $n \geq 1$. \end{proposition} 
 
-\begin{proof} The following proof is adapted from Kaplansky ([Kaplansky] (#KapFaR)). It uses a result called McCoy's lemma: If $a x a - a$ is regular, then so is $a$. (Proof: if $(a x a - a)y(a x a - a) = a$, then rewrite this as $a = a x a - (a x a - a)y(a x a - a)$, and notice the right side is of the form $a [\ast] a$.) 
+\begin{proof} The following proof is adapted from Kaplansky ([Kaplansky] (#KapFaR)), starting at page 110; see particularly his Theorem 24. It uses a result called McCoy's lemma: If $a x a - a$ is regular, then so is $a$. (Proof: if $(a x a - a)y(a x a - a) = a$, then rewrite this as $a = a x a - (a x a - a)y(a x a - a)$, and notice the right side is of the form $a [\ast] a$.) 
 
 First treat the case of a $2 \times 2$ matrix 
 
@@ -111,9 +111,9 @@ Finally, for any $n$, find $k$ such that $2^k \geq n$. The ring of $n \times n$ 
 
 \begin{proof} There is a surjective module map $A^k \to B$ and hence $B$ is the image of a map $P$ defined to be a composite 
 
-$$A^{n+k} \cong A^n \times A^k \overset{\pi}{\to} A^k \to B \hookrightarrow A^n \overset{i}{\hookrightarrow} A^n \times A^k \cong A^{n+k}$$ 
+$$A^{n+k} \cong A^n \times A^k \overset{p}{\to} A^k \to B \hookrightarrow A^n \overset{i}{\hookrightarrow} A^n \times A^k \cong A^{n+k}$$ 
 
-where $\pi, i$ are obvious projection, inclusion maps. Since the previous proposition says the matrix ring $M = M_{n+k}(A)$ is von Neumann regular assuming $A$ is, we have $P M = E M$ for some idempotent $E$. It follows that 
+where $p, i$ are obvious projection, inclusion maps. Since the previous proposition says the matrix ring $M = M_{n+k}(A)$ is von Neumann regular assuming $A$ is, we have $P M = E M$ for some idempotent $E$. It follows that 
 
 $$B = P \cdot A^{n+k} = P M \cdot A^{n+k} = E M \cdot A^{n+k} = E \cdot A^{n+k}$$ 
 
