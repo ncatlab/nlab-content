@@ -29,9 +29,10 @@ One major application of abelian Chern-Simons theory is as an [[effective field 
 
 ## Properties
 
-### Space of states
+### Space of quantum states
+ {#SpaceOfQuantumStates}
 
-For abelian Chern-Simons theory with $N$ field species and [[Lagrangian density]] of the form $K^{i j} A_i \wedge \mathrm{d} A_j$ for $K$ an $N \times N$ [[symmetric matrix]], the [[dimension of a vector space|dimension]] of the [[Hilbert space|Hilbert]] [[space of quantum states]] $\mathscr{H}_g$ obtained by [[geometric quantization]] over a [[surface]] of [[genus of a surface|surface]] $g$ (cf. *[[quantization of D=3 Chern-Simons theory]]*) is supposed to be
+For abelian Chern-Simons theory with $N$ [[gauge fields]] $(A_i)_{i = 1}^N$ and [[Lagrangian density]] of the form $K^{i j} A_i \wedge \mathrm{d} A_j$ (for $K$ an $N \times N$ [[symmetric matrix]] and using [[Einstein summation convention]]), the [[dimension of a vector space|dimension]] of the [[Hilbert space|Hilbert]] [[space of quantum states]] $\mathscr{H}_g$ (obtained by [[geometric quantization]], cf. *[[quantization of D=3 Chern-Simons theory]]*) over a [[surface]] of [[genus of a surface|genus]] $g$ is the [[absolute value]] of the [[determinant]] of $K$ raised to the $g$th [[exponent|power]]:
 
 $$ 
   dim(\mathscr{H}_g)
@@ -40,7 +41,7 @@ $$
   \,.
 $$
 
-([Belov & Moore 2005 p 26](#BelovMoore05))
+(for $N=1$ see [Manoliu 1998a p 40](#Manoliu98a), for general $N$ cf. [Belov & Moore 2005 p 26](#BelovMoore05))
 
 
 ## References
@@ -54,15 +55,15 @@ $$
 * G. Giavarini, C. P. Martin, F. Ruiz Ruiz: *Abelian Chern-Simons theory as the strong large-mass limit of topologically massive abelian gauge theory: the Wilson loop*, Nucl.Phys. B **412** (1994) 731-750 &lbrack;[arXiv:hep-th/9309049](https://arxiv.org/abs/hep-th/9309049), <a href="https://doi.org/10.1016/0550-3213(94)90397-2">doi:10.1016/0550-3213(94)90397-2</a>, [pdf](https://inis.iaea.org/collection/NCLCollectionStore/_Public/25/053/25053343.pdf)&rbrack;
 
 
-* Mihaela Manoliu: *Abelian Chern-Simons theory*, J. Math. Phys. **39** (1998) 170-206 &lbrack;[arXiv:dg-ga/9610001](https://arxiv.org/abs/dg-ga/9610001), [doi:10.1063/1.532333](https://doi.org/10.1063/1.532333)&rbrack;
+* {#Manoliu98a} Mihaela Manoliu: *Abelian Chern-Simons theory*, J. Math. Phys. **39** (1998) 170-206 &lbrack;[arXiv:dg-ga/9610001](https://arxiv.org/abs/dg-ga/9610001), [doi:10.1063/1.532333](https://doi.org/10.1063/1.532333)&rbrack;
 
-* Mihaela Manoliu: *Abelian Chern-Simons theory. II: A functional integral approach*, J. Math.Phys. **39** (1998) 207-217 &lbrack;[doi:10.1063/1.532312](https://doi.org/10.1063/1.532312)&rbrack;
+* {#Manoliu98b} Mihaela Manoliu: *Abelian Chern-Simons theory. II: A functional integral approach*, J. Math.Phys. **39** (1998) 207-217 &lbrack;[doi:10.1063/1.532312](https://doi.org/10.1063/1.532312)&rbrack;
 
 * {#BelovMoore05} Dmitriy Belov, [[Gregory W. Moore]]: *Classification of abelian spin Chern-Simons theories* &lbrack;[arXiv:hep-th/0505235](https://arxiv.org/abs/hep-th/0505235)&rbrack;
 
 * Spencer D. Stirling: *Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories*, PhD thesis, Austin (2008) &lbrack;[arXiv:0807.2857](http://arxiv.org/abs/0807.2857), [pdf](http://www.spencerstirling.com/papers/thesis_official.pdf), [ProQuest](https://www.proquest.com/docview/304474017?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses)&rbrack;
 
-* Diego Delmastro, [[Jaume Gomis]]: *Symmetries of Abelian Chern-Simons Theories and Arithmetic*, J. High Energ. Phys. **2021** 6 (2021) &lbrack;<a href="https://doi.org/10.1007/JHEP03(2021)006">doi:10.1007/JHEP03(2021)006</a>,[arXiv:1904.12884](https://arxiv.org/abs/1904.12884)&rbrack;
+* Diego Delmastro, [[Jaume Gomis]]: *Symmetries of Abelian Chern-Simons Theories and Arithmetic*, J. High Energ. Phys. **2021** 6 (2021) &lbrack;<a href="https://doi.org/10.1007/JHEP03(2021)006">doi:10.1007/JHEP03(2021)006</a>, [arXiv:1904.12884](https://arxiv.org/abs/1904.12884)&rbrack;
 
 Many general reviews of [[Chern-Simons theory]] have a section focused on the abelian case, for instance:
 
