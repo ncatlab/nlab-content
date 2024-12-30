@@ -13,7 +13,12 @@ On [[graph complex]]-models for [[configuration spaces of points]]:
 
 * [[Ricardo Campos]], Julien Ducoulombier, [[Najib Idrissi]], [[Thomas Willwacher]], _A model for framed configuration spaces of points_ ([arXiv:1807.08319](https://arxiv.org/abs/1807.08319))
 
-## Related $n$Lab entries
+On [[configuration spaces of points]] in relation to [[graph complexes]]:
+
+* [[Ricardo Campos]]: *Configuration Spaces of Points*, [CIM Bulletin **41** (2020)](https://www.cim.pt/magazines/bulletin/41) 41-47 &lbrack;[pdf](https://www.cim.pt/magazines/bulletin/41/article/296/pdf), [hal:03754254](https://hal.science/hal-03754254)&rbrack;
+
+
+## Related entries
 
 * [[graph complex]]
 
