@@ -1,5 +1,12 @@
 
-* [webpage](http://www.ma.utexas.edu/users/neitzke/)
+* [personal page](https://gauss.math.yale.edu/~an592/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Andrew_Neitzke)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=peKiSqQAAAAJ&hl=en)
+
+* [InSpire page](https://inspirehep.net/authors/995911)
+
 
 ## Selected writings
 
@@ -30,6 +37,11 @@ Discussion of [[topological quantum field theory]] with an eye towards [[supersy
 On [[spectral networks]] and [[Chern-Simons theory with complex gauge group]]:
 
 * [[Daniel S. Freed]], [[Andrew Neitzke]], *3d spectral networks and classical Chern-Simons theory* &lbrack;[arXiv:2208.07420](https://arxiv.org/abs/2208.07420)&rbrack;
+
+On [[dilogarithms]] and [[abelian Chern-Simons theory]]:
+
+* [[Daniel S. Freed]], [[Andrew Neitzke]]: *The dilogarithm and abelian Chern-Simons*, J. Differential Geom. **123**  2  (2023) 241-266 &lbrack;[arXiv:2006.12565](https://arxiv.org/abs/2006.12565), [doi:10.4310/jdg/1680883577](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-123/issue-2/The-dilogarithm-and-abelian-ChernSimons/10.4310/jdg/1680883577.short)&rbrack;
+
 
 On [[conformal blocks]]:
 
