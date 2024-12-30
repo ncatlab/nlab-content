@@ -229,6 +229,8 @@ Textbooks on mathematical logic:
 
 * Pieter A. M. Seuren, _The logic of language_, vol. II of Language from within; (vol. I: _Language in cognition_) Oxford University Press 2010
 
+category: logic
+
 [[!redirects logic]]
 [[!redirects logics]]
 
