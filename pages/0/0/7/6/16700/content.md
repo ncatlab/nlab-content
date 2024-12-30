@@ -1,7 +1,14 @@
 
 Paul Cook is lecturer of [[mathematics]] at King's College London.
 
-## Seelected writings
+* [inSpire page](https://inspirehep.net/authors/1054053)
+
+* [institute page](https://www.kcl.ac.uk/people/paul-cook)
+
+* [GoogleScholar page](https://scholar.google.co.uk/citations?user=y2O-DNQAAAAJ&hl=en)
+
+
+## Selected writings
 
 On [[D1-D7 brane intersections]] as fuzzy funnels on [[fuzzy 6-spheres]]:
 
@@ -16,7 +23,7 @@ On the [[dual graviton]] in terms of [[E11]] [[U-duality]]:
 * Nicolas Boulanger, [[Paul P. Cook]], Josh A. O'Connor, [[Peter West]], *Higher dualisations of linearised gravity and the $A_1^{+++}$ algebra* &lbrack;[arXiv:2208.11501](https://arxiv.org/abs/2208.11501)&rbrack
 
 
-## related $n$Lab entries
+## Related entries
 
 * [[Kac-Moody algebra]], [[E11]]
 
