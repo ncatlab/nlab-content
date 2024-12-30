@@ -1370,20 +1370,24 @@ Review:
 
 * Riccardo Penco, _An Introduction to Effective Field Theories_ ([arXiv:2006.16285](https://arxiv.org/abs/2006.16285))
 
-* C. P. Burgess, _Introduction to effective field theory_, Cambridge University Press 2020 ([arXiv:hep-th/0701053](https://arxiv.org/abs/hep-th/0701053), [ISBN:9781139048040](https://www.cambridge.org/core/books/introduction-to-effective-field-theory/A9CDB35F4AA7921E3A9CFD573EBA8B64))
+* [[Cliff P. Burgess]]: *Introduction to effective field theory*, Ann. Rev. Nucl. Part. Sci. **57** (2007) 329-362 &lbrack;[arXiv:hep-th/0701053](https://arxiv.org/abs/hep-th/0701053), [doi:10.1146/annurev.nucl.56.080805.140508](https://doi.org/10.1146/annurev.nucl.56.080805.140508)&rbrack;
+
+* [[Cliff P. Burgess]]: *Introduction to effective field theory*, Cambridge University Press (2020) &lbrack;[ISBN:9781139048040](https://www.cambridge.org/core/books/introduction-to-effective-field-theory/A9CDB35F4AA7921E3A9CFD573EBA8B64), ch. 1-6: [pdf](https://physics.mcmaster.ca/~cburgess/Book/Ch1-6SnippetEFT.pdf)&rbrack;
+
 
 A classical textbook adopting the EFT perspective is
 
-* [[Steven Weinberg]], _The Quantum Theory of Fields_ (Cambridge University
-Press,Cambridge,1995).
+* {#Weinberg95} [[Steven Weinberg]]: *The Quantum Theory of Fields Vol 1: Foundations*, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9781139644167](https://doi.org/10.1017/CBO9781139644167)&rbrack;
+
+* {#Weinberg96} [[Steven Weinberg]]: *The Quantum Theory of Fields Vol 2: Applications*, Cambridge University Press (1996) &lbrack;[doi:10.1017/CBO9781139644174](https://doi.org/10.1017/CBO9781139644174)&rbrack;
 
 whose author describes his goal as:
 
-> This is intended to be a book on quantum field theory for the era of effective field theory.  
+> "This is intended to be a book on quantum field theory for the era of effective field theory."  
 
 Another book which takes the effective-field-theory approach to QFT is
 
-* Anthony Zee, _Quantum Field Theory in a Nutshell_ (Princeton University Press, second edition, 2010).
+* [[Anthony Zee]], _Quantum Field Theory in a Nutshell_ (Princeton University Press, second edition, 2010).
 
 Discussion for [[nuclear physics]]:
 
