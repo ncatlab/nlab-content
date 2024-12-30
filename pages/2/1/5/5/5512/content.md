@@ -149,7 +149,7 @@ This usage is related to [Frobenius reciprocity for adjoint functors](#InCategor
 +-- {: .num_prop}
 ###### Proposition
 
-An [[orthogonal factorization system|proper orthogonal factorization system]] $(\mathcal{E},\mathcal{M})$ in a finitely complete category $\mathcal{C}$ satisfies the Frobenius condition if and only if for all $f \colon X \to Y$, the adjunction $Sub_{\mathcal{M}}(X) : f_! \dashv f^* : Sub_{\mathcal{M}}(Y)$ satisfies the Frobenius condition (where $Sub_{\mathcal{M}}(X)$ is the poset of subobjects of $X$ in $\mathcal{M}$, $f^*$ is pullback along $f$, and $f_!$ sends $m$ to the $\mathcal{M}$ part of the factorization of $f m$).
+A [[orthogonal factorization system|proper orthogonal factorization system]] $(\mathcal{E},\mathcal{M})$ in a [[finitely complete category]] $\mathcal{C}$ satisfies the Frobenius condition if and only if for all $f \colon X \to Y$, the adjunction $Sub_{\mathcal{M}}(X) : f_! \dashv f^* : Sub_{\mathcal{M}}(Y)$ satisfies the Frobenius condition (where $Sub_{\mathcal{M}}(X)$ is the poset of subobjects of $X$ in $\mathcal{M}$, $f^*$ is pullback along $f$, and $f_!$ sends $m$ to the $\mathcal{M}$ part of the factorization of $f m$).
 
 =--
 
@@ -163,7 +163,7 @@ A weak factorization system $(\mathcal{L},\mathcal{R})$ on a [[locally cartesian
 =--
 
 In [[categorical models of dependent type theory]] where types are interpreted as maps in a right class (as in ([Van den Berg & Garner 2012](#VanDenBergGarner2012))), the Frobenius condition can thus be used to interpret [[dependent product types]].
-See for example ([Kapulkin & Lumsdaine 2021, Lemma 2.3.1](#KapulkinLumsdaine2021)).
+See for example [Kapulkin & Lumsdaine 2021, Lemma 2.3.1](#KapulkinLumsdaine2021).
 
 In the context of [[Quillen model categories]], the Frobenius condition is related to [[proper model category|right properness]] ([Gambino & Sattler 2017](#GambinoSattler2017)):
 
