@@ -15,7 +15,7 @@
 
 ## Definition
 
-An **algebraic number** is a [[root]] of a non-zero [[polynomial]] with [[integer]] [[coefficients]] (or, equivalently, with [[rational number|rational]] coefficients). Equivalently, an element $\alpha$ of a [[field extension]] $K$ of the [[rational numbers]] $\mathbb{Q}$ is *algebraic* if the [[subfield]] $\mathbb{Q}(\alpha)$ is a finite degree [[field extension|extension]], i.e., is [[finite dimensional vector space|finite-dimensional]] as a vector space over $\mathbb{Q}$. 
+An **algebraic number** is a [[root]] of a non-zero [[polynomial]] with [[integer]] [[coefficients]] (or, equivalently, with [[rational number|rational]] coefficients). Equivalently, an element $\alpha$ of a [[field extension]] $K$ of the [[rational numbers]] $\mathbb{Q}$ is *algebraic* if the [[subfield]] $\mathbb{Q}(\alpha)$ is a finite degree [[field extension|extension]], i.e., is [[finite dimensional vector space|finite-dimensional]] as a [[rational vector space]]. 
 
 Since the [[rational numbers]] are a [[subfield]] of the [[complex numbers]], and since the [[complex numbers]] are an [[algebraically closed field]], algebraic numbers are naturally regarded as a sub-field of [[complex numbers]]
 
