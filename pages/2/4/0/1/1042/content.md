@@ -26,7 +26,7 @@ As a property of a [[set]], being hereditarily finite is equivalent (up to [[iso
 
 ## Properties
 
-There are countably many hereditarily finite sets, up to [[equality]] (in material set theory), and in fact they can be neatly enumerated as follows:  Given a [[natural number]] $n \geq 0$, write $n$ in base $2$; the $i$th hereditarily finite set is a member of the $n$th one if the $i$th digit of $n$ is $1$.  (This definition is well-founded, because the highest non-zero digit of $n$ must have position at most $\log_2 n$, which is less than $n$.)
+There are countably many hereditarily finite sets, up to [[equality]] (in material set theory), and in fact they can be neatly enumerated as follows:  Given a [[natural number]] $n \geq 0$, write $n$ in base $2$; the $i$th hereditarily finite set is a member of the $n$th one if the $i$th bit of $n$ is $1$.  (This definition is well-founded, because the highest non-zero bit of $n$ must have position at most $\log_2 n$, which is less than $n$.)
 
 So the hereditarily finite sets are as follows:
 
