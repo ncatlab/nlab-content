@@ -43,7 +43,7 @@ Notice that a [[spectral triple]] which describes the [[worldline]] [[quantum me
 
 ## References
 
-### General On spectral triples
+### General
 
 The notion of [[spectral triple]] and of spectral action was introduced in
 
@@ -56,6 +56,10 @@ A discussion specifically of the spectral action is in
 Earlier articles on this include
 
 * [[Ali Chamseddine]], _Remarks on the Spectral Action Principle_ ([arxiv:hep-th/9806046](http://arxiv.org/abs/hep-th/9806046))
+
+Further discussion:
+
+* Arkadiusz Bochniak, Ludwik Dąbrowski, Andrzej Sitarz, Paweł Zalecki: *An impediment to torsion from spectral geometry* &lbrack;[arXiv:2412.19626](https://arxiv.org/abs/2412.19626)&rbrack;
 
 
 ### Phenomenological models
