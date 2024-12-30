@@ -55,3 +55,5 @@ The PRL part of the name evidently stands for "Proof Refinement Logic".
 [[!redirects NuPrl]]
 
 [[!redirects Nuprl]]
+
+category: software
