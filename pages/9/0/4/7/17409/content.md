@@ -5,4 +5,4 @@ GeoGebra appears in desktop versions in several major operative systems (includi
 * [geogebra.org](http://www.geogebra.org/)
 * Wikipedia: [geogebra](https://en.wikipedia.org/wiki/GeoGebra) 
 
-category: education, software
+category: software
