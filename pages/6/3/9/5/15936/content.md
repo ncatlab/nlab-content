@@ -26,3 +26,5 @@ The [[Kepler conjecture]] was formalized and proven using _HOL Light_ (in the _[
 * [[John Harrison]], _[The HOL Light theorem prover](http://www.cl.cam.ac.uk/~jrh13/hol-light/index.html)_
 
 [[!redirects HOL light]]
+
+category: software
