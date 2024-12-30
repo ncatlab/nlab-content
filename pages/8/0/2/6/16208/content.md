@@ -97,3 +97,4 @@ Tutorials and workshops:
 
 * *Lean for the Curious Mathematician 2023*, Düsseldorf Univ. (Sep 2023) &lbrack;[web](https://lftcm2023.github.io)&rbrack;
 
+category: software
