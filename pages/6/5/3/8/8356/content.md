@@ -107,8 +107,6 @@ Using this one can translate any theorems and proofs of set-level mathematics do
 
 The BHK interpretation evolved from a rather informal statement in [Kolmogorov (1932, p. 59)](#Kolmogorov32), over a more pronounced but still informal statement due to [Troelstra (1969, p. 5)](#Troelstra69), to the modern [[inference rules]] in [[intuitionistic type theory]] due to [Martin-Löf 75](Martin-Löf+dependent+type+theory#MartinLof75) (gentle exposition in [Martin-Löf (1996, Lec 3)](#MartinLöf96)):
 
-\linebreak
-
 From [Kolmogorov (1932, p. 59)](#Kolmogorov32):
 
 \begin{imagefromfile}
@@ -261,9 +259,7 @@ Early historical review:
 
 Recognizable formulation of the so-called "BHK interretation" first appears in:
 
-*
-
- [Kolmogorov (1932, p. 59)](#Kolmogorov32)
+* [Kolmogorov (1932, p. 59)](#Kolmogorov32)
 
 (who however speaks not of propositions but of *Aufgaben*, i.e. "tasks", here in the sense of: "mathematical problems") 
 
@@ -332,3 +328,5 @@ For a comment see also
 [[!redirects realisability interpretation]] 
 
 [[!redirects BHK correspondence]]
+
+category: logic, philosophy
