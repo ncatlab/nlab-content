@@ -23,6 +23,10 @@ On [[braid group]]-effects in 2d [[symmetry protected topological phases]]:
 
 * [[Michael Levin]], [[Zheng-Cheng Gu]], *Braiding statistics approach to symmetry-protected topological phases*, Phys. Rev. B **86** (2012) 115109 ([doi:10.1103/PhysRevB.86.115109](https://doi.org/10.1103/PhysRevB.86.115109))
 
+On edge modes in [[fractional quantum Hall effect|fractional quantum Hall systems]] via [[abelian Chern-Simons theory]]:
+
+* {#Levin13} [[Michael Levin]]: *Protected edge modes without symmetry*, Phys. Rev. X **3** 021009 (2013) \[<a href="https://doi.org/10.1103/PhysRevX.3.021009">doi:10.1103/PhysRevX.3.021009</a>, [arXiv:1301.7355](https://arxiv.org/abs/1301.7355)\]
+
 
 
 On [[loop braid group]]-[[representations]] in [[model (in theoretical physics)|models]] of [[solid state physics]]:
