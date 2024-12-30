@@ -361,7 +361,7 @@ General discussion in the context of projection formulas in [[monoidal categorie
 
  
 
-Manifestations of the Frobenius reciprocity formula, [in the sense of category theory](#InCartegoryTheory), recur throughout mathematics in various forms (push-pull formula, projection formula); see for example this Math Overflow post: 
+Manifestations of the Frobenius reciprocity formula, [in the sense of category theory](#InCategoryTheory), recur throughout mathematics in various forms (push-pull formula, projection formula); see for example this Math Overflow post: 
 
 * Andrea Ferretti, Ubiquity of the push-pull formula, MO Question 18799, March 20, 2010. [(link)](http://mathoverflow.net/questions/18799/ubiquity-of-the-push-pull-formula)
 
