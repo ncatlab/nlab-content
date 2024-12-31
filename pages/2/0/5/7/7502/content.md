@@ -103,10 +103,56 @@ $$
   B \otimes Y
 \end{tikzcd}
 
+The pushout product defines a functor ${\widehat{\otimes}} \colon \mathcal{E}_1^{\mathbf{2}} \times \mathcal{E}_2^{\mathbf{2}} \to \mathcal{E}_3^{\mathbf{2}}$ on [[arrow categories]] with the evident functorial action.
+
 =--
 
 ## Properties
  {#Properties}
+
+The pushout product associated to ${\otimes} \colon \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$ inherits various properties from $\otimes$ (see [Riehl & Verity (2014)](#RiehlVerity14)):
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{E}$ be a category with pushouts and let $\otimes \colon \mathcal{E} \times \mathcal{E} \to \mathcal{E}$ be a functor equipped with a natural isomorphism $(A \otimes B) \otimes C \cong A \otimes (B \otimes C)$.
+Then we have a natural isomorphism $(f \,\widehat{\otimes}\, g) \,\widehat{\otimes}\, h \cong f \,\widehat{\otimes}\, (g \,\widehat{\otimes}\, h)$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{E}_1,\mathcal{E}_2,\mathcal{E}_3$ be categories such that $\mathcal{E}_3$ has pushouts and let $\otimes \colon \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$.
+If $\otimes$ is [[cocontinuous]] in its first (resp. second) argument, then so is $\widehat{\otimes}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+([Riehl & Verity 2014, Lemma 4.8](#RiehlVerity14))
+
+=--
+
+The following related property is also observed at _[[Joyal-Tierney calculus]]_.
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{E}_1,\mathcal{E}_2,\mathcal{E}_3$ be categories such that $\mathcal{E}_2$ has pullbacks and $\mathcal{E}_3$ has pullbacks.
+Let $\otimes \colon \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$ and $hom_r(-,-) \colon \mathcal{E}_1^{op} \times \mathcal{E}_3 \to \mathcal{E}_2$ such that $A \otimes (-)$ is left [[adjoint functor|adjoint]] to $hom_r(A,-)$ for all $A \in \mathcal{E}_1$.
+Write $\widehat{hom}_r \colon (\mathcal{E}_1^{\mathbf{2}})^{op} \times \mathcal{E}_3^{\mathbf{2}} \to \mathcal{E}_2^{\mathbf{2}}$ for the pushout product associated to $hom_r(-,-)^{op} \colon \mathcal{E}_1 \times \mathcal{E}_3^{op} \to \mathcal{E}_2^{op}$ (i.e. the [[pullback power]]).
+Then $f \,\widehat{\otimes}\, (-) \colon \mathcal{E}_2^{\mathbf{2}} \to \mathcal{E}_3^{\mathbf{2}}$ is left adjoint to $\widehat{hom}_r(f,-) \colon \mathcal{E}_3^{\mathbf{2}} \to \mathcal{E}_2^{\mathbf{2}}$ for all $f \in \mathcal{E}_1^{\mathbf{2}}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+([Riehl & Verity 2014, Lemma 4.10](#RiehlVerity14))
+
+=--
  
 For $\mathcal{C}$ any [[category]] and $K\subset Mor(\mathcal{C})$ any [[class]] of its morphisms, write $K Inj$ for the $K$-[[injective morphisms]] and $K Cof \coloneqq  (K Inj)Proj$ for the $K Inj$-[[projective morphisms]]. 
 
