@@ -18,6 +18,9 @@ Introducing [[indexed categories]] as a tool of [[categorical semantics]] in [[c
 
 * {#TBG91} [[Andrzej Tarlecki]], [[Rod M. Burstall]], [[Joseph A. Goguen]], *Some fundamental algebraic tools for the semantics of computation: Part 3. Indexed categories*, Theoretical Computer Science **91** 2 (1991) 239-264 &lbrack;<a href="https://doi.org/10.1016/0304-3975(91)90085-G">doi:10.1016/0304-3975(91)90085-G</a>&rbrack;
 
+A discussion of various treatments of the notion of a *concept* in category-theoretic terms:
+
+* [[Joseph A. Goguen]], *What is a concept?*, (2005). In: Dau, F., Mugnier, ML., Stumme, G. (eds) Conceptual Structures: Common Semantics for Sharing Knowledge. ICCS 2005. Lecture Notes in Computer Science, vol 3596. Springer, Berlin, Heidelberg, ([pdf](https://cseweb.ucsd.edu/~goguen/pps/iccs05.pdf))
 
 category: people
 
