@@ -84,9 +84,15 @@ Monographs:
 
 * {#CapSlovak09} [[Andreas Čap]], [[Jan Slovák]], chapter 1 of: _Parabolic Geometries I -- Background and General Theory_, AMS (2009) &lbrack;[ISBN:978-1-4704-1381-1](http://bookstore.ams.org/surv-154)&rbrack;
 
+Basic exposition:
+
+* [[Adam Marsh]], §3.4 in: *Riemannian Geometry: Definitions, Pictures, and Results* &lbrack;[arXiv:1412.2393](https://arxiv.org/abs/1412.2393)&rbrack;
+
+
 Discussion of torsion in [[gravity|gravitational]] [[classical field theory]]:
 
 * [[Friedrich W. Hehl]], [[Yuri N. Obukhov]], *Élie Cartan’s torsion in geometry and in field theory, an essay*, Annales de la Fondation Louis de Broglie, **32** 2-3 (2007) 157-194 &lbrack;[pdf](https://fondationlouisdebroglie.org/AFLB-322/aflb322m595.pdf), [arXiv:0711.1535](https://arxiv.org/abs/0711.1535)&rbrack; 
+
 
 Discussion with an eye towards [[torsion constraints in supergravity]]:
 
