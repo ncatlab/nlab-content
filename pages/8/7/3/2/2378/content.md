@@ -340,7 +340,11 @@ Textbook accounts:
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, Sections 1.2, 1.3 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
-On the [[homotopy type]] of mapping spaces via [[spectral sequences]]:
+On the [[homotopy groups]] of mapping spaces:
+
+* {#Barratt55} [[Michael G. Barratt]]: *Track Groups (I)*, Proceedings of the London Mathematical Society **s3-5** 1 (1955) &lbrack;[doi:10.1112/plms/s3-5.1.71]( https://doi.org/10.1112/plms/s3-5.1.71), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/barrtr1.pdf)&rbrack;
+
+and via [[spectral sequences]]:
 
 * {#Federer56} [[Herbert Federer]]: *A Study of Function Spaces by Spectral Sequences*, Transactions of the AMS **82** 2 (1956) 340-361 \[<a href="https://doi.org/10.2307/1993052">doi:10.2307/1993052</a>, [jstor:1993052](https://www.jstor.org/stable/1993052)\]
 
