@@ -24,26 +24,25 @@
 
 There are various different perspectives on the notion of _topos_.   One is that a topos is a [[category]] that looks like a category of [[space]]s that sit by [[local homeomorphisms]] over a given base [[space]]: all spaces that are _locally modeled on_ a given base space.
 
-The archetypical class of examples are [[sheaf topos]]es $Sh(X) = Et(X)$ over a [[topological space]] $X$: these are the categories of [[étale space]]s over $X$, topological spaces $Y$ that are equipped with a [[local homeomorphisms]] $Y \to X$. 
+The archetypical class of examples is that of [[sheaf topos]]es $Sh(X) = Et(X)$ over a [[topological space]] $X$: these are the categories of [[étale space]]s over $X$, topological spaces $Y$ that are equipped with a [[local homeomorphisms]] $Y \to X$. 
 
 When $X = *$ is the [[point]], this is just the category [[Set]] of all [[sets]]: spaces that are _modeled on the point_. This is the archetypical topos itself. 
 
-What makes the notion of topos powerful is the following fact: even though the general topos contains objects that are considerably different from and possibly considerably richer than plain sets and even richer than &#233;tale spaces over a topological space, the general abstract [[category theory|category theoretic]] properties of every topos are essentially the same as those of [[Set]]. For instance in every topos all small [[limits]] and [[colimits]] exist and it is [[cartesian closed category|cartesian closed]] (even [[locally cartesian closed category|locally]]). This means that a large number of constructions in [[Set]] have immediate analogs [[internalization|internal to]] every topos, and the analogs of the statements about these constructions that are true in $Set$ are true in _every_ topos. 
+What makes the notion of topos powerful is the following fact: even though the general topos contains objects that are considerably different from and possibly considerably richer than plain sets and even richer than &#233;tale spaces over a topological space, the general abstract [[category theory|category theoretic]] properties of every topos are essentially the same as those of [[Set]]. For instance, in every topos, all small [[limits]] and [[colimits]] exist, and it is [[cartesian closed category|cartesian closed]] (even [[locally cartesian closed category|locally]]). This means that a large number of constructions in [[Set]] have immediate analogs [[internalization|internal to]] every topos, and the analogs of the statements about these constructions that are true in $Set$ are true in _every_ topos. 
 
-On the one hand this may be thought of as saying that toposes are _very nice categories of spaces_ in that whatever construction on spaces one thinks of 
--- for instance formation of [[quotient]]s or of [[fiber product]]s or of [[mapping space]]s --
-the resulting space with the expected general abstract properties will exist in the topos. In this sense toposes are _convenient categories_ for geometry -- as in: [[convenient category of topological spaces]], but even more convenient than that.
+On the one hand, this may be thought of as saying that toposes are _very nice categories of spaces_, in that whatever construction on spaces one thinks of 
+-- for instance, formation of [[quotient]]s or of [[fiber product]]s or of [[mapping space]]s --
+the resulting space with the expected general abstract properties will exist in the topos. In this sense, toposes are _convenient categories_ for geometry -- as in: [[convenient category of topological spaces]], but even more convenient than that.
 
 On the other hand, by de-emphasizing the geometric interpretation of their objects and just using their good abstract properties, this means that toposes are contexts with a powerful [[internal logic]]. The internal logic of toposes is [[intuitionistic logic|intuitionistic]] [[higher order logic]]. This means that, while the [[law of excluded middle]] and the [[axiom of choice]] may fail, apart from that, every logical statement not depending on these does hold [[internalization|internal to]] _every_ topos.
 
-For this reason toposes are often studied as abstract contexts "in which one can do mathematics", independently of their interpretation as categories of spaces. These two points of views on toposes, as being about geometry and about logic at the same time, is part of the richness of topos theory.
+For this reason, toposes are often studied as abstract contexts "in which one can do mathematics", independently of their interpretation as categories of spaces. These two points of view on toposes, as being about geometry and about logic at the same time, is part of the richness of topos theory.
 
-On a third hand, however, we can de-emphasize the role of the objects of the topos and instead treat the topos itself as a "generalized space" (and in particular, a [[vertical categorification|categorified]] space).  We then consider the topos $Sh(X)$ as a representative of $X$ itself, while toposes not of this form are "honestly generalized" spaces.  This point of view is supported by the fact that the assignment $X\mapsto Sh(X)$ is a full embedding of (sufficiently nice) topological spaces into toposes, and that many topological properties of a space $X$ can be detected at the level of $Sh(X)$.  (This is even more true once we pass to [[(∞,1)-toposes]].)
+On a third hand, however, we can de-emphasize the role of the objects of the topos and instead treat the topos itself as a "generalized space" (and in particular, a [[vertical categorification|categorified]] space).  We then consider the topos $Sh(X)$ as a representative of $X$ itself, while toposes not of this form are "honestly generalized" spaces. This point of view is supported by the fact that the assignment $X\mapsto Sh(X)$ is a full embedding of (sufficiently nice) topological spaces into toposes, and that many topological properties of a space $X$ can be detected at the level of $Sh(X)$.  (This is even more true once we pass to [[(∞,1)-toposes]].)
 
-From this point of view, the objects of a topos (regarded as a category) should be thought of instead as *sheaves on* that topos (regarded as a generalized space).  And just as sheaves on a topological space can be identified with local homeomorphisms over it, such "sheaves on a topos" (i.e. objects of the topos *qua* category) can be identified with other *toposes* that sit over the given topos via a [[étale geometric morphism|local homeomorphism of toposes]].
+From this point of view, the objects of a topos (regarded as a category) should be thought of instead as *sheaves on* that topos (regarded as a generalized space). And, just as sheaves on a topological space can be identified with local homeomorphisms over it, such "sheaves on a topos" (i.e., objects of the topos *qua* category) can be identified with other *toposes* that sit over the given topos via a [[étale geometric morphism|local homeomorphism of toposes]].
 
-
-Finally, mixing this point of view with the second one, we can regard toposes over a given topos $E$ instead as "toposes in the $E$-world of mathematics."  For this reason, the theory of toposes over a given base is formally quite similar to that of arbitrary toposes.  And coming full circle, this fact allows the use of "base change arguments" as a very useful technical tool, even if our interest is only in one or two particular toposes *qua* categories.
+Finally, mixing this point of view with the second one, we can regard toposes over a given topos $E$ instead as "toposes in the $E$-world of mathematics."  For this reason, the theory of toposes over a given base is formally quite similar to that of arbitrary toposes. And, coming full circle, this fact allows the use of "base change arguments" as a very useful technical tool, even if our interest is only in one or two particular toposes *qua* categories.
 
 ### 'What a topos is like:'
 
@@ -87,7 +86,7 @@ A specialization of this which is important enough that much of the literature i
 
 This is the notion relevant for applications in [[geometry]] and [[geometric logic]], whereas the notion of elementary toposes is relevant for more general applications in [[logic]].
 
-For standard notions of mathematics to be available [[internal logic|inside]] a given topos one typically at least needs a [[natural numbers object]]. Its existence is guaranteed by the axioms of a sheaf topos, but not by the more general axioms of an elementary topos. Adding the existence of a natural numbers object to the axioms of an elementary topos yields the notion of a 
+For standard notions of mathematics to be available [[internal logic|inside]] a given topos, one typically at least needs a [[natural numbers object]]. Its existence is guaranteed by the axioms of a sheaf topos, but not by the more general axioms of an elementary topos. Adding the existence of a natural numbers object to the axioms of an elementary topos yields the notion of a 
 
 * [W-topos](#WToposes).
 
@@ -107,11 +106,11 @@ There are alternative ways to state the definition; for instance,
 1. has [[finite limit]]s and
 2. has [[power objects]].
 
-In a way, however, these concise definitions can be misleading, because a topos has a great deal of other structure, which plays a very important role but just happens to follow automatically from these basic axioms.  Most importantly, an elementary topos is all of the following:
+In a way, however, these concise definitions can be misleading, because a topos has a great deal of other structure which plays a very important role but just happens to follow automatically from these basic axioms. Most importantly, an elementary topos is all of the following:
 
 *  [[locally cartesian closed category|locally cartesian closed]],
 *  [[finitely cocomplete category|finitely cocomplete]],
-*  a [[Heyting category]],
+*  a [[Heyting category]], and
 *  a [[pretopos]].
 
 The last two imply that it has an [[internal logic]] that resembles ordinary mathematical reasoning, and the presence of exponentials and power objects means that this logic is [[higher order logic|higher order]].
@@ -131,7 +130,7 @@ Equivalently, a Grothendieck topos is any category [[equivalence of categories|e
 ### $W$-toposes
  {#WToposes}
 
-There is a further elementary property of [[Set]] that might have gone into the definition of elementary topos but historically did not: the existence of a [[natural numbers object]].  Any topos with this property is called a __topos with NNO__ or a __$W$-topos__.  The latter term comes from the result that any such topos must have (not only an NNO but also) all [[W-types]].
+There is a further elementary property of [[Set]] that might have gone into the definition of elementary topos, but historically did not: the existence of a [[natural numbers object]]. Any topos with this property is called a __topos with NNO__ or a __$W$-topos__.  The latter term comes from the result that any such topos must have (not only an NNO but also) all [[W-types]].
 
 ### Toposes over a base
 
@@ -147,9 +146,9 @@ There are two kinds of [[homomorphisms]] between toposes that one considers:
 
 Accordingly there is a [[2-category]] [[Topos]] of toposes, whose 
 
-* [[object]]s are toposes;
+* [[object]]s are toposes,
 
-* [[morphism]]s are [[geometric morphism]]s;
+* [[morphism]]s are [[geometric morphism]]s, and
 
 * [[2-morphism]]s are [[natural transformation]]s between the [[functor]]s underlying the geometric morphisms.
 
@@ -159,28 +158,28 @@ Accordingly there is a [[2-category]] [[Topos]] of toposes, whose
 
 ### Extensivity
 
-Every topos is an [[extensive category]].  For [[Grothendieck toposes]], infinitary extensivity is part of the characterizing [[Giraud's theorem]].  For elementary toposes, see [[toposes are extensive]].
+Every topos is an [[extensive category]]. For [[Grothendieck toposes]], infinitary extensivity is part of the characterizing [[Giraud's theorem]]. For elementary toposes, see [[toposes are extensive]].
 
 ### Adhesiveness
 
-Every topos is an [[adhesive category]]. For [[Grothendieck toposes]] this follows immediately from the adhesion of [[Set]], for elementary toposes it is due to ([Lack-Sobocinski](#LackSobocinski)).
+Every topos is an [[adhesive category]]. For [[Grothendieck toposes]] this follows immediately from the adhesion of [[Set]], while for elementary toposes it is due to ([Lack-Sobocinski](#LackSobocinski)).
 
 ### Epimorphisms
 
-In a topos [[epimorphism]]s are stable under [[pullback]] and hence the [[(epi, mono) factorization system]] in a topos is a [[stable factorization system]].
+In a topos, [[epimorphism]]s are stable under [[pullback]], and hence the [[(epi, mono) factorization system]] in a topos is a [[stable factorization system]].
 
 
 ### Relation to abelian categories
 
-While crucially different from [[abelian categories]], there is some intimate relation between toposes and abelian categories. For more on that see [[AT category]].
+While crucially different from [[abelian categories]], there is some intimate relation between toposes and abelian categories. For more on that, see [[AT category]].
 
 
 
 ### Reasoning in a topos 
 
-Any result in [[ordinary mathematics]] whose proof is [[finite mathematics|finitist]] and [[constructive mathematics|constructive]] automatically holds in any topos.  If you remove the restriction that the proof be finitist, then the result holds in any topos with a [[natural numbers object]]; if you remove the restrictions that the proof be constructive, then the result holds in any [[boolean topos]].  On the other hand, if you add the restriction that the proof be predicative in the weaker sense used by constructivists, then the result may fail in some toposes but holds in any $\Pi$-[[Pi-pretopos|pretopos]]; if you add the restriction that the proof be predicative in a stronger sense, then the result holds in any [[Heyting pretopos]].
+Any result in [[ordinary mathematics]] whose proof is [[finite mathematics|finitist]] and [[constructive mathematics|constructive]] automatically holds in any topos. If one removes the restriction that the proof be finitist, then the result holds in any topos with a [[natural numbers object]]. If one removes the restriction that the proof be constructive, then the result holds in any [[boolean topos]]. On the other hand, if one adds the restriction that the proof be predicative in the weaker sense used by constructivists, then the result may fail in some toposes, but holds in any $\Pi$-[[Pi-pretopos|pretopos]]. If one adds the restriction that the proof be predicative in a stronger sense, then the result holds in any [[Heyting pretopos]].
 
-Therefore, one can prove results in toposes and similar categories by reasoning, not about the [[objects]] and [[morphisms]] in the topos themselves, but instead about [[sets]] and [[functions]] in the normal language of structural [[set theory]], which is more familiar to most mathematicians.  One merely has to be careful about what axioms one uses to get results of sufficient generality.
+Therefore, one can prove results in toposes and similar categories by reasoning, not about the [[objects]] and [[morphisms]] in the topos themselves, but instead about [[sets]] and [[functions]] in the normal language of structural [[set theory]], which is more familiar to most mathematicians. One merely has to be careful about what axioms one uses to get results of sufficient generality.
 
 The [[internal logic|internal language]] of a topos is called [[Mitchell-Bénabou language]].
 
@@ -194,55 +193,55 @@ The [[internal logic|internal language]] of a topos is called [[Mitchell-Bénabo
 
   The [[full subcategory]] [[FinSet]] is also an elementary topos, and the inclusion functor $FinSet \hookrightarrow Set$ is a [[logical morphism]]. This is not a Grothendieck topos.
 
-  More generally, for $\kappa$ a [[cardinal|strong limit cardinal]] the full subcategory $Set_\kappa$ of sets or [[cardinality]] less than $\kappa$ is a topos.
+  More generally, for $\kappa$ a [[cardinal|strong limit cardinal]], the full subcategory $Set_\kappa$ of sets of [[cardinality]] less than $\kappa$ is a topos.
 
-* For $C$ any (small) [[site]], the [[category of sheaves]] $Sh(C)$ is a [[Grothendieck topos]].  Either by definition or by [[Giraud's theorem]], every Grothendieck topos arises in this way.  Important examples include:
+* For $C$ any (small) [[site]], the [[category of sheaves]] $Sh(C)$ is a [[Grothendieck topos]]. Either by definition or by [[Giraud's theorem]], every Grothendieck topos arises in this way. Important examples include:
 
   * The case where the [[Grothendieck topology]] is the trivial one, so that also all categories of [[presheaf|presheaves]] (on small categories) are (Grothendieck) toposes.
 
   * The case of sheaves on (the [[site]] given by the [[category of open subsets]] of) a [[topological space]], or more generally a [[locale]].
 
-  * The category $G Set$ of [[set]]s equipped with the [[action]] of a [[group]] $G$: this is the topos of presheaves on the category $\mathbf{B}G$ which is the [[delooping]] [[groupoid]] of $G$.
+  * The category $G Set$ of [[set]]s equipped with the [[action]] of a [[group]] $G$. This is the topos of presheaves on the category $\mathbf{B}G$, which is the [[delooping]] [[groupoid]] of $G$.
 
- * Continuing the last example above, if $G$ is a topological group, the category $G Set$ of [[category of G-sets|sets with a continuous action of G]] (that is, the action map $G\times X\to X$ is [[continuous map|continuous]], where $X$ has the [[discrete topology]]) is a topos, and in fact a Grothendieck topos (though this may not be obvious).
+ * Continuing the previous example, if $G$ is a topological group, then the category $G Set$ of [[category of G-sets|sets with a continuous action of G]] (that is, the action map $G\times X\to X$ is [[continuous map|continuous]], where $X$ has the [[discrete topology]]) is a topos, and in fact a Grothendieck topos (though this may not be obvious).
 
- * More generally, $G$ may be a [[topological groupoid]], or even a [[localic groupoid]].  In fact, it is a theorem that every Grothendieck topos can be presented as the topos of "continuous sheaves" on a localic groupoid.
+ * More generally, $G$ may be a [[topological groupoid]], or even a [[localic groupoid]]. In fact, it is a theorem that every Grothendieck topos can be presented as the topos of "continuous sheaves" on a localic groupoid.
 
-* Again if $G$ is a topological group, the category $Unif(G)$ of *[[uniformly continuous map|uniformly continuous]]* $G$-sets is also a topos, but not (in general) one of Grothendieck's.  For example, if $G$ is the [[profinite completion]] of $\mathbb{Z}$, then a continuous $G$-set is a $\mathbb{Z}$-set all of whose orbits are finite, while a uniformly continuous one is a $\mathbb{Z}$-set with a finite upper bound on the size of all its orbits.
+* If $G$ is again a topological group, then the category $Unif(G)$ of *[[uniformly continuous map|uniformly continuous]]* $G$-sets is also a topos, but not (in general) one of Grothendieck's. For example, if $G$ is the [[profinite completion]] of $\mathbb{Z}$, then a continuous $G$-set is a $\mathbb{Z}$-set whose orbits are all finite, while a uniformly continuous one is a $\mathbb{Z}$-set with a finite upper bound on the size of all its orbits.
 
-* For $E$ a topos and $X \in E$ any [[object]], also the [[overcategory]] or [[slice category]] $E/X$ is again a topos. ([[Elephant]], A.2.3.2). See also [[over-topos]]. 
+* For $E$ a topos and $X \in E$ any [[object]], the [[overcategory]] or [[slice category]] $E/X$ is also a topos. ([[Elephant]], A.2.3.2). See also [[over-topos]]. 
 
-* If $E$ is a topos and $j \colon E \to E$ is a [[exact functor|lex]] idempotent monad, the category of $j$-algebras is a topos. Each such $j$ corresponds to a [[Lawvere-Tierney topology]] in $E$, and the category of $j$-algebras is equivalent to the category of sheaves for this topology. An example is the [[double negation|double-negation topology]]. 
+* If $E$ is a topos and $j \colon E \to E$ is a [[exact functor|lex]] idempotent monad, then the category of $j$-algebras is a topos. Each such $j$ corresponds to a [[Lawvere-Tierney topology]] in $E$, and the category of $j$-algebras is equivalent to the category of sheaves for this topology. An example is the [[double negation|double-negation topology]]. 
 
-* An obvious example of an elementary topos that is not a Grothendieck topos is the category [[FinSet]] of finite sets.  More generally, for any [[strong limit cardinal]] $\kappa$, the category of sets of cardinality $\lt\kappa$ is an elementary topos, and as long as $\kappa \gt\omega$ it has a [[NNO]]. $Set_{\lt \kappa}$ doesn't even admit a geometric morphism to $Set$.
+* An obvious example of an elementary topos that is not a Grothendieck topos is the category [[FinSet]] of finite sets. More generally, for any [[strong limit cardinal]] $\kappa$, the category of sets of cardinality less than or equal to $\kappa$ is an elementary topos, and as long as $\kappa \gt \omega$, it has a [[NNO]]. $Set_{\lt \kappa}$ does not even admit a geometric morphism to $Set$.
 
-* Since the definition of elementary topos is "algebraic," there exist [[free topos]]es generated by various kinds of data. The category of toposes (and [[logical functor]]s) is [[2-monadic]] over the 2-category of categories, functors, and natural isomorphisms. It has an [[initial object]] which is sometimes called *the free topos*.  More generally, any [[higher-order logic|higher-order]] [[type theory]] (of the sort which can be interpreted in the [[internal logic]] of a topos) generates a free topos containing a model of that theory.  Such toposes (for a consistent theory) are never Grothendieck's.
+* Since the definition of elementary topos is "algebraic," there exist [[free topos]]es generated by various kinds of data. The category of toposes (and [[logical functor]]s) is [[2-monadic]] over the 2-category of categories, functors, and natural isomorphisms. It has an [[initial object]], which is sometimes called *the free topos*. More generally, any [[higher-order logic|higher-order]] [[type theory]] (of the sort which can be interpreted in the [[internal logic]] of a topos) generates a free topos containing a model of that theory. Such toposes (for a consistent theory) are never Grothendieck's.
 
-* If $G$ is a [[large category|large]] [[groupoid]] with a small set of objects, then the category $[G,Set]$ (which makes sense if we define "large" and "small" relative to a [[Grothendieck universe]]) is a topos, but not in general a Grothendieck topos.  Note that this topos is in fact [[complete category|complete]] and cocomplete, but it does not have a small generating set, and so is an [[unbounded topos]].
+* If $G$ is a [[large category|large]] [[groupoid]] with a small set of objects, then the category $[G,Set]$ (which makes sense if we define "large" and "small" relative to a [[Grothendieck universe]]) is a topos, but not in general a Grothendieck topos. Note that this topos is in fact [[complete category|complete]] and cocomplete, but it does not have a small generating set, and so is an [[unbounded topos]].
 
-* If $\mathcal{F}$ is a [[filter]] of [[subterminal objects]] in any topos $E$, then there is a [[filterquotient]] topos $E//\mathcal{F}$.  Grothendieck-ness (and completeness and cocompleteness) are not in general preserved by this construction.
+* If $\mathcal{F}$ is a [[filter]] of [[subterminal objects]] in any topos $E$, then there is a [[filterquotient]] topos $E//\mathcal{F}$. Grothendieck-ness (and completeness and cocompleteness) are not generally preserved by this construction.
 
-* If $C$ and $D$ are toposes and $F\colon C\to D$ is a [[lex functor]], then there is a topos $Gl(F)$ called the [[Artin gluing]] of $C$ and $D$ along $F$, and defined to be the [[comma category]] $(D/F)$.  If $C$ and $D$ are Grothendieck toposes then $Gl(F)$ is a $Set$-topos. If $F$ is [[accessible functor|accessible]], then $Gl(F)$ is again Grothendieck (hence [[bounded geometric morphism|bounded]]), but in general it may not be. (Note, though, that it is not clear whether it can be proven in ZFC that there exist any inaccessible lex functors between Grothendieck toposes, although from a proper class of [[measurable cardinal]]s one can construct an inaccessible lex endofunctor of $Set$.)
+* If $C$ and $D$ are toposes and $F\colon C\to D$ is a [[lex functor]], then there is a topos $Gl(F)$ called the [[Artin gluing]] of $C$ and $D$ along $F$, and defined to be the [[comma category]] $(D/F)$. If $C$ and $D$ are Grothendieck toposes, then $Gl(F)$ is a $Set$-topos. If $F$ is [[accessible functor|accessible]], then $Gl(F)$ is again Grothendieck (hence [[bounded geometric morphism|bounded]]), but in general it may not be. (Note, though, that it is not clear whether it can be proven in ZFC that there exist any inaccessible lex functors between Grothendieck toposes, although from a proper class of [[measurable cardinal]]s one can construct an inaccessible lex endofunctor of $Set$.)
 
-* The [[Eilenberg-Moore category|category of coalgebras]] for any [[exact functor|lex]] [[comonad]] on a topos is again a topos: a [[topos of algebras over a monad|topos of coalgebras]], and if the comonad is [[accessible functor|accessible]], this construction preserves Grothendieck-ness.  If the comonad is not accessible, then this topos is unbounded.
+* The [[Eilenberg-Moore category|category of coalgebras]] for any [[exact functor|lex]] [[comonad]] on a topos is again a topos: a [[topos of algebras over a monad|topos of coalgebras]], and if the comonad is [[accessible functor|accessible]], then this construction preserves Grothendieck-ness. If the comonad is not accessible, then this topos is unbounded.
 
-  For instance the [[Artin gluing]] $Gl(F)$ is equivalent to the category of coalgebras for the comonad on the topos $C\times D$ defined by $(c,d) \mapsto (c, d\times F(c))$. 
+  For instance, the [[Artin gluing]] $Gl(F)$ is equivalent to the category of coalgebras for the comonad on the topos $C\times D$ defined by $(c,d) \mapsto (c, d\times F(c))$. 
 
 * More generally, the category of coalgebras for any [[preserved limit|pullback-preserving]] comonad on a topos is again a topos. This covers both the preceding result and also the overcategory (slice category) result above, since $E/X$ is the category of coalgebras for the pullback-preserving comonad given by $X \times - \colon E \to E$. It also covers Artin gluing along a pullback-preserving functor. 
 
 * More generally still, [[Todd Trimble]] has a notion called a "modal operator" on a topos, from which one can construct a new topos of "$G$-structures": see [[toddtrimble:Three topos theorems in one]]. Special cases include the pullback-preserving comonad result just mentioned, and the result that the category of algebras for a lex [[idempotent monad]] is a topos. A related idea is Toby Kenney's notion of lex distributive [[diad]], from which one can also construct a topos.
 
-* From any [[partial combinatory algebra]] one can construct a [[realizability topos]], whose [[internal logic]] is "computable" or "effective" mathematics relative to that PCA.  In particular, for [[Kleene's first algebra]], one obtains the [[effective topos]], the most-studied of realizability toposes.  Realizability toposes are generally not Grothendieck toposes. 
+* From any [[partial combinatory algebra]] one can construct a [[realizability topos]], whose [[internal logic]] is "computable" or "effective" mathematics relative to that PCA. In particular, for [[Kleene's first algebra]], one obtains the [[effective topos]], the most-studied of realizability toposes. Realizability toposes are generally not Grothendieck toposes.
 
 * A topos can also be constructed from any [[tripos]].  This includes realizability toposes as well as toposes of sheaves on locales. 
 
 ### Classes of examples
 
-For various applications one uses toposes that have [[stuff, structure, property|extra structure or properties]].
+For various applications, one uses toposes that have [[stuff, structure, property|extra structure or properties]].
 
 * In the [[foundations]] of mathematics, one often studies [[well-pointed toposes]], especially models of [[ETCS]] as potential replacements for the category [[Set]].
 
-* In [[synthetic differential geometry]] one studies [[smooth topos]]es as a context for axiomatic [[differential geometry]].
+* In [[synthetic differential geometry]], one studies [[smooth topos]]es as a context for axiomatic [[differential geometry]].
 
 
 
