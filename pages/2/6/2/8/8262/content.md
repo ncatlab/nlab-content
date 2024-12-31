@@ -217,7 +217,7 @@ Prop. \ref{SubgroupsOfFreeAbelianGroupsAreFree} implies that (assuming [[axiom o
 
 Textbook accounts:
 
-* {#Lang02} [[Serge Lang]], _Algebra_, Graduate Texts in Mathematics 211 (Revised third ed.), Springer. 2002
+* {#Lang02} [[Serge Lang]]: _Algebra_, 3rd ed. Springer (2002) &lbrack;[doi:10.1007/978-1-4613-0041-0](https://doi.org/10.1007/978-1-4613-0041-0)&rbrack;
 
 
 [[!redirects free abelian group]]
