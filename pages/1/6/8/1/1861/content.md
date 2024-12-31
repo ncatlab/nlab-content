@@ -902,6 +902,7 @@ Observe that the second [[group cohomology]] of the [[free abelian group]] $\mat
     \\
     &\simeq&
     \mathbb{Z}_n
+    \mathrlap{\,,}
   \end{array}
 \]
 
