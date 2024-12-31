@@ -801,35 +801,64 @@ Now
 ([Kirby, Melvin & Teichner 2012](#KirbyMelvinTeichner12))
 
 
-### Cohomotopy moduli of $T^2$
+### Cohomotopy moduli of surfaces
+ {#CohomotopyModuliOfSurfaces}
 
-Consider the [[fundamental group]] 
+Let $\Sigma_g$ be a [[closed manifold|closed]] [[orientation|orientable]] [[surface]] of [[genus of a surface|genus]] $g \in \mathbb{N}$ (so that $\Sigma_0 = S^2$ is [[generalized the|the]] [[2-sphere]], $\Sigma_1 = T^2$ is [[generalized the|the]] [[2-torus]], etc.).
+
+and consider the [[fundamental group]] 
 $$
   \pi_1 Maps\big(
-    T^2
+    \Sigma_g
     ,\,
     S^2
   \big)
+  \;\;
+  \in
+  \;
+  Grp
 $$
-of the 2-cohomotopy [[cocycle space]] of the [[2-torus]] $T^2$ (hence of the [[mapping space|space of maps]] $T^2 \to S^2$).
+of its 2-cohomotopy [[cocycle space]] (hence of the [[mapping space|space of maps]] $\Sigma_g \to S^2$).
 
 This group 
 
-1. is [[non-abelian group|non-abelian]] with its [[group commutators]] being given by the [[Whitehead product]] $[-,-]$, up to a sign.
+1. is generally [[non-abelian group|non-abelian]] for $g \geq 1$,
 
-   ([Federer 1956, top of p 358](#Federer56))
+   concretely, for $g = 1$ its [[group commutators]] are given by the [[Whitehead product]] $[-,-]$, up to a sign.
 
-1. its [[connected component]] of [[degree of a continuous function|degree]]=0 forms a [[central extension]] of the form
+   ([Federer 1956, top of p 358](#Federer56), see also [Barratt 1955, top of p 95](compact-open+topology#Barratt55))
+
+1. its [[connected component]] of [[degree of a continuous function|degree]]$=0$ forms a [[central extension]] of the form
 
    $$
+     1
+     \to
      \mathbb{Z}
-     \xhookrightarrow{\phantom{-}}
-     \pi_1 Maps\big(T^2, S^2\big)_{\vert deg = 0}
-     \twoheadrightarrow
-     \mathbb{Z}^2
+     \longrightarrow
+     \pi_1 Maps\big(\Sigma_2, S^2\big)_{\vert deg = 0}
+     \longrightarrow
+     \mathbb{Z}^{2 g}
+     \to 
+     1
    $$
 
-   ([Dyer 1967 p 1288](#Dyer67), [Hansen 1974 Thm 1 & p 150](#Hansen74))
+   ([Dyer 1967 p 1288](#Dyer67))
+
+1. generally its [[connected component]] of [[degree of a continuous function|degree]]$= k \in \mathbb{N}$ forms a [[central extension]] of the form
+
+   $$
+     1
+     \to
+     \mathbb{Z}/(2k)
+     \longrightarrow
+     \pi_1 Maps\big(\Sigma_g, S^2\big)_{\vert deg = k}
+     \longrightarrow
+     \mathbb{Z}^{2g}
+     \to 
+     1
+   $$
+
+   ([Hansen 1974 Thm 1 & p 150](#Hansen74))
 
 \linebreak
 
