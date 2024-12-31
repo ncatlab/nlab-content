@@ -45,7 +45,7 @@ Given a [[pair]] of [[morphisms]]
 their **pushout product** is the [[morphism]] in $\mathcal{E}_3$
 
 $$
-  f \Box g 
+  f \,\widehat{\otimes}\, g 
   \;\;\colon\;\;
   A \otimes Y 
     \overset
@@ -94,7 +94,7 @@ $$
       {A \otimes X}
       {\sqcup} 
   B \otimes X
-  \ar[dr, dashed, "{ f \,\Box\, g }"{sloped, description}]
+  \ar[dr, dashed, "{ f \,\widehat{\otimes}\, g }"{sloped, description}]
   \\
   A \otimes Y
   \ar[rr, "{ f \otimes \mathrm{id}_Y }"{description}]
@@ -103,12 +103,11 @@ $$
   B \otimes Y
 \end{tikzcd}
 
-
 =--
 
 ## Properties
  {#Properties}
-
+ 
 For $\mathcal{C}$ any [[category]] and $K\subset Mor(\mathcal{C})$ any [[class]] of its morphisms, write $K Inj$ for the $K$-[[injective morphisms]] and $K Cof \coloneqq  (K Inj)Proj$ for the $K Inj$-[[projective morphisms]]. 
 
 +-- {: .num_prop #PushoutProductOfCofClassIsCofClassOfPushoutProduct}
@@ -116,12 +115,12 @@ For $\mathcal{C}$ any [[category]] and $K\subset Mor(\mathcal{C})$ any [[class]]
 
 Let $\mathcal{C}$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with [[finite limits]] and [[finite colimits]], and let $I_1, I_2\subset Mor(\mathcal{C})$ be two [[classes]] of its morphisms. 
 
-Then under [[pushout product]] $\Box$:
+Then under [[pushout product]] $\widehat{\otimes}$:
 
 $$
-  (I_1 Cof) \Box (I_2 Cof)
+  (I_1 Cof) \,\widehat{\otimes}\, (I_2 Cof)
   \subset 
-  (I_1 \Box I_2) Cof
+  (I_1 \,\widehat{\otimes}\, I_2) Cof
   \,.
 $$
 
@@ -239,7 +238,7 @@ and the pushout-product map itself (the dashed arrow) is given as follows:
 \[
   \label{ThePushoutProductMapForSets}
   \array{
-    f \widehat{\times} g
+    f \,\widehat{\times}\, g
     &\xrightarrow{\phantom{---}}&
     X' \times Y'
     \\
@@ -253,7 +252,7 @@ More informatively, the [[fibers]] of the pushout-product map over any $(x',y') 
 \[
   \label{FibersOfPushoutProductOfMapsOfSets}
   \big(
-    f \widehat{\times} g
+    f \,\widehat{\times}\, g
   \big)_{(x',y')}
   \;\;
   = 
@@ -280,7 +279,7 @@ where
 \begin{proof}
 We discuss in more detail how to obtain the fibers (eq:FibersOfPushoutProductOfMapsOfSets).
 
-To see the first case: By the assumption that $x' \,\in\, im(f)$ we find $x_1 \in f^{-1}\big(\{x'\}\big)$ and hence by (eq:ThePushoutProductMapForSets) we find $[x_1,y'] \,\in\, \big(f \widehat{\times} g\big)_{(x',y')}$. 
+To see the first case: By the assumption that $x' \,\in\, im(f)$ we find $x_1 \in f^{-1}\big(\{x'\}\big)$ and hence by (eq:ThePushoutProductMapForSets) we find $[x_1,y'] \,\in\, \big(f \,\widehat{\times}\, g\big)_{(x',y')}$. 
 But since also $y' \,\in\, im(g)$ there is also $y \in g^{-1}\big(\{y'\}\big)$ and hence
 $$
   \big[x_1,\, y'\big] 
@@ -330,7 +329,7 @@ $$
 be the canonical [[sphere]] inclusions in [[Top]] (the generating cofibrations of the [[classical model structure on topological spaces]]). Their pushout product (with respect to [[Cartesian product|cartesian]] [[topological product space|product of topological spaces]]) is given by addition of indices:
 
 $$
-  i_{n_1} \Box i_{n_2} \simeq i_{n_1 + n_2}
+  i_{n_1} \,\widehat{\times}\, i_{n_2} \simeq i_{n_1 + n_2}
   \,.
 $$
 
@@ -344,7 +343,7 @@ $$
 Then 
 
 $$
-  i_{n_1}\Box j_{n_2} \simeq j_{n_1 + n_2}
+  i_{n_1} \,\widehat{\times}\, j_{n_2} \simeq j_{n_1 + n_2}
   \,.
 $$
 
@@ -358,7 +357,7 @@ To see this, it is profitable to model [[n-disks]] and [[n-spheres]], up to [[ho
 To see the idea of the proof, consider the situation in low dimensions, where one readily sees that
 
 $$
-  i_1 \Box i_1
+  i_1 \,\widehat{\times}\, i_1
   \;\colon\;
     (\; = \;\cup\; \vert\vert\;) 
     \hookrightarrow
@@ -368,7 +367,7 @@ $$
 and
 
 $$
-  i_1 \Box j_0
+  i_1 \,\widehat{\times}\, j_0
   \;\colon\;
     (\; = \;\cup\; \vert \; ) 
     \hookrightarrow
@@ -429,7 +428,7 @@ $$
   \big(
     \varnothing \to X
   \big)  
-  \widehat{\otimes} 
+  \,\widehat{\otimes}\,
   g
   \;\simeq\;
   id_X 
@@ -481,7 +480,7 @@ where the top row is the unique map on the initial object by assumption whence i
 \linebreak
 With respect to any [[bifunctor]] $\otimes \,\colon\, \mathcal{C} \times \mathcal{C} \to \mathcal{C}$, the pushout-product with with an [[identity morphism]] is an identity morphism:
 $$
-  f \widehat{\otimes} id
+  f \,\widehat{\otimes}\, id
   \;\simeq\;
   id
   \;\;\;\;\;\;\;\;\;
