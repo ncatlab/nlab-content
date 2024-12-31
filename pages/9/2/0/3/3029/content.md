@@ -228,7 +228,7 @@ $$
   \mathbf{B}^2 A
 $$
 
-is a [[fiber sequence]] in [[∞Grpd]] (or in [[?LieGrpd]] if we have [[Lie group]] extensions, etc).
+is a [[fiber sequence]] in [[∞Grpd]] (or in [[LieGrpd]] if we have [[Lie group]] extensions, etc).
 
 Here we may think of $\mathbf{B}\hat G$ as being the $\mathbf{B}A$-[[principal 2-bundle]] over $\mathbf{B}G$ classified by $c$. See the examples discussed at [[bundle gerbe]].
 
