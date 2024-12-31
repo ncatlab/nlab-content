@@ -1,5 +1,22 @@
 
 
+$$  
+  \cdots \to
+  \pi_2(S^2)
+  \xrightarrow{\;}
+  \pi_1\big(Maps^{\ast/}(T^2,S^2)\big)
+  \xrightarrow{}
+  \pi_1\big(Maps(T^2,S^2)\big)
+  \xrightarrow{ev}
+  \pi_1(S^2)
+  \xrightarrow{}
+  \pi_0\big(Maps^{\ast/}(T^2,S^2)\big)
+  \xrightarrow{}
+  \pi_0\big(Maps(T^2,S^2)\big)
+  \xrightarrow{ev}
+  \pi_0(S^2)
+$$
+
 On 2-[[Cohomotopy]] [[cocycle spaces]] of (hence of [[mapping spaces]] into the [[2-sphere]] from) [[surfaces]]:
 
 * [[Vagn Lundsgaard Hansen]]: *On the Space of Maps of a Closed Surface into the 2-Sphere*, Mathematica Scandinavica **35** (1974) 149-158 \[<a href="https://doi.org/10.7146/math.scand.a-11542 ">doi:10.7146/math.scand.a-11542 </a>, <a href="https://www.jstor.org/stable/24490694">jstor:24490694</a>, [dml:166381](https://eudml.org/doc/166381)\]
