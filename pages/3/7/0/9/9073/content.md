@@ -29,6 +29,10 @@ More on the [[combinatorics]] of [[scattering amplitudes]] in [[Yang-Mills theor
 
 * [[Nima Arkani-Hamed]], Qu Cao, Jin Dong, Carolina Figueiredo, Song He: *Scalar-scaffolded gluons and the combinatorial origins of Yang-Mills theory* &lbrack;[arXiv:2401.00041](https://arxiv.org/abs/2401.00041)&rbrack;
 
+On [[open string|open]] [[string scattering amplitudes]]:
+
+* [[Nima Arkani-Hamed]], Carolina Figueiredo, [[Grant N. Remmen]]: *Open String Amplitudes: Singularities, Asymptotics, and New Representations* &lbrack;[arXiv:2412.20639](https://arxiv.org/abs/2412.20639)&rbrack;
+
 
 
 ## Quotes
