@@ -48,7 +48,7 @@ $$
 
 obtained by [[composition|composing]] [[elements]] of $AC$ with those of $AF$, is closed under the [[2-out-of-3 property]]. To check this condition, it suffices to check certain specialized cases of 2-out-of-3 (see [Cavallo & Sattler 2022, Theorem 3.8](#csElegance)):
 
-+-- {: .num_prop}
++-- {: .num_prop #CriteriaCases}
 ###### Proposition
 
 In a premodel category, $W$ satisfies the 2-out-of-3 property if and only it the following conditions are satisfied:
@@ -69,6 +69,65 @@ The notion of premodel category doesn't come with a good general notion of weak 
 * A __trivial cofibration__ is a cofibration that is also a weak equivalence
 
 In principle one must also distinguish a third class of cofibrations that have the left lifting property with respect to fibrations between fibrant objects. However, in a relaxed premodel category, these are trivial cofibrations. ([Barton, Prop 3.5.2](#Barton))
+
+## Cylindrical premodel categories
+
+A **cylindrical** premodel category is one equipped with well-behaved [[cylinder]] and [[cocylinder]] functors.
+In the following, we assume that $\mathcal{E}$ is a [[finitely complete]] and [[finitely cocomplete]] category.
+
++-- {: .num_defn}
+###### Definition
+
+An **adjoint functorial cylinder** on $\mathcal{E}$ is a [[cylinder functor]] with a [[right adjoint]]: a pair of [[adjoint functors]] $\mathcal{E} : C \dashv P : \mathcal{E}$ together with [[natural transformations]] 
+\begin{tikzcd}
+Id_{\mathcal{E}} \ar[dr,"id"{below left}] \ar[r,"\delta_0"] & C \ar[d,"\epsilon"] & \ar[l,"\delta_1"{above}] Id_{\mathcal{E}} \ar[dl,"id"{below right}] \\
+& Id_{\mathcal{E}}
+\end{tikzcd}
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
+Given a cylinder functor $C \colon \mathcal{E} \to \mathcal{E}$, write $\partial \colon Id_{\mathcal{E}} + \Id_{\mathcal{E}} \to C$ for the [[copairing]] $\partial = [\delta_0,\delta_1]$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Let $C \dashv P$ be an adjoint functorial cylinder on $\mathcal{E}$.
+A [[weak factorization system]] $(L,R)$ on $\mathcal{E}$ is **cylindrical** if $L$ is closed under the [[pushout-product#PushoutApplication|pushout application]] $\widehat{ev}(\partial,-) \colon \mathcal{E}^{\mathbf{2}} \to \mathcal{E}^{\mathbf{2}}$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Let $C \dashv P$ be an adjoint functorial cylinder on $\mathcal{E}$.
+A premodel category (C,AF) and (AC,F) is **cylindrical** when (C,AF) and (AC,F) are cylindrical and the [[pushout-product#PushoutApplication|pushout applications]] $\widehat{ev}(\delta_0,-), \widehat{ev}(\delta_1,-) \colon \mathcal{E}^{\mathbf{2}} \to \mathcal{E}^{\mathbf{2}}$ send cofibrations to anodyne cofibrations.
+
+=--
+
++-- {: .num_defn}
+###### Note
+
+This notion is distinct from [[Richard Williamson|Richard Williamson's]] [[cylinder functor#CylindricalModelStructures|cylindrical model structures]].
+
+=--
+
+In a cylindrical premodel structure, the first condition of Proposition \ref{CriteriaCases} implies the second ([Cavallo & Sattler 2021, Lemma 3.22](#csElegance)), yielding a simplified recognition theorem:
+
++-- {: .num_prop #CriteriaCasesCylindrical}
+###### Proposition
+
+In a cylindrical premodel category, $W$ satisfies the 2-out-of-3 property if and only if the following conditions are satisfied:
+
+1. If $g,f$ are cofibrations such that $g f$ and $g$ are anodyne cofibrations, then $f$ is an anodyne cofibration. If $g,f$ are fibrations such that $g f$ and $f$ are anodyne fibrations, then $g$ is an anodyne fibration.
+
+1. Any composite of an anodyne fibration followed by an anodyne cofibration is in $W$.
+
+=--
 
 ## Related concepts
 
