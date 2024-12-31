@@ -452,6 +452,7 @@ The relations in example \ref{PushoutProductOfSpheresInclusionsIntoDisks} are th
 =--
 
 ### Pushout application of natural transformations
+  {#PushoutApplication}
 
 The following example exploits the generality of allowing $\mathcal{E}_1,\mathcal{E}_2,\mathcal{E}_3$ to differ in the functor $\otimes \colon \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$.
 
