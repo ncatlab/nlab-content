@@ -750,15 +750,15 @@ This is a [[non-abelian group|non-abelian]] analog of the [[Dirac charge quantiz
 
 ### Cohomotopy in the lowest dimensions
 
-Since the [[0-sphere]] is the disjoint union of two points, $0$-cohomotopy corresponds to the powerset of the connected components of a space.
+Since the [[0-sphere]] is the disjoint union of two points, $0$-cohomotopy corresponds to the [[power set]] of the [[connected components]] of a space.
 
 Further, the $(-1)$-sphere is understood as the [[empty space]]. Since the only map to the empty space is the identity map from the empty space, the $(-1)$-cohomotopy of a space is measuring whether that space is empty. In the context of [[homotopy type theory]], this is the same as [[negation]].
-
 
 
 ### Of projective spaces
 
 Cohomotopy sets of [[projective spaces]] are computed in [West 71](#West71)
+
 
 ### Of 4-Manifolds
  {#On4Manifolds}
@@ -798,10 +798,41 @@ Now
 
 * $h^3$ is an isomorphism if $X$ is "odd" in that it contains at least one closed oriented [[surface]] of odd self-intersection, otherwise $h^3$ becomes an isomorphism on a $\mathbb{Z}/2$-[[quotient group]] of $\pi^3(X)$ (which is a group via the [[group]]-[[structure]] of the [[3-sphere]] ([[special unitary group|SU(2)]]))
 
-([Kirby-Melvin-Teichner 12](#KirbyMelvinTeichner12))
+([Kirby, Melvin & Teichner 2012](#KirbyMelvinTeichner12))
 
+
+### Cohomotopy moduli of $T^2$
+
+Consider the [[fundamental group]] 
+$$
+  \pi_1 Maps\big(
+    T^2
+    ,\,
+    S^2
+  \big)
+$$
+of the 2-cohomotopy [[cocycle space]] of the [[2-torus]] $T^2$ (hence of the [[mapping space|space of maps]] $T^2 \to S^2$).
+
+This group 
+
+1. is [[non-abelian group|non-abelian]] with its [[group commutators]] being given by the [[Whitehead product]] $[-,-]$, up to a sign.
+
+   ([Federer 1956, top of p 358](#Federer56))
+
+1. its [[connected component]] of [[degree of a continuous function|degree]]=0 forms a [[central extension]] of the form
+
+   $$
+     \mathbb{Z}
+     \xhookrightarrow{\phantom{-}}
+     \pi_1 Maps\big(T^2, S^2\big)_{\vert deg = 0}
+     \twoheadrightarrow
+     \mathbb{Z}^2
+   $$
+
+   ([Dyer 1967 p 1288](#Dyer67), [Hansen 1974 Thm 1 & p 150](#Hansen74))
 
 \linebreak
+
 
 
 ## Related concepts
@@ -901,7 +932,11 @@ On [[quasi-elliptic cohomology]] of [[representation spheres]] as an approximati
 
 On 2-[[Cohomotopy]] [[cocycle spaces]] of (hence of [[mapping spaces]] into the [[2-sphere]] from) [[surfaces]]:
 
-* [[Vagn Lundsgaard Hansen]]: *On the Space of Maps of a Closed Surface into the 2-Sphere*, Mathematica Scandinavica **35** (1974) 149-158 \[<a href="https://doi.org/10.7146/math.scand.a-11542">doi:10.7146/math.scand.a-11542 </a>, <a href="https://www.jstor.org/stable/24490694">jstor:24490694</a>, [dml:166381](https://eudml.org/doc/166381)\]
+* {#Federer56} [[Herbert Federer]] p 357-8 in: *A Study of Function Spaces by Spectral Sequences*, Transactions of the AMS **82** 2 (1956) 340-361 \[<a href="https://doi.org/10.2307/1993052">doi:10.2307/1993052</a>, [jstor:1993052](https://www.jstor.org/stable/1993052)\]
+
+* {#Dyer67} [[Michael N. Dyer]], p 1228 in: *Two Term Conditions in π Exact Couples*, Canadian Journal of Mathematics **19**  (1967) 1263-1288 \[<a href="https://doi.org/10.4153/CJM-1967-116-6">doi:10.4153/CJM-1967-116-6</a>\]
+
+* {#Hansen74} [[Vagn Lundsgaard Hansen]]: *On the Space of Maps of a Closed Surface into the 2-Sphere*, Mathematica Scandinavica **35** (1974) 149-158 \[<a href="https://doi.org/10.7146/math.scand.a-11542">doi:10.7146/math.scand.a-11542 </a>, <a href="https://www.jstor.org/stable/24490694">jstor:24490694</a>, [dml:166381](https://eudml.org/doc/166381)\]
 
 * [[Vagn Lundsgaard Hansen]]: *The Homotopy Groups of a Space of Maps between Oriented Closed Surfaces*, Bulletin on the London Mathematical Society **15** 4 (1983)  &lbrack;[doi:10.1112/blms/15.4.360](https://doi.org/10.1112/blms/15.4.360)&rbrack;
 
