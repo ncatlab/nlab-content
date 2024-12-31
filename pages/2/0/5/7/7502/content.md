@@ -127,7 +127,7 @@ $$
 
 =--
 
-([Hovey-Shipley-Smith 00](#HoveyShipleySmith00))
+([Hovey-Shipley-Smith 00, Proposition 5.3.4](#HoveyShipleySmith00))
 
 +-- {: .proof}
 ###### Proof
@@ -761,7 +761,14 @@ Pushout-products are prominently discussed in the context of [[monoidal model ca
 
 * {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
 
+General properties of the pushout product are described in Sections 4 and 5 of
+
+* {#RiehlVerity14} [[Emily Riehl]], [[Dominic Verity]], *The theory and practice of Reedy categories*, Theory and Applications of Categories **29**(9) (2014) 256--301 &lbrack;[tac](http://www.tac.mta.ca/tac/volumes/29/9/29-09abs.html),[arXiv:1304.6871](https://arxiv.org/abs/1304.6871)&rbrack;
+
+where the definition of $\widehat{\otimes}$ from $\otimes$ is called the **Leibniz construction**.
 
 [[!redirects pushout product]]
 [[!redirects pushout-products]]
 [[!redirects pushout products]]
+[[!redirects Leibniz construction]]
+[[!redirects Leibniz constructions]]
