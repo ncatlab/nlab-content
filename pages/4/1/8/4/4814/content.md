@@ -105,6 +105,7 @@ On a version of BF-theory in [[arithmetic]] related to non-[[orientation|orienta
 * [[Magnus Carlson]], [[Minhyong Kim]], _A note on abelian arithmetic BF-theory_, ([arXiv:1911.02236](https://arxiv.org/abs/1911.02236))
 
 ### BFCG theory
+ {#ReferencesBFCGTheory}
 
 There is a more general BFCG action introduced by Girelli, Pfeiffer and Popescu which has been shown to be a special case of the categorified BF-theory in
 
