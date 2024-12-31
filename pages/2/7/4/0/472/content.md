@@ -46,6 +46,7 @@ such that $\sigma e_0 = \sigma e_1 = Id_C$.
 * The notation is supposed to be suggestive of a [[product]] with an object $I$. While this is the motivating example, the cylinder functor need not be of that form.
 
 ## Cylindrical model structures
+  {#CylindricalModelStructures}
 
 [[Richard Williamson]] has developed a way to build a model structure from the simple point of departure of a structured interval in a monoidal category - more generally, a structured cylinder and a structured co-cylinder in a category. This is given in ([Williamson 2012](#Williamson12)).
 
