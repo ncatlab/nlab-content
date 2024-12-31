@@ -137,10 +137,10 @@ If $\otimes$ is [[cocontinuous]] in its first (resp. second) argument, then so i
 
 The following related property is also observed at _[[Joyal-Tierney calculus]]_.
 
-+-- {: .num_prop}
++-- {: .num_prop #PushoutProductPullbackPowerAdjoint}
 ###### Proposition
 
-Let $\mathcal{E}_1,\mathcal{E}_2,\mathcal{E}_3$ be categories such that $\mathcal{E}_2$ has pullbacks and $\mathcal{E}_3$ has pullbacks.
+Let $\mathcal{E}_1,\mathcal{E}_2,\mathcal{E}_3$ be [[categories]] such that $\mathcal{E}_2$ has [[pullbacks]] and $\mathcal{E}_3$ has [[pushouts]].
 Let $\otimes \colon \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$ and $hom_r(-,-) \colon \mathcal{E}_1^{op} \times \mathcal{E}_3 \to \mathcal{E}_2$ such that $A \otimes (-)$ is left [[adjoint functor|adjoint]] to $hom_r(A,-)$ for all $A \in \mathcal{E}_1$.
 Write $\widehat{hom}_r \colon (\mathcal{E}_1^{\mathbf{2}})^{op} \times \mathcal{E}_3^{\mathbf{2}} \to \mathcal{E}_2^{\mathbf{2}}$ for the pushout product associated to $hom_r(-,-)^{op} \colon \mathcal{E}_1 \times \mathcal{E}_3^{op} \to \mathcal{E}_2^{op}$ (i.e. the [[pullback power]]).
 Then $f \,\widehat{\otimes}\, (-) \colon \mathcal{E}_2^{\mathbf{2}} \to \mathcal{E}_3^{\mathbf{2}}$ is left adjoint to $\widehat{hom}_r(f,-) \colon \mathcal{E}_3^{\mathbf{2}} \to \mathcal{E}_2^{\mathbf{2}}$ for all $f \in \mathcal{E}_1^{\mathbf{2}}$.
@@ -451,9 +451,41 @@ The relations in example \ref{PushoutProductOfSpheresInclusionsIntoDisks} are th
 
 =--
 
+### Pushout application of natural transformations
 
+The following example exploits the generality of allowing $\mathcal{E}_1,\mathcal{E}_2,\mathcal{E}_3$ to differ in the functor $\otimes \colon \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$.
 
+Let $\mathcal{C},\mathcal{D}$ be [[categories]] such that $\mathcal{D}$ has [[pushouts]].
+We have the [[evaluation]] [[functor]] $ev \colon [\mathcal{C},\mathcal{D}] \times \mathcal{C} \to \mathcal{D}$ sending a functor $F$ and object $c$ to $F(d)$.
 
+The induced pushout product $\widehat{ev} \colon [\mathcal{C},\mathcal{D}]^{\mathbf{2}} \times \mathcal{C}^{\mathbf{2}} \to \mathcal{D}^{\mathbf{2}}$ takes a [[natural transformation]] and a morphism of $\mathcal{C}$ and outputs a morphism of $\mathcal{D}$.
+
++-- {: .num_defn}
+###### Example
+  {#CylinderPushoutApplication}
+
+Given a [[cylinder functor]] $C \colon \mathcal{E} \to \mathcal{E}$ with natural transformations $e_0,e_1 \colon Id_{\mathcal{E}} \to C$, the pushout application of $e_k$ to $f \colon A \to B$ is the map
+$$
+   B \amalg_A CA \overset{\widehat{ev}(e_k,f)}{\longrightarrow} CB
+$$
+from the ($k$-oriented) [[mapping cylinder]] of $f$ to the cylinder on $B$.
+
+=--
+
+Now suppose additionally that $\mathcal{C}$ has pullbacks.
+Write $Cat_adj(\mathcal{C},\mathcal{D})$ for the category whose objects are [[adjoint functors]] $\mathcal{C} : L \dashv R : \mathcal{D}$ and whose morphisms are [[conjugate transformations of adjoints]] (in the direction of the transformation of left adjoints).
+
+We have a functor $ev_L \colon Cat_adj(\mathcal{C},\mathcal{D}) \times \mathcal{C} \to \mathcal{D}$ which applies the left adjoint and a functor $ev_R \colon \Cat_adj(\mathcal{C},\mathcal{D})^{op} \times \mathcal{D} \to \mathcal{C}$ which applies the right adjoint, and $ev_L(L \dashv R, -)$ is [[left adjoint]] to $ev_R(L \dashv R, -)$ for every pair of adjoints $L \dashv R$.
+
+Hence for any conjugate transformations $(\lambda, \rho) \colon (L_1 \dashv R_1) \to (L_2 \dashv R_2)$, it follows from Proposition \ref{PushoutProductPullbackPowerAdjoint} that the pushout product $\widehat{ev_L}((\lambda, \rho),-)$ (which is the same as $\widehat{ev}(\lambda,-)$) is [[left adjoint]] to the [[pullback power]] $\widehat{ev_R}((\lambda,\rho),-)$.
+
++-- {: .num_defn}
+###### Example
+
+Given a [[cylinder functor]] $C \colon \mathcal{E} \to \mathcal{E}$ with a right adjoint $P \colon \mathcal{E} \to \mathcal{E}$, the conjugates of $e_0,e_1 \colon Id_{\mathcal{E}} \to C$ make $P$ into a functorial [[cocylinder]].
+The pushout application of $e_k$ from Example \ref{CylinderPushoutApplication} is then left adjoint to the pullback application of its conjugate, which sends $f : Y \to X$ to the map $P Y \to Y \times_X P X$ from the [[path space]] of $Y$ to the [[mapping path space]] of $f$.
+
+=--
 
 ### General
 
