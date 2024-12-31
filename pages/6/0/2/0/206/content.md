@@ -66,6 +66,8 @@ Introductory textbooks:
 
 * [[Carl Faith]], _Algebra: Rings, Modules, Categories I_, Grundlehren der mathematischen Wissenschaften **190**, Springer (1973) &lbrack;[doi:10.1007/978-3-642-80634-6](https://doi.org/10.1007/978-3-642-80634-6)&rbrack;
 
+* [[Serge Lang]]: _Algebra_, 3rd ed. Springer (2002) &lbrack;[doi:10.1007/978-1-4613-0041-0](https://doi.org/10.1007/978-1-4613-0041-0)&rbrack;
+
 * [[Anthony Knapp]], *Basic Algebra*, Springer (2006) &lbrack;[doi:10.1007/978-0-8176-4529-8](https://doi.org/10.1007/978-0-8176-4529-8), [pdf](https://www.math.mcgill.ca/darmon/courses/19-20/algebra2/knapp.pdf)&rbrack;
 
 * {#Aluffi09} [[Paolo Aluffi]], *Algebra: Chapter 0*, Graduate Studies in Mathematics **104**,  AMS (2009) &lbrack;[ISBN:978-1-4704-1168-8](https://bookstore.ams.org/gsm-104/)&rbrack;
