@@ -41,6 +41,8 @@ Early review:
 
 Further review and exposition:
 
+* [[Yuan-Ming Lu]], [[Ashvin Vishwanath]], part II of: *Theory and classification of interacting integer topological phases in two dimensions: A Chern-Simons approach*, Phys. Rev. B **86** (2012) 125119, Erratum Phys. Rev. B **89** (2014) 199903 \[<a href="https://doi.org/10.1103/PhysRevB.86.125119">doi:10.1103/PhysRevB.86.125119</a>, [arXiv:1205.3156](https://arxiv.org/abs/1205.3156)\]
+
 * [[Edward Witten]]: *Three Lectures On Topological Phases Of Matter*, La Rivista del Nuovo Cimento **39** (2016) 313-370 \[<a href="https://doi.org/10.1393/ncr/i2016-10125-3">doi:10.1393/ncr/i2016-10125-3</a>, [arXiv:1510.07698](https://arxiv.org/abs/1510.07698)\]
 
 * {#Tong16} [[David Tong]] §5 of: *The Quantum Hall Effect*, lecture notes (2016) \[<a href="https://arxiv.org/abs/1606.06687">arXiv:1606.06687</a>, [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]\]
