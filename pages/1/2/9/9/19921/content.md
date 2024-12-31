@@ -33,6 +33,8 @@ Other work in proof theory:
 
 The categorical construction originally appeared in
 
+* {#DePaiva} [[Valeria de Paiva]], _The Dialectica Categories_. Categories in computer science and logic, Proc. AMS-IMS-SIAM Jt. Summer Res. Conf., Boulder/Colorado. 1987, Contemp. Math. 92, 47-62, 1989. ([pdf](https://drive.google.com/file/d/0ByQvGrHooOoHeXoyUXJSQVVlNVE/view?usp=sharing&resourcekey=0-2PcGnQCQZsPdbXyTyqnG9w))
+
 * {#DePaiva} [[Valeria de Paiva]], _The Dialectica Categories_. University of Cambridge, Computer Laboratory, PhD Thesis, Technical Report 213, 1991 ([pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-213.pdf)).
 
 and has been studied further by de Paiva and many others.
