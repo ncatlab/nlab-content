@@ -12,6 +12,11 @@ His  students included [[Ronnie Brown]] and [[Peter Eccles]].
 
 ## Selected writings
 
+On [[homotopy groups]] of [[mapping spaces]]:
+
+* {#Barratt55} [[Michael G. Barratt]]: *Track Groups (I)*, Proceedings of the London Mathematical Society **s3-5** 1 (1955) &lbrack;[doi:10.1112/plms/s3-5.1.71]( https://doi.org/10.1112/plms/s3-5.1.71), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/barrtr1.pdf)&rbrack;
+
+
 On [[twisting functions]] and ([[semisimplicial set|semi]]-)[[simplicial fiber bundles]]:
 
 * [[Michael G. Barratt]], [[Victor K.A.M. Gugenheim]], [[John C. Moore]], _On semisimplicial fibre-bundles_, Amer. J. Math. __81__ (1959) 639-657 &lbrack;[doi:10.2307/2372920](https://doi.org/10.2307/2372920), [jstor:2372920](https://www.jstor.org/stable/2372920), MR0111028&rbrack;
