@@ -244,19 +244,19 @@ Here the mapping stack adjunction...
 
 * {#GuWen09} [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], *Tensor-Entanglement-Filtering Renormalization Approach and Symmetry Protected Topological Order*, Phys. Rev. B **80** 155131 (2009) $[$[arXiv:0903.1069](https://arxiv.org/abs/0903.1069), [doi:10.1103/PhysRevB.80.155131](https://doi.org/10.1103/PhysRevB.80.155131)$]$
 
-* {#PBTO09} [[Frank Pollmann]], [[Erez Berg]], [[Ari M. Turner]], [[Masaki Oshikawa]], *Symmetry protection of topological order in one-dimensional quantum spin systems*, Phys. Rev. B **85** 075125 (2012) $[$[arXiv:0909.4059](https://arxiv.org/abs/0909.4059), [doi:10.1103/PhysRevB.85.075125](https://doi.org/10.1103/PhysRevB.85.075125)$]$
+* {#PBTO09} [[Frank Pollmann]], [[Erez Berg]], [[Ari M. Turner]], [[Masaki Oshikawa]], *Symmetry protection of topological order in one-dimensional quantum spin systems*, Phys. Rev. B **85** 075125 (2012) &lbrack;[arXiv:0909.4059](https://arxiv.org/abs/0909.4059), [doi:10.1103/PhysRevB.85.075125](https://doi.org/10.1103/PhysRevB.85.075125)&rbrack;
 
 * [[Xie Chen]], [[Zheng-Xin Liu]], [[Xiao-Gang Wen]], *2D symmetry protected topological orders and their protected gapless edge excitations*, Phys. Rev. B 84, 235141 (2011); 
 
 See also:
 
-* {#YeWen13} [[Peng Ye]], [[Xiao-Gang Wen]], *Projective construction of two-dimensional symmetry-protected topological phases with $\mathrm{U}(1)$, $SO(3)$, or $SU(2)$ symmetries*, Phys. Rev. B **87** 195128 (2013) $[$[doi:10.1103/PhysRevB.87.195128](https://doi.org/10.1103/PhysRevB.87.195128), [arXiv:1212.2121](https://arxiv.org/abs/1212.2121)$]$
+* {#YeWen13} [[Peng Ye]], [[Xiao-Gang Wen]], *Projective construction of two-dimensional symmetry-protected topological phases with $\mathrm{U}(1)$, $SO(3)$, or $SU(2)$ symmetries*, Phys. Rev. B **87** 195128 (2013) &lbrack;[doi:10.1103/PhysRevB.87.195128](https://doi.org/10.1103/PhysRevB.87.195128), [arXiv:1212.2121](https://arxiv.org/abs/1212.2121)&rbrack;
 
 
-* {#CLM12} Gil Young Cho, Yuan-Ming Lu, and [[Joel E. Moore]], *Gapless edge states of background field theory and translation-symmetric $\mathbb{Z}_2$ spin liquids*, Phys. Rev. B **86** 125101 (2012) $[$[arXiv:10.1103/PhysRevB.86.125101](https://doi.org/10.1103/PhysRevB.86.125101)$]$
+* {#CLM12} Gil Young Cho, Yuan-Ming Lu, and [[Joel E. Moore]], *Gapless edge states of background field theory and translation-symmetric $\mathbb{Z}_2$ spin liquids*, Phys. Rev. B **86** 125101 (2012) &lbrack;[arXiv:10.1103/PhysRevB.86.125101](https://doi.org/10.1103/PhysRevB.86.125101)&rbrack;
 
 
-* {#CLV14} [[Xie Chen]], Yuan-Ming Lu, Ashvin Vishwanath, *Symmetry-protected topological phases from decorated domain walls*, Nature Communications **5** 3507  (2014) $[$[doi:10.1038/ncomms4507](https://doi.org/10.1038/ncomms4507)$]$
+* {#CLV14} [[Xie Chen]], [[Yuan-Ming Lu]], [[Ashvin Vishwanath]]: *Symmetry-protected topological phases from decorated domain walls*, Nature Communications **5** 3507  (2014) &lbrack;[doi:10.1038/ncomms4507](https://doi.org/10.1038/ncomms4507)&rbrack;
 
 * [[Juven Wang]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], _Field theory representation of gauge-gravity symmetry-protected topological invariants, group cohomology and beyond_, Phys. Rev. Lett. **114** (2015) 031601 &lbrack;[arxiv:1405.7689](https://arxiv.org/abs/1405.7689), [doi:10.1103/PhysRevLett.114.031601](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.114.031601)&rbrack;
 
@@ -284,11 +284,11 @@ See also:
 
 Review with focus on the case of [[topological insulators]] [[symmetry protected topological phase|protected by]] [[crystallographic group]]-[[symmetry]]:
 
-* [[Yoichi Ando]], [[Liang Fu]], *Topological Crystalline Insulators and Topological Superconductors: From Concepts to Materials*, Annual Review of Condensed Matter Physics **6** (2015) 361-381 $[$[arXiv:1501.00531](https://arxiv.org/abs/1501.00531), [doi:10.1146/annurev-conmatphys-031214-014501](https://doi.org/10.1146/annurev-conmatphys-031214-014501)$]$
+* [[Yoichi Ando]], [[Liang Fu]], *Topological Crystalline Insulators and Topological Superconductors: From Concepts to Materials*, Annual Review of Condensed Matter Physics **6** (2015) 361-381 &lbrack;[arXiv:1501.00531](https://arxiv.org/abs/1501.00531), [doi:10.1146/annurev-conmatphys-031214-014501](https://doi.org/10.1146/annurev-conmatphys-031214-014501)&rbrack;
 
 A proposal for classifying symmetry-protected [[topological order]] in terms of [[2-group|2-groupoidal]]-actions on [[modular tensor categories]]:
 
-* {#BBCW19} [[Maissam Barkeshli]], [[Parsa Bonderson]], [[Meng Cheng]], [[Zhenghan Wang]], *Symmetry Fractionalization, Defects, and Gauging of Topological Phases*, Phys. Rev. B **100** 115147 (2019) $[$[arXiv:1410.4540](https://arxiv.org/abs/1410.4540), [doi:10.1103/PhysRevB.100.115147](https://doi.org/10.1103/PhysRevB.100.115147), [talk pdf](http://helper.ipam.ucla.edu/publications/stq2015/stq2015_12401.pdf)$]$
+* {#BBCW19} [[Maissam Barkeshli]], [[Parsa Bonderson]], [[Meng Cheng]], [[Zhenghan Wang]], *Symmetry Fractionalization, Defects, and Gauging of Topological Phases*, Phys. Rev. B **100** 115147 (2019) &lbrack;[arXiv:1410.4540](https://arxiv.org/abs/1410.4540), [doi:10.1103/PhysRevB.100.115147](https://doi.org/10.1103/PhysRevB.100.115147), [talk pdf](http://helper.ipam.ucla.edu/publications/stq2015/stq2015_12401.pdf)&rbrack;
 
 * [[Zhenghan Wang]], §2.2 of: *Beyond Anyons*,  Modern Physics Letters A **33** 28 (2018) 1830011  &lbrack;[arXiv:1710.00464](https://arxiv.org/abs/1710.00464), [doi:10.1142/S0217732318300112](https://doi.org/10.1142/S0217732318300112)&rbrack;
 
@@ -298,11 +298,11 @@ A proposal for classifying symmetry-protected [[topological order]] in terms of 
 
 See also:
 
-* {#WangSenthil14} Chong Wang, T. Senthil, *Interacting fermionic topological insulators/superconductors in three dimensions*, Phys. Rev. B **89** 195124 (2014) $[$[arXiv:1401.1142](https://arxiv.org/abs/1401.1142), [doi:10.1103/PhysRevB.89.195124](https://doi.org/10.1103/PhysRevB.89.195124)$]$
+* {#WangSenthil14} Chong Wang, T. Senthil, *Interacting fermionic topological insulators/superconductors in three dimensions*, Phys. Rev. B **89** 195124 (2014) &lbrack;[arXiv:1401.1142](https://arxiv.org/abs/1401.1142), [doi:10.1103/PhysRevB.89.195124](https://doi.org/10.1103/PhysRevB.89.195124)$]$
 
 * Hao Song, Sheng-Jie Huang, [[Liang Fu]], Michael Hermele, *Topological phases protected by point group symmetry*, Phys. Rev. X **7** (2017) 011020 $[$[arXiv:1604.08151](https://arxiv.org/abs/1604.08151), [doi:10.1103/PhysRevX.7.011020](https://doi.org/10.1103/PhysRevX.7.011020)$]$
 
-* Zhen Bi, *Physical Properties and Experimental Platform of Symmetry Protected Topological Phases* (2017) $[$[escholarship:37q1k2rj](https://escholarship.org/uc/item/37q1k2rj)$]$
+* Zhen Bi, *Physical Properties and Experimental Platform of Symmetry Protected Topological Phases* (2017) &lbrack;[escholarship:37q1k2rj](https://escholarship.org/uc/item/37q1k2rj)&rbrack;
 
 Some of the above material is taken from:
 
@@ -350,7 +350,7 @@ Proposal that the general classification involves [[equivariant cohomology|equiv
 
 The 1d Haldane phase:
 
-* {#Haldane83} [[Duncan Haldane]], *Continuum dynamics of the 1-D Heisenberg antiferromagnet: Identification with the $O(3)$ nonlinear sigma model*, Physics Letters A **93** 9 (1983) 464-468 $[$<a href="https://doi.org/10.1016/0375-9601(83)90631-X">doi:10.1016/0375-9601(83)90631-X</a> $]$
+* {#Haldane83} [[Duncan Haldane]], *Continuum dynamics of the 1-D Heisenberg antiferromagnet: Identification with the $O(3)$ nonlinear sigma model*, Physics Letters A **93** 9 (1983) 464-468 &lbrack;<a href="https://doi.org/10.1016/0375-9601(83)90631-X">doi:10.1016/0375-9601(83)90631-X</a>&rbrack;
 
 Examples with [[braid group]] effects:
 
@@ -358,7 +358,7 @@ Examples with [[braid group]] effects:
 
 and with [[loop braid group]]-effects:
 
-* Chao-Ming Jian, Xiao-Liang Qi, *Layer Construction of 3D Topological States and String Braiding Statistics*, Phys. Rev. X **4** (2014) 041043 $[$[doi:10.1103/PhysRevX.4.041043](https://doi.org/10.1103/PhysRevX.4.041043)$]$
+* Chao-Ming Jian, Xiao-Liang Qi, *Layer Construction of 3D Topological States and String Braiding Statistics*, Phys. Rev. X **4** (2014) 041043 &lbrack;[doi:10.1103/PhysRevX.4.041043](https://doi.org/10.1103/PhysRevX.4.041043)&rbrack;
 
 and with both:
 
@@ -370,13 +370,13 @@ and with both:
 
 * [[Michael Levin]], Zheng-Cheng Gu, Braiding statistics approach to symmetry-protected topological phases, Phys. Rev. B 86, 115109 (2012), arXiv:1202.3120.
 
-* Yuan-Ming Lu, Ashvin Vishwanath, Theory and classification of interacting 'integer' topological phases in two dimensions: A Chern-Simons approach, Phys. Rev. B 86, 125119 (2012), arXiv:1205.3156.
+* Yuan-Ming Lu, [[Ashvin Vishwanath]]: *Theory and classification of interacting integer topological phases in two dimensions: A Chern-Simons approach*, Phys. Rev. B **86** (2012) 125119, Erratum Phys. Rev. B **89** (2014) 199903 \[<a href="https://doi.org/10.1103/PhysRevB.86.125119">doi:10.1103/PhysRevB.86.125119</a>, [arXiv:1205.3156](https://arxiv.org/abs/1205.3156)\]
 
-* [[Davide Gaiotto]], [[Theo Johnson-Freyd]], _Symmetry protected topological phases and generalized cohomology_ $[$[arxiv/1712.07950](https://arxiv.org/abs/1712.07950)$]$
+* [[Davide Gaiotto]], [[Theo Johnson-Freyd]], _Symmetry protected topological phases and generalized cohomology_ &lbrack;[arxiv/1712.07950](https://arxiv.org/abs/1712.07950)&rbrack;
 
 * Yizhi You, Trithep Devakul, F. J. Burnell, Titus Neupert, *Higher order symmetry-protected topological states for interacting bosons and fermions*, Phys. Rev. B **98** (2018) 235102  ([arXiv:1807.09788v2](https://arxiv.org/abs/1807.09788), [doi:10.1103/PhysRevB.98.235102](https://doi.org/10.1103/PhysRevB.98.235102))
 
-* Rongge Xu, Zhi-Hao Zhang, *Categorical descriptions of 1-dimensional gapped phases with abelian onsite symmetries* $[$[arXiv:2205.09656](https://arxiv.org/abs/2205.09656)$]$
+* Rongge Xu, Zhi-Hao Zhang, *Categorical descriptions of 1-dimensional gapped phases with abelian onsite symmetries* &lbrack;[arXiv:2205.09656](https://arxiv.org/abs/2205.09656)&rbrack;
 
 Observation in [[experiment]]:
 
