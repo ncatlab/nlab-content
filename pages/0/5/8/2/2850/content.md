@@ -52,6 +52,7 @@ In [[index theory]]:
 
 * [[Stolz conjecture]]
 
+
 ## References
 
 > See also the references at *[[differential geometry]]*.
@@ -64,7 +65,7 @@ Riemannian geometry is named after:
 
 Early monograph:
 
-* [[Luther P. Eisenhart]], *Riemannian Geometry*, Princeton University Press (1925, 1950) &lbrack;[ISBN:9780691023533](https://press.princeton.edu/books/paperback/9780691023533/riemannian-geometry), [ark:/13960/t47q47r0k](https://archive.org/details/in.ernet.dli.2015.524829), [pdf](http://www.uop.edu.pk/ocontents/Eisenhart-RiemannianGeometry.pdf)&rbrack;
+* [[Luther P. Eisenhart]]: *Riemannian Geometry*, Princeton University Press (1925, 1950) &lbrack;[ISBN:9780691023533](https://press.princeton.edu/books/paperback/9780691023533/riemannian-geometry), [ark:/13960/t47q47r0k](https://archive.org/details/in.ernet.dli.2015.524829), [pdf](http://www.uop.edu.pk/ocontents/Eisenhart-RiemannianGeometry.pdf)&rbrack;
 
 Original discussion via [[Cartan geometry]] of [[coframe fields]]:
 
@@ -91,6 +92,8 @@ Modern monographs:
 * {#Berger} [[Marcel Berger]], _A panoramic view of Riemannian geometry_, Springer (2003) &lbrack;[doi:10.1007/978-3-642-18245-7](https://doi.org/10.1007/978-3-642-18245-7)&rbrack;
 
 * Peter Petersen: *Riemannian Geometry*, Springer (2006) &lbrack;[doi:10.1007/978-0-387-29403-2](https://doi.org/10.1007/978-0-387-29403-2), [pdf](https://download.tuxfamily.org/openmathdep/geometry_advanced/Riemannian_Geometry-Peterson.pdf)&rbrack;
+
+* [[Adam Marsh]]: *Riemannian Geometry: Definitions, Pictures, and Results* &lbrack;[arXiv:1412.2393](https://arxiv.org/abs/1412.2393)&rbrack;
 
 
 Lecture notes:
