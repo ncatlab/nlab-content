@@ -85,7 +85,7 @@ In constructive mathematics, the various definitions of real closed field bifurc
 
 ## References 
 
-* [[Serge Lang]], _Algebra_ (3rd edition), Addison-Wesley, 1993. 
+* [[Serge Lang]]: _Algebra_, 3rd ed. Springer (2002) &lbrack;[doi:10.1007/978-1-4613-0041-0](https://doi.org/10.1007/978-1-4613-0041-0)&rbrack;
 
 * David Marker, _Notes on Real Algebra_ [(link)](http://www.math.uic.edu/~marker/orsay/real_algebra.pdf) 
 
