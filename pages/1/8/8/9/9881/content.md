@@ -116,6 +116,9 @@ See also
 
 * Gaston Giribet, Nicholas Labranche, Joan La Madrid, *Comments on the two-point string amplitudes* &lbrack;[arXiv:2303.15658](https://arxiv.org/abs/2303.15658)&rbrack;
 
+* [[Nima Arkani-Hamed]], Carolina Figueiredo, [[Grant N. Remmen]]: *Open String Amplitudes: Singularities, Asymptotics, and New Representations* &lbrack;[arXiv:2412.20639](https://arxiv.org/abs/2412.20639)&rbrack;
+
+
 
 On string scattering amplitudes in view of the [[S-matrix bootstrap]]:
 
