@@ -338,8 +338,14 @@ Textbook accounts:
 * [[Francis Borceux]], Sections 7.1 & 7.2 of: *Categories and Structures*, Vol. 2 of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
 
 
-
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, Sections 1.2, 1.3 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
+On the [[homotopy type]] of mapping spaces via [[spectral sequences]]:
+
+* {#Federer56} [[Herbert Federer]]: *A Study of Function Spaces by Spectral Sequences*, Transactions of the AMS **82** 2 (1956) 340-361 \[<a href="https://doi.org/10.2307/1993052">doi:10.2307/1993052</a>, [jstor:1993052](https://www.jstor.org/stable/1993052)\]
+
+* {#Dyer67} [[Michael N. Dyer]]: *Two Term Conditions in π Exact Couples*, Canadian Journal of Mathematics **19**  (1967) 1263-1288 \[<a href="https://doi.org/10.4153/CJM-1967-116-6">doi:10.4153/CJM-1967-116-6</a>\]
+
 
 See also:
 
