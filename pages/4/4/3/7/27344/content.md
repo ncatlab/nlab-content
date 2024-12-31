@@ -29,6 +29,10 @@ On abstract characterization of the [[Veneziano amplitude]] ([[string scattering
 
 * [[Clifford Cheung]], Aaron Hillman, [[Grant N. Remmen]]: *A Bootstrap Principle for the Spectrum and Scattering of Strings*, Phys. Rev. Lett. **133** (2024) 251601 &lbrack;[arXiv:2406.02665](https://arxiv.org/abs/2406.02665), [doi:10.1103/PhysRevLett.133.251601](https://doi.org/10.1103/PhysRevLett.133.251601)&rbrack;
 
+On [[open string|open]] [[string scattering amplitudes]]:
+
+* [[Nima Arkani-Hamed]], Carolina Figueiredo, [[Grant N. Remmen]]: *Open String Amplitudes: Singularities, Asymptotics, and New Representations* &lbrack;[arXiv:2412.20639](https://arxiv.org/abs/2412.20639)&rbrack;
+
 
 [[!redirects Grant Remmen]]
 
