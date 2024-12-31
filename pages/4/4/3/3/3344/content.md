@@ -152,7 +152,7 @@ Any small category $\mathcal{A}$ which is closed under finite products and which
 
 The notion of test category was introduced in 
 
-* {#Grothendieck83} [[Alexandre Grothendieck]], _[[Pursuing Stacks]]_, 1983 ([djvu](http://people.math.jussieu.fr/~maltsin/groth/ps/Pursuing_Stacks.djvu))
+* {#Grothendieck83} [[Alexandre Grothendieck]], _[[Pursuing Stacks]]_, 1983 ([djvu](http://webusers.imj-prg.fr/~georges.maltsiniotis/groth/ps/Pursuing_Stacks.djvu))
  
 
 Various conjectures made there are proven in 
@@ -168,7 +168,7 @@ General surveys include
 [html](https://webusers.imj-prg.fr/~georges.maltsiniotis/textes.html))
 
 
-* [[J. F. Jardine]], _Categorical homotopy theory_, Homot. Homol. Appl. __8__ (1), 2006, pp.71&#8211;144, ([HHA](http://www.intlpress.com/HHA/v8/n1/a3/),  [pdf](http://www.intlpress.com/HHA/v8/n1/a3/v8n1a3.pdf))
+* [[J. F. Jardine]], _Categorical homotopy theory_, Homot. Homol. Appl. __8__ (1), 2006, pp.71&#8211;144, [doi](https://doi.org/10.4310/hha.2006.v8.n1.a3).
 
 That the [[cube category]] is a test category is asserted without proof in  ([Grothendieck](#Grothendieck)). A proof is spelled out in ([Cisinski](#Cisinski))
 
