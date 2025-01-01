@@ -95,9 +95,11 @@ $$
 
 Original articles:
 
-* {#Rieffel81} [[Marc A. Rieffel]], _$C^\ast$-algebras associated with irrational rotations_, Pacific Journal of Mathematics 93:2 (1981), 415–429 ([pdf](https://msp.org/pjm/1981/93-2/pjm-v93-n2-p12-s.pdf), [doi:10.2140/pjm.1981.93.415](http://dx.doi.org/10.2140/pjm.1981.93.415), [euclid:pjm/1102736269](https://projecteuclid.org/euclid.pjm/1102736269))
+* {#Rieffel81} [[Marc A. Rieffel]]L _$C^\ast$-algebras associated with irrational rotations_, Pacific Journal of Mathematics **93** 2 (1981) 415–429 &lbrack;[pdf](https://msp.org/pjm/1981/93-2/pjm-v93-n2-p12-s.pdf), [doi:10.2140/pjm.1981.93.415](http://dx.doi.org/10.2140/pjm.1981.93.415), [euclid:pjm/1102736269](https://projecteuclid.org/euclid.pjm/1102736269)&rbrack;
 
-* [[Marc Rieffel]], [[Albert Schwarz]], _Morita equivalence of multidimensional noncommutative tori_, Int. J. Math. 10 (1999) 289-299 ([arXiv:math/9803057](https://arxiv.org/abs/math/9803057))
+* [[Marc A. Rieffel]]: *Non-Commutative Tori -- A Case Study on Non-Commutative Differentiable Manifolds*, in *Geometric and Topological Invariants of Elliptic Operators*, Contemporary Mathematics **105**, AMS (1990) 191-211 &lbrack;[doi:10.1090/conm/105](https://doi.org/10.1090/conm/105), [pdf](https://math.berkeley.edu/~rieffel/papers/non_com_tori.pdf)&rbrack;
+
+* [[Marc Rieffel]], [[Albert Schwarz]]: _Morita equivalence of multidimensional noncommutative tori_, Int. J. Math. **10** (1999) 289-299 &lbrack;[arXiv:math/9803057](https://arxiv.org/abs/math/9803057)&rbrack;
 
 * George A. Elliott and Hanfeng Li, _Morita equivalence of smooth noncommutative tori_, Acta Math. Volume 199, Number 1 (2007), 1-27 ([euclid:acta/1485891908](https://projecteuclid.org/euclid.acta/1485891908))
 
