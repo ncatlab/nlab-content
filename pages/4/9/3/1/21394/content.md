@@ -71,6 +71,7 @@ The notion of premodel category doesn't come with a good general notion of weak 
 In principle one must also distinguish a third class of cofibrations that have the left lifting property with respect to fibrations between fibrant objects. However, in a relaxed premodel category, these are trivial cofibrations. ([Barton, Prop 3.5.2](#Barton))
 
 ## Cylindrical premodel categories
+  {#Cylindrical}
 
 A **cylindrical** premodel category is one equipped with well-behaved [[cylinder]] and [[cocylinder]] functors.
 In the following, we assume that $\mathcal{E}$ is a [[finitely complete]] and [[finitely cocomplete]] category.
@@ -95,6 +96,7 @@ Given a cylinder functor $C \colon \mathcal{E} \to \mathcal{E}$, write $\partial
 
 +-- {: .num_defn}
 ###### Definition
+  {#WFSCylindrical}
 
 Let $C \dashv P$ be an adjoint functorial cylinder on $\mathcal{E}$.
 A [[weak factorization system]] $(L,R)$ on $\mathcal{E}$ is **cylindrical** if $L$ is closed under the [[pushout-product#PushoutApplication|pushout application]] $\widehat{ev}(\partial,-) \colon \mathcal{E}^{\mathbf{2}} \to \mathcal{E}^{\mathbf{2}}$.
