@@ -850,7 +850,7 @@ This group
    $$
      1
      \to
-     \mathbb{Z}/(2k)
+     \mathbb{Z}/(2\left\vert k\right\vert)
      \longrightarrow
      \pi_1 Maps\big(\Sigma_g, S^2\big)_{\vert deg = k}
      \longrightarrow
@@ -1006,6 +1006,39 @@ In this integer Heisenberg group
 
 \end{example}
 
+The remaining multiple not fixed by Prop. \ref{FundamentalGroupOf2CohomotopyModuliOfTorusIsHeisExt} is found in [Larmore & Thomas 1980](#LarmoreThomas80) to be: 2. In fact they prove for all $g$ that:
+
+\begin{proposition}
+\label{FundamentalGroupOfMapsFromSurfaceToSphereIsTwiceHeisenberg}
+  The [[fundamental group]] of the [[mapping space]] from a [[closed manifold|closed]] [[orientation|orientable]] [[surface]] $\Sigma^2_g$ of [[genus of a surface|genus]] $g$  to the [[2-sphere]], in the [[connected component]] of [[degree of a continuous function|degree]]$= k$ maps, is *twice* the [[Heisenberg group]] extension of $\mathbb{Z}^{2g}$ by $\mathbb{Z}_{2\left\vert k \right\vert}$:
+
+$$
+  \pi_1\big(Maps(\Sigma^2_g,S^2), k\big)
+  \;\simeq\;
+  \Big\{
+    \big(\vec a, \vec b, [n]\big)
+    \,\in\,
+    \mathbb{Z}^n \times \mathbb{Z}^n \times \mathbb{Z}_{2\vert k\vert}
+    \,,
+    \big(
+      \vec a, \vec b, [n]
+    \big)
+    \cdot
+    \big(
+      \vec a', \vec b', [n']
+    \big)
+    \;=\;
+    \big(
+      \vec a + \vec a'
+      ,\,
+      \vec b + \vec b'
+      ,\,
+      [n + n' + {\color{red}2} \vec a \cdot \vec b']
+    \big)
+  \Big\}
+  \mathrlap{\,.}
+$$
+\end{proposition}
 
 \linebreak
 
@@ -1121,6 +1154,8 @@ and more generally on $n$-[[Cohomotopy]] [[cocycle spaces]] of $n$-[[manifolds]]
 * {#Hansen74} [[Vagn Lundsgaard Hansen]], _The homotopy problem for the components in the space of maps on the $n$-sphere_, Quart. J. Math. Oxford Ser. (3) 25 (1974), 313-321 &lbrack;[doi:10.1093/qmath/25.1.313](https://doi.org/10.1093/qmath/25.1.313)&rbrack;
 
 * {#Hansen81} [[Vagn Lundsgaard Hansen]]: *On spaces of maps of $n$-manifolds into the $n$-sphere*, Trans. Amer. Math. Soc. **265** (1981) 273-281 &lbrack;[doi:10.1090/S0002-9947-1981-0607120-X ](https://doi.org/10.1090/S0002-9947-1981-0607120-X )&rbrack;
+
+* {#LarmoreThomas80} L. L. Larmore, E. Thomas: *On the Fundamental Group of a Space of Sections*, Mathematica Scandinavica **47** 2 (1980) 232-246 &lbrack;[jstor:24491393](https://www.jstor.org/stable/24491393), [dml:166724](https://eudml.org/doc/166724)&rbrack;
 
 * W. A. Sutherland: *Path-Components of Function Spaces*, The Quarterly Journal of Mathematics **34** 2 (1983) 223–233 &lbrack;[doi:10.1093/qmath/34.2.223](https://doi.org/10.1093/qmath/34.2.223)&rbrack;
 
