@@ -68,7 +68,7 @@ A symmetrical argument, i.e. one applied to the [[opposite ring]], shows that 1 
 
 Again, by way of taking opposite rings, we have (1 $\iff$ 6) if and only if we have (1 $\iff$ 7) and similarly (1 $\iff$ 8) iff (1 $\iff$ 9), and (1 $\iff$ 10) iff (1 $\iff$ 11). 
 
-\begin{proposition} If $A$ is vN regular, then so is the matrix ring $M_n(A)$ for $n \geq 1$. \end{proposition} 
+\begin{proposition} \label{McCoy} If $A$ is vN regular, then so is the matrix ring $M_n(A)$ for $n \geq 1$. \end{proposition} 
 
 \begin{proof} The following proof is adapted from Kaplansky ([Kaplansky] (#KapFaR)), starting at page 110; see particularly his Theorem 24. It uses a result called McCoy's lemma: If $a x a - a$ is regular, then so is $a$. (Proof: if $(a x a - a)y(a x a - a) = a$, then rewrite this as $a = a x a - (a x a - a)y(a x a - a)$, and notice the right side is of the form $a [\ast] a$.) 
 
@@ -214,9 +214,21 @@ although this $U$ does preserve and reflect arbitrary small [[products]], and it
 
 $$vN\; Ring \hookrightarrow Ring \to Set$$ 
 
-where the inclusion is fully faithful (hence reflects isomorphisms) and the forgetful functor $Ring \to Set$ also reflects isomorphisms. So the problem is that in some cases, [[equalizers]] in $vN\; Ring$ cannot be formed as usual by taking equalizers at the level of $Set$. 
+where the inclusion is fully faithful (hence reflects isomorphisms) and the forgetful functor $Ring \to Set$ also reflects isomorphisms. So the problem is that in some cases, [[equalizers]] in $vN\; Ring$ cannot be formed in the usual way, by taking equalizers at the level of $Set$. 
 
-\begin{example} Let $R = M_2(k)$ for a field $k$; this is vN regular by \end{example}
+\begin{example} Let $R = M_2(k)$ for a field $k$; this is vN regular by an earlier proposition. Let $L \in R$ be the matrix 
+
+$$L = \left(\begin{array}{ccc} 1 & & 1\\0 & & 1\end{array} \right)$$ 
+
+and let $\Phi_L: R \to R$ be conjugation by $L$, i.e., $\Phi_L(X) = L X L^{-1}$. Then the equalizer of the maps $\Phi_L, 1_R$ in $Ring$ is not vN regular. For by a routine  linear algebra calculation, the equalizer, which is the subring of elements fixed under $\Phi_L$, equivalently the [[centralizer]] of $L$ in $M_2(k)$, is the subring $E$ consisting of matrices of the form 
+
+$$\left(\begin{array}{ccc} a & & b\\0 & & a\end{array} \right),$$ 
+
+but this $E$ has a nonzero nilpotent two-sided ideal consisting of such matrices where $a = 0$. Therefore $E$ is not von Neumann regular by the following lemma. \end{example} 
+
+\begin{lemma} In a vN regular ring, the only nilpotent two-sided ideal is the zero ideal. \end{lemma} 
+
+\begin{proof} It suffices to show that for $I$ any two-sided ideal, $I^2 = \{0\}$ implies $I = \{0\}$. But if $a \in I$ and $a x a = a$, then $a \in I$ and $x a \in I$, so $a = a(x a) \in I^2 = \{0\}$, i.e., $a = 0$. \end{proof} 
 
 ## Examples
 
@@ -230,7 +242,9 @@ where the inclusion is fully faithful (hence reflects isomorphisms) and the forg
 
 * For $V$ a [[vector space]] over a [[skew-field]] $K$, its [[endomorphism ring]] $End_K(V)$ is von Neumann regular.
 
-* The property of being a von Neumann regular ring is [[invariant]] under [[Morita equivalence]], so if $A$ is a von Neumann regular ring so is the $n \times n$ [[matrix algebra]] $M_n(A)$.  
+* The property of being a von Neumann regular ring is [[invariant]] under [[Morita equivalence]], so if $A$ is vN regular, then any ring $B$ Morita equivalent to $A$ is also vN regular. For example, Proposition \ref{McCoy} gives the case of a [[matrix|matrix ring]] $B = M_n(A)$, which is Morita equivalent to $A$. 
+
+\begin{remark} To check that a property is preserved by Morita equivalence, it suffices to check that (1) the property passes up from $R$ to matrix rings $M_n(R)$, and (2) the property passes from $R$ to "corner rings", i.e., rings of the form $e R e$ where $e$ is an idempotent such that $R= R e R$. See [Lam's Lectures on Modules and Rings](https://link.springer.com/book/10.1007/978-1-4612-0525-8), Proposition 18.33 (p. 491). As just remarked, (1) holds for von Neumann regularity. (2) easily holds for von Neumann regularity, just by exploiting the equation $(e a e)x(e a e) = (e a e)(e x e)(e a e)$ for idempotents $e$. \end{remark}
 
 
 ## References
