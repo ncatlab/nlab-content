@@ -992,6 +992,7 @@ Discussion for [[Goursat categories]]:
 [[!redirects Beck-Chevalley Condition]]
 [[!redirects Beck–Chevalley condition]]
 [[!redirects Beck--Chevalley condition]]
+[[!redirects Beck--Chevalley conditions]]
 [[!redirects Beck condition]]
 [[!redirects Chevalley condition]]
 [[!redirects Beck-Chevalley property]]
