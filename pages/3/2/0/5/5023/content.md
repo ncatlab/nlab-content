@@ -71,12 +71,16 @@ $$
   \exp(a_2 \mathbf{q} + b_2 \mathbf{p})
   \exp(c_2 \mathbf{e})
   = 
-  \exp((a_1 + b_1) \mathbf{q} + (b_1 + c_1) \mathbf{p})
-  \exp(c_1 + c_2 - \frac{1}{2}(a_1 b_2 - a_2 b_1) \mathbf{e})
+  \exp\big(
+    (a_1 + b_1) \mathbf{q} + (b_1 + c_1) \mathbf{p}
+  \big)
+  \exp\big(
+    c_1 + c_2 - \tfrac{1}{2}(a_1 b_2 - a_2 b_1) \mathbf{e}
+  \big)
   \,.
 $$
 
-A discrete [[quotient]] group of this, which still has the same [[Lie algebra]], has as underlying manifold $\mathbb{R}^2 \times U(1)$ (the second factor being the [[circle group]]), with the projection
+A discrete [[quotient group]] of this, [[Lie integration|integrating]] the same [[Lie algebra]], has as underlying manifold $\mathbb{R}^2 \times U(1)$ (the second factor being the [[circle group]]), with the projection
 
 $$
   \mathbb{R}^2 \times \mathbb{R}
@@ -103,19 +107,26 @@ $$
   \exp(a_2 \mathbf{q} + b_2 \mathbf{p})
   \exp(2 \pi i c_2 )
   = 
-  \exp((a_1 + b_1) \mathbf{q} + (b_1 + c_1) \mathbf{p})
-  \exp(2 \pi i(c_1 + c_2 - \frac{1}{2}(a_1 b_2 - a_2 b_1)))
+  \exp\big(
+    (a_1 + b_1) \mathbf{q} + (b_1 + c_1) \mathbf{p}
+  \big)
+  \exp\Big(
+    2 \pi \mathrm{i}\big(
+     c_1 + c_2 - \tfrac{1}{2}(a_1 b_2 - a_2 b_1)
+   \big)
+  \Big)
   \,.
 $$
 
 While the Lie algebra is still the same real [[Heisenberg Lie algebra]] as before, it is now suggestive to write the Lie bracket as
 
 $$
-  [q,p] = i
+  [q,p] = \mathrm{i}
   \,.
 $$
 
 This is the way the relation appears in texts on [[quantum physics]].
+
 ### For a symplectic vector space
 
 Generally, there is a Heisenberg group $H(V, \omega)$ associated to 
@@ -128,7 +139,9 @@ The Heisenberg group $H(V,\omega)$ is the space $V \times U(1)$ (for $U(1)$ the 
 $$
   (v_1, c_1) \cdot (v_2, c_2)
   = 
-  (v_1 + v_2, c_1 c_2 \exp(2 \pi i \omega(v,w)))
+  \Big(
+    v_1 + v_2, c_1 c_2 \exp\big(2 \pi i \omega(v,w)\big)
+  \Big)
   \,.
 $$
 
@@ -139,7 +152,7 @@ $$
 
 A [[symplectic vector space]] $(V, \omega)$ is in particular a [[symplectic manifold]]. Accordingly its algebra of [[smooth functions]] $C^\infty(V)$ is a [[Poisson algebra]]. The [[Lie algebra]] underlying the Poisson algebra contains the [[Heisenberg Lie algebra]] as the subspace with is the [[direct sum]] of the [[linear functions]] $V^* \hookrightarrow C^\infty(V)$ and the constant functions $\mathbb{R} \hookrightarrow C^\infty(V)$.
 
-For more details in this at _[[Heisenberg Lie algebra]]_ the section _[Relation to Poisson algebra](#http://ncatlab.org/nlab/show/Heisenberg%20Lie%20algebra#RelationToPoissonAlgebra)_.
+For more details in this at _[[Heisenberg Lie algebra]]_ the section _[Relation to Poisson algebra](Heisenberg+Lie+algebra#RelationToPoissonAlgebra)_.
 
 ### Relation to symplectomorphisms
  {#RelationToSymplectomorphisms}
@@ -156,22 +169,29 @@ $$
   (a,b) + (a',b') = (a + a' , b + b')
 $$
 
-carries a degree-2 [[group cocycle]] $\omega$ with values in $\mathbb{R}$ given by
+carries a degree=2 [[group cocycle]] $\omega$ with values in $\mathbb{R}$ given by
 
 $$
-  \omega : ((a_1,b_1), (a_2,b_2)) \mapsto a_1 \cdot b_2
+  \omega \colon 
+    \big((a_1,b_1), (a_2,b_2)\big) 
+    \mapsto 
+    a_1 \cdot b_2
   \,.
 $$
 
-The cocycle condition for this is the identity
+The cocycle condition for this is
 
 $$
   a_1 \cdot (b_2 + b_3) + a_2 \cdot b_3 
   =
   a_1 \cdot b_2 + (a_1 + a_2) \cdot b_3
+  \,,
 $$
 
-The Heisenberg group $H_3$ is the [[group extension]] of $\mathbb{R}^2$ by this cocycle.
+which evidently holds due to [[distributivity]].
+
+The Heisenberg group $H_3$ is equivalently the [[central extension]] of $\mathbb{R}^2$ [classified by](group+extension#CentralExtensionClassificationByGroupCohomology) this cocycle.
+
 
 ### Unitary representations
 
