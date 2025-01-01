@@ -969,6 +969,43 @@ is (the [[modulo|mod $n$]]-[[quotient group|quotient]] of) the [[subgroup]] of t
 By (eq:SecondGroupCohomologyOfZPlusZ) all [[central extensions]] of the form $\mathbb{Z}_n \longrightarrow \pi_1 Maps(T^2, S^2)_{\vert deg = k} \longrightarrow \mathbb{Z}^2$ must be multiplies of this integral Heisenberg extension, and must be non-vanishing such multiples since $\pi_1 Maps(T^2, S^2)_{\vert deg = k}$ is [[non-abelian group|non-abelian]], by the above.
 \end{proof}
 
+\begin{example}
+In this integer Heisenberg group
+
+* the [[inverse elements]] are given by
+ 
+  $$
+    \big(a ,\, b ,\, [n]\big)^{-1}
+    \;=\;
+    \big(
+      -a ,\, -b ,\, [-n + a b]
+    \big)
+  $$
+
+* the basic [[group commutators]] give
+
+  $$
+    \begin{array}{ccl}
+      \big[
+        (1,0,0), (0,1,0)
+      \big]
+      &\equiv&
+      (1,0,0) \cdot (0,1,0) \cdot (1,0,0)^{-1} \cdot (0,1,0)^{-1}
+      \\
+      &=&
+      (1,1,1) \cdot (-1,0,0) \cdot (0,-1,0)
+      \\
+      &=&
+      (0,1,1) \cdot (0,-1,0)
+      \\
+      &=&
+      (0,0,1)
+      \mathrlap{\,.}
+    \end{array}
+  $$
+
+\end{example}
+
 
 \linebreak
 
