@@ -351,10 +351,21 @@ This means in particular that split central extensions are product groups $A \to
 If we have a split extension the different  splittings are given by [[derivation on a group|derivation]]s, but with possibly non-abelian values. In fact if we have $s: G\to A\rtimes G$ is a section then $s(g) = (a(g),g)$, and the multiplication in $A\rtimes G$ implies that $a: G\to A$ is a derivation. These are considered as the (possibly non-abelian) 1-cocycles of $G$ with (twisted) coefficients in $A$, as considered in, for instance, Serre's notes on [[Galois cohomology]].
 
 =--
-### Central group extensions
+
+### Extensions by abelian groups
+ {#ExtensionsByAbelianGroups}
+
+Group extensions $A \hookrightarrow \widehat G \twoheadrightarrow G$ by [[abelian groups]] $A$ induce a [[linear map|linear]] [[group action]] of $G$ on $A$ making $A$ a *[[module]]* over the [[group ring]] of $G$, to be denoted $G \curvearrowright A$. The [[isomorphism classes]] of such extensions are classified by the second [[group cohomology]] $H^2_{grp}(G;\, G \curvearrowright A)$ of $G$ with [[coefficients]] in this [[module]] $A$ (cf. [Ho](#Ho)).
+
+Beware that the action $G \curvearrowright A$ is often left notationally implicit in the literature but that the group cohomology sensitively depends on this action.
+
+Precisely in the special case that the [[group action]] is [[trivial action|trivial]] these extensions are [[central extension]], classified by the group cohomology $H^2_{grp}(G;\, A)$ (cf. [Conrad p 1](#Conrad)). This is the case discussed in [the following](#PropertiesCentralGroupExtensions).
+
+
+#### Central extensions
  {#PropertiesCentralGroupExtensions}
 
-We discuss properties of _central_ group extensions, those where $A \hookrightarrow \hat G$ factors through the [[center]] of $\hat G$. This is a special case of the general discussion below in _[Nonabelian group extensions (Schreier theory)](#SchreierTheory)_ but is considerably less complex to write out in components.
+We discuss now properties of _central_ group extensions, those where $A \hookrightarrow \hat G$ factors through the [[center]] of $\hat G$. This is a special case of the general discussion below in _[Extensions by nonabelian groups (Schreier theory)](#SchreierTheory)_ but is considerably less complex to write out in components.
 
 We first discuss the
 
@@ -366,10 +377,10 @@ of central extensions in components, and then show in
 
 how this follows from a more systematic abstract theory.
 
-#### Classification by group cohomology
+##### Classification by group cohomology
  {#CentralExtensionClassificationByGroupCohomology}
 
-We discuss the classification of _central_ extensions by [[group cohomology]]. This is a special case of the more general (and more complicated) discussion below in _[Nonabelian group extensions (Schreier theory)](#SchreierTheory)_.
+We discuss the classification of _central_ extensions by [[group cohomology]]. This is a special case of the more general (and more complicated) discussion below in _[Extensions by nonabelian groups (Schreier theory)](#SchreierTheory)_.
 
 For $G$ a [[group]] and $A$ an [[abelian group]], write 
 
@@ -416,7 +427,9 @@ as follows. The underlying set is the [[cartesian product]] $U(G) \times U(A)$ o
 $$
   (g_1, a_1) \cdot (g_2, a_2)
   \coloneqq
-  (g_1 \cdot g_2 ,\; a_1 + a_2 + c(g_1, g_2))
+  \big(
+    g_1 \cdot g_2 ,\; a_1 + a_2 + c(g_1, g_2)
+  \big)
   \,.
 $$
 
@@ -429,7 +442,7 @@ This defines indeed a group: the [[cocycle]] condition on $c$ gives precisely th
 Moreover, the construction extends to a [[homomorphism]] of groups
 
 $$
-  Rec : H^2_{Grp}(G,A) \to Ext(G,A)
+  Rec \,\colon\, H^2_{Grp}(G,A) \to Ext(G,A)
   \,.
 $$
 
@@ -481,7 +494,9 @@ $$
 The difference between the two expressions is read off to be precisely
 
 $$
-  (1, (d c) (g_1, g_2, g_3))
+  \big(
+    1, (d c) (g_1, g_2, g_3)
+  \big)
  \,,
 $$
 
@@ -492,14 +507,19 @@ To see that it has inverses, notice that for all $(g,a)$ we have
 $$
   (g,a)
   \cdot
-  (g^{-1}, - a - c(g,g^{-1}))
+  \big(
+    g^{-1}, - a - c(g,g^{-1})
+  \big)
   = 
-  (e, a - a - c(g,g^{-1})+ c(g,g^{-1}) )
+  \big(
+    \mathrm{e}, 
+    a - a - c(g,g^{-1})+ c(g,g^{-1}) 
+  \big)
 $$
 
 and hence inverses are given by $(g,a)^{-1} = (g^{-1}, -a - c(g,g^{-1}))$. Hence $G \times_c A$ is indeed a group. 
 
-By the discussion at [group cohomology  -- degree-2](group+cohomology#Degree2) we may assume without restriction that $c$ is a normalized cocycle, hence that $c(e,-) = c(-,e) = 0$. Using this we find that the inclusion 
+By the discussion at [group cohomology  -- degree-2](group+cohomology#Degree2) we may assume without restriction that $c$ is a normalized cocycle, hence that $c(\mathrm{e},-) = c(-,\mathrm{e}) = 0$. Using this we find that the inclusion 
 
 $$
   i \colon A \to G \times_c A
@@ -508,13 +528,21 @@ $$
 given by $a \mapsto (e,a)$ is a group homomorphism. Moreover, the projection on the underlying sets evidently yields a group homomorphism $p \colon G \times_c A \to G$ given by $(g,a) \mapsto g$. The kernel of this is $A$, and hence 
 
 $$
-  A \stackrel{i}{\hookrightarrow} G \times_c A \stackrel{p}{\to} G
+  A 
+    \overset{i}{\hookrightarrow} 
+  G \times_c A 
+    \overset{p}{\longrightarrow} 
+  G
 $$
 
 is indeed a group extension. It is a [[central extension]] again using the assumption that $c$ is normalized $c(g,e) = c(e,g) = 0$:
 
 $$
-  (g,a) \cdot (e,\tilde a) = (g, a + \tilde a + 0) = (e,\tilde a) \cdot (g,a)
+  (g,a) \cdot (\mathrm{e},\tilde a) 
+    \;=\; 
+  (g, a + \tilde a + 0) 
+    \;=\; 
+  (\mathrm{e},\tilde a) \cdot (g,a)
   \,.
 $$
 
@@ -677,7 +705,9 @@ This shows that $Extr \circ Rec = id$ and in particular that $Rec$ is a [[surjec
 
 =--
 
-#### Formulation in homotopy theory
+
+
+##### Formulation in homotopy theory
  {#FormulationInHomotopyTheory}
 
 We discuss the classification of central group extensions by degree-2 [[group cohomology]] in the more abstract context of [[homotopy theory]] (via the translation discussed at _[[looping and delooping]]_), complementing the [above](CentralExtensionClassificationByGroupCohomology
@@ -803,7 +833,7 @@ One sees directly that the morphisms $\mathbf{B}\hat G \to \mathbf{B}G$ and  $\m
 The construction in def. \ref{2CocycleExtractedFromCentralExtension}
 
 $$
-  Rec : CentrExt(G,A) \to H^2_{Grp}(G,A)
+  Rec \,\colon\, CentrExt(G,A) \to H^2_{Grp}(G,A)
 $$
 
 is precisely the result of moving set-theoretically through the [[zigzag]]
@@ -825,13 +855,14 @@ This is a nonabelian analog of the discussion at _[[mapping cone]]_ in the secti
 
 =--
 
-### Abelian group extensions
+
+#### Abelian group extensions
  {#PropertiesAbelianGroupExtensions}
 
 +-- {: .num_remark}
 ###### Remark
 
-For $A, G \in $ [[Ab]] $\hookrightarrow$ [[Grp]] even a [[central extension]] $\hat G$ of $G$ by $A$ is not necessarily itself an abelian group. 
+For $A, G \in $ [[Ab]] $\hookrightarrow$ [[Grp]] even a [[central extension]] $\hat G$ of $G$ by $A$ is not necessarily itself an [[abelian group]]. 
 
 =--
 
@@ -843,7 +874,10 @@ But by prop. \ref{ExtractionAndReconstructionConsituteEquivalence} above it is s
 A 2-cocycle $c \colon G \times G \to A$ in [[group cohomology]] is **symmetric** if
 
 $$
-  \forall_{g_1, g_2 \in G} c(g_1, g_2) = c(g_2, g_1)
+  \forall g_1, g_2 \in G
+  :
+  \;
+  c(g_1, g_2) = c(g_2, g_1)
   \,.
 $$
 
@@ -882,7 +916,7 @@ for the subset of equivalence class of abelian group extensions of $G$ by $A$.
 
 The theory of _abelian group extensions_ in [[Ab]] is naturally and classically treated with tools of [[homological algebra]], such as the theory of [[Ext]]-functors.
 
-For the moment see at _[[projective resolution]]_ the section 
+For the time being see at _[[projective resolution]]_ the section 
 
 * _[Projective resolutions adapted to group cocycles](projective+resolution#ProjectiveResolutionsForGroupCocycles)_
 
@@ -890,11 +924,10 @@ and
 
 * _[Derived Hom-functor / Ext-functor](projective+resolution#DerivedHomFunctor)_ .
 
-### Nonabelian group extensions (Schreier theory)
+### Extensions by non-abelian groups (Schreier theory)
  {#SchreierTheory}
 
-We discuss the classification theory for the general case of nonabelian
-group extensions, first in the form of 
+We discuss the classification theory for the general case of [[nonabelian group]] extensions, first in the form of 
 
 * _[Traditional Schreier theory](#SchreierTheoryTraditional)_
 
@@ -1627,11 +1660,13 @@ Textbooks accounts
 
 * [[Kenneth Brown]],  _Cohomology of Groups_, Graduate Texts in Mathematics, **87**, Springer 1982 ([doi:10.1007/978-1-4684-9327-6](https://link.springer.com/book/10.1007/978-1-4684-9327-6))
 
-Lecture notes and similar include
+Lecture and course notes, etc.:
 
-* [[Brian Conrad]], _Group cohomology and group extensions_ ([pdf](http://math.stanford.edu/~conrad/249BPage/handouts/gpext.pdf))
+* {#Conrad} [[Brian Conrad]]: *Group cohomology and group extensions* &lbrack;[pdf](https://math.stanford.edu/~conrad/210BPage/handouts/gpext.pdf), [[Conrad-GroupCohomologyExtensions.pdf:file]]&rbrack;
 
-* [[Terry Tao]], _Some notes on group extensions_ ([blog](http://terrytao.wordpress.com/2010/01/23/some-notes-on-group-extensions/))
+* {#Ho} Raphael Ho: *Classification of group extensions in $H^2$* (2011) &lbrack;[pdf](https://math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Ho.pdf), [[Ho-GroupExtensions.pdf:file]]&rbrack; 
+
+* [[Terry Tao]], _Some notes on group extensions_ &lbrack;[blog](http://terrytao.wordpress.com/2010/01/23/some-notes-on-group-extensions/)&rbrack;
 
 * [[Patrick Morandi]], _Group extensions and $H^3$_ ([pdf](http://sierra.nmsu.edu/morandi/notes/GroupExtensions.pdf))
 
