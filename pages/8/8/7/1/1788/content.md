@@ -1,93 +1,55 @@
 
-Let's denote [[cyclic groups]] for $n \in \mathbb{N}$ by
 $$
-  \mathbb{Z}_{n}
+  W_a
   \;\coloneqq\;
-  \left\{
-  \begin{array}{lcl}
-    \mathbb{Z} &\vert& n = 0
+  \left[
+  \begin{array}{cccccc}
+    1 & 0 & 0 & 0 & \cdots & 0
     \\
-    \mathbb{Z}/(n) &\vert& \text{otherwise}
+    0 & \zeta & 0 & 0 & \cdots & 0
+    \\
+    0 & 0 & \zeta^2 & 0 & \cdots & 0
+    \\
+    \vdots & \vdots & \vdots &  \ddots & \cdots & 0
+    \\
+    0 & 0 & 0 & 0 & \cdots & \zeta^{k-1} 
   \end{array}
-  \right.
+  \right]
 $$
 
-Observe that the second [[group cohomology]] of the [[free abelian group]] $\mathbb{Z}^2$ is
 $$
-  \begin{array}{ccl}
-    H^2_{Grp}(\mathbb{Z}^2;\, \mathbb{Z}_n)
-    &\simeq&
-    H^2(B \mathbb{Z}^2;\, \mathbb{Z}_n)    
+  W_b
+  \;\coloneqq\;
+  \left[
+  \begin{array}{cccccc}
+    0 & 0 & 0 & \cdots & 0 & 1
     \\
-    &\simeq&
-    H^2(T^2;\, \mathbb{Z}_n)    
+    1 & 0 & 0 & \cdots & 0 & 0
     \\
-    &\simeq&
-    H^2(S^1_a \vee S^1_b \vee S^2;\, \mathbb{Z}_n)    
+    0 & 1 & 0 & \cdots & 0 & 0
     \\
-    &\simeq&
-    H^2(S^2;\, \mathbb{Z}_n)    
+    0 & 0 & 1 & \cdots & 0 & 0
     \\
-    &\simeq&
-    \mathbb{Z}_n
+    \vdots & \vdots & \vdots & \ddots & 0 & 0
+    \\
+    0 & 0 & 0 & \cdots & 1 & 0
   \end{array}
-$$
-where we used, in order of the appearance:
-
-1. that [[group cohomology]] is [[ordinary cohomology]] of the domain group's [[classifying space]];
-
-1. that the [[classifying space]] of the [[integers]] is the [[circle]] and that this respects [[Cartesian products]];
-
-1. that the [[stable homotopy type]] of the [[2-torus]] is the [[wedge sum]] of two [[circles]] with a [[2-sphere]] (see [there](torus#AsAHomotopyType)).
-
-The generator of this [[cohomology group]] must be the [[group cohomology|group 2-cocycle]] 
-
-$$
-  \alpha \,\in\, H^2_{Grp}\big(
-    \mathbb{Z}^2
-    ;\,
-    \mathbb{Z}_n
-  \big)
+  \right]
 $$
 
-given by
-
 $$
-  \begin{array}{ccc}
-    \mathbb{Z}^2 
-    \times
-    \mathbb{Z}^2
-    &\xrightarrow{\; \alpha \;}&
-    \mathbb{Z}_{n}
-    \\
-    \big(
-      (a,b), (a',b')
-    \big)
-    &\mapsto&
-    [a b']
-  \end{array}
+  W_a W_b \left\vert [r]\right\rangle
+  \;=\;
+  W_a \left\vert [r+1]\right\rangle
+  \;=\;
+  \zeta^{r+1} \left\vert [r+1]\right\rangle
 $$
 
-(whose cocycle condition
-$
-  [a b'] + [(a+a')b'']
-  =
-  [a(b'+b'')] + [a' b'']
-$
-is evidently satisfied due to the [[distributive law]] in the [[ring]] $\mathbb{Z}$)
-
-whose [corresponding](group+extension#CentralExtensionClassificationByGroupCohomology) [[central extension]]
 $$
-  1 
-    \to 
-  \mathbb{Z}_n
-    \longrightarrow
-  H
-    \longrightarrow
-  \mathbb{Z}^2
-    \to
-  1
+  W_b W_a \left\vert [r]\right\rangle
+  \;=\;
+  \zeta^r W_b \left\vert [r]\right\rangle
+  \;=\;
+  \zeta^r W_b \left\vert [r+1]\right\rangle
 $$
-is, for $n = 0$, the [[subgroup]] of the [[simply-connected topological space|simply-connected]] version of the [[Heisenberg group]] of $\mathbb{R}^2$ obtained by restriction along the canonical inclusion $\mathbb{Z}^2 \hookrightarrow \mathbb{R}^2$ (an "integer Heisenberg group", cf. [Lee & Packer 1996 (1.2)](Heisenberg+group#LeePacker96)).
-
 
