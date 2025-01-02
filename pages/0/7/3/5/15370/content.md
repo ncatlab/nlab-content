@@ -95,6 +95,8 @@ Notice that even if $R$ if the norm on $R$ is multiplicative (is an [[absolute v
 
 * [[apartness ring]]
 
+* [[tight apartness ring]]
+
 [[!include analytic geometry ingredients -- table]]
 
 
