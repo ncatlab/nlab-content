@@ -1,11 +1,22 @@
 
-* [personal page](https://dmargalit7.math.gatech.edu/index.shtml)
 
-## Selected wriings
+* [personal page](https://margalit.droppages.net/)
+
+* <a href="https://en.wikipedia.org/wiki/Dan_Margalit_(mathematician)">Wikipedia entry</a>
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=b8_LavsAAAAJ&hl=en)
+
+
+## Selected writings
 
 On [[finitely presented group|finite presentations]] of the [[pure braid group]]:
 
 * [[Dan Margalit]], [[Jon McCammond]], *Geometric presentations for the pure braid group*,  Journal of Knot Theory and Its Ramifications **18** 01 (2009) 1-20 &lbrack;[arXiv:math/0603204](https://arxiv.org/abs/math/0603204), [doi:10.1142/S0218216509006859](https://doi.org/10.1142/S0218216509006859)&rbrack;
+
+On [[mapping class groups]]:
+
+* [[Benson Farb]], [[Dan Margalit]]: *A primer on mapping class groups*, Princeton Mathematical Series, Princeton University Press (2012) &lbrack;[ISBN:9780691147949](https://press.princeton.edu/books/hardcover/9780691147949/a-primer-on-mapping-class-groups), [jstor:j.ctt7rkjw](https://www.jstor.org/stable/j.ctt7rkjw), [pdf](http://euclid.nmu.edu/~joshthom/Teaching/MA589/farbmarg.pdf)&rbrack;
+
 
 On [[Joan Birman]]:
 
