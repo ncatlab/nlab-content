@@ -21,7 +21,7 @@
 
 ## Idea
 
-In [[constructive mathematics]], we often do [[algebra]] by equipping an [[gebra|algebra]] with a [[tight apartness]] (and requiring the algebraic operations to be [[strongly extensional function|strongly extensional]]).  In this context, it is convenient to replace [[subalgebras]] with _anti_-subalgebras, which [[classical mathematics|classically]] are simply the [[complements]] of subalgebras.
+In [[constructive mathematics]], we often do [[algebra]] by equipping an [[gebra|algebra]] with a [[tight apartness]] (and requiring the algebraic operations to be [[strongly extensional function|strongly extensional]]), in the sense of [[ring with tight apartness]]. In this context, it is convenient to replace [[subalgebras]] with _anti_-subalgebras, which [[classical mathematics|classically]] are simply the [[complements]] of subalgebras.
 
 
 ## Definitions
