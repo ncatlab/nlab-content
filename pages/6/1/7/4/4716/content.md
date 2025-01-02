@@ -168,6 +168,16 @@ Algebraic descriptions of such mapping class groups/[[braid groups]]:
 
 * [[Warren Dicks]], Edward Formanek, *Algebraic Mapping-Class Groups of Orientable Surfaces with Boundaries*, in: *Infinite Groups: Geometric, Combinatorial and Dynamical Aspects*, Progress in Mathematics **248** Birkhäuser (2005) &lbrack;[doi:10.1007/3-7643-7447-0_4](https://doi.org/10.1007/3-7643-7447-0_4)&rbrack;
    
+Exposition and Review:
+
+* [Birman 1975 §4](braid+group#Birman75)
+
+* [González-Meneses 2011 §1.4](braid+group#González-Meneses11)
+
+* [Massuyeau 2021 §3.3](braid+group#Massuyeau21)
+
+* [Abadie 2022 §1.3](braid+group#Abadie22)
+
 See also:
 
 * {#MadsenWeiss02} [[Ib Madsen]], [[Michael Weiss]], _The stable moduli space of Riemann surfaces: [[Mumford's conjecture]]_,  Ann. of Math. (2) __165__ (2007), no. 3, 843--941, [MR2009b:14051](http://www.ams.org/mathscinet-getitem?mr=2009b:14051), [doi](http://dx.doi.org/10.4007/annals.2007.165.843), [math.AT/0212321](http://arxiv.org/abs/math.AT/0212321)
