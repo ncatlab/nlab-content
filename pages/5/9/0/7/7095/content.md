@@ -193,7 +193,7 @@ Discussion in the modern formalism of [[geometric quantization]]:
 
 * Mark Hamilton, _Locally toric manifolds and singular Bohr-Sommerfeld leaves_
 
-* Eva Miranda, _From action-angle coordinates to geometric quantization and back_ (2011) ([pdf](http://fdis2011.uni-jena.de/Talks/Eva%20Miranda.pdf))
+* [[Eva Miranda]]: *From action-angle coordinates to geometric quantization and back* (2011) &lbrack;[pdf](https://ncatlab.org/nlab/files/Miranda-ActionAngleCoordinates.pdf)&rbrack;
 
 and with application to [[conformal blocks]]:
 
