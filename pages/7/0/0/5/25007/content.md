@@ -70,5 +70,7 @@ Every strictly weakly ordered ring is a [[preordered ring]] given by the [[negat
 
 * [[ordered Kock field]]
 
+* [[apartness ring]]
+
 [[!redirects strictly weakly ordered ring]]
 [[!redirects strictly weakly ordered rings]]
