@@ -475,15 +475,16 @@ Three definitions of dagger [[(infinity,1)-categories|$(\infty,1)$-categories]] 
 
 * [[Simon Henry]], *$(n,1)$-dagger categories* &lbrack;[MO:a/427322](https://mathoverflow.net/a/427322/381)&rbrack;
 
-Model category presentations of dagger category objects in $\infty Grpd$ by involutive [[complete Segal spaces]] are discussed in 
+On [[model category]]-presentations of dagger category [[internalization|objects]] in [[infinity-Grpd|$\infty Grpd$]] by involutive [[complete Segal spaces]] are discussed  (cf. the [erratum](#Bergner12Erratum)) in 
 
-* [[Julia Bergner]], 
+* [[Julia Bergner]]:
 
-  _Adding inverses to diagrams encoding algebraic structures_, Homology, Homotopy and Applications 10 (2008), no. 2, 149&#8211;174. ([arXiv:0610291](http://arxiv.org/abs/math/0610291))
+  *Adding inverses to diagrams encoding algebraic structures*, Homology, Homotopy and Applications **10** 2 (2008) 149-174 &lbrack;[doi:10.4310/HHA.2008.v10.n2.a8](https://dx.doi.org/10.4310/HHA.2008.v10.n2.a8), [arXiv:0610291](http://arxiv.org/abs/math/0610291)&rbrack;
 
-  _Adding inverses to diagrams II: Invertible homotopy theories are spaces_, Homology, Homotopy and Applications, Vol. 10 (2008), No. 2, pp.175-193. ([web](http://www.intlpress.com/hha/v10/n2/a9/), [arXiv:0710.2254](http://arxiv.org/abs/0710.2254))
+  *Adding inverses to diagrams II: Invertible homotopy theories are spaces*, Homology, Homotopy and Applications **10** 2 (2008) 175-193 &lbrack;[doi:10.4310/HHA.2008.v10.n2.a9](https://dx.doi.org/10.4310/HHA.2008.v10.n2.a9), [arXiv:0710.2254](http://arxiv.org/abs/0710.2254)&rbrack;
 
-(See the erratum to Part II.)
+  {#Bergner12Erratum} *Erratum to “Adding inverses to diagrams encoding algebraic structures” and “Adding inverses to diagrams II: Invertible homotopy theories are spaces”*, Homology, Homotopy and Applications **14** 1 (2012) 287-291 &lbrack;[doi:10.4310/HHA.2012.v14.n1.a15](https://dx.doi.org/10.4310/HHA.2012.v14.n1.a15), [arXiv:0710.2254 pp 18](https://arxiv.org/pdf/0710.2254#page=18)&rbrack;
+  
 
 #### Dagger (∞,n)-categories
 
