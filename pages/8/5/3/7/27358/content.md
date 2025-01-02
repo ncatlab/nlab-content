@@ -20,7 +20,7 @@
 In [[classical mathematics]], every [[Heyting field]] is a [[discrete field]], which means that the [[residue field]] of a [[local ring]] is automatically a discrete field. However, in [[constructive mathematics]], there are Heyting fields which are not discrete fields, which means that there are local rings whose residue fields are not discrete fields. Hence, the concept of a *residually discrete local ring* in constructive mathematics, where the residue field of the local ring is a discrete field. 
 
 +-- {: .standout}
-Warning: residually discrete locally rings are not the same as *discrete local rings*, which are local rings which are discrete in the sense of being a [[classical set]]: equality is [[decidable equality|decidable]] and [[stable equality|stable]] and [[denial inequality]] is a [[tight apartness relation]]. In [[constructive mathematics]], there exist residually discrete local rings which are not discrete, such as [[power series rings]] of [[discrete fields]], which are residually discrete local [[Heyting integral domains]] that are not provably [[discrete integral domains]]. 
+Warning: residually discrete locally rings are not the same as *discrete local rings*, which are local rings which are also [[discrete rings]]. In [[constructive mathematics]], there exist residually discrete local rings which are not discrete, such as [[power series rings]] of [[discrete fields]], which are residually discrete local [[Heyting integral domains]] that are not provably [[discrete integral domains]]. 
 =--
 
 ## Definition
