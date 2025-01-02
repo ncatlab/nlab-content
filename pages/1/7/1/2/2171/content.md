@@ -3357,7 +3357,7 @@ It has been shown ([An & Maciazek 2006](#AnMaciazek2006), using discrete [[Morse
 
 The braid group $Br(n)$ may be alternatively described as the [[mapping class group]] of a 2-disk $D^2$ with $n$ punctures. 
 
-(review includes [Birman 1975 §4](#Birman75), [González-Meneses 2011 §1.4](#González-Meneses11), [Abadie 2022 §1.3](#Abadie22))
+(review includes [Birman 1975 §4](#Birman75), [González-Meneses 2011 §1.4](#González-Meneses11), [Massuyeau 2021 §3.3](#Massuyeau21), [Abadie 2022 §1.3](#Abadie22))
 
 Concretely, consider 
 
@@ -3717,7 +3717,6 @@ Further introduction and review:
 * [[Joan S. Birman]], [[Anatoly Libgober]] (eds.) *Braids*, Contemporary Mathematics **78** (1988) &lbrack;[doi:10.1090/conm/078](http://dx.doi.org/10.1090/conm/078)&rbrack;
 
 
-
 * [[Chen Ning Yang]], M. L. Ge (eds.), *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) &lbrack;[doi:10.1142/0796](https://doi.org/10.1142/0796)&rbrack;
 
 * Joshua Lieber, *Introduction to Braid Groups*, 2011 ([pdf](https://math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Lieber.pdf))
@@ -3731,6 +3730,8 @@ Further introduction and review:
 * [[Jennifer C. H. Wilson]], *The geometry and topology of braid groups*, lecture at *[2018 Summer School on Geometry and Topology](https://www.pims.math.ca/scientific-event/180611-ssgt)*, Chicago (2018) &lbrack;[pdf](http://www.math.lsa.umich.edu/~jchw/RTG-Braids.pdf), [[Wilson-BraidGroups.pdf:file]]&rbrack;
 
 * {#Williams20} [[Lucas Williams]], *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8 &lbrack;[arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8)&rbrack;
+
+* {#Massuyeau21} Gwénaël Massuyeau: *Lectures on Mapping Class Groups, Braid Groups and Formality* (2021) &lbrack;[pdf](https://massuyea.perso.math.cnrs.fr/notes/formality.pdf)&rbrack;
 
 * [[Jennifer C. H. Wilson]], *Representation stability and the braid groups*, talk at *[ICERM -- Braids](https://icerm.brown.edu/programs/sp-s22/)* (Feb 2022) &lbrack;[pdf](https://app.icerm.brown.edu/assets/362/3661/3661_3250_021720221430_Slides.pdf)&rbrack;
 
