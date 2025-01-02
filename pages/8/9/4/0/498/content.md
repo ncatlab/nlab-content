@@ -183,6 +183,8 @@ Possible to-dos: say something about $\mathfrak{m}$-adic topology, completion, Z
 
 * [[residually discrete local ring]]
 
+* [[apartness ring]]
+
 | [[commutative ring]] | [[reduced ring]] | [[integral domain]] |
 ---------------------|-----------------|-----------------|
 | [[local ring]] | [[reduced local ring]] | [[local integral domain]] |
