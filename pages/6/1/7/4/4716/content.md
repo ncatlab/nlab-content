@@ -133,22 +133,19 @@ Monographs:
 
 * {#Birman75} [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press (1975) &lbrack;[ISBN:9780691081496](https://press.princeton.edu/books/paperback/9780691081496/braids-links-and-mapping-class-groups-am-82-volume-82), [preview pdf](https://api.pageplace.de/preview/DT0400.9781400881420_A26691398/preview-9781400881420_A26691398.pdf)&rbrack;
 
+* [[Benson Farb]], [[Dan Margalit]]: *A primer on mapping class groups*, Princeton Mathematical Series, Princeton University Press (2012) &lbrack;[ISBN:9780691147949](https://press.princeton.edu/books/hardcover/9780691147949/a-primer-on-mapping-class-groups), [jstor:j.ctt7rkjw](https://www.jstor.org/stable/j.ctt7rkjw), [pdf](http://euclid.nmu.edu/~joshthom/Teaching/MA589/farbmarg.pdf)&rbrack;
 
 Surveys:
 
-* Massyuyeau, _A short introduction to mapping class groups_ ([pdf](http://www-irma.u-strasbg.fr/~massuyea/talks/MCG.pdf))
+* [[Gwénaël Massuyeau]]: _A short introduction to mapping class groups_, presentation at *Master Class on Geometry* Strasbourg (2009) &lbrack;[pdf](https://massuyea.perso.math.cnrs.fr/notes/MCG.pdf), [[Massuyeau-MCG.pdf:file]]&rbrack;
 
-* Benson Farb, Dan Margalit, _A primer on mapping class
-groups_, draft, [web]()
+* Nikolai V. Ivanov: *Mapping class groups*, in: *Handbook of geometric topology*, North-Holland (2002) 523-633 &lbrack;1998 draft: [ps](http://www.mth.msu.edu/~ivanov/m99.ps)&rbrack;
 
-* Nikolai V. Ivanov. Mapping class groups. In Handbook of geometric
-topology, pages 523&#8211;633. North-Holland, Amsterdam, 2002; 1998 draft: [ps](http://www.mth.msu.edu/~ivanov/m99.ps)
-
-* {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of _Lectures on tensor categories and modular functor_ ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [[BakalovKirillovChapter5.pdf:file]])
+* {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of: _Lectures on tensor categories and modular functor_ &lbrack;[web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [[BakalovKirillovChapter5.pdf:file]]&rbrack;
 
 See also:
 
-* Wikipedia: [mapping class group](http://en.wikipedia.org/wiki/Mapping_class_group)
+* Wikipedia: *[Mapping class group](http://en.wikipedia.org/wiki/Mapping_class_group)*
 
 In relation to [[motion groupoids]]:
 
