@@ -65,6 +65,12 @@ In [[constructive mathematics]], a ring is said to be **discrete** if it is a ti
 
 * [[antisubalgebra]]
 
+* [[antithesis interpretation]]
+
+## References
+
+* {#Shulman2022} [[Michael Shulman]], *Affine logic for constructive mathematics*. Bulletin of Symbolic Logic, Volume 28, Issue 3, September 2022. pp. 327 - 386 ([doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28), [arXiv:1805.07518](https://arxiv.org/abs/1805.07518))
+
 [[!redirects apartness ring]]
 [[!redirects apartness rings]]
 
