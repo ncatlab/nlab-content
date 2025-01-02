@@ -25,9 +25,7 @@ The term "$(\infty,0)$-category" is rarely used, but does for instance serve the
 
 ## References
 
-On [[model categories]] [[presentable (infinity,1)-category|presenting]] $(\infty,0)$-categories, namely models for [[infinity-groupoids|$\infty$-groupoids]] (such as the [[model structure on simplicial groupoids]]) akin to corresponding models for [[(infinity,1)-categories|$(\infty,1)$-categories]] (such as the [[model structure on simplicial categories]]):
-
-* [[Julia E. Bergner]], *Adding inverses to diagrams II: Invertible homotopy theories are spaces*, Homology, Homotopy Appl. **10** 2 (2008) 175-193 &lbrack;[doi:10.4310/HHA.2008.v10.n2.a9](https://dx.doi.org/10.4310/HHA.2008.v10.n2.a9), [doi:0710.2254](https://arxiv.org/abs/0710.2254), erratum:[doi:10.4310/HHA.2012.v14.n1.a15](https://dx.doi.org/10.4310/HHA.2012.v14.n1.a15)&rbrack;
+(...)
 
 
 [[!redirects (infinity,0)-categories]]
