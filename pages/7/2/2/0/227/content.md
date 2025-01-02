@@ -258,6 +258,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * [[associative unital algebra]], [[commutative algebra]]
 
+* [[apartness ring]]
+
 * many more...
 
 ### Integral domains
