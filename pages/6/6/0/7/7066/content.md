@@ -214,7 +214,6 @@ or section 5 of
 
 * A. Echeverria-Enriquez, M.C. Munoz-Lecanda, N. Roman-Roy, C. Victoria-Monge, _Mathematical Foundations of Geometric Quantization_ Extracta Math. 13 (1998) 135-238 ([arXiv:math-ph/9904008](http://arxiv.org/abs/math-ph/9904008))
 
-
 or
 
 * Yuichi Nohara, _Independence of Polarization
@@ -227,6 +226,10 @@ Lagrangian submanifolds of [[L-infinity algebroids]] are considered in
 In the case that the polarization integrates to the [[action]] of a [[Lie group]] $G$ one may think of passing to polarized sections as equivlent to passing to $G$-[[gauge equivalence|gauge equivalence classes]]. This point of view is highlighted in
 
 * [[Gabriel Catren]], _On the Relation Between Gauge and Phase Symmetries_, Foundations of Physics 44 (12):1317-1335 (2014) ([web](http://philpapers.org/rec/CATOTR))
+
+More on [[geometric quantization]] for [[real polarizations]]:
+
+* Pau Mir, [[Eva Miranda]]: *Geometric quantization via cotangent models*,  Anal. Math. Phys. **11** (2021) 118 &lbrack;[doi:10.1007/s13324-021-00559-4](https://doi.org/10.1007/s13324-021-00559-4), [arXiv:2102.02699](https://arxiv.org/abs/2102.02699)&rbrack;
 
 A candidate for polarizations for higher geometric quantization in $n$-plectic geometry is discussed in Chapter 7 of
 
