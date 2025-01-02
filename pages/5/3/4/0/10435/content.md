@@ -97,6 +97,7 @@ See also:
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/End_(topology)">End (topology)</a>*
  
+* *Isotopic homeomorphisms of surface induces same map on the space of ends* &lbrack;[MO:q/423463](https://mathoverflow.net/q/423463/381)&rbrack;
 
 
 [[!redirects end compactification]]
