@@ -115,7 +115,7 @@ That this statement is the correct structural version of antifoundation may be j
 
 * [[Mostowski's principle]]
 
-category: foundational axiom
+category: foundational axiom, logic
 
 [[!redirects axiom of foundation]]
 
