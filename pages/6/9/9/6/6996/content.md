@@ -36,6 +36,7 @@ A weak counterexample:  [[internal logic|Internal to]] the [[topos of sheaves]] 
 {#Richman}
 
 
+[[!redirects strongly extensional]]
 [[!redirects strongly extensional function]]
 [[!redirects strongly extensional functions]]
 [[!redirects strongly extensional map]]
