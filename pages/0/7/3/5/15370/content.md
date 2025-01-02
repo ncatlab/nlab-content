@@ -93,6 +93,8 @@ Notice that even if $R$ if the norm on $R$ is multiplicative (is an [[absolute v
 
 * [[division ring]]
 
+* [[apartness ring]]
+
 [[!include analytic geometry ingredients -- table]]
 
 
