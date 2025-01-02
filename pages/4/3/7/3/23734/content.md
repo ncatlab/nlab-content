@@ -45,6 +45,8 @@ A commutative ring $R$ is a **prefield ring** if the [[ring of fractions]] of $R
 
 * A prefield ring $F$ is a [[local ring]] if the set of non-cancellative elements, the [[zero divisors]], is the [[Jacobson radical]] $J(F)$. 
 
+* Every [[zero-dimensional ring]] is a prefield ring. 
+
 * Non-example: the [[integers]] $\mathbb{Z}$ are not a prefield ring. 
 
 ## See also ##
