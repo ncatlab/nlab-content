@@ -20,8 +20,12 @@ and the related notion of [[representation stability]]:
 * {#ChurchFarb13} [[Thomas Church]], [[Benson Farb]], *Representation theory and homological stability*, Advances in Mathematics
 **245** (2013) 250-314 &lbrack;[doi:10.1016/j.aim.2013.06.016](https://doi.org/10.1016/j.aim.2013.06.016)&rbrack;
 
-
 * [[Benson Farb]], *Representation Stability* &lbrack;[arXiv:1404.4065](https://arxiv.org/abs/1404.4065)&rbrack;
+
+On [[mapping class groups]]:
+
+* [[Benson Farb]], [[Dan Margalit]]: *A primer on mapping class groups*, Princeton Mathematical Series, Princeton University Press (2012) &lbrack;[ISBN:9780691147949](https://press.princeton.edu/books/hardcover/9780691147949/a-primer-on-mapping-class-groups), [jstor:j.ctt7rkjw](https://www.jstor.org/stable/j.ctt7rkjw), [pdf](http://euclid.nmu.edu/~joshthom/Teaching/MA589/farbmarg.pdf)&rbrack;
+
 
 
 category: people
