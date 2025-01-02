@@ -295,33 +295,41 @@ $X$ is [[dense subspace|dense]] in $X^*$ precisely if $X$ is not already compact
 
 $X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compactum]]) if and only if $X$ is already both Hausdorff and [[locally compact space|locally compact]] (see prop. \ref{HausdorffOnePointCompactification}).
 
-### Monoidal functoriality
+
+### Functoriality
   {#MonoidalFunctoriality}
 
 
-+-- {: .num_prop #OnePointCompactificationFunctor}
-###### Proposition
+\begin{proposition}
+\label{OnePointCompactificationFunctor}
 
-The operation of one-point compactification (Def. \ref{OnePointExtension}) does not extend to a [[functor]] on the whole [[category]] of [[topological spaces]]. But it does extend to a [[functor]] on [[locally compact Hausdorff spaces]] with [[proper maps]] between them.
+The operation of one-point compactification (Def. \ref{OnePointExtension}) does not extend to a [[functor]] on the whole [[category]] [[Top]] of [[topological spaces]]. But it does extend to a [[functor]] on [[locally compact Hausdorff spaces]] with [[proper maps]] between them:
 
-=--
+$$
+  (-)^\ast
+  \;\colon\;
+  (LCHaus, ProperMaps)
+  \xrightarrow{\;}
+  CHaus^{\ast/}
+$$
 
-(e.g. [Cutler 20, Prop. 1.6](#Cutler20))
+In particular, it is functorial for [[homeomorphisms]], hence restricts to a functor between the [[core groupoids]]: 
+$$
+  (-)^\ast
+  \;\colon\;
+  Core(LCHaus) \to Core\big(CHaus^{\ast/}\big)
+  \,.
+$$
+
+\end{proposition}
+
+(e.g. [James 1984 bottom of p 70](#James84), [Cutler 20, Prop. 1.6](#Cutler20), [MO:a/4278178](https://math.stackexchange.com/a/4278178/58526))
 
 +-- {: .num_prop #OnePointCompactificationAndSmashProduct}
 ###### Proposition
 **([[one-point compactification intertwines Cartesian product with smash product]])
 
-On the [[subcategory]] $Top_{LCHaus}$ in [[Top]] of [[locally compact Hausdorff spaces]] with [[proper maps]] between them, the [[functor]] of [[one-point compactification]] (Prop. \ref{OnePointCompactificationFunctor})
-
-$$
-  (-)^{cpt}
-  \;\colon\;
-  Top_{LCHaus}
-  \longrightarrow 
-  Top^{\ast/}
-$$
-
+On the [[subcategory]] of [[locally compact Hausdorff spaces]] with [[proper maps]] between them, the [[functor]] $(-)^\ast$ of [[one-point compactification]] (from Prop. \ref{OnePointCompactificationFunctor})
 
 1. sends [[coproducts]], hence [[disjoint union topological spaces]], to [[wedge sums]] of [[pointed topological spaces]];
 
@@ -332,9 +340,9 @@ hence constitutes a [[strong monoidal functor]] for both [[monoidal category|mon
 $$
   \big(
     X \sqcup Y 
-  \big)^{cpt}
+  \big)^{\ast}
   \;\simeq\;
-  X^{cpt} \vee Y^{cpt}
+  X^{\ast} \vee Y^{\ast}
   \,,
 $$
 
@@ -343,9 +351,9 @@ and
 $$
   \big(
     X \times Y 
-  \big)^{cpt}
+  \big)^{\ast}
   \;\simeq\;
-  X^{cpt} \wedge Y^{cpt}
+  X^{\ast} \wedge Y^{\ast}
   \,.
 $$
 
@@ -366,6 +374,7 @@ The argument is spelled out in [James 84 pp 72](#James84), [MO:a/1645794](https:
 
 Namely, in this case the open neighbourhood $(X \setminus X) \cup \{\infty\}$ of $\infty$ consists of just $\infty$ itself, which is hence an [[open point]]. But it is also a [[closed point]], being the [[complement]] of $X$. 
 \end{example}
+
 
 ### Compactification of discrete spaces
 
@@ -585,14 +594,24 @@ Monographs:
 * {#James84} [[Ioan Mackenzie James]], Chapter 3 of: *General Topology and Homotopy Theory*, Springer (1984) &lbrack;[doi:10.1007/978-1-4613-8283-6](https://doi.org/10.1007/978-1-4613-8283-6)&rbrack;
 
 
-Review:
+Exposition and review:
+
+* Jay Blankespoor, John Krueger: *Compactifications of Topological Spaces*, Furman University Electronic Journal of Undergraduate Mathematics **2** (1996) 1-5 &lbrack;[fuejum:vol2/iss1/1](https://scholarexchange.furman.edu/fuejum/vol2/iss1/1), [pdf](https://scholarexchange.furman.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1003&context=fuejum)&rbrack;
+
+* Ron Freiwald, *Compactifications*, lecture notes (2014) &lbrack;[pdf](https://www.math.wustl.edu/~freiwald/ch10.pdf)&rbrack;
 
 * {#Cutler20} [[Tyrone Cutler]], _The category of pointed topological spaces_ (2020) &lbrack;[pdf](https://www.math.uni-bielefeld.de/~tcutler/pdf/Elementary%20Homotopy%20Theory%20II%20-%20The%20Pointed%20Category.pdf), [[CutlerPointedTopologicalSpaces.pdf:file]]&rbrack;
 
-
-See also 
+See also:
 
 * Wikipedia, _[Alexandroff extension](https://en.wikipedia.org/wiki/Alexandroff_extension)_
+
+
+Further discussion:
+
+* Gerald Beer, Maria Cristina Vipera: *The Alexandroff one-point compactification as a prototype for extensions*, Advances in Mathematics **231** 3–4 (2012) 1598-1618 &lbrack;[doi:10.1016/j.aim.2012.07.008](https://doi.org/10.1016/j.aim.2012.07.008)&rbrack;
+
+
 
 [[!redirects one-point compactification]]
 [[!redirects one-point compactifications]]
