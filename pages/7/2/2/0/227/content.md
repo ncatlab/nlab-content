@@ -226,6 +226,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
 * [[Artinian ring]]
 
+* [[zero-dimensional ring]]
+
 * [[quotient ring]]
 
 * [[composition ring]]
@@ -251,16 +253,18 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 * [[lattice-ordered ring]]
 
 * [[totally ordered ring]]
+
+* [[tight apartness ring]]
+
+* [[apartness ring]]
+
+* [[inequality ring]]
  
 * [[topological ring]]
 
 * [[normed ring]]
 
 * [[associative unital algebra]], [[commutative algebra]]
-
-* [[apartness ring]]
-
-* [[inequality ring]]
 
 * many more...
 
