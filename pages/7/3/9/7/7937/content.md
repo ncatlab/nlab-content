@@ -81,7 +81,7 @@ corresponding to $f$;
 
 +-- {: .num_remark #OriginOfTheFormulaForPrequantumOperators}
 ###### Remark
-**(origin of the formulas for [[prequantum operators]])*+
+**(origin of the formulas for [[prequantum operators]])*
 
 The formula (eq:FormulaForPrequantumOperator) may look a bit mysterious on first sight. The correction term to the [[covariant derivative]] appearing in this formula is ultimately due to the fact that with $v$ the [[Hamiltonian vector field]] corresponding to a [[Hamiltonian]] $H_v$ via
 
