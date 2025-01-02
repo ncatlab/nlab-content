@@ -216,7 +216,7 @@ $$vN\; Ring \hookrightarrow Ring \to Set$$
 
 where the inclusion is fully faithful (hence reflects isomorphisms) and the forgetful functor $Ring \to Set$ also reflects isomorphisms. So the problem is that in some cases, [[equalizers]] in $vN\; Ring$ cannot be formed in the usual way, by taking equalizers at the level of $Set$. 
 
-\begin{example} Let $R = M_2(k)$ for a field $k$; this is vN regular by an earlier proposition. Let $L \in R$ be the matrix 
+\begin{example} \label{nonalg} Let $R = M_2(k)$ for a field $k$; this is vN regular by Proposition \ref{McCoy}. Let $L \in R$ be the matrix 
 
 $$L = \left(\begin{array}{ccc} 1 & & 1\\0 & & 1\end{array} \right)$$ 
 
@@ -228,7 +228,22 @@ but this $E$ has a nonzero nilpotent two-sided ideal consisting of such matrices
 
 \begin{lemma} In a vN regular ring, the only nilpotent two-sided ideal is the zero ideal. \end{lemma} 
 
-\begin{proof} It suffices to show that for $I$ any two-sided ideal, $I^2 = \{0\}$ implies $I = \{0\}$. But if $a \in I$ and $a x a = a$, then $a \in I$ and $x a \in I$, so $a = a(x a) \in I^2 = \{0\}$, i.e., $a = 0$. \end{proof} 
+\begin{proof} It suffices to show that for $I$ any two-sided ideal, $I^2 = \{0\}$ implies $I = \{0\}$. But if $a \in I$ and $a x a = a$, then $a \in I$ and $x a \in I$, so $a = a(x a) \in I^2 = \{0\}$, i.e., $a = 0$. \end{proof}
+
+One way of considering Example \ref{nonalg} is that although there are many pseudo-inverses $\overline{N}$ to choose from for 
+
+$$N = \left(\begin{array}{ccc} 0 & & 1\\0 & & 0\end{array} \right),$$ 
+
+namely matrices of the form 
+
+$$\left(\begin{array}{ccc} a & & a b\\1 & & b\end{array} \right),$$
+
+there is not a single one of these that is fixed by $\Phi_L$, and therefore 
+
+$$\overline{\Phi_L(N)} = \overline{N} \neq \Phi_L(\overline{N}),$$
+
+
+i.e., there is no hope of getting $\Phi_L$ to preserve any chosen pseudo-inversion operation $X \mapsto \overline{X}$. 
 
 ## Examples
 
