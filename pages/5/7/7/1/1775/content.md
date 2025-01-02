@@ -597,14 +597,6 @@ Groupoid objects in $(\infty,1)$-categories are the topic of section 6.1.2 in
 * {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 
 
-Model category presentations of groupoid objects in $\infty Grpd$ by groupoidal [[complete Segal spaces]] are discussed in 
-
-* [[Julia Bergner]], 
-
-  _Adding inverses to diagrams encoding algebraic structures_, Homology, Homotopy and Applications 10 (2008), no. 2, 149&#8211;174. ([arXiv:0610291](http://arxiv.org/abs/math/0610291))
-
-  _Adding inverses to diagrams II: Invertible homotopy theories are spaces_, Homology, Homotopy and Applications, Vol. 10 (2008), No. 2, pp.175-193. ([web](http://www.intlpress.com/hha/v10/n2/a9/), [arXiv:0710.2254](http://arxiv.org/abs/0710.2254))
-
 A standard textbook reference on $\infty$-groups in the [[classical model structure on simplicial sets]] is 
 
 * {#GoerssJardine} [[Paul Goerss]], [[Rick Jardine]], chapter V of _[[Simplicial homotopy theory]]_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
