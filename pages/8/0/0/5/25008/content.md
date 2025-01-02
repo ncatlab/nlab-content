@@ -86,6 +86,8 @@ For a strict approximate integral domain, the [[ring of fractions]] obtained by 
 
 * [[local ring]]
 
+* [[apartness ring]]
+
 [[!redirects approximate integral domain]] 
 [[!redirects approximate integral domains]] 
 
