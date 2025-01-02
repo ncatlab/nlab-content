@@ -464,6 +464,18 @@ concerning abstract characterization:
 
 Certain specially nice $\dagger$-categories, such as [[C-star-category|$C^*$-categories]] and [[modular tensor categories]], play an important role in [[topological quantum field theory]] and the theory of [[quantum groups]], see the references there for more.
 
+### Dagger (∞,1)-categories
+
+Model category presentations of dagger category objects in $\infty Grpd$ by involutive [[complete Segal spaces]] are discussed in 
+
+* [[Julia Bergner]], 
+
+  _Adding inverses to diagrams encoding algebraic structures_, Homology, Homotopy and Applications 10 (2008), no. 2, 149&#8211;174. ([arXiv:0610291](http://arxiv.org/abs/math/0610291))
+
+  _Adding inverses to diagrams II: Invertible homotopy theories are spaces_, Homology, Homotopy and Applications, Vol. 10 (2008), No. 2, pp.175-193. ([web](http://www.intlpress.com/hha/v10/n2/a9/), [arXiv:0710.2254](http://arxiv.org/abs/0710.2254))
+
+(See the erratum to Part II.)
+
 ### Higher dagger categories
  {#ReferencesHigherDagger}
 
