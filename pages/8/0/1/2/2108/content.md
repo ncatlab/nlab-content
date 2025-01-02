@@ -1219,12 +1219,12 @@ Further reviews include
 
 The above "Overview" and "Basic Jargon" sections are taken from 
 
-* [[John Baez]], _Geometric Quantization_ ([web](http://math.ucr.edu/home/baez/quantization.html))
- {#Baez}
+* {#Baez} [[John Baez]], _Geometric Quantization_ ([web](http://math.ucr.edu/home/baez/quantization.html))
+ 
 
 Some useful talk notes include
 
-* Eva Miranda, _From action-angle coordinates to geometric quantization and back_ (2011) ([pdf](http://fdis2011.uni-jena.de/Talks/Eva%20Miranda.pdf))
+* [[Eva Miranda]]: *From action-angle coordinates to geometric quantization and back* (2011) &lbrack;[[Miranda-ActionAngleCoordinates.pdf:file]]&rbrack;
 
 Discussion with an eye towards the [[philosophy of physics]] is in 
 
