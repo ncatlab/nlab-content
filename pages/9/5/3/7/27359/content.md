@@ -37,7 +37,7 @@ A [[ring]] $R$ is an **apartness ring** or a **ring with apartness** if it comes
 
 * Every [[approximate integral domain]] is an apartness ring where the apartness relation $x \# y$ is given by [[cancellative element|cancellativity]] of $y - x$. 
 
-* Every [[normed ring]] is an apartness ring where the apartness relation $x \# y$ is given by $0 \lt \vert y - x \vert$. 
+* Every [[seminorm|semi]][[normed ring]] is an apartness ring where the apartness relation $x \# y$ is given by $0 \lt \vert y - x \vert$. 
 
 * Every [[strictly weakly ordered ring]] is an apartness ring where the apartness relation $x \# y$ is given by the relation $(x \lt y) \vee (y \lt x)$. In the presence of [[excluded middle]], strictly weakly ordered rings are [[totally preordered rings]] where $x \lt y$ is given by the [[negation]] of the [[total preorder]] $y \leq x$. 
 
@@ -60,6 +60,8 @@ In [[constructive mathematics]], a ring is said to be **discrete** if it is a ti
 * [[strictly weakly ordered ring]], [[totally preordered ring]]
 
 * [[ring setoids]]
+
+* [[inequality ring]]
 
 * [[antisubalgebra]]
 
