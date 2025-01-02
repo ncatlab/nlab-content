@@ -89,6 +89,8 @@ In principle, one could just as easily consider a [[commutative rig]] or [[commu
 
 * [[reduced ring]]
 
+* [[tight apartness ring]]
+
 
 | [[commutative ring]] | [[reduced ring]] | [[integral domain]] |
 ---------------------|-----------------|-----------------|
