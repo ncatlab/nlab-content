@@ -31,6 +31,8 @@ One usually denote the trivial ring as $0$ or $\{0\}$, even though $1$ or $\{1\}
 
 * If one takes the definition of a [[field]] from [LombardiQuitté2010](#LombardiQuitté2010), then the [[trivial ring]] is a [[terminal object]] in the [[category]] [[Field]] of [[fields]]. 
 
+* The trivial ring is a [[discrete ring]] and is the terminal object of both the category of [[tight apartness rings]] and the category of [[discrete rings]]. 
+
 ## See also
 
 * [[zero object]]
