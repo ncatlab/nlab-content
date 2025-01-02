@@ -464,7 +464,16 @@ concerning abstract characterization:
 
 Certain specially nice $\dagger$-categories, such as [[C-star-category|$C^*$-categories]] and [[modular tensor categories]], play an important role in [[topological quantum field theory]] and the theory of [[quantum groups]], see the references there for more.
 
-### Dagger (∞,1)-categories
+### Higher dagger categories
+ {#ReferencesHigherDagger}
+
+On dagger [[higher categories]]:
+
+#### Dagger (∞,1)-categories
+
+Three definitions of dagger [[(infinity,1)-categories|$(\infty,1)$-categories]] have been proposed by:  
+
+* [[Simon Henry]], *$(n,1)$-dagger categories* &lbrack;[MO:a/427322](https://mathoverflow.net/a/427322/381)&rbrack;
 
 Model category presentations of dagger category objects in $\infty Grpd$ by involutive [[complete Segal spaces]] are discussed in 
 
@@ -476,14 +485,7 @@ Model category presentations of dagger category objects in $\infty Grpd$ by invo
 
 (See the erratum to Part II.)
 
-### Higher dagger categories
- {#ReferencesHigherDagger}
-
-On dagger [[higher categories]]:
-
-Three definitions of dagger [[(infinity,1)-categories|$(\infty,1)$-categories]] have been proposed by:  
-
-* [[Simon Henry]], *$(n,1)$-dagger categories* &lbrack;[MO:a/427322](https://mathoverflow.net/a/427322/381)&rbrack;
+#### Dagger (∞,n)-categories
 
 Generalization to dagger [[(infinity,n)-categories|$(\infty,n)$-categories]]:
 
