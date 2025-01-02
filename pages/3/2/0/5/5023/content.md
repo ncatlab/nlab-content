@@ -249,6 +249,7 @@ On [[integer]] [[subgroups]] of Heisenberg groups ("integer Heisenberg group"):
 
 * Jayadev S. Athreya, Ioannis Konstantoulas: *Lattice deformations in the Heisenberg group*, Groups, Geometry and Dynamics **14** 3 (2020) 1007–1022 &lbrack;[arXiv:1510.01433](https://arxiv.org/abs/1510.01433), [doi:10.4171/ggd/572](https://doi.org/10.4171/ggd/572)&rbrack;
 
+* Ruiwen Dong, p 9 of: *Recent advances in algorithmic problems for semigroups*, ACM SIGLOG News **10** 4 (2023) 3-23 &lbrack;[arXiv:2309.10943](https://arxiv.org/abs/2309.10943), [doi:10.1145/3636362.3636365](https://doi.org/10.1145/3636362.3636365)&rbrack;
 
 
 ### For Chern-Simons theory
