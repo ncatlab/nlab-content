@@ -48,6 +48,7 @@ Pseudo-ordered rings may have [[zero divisors]]. The pseudo-ordered rings which 
 * [[totally ordered ring]]
 * [[ordered integral domain]]
 * [[ordered field]]
+* [[tight apartness ring]]
 
 [[!redirects pseudo-ordered ring]]
 [[!redirects pseudo-ordered rings]]
