@@ -36,7 +36,11 @@ A [[ring]] $R$ is an **tight apartness ring** or a **ring with tight apartness**
 
 ## Properties
 
-While [[rings]] are algebraic in the sense that they can be defined inside of a [[Lawvere theory]], tight apartness rings can only be defined in a [[Heyting category]] due to the negation used in the [[tight relation|tightness]] condition of the tight apartness relaiton of a tight apartness ring and the disjunction used in the strong extensionality of the binary ring operations, and thus are not algebraic in the above sense. 
+While [[rings]] are algebraic in the sense that they can be defined inside of a [[Lawvere theory]], tight apartness rings can only be defined in a [[Heyting category]] due to the negation used in the [[tight relation|tightness]] condition of the tight apartness relation of a tight apartness ring and the disjunction used in the strong extensionality of the binary ring operations, and thus are not algebraic in the above sense. 
+
+### Category of tight apartness rings
+
+The category of tight apartness rings is the [[category]] whose [[objects]] are tight apartness rings and whose morphisms are [[strongly extensional]] [[ring homomorphisms]]. The [[initial object]] is the ring of [[integers]] $\mathbb{Z}$, and the [[terminal object]] is the [[trivial ring]] $0$. 
 
 ## Examples
 
