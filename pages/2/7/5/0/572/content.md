@@ -515,14 +515,6 @@ Related MathOverflow discussion includes
 
 * [Does the classification diagram localize a category with weak equivalences?](http://mathoverflow.net/q/92916/381)
 
-### Groupoidal version
- {#ReferencesGroupoidalVersion}
-
-The groupoidal version of complete Segal spaces (that modelling just [[groupoid objects in an (∞,1)-category]] instead of general [[category objects in an (∞,1)-category]]) is discussed in 
-
-* [[Julia Bergner]], _Adding inverses to diagrams encoding algebraic structures_, Homology, Homotopy Appl. 10(2), 2008, 149-174 ([arXiv:math/0610291](http://arxiv.org/abs/math/0610291))
-
-* [[Julia Bergner]], _Adding inverses to diagrams II: Invertible homotopy theories are spaces_, Homology, Homotopy and Applications, vol. 10(1) 2008 ([pdf](http://www.math.ucr.edu/~jbergner/Groupoid.pdf))
 
 [[!redirects complete Segal spaces]]
 [[!redirects Rezk category]]
