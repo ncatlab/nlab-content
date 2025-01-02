@@ -102,6 +102,8 @@ From the lemmas above, if every weak Heyting field with decidable equality is a 
 
 * [[ordered field]]
 
+* [[tight apartness ring]]
+
 ## References
 
 * {#Johnstone77} [[Peter Johnstone]], *Rings, Fields, and Spectra*, Journal of Algebra **49** (1977) 238-260 &lbrack;doi:[10.1016/0021-8693(77)90284-8](https://doi.org/10.1016/0021-8693%2877%2990284-8)&rbrack;
