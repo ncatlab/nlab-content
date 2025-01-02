@@ -51,6 +51,8 @@ The monoid of natural numbers is naturally even a [[rig]] -- in fact the [[initi
 
 * The integers have [[decidable equality]] and [[decidable relation|decidable order]]. 
 
+* The trivial ring is a [[tight apartness ring]] and a [[discrete ring]]. 
+
 * The integers are a [[strictly weakly ordered ring]] and a [[lattice-ordered ring]]. 
 
 * The integers are a [[metric space]] and a [[normed space]]. 
