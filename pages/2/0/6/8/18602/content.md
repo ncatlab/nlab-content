@@ -170,62 +170,11 @@ Discussion of precision experiment and possible deviation from theory:
 
 * Ashutosh Kotwal, Joaquim Matias, Andrea Mauri, Tom Tong, Lukas Varnhorst, *Round table on Standard Model Anomalies* &lbrack;[arXiv:2211.13030](https://arxiv.org/abs/2211.13030)&rbrack;
 
+Further [[lattice QCD]]-simulation increasingly points to there not being an anomaly in the muon's $g-2$, after all:
+
+* CernCourier: *[Shifting sands for muon g–2](https://cerncourier.com/a/shifting-sands-for-muon-g-2/)* (20 November 2024)
 
 
-### Relation to flavour anomalies
-
-Possible explanation of the anomaly in the anomalous magnetic moments in terms of [[leptoquarks]]:
-
-* {#BauerNeubert15} Martin Bauer, Matthias Neubert, _One Leptoquark to Rule Them All: A Minimal Explanation for $R_{D^{(\ast)}}$, $R_K$ and $(g-2)_\mu$_, Phys. Rev. Lett. 116, 141802 (2016) ([arXiv:1511.01900](https://arxiv.org/abs/1511.01900))
-
-* {#CCDM16} Estefania Coluccio Leskow, Andreas Crivellin, Giancarlo D'Ambrosio, Dario Müller, _$(g-2)_\mu$, Lepton Flavour Violation and Z Decays with Leptoquarks: Correlations and Future Prospects_, Phys. Rev. D 95, 055018 (2017) ([arXiv:1612.06858](https://arxiv.org/abs/1612.06858))
-
-* {#BiswasShaw19} Anirban Biswas, Avirup Shaw, _Reconciling dark matter, $R_{K^{(\ast)}}$ anomalies and $(g-2)_\mu$ in an $L_\mu-L_\tau$ scenario_ ([arXiv:1903.08745](https://arxiv.org/abs/1903.08745))
-
-
-* {#Falkowski17} [[Adam Falkowski]], _[Leptoquarks strike back](http://resonaances.blogspot.com/2015/11/leptoquarks-strike-back.html)_, November 2017
-
-* {#ChiangOkada17} Cheng-Wei Chiang, Hiroshi Okada, _A simple model for explaining muon-related anomalies and dark matter_ ([arXiv:1711.07365](https://arxiv.org/abs/1711.07365))
-
-
-* {#Mueller18} Dario Müller, _Leptoquarks in Flavour Physics_, EPJ Web of Conferences 179, 01015 (2018) ([arXiv:1801.03380](https://arxiv.org/abs/1801.03380))
-
-* Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
-
-Further possible joint explanation of the [anomalies](anomalous+magnetic+moment#Anomalies) observed in the [[muon]] [[anomalous magnetic moment]] and the [[flavour anomalies]]:
-
-* Geneviève Bélanger, Cédric Delaunay, Susanne Westhoff, _A Dark Matter Relic From Muon Anomalies_,  Phys. Rev. D 92, 055021 (2015) ([arXiv:1507.06660](https://arxiv.org/abs/1507.06660))
-
-* {#ChiangOkada17} Cheng-Wei Chiang, Hiroshi Okada, _A simple model for explaining muon-related anomalies and dark matter_ ([arXiv:1711.07365](https://arxiv.org/abs/1711.07365))
-
-* Junichiro Kawamura, Stuart Raby, Andreas Trautner, _Complete Vector-like Fourth Family and new $U(1)'$ for Muon Anomalies_ ([arXiv:1906.11297](https://arxiv.org/abs/1906.11297))
-
-* Lorenzo Calibbi, M.L. López-Ibáñez, Aurora Melis, Oscar Vives, _Muon and electron $g-2$ and lepton masses in flavor models_ ([arXiv:2003.06633](https://arxiv.org/abs/2003.06633))
-
-* A. S. de Jesus, S. Kovalenko, F. S. Queiroz, K. Sinha, C. Siqueira, _Vector-Like Leptons and Inert Scalar Triplet: Lepton Flavor Violation, $g-2$ and Collider Searches_ ([arXiv:2004.01200](https://arxiv.org/abs/2004.01200))
-
-* Shaikh Saad, _Combined explanations of $(g-2)_\mu$, $R_{D^\ast}$, $R_{K^\ast}$ anomalies in a two-loop radiative neutrino mass model_ ([arXiv:2005.04352](https://arxiv.org/abs/2005.04352))
-
-* Da Huang, António P. Morais, Rui Santos, _Anomalies in $B$ Decays and Muon $g-2$ from Dark Loops_ ([arXiv:2007.05082](https://arxiv.org/abs/2007.05082))
-
-* K.S. Babu, P.S. Bhupal Dev, Sudip Jana, Anil Thapa, _Unified Framework for $B$-Anomalies, Muon $g-2$, and Neutrino Masses_ ([arXiv:2009.01771](https://arxiv.org/abs/2009.01771))
-
-* Sang Quang Dinh, Hieu Minh Tran, _Muon $g-2$ and semileptonic $B$ decays in BDW model with gauge kinetic mixing_ ([arXiv:2011.07182](https://arxiv.org/abs/2011.07182))
-
-
-* Mingxuan Du, Jinhan Liang, Zuowei Liu, Van Que Tran, *A vector leptoquark interpretation of the muon $g-2$ and $B$ anomalies* ([arXiv:2104.05685](https://arxiv.org/abs/2104.05685))
-
-A [[leptoquark]] model meant to address all of the [[flavour anomalies]], the [[(g-2)-anomaly]] and the [[Cabibbo anomaly]] at once:
-
-* {#MarzoccaTrifinopoulos21} [[David Marzocca]], Sokratis Trifinopoulos, *A Minimal Explanation of Flavour Anomalies: B-Meson Decays, Muon Magnetic Moment, and the Cabbibo Angle* ([arXiv:2104.05730](https://arxiv.org/abs/2104.05730))
-
-
-
-Realization in [[F-theory]] of [[GUT]]-models with [[Z'-bosons]] and/or [leptoquarks]] addressing the [[flavour anomalies]] and the [(g-2) anomalies](anomalous+magnetic+moment#Anomalies):
-
-* Miguel Crispim Romao, Stephen F. King, George K. Leontaris, _Non-universal $Z'$ from Fluxed GUTs_, Physics Letters B Volume 782, 10 July 2018, Pages 353-361 ([arXiv:1710.02349](https://arxiv.org/abs/1710.02349))
-
-* A. Karozas, G. K. Leontaris, I. Tavellaris, N. D. Vlachos, _On the LHC signatures of $SU(5) \times U(1)'$ F-theory motivated models_ ([arXiv:2007.05936](https://arxiv.org/abs/2007.05936))
 
 
 
