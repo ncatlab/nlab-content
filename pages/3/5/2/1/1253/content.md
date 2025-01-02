@@ -91,7 +91,7 @@ For [[power sets]], the *[[axiom of extensionality]]* is a property of [[power s
 
 * [[Håkon Robbestad Gylterud]], [[Elisabeth Bonnevier]], *Non-wellfounded sets in HoTT* ([arXiv:2001.06696](https://arxiv.org/abs/2001.06696))
 
-category: foundational axiom
+category: foundational axiom, logic
 
 [[!redirects Axiom of extensionality]]
 
