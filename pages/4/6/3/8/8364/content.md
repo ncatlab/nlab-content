@@ -48,3 +48,5 @@ See also:
 * [[Jean-Yves Girard]], [[Yves Lafont]], and [[Paul Taylor]], _Proofs and Types_, 1990. ([web](http://www.paultaylor.eu/stable/Proofs+Types.html))
 
 * [[Martin Hyland]] provides some abstract perspectives on proof theory as a subject in the introduction to his essay, [Proof Theory in the Abstract](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Publications/2002/pta02.pdf).
+
+category: logic
