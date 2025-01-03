@@ -27,7 +27,7 @@ Every zero-dimensional ring is a "[[prefield ring]]" in that every [[cancellativ
 
 * Every commutative [[von Neumann regular ring]] is a zero-dimensional ring which is a [[reduced ring]]. 
 
-* Every [[residually discrete local ring|residually discrete]] [[local Artinian ring]] is a zero-dimensional ring which is also a [[local ring]]. 
+* Every [[local Artinian ring]] is a zero-dimensional ring which is also a [[local ring]]. In [[constructive mathematics]], only the [[residually discrete local ring|residually discrete]] local Artinian rings are zero-dimensional local rings. 
 
 * Every [[Artinian ring]] is a zero-dimensional ring which is also a [[Noetherian ring]] and a [[coherent ring]]. 
 
@@ -42,6 +42,8 @@ has a [[choice operator]], from which one can construct the function $\nu:R \to 
 ## Related concepts
 
 * [[Artinian ring]]
+
+* [[von Neumann regular ring]]
 
 ## References
 
