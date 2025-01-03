@@ -219,6 +219,8 @@ In [[homotopy type theory]], every [[type]] with a partial order in a [[univalen
 
 * [[Thomason model structure]]
 
+* [[antithesis partial order]]
+
 ## References
 
 * Richard P. Stanley, Enumerative [[combinatorics]], vol I [pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf)
