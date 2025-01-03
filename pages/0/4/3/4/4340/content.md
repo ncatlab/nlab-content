@@ -88,6 +88,7 @@ In this sense, the object $true$ in [[Set]] or [[∞Grpd]] may canonically be th
 
 [[!include homotopy n-types - table]]
 
+category: logic
 
 [[!redirects true]]
 [[!redirects True]]
