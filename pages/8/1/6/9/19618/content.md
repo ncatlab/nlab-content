@@ -46,3 +46,4 @@ In relation to the [[axiom of full comprehension]]:
 
 * {#Fitch69} [[Frederic Fitch]], *A method for avoiding the Curry paradox*, in *Essays in Honor of Carl G. Hempel*, Reidel, Dordrecht, Holland 1969, pp. 255--265 ([doi:10.1007/978-94-017-1466-2](https://link.springer.com/book/10.1007/978-94-017-1466-2))
 
+category: logic
