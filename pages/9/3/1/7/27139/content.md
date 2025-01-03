@@ -32,6 +32,12 @@ The antithesis interpretation also explains why there are often both weak and st
 
 Since every proposition comes with an antithesis proposition in the antithesis interpretation, the natural notion of a [[subset]] is actually a pair of [[disjoint subsets]], leading to a potentially far-reaching reinterpretation of the role of [[higher-order logic]] in constructive mathematics, with concepts like a family of collections of subsets becoming a disjoint pair of families of disjoint pairs of collections of disjoint pairs of subsets.
 
+## Concepts in the antithesis interpretation
+
+* [[antithesis partial order]]
+
+* [[unified topological space]]
+
 ## From a philosophical perspective
 
 Philosophically the antithesis translation positions itself at the crossroad of several approaches to "logicist metaphysics" that usually are thought to be incompatible:
