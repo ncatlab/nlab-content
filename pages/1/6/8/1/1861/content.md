@@ -1040,8 +1040,65 @@ $$
 $$
 \end{proposition}
 
-\linebreak
 
+Of course, twice the integer Heisenberg extension may equivalently be rewritten in a more suggestive way:
+
+\begin{proposition}
+\label{TwiceHeisenbergExtensionInSymplecticForm}
+  The integer Heisenberg extension from Prop. \ref{FundamentalGroupOfMapsFromSurfaceToSphereIsTwiceHeisenberg} is [[isomorphism|isomorphic]] to
+
+$$
+  \Big\{
+    \big(\vec a, \vec b, [n]\big)
+    \,\in\,
+    \mathbb{Z}^n \times \mathbb{Z}^n \times \mathbb{Z}_{2\vert k\vert}
+    \,,
+    \big(
+      \vec a, \vec b, [n]
+    \big)
+    \cdot
+    \big(
+      \vec a', \vec b', [n']
+    \big)
+    \;=\;
+    \big(
+      \vec a + \vec a'
+      ,\,
+      \vec b + \vec b'
+      ,\,
+      [n + n' + {\color{red}\vec a \cdot \vec b' - \vec a' \cdot \vec b}]
+    \big)
+  \Big\}  
+  \mathrlap{\,.}
+$$
+\end{proposition}
+\begin{proof}
+  It is sufficient to see that the second red summand is a 2-cocycle cohomologous to the first red summand, which means equivalently that the 2-cocycle
+$$
+  \big(
+    (\vec a,\vec b), (\vec a',\vec b')
+  \big)
+  \;\mapsto\;
+  \vec a \cdot \vec b' + \vec a' \cdot \vec b
+$$
+has a [[coboundary]]: This coboundary is readily found to be
+$$
+  (\vec a, \vec b) \;\mapsto\; - \vec a \cdot \vec b
+  \,,
+$$
+since
+$$
+  -\vec a \cdot \vec b - \vec a' \cdot  \vec b'
+  \,+\,
+  (\vec a + \vec a') \cdot (\vec b + \vec b')
+  \;=\;
+  \vec a \cdot \vec b' + \vec a' \cdot \vec b  
+  \,.
+$$
+\end{proof}
+
+
+\linebreak
 
 
 ## Related concepts
