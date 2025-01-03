@@ -121,7 +121,7 @@ The $n$th stage of the Whitehead tower of $X$ is the [[homotopy fiber]] of the m
 
 The $n$th stage of the Whitehead tower of $X$ is also the cofibrant replacement for $X$ in the right [[Bousfield localization]] of [[Top]] with respect to the object $S^n$ (or so). Since [[Top]] is right proper and cellular this localization exists by the result of chapter 5 of Hirschhorn's book on [[localization]]s of [[model category|model categories]]. 
 
-[Dustin Clausen](#Clausen): $ \ldots \to B^{3} \Omega^{3} (X) \to B^{2} \Omega^{2} (X) \to B \Omega (X) \to X$
+Another straightforward construction was mentioned by [Dustin Clausen](#Clausen): $ \ldots \to B^{3} \Omega^{3} (X) \to B^{2} \Omega^{2} (X) \to B \Omega (X) \to X$
 
 
 
