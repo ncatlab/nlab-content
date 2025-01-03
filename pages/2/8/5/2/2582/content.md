@@ -121,6 +121,9 @@ The $n$th stage of the Whitehead tower of $X$ is the [[homotopy fiber]] of the m
 
 The $n$th stage of the Whitehead tower of $X$ is also the cofibrant replacement for $X$ in the right [[Bousfield localization]] of [[Top]] with respect to the object $S^n$ (or so). Since [[Top]] is right proper and cellular this localization exists by the result of chapter 5 of Hirschhorn's book on [[localization]]s of [[model category|model categories]]. 
 
+[Dustin Clausen](#Clausen): $ \ldots \to B^{3} \Omega^{3} (X) \to B^{2} \Omega^{2} (X) \to B \Omega (X) \to X$
+
+
 
 ## Examples 
 
@@ -290,6 +293,9 @@ A more detailed useful discussion happens to be in section 2.A, starting on p. 1
 
 * [[Linus Kramer]], _Homogeneous Spaces, Tits Buildings, and Isoparametric Hypersurface_,  Memoirs of the American Mathematical Society number 752 ([arXiv:math/0109133] (http://arxiv.org/abs/math/0109133), [doi:10.1090/memo/0752](http://dx.doi.org/10.1090/memo/0752), [GoogleBooks](http://books.google.com/books?id=SA8O6ihrDFkC&printsec=frontcover&hl=de&source=gbs_v2_summary_r&cad=0#v=onepage&q=&f=false))
 
+Related Discussions
+
+* [[Dustin Clausen]], https://mathoverflow.net/a/27970/124549 {#Clausen}
 
 [[!redirects Whitehead tower]]
 [[!redirects Whitehead towers]]
