@@ -67,9 +67,6 @@ In [[propositional logic]], we fix a single context (considered the [[empty cont
 [[!include mathematical statements --- contents]]
 
 
-
-
-
 [[!redirects proposition]]
 [[!redirects propositions]]
 
@@ -77,3 +74,5 @@ In [[propositional logic]], we fix a single context (considered the [[empty cont
 [[!redirects predicates]]
 [[!redirects propositional function]]
 [[!redirects propositional functions]]
+
+category: logic
