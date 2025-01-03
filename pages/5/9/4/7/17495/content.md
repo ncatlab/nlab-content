@@ -18,3 +18,5 @@ The original version of Hilbert's program was overthrown by [[Gödel's incomplet
 * Wikipedia _[Hilbert's program](https://en.wikipedia.org/wiki/Hilbert%27s_program)_
 
 [[!redirects Hilbert problem]]
+
+category: logic
