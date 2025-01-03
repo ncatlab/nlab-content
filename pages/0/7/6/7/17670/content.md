@@ -146,6 +146,11 @@ Discussion in Lorentzian signature:
 * Manuele Filaci, Pierre Martinetti, *A critical survey of twisted spectral triples beyond the Standard Model* &lbrack;[arXiv:2301.08346](https://arxiv.org/abs/2301.08346)&rbrack;
 
 
+See also:
+
+* Johannes Aastrup, Jesper M. Grimstrup: *A Yang-Mills-Dirac Quantum Field Theory Emerging From a Dirac Operator on a Configuration Space* &lbrack;[arXiv:2501.00005](https://arxiv.org/abs/2501.00005)&rbrack;
+
+
 
 [[!redirects Connes-Lott-Chamseddine-Barrett models]]
 
