@@ -15,7 +15,7 @@
 
 The **bicrossed product**, also known as the **Zappa–Szép product**, generalizes the [[semidirect product]] of groups.
 
-This construction is essential to the [[quantum double]] construction of Drinfel'd.
+This construction is essential to the [[quantum double]] construction of Drinfel'd. The bicrossed product applies more generally to [[monoids]] and other algebraic entities, see ([Brin 04](#Brin04)).
 
 ## Definition 
 
@@ -38,7 +38,9 @@ Need to define the bicrossed product of algebras.
 
 ## References
 
-* [[Christian Kassel]]: *Quantum groups*, Graduate Texts in Mathematics __155__, Springer (1995) &lbrack;[doi:10.1007/978-1-4612-0783-2](https://link.springer.com/book/10.1007/978-1-4612-0783-2), [webpage](http://www-irma.u-strasbg.fr/~kassel/QGbk.html), [errata pdf](http://www-irma.u-strasbg.fr/~kassel/QGerrata030399.pdf)&rbrack;
+* [[Christian Kassel]], *Quantum groups*, Graduate Texts in Mathematics __155__, Springer (1995) &lbrack;[doi:10.1007/978-1-4612-0783-2](https://link.springer.com/book/10.1007/978-1-4612-0783-2), [webpage](http://www-irma.u-strasbg.fr/~kassel/QGbk.html), [errata pdf](http://www-irma.u-strasbg.fr/~kassel/QGerrata030399.pdf)&rbrack;
+
+* {#Brin04} Matthew G. Brin, *On the Zappa-Szep Product* &lbrack;[arXiv:math/0406044](https://arxiv.org/abs/math/0406044)&rbrack;
 
 [[!redirects bicrossed products]]
 [[!redirects matched group]]
