@@ -38,6 +38,8 @@ Given a field $K$ and a Artinian local $K$-algebra $A$, let $I$ be the [[nilradi
 * $v(a r + b s) = v(r) + v(s)$
 * $v(r s) = \min(v(r), v(s))$
 
+In [[classical mathematics]], Artinian local rings are the [[zero-dimensional ring|zero-dimensional]] [[local rings]], in that every element is either [[invertible element|invertible]] or [[nilpotent element|nilpotent]]. However, in [[constructive mathematics]], it is only the [[residually discrete local rings|residually discrete]] [[Artinian local rings]] which are zero-dimensional local rings. 
+
 ### Spectra
 
 Passing from commutative rings to their spectra (in the sense of algebraic geometry), Artinian local algebras correspond to infinitesimal pointed spaces. As such, they appear as bases of deformations in [[infinitesimal object|infinitesimal]] [[deformation theory]]. For instance $Spec(\mathbb{K}[\epsilon]/(\epsilon^2))$ is the base space for 1-dimensional first order deformations. Similarly, $Spec(\mathbb{K}[\epsilon]/(\epsilon^{n+1}))$ is the base space for 1-dimensional $n$-th order deformations.
