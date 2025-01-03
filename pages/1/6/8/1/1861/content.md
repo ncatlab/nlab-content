@@ -1006,7 +1006,7 @@ In this integer Heisenberg group
 
 \end{example}
 
-The remaining multiple not fixed by Prop. \ref{FundamentalGroupOf2CohomotopyModuliOfTorusIsHeisExt} is found in [Larmore & Thomas 1980](#LarmoreThomas80) to be: 2. In fact they prove for all $g$ that:
+The remaining multiple not fixed by Prop. \ref{FundamentalGroupOf2CohomotopyModuliOfTorusIsHeisExt} is found in [Larmore & Thomas 1980 Thm 1](#LarmoreThomas80) (also [Kallel 2001 Cor 7.6](#Kallel01)) to be: 2. In fact they prove for all $g$ that:
 
 \begin{proposition}
 \label{FundamentalGroupOfMapsFromSurfaceToSphereIsTwiceHeisenberg}
@@ -1156,6 +1156,9 @@ and more generally on $n$-[[Cohomotopy]] [[cocycle spaces]] of $n$-[[manifolds]]
 * {#Hansen81} [[Vagn Lundsgaard Hansen]]: *On spaces of maps of $n$-manifolds into the $n$-sphere*, Trans. Amer. Math. Soc. **265** (1981) 273-281 &lbrack;[doi:10.1090/S0002-9947-1981-0607120-X ](https://doi.org/10.1090/S0002-9947-1981-0607120-X )&rbrack;
 
 * {#LarmoreThomas80} L. L. Larmore, E. Thomas: *On the Fundamental Group of a Space of Sections*, Mathematica Scandinavica **47** 2 (1980) 232-246 &lbrack;[jstor:24491393](https://www.jstor.org/stable/24491393), [dml:166724](https://eudml.org/doc/166724)&rbrack;
+
+* {#Kallel01} [[Sadok Kallel]]: *Configuration Spaces and the Topology of Curves in Projective Space*, in: *Topology, Geometry, and Algebra: Interactions and new directions*, Contemporary Mathematics **279**, AMS (2001) 151–175 &lbrack;[doi:10.1090/conm/279](https://doi.org/10.1090/conm/279), [pdf](https://math.univ-lille1.fr/~kallel/Papers/pconfig.pdf)&rbrack; 
+
 
 * W. A. Sutherland: *Path-Components of Function Spaces*, The Quarterly Journal of Mathematics **34** 2 (1983) 223–233 &lbrack;[doi:10.1093/qmath/34.2.223](https://doi.org/10.1093/qmath/34.2.223)&rbrack;
 
