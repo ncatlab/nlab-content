@@ -206,3 +206,4 @@ Consideration of the relation of mathematical proof to physics icludes
 [[!redirects rigorous proof]]
 [[!redirects rigorous proofs]]
 
+category: logic
