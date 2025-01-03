@@ -1,5 +1,13 @@
 
-* [website](https://www2.mathematik.tu-darmstadt.de/~streicher/)
+Thomas Streicher (1958-2025)
+
+* [personal page](https://www2.mathematik.tu-darmstadt.de/~streicher/)
+
+* [institute page](https://www.mathematik.tu-darmstadt.de/fb/personal/details/thomas_streicher.de.jsp)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Thomas_Streicher)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=76350)
 
 
 ## Selected writings
