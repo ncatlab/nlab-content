@@ -10,11 +10,16 @@
 
 On the [[rational cohomology]] of [[iterated loop spaces]] of [[n-spheres]] ([[cocycle spaces]] in [[rational Cohomotopy]] on [[n-spheres]]):
 
-* {#KallelSjerve99} [[Sadok Kallel]], [[Denis Sjerve]], _On Brace Products and the Structureof Fibrations with Section_, 1999 ([pdf](https://www.math.ubc.ca/~sjer/brace.pdf), [[KallelSjerv99.pdf:file]])
+* {#KallelSjerve99} [[Sadok Kallel]], [[Denis Sjerve]], _On Brace Products and the Structure of Fibrations with Section_, 1999 ([pdf](https://www.math.ubc.ca/~sjer/brace.pdf), [[KallelSjerv99.pdf:file]])
+
+On [[configuration spaces]] and the [[homotopy type]] of [[mapping spaces]] from [[surfaces]] into [[complex projective spaces]] $\mathbb{C}P^n$ (hence of [[cohomotopy]] [[cocycle spaces]] for $n = 1$):
+
+* {#Kallel01} [[Sadok Kallel]]: *Configuration Spaces and the Topology of Curves in Projective Space*, in: *Topology, Geometry, and Algebra: Interactions and new directions*, Contemporary Mathematics **279**, AMS (2001) 151–175 &lbrack;[doi:10.1090/conm/279](https://doi.org/10.1090/conm/279), [pdf](https://math.univ-lille1.fr/~kallel/Papers/pconfig.pdf)&rbrack; 
+
 
 On [[configuration spaces of points]]:
 
-* [[Sadok Kallel]], _Spaces of particles on manifolds and Generalized Poincaré Dualities_, The Quarterly Journal of Mathematics, Volume 52, Issue 1, 1 March 2001 ([doi:10.1093/qjmath/52.1.45](https://doi.org/10.1093/qjmath/52.1.45)) 
+* [[Sadok Kallel]], _Spaces of particles on manifolds and Generalized Poincaré Dualities_, The Quarterly Journal of Mathematics **52** 1 (2001) &lbrack;[doi:10.1093/qjmath/52.1.45](https://doi.org/10.1093/qjmath/52.1.45)&rbrack;
 
 * [[Sadok Kallel]], Ines Saihi, _Homotopy Groups of Diagonal Complements_, Algebr. Geom. Topol. 16 (2016) 2949-2980 ([arXiv:1306.6272](https://arxiv.org/abs/1306.6272))
 
