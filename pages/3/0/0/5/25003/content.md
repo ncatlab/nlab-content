@@ -33,6 +33,10 @@ An **ordered Kock field** is a [[Kock field]] $R$ with a [[strict weak order]] $
 
 7. for all $a \in R$, $a \neq 0$ if and only if $a \lt 0$ or $0 \lt a$
 
+## Properties
+
+The order in an ordered Kock field is a strong linear affirmative [[antithesis partial order]]. 
+
 ## See also
 
 * [[Kock field]]
