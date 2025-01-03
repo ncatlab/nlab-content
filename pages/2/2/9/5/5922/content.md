@@ -72,3 +72,4 @@ For instance def. D1.1.6 in
 [[!redirects axiomatizations]]
 
 
+category: logic
