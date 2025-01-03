@@ -58,3 +58,4 @@ A truth value may be interpreted as a $0$-[[0-poset|poset]] or as a $(-1)$-[[(-1
 [[!redirects frame of truth values]]
 [[!redirects algebra of truth values]]
 
+category: logic
