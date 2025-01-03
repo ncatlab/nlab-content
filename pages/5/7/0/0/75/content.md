@@ -172,6 +172,8 @@ valid in LF/P) of various kinds of foundations of mathematics. Then it compares 
 
 * [[Colin McLarty]], _Set theory for Grothendieck's number theory_, [pdf](http://www.cwru.edu/artsci/phil/Groth%20found.pdf)
 
+category: logic
+
 [[!redirects mathematical foundation]]
 [[!redirects mathematical foundations]]
 
