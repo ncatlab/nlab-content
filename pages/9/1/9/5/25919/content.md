@@ -17,7 +17,7 @@ In [[graph theory]], an **adjacency matrix** for a [[finite set|finite]] [[multi
 
 ## Properties
 
-Let $G$ be a finite multigraph, and let $A$ be the associated adjacency matrix. Then the matrix power $A^n$ encodes the number of [[walks]] between each vertex: entry $b_{i, j}$ in $A^n$ is the number of walks between vertex $v_i \in G$ and $v_j \in G$. 
+Let $G$ be a finite multigraph, and let $A$ be the associated adjacency matrix. Then the matrix power $A^n$ encodes the number of $n$-step [[walks]] between each vertex: entry $b_{i, j}$ in $A^n$ is the number of $n$-step walks between vertex $v_i \in G$ and $v_j \in G$. 
 
 ## Related concepts
 
