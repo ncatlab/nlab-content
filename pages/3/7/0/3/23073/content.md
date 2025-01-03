@@ -71,7 +71,7 @@ The normalizability restriction is also discussed philosophically in
 
 and other references (someone add!).
 
-category: foundational axiom
+category: foundational axiom, logic
 
 [[!redirects full comprehension]]
 [[!redirects full comprehension rule]]
