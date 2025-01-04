@@ -269,3 +269,8 @@ The Heisenberg group for the [[phase space]] $U(1)$-[[Chern-Simons theory]] on a
 [[!redirects Weyl-Heisenberg group]]
 [[!redirects Weyl-Heisenberg groups]]
 
+[[!redirects integer Heisenberg group]]
+[[!redirects integer Heisenberg groups]]
+
+
+
