@@ -349,7 +349,10 @@ Introductory texts:
 
 A connection to [[double categories]] may be found in:
 
-* Miloslav Štěpán, _Factorization systems and double categories_, [arXiv:2305.06714](https://arxiv.org/abs/2305.06714).
+* Miloslav Štěpán, _Factorization systems and double categories_ &lbrack;[arXiv:2305.06714](https://arxiv.org/abs/2305.06714)&rbrack;.
+
+* [[Branko Juran]], _On orthogonal factorization systems and double categories_ &lbrack;[arXiv:2501.01363](https://arxiv.org/abs/2501.01363)&rbrack;
+
 
 [[!redirects orthogonal factorization system]]
 [[!redirects orthogonal factorization systems]]
