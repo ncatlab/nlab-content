@@ -1,4 +1,34 @@
 
+$$
+  \text{integer Heisenberg group}
+  \;=\;
+  \Bigg\{
+    \begin{array}{l}
+    \big(a, b, [n]\big)
+    \,\in\,
+    \mathbb{Z} \times \mathbb{Z} \times \mathbb{Z}_{2\vert k\vert}
+    \,,
+    \\
+    \big(
+      a, b, [n]
+    \big)
+    \cdot
+    \big(
+      a', b', [n']
+    \big)
+    \;=\;
+    \big(
+      a + a'
+      ,\,
+      b + b'
+      ,\,
+      [n + n' + {\color{red} a \cdot b' - a' \cdot b}]
+    \big)
+    \end{array}
+    \!\!\!\!\!\!\!\!
+  \Bigg\}
+$$
+
 Given $k \in \mathbb{Z}$, for brevity we will now write $\widehat{\mathbb{Z}^2}$ specifically for the integer Heisenberg group
 
 $$
