@@ -1,17 +1,75 @@
 
-The non-trivial [[irrep]] of the [[integer Heisenberg group]] [[group extension|extension]] $\mathbb{Z}_2 \hookrightarrow \widehat{\mathbb{Z}^2} \twoheadrightarrow \mathbb{Z}^2$ on is on 
+Given $k \in \mathbb{Z}$, for brevity we will now write $\widehat{\mathbb{Z}^2}$ specifically for the integer Heisenberg group
+
+$$
+  \widehat{\mathbb{Z}^2}
+  \;\coloneqq\;
+  \Big\{
+    (a,b,[n]) 
+      \,\in\, \mathbb{Z} \times \mathbb{Z} \times \mathbb{Z}_k
+  \Big\}
+$$
+
+We clearly have an [[automorphism group]]
+
+$$
+  \begin{array}{ccc}
+    Sp(2,\mathbb{Z})
+    &\xrightarrow{}&
+    Aut\big(
+      \widehat{\mathbb{Z}^2}
+    \big)
+    \\
+    g &\longmapsto& 
+    \big(
+      \vec a,\, 
+      \vec b,\,
+      [n]
+    \big)
+    \mapsto
+    \big(
+      g(\vec a),\, 
+      g(\vec b),\,
+      [n]
+    \big)
+  \end{array}
+$$
+
+
+The non-trivial [[irrep]] of the [[integer Heisenberg group]] [[group extension|extension]] $\mathbb{Z}_{2 k} \hookrightarrow \widehat{\mathbb{Z}^2} \twoheadrightarrow \mathbb{Z}^2$
+
+$$
+  \begin{array}{ccc}
+    \widehat{\mathbb{Z}^2}
+    &\xrightarrow{ W }&
+    \mathrm{Aut}(\mathscr{H}_1)
+  \end{array}
+$$
+
+may be given by
 
 $$
   \mathscr{H}_1
-  \;\coloneqq\;
+  \;\simeq\;
   \mathbb{C}\Big(
     \left\vert [n] \right\rangle
     \,\Big\vert\,
-    [n] \in \mathbb{Z}_k
+    [n] \in \mathbb{Z}_{2k}
   \Big)
 $$
 
-given by
+with 
+
+$$
+  W(n_a, n_b, 0)
+  \left\vert [n] \right\vert
+  \;:=\;
+  e^{
+    2 \pi \mathrm{i} n_a
+  }
+  \left\vert [n + n_b] \right\vert
+  \,.
+$$
 
 $$
   \begin{array}{ccl}
@@ -160,7 +218,7 @@ $$
     \\
     \left\vert [n] \right\rangle
     &\mapsto&
-    \exp( 2\pi \mathrm{i} \tfrac{n^2}{k})
+    \exp( \pi \mathrm{i} \tfrac{n^2}{k})
     \left\vert [n] \right\rangle
   \end{array}
 $$
@@ -170,23 +228,26 @@ $$
   \begin{array}{ccl}
     T(W_b)T\big( \left\vert [n] \right\rangle \big)
     &=&
-    W_a W_b e^{-2\pi \mathrm{i}\tfrac{1}{k}}
-    \exp( 2\pi \mathrm{i} \tfrac{n^2}{k} )
+    W_b W_a e^{\pi \mathrm{i}\tfrac{1}{k}}
+    \exp( \pi \mathrm{i} \tfrac{n^2}{k} )
     \left\vert [n] \right\rangle
     \\
     &=&
-    \exp\big( 2\pi \mathrm{i} 
-      \tfrac{(n^2 + 2n + 1)}{k} \big)
+    \exp\big( \pi \mathrm{i} 
+      \tfrac{(n^2 + 2 n + 1)}{k} \big)
     \left\vert [n+1] \right\rangle
     \\
     &=&
-    \exp\big( 2\pi \mathrm{i} 
-      \tfrac{(n+1)^2}{k} 
+    \exp\big( 
+      \pi \mathrm{i} \tfrac{(n+1)^2}{k} 
     \big)
     \left\vert [n+1] \right\rangle
     \\
     &=&
-    \cdots
+    T\big(
+      W_b 
+      \left\vert [n+1] \right\rangle      
+    \big)
   \end{array}
 $$
 \end{proof}
