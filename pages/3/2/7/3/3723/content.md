@@ -31,7 +31,7 @@ See also the section <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C
 Let $\mathbf{H}$ be a [[locally ∞-connected (∞,1)-topos]] $\mathbf{H} \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}} \infty Grpd$. Write 
 
 $$
-  \mathbf{\Pi} := LConst \circ \Pi : \mathbf{H} \to \mathbf{H}
+  \mathbf{\Pi} \coloneqq LConst \circ \Pi : \mathbf{H} \to \mathbf{H}
 $$
 
 for the _internal_ [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]-functor. From the adjunction relation this comes with the canonical natural morphism
