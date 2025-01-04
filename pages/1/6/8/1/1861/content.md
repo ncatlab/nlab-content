@@ -801,7 +801,7 @@ Now
 ([Kirby, Melvin & Teichner 2012](#KirbyMelvinTeichner12))
 
 
-### Cohomotopy moduli of surfaces
+### 2-Cohomotopy moduli of surfaces
  {#CohomotopyModuliOfSurfaces}
 
 Let $\Sigma_g$ be a [[closed manifold|closed]] [[orientation|orientable]] [[surface]] of [[genus of a surface|genus]] $g \in \mathbb{N}$ (so that $\Sigma_0 = S^2$ is [[generalized the|the]] [[2-sphere]], $\Sigma_1 = T^2$ is [[generalized the|the]] [[2-torus]], etc.).
@@ -866,7 +866,7 @@ We conclude from this for $g = 1$ (the [[2-torus]] $\Sigma_g = T^2$) that:
 
 \begin{proposition}
 \label{FundamentalGroupOf2CohomotopyModuliOfTorusIsHeisExt}
-The group $\pi_1 Maps\big(T^2, S^2\big)_{\vert deg = k}$ (eq:FundamentalGroupOf2CohomotopyModuliOfSurface) is a non-vanishing multiple of the "integral [[Heisenberg group]]"-extension (eq:IntegerHeisenbergExtension).
+The group $\pi_1 Maps\big(T^2, S^2\big)_{\vert deg = k}$ (eq:FundamentalGroupOf2CohomotopyModuliOfSurface) is a non-vanishing multiple of the [[integer Heisenberg group]]-extension (eq:IntegerHeisenbergExtension).
 \end{proposition}
 
 \begin{proof} Let's denote [[cyclic groups]], for $n \in \mathbb{N}$, uniformly by
@@ -966,7 +966,7 @@ $$
 $$
 is (the [[modulo|mod $n$]]-[[quotient group|quotient]] of) the [[subgroup]] of the [[simply-connected topological space|simply-connected]] version of the [[Heisenberg group]] of $\mathbb{R}^2$ obtained by restriction along the canonical inclusion $\mathbb{Z}^2 \hookrightarrow \mathbb{R}^2$ (an "integer Heisenberg group", cf. [Lee & Packer 1996 (1.2)](Heisenberg+group#LeePacker96)).
 
-By (eq:SecondGroupCohomologyOfZPlusZ) all [[central extensions]] of the form $\mathbb{Z}_n \longrightarrow \pi_1 Maps(T^2, S^2)_{\vert deg = k} \longrightarrow \mathbb{Z}^2$ must be multiplies of this integral Heisenberg extension, and must be non-vanishing such multiples since $\pi_1 Maps(T^2, S^2)_{\vert deg = k}$ is [[non-abelian group|non-abelian]], by the above.
+By (eq:SecondGroupCohomologyOfZPlusZ) all [[central extensions]] of the form $\mathbb{Z}_n \longrightarrow \pi_1 Maps(T^2, S^2)_{\vert deg = k} \longrightarrow \mathbb{Z}^2$ must be multiplies of this [[integer Heisenberg group]] extension, and must be non-vanishing such multiples since $\pi_1 Maps(T^2, S^2)_{\vert deg = k}$ is [[non-abelian group|non-abelian]], by the above.
 \end{proof}
 
 \begin{example}
