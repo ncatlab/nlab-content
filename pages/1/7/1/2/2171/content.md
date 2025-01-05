@@ -3355,7 +3355,7 @@ It has been shown ([An & Maciazek 2006](#AnMaciazek2006), using discrete [[Morse
  {#AsMappingClassGroupOfAPuncturedDisk}
 
 
-The braid group $Br(n)$ may be alternatively described as the [[mapping class group]] of a 2-disk $D^2$ with $n$ punctures. 
+The braid group $Br(n)$ may be alternatively described as the [[mapping class group]] of a 2-disk $D^2$ with $n$ punctures. &lbrack;[Birman 1969](#Birman69)&rbrack; 
 
 (review includes [Birman 1975 §4](#Birman75), [González-Meneses 2011 §1.4](#González-Meneses11), [Massuyeau 2021 §3.3](#Massuyeau21), [Abadie 2022 §1.3](#Abadie22))
 
@@ -3699,6 +3699,11 @@ The understanding of the braid group as the [[fundamental group]] of a [[configu
 * {#FoxNeuwirth62} [[Ralph H. Fox]], [[Lee Neuwirth]], *The braid groups*, Math. Scand. **10** (1962) 119-126 $[$[doi:10.7146/math.scand.a-10518](https://doi.org/10.7146/math.scand.a-10518), [pdf](https://www.mscand.dk/article/view/10518/8539), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)$]$
 
 * {#FadellNeuwirth62} [[Edward Fadell]], [[Lee Neuwirth]], *Configuration spaces*, Math. Scand. __10__ (1962) 111-118 $[$[doi:10.7146/math.scand.a-10517](https://doi.org/10.7146/math.scand.a-10517), [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126)$]$
+
+The understanding of the braid group as the [[mapping class group]] of the punctured disk, etc., is due to:
+
+* {#Birman69} [[Joan S. Birman]]: *Mapping class groups and their relationship to braid groups*, Communications on Pure and Applied Mathematics **22** 2 (1969) 213-238 &lbrack;[doi:10.1002/cpa.3160220206](https://doi.org/10.1002/cpa.3160220206)&rbrack;
+
 
 Textbook accounts:
 
