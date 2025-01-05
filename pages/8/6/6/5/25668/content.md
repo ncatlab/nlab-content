@@ -38,7 +38,7 @@ $$
 
 of [[endomorphism|endo]]-[[natural transformation]] of the [[identity functor]] $Id_C \,\colon\, C \to C$, i.e. the [[endomorphism monoid]] of $Id_C$ in the [[functor category]] $[C,C]$.  
 
-If $\mathcal{C}$ carries extra [[structure]] this may be inhereted by its center. Notably the center of an [[additive category]] is not just a [[commutative monoid]] but a [[commutative ring]]: the [[endomorphism ring]] of the [[identity functor]]. For more on this see at *[[center of an additive category]]*.
+If $\mathcal{C}$ carries extra [[structure]] this may be inherited by its center. Notably the center of an [[additive category]] is not just a [[commutative monoid]] but a [[commutative ring]]: the [[endomorphism ring]] of the [[identity functor]]. For more on this see at *[[center of an additive category]]*.
 
 ## Examples
 
