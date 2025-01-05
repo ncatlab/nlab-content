@@ -35,6 +35,9 @@ A pair of groups $(H,K)$ is said to be matched if there exists a left action $\a
 Need to define the bicrossed product of algebras.
 =--
 
+## Properties
+
+The bicrossed products of two groups $H$ and $K$ precisely correspond to the [[distributive laws]] between the [[monads]] $T=H \times -$ and $S=K\times -$. 
 
 ## References
 
