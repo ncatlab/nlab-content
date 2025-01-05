@@ -15,7 +15,7 @@
 
 ## Idea 
 
-The *integer Heisenberg groups* are [[non-abelian group|non-abelian]] [[discrete group|discrete]] [[central extensions]] of the [[integer]] [[product groups]] $\mathbb{Z}^{2g}$, $g \in \mathbb{N}$, analogous to how the ordinary [[Heisenberg groups]] are [[non-abelian group|non-abelian]] [[central extensions]] of $\mathbb{R}^{2g}$. Generally there are analogous *$R$-Heisenberg groups* for any [[commutative ring]] $R$.
+The *integer Heisenberg groups* or *discrete Heisenberg groups* are [[non-abelian group|non-abelian]] [[discrete group|discrete]] [[central extensions]] of the [[integer]] [[product groups]] $\mathbb{Z}^{2g}$, $g \in \mathbb{N}$, analogous to how the ordinary [[Heisenberg groups]] are [[non-abelian group|non-abelian]] [[central extensions]] of $\mathbb{R}^{2g}$. Generally there are analogous *$R$-Heisenberg groups* for any [[commutative ring]] $R$.
 
 In fact, for even multiples of the basic such extension, integer Heisenberg groups are [[discrete group|discrete]] [[subgroups]] of ordinary $\mathbb{R}$-[[Heisenberg groups]] covering a [[lattice (discrete subgroup)|lattice]] inclusion $\mathbb{Z}^{2g} \hookrightarrow \mathbb{R}^{2g}$ (cf. Prop. \ref{TwiceHeisenbergExtensionInSymplecticForm} below).
 
@@ -70,7 +70,7 @@ Recall (see [there](group+extension#CentralExtensionClassificationByGroupCohomol
       a + a', b+ b', 
       [ 
         n + n' + 
-        {\color{purple}
+        {\color{red}
           a \, b'
         }
       ]
@@ -181,7 +181,8 @@ In the integer Heisenberg group (eq:BasicIntegerHeisenbergExtensionOfZ2)
 
 * the basic [[group commutators]] give
 
-  $$
+  \[
+    \label{BasicGroupCommutator}
     \begin{array}{ccl}
       \big[
         (1,0,0), (0,1,0)
@@ -199,7 +200,7 @@ In the integer Heisenberg group (eq:BasicIntegerHeisenbergExtensionOfZ2)
       (0,0,1)
       \mathrlap{\,.}
     \end{array}
-  $$
+  \]
 
 \end{example}
 
@@ -265,7 +266,51 @@ $$
 
 ## Properties
 
-### Representations
+### Basic properties
+
+\begin{prop}
+  The multiple=2 discrete Heisenberg group $\mathbb{Z}_{2{\vert k \vert}} \to \widehat{\mathbb{Z}^{2}} \to \mathbb{Z}^2$ (eq:TwiceOfBasicIntegerHeisInSymplecticForm) is the following [[quotient group]] of the [[product group]] $F(a,b) \times \mathbb{Z}_{2{\vert k \vert}}$ with the [[free group]] $F(a,b)$ on two generators:
+\[
+  \label{HeisenbergAsQuotientOfFreeGroup}
+  \widehat{\mathbb{Z}^2}
+  \,\simeq\,
+  \big(
+    F(a,b) \times \mathbb{Z}_{2 {\vert k \vert}}
+  \big) 
+    \big/ 
+  \big( a \cdot b = [2] \cdot b \cdot a \big)
+  \,.
+\]
+\end{prop}
+
+\begin{proof}
+  The map
+  $$
+    \begin{array}{ccc}
+     \frac{
+       F(a,b) 
+       \times 
+       \mathbb{Z}_{2 {\vert k \vert}}
+     }{
+       a \cdot b = [2] \cdot b \cdot a     
+     }
+     &\xrightarrow{\;}&
+     \widehat{\mathbb{Z}^2}
+     \\
+     [a] &\mapsto& (1,0,0)
+     \\
+     [b] &\mapsto& (0,1,0)
+     \\ 
+     [n] &\mapsto& (0,0,[n])
+    \end{array}
+  $$
+  is clearly a [[bijection]] on [[underlying]] [[sets]], and is a [[group homomorphism]] since the quotient relation (eq:HeisenbergAsQuotientOfFreeGroup) is respected in $\widehat{\mathbb{Z}^2}$, by (eq:BasicGroupCommutator).
+\end{proof}
+
+(cf. also [arXiv:2203.08030](https://arxiv.org/abs/2203.08030), [p 21](https://arxiv.org/pdf/2203.08030#page=21))
+
+
+### Linear representations
 
 \begin{example}
 For $k \in \mathbb{Z}$, the non-trivial [[irrep]] of twice the $\mathbb{Z}_{2 {\left\vert k \right\vert}}$-Heisenberg extension of $\mathbb{Z}^2$ (eq:TwiceOfBasicIntegerHeisInSymplecticForm)
@@ -329,20 +374,66 @@ For instance:
   \,.
 \]
 \end{example}
+\begin{proof}
+  To see that this is a [[linear representation]],
+  by (eq:HeisenbergAsQuotientOfFreeGroup) is it sufficient to check that the basic [[group commutator]] is represented, in that
+\[
+  \label{RepresentationOfBasicGroupCommutator}
+  W_a \cdot W_b \,=\,
+  e^{ 2 \pi \mathrm{i} \tfrac{1}{k} }
+  \, 
+  W_b \cdot
+  \mathrlap{\,,}
+\]
+which is evidently the case, since
+$$
+  \begin{array}{ccl}
+    W_a \cdot W_b {\big\vert [n] \big\rangle}
+    &=&
+    W_a \cdot {\big\vert [n+1] \big\rangle}
+    \\
+    &=&
+    e^{2 \pi \mathrm{i} \tfrac{n{\color{red}+1}}{k}}
+    \,
+    {\big\vert [n+1] \big\rangle}
+    \mathrlap{\,,}
+  \end{array}
+$$
+while
+$$
+  \begin{array}{ccl}
+    W_b \cdot W_a {\big\vert [n] \big\rangle}
+    &=&
+    e^{2 \pi \mathrm{i} \tfrac{n}{k}}
+    \,
+    W_b {\big\vert [n] \big\rangle}
+    \\
+    &=&
+    e^{2 \pi \mathrm{i} \tfrac{n}{k}}
+    \,
+    {\big\vert [n + 1] \big\rangle}
+    \mathrlap{\,.}
+  \end{array}
+$$
 
+To see that this is [[irreducible representation|irreducible]] just note that a [[linear basis]] of the [[underlying]] [[vector space]] is obtained by successively acting with $W_b$ on, say ${\big\vert [1] \big\rangle}$.
+\end{proof}
+
+For more see [Floratos & Tsohantjis 2022](#FloratosTsohantjis22).
 
 
 ### Modular automorphisms
  {#ModularAutomorphisms}
 
 \begin{remark}
-
+**(relation to [[quantum states]] and [[quantum observables]] of [[abelian Chern-Simons theory]])**
+\linebreak
 The [[complex numbers|complex]] [[dimension of a vector space|dimension]] of the [[irrep]] $\mathscr{H}_1$ (eq:IrrepOfInyegerHeisenbergGroup) is that expected for the [[space of quantum states]] of [[abelian Chern-Simons theory]] on a [[2-torus]] (cf. [Manoliu 1998a p 40](abelian+Chern-Simons+theory#Manoliu98a))
 $$
   dim(\mathscr{H}_1) \;=\; k
   \,,
 $$
-and the [[group commutator]]-relation 
+and the [[group commutator]]-relation (eq:RepresentationOfBasicGroupCommutator)
 $$
   W_a \cdot W_b 
   =
@@ -353,7 +444,7 @@ $$
 of [[linear operators]] acting on this irrep (eq:IrrepOfInyegerHeisenbergGroup) reflects the characteristic [[commutator]]-relation of [[Wilson loop]]-[[quantum observables]] in [[abelian Chern-Simons theory]] on a [[2-torus]] (cf. [Tong 2016 (5.28)](quantum+Hall+effect#Tong16), [p 166](https://ncatlab.org/nlab/files/Tong-QuantumHallEffect.pdf#page=168)).
 \end{remark}
 
-Moreover, the integer Heisenberg group knows about the [[modular group]] acting on this [[space of quantum states]], hence of the "[[modular functor]]" of [[abelian Chern-Simons theory]]:
+Moreover, the integer Heisenberg group knows about the [[modular group]] acting on this [[space of quantum states]], hence about the "[[modular functor]]" of [[abelian Chern-Simons theory]]:
 
 
 \begin{definition}
@@ -752,23 +843,48 @@ But since $S , T \in SL_2(\mathbb{Z})$ generate the whole group (Rem. \ref{Gener
 
 ## Literature
 
-Generally on the integer Heisenberg $\mathbb{Z}$-extensions of $\mathbb{Z}^{2g}$:
+Generally on the integer/discrete Heisenberg $\mathbb{Z}$-extensions of $\mathbb{Z}^{2g}$:
 
 * {#LeePacker96} Soo Teck Lee, Judith A. Packer: *The Cohomology of the Integer Heisenberg Groups*, Journal of Algebra **184** 1 (1996) 230-250 &lbrack;[doi:10.1006/jabr.1996.0258](https://doi.org/10.1006/jabr.1996.0258)&rbrack;
   > (concerning its [[group cohomology]])
 
 * Roman Budylin: *Conjugacy classes in discrete Heisenberg groups*, Sbornik: Mathematics **205** 8 (2014) 1069–1079 &lbrack;[arXiv:1405.5499](https://arxiv.org/abs/1405.5499), [doi:10.1070/SM2014v205n08ABEH004410](https://doi.org/10.1070/SM2014v205n08ABEH004410)&rbrack;
 
+* [[Daniel Bump]], Persi Diaconis, Angela Hicks, Laurent Miclo, Harold Widom: *An Exercise (?) in Fourier Analysis on the Heisenberg Group*, Annales de la Faculté des sciences de Toulouse: Mathématiques, Serie 6, Volume 26 (2017) no. 2, pp. 263-288 &lbrack;[arXiv:1502.04160](https://arxiv.org/abs/1502.04160), [numdam:AFST_2017_6_26_2_263_0](http://www.numdam.org/item/AFST_2017_6_26_2_263_0)&rbrack;
+
+
 * Jayadev S. Athreya, Ioannis Konstantoulas: *Lattice deformations in the Heisenberg group*, Groups, Geometry and Dynamics **14** 3 (2020) 1007–1022 &lbrack;[arXiv:1510.01433](https://arxiv.org/abs/1510.01433), [doi:10.4171/ggd/572](https://doi.org/10.4171/ggd/572)&rbrack;
+
+* Uri Bader, Vladimir Finkelshtein, §5 of: *On the horofunction boundary of discrete Heisenberg group*, Geom Dedicata **208** (2020) 113–127 &lbrack;[arXiv:1904.11234](https://arxiv.org/abs/1904.11234), [doi:10.1007/s10711-020-00513-x](https://doi.org/10.1007/s10711-020-00513-x)&rbrack;
 
 * Ruiwen Dong, p 9 of: *Recent advances in algorithmic problems for semigroups*, ACM SIGLOG News **10** 4 (2023) 3-23 &lbrack;[arXiv:2309.10943](https://arxiv.org/abs/2309.10943), [doi:10.1145/3636362.3636365](https://doi.org/10.1145/3636362.3636365)&rbrack;
 
-The above discussion of irreps and modular automorphisms follows:
+On (invertibility in) the [[group algebra]]:
+
+* Martin Göll, Klaus Schmidt, Evgeny Verbitskiy: *A Wiener Lemma for the discrete Heisenberg group: Invertibility criteria and applications to algebraic dynamics*, Monatsh Math **180** (2016) 485–525 &lbrack;[doi:10.1007/s00605-016-0894-0](https://doi.org/10.1007/s00605-016-0894-0), [arXiv:1603.08225](https://arxiv.org/abs/1603.08225)&rbrack;
+
+
+On their [[representation theory]] with an eye towards [[quantum information theory]]:
+
+* {#FloratosTsohantjis22} E. Floratos, I. Tsohantjis: *Complete set of unitary irreps of Discrete Heisenberg Group $H W_{2^s}$ &lbrack;[arXiv:2210.04263](https://arxiv.org/abs/2210.04263)&rbrack;
+
+On the [[automorphism group]]:
+
+* D.V. Osipov: *Discrete Heisenberg group and its automorphism group*, Mathematical Notes **98** 1 (2015) 185-188 &lbrack;[arXiv:1505.00348](https://arxiv.org/abs/1505.00348), [doi:10.1134/S0001434615070160](https://doi.org/10.1134/S0001434615070160)&rbrack;
+
+In relation to $U(1)$-[[current algebra]] ([[WZW-model]]):
+
+* [[Ludwig D. Fadeev]]: *Discrete Heisenberg-Weyl Group and modular group*, Lett Math Phys **34** (1995) 249–254 &lbrack;[doi:10.1007/BF01872779](https://doi.org/10.1007/BF01872779)&rbrack;
+
+The above discussion of irreps and modular automorphisms related to abelian Chern-Simons theory follows:
 
 * {#SS25} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes via Flux-Quantization]]*, Lecture Notes (2025)
 
 
 [[!redirects integer Heisenberg groups]]
+
+[[!redirects discrete Heisenberg group]]
+[[!redirects discrete Heisenberg groups]]
 
 
 
