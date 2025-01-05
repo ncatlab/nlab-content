@@ -1,10 +1,14 @@
-[[!redirects Ludvig Faddeev]]
 
 **Ludwig Dmitrievich Faddeev** (Russian: Russian: Лю́двиг Дми́триевич Фадде́ев, translit. Ljudvig Dmitrievi&#269; Faddeev) was a Russian theoretical physicist, academician (and many years secretary of the Russian Academy of Sciences), son of the algebraist [[Dmitri Faddeev]]. With Popov he invented a remarkable method in [[quantization]] of [[gauge theories]], i.e. in the evaluation of [[path integrals]] with [[gauge field]] degrees of freedom (Faddeev-Popov method, see at _[[BRST complex]]_). With B. S. Pavlov, Fadeev has applied the [[abstract scattering theory]] to the study of [[automorphic form|automorphic function]]s. Faddeev is one of the pioneers of the Leningrad (St. Petersburg) school of [[integrable systems]] and [[quantum inverse scattering method]] which also lead to the discovery of [[quantum groups]]. 
 
-* wikipedia in [English](http://en.wikipedia.org/wiki/Ludvig_Faddeev), [Russian](http://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B4%D0%B4%D0%B5%D0%B5%D0%B2,_%D0%9B%D1%8E%D0%B4%D0%B2%D0%B8%D0%B3_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87)
+* Wikipedia entry: in [English](http://en.wikipedia.org/wiki/Ludvig_Faddeev), [Russian](http://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B4%D0%B4%D0%B5%D0%B5%D0%B2,_%D0%9B%D1%8E%D0%B4%D0%B2%D0%B8%D0%B3_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87)
 
 ## Writings
+
+On [[discrete Heisenberg groups]] motivated from $U(1)$-[[current algebra]]:
+
+* [[Ludwig D. Fadeev]]: *Discrete Heisenberg-Weyl Group and modular group*, Lett Math Phys **34** (1995) 249–254 &lbrack;[doi:10.1007/BF01872779](https://doi.org/10.1007/BF01872779)&rbrack;
+
 
 On [[mathematical physics]]: 
 
@@ -31,6 +35,8 @@ On [[solitons]]:
 * [[infrared divergencies]]
 
 category: people
+
+[[!redirects Ludvig Faddeev]]
 [[!redirects Ludwig Fadeev]]
 [[!redirects Ludwig D. Fadeev]]
 [[!redirects Ludwig D. Faddeev]]
