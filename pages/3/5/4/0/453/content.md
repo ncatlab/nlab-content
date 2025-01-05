@@ -79,7 +79,7 @@ In fact, a characterization equivalent to Def. \ref{RegularCategory} is:
 
 \begin{proposition}
 \label{CharacterizationViaImageFactorization}
-A **regular category** is a [[finitely complete category]] with [[pullback]]-[[stable factorization system|stable]] [[image]] [[factorization system|factorizations]] in that 
+A [[finitely complete category]] is a **regular category** iff it has [[pullback]]-[[stable factorization system|stable]] [[image]] [[factorization system|factorizations]] in that 
 
 1. every morphism factors as a [[regular epimorphism]] followed  by a [[monomorphism]]
 
