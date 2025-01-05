@@ -12,12 +12,23 @@
 \tableofcontents
 
 
-## Definition
 
-### Mod=$n$ integer Heisenberg group extensions of $\mathbb{Z}^2$
+## Idea 
+
+The *integer Heisenberg groups* are [[non-abelian group|non-abelian]] [[discrete group|discrete]] [[central extensions]] of the [[integer]] [[product groups]] $\mathbb{Z}^{2g}$, $g \in \mathbb{N}$, analogous to how the ordinary [[Heisenberg groups]] are [[non-abelian group|non-abelian]] [[central extensions]] of $\mathbb{R}^{2g}$. Generally there are analogous *$R$-Heisenberg groups* for any [[commutative ring]] $R$.
+
+In fact, for even multiples of the basic such extension, integer Heisenberg groups are [[discrete group|discrete]] [[subgroups]] of ordinary $\mathbb{R}$-[[Heisenberg groups]] covering a [[lattice (discrete subgroup)|lattice]] inclusion $\mathbb{Z}^{2g} \hookrightarrow \mathbb{R}^{2g}$ (cf. Prop. \ref{TwiceHeisenbergExtensionInSymplecticForm} below).
+
+In [[physics]], specifically in [[quantum field theory]], these even-weight integer Heisenberg groups are closely related to [[quantization of D=3 Chern-Simons theory|quantum]] [[abelian Chern-Simons theory]] (spelled out [below](#ModularAutomorphisms), following [SS25](#SS25), see also at *[2-Cohomotopy moduli of surfaces](cohomotopy#CohomotopyModuliOfSurfaces)*).
+
+
+## Definition
+ {#Definition}
+
+### Integer Heisenberg group extensions of $\mathbb{Z}^2$
   {#IntegerHeisenbergGroup}
 
-We discuss the restriction of the basic [[Heisenberg group]] $H_3$ (see [there](Heisenberg+group#H3InComponents)) along the inclusion $\mathbb{Z}^2 \hookrightarrow \mathbb{R}^2$ and the mod-$n$ [[quotient groups]] of that.
+We discuss the restriction of the basic $\mathbb{R}$-[[Heisenberg group]] $H_3$ (see [there](Heisenberg+group#H3InComponents)) along the inclusion $\mathbb{Z}^2 \hookrightarrow \mathbb{R}^2$ and the mod-$n$ [[quotient groups]] of that.
 
 In the following, we denote [[cyclic groups]], for $n \in \mathbb{N}$, uniformly by
 $$
@@ -33,16 +44,20 @@ $$
   \right.
 $$
 
+Recall (see [there](group+extension#CentralExtensionClassificationByGroupCohomology)) the equivalence of [[central extensions]] of a [[discrete group|discrete]] [[group]] $G$ by an [[abelian group]] $A$ (for the present case equipped with the [[trivial action|trivial]] $G$-[[action]]) with the degree=2 [[group cohomology]] $H^2(G;A)$.
+
 \begin{proposition}
   For $n \in \mathbb{N}$,
   the [[central extension|central]] [[group extensions]] of $\mathbb{Z}^2$ by $\mathbb{Z}_n$ are all integral multiples of the following elementary Heisenberg extension:
 \[
   \label{BasicIntegerHeisenbergExtensionOfZ2}
-  \Big\{
+  \left\{
+    \begin{array}{l}
     \big(a,b,[n]\big)
     \,\in\,
     \mathbb{Z} \times \mathbb{Z} \times \mathbb{Z}_{2\vert k \vert}
-    \;,\;
+    \,,
+    \\
     \big(
       a,b,[n]
     \big)
@@ -60,7 +75,8 @@ $$
         }
       ]
     \big)
-  \Big\}
+    \end{array}
+  \right\}
   \,.
 \]
 \end{proposition}
@@ -141,13 +157,13 @@ given by
   \end{array}
 \]
 
-(whose cocycle condition
+whose cocycle condition
 $
   [a b'] + [(a+a')b'']
   =
   [a(b'+b'')] + [a' b'']
 $
-is evidently satisfied due to the [[distributive law]] in the [[ring]] $\mathbb{Z}$).
+is evidently satisfied due to the [[distributive law]] in the [[ring]] $\mathbb{Z}$ and which is clearly not divisible.
 \end{proof}
 
 \begin{example}
@@ -194,11 +210,13 @@ Of particular interest is the second multiple of this basic extension:
   Twice the basic integer Heisenberg extension (eq:IntegerHeisenbergExtension) at $n = 2k$ is [[isomorphism|isomorphic]] to
 \[
   \label{TwiceOfBasicIntegerHeisInSymplecticForm}
-  \Big\{
+  \left\{
+    \begin{array}{l}
     \big(a, b, [n]\big)
     \,\in\,
     \mathbb{Z} \times \mathbb{Z} \times \mathbb{Z}_{2\vert k\vert}
     \,,
+    \\
     \big(
       a, b, [n]
     \big)
@@ -214,12 +232,13 @@ Of particular interest is the second multiple of this basic extension:
       ,\,
       [n + n' + {\color{red} a \cdot b' - a' \cdot b}]
     \big)
-  \Big\}  
+    \end{array}
+  \right\}  
   \mathrlap{\,.}
 \]
 \end{proposition}
 \begin{proof}
-  It is sufficient to see that the second red summand is a 2-cocycle cohomologous to the first red summand, which means equivalently that the 2-cocycle
+  It is sufficient to see that the second red summand in (eq:TwiceOfBasicIntegerHeisInSymplecticForm) is a [[group cohomology|group 2-cocycle]] cohomologous to the first red summand, which means equivalently that the 2-cocycle
 $$
   \big(
     (a, b), (a', b')
@@ -243,12 +262,13 @@ $$
 $$
 \end{proof}
 
+
 ## Properties
 
 ### Representations
 
 \begin{example}
-The non-trivial [[irrep]] of twice the $\mathbb{Z}_{2 {\left\vert k \right\vert}}$-Heisenberg extension of $\mathbb{Z}^2$ (eq:TwiceOfBasicIntegerHeisInSymplecticForm)
+For $k \in \mathbb{Z}$, the non-trivial [[irrep]] of twice the $\mathbb{Z}_{2 {\left\vert k \right\vert}}$-Heisenberg extension of $\mathbb{Z}^2$ (eq:TwiceOfBasicIntegerHeisInSymplecticForm)
 \[
   \label{IrrepOfInyegerHeisenbergGroup}
   \begin{array}{ccc}
@@ -265,7 +285,7 @@ is, up to [[isomorphism]], given by:
 $$
   \mathscr{H}_1
   \;\coloneqq\;
-  \mathbb{C}\big[\mathbb{Z}_{\vert k \vert}\big]
+  \mathbb{C}\big[\mathbb{Z}_{2{\vert k \vert}}\big]
 $$
 $$
   \begin{array}{ccccccl}
@@ -273,34 +293,68 @@ $$
   & \coloneqq &
   W(1,0,0)
   &\colon&
-  \big\vert [n] \big\rangle
+  {\big\vert [n] \big\rangle}
   &\mapsto&
   e^{2 \pi \mathrm{i} \tfrac{n}{k}}
-  \big\vert [n] \big\rangle
+  {\big\vert [n] \big\rangle}
   \\
   W_b  
   &\coloneqq&
   W(0,1,0)
   &\colon&
-  \big\vert [n] \big\rangle
+  {\big\vert [n] \big\rangle}
   &\mapsto&
-  \big\vert [n + 1] \big\rangle
+  {\big\vert [n + 1] \big\rangle}
   \\
   \zeta 
   &\coloneqq&
   W(0,0,1)
   &\colon&
-  \big\vert [n] \big\rangle
+  {\big\vert [n] \big\rangle}
   &\mapsto&
   e^{\pi \mathrm{i} \tfrac{1}{k}}
-  \big\vert [n] \big\rangle
+  {\big\vert [n] \big\rangle}
   \mathrlap{\,.}
   \end{array}
 $$
+
+For instance:
+\[
+  \label{W11InTermsOfWab}
+  W_a \cdot W_b \cdot \zeta^{-1}
+  \;=\;
+  W(1,1,0)
+  \;=\;
+  W_b \cdot W_a \cdot \zeta^{+1}
+  \,.
+\]
 \end{example}
 
 
+
 ### Modular automorphisms
+ {#ModularAutomorphisms}
+
+\begin{remark}
+
+The [[complex numbers|complex]] [[dimension of a vector space|dimension]] of the [[irrep]] $\mathscr{H}_1$ (eq:IrrepOfInyegerHeisenbergGroup) is that expected for the [[space of quantum states]] of [[abelian Chern-Simons theory]] on a [[2-torus]] (cf. [Manoliu 1998a p 40](abelian+Chern-Simons+theory#Manoliu98a))
+$$
+  dim(\mathscr{H}_1) \;=\; k
+  \,,
+$$
+and the [[group commutator]]-relation 
+$$
+  W_a \cdot W_b 
+  =
+  e^{2\pi \mathrm{i}\tfrac{1}{k}}
+  \,
+  W_b \cdot W_a
+$$
+of [[linear operators]] acting on this irrep (eq:IrrepOfInyegerHeisenbergGroup) reflects the characteristic [[commutator]]-relation of [[Wilson loop]]-[[quantum observables]] in [[abelian Chern-Simons theory]] on a [[2-torus]] (cf. [Tong 2016 (5.28)](quantum+Hall+effect#Tong16), [p 166](https://ncatlab.org/nlab/files/Tong-QuantumHallEffect.pdf#page=168)).
+\end{remark}
+
+Moreover, the integer Heisenberg group knows about the [[modular group]] acting on this [[space of quantum states]], hence of the "[[modular functor]]" of [[abelian Chern-Simons theory]]:
+
 
 \begin{definition}
 **(modular action on the integer Heisenberg group)**
@@ -328,30 +382,8 @@ $$
   \Big\}
   \;\simeq\;
   \mathrm{SL}_2(\mathbb{Z})
+  \,,
 $$
-(which is generated by 
-$
-  S
-  \;=\;\left[
-    \begin{array}{rr}
-    0 & 1
-    \\
-    -1 & 0
-  \end{array}
-  \right]
-$
-and
-$
-  T
-  \;=\;
-  \left[
-  \begin{array}{rr}
-    1 & 1
-    \\
-    0 & 1
-  \end{array}
-  \right]
-$),
 acts by evident group [[automorphism]] on (eq:TwiceOfBasicIntegerHeisInSymplecticForm):
 \[
   \label{SymplecticActonOnSecondIntegerHeisenberg}
@@ -379,6 +411,36 @@ acts by evident group [[automorphism]] on (eq:TwiceOfBasicIntegerHeisInSymplecti
 
 \end{definition}
 
+\begin{remark}
+\label{GenerationOfModularGroup}
+Recall that the [[modular group]] $SL_2(\mathbb{Z}) \subset GL_2(\mathbb{Z})$ is the [[subgroup]] of the [[general linear group]] generated by the two elements
+\[
+  \label{ModularGenerators}
+  S
+  \;\coloneqq\;
+  \left[
+    \begin{array}{rr}
+    0 & 1
+    \\
+    -1 & 0
+  \end{array}
+  \right]
+  \;\;\;\;\;
+  \text{and}
+  \;\;\;\;\;
+  T
+  \;\coloneqq\;
+  \left[
+  \begin{array}{rr}
+    1 & 1
+    \\
+    0 & 1
+  \end{array}
+  \right]
+  \mathrlap{\,.}
+\]
+\end{remark}
+
 \begin{proposition}
 There exists a [[linear representation]]
 $$
@@ -391,17 +453,18 @@ $$
     \mathrlap{\,,}
   \end{array}
 $$
+of the [[modular group]] on the [[underlying]] [[complex vector space]] of (eq:IrrepOfInyegerHeisenbergGroup),
 which [[intertwiner|intertwines]] the action (eq:IrrepOfInyegerHeisenbergGroup)
-of $\widehat{\mathbb{Z}^2}$ on $\mathscr{H}_1$, with its automorphic images under $\mathrm{SL}_2(\mathbb{Z})$\eqref{SymplecticActonOnSecondIntegerHeisenberg},
-in that 
+of $\widehat{\mathbb{Z}^2}$ on $\mathscr{H}_1$, with its [[automorphism|automorphic]] [[images]] under the modular gorup action \eqref{SymplecticActonOnSecondIntegerHeisenberg} on the Heisenberg group,
+in that: 
 $$
   m(W) \cdot m\Big(
-    \big\vert [n] \big\rangle
+    {\big\vert [n] \big\rangle}
   \Big)
   \;=\;
   m\Big(
     W \cdot 
-    \big\vert [n] \big\rangle
+    {\big\vert [n] \big\rangle}
   \Big)
   \,,
   \;\;\;\;\;
@@ -413,10 +476,11 @@ $$
       W &\in& \widehat{\mathbb{Z}^2}
       \\
       {\left\vert [n] \right\rangle} &\in& \mathscr{H}_1
+      \mathrlap{\,.}
     \end{array}
   \right.
 $$
-This representation is just the [[modular functor|modular action]] known from [[abelian Chern-Simons theory]] (cf. [Manoliu 1998a p 67](abelian+Chern-Simons+theory#Manoliu98a)):
+This representation is just the [[modular functor|modular action]] known from [[abelian Chern-Simons theory]] at [[level (Chern-Simons theory)|level]] $k$ (cf. [Manoliu 1998a p 67](abelian+Chern-Simons+theory#Manoliu98a)):
 $$
   \begin{array}{ccr}
   S\Big(
@@ -441,7 +505,7 @@ $$
   \big\rangle}
   \\
   T\Big(
-    \big\vert [n] \big\rangle
+    {\big\vert [n] \big\rangle}
   \Big)
   &=&
   e^{ 
@@ -456,7 +520,7 @@ $$
 
 \end{proposition}
 \begin{proof}
-By direct computation:
+By unwinding the definitions and direct computation we find that the statement holds for $m = S,T$ any one of the modular generators (eq:ModularGenerators):
 $$
   \begin{array}{ccl}
     S(W_a)
@@ -508,16 +572,19 @@ $$
     2 \pi \mathrm{i} 
     \tfrac{n}{k}
   }
+  \,
     S\Big(
-      \big\vert
+      {\big\vert
         [n]
-      \big\rangle
+      \big\rangle}
     \Big)  
   \\
   &=&
   S\Big(
-    W_a \big\vert [n] \big\rangle
+    W_a 
+    {\big\vert [n] \big\rangle}
   \Big)
+  \mathrlap{\,,}
   \end{array}
 $$
 
@@ -545,9 +612,9 @@ $$
        k
      }
   }
-  \big\vert
+  {\big\vert
    [\widehat{n}]
-  \big\rangle
+  \big\rangle}
   \\
   &=&
   \frac{1}{\sqrt{\vert k \vert}}
@@ -575,6 +642,7 @@ $$
       [n]
     \big\rangle}
   \Big)
+  \mathrlap{\,,}
   \end{array}
 $$
 
@@ -613,9 +681,10 @@ $$
         [n]
       \big\rangle}
     \Big)
+    \mathrlap{\,,}
   \end{array}
 $$
-
+and finally, using (eq:W11InTermsOfWab):
 $$
   \begin{array}{ccl}
     T(W_b)\cdot
@@ -627,6 +696,7 @@ $$
     &\equiv&
     W_b \, W_a \, 
     e^{2\pi \mathrm{i} \tfrac{1}{k}}
+    \,
     e^{\pi \mathrm{i} \tfrac{n^2}{k}}
     {\big\vert
       [n]
@@ -661,19 +731,28 @@ $$
         [n]
       \big\rangle}
     \Big)
+    \mathrlap{\,.}
   \end{array}
 $$
 
+But since $S , T \in SL_2(\mathbb{Z})$ generate the whole group (Rem. \ref{GenerationOfModularGroup}), this completes the proof.
 \end{proof}
 
+
+\linebreak
+
+
 ## Related entries
+
+* [[Heisenberg group]]
 
 * [2-Cohomotopy moduli of surfaces](cohomotopy#CohomotopyModuliOfSurfaces)
 
 
+
 ## Literature
 
-On the integer Heisenberg $\mathbb{Z}$-extensions of $\mathbb{Z}^{2g}$:
+Generally on the integer Heisenberg $\mathbb{Z}$-extensions of $\mathbb{Z}^{2g}$:
 
 * {#LeePacker96} Soo Teck Lee, Judith A. Packer: *The Cohomology of the Integer Heisenberg Groups*, Journal of Algebra **184** 1 (1996) 230-250 &lbrack;[doi:10.1006/jabr.1996.0258](https://doi.org/10.1006/jabr.1996.0258)&rbrack;
   > (concerning its [[group cohomology]])
@@ -683,6 +762,11 @@ On the integer Heisenberg $\mathbb{Z}$-extensions of $\mathbb{Z}^{2g}$:
 * Jayadev S. Athreya, Ioannis Konstantoulas: *Lattice deformations in the Heisenberg group*, Groups, Geometry and Dynamics **14** 3 (2020) 1007–1022 &lbrack;[arXiv:1510.01433](https://arxiv.org/abs/1510.01433), [doi:10.4171/ggd/572](https://doi.org/10.4171/ggd/572)&rbrack;
 
 * Ruiwen Dong, p 9 of: *Recent advances in algorithmic problems for semigroups*, ACM SIGLOG News **10** 4 (2023) 3-23 &lbrack;[arXiv:2309.10943](https://arxiv.org/abs/2309.10943), [doi:10.1145/3636362.3636365](https://doi.org/10.1145/3636362.3636365)&rbrack;
+
+The above discussion of irreps and modular automorphisms follows:
+
+* {#SS25} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes via Flux-Quantization]]*, Lecture Notes (2025)
+
 
 [[!redirects integer Heisenberg groups]]
 
