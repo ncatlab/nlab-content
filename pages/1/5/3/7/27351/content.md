@@ -44,6 +44,18 @@ $$
 (for $N=1$ see [Manoliu 1998a p 40](#Manoliu98a), for general $N$ cf. [Belov & Moore 2005 p 26](#BelovMoore05))
 
 
+## Related concepts
+
+* [[Chern-Simons theory]]
+
+* [[quantization of D=3 Chern-Simons theory]]
+
+* [[fractional quantum Hall effect]]
+
+* [[integer Heisenberg group]]
+
+
+
 ## References
 
 ### General
