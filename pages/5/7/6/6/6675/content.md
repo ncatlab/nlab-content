@@ -117,7 +117,7 @@ Under these conditions:
 
 This is part of a general phenomenon of [[quantum physics]]:
 
-While [[quantum fluctuations]] are a little like [[thermodynamics|thermal]] flcutuations
+While [[quantum fluctuations]] are a little like [[thermodynamics|thermal]] fluctuations
 
 one key difference is that they remain present at [[absolute zero]].
 
