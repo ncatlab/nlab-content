@@ -59,7 +59,7 @@ More explicitly, braid groups admit [[finitely presented group|finite presentati
 
 * *[As the fundamental group of a configuration space of points](#AsFundamentalGroupOfConfigurationSpace)*
 
-* *[As mapping class group of a punctured disk](#AsMappingClassGroupOfAPuncturedDisk)*
+* *[As mapping class group of punctured surfaces](#BraidGroupsAsMappingClassGroupsOfPuncturedSurfaces)*
 
 * *[As automorphisms of a free group](#AsAutomorphismsOfAFreeGroup)*
 
@@ -3349,10 +3349,11 @@ It has been shown ([An & Maciazek 2006](#AnMaciazek2006), using discrete [[Morse
 
 
 
-### Braid groups as mapping class groups of [[punctured]] surfaces
+### Braid groups as mapping class groups of punctured surfaces
+ {#BraidGroupsAsMappingClassGroupsOfPuncturedSurfaces}
 
 
-The braid groups]] are equivalently given by [[mapping class groups]] of [[punctured]] [[surfaces]]. &lbrack;[Birman 1969](#Birman69)&rbrack;
+The [[braid groups]] are equivalently given by [[mapping class groups]] of [[punctured]] [[surfaces]]. &lbrack;[Birman 1969](#Birman69)&rbrack;
 
 
 
