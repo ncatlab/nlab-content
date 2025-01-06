@@ -32,12 +32,12 @@ An _end_ is a special kind of [[limit]] over a [[functor]] of the form $F : C^{o
 If we think of such a functor in the sense of [[profunctors]] as encoding a left and right [[action]] on the object
 
 $$
-  \prod_{c \in C} F(c,c)
+  \prod_{c \in C} F(c,c),
 $$
 
-then the _end_ of the functor picks out the universal [[subobject]] on which the left and right action coincides.  Dually, the _coend_ of $F$ is the universal quotient of $\coprod_{c \in C} F(c,c)$ that forces the two actions of $F$ on that object to be equal.
+then the _end_ of the functor picks out the universal [[subobject]] on which the left and right actions coincide. Dually, the _coend_ of $F$ is the universal quotient of $\coprod_{c \in C} F(c,c)$ that forces the two actions of $F$ on that object to be equal.
 
-A classical example of an _end_ is the $V$-object of [[natural transformations]] between $V$-[[enriched functors]] in [[enriched category theory]].  Perhaps the most common way in which ends and coends arise is through homs and tensor products of (generalized) modules, and their close cousins, [[weighted limits]] and [[weighted colimits]]. These concepts are fundamental in enriched category theory. 
+A classical example of an _end_ is the $V$-object of [[natural transformations]] between $V$-[[enriched functors]] in [[enriched category theory]]. Perhaps the most common way in which ends and coends arise is through homs and tensor products of (generalized) modules, and their close cousins, [[weighted limits]] and [[weighted colimits]]. These concepts are fundamental in enriched category theory. 
 
 
 
@@ -46,25 +46,25 @@ A classical example of an _end_ is the $V$-object of [[natural transformations]]
 ### In ordinary category theory
 
 #### Definition via extranatural transformations
-In ordinary [[category theory]], given a [[functor]] $F: C^{op} \times C \to X$, an __end__ of $F$ in $X$ is an object $e$ of $X$ equipped with a [[universal construction|universal]] [[extranatural transformation]] from $e$ to $F$. This means that given any extranatural transformation from an object $x$ of $X$ to $F$, there exists a unique map $x \to e$ which respects the extranatural transformations. 
+In ordinary [[category theory]], given a [[functor]] $F: C^{op} \times C \to X$, an __end__ of $F$ in $X$ is an object $e$ of $X$ equipped with a [[universal construction|universal]] [[extranatural transformation]] from $e$ to $F$. This means that, given any extranatural transformation from an object $x$ of $X$ to $F$, there exists a unique map $x \to e$ which respects the extranatural transformations. 
 
 In more detail: the end of $F$ is traditionally denoted $\int_{c: C} F(c, c)$, and the components of the universal extranatural transformation, 
-$$\pi_c: \int_{c: C} F(c, c) \to F(c, c)$$ 
+$$\pi_c: \int_{c: C} F(c, c) \to F(c, c),$$ 
 are called the _projection maps_ of the end. Then, given any extranatural transformation with components 
 $$\theta_c: x \to F(c, c),$$ 
 there exists a unique map $f: x \to e$ such that 
 $$\theta_c = \pi_c f$$ 
 for every object $c$ of $C$.
 
-The notion of __coend__ is dual to the notion of end.  The coend of $F$ is written $\int^{c: C} F(c, c)$, and comes equipped with a universal extranatural transformation with components
-$$\iota_c \colon F(c,c) \to \int^{c: C} F(c,c)$$
+The notion of __coend__ is dual to the notion of end. The coend of $F$ is written $\int^{c: C} F(c, c)$, and comes equipped with a universal extranatural transformation with components
+$$\iota_c \colon F(c,c) \to \int^{c: C} F(c,c).$$
 
 #### Explicit definition
 We unwrap the definition of an extranatural transformation to obtain a more explicit description of an end.
 
 +-- {: .num_defn #wedge}
 ###### Definition
-Let $F: C^{op} \times C \to X$ be a [[functor]]. A **wedge** $e: w \to F$ is an object $w$ and maps $e_c: w\to F(c, c)$ for each $c$, such that given any morphism $f: c \to c'$, the following diagram commutes:
+Let $F: C^{op} \times C \to X$ be a [[functor]]. A **wedge** $e: w \to F$ **over F** is an object $w$ and maps $e_c: w\to F(c, c)$ for each object $c$, such that, given any morphism $f: c \to c'$, the following diagram commutes:
 $$
 \array{
 w & \overset{e_{c'}}{\to} & F(c', c')\\
@@ -74,11 +74,11 @@ F(c, c) & \underset{F(c, f)}{\to} & F(c, c')
 $$
 =--
 
-Given a wedge $e: w \to F$ and a map $f: v \to w$, we obtain a wedge $e f: v \to F$ by composition. Then we define the end as follows:
+Given a wedge $e: w \to F$ and a map $f: v \to w$, we obtain a wedge $e f: v \to F$ by composition. We define the end as follows:
 
 +-- {: .num_defn}
 ###### Definition
-Let $F: C^{op} \times C \to X$ be a functor. An **end** of $F$ is a universal wedge, ie. a wedge $e: w \to F$ such that any other wedge $e': w' \to F$ factors through $e$ via a unique map $w' \to w$.
+Let $F: C^{op} \times C \to X$ be a functor. An **end** of $F$ is a universal wedge over $F$, i.e., a wedge $e: w \to F$ such that each other wedge $e': w' \to F$ factors through $e$ via a unique map $w' \to w$.
 =--
 
 Dually, a cowedge is given by maps $F(c, c) \to w$ satisfying similar commutativity conditions, and a coend is a universal cowedge.
@@ -91,7 +91,7 @@ ends are right adjoint functors to the hom functor.
 
 In more detail, suppose $C$ and $X$ are categories.
 
-If any diagram $C^{op}\times C\to X$ admits an end,
+If every diagram $C^{op}\times C\to X$ admits an end,
 then we have a functor
 $$end\colon Fun(C^{op}\times C,X)\to X$$
 whose left adjoint is the hom functor
@@ -99,19 +99,19 @@ $$hom\colon X\to Fun(C^{op}\times C,X)$$
 that sends an object $x\in X$
 to the functor $hom(x)\colon C^{op}\times C\to X$
 that sends $(c,d)$ to $\coprod_{hom(c,d)}x=hom(c,d)\otimes x$.
-(For coends one uses $x^{hom(c,d)}$ instead.)
+(For coends, one uses $x^{hom(c,d)}$ instead.)
 
 This immediately implies a Fubini theorem for ends and coends.
 
 ### In enriched category theory
 
-There is a definition of _end_ in [[enriched category theory]], as follows. 
+There is a definition of _end_ in [[enriched category theory]] as follows. 
 
 #### End of $V$-valued functors 
 
-Let $V$ be a [[symmetric monoidal category]], and let $C$ be a $V$-[[enriched category]]. Assuming $V$ is also [[closed monoidal category|closed monoidal]], $V$ may be considered as $V$-enriched; in that case, suppose $F: C^{op} \otimes C \to V$ is a $V$-[[enriched functor]]. 
+Let $V$ be a [[symmetric monoidal category]], and let $C$ be a $V$-[[enriched category]]. Assuming $V$ is also [[closed monoidal category|closed monoidal]], $V$ may be considered as $V$-enriched. In that case, suppose $F: C^{op} \otimes C \to V$ is a $V$-[[enriched functor]]. 
 
-Then in particular there is a covariant [[action]] of $C$ on $F$, with components
+Then there is a covariant [[action]] of $C$ on $F$, with components
 $$\lambda_{c, d, e}: F(c, d) \otimes C(d, e) \to F(c, e),$$
 (where $C(d, e)$ is customary notation for the [[hom-object]] $\hom_C(d, e)$ of $C$ in $V$), and a contravariant action of $C$ on $F$, with components
 $$\rho_{c, d, e}: F(d, e) \otimes C(c, d) \to F(c, e).$$ 
@@ -142,7 +142,7 @@ Even if $V$ is not closed monoidal, we can still define a **notion** of covarian
 
 $$F(c) \times C(c, d) \to F(d)$$ 
 
-satisfying some evident unit and associativity axioms, and regard this notion as a stand-in for the notion of $V$-functor $C \to V$. Similarly we have an evident notion of contravariant $C$-action as a stand-in for a $V$-functor $C^{op} \to V$; notice that we don't even require symmetry to make sense of this. Finally, we can combine these notions into one of $C$-bimodule, where we have a function $F \colon Ob(C) \times Ob(C) \to Ob(V)$ together with a collection of morphisms 
+satisfying some evident unit and associativity axioms, and regard this notion as a stand-in for the notion of $V$-functor $C \to V$. Similarly, we have an evident notion of contravariant $C$-action as a stand-in for a $V$-functor $C^{op} \to V$. Notice that we don't even require symmetry to make sense of this. Finally, we can combine these notions into one of $C$-bimodule, where we have a function $F \colon Ob(C) \times Ob(C) \to Ob(V)$ together with a collection of morphisms 
 
 $$C(a, b) \otimes F(b, c) \otimes C(c, d) \to F(a, d)$$ 
 
@@ -165,7 +165,7 @@ $$\theta_c = \pi_c f$$
 for all objects $c$ of $C$. 
 
 
-#### End of $C$-valued functors for $C \in V\Cat$ 
+#### Ends of $C$-valued functors for $C \in V\Cat$ 
 
 If $X$ is any $V$-enriched category and $F: C^{op} \otimes C \to X$ is a $V$-enriched functor, then the **end** of $F$ in $X$ is, if it exists, an object $\int_{c: C} F(c, c)$ of $X$ that [[representable functor|represents]] the functor
 
@@ -179,7 +179,7 @@ $$
 \pi_c: I \to X(\int_{c: C} F(c, c), F(c, c))
 $$ 
 
-in $V$, such that for every object $x$ of $X$, the family 
+in $V$, such that, for every object $x$ of $X$, the family 
 of maps 
 
 $$
@@ -195,7 +195,7 @@ are the projection maps realizing $X(x, \int_{c: C} F(c, c))$ as the correspondi
 
 Now we motivate and define the _end_ in [[enriched category theory]] in terms of [[equalizers]].
 
-Recall from the discussion at the end of [[limit]] that the [[limit]] over an (ordinary, i.e. not enriched) [[functor]]
+Recall from the discussion at the end of [[limit]] that the [[limit]] over an (ordinary, i.e., not enriched) [[functor]]
 
 $$
   F : C^{op} \to Set
@@ -222,7 +222,7 @@ $$
   \,.
 $$
 
-If we want to generalize an expression like this to [[enriched category theory]] the explicit indexing over the set of morphisms has to be replaced by something that makes sense in an [[enriched category]]. 
+If we want to generalize an expression like this to [[enriched category theory]], the explicit indexing over the set of morphisms has to be replaced by something that makes sense in an [[enriched category]]. 
 
 To that end, observe that we have a canonical isomorphism (of sets, still)
 
@@ -241,7 +241,7 @@ $$
 
 with $[-,-]$ the [[internal hom]] in [[Set]], then the expression starts to make sense in any $V$-[[enriched category]].
 
-Still equivalently but suggestively rewriting the above, we now obtain the limit over $F$ as the [[equalizer]] of
+Still equivalently, but suggestively rewriting the above, we now obtain the limit over $F$ as the [[equalizer]] of
 
 $$
   \prod_{c \in Obj(C)}
@@ -264,7 +264,7 @@ $$
   C(c_1, c_2) \to * \to [F(c_1), F(c_1)]
 $$
 
-(with the last map the [[adjunct]] of $Id_{F(c_1)}$) and where 
+(with the last map the [[adjunct]] of $Id_{F(c_1)}$), and where 
 
 $$
   \lambda_{c_1, c_2} : F(c_2) \to [C(c_1,c_2), F(c_1)]
@@ -277,7 +277,7 @@ $$
   \,.
 $$
 
-So for definiteness, the equalizer we are looking at is that of 
+So, for definiteness, the equalizer we are looking at is that of 
 
 $$
   \rho := \prod_{c_1, c_2 \in C} \rho_{c_1,c_2}\circ pr_{F(c_1)}
@@ -433,7 +433,7 @@ Any [[continuous functor]] preserves ends, and any cocontinuous functor preserve
 $$
 \begin{aligned}
   C(\int^x F(x, x), c) &\cong \int_x C(F(x, x), c)\\
-  C(c, \int_x F(x, x)) &\cong \int_x C(c, F(x, x))
+  C(c, \int_x F(x, x)) &\cong \int_x C(c, F(x, x)).
 \end{aligned}
 $$
 =--
@@ -466,7 +466,7 @@ This statement is sometimes called the [[co-Yoneda lemma]].
 
 ### Commutativity of ends and coends
 
-Ordinary [[limit]]s commute with each other, if both limits exist separately. The analogous statement does hold for ends and coends. Since there it looks like the commutativity of two integrals, it is called the _Fubini theorem_ for ends (for instance [Kelly, p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=35)).
+Ordinary [[limit]]s commute with each other, if both limits exist separately. The analogous statement does hold for ends and coends. Since it looks like the commutativity of two integrals, this fact is called the _Fubini theorem_ for ends (for instance [Kelly, p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=35)).
 
 \begin{proposition}\label{Fubini}
 **(Fubini theorem for ends)**
@@ -496,7 +496,7 @@ $$
   T(A,B,A,B)
 $$
 
-if either side exists. In particular, since $\mathcal{A} \otimes \mathcal{B} \simeq \mathcal{B} \otimes \mathcal{A}$ this implies that
+if either side exists. In particular, since $\mathcal{A} \otimes \mathcal{B} \simeq \mathcal{B} \otimes \mathcal{A}$, this implies that
 
 $$
   \int_{B \in \mathcal{B}}
@@ -505,7 +505,7 @@ $$
   \simeq
   \int_{A \in \mathcal{A}}
   \int_{B \in \mathcal{B}}
-  T(A,B,A,B)
+  T(A,B,A,B),
 $$
 
 if either side exists.
@@ -518,7 +518,7 @@ if either side exists.
 
 +-- {: .num_prop #NatTrans}
 ###### Proposition
-Let $F, G: C \to D$ be [[functors]] between two categories, and let $[C, D] (F, G)$ be the set of [[natural transformations]] between them. Then we have
+Let $F, G: C \to D$ be [[functors]] between two categories, and let $[C, D] (F, G)$ be the set of [[natural transformations]] between them. Then, we have
 $$
   [C, D] (F, G) = \int_{c \in C} D(F(c), G(c)).
 $$
@@ -526,7 +526,7 @@ $$
 
 +-- {: .proof}
 ###### Proof
-An element of $\int_{c \in C} D(F(c), G(c))$ is by definition a collection $\tau_c: F(c) \to G(c)$ of morphisms in $D$ such that for any morphism $f: c \to d$ in $C$, the following square commutes:
+An element of $\int_{c \in C} D(F(c), G(c))$ is, by definition, a collection $\tau_c: F(c) \to G(c)$ of morphisms in $D$ such that, for any morphism $f: c \to d$ in $C$, the following square commutes:
 $$
 \array{
 F(c) & \overset{F(f)}{\to} & F(d)\\
@@ -534,7 +534,7 @@ F(c) & \overset{F(f)}{\to} & F(d)\\
 G(c) & \underset{G(f)}{\to} & G(d)
 }
 $$
-which is by definition a natural transformation $F \to G$.
+which is, by definition, a natural transformation $F \to G$.
 =--
 
 ### Enriched functor categories 
@@ -587,7 +587,7 @@ $$
 
 where the last step on the right uses the [[Yoneda lemma]].
 
-More specifically, traditionally this is thought of as applying to the case where $C = \Delta$ is the [[simplex category]] and where $F : \Delta \to Top$ regards the abstract $n$-[[simplex]] as the standard simplex as a [[topological space]]. 
+More specifically, this is traditionally thought of as applying to the case where $C = \Delta$ is the [[simplex category]] and where $F : \Delta \to Top$ regards the abstract $n$-[[simplex]] as the standard simplex as a [[topological space]]. 
 
 ### Tensor product of functors
 
