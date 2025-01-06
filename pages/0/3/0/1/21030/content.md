@@ -96,6 +96,13 @@ and comparison in the [[large N limit]] with computations in [[supergravity]]:
 
 * S. Pateloudis et al., *Precision test of gauge/gravity duality in $D0$-brane matrix model at low temperature*,  J. High Energ. Phys. **2023** 71 (2023)  &lbrack;[arXiv:2210.04881](https://arxiv.org/abs/2210.04881), <a href="https://doi.org/10.1007/JHEP03(2023)071">doi:10.1007/JHEP03(2023)071</a>&rbrack;
 
+
+Analogous mass-deformation of the [[IKKT matrix model]]:
+
+* [[Shota Komatsu]], Adrien Martina, João Penedones, Antoine Vuignier, Xiang Zhao: *Einstein gravity from a matrix integral -- Part I* &lbrack;[arXiv:2410.18173](https://arxiv.org/abs/2410.18173)&rbrack;
+
+* [[Shota Komatsu]], Adrien Martina, Joao Penedones, Antoine Vuignier, Xiang Zhao: *Einstein gravity from a matrix integral -- Part II* &lbrack;[arXiv:2411.18678](https://arxiv.org/abs/2411.18678)&rbrack;
+
  
 See also
 
