@@ -3349,10 +3349,14 @@ It has been shown ([An & Maciazek 2006](#AnMaciazek2006), using discrete [[Morse
 
 
 
+### Braid groups as mapping class groups of [[punctured]] surfaces
+
+
+The braid groups]] are equivalently given by [[mapping class groups]] of [[punctured]] [[surfaces]]. &lbrack;[Birman 1969](#Birman69)&rbrack;
 
 
 
-### As mapping class group of punctured disk
+#### For plain braid groups
  {#AsMappingClassGroupOfAPuncturedDisk}
 
 
@@ -3401,7 +3405,7 @@ Now observe that
      \,.
    $$
 
-Combining this implies that for every $[\phi] \,\in\, MCG\big(D^2 \setminus \{z_1, \cdots, z_n\}\big)$ there is an [[isotopy]] to the [[identity]], $\iota[\phi] \to id$, under which the locations of the punctures trace out a [[braid]] (in the sense of a [[loop]] in the symmetrized [[configuration space of points]]). This construction constitutes a [[group homomorphism]] from the [[mapping class group]] to the [[braid group]]
+Combining this implies that for every $[\phi] \,\in\, MCG\big(D^2 \setminus \{z_1, \cdots, z_n\}\big)$ there is an [[isotopy]] to the [[identity]], $\iota[\phi] \to id$, under which the locations of the [[punctures]] trace out a [[braid]] (in the sense of a [[loop]] in the symmetrized [[configuration space of points]]). This construction constitutes a [[group homomorphism]] from the [[mapping class group]] to the [[braid group]]
 $$
   MCG
   \big(
@@ -3423,7 +3427,87 @@ See also eg. [Margalit & Winarski (2021), §7](#MargalitWinarski21), [Amram, Law
 \end{remark}
 
 
+#### For surface braid groups
+ {#SurfaceBraidGroupsViaMappingClassGroups}
 
+More generally, let $\Sigma$ be a ([[connected topological space|connected]]) [[closed manifold|closed]], [[orientation|oriented]] [[surface]], possibly with [[boundary of a manifold|boundary]] and let $x_1, \cdots, x_n \in \Sigma$ a [[finite set]] of [[interior]] points.
+
+Then the [[mapping class groups]] ($MCG(-) \coloneqq \pi_0 Homeo^{+,\partial}(-)$)
+
+* $MCG(\Sigma)$ (of $\Sigma$ itself, presering orientation and the boundary pointwise)
+
+* $MCG(\Sigma, \{x_1, \cdots, x_n\})$ (of $\Sigma$ with "indistinguishable" punctures)
+
+* $MCG(\Sigma, \{x_1\}, \cdots, \{x_n\})$ (of $\Sigma$ with "distinguishable" punctures)
+
+relate to the [[surface braid groups]]
+
+* $Br_n(Sigma)$ (ordinary braid group)
+
+* $PBr_n(Sigma)$ (pure braid group)
+
+* $Sym_n$ (the [[symmetric group]])
+
+by forming the following [[commuting diagram]] of [[group homomorphisms]] where all rows and all columns are [[exact sequences]]:
+
+\begin{tikzcd}
+  & 
+  1 \ar[d]
+  & 
+  1 \ar[d]
+  \\
+  \pi_1\big(
+    \mathrm{Homeo}^{+,\partial}(\Sigma)
+  \big)
+  \ar[r]
+  \ar[d, equals]
+  &
+  \mathrm{PBr}_n(\Sigma)
+  \ar[r]
+  \ar[d]
+  &
+  \mathrm{MCG}\big(\Sigma, \{x_1\}, \cdots, \{x_n\}\big)
+  \ar[r]
+  \ar[d]
+  &
+  \mathrm{MCG}\big(\Sigma\big)
+  \ar[r]
+  \ar[d, equals]
+  &
+  1
+  \\
+  \pi_1\big(
+    \mathrm{Homeo}^{+,\partial}(\Sigma)
+  \big)
+  \ar[r]
+  &
+  \mathrm{Br}_n(\Sigma)
+  \ar[r]
+  \ar[d]
+  &
+  \mathrm{MCG}\big(
+    \Sigma, \{x_1, \cdots, x_n\}
+  \big)
+  \ar[r]
+  \ar[d]
+  & 
+  \mathrm{MCG}(\Sigma)
+  \ar[r]
+  &
+  1
+  \\
+  & \mathrm{Sym}_n 
+  \ar[d]
+  \ar[r, equals]
+  & \mathrm{Sym}_n
+  \ar[d]
+  \\
+  & 1 & 1
+\end{tikzcd}
+
+(Going back to [Birman 1969](#Birman69), cf. [Massuyeau 2021 Thm. 3.13](#Massuyeau21)).
+
+In words: *The [[mapping class group]] of a [[punctured]] [[surface]] is a [[group extension]] of the [[mapping class group]] of the plain surface by the surface braid group on the set of punctures.*
 
 
 ### As automorphisms of a free group
