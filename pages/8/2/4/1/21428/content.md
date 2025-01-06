@@ -63,7 +63,6 @@ Original articles:
 
 * R. B. Mann, *Flat space holography*, Can. J. Phys. 86 (2008) 563-570 ([spire:1119742](https://inspirehep.net/literature/1119742), [doi:10.1139/p07-188](https://doi.org/10.1139/p07-188))
 
-
 * Arjun Bagchi, [[Daniel Grumiller]], *Holograms of Flat Space*, International Journal of Modern Physics DVol. 22, No. 12, 1342003 (2013) ([doi:10.1142/S0218271813420030](https://doi.org/10.1142/S0218271813420030))
 
 * Arjun Bagchi, Rudranil Basu, Ashish Kakkar, Aditya Mehra, _Flat Holography: Aspects of the dual field theory_, JHEP 12(2016)147 ([arXiv:1609.06203](https://arxiv.org/abs/1609.06203))
@@ -73,6 +72,13 @@ Original articles:
 For [[JT-gravity]]/[[SYK model]]-duality (i.e. analogous to [[AdS2/CFT1 duality]]):
 
 * Hamid Afshar, Hernan Gonzalez, [[Daniel Grumiller]], Dmitri Vassilevich, *Flat space holography and complex SYK*, Phys. Rev. D 101, 086024 ([arXiv:1911.05739](https://arxiv.org/abs/1911.05739), [doi:10.1103/PhysRevD.101.086024](http://dx.doi.org/10.1103/PhysRevD.101.086024))
+
+On [[mass]]-deformation of the [[IKKT matrix model]] (analogous to how the [[BMN matrix model]] mass-deforms the [[BFSS matrix model]]) identified as flat space holographic dual to certain [[type IIB supergravity]]-solutions:
+
+* [[Shota Komatsu]], Adrien Martina, João Penedones, Antoine Vuignier, Xiang Zhao: *Einstein gravity from a matrix integral -- Part I* &lbrack;[arXiv:2410.18173](https://arxiv.org/abs/2410.18173)&rbrack;
+
+* [[Shota Komatsu]], Adrien Martina, Joao Penedones, Antoine Vuignier, Xiang Zhao: *Einstein gravity from a matrix integral -- Part II* &lbrack;[arXiv:2411.18678](https://arxiv.org/abs/2411.18678)&rbrack;
+
 
 ### Celestial amplitudes and celestial holography
 
