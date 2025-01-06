@@ -285,7 +285,7 @@ See also:
 
 * Wikipedia, *[Von Neumann regular ring](https://en.wikipedia.org/wiki/Von_Neumann_regular_ring)*
 
-This discussion post from the Category Theory Zulip, while titled "Semisimple commutative rings", is actually entirely about von Neumann regular rings
+This discussion post from the Category Theory Zulip, titled "Semisimple commutative rings", is mostly about von Neumann regular rings; many of the results above were extracted from that discussion: 
 
 * *Semisimple commutative rings*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/channel/229199-learning.3A-questions/topic/Semisimple.20commutative.20rings))
 
