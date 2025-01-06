@@ -348,6 +348,8 @@ Generalization to [[homotopy theory]] and [[higher category theory]] is discusse
 * [[Benno van den Berg]], [[Ieke Moerdijk]], _W-types in Homotopy Type Theory_ ([arXiv:1307.2765](https://arxiv.org/abs/1307.2765))
  {#vdBergMoerdijk13}
 
+* {#DAL24} [[Stefania Damato]], [[Thorsten Altenkirch]], [[Axel Ljungström]], *Formalising inductive and coinductive containers* ([arXiv:2409.02603](https://arxiv.org/abs/2409.02603))
+
 See also
 
 * [[Joachim Kock]], [[André Joyal]], [[Michael Batanin]], [[Jean-François Mascari]], _Polynomial functors and opetopes_, Adv. Math. __224__, 2010, pp 2690--2737. ([arXiv:0706.1033](https://arxiv.org/abs/0706.1033) [doi](https://doi.org/10.1016/j.aim.2010.02.012))
