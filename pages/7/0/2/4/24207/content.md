@@ -41,3 +41,5 @@ $$\mathbf{2} \leftarrow A + B \rightarrow A \times B$$
 * [[Floris van Doorn]] (2018), _On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory_, ([arXiv:1808.10690](https://arxiv.org/abs/1808.10690), [web](http://florisvandoorn.com/papers/dissertation.pdf))
 
 * [[Kuen-Bang Hou]], *Higher-Dimensional Types in the Mechanization of Homotopy Theory*, Ph. D. Thesis 2017 ([web](https://favonia.org/files/thesis.pdf))
+
+* [[Axel Ljungström]], *Symmetric Monoidal Smash Products in Homotopy Type Theory* ([arXiv:2402.03523](https://arxiv.org/abs/2402.03523))
