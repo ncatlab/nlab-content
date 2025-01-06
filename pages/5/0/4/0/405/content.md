@@ -163,6 +163,22 @@ The symmetric monoidal structure induces an automorphism $I^{\sigma} \colon I^n 
 The symmetric cube category can be compared with the [[symmetric simplicial set|symmetric simplex category]] and [[cyclic category]], which similarly add symmetries to the [[simplex category]].
 Note that while the symmetric simplex category includes all the natural symmetries of an $n$-simplex, the symmetric cube category only includes the symmetries of the $n$-cube coming from permutations of the axes.
 
+The symmetric cube category admits the following alternative description, used by Bezem, Coquand, and Huber:
+
++-- {: .num_defn}
+###### Proposition
+
+The symmetric cube category is equivalent to the category whose objects are finite sets and whose morphisms $f \colon I \to J$ are set functions $f \colon J \to I \sqcup \{0,1\}$ such that the restriction of $f$ to the preimage of $I$ is injective.
+
+=--
+
++-- {: .num_defn}
+###### Remark
+
+A [[cubical set]] over the symmetric cube category can also be seen as a [[nominal set]] with additional structure; see [Pitts (2015)](#Pitts2015).
+
+=--
+
 +-- {: .num_defn}
 ###### Remark
 
@@ -191,7 +207,7 @@ By adding diagonal morphisms $I^n \to I^n \otimes I^n$ on top of the symmetric c
 +-- {: .num_defn}
 ###### Remark
 
-Symmetries can already be derived from the combination of degeneracies and diagonals $I^n \to I^n \otimes I^n$ [(Mauri 2005, Corollary 5.5)]{#Mauri2005}, though not if one only assumes a diagonal $I^1 \to I^1 \otimes I^1$.
+Symmetries can already be derived from the combination of degeneracies and diagonals $I^n \to I^n \otimes I^n$ [(Mauri 2005, Corollary 5.5)](#Mauri2005), though not if one only assumes a diagonal $I^1 \to I^1 \otimes I^1$.
 
 =--
 
@@ -256,7 +272,7 @@ For applications using presheaves on the cube category, it is often convenient t
 ###### Proposition
 
 The Cauchy completion of the distributive lattice cube category is equivalent to the full subcategory of [[Pos]] consisting of finite (bounded) lattices.
-The Cauchy completion of the join lattice cube category is equivalent to the subcategory of [[Pos]] consisting of finite (bounded) distributive lattices and morphisms preserving binary joins.
+The Cauchy completion of the join semilattice cube category is equivalent to the subcategory of [[Pos]] consisting of finite (bounded) distributive lattices and morphisms preserving binary joins.
 
 =--
 
@@ -403,6 +419,8 @@ Zoologies of cube categories:
 For the semicartesian cube category:
 
 * {#BezemCoquandHuber13} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]], _A Model of Type Theory in Cubical Sets_,  19th International Conference on Types for Proofs and Programs (TYPES 2013). ([doi:10.4230/LIPIcs.TYPES.2013.107](https://dx.doi.org/10.4230/LIPIcs.TYPES.2013.107))
+
+* {#Pitts2015} [[Andrew Pitts]], *Nominal Presentation of Cubical Sets Models of Type Theory*, Proceedings of the 20th International Conference on Types for Proofs and Programs (TYPES 2014). ([doi:10.4230/LIPIcs.TYPES.2014.202](https://dx.doi.org/10.4230/LIPIcs.TYPES.2014.202))
 
 * [[Mike Shulman]], *Towards a Third-Generation HOTT Part 3* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-12.pdf), [video](https://www.youtube.com/watch?v=9pDddxB7LbE))
 
