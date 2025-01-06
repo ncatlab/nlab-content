@@ -386,7 +386,15 @@ See also the discussion at:
 [[!redirects n-disc]]
 [[!redirects n-discs]]
 
+[[!redirects 2-disk]]
+[[!redirects 2-disks]]
+[[!redirects 2-disc]]
+[[!redirects 2-discs]]
+
 [[!redirects open n-disk]]
 [[!redirects open n-disks]]
 [[!redirects open n-disc]]
 [[!redirects open n-discs]]
+
+
+
