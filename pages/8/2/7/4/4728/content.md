@@ -17,11 +17,12 @@
 
 A **surface** is a [[space]] of [[dimension]] 2.
 
-In [[differential geometry]] this means a 2-dimensional [[smooth manifold]] or something thereby [[parametrization|parametrized]].
+In [[differential topology|differential]] [[topology]]/[[differential geometry]] this means a 2-[[dimension of a manifold|dimensional]] ([[differentiable manifold|differentiable]]/[[smooth manifold|smooth]]) [[manifold]].
 
-In [[complex analytic geometry]] this usually means a [[complex manifold]] of _complex_ dimension 2.
+In [[complex analytic geometry]] this usually means a [[complex manifold]] of _complex_ dimension 2 (hence real dimension 4).
 
 Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]]_ is a [[variety]] of algebraic dimension 2. 
+
 
 ## Examples
 
@@ -33,7 +34,10 @@ Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]
 
 * [[Klein bottle]]
 
+
 ## Related concepts
+
+* [[punctured]] surface
 
 * [[differential geometry of curves and surfaces]]
 
