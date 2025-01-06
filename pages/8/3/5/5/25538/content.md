@@ -33,6 +33,11 @@ For a [[large category]], this description does not suffice in general, nor does
 
 - For a small category $C$, the conservative cocompletion $Cont(C^op, Set)$ is [[complete]] and [[cocomplete]], and the embedding $C \to Cont(C^op, Set)$ creates limits and colimits. Consequently, every small category may be continuously and cocontinuously fully embedded into a complete and cocomplete locally small category. (Note that $Cont(C^op, Set)$ will rarely be [[closed category|closed]] unless $C$ is ([counterexample](https://mathoverflow.net/a/185024)).) However, not every locally small category admits such an embedding: see Example III.1 of [Trnková 1966](#T66).
 
+## Examples
+
+- The category of finite [[semilattices]] is the conservative cocompletion of the category of [[finite sets]] and [[relations]] under finite colimits (and also its [[free cocompletion]] under [[reflexive coequalisers]]) ([AMMU14](#AMMU14)).
+- The category [[Pos]] of [[partial orders]] is the free conservative cocompletion of the category of [[total orders]] ([Tataru24](#Tataru24)).
+
 ## Related concepts
 
 - [[free cocompletion]]
@@ -56,6 +61,14 @@ See also Theorem 11.5 of:
 See section 6.4 (and Theorem 6.4.3 in particular) of:
 
 * {#MakkaiPare} [[Michael Makkai]], [[Robert Paré]],  _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics 104. American Mathematical Society, Rhode Island (1989) ([ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104))
+
+For examples:
+
+* {#AMMU14} Adámek, J., Myers, R. S., Urbat, H., & Milius, S. "On continuous nondeterminism and state minimality." Electronic Notes in Theoretical Computer Science 308 (2014): 3-23.
+
+* Mimram, Samuel, and Cinzia Di Giusto. "A categorical theory of patches." Electronic notes in theoretical computer science 298 (2013): 283-307.
+
+* {#Tataru24} Calin Tataru, "Partial orders are the free conservative cocompletion of total orders." [arXiv:2404.12924](https://arxiv.org/abs/2404.12924) (2024).
 
 [[!redirects conservative cocompletions]]
 [[!redirects free conservative cocompletion]]
