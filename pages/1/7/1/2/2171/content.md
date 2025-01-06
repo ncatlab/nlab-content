@@ -64,11 +64,11 @@ More explicitly, braid groups admit [[finitely presented group|finite presentati
 * *[As automorphisms of a free group](#AsAutomorphismsOfAFreeGroup)*
 
 
-#### Via generators and relations
+### Via generators and relations
  {#ByGeneratorsAndRelations}
 
 
-##### Presentation of general braids
+#### Presentation of general braids
 
 We discuss the braid group as  a [[finitely generated group]]
 ([Artin 1925, (5)-(6)](#Artin25); [Artin 1947, (18)-(19)](#Artin47);
@@ -820,7 +820,8 @@ b_i^{-1}
 
 \end{definition}
 
-##### Presentation of pure braids
+
+#### Presentation of pure braids
  {#PresentationOfPureBraids}
 
 Similarly, the [[pure braid group]] has a [[finitely presented group|finite presentation]].
@@ -3252,7 +3253,7 @@ Here we repeatedly used products of pure braid generators of the following form:
 
 
 
-#### As fundamental group of a configuration space of points
+### As fundamental group of a configuration space of points
  {#AsFundamentalGroupOfConfigurationSpace}
 
 Geometrically, one may understand the group of braids in $\mathbb{R}^3$ as the [[fundamental group]] of the [[configuration space of points]] in the [[plane]] $\mathbb{R}^2$ (traditionally regarded as the [[complex plane]] $\mathbb{C}$ in this context, though the [[complex structure]] plays no role in the definition of the braid group as such).
@@ -3285,8 +3286,9 @@ The [[symmetric group]] $S_n$ [[group action|acts]] on $C_n$ by [[permutation|pe
 
 We understand $p = (1, 2, \ldots, n)$ as the basepoint for $C_n$, and $[p] = [1, 2, \ldots n]$ as the basepoint for the [[configuration space of unordered points]] $C_n/S_n$, making it a [[pointed topological space]].
 
-+-- {: .num_defn} 
-###### Definition 
+
+
+\begin{definition}
 
 The _braid group_ is the [[fundamental group]] of the [[configuration space of unordered points|configuration space of n unordered points]]:
 
@@ -3311,7 +3313,8 @@ $$
   \,.
 $$
 
-=-- 
+\end{definition}
+
 
 Evidently a braid $\beta$ is represented by a path $\alpha: I \to C_n/S_n$ with $\alpha(0) = [p] = \alpha(1)$. Such a path may be uniquely lifted through the [[covering]] projection $\pi: C_n \to C_n/S_n$ to a path $\tilde{\alpha}$ such that $\tilde{\alpha}(0) = p$. The end of the path $\tilde{\alpha}(1)$ has the same underlying subset as $p$ but with coordinates permuted: $\tilde{\alpha}(1) = (\sigma(1), \sigma(2), \ldots, \sigma(n))$. Thus the braid $\beta$ is exhibited by $n$ non-intersecting strands, each one connecting an $i$ to $\sigma(i)$, and we have a map $\beta \mapsto \sigma$ appearing as the quotient map of an exact sequence 
 
@@ -3349,9 +3352,7 @@ It has been shown ([An & Maciazek 2006](#AnMaciazek2006), using discrete [[Morse
 
 
 
-
-
-#### As mapping class group of punctured disk
+### As mapping class group of punctured disk
  {#AsMappingClassGroupOfAPuncturedDisk}
 
 
@@ -3425,7 +3426,7 @@ See also eg. [Margalit & Winarski (2021), §7](#MargalitWinarski21), [Amram, Law
 
 
 
-#### As automorphisms of a free group
+### As automorphisms of a free group
  {#AsAutomorphismsOfAFreeGroup}
 
 Since the [[fundamental group]] of $D^2 \setminus \{z_1, \cdots, z_n\}$ is [[generalized the|the]]  [[free group]] of $n$ generators, the MCG-presentation of the braid group ([above](#InTermsOfAutomorphismsOfFreeGroups)) induces a [[group homomorphism]] of the braid group into the [[automorphism group]] of a [[free group]], which turns out to be [[faithful representation|faithful]].
