@@ -36,6 +36,9 @@ See also:
 
 [[!redirects punctured]]
 
+[[!redirects punctured surface]]
+[[!redirects punctured surfaces]]
+
 [[!redirects punctured disk]]
 [[!redirects punctured disks]]
 
