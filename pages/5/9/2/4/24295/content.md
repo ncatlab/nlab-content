@@ -3,6 +3,8 @@
 
 ## Selected writings and talks
 
+* [[Axel Ljungström]], *Symmetric Monoidal Smash Products in Homotopy Type Theory* ([arXiv:2402.03523](https://arxiv.org/abs/2402.03523))
+
 On [[ordinary cohomology in homotopy type theory]], specifically on [[integral cohomology]]:
 
 * [[Guillaume Brunerie]], [[Axel Ljungström]], [[Anders Mörtberg]], *Synthetic Integral Cohomology in Cubical Agda*, 30th EACSL Annual Conference on Computer Science Logic (CSL 2022) **216** (2022) $[$[doi:10.4230/LIPIcs.CSL.2022.11](https://doi.org/10.4230/LIPIcs.CSL.2022.11)$]$
