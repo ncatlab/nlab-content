@@ -36,3 +36,9 @@ On [[baryon chiral perturbation theory]]:
 category: people
 
 [[!redirects U.-G. Meissner]]
+
+[[!redirects Ulf-G. Meißner]]
+
+
+
+
