@@ -63,7 +63,7 @@ A typical application of fixed points in analysis is through the following gener
 
 +-- {: .num_theorem} 
 ###### Theorem 
-Suppose $X$ is an (inhabited) [[complete metric space]] with distance function $d$ and $f \colon X \to X$ is a function with Lipschitz constant $r$ less than $1$, i.e., $d(f(x), f(y)) \leq r \cdot d(x, y)$ for all $x, y \in X$. Then $f$ has a unique fixed point. 
+Suppose $X$ is an (inhabited) [[complete metric space]] with distance function $d$ and $f \colon X \to X$ is a function with Lipschitz constant $r$ strictly less than $1$, i.e., $d(f(x), f(y)) \leq r \cdot d(x, y)$ for all $x, y \in X$. Then $f$ has a unique fixed point. 
 =-- 
 
 The proof is very easy: starting with an initial point $x_0$, the [[sequence]] defined by $x_{n+1} = f(x_n)$ is readily seen to be a [[Cauchy sequence]] which converges to some point $x$. The sequence $x_{n+1} = f(x_n)$ converges to both $x$ and $f(x)$, so $x = f(x)$. If $x$ and $y$ are fixed points, then $0 \leq d(x, y) = d(f(x), f(y)) \leq r \cdot d(x, y)$, so 
