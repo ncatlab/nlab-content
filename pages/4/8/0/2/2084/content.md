@@ -19,32 +19,37 @@ A _quasi-triangular bialgebra_ / _triangular bialgebra_ is a [[bialgebra]] equip
 
 ## Definition
 
-Let $A$ be an algebra in a symmetric [[monoidal category]] $C$ with symmetry $\tau$; fix $m,l$ and $D\in A^{\otimes k}$ and let $1\leq i_r\leq l$ for $1\leq r\leq m$ be different. Then denote $D_{i_1,\ldots,i_m}\in A^{\otimes n}$ as the image of $R\otimes 1^{\otimes (l-m)}$ under the permutation which is the composition of the $m$ transpositions $(r,i_r)$ of tensor factors interchanging $r$ and $i_r$. In the following $C$ is the monoidal category of $k$-vector spaces. 
+Let $A$ be [[monoid object]] [[internalization|in]] a  [[symmetric monoidal category]] $C$ with [[braiding]] $\tau$; fix $m,l$ and $D\in A^{\otimes k}$ and let $1\leq i_r\leq l$ for $1\leq r\leq m$ be different. Then denote $D_{i_1,\ldots,i_m}\in A^{\otimes n}$ as the image of $R\otimes 1^{\otimes (l-m)}$ under the [[permutation]] which is the composition of the $m$ transpositions $(r,i_r)$ of tensor factors interchanging $r$ and $i_r$. In the following $C$ is the monoidal category [[Vect|$k Vect$]] of $k$-[[vector spaces]]. 
 
-A $k$-[[bialgebra]] (in particular $k$-[[Hopf algebra]]) is __quasitriangular__ if there is an invertible element $R\in H\otimes H$ such that for any $h\in H$
+A $k$-[[bialgebra]] (in particular $k$-[[Hopf algebra]]) is __quasitriangular__ if there is an [[invertible element]] $R\in H\otimes H$ such that for any $h\in H$
 $$
-\tau\circ\Delta(h) = R\Delta(h)R^{-1}
+  \tau\circ\Delta(h) \,=\, R\Delta(h)R^{-1}
 $$
-where $\tau=\tau_{H,H}:H\otimes H\to H\otimes H$ and
-
-$$
-(\Delta\otimes id)(R)=R_{13} R_{23}
-$$
+where $\tau=\tau_{H,H} \colon H\otimes H\to H\otimes H$ and
 
 $$
-(id\otimes\Delta)(R)=R_{13} R_{12}
+  (\Delta\otimes id)(R) \,=\, R_{13} R_{23}
+$$
+
+$$
+  (id\otimes\Delta)(R) \,=\, R_{13} R_{12}
 $$
 
 An invertible element $R$ satisfying these 3 properties is called the __universal $R$-element__. As a corollary 
 
 $$
-(\epsilon\otimes id) R = 1,\,\,\,\,\,(id\otimes\epsilon)R = id
+  (\epsilon\otimes id) R 
+    \,=\, 
+  1,\,\,\,\,\,(id\otimes\epsilon)R 
+    \,=\, 
+  id
 $$
 
 and the [[quantum Yang-Baxter equation]] holds in the form
 
 $$
-R_{12} R_{13} R_{23} = R_{23} R_{13} R_{12} 
+  R_{12} R_{13} R_{23} \,=\, R_{23} R_{13} R_{12} 
+  \,.
 $$
 
 
