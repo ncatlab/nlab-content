@@ -10,14 +10,14 @@ Transgression is a tool in [[algebraic topology]] to transfer [[cohomology]] cla
 The topological set up is as follows.  We have two [[topological space]]s, $X$ and $Y$, and a [[generalised cohomology theory]] $E^*(-)$.  We want to be able to transfer ( _transgress_ ) $E^*$-classes from $X$ to $Y$.  We find a third space, $Z$, which has morphisms to both $X$ and $Y$.  We usually write this in the following way:
 
 $$
-\begin{matrix}
-Z & \to& X \\
-\downarrow \\
-Y
-\end{matrix}
+  \array{
+    Z &\stackrel{f}{\to}& X
+    \\
+    \downarrow^{\mathrlap{g}}
+    \\
+    Y
+  }
 $$
-
-(Note to self: replace with SVG, write $f \colon Z \to X$ and $g \colon Z \to Y$.)
 
 An important example is that where we have some parameter space $\Sigma$ (for instance the circle $\Sigma = S^1$) and set $Z = \Sigma \times [\Sigma,X]$,  the [[product]] of $\Sigma$ with the [[internal hom|mapping space]] $[\Sigma,X]$ of maps from $\Sigma$ to $X$ (for instance the [[loop space]] of $X$). Then the morphism on the right is taken to be evaluation and the morphism on the left is projection onto the mapping space $[\Sigma,X]$:
 
