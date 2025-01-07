@@ -52,3 +52,13 @@ reviewed in:
 Relation to the [[Monster group]], [[Moonshine]] and the [[Monster vertex operator algebra]]:
 
 * [[Alessio Marrani]], [[Michael Rios]], [[David Chester]], *Monstrous M-theory*, Symmetry **15** 2 (2023) 490; &lbrack;[doi:10.3390/sym15020490](https://doi.org/10.3390/sym15020490), [arXiv:2008.06742](https://arxiv.org/abs/2008.06742)&rbrack;
+
+Discussion via [[Kac-Moody algebras]] related to [[E11]]:
+
+* [[Keith Glennon]], [[Peter West]]: *$K_{27}$ as a symmetry of closed bosonic strings and branes* &lbrack;[arXiv:2409.08649](https://arxiv.org/abs/2409.08649)&rbrack;
+
+
+* [[Keith Glennon]]: *Bosonic M-Theory From a Kac-Moody Algebra Perspective* &lbrack;[arXiv:2501.03000](https://arxiv.org/abs/2501.03000)&rbrack;
+
+
+
