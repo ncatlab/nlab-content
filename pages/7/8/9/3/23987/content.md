@@ -1505,11 +1505,14 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
 
   > [Magnetic nanoskyrmions](skyrmion#ReferencesInSolidStatePhysics) develop quantized helicity excitations, and the quantum tunneling between nanoskyrmions possessing distinct helicities is indicative of the quantum nature of these particles. Experimental methods capable of non-destructively resolving the quantum aspects of topological spin textures, their local dynamical response, and their functionality now promise practical device architectures for quantum operations. With abilities to measure, engineer, and control matter at the atomic level, nanoskyrmions present opportunities to translate ideas into solid-state technologies. This talk aims to discuss the basic concept of a magnetic skyrmion qubit, its advantages, and challenges in this new research avenue in quantum magnetism and quantum information.
 
-* Ajit C Balram (Homi Bhabha National Institute, India):
+* {#Balram2024} [[Ajit C Balram]] (Homi Bhabha National Institute, India):
 
   **Fingerprints of Composite Fermion Lambda Levels in Scanning Tunneling Microscopy**
 
-  > Composite fermion (CF) is a topological quasiparticle that emerges from a non-perturbative attachment of [[vortices]] to electrons in strongly correlated two-dimensional materials. Similar to non-interacting fermions that form Landau levels in a magnetic field, CFs can fill analogous "Lambda'' levels, giving rise to the fractional quantum Hall (FQH) effect of electrons. Here, we show that Lambda levels can be directly visualized through the characteristic peak structure in the signal obtained via spectroscopy with the scanning tunneling microscopy (STM) on a FQH state. Complementary to transport, which probes low-energy properties of CFs, we show that *high-energy* features in STM spectra can be interpreted in terms of Lambda levels. We numerically demonstrate that STM spectra can be accurately modeled using Jain's CF theory. Our results show that STM provides a powerful tool for revealing the anatomy of FQH states and identifying physics beyond the non-interacting CF paradigm.
+  cf. [arXiv:2312.06779](https://arxiv.org/abs/2312.06779)
+
+  > Composite fermion (CF) is a topological quasiparticle that emerges from a non-perturbative attachment of [[vortices]] to electrons in [[quantum material|strongly correlated two-dimensional materials]]. Similar to non-interacting fermions that form Landau levels in a magnetic field, CFs can fill analogous "Lambda'' levels, giving rise to the [[fractional quantum Hall effect|fractional quantum Hall (FQH) effect]] of [[electrons]]. Here, we show that Lambda levels can be directly visualized through the characteristic peak structure in the signal obtained via spectroscopy with the scanning tunneling microscopy (STM) on a FQH state. Complementary to transport, which probes low-energy properties of CFs, we show that *high-energy* features in STM spectra can be interpreted in terms of Lambda levels. We numerically demonstrate that STM spectra can be accurately modeled using Jain's CF theory. Our results show that STM provides a powerful tool for revealing the anatomy of FQH states and identifying physics beyond the non-interacting CF paradigm.
+
 
 * Yuxin Zhao (University of Hong Kong):
 
