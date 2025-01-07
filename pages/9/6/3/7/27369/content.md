@@ -16,7 +16,7 @@
 
 ## Idea
 
-The [[2-category]] $Mnd$ is the free-standing monad ([[walking]] monad).
+The [[2-category]] $Mnd$ is the free-standing monad (sometimes called the '[[walking]] monad').
 
 A [[2-functor]] $Mnd \to K$ is a [[monad]] in the 2-category $K$. These 2-functors form the [2-category of monads](monad#TwoCategoryOfMonads) of $K$.
 
