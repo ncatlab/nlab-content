@@ -8,9 +8,6 @@
 =--
 =--
 
-
-# Totally distributive categories
-
 * table of contents
 {: toc}
 
@@ -47,6 +44,8 @@ $$
 
 is an [[adjoint modality]].
 
+Every totally distributive category is an example of a [[completely distributive category]].
+
 ## Examples
 
 * If $C$ is a [[small category]], then its [[presheaf category]] $[C^{op},Set]$ is totally distributive.
@@ -55,7 +54,7 @@ is an [[adjoint modality]].
 
 ## Waves
 
-By the [[adjoint functor theorem]] for total categories, a total category is totally distributive if and only if the functor $X$ preserves all limits.  Moreover, for any total category, it is possible to define the functor $W:\mathcal{K} \to [\mathcal{K}^{op},Set]$ which "wants to be" the left adjoint of $X$ (and is if $\mathcal{K}$ is total).  The elements of $W(A)(K)$ are called **waves** from $K$ to $A$ (just because they are usually denoted by wavy arrows), and as in the case of [[continuous categories]] they form an [[idempotent comonad]] on $\mathcal{K}$ in the [[bicategory]] of [[profunctors]].
+For any total category, it is possible to define the functor $W:\mathcal{K} \to [\mathcal{K}^{op},Set]$ which "wants to be" the left adjoint of $X$. The elements of $W(A)(K)$ are called **waves** from $K$ to $A$ (just because they are usually denoted by wavy arrows), and as in the case of [[continuous categories]] they form an [[idempotent comonad]] on $\mathcal{K}$ in the [[bicategory]] of [[profunctors]]. A total category is totally distributive if and only if $W \dashv X$.
 
 ## Related pages
 
@@ -72,5 +71,7 @@ By the [[adjoint functor theorem]] for total categories, a total category is tot
 * Rory Lucyshyn-Wright, *Totally distributive toposes*.  [spnet](https://selectedpapers.net/arxiv/1108.4032).
 
 * [[Francisco Marmolejo]], [[Bob Rosebrugh]], and [[Richard Wood]], *Completely and totally distributive categories I*, JPAA 216 no. 8-9 (2012).  [PDF](http://www.mta.ca/~rrosebru/articles/ctd.pdf)
+
+* [[Richard J. Wood]], "The waves of a total category." Theory and Applications of Categories 30.47 (2015): 1624-1646.
 
 [[!redirects totally distributive categories]]
