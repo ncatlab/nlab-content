@@ -15,7 +15,9 @@
 ## Definition
  {#Definition}
 
-For [[locally small category]] $\mathcal{K}$ denote by $\mathcal{PK}$ the [[full subcategory]] of $[\mathcal{K}^{op},Set]$ on [[small colimits]] of [[representables]]. The [[category]] $\mathcal{K}$ is [[cocomplete category|cocomplete]] iff the [[Yoneda embedding]] $Y \colon \mathcal{K}\to\mathcal{PK}$ has a [[left adjoint]] $colim \colon \mathcal{PK}\to\mathcal{K}$. If $colim$ has a *further* left adjoint $W \colon \mathcal{K}\to\mathcal{PK}$ and $\mathcal{K}$ is moreover [[complete category|complete]], then it is called *completely distributive*.
+A [[locally small category]] $\mathcal{K}$ is **completely distributive** if it has [[small colimits]], [[small limits]], and the colimit functor $colim : \mathcal{PK} \to \mathcal{K}$ is [[continuous functor|continuous]].
+
+More abstractly, there is a [[pseudodistributive law]] between the [[free cocompletion]] and the [[free completion]], for which the [[pseudoalgebras]] are the completely distributive categories.
 
 ## Examples
 
@@ -26,8 +28,6 @@ For [[locally small category]] $\mathcal{K}$ denote by $\mathcal{PK}$ the [[full
 * [[totally distributive category]]
 
 * [[completely distributive lattice]]
-
-* Completely distributive categories are an example of [[continuous algebras]] for a [[lax-idempotent 2-monad]]. (But the condition of being completely distributive seems  to be stronger since it also requires completeness.)
 
 ## References
 
