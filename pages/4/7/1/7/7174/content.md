@@ -119,6 +119,10 @@ On [[Abdus Salam]] and the early history of [[supersymmetry]]:
 
 * [[Peter West]]: *Memories of Abdus Salam and the early days of supersymmetry* &lbrack;[arXiv:2403.13453](https://arxiv.org/abs/2403.13453)&rbrack;
 
+On [[bosonic M-theory]] via [[Kac-Moody algebra]] [[U-duality]] symmetry:
+
+* [[Keith Glennon]], [[Peter West]]: *$K_{27}$ as a symmetry of closed bosonic strings and branes* &lbrack;[arXiv:2409.08649](https://arxiv.org/abs/2409.08649)&rbrack;
+
 
 
 ## Related entries
