@@ -10,6 +10,8 @@ Lars Brink (1949-2022)
 
 * George Savvidy: *Lars Brink Colleague, Friend and Collaborator* &lbrack;[arXiv:2408.09374](https://arxiv.org/abs/2408.09374)&rbrack;
 
+* [[Paolo Di Vecchia]]: *Remembering Lars Brink and some of his work* &lbrack;[arXiv:2501.02498](https://arxiv.org/abs/2501.02498)&rbrack;
+
 
 
 
