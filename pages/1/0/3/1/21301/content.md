@@ -100,6 +100,8 @@ A direct consequence of [[hadron supersymmetry]] is the equality of [[slopes]] o
 
 * [[baryon-lepton symmetry]]
 
+* [supersymmetry in fractional quantum Hall effect](quantum+Hall+effect#ReferencesSupersymmetryInFractionalQuantumHall)
+
 
 ## References
 
