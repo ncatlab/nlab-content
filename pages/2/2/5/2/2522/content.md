@@ -971,7 +971,8 @@ In special dimensions supersymmetry super Lie algebras have [polyvector extensio
 
   * [[super vertex operator algebra]]
 
-* [[hadron supersymmetry]]
+* [[hadron supersymmetry]], [supersymmetry in fractional quantum Hall effect](quantum+Hall+effect#ReferencesSupersymmetryInFractionalQuantumHall)
+
 
 * [[supergravity]], [[superstring theory]]
 
