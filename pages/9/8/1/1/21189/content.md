@@ -248,6 +248,7 @@ On [[chiral symmetry breaking]]:
 
 * [[Ulf-G. Meissner]]: *Chiral perturbation theory*, Encyclopedia of Particle Physics &lbrack;[arXiv:2410.21912](https://arxiv.org/abs/2410.21912)&rbrack;
 
+* [[Ulf-G. Meißner]]: *Chiral dynamics: Quo vadis?* &lbrack;[arXiv:2501.03014](https://arxiv.org/abs/2501.03014)&rbrack;
 
 
 
