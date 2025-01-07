@@ -46,7 +46,7 @@ As or in relation to [[topological phases of matter]]:
 
 * Yao Wang et al., *Quantum Topological Boundary States in Quasi-crystal*,  Adv Mater 2019 Dec;31(49):e1905624 ([doi:10.1002/adma.201905624](https://doi.org/10.1002/adma.201905624))
 
-* Dominic V. Else, Sheng-Jie Huang, Abhinav Prem, Andrey Gromov, *Quantum many-body topology of quasicrystals* ([arXiv:2103.13393](https://arxiv.org/abs/2103.13393))
+* Dominic V. Else, Sheng-Jie Huang, Abhinav Prem, [[Andrey Gromov]]: *Quantum many-body topology of quasicrystals*, Phys. Rev. X **11** (2021) 041051 &lbrack;[arXiv:2103.13393](https://arxiv.org/abs/2103.13393), [doi:10.1103/PhysRevX.11.041051](https://doi.org/10.1103/PhysRevX.11.041051)&rbrack;
 
 * Oded Zilberberg, *Topology in quasicrystals*, Optical Materials Express Vol. 11, Issue 4, pp. 1143-1157 (2021) ([doi:10.1364/OME.416552](https://doi.org/10.1364/OME.416552))
 
