@@ -5,6 +5,8 @@
 
 On hidden [[supersymmetry]] in [[fractional quantum Hall systems]] between [[even number|even]]- and [[odd number|odd]]-[[level (Chern-Simons theory)|level]] (filling-fraction)  [[quantum states]] ([[Laughlin wavefunctions]] and their variants):
 
+> (for a similar phenomenon cf. also *[[hadron supersymmetry]]*)
+
 * [[Kazuki Hasebe]]: *Supersymmetric Quantum-Hall Effect on a Fuzzy Supersphere*, Phys. Rev. Lett. **94** (2005) 206802 \[<a href="https://doi.org/10.1103/PhysRevLett.94.206802">doi:10.1103/PhysRevLett.94.206802</a>\]
 
 * [[Kazuki Hasebe]]: *Quantum Hall liquid on a noncommutative superplane*, Phys. Rev. D **72** (2005) 105017 \[<a href="https://doi.org/10.1103/PhysRevD.72.105017">doi:10.1103/PhysRevD.72.105017</a>\]
