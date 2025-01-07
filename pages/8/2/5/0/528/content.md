@@ -339,9 +339,13 @@ See also
 
 * Alfons Van Daele. *Reflections on the Larson-Sweedler theorem for (weak) multiplier Hopf algebras* (2024). ([arXiv:2404.15046](https://arxiv.org/abs/2404.15046)).
 
-The proof that $H^*$ can be endowed with the structure of a symmetric special Frobenius object in $\text{Bimod}(H,H)$ is in
+Lecture notes on Hopf algebras (and [[quantum groups]]) in view of [[topological field theory]]:
 
-* {#FSS11} [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Carl Stigner]]. *Modular invariant Frobenius algebras from ribbon Hopf algebra automorphisms*. Journal of Algebra **363**, 1 August 2012, Pages 29-72. ([doi](https://doi.org/10.1016/j.jalgebra.2012.04.008))
+* [[Christoph Schweigert]]: *Hopf algebras, quantum groups and topological field theory*, lecture notes (2022) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schweigert/skripten/hskript.pdf)&rbrack;
+
+The proof that $H^*$ can be endowed with the structure of a symmetric special Frobenius object in $\text{Bimod}(H,H)$:
+
+* {#FSS11} [[Jürgen Fuchs]], [[Christoph Schweigert]], Carl Stigner: *Modular invariant Frobenius algebras from ribbon Hopf algebra automorphisms*. Journal of Algebra **363**, 1 August 2012, Pages 29-72. ([doi](https://doi.org/10.1016/j.jalgebra.2012.04.008))
 
 
 On the $H_8$ Hopf algebra
