@@ -301,8 +301,11 @@ them. The origin of this field and the manner of attachment of its flux quanta t
 
 
 
-
 [[!include anyons in the quantum Hall effect -- references]]
+
+
+
+[[!include supersymmetry in fractional quantum Hall systems -- references]]
 
 
 
@@ -334,4 +337,7 @@ category: physics
 
 [[!redirects quantum Hall material]]
 [[!redirects quantum Hall materials]]
+
+[[!redirects fractional quantum Hall system]]
+[[!redirects fractional quantum Hall systems]]
 
