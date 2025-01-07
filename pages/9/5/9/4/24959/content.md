@@ -15,7 +15,7 @@
 ## Definition
  {#Definition}
 
-A [[locally small category]] $\mathcal{K}$ is **completely distributive** if it has [[small colimits]], [[small limits]], and the colimit functor $colim : \mathcal{PK} \to \mathcal{K}$ is [[continuous functor|continuous]].
+A [[locally small category]] $\mathcal{K}$ is **completely distributive** if it has [[small colimits]], [[small limits]], and the colimit functor $colim \colon \mathcal{PK} \to \mathcal{K}$ is [[continuous functor|continuous]].
 
 More abstractly, there is a [[pseudodistributive law]] between the [[free cocompletion]] and the [[free completion]], for which the [[pseudoalgebras]] are the completely distributive categories.
 
