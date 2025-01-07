@@ -93,7 +93,7 @@ and further review:
 
 A more general discussion which identifies thermodynamic properties of all [[horizons]] appearing on gravity (not just [[black hole]] horizons) was given in 
 
-* {#Jacobson95} [[Ted Jacobson]], _Thermodynamics of Spacetime: The Einstein Equation of State_, Phys.Rev.Lett.75:1260-1263, 1995 ([arXiv:gr-qc/9504004](http://arxiv.org/abs/gr-qc/9504004))
+* {#Jacobson95} [[Ted Jacobson]], _Thermodynamics of Spacetime: The Einstein Equation of State_, Phys. Rev. Lett. **75** (1995) 1260-1263 &lbrack;[arXiv:gr-qc/9504004](http://arxiv.org/abs/gr-qc/9504004), [doi:10.1103/PhysRevLett.75.1260](https://doi.org/10.1103/PhysRevLett.75.1260)&rbrack;
  
 
 This article showed that under some assumptions the [[Einstein equations]] can even be _derived_ from identifying gravitational horizon area with [[entropy]] and them imposing laws of [[thermodynamics]]. 
@@ -171,9 +171,9 @@ See also
 
 ### Interpretation as entanglement entropy
 
-Discussions of the interpreation of BH entropy as [[holographic entanglement entropy]] include
+Discussions of the interpreation of BH entropy as [[holographic entanglement entropy]]:
 
-* Alejandro Satz, [[Ted Jacobson]], _Black hole entropy and the renormalization group_ ([arXiv:1301.3171](http://arxiv.org/abs/1301.3171))
+* Alejandro Satz, [[Ted Jacobson]], _Black hole entropy and the renormalization group_, in: *The Thirteenth Marcel Grossmann Meeting*, World Scientific (2015) 1413-1415 &lbrack;[arXiv:1301.3171](http://arxiv.org/abs/1301.3171), [doi:10.1142/9789814623995_0188](https://doi.org/10.1142/9789814623995_0188)&rbrack;
 
 
 Computation of [[black hole entropy]] in 4d via [[AdS4-CFT3 duality]] from [[holographic entanglement entropy]] in the [[ABJM theory]] for the [[M2-brane]] is discussed in
