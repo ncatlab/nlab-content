@@ -16,9 +16,11 @@
 
 ## Idea
 
-A _rigid (monoidal) category_, also called an _autonomous (monoidal) category_ is a kind of [[category with duals]]. In particular, a rigid monoidal category is a category in which every object $A$ has a dual object $A^*$. Depending on whether these duals exist on the right or the left we call the category left or right rigid. Sometimes _rigid_ refers to categories with duals on both sides.
+A _rigid (monoidal) category_, also called an _autonomous (monoidal) category_ is a kind of [[category with duals]]. In particular, a rigid monoidal category is a [[monoidal category]] in which every [[object]] $A$ has a [[dual object]] $A^*$. 
 
-It is important to note that every right/left rigid category can be fully embedded into a category with duals on both sides, by repeatedly applying the double dual functor and taking a colimit (see e.g. [Selinger](#Selinger2011), Proposition 4.7).
+Depending on whether these duals exist on the right or the left we call the category *left rigid* or *right rigid*. Sometimes _rigid_ refers to categories with duals on both sides.
+
+It is important to note that every right/left rigid category can be fully embedded into a category with duals on both sides, by repeatedly applying the double dual functor and taking a [[colimit]] (see e.g. [Selinger 2011](#Selinger2011), Proposition 4.7).
 
 
 ## Definition
