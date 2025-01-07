@@ -103,6 +103,10 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 
 * [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]], *Berkeley Lectures on Lie Groups and Quantum Groups*, 2020 ([pdf](http://categorified.net/LieQuantumGroups.pdf))
 
+Lecture notes on [[Hopf algebras]] and quantum groups in view of [[topological field theory]]:
+
+* [[Christoph Schweigert]]: *Hopf algebras, quantum groups and topological field theory*, lecture notes (2022) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schweigert/skripten/hskript.pdf)&rbrack;
+
 
 In relation to [[hypergeometric functions]] and the [[Knizhnik-Zamolodchikov equation]]:
 
