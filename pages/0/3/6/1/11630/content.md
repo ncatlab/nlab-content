@@ -334,6 +334,17 @@ The case of of [[E11]] is discussed in
 
 * {#West16} [[Peter West]], _A brief review of E theory_ ([arXiv:1609.06863](http://arxiv.org/abs/1609.06863))
 
+
+### "$n=26, 27$"
+
+Discussion for [[bosonic M-theory]]:
+
+* [[Keith Glennon]], [[Peter West]]: *$K_{27}$ as a symmetry of closed bosonic strings and branes* &lbrack;[arXiv:2409.08649](https://arxiv.org/abs/2409.08649)&rbrack;
+
+
+* [[Keith Glennon]]: *Bosonic M-Theory From a Kac-Moody Algebra Perspective* &lbrack;[arXiv:2501.03000](https://arxiv.org/abs/2501.03000)&rbrack;
+
+
 ### Further details
 
 A careful discussion of the [[topology]] of the [[Kac-Moody group|Kac-Moody]] U-duality groups is in 
