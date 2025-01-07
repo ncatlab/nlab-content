@@ -68,11 +68,10 @@ $$
 
 ### Fundamentals
 
-Standard [[AQFT]] references on conformal nets include
+* [[Roberto Longo]]: _Conformal Subnets and Intermediate Subfactors_, Commun. Math. Phys. **237** (2003) 7-30 &lbrack;[arXiv:0102196](http://arxiv.org/abs/math/0102196), [doi:10.1007/s00220-003-0814-8](https://doi.org/10.1007/s00220-003-0814-8)&rbrack;
 
-* [[Roberto Longo]], _Conformal Subnets and Intermediate Subfactors_ ([arXiv:0102196](http://arxiv.org/abs/math/0102196))
+* Karl-Henning Rehren: *Algebraic conformal quantum field theory in perspective*, Advances in Algebraic Quantum Field Theory, Springer (2015) 331-364 &lbrack;[arXiv:1501.03313v2](https://arxiv.org/abs/1501.03313), [doi:10.1007/978-3-319-21353-8_8](https://doi.org/10.1007/978-3-319-21353-8_8)&rbrack;
 
-and lots of others...
 
 A somewhat novel take on conformal nets is presented and studied in 
 
