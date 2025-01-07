@@ -229,6 +229,11 @@ Relation to [[D=3 N=2 super Yang-Mills theory]]:
 
 * Cyril Closset, Osama Khlaif, *Grothendieck lines in 3d $\mathcal{N}=2$ SQCD and the quantum K-theory of the Grassmannian* &lbrack;[arXiv:2309.06980](https://arxiv.org/abs/2309.06980)&rbrack;
 
+Relation to [[D=4 N=1 super Yang-Mills theory]]:
+
+* M. Nouman Muteeb, Leopoldo A. Pando Zayas: *A Four-dimensional Gauge Theory Perspective on Quantum K-theory* &lbrack;[arXiv:2501.02394](https://arxiv.org/abs/2501.02394)&rbrack;
+
+
 
 More references are listed in:
 
