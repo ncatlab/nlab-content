@@ -1,154 +1,33 @@
 
-### Braid groups as mapping class groups of [[punctured]] surfaces
- {#AsMappingClassGroupOfAPuncturedDisk}
-
-
-The [[braid groups]] are equivalently given by [[mapping class groups]] of punctured [[surfaces]]. &lbrack;[Birman 1969](#Birman69)&rbrack;
+[[supersymmetry in fractional quantum Hall systems -- references]]
 
 
 
-#### For plain braid groups
 
 
-The plan braid group $Br(n)$ may be alternatively described as the [[mapping class group]] of a [[2-disk]] $D^2$ with $n$ [[puncture|punctures]].  
 
-(review includes [Birman 1975 §4](braid+group#Birman75), [González-Meneses 2011 §1.4](braid+group##González-Meneses11), [Massuyeau 2021 §3.3](braid+group##Massuyeau21), [Abadie 2022 §1.3](braid+group##Abadie22))
-
-Concretely, consider 
-
-1. $D^2 \setminus \{z_1, \cdots, z_n\}$ 
-
-   denoting the [[complement]] of $n$ distinct points in the [[closed disk]] (with [[boundary]] the [[circle]]);
-
-1. $Homeo^{\partial}\big(D^2 \setminus \{z_1, \cdots, z_n\} \big)$ 
-
-   denoting the [[mapping space]] of [[automorphism|auto]]-[[homeomorphisms]] which restrict to the [[identity]] on the [[boundary]] [[circle]], regarded with its canonical [[group]] [[structure]] under [[composition]];
-
-1. $Homeo^{\partial}_id\big(D^2 \setminus \{z_1, \cdots, z_n\} \big)$ 
-
-   denoting the [[subgroup]] which is the [[connected component]] of the [[identity]] (which is readily seen to be a [[normal subgroup]]).
-
-Then the [[mapping class group]] is the [[quotient group]]:
-
-$$
-  MCG
-  \big(
-    D^2 \setminus \{z_1, \cdots, z_n\}
-  \big)
-  \;\coloneqq\;
-  Homeo^{\partial}\big(D^2 \setminus \{z_1, \cdots, z_n\} \big)
-  \Big/
-  Homeo^{\partial}_{id}\big(D^2 \setminus \{z_1, \cdots, z_n\} \big)
-  \,.
-$$
-
-Now observe that 
-
-1. for the case that $n = 0$ this group is [[trivial group|trivial]], by *[[Alexander's trick]]*. 
-
-1. continuous extension yields an [[injection]]
-
-   $$
-     Homeo^{\partial}\big(D^2 \setminus \{z_1, \cdots, z_n\} \big)
-     \xhookrightarrow{\phantom{-}\iota\phantom{-}}
-     Homeo^{\partial}\big(D^2\big)
-     \,.
-   $$
-
-Combining this implies that for every $[\phi] \,\in\, MCG\big(D^2 \setminus \{z_1, \cdots, z_n\}\big)$ there is an [[isotopy]] to the [[identity]], $\iota[\phi] \to id$, under which the locations of the punctures trace out a [[braid]] (in the sense of a [[loop]] in the symmetrized [[configuration space of points]]). This construction constitutes a [[group homomorphism]] from the [[mapping class group]] to the [[braid group]]
-$$
-  MCG
-  \big(
-    D^2 \setminus \{z_1, \cdots, z_n\}
-  \big)
-  \xrightarrow{\;\;\sim\;\;}
-  Br(n) 
-  \,.
-$$
-and this is an [[isomorphism]].
+### Supersymmetry in the Fractional Quantum Hall 
+ {#ReferencesSupersymmetryInFractionalQuantumHall}
 
 
-\begin{remark}\label{ActionOfBraidGroupOnFundamentalGroupOfPuncturedDisk}
-**(action of braid group on fundamental group of $n$-punctured disk)**
-\linebreak
-It follows in particular that the braid group $Br(n)$ has a canonical [[group action]] on the [[fundamental group]] of the $n$-punctured disk. Since the latter is [[isomorphism|isomorphic]] to the [[free group]] on $n$ [[generators and relations|generators]], this leads to the purely algebraic characterization of the braid group [below](#AsAutomorphismsOfAFreeGroup).
+On hidden [[supersymmetry]] in [[fractional quantum Hall systems]] between even- and odd-[[level (Chern-Simons theory)|level]] (filling-fraction) [[quantum states]]:
 
-See also eg. [Margalit & Winarski (2021), §7](#MargalitWinarski21), [Amram, Lawrence & Vishne (2012), §7](#AmramLawrenceVishne12).
-\end{remark}
+* [[Kazuki Hasebe]]: *Supersymmetric Quantum-Hall Effect on a Fuzzy Supersphere*, Phys. Rev. Lett. **94** (2005) 206802 \[<a href="https://doi.org/10.1103/PhysRevLett.94.206802">doi:10.1103/PhysRevLett.94.206802</a>\]
 
-#### For surface braid groups
+* [[Kazuki Hasebe]]: *Quantum Hall liquid on a noncommutative superplane*, Phys. Rev. D **72** (2005) 105017 \[<a href="https://doi.org/10.1103/PhysRevD.72.105017">doi:10.1103/PhysRevD.72.105017</a>\]
 
-More generally, let $\Sigma$ be a ([[connected topological space|connected]]) [[closed manifold|closed]], [[orientation|oriented]] [[surface]], possibly with [[boundary of a manifold|boundary]] and let $x_1, \cdots, x_n \in \Sigma$ a [[finite set]] of [[interior]] points.
+* [[Kazuki Hasebe]]: *Quantum Hall Effect Based on SUSY Non-Commutative Geometry*, Progress of Theoretical Physics Supplement **171** (2007) 154–159 \[<a href="https://doi.org/10.1143/PTPS.171.154">doi:10.1143/PTPS.171.154</a>\]
 
-Then the [[mapping class groups]] ($MCG(-) \coloneqq \pi_0 Homeo^{+,\partial}(-)$)
-
-* $MCG(\Sigma)$ (of $\Sigma$ itself, presering orientation and the boundary pointwise)
-
-* $MCG(\Sigma, \{x_1, \cdots, x_n\})$ (of $\Sigma$ with "indistinguishable" punctures)
-
-* $MCG(\Sigma, \{x_1\}, \cdots, \{x_n\})$ (of $\Sigma$ with "distinguishable" punctures)
-
-relate to the [[surface braid groups]]
-
-* $Br_n(Sigma)$ (ordinary braid group)
-
-* $PBr_n(Sigma)$ (pure braid group)
-
-* $Sym_n$ (the [[symmetric group]])
-
-by forming the following [[commuting diagram]] of [[group homomorphisms]] where all rows and all columns are [[exact sequences]]:
-
-\begin{tikzcd}
-  & 
-  1 \ar[d]
-  & 
-  1 \ar[d]
-  \\
-  \pi_1\big(
-    \mathrm{Homeo}^{+,\partial}(\Sigma)
-  \big)
-  \ar[r]
-  \ar[d, equals]
-  &
-  \mathrm{PBr}_n(\Sigma)
-  \ar[r]
-  \ar[d]
-  &
-  \mathrm{MCG}\big(\Sigma, \{x_1\}, \cdots, \{x_n\}\big)
-  \ar[r]
-  \ar[d]
-  &
-  \mathrm{MCG}\big(\Sigma\big)
-  \ar[r]
-  \ar[d, equals]
-  &
-  1
-  \\
-  \pi_1\big(
-    \mathrm{Homeo}^{+,\partial}(\Sigma)
-  \big)
-  \ar[r]
-  &
-  \mathrm{Br}_n(\Sigma)
-  \ar[r]
-  \ar[d]
-  &
-  \mathrm{MCG}\big(
-    \Sigma, \{x_1, \cdots, x_n\}
-  \big)
-  \ar[r]
-  \ar[d]
-  & 
-  \mathrm{MCG}(\Sigma)
-  \ar[r]
-  &
-  1
-  \\
-  & \mathrm{Sym}_n 
-  \ar[r, equals]
-  & \mathrm{Sym}_n
-  \\
-  & 1 & 1
-\end{tikzcd}
+* [[Kazuki Hasebe]]: *Unification of Laughlin and Moore–Read states in SUSY quantum Hall effect*, Physics Letters A **372** 9 (2008) 1516-1520 \[<a href="https://doi.org/10.1016/j.physleta.2007.09.071">doi:10.1016/j.physleta.2007.09.071</a>\]
 
 
+* [[Andrey Gromov]], [[Emil J. Martinec]], [[Shinsei Ryu]]: *Collective excitations at filling factor $5/2$: The view from superspace*, Phys. Rev. Lett. **125** (2020) 077601 \[<a href="https://doi.org/10.1103/PhysRevLett.125.077601">doi:10.1103/PhysRevLett.125.077601</a>, [arXiv:1909.06384](https://arxiv.org/abs/1909.06384)\]
+  > ([[superspace]] formulation)
+
+* Ken K. W. Ma, Ruojun Wang, Kun Yang: *Realization of Supersymmetry and Its Spontaneous Breaking in Quantum Hall Edges*, Phys. Rev. Lett. 126 (2012) 206801 \[<a href="https://doi.org/10.1103/PhysRevLett.126.206801">doi:10.1103/PhysRevLett.126.206801</a>, [arXiv:2101.05448](https://arxiv.org/abs/2101.05448)\]
+
+* Songyang Pu, [[Ajit C. Balram]], Mikael Fremling, [[Andrey Gromov]], Zlatko Papić: *Signatures of Supersymmetry in the $\nu = 5/2$ Fractional Quantum Hall Effect*, Phys. Rev. Lett. **130** (2023) 176501 \[<a href="https://doi.org/10.1103/PhysRevLett.130.176501">doi:10.1103/PhysRevLett.130.176501</a>, [arXiv:2301.04169](https://arxiv.org/abs/2301.04169)\]
+  > "Our results suggest that the SUSY structure is intrinsically present in spectral properties of the $\nu = 5/2$ state"
+
+* Dung Xuan Nguyen, Kartik Prabhu, [[Ajit C. Balram]], [[Andrey Gromov]]: *Supergravity model of the Haldane-Rezayi fractional quantum Hall state*, Phys. Rev. B **107** (2023) 125119 \[<a href="https://doi.org/10.1103/PhysRevB.107.125119">doi:10.1103/PhysRevB.107.125119</a>, [arXiv:2212.00686](https://arxiv.org/abs/2212.00686)\]
+  > ([[supergravity]] formulation)
