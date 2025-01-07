@@ -47,6 +47,11 @@ Exposition:
 
 * [[Christoph Schweigert]], *String-net methods for CFT correlators*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#SchweigertMar2023)&rbrack;
 
+Lecture notes on [[Hopf algebras]] and [[quantum groups]] in view of [[topological field theory]]:
+
+* [[Christoph Schweigert]]: *Hopf algebras, quantum groups and topological field theory*, lecture notes (2022) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schweigert/skripten/hskript.pdf)&rbrack;
+
+
 
 Survey of [[algebra|algebraic]] [[structures]] in [[2d conformal field theory]] ([[vertex operator algebras]], [[conformal blocks]], [[modular tensor category|modular]] [[fusion categories]], [[modular functors]], [[FRS theorem]], [[string-net models]]):
 
