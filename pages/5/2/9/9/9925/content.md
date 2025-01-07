@@ -1,5 +1,16 @@
 
-* [webpage](http://hamilton.uchicago.edu/~ejm/)
+* [personal page](https://homes.psd.uchicago.edu/~ejmartin/)
+
+* [institute page](https://physics.uchicago.edu/people/profile/emil-j.-martinec/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Emil_Martinec)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=119191)
+
+* [inSpire page](https://inspirehep.net/authors/998609)
+
+
+
 
 ## Selected writings
 
@@ -26,7 +37,7 @@ On [[black hole entropy]] via [[D1-D5 brane bound states]] as [[black holes in s
 * [[Emil Martinec]], *The branes behind black holes*, talk at *[Strings 2022](https://indico.cern.ch/event/1085701/)* &lbrack;[indico:4940814](https://indico.cern.ch/event/1085701/contributions/4940814/)&rbrack;
 
 
-## Related $n$Lab pages
+## Related pages
 
 * [[string theory]]
 
@@ -38,3 +49,8 @@ On [[black hole entropy]] via [[D1-D5 brane bound states]] as [[black holes in s
 
 
 category: people
+
+
+[[!redirects Emil J. Martinec]]
+
+
