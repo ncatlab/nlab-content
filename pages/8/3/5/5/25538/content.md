@@ -44,13 +44,13 @@ For a [[large category]], this description does not suffice in general, nor does
 
 ## References
 
-- [[Joachim Lambek]], _Completions of categories: Seminar lectures given 1966 in Zürich_, Vol. 24. Springer.
+- [[Joachim Lambek]], _Completions of categories: Seminar lectures given 1966 in Zürich_, Lecture Notes in Mathematics 24 (1966), Springer.  [doi](https://doi.org/10.1007/BFb0077265), ISBN: 978-3-540-03607-4 (softcover), 978-3-540-34840-5 (electronic).
 
 - {#T66} Věra Trnková, _Limits in categories and limit-preserving functors_, Commentationes Mathematicae Universitatis Carolinae 7.1 (1966): 1-73.
 
 - J. F Kennison, _On limit-preserving functors_, Illinois Journal of Mathematics 12.4 (1968): 616-619.
 
-- [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982)
+- [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982).  [TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf).
 
 - {#AV02} [[Jiřı́ Adámek]] and [[Jiřı́ Velebil]]. _A remark on conservative cocompletions of categories_. Journal of Pure and Applied Algebra 168.1 (2002): 107-124.
 
