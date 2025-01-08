@@ -9,7 +9,7 @@ That is to say, the traditional algebraic notion of a [[Kähler differential]] i
 
 However, this is not a defect in the conceptual idea itself, but merely a failure to use the correct formalism.  The appropriate notion of a ring in the context of [[differential geometry]] is not merely a commutative real algebra, but a more refined structure, namely, a [[C^∞-ring]].
 
-This notion comes with its own variant of [[commutative algebra]].  Some of the resulting concepts turn out to be exactly the same as in the traditional case.  For example, ideals of [[C^∞-rings]] and [[modules]] over [[C^∞-rings]] happen to coincide with ideals and modules in the traditional sense.  Others, like derivations, must be defined carefully, and definitions that used to be equivalent in the traditional algebraic context need not remain so in the context of [[C^∞-rings]].
+This notion comes with its own variant of [[commutative algebra]].  Some of the resulting concepts turn out to be exactly the same as in the traditional case.  For example, ideals of [[C^∞-rings]] and [[modules over C^∞-rings]] happen to coincide with ideals and modules in the traditional sense.  Others, like derivations, must be defined carefully, and definitions that used to be equivalent in the traditional algebraic context need not remain so in the context of [[C^∞-rings]].
 
 Observe that a map of sets $d\colon A\to M$ (where $M$ is an $A$-module) is a derivation if and only if for any real [[polynomial]] $f(x_1,\ldots,x_n)$ the [[chain rule]] holds:
 $$d(f(a_1,\ldots,a_n))=\sum_i {\partial f\over\partial x_i}(x_1,\ldots,x_n) dx_i.$$
