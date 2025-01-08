@@ -80,6 +80,9 @@ Direct proofs of the Deligne conjecture have been given in.
 
 * [[Clemens Berger]], [[Benoit Fresse]], *Combinatorial operad actions on cochains* ([arXiv:math/0109158](http://arxiv.org/abs/math/0109158))
 
+
+* [[Ricardo Campos]], [[Thomas Willwacher]], *Operadic Torsors* ([arXiv:1412.3614](https://arxiv.org/abs/1412.3614))
+
 A review is in 
 
 * [[Kathryn Hess]], _Deligne's Hochschild cohomology conjecture_ ([pdf](http://sma.epfl.ch/~hessbell/Pub_DeligneColloq.pdf))
