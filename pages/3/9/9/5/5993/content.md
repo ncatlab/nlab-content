@@ -24,16 +24,16 @@ Let $A = (A_{i,j})$ be a skew-symmetric $(2n \times 2n)$-[[matrix]]  with entrie
 +-- {: .num_defn}
 ###### Definition
 
-The _Pfaffian_ $Pf(A) \in k$ is the element
+The *Pfaffian* $pf(A) \in k$ is the element
 
 \[
   \label{PfaffianViaSignatureOfPermutations}
-  Pf(A)
+  pf(A)
   \;\coloneqq\;
-  \frac{1}{2^n n!}  
-  \sum_{\sigma \in Sym_{2n}} 
+  \frac{1}{2^n \, n!}  
+  \textstyle{\sum_{\sigma \in Sym_{2n}}} 
    sgn(\sigma) 
-   \prod_{i = 1}^n 
+   \textstyle{\prod_{i = 1}^n} 
      A_{\sigma(2i -1), \sigma(2i)}
   \,,
 \]
@@ -48,7 +48,7 @@ Expressed equivalently in terms of the [[Levi-Civita symbol]] $\epsilon$ and usi
 
 \[
   \label{PfaffianInTermsOfLCTensor}
-  Pf(A)
+  pf(A)
   \;\coloneqq\;
   \frac{1}{2^n n!}  
   A_{i_1 j_1}
@@ -66,7 +66,7 @@ Expressed equivalently in terms of the [[Levi-Civita symbol]] $\epsilon$ and usi
 
 ## Properties
 
-### Relation to the determining
+### Relation to the determinant
 
 +-- {: .num_prop #PfaffianIsSquareRootOfDeterminant}
 ###### Proposition
@@ -79,7 +79,7 @@ Then the Pfaffian of $A$ (eq:PfaffianViaSignatureOfPermutations) is a [[square r
 \[
   \label{DeterminantIsPfaffianSquared}
   \big(
-    Pf(A)
+    pf(A)
   \big)^2
   \;=\;
   det(A)
@@ -88,7 +88,8 @@ Then the Pfaffian of $A$ (eq:PfaffianViaSignatureOfPermutations) is a [[square r
 
 =--
 
-Proofs are spelled out for instance in [Haber 15, Sections 2 and 3](#Haber15)
+Proofs are spelled out for instance by [Haber 2015, Sections 2 and 3](#Haber15).
+
 
 ### In terms of Berezinian integrals
 
@@ -98,14 +99,21 @@ Proofs are spelled out for instance in [Haber 15, Sections 2 and 3](#Haber15)
 
 Let $\Lambda_{2n}$ be the [[Grassmann algebra]] on $2n$ generators $\{\theta_i\}$, which we think of as a [[vector]] $\vec \theta$
 
-Then the Pfaffian $Pf(A)$ is the [[Berezinian integral]]
+Then the Pfaffian $pf(A)$ is the [[Berezinian integral]]
 
 $$
-  Pf(A)
-  =
-  \int   
-    \exp( \langle \vec \theta, A \cdot \vec \theta \rangle )
-  d \theta_1 d \theta_2 \cdots d \theta_{2n}
+  pf(A)
+  \;=\;
+  \textstyle{\int}
+  \,
+  \left(
+   \textstyle{\prod_{i=1}^{2n}}
+   \mathrm{d}\theta_i
+  \right)
+  \,
+    \exp\big( 
+      \langle \vec \theta, A \cdot \vec \theta \rangle 
+    \big)
   \,.
 $$
 
@@ -114,31 +122,52 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Compare this to the Berezinian integral representation of the [[determinant]], which is 
+Compare this to the [[Berezinian integral]]-representation of the [[determinant]], which is instead:
 
 $$
   det(A)
-  \propto
-  \int   
-    \exp( \langle \vec \theta, A \cdot \vec \psi \rangle )
-  d \theta_1 d \theta_2 \cdots d \theta_{2n}
-  d \psi_1 d \psi_2 \cdots d \psi_{2n}
+  \;\propto\;
+  \textstyle{\int}   
+  \left(
+    \textstyle{\prod}_{i = 1}^{2n}
+    \mathrm{d}\theta_i
+  \right)
+  \left(
+    \textstyle{\prod}_{i = 1}^{2n}
+    \mathrm{d}\psi_i
+  \right)
+  \,
+  \exp\big( 
+    \langle \vec \theta, A \cdot \vec \psi \rangle 
+  \big)
   \,.
 $$
 
 =--
 
-## Pfaffian state
 
-Pfaffians appear in the expression of certain multiparticle wave functions. Most notable is the pfaffian state of $N$ spinless electrons
+## Applications
+
+### Pfaffian state of fractional quantum Hall systems
+
+Pfaffians appear in the expression of certain multiparticle [[wave functions]] generalizing [[Laughlin wavefunctions]] modeling the [[fractional quantum Hall effect]]. Most notable is the pfaffian state of $N$ spinless electrons &lbrack;[Moore & Read 1991](Laughlin+wavefunction#MooreRead91)&rbrack;:
 
 $$
-\Psi_{Pf}(z_1,\ldots,z_N) = pfaff\left(\frac{1}{z_k-z_l}\right)\prod_{i\lt j}(z_i-z_j)^q
-exp(-\frac{1}{4}\sum |z|^2)
+  \Psi_{Pf}(z_1,\ldots,z_N) 
+  \;=\; 
+   pf\left(
+    \frac{1}{z_k-z_l}
+   \right)
+   \prod_{i\lt j}(z_i-z_j)^q
+   \,
+   exp\Big(
+     -\frac{1}{4}
+     \textstyle{\sum} {|z|}^2
+  \Big)
+  \mathrlap{\,,}
 $$
-where $pfaff(M_{k l})$ denotes the Pfaffian of the matrix whose labels are $k,l$ and $q= 1/\nu$ is the filling fraction, which is an even integer. For Pfaffian state see
+where $pfaff(M_{k l})$ denotes the Pfaffian of the matrix whose labels are $k,l$ and $q = 1/\nu$ is the filling fraction, which is an [[even number|even]] [[integer]]. 
 
-* [[Gregory Moore]], N. Read, _Nonabelions in the fractional quantum hall effect_, Nucl. Phys. 360B(1991)362 [pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)
 
 ## Related entries
 
