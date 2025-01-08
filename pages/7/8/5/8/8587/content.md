@@ -1,11 +1,12 @@
-# Kriegl and Michor's Cartesian Closed Category of Smooth Manifolds # {: #title}
+
+\tableofcontents
 
 +-- {: .num_section #sectiona }
 =--
 
 ## Introduction ## {: .num_section}
 
-In ([Michor 1984a](#MR764972)) and ([Michor 1984b](#MR767683)), Michor gives a description of a category of "smooth manifolds" due to himself and Kriegl which is [[cartesian closed]]. The key to achieving this is to replace charts and atlases by notions based on smooth curves. The resulting objects have a considerable amount of structure built in, but nonetheless replicate ordinary [[smooth manifolds]] in the finite dimensional situation. This is also true in the [[Banach space]] situation; which is not stated in the paper, but follows readily from the finite dimensional situation.
+[Michor 1984a](#MR764972), [1984b](#MR767683) gives a description of a [[category]] of "smooth manifolds" due to himself and [[Andreas Kriegl|Kriegl]] which is [[cartesian closed]]. The key to achieving this is to replace charts and atlases by notions based on smooth curves. The resulting objects have a considerable amount of structure built in, but nonetheless replicate ordinary [[smooth manifolds]] in the finite dimensional situation. This is also true in the [[Banach space]] situation; which is not stated in the paper, but follows readily from the finite dimensional situation.
 
 
 +-- {: .num_section #sectionb }
@@ -130,6 +131,6 @@ For [[Chen spaces]] and [[diffeological spaces]], the story is similar. Each cat
 
 * {: #MR767683 } [[Peter Michor]], (1984). *A convenient setting for differential geometry and global analysis. II*. _Cahiers Topologie G&#233;om. Diff&#233;rentielle_, _25_, 113&#8211;178.
 
-* [[Andreas Kriegl]], [[Peter Michor]], [[The Convenient Setting of Global Analysis]], Mathematical Surveys and Monographs, 53 AMS (1997) [pdf](http://www.mat.univie.ac.at/~michor/apbookh-ams.pdf)
+* {#KrieglandMichor1997} [[Andreas Kriegl]], [[Peter Michor]], *[[The Convenient Setting of Global Analysis]]*: Mathematical Surveys and Monographs **53**, American Mathematical Society (1997) &lbrack;ISBN: 978-0-8218-0780-4, [ams:surv-53](https://bookstore.ams.org/surv-53), [pdf](https://www.mat.univie.ac.at/~michor/apbookh-ams.pdf)&rbrack;
 
 * {: #MR2805746 } [[Andrew Stacey]] (2011). Comparative smootheology. _Theory Appl. Categ._, _25_, No. 4, 64&#8211;117.
