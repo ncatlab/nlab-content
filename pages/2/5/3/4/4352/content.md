@@ -56,6 +56,8 @@ Colloq. Internat. CNRS, LXXI [International Colloquia of the CNRS] Centre Nation
 
 * F. Marty,  _Sur une g&#233;n&#233;ralization de la notion de groupe_ , IV Congr&#232;s des Math&#233;maticiens Scandinaves, Stockholm 1934.
 
+* P.-H. Zieschang, _Hypergroups_, ISBN 978-3-031-39488-1, XV+391 pages, Springer, Cham, 2023.
+
 category: algebra
 
 [[!redirects canonical hypergroup]]
