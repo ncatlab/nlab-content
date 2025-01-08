@@ -15,7 +15,10 @@ On hidden [[supersymmetry]] in [[fractional quantum Hall systems]] between [[eve
 
 * {#Hasebe08} [[Kazuki Hasebe]]: *Unification of Laughlin and Moore–Read states in SUSY quantum Hall effect*, Physics Letters A **372** 9 (2008) 1516-1520 \[<a href="https://doi.org/10.1016/j.physleta.2007.09.071">doi:10.1016/j.physleta.2007.09.071</a>\]
 
-* [[Kazuki Hasebe]]: *Supersymmetric Quantum Spin Model and Quantum Hall Effect*, Soryushiron Kenkyu Electronics **117** 6 (2010 ) F59- \[<a href="https://doi.org/10.24532/soken.117.6_F59">doi:10.24532/soken.117.6_F59</a>, [spire:1687527](https://inspirehep.net/literature/1687527)\]
+* [[Kazuki Hasebe]]: *Supersymmetric Quantum Hall Liquid with a Deformed Supersymmetry*, Phys. Atom. Nucl. **73** (2010) 345-351 \[<a href="https://arxiv.org/abs/0901.1724">arXiv:0901.1724</a>, <a href="https://doi.org/10.1134/S1063778810020225">doi:10.1134/S1063778810020225</a>\]
+
+
+* [[Kazuki Hasebe]]: *Supersymmetric Quantum Spin Model and Quantum Hall Effect*, Soryushiron Kenkyu Electronics **117** 6 (2010) F59- \[<a href="https://doi.org/10.24532/soken.117.6_F59">doi:10.24532/soken.117.6_F59</a>, [spire:1687527](https://inspirehep.net/literature/1687527)\]
 
 
 * {#GromovMartinecRyu20} [[Andrey Gromov]], [[Emil J. Martinec]], [[Shinsei Ryu]]: *Collective excitations at filling factor $5/2$: The view from superspace*, Phys. Rev. Lett. **125** (2020) 077601 \[<a href="https://doi.org/10.1103/PhysRevLett.125.077601">doi:10.1103/PhysRevLett.125.077601</a>, [arXiv:1909.06384](https://arxiv.org/abs/1909.06384)\]
