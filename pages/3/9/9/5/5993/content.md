@@ -228,7 +228,7 @@ $$
       ( z_i - z_j )^q
       \,
       \exp\big(
-        -q\, ( z_i - z_j )^{-1} \theta_i \theta_j
+        -q\, ( z_i - z_j )^{-1} \, \theta_i \theta_j
       \big)
       \,
     \Big)
@@ -246,7 +246,7 @@ $$
     \Big(
       \textstyle{\underset{i \lt j}{\prod}}
       \exp\big(
-        -q\, ( z_i - z_j )^{-1} \theta_i \theta_j
+        -q\, ( z_i - z_j )^{-1} \, \theta_i \theta_j
       \big)
     \Big)
     \\
@@ -264,22 +264,42 @@ $$
     \Big(
       \textstyle{\underset{i \lt j}{\prod}}
       \exp\big(
-        -q \, ( z_i - z_j )^{-1} \theta_i \theta_j
+        -q \, ( z_i - z_j )^{-1} \, \theta_i \theta_j
       \big)
     \Big)
     \\
     \;=\;
-    (-q)^{N/2}
-    \big(
-      vd\big(z_\bullet\big)
-    \big)^q
-    \,
-    pf\Big(
-      (z_{\bullet_1} - z_{\bullet_2})^{-1}
+    \Big(
+      \textstyle{\underset{i \lt j}{\prod}}
+      ( z_i - z_j )^q
     \Big)
+    \,
+    \textstyle{\int} 
+    \left(
+      \textstyle{\prod_i} \mathrm{d}\theta_i
+    \right)
+    \,
+    \exp\big(
+      -q \, 
+      \textstyle{\sum_{i \lt j}}
+      ( z_i - z_j )^{-1} \, \theta_i \theta_j
+    \big)
+    \\
+    \;\propto\;
+    \left(-\tfrac{q}{2}\right)^{N/2}
+    \,
+    vd\big(z_\bullet\big)^q
+    \,
+    pf\left(
+      \tfrac
+        { 1 }
+        { z_{\bullet_1} - z_{\bullet_2} }
+    \right)
     \,.
   \end{array}
 $$
+
+> (check prefactor...)
 
 This observation is due to [Hasebe 2008](Laughlin+wavefunction#Hasebe08), cf. [Gromov, Martinec & Ryu 2020 (13)](Laughlin+wavefunction#GromovMartinecRyu20).
 
