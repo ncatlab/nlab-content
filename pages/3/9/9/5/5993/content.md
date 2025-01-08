@@ -92,6 +92,7 @@ Proofs are spelled out for instance by [Haber 2015, Sections 2 and 3](#Haber15).
 
 
 ### In terms of Berezinian integrals
+ {#InTermOfBerezinianIntegrals}
 
 
 \begin{proposition}
@@ -150,9 +151,12 @@ $$
 ### Pfaffian state of fractional quantum Hall systems
  {#PfaffianStateOfFractionalQuantumHallEffect}
 
-Pfaffians appear in the expression of certain multiparticle [[wave functions]] generalizing [[Laughlin wavefunctions]] modeling the [[fractional quantum Hall effect]]. Most notable is the pfaffian state of an [[even number]] $N$ of spinless (or rather: spin-polarized) [[electrons]] &lbrack;[Moore & Read 1991](Laughlin+wavefunction#MooreRead91)&rbrack;:
+Pfaffians appear in the expression of certain multiparticle [[wave functions]] generalizing [[Laughlin wavefunctions]] modeling [[ground states]] of [[fractional quantum Hall systems]]. 
 
-$$
+Prominent here is the *pfaffian state* &lbrack;[Moore & Read 1991](Laughlin+wavefunction#MooreRead91)&rbrack; of an [[even number]] $N$ of spinless (or rather: spin-polarized) [[electrons]], which is the ("[[wavefunction|wave]]"-)[[function]] on the [[configuration space of points|configuration space of $N$ points]] in the ([[complex plane|complex]]) [[plane]] 
+
+\[
+  \label{MooreReadPfaffianState}
   \Psi_{Pf}(z_1,\ldots,z_{N}) 
   \;=\; 
    \big( 
@@ -168,22 +172,30 @@ $$
      \textstyle{\sum} {|z|}^2
   \Big)
   \mathrlap{\,,}
-$$
+\]
 where 
 
 * $vd(z_\bullet) \;:=\; \prod_{i \lt j} (z_i - z_j)$ is a *[[Vandermonde determinant]]*
 
-* $pf\left( \frac{1}{z_{\bullet_1} - z_{\bullet_2}} \right)$ is a Pfaffian as above
+* $pf\left( \frac{1}{z_{\bullet_1} - z_{\bullet_2}} \right)$ is the Pfaffian of the inverse [[complex number|complex]] [[distances]] between the (electron) positions,
 
-* $q = 1/\nu$ is the "filling fraction", which is an [[even number|even]] [[integer]]. 
+* $q = 1/\nu \,\in\, \mathbb{N}$ is the "filling fraction", an [[even number|even]] [[integer]]. 
 
-Historically, this was guessed as a deformation of the [[Laughlin wavefunction]], which is the same expression without the Pfaffian factor. But with the above Berezinian integration method both expressions actually unify in the *super-Laughlin wavefunction*:
+Historically, (eq:MooreReadPfaffianState) was guessed as a deformation of the [[Laughlin wavefunction]], which is the same expression without the Pfaffian factor. But with the [above](#InTermOfBerezinianIntegrals) Berezinian integration method both expressions actually unify in the *super-Laughlin wavefunction*:
 
-$$
+\[
+  \label{SuperLaughlinWavefunction}
+  \Psi_{super}\big(
+    (z_1, \theta_1), 
+    \cdots
+    (z_N, \theta_N)
+  \big)
+  \;\coloneqq\;
   \textstyle{\prod_{i \lt j}}
   \,
   \big(
-    z_i - z_j + \theta_i \theta_j
+    z_i - z_j 
+    - \theta_i \theta_j
   \big)^q
   \,
    exp\Big(
@@ -191,9 +203,9 @@ $$
      \textstyle{\sum} {|z|}^2
   \Big)
   \,,
-$$
+\]
 
-of which the ordinary Laughlin wavefunction is the lowest component (all $\theta_i = 0$) while the Pfaffian state is the top component -- since, by Prop. \ref{PfaffianAsBerezinianIntegral}:
+of which the ordinary Laughlin wavefunction is the lowest component (the [[coefficient]] of $\theta_i = 0$ for all $i$), while the Pfaffian state is the top component (the [[coefficient]] of $\theta_1 \cdot \theta_2 \cdots \theta_N$) -- since, by Prop. \ref{PfaffianAsBerezinianIntegral}:
 
 $$
   \begin{array}{l}
@@ -216,7 +228,7 @@ $$
       ( z_i - z_j )^q
       \,
       \exp\big(
-        q( z_i - z_j )^{-1} \theta_i \theta_j
+        -q\, ( z_i - z_j )^{-1} \theta_i \theta_j
       \big)
       \,
     \Big)
@@ -234,7 +246,7 @@ $$
     \Big(
       \textstyle{\underset{i \lt j}{\prod}}
       \exp\big(
-        q( z_i - z_j )^{-1} \theta_i \theta_j
+        -q\, ( z_i - z_j )^{-1} \theta_i \theta_j
       \big)
     \Big)
     \\
@@ -252,12 +264,12 @@ $$
     \Big(
       \textstyle{\underset{i \lt j}{\prod}}
       \exp\big(
-        q( z_i - z_j )^{-1} \theta_i \theta_j
+        -q \, ( z_i - z_j )^{-1} \theta_i \theta_j
       \big)
     \Big)
     \\
     \;=\;
-    q^{N/2}
+    (-q)^{N/2}
     \big(
       vd\big(z_\bullet\big)
     \big)^q
@@ -270,6 +282,25 @@ $$
 $$
 
 This observation is due to [Hasebe 2008](Laughlin+wavefunction#Hasebe08), cf. [Gromov, Martinec & Ryu 2020 (13)](Laughlin+wavefunction#GromovMartinecRyu20).
+
+
+\begin{remark}
+The argument of the super-Laughlin wavefunction (eq:SuperLaughlinWavefunction) is indeed the difference of "super-positions" as seen in the [[super-translation group]], where (cf. [there](super-translation+group#eq:GroupLawIn1D))
+
+$$
+  (z_i, \theta_i)
+  -
+  (z_j, \theta_j)
+  \;=\;
+  \big(
+    z_i - z_j - \theta_i \theta_i
+    ,\,
+    \theta_i - \theta_j
+  \big)
+  \,.
+$$
+\end{remark}  
+
 
 
 
