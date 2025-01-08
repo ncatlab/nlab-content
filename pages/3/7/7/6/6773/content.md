@@ -20,11 +20,12 @@
 
 ## Definition
 
-The __Vandermonde determinant__ or Vandermonde polynomial $\Delta(x_1,\ldots,x_n)$ is the [[determinant]] of the *[[Vandermonde matrix]]*:
+The __Vandermonde determinant__ or *Vandermonde polynomial* $\Delta(x_1,\ldots,x_n)$ is the [[determinant]] of the *[[Vandermonde matrix]]*:
 
-$$
+\[
+  \label{VandermondeMatrix}
   V(x_1,\ldots,x_n) 
-  \;=\; 
+  \;\coloneqq\; 
   \left( 
      \array{
         1 & x_1 & \cdots & x_1^{n-1}
@@ -37,26 +38,58 @@ $$
     }
   \right) 
   \mathrlap{\,.}
-$$
+\]
 
 \begin{proposition}
-
-$\Delta(x_1,\ldots,x_n)= \prod_{1\leq i\lt j\leq n} (x_j - x_i)$. 
-
+$$
+  \Delta(x_1,\ldots,x_n) 
+  \;=\; 
+  \prod_{1\leq i\lt j\leq n} (x_j - x_i)
+  \,.
+$$
 \end{proposition}
 
 \begin{proof}
-
-We argue by [[induction]]. WLOG, assume $x_1, \ldots, x_{n-1}$ are distinct (else the value is zero as claimed), and treat these as constants. Write 
+We argue by [[induction]]. Without loss of generality, assume $x_1, \ldots, x_{n-1}$ are distinct (else the value is zero as claimed), and treat these as constants. Write 
 
 $$\det \left( \array{1 & x_1 & \cdots & x_1^{n-1}\\ 1 & x_2 &\cdots & x_2^{n-1}\\ \cdot &\cdot &\cdot &\cdots\\ 1 & x &\cdots &x^{n-1}}\right) = f(x) = \sum_{i=1}^{n-1} a_i x^i.$$ 
 
 Then the leading coefficient $a_{n-1}$ is $\prod_{1\leq i\lt j\leq n-1} (x_j - x_i)$ by inductive hypothesis, and $f(x)$ has simple roots at $x = x_1, \ldots, x_{n-1}$ since each of those values makes two rows equal (hence with zero determinant). It follows that 
 
-$$f(x) = a_{n-1}\prod_{i=1}^{n-1} (x - x_i) = (\prod_{1\leq i\lt j\leq n-1} (x_j - x_i))\prod_{i=1}^{n-1} (x - x_i)$$ 
+$$
+  \begin{array}{ccl}
+  f(x) 
+  &=&
+  a_{n-1}
+  \,
+  \textstyle{\prod_{i=1}^{n-1}} 
+  (x - x_i) 
+  \\
+  &=&
+  \left(
+    \textstyle{\prod_{1\leq i\lt j\leq n-1}} 
+    (x_j - x_i)
+  \right)
+    \textstyle{\prod_{i=1}^{n-1}} 
+    (x - x_i)
+  \,.
+  \end{array}
+$$ 
 
 and the inductive step follows by setting $x = x_n$. 
 \end{proof}
+
+## Properties
+
+\begin{remark}
+  \label{SkewSymemtryUnderSwappingVariables}
+  If follows for instance that 
+  the product $\prod_{1\leq i\lt j\leq n} (x_j - x_i)$
+  changes sign when any [[pair]] $(x_r, x_s)$ of the [[variables]] are interchanged, because this corresponds to swapping the corresponding rows of the Vandermonde matrix (eq:VandermondeMatrix), and because the [[determinant]] is [[alternating multilinear map|alternating multilinear]].
+
+This property is important, for instance, when understanding the Vandermonde determinant as a factor in the [[Laughlin wavefunction]] [[ground states]] of [[fractional quantum Hall systems]], where it reflects the skew-symmetry required of [[quantum many-body physics|many-]][[fermion]] (spin-polarized [[electron]]) wavefunctions.
+\end{remark}
+
 
 
 ## Applications
