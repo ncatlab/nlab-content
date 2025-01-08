@@ -3,9 +3,9 @@
 
 The category of [[Beck modules]] over a [[C^∞-ring]] $A$ is equivalent to the category of ordinary [[modules]] over the underlying real [[algebra]] of $A$.
 
-This is established using the proof given at [[Beck module]] for ordinary rings, using the fact that [[ideals]] of [[C^∞-rings]] coincide with ideals in the ordinary sense and the [[square zero extension]] construction used there can be promoted to a [[C^∞-ring]] using [[Taylor expansions]].
+This is established using the proof given at [[Beck module]] for ordinary rings, using the fact ([Dubuc–Kock](#DK), Proposition 1.2) that [[ideals]] of [[C^∞-rings]] coincide with ideals in the ordinary sense and the [[square zero extension]] construction used there can be promoted to a [[C^∞-ring]] using [[Taylor expansions]] as explained in [Dubuc–Kock](#DK), the paragraph before Proposition 2.1.
 
-Furthermore, the resulting notion of a [[Beck derivation]] coincides with that of a [[C^∞-derivation]].
+Furthermore, by [Dubuc–Kock](#DK) [Proposition 2.2] the resulting notion of a [[Beck derivation]] coincides with that of a [[C^∞-derivation]] and by [Dubuc–Kock](#DK) [Theorem 2.3], the resulting module of [[Beck derivations]] can be computed as $I/I^2$, where $I$ is the kernel of the [[codiagonal]] $A\otimes A\to A$.
 
 ## Kainz–Kriegl–Michor modules
 
@@ -39,6 +39,8 @@ Topological vector spaces in the above definition can be replaced by any notion 
 * [[Beck module]], [[Beck derivation]]
 
 ## References
+
+* {#DK} [[E. J. Dubuc]], [[A. Kock]], _On 1-form classifiers_, Communications in Algebra, 12:12, 1471-1531.  [doi:10.1080/00927878408823064](https://doi.org/10.1080/00927878408823064).
 
 * G. Kainz, A. Kriegl, P. Michor, _$C^\infty$-algebras from the functional analytic view point_, Journal of Pure and Applied Algebra 46:1 (1987), 89-107.  [doi][KKM]
 
