@@ -31,7 +31,7 @@ review in [Shah 10](#Shah10), [Blumberg 17, Cor. 1.2.14](#Blumberg17).
 
 An analogous statement holds in [[stable equivariant homotopy theory]]:
 
-For maps $F \colon E \longrightarrow F$ between genuine [[G-spectra]], they are weak equivalences (isomorphisms in the [[equivariant stable homotopy category]]) if they induce isomorphisms on all [[equivariant homotopy group]] [[Mackey functors]] $\pi_n(f)\colon \pi_n(E) \longrightarrow \pi_n(F) $ (e. g. [Greenlees-May 95, theorem 2.4](#GreenleesMay95), [Bohmann, theorem 3.2](#Bohmann)).
+A map $f \colon E \longrightarrow F$ between genuine [[G-spectra]] is a weak equivalence (isomorphism in the [[equivariant stable homotopy category]]) if it induces isomorphisms on all [[equivariant homotopy group]] [[Mackey functors]] $\pi_n(f)\colon \pi_n(E) \longrightarrow \pi_n(F) $ (e. g. [Greenlees-May 95, theorem 2.4](#GreenleesMay95), [Bohmann, theorem 3.2](#Bohmann)).
 
 ## Related concepts
 
