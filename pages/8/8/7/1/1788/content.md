@@ -1,6 +1,29 @@
 
+$$
+  \big(
+    1 + \theta_1 \theta_2
+  \big)
+  \big(
+    1 + \theta_3 \theta_4
+  \big)  
+  \;=\;
+  \Big(
+    1 + 
+    (\theta_1 \theta_2 + \theta_3 \theta_4)
+    +
+    \tfrac{1}{2}
+    (\theta_1 \theta_2 + \theta_3 \theta_4)^2
+  \Big)
+$$
 
-
+$$
+  \big(
+  (z_{i_1} - z_{i_2}) 
+    \cdots 
+  (z_{i_{N-1}} - z_{N})   
+  \big)
+  \theta^{i_1} \cdots \theta^{i_N}
+$$
 
 
 ## Loop space of the 2-sphere
