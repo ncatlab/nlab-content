@@ -19,7 +19,7 @@
 
 In [[solid state physics|solid stae]] [[quantum physics]], a  *Laughlin wavefunction* is a certain Ansatz for an [[quantum many-body physics|n-particle]] [[wavefunction]] which is meant to capture at least aspects of [[ground states]] with [[anyon|anyonic]] properties, such as of [[fractional quantum Hall systems]].
 
-The issue is that the strongly-coupled electron dynamics, that is thought to be responsible for the [[fractional quantum Hall effect]], cannot be solved -- not even approximately --- by existing theory (cf. the problem of [[non-perturbative quantum field theory]]). To make up for this, the Laughlin wavefunction is an *educated guess* as to what the [[ground states]] of these systems should approximately look like to some approximation --- a guess that turns to be confirmed to great accuracy by [[experiment]].
+The issue is that the strongly-coupled electron dynamics, that is thought to be responsible for the [[fractional quantum Hall effect]], cannot be solved -- not even approximately --- by existing theory (cf. the problem of [[non-perturbative quantum field theory]]). To make up for this, the Laughlin wavefunction is an *educated guess* -- jargon: *trial wavefunction* -- as to what the [[ground states]] of these systems should approximately look like to some approximation --- a guess that turns to be confirmed to great accuracy by [[experiment]].
 
 ### Basic Laughlin wavefunction on the plane
  {#BasicLaughlinWavefunctionOnThePlane}
@@ -27,7 +27,7 @@ The issue is that the strongly-coupled electron dynamics, that is thought to be 
 The basic Laughlin wavefunction, for $N$ spin-less (in practice really: *spin-polarized* by a strong [[magnetic field]]) [[fermions]] on the [[plane]], at odd "filling fraction" 
 
 $$
-  q \,\in\, 2\mathbb{N} + 1
+  q  \,\in\, 2\mathbb{N} + 1
 $$
 
 is the [[complex numbers|complex]]-valued [[function]] on the [[configuration space of points|configuration space of $N$ ordered points]] in the [[plane]] --- to be thought of as the [[complex plane]] with canonical [[holomorphic function|holomorphic]] [[coordinate function]] $z$ ---, given (up to [[normalization]], which we disregard throughout) by
@@ -37,12 +37,12 @@ is the [[complex numbers|complex]]-valued [[function]] on the [[configuration sp
   \Psi_{La}\big(
     z_1, \cdots, z_N
   \big)
-  \;\coloneq\;
-  \underset{i \lt j}{\prod}
+  \;\coloneqq\;
+  \textstyle{\prod_{i \lt j}}
   (z_i - z_j)^q
-  \,
+  \;
   \exp\big(
-    - \sum_i {\vert z_i\vert}^2
+    - \textstyle{\sum_i} {\vert z_i\vert}^2
   \big)
   \,.
 \]
@@ -56,10 +56,10 @@ Moreover, since the first factor is actually an odd power (the $q$th power) of t
 $$
   vd(z_\bullet) 
   \;\coloneqq\; 
-  \underset{i \lt j}{\prod} (z_i - z_j)^q
+  \textstyle{\underset{i \lt j}{\prod}} (z_i - z_j)^q
 $$
 
-it is skew-symmetric under [[permutation]] of the particle positions, as it must be for a [[quantum many body system|many-]][[fermion]] [[wavefunction]], by the [[Pauli exclusion principle]].
+it is skew-symmetric under [[permutation]] of the particle positions, as it must be for a [[quantum many body physics|many-]][[fermion]] [[wavefunction]], by the [[Pauli exclusion principle]].
 
 Due to these basic properties, the Laughlin wavefunction is a plausible Ansatz for any localized [[bound state]] of [[fermions]]. But on top of this, the power of $m$ to which the [[Vandermonde determinant]] is taken makes these particles carry "fractional charge", namely $1/m$ times the unit charge. (...)
 
@@ -68,7 +68,8 @@ Due to these basic properties, the Laughlin wavefunction is a plausible Ansatz f
 At [[even number|even]] filling fraction 
 
 $$
-  1/\nu \,\in\, 2 \mathbb{N}
+  q  \,\in\, 2 \mathbb{N}
+  \,,
 $$ 
 
 the Laughlin Ansatz needs modification, since here the even power of the [[Vandermonde determinant]] would be symmetric under particle exchange and hence not describe the intended [[Fermions]].
@@ -88,11 +89,11 @@ A further educated guess suggests to multiply, at even filling fraction, the Lau
       { 1 }
       { z_{\bullet_1} - z_{\bullet_2} }
   \right)
-  \underset{i \lt j}{\prod}
+  \textstyle{\prod_{i \lt j}}
   (z_i - z_j)^q
   \,
   \exp\big(
-    - \sum_i {\vert z_i\vert}^2
+    - \textstyle{\sum_i} {\vert z_i\vert}^2
   \big)
   \,.
 \]
