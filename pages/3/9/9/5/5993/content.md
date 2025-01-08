@@ -175,11 +175,11 @@ Prominent here is the *pfaffian state* &lbrack;[Moore & Read 1991](Laughlin+wave
 \]
 where 
 
-* $vd(z_\bullet) \;:=\; \prod_{i \lt j} (z_i - z_j)$ is a *[[Vandermonde determinant]]*
+* $vd(z_\bullet) \;\coloneqq\; \prod_{i \lt j} (z_i - z_j)$ is a *[[Vandermonde determinant]]*
 
 * $pf\left( \frac{1}{z_{\bullet_1} - z_{\bullet_2}} \right)$ is the Pfaffian of the inverse [[complex number|complex]] [[distances]] between the (electron) positions,
 
-* $q = 1/\nu \,\in\, \mathbb{N}$ is the "filling fraction", an [[even number|even]] [[integer]]. 
+* $q = 1/\nu \,\in\, \mathbb{N}$ is the "filling fraction". 
 
 Historically, (eq:MooreReadPfaffianState) was guessed as a deformation of the [[Laughlin wavefunction]], which is the same expression without the Pfaffian factor. But with the [above](#InTermOfBerezinianIntegrals) Berezinian integration method both expressions actually unify in the *super-Laughlin wavefunction*:
 
@@ -285,7 +285,7 @@ $$
       ( z_i - z_j )^{-1} \, \theta_i \theta_j
     \big)
     \\
-    \;\propto\;
+    \;=\;
     \left(-\tfrac{q}{2}\right)^{N/2}
     \,
     vd\big(z_\bullet\big)^q
@@ -299,13 +299,11 @@ $$
   \end{array}
 $$
 
-> (check prefactor...)
-
 This observation is due to [Hasebe 2008](Laughlin+wavefunction#Hasebe08), cf. [Gromov, Martinec & Ryu 2020 (13)](Laughlin+wavefunction#GromovMartinecRyu20).
 
 
 \begin{remark}
-The argument of the super-Laughlin wavefunction (eq:SuperLaughlinWavefunction) is indeed the difference of "super-positions" as seen in the [[super-translation group]], where (cf. [there](super-translation+group#eq:GroupLawIn1D))
+The argument of the super-Laughlin wavefunction (eq:SuperLaughlinWavefunction) is indeed the difference of "super-positions" as seen in the [[super-translation group]], where (cf. [there](super-translation+group#eq:GroupLawIn1D)):
 
 $$
   (z_i, \theta_i)
@@ -321,6 +319,20 @@ $$
 $$
 \end{remark}  
 
+\begin{remark}
+  The Pfaffian $pf\Big( (z_{\bullet_1} - z_{\bullet_2})^{-1} \Big)$ changes sign when swapping any pair of [[variables]] $z_r \leftrightarrow z_s$ (which is manifest in the Berezinian presentation, where it corresponds to instead swapping $\theta_r \leftrightarrow \theta_s$). 
+
+But also the Vandermonde determinant changes sign when swapping pairs of variables (see [there](Vandermonde+determinant#SkewSymemtryUnderSwappingVariables)). This means that 
+
+1. for odd filling fraction $q$:
+
+   1. the ordinary [[Laughlin state]] is *skew-symmetric* in its arguments --- as befits the [[wavefunction]] of [[quantum many-body physics|multiple]] [[fermions]],
+
+   1. the Pfaffian Moore-Read state is *symmetric* in its arguments --- as befits the [[wavefunction]] of [[quantum many-body physics|multiple]] [[bosons]].
+
+1. for even filling fraction $q$ it is the other way around.
+  
+\end{remark}
 
 
 
