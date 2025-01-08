@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -27,6 +26,7 @@ In [[quantum physics]] a  *Laughlin wavefunction* is a certain Ansatz for an [[q
 
 * [[conformal block]]
 
+
 ## References
 
 ### General
@@ -36,12 +36,14 @@ The original article:
 * [[Robert B. Laughlin]], *Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations*, Phys. Rev. Lett. **50** (1983) 1395 &lbrack;[doi:10.1103/PhysRevLett.50.1395](https://doi.org/10.1103/PhysRevLett.50.1395)&rbrack;
 
 
-
 Review:
 
 * [[Steven M. Girvin]], Section 2.1 of: *Introduction to the Fractional Quantum Hall Effect*, S&eacute;minaire Poincar&eacute; **2** (2004) 53–74, reprinted in *The Quantum Hall Effect*, Progress in Mathematical Physics **45**, Birkhäuser (2005)  &lbrack;[pdf](http://www.bourbaphy.fr/girvin.pdf), [doi:10.1007/3-7643-7393-8_4](https://doi.org/10.1007/3-7643-7393-8_4)&rbrack;
 
 * [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], Section III.D.2.c (pp. 1125) of: *Non-Abelian Anyons and Topological Quantum Computation*, Rev. Mod. Phys. **80** 1083 (2008) &lbrack;[arXiv:0707.1888] (http://arxiv.org/abs/0707.1889)&rbrack;
+
+* {#Cooper10} Nigel Cooper: *The Moore-Read Quantum Hall State: An Overview*, talk at *[Quantum Phenomena in
+Low-Dimensional Materials and Nanostructures](https://www.lancaster.ac.uk/users/esqn/windsor10/)*, Windsor (2010) &lbrack;[pdf](https://www.lancaster.ac.uk/users/esqn/windsor10/lectures/cooper.pdf), [[Cooper-MooreReadState.pdf:file]]&rbrack;
 
 * {#Tong16} [[David Tong]], Section 3.1 of: *The Quantum Hall Effect* (2016) &lbrack;[course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
 
