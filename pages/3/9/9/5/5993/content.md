@@ -1,6 +1,11 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
 #### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
@@ -320,7 +325,7 @@ $$
 \end{remark}  
 
 \begin{remark}
-  The Pfaffian $pf\Big( (z_{\bullet_1} - z_{\bullet_2})^{-1} \Big)$ changes sign when swapping any pair of [[variables]] $z_r \leftrightarrow z_s$ (which is manifest in the Berezinian presentation, where it corresponds to instead swapping $\theta_r \leftrightarrow \theta_s$). 
+  The Pfaffian $pf\Big( (z_{\bullet_1} - z_{\bullet_2})^{-1} \Big)$ changes sign when swapping any pair of [[variables]] $z_r \leftrightarrow z_s$ (which is manifest in the Berezinian presentation, where it corresponds equivalently to instead swapping $\theta_r \leftrightarrow \theta_s$). 
 
 But also the Vandermonde determinant changes sign when swapping pairs of variables (see [there](Vandermonde+determinant#SkewSymemtryUnderSwappingVariables)). This means that 
 
