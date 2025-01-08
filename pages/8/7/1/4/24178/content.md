@@ -15,10 +15,261 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-In [[quantum physics]] a  *Laughlin wavefunction* is a certain Ansatz for an [[quantum many-body physics|n-particle]] [[wavefunction]] which is meant to capture at least aspects of [[ground states]] with [[anyon|anyonic]] properties, such as for the levels in the [[quantum Hall effect]].
+In [[solid state physics|solid stae]] [[quantum physics]], a  *Laughlin wavefunction* is a certain Ansatz for an [[quantum many-body physics|n-particle]] [[wavefunction]] which is meant to capture at least aspects of [[ground states]] with [[anyon|anyonic]] properties, such as of [[fractional quantum Hall systems]].
+
+The issue is that the strongly-coupled electron dynamics, that is thought to be responsible for the [[fractional quantum Hall effect]], cannot be solved -- not even approximately --- by existing theory (cf. the problem of [[non-perturbative quantum field theory]]). To make up for this, the Laughlin wavefunction is an *educated guess* as to what the [[ground states]] of these systems should approximately look like to some approximation --- a guess that turns to be confirmed to great accuracy by [[experiment]].
+
+### Basic Laughlin wavefunction on the plane
+ {#BasicLaughlinWavefunctionOnThePlane}
+
+The basic Laughlin wavefunction, for $N$ spin-less (in practice really: *spin-polarized* by a strong [[magnetic field]]) [[fermions]] on the [[plane]], at odd "filling fraction" 
+
+$$
+  q \,\in\, 2\mathbb{N} + 1
+$$
+
+is the [[complex numbers|complex]]-valued [[function]] on the [[configuration space of points|configuration space of $N$ ordered points]] in the [[plane]] --- to be thought of as the [[complex plane]] with canonical [[holomorphic function|holomorphic]] [[coordinate function]] $z$ ---, given (up to [[normalization]], which we disregard throughout) by
+
+\[
+  \label{BasicLaughlinState}
+  \Psi_{La}\big(
+    z_1, \cdots, z_N
+  \big)
+  \;\coloneq\;
+  \underset{i \lt j}{\prod}
+  (z_i - z_j)^q
+  \,
+  \exp\big(
+    - \sum_i {\vert z_i\vert}^2
+  \big)
+  \,.
+\]
+
+Here the [[absolute value]] of -- and hence the [[probability density]] encoded by -- the second factor drops quickly where the particles are far away from the origin, while that of the first factor tends to zero wherever any pair of particles approaches each other. Hence the particles in this [[quantum state]] are most likely to be found all close to the origin but still spread out not to be too close to each other: The image is that of a little *droplet*, and one speaks also of *quantum fluid droplets* in this context.
+
+> We are the suppressing [[physical units]] which determine the actual average [[radius]] of this droplet. Maybe to be filled in later...
+
+Moreover, since the first factor is actually an odd power (the $q$th power) of the [[Vandermonde determinant]] 
+
+$$
+  vd(z_\bullet) 
+  \;\coloneqq\; 
+  \underset{i \lt j}{\prod} (z_i - z_j)^q
+$$
+
+it is skew-symmetric under [[permutation]] of the particle positions, as it must be for a [[quantum many body system|many-]][[fermion]] [[wavefunction]], by the [[Pauli exclusion principle]].
+
+Due to these basic properties, the Laughlin wavefunction is a plausible Ansatz for any localized [[bound state]] of [[fermions]]. But on top of this, the power of $m$ to which the [[Vandermonde determinant]] is taken makes these particles carry "fractional charge", namely $1/m$ times the unit charge. (...)
+
+### Basic Moore-Read wavefunction on the plane
+
+At [[even number|even]] filling fraction 
+
+$$
+  1/\nu \,\in\, 2 \mathbb{N}
+$$ 
+
+the Laughlin Ansatz needs modification, since here the even power of the [[Vandermonde determinant]] would be symmetric under particle exchange and hence not describe the intended [[Fermions]].
+
+A further educated guess suggests to multiply, at even filling fraction, the Laughlin wavefunction by some other factor which *is* skew-symmetric in the particule positions. The *Moore-Read wavefunction* is the result of choosing this factor to be the *[[Pfaffian]]* $pf(-)$ of the [[matrix]] of inverse [[distances]] between pairs of particles -- whence often known as *the Pfaffian state*:
+
+
+\[
+  \label{BasicMooreReadState}
+  \Psi_{MR}\big(
+    z_1, \cdots, z_N
+  \big)
+  \;\coloneqq\;
+  pf
+  \left(
+    \tfrac
+      { 1 }
+      { z_{\bullet_1} - z_{\bullet_2} }
+  \right)
+  \underset{i \lt j}{\prod}
+  (z_i - z_j)^q
+  \,
+  \exp\big(
+    - \sum_i {\vert z_i\vert}^2
+  \big)
+  \,.
+\]
+
+That the [[Pfaffian]] of the (inverse) distance matrix is indeed skew-symmetric is readily seen in its [[Berezinian integral]]-formulation (see [there](Pfaffian#InTermOfBerezinianIntegrals)). That formulation also reveals a kind of [[supersymmetry]] between the Laughlin and the Moore-Read wavefunctions:
+
+### Supersymmetry between Laughlin- and Moore&Read-wavefunctions
+ {#SupersymmetryBetweenLaughlinAndMooreReadStates}
+
+Consider the [[supermanifold]] ("[[super Cartesian space|Cartesian]] [[superspace]]") version $\mathbb{C}^{1 \vert 1}$ of the [[complex plane]], with canonical holomorphic *super*-coordinates $(z,\theta)$. This carries the [[structure]] of a [[super Lie group]], namely of the complex [[super translation group]], whose group operation is (see [there](super-translation+group#eq:GroupLawIn1D)):
+
+$$
+  (z_i, \theta_i)
+  +
+  (z_j, \theta_j)
+  \;=\;
+  \big(
+    z_i + z_j + \theta_i \theta_i
+    ,\,
+    \theta_i + \theta_j
+  \big)
+  \,,
+  \;\;\;\;
+  -(z, \theta) = (-z, -\theta)
+  \,.
+$$
+
+
+Via this super-translation structure, the basic Laughlin state (eq:BasicLaughlinState) lifts to [[superspace]] as
+
+\[
+  \label{BasciSuperLaughlinWavefunction}
+  \Psi_{sLa}\big(
+    (z_1, \theta_1), 
+    \cdots
+    (z_N, \theta_N)
+  \big)
+  \;\coloneqq\;
+  \textstyle{\prod_{i \lt j}}
+  \,
+  \big(
+    z_i - z_j 
+    - \theta_i \theta_j
+  \big)^q
+  \,
+   exp\Big(
+     -\frac{1}{4}
+     \textstyle{\sum_i} {|z_i|}^2
+  \Big)
+  \,.
+\]
+
+This super-Laughlin wavefunction unifies the basic Laughlin state (eq:BasicLaughlinState) with the basic Moore&Read-state (eq:BasicMooreReadState) in the sense of [[superfields]]:
+
+* the ordinary Laughlin wavefunction (eq:BasicLaughlinState) is its lowest component (the [[coefficient]] of $\theta_i = 0$ for all $i$), 
+
+* the Moore&Read state (eq:BasicMooreReadState) is the top component (the [[coefficient]] of $\theta_1 \cdot \theta_2 \cdots \theta_N$) -- since, by [the Berezinian presentation of the Pfaffian](Pfaffian#PfaffianAsBerezinianIntegral), we have:
+
+$$
+  \begin{array}{l}
+    \textstyle{\int}
+    \left(
+      \textstyle{\prod_i} \mathrm{d}\theta_i
+    \right)
+    \,
+    \underset{i \lt j}{\prod}
+    ( z_i - z_j  - \theta_i \theta_j )^q
+    \\
+    \;=\;
+    \textstyle{\int} 
+    \left(
+      \textstyle{\prod_i} \mathrm{d}\theta_i
+    \right)
+    \,
+    \textstyle{\underset{i \lt j}{\prod}}
+    \Big(
+      ( z_i - z_j )^q
+      \,
+      \exp\big(
+        -q\, ( z_i - z_j )^{-1} \, \theta_i \theta_j
+      \big)
+      \,
+    \Big)
+    \\
+    \;=\;
+    \textstyle{\int} 
+    \left(
+      \textstyle{\prod_i} \mathrm{d}\theta_i
+    \right)
+    \,
+    \Big(
+      \textstyle{\underset{i \lt j}{\prod}}
+      ( z_i - z_j )^q
+    \Big)
+    \Big(
+      \textstyle{\underset{i \lt j}{\prod}}
+      \exp\big(
+        -q\, ( z_i - z_j )^{-1} \, \theta_i \theta_j
+      \big)
+    \Big)
+    \\
+    \;=\;
+    \Big(
+      \textstyle{\underset{i \lt j}{\prod}}
+      ( z_i - z_j )^q
+    \Big)
+    \,
+    \textstyle{\int} 
+    \left(
+      \textstyle{\prod_i} \mathrm{d}\theta_i
+    \right)
+    \,
+    \Big(
+      \textstyle{\underset{i \lt j}{\prod}}
+      \exp\big(
+        -q \, ( z_i - z_j )^{-1} \, \theta_i \theta_j
+      \big)
+    \Big)
+    \\
+    \;=\;
+    \Big(
+      \textstyle{\underset{i \lt j}{\prod}}
+      ( z_i - z_j )^q
+    \Big)
+    \,
+    \textstyle{\int} 
+    \left(
+      \textstyle{\prod_i} \mathrm{d}\theta_i
+    \right)
+    \,
+    \exp\big(
+      -q \, 
+      \textstyle{\sum_{i \lt j}}
+      ( z_i - z_j )^{-1} \, \theta_i \theta_j
+    \big)
+    \\
+    \;=\;
+    \left(-\tfrac{q}{2}\right)^{N/2}
+    \,
+    vd\big(z_\bullet\big)^q
+    \,
+    pf\left(
+      \tfrac
+        { 1 }
+        { z_{\bullet_1} - z_{\bullet_2} }
+    \right)
+    \,.
+  \end{array}
+$$
+
+This observation is due to [Hasebe 2008](#Hasebe08), cf. [Gromov, Martinec & Ryu 2020 (13)](#GromovMartinecRyu20).
+
+To re-amplify how the "statistics" matches across this transformation:
+
+\begin{remark}
+  The [[Pfaffian]] $pf\Big( (z_{\bullet_1} - z_{\bullet_2})^{-1} \Big)$ changes sign when swapping any pair of [[variables]] $z_r \leftrightarrow z_s$ (which is manifest in the [Berezinian presentation](Pfaffian#InTermOfBerezinianIntegrals), where it corresponds to equivalently to swapping $\theta_r \leftrightarrow \theta_s$). 
+
+But also the [[Vandermonde determinant]] changes sign when swapping pairs of variables (see [there](Vandermonde+determinant#SkewSymemtryUnderSwappingVariables)). 
+
+This means that:
+
+1. for odd filling fraction $q$:
+
+   1. the ordinary [[Laughlin state]] is *skew-symmetric* in its arguments --- as befits the [[wavefunction]] of [[quantum many-body physics|multiple]] [[fermions]],
+
+   1. the Pfaffian Moore-Read state is *symmetric* in its arguments --- as befits the [[wavefunction]] of [[quantum many-body physics|multiple]] [[bosons]].
+
+1. for even filling fraction $q$ it is the other way around.
+  
+\end{remark}
+
+\linebreak
 
 (...)
+
+\linebreak
+
 
 ## Related concepts
 
