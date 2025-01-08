@@ -73,7 +73,8 @@ Textbook accounts:
 
 in terms of [[Frölicher spaces]] and [[diffeological spaces]]:
 
-* {#KM} [[Andreas Kriegl]], [[Peter Michor]]: _[[The convenient setting of global analysis]]_, AMS (1997) 
+* {#KM} [[Andreas Kriegl]], [[Peter Michor]]: *[[The Convenient Setting of Global Analysis]]*: Mathematical Surveys and Monographs **53**, American Mathematical Society (1997) &lbrack;ISBN: 978-0-8218-0780-4, [ams:surv-53](https://bookstore.ams.org/surv-53), [pdf](https://www.mat.univie.ac.at/~michor/apbookh-ams.pdf)&rbrack;
+
  
 Aspects of the [[homotopy theory]] of infinite-dimensional manifolds:
 
