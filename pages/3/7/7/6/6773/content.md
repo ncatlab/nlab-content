@@ -79,6 +79,7 @@ $$
 and the inductive step follows by setting $x = x_n$. 
 \end{proof}
 
+
 ## Properties
 
 \begin{remark}
@@ -87,7 +88,7 @@ and the inductive step follows by setting $x = x_n$.
   the product $\prod_{1\leq i\lt j\leq n} (x_j - x_i)$
   changes sign when any [[pair]] $(x_r, x_s)$ of the [[variables]] are interchanged, because this corresponds to swapping the corresponding rows of the Vandermonde matrix (eq:VandermondeMatrix), and because the [[determinant]] is [[alternating multilinear map|alternating multilinear]].
 
-This property is important, for instance, when understanding the Vandermonde determinant as a factor in the [[Laughlin wavefunction]] [[ground states]] of [[fractional quantum Hall systems]], where it reflects the skew-symmetry required of [[quantum many-body physics|many-]][[fermion]] (spin-polarized [[electron]]) wavefunctions.
+This property is important, for instance, when understanding the Vandermonde determinant as a factor in the [[Laughlin wavefunction]] [[ground states]] of [[fractional quantum Hall systems]] at odd filling-fraction, where it reflects the skew-symmetry required of [[quantum many-body physics|many-]][[fermion]] (spin-polarized [[electron]]) wavefunctions.
 \end{remark}
 
 
