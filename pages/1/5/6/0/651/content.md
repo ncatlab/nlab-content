@@ -88,14 +88,15 @@ To its eternal shame, the category of Fr&#246;licher spaces is __not__ [[locally
 
 The notion goes back to [[Alfred Frölicher]].
 
-A detailed discussion of the category of Fr&#246;licher spaces and their relation to other notions of [[generalized smooth space]]s is given in
+* {#KrieglandMichor1997} [[Andreas Kriegl]], [[Peter Michor]], *[[The Convenient Setting of Global Analysis]]*: Mathematical Surveys and Monographs **53**, American Mathematical Society (1997) &lbrack;ISBN: 978-0-8218-0780-4, [ams:surv-53](https://bookstore.ams.org/surv-53), [pdf](https://www.mat.univie.ac.at/~michor/apbookh-ams.pdf)&rbrack;
 
-* [[Andrew Stacey]], _Comparative Smootheology_ Theory and Applications of Categories,  Vol. 25, 2011, No. 4, pp 64-117. ([tac](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html))
-{#Stacey}
 
-This also lists all the relevant further references. 
+Survey and further references:
 
-A discussion of [[Lie algebra]]s on Fr&#246;licher [[group]]s ([[group object]]s [[internalization|internal to]] the category of Fr&#246;licher spaces) is in
+* {#Stacey} [[Andrew Stacey]], _Comparative Smootheology_ Theory and Applications of Categories,  Vol. 25, 2011, No. 4, pp 64-117. ([tac](http://www.tac.mta.ca/tac/volumes/25/4/25-04abs.html))
+
+
+A discussion of [[Lie algebra]]s on Fr&#246;licher [[group]]s ([[group objects]] [[internalization|internal to]] the category of Fr&#246;licher spaces) is in
 
 * Martin Laubinger, _A Lie algebra for Fr&#246;licher groups_ ([arXiv](http://arxiv.org/abs/0906.4486))
 
