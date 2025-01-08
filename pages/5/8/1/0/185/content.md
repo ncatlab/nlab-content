@@ -811,7 +811,7 @@ The concept of $C^\infty$-rings in particular and that of [[synthetic differenti
 
 but examples of the concept are older. A discussion from the point of view of [[functional analysis]] is in 
 
-* G. Kainz, A. Kriegl, [[Peter Michor]], _$C^\infty$-algebras from the functional analytic view point_ Journal of pure and applied algebra 46 (1987) ([pdf](http://www.mat.univie.ac.at/~michor/c-oo-alg.pdf))
+* G. Kainz, [[Andreas Kriegl]], [[Peter Michor]]: *$C^\infty$-algebras from the functional analytic view point*, Journal of Pure and Applied Algebra **46** 1 (1987) 89-107 &lbrack;<a href="https://doi.org/10.1016/0022-4049(87)90045-4">doi:10.1016/0022-4049(87)90045-4</a> [pdf](https://www.mat.univie.ac.at/~michor/c-oo-alg.pdf)&rbrack;
 
 A characterization of those $C^\infty$-rings that are algebras of smooth functions on some [[smooth manifold]] is given in 
 
