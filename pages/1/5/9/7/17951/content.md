@@ -57,8 +57,11 @@ Discussion via [[Kac-Moody algebras]] related to [[E11]]:
 
 * [[Keith Glennon]], [[Peter West]]: *$K_{27}$ as a symmetry of closed bosonic strings and branes* &lbrack;[arXiv:2409.08649](https://arxiv.org/abs/2409.08649)&rbrack;
 
-
 * [[Keith Glennon]]: *Bosonic M-Theory From a Kac-Moody Algebra Perspective* &lbrack;[arXiv:2501.03000](https://arxiv.org/abs/2501.03000)&rbrack;
+
+suggesting that there is no bosonic M-theory in D=27, but there is a completion of the bosonic D=26 string theory by hidden Kac-Moody degrees of freedom.
+
+
 
 
 
