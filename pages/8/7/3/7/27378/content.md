@@ -45,3 +45,7 @@ The original definition is due to [[Jon Beck]].
 An exposition can be found in Section 6.1 of
 
 * [[Michael Barr]], *Acyclic models*, CRM Monograph Series **17** (2002) &lbrack;[ams:crmm-17](https://bookstore.ams.org/crmm-17), [pdf](https://www.math.mcgill.ca/barr/papers/acycmod.pdf), [[Barr-AcyclicModels2002.pdf:file]]&rbrack;
+
+[[!redirects Beck derivations]]
+[[!redirects Beck differential]]
+[[!redirects Beck differentials]]
