@@ -169,7 +169,7 @@ Prominent here is the *pfaffian state* &lbrack;[Moore & Read 1991](Laughlin+wave
    \,
    exp\Big(
      -\frac{1}{4}
-     \textstyle{\sum} {|z|}^2
+     \textstyle{\sum}_i {|z_i|}^2
   \Big)
   \mathrlap{\,,}
 \]
@@ -200,7 +200,7 @@ Historically, (eq:MooreReadPfaffianState) was guessed as a deformation of the [[
   \,
    exp\Big(
      -\frac{1}{4}
-     \textstyle{\sum} {|z|}^2
+     \textstyle{\sum_i} {|z_i|}^2
   \Big)
   \,,
 \]
