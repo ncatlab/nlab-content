@@ -23,8 +23,11 @@ This entry provides links for the book
 
 on [[differential geometry]] in terms of [[Frölicher spaces]] and [[diffeological spaces]], in particular also on [[infinite-dimensional manifolds]].
 
+For more see: *[[Kriegl and Michor's cartesian closed category of manifolds]]*.
+
 
 category: reference
+
 
 [[!redirects The Convenient Setting Of Global Analysis]]
 [[!redirects the Convenient Setting Of Global Analysis]]
