@@ -354,14 +354,16 @@ This completes the proof.
 
 see [[Pfaffian]] for the moment
 
-## Related entries
 
+## Related entries
 
 * [[matrix]], [[linear algebra]], [[exterior algebra]], [[characteristic polynomial]]
 
 * [[principal submatrix]]
 
 * [[quasideterminant]], [[Berezinian]],[[Jacobian]], [[Pfaffian]], [[hafnian]],  [[Wronskian]]
+
+* [[Vandermonde determinant]]
 
 * [[Dieudonné determinant]]
 
