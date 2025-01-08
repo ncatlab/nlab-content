@@ -157,6 +157,13 @@ i.e. a derivation $A \to M$ (over $\mathbb{Z}$). Thus, the Beck module $\Omega_A
 =--
 
 
+### Beck modules over C^∞-rings
+
+The above proof also shows that Beck modules over [[C^∞-rings]] coincide with ordinary modules, once we recall that [[ideals]] of [[C^∞-rings]] coincide with ordinary ideals and the square zero extension constructed above is a [[C^∞-ring]] via [[Taylor expansion]].
+
+Beck derivations of [[C^∞-rings]] then coincide with [[C^∞-derivations]], which is also shown using the above proof, but replacing the main displayed formula with
+$$\delta (f(a_1, \ldots, a_n)) = \sum_i {\partial f\over \partial x_i}(a_1,\ldots,a_n)\delta (a_i).$$
+
 ### Beck modules over groups
 
 +-- {: .num_prop}
