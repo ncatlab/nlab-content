@@ -81,12 +81,17 @@ $$
   \mathbb{R}^{1|1}
 $$
 
-$$
+\[
+  \label{GroupLawIn1D}
   (t_1, \theta_1), (t_2, \theta_2)
   \mapsto
-  (t_1 + t_2 + \theta_1 \theta_2, \theta_1 + \theta_2)
+  \big(
+    t_1 + t_2 + \theta_1 \theta_2, 
+    \,
+    \theta_1 + \theta_2
+  \big)
   \,.
-$$
+\]
 
 Recall how the notation works here: by the [[Yoneda embedding]] we have a [[full and faithful functor]]
 
