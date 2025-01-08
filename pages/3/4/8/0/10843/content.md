@@ -72,6 +72,9 @@ Infinitesimal neighborhoods of subvarieties play role in completion of subvariet
 [[!redirects square-zero extension]]
 [[!redirects square-zero extensions]]
 
+[[!redirects square zero extension]]
+[[!redirects square zero extensions]]
+
 [[!redirects square-0 ring extension]]
 [[!redirects square-0 ring extensions]]
 [[!redirects square-zero ring extension]]
