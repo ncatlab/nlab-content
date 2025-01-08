@@ -18,9 +18,9 @@
 
 ## Beck modules
 
-The [[category]] of [[Beck modules]] over a [[C^∞-ring]] $A$ is [[equivalence of categories|equivalent]] to the category of ordinary [[modules]] over the [[underlying]] [[real numbers|real]] [[algebra]] of $A$.
+The [[category]] of [[Beck modules]] over a [[C^∞-ring]] $A$ is [[equivalence of categories|equivalent]] to the category of ordinary [[modules]] over the [[underlying]] [[real numbers|real]] [[algebra]] of $A$.  A modern exposition of the proof can be found in [Stel](#Stel), Proposition 42 and in the more general context of [[Fermat theories]] in [Carchedi–Roytenberg](#CR), Theorem 2.6.
 
-This is established using the proof given at [[Beck module]] for ordinary rings, using the fact ([Dubuc–Kock](#DK), Proposition 1.2) that [[ideals]] of [[C^∞-rings]] coincide with ideals in the ordinary sense and the [[square zero extension]] construction used there can be promoted to a [[C^∞-ring]] using [[Taylor expansions]] as explained in [Dubuc–Kock](#DK), the paragraph before Proposition 2.1.
+The proof proceeds like the proof given at [[Beck module]] for ordinary rings, using the fact ([Dubuc–Kock](#DK), Proposition 1.2) that [[ideals]] of [[C^∞-rings]] coincide with ideals in the ordinary sense and the [[square zero extension]] construction used there can be promoted to a [[C^∞-ring]] using [[Taylor expansions]] as explained in [Dubuc–Kock](#DK), the paragraph before Proposition 2.1.
 
 Furthermore, by [Dubuc–Kock](#DK) [Proposition 2.2] the resulting notion of a [[Beck derivation]] coincides with that of a [[C^∞-derivation]] and by [Dubuc–Kock](#DK) [Theorem 2.3], the resulting module of [[Beck derivations]] can be computed as $I/I^2$, where $I$ is the kernel of the [[codiagonal]] $A\otimes A\to A$.
 
@@ -58,6 +58,10 @@ Topological vector spaces in the above definition can be replaced by any notion 
 ## References
 
 * {#DK} [[E. J. Dubuc]], [[A. Kock]], _On 1-form classifiers_, Communications in Algebra  **12** 12 (1984) 1471-1531  &lbrack;[doi:10.1080/00927878408823064](https://doi.org/10.1080/00927878408823064)&rbrack;
+
+* {#Stel} [[Herman Stel]], _∞-Stacks and their Function Algebras with applications to ∞-Lie theory_, master's thesis, University of Utrecht, 2010, [[schreiber:master thesis Stel]].
+
+* [[David Carchedi]], [[Dmitry Roytenberg]], _Homological Algebra for Superalgebras of Differentiable Functions_, [arXiv](https://arxiv.org/abs/1212.3745). 
 
 * G. Kainz, [[Andreas Kriegl]], [[Peter Michor]]: *$C^\infty$-algebras from the functional analytic view point*, Journal of Pure and Applied Algebra **46** 1 (1987) 89-107 &lbrack;<a href="https://doi.org/10.1016/0022-4049(87)90045-4">doi:10.1016/0022-4049(87)90045-4</a> [pdf](https://www.mat.univie.ac.at/~michor/c-oo-alg.pdf)&rbrack;
 
