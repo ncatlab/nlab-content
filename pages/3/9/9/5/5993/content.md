@@ -93,9 +93,9 @@ Proofs are spelled out for instance by [Haber 2015, Sections 2 and 3](#Haber15).
 
 ### In terms of Berezinian integrals
 
-+-- {: .num_prop}
-###### Proposition
 
+\begin{proposition}
+ \label{PfaffianAsBerezinianIntegral}
 
 Let $\Lambda_{2n}$ be the [[Grassmann algebra]] on $2n$ generators $\{\theta_i\}$, which we think of as a [[vector]] $\vec \theta$
 
@@ -117,10 +117,9 @@ $$
   \,.
 $$
 
-=--
+\end{proposition}
 
-+-- {: .num_remark}
-###### Remark
+\begin{remark}
 
 Compare this to the [[Berezinian integral]]-representation of the [[determinant]], which is instead:
 
@@ -143,22 +142,26 @@ $$
   \,.
 $$
 
-=--
+\end{remark}
 
 
 ## Applications
 
 ### Pfaffian state of fractional quantum Hall systems
+ {#PfaffianStateOfFractionalQuantumHallEffect}
 
-Pfaffians appear in the expression of certain multiparticle [[wave functions]] generalizing [[Laughlin wavefunctions]] modeling the [[fractional quantum Hall effect]]. Most notable is the pfaffian state of $N$ spinless electrons &lbrack;[Moore & Read 1991](Laughlin+wavefunction#MooreRead91)&rbrack;:
+Pfaffians appear in the expression of certain multiparticle [[wave functions]] generalizing [[Laughlin wavefunctions]] modeling the [[fractional quantum Hall effect]]. Most notable is the pfaffian state of an [[even number]] $N$ of spinless (or rather: spin-polarized) [[electrons]] &lbrack;[Moore & Read 1991](Laughlin+wavefunction#MooreRead91)&rbrack;:
 
 $$
-  \Psi_{Pf}(z_1,\ldots,z_N) 
+  \Psi_{Pf}(z_1,\ldots,z_{N}) 
   \;=\; 
+   \big( 
+     vd(z_\bullet)
+   \big)^q
+   \,
    pf\left(
-    \frac{1}{z_k-z_l}
+    \frac{1}{z_{\bullet_1} - z_{\bullet_2}}
    \right)
-   \prod_{i\lt j}(z_i-z_j)^q
    \,
    exp\Big(
      -\frac{1}{4}
@@ -166,7 +169,108 @@ $$
   \Big)
   \mathrlap{\,,}
 $$
-where $pfaff(M_{k l})$ denotes the Pfaffian of the matrix whose labels are $k,l$ and $q = 1/\nu$ is the filling fraction, which is an [[even number|even]] [[integer]]. 
+where 
+
+* $vd(z_\bullet) \;:=\; \prod_{i \lt j} (z_i - z_j)$ is a *[[Vandermonde determinant]]*
+
+* $pf\left( \frac{1}{z_{\bullet_1} - z_{\bullet_2}} \right)$ is a Pfaffian as above
+
+* $q = 1/\nu$ is the "filling fraction", which is an [[even number|even]] [[integer]]. 
+
+Historically, this was guessed as a deformation of the [[Laughlin wavefunction]], which is the same expression without the Pfaffian factor. But with the above Berezinian integration method both expressions actually unify in the *super-Laughlin wavefunction*:
+
+$$
+  \textstyle{\prod_{i \lt j}}
+  \,
+  \big(
+    z_i - z_j + \theta_i \theta_j
+  \big)^q
+  \,
+   exp\Big(
+     -\frac{1}{4}
+     \textstyle{\sum} {|z|}^2
+  \Big)
+  \,,
+$$
+
+of which the ordinary Laughlin wavefunction is the lowest component (all $\theta_i = 0$) while the Pfaffian state is the top component -- since, by Prop. \ref{PfaffianAsBerezinianIntegral}:
+
+$$
+  \begin{array}{l}
+    \textstyle{\int}
+    \left(
+      \textstyle{\prod_i} \mathrm{d}\theta_i
+    \right)
+    \,
+    \underset{i \lt j}{\prod}
+    ( z_i - z_j  - \theta_i \theta_j )^q
+    \\
+    \;=\;
+    \textstyle{\int} 
+    \left(
+      \textstyle{\prod_i} \mathrm{d}\theta_i
+    \right)
+    \,
+    \textstyle{\underset{i \lt j}{\prod}}
+    \Big(
+      ( z_i - z_j )^q
+      \,
+      \exp\big(
+        q( z_i - z_j )^{-1} \theta_i \theta_j
+      \big)
+      \,
+    \Big)
+    \\
+    \;=\;
+    \textstyle{\int} 
+    \left(
+      \textstyle{\prod_i} \mathrm{d}\theta_i
+    \right)
+    \,
+    \Big(
+      \textstyle{\underset{i \lt j}{\prod}}
+      ( z_i - z_j )^q
+    \Big)
+    \Big(
+      \textstyle{\underset{i \lt j}{\prod}}
+      \exp\big(
+        q( z_i - z_j )^{-1} \theta_i \theta_j
+      \big)
+    \Big)
+    \\
+    \;=\;
+    \Big(
+      \textstyle{\underset{i \lt j}{\prod}}
+      ( z_i - z_j )^q
+    \Big)
+    \,
+    \textstyle{\int} 
+    \left(
+      \textstyle{\prod_i} \mathrm{d}\theta_i
+    \right)
+    \,
+    \Big(
+      \textstyle{\underset{i \lt j}{\prod}}
+      \exp\big(
+        q( z_i - z_j )^{-1} \theta_i \theta_j
+      \big)
+    \Big)
+    \\
+    \;=\;
+    q^{N/2}
+    \big(
+      vd\big(z_\bullet\big)
+    \big)^q
+    \,
+    pf\Big(
+      (z_{\bullet_1} - z_{\bullet_2})^{-1}
+    \Big)
+    \,.
+  \end{array}
+$$
+
+This observation is due to [Hasebe 2008](Laughlin+wavefunction#Hasebe08), cf. [Gromov, Martinec & Ryu 2020 (13)](Laughlin+wavefunction#GromovMartinecRyu20).
+
 
 
 ## Related entries
