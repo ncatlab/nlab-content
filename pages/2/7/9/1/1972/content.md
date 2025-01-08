@@ -193,7 +193,7 @@ $$
 
 from the [[sphere spectrum]] to [[KU]].
 
-f
+
 ### Splitting principle and Brauer induction theorem
 
 The [[Brauer induction theorem]] says that, over the [[complex numbers]], the representation ring is generated already from the [[induced representations]] of 1-dimensional representations. This may be regarded as the [[splitting principle]] for linear representations and for [[characteristic classes of linear representations]] ([Symonds 91](#Symonds91)).
