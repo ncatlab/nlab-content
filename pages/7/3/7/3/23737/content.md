@@ -48,7 +48,7 @@ The iterated wedge product $X \mapsto \bigwedge_{i=1}^n X$ is a smooth functor
 
 ## Extensions
 
-The concept of smooth functor can be extended to multivariate functors $FinDimVect^n \to FinDimVect$, and also to [[contravariant]] functors $FinDimVect^{op} \to FinDimVect$, such as the dual $V \mapsto V^*$.
+The concept of smooth functor can be extended to multivariate functors $FinDimVect^n \to FinDimVect$, and also to [[contravariant functors]] $FinDimVect^{op} \to FinDimVect$, such as the dual $V \mapsto V^*$.
 
 ## Related concepts
 
@@ -56,7 +56,7 @@ The concept of smooth functor can be extended to multivariate functors $FinDimVe
 
 ## References
 
-* {#KrieglandMichor1997} [[Andreas Kriegl]] and [[Peter Michor]], *The Convenient Setting of Global Analysis*, Mathematical Surveys and Monographs 53, American Mathematical Society, 1997 (ISBN: 978-0-8218-0780-4)
+* {#KrieglandMichor1997} [[Andreas Kriegl]], [[Peter Michor]], *[[The Convenient Setting of Global Analysis]]*, Mathematical Surveys and Monographs **53**, American Mathematical Society (1997) &lbrack;ISBN: 978-0-8218-0780-4, [ams:surv-53](https://bookstore.ams.org/surv-53), [pdf](https://www.mat.univie.ac.at/~michor/apbookh-ams.pdf)&rbrack;
 
 
 
