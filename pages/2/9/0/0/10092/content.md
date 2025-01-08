@@ -39,3 +39,12 @@ See at _[[Sen's conjecture]]_ on the [[D25-brane]] decay.
 
 * [[M-theory]]
 
+## References
+
+Discussion via [[Kac-Moody algebras]] analogous to [[E11]] symmetry of [[D=11 supergravity]]/[[M-theory]] (cf. [[bosonic M-theory]]):
+
+* [[Keith Glennon]], [[Peter West]]: *$K_{27}$ as a symmetry of closed bosonic strings and branes* &lbrack;[arXiv:2409.08649](https://arxiv.org/abs/2409.08649)&rbrack;
+
+* [[Keith Glennon]]: *Bosonic M-Theory From a Kac-Moody Algebra Perspective* &lbrack;[arXiv:2501.03000](https://arxiv.org/abs/2501.03000)&rbrack;
+
+
