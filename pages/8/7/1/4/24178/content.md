@@ -65,9 +65,14 @@ A "hierarchy" of Laughlin-like states:
 
   Erratum, Phys. Rev. Lett. **52** (1984) 2390 \[<a href="https://doi.org/10.1103/PhysRevLett.52.2390.4">doi:10.1103/PhysRevLett.52.2390.4</a>\]
 
-* {#Lan19} [[Tian Lan]], *Matrix formulation for non-Abelian families*, Phys. Rev. B **100** 241102 (2019) $[$[arXiv:1908.02599](https://arxiv.org/abs/1908.02599), [doi:10.1103/PhysRevB.100.241102](https://doi.org/10.1103/PhysRevB.100.241102)$]$
+* {#Lan19} [[Tian Lan]], *Matrix formulation for non-Abelian families*, Phys. Rev. B **100** 241102 (2019) \[<a href="https://doi.org/10.1103/PhysRevB.100.241102">doi:10.1103/PhysRevB.100.241102</a>, [arXiv:1908.02599](https://arxiv.org/abs/1908.02599)\]
 
 
+### Interacting generalization
+
+* {#MooreRead91} [[Gregory Moore]], [[Nicholas Read]]: *Nonabelions in the fractional quantum hall effect*, Nuclear Physics B **360** 2–3 (1991) 362-396 \[<a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>, [pdf](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)\]
+
+(...)
 
 
 [[!include Laughlin wavefunctions as conformal blocks -- references]]
