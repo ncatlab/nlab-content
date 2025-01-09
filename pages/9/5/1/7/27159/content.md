@@ -36,7 +36,7 @@ The module of Kähler C^∞-differentials of the [[C^∞-ring]] of smooth functi
 
 * [[Kähler differential]], [[derivation]]
 
-* [[C^∞-ring]]
+* [[C^∞-ring]], [[module over a C^∞-ring]]
 
 ## References
 
