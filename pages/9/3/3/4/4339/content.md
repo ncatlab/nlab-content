@@ -26,7 +26,7 @@ This should be distinguished from barring the trivial object entirely.  Historic
 Examples include:
 
 *  [[one|1]] is not a [[prime number]].
-*  The [[trivial ring]] is not a [[field]] (or even an [[integral domain]]); though see [[possibly trivial field]] and [[possibly trivial integral domain]]
+*  The [[trivial ring]] is not a [[field]] (or even an [[integral domain]]).
 *  The [[trivial group]] is not a [[simple group]] (which is the trope-namer).
 *  A [[zero object]] is not a [[simple object]] (generalizing the previous example).
 *  The [[empty space]] is not a [[path-connected space]] (or even a [[connected space]]).
@@ -35,7 +35,7 @@ Examples include:
 *  An [[empty function]] is not a [[constant function]].
 *  A [[bottom element]] is not an [[atom]].
 
-But of course one may still find definitions used that disagree (see discussion at [[connected space]] and [[empty space]], for example).
+But of course one may still find definitions used that disagree (see discussion at [[connected space]] and [[empty space]], for example; and see [[possibly trivial field]] and [[possibly trivial integral domain]] for how to modify these to allow the trivial ring constructively).
 
 Perhaps the basic example is that
 
@@ -56,7 +56,7 @@ with
 
 Then $1$ is not a prime because it is equal to the empty product ($k = 0$) but not equal to any of the $a_i$ (because there aren't any)! Similarly we have:
 
-* The [[empty space]] is the empty union, and therefore not [[connected space|connected]].
+* The [[empty space]] is the empty union (of [[clopen subspaces]]), and therefore not [[connected space|connected]].
 * In the [[trivial ring]] the empty product is equal to zero,
 and so this ring is not [[integral domain|integral]].
 * [[false|False]] is the empty disjunction, and hence is not [[true]].
