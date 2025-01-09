@@ -172,6 +172,8 @@ For $\mathcal{C}$ a [[small category|small]] $\mathcal{V}$-[[enriched category]]
 
 ## Related concepts
 
+* [[two-variable adjunction]]
+
 * [[enriched model category]]
 
 
