@@ -2200,7 +2200,7 @@ over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
 Every Markov category with all conditionals is causal ([Fritz'20](#fritzmarkov), Proposition 11.34), and every causal Markov category is positive ([Fritz et al'23](#dilations), Theorem 2.24). Both converses are false.
 \end{theorem}
 
-The category [[Stoch]] is causal (but ot doesn't have all conditionals).
+The category [[Stoch]] is causal (but it doesn't have all conditionals).
 
 
 ### The _ProbStoch_ construction
