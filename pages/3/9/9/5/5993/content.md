@@ -158,15 +158,14 @@ $$
 
 Pfaffians appear in the expression of certain multiparticle [[wave functions]] generalizing [[Laughlin wavefunctions]] modeling [[ground states]] of [[fractional quantum Hall systems]]. 
 
-Prominent here is the *pfaffian state* &lbrack;[Moore & Read 1991](Laughlin+wavefunction#MooreRead91)&rbrack; of an [[even number]] $N$ of spinless (or rather: spin-polarized) [[electrons]], which is the ("[[wavefunction|wave]]"-)[[function]] on the [[configuration space of points|configuration space of $N$ points]] in the ([[complex plane|complex]]) [[plane]] 
+Prominent here is the *pfaffian state* &lbrack;[Moore & Read 1991 (5.1)](Laughlin+wavefunction#MooreRead91)&rbrack; of an [[even number]] $N$ of spinless (or rather: spin-polarized) [[electrons]], which is the ("[[wavefunction|wave]]"-)[[function]] on the [[configuration space of points|configuration space of $N$ points]] in the ([[complex plane|complex]]) [[plane]] 
 
 \[
   \label{MooreReadPfaffianState}
   \Psi_{Pf}(z_1,\ldots,z_{N}) 
   \;=\; 
-   \big( 
-     vd(z_\bullet)
-   \big)^q
+   vd(z_\bullet)
+   ^q
    \,
    pf\left(
     \frac{1}{z_{\bullet_1} - z_{\bullet_2}}
@@ -180,7 +179,7 @@ Prominent here is the *pfaffian state* &lbrack;[Moore & Read 1991](Laughlin+wave
 \]
 where 
 
-* $vd(z_\bullet) \;\coloneqq\; \prod_{i \lt j} (z_i - z_j)$ is a *[[Vandermonde determinant]]*
+* $vd(z_\bullet) \;\coloneqq\; \prod_{i \lt j} (z_i - z_j)$ is a *[[Vandermonde determinant]]*,
 
 * $pf\left( \frac{1}{z_{\bullet_1} - z_{\bullet_2}} \right)$ is the Pfaffian of the inverse [[complex number|complex]] [[distances]] between the (electron) positions,
 
