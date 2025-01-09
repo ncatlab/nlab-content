@@ -131,4 +131,5 @@ This tower can be viewed as a sort of "[[Postnikov tower]]" of $\mathbb{Z}$ (alt
 
 ## References
 
-* [[Dan Isaksen]], _A cohomological viewpoint on elementary school arithmetic_, The American Mathematical Monthly, Vol. 109, No. 9. (Nov., 2002), pp. 796-805. ([jstor](http://links.jstor.org/sici?sici=0002-9890%28200211%29109%3A9%3C796%3AACVOES%3E2.0.CO%3B2-2))
+* [[James Dolan]], _Carrying Is a 2-Cocycle_, ([pdf](https://timothychow.net/mathstuff/jdolan.pdf))
+* [[Dan Isaksen]], _A cohomological viewpoint on elementary school arithmetic_, The American Mathematical Monthly, Vol. 109, No. 9. (Nov., 2002), pp. 796-805. ([jstor](https://www.jstor.org/stable/3072368))
