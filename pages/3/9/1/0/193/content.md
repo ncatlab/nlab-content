@@ -347,6 +347,8 @@ Here $\eta_X$ is a component of what we call the [[unit of an adjunction|unit of
 
 * [[adjoint logic]]
 
+* [[two-variable adjunction]]
+
 
 ## References
 
