@@ -44,7 +44,7 @@ which is
 * [[measurable function|measurable]] as a function of $x$, for all $B\in\mathcal{B}$;
 * a [[probability measure]] as a function of $B$, for all $x\in X$.
 
-The quantity $k(B|x)$ can be thought of as the probability of transitioning to $B$ if we are in $x$, or of the [[conditional probability]] of the event $B$ given $x$.
+The quantity $k(B|x)$ can be thought of as the probability of transitioning to $B$ if we are in $x$, or as the [[conditional probability]] of the event $B$ given $x$.
  
 
 ## Basic structures and properties
