@@ -18,7 +18,7 @@
 
 ## Idea
 
-A **promonad** is a [[monad]] in the [[bicategory]] [[Prof]] of [[small categories]], [[profunctors]], and [[natural transformations]].
+A **promonad** or **profunctor monad** is a [[monad]] in the [[bicategory]] [[Prof]] of [[small categories]], [[profunctors]], and [[natural transformations]].
 
 The data of a promonad on a category $C$ is equivalently the data of an [[identity-on-objects functor]] from $C$ (known as the **collapse** of the promonad).
 
