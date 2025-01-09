@@ -32,7 +32,7 @@ Dually, a bicategory admitting all *left* extensions and lifts is called a **coc
 ## Examples
 
 - [[Prof]]
-- The bicategory $Span(E)$ is closed if and only if the category $E$ is [[locally cartesian closed]]; see ([Day 1974, Proposition 4.1](#Day74)).
+- For $E$ a category with pullbacks, the bicategory $Span(E)$ is closed if and only if the category $E$ is [[locally cartesian closed]]; see ([Day 1974, Proposition 4.1](#Day74)).
 
 ## Related entries
 
