@@ -13,7 +13,6 @@
 =--
 =--
 
-# Two-variable and $n$-variable adjunctions
 * table of contents
 {: toc}
 
@@ -23,7 +22,7 @@ The notion of _adjunction of two variables_ is a natural  generalization of both
 
 1. [[internal homs]] in a [[biclosed monoidal category]] 
 
-2. $V$-[[enriched categories]] having [[powers]] and [[copowers]].
+2. $V$-[[enriched categories]] having [[powers]] and [[copowers]] (see [[powered and copowered category]])
 
 
 ## Definition
