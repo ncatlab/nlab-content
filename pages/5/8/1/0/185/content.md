@@ -787,6 +787,8 @@ The generalization to [[supergeometry]] is
 
 ## Related concepts
 
+* [[module over a C^∞-ring]]
+
 * [[germ-determined C-infinity ring]]
 
 * [[Dubuc topos]]
