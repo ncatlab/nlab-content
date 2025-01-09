@@ -791,6 +791,8 @@ We can remedy this by replacing in the definition of the descent $\infty$-catego
 
 * [[cocartesian monoidal category]]
 
+* [[infinitary monoidal category]]
+
 * [[fusion category]], [[tensor category]]
 
 * [[multicategory]]
