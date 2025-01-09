@@ -89,7 +89,7 @@ where $\delta_m$ is the [[Markov kernel#kernels_from_deterministic_functions|ker
 The kernel $u$ has the same entries as $k$: by invariance, $k$ is indeed measurable for the sigma-algebra of invariant sets.
 
 Note that $X_inv$ is *not* the colimit simply in the [[Meas|category of measurable functions]]: the colimit in that case also takes a set-theoretic quotient. 
-It is however a colimit also in the category of [[zero-one kernel]].
+It is however a colimit also in the category of [[zero-one kernels]].
 
 In the category of kernels, the set-theoretic quotient and $X_inv$ are isomorphic. This can be seen from the fact that Markov kernels are [[Kleisli morphisms]] of the [[Giry monad]] on [[Meas]], and that [[left adjoints preserve colimits]]. The same can be said about [[zero-one kernels]] and the [[zero-one measure#the_monad_of_zeroone_measures|sobrification monad]].
 
