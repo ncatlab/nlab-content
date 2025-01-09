@@ -18,7 +18,7 @@
 
 ## Idea
 
-A **procomonad** is a [[comonad]] in the [[bicategory]] [[Prof]] of [[small categories]], [[profunctors]], and [[natural transformations]].
+A **procomonad** or **profunctor comonad** is a [[comonad]] in the [[bicategory]] [[Prof]] of [[small categories]], [[profunctors]], and [[natural transformations]].
 
 ## Examples
 
@@ -28,7 +28,7 @@ A **procomonad** is a [[comonad]] in the [[bicategory]] [[Prof]] of [[small cate
 ## Properties
 
 - The **procomonadic** functors (i.e. the forgetful functors from categories of coalgebras for procomonads) are the closure of the comonadic functors under pullback (Corollary 11 of [Street 2023](#Street23)).
-- The procomonadic functors are closed under taking functor categories (Proposition 12 of [Street 2023](#Street23)).
+- The procomonadic functors are closed under exponentiating by a fixed category (Proposition 12 of [Street 2023](#Street23)).
 
 ## Related pages
 
@@ -39,6 +39,12 @@ A **procomonad** is a [[comonad]] in the [[bicategory]] [[Prof]] of [[small cate
 ## References
 
 * Michel Thiébaud, _Self-dual structure-semantics and algebraic categories_, PhD thesis (1971)
+
+* Manfred Bernd Wischnewsky, _Aspects of categorical algebra in initialstructure categories_, Cahiers de topologie et géométrie différentielle 15.4 (1974): 419-444.
+
+* [[Peter Johnstone]] and [[André Joyal]], _Continuous categories and exponentiable toposes_, Journal of Pure and Applied Algebra 25.3 (1982): 255-296.
+
+* [[Bob Paré]], [[Bob Rosebrugh]], and [[R. J. Wood]], _Idempotents in bicategories_, Bulletin of the Australian Mathematical Society 39.3 (1989): 421-434.
 
 * [[Ross Street]], _Wood fusion for magmal comonads_, [arXiv:2311.07088](https://arxiv.org/abs/2311.07088) (2023)
 
