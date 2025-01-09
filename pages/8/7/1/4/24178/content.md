@@ -19,15 +19,16 @@
 
 In [[solid state physics|solid stae]] [[quantum physics]], a  *Laughlin wavefunction* is a certain Ansatz for an [[quantum many-body physics|n-particle]] [[wavefunction]] which is meant to capture at least aspects of [[ground states]] with [[anyon|anyonic]] properties, such as of [[fractional quantum Hall systems]].
 
-The issue is that the strongly-coupled electron dynamics, that is thought to be responsible for the [[fractional quantum Hall effect]], cannot be solved -- not even approximately --- by existing theory (cf. the problem of [[non-perturbative quantum field theory]]). To make up for this, the Laughlin wavefunction is an *educated guess* -- jargon: *trial wavefunction* -- as to what the [[ground states]] of these systems should approximately look like to some approximation --- a guess that turns to be confirmed to great accuracy by [[experiment]].
+The issue is that the strongly-coupled electron dynamics, that is thought to be responsible for the [[fractional quantum Hall effect]], cannot be solved -- not even approximately --- by existing theory (cf. the problem of [[non-perturbative quantum field theory]]). To make up for this, the Laughlin wavefunction is an *educated guess* -- jargon: *trial wavefunction* -- as to what the [[ground states]] of these systems should approximately look like to some approximation --- a guess that turns out to agree to great accuracy with [[experiment]].
 
 ### Basic Laughlin wavefunction on the plane
  {#BasicLaughlinWavefunctionOnThePlane}
 
-The basic Laughlin wavefunction, for $N$ spin-less (in practice really: *spin-polarized* by a strong [[magnetic field]]) [[fermions]] on the [[plane]], at odd "filling fraction" 
+The basic Laughlin wavefunction &lbrack;[Laughlin 1983 (6-7)](#Laughlin83)&rbrack;, for $N$ spin-less (in practice really: *spin-polarized* by a strong transversal [[magnetic field]]) [[fermions]] ([[electrons]], constrained to move) in a [[plane]], at [[odd number|odd]] "*Landau level filling fraction*" 
 
 $$
   q  \,\in\, 2\mathbb{N} + 1
+  \,,
 $$
 
 is the [[complex numbers|complex]]-valued [[function]] on the [[configuration space of points|configuration space of $N$ ordered points]] in the [[plane]] --- to be thought of as the [[complex plane]] with canonical [[holomorphic function|holomorphic]] [[coordinate function]] $z$ ---, given (up to [[normalization]], which we disregard throughout) by
@@ -42,26 +43,46 @@ is the [[complex numbers|complex]]-valued [[function]] on the [[configuration sp
   (z_i - z_j)^q
   \;
   \exp\big(
-    - \textstyle{\sum_i} {\vert z_i\vert}^2
+    -
+    \tfrac{1}{4 \ell_B^2} 
+    \textstyle{\sum_i} {\vert z_i\vert}^2
   \big)
   \,.
 \]
 
-Here the [[absolute value]] of -- and hence the [[probability density]] encoded by -- the second factor drops quickly where the particles are far away from the origin, while that of the first factor tends to zero wherever any pair of particles approaches each other. Hence the particles in this [[quantum state]] are most likely to be found all close to the origin but still spread out not to be too close to each other: The image is that of a little *droplet*, and one speaks also of *quantum fluid droplets* in this context.
+Here the [[absolute value]] of and hence the [[probability density]] encoded by
 
-> We are the suppressing [[physical units]] which determine the actual average [[radius]] of this droplet. Maybe to be filled in later...
+* the **second factor** drops quickly where the particles are farther away from their center of mass (here: the origin in the complex plane) than the *magnetic length*
 
-Moreover, since the first factor is actually an odd power (the $q$th power) of the [[Vandermonde determinant]] 
+  $$
+    \ell_B \,\coloneqq\,
+    \sqrt{
+      \frac
+        { \hbar c }
+        { e B }
+    }
+  $$
+
+  (where $B$ denotes the given external [[magnetic field|magnetic]] [[field strength]] while the other constants are [[physical units]]: $\hbar$ is [[Planck's constant]], $c$ is the [[speed of light]], and $e$ is the [[electric charge]] of an [[electron]]),
+
+* while that of the **first factor** tends to zero wherever any pair of particles approaches each other. 
+
+Hence the particles in this [[quantum state]] are most likely to be found all close to the origin but still spread out not to be too close to each other: The image is that of a little *droplet*, and one speaks also of *quantum fluid droplets* in this context.
+
+Moreover, if or since the first factor (the *Jastrow polynomial*) is actually an odd power (the $q$th power) of the [[Vandermonde determinant]]
 
 $$
   vd(z_\bullet) 
   \;\coloneqq\; 
-  \textstyle{\underset{i \lt j}{\prod}} (z_i - z_j)^q
+  \textstyle{\underset{i \lt j}{\prod}} 
+  (z_i - z_j)
+  \,,
 $$
 
-it is skew-symmetric under [[permutation]] of the particle positions, as it must be for a [[quantum many body physics|many-]][[fermion]] [[wavefunction]], by the [[Pauli exclusion principle]].
+which itself is skew-symmetric under [[permutation]] of the particle positions (see [there](Vandermonde+determinant#SkewSymemtryUnderSwappingVariables)), so is the Laughlin state, as it must be for a [[quantum many body physics|many-]][[fermion]] [[wavefunction]], by the [[Pauli exclusion principle]].
 
-Due to these basic properties, the Laughlin wavefunction is a plausible Ansatz for any localized [[bound state]] of [[fermions]]. But on top of this, the power of $m$ to which the [[Vandermonde determinant]] is taken makes these particles carry "fractional charge", namely $1/m$ times the unit charge. (...)
+Due to these basic properties, the Laughlin wavefunction is a plausible Ansatz for any localized [[bound state]] of [[fermions]]. But on top of this, the power of $m$ to which the [[Vandermonde determinant]] is taken makes these particles carry "fractional charge", namely $1/m$ times the unit charge. 
+(...)
 
 ### Basic Moore-Read wavefunction on the plane
 
@@ -74,7 +95,7 @@ $$
 
 the Laughlin Ansatz needs modification, since here the even power of the [[Vandermonde determinant]] would be symmetric under particle exchange and hence not describe the intended [[Fermions]].
 
-A further educated guess suggests to multiply, at even filling fraction, the Laughlin wavefunction by some other factor which *is* skew-symmetric in the particule positions. The *Moore-Read wavefunction* is the result of choosing this factor to be the *[[Pfaffian]]* $pf(-)$ of the [[matrix]] of inverse [[distances]] between pairs of particles -- whence often known as *the Pfaffian state*:
+A further educated guess suggests to multiply, at even filling fraction, the Laughlin wavefunction by some other factor which *is* skew-symmetric in the particule positions. The *Moore-Read wavefunction* &lbrack;[Moore & Read 1991 (5.1)](#MooreRead91)&rbrack; is the result of choosing this factor to be the *[[Pfaffian]]* $pf(-)$ of the [[matrix]] of inverse [[distances]] between pairs of particles -- whence often known as *the Pfaffian state*:
 
 
 \[
@@ -93,7 +114,9 @@ A further educated guess suggests to multiply, at even filling fraction, the Lau
   (z_i - z_j)^q
   \,
   \exp\big(
-    - \textstyle{\sum_i} {\vert z_i\vert}^2
+    - 
+    \tfrac{1}{4 \ell_B^2} 
+    \textstyle{\sum_i} {\vert z_i\vert}^2
   \big)
   \,.
 \]
@@ -285,7 +308,7 @@ This means that:
 
 The original article:
 
-* [[Robert B. Laughlin]], *Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations*, Phys. Rev. Lett. **50** (1983) 1395 &lbrack;[doi:10.1103/PhysRevLett.50.1395](https://doi.org/10.1103/PhysRevLett.50.1395)&rbrack;
+* {#Laughlin83} [[Robert B. Laughlin]], *Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations*, Phys. Rev. Lett. **50** (1983) 1395 &lbrack;[doi:10.1103/PhysRevLett.50.1395](https://doi.org/10.1103/PhysRevLett.50.1395)&rbrack;
 
 
 Review:
@@ -304,7 +327,7 @@ Low-Dimensional Materials and Nanostructures](https://www.lancaster.ac.uk/users/
 
 See also:
 
-* Wikipedia, *[Laughlin wavefunciton](https://en.wikipedia.org/wiki/Laughlin_wavefunction)*
+* Wikipedia, *[Laughlin wavefunction](https://en.wikipedia.org/wiki/Laughlin_wavefunction)*
 
 
 Characterization as a [[braid representation]]:
