@@ -9,7 +9,6 @@
 =--
 =--
 
-# The adjoint triangle theorem
 * automatic table of contents
 {: toc}
 
@@ -92,6 +91,10 @@ It is also possible to derive the [[monadicity theorem]] from the adjoint triang
 * {#StreetVerity} [[Ross Street]], [[Dominic Verity]], _The comprehensive factorization and torsors_, Theory and Applications of Categories **23** 3 (2010) 42-75. ([TAC](http://www.tac.mta.ca/tac/volumes/23/3/23-03abs.html))
 
 * [[Walter Tholen]], _Adjungierte Dreiecke, Colimites und Kan-Erweiterungen_, Mathematische Annalen **217** (1975) pp.121-129. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002311682))
+
+See also Proposition 27 and Corollary 28 of:
+
+* [[Ross Street]], _Wood fusion for magmal comonads_, [arXiv:2311.07088](https://arxiv.org/abs/2311.07088) (2023)
 
 Generalizations of the adjoint triangle theorem to [[2-categories]] are considered in
 
