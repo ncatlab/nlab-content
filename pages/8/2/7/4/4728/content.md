@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -28,7 +29,8 @@ Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]
 ### Classification
  {#Classification}
 
-The [[real manifold|real]] [[closed manifold|closed]] [[orientation|oriented]] surfaces are classified, up to [[isomorphism]] by a [[natural number]] $g \in \mathbb{N}$ called the *[[genus of a surface|genus]]*, which is its "number of holes":
+The [[closed manifold|closed]] [[orientation|oriented]] 
+[[real manifold|real]] surfaces are classified, up to [[isomorphism]], by a [[natural number]] $g \in \mathbb{N}$ called the *[[genus of a surface|genus]]* (intuitively its "number of holes", in a sense):
 
 | [[genus of a surface|genus]] | [[surface]] | 
 |------------------------------|-------------|
@@ -36,6 +38,7 @@ The [[real manifold|real]] [[closed manifold|closed]] [[orientation|oriented]] s
 | $1$ | [[2-torus]]  |
 | $2$ | [[double torus]] |
 
+(cf. [Kinsey 1991 Thm. 4.14](#Kinsey91), [Gallier & Xu 2013 Thm 6.3](#GallierXu13))
 
 ### Homotopy
  {#Homotopy}
@@ -48,9 +51,9 @@ $$
   \big)
   \;\simeq\;
   \big\langle
-    a_1, \cdots a_g
+    a_1, \cdots, a_g
     ,\,
-    b_1, \cdots b_g
+    b_1, \cdots, b_g
   \big\rangle
   \big/
   \Big(
@@ -60,7 +63,7 @@ $$
   \,.
 $$
 
-(cf. [Actipes 2013, Thm. 6.3](#Actipes13))
+(cf. [Gallier & Xu 2013 p 100](#GallierXu13), [Actipes 2013, Thm. 6.3](#Actipes13))
 
 
 ## Examples
@@ -101,6 +104,14 @@ $$
 
 ## References
 
+Monographs:
+
+* {#Kinsey91} [[L. Christine Kinsey]]: *Topology of Surfaces*, Spinger (1991) &lbrack;[doi:10.1007/978-1-4612-0899-0](https://doi.org/10.1007/978-1-4612-0899-0), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kinsey.pdf)&rbrack;
+
+* [[Richard E. Schwartz]]: *Mostly Surfaces*, American Mathematical Society, Student Mathematical Library **60** (2011) &lbrack;draft: [pdf](http://www.math.brown.edu/reschwar/Papers/surfacebook.pdf), endmatter:[pdf](https://www.ams.org/books/stml/060/stml060-endmatter.pdf)&rbrack;
+
+* {#GallierXu13} [[Jean Gallier]], [[Dianna Xu]]: *A Guide to the Classification Theorem for Compact Surfaces*, Springer (2013) &lbrack;[doi:10.1007/978-3-642-34364-3](https://doi.org/10.1007/978-3-642-34364-3), [Wikipedia entry](https://en.wikipedia.org/wiki/A_Guide_to_the_Classification_Theorem_for_Compact_Surfaces)&rbrack;
+
 See also:
 
 * Wikipedia: *<a href="https://en.wikipedia.org/wiki/Surface_(topology)">Surface (topology)</a>*
@@ -109,13 +120,18 @@ See also:
 
 * [[Manifold Atlas]], _[2-manifolds](www.map.mpim-bonn.mpg.de/2-manifolds)_
 
-Review of the classification of surfaces by fundamental [[polygons]]:
+* [[Peter Andrews]]: *The Classification of Surfaces*, The American Mathematical Monthly **95** 9 (1988) 861-867 &lbrack;[doi:10.2307/2322906](https://doi.org/10.2307/2322906), [jstor:2322906](https://www.jstor.org/stable/2322906)&rbrack;
+
+
+Review and exposition of the classification of surfaces by fundamental [[polygons]]:
 
 * E. C. Zeeman: *An Introduction to Topology -- The Classification theorem for Surfaces* &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/surgery/zeeman.pdf), [pdf](https://www.maths.ed.ac.uk/~v1ranick/surgery/ecztop.pdf), [[Zeeman-ClassificationOfSurfaces.pdf:file]]&rbrack;
 
 * Chen Hui George Teo: *Classification of Surfaces*, REU notes (2011) &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Teo.pdf), [[CHGT-ClassificationOfSurfaces.pdf:file]]&rbrack;
 
 * Thomas George: *The Classification of Surfaces with Boundary*, REU notes (2001) &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/George.pdf), [[George-SurfacesWithBoundary.pdf:file]]&rbrack;
+
+* Eugene Gorsky: *Classification of Surfaces*, lecture notes (2021) &lbrack;[pdf](https://www.math.ucdavis.edu/~egorskiy/MAT215C-s21/Sosinsky.pdf)&rbrack;
 
 * Ana da Silva Rodrigues: *Classification of Surfaces*, BSc thesis, ETH (2023) &lbrack;[pdf](https://people.math.ethz.ch/~acannas/Student_Papers/BSc_Theses/2023_bsc_da_silva_classification_of_surfaces.pdf), [[Rodrigues-ClassificationOfSurfaces.pdf:file]]&rbrack;
 
@@ -125,7 +141,7 @@ See also:
 
 Review of the computation of the [[fundamental group]] of surfaces:
 
-* {#Actipes13} Matthew Actipes: *On the fundamntal group of surfaces*, REU notes (2013) &lbrack;[pdf](http://math.uchicago.edu/~may/REU2013/REUPapers/Actipes.pdf), [[Actipes-FundamentalGroupOfSurfaces.pdf:file]]&rbrack;
+* {#Actipes13} Matthew Actipes: *On the fundamental group of surfaces*, REU notes (2013) &lbrack;[pdf](http://math.uchicago.edu/~may/REU2013/REUPapers/Actipes.pdf), [[Actipes-FundamentalGroupOfSurfaces.pdf:file]]&rbrack;
 
 Discussion of [[de Rham cohomology]] of surfaces:
 
