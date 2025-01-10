@@ -89,7 +89,7 @@ and particularly via [[Boolean toposes]]:
 
 ### Via $\sigma$-locales
 
-There is an approach to [[measure theory]] using $\sigma$-[[sigma-locale|locales]]: 
+There is an approach to [[measure theory]] using [[sigma-locale|σ-locales]]: 
 
 * [[Alex Simpson]], *Measure, randomness and sublocales*, Annals of Pure and Applied Logic, Volume 163, Issue 11, November 2012, Pages 1642-1659. ([doi:10.1016/j.apal.2011.12.014](https://doi.org/10.1016/j.apal.2011.12.014))
 
