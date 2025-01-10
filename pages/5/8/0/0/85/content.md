@@ -778,8 +778,7 @@ See also at _[[functor with smash products]]_.
 ## References
  {#References}
 
-The concept, and many of its basic properties, originates in several works of Brian day, including:
-
+The concept, and many of its basic properties, originates in several works of Brian Day, including:
 
 * {#Day70Thesis} [[Brian Day]], _Construction of Biclosed Categories_, PhD thesis. School of Mathematics of the University of New South Wales, September 1970. [Link](http://unsworks.unsw.edu.au/fapi/datastream/unsworks:58748/SOURCE01?view=true).
 
