@@ -34,11 +34,27 @@ The [[closed manifold|closed]] [[orientation|oriented]]
 
 | [[genus of a surface|genus]] | [[surface]] | 
 |------------------------------|-------------|
-| $0$ | [[2-sphere]] |
-| $1$ | [[2-torus]]  |
-| $2$ | [[double torus]] |
+| $0$ | [[2-sphere]] $S^2$ |
+| $1$ | [[2-torus]] $\mathbb{T}^2$ |
+| $2$ | [[double torus]] $\Sigma^2_2$ |
 
 (cf. [Kinsey 1991 Thm. 4.14](#Kinsey91), [Gallier & Xu 2013 Thm 6.3](#GallierXu13))
+
+{#FundamentalPolygons} Here the closed oriented surface $\Sigma^2_g$ of genus $g$ may be obtained from the [[regular polygon|regular $4g$-gon]] by identifying 
+
+* all the [[boundary]] [[vertices]] with a single point, 
+
+and, going clockwise for $k \in \{0, \cdots, g-1\}$,
+
+* the $4k+1$st boundary [[edge]] with the reverse of the $4k +3$rd, 
+
+* the $4k+2$nd edge with the reverse of the $4k+4$th.
+
+
+<center>
+<img src="/nlab/files/FundamPolygonsOfClosedOrientedSurfaces.jpg" width="500">
+</center>
+
 
 ### Homotopy
  {#Homotopy}
