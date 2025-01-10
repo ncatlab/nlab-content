@@ -59,7 +59,7 @@ Topological vector spaces in the above definition can be replaced by any notion 
 
 * {#DK} [[E. J. Dubuc]], [[A. Kock]], _On 1-form classifiers_, Communications in Algebra  **12** 12 (1984) 1471-1531  &lbrack;[doi:10.1080/00927878408823064](https://doi.org/10.1080/00927878408823064)&rbrack;
 
-* {#Stel} [[Herman Stel]], _∞-Stacks and their Function Algebras with applications to ∞-Lie theory_, master's thesis, University of Utrecht, 2010, [[schreiber:master thesis Stel]].
+* {#Stel} [[Herman Stel]]: *$\infty$-Stacks and their Function Algebras with applications to $\infty$-Lie theory*, MSc, University of Utrecht (2010) &lbrack;[pdf](/schreiber/files/StelThesisB.pdf), [[schreiber:master thesis Stel|webpage]]&rbrack;
 
 * [[David Carchedi]], [[Dmitry Roytenberg]], _Homological Algebra for Superalgebras of Differentiable Functions_, [arXiv](https://arxiv.org/abs/1212.3745). 
 
