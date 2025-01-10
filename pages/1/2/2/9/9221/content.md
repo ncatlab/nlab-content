@@ -1,8 +1,13 @@
 
-* [webpage](http://categorified.net/)
+* [personal page](http://categorified.net/)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=SfaB1CMAAAAJ&hl=en)
+
+* [inSpire page](https://inspirehep.net/authors/1072515)
+
+
 
 ## Selected writings
-
 
 
 On [[extended TQFTs]] modelling [[topological phases of matter]] in [[solid state physics]]:
