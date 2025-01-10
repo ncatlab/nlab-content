@@ -30,6 +30,10 @@ Survey:
 
 * [[Arnaud Beauville]], _Holomorphic symplectic geometry_, 2011 ([pdf](https://math.unice.fr/~beauvill/conf/Lisbon.pdf), [[BeauvilleHolomorphicSymplectic.pdf:file]])
 
+On [[Berezin quantization]] generalized to  holomorphic symplectic manifolds:
+
+* [[Joshua Lackman]]: *Quantization of Holomorphic Symplectic Manifolds: Analytic Continuation of Path Integrals and Coherent States* &lbrack;[arXiv:2501.05428](https://arxiv.org/abs/2501.05428)&rbrack;
+
 ### Rozansky-Witten theory
 
 That [[Rozansky-Witten invariants]], originally conceived only for [[hyperkähler manifolds]], are more generally defined for holomorphic symplectic manifolds is due to
