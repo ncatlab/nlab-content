@@ -212,8 +212,9 @@ what today is called a _sequent_ is introduced under _Sequenz_ (Ger: _sequence_)
 
 In the lectures 
 
-* [[Per Martin-Löf]], _On the meaning of logical constants and the justifications of the logical laws_, leture series in Siena (1983) ([pdf](https://ncatlab.org/nlab/files/MartinLofOnTheMeaning96.pdf))
- {#Martin-L&#246;f83}
+* {#Martin-L&#246;f83}
+ [[Per Martin-Löf]]: *On the Meanings of the Logical Constants and the Justifications of the Logical Laws*, Nordic Journal of Philosophical Logic, **1** 1 (1996) 11-60 &lbrack;[[MartinLofOnTheMeaning96.pdf:file]]&rbrack;
+ 
 
 where the author provides a modern foundation for logic based on a clear separation of the notions of [[judgment]] and [[proposition]] (see at [[Martin-Löf dependent type theory]]) the author says (pages 29-30) that "the forms of hypothetical judgements that I shall need" are [[Gentzen]]'s sequents without the symmetry between [[antecedent]] and [[succedent]] that Gentzen used.
 
