@@ -64,7 +64,7 @@ If in the above definition there is _at most_ one such $s$, we say that $A$ is a
 
 =--
 
-In this form the definition appears for instance in  ([Johnstone, def. C2.1.2](#Johnstone)).-
+In this form the definition appears for instance in  ([Johnstone, def. C2.1.2](#Johnstone)).
 
 
 ### General definition abstractly
