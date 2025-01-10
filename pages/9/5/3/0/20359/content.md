@@ -304,7 +304,7 @@ Under the general relation between the Sullivan model and the original Quillen m
 
 It is made fully explicit in 
 
-* {#AndrewsArkowitz78} Peter Andrews, [[Martin Arkowitz]], Theorem 6.1 _Sullivan's Minimal Models and Higher Order Whitehead Products_, Canadian Journal of Mathematics, 30(5), 961-982, 1978 ([doi:10.4153/CJM-1978-083-6](https://doi.org/10.4153/CJM-1978-083-6))
+* {#AndrewsArkowitz78} [[Peter Andrews]], [[Martin Arkowitz]], Theorem 6.1 of: _Sullivan's Minimal Models and Higher Order Whitehead Products_, Canadian Journal of Mathematics **30** 5 (1978) 961-982 &lbrack;[doi:10.4153/CJM-1978-083-6](https://doi.org/10.4153/CJM-1978-083-6)&rbrack;
 
 where the result is attributed to
 
