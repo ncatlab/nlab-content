@@ -1,7 +1,13 @@
 
 * [webpage](http://www.cis.upenn.edu/~jean/home.html)
 
+
 ## Selected writings
+
+On [[surfaces]]:
+
+* [[Jean Gallier]], [[Dianna Xu]]: *A Guide to the Classification Theorem for Compact Surfaces*, Springer (2013) &lbrack;[doi:10.1007/978-3-642-34364-3](https://doi.org/10.1007/978-3-642-34364-3), [pdf](https://cs.brynmawr.edu/~dxu/surfclassif.pdf), [Wikipedia entry](https://en.wikipedia.org/wiki/A_Guide_to_the_Classification_Theorem_for_Compact_Surfaces)&rbrack;
+
 
 On [[differential geometry]] and [[Lie groups]]:
 
