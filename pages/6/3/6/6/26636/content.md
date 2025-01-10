@@ -23,6 +23,10 @@ On methods of [[quantization]] ([[geometric quantization]], [[strict deformation
 
 * [[Joshua Lackman]], *Geometric Quantization Without Polarizations* &lbrack;[arXiv:2405.01513](https://arxiv.org/abs/2405.01513)&rbrack;
 
+On [[Berezin quantization]] generalized to  [[holomorphic symplectic manifolds]]:
+
+* [[Joshua Lackman]]: *Quantization of Holomorphic Symplectic Manifolds: Analytic Continuation of Path Integrals and Coherent States* &lbrack;[arXiv:2501.05428](https://arxiv.org/abs/2501.05428)&rbrack;
+
 
 category: people
 
