@@ -1,5 +1,10 @@
 
-* [Personal webpage](https://sites.google.com/view/luuk-stehouwer)
+* [personal page](https://luukstehouwer.com/)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=ouelDL8AAAAJ&hl=en)
+
+* [inSpire page](https://inspirehep.net/authors/1944937)
+
 
 ## Selected writings
 
