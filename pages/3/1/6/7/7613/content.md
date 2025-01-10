@@ -294,6 +294,13 @@ us from establishing the full quantum theory.
 
 \linebreak
 
+[[David Gross]], in concluding the [Strings 2025](https://nyuad.nyu.edu/en/academics/divisions/science/strings-conference-2025-abu-dhabi.html) meeting (10 Jan 2025, [Day 5 afternoon session 2](https://youtu.be/0QlNKjm-peY) @ [1:05:48](https://t.co/D5VGrHtlQB)):
+
+> It's always surprising to me that  there is not even any talk on: "What is M-Theory?" \[...\] Why have we totally given up on
+trying to understand  "What is M-Theory?"
+
+\linebreak
+
 ### Non-abelian DBI-action
  {#OpenProblemNonabelianDBI}
 
