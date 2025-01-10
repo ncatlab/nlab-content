@@ -288,6 +288,11 @@ This means that:
   
 \end{remark}
 
+### Laughlin state with quasi-holes
+
+(...)
+
+
 \linebreak
 
 (...)
