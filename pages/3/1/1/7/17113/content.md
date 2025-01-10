@@ -11,7 +11,7 @@ On [[Whitehead products]] in relation to [[Pontrjagin products]]:
 
 On [[Whitehead products]] in [[rational homotopy theory]], and the statement that *[[the co-binary Sullivan differential is the dual of the Whitehead product]]*:
 
-* {#AndrewsArkowitz78} Peter Andrews, [[Martin Arkowitz]], _Sullivan's Minimal Models and Higher Order Whitehead Products_, Canadian Journal of Mathematics, 30(5), 961-982, 1978 ([doi:10.4153/CJM-1978-083-6](https://doi.org/10.4153/CJM-1978-083-6))
+* {#AndrewsArkowitz78} [[Peter Andrews]], [[Martin Arkowitz]]: _Sullivan's Minimal Models and Higher Order Whitehead Products_, Canadian Journal of Mathematics **30** 5 (1978) 961-982 &lbrack;[doi:10.4153/CJM-1978-083-6](https://doi.org/10.4153/CJM-1978-083-6)&rbrack;
 
 
 
