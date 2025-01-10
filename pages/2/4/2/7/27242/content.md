@@ -49,5 +49,11 @@ Named after [[Felix Berezin]].
 
 * V. F. Molchanov: *Berezin quantization and representation theory*, Indagationes Mathematicae (2024) &lbrack;[doi:10.1016/j.indag.2024.03.006](https://doi.org/10.1016/j.indag.2024.03.006)&rbrack;
 
+Generalization to [[holomorphic symplectic manifolds]]:
+
+* [[Joshua Lackman]]: *Quantization of Holomorphic Symplectic Manifolds: Analytic Continuation of Path Integrals and Coherent States* &lbrack;[arXiv:2501.05428](https://arxiv.org/abs/2501.05428)&rbrack;
+
+
+
 
 
