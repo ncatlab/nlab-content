@@ -59,9 +59,28 @@ Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]
 
 [[!include low dimensional manifolds -- table]]
 
+
 ## References
 
+See also:
+
+* Wikipedia: *<a href="https://en.wikipedia.org/wiki/Surface_(topology)">Surface (topology)</a>*
+
 * [[Manifold Atlas]], _[2-manifolds](www.map.mpim-bonn.mpg.de/2-manifolds)_
+
+Review of the classification of surfaces by fundamental [[polygons]]
+
+* E. C. Zeeman: *An Introduction to Topology -- The Classification theorem for Surfaces* &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/surgery/zeeman.pdf), [pdf](https://www.maths.ed.ac.uk/~v1ranick/surgery/ecztop.pdf), [[Zeeman-ClassificationOfSurfaces.pdf:file]]&rbrack;
+
+* Chen Hui George Teo: *Classification of Surfaces*, REU notes (2011) &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Teo.pdf), [[CHGT-ClassificationOfSurfaces.pdf:file]]&rbrack;
+
+* Thomas George: *The Classification of Surfaces with Boundary*, REU notes (2001) &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/George.pdf), [[George-SurfacesWithBoundary.pdf:file]]&rbrack;
+
+* Ana da Silva Rodrigues: *Classification of Surfaces*, BSc thesis, ETH (2023) &lbrack;[pdf](https://people.math.ethz.ch/~acannas/Student_Papers/BSc_Theses/2023_bsc_da_silva_classification_of_surfaces.pdf), [[Rodrigues-ClassificationOfSurfaces.pdf:file]]&rbrack;
+
+See also:
+
+* Wikipedia: *[Fundamental polygon](https://en.wikipedia.org/wiki/Fundamental_polygon)*
 
 Discussion of [[de Rham cohomology]] of surfaces:
 
