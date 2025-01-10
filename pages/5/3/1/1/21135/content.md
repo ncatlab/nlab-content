@@ -72,7 +72,7 @@ Generalization of the K-theory classification of free topological pgases to incl
 
 Discussion via [[cobordism cohomology]]:
 
-* [[Anton Kapustin]], [[Ryan Thorngren]], Alex Turzillo, Zitao Wang, _Electrons Fermionic Symmetry Protected Topological Phases and Cobordisms_, JHEP 1512:052, 2015 ([arXiv:1406.7329](https://arxiv.org/abs/1406.7329))
+* [[Anton Kapustin]], [[Ryan Thorngren]], Alex Turzillo, Zitao Wang: *Electrons Fermionic Symmetry Protected Topological Phases and Cobordisms*, JHEP 1512:052 (2015) \[<a href="https://doi.org/10.1007/JHEP12(2015)052">doi:10.1007/JHEP12(2015)052</a>, [arXiv:1406.7329](https://arxiv.org/abs/1406.7329)\]
 
 * [[Daniel Freed]], [[Michael Hopkins]], _Reflection positivity and invertible topological phases_ ([arXiv:1604.06527](https://arxiv.org/abs/1604.06527))
 
