@@ -1,4 +1,11 @@
 
+* [institute page](https://profiles.uts.edu.au/Simon.Devitt)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Simon_Devitt)
+
+* [inSpire page](https://inspirehep.net/authors/2152436)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=v_L0Gm4AAAAJ&hl=en)
 
 ## Selected writings
 
