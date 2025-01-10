@@ -7,6 +7,10 @@
 
 * [Publication list](http://en.scientificcommons.org/liang_kong)
 
+* [GoogleScholar page](https://scholar.google.com/citations?user=LJEeXMoAAAAJ&hl=zh-CN)
+
+* [inSpire page](https://inspirehep.net/authors/1058486)
+
 
 ## Selected writings
 
