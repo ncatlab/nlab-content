@@ -1,5 +1,8 @@
 
-* [webpage](https://www.gradydaniel.com/)
+* [personal page](https://www.gradydaniel.com)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=I32nICcAAAAJ&hl=en)
+
 
 ## Selected writings
 
@@ -28,6 +31,10 @@ On [[local field theory|locality]] of [[extended functorial field theory|extende
 On the [[cobordism hypothesis]] for [[extended functorial field theory|extended]] [[functorial field theory]] equipped with geometric structure (such as [[conformal field theory]] etc.):
 
 * [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* ([arXiv:2111.01095](https://arxiv.org/abs/2111.01095))
+
+On the [[ordinary differential cohomology]] and [[differential K-theory]] of the [[moduli stack]] $\mathbf{B}G_{conn}$ of [[principal connections]] for a [[Lie group]] $G$, in relation to the [[invariant polynomials]] for the [[Lie algebra]] $\mathfrak{g}$:
+
+* [[Daniel Grady]]: *On the differential K-theory of moduli stacks* &lbrack;[arXiv:2501.03108](https://arxiv.org/abs/2501.03108)&rbrack;
 
 
 category: people
