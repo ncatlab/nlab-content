@@ -18,7 +18,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -790,9 +790,13 @@ The notion of invariant polynomials of $L_\infty$-algebras has been introduced i
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_\infty$-connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos+--+references#SSSI">web</a>).
 
-The abstract characterization is due to 
+Discussion via [[differential cohomology]] of the [[moduli stack]] $\mathbf{B}G_{conn}$:
 
-* {#FreedHopkins13} [[Daniel Freed]], [[Michael Hopkins]], _Chern-Weil forms and abstract homotopy theory_, Bull. Amer. Math. Soc. 50 (2013), 431-468 ([arXiv:1301.5959](http://arxiv.org/abs/1301.5959))
+* {#FreedHopkins13} [[Daniel Freed]], [[Michael Hopkins]]: _*Chern-Weil forms and abstract homotopy theory*, Bull. Amer. Math. Soc. **50** (2013) 431-468 &lbrack;[arXiv:1301.5959](http://arxiv.org/abs/1301.5959), [doi:S0273-0979-2013-01415-0](https://www.ams.org/journals/bull/2013-50-03/S0273-0979-2013-01415-0)&rbrack;
+  > (via [[de Rham cohomology]])
+
+* [[Daniel Grady]]: *On the differential K-theory of moduli stacks* &lbrack;[arXiv:2501.03108](https://arxiv.org/abs/2501.03108)&rbrack;
+  > (via [[ordinary differential cohomology]] and [[differential K-theory]])
 
 An account in the more general context of Lie theory in [[cohesive (infinity,1)-toposes]] is in section 3.3.11 of 
 
