@@ -24,16 +24,17 @@ Attempts to define the SI unit of mass, i.e. the kilogram, in terms of invariant
 
 Of course the choice of $12 \,\mathrm{g}$ of $\mathrm{C}^{12}$ is entirely arbitrary and just serves as some example of a typical laboratory-scale macroscopic quantity.
 
-Accordingly, later it was found useful to have different such macroscopic reference quantities, for instance the _pound mole_ in addition to the (standard) gram mole. For exchanging between these it was found useful to introduce [[unit]]s and treat 'amount of substance' as a [[dimensional analysis|dimension]].
+Accordingly, later it was found useful to have different such macroscopic reference quantities, for instance the _pound mole_ in addition to the (standard) gram mole. For exchanging between these it was found useful to introduce [[physical units]] and treat 'amount of substance' as one such unit.
 
 Then the **Avogadro constant** is taken to be
 
 $$
-  N_A = 6.02214179(30) \times 10^{23} \,mol^{-1}
+  N_A 
+   \,=\, 6.02214179(30) \times 10^{23} \,mol^{-1}
   \,.
 $$
 
-(Strictly speaking this is $N_A = 1 \in \mathbb{R}$ in [[natural unit]]s.)
+(Strictly speaking this is $N_A = 1 \in \mathbb{R}$ in [[natural units]].)
 
 
 [[!redirects Avogadro constant]]
