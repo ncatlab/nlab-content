@@ -203,9 +203,9 @@ The notion of sequent was introduced in section 2.3 of ([Gentzen 1935](#Gentzen)
 
 ## References
 
-In section 2.3
+In Section 2.3 of
 
-* [[Gerhard Gentzen]]  _Untersuchungen &#252;ber das logische Schlie&#223;en I_ _Mathematische Zeitschrift_ 39(1), Springer-Verlag 1935. &lt;http://dx.doi.org/10.1007/BF01201353>.
+* [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schließen I_, Mathematische Zeitschrift 39:1 (1935). [doi](https://doi.org/10.1007/BF01201353).
  {#Gentzen}
 
 what today is called a _sequent_ is introduced under _Sequenz_ (Ger: _sequence_), apparently derived from _Konsequenz_ (Ger: _consequence_) and denoted by a single arrow "$\to$". 
