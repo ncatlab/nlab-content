@@ -9,7 +9,9 @@ I'm currently in the revision stage on a number of projects. For instance, on th
 
 * [[Natalie Stewart]]: _Orbital categories and weak indexing systems_ (2024)  &lbrack;[arXiv:2409.01377](https://arxiv.org/abs/2409.01377)&rbrack;
 
-On the [[Boardman-Vogt tensor product]] of [[G-∞-operads]], featuring a computation of tensor products of [[N-∞ operads]]:
+On the [[Boardman-Vogt tensor product]] of [[G-∞-operads]]:
+
+* [[Natalie Stewart]]: _Equivariant operads, symmetric sequences, and Boardman-Vogt tensor products_ (2025) ([arXiv:2501.02129](https://arxiv.org/abs/2501.02129))
 
 * [[Natalie Stewart]]: _On tensor products of equivariant commutative operads_ (draft)  &lbrack;[pdf](https://nataliesstewart.github.io/files/Ninfty_draft.pdf)&rbrack;
 
