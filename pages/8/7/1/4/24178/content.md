@@ -315,9 +315,13 @@ This means that:
 
 ### General
 
-The original article:
+The Laughlin wavefunction is due to
 
 * {#Laughlin83} [[Robert B. Laughlin]]: *Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations*, Phys. Rev. Lett. **50** (1983) 1395 &lbrack;[doi:10.1103/PhysRevLett.50.1395](https://doi.org/10.1103/PhysRevLett.50.1395)&rbrack;
+
+and the argument for the [[anyon|anyonic]] nature of its quasi-hole excitations is due to
+
+* {#ArovasSchriefferWilczek84} [[Daniel P. Arovas]], [[John Robert Schrieffer]], [[Frank Wilczek]], *Fractional Statistics and the Quantum Hall Effect*, Phys. Rev. Lett. **53** (1984) 722 \[<a href="https://doi.org/10.1103/PhysRevLett.53.722">doi:10.1103/PhysRevLett.53.722</a>\]
 
 
 Review:
