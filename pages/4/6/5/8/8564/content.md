@@ -21,19 +21,19 @@ An [[integral domain]] $R$ is a **principal ideal domain** if it satisfies any o
 
 1. $R$ is a [[Bézout domain|Bézout]] [[unique factorization domain]]
 
-1. $R$ is a [[Bézout domain|Bézout]] [[atomic domains]]
-
 1. $R$ is a [[Noetherian ring|Noetherian]] [[Bézout domain]] 
 
 1. $R$ is a [[Bézout domain]] which satisfies the [[ascending chain condition on principal ideals]]  
+
+1. $R$ is a [[Bézout domain|Bézout]] [[atomic domain]]
 
 1. $R$ has a [[Dedekind-Hasse norm]]
 
 Often _pid_ is used as an abbreviation of "principal ideal domain".
 
-To show that definitions (2-5) are equivalent, consider that unique factorization domains, atomic domains, and Noetherian domains all satisfy the [[ascending chain condition on principal ideals]]. In addition, every [[GCD domain]] which satisfies the [[ascending chain condition on principal ideals]] is a [[unique factorization domain]]. Since [[Bézout domains]] are [[GCD domains]], the first four definitions are equivalent to each other. 
+To show that definitions (2-4) are equivalent, consider that unique factorization domains and Noetherian domains both satisfy the [[ascending chain condition on principal ideals]]. In addition, every [[GCD domain]] which satisfies the [[ascending chain condition on principal ideals]] is a [[unique factorization domain]]. Since [[Bézout domains]] are [[GCD domains]], definitions (2-4) are equivalent to each other. 
 
-Now to show that definitions 1 is equivalent to (2-5). Every integral domain whose ideals are principal is a Bézout domain by considering the ideals which are finitely generated. To show that these are Noetherian domains and unique factorization domains, we have the following:
+Now to show that definitions 1 is equivalent to (2-4). Every integral domain whose ideals are principal is a Bézout domain by considering the ideals which are finitely generated. To show that these are Noetherian domains and unique factorization domains, we have the following:
 
 \begin{lemma}
 In a integral domain $R$ whose ideals are principal, an element $x$ is irreducible iff $(x)$ is a [[maximal ideal]]. 
