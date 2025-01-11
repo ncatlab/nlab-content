@@ -100,10 +100,18 @@ On [[boundary conditions]] and line-[[defect field theory|defects]] in abelian C
 
 * [[Anton Kapustin]]: *Ground-state degeneracy for abelian anyons in the presence of gapped boundaries*, Phys. Rev. B **89** (2014) 125307  &lbrack;[arXiv:1306.4254](https://arxiv.org/abs/1306.4254), [doi:10.1103/PhysRevB.89.125307](https://doi.org/10.1103/PhysRevB.89.125307)&rbrack;
 
+Discussion via [[locally covariant AQFT|locally covariant]] [[algebraic quantum field theory]]:
 
-On [[lattice gauge theory|lattice formulation]] of abelian Chern-Simons and its canonical [[quantization of D=3 Chern-Simons theory]]:
+* [[Claudio Dappiaggi]], [[Simone Murro]], [[Alexander Schenkel]]: *Non-existence of natural states for Abelian Chern-Simons theory*, J. Geom. Phys. **116** (2017) 119-123 &lbrack;[arXiv:1612.04080](https://arxiv.org/abs/1612.04080), [arXiv:10.1016/j.geomphys.2017.01.015](https://doi.org/10.1016/j.geomphys.2017.01.015)&rbrack;
+
+
+On [[lattice gauge theory|lattice formulation]] of abelian Chern-Simons theory:
+
+* Kai Sun, Krishna Kumar, [[Eduardo Fradkin]]: *Discretized Abelian Chern-Simons gauge theory*, Phys. Rev. B **92** (2015) 115148 &lbrack;[doi:10.1103/PhysRevB.92.115148](https://doi.org/10.1103/PhysRevB.92.115148)&rbrack;
 
 * [[Theodore Jacobson]], [[Tin Sulejmanpasic]]: *Modified Villain formulation of abelian Chern-Simons theory*, Phys. Rev. D **107** (2023) 125017 &lbrack;[arXiv:2303.06160](https://arxiv.org/abs/2303.06160), [doi:10.1103/PhysRevD.107.125017](https://doi.org/10.1103/PhysRevD.107.125017)&rbrack;
+
+and its canonical [[quantization of D=3 Chern-Simons theory|quantization]]:
 
 * [[Theodore Jacobson]], [[Tin Sulejmanpasic]]: *Canonical quantization of lattice Chern-Simons theory*, High Energ. Phys. **2024** (2024) 87 &lbrack;[arXiv:2401.09597](https://arxiv.org/abs/2401.09597), <a href="https://doi.org/10.1007/JHEP11(2024)087">doi:10.1007/JHEP11(2024)087</a>&rbrack;
 
