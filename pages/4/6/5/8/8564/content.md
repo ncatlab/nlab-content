@@ -221,7 +221,19 @@ However, this ideal cannot be proved to be finitely generated either.  If an ide
 
 Similarly, the notion of [[integral domain with Dedekind-Hasse norm]] is not the same as a principal ideal domain in constructive mathematics. The ring of integers is a [[discrete integral domain|discrete]] [[Euclidean domain]] and thus has a [[Dedekind-Hasse norm]]. However, it is not a principal ideal domain as shown above unless excluded middle holds. 
 
-On the other hand, we could try to modify the concept of principal ideal domain to recover a concept that is identical to the usual one in [[classical mathematics]] but also includes $\mathbb{Z}$. There are many such possible definitions, including [[Noetherian ring|Noetherian]] [[Bézout domains]] and [[Bézout domains|Bézout]] [[unique factorisation domains]]. 
+On the other hand, we could try to modify the concept of principal ideal domain to recover a concept that is identical to the usual one in [[classical mathematics]] but also includes $\mathbb{Z}$. There are many such possible definitions, such as
+
+1. [[Bézout domains]] which are also [[unique factorization domains]]
+
+1. [[Bézout domains]] which are also [[atomic domains]]
+
+1. [[Bézout domains]] which are also [[Noetherian ring|Noetherian]]
+
+1. [[Bézout domains]] which satisfy the [[ascending chain condition on principal ideals]]  
+
+1. Integral domains with a [[Dedekind-Hasse norm]]
+
+It is unknown if any of these definitions are equivalent to each other in constructive mathematics. 
 
 ## See also
 
