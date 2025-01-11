@@ -3,7 +3,13 @@
 
 * [cv](http://fisica.unipv.it/personale/PersFiles/Curr_308.pdf)
 
+
 ## Selected writings
+
+On [[quantum field theory|quantum]] [[gauge theory]] with [[abelian group|abelian]] [[gauge group]] via [[locally covariant AQFT|locally covariant]] [[algebraic quantum field theory]]:
+
+* [[Marco Benini]], [[Claudio Dappiaggi]], [[Alexander Schenkel]]: *Quantized Abelian principal connections on Lorentzian manifolds*,  Commun. Math. Phys. **330** (2014) 123–152 &lbrack;[arXiv:1303.2515](http://arxiv.org/abs/1303.2515), [doi:10.1007/s00220-014-1917-0](https://doi.org/10.1007/s00220-014-1917-0)&rbrack;
+
 
 On [[self-dual higher gauge theory]] on [[Lorentzian spacetimes]] via [[ordinary differential cohomology]]:
 
