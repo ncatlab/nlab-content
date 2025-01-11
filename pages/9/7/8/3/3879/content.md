@@ -108,9 +108,7 @@ The version of this belief in the necessity of deep mathematics for physics to b
 
 * [[Michael Reed]], [[Barry Simon]]: *[[Methods of Modern Mathematical Physics]]*, Academic Press (1978) 
 
-
-* {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985 ([ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html))
-
+* {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, University of Chicago Press (1985) &lbrack;[ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html), [ark:/13960/t10p8v264](https://archive.org/details/mathematicalphys0000gero/mode/2up)&rbrack;
   > (introduces concepts via their [[categories]])
 
 * {#Matolcsi86} [[Tamás Matolcsi]], _A Concept of Mathematical Physics_
