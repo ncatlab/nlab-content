@@ -36,7 +36,15 @@ For the case of [[rings]] $(R, \cdot, +)$ further conditions on the additive ope
 
 See also at *[[anti-subalgebra]]* the *[example of anti-ideals](antisubalgebra#AntiIdeals)*.
 
+## Related concepts
 
+* [[anti-generated anti-ideal]]
+
+* [[principal anti-ideal]]
+
+* [[prime anti-ideal]]
+
+* [[minimal anti-ideal]]
 
 ## References
 
@@ -52,7 +60,6 @@ See also at *[[anti-subalgebra]]* the *[example of anti-ideals](antisubalgebra#A
 [[!redirects antiideal]]
 [[!redirects antiideals]]
 
-
 [[!redirects antigenerated antiideal]]
 [[!redirects antigenerated antiideals]]
 [[!redirects antiideal antigenerated]]
@@ -66,7 +73,6 @@ See also at *[[anti-subalgebra]]* the *[example of anti-ideals](antisubalgebra#A
 [[!redirects principal antiideals]]
 [[!redirects principal anti-ideal]]
 [[!redirects principal anti-ideals]]
-
 
 [[!redirects left antiideal]]
 [[!redirects left antiideals]]
