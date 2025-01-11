@@ -23,7 +23,7 @@ A weak version of the [[ascending chain condition]] for [[rings]] which only app
 
 * [[Noetherian rings]] satisfy the ascending chain condition on principal ideals. 
 
-* [[unique factorization domains]] satisfy the ascending chain condition on principal ideals. 
+* [[unique factorization domains]] are precisely the [[GCD domains]] which satisfy the ascending chain condition on principal ideals. 
 
 ## Related concepts
 
