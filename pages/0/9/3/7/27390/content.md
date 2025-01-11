@@ -21,7 +21,7 @@ An atomic domain is an [[integral domain]] in which every [[cancellative element
 
 ## Examples
 
-Examples of atomic domains include [[unique factorization domains]] and [[Noetherian ring|Noetherian]] [[integral domain|domains]]. 
+Examples of atomic domains include [[unique factorization domains]] and [[Noetherian ring|Noetherian]] [[integral domain|domains]]. More generally, every [[integral domain]] satisfying the [[ascending chain condition on principal ideals]] is an atomic domain. 
 
 ## Related concepts
 
