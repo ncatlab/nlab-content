@@ -40,10 +40,6 @@ Another example of a commutative magma is a [[midpoint algebra]].
 
 * [[commutative semigroup]] (associative version)
 
+* [[commutative operation]]
+
 [[!redirects commutative magmas]]
-
-[[!redirects commutative operation]]
-[[!redirects commutative operations]]
-
-
-[[!redirects commutativity]]
