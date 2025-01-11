@@ -95,8 +95,11 @@ Claim of a relation between Seifert manifolds and [[topological order]] in the g
 
 * [[Shawn X. Cui]], [[Yang Qiu]], [[Zhenghan Wang]], *From Three Dimensional Manifolds to Modular Tensor Categories*, Commun. Math. Phys. **397** (2023) 1191–1235 \[<a href="https://doi.org/10.1007/s00220-022-04517-4">doi:10.1007/s00220-022-04517-4</a>, [arXiv:2101.01674](https://arxiv.org/abs/2101.01674)\]
 
-
 * [[Federico Bonetti]], [[Sakura Schäfer-Nameki]], Jingxiang Wu: *$MTC[M_3,G]$: 3d Topological Order Labeled by Seifert Manifolds* &lbrack;[arXiv:2403.03973](https://arxiv.org/abs/2403.03973)&rbrack;
+
+See also:
+
+* Nathan Paul Moore: *String Theory, Chern-Simons Theory and the Fractional Quantum Hall Effect*, PhD thesis (2014) &lbrack;[spire:1783390](https://inspirehep.net/literature/1783390)&rbrack;
 
 
 [[!redirects Seifert fibrations]
