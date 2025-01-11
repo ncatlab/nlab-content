@@ -165,9 +165,7 @@ or the always true statement that every [[split surjection]] splits.
 
 * The [[partial function classifier]] of any [[singleton]] is the [[boolean domain]]. 
 
-* The [[ring]] of [[integers]] is a [[principal ideal domain]]. 
-
-* Given a prime number $p$, the [[finite field]] $\mathbb{Z}/p\mathbb{Z}$ is a [[principal ideal domain]]. 
+* Every [[ideal]] of a [[discrete integral domain|discrete]] [[Bézout domain|Bézout]] [[unique factorization domain]] is a [[principal ideal]]. 
 
 ## Double-negated PEM
  {#DoubleNegatedPEM}
