@@ -72,12 +72,11 @@ The traditional idea of field bundle is discussed for instance around section 7.
 
 Detailed discussion of field bundles in [[gauge theory]] with a fixed [[instanton sector]]/[[principal bundle]]-class is around section 2.5 of 
 
-* {#BDS} [[Marco Benini]], [[Claudio Dappiaggi]], [[Alexander Schenkel]], _Quantized Abelian principal connections on Lorentzian manifolds_, Communications in Mathematical Physics 2013 ([arXiv:1303.2515](http://arxiv.org/abs/1303.2515))
+* {#BDS} [[Marco Benini]], [[Claudio Dappiaggi]], [[Alexander Schenkel]]: *Quantized Abelian principal connections on Lorentzian manifolds*,  Commun. Math. Phys. **330** (2014) 123–152 &lbrack;[arXiv:1303.2515](http://arxiv.org/abs/1303.2515), [doi:10.1007/s00220-014-1917-0](https://doi.org/10.1007/s00220-014-1917-0)&rbrack;
 
 and the issue is highlighted more explicitly in 
 
-* {#Schenkel14} [[Alexander Schenkel]], _On the problem of gauge theories
-in locally covariant QFT_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([[SchenkelTrento2014.pdf:file]]) 
+* {#Schenkel14} [[Alexander Schenkel]], _On the problem of gauge theories in locally covariant QFT_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([[SchenkelTrento2014.pdf:file]]) 
 
 * {#Schreiber14} [[Urs Schreiber]], _Higher field bundles for gauge fields_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([[schreiber:Higher field bundles for gauge fields|web]])
 
