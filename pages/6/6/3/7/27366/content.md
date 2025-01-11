@@ -313,7 +313,7 @@ $$
 ### Linear representations
 
 \begin{example}
-For $k \in \mathbb{Z}$, the non-trivial [[irrep]] of twice the $\mathbb{Z}_{2 {\left\vert k \right\vert}}$-Heisenberg extension of $\mathbb{Z}^2$ (eq:TwiceOfBasicIntegerHeisInSymplecticForm)
+For $k \in \mathbb{Z}$, the non-[[trivial representaiton|trivial]] [[irreducible representations]] of twice the $\mathbb{Z}_{2 {\left\vert k \right\vert}}$-Heisenberg extension of $\mathbb{Z}^2$ (eq:TwiceOfBasicIntegerHeisInSymplecticForm)
 \[
   \label{IrrepOfInyegerHeisenbergGroup}
   \begin{array}{ccc}
@@ -326,7 +326,11 @@ For $k \in \mathbb{Z}$, the non-trivial [[irrep]] of twice the $\mathbb{Z}_{2 {\
     \big)
   \end{array}
 \]
-is, up to [[isomorphism]], given by:
+are, up to [[isomorphism]], labeled by
+$$
+  \nu \,\coloneqq\, p/k,\;\; p \in \{1, 2, \cdots, k\}  
+$$
+and given by:
 $$
   \mathscr{H}_1
   \;\coloneqq\;
@@ -340,7 +344,7 @@ $$
   &\colon&
   {\big\vert [n] \big\rangle}
   &\mapsto&
-  e^{2 \pi \mathrm{i} \tfrac{n}{k}}
+  e^{2 \pi \mathrm{i} n \nu}
   {\big\vert [n] \big\rangle}
   \\
   W_b  
@@ -357,7 +361,7 @@ $$
   &\colon&
   {\big\vert [n] \big\rangle}
   &\mapsto&
-  e^{\pi \mathrm{i} \tfrac{1}{k}}
+  e^{\pi \mathrm{i} \nu}
   {\big\vert [n] \big\rangle}
   \mathrlap{\,.}
   \end{array}
