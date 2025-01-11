@@ -30,6 +30,8 @@ In commutative rings, since the set of all principal ideals is isomorphic to the
 
 * [[principal ideal domain]]
 
+* [[principal ideal ring]]
+
 * [[principal anti-ideal]]
 
 [[!redirects principal ideals]]
