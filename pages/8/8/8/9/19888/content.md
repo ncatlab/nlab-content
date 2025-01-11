@@ -14,7 +14,7 @@ On the [[rational cohomology]] of [[iterated loop spaces]] of [[n-spheres]] ([[c
 
 On [[configuration spaces]] and the [[homotopy type]] of [[mapping spaces]] from [[surfaces]] into [[complex projective spaces]] $\mathbb{C}P^n$ (hence of [[cohomotopy]] [[cocycle spaces]] for $n = 1$):
 
-* {#Kallel01} [[Sadok Kallel]]: *Configuration Spaces and the Topology of Curves in Projective Space*, in: *Topology, Geometry, and Algebra: Interactions and new directions*, Contemporary Mathematics **279**, AMS (2001) 151–175 &lbrack;[doi:10.1090/conm/279](https://doi.org/10.1090/conm/279), [pdf](https://math.univ-lille1.fr/~kallel/Papers/pconfig.pdf)&rbrack; 
+* {#Kallel01} [[Sadok Kallel]]: *Configuration Spaces and the Topology of Curves in Projective Space*, in: *Topology, Geometry, and Algebra: Interactions and new directions*, Contemporary Mathematics **279**, AMS (2001) 151–175 &lbrack;[doi:10.1090/conm/279](https://doi.org/10.1090/conm/279), [arXiv:math-ph/0003010](https://arxiv.org/abs/math-ph/0003010)&rbrack; 
 
 
 On [[configuration spaces of points]]:
