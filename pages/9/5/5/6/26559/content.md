@@ -1,6 +1,4 @@
 
-> under construction 
-
 > this page is based on the [[Encyclopedia of Mathematical Physics 2nd ed|MathPhys Encyclopedia]]-entry *[[schreiber:Flux Quantization|SS24]]* 
 
 > this entry is one section of "[[geometry of physics]]"
