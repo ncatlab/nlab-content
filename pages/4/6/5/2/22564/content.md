@@ -84,6 +84,8 @@ where $ S \overset{diag_n}{\longrightarrow} S^n$ is the [[diagonal morphism]].
 
 * [[group]]
 
+* [[commutative operation]]
+
 ## References
 
 * Wikipedia, [n-ary group](https://en.wikipedia.org/wiki/N-ary_group)
