@@ -99,7 +99,7 @@ After [[Loday]] had proved that [[cat-n-group]]s modelled all connected [[homoto
 
 ## Van Kampen spectral sequence (Artin-Mazur)
 
-Artin and Mazur proved the existence of a spectral sequence determined by the [[Cech complex]] of an open cover. This converges to the homotopy groups of the big space. There does nnot seem to have been any study done of the relationship of their results with the others mentioned above.  Their methods are very similar to those used for the Dugger-Isaksen small simplex theorem, however.
+Artin and Mazur proved the existence of a spectral sequence determined by the [[Cech complex]] of an open cover. This converges to the homotopy groups of the big space. There does not seem to have been any study done of the relationship of their results with the others mentioned above.  Their methods are very similar to those used for the Dugger-Isaksen small simplex theorem, however.
 
 
 ## For objects in a cohesive $(\infty,1)$-topos
