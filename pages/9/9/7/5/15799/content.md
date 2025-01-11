@@ -1,12 +1,22 @@
 
-* [webpage](http://www.aschenkel.eu)
+* [personal page](http://www.aschenkel.eu)
+
+* [institute page](https://www.nottingham.ac.uk/mathematics/people/alexander.schenkel)
+
+* [inSpire page](https://inspirehep.net/authors/1058990)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=GqUTlV4AAAAJ&hl=en)
+
 
 
 ## Selected writings
 
-On construction and axiomatization of [[homotopical AQFT]] via [[homotopy theory]] and [[homotopical algebra]]:
+On [[quantum field theory|quantum]] [[gauge theory]] with [[abelian group|abelian]] [[gauge group]] via [[locally covariant AQFT|locally covariant]] [[algebraic quantum field theory]]:
 
-* {#BDS} [[Marco Benini]], [[Claudio Dappiaggi]], [[Alexander Schenkel]], _Quantized Abelian principal connections on Lorentzian manifolds_, Communications in Mathematical Physics 2013 ([arXiv:1303.2515](http://arxiv.org/abs/1303.2515))
+* [[Marco Benini]], [[Claudio Dappiaggi]], [[Alexander Schenkel]]: *Quantized Abelian principal connections on Lorentzian manifolds*,  Commun. Math. Phys. **330** (2014) 123–152 &lbrack;[arXiv:1303.2515](http://arxiv.org/abs/1303.2515), [doi:10.1007/s00220-014-1917-0](https://doi.org/10.1007/s00220-014-1917-0)&rbrack;
+
+
+On construction and axiomatization of [[homotopical AQFT]] via [[homotopy theory]] and [[homotopical algebra]]:
 
 * {#BeniniSchenkelSzabo15} [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Homotopy colimits and global observables in Abelian gauge theory_ ([arXiv:1503.08839](http://arxiv.org/abs/1503.08839))
 
@@ -37,6 +47,11 @@ Review and exposition:
 On [[supersymmetry|supersymmetric]] [[quantum field theory]] via [[local nets of observables]] on [[supermanifolds]]:
 
 * Thomas-Paul Hack, Florian Hanisch, [[Alexander Schenkel]]: Section 3 of: *Supergeometry in locally covariant quantum field theory*, Commun. Math. Phys. **342** 615 (2016) \[<a href="https://doi.org/10.1007/s00220-015-2516-4">doi:10.1007/s00220-015-2516-4</a>, [arXiv:1501.01520](https://arxiv.org/abs/1501.01520)\]
+
+
+On [[abelian Chern-Simons theory]] via [[locally covariant AQFT|locally covariant]] [[algebraic quantum field theory]]:
+
+* [[Claudio Dappiaggi]], [[Simone Murro]], [[Alexander Schenkel]]: *Non-existence of natural states for Abelian Chern-Simons theory*, J. Geom. Phys. **116** (2017) 119-123 &lbrack;[arXiv:1612.04080](https://arxiv.org/abs/1612.04080), [arXiv:10.1016/j.geomphys.2017.01.015](https://doi.org/10.1016/j.geomphys.2017.01.015)&rbrack;
 
 
 An [[operad]] for [[local nets of observables]] in [[AQFT]] 
