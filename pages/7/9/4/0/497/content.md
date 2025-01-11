@@ -165,6 +165,8 @@ or the always true statement that every [[split surjection]] splits.
 
 * The [[partial function classifier]] of any [[singleton]] is the [[boolean domain]]. 
 
+* The [[ring]] of [[integers]] is a [[principal ideal domain]]. 
+
 ## Double-negated PEM
  {#DoubleNegatedPEM}
 
