@@ -24,7 +24,7 @@ The issue is that the strongly-coupled electron dynamics, that is thought to be 
 ### Basic Laughlin wavefunction on the plane
  {#BasicLaughlinWavefunctionOnThePlane}
 
-The basic Laughlin wavefunction &lbrack;[Laughlin 1983 (6-7)](#Laughlin83)&rbrack;, for $N$ spin-less (in practice really: *spin-polarized* by a strong transversal [[magnetic field]]) [[fermions]] ([[electrons]], constrained to move) in a [[plane]], at [[odd number|odd]] "*Landau level filling fraction*" 
+The basic Laughlin wavefunction &lbrack;[Laughlin 1983 (6-7)](#Laughlin83), cf. [Laughlin 1999 (2q)](#Laughlin99)&rbrack;, for $N$ spin-less (in practice really: *spin-polarized* by a strong transversal [[magnetic field]]) [[fermions]] ([[electrons]], constrained to move) in a [[plane]], at [[odd number|odd]] "*Landau level filling fraction*" 
 
 $$
   q  \,\in\, 2\mathbb{N} + 1
@@ -317,10 +317,12 @@ This means that:
 
 The original article:
 
-* {#Laughlin83} [[Robert B. Laughlin]], *Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations*, Phys. Rev. Lett. **50** (1983) 1395 &lbrack;[doi:10.1103/PhysRevLett.50.1395](https://doi.org/10.1103/PhysRevLett.50.1395)&rbrack;
+* {#Laughlin83} [[Robert B. Laughlin]]: *Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations*, Phys. Rev. Lett. **50** (1983) 1395 &lbrack;[doi:10.1103/PhysRevLett.50.1395](https://doi.org/10.1103/PhysRevLett.50.1395)&rbrack;
 
 
 Review:
+
+* {#Laughlin99} [[Robert B. Laughlin]]: *Nobel Lecture: Fractional quantization*, Rev. Mod. Phys. **71** 4 (1999) 863 &lbrack;[doi:10.1103/RevModPhys.71.863](https://doi.org/10.1103/RevModPhys.71.863), [pdf](https://www.nobelprize.org/uploads/2018/06/laughlin-lecture.pdf)&rbrack;
 
 * [[Steven M. Girvin]], Section 2.1 of: *Introduction to the Fractional Quantum Hall Effect*, S&eacute;minaire Poincar&eacute; **2** (2004) 53–74, reprinted in *The Quantum Hall Effect*, Progress in Mathematical Physics **45**, Birkhäuser (2005)  &lbrack;[pdf](http://www.bourbaphy.fr/girvin.pdf), [doi:10.1007/3-7643-7393-8_4](https://doi.org/10.1007/3-7643-7393-8_4)&rbrack;
 
