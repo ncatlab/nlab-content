@@ -132,6 +132,12 @@ $3 \Rightarrow 2$: Follows from the fact that $I$ is injective iff $\operatornam
 
 A dual condition is artinian: an __[[artinian ring]]__ is a ring satisfying the descending chain condition on ideals. The symmetry is severely broken if one considers unital rings: for example every unital artinian ring is noetherian; artinian rings are intuitively much smaller than generic noetherian rings.
 
+## In constructive mathematics
+
+In [[classical mathematics]], Noetherian rings are [[coherent rings]]. However, in [[constructive mathematics]], it is not provable that Noetherian rings are coherent rings. 
+
+Similarly, in [[classical mathematics]], Noetherian [[Bézout domains]] are the same as [[principal ideal domains]]. However, in [[constructive mathematics]], Noetherian Bézout domains are not the same as principal ideal domains: the ring of integers is both Noetherian and Bézout, but it is a [[principal ideal domain]] if and only if [[excluded middle]] holds. (Note that [Lombardi & Quitté 2010](#LombardiQuitté2010) define a principal ideal domain as a Noetherian Bézout domain rather than an integral domain where ever ideal is a principal ideal.)
+
 ## Related concepts
 
 * [[Noetherian module]], [[Noetherian bimodule]]
@@ -151,6 +157,8 @@ Introduced by [[Emmy Noether]] in
 * [wikipedia](https://en.wikipedia.org/wiki/Noetherian_ring)
 
 * [[K. R. Goodearl]], R. B. Warfield, _An introduction to noncommutative Noetherian rings_, London Math. Society Student Texts __16__ (1st ed,), 1989, xviii+303 pp.; or 61 (2nd ed.), 2004, xxiv+344 pp. 
+
+* {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
 [[!redirects noetherian ring]]
 [[!redirects noetherian]]
