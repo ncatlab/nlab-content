@@ -66,3 +66,6 @@ Named after [[Helmut Hasse]].
 
 [[!redirects integral domain with Dedekind-Hasse norm]]
 [[!redirects integral domains with Dedekind-Hasse norm]]
+
+[[!redirects integral domain with a Dedekind-Hasse norm]]
+[[!redirects integral domains with a Dedekind-Hasse norm]]
