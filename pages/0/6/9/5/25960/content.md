@@ -40,3 +40,9 @@ $$\delta(x) = \frac1{p}(f(x) - x^q).$$
 ## Examples 
 
 (...) 
+
+[[!redirects Joyal delta-ring]]
+[[!redirects Joyal delta-rings]]
+
+[[!redirects Joyal δ-ring]]
+[[!redirects Joyal δ-rings]]
