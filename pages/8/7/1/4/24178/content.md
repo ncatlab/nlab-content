@@ -24,7 +24,7 @@ The issue is that the strongly-coupled electron dynamics, that is thought to be 
 ### Basic Laughlin wavefunction on the plane
  {#BasicLaughlinWavefunctionOnThePlane}
 
-The basic Laughlin wavefunction &lbrack;[Laughlin 1983 (6-7)](#Laughlin83), cf. [Laughlin 1999 (2q)](#Laughlin99)&rbrack;, for $N$ spin-less (in practice really: *spin-polarized* by a strong transversal [[magnetic field]]) [[fermions]] ([[electrons]], constrained to move) in a [[plane]], at [[odd number|odd]] "*Landau level filling fraction*" 
+The basic Laughlin wavefunction &lbrack;[Laughlin 1983 (6-7)](#Laughlin83), cf. [Laughlin 1999 (21)](#Laughlin99)&rbrack;, for $N$ spin-less (in practice really: *spin-polarized* by a strong transversal [[magnetic field]]) [[fermions]] ([[electrons]], constrained to move) in a [[plane]], at [[odd number|odd]] "*Landau level filling fraction*" 
 
 $$
   q  \,\in\, 2\mathbb{N} + 1
