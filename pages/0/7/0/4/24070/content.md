@@ -20,10 +20,13 @@ On the [[fractional quantum Hall effect]] via abelian but [[noncommutative geome
 
 * [[Eduardo Fradkin]], Vishnu Jejjala, [[Robert G. Leigh]]: *Non-commutative Chern-Simons for the Quantum Hall System and Duality*, Nucl. Phys. B **642** (2002) 483-500 \[<a href="https://doi.org/10.1016/S0550-3213(02)00616-8">doi:10.1016/S0550-3213(02)00616-8</a>, [arXiv:cond-mat/0205653](https://arxiv.org/abs/cond-mat/0205653)\]
 
-
 On [[solid state physics]] via [[quantum field theory]]:
 
 * [[Eduardo Fradkin]], *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) &lbrack;ISBN: 9781139015509, [doi:10.1017/CBO9781139015509](https://doi.org/10.1017/CBO9781139015509)&rbrack;
+
+On [[lattice gauge theory|lattice formulation]] of [[abelian Chern-Simons theory]]:
+
+* Kai Sun, Krishna Kumar, [[Eduardo Fradkin]]: *Discretized Abelian Chern-Simons gauge theory*, Phys. Rev. B **92** (2015) 115148 &lbrack;[doi:10.1103/PhysRevB.92.115148](https://doi.org/10.1103/PhysRevB.92.115148)&rbrack;
 
 
 category: people
