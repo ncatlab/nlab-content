@@ -241,6 +241,8 @@ It is unknown if any of these definitions are equivalent to each other in constr
 
 * [[principal ideal domain]]
 
+* [[principal ideal ring]]
+
 ## References
 
 * {#Helmer40} O. Helmer, _Divisibility properties of integral functions_, Duke Math. J.
