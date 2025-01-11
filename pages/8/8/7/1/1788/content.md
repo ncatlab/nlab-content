@@ -1,4 +1,6 @@
 
+$\to \infty$
+
 $$
   \textstyle{\bigvee_{2g}}
   \vee_{2g}
