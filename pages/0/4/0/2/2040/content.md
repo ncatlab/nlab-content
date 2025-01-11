@@ -288,7 +288,7 @@ Relation of Mackey functors to [[sheaves with transfer]] in the theory of [[moti
 
 ### Spectral Mackey functors
 
-The general concept of spectral Mackey functors
+See the [[Spectral Mackey functor theorem]]. The general concept of spectral Mackey functors
 
 * {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_, Adv. Math., 304:646–727,  2017 ([doi:10.1016/j.aim.2016.08.043](https://doi.org/10.1016/j.aim.2016.08.043), [arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
 
