@@ -167,6 +167,8 @@ or the always true statement that every [[split surjection]] splits.
 
 * The [[ring]] of [[integers]] is a [[principal ideal domain]]. 
 
+* Given a prime number $p$, the [[finite field]] $\mathbb{Z}/p\mathbb{Z}$ is a [[principal ideal domain]]. 
+
 ## Double-negated PEM
  {#DoubleNegatedPEM}
 
