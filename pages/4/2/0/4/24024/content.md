@@ -37,4 +37,6 @@ Similarly, there are forgetful functors $G:Ring \to LeftMod$ from $Ring$ to the 
 
 * [[property sup]]
 
+* [[ascending chain condition on principal ideals]]
+
 [[!redirects ascending chain conditions]]
