@@ -158,7 +158,11 @@ $$
 
 Pfaffians appear in the expression of certain multiparticle [[wave functions]] generalizing [[Laughlin wavefunctions]] modeling [[ground states]] of [[fractional quantum Hall systems]]. 
 
-Prominent here is the *pfaffian state* &lbrack;[Moore & Read 1991 (5.1)](Laughlin+wavefunction#MooreRead91)&rbrack; of an [[even number]] $N$ of spinless (or rather: spin-polarized) [[electrons]], which is the ("[[wavefunction|wave]]"-)[[function]] on the [[configuration space of points|configuration space of $N$ points]] in the ([[complex plane|complex]]) [[plane]] 
+Prominent here is the *pfaffian state* &lbrack;[Moore & Read 1991 (5.1)](Laughlin+wavefunction#MooreRead91)&rbrack; of an [[even number]] $N$ 
+
+> (In practice, $N$ is a humongous "macroscopic" number on the scale of the [[Avogadro constant]], and hence may be assumed to be [[even number|even]] without any conceivable restriction of practical generality.)
+
+of spinless (or rather: spin-polarized) [[electrons]], which is the ("[[wavefunction|wave]]"-)[[function]] on the [[configuration space of points|configuration space of $N$ points]] in the ([[complex plane|complex]]) [[plane]] 
 
 \[
   \label{MooreReadPfaffianState}
