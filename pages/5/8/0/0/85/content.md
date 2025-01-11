@@ -817,9 +817,13 @@ Day convolution for [[monoidal bicategories]] is developed in
 
 * {#Corner2016} [[Alexander Corner]], _Day convolution for monoidal bicategories_, School of Mathematics and Statistics of the University of Sheffield. Available through the [White Rose theses database](http://etheses.whiterose.ac.uk/16767/).
 
-Day convolution for [[(∞,1)-categories]] is discussed in
+Day convolution for [[symmetric monoidal (∞,1)-categories]] is discussed in
 
 * Saul Glasman, _Day convolution for infinity-categories_ ([arXiv:1308.4940](http://arxiv.org/abs/1308.4940))
+
+Day convolution for $\mathcal{O}$-promonoidal $\infty$-categories over an [[∞-operad]] is discussed in 
+
+* Jay Shah, _Parameterized higher category theory II: universal constructions_ ([arXiv:2109.11954](https://arxiv.org/abs/2109.11954))
 
 Other references cited in this page:
 
