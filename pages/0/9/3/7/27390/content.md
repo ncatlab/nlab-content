@@ -17,7 +17,7 @@
 
 ## Definition
 
-An atomic domain is an [[integral domain]] in which every [[cancellative element|cancellative]] and [[invertible element|non-invertible]] element can be written in at least one way as a finite product of [[irreducible elements]]. 
+An atomic domain is an [[integral domain]] in which every [[cancellative element|cancellative]] non-unit can be written in at least one way as a finite product of [[irreducible elements]]. 
 
 ## Examples
 
