@@ -59,7 +59,56 @@ and, going clockwise for $k \in \{0, \cdots, g-1\}$,
 ### Homotopy
  {#Homotopy}
 
-The [[fundamental group]] of the [[real manifold|real]] [[closed manifold|closed]] [[orientation|oriented]] surface $\Sigma^2_g$ of [[genus of a surface|genus]] $g \in \mathbb{N}$ (see [above](#Classification)) is the [[quotient group]] of the [[free group]] on $2g$ generators $(a_1, \cdots, a_g, \, b_1, \cdots, b_g)$ by the group product of the [[group commutators]] $[a_i, b_i]$ of the sequence of [[pairs]] of generators:
+The [above](#Classification) classification may be restated in [[algebraic topology|algebro-topological terms]] by saying that (the [[homotopy type]] of) the closed oriented genus$=g$ surface has a 2-[[dimension of a CW-complex|dimensional]] [[CW-complex]]-[[structure]] exhibited by the following [[pointed topological space|pointed]] [[cell attachment]]:
+
+\begin{tikzcd}
+  S^1
+  \ar[
+    r,
+    "{
+      \prod_i [a_i, b_i]
+    }"
+  ]
+  \ar[
+    d
+  ]
+  \ar[
+    dr,
+    phantom,
+    "{ \mathcolor{gray}{\mathrm{(po)}} }"{scale=.8, pos=.8}
+  ]
+  &
+  \bigvee_{1 \leq i \leq g}
+  S^1_a \vee S^1_b
+  \ar[
+    d
+  ]
+  \\
+  D^2
+  \ar[r]
+  &
+  \Sigma^2_g
+  \mathrlap{\,.}
+\end{tikzcd}
+
+Here $\bigvee_{2g} S^1$ is the [[wedge sum]] of $2g$ [[circles]], whose [[fundamental group]] is the [[free group]] on $2g$ generators $(a_i, b_i)_{i=1}^g$, and the [[attaching map]] is a representative in this free group of the composition of [[group commutators]]
+
+$$
+  [a_i, b_i]
+  \;\coloneqq\;
+  a_i \cdot b_i \cdot a_i^{-1} \cdot b_i^{-1}
+  \,,
+$$
+
+as indicated.
+
+
+
+
+It follows that:
+
+\begin{proposition}
+The [[fundamental group]] of the [[closed manifold|closed]] [[orientation|oriented]] [[real manifold|real]] surface $\Sigma^2_g$ of [[genus of a surface|genus]] $g \in \mathbb{N}$ (see [above](#Classification)) is the [[quotient group]] of the [[free group]] on $2g$ generators $(a_1, \cdots, a_g, \, b_1, \cdots, b_g)$ by the group product of the [[group commutators]] $[a_i, b_i]$ of the sequence of [[pairs]] of generators:
 
 $$
   \pi_1\big(
@@ -78,8 +127,9 @@ $$
   \Big)
   \,.
 $$
+\end{proposition}
 
-(cf. [Gallier & Xu 2013 p 100](#GallierXu13), [Actipes 2013, Thm. 6.3](#Actipes13))
+(cf. [Gallier & Xu 2013 p 100](#GallierXu13), [Actipes 2013 Thm. 6.3](#Actipes13))
 
 
 ## Examples
