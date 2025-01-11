@@ -38,7 +38,7 @@ The logic here proceeds in the following steps (cf. [Polyakov (2007), §1](#Poly
    which are the main qualitative features to be explained.
 
 
-1. **quantum flux tubes probe effective higher dimensions**
+1. {#QuantumFluxTubesProbeHigherDim} **quantum flux tubes probe effective higher dimensions**
 
    But if so, famous quantum effects make such [[flux tubes]]/[[strings]] behave like propagating in an effective/emergent higher-dimensional spacetime:
 
