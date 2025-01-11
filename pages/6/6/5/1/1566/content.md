@@ -105,12 +105,13 @@ Examples of [[commutative monoids in a symmetric monoidal category]]:
 
 * [[commutative monoidal setoid]]
 
+* [[commutative operation]]
+
 [[!redirects abelian monoids]]
 [[!redirects commutative monoid]]
 [[!redirects commutative monoids]]
 
 [[!redirects abelian monoid]]
-[[!redirects commutative]]
 
 ## References
 
