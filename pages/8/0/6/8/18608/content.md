@@ -70,7 +70,7 @@ A survey and problem description in [[mathematics]]/[[mathematical physics]]:
 
 > [40:24](https://youtu.be/trxjCOmg8GY?t=2424) This is now my personal guess or, if you like, hints &lbrack;or&rbrack; suggestions.
 
-> [40:30](https://youtu.be/trxjCOmg8GY?t=2430) You can try a direct analytical assault. If you are a young man and brave and you have a long way into thre future, you can just get out your hammer and chisel and crack away.
+> [40:30](https://youtu.be/trxjCOmg8GY?t=2430) You can try a direct analytical assault. If you are a young man and brave and you have a long way into the future, you can just get out your hammer and chisel and crack away.
 
 > [40:47](https://youtu.be/trxjCOmg8GY?t=2447) Or you might think that you want something different.
 
