@@ -1,5 +1,11 @@
 
 $$
+  \textstyle{\bigvee_{2g}}
+  \vee_{2g}
+$$
+
+
+$$
   \big(
     1 + \theta_1 \theta_2
   \big)
