@@ -52,6 +52,8 @@ Let $R$ be an [[integral domain]]. Then, $R$ is a UFD iff every non-zero [[prime
 
 * [[unique factorization ring]]
 
+* [[atomic domain]]
+
 ## References
 
 * [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
@@ -60,4 +62,12 @@ Let $R$ be an [[integral domain]]. Then, $R$ is a UFD iff every non-zero [[prime
 
 * [[John Baez]], *Hoàng Xuân Sính’s thesis: categorifying group theory* ([pdf](https://math.ucr.edu/home/baez/sinh.pdf))
 
+[[!redirects unique factorization domain]]
 [[!redirects unique factorization domains]]
+[[!redirects unique factorisation domain]]
+[[!redirects unique factorisation domains]]
+
+[[!redirects ufd]]
+[[!redirects ufds]]
+[[!redirects UFD]]
+[[!redirects UFDs]]
