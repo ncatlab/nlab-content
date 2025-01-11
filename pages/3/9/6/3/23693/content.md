@@ -12,12 +12,12 @@
 * table of contents
 {:toc}
 
-## Definition ##
+## Definition 
 
 A __$\sigma$-frame__ is a [[sigma-complete lattice|$\sigma$-complete lattice]] $(L, \leq, \bot, \vee, \top, \wedge, \Vee)$ such that for all elements $a \in L$ and sequences $s:\mathbb{N} \to L$, 
 $$a \wedge \Vee_{n:\mathbb{N}} s(n) = \Vee_{n:\mathbb{N}} a \wedge s(n)$$
 
-## Examples ##
+## Examples 
 
 * [[Sierpinski space]], denoted as $\Sigma$ or $1_\bot$, is the initial $\sigma$-frame. 
 
@@ -76,3 +76,11 @@ $$a \wedge \Vee_{n:\mathbb{N}} s(n) = \Vee_{n:\mathbb{N}} a \wedge s(n)$$
 * Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 * [[Raquel Bernardes]], *Lebesgue integration on $\sigma$-locales: simple functions*, ([arXiv:2408.13911](https://arxiv.org/abs/2408.13911))
+
+[[!redirects sigma-frame]]
+[[!redirects sigma-frames]]
+[[!redirects σ-frame]]
+[[!redirects σ-frames]]
+
+[[!redirects sigma frame]]
+[[!redirects sigma frames]]
