@@ -1214,7 +1214,7 @@ and more generally on $n$-[[Cohomotopy]] [[cocycle spaces]] of $n$-[[manifolds]]
 
 * {#LarmoreThomas80} L. L. Larmore, E. Thomas: *On the Fundamental Group of a Space of Sections*, Mathematica Scandinavica **47** 2 (1980) 232-246 &lbrack;[jstor:24491393](https://www.jstor.org/stable/24491393), [dml:166724](https://eudml.org/doc/166724)&rbrack;
 
-* {#Kallel01} [[Sadok Kallel]]: *Configuration Spaces and the Topology of Curves in Projective Space*, in: *Topology, Geometry, and Algebra: Interactions and new directions*, Contemporary Mathematics **279**, AMS (2001) 151–175 &lbrack;[doi:10.1090/conm/279](https://doi.org/10.1090/conm/279), [pdf](https://math.univ-lille1.fr/~kallel/Papers/pconfig.pdf)&rbrack; 
+* {#Kallel01} [[Sadok Kallel]]: *Configuration Spaces and the Topology of Curves in Projective Space*, in: *Topology, Geometry, and Algebra: Interactions and new directions*, Contemporary Mathematics **279**, AMS (2001) 151–175 &lbrack;[doi:10.1090/conm/279](https://doi.org/10.1090/conm/279), [arXiv:math-ph/0003010](https://arxiv.org/abs/math-ph/0003010)&rbrack; 
 
 
 * W. A. Sutherland: *Path-Components of Function Spaces*, The Quarterly Journal of Mathematics **34** 2 (1983) 223–233 &lbrack;[doi:10.1093/qmath/34.2.223](https://doi.org/10.1093/qmath/34.2.223)&rbrack;
