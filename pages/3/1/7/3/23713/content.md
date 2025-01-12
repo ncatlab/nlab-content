@@ -29,6 +29,12 @@ By default, this is understood to apply to the [[valence bundle]] of a [[crystal
 For [[semimetals]] the Berry phases of the [[valence bundle]] around their nodal loci of [[codimension]] 2 are a measure for the [[obstruction]] to adiabatically deforming the semimetal such as to open its gap closures, hence to become a ([[topological insulator|topological]]) [[insulator]] (eg. [Vanderbilt 18, 5.5.2](#Vanderbilt18)).
 
 
+## Examples
+
+### Braiding of Laughlin quasi-holes in FGH systems
+
+see [there](Laughlin+wavefunction#BasicLaughlinStateWithQuasiHoles).
+
 
 ## Related concepts
 
