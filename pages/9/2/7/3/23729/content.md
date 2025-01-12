@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[solid state physics]] an *insulator* is a [[crystal|crystalline]] material for which the [[chemical potential]] of the [[electrons]] is inside a sizeable gap between the [[valence band]] and the [[conduction band]]. (If there is a gap but just a small one, one speaks of a *[[semi-conductor]]*, instead.)
+In [[solid state physics]] an *insulator* is a [[crystal|crystalline]] material for which the [[chemical potential]] of the [[electrons]] is inside a sizeable [[energy gap]] between the [[valence band]] and the [[conduction band]]. (If there is a gap but just a small one, one speaks of a *[[semi-conductor]]*, instead.)
 
 This situation implies that for net [[electric charge]] to be transported through the material (hence for it to become a [[conductor]]) an energy density above the gap width has to be applied from the outside, in order to lift electron states from the [[valence bundle]] to the [[conduction bundle]], where they can then propagate. Below this energy density the material hence resists the transport of electric current.
 
@@ -31,7 +31,19 @@ Due to the energy gap, the [[valence bundle]] of an insulator is well-defined. I
 
 ## Related concepts
 
-* [[metal]]/[[conductor]], [[semi-conductor]], [[semi-metal]]
+* [[conductor (electromagnetism)|conductor]], [[semi-conductor]]
+
+* [[metal]], [[semi-metal]]
+
+## Literature
+
+See also:
+
+* Wikipedia: *<a href="https://en.wikipedia.org/wiki/Insulator_(electricity)">Insulator (electricity)</a>*
+
 
 [[!redirects insulators]]
+
+[[!redirects electric insulator]]
+[[!redirects electric insulators]]
 
