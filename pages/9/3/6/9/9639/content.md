@@ -178,7 +178,17 @@ What is measured in experiments is the *longitudinal resistivity*, which --- by 
   \,.
 \]
 
-But the hallmark of the integer quantum Hall effect is that this vanishing of the longitudinal (conductivity and hence) resistivity is observed *not just* right when the magnetic field strength is at the critical value $B = B_i$, but in a whole neighbourhood of these values, where at the same time the Hall resistivity $R_H \coloneqq \rho_{x y}$ is approximately constant and hence forms a "*Hall plateau*":
+But the hallmark of the integer quantum Hall effect is that this vanishing of the longitudinal (conductivity and hence) resistivity is observed *not just* right when the magnetic field strength is at the critical value $B = B_i$, but in a whole neighbourhood of these values, where at the same time the Hall resistivity is approximately constant -- and hence forms a "*Hall plateau*" -- on the value
+$$
+  R_H \coloneqq \rho_{x y} 
+  \;=\;
+  \frac{
+    2 \pi \hbar  
+  }{
+    e^2
+  }
+  \frac{1}{i}
+$$
 
 <center>
 <img src="https://ncatlab.org/nlab/files/IntegerQuantumHallEffect.jpg" width="500">
