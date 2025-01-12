@@ -45,7 +45,12 @@ As a [[sub-bundle]] of the full a Hilbert space bundle of a quantum system, the 
 
 ## Related concepts
 
-* [[fiber bundle in physics]]
+* [[electrical conductor]], [[semi-conductor]] 
+
+* [[insulator]], [[topological insulator]]
+
+* [[fiber bundles in physics]]
+
 
 ## References
 
