@@ -17,9 +17,10 @@
 ## Idea
  {#Idea}
 
-In [[solid state physics|solid stae]] [[quantum physics]], a  *Laughlin wavefunction* is a certain Ansatz for an [[quantum many-body physics|n-particle]] [[wavefunction]] which is meant to capture at least aspects of [[ground states]] with [[anyon|anyonic]] properties, such as of [[fractional quantum Hall systems]].
+In [[solid state physics|solid state]] [[quantum physics]], a  *Laughlin wavefunction* is a certain Ansatz for an [[quantum many-body physics|n-particle]] [[wavefunction]] which is meant to capture at least aspects of [[ground states]] with [[anyon|anyonic]] properties, such as of [[fractional quantum Hall systems]].
 
-The issue is that the strongly-coupled electron dynamics, that is thought to be responsible for the [[fractional quantum Hall effect]], cannot be solved -- not even approximately --- by existing theory (cf. the problem of [[non-perturbative quantum field theory]]). To make up for this, the Laughlin wavefunction is an *educated guess* -- jargon: *trial wavefunction* -- as to what the [[ground states]] of these systems should approximately look like to some approximation --- a guess that turns out to agree to great accuracy with [[experiment]].
+The issue is that the strongly-coupled electron dynamics, that is thought to be responsible for the [[fractional quantum Hall effect]], cannot be solved -- not even approximately --- by existing theory (cf. the problem of [[non-perturbative quantum field theory]]). To make up for this, the Laughlin wavefunction is an *educated guess* -- jargon: *trial wavefunction* -- as to what the [[ground states]] of these systems should approximately look like to some approximation --- a guess that turns out to agree accurately with [[experiment]]. As such, the Laughlin wavefunction has come to be regarded as the standard effective theory of fractional quantum Hall systems (but there is criticism of this consensus, cf. [Mikhailov 2024](#Mikhailov24)).
+
 
 ### Basic Laughlin wavefunction on the plane
  {#BasicLaughlinWavefunctionOnThePlane}
@@ -31,7 +32,7 @@ $$
   \,,
 $$
 
-is the [[complex numbers|complex]]-valued [[function]] on the [[configuration space of points|configuration space of $N$ ordered points]] in the [[plane]] --- to be thought of as the [[complex plane]] with canonical [[holomorphic function|holomorphic]] [[coordinate function]] $z$ ---, given (up to [[normalization]], which we disregard throughout) by
+is the [[complex numbers|complex]]-valued [[function]] on the [[configuration space of points|configuration space of $N$ ordered points]] in the [[plane]] --- to be thought of as the [[complex plane]] with canonical [[holomorphic function|holomorphic]] [[coordinate function]] $z$ ---, given (up to [[normalization]], which we may and do disregard throughout) by
 
 \[
   \label{BasicLaughlinState}
@@ -59,7 +60,7 @@ Here the [[absolute value]] of and hence the [[probability density]] encoded by
     \sqrt{
       \frac
         { \hbar c }
-        { e B }
+        { {\vert e \vert} B }
     }
   $$
 
@@ -81,9 +82,9 @@ $$
 
 which itself is skew-symmetric under [[permutation]] of the particle positions (see [there](Vandermonde+determinant#SkewSymemtryUnderSwappingVariables)), so is the Laughlin state, as it must be for a [[quantum many body physics|many-]][[fermion]] [[wavefunction]], by the [[Pauli exclusion principle]].
 
-Due to these basic properties, the Laughlin wavefunction is a plausible Ansatz for any localized [[bound state]] of [[fermions]]. But on top of this, the power of $m$ to which the [[Vandermonde determinant]] is taken makes these particles carry "fractional charge", namely $1/m$ times the unit charge. 
-(...)
+Due to these basic properties, the Laughlin wavefunction is a plausible Ansatz for any localized [[bound state]] of [[fermions]]. But on top of this, the power of $q$ to which the [[Vandermonde determinant]] is taken makes these particles support "$q$-fractional" quasi-particle/hole excitations, see [below](#BasicLaughlinStateWithQuasiHoles).
 
+ 
 ### Basic Moore-Read wavefunction on the plane
 
 At [[even number|even]] filling fraction 
@@ -126,6 +127,7 @@ A further educated guess suggests to multiply, at even filling fraction, the Lau
 \]
 
 That the [[Pfaffian]] of the (inverse) distance matrix is indeed skew-symmetric is readily seen in its [[Berezinian integral]]-formulation (see [there](Pfaffian#InTermOfBerezinianIntegrals)). That formulation also reveals a kind of [[supersymmetry]] between the Laughlin and the Moore-Read wavefunctions:
+
 
 ### Supersymmetry between Laughlin- and Moore&Read-wavefunctions
  {#SupersymmetryBetweenLaughlinAndMooreReadStates}
@@ -292,14 +294,74 @@ This means that:
   
 \end{remark}
 
-### Laughlin state with quasi-holes
 
-(...)
+### Basic Laughlin wavefunction with quasi-holes
+ {#BasicLaughlinStateWithQuasiHoles}
+
+The above Laughlin- and Moore-Read-wavefunctions are meant to model the [[ground states]] of [[fractional quantum Hall systems]] at *exact* Landau level-filling fraction $\nu = 1/q$ where, so the idea, every [[electron]] forms a kind of [[bound state]] with exactly $q$ [[quanta]] of [[magnetic flux]] (see [there](quantum+Hall+effect#IdeaFQHE)). 
+
+But if then the [[magnetic field]] is increased by $n \in \mathbb{N}$ units of flux, a net total of $n$ flux quanta must remain un-paired with electrons. Still imagining that also these un-paired flux quanta are localized in the quantum Hall material, reflected in little [[vortices]] in the "electron fluid", they are imagined to correspond to "holes" (jargon "quasi-holes") in the electron fluid: points where electrons are forced to be *absent*.
+
+A now common proposal for how to modify the basic Laughlin state (eq:BasicLaughlinState) to reflect the presence of $n$ such quasi-holes at positions $\xi_a \in \mathbb{C}$ is to mak these be the external parameters for a [[wavefunction]] of the form &lbrack;[Laughlin 1983 (13)](#Laughlin83)&rbrack;
+
+\[
+  \label{LaughlinStateWithQuasiHoles}
+  \begin{array}{ccl}
+  \psi
+    ^{(\xi_1, \cdots, \xi_n)}
+    _{La}(z_1, \cdots, z_N)
+  &\coloneqq&
+  \textstyle{\prod_a} \prod_{i} (z_i - \xi_a)
+  \,
+  \psi_{La}(z_1, \cdots, z_N)
+  \\
+  &=&
+  \textstyle{\prod_a} \prod_{i} (z_i - \xi_a)
+  \,
+  \textstyle{\prod_{i \lt j}}
+  (z_i - z_j)^q
+  \;
+  \exp\big(
+    -
+    \tfrac{1}{4 \ell_B^2} 
+    \textstyle{\sum_i} {\vert z_i\vert}^2
+  \big)
+  \mathrlap{\,.}
+  \end{array}
+\]
+
+Clearly, the [[probability density]] of this wavefunction vanishes whenever at least one of the electron positions $z_i$ coincides with one of the "electron hole" positions $\xi_a$, and there is non-vanishing [[angular momentum]] concentrated around these holes, as expected for electon-[[vortices]] centered at the $\xi_a$.
+
+Beware that these holes at positions $\xi_a$ are not [[fundamental particles]] like the [[electrons]] at positions $z_i$. Instead, the $\xi_i$ are *external parameters*:
+In a less guess-work heavy discussion one would consider the [[Hamiltonian]] of the fractional quantum Hall system parameterized by hole positions, and the above wavefunction (eq:LaughlinStateWithQuasiHoles) would be an approximation to its [[ground state]], also depending on these parameters.
+
+As such, the hole positions $\xi_a$ are "not dynamical" as the electrons are, but may, at least in principle, be moved by forces from outside the system, by changing the [[Hamiltonian]] across its parameter space. Such an  *external parameter-movement* of a [[quantum system]] is described by the [[quantum adiabatic theorem]], which says that, in the suitable adiabatic limit, a rotation of one parameter $\xi_a$ around another will return the quantum state (eq:LaughlinStateWithQuasiHoles) to itself up to (an [[Aharonov-Bohm effect]] due to the [[magnetic field]] and) a *[[Berry phase]]*. This Berry phase is claimed to be &lbrack;[Arovas, Schrieffer & Wilczek 1984 (12)](#ArovasSchriefferWilczek84)&rbrack;
+$$
+  e^{
+    2 \pi \mathrm{i} / q
+  }
+  \,,
+$$
+which means that away from the case of the [[integer quantum Hall effect]] where $q = 1$, the [[ground state]] wavefunction will *not quite return to itself* as its defect positions are rotated around each other, but only up to a phase.
+
+Such fractional [[braiding]]-[[Berry phases]] of [[QFT with defects|defects]] under [[quantum adiabatic theorem|adiabatic]] movement are said to identify the defects as being (abelian) *[[anyons]]*.
+
+Beware that [[quantum adiabatic theorem|adiabatic]] [[Berry phases]] of [[QFT with defects|defect]] parameters are conceptually different from "quantum statistics" of [[fundamental particles]] (even if most expositions will say otherwise, and even if the very term "anyon" suggests otherwise): For one, the wavefunction (eq:LaughlinStateWithQuasiHoles) is *symmetric* in the hole positions which, if these were positions of dynamical particles, would make them [[bosons]]. 
+
+In particular, some of the quasi-hole positions may as well coincide, $\xi_a = \xi_b$. Noticing that the Laughlin wavefunction of $q$ *coincident* quasi-holes (at some position $\xi_a \coloneqq \xi \in \mathbb{C}$) among $N$ electrons equals the Laughlin wavefunction of $N + 1$ electrons with one held fixed at $\xi$:
+
+$$
+  \psi_{La}^{(\xi_1 = \xi, \cdots, \xi_q = \xi)}(
+    z_1, \cdots, z_N)
+  \;=\;
+  \psi_{La}(
+    \xi, z_1, \cdots, z_N
+  )
+$$
+
+gives another view of how the quasi-holes are *$q$-fractional* objects as compared to the electrons.
 
 
-\linebreak
-
-(...)
 
 \linebreak
 
@@ -353,12 +415,16 @@ A "hierarchy" of Laughlin-like states:
 
 * {#Lan19} [[Tian Lan]], *Matrix formulation for non-Abelian families*, Phys. Rev. B **100** 241102 (2019) \[<a href="https://doi.org/10.1103/PhysRevB.100.241102">doi:10.1103/PhysRevB.100.241102</a>, [arXiv:1908.02599](https://arxiv.org/abs/1908.02599)\]
 
-
-### Interacting generalization
+The pfaffian modification for even-fractional filling factor is due to
 
 * {#MooreRead91} [[Gregory Moore]], [[Nicholas Read]]: *Nonabelions in the fractional quantum hall effect*, Nuclear Physics B **360** 2–3 (1991) 362-396 \[<a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>, [pdf](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)\]
 
-(...)
+
+Critical discussion:
+
+* {#Mikhailov24} S. A. Mikhailov: *Toward a new theory of the fractional quantum Hall effect*, Nanomaterials **14** 2 (2024) 297 &lbrack;[arXiv:2206.05152](https://arxiv.org/abs/2206.05152), [doi:10.3390/nano14030297](https://doi.org/10.3390/nano14030297)&rbrack;
+
+
 
 
 [[!include Laughlin wavefunctions as conformal blocks -- references]]
