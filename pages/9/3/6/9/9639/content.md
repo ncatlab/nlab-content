@@ -21,7 +21,7 @@
 ## Idea
  {#Idea}
 
-At sufficiently low tempetrature, [[quantum physics|quantum effects]] change the nature of the classical [[Hall effect]], in two ways:
+At sufficiently low temperature, [[quantum physics|quantum effects]] change the nature of the classical [[Hall effect]], in two ways:
 
 1. in the *integral* quantum Hall effect, quantization of the [[energy]] into *Landau levels* of electrons that are circulating in a transverse [[magnetic field]] while confined to a plane, causes the [[Hall effect|Hall resistance]], which classically increases linearly with increasing external [[magnetic field]], to instead intermittently form constant "plateaus" as these get "filled" by electron states,
 
