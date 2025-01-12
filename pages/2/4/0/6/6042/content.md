@@ -28,6 +28,8 @@ If one models the [[electromagnetic field]] via the [[Kaluza-Klein mechanism]] a
 
 ## Related concepts
 
+* [[quantum Hall effect]]
+
 * [[strong nuclear force]]
 
 * [[weak nuclear force]]
