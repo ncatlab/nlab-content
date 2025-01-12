@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include topological physics -- contents]]
 =--
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
 =--
 =--
 
@@ -22,6 +26,10 @@ At sufficiently low tempetrature, [[quantum physics|quantum effects]] change the
 
 1. in the *fractional quantum Hall effect*, strong external magnetic field causes these Landau levels to be filled only partially and the strongly Coulomb-coupled electrons to form [[bound states]] "with" magnetic [[flux quantization|flux quanta]] that may exhibit effective *fractional* charge and, apparently, "fractional statistics" ([[anyon|anyonic]] [[braiding]] behaviour).
 
+
+### Classical Hall effect
+
+(...)
 
 ### Integer quantum Hall effect
 
