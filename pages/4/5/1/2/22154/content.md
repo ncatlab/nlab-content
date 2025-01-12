@@ -16,9 +16,11 @@
 
 ## Idea
 
-In [[electromagnetism]] the _Hall effect_ ([Hall 1879](#Hall1879)) is essentially the manifestation of the [[Lorentz force]] in [[conductors]]: 
+In [[classical field theory|classical]] [[electromagnetism]] the _Hall effect_ ([Hall 1879](#Hall1879)) is essentially the manifestation of the [[Lorentz force]] within [[conductors]] going through a [[magnetic field]]: 
 
 It is the phenomenon that an [[electric current]] flowing [[perpendicular]] to a [[magnetic field]] induces an [[electric field]] perpendicular to both of these, sourced from the separation of positive and magnetic charge carriers in the current, which are driven apart by the [[Lorentz force]].
+
+Subtle and very subtle [[quantum physics|quantum]]-corrections to the classical Hall effect are seen at extremely low [[temperature]], low charge density and thin conducting sheets, for more on this see at *[[quantum Hall effect]]*.
 
 ## Details
 
@@ -32,7 +34,7 @@ Write
 
 * $v$ for the [[absolute value]] of the drift [[velocity]] of the electrons in the material;
 
-* $\rho$ for the [[number]] [[density]] of electrons;
+* $\rho$ for extr[[number]] [[density]] of electrons;
 
 * $j = \rho e v$ for the [[absolute value]] of the electric [[current]] [[density]].
 
@@ -133,6 +135,9 @@ See also:
 
 [[!redirects Hall effects]]
 
+[[!redirects classical Hall effect]]
+[[!redirects classical Hall effects]]
+
 [[!redirects Hall field]]
 [[!redirects Hall fields]]
 
@@ -140,5 +145,10 @@ See also:
 [[!redirects Hall voltages]]
 
 [[!redirects Hall resistance]]
+[[!redirects Hall resistances]]
+
+[[!redirects Hall conductivity]]
+[[!redirects Hall conductivities]]
+
 
 
