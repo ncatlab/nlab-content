@@ -28,7 +28,7 @@ Every [[semisimple ring]] is [[isomorphism|isomorphic]] to a finite [[direct sum
 \end{proposition}
 
 \begin{remark}
-Beware: A [[simple ring]] may not be semisimple!  A ring is simple iff it has no two-sided ideals, and in the absence of further hypotheses this does not imply that all of its left (or equivalently right) modules are direct sums of simple modules.  For example, the [[Weyl algebra]] is simple but not semisimple, and not isomorphic to a matrix algebra over a division ring.  
+Beware: A [[simple ring]] may not be semisimple!  A ring is simple iff it has no two-sided ideals except $\{0\}$ and the whole ring, and in the absence of further hypotheses this does not imply that all of its left (or equivalently right) modules are direct sums of simple modules.  For example, the [[Weyl algebra]] is simple but not semisimple, and not isomorphic to a matrix algebra over a division ring.  
 \end{remark}
 
 However, a simple ring that is left or right [[Artinian ring|artinian]] is semisimple, so we have:
