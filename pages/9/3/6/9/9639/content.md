@@ -144,6 +144,28 @@ In this tensorial language, the classical Hall effect is the statement that for 
 
 In this case the basic matrix relation (eq:GenericResistivityTensor) is of some importance for understanding the measurement results in the integer quantum Hall effect [below](#IdeaIntegerQuantumHallEffect), since it implies the (maybe surprising-sounding) phenomenon that for non-vanishing Hall effect the *longitudinal conductivity and resistivity may jointly vanish*, see (eq:LongitudinalResistivityVanishesWithLongConductivity) below.
 
+Concretely, the Hall resistivity turns out to be related to 
+
+* $n$ -- the number density of electrons per surface area,
+
+* $b$ -- the [[magnetic field]] [[field strength]],
+
+* $e$ -- the [[electric charge]] of the [[electron]],
+
+by the formula
+
+\[
+  \label{HallResistivity}
+  \rho_{x y}
+  \;=\;
+  \frac{
+    B
+  }{
+    n e
+  }
+  \mathrlap{\,.}
+\]
+
 
 
 ### Integer quantum Hall effect
@@ -178,18 +200,7 @@ What is measured in experiments is the *longitudinal resistivity*, which --- by 
   \,.
 \]
 
-But the hallmark of the integer quantum Hall effect is that this vanishing of the longitudinal (conductivity and hence) resistivity is observed *not just* right when the magnetic field strength is at the critical value $B = B_i$, but in a whole [[neighbourhood]] of these values, where at the same time the Hall resistivity is approximately constant -- and hence forms a "*Hall plateau*" -- on the value
-$$
-  R_H \coloneqq \rho_{x y} 
-  \;=\;
-  \frac{
-    2 \pi \hbar  
-  }{
-    e^2
-  }
-  \frac{1}{i}
-$$
-
+But the hallmark of the integer quantum Hall effect is that this vanishing of the longitudinal (conductivity and hence) resistivity is observed *not just* right when the magnetic field strength is at the critical value $B = B_i$, but in a whole [[neighbourhood]] of these values:
 <center>
 <img src="https://ncatlab.org/nlab/files/IntegerQuantumHallEffect.jpg" width="500">
 </center>
@@ -198,6 +209,69 @@ Remarkably, the height of these Hall plateaus is an experimental constant to hig
 
 Yet more remarkably, the explanation for the horizontal extension of these plateaux is thought to be related to *impurities* in the material --- in an ideally pure conductor the quantum Hall effect is expected to be invisible! The idea is that, due to the impurities, the idealized picture of Landau levels applies only to some of the electrons in the sample, while others are "localized" at/by the imporitites; and as the magnetic field is varied it is only after the reservoir of localized electrons has changed energy levels that it becomes the turn of the "quantum Hall electrons".
 
+To compute the Hall plataux values:
+
+The density of available states (number per surface area) available in a Landau level is
+
+\[
+  \label{DensityOfLandauStates}
+  d
+  \;=\;
+  \frac{
+    e B 
+  }{
+    h
+  }
+\]
+
+* where $h = 2\pi \hbar$ is [[Planck's constant]] 
+
+Hence the $i$th Landau level is exactly filled when the actual electron density $n$ is
+
+$$
+  n \,=\, i \cdot d
+  \mathrlap{\,,}
+$$
+
+which, according to (eq:DensityOfLandauStates), occurs theoretically right at at (and in practice in a neighbourhood around) the critical magnetic field values 
+
+\[
+  \label{CriticalMagneticField}
+  B_i
+  \;\coloneqq\;
+  \frac{
+    n h
+  }{
+    e 
+  }
+  \frac{1}{i}  
+  \mathrlap{\,,}
+\]
+
+for which in turn, by (eq:HallResistivity), the Hall resistivity is
+
+\[
+  \label{HeightOfIntegerHallPlateaux}
+  (\rho_{x y})_i
+  \;=\;
+  \frac{
+    B_i
+  }{ 
+    n e 
+  }
+  \;=\;
+  \frac{
+    h
+  }{
+    e^2
+  }
+  \frac{1}{i}
+  \,.
+\]
+
+This is hence the height of the $i$th Hall plateau in the integer quantum Hall effect.
+
+\linebreak
 
 
 ### Fractional quantum Hall effect
@@ -208,9 +282,36 @@ which necessarily interact strongly via their mutual Coulomb force, for understa
 
 However, yet closer experimental analysis at yet smaller [[temperatures]] and electron densities shows that this approximation breaks down at some point, and that the strong interaction between the electrons makes them collectively behave in exotic ways.
 
-Concretely, experiments show that Hall plateaus appear not just at integer filling levels, but (smaller) Hall plateaus appear also at certain [[rational number|rational]] filling fractions $\nu \in \mathbb{Q}$, notably at $\nu = 1/q$ for $q \in \mathbb{N}$, hence whenever the first Landau level is filled only *half* or *one-third*, etc.
+Concretely, experiments show that Hall plateaus appear not just at integer filling levels, but (smaller) Hall plateaus appear also at certain [[rational number|rational]] filling fractions 
+\[
+  \label{FillingFraction}
+  \nu \in \mathbb{Q}
+  \,,
+  \;\;\;
+  \text{notably at}
+  \;\; 
+  \nu = \tfrac{1}{q}
+  \;\text{for}\;
+  q \in 2\mathbb{N} + 1
+  \,.
+\] 
 
-This experimentally pbserved phenomenon is thus called the *fractional quantum Hall effect*.
+Concretely, by the same computation as for (eq:HeightOfIntegerHallPlateaux), the fractional Hall plateaux are at
+
+\[
+  \label{HeightOfFractionalHallPlateaux}
+  (\rho_{x y})_\nu
+  \;=\;
+  \frac{
+    h
+  }{
+    e^2
+  }
+  \frac{1}{\nu}
+  \,.
+\]
+
+This experimentally observed phenomenon is thus called the *fractional quantum Hall effect*.
 
 Unfortunately, due to the general open problem of formulating and analyzing [[non-perturbative quantum field theory]], there is essentially no first-principles understanding of what causes the fractional quantum Hall effect! 
 
