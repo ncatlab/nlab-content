@@ -29,20 +29,20 @@ At sufficiently low tempetrature, [[quantum physics|quantum effects]] change the
 
 ### Hall effect
 
-The setup of any *Hall effect* is a plane sheet of conducting  material placed in a transverse [[magnetic field]] magnetic field (constant across the plane, directed perpendicular to it).
+The setup of any *Hall effect* is a plane sheet of [[conductor|conducting]]  material placed in a transverse [[magnetic field]] magnetic field (constant across the plane, directed perpendicular to it).
 
-The *classical Hall effect* is the phenomenon that a [[voltage]] $V$ applied along the conducting sheet in some direction induces a *Hall voltage* $V_H$ in the *perpendicular* direction across the conducting sheet.
+The *[[classical Hall effect]]* is the phenomenon that a [[voltage]] $V$ applied along the conducting sheet in some direction induces a *Hall voltage* $V_H$ in the *perpendicular* direction across the conducting sheet.
 
-The cause of this effect is the [[Lorentz force]] that the conducting [[electrons]] feel, exerted on them by the [[magnetic field]], which is proportional in magnitude to the magnetic field but perpendicular to both the magnetic field and to their direction of motion.
+The cause of this effect is the [[Lorentz force]], exerted on the [[electrons]] by the [[magnetic field]], which is proportional in magnitude to the magnetic field and to the electron [[velocity]] but perpendicular in [[direction vector|direction]] to both the magnetic field and to their direction of motion.
 
-Due to this force, the electrons which follow the applied voltage gradient quickly drift sideways to one side of the conducting sheet until their mutual electrostatic repulsion there counterbalances the Lorentz force. At this point the electrons move straight along the applied voltage gradient, with the Lorentz force now exactly compensated by the Hall voltage due to the gradient in electron concentration.
+Due to this force, the electrons which start to follow the applied voltage gradient quickly drift sideways to one side of the conducting sheet until their mutual electrostatic repulsion there counterbalances the Lorentz force. At this point the electrons move straight along the applied voltage gradient, with the Lorentz force now exactly compensated by the Hall voltage due to the gradient in electron concentration.
 
 
 ### Integer quantum Hall effect
 
 At extremely low [[temperature]], low charge carrier density, 
 and extreme thin-ness of the conducting sheet,
-the above classical Hall effect shows corrections by [[quantum mechanics|quantum mechanical]] effects: The [[energy]] of [[electrons]] in a transverse magnetic field is *quantized* into discrete units known as *Landau levels*. 
+the above [[classical Hall effect]] exhibits modifications by [[quantum mechanics|quantum mechanical]] effects, due to the the fact that the [[energy]] of [[electrons]] in a transverse magnetic field is *quantized* into discrete units known as *Landau levels*. 
 
 Since electrons are [[fermions]], the [[Pauli exclusion principle]] demands that in their [[ground state]] the electrons fill the available [[Fermi sea]] with one electron per available state, below a given energy, the "chemical potential". (Here, due to the strong external [[magnetic field]], all electrons may be assumed to have their [[spin]] aligned along this field, so that the states in question concern just the remaining electron [[momenta]].)
 The larger the magnetic field, the more [[quantum states]] are comprised by one Landau level.
