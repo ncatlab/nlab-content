@@ -20,7 +20,9 @@
 
 In [[physics]], the [[electromagnetic field]] may be split, over a choice of [[coordinate chart]] of [[spacetime]], into two components: the **electric field** and the [[magnetic field]].
 
-## Related oncepts
+## Related concepts
+
+* [[Ohm's law]]
 
 * [[field (physics)]]
 
