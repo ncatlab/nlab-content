@@ -187,6 +187,8 @@ The [[Euler-Lagrange equation]] [[equation of motion|of motion]] for the effecti
 
 \linebreak
 
+#### Reproducing FQH phenomena
+
 **Recovering the Hall conductivity.**
 The first plausibility check on the effective model is to observe that its equation of motion (eq:EquationOfMotion) implies the correct Hall conductivity relation for a [[fractional quantum Hall system]] at filling fraction $1/k$:
 
@@ -205,7 +207,10 @@ and assuming that the quasi-particles are stationary, so that
 $$
   j 
     \;\propto\; 
-  dvol(\partial_0) \propto \mathrm{d}x \wedge \mathrm{d}y
+  dvol(\partial_0) 
+    \;\propto\; 
+  \mathrm{d}x \wedge \mathrm{d}y
+  \mathrlap{\,,}
 $$
 
 the temporal component of the equation of motion (eq:EquationOfMotion) becomes
@@ -214,7 +219,7 @@ $$
   J_x \;=\; \tfrac{1}{k} E_y
 $$
 
-which is the correct form of the *Hall field* $E_y$ for given longitudinal current $J_X$ at filling fraction $1/k$.
+which is the correct form of the *Hall field* $E_y$ for given longitudinal current $J_X$ at filling fraction $\nu = 1/k$ -- see [there](quantum+Hall+effect#eq:HeightOfFractionalHallPlateaux).
 
 > (Following [Zee 1995 (4.5)](#Zee95), later authors &lbrack;[Witten 2016 §2.3](#Witten16), [Tong 2016 p 161](#Tong16)&rbrack; deduce this in a more roundabout way, by first inserting the equation of motion back into the Lagrangian density and then varying that with respect to $A$. It seems that this unnecessary step is brought about by first tacitly renaming "$J$" to "$f$" and then forgetting that this was just a renaming.)
 
