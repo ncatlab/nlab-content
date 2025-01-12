@@ -32,7 +32,7 @@ $Dist Lat$ is given by a finitary [[variety of algebras]], or equivalently by a 
 
 * [[coherent hyperdoctrine]]
 
-* [[Pos]], [[Frm]]
+* [[Pos]], [[Frm]], [[σFrm]]
 
 category: category
 
