@@ -27,13 +27,55 @@ At sufficiently low tempetrature, [[quantum physics|quantum effects]] change the
 1. in the *fractional quantum Hall effect*, strong external magnetic field causes these Landau levels to be filled only partially and the strongly Coulomb-coupled electrons to form [[bound states]] "with" magnetic [[flux quantization|flux quanta]] that may exhibit effective *fractional* charge and, apparently, "fractional statistics" ([[anyon|anyonic]] [[braiding]] behaviour).
 
 
-### Classical Hall effect
+### Hall effect
 
-(...)
+The setup of any *Hall effect* is a plane sheet of conducting  material placed in a transverse [[magnetic field]] magnetic field (constant across the plane, directed perpendicular to it).
+
+The *classical Hall effect* is the phenomenon that a [[voltage]] $V$ applied along the conducting sheet in some direction induces a *Hall voltage* $V_H$ in the *perpendicular* direction across the conducting sheet.
+
+The cause of this effect is the [[Lorentz force]] that the conducting [[electrons]] feel, exerted on them by the [[magnetic field]], which is proportional in magnitude to the magnetic field but perpendicular to both the magnetic field and to their direction of motion.
+
+Due to this force, the electrons which follow the applied voltage gradient quickly drift sideways to one side of the conducting sheet until their mutual electrostatic repulsion there counterbalances the Lorentz force. At this point the electrons move straight along the applied voltage gradient, with the Lorentz force now exactly compensated by the Hall voltage due to the gradient in electron concentration.
+
 
 ### Integer quantum Hall effect
 
-(...)
+At extremely low [[temperature]], low charge carrier density, 
+and extreme thin-ness of the conducting sheet,
+the above classical Hall effect shows corrections by [[quantum mechanics|quantum mechanical]] effects: The [[energy]] of [[electrons]] in a transverse magnetic field is *quantized* into discrete units known as *Landau levels*. 
+
+Since electrons are [[fermions]], the [[Pauli exclusion principle]] demands that in their [[ground state]] the electrons fill the available [[Fermi sea]] with one electron per available state, below a given energy, the "chemical potential". (Here, due to the strong external [[magnetic field]], all electrons may be assumed to have their [[spin]] aligned along this field, so that the states in question concern just the remaining electron [[momenta]].)
+The larger the magnetic field, the more [[quantum states]] are comprised by one Landau level.
+
+In the case that the electrons fill *exactly* $i \in \mathbb{N}$ Landau levels -- one speaks of *filling fraction $\nu = i$* --, the next excited state, needed for the transport of charge, is separated by the [[energy gap]] to the next Landau level, and hence at an integer number of exactly filled Landau levels the Hall system behaves like an [[insulator]] with vanishing longitudinal conductivity $\sigma_{x x} \sim 0$.
+
+What is measured in experiments is the *longitudinal resistivity*, which also goes to zero at these points of exactly filled Landau levels:
+
+$$
+  R_x
+  \;=\;
+  \frac{
+    \sigma_{x x}
+  }{
+    \sigma^2_{x x} + \sigma^2_{x y}
+  }
+  \;\;
+  \underset{\sigma_{x x} \to 0}{\longrightarrow}
+  \;\;
+  0
+  \,.
+$$
+
+But the hallmark of the integer quantum Hall effect is that this vanishing of the longitudinal conductance and resistivity is observed *not just* right when the magnetic field is $B = B_i$, but in a whole neighbourhood of these values, where at the same time the Hall resistivity $R_H$ is approximately constant --- forms a "*Hall plateau*" --- on the value expected at $B_i$.
+
+<center>
+<img src="https://ncatlab.org/nlab/files/IntegerQuantumHallEffect.jpg" width="500">
+</center>
+
+The height of these Hall plateaux is an experimental constant to high precision, and is independent of the detailed nature of the underlying material, unaffected even by punching holes into the conducting sheet.
+
+Remarkably, the explanation for the presence of these plateaux of Hall resistance is thought to be related to im-purities in the material: The idea is that due to impurities, the idealized picture of Landau levels applies only to some of the electrons in the sample, while others are "localized"; and as the magnetic field is varied it is only after the reservoir of localized electrons has changed energy levels that it becomes the turn of the "quantum Hall electrons".
+
 
 
 ### Fractional quantum Hall effect
