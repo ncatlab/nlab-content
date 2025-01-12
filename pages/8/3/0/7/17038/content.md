@@ -1,5 +1,7 @@
 
 
+* [Webpage](https://sites.google.com/view/mauroporta)
+
 * [MO page](http://mathoverflow.net/users/36690/mauro-porta)
 
 ## Related $n$Lab entries
@@ -18,11 +20,13 @@
 
 * Mauro Porta, Tony Yue Yu, _Derived non-archimedean analytic spaces_, Selecta Math. New Ser. 24, 609-665 (2018) [arXiv:1601.00859](https://arxiv.org/abs/1601.00859)  [doi](https://doi.org/10.1007/s00029-017-0310-1)
 
-* Julian Holstein, Mauro Porta, _Analytification of mapping stacks_, [arXiv:1812.09300](https://arxiv.org/abs/1812.09300)
+* [[Julian Holstein]], Mauro Porta, _Analytification of mapping stacks_, [arXiv:1812.09300](https://arxiv.org/abs/1812.09300)
 
 * [[Mauro Porta]], _Derived complex analytic geometry I: GAGA theorems_, [arXiv:1506.09042](https://arxiv.org/abs/1506.09042)
 
 * [[Mauro Porta]], _Derived complex analytic geometry II: square-zero extensions_, [arXiv:1507.06602](https://arxiv.org/abs/1507.06602)
 
+
+* [[Peter Haine]], [[Jean-Baptiste Teyssier]], Mauro Porta, _The homotopy invariance of constructible sheaves, [arXiv:2010.06473](https://arxiv.org/abs/2010.06473)
 
 category: people
