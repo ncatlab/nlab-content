@@ -178,7 +178,7 @@ What is measured in experiments is the *longitudinal resistivity*, which --- by 
   \,.
 \]
 
-But the hallmark of the integer quantum Hall effect is that this vanishing of the longitudinal (conductivity and hence) resistivity is observed *not just* right when the magnetic field strength is at the critical value $B = B_i$, but in a whole neighbourhood of these values, where at the same time the Hall resistivity is approximately constant -- and hence forms a "*Hall plateau*" -- on the value
+But the hallmark of the integer quantum Hall effect is that this vanishing of the longitudinal (conductivity and hence) resistivity is observed *not just* right when the magnetic field strength is at the critical value $B = B_i$, but in a whole [[neighbourhood]] of these values, where at the same time the Hall resistivity is approximately constant -- and hence forms a "*Hall plateau*" -- on the value
 $$
   R_H \coloneqq \rho_{x y} 
   \;=\;
@@ -225,6 +225,8 @@ What people have come up with, instead, are:
    which, while just guessed, are confirmed well by experiment and have in practice become the effective theory for FQH systems,
 
 1. some actual [[effective field theory|effectice]] [[quantum field theory]] description by variants of **[[abelian Chern-Simons theory]]**.
+
+For more on [[Laughlin wavefunctions]] and on effective [[abelian Chern-Simons theory]] in the FQH context, see there.
 
 A neat account of the commonly accepted composite fermion picture is given by [Störmer 1999](#Störmer99):
 
