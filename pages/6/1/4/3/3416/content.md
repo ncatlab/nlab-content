@@ -39,7 +39,7 @@ Note that free frames are quite different from free [[locales]] (which are [[dis
 
 * [[geometric hyperdoctrine]]
 
-* [[Pos]], [[DistLat]]
+* [[Pos]], [[DistLat]], [[σFrm]]
 
 category: category
 
