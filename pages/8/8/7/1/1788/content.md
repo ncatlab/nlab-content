@@ -1,5 +1,37 @@
 
 
+\linebreak
+
+
+electron density (number of electrons per surface area) in Landau level
+
+$$
+  d
+  \;=\;
+  \frac{
+    e B 
+  }{
+    h
+  }
+$$
+
+Hence with $n$ the given charge densite, the magnetic field value at which the $i$th Landau level is exactly filled,
+$$
+  n = i d
+$$
+is
+$$
+  B_i
+  \;=\;
+  \frac{
+    n h
+  }{e}
+  \tfrac{1}{i}
+$$
+
+
+\linebreak
+
 ### Abelian Chern-Simons as EFT for FQH
 
 The following is a streamlined digest of the traditional argument and Ansatz &lbrack;[Zee 1995](#Zee95), [Wen 1995](#Wen95), [Witten 2016 pp 30](#Witten16), [Tong 2016 §5](#Tong16)&rbrack; for [[abelian Chern-Simons theory]] at [[level (Chern-Simons theory)|level]] $k \in \mathbb{N}$ as an [[effective field theory]] for [[fractional quantum Hall systems]] at filling fraction $\nu = 1/k$.
