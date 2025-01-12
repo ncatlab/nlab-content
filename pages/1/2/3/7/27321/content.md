@@ -30,3 +30,6 @@ In [[physics]], *voltage* refers to the difference of [[electromagnetic field|el
 * Wikipedia: *[Voltage](https://en.wikipedia.org/wiki/Voltage)* 
 
 [[!redirects voltages]]
+
+[[!redirects electric potential]]
+[[!redirects electric potentials]]
