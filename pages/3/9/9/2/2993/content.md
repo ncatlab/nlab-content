@@ -273,5 +273,7 @@ This observation may be exploited in various neat ways. One is that if $p(x)$ is
 [[!redirects polynomial algebra]]
 [[!redirects polynomial algebras]]
 
+[[!redirects free commutative ring]]
+[[!redirects free commutative rings]]
 [[!redirects free commutative algebra]]
 [[!redirects free commutative algebras]]
