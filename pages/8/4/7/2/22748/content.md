@@ -1,6 +1,4 @@
-# Contents
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -53,7 +51,7 @@ That the [[Dedekind completion]] of every [[Archimedean ordered integral domain]
 \end{theorem}
 
 \begin{proof}
-Consider the Archimedean ordered integral domain $R$ with an arbitrary element $x \in R$. The Dedekind completion of $R$ is the integers if and only if $x$ is equal to an integer, and the Dedekind completion of $R$ is the Dedekind real numbers if and only if $x$ is [[tight apartness|apart from]] an integer. However, $x$ is equal to an integer or apart from an integer for all $x \in R$ if and only if $R$ is a [[discrete integral domain]], and the claim that every Archimedean ordered integral domain is discrete is equivalent to the analytic $\mathrm{LPO}$ for the Dedekind real numbers. 
+Let $\mathbb{Z}[x]$ denote the [[free commutative ring]] on a [[singleton]] and let $I$ be a [[ideal]] of $\mathbb{Z}[x]$. Consider an Archimedean ordered integral domain $R$ which is ring isomorphic to a [[quotient ring]] $\mathbb{Z}[x] / I$, $R \cong \mathbb{Z}[x] / I$, with element $x \in R$. The Dedekind completion of $R$ is the integers if and only if $x$ is equal to an integer, and the Dedekind completion of $R$ is the Dedekind real numbers if and only if $x$ is [[tight apartness|apart from]] an integer. However, $x$ is equal to an integer or apart from an integer for all $x \in R$ if and only if $R$ is a [[discrete integral domain]], and the claim that every Archimedean ordered integral domain is discrete is equivalent to the analytic $\mathrm{LPO}$ for the Dedekind real numbers. 
 \end{proof}
 
 ## Related concepts
