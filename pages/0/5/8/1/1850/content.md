@@ -60,7 +60,9 @@ which is a statement of the physical phenomenon of _charge conservation_ .
 
 * [[conserved current]], [[charge]]
 
-* **electric charge**, [[magnetic charge]]
+* [[magnetic charge]]
+
+* [[Ohm's law]]
 
 * [[color charge]]
 
