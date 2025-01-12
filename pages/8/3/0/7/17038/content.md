@@ -1,15 +1,10 @@
 
 
-* [Webpage](https://sites.google.com/view/mauroporta)
+* [personal page](https://sites.google.com/view/mauroporta)
+
+* [GooglScholar page](https://scholar.google.com/citations?user=tqlsL2oAAAAJ&hl=en)
 
 * [MO page](http://mathoverflow.net/users/36690/mauro-porta)
-
-## Related $n$Lab entries
-
-* [[formal moduli problem]]
-* [[Hall algebra]]
-* [[McKay correspondence]]
-* [[derived analytic geometry]]
 
 ## Selected works
 
@@ -26,7 +21,20 @@
 
 * [[Mauro Porta]], _Derived complex analytic geometry II: square-zero extensions_, [arXiv:1507.06602](https://arxiv.org/abs/1507.06602)
 
+On [[constructible sheaves]]:
 
-* [[Peter Haine]], [[Jean-Baptiste Teyssier]], Mauro Porta, _The homotopy invariance of constructible sheaves, [arXiv:2010.06473](https://arxiv.org/abs/2010.06473)
+* [[Peter Haine]], [[Jean-Baptiste Teyssier]], Mauro Porta: *The homotopy invariance of constructible sheaves* &lbrack;[arXiv:2010.06473](https://arxiv.org/abs/2010.06473)&rbrack;
+
+
+## Related entries
+
+* [[formal moduli problem]]
+
+* [[Hall algebra]]
+
+* [[McKay correspondence]]
+
+* [[derived analytic geometry]]
+
 
 category: people
