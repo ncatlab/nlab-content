@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Topological physics
-+--{: .hide}
-[[!include topological physics -- contents]]
-=--
 #### Quantum systems
 +--{: .hide}
 [[!include quantum systems -- contents]]
+=--
+#### Topological physics
++--{: .hide}
+[[!include topological physics -- contents]]
 =--
 =--
 =--
@@ -19,6 +19,7 @@
 {: toc}
 
 ## Idea
+ {#Idea}
 
 At sufficiently low tempetrature, [[quantum physics|quantum effects]] change the nature of the classical [[Hall effect]], in two ways:
 
@@ -27,32 +28,143 @@ At sufficiently low tempetrature, [[quantum physics|quantum effects]] change the
 1. in the *fractional quantum Hall effect*, strong external magnetic field causes these Landau levels to be filled only partially and the strongly Coulomb-coupled electrons to form [[bound states]] "with" magnetic [[flux quantization|flux quanta]] that may exhibit effective *fractional* charge and, apparently, "fractional statistics" ([[anyon|anyonic]] [[braiding]] behaviour).
 
 
-### Hall effect
+### Hall effect and Hall resistivity
+ {#IdeaHallResistivity}
 
-The setup of any *Hall effect* is a plane sheet of [[conductor|conducting]]  material placed in a transverse [[magnetic field]] magnetic field (constant across the plane, directed perpendicular to it).
+The setup of any *Hall effect* is a plane sheet of [[conductor|conducting]]  material placed in a transverse [[magnetic field]] (constant across the plane, directed perpendicular to it).
 
-The *[[classical Hall effect]]* is the phenomenon that a [[voltage]] $V$ applied along the conducting sheet in some direction induces a *Hall voltage* $V_H$ in the *perpendicular* direction across the conducting sheet.
+The *[[classical Hall effect]]* is the phenomenon that a [[voltage]] $V_x$ applied along the conducting sheet in some direction -- to be called the $x$-direction -- induces a *Hall voltage* $V_y$ in the *perpendicular* direction -- to be called the $y$-direction -- across the conducting sheet.
 
 The cause of this effect is the [[Lorentz force]], exerted on the [[electrons]] by the [[magnetic field]], which is proportional in magnitude to the magnetic field and to the electron [[velocity]] but perpendicular in [[direction vector|direction]] to both the magnetic field and to their direction of motion.
 
-Due to this force, the electrons which start to follow the applied voltage gradient quickly drift sideways to one side of the conducting sheet until their mutual electrostatic repulsion there counterbalances the Lorentz force. At this point the electrons move straight along the applied voltage gradient, with the Lorentz force now exactly compensated by the Hall voltage due to the gradient in electron concentration.
+Due to this force, the electrons which start to follow the applied voltage gradient quickly drift to one side of the conducting sheet until their mutual electrostatic repulsion there counterbalances the Lorentz force. At this point the electrons move straight along the applied voltage gradient, with the Lorentz force now exactly compensated by the Hall voltage due to the gradient in electron concentration.
+
+For more details on the [[classical Hall effect]] see there; here we further just need the formulas for conductivity and resistivity:
+
+Consider in the [[plane]] $\mathbb{R}^2$, with canonical [[coordinates]] $x$ and $y$, the
+
+* [[electric field]]$\;$[[vector]] $\vec E$,
+
+* [[electric current]]$\;$[[vector]] $\vec J$.
+
+With the current running in the $x$-direction
+
+$$
+  \vec J 
+  \;\coloneqq\;
+  \left[
+  \begin{array}{c}
+    J_{x}
+    \\
+    0
+  \end{array}
+  \right]
+$$
+
+the statement of the classical Hall effect is that 
+
+* not just the *longitudinal field* $E_x \neq 0$ 
+
+but also 
+
+* the *Hall field* $E_y \neq 0$. 
+
+To say this more formally, recall that in a [[conductor]] the current $\vec J$ is a [[linear function]] of the field $\vec E$ with proportionality being the *[[conductivity]] [[tensor]]* $\sigma$, here a $2 \times 2$ [[matrix]], such that [[Ohm's law]] holds:
+
+$$
+  \vec J \,=\, \sigma \cdot \vec E
+  \,.
+$$
+
+Assuming that the conducting sheet has no preferred direction, the conductivity tensor is of the form
+
+$$
+  \sigma
+  \;=\;
+  \left[
+  \begin{array}{cc}
+    \sigma_{x x} & \sigma_{x y}
+    \\
+    - \sigma_{x y} & \sigma_{xx}
+  \end{array}
+  \right]
+$$
+
+for $\sigma_{x x}, \sigma_{x y} \,\in\, \mathbb{R}$.
+
+The corresponding *[[resistivity]] [[tensor]]* is  the [[inverse matrix]]  $rho = \sigma^{-1}$
+
+\[
+  \label{GenericResistivityTensor}
+  \rho
+  \;=\;
+  \left[
+  \begin{array}{cc}
+    \rho_{x x} & \rho_{x y}
+    \\
+    - \rho_{x y} & \rho_{y y}
+  \end{array}
+  \right]
+  \;=\;
+  \tfrac{1}{
+    \sigma_{x x}^2 + \sigma_{x y}^2
+  }
+  \left[
+  \begin{array}{cc}
+    \sigma_{x x} & -\sigma_{x y}
+    \\
+    \sigma_{x y} & \sigma_{x x}
+  \end{array}
+  \right]
+  \,.
+\]
+
+in terms of which [[Ohm's law]] reads
+
+$$
+  \vec E \,=\, \rho \cdot \vec J
+  \,.
+$$
+
+
+In this tensorial language, the classical Hall effect is the statement that for transverse magnetic field $B \gt 0$ the non-diagonal elements of the conductivity/resistivity tensors are non-vanishing, in that we have
+\[
+  \label{NonVanishingHallConductivity}
+  \text{Hall conductivity}
+  \;\;
+  \sigma_{x y} \neq 0
+  \;\;\;\;\;\;
+  \text{and}
+  \;\;\;\;\;\;
+  \text{Hall resistance}
+  \;\;
+  \rho_{x y} \neq 0
+  \,.
+\]
+
+In this case the basic matrix relation (eq:GenericResistivityTensor) is of some importance for understanding the measurement results in the integer quantum Hall effect [below](#IdeaIntegerQuantumHallEffect), since it implies the (maybe surprising-sounding) phenomenon that for non-vanishing Hall effect the *longitudinal conductivity and resistivity may jointly vanish*, see (eq:LongitudinalResistivityVanishesWithLongConductivity) below.
+
 
 
 ### Integer quantum Hall effect
+  {#IdeaIntegerQuantumHallEffect}
 
 At extremely low [[temperature]], low charge carrier density, 
 and extreme thin-ness of the conducting sheet,
-the above [[classical Hall effect]] exhibits modifications by [[quantum mechanics|quantum mechanical]] effects, due to the the fact that the [[energy]] of [[electrons]] in a transverse magnetic field is *quantized* into discrete units known as *Landau levels*. 
+the above [[classical Hall effect]] exhibits modifications by [[quantum mechanics|quantum mechanical]] effects, due to the  fact that the [[energy]] of [[electrons]] in a transverse magnetic field is *quantized* into discrete units known as *Landau levels*. 
 
 Since electrons are [[fermions]], the [[Pauli exclusion principle]] demands that in their [[ground state]] the electrons fill the available [[Fermi sea]] with one electron per available state, below a given energy, the "chemical potential". (Here, due to the strong external [[magnetic field]], all electrons may be assumed to have their [[spin]] aligned along this field, so that the states in question concern just the remaining electron [[momenta]].)
 The larger the magnetic field, the more [[quantum states]] are comprised by one Landau level.
 
 In the case that the electrons fill *exactly* $i \in \mathbb{N}$ Landau levels -- one speaks of *filling fraction $\nu = i$* --, the next excited state, needed for the transport of charge, is separated by the [[energy gap]] to the next Landau level, and hence at an integer number of exactly filled Landau levels the Hall system behaves like an [[insulator]] with vanishing longitudinal conductivity $\sigma_{x x} \sim 0$.
 
-What is measured in experiments is the *longitudinal resistivity*, which also goes to zero at these points of exactly filled Landau levels:
+What is measured in experiments is the *longitudinal resistivity*, which --- by (eq:GenericResistivityTensor) with (eq:NonVanishingHallConductivity) --- also goes to zero at these points of exactly filled Landau levels:
 
-$$
+\[
+  \label{LongitudinalResistivityVanishesWithLongConductivity}
   R_x
+  \coloneqq
+  \rho_{x x}
   \;=\;
   \frac{
     \sigma_{x x}
@@ -64,24 +176,47 @@ $$
   \;\;
   0
   \,.
-$$
+\]
 
-But the hallmark of the integer quantum Hall effect is that this vanishing of the longitudinal conductance and resistivity is observed *not just* right when the magnetic field is $B = B_i$, but in a whole neighbourhood of these values, where at the same time the Hall resistivity $R_H$ is approximately constant --- forms a "*Hall plateau*" --- on the value expected at $B_i$.
+But the hallmark of the integer quantum Hall effect is that this vanishing of the longitudinal (conductivity and hence) resistivity is observed *not just* right when the magnetic field strength is at the critical value $B = B_i$, but in a whole neighbourhood of these values, where at the same time the Hall resistivity $R_H \coloneqq \rho_{x y}$ is approximately constant and hence forms a "*Hall plateau*":
 
 <center>
 <img src="https://ncatlab.org/nlab/files/IntegerQuantumHallEffect.jpg" width="500">
 </center>
 
-The height of these Hall plateaux is an experimental constant to high precision, and is independent of the detailed nature of the underlying material, unaffected even by punching holes into the conducting sheet.
+Remarkably, the height of these Hall plateaus is an experimental constant to high precision, and is independent of the detailed nature of the underlying material, unaffected even by punching holes into the conducting sheet.
 
-Remarkably, the explanation for the presence of these plateaux of Hall resistance is thought to be related to im-purities in the material: The idea is that due to impurities, the idealized picture of Landau levels applies only to some of the electrons in the sample, while others are "localized"; and as the magnetic field is varied it is only after the reservoir of localized electrons has changed energy levels that it becomes the turn of the "quantum Hall electrons".
+Yet more remarkably, the explanation for the horizontal extension of these plateaux is thought to be related to *impurities* in the material --- in an ideally pure conductor the quantum Hall effect is expected to be invisible! The idea is that, due to the impurities, the idealized picture of Landau levels applies only to some of the electrons in the sample, while others are "localized" at/by the imporitites; and as the magnetic field is varied it is only after the reservoir of localized electrons has changed energy levels that it becomes the turn of the "quantum Hall electrons".
 
 
 
 ### Fractional quantum Hall effect
  {#IdeaFQHE}
 
-A neat informal account is given by [Störmer 1999](#Störmer99):
+Even though the integer quantum Hall effect ([above](#IdeaIntegerQuantumHallEffect)) involves many electrons (a macroscopic number on the scale of the [[Avogadro constant]]),
+which necessarily interact strongly via their mutual Coulomb force, for understanding the effect it turns out (as indicated above) to be sufficient to consider the energy of single electrons right at the [[Fermi sea]] surface of a filled Landau level as if they were "free" (non-interacting). That such a radical (and conceptually unjustified!) approximation works so well is surprising on a fundamental level, but is entirely common in traditional [[solid state physics]], notably in [[Landau's Fermi liquid theory]].
+
+However, yet closer experimental analysis at yet smaller [[temperatures]] and electron densities shows that this approximation breaks down at some point, and that the strong interaction between the electrons makes them collectively behave in exotic ways.
+
+Concretely, experiments show that Hall plateaus appear not just at integer filling levels, but (smaller) Hall plateaus appear also at certain [[rational number|rational]] filling fractions $\nu \in \mathbb{Q}$, notably at $\nu = 1/q$ for $q \in \mathbb{N}$, hence whenever the first Landau level is filled only *half* or *one-third*, etc.
+
+This experimentally pbserved phenomenon is thus called the *fractional quantum Hall effect*.
+
+Unfortunately, due to the general open problem of formulating and analyzing [[non-perturbative quantum field theory]], there is essentially no first-principles understanding of what causes the fractional quantum Hall effect! 
+
+What people have come up with, instead, are:
+
+1. *ad hoc* (mental) models of how the electrons form supposedly "[[bound states]]" with magnetic flux quanta: "**composite fermions**", 
+
+   suggesting that the fractional quantum Hall effect is just the integer quantum Hall effect again, now not for plain electrons but for their exotic "fractional" [[quasi-particle]]/quasi-hole [[bound states]],
+
+1. some educated guesses as to the [[quantum many-body physics|many-electron]] [[wavefunction]] describing the fractional Hall [[quantum state]] -- **[[Laughlin wavefunctions]]**,
+
+   which, while just guessed, are confirmed well by experiment and have in practice become the effective theory for FQH systems,
+
+1. some actual [[effective field theory|effectice]] [[quantum field theory]] description by variants of **[[abelian Chern-Simons theory]]**.
+
+A neat account of the commonly accepted composite fermion picture is given by [Störmer 1999](#Störmer99):
 
 > "In the [[fractional quantum Hall effect|FQHE]], the electrons assume an even more favorable state \[than in the IQHE\], unforeseen by theory, by conducting an elaborate, mutual, quantum-mechanical dance. Many-particle effects are extraordinarily challenging to address theoretically. \[...\] on occasion many-particle interactions become the essence of a physical effect. [[superconductivity|Superconductivity]] and [[superfluidity]] are of such intricate origin. To account for their occurrence one had to devise novel, sophisticated theoretical means. The emergence of the FQHE requires such a new kind of thinking. \[...\] 
 
