@@ -29,7 +29,9 @@ $$contr_{l,s}(T,S)^{i_1,\ldots, i_{s-1},i_{s+1},\ldots,i_n}_{j_1,\ldots, j_{l-1}
 
 More generally one can contract mixed tensors and do several contractions simultaneously. In fact it is better to think of a contraction as a tensor multiplication of two tensors and then doing the genuine contraction of one upper and one lower index of the same tensor:
 $$
-contr_{l,s}(A)^{i_1,\ldots, i_{s-1},i_{s+1},\ldots,i_n}_{j_1,\ldots,j_{l-1},j_{l+1},\ldots, j_m}) := \sum_{u = 1}^r A^{i_1,\ldots, i_{s-1},u,i_{s+1},\ldots,i_n}_{j_1,\ldots,j_{l-1},u,j_{l+1},\ldots, j_m}
+  contr_{l,s}(A)^{i_1,\ldots, i_{s-1},i_{s+1},\ldots,i_n}_{j_1,\ldots,j_{l-1},j_{l+1},\ldots, j_m}) 
+  \;\coloneqq\; 
+  \sum_{u = 1}^r A^{i_1,\ldots, i_{s-1},u,i_{s+1},\ldots,i_n}_{j_1,\ldots,j_{l-1},u,j_{l+1},\ldots, j_m}
 $$
 
 The simplest case is the [[trace]] of a $(1,1)$-tensor: $tr A = \sum_{i=1}^r A^i_i$.
@@ -54,9 +56,9 @@ and $\iota_X: \omega\mapsto \iota_X(\omega)$ is a graded derivation of the exter
 
 ## References
 
-* wikipedia: [tensor contraction](http://en.wikipedia.org/wiki/Tensor_contraction)
+* Wikipedia: *[Tensor contraction](http://en.wikipedia.org/wiki/Tensor_contraction)*
 
-* Shlomo Sternberg, _Introduction to differential geometry_
+* [[Shlomo Sternberg]]: _Introduction to differential geometry_
 
 [[!redirects tensor contraction]]
 [[!redirects tensor contractions]]
