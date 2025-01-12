@@ -75,7 +75,7 @@ Suppose that there is an Archimedean ordered field $R$ which is a [[field extens
 Since the field of Cauchy real numbers is a (trivial) field extension of itself, the analytic LPO for $R$ implies the analytic LPO for the Cauchy real numbers, which implies the LPO for the natural numbers. 
 \end{proof}
 
-Let $\Sigma$ be the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]. It is a sub-$\sigma$-frame of the [[frame of truth values]]. One can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts in valued in the initial $\sigma$-frame $\Sigma \subseteq \Omega$ (see section 11.2 of [UFP 2013](#UFP13)), where then one has ring homomorphisms
+Let $\Sigma$ be the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]. It is a sub-$\sigma$-frame of the [[frame of truth values]]. One can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts valued in the initial $\sigma$-frame $\Sigma \subseteq \Omega$ (see section 11.2 of [UFP 2013](#UFP13)), where then one has ring homomorphisms
 $$\mathrm{R}_C \hookrightarrow \mathrm{R}_\Sigma \hookrightarrow \mathrm{R}_D$$
 
 \begin{theorem}
@@ -142,6 +142,14 @@ Thus, one has a hierarchy of analytic limited principles of omniscience, where
 
 * For any other Archimedean ordered field extension of the Cauchy real numbers $R$ which is neither equivalent to the Cauchy real numbers or the Dedekind real numbers, the analytic LPO for $R$ are intermediate in strength between the Cauchy-analytic LPO and the Dedekind-analytic LPO. 
 
+\begin{theorem}
+Given a [[sigma-frame|$\sigma$-subframe]] $\Sigma$ of the $\sigma$-frame of [[truth values]], that the $\Sigma$-[[Dedekind completion]] of every [[Archimedean ordered integral domain]] using of Dedekind cuts valued in $\Sigma$ is [[isomorphic]] to either the [[integers]] $\mathbb{Z}$ or the $\Sigma$-[[Dedekind real numbers]] $\mathbb{R}_\Sigma$ is equivalent to the analytic $\mathrm{LPO}$ for $\mathbb{R}_\Sigma$. 
+\end{theorem}
+
+\begin{proof}
+Consider the Archimedean ordered integral domain $R$ with an arbitrary element $x \in R$. The $\Sigma$-Dedekind completion of $R$ is the integers if and only if $x$ is equal to an integer, and the $\Sigma$-Dedekind completion of $R$ is the $\Sigma$-Dedekind real numbers if and only if $x$ is [[tight apartness|apart from]] an integer. However, $x$ is equal to an integer or apart from an integer for all $x \in R$ if and only if $R$ is a [[discrete integral domain]], and the claim that every Archimedean ordered integral domain is discrete is equivalent to the analytic $\mathrm{LPO}$ for the $\Sigma$-Dedekind real numbers. 
+\end{proof}
+
 ## Related statements
 
 Given an Archimedean ordered field extension $R$ of the [[Cauchy real numbers]], there are other statements related to the analytic LPO for $R$:
@@ -154,7 +162,8 @@ Given an Archimedean ordered field extension $R$ of the [[Cauchy real numbers]],
 
 * That every [[apartness relation]] on a [[set]] is [[decidable relation|decidable]] implies that analytic LPO for $R$:
 
-$$((\forall x.\neg (x \# x)) \wedge (\forall x, y.(x \# y) \Rightarrow (y \# x)) \wedge (\forall x, y, z.(x \# y) \wedge (y \# z) \Rightarrow (x \# z))) \Rightarrow (\forall x, y.(x \# y) \vee \neg (x \# y))$$
+$$((\forall x.\neg (x \# x)) \wedge (\forall x, y.(x \# y) \Rightarrow (y \# x)) \wedge (\forall x, y, z.(x \# y) \wedge (y \# z) \Rightarrow (x \# z))) \Rightarrow 
+(\forall x, y.(x \# y) \vee \neg (x \# y))$$
 
 ## Models
 
