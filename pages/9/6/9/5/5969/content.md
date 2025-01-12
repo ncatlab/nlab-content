@@ -58,7 +58,9 @@ $$
 For $\Sigma \subset X$ any $(n-1)$-dimensional submanifold, 
 
 $$
-  \delta \theta := \delta \int_\Sigma \Theta
+  \delta \theta 
+  \,\coloneqq\, 
+  \delta \int_\Sigma \Theta
 $$
 
 is the [[presymplectic structure]] on covariant phase space
@@ -89,7 +91,9 @@ $$
 For $\Sigma \hookrightarrow X$ a submanifold of dimension $n-1$, the **[[charge]]** of the conserved current $j$ with respect to $\Sigma$ is the [[integral]]
 
 $$
-  Q_\Sigma := \int_\Sigma j
+  Q_\Sigma 
+  \,\coloneqq\, 
+  \int_\Sigma j
   \,.
 $$
 
@@ -304,6 +308,7 @@ The same structure is considered in
 as higher [[quantomorphisms]] and [[Poisson bracket Lie n-algebras]] of local currents.
 
 category: physics
+
 [[!redirects conserved current]]
 [[!redirects conserved currents]]
 
@@ -315,4 +320,7 @@ category: physics
 
 [[!redirects Noether current algebra]]
 [[!redirects Noether current algebras]]
+
+[[!redirects current density]]
+[[!redirects current densities]]
 
