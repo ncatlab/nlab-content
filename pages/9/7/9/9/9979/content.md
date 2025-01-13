@@ -56,18 +56,6 @@ or any combination of the above, such as [[tight apartness relation]].
 
 The notion of "[[inequality relation]]" in constructive mathematics usually refers to either the [[denial inequality]] or a [[tight apartness relation]]. On the other hand, some authors have used "inequality relation" to refere to general irreflexive symmetric relations. 
 
-## Antithesis interpretation
-
-Sets equipped with an irreflexive symmetric relation $\nsim$ are known as **antithesis sets** in the [[antithesis interpretation]] of [[constructive mathematics]] in [[intuitionistic logic]]. Then we have the following:
-
-* An antithesis set is **strong** if $\nsim$ is an [[apartness relation]]. 
-
-* An antithesis set is **affirmative** if $\nsim$ is [[denial inequality]]. 
-
-* An antithesis set is **refutative** if $\nsim$ is a [[tight relation]]. 
-
-Thus, every set is an affirmative antithesis set. The [[inequality spaces]] talked about elsewhere in the nLab are strong refutative antithesis sets. 
-
 ## Related concepts
 
 * [[apartness relation]]
@@ -76,6 +64,7 @@ Thus, every set is an affirmative antithesis set. The [[inequality spaces]] talk
 * [[antithesis partial order]]
 * [[antithesis interpretation]]
 * [[inequality ring]]
+* [[affine set]]
 
 ## References
 
@@ -95,18 +84,6 @@ Thus, every set is an affirmative antithesis set. The [[inequality spaces]] talk
 
 [[!redirects decidable irreflexive symmetric relation]]
 [[!redirects decidable irreflexive symmetric relations]]
-
-[[!redirects antithesis set]]
-[[!redirects antithesis sets]]
-
-[[!redirects strong antithesis set]]
-[[!redirects strong antithesis sets]]
-
-[[!redirects affirmative antithesis set]]
-[[!redirects affirmative antithesis sets]]
-
-[[!redirects refutative antithesis set]]
-[[!redirects refutative antithesis sets]]
 
 [[!redirects weak inequality]]
 [[!redirects weak inequalities]]
