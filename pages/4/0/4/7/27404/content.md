@@ -45,6 +45,12 @@ In [[dependent type theory]], an $\mathcal{A}$-set is a **[[univalent setoid|uni
 
 Every type is an affirmative $\mathcal{A}$-set with the equivalence relation given by the [[propositional truncation]] of the [[identity type]] and the irreflexive symmetric relation given by the [[negation]] of the equivalence relation. 
 
+* [[A-monoid]]
+
+* [[A-group]]
+
+* [[A-ring]]
+
 ## Related concepts
 
 * [[setoid]]
@@ -60,8 +66,6 @@ Every type is an affirmative $\mathcal{A}$-set with the equivalence relation giv
 * [[cartesian product of A-sets]]
 
 * [[tensor product of A-sets]]
-
-* [[A-monoid]]
 
 ## References
 
