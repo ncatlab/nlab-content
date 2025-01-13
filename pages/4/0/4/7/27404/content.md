@@ -31,15 +31,15 @@ $$(x \sim y) \to ((x \nsim z) \to (y \nsim z)) \quad \mathrm{and} \quad (x \sim 
 
 In addition, 
 
-* An affine set is **strong** if $\nsim$ is an [[apartness relation]]. 
+* An $\mathcal{A}$-set is **strong** if $\nsim$ is an [[apartness relation]]. 
 
-* An affine set is **affirmative** if $\neg (x \sim y)$ implies $x \nsim y$. 
+* An $\mathcal{A}$-set is **affirmative** if $\neg (x \sim y)$ implies $x \nsim y$. 
 
-* An affine set is **refutative** if $\neg (x \nsim y)$ implies $x \sim y$. 
+* An $\mathcal{A}$-set is **refutative** if $\neg (x \nsim y)$ implies $x \sim y$. 
 
-Thus, every setoid is an affirmative affine set. 
+Thus, every setoid is an affirmative $\mathcal{A}$-set. 
 
-In [[dependent type theory]], an affine set is a **[[univalent setoid|univalent]] affine set** if the canonical inductively defined function $\mathrm{idtosim}(x, y)$ from $x =_A y$ to $x \sim y$ is an [[equivalence of types]] for all $x$ and $y$ in $A$. This means that univalent affine sets are the same as [[h-sets]] equipped with an [[irreflexive symmetric relation]], since the principle of substitution is automatically satisfied via [[transport]] across the type families $(-) \nsim z$ and $z \nsim (-)$ for all $z$ in $A$. 
+In [[dependent type theory]], an $\mathcal{A}$-set is a **[[univalent setoid|univalent]] $\mathcal{A}$-set** if the canonical inductively defined function $\mathrm{idtosim}(x, y)$ from $x =_A y$ to $x \sim y$ is an [[equivalence of types]] for all $x$ and $y$ in $A$. This means that univalent $\mathcal{A}$-sets are the same as [[h-sets]] equipped with an [[irreflexive symmetric relation]], since the principle of substitution is automatically satisfied via [[transport]] across the type families $(-) \nsim z$ and $z \nsim (-)$ for all $z$ in $A$. 
 
 ## Related concepts
 
@@ -52,6 +52,10 @@ In [[dependent type theory]], an affine set is a **[[univalent setoid|univalent]
 * [[antithesis partial order]]
 
 * [[A-function]]
+
+* [[cartesian product of A-sets]]
+
+* [[tensor product of A-sets]]
 
 ## References
 
