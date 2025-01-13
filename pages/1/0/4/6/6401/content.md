@@ -35,6 +35,7 @@ Mostly however "superspace" is used for [[superspacetimes]], and here mostly for
 
 
 ## References
+ {#References}
 
 The concept of superspace in physics (together with that of [[superfields]]) is due to
 
@@ -67,19 +68,32 @@ The formulation of [[supergravity]] on [[super spacetime]] [[supermanifolds]]:
 * James L. Carr, [[S. James Gates Jr.]], Robert N. Oerter: *$D = 10$, $N = 2a$ Supergravity in Superspace*, Physics Letters B
 **189** 1–2 (1987) 68-74 &lbrack;<a href="https://doi.org/10.1016/0370-2693(87)91271-8">doi:10.1016/0370-2693(87)91271-8</a>, [spire:235791](https://inspirehep.net/literature/235791)&rbrack;
 
-
 * [[S. James Gates Jr.]], Liang Lu, Robert N. Oerter: *Simplified $SU(2)$ spinning string superspace supergravity*, Physics Letters B **218** 1 (1989) 33-38 \[<a href="https://doi.org/10.1016/0370-2693(89)90470-X">doi:10.1016/0370-2693(89)90470-X</a>, [spire:263912](https://inspirehep.net/literature/263912)\]
   > (for the [[superstring]] [[worldvolume]])
-
-For more on this see the:
-
-* *[[D'Auria-Fré-Regge formulation of supergravity]]*
 
 See also:
 
 * S. M. Kuzenko, E. S. N. Raptakis, G. Tartaglino-Mazzucchelli, *Superspace approaches to $\mathcal{N} = 1$ supergravity*, *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.17088](https://arxiv.org/abs/2210.17088)&rbrack;
 
 * S. M. Kuzenko, E. S. N. Raptakis, G. Tartaglino-Mazzucchelli, *Covariant superspace approaches to $\mathcal{N}=2$ supergravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.11162](https://arxiv.org/abs/2211.11162)&rbrack;
+
+
+The claim of the derivation of $D=11$ supergravity in [[supergeometry]], by solving the [[supergravity torsion constraint|torsion constraint]] and [[Bianchi identities]] on [[super spacetime]] [[supermanifolds]] is due to
+
+* {#CremmerFerrara80} [[Eugène Cremmer]], [[Sergio Ferrara]], *Formulation of Eleven-Dimensional Supergravity in Superspace*, Phys. Lett. B **91** (1980) 61 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)90662-0">doi:10.1016/0370-2693(80)90662-0</a>&rbrack;
+
+* {#BrinkHowe80} [[Lars Brink]], [[Paul Howe]], *Eleven-Dimensional Supergravity on the Mass-Shell in Superspace*, Phys. Lett. B **91** (1980) 384 &lbrack;<a href="https://doi.org/10.1016/0370-2693(80)91002-3">doi:10.1016/0370-2693(80)91002-3</a>&rbrack;
+
+and in the mild variation (using a manifestly [[duality-symmetric C-field|duality-symmetric]] super-[[supergravity C-field|C-field]] [[flux density]]) due to
+
+* [Castellani, D'Auria & Fré 1991, §III.8.5](#CastellaniDAuriaFré91)
+
+A proof of this claim is laid out in 
+
+* {#GiotopoulosSatiSchreiber24} [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]], §3 of: *[[schreiber:Flux Quantization on 11d Superspace]]*, Journal of High Energy Physics **2024** 82 (2024) &lbrack;[arXiv:2403.16456](https://arxiv.org/abs/2403.16456), <a href="https://doi.org/10.1007/JHEP07(2024)082">doi:10.1007/JHEP07(2024)082</a>&rbrack;
+
+using further lemmas and then heavy computer algebra checks ([here](/schreiber/show/Flux+Quantization+on+11d+Superspace#AncillaryFiles)).
+
 
 Further review:
 
