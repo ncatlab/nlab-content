@@ -8,11 +8,15 @@ We now generalise from finitary [[joins]] to arbitrary joins:  A filter $F$ on a
 
 In particular, if $L$ is a [[frame]], then a completely prime filter of $L$ is given by a frame homomorphism from $L$ to $TV$.  Thinking of $L$ as a [[locale]], this is the same as a [[point of a locale|point]] of $L$.
 
-## See also
+## Related concepts
 
 * [[locale]]
 
 * [[locale of real numbers]]
+
+## References
+
+* [[Ming Ng]], *Adelic Geometry via Topos Theory*, PhD thesis ([pdf](https://puzzledoyster.github.io/publications/FINALSUBMISSION.pdf))
 
 [[!redirects completely prime filter]]
 [[!redirects completely prime filters]]
