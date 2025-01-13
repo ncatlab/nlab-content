@@ -51,7 +51,7 @@ $$
 ### Abelian Chern-Simons as effective QFT for FQH systems
  {#AbelianCSTheoryAsEffectiveQFTForFRactionalQuantumHall}
 
-The following is a streamlined digest of the traditional argument and Ansatz &lbrack;[Zee 1995](#Zee95), [Wen 1995](#Wen95), [Witten 2016 pp 30](#Witten16), [Tong 2016 §5](#Tong16)&rbrack; for [[abelian Chern-Simons theory]] at [[level (Chern-Simons theory)|level]] $k \in \mathbb{N}$ as an [[effective field theory]] for [[fractional quantum Hall systems]] at filling fraction $\nu = 1/k$.
+The following is a streamlined digest of the traditional argument and Ansatz &lbrack;originally culminating in [Zee 1995](#Zee95), [Wen 1995](#Wen95), more recently highlighted by [Witten 2016 pp 30](#Witten16), [Tong 2016 §5](#Tong16)&rbrack; for [[abelian Chern-Simons theory]] at [[level (Chern-Simons theory)|level]] $k \in \mathbb{N}$ as an [[effective field theory]] for [[fractional quantum Hall systems]] at filling fraction $\nu = 1/k$.
 
 
 \linebreak
@@ -59,7 +59,7 @@ The following is a streamlined digest of the traditional argument and Ansatz &lb
 
 #### Preliminaries
 
-Our [[spacetime]] $\Sigma$ has dimension $1 + 2$, to be thought of as the [[worldvolume]] of the conducting sheet that hosts the [[fractional quantum Hall system]].
+Consider a [[spacetime]] $\Sigma$ of [[dimension of a manifold|dimension]] $1 + 2$, to be thought of as the [[worldvolume]] of the conducting sheet that hosts the [[fractional quantum Hall system]].
 
 On this spacetime, the electric [[current density]] is a [[differential 2-form]] $J$.
 
