@@ -279,7 +279,7 @@ such that
 * for all $x,y \in X_1$ and $f \in Hom_{\mathcal{G}_1}(x,y)$ an [[equality]]
 
   $$
-    \eta_y \circ_2 F(f)
+    \eta_y \circ F(f)
      =
      G(f) \circ \eta_x
      \phantom{AAAAAA}
