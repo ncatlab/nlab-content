@@ -124,6 +124,11 @@ with Aaron Lauda, in proceedings of
 <i>Deep Beauty: Mathematical Innovation and the Search for
 an Underlying Intelligibility of the Quantum World</i>, ed. 
 Hans Halvorson. 
+
+## Other papers
+
+* [[John Baez]], *The Moduli Space of Acute Triangles*, Notices of the American Mathematical Society, Volume 71, Number 5, pages 664-665, May 2024. ([arXiv:2407.06201](https://arxiv.org/abs/2407.06201), [pdf](https://www.ams.org/journals/notices/202405/rnoti-p664.pdf))
+
 category: people
 
 [[!redirects John C. Baez]]
