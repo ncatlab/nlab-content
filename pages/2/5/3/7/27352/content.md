@@ -16,13 +16,16 @@ and was made more explicit in:
 
 * B. Blok, [[Xiao-Gang Wen]]: *Effective theories of the fractional quantum Hall effect at generic filling fractions*, Phys. Rev. B **42** (1990) 8133 \[<a href="https://doi.org/10.1103/PhysRevB.42.8133">doi:10.1103/PhysRevB.42.8133</a>\]
 
+* [[Jürg Fröhlich]], T. Kerler: *Universality in quantum Hall systems*, Nuclear Physics B **354** 2–3 (1991) 369-417 \[<a href="https://doi.org/10.1016/0550-3213(91)90360-A">doi:10.1016/0550-3213(91)90360-A</a>\]
+
+* [[Jürg Fröhlich]], [[Anthony Zee]]: *Large scale physics of the quantum hall fluid*, Nuclear Physics B **364** 3 (1991) 517-540 \[<a href="https://doi.org/10.1016/0550-3213(91)90275-3">doi:10.1016/0550-3213(91)90275-3</a>\]
+
 * Z. F. Ezawa, A. Iwazaki: *Chern-Simons gauge theories for the fractional-quantum-Hall-effect hierarchy and anyon superconductivity*, Phys. Rev. B **43** (1991) 2637 \[<a href="https://doi.org/10.1103/PhysRevB.43.2637">doi:10.1103/PhysRevB.43.2637</a>\] 
 
 * [[A. P. Balachandran]], A. M. Srivastava: *Chern-Simons Dynamics and the Quantum Hall Effect* \[<a href="https://arxiv.org/abs/hep-th/9111006">arXiv:hep-th/9111006</a>, [spire:319826](https://inspirehep.net/literature/319826)\]
 
 * Ana Lopez, [[Eduardo Fradkin]]: *Fractional quantum Hall effect and Chern-Simons gauge theories*, Phys. Rev. B **44** (1991) 5246 \[<a href="https://doi.org/10.1103/PhysRevB.44.5246">doi:10.1103/PhysRevB.44.5246</a>\]
 
-* [[Jürg Fröhlich]], [[Anthony Zee]]: *Large scale physics of the quantum hall fluid*, Nuclear Physics B **364** 3 (1991) 517-540 \[<a href="https://doi.org/10.1016/0550-3213(91)90275-3">doi:10.1016/0550-3213(91)90275-3</a>\]
 
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Topological structures, universality classes, and statistics screening in the anyon superfluid*, Phys. Rev. B **44** (1991) 274 \[<a href="https://doi.org/10.1103/PhysRevB.44.274">doi:10.1103/PhysRevB.44.274</a>\]
 
@@ -31,6 +34,8 @@ and was made more explicit in:
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Shift and spin vector: New topological quantum numbers for the Hall fluids*, Phys. Rev. Lett. **69** (1992) 953, Erratum Phys. Rev. Lett. **69** 3000 (1992) \[<a href="https://doi.org/10.1103/PhysRevLett.69.953">doi:10.1103/PhysRevLett.69.953</a>\]
 
 * [[Xiao-Gang Wen]]: *Theory of Edge States in Fractional Quantum Hall Effects*, International Journal of Modern Physics B **06** 10 (1992) 1711-1762 \[<a href="https://doi.org/10.1142/S0217979292000840">doi:10.1142/S0217979292000840</a>\]
+
+* [[A. P. Balachandran]], L. Chandar, B. Sathiapalan: *Chern-Simons Duality and the Quantum Hall Effect*, Int. J. Mod. Phys.  **A11** (1996) 3587-3608 \[<a href="https://doi.org/10.1142/S0217751X96001693">doi:10.1142/S0217751X96001693</a>, [arXiv:hep-th/9509019](https://arxiv.org/abs/hep-th/9509019)\]
 
 
 Early review:
@@ -42,6 +47,9 @@ Early review:
 Further review and exposition:
 
 * [[Yuan-Ming Lu]], [[Ashvin Vishwanath]], part II of: *Theory and classification of interacting integer topological phases in two dimensions: A Chern-Simons approach*, Phys. Rev. B **86** (2012) 125119, Erratum Phys. Rev. B **89** (2014) 199903 \[<a href="https://doi.org/10.1103/PhysRevB.86.125119">doi:10.1103/PhysRevB.86.125119</a>, [arXiv:1205.3156](https://arxiv.org/abs/1205.3156)\]
+
+* [[Eduardo Fradkin]], chapter 7 of: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) \[<a href="https://doi.org/10.1017/CBO9781139015509">doi:10.1017/CBO9781139015509</a>, ISBN:9781139015509\]
+
 
 * {#Witten16} [[Edward Witten]], pp 30 in: *Three Lectures On Topological Phases Of Matter*, La Rivista del Nuovo Cimento **39** (2016) 313-370 \[<a href="https://doi.org/10.1393/ncr/i2016-10125-3">doi:10.1393/ncr/i2016-10125-3</a>, [arXiv:1510.07698](https://arxiv.org/abs/1510.07698)\]
 
