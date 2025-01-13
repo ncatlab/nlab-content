@@ -80,6 +80,8 @@ Let $A$ be a monoidal setoid, and let $A / \sim$ be its [[quotient set]]. Then t
 
 * [[monoidal category]]
 
+* [[A-monoid]]
+
 [[!redirects monoidal setoid]]
 [[!redirects monoidal setoids]]
 
