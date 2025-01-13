@@ -625,7 +625,7 @@ More recent discussion:
 
 * [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Isbell Duality* Theory and Applications of Categories **20** 15 (2008) 504-542 &lbrack;[tac:20-15](http://www.tac.mta.ca/tac/volumes/20/15/20-15abs.html)&rbrack;
 
-* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Isbell duality for for modules*, Theory and Applications of Categories **22** 17 (2009) 401-419 &lbrack;[tac:22-17](http://www.tac.mta.ca/tac/volumes/22/17/22-17abs.html), [pdf](https://www.math.mcgill.ca/barr/papers/rmod.pdf)&rbrack;
+* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Isbell duality for modules*, Theory and Applications of Categories **22** 17 (2009) 401-419 &lbrack;[tac:22-17](http://www.tac.mta.ca/tac/volumes/22/17/22-17abs.html), [pdf](https://www.math.mcgill.ca/barr/papers/rmod.pdf)&rbrack;
 
 
 * [[Richard Garner]], _The Isbell monad_, Advances in Mathematics **274** (2015) pp.516-537. ([draft](http://comp.mq.edu.au/~rgarner/Papers/Isbell.pdf))
