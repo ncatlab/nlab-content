@@ -21,17 +21,74 @@
 ## Idea
  {#Idea}
 
+In short:
+
 At sufficiently low temperature, [[quantum physics|quantum effects]] change the nature of the classical [[Hall effect]], in two ways:
 
 1. in the *integral* quantum Hall effect, quantization of the [[energy]] into *Landau levels* of electrons that are circulating in a transverse [[magnetic field]] while confined to a plane, causes the [[Hall effect|Hall resistance]], which classically increases linearly with increasing external [[magnetic field]], to instead intermittently form constant "plateaus" as these get "filled" by electron states,
 
 1. in the *fractional quantum Hall effect*, strong external magnetic field causes these Landau levels to be filled only partially and the strongly Coulomb-coupled electrons to form [[bound states]] "with" magnetic [[flux quantization|flux quanta]] that may exhibit effective *fractional* charge and, apparently, "fractional statistics" ([[anyon|anyonic]] [[braiding]] behaviour).
 
+\linebreak
+
+In a tad more detail:
+
+\linebreak
+
+
+{#FirstIdea} **Quantum Hall effect.**
+In a $\sim$ 2D sheet $\Sigma^2$ of [[conductor (electromagnetism)|conducting]] material
+threaded by [[magnetic field|magnetic]] [[flux density]] $B$
+
+the [[energy]] of [[electron]] [[quantum states]] is quantized by *Landau levels* $i \in \mathbb{N}$
+as
+$
+  E 
+    \,=\,
+  \hbar \omega_B
+  \big(
+    i + \tfrac{1}{2}
+  \big)
+  \,,
+$
+
+where each level comprises one state per magnetic flux quantum:
+$
+  n_{\mathrm{deg}}
+  \,=\,
+  B/\Phi_0 \,=\, B \tfrac{e}{h}
+  \,.
+$
+
+
+**Integer quantum Hall effect.**
+[[Landau's Fermi liquid theory|Fermi theory]] of idealized *free* electrons hence predicts the system to be a [[conductor (electromagnetism)|conductor]] away from the [[energy gaps]] between a completely filled and the next empty Landau level, hence away from the number of electrons being integer multiples 
+$n_{\mathrm{el}} = \nu B/\Phi_0$,
+$\nu \in \mathbb{N}$
+of the number of flux quanta, where longitudinal conductivity should vanish.
+
+This is indeed observed and is called the *integer quantum Hall effect* --- in fact the vanishing conductivity is observed in sizeable neighbourhoods of the critical filling fractions ("Hall plateaux", attributed to disorder effects).
+
+
+
+**Fractional quantum Hall effect.**
+But electrons in a conductor are far from free.
+While there is little to no theory for strongly interacting quantum systems, [[experiment]] shows that the Fermi idealization breaks down at low enough temperature, where longitudinal conductivity decreases also in neighbourhoods of certain *fractional* filling factors $\nu \,\in\, \mathbb{Q}$, prominently so at $\nu = 1/k$ for $k \in 2\mathbb{N} + 1$.
+
+The heuristic idea is that at these filling fractions the interacting electrons form a kind of [[bound state]] with $k$ flux quanta each, making "composite [[bosons]]" that as such [[Bose-Einstein condensate|condense]] to produce an insulating [[mass gap]], after all.
+
+
+**Anyonic quasi-particles.**
+But this suggests that in the Hall plateau neighbourhood around such filling fraction, there are unpaired flux quanta each "bound to" one $1/k$th of a (missing) electron: called "[[quasi-particles]]" ("quasi-holes"). These evidently have fractional charge $\pm e/k$ and are expected to be [[anyon|anyonic]] with pair exchange phase $e^{\mathrm{i} \pi/k}$. There is claim that this anyonic phase has been experimentally observed.
+
+
+\linebreak
+
 
 ### Hall effect and Hall resistivity
  {#IdeaHallResistivity}
 
-The setup of any *Hall effect* is a plane sheet of [[conductor|conducting]]  material placed in a transverse [[magnetic field]] (constant across the plane, directed perpendicular to it).
+The setup of any *Hall effect* is a plane sheet of [[conductor (electromagnetism)|conducting]]  material placed in a transverse [[magnetic field]] (constant across the plane, directed perpendicular to it).
 
 The *[[classical Hall effect]]* is the phenomenon that a [[voltage]] $V_x$ applied along the conducting sheet in some direction -- to be called the $x$-direction -- induces a *Hall voltage* $V_y$ in the *perpendicular* direction -- to be called the $y$-direction -- across the conducting sheet.
 
