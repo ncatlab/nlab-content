@@ -36,7 +36,7 @@ See also _[[differentiable vector bundle]]_ and _[[algebraic vector bundle]]_.
 ## Definition
 
 We first give the more abstract definiton
-in terms of slice categories (def. \ref{TopologicalVectorBundleInTermsOfSliceCategories} below) and then unwind this to the traditional definition (def \ref{TopologicalVectorBundle} below).
+in terms of [[slice categories]] (def. \ref{TopologicalVectorBundleInTermsOfSliceCategories} below) and then unwind this to the traditional definition (def \ref{TopologicalVectorBundle} below).
 
 In the following
 
@@ -71,7 +71,7 @@ A _topological vector bundle_ over $X \in Top$ is
 
    1. a morphism $(-)\cdot(-) \;\colon\;  k \times E \to E$
 
-   which satisfy the vector space axioms
+   which satisfy the [[vector space]] [[axioms]]
 
 such that
 
@@ -82,15 +82,17 @@ such that
   1. an [[isomorphism]] of vector space objects in $Top_{/U}$
 
      $$
-       U \times \mathbb{R}^n
+       U \times_I \mathbb{R}^{n}
          \overset{\simeq}{\longrightarrow}
        U \times_X E
        \,,
      $$
 
-     for some $n \in \mathbb{N}$, where  $[U \times k^n \overset{pr_1}{\to} X]$ and $[U \times_X E \overset{pr_1}{\to} U]$ are regarded as a vector space objects in $Top_{U}$ in the canonical way.
+     for $n \colon I \to \mathbb{N}$ some $I$-[[indexed set]] of [[natural numbers]], 
 
-It follows that $n \in \mathbb{N}$ is constant on [[connected components]]. Often this is required to be constant on all of $X$ and then called the _[[rank]]_ of the vector bundle.
+    where  $[U \times k^n \overset{pr_1}{\to} X]$ and $[U \times_X E \overset{pr_1}{\to} U]$ are regarded as vector space objects in $Top_{U}$ in the canonical way.
+
+It follows that $n$ is constant on [[connected components]] of $X$. Often this is required to be constant on all of $X$ and then called the _[[rank]]_ of the vector bundle.
 
 A _[[homomorphism]]_ of topological vector bundles is simple a homomorphism of vector space objects in $Top_{/X}$.
 
