@@ -56,13 +56,13 @@ Furthermore, in the definition of an anti-ideal itself, when one says that $0$ i
 
 The [[degree of a polynomial]] is only well-defined in any ring with an apartness relation. Anything that depends on well-defined degrees of a polynomial, such as [[algebraic closure]], also is only well-defined for a ring with an apartness relation. 
 
-### Decidable equality
+### Classical sets
 
-Sets with [[decidable equality]] are however still definable in coherent mathematics; they are sets $S$ equipped with an [[apartness relation]] such that for all elements $a \in S$ and $b \in S$, $a = b$ or $a \# b$. This is expressed by the sequent
+The [[classical sets]] are however still definable in coherent mathematics; they are sets $S$ equipped with an [[apartness relation]] such that for all elements $a \in S$ and $b \in S$, $a = b$ or $a \# b$. This is expressed by the sequent
 $$a \in S, b \in S \vdash (a = b) \vee (a \# b)$$
-This means that one could work in predicative [[classical mathematics]] (i.e. a [[Boolean category]]) by stipulating that every set has decidable equality. 
+This means that one could work in predicative [[classical mathematics]] (i.e. a [[Boolean category]]) by stipulating that every set is a classical set. 
 
-Nonetheless, even without assuming the above, a lot of [[algebraic number theory]] is coherent because the rings and [[number fields]] studied have decidable equality. 
+Nonetheless, even without assuming the above, a lot of [[algebraic number theory]] is coherent because the rings and [[number fields]] studied are classical sets. 
 
 ## Predicates, subsets, and restricted separation
 
