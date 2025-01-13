@@ -85,13 +85,13 @@ See:
   
   > [28:56](https://youtu.be/TvIz-6YOdKs?t=1736): "but the $1/N$ expansion doesn't explain everything. In fact, it's not hard to find phenomena in meson physics where the $1/N$-expansion does *not* work well."
 
-  > [36:15](https://youtu.be/TvIz-6YOdKs?t=2175): "I suspect the [[large N limit|$1/N$-expansion]] works reasonably well for many aspects of [[baryons]]. However, as for mesons, it is easy to point to things that won't work well for baryons. In particular, among other things, I don't think the [[large N limit|$1/N$ expansion]] will be successful for [[nuclei]] as opposed to individual [[nucleons]]."
+  > [36:15](https://youtu.be/TvIz-6YOdKs?t=2175): "I suspect the [[large N limit|$1/N$-expansion]] works reasonably well for many aspects of [[baryons]]. However, as for [[mesons]], it is easy to point to things that won't work well for baryons. In particular, among other things, I don't think the [[large N limit|$1/N$ expansion]] will be successful for [[nuclei]] as opposed to individual [[nucleons]]."
 
   > [37:12](https://youtu.be/TvIz-6YOdKs?t=2232): "I don' t think the phenomenological models used by nuclear physicists would have any success at of if the [[large N limit]] was a good description of [[nuclei]]."
 
 
 
-Lecture notes:
+Lecture notes and other reviews:
 
 * [[Sidney Coleman]], _$1/N$_, 
 
@@ -103,13 +103,16 @@ Lecture notes:
 
 * A. V. Manohar, _Large $N$ QCD_, Les Houches Lecture 2004, (arXiv:[hep-ph/9802419](https://arxiv.org/abs/hep-ph/9802419), [pdf](http://einstein.ucsd.edu/manohar/pdf/LesHouches.pdf))
 
-* Markus Gross, _Large $N$_, 2006 ([[GrossLargeN.pdf:file]])
+* Markus Gross, _Large $N$_ (2006) &lbrack:[[GrossLargeN.pdf:file]]&rbrack;
 
-* {#McGreevySwingle08} McGreevy, Swingle, _Large $N$ counting_, 2008 ([[GreevySwingle.pdf:file]])
+* {#McGreevySwingle08} McGreevy, Swingle, _Large $N$ counting_ (2008) &lbrack;[[GreevySwingle.pdf:file]]&rbrack;
 
 * [[Paul Romatschke]], *Quantum Field Theory in Large $N$ Wonderland: Three Lectures* &lbrack;[arXiv:2310.00048](https://arxiv.org/abs/2310.00048)&rbrack;
 
 * Francesco Giacosa, *Introductory visual lecture on QCD at large-$N_c$: bound states, chiral models, and phase diagram* &lbrack;[arXiv:2402.14097](https://arxiv.org/abs/2402.14097)&rbrack;
+
+* Leonardo Santilli: *Large $N$ limits of supersymmetric quantum field theories: A pedagogical overview* &lbrack;[arXiv:2501.05794](https://arxiv.org/abs/2501.05794)&rbrack;
+
 
 
 
