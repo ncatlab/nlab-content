@@ -160,6 +160,8 @@ Introduced by [[Emmy Noether]] in
 
 * {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
+* {#Lurie17} [[Jacob Lurie]], *[[Higher Algebra]]*, 2017 ([pdf](https://www.math.ias.edu/~lurie/papers/HA.pdf))
+
 [[!redirects noetherian ring]]
 [[!redirects noetherian]]
 [[!redirects noetherian rings]]
