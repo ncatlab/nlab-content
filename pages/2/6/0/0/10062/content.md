@@ -87,7 +87,7 @@ $$
 
 Similarly:
 \begin{proposition}
-  Given $\mathbf{C}$ a [[category of chain complexes|$Ch_\bullet(R Mod)$]]-[[enriched model category]] (over some [[ring]] $R$) all whose [[objects]] are [[cofibrant object|cofibrant]], then
+  Given $\mathbf{C}$ a [[category of chain complexes|$Ch_\bullet(R Mod)$]]-[[enriched model category]] (over some [[ring]] $R$) all of whose [[objects]] are [[cofibrant object|cofibrant]], then
 $$
   N_{dg}(\mathbf{C})
   \;\;
