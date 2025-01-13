@@ -31,23 +31,19 @@ In [[constructive mathematics]], [[equality]] and [[denial inequality]] of [[set
 
 ## Definition
 
-A **classical set** is 
+A **classical set** is a set $S$ with an [[apartness relation]] $\neq$ such that for all elements $x$ and $y$ in $S$, $x = y$ [[disjunction|or]] $x \neq y$. 
 
-* a set $S$ with a [[decidable relation|decidable]] [[tight apartness relation]]
+The disjunction $x = y \vee x \neq y$ implies the weaker [[multiplicative disjunction]] in the [[antithesis interpretation]] of [[constructive mathematics]]
 
-* a set $S$ with [[decidable equality]] whose [[denial inequality]] is an [[apartness relation]]. 
+$$(\neg(x = y) \Rightarrow x \neq y) \wedge (\neg(x \neq y) \Rightarrow x = y)$$
 
-The two conditions are equivalent: 
-
-* Decidable equality implies [[stable equality]], which implies that if [[denial inequality]] is an [[apartness relation]], it is a tight apartness relation, meaning that the tight apartness relation is decidable. 
-
-* Conversely, every decidable tight apartness relation implies that the tight apartness relation is a [[stable relation]] and thus equivalent to [[denial inequality]]; hence denial inequality is decidable and an apartness relation and equality is also decidable. 
+which precisely says that $\neq$ is [[denial inequality]] and a [[tight relation]]. 
 
 Note that classical sets are not the same as sets with [[decidable equality]], there are possibly sets with decidable equality and with a [[tight apartness relation]] which cannot be proved decidable, such as the [[real numbers]] with [[analytic WLPO]] but no [[analytic LPO]]. 
 
 ## The category of classical sets
 
-The category of classical sets is the category whose objects are classical sets and whose morphisms are functions. Since tight apartness coincides with denial inequality in classical sets, every function between classical sets is a [[strongly extensional function]].  
+The category of classical sets is the category whose objects are classical sets and whose morphisms are functions. Since the apartness coincides with denial inequality in classical sets, every function between classical sets is a [[strongly extensional function]].  
 
 In constructive mathematics, the category of classical sets is a [[Heyting category]]. In particular, 
 
