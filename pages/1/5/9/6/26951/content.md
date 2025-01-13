@@ -59,6 +59,8 @@ for all $g \in G$ and $h_1, h_2 \in H$, is an abelian groupal setoid whose [[quo
 
 * [[group]], [[abelian group]]
 
+* [[A-group]]
+
 * [[monoidal setoid]]
 
 * [[ring setoid]]
