@@ -83,6 +83,8 @@ Let $A$ be a ring setoid, and let $A / \sim$ be its [[quotient set]]. Then the f
 
 * [[ring]], [[commutative ring]]
 
+* [[A-ring]]
+
 * [[monoidal setoid]], [[groupal setoid]]
 
 * [[ring category]]
