@@ -25,7 +25,7 @@
 
 ## Definition
 
-An **irreflexive symmetric relation** is a [[binary relation]] that is [[irreflexive relation|irreflexive]] and [[symmetric relation|symmetric]]. 
+An **irreflexive symmetric relation** is a [[binary relation]] that is [[irreflexive relation|irreflexive]] and [[symmetric relation|symmetric]]. A set equipped with an irreflexive symmetric relation is called an **inequality space**
 
 ## Examples
 
@@ -107,3 +107,40 @@ Thus, every set is an affirmative antithesis set. The [[inequality spaces]] talk
 
 [[!redirects refutative antithesis set]]
 [[!redirects refutative antithesis sets]]
+
+[[!redirects weak inequality]]
+[[!redirects weak inequalities]]
+[[!redirects weak inequality structure]]
+[[!redirects weak inequality structures]]
+[[!redirects weak inequality relation]]
+[[!redirects weak inequality relations]]
+
+[[!redirects strict inequality]]
+[[!redirects strict inequalities]]
+[[!redirects strict inequality structure]]
+[[!redirects strict inequality structures]]
+[[!redirects strict inequality relation]]
+[[!redirects strict inequality relations]]
+
+[[!redirects stable inequality]]
+[[!redirects stable inequalities]]
+[[!redirects stable inequality structure]]
+[[!redirects stable inequality structures]]
+[[!redirects stable inequality relation]]
+[[!redirects stable inequality relations]]
+
+[[!redirects decidable inequality]]
+[[!redirects decidable inequalities]]
+[[!redirects decidable inequality structure]]
+[[!redirects decidable inequality structures]]
+[[!redirects decidable inequality relation]]
+[[!redirects decidable inequality relations]]
+
+[[!redirects inequality space]]
+[[!redirects inequality spaces]]
+
+[[!redirects axiom of inequality space]]
+[[!redirects axiom of inequality spaces]]
+
+[[!redirects category of inequality spaces]]
+[[!redirects categories of inequality spaces]]
