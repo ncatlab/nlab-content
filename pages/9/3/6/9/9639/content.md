@@ -171,8 +171,7 @@ by the formula
 ### Integer quantum Hall effect
   {#IdeaIntegerQuantumHallEffect}
 
-At extremely low [[temperature]], low charge carrier density, 
-and extreme thin-ness of the conducting sheet,
+At extremely low [[temperature]] and extreme thin-ness of the conducting sheet,
 the above [[classical Hall effect]] exhibits modifications by [[quantum mechanics|quantum mechanical]] effects, due to the  fact that the [[energy]] of [[electrons]] in a transverse magnetic field is *quantized* into discrete units known as *Landau levels*. 
 
 Since electrons are [[fermions]], the [[Pauli exclusion principle]] demands that in their [[ground state]] the electrons fill the available [[Fermi sea]] with one electron per available state, below a given energy, the "chemical potential". (Here, due to the strong external [[magnetic field]], all electrons may be assumed to have their [[spin]] aligned along this field, so that the states in question concern just the remaining electron [[momenta]].)
@@ -218,33 +217,42 @@ The density of available states (number per surface area) available in a Landau 
   d
   \;=\;
   \frac{
-    e B 
+    e
   }{
     h
   }
+  B
+  \;=\;
+  \frac{B}{\Phi_0}
 \]
 
-* where $h = 2\pi \hbar$ is [[Planck's constant]] 
+* where $h = 2\pi \hbar$ is [[Planck's constant]],
 
-Hence the $i$th Landau level is exactly filled when the actual electron density $n$ is
+* $\Phi_0 = \frac{h}{e}$ is the *unit magnetic flux quantum*,
+
+hence there us room for one electron per magnetic flux quanta.
+
+Therefore the $i$th Landau level is exactly filled when 
+
+* there are exactly $i$ electrons per magnetic flux quanta
+
+hence when 
+
+* the electron density $n$ is
 
 $$
   n \,=\, i \cdot d
   \mathrlap{\,,}
 $$
 
-which, according to (eq:DensityOfLandauStates), occurs theoretically right at at (and in practice in a neighbourhood around) the critical magnetic field values 
+which, according to (eq:DensityOfLandauStates), occurs theoretically right at (and in practice in a neighbourhood around) the critical magnetic field values 
 
 \[
   \label{CriticalMagneticField}
   B_i
   \;\coloneqq\;
-  \frac{
-    n h
-  }{
-    e 
-  }
-  \frac{1}{i}  
+  \Phi_0
+  \frac{n}{i}  
   \mathrlap{\,,}
 \]
 
@@ -273,6 +281,14 @@ This is hence the height of the $i$th Hall plateau in the integer quantum Hall e
 
 \linebreak
 
+These formulas, at least, generalize immediately from (positive) integers $i$ to (positive) [[rational numbers]] $\nu$: 
+
+In particular, for the 1st Landau level to be filled up to an integer fraction $\nu = 1/k$, there must be exactly $k$ magnetic flux quanta per electron. 
+
+Nothing special is expected to happen at these fractional fillings of Landau level from the above understanding based all on the [[energy gap]] seen by non-interacting electrons (only) at the [[Fermi surface]] of a filled Landau level. But electron interaction changes this picture, leading to the *fractional quantum Hall effect*:
+
+\linebreak
+
 
 ### Fractional quantum Hall effect
  {#IdeaFQHE}
@@ -280,7 +296,7 @@ This is hence the height of the $i$th Hall plateau in the integer quantum Hall e
 Even though the integer quantum Hall effect ([above](#IdeaIntegerQuantumHallEffect)) involves many electrons (a macroscopic number on the scale of the [[Avogadro constant]]),
 which necessarily interact strongly via their mutual Coulomb force, for understanding the effect it turns out (as indicated above) to be sufficient to consider the energy of single electrons right at the [[Fermi sea]] surface of a filled Landau level as if they were "free" (non-interacting). That such a radical (and conceptually unjustified!) approximation works so well is surprising on a fundamental level, but is entirely common in traditional [[solid state physics]], notably in [[Landau's Fermi liquid theory]].
 
-However, yet closer experimental analysis at yet smaller [[temperatures]] and electron densities shows that this approximation breaks down at some point, and that the strong interaction between the electrons makes them collectively behave in exotic ways.
+However, yet closer experimental analysis at yet smaller [[temperatures]] shows that this approximation breaks down at some point, and that the strong interaction between the electrons makes them collectively behave in exotic ways.
 
 Concretely, experiments show that Hall plateaus appear not just at integer filling levels, but (smaller) Hall plateaus appear also at certain [[rational number|rational]] filling fractions 
 \[
