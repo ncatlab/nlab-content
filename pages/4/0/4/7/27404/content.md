@@ -41,6 +41,10 @@ Thus, every setoid is an affirmative $\mathcal{A}$-set.
 
 In [[dependent type theory]], an $\mathcal{A}$-set is a **[[univalent setoid|univalent]] $\mathcal{A}$-set** if the canonical inductively defined function $\mathrm{idtosim}(x, y)$ from $x =_A y$ to $x \sim y$ is an [[equivalence of types]] for all $x$ and $y$ in $A$. This means that univalent $\mathcal{A}$-sets are the same as [[h-sets]] equipped with an [[irreflexive symmetric relation]], since the principle of substitution is automatically satisfied via [[transport]] across the type families $(-) \nsim z$ and $z \nsim (-)$ for all $z$ in $A$. 
 
+## Examples
+
+Every type is an affirmative $\mathcal{A}$-set with the equivalence relation given by the [[propositional truncation]] of the [[identity type]] and the irreflexive symmetric relation given by the [[negation]] of the equivalence relation. 
+
 ## Related concepts
 
 * [[setoid]]
@@ -56,6 +60,8 @@ In [[dependent type theory]], an $\mathcal{A}$-set is a **[[univalent setoid|uni
 * [[cartesian product of A-sets]]
 
 * [[tensor product of A-sets]]
+
+* [[A-monoid]]
 
 ## References
 
