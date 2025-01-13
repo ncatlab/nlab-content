@@ -9,6 +9,10 @@
 =--
 =--
 
+## Definition
+
+An angle is a geometric figure formed from two line segments which share a common vertex. 
+
 ## Related concepts
 
 * [[distance]]
