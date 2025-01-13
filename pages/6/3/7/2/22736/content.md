@@ -60,6 +60,9 @@ See also
 [[!redirects Fermi sea]]
 [[!redirects Fermi seas]]
 
+[[!redirects Fermi surface]]
+[[!redirects Fermi surfaces]]
+
 [[!redirects Fermi liquid]]
 [[!redirects Fermi liquids]]
 
