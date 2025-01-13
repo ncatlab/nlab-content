@@ -20,11 +20,11 @@ Discussion of [[Spin(16)]]-[[grand unified theories]] (traditionally called "SO(
 
 On [[anyons]]:
 
-* {#Wilczek82a} [[Frank Wilczek]], _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. **48** 1982 1144 (reprinted in [Wilczek 1990, p. 163-165](#Wilczek90)) $[$[doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144)$]$
+* {#Wilczek82a} [[Frank Wilczek]], _Magnetic Flux, Angular Momentum, and Statistics_, Phys. Rev. Lett. **48** (1982) 1144 (reprinted in [Wilczek 1990, p. 163-165](#Wilczek90)) &lbrack;[doi:10.1103/PhysRevLett.48.1144](https://doi.org/10.1103/PhysRevLett.48.1144)&rbrack;
 
-and introducing the terminology "anyon":
+and introducing the terminology "[[anyon]]":
 
-* {#Wilczek82b} [[Frank Wilczek]], *Quantum Mechanics of Fractional-Spin Particles*, Phys. Rev. Lett. **49** (1982) 957 (reprinted in [Wilczek 1990, p. 166-168](#Wilczek90)) $[$[doi:10.1103/PhysRevLett.49.957](https://doi.org/10.1103/PhysRevLett.49.957)$]$
+* {#Wilczek82b} [[Frank Wilczek]], *Quantum Mechanics of Fractional-Spin Particles*, Phys. Rev. Lett. **49** (1982) 957 (reprinted in [Wilczek 1990, p. 166-168](#Wilczek90)) &lbrack;[doi:10.1103/PhysRevLett.49.957](https://doi.org/10.1103/PhysRevLett.49.957)&rbrack;
 
 
 On [[anyon statistics|anyon phases]] (specifically in the [[quantum Hall effect]]) as [[Berry phases]] of a [[quantum adiabatic theorem|adiabatic]] transport of anyon positions:
