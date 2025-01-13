@@ -1,4 +1,8 @@
 
+> For affine groups in the [[antithesis interpretation]] of [[constructive mathematics]], see [[A-group]]. 
+
+----
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
