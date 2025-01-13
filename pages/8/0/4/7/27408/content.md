@@ -3,11 +3,11 @@
 
 ## Definition
 
-Given two [[A-set|$\mathcal{A}$-sets]] $A$ and $B$, the **tensor product** $A \boxtimes B$ of $A$ and $B$ is given by an $\mathcal{A}$-set structure on the underlying [[product type]] $A \times B$ defined by 
+Given two [[A-set|$\mathcal{A}$-sets]] $A$ and $B$, the **tensor product** $A \otimes B$ of $A$ and $B$ is given by an $\mathcal{A}$-set structure on the underlying [[product type]] $A \times B$ defined by 
 
-$$(a, b) \sim_{A \boxtimes B} (c, d) \coloneqq (a \sim_A c) \wedge (b \sim_B d)$$
+$$(a, b) \sim_{A \otimes B} (c, d) \coloneqq (a \sim_A c) \wedge (b \sim_B d)$$
 
-$$(a, b) \nsim_{A \boxtimes B} (c, d) \coloneqq \left((a \sim_A c) \to (b \nsim_B d)\right) \wedge \left((b \sim_B d) \to (a \nsim_A c)\right)$$
+$$(a, b) \nsim_{A \otimes B} (c, d) \coloneqq \left((a \sim_A c) \to (b \nsim_B d)\right) \wedge \left((b \sim_B d) \to (a \nsim_A c)\right)$$
 
 ## Related concepts
 
