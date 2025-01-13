@@ -49,6 +49,20 @@ If $S$ and $T$ are both sets equipped with apartness relations, then a [[functio
 
 Sets with apartness relations, strongly extensional functions, and equivalences of strongly extensional functions, which serve to identify unequal but equivalent (that is, not apart) elements of a set, form a locally thin [[(2,1)-category]]; i.e. a [[bicategory]] [[enriched bicategory|enriched]] in [[thin groupoids]]. This bicategory is [[locally small category|locally small]] and a [[univalent bicategory]]. 
 
+## Apartness relations and equality of sets
+
+In [[classical mathematics]], every set $S$ comes with an apartness relation $\neq$ such that for all $x$ and $y$ in $S$, $x = y$ [[disjunction|or]] $x \neq y$. 
+
+However, in constructive mathematics, the usual classical notion of [[disjunction]] bifurcates into multiple notions which are not equivalent to each other. Here is a Hasse diagram of some of them, applied to the equality and apartness relation, with the strongest statement at the bottom and the weakest at the top (so that each statement entails those above it):
+
+$$ \array {           &          & \neg(\neg(x = y) \wedge \neg(x \neq y)) \\
+                      & &#x21d7; &          & &#x21d6; \\
+\neg(x = y) \rightarrow x \neq y &          &          &          & x = y \leftarrow \neg(x \neq y) \\
+                      & &#x21d6; &          & &#x21d7; \\
+                      &          & (\neg(x = y) \rightarrow x \neq y) \wedge (x = y \leftarrow \neg(x \neq y)) \\
+                      &          & \Uparrow \\
+                      &          & x = y \vee x \neq y } $$
+
 ## Topological aspects {#topology}
 
 ### The apartness topology
@@ -124,6 +138,18 @@ Another characterization of the $\#$-open sets is that $U$ is $\#$-open if $U\ti
 
 As a partial converse to the above theorem, if $X$ is a [[Hausdorff space|localically strongly Hausdorff]] topological space, meaning that its diagonal is a strongly closed sublocale, then the pullback of this diagonal to the discrete locale on the set of points of $X$ is a closed localic equivalence relation, hence an apartness, whose $\ne$-topology refines the given topology.  See [this theorem](/nlab/show/Hausdorff+space#Apartness).  If we are given an apartness relation $\ne$, it is unclear whether the $\ne$-topology is localically strongly Hausdorff; but if it is, then the apartness relation resulting from this topology is stronger than the given $\ne$.
 
+## BHK interpretatioin
+
+In [[dependent type theory]], there is also the [[BHK interpretation]] of the apartness relation, where the [[disjunction]] of the two propositions in the [[comparison]] axiom is replaced with a [[sum type]]:
+
+A binary relation $\#$ is a **pure apartness relation** if 
+
+* [[irreflexive relation|irreflexivity]]: for all $x: S$, $x \# x$ is false;
+* [[symmetric relation|symmetry]]: for all $x, y: S$, if $y # x$, then $x # y$;
+* [[comparison]]: for all $x, y, z: S$, if $x # z$, then $(x # y) + (y # z)$.
+
+The usual notion of apartness relation is then called a **mere apartness relation**. 
+
 ## Related concepts
 
 * [[inequality relation]]
@@ -166,6 +192,16 @@ According to [Troelstra and van Dalen](#TvD):
 [[!redirects apartness structures]]
 [[!redirects apartness relation]]
 [[!redirects apartness relations]]
+
+[[!redirects pure apartness structure]]
+[[!redirects pure apartness structures]]
+[[!redirects pure apartness relation]]
+[[!redirects pure apartness relations]]
+
+[[!redirects pure apartness structure]]
+[[!redirects pure apartness structures]]
+[[!redirects pure apartness relation]]
+[[!redirects pure apartness relations]]
 
 [[!redirects point-point apartness space]]
 [[!redirects point-point apartness spaces]]
