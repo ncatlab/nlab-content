@@ -54,7 +54,21 @@ In constructive mathematics, not ever tight irreflexive symmetric relation is a 
 
 or any combination of the above, such as [[tight apartness relation]]. 
 
-The notion of "[[inequality relation]]" in constructive mathematics usually refers to either the [[denial inequality]] or a [[tight apartness relation]]. On the other hand, some authors have used "inequality relation" to refere to general irreflexive symmetric relations. 
+The notion of "[[inequality relation]]" in constructive mathematics usually refers to either the [[denial inequality]] or a [[tight apartness relation]]. On the other hand, some authors have used "inequality relation" to refer to general irreflexive symmetric relations. 
+
+### Irreflexive symmetric relations and equality of sets
+
+In [[classical mathematics]], every set $S$ comes with an irreflexive symmetric relation $\neq$ such that for all $x$ and $y$ in $S$, $x = y$ [[disjunction|or]] $x \neq y$. 
+
+However, in constructive mathematics, the usual classical notion of [[disjunction]] bifurcates into multiple notions which are not equivalent to each other. Here is a Hasse diagram of some of them, applied to the equality and irreflexive symmetric relation, with the strongest statement at the bottom and the weakest at the top (so that each statement entails those above it):
+
+$$ \array {           &          & \neg(\neg(x = y) \wedge \neg(x \neq y)) \\
+                      & &#x21d7; &          & &#x21d6; \\
+\neg(x = y) \rightarrow x \neq y &          &          &          & x = y \leftarrow \neg(x \neq y) \\
+                      & &#x21d6; &          & &#x21d7; \\
+                      &          & (\neg(x = y) \rightarrow x \neq y) \wedge (x = y \leftarrow \neg(x \neq y)) \\
+                      &          & \Uparrow \\
+                      &          & x = y \vee x \neq y } $$
 
 ## Related concepts
 
