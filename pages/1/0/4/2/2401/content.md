@@ -127,6 +127,8 @@ Notice well the two assumptions that were made to make this argument work:
 
 * [[Ib Madsen]], _Moduli spaces from a topological viewpoint_, ICM 2006 ([pdf](http://www.icm2006.org/proceedings/Vol_I/20.pdf))
 
+* [[John Baez]], *The Moduli Space of Acute Triangles*, Notices of the American Mathematical Society, Volume 71, Number 5, pages 664-665, May 2024. ([arXiv:2407.06201](https://arxiv.org/abs/2407.06201), [pdf](https://www.ams.org/journals/notices/202405/rnoti-p664.pdf))
+
 A bit of elementary exposition of these ideas is at 
 
 * [[basic ideas of moduli stacks of curves and Gromov-Witten theory]]
