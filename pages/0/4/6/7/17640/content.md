@@ -26,11 +26,15 @@ Every (left) [[noetherian ring]] is a coherent  ring.
 
 * [[coherent module]], [[coherent D-module]]
 
+* [[Noetherian ring]]
+
 ## References
 
 * V. E. Govorov in Springer [[eom]]: *[Coherent ring](https://www.encyclopediaofmath.org//index.php?title=Coherent_ring)*
 
 * {#LombardiQuitte15} Henri Lombardi and Claude Quitté, *Commutative Algebra: Constructive Methods: Finite Projective Modules*, Springer, 2015 ([arXiv:1605.04832](https://arxiv.org/abs/1605.04832), [doi:10.1007%2F978-94-017-9944-7](https://link.springer.com/book/10.1007%2F978-94-017-9944-7))
+
+* {#Lurie17} [[Jacob Lurie]], *[[Higher Algebra]]*, 2017 ([pdf](https://www.math.ias.edu/~lurie/papers/HA.pdf))
 
 
 [[!redirects coherent rings]]
