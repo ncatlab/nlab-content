@@ -1523,15 +1523,13 @@ Assuming the [[axiom of choice]] then the following are equivalent:
 1. $F$ is an [[equivalence of groupoids]] (def. \ref{EquivalenceOfGroupoids});
 
 1. $F$ is a [[weak homotopy equivalence]] in that
-
    1. it induces an [[bijection]] of sets of [[connected]] components (def. \ref{GroupoidConnectedComponents});
 
       $$
         \pi_0(F) \;\colon\; \pi_0(\mathcal{G}_1) \overset{\simeq}{\longrightarrow} \pi_0(\mathcal{G}_0)
         \,,
       $$
-
-  1. for each object $x \in \mathcal{G}_1$ it induces an isomorphism of [[automorphism groups]] (def. \ref{InGrupoidAutomorphismGroup}):
+  2. for each object $x \in \mathcal{G}_1$ it induces an isomorphism of [[automorphism groups]] (def. \ref{InGrupoidAutomorphismGroup}):
 
      $$
        F_{x,x} \;\colon\; Aut_{\mathcal{G}_1}(x) \overset{\simeq}{\longrightarrow} Aut_{\mathcal{G}_2}(F_0(x))
