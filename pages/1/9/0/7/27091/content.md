@@ -41,6 +41,8 @@ which precisely says that $\neq$ is [[denial inequality]] and a [[tight relation
 
 Note that classical sets are not the same as sets with [[decidable equality]], since the [[negation]] of [[equality]] is not provably an [[apartness relation]] in [[constructive mathematics]]. 
 
+In addition, classical sets form a [[coherent theory]], since the theory of [[apartness relations]] is coherent, and the axiom $x:S, y:S \vdash x = y \vee x \neq y$ is also coherent. 
+
 ## The category of classical sets
 
 The category of classical sets is the category whose objects are classical sets and whose morphisms are functions. Since the apartness coincides with denial inequality in classical sets, every function between classical sets is a [[strongly extensional function]].  
@@ -136,15 +138,17 @@ Then [[excluded middle]] holds.
 ## Applications
  {#Applications}
 
-Working with decidable subsets of sets with a decidable tight apartness makes [[constructive mathematics]] very much like [[classical mathematics]]. This is why constructivism has few consequences for basic [[combinatorics]] and [[algebra]] (although it does have important consequences for more advanced topics in those fields). In [[analysis]], in contrast, [[constructivism]] matters right away, because constructively the set of [[real numbers]] may not have decidable tight apartness. 
+Working with decidable subsets of classical sets makes [[constructive mathematics]] very much like [[classical mathematics]]. This is why constructivism has few consequences for basic [[combinatorics]] and [[algebra]] (although it does have important consequences for more advanced topics in those fields). In [[analysis]], in contrast, [[constructivism]] matters right away, because constructively the set of [[real numbers]] may not be a classical set. 
 
 ## Related concepts
 
 * [[set]]
 
-* [[inequality space]]
+* [[tight apartness relation]]
 
 * [[discrete field]]
+
+* [[coherent logic]], [[coherent mathematics]]
 
 [[!redirects classical sets]]
 
