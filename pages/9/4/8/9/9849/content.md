@@ -29,7 +29,7 @@ An introductory textbook on [[homotopy type theory]] and its use as a [[univalen
 
   2013
 
-  (**[web](http://homotopytypetheory.org/book/)**, **[pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)**)
+  (**[web](http://homotopytypetheory.org/book/)**, **[pdf](https://hott.github.io/book/hott-online-15-ge428abf.pdf)**)
 
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://hottheory.files.wordpress.com/2013/03/cover-web.png?w=208&h=300" alt="HoTT book cover" /></div>
 
