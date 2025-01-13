@@ -1,4 +1,8 @@
 
+> For [[affine functions]] in the [[antithesis interpretation]] of [[constructive mathematics]], see [[A-function|$\mathcal{A}$-function]]
+
+-----
+
 # Contents
 * table of contents
 {: toc}
@@ -39,22 +43,6 @@ The definition of affine space can be made precise in various (equivalent) ways.
 1. An affine space over the field $k$ is an inhabited set $A$ together with, for every [[natural number]] $n \geq 0$ and every $(n+1)$-tuple $(r_0,\dots,r_n)$ of elements of $k$ such that $r_0 + \dots + r_n = 1$, a function $\gamma_{r_0,\ldots,r_n}\colon A^{n+1}\to A$ (thought of as $\gamma_{r_0,\ldots,r_n}(x_0,\ldots,x_n) \coloneqq r_0 x_0 + \cdots + r_n x_n$), satisfying some equations; an affine linear map is a function that preserves these operations (the "[[unbiased]]" definition).
 
 1. An affine space over the field $k$ is a vector space $A'$ together with a surjective linear map $\pi:A'\to k$ (the "slice of $Vect$" definition).  The affine space itself (the set being regarded as equipped with affine-space structure) is the fiber $\pi^{-1}(1)$.
-
-+-- {: .query}
-[[Mike Shulman]]: I think there should also be a definition of the form "an affine space is a [[projective space]]" with a distinguished line called "infinity", which should also be equivalent to a "synthetic" description involving points and lines and incidence axioms.  This definition would not fix the field $k$ at the outset, but rather recover it synthetically using cross-ratios.  Accordingly, it ought to define an equivalent groupoid to the groupoid of pairs $(k,A)$ where $k$ is a field and $A$ is an affine space over $A$.  I don't know how one could recover the non-invertible affine transformations from it directly.
-=--
-
-+-- {: .query}
-There should be another characterisation, which I don\'t quite see how to phrase, at least when $k = \mathbb{R}$, which is that an affine space is a manifold (perhaps Riemannian) that is sufficiently flat and unbounded in some sense.  ---Toby
-
-[[Mike Shulman]]: It'd have to be at least Riemannian, otherwise you don't have enough structure.  I don't suppose it's enough to say that a (finitely generated) affine space is a Riemannian manifold isometric to some $\mathbb{R}^n$?
-
-_Toby_:  I intended 'that is [...] in some sense' to include the possibility of structure that should be preserved by the morphisms.  Note that a Riemannian manifold is *too much* structure, although it allows a definition like the first one above.  (A Riemannian manifold isometric to some $\mathbb{R}^n$ is precisely a [[Euclidean space]].)  But really, I\'m hoping for some phrasing such that &#8249;isomorphic to some $\mathbb{R}^n$&#8250; actually becomes a (not too obvious) *theorem*.  I\'ll keep thinking about it.
-
-[[Mike Shulman]]: Shouldn't a Riemannian manifold isometric to some $\mathbb{R}^n$ be a "Euclidean affine space" (a torsor over a Euclidean space)?  Seems that a Euclidean space would be a Riemannian manifold _equipped with_ an isometry to some $\mathbb{R}^n$.  It does seem like there should be a natural way to say this, but I don't know what it is.
-
-_Toby_:  I guess that this depends on what you think 'Euclidean space' means; I\'ve known people to define it to *be* $\mathbb{R}^n$, but that seems quite ahistorical to me; I like that Urs calls such a thing [[Cartesian space]] instead.  Euclid did not have coordinates; he did not even have an origin, so a Euclidean space should be a heap rather than a group.  For my comment above, I would define a [[Euclidean space]] to be an affine inner product space; FWIW [Wikipedia agrees](https://secure.wikimedia.org/wikipedia/en/affine_space).  (However, Wikipedia doesn\'t go as far as I do when I claim that the inner product should be valued in an $\mathbb{R}$-line rather than in $\mathbb{R}$ itself; then again, I ignored that subtlety myself in my previous comment.)
-=--
 
 Clearly every vector space has an underlying affine space (and every linear map is affine linear), giving a [[forgetful functor]] $U:Vect \to Aff$.  Conversely, any affine space gives rise to a canonical vector space, sometimes called its space of _displacements_.  This is obvious from the definitions that involve a vector space as part of the structure, but a vector space can also be reconstructed from the other definitions as well, analogously to how a group can be reconstructed from a [[heap]].  This gives a functor $D:Aff\to Vect$ in the other direction.  One can verify that $D(U(V))\cong V$ and $U(D(A))\cong A$; the first isomorphism is [[natural isomorphism|natural]], but the second is not (otherwise $Vect$ and $Aff$ would be [[equivalent categories]], which they are not).
 
@@ -192,22 +180,6 @@ Every finitely-generated affine space is isomorphic to the $n$-fold [[direct sum
 
 The notion of affine space may be generalised to __affine module__ by replacing the vector space above by a [[module]] and the base field $k$ by a [[commutative ring]].  Then an affine module over the ring $\mathbb{Z}$ of [[integer]]s is precisely a commutative [[heap]], just like a module over $\mathbb{Z}$ is an [[abelian group]].  Note that the definition involving only one "scalar multiplication" operation works if and only if $2$ is invertible in $k$; it\'s not enough that $2 \ne 0$ in $k$.
 
-+-- {: .query}
-[[Mike Shulman]]: I haven't thought much about affine modules, but it seems likely to me that the "biased" module-free definitions won't be right any more, since the Lawvere theory needn't be generated by 2-ary or 3-ary operations (as far as I can see).  More explicitly, I don't immediately see how to write an operation like
-$$(x_0,x_1,x_2,x_3) \mapsto 4x_0 - 6x_1 - 2x_2 + 5x_3$$
-in terms of $A^3\to A$ and $\mathbb{Z}\times A^2\to A$, but it seems to me that this operation should still exist in an affine $\mathbb{Z}$-module.
-
-[[Mike Shulman]]: Well that's rubbish isn't it.  The operation $A^3\to A$ is enough to give you a heap, hence an additive group, and then $\mathbb{Z}\times A^2\to A$ gives you the scalar multiplication.  And so
-$$4x_0 - 6x_1 - 2x_2 + 5x_3 = \big((4x_0 - 3y) - y + (-6x_1+7y)\big) - y + \big((-2x_2+3y) - y + (5x_3 - 4y)\big)$$
-for any $y$ at all.
-
-_Toby_:  Right.  But I find an affine module of a *rig* to be a trickier concept.
-
-[[Mike Shulman]]: Quite so.  Perhaps first one should look for a version of a [[heap]] corresponding to a [[monoid]]?
-
-_Toby_:  Yes, that would be an affine $\mathbb{N}$-module.
-=--
-
 
 ## Affine spaces as model spaces
 
@@ -256,8 +228,6 @@ See also:
 [[!redirects affine-linear space]]
 [[!redirects affine-linear spaces]]
 
-[[!redirects affine function]]
-[[!redirects affine functions]]
 [[!redirects affine linear function]]
 [[!redirects affine linear functions]]
 [[!redirects affine-linear function]]
