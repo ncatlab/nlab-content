@@ -39,7 +39,7 @@ $$(\neg(x = y) \Rightarrow x \neq y) \wedge (\neg(x \neq y) \Rightarrow x = y)$$
 
 which precisely says that $\neq$ is [[denial inequality]] and a [[tight relation]]. 
 
-Note that classical sets are not the same as sets with [[decidable equality]], there are possibly sets with decidable equality and with a [[tight apartness relation]] which cannot be proved decidable, such as the [[real numbers]] with [[analytic WLPO]] but no [[analytic LPO]]. 
+Note that classical sets are not the same as sets with [[decidable equality]], since the [[negation]] of [[equality]] is not provably an [[apartness relation]] in [[constructive mathematics]]. 
 
 ## The category of classical sets
 
