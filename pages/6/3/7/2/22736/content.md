@@ -31,6 +31,8 @@ The model is highly successful, given its simplistic assumptions, for ordinary [
 
 * [[Landau theory of phase transitions]]
 
+* [[quantum Hall effect]]
+
 ## References
 
 Named after [[Lev Landau]] (following [[Enrico Fermi]]).
