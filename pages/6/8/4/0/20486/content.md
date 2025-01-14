@@ -16,7 +16,7 @@ The Diaconescu-Goodman–Myhill theorem ([Diaconescu 75](#Diaconescu75), [Goodma
 The following are equivalent:
 
 1. The principle of [[excluded middle]].
-1. [[finite set|Finitely indexed]] sets are [[projective object|projective]] (in fact, it suffices 2-indexed sets to be projective).
+1. [[finite set|Finitely indexed]] sets are [[projective object|projective]] (in fact, it suffices for 2-indexed sets to be projective).
 1. [[finite set|Finite sets]] are [[choice object|choice]] (in fact, it suffices for 2 to be choice).
 
 (Here, a [[set]] $A$ is **[[finite set|finite]]** or **finitely-indexed** (respectively) if, for some natural number $n$, there is a [[bijection]] or [[surjection]] (respectively) $\{0, \ldots, n - 1\} \to A$.)
