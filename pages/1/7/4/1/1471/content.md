@@ -65,12 +65,12 @@ Any map from a topological space $S$ to a topological stack $X$ is representable
 
 If $X_0 \to X$ is an atlas for a topological stack, then $X_0 \times_{X} X_0 \rightrightarrows X_0$ is a [[topological groupoid]], $\mathbf{X}$. The [[stackification]] of the presheaf of groupoids $T \mapsto Hom(T^{id},\mathbf{X})$ is (2-iso to) $X$ (where $T^{id}$ is $T$ considered as a [[topological groupoid]] with only identity arrows).
 
-Conversely, given a topological groupoid $G$, we can consider the stackification $\left[G\right]$ of the presheaf $Hom((-)^{id},G)$. By direct inspection, one sees that $\left[G\right](T)$ is the groupoid of principal G-bundles over $T$, $Bun_G(T)$. The canonical map $(G_0)^id \to G$ yields a map $a:G_0 \to \left[ G\right]$. If $p:T \to \left[ G\right]$ is any map from a space, then $T \times_{\left[ G\right]} G_0$ is the total space of the principal $G$-bundle over $T$ which $p$ corresponds to via Yoneda. If, under the correspondence between [[principal bundle]]s and generalized homomorphims, $p$ corresponds to a map $T^{id} \to G$, then $p$ factors through the map $a:G_0 \to \left[ G\right]$. If $p$ instead corresponds to a map $T_U \to G$ where $U \to T$ is a cover, then $p$ factors through $a$ locally; hence, $a$ is an epimorphism. Therefore an alternative equuvalent definition of a topological stack is:
+Conversely, given a topological groupoid $G$, we can consider the stackification $\left[G\right]$ of the presheaf $Hom((-)^{id},G)$. By direct inspection, one sees that $\left[G\right](T)$ is the groupoid of principal G-bundles over $T$, $Bun_G(T)$. The canonical map $(G_0)^id \to G$ yields a map $a:G_0 \to \left[ G\right]$. If $p:T \to \left[ G\right]$ is any map from a space, then $T \times_{\left[ G\right]} G_0$ is the total space of the principal $G$-bundle over $T$ which $p$ corresponds to via Yoneda. If, under the correspondence between [[principal bundle]]s and generalized homomorphims, $p$ corresponds to a map $T^{id} \to G$, then $p$ factors through the map $a:G_0 \to \left[ G\right]$. If $p$ instead corresponds to a map $T_U \to G$ where $U \to T$ is a cover, then $p$ factors through $a$ locally; hence, $a$ is an epimorphism. Therefore an alternative equivalent definition of a topological stack is:
 
 +-- {: .un_defn}
 ###### Definition
 
-A 1-[[stack]] $X$ of [[groupoid]]s over $\mathrm{Top}$ is a __topological stack__ if it is [[equivalence in an (infinity,1)-category|equivalent]] to the stack  $G Bund$ of groupoid-[[principal bundle]] for some [[topological groupoid]] $G$.
+A 1-[[stack]] $X$ of [[groupoid]]s over $\mathrm{Top}$ is a __topological stack__ if it is [[equivalence in an (infinity,1)-category|equivalent]] to the stack  $Bun_G$ of groupoid-[[principal bundle]]s for some [[topological groupoid]] $G$.
 
 =--
 
