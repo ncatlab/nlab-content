@@ -34,7 +34,7 @@ $$
 If one furthermore inverts the [[Lefschetz motive]] $\mathbf{L}$ then one obtains the category of _pure Chow motives_
 
 $$
-  Mot_{rat}(k) \coloneqq Mot_{rat}(k)[\mathbf{L}^{-1}]
+  Mot_{rat}(k) \coloneqq Mot_{rat}^{eff}(k)[\mathbf{L}^{-1}]
   \,.
 $$
 
