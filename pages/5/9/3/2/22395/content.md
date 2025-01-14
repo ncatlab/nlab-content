@@ -124,6 +124,10 @@ for an arbitrary family (not necessarily finite) of commuting normal operators.
 
 ## Related entries
 
+* [[dualizing object]]
+
+* [[space and quantity]]
+
 * [[Isbell duality]]
 
 * [[Gelfand duality]]
