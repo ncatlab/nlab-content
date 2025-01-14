@@ -32,6 +32,63 @@ The antithesis interpretation also explains why there are often both weak and st
 
 Since every proposition comes with an antithesis proposition in the antithesis interpretation, the natural notion of a [[subset]] is actually a pair of [[disjoint subsets]], leading to a potentially far-reaching reinterpretation of the role of [[higher-order logic]] in constructive mathematics, with concepts like a family of collections of subsets becoming a disjoint pair of families of disjoint pairs of collections of disjoint pairs of subsets.
 
+## Affine logical operations
+
+An affine proposition $P$ is interpreted as a pair $(P^+, P^-)$ of propositions in intuitionistic logic which are mutually exclusive in that $\neg (P^+ \wedge P^-)$ holds. As a result, the propositional affine logical operations are intuitionistically operations on the [[type]] 
+$$\Omega_\pm = \sum_{P^+:\Omega} \sum_{P^-:\Omega} \neg (P^+ \wedge P^-)$$ 
+
+Similarly, an affine predicate $P$ on a type $A$ is interpreted as a pair $(P^+, P^-)$ of predicates on $A$ in intuitionistic logic which are pointwise mutually exclusive in that $\neg (P^+(x) \wedge P^-(x))$ holds for all $x:A$. This is equivalently a function $P:A \to \Omega_\pm$. 
+
+We have the following propositional and predicate affine logical operations:
+
+* [[truth]] is an element of $\Omega_\pm$ defined as
+
+$$1 \coloneqq (\top, \bot)$$
+
+* [[falsehood]] is an element of $\Omega_\pm$ defined a
+
+$$0 \coloneqq (\bot, \top)$$
+
+* [[additive conjunction]] is a function from $\Omega_\pm \times \Omega_\pm$ to $\Omega_\pm$ defined as
+
+$$(P^+, P^-) \sqcap (Q^+, Q^-) \coloneqq (P^+ \wedge Q^+, P^- \vee Q^-)$$
+
+* [[additive disjunction]] is a function from $\Omega_\pm \times \Omega_\pm$ to $\Omega_\pm$ defined as
+
+$$(P^+, P^-) \sqcup (Q^+, Q^-) \coloneqq (P^+ \vee Q^+, P^- \wedge Q^-)$$
+
+* [[multiplicative conjunction]] is a function from $\Omega_\pm \times \Omega_\pm$ to $\Omega_\pm$ defined as
+
+$$(P^+, P^-) \boxtimes (Q^+, Q^-) \coloneqq (P^+ \wedge Q^+, (P^+ \Rightarrow Q^-) \wedge (Q^+ \Rightarrow P^-))$$
+
+* [[multiplicative disjunction]] is a function from $\Omega_\pm \times \Omega_\pm$ to $\Omega_\pm$ defined as
+
+$$(P^+, P^-) \boxplus (Q^+, Q^-) \coloneqq ((P^- \Rightarrow Q^+) \wedge (Q^- \Rightarrow P^+), P^- \wedge Q^-)$$
+
+* [[linear implication]] is a function from $\Omega_\pm \times \Omega_\pm$ to $\Omega_\pm$ defined as
+
+$$(P^+, P^-) \multimap (Q^+, Q^-) \coloneqq ((P^+ \Rightarrow Q^+) \wedge (Q^- \Rightarrow P^-), P^+ \wedge Q^-)$$
+
+* [[linear negation]] is a function from $\Omega_\pm$ to $\Omega_\pm$ defined as
+
+$$(P^+, P^-)^\bot \coloneqq (P^-, P^+)$$
+
+* [[exponential conjunction]] is a function from $\Omega_\pm$ to $\Omega_\pm$ defined as
+
+$$!(P^+, P^-) \coloneqq (P^+, \neg P^+)$$
+
+* [[exponential disjunction]] is a function from $\Omega_\pm$ to $\Omega_\pm$ defined as
+
+$$?(P^+, P^-) \coloneqq (\neg P^-, P^-)$$
+
+* the linear [[existential quantifier]] for a type $A$ is a function from $A \to \Omega_\pm$ to $\Omega_\pm$ defined as
+
+$$\bigsqcup_{x:A} (P^+(x), P^-(x)) \coloneqq (\exists x:A.P^+(x), \forall x:A.P^-(x))$$
+
+* the linear [[universal quantifier]] for a type $A$ is a function from $A \to \Omega_\pm$ to $\Omega_\pm$ defined as
+
+$$\bigsqcap_{x:A} (P^+(x), P^-(x)) \coloneqq (\forall x:A.P^+(x), \exists x:A.P^-(x))$$
+
 ## Concepts in the antithesis interpretation
 
 * [[antithesis partial order]]
