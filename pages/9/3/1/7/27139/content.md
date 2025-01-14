@@ -92,7 +92,7 @@ $$\bigsqcap_{x:A} (P^+(x), P^-(x)) \coloneqq (\forall x:A.P^+(x), \exists x:A.P^
 
 ### Properties
 
-The [[exponential conjunction]] and [[exponential disjunction]] can be defined entirely in terms of the [[multiplicative disjunction]] and [[multiplicative conjunction]] respectively:
+The [[exponential conjunction]] and [[exponential disjunction]] can be defined entirely in terms of the [[multiplicative conjunction]] and [[multiplicative disjunction]] respectively:
 
 $$!P \coloneqq P \boxtimes P \quad ?P \coloneqq P \boxplus P$$
 
