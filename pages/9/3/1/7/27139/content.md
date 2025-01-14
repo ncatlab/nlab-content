@@ -33,6 +33,7 @@ The antithesis interpretation also explains why there are often both weak and st
 Since every proposition comes with an antithesis proposition in the antithesis interpretation, the natural notion of a [[subset]] is actually a pair of [[disjoint subsets]], leading to a potentially far-reaching reinterpretation of the role of [[higher-order logic]] in constructive mathematics, with concepts like a family of collections of subsets becoming a disjoint pair of families of disjoint pairs of collections of disjoint pairs of subsets.
 
 ## Affine logical operations
+{#AffineLogicalOperations}
 
 An affine proposition $P$ is interpreted as a pair $(P^+, P^-)$ of propositions in intuitionistic logic which are mutually exclusive in that $\neg (P^+ \wedge P^-)$ holds. As a result, the propositional affine logical operations are intuitionistically operations on the [[type]] 
 $$\Omega_\pm = \sum_{P^+:\Omega} \sum_{P^-:\Omega} \neg (P^+ \wedge P^-)$$ 
@@ -75,11 +76,11 @@ $$(P^+, P^-)^\bot \coloneqq (P^-, P^+)$$
 
 * [[exponential conjunction]] is a function from $\Omega_\pm$ to $\Omega_\pm$ defined as
 
-$$!(P^+, P^-) \coloneqq (P^+, \neg P^+)$$
+$$!(P^+, P^-) \coloneqq (P^+, P^+ \Rightarrow P^-)$$
 
 * [[exponential disjunction]] is a function from $\Omega_\pm$ to $\Omega_\pm$ defined as
 
-$$?(P^+, P^-) \coloneqq (\neg P^-, P^-)$$
+$$?(P^+, P^-) \coloneqq (P^- \Rightarrow P^+, P^-)$$
 
 * the linear [[existential quantifier]] for a type $A$ is a function from $A \to \Omega_\pm$ to $\Omega_\pm$ defined as
 
@@ -88,6 +89,16 @@ $$\bigsqcup_{x:A} (P^+(x), P^-(x)) \coloneqq (\exists x:A.P^+(x), \forall x:A.P^
 * the linear [[universal quantifier]] for a type $A$ is a function from $A \to \Omega_\pm$ to $\Omega_\pm$ defined as
 
 $$\bigsqcap_{x:A} (P^+(x), P^-(x)) \coloneqq (\forall x:A.P^+(x), \exists x:A.P^-(x))$$
+
+### Properties
+
+The [[exponential conjunction]] and [[exponential disjunction]] can be defined entirely in terms of the [[multiplicative disjunction]] and [[multiplicative conjunction]] respectively:
+
+$$!P \coloneqq P \boxtimes P \quad ?P \coloneqq P \boxplus P$$
+
+### Excluded middle
+
+Suppose that the [[law of excluded middle]] holds in the [[intuitionistic logic]], so that the logic becomes [[classical logic]]. Then $\Omega$ is equivalent to the [[boolean domain]] $\mathbb{2}$, and $\Omega_\pm$ is equivalent to the three-element set $\{(\top, \bot), (\bot, \bot), (\bot, \top)\}$ representing the propositions in [[Łukasiewicz logic]]. As a result, the affine predicate logic in the antithesis interpretation becomes predicate Łukasiewicz logic. 
 
 ## Concepts in the antithesis interpretation
 
