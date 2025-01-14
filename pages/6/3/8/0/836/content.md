@@ -27,7 +27,7 @@ $2$-posets can also be called **(1,2)-categories**, being a special case of [[(n
 
 A **2-poset** is a [[category]] $C$ such that 
 
-1. For each object $A:Ob(C)$ and $B:Ob(C)$ and morphism $R:Hom(A, B)$, $S:Hom(A, B)$, there is a binary relation $R \leq_{A, B} S$ 
+1. For each object $A:Ob(C)$ and $B:Ob(C)$, there is a binary relation $\leq_{A, B}$ on $Hom(A, B)$ 
 2. For each object $A:Ob(C)$ and $B:Ob(C)$ and morphism $R:Hom(A, B)$, $R \leq_{A, B} R$. 
 3. For each object $A:Ob(C)$ and $B:Ob(C)$ and morphism $R:Hom(A, B)$, $S:Hom(A, B)$, $T:Hom(A, B)$, $R \leq_{A, B} S$ and $S \leq_{A, B} T$ implies $R \leq_{A, B} T$. 
 4. For each object $A:Ob(C)$ and $B:Ob(C)$ and morphism $R:Hom(A, B)$, $S:Hom(A, B)$, $R \leq_{A, B} S$ and $S \leq_{A, B} R$ implies $R = S$. 
