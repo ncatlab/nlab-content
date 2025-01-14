@@ -55,11 +55,11 @@ A [[representable morphism of stacks|representable map]] $f:\X \to \Y$ of stacks
 +-- {: .un_defn}
 ###### Definition
 
-A 1-[[stack]] $X$ of [[groupoid]]s over $\mathrm{Top}$ having a representable epimorphism from a [[topological space]] $X_0 \to X$ is a __topological stack__. Such an representable epimorphism is called an [[atlas]] (or [[chart]]).
+A 1-[[stack]] $X$ of [[groupoid]]s over $\mathrm{Top}$ having a representable epimorphism from a [[topological space]] $X_0 \to X$ is a __topological stack__. Such a representable epimorphism is called an [[atlas]] (or [[chart]]).
 
 =--
 
-This is what is called  __pretopological stack__  in [Noohi](#Noohi) . The terminology __topological stack__  is reserved for those stacks whose [[atlas]] can be chosen to belong to a class of "local fibrations"; there are axioms which the class of local fibrations have to satisfy; there are several natural choices of this class which modify the variant of topological stacks considered.
+This is what is called  __pretopological stack__  in [Noohi](#Noohi). The terminology __topological stack__  is reserved for those stacks whose [[atlas]] can be chosen to belong to a class of "local fibrations"; there are axioms which the class of local fibrations have to satisfy; there are several natural choices of this class which modify the variant of topological stacks considered.
 
 Any map from a topological space $S$ to a topological stack $X$ is representable (i.e. diagonal $X\to X\times X$ is always representable). For a topological stack $Y$, if $P$ is invariant under restriction and local on the target, a representable morphism $f : X \to Y$ of 1-stacks has this property if there exists an atlas $T\to Y$ such that the induced map $X\times_Y T\to T$ has property $P$. 
 
