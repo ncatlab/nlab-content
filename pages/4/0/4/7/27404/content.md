@@ -45,6 +45,35 @@ Thus, every setoid is an affirmative $\mathcal{A}$-set.
 
 In [[dependent type theory]], an $\mathcal{A}$-set is a **[[univalent setoid|univalent]] $\mathcal{A}$-set** if the canonical inductively defined function $\mathrm{idtosim}(x, y)$ from $x =_A y$ to $x \sim y$ is an [[equivalence of types]] for all $x$ and $y$ in $A$. This means that univalent $\mathcal{A}$-sets are the same as [[h-sets]] equipped with an [[irreflexive symmetric relation]], since the principle of substitution is automatically satisfied via [[transport]] across the type families $(-) \nsim z$ and $z \nsim (-)$ for all $z$ in $A$. 
 
+### Using the type of affine propositions
+
+An affine proposition $P$ is interpreted as a pair $(P^+, P^-)$ of propositions in intuitionistic logic which are mutually exclusive in that $\neg (P^+ \wedge P^-)$ holds. Thus, we can define the type of affine propositions as the type 
+$$\Omega_\pm \coloneqq \sum_{P^+:\Omega} \sum_{P^-:\Omega} \neg (P^+ \wedge P^-) =_\Omega \top$$ 
+where $\Omega$ is the [[type of all propositions]]. We usually suppress the witness that $\neg (P^+ \wedge P^-)$ and denote elements of $\Omega_\pm$ as pairs $(P^+, P^-)$. 
+The logical operations for the affine logic can be defined on $\Omega_\pm$ as demonstrated [[antithesis interpretation#AffineLogicalOperations|here]]. We denote affine truth by $1:\Omega_\pm$ and affine falsehood by $0:\Omega_\pm$, to contrast with intuitionistic truth $\top:\Omega$ and falsehood $\bot:\Omega$
+
+An $\mathcal{A}$-set is a type $A$ with an affine equivalence relation, a function $\mathrm{Eq}:A \times A \to \Omega_\pm$ with witnesses that
+
+* for all $x:A$, $\mathrm{Eq}(x, x)$
+
+$$\mathrm{refl}_\mathrm{Eq}:\bigsqcap_{x:A} \mathrm{Eq}(x, x) =_{\Omega_\pm} 1$$
+
+* for all $x:A$ and $y:A$, $\mathrm{Eq}(x, y)$ implies $\mathrm{Eq}(y, x)$
+
+$$\mathrm{sym}_\mathrm{Eq}:\bigsqcap_{x:A} \bigsqcap_{y:A} \mathrm{Eq}(x, y) \multimap \mathrm{Eq}(y, x) =_{\Omega_\pm} 1$$
+
+* for all $x:A$, $y:A$, and $z:A$, $\mathrm{Eq}(x, y)$ multiplicatively and $\mathrm{Eq}(y, z)$ implies $\mathrm{Eq}(x, z)$
+
+$$\mathrm{trans}_\mathrm{Eq}^{\boxtimes}:\bigsqcap_{x:A} \bigsqcap_{y:A} \bigsqcap_{z:A} \mathrm{Eq}(x, y) \boxtimes \mathrm{Eq}(y, z) \multimap \mathrm{Eq}(x, z) =_{\Omega_\pm} 1$$
+
+An $\mathcal{A}$-set is **strong** if 
+
+* for all $x:A$, $y:A$, and $z:A$, $\mathrm{Eq}(x, y)$ additively and $\mathrm{Eq}(y, z)$ implies $\mathrm{Eq}(x, z)$
+
+$$\mathrm{trans}_\mathrm{Eq}^{\sqcap}:\bigsqcap_{x:A} \bigsqcap_{y:A} \bigsqcap_{z:A} \mathrm{Eq}(x, y) \sqcap \mathrm{Eq}(y, z) \multimap \mathrm{Eq}(x, z) =_{\Omega_\pm} 1$$
+
+An $\mathcal{A}$-set is a **[[univalent setoid|univalent]] $\mathcal{A}$-set** if the canonical inductively defined function $\mathrm{idtoeq}^+(x, y)$ from $x =_A y$ to $\mathrm{El}(\pi_1(\mathrm{Eq}(x, y)))$ is an [[equivalence of types]] for all $x$ and $y$ in $A$, where $\pi_1$ is the first projection function of the first [[dependent sum type]] used in the definition of $\Omega_\pm$. Univalent $\mathcal{A}$-sets are just [[h-sets]] with an [[irreflexive symmetric relation]]. 
+
 ## Examples
 
 Every type is an affirmative $\mathcal{A}$-set with the equivalence relation given by the [[propositional truncation]] of the [[identity type]] and the irreflexive symmetric relation given by the [[negation]] of the equivalence relation. 
