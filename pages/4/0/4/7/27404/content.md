@@ -47,7 +47,7 @@ In [[dependent type theory]], an $\mathcal{A}$-set is a **[[univalent setoid|uni
 
 ### Using the type of affine propositions
 
-An affine proposition $P$ is interpreted as a pair $(P^+, P^-)$ of propositions in intuitionistic logic which are mutually exclusive in that $\neg (P^+ \wedge P^-)$ holds. Thus, we can define the type of affine propositions as the type 
+An affine proposition $P$ is interpreted as a pair $(P^+, P^-)$ of propositions in intuitionistic logic which are mutually exclusive in that $\neg (P^+ \wedge P^-)$ holds. Thus, we can define the [[type of affine propositions]] as the type 
 $$\Omega_\pm \coloneqq \sum_{P^+:\Omega} \sum_{P^-:\Omega} \neg (P^+ \wedge P^-) =_\Omega \top$$ 
 where $\Omega$ is the [[type of all propositions]]. We usually suppress the witness that $\neg (P^+ \wedge P^-)$ and denote elements of $\Omega_\pm$ as pairs $(P^+, P^-)$. 
 The logical operations for the affine logic can be defined on $\Omega_\pm$ as demonstrated [[antithesis interpretation#AffineLogicalOperations|here]]. We denote affine truth by $1:\Omega_\pm$ and affine falsehood by $0:\Omega_\pm$, to contrast with intuitionistic truth $\top:\Omega$ and falsehood $\bot:\Omega$
