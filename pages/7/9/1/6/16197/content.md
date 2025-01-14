@@ -125,7 +125,7 @@ See also
 
 
 
-Review and exposition includes
+Review and exposition:
 
 * {#KehagiasDizgahRiotto13} [[Alex Kehagias]], Azadeh Moradinezhad Dizgah, Antonio Riotto, _Comments on the Starobinsky Model of Inflation and its Descendants_, Phys. Rev. D 89, 043527 (2014) ([arXiv:1312.1155](http://arxiv.org/abs/1312.1155))
 
@@ -140,6 +140,9 @@ Review and exposition includes
 * {#Dalianis16} [[Ioannis Dalianis]],  _Features and implications of the plateau inflationary potentials_, Planck 2015 conference contribution ([arXiv:1602.05026](http://arxiv.org/abs/1602.05026))
 
 * {#Efstathiou2019} George P. Efstathiou on behalf of the PLANCK mission, _The PLANCK legacy, inflation and the origin of structure in the universe_, talk at University of Cambridge, January 28, 2019 ([recording from 50:49](https://www.youtube.com/watch?v=16CkVzVK7Wk&feature=youtu.be&t=3049))
+
+* [[Sergei V. Ketov]]: *On Legacy of Starobinsky Inflation* &lbrack;[arXiv:2501.06451](https://arxiv.org/abs/2501.06451)&rbrack;
+
 
 Discussion with more general [[higher curvature corrections]]:
 
