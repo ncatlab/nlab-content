@@ -64,6 +64,10 @@ describes the process by which
 
 [[!include oidification - table]]
 
+## General definition of horizontal categorification
+Tom Leinster's book "Higher Operads, Higher Categories"
+contains a general theory of horizontal categorification of a notion of algebraic structure, as long as the algebraic structure can be defined as the category of algebras for an operad. Leinster proves that if $P$ is a (non-symmetric) operad in the category of sets, then $P$ can be extended to an "fc-multicategory" $\Sigma P$, the *suspension* of $P$, which is a kind of generalized operad which acts on directed graphs. So, for example, the horizontal categorification of the algebraic theory of monoids, as an operad, is the algebraic theory of categories, as a generalized operad. Eugenia Cheng has extended this definition of suspension so that it works for non-symmetric operads in a monoidal category $\mathcal{V}$ satisfying certain co/completeness assumptions. For example, one can take $\mathcal{V}= \mathbf{Cat}$. In this case, the operad $P$ whose algebras are monoidal categories has for its suspension (i.e., its horizontal categorification) the generalized operad whose algebras are precisely bicategories.
+
 ## Further discussion
 
 Related $n$-Caf&#233;-discussion is in 
@@ -71,6 +75,8 @@ Related $n$-Caf&#233;-discussion is in
 * [[John Baez]], [_What is categorification?_](http://golem.ph.utexas.edu/category/2008/10/what_is_categorification.html)
 
 * [[John Baez]], [_Ringoids_](http://golem.ph.utexas.edu/category/2006/09/ringoids.html)
+* [[John Baez]], [_Higher Operads, Higher Categories_](https://arxiv.org/abs/math/0305049)
+* [[Eugenia Cheng]], [_Comparing operadic theories of $n$-category_](https://arxiv.org/pdf/0809.2070)
 
 
 [[!redirects Oidification]]
