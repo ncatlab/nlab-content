@@ -16,6 +16,8 @@
 =--
 =--
 
+> Note that the term 'Isbell duality' is also applied to a particular [[duality]] between [[frames]] with enough points and [[sober spaces]].
+
 [[higher geometry]] $\leftarrow$ **Isbell duality**  $\rightarrow$ [[higher algebra]]
 
 ***
