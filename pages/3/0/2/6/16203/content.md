@@ -16,6 +16,11 @@ On the [[Starobinsky model of cosmic inflation]] with further [[higher curvature
 
 * Shunsuke Toyama, [[Sergei V. Ketov]]: *Starobinsky inflation beyond the leading order* &lbrack;[arXiv:2407.21349](https://arxiv.org/abs/2407.21349)&rbrack;
 
+On the [[Starobinsky model of cosmic inflation]]:
+
+* [[Sergei V. Ketov]]: *On Legacy of Starobinsky Inflation* &lbrack;[arXiv:2501.06451](https://arxiv.org/abs/2501.06451)&rbrack;
+
+
 ## Related entries
 
 * [[Starobinsky model of cosmic inflation]]
