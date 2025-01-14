@@ -29,7 +29,7 @@ A **topological stack** is a [[geometric stack]] on the [[site]] [[Top]]: a [[to
 
 Let [[Top]] be the [[category]] of [[compactly generated spaces]] and [[continuous function]]. When equipped with a [[Grothendieck topology]] given by usual [[open cover]]s this becomes a [[subcanonical coverage|subcanonical]] [[large site]]. 
 
-Consider the [[(2,1)-topos]] [[(2,1)-sheaves]]=[[stack]]s
+Consider the [[(2,1)-topos]] of [[(2,1)-sheaves]]=[[stack]]s
 
 $$
   TopStack := Sh_{(2,1)}(Top)
@@ -63,9 +63,9 @@ This is what is called  __pretopological stack__  in [Noohi](#Noohi). The termin
 
 Any map from a topological space $S$ to a topological stack $X$ is representable (i.e. diagonal $X\to X\times X$ is always representable). For a topological stack $Y$, if $P$ is invariant under restriction and local on the target, a representable morphism $f : X \to Y$ of 1-stacks has this property if there exists an atlas $T\to Y$ such that the induced map $X\times_Y T\to T$ has property $P$. 
 
-If $X_0 \to X$ is an atlas for a topological stack, then $X_0 \times_{X} X_0 \rightrightarrows X_0$ is a [[topological groupoid]], $\mathbf{X}$. The [[stackification]] of the presheaf of groupoids $T \mapsto Hom((T^{id},\mathbf{X}))$ is (2-iso to) $X$ (where $T^{id}$ is $T$ considered as a [[topological groupoid]] with only identity arrows).
+If $X_0 \to X$ is an atlas for a topological stack, then $X_0 \times_{X} X_0 \rightrightarrows X_0$ is a [[topological groupoid]], $\mathbf{X}$. The [[stackification]] of the presheaf of groupoids $T \mapsto Hom(T^{id},\mathbf{X})$ is (2-iso to) $X$ (where $T^{id}$ is $T$ considered as a [[topological groupoid]] with only identity arrows).
 
-Conversely, given a topological groupoid $G$, we can consider the stackification of $Hom(blank,G):= \left[ G\right]$. By direct inspection, one sees that $\left[ G\right](T)$ is the groupoid of principal G-bundles over $T$, $Bun_G(T)$. The canonical map $(G_0)^id \to G$ yields a map $a:G_0 \to \left[ G\right]$. If $p:T \to \left[ G\right]$ is any map from a space, then $T \times_{\left[ G\right]} G_0$ is the total space of the principal $G$-bundle over $T$ which $p$ corresponds to via Yoneda. If under the correspondence between [[principal bundle]]s and generalized homomorphims $p$ corresponds to a map $T^{id} \to G$, then $p$ factors through the map $a:G_0 \to \left[ G\right]$. If $p$ instead corresponds to a map $T_U \to G$ where $U \to T$ is a cover, then $p$ factors through $a$ locally, hence, $a$ is an epimorphism. Therefore an alternative definition of a topological stack is:
+Conversely, given a topological groupoid $G$, we can consider the stackification $\left[G\right]$ of the presheaf $Hom((-)^{id},G)$. By direct inspection, one sees that $\left[G\right](T)$ is the groupoid of principal G-bundles over $T$, $Bun_G(T)$. The canonical map $(G_0)^id \to G$ yields a map $a:G_0 \to \left[ G\right]$. If $p:T \to \left[ G\right]$ is any map from a space, then $T \times_{\left[ G\right]} G_0$ is the total space of the principal $G$-bundle over $T$ which $p$ corresponds to via Yoneda. If, under the correspondence between [[principal bundle]]s and generalized homomorphims, $p$ corresponds to a map $T^{id} \to G$, then $p$ factors through the map $a:G_0 \to \left[ G\right]$. If $p$ instead corresponds to a map $T_U \to G$ where $U \to T$ is a cover, then $p$ factors through $a$ locally; hence, $a$ is an epimorphism. Therefore an alternative equuvalent definition of a topological stack is:
 
 +-- {: .un_defn}
 ###### Definition
