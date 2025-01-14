@@ -16,7 +16,7 @@
 
 ## Idea
 
-The [[standard model of particle physics]] has the curious property that its content of [[fermions]] appears in three sets of particles that share all properties except that their [[rest mass]] increases drastically from one set to the next. These are called the three "generations" "families" of fermionic particles.
+The [[standard model of particle physics]] has the curious property that its content of [[fermions]] appears in three sets of particles that share all properties except that their [[rest mass]] increases drastically from one set to the next. These are called the three "generations" or "families" of fermionic particles.
 
 [[!include flavors of fundamental particles -- table]]
 
@@ -36,7 +36,9 @@ One suggestion to explain this phenomenon appears in [[intersecting D-brane mode
 
 ### General
 
-See also 
+* Ferruccio Feruglio: *Family Matters* &lbrack;[arXiv:2501.06860](https://arxiv.org/abs/2501.06860)&rbrack;
+
+See also:
 
 * Wikipedia, _<a href="https://en.wikipedia.org/wiki/Generation_(particle_physics)">Generation (particle physics)</a>_
 
