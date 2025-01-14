@@ -37,6 +37,10 @@ In addition,
 
 * An $\mathcal{A}$-set is **refutative** if $\neg (x \nsim y)$ implies $x \sim y$. 
 
+* An $\mathcal{A}$-set is **[[stable relation|stable]]** if it is both affirmative and refutative. 
+
+* An $\mathcal{A}$-set is **[[decidable relation|decidable]]** if $x \sim y$ or $x \nsim y$. 
+
 Thus, every setoid is an affirmative $\mathcal{A}$-set. 
 
 In [[dependent type theory]], an $\mathcal{A}$-set is a **[[univalent setoid|univalent]] $\mathcal{A}$-set** if the canonical inductively defined function $\mathrm{idtosim}(x, y)$ from $x =_A y$ to $x \sim y$ is an [[equivalence of types]] for all $x$ and $y$ in $A$. This means that univalent $\mathcal{A}$-sets are the same as [[h-sets]] equipped with an [[irreflexive symmetric relation]], since the principle of substitution is automatically satisfied via [[transport]] across the type families $(-) \nsim z$ and $z \nsim (-)$ for all $z$ in $A$. 
@@ -50,6 +54,20 @@ Every type is an affirmative $\mathcal{A}$-set with the equivalence relation giv
 * [[A-group]]
 
 * [[A-ring]]
+
+### In ring theory
+
+Every [[negation|non]][[trivial ring|trivial]] [[commutative ring]] $R$ is an $\mathcal{A}$-set with the equivalence relation given by [[equality]] and the irreflexive symmetric relation given by $(y - x)$ being an [[invertible element]]. In addition, 
+
+* $R$ is a strong $\mathcal{A}$-set if and only if $R$ is a [[local ring]], 
+
+* $R$ is a strong affirmative $\mathcal{A}$-set if and only if $R$ is a [[Kock field]], 
+
+* $R$ is a strong refutative $\mathcal{A}$-set if and only if $R$ is a [[Heyting field]]
+
+* $R$ is a strong decidable $\mathcal{A}$-set if and only if $R$ is a [[discrete field]]
+
+More generally, let $R$ be a [[negation|non]][[trivial ring|trivial]] [[commutative ring]] and let $M$ be a [[multiplicative subset]] of $R$ such that $-1 \in M$ and $\neg (0 \in M)$. Then $R$ is an $\mathcal{A}$-set with the equivalence relation given by [[equality]] and the irreflexive symmetric relation given by $(y - x) \in M$. 
 
 ## Related concepts
 
