@@ -45,15 +45,6 @@ $$(P^+, P^-) \multimap (Q^+, Q^-) \coloneqq ((P^+ \Rightarrow Q^+) \wedge (Q^- \
 * [[linear negation]] is a function from $\mathrm{Prop}_\pm$ to $\mathrm{Prop}_\pm$ defined as
 
 $$(P^+, P^-)^\bot \coloneqq (P^-, P^+)$$
-
-* [[exponential conjunction]] is a function from $\mathrm{Prop}_\pm$ to $\mathrm{Prop}_\pm$ defined as
-
-$$!(P^+, P^-) \coloneqq (P^+, P^+ \Rightarrow P^-)$$
-
-* [[exponential disjunction]] is a function from $\mathrm{Prop}_\pm$ to $\mathrm{Prop}_\pm$ defined as
-
-$$?(P^+, P^-) \coloneqq (P^- \Rightarrow P^+, P^-)$$
-
 * the linear [[existential quantifier]] for a type $A$ is a function from $A \to \mathrm{Prop}_\pm$ to $\mathrm{Prop}_\pm$ defined as
 
 $$\bigsqcup_{x:A} (P^+(x), P^-(x)) \coloneqq (\exists x:A.P^+(x), \forall x:A.P^-(x))$$
@@ -61,6 +52,20 @@ $$\bigsqcup_{x:A} (P^+(x), P^-(x)) \coloneqq (\exists x:A.P^+(x), \forall x:A.P^
 * the linear [[universal quantifier]] for a type $A$ is a function from $A \to \mathrm{Prop}_\pm$ to $\mathrm{Prop}_\pm$ defined as
 
 $$\bigsqcap_{x:A} (P^+(x), P^-(x)) \coloneqq (\forall x:A.P^+(x), \exists x:A.P^-(x))$$
+
+* [[exponential conjunction]] is a function from $\mathrm{Prop}_\pm$ to $\mathrm{Prop}_\pm$ defined as
+
+$$!(P^+, P^-) \coloneqq (P^+, \neg P^+)$$
+
+* [[exponential disjunction]] is a function from $\mathrm{Prop}_\pm$ to $\mathrm{Prop}_\pm$ defined as
+
+$$?(P^+, P^-) \coloneqq (\neg P^-, P^-)$$
+
+### Affirmative and refutative propositions
+
+An affine proposition is **affirmative** if we have $!(P) = P$ and an affine proposition is **refutative** if we have $?(P) = P$. Affirmative propositions consist of an intuitionistic proposition and its negation, and refutative propositions are the affine negation of an affirmative proposition. 
+
+Given an affirmative proposition $P$, the intuitionistic [[negation]] of $P$ is given by $\neg P \coloneqq !(P^\bot)$, and given a refutative proposition $P$, the intuitionistic [[negation]] of $P$ is given by $\neg P \coloneqq ?(P^\bot)$
 
 ### Properties
 
@@ -81,6 +86,9 @@ Suppose that the [[law of excluded middle]] holds in the [[intuitionistic logic]
 ## References
 
 * {#Shulman2022} [[Michael Shulman]], *Affine logic for constructive mathematics*. Bulletin of Symbolic Logic, Volume 28, Issue 3, September 2022. pp. 327 - 386 ([doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28), [arXiv:1805.07518](https://arxiv.org/abs/1805.07518))
+
+[[!redirects affine proposition]]
+[[!redirects affine propositions]]
 
 [[!redirects type of affine propositions]]
 [[!redirects types of affine propositions]]
