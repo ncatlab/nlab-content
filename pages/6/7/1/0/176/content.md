@@ -468,10 +468,14 @@ Mathematical Aspects of Quantum Field Theories. Mathematical Physics Studies. Sp
 
 * Andrew M. Evans, Alexandra Miller, Aaron Russell, *A Conformal Field Theory Primer in $D \geq 3$* &lbrack;[arXiv:2309.10107](https://arxiv.org/abs/2309.10107)&rbrack;
 
+* Christian Northe: Young Researchers School 2024 Maynooth: Lectures on CFT, BCFT and DCFT* &lbrack;[arXiv:2411.03381](https://arxiv.org/abs/2411.03381)&rbrack;
+
+
+* [[Pavel Mnev]]: *Lecture notes on conformal field theory* &lbrack;[arXiv:2501.06616](https://arxiv.org/abs/2501.06616)&rbrack;
 
 
 
-For a discussion of mathematical formalization ([[vertex operator algebras]], [[conformal nets]], [[functorial QFT]]) see
+Discussion of mathematical formalization ([[vertex operator algebras]], [[conformal nets]], [[functorial QFT]]) see
 
 * {#Tener18} James E. Tener, _Representation theory in chiral conformal field theory: from fields to observables_ ([arXiv:1810.08168](https://arxiv.org/abs/1810.08168))
 
