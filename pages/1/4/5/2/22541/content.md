@@ -26,6 +26,8 @@
 
 * [[second quantization]]
 
+* [[eigenstate thermalization hypothesis]]
+
 * [[quantum entanglement]]
 
 * [[solid-state physics]]
