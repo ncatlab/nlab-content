@@ -4059,8 +4059,6 @@ Senior Researcher:
 
 Researchers: 
 
-* [Tatiana Ezubova](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/researchers/tatiana-ezubova.html)
-
 * [[Grigorios Giotopoulos]]
 
 * [[Amaria Javed]]
@@ -4080,6 +4078,7 @@ Researchers:
 * [[Adrian Clough]]
 
 * [[David Jaz Myers]] 
+
 
 
 ### Group photos
