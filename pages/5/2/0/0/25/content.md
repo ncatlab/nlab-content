@@ -38,7 +38,6 @@ describes the process by which
 
 * It can be argued that the term 'categorification' should be reserved for [[vertical categorification]],  since we can use 'oidification' for the horizontal concept.
 
-* It has rightly been remarked that [[groupoid]]s are more fundamental than [[groups]], [[algebroids]] are more fundamental than algebras, etc. Hence in a better world, the suffix would be characterizing the one-object special cases, not the general concepts.
 
 ## Examples
 
