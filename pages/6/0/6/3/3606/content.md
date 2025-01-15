@@ -1,8 +1,12 @@
 **Bob Coecke**
 
-* [website](http://web.comlab.ox.ac.uk/people/Bob.Coecke/)
+* [personal page](http://web.comlab.ox.ac.uk/people/Bob.Coecke/)
 
 * Chief Scientist at *[Quantinuum](https://www.quantinuum.com/)*
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=fO17CXgAAAAJ&hl=en)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Bob_Coecke)
 
 ## Selected writings
 
