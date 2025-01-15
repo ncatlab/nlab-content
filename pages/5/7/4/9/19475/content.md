@@ -23,10 +23,27 @@
 
 ## Idea
 
-A kind of [[linear logic]] in which the [[exponential modality]] is indexed by, say, the [[natural numbers]] to indicate the availability of the number of copies of a premise.
+Bouded Linear Logic (BLL) is a refinement of [[linear logic]] (LL) where [[derelictions]] are annotated with a natural number indicating the number of times the associated resource can be used.
+
+This way, well-typed functions do not only satisfy the basic input/output specification (as in the [[simply-typed lambda calculus]]), but also a temporal specification, without the need for a Turing machine with a clock.
+
+**Theorem.** A function from dyadic integers to dyadic integers is computable in polynomial time in the length of its input if and only if it is typable in BLL.
+
+The expressive power of BLL thus lies between that of [[rudimentary linear logic]] (RLL)—which is sequent calculus without weakening and contraction—and full linear logic.
+
+## Related logical systems
+
+Ugo dal Lago and Martin Hofmann have proposed a variant of BLL called QBAL,
+which allows for quantification over resource variables
+and is also sound and complete for polynomial time.
+
+When the derelictions are annotated with an element
+of a(n ordered) [[semiring]] $\mathcal{S}$,
+we obtain [[graded linear logic]] ($\mathrm{G}_\mathcal{S}\mathrm{LL}$).
 
 ## Related concepts
 
+* [[complexity class]]
 * [[graded modality]]
 
 ## References
