@@ -260,7 +260,7 @@ Or, dually, we may regard the 4-form $\star \omega$ of def. \ref{As2Plectomorphi
 
 ### As zero-divisors of the sedenions
 
-It is shown in Corollary 2.14 of [Moreno (1997)](#Moreno97) that the group of [[zero-divisor|zero-divisors]] of the [[sedenion|sedenions]] is isomorphic to $G_2$.
+It is shown in Corollary 2.14 of [Moreno (1997)](#Moreno97) that the unit-norm [[zero-divisor|zero-divisors]] of the [[sedenion|sedenions]] is isomorphic to $G_2$. (More precisely, the smooth manifold $\{(p, q) \mid p q = 0, |p| = |q| = 1\}$ is diffeomorphic to $G_2$. This can also be improved to an isomorphism of $G_2$-torsors.)
 
 ## Related concepts
 
