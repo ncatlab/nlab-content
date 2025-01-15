@@ -1,6 +1,11 @@
 
 * [personal page](https://lmf.cnrs.fr/Perso/Dongho_Lee)
 
+* [github page](https://github.com/fredldh)
+
+* [inSpire page](https://inspirehep.net/authors/2026581)
+
+
 ## Selected writings
 
 On [[software verification|verification]] of [[quantum circuits]] with the [[QWIRE]]-[[quantum programming language]]:
