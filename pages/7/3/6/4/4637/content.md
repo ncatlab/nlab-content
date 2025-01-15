@@ -88,7 +88,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This is also called [[Isbell duality]]. Objects which are preserved by $\mathcal{O} \circ Spec$ or $Spec \mathcal{O}$ are called __Isbell self-dual__.
+This is also called [[Isbell duality]]. Objects which are preserved by $\mathcal{O} \circ Spec$ or $Spec \mathcal{O}$ are called __Isbell self-dual__. We may consider $C(-,-): C^{op} \times C \to \mathcal{V}$ to be acting as a [[dualizing object]].
 
 =--
 
