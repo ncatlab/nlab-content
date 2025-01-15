@@ -33,7 +33,7 @@ $$
   \forall_{x,y\colon T} (x =_T y) \implies (P(x) \iff P(y))
 $$
 
-In the interpretation of [[propositions as types]] in [[type theory]], [[propositions]] are interpreted as [[types]], and the above statement has a generalization from the types which are propositions to all types: the [[universal quantifier]] becomes a [[dependent product type]], the [[predicate]] becomes a [[type family]], [[implication]] becomes an a [[function type]], and [[logical equivalence]] of [[propositions]] becomes an [[equivalence type]]. This results in what is known as *transport* in type theory, which for the type $T$ and the type family $x:T \vdash P(x)$ results in the [[dependent function]]:
+In the interpretation of [[propositions as types]] in [[type theory]], [[propositions]] are interpreted as [[types]], and the above statement has a generalization from the types which are propositions to all types: the [[universal quantifier]] becomes a [[dependent product type]], the [[predicate]] becomes a [[type family]], [[implication]] becomes a [[function type]], and [[logical equivalence]] of [[propositions]] becomes an [[equivalence type]]. This results in what is known as *transport* in type theory, which for the type $T$ and the type family $x:T \vdash P(x)$ results in the [[dependent function]]:
 
 \[
   \label{TheTransportFunctions}
