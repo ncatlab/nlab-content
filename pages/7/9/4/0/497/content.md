@@ -92,7 +92,6 @@ By definition, the only two booleans are $0$ representing false and $1$ represen
 
 ### Relations between the notions of excluded middle
 
-
 \begin{theorem}
 The untruncated version of excluded middle implies the truncated version of excluded middle. 
 \end{theorem}
@@ -207,6 +206,22 @@ But a stronger statement is
 $$ \neg\neg \forall A, (A \vee \neg A).$$
 
 This is related to the above valid statement by a [[double-negation shift]]; and in fact, the truth of $ \neg\neg \forall A, (A \vee \neg A)$ is equivalent to the principle of double-negation shift.  In particular, it is *not* constructively provable.
+
+## Other variants of excluded middle
+
+In [[intuitionistic logic]], there are a number of logical operations on two propositions which are equivalent in [[classical logic]] to the [[disjunction]] of said propositions, but which are weaker in [[intuitionistic logic]]. Each of these weaker versions of disjunction can be applied to the law of excluded middle, some of which are equivalent to excluded middle and others which are automatically true. Here is a Hasse diagram of some of them, with the strongest statement at the bottom and the weakest at the top (so that each statement entails those above it):
+$$ \array {           &          & \neg(\neg{P} \wedge \neg{\neg{P}}) \\
+                      & &#x21d7; &          & &#x21d6; \\
+\neg{P} \rightarrow \neg{P} &          &          &          & P \leftarrow \neg{\neg{P}} \\
+                      & &#x21d6; &          & &#x21d7; \\
+                      &          & (\neg{P} \rightarrow \neg{P}) \wedge (P \leftarrow \neg{\neg{P}}) \\
+                      &          & \Uparrow \\
+                      &          & P \vee \neg{P} } $$
+(A single arrow is implication in the object language; a double arrow is entailment in the metalanguage.)  Note that the false statement $\neg{P} \wedge \neg{\neg{P}}$ is the [[negation]] of every item in this diagram.
+
+* $\neg(\neg{P} \wedge \neg{\neg{P}})$ and $\neg{P} \rightarrow \neg{P}$ are always true in [[intuitionistic logic]]
+
+* $P \leftarrow \neg{\neg{P}}$, $(\neg{P} \rightarrow \neg{P}) \wedge (P \leftarrow \neg{\neg{P}})$, and $P \vee \neg{P}$ are equivalent to excluded middle, since $P \leftarrow \neg{\neg{P}}$ is the [[double negation law]], which is equivalent to excluded middle, and $(\neg{P} \rightarrow \neg{P}) \wedge (P \leftarrow \neg{\neg{P}})$ is the [[conjunction]] of the double negation law with an intuitionistically true statement. 
 
 ## Sharp excluded middle
 
