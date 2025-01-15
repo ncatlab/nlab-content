@@ -1,16 +1,24 @@
-[[!redirects Felix Wellen]]
 
 (previously: Felix Wellen)
 
-* [Website](http://felix-cherubini.de)
+* [personal page](http://felix-cherubini.de)
+
+* [institute page](https://www.gu.se/en/about/find-staff/felixcherubini)
+
+* [github page](https://github.com/felixwellen)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Felix-Cherubini-2172329555)
+
 
 ## Selected writings
 
-* _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_ 
+On [[differential cohesion|differentially]] [[cohesive homotopy type theory]] for [[synthetic differential geometry]]:
 
-  PhD Thesis
+* _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, PhD Thesis, Karlsruhe Institute of Technology (2017) &lbrack;[web](https://publikationen.bibliothek.kit.edu/1000073164), [arXiv:1806.05966](https://arxiv.org/abs/1806.05966), [[nLab:HoTT]]-[[nLab:Agda]] code: [DCHoTT-Agda](https://github.com/felixwellen/DCHoTT-Agda)&rbrack;
 
-  [[nLab:HoTT]]-[[nLab:Agda]] code: [DCHoTT-Agda](https://github.com/felixwellen/DCHoTT-Agda).
+* [[Felix Cherubini]]: *Synthetic $G$-jet-structures in modal homotopy type theory*, Mathematical Structures in Computer Science (2024) 1–35 &lbrack;[doi:10.1017/S0960129524000355](https://doi.org/10.1017/S0960129524000355), [arXiv:1806.05966](https://arxiv.org/abs/1806.05966)&rbrack;
+
+
 
 On [[modal homotopy type theory]] (such as concerning [[homotopy n-types]]/[[n-truncation modality]] and [[covering spaces]]):
 
@@ -31,3 +39,6 @@ On [[synthetic Stone duality]]:
 * {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
 
 category: people
+
+[[!redirects Felix Wellen]]
+
