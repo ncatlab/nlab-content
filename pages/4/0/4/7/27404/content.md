@@ -49,30 +49,46 @@ In [[dependent type theory]], an $\mathcal{A}$-set is a **[[univalent setoid|uni
 
 An affine proposition $P$ is interpreted as a pair $(P^+, P^-)$ of propositions in intuitionistic logic which are mutually exclusive in that $\neg (P^+ \wedge P^-)$ holds. Thus, we can define the [[type of affine propositions]] as the type 
 $$\Omega_\pm \coloneqq \sum_{P^+:\Omega} \sum_{P^-:\Omega} \neg (P^+ \wedge P^-) =_\Omega \top$$ 
-where $\Omega$ is the [[type of all propositions]]. We usually suppress the witness that $\neg (P^+ \wedge P^-)$ and denote elements of $\Omega_\pm$ as pairs $(P^+, P^-)$. 
+where $\Omega$ is the [[type of all propositions]]. We denote the two projection functions of the above type as $(-)^+:\Omega_\pm \to \Omega$ and $(-)^-:\Omega_\pm \to \Omega$. In addition, we usually suppress the witness that $\neg (P^+ \wedge P^-)$ and denote elements of $\Omega_\pm$ as pairs $(P^+, P^-)$. 
 The logical operations for the affine logic can be defined on $\Omega_\pm$ as demonstrated [[antithesis interpretation#AffineLogicalOperations|here]]. We denote affine truth by $1:\Omega_\pm$ and affine falsehood by $0:\Omega_\pm$, to contrast with intuitionistic truth $\top:\Omega$ and falsehood $\bot:\Omega$
 
 An $\mathcal{A}$-set is a type $A$ with an affine equivalence relation, a function $\mathrm{Eq}:A \times A \to \Omega_\pm$ with witnesses that
 
 * for all $x:A$, $\mathrm{Eq}(x, x)$
 
-$$\mathrm{refl}_\mathrm{Eq}:\bigsqcap_{x:A} \mathrm{Eq}(x, x) =_{\Omega_\pm} 1$$
+$$\mathrm{refl}_\mathrm{Eq}:\prod_{x:A} \mathrm{Eq}(x, x) =_{\Omega_\pm} 1$$
 
 * for all $x:A$ and $y:A$, $\mathrm{Eq}(x, y)$ implies $\mathrm{Eq}(y, x)$
 
-$$\mathrm{sym}_\mathrm{Eq}:\bigsqcap_{x:A} \bigsqcap_{y:A} \mathrm{Eq}(x, y) \multimap \mathrm{Eq}(y, x) =_{\Omega_\pm} 1$$
+$$\mathrm{sym}_\mathrm{Eq}:\prod_{x:A} \prod_{y:A} \mathrm{Eq}(x, y) \multimap \mathrm{Eq}(y, x) =_{\Omega_\pm} 1$$
 
 * for all $x:A$, $y:A$, and $z:A$, $\mathrm{Eq}(x, y)$ multiplicatively and $\mathrm{Eq}(y, z)$ implies $\mathrm{Eq}(x, z)$
 
-$$\mathrm{trans}_\mathrm{Eq}^{\boxtimes}:\bigsqcap_{x:A} \bigsqcap_{y:A} \bigsqcap_{z:A} \mathrm{Eq}(x, y) \boxtimes \mathrm{Eq}(y, z) \multimap \mathrm{Eq}(x, z) =_{\Omega_\pm} 1$$
+$$\mathrm{trans}_\mathrm{Eq}^{\boxtimes}:\prod_{x:A} \prod_{y:A} \prod_{z:A} \mathrm{Eq}(x, y) \boxtimes \mathrm{Eq}(y, z) \multimap \mathrm{Eq}(x, z) =_{\Omega_\pm} 1$$
 
-An $\mathcal{A}$-set is **strong** if 
+An $\mathcal{A}$-set is 
 
-* for all $x:A$, $y:A$, and $z:A$, $\mathrm{Eq}(x, y)$ additively and $\mathrm{Eq}(y, z)$ implies $\mathrm{Eq}(x, z)$
+* **strong** if for all $x:A$, $y:A$, and $z:A$, $\mathrm{Eq}(x, y)$ additively and $\mathrm{Eq}(y, z)$ implies $\mathrm{Eq}(x, z)$
 
-$$\mathrm{trans}_\mathrm{Eq}^{\sqcap}:\bigsqcap_{x:A} \bigsqcap_{y:A} \bigsqcap_{z:A} \mathrm{Eq}(x, y) \sqcap \mathrm{Eq}(y, z) \multimap \mathrm{Eq}(x, z) =_{\Omega_\pm} 1$$
+$$\mathrm{trans}_\mathrm{Eq}^{\sqcap}:\prod_{x:A} \prod_{y:A} \prod_{z:A} \mathrm{Eq}(x, y) \sqcap \mathrm{Eq}(y, z) \multimap \mathrm{Eq}(x, z) =_{\Omega_\pm} 1$$
 
-An $\mathcal{A}$-set is a **[[univalent setoid|univalent]] $\mathcal{A}$-set** if the canonical inductively defined function $\mathrm{idtoeq}^+(x, y)$ from $x =_A y$ to $\mathrm{El}(\pi_1(\mathrm{Eq}(x, y)))$ is an [[equivalence of types]] for all $x$ and $y$ in $A$, where $\pi_1$ is the first projection function of the first [[dependent sum type]] used in the definition of $\Omega_\pm$. Univalent $\mathcal{A}$-sets are just [[h-sets]] with an [[irreflexive symmetric relation]]. 
+* **affirmative** if for all $x:A$ and $y:A$, $\mathrm{Eq}(x, y)$ is affirmative
+
+$$\mathrm{aff}_\mathrm{Eq}:\prod_{x:A} \prod_{y:A} \mathrm{Eq}(x, y) =_{\Omega_\pm} !\mathrm{Eq}(x, y)$$
+
+* **refutative** if for all $x:A$ and $y:A$, $\mathrm{Eq}(x, y)$ is refutative
+
+$$\mathrm{ref}_\mathrm{Eq}:\prod_{x:A} \prod_{y:A} \mathrm{Eq}(x, y) =_{\Omega_\pm} ?\mathrm{Eq}(x, y)$$
+
+* **stable** if for all $x:A$ and $y:A$, $\mathrm{Eq}(x, y)$ is stable
+
+$$\mathrm{stab}_\mathrm{Eq}:\prod_{x:A} \prod_{y:A}  !\mathrm{Eq}(x, y) =_{\Omega_\pm} ?\mathrm{Eq}(x, y)$$
+
+* **decidable** if for all $x:A$ and $y:A$, $\mathrm{Eq}(x, y)$ is decidable
+
+$$\mathrm{dec}_\mathrm{Eq}:\prod_{x:A} \prod_{y:A} \mathrm{Eq}(x, y) \sqcup \mathrm{Eq}(x, y)^\bot =_{\Omega_\pm} 1$$
+
+An $\mathcal{A}$-set is a **[[univalent setoid|univalent]] $\mathcal{A}$-set** if the canonical inductively defined function $\mathrm{idtoeq}^+(x, y)$ from $x =_A y$ to $\mathrm{El}(\mathrm{Eq}(x, y)^+)$ is an [[equivalence of types]] for all $x$ and $y$ in $A$. Univalent $\mathcal{A}$-sets are just [[h-sets]] with an [[irreflexive symmetric relation]]. 
 
 ## Examples
 
