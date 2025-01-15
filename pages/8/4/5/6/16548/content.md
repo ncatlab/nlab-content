@@ -108,7 +108,9 @@ Discussion in [[differential cohesion]]:
 
 Discussion in differentially cohesive [[modal homotopy type theory|modal]] [[homotopy type theory]]:
 
-* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017
+* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_ (2017)
+
+* [[Felix Cherubini]]: *Synthetic $G$-jet-structures in modal homotopy type theory*, Mathematical Structures in Computer Science (2024) 1–35 &lbrack;[doi:10.1017/S0960129524000355](https://doi.org/10.1017/S0960129524000355), [arXiv:1806.05966]([arXiv:1806.05966](https://arxiv.org/abs/1806.05966)&rbrack;
 
 
 For more references see at _[[jet bundle]]_.
