@@ -210,6 +210,8 @@ On a [[horizontal categorification]] to [[double categories]]:
 [[!redirects duoidal categories]]
 [[!redirects 2-monoidal category]]
 [[!redirects 2-monoidal categories]]
+[[!redirects normal duoidal category]]
+[[!redirects normal duoidal categories]]
 
 [[!redirects virtual duoidal category]]
 [[!redirects virtual duoidal categories]]
