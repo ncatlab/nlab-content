@@ -44,7 +44,7 @@ $$
 
 (for $N=1$ see [Manoliu 1998a p 40](#Manoliu98a), for general $N$ cf. [Belov & Moore 2005 p 26](#BelovMoore05))
 
-For a *non-*orientable surface with $k$ crosscaps, it is 
+{#DegeneracyOnNonOrientableSurface} For a *non-*orientable surface with $k$ crosscaps, it is 
 
 $$ 
   dim(\mathscr{H}_k)
