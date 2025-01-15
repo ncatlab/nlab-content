@@ -6,6 +6,8 @@
 In the [[antithesis interpretation]] of [[affine logic]] into [[constructive mathematics]], an affine proposition $P$ is interpreted as a pair $(P^+, P^-)$ of propositions in intuitionistic logic which are mutually exclusive in that $\neg (P^+ \wedge P^-)$ holds. Thus, given a [[type of propositions]] $(\mathrm{Prop}, \mathrm{El})$, we can define the **type of affine propositions** as the type 
 $$\mathrm{Prop}_\pm \coloneqq \sum_{P^+:\mathrm{Prop}} \sum_{P^-:\mathrm{Prop}} \mathrm{El}(\neg (P^+ \wedge P^-))$$ 
 
+We denote the two projection functions as $(-)^+:\mathrm{Prop}_\pm \to \mathrm{Prop}$ and $(-)^-:\mathrm{Prop}_\pm \to \mathrm{Prop}$. 
+
 Similarly, an affine predicate $P$ on a type $A$ is interpreted as a pair $(P^+, P^-)$ of predicates on $A$ in intuitionistic logic which are pointwise mutually exclusive in that $\neg (P^+(x) \wedge P^-(x))$ holds for all $x:A$. This is equivalently a function $P:A \to \mathrm{Prop}_\pm$. 
 
 ## Predicate logic
@@ -68,6 +70,8 @@ An affine proposition is **affirmative** if we have $!(P) = P$ and an affine pro
 $$\mathrm{Prop} \simeq \sum_{P:\Omega_\pm} !(P) =_{\Omega_\pm} P \qquad \mathrm{Prop} \simeq \sum_{P:\Omega_\pm} ?(P) =_{\Omega_\pm} P$$
 
 Given an affirmative proposition $P$, the intuitionistic [[negation]] of $P$ is given by $\neg P \coloneqq !(P^\bot)$, and given a refutative proposition $P$, the intuitionistic [[negation]] of $P$ is given by $\neg P \coloneqq ?(P^\bot)$. 
+
+An affine proposition is **[[stable proposition|stable]]**  if $!P =_{\Omega_\pm} ?P$. Writing $P$ as the pair $(P^+, P^-)$, this automatically implies that $P^+ =_\Omega \neg P^-$ and $\neg P^+ =_\Omega P^-$ by definition of [[exponential conjunction]] and [[exponential disjunction]], which in turn implies that $P^+ =_\Omega \neg \neg P^+$ and $P^- =_\Omega \neg \neg P^-$, hence the term *stable*. 
 
 ### Decidable propositions
 
