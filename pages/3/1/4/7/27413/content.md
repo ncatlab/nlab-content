@@ -63,9 +63,17 @@ $$?(P^+, P^-) \coloneqq (\neg P^-, P^-)$$
 
 ### Affirmative and refutative propositions
 
-An affine proposition is **affirmative** if we have $!(P) = P$ and an affine proposition is **refutative** if we have $?(P) = P$. Affirmative propositions consist of an intuitionistic proposition and its negation, and refutative propositions are the affine negation of an affirmative proposition. 
+An affine proposition is **affirmative** if we have $!(P) = P$ and an affine proposition is **refutative** if we have $?(P) = P$. Affirmative propositions consist of an intuitionistic proposition and its negation, and refutative propositions are the affine negation of an affirmative proposition. As a result, we have equivalences of types
 
-Given an affirmative proposition $P$, the intuitionistic [[negation]] of $P$ is given by $\neg P \coloneqq !(P^\bot)$, and given a refutative proposition $P$, the intuitionistic [[negation]] of $P$ is given by $\neg P \coloneqq ?(P^\bot)$
+$$\mathrm{Prop} \simeq \sum_{P:\Omega_\pm} !(P) =_{\Omega_\pm} P \qquad \mathrm{Prop} \simeq \sum_{P:\Omega_\pm} ?(P) =_{\Omega_\pm} P$$
+
+Given an affirmative proposition $P$, the intuitionistic [[negation]] of $P$ is given by $\neg P \coloneqq !(P^\bot)$, and given a refutative proposition $P$, the intuitionistic [[negation]] of $P$ is given by $\neg P \coloneqq ?(P^\bot)$. 
+
+### Decidable propositions
+
+An affine proposition $P$ is **decidable** if $P \sqcup P^\bot = 1$. The type of all decidable affine propositions is equivalent to the [[boolean domain]]
+
+$$\mathrm{bool} \simeq \sum_{P:\Omega_\pm} P \sqcup P^\bot =_{\Omega_\pm} 1$$
 
 ### Properties
 
@@ -75,7 +83,11 @@ $$!P \coloneqq P \boxtimes P \quad ?P \coloneqq P \boxplus P$$
 
 ### Excluded middle
 
-Suppose that the [[law of excluded middle]] holds in the [[intuitionistic logic]], so that the logic becomes [[classical logic]]. Then $\mathrm{Prop}$ is equivalent to the [[boolean domain]] $\mathbb{2}$, and $\mathrm{Prop}_\pm$ is equivalent to the three-element set $\{(\top, \bot), (\bot, \bot), (\bot, \top)\}$ representing the propositions in [[Łukasiewicz logic]]. As a result, the affine predicate logic in the antithesis interpretation becomes predicate Łukasiewicz logic. 
+Suppose that the [[law of excluded middle]] holds in the [[intuitionistic logic]], so that the logic becomes [[classical logic]]. Then $\mathrm{Prop}$ is equivalent to the [[boolean domain]] $\mathbb{2}$, and $\mathrm{Prop}_\pm$ is equivalent to the three-element set $\{(\top, \bot), (\bot, \bot), (\bot, \top)\}$ representing the propositions in [[Łukasiewicz logic]]. As a result, the affine predicate logic in the antithesis interpretation becomes predicate Łukasiewicz logic. The affirmative and refutative affine propositions are all decidable. 
+
+The law of excluded middle can be expressed in the affine logic as 
+
+$$!P =_{\Omega_\pm} P \sqcup P \; \mathrm{or} \; ?P =_{\Omega_\pm} P \sqcap P$$
 
 ## Related concepts
 
