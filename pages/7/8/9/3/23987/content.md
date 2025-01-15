@@ -1505,7 +1505,7 @@ home page: [nyuad.nyu.edu/en/events/2024/may/quantum-information-and-quantum-mat
 
   > [Magnetic nanoskyrmions](skyrmion#ReferencesInSolidStatePhysics) develop quantized helicity excitations, and the quantum tunneling between nanoskyrmions possessing distinct helicities is indicative of the quantum nature of these particles. Experimental methods capable of non-destructively resolving the quantum aspects of topological spin textures, their local dynamical response, and their functionality now promise practical device architectures for quantum operations. With abilities to measure, engineer, and control matter at the atomic level, nanoskyrmions present opportunities to translate ideas into solid-state technologies. This talk aims to discuss the basic concept of a magnetic skyrmion qubit, its advantages, and challenges in this new research avenue in quantum magnetism and quantum information.
 
-* {#Balram2024} [[Ajit C Balram]] (Homi Bhabha National Institute, India):
+* {#Balram2024} [[Ajit C. Balram]] (Homi Bhabha National Institute, India):
 
   **Fingerprints of Composite Fermion Lambda Levels in Scanning Tunneling Microscopy**
 
@@ -1839,6 +1839,26 @@ Talks:
 <img src="https://ncatlab.org/nlab/files/QuantumIndustryDayAtCQTS-Dec2024.jpg" width="900">
 </a>
 </center>
+
+
+\linebreak
+
+### Jan 2025
+
+15 Dec 2025
+
+**Quantum Industry Day -- Exploring Quantum with Qibo** 
+
+[www.q-innovision.com/quantum-industry-day-january-2025-tii](https://www.q-innovision.com/quantum-industry-day-january-2025-tii)
+
+
+
+<center>
+<a href="https://www.q-innovision.com/quantum-industry-day-january-2025-tii">
+<img src="/nlab/files/CQTS-QuantumIndustryDay-Jan2025.png" width="900">
+</a>
+</center>
+
 
 
 
