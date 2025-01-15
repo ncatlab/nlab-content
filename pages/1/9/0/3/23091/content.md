@@ -106,6 +106,8 @@ Monographs:
 
 * [[Peter May]], [[Kate Ponto]], _[[More concise algebraic topology]]_,   University of Chicago Press (2012) ([ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf))
 
+* Clark Bray, Adrian Butcher, Simon Rubinstein-Salzedo: *Algebraic Topology*, Springer (2021) \[<a href="https://doi.org/10.1007/978-3-030-70608-1">doi:10.1007/978-3-030-70608-1</a>, [pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-70608-1.pdf)\]
+
 
 On [[constructive mathematics|constructive]] methods ([[constructive algebraic topology]]):
 
