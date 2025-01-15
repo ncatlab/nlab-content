@@ -5,7 +5,9 @@ Thorsten Altenkirch is a professor of [[computer science]] at the University of 
 
 * [institute page](https://www.nottingham.ac.uk/computerscience/People/thorsten.altenkirch)
 
-* [wikipedia](https://en.wikipedia.org/wiki/Thorsten_Altenkirch)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Thorsten_Altenkirch)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=EHksJkUAAAAJ&hl=en)
 
 
 ## Selected writings
