@@ -107,7 +107,7 @@ We (have to) distinguish the following cases:
 
       which define extensions of single functors only, which may exist even if not every functor has an extension.
 
-1. ["pointwise" or "strong" Kan extensions](#Pointwise)
+1. ["pointwise" Kan extensions](#Pointwise)
 
    These define the _value_ of an extended functor on each object (each "point") by a [[weighted limit|weighted (co)limit]]. 
 
@@ -290,7 +290,7 @@ is an [[equivalence]] of $(n-2)$-categories.
 
 We say that a Kan extension $Lan_p F$ is *preserved* by a functor $G$ if the composite $G \circ Lan_p F$ is a Kan extension of $G F$ along $p$, and moreover the universal natural transformation $G F \to G(Lan_p F)p$ is the composite of $G$ with the universal transformation $F\to (Lan_p F)p$.
 
-### Pointwise or strong Kan extensions 
+### Pointwise Kan extensions 
  {#Pointwise}
 
 If the [[codomain]] category $D$ admits certain [[limit|(co)limits]], then left and right Kan extensions can be constructed, over each object ("point") of the domain category $C'$ out of these: Kan extensions that admit this form are called _pointwise_. (Reviews include ([Riehl, I 1.3](#Riehl))).
