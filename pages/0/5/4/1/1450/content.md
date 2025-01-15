@@ -264,9 +264,14 @@ Discussion in [[differential cohesion]] is in
 
 * [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
 
-Discussion in differentially cohesive [[homotopy type theory]] is in
+Discussion in differentially cohesive [[homotopy type theory]]:
 
-* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, 2017
+* {#Wellen17} [[Felix Wellen]], _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_ (2017)
+
+[[schreiber:thesis Wellen|Felix's thesis work]] has finally been (submitted and thus) published:
+
+* [[Felix Cherubini]]: *Synthetic $G$-jet-structures in modal homotopy type theory*, Mathematical Structures in Computer Science (2024) 1–35 &lbrack;[doi:10.1017/S0960129524000355](https://doi.org/10.1017/S0960129524000355)&rbrack;
+
 
 * {#JazMyers22} [[David Jaz Myers]], *Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory* &lbrack;[arXiv:2205.15887](https://arxiv.org/abs/2205.15887)&rbrack;
 
