@@ -151,17 +151,25 @@ Specifically for [[cohesive homotopy type theory]] see:
 
 * {#Wellen18} [[Felix Wellen]], _[[schreiber:thesis Wellen|Cartan Geometry in Modal Homotopy Type Theory]]_ ([arXiv:1806.05966](https://arxiv.org/abs/1806.05966), [thesis pdf](http://www.math.kit.edu/iag3/~wellen/media/diss.pdf) following [Schreiber 15](#Schreiber15))
 
+  published as:
+
+* [[Felix Cherubini]]: *Synthetic $G$-jet-structures in modal homotopy type theory*, Mathematical Structures in Computer Science (2024) 1–35 &lbrack;[doi:10.1017/S0960129524000355](https://doi.org/10.1017/S0960129524000355), [arXiv:1806.05966](https://arxiv.org/abs/1806.05966)&rbrack;
+
+
 * {#Myers08} [[David Jaz Myers]], _Good Fibrations through the Modal Prism_ ([arXiv:1908.08034](https://arxiv.org/abs/1908.08034))
+
+
+
 
 Formalization of the [[shape modality|shape]]/[[flat modality|flat]]-[[fracture square]] ([[differential cohomology hexagon]]) in [[cohesive homotopy type theory]]: 
 
-* [[David Jaz Myers]], _Modal Fracture of Higher Groups_,  talk at _[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html), 2021 ([pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]])
+* [[David Jaz Myers]]: _Modal Fracture of Higher Groups_,  talk at *[CMU-HoTT Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)* (2021) &lbrack;[pdf](http://davidjaz.com/Talks/CMU_March_2021.pdf), [[MyersModalFracture2021.pdf:file]]&rbrack;
 
-* [[David Jaz Myers]], _Modal Fracture of Higher Groups_ ([arXiv:2106.15390](https://arxiv.org/abs/2106.15390))
+* [[David Jaz Myers]]: *Modal Fracture of Higher Groups* &lbrack;[arXiv:2106.15390](https://arxiv.org/abs/2106.15390)&rbrack;
 
 See also the proof of the [[Blakers-Massey theorem]] for modalities in this generality:
 
-* {#AnelBiedermanFinsterJoyal17a} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _A Generalized Blakers-Massey Theorem_, Journal of Topology **13** 4 (2020) 1521-1553 $[$[arXiv:1703.09050](https://arxiv.org/abs/1703.09050), [doi:10.1112/topo.12163](https://doi.org/10.1112/topo.12163)$]$
+* {#AnelBiedermanFinsterJoyal17a} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _A Generalized Blakers-Massey Theorem_, Journal of Topology **13** 4 (2020) 1521-1553 &lbrack;[arXiv:1703.09050](https://arxiv.org/abs/1703.09050), [doi:10.1112/topo.12163](https://doi.org/10.1112/topo.12163)&rbrack;
 
 
 
