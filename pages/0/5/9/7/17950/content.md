@@ -1,1 +1,1 @@
- - [web page](http://www.math.usask.ca/~rayan/)
+ - [web page](https://researchers.usask.ca/steven-rayan)
