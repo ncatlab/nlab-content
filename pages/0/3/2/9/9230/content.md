@@ -320,11 +320,14 @@ $\,$
 
 Traditional review:
 
-* [[Radovan Dermisek]], _Path integral for interacting field_ ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-I-5-4p.pdf))
+* [[Radovan Dermisek]]: _Path integral for interacting field_ (2009) &lbrack;[[Dermisek-PathIntegralInteractingField.pdf:file]]&rbrack;
 
-* [[Stefan Weinzierl]], *Introduction to Feynman Integrals* &lbrack;[arXiv:1005.1855](https://arxiv.org/abs/1005.1855)&rbrack;
+* [[Stefan Weinzierl]]: *Introduction to Feynman Integrals* &lbrack;[arXiv:1005.1855](https://arxiv.org/abs/1005.1855)&rbrack;
 
-* [[Stefan Weinzierl]], *Feynman Integrals*, UNITEXT for Physics, Springer (2022) &lbrack;[arXiv:2201.03593](https://arxiv.org/abs/2201.03593), [doi:10.1007/978-3-030-99558-4](https://doi.org/10.1007/978-3-030-99558-4)&rbrack;  (816 pages)
+* [[Stefan Weinzierl]]: *Feynman Integrals*, UNITEXT for Physics, Springer (2022) &lbrack;[arXiv:2201.03593](https://arxiv.org/abs/2201.03593), [doi:10.1007/978-3-030-99558-4](https://doi.org/10.1007/978-3-030-99558-4)&rbrack;
+
+* [[Stefan Weinzierl]]: *Feynman Diagrams*, Encyclopedia of Particle Physics (2025) &lbrack;[arXiv:2501.08354](https://arxiv.org/abs/2501.08354)&rbrack;
+
 
 
 See also
