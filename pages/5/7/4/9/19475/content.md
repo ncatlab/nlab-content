@@ -29,7 +29,7 @@ This way, well-typed functions do not only satisfy the basic input/output specif
 
 **Theorem.** A function from dyadic integers to dyadic integers is computable in polynomial time in the length of its input if and only if it is typable in BLL.
 
-The expressive power of BLL thus lies between that of [[rudimentary linear logic]] (RLL)—which is sequent calculus without weakening and contraction—and full linear logic.
+The expressive power of BLL thus lies between that of [[rudimentary linear logic]] (RLL)—which is sequent calculus without the [[weakening rule]] and without the [[contraction rule]]—and full linear logic.
 
 ## Related logical systems
 
