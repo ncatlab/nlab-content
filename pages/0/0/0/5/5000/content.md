@@ -27,7 +27,7 @@ We should limit to books which we can really recommend, either by their special 
 * [[Amnon Neeman]], _Algebraic and analytic geometry_, London Math. Soc. Lec. Note Series __345__ 
 
 * M. Demazure, P. Gabriel, _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970 
-* Ravi Vakil's Stanford [course notes](http://math.stanford.edu/~vakil/0708-216)
+* Ravi Vakil's Stanford [course notes](http://math.stanford.edu/~vakil/0708-216) or the more polished and recent [Rising Sea notes](https://math.stanford.edu/~vakil/216blog/)
 * William Fulton, _Intersection theory_, Springer 1984
 * Ulrich G&#246;rtz, Torsten Wedhorn, _Algebraic Geometry I: Schemes_ With Examples and Exercises, 2nd Edition,
 Springer Studium Mathematik - Master, 
@@ -79,6 +79,7 @@ Bull. London Math. Soc. (1980) 12 (6): 476-478, [doi](http://dx.doi.org/10.1112/
 
 * J&#225;nos Koll&#225;r, Shigefumi Mori, _Birational geometry of algebraic varieties_, 
 With the collaboration of C. H. Clemens and A. Corti. Translated from the 1998 Japanese original. Cambridge Tracts in Math. 134 (1998), viii+254 pp. 
+* Olivier Debarre, _Higher-Dimensional Algebraic Geometry_, Universitext. Springer 2001. (see also the [errata](https://perso.imj-prg.fr/olivier-debarre/wp-content/uploads/debarre-pub/errata.pdf))
 * Kenji Matsuki, _Introduction to the Mori program_, Universitext. Springer 2002. xxiv+478 pp. [MR2002m:14011](http://www.ams.org/mathscinet-getitem?mr=1875410)
 * Herbert Clemens, J&#225;nos Koll&#225;r, Shigefumi Mori, _Higher-dimensional complex geometry_, Ast&#233;risque __166__ (1988), 144 pp. (1989). 
 
