@@ -4,9 +4,9 @@
 
 ## Idea
 
-Graded linear logic can refer to multiple extensions of [[bounded linear logic]],
+*Graded linear logic* can refer to multiple extensions of [[bounded linear logic]],
 but most notably to $\mathrm{B}_\mathcal{S}\mathrm{LL}$,
-where the [[derelictions|exponentials]] are indexed by elements of a semiring $\mathcal{S}$.
+where the [[derelictions|exponentials]] are indexed by elements of a [[semiring]] $\mathcal{S}$.
 
 ## Literature
 
