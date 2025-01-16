@@ -1,6 +1,12 @@
 
 * [personal page](https://people.math.osu.edu/penneys.2/8800//Math8800Spring2021.html)
 
+* [institute page](https://math.osu.edu/people/penneys.2)
+
+* [GoogleScholar page](https://scholar.google.ca/citations?user=d41Ns7kAAAAJ&hl=en)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=171279)
+
 ## Selected writings
 
 On [[monoidal enriched categories]]:
@@ -18,6 +24,10 @@ On [[G-crossed braided fusion categories]] via [[3-categories]]:
 Introducing a notion of [[dagger n-categories|dagger $n$-categories]]:
 
 * [[Giovanni Ferrer]], [[Brett Hungar]], [[Theo Johnson-Freyd]], [[Cameron Krulewski]], [[Lukas Müller]], [[Nivedita]], [[David Penneys]], [[David Reutter]], [[Claudia Scheimbauer]], [[Luuk Stehouwer]], [[Chetan Vuppulury]], *Dagger n-categories* &lbrack;[arXiv2403.01651](https://arxiv.org/abs/2403.01651)&rbrack;
+
+On identifying [[W*-category|$W^\ast$-categories]] with [[2-Hilbert spaces]]:
+
+* [[André Henriques]], [[Nivedita]], [[David Penneys]]: *Complete $W^\ast$-categories* &lbrack;[arXiv2411.01678](https://arxiv.org/abs/2411.01678)&rbrack;
 
 
 
