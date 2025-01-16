@@ -1,6 +1,10 @@
-* [personal website](http://andreghenriques.com/)
+* [personal page](http://andreghenriques.com)
 
 * [university website](https://www.maths.ox.ac.uk/people/andre.henriques)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=sAycspQAAAAJ&hl=fr)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=34063)
 
 
 ## Selected writings:
@@ -15,12 +19,16 @@ On [[2d CFT]] as an  [[functorial quantum field theory]] on a [[(infinity,n)-cat
 
 On [[octahedron recurrence]] and [[crystal bases]]
 
-* [[André Henriques]], [[Joel Kamnitzer]], _The octahedron recurrence and $gl_n$ crystals_, Adv. Math. __206__:1 (2006) 211--249 [doi](https://doi.org/10.1016/j.aim.2005.08.007)
+* [[André Henriques]], [[Joel Kamnitzer]]: _The octahedron recurrence and $gl_n$ crystals_, Adv. Math. __206__ 1 (2006) 211-249 &lbrack;[doi:10.1016/j.aim.2005.08.007](https://doi.org/10.1016/j.aim.2005.08.007)&rbrack;
+
+On identifying [[W*-category|$W^\ast$-categories]] with [[2-Hilbert spaces]]:
+
+* [[André Henriques]], [[Nivedita]], [[David Penneys]]: *Complete $W^\ast$-categories* &lbrack;[arXiv2411.01678](https://arxiv.org/abs/2411.01678)&rbrack;
 
 
 
 
-## Related $n$Lab-entries
+## Related entries
 
 * [[Lie integration]]
 
