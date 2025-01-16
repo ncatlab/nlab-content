@@ -73,6 +73,17 @@ The same is true for [[Hilbert W*-modules]] over [[von Neumann algebras]], [[W*-
 
 * [[P. Ghez]], [[Ricardo Lima]], [[John E. Roberts]], _W\*-categories_, Pacific Journal of Mathematics 120:1 (1985), 79–109 &lbrack;[doi:10.2140/pjm.1985.120.79](https://doi.org/10.2140/pjm.1985.120.79)&rbrack;
 
+Understanding complete [[W*-category|$W^\ast$-categories]] as [[2-Hilbert spaces]]:
+
+* [[André Henriques]], [[Nivedita]], [[David Penneys]]: *Complete $W^\ast$-categories* &lbrack;[arXiv2411.01678](https://arxiv.org/abs/2411.01678)&rbrack;
+
+Exposition:
+
+* [[Nivedita]]: *Towards Models for 2-Hilb and 3-Hilb as targets for functorial field theories*, talk notes (2024) &lbrack;[[Nivedita-ModelFor2HilbForFQFT.pdf:file]]&rbrack;
+
+
+
+
 [[!redirects W*-categories]]
 
 [[!redirects W-star category]]
