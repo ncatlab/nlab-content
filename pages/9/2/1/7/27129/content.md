@@ -17,6 +17,6 @@ exposition:
 
 * [[Nivedita]]: *Towards Models for 2-Hilb and 3-Hilb as targets for functorial field theories*, talk notes (2024) &lbrack;[[Nivedita-ModelFor2HilbForFQFT.pdf:file]]&rbrack;
 
-
+[[!redirects Nivedita Nivedita]]
 
 category: people
