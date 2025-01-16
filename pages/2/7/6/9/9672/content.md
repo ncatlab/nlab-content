@@ -21,7 +21,9 @@
 
 ## Idea
 
-In [[proof theory]] and the theory of [[programming languages]], the term _logical relations_ refers to a certain style of argument used in proving results such as [[strong normalization]] or [[observational equivalence]].  Although there is no precise definition, typically a logical relation (or _logical predicate_) corresponds to a _family_ of (sometimes unary) [[relations]] defined by induction on [[types]], and such that the definition of the relation at a particular type mirrors the logical structure of that type in an appropriate sense. This methodology goes by many names historically, such as _Tait's method of computability_ and _reducibility candidates_.
+In [[proof theory]] and the theory of [[programming languages]], the term _logical relations_ refers to a certain style of argument used in proving results such as [[strong normalization]] or [[observational equivalence]].  Although there is no precise definition, typically a logical relation (or _logical predicate_) corresponds to a _family_ of (sometimes unary) [[relations]] defined by induction on [[types]], and such that the definition of the relation at a particular type mirrors the logical structure of that type in an appropriate sense.
+
+This methodology goes by many names historically, such as _Tait's method of computability_ and _reducibility candidates_. Skorstengaard suggests that a more telling name might be _Type Indexed Inductive Relations_.
 
 ## Example
 
