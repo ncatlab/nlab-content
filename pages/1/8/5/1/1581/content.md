@@ -35,7 +35,7 @@ We apply [[Zorn's lemma]] as follows: consider the [[poset]] consisting of the l
 
 $$S = \bigcup_\alpha S_\alpha$$ 
 
-is an upper bound, for each $v$ in the span of $S$ belongs to some $S_\alpha$ and is uniquely expressible as a finite linear combination of elements in $S_\alpha$ and in any $S_\beta$ containing $S_\alpha$, hence uniquely expressible as a finite linear combination of elements in $S$. Thus the hypothesis of Zorn's lemma obtains for this poset; therefore this poset has a maximal element, say $B$. 
+is an upper bound, for each $v$ in the span of $S$ belongs to the span of some $S_\alpha$ and is uniquely expressible as a finite linear combination of elements in $S_\alpha$ and in any $S_\beta$ containing $S_\alpha$, hence uniquely expressible as a finite linear combination of elements in $S$. Thus the hypothesis of Zorn's lemma obtains for this poset; therefore this poset has a maximal element, say $B$. 
 
 Let $W$ be the span of $B$.  If $W$ were a proper subspace of $V$, then for any $v$ in the set-theoretic complement of $W$, $B \cup \{v\}$ is a linearly independent set (for if 
 
