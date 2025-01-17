@@ -59,7 +59,7 @@ Examples of mathematical foundations which one could do predicative neutral cons
 
 * [[classical sets]] only form a [[Heyting pretopos]] rather than an [[elementary topos]]. 
 
-* [[inequality spaces]] only form a [[Π-pretopos]] rather than a [[elementary topos]]. 
+* sets with [[tight apartness relations]] only form a [[locally cartesian closed category]] rather than a [[elementary topos]]. 
 
 ### Real analysis
 
