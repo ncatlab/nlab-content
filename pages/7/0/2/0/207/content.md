@@ -191,9 +191,9 @@ Constructive mathematics is mathematics in which the law of excluded middle does
 
 In classical mathematics, equality of sets is a [[stable relation|stable]] [[equivalence relation]], and [[denial inequality]] of sets is a [[tight apartness relation]]. However, in constructive mathematics, equality cannot be proven to be stable for all sets, and denial inequality cannot be proven to be a tight apartness relation for all sets. Instead, one could distinguish between 4 different notions of equality and [[inequality]]:
 
-* [[tight apartness relations]]. However, not all sets have tight apartness relations. The sets which do are called [[inequality spaces]]. 
+* [[tight apartness relations]]. However, not all sets have tight apartness relations. 
 
-* equality, which is an [[equivalence relation]]; [[inequality spaces]] have [[stable equality]]. 
+* equality, which is an [[equivalence relation]]; set with [[tight apartness relations]] have [[stable equality]]. 
 
 * [[denial inequality]], which can only be proven to be a [[weakly tight]] [[irreflexive symmetric relation]]. However, all statements in classical mathematics involving only denial inequalities hold in constructive mathematics, by the [[double negation translation]] and the property that for any proposition $P$, $\neg \neg \neg P$ if and only if $\neg P$. 
 
@@ -201,7 +201,7 @@ In classical mathematics, equality of sets is a [[stable relation|stable]] [[equ
 
 The sets in which equality and inequality behaves as it does in [[classical mathematics]] are the sets with [[decidable equality]]. 
 
-As a result, in constructive mathematics, sometimes one takes [[inequality spaces]] instead of general [[sets]] to be the foundational primitive concept. In classical mathematics, this is unnecessary, because every [[set]] is an [[inequality space]]. 
+As a result, in constructive mathematics, sometimes one takes sets with [[tight apartness relations]] instead of general [[sets]] to be the foundational primitive concept. In classical mathematics, this is unnecessary, because every [[set]] has a [[tight apartness relation]]. 
 
 ## Internal equality in set theory
 
