@@ -156,11 +156,11 @@ or the always true statement that every [[split surjection]] splits.
 
 * Sets with [[decidable tight apartness relations]] form a [[cartesian closed category]]. 
 
-* Assuming [[function sets]], the [[tight apartness relation]] on an [[inequality space]] is [[decidable tight apartness relation|decidable]]. 
+* Assuming [[function sets]], every [[tight apartness relation]] on a [[set]] is [[decidable tight apartness relation|decidable]]. 
 
 * The [[boolean domain]] $2$ is a [[frame]] iff the [[category of sets]] is a [[Boolean topos]]. This implies that one can do [[topology]] (using [[topological spaces]], [[locales]], [[formal topologies]], etc) directly using the boolean domain as the frame of open truth values. 
 
-* The [[poset of truth values]] is an [[inequality space]].
+* The [[poset of truth values]] has a [[tight apartness relation]].
 
 * The [[partial function classifier]] of any [[singleton]] is the [[boolean domain]]. 
 
