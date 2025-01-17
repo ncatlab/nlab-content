@@ -63,4 +63,4 @@
 * further
   * [[reflection principle]]
 
-* [[axiom of inequality spaces]]
+* [[axiom of tight apartness]]
