@@ -55,9 +55,6 @@ Similarly, every [[stable relation|stable]] [[tight apartness relation]] is a de
 
 * [[Kock field]]
 
-[[!redirects not equal]]
-[[!redirects not equal to]]
-
 [[!redirects weak inequality]]
 [[!redirects weak inequalities]]
 
