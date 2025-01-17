@@ -127,7 +127,7 @@ In practice, for instance [[Picard groupoids]] appear as generalized [[abelian g
 **(algebras to algebroids)**
 \linebreak
 A horizontal categorification of [[algebras]] are [[algebroids]]: [[enriched category|categories enriched]] in the [[category of vector spaces]], regarded as a [[symmetric monoidal category]] via the [[tensor product of vector spaces]].
-\end{exmaple}
+\end{example}
 
 \begin{example}
 **(rings to ringoids)**
