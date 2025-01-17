@@ -62,3 +62,7 @@ The [[elementary topos]] which appears in the following paper satisfies Brouwer'
 [[!redirects Brouwer's theorem]]
 
 [[!redirects Brouwer's continuity principle]]
+[[!redirects Brouwer's continuity axiom]]
+
+[[!redirects continuity principle]]
+[[!redirects continuity axiom]]
