@@ -164,7 +164,7 @@ One could also define a polynomial $p \in R[X]$ to be homogeneous of degree $n$ 
 
 ## In constructive mathematics
 
-In [[constructive mathematics]], where [[excluded middle]] does not hold, the above definition is correct only if the ring $R$ has [[decidable equality]]. In more general circumstances, one has to assume that the ring $R$ and thus the polynomial ring $R[X]$ is an [[inequality space]] with a [[tight apartness relation]] $\#$, and replace all instances of "non-zero" $p \neq 0$ with instances of "apart from zero" $p \# 0$. (That every set $R$ is an inequality space in classical mathematics follows from the [[stable equality|stability]] of decidable equality.) For example, the degree function on the [[Dedekind real numbers]] is only defined on polynomials with at least one coefficient whose [[absolute value]] is greater than zero. 
+In [[constructive mathematics]], where [[excluded middle]] does not hold, the above definition is correct only if the ring $R$ has [[decidable equality]]. In more general circumstances, one has to assume that the ring $R$ and thus the polynomial ring $R[X]$ is a set with a [[tight apartness relation]] $\#$, and replace all instances of "non-zero" $p \neq 0$ with instances of "apart from zero" $p \# 0$. (In [[classical mathematics]], every set $R$ has a [[tight apartness relation]] $x \neq y$ given by the [[denial negation]] of [[equality]].) For example, the degree function on the [[Dedekind real numbers]] is only defined on polynomials with at least one coefficient whose [[absolute value]] is greater than zero. 
 
 ## See also
 
