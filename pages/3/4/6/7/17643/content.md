@@ -13,6 +13,9 @@
 =--
 =--
 
+\tableofcontents
+
+## Definition
 
 In [[propositional logic]], the __contrapositive rule__ states that it is valid to derive $\neg{Q} \to \neg{P}$ from $P \to Q$ (where $\neg$ is [[negation]] and $\to$ is [[implication]]).  In symbols:
 $$ \frac {P \to Q} {\neg{Q} \to \neg{P}} \;CP $$
@@ -27,6 +30,11 @@ as both statements are equivalent to the negation of $P \wedge Q$ (where $\wedge
 $$ \frac {\neg{P} \to Q} {\neg{Q} \to P} $$
 is again valid only classically.
 
+## Related concepts
+
+* [[implication]]
+
+* [[negation]]
 
 [[!redirects contrapositive]]
 [[!redirects contrapositives]]
