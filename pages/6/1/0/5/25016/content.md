@@ -29,7 +29,7 @@ A stable [[binary relation]] $R$ on a set $S$ is a relation such that for all el
 
 * The [[denial inequality relation]] of a set is a stable relation. 
 
-* In any [[inequality space]], [[equality]] is a stable relation. 
+* In any set with a [[tight apartness relation]], [[equality]] is a stable relation. 
 
 * [[Markov's principle]] states that the [[pseudo-order]] for the [[modulated Cauchy real numbers]] is a stable relation. 
 
