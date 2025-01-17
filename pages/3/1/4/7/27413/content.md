@@ -3,7 +3,7 @@
 
 ## Definition
 
-Recall that propositions $P$ and $Q$ are [[mutually exclusive]] if and only if $\neg (P \wedge Q)$ holds. Given a [[type of propositions]] $(\mathrm{Prop}, \mathrm{El})$, the **type of [[mutually exclusive propositions]]** is given by the type 
+Recall that propositions $P$ and $Q$ are [[mutually exclusive propositions|mutually exclusive]] if and only if $\neg (P \wedge Q)$ holds. Given a [[type of propositions]] $(\mathrm{Prop}, \mathrm{El})$, the **type of [[mutually exclusive propositions]]** is given by the type 
 $$\mathrm{Prop}_\pm \coloneqq \sum_{P^+:\mathrm{Prop}} \sum_{P^-:\mathrm{Prop}} \mathrm{El}(\neg (P^+ \wedge P^-))$$ 
 
 We denote the two projection functions as $(-)^+:\mathrm{Prop}_\pm \to \mathrm{Prop}$ and $(-)^-:\mathrm{Prop}_\pm \to \mathrm{Prop}$. 
