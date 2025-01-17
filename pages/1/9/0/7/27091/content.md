@@ -123,17 +123,17 @@ Let $A$ be a singleton and let $B(x) = \{0, 1\}$ be the [[constant function|cons
 
 In essence, if we take [[classical mathematics]] to be mathematics where only the classical sets are relevant, then [[constructive mathematics]] are a form of [[predicative mathematics]] in the classical sense, where not all classical [[function sets]] exist, since general function sets are not classical sets. 
 
-\begin{theorem}
-Suppose that every [[inequality space]] is a [[classical set]]. Then [[excluded middle]] holds. 
-\end{theorem}
+\begin{corollary}
+Suppose that every set with a [[tight apartness relation]] is a [[classical set]]. Then [[excluded middle]] holds. 
+\end{corollary}
 
-\begin{theorem}
+\begin{corollary}
 In the presence of [[quotient sets]], suppose that every [[apartness relation]] on a [[set]] is [[decidable relation|decidable]]:
 
 $$((\forall x.\neg R(x, x)) \wedge (\forall x, y.R(x, y) \Rightarrow R(y, x)) \wedge (\forall x, y, z.R(x, y) \wedge R(y, z) \Rightarrow R(x, z))) \Rightarrow (\forall x, y.R(x, y) \vee \neg R(x, y))$$
 
 Then [[excluded middle]] holds. 
-\end{theorem}
+\end{corollary}
 
 ## Applications
  {#Applications}
@@ -168,11 +168,6 @@ Working with decidable subsets of classical sets makes [[constructive mathematic
 [[!redirects decidable inequality structures]]
 [[!redirects decidable inequality relation]]
 [[!redirects decidable inequality relations]]
-[[!redirects decidable inequality space]]
-[[!redirects decidable inequality spaces]]
 
 [[!redirects category of classical sets]]
 [[!redirects categories of classical sets]]
-
-[[!redirects category of decidable inequality spaces]]
-[[!redirects categories of decidable inequality spaces]]
