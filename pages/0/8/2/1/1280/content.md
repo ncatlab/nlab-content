@@ -21,7 +21,7 @@ $$A,\, \neg{A} \;\vdash\; B $$
 
 Two related schemata are _ex falso quodlibet_:
 $$\bot\; \vdash\; B$$
-and the _law of non-contradiction_
+and the _[[law of non-contradiction]]_
 $$A,\, \neg{A} \;\vdash\; \bot. $$
 Either of these may hold in a paraconsistent logic, but of course (assuming transitivity of entailment) not both.
 
