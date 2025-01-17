@@ -30,8 +30,6 @@ There are other notions in mathematics which could be considered to be an extens
 
 * [[connected relation|connectedness]] (for elements of a [[strict total order]])
 
-* [[tight apartness relation|tight apartness]] (for elements of an [[inequality space]])
-
 * [[separation axiom]] (for elements of a [[Kolmogorov topological space]])
 
 * [[Rezk completion]] (for [[objects]] of a [[category]] or [[(infinity,1)-category]])
