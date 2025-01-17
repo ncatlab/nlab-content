@@ -47,8 +47,6 @@ $$
 
 an "inequality". Many famous inequalities are of this form (starting with the [[triangle inequality]]), often accompanied with statement of conditions when exactly the actual [[equality]] holds.
 
-
-
 ## Examples
  {#Examples}
 
@@ -75,15 +73,15 @@ More generally, inequality may just be the statement that a pair of [[terms]] of
 
 In  the [[foundations of mathematics]], sometimes one talks about a particular [[relation]] called the *inequality relation*. 
 
-In [[classical mathematics]], the *inequality relation* is defined as the [[negation]] ($\not$) of [[equality]] ($=$). However, in [[constructive mathematics]], due to the lack of [[excluded middle]], there are multiple different notions of inequality relation. The two most commonly used notions are the [[denial inequality relation]] and the [[tight apartness relation]], the latter of which is used to define [[inequality spaces]]. Other relations which have been called "inequality relation" in the constructive mathematics literature are listed in [[irreflexive symmetric relation#ConstructiveMathematics]]. 
+In [[classical mathematics]], the *inequality relation* is defined as the [[negation]] ($\not$) of [[equality]] ($=$). However, in [[constructive mathematics]], due to the lack of [[excluded middle]], there are multiple different notions of inequality relation. The two most commonly used notions are the [[denial inequality relation]] and the [[tight apartness relation]]. Other relations which have been called "inequality relation" in the constructive mathematics literature are listed in [[irreflexive symmetric relation#ConstructiveMathematics]]. 
+
+More generally, any [[irreflexive relation]] $R(x, y)$ can be considered an "inequality" because by definition of irreflexive, $R(x, y)$ and equality $x = y$ are [[mutually exclusive]] for all $x$ and $y$, and the relation $R(x, y)$ gives rise to an [[irreflexive symmetric relation]] $x \nsim y \coloneqq R(x, y) \vee R(y, x)$. The equivalent for irreflexive relations of a tight irreflexive symmetric relation is a connected irreflexive relation. 
 
 ## See also
 
 * [[equality]], [[equation]]
 
 * [[denial inequality]]
-
-* [[inequality space]]
 
 ## References
 
@@ -97,8 +95,17 @@ See also:
 [[!redirects tight inequality]]
 [[!redirects tight inequalities]]
 
+[[!redirects connected inequality]]
+[[!redirects connected inequalities]]
+
 [[!redirects inequality relation]]
 [[!redirects inequality relations]]
 
 [[!redirects tight inequality relation]]
 [[!redirects tight inequality relations]]
+
+[[!redirects connected inequality relation]]
+[[!redirects connected inequality relations]]
+
+[[!redirects not equal]]
+[[!redirects not equal to]]
