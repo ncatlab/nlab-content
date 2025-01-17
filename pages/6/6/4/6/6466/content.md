@@ -200,9 +200,9 @@ Summary: modify the construction of a [[Cauchy real numbers]] object to use [[mu
 
 The real numbers object in [[Set]] is the [[real line]], the usual set of (located Dedekind) [[real numbers]].  Note that this is a theorem of [[constructive mathematics]], as long as we assume that $Set$ is an elementary topos with an NNO (or more generally a [[Π-pretopos]] with [[natural numbers object|NNO]] and a real numbers object).
 
-### In the category of inequality spaces
+### In the category of sets with tight apartness
 
-Assuming that $Set$ contains a real numbers object, the [[category of inequality spaces]] also contains a real numbers object given by the [[Dedekind real numbers]]. 
+Assuming that $Set$ contains a real numbers object, the [[category of sets with tight apartness]] also contains a real numbers object given by the [[Dedekind real numbers]]. 
 
 ### In sheaves on a topological space
 
