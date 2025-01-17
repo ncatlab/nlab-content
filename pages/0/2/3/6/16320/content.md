@@ -27,10 +27,15 @@ In [[probability theory]]:
 
 * [[spacelike]], [[timelike]], [[lightlike]]
 
+* [[mutually exclusive events]]
+
 ## References
 
 * Wikipedia, _[Event (relativity)](http://en.wikipedia.org/wiki/Event_%28relativity%29)_
 
+* Wikipedia, *[Event (probability theory)](https://en.wikipedia.org/wiki/Event_%28probability_theory%29)*
+
+[[!redirects event]]
 [[!redirects events]]
 
 [[!redirects event (probability theory)]]
