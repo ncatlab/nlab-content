@@ -86,7 +86,7 @@ Generalizing further, we may simply treat 'homomorphism' as a synonym for '[[mor
 
 * a [[set]] homomorphism is an [[extensional function]]
 
-* an [[inequality space]] homomorphism is a [[strongly extensional function]]
+* a homomorphism of sets with [[tight apartness relation]] is a [[strongly extensional function]]
 
 * [[homomorphism of L-infinity algebras|homomorphism of $L_\infty$-algebras]]
 
