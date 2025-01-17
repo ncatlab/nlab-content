@@ -16,7 +16,7 @@
 
 ## Idea
 
-The [[unit object]] of a [[tensor product]].
+The [[unit object]] of a [[tensor product]] (in a [[monoidal category]]).
 
 ## Related concepts
 
