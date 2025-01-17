@@ -54,7 +54,7 @@ However, [[Martin Escardo]] proved that the truncated and untruncated versions o
 Truncated De Morgan's law implies [[weak excluded middle|weak]] [[excluded middle]]:
 $$ \prod_{A} \neg A + \neg\neg A.$$
 =--
-Note that truncation or its absence is irrelevant in weak excluded middle, since $\neg A$ and $\neg\neg A$ are mutually exclusive so that $\neg A + \neg\neg A$ is always a proposition.
+Note that truncation or its absence is irrelevant in weak excluded middle, since $\neg A$ and $\neg\neg A$ are [[mutually exclusive proposition|mutually exclusive]] so that $\neg A + \neg\neg A$ is always a proposition.
 +-- {: .proof}
 ###### Proof
 Let $B=\neg A$ in the truncated De Morgan's law, and notice that $\neg(A\wedge \neg A)$ always holds.
