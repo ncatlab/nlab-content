@@ -25,7 +25,7 @@
 
 ## Definition
 
-An **irreflexive symmetric relation** is a [[binary relation]] that is [[irreflexive relation|irreflexive]] and [[symmetric relation|symmetric]]. A set equipped with an irreflexive symmetric relation is called an **inequality space**
+An **irreflexive symmetric relation** or sometimes **inequality relation** is a [[binary relation]] that is [[irreflexive relation|irreflexive]] and [[symmetric relation|symmetric]]. 
 
 ## Examples
 
