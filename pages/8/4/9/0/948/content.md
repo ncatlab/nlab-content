@@ -17,7 +17,6 @@
 =--
 =--
 
-
 # Constructive mathematics
 * table of contents
 {: toc}
@@ -103,16 +102,18 @@ Sometimes, all that is necessary to make a piece of mathematics constructive is 
 
 For example, classically one often speaks about "nonempty" sets, meaning a set which "does _not_ have _no_ elements."  Constructively it is much better to say that a set "*does* have at least one element"; constructivists often call such a set _[[inhabited set|inhabited]]_ to remind themselves that it is a "positive" notion to replace the negative one of "nonempty". Others continue to use the word "non-empty" but understand it as a term of art that really means "inhabited".
 
-
 ### Bifurcation of notions
 
-On the other hand, differences in axiomatization or definition that make no difference classically can result in actual differences in behavior constructively.  Therefore, classically equivalent notions often "bifurcate" (or "trifurcate" or worse) into multiple inequivalent constructive ones.  This tends to happen whenever a concept involves _[[negation]]_ and, to a lesser degree, _[[disjunction]]_ and _[[existential quantification]]_.  In some cases there is a "correct" constructive version of the definition, although it may take some thought to uncover it, but in many cases more than one of the resulting concepts is important and useful.  For example:
+On the other hand, differences in axiomatization or definition that make no difference classically can result in actual differences in behavior constructively.  Therefore, classically equivalent notions often "bifurcate" (or "trifurcate" or worse) into multiple inequivalent constructive ones.  This tends to happen whenever a concept involves _[[negation]]_ and, to a lesser degree, _[[disjunction]]_ and _[[existential quantification]]_. In some cases there is a "correct" constructive version of the definition, although it may take some thought to uncover it, but in many cases more than one of the resulting concepts is important and useful. For example:
 
-* There are multiple inequivalent constructive definitions of a [[field]], because of the axioms "every _nonzero_ element has an inverse" and $0 \neq 1$.
+* There are multiple inequivalent constructive definitions of a [[field]], because of the axioms "every _nonzero_ element has an inverse" and $0 \neq 1$. 
 
-* In pure constructive logic, there are multiple inequivalent definitions of [[real numbers]].
-  * the [[Dedekind real numbers]] and the [[Cauchy real numbers]] need no longer coincide.  The Cauchy reals sit inside the Dedekind reals, but in general not every Dedekind real need be approximable by a _[[sequence]]_ of rationals.  From a topos-theoretic viewpoint, the Dedekind reals are usually the "correct" notion to study (if not the [[locale of real numbers]] as a whole). However, the weak [[limited principle of omniscience]] suffices to ensure that every Dedekind real is a Cauchy real, and hence that the two notions coincide; see ([[Univalent Foundations Project]] 2013) and (Booij 2020). Weak countable choice implies the weak limited principle of omniscience, which in turn is implied by excluded middle and the axiom of choice; see (Bridges et al. 1993).
+* More generally, the [[antithesis interpretation]] of constructive mathematics leads to a generalised notion of [[negation]] as two [[mutually exclusive propositions]]. This results in the bifurcation of basic mathematical objects, such as [[set]] ([[A-set|$\mathcal{A}$-set]]), [[monoid]] ([[A-monoid|$\mathcal{A}$-monoid]]), [[group]] ([[A-group|$\mathcal{A}$-group]]), [[ring]] ([[A-ring|$\mathcal{A}$-ring]]), and [[partial order]] ([[antithesis partial order|$\mathcal{A}$-partial order]]) into at least five concepts each, depending on the relation between the pointwise mutually exclusive relations and their intuitionistic [[denial negation]]. 
+
+* There are multiple inequivalent definitions of [[real numbers]].
+  * the [[Dedekind real numbers]] and the [[Cauchy real numbers]] need no longer coincide. The Cauchy reals sit inside the Dedekind reals, but in general not every Dedekind real need be approximable by a _[[sequence]]_ of rationals.  From a topos-theoretic viewpoint, the Dedekind reals are usually the "correct" notion to study (if not the [[locale of real numbers]] as a whole). However, the weak [[limited principle of omniscience]] suffices to ensure that every Dedekind real is a Cauchy real, and hence that the two notions coincide; see ([[Univalent Foundations Project]] 2013) and (Booij 2020). Weak countable choice implies the weak limited principle of omniscience, which in turn is implied by excluded middle and the axiom of choice; see (Bridges et al. 1993).
   * Similarly, the [[Cauchy real numbers]] are not sequentially [[Cauchy complete]]. There is an intermediate set of [[real numbers]] between the Cauchy reals and the Dedekind reals that are sequentially Cauchy complete called the [[HoTT book real numbers]], such that there are embeddings from the Cauchy reals to the HoTT reals, and from the HoTT reals to the Dedekind reals, but there are no embeddings in the reverse direction. 
+  * The lower, upper, and two-sided [[Dedekind real numbers]] do not coincide with each other. That they do coincide is equivalent to [[excluded middle]], as shown [here](https://categorytheory.zulipchat.com/#narrow/stream/229136-theory.3A-category-theory/topic/One.20universe.20as.20a.20foundation.20.26.20friends/near/465219817) by [[James Hanson]]. 
   * A real number with a [[locator]] is equivalent to a real number represented by a [[Cauchy sequence]] with [[modulus of convergence]], which implies that it is [[sequentially complete]]. That every [[modulated Cauchy real number]] has a [[locator]] or is a [[Cauchy sequence]] with [[modulus of convergence]] implies that the Cauchy real numbers coincide with the HoTT real numbers.
   * That every real number with a locator in the [[unit interval]] can be represented by a [[sequence]] of (positive) digits is equivalent to the lesser [[limited principle of omniscience]], so it is no longer true that every such real number has an infinite decimal representation. The set of all real numbers with infinite decimal representations are called [[prealgebra real numbers]]. 
 
@@ -122,11 +123,9 @@ On the other hand, differences in axiomatization or definition that make no diff
 
 * Perhaps most disturbingly of all to the classical mathematician, one must distinguish between _finite sets_, _subfinite sets_, _finitely-indexed sets_, and even _subfinitely indexed sets_; see [[finite set]] for definitions.  However, in practice it is usually either finite or finitely-indexed sets that are important, and with practice a little bit of thought suffices to show which is the relevant concept.
 
-
 ### Negative translation
 
 This allows one to translate classically valid theorems into intuitionistically valid theorems. See [[double negation translation]]. 
-
 
 ### Truth versus assertability
 {#truevassert}
@@ -151,7 +150,6 @@ This practice can be understood through a careful distinction between [[object l
 Even without the notational convention of the Bishop school, it is important when reading constructive mathematics to remember the difference between what can be refuted (proved false) and what merely cannot be proved true. Although Brouwer\'s and Markov\'s schools will sometimes claim to prove statements that are (classically) outright false (such as that every function $[0,1] \to R$ is pointwise-continuous), it is more common (and can happen in any school) that a constructive mathematician makes a claim that merely *sounds* false, when what they really mean is only that they don\'t accept what you say as true. Often modal phrases like 'not necessarily' will be used where Bishop would use '<i>not</i>', as a clue that we\'re shifting to a metalanguage, or at least merely remaining agnostic rather than outright disagreeing.
 
 The distinction between object language and metalanguage exists even in [[classical mathematics]], but it seems that most classical mathematicians are not used to remembering it, although it is not entirely clear why this should be so.  One possibly relevant observation is that even if $P$ is a statement which is neither provable nor disprovable (like the continuum hypothesis), in classical mathematics it is still provable that "$P$ is either true or false."  Moreover, classical [[model theory]] often restricts itself to [[two-valued model|two-valued models]] in which the only truth values are "true" and "false," although classical logic still holds in [[Boolean algebra|Boolean-valued]] models, and in such a case the truth value of $P$ may be neither "true" nor "false," although the truth value of "$P$ or not $P$" is still "true."  Certainly when talking about classical truths which fail constructively, such as excluded middle, it is important to remember that "fails to be provable" is different from "is provably false."
-
 
 ## Prehistory
 
@@ -379,7 +377,9 @@ On [[commutative algebra]] with constructive methods:
 
 * [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
+On the [[antithesis interpretation]] of [[constructive mathematics]]:
 
+* {#Shulman2022} [[Michael Shulman]], *Affine logic for constructive mathematics*. Bulletin of Symbolic Logic, Volume 28, Issue 3, September 2022. pp. 327 - 386 ([doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28), [arXiv:1805.07518](https://arxiv.org/abs/1805.07518))
 
 
 [[!redirects constructive]]
