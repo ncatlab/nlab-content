@@ -39,7 +39,7 @@ In [[type theory]], a ([[proposition]]-valued) [[equivalence relation]] $\equiv$
 
 * [[equivalence relation]]
 * [[stable equality]]
-* [[inequality space]]
+* [[tight apartness relation]]
 * [[univalent equivalence relation]]
 
 [[!redirects stable equivalence relations]]
