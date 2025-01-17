@@ -85,23 +85,23 @@ The __antigraph__ of a function $f\colon S \to T$ is
 $$ \{(x,y) \;|\; x\colon S, y\colon T \;|\; f(x) \ne y\} .$$
 Recall that in ordinary topology, a function between [[Hausdorff spaces]] is continuous iff its [[graph of a function|graph]] is closed. Similarly, a function $f\colon S \to T$ is strongly extensional iff its antigraph is open. (Then the [[graph of a function|graph]] of $f$ is the complement of the antigraph.)
 
-One important topological concept that doesn\'t appear classically is locatedness; in an inequality space, a subset $A$ is __[[located subspace|located]]__ if, given any point $x$ and any neighbourhood $U$ of $x$, either $U \cap A$ is [[inhabited set|inhabited]] (that is, it has a point) or some neighbourhood of $x$ (not necessarily $U$) is contained in $\tilde A$. Note that every point is located. (For an example of a set that need not be located, consider $\{x\colon S \;|\; p\}$, where $p$ is an arbitrary [[truth value]]. In an inhabited space, this set is located iff $p$ is true or false.)
+One important topological concept that doesn\'t appear classically is locatedness; in an set with a [[tight apartness relation]], a subset $A$ is __[[located subspace|located]]__ if, given any point $x$ and any neighbourhood $U$ of $x$, either $U \cap A$ is [[inhabited set|inhabited]] (that is, it has a point) or some neighbourhood of $x$ (not necessarily $U$) is contained in $\tilde A$. Note that every point is located. (For an example of a set that need not be located, consider $\{x\colon S \;|\; p\}$, where $p$ is an arbitrary [[truth value]]. In an inhabited space, this set is located iff $p$ is true or false.)
 
 
 ### Relation to metric spaces
 
 Recall that, as [[Bill Lawvere]] taught us, a [[metric space]] is a groupoid (or $\dagger$-[[dagger-category|category]]) enriched over the category $([0,\infty[^\op,+)$ of nonnegative [[real numbers]], ordered in reverse, and made monoidal under addition. (Actually, you get a metric only if you impose a tightness condition, although again you can recover this up to equivalence from the $2$-morphisms. Furthermore, Lawvere advocated using $[0,\infty]$ instead of $[0,\infty[$, and also dropping the symmetry requirement to get enriched categories instead of groupoids. Thus, he dealt with extended quasipseudometric spaces. These details are not really important here.)
 
-There is a [[monoidal functor]] from $([0,\infty[^\op,+)$ to $TV^\op$ that maps a nonnegative real number $x$ to the truth value of the statement that $x \gt 0$. Accordingly, any (symmetric) metric space becomes an inequality space, and any function satisfying $d(f(x),f(y)) \leq d(x,y)$) is strongly extensional.
+There is a [[monoidal functor]] from $([0,\infty[^\op,+)$ to $TV^\op$ that maps a nonnegative real number $x$ to the truth value of the statement that $x \gt 0$. Accordingly, any (symmetric) metric space becomes a set with a tight apartness relation, and any function satisfying $d(f(x),f(y)) \leq d(x,y)$) is strongly extensional.
 
-The topological properties of metric spaces fit well with those of inequality spaces if you always work in this direction. For example, a set which is $d$-open will also be $\ne$-open, but not necessarily the other way around. Similarly, a (merely) [[continuous function]] between metric spaces is (still) strongly extensional.
+The topological properties of metric spaces fit well with those of sets with a tight apartness relation if you always work in this direction. For example, a set which is $d$-open will also be $\ne$-open, but not necessarily the other way around. Similarly, a (merely) [[continuous function]] between metric spaces is (still) strongly extensional.
 
 
 ### Relation to gauge spaces and uniform spaces
 
-In analysis, many spaces are given as [[gauge spaces]], that is by families of pseudometrics; these also become inequality spaces by declaring that $x \ne y$ iff $d(x,y) \gt 0$ for some pseudometric $d$ in the family. (This will actually be a *tight* apartness iff the family of pseudometrics is separating.)
+In analysis, many spaces are given as [[gauge spaces]], that is by families of pseudometrics; these also become sets with a tight apartness relation by declaring that $x \ne y$ iff $d(x,y) \gt 0$ for some pseudometric $d$ in the family. (This will actually be a *tight* apartness iff the family of pseudometrics is separating.)
 
-Classically, any [[uniform space]] may be given by a family of pseudometrics, but this doesn\'t hold constructively. In particular, a topological group may not be an inequality group (as in the next section).  However, we can generalize a bit beyond gauge spaces: any [[uniformly regular uniform space]] becomes an inequality space by declaring that $x \ne y$ iff there is an entourage $U$ with $(x,y)\notin U$.  (If the uniform space is not uniformly regular, the result is merely an [[inequality relation]], not an apartness.)
+Classically, any [[uniform space]] may be given by a family of pseudometrics, but this doesn\'t hold constructively. In particular, a topological group may not be an inequality group (as in the next section).  However, we can generalize a bit beyond gauge spaces: any [[uniformly regular uniform space]] becomes a set with a tight apartness relation by declaring that $x \ne y$ iff there is an entourage $U$ with $(x,y)\notin U$.  (If the uniform space is not uniformly regular, the result is merely an [[inequality relation]], not an apartness.)
 
 
 ### Relation to proximity spaces
@@ -158,7 +158,7 @@ The usual notion of apartness relation is then called a **mere apartness relatio
 
 * [[antisubalgebra]]
 
-* [[inequality space]]
+* [[tight apartness relation]]
 
 [[!include logic symbols -- table]]
 
