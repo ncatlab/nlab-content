@@ -71,6 +71,11 @@ One may interpret intuitionistic negation as 'denial' and paraconsistent negatio
 
 Accordingly, negation mediates [[de Morgan duality]] in classical and [[linear logic]] but not in intuitionistic or paraconsistent logic.
 
+### Antithesis interpretation
+
+In the [[antithesis interpretation]] of [[intuitionistic logic]], one considers, instead of single propositions, pairs of [[mutually exclusive propositions]], i.e. propositions $p$ and $q$ such that $\neg (p \wedge q)$. These are generalisations of the intuitionistic denial negation since we have by [[currying]] the statements $p \to \neg q$ and $q \to \neg p$. The intuitionistic negation is simply a special case of the above since we have the true statements $p \to \neg \neg p$ and $\neg p \to \neg p$ from the always true statement $\neg (p \wedge \neg p)$. 
+
+There is an [[affine logic|affine]] [[linear logic]] associated with mutually exclusive propositions where the affine negation of mutually exclusive propositions $p$ and $q$ is just $q$ and $p$ respectively. Thus, we can say that $q$ is the **negation** of $p$ and vice versa, for mutually exclusive propositions $p$ and $q$. This is very important for [[constructive mathematics]], where the terms "[[equal]]/[[not equal]]" and related concepts such as "[[rational number]]/[[irrational number]]" and "[[algebraic number]]/[[transcendental number]]" are usually defined using [[equality]]/[[tight apartness relation]] for objects such as the [[real numbers]] and the [[p-adic numbers]]. These terms only makes sense in this context if one is using the affine negation of the mutually exclusive propositions rather than intuitionistic denial negation. 
 
 ## In type theory syntax
 
@@ -111,11 +116,23 @@ This matches the [[intuitionistic mathematics|intuitionistic]] notion of negatio
 
 * H. Wansing, _Negation_ , pp.415-436 in Goble (ed.), _The Blackwell Guide to Philosophical Logic_ , Blackwell Oxford 2001.
 
+* {#Shulman2022} [[Michael Shulman]], *Affine logic for constructive mathematics*. Bulletin of Symbolic Logic, Volume 28, Issue 3, September 2022. pp. 327 - 386 ([doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28), [arXiv:1805.07518](https://arxiv.org/abs/1805.07518))
+
 
 [[!redirects negation]]
 [[!redirects negations]]
+
+[[!redirects denial negation]]
+[[!redirects denial negations]]
+
+[[!redirects intuitionistic negation]]
+[[!redirects intuitionistic negations]]
 
 [[!redirects not]]
 [[!redirects NOT]]
 
 [[!redirects linear negation]]
+[[!redirects linear negations]]
+
+[[!redirects affine negation]]
+[[!redirects affine negations]]
