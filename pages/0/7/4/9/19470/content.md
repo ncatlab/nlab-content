@@ -45,7 +45,7 @@ The restrictions of the free-standing adjunction, $Adj$, to the sub-2-categories
 
 * C. Auderset, _Adjonction et monade au niveau des 2-categories_, Cahiers de Top. et Géom. Diff. XV-1 (1974), 3-20. ([numdam](http://www.numdam.org/item/CTGDC_1974__15_1_3_0/))
 
-* [[John Baez]], _This Week's Finds in Mathematical Physics (Week 174)_, ([TWF174](http://www.math.ucr.edu/home/baez/week174.html))
+* [[John Baez]], _This Week's Finds in Mathematical Physics (Week 174)_, ([TWF174](http://math.ucr.edu/home/baez/week174.html))
 
 *  Kevin Coulembier, [[Ross Street]], Michel van den Bergh, _Freely adjoining monoidal duals_, arXiv:2004.09697 (2020).  ([abstract](https://arxiv.org/abs/2004.09697))
 
