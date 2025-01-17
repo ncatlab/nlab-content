@@ -93,7 +93,7 @@ This follows from the previous two theorems.
 
 * An irreflexive comparison that is also a [[connected relation]] (if $x \lt y$ is false and $y \lt x$ is false, then $x = y$) is a __connected irreflexive comparison__. 
 
-* If the set is an [[inequality space]], then an irreflexive comparison is __strongly connected__ if $x \neq y$ implies $x \lt y$ or $y \lt x$.
+* If the set has a [[tight apartness relation]] $\neq$, then an irreflexive comparison is __strongly connected__ if $x \neq y$ implies $x \lt y$ or $y \lt x$.
 
 ## Related concepts
 
