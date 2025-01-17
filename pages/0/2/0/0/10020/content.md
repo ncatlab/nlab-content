@@ -137,6 +137,8 @@ See also
 
 * Kiarash Naderi, *DDF operators in the Hybrid Formalism* &lbrack;[arXiv:2208.01617](https://arxiv.org/abs/2208.01617)&rbrack;
 
+* Soumangsu Chakraborty, [[Amit Giveon]], [[David Kutasov]]: *Effective $AdS_3/CFT_2$* \[<a href="https://arxiv.org/abs/2501.09119">arXiv:2501.09119</a>\]
+
 
 
 Relation of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]] of [[algebraic curves]]:
