@@ -45,13 +45,17 @@ There are also the [[analytic principles of omniscience]], which are versions of
 
 In addition, in [King 2024](#King24) there are more generalizations of the principles of omniscience listed above, which are equivalent to Bishop's principles of omniscience under the [[weak countable choice]] principle $\mathrm{AC}_{\mathbb{N}, 2}$. 
 
-There are also generalisations of the principles of omniscience involving [[inequality spaces]]:
+There are also generalisations of the [[principles of omniscience]] involving sets with tight apartness:
 
-* Every [[inequality space]] has [[decidable tight apartness]], which generalises [[LPO]] and [[analytic LPO]]. In the presence of [[function sets]], this is equivalent to [[excluded middle]]. 
+* Every set with tight apartness has [[decidable tight apartness]], which generalises [[LPO]] and [[analytic LPO]]
 
-* Every [[inequality space]] has [[decidable equality]], which generalises [[WLPO]] and [[analytic WLPO]]. In the presence of [[function sets]], this is equivalent to [[weak excluded middle]]. 
+* Every set with tight apartness has [[decidable equality]], which generalises [[WLPO]] and [[analytic WLPO]]
 
-* Every [[inequality space]] has [[stable relation|stable]] [[tight apartness]], which generalises [[Markov's principle]] and [[analytic Markov's principle]]. In the presence of [[function sets]], this is equivalent to the [[double negation law]]. 
+* Every set with tight apartness has [[stable relation|stable]] [[tight apartness]], which generalises [[Markov's principle]] and [[analytic Markov's principle]]
+
+The first one is equivalent to the [[category of sets]] being a [[boolean category]], since given a [[subsingleton]] $S$, that the function set $S \to \mathbb{2}$ from $S$ to the [[boolean domain]] $\mathbb{2}$ has decidable tight apartness is equivalent to $S$ being either a [[singleton]] or an [[empty set]], which is precisely the condition that [[Set]] is a boolean category. 
+
+The latter two are all still weaker than [[Set]] being a [[boolean category]] since in general, the [[set of truth values]] is only an set with tight apartness if and only if [[excluded middle]] holds. 
 
 ## References
 
