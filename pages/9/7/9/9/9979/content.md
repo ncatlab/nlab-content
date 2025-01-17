@@ -126,12 +126,3 @@ $$ \array {           &          & \neg(\neg(x = y) \wedge \neg(x \neq y)) \\
 [[!redirects decidable inequality structures]]
 [[!redirects decidable inequality relation]]
 [[!redirects decidable inequality relations]]
-
-[[!redirects inequality space]]
-[[!redirects inequality spaces]]
-
-[[!redirects axiom of inequality space]]
-[[!redirects axiom of inequality spaces]]
-
-[[!redirects category of inequality spaces]]
-[[!redirects categories of inequality spaces]]
