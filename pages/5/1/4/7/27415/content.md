@@ -1,4 +1,8 @@
 
+> For other notions of *mutually exclusive*, see [[mutual exclusivity]].
+
+----
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -32,10 +36,5 @@ In [[dependent type theory]] under the [[propositions as types]] interpretation,
 ## References
 
 * Wikipedia, *[Mutual exclusivity](https://en.wikipedia.org/wiki/Mutual_exclusivity)*
-
-[[!redirects mutual exclusivity]]
-[[!redirects mutual exclusion]]
-
-[[!redirects mutually exclusive]]
 
 [[!redirects mutually exclusive propositions]]
