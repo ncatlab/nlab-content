@@ -7,6 +7,10 @@
 
 Two [[propositions]] $P$ and $Q$ are said to be **mutually exclusive** or to have **mutual exclusivity** if $\neg (P \wedge Q)$ holds. 
 
+### In probability
+
+Two [[events]] $P$ and $Q$ on a [[probability space]] $A$ are said to be **mutually exclusive** or to have **mutual exclusivity** if $P \cap Q = \emptyset$. 
+
 ## Related concepts
 
 * [[type of mutually exclusive propositions]]
@@ -17,4 +21,5 @@ Two [[propositions]] $P$ and $Q$ are said to be **mutually exclusive** or to hav
 
 [[!redirects mutual exclusivity]]
 
+[[!redirects mutually exclusive]]
 [[!redirects mutually exclusive propositions]]
