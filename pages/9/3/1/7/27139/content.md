@@ -35,7 +35,7 @@ Since every proposition comes with an antithesis proposition in the antithesis i
 ## Affine logical operations
 {#AffineLogicalOperations}
 
-An affine proposition $P$ is interpreted as a pair $(P^+, P^-)$ of propositions in intuitionistic logic which are [[mutually exclusive]] in that $\neg (P^+ \wedge P^-)$ holds. As a result, the propositional affine logical operations are intuitionistically operations on the [[type]] 
+An affine proposition $P$ is interpreted as a pair $(P^+, P^-)$ of propositions in intuitionistic logic which are [[mutually exclusive propositions|mutually exclusive]] in that $\neg (P^+ \wedge P^-)$ holds. As a result, the propositional affine logical operations are intuitionistically operations on the [[type]] 
 $$\Omega_\pm = \sum_{P^+:\Omega} \sum_{P^-:\Omega} \neg (P^+ \wedge P^-)$$ 
 
 Similarly, an affine predicate $P$ on a type $A$ is interpreted as a pair $(P^+, P^-)$ of predicates on $A$ in intuitionistic logic which are pointwise mutually exclusive in that $\neg (P^+(x) \wedge P^-(x))$ holds for all $x:A$. This is equivalently a function $P:A \to \Omega_\pm$. 
