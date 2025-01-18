@@ -1,8 +1,10 @@
 Steve Vickers is a theoretical computer scientist based in Birmingham (U.K.).
 
-* [home page](http://www.cs.bham.ac.uk/~sjv/)
+* [personal page](https://sjvickers.github.io/)
 
 * [Wikipedia page](http://en.wikipedia.org/wiki/Steve_Vickers_%28computer_scientist%29)
+
+* [GoogleScholar page](https://scholar.google.co.uk/citations?user=jqy7AfYAAAAJ&hl=en)
 
 ## Writings
 
