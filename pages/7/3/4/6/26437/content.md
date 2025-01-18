@@ -3,7 +3,7 @@
 
 ## Selected publications
 
-* [[Mona Merling]], [[Ming Ng]], [[Julia Semikina]], [[Alba Sendón Blanco]], [[Lucas Williams]], *Scissors congruence K-theory for equivariant manifolds* ([arXiv:2501.06928](https://arxiv.org/abs/2501.06928))
+
 
 On [[point-free topology]]:
 
@@ -14,5 +14,9 @@ On [[point-free topology]]:
 * [[Ming Ng]], *Logical Berkovich Geometry: A Point-free Perspective* ([arXiv:2308.16472](https://arxiv.org/abs/2308.16472))
 
 * [[Ming Ng]], *Adelic Geometry via Topos Theory*, PhD thesis ([pdf](https://puzzledoyster.github.io/publications/FINALSUBMISSION.pdf))
+
+On [[scissors congruence]] via [[K-theory]]:
+
+* [[Mona Merling]], [[Ming Ng]], [[Julia Semikina]], [[Alba Sendón Blanco]], [[Lucas Williams]]: *Scissors congruence K-theory for equivariant manifolds* &lbrack;[arXiv:2501.06928](https://arxiv.org/abs/2501.06928)&rbrack;
 
 category: people
