@@ -26,10 +26,10 @@ This should be distinguished from barring the trivial object entirely.  Historic
 Examples include:
 
 *  [[one|1]] is not a [[prime number]].
-*  The [[trivial ring]] is not a [[field]] (or even an [[integral domain]]).
+*  The [[trivial ring]] is not a [[field]], or even an [[integral domain]] (although note that the notions of [[possibly trivial integral domain]] and [[possibly trivial field]] also exist).
 *  The [[trivial group]] is not a [[simple group]] (which is the trope-namer).
 *  A [[zero object]] is not a [[simple object]] (generalizing the previous example).
-*  The [[empty space]] is not a [[path-connected space]] (or even a [[connected space]]).
+*  The [[empty space]] is not a [[path-connected space]] or even a [[connected space]].
 *  The [[improper ideal]] is not a [[maximal ideal]] (or even a [[prime ideal]]).
 *  The [[improper filter]] is not an [[ultrafilter]].
 *  An [[empty function]] is not a [[constant function]].
