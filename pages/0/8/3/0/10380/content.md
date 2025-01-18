@@ -35,7 +35,6 @@ On [[arithmetic pretoposes]]:
 
 * {#Vickers17} [[Steve Vickers]], _Arithmetic universes and classifying toposes_ &lbrack;[arXiv:1701.04611](https://arxiv.org/abs/1701.04611)&rbrack;
 
-
 On [[geometric logic]] [[internal logic|internal to]] [[Grothendieck toposes]]:
 
 * [[Steven Vickers]], *Continuity and geometric logic*, Journal of Applied Logic Volume 12, Issue 1, March 2014, Pages 14-27 ([doi:10.1016/j.jal.2013.07.004](https://doi.org/10.1016/j.jal.2013.07.004))
