@@ -54,6 +54,13 @@ The Jacobson radical of a [[local ring]] is the set of non-invertible elements.
 
 =--
 
++-- {: .num_example #JacobsonRadicalOfTrivialRing}
+###### Example
+**(Jacobson radical of the [[trivial ring]])**
+
+The Jacobson radical of a [[trivial ring]] $R$ is the trivial ideal $0 R$.
+=--
+
 +-- {: .num_example #JacobsonRadicalOfLocalPrefieldRing}
 ###### Example
 **(Jacobson radical of local [[prefield ring]])**
