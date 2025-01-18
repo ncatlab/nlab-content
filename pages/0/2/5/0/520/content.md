@@ -64,7 +64,7 @@ See at _[[pointed object]]_ for more details.
 
 #### Pointed objects in the category of pointed sets
 
-The [[tensor unit]] of pointed sets is the [[boolean domain]] $\mathbb{2}$, and [[pointed object in a monoidal category|pointed objects]] in the category of pointed sets are pointed sets $A$ with a point-preserving function $\mathbb{2} \to A$. 
+The [[tensor unit]] of pointed sets is the [[boolean domain]] $\mathbb{2}$, and [[pointed object in a monoidal category|pointed objects]] in the category of pointed sets are [[bi-pointed sets]]. 
 
 #### Natural numbers object
 
