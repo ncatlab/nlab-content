@@ -31,6 +31,23 @@ Similarly, a [[pointed object]] in a category with [[initial object]] $\varnothi
 
 If $V$ has in addition binary [[coproducts]] then a bi-pointed object in $V$ is the same as a [[co-span]] from $\varnothing$  to the [[coproduct]] $pt \sqcup pt$.
 
+### In more general monoidal categories
+
+One can consider [[generalised elements]] out of an object $I$, where we do not require $I$ to be the [[terminal object]], a **bi-pointed object** is a [[co-span]] from $I$ to itself, i.e. a [[diagram]] of this form:
+
+$$
+  \array{
+    && S
+    \\
+    & {}^{\sigma_S}\nearrow && \nwarrow^{\tau_S}
+    \\
+    I &&&& I
+  }
+  \,.
+$$
+
+In many cases, $I$ would be a [[tensor unit]] of a [[monoidal category]], in which case the pointed objects are [[pointed objects in a monoidal category]]. 
+
 ## Examples
 
 * The [[subobject classifier]] $\Omega$ and the [[Sierpinski space]] $\mathbb{S}$ in the category of [[choice object|choice sets]] are bi-pointed objects. 
@@ -127,8 +144,10 @@ $.
 
 * [[bi-pointed type]]
 
+* [[bi-pointed set]]
+
+[[!redirects bipointed object]]
+[[!redirects bipointed objects]]
+
 [[!redirects bi-pointed object]]
 [[!redirects bi-pointed objects]]
-
-[[!redirects bi-pointed set]]
-[[!redirects bi-pointed sets]]
