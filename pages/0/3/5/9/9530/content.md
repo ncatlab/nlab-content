@@ -40,7 +40,7 @@ The notion of  _Tannakian category_ is an abstraction of the kind of data that e
 
 * [[Larry Breen]], _Tannakian categories_, in _Motives_, Proceedings of Symposia in Pure Mathematics, 55, Providence, R.I.: American Mathematical Society, 1994.  
 
-The relation to [[motives]] is disucssed in
+The relation to [[motives]] is discussed in
 
 * [[Pierre Deligne]], [[James Milne]]: *Tannakian categories*,  in: *Hodge Cycles, Motives, and Shimura Varieties*, Lecture Notes in Mathematics **900**, Springer (1982) &lbrack;[doi:10.1007/978-3-540-38955-2_4](https://doi.org/10.1007/978-3-540-38955-2_4), [webpage](http://www.jmilne.org/math/xnotes/tc.html)&rbrack;
 
