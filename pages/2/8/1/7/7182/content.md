@@ -49,7 +49,13 @@ Dupont explains the relations of dilogarithms, Reidemeister torsion, Dehn invari
 
 * J.-P. Sydler, _Conditions n&#233;cessaires et suffisantes pour l'&#233;quivalence des poly&#232;dres de l'espace euclidean &#224; trois dimensions_, Comment. Math. Helv. 40, 43-80, 1965. 
 
+See also:
+
 * Wikipedia, *[Hilbert's third problem](https://en.wikipedia.org/wiki/Hilbert%27s_third_problem)*
+
+Via [[K-theory]]:
+
+* [[Mona Merling]], [[Ming Ng]], [[Julia Semikina]], [[Alba Sendón Blanco]], [[Lucas Williams]]: *Scissors congruence K-theory for equivariant manifolds* &lbrack;[arXiv:2501.06928](https://arxiv.org/abs/2501.06928)&rbrack;
 
 
 ### Cut-and-paste of manifolds
