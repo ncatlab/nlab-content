@@ -91,6 +91,11 @@ In a [[topos]], the __negation__ of an object $A$ (a [[proposition]] under the [
 
 This matches the [[intuitionistic mathematics|intuitionistic]] notion of negation in that there is a [[natural transformation|natural morphism]] $A \to 0^{0^A}$ but not the other way around.
 
+## Negation as implying triviality of rings
+
+There are some mathematicians working in [[ring theory]] and [[algebra]], such as [Lombardi & Quitté 2010](#LombardiQuitté2010), who define negation for a [[proposition]] $P$ about a ring $R$ as $P$ implies that the ring $R$ is trivial $0 =_R 1$. The proposition $P \to (0 =_R 1)$ is the same as the usual negation $\neg P$ for a non-trivial commutative ring, but is always true for the [[trivial ring]]. Hence, this leads to the concepts of a [[possibly trivial integral domain]] and a [[possibly trivial field]], which the authors Lombardi & Quitté call simply an "integral domain" and a "field" respectively. 
+
+One can also extend this notion of negation from rings to other [[bi-pointed sets]] such as [[rigs]], [[lattices]], [[frames]], [[pointed abelian groups]], [[absorption monoids]], [[bounded total orders]], [[closed midpoint algebras]], [[scales]], and [[interval coalgebras]]. 
 
 ## Related entries
 
@@ -115,6 +120,8 @@ This matches the [[intuitionistic mathematics|intuitionistic]] notion of negatio
 * Y. Gauthier, _A Theory of Local Negation: The Model and some Applications_ , Arch. Math. Logik **25** (1985) pp.127-143. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/pdf/?PPN=GDZPPN002045923))
 
 * H. Wansing, _Negation_ , pp.415-436 in Goble (ed.), _The Blackwell Guide to Philosophical Logic_ , Blackwell Oxford 2001.
+
+* {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
 
 * {#Shulman2022} [[Michael Shulman]], *Affine logic for constructive mathematics*. Bulletin of Symbolic Logic, Volume 28, Issue 3, September 2022. pp. 327 - 386 ([doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28), [arXiv:1805.07518](https://arxiv.org/abs/1805.07518))
 
