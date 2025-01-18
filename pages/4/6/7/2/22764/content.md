@@ -82,4 +82,5 @@ $$\int_{0}^{1} f(x) \mathrm{d}x = \frac{\int_{0}^{1} f(\frac{0 + x}{2}) \mathrm{
 
 * [[Peter Freyd]], *Algebraic real analysis*, Theory and Applications of Categories, Vol. 20, 2008, No. 10, pp 215-306 ([tac:20-10](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
 
-
+[[!redirects closed midpoint algebra]]
+[[!redirects closed midpoint algebras]]
