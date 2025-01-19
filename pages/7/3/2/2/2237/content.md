@@ -123,7 +123,7 @@ Consider for definiteness $\Pi(X_0) := \Pi_\infty(X_0)$, the [[path ∞-groupoid
 
 Then for  $A$ some coefficient $\infty$-groupoid, a morphism $g : X_0 \to A$ can be thought of as classifying a $A$-[[principal ∞-bundle]] on the space $X_0$.
 
-On the other hand, a morphism out of $P_n(X_0)$ is something like a flat [[connection on a bundle|connection]] (see there for more details) on this principal $\infty$-bundle, also called an $A$-[[local system]]. (More details on this are at [[schreiber:differential cohomology]]).
+On the other hand, a morphism out of $P_n(X_0)$ is something like a flat [[connection on a bundle|connection]] (see there for more details) on this principal $\infty$-bundle, also called an $A$-[[local system]]. More details on this are at [[differential cohomology]].
 
 Accordingly, an extension of $g : X_0 \to A$ through the inclusion $X_0 \hookrightarrow \Pi(X)$ is the process of equipping a principal $\infty$-bundle with a flat connection.
 
