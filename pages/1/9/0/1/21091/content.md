@@ -10,6 +10,7 @@ Related nLab pages:
 * [[Markov category]]
 * [[category of couplings]]
 * [[partial evaluation]]
+* [[weighted category]]
 
 
 ### Introduction to category theory
