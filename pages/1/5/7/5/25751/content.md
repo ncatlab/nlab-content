@@ -20,19 +20,19 @@
 
 ## Idea
 
-The notion of **locally graded category** is a joint generalisation of [[enriched categories]], [[actegories]], and [[powered and copowered categories|powered categories]]. The idea is that we grade the morphisms of a category by a monoidal category $V$ in such a way that [[identity morphisms]] have grade labeled by the [[unit object]] $I$ and the [[composition|composite]] of morphisms is graded by the [[tensor product]] of the separate grades.
+The notion of **locally graded category** is a joint generalisation of [[enriched categories]], [[actegories]], and [[powered and copowered categories|powered categories]]. The idea is that we grade the [[morphisms]] of a category by a [[monoidal category]] $V$ in such a way that [[identity morphisms]] have grade labeled by the [[unit object]] $I$ and the [[composition|composite]] of morphisms is graded by the [[tensor product]] of the separate grades.
 
 ## Definition
 
-Let $(V, \otimes, I)$ be a [[monoidal category]]. For small $V$, a **locally $V$-graded category** is a [[enriched category|category enriched]] over the [[presheaf category]] $([V^{op}, Set], \widehat\otimes, y_V)$, regarded with its monoidal structure given by [[Day convolution]].
+Let $(V, \otimes, I)$ be a [[monoidal category]]. For small $V$, a **locally $V$-graded category** is a [[enriched category|category enriched]] over the [[presheaf category]] $([V^{op}, Set], \widehat\otimes, y_V)$, regarded with its [[monoidal category|monoidal]] [[structure]] given by [[Day convolution]].
 
 Explicitly, a locally $V$-graded category $C$ comprises:
 
-- a class $|C|$ of objects
-- for all $v \in V$ and $c, c' \in |C|$, a set $C_v(c, c')$ of $v$-graded morphisms
+- a [[class]] $|C|$ of [[objects]]
+- for all $v \in V$ and $c, c' \in |C|$, a [[set]] $C_v(c, c')$ of $v$-graded morphisms
 - for every $v$-graded morphism $f : c \to c'$ and $p : v' \to v$, a $v'$-graded morphism $p^* f : c \to c'$
-- a $I$-graded identity morphism $1_c$ for each object $c \in |C|$
-- a $v \otimes v'$-graded composite morphism $g f : c \to c''$ for each $v$-graded morphism $f : c \to c'$ and $v'$-graded morphism $g : c' \to c''$
+- a $I$-graded [[identity morphism]] $1_c$ for each object $c \in |C|$
+- a $v \otimes v'$-graded composite morphism $g f \colon c \to c''$ for each $v$-graded morphism $f \colon c \to c'$ and $v'$-graded morphism $g \colon c' \to c''$
 
 satisfying evident laws.
 
