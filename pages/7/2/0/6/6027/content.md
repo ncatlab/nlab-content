@@ -41,7 +41,7 @@ where $c'(t)$ is the [[tangent vector]], and $|c'(t)|$ its length, given in term
 
 ## Length and geodesic spaces
 
-In many situations, both in geometry and in ordinary life, _the distance is the length of the shortest possible path_ between two points.
+In many situations, both in geometry and in ordinary life, _the distance between two points is the length of the shortest possible path between them_.
 Here is how one can make this mathematically precise:
 
 * A metric space $(X,d)$ is called a **length space** if and only if for all $x,y\in X$, 
@@ -49,7 +49,7 @@ $$
 d(x,y) \;=\; \inf_{c:[0,1]\to X} |c| ,
 $$
 where the infimum is taken over all continuous [[curves]] $c:[0,1]\to X$. Note that the equality above may fail in general, take for example the metric on the circle induced by its embedding into the plane. (The inequality $\le$ always holds.)
-* $(X,d)$ is moreover called a **geodesic space** if the infimum is attained (and a curve at which it is attained is called a [[geodesic]]). 
+* $(X,d)$ is moreover called a **geodesic space** if the infimum above is always attained (and a curve at which it is attained is called a [[geodesic]]). 
 
 
 ## Related concepts
