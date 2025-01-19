@@ -29,7 +29,7 @@ Depending on the author, the precise definitions vary slightly, see below as wel
 
 ## Definition
 
-A **weighted category** or **normed category** is a [[category]], where to each [[morphism]] $f:A\to B$ we assign a non-negative [[real number]] $w(f)$ called the **weight** or **norm**, such that
+A **weighted category** or **normed category** is a [[category]], where to each [[morphism]] $f:A\to B$ we assign a non-negative [[real number]] (or possibly infinite) $w(f)$ called the **weight** or **norm**, such that
 
 * For all [[identity morphisms]], $w(id_X)=0$;
 * for all [[composition|composite morphisms]], the following [[triangle inequality]] holds:
