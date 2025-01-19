@@ -20,9 +20,9 @@
 
 A _weighted category_ or _normed category_ can be viewed as:
 
-* A [[category]] where each morphism has a [[number]] (for example a "cost" or "length"), and [[composition]] comes with a [[triangle inequality]]; 
+* A [[category]] where each [[morphism]] has a [[number]] (for example a "cost" or "length"), and [[composition]] comes with a [[triangle inequality]]; 
 * A structure which is to a [[category]] as a [[metric space#LawvereMetricSpace|Lawvere metric space]] is to a [[preorder]];
-* Like a [[weighted graph]] or [[multigraph]], but equipped with identity and composition (and a triangle inequality);
+* Like a [[weighted graph]] or [[multigraph]], but equipped with [[identity]] and [[composition]] (and a [[triangle inequality]]);
 * Like a [[metric space]] or [[metric space#LawvereMetricSpace|Lawvere metric space]], but with many arrows or "paths with length" between any two objects.
 
 Depending on the author, the precise definitions vary slightly, see below as well as the [references](#references).
