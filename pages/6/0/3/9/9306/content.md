@@ -139,6 +139,11 @@ Hence we may call this the operaton of **[[Lie differentiation]]** of spaces in 
 
 * {#CalaqueGrivaux18} Damien Calaque, Julien Grivaux, _Formal moduli problems and formal derived stacks_ ([arXiv:1802.09556](https://arxiv.org/abs/1802.09556))
 
+* Arjen Baarsma: *Deformation problems and $L_\infty$-algebras of Fréchet type*, PhD thesis, Utrecht University (2019) &lbrack;[dspace:1874/386311](https://dspace.library.uu.nl/handle/1874/386311), [pdf](https://webspace.science.uu.nl/~caval101/homepage/Students_files/BaarsmaPhD.pdf)&rbrack;
+
+* Brice Le Grignou, Victor Roca i Lucio: *A new approach to formal moduli problems* &lbrack;[arXiv:2306.07227](https://arxiv.org/abs/2306.07227)&rbrack;
+
+
 The correspondence between formal moduli problems and [[dg-Lie algebras]] is extended to [[positive characteristic]] in
 
 * {#BrantnerMathew19} [[Lukas Brantner]], [[Akhil Mathew]], _Deformation Theory and Partition Lie Algebras_, arXiv:[1904.07352](https://arxiv.org/abs/1904.07352)
