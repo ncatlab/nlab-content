@@ -59,7 +59,7 @@ In the language of [[probability theory]], we are taking the [[expectation value
 A very similar construction can be given by replacing $\mathbb{R}$ with a generic Banach space, using [[Bochner integrals]]. 
 
 
-### For probability measures
+### Mixtures of probability measures
 
 Given measurable spaces $X$ and $Y$, we can consider the space of probability measures $P Y$ on $Y$, and equip it with its canonical [[sigma-algebra]] (see [[Giry monad]]). 
 This way, a measurable function $f:X\to P Y$ is equivalently a [[Markov kernel]] $k_f:X\to Y$. 
