@@ -83,10 +83,12 @@ The LPO for natural numbers is equivalent to the [[boolean domain]] $\mathbb{2}$
 \end{theorem}
 
 \begin{proof}
-...
+By definition of initial $\sigma$-frame, there is at most one $\sigma$-frame homomorphism from the [[boolean domain]] $\mathbb{2}$ to the initial $\sigma$-frame $\Sigma$, which is given by the unique [[lattice]] homomorphism from $\mathbb{2}$ to $\Sigma$ since $\mathbb{2}$ is the initial [[distributive lattice]]. 
+
+The LPO for natural numbers is equivalent to the condition that $\mathbb{2}$ has $\mathbb{N}$-indexed joins such that for all sequences $s:\mathbb{N} \to \mathbb{2}$, $\bigvee_{n \in \mathbb{N}} s(n) = 1$ implies that there exists an $n \in \mathbb{N}$ such that $s(n) = 1$. This is only the case if the lattice homomorphism from $\mathbb{2}$ to $\Sigma$ is a $\sigma$-frame homomorphism. 
 \end{proof}
 
-Thus, one can use the decidable Dedekind cuts $\mathbb{Q}^\mathbb{2} \times \mathbb{Q}^\mathbb{2}$ to construct the Dedekind real numbers, since $\Sigma \cong \mathbb{2}$ is the initial $\sigma$-frame. 
+Thus, one can use the decidable Dedekind cuts $\mathbb{2}^\mathbb{Q} \times \mathbb{2}^\mathbb{Q}$ to construct the Dedekind real numbers, since $\Sigma \cong \mathbb{2}$ is the initial $\sigma$-frame. 
 
 \begin{theorem}
 The LPO for natural numbers implies the analytic LPO for subset of Dedekind real numbers $\mathrm{R}_\Sigma \subseteq \mathbb{R}_D$ constructed out of Dedekind cuts in valued in the initial $\sigma$-frame $\Sigma \subseteq \Omega$.
