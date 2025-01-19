@@ -67,6 +67,8 @@ A function from $D \subseteq \mathbb{C}$ to $W$ is [[differentiable function|dif
 
 * [[analytic (∞,1)-functor]]
 
+* [[Fabius function]]
+
 * [[HoTT book real numbers]]
 
 ## References
