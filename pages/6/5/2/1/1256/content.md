@@ -59,9 +59,11 @@ $$x + y = 1 \vdash (\exists z.x \cdot z = 1) \vee (\exists z.y \cdot z = 1)$$
 
 * The theory of a [[total order]] is coherent, though also not algebraic. The theory of a [[partial order]] is [[essentially algebraic theory|essentially algebraic]], but the totality axiom $\vdash_{x,y} (x\le y) \vee (y\le x)$ is coherent but not essentially algebraic.
 
-* The theory of a [[strict total order]] is not coherent if we use the "connectedness" axiom $(x\nless y), (y\nless x) \vdash (x=y)$, which is not coherent since negation is not allowed in coherent formulas. We can express one outer negation, however, as in the irreflexivity axiom $(x\lt x)\vdash \bot$. In [[classical mathematics]], there is another solution, to use the "[[trichotomy]]" axiom $\top \vdash (x=y) \vee (x\lt y) \vee (y\lt x)$ instead, in order to get an axiomatisation of "coherent" strict total orders. However, in [[constructive mathematics]], strict total orders are in general not trichotomous, so this solution cannot be used. 
+* The theory of a [[strict weak order]] is coherent. The irreflexivity axiom is expressed as $(x\lt x)\vdash \bot$, the asymmetry axiom is expressed as $(x \lt y) \wedge (y \lt x) \vdash \bot$, and the comparison axiom is expressed as $(x \lt z) \vdash \exists y.(x \lt y) \vee (y \lt z)$. 
 
-* The theory of a [[strict weak order]] is coherent, since it doesn't have the connectedness axiom that [[strict total orders]] do. The irreflexivity axiom is expressed as $(x\lt x)\vdash \bot$, and the asymmetry axiom is expressed as $(x \lt y) \wedge (y \lt x) \vdash \bot$. 
+* However, the theory of a [[pseudo-order]] is not coherent since it uses the connectedness axiom $\neg (x \lt y), \neg (y \lt x) \vdash (x=y)$, which is not coherent since negation is not allowed in coherent formulas. 
+
+* The theory of a [[strict total order]] is coherent since it is a strict weak order that also satisfies [[trichotomy]] $\top \vdash (x=y) \vee (x\lt y) \vee (y\lt x)$. 
 
 * Since the theory of a [[local ring]] and a [[strict weak order]] is coherent, this means that the theory of an [[ordered local ring]] is also coherent, where we have 
 $$(x \lt y) \vee (y \lt x) \vdash \exists z.y \cdot z = 1 + x \cdot z$$ 
