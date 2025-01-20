@@ -46,6 +46,10 @@ Discussion in a context of [[algebraic quantum field theory|algebraic]] [[non-pe
 
 * [[Franco Strocchi]], §8 of: _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
 
+See also:
+
+* Wei-Yang Liu: *Generic framework for non-perturbative QCD in light hadrons* &lbrack;[arXiv:2501.07776](https://arxiv.org/abs/2501.07776)&rbrack;
+
 
 [[!redirects theta vacua]]
 
