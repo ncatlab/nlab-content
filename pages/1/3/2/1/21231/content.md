@@ -517,6 +517,11 @@ This happens to coincide with the critical field strength of the [[DBI-action]],
 It has been argued that in terms of [[intersecting D-brane models]] the Schwinger effect is what is reflected by the non-linearities in the [[DBI-action]] on probe branes in [[AdS/CFT]] ([Semenoff-Zarembo 11](#SemenoffZarembo11)) and on [[flavor branes]] in [[holographic QCD]] ([Hashimoto-Oka 13](#HashimotoOka13), [Hashimoto-Oka-Sonoda 14a](#HashimotoOkaSonoda14a), [Hashimoto-Oka-Sonoda 14b](#HashimotoOkaSonoda14b)). This is now referred to as the _holographic Schwinger effect_.
 
 
+## Related concepts
+
+* [[Unruh effect]]
+
+
 ## References
 
 ### In quantum electrodynamics
