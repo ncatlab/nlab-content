@@ -136,6 +136,10 @@ Via [[celestial holography]]:
 
 * Igor Mol: *Partial Differential Equations for MHV Celestial Amplitudes in Liouville Theory* &lbrack;[arXiv:2409.05936](https://arxiv.org/abs/2409.05936)&rbrack;
 
+In the context of [[D=2 quantum gravity]]:
+
+* Scott Collier, [[Lorenz Eberhardt]], Beatrix Mühlmann: *The complex Liouville string: the gravitational path integral* &lbrack;[arXiv:2501.10265](https://arxiv.org/abs/2501.10265)&rbrack;
+
 
 
 category: physics
