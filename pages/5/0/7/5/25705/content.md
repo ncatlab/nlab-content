@@ -56,6 +56,8 @@ Assuming the [[limited principle of omniscience]], the [[boolean domain]] is the
 
 * [[first countable space]]
 
+* [[sober sigma-topological space]]
+
 ## References
 
 * Fedor Petrov, *"countable" topology*, MathOverflow (2014) &lbrack;[MO:q/173255](https://mathoverflow.net/q/173255/381)&rbrack;
@@ -68,11 +70,23 @@ Assuming the [[limited principle of omniscience]], the [[boolean domain]] is the
 [[!redirects sigma-topology]]
 [[!redirects sigma-topologies]]
 
+[[!redirects σ-topology]]
+[[!redirects σ-topologies]]
+
 [[!redirects sigma-topological space]]
 [[!redirects sigma-topological spaces]]
+
+[[!redirects σ-topological space]]
+[[!redirects σ-topological spaces]]
 
 [[!redirects admissible sigma-topology]]
 [[!redirects admissible sigma-topologies]]
 
+[[!redirects admissible σ-topology]]
+[[!redirects admissible σ-topologies]]
+
 [[!redirects admissible sigma-topological space]]
 [[!redirects admissible sigma-topological spaces]]
+
+[[!redirects admissible σ-topological space]]
+[[!redirects admissible σ-topological spaces]]
