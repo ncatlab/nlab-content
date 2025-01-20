@@ -22,11 +22,14 @@
 
 ## Related entries
 
+* [[Unruh effect]]
+
 * [[black hole]]
 
 * [[black hole information paradox]]
 
 * [[black hole thermodynamics]]
+
 
 ## References
 
