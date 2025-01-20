@@ -77,6 +77,8 @@ In particular, [[Stone locales]], [[Stonean locales]], and [[hyperstonean locale
 
 * [[topos]]
 
+* [[spatial sigma-locale]]
+
 ## References
 
 * [[Jorge Picado]], [[Aleš Pultr]], _[[Frames and Locales]].  Topology without points_, Frontiers in Mathematics, Birkhäuser (2012).
