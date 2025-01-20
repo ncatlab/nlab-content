@@ -344,7 +344,10 @@ London was a turning point $[$...$]$ Ellis' catalog well reflected the state  of
 
 * [[Tom Kibble]], _The Standard Model of Particle Physics_ ([arXiv:1412.4094](http://arxiv.org/abs/1412.4094))
 
-* {#Iliopoulos16} [[John Iliopoulos]], _The making of the standard theory_, Adv.Ser.Direct.High Energy Phys. 26 (2016) 29-59 ([spire:1497884](http://inspirehep.net/record/1497884), [pdf](http://cds.cern.ch/record/2217096/files/9789814733519_0002.pdf))
+* {#Iliopoulos16} [[John Iliopoulos]]: _The making of the standard theory_, Adv. Ser. Direct. High Energy Phys. **26** (2016) 29-59 &lbrack;[spire:1497884](http://inspirehep.net/record/1497884), [pdf](http://cds.cern.ch/record/2217096/files/9789814733519_0002.pdf)&rbrack;
+
+* [[John Iliopoulos]]: *From Many Models to ONE THEORY* &lbrack;[arXiv:2501.10233](https://arxiv.org/abs/2501.10233)&rbrack;
+
 
 
 
