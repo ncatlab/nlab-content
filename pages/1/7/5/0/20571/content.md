@@ -1,5 +1,10 @@
 
-* [webpage](https://itp.phys.ethz.ch/people/person-detail.html?persid=191164)
+* [insitute page](https://www.uva.nl/en/profile/e/b/l.eberhardt/l.eberhardt.html?cb)
+
+* [inSpire page](https://inspirehep.net/authors/1516838)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=eL5X9zMAAAAJ&hl=en)
+
 
 ## Selected writings
 
@@ -28,6 +33,10 @@ On the [[Wess-Zumino-Witten model]]:
 On 3-dimensional ([[quantum gravity|quantum]]) [[gravity]] ([[general relativity]]) with [[cosmological constant]], and its (non-)relation to [[Chern-Simons theory]] with non-[[compact Lie group|compact]] [[gauge groups]]:
 
 * [[Scott Collier]], [[Lorenz Eberhardt]], [[Mengyang Zhang]], *3d gravity and Chern-Simons theory -- references* &lbrack;[arXiv:2304.13650](https://arxiv.org/abs/2304.13650)&rbrack;
+
+On [[D=2 quantum gravity]] via [[Liouville theory]]:
+
+* Scott Collier, [[Lorenz Eberhardt]], Beatrix Mühlmann: *The complex Liouville string: the gravitational path integral* &lbrack;[arXiv:2501.10265](https://arxiv.org/abs/2501.10265)&rbrack;
 
 
 
