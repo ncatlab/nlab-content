@@ -23,6 +23,11 @@ Via [[matrix models]]:
 
 * Astrid Eichhorn, Tim Koslowski: *Continuum limit in matrix models for quantum gravity from the Functional Renormalization Group*, Phys. Rev. D **88** (2013) 084016 &lbrack;[arXiv:1309.1690](https://arxiv.org/abs/1309.1690), [doi:10.1103/PhysRevD.88.084016](https://doi.org/10.1103/PhysRevD.88.084016)&rbrack;
 
+Via [[Liouville theory]]:
+
+* Scott Collier, [[Lorenz Eberhardt]], Beatrix Mühlmann: *The complex Liouville string: the gravitational path integral* &lbrack;[arXiv:2501.10265](https://arxiv.org/abs/2501.10265)&rbrack;
+
+
 
 [[!redirects 2d quantum gravity]]
 [[!redirects 2-dimensional quantum gravity]]
