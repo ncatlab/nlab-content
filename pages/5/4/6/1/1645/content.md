@@ -272,9 +272,12 @@ Math. Phys. 60 (1984) 770.
 
 * [[Roberto Percacci]], section 6 of: *Non-Perturbative Quantum Field Theory -- An Introduction to Topological and Semiclassical Methods*, SISSA & ICTP (2024) &lbrack;[doi:10.22323/9788898587056](https://doi.org/10.22323/9788898587056), [pdf](https://library.oapen.org/bitstream/handle/20.500.12657/96025/9788898587056.pdf)&rbrack;
 
-
-
 * [[Mikio Nakahara]], Chapter 13 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
+
+* [[Loriano Bonora]]: *Fermions and Anomalies in Quantum Field Theories*, Springer (2023) &lbrack;[doi:10.1007/978-3-031-21928-3](https://doi.org/10.1007/978-3-031-21928-3)&rbrack;
+
+* [[Loriano Bonora]], Stefano G. Giaccari: *Something Anomalies can tell about SM and Gravity* &lbrack;[arXiv:2412.07470](https://arxiv.org/abs/2412.07470)&rbrack;
+
 
 
 #### In BV-BRST formulation
