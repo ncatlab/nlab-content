@@ -137,6 +137,11 @@ Relation to [[2d CFT]]:
 
 * [[Marco Benini]], [[Luca Giorgetti]], [[Alexander Schenkel]], *A skeletal model for 2d conformal AQFTs* ([arXiv:2111.01837](https://arxiv.org/abs/2111.01837))
 
+On [[QFT on curved spacetimes]] in view of the [[Schwinger effect]], [[Unruh effect]] and [[Hawking radiation]]:
+
+* Tomohiro Matsuda: *Quantum field theory on curved manifolds* &lbrack;[arXiv:2501.09919](https://arxiv.org/abs/2501.09919)&rbrack;
+
+
 
 [[!redirects AQFT on curved spacetime]]
 
