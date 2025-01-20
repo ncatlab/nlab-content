@@ -20,8 +20,7 @@ On the history of the [[standard model of particle physics]]:
 
 * {#Iliopoulos16} [[John Iliopoulos]]: _The making of the standard theory_, Adv. Ser. Direct. High Energy Phys. **26** (2016) 29-59 &lbrack;[spire:1497884](http://inspirehep.net/record/1497884), [pdf](http://cds.cern.ch/record/2217096/files/9789814733519_0002.pdf)&rbrack;
 
-* [[John Iliopoulos]]: *From Many Models to ONE THEORY* &lbrack;[arXiv:2501.10233](https://arxiv.org/abs/2501.10233)&rbrack;
-
+* [[John Iliopoulos]]: *From Many Models to ONE THEORY*, talk at Plectics Labs Perspectives In Theoretical Physics Series (July 2024)  &lbrack;[arXiv:2501.10233](https://arxiv.org/abs/2501.10233), video:[YT](https://youtu.be/ECUBXySE0pI)&rbrack;
 
 
 On [[non-commutative geometry]] in [[D-brane]] physics and [[Connes-Lott-Chamseddine-Barrett models]]:
@@ -34,7 +33,7 @@ On [[non-commutative geometry]] in [[D-brane]] physics and [[Connes-Lott-Chamsed
   
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[gauge theory]]
 
