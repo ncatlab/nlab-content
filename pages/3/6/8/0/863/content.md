@@ -13,15 +13,15 @@
 
 ## Idea
 
-A *pseudo-order* or *strict total order* or *strict linear order* is the irreflexive version of a [[total order]]. This is sometimes called *linear order*, but [[linear order]] is also used to refer to the non-strict [[total order]]. 
+A *pseudo-order* is the irreflexive version of a [[total order]]. This is sometimes called *linear order*, but [[linear order]] is also used to refer to [[strict total orders]] or to [[total orders]]; hence this is distinguished by the use of *weak linear order* instead. 
 
-A **pseudo-ordered set** or **strictly totally ordered set** is a [[set]] equipped with a pseudo-order.
+A **pseudo-ordered set** or **weakly linearly ordered set** is a [[set]] equipped with a pseudo-order.
 
-In [[classical mathematics]], the distinction between strict total orders and total orders is merely a terminological technicality, which is not always observed; more precisely, there is a [[natural isomorphism|natural bijection]] between the set of total orders on a given set $S$ and the set of strict total orders on $S$, and one distinguishes them by the notation $\lt$ (for the strict total orders) and $\leq$ (for the total order).  In [[constructive mathematics]], however, they are irreducibly different.
+In [[classical mathematics]], the distinction between pseudo-orders and total orders is merely a terminological technicality, which is not always observed; more precisely, there is a [[natural isomorphism|natural bijection]] between the set of total orders on a given set $S$ and the set of pseudo-orders on $S$, and one distinguishes them by the notation $\lt$ (for the pseudo-orders) and $\leq$ (for the total order).  In [[constructive mathematics]], however, they are irreducibly different.
 
 ## Definitions
 
-A **pseudo-order** or **strict total order** on a set $S$ is a (binary) [[relation]] $\lt$ with the following properties:
+A **pseudo-order** or **weak linear order** on a set $S$ is a (binary) [[relation]] $\lt$ with the following properties:
 
 * [[irreflexive relation|irreflexivity]]: $x \nless x$;
 * [[asymmetric relation|asymmetry]]: if $x \lt y$, then $y \nless x$;
@@ -46,7 +46,7 @@ Thus, the connectedness axiom can be expressed using exclusive disjunction:
 
 * if not ($x \lt y$ [[xor]] $y \lt x$), then $x = y$.
 
-In classical mathematics, there are even more options.  Now one can prove [[trichotomy]]: since the proposition $x \lt y \underline{\vee} y \lt x$ is a [[decidable proposition]], ($x \lt y$ [[xor]] $y \lt x$) [[xor]] $x = y$. Also, weak linearity can be dropped, as it follows from transitivity and connectedness.
+In classical mathematics, there are even more options. Now one can prove that it is a [[strict total order]], since $x \lt y$ is a [[decidable proposition]]. As a result, the proposition $x \lt y \underline{\vee} y \lt x$ is also a [[decidable proposition]] due to asymmetry, which by connectedness implies ($x \lt y$ [[xor]] $y \lt x$) [[xor]] $x = y$. Also, weak linearity can be dropped, as it follows from transitivity and connectedness.
 
 Thus the most common definition uses only trichotomy and transitivity.
 
@@ -57,69 +57,34 @@ One can also interpret connectedness not as an axiom but as a definition of [[eq
 Classically, any [[total order]] defines an example of a pseudo-order (as explained below), and this also holds constructively in [[discrete mathematics]].  Since most pseudo-orders in these cases are usually described in terms of their total orders, the focus here is on [[constructive analysis]].  (The first item, however, is an exception.)
 
 * A [[lexicographic order]], even in a classical or discrete context, is more easily described as a pseudo-order than as a total order.
-* The big example in analysis is the field of [[real numbers]].  Both the Dedekind reals and the Cauchy reals (even if [[weak countable choice]] fails so these are not equivalent) have a pseudo-order $\lt$ that extends the (decidable) pseudo-order on the rational numbers.  Since the corresponding partial order $\leq$ cannot be proved total (and in some classically invalid versions of constructive mathematics can even be proved not total), $\lt$ is more directly useful than $\leq$ in constructive analysis.  In any case, $\lt$ is more fundamental, since $\leq$ can be defined in terms of $\lt$ but not the other way around. (The Mac Neille real numbers have both $\lt$ and $\leq$; however, in this case, neither is necessarily a pseudo-order or a total order, nor can they necessarily be defined in terms of one another.)
-* [[Baire space of irrational numbers|Baire space]] and [[Cantor space]], being representable as subspaces of the real line, of course are strictly totally ordered.  It\'s also interesting to see them as coming from the (decidable) pseudo-orders on $\mathbf{N}$ and $\mathbf{2}$, which they are $\mathbf{N}$-fold products of.
+* Every [[strict linear order]] is a [[decidable relation|decidable]] [[pseudo-order]]. 
+* The big example in analysis is the field of [[real numbers]].  Both the Dedekind reals and the Cauchy reals (even if [[weak countable choice]] fails so these are not equivalent) have a pseudo-order $\lt$ that extends the [[decidable pseudo-order]] on the rational numbers.  Since the corresponding partial order $\leq$ cannot be proved total (and in some classically invalid versions of constructive mathematics can even be proved not total), $\lt$ is more directly useful than $\leq$ in constructive analysis.  In any case, $\lt$ is more fundamental, since $\leq$ can be defined in terms of $\lt$ but not the other way around. (The Mac Neille real numbers have both $\lt$ and $\leq$; however, in this case, neither is necessarily a pseudo-order or a total order, nor can they necessarily be defined in terms of one another.)
+* [[Baire space of irrational numbers|Baire space]] and [[Cantor space]], being representable as subspaces of the real line, of course are pseudo-ordered. It\'s also interesting to see them as coming from the (decidable) pseudo-orders on $\mathbf{N}$ and $\mathbf{2}$, which they are $\mathbf{N}$-fold products of.
 
 ## Properties
 
 ### Relation to total orders
 
-Using excluded middle, one can move between strict linear orders and [[total order]]s using [[negation]]; that is, the negation of a strict linear order is a total order and vice versa.  Actually one usually swaps the order too, as follows:
+Using excluded middle, one can move between pseudo-orders and [[total order]]s using [[negation]]; that is, the negation of a pseudo-order is a total order and vice versa.  Actually one usually swaps the order too, as follows:
 
 * $x \lt y$ iff $y \nleq x$;
 * $x \leq y$ iff $y \nless x$.
 
-To prove this, it\'s enough to see that the properties of a strict linear order are [[de Morgan duality|dual]] to the properties of a total order, as follows:
+To prove this, it\'s enough to see that the properties of a pseudo-order are [[de Morgan duality|dual]] to the properties of a total order, as follows:
 
-| strict linear order  |   | total order    |
-| -------------------- | - | -------------- |
-| irreflexivity        |   | reflexivity    |
-| asymmetry            |   | totality       |
-| transitivity         |   | weak linearity |
-| weak linearity       |   | transitivity   |
-| connectedness        |   | antisymmetry   |
+| pseudo-order   |   | total order    |
+| -------------- | - | -------------- |
+| irreflexivity  |   | reflexivity    |
+| asymmetry      |   | totality       |
+| transitivity   |   | weak linearity |
+| weak linearity |   | transitivity   |
+| connectedness  |   | antisymmetry   |
 
-Constructively, these are still the default definitions to use; that is, if one is given a strict linear order or a total order and wants to interpret the other symbol, then one does so using these definitions.  However, the result will not necessarily be a total order or a strict linear order.  To be specific, if one starts with a strict linear order $\lt$ and defines $\leq$ as above, then totality does not follow; and if one starts with a total order $\leq$ and defines $\lt$ as above, then weak linearity does not follow.  Nevertheless, at least $\leq$ will be a [[partial order]], and least $\lt$ will be a [[strict preorder]].  Furthermore, the duality between the axioms is still there, even though negation no longer mediates between them; although weak linearity need not hold for a total order constructively, the duality is preserved if one defines strict linear orders without using transitivity.
+Constructively, these are still the default definitions to use; that is, if one is given a pseudo-order or a total order and wants to interpret the other symbol, then one does so using these definitions.  However, the result will not necessarily be a total order or a pseudo-order. To be specific, if one starts with a pseudo-order $\lt$ and defines $\leq$ as above, then totality does not follow; and if one starts with a total order $\leq$ and defines $\lt$ as above, then weak linearity does not follow.  Nevertheless, at least $\leq$ will be a [[partial order]], and least $\lt$ will be a [[strict preorder]].  Furthermore, the duality between the axioms is still there, even though negation no longer mediates between them; although weak linearity need not hold for a total order constructively, the duality is preserved if one defines pseudo-orders without using transitivity.
 
 One often sees $x \lt y$ defined as $x \le y$ but $x \ne y$; this is equivalent, but doesn\'t show the de Morgan duality explicitly.  Similarly, one often sees $x \leq y$ defined as $x \lt y$ or $x = y$; this is not even equivalent constructively, although it is classically.
 
-Keep in mind, however, that the only use of [[excluded middle]] in the classical theory is the assumption that $x = y$, $x \lt y$, and $x \leq y$ are always either true or false.  There is therefore a perfect correspondence between [[decidable subset|decidable]] strict linear orders and decidable total orders on sets with [[decidable equality]].
-
-### Decidable pseudo-orders
-
-A pseudo-order on a set $A$ is [[decidable relation|decidable]] if for all $x$ and $y$ in $A$, $x \lt y$ or $\neg (x \lt y)$. 
-
-Given a proposition $P$, $P$ can be made into a [[subsingleton]] [[set]] by considering the subset $\{\top \vert P\} \coloneqq \{p \in \{\top\} \vert (p = \top) \wedge P\}$ of the [[singleton]] $\{\top\}$. Let $A \uplus B$ denote the [[disjoint union]] of sets $A$ and $B$, and let $B^A$ denote the function set with domain $A$ and codomain $B$.  
-
-\begin{theorem}
-Every decidable pseudo-order on a set $A$ is [[purely cotransitive]]: Given elements $x$, $y$, and $z$ in $A$, one can construct an element of the function set
-
-$$\mathrm{cotransitive}(x, y, z) \in \left(\{\top \vert x \lt y\} \uplus \{\top \vert y \lt z\}\right)^{\{\top \vert x \lt z\}}$$
-\end{theorem}
-
-\begin{proof}
-We prove this by case analysis. 
-
-Suppose that $x \lt y$. Then one can construct the element $\top \in \{\top \vert x \lt y\}$ and by definition of [[disjoint union]] an element $(0, \top) \in \{\top \vert x \lt y\} \uplus \{\top \vert y \lt z\}$. $\mathrm{cotransitive}(x, y, z)$ is given by the constant function $t \mapsto (0, \top)$. 
-
-Now suppose that $\neg (x \lt y)$. This means that $y \leq x \lt z$, and one can construct the element $\top \in \{\top \vert y \lt z\}$. By definition of [[disjoint union]] one can construct an element $(1, \top) \in \{\top \vert x \lt y\} \uplus \{\top \vert y \lt z\}$. $\mathrm{cotransitive}(x, y, z)$ is given by the constant function $t \mapsto (1, \top)$.
-
-Since $x \lt y$ is decidable this covers every possible case. Thus, every decidable pseudo-order is purely cotransitive. 
-\end{proof}
-
-The above proof first appeared for the pseudo-order of the [[real numbers]] in theorem 11.4.3 of the [[HoTT book]] in the context of [[dependent type theory]]. 
-
-\begin{corollary}
-Suppose that the [[rational numbers]] are a [[subset]] of the decidably pseudo-ordered set $A$, and the canonical injection $i:\mathbb{Q} \to A$ is strictly monotonic. Then for every element $x$ of $A$ one can construct a [[locator]] for $x$.  
-\end{corollary}
-
-\begin{proof}
-The locator is given by the [[dependent function]]
-
-$$(q, r) \mapsto \mathrm{cotransitive}(i(q), x, i(r)) \in \prod_{q, r \in \mathbb{Q}} \left(\{\top \vert q \lt x\} \uplus \{\top \vert x \lt r\}\right)^{\{\top \vert q \lt r\}}$$
-
-which always exists by the previous theorem and by the fact that the rational numbers are a subset of $A$ which preserves the pseudo-order. 
-\end{proof}
+Keep in mind, however, that the only use of [[excluded middle]] in the classical theory is the assumption that $x \lt y$ is always either true or false, which implies that $x = y$ is [[stable relation|stable]] and [[decidable relation|decidable]] and [[denial inequality]] is an [[apartness relation]], and that $x \leq y$ is a [[total relation]] and its negation is [[weakly linear relation|weakly linear]]. There is therefore a perfect correspondence between [[decidable pseudo-orders]] on [[sets]] and total orders on [[classical sets]].
 
 ## See also
 
@@ -127,6 +92,7 @@ which always exists by the previous theorem and by the fact that the rational nu
 * [[strict weak order]]
 * [[strict preorder]]
 * [[trichotomous relation]]
+* [[strict linear order]]
 
 ## References
 
@@ -134,9 +100,9 @@ which always exists by the previous theorem and by the fact that the rational nu
 
 * Heyting, Arend (1966). Intuitionism: an introduction (2nd ed.). Amsterdam: North-Holland Pub. Co. p. 106. ISBN:978-0-444-53406-4
 
-For a proof that the decidable pseudo-order on the real numbers is purely cotransitive, see theorem 11.4.3 of:
+The definition of weak linearity for an order relation is given on page 377 of 
 
-* {#UFP13} [[Univalent Foundations Project]], Section 11.3 of: *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+* {#UFP13} [[Univalent Foundations Project]], Section 11.2 of: *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 [[!redirects pseudo-order]]
 [[!redirects pseudo-orders]]
@@ -146,18 +112,10 @@ For a proof that the decidable pseudo-order on the real numbers is purely cotran
 [[!redirects pseudo-ordered set]]
 [[!redirects pseudo-ordered sets]]
 
-[[!redirects strict linear order]]
-[[!redirects strict linear orders]]
-[[!redirects strict linear ordering]]
-[[!redirects strict linear orderings]]
-[[!redirects strictly linearly ordered]]
-[[!redirects strictly linearly ordered set]]
-[[!redirects strictly linearly ordered sets]]
-
-[[!redirects strict total order]]
-[[!redirects strict total orders]]
-[[!redirects strict total ordering]]
-[[!redirects strict total orderings]]
-[[!redirects strictly totally ordered]]
-[[!redirects strictly totally ordered set]]
-[[!redirects strictly totally ordered sets]]
+[[!redirects weak linear order]]
+[[!redirects weak linear orders]]
+[[!redirects weak linear ordering]]
+[[!redirects weak linear orderings]]
+[[!redirects weakly linearly ordered]]
+[[!redirects weakly linearly ordered set]]
+[[!redirects weakly linearly ordered sets]]
