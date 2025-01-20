@@ -72,6 +72,8 @@ The commutative property being satisfied ensures that all other possible neutral
 
 * [[sigma-continuous probability valuation]]
 
+* [[countably prime filter]]
+
 ## References ##
 
 * [[Alex Simpson]], *Measure, randomness and sublocales*, Annals of Pure and Applied Logic, Volume 163, Issue 11, November 2012, Pages 1642-1659. ([doi:10.1016/j.apal.2011.12.014](https://doi.org/10.1016/j.apal.2011.12.014))
