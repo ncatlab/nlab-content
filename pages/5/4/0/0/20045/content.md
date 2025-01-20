@@ -16,9 +16,12 @@ On [[gauge theory]]/[[Yang-Mills theory]]:
 
 * {#Iliopoulos75} [[John Iliopoulos]], _Progress in Gauge Theories_, 1975 ([spire:3000](http://inspirehep.net/record/3000))
 
-On the [[standard model of particle physics]]:
+On the history of the [[standard model of particle physics]]:
 
-* {#Iliopoulos16} [[John Iliopoulos]], _The making of the standard theory_, Adv.Ser.Direct.High Energy Phys. 26 (2016) 29-59 ([spire:1497884](http://inspirehep.net/record/1497884), [pdf](http://cds.cern.ch/record/2217096/files/9789814733519_0002.pdf))
+* {#Iliopoulos16} [[John Iliopoulos]]: _The making of the standard theory_, Adv. Ser. Direct. High Energy Phys. **26** (2016) 29-59 &lbrack;[spire:1497884](http://inspirehep.net/record/1497884), [pdf](http://cds.cern.ch/record/2217096/files/9789814733519_0002.pdf)&rbrack;
+
+* [[John Iliopoulos]]: *From Many Models to ONE THEORY* &lbrack;[arXiv:2501.10233](https://arxiv.org/abs/2501.10233)&rbrack;
+
 
 
 On [[non-commutative geometry]] in [[D-brane]] physics and [[Connes-Lott-Chamseddine-Barrett models]]:
