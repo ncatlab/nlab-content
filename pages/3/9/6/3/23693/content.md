@@ -47,6 +47,8 @@ The [[opposite category]] of $\sigma\mathrm{Frm}$ is the category $\sigma\mathrm
 
 * [[distributive lattice]]
 
+* [[countably prime filter]]
+
 * [[measure]]
 
 * [[probability measure]]
