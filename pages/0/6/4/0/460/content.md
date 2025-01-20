@@ -638,7 +638,7 @@ The following non-example shows that sobriety is not a hereditary separation pro
 * [[nice topological space]]
 * [[sober measurable space]]
 * [[Cauchy-complete category]]
-
+* [[sober sigma-topological space]]
 
 ## References
 
