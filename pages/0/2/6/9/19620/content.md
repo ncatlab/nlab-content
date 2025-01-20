@@ -25,6 +25,8 @@ Variants of the principle's name include *ex falso sequitur quodlibet*, "from fa
 
 ## Related concepts
 
+* [[minimal logic]]
+
 * [[empty type]]
 
 * [[excluded middle]]
