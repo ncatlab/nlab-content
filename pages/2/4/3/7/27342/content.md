@@ -25,6 +25,12 @@
 
 ## Definition
 
+### In set theory
+
+Given a [[subobject|sub]]-[[sigma-frame|$\sigma$-frame]] of the [[frame of truth values]] $\Sigma \subseteq \Omega$, an [[Archimedean ordered field]] $F$ is **$\Sigma$-admissible** if and only if there is a function $(-) \lt_\Sigma (-):F \times F \to \Sigma$ such that $(x \lt_\Sigma y) = \top$ if and only if $x \lt y$. 
+
+### In dependent type theory
+
 Let $(\Sigma, T)$ be a [[sigma-frame of propositions|$\sigma$-frame of propositions]]. An [[Archimedean ordered field]] $F$ is **admissible for $\Sigma$** or **$\Sigma$-admissible** if it comes with a function $(-)\lt_\Sigma(-):F \times F \to \Sigma$ such that for all $x:F$ and $y:F$, $T(x \lt_\Sigma y) \simeq (x \lt y)$. 
 
 ## Properties
