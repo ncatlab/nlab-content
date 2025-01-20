@@ -133,7 +133,7 @@ Review includes
 * {#Schroer96} [[Bert Schroer]], _Wigner Representation Theory of the Poincar&#233;
 Group, Localization, Statistics and the S-Matrix_, 1996  ([pdf](http://cds.cern.ch/record/308785/files/9608092.pdf))
 
-* Eberhard Freitag, _Unitary representations of the Poincar&#233; group_ ([pdf](http://www.rzuser.uni-heidelberg.de/~t91/skripten/unitdarst.pdf))
+* Eberhard Freitag, _Unitary representations of the Poincar&#233; group_ ([pdf](https://www.mathi.uni-heidelberg.de/~freitag/skripten/unitdarst.pdf))
 
 * [[Xavier Bekaert]], Nicolas Boulanger, _The unitary representations of the Poincare group in any spacetime dimension_ ([arXiv:hep-th/0611263](http://arxiv.org/abs/hep-th/0611263))
 
