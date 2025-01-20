@@ -108,7 +108,7 @@ Use that in the [[(∞,1)-topos]] $\mathbf{H}$ we have [[universal colimits]] an
 
 * **geometric $\infty$-stack**, [[function algebras on ∞-stacks]]
 
-* [[Arin-Luire representability theorem]]
+* [[Artin-Lurie representability theorem]]
 
 
 ## References
