@@ -10,7 +10,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -42,8 +41,13 @@ This marks also the contrast to "[[Euclidean field theory]]", where the underlyi
 
 * [[locally covariant perturbative algebraic quantum field theory]]
 
+* [[Unruh effect]], [[Schwinger effect]], [[Hawking radiation]]
+
 
 [[!redirects relativistic quantum field theories]]
 
 [[!redirects relativistic field theory]]
 [[!redirects relativistic field theories]]
+
+[[!redirects non-relativistic field theory]]
+[[!redirects non-relativistic field theories]]
