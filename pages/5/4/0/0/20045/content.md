@@ -1,7 +1,7 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/John_Iliopoulos)
 
-* {#Bjorken85} [[James Bjorken]], _The November Revolution: A Theorist Reminisces_, 1985 ([spire:214067](http://inspirehep.net/record/214067))
+* {#Bjorken85} [[James Bjorken]], _The November Revolution: A Theorist Reminisces_ (1985) &lbrack;[spire:214067](http://inspirehep.net/record/214067)&rbrack;
 
 > The big international conference of $[$1974$]$ in 
 London was a turning point
