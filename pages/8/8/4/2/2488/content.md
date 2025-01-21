@@ -109,7 +109,7 @@ This is [[Higher Topos Theory|HTT, def. 5.5.6.8]].
 
 By the [characterization of homotopy fiber of functor categories](http://ncatlab.org/nlab/show/fiber+sequence#OfFuncCats)
 this is equivalent to saying that $f$ is $k$-truncated when it is so regarded as an
-object of the [[over quasi-category|over (∞,1)-category]] $C_{/Y}$. (See also [[Higher Topos Theory|HTT, rem. 5.5.6.12]].)
+object of the [[over quasi-category|slice (∞,1)-category]] $C_{/Y}$. (See also [[Higher Topos Theory|HTT, rem. 5.5.6.12]].)
 
 Unwinding the definitions and applying the [[long exact sequence of homotopy groups]], we have:
 
