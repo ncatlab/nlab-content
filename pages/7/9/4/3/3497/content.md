@@ -17,7 +17,7 @@
 
 A (Grothendieck) $(n,1)$-topos is the [[(n,r)-category|(n,1)-category]] version of a [[Grothendieck topos]]: a collection of [[n-groupoid|(n-1)-groupoid]]-valued sheaves on an $(n,1)$-categorical site.
 
-Notice that an [[∞-stack]] on an ordinary (1-categorical) [[site]] that takes values in [[∞-groupoid]]s which happen to by 0-[[truncated]], i.e. which happen to take values just in [[Set]] $\hookrightarrow$ [[∞Grpd]] is the same as an ordinary [[sheaf]] of sets.
+Notice that an [[∞-stack]] on an ordinary (1-categorical) [[site]] that takes values in [[∞-groupoid]]s which happen to be 0-[[truncated]], i.e. which happen to take values just in [[Set]] $\hookrightarrow$ [[∞Grpd]] is the same as an ordinary [[sheaf]] of sets.
 
 This generalizes: every $(n,1)$-topos arises as the full [[sub-quasi-category|(∞,1)-subcategory]] on $(n-1)$-[[truncated]] objects in an [[(∞,1)-topos]] of $\infty$-stacks on an [[(n,1)-category]] site.
 
