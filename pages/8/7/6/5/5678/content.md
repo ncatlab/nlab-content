@@ -134,9 +134,9 @@ Reviewed in:
 * [[Mikhail Khovanov]], *Universal construction, foams and link homology*, lecture series at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#KhovanovMar2023), video 1:[YT](https://www.youtube.com/watch?v=Urh1NNcbCcc), 2:[YT](https://www.youtube.com/watch?v=SPBcAAmGT88)&rbrack;
 
 
-A proposal to incorporate the geometry of knots to Khovanov homology is in
+A proposal to incorporate the geometry of knots to Khovanov homology:
 
-* Li Shen, Jian Liu, Guo-Wei Wei. *Evolutionary Khovanov homology* (2024). ([arXiv:2406.02821](https://arxiv.org/abs/2406.02821)).
+* Li Shen, Jian Liu, Guo-Wei Wei. *Evolutionary Khovanov homology* (2024) &lbrack;[arXiv:2406.02821](https://arxiv.org/abs/2406.02821)&rbrack;
 
 See also:
 
