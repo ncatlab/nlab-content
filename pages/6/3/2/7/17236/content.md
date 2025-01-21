@@ -87,10 +87,10 @@ Here the left horizontal morphisms are the above isomorphims induced from the de
   If the sub-complex $A$ is [[contractible homotopy type|contractible]], then the [[topological quotient space|quotient]] [[coprojection]] is a [[homotopy equivalence]].
 
 $$
-  \ast \overset{\sim}{\longrightarrow} X
-  \;\;\;\;\;\;\;\;
+  \ast \overset{\sim}{\longrightarrow} A
+  \phantom{---}
   \Rightarrow
-  \;\;\;\;\;\;\;\;
+  \phantom{---}
   X \overset{\sim}{\longrightarrow} X/A
   \,.
 $$
