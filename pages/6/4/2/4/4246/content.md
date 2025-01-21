@@ -32,6 +32,6 @@ category: people
 [[!redirects A. Bondal]]
 [[!redirects Bondal]]
 [[!redirects A.I.Bondal]]
-
+[[!redirects A. I. Bondal]]
 [[!redirects Alexei I. Bondal]]
 
