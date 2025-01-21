@@ -36,7 +36,7 @@ A [[subcategory]] is **codense** if the inclusion functor is codense.
 
 ## Examples
 
-*  Let $I$ denote the unit interval. Then the full subcategory of the category  of compact topological spaces $T$ whose only object is $I^2$ is a dense subcategory of $T$ ([Ulmer 68, p.80](#Ulmer68)).
+*  Let $I$ denote the unit interval. Then the full subcategory of the category  of compact topological spaces $T$ whose only object is $I^2$ is a codense subcategory of $T$ ([Ulmer 68, p.80](#Ulmer68)).
 
 ## Related concepts
 
