@@ -1,5 +1,5 @@
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -238,6 +238,8 @@ Under mild conditions the analogous statement is true for higher K&#228;hler dif
 
 ### Over smooth rings regarded as ordinary rings {#SmoothOrPlain}
 
+> See also at *[[Kähler C^∞-differentials of smooth functions are differential 1-forms]]*.
+
 We have seen that we define K&#228;hler differentials $\Omega^1_K(A)$ for any [[commutative algebra]] $A$.  
 
 The following special case deserves special attention:
@@ -260,6 +262,7 @@ If we do regard $C^\infty(X)$ as a [[generalized smooth algebra|C-infinity ring]
 
 
 #### Detailed comparison
+ {#DetailedComparison}
 
 We discuss how K&#228;hler differential forms relate to the ordinary notion of [[differential form]]s.
 
@@ -272,8 +275,9 @@ d(t^n)  \\
 &= 2 t^{n-1} d t + t^2 d(t^{n-2}) \\
 &= r t^{n-1} d t + t^r d(t^{n-r}) \\
 &= n t^{n-1} d t \\
-&= f' d t.
-\end{aligned}$$
+&= f' d t \,.
+\end{aligned}
+$$
 
 
 However, we have
@@ -282,11 +286,13 @@ $$d e^t \ne e^t d t$$
 
 as K&#228;hler differentials.  Intuitively, the reason is that $d$ cannot pass through the infinite sum
 
-$$d e^t = d\left(\sum_{n=0}^{\infty} \frac{t^n}{n!}\right) \ne \sum_{n=0}^{\infty} \frac{d(t^n)}{n!} = e^t d t.$$
+$$
+  d e^t = d\left(\sum_{n=0}^{\infty} \frac{t^n}{n!}\right) \ne \sum_{n=0}^{\infty} \frac{d(t^n)}{n!} = e^t d t \,.
+$$
 
-However, the only proof we know that $d e^t \ne e^t d t$ is quite tricky: in fact it uses the Axiom of Choice!
+However, the only proof we know that $d e^t \ne e^t d t$ is quite tricky: in fact it uses the axiom of choice]]!
 
-* David Speyer, K&#228;hler differentials and ordinary differentials.  ([Math Overflow](http://mathoverflow.net/questions/6074/kahler-differentials-and-ordinary-differentials/9723#9723))
+* {#Speyer09} [[David Speyer]]: *Kähler differentials and ordinary differentials*, MathOverflow reply (2009) &lbrack;[MO:a/9723](https://mathoverflow.net/a/9723/381)&rbrack;
 
 It would be  desirable to either find a proof that avoids the Axiom of Choice, or show that axioms beyond ZF are necessary for this result.
 
