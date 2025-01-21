@@ -140,7 +140,7 @@ One can[^2] also define an [[action of a category on a set|action of a category]
 
 Another perspective on the same situation is: a (small) category is a [[monad]] in the category of [[span]]s in [[Set]]. An action of the category is an algebra for this monad. See [[action of a category on a set]]. 
 
-On the other hand, an action of a [[monoidal category]] (not _in_ a monoidal category, as above) is called an [[module category]] (also "[[actegory]]"). This notion can be expanded of course to actions _in_ a [[monoidal bicategory]], where in the case of $Cat$ as monoidal bicategory it specializes to the notion of module category. 
+On the other hand, an action of a [[monoidal category]] (not _in_ a monoidal category, as above) is called an [[actegory|module category]] (also "[[actegory]]"). This notion can be expanded of course to actions _in_ a [[monoidal bicategory]], where in the case of $Cat$ as monoidal bicategory it specializes to the notion of module category. 
 
 ### Actions of a group object
 
