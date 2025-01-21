@@ -9,7 +9,7 @@ For example, in Fremlin's [[Measure Theory]] one reads (§234):
 
 This article reviews existing categories in [[measure theory]], explains why they do not match the existing practice of [[measure theory]] and [[real analysis]], and proposes a very satisfying way to resolve these issues.  The resulting category of __compact strictly localizable enhanced measurable spaces__ enjoys excellent categorical properties and matches the existing practice of [[real analysis]] closely.
 
-This article concentrates on measure theory as it is used in [[real analysis]], [[probability theory]], [[statistics]], [[stochastic processes]] and other areas of analysis.  In particular, given the existing practice in these fields, we take it for granted that we must identify functions that are equal almost everywhere.  Other areas, such as [[descriptive set theory]] may need other criteria and other categories.
+This article concentrates on measure theory as it is used in [[real analysis]], [[probability theory]], [[statistics]], [[stochastic processes]] and other areas of analysis.  In particular, given the existing practice in these fields, we take it for granted that we must identify functions that are equal almost everywhere.  Other areas, such as [[descriptive set theory]], may need other criteria and other categories.
 
 We also remark that the use of enhanced measurable spaces instead of measure spaces is for strictly esthetic reasons (like avoiding making noncanonical choices of measures), and everything works equally well with traditional [[measure spaces]] instead.
 
@@ -60,7 +60,7 @@ The above considerations lead us to the notion of an __[[enhanced measurable spa
 An __enhanced measurable space__ is a triple $(X,M,N)$, where $(X,M)$ is a [[measurable space]] and $N\subset M$ is a [[σ-ideal]] of $M$ whose elements are known as __negligible sets__.
 \end{definition}
 
-We can keep the same definition of a measurable maps.
+We can keep the same definition of a measurable map.
 Two measurable maps
 $$f,g\colon(X,M,N)\to(X',M',N')$$
 are __equal almost everywhere__ if
@@ -119,12 +119,12 @@ we immediately run into a serious problem: precomposition does not respect equal
 
 To see this, suppose
 $$f,g\colon(X,M,N)\to(X',M',N')$$
-are [[measurable maps]] that are equal (or weakly equal) almost everywhere.
+are [[measurable maps]] that are equal (respectively weakly equal, as defined below) almost everywhere.
 
 Suppose that
 $$h\colon(X'',M'',N'')\to(X',M',N')$$
 is a measurable map.
-If composition is to be compatible with equality almost everywhere, then $f\circ h$ would have to be equal (or weakly equal) to $g\circ h$ almost everywhere.
+If composition is to be compatible with equality almost everywhere, then $f\circ h$ would have to be equal (respectively weakly equal) to $g\circ h$ almost everywhere.
 However,
 $$[f\circ h\ne g\circ h]=h^{-1}[f\ne g].$$
 Although $[f\ne g]$ is subnegligible,
@@ -141,7 +141,7 @@ __reflects negligible sets__ if for every $n'\in N'$ the preimage $f^{-1}n'$ is 
 That is to say, the preimage map $f^{-1}$ preserves negligible sets.
 \end{definition}
 
-By inspection, precomposition with a measurable map that reflects negligible sets preserves both equivalence relations: equality almost everywhere and weak equality almost everywhere.
+By inspection, precomposition with a measurable map that reflects negligible sets preserves both equivalence relations: equality almost everywhere and weak equality almost everywhere (defined below).
 
 A measurable map reflects subnegligible sets if and only if it reflects negligible sets.
 
@@ -180,9 +180,10 @@ where $m'=h^{-1}\{1\}$ is as above.
 Since
 $$f^{-1}m'\oplus g^{-1}m' \subset [f\ne g],$$
 the set $f^{-1}m'\oplus g^{-1}m'$ is subnegligible.
+Thus, $f=g$ almost everywhere.
 
-The latter condition, i.e., the set $f^{-1}m'\oplus g^{-1}m'$ is subnegligible for all $m'\in M'$,
-is very much compatible with the ideology of [[measure theory]]: it says that the preimages of $f$ and $g$ are the same almost everywhere.
+The condition stating that the set $f^{-1}m'\oplus g^{-1}m'$ is subnegligible for all $m'\in M'$,
+is very much compatible with the ideology of [[measure theory]]: it says that the preimages of an arbitrary measurable subset under the maps $f$ and $g$ are the same almost everywhere.
 
 It is quite natural to ask whether the converse holds.
 For example, two continuous maps $f,g\colon X\to X'$ of $T_0$-[[topological spaces]] are equal if and only if for every open subset $U'\subset X'$ we have $f^{-1}U'=g^{-1}U'$.
@@ -190,7 +191,7 @@ In measure theory, equality of sets should be replaced with equality almost ever
 which amounts to requiring for every $m'\in M'$ the symmetric difference $f^{-1}m'\oplus g^{-1}m'$ to be negligible.
 
 However, [Fremlin](#Fremlin) (Example 343I) constructs an example of a measurable negligibility-reflecting map $f:(X,M,\mu)\to(X,M,\mu)$, where $(X,M,\mu)=\{0,1\}^{\mathfrak{c}}$ is a product of continuum many discrete measurable spaces $\{0,1\}$ such that for every $x\in X$ we have $f(x)\ne x$, but for every $m\in M$, the set $f^{-1}m\oplus m$ is negligible.
-Thus, the identity map $id_X$ is not equal to $f$ almost everywhere and yet, $id_X$ and $f$ have the same preimages, up to subnegligible sets.
+Thus, the identity map $id_X$ is not equal to $f$ almost everywhere and yet, $id_X$ and $f$ have the same preimage maps, up to subnegligible sets.
 
 Such a situation is pathological, and is it turns out, it is the condition of having the same preimages up to subnegligible sets
 that produces nonpathological theory when the two conditions differ (they do coincide for many spaces, as we will see below).
@@ -498,8 +499,8 @@ such that for every $x\in X$ we have $\mu(\{x\})=0$.
 Such measures exist if and only if $X$ has the cardinality of a [[real-valued-measurable cardinal]], a type of a [[large cardinal]].
 The identity map of sets $X\to X$ defines a morphism of enhanced measurable spaces
 $$f\colon(X,2^X,N_\mu)\to(X,2^X,\{\emptyset\}).$$
-Indeed,
-given any $A\in 2^X$ such that $X\setminus A\in N$,
+
+Given any $A\in 2^X$ such that $X\setminus A\in N$,
 for every $a\in A$ we have $X\setminus B\in N$, where $B=A\setminus\{a\}$.
 Thus, if $A$ is the essential image of $f$, then we must have $A=\emptyset$,
 a contradiction since $X\setminus A\notin N$.
@@ -527,7 +528,7 @@ equipped with a structure of a Hausdorff topological space such that
 the [[σ-algebra]] of measurable sets contains open sets and there is a faithful measure
 that is locally finite (every point has a neighborhood of finite measure)
 and inner regular with respect to compact subsets (the measure of any measurable subset is the supremum of measures of its compact subsets).
-(See [Fremlin](#Fremlin) Definition~411H(b).)
+(See [Fremlin](#Fremlin) Definition 411H(b).)
 Every Radon enhanced measurable space is compact and strictly localizable by [Fremlin](#Fremlin) (Proposition 416W(a), Theorem 414J).
 
 The following theorem answers the question of existence of the essential image in the affirmative
@@ -549,7 +550,7 @@ The difficult part is to show that $f^{-1}p\in N$, and this is exactly what Frem
 As an added bonus, we obtain the following counterpart to the von Neumann–Maharam co-lifting theorem for strictly localizable spaces.
 
 \begin{theorem}
-(von Neumann 1932; C.~Ionescu Tulcea 1965; Vesterstrøm–Wils 1969; Edgar 1976; Graf 1980; see also [Fremlin](#Fremlin), Theorem~343B(iv).)
+(von Neumann 1932; C. Ionescu Tulcea 1965; Vesterstrøm–Wils 1969; Edgar 1976; Graf 1980; see also [Fremlin](#Fremlin), Theorem 343B(iv).)
 Suppose $(X,M,N)$ is an enhanced measurable space that admits a faithful semifinite measure.
 Assume $X\notin N$.
 The following two conditions are equivalent.
