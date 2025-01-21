@@ -21,6 +21,8 @@
 
 _Khovanov homology_ is a [[knot invariant]] that is a [[categorification]] of the [[Jones polynomial]]. 
 
+It is a member of the family of Khovanov-Rozansky link homology theories which categorify the [[HOMFLY-PT polynomial]] and some of its one-variable specializations. 
+
 ## Interpretation in QFT
 
 Khovanov homology has long been expected to appear as the [[quantum observables]] in [[D=4 TQFT]] in higher analogy of how the [[Jones polynomial]] arises as a [[quantum observable]] in 3-dimensional [[Chern-Simons theory|Chern-Simons]] [[D=3 TQFT]]. For instance for $\Sigma \colon K \to K'$ a [[knot cobordism]] between two [[knots]] there is a natural morphism
