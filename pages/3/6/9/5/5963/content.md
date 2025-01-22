@@ -31,7 +31,7 @@ For the infinite-dimensional version see [[fermionic path integral]].
 
 * [[superpoint]], [[Grassmann algebra]]
 
-* [[determinant]]
+* [[determinant]], [[Pfaffian]]
 
 * [[superdeterminant]]/[[Berezinian]]
 
@@ -41,15 +41,19 @@ For the infinite-dimensional version see [[fermionic path integral]].
 
 The concept is originally due to [[Felix Berezin]].
 
-Exposition of the standard lore includes
+Exposition:
 
-* [[Andreas Wipf]], _Chapter 10: Berezin integral_ ([pdf](https://www.tpi.uni-jena.de/qfphysics/homepage/wipf/lectures/pfad/pfad10.pdf))
+* [[Andreas Wipf]], _Chapter 10: Berezin integral_ &lbrack;[pdf](https://www.tpi.uni-jena.de/qfphysics/homepage/wipf/lectures/pfad/pfad10.pdf)&rbrack;
 
-* [[Urs Schreiber]], [_Integration over supermanifolds_](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf)
+* [[Urs Schreiber]]: *[Integration over supermanifolds](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf)
+
+See also
+
+* Wikipedia: *[Berezin integral](https://en.wikipedia.org/wiki/Berezin_integral)*
 
 Discussion in relation to the [[Hodge star operator]]:
 
-* [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro Antonio Grassi]], _The Hodge Operator Revisited_ ([arXiv:1511.05105](https://arxiv.org/abs/1511.05105))
+* [[Leonardo Castellani]], [[Roberto Catenacci]], [[Pietro Antonio Grassi]]: _The Hodge Operator Revisited_ &lbrack;[arXiv:1511.05105](https://arxiv.org/abs/1511.05105)&rbrack;
 
 
 A [[general abstract]] discussion in terms of [[D-module]] theory is in 
