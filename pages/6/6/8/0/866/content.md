@@ -115,6 +115,7 @@ Special kinds of relations from $A$ to $B$ include:
 
 * [[functional relations]],
 * [[entire relations]],
+* [[difunctional relation|difunctional relations]]
 * [[one-to-one relation]]s,
 * [[onto relation]]s.
 
