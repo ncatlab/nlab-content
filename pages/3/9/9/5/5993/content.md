@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -49,7 +50,7 @@ where
 
 * $sgn(\sigma)$ is the [[signature of a permutation]].
 
-Expressed equivalently in terms of the [[Levi-Civita symbol]] $\epsilon$ and using the [[Einstein summation convention]] the Pfaffian is
+Expressed equivalently in terms of the [[Levi-Civita symbol]] $\epsilon$ and using the [[Einstein summation convention]], the Pfaffian is
 
 \[
   \label{PfaffianInTermsOfLCTensor}
@@ -118,6 +119,7 @@ $$
   \right)
   \,
     \exp\big( 
+      \tfrac{1}{2}
       \langle \vec \theta, A \cdot \vec \theta \rangle 
     \big)
   \,.
@@ -147,6 +149,8 @@ $$
   \big)
   \,.
 $$
+
+The relation $Det(A) = \big(Pf(A)\big)^2$ follows readily (cf. [Math.SE:a/2705327](https://math.stackexchange.com/a/2705327/58526))
 
 \end{remark}
 
