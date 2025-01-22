@@ -1,5 +1,7 @@
 
-* [webpage](http://www.staff.science.uu.nl/~caval101/homepage/Home.html)
+* [personal page](http://www.staff.science.uu.nl/~caval101/homepage/Home.html)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=DtDlxpwAAAAJ&hl=en)
 
 ## Selected writings
 
