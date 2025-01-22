@@ -642,12 +642,6 @@ The composite-fermion model (CF) which explains the FQHE as the [[integer quantu
 
 * [[Jainendra K. Jain]]: *Composite Fermions*, Cambridge University Press (2007) \[<a href="https://doi.org/10.1017/CBO9780511607561">doi:10.1017/CBO9780511607561</a>\]
 
-Introducing **[[abelian Chern-Simons theory]]** to the picture:
-
-* Ana Lopez, [[Eduardo Fradkin]]: *Fractional quantum Hall effect and Chern-Simons gauge theories*, Phys. Rev. B **44** (1991) 5246 \[<a href="https://doi.org/10.1103/PhysRevB.44.5246">doi:10.1103/PhysRevB.44.5246</a>\]
-
-* [[Xiao-Gang Wen]], [[Anthony Zee]]: *Classification of Abelian quantum Hall states and matrix formulation of topological fluids*, Phys. Rev. B **46** (1992) 2290 &lbrack;[doi:10.1103/PhysRevB.46.2290](https://doi.org/10.1103/PhysRevB.46.2290)&rbrack;
-
 
 Further discussion:
 
@@ -664,6 +658,12 @@ Discussion highlighting the lack of microscopic explanation of these phenomenolo
 
 >  "the Halperin multicomponent theory and of the CF model advanced the understanding of correlations in FQHE, however, on a phenomenological level only. CFs were assumed to be hypothetical quasi-particles consisting of electrons and flux quanta of an auxiliary fictitious magnetic field pinned to
 them. The origin of this field and the manner of attachment of its flux quanta to electrons have been neither explained nor discussed."
+
+Introducing **[[abelian Chern-Simons theory]]** to the picture:
+
+* Ana Lopez, [[Eduardo Fradkin]]: *Fractional quantum Hall effect and Chern-Simons gauge theories*, Phys. Rev. B **44** (1991) 5246 \[<a href="https://doi.org/10.1103/PhysRevB.44.5246">doi:10.1103/PhysRevB.44.5246</a>\]
+
+* [[Xiao-Gang Wen]], [[Anthony Zee]]: *Classification of Abelian quantum Hall states and matrix formulation of topological fluids*, Phys. Rev. B **46** (1992) 2290 &lbrack;[doi:10.1103/PhysRevB.46.2290](https://doi.org/10.1103/PhysRevB.46.2290)&rbrack;
 
 
 
