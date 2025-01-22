@@ -44,6 +44,9 @@ $$
 
 (for $N=1$ see [Manoliu 1998a p 40](#Manoliu98a), for general $N$ cf. [Belov & Moore 2005 p 26](#BelovMoore05))
 
+For the [[modular group]]-[[group action|action]] on these state spaces see at *[[integer Heisenberg group]]* the section *[Modular automorphisms](integer+Heisenberg+group#ModularAutomorphisms)* (there for $g=1$).
+
+
 {#DegeneracyOnNonOrientableSurface} For a *non-*orientable surface with $k$ crosscaps, it is 
 
 $$ 
@@ -54,6 +57,8 @@ $$
 $$
 
 (e.g. [arXiv:1509.03920](https://arxiv.org/abs/1509.03920) (73))
+
+
 
 \linebreak
 
