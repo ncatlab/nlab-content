@@ -157,6 +157,18 @@ where now on the right we have just the [[homotopy classes]] of maps, i.e. the m
 
 (...)
 
+### Group (co)homology
+Given $U$ a $\mathbb{Z}[G]$-module, the cohomology $H^n(G,U)$, homology $H_n(G,U)$, and tate cohomology $\widehat H^n(G,U)$ form Mackey functors under the usual restriction and transfers (or corestriction).
+See example 53.3 of [Thévenaz](#Thevenaz)
+
+### Ideal class groups
+Let $F$ be a field with $E/F$ a finite Galois extension and write $G \coloneqq \mathrm{Gal}(E/F)$.
+Write $\mathrm{Cl}(E^H)$ for the ideal class group of $E^H$.
+Then, extension of scalars yields a restriction map $\mathrm{Cl}(E^H) \rightarrow \mathrm{Cl}(E^K)$ and norm maps yield a map $\mathrm{Cl}(E^K) \rightarrow \mathrm{Cl}(E^H)$ satisfying a double coset formula;
+together, these form a Mackey functor.
+See example 53.12 of [Thévenaz](#Thevenaz).
+
+
 ## Cohomology with coefficients in a Mackey functor
  {#Cohomology}
 
@@ -253,6 +265,9 @@ Reviews and surveys:
 
 * [[Megan Shulman]], chapter 2 of _Equivariant local coefficients and the $RO(G)$-graded cohomology of classifying spaces_ ([arXiv:1405.1770](http://arxiv.org/abs/1405.1770))
 
+* {#Thevenaz} Jacques Thévenaz, chapter 8 of _$G$-algebras and modular representation theory_ ([pdf](https://infoscience.epfl.ch/server/api/core/bitstreams/403da7d5-c09b-40a9-9fd3-609d43f67517/content))
+
+
 See also
 
 * [[Tammo tom Dieck]], _Transformation groups_, Studies in Mathematics, vol. 8, Walter de Gruyter, Berlin, New York, 1987, x + 311 pp., 
@@ -264,11 +279,11 @@ See also
 * {#GreenleesMay95} [[John Greenlees]], [[Peter May]], appendix A of _Generalized Tate cohomology_, Mem. Amer. Math. Soc. 113 (1995) no 543 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/GM-Tate-543.pdf))
 
 
-* D. Tambara, _The Drinfeld center of the category of Mackey functors_, J. Algebra __319__, 10, pp. 4018-4101 (2008) [doi:10.1016/j.jalgebra.2008.02.011](http://dx.doi.org/10.1016/j.jalgebra.2008.02.011)
+* D. Tambara, _The Drinfeld center of the category of Mackey functors_, J. Algebra __319__, 10, pp. 4018-4101 (2008) [doi:10.1016/j.jalgebra.2008.02.011](http://dx.doi.org/10.1016/j.jalgebra.2008.02.011),
 
 * Elango Panchadcharam, _Categories of Mackey Functors_, PhD thesis, Macquarie Univ. 2006
 
-* {#Kronholm10} [[William Kronholm]], _The $RO(G)$-graded Serre spectral sequence_, Homology Homotopy Appl. Volume 12, Number 1 (2010), 75-92. ([pdf](http://www.swarthmore.edu/NatSci/wkronho1/serre.pdf), [Euclid](https://projecteuclid.org/euclid.hha/1296223823))
+* {#Kronholm10} [[William Kronholm]], _The $RO(G)$-graded Serre spectral sequence_, Homology Homotopy Appl. Volume 12, Number 1 (2010), 75-92. ([pdf](http://www.swarthmore.edu/NatSci/wkronho1/serre.pdf), [Euclid](https://projecteuclid.org/euclid.hha/1296223823)),
 
 For Mackey functors [[enriched]] over [[closed category|closed]] [[multicategories]]:
 
