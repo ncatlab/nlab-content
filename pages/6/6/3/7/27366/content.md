@@ -313,7 +313,7 @@ $$
 ### Linear representations
 
 \begin{example}
-For $k \in \mathbb{Z}$, the non-[[trivial representaiton|trivial]] [[irreducible representations]] of twice the $\mathbb{Z}_{2 {\left\vert k \right\vert}}$-Heisenberg extension of $\mathbb{Z}^2$ (eq:TwiceOfBasicIntegerHeisInSymplecticForm)
+For $k \in \mathbb{Z}$, the non-[[trivial representation|trivial]] [[irreducible representations]] of twice the $\mathbb{Z}_{2 {\left\vert k \right\vert}}$-Heisenberg extension of $\mathbb{Z}^2$ (eq:TwiceOfBasicIntegerHeisInSymplecticForm)
 \[
   \label{IrrepOfInyegerHeisenbergGroup}
   \begin{array}{ccc}
@@ -538,7 +538,8 @@ Recall that the [[modular group]] $SL_2(\mathbb{Z}) \subset GL_2(\mathbb{Z})$ is
 
 \begin{proposition}
 There exists a [[linear representation]]
-$$
+\[
+  \label{ModularActionOnH1}
   \begin{array}{ccc}
     \mathrm{SL}_2(\mathbb{Z})
     \times
@@ -547,7 +548,7 @@ $$
     \mathscr{H}_1
     \mathrlap{\,,}
   \end{array}
-$$
+\]
 of the [[modular group]] on the [[underlying]] [[complex vector space]] of (eq:IrrepOfInyegerHeisenbergGroup),
 which [[intertwiner|intertwines]] the action (eq:IrrepOfInyegerHeisenbergGroup)
 of $\widehat{\mathbb{Z}^2}$ on $\mathscr{H}_1$, with its [[automorphism|automorphic]] [[images]] under the modular gorup action \eqref{SymplecticActonOnSecondIntegerHeisenberg} on the Heisenberg group,
@@ -575,7 +576,18 @@ $$
     \end{array}
   \right.
 $$
-This representation is just the [[modular functor|modular action]] known from [[abelian Chern-Simons theory]] at [[level (Chern-Simons theory)|level]] $k$ (cf. [Manoliu 1998a p 67](abelian+Chern-Simons+theory#Manoliu98a)):
+{#SemidirectProductAction} In other words, (eq:ModularActionOnH1) enhances $\mathscr{H}_1$ to a representation of the [[semidirect product group]]  $\widehat{\mathbb{Z}^2} \rtimes \mathrm{SL}_2(\mathbb{Z})$ with [[binary operation|operation]]
+
+$$
+  (W,m)\cdot (W',m') 
+    \;\coloneqq\; 
+  \big(
+    W \cdot m(W'),\, m \cdot m'  
+  \big) 
+  \,.
+$$
+
+This representation (eq:ModularActionOnH1) is just the [[modular functor|modular action]] known from [[abelian Chern-Simons theory]] at [[level (Chern-Simons theory)|level]] $k$ (cf. [Manoliu 1998a p 67](abelian+Chern-Simons+theory#Manoliu98a)):
 $$
   \begin{array}{ccr}
   S\Big(
