@@ -71,6 +71,10 @@ On [[quantum mechanics]]:
 
 * [[Steven Weinberg]], *Against philosophy*, in: _Dreams of a final theory_ &lbrack;[pdf](http://emilkirkegaard.dk/en/wp-content/uploads/Steven-Weinberg-%E2%80%9CAgainst-Philosophy%E2%80%9D.pdf)&rbrack;
 
+On the early history of the [[standard model of particle physics]]:
+
+* [[Steven Weinberg]]: *The Conceptual Basis of the Standard Model: Steven Weinberg*, concluding talk at: *[The Standard Model at 50](https://artsci.case.edu/smat50/)*, 1-4 June 2018, Cleveland &lbrack;video:[YT](https://youtu.be/nydSHnv1ABI?list=PLBELrG1nZ2U6H3I1il4NhNVNcdUVUE5Ye)&rbrack;
+
 
 
 ## Related entries
