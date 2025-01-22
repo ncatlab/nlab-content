@@ -1,6 +1,11 @@
 
 
-* [webpage](http://physics.illinois.edu/people/directory/profile/ryuu)
+* [institute page](https://phy.princeton.edu/people/shinsei-ryu)
+
+* [inSpire page](https://inspirehep.net/authors/1024768)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Shinsei_Ryu)
+
 
 ## Selected writings
 
@@ -23,16 +28,22 @@ On the [[K-theory classification of topological phases of matter]] translating u
 
 * [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Topological Insulators and Superconductors from D-branes_, Phys. Lett. B693:175-179, 2010 ([arXiv:1001.0763](https://arxiv.org/abs/1001.0763))
 
-* [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Topological Insulators and Superconductors from String Theory_, Phys. Rev. D82:086014, 2010 ([arXiv:1007.4234](https://arxiv.org/abs/1007.4234))
+* [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Topological Insulators and Superconductors from String Theory_, Phys. Rev. D **82** 086014 (2010) &lbrack;[arXiv:1007.4234](https://arxiv.org/abs/1007.4234)&rbrack;
 
 
 On ([[symmetry protected topological phase|symmetry protected]]) [[topological phases of matter]]:
 
-* [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]] [[Shinsei Ryu]], *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** 035005 (2016) $[$[arXiv:1505.03535](https://arxiv.org/abs/1505.03535), [doi:10.1103/RevModPhys.88.035005](https://doi.org/10.1103/RevModPhys.88.035005)$]$
+* [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]] [[Shinsei Ryu]], *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** 035005 (2016) &lbrack;[arXiv:1505.03535](https://arxiv.org/abs/1505.03535), [doi:10.1103/RevModPhys.88.035005](https://doi.org/10.1103/RevModPhys.88.035005)&rbrack;
+
+
+On [[supersymmetry]] in [[fractional quantum Hall systems]] ([[superpartners]] of excitation of the [[Moore-Read state]]) and its [[superspace]] formulation:
+
+* {#GromovMartinecRyu20} [[Andrey Gromov]], [[Emil J. Martinec]], [[Shinsei Ryu]]: *Collective excitations at filling factor $5/2$: The view from superspace*, Phys. Rev. Lett. **125** (2020) 077601 \[<a href="https://doi.org/10.1103/PhysRevLett.125.077601">doi:10.1103/PhysRevLett.125.077601</a>, [arXiv:1909.06384](https://arxiv.org/abs/1909.06384)\]
 
 
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[holographic entanglement entropy]]
 
