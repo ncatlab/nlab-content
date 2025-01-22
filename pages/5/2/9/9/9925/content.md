@@ -32,9 +32,17 @@ On the [[AdS/CFT correspondence]]:
 
 * [[Tom Banks]], [[Michael Douglas]], [[Gary Horowitz]], [[Emil Martinec]], _AdS Dynamics from Conformal Field Theory_ ([arXiv:hep-th/9808016](https://arxiv.org/abs/hep-th/9808016), [spire:474214](http://inspirehep.net/record/474214))
 
+On [[supersymmetry]] in [[fractional quantum Hall systems]] ([[superpartners]] of excitation of the [[Moore-Read state]]) and its [[superspace]] formulation:
+
+* {#GromovMartinecRyu20} [[Andrey Gromov]], [[Emil J. Martinec]], [[Shinsei Ryu]]: *Collective excitations at filling factor $5/2$: The view from superspace*, Phys. Rev. Lett. **125** (2020) 077601 \[<a href="https://doi.org/10.1103/PhysRevLett.125.077601">doi:10.1103/PhysRevLett.125.077601</a>, [arXiv:1909.06384](https://arxiv.org/abs/1909.06384)\]
+
+
+
 On [[black hole entropy]] via [[D1-D5 brane bound states]] as [[black holes in string theory]]:
 
 * [[Emil Martinec]], *The branes behind black holes*, talk at *[Strings 2022](https://indico.cern.ch/event/1085701/)* &lbrack;[indico:4940814](https://indico.cern.ch/event/1085701/contributions/4940814/)&rbrack;
+
+
 
 
 ## Related pages
