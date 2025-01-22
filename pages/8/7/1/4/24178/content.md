@@ -367,6 +367,27 @@ $$
 
 gives another view of how the quasi-holes are *$q$-fractional* objects as compared to the electrons.
 
+### GMP-excitations of Laughlin states
+ {#GMPExcitationsOfLaughlinStates}
+
+There is supposed to be a "density wave" excitation of quantum Hall ground states --- called the "magneto-roton" &lbrack;[Girvin, MacDonald & Platzman 1986](#GirvinMacDonaldPlatzman86)&rbrack; ---, which, for [[wavevector]] $k \in \mathbb{C}$, has [[wavefunction]] given by acting with the "LLL-projected density operator" ([GMP86 (4.8)](#GirvinMacDonaldPlatzman86), reviewed by [Gromov, Martinec & Ryu 2020 (1-8)](#GromovMartinecRyu20))
+
+$$
+  \overline{\rho}_k
+  \,\coloneqq\,
+  \sum_i
+  \exp\big(
+    - \mathrm{i} \overline{k} \partial_i
+  \big)
+  \,
+  \exp\big(
+    - \tfrac{\mathrm{i}}{2} \overline{k} z^i
+  \big)
+$$ 
+
+on the given Laughlin/Moore-Read ground state.
+
+(...)
 
 
 \linebreak
@@ -424,6 +445,10 @@ A "hierarchy" of Laughlin-like states:
 The pfaffian modification for even-fractional filling factor is due to
 
 * {#MooreRead91} [[Gregory Moore]], [[Nicholas Read]]: *Nonabelions in the fractional quantum hall effect*, Nuclear Physics B **360** 2–3 (1991) 362-396 \[<a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>, [pdf](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)\]
+
+The GMP magneto-roton excitation of the Moore-Read state:
+
+* {#GirvinMacDonaldPlatzman86} [[Steven M. Girvin]], A. H. MacDonald, P. M. Platzman: *Magneto-roton theory of collective excitations in the fractional quantum Hall effect*, Phys. Rev. B **33** (1986) 2481 &lbrack;[doi:10.1103/PhysRevB.33.2481](https://doi.org/10.1103/PhysRevB.33.2481), [inSpire:244382](https://inspirehep.net/literature/244382)&rbrack;
 
 
 Critical discussion:
