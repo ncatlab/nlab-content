@@ -294,6 +294,12 @@ This means that:
   
 \end{remark}
 
+\begin{remark}\label{SUSYExcitationsOfEMState}
+**(supersymmetric excitations of the RM state)**
+\linebreak
+  Analogous analysis shows &lbrack;[Gromov, Martinec & Ryu 2020](#GromovMartinecRyu20)&rbrack; that also the *excitations* of the Moore-Read state should come in [[superpartner]]-pairs (a bosonic "magnetoroton" and a fermionc "neutral fermion") mode. This emergent supersymmetry seems to be experimentally observed &lbrack;[Pu, Balram, Fremling, Gromov & Papić 2023](#PuBalramFremlingGromovPapić23), [Liu, Zhao & Xiang 2024](#LiuZhaoXiang24)&rbrack;
+\end{remark}
+
 
 ### Basic Laughlin wavefunction with quasi-holes
  {#BasicLaughlinStateWithQuasiHoles}
