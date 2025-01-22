@@ -441,3 +441,14 @@ Critical discussion:
 
 [[!redirects Laughlin state]]
 [[!redirects Laughlin states]]
+
+[[!redirects Moore-Read state]]
+[[!redirects Moore-Read states]]
+
+[[!redirects Moore-read wavefunction]]
+[[!redirects Moore-Read wavefunctions]]
+
+
+
+
+
