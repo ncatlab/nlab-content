@@ -260,7 +260,7 @@ $$
     \big)
     \\
     \;=\;
-    \left(-\tfrac{q}{2}\right)^{N/2}
+    (-q)^{N/2}
     \,
     vd\big(z_\bullet\big)^q
     \,
