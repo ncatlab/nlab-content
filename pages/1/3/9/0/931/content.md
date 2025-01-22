@@ -19,7 +19,7 @@
 A _torsor_ (in the [[category of sets]]) is, roughly speaking, a [[group]] that has forgotten its identity element; given any (non-empty) torsor with respect to a group $G$, we recover a group isomorphic to $G$ by making what is known as a _trivialisation_ of the torsor, which roughly corresponds to choosing an identity element. That we wish to keep track of the choice is precisely the reason for working with torsors.
 
 Something analogous is present in the theory of [[Grothendieck fibration|fibrations]], where it can be important to make a choice of lifts ('cloven fibrations').
-
+co
 The notion of a torsor can be [[internalisation|internalised]] to any category with products, and more generally to any category in which the notion of an internal group can be made good sense of. We discuss this general notion below, after first discussing the notion in the category of sets. 
 
 
@@ -100,15 +100,13 @@ $$(G,T)\to(LTrans(T),T),\qquad g\mapsto (t\mapsto gt),\qquad t\mapsto t.$$
   \end{tikzcd} 
 \end{centre}
 
-Since $\underline{T}$ is a $G$-torsor, we have that $a \times p_2$ is an isomorphism. The proposition thus follows immediately from the fact that pullbacks of isomorphisms are isomorphisms (as proven at [[pullback]]).
+Since $\underline{T}$ is a $G$-torsor, we have that $a \times p_2$ is an isomorphism. The proposition thus follows immediately from the fact that pullbacks of isomorphisms are isomorphisms (as proven at [[pullback]]). \end{proof} 
 
-\end{proof} 
+\begin{defn} Let $G$ be a [[group]], and let $\underline{T} = \left( T, a: G \times T \rightarrow T \right)$ be a $G$-torsor. A _trivialisation_ of $\underline{T}$ is an [[isomorphism]] of $G$-torsors between $T$ and the underlying $G$-torsor of $G$. \end{defn} 
 
-\begin{defn} Let $G$ be a [[group]], and let $\underline{T} = \left( T, a: G \times T \rightarrow T \right)$ be a $G$-torsor. A _trivialisation_ of $\underline{T}$ is an [[isomorphism]] between $T$ and the underlying set of $G$. \end{defn} 
+\begin{rmk} By Proposition \ref{PropositionTorsorIsomorphicAsSetToStructureGroup}, if $T$ is non-empty, $T$ is always isomorphic to the underlying $G$-torsor of $G$.   A trivialisation of $\underline{T}$ is a _choice_ of such an isomorphism.
 
-\begin{rmk} By Proposition \ref{PropositionTorsorIsomorphicAsSetToStructureGroup}, if $T$ is non-empty, $T$ is always isomorphic to the underlying set of $G$. Thus the notion of a trivialisation of $\underline{T}$ is a question of a _choice_ of isomorphism between $T$ and the underlying set of $G$. 
-
-The proof of Proposition \ref{PropositionTorsorIsomorphicAsSetToStructureGroup} shows that any choice of element of $T$ gives rise to a trivialisation. Some of these may of course coincide. \end{rmk} 
+The proof of Proposition \ref{PropositionTorsorIsomorphicAsSetToStructureGroup} shows that any choice of element of $T$ gives rise to a trivialisation.\end{rmk} 
 
 \begin{rmk} \label{RemarkGroupStructureFromTrivialisation} Let $\rho : G \rightarrow T$ be a trivialisation of a torsor $\underline{T}$. The map 
 
