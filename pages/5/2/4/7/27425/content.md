@@ -24,6 +24,7 @@ A _weighted category_ or _normed category_ can be viewed as:
 * A structure which is to a [[category]] as a [[metric space#LawvereMetricSpace|Lawvere metric space]] is to a [[preorder]];
 * Like a [[weighted graph]] or [[multigraph]], but equipped with [[identity]] and [[composition]] (and a [[triangle inequality]]);
 * Like a [[metric space]] or [[metric space#LawvereMetricSpace|Lawvere metric space]], but with many arrows or "paths with length" between any two objects.
+* A category enriched in the [[free coproduct completion]] of the monoidal category of real numbers used to define [[metric space#LawvereMetricSpace|Lawvere metric spaces]] (compare [[locally graded category]]).
 
 Depending on the author, the precise definitions vary slightly, see below as well as the [references](#references).
 
@@ -119,6 +120,8 @@ This is analogous to how often, in geometry as well as in ordinary life, [[lengt
 * Daniel Luckhardt and Matt Insall, _Norms on Categories and Analogs of the Schroeder-Bernstein Theorem_, 2021. ([arXiv](http://arxiv.org/abs/2105.06832))
 
 * [[Paolo Perrone]], _Lifting couplings in Wasserstein spaces_, 2021. ([arXiv](https://arxiv.org/abs/2110.06591))
+
+* Maria Manuel Clementino, Dirk Hofmann, and Walter Tholen, _Cauchy convergence in V-normed categories_, [arXiv:2404.09032](https://arxiv.org/abs/2404.09032) (2024).
 
 
 [[!redirects weighted categories]]
