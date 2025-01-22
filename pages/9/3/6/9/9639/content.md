@@ -712,6 +712,10 @@ category: physics
 [[!redirects quantum Hall material]]
 [[!redirects quantum Hall materials]]
 
+[[!redirects quantum Hall system]]
+[[!redirects quantum Hall systems]]
+
+
 [[!redirects fractional quantum Hall system]]
 [[!redirects fractional quantum Hall systems]]
 
