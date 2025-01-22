@@ -1253,6 +1253,11 @@ Remembering that there is a considerable difference between global low energy su
 * {#Duff04} [[Michael Duff]], _Erice lectures on "The status of local supersymmetry"_ ([arXiv:hep-th/0403160](http://arxiv.org/abs/hep-th/0403160))
 
 
+
+[[!include emergent supersymmetry in solid state physics -- references]]
+
+
+
  
 [[!redirects supersymmetries]]
 [[!redirects Supersymmetry]]
