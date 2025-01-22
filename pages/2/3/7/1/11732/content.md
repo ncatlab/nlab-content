@@ -98,9 +98,9 @@ $$
 
 ## References
 
-* {#Watts} Jordan Watts, _The Kummer sequence_ ([pdf](http://www.math.toronto.edu/jwatts/papers/galois.pdf))
+* {#Watts} Jordan Watts, _The Kummer sequence_ ([pdf](http://www.math.toronto.edu/jwatts/papers/galois.pdf), [archived](https://web.archive.org/web/20160910001550/http://www.math.toronto.edu:80/jwatts/papers/galois.pdf))
 
-* {#Sutherland} Tom Sutherland, _&#201;tale cohomology_ ([pdf](http://www-dimat.unipv.it/sutherland/etale.pdf))
+* {#Sutherland} Tom Sutherland, _&#201;tale cohomology_ ([pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=c198d690816bce3df411cad5cd0a96da2df0b474))
 
 [[!redirects roots of unity]]
 
