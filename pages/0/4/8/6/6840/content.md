@@ -5,7 +5,7 @@
 
 On [[spherical T-duality]]:
 
-* [[Gil R. Cavalcanti]], Bart Heemskerk, *Topological Spherical T-duality -- Dimension change from higher degree H-flux* &lbrack;[arXiv:2405.14054](https://arxiv.org/abs/2405.14054)&rbrack;
+* [[Gil R. Cavalcanti]], Bart Heemskerk, [[Bernardo Uribe]]: *Topological Spherical T-duality -- Dimension change from higher degree H-flux* &lbrack;[arXiv:2405.14054](https://arxiv.org/abs/2405.14054)&rbrack;
 
 
 category: people
