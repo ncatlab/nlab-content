@@ -241,6 +241,11 @@ Resolution of [[scalar field]]-dressed [[Schwarzschild black holes]] in [[D=11 s
 
 * [[Ibrahima Bah]], Pierre Heidmann, *Geometric Resolution of Schwarzschild Horizon* &lbrack;[arXiv:2303.10186](https://arxiv.org/abs/2303.10186)&rbrack;
 
+Via [[M2-M5 brane bound states]]:
+
+* [[Iosif Bena]], [[Anthony Houppe]], [[Dimitrios Toulikas]], [[Nicholas P. Warner]], *Maze Topiary in Supergravity* &lbrack;[arXiv:2312.02286](https://arxiv.org/abs/2312.02286)&rbrack;
+  > (relation to [[black holes in string theory]])
+
 
 ### Fat black holes
 
