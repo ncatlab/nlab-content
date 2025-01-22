@@ -1,5 +1,12 @@
 
-* [website](https://sites.google.com/site/bernardouribejongbloed/)
+* [personal page](https://sites.google.com/site/bernardouribejongbloed/)
+
+* [institute page](https://guayacan02.uninorte.edu.co/4PL1CACI0N35/HV2/profile.php?id=DPTO.%20MATEMATICAS%20Y%20ESTADIST.&id_docente=DPTO.%20MATEMATICAS%20Y%20ESTADIST.%2020)
+
+* [Wikipedia entry](https://en.m.wikipedia.org/wiki/Bernardo_Uribe)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=iNeLZp8AAAAJ&hl=en)
+
 
 ## Selected writings
 
@@ -44,6 +51,10 @@ On [[equivariant principal bundles]] and their [[classifying spaces]]:
 On the analog of the [[Atiyah-Hirzebruch spectral sequence]] for [[twisted equivariant K-theory]]:
 
 * [[Noé Bárcenas Torres|Noé Bárcenas]], [[Jesús Francisco Espinoza Fierro|Jesús Espinoza]], [[Bernardo Uribe]], [[Mario Velasquez]], _Segal's spectral sequence in twisted equivariant K-theory for proper and discrete actions_, Proceedings of the Edinburgh Mathematical Society **61** 1 (2018) ([arXiv:1307.1003](https://arxiv.org/abs/1307.1003), [doi:10.1017/S0013091517000281](https://doi.org/10.1017/S0013091517000281))
+
+On [[spherical T-duality]]:
+
+* [[Gil R. Cavalcanti]], Bart Heemskerk, [[Bernardo Uribe]]: *Topological Spherical T-duality -- Dimension change from higher degree H-flux* &lbrack;[arXiv:2405.14054](https://arxiv.org/abs/2405.14054)&rbrack;
 
 category: people
 
