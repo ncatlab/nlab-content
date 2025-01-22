@@ -261,9 +261,14 @@ The first actual statement of what came to be called the standard model is (cf. 
 
 * [[John Iliopoulos]]: *Progress in Gauge Theories*, in: *High energy physics*, Proceedings, 17th International Conference, ICHEP 1974, London, England, July 01-July 10 (1974) III.89-116  &lbrack;[spire:3000](https://inspirehep.net/literature/3000), [pdf](https://inspirehep.net/files/a995da1bd7c951e14421df33810a9c43)&rbrack;
 
-Textbook accounts:
+Early lecture notes in the broader context of [[gauge theories]]:
 
-* W. Noel Cottingham, ; Derek A. Greenwood, _An introduction to the standard model of particle physics_, Cambridge University Press 2012 ([doi:10.1017/CBO9780511791406 ](   https://doi.org/10.1017/CBO9780511791406 ), [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1126.81002&format=complete))
+* [[John Iliopoulos]]: *An introduction to gauge theories*, Academic Training Lectures, Geneva (1975) &lbrack;[cds:185945](https://cds.cern.ch/record/185945?ln=en), [pdf](https://cds.cern.ch/record/185945/files/CERN-76-11.pdf)&rbrack;
+
+
+Monographs:
+
+* W. Noel Cottingham, Derek A. Greenwood: _An introduction to the standard model of particle physics_, Cambridge University Press 2012 ([doi:10.1017/CBO9780511791406 ](https://doi.org/10.1017/CBO9780511791406 ), [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1126.81002&format=complete))
 
 *  [[Paul Langacker]], _The Standard Model and Beyond_, CRC Press 2009, 2012, second edition 2017 ([spire:846915](http://inspirehep.net/record/846915/), [publisher webpage](https://www.crcpress.com/The-Standard-Model-and-Beyond/Langacker/p/book/9781498763219), [author webpage](http://www.sns.ias.edu/~pgl/SMB/))
 
@@ -348,7 +353,9 @@ Discussion of [[anomaly cancellation]] on the [[standard model of particle physi
 > The big international conference of $[$1974$]$ in 
 London was a turning point $[$...$]$ Ellis' catalog well reflected the state  of theoretical confusion and general disarray in trying to  interpret the $e^+ e^-$ data. But in the midst of all of this was a  talk by [[John Iliopoulos]] (I think I was there too). With  passionate zealotry, he laid out with great accuracy what we call the [[standard model of particle physics|standard model]]. Everything was there: [[proton decay]], [[charm quark|charm]],  the GIM mechanism of course, [[QCD]], the $SU(2)\times U(1)$ [[electroweak  theory]], $SU(5)$ [[GUT|grand unification]], [[Higgs field|Higgs]], etc. It was all presented with absolute conviction and sounded at the time just a little mad, at least to me (I am a conservative).
 
-* [[Tom Kibble]], _The Standard Model of Particle Physics_ ([arXiv:1412.4094](http://arxiv.org/abs/1412.4094))
+* [[John Iliopoulos]]: *The rise of the Standard Model*, section 6 of: *Physics in the CERN theory division*, CHS-39, Geneva (1993) &lbrack;[cds:261679](https://cds.cern.ch/record/261679?ln=en), [pdf](https://cds.cern.ch/record/261679/files/CERN-CH-39.pdf)&rbrack;
+
+* [[Tom Kibble]], _The Standard Model of Particle Physics_ &lbrack;[arXiv:1412.4094](http://arxiv.org/abs/1412.4094)&rbrack;
 
 * {#Iliopoulos16} [[John Iliopoulos]]: _The making of the standard theory_, Adv. Ser. Direct. High Energy Phys. **26** (2016) 29-59 &lbrack;[spire:1497884](http://inspirehep.net/record/1497884), [pdf](http://cds.cern.ch/record/2217096/files/9789814733519_0002.pdf)&rbrack;
 
