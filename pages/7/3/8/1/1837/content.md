@@ -210,15 +210,23 @@ The following tries to give an overview of some collection of gauge fields in ph
 
 ## References
 
+> See also references at *[[standard model of particle physics]]*.
+
 ### General
 
-Historical origins:
+On the historical origins:
 
 * A. C. T. Wu, [[Chen Ning Yang]], *Evolution of the concept of vector potential in the description of the fundamental interactions*,  International Journal of Modern Physics A **21** 16 (2006) 3235-3277 &lbrack;[doi:10.1142/S0217751X06033143](https://doi.org/10.1142/S0217751X06033143)&rbrack;
 
 * [[Chen Ning Yang]], *The conceptual origins of Maxwell’s equations and gauge theory*, Phyics Today **67** 11 (2014) &lbrack;[doi:10.1063/PT.3.2585](https://doi.org/10.1063/PT.3.2585), [pdf](http://home.ustc.edu.cn/~lxsphys/2021-3-18/The%20conceptual%20origins%20of%20Maxwell%27s%20equations%20and%20gauge%20theory.pdf)&rbrack;
 
-Textbook accounts:
+Early lecture notes:
+
+* [[John Iliopoulos]]: *An introduction to gauge theories*, Academic Training Lectures, Geneva (1975) &lbrack;[cds:185945](https://cds.cern.ch/record/185945?ln=en), [pdf](https://cds.cern.ch/record/185945/files/CERN-76-11.pdf)&rbrack;
+  > (in view of the [[standard model of particle physics]])
+
+
+Monographs
 
 * [[Yuri Makeenko]], *Methods of contemporary gauge theory*, Cambridge Monographs on Math. Physics, Cambridge University Press (2002) &lbrack;[doi:10.1017/CBO9780511535147]( https://doi.org/10.1017/CBO9780511535147), [gBooks](http://books.google.com/books?id=9W-W2w75ulAC)&rbrack;
 
