@@ -31,7 +31,7 @@ For $X$ a [[CW complex]], the inclusion $A \hookrightarrow X$ of any subcomplex 
 
 =--
 
-For instance ([Hatcher, prop. A.5](#Hatcher)).
+For instance ([Hatcher 2002, prop. A.5](#Hatcher02)).
 
 +-- {: .num_prop #HomologyOfQuotientSpace}
 ###### Proposition
@@ -47,7 +47,7 @@ $$
 
 =--
 
-For instance ([Hatcher, prop. 2.22](#Hatcher)).
+For instance ([Hatcher 2002, prop. 2.22](#Hatcher02)).
 
 +-- {: .proof}
 ###### Proof
@@ -97,7 +97,7 @@ $$
 \end{proposition}
 (e.g. [Hatcher](#Hatcher) [p 11](https://pi.math.cornell.edu/~hatcher/AT/AT.pdf#page=20)).
 
-\begin{example}
+\begin{example}\label{SphereWithArcAttached}
   Let  $X$ be the [[pushout]] (in [[Top]]) which attaches an arc --- identified as $A \subset X$ --- to the [[2-sphere]], connecting a pair of distinct points:
 
 \begin{imagefromfile}
@@ -111,7 +111,7 @@ $$
         "right": 0, 
         "left": 10
     },
-    "caption": "From [Hatcher](#Hatcher)"
+    "caption": "(from [Hatcher 2002](#Hatcher))"
 \end{imagefromfile}
 
 
@@ -153,12 +153,12 @@ $$
 $$
 
 \end{example}
-(e.g. [Hatcher](#Hatcher) [p 11](https://pi.math.cornell.edu/~hatcher/AT/AT.pdf#page=20)).
+(e.g. [Hatcher 2002](#Hatcher) [p 11](https://pi.math.cornell.edu/~hatcher/AT/AT.pdf#page=20)).
 
 In generalization of this example:
 
 \begin{example}
-  For $\Sigma^2_{g,n}$ the result of equipping a [[closed manifold|closed]] [[surface]] $\Sigma^2_g$ with $n \geq 2$ [[punctures]], the [[one-point compactification]] $\big(\Sigma^2_{g,n}\big)^\ast$ is [[homotopy equivalence|homotopy equivalent]] to the [[wedge sum]] of the original surface with $n-1$ [[circles]]:
+  For $\Sigma^2_{g,n} \,\coloneqq\, \Sigma^2_g \setminus \{s_1, \cdots, s_n\}$ the result of subjecting a [[closed manifold|closed]] [[surface]] $\Sigma^2_g$ to $n \geq 2$ [[punctures]], the [[one-point compactification]] $\big(\Sigma^2_{g,n}\big)^\ast$ is [[homotopy equivalence|homotopy equivalent]] to the [[wedge sum]] of the original surface with $n-1$ [[circles]]:
 
 $$
   \big(\Sigma^2_{g,n}\big)^\ast
@@ -167,13 +167,17 @@ $$
   \,.
 $$
 
+This follows from Prop. \ref{Pinching} by generalizing Ex. \ref{SphereWithArcAttached} as follows: Instead of a single arc, take $A$ and $B$ there to each be, in themselves, the  linear [[graph]] consisting of $n-1$ arcs ([[edges]]) and observe that that after identifying the [[vertices]] all with each other, this gives the [[wedge sum]] of $(n-1)$ circles.
+
+Then take $X \coloneqq \Sigma^2_g \cup A$ to be the result of attaching this graph to the closed surface by gluing the vertices to the marked points (the would-be punctures) and observe that $(\Sigma^2_{g,n})^\ast = X/A$. With $B$ similarly identified as the corresponding graph but now embedded inside $\Sigma^2_g$, we have $X/B = \Sigma^2_g \,\vee\, \textstyle{\bigvee_{n-1}} S^1$.
+
 \end{example}
 
 
 
 ## References
 
-* {#Hatcher} [[Allen Hatcher]]: *[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)* (2002)
+* {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
  
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 5.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://pi.math.cornell.edu/~hatcher/AT/AT.pdf))
 
