@@ -5,6 +5,8 @@ __Bruno Valette__ is a mathematician at Univ. Paris 13 with main interests in [[
 
 * [personal page](https://www.math.univ-paris13.fr/~vallette/index-english.html)
 
+* [inSpire page](https://inspirehep.net/authors/2135088)
+
 * [Wikipedia entry (fr)](https://fr.wikipedia.org/wiki/Bruno_Vallette)
 
 * [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=76014)
@@ -18,6 +20,10 @@ On [[operads]]:
 On doubly [[monoidal categories]] of [[quadratic operads]]:
 
 * [[Yuri Ivanovich Manin]], [[Bruno Vallette]], _Monoidal structures on the categories of quadratic data_, Documenta Mathematica __25__ (2020) 1727-1786 &lbrack;[arXiv:1902.03778](https://arxiv.org/abs/1902.03778)&rbrack;
+
+On [[Lie integration]] of [[L-infinity algebras|$L_\infty$-algebras]] and its [[left adjoint]] ([[higher Lie theory]]), generalizing parts of the [[fundamental theorem of dg-algebraic rational homotopy theory]] beyond [[finite type]]:
+
+* [[Daniel Robert-Nicoud]], [[Bruno Vallette]]: *Higher Lie theory* &lbrack;[arXiv:2010.10485](https://arxiv.org/abs/2010.10485)&rbrack;
 
 
 See also:
