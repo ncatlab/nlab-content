@@ -1166,30 +1166,31 @@ $$
 
 [[!include higher Atiyah groupoid - table]]
 
+
 ## References
 
 The [above](#TheTraditionalCourantLie2Algebroid) identification of higher Atiyah groupoids of "bundle gerbes with connective structure but without [[curving]]" with those [[Lie integration|Lie integrating]] the corresponding [[standard Courant Lie 2-algebroid]] is directly implied (under the above translations) by the main result in 
 
-* [[Braxton Collier]], _Infinitesimal Symmetries of Dixmier-Douady Gerbes_ ([arXiv:1108.1525](http://arxiv.org/abs/1108.1525))
- {#Collier}
+* {#Collier} [[Braxton Collier]], _Infinitesimal Symmetries of Dixmier-Douady Gerbes_ ([arXiv:1108.1525](http://arxiv.org/abs/1108.1525))
+ 
 
 The corresponding inclusion of the [[Poisson Lie 2-algebra]] into the [[Lie 2-algebra]] of bisections of the [[Courant Lie 2-algebroid]] was first observed in
 
-* [[Chris Rogers]], _2-plectic geometry, Courant algebroids, and categorified prequantization_ ,  [arXiv:1009.2975](http://arxiv.org/abs/1009.2975).
- {#Rogers10}
+* {#Rogers10} [[Chris Rogers]], _2-plectic geometry, Courant algebroids, and categorified prequantization_ ,  [arXiv:1009.2975](http://arxiv.org/abs/1009.2975).
+ 
 
 in the context of _[[2-plectic geometry]]_ over [[smooth manifolds]].
 
 The [[Poisson Lie n-algebra]] over an [[n-plectic manifold]], which by prop. \ref{spring} is the [[Lie differentiation]] of the [[quantomorphism n-group]] of any [[prequantum circle n-bundle]] prequantizing the $n$-plectic form, has been proposed in
 
-* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
- {#Rogers11}
+* {#Rogers11} [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
+ 
 
 
-Most further statements here will appear in 
+The further statements and the discussion above follow:
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
- {#FiorenzaRogersSchreiber}
+* {#FiorenzaRogersSchreiber} [[Domenico Fiorenza]], [[Chris L. Rogers]], [[Urs Schreiber]]: *[[schreiber:Higher geometric prequantum theory|Higher $U(1)$-gerbe connections in geometric prequantization]]*, Reviews in Mathematical Physics **28** 06 (2016) &lbrack;[arXiv:1304.0236](https://arxiv.org/abs/1304.0236), [doi:10.1142/S0129055X16500124](https://doi.org/10.1142/S0129055X16500124)&rbrack;
+ 
 
 
 [[!redirects higher Atiyah groupoids]]
