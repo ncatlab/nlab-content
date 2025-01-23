@@ -29,7 +29,7 @@ This may be generalized by replacing [[Set]] with a more general [[cocomplete ca
 ### For monoidal categories
  {#ForMonoidalCategories}
 
-Let $V$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]] with all small [[limits]] and [[colimits]].
+Let $V$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]] with all small [[limits]] and [[colimits]], in other words a [[Bénabou cosmos]].
 
 For $\mathcal{C}$ a  $V$-[[enriched category]], write $[\mathcal{C},V]$ for the $V$-[[enriched functor category]] to $V$, etc.
 
