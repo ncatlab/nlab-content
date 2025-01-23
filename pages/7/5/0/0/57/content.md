@@ -794,9 +794,21 @@ and for [[nilpotent L-infinity algebras]]:
 
 * {#Getzler04} [[Ezra Getzler]], _Lie theory for nilpotent $L_\infty$ algebras_, Annals of Mathematics, 170 (2009), 271-301 &lbrack;[math.AT/0404003](http://arxiv.org/abs/math/0404003)&rbrack;
 
-(whose main point is the discussion of a gauge condition applicable for nilpotent $L_\infty$-algebras that cuts down the result of the Sullivan construction to a much smaller but equivalent model) .
+whose main point is the discussion of a gauge condition applicable for nilpotent $L_\infty$-algebras that cuts down the result of the Sullivan construction to a much smaller but equivalent model, further discussed in
 
-This was refined from integration to bare $\infty$-groupoids to an integration to [[internal ∞-groupoid]]s in [[Banach manifolds]] in
+* [[Daniel Robert-Nicoud]], [[Bruno Vallette]]: *Higher Lie theory* &lbrack;[arXiv:2010.10485](https://arxiv.org/abs/2010.10485)&rbrack;
+
+with generalization to [[curved L-infinity algebras|curved $L_\infty$-algebras]] in:
+
+* [[Victor Roca i Lucio]]: *The integration theory of curved absolute $\mathcal{L}_\infty$ algebras* &lbrack;[arXiv:2209.10282](https://arxiv.org/abs/2209.10282)&rbrack;
+
+
+and generalized to [[positive characteristic]] in:
+
+* [[Victor Roca i Lucio]]: *Higher Lie theory in positive characteristic* &lbrack;[arXiv:2306.07829](https://arxiv.org/abs/2306.07829)&rbrack;
+
+
+This Lie integration is refined from taking values in bare $\infty$-groupoids to an integration to [[internal ∞-groupoids]] in [[Banach manifolds]] by
 
 * {#Henriques} [[André Henriques]], _Integrating $L_\infty$ algebras_, Compos. Math. __144__  (2008), no. 4, 1017--1045 ([doi](http://dx.doi.org/10.1112/S0010437X07003405),[math.AT/0603563](http://arxiv.org/abs/math.AT/0603563))
 
@@ -876,4 +888,9 @@ and commutative Hopf algebroids,
 [[!redirects higher Lie integration]]
 [[!redirects higher Lie integrations]]
 
+[[!redirects integration of L-infinity algebras]]
+[[!redirects integration of L-∞ algebras]]
+
 category: Lie theory
+
+
