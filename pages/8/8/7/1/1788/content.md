@@ -1,4 +1,6 @@
 
+$\infty$
+
 [[emergent supersymmetry in solid state physics -- references]]
 
 
