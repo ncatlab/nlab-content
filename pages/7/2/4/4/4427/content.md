@@ -26,6 +26,19 @@ _Higher Lie theory_ is the refinement of [[Lie theory]] to [[higher geometry]] (
 
   * [[motivation for higher differential geometry]]
 
+## References
+
+> For much more see the references at *[[integration of L-infinity algebras]]* and also *[[fundamental theorem of dg-algebraic rational homotopy theory]]*.
+
+* [[Daniel Robert-Nicoud]], [[Bruno Vallette]]: *Higher Lie theory* &lbrack;[arXiv:2010.10485](https://arxiv.org/abs/2010.10485)&rbrack;
+
+in [[positive characteristic]]:
+
+* [[Victor Roca i Lucio]]: *Higher Lie theory in positive characteristic* &lbrack;[arXiv:2306.07829](https://arxiv.org/abs/2306.07829)&rbrack;
+
+
+
+
 [[!redirects ∞-Lie theory]]
 
 [[!redirects higher Lie theory]]
