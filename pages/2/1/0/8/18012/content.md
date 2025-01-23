@@ -84,6 +84,11 @@ hence that the unary operation $l_1$ no longer necessarily squares to zero (no l
 
 * {#MehtaZambon12} [[Rajan Mehta]], [[Marco Zambon]]: *$L_\infty$-Actions*, Differential Geometry and its Applications **30** (2012) 576-587 &lbrack;[arXiv:1202.2607](https://arxiv.org/abs/1202.2607), [doi:10.1016/j.difgeo.2012.07.006](https://doi.org/10.1016/j.difgeo.2012.07.006)&rbrack;
 
+On [[Lie integration]] of curved $L_\infty$-algebras:
+
+* [[Victor Roca i Lucio]]: *The integration theory of curved absolute $\mathcal{L}_\infty$ algebras* &lbrack;[arXiv:2209.10282](https://arxiv.org/abs/2209.10282)&rbrack;
+
+
 
 [[!redirects curved L-infinity algebras]]
 
