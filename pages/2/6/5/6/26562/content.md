@@ -27,7 +27,7 @@ The main end goals of categorical probability are
 
 * To generalize existing results in probability theory to more general settings, for example with less stringent conditions on countability, separability, etc.;
 * To find new results, which with the traditional methods would have been too complex to prove;
-* To make probability and related fields more accessible to practitioners, thanks to the fact that the formalism incorporates measure theory without requiring any deep knowledge of it.
+* To make probability and related fields more accessible to practitioners, thanks to the fact that the formalism incorporates measure theory without requiring the user to have any deep knowledge of it.
 
 
 ## Main structures of interest
