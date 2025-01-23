@@ -97,6 +97,11 @@ Formalization of the [[(infinity,1)-Yoneda lemma|$(\infty,1)$-Yoneda lemma]] via
 
 * [[Nikolai Kudasov]], [[Emily Riehl]], [[Jonathan Weinberger]]. *Formalizing the $\infty$-categorical Yoneda lemma* (2023) &lbrack;[arXiv:2309.08340](https://arxiv.org/abs/2309.08340)&rbrack;
 
+On formalization of [[infinity-cosmos|$\infty$-cosmoi]] in the [[proof assistant]] *[[Lean]]*:
+
+* [[Emily Riehl]]: *The $\infty$-cosmos project: formalizing 1-, 2-, $V$-, and $\infty$-category theory*, talk at *[Lean Together 2025](https://leanprover-community.github.io/lt2025/)* &lbrack;video:[YT](https://youtu.be/pV6BIImkToU)&rbrack;
+
+
 
 category: people
 
