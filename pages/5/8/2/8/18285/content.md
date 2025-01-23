@@ -74,6 +74,11 @@ For an exploration of atypical examples of ∞-cosmoi whose objects are 2-catego
 
 * [[Emily Riehl]], Mira Wattal, _On ∞-cosmoi of bicategories_ ([arXiv:2108.11786](https://arxiv.org/abs/2108.11786))
 
+On formalization of $\infty$-cosmoi in the [[proof assistant]] *[[Lean]]*:
+
+* [[Emily Riehl]]: *The $\infty$-cosmos project: formalizing 1-, 2-, $V$-, and $\infty$-category theory*, talk at *[Lean Together 2025](https://leanprover-community.github.io/lt2025/)* &lbrack;video:[YT](https://youtu.be/pV6BIImkToU)&rbrack;
+
+
 
 [[!redirects infinity-cosmoi]]
 
