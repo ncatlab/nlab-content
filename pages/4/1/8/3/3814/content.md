@@ -268,13 +268,15 @@ Early lecture notes in the broader context of [[gauge theories]]:
 
 Monographs:
 
-* W. Noel Cottingham, Derek A. Greenwood: _An introduction to the standard model of particle physics_, Cambridge University Press 2012 ([doi:10.1017/CBO9780511791406 ](https://doi.org/10.1017/CBO9780511791406 ), [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1126.81002&format=complete))
+* W. Noel Cottingham, Derek A. Greenwood: _An introduction to the standard model of particle physics_, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511791406 ](https://doi.org/10.1017/CBO9780511791406 ), [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1126.81002&format=complete)&rbrack;
 
-*  [[Paul Langacker]], _The Standard Model and Beyond_, CRC Press 2009, 2012, second edition 2017 ([spire:846915](http://inspirehep.net/record/846915/), [publisher webpage](https://www.crcpress.com/The-Standard-Model-and-Beyond/Langacker/p/book/9781498763219), [author webpage](http://www.sns.ias.edu/~pgl/SMB/))
+*  [[Paul Langacker]]: _The Standard Model and Beyond_, CRC Press (2009, 2012, second edition 2017) &lbrack;[spire:846915](http://inspirehep.net/record/846915/), [publisher webpage](https://www.crcpress.com/The-Standard-Model-and-Beyond/Langacker/p/book/9781498763219), [author webpage](http://www.sns.ias.edu/~pgl/SMB/)&rbrack;
 
-*  J D Vergados, _The Standard Model and Beyond_, World Scientific 2017 ([doi:10.1142/10669](https://www.worldscientific.com/worldscibooks/10.1142/10669))
+* J. D. Vergados: *The Standard Model and Beyond*, World Scientific (2017) &lbrack;[doi:10.1142/10669](https://www.worldscientific.com/worldscibooks/10.1142/10669)&rbrack;
 
-Review and introduction:
+* [[John F. Donoghue]], Eugene Golowich, Barry R. Holstein: *Dynamics of the Standard Model*, Cambridge University Press (2022) &lbrack;[doi:10.1017/9781009291033](https://doi.org/10.1017/9781009291033), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FF8A95F0F22A67FABA729DBB39BA2816/9781009291002AR.pdf)&rbrack;
+
+Further review and introduction:
 
 * [[Cliff Burgess]], Guy Moore: *The Standard Model -- A Primer*, Cambridge University Press (2011) &lbrack;[doi:10.1017/CBO9780511819698](https://doi.org/10.1017/CBO9780511819698), [pdf](https://physics.mcmaster.ca/~cburgess/Book/Ch1-6SnippetSM.pdf)&rbrack;
 
