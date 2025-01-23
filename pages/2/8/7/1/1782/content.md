@@ -48,7 +48,7 @@ Both of these constructions produce a [[spectrum]] (hence [[Brown representabili
 
 
 
-The classical case of the algebraic K-theory of a commutative ring $R$ is a special case of this general concept of algebraic K-theory by either forming the [[symmetric monoidal category]] $(Mod(R), \oplus)$ and applying the [[abelian ∞-group]]-completion to that, or else forming the [[stable (∞,1)-category of chain complexes]] of $R$-modules and applyong the [[Waldhausen S-construction]] to that. In both cases the result is a [[spectrum]] whose degree-0 [[homotopy group]] is the ordinary algebraic K-theory of $R$ as given by the [[Grothendieck group]] and whose higher homotopy groups are its _higher algebraic K-theory_ groups.
+The classical case of the algebraic K-theory of a commutative ring $R$ is a special case of this general concept of algebraic K-theory by either forming the [[symmetric monoidal category]] $(Mod(R), \oplus)$ and applying the [[abelian ∞-group]]-completion to that, or else forming the [[stable (∞,1)-category of chain complexes]] of $R$-modules and applying the [[Waldhausen S-construction]] to that. In both cases the result is a [[spectrum]] whose degree-0 [[homotopy group]] is the ordinary algebraic K-theory of $R$ as given by the [[Grothendieck group]] and whose higher homotopy groups are its _higher algebraic K-theory_ groups.
 
 
 
