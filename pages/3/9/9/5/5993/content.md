@@ -133,7 +133,7 @@ Compare this to the [[Berezinian integral]]-representation of the [[determinant]
 
 $$
   det(A)
-  \;\propto\;
+  \;=\;
   \textstyle{\int}   
   \left(
     \textstyle{\prod}_{i = 1}^{2n}
