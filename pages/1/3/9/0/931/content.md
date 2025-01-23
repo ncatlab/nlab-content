@@ -110,15 +110,15 @@ The proof of Proposition \ref{PropositionTorsorIsomorphicAsSetToStructureGroup} 
 
 \begin{rmk} \label{RemarkGroupStructureFromTrivialisation} Let $\rho : G \rightarrow T$ be a trivialisation of a torsor $\underline{T}$. The map 
 
-$$p_{1} \circ \left( \rho^{-1} \times id \right): T \times T \rightarrow G \times T \rightarrow G$$ 
+$$d : T \times T \to G : (u, v) \mapsto \left[\rho^{-1}(u)\right]^{-1} \cdot \rho^{-1}(v)$$
 
-where $p_1$ is the canonical map, can be interpreted as a notion of _division_ $d : T \times T \to G$, 'dividing' one element of $T$ by another to obtain an element of $G$. If we further compose $d$ with $\rho$ 
+can be interpreted as a notion of _division_ , 'dividing' one element of $T$ by another to obtain an element of $G$. If we further compose with $\rho$ 
 
 $$\rho \circ d : T \times T \rightarrow G \rightarrow T,$$
 
-we can think of the resulting map $D$ as a 'division structure' on $T$ for which $\rho$ behaves as an identity, namely such that $D(g, g) = \rho$ for all $g \in G$. In this way, $T$ acquires a group structure isomorphic to that of $G$. 
+we can think of the resulting map $D = \rho \circ d$ as a 'division structure' on $T$ for which $\rho(e)$ behaves as an identity, namely $D(u,u) = \rho(e)$ for all $u \in T$ and identity $e \in G$. In this way, $T$ acquires a group structure isomorphic to that of $G$. 
 
-Thus a trivialisation of a torsor equips with it a _choice_ of group structure amongst all of those isomorphic to $G$. 
+Thus, a trivialisation of a torsor equips it with a _choice_ of group structure amongst all of those isomorphic to $G$. 
 
 \end{rmk} 
 
