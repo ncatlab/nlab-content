@@ -146,7 +146,7 @@ exterior algebras_,  Trans. Amer. Math. Soc. 355 (2003), 4397-4426 [MR1990756](h
 
 A "curved" generalization is discussed in
 
-* Joseph Hirsh, Joan Mill&#232;s, _Curved Koszul duality theory_, Max Planck preprint MPIM2010-104, [pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=4217)
+* Joseph Hirsh, Joan Mill&#232;s, _Curved Koszul duality theory_, Max Planck preprint MPIM2010-104, [pdf](https://www.mpim-bonn.mpg.de/preblob/4217)
 * Gunnar Fl&#248;ystad, _Koszul duality and equivalences of categories_,  Trans. Amer. Math. Soc. __358__ (2006), 2373-2398 [math.AG/0012264](http://arxiv.org/abs/math/0012264)
 [MR2204036](http://www.ams.org/mathscinet-getitem?mr=2204036)
 [doi](http://dx.doi.org/10.1090/S0002-9947-05-04035-3)
