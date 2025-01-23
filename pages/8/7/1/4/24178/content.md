@@ -181,7 +181,8 @@ This super-Laughlin wavefunction unifies the basic Laughlin state (eq:BasicLaugh
 
 * the Moore&Read state (eq:BasicMooreReadState) is the top component (the [[coefficient]] of $\theta_1 \cdot \theta_2 \cdots \theta_N$) -- since, by [the Berezinian presentation of the Pfaffian](Pfaffian#PfaffianAsBerezinianIntegral), we have:
 
-$$
+\[
+  \label{MRStateAsTopSuperstateComponent}
   \begin{array}{l}
     \textstyle{\int}
     \left(
@@ -271,7 +272,7 @@ $$
     \right)
     \,.
   \end{array}
-$$
+\]
 
 This observation is due to [Hasebe 2008](#Hasebe08), cf. [Gromov, Martinec & Ryu 2020 (13)](#GromovMartinecRyu20).
 
@@ -367,15 +368,17 @@ $$
 
 gives another view of how the quasi-holes are *$q$-fractional* objects as compared to the electrons.
 
+
 ### GMP-excitations of Laughlin states
  {#GMPExcitationsOfLaughlinStates}
 
-There is supposed to be a "density wave" excitation of quantum Hall ground states --- called the "magneto-roton" &lbrack;[Girvin, MacDonald & Platzman 1986](#GirvinMacDonaldPlatzman86)&rbrack; ---, which, for [[wavevector]] $k \in \mathbb{C}$, has [[wavefunction]] given by acting with the "LLL-projected density operator" ([GMP86 (4.8)](#GirvinMacDonaldPlatzman86), reviewed by [Gromov, Martinec & Ryu 2020 (1-8)](#GromovMartinecRyu20))
+There is supposed to be a "density wave" excitation of quantum Hall ground states --- called the "magneto-roton" &lbrack;[Girvin, MacDonald & Platzman 1986](#GirvinMacDonaldPlatzman86)&rbrack; ---, which, for [[wavevector]] $k \in \mathbb{C}$, has [[wavefunction]] modeled by acting with the "LLL-projected density operator" ([GMP86 (4.8)](#GirvinMacDonaldPlatzman86), reviewed by [Gromov, Martinec & Ryu 2020 (1-8)](#GromovMartinecRyu20))
 
-$$
+\[
+  \label{DensityOperator}
   \overline{\rho}_k
   \,\coloneqq\,
-  \sum_i
+  \textstyle{\sum_i}
   \exp\big(
     - \mathrm{i} \overline{k} \partial_i
   \big)
@@ -383,11 +386,105 @@ $$
   \exp\big(
     - \tfrac{\mathrm{i}}{2} \overline{k} z^i
   \big)
-$$ 
+\] 
 
-on the given Laughlin/Moore-Read ground state.
+on the given Laughlin/Moore-Read ground state, for instance the GMP-excitation of a Moore-Read state (eq:BasicMooreReadState) is described by the wavefunction
 
-(...)
+\[
+  \label{GMPExcitationOfMRState}
+  \Psi_{GMP,k}
+  \,\coloneqq\,
+  \overline{\rho}_{k} \, \Psi_{MR}
+  \,.
+\]
+
+In fact, for the Moore-Read state another, second, excitation is expected &lbrack;[Greiter, Wen & Wilczek 1991](#GreiterWenWilczek91)&rbrack;, a "neutral fermion" excitation with putative wavefunction to be denoted 
+
+\[
+  \label{GWWExcitationOfMRState}
+  \Psi_{NF, k}
+  \,.
+\]
+
+However &lbrack;[Gromov, Martinec & Ryu 2020](#GromovMartinecRyu20)&rbrack;, a "simple and intuitive construction" of $\Psi_{NF,k}$ (eq:GWWExcitationOfMRState) similar to (eq:GMPExcitationOfMRState) "has been lacking", but is 
+provided by the [[superspace]] formulation  [above](#SupersymmetryBetweenLaughlinAndMooreReadStates): 
+
+First, the density operator (eq:DensityOperator) is the bosonic part of the following "LLL-projected *super*-density operator" &lbrack;[GMR20 (19)](#GromovMartinecRyu20)&rbrack;:
+
+\[
+  \label{SuperDensityOperator}
+  \overline{\rho}_{k, \kappa}
+  \,\coloneqq\,
+  \textstyle{\sum_i}
+  \exp\big(
+    - \mathrm{i} \overline{k} \partial_i
+  \big)
+  \,
+  \exp\big(
+    - \tfrac{\mathrm{i}}{2} \overline{k} z^i
+  \big)
+  \,
+  \exp\big(
+    - \tfrac{\mathrm{i}}{2} \kappa \theta^i
+  \big)
+  \,
+  \exp\big(
+    - \tfrac{\mathrm{i}}{2} \overline{\kappa} \overline{\theta}^i
+  \big)
+  \,,
+\] 
+
+where $\kappa$ is the odd component of a [[super vector space|super-]][[wavevector]].
+
+Acting with this on the super-Laughlin wavefunction $\Psi_{sLa}$ (eq:BasciSuperLaughlinWavefunction) and projecting on the top super-component, as appropriate (eq:MRStateAsTopSuperstateComponent) for the Moore-Read state 
+&lbrack;[GMR20 (24)](#GromovMartinecRyu20)&rbrack;
+\[
+  \label{SuperGMPState}
+  \Psi_{MR, (k,\kappa)}
+  \;\coloneqq\;
+  \textstyle{\int}
+  \big(
+    \textstyle{\prod}_i \mathrm{d}\theta^i
+  \big)
+  \,
+  \overline{\rho}_{k, \kappa}
+  \Psi_{sLa}
+\]
+
+describes indeed two different excitations of the Moore-Read state, depending on the parity of the number $N$ of [[electrons]] in the system:
+
+* **If $N$ is [[even number|even]]** (as it must be for the plain MR state) then 
+
+  since $\Psi_{sLa}$ (eq:BasciSuperLaughlinWavefunction) manifestly has vanishing coefficients for odd $\theta$-powers, only the even $\theta$-powers in $\overline{\rho}_{k, \kappa}$ (eq:SuperDensityOperator) contribute to the [[Berezinian integral]] in (eq:SuperGMPState), which thus reproduces the ordinary GMP magento-roton excitation of the MR-state &lbrack;[GMR20 (25)](#GromovMartinecRyu20)&rbrack;:
+
+  $$
+    N \in 2\mathbb{N}
+    \;\;\;\;\;
+    \Rightarrow
+    \;\;\;\;\;
+    \Psi_{MR, (k,\kappa)}
+    \;=\;
+    \overline{\rho}_{k}
+    \,
+    \Psi_{MR}
+  $$
+
+* **If $N$ is [[even number|even]]** (such as after adding one electron to the MR state) then (eq:SuperGMPState) is of the form &lbrack;[GMR20 (26)](#GromovMartinecRyu20)&rbrack;
+
+  $$
+    N \in 2\mathbb{N} + 1
+    \;\;\;\;\;
+    \Rightarrow
+    \;\;\;\;\;
+    \Psi_{MR, (k,\kappa)}
+    \;=\;
+    \kappa
+    \Psi_{NF,k}
+  $$
+
+  for a new wavefunction of $N$ electrons, which is just the neutral fermion mode (eq:GWWExcitationOfMRState).
+
+In this sense, these two collective excitations of the Moore-Read state are predicted to be super-partners of each other, in particular to have the same [[energy]] as $k \to 0$. Numerical evidence that this is indeed the case in [[quantum Hall systems]], at filling fraction $5/2$, has been found by [Pu, Balram, Fremling, Gromov & Papić 2023](#PuBalramFremlingGromovPapić23) and [Liu, Zhao & Xiang 2024](#LiuZhaoXiang24).
 
 
 \linebreak
@@ -446,9 +543,13 @@ The pfaffian modification for even-fractional filling factor is due to
 
 * {#MooreRead91} [[Gregory Moore]], [[Nicholas Read]]: *Nonabelions in the fractional quantum hall effect*, Nuclear Physics B **360** 2–3 (1991) 362-396 \[<a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>, [pdf](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)\]
 
-The GMP magneto-roton excitation of the Moore-Read state:
+The GMP *magneto-roton* excitation of the Moore-Read state:
 
 * {#GirvinMacDonaldPlatzman86} [[Steven M. Girvin]], A. H. MacDonald, P. M. Platzman: *Magneto-roton theory of collective excitations in the fractional quantum Hall effect*, Phys. Rev. B **33** (1986) 2481 &lbrack;[doi:10.1103/PhysRevB.33.2481](https://doi.org/10.1103/PhysRevB.33.2481), [inSpire:244382](https://inspirehep.net/literature/244382)&rbrack;
+
+and the GWW *neutral fermion* excitation of the Moore-Read state:
+
+* {#GreiterWenWilczek91} [[Martin Greiter]], [[Xiao-Gang Wen]], [[Frank Wilczek]]: *Paired Hall state at half filling*, Phys. Rev. Lett. **66** (1991) 3205 &lbrack;[doi:10.1103/PhysRevLett.66.3205](https://doi.org/10.1103/PhysRevLett.66.3205)&rbrack;
 
 
 Critical discussion:
