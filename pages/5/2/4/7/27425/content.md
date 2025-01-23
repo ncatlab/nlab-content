@@ -65,7 +65,7 @@ There are additional axioms one can assume on the norm, see the references for m
 
 ## As an enriched category
 
-Similarly to [[metric space#LawvereMetricSpace|Lawvere metric spaces]], weighted categories can be considered [[enriched categories]], where the enriching category is a "many-point version" of the interval $[0,\infty]$:
+Similarly to [[metric space#LawvereMetricSpace|Lawvere metric spaces]], weighted categories can be considered [[enriched categories]], where the enriching category is a "many-point version" of the interval $[0,\infty]$, the [[free coproduct completion]] of this interval considered as a monoidal category:
 
 * Define a **weighted set** to be a set $X$ equipped with a function $w:X\to [0,\infty]$;
 * Call a function $f:(X,w_X)\to (Y,w_Y)$ **short** (in analogy with [[short maps]]) if and only if for all $x\in X$,
