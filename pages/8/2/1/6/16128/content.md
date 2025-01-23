@@ -1,6 +1,11 @@
 
 
-* [webpage](http://blogs.umass.edu/donoghue/)
+* [personal page](http://blogs.umass.edu/donoghue)
+
+* [inSpire page](https://inspirehep.net/authors/1011544)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=ukl_zfEAAAAJ&hl=en)
+
 
 ## Selected writings
 
@@ -30,6 +35,11 @@ On subtleties of [[renormalization]] of the [[cosmological constant]]:
 * [[John Donoghue]]: *The cosmological constant and the use of cutoffs*, Phys. Rev. D **104** 045005 (2021) &lbrack;[arXiv:2009.00728](https://arxiv.org/abs/2009.00728), [doi:10.1103/PhysRevD.104.045005](https://doi.org/10.1103/PhysRevD.104.045005)&rbrack;
 
 * [[John Donoghue]]: *Do $\Lambda_{C C}$ and $G$ run?* &lbrack;[arXiv:2412.08773](https://arxiv.org/abs/2412.08773)&rbrack;
+
+On the [[standard model of particle physics]]:
+
+* [[John F. Donoghue]], Eugene Golowich, Barry R. Holstein: *Dynamics of the Standard Model*, Cambridge University Press (2022) &lbrack;[doi:10.1017/9781009291033](https://doi.org/10.1017/9781009291033), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FF8A95F0F22A67FABA729DBB39BA2816/9781009291002AR.pdf)&rbrack;
+
 
 
 ## Related entries
