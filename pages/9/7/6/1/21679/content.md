@@ -485,6 +485,20 @@ Review and interpretation in terms of [[non-abelian cohomology|non-abelian]] [[C
 * {#FSS20} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The Character Map in Twisted Non-Abelian Cohomology|The Character Map in Nonabelian Cohomology --- Twisted, Differential, Generalizaed]]_, World Scientific (2023) &lbrack;[arXiv:2009.11909](https://arxiv.org/abs/2009.11909), [doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
 
 
+Generalization beyond ([[topological spaces]] and their [[Whitehead bracket]] [[L-infinity algebras|$L_\infty$-algebras]] of) [[finite type]]:
+
+* [[Daniel Robert-Nicoud]], [[Bruno Vallette]]: *Higher Lie theory* &lbrack;[arXiv:2010.10485](https://arxiv.org/abs/2010.10485)&rbrack;
+
+and further to [[positive characteristic]]:
+
+* [[Victor Roca i Lucio]]: *Higher Lie theory in positive characteristic* &lbrack;[arXiv:2306.07829](https://arxiv.org/abs/2306.07829)&rbrack;
+
+See also:
+
+* [[Victor Roca i Lucio]]: *The integration theory of curved absolute $\mathcal{L}_\infty$ algebras* &lbrack;[arXiv:2209.10282](https://arxiv.org/abs/2209.10282)&rbrack;
+
+
+
 
 [[!redirects fundamental theorem of dgc-algebraic rational homotopy theory]]
 
