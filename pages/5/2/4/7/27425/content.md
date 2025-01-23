@@ -102,6 +102,7 @@ This is analogous to how often, in geometry as well as in ordinary life, [[lengt
 
 * [[metric space]], [[metric space#LawvereMetricSpace|Lawvere metric space]]
 * [[weighted graph]]
+* [[locally graded category]]
 * [[enriched category theory]]
 
 
