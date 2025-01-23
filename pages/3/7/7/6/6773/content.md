@@ -92,10 +92,13 @@ This property is important, for instance, when understanding the Vandermonde det
 \end{remark}
 
 
-
 ## Applications
 
 The Vandermonde determinant appears in many important situations, as a square root of a [[discriminant]], sometimes as a [[Wronskian]], and also in Lagrange interpolation (see wikipedia [Lagrange polynomial](http://en.wikipedia.org/wiki/Lagrange_polynomial)), [[Selberg integral]] etc. 
+
+## Related concepts
+
+* [[Laughlin wavefunction]]
 
 ## Literature
 
