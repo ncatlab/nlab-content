@@ -42,23 +42,25 @@ The infinite-dimensional Lie group of bisections is closely connected to the und
 
 ### Abstractly
 
-Let $\mathbf{H} = $ [[Smooth∞Grpd]]. Let $X \in \mathbf{H}$ be equipped with an _atlas_, hence with an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] $U \to X$ out of a [[0-truncated object]]. 
+Let $\mathbf{H} = $ [[Smooth∞Grpd]]. Let $\mathbf{X} \in \mathbf{H}$ be equipped with an _atlas_, hence with an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] $X \to \mathbf{X}$ out of a [[0-truncated object]] $X$. 
 
 We may regard this atlas as an object in the [[slice (∞,1)-topos]]
-$\mathbf{X} \in \mathbf{H}_{/X}$
+$\mathbf{X} \in \mathbf{H}_{/\mathbf{X}}$
 
-+-- {: .num_defn}
-###### Definition
+\begin{definition}
 
 The **[[smooth ∞-group]] of bisections** of $\mathbf{X}$ is its [[automorphism ∞-group]]
 
 $$
-  \mathbf{BiSect}(X,U) \coloneqq
-  \mathbf{Aut}_{/X}(\mathbf{X}, \mathbf{X})
+  \mathbf{BiSect}(\mathbf{X},x) 
+    \;\coloneqq\;
+  \mathbf{Aut}_{/\mathbf{X}}(X)
   \,.
 $$
 
-=--
+\end{definition}
+
+([FSS16, p 12](#FiorenzaRogersSchreiber16))
 
 +-- {: .num_remark}
 ###### Remark
@@ -113,6 +115,11 @@ Then $(C^\infty(X), \mathfrak{g})$ is the [[Lie-Rinehart algebra]] corresponding
 
 * Habib Amiri, [[Alexander Schmeding]], _Linking Lie groupoid representations and representations of infinite-dimensional Lie groups_ ([arXiv:1805.03935
 ](https://arxiv.org/pdf/1805.03935.pdf))
+
+Discussion in the generality of [[groupoid objects in an (infinity,1)-category|groupoid objects in an]] [[(infinity,1)-topos|$(\infty,1)$-topos]]:
+
+* {#FiorenzaRogersSchreiber16} [[Domenico Fiorenza]], [[Chris L. Rogers]], [[Urs Schreiber]], pp 12 of: *[[schreiber:Higher geometric prequantum theory|Higher $U(1)$-gerbe connections in geometric prequantization]]*, Reviews in Mathematical Physics **28** 06 (2016) &lbrack;[arXiv:1304.0236](https://arxiv.org/abs/1304.0236), [doi:10.1142/S0129055X16500124](https://doi.org/10.1142/S0129055X16500124)&rbrack;
+
 
 [[!redirects bisections of a Lie groupoid]]
 
