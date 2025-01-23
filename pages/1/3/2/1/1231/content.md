@@ -130,7 +130,7 @@ Other historical references on Koszul duality include
 
 * A. A. Beilinson, V. A. Ginsburg, V. V. Schechtman, _Koszul duality_,  J. Geom. Phys.  5  (1988),  no. 3, 317--350 [MR1048505](http://www.ams.org/mathscinet-getitem?mr=1048505) <a href="http://dx.doi.org/10.1016/0393-0440(88)90028-9">doi:10.1016/0393-0440(88)90028-9</a>
 
-* [[Alexander Beilinson]], [[Victor Ginzburg]], [[Wolfgang Soergel]], _Koszul duality patterns in representation theory_,  J. Amer. Math. Soc.  9  (1996),  no. 2, 473--527 [corrigenda](http://home.mathematik.uni-freiburg.de/soergel/PReprints/KorrBGS.pdf)
+* [[Alexander Beilinson]], [[Victor Ginzburg]], [[Wolfgang Soergel]], _Koszul duality patterns in representation theory_,  J. Amer. Math. Soc.  **9** 2 (1996) 473-527 &lbrack;corrigenda[pdf](http://home.mathematik.uni-freiburg.de/soergel/PReprints/KorrBGS.pdf)&rbrack;
 
 Koszul duality is also discussed in 
 
@@ -138,15 +138,22 @@ Koszul duality is also discussed in
 
 * _The Everything Seminar_ , _[koszul-duality-and-lie-algebroids](http://cornellmath.wordpress.com/2008/03/25/koszul-duality-and-lie-algebroids)_ 
 
-* MathOverflow: [What is Koszul duality?](http://mathoverflow.net/questions/329/what-is-koszul-duality), [Beilinson-Bernstein and Koszul duality](http://mathoverflow.net/questions/309/beilinson-bernstein-and-koszul-duality), [what-extra-conditions-are-necessary-for-the-following-version-of-koszul-duality](http://mathoverflow.net/questions/67909/what-extra-conditions-are-necessary-for-the-following-version-of-koszul-duality)
-* David Eisenbud, Gunnar Fl&#248;ystad, Frank-Olaf Schreyer, _Sheaf cohomology and free resolutions over 
-exterior algebras_,  Trans. Amer. Math. Soc. 355 (2003), 4397-4426 [MR1990756](http://www.ams.org/mathscinet-getitem?mr=1990756) [doi](http://dx.doi.org/10.1090/S0002-9947-03-03291-4)
-* Tyler Foster, Po Hu, Igor Kriz, _D-structures and derived Koszul duality for unital operad algebras_, [arxiv./1507.07151](http://arxiv.org/abs/1507.07151)
+* MathOverflow: *[What is Koszul duality?](http://mathoverflow.net/questions/329/what-is-koszul-duality)* 
+
+* MathOverflow: *[Beilinson-Bernstein and Koszul duality](http://mathoverflow.net/questions/309/beilinson-bernstein-and-koszul-duality)*
+
+* MathOverflow: [what-extra-conditions-are-necessary-for-the-following-version-of-koszul-duality](http://mathoverflow.net/questions/67909/what-extra-conditions-are-necessary-for-the-following-version-of-koszul-duality)
+
+* [[David Eisenbud]], Gunnar Fløystad, Frank-Olaf Schreyer: _Sheaf cohomology and free resolutions over 
+exterior algebras_,  Trans. Amer. Math. Soc. **355** (2003) 4397-4426 &lbrack;[MR1990756](http://www.ams.org/mathscinet-getitem?mr=1990756) [doi:10.1090/S0002-9947-03-03291-4](http://dx.doi.org/10.1090/S0002-9947-03-03291-4)&rbrack;
+
+* Tyler Foster, [[Po Hu]], [[Igor Kriz]]: _D-structures and derived Koszul duality for unital operad algebras_ &lbrack;[arxiv./1507.07151](http://arxiv.org/abs/1507.07151)&rbrack;
 
 
 A "curved" generalization is discussed in
 
-* Joseph Hirsh, Joan Mill&#232;s, _Curved Koszul duality theory_, Max Planck preprint MPIM2010-104, [pdf](https://www.mpim-bonn.mpg.de/preblob/4217)
+* Joseph Hirsh, Joan Millès: _Curved Koszul duality theory_, Max Planck Institut für Mathematik, Preprint Series **104** (2010) &lbrack;MPIM2010-104, [pdf](https://www.mpim-bonn.mpg.de/preblob/4217)&rbrack;
+
 * Gunnar Fl&#248;ystad, _Koszul duality and equivalences of categories_,  Trans. Amer. Math. Soc. __358__ (2006), 2373-2398 [math.AG/0012264](http://arxiv.org/abs/math/0012264)
 [MR2204036](http://www.ams.org/mathscinet-getitem?mr=2204036)
 [doi](http://dx.doi.org/10.1090/S0002-9947-05-04035-3)
