@@ -38,6 +38,9 @@ On the [[adjoint functor theorem]] in the context of [[lax-idempotent 2-monads]]
 
 * {#ALL23} [[Nathanael Arkor]], [[Ivan Di Liberti]], [[Fosco Loregian]], _Adjoint functor theorems for lax-idempotent pseudomonads_, &lbrack;[arXiv:2306.10389](https://arxiv.org/abs/2306.10389)&rbrack;
 
+On [[bicategories]] of [[pseudoalgebras]] for [[relative pseudomonads]]:
+
+* [[Nathanael Arkor]], [[Philip Saville]], Andrew Slattery, *Bicategories of algebras for relative pseudomonads*, [arXiv:2501.12510](https://arxiv.org/abs/2501.12510)
 
 ## Related entries
 
