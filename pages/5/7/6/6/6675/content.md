@@ -50,7 +50,7 @@ suffer from an intrinsic tension:
 
 1. but [[quantum coherence|coherence]] requires **avoiding interaction**.
 
-> (cf. [CCEHRSZ 07](quantum+computation#CCEHRSZ07) p 272: "*Quantum logic gates involving two atomic qubits must overcome the problem of the short range coherent interaction of neutral atoms, while maintaining atom confinement and suppressing decoherence. The main challenge is to perform the gate sufficiently fast compared to typical decoherence and relaxation times.*")
+> (cf. [Waintal 2024, p3](quantum+computing#Waintal24) or [CCEHRSZ 07](quantum+computation#CCEHRSZ07) p 272: "*Quantum logic gates involving two atomic qubits must overcome the problem of the short range coherent interaction of neutral atoms, while maintaining atom confinement and suppressing decoherence. The main challenge is to perform the gate sufficiently fast compared to typical decoherence and relaxation times.*")
 
 This problem haunts contemporary [NISQ](quantum+computation#ReferencesNISQ) devices (cf. [HHT 23](quantum+computation#HHT23)), 
 
