@@ -39,9 +39,9 @@ $$
 
 exhibiting compatibility of $F$ with that [[tensoring]].
 
-In the case that $V$ is also [[closed monoidal category|closed monoidal]], there is a close relation between strong functors and [[enriched functors]] (see [below](RelationToEnrichedFunctors)).
+In the case that $V$ is also [[closed monoidal category|closed monoidal]], there is a close relation between strong functors and [[enriched functors]] (see [below](#RelationToEnrichedFunctors)).
 
-{#WarningOnTerminology} In fact, beware that [Kock 1972](#Kock72) originally said *tensorial strength* in constrast to the *strength* of *strong functors* by which he referred to $V$-[[enriched functors]]. Beware that today "strong functor" (certainly as in "[[strong monad]]") is usually understood in the sense of tensorial strength, not in the sense of "enriched functor"  (to the extent that the two notions differ at all, see again [below](RelationToEnrichedFunctors)). Hence historically it would be more accurate to say "tensorially strong functors" for the notion discussed here, but this term is not commonly used at all.
+{#WarningOnTerminology} In fact, beware that [Kock 1972](#Kock72) originally said *tensorial strength* in constrast to the *strength* of *strong functors* by which he referred to $V$-[[enriched functors]]. Beware that today "strong functor" (certainly as in "[[strong monad]]") is usually understood in the sense of tensorial strength, not in the sense of "enriched functor"  (to the extent that the two notions differ at all, see again [below](#RelationToEnrichedFunctors)). Hence historically it would be more accurate to say "tensorially strong functors" for the notion discussed here, but this term is not commonly used at all.
 
 
 
