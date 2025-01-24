@@ -1,6 +1,6 @@
 
 
-### Anyons in quantum Hall liquids
+### Anyons in fractional quantum Hall systems
  {#AnyonsInTheQuantumHallEffectReferences}
 
 References on [[anyon]]-excitations (satisfying [[braid group statistics]]) in the [[quantum Hall effect]] (for more on the application to [[topological quantum computation]] see the references [there](topological+quantum}computation#TopologicalQuantumComputationWithAnyons)):
@@ -27,18 +27,16 @@ Review:
 
 * D. E. Feldman, [[Bertrand Halperin]]: *Fractional charge and fractional statistics in the quantum Hall effects*, Rep. Prog. Phys. **84** (2021) 076501 \[<a href="https://doi.org/10.1088/1361-6633/ac03aa">doi:10.1088/1361-6633/ac03aa</a>, [arXiv:2102.08998](https://arxiv.org/abs/2102.08998)\]
 
+As hardware for [[topological quantum computing]]:
 
-Claims of experimental observation:
+* Sergey Bravyi: *Universal Quantum Computation with the $\nu = 5/2$ Fractional Quantum Hall State*, Phys. Rev. A **73** 042313 (2006) \[<a href="https://doi.org/10.1103/PhysRevA.73.042313
+">doi:10.1103/PhysRevA.73.042313</a>, [arXiv:quant-ph/0511178](https://arxiv.org/abs/quant-ph/0511178)\]
 
-* H. Bartolomei, et al.: *Fractional statistics in anyon collisions*, Science **368** 6487 (2020) 173-177  \[<a href="https://doi.org/10.1126/science.aaz5601">doi:10.1126/science.aaz5601</a>, [arXiv:2006.13157](https://arxiv.org/abs/2006.13157)\]
 
-* James Nakamura, S. Liang, G. C. Gardner, M. J. Manfra: _Direct observation of anyonic braiding statistics_, Nat. Phys. **16** (2020) 931–936 \[<a href="https://doi.org/10.1038/s41567-020-1019-1">doi:10.1038/s41567-020-1019-1</a>, [spire:1802928](https://inspirehep.net/literature/1802928)\]
 
-  exposition:
-  
-  Bob Yirka, _Best evidence yet for existence of anyons_, PhysOrg News (July 10, 2020)  \[<a href="https://phys.org/news/2020-07-evidence-anyons.html">phys.org/news/2020-07</a>\]
 
-* P. Glidic et al.: *Signature of anyonic statistics in the integer quantum Hall regime*, Nature Commun. **15** 6578 (2024) 1 \[<a href="https://doi.org/10.1038/s41467-024-50820-0">doi:10.1038/s41467-024-50820-0</a>, [arXiv:2401.06069](https://arxiv.org/abs/2401.06069)\]
+[[!include observation of anyons in fractional quantum Hall systems -- references]]
+
 
 
 
