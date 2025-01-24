@@ -25,7 +25,11 @@ and via a [[Dijkgraaf-Witten theory]] (like [[Chern-Simons theory]] but with [[d
 
 * [[Carlos Mochon]], *Anyon computers with smaller groups*, Phys. Rev. A **69** 032306 (2004) \[<a href="https://doi.org/10.1103/PhysRevA.69.032306">doi:10.1103/PhysRevA.69.032306</a>, [arXiv:quant-ph/0306063](https://arxiv.org/abs/quant-ph/0306063)\]
 
-With focus on [[fractional quantum Hall systems]] at filling fraction $\nu = 5/2$:
+Proposals more specifically for topological quantum gates implemented in [[fractional quantum Hall systems]]:
+
+* D. V. Averin, V.J. Goldman: *Quantum computation with quasiparticles of the fractional quantum Hall effect*, Solid State Communications **121** 1 (2001) 25-28 \[<a href="https://doi.org/10.1016/S0038-1098(01)00447-1">doi:10.1016/S0038-1098(01)00447-1</a>, [arXiv:cond-mat/0110193](https://arxiv.org/abs/cond-mat/0110193)\]
+
+* [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]]: *Topologically-Protected Qubits from a Possible Non-Abelian Fractional Quantum Hall State*, Phys. Rev. Lett. **94**  166802 (2005) \[<a href="https://doi.org/10.1103/PhysRevLett.94.166802">doi:10.1103/PhysRevLett.94.166802</a>, [arXiv:cond-mat/0412343](https://arxiv.org/abs/cond-mat/0412343)\]
 
 * Sergey Bravyi: *Universal Quantum Computation with the $\nu = 5/2$ Fractional Quantum Hall State*, Phys. Rev. A **73** 042313 (2006) \[<a href="https://doi.org/10.1103/PhysRevA.73.042313
 ">doi:10.1103/PhysRevA.73.042313</a>, [arXiv:quant-ph/0511178](https://arxiv.org/abs/quant-ph/0511178)\]
