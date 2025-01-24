@@ -1,7 +1,10 @@
 
-* [webpage](http://stationq.cnsi.ucsb.edu/~freedman/)
-
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Michael_Freedman)
+
+* [inSpire page](https://inspirehep.net/authors/1045424)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=1365)
+
 
 ## Selected writings
 
@@ -22,6 +25,11 @@ On [[quantum error correcting codes]] associated with planar bulk/boundary syste
 On [[braiding]] of [[su(2)-anyons]] providing universal [[quantum gates]] for [[topological quantum computation]]:
 
 * {#FreedmanLarsenWang00} [[Michael Freedman]], [[Michael Larsen]], [[Zhenghan Wang]], _A modular functor which is universal for quantum computation_, Communications in Mathematical Physics **227** (2002) 605–622 &lbrack;[arXiv:quant-ph/0001108](http://arxiv.org/abs/quant-ph/0001108), [doi:10.1007/s002200200645](https://doi.org/10.1007/s002200200645)&rbrack;
+
+
+On [[anyons]]  in [[fractional quantum Hall systems]] as potential hardware for [[topological quantum computing]]:
+
+* [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]]: *Topologically-Protected Qubits from a Possible Non-Abelian Fractional Quantum Hall State*, Phys. Rev. Lett. **94** 166802 (2005) \[<a href="https://doi.org/10.1103/PhysRevLett.94.166802">doi:10.1103/PhysRevLett.94.166802</a>, [arXiv:cond-mat/0412343](https://arxiv.org/abs/cond-mat/0412343)\]
 
 
 Approximating all [[topological quantum computation|topological quantum gates]] by just the "weaves" among all [[braids]]:
