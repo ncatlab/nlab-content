@@ -142,8 +142,11 @@ For more on this see [Grandis and Paré](#GrandisParé07), Theorem 5.2.
 
 ## References
 
+That Conduché functors are exactly the exponentiable ones is Theorem 4.4 (pages 40-45) of
 
 * {#Giraud64} [[J. Giraud]], _M&#233;thode de la descente_, Bull. Math. Soc. M&#233;moire **2** (1964). ([numdam](http://www.numdam.org/numdam-bin/item?id=MSMF_1964__2__R3_0))
+
+See also,
 
 * {#Conduche72} [[F. Conduché]], _Au sujet de l'existence d'adjoints &#224; droite aux foncteurs 'image reciproque' dans la cat&#233;gorie des cat&#233;gories_ , C. R. Acad. Sci. Paris **275** S&#233;rie A (1972) pp.891-894. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k56191352/f19.image#))
 
