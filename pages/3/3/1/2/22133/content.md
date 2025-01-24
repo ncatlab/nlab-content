@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[anyons]]  in [[fractional quantum Hall systems]] as potential hardware for [[topological quantum computing]]:
+
+* [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]]: *Topologically-Protected Qubits from a Possible Non-Abelian Fractional Quantum Hall State*, Phys. Rev. Lett. **94** 166802 (2005) \[<a href="https://doi.org/10.1103/PhysRevLett.94.166802">doi:10.1103/PhysRevLett.94.166802</a>, [arXiv:cond-mat/0412343](https://arxiv.org/abs/cond-mat/0412343)\]
+
+
 Proposing nanowire experiments potentially realizing [[Majorana zero modes]]:
 
 * Roman M. Lutchyn, Jay D. Sau, [[Sankar Das Sarma]], *Majorana Fermions and a Topological Phase Transition in Semiconductor-Superconductor Heterostructures*, Phys. Rev. Lett. **105** (2010) 077001 &lbrack;[doi:10.1103/PhysRevLett.105.077001](https://doi.org/10.1103/PhysRevLett.105.077001)&rbrack;  
