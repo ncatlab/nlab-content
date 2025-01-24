@@ -11,7 +11,6 @@ The idea of [[topological quantum computation]] via a [[Chern-Simons theory]] wi
 * {#FreedmanKitaevLarsenWang03} [[Michael Freedman]], [[Alexei Kitaev]], [[Michael Larsen]], [[Zhenghan Wang]], *Topological quantum computation*,  Bull. Amer. Math. Soc. __40__ (2003), 31-38 ([arXiv:quant-ph/0101025](https://arxiv.org/abs/quant-ph/0101025), [doi:10.1090/S0273-0979-02-00964-3](https://doi.org/10.1090/S0273-0979-02-00964-3), [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf))
 
 * {#FreedmanLarsenWang02} [[Michael Freedman]], [[Michael Larsen]], [[Zhenghan Wang]], _A modular functor which is universal for quantum computation_, Communications in Mathematical Physics. **227** 3 (2002) 605-622  \[<a href="https://doi.org/10.1007/s002200200645">doi:10.1007/s002200200645</a>, [arXiv:quant-ph/0001108](http://arxiv.org/abs/quant-ph/0001108)\]
-
   > (specifically via [[su(2)-anyons]])
 
 * [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. **80** 1083 (2008) \[<a href="https://doi.org/10.1103/RevModPhys.80.1083">doi:10.1103/RevModPhys.80.1083</a>, [arXiv:0707.1888](http://arxiv.org/abs/0707.1889)\]
@@ -25,6 +24,12 @@ and via a [[Dijkgraaf-Witten theory]] (like [[Chern-Simons theory]] but with [[d
 * [[Carlos Mochon]], *Anyons from non-solvable finite groups are sufficient for universal quantum computation*, Phys. Rev. A **67** 022315 (2003) \[<a href="https://doi.org/10.1103/PhysRevA.67.022315">doi:10.1103/PhysRevA.67.022315</a>, [arXiv:quant-ph/0206128](https://arxiv.org/abs/quant-ph/0206128)\]
 
 * [[Carlos Mochon]], *Anyon computers with smaller groups*, Phys. Rev. A **69** 032306 (2004) \[<a href="https://doi.org/10.1103/PhysRevA.69.032306">doi:10.1103/PhysRevA.69.032306</a>, [arXiv:quant-ph/0306063](https://arxiv.org/abs/quant-ph/0306063)\]
+
+With focus on [[fractional quantum Hall systems]] at filling fraction $\nu = 5/2$:
+
+* Sergey Bravyi: *Universal Quantum Computation with the $\nu = 5/2$ Fractional Quantum Hall State*, Phys. Rev. A **73** 042313 (2006) \[<a href="https://doi.org/10.1103/PhysRevA.73.042313
+">doi:10.1103/PhysRevA.73.042313</a>, [arXiv:quant-ph/0511178](https://arxiv.org/abs/quant-ph/0511178)\]
+
 
 Monographs:
 
