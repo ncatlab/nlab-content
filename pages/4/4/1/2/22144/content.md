@@ -1,11 +1,22 @@
 
-* [webpage](https://www.microsoft.com/en-us/research/people/cnayak/)
+* [institute page](https://www.microsoft.com/en-us/research/people/cnayak/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Chetan_Nayak)
+
+* [inSpire page](https://inspirehep.net/authors/1258875)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=WRL78vEAAAAJ&hl=en)
 
 ## Selected writings
 
 On [[2d CFT|2d]] [[logarithmic CFT]] for generalized [[Laughlin wavefunctions]]:
 
 * {#GurarieFlohrNayak97} [[Victor Gurarie]], [[Michael Flohr]], [[Chetan Nayak]], *The Haldane-Rezayi Quantum Hall State and Conformal Field Theory*, Nucl. Phys. B **498** (1997) 513-538 $[$[arXiv:cond-mat/9701212](https://arxiv.org/abs/cond-mat/9701212), [doi:10.1016/S0550-3213%2897%2900351-9](https://doi.org/10.1016/S0550-3213%2897%2900351-9)$]$
+
+On [[anyons]]  in [[fractional quantum Hall systems]] as potential hardware for [[topological quantum computing]]:
+
+* [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]]: *Topologically-Protected Qubits from a Possible Non-Abelian Fractional Quantum Hall State*, Phys. Rev. Lett. **94** 166802 (2005) \[<a href="https://doi.org/10.1103/PhysRevLett.94.166802">doi:10.1103/PhysRevLett.94.166802</a>, [arXiv:cond-mat/0412343](https://arxiv.org/abs/cond-mat/0412343)\]
+
 
 On [[topological order]]:
 
