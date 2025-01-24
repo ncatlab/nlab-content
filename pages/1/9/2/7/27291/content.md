@@ -19,6 +19,12 @@ On [[supermultiplets]]:
 
 * [[Ruben Minasian]], [[Charles Strickland-Constable]], [[Yi Zhang]]: *On symmetries and dynamics of exotic supermultiplets*, J. High Energ. Phys. **2021** 174 (2021)  &lbrack;[arXiv:2007.08888](https://arxiv.org/abs/2007.08888), <a href="https://doi.org/10.1007/JHEP01(2021)174">doi:10.1007/JHEP01(2021)174</a>&rbrack;
 
+Concise formulation of the [[Lagrangian density]] of [[heterotic supergravity|heterotic]] [[D=10 supergravity]], including all [[fermion|fermionic]] terms, via [[generalized geometry]]:
+
+* Julian Kupka, [[Charles Strickland-Constable]], [[Fridrich Valach]]: *Direct derivation of gauged $\mathcal{N}=1$ supergravity in ten dimensions to all orders in fermions* &lbrack;[arXiv:2410.16046](https://arxiv.org/abs/2410.16046)&rbrack;
+
+
+
 [[!redirects Charles Strickland Constable]]
 
 
