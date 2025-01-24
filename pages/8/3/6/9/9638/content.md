@@ -498,15 +498,17 @@ The origin of the notion:
 
 * Subhash Kak: *Prospects for Quantum Computing*, talk at CIFAR Nanotechnology program meeting, Halifax (November 2008) &lbrack;[arXiv:0902.4884](https://arxiv.org/abs/0902.4884)&rbrack;
 
-* M. I. Dyakonov: *Prospects for quantum computing: extremely doubtful*, Int. J. of Modern Physics: Conf. Series **33** (2014) 1460357 &lbrack;[arXiv:1401.3629](https://arxiv.org/abs/1401.3629), [doi:10.1142/S2010194514603573](https://doi.org/10.1142/S2010194514603573)&rbrack;
-
+* Mikhail Dyakonov: *Prospects for quantum computing: extremely doubtful*, Int. J. of Modern Physics: Conf. Series **33** (2014) 1460357 &lbrack;[arXiv:1401.3629](https://arxiv.org/abs/1401.3629), [doi:10.1142/S2010194514603573](https://doi.org/10.1142/S2010194514603573)&rbrack;
 
 * Daniel Koch, Brett Martin, Saahil Patel, Laura Wessing, and Paul M. Alsing, *Demonstrating NISQ era challenges in algorithm design on IBM's 20 qubit quantum computer*, AIP Advances **10** 095101 (2020) &lbrack;[doi:10.1063/5.0015526](https://doi.org/10.1063/5.0015526)&rbrack;
 
 * {#LeymannBarzen20} Frank Leymann, Johanna Barzen, *The bitter truth about gate-based quantum algorithms in the NISQ era*, Quantum Sci. Technol. **5** 044007 (2020) &lbrack;[doi:10.1088/2058-9565/abae7d](https://iopscience.iop.org/article/10.1088/2058-9565/abae7d)&rbrack;
 
-* {#Ezratty} [[Olivier Ezratty]], *Where are we heading with NISQ?* &lbrack;[arXiv:2305.09518](https://arxiv.org/abs/2305.09518), [InSpire:2660378](https://inspirehep.net/literature/2660378)&rbrack;
+* Mikhail Dyakonov: *Will We Ever Have a Quantum Computer*, Springer Briefs in Physics, Springer (2020) &lbrack;[doi:10.1007/978-3-030-42019-2](https://doi.org/10.1007/978-3-030-42019-2), [pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-42019-2.pdf)&rbrack;
+  > (the author's conclusion is: "No.")
 
+
+* {#Ezratty} [[Olivier Ezratty]], *Where are we heading with NISQ?* &lbrack;[arXiv:2305.09518](https://arxiv.org/abs/2305.09518), [InSpire:2660378](https://inspirehep.net/literature/2660378)&rbrack;
   > "no one has yet successfully implemented a use case matching the original definition of the NISQ regime."
 
   > "Totally outside the NISQ relevant algorithms class are integer and discrete log factoring algorithms &lbrack;[[Shor's algorithm]]&rbrack;, oracle based search algorithms &lbrack;[[Grover's algorithm]]&rbrack;, and all algorithms relying on a quantum Fourier transform"
@@ -514,24 +516,23 @@ The origin of the notion:
   > "most NISQ experiments have been run with fewer than 30 qubits and should therefore better be labelled as “pre-NISQ”. While they are elegant proofs of concepts, they do not yet demonstrate any speed up over classical computing"
 
 * [[Olivier Ezratty]], *Where are we heading with NISQ?*, blog post (2023) &lbrack;[web](https://www.oezratty.net/wordpress/2023/where-are-we-heading-with-nisq/), [pdf](https://www.oezratty.net/wordpress/2023/where-are-we-heading-with-nisq/?output=pdf)&rbrack;
-
   > NISQ is not at all ready for prime time quantum computing despite all the fuss about “quantum computing being business ready”. Not only have we not yet reached any quantum computing advantage, but in many cases, even if it worked, the most common NISQ algorithms using a variational approach, have prohibitively long execution times particularly in the promising chemical simulations domain.
 
 * Jonathan Wei Zhong Lau, Kian Hwee Lim, Harshank Shrotriya, Leong Chuan Kwek, *NISQ computing: where are we and where do we go?*, AAPPS Bull. **32** 27 (2022) &lbrack;[doi:10.1007/s43673-022-00058-z](https://doi.org/10.1007/s43673-022-00058-z)&rbrack;
- 
   > However, quantum computers are still far from achieving all that they have promised. While early-stage quantum computers have been developed, the problems of noisy calculations and scalability of quantum computers still plague the field. As opposed to the far future, where quantum computers can be as big as we wish them to be and are capable of performing fully controllable operations (termed as the fault-tolerant era), we are currently working in the *Noisy Intermediate-Scale Quantum* (NISQ) era, which is an operational definition that implies that the quantum computers available to us now are subject to substantial error rates and they are constrained in size (in terms of the number of qubits). While it is already a scientific achievement to get to this stage, such quantum computers are still incapable of showing any significant advantages over classical computers. As such, some people in the community have already expressed fear that there will be a ‘Quantum winter’, or a scenario where quantum computing devices remain noisy and are unable to scale up in terms of qubit size, preventing us from ever achieving a meaningful advantage over classical computers.
 
 * {#Preskill23} [[John Preskill]], *Crossing the Quantum Chasm: From NISQ to Fault Tolerance*, talk at Q2B 2023 Silicon Valley (2023) &lbrack;[pdf](http://theory.caltech.edu/~preskill/talks/Preskill-Q2B-2023), [[Preskill-Crossing.pdf:file]]&rbrack;
-
   > "there is no proposed application of NISQ computing with commercial value for which quantum advantage has been demonstrated"
 
   > "Nor are there persuasive theoretical arguments indicating that commercially viable applications will be found that do not use quantum error-correcting codes and fault-tolerant quantum computing."
 
 * {#HHT23} Torsten Hoefler, Thomas Haener, [[Matthias Troyer]], *Disentangling Hype from Practicality: On Realistically Achieving Quantum Advantage*, Communications of the ACM **66**  5 (May 2023) 82-87 &lbrack;[arXiv:2307.00523](https://arxiv.org/abs/2307.00523), [acm pdf](https://dl.acm.org/doi/pdf/10.1145/3571725), [doi:10.1145/3571725](https://doi.org/10.1145/3571725)&rbrack;
-
   > "A large range of problem areas with quadratic quantum speedups, such as many current machine learning training approaches, accelerating drug design and protein folding with Grover’s algorithm, speeding up Monte Carlo simulations through quantum walks, as well as more traditional scientific computing simulations including the solution of many non-linear systems of equations, such as fluid dynamics in the turbulent regime, weather, and climate simulations will not achieve quantum advantage with current quantum algorithms in the foreseeable future."
 
 * Edd Gent: *Quantum Computing’s Hard, Cold Reality Check*, IEEE Spectrum (Dec. 2023) &lbrack;[webpage](https://spectrum.ieee.org/quantum-computing-skeptics)&rbrack;
+
+* Xavier Waintal: *The Quantum House Of Cards*, PNAS **121** 1 (2024) e2313269120 \[<a href="https://doi.org/10.1073/pnas.2313269120">doi:10.1073/pnas.2313269120</a>, [arXiv:2312.17570](https://arxiv.org/abs/2312.17570)\]
+
 
 On the resulting drop in investment:
 
