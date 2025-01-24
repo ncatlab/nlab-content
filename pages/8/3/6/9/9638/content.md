@@ -362,6 +362,11 @@ Further introduction and survey:
 
 * I. I. Beterov: *Progress and Prospects in the Field of Quantum Computing*, Optoelectron. Instrument. Proc. **60** (2024) 74–83 &lbrack;[doi:10.3103/S8756699024700043](https://doi.org/10.3103/S8756699024700043)&rbrack;
 
+* Robert Kudelić: *On the Theory of Quantum and Towards Practical Computation*, Journal of Computational Science
+**83** (2024) 102454 &lbrack;[arXiv:2403.09682](https://arxiv.org/abs/2403.09682), [doi:10.1016/j.jocs.2024.102454](
+https://doi.org/10.1016/j.jocs.2024.102454)&rbrack;
+
+
 
 On "continuous variable" analog quantum computation:
 
@@ -531,7 +536,7 @@ The origin of the notion:
 
 * Edd Gent: *Quantum Computing’s Hard, Cold Reality Check*, IEEE Spectrum (Dec. 2023) &lbrack;[webpage](https://spectrum.ieee.org/quantum-computing-skeptics)&rbrack;
 
-* Xavier Waintal: *The Quantum House Of Cards*, PNAS **121** 1 (2024) e2313269120 \[<a href="https://doi.org/10.1073/pnas.2313269120">doi:10.1073/pnas.2313269120</a>, [arXiv:2312.17570](https://arxiv.org/abs/2312.17570)\]
+* {#Waintal24} Xavier Waintal: *The Quantum House Of Cards*, PNAS **121** 1 (2024) e2313269120 \[<a href="https://doi.org/10.1073/pnas.2313269120">doi:10.1073/pnas.2313269120</a>, [arXiv:2312.17570](https://arxiv.org/abs/2312.17570)\]
 
 
 On the resulting drop in investment:
@@ -548,7 +553,7 @@ More optimistic outlook:
 
 More concerned outlook:
 
-  > <div style="float:right;margin:-15px 0px 00px 20px;"><a href="https://youtu.be/E98zLxB7EQs?t=85"><img src="/nlab/files/DARPA-QBI-IFItTurnsOutNotPossible.jpg" width="230"></a></div>
+<div style="float:right;margin:-15px 0px 00px 20px;"><a href="https://youtu.be/E98zLxB7EQs?t=85"><img src="/nlab/files/DARPA-QBI-IFItTurnsOutNotPossible.jpg" width="230"></a></div>
 
 * {#DarpaQBI} DARPA: *[Quantum Benchmarjing Initiative](https://www.darpa.mil/work-with-us/quantum-benchmarking-initiative)*
   > "to determine if it’s possible to build an industrially useful quantum computer much faster than conventional predictions. Specifically, QBI is designed to rigorously verify and validate if any quantum computing approach can achieve utility-scale operation — meaning its computational value exceeds its cost — by the year 2033."
