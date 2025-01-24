@@ -38,6 +38,13 @@ In addition to these *spatial symmetries*, the [[dynamics]] of the [[electrons]]
 
 * [[photonic crystal]]
 
+Some crystalline materials with their own entries
+
+* [[gallium arsenide]]
+
+* [[graphene]]
+
+
 ## References
 
 Historical articles identifying the point-[[lattice (discrete subgroup)|lattice]] nature of crystals:
