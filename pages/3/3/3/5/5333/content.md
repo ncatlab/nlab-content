@@ -237,6 +237,11 @@ On non-supersymmetric [[branes]] in heterotic string theory:
 
 * Masaki Fukuda, Shun K. Kobayashi, Kento Watanabe, Kazuya Yonekura: *Black $p$-Branes in Heterotic String Theory* &lbrack;[arXiv:2412.02277](https://arxiv.org/abs/2412.02277)&rbrack;
 
+Concise formulation of the [[Lagrangian density]] of heterotic/type I [[D=10 supergravity]], including all [[fermion|fermionic]] terms, via [[generalized geometry]]:
+
+* Julian Kupka, [[Charles Strickland-Constable]], [[Fridrich Valach]]: *Direct derivation of gauged $\mathcal{N}=1$ supergravity in ten dimensions to all orders in fermions* &lbrack;[arXiv:2410.16046](https://arxiv.org/abs/2410.16046)&rbrack;
+
+
 
 
 ### Orbifold and orientifold compactifications
