@@ -19,7 +19,7 @@
 A _torsor_ (in the [[category of sets]]) is, roughly speaking, a [[group]] that has forgotten its identity element; given any (non-empty) torsor with respect to a group $G$, we recover a group isomorphic to $G$ by making what is known as a _trivialisation_ of the torsor, which roughly corresponds to choosing an identity element. That we wish to keep track of the choice is precisely the reason for working with torsors.
 
 Something analogous is present in the theory of [[Grothendieck fibration|fibrations]], where it can be important to make a choice of lifts ('cloven fibrations').
-co
+
 The notion of a torsor can be [[internalisation|internalised]] to any category with products, and more generally to any category in which the notion of an internal group can be made good sense of. We discuss this general notion below, after first discussing the notion in the category of sets. 
 
 
@@ -27,15 +27,18 @@ The notion of a torsor can be [[internalisation|internalised]] to any category w
 
 ### Two-sorted definition
 
-\begin{defn} Let $G$ be a [[group]]. A _$G$-torsor_ is a [[set]] $T$ together with an [[action]] $a: G \times T \rightarrow T$ of $G$ on $T$ such that the [[shear map]] $a \times p_2: G \times T \rightarrow T \times T$ is an [[isomorphism]], where $p_2$ is the canonical [[projection]] map $G \times T \rightarrow T$. \end{defn}
+Given a group $G$, a $G$-torsor is often defined to be a [[free action|free]] and [[transitive action]] of $G$ on an [[inhabited set]] $T$.  However, there are advantages to giving the definition in a purely equational form (as in an [[algebraic theory]]), which we can come close to achieving as follows:
 
-If here $T$ is not required to be [[inhabited set|inhabited]] (possibly [[empty set|empty]]) one also speaks of a *[[pseudo-torsor]]*.
+\begin{defn} Let $G$ be a [[group]]. A _$G$-torsor_ is an [[inhabited set]] $T$ together with an [[action]] $a: G \times T \rightarrow T$ of $G$ on $T$ such that the [[shear map]] $a \times p_2: G \times T \rightarrow T \times T$ is an [[isomorphism]], where $p_2$ is the canonical [[projection]] map $G \times T \rightarrow T$. \end{defn}
+
+Since we can state that the shear map is an isomorphism by positing an inverse map $f: T \times T \to T \times G$ and giving equations that state it is an inverse, the only non-equational part of the definition is that $T$ be inhabited.  If $T$ is not required to be [[inhabited]] (that is, possibly [[empty set|empty]]), we call it a *[[pseudo-torsor]]*.
+
+Asking that the [[shear map]] $a \times p_2$ be an [[isomorphism]] is the same as to say that the action is both [[free action|free]] and [[transitive action|transitive]], hence [[regular action|regular]] if [[inhabited set|inhabited]]: free-ness corresponds to [[injectivity]] of the [[shear map]], and transitivity corresponds to [[surjectivity]] of the [[shear map]]. 
 
 \begin{rmk} \label{RemarkTorsorIsomorphicToStructureGroup} If $T$ is non-empty, we shall prove [below](#TrivialisationInSets) that it follows from the definition that $T$ is isomorphic to the underlying set of $G$.  There are many such isomorphisms, and where torsors are used it is often important to choose/fix one. Such a choice is known as a _trivialisation_ of $T$. See [below](#TrivialisationInSets) for more details. \end{rmk} 
 
 \begin{rmk} As a consequence of Remark \ref{RemarkTorsorIsomorphicToStructureGroup}, a torsor with respect to some group can be thought of as a [[heap]]. \end{rmk}
 
-\begin{rmk} Asking that the [[shear map]] $a \times p_2$ be an [[isomorphism]] is the same as to say that the action is both [[free action|free]] and [[transitive action|transitive]], hence [[regular action|regular]] if [[inhabited set|inhabited]]: free-ness corresponds to [[injectivity]] of the [[shear map]], and transitivity corresponds to [[surjectivity]] of the [[shear map]]. \end{rmk}
 
 \begin{example} An [[affine space]] of dimension $n$ over a [[field]] $k$ is a torsor for the additive group $k^n$: this acts by _translation_. \end{example}
 
@@ -91,7 +94,7 @@ $$(G,T)\to(LTrans(T),T),\qquad g\mapsto (t\mapsto gt),\qquad t\mapsto t.$$
 
 \begin{prpn} \label{PropositionTorsorIsomorphicAsSetToStructureGroup} Let $G$ be a [[group]], and let $\underline{T} = \left( T, a: G \times T \rightarrow T \right)$ be a $G$-torsor. If $T$ is non-empty, it is isomorphic to the underlying set of $G$. \end{prpn}
 
-\begin{proof} Let $t$ be an [[element]] of $T$. The following diagram is [[cartesian square|cartesian]]. 
+\begin{proof} Let $t$ be an [[element]] of $T$. The following diagram is [[pullback]] square:
 
 \begin{centre}
   \begin{tikzcd}
@@ -102,25 +105,14 @@ $$(G,T)\to(LTrans(T),T),\qquad g\mapsto (t\mapsto gt),\qquad t\mapsto t.$$
 
 Since $\underline{T}$ is a $G$-torsor, we have that $a \times p_2$ is an isomorphism. The proposition thus follows immediately from the fact that pullbacks of isomorphisms are isomorphisms (as proven at [[pullback]]). \end{proof} 
 
+In fact we can improve the above result to show that any $G$-torsor is isomorphic, not only as a set, but as a left $G$-set, to $G$ itself.  Thus every $G$-torsor has a trivialization:
+
 \begin{defn} Let $G$ be a [[group]], and let $\underline{T} = \left( T, a: G \times T \rightarrow T \right)$ be a $G$-torsor. A _trivialisation_ of $\underline{T}$ is an [[isomorphism]] of $G$-torsors between $T$ and the underlying $G$-torsor of $G$. \end{defn} 
 
-\begin{rmk} By Proposition \ref{PropositionTorsorIsomorphicAsSetToStructureGroup}, if $T$ is non-empty, $T$ is always isomorphic to the underlying $G$-torsor of $G$.   A trivialisation of $\underline{T}$ is a _choice_ of such an isomorphism.
+\begin{rmk}
+The proof of Proposition \ref{PropositionTorsorIsomorphicAsSetToStructureGroup} lets us see that any choice of element of $T$ gives rise to a trivialisation.
 
-The proof of Proposition \ref{PropositionTorsorIsomorphicAsSetToStructureGroup} shows that any choice of element of $T$ gives rise to a trivialisation.\end{rmk} 
-
-\begin{rmk} \label{RemarkGroupStructureFromTrivialisation} Let $\rho : G \rightarrow T$ be a trivialisation of a torsor $\underline{T}$. The map 
-
-$$d : T \times T \to G : (u, v) \mapsto \left[\rho^{-1}(u)\right]^{-1} \cdot \rho^{-1}(v)$$
-
-can be interpreted as a notion of _division_ , 'dividing' one element of $T$ by another to obtain an element of $G$. If we further compose with $\rho$ 
-
-$$\rho \circ d : T \times T \rightarrow G \rightarrow T,$$
-
-we can think of the resulting map $D = \rho \circ d$ as a 'division structure' on $T$ for which $\rho(e)$ behaves as an identity, namely $D(u,u) = \rho(e)$ for all $u \in T$ and identity $e \in G$. In this way, $T$ acquires a group structure isomorphic to that of $G$. 
-
-Thus, a trivialisation of a torsor equips it with a _choice_ of group structure amongst all of those isomorphic to $G$. 
-
-\end{rmk} 
+Note also that a trivialization equips $T$ with a _choice_ of group structure making it isomorphic to $G$, since we can use it to transfer the group structure from $G$ to $T$.  \end{rmk} 
 
 ### Functoriality (change of structure group)
 
