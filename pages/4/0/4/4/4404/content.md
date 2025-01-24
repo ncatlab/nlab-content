@@ -267,9 +267,14 @@ The relation to particle physics by using the algebra of smooth functions can be
 
 The relation between TQFT and differential-topological invariants of smooth manifolds was clarified in:
 
-* [[Hendryk Pfeiffer]] _Quantum general relativity and the classification of smooth manifolds_ [arXiv](http://arxiv.org/abs/gr-qc/0404088)
+* [[Hendryk Pfeiffer]]:  _Quantum general relativity and the classification of smooth manifolds_ [arXiv](http://arxiv.org/abs/gr-qc/0404088)
 
-* [[Hendryk Pfeiffer]] _Diffeomorphisms from finite triangulations and absence of 'local' degrees of freedom_ Phys.Lett. B, 591, (2004), 197-201 
+* [[Hendryk Pfeiffer]]:  _Diffeomorphisms from finite triangulations and absence of 'local' degrees of freedom_ Phys.Lett. B, 591, (2004), 197-201 
+
+On the impact of exotic smooth structures on the spectrum of [[Dirac operators]]:
+
+* Ulrich Chiapi-Ngamako, M. B. Paranjape: *Physics on manifolds with exotic differential structures* &lbrack;[arXiv:2501.13328](https://arxiv.org/abs/2501.13328)&rbrack;
+
 
 
 #### String theory
