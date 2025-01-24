@@ -68,6 +68,21 @@ $i^*
 determines a functor $C\to A\star B$ and viceversa.
 =--
 
+### As a cocomma construction
+The join of $A$ and $B$ can be seen as the [[cocomma]] of their product cone:
+
+\begin{tikzcd}
+	{A \times B} & B \\
+	A & {A \star B}
+	\arrow["{\pi_B}", from=1-1, to=1-2]
+	\arrow["{\pi_A}"', from=1-1, to=2-1]
+	\arrow[from=1-2, to=2-2]
+	\arrow[shift right=2, shorten <=5pt, shorten >=5pt, Rightarrow, from=2-1, to=1-2]
+	\arrow[from=2-1, to=2-2]
+\end{tikzcd}
+
+This makes it easy to understand the join as a kind of directed/lopsided [[coproduct]]: indeed, the coproduct $A+B$ would be the colimit of the same diagram but [[weighted limit|weighted]] by $1 \leftarrow 0 \rightarrow 1$ rather than $1 \leftarrow 2 \rightarrow 1$.
+
 ## Properties
 
 * If the small categories $C,C'$ are two posets, their join consists of their [[ordinal sum]];
