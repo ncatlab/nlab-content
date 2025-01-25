@@ -105,11 +105,14 @@ Apart from this, the field matters a lot.  There is a construction that gives al
 * [[Richard Stanley]], Section II of: *Theory and application of plane partitions 1*, Studies in Applied Math. **50** 2 (1971), 167-188 ([pdf](http://www-math.mit.edu/~rstan/pubs/pubfiles/12-1.pdf), [[StanleyPlanePartitions1.pdf:file]])
 
 
-Among the best books in the subject are:
+Among the best books in the subject (cf. *[[representation theory of the symmetric group]]*) are:
 
 * [[Gordon D. James]], *The Representation Theory of the Symmetric Groups*,  Lecture Notes in Mathematics, volume 682, Springer 1978 ([doi:10.1007/BFb0067708](https://link.springer.com/book/10.1007/BFb0067708), [pdf](http://www-users.math.umn.edu/~webb/oldteaching/Year2010-11/the-representation-theory-of-the-symmetric-groups-SLN.pdf))
 
 * Gordon James, Adalbert Kerber, _The representation theory of the symmetric group_, With a foreword by P. M. Cohn. With an intr. by G. de B. Robinson. Enc. of Math. and its Appl. __16__, Addison-Wesley 1981. xxviii+510 pp. 
+
+* [[Gordon D. James]], Adalbert Kerber: *The Representation Theory of the Symmetric Group*, Cambridge University Press (1984) &lbrack;[doi:10.1017/CBO9781107340732](https://doi.org/10.1017/CBO9781107340732)&rbrack;
+
 
 James also has a readable survey article that outlines developments in the '80's and '90's: 
 
