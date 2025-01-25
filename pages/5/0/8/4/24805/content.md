@@ -31,11 +31,11 @@ The principle can be useful in practice for optimizing [[quantum circuits]]. It 
 
 One way to formalize the deferred measurement principle is briefly mentioned in [Staton (2015), Axiom B (p. 6 of 12)](#Staton15), there proposed as an [[axiom]] to be satisfied by [[quantum programming languages]]. 
 
-Another formalization and proof has been offered in [Gurevich & Blass 2021](#GurevichBlass21). 
+Another formalization and proof was proposed by [Gurevich & Blass 2021](#GurevichBlass21). 
 
 
 {#InTermsOfQuantumModalLogic}
-A quick *proof* of essentially the formulation of [Staton (2015)](#Staton15) exists in the [quantum modal logic](necessity+and+possibility#ModalQuantumLogic) discussed at *[[quantum circuits via dependent linear types]]*: Here the deferred measurement principle is essentially the [Kleisli equivalence](Kleisli+category#KleisliEquivalence) for the [[necessity]] [[comonad]] $\Box_B$ on [[dependent linear types]], like this:
+A quick *proof* of essentially the formulation of [Staton (2015)](#Staton15) exists in the [quantum modal logic](necessity+and+possibility#ModalQuantumLogic) of [SS23](#SS23) (cf.  *[[quantum circuits via dependent linear types]]*): Here the deferred measurement principle is essentially the [Kleisli equivalence](Kleisli+category#KleisliEquivalence) for the [[necessity]] [[comonad]] $\Box_B$ on [[dependent linear types]], like this ([SS23](#SS23), [Prop. 2.38](https://arxiv.org/pdf/2310.15735#page=79)):
 
 \begin{imagefromfile}
     "file_name": "DeferredMeasurementAsKleisliEquiv-230807.jpg",
@@ -133,9 +133,6 @@ As an [[axiom]] for [[quantum programming languages]]:
 
 * {#Staton15} [[Sam Staton]], Axiom B (p. 6) in: *Algebraic Effects, Linearity, and Quantum Programming Languages*, POPL '15: Proceedings of the 42nd Annual ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (2015) 395–40 &lbrack;[doi:10.1145/2676726.2676999](https://doi.org/10.1145/2676726.2676999), [pdf](http://www.cs.ox.ac.uk/people/samuel.staton/papers/popl2015.pdf)&rbrack;
 
-The above discussion and graphics follows:
-
-* {#CQTS22} [[CQTS]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)* (Nov 2022)
 
 
 See also:
@@ -145,5 +142,7 @@ See also:
 General precise statement and [[proof]]:
 
 * {#GurevichBlass21} [[Yuri Gurevich]], [[Andreas Blass]], *Quantum circuits with classical channels and the principle of deferred measurements*, Theoretical Computer Science **920** (2022) 21–32 &lbrack;[arXiv:2107.08324](https://arxiv.org/abs/2107.08324), [doi:10.1016/j.tcs.2022.02.002](https://doi.org/10.1016/j.tcs.2022.02.002)&rbrack;
+
+* {#SS23} [[Hisham Sati]], [[Urs Schreiber]], [Prop. 2.38](https://arxiv.org/pdf/2310.15735#page=79) in: *[[schreiber:The Quantum Monadology]]* &lbrack;[arXiv:2310.15735](https://arxiv.org/abs/2310.15735)&rbrack;
 
 
