@@ -104,11 +104,14 @@ $$
 
 * [[FI-representation]]
 
+
 ## References
 
-Textbook accounts:
+Monographs:
 
 * {#James78} [[G. D. James]], *The Representation Theory of the Symmetric Groups*, Lecture Notes in Mathematics **682**, Springer (1978) &lbrack;[doi:10.1007/BFb0067708](https://link.springer.com/book/10.1007/BFb0067708)&rbrack;
+
+* [[Gordon D. James]], Adalbert Kerber: *The Representation Theory of the Symmetric Group*, Cambridge University Press (1984) &lbrack;[doi:10.1017/CBO9781107340732](https://doi.org/10.1017/CBO9781107340732)&rbrack;
 
 * {#Diaconis88} [[Persi Diaconis]], Chapter 7 of: *Group Representations  in Probability  and  Statistics*, IMS Lecture Notes Monogr. Ser., 11: 198pp. (1988) ([jstor:i397389](https://www.jstor.org/stable/i397389), [ISBN: 0940600145](https://projecteuclid.org/ebooks/institute-of-mathematical-statistics-lecture-notes-monograph-series/Group-representations-in-probability-and-statistics/toc/10.1214/lnms/1215467407), [pdf](https://jdc.math.uwo.ca/M9140a-2012-summer/Diaconis.pdf))
 
