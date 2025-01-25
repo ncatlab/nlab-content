@@ -449,7 +449,7 @@ Research Notes in Mathematics Series 178, Longman, Harlow, UK, 1989.
 
 * [[Bruce Blackadar]], section 11 of _[[K-Theory for Operator Algebras]]_
 
-* Alexander Merkujev, _Equivariant K-theory_ ([pdf](http://www.math.uiuc.edu/K-theory/0981/book/2-0925-0954.pdf))
+* Alexander Merkujev, _Equivariant K-theory_ ([pdf](https://www.math.ucla.edu/~merkurev/papers/5-2.pdf))
 
 * Zachary Maddock, _An informal discourse on equivariant K-theory_ ([pdf](http://math.columbia.edu/~ellis/ass/equiv_k-thry.pdf))
 
