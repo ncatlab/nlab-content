@@ -147,11 +147,10 @@ A precursor to this undertaking is [[Hermann Grassmann]] with his _[[Ausdehnungs
 
 The following is a list of texts by Lawvere, equipped with brief comments and hyperlinks to further material on the $n$Lab. See also the 
 
-* [list of publications on Lawvere's website](http://www.acsu.buffalo.edu/~wlawvere/list.html)
+* [The Lawvere Archives](https://lawverearchives.com/)
 
-and also this 
 
-* [repository of Lawvere's publications](https://github.com/mattearnshaw/lawvere), made available by [[Matt Earnshaw]]. 
+* [[Matt Earnshaw]]: [repository of Lawvere's publications](https://github.com/mattearnshaw/lawvere) 
 
 (Some of Lawvere's writings don't exist as published articles, but circulate in some form or other. Notably the "[[Archive for Mathematical Sciences & Philosophy]]" run by [[Michael Wright]] has a lot of recordings or lectures by Lawvere, though presently few or none of the files in the archive are available online.)
 
