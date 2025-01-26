@@ -1,9 +1,8 @@
 
-> This entry is (or will be, one fine day) mainly about general statistics and mathematical statistics. For more about physical applications in [[statistical mechanics]] and probabilistic interpretation of [[quantum mechanics]], see there. There is also a technical notion of *[[statistic]]* (singular). 
+> This entry is (or will be, one fine day) mainly about general statistics and mathematical statistics. For more about physical applications in [[statistical mechanics]] and [[quantum probability]], see there. There is also *[[particle statistics]]* and *[[statistic]]* (singular). 
 
 \tableofcontents
 
-This entry is (or will be, one fine day) mainly about general statistics and mathematical statistics. For more about physical applications in [[statistical mechanics]] and probabilistic interpretation of [[quantum mechanics]], see there. There is also a technical notion of [[statistic]] (singular). 
 
 
 ## Idea
@@ -56,11 +55,10 @@ A __statistical model__ is a [[measurable function]] $P : \Theta \to \Delta(X)$,
 
 * Michael Schmitt, _Statistics for theorists_,  quick 3-lecture intro for theoretical physicists at TASI 2020 (each around 1 and half hours) lec1 [mp4](https://physicslearning.colorado.edu/tasi/tasi_2020/videos/Schmitt%20Lecture%202/Schmitt%20Lecture%202.mp4) slides [pdf](https://physicslearning.colorado.edu/tasi/tasi_2020/lectureNotes/Schmitt%20Lecture%201.pdf), lec2 [mp4](https://physicslearning.colorado.edu/tasi/tasi_2020/videos/Schmitt%20Lecture%202/Schmitt%20Lecture%202.mp4) [pdf](https://physicslearning.colorado.edu/tasi/tasi_2020/lectureNotes/Schmitt%20Lecture%202.pdf), lec3 [mp4](https://physicslearning.colorado.edu/tasi/tasi_2020/videos/Schmitt%20Lecture%203/Schmitt%20Lecture%203.mp4) [pdf](https://physicslearning.colorado.edu/tasi/tasi_2020/lectureNotes/Schmitt%20lecture%203.pdf)
 
-* wikipedia: [statistics](http://en.wikipedia.org/wiki/Statistics), [statistic](http://en.wikipedia.org/wiki/Statistic) (singular!), [list of statistical packages](http://en.wikipedia.org/wiki/List_of_statistical_packages), 
+* Wikipedia: [statistics](http://en.wikipedia.org/wiki/Statistics), [statistic](http://en.wikipedia.org/wiki/Statistic) (singular!), [list of statistical packages](http://en.wikipedia.org/wiki/List_of_statistical_packages), 
 [descriptive statistics](http://en.wikipedia.org/wiki/Descriptive_statistics), [inferential statistics](http://en.wikipedia.org/wiki/Inferential_statistics), [data mining](http://en.wikipedia.org/wiki/Data_mining), [statistical theory](http://en.wikipedia.org/wiki/Statistical_theory), [estimation theory](http://en.wikipedia.org/wiki/Estimation_theory), [statistical significance](http://en.wikipedia.org/wiki/Statistical_significance), [regression analysis](http://en.wikipedia.org/wiki/Regression_analysis), [time series analysis](http://en.wikipedia.org/wiki/Time_series_analysis), [misuse of statistics](http://en.wikipedia.org/wiki/Misuse_of_statistics), [applied statistics](http://en.wikipedia.org/wiki/Applied_statistics), [Bayesian inference](https://en.wikipedia.org/wiki/Bayesian_inference), [multivariate statistics](https://en.wikipedia.org/wiki/Multivariate_statistics), [maximal likelihood estimation](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation), [Fisher information](https://en.wikipedia.org/wiki/Fisher_information)
 
 * [[Peter McCullagh]], _What is a statistical model?_,      Ann. Statist. __30__:5 (2002), 1225-1310 [euclid](http://projecteuclid.org/euclid.aos/1035844977) [MR1936320](http://www.ams.org/mathscinet-getitem?mr=1936320) [doi](http://dx.doi.org/10.1214/aos/1035844977) -- on applying category theory to describe statistical models. 
-
 
 * Lior Pachter, Bernd Sturmfels, _Tropical geometry of statistical models_, PNAS 101 no. 46,  16132&#8211;16137, [doi](htTP://dx.doi.org/10.1073/pnas.0406010101)
 
