@@ -10,6 +10,8 @@
 =--
 
 
+> For disambiguation see at *[[wreath product]]*.
+
 
 \tableofcontents
 
@@ -42,7 +44,7 @@ is the [[semidirect product group]] of
 
 \end{definition}
 
-(cf. [BMMN 2006, Def. 8.1](#BMMN06))
+(cf. [BMMN 2006, Def. 8.1](#BMMN06), see also [James & Kerber 1984 §4.1](#JamesKerber84))
 
 
 \begin{remark}\label{Notation}
@@ -53,7 +55,9 @@ Often the choice of $G$-set $S$ is notationally suppressed, writing instead "$H 
 
 But beware that conventions differ:
 
-Some authors understand by default the [[regular action]] of $G$ on its [[underlying set]]. But when $G = Sym(n)$ is a [[symmetric group]], then often its defining action on $\{1, \cdots, n\}$ is understood (cf. Ex. \ref{FundamentalGroupOfHomotopyQuotientByPermutations} below).
+Some authors understand by default the [[regular action]] of $G$ on its [[underlying set]]. 
+
+But when $G = Sym(n)$ is a [[symmetric group]], then often its defining action on $\{1, \cdots, n\}$ is understood (cf. Ex. \ref{FundamentalGroupOfHomotopyQuotientByPermutations} below). In this case [James & Kerber 1984 §4.2](#JamesKerber84) speak of *complete monomial groups over $H$*.
 \end{remark}
 
 
@@ -131,7 +135,7 @@ Special cases and applications:
 
 On the [[representation theory]] of wreath products with [[symmetric groups]]:
 
-* [[Gordon D. James]], Adalbert Kerber: *Representations of Wreath Products*, Chapter 4 of: *The Representation Theory of the Symmetric Group*, Cambridge University Press (1984) &lbrack;[doi:10.1017/CBO9781107340732](https://doi.org/10.1017/CBO9781107340732)&rbrack;
+* {#JamesKerber84} [[Gordon D. James]], Adalbert Kerber: *Representations of Wreath Products*, Chapter 4 of: *The Representation Theory of the Symmetric Group*, Cambridge University Press (1984) &lbrack;[doi:10.1017/CBO9781107340732](https://doi.org/10.1017/CBO9781107340732)&rbrack;
 
 * I. A. Pushkarev: *On the representation theory of wreath products of finite groups and symmetric groups*, Journal of Mathematical Sciences, **96** (1999) 3590–3599 &lbrack;[doi:10.1007/BF02175835](https://doi.org/10.1007/BF02175835)&rbrack;
 
