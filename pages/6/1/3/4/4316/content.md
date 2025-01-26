@@ -188,8 +188,13 @@ The DHR superselection theory has a reformulation in terms of [[cohomology of lo
 
 see [[AQFT]] ff.
 
+The original articles:
 
-and relatedly on [[quantum statistics]] in view of [[causal locality]]:
+* [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Fields, observables and gauge transformations I*, Commun.Math. Phys. **13** (1969) 1–23 &lbrack;[doi:10.1007/BF01645267](https://doi.org/10.1007/BF01645267)&rbrack;
+
+* [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Fields, observables and gauge transformations II*,  Commun. Math. Phys. **15** (1969) 173–200 &lbrack;[doi:10.1007/BF01645674](https://doi.org/10.1007/BF01645674)&rbrack;
+
+and related to [[particle statistics]] in view of [[causal locality]]:
 
 * [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Local observables and particle statistics I*, Commun.Math. Phys. **23** (1971) 199–230 &lbrack;[doi:10.1007/BF01877742](https://doi.org/10.1007/BF01877742), [euclid:cmp/1103857630](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-23/issue-3/Local-observables-and-particle-statistics-I/cmp/1103857630.full)&rbrack;
 
