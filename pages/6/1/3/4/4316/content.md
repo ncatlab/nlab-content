@@ -188,6 +188,14 @@ The DHR superselection theory has a reformulation in terms of [[cohomology of lo
 
 see [[AQFT]] ff.
 
+
+and relatedly on [[quantum statistics]] in view of [[causal locality]]:
+
+* [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Local observables and particle statistics I*, Commun.Math. Phys. **23** (1971) 199–230 &lbrack;[doi:10.1007/BF01877742](https://doi.org/10.1007/BF01877742), [euclid:cmp/1103857630](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-23/issue-3/Local-observables-and-particle-statistics-I/cmp/1103857630.full)&rbrack;
+
+* [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Local observables and particle statistics I*, Commun.Math. Phys. **35** (1974) 49–85 &lbrack;[doi:10.1007/BF01646454](https://doi.org/10.1007/BF01646454)&rbrack;
+
+
 Of particular relevance (besides the original work of Doplicher and Roberts) are 
 
 * Hellmut Baumg&#228;rtel: _Operator algebraic Methods in Quantum Field Theory. A series of lectures._ Akademie Verlag 1995 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0839.46063&format=complete))
