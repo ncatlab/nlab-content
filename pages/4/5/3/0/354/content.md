@@ -21,18 +21,18 @@
 ## Idea
  {#Idea}
 
-The notion of a _Kan complex_ is an abstraction of the combinatorial structure found in the [[singular simplicial complex]] of a [[topological space]]. There the existence of [[retractions]] of any geometric [[simplex]] to any of its [[horns]] -- simplices missing one face and their interior -- means that all [[horns]] in the singular complex can be filled with genuine simplices, the _Kan filler condition_.
+A _Kan complex_ is an abstraction of the combinatorial structure found in the [[singular simplicial complex]] of a [[topological space]]. There, the existence of [[retractions]] of any geometric [[simplex]] to any of its [[horns]] -- simplices missing one face and their interior -- means that all [[horns]] in the singular simplicial complex can be filled with genuine simplices. This is the _Kan filler condition_.
 
-At the same time, the notion of a Kan complex is an abstraction of the structure found in the [[nerve]] of a [[groupoid]], the [[Duskin nerve]] of a [[2-groupoid]] and generally (almost by definition, see at _[[cobordism hypothesis]]_) the nerves of [[n-groupoids]] for all $n \leq \infty$. In other words, Kan complexes constitute a [[geometric definition of higher category|geometric model]] for [[∞-groupoids]]/[[homotopy types]] which is based on the [[geometric shapes for higher structures|shape]] given by the [[simplex category]] (as opposed to, say, the [[globe category]], as for what are usually called [[∞-groupoids]]). Thus Kan complexes serve to support [[homotopy theory]].
+At the same time, a Kan complex is an abstraction of the structure found in the [[nerve]] of a [[groupoid]], the [[Duskin nerve]] of a [[2-groupoid]] and generally (almost by definition, see at _[[cobordism hypothesis]]_) the nerves of [[n-groupoids]] for all $n \leq \infty$. In other words, Kan complexes constitute a [[geometric definition of higher category|geometric model]] for [[∞-groupoids]]/[[homotopy types]] which is based on the [[geometric shapes for higher structures|shape]] given by the [[simplex category]] (as opposed to, say, the [[globe category]], as for what are usually called [[∞-groupoids]]). Thus, Kan complexes serve to support [[homotopy theory]].
 
-More in detail, a Kan complex is a collection of $k$-[[simplex]]-shaped [[k-morphism]]s for all $k \in \mathbb{N}$, such that for all composable $k$-morphisms a composite does exist (not necessarily uniquely) and  such that all $k$-morphisms are invertible under this composition.
+In more detail, a Kan complex is a collection of $k$-[[simplex]]-shaped [[k-morphism]]s for all $k \in \mathbb{N}$, such that for all composable $k$-morphisms a composite does exist (not necessarily uniquely) and  such that all $k$-morphisms are invertible under this composition.
 
 
 Specifically for the [[nerve]] $N(\mathcal{G}_\bullet)$ of a [[groupoid]] $\mathcal{G}_\bullet$, a $k$-cell is given by a sequence of [[morphisms]] of the form $\{0\to 1\to \ldots \to k\}$, thought of as a $k$-[[simplex]] by taking its $(k-1)$-faces to be the the sequences obtained from this by deleting the first or the last morphism or by composing two consecutive morphisms in the sequence. 
 
-Hence generally, in a Kan complex a $k$-face of an $(k+1)$-[[simplex]] may be thought of as the [[composition]] of the remaining faces, all regarded as [[k-morphisms]]. But unless the Kan complex is the [[nerve]] of a [[groupoid]] (a [[1-groupoid]]), there is in general not a unique such composite. Indeed, _choosing_ one of the fillers of each horn in a Kan complex to be _the_ composite means passing from Kan complexes to an [[algebraic definition of higher category|algebraic model]] for [[∞-groupoids]], _[[algebraic Kan complexes]]_.
+Hence, in a Kan complex, a $k$-face of a $(k+1)$-[[simplex]] may be thought of as the [[composition]] of the remaining faces, all regarded as [[k-morphisms]]. But, unless the Kan complex is the [[nerve]] of a [[groupoid]] (a [[1-groupoid]]), the composite of a morphism is not generally unique. Indeed, _choosing_ one of the fillers of each horn in a Kan complex to be _the_ composite means passing from Kan complexes to an [[algebraic definition of higher category|algebraic model]] for [[∞-groupoids]], _[[algebraic Kan complexes]]_.
 
-Among all [[∞-groupoids]] the [[strict ∞-groupoids]] correspond to [[crossed complexes]] and various other related algebraic models, all or most of which have a [[full subcategory|faithful embedding]] into Kan complexes under a suitable [[nerve]] operation. One of these are the [[simplicial T-complexes]], the nerves crossed complexes. There all horns have unique 'thin' fillers, so these are Kan complexes corresponding to a strict form of higher dimensional groupoid. 
+Among all [[∞-groupoids]], the [[strict ∞-groupoids]] correspond to [[crossed complexes]] and various other related algebraic models, all or most of which have a [[full subcategory|faithful embedding]] into Kan complexes under a suitable [[nerve]] operation. One of these are the [[simplicial T-complexes]], the nerves of crossed complexes. There, all horns have unique 'thin' fillers, so these are Kan complexes corresponding to a strict form of higher-dimensional groupoid. 
 
 
  
@@ -43,13 +43,13 @@ Among all [[∞-groupoids]] the [[strict ∞-groupoids]] correspond to [[crossed
 +-- {: .num_defn #KanComplexes}
 ###### Definition
 
-A _Kan complex_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_, 
+A _Kan complex_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_, which says that 
 
-* which says that all [[horns]] of the simplicial set have [[filler]]s (that is, extend to [[simplices]]);
+* all [[horns]] of $S$ have [[filler]]s (that is, extend to [[simplices]]);
 
-* which means equivalently that the unique homomorphism $S \to pt$ from $S$ to the [[point]] (the [[terminal object|terminal]] [[simplicial set]]) is a [[Kan fibration]];
+* equivalently, the unique homomorphism $S \to pt$ from $S$ to the [[point]] (the [[terminal object|terminal]] [[simplicial set]]) is a [[Kan fibration]];
 
-* which means equivalently that for all [[diagrams]] of the form
+* equivalently, for all [[diagrams]] of the form
 
   $$
   \array{
@@ -95,7 +95,7 @@ A _Kan complex_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_,
 
   completing this to a [[commuting diagram]];
 
-* which in turn means equivalently that the map from $n$-simplices to $(n,i)$-horns is an [[epimorphism]]
+* equivalently, the map from $n$-simplices to $(n,i)$-horns is an [[epimorphism]]
 $$
   [\Delta[n], S]\, \twoheadrightarrow \,[\Lambda^i[n],S]
   \,.
@@ -109,7 +109,7 @@ $$
 The last characterization in def. \ref{KanComplexes} is 
 sometimes taken to induce the generalization to [[internalization|internal]] 
 Kan complexes in ambient geometric contexts. 
-For instance the generalization of [[Lie groupoids]] to
+For instance, the generalization of [[Lie groupoids]] to
 "Lie Kan complexes" 
 might be defined to be given by [[simplicial objects]] in 
 the [[category]] [[SmoothMfd]] of [[smooth manifolds]] 
@@ -121,7 +121,7 @@ $$
 
 are _[[surjective submersions]]_.
 
-While this is useful for some purposes, one should beware that this naive generalization, if taken at face value, may break the [[homotopy theory|homotopy theoretic]] interpretation of (smooth, say) Kan complexes as models for ([[smooth infinity-groupoid|smooth]], say) [[∞-groupoids]]. A homotopy-good theory of Lie Kan complexes is discussed in ([NSS, section 4.2](#NSSb)).
+While this is useful for some purposes, one should beware that this naive generalization, if taken at face value, may break the [[homotopy theory|homotopy-theoretic]] interpretation of (say, smooth) Kan complexes as models for (say, [[smooth infinity-groupoid|smooth]]) [[∞-groupoids]]. A homotopy-good theory of Lie Kan complexes is discussed in ([NSS, section 4.2](#NSSb)).
 See at _[[internal ∞-groupoid]]_ for more.
 
 =--
@@ -131,9 +131,9 @@ See at _[[internal ∞-groupoid]]_ for more.
 
 Some special cases of def. \ref{KanComplexes} go by their own terminology:
 
-* a Kan complex such that for every $k \gt n+1$ every $k$-[[boundary]] $\partial \Delta$ has a unique [[filler]] is called $(n+1)$-[[simplicial skeleton|coskeletal]];
+* a Kan complex such that, for every $k \gt n+1$, every $k$-[[boundary]] $\partial \Delta$ has a unique [[filler]] is called $(n+1)$-[[simplicial skeleton|coskeletal]];
 
-* a Kan complex that is $(n+1)$-[[coskeleton|coskeletal]] such that in addition the $(n+1)$-[[horns]] and $(n+2)$-[[horns]] have a unique filler are also called _[[hypergroupoid|n-hypergroupoids]]_.
+* a Kan complex that is $(n+1)$-[[coskeleton|coskeletal]] such that, in addition, the $(n+1)$-[[horns]] and $(n+2)$-[[horns]] have a unique filler are also called _[[hypergroupoid|n-hypergroupoids]]_.
 
 These $(n+1)$-coskeletal Kan complexes are models for [[n-groupoids]]/[[homotopy n-types]]/[[n-truncated object in an (infinity,1)-category|n-truncated]] [[∞-groupoids]].
 
@@ -144,18 +144,18 @@ These $(n+1)$-coskeletal Kan complexes are models for [[n-groupoids]]/[[homotopy
 ## As models for $\infty$-groupoids
  {#AsGrpds}
 
-Here we discuss aspects of how _Kan complexes_ serve as a model (a "[[geometric definition of higher categories|geometric model]]") for [[groupoids]], [[2-groupoids]], ... [[n-groupoids]] and generally _[[∞-groupoids]]_ or _[[homotopy types]]_. 
+Here, we discuss aspects of how _Kan complexes_ serve as a model (a "[[geometric definition of higher categories|geometric model]]") for [[groupoids]], [[2-groupoids]], ... [[n-groupoids]] and generally _[[∞-groupoids]]_ or _[[homotopy types]]_. 
 
 
-First we survey the general idea in 
+First, we survey the general idea in 
 
-* [Heuristics on composition and inverses](#HeuristicsOnCompositionAndInverses)
+* [Heuristics on composition and inverses](#HeuristicsOnCompositionAndInverses).
 
-then we recall 1-[[groupoids]] as Kan complexes via their [[nerves]] in
+Then, we recall 1-[[groupoids]] as Kan complexes via their [[nerves]] in
 
-* [1-Groupoids as Kan complexes](#1GroupoidsAsKanComplexes)
+* [1-Groupoids as Kan complexes](#1GroupoidsAsKanComplexes).
 
-Then we discuss basic aspects of the
+Then, we discuss basic aspects of the
 
 * [Homotopy theory of ∞-groupoids as Kan complexes](#HomotopyTheoryOfKanComplexes).
 
@@ -172,7 +172,7 @@ This is a special case of how [[weak Kan complexes]] ([[quasi-categories]]) are 
 
 The horn filling condition from this point of view is read as guaranteeing that:
 
-for all collection of $(k-1)$ composable [[k-morphisms]] (given by a horn $\Lambda^k[n]$) there exists a [[k-morphism]] -- their _composite_ -- and an $(n+1)$-morphism connecting the original $(n-1)$ $n$-cells with their composite. Depending on $k$, this interpretation in terms of composition implies that one thinks of all cells as being reversible. 
+for all collections of $k-1$ composable [[k-morphisms]] (given by a horn $\Lambda^k[n]$), there exists a [[k-morphism]] -- their _composite_ -- and an $(n+1)$-morphism connecting the original $n-1$ $n$-cells with their composite. Depending on $k$, this interpretation in terms of composition implies that one thinks of all cells as being reversible. 
 
 For illustrations of the horn-[[filler]] conditions see also at [[Kan fibration]].
 
@@ -191,9 +191,9 @@ Whatever other definition of [[∞-groupoid]] one considers, it is expected (and
 +-- {: .num_remark}
 ###### Remark
 
-Of all the models for [[∞-groupoids]] known in the literature, Kan complexes are probably the most widely used, certainly in [[homotopy theory]] and related "geometric" approaches to [[higher category]] (such as in terms of [[n-fold complete Segal spaces]] etc.), less so in "algebraic" approaches to [[higher category theory]]. To a large extent this is because the category of Kan complexes -- in particular when thought of as the full sub-[[category of fibrant objects]] inside the standard [[model structure on simplicial sets]] -- lends itself usefully to many computations; to some extent it is maybe a historical coincidence that specifically for this model the theory was worked out in such detail. Maybe if [[Daniel Kan|Kan]] -- who first tried [[cubical sets]] and then rejected them in favor of [[simplicial sets]] due to some technical issues -- had tried [[connection on a cubical set|cubical set with connection]] first, things would have developed differently. See at _[[cubical set]]_ for discussion of this issue.
+Of all the models for [[∞-groupoids]] known in the literature, Kan complexes are probably the most widely used, certainly in [[homotopy theory]] and related "geometric" approaches to [[higher category]] (such as in terms of [[n-fold complete Segal spaces]] etc.), less so in "algebraic" approaches to [[higher category theory]]. To a large extent, this is because the category of Kan complexes -- particularly when thought of as the full sub-[[category of fibrant objects]] inside the standard [[model structure on simplicial sets]] -- lends itself usefully to many computations. To some extent, it is maybe a historical coincidence that the theory was worked out in such detail for this model specifically. Maybe if [[Daniel Kan|Kan]] -- who first tried [[cubical sets]] and then rejected them in favor of [[simplicial sets]] due to some technical issues -- had tried [[connection on a cubical set|cubical sets with connection]] first, things would have developed differently. See at _[[cubical set]]_ for discussion of this issue.
 
-But in any case it seems clear that there is no "fundamental" conceptual role to prefer Kan complexes over other models for [[∞-groupoids]]. Instead, in view of modern developments it seems right to regard the abstract concept of [[homotopy type]] (not as an [[equivalence class]], but as a representative, though) as fundamental, and everything else to be "just a model" for this, which may or may not be useful for a particular computation. This point of view is formalized by the [[univalent foundations]] of mathematics in terms of [[homotopy type theory]]. Here the [[theory]] of [[homotopy types]] is given as an abstract foundational notion and then [[Kan complexes]] and related structures are shown to be a [[model]]. For more on this see at _[[homotopy type theory]]_.
+But, in any case, it seems clear that there is no "fundamental" conceptual reason to prefer Kan complexes over other models for [[∞-groupoids]]. Instead, in view of modern developments, it seems right to regard the abstract concept of [[homotopy type]] (not as an [[equivalence class]], but as a representative) as fundamental, and everything else to be "just a model" for this, which may or may not be useful for a particular computation. This point of view is formalized by the [[univalent foundations]] of mathematics in terms of [[homotopy type theory]]. There, the [[theory]] of [[homotopy types]] is given as an abstract foundational notion, and then [[Kan complexes]] and related structures are shown to be a [[model]]. For more on this, see at _[[homotopy type theory]]_.
 
 
 =--
@@ -201,11 +201,11 @@ But in any case it seems clear that there is no "fundamental" conceptual role to
 ### Heuristics on composition and inverses
  {#HeuristicsOnCompositionAndInverses}
 
-An [[∞-groupoid]] is first of all supposed to be a structure that consists of [[k-morphism]]s for all $k \in \mathbb{N}$, which for $k \geq 1$ go between $(k-1)$-morphisms. 
+An [[∞-groupoid]] is primarily supposed to be a structure that consists of [[k-morphism]]s for all $k \in \mathbb{N}$, which, for $k \geq 1$, go between $(k-1)$-morphisms. 
 
 In the context of Kan complexes, the tool for organizing such collections of [[k-morphisms]] is the notion of a _[[simplicial set]]_, which models $k$-morphisms as being of the [[geometric shape for higher structures|shape]] of $k$-[[simplices]] -- a [[vertex]] for $k = 0$, an [[edge]] for $k = 1$, a [[triangle]] for $k = 2$, a [[tetrahedron]] for $k = 3$, and so on. 
 
-This means that a simplicial set $K_\bullet$ is a sequence of [[sets]] $\{K_n\}_{n \in \mathbb{N}}$ (sets of $k$-simplex shaped $k$-morphisms for all $k$) equipped with [[functions]] $d_i \colon K_{k+1} \to K_{k}$ that send a $(k+1)$-simplex to its $i$-th face, and functions $s_i \colon K_k \to K_{k+1}$ that over a $k$-simplex "erects a flat $(k+1)$-simplex" in all possible ways (hence which inserts "[[identities]]" called "degeneracies" in this context).
+This means that a simplicial set $K_\bullet$ is a sequence of [[sets]] $\{K_n\}_{n \in \mathbb{N}}$ (sets of $k$-simplex shaped $k$-morphisms for all $k$) equipped with [[functions]] $d_i \colon K_{k+1} \to K_{k}$ that send a $(k+1)$-simplex to its $i$-th face, and functions $s_i \colon K_k \to K_{k+1}$ that, over a $k$-simplex, "erects a flat $(k+1)$-simplex" in all possible ways (hence which inserts "[[identities]]" called "degeneracies" in this context).
 
 If we write $\Delta$ for the [[category]] whose [[objects]] are abstract cellular [[simplices]] and whose morphisms are all cellular maps between these, then such a simplicial set is equivalently a [[functor]] of the form
 
@@ -213,7 +213,7 @@ $$
   K \colon \Delta^{op} \to Set
 $$
 
-Hence we think of this as assigning
+Hence, we think of this as assigning
 
 * a set $[0] \mapsto K_0$ of [[objects]];
 
@@ -225,7 +225,7 @@ Hence we think of this as assigning
 
 and generally
 
-* a set $[k] \mapsto K_k$ of [[k-morphism]]s
+* a set $[k] \mapsto K_k$ of [[k-morphism]]s,
 
 as well as specifying
 
@@ -239,9 +239,9 @@ as well as specifying
 The fact that $K$ is supposed to be a [[functor]] enforces that these assignments of sets and functions satisfy conditions that make consistent our interpretation of them as sets of $k$-morphisms and source and target maps between these. 
 These are called the _[[simplicial identities]]_.
 
-But apart from this source-target matching, a generic simplicial set does not yet encode a notion of [[composition]] of these morphisms. 
+But, apart from this source-target matching, a generic simplicial set does not yet encode a notion of [[composition]] of these morphisms. 
 
-For instance for $\Lambda^1[2]$ the simplicial set consisting of two attached 1-cells 
+For instance, for $\Lambda^1[2]$ the simplicial set consisting of two attached 1-cells 
 
 $$
   \Lambda^1[2] = \left\{
@@ -255,7 +255,7 @@ $$
   \right\}
 $$
 
-and for $(f,g) : \Lambda^1[2] \to K$ an image of this situation in $K$, hence a pair $x_0 \stackrel{f}{\to} x_1 \stackrel{g}{\to} x_2$ of two _composable_ 1-morphisms in $K$, we want to demand that there exists a third 1-morphisms in $K$ that may be thought of as the [[composition]] $x_0 \stackrel{h}{\to} x_2$ of $f$ and $g$. But since we are working in [[higher category theory]] (and to ahere to the [[principle of equivalence]]), we want to identify this composite only up to a [[2-morphism]] equivalence
+and for $(f,g) : \Lambda^1[2] \to K$ an image of this situation in $K$, hence a pair $x_0 \stackrel{f}{\to} x_1 \stackrel{g}{\to} x_2$ of two _composable_ 1-morphisms in $K$, we want to demand that there exists a third 1-morphism in $K$ that may be thought of as the [[composition]] $x_0 \stackrel{h}{\to} x_2$ of $f$ and $g$. But since we are working in [[higher category theory]] (and to adhere to the [[principle of equivalence]]), we want to identify this composite only up to a [[2-morphism]] equivalence
 
 $$
     \array{
@@ -269,7 +269,7 @@ $$
   \,.
 $$
 
-From the picture it is clear that this is equivalent to demanding that for $\Lambda^1[2] \hookrightarrow \Delta[2]$ the obvious inclusion of the two abstract composable 1-morphisms into the 2-simplex we have a diagram of morphisms of simplicial sets
+From the picture, it is clear that this is equivalent to demanding that, for $\Lambda^1[2] \hookrightarrow \Delta[2]$ the obvious inclusion of the two abstract composable 1-morphisms into the 2-simplex, we have a diagram of morphisms of simplicial sets
 
 $$
   \array{
@@ -282,9 +282,9 @@ $$
   \,.
 $$
 
-A simplicial set where for all such $(f,g)$ a corresponding such $h$ exists may be thought of as a collection of higher morphisms that is equipped with a notion of composition of adjacent 1-morphisms. 
+A simplicial set where, for all such $(f,g)$, a corresponding such $h$ exists may be thought of as a collection of higher morphisms that is equipped with a notion of composition of adjacent 1-morphisms. 
 
-For the purpose of describing [[groupoid]]al composition, we now want that this composition operation has all [[inverse]]s. For that purpose, notice that for 
+For the purpose of describing [[groupoid]]al composition, we now want this composition operation to have all [[inverse]]s. For that purpose, notice that for 
 
 $$
   \Lambda^2[2] = \left\{
@@ -304,7 +304,7 @@ $$
   (g,h) : \Lambda^2[2] \to K
 $$
 
-two such 1-morphisms in $K$, then if $g$ had an inverse $g^{-1}$ we could use the above composition operation to compose that with $h$ and thereby find a morphism $f$ connecting the sources of $h$ and $g$. This being the case is evidently equivalent to the existence of diagrams of morphisms of simplicial sets of the form
+two such 1-morphisms in $K$, if $g$ had an inverse $g^{-1}$, then we could use the above composition operation to compose that with $h$ and thereby find a morphism $f$ connecting the sources of $h$ and $g$. This being the case is evidently equivalent to the existence of diagrams of morphisms of simplicial sets of the form
 
 $$
   \array{
@@ -317,13 +317,13 @@ $$
   \,.
 $$
 
-Demanding that all such diagrams exist is therefore demanding that we have on 1-morphisms a composition operation with inverses in $K$. 
+Demanding that all such diagrams exist is therefore demanding that we have an invertible composition operation on 1-morphisms in $K$. 
 
-In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an [[associativity law]] up to [[coherent]] [[2-morphisms]], which means that we can find the relevant [[tetrahedron]]s in $K$. These in turn need to be connected by _pentagonators_ and ever so on.  It is a nontrivial but true and powerful fact, that all these [[coherence]] conditions are captured by generalizing the above conditions to all dimensions as in the definition of Kan complexes.
+In order for this to qualify as an $\infty$-groupoid, this composition operation needs to satisfy an [[associativity law]] up to [[coherent]] [[2-morphisms]], which means that we can find the relevant [[tetrahedron|tetrahedra]] in $K$. These, in turn, need to be connected by _pentagonators_, and so on.  It is a nontrivial but true and powerful fact that all these [[coherence]] conditions are captured by generalizing the above conditions to all dimensions as in the definition of Kan complexes.
 
-In order to conceive of the $k$-[[simplices]] for higher $k$ as "[[globular set|globular]] [[k-morphism]]" going from a source to a target one needs a bit of combinatorics. This provided by the _[[orientals]]_ (due to [[Ross Street]]).
+In order to conceive of the $k$-[[simplices]] for higher $k$ as "[[globular set|globular]] [[k-morphism|k-morphisms]]" going from a source to a target, one needs a bit of combinatorics. This is provided by the _[[orientals]]_ (due to [[Ross Street]]).
 
-{#Oriental} The $k$-[[oriental]] $O(k)$ is precisely the prescription for how exactly to think of  a $k$-[[simplex]] as being a [[k-morphism]] in an [[omega-category]]. 
+{#Oriental} The $k$-[[oriental]] $O(k)$ is precisely the prescription for how exactly to think of a $k$-[[simplex]] as being a [[k-morphism]] in an [[omega-category]]. 
 
 
 
@@ -339,26 +339,28 @@ In order to conceive of the $k$-[[simplices]] for higher $k$ as "[[globular set|
 
 In fact, the [[omega-nerve]] $N(K)$ of an [[omega-category]] $K$ is the [[simplicial set]] whose collection of $k$-cells $N(K)_k := Hom(O(k),K)$ is precisely the collection of images of the $k$th oriental $O(k)$ in $K$.
 
-This is fully formally the prescription of how to think of a Kan complex as an $\infty$-groupoid: the Kan complex $C$ is the [[omega-nerve]] of an [[omega-category]] in which all morphism are invertible:
+Here is the fully formal prescription of how to think of a Kan complex as an $\infty$-groupoid:
 
-* the $k$-cells in  $C_k$ are precisely the collection of $k$-morphisms in the omega-category of shape the $k$th [[oriental]] $O(k)$;
+* The Kan complex $C$ is the [[omega-nerve]] of an [[omega-category]] in which all morphism are invertible;
 
-* the [[horn]]-filler conditions satisfied by these cells is precisely a reflection of the fact that
+* The $k$-cells in  $C_k$ are precisely the $k$-morphisms in the omega-category of shape the $k$th [[oriental]] $O(k)$;
 
-  1. there exists a notion of composition of adjacent k-morphisms in the [[omega-category]];
+* The [[horn]]-filler conditions satisfied by these cells are precisely a reflection of the fact that
 
-  1. under this composition all $k$-morphisms have an inverse.
+  1. there exists a notion of composition of adjacent k-morphisms in the [[omega-category]]; and
+
+  1. under this composition, all $k$-morphisms have an inverse.
 
 This is easy to see in low dimensions: 
 
-* a 1-cell $\phi \in C_1$ in the [[simplicial set]] $C$ has a single source 0-cell $x := d_1 \phi$ and a single target 0-cell $y := d_0 \phi$ and hence may be pictured as a [[morphism]]
+* a 1-cell $\phi \in C_1$ in the [[simplicial set]] $C$ has a single source 0-cell $x := d_1 \phi$ and a single target 0-cell $y := d_0 \phi$, and thus may be pictured as a [[morphism]]
 
   $$
     x \stackrel{\phi}{\to} y
     \,.
   $$
 
-* a 2-cell $\phi \in C_2$ in the [[simplicial set]] $C$ has two incoming 1-cells $d_2 \phi, d_0 \phi \in C_1$ and one outgoing 1-cell $d_1 \phi \in C_1$, and if we think of the two incoming 1-cells as representing the composite of the corresponding 1-morphisms, we may picture the 2-cell $\phi$ here as a globular 2-morphism
+* a 2-cell $\phi \in C_2$ in the [[simplicial set]] $C$ has two incoming 1-cells $d_2 \phi, d_0 \phi \in C_1$ and one outgoing 1-cell $d_1 \phi \in C_1$, and if we think of the two incoming 1-cells as representing the composite of the corresponding 1-morphisms, we may picture the 2-cell $\phi$ as a globular 2-morphism
 
   $$
     \array{
@@ -371,11 +373,11 @@ This is easy to see in low dimensions:
     \,.
   $$
 
-More in detail, one may think of the incoming two adjacent $1$-cells here as _not_ being the composite of these two morphism, but just as a [[composable pair]], and should think of the existence of the 2-morphism $\phi$ here as being a **compositor** in a [[bicategory]] that shows how the composable pair is composed to the morphism $d_1 \phi$.
+In more detail, one may think of the two adjacent incoming $1$-cells _not_ as being the composite of these two morphisms, but just as a [[composable pair]], and one should think of the 2-morphism $\phi$ as being a **compositor** in a [[bicategory]] that shows how the composable pair is composed to the morphism $d_1 \phi$.
 
-So if an $\infty$-groupoid is thought of as a [[geometric shapes for higher structures|globular]] [[Batanin ∞-category| ∞-category]] in which all [[k-morphism]]s are invertible, then the corresponding Kan complex is the [[nerve]] or rather the [[∞-nerve]] of this [[∞-category]].
+So, if an $\infty$-groupoid is thought of as a [[geometric shapes for higher structures|globular]] [[Batanin ∞-category| ∞-category]] in which all [[k-morphism]]s are invertible, then the corresponding Kan complex is the [[nerve]] (or rather the [[∞-nerve]]) of this [[∞-category]].
 
-Notably if $C$ is to be regarded as (the nerve of) an ordinary [[groupoid]], every composable pair of morphisms has a unique composite, and hence there should be a _unique_ 2-cell
+Notably, if $C$ is to be regarded as (the nerve of) an ordinary [[groupoid]], then every composable pair of morphisms has a unique composite, and hence there should be a _unique_ 2-cell
 
   $$
     \array{
@@ -394,7 +396,7 @@ $$
   \,.
 $$
 
-More generally, in a [[2-groupoid]] there may be non-identity 2-morphisms, and hence for any 1-morphism $k \colon x_0 \to x_2$ 2-isomorphic to $h$, there may be many 2-morphisms $g \circ f \Rightarrow k$, hence many 2-cells
+More generally, in a [[2-groupoid]], there may be non-identity 2-morphisms, and hence, for any 1-morphism $k \colon x_0 \to x_2$ 2-isomorphic to $h$, there may be many 2-morphisms $g \circ f \Rightarrow k$, and hence many 2-cells
 
 $$
   \array{
@@ -407,11 +409,11 @@ $$
   \,.
 $$
 
-All we can say for sure is that _at least_ one such 2-cell exists, and that the 2-cells themselves may be composed in some way. This is precisely what the horn-filler conditions in a Kan complex encode.
+All we can say for sure is that _at least_ one such 2-cell exists, and that the 2-cells themselves may be composed in some way. This is precisely what the horn filler conditions in a Kan complex encode.
 
-We have already seen in low dimension how the existence of composites in an $\omega$-category is reflected in the fact that in a Kan-complex certain 2-simplices exist, and how the non-uniqueness of these 2-simplices reflects the existence of nontrivial 2-morphisms.
+We have already seen in low dimension how the existence of composites in an $\omega$-category is reflected by the fact that, in a Kan-complex, certain 2-simplices exist, and how the non-uniqueness of these 2-simplices reflects the existence of nontrivial 2-morphisms.
 
-To see in a similar fashion that the Kan condition ensures the existence of _inverses_ consider an _outer horn_ in $C$, a diagram of 1-cells of the form
+To see in a similar fashion that the Kan condition ensures the existence of _inverses_, consider an _outer horn_ in $C$, a diagram of 1-cells of the form
 
 $$
   \array{
@@ -424,7 +426,7 @@ $$
   \,.
 $$
 
-In general given such a diagram in a [[category]], there is no guarantee that the corresponding triangle as above will exist in its [[nerve]]. But if the category is a [[groupoid]], then it is guaranteed that the missing 1-face can be chose to be the [[inverse]] of $f$ composed with the morphism $h$, and there is at least one 2-morphism
+In general, given such a diagram in a [[category]], there is no guarantee that the corresponding triangle as above will exist in its [[nerve]]. But, if the category is a [[groupoid]], then it is guaranteed that the missing 1-face can be chosen to be the [[inverse]] of $f$ composed with the morphism $h$, and there is at least one 2-morphism
 
 $$
   \array{
@@ -511,7 +513,7 @@ $$
   \,.
 $$
 
-For each $n \geq 1$, the two maps $d_0$ and $d_n$ that forget the first and the last morphism in such a sequence and the $n-1$ maps $d_k$ that form the composition of the $k$th morphism in the sequence with the next one, constitute $(n+1)$ [[functions]] denoted
+For each $n \geq 1$, the two maps $d_0$ and $d_n$ that forget the first and the last morphism in such a sequence and the $n-1$ maps $d_k$ that form the composition of the $k$th morphism in the sequence with the next one constitute $(n+1)$ [[functions]] denoted
 
 $$
   d_k \colon \mathcal{G}_n \to \mathcal{G}_{n-1}
@@ -530,7 +532,7 @@ $$
 +-- {: .num_prop #NerveOfGroupoidIsKanComplex}
 ###### Proposition
 
-These collections of maps in def. \ref{NerveOfGroupoid} satisfy the [[simplicial identities]], hence make the [[nerve]] $\mathcal{G}_\bullet$ into a [[simplicial set]]. Moreover, this simplicial set is a Kan complex, where each $n \geq 2$-[[horn]] has a _unique_ filler (extension to a [[simplex]]).
+These collections of maps in def. \ref{NerveOfGroupoid} satisfy the [[simplicial identities]], and hence make the [[nerve]] $\mathcal{G}_\bullet$ into a [[simplicial set]]. Moreover, this simplicial set is a Kan complex where each $n \geq 2$-[[horn]] has a _unique_ filler (extension to a [[simplex]]).
 
 =--
 
@@ -571,9 +573,9 @@ for the [[category]] of Kan complexes, which is the [[full subcategory]] of that
 +-- {: .num_remark }
 ###### Remark
 
-This means that for $X_\bullet,Y_\bullet \in KanCplx$ two Kan complexes, an element $f_\bullet \colon X_\bullet \to Y_\bullet$ in the [[hom-set]] $Hom_{KanCplx}(X_\bullet,Y_\bullet)$ is 
+This means that, for $X_\bullet,Y_\bullet \in KanCplx$ two Kan complexes, an element $f_\bullet \colon X_\bullet \to Y_\bullet$ in the [[hom-set]] $Hom_{KanCplx}(X_\bullet,Y_\bullet)$ is 
 
-* a sequences of [[functions]] $f_n \colon X_n \to Y_n$ for all $n \in \mathbb{N}$;
+* a sequence of [[functions]] $f_n \colon X_n \to Y_n$ for all $n \in \mathbb{N}$;
 
 such that
 
@@ -611,7 +613,7 @@ The construction in def. \ref{MappingObjectOfKanComplexes} defines an [[internal
 +-- {: .num_remark }
 ###### Remark
 
-As such it is also common to write $Y^X$ for $Maps(X,Y)$, as well as $[X,Y]$. Notice that the latter notation is sometimes used instead for just the set of [[connected components]] of $Maps(X,Y)$.
+As such, it is also common to write $Y^X$ for $Maps(X,Y)$, as well as $[X,Y]$. Notice that the latter notation is sometimes used instead for just the set of [[connected components]] of $Maps(X,Y)$.
 
 =--
 
@@ -624,7 +626,7 @@ $$
   I_\bullet \coloneqq \{0 \stackrel{\simeq}{\to} 1\}
 $$
 
-for the Kan complex which is [[1-groupoid]] with two objects and one nontrivial morphism and its inverse between them. This comes with two inclusions
+for the Kan complex which is a [[1-groupoid]] with two objects and one nontrivial morphism and its inverse between them. This comes with two inclusions
 
 $$
   i_0, i_1 \colon \ast \to I
@@ -632,7 +634,7 @@ $$
 
 of its endpoints.
 
-Then for $X_\bullet \in KanCplx$ any other Kan complex, the [[mapping space]] $[I,X]_\bullet$ from def. \ref{MappingObjectOfKanComplexes} is the [[path space object]] of $X_\bullet$. 
+Then, for $X_\bullet \in KanCplx$ any other Kan complex, the [[mapping space]] $[I,X]_\bullet$ from def. \ref{MappingObjectOfKanComplexes} is the [[path space object]] of $X_\bullet$. 
 
 $$
   X_\bullet \stackrel{[i_0,X_\bullet]}{\leftarrow} [I_\bullet,X_\bullet]_\bullet \stackrel{[i_1,X]}{\to} X_\bullet
@@ -667,7 +669,7 @@ $$
 
 It follows that the category $KanCplx$ is naturally [[enriched category|enriched]] over itself. 
 
-We may write [[∞Grpd]] for $KanCplx$ regarded as a $KanCplx$-[[enriched category]], hence as fibrant [[sSet-enriched category]]. We write $X$ (without the subscript) for a Kan complex $X_\bullet$ regarded as an object of $\infty Grpd$.
+We may write [[∞Grpd]] for $KanCplx$ regarded as a $KanCplx$-[[enriched category]], hence as a fibrant [[sSet-enriched category]]. We write $X$ (without the subscript) for a Kan complex $X_\bullet$ regarded as an object of $\infty Grpd$.
 
 
 
@@ -676,7 +678,7 @@ We may write [[∞Grpd]] for $KanCplx$ regarded as a $KanCplx$-[[enriched catego
 
 ### Model category
 
-Kan complexes are the [[fibrant objects]] in the _[[model structure on simplicial sets|model structures on simplicial sets]]_ for which fibrations are [[Kan fibration|Kan fibrations]].
+Kan complexes are the [[fibrant objects]] in the _[[model structure on simplicial sets|model structures on simplicial sets]]_ for which the fibrations are [[Kan fibration|Kan fibrations]].
 
 In this context, a weak equivalence between Kan complexes is a morphism of simplicial sets that induces an [[isomorphism]] on the [[simplicial homotopy groups]] of the two Kan complexes: a _[[weak homotopy equivalence]]_.
 
@@ -694,7 +696,7 @@ is a Kan complex if and only if $C$ is a [[groupoid]].
 
 =--
 
-The existence of [[nLab:inverse|inverse]] morphisms in $D$ corresponds to the fact that in the [[Kan complex]] $N(D)$ the "outer" [[horns]]
+The existence of [[nLab:inverse|inverse]] morphisms in $D$ corresponds to the fact that, in the [[Kan complex]] $N(D)$, the "outer" [[horns]]
 
 $$
   \array{
@@ -744,7 +746,7 @@ $$
 
 (even unique fillers, due to the properties of the [[nerve]] of an ordinary category).
 
-This is one way to see and motivate that a simplicial set that is a [[Kan complex]] but which does not necessarily have unique fillers makes models an [[∞-groupoid]].
+This is one way to see and motivate that a simplicial set that is a [[Kan complex]] but which does not necessarily have unique fillers models an [[∞-groupoid]].
 
 Accordingly
 
@@ -773,7 +775,7 @@ $$
   sSet
 $$
 
-every [[chain complex]] (of abelian groups, in non-negative degree) is equivalent to a [[simplicial abelian group]] and this has an underlying Kan complex. This way [[homological algebra]] becomes a special case of the study of [[homotopy theory]] (of Kan complexes).
+every [[chain complex]] (of abelian groups, in non-negative degree) is equivalent to a [[simplicial abelian group]] and this has an underlying Kan complex. This way, [[homological algebra]] becomes a special case of the study of [[homotopy theory]] (of Kan complexes).
 
 
 ### Simplicial models of Mal'cev theories 
@@ -800,16 +802,16 @@ $$
 
 in [[Top]] of continuous maps from the standard topological $n$-simplex $\Delta^n_{Top}$ into $X$.
 
-Using the fact that the $\Delta^n_{Top}$ arrange themselves into a [[simplicial object|cosimplicial space]]
+Using the fact that the $\Delta^n_{Top}$'s arrange themselves into a [[simplicial object|cosimplicial space]]
 
 $$
   \Delta_{Top} : \Delta \to Top
 $$
 
-in the obvious way, the $(\Pi(X)_n)$ become a [[simplicial set]] in the corresponding obvious way. For instance the face maps are induced by restricting maps to $X$ along the face inclusions $\delta^i : \Delta^{n-1} \hookrightarrow \Delta^n$.
+in the obvious way, the $\Pi(X)_n$'s form a [[simplicial set]] in the corresponding obvious way. For instance, the face maps are induced by restricting maps to $X$ along the face inclusions $\delta^i : \Delta^{n-1} \hookrightarrow \Delta^n$.
 
-That $\Pi(X)$ is indeed a Kan complex is intuitively clear. Technically it follows from the fact that the inclusions ${{\Lambda^n}_{Top}}_k \hookrightarrow \Delta^n_{Top}$ of topological horns into topological simplices are 
-[[retracts]], in that there are continuous maps $\Delta^n_{Top} \to {{\Lambda^n}_{Top}}_k$ given by "squashing" a topological $n$-simplex onto parts of its boundary, such that
+That $\Pi(X)$ is indeed a Kan complex is intuitively clear. Technically, it follows from the fact that the inclusions ${{\Lambda^n}_{Top}}_k \hookrightarrow \Delta^n_{Top}$ of topological horns into topological simplices are 
+[[retracts]], in that there are continuous maps $\Delta^n_{Top} \to {{\Lambda^n}_{Top}}_k$ given by "squashing" a topological $n$-simplex onto parts of its boundary such that
 $$
   ({{\Lambda^n}_{Top}}_k \to \Delta^n_{Top} \to
   {{\Lambda^n}_{Top}}_k)
@@ -817,14 +819,13 @@ $$
   Id
   \,.
 $$
-Therefore the map
-$[\Delta^n, \Pi(X)] \to [\Lambda^n_k,\Pi(X)]$ is an epimorphism, since it is equal to 
-to $Top(\Delta^n, X) \to Top(\Lambda^n_k, X)$ which has a right inverse $Top(\Lambda^n_k, X) \to Top(\Delta^n, X)$.
+Therefore, the map
+$[\Delta^n, \Pi(X)] \to [\Lambda^n_k,\Pi(X)]$ is an epimorphism, since it is equal to the map $Top(\Delta^n, X) \to Top(\Lambda^n_k, X)$ which has a right inverse $Top(\Lambda^n_k, X) \to Top(\Delta^n, X)$.
 
 
 The [[∞-groupoid]] represented by the Kan complex $\Pi(X)$ is called the [[fundamental ∞-groupoid]] of $X$.
 
-This example is the universal one: up to [[model structure on simplicial sets|weak equivalence of Kan complexes]] every Kan complex is the fundamental $\infty$-groupoid of a (compactly generated, weakly Hausdorff) [[topological space]].
+This example is the universal one: up to [[model structure on simplicial sets|weak equivalence of Kan complexes]], every Kan complex is the fundamental $\infty$-groupoid of a (compactly generated, weakly Hausdorff) [[topological space]].
 
 This is the statement of the [[homotopy hypothesis]] (which is a theorem for $\infty$-groupoids modeled as Kan complexes.
 
@@ -897,9 +898,9 @@ See also:
 
 * Wikipedia, *[Kan fibration](https://en.wikipedia.org/wiki/Kan_fibration)*
 
-For Kan complexes as such see also the references at _[[simplicial set]]_ and at *[[classical model structure on simplicial sets]]*.
+For Kan complexes as such, see also the references at _[[simplicial set]]_ and at *[[classical model structure on simplicial sets]]*.
 
-For Kan complexes as $\infty$-groupoids, see for instance  section 1.2.5 of 
+For Kan complexes as $\infty$-groupoids, see, for instance, section 1.2.5 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
@@ -909,7 +910,7 @@ An early mention of this idea was in
 
 * [[Tim Porter]],  Letter to [[Grothendieck]], dated 16/6/1983 ([[16-06-1983.pdf|pdf:file]])
 
-For background on the general relation of simplicial- and globular sets see also the references at [[oriental]]. 
+For background on the general relation of simplicial- and globular sets, see also the references at [[oriental]]. 
 
 Discussion of the [[homotopy theory]] of [[smooth ∞-groupoids]] presented by "Lie-Kan complexes" is in section 4.2 of
 
