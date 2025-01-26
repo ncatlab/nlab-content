@@ -1,7 +1,13 @@
 
-Rudolf Haag was a [[mathematical physicist]] working in the context of [[AQFT]].
+Rudolf Haag (1922-2016) was a [[mathematical physicist]] working in the context of [[AQFT]].
 
 * [Wikipedia entry](http://de.wikipedia.org/wiki/Rudolf_Haag)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=77743)
+
+* [inSpire page](https://inspirehep.net/authors/1050001)
+
+
 
 ## Selected writings
 
@@ -16,6 +22,19 @@ following
 translated to English as: 
 
 * [[Rudolf Haag]], *Discussion of the ‘axioms’ and the asymptotic properties of a local field theory with composite particles*, EPJ H 35, 243–253 (2010) ([doi:10.1140/epjh/e2010-10041-3](https://doi.org/10.1140/epjh/e2010-10041-3))
+
+Introducing what came to be called [[DHR superselection theory]] in [[algebraic quantum field theory]] (and the [[Doplicher-Roberts reconstruction theorem]])
+
+* [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Fields, observables and gauge transformations I*, Commun.Math. Phys. **13** (1969) 1–23 &lbrack;[doi:10.1007/BF01645267](https://doi.org/10.1007/BF01645267)&rbrack;
+
+* [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Fields, observables and gauge transformations II*,  Commun. Math. Phys. **15** (1969) 173–200 &lbrack;[doi:10.1007/BF01645674](https://doi.org/10.1007/BF01645674)&rbrack;
+
+and relating to [[particle statistics]] in view of [[causal locality]]:
+
+* [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Local observables and particle statistics I*, Commun.Math. Phys. **23** (1971) 199–230 &lbrack;[doi:10.1007/BF01877742](https://doi.org/10.1007/BF01877742), [euclid:cmp/1103857630](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-23/issue-3/Local-observables-and-particle-statistics-I/cmp/1103857630.full)&rbrack;
+
+* [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Local observables and particle statistics I*, Commun.Math. Phys. **35** (1974) 49–85 &lbrack;[doi:10.1007/BF01646454](https://doi.org/10.1007/BF01646454)&rbrack;
+
 
 Textbook account of [[AQFT]]:
 
