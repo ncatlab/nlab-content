@@ -19,7 +19,9 @@
 
 ## Idea
 
-A __boson__ is a [[particle]]/[[quantum field]] that obeys [[Bose-Einstein statistics]].  By the [[spin-statistics theorem]], this is the same thing as a particle whose [[spin]] is an [[integer]].  Compare [[fermion]].
+In [[quantum physics]] and [[quantum field theory]], *bosons* ares [[particles]]/[[quantum fields]] with bosonic [[particle statistics]], meaning that the [[wavefunctions]] of [[quantum many-body physics|several]] such particles is *symmetric* under the [[permutation]] of their parameters (positions). This is in contrast to [[fermions]] for which the wavefunction is skew-symmetric (cf. *[[Pauli exclusion principle]]*).
+
+By the [[spin-statistics theorem]], this is the same thing as a particle whose [[spin]] is an [[integer]].  Compare [[fermion]].
 
 ## Examples
 
