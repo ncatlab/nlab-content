@@ -13,14 +13,14 @@
 =--
 =--
 
-# wreath product of wreaths
+> For disambiguation see at *[[wreath product]]*.
 
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
-A [[wreath]] is a natural generalization of [[distributive law]]. Like the latter, it produces a sort of composite monad, the **wreath product**.
+[[wreath|Wreaths]] are the natural generalization of [[distributive laws]]. Like the latter, they produce a sort of composite [[monad]], the **wreath product**.
 
 Formally, let $EM(\mathcal{K})$ be the free completion of a 2-category under [[Eilenberg--Moore object|$EM$ objects]]. A wreath is an object in $EM(EM(\mathcal{K}))$, and since $EM$ is a monad, it admits a multplication which is indeed the wreath product $\wr : EM(EM(\mathcal{K})) \to EM(\mathcal{K})$.
 
@@ -46,5 +46,4 @@ Every [[distributive law]] is a wreath, and the wreath product of a distributive
 
 ## References
 
-* [[Steve Lack]], [[Ross Street]], _The formal theory of monads II_, Special volume celebrating the 70th birthday of Professor Max Kelly.
-J. Pure Appl. Algebra 175 (2002), no. 1-3, 243--265.
+* {#LackStreet02} [[Stephen Lack]], [[Ross Street]], *The formal theory of monads II*, Journal of Pure and Applied Algebra **175** 1-3 (2002) 243-265 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00137-8">doi:10.1016/S0022-4049(02)00137-8</a>&rbrack;
