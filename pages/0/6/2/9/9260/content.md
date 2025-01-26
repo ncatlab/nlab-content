@@ -1,9 +1,9 @@
 
-# Statistics
-* table of contents
-{: toc}
+> This entry is (or will be, one fine day) mainly about general statistics and mathematical statistics. For more about physical applications in [[statistical mechanics]] and probabilistic interpretation of [[quantum mechanics]], see there. There is also a technical notion of *[[statistic]]* (singular). 
 
-This entry (apart from a few remarks) will be mainly about general statistics and mathematical statistics. For more about physical applications in [[statistical mechanics]] and probabilistic interpretation of [[quantum mechanics]], see there. There is also a technical notion of [[statistic]] (singular). 
+\tableofcontents
+
+This entry is (or will be, one fine day) mainly about general statistics and mathematical statistics. For more about physical applications in [[statistical mechanics]] and probabilistic interpretation of [[quantum mechanics]], see there. There is also a technical notion of [[statistic]] (singular). 
 
 
 ## Idea
@@ -14,7 +14,7 @@ likelihood of various inferences
 on the basis of these data, as well as the mathematical regularities in large [[ensemble]]s of occurrences of such data.
 
 In physics, statistics also pertains to the behaviour of 
-large ensembles of particles. For identical particles, 
+large ensembles of [}particles]]. For identical particles, 
 this is the subject of [[particle statistics]] and for
 general systems the subject of [[statistical mechanics]].
 
