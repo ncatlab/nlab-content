@@ -3,8 +3,7 @@
 
 ## Symmetric anyons
 
-* Freedman: Projective ribbon permutation statistics* &lbrack;[arXiv:1005.0583](https://arxiv.org/abs/1005.0583)&rbrack;
-
+* [[Michael Freedman]], [[Matthew B. Hastings]], [[Chetan Nayak]], [[Xiao-Liang Qi]], [[Kevin Walker]], [[Zhenghan Wang]]: *Projective Ribbon Permutation Statistics: a Remnant of non-Abelian Braiding in Higher Dimensions*, Phys. Rev. B **83** 115132 (2011) &lbrack;[doi:10.1103/PhysRevB.83.115132](https://doi.org/10.1103/PhysRevB.83.115132),[arXiv:1005.0583](https://arxiv.org/abs/1005.0583)&rbrack;
 
 
 ## Controlling anyons
