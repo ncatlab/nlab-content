@@ -41,6 +41,11 @@ On [[topological quantum computation]] with [[anyons]]/[[quantum Hall effect]]:
 
 * [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. 80, 1083, 2008 ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889), [doi:10.1103/RevModPhys.80.1083](https://doi.org/10.1103/RevModPhys.80.1083))
 
+On [[wreath product of groups|wreath products]] of a [[cyclic groups|cyclic]] with a [[symmetric group]] as analogs of ([[anyon]]) [[braid groups]] in [[dimension of a manifold|dimension]] $\gt 2$:
+
+* [[Michael Freedman]], [[Matthew B. Hastings]], [[Chetan Nayak]], [[Xiao-Liang Qi]], [[Kevin Walker]], [[Zhenghan Wang]]: *Projective Ribbon Permutation Statistics: a Remnant of non-Abelian Braiding in Higher Dimensions*, Phys. Rev. B **83** 115132 (2011) &lbrack;[doi:10.1103/PhysRevB.83.115132](https://doi.org/10.1103/PhysRevB.83.115132), [arXiv:1005.0583](https://arxiv.org/abs/1005.0583)&rbrack;
+
+
 On [[topological quantum computation]] with [[anyons]] in [[topological superconductors]] ([[Majorana zero modes]]):
 
 * [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]], _Majorana Zero Modes and Topological Quantum Computation_, npj Quantum Information 1, 15001 (2015) ([nature:npjqi20151](https://www.nature.com/articles/npjqi20151))
