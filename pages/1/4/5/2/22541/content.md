@@ -26,6 +26,8 @@
 
 * [[second quantization]]
 
+* [[particle statistics]] ([[bosons]], [[fermions]], [[anyons]])
+
 * [[eigenstate thermalization hypothesis]]
 
 * [[quantum entanglement]]
