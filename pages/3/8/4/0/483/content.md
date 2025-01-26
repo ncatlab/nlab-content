@@ -14,11 +14,11 @@
 
 ## Idea
 
-A _directed topological space_ is a [[topological space]] $X$ in which there is some 'sense of direction'. This can happen in various different ways and the level of the 'directedness' can be different in different situations, so naturally there are several 'competing' ideas, but the beginning of a consensus on what the overarching idea is.
+A _directed topological space_ is a [[topological space]] $X$ in which there is some 'sense of direction'. This can happen in various different ways, and the level of the 'directedness' can be different in different situations, so there are several 'competing' ideas, but the beginning of a consensus on what the overarching idea is.
 
-If one bases homotopy theory on the idea of a [[singular simplex]] or more generally a singular cell of any shape, then there is no way in which a 'sense of direction' can be encode.  If we have a path in a space we can go along it (traverse it) in either direction, from 0 to 1 or from 1 to 0.  From this perspective a directed space is one in which not every singular cell $\Delta^n \to X$ (for $\Delta^n$ the standard topological [[simplex]]) is supposed to be _traversable_ in all directions, in some sense: instead these $k$-dimensional _paths_ may have a _direction_ .
+If one bases homotopy theory on the idea of a [[singular simplex]] or, more generally, a singular cell of any shape, then there is no way in which a 'sense of direction' can be encoded. If we have a path in a space, we can travel along it in either direction, from 0 to 1 or from 1 to 0.  From this perspective, a directed space is one in which not every singular cell $\Delta^n \to X$ (for $\Delta^n$ the standard topological [[simplex]]) is supposed to be _traversable_ in all directions, in some sense: instead, these $k$-dimensional _paths_ may have a _direction_.
 
-As an example one can base the 'sense of direction' on a closed [[preorder]] or [[partial order]], (that is a [[pospace]]),so that the paths from the directed interval $[0,1]$ with the usual order to the space $X$, can only be 'traversed' in one direction. Another example which does not fit into this first type would be the directed circle.
+As an example, one can base the 'sense of direction' on a closed [[preorder]] or [[partial order]] (that is, a [[pospace]]), so that the paths from the directed interval $[0,1]$ with the usual order to the space $X$ can only be 'traversed' in one direction. Another example which does not fit into this first type would be the directed circle.
 
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -98,9 +98,9 @@ As an example one can base the 'sense of direction' on a closed [[preorder]] or 
        id="path3164" />
   </g>
 </svg>
-In other words, a circle with direction determined by the anticlockwise sense. Again it is easy to see that there are certain paths that respect the direction, 'directed paths' whilst others do not. 
+In other words, a circle with direction determined by the anticlockwise sense. Again, it is easy to see that there are certain paths that respect the direction while others do not. 
 
-So far there exists a well-developed theory for a notion of _directed spaces_ $X$ where 1-dimensional paths given by maps $[0,1] \to X$ from the [[interval]] into the space are equipped with a direction. See in particular the book by  [[Marco Grandis]] on [[Directed Algebraic Topology]] listed below. Another suggested notion for modelling directed spaces is that of _[framed spaces](#framed_spaces)_, which is tailored towards certain higher categorical applications.
+So far, there exists a well-developed theory for a notion of _directed spaces_ $X$ where 1-dimensional paths given by maps $[0,1] \to X$ from the [[interval]] into the space are equipped with a direction. See in particular the book by [[Marco Grandis]] on [[Directed Algebraic Topology]] listed below. Another suggested notion for modelling directed spaces is that of _[framed spaces](#framed_spaces)_, which is tailored towards certain higher categorical applications.
 
 Note that a directed space is like a generalised space; not every directed space need be a space in the traditional sense, in accordance with the [[red herring principle]]. As an instance of this, note that [[Marco Grandis]] in his book [[Directed Algebraic Topology]] handles the directed homotopy of small categories, and of cubical complexes, since this is useful for comparison an interpretation of directed homotopy 'invariants'.
 
@@ -110,13 +110,13 @@ Directed spaces are studied in [[directed homotopy theory]], a relatively young 
 
 ### Homotopy-theoretic perspective
 
-From a [[homotopy theory|homotopy theoretic]] perspective one would wish that notions of directed spaces might serve to generalize the [[homotopy hypothesis]] -- which identifies ordinary (undirected) [[topological space]]s with [[∞-groupoid]]s, i.e., with [[(∞,0)-category|(∞,0)-categories]] -- to a more general context where [[(∞,0)-category|(∞,0)-categories]] are generalized to [[(∞,n)-category|(∞,r)-categories]] with $r \gt 0$: 
+From a [[homotopy theory|homotopy theoretic]] perspective, one would wish that notions of directed spaces might serve to generalize the [[homotopy hypothesis]]—which identifies ordinary (undirected) [[topological space]]s with [[∞-groupoid]]s, i.e., with [[(∞,0)-category|(∞,0)-categories]]—to a more general context where [[(∞,0)-category|(∞,0)-categories]] are generalized to [[(∞,n)-category|(∞,r)-categories]] with $r \gt 0$.
 
-An [[(∞,r)-category]] in this context might correspond to a **$r$-directed topological space** , one that comes equipped with a notion of orientation of its $k$-cells for $0 \leq k \leq r$, but was impartial on direction above that dimension.
+An [[(∞,r)-category]] in this context might correspond to an **$r$-directed topological space**—one that comes equipped with a notion of orientation of its $k$-cells for $0 \leq k \leq r$, but is impartial on direction above that dimension.
 
 If such a definition exists, it may need to use [[filtered topological space]]s instead of bare topological spaces.
 
-Even in the absence of a homotopy-theoretic definition of $r$-directed space in this sense, from the perspective of [[homotopy theory]] one might take the standpoint of the [[homotopy hypothesis]] and _define_ a (nice) $r$-directed space to be an [[(∞,n)-category|(∞,r)-category]], just as it makes good sense and is nowadays common practice in [[algebraic topology]] to _define_ a nice [[topological space]] to be an [[∞-groupoid]].
+Even in the absence of a homotopy-theoretic definition of $r$-directed spaces in this sense, from the perspective of [[homotopy theory]], one might take the standpoint of the [[homotopy hypothesis]] and _define_ a (nice) $r$-directed space to be an [[(∞,n)-category|(∞,r)-category]], just as it makes good sense and is nowadays common practice in [[algebraic topology]] to _define_ a nice [[topological space]] to be an [[∞-groupoid]].
 
 See [[(n,r)-category]] for more on that.
 
@@ -131,19 +131,19 @@ A **directed topological space** or **d-space** is pair $(X, d X)$ consisting of
 
 2. (reparametrisation) $dX$ is closed under composition with increasing maps $I\to I$,
 
-3. (concatenation) $dX$ is closed under path-concatenation: if the d-paths $a, b$ are consecutive in $X$ $(a(1) = b(0))$, then their ordinary concatenation $a+b$ is also a d-path
+3. (concatenation) $dX$ is closed under path concatenation: if the d-paths $a, b$ are consecutive in $X$ $(a(1) = b(0))$, then their ordinary concatenation $a+b$ is also a d-path
 
 $$(a+b)(t) = a(2t),\,\text{if}\, 0\le t\le \frac{1}{2},$$
 
 $$(a+b)(t) = b(2t-1),\,\text{if}\, \frac{1}{2}\le t\le 1.$$
 
-A **morphism of directed topological spaces**  $f : (X, d X)\to (Y , d Y)$ is a morphism of topological spaces $f: X \to Y$ which preserves directed paths in that for every $\gamma: I \to X$ in $d X$ the path $f_* \gamma : I \stackrel{\gamma}{\to} X \stackrel{f}{\to} Y$ is in $d Y$.
+A **morphism of directed topological spaces**  $f : (X, d X)\to (Y , d Y)$ is a morphism of topological spaces $f: X \to Y$ which preserves directed paths, in that, for every $\gamma: I \to X$ in $d X$, the path $f_* \gamma : I \stackrel{\gamma}{\to} X \stackrel{f}{\to} Y$ is in $d Y$.
 
 \begin{example} Basic examples of $d$-spaces include:
 
-* The _standard directed interval_ is $I_d = ([0,1], d I)$ with $d I$ the set of all _monotonic_ continuous maps $[0,1] \to [0,1]$ is a d-space
+* The _standard directed interval_ is $I_d = ([0,1], d I)$ with $d I$ the set of all _monotonic_ continuous maps $[0,1] \to [0,1]$
 
-* Any [[pospace]] $X$ gives rise to a d-space by taking the directed paths to be, well, directed paths, i.e. continuous order-preserving maps from $I_d$ to $X$.
+* Any [[pospace]] $X$ gives rise to a d-space by taking the directed paths to be, well, directed paths, i.e., continuous order-preserving maps from $I_d$ to $X$.
 
 Many other example can be found in the references.
 \end{example}
@@ -155,7 +155,7 @@ A different definition comes from [[Sanjeevi Krishnan]], _A Convenient Category 
 
 __Definition__ A **stream** is a tuple $X, \leq_{-}$, where $\leq_{-}$ assigns to each open subset $U \subset X$ a preorder $\leq_U$, such that:
 $$\leq_{\bigcup_i U_i} = \bigvee_i \leq_{U_i}$$
-Here, $U_i, i \in I$ is a collection of open sets, and $\bigvee$ is pointwise or of relations.
+Here, $U_i, i \in I$ is a collection of open sets, and $\bigvee$ is the pointwise *or* of relations.
 
 _Remarks_
 
