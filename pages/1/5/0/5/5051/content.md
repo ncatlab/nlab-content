@@ -1,9 +1,13 @@
-> Not to be confused with [[John A. G. Roberts]] working in [[dynamical systems]].
+> Not to be confused with John A. G. Roberts, working in [[dynamical systems]].
 
 
 John Elias Roberts was a [[mathematical physicist]] working on the mathematical foundations of [[quantum mechanics]] and [[quantum field theory]] in terms of [[AQFT]].
 
 He was born in England, but his father came from the Ll&#375;n Peninsula. He worked in Rome at Tor Vergata for a long time, before living his last few years in Goettingen.
+
+* cv: [pdf](https://www.mat.uniroma2.it/~dott/roberts.pdf)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=139019)
 
 
 ## Selected writings
@@ -20,7 +24,20 @@ Motivated by this he was one of the first to consider a notion of [[strict ∞-c
 
 * [[Ross Street]], pages 9-10 of: *An Australian conspectus of higher category theory*, talk at Institute for Mathematics and its Applications Summer Program: *$n$-Categories: Foundations and Applications* at the University of Minnesota (Minneapolis, 7–18 June 2004), in: *[[Towards Higher Categories]]*, The IMA Volumes in Mathematics and its Applications **152**, Springer (2010) 237-264 &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/Street.pdf), [[Street-Conspectus.pdf:file]], [doi:10.1007/978-1-4419-1524-5](https://link.springer.com/book/10.1007/978-1-4419-1524-5)&rbrack;
 
-Later Roberts proved together with [[Doplicher]] what is now one of the central results in [[AQFT]], the [[Doplicher-Roberts reconstruction theorem]] -- a version of [[Tannaka duality]] -- which in the context of [[AQFT]] serves to intrinsically characterize the [[superselection sector]]s of a QFT. See also *[[DHR superselection theory]]*.
+Later Roberts proved together with [[Doplicher]] what is now one of the central results in [[AQFT]], the [[Doplicher-Roberts reconstruction theorem]] -- a version of [[Tannaka duality]] -- which in the context of [[AQFT]] serves to intrinsically characterize the [[superselection sector]]s of a QFT:
+
+Introducing what came to be called [[DHR superselection theory]] in [[algebraic quantum field theory]] (and the [[Doplicher-Roberts reconstruction theorem]])
+
+* [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Fields, observables and gauge transformations I*, Commun.Math. Phys. **13** (1969) 1–23 &lbrack;[doi:10.1007/BF01645267](https://doi.org/10.1007/BF01645267)&rbrack;
+
+* [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Fields, observables and gauge transformations II*,  Commun. Math. Phys. **15** (1969) 173–200 &lbrack;[doi:10.1007/BF01645674](https://doi.org/10.1007/BF01645674)&rbrack;
+
+and relating to [[particle statistics]] in view of [[causal locality]]:
+
+* [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Local observables and particle statistics I*, Commun.Math. Phys. **23** (1971) 199–230 &lbrack;[doi:10.1007/BF01877742](https://doi.org/10.1007/BF01877742), [euclid:cmp/1103857630](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-23/issue-3/Local-observables-and-particle-statistics-I/cmp/1103857630.full)&rbrack;
+
+* [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Local observables and particle statistics I*, Commun.Math. Phys. **35** (1974) 49–85 &lbrack;[doi:10.1007/BF01646454](https://doi.org/10.1007/BF01646454)&rbrack;
+
 
 
 On [[C-star category|$C^\ast$-categories]] and introducing the special case of [[W-star category|$W^\ast$-categories]]:
