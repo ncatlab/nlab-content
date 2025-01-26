@@ -1,5 +1,12 @@
 
 
+
+## Symmetric anyons
+
+* Freedman: Projective ribbon permutation statistics* &lbrack;[arXiv:1005.0583](https://arxiv.org/abs/1005.0583)&rbrack;
+
+
+
 ## Controlling anyons
 
 * G. Rosenberg, B. Seradjeh, C. Weeks, M. Franz: *Creation and manipulation of anyons in a layered superconductor-2DEG system*, Phys. Rev. B **79** 205102 (2009) \[<a href="https://doi.org/10.1103/PhysRevB.79.205102">doi:10.1103/PhysRevB.79.205102</a>, [arXiv:0812.3140](https://arxiv.org/abs/0812.3140)\]
