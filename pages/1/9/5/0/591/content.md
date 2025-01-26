@@ -22,11 +22,7 @@
 
 ## Definition
 
-A [[category]] $C$ is **cocomplete** if it has all [[small diagram|small]] [[colimit|colimits]]: that is, if every [[small diagram]] 
-
-$$ F: D \to C$$
-
-where $D$ is a [[small category]] has a [[colimit]] in $C$. Equivalently, a category $C$ is **cocomplete** if it has all small [[wide pushouts]] and an [[initial object]]. 
+A [[category]] $C$ is **cocomplete** if it has all [[small diagram|small]] [[colimit|colimits]]: that is, if every [[small diagram]] $F: D \to C$ where $D$ is a [[small category]] has a [[colimit]] in $C$. Equivalently, a category $C$ is **cocomplete** if it has all small [[wide pushouts]] and an [[initial object]]. 
 
 The most natural [[morphisms]] between cocomplete categories are the [[cocontinuous functor|cocontinuous functors]].
 
