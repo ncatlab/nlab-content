@@ -33,11 +33,15 @@ and with focus on [[abelian anyons]] in terms of [[modular tensor categories]]:
 More on [[anyons]]:
 
 * [[Simon Trebst]], [[Matthias Troyer]], [[Zhenghan Wang]], A. W. W. Ludwig, *A short introduction to Fibonacci anyon models*, Prog. Theor. Phys. Supp. **176** 384 (2008) &lbrack;[arXiv:0902.3275](https://arxiv.org/abs/0902.3275), [doi:10.1143/PTPS.176.384](https://doi.org/10.1143/PTPS.176.384)&rbrack;
-
   > ([[Fibonacci anyons]])
 
 * C. Gils, E. Ardonne, [[Simon Trebst]], D. A. Huse, A. W. W. Ludwig, [[Matthias Troyer]], [[Zhenghan Wang]],  *Anyonic quantum spin chains: Spin-1 generalizations and topological stability*, Phys. Rev. B **87** (2013), 235120
 &lbrack;[doi:10.1103/PhysRevB.87.235120](https://doi.org/10.1103/PhysRevB.87.235120), [arXiv:1303.4290](https://arxiv.org/abs/1303.4290)&rbrack;
+
+On [[wreath product of groups|wreath products]] of a [[cyclic groups|cyclic]] with a [[symmetric group]] as analogs of ([[anyon]]) [[braid groups]] in [[dimension of a manifold|dimension]] $\gt 2$:
+
+* [[Michael Freedman]], [[Matthew B. Hastings]], [[Chetan Nayak]], [[Xiao-Liang Qi]], [[Kevin Walker]], [[Zhenghan Wang]]: *Projective Ribbon Permutation Statistics: a Remnant of non-Abelian Braiding in Higher Dimensions*, Phys. Rev. B **83** 115132 (2011) &lbrack;[doi:10.1103/PhysRevB.83.115132](https://doi.org/10.1103/PhysRevB.83.115132), [arXiv:1005.0583](https://arxiv.org/abs/1005.0583)&rbrack;
+
 
 
 On identifying [[topological order]] via [[topological entanglement entropy]] of the ground state:
