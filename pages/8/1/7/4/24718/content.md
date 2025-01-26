@@ -13,6 +13,8 @@
 =--
 =--
 
+> For diambiguation see at *[[wreath product]]*.
+
 # Wreaths
 
 * table of contents
