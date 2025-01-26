@@ -34,7 +34,7 @@ Further developments:
 
 via [[Majorana zero modes]] restricted to edges of [[topological insulators]]:
 
-* Biao Lian, Xiao-Qi Sun, Abolhassan Vaezi, Xiao-Liang Qi, and Shou-Cheng Zhang, _Topological quantum computation based on chiral Majorana fermions_, PNAS October 23, 2018 115 (43) 10938-10942; first published October 8, 2018 ([doi:10.1073/pnas.1810003115](https://doi.org/10.1073/pnas.1810003115))
+* Biao Lian, Xiao-Qi Sun, Abolhassan Vaezi, [[Xiao-Liang Qi]], Shou-Cheng Zhang: *Topological quantum computation based on chiral Majorana fermions*, PNA **115** 43 (2018) 10938-10942 \[<a href="https://doi.org/10.1073/pnas.1810003115">doi:10.1073/pnas.1810003115</a>\]
 
 See also:
 
