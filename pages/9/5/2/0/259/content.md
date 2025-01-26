@@ -104,12 +104,12 @@ By the [[homotopy hypothesis]]-theorem every Kan complex arises, up to equivalen
 
 Analogously, every [[directed topological space]] $X$ has naturally a [[fundamental (∞,1)-category]] given by a quasi-category whose $k$-cells are maps $\Delta^k_{Top} \to X$ that map the 1-[[simplicial skeleton|skeleton]] of the topological simplex in an order-preserving way to directed paths in $X$.
 
-The [[directed homotopy theory]] that would state that this or a similar construction exhausts all quasicategories up to equivalence, does not quite exist yet.
+The [[directed homotopy theory]] which would state that this, or a similar construction, exhausts all quasicategories up to equivalence is not yet known.
 
 
 ## Constructions in quasi-categories 
 
-The point of quasi-categories is that they are supposed to provide a fully [[homotopy theory|homotopy-theoretic]] refinement of the ordinary notion of [[category]]. In particular, all the familiar constructions of [[category theory]] have natural analogs in the context of quasi-categories. See for instance
+The point of quasi-categories is that they are supposed to provide a fully [[homotopy theory|homotopy-theoretic]] refinement of the ordinary notion of a [[category]]. In particular, all the familiar constructions of [[category theory]] have natural analogues in the context of quasi-categories. See for instance
 
 * [[hom-object in a quasi-category]]
 
@@ -161,13 +161,13 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 
 ## References
 
-The notion of quasi-categories were originally defined, under the name *[[weak Kan complexes]]* in:
+The notion of quasi-categories was originally defined, under the name *[[weak Kan complexes]]* in:
 
 * [[Michael Boardman]], [[Rainer Vogt]], *Homotopy invariant algebraic structures on topological spaces*, Lecture Notes in Mathematics **347** Springer (1973) &lbrack;[doi:10.1007/BFb0068547](https://doi.org/10.1007/BFb0068547)&rbrack;
 
 * {#Vogt73} [[Rainer Vogt]], _Homotopy limits and colimits_, Math. Z., **134** (1973) 11-52 &lbrack;[doi:10.1007/BF01219090](https://doi.org/10.1007/BF01219090), [eudml:171965](https://eudml.org/doc/171965)&rbrack;
 
-The main theorem of [Vogt (1973)](#Vogt73) involved a category of [[homotopy coherent diagrams]] defined on a topologically enriched category and showed it was equivalent to a quotient category of the category of (commutative) diagrams on the same category. 
+The main theorem of [Vogt (1973)](#Vogt73) involved a category of [[homotopy coherent diagrams]] defined on a topologically enriched category and showed that it was equivalent to a quotient category of the category of (commutative) diagrams on the same category. 
 
 * [[J.-M. Cordier]], _Sur la notion de diagramme homotopiquement coh&#233;rent_, Cahiers de Top. G&#233;om. Diff., 23, (1982), 93 &#8211;112,
 
@@ -186,7 +186,7 @@ The importance of quasi-categories as a basis for [[category theory]] has been p
 
 * [[André Joyal]], *Quasi-categories and Kan complexes*, J. Pure Appl. Algebra **175** (2002) 207-222 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00135-4">doi:10.1016/S0022-4049(02)00135-4</a>&rbrack;
 
-For several years Joyal has been preparing a textbook on the subject which never became publically available, but an extensive writeup of lecture notes is:
+For several years, Joyal has been preparing a textbook on the subject which has never become publically available, but an extensive writeup of lecture notes is
 
 * {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at *[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)*, CRM (2008) &lbrack;[pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf), [[JoyalTheoryOfQuasiCategories.pdf:file]]&rbrack;
 
@@ -194,7 +194,7 @@ For several years Joyal has been preparing a textbook on the subject which never
 * [[André Joyal]], *Notes on quasi-categories* (2008) &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf), [[JoyalNotesOnQuasiCategories.pdf:file]]&rbrack;
 
 
-Meanwhile [[Jacob Lurie]], building on Joyal's work, has considerably pushed the theory further. A comprehensive discussion of the theory of $(\infty,1)$-categories in terms of the models [[quasi-category]] and [[simplicially enriched category]] is in
+Meanwhile, [[Jacob Lurie]], building on Joyal's work, has pushed the theory considerably further. A comprehensive discussion of the theory of $(\infty,1)$-categories in terms of the models [[quasi-category]] and [[simplicially enriched category]] is in
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
