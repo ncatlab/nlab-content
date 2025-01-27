@@ -51,7 +51,7 @@ We have that $B_t\in C^p$ iff $p\gt 1/H$ and that fBm is not a semimartingale un
 
 * {#Young36} LC Young, _An inequality of the Hölder type, connected with Stieltjes integration_, Acta Math. **67** (1936), 251--282. doi:[10.1007/BF02401743](https://doi.org/10.1007/BF02401743), ([Project Euclid](https://projecteuclid.org/euclid.acta/1485888152)).
 
-* Peter Friz and [[Martin Hairer]], A Course on Rough Paths, (2014), doi:[10.1007/978-3-319-08332-2](https://doi.org/10.1007/978-3-319-08332-2), ([pdf](http://www.hairer.org/notes/RoughPaths.pdf)).
+* [[Peter Friz]], [[Martin Hairer]]: *A Course on Rough Paths*, Springer (2014, 2020) &lbrack;[doi:10.1007/978-3-319-08332-2](https://doi.org/10.1007/978-3-319-08332-2), [pdf](http://www.hairer.org/notes/RoughPaths.pdf)&rbrack;
 
 * Peter Friz and Nicolas Victoir, _Multidimensional Stochastic Processes as Rough Paths: Theory and Applications_ (2010) doi:[10.1017/CBO9780511845079](https://doi.org/10.1017/CBO9780511845079) ([pdf](http://page.math.tu-berlin.de/~friz/master4_May6th.pdf)).
 
