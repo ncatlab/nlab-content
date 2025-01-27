@@ -77,8 +77,14 @@ If both $H \subset Sym(X)$ and $G \subset Sym(Y)$ are presented as [[permutation
 The [[dihedral group]] $Dih(4)$ of [[order of a group|order]] $2\cdot 4=8$ is the wreath product $C_2 \wr C_2$ of [[cyclic group of order 2|$C_2$]] with itself (in this sense of regular representations).
 \end{example}
 
+More generally:
+
 \begin{example}
-The [[Sylow p-subgroup|Sylow-$p$-subgroups]] $P_n$ of the [[symmetric groups]] $Sym(n)$ can be [[recursion|recursively]] described as the wreath product $C_p \wr P_a$ where $C_p$ is the [[cyclic group]] of [[order of a group|order]] $p$ and $n=ap+r$ with $0\leq r \lneq p$.
+The [[symmetry group]] of the $n$-dimensional [[hypercube]] is $C_2 \wr Sym(n)$.
+\end{example}
+
+\begin{example}
+The [[Sylow p-subgroup|Sylow-$p$-subgroups]] $P_n$ of the [[symmetric groups]] $Sym(n)$ can be [[recursion|recursively]] described as the wreath product $C_p \wr P_a$ where $C_p$ is the [[cyclic group]] of [[order of a group|order]] $p$ and $n = a p+r$ with $0\leq r \lneq p$.
 \end{example}
 
 \begin{example}
