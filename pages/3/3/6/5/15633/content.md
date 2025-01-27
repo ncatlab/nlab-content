@@ -19,7 +19,9 @@
 
 ## Idea
 
-An exotic kind of [[particle statistics]].
+Parastatistics is an exotic kind of [[particle statistics]] where [[permutations]] of "indistinguishable particles" transform their space of [[quantum states]] by *higher* [[dimension of a vector space|dimensional]] [[irrep|irreducile]] [[linear representations]] of the [[symmetric group]].
+
+In generality of its transformation properties, parastatistics is in-between ordinary [[boson]]/[[fermion]]-[[particle statistics|statistics]] and the yet more general [[braid group statistics]]. But while [[braid group statistics]] is usually associated only with particles ("[[anyons]]") that are restricted to an effectively 2-[[dimension of a manifold|dimensional]] [[surface]], parastatistics -- the the extent that it applies at all -- is thought to in principle apply in any dimension.
 
 ## Related concepts
 
@@ -30,7 +32,7 @@ An exotic kind of [[particle statistics]].
 
 ## References
 
-The notion originates with:
+The original notion is attributed to:
 
 * H. S. Green: *A generalized method of field quantization*,  Phys. Rev. **90** (1953) 270-273 &lbrack;[doi:10.1103/PhysRev.90.270](https://doi.org/10.1103/PhysRev.90.270)&rbrack;
 
@@ -41,6 +43,14 @@ Review:
 
 * Zhiyuan Wang, Kaden R. A. Hazzard: *Particle exchange statistics beyond fermions and bosons*, Nature **637** (2025) 314-318 &lbrack;[arXiv:2308.05203](https://arxiv.org/abs/2308.05203), [doi:10.1038/s41586-024-08262-7](https://doi.org/10.1038/s41586-024-08262-7)&rbrack;
 
+Further developments:
+
+* Boyka Aneva, Todor Popov: *Hopf structure and Green ansatz of deformed parastatistics algebras*, J. Phys. A: Math. Gen. **38** (2005) 6473 &lbrack;[doi:10.1088/0305-4470/38/29/004](https://iopscience.iop.org/article/10.1088/0305-4470/38/29/004)&rbrack;
+
+* K. Kanakoglou, C. Daskaloyannis: *Paraboson quotients. A braided look at Green ansatz and a generalization*, J. Math. Phys. **48** (2007) 113516 &lbrack;[arXiv:0901.4320](https://arxiv.org/abs/0901.4320), [doi:10.1063/1.2816258](https://doi.org/10.1063/1.2816258)&rbrack;
+
+
+* N.I. Stoilova, J. Van der Jeugt: *Partition functions and thermodynamic properties of paraboson and parafermion systems*, Physics Letters A **384** 21 (2020) 126421 &lbrack;[doi:10.1016/j.physleta.2020.126421](https://doi.org/10.1016/j.physleta.2020.126421)&rbrack;
 
 See also:
 
@@ -49,8 +59,10 @@ See also:
 * Wikipedia: *[Klein transformation](http://en.wikipedia.org/wiki/Klein_transformation)*
 
 
-* Fred Cooper, Avinash Khare, Uday Sukhatme: _Parasupersymmetry in quantum mechanics_, J. Math. Phys. (1993)
-  > (para-[[supersymmetry]])
+
+
+* Fred Cooper, Avinash Khare, Uday Sukhatme: _Parasupersymmetry in quantum mechanics_, J. Math. Phys. **34** (1993) 1277–1294 &lbrack;[doi:10.1063/1.530209](https://doi.org/10.1063/1.530209)&rbrack;
+  > (para-[[supersymmetric quantum mechanics]])
 
 
 * Lee Brekke, Sterrett J. Collins, Tom D. Imbo, _Nonabelian vortices on surfaces and their statistics_ &lbrack;[hep-th/9701056](arxiv.org/pdf/hep-th/9701056)&rbrack;
