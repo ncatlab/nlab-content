@@ -22,7 +22,7 @@
 ## Idea
  {#Idea}
 
-What is known as *Wigner's theorem* (in honor of the appendix of §20 in [Wigner 1931](#Wigner31)/[59](#Wigner1959)) is one of the basic results on the foundations of [[quantum mechanics]] (generally of [[quantum physics]]). The theorem characterizes the intrinsic notion of *[[symmetry|symmetries]]* in [[quantum physics]] ("quantum symmetries") assuming only observable properties of ([[pure state|pure]]) [[quantum states]] (namely their [[projective space|projectivity]] subject to the [[Born rule]]) and *deriving* from this that quantum symmetries are necessarily [[linear representation|represented]] by [[unitary operators]] *or* [[anti-unitary operators]] on the [[Hilbert space]] [[space of quantum states|of states]].
+What is known as *Wigner's theorem* (in honor of the appendix of §20 in [Wigner 1931](#Wigner31)/[59](#Wigner1959)) is one of the basic results on the foundations of [[quantum mechanics]] (generally of [[quantum physics]]). The theorem characterizes the intrinsic notion of *[[symmetry|symmetries]]* in [[quantum physics]] ("quantum symmetries") assuming only [[observable]] properties of ([[pure state|pure]]) [[quantum states]] (namely their [[projective space|projectivity]] subject to the [[Born rule]]) and *deriving* from this that quantum symmetries are necessarily [[linear representation|represented]] by [[unitary operators]] *or* [[anti-unitary operators]] on the [[Hilbert space]] [[space of quantum states|of states]].
 
 Notice that a prominent class of examples of [[anti-unitary operators]] appearing as [[quantum symmetries]] are [[time-reversal symmetry|time-reversal symmetries]] ([Wigner 1959, §26](#Wigner1959)) such as appearing in the [[CPT-theorem]].
 
@@ -196,6 +196,13 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
 * [[Bub-Clifton theorem]]
 
 * [[Kadison-Singer problem]]
+
+
+## Related entries
+
+* [[particle statistics]]
+
+* [[K-theory classification of topological insulators]]
 
 
 ## References
