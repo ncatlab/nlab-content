@@ -22,11 +22,11 @@
 
 ## Idea
 
-In [[quantum physics]], what is called *particle statistics* refers to the symmetry-properties of [[quantum many-body physics|many-particle]] [[wavefunctions]] under exchange of (positions $x_i$ and jointly of all other parameters $p_i$, like [[spin]], of) "indistinguishable" [[particles]].
+In [[quantum physics]], what is called *particle statistics* refers to the symmetry-properties of [[quantum many-body physics|many-particle]] [[wavefunctions]] under "exchange" of (positions $x_i$ and jointly of all other parameters $p_i$, like [[spin]], of) "indistinguishable" [[particles]].
 
 The term "particle statistics" refers to the fact that the transformation properties of wavefunctions under particle exchange crucially effect the nature of the [[quantum statistical mechanics]] of these particles (cf. *[[Bose-Einstein condensates]]* as opposed to the *[[Fermi sea]]* due to the *[[Pauli exclusion principle]]*). 
 
-### Bosonic and Fermonic statistics
+### Boson/Fermion statistics
 
 In the most prominent base case one assumes a single [[quantum state]] represented by a [[wavefunction]] $\Psi\big((x_1, p_1), \cdots (x_N, p_N)\big)$ and asks for its [[group action|transformation]] under a [[permutation]] $\sigma \in$ [[symmetric group|$Sym(N)$]] of its arguments. The particles $(x_i, p_i)$ being indistinguishable means (cf. at *[[quantum symmetry]]*) that the corresponding [[quantum states]] remain [[invariant]], which means that the wavefunction changes at most by multiplication by a [[complex number]] $s(\sigma) \in \mathbb{C}^\times$.
 
@@ -58,7 +58,7 @@ The only two solutions to this [[equation]] are:
 1. the [[alternating representation]] ([[fermions]]).
 
 
-### Parastatistics
+### Para-statistics
 
 More generally, one may ask that the [[symmetric group]] of particle exchanges does not necessarily leave the [[quantum state]] [[invariant]], but [[transformation group|transforms]] it [[group homomorphism|homomorphically]] within a [[linear subspace]] of the [[Hilbert space]] of all states. 
 
@@ -69,7 +69,7 @@ In this case $s(\sigma)$ is not just a [[complex number]] but a ([[unitary opera
 This generalization of particle statistics is referred to as *[[parastatistics]]*.
 
 
-### Anyonic braid statistics
+### Anyon braid statistics
 
 Still more generally, one may consider the case that the behaviour of the wavefunction depends not just on the [[permutation]] of the particle labels, but also on the "*way*" in which the permutation is accomplished.
 
