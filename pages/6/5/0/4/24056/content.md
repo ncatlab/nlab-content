@@ -15,11 +15,13 @@ and more specifically for [[vortices]]:
 
 * {#LoPreskill93} [[Hoi-Kwong Lo]], [[John Preskill]], *Non-Abelian vortices and non-Abelian statistics*, Phys. Rev. D **48** (1993) 4821 $[$[doi:10.1103/PhysRevD.48.4821](https://doi.org/10.1103/PhysRevD.48.4821)$]$
 
-Explicit discussion in terms of [[anyons]]:
+Explicit discussion as defetc *[[anyons]]*:
 
-* {#Kitaev06} [[Alexei Kitaev]], *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 $[$[doi:10.1016/j.aop.2005.10.005](https://doi.org/10.1016/j.aop.2005.10.005)$]$
+* {#Kitaev06} [[Alexei Kitaev]], *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 \[<a href="https://doi.org/10.1016/j.aop.2005.10.005">doi:10.1016/j.aop.2005.10.005</a>\]
+  > ${}$ \[p. 4:\] "*Anyonic particles are best viewed as a kind of topological defects that reveal nontrivial properties of the ground state.*"
 
-  > Anyonic particles are best viewed as a kind of topological defects that reveal nontrivial properties of the ground state. $[$p. 4$]$
+* [[Maissam Barkeshli]], [[Chao-Ming Jian]], [[Xiao-Liang Qi]]: *Twist defects and projective non-Abelian braiding statistics*, Phys. Rev. B **87** (2013) 045130 \[<a href="https://doi.org/10.1103/PhysRevB.87.045130">doi:10.1103/PhysRevB.87.045130</a>, [arXiv:1208.4834](https://arxiv.org/abs/1208.4834)\]
+
 
 
 Concrete [[vortex]]$\;$[[anyons]] in [[Bose-Einstein condensates]]:
