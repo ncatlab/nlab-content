@@ -52,6 +52,8 @@ In [[foundations]] without [[proper classes]] or higher categories, it may be tr
 
 * [[quantum set]]
 
+* [[family fibration]]
+
 [[!redirects family]]
 [[!redirects families]]
 [[!redirects indexed family]]
