@@ -1,5 +1,7 @@
 Brian John Day (1945-2012) was an Australian [[category theory|category theorist]].
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=122762)
+
 * [Publications](http://maths.mq.edu.au/~street/Day.pub.html)
 
 * [Obituary by Ross Street](https://www.austms.org.au/wp-content/uploads/Gazette/2013/May13/Day.pdf)
