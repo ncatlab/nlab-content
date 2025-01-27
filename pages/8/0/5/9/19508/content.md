@@ -57,7 +57,7 @@ Write
 1. $\Delta ModCat$ for the [[2-category]] whose [[objects]] are [[simplicial model categories]] ([[classical model structure on simplicial sets|$sSet_{Qh}$]]-[[enriched model categories]]), whose [[1-morphisms]] are [[simplicial Quillen adjunction|simplicial]] [[left Quillen functors]] and [[2-morphisms]] are [[natural transformations]].
 
 
-1. $CombModCat \subset ModCat$ and $\Delta CombModCa \subset \Delta ModCa$ for the [[full sub-2-categories]] on the [[left proper model categories|left proper]] [[combinatorial model categories]],
+1. $CombModCat \subset ModCat$ and $\Delta CombModCa \subset \Delta ModCa$ for the [[full sub-2-categories]] on the [[combinatorial model categories]],
 
 1. $LPropCombModCat \subset CombModCat$ and $LPropCombModCat \subset CombModCat$ for the further [[full sub-2-categories]] on the [[left proper model categories|left proper]] [[combinatorial model categories]].
 
