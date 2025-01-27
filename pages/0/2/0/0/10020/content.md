@@ -88,9 +88,16 @@ A general argument about the relation between AdS/CFT duality and [[schreiber:in
 * {#Witten98} [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ JHEP 9812:012,1998 ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012)) 
  
 
-An argument (via [[Chern-Simons gravity]], but see the caveats there) that [[3d quantum gravity]] with negative [[cosmological constant]] has as [[boundary field theory]] 2d [[Liouville theory]] is due to 
+An argument (via [[Chern-Simons gravity]], but see the caveats there) that [[3d quantum gravity]] with negative [[cosmological constant]] has as [[boundary field theory]] 2d [[Liouville theory]]:
 
-* {#CoussaertHenneauxvanDriel95} O. Coussaert, [[Marc Henneaux]], P. van Driel, _The asymptotic dynamics of three-dimensional Einstein gravity with a negative cosmological constant_, Class. Quant. Grav. 12 (1995) 2961-2966 ([arXiv:gr-qc/9506019](http://arxiv.org/abs/gr-qc/9506019))
+* {#CoussaertHenneauxvanDriel95} O. Coussaert, [[Marc Henneaux]], P. van Driel, _The asymptotic dynamics of three-dimensional Einstein gravity with a negative cosmological constant_, Class. Quant. Grav. 12 (1995) 2961-2966 \[<a href="http://arxiv.org/abs/gr-qc/9506019">arXiv:gr-qc/9506019</a>\]
+
+See also:
+
+* Lin Chen, Ling-Yan Hung, Yikun Jiang, Bing-Xin Lao: *Quantum 2D Liouville Path-Integral Is a Sum over Geometries in $AdS_3$ Einstein Gravity* \[<a href="https://arxiv.org/abs/2403.03179">arXiv:2403.03179</a>\]
+
+* [[Ning Bao]], Ling-Yan Hung, Yikun Jiang, Zhihan Liu: *QG from SymQRG: $AdS_3/CFT_2$ Correspondence as Topological Symmetry-Preserving Quantum RG Flow* \[<a href="https://arxiv.org/abs/2412.12045">arXiv:2412.12045</a>\[
+
 
 Discussion of the [[Ising model]] [[2d CFT]] as a boundary theory to a 3d [[TQFT]] based on the [[Turaev-Viro model]], and the phenomenon of [[Kramers-Wannier duality]], is discussed in
 
