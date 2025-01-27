@@ -121,3 +121,8 @@ Relation to [[integrable systems]]:
 [[!redirects motion groupoid]]
 [[!redirects motion groupoids]]
 
+[[!redirects group of motions]]
+[[!redirects groups of motions]]
+
+
+
