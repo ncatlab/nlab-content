@@ -24,7 +24,7 @@
 ## Anyon braiding
  {#Idea}
 
-In [[quantum physics]], *braid group statistics* or *anyon statistics* (sometimes: *plektons*) refers to an exotic phenomenon where the [[braiding]] of the [[worldlines]] of certain effective [[particles]] ("anyons") in an effectively 2+1-dimensional [[spacetime]] has the effect of transforming the [[quantum state]] of the total [[quantum system]] by [[unitary operators]] which constitute a [[linear representation]] of the [[braid group]] -- a *[[braid representation]]*.
+In [[quantum physics]], *braid group statistics* or *anyon statistics* (sometimes: *plektons*) refers to an exotic kind of [[particle statistics]] where the [[braiding]] of the [[worldlines]] of certain effective [[particles]] ("[[anyons]]") in an effectively 1+2-dimensional [[spacetime]] has the effect of transforming the [[quantum state]] of the total [[quantum system]] by [[unitary operators]] which constitute a [[linear representation]] of the [[braid group]] -- a *[[braid representation]]*.
 
 Often this is motivated as a generalization of the [[boson]]- or [[fermion]]-"statistics" which enters the *[[spin-statistics theorem]]*, see [below](#AsGeneralizedBosonFermionStatistics). 
 
