@@ -17,7 +17,7 @@
 
 The notion of _disjoint coproduct_ is a generalization to arbitrary [[categories]] of that of _[[disjoint union]]_ of sets.
 
-One says that a [[coproduct]] $X + Y$ of two [[objects]] $X, Y$ in a [[category]] $\mathcal{C}$ is _disjoint_ if the [[intersection]] of $X$ with $Y$ in $X + Y$ is [[initial object|empty]]. In this case one often writes $X \coprod Y \coloneqq X + Y$ for the coproduct, particularly if the coproduct is [[pullback-stable colimit|stable under pullbacks]], and there one speaks of the _[[disjoint union]]_ of $X$ with $Y$.
+Informally, one says that a [[coproduct]] $X + Y$ of two [[objects]] $X, Y$ in a [[category]] $\mathcal{C}$ is _disjoint_ if both $X$ and $Y$ inject into it and the [[intersection]] of $X$ with $Y$ in $X + Y$ is [[initial object|empty]]. In this case one often writes $X \coprod Y \coloneqq X + Y$ for the coproduct, particularly if the coproduct is [[pullback-stable colimit|stable under pullbacks]], and there one speaks of the _[[disjoint union]]_ of $X$ with $Y$.
 
 ## Definition
 
@@ -27,7 +27,7 @@ A binary [[coproduct]] $a+b$ in a [[category]] is **disjoint** if
 
 1. the coprojections $a\to a+b$ and $b\to a+b$ are [[monomorphism|monic]], and 
 
-2. their [[intersection]] is an [[initial object]].
+2. their [[pullback]] (exists and) is an [[initial object]] (which is therefore also their [[intersection]] in the poset of subobjects of $a+b$).
 
 Equivalently, this means we have [[pullback]] squares
 
@@ -43,9 +43,17 @@ b & \to & a+b &&&
 a & \to & a+b}
 $$
 
-An arbitrary coproduct $\sum_i a_i$ is disjoint if each coprojection $a_i\to \sum_k a_k$ is monic and the intersection of any two distinct ones is initial.  Note that every 0-ary coproduct (that, is initial object) is disjoint.
+An arbitrary coproduct $\sum_i a_i$ is disjoint if each coprojection $a_i\to \sum_k a_k$ is monic and the intersection of any two distinct ones is initial.
+
+Note that every 0-ary coproduct (that, is initial object) is disjoint.  However, disjointness of coproducts is most commonly considered in categories with a [[strict initial object]], in which case disjointness can be expressed as "a map into a coproduct from a noninitial object factors through a coprojection in at most one way".
 
 A more [[constructive mathematics|constructive]] way to phrase disjointness of an arbitrary coproduct is that the pullback of any two [[coprojections]] $a_i\to \sum_k a_k$ and $a_j\to \sum_k a_k$ is the coproduct $\sum_{i=j} a_i$, where $i=j$ denotes the [[subsingleton]] corresponding to the [[proposition]] $i=j$, a.k.a. $\{ \ast \mid i=j \}$.  (Since $a_i=a_j$ as soon as this indexing set is [[inhabited set|inhabited]], this coproduct could equally be written $\sum_{i=j} a_j$.)
+
+### In a fibration
+
+Suppose $\pi:C\to S$ is a [[Grothendieck fibration]], and $u:A\to B$ is an [[indexed coproduct]], which is to say an [[opcartesian arrow]] in $C$ lying over some $f:X\to Y$ in $S$.  Then this coproduct is **disjoint** if the [[pullback]] $A\times_B A$ exists in $C$, is [[preserved limit|preserved]] by $\pi$, and the induced [[diagonal morphism]] $A\to A\times_B A$ is also opcartesian (over the diagonal $X\to X\times_Y X$).
+
+This specializes to the above definition for arbitrary coproducts (in its constructive phrasing) when an ordinary category $C$ is represented by the corresponding [[family fibration]] over $Set$, whose fiber over $X\in Set$ is $C^X$.
 
 ## Examples
 
