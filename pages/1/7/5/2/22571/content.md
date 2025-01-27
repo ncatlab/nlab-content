@@ -17,6 +17,10 @@ On understanding [[quantum error correcting codes]] in terms of the [[eigenstate
 
 * [[Ning Bao]], Newton Cheng, *Eigenstate Thermalization Hypothesis and Approximate Quantum Error Correction*, JHEP 08 (2019) 152 ([arXiv:1906.03669](https://arxiv.org/abs/1906.03669))
 
+On [[Liouville theory]] in the context of the [[AdS3/CFT2 duality]]:
+
+* [[Ning Bao]], Ling-Yan Hung, Yikun Jiang, Zhihan Liu: *QG from SymQRG: $AdS_3/CFT_2$ Correspondence as Topological Symmetry-Preserving Quantum RG Flow* \[<a href="https://arxiv.org/abs/2412.12045">arXiv:2412.12045</a>\[
+
 
 
 category: people
