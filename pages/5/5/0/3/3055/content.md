@@ -468,8 +468,3 @@ $\mathbf{H}_{/Type}$ is the "context of the universe". And so this says that the
 
 [[!redirects self-indexing]]
 [[!redirects self-indexing of a category]]
-
-[[!redirects family fibration]]
-[[!redirects family fibrations]]
-
-
