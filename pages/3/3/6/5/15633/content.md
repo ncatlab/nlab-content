@@ -30,6 +30,7 @@ In generality of its transformation properties, parastatistics is in-between ord
 * [[braid group statistics]], [[anyons]]
 
 
+
 ## References
 
 The original notion is attributed to:
@@ -43,14 +44,21 @@ Review:
 
 * Zhiyuan Wang, Kaden R. A. Hazzard: *Particle exchange statistics beyond fermions and bosons*, Nature **637** (2025) 314-318 &lbrack;[arXiv:2308.05203](https://arxiv.org/abs/2308.05203), [doi:10.1038/s41586-024-08262-7](https://doi.org/10.1038/s41586-024-08262-7)&rbrack;
 
+
 Further developments:
+
+* O. W. Greenberg, A. M. L. Messiah: *Selection Rules for Parafields and the Absence of Para Particles in Nature*, Phys. Rev. **138** (1965) B1155 &lbrack;[doi:10.1103/PhysRev.138.B1155](https://doi.org/10.1103/PhysRev.138.B1155)&rbrack;
+
+* [[F. Duncan M. Haldane]]: *"Fractional statistics" in arbitrary dimensions: A generalization of the Pauli principle*,     Phys. Rev. Lett. **67** (1991) 937-940 &lbrack;[doi:10.1103/PhysRevLett.67.937](https://doi.org/10.1103/PhysRevLett.67.937), [inSpire:321137](https://inspirehep.net/literature/321137)&rbrack;
 
 * Boyka Aneva, Todor Popov: *Hopf structure and Green ansatz of deformed parastatistics algebras*, J. Phys. A: Math. Gen. **38** (2005) 6473 &lbrack;[doi:10.1088/0305-4470/38/29/004](https://iopscience.iop.org/article/10.1088/0305-4470/38/29/004)&rbrack;
 
 * K. Kanakoglou, C. Daskaloyannis: *Paraboson quotients. A braided look at Green ansatz and a generalization*, J. Math. Phys. **48** (2007) 113516 &lbrack;[arXiv:0901.4320](https://arxiv.org/abs/0901.4320), [doi:10.1063/1.2816258](https://doi.org/10.1063/1.2816258)&rbrack;
 
-
 * N.I. Stoilova, J. Van der Jeugt: *Partition functions and thermodynamic properties of paraboson and parafermion systems*, Physics Letters A **384** 21 (2020) 126421 &lbrack;[doi:10.1016/j.physleta.2020.126421](https://doi.org/10.1016/j.physleta.2020.126421)&rbrack;
+
+
+
 
 See also:
 
