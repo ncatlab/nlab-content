@@ -19,9 +19,9 @@
 
 ## Idea
 
-Parastatistics is an exotic kind of [[particle statistics]] where [[permutations]] of "indistinguishable particles" transform their space of [[quantum states]] by *higher* [[dimension of a vector space|dimensional]] [[irrep|irreducile]] [[linear representations]] of the [[symmetric group]].
+Parastatistics is an exotic kind of [[particle statistics]] where [[permutations]] of "indistinguishable particles" transform their space of [[quantum states]] by *higher* [[dimension of a vector space|dimensional]] [[irrep|irreducible]] [[linear representations]] of the [[symmetric group]].
 
-In generality of its transformation properties, parastatistics is in-between ordinary [[boson]]/[[fermion]]-[[particle statistics|statistics]] and the yet more general [[braid group statistics]]. But while [[braid group statistics]] is usually associated only with particles ("[[anyons]]") that are restricted to an effectively 2-[[dimension of a manifold|dimensional]] [[surface]], parastatistics -- the the extent that it applies at all -- is thought to in principle apply in any dimension.
+In generality of its transformation properties, parastatistics is in-between ordinary [[boson]]/[[fermion]]-[[particle statistics|statistics]] and the yet more general [[braid group statistics]]. But while [[braid group statistics]] is usually associated only with particles ("[[anyons]]") that are restricted to an effectively 2-[[dimension of a manifold|dimensional]] [[surface]], parastatistics -- to the extent that it applies at all -- is thought to apply in principle in any dimension.
 
 ## Related concepts
 
@@ -71,9 +71,9 @@ See also:
 
 * Weimin Yang, Sicong Jing, _Graded Lie algebra generating of parastatistical algebraic atructure [math-ph/0212009](arxiv.org/pdf/math-ph/0212009)
 
-* [[Jean-Louis Loday]], Todor Popov: _Parastatistics algebra and super semistandard Young tableaux_, Lie Theory and Its Applications in Physics VII, ed. V.K. Dobrev et al, Heron Press, Sofia (2008) &lbrack;<a href="http://www-irma.u-strasbg.fr/~loday/PAPERS/2008LodayPopov(Parastat).pdf">&rbrack;
+* [[Jean-Louis Loday]], Todor Popov: _Parastatistics algebra and super semistandard Young tableaux_, Lie Theory and Its Applications in Physics VII, ed. V.K. Dobrev et al, Heron Press, Sofia (2008) &lbrack;[pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/2008LodayPopov&28Parastat%29.pdf)&rbrack;
 
-* Zhiyuan Wang: *Parastatistics and a secret communication challenge* &lbrack;[arXov:2412.13360](https://arxiv.org/abs/2412.13360)&rbrack;
+* Zhiyuan Wang: *Parastatistics and a secret communication challenge* &lbrack;[arXiv:2412.13360](https://arxiv.org/abs/2412.13360)&rbrack;
 
  
 category: physics
