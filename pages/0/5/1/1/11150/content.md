@@ -92,6 +92,9 @@ Review in:
 
 * [[Rémi Rhodes]], [[Vincent Vargas]], *A probabilistic approach of Liouville field theory*, Comptes Rendus. Physique, Tome 21 (2020) no. 6, pp. 561-569. ([doi:10.5802/crphys.43](https://doi.org/10.5802/crphys.43))
 
+* [[Martin Hairer]]: *Probabilistic interpretation of quantum field theories* &lbrack;[arXiv:2501.14361](https://arxiv.org/abs/2501.14361)&rbrack;
+
+
 
 An argument (via [[Chern-Simons gravity]], but see the caveats there) that [[3d quantum gravity]] with negative [[cosmological constant]] has as [[boundary field theory]] 2d [[Liouville theory]] is due to 
 
