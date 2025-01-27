@@ -1,7 +1,12 @@
 
+* [institute page](https://phy.princeton.edu/people/duncan-haldane)
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Duncan_Haldane)
 
 * [InSpire page](https://inspirehep.net/authors/1006956)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=GT0JBukAAAAJ&hl=en)
+
 
 ## Selected writings
 
@@ -17,6 +22,11 @@ Introducing the "Haldane phase of the 1d spin chain", the first example of a [[s
 Introducing the [[Haldane model]]:
 
 * [[Duncan Haldane]], *Model for a Quantum Hall Effect without Landau Levels: Condensed-Matter Realization of the "Parity Anomaly"*, Phys. Rev. Lett. **61** (1988) 2015 &lbrack;[doi:10.1103/PhysRevLett.61.2015](https://doi.org/10.1103/PhysRevLett.61.2015)&rbrack;
+
+On [[parastatistics]]:
+
+* [[F. Duncan M. Haldane]]: *"Fractional statistics" in arbitrary dimensions: A generalization of the Pauli principle*,     Phys. Rev. Lett. **67** (1991) 937-940 &lbrack;[doi:10.1103/PhysRevLett.67.937](https://doi.org/10.1103/PhysRevLett.67.937), [inSpire:321137](https://inspirehep.net/literature/321137)&rbrack;
+
 
 On [[photonic crystals]] and [[topological photonics]]:
 
