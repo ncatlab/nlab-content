@@ -38,7 +38,7 @@
 
 See also:
 
-* Wikipedia: [Particle statistics](https://en.wikipedia.org/wiki/Particle_statistics)
+* Wikipedia: *[Particle statistics](https://en.wikipedia.org/wiki/Particle_statistics)*
 
 
 
