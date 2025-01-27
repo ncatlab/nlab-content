@@ -33,12 +33,14 @@ A different but closely analogous development for chiral 2d CFT ([[vertex operat
 
 Discussion of the case of [[Liouville theory]]:
 
-* [[Colin Guillarmou]], [[Antti Kupiainen]], [[Rémi Rhodes]], [[Vincent Vargas]], *Segal's axioms and bootstrap for Liouville Theory* &lbrack;[arXiv:2112.14859](https://arxiv.org/abs/2112.14859)&rbrack;
+* [[Colin Guillarmou]], [[Antti Kupiainen]], [[Rémi Rhodes]], [[Vincent Vargas]], *Segal's axioms and bootstrap for Liouville Theory* \[<a href="https://arxiv.org/abs/2112.14859">arXiv:2112.14859</a>\]
+
+* [[Martin Hairer]]: *Probabilistic interpretation of quantum field theories* \[<a href="https://arxiv.org/abs/2501.14361">arXiv:2501.14361</a>\]
 
 
 Early suggestions to refine this to an [[extended TQFT|extended]] [[2-functor|2-functorial]] construction:
 
-* [[Stefan Stolz]], [[Peter Teichner]], _[[What is an elliptic object?]]_
+* [[Stefan Stolz]], [[Peter Teichner]]: _[[What is an elliptic object?]]_ (2004)
 
 A step towards generalization to [[2d super-conformal field theory]]:
 
