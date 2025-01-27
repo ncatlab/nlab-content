@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include topological physics -- contents]]
 =--
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
 =--
 =--
 
