@@ -94,6 +94,8 @@ $$
 
 * [[Specht module]]
 
+* [[parastatistics]]
+
 * [[representation theory of the general linear group]]
 
 * [[representation theory of the special unitary group]]
