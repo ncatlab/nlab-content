@@ -49,6 +49,11 @@ Further developments:
 
 * O. W. Greenberg, A. M. L. Messiah: *Selection Rules for Parafields and the Absence of Para Particles in Nature*, Phys. Rev. **138** (1965) B1155 &lbrack;[doi:10.1103/PhysRev.138.B1155](https://doi.org/10.1103/PhysRev.138.B1155)&rbrack;
 
+* [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Local observables and particle statistics I*, Commun.Math. Phys. **23** (1971) 199–230 &lbrack;[doi:10.1007/BF01877742](https://doi.org/10.1007/BF01877742), [euclid:cmp/1103857630](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-23/issue-3/Local-observables-and-particle-statistics-I/cmp/1103857630.full)&rbrack;
+
+* [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Local observables and particle statistics I*, Commun.Math. Phys. **35** (1974) 49–85 &lbrack;[doi:10.1007/BF01646454](https://doi.org/10.1007/BF01646454)&rbrack;
+
+
 * [[F. Duncan M. Haldane]]: *"Fractional statistics" in arbitrary dimensions: A generalization of the Pauli principle*,     Phys. Rev. Lett. **67** (1991) 937-940 &lbrack;[doi:10.1103/PhysRevLett.67.937](https://doi.org/10.1103/PhysRevLett.67.937), [inSpire:321137](https://inspirehep.net/literature/321137)&rbrack;
 
 * Boyka Aneva, Todor Popov: *Hopf structure and Green ansatz of deformed parastatistics algebras*, J. Phys. A: Math. Gen. **38** (2005) 6473 &lbrack;[doi:10.1088/0305-4470/38/29/004](https://iopscience.iop.org/article/10.1088/0305-4470/38/29/004)&rbrack;
