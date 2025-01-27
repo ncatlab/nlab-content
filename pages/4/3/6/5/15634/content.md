@@ -24,7 +24,11 @@
 
 In [[quantum physics]], what is called *particle statistics* refers to the symmetry-properties of [[quantum many-body physics|many-particle]] [[wavefunctions]] under "exchange" of (positions $x_i$ and jointly of all other parameters $p_i$, like [[spin]], of) "indistinguishable" [[particles]].
 
-The term "particle statistics" refers to the fact that the transformation properties of wavefunctions under particle exchange crucially effect the nature of the [[quantum statistical mechanics]] of these particles (cf. *[[Bose-Einstein condensates]]* as opposed to the *[[Fermi sea]]* due to the *[[Pauli exclusion principle]]*). 
+The term "particle statistics" refers to the fact that the transformation properties of wavefunctions under particle exchange crucially effect the nature of the [[quantum statistical mechanics]] of these particles. 
+
+Or rather, this is the case for the ordinary [[boson|Bose]]/[[fermion|Fermi]]-statistics satisfied by *[[fundamental particles|fundamental]]* particles, namely by [[bosons]] and [[fermions]] respectively (cf. *[[Bose-Einstein condensates]]* as opposed to the *[[Fermi sea]]* due to the *[[Pauli exclusion principle]]*). 
+
+While the richer "para-statistics" and "anyon braid statistics" is often likened to a generalization of Bose/Fermi-statistics, these "exotic statistics" actually arise in practice not as intrinsic symmetries of wavefunctions, but as their "[[Berry phase]]" [[unitary operator|unitary transformations]] under [[quantum adiabatic theorem|adiabatic transport]] along external parameters --- which is conceptually quite different. 
 
 ### Boson/Fermion statistics
 
@@ -92,10 +96,10 @@ In this situation one may hence ask that the [[quantum states]] of these $N$ "pa
 
 In this case one speaks of *[[braid statistics]]*.
 
-Even if the [[braid representation]] is 1-dimensional, this is more general than Bose/Fermi-statistics: The (unitary) phase assigned to the motion of a pair of such "particles" around each other may be *any* [[complex number]] of unit [[absolute value]]. For this reason the "particles" satisfying 1-dimensional braid statistics have been called *[[anyons|any-ons]]*.
+Even if the [[braid representation]] is 1-dimensional, this is more general than Bose/Fermi-statistics: The (unitary) phase assigned to the motion of a pair of such "particles" past each other may be *any* [[complex number]] of unit [[absolute value]]. For this reason the "particles" satisfying 1-dimensional braid statistics have been called *[[anyons|any-ons]]*.
 
 
-More in detail, for such 1-dimensional braid representations one speaks of *abelian anyons*, while for higher dimensional braid [[irreps]] one speaks of *nonabelian anyons*.
+More in detail, for such 1-dimensional braid representations one speaks of *abelian anyons*, while for higher dimensional braid [[irreps]] one speaks of *non-abelian anyons*.
 
 
 
