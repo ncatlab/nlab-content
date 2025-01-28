@@ -74,7 +74,7 @@ Reviews:
 
 * [[Joel E. Moore]], *The birth of topological insulators*, Nature volume 464, pages 194–198 (2010) ([doi:10.1038/nature08916](https://doi.org/10.1038/nature08916))
 
-* Xiao-Liang Qi, Shou-Cheng Zhang, *Topological insulators and superconductors*, Rev. Mod. Phys. **83** (2011) 1057-1110 $[$[arXiv:1008.2026](https://arxiv.org/abs/1008.2026), [doi:10.1103/RevModPhys.83.1057](https://doi.org/10.1103/RevModPhys.83.1057)$]$
+* [[Xiao-Liang Qi]], [[Shou Cheng Zhang]], *Topological insulators and superconductors*, Rev. Mod. Phys. **83** (2011) 1057-1110 &lbrack;[arXiv:1008.2026](https://arxiv.org/abs/1008.2026), [doi:10.1103/RevModPhys.83.1057](https://doi.org/10.1103/RevModPhys.83.1057)&rbrack;
 
 * [[M. Zahid Hasan]], [[Joel E. Moore]], *Three-Dimensional Topological Insulators*, Ann. Review.Condensed Matter Physics **2** (2011) 55-78 $[$[arXiv:1011.5462](https://arxiv.org/abs/1011.5462), [doi:10.1146/annurev-conmatphys-062910-140432](https://doi.org/10.1146/annurev-conmatphys-062910-140432)$]$
 
@@ -115,7 +115,7 @@ See also:
 
 Review in the more general context of [[topological phases of matter]]
 
-* Shou-cheng Zhang, _Viewpoint: Topological states of quantum matter_,  APS Physics 1, 6 (2008) [doi:10.1103/Physics.1.6](http://dx.doi.org/10.1103/Physics.1.6)
+* [[Shou Cheng Zhang]]: *Viewpoint: Topological states of quantum matter*,  APS Physics **1** 6 (2008) &lbrack;[doi:10.1103/Physics.1.6](http://dx.doi.org/10.1103/Physics.1.6)&rbrack;
 
 * Vishal Bhardwaj, Ratnamala Chatterjee, *Topological Materials -- New Quantum Phases of Matter*, Resonance **25** (2020) 431–441  ([doi:10.1007/s12045-020-0955-5](https://doi.org/10.1007/s12045-020-0955-5), [pdf](https://www.ias.ac.in/article/fulltext/reso/025/03/0431-0441))
 
