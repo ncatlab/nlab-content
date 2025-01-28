@@ -8,7 +8,7 @@ The idea of [[abelian Chern-Simons theory]] as an [[effective field theory]] exh
 
 * [[Steven M. Girvin]], A. H. MacDonald, around (10) of: *Off-diagonal long-range order, oblique confinement, and the fractional quantum Hall effect*, Phys. Rev. Lett. **58** 12 (1987) (1987) 1252-1255 \[<a href="https://doi.org/10.1103/PhysRevLett.58.1252">doi:10.1103/PhysRevLett.58.1252</a>\]
 
-* S. C. Zhang, T. H. Hansson S. Kivelson: *Effective-Field-Theory Model for the Fractional Quantum Hall Effect*, Phys. Rev. Lett. **62** (1989) 82 \[<a href="https://doi.org/10.1103/PhysRevLett.62.82">doi:10.1103/PhysRevLett.62.82</a>\]
+* [[Shou Cheng Zhang]], T. H. Hansson S. Kivelson: *Effective-Field-Theory Model for the Fractional Quantum Hall Effect*, Phys. Rev. Lett. **62** (1989) 82 \[<a href="https://doi.org/10.1103/PhysRevLett.62.82">doi:10.1103/PhysRevLett.62.82</a>\]
 
 and was made more explicit in:
 
@@ -26,7 +26,6 @@ and was made more explicit in:
 
 * Ana Lopez, [[Eduardo Fradkin]]: *Fractional quantum Hall effect and Chern-Simons gauge theories*, Phys. Rev. B **44** (1991) 5246 \[<a href="https://doi.org/10.1103/PhysRevB.44.5246">doi:10.1103/PhysRevB.44.5246</a>\]
 
-
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Topological structures, universality classes, and statistics screening in the anyon superfluid*, Phys. Rev. B **44** (1991) 274 \[<a href="https://doi.org/10.1103/PhysRevB.44.274">doi:10.1103/PhysRevB.44.274</a>\]
 
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Classification of Abelian quantum Hall states and matrix formulation of topological fluids*, Phys. Rev. B **46** (1992) 2290 \[<a href="https://doi.org/10.1103/PhysRevB.46.2290">doi:10.1103/PhysRevB.46.2290</a>\]
@@ -39,6 +38,8 @@ and was made more explicit in:
 
 
 Early review:
+
+* [[Shou Cheng Zhang]]: *The Chern-Simons-Landau-Ginzburg theory of the fractional quantum Hall effect*,  International Journal of Modern Physics B **06** 01 (1992) 25-58 \[<a href="https://doi.org/10.1142/S0217979292000037">doi:10.1142/S0217979292000037</a>, [pdf](https://pitp.phas.ubc.ca/confs/7pines2009/readings/arovas-Zhang1992A.pdf)\] 
 
 * {#Zee95} [[Anthony Zee]]: *Quantum Hall Fluids*, in: *Field Theory, Topology and Condensed Matter Physics*, Lecture Notes in Physics **456**,  Springer (1995)  \[<a href="https://doi.org/10.1007/BFb0113369">doi:10.1007/BFb0113369</a>, [arXiv:cond-mat/9501022](https://arxiv.org/abs/cond-mat/9501022)\]
 
