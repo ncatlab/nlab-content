@@ -21,7 +21,7 @@ For a general [[monoidal category]] $V$, weighted limits are more general than c
 
 A particular [[base of enrichment]] of interest is $Cat$, so that enriched categories are precisely [[2-categories]]. The appropriate notion of limit for 2-categories is a weighted 2-limit, i.e. the usual notion of weighted limit for enriched categories (see [[2-limit]] for more details). Unlike for $V = Set$, conical 2-limits do not suffice to capture all weighted 2-limits. Intuitively, cones only capture 1-cells, whereas it is also necessary to capture 2-cells for the appropriate notion of 2-limit.
 
-However, it turns out that, just as every weighted limit for $V = Set$ can be reduced to a conical limit, every weighted limit for $V = Set$ can be reduced to a simpler kind of limit, called a **marked limit**. This is useful, as it makes working with 2-limits easier than working with general weighted limits.
+However, it turns out that, just as every weighted limit for $V = Set$ can be reduced to a conical limit, every weighted limit for $V = Cat$ can be reduced to a simpler kind of limit, called a **marked limit**. This is useful, as it makes working with 2-limits easier than working with general weighted limits.
 
 ## History and terminology
 
