@@ -344,6 +344,11 @@ Computation of the Pontryagin products for (loop spaces of) [[flag manifolds]]:
 [[!redirects Pontrjagin algebra]]
 [[!redirects Pontrjagin algebras]]
 
+[[!redirects Pontryagin homology algebra]]
+[[!redirects Pontryagin homology algebras]]
+[[!redirects Pontrjagin homology algebra]]
+[[!redirects Pontrjagin homology algebras]]
+
 
 
 [[!redirects Peterson isomorphism]]
