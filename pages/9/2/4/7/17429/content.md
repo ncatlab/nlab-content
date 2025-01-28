@@ -4,6 +4,6 @@ $$
 f (\lambda v) = \alpha(\lambda) f(v), \,\,\,\,\,a\in k, v\in V
 $$
 
-This notion is very much used in the classical affine and projective geometry over division rings, for example in the standard definition of a homotethy.
+This notion is very much used in the classical affine and projective geometry over division rings, for example in the standard definition of a homothety.
 
 [[!redirects semilinear transformation]]
