@@ -19,7 +19,7 @@ Given a [[site]] $C$, the _sheafification_ [[functor]] universally turns [[presh
 
 It is characterized as being the [[left adjoint|left]] [[adjoint functor]] $L : PSh(C) \to Sh(C)$ to the inclusion $Sh(C) \hookrightarrow PSh(C)$ of sheaves into all presheaves, exhibiting this as a [[reflective subcategory]].
 
-Therefore sheafification is a special case of a very general phenonemon of [[localization|localizations]] of categories. See [[category of sheaves]] for more.
+Therefore sheafification is a special case of a very general phenomenon of [[localization|localizations]] of categories. See [[category of sheaves]] for more.
 
 ## Definition
 
