@@ -69,7 +69,7 @@ an "inequality". Many famous inequalities are of this form (starting with the [[
 ## Inequality relations
  {#InequalityRelations}
 
-More generally, inequality may just be the statement that a pair of [[terms]] of any [[type]] are *[[negation|not]] [[equality|equal]]*. 
+More generally, inequality may just be the statement that a pair of [[terms]] of any [[type]] are *[[negation|not]] [[equality|equal]]*.  (To distinguish this from order relations as discussed above, one may also call it *disequality*.)
 
 In  the [[foundations of mathematics]], sometimes one talks about a particular [[relation]] called the *inequality relation*. 
 
