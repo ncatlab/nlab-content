@@ -15,7 +15,7 @@
 
 ## Idea
 
-__Tarski-Grothendieck set theory__ is an axiomatic [[set theory]] whose [[axioms]] are thos of [[ZFC]] plus the axiom that every set belongs to some [[Grothendieck universe]]. 
+__Tarski-Grothendieck set theory__ is an axiomatic [[set theory]] whose [[axioms]] are those of [[ZFC]] plus the axiom that every set belongs to some [[Grothendieck universe]]. 
 
 This framework is standard in the works of [[Alexander Grothendieck]] and his school.
 
