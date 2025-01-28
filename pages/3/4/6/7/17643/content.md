@@ -17,7 +17,9 @@
 
 ## Definition
 
-In [[propositional logic]], the __contrapositive rule__ states that it is valid to derive $\neg{Q} \to \neg{P}$ from $P \to Q$ (where $\neg$ is [[negation]] and $\to$ is [[implication]]).  In symbols:
+In [[propositional logic]], the __contrapositive__ of an [[implication]] $P\to Q$ is the statement $\neg Q \to \neg P$.
+
+The __contrapositive rule__ states that it is valid to derive the contrapositive $\neg{Q} \to \neg{P}$ from the original statement $P \to Q$ (where $\neg$ is [[negation]] and $\to$ is [[implication]]).  In symbols:
 $$ \frac {P \to Q} {\neg{Q} \to \neg{P}} \;CP $$
 The combination of this rule, followed by modus ponens (the [[elimination rule]] for implication) was traditionally called _modus tollens_:
 $$ \frac {\displaystyle\frac{P \to Q} {\neg{Q} \to \neg{P}} \;CP \;\;\; \neg{Q}} {\neg{P}} \; \to\mathcal{E} $$
