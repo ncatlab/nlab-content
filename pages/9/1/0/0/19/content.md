@@ -425,10 +425,12 @@ See also:
 * {#FongSpivak18} [[Brendan Fong]], [[David Spivak]], _An invitation to applied category theory_, 2018 ([web](http://math.mit.edu/~dspivak/teaching/sp18/), [pdf](http://math.mit.edu/~dspivak/teaching/sp18/7Sketches.pdf))
 
 * {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 ([ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616))
-
-  > (emphasis on [[monoidal category]]-theory with an eye towards [[finite quantum mechanics in terms of dagger-compact categories]] and [[quantum computation]])
+  > (emphasis on [[monoidal category]]-theory with an eye towards [[quantum information via dagger-compact categories]])
 
 * [[Marco Grandis]], _Category Theory and Applications: A Textbook for Beginners_, World Scientific, 2021 ([doi:10.1142/12253](https://doi.org/10.1142/12253))
+
+* [[Paolo Perrone]]: *Starting Category Theory*, World Scientific (2024) \[<a href="https://doi.org/10.1142/13670">doi:10.1142/13670</a>, [arXiv:1912.10642](http://arxiv.org/abs/1912.10642)\]
+
 
 On category theory in [[computer science]]/[[programming languages]] (such as for [[monads in computer science]]):
 
@@ -501,9 +503,6 @@ The [[foundation]] of category theory in [[homotopy type theory]] (see at _[[int
 
 
 * [[Peter Johnstone]], _Category Theory_ , Lecture notes taken by David Mehrle, University of Cambridge (2015) &lbrack;[pdf](http://pi.math.cornell.edu/~dmehrle/notes/partiii/cattheory_partiii_notes.pdf)&rbrack;
-
-* [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_ (2019) &lbrack;[arXiv:1912.10642](http://arxiv.org/abs/1912.10642)&rbrack;
-
 
 * [[André Joyal]], *[[joyalscatlab:Categories]]*
 
