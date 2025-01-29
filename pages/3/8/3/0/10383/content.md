@@ -18,13 +18,13 @@
 =--
 
 
+
 #Fiber Bundles in Physics#
 * table of contents
 {:toc}
 
 ## Idea
  {#Idea}
-
 
 
 \begin{imagefromfile}
@@ -38,7 +38,7 @@
         "right": 0, 
         "left": 10
     },
-    "caption": "From [Wu and Yang 1975](#WuYang75)"
+    "caption": "(from [Wu and Yang 1975](#WuYang75), cf. [Yang 2009](https://www.youtube.com/watch?v=6d3hZ8jnqXg&t=2337s))"
 \end{imagefromfile}
 
 
