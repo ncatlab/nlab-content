@@ -1,4 +1,21 @@
 
+[[CNYang-Portrait.png:file]]]
+
+\begin{imagefromfile}
+    "file_name": "CNYang-Portrait.png",
+    "float": "right",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [U Chicago Photo Archive](https://photoarchive.lib.uchicago.edu/db.xqy?show=browse8.xml|205))"
+\end{imagefromfile}
+
+
 ## Defect anyons
 
 * [[Maissam Barkeshli]], Chao-Ming Jian, [[Xiao-Liang Qi]]: *Twist defects and projective non-Abelian braiding statistics*, Phys. Rev. B **87** (2013) 045130 &lbrack;[doi:10.1103/PhysRevB.87.045130](https://doi.org/10.1103/PhysRevB.87.045130), [arXiv:1208.4834](https://arxiv.org/abs/1208.4834)&rbrack;
