@@ -7,11 +7,14 @@ On [[Drinfeld centers]] and [[von Neumann algebra factors]]:
 
 * {#Mueger03} [[Michael Mueger]], *From Subfactors to Categories and Topology II. The quantum double of tensor categories and subfactors*, J. Pure Appl. Alg. 180, 159-219 (2003) ([arXiv:math/0111205](https://arxiv.org/abs/math/0111205))
 
+On the [[Doplicher-Roberts reconstruction theorem]]:
+
+* [[Michael Müger]]: *Abstract duality theory for symmetric tensor $ast$-categories* ([pdf](https://www.math.ru.nl/~mueger/PDF/16.pdf)), appendix to: [[Hans Halvorson]], *Algebraic Quantum Field Theory*, in *Philosophy of Physics*, Handbook of the Philosophy of Science (2007) 731-864 &lbrack;[doi:10.1016/B978-044451560-5/50011-7](https://doi.org/10.1016/B978-044451560-5/50011-7), [arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)&rbrack;
 
 
 On [[general topology|general]] [[topology]]
 
-* {#Mueger18} [[Michael Müger]], _Topology for the working mathematician_, Nijmegen 2018 ([pdf](https://www.math.ru.nl/~mueger/topology.pdf))
+* {#Mueger18} [[Michael Müger]], _Topology for the working mathematician_, Nijmegen (2018) &lbrack;[pdf](https://www.math.ru.nl/~mueger/topology.pdf)&rbrack;
 
 ## Related $n$Lab entries
 
