@@ -15,6 +15,7 @@
 =--
 
 
+
 > For disambiguation see at *[[statistics]]*.
 
 
@@ -120,7 +121,9 @@ More in detail, for such 1-dimensional braid representations one speaks of *abel
 
 ### General
 
-See also:
+Review:
+
+* Allan David Cony Tosta: *Review: The theories of non-standard quantum statistics*, Chapter 2 in: *Quantum information and computation with one-dimensional anyons* (2021) &lbrack;[pdf](https://portal.if.uff.br/posgrad/wp-content/uploads/sites/3/2021/10/Allan-David-Cony-Tosta-D.pdf), [[Tosta-QuantumInformationAndAnyons.pdf:file]]&rbrack;
 
 * Wikipedia: *[Particle statistics](https://en.wikipedia.org/wiki/Particle_statistics)*
 
