@@ -22,9 +22,6 @@
 
 * [GooglScholar page](https://scholar.google.com/citations?user=vuJL4QwAAAAJ&hl=en)
 
-* Lizhen Ji, Liping Wang: *The Living Record of Scientific History -- Conversations with CN Yang*, World Scientific (2025) &lbrack;[doi:10.1142/13641](https://doi.org/10.1142/13641)&rbrack;
-
-  pp 1-62: *The First Interview* &lbrack;[doi:10.1142/9789811284946_0001](https://doi.org/10.1142/9789811284946_0001), [pdf](https://www.worldscientific.com/doi/reader/10.1142/9789811284946_0001)&rbrack;
 
 
 ## Selected writings
@@ -54,6 +51,14 @@ On the historical origin of [[Maxwell's equations]], the "[[vector potential]]" 
 * A. C. T. Wu, [[Chen Ning Yang]], *Evolution of the concept of vector potential in the description of the fundamental interactions*,  International Journal of Modern Physics A **21** 16 (2006) 3235-3277 &lbrack;[doi:10.1142/S0217751X06033143](https://doi.org/10.1142/S0217751X06033143)&rbrack;
 
 * [[Chen Ning Yang]], *The conceptual origins of Maxwell’s equations and gauge theory*, Phyics Today **67** 11 (2014) &lbrack;[doi:10.1063/PT.3.2585](https://doi.org/10.1063/PT.3.2585), [pdf](http://home.ustc.edu.cn/~lxsphys/2021-3-18/The%20conceptual%20origins%20of%20Maxwell%27s%20equations%20and%20gauge%20theory.pdf)&rbrack;
+
+## Interviews
+
+* *C. N. Yang: Stony Brook Masters Series*, C.N. Yang interviewed by Bill Zimmerman (May 2009) &lbrack;video:[YT](https://youtu.be/6d3hZ8jnqXg)&rbrack;
+
+* Lizhen Ji, Liping Wang: *The Living Record of Scientific History -- Conversations with CN Yang*, World Scientific (2025) &lbrack;[doi:10.1142/13641](https://doi.org/10.1142/13641)&rbrack;
+
+  pp 1-62: *The First Interview* &lbrack;[doi:10.1142/9789811284946_0001](https://doi.org/10.1142/9789811284946_0001), [pdf](https://www.worldscientific.com/doi/reader/10.1142/9789811284946_0001)&rbrack;
 
 
 ## Quotes
