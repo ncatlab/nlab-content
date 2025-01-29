@@ -19,9 +19,9 @@
 
 ## Idea
 
-Parastatistics is an exotic kind of [[particle statistics]] where [[permutations]] of "indistinguishable particles" transform their space of [[quantum states]] by *higher* [[dimension of a vector space|dimensional]] [[irrep|irreducible]] [[linear representations]] of the [[symmetric group]].
+Parastatistics is an exotic kind of [[particle statistics]] where [[permutations]] of "indistinguishable particles" transform their space of [[quantum states]] by *higher* [[dimension of a vector space|dimensional]] [[irrep|irreducible]] [[linear representations]] of the [[symmetric group]] (cf. [Halvorson 2007 §14.4.2-4](#Halvorson07), [Wang & Hazzard 2025, below (4)](#WangHazzard25)).
 
-In generality of its transformation properties, parastatistics is in-between ordinary [[boson]]/[[fermion]]-[[particle statistics|statistics]] and the yet more general [[braid group statistics]]. But while [[braid group statistics]] is usually associated only with particles ("[[anyons]]") that are restricted to an effectively 2-[[dimension of a manifold|dimensional]] [[surface]], parastatistics -- to the extent that it applies at all -- is thought to apply in principle in any dimension.
+In generality of its transformation properties, parastatistics is in-between ordinary [[boson]]/[[fermion]]-[[particle statistics|statistics]] and the yet more general [[braid group statistics]]. But while [[braid group statistics]] is usually associated only with particles ("[[anyons]]") that are restricted to an effectively 2-[[dimension of a manifold|dimensional]] [[surface]], parastatistics -- to the extent that it applies at all -- is thought to apply in principle in any dimension. (Concretely for $d = 3$ see [Freedman, Hastings, Nayak, Qi, Walker & Wang 2011](#FreedmanHastingsNayakQiWalkerWang11))
 
 ## Related concepts
 
@@ -37,22 +37,29 @@ The original notion is attributed to:
 
 * H. S. Green: *A generalized method of field quantization*,  Phys. Rev. **90** (1953) 270-273 &lbrack;[doi:10.1103/PhysRev.90.270](https://doi.org/10.1103/PhysRev.90.270)&rbrack;
 
+Further early discussion:
+
+* O. W. Greenberg, A. M. L. Messiah: *Selection Rules for Parafields and the Absence of Para Particles in Nature*, Phys. Rev. **138** (1965) B1155 &lbrack;[doi:10.1103/PhysRev.138.B1155](https://doi.org/10.1103/PhysRev.138.B1155)&rbrack;
+
 
 Review:
 
 * Y. Ohnuki, S. Kamefuchi: *Quantum field theory and parastatistics*, Springer (1982) &lbrack;[ISBN:9783642686245](https://link.springer.com/book/9783642686245)&rbrack;
 
-* Zhiyuan Wang, Kaden R. A. Hazzard: *Particle exchange statistics beyond fermions and bosons*, Nature **637** (2025) 314-318 &lbrack;[arXiv:2308.05203](https://arxiv.org/abs/2308.05203), [doi:10.1038/s41586-024-08262-7](https://doi.org/10.1038/s41586-024-08262-7)&rbrack;
+* {#WangHazzard25} Zhiyuan Wang, Kaden R. A. Hazzard: *Particle exchange statistics beyond fermions and bosons*, Nature **637** (2025) 314-318 &lbrack;[arXiv:2308.05203](https://arxiv.org/abs/2308.05203), [doi:10.1038/s41586-024-08262-7](https://doi.org/10.1038/s41586-024-08262-7)&rbrack;
 
-
-Further developments:
-
-* O. W. Greenberg, A. M. L. Messiah: *Selection Rules for Parafields and the Absence of Para Particles in Nature*, Phys. Rev. **138** (1965) B1155 &lbrack;[doi:10.1103/PhysRev.138.B1155](https://doi.org/10.1103/PhysRev.138.B1155)&rbrack;
+Discussion via [[algebraic quantum field theory]] and [[DHR superselection theory]]:
 
 * [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Local observables and particle statistics I*, Commun.Math. Phys. **23** (1971) 199–230 &lbrack;[doi:10.1007/BF01877742](https://doi.org/10.1007/BF01877742), [euclid:cmp/1103857630](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-23/issue-3/Local-observables-and-particle-statistics-I/cmp/1103857630.full)&rbrack;
 
 * [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Local observables and particle statistics I*, Commun.Math. Phys. **35** (1974) 49–85 &lbrack;[doi:10.1007/BF01646454](https://doi.org/10.1007/BF01646454)&rbrack;
+  > (cf. *[[DHR superselection theory]]*)
 
+* {#Halvorson07} [[Hans Halvorson]]: *Statistics, permutation symmetry, and identical particles*, Section 11.4 in: *Algebraic Quantum Field Theory*, in *Philosophy of Physics*, Handbook of the Philosophy of Science (2007) 731-864 &lbrack;[doi:10.1016/B978-044451560-5/50011-7](https://doi.org/10.1016/B978-044451560-5/50011-7), [arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)&rbrack;
+
+
+
+Further discussion:
 
 * [[F. Duncan M. Haldane]]: *"Fractional statistics" in arbitrary dimensions: A generalization of the Pauli principle*,     Phys. Rev. Lett. **67** (1991) 937-940 &lbrack;[doi:10.1103/PhysRevLett.67.937](https://doi.org/10.1103/PhysRevLett.67.937), [inSpire:321137](https://inspirehep.net/literature/321137)&rbrack;
 
@@ -61,6 +68,11 @@ Further developments:
 * K. Kanakoglou, C. Daskaloyannis: *Paraboson quotients. A braided look at Green ansatz and a generalization*, J. Math. Phys. **48** (2007) 113516 &lbrack;[arXiv:0901.4320](https://arxiv.org/abs/0901.4320), [doi:10.1063/1.2816258](https://doi.org/10.1063/1.2816258)&rbrack;
 
 * N.I. Stoilova, J. Van der Jeugt: *Partition functions and thermodynamic properties of paraboson and parafermion systems*, Physics Letters A **384** 21 (2020) 126421 &lbrack;[doi:10.1016/j.physleta.2020.126421](https://doi.org/10.1016/j.physleta.2020.126421)&rbrack;
+
+Concrete lattice models for a kind of parastatistics in 3d:
+
+* {#FreedmanHastingsNayakQiWalkerWang11} [[Michael Freedman]], [[Matthew B. Hastings]], [[Chetan Nayak]], [[Xiao-Liang Qi]], [[Kevin Walker]], [[Zhenghan Wang]]: *Projective Ribbon Permutation Statistics: a Remnant of non-Abelian Braiding in Higher Dimensions*, Phys. Rev. B **83** 115132 (2011) &lbrack;[doi:10.1103/PhysRevB.83.115132](https://doi.org/10.1103/PhysRevB.83.115132), [arXiv:1005.0583](https://arxiv.org/abs/1005.0583)&rbrack;
+
 
 
 
@@ -80,7 +92,6 @@ See also:
 
 * Lee Brekke, Sterrett J. Collins, Tom D. Imbo, _Nonabelian vortices on surfaces and their statistics_ &lbrack;[hep-th/9701056](arxiv.org/pdf/hep-th/9701056)&rbrack;
 > If we could "turn off" all interactions in the universe which couple to spin, then different spin states would be in principle indistinguishable (although still not identical), and the particles would obey parastatistics at the fundamental level. We can play the same game with color, isospin and numerous other internal degrees freedom. (Indeed, the parastatistical treatment of quarks [3] predates the introduction of color [4].)
-
 
 * Weimin Yang, Sicong Jing, _Graded Lie algebra generating of parastatistical algebraic atructure [math-ph/0212009](arxiv.org/pdf/math-ph/0212009)
 
