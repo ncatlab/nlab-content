@@ -159,3 +159,6 @@ On wreath products with [[braid groups]]:
 category: algebra
 
 [[!redirects wreath products of groups]]
+
+[[!redirects wreath product group]]
+[[!redirects wreath product groups]]
