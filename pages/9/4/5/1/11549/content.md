@@ -6,7 +6,7 @@ This is the [[Ab-enriched]] analogue of the fact that [[sheaf toposes are equiva
 
 # Literature
 
-* [[Nicolae Popescu|Nicolae Popesco]], [[Pierre Gabriel]], _Caract&#233;risation des cat&#233;gories ab&#233;liennes avec g&#233;n&#233;rateurs et limites inductives exactes_, Les Comptes rendus de l'Acad&#233;mie des sciences Paris __258__: 4188&#8211;4190 [MR 0166241](http://www.ams.org/mathscinet-getitem?mr=0166241)
+* [[Nicolae Popescu|Nicolae Popesco]], [[Pierre Gabriel]], _Caract&#233;risation des cat&#233;gories ab&#233;liennes avec g&#233;n&#233;rateurs et limites inductives exactes_, Les Comptes rendus de l'Acad&#233;mie des sciences Paris __258__: 4188&#8211;4190 [MR 0166241](http://www.ams.org/mathscinet-getitem?mr=0166241) [BnF](https://gallica.bnf.fr/ark:/12148/bpt6k4011c/f1826.item)
 * wikipedia [Gabriel-Popesco theorem](http://en.wikipedia.org/wiki/Gabriel%E2%80%93Popesco_theorem)
 * [[Nicolae Popescu]], Abelian categories with applications to rings and modules, London Math. Soc. Monographs 3, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
 * [[Mitsuhiro Takeuchi]], _A simple proof of Gabriel and Popesco’s theorem_, J. Alg. 18,  112-113 (1971) [pdf](https://core.ac.uk/download/pdf/82301148.pdf)
