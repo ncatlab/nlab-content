@@ -24,7 +24,11 @@ The [[representation theory]] of the [[symmetric groups]].
 ### Irreducible representations
  {#IrreducibleRepresentations}
 
-In [[characteristic zero]], the [[irreducible representations]] of the symmetric group are, up to [[isomorphism]], given by the [[Specht modules]] labeled by [[partitions]] $\lambda \in Part(n)$ (e.g. [Sagan 01, Thm. 2.4.6](#Sagan01)).
+
+\begin{proposition}\label{IrrepsLabeledByPartitions}
+In [[characteristic zero]], the [[irreducible representations]] of the symmetric group are, up to [[isomorphism]], given by the [[Specht modules]] labeled by [[partitions]] $\lambda \in Part(n)$. 
+\end{proposition}
+(e.g. [Sagan 01, Thm. 2.4.6](#Sagan01)).
 
 ### Dimension of irreps and hook length
 
@@ -51,7 +55,8 @@ Moreover, the [[number]] of [[standard Young tableaux]] of shape $\lambda$ is gi
     sYTableaux_\lambda
   \right\vert
     \;=\; 
-    n!  
+    n!
+    \,  
     \left(
       \prod_{
         { 1 \leq i \leq rows(\lambda) }   
@@ -89,6 +94,17 @@ $$
 [[!include hook length and content formulas -- table]]
 
 
+## Examples
+
+\begin{example}\label{StandardRepresentation}
+**(standard representation)**
+\linebreak
+  What is sometimes called the *standard representation* of the [[symmetric group]] $Sym_n$ is the [[restricted representation|restriction]] of the $n$-dimensional [[permutation representation]] on $k^n$ (by [[permutation]] of the canonical [[linear basis|basis vectors]]) to the $(n-1)$-dimensional [[linear subspace|subspace]] where the [[sum]] of [[coefficients]] of these basis vectors is [[zero]].
+
+This is an [[irreducible representation]] whose corresponding [[partition]] (according to Prop. \ref{IrrepsLabeledByPartitions}) is $\big((n-1),1\big)$.
+\end{example}
+(cf. [Kao Def. 2.5](#Kao), [[Groupprops]]: *[Standard representation of the symmetric group](https://groupprops.subwiki.org/wiki/Standard_representation_of_the_symmetric_group)*)
+
 
 ## Related concepts
 
@@ -117,7 +133,6 @@ Monographs:
 
 * {#Diaconis88} [[Persi Diaconis]], Chapter 7 of: *Group Representations  in Probability  and  Statistics*, IMS Lecture Notes Monogr. Ser., 11: 198pp. (1988) ([jstor:i397389](https://www.jstor.org/stable/i397389), [ISBN: 0940600145](https://projecteuclid.org/ebooks/institute-of-mathematical-statistics-lecture-notes-monograph-series/Group-representations-in-probability-and-statistics/toc/10.1214/lnms/1215467407), [pdf](https://jdc.math.uwo.ca/M9140a-2012-summer/Diaconis.pdf))
 
-
 * {#Fulton97} [[William Fulton]], Section 7 of: _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U. Press, 1997 ([doi:10.1017/CBO9780511626241](https://doi.org/10.1017/CBO9780511626241))
 
 
@@ -131,6 +146,7 @@ Notes:
 
 * [[Yufei Zhao]], _Young Tableaux and the Representations of the Symmetric Group_ ([pdf](https://yufeizhao.com/research/youngtab-hcmr.pdf), [[ZhaoYoungTableaux.pdf:file]])
 
+* {#Kao} Daphne Kao: *Representations of the Symmetric Group*, VIGRE 2010 &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Kao.pdf)&rbrack;
 
 Discussion of [[character of a linear representation|characters]] for the [[symmetric group]] that depend only on [[Cayley distance]] from the [[neutral element]] ("block character"):
 
