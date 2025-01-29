@@ -68,7 +68,7 @@ $$
     \mathcal{C}(c_1 \otimes c_2, c) \otimes_V X(c_1) \otimes_V Y(c_2)
   \,.
 $$
-Its unit is $I_{Day}(c) = \mathcal{C}(1,-)$
+Its unit is $I_{Day}(c) = \mathcal{C}(I,-)$
 =--
 
 We observe now that [[Day convolution]] is equivalently a [[left Kan extension]]. This will be key for understanding [[monoids]] and [[modules]] with respect to Day convolution.
