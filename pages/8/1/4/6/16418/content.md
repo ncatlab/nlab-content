@@ -49,6 +49,8 @@ They are closely related to [[superconformal]] symmetry (e.g. [D'Auria, Ferrara 
 
 * [[orthogonal Lie algebra]]
 
+* [[parastatistics]]
+
 
 ## References
 
