@@ -196,9 +196,10 @@ Textbook accounts:
 
 * [[Huzihiro Araki]], _[[Mathematical Theory of Quantum Fields]]_ (1999)
 
+* [[Hans Halvorson]] (with an appendix by [[Michael Müger]]): *Algebraic Quantum Field Theory*, in *Philosophy of Physics*, Handbook of the Philosophy of Science (2007) 731-864 &lbrack;[doi:10.1016/B978-044451560-5/50011-7](https://doi.org/10.1016/B978-044451560-5/50011-7), [arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)&rbrack;
+
 * [[Franco Strocchi]], _An Introduction to Non-Perturbative Foundations of Quantum Field Theory_, Oxford University Press (2013) &lbrack;[doi:10.1093/acprof:oso/9780199671571.001.0001](https://doi.org/10.1093/acprof:oso/9780199671571.001.0001)&rbrack;
 
-* [[Hans Halvorson]], [[Michael Müger]], _Algebraic Quantum Field Theory_ &lbrack;[arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)&rbrack;
 
 An account written by mathematicians for mathematicians:
 
