@@ -35,7 +35,11 @@ See also
 
 Relation to [[quantum error correcting codes]] obtained from [[holographic tensor networks]]:
 
-
 * Ning Bao, Newton Cheng, *Eigenstate Thermalization Hypothesis and Approximate Quantum Error Correction*, JHEP 08 (2019) 152 ([arXiv:1906.03669](https://arxiv.org/abs/1906.03669))
+
+Further in relation to a [[holographic principle]]:
+
+* Taishi Kawamoto: *A Strategy for Proving the Strong Eigenstate Thermalization Hypothesis: Chaotic Systems and Holography* &lbrack;[arXiv:2411.09746](https://arxiv.org/abs/2411.09746)&rbrack;
+
 
 
