@@ -27,6 +27,9 @@ and relating to [[particle statistics]] ([[parastatistics]]) in view of [[causal
 * [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Local observables and particle statistics I*, Commun.Math. Phys. **35** (1974) 49–85 &lbrack;[doi:10.1007/BF01646454](https://doi.org/10.1007/BF01646454)&rbrack;
 
 
+* [[Sergio Doplicher]]: *The statistics of particles in local quantum theories*, in: *International Symposium on Mathematical Problems in Theoretical Physics*, Lecture Notes in Physics **39** (1975) 264-273 &lbrack;[doi:10.1007/BFb0013339](https://doi.org/10.1007/BFb0013339), [inSpire:105411](https://inspirehep.net/literature/105411),  [pdf](https://inspirehep.net/files/a1303bb4c674e0b8271e22aa7b77729d)&rbrack;
+
+
 
 ## Related entries
 
