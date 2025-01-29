@@ -57,6 +57,8 @@ The [[trajectory]] of an [[electron]] in the vicinity of a [[magnetic monopole]]
 
 ## References
 
+### General
+
 Textbook accounts:
 
 * {#Ferraro54} V. C. A. Ferraro, §137 in: *Electromagnetic Theory*, The Athlone Press (1954, 1956)
@@ -79,7 +81,10 @@ See also:
 
 * [[Tai Tsun Wu]], [[Chen Ning Yang]], _Dirac's monopole without strings: Classical Lagrangian theory_, Phys. Rev. D 14, 437 (1976), <https://doi.org/10.1103/PhysRevD.14.437>
 
-Instead of removing the singular locus of the monopole from spacetime (so that [[Maxwell's equations]] without magnetic sources are satisfied on the [[complement]]) one may retain the monopole locus and change the model of the [[electromagnetic field]] from a [[connection on a bundle|connection]] on a [[circle group|U(1)]]-[[principal bundle]] to a suitable *trivialization* of a [[circle 2-bundle with connection]] (a "[[bundle gerbe]]" [[connection on a bundle gerbe|with connection]]):
+### Via differential 3-cohomology
+ {#ReferencesViaDiff3Cohomology}
+
+Instead of removing the singular locus of the monopole from spacetime (so that [[Maxwell's equations]] without magnetic sources are satisfied on the [[complement]]) one may retain the monopole locus and change the model of the [[electromagnetic field]] from a [[connection on a bundle|connection]] on a [[circle group|U(1)]]-[[principal bundle]] to a suitable *trivialization* of a [[circle 2-bundle with connection]] (a "[[bundle gerbe]]" [[connection on a bundle gerbe|with connection]]) whose [[curvature]] 3-form is the magnetic [[current density]] (the magnetic "source" term):
 
 * [Brylinski 1993, §7.2](#Brylinski93)
 
