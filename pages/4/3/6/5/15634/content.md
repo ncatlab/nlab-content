@@ -118,17 +118,27 @@ More in detail, for such 1-dimensional braid representations one speaks of *abel
 
 ## References
 
+### General
+
 See also:
 
 * Wikipedia: *[Particle statistics](https://en.wikipedia.org/wiki/Particle_statistics)*
 
 
+### Via AQFT
 
-Discussion in [[AQFT]] in view of [[causal locality]]:
+Discussion via [[algebraic quantum field theory]] and in view of [[causal locality]] and [[DHR superselection theory]]:
 
 * [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Local observables and particle statistics I*, Commun.Math. Phys. **23** (1971) 199–230 &lbrack;[doi:10.1007/BF01877742](https://doi.org/10.1007/BF01877742), [euclid:cmp/1103857630](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-23/issue-3/Local-observables-and-particle-statistics-I/cmp/1103857630.full)&rbrack;
 
 * [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Local observables and particle statistics I*, Commun.Math. Phys. **35** (1974) 49–85 &lbrack;[doi:10.1007/BF01646454](https://doi.org/10.1007/BF01646454)&rbrack;
+
+Review and further discussion:
+
+* [[Sergio Doplicher]]: *The statistics of particles in local quantum theories*, in: *International Symposium on Mathematical Problems in Theoretical Physics*, Lecture Notes in Physics **39** (1975) 264-273 &lbrack;[doi:10.1007/BFb0013339](https://doi.org/10.1007/BFb0013339), [inSpire:105411](https://inspirehep.net/literature/105411),  [pdf](https://inspirehep.net/files/a1303bb4c674e0b8271e22aa7b77729d)&rbrack;
+
+* [[Hans Halvorson]]: *Statistics, permutation symmetry, and identical particles*, Section 11.4 in: *Algebraic Quantum Field Theory*, in *Philosophy of Physics*, Handbook of the Philosophy of Science (2007) 731-864 &lbrack;[doi:10.1016/B978-044451560-5/50011-7](https://doi.org/10.1016/B978-044451560-5/50011-7), [arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)&rbrack;
+
 
 
 category: physics 
