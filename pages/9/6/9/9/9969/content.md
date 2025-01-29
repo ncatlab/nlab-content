@@ -1,12 +1,38 @@
 
+\begin{imagefromfile}
+    "file_name": "CNYang-Portrait.png",
+    "float": "right",
+    "width": 200,
+    "unit": "px",
+    "margin": {
+        "top": -90,
+        "bottom": 20,
+        "right": 0, 
+        "left": 20
+    },
+    "caption": "(from [U Chicago Photo Archive](https://photoarchive.lib.uchicago.edu/db.xqy?show=browse8.xml|205))"
+\end{imagefromfile}
+
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Chen_Ning_Yang)
+
+* [IAS page](https://www.ias.edu/scholars/chen-ning-yang)
+
+* [inSpire page](https://inspirehep.net/authors/982820)
+
+* [GooglScholar page](https://scholar.google.com/citations?user=vuJL4QwAAAAJ&hl=en)
+
+* Lizhen Ji, Liping Wang: *The Living Record of Scientific History -- Conversations with CN Yang*, World Scientific (2025) &lbrack;[doi:10.1142/13641](https://doi.org/10.1142/13641)&rbrack;
+
+  pp 1-62: *The First Interview* &lbrack;[doi:10.1142/9789811284946_0001](https://doi.org/10.1142/9789811284946_0001), [pdf](https://www.worldscientific.com/doi/reader/10.1142/9789811284946_0001)&rbrack;
+
 
 ## Selected writings
 
 
-Introducing [[Yang-Mills theory]] (eventually: [[quantum chromodynamics]]):
+Introducing [[Yang-Mills theory]] ([[non-abelian group|non-abelian]] [[gauge theory]] and eventually: [[quantum chromodynamics]]):
 
-* [[Chen Ning Yang]], [[Robert Mills]], _Conservation of Isotopic Spin and Isotopic Gauge Invariance_. Physical Review 96 (1): 191&#8211; 195. (1954) ([web](http://prola.aps.org/abstract/PR/v96/i1/p191_1))
+* [[Chen Ning Yang]], [[Robert Mills]], _Conservation of Isotopic Spin and Isotopic Gauge Invariance_. Physical Review **96** 1 191-195 (1954) &lbrack;[web](http://prola.aps.org/abstract/PR/v96/i1/p191_1)&rbrack;
 
 On the [[braid group]], [[knot theory]] and [[braid representations]] via the [[quantum Yang-Baxter equation]]:
 
