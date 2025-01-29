@@ -184,6 +184,11 @@ Note that the product of equivalenc classes is well defined, and $\hat \rho_1 \h
 
 The DHR superselection theory has a reformulation in terms of [[cohomology of local net of observables|cohomology of local nets of observables]]. For the moment, see there for more.
 
+## Related entries
+
+* [[Doplicher-Roberts reconstruction theorem]]
+
+
 ## References ##
 
 see [[AQFT]] ff.
