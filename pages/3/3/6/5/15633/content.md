@@ -23,6 +23,7 @@ Parastatistics is an exotic kind of [[particle statistics]] where [[permutations
 
 In generality of its transformation properties, parastatistics is in-between ordinary [[boson]]/[[fermion]]-[[particle statistics|statistics]] and the yet more general [[braid group statistics]]. But while [[braid group statistics]] is usually associated only with particles ("[[anyons]]") that are restricted to an effectively 2-[[dimension of a manifold|dimensional]] [[surface]], parastatistics -- to the extent that it applies at all -- is thought to apply in principle in any dimension. (Concretely for $d = 3$ see [Freedman, Hastings, Nayak, Qi, Walker & Wang 2011](#FreedmanHastingsNayakQiWalkerWang11))
 
+
 ## Related concepts
 
 * [[bosons]], [[fermions]]
@@ -33,13 +34,19 @@ In generality of its transformation properties, parastatistics is in-between ord
 
 ## References
 
-The original notion is attributed to:
+The original notion:
 
-* H. S. Green: *A generalized method of field quantization*,  Phys. Rev. **90** (1953) 270-273 &lbrack;[doi:10.1103/PhysRev.90.270](https://doi.org/10.1103/PhysRev.90.270)&rbrack;
-
-Further early discussion:
+* {#Green53} H. S. Green: *A generalized method of field quantization*,  Phys. Rev. **90** (1953) 270-273 &lbrack;[doi:10.1103/PhysRev.90.270](https://doi.org/10.1103/PhysRev.90.270)&rbrack;
 
 * O. W. Greenberg, A. M. L. Messiah: *Selection Rules for Parafields and the Absence of Para Particles in Nature*, Phys. Rev. **138** (1965) B1155 &lbrack;[doi:10.1103/PhysRev.138.B1155](https://doi.org/10.1103/PhysRev.138.B1155)&rbrack;
+
+Proof that the triple-bracket algebra of [Green 1953](#Green53) ---  for $m$ parafermionic and $n$ parabosonic degrees of freedom --- is [[isomorphism|isomorphic]] to the [[orthosymplectic super Lie algebra]] $\mathfrak{osp}_{1 + 2m\vert 2n}$: 
+
+* Tchavdar D. Palev: *Para‐Bose and para‐Fermi operators as generators of orthosymplectic Lie superalgebras*, J. Math. Phys. **23** (1982) 1100–1102 &lbrack;[doi:10.1063/1.525474](https://doi.org/10.1063/1.525474)&rbrack;
+
+The relation of this to [[representation theory of the symmetric group]] is discussed by 
+
+* [[Jean-Louis Loday]], Todor Popov: *Parastatistics algebra and super semistandard Young tableaux*, in: V.K. Dobrev et al. (eds.), *Lie Theory and Its Applications in Physics VII*, Heron Press, Sofia (2008) &lbrack;[arXiv:0711.3648](https://arxiv.org/abs/0711.3648), [pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/2008LodayPopov&28Parastat%29.pdf)&rbrack;
 
 
 Review:
@@ -84,8 +91,6 @@ See also:
 * Wikipedia: *[Klein transformation](http://en.wikipedia.org/wiki/Klein_transformation)*
 
 
-
-
 * Fred Cooper, Avinash Khare, Uday Sukhatme: _Parasupersymmetry in quantum mechanics_, J. Math. Phys. **34** (1993) 1277–1294 &lbrack;[doi:10.1063/1.530209](https://doi.org/10.1063/1.530209)&rbrack;
   > (para-[[supersymmetric quantum mechanics]])
 
@@ -94,8 +99,6 @@ See also:
 > If we could "turn off" all interactions in the universe which couple to spin, then different spin states would be in principle indistinguishable (although still not identical), and the particles would obey parastatistics at the fundamental level. We can play the same game with color, isospin and numerous other internal degrees freedom. (Indeed, the parastatistical treatment of quarks [3] predates the introduction of color [4].)
 
 * Weimin Yang, Sicong Jing, _Graded Lie algebra generating of parastatistical algebraic atructure [math-ph/0212009](arxiv.org/pdf/math-ph/0212009)
-
-* [[Jean-Louis Loday]], Todor Popov: _Parastatistics algebra and super semistandard Young tableaux_, Lie Theory and Its Applications in Physics VII, ed. V.K. Dobrev et al, Heron Press, Sofia (2008) &lbrack;[pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/2008LodayPopov&28Parastat%29.pdf)&rbrack;
 
 * Zhiyuan Wang: *Parastatistics and a secret communication challenge* &lbrack;[arXiv:2412.13360](https://arxiv.org/abs/2412.13360)&rbrack;
 
