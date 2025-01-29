@@ -29,6 +29,8 @@ Beware that there are non-isomorphic finite groups whose [[categories of represe
 
 ## Related concepts
 
+* [[DHR superselection theory]]
+
 * [[Deligne's theorem on tensor categories]]
 
 * [[Wigner classification]]
@@ -42,11 +44,11 @@ Beware that there are non-isomorphic finite groups whose [[categories of represe
 
 Original statement and proof in the context of [[AQFT]]:
 
-* {#DoplicherRoberts89} [[Sergio Doplicher]], [[John Roberts]], _A new duality theory for compact groups_, Inventiones mathematicae 98.1 (1989): 157-218. ([available here](https://eudml.org/doc/143725))
+* {#DoplicherRoberts89} [[Sergio Doplicher]], [[John Roberts]], _A new duality theory for compact groups_, Inventiones mathematicae **98** 1 (1989) 157-218 &lbrack;[dml:143725](https://eudml.org/doc/143725)&rbrack;
 
 Generalization to supergroups and streamlined proof:
 
-* {#Mueger06} [[Michael Müger]], _Abstract duality theory for symmetric tensor $\ast$-categories_ appendix ([pdf](http://www.math.ru.nl/~mueger/PDF/16.pdf)), in [[Hans Halvorson]],  _Algebraic quantum field theory_ ([arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)), in J. Butterfield & J. Earman (eds.) _Handbook of Philosophy and Physics_ 
+* {#Mueger06} [[Michael Müger]]: *Abstract duality theory for symmetric tensor $ast$-categories* ([pdf](https://www.math.ru.nl/~mueger/PDF/16.pdf)), appendix to: [[Hans Halvorson]], *Algebraic Quantum Field Theory*, in *Philosophy of Physics*, Handbook of the Philosophy of Science (2007) 731-864 &lbrack;[doi:10.1016/B978-044451560-5/50011-7](https://doi.org/10.1016/B978-044451560-5/50011-7), [arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)&rbrack;
 
 Review:
 
