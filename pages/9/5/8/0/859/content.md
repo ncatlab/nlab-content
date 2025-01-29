@@ -179,12 +179,11 @@ Lecture notes include
 
 * Patrick Morandi, _Semidirect products_ ([pdf](http://sierra.nmsu.edu/morandi/notes/semidirect.pdf))
 
-Relevant textbooks include
+See also:
 
 * [[R. Brown]], _Topology and groupoids_, Booksurge 2006.
 
-* [[P. J. Higgins]] and J. Taylor,  _The Fundamental Groupoid and Homotopy Crossed Complex of an Orbit Space_, in K.H. Kamps et al., ed., Category Theory: Proceedings Gummersbach 1981, Springer LNM
-  962  (1982) 115--122.
+* [[P. J. Higgins]] and J. Taylor,  _The Fundamental Groupoid and Homotopy Crossed Complex of an Orbit Space_, in K.H. Kamps et al., ed., Category Theory: Proceedings Gummersbach 1981, Springer LNM 962  (1982) 115--122.
 
 
 
