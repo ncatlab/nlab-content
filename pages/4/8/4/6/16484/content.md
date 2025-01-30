@@ -61,7 +61,7 @@ categories. Noetherian and artinian categories. Locally noetherian categories. N
 
 ## Duality
 
-Linearly compact subcategories. Topologically linearly compact rings. The duality theorem for Grothendieck categories. Duality theory for l.n.- and l.f.-categories. Colocalization.
+Linearly compact subcategories. Topologically linearly compact rings. The duality theorem for Grothendieck categories. Duality theory for l.n.- and l.f.-categories. [[colocalization|Colocalization]].
 
 ## Bibliography
 
