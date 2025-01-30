@@ -38,7 +38,11 @@ At present there are several classes of higher spin theories that evade the no-g
 
 Original articles:
 
-* {#Vasiliev96} [[Mikhail Vasiliev]], _Higher-Spin Gauge Theories in Four, Three and Two Dimensions_ ([arXiv:hep-th/9611024](http://arxiv.org/abs/hep-th/9611024))
+* {#Vasiliev88} [[Mikhail Vasiliev]]: *Equations of motion of interacting massless fields of all spins as a free differential algebra*, Physics Letters B **209** 4 (1988) 491-497 \[<a href="https://doi.org/10.1016/0370-2693(88)91179-3">doi:10.1016/0370-2693(88)91179-3</a>, [spire:269051](https://inspirehep.net/literature/269051)\]
+
+* {#Vasiliev89} [[Mikhail Vasiliev]]: *Consistent equations for interacting massless fields of all spins in the first order in curvatures*, Annals of Physics **190** 1 (1989) 59-106 \[<a href="https://doi.org/10.1016/0003-4916(89)90261-3">doi:10.1016/0003-4916(89)90261-3</a>\]
+
+* {#Vasiliev96} [[Mikhail Vasiliev]]: *Higher-Spin Gauge Theories in Four, Three and Two Dimensions*, Int. J. Mod. Phys. D **5** (1996) 763-797 \[<a href="https://doi.org/10.1142/S0218271896000473">doi:10.1142/S0218271896000473</a>, [arXiv:hep-th/9611024](http://arxiv.org/abs/hep-th/9611024)]
 
 Reviews and lecture notes:
 
@@ -67,6 +71,16 @@ Reviews and lecture notes:
 Further developments:
 
 * Johan Engquist, Olaf Hohm, _Geometry and dynamics of higher-spin frame fields_ ([arXiv:0708.1391](http://arxiv.org/abs/0708.1391))
+
+### Unfolded dynamics and $L_\infty$-algebras
+
+Making more explicit the relation of higher spin gauge theory to [[Chevalley-Eilenberg algebras]] (physics jargon: "FDA"s) of [[L-infinity algebras|$L_\infty$-algebras]] -- under the name *unfolded formalism*:
+
+* [[Nicolas Boulanger]], Carlo Iazeolla, [[Per Sundell]]: *Unfolding Mixed-Symmetry Fields in AdS and the BMV Conjecture: I. General Formalism*, J. High Energy Physics **2009** JHEP07 (2009) \[<a href="https://doi.org/10.1088/1126-6708/2009/07/013">doi:10.1088/1126-6708/2009/07/013</a>, [arXiv:0812.3615](https://arxiv.org/abs/0812.3615)\]
+
+* [[Xavier Bekaert]], S. Cnockaert, [[Carlo Iazeolla]], [[Mikhail A. Vasiliev]]: *Nonlinear higher spin theories in various dimensions*, in *Higher spin gauge theories: Proceedings, 1st Solvay Workshop: Brussels, Belgium, 12-14 May, 2004*  \[<a href="https://arxiv.org/abs/hep-th/0503128">arXiv:hep-th/0503128</a>, [inSpire](https://inspirehep.net/literature/678495)\]
+
+
 
 ### Concrete higher spin gravities
 
