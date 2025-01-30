@@ -57,7 +57,7 @@ The following lists, mainly in chronological order of their discovery, [[L-∞ a
 For more see also at _[[higher category theory and physics]]_.
 
 
-#### In supergravity
+#### In supergravity and higher spin theory
 
 Implicitly, in their equivalent [[formal dual]] guise of [[Chevalley-Eilenberg algebras]] (see [above](#ReformulationInTermsOfSemifreeDGAlgebra)), $L_\infty$-algebras of [[finite type]] -- in fact [[super L-∞ algebras]] -- play a pivotal role in the [[D'Auria-Fré formulation of supergravity]] at least since 
 
@@ -71,10 +71,16 @@ Implicitly, in their equivalent [[formal dual]] guise of [[Chevalley-Eilenberg a
 
 * [[Leonardo Castellani]], §6 in: *Supergravity in the group-geometric framework: a primer*, Fortschr. Phys. **66** 4 (2018) \[<a href="https://doi.org/10.1002/prop.201800014">doi:10.1002/prop.201800014</a>, [arXiv:1802.03407](https://arxiv.org/abs/1802.03407)\]
 
-
 where they are called "free differential algebras" ("FDA"s, apparently following [can Nieuwenhuizen 1982](D'Auria-Fre+formulation+of+supergravity#Nieuwenhuizen82)), which is a misnomer for what in mathematics are called [[semifree dga]]s (since it is only the [[underlying]] [[graded-commutative algebra]] that is required to be free, the [[differential]] is crucially *not* free in general, otherwise one has just a [[Weil algebra]]).
 
-The translation of [[D'Auria-Fré formulation of supergravity|D'Auria-Fré formalism]] ("FDA"s) to explicit ([[super L-∞ algebra|super]]) $L_\infty$-algebra language was made in:
+
+Essentially the same idea goes back, maybe independently, to the [[higher spin gauge theory]] of [Vasiliev 1988](higher+spin+gauge+theory#Vasiliev88), [1989](higher+spin+gauge+theory#Vasiliev89), and there came to be known as the **unfolded formalism**:
+
+* [[Nicolas Boulanger]], Carlo Iazeolla, [[Per Sundell]]: *Unfolding Mixed-Symmetry Fields in AdS and the BMV Conjecture: I. General Formalism*, J. High Energy Physics **2009** JHEP07 (2009) \[<a href="https://doi.org/10.1088/1126-6708/2009/07/013">doi:10.1088/1126-6708/2009/07/013</a>, [arXiv:0812.3615](https://arxiv.org/abs/0812.3615)\]
+
+* [[Xavier Bekaert]], S. Cnockaert, [[Carlo Iazeolla]], [[Mikhail A. Vasiliev]]: *Free differential algebras and unfolded dynamics*, section 6 in: *Nonlinear higher spin theories in various dimensions*, in *Higher spin gauge theories: Proceedings, 1st Solvay Workshop: Brussels, Belgium, 12-14 May, 2004*  \[<a href="https://arxiv.org/abs/hep-th/0503128">arXiv:hep-th/0503128</a>, [inSpire](https://inspirehep.net/literature/678495)\]
+
+The translation of [[D'Auria-Fré formulation of supergravity|D'Auria-Fré formalism]] ("FDA"s) to explicit ([[super L-∞ algebra|super]]) $L_\infty$-algebra language was first made in:
 
 * [[Urs Schreiber]], *[SuGra 3-Connection Reloaded](https://golem.ph.utexas.edu/category/2006/08/sugra_3connection_reloaded.html)* (2006)
 
@@ -94,7 +100,8 @@ Further exposition and review of the (dual) identification of supergravity "FDAs
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:The rational higher structure of M-theory|The rational higher structure of M-theory]]*, in *[[Higher Structures in M-Theory 2018]]*, Fortschr. der Physik **67** 8-9 (2019) 1910017 \[<a href="https://arxiv.org/abs/1903.02834">arXiv:1903.02834</a>, <a href="https://doi.org/10.1002/prop.201910017">doi:10.1002/prop.201910017</a>\]
 
-Notice that there is a _different_ concept of "Filipov [[n-Lie algebra]]" suggested by [Bagger& Lambert 2006](BLG+model#BaggerLambert06) to play a role in the description of the [[conformal field theory]] in the [[near horizon limit]] of [[black p-branes]], notably the [[BLG model]] for the conformal [[worldvolume]] theory on the [[M2-brane]] .
+
+Beware that there is a _different_ concept of "Filipov [[n-Lie algebra]]" suggested by [Bagger& Lambert 2006](BLG+model#BaggerLambert06) to play a role in the description of the [[conformal field theory]] in the [[near horizon limit]] of [[black p-branes]], notably the [[BLG model]] for the conformal [[worldvolume]] theory on the [[M2-brane]] .
 
 A realization of these "Filippov $3$-Lie algebras" as 2-term $L_\infty$-algebras ([[Lie 2-algebras]]) equipped with a binary [[invariant polynomial]] ("metric Lie 2-algebras") is in:
 
