@@ -227,7 +227,7 @@ So with $A_\bullet \in Ab^{(\mathbb{N}, \geq)}$, let $A_n \hookrightarrow \tilde
 $$
   A_\bullet 
     \overset{(\eta_n)_{n \in \mathbb{N}}}{\longrightarrow}
-  \underset{n \in \mathbb{R}}{\prod}
+  \underset{n \in \mathbb{N}}{\prod}
   r_n A_n
   \hookrightarrow
   \underset{n \in \mathbb{N}}{\prod} r_n \tilde A_n
