@@ -405,8 +405,6 @@ Further discussion:
 
 * [[Dale Husemöller]], _Fibre bundles_ , McGraw-Hill  (1966)
 
-* myyn.org [Thom space](http://myyn.org/m/article/thom-space), [Thom class](http://myyn.org/m/article/thom-class), [Thom isomorphism theorem](http://myyn.org/m/article/thom-isomorphism-theorem)
-
 See also
 
 * [[Robert Stong]], _Notes on cobordism theory_ , Princeton Univ. Press  (1968)
