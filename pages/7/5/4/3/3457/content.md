@@ -60,6 +60,9 @@ Toby: Is it correct now?
 
 * [[finite étale morphism of anabelioids]]
 
+### Between presheaves
+Due to ([Joyal-Moerdijk 1994](#JoyalMoerdijk)): an étale map of presheaves is one which is [[cartesian natural transformation|cartesian]] *qua* natural transformation.
+
 ## Axiomatization
 
 The idea of _&#233;tale morphisms_ can be axiomatized in any [[topos]]. This idea goes back to lectures by [[André Joyal]] in the 1970s. See ([Joyal-Moerdijk 1994](#JoyalMoerdijk)) and ([Dubuc 2000](#Dubuc)).
