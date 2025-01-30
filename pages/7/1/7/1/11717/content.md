@@ -36,7 +36,7 @@ then further in
 
 * {#Hull01} [[Chris Hull]], _Duality in Gravity and Higher Spin Gauge Fields_, JHEP 0109:027, 2001 ([arXiv:hep-th/0107149](http://arxiv.org/abs/hep-th/0107149))
 
-* {#BekaertBoulangerHenneaux02} [[Xavier Bekaert]], Nicolas Boulanger, [[Marc Henneaux]], _Consistent deformations of dual formulations of linearized gravity: A no-go result_, Phys. Rev. D67 (2003) 044010 ([arXiv:hep-th/0210278](http://arxiv.org/abs/hep-th/0210278))
+* {#BekaertBoulangerHenneaux02} [[Xavier Bekaert]], [[Nicolas Boulanger]], [[Marc Henneaux]]: *Consistent deformations of dual formulations of linearized gravity: A no-go result*, Phys. Rev. D **67** (2003) 044010 &lbrack;[arXiv:hep-th/0210278](http://arxiv.org/abs/hep-th/0210278), [doi:10.1103/PhysRevD.67.044010](https://doi.org/10.1103/PhysRevD.67.044010)&rbrack;
 
 * {#deWitNicolai13} [[Bernard de Wit]], [[Hermann Nicolai]], _Deformations of gauged SO(8) supergravity and supergravity in eleven dimensions_ ([arXiv:1302.6219](http://arxiv.org/abs/1302.6219))
 
@@ -58,7 +58,7 @@ Discussion in terms of [[E11|$E_{11}$]] [[U-duality]]:
 * Keith Glennon, [[Peter West]],
 _Gravity, Dual Gravity and $A_1^{+++}$_ ([arXiv:2004.03363](https://arxiv.org/abs/2004.03363))
 
-* Nicolas Boulanger, [[Paul P. Cook]], Josh A. O'Connor, [[Peter West]], *Higher dualisations of linearised gravity and the $A_1^{+++}$ algebra* &lbrack;[arXiv:2208.11501](https://arxiv.org/abs/2208.11501)&rbrack
+* Nicolas Boulanger, [[Paul P. Cook]], Josh A. O'Connor, [[Peter West]], *Higher dualisations of linearised gravity and the $A_1^{+++}$ algebra* &lbrack;[arXiv:2208.11501](https://arxiv.org/abs/2208.11501)&rbrack;
 
 
 
