@@ -44,9 +44,9 @@ is the [[σ-ideal]] of measurable sets with $\mu$-measure 0, also known as __$\m
 Requiring a measurable space to be equipped with a specific choice of a measure forces us to make noncanonical choices that may be unnecessary.
 
 Many constructions and theorems in [[measure theory]]
-do not require a specific choice of a measure but merely require us to know which measurable sets have measure 0.  Examples include the [[Riesz representation theorem]], the [[Radon–Nikodym theorem]], or (less obviously) the construction of [[L^p-spaces]].  For the latter, observe that $L^1(X,M,\mu)$ is canonically isomorphic to the vector space of finite measures on $(X,M,N_\mu)$ via the [[Radon–Nikodym theorem]]; by taking $1/p$-th powers, we can give a similar definition for general [[L^p-spaces]].
+do not require a specific choice of a measure but merely require us to know which measurable sets have measure 0.  Examples include the [[Riesz representation theorem]], the [[Radon–Nikodym theorem]], or (less obviously) the construction of [[L^p-spaces]].  For the latter, observe that $L^1(X,M,\mu)$ is canonically isomorphic to the vector space of finite measures on $(X,M)$ that vanish on $N_\mu$ via the [[Radon–Nikodym theorem]]; by taking $1/p$-th powers, we can give a similar definition for general [[L^p-spaces]].
 
-There are plenty of examples of situations where we do have a canonical choice of a [[σ-ideal]] of negligible sets even though we do not have a canonical measure.
+Often, we do have a canonical choice of a [[σ-ideal]] of negligible sets even though we do not have a canonical measure.
 
 For example, a subset of a [[smooth manifold]] is negligible if its preimage in any chart is a Lebesgue-negligible subset of $\mathbf{R}^n$.
 
@@ -89,6 +89,7 @@ given that having a decent supply of measures is a prerequisite for developing m
 This property follows automatically from the strict localizability property introduced below.
 
 An enhanced measurable space $(X,M,N)$ is __σ-finite__ if it admits a faithful finite measure $\mu\colon M\to[0,1]$.
+An element $m\in M$ is __σ-finite__ if the induced enhanced measurable space $(m,M\cap 2^m,N\cap 2^m)$ is σ-finite.
 An enhanced measurable space $(X,M,N)$ is __locally determined__ if for every $a\subset X$ the following two properties hold.
 
 * If for every σ-finite $m\in M$ we have $a\cap m\in M$, then also $a\in M$.
