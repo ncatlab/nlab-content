@@ -53,6 +53,12 @@ On a 1d [[sigma-model]] on a [[coset space]] of the [[E10]] [[U-duality]]-[[grou
   > (relation to [[massive type IIA string theory]])
 
 
+On the [[dual graviton]]:
+
+* {#BekaertBoulangerHenneaux02} [[Xavier Bekaert]], [[Nicolas Boulanger]], [[Marc Henneaux]]: *Consistent deformations of dual formulations of linearized gravity: A no-go result*, Phys. Rev. D **67** (2003) 044010 &lbrack;[arXiv:hep-th/0210278](http://arxiv.org/abs/hep-th/0210278), [doi:10.1103/PhysRevD.67.044010](https://doi.org/10.1103/PhysRevD.67.044010)&rbrack;
+
+
+
 On [[U-duality]]-symmetry and fermionic representations of its [[maximal compact subalgebras]] (in particular for that of [[E10]]):
 
 * {#deBuylHenneauxPaulot05} Sophie de Buyl, [[Marc Henneaux]], Louis Paulot: *Hidden Symmetries and Dirac Fermions*, Class. Quant. Grav. **22** (2005) 3595-3622 &lbrack;[arXiv:hep-th/0506009](https://arxiv.org/abs/hep-th/0506009), [doi:10.1088/0264-9381/22/17/018](https://doi.org/10.1088/0264-9381/22/17/018)&rbrack;
