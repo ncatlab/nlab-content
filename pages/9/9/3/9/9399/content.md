@@ -12,8 +12,6 @@
 =--
 =--
 
-# Cartesian natural transformation
-
 * table of contents
 {: toc}
 
