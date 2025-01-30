@@ -91,8 +91,7 @@ and later in
 
 See also 
 
-* [[Christian Bär]], _Real Killing spinors and holonomy_, Comm. Math. Phys.
-Volume 154, Number 3 (1993), 509-521 ([Euclid](https://projecteuclid.org/euclid.cmp/1104253076))
+* [[Christian Bär]], _Real Killing spinors and holonomy_, Comm. Math. Phys. **154** 3 (1993) 509-521 &lbrack;[Euclid](https://projecteuclid.org/euclid.cmp/1104253076)&rbrack;
 
 
 Discussion regarding the conceptualization of Killing spinors in [[super-Cartan geometry]] is in
