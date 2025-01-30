@@ -30,15 +30,15 @@ Every [[triangulated category]] which is well generated in the sense of [[Amnon 
 
 ## References
 
-The original article:
+The original article (beware the alternative spelling of the first author's name):
 
-* {#PopescoGabriel64} [[Nicolae Popescu]], [[Pierre Gabriel]]: _Caract&#233;risation des cat&#233;gories ab&#233;liennes avec g&#233;n&#233;rateurs et limites inductives exactes_, Les Comptes rendus de l'Acad&#233;mie des sciences Paris __258__ (1964) 4188-4190 &lbrack;[MR 0166241](http://www.ams.org/mathscinet-getitem?mr=0166241) [BnF](https://gallica.bnf.fr/ark:/12148/bpt6k4011c/f1826.item)&rbrack;
+* {#PopescoGabriel64} [[Nicolae Popescu|Nicolae Popesco]], [[Pierre Gabriel]]: _Caract&#233;risation des cat&#233;gories ab&#233;liennes avec g&#233;n&#233;rateurs et limites inductives exactes_, Les Comptes rendus de l'Acad&#233;mie des sciences Paris __258__ (1964) 4188-4190 &lbrack;[BnF](https://gallica.bnf.fr/ark:/12148/bpt6k4011c/f1826.item), [MR 0166241](http://www.ams.org/mathscinet-getitem?mr=0166241)&rbrack;
 
 Other accounts:
 
-* [[Mitsuhiro Takeuchi]]: _A simple proof of Gabriel and Popesco’s theorem_, J. Alg. **18** (1971)  112-113 (1971) &lbrack;[pdf](https://core.ac.uk/download/pdf/82301148.pdf)&rbrack;
+* [[Mitsuhiro Takeuchi]]: _A simple proof of Gabriel and Popesco’s theorem_, J. Alg. **18** (1971)  112-113 (1971) &lbrack;<a href="https://doi.org/10.1016/0021-8693(71)90130-X">doi:10.1016/0021-8693(71)90130-X</a>&rbrack;
 
-* [[Nicolae Popescu]]: *Abelian categories with applications to rings and modules*, London Math. Soc. Monographs **3**, Academic Press (1973) &lbrack;[MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)&rbrack;
+* [[Nicolae Popescu]]: *[[Abelian categories with applications to rings and modules]]*, London Math. Soc. Monographs **3**, Academic Press (1973) &lbrack;[MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)&rbrack;
 
 * [[Barry Mitchell]]: *A quick proof of the Gabriel-Popesco theorem*, Journal of Pure and Applied Algebra
 **20** 3 (1981) 313-315 &lbrack;<a href="https://doi.org/10.1016/0022-4049(81)90065-7">doi:10.1016/0022-4049(81)90065-7</a>&rbrack;
