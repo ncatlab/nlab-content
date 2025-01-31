@@ -278,6 +278,12 @@ and
 
 * [[cohesive site]], **∞-cohesive site**
 
+## References
+
+* [[Urs Schreiber]]: §3.4.2.1 in: *[[schreiber:dcct|Differential cohomology in a cohesive $\infty$-topos]]* &lbrack;[arXiv:1310.7930](https://arxiv.org/abs/1310.7930)&rbrack;
+
+
+
 
 [[!redirects ∞-cohesive site]]
 [[!redirects ∞-cohesive sites]]
