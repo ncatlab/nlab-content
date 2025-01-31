@@ -87,6 +87,8 @@ $$\frac{\Xi \vert \Gamma, x:\flat A \vdash C \; \mathrm{type} \quad \Xi \vert ()
 
 * [[homotopy type theory]] is trivially a spatial type theory where every type is [[discrete]]
 
+* Some versions of [[simplicial type theory]] are a spatial type theory with an [[op modality]] and a [[twisted arrows modality]]. 
+
 A [[cohesive homotopy type theory]] is a spatial homotopy type theory which additionally has an [[axiom of cohesion]] and a [[shape modality]]. Examples of this include
 
 * [[real-cohesive homotopy type theory]]
@@ -102,6 +104,8 @@ A [[cohesive homotopy type theory]] is a spatial homotopy type theory which addi
 ## References
 
 * [[David Corfield]], *Modal Homotopy Type Theory*, ... [reference to be completed]
+
+* {#GWB25} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The Yoneda embedding in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
 
 A formal presentation of spatial type theory is found in 
 
