@@ -47,6 +47,7 @@ is a [[contractible type]], where $\Delta^2$ is the $2$-simplex probe shape and 
 * [[isomorphism in a Segal type]]
 * [[Segal space]]
 * [[op modality]]
+* [[twisted arrow modality]]
 
 ## References
 
