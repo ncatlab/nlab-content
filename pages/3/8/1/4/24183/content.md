@@ -8,43 +8,43 @@ In [[condensed matter theory]] it is [[folklore]] that species of [[anyon|anyoni
 
 The origin of the claim is:
 
-* {#Kitaev06} [[Alexei Kitaev]], Section 8 and Appendix E of: *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 $[$[doi:10.1016/j.aop.2005.10.005](https://doi.org/10.1016/j.aop.2005.10.005)$]$
+* {#Kitaev06} [[Alexei Kitaev]], Section 8 and Appendix E of: *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 \[<a href="https://doi.org/10.1016/j.aop.2005.10.005">doi:10.1016/j.aop.2005.10.005</a>\]
 
 Early accounts re-stating this claim (without attribution):
 
-* [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], pp. 28 of: *Non-Abelian Anyons and Topological Quantum Computation*, Rev. Mod. Phys. **80** 1083 (2008) $[$[arXiv:0707.1888] (http://arxiv.org/abs/0707.1889), [doi:10.1103/RevModPhys.80.1083](https://doi.org/10.1103/RevModPhys.80.1083)$]$
+* [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], pp. 28 of: *Non-Abelian Anyons and Topological Quantum Computation*, Rev. Mod. Phys. **80** 1083 (2008) \[<a href="https://doi.org/10.1103/RevModPhys.80.1083">doi:10.1103/RevModPhys.80.1083</a>, [arXiv:0707.1888] (http://arxiv.org/abs/0707.1889)\]
 
-* [[Zhenghan Wang]], Section 6.3 of: *Topological Quantum Computation*, CBMS Regional Conference Series in Mathematics **112**, AMS (2010) $[$[ISBN-13: 978-0-8218-4930-9](http://www.ams.org/publications/authors/books/postpub/cbms-112), [pdf](http://web.math.ucsb.edu/~zhenghwa/data/course/cbms.pdf)$]$
+* [[Zhenghan Wang]], Section 6.3 of: *Topological Quantum Computation*, CBMS Regional Conference Series in Mathematics **112**, AMS (2010) \[<a href="http://www.ams.org/publications/authors/books/postpub/cbms-112">ISBN-13: 978-0-8218-4930-9]</a<, [pdf](http://web.math.ucsb.edu/~zhenghwa/data/course/cbms.pdf)\]
 
 Further discussion (mostly review and mostly without attribution):
 
-* [[Simon Burton]], *A Short Guide to Anyons and Modular Functors* $[$[arXiv:1610.05384](https://arxiv.org/abs/1610.05384)$]$
+* [[Simon Burton]], *A Short Guide to Anyons and Modular Functors* \[<a href="https://arxiv.org/abs/1610.05384">arXiv:1610.05384</a>\]
 
   > (this one stands out as still attributing the claim to [Kitaev (2006), Appendix E](#Kitaev06))
 
 
 * {#RowellWang18} [[Eric C. Rowell]], [[Zhenghan Wang]], _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
-* [[Tian Lan]], *A Classification of (2+1)D Topological Phases with Symmetries* $[$[arXiv:1801.01210](https://arxiv.org/abs/1801.01210)$]$
+* [[Tian Lan]], *A Classification of (2+1)D Topological Phases with Symmetries* \[<a href="https://arxiv.org/abs/1801.01210">arXiv:1801.01210</a>\]
 
 * *From categories to anyons: a travelogue* \[<a href="https://arxiv.org/abs/1811.06670">arXiv:1811.06670</a>\]
 
-* [[Colleen Delaney]], *A categorical perspective on symmetry, topological order, and quantum information* (2019) $[$[pdf](https://crdelane.pages.iu.edu/dissertationch1-5.pdf), [uc:5z384290](https://escholarship.org/uc/item/5z384290)$]$
+* [[Colleen Delaney]], *A categorical perspective on symmetry, topological order, and quantum information* (2019) \[<a href="https://escholarship.org/uc/item/5z384290">uc:5z384290>, [pdf](https://crdelane.pages.iu.edu/dissertationch1-5.pdf)\]
 
-* [[Colleen Delaney]], *Lecture notes on modular tensor categories and braid group representations* (2019) $[$[pdf](http://web.math.ucsb.edu/~cdelaney/MTC_Notes.pdf), [[DelaneyModularTensorCategories.pdf:file]]$]$
+* [[Colleen Delaney]], *Lecture notes on modular tensor categories and braid group representations* (2019) \[<a href="http://web.math.ucsb.edu/~cdelaney/MTC_Notes.pdf">pdf</a>, [[DelaneyModularTensorCategories.pdf:file]]\]
 
-* Liang Wang, [[Zhenghan Wang]], *In and around Abelian anyon models*, J. Phys. A: Math. Theor. **53** 505203 (2020) $[$[doi:10.1088/1751-8121/abc6c0](https://iopscience.iop.org/article/10.1088/1751-8121/abc6c0)$]$
+* Liang Wang, [[Zhenghan Wang]], *In and around Abelian anyon models*, J. Phys. A: Math. Theor. **53** 505203 (2020) \[<a href="https://iopscience.iop.org/article/10.1088/1751-8121/abc6c0">doi:10.1088/1751-8121/abc6c0</a>\]
 
-* [[Parsa Bonderson]], *Measuring Topological Order*, Phys. Rev. Research **3**, 033110 (2021) $[$[arXiv:2102.05677](https://arxiv.org/abs/2102.05677), [doi:10.1103/PhysRevResearch.3.033110](https://doi.org/10.1103/PhysRevResearch.3.033110)$]$
+* [[Parsa Bonderson]], *Measuring Topological Order*, Phys. Rev. Research **3**, 033110 (2021) \[<a href="https://doi.org/10.1103/PhysRevResearch.3.033110">doi:10.1103/PhysRevResearch.3.033110</a>, [arXiv:2102.05677](https://arxiv.org/abs/2102.05677)\]
 
-* Zhuan Li, Roger S.K. Mong, *Detecting topological order from modular transformations of ground states on the torus* $[$[arXiv:2203.04329](https://arxiv.org/abs/2203.04329)$]$
+* Zhuan Li, Roger S.K. Mong, *Detecting topological order from modular transformations of ground states on the torus* \[<a href="https://arxiv.org/abs/2203.04329">arXiv:2203.04329</a>\]
 
-* [[Eric C. Rowell]], *Braids, Motions and Topological Quantum Computing* $[$[arXiv:2208.11762](https://arxiv.org/abs/2208.11762)$]$
+* [[Eric C. Rowell]], *Braids, Motions and Topological Quantum Computing* \[<a href="https://arxiv.org/abs/2208.11762">arXiv:2208.11762</a>\]
 
-* [[Sachin Valera]], *A Quick Introduction to the Algebraic Theory of Anyons*, talk at *[[CQTS]] Initial Researcher Meeting* (Sep 2022) $[$[[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]$]$
+* [[Sachin Valera]], *A Quick Introduction to the Algebraic Theory of Anyons*, talk at *[[CQTS]] Initial Researcher Meeting* (Sep 2022) $[$[[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]\]
 
 
-* Willie Aboumrad, *Quantum computing with anyons: an F-matrix and braid calculator* $[$[arXiv:2212.00831](https://arxiv.org/abs/2212.00831)$]$
+* Willie Aboumrad, *Quantum computing with anyons: an F-matrix and braid calculator* \[<a href="https://arxiv.org/abs/2212.00831">arXiv:2212.00831</a>\]
 
 
 Emphasis that the expected description of [[anyons]] by [[braided fusion categories]] had remained [[folklore]], together with a list of minimal assumptions that would need to be shown:
@@ -74,6 +74,7 @@ Via [[KK-compactification]] on [[closed manifold|closed]] [[3-manifolds]] ([[Sei
 
 * {#SS24} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyons on M5-Probes of Seifert 3-Orbifolds]]* \[<a href="https://arxiv.org/abs/2411.16852">arXiv:2411.16852</a>\]
 
+* {#SS25} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes via Flux-Quantization]]* &lbrack;[arXiv:2501.17927](https://arxiv.org/abs/2501.17927)&rbrack;
 
 
 Via [[3-brane in 6d|3-brane]] [[defect branes|defects]]:
@@ -86,14 +87,14 @@ Via [[3-brane in 6d|3-brane]] [[defect branes|defects]]:
 
 Relation to [[ZX-calculus]]:
 
-* [[Fatimah Rita Ahmadi]], [[Aleks Kissinger]], *Topological Quantum Computation Through the Lens of Categorical Quantum Mechanics* $[$[arXiv:2211.03855](https://arxiv.org/abs/2211.03855)$]$
+* [[Fatimah Rita Ahmadi]], [[Aleks Kissinger]], *Topological Quantum Computation Through the Lens of Categorical Quantum Mechanics* \[<a href="https://arxiv.org/abs/2211.03855">arXiv:2211.03855</a>\]
 
 On detection of [[topological order]] by observing [[modular transformations]] on the [[ground state]]:
 
-* [[Zhuan Li]], [[Roger S. K. Mong]], *Detecting topological order from modular transformations of ground states on the torus*, Phys. Rev. B **106** (2022) 235115 $[$[doi:10.1103/PhysRevB.106.235115](https://doi.org/10.1103/PhysRevB.106.235115), [arXiv:2203.04329](https://arxiv.org/abs/2203.04329)$]$
+* [[Zhuan Li]], [[Roger S. K. Mong]], *Detecting topological order from modular transformations of ground states on the torus*, Phys. Rev. B **106** (2022) 235115 \[<a href="https://doi.org/10.1103/PhysRevB.106.235115">doi:10.1103/PhysRevB.106.235115</a> [arXiv:2203.04329](https://arxiv.org/abs/2203.04329)\]
 
 See also:
 
-* [[Liang Kong]], *Topological Wick Rotation and Holographic Dualities*, [talk at](CQTS#KongOct2022) [[CQTS]] (Oct 2022) $[$[[Kong-TalkAtCQTS-20221019.pdf:file]]$]$
+* [[Liang Kong]], *Topological Wick Rotation and Holographic Dualities*, [talk at](CQTS#KongOct2022) [[CQTS]] (Oct 2022) $[$[[Kong-TalkAtCQTS-20221019.pdf:file]]\]
 
 
