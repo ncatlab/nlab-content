@@ -89,10 +89,5 @@ The same definition can be given for a class ("semigroup") of measure-preserving
 category: probability
 
 
-[[!redirects time-reversible stochastic processes]]
-[[!redirects time reversible stochastic process]]
-[[!redirects time reversible stochastic processes]]
-[[!redirects time-reversible process]]
-[[!redirects time-reversible processes]]
-[[!redirects time reversible process]]
-[[!redirects time reversible processes]]
+[[!redirects time-reversible Markov process]]
+[[!redirects time-reversible Markov processes]]
