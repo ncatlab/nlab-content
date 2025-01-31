@@ -1,12 +1,17 @@
 
 
-It is [well-appreciated](categorical+semantics+of+dependent+type+theory) that ([[intuitionistic logic|intuitionistic]] but [[substructural logic|otherwise]]) classical ([[functional programming language|functional]], [[programming language|programming]]) [[language]] is essentially the [[internal logic|internal logic]] to [[cartesian closed categories]] (of [[data type|data]] [[types]]), in particular to ([[(infinity,1)-topos|higher]]) [[toposes]], and that [[epistemic logic|epistemology]] and other [[modal logics|modality]] expressing [[physics|physical]] [[computational effect|effects and observations]] are reflected by ([[idempotent monad|idempotent]]) [[comonad|co]]/[[monads]] on these categories.
 
-In the course we explore how this classical situation naturally [[conservative extension|extends]] to subsume [[quantum logic]] of [[quantum systems]] [[controlled quantum gate|controlled]] and [[quantum measurement|measured]] by [[classical physics|classical]] [[observers]]:
+On the [[loop space]] $\Omega S^2$ of the 2-sphere
 
-Here [[doubly closed monoidal categories]] (of [[quantum entanglement|entangled]] [[quantum state|quantum data]] [[linear type|types]] [[parameterized quantum system|parameterized]] by classical data), such as [[tangent (infinity,1)-toposes|higher tangent toposes]], reflect in their [[stable (infinity,1)-category|linear]] [[slice category|slices]] the [[substructural logic|substructural]] ([[no-deleting theorem|no-deleting]]/[[no-cloning theorem|no-cloning]]) [[quantum coherence]], while their [[base change]] [[comonad|co]]/[[monads]] between linear slices turn out to know everything about [[decoherence|decoherent]] [[quantum measurement]] ([[wavefunction collapse]]), including the ancient [[Born rule]] as well as contemporary [spider-fusion](https://arxiv.org/pdf/2012.13966#page=19) in [[ZX-calculus]] [[string diagrams]].
+in relation to [[braid groups]]
 
-For example, the infamous [quantum measurement paradox](deferred+measurement+principle#DeferredMeasurementAndInterpretations) resolves in the [[internal logic]] to the [[deferred measurement principle]] which obtains a rigorous proof as the [[Kleisli equivalence]] of the quantum [[necessity]] [[modality]]. Diligent choice of [do-notation](/nlab/show/monad+in+computer+science#DoNotation) for these quantum modalities gives a pleasantly natural [[quantum programming language|quantum language]] which should be [[admissible rule|admissibly]] [[domain specific embedded programming language|embeddable]] in some form of [[linear homotopy type theory]] to serve as a [[certified programming|certifiable]] [[quantum programming language]] (working title: "[[schreiber:QS]]").
+* [[Frederick R. Cohen]], J. Wu: *On Braid Groups, Free Groups, and the Loop Space of the 2-Sphere*, in: *Categorical Decomposition Techniques in Algebraic Topology*, in *Progress in Mathematics* **215**,  Birkhäuser (2003) 93-105  \[<a href="https://doi.org/10.1007/978-3-0348-7863-0_6">doi:10.1007/978-3-0348-7863-0_6</a>\]
+
+On $\Omega S^2 \,\simeq\, B \Omega^2 S^2$ regarded as a [[classifying space]] (for "$\mathbf{l}$ine" bundles):
+
+* [[Jack Morava]]: *A homotopy-theoretic context for CKM/Birkhoff renormalization* &lbrack;[arXiv:2307.10148](https://arxiv.org/abs/2307.10148), [spire:2678618](https://inspirehep.net/literature/2678618)&rbrack;
+
+* [[Jack Morava]]: *Some very low-dimensional algebraic topology* &lbrack;[arXiv:2411.15885](https://arxiv.org/abs/2411.15885)&rbrack;
 
 
 
@@ -44,5 +49,20 @@ On [[particle statistics]] in view of [[causal locality]]:
 
 ## Loop space of the 2-sphere
 
+On the [[loop space]] $\Omega S^2$ of the 2-sphere
+
+in relation to [[braid groups]]
+
 * [[Frederick R. Cohen]], J. Wu: *On Braid Groups, Free Groups, and the Loop Space of the 2-Sphere*, in: *Categorical Decomposition Techniques in Algebraic Topology*, in *Progress in Mathematics* **215**,  Birkhäuser (2003) 93-105  \[<a href="https://doi.org/10.1007/978-3-0348-7863-0_6">doi:10.1007/978-3-0348-7863-0_6</a>\]
+
+On $\Omega S^2 \,\simeq\, B \Omega^2 S^2$ regarded as a [[classifying space]] (for "$\mathbf{l}$ine" bundles):
+
+* [[Jack Morava]]: *A homotopy-theoretic context for CKM/Birkhoff renormalization* &lbrack;[arXiv:2307.10148](https://arxiv.org/abs/2307.10148), [spire:2678618](https://inspirehep.net/literature/2678618)&rbrack;
+
+* [[Jack Morava]]: *Some very low-dimensional algebraic topology* &lbrack;[arXiv:2411.15885](https://arxiv.org/abs/2411.15885)&rbrack;
+
+
+
+
+
 [[test page]]
