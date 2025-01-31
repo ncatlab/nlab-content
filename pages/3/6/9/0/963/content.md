@@ -66,11 +66,31 @@ Let $(Q, \cdot, 1)$ be a commutative affine quantale, and let $Idem(Q)$ be the s
 ###### Proof 
 If $x, y$ are idempotent, then so is $x \cdot y$ using the fact that $\cdot$ is commutative. Thus $Idem(Q)$ is an idempotent affine submonoid of $Q$, which by Proposition \ref{meet} forces $\cdot$ to be the meet. Next, we show that $Idem(Q)$ is closed under taking joins in $Q$: if $x_i$ is a collection of idempotents, we have 
 
-$$x_i \leq x_i x_i \leq (\bigvee_i x_i) (\bigvee_i x_i)$$ 
+$$
+  x_i \leq x_i x_i 
+  \leq 
+  \Big(
+    \textstyle{\bigvee_i} 
+    x_i
+  \Big) 
+  \Big(
+    \textstyle{\bigvee_i} 
+    x_i
+  \Big)
+$$ 
 
 for all $i$, whence 
 
-$$\bigvee_i x_i \leq (\bigvee_i x_i) (\bigvee_i x_i),$$
+$$
+  \textstyle{\bigvee_i} x_i 
+  \;\leq\; 
+  (
+    \textstyle{\bigvee_i} x_i
+  ) 
+  (
+    \textstyle{\bigvee_i} x_i
+  ),
+$$
 
 which is all we need (the opposite inequality is automatic since $a \cdot a \leq a \cdot 1 = a$ for all $a \in Q$). Since joins in $Idem(Q)$ are calculated just as they are in $Q$, and since multiplication in $Q$ distributes over arbitrary joins, we have that binary meets distribute over arbitrary joins in $Idem(Q)$. 
 
