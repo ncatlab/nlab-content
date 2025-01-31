@@ -17,7 +17,7 @@
 
 The _category of elements_ of a [[functor]] $F : \mathcal{C} \to $ [[Set]] is a [[category]] $el(F) \to \mathcal{C}$ sitting over the [[domain]] [[category]] $\mathcal{C}$, such that the [[fiber]] over an [[object]] $c \in \mathcal{C}$ is the set $F(c)$. 
 
-This is a special case of the [[Grothendieck construction]], by considering sets as discrete categories.
+This is a special case of the [[Grothendieck construction]] for [[covariant functors]], by considering sets as discrete categories.  There is a similar special case of the Grothendieck construction for [[contravariant functors]] which takes a functor $F:\mathcal{C}^{op} \to \mathrm{Set}$ to a category over $\mathcal{C}$.  However, this article is only about the covariant case.
 
 We may think of [[Set]] as the [[classifying space]] of "[[Set]]-bundles;" see [[generalized universal bundle]].  The category of elements of $F$ is, in this sense, the [[Set]]-bundle classified by $F$.  It comes equipped with a projection to $\mathcal{C}$ which is a [[discrete opfibration]], and provides an equivalence between $\mathbf{Set}$-valued functors and discrete opfibrations.  (There is a dual category of elements that applies to contravariant $\mathbf{Set}$-valued functors, i.e. [[presheaves]], and produces [[discrete fibrations]].)
 
