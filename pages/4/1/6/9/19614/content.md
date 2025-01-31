@@ -75,7 +75,7 @@ Application to [[FRW models]] of [[cosmology]]:
 
 * {#tHooft08} [[Gerard 't Hooft]], _A locally finite model for gravity_, Found. Phys. 38:733-757, 2008 ([arXiv:0804.0328](https://arxiv.org/abs/0804.0328))
 
-* [[Maarten van de Meent]], _Piecewise Flat Gravitational Waves_,  	Class. Quant. Grav.28:075005, 2011 ([arXiv:1012.1991](https://arxiv.org/abs/1012.1991))
+* [[Maarten van de Meent]]: _Piecewise Flat Gravitational Waves_, Class. Quant. Grav.28:075005, 2011 ([arXiv:1012.1991](https://arxiv.org/abs/1012.1991))
 
 * [[Maarten van de Meent]], _Exact Piecewise Flat Gravitational Waves_, Class. Quantum Grav. 28 (2011) 245006 ([arXiv:1106.5380](https://arxiv.org/abs/1106.5380))
 
@@ -83,25 +83,27 @@ Application to [[FRW models]] of [[cosmology]]:
 
 ### Causal dynamical triangulation
 
-* J. Ambjorn, R. Loll, _Non-perturbative Lorentzian Quantum Gravity, Causality and Topology Change_, Nucl.Phys. B536 (1998) 407-434 ([arXiv:hep-th/9805108](https://arxiv.org/abs/hep-th/9805108))
+* [[Jan Ambjørn]], [[Renate Loll]]: *Non-perturbative Lorentzian Quantum Gravity, Causality and Topology Change*, Nucl. Phys. B **536** (1998) 407-434 &lbrack;[arXiv:hep-th/9805108](https://arxiv.org/abs/hep-th/9805108), <a href="https://doi.org/10.1016/S0550-3213(98)00692-0">doi:10.1016/S0550-3213(98)00692-0</a>&rbrack;
 
-* J. Ambjorn, J. Jurkiewicz, R. Loll, _Dynamically Triangulating Lorentzian Quantum Gravity_, Nucl.Phys. B610 (2001) 347-382 ([arXiv:hep-th/0105267](https://arxiv.org/abs/hep-th/0105267))
+* [[Jan Ambjørn]], J. Jurkiewicz, [[Renate Loll]]: *Dynamically Triangulating Lorentzian Quantum Gravity_, Nucl. Phys. B **610** (2001) 347-382 &lbrack;[arXiv:hep-th/0105267](https://arxiv.org/abs/hep-th/0105267), <a href="https://doi.org/10.1016/S0550-3213(01)00297-8">doi:10.1016/S0550-3213(01)00297-8</a>&rbrack;
 
-* {#AmbjornJurkiewiczLoll00} J. Ambjorn, J. Jurkiewicz, R. Loll, _A non-perturbative Lorentzian path integral for gravity_, Phys.Rev.Lett. 85 (2000) 924-927 ([arXiv:hep-th/0002050](https://arxiv.org/abs/hep-th/0002050))
-
-* R. Loll, _Quantum Gravity from Causal Dynamical Triangulations: A Review_ ([arXiv:1905.08669](https://arxiv.org/abs/1905.08669))
-
-* Jan Ambjorn, *Lattice Quantum Gravity: EDT and CDT* &lbrack;[arXiv:2209.06555](https://arxiv.org/abs/2209.06555)&rbrack;
+* {#AmbjornJurkiewiczLoll00} [[Jan Ambjørn]], J. Jurkiewicz, [[Renate Loll]]: *A non-perturbative Lorentzian path integral for gravity&, Phys. Rev. Lett. **85** (2000) 924-927 &lbrack;[arXiv:hep-th/0002050](https://arxiv.org/abs/hep-th/0002050), [doi:10.1103/PhysRevLett.85.924](https://doi.org/10.1103/PhysRevLett.85.924)&rbrack;
 
 Review:
 
+* [[Renate Loll]]: *Quantum Gravity from Causal Dynamical Triangulations: A Review*, Class. Quantum Grav. **37** 013002 &lbrack;[arXiv:1905.08669](https://arxiv.org/abs/1905.08669), [doi:10.1088/1361-6382/ab57c7](https://doi.org/10.1088/1361-6382/ab57c7) &rbrack;
+
+* [[Jan Ambjørn]], *Lattice Quantum Gravity: EDT and CDT*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2209.06555](https://arxiv.org/abs/2209.06555)&rbrack;
+
 * Dario Benedetti, *Landau Theory of Causal Dynamical Triangulations*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2212.11043](https://arxiv.org/abs/2212.11043)&rbrack;
 
-* J. Ambjørn, R. Loll, *Causal Dynamical Triangulations: Gateway to Nonperturbative Quantum Gravity*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.09399](https://arxiv.org/abs/2401.09399)&rbrack;
+* [[Jan Ambjørn]], [[Renate Loll]]: *Causal Dynamical Triangulations: Gateway to Nonperturbative Quantum Gravity*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.09399](https://arxiv.org/abs/2401.09399)&rbrack;
 
-* Renate Loll: *Nonperturbative quantum gravity unlocked through computation*, in: *Quantum Gravity and Computation*, Routledge  (2025) &lbrack;[arXiv:2501.17972](https://arxiv.org/abs/2501.17972)&rbrack;
+* [[Renate Loll]]: *Nonperturbative quantum gravity unlocked through computation*, in: *Quantum Gravity and Computation*, Routledge  (2025) &lbrack;[arXiv:2501.17972](https://arxiv.org/abs/2501.17972)&rbrack;
 
-Relation to [[dark energy]]:
+
+
+Possible relation to [[dark energy]]:
 
 * Mingwei Dai, Walter Freeman, Jack Laiho, Marc Schiffer, Judah Unmuth-Yockey: *Dynamical Dark Energy from Lattice Quantum Gravity* &lbrack;[arXiv:2408.08963](https://arxiv.org/abs/2408.08963)&rbrack;
 
