@@ -128,3 +128,5 @@ category: probability
 [[!redirects Bernoulli random elements]]
 [[!redirects Bernoulli sequence]]
 [[!redirects Bernoulli process]]
+[[!redirects Bernoulli sequences]]
+[[!redirects Bernoulli processes]]
