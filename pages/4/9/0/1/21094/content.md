@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include gravity contents]]
 =--
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 =--
 =--
 
@@ -19,9 +23,9 @@
 
 ## Idea
 
-In [[perturbative quantum gravity]], the  _soft graviton theorem_ ([Weinberg 65](#Weinberg65)) re-formulates [[scattering amplitudes]] of a set of finite energy external particles with one or more low energy external [[gravitons]], in terms of the amplitude without the low energy gravitons.
+In [[perturbative quantum gravity]], the  _soft graviton theorem_ ([Weinberg 1965](#Weinberg65)) re-formulates [[scattering amplitudes]] of a set of finite energy external particles with one or more low energy external [[gravitons]], in terms of the amplitude without the low energy gravitons.
 
-In the [[classical limit]], there is a different manifestation of the same theorem ([Saha-Sahoo-Sen 19](#SahaSahooSen19)): here it determines the low frequency component of the [[gravitational wave]]-form produced during a scattering process in terms of the momenta and spin of the incoming and outgoing objects, without any reference to the interactions responsible for the scattering.
+In the [[classical limit]], there is a different manifestation of the same theorem ([Saha, Sahoo & Sen 2019](#SahaSahooSen19)): here it determines the low frequency component of the [[gravitational wave]]-form produced during a [[scattering]] process in terms of the [[momenta]] and the [[spin]] of the incoming and outgoing objects, without any reference to the [[interactions]] responsible for the scattering.
 
 ## References
 
@@ -38,24 +42,21 @@ Exposition:
 * [[Ashoke Sen]]: *Gravitational Wave Tails from Soft Theorem: A Short Review* &lbrack;[arXiv:2408.08851](https://arxiv.org/abs/2408.08851)&rbrack;
 
 
-For the derivation of sub-leading soft graviton theorem (known as Sahoo-Sen soft theorem) from the analysis of gravitational loop-amplitudes:
+Derivation of sub-leading soft graviton theorem (the *Sahoo-Sen soft theorem*) from the analysis of gravitational [[loop order|loop]]-[[amplitudes]]:
 
-* {#SahooSen18} Biswajit Sahoo, [[Ashoke Sen]], _Classical and Quantum Results on Logarithmic Terms in the Soft Theorem in Four Dimensions_ ([arXiv:1808.03288](https://arxiv.org/abs/1808.03288))
+* {#SahooSen18} [[Biswajit Sahoo]], [[Ashoke Sen]]: *Classical and Quantum Results on Logarithmic Terms in the Soft Theorem in Four Dimensions*,  J. High Energ. Phys. **2019** 86 (2019) &lbrack;<a href="https://doi.org/10.1007/JHEP02(2019)086">doi:10.1007/JHEP02(2019)086</a>, [arXiv:1808.03288](https://arxiv.org/abs/1808.03288)&rbrack;
 
-* {#KrishnaSahoo23} Hare Krishna, Biswajit Sahoo, _Universality of loop corrected soft theorems in 4d_ ([arXiv:2308.16807](https://arxiv.org/abs/2308.16807))
+* {#KrishnaSahoo23} Hare Krishna, [[Biswajit Sahoo]]: *Universality of loop corrected soft theorems in 4d*,  J. High Energ. Phys. **2023** 233 (2023) &lbrack;<a href="https://doi.org/10.1007/JHEP11(2023)233">doi:10.1007/JHEP11(2023)233</a>, [arXiv:2308.16807](https://arxiv.org/abs/2308.16807)&rbrack;
 
 * [[Martin Beneke]], Patrick Hager, Robert Szafron, *Soft-Collinear Gravity and Soft Theorems*, in section *Effective Quantum Gravity* of *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.09336](https://arxiv.org/abs/2210.09336)&rbrack;
 
+Discussion of application to [[gravitational waves]] and gravitational tail memory in the [[classical limit]]:
 
+* {#SahaSahooSen19} Arnab Priya Saha, [[Biswajit Sahoo]], [[Ashoke Sen]]: *Proof of the Classical Soft Graviton Theorem in $D=4$*, J. High Energ. Phys. **2020,** 153 (2020) &lbrack;<a href="https://doi.org/10.1007/JHEP06(2020)153">doi:10.1007/JHEP06(2020)153</a>, [arXiv:1912.06413](https://arxiv.org/abs/1912.06413)&rbrack;
 
-Discussion of application to [[gravitational waves and gravitational tail memory]] in the [[classical limit]]:
+* {#Sahoo20} [[Biswajit Sahoo]]: *Classical Sub-subleading Soft Photon and Soft Graviton Theorems in Four Spacetime Dimensions* &lbrack;[arXiv:2008.04376](https://arxiv.org/abs/2008.04376)&rbrack
 
-* {#SahaSahooSen19} Arnab Priya Saha, Biswajit Sahoo, [[Ashoke Sen]], _Proof of the Classical Soft Graviton Theorem in $D=4$_ ([arXiv:1912.06413](https://arxiv.org/abs/1912.06413))
-
-* {#Sahoo20} Biswajit Sahoo, _Classical Sub-subleading Soft Photon and Soft Graviton Theorems in Four Spacetime Dimensions_ ([arXiv:2008.04376](https://arxiv.org/abs/2008.04376))
-
-* {#GhoshSahoo21} Debodirna Ghosh, Biswajit Sahoo, _Spin-dependent gravitational tail memory in $D=4$_ ([arXiv:2106.10741](https://arxiv.org/abs/2106.10741))
-
+* {#GhoshSahoo21} Debodirna Ghosh, [[Biswajit Sahoo]]: _Spin-dependent gravitational tail memory in $D=4$_,  J. High Energ. Phys. **2020** 70 (2020) &lbrack;<a href="https://doi.org/10.1007/JHEP12(2020)070">doi:10.1007/JHEP12(2020)070</a>, [arXiv:2106.10741](https://arxiv.org/abs/2106.10741)&rbrack;
 
 
 
