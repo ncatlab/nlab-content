@@ -161,6 +161,8 @@ is a [[full and faithful (∞,1)-functor]] and its essential image is spanned by
 
 * [[Yoneda Lemma for higher categories]]
 
+* [[twisted arrow modality]]
+
 ## References
 
 * {#LurieHTT} [[Jacob Lurie]], Prop. 5.1.3.1 and Lemma 5.5.2.1 in: _[[Higher Topos Theory]]_ (2009)
