@@ -56,7 +56,9 @@ The _linear permutation representation_ of a [[G-set]] $(S,\rho)$ is the followi
      k[S]
      \;=\;
      \left\{
-       v =\underset{ s \in S_{fin} \subset S }{\sum} v_s \, s
+       v = \textstyle{\underset{ 
+             s \in S_{fin} \subset S 
+          }{\sum}} v_s \, s
        \;\vert\;
        S_{fin} \, \text{finite subset}
        ,\;
