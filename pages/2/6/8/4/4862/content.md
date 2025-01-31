@@ -19,17 +19,22 @@
 
 ## Idea
 
-The **circle** is a fantastic thing with lots and lots of [[stuff, structure, property|properties and extra structures]].  It is a:
+The **circle** (the 1-[[dimensional|dimension]] [[sphere]]) is a fantastic thing with lots and lots of [[stuff, structure, property|properties and extra structures]].  It is a:
 
 * [[topological space]]
+
 * [[smooth manifold]]
+
 * [[Lie group]] (the [[circle group]])
+
 * [[co-H-group]]
 
 and it is one of the basic building blocks for lots of areas of mathematics, including:
 
 * [[homotopy theory]]
+
 * [[loop spaces]]
+
 * [[knots]] and [[links]]
 
 
@@ -136,3 +141,7 @@ The proof is formalized therein using the [[Agda]] [[proof assistant]].  See als
 [[!redirects circles]]
 [[!redirects Circle]]
 [[!redirects Circles]]
+
+[[!redirects 1-sphere]]
+[[!redirects 1-spheres]]
+
