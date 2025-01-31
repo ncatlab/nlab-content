@@ -76,7 +76,7 @@ Some early and historical references for continuations and continuation-passing 
 
 * {#Reynolds72} [[John C. Reynolds]]. Definitional interpreters for higher-order programming languages. In _Proceedings of the ACM National Conference_, 1972. ([pdf](http://surface.syr.edu/cgi/viewcontent.cgi?article=1012&context=lcsmith_other))
 
-* {#StracheyWadsworth74} Christopher Strachey and C. P. Wadsworth. Continuations: A Mathematical Semantics for Handling Full Jumps, Technical Monograph PRG-11, Oxford, 1974. ([pdf](http://repository.readscheme.org/ftp/papers/plsemantics/oxford/strachey-continuations.PDF))
+* {#StracheyWadsworth74} Christopher Strachey and C. P. Wadsworth. Continuations: A Mathematical Semantics for Handling Full Jumps, Technical Monograph PRG-11, Oxford, 1974. ([pdf](https://www.cs.ox.ac.uk/files/3233/PRG11.pdf))
 
 * {#Reynolds74} [[John C. Reynolds]]. On the Relation Between Direct and Continuation Semantics.  Second Colloquium on Automata, Languages, and Programming, Saarbrucken, July 29 - August 2, 1974. ([pdf](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2287&context=compsci))
 
