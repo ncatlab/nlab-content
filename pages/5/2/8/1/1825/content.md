@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -548,9 +549,4 @@ On [[topological complexity]] of spheres and [[product topological space|product
 
 [[!redirects infinite sphere]]
 
-[[!redirects 1-sphere]]
-[[!redirects 1-spheres]]
-
-[[!redirects 2-sphere]]
-[[!redirects 2-spheres]]
 
