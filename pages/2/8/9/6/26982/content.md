@@ -54,6 +54,7 @@ p \;=\; \lambda\,q_1 + (1-\lambda)\,q_2
 $$
 for $\lambda\in(0,1)$ and $q_1,q_2\in P X$, then $q_1=q_2=q$.
 (This can be seen as analogous to [[irreducible closed sets]].)
+* $p$ cannot be expressed as a nontrivial [[convex mixture]]: if $p=\mu(\pi)$ for some $\pi\in P P X$ (where $P$ is the [[Giry monad]] and $\mu$ is its multiplication), then necessarily $\pi=\delta_p$.
 * For every $f,g:X\to\mathbb{R}$ for which the integrals below exist, integration with $p$ preserves multiplication:
 $$
 \int_X (f\cdot g)\,dp \;=\; \left( \int_X f\,dp \right) \cdot \left( \int_X g\,dp \right) .
