@@ -71,7 +71,7 @@ Sometimes, more generally, a dynamical system or a stochastic process are called
 ## Properties
 
 * The [[ergodic decomposition theorem]] says that, in some cases, every [[invariant probability measure]] is a [[convex mixture]] of ergodic ones.
-* The [[ergodic theorem]] says that, in some cases, [[empirical means]] of [[random variables]] on an ergodic system tend to [[expectation value|expectations]] (and on more general [[stationary systems]], they tend to [[conditional expectations]] w.r.t. the [[invariant sigma-algebra]]). 
+* The [[ergodic theorem]] says that, in some cases, [[empirical means]] of [[random variables]] on an ergodic process tend to [[expectation value|expectations]] (and on more general [[stationary systems]], they tend to [[conditional expectations]] w.r.t. the [[invariant sigma-algebra]]). 
 
 
 ## Related entries
