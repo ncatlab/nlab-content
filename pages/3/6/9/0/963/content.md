@@ -102,18 +102,26 @@ Aside from being "noncommutative frames", a different way of thinking about quan
 
 For a quantale $Q$, one can define the category $Q$-Cat of $Q$-categories and $Q$-functors. Objects are pairs $(X,d_X)$ where $X$ is a set and $d_x\colon X \times X \to Q$ is a symmetric and transitive $Q$-valued relation, while arrows $f\colon (X,d_X) \to (Y.d_Y)$ are non-expansive functions (namely $d_X(x_1,x_2) \leq d_Y(f(y_1,y_2))$).
 
-When $Q$ is a commutative affine quantale, $Q$-Cat is both cartesian and monoidal closed: the categorical and the monoidal products of $(X,d_X)$ and $(Y,d_Y)$ are given respectively by $(X\times Y, d^\wedge_{X\times Y})$ and $(X\times Y, d^\otimes_{X\times Y})$ where \[d^\wedge_{X\times Y}(x_1,y_1,x_2,y_2):= d_X(x_1,x_2) \wedge d_Y(y_1,y_2) \text{ and } d^\otimes_{X\times Y}(x_1,y_1,x_2,y_2):= d_X(x_1,x_2) \otimes d_Y(y_1,y_2)\text{.}\]
+When $Q$ is a commutative affine quantale, $Q$-Cat is both cartesian and monoidal closed: the categorical and the monoidal products of $(X,d_X)$ and $(Y,d_Y)$ are given respectively by $(X\times Y, d^\wedge_{X\times Y})$ and $(X\times Y, d^\otimes_{X\times Y})$ where 
+
+$$d^\wedge_{X\times Y}(x_1,y_1,x_2,y_2):= d_X(x_1,x_2) \wedge d_Y(y_1,y_2)$$
+
+and 
+
+$$d^\otimes_{X\times Y}(x_1,y_1,x_2,y_2):= d_X(x_1,x_2) \otimes d_Y(y_1,y_2)\text{.}$$
 
 If $Q$ is idempotent (i.e., $\wedge=\otimes$), then $Q$-Cat is a cartesian closed category.
 
 The converse implication does not hold in general, as discussed in [Clementino & Hofmann & Tholen (2003)](#Clementino2003), [Clementino & Hofmann (2006)](#Clementino2006), [Clementino & Hofmann & Stubbe (2009)](#Clementino2009) and [Stubbe & Yu](#Stubbe25) in the more general context of \textit{quantaloid}-enriched categories. In particular, in [Stubbe & Yu](#Stubbe25), the authors provide a necessary and sufficient condition for $Q$-Cat to be cartesian closed.
 \begin{proposition}
 Let $Q$ be a quantale, then $Q$-Cat is cartesian closed if and only if
-    \begin{itemize}
-    \item the underlying sup-lattice of $Q$ is a frame (i.e., $(a\wedge -)$ has a right adjoint for every $a\in Q$ or equivalently $\wedge$ distributes over arbitrary joins);
-    \item for every $a,b,c\in Q$ then 
-   $ (a \otimes b)\wedge c= ((a \wedge c)\otimes (b\wedge 1) ) \vee ((1\wedge a)\otimes (b\wedge c))$
-\end{itemize}
+
+
+* the underlying sup-lattice of $Q$ is a frame (i.e., $(a\wedge -)$ has a right adjoint for every $a\in Q$ or equivalently $\wedge$ distributes over arbitrary joins);
+    
+* for every $a,b,c\in Q$ then 
+   $ (a \otimes b)\wedge c= ((a \wedge c)\otimes (b\wedge 1) ) \vee ((1\wedge a)\otimes (b\wedge c))$.
+
 \end{proposition}
 
 
