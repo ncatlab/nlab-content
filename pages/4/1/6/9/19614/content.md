@@ -27,16 +27,16 @@ If one allows [[pseudo-Riemannian manifolds]] with [[conical singularities]] the
 <img src="https://ncatlab.org/nlab/files/ConicalSingularity.jpg" width="300">
 </center>
 
-Such piecewise flat spacetimes have been considered as discretized models for smooth (non-singular and non-piecewise flat) [[spacetimes]] useful for [[computation]] (see [Williams-Tuckey 92](#WilliamsTuckey92)): A [[combinatorics|combinatorial]] [[functional]] on piecewise flat spacetimes, depending on the [[edge]] [[lengths]] of a metric [[simplicial complex]], was introduced in [Regge 61](#Regge61) (see also [Barrett 87](#Barrett87)) with the idea that in an appropriate [[limit of a sequence|limit]] it approaches the [[Einstein-Hilbert action]] [[functional]] on non-singular [[spacetimes]]. This has become famous as _Regge calculus_. That this [[limit of a sequence|limit]] indeed works out has been proven (only) in [Cheeger-Mueller-Schrader 84](#CheegerMuellerSchrader84), see [Cheeger 16](#Cheeger16) for review.
+Such piecewise flat spacetimes have been considered as discretized models for smooth (non-singular and non-piecewise flat) [[spacetimes]] useful for [[computation]] (see [Williams & Tuckey 1992](#WilliamsTuckey92)): A [[combinatorics|combinatorial]] [[functional]] on piecewise flat spacetimes, depending on the [[edge]] [[lengths]] of a metric [[simplicial complex]], was introduced by [Regge 1961](#Regge61) (see also [Barrett 1987](#Barrett87)) with the idea that in an appropriate [[limit of a sequence|limit]] it approaches the [[Einstein-Hilbert action]] [[functional]] on non-singular [[spacetimes]]. This has become famous as _Regge calculus_. That this [[limit of a sequence|limit]] indeed works out has been proven (only) in [Cheeger, Mueller &Schrader 1984](#CheegerMuellerSchrader84), see [Cheeger 2016](#Cheeger16) for review.
 
 A variant of this perspective, but with the [[conical singularities]] constrained to be [[timelike]] as expected for "physical" singularities, has been initiated in
-['t Hooft 08](#tHooft08) and worked out in some detail by [van de Meent 11](#vandeMeent11).
+['t Hooft 2008](#tHooft08) and worked out in some detail by [van de Meent 2011](#vandeMeent11).
 
-In both cases a more speculative motivation for considering piecewise flat spacetimes is the hope that it might help with defining [[quantum gravity]], [[non-perturbative QFT|non-perturbatively]] ([Regge-Williams 00](#ReggeWilliams00)). A direct attempt to define and compute a [[path integral quantization]] over piecewise flat spacetimes is known as "causal dynamical triangulation" (see [Ambjorn-Jurkiewicz-Loll 00](#AmbjornJurkiewiczLoll00)).
+In both cases a more speculative motivation for considering piecewise flat spacetimes is the hope that it might help with defining [[quantum gravity]], [[non-perturbative QFT|non-perturbatively]] ([Regge & Williams 2000](#ReggeWilliams00)). A direct attempt to define and compute a [[path integral quantization]] over piecewise flat spacetimes is known as "causal dynamical triangulation" (see [Ambjorn, Jurkiewicz &Loll 20000](#AmbjornJurkiewiczLoll00)).
 
 Piecewise flat spacetimes appear naturally in [[3d quantum gravity|3-dimensional gravity]], which provides much of the inspiration and motivation of various approaches.
 
-But piecewise flat spacetimes also appear naturally as the "[[far-horizon geometry]]" ("small $N$-limit", see there) of [[BPS state|BPS]] [[black brane]] spacetimes in [[supergravity]] theories, where considerations such as at _[[M-theory on G₂-manifolds]]_ suggest that the [[conical singularities]] have to be taken seriously as part of the physical model. These [[cone brane]]-singularities are necessarily time-like, as in ['t Hooft 08](#tHooft08), [van de Meent 11](#vandeMeent11), but in contrast to the assumption in general Regge calculus. Of course they are of higher dimension (and higher co-dimension) than considered in ['t Hooft 08](#tHooft08), [van de Meent 11](#vandeMeent11).
+But piecewise flat spacetimes also appear naturally as the "[[far-horizon geometry]]" ("[[large 1/N limit|small $N$-limit]]", see there) of [[BPS state|BPS]] [[black brane]] spacetimes in [[supergravity]] theories, where considerations such as discussed at _[[M-theory on G₂-manifolds]]_ suggest that the [[conical singularities]] have to be taken seriously as part of the physical model. These [[cone brane]]-singularities are necessarily time-like, as in ['t Hooft 2008](#tHooft08), [van de Meent 2011](#vandeMeent11), but in contrast to the assumption in general Regge calculus and generally of higher (co)dimension.
 
 ## References
 
@@ -99,9 +99,15 @@ Review:
 
 * J. Ambjørn, R. Loll, *Causal Dynamical Triangulations: Gateway to Nonperturbative Quantum Gravity*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.09399](https://arxiv.org/abs/2401.09399)&rbrack;
 
+* Renate Loll: *Nonperturbative quantum gravity unlocked through computation*, in: *Quantum Gravity and Computation*, Routledge  (2025) &lbrack;[arXiv:2501.17972](https://arxiv.org/abs/2501.17972)&rbrack;
+
 Relation to [[dark energy]]:
 
 * Mingwei Dai, Walter Freeman, Jack Laiho, Marc Schiffer, Judah Unmuth-Yockey: *Dynamical Dark Energy from Lattice Quantum Gravity* &lbrack;[arXiv:2408.08963](https://arxiv.org/abs/2408.08963)&rbrack;
+
+
+
+
 
 
 
