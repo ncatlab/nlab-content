@@ -18,6 +18,10 @@
 
 ## Idea
 
+We call something *symmetric under time-reversal* if, roughly speaking, *it would look or behave the same way if time flowed backwards*. 
+
+The precise mathematical formalization of this idea varies across the fields of classical and quantum physics, thermodynamics, probability theory, and other fields. 
+
 (...)
 
 ### For relativistc fermions
