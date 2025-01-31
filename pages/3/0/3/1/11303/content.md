@@ -141,6 +141,29 @@ On [[D=6 N=(1,0) SCFTs]] via [[geometric engineering of QFT|geometric engineerin
 * [[Ibrahima Bah]], Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
 
 
+#### Engineering of topological order on M5s
+ {#ReferencesEngineeringOfTopologicalOrderOnM5s}
+
+Claim of [[geometric engineering of QFT|geometric engineering]] of [[topological order]] on [[M5-branes]] 
+
+on $N=2$ [[coincident branes]] by assuming the [[D=6 N=(2,0) SCFT|$D=6$ $\mathcal{N}=(2,0)$ SCFT]]:
+
+* Gil Young Cho, [[Dongmin Gang]], Hee-Cheol Kim: *M-theoretic Genesis of Topological Phases*, J. High Energ. Phys. **2020** 115 (2020) \[<a href="https://arxiv.org/abs/2007.01532">arXiv:2007.01532</a>, <a href=" https://doi.org/10.1007/JHEP11(2020)115">doi:10.1007/JHEP11(2020)115</a>\]
+  > (by [[wrapped brane|wrapping]] [[M5-branes]] on, among others, Seifert manifolds)
+
+* [[Shawn X. Cui]], [[Yang Qiu]], [[Zhenghan Wang]], *From Three Dimensional Manifolds to Modular Tensor Categories*, Commun. Math. Phys. **397** (2023) 1191–1235 \[<a href="https://doi.org/10.1007/s00220-022-04517-4">doi:10.1007/s00220-022-04517-4</a>, [arXiv:2101.01674](https://arxiv.org/abs/2101.01674)\]
+
+* [[Federico Bonetti]], [[Sakura Schäfer-Nameki]], Jingxiang Wu: *$MTC[M_3,G]$: 3d Topological Order Labeled by Seifert Manifolds* &lbrack;[arXiv:2403.03973](https://arxiv.org/abs/2403.03973)&rbrack;
+
+on single M5 [[probe branes]] by taking into account proper [[geometry of physics -- flux quantization|flux-quantization]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Abelian Anyons on Flux-Quantized M5-Branes]]* &lbrack;[arXiv:2408.11896](https://arxiv.org/abs/2408.11896)&rbrack;
+
+* {#SS24} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyons on M5-Probes of Seifert 3-Orbifolds]]* \[<a href="https://arxiv.org/abs/2411.16852">arXiv:2411.16852</a>\]
+
+* {#SS25} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes via Flux-Quantization]]* &lbrack;[arXiv:2501.17927](https://arxiv.org/abs/2501.17927)&rbrack;
+
+
 
 [[!redirects geometric engineering]]
 
