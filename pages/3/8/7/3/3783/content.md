@@ -45,50 +45,14 @@ $$
 
 The following table lists the components of the metric of Minkowski, Schwartzschild and Kerr spacetimes respectivly using the canonical coordinates and the Boyer-Lindquist coordinates for the Kerr spacetime:
 
-<table markdown="1" border="1">
+| metric | Minkowski | Schwartzschild | Kerr |
+|--------|-----------|----------------|------|
+| $g_{tt}$ | -1 | $-1 + 2 \frac{m}{r}$ | $-1 + 2 \frac{mr}{\rho^2}$ |
+| $g_{rr}$ | +1 | $\frac{r}{r - 2m}$ | $\frac{\rho^2}{\triangle}$ |
+| $g_{\theta\theta}$ | $r^2$ | $r^2$ | $\rho^2$ |
+| $g_{\phi\phi}$ | $r^2 \sin^2(\theta)$ | $r^2 \sin^2(\theta)$ | $(r^2 + a^2 + \frac{2 m r a^2 \sin^2(\theta)}{\rho^2}) \sin^2{\theta}$ |
+| $g_{ij}$ $i \neq j$ | all zero | all zero | all zero except $g_{t \phi} = g_{\phi t} = - \frac{2 m r a \sin^2(\theta)}{\rho^2}$ |
 
-<tr>
-<th> metric</th>
-<th> Minkowski </th>
-<th> Schwartzschild </th>
-<th> Kerr </th>
-</tr>
-<tr>
-<td>$g_{tt}$</td>
-<td>-1</td>
-<td>$-1 + 2 \frac{m}{r}$</td>
-<td>$-1 + 2 \frac{mr}{\rho^2}$</td>
-</tr>
-
-<tr>
-<td>$g_{rr}$</td>
-<td>+1</td>
-<td>$\frac{r}{r - 2m}$</td>
-<td>$\frac{\rho^2}{\triangle}$</td>
-</tr>
-
-<tr>
-<td>$g_{\theta\theta}$</td>
-<td>$r^2$</td>
-<td>$r^2$</td>
-<td>$\rho^2$</td>
-</tr>
-
-<tr>
-<td>$g_{\phi\phi}$ </td>
-<td>$r^2 \sin^2(\theta)$</td>
-<td>$r^2 \sin^2(\theta)$</td>
-<td>$(r^2 + a^2 + \frac{2 m r a^2 \sin^2(\theta)}{\rho^2}) \sin^2{\theta}$</td>
-</tr>
-
-<tr>
-<td>$g_{ij}$ $i \neq j$</td>
-<td>all zero</td>
-<td>all zero</td>
-<td>all zero except $g_{t \phi} = g_{\phi t} = - \frac{2 m r a \sin^2(\theta)}{\rho^2}$</td>
-</tr>
-
-</table>
 
 One gets the [[Kerr-Newman metric]] for an electrically charged source with charge $e$ by replacing the definition of $\triangle$ with 
 
