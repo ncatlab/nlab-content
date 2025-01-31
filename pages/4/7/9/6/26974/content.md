@@ -65,7 +65,7 @@ An interpretation in terms of [[equilibrium]] is that for each measurable set $A
 
 * An [[exchangeable measure]] on a [[product]] space $X^\mathbb{N}$ is invariant under the action of finite [[permutations]].
 
-* A single measurable function $f:X\to X$ generates a monoid (the ont of [[natural numbers]]). In this case, an invariant measure $p$ simply needs to satisfy $f_*p=p$.
+* A single measurable function $f:X\to X$ generates a monoid (the one of [[natural numbers]]). In this case, an invariant measure $p$ simply needs to satisfy $f_*p=p$.
 
 * In [[statistical physics]], [[Liouville's theorem]] says that the distribution function of the [[phase space]] is invariant under the action of [[Hamiltonian flow]].
 
@@ -126,7 +126,7 @@ Equivalently, a stationary measure $p$ gives an action of $M$ in the category of
 
 * A stationary system (for example, [[Markov kernel]]) satisfies [[detailed balance]], or is called [[reversible dynamics|reversible]] if 
 $$
-\int_A k(B|x) \,p(dx) \;=\; \int_B k(A|x)\,p(dx) ,
+\int_A k(B|x) \,p(d x) \;=\; \int_B k(A|x)\,p(d x) ,
 $$
 i.e. if $k$ is its own [[Bayesian inverse]]. This is a stronger form of [[equilibrium]] than just stationarity.
 (Not every stationary system satisfies this property.)
