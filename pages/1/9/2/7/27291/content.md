@@ -23,6 +23,9 @@ Concise formulation of the [[Lagrangian density]] of [[heterotic supergravity|he
 
 * Julian Kupka, [[Charles Strickland-Constable]], [[Fridrich Valach]]: *Direct derivation of gauged $\mathcal{N}=1$ supergravity in ten dimensions to all orders in fermions* &lbrack;[arXiv:2410.16046](https://arxiv.org/abs/2410.16046)&rbrack;
 
+* Julian Kupka, [[Charles Strickland-Constable]], [[Fridrich Valach]]: *Batalin-Vilkovisky formulation of the $\mathcal{N}=1$ supergravity in ten dimensions* &lbrack;[arXiv:2501.18008](https://arxiv.org/abs/2501.18008)&rbrack;
+  > ([[BV-formalism|BV-formulation]])
+
 
 
 [[!redirects Charles Strickland Constable]]
