@@ -32,6 +32,8 @@ There have been two main styles of approaches to formal $(\infty,1)$-category th
 * For [[presentable (infinity,1)-categories|presentable $(\infty,1)$-categories]], formal $(\infty,1)$-category theory is directly accessible from "abstract [[homotopy theory]]" in the sense of [[combinatorial model category|combinatorial]] [[model category]]-theory, in that $2Ho\big( PresCat_{(\infty,1)}\big) \,\simeq\,$ [[2Ho(CombModCat)]] ([Pavlov 2021](HoCombModCat#Pavlov21)).
 - [Ruit 2023](#Ruit23) has introduced an $\infty$-double categorical generalisation of [[fibrant double categories]].
 
+* There is also the approach by [Cisinski et al](#CCNW). 
+
 ### Type theoretic approaches
 
 * [Riehl & Shulman 2017](#RiehlShulman17) propose a type theory called *[[simplicial type theory]]*, which have [[categorical semantics]] in [[bisimplicial sets]]. This is further developed by [Buchholtz & Weinberger 2021](#BuchholtzWeinberger21). 
@@ -55,6 +57,8 @@ There have been two main styles of approaches to formal $(\infty,1)$-category th
 * [[simplicial type theory]], [[cubical type theory]]
 
 ## References
+
+* {#CCNW} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Kim Nguyen]], [[Tashi Walde]], *Formalization of Higher Categories*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
 
 ### Category theoretic approaches
 
