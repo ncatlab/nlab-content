@@ -88,7 +88,7 @@ On the [[3d-3d correspondence]] for Seifert manifolds:
 * [[Du Pei]]: *3d-3d correspondence for Seifert manifolds*, PhD thesis (2016) &lbrack;[spire:1469350](https://inspirehep.net/literature/1469350), [pdf](https://inspirehep.net/files/d509ff9e32448da3a5674f286b93224a)&rbrack;
 
 
-Claim of a relation between Seifert manifolds and [[topological order]] in the guise of [[fusion categories]]:
+Claim of [[geometric engineering of QFT|geometric engineering]] of [[topological order]] on [[M5-branes]] in the guise of [[fusion categories]]:
 
 * Gil Young Cho, [[Dongmin Gang]], Hee-Cheol Kim: *M-theoretic Genesis of Topological Phases*, J. High Energ. Phys. **2020** 115 (2020) \[<a href="https://arxiv.org/abs/2007.01532">arXiv:2007.01532</a>, <a href=" https://doi.org/10.1007/JHEP11(2020)115">doi:10.1007/JHEP11(2020)115</a>\]
   > (by [[wrapped brane|wrapping]] [[M5-branes]] on, among others, Seifert manifolds)
