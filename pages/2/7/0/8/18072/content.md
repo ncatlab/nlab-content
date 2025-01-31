@@ -135,7 +135,8 @@ and the appearance of the [[string Lie 2-algebra]] as the [[Heisenberg Lie 2-alg
 
 (...)
 
-* [[Jan Ambjørn]], Y. Makeenko, _Stability of the nonperturbative bosonic string vacuum_ ([arXiv:1703.05382](https://arxiv.org/abs/1703.05382))
+* [[Jan Ambjørn]], Y. Makeenko: *Stability of the nonperturbative bosonic string vacuum*, Physics Letters B
+**770** (2017) 352-356 &lbrack;[arXiv:1703.05382](https://arxiv.org/abs/1703.05382), [doi:10.1016/j.physletb.2017.05.021](https://doi.org/10.1016/j.physletb.2017.05.021)&rbrack;
 
 
 [[!redirects bosonic strings]]
