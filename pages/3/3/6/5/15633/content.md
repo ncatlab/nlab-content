@@ -19,7 +19,8 @@
 
 ## Idea
 
-Parastatistics is an exotic kind of [[particle statistics]] where [[permutations]] of "indistinguishable particles" transform their space of [[quantum states]] by *higher* [[dimension of a vector space|dimensional]] [[irrep|irreducible]] [[linear representations]] of the [[symmetric group]] (cf. [Halvorson 2007 §14.4.2-4](#Halvorson07), [Wang & Hazzard 2025, below (4)](#WangHazzard25)).
+Parastatistics is an exotic kind of [[particle statistics]] where [[permutations]] of "indistinguishable particles" transform their space of [[quantum states]] by *higher* [[dimension of a vector space|dimensional]] [[irrep|irreducible]] [[linear representations]] of the [[symmetric group]] ([Messiah & Greenberg 1964](#MessiahGreenberg64),
+cf. [Halvorson 2007 §14.4.2-4](#Halvorson07), [Wang & Hazzard 2025, below (4)](#WangHazzard25)).
 
 In generality of its transformation properties, parastatistics is in-between ordinary [[boson]]/[[fermion]]-[[particle statistics|statistics]] and the yet more general [[braid group statistics]]. But while [[braid group statistics]] is usually associated only with particles ("[[anyons]]") that are restricted to an effectively 2-[[dimension of a manifold|dimensional]] [[surface]], parastatistics -- to the extent that it applies at all -- is thought to apply in principle in any dimension. (Concretely for $d = 3$ see [Freedman, Hastings, Nayak, Qi, Walker & Wang 2011](#FreedmanHastingsNayakQiWalkerWang11))
 
@@ -34,17 +35,29 @@ In generality of its transformation properties, parastatistics is in-between ord
 
 ## References
 
-The original notion:
+The notion originates with "triple commutator"-relations motivated in a [[quantum field theory|field theoretic]]/[[second quantization|second quantized]] context:
 
 * {#Green53} H. S. Green: *A generalized method of field quantization*,  Phys. Rev. **90** (1953) 270-273 &lbrack;[doi:10.1103/PhysRev.90.270](https://doi.org/10.1103/PhysRev.90.270)&rbrack;
 
-* O. W. Greenberg, A. M. L. Messiah: *Selection Rules for Parafields and the Absence of Para Particles in Nature*, Phys. Rev. **138** (1965) B1155 &lbrack;[doi:10.1103/PhysRev.138.B1155](https://doi.org/10.1103/PhysRev.138.B1155)&rbrack;
+* O. W. Greenberg, [[Albert M. L. Messiah]]: *Selection Rules for Parafields and the Absence of Para Particles in Nature*, Phys. Rev. **138** (1965) B1155 &lbrack;[doi:10.1103/PhysRev.138.B1155](https://doi.org/10.1103/PhysRev.138.B1155)&rbrack;
 
 Proof that the triple-bracket algebra of [Green 1953](#Green53) ---  for $m$ parafermionic and $n$ parabosonic degrees of freedom --- is [[isomorphism|isomorphic]] to the [[orthosymplectic super Lie algebra]] $\mathfrak{osp}_{1 + 2m\vert 2n}$: 
 
 * Tchavdar D. Palev: *Para‐Bose and para‐Fermi operators as generators of orthosymplectic Lie superalgebras*, J. Math. Phys. **23** (1982) 1100–1102 &lbrack;[doi:10.1063/1.525474](https://doi.org/10.1063/1.525474)&rbrack;
 
-The relation of this to [[representation theory of the symmetric group]] is discussed by 
+The alternative "[[quantum mechanics|first quantized]]" perspective (at fixed particle number) abs with it the relation to the [[representation theory of the symmetric group]] originates with:
+
+* {#MessiahGreenberg64} [[Albert M. L. Messiah]], O. W. Greenberg: *Symmetrization Postulate and Its Experimental Foundation*, Phys. Rev. **136** (1964) B248 &lbrack;[doi:10.1103/PhysRev.136.B248](https://doi.org/10.1103/PhysRev.136.B248)&rbrack;
+  > (where [[irreps]] of the [[symmetric group]] are called "generalized rays")
+
+* [[James B. Hartle]], [[John R. Taylor]]: *Quantum Mechanics of Paraparticles*, Phys. Rev. **178** (1969) 2043 &lbrack;[doi:10.1103/PhysRev.178.2043](https://doi.org/10.1103/PhysRev.178.2043)&rbrack;
+
+* [[Robert H. Stolt]], [[John R. Taylor]]: *Correspondence between the first- and second-quantized theories of paraparticles*, Nuclear Physics B **19** 1 (1970) 1-19 &lbrack;<a href="https://doi.org/10.1016/0550-3213(70)90024-6">doi:10.1016/0550-3213(70)90024-6</a>&rbrack;
+
+* [[James B. Hartle]], [[Robert H. Stolt]], [[John R. Taylor]]: *Paraparticles of Infinite Order*, Phys. Rev. D 2 (1970) 1759 &lbrack;<a href="https://doi.org/10.1016/0550-3213(70)90024-6">doi:10.1016/0550-3213(70)90024-6</a>&rbrack;
+
+
+On a relation between the triple-bracket algebra of  [Green 1953](#Green53) to the [[representation theory of the symmetric group]]:
 
 * [[Jean-Louis Loday]], Todor Popov: *Parastatistics algebra and super semistandard Young tableaux*, in: V.K. Dobrev et al. (eds.), *Lie Theory and Its Applications in Physics VII*, Heron Press, Sofia (2008) &lbrack;[arXiv:0711.3648](https://arxiv.org/abs/0711.3648), [pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/2008LodayPopov&28Parastat%29.pdf)&rbrack;
 
@@ -69,6 +82,11 @@ Discussion via [[algebraic quantum field theory]] and [[DHR superselection theor
 Further discussion:
 
 * [[F. Duncan M. Haldane]]: *"Fractional statistics" in arbitrary dimensions: A generalization of the Pauli principle*,     Phys. Rev. Lett. **67** (1991) 937-940 &lbrack;[doi:10.1103/PhysRevLett.67.937](https://doi.org/10.1103/PhysRevLett.67.937), [inSpire:321137](https://inspirehep.net/literature/321137)&rbrack;
+
+* [[Alexios P. Polychronakos]]: *Path Integrals and Parastatistics*, Nucl. Phys. B **474** (1996) 529-539 &lbrack;<a href="https://doi.org/10.1016/0550-3213(96)00277-5">doi:10.1016/0550-3213(96)00277-5</a>, 
+[arXiv:hep-th/9603179](https://arxiv.org/abs/hep-th/9603179)&rbrack;
+
+
 
 * Boyka Aneva, Todor Popov: *Hopf structure and Green ansatz of deformed parastatistics algebras*, J. Phys. A: Math. Gen. **38** (2005) 6473 &lbrack;[doi:10.1088/0305-4470/38/29/004](https://iopscience.iop.org/article/10.1088/0305-4470/38/29/004)&rbrack;
 
