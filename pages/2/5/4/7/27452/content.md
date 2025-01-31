@@ -26,14 +26,20 @@ This symmetry is meant in a _stochastic_ sense: it says that *given any trajecto
 
 ## Definition
 
-(...)
+A [[stationary stochastic process]] $(X_t)_{t\in T}$ is called **time-reversible** if and only if for all finite $t_1 \lt \dots \lt t_n$, we have that the finite [[joint and marginal distribution|marginals]]
+$$
+(X_{t_1},\dots,X_{t_n}) \qquad and \qquad (X_{t_n},\dots,X_{t_1})
+$$
+have the same [[joint distribution]].
+
+(The definition outside the stationary case does not seem to appear in the literature.)
+
 
 ## Examples
 
-* A [[Markov process]] or [[Markov chain]] is reversible if and only if it satisfies [[detailed balance]].
-* Every [[exchangeable process]] is time-reversible.
+* A [[Markov process]] or [[Markov chain]] is time-reversible if and only if it satisfies [[detailed balance]]. In particular, every [[idempotent Markov chain]] is time-reversible.
+* Every [[exchangeable process]] is time-reversible, in particular [[Bernoulli processes]] are.
 
-(...)
 
 ## Related entries
 
