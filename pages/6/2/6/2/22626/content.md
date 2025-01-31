@@ -244,7 +244,7 @@ See also:
 
 * Wikipedia, _[Quantum circuit](http://en.wikipedia.org/wiki/Quantum_circuit)_
 
-* Stephen P. Jordan, Sec. 1.2 in: *Quantum Computation Beyond the Circuit Model* ([arXiv:0809.2307](https://arxiv.org/abs/0809.2307))
+* Stephen P. Jordan, Sec. 1.2 in: *Quantum Computation Beyond the Circuit Model*, PhD thesis, MIT (2010) &lbrack;[arXiv:0809.2307](https://arxiv.org/abs/0809.2307), [pdf](http://web.mit.edu/2.111/www/2010/MIT-stephen-jordan-phd-thesis-may08.pdf)&rbrack;
 
 On quantum circuits as ([[geodesic]], if optimal) [computational paths](computation#ReferencesConceptualizationViaPathLifting):
 
