@@ -34,6 +34,10 @@ Under the expected [[K-theory classification of topological phases of matter]], 
 
 * on the [[Hamiltonian]] and its related [[observables]] (specifically: the [[Fredholm operators]] $F$ whose space classifies K-theory) by [[complex conjugation]] $T \colon F \mapsto \overline{F}$.
 
+## In other fields
+
+For similar notions in [[probability theory]], [[statistical physics]] and [[dynamical systems]], see [[time-reversible stochastic process]] and [[detailed balance]].
+
 ## Related concepts
 
 * [[CPT theorem]]
@@ -41,6 +45,8 @@ Under the expected [[K-theory classification of topological phases of matter]], 
 * [[antiunitary operator]]
 
 * [[Wigner's theorem]]
+
+* [[time-reversible stochastic process]]
 
 ## References
 
