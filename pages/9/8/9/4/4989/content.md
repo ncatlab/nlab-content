@@ -18,6 +18,7 @@
 A **cohesive site** is a small [[site]] whose [[topos of sheaves]] is a [[cohesive topos]].
 
 ## Definition
+ {#Definition}
 
 
 +-- {: .num_defn}
@@ -41,12 +42,12 @@ Let $C$ be a [[small site|small]] [[site]], i.e. a [[small category]] equipped w
 ## Properties
 
 ### Sheaves on a cohesive site are cohesive
+ {#SheavesOnACohesiveSiteAreCohesive}
 
 +-- {: .num_prop}
 ###### Proposition
 
-For $C$ a cohesive site, the [[category of sheaves]] $Sh(C)$ on $C$ 
-is a [[cohesive topos]] over [[Set]] for which _[[pieces have points]]_ .
+For $C$ a cohesive site, the [[category of sheaves]] $Sh(C)$ on $C$ is a [[cohesive topos]] over [[Set]] for which _[[pieces have points]]_ .
 
 =--
 
@@ -204,6 +205,11 @@ and
 * [[local site]] / [[∞-local site]]
 
 * **cohesive site** / [[∞-cohesive site]]
+
+
+## References
+
+* [[Urs Schreiber]]: §3.4.2.1 in: *[[schreiber:dcct|Differential cohomology in a cohesive $\infty$-topos]]* &lbrack;[arXiv:1310.7930](https://arxiv.org/abs/1310.7930)&rbrack;
 
 
 
