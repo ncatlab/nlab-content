@@ -46,7 +46,7 @@ This symmetry is meant in a _stochastic_ sense: it says that *given any trajecto
 
 ## References
 
-* Wikipedia, _[Ergodic process](http://en.wikipedia.org/wiki/Time_reversibility)_
+* Wikipedia, _[Time reversibility](http://en.wikipedia.org/wiki/Time_reversibility)_
 
 * {#ergodic_dagger} Noé Ensarguet, [[Paolo Perrone]], Categorical probability spaces, ergodic decompositions, and transitions to equilibrium, [arXiv:2310.04267](https://arxiv.org/abs/2310.04267)
 
