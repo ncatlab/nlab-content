@@ -100,6 +100,28 @@ There is a natural bijective correspondence between congruences on a quantale $Q
 
 Aside from being "noncommutative frames", a different way of thinking about quantales views them as a [[(0,1)-category|(0,1)-categorical]] analogue of a [[cosmos]] (in the sense of Benabou).  In particular, one can then study [[enriched categories]] over a quantale. A classic example is Lawvere [[metric space]]s, seen as categories enriched in the quantale $([0, \infty], \geq)$ with $+$ taken as tensor product. 
 
+For a quantale $Q$, one can define the category $Q$-Cat of $Q$-categories and $Q$-functors. Objects are pairs $(X,d_X)$ where $X$ is a set and $d_x\colon X \times X \to Q$ is a symmetric and transitive $Q$-valued relation, while arrows $f\colon (X,d_X) \to (Y.d_Y)$ are non-expansive functions (namely $d_X(x_1,x_2) \leq d_Y(f(y_1,y_2))$).
+
+When $Q$ is a commutative affine quantale, $Q$-Cat is both cartesian and monoidal closed: the categorical and the monoidal products of $(X,d_X)$ and $(Y,d_Y)$ are given respectively by $(X\times Y, d^\wedge_{X\times Y})$ and $(X\times Y, d^\otimes_{X\times Y})$ where \[d^\wedge_{X\times Y}(x_1,y_1,x_2,y_2):= d_X(x_1,x_2) \wedge d_Y(y_1,y_2) \text{ and } d^\otimes_{X\times Y}(x_1,y_1,x_2,y_2):= d_X(x_1,x_2) \otimes d_Y(y_1,y_2)\text{.}\]
+
+If $Q$ is idempotent (i.e., $\wedge=\otimes$), then $Q$-Cat is a cartesian closed category.
+
+The converse implication does not hold in general, as discussed in [Clementino & Hofmann & Tholen (2003)](#Clementino2003), [Clementino & Hofmann (2006)](#Clementino2006), [Clementino & Hofmann & Stubbe (2009)](#Clementino2009) and [Stubbe & Yu](#Stubbe25) in the more general context of \textit{quantaloid}-enriched categories. In particular, in [Stubbe & Yu](#Stubbe25), the authors provide a necessary and sufficient condition for $Q$-Cat to be cartesian closed.
+\begin{proposition}
+Let $Q$ be a quantale, then $Q$-Cat is cartesian closed if and only if
+    \begin{itemize}
+    \item the underlying sup-lattice of $Q$ is a frame (i.e., $(a\wedge -)$ has a right adjoint for every $a\in Q$ or equivalently $\wedge$ distributes over arbitrary joins);
+    \item for every $a,b,c\in Q$ then 
+   $ (a \otimes b)\wedge c= ((a \wedge c)\otimes (b\wedge 1) ) \vee ((1\wedge a)\otimes (b\wedge c))$
+\end{itemize}
+\end{proposition}
+
+
+\begin{remark}
+The above correspondence does not imply that if $Q$-Cat is cartesian closed then $Q$ is idempotent. Indeed, the three element quantale $\{\top,v,\bot\}$ where $v\otimes v= \bot$ satisfies the above conditions but it is not idempotent.
+\end{remark}
+
+
 Enrichment is often particularly interesting for $*$-quantales (see below), where one can study $*$-enriched categories. 
 
 ## Examples ##
@@ -219,6 +241,18 @@ A connection between topoi, "Grothendieck" quantales and $C^\ast$-algebras
  Sheaves on a quantale
 
 * [[Francis Borceux]], Rosanna Cruciani, Sheaves on a quantale, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1993) 34:3, page 209-228 [pdf](http://archive.numdam.org/article/CTGDC_1993__34_3_209_0.pdf)
+
+For exponentiability in $Q$-Cat
+
+* {#Clementino2003} Clementino, Maria Manuel, Dirk Hofmann, and Walter Tholen. "Exponentiability in categories of lax algebras." (2003).
+
+* {#Clementino2006} Clementino, Maria Manuel, and Dirk Hofmann. "Exponentiation in V-categories." Topology and its Applications 153, no. 16 (2006): 3113-3128.
+
+* {#Clementino2009} Clementino, Maria Manuel, Dirk Hofmann, and Isar Stubbe. "Exponentiable functors between quantaloid-enriched categories." Applied Categorical Structures 17 (2009): 91-101.
+
+* {#Stubbe25} Stubbe, Isar, and Junche Yu. "When is Cat (Q) cartesian closed?." arXiv preprint arXiv:2501.03942 (2025).
+
+
 
 category: order, noncommutative geometry
 [[!redirects quantale]]
