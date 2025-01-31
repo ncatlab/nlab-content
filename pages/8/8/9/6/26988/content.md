@@ -23,7 +23,7 @@ $$
 \frac{2+3+5}{3} \;=\; \frac{10}{3} \;\approx\; 3.33 .
 $$
 
-The name *empirical mean* denotes both the distribution obtained by sampling a finite amount of data, as well as the limit (when it exists) resulting from an infinite sequence of observations, usually generated from a [[stochastic process]]. 
+The name *empirical mean* denotes both the quantity obtained by sampling a finite amount of data, as well as the limit (when it exists) resulting from an infinite sequence of observations, usually generated from a [[stochastic process]]. 
 
 In [[statistics]] it is used as an [[estimator]] of the [[expectation value]] of a [[random variable]] whenever it is possible to take [[iid samples]].
 
@@ -53,7 +53,7 @@ If the $x_i$ are [[random variables]], and so they form a [[stochastic process]]
 
 * The [[law of large numbers]] says that, under some conditions, the limiting empirical mean of an [[iid process]] equals the [[expectation value]] of the process.
 
-* More generally, the [[ergodic theorem]] says that, under some conditions, the limiting empirical mean a [[random variable]] on an [[ergodic process]] equals its [[conditional expectation]] with respect to the [[invariant sigma-algebra]].
+* More generally, the [[ergodic theorem]] says that, under some conditions, the limiting empirical mean of a [[random variable]] on a [[stationary process]] (for example an [[ergodic process]]) equals its [[conditional expectation]] with respect to the [[invariant sigma-algebra]].
 
 
 ## See also 
