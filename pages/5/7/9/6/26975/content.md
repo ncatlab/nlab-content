@@ -73,7 +73,7 @@ A [[measurable subset]] $A\subseteq X$ is called **invariant** if and only if fo
 
 Invariant sets form naturally a [[sigma-algebra]], often called the **invariant sigma-algebra**. 
 
-The [[exchangeable sigma-algebra]] and the [[tail sigma-algebra]] are examples of this. (Sometimes one uses the almost sure versions, see [below](#almost_surely_invariant_sets).)
+The [[exchangeable sigma-algebra]] is an example of this. (Sometimes one uses the almost sure version, see [below](#almost_surely_invariant_sets).)
 
 The invariant sigma-algebra gives a [[colimit]] of the [[action]] of $M$ in the [[Stoch|category of Markov kernels]] ([MP'23](#markov_ergodic)). More precisely, denote by $X_inv$ the set $X$ together with the invariant sigma-algebra, and denote by $q:X\to X_inv$ the kernel [[Markov kernel#kernels_from_deterministic_functions|induced by]] the set-theoretic identity. 
 Then the $(X_inv,q)$ forms a universal [[cocone]] (i.e. [[colimit]]), meaning that for every kernel $k:X\to Y$ satisfying $k\circ m=k$, (i.e. right-invariant under the action of $m$), there exists a unique kernel $u:X_inv\to Y$ making the following diagram commute,
