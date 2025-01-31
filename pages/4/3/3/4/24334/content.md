@@ -92,6 +92,18 @@ $$\partial \Delta^1 \coloneqq \sum_{t:\Delta^1} [(t =_{\Delta^1} 0) + (t =_{\mat
 * The boundary of the $2$-simplex is defined as
 $$\partial \Delta^2 \coloneqq \sum_{t:\mathrm{Fin}(2) \to \mathbb{2}} [(t(0) =_{\mathbb{2}} 0) \times (t(0) \leq t(1)) + (t(0) =_{\mathbb{2}} t(1)) + (t(0) \leq t(1)) \times (t(1) =_{\mathbb{2}} 1)]$$
 
+### Modalities
+
+Simplicial type theory has recently been augmented with various [[modalities]] in the sense of [[modal type theory]] ([Gratzer, Weinberger, & Buchholtz 2024](#GWB24), [Gratzer, Weinberger, & Buchholtz 2025](#GWB25)). These modalities include 
+
+* The [[op modality]] $A^\op$
+
+* The [[global sections]] [[flat modality]] $\flat A$
+
+* The [[sharp modality]] $\sharp A$
+
+* The [[twisted arrow modality]] $A^\mathrm{tw}$
+
 ## See also
 
 * [[Reedy model structure]]
@@ -112,8 +124,6 @@ $$\partial \Delta^2 \coloneqq \sum_{t:\mathrm{Fin}(2) \to \mathbb{2}} [(t(0) =_{
 
   * [[two-level type theory]]
 
-* [[op modality]]
-
 ## References
 
 * {#RiehlShulman17} [[Emily Riehl]], [[Mike Shulman]], *A type theory for synthetic ∞-categories*, Higher Structures **1** 1 (2017) &lbrack;[arxiv:1705.07442](https://arxiv.org/abs/1705.07442), [published article](https://higher-structures.math.cas.cz/api/files/issues/Vol1Iss1/RiehlShulman)&rbrack;
@@ -126,6 +136,8 @@ $$\partial \Delta^2 \coloneqq \sum_{t:\mathrm{Fin}(2) \to \mathbb{2}} [(t(0) =_{
 * [[Jonathan Weinberger]], *Generalized Chevalley criteria in simplicial homotopy type theory*, [arXiv:2403.08190](https://arxiv.org/abs/2403.08190)
 
 * {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
+
+* {#GWB25} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The Yoneda embedding in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
 
 A talk on [[synthetic (infinity,1)-category theory]] in [[simplicial type theory]] and [[infinity-cosmos]] theory:
 
