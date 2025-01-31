@@ -187,6 +187,9 @@ See also:
 
 * [[Glenn Barnich]], Sucheta Majumdar, [[Simone Speziale]], Wen-Di Tan, *Lessons from discrete light-cone quantization for physics at null infinity: Bosons in two dimensions* &lbrack;[arXiv:2401.14873](https://arxiv.org/abs/2401.14873)&rbrack;
 
+* Philip D. Mannheim; *Physics on and off the light cone* &lbrack;[arXiv:2501.18068](https://arxiv.org/abs/2501.18068)&rbrack;
+
+
 
 
 Lecture notes:
