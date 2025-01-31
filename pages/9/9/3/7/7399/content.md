@@ -115,9 +115,9 @@ References on the history of dessins d'enfants
 
 * Lieven Le Bruyn, Klein's dessins d'enfant and the buckyball, 2008. [web](http://www.neverendingbooks.org/index.php/kleins-dessins-denfant-and-the-buckyball.html){#KleinsDessins}
 
-Connection to [[matrix model]]s and integrable hierarchies is discussed in
+Relation to [[matrix models]] and [[integrable hierarchies]]:
 
-* Jan Ambj&#248;rn, Leonid Chekhov, _The matrix model for dessins d'enfants_, [arxiv/1404.4240](http://arxiv.org/abs/1404.4240)
+* [[Jan Ambjørn]], Leonid Chekhov: *The matrix model for dessins d'enfants*, Ann. Inst. Henri Poincaré Ser D **1** 3 (2014) 337-361 &lbrack;[arXiv:1404.4240](https://arxiv.org/abs/1404.4240), [doi:10.4171/aihpd/10](https://doi.org/10.4171/aihpd/10)&rbrack;
 
 On a relation to [[super multiplet]] classification via [[adinkras]]:
 
