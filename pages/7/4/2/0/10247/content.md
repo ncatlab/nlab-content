@@ -77,7 +77,7 @@ Sometimes, more generally, a dynamical system or a stochastic process are called
 ## Related entries
 
 * [[probability theory]], [[categorical probability]]
-* [[invariant measure]], [[invariant set]]
+* [[invariant measure]], [[invariant set]], [[stationary process]]
 * [[ergodic decomposition theorem]], [[ergodic theorem]]
 * [[de Finetti's theorem]], [[zero-one law]]
 * [[Markov process]], [[Markov kernel]], [[Markov category]]
