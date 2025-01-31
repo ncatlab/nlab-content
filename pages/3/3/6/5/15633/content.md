@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Parastatistics
 * table of contents
 {: toc}
@@ -64,9 +65,14 @@ On a relation between the triple-bracket algebra of  [Green 1953](#Green53) to t
 
 Review:
 
+* Vo-Dai Thien: *First and second quantization theories of parastatistics*, PhD thesis, McMaster (1972) &lbrack;[pdf](https://macsphere.mcmaster.ca/bitstream/11375/20671/1/Vo-Dai_Thien_1972Jul_Ph.D..pdf)&rbrack;
+
 * Y. Ohnuki, S. Kamefuchi: *Quantum field theory and parastatistics*, Springer (1982) &lbrack;[ISBN:9783642686245](https://link.springer.com/book/9783642686245)&rbrack;
 
-* {#WangHazzard25} Zhiyuan Wang, Kaden R. A. Hazzard: *Particle exchange statistics beyond fermions and bosons*, Nature **637** (2025) 314-318 &lbrack;[arXiv:2308.05203](https://arxiv.org/abs/2308.05203), [doi:10.1038/s41586-024-08262-7](https://doi.org/10.1038/s41586-024-08262-7)&rbrack;
+* Wikipedia: *[Parastatistics](http://en.wikipedia.org/wiki/Parastatistics)*, 
+
+* Wikipedia: *[Klein transformation](http://en.wikipedia.org/wiki/Klein_transformation)*
+
 
 Discussion via [[algebraic quantum field theory]] and [[DHR superselection theory]]:
 
@@ -86,27 +92,35 @@ Further discussion:
 * [[Alexios P. Polychronakos]]: *Path Integrals and Parastatistics*, Nucl. Phys. B **474** (1996) 529-539 &lbrack;<a href="https://doi.org/10.1016/0550-3213(96)00277-5">doi:10.1016/0550-3213(96)00277-5</a>, 
 [arXiv:hep-th/9603179](https://arxiv.org/abs/hep-th/9603179)&rbrack;
 
-
-
 * Boyka Aneva, Todor Popov: *Hopf structure and Green ansatz of deformed parastatistics algebras*, J. Phys. A: Math. Gen. **38** (2005) 6473 &lbrack;[doi:10.1088/0305-4470/38/29/004](https://iopscience.iop.org/article/10.1088/0305-4470/38/29/004)&rbrack;
 
 * K. Kanakoglou, C. Daskaloyannis: *Paraboson quotients. A braided look at Green ansatz and a generalization*, J. Math. Phys. **48** (2007) 113516 &lbrack;[arXiv:0901.4320](https://arxiv.org/abs/0901.4320), [doi:10.1063/1.2816258](https://doi.org/10.1063/1.2816258)&rbrack;
 
 * N.I. Stoilova, J. Van der Jeugt: *Partition functions and thermodynamic properties of paraboson and parafermion systems*, Physics Letters A **384** 21 (2020) 126421 &lbrack;[doi:10.1016/j.physleta.2020.126421](https://doi.org/10.1016/j.physleta.2020.126421)&rbrack;
 
+On [[permutation representations]], such as arising in parastatistics, as [[quantum gates]] for [[quantum computing]] akin to [[anyon]]-based [[topological quantum computing]]:
+
+* Stephen P. Jordan, pp 108 in: *Quantum Computation Beyond the Circuit Model*, PhD thesis, MIT (2010) &lbrack;[arXiv:0809.2307](https://arxiv.org/abs/0809.2307), [pdf](http://web.mit.edu/2.111/www/2010/MIT-stephen-jordan-phd-thesis-may08.pdf)&rbrack;
+
+* Stephen P. Jordan: *Permutational Quantum Computing*, Quantum Information and Computation **10** (2010) 470 &lbrack;[arXiv:0906.2508](https://arxiv.org/abs/0906.2508), [doi:10.26421/QIC10.5-6-7](https://doi.org/10.26421/QIC10.5-6-7)&rbrack;
+
+* Stephen P. Jordan: *Permutational Quantum Computation*, talk at *[Complexity Resources in Physical Computation](https://www.cs.ox.ac.uk/crpc09/)*, Oxford (2009)  &lbrack;[pdf](https://www.cs.ox.ac.uk/crpc09/jordan.pdf)&rbrack;
+
+* Michel Planat, Rukhsan Ul Haq: *The Magic of Universal Quantum Computing with Permutations*, Advances in Mathematical Physics **2017** 287862 (2017) &lbrack;[doi:10.1155/2017/5287862](https://doi.org/10.1155/2017/5287862)&rbrack;
+
 Concrete lattice models for a kind of parastatistics in 3d:
 
 * {#FreedmanHastingsNayakQiWalkerWang11} [[Michael Freedman]], [[Matthew B. Hastings]], [[Chetan Nayak]], [[Xiao-Liang Qi]], [[Kevin Walker]], [[Zhenghan Wang]]: *Projective Ribbon Permutation Statistics: a Remnant of non-Abelian Braiding in Higher Dimensions*, Phys. Rev. B **83** 115132 (2011) &lbrack;[doi:10.1103/PhysRevB.83.115132](https://doi.org/10.1103/PhysRevB.83.115132), [arXiv:1005.0583](https://arxiv.org/abs/1005.0583)&rbrack;
 
+Claim of parastatistical [[quasiparticles]] emerging in low dimensiona quantum spin systems:
+
+* {#WangHazzard25} Zhiyuan Wang, Kaden R. A. Hazzard: *Particle exchange statistics beyond fermions and bosons*, Nature **637** (2025) 314-318 &lbrack;[arXiv:2308.05203](https://arxiv.org/abs/2308.05203), [doi:10.1038/s41586-024-08262-7](https://doi.org/10.1038/s41586-024-08262-7)&rbrack;
 
 
 
 
 See also:
 
-* Wikipedia: *[Parastatistics](http://en.wikipedia.org/wiki/Parastatistics)*, 
-
-* Wikipedia: *[Klein transformation](http://en.wikipedia.org/wiki/Klein_transformation)*
 
 
 * Fred Cooper, Avinash Khare, Uday Sukhatme: _Parasupersymmetry in quantum mechanics_, J. Math. Phys. **34** (1993) 1277–1294 &lbrack;[doi:10.1063/1.530209](https://doi.org/10.1063/1.530209)&rbrack;
