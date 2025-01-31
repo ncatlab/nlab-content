@@ -39,7 +39,7 @@ Equivalently, it is stationary if the complete [[joint distribution]] on $X^T$ i
 
 ## Examples
 
-* A [[Markov chain]] is stationary if and only if its [[transition kernel]] is a (time-independent) [[measure-preserving Markov kernel]].
+* A [[Markov chain]] is stationary if and only if its [[transition kernel]] is a time-independent [[measure-preserving Markov kernel]].
 * [[white noise|White noise]] is a continuous-time stationary process.
 * Every [[exchangeable process]] is stationary, in particular, [[Bernoulli processes]].
 * Every [[ergodic process]] is stationary.
