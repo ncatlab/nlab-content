@@ -33,7 +33,7 @@
 
 An *invariant measure* (a.k.a. *stationary* or *steady*) is a [[measure]] which is [[invariant]] under the [[action]] of a [[group]] or [[monoid]], often playing the role of [[time]], or a [[symmetry]] of the system.
 
-An action with an invariant measure is sometimes called a *stationary* or *steady-state* system.
+An action with an invariant measure is sometimes called a *stationary*, or *steady-state*, or *measure-preserving* dynamical system.
 
 It is an important concept in [[probability theory]], [[dynamical systems]], [[statistical physics]], and [[representation theory]].
 It is one of the weakest forms to mathematically formalize the idea of [[equilibrium]]. (Stronger forms of equilibrium are for example [[detailed balance]] and [[ergodicity]].)
@@ -50,7 +50,7 @@ p(m^{-1}(A)) \;=\; p(A) .
 $$
 
 A space $X$ together with an action of $M$ and a stationary measure $M$ is sometimes called a **stationary system**.
-In particular, a [[stochastic process]] whose underlying [[joint distribution]] is invariant is called a **stationary process**.
+In particular, a [[stochastic process]] whose underlying [[joint distribution]] is invariant is called a **[[stationary process]]**.
 
 Note that, similarly to [[invariant sets]], if a measure is invariant, it does *not* in general mean that *each point in the support of the measure is an invariant point*.
 The points may move, but their distribution overall is kept constant. 
@@ -161,6 +161,10 @@ category: probability
 [[!redirects invariant probability measures]]
 [[!redirects invariant state]]
 [[!redirects invariant states]]
+[[!redirects measure-preserving dynamical system]]
+[[!redirects measure-preserving dynamical systems]]
+[[!redirects measure preserving dynamical system]]
+[[!redirects measure preserving dynamical systems]]
 [[!redirects measure-preserving Markov kernel]]
 [[!redirects measure-preserving Markov kernels]]
 [[!redirects measure preserving Markov kernel]]
