@@ -191,6 +191,11 @@ On the early history of the development of quantum chromodynamics (the [[quark]]
 
 * [[Mikhail Shifman]], *OPE-based Methods in Nonperturbative QCD*, Eur. Phys. J. C (2022) &lbrack;[arXiv:2208.10600](https://arxiv.org/abs/2208.10600)&rbrack;
 
+See also:
+
+* Stefano Forte: *Asymptotic Freedom in Parton Language: the Birth of Perturbative QCD* &lbrack;[arXiv:2501.13158](https://arxiv.org/abs/2501.13158)&rbrack;
+
+
 
 ### Lattice QCD 
 
