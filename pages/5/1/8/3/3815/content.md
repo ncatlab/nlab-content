@@ -60,6 +60,10 @@ see [[homotopy Kan extension]]
 
 see [[homotopy Kan extension]]
 
+#### In simplicial type theory
+
+([Gratzer, Weinberger, & Buchholtz 2025, def 5.1](#GWB25))
+
 ## Properties
 
 ### Pointwise (strong)
@@ -97,7 +101,9 @@ Pointwise [[homotopy Kan extensions]] are discussed in
 
 * {#Gonzales11} Beatriz Rodriguez Gonzalez, section 4 of _Realizable homotopy colimits_ ([arXiv:1104.0646](http://arxiv.org/abs/1104.0646))
 
+Discussion in [[simplicial type theory]]:
 
+* {#GWB25} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The Yoneda embedding in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
 
 See also
 
