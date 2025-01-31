@@ -17,6 +17,8 @@ On [[synthetic (infinity,1)-category theory|synthetic $(\infty,1)$-category theo
 
 * [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
 
+* [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The Yoneda embedding in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
+
 On [[cubical-type model category|model structures on cubical sets]] and [[univalence axiom|univalent universes]]:
 
 * [[Thomas Streicher]], [[Jonathan Weinberger]]: *Simplicial sets inside cubical sets* &lbrack;[arXiv:1911.09594](https://arxiv.org/abs/1911.0959)&rbrack;, [Theory and Applications of Categories, Vol. 37, 2021, No. 10, pp 276–286](http://www.tac.mta.ca/tac/volumes/37/10/37-10abs.html)
