@@ -66,9 +66,9 @@ Isomonodromic interpretation is stemming already from the works of holonomic fie
 
 > In this paper we establish relations between three enumerative geometry tau-functions, namely the Kontsevich-Witten, Hurwitz and Hodge tau-functions. The relations allow us to describe the tau-functions in terms of matrix integrals, Virasoro constraints and Kac-Schwarz operators. All constructed operators belong to the algebra (or group) of symmetries of the KP hierarchy. 
 
-Connection of $\tau$-functions to [[dessins d'enfants]] is discussed in 
+Relation to [[dessins d'enfants]]:
 
-* Jan Ambj&#248;rn, Leonid Chekhov, _The matrix model for dessins d'enfants_, [arxiv/1404.4240](http://arxiv.org/abs/1404.4240)
+* [[Jan Ambjørn]], Leonid Chekhov: *The matrix model for dessins d'enfants*, Ann. Inst. Henri Poincaré Ser D **1** 3 (2014) 337-361 &lbrack;[arXiv:1404.4240](https://arxiv.org/abs/1404.4240), [doi:10.4171/aihpd/10](https://doi.org/10.4171/aihpd/10)&rbrack;
 
 A connection to elementary geometry is studied (with nice reference list) in
 
