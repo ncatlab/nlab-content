@@ -92,6 +92,7 @@ On $C$, this adjunction induces a [[comonad]], the [[stream comonad]].
 ## See also
 
 * [[exchangeability]], [[action]]
+* [[stationary stochastic process]]
 * [[stream comonad]]
 
 
