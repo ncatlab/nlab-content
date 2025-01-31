@@ -18,7 +18,7 @@
 
 In [[probability theory]], *iid* is shorthand for *independent and identically distributed*, and it's mostly used for [[random variables]].
 
-The notion of such random variables formalizes the idea of repeated independent coin flips or dice rolls: they are independent events, and the [[probability]] of each event (for example, each single coin flip) follows the same distribution.
+The notion of such random variables formalizes the idea of repeated independent coin flips or dice rolls: they are [[stochastic independence|independent events]], and the [[probability]] of each event (for example, each single coin flip) follows the same distribution.
 
 Another name for the same process is *Bernoulli process*.
 
