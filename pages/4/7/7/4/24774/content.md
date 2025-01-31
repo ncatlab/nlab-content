@@ -388,7 +388,7 @@ On spherically symmetric midi-[[superspace]]s in [[loop quantum gravity]]:
 
 An overview on the use of Euclidean Dynamical Triangulations and Causal Dynamical Triangulations as lattice regularizations of [[quantum gravity]]:
 
-* Jan Ambjorn, *Lattice Quantum Gravity: EDT and CDT*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2209.06555](https://arxiv.org/abs/2209.06555)&rbrack;
+* [[Jan Ambjørn]], *Lattice Quantum Gravity: EDT and CDT*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2209.06555](https://arxiv.org/abs/2209.06555)&rbrack;
 
 \linebreak
 
