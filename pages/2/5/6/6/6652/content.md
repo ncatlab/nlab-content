@@ -31,11 +31,20 @@ Discussion of [[gravitational waves]] in relation to the [[soft graviton theorem
 * Arnab Priya Saha, Biswajit Sahoo, [[Ashoke Sen]], _Proof of the Classical Soft Graviton Theorem in $D=4$_ ([arXiv:1912.06413](https://arxiv.org/abs/1912.06413))
 
 
-
 * [[Katrin Becker]], [[Melanie Becker]], [[Andrew Strominger]], section 2.1 of _Five-branes, membranes and nonperturbative string theory_, Nucl. Phys. B 456, 130 (1995) ([hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
 
 * Sergei Alexandrov, Jan Manschot, [[Boris Pioline]], _D3-instantons, Mock Theta Series and Twistors_, JHEP 1304 (2013) 
 002 ([arXiv:1207.1109](http://arxiv.org/abs/1207.1109))
+
+Derivation of the sub-leading [[soft graviton theorem]] (the *Sahoo-Sen soft theorem*) from the analysis of gravitational [[loop order|loop]]-[[amplitudes]]:
+
+* {#SahooSen18} [[Biswajit Sahoo]], [[Ashoke Sen]]: *Classical and Quantum Results on Logarithmic Terms in the Soft Theorem in Four Dimensions*,  J. High Energ. Phys. **2019** 86 (2019) &lbrack;<a href="https://doi.org/10.1007/JHEP02(2019)086">doi:10.1007/JHEP02(2019)086</a>, [arXiv:1808.03288](https://arxiv.org/abs/1808.03288)&rbrack;
+
+and discussion of application to [[gravitational waves]] and gravitational tail memory in the [[classical limit]]:
+
+* {#SahaSahooSen19} Arnab Priya Saha, [[Biswajit Sahoo]], [[Ashoke Sen]]: *Proof of the Classical Soft Graviton Theorem in $D=4$*, J. High Energ. Phys. **2020,** 153 (2020) &lbrack;<a href="https://doi.org/10.1007/JHEP06(2020)153">doi:10.1007/JHEP06(2020)153</a>, [arXiv:1912.06413](https://arxiv.org/abs/1912.06413)&rbrack;
+
+
 
 On [[Lagrangian densities]] for [[self-dual higher gauge fields]] (generically thought to be [[non-Lagrangian field theories]]) at the cost of an unusual decoupling [[auxiliary field]]:
 
