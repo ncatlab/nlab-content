@@ -117,13 +117,23 @@ Suppose $i$ is a trivial cofibration, and let $f : C \to D$ be a categorical fib
 
 * [[twisted arrow category]]
 
+* [[twisted arrow modality]]
+
 ## References
 
 * {#Lurie} [[Jacob Lurie]], _[[Formal moduli problems]]_ 
 
 * {#Kerodon} [[Kerodon]], *The Twisted Arrow Construction* $[$[kerodon:03JF](https://kerodon.net/tag/03JF)$]$
 
+* {#MR22} [[Chirantan Mukherjee]], [[Nima Rasekh]], *Twisted Arrow Construction for Segal Spaces* ([arXiv:2203.01788](https://arxiv.org/abs/2203.01788))
+
 [[!redirects twisted arrow (∞,1)-categories]]
 
 [[!redirects twisted arrow (infinity,1)-category]]
 [[!redirects twisted arrow (infinity,1)-categories]]
+
+[[!redirects twisted arrow construction]]
+[[!redirects twisted arrow constructions]]
+
+[[!redirects twisted arrows construction]]
+[[!redirects twisted arrows constructions]]
