@@ -24,6 +24,10 @@ On [[fractured (infinity,1)-toposes|fractured $\infty$-toposes]] in [[condensed 
 
 * [[Nima Rasekh]], *What is a topological structure?*, talk notes (April 2023) &lbrack;[pdf](https://guests.mpim-bonn.mpg.de/rasekh/Condensed.pdf), [[Rasekh-TopologicalStructure.pdf:file]]&rbrack;
 
+On the [[twisted arrow construction]] in [[(infinity,1)-category theory]]:
+
+* {#MR22} [[Chirantan Mukherjee]], [[Nima Rasekh]], *Twisted Arrow Construction for Segal Spaces* ([arXiv:2203.01788](https://arxiv.org/abs/2203.01788))
+
 ## Related entries
 
 * [[elementary (infinity,1)-topos]]
