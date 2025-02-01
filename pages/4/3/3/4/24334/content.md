@@ -98,7 +98,7 @@ Simplicial type theory has recently been augmented with various [[modalities]] i
 
 * The [[op modality]] $A^\op$
 
-* The [[global sections]] [[flat modality]] $\flat A$
+* The [[global sections]]/[[core]] [[flat modality]] $\flat A$
 
 * The [[sharp modality]] $\sharp A$
 
