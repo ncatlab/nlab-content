@@ -23,7 +23,7 @@
 
 There are many different ways to formalize the directed interval primitive in simplicial type theory: 
 
-* one could simply postulate in vanilla [[dependent type theory]] via inference rules and axioms a directed interval primitive as a [[bounded total order]], as in [Gratzer, Weinberger, & Buchholtz 2024](#GWB24). 
+* one could simply postulate in vanilla [[dependent type theory]] via inference rules and axioms a directed interval primitive as a [[bounded total order]], as in [Gratzer, Weinberger, & Buchholtz 2024](#GWB24) and [Gratzer, Weinberger, & Buchholtz 2025](#GWB25). 
 
 * one could use [[two-level type theory]] consisting of a non-fibrant layer, and then axiomatise a directed interval primitive as a [[bounded total order]] in the non-fibrant layer 
 
