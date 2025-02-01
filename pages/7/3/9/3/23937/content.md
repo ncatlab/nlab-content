@@ -82,7 +82,7 @@ Thus, these axioms imply that the collection of sets, functions, and elements fo
 
 An **injection** is a function $f:A \to B$ such that for every element $a \in A$ and $b \in A$, if $f(a) = f(b)$, then $a = b$. 
 
-**Axiom of truth values.** There is a set $\Omega$ called a **set of truth values** with an element $\bot \in \Omega$ called **true** such that for every set $A$ and $B$ and injection $f:A \to B$, there is a unique function $\chi_A:B \to \Omega$ called the **classifying function** of $A$ such that $A$ is the fiber of $\chi_A$ over $\bot$. 
+**Axiom of truth values.** There is a set $\Omega$ called a **set of truth values** with an element $\top \in \Omega$ called **true** such that for every set $A$ and $B$ and injection $f:A \to B$, there is a unique function $\chi_A:B \to \Omega$ called the **classifying function** of $A$ such that $A$ is the fiber of $\chi_A$ over $\top$. 
 
 **Axiom of function sets.** For every set $A$ and $B$ there is a set $B^A$ called the **function set** with a function $(-)((-)):B^A \times A \to B$ such that for every set $C$ and function $f:C \times A \to B$ there is a unique function $g:C \to B^A$ such that for all elements $c \in C$ and $a \in A$, $g(c)(a) = f(c, a)$. 
 
