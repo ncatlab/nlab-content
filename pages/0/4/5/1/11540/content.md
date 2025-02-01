@@ -22,7 +22,7 @@
 
 ### Functoriality w.r.t. functors
 
-Given a [[small category]] $C$, one can consider the [[category of presheaves]] $PSh(C, D)$ valued in some [[category]] $D$.  Given some assumptions on $D$, any [[functor]] of small categories $F \colon C \to C'$ induces two [[adjoint functors|adjoint pairs]]
+Given a [[small category]] $C$, one can consider the [[category of presheaves]] $PSh(C, D)$ valued in some [[category]] $D$.  Given that $D$ possesses small [[limits]] and [[colimits]], any [[functor]] of small categories $F \colon C \to C'$ induces two [[adjoint functors|adjoint pairs]]
 
   $$ F_! \,\colon\, PSh(C, D) \rightleftarrows PSh(C', D) \,\colon\, F^\ast $$
 
