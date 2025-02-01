@@ -179,7 +179,7 @@ In addition to the construction of [[sheaf|sheaves]] and [[stack|stacks]], other
 
 The notion of [[site]] and hence that of [[Grothendieck topology]], [[Grothendieck pretopology]] and coverage typically has its straightforward analogs in [[higher category theory]].
 
-in [[(∞,1)-category theory]] the corresponding notion is that of [[(∞,1)-site]]. Such an $(\infty,1)$-site has correspondingly its [[(∞,1)-category of (∞,1)-sheaves]]. A discussion of a [[model category]] [[presentable (∞,1)-category|presentation]] of this in terms of localization at a coverage is at [[model structure on simplicial presheaves]] in the section <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#LocalizationAtCoverage">Localization at a coverage</a>.
+in [[(∞,1)-category theory]] the corresponding notion is that of *[[(∞,1)-site]]*. Such an $(\infty,1)$-site has correspondingly its [[(∞,1)-category of (∞,1)-sheaves]]. A discussion of a [[model category]] [[presentable (∞,1)-category|presentation]] of this in terms of localization at a coverage is at...
 
 ## Related concepts
 
