@@ -22,33 +22,34 @@
 
 ### Functoriality w.r.t. functors
 
-Given a [[small category]] $C$, one can consider the [[category of presheaves]] $PSh(C, D)$ valued in some [[category]] $D$.  Given some assumptions on $D$, any [[functor]] of small categories $F : C \to C'$ induces two [[adjunction|adjoint pairs]]
+Given a [[small category]] $C$, one can consider the [[category of presheaves]] $PSh(C, D)$ valued in some [[category]] $D$.  Given some assumptions on $D$, any [[functor]] of small categories $F \colon C \to C'$ induces two [[adjoint functors|adjoint pairs]]
 
-  $$ F_! : PSh(C, D) \rightleftarrows PSh(C', D) : F^* $$
+  $$ F_! \,\colon\, PSh(C, D) \rightleftarrows PSh(C', D) \,\colon\, F^\ast $$
 
-  $$ F^* : PSh(C', D) \rightleftarrows PSh(C, D) : F_* $$
+  $$ F^* \,\colon\, PSh(C', D) \rightleftarrows PSh(C, D) \,\colon\, F_\ast $$
 
-Here, $F^*$ is given by precomposition with $F$, whereas $F_!$ and $F_*$ are the left and right (global) [[Kan extension]]s along $F$.
+Here, $F^\ast$ is given by precomposition with $F$, whereas $F_!$ and $F_\ast$ are the left and right (global) [[Kan extensions]] along $F$.
+
 
 ### Functoriality w.r.t. profunctors
 
 In fact, more generally, any [[profunctor]] $\mathcal{P} : C \nrightarrow C'$ (i.e. $\mathcal{P} : C \times {C'}^{op} \to D$ or, after [[currying]], $P : C \to PSh(C', D)$) gives rise to a single [[adjunction|adjoint pair]]
 
-  $$ P_\odot : PSh(C, D) \rightleftarrows PSh(C', D) : P^\odot $$
+  $$ P_\odot \,\colon\, PSh(C, D) \rightleftarrows PSh(C', D) \,\colon\, P^\odot $$
 
 ($P_\odot$ and $P^\odot$ are not standard notations) where $P_\odot$ is the [[Yoneda extension]] of $P$.
 
-A functor $F : C \to C'$ gives rise to two profunctors:
+A functor $F \,\colon\, C \to C'$ gives rise to two profunctors:
 
 * a [[companion]] profunctor $\hat F : C \nrightarrow C'$, given by
 
-  $$ \hat F : C \times {C'}^{op} \to D : (c, c') \mapsto Hom_{C'}(c', Fc). $$
+  $$ \hat F \,\colon\, C \times {C'}^{op} \to D : (c, c') \mapsto Hom_{C'}(c', Fc). $$
 
   After currying, this amounts to the functor $y \circ F : C \to PSh(C')$.
 
 * a [[conjoint]] profunctor $\check F : C' \nrightarrow C$, given by
 
-  $$ \check F : C' \times {C}^{op} \to D : (c', c) \mapsto Hom_{C'}(Fc, c'). $$
+  $$ \check F \,\colon\, C' \times {C}^{op} \to D \,\colon\, (c', c) \mapsto Hom_{C'}(Fc, c'). $$
 
   After currying, this amounts to the functor $F^* \circ y : C' \to PSh(C)$.
 
@@ -60,14 +61,14 @@ The latter profunctor produces the adjoint pair $F^* \dashv F_*$, i.e. $F^* \con
 +-- {: .num_defn}
 ###### Definition
 
-Let $F : C \to C'$ be a functor of small categories and $D$ some category.  The **[[restriction of scalars]]** functor $F^* : PSh(C', D) \to PSh(C, D)$ is given by the formula $H \mapsto H \circ f$, i.e. mapping a [[presheaf]] $H : C'^{op} \to D$ to the composite
+Let $F : C \to C'$ be a functor of small categories and $D$ some category.  The **[[restriction of scalars]]** functor $F^* \,\colon\, PSh(C', D) \to PSh(C, D)$ is given by the formula $H \mapsto H \circ f$, i.e. mapping a [[presheaf]] $H \,\colon\, C'^{op} \to D$ to the composite
   $$C^{op} \stackrel{F}{\to} C'^{op} \stackrel{H}{\to} D.$$
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 
-Suppose $D$ admits small [[colimits]] (resp. small [[limits]]).  Then the functor $F^*$ admits a [[left adjoint]] $F_!$ (resp. [[right adjoint]] $F_*$).
+Suppose $D$ admits small [[colimits]] (resp. small [[limits]]).  Then the functor $F^\ast$ admits a [[left adjoint]] $F_!$ (resp. [[right adjoint]] $F_\ast$).
 =--
 
 
@@ -76,7 +77,7 @@ Suppose $D$ admits small [[colimits]] (resp. small [[limits]]).  Then the functo
 +-- {: .num_lemma}
 ###### Lemma
 
-Let $F : C \rightleftarrows C' : G$ be an [[adjoint pair]] and consider the induced functors $(F_!, F^*, F_*)$ and $(G_!, G^*, G_*)$.  One has
+Let $F \,\colon\, C \rightleftarrows C' \,\colon\, G$ be an [[adjoint pair]] and consider the induced functors $(F_!, F^\ast, F_\ast)$ and $(G_!, G^*, G_*)$.  One has
 
 * $F_!$ is left adjoint to $G_!$,
 * $F^*$ is left adjoint to $G^*$,
