@@ -120,7 +120,7 @@ There is a natural bijective correspondence between congruences on a quantale $Q
 
 Aside from being "noncommutative frames", a different way of thinking about quantales views them as a [[(0,1)-category|(0,1)-categorical]] analogue of a [[cosmos]] (in the sense of Benabou).  In particular, one can then study [[enriched categories]] over a quantale. A classic example is Lawvere [[metric space]]s, seen as categories enriched in the quantale $([0, \infty], \geq)$ with $+$ taken as tensor product. 
 
-For a quantale $Q$, one can define the category $Q$-Cat of $Q$-categories and $Q$-functors. Objects are pairs $(X,d_X)$ where $X$ is a set and $d_x\colon X \times X \to Q$ is a symmetric and transitive $Q$-valued relation, while arrows $f\colon (X,d_X) \to (Y.d_Y)$ are non-expansive functions (namely $d_X(x_1,x_2) \leq d_Y(f(y_1,y_2))$).
+For a quantale $Q$, one can define the category $Q$-Cat of $Q$-categories and $Q$-functors. Objects are pairs $(X,d_X)$ where $X$ is a set and $d_x\colon X \times X \to Q$ is a symmetric and transitive $Q$-valued relation, while arrows $f\colon (X,d_X) \to (Y,d_Y)$ are non-expansive functions (namely $d_X(x_1,x_2) \leq d_Y(f(y_1,y_2))$).
 
 When $Q$ is a commutative affine quantale, $Q$-Cat is both cartesian and monoidal closed: the categorical and the monoidal products of $(X,d_X)$ and $(Y,d_Y)$ are given respectively by $(X\times Y, d^\wedge_{X\times Y})$ and $(X\times Y, d^\otimes_{X\times Y})$ where 
 
@@ -132,7 +132,7 @@ $$d^\otimes_{X\times Y}(x_1,y_1,x_2,y_2):= d_X(x_1,x_2) \otimes d_Y(y_1,y_2)\tex
 
 If $Q$ is idempotent (i.e., $\wedge=\otimes$), then $Q$-Cat is a cartesian closed category.
 
-The converse implication does not hold in general, as discussed in [Clementino & Hofmann & Tholen (2003)](#Clementino2003), [Clementino & Hofmann (2006)](#Clementino2006), [Clementino & Hofmann & Stubbe (2009)](#Clementino2009) and [Stubbe & Yu](#Stubbe25) in the more general context of \textit{quantaloid}-enriched categories. In particular, in [Stubbe & Yu](#Stubbe25), the authors provide a necessary and sufficient condition for $Q$-Cat to be cartesian closed.
+The converse implication does not hold in general, as discussed in [Clementino & Hofmann & Tholen (2003)](#Clementino2003), [Clementino & Hofmann (2006)](#Clementino2006), [Clementino & Hofmann & Stubbe (2009)](#Clementino2009) and [Stubbe & Yu](#Stubbe25) in the more general context of [[quantaloid]]-enriched categories. In particular, in [Stubbe & Yu](#Stubbe25), the authors provide a necessary and sufficient condition for $Q$-Cat to be cartesian closed.
 \begin{proposition}
 Let $Q$ be a quantale, then $Q$-Cat is cartesian closed if and only if
 
@@ -274,9 +274,9 @@ For exponentiability in $Q$-Cat
 
 * {#Clementino2003} Clementino, Maria Manuel, Dirk Hofmann, and Walter Tholen. "Exponentiability in categories of lax algebras." (2003).
 
-* {#Clementino2006} Clementino, Maria Manuel, and Dirk Hofmann. "Exponentiation in V-categories." Topology and its Applications 153, no. 16 (2006): 3113-3128.
+* {#Clementino2006} Clementino, Maria Manuel, and Dirk Hofmann. _Exponentiation in V-categories_. Topology and its Applications 153, no. 16 (2006): 3113-3128.
 
-* {#Clementino2009} Clementino, Maria Manuel, Dirk Hofmann, and Isar Stubbe. "Exponentiable functors between quantaloid-enriched categories." Applied Categorical Structures 17 (2009): 91-101.
+* {#Clementino2009} Clementino, Maria Manuel, Dirk Hofmann, and Isar Stubbe. _Exponentiable functors between quantaloid-enriched categories_. Applied Categorical Structures 17 (2009): 91-101.
 
 * {#Stubbe25} Stubbe, Isar, and Junche Yu. "When is Cat (Q) cartesian closed?." arXiv preprint arXiv:2501.03942 (2025).
 
