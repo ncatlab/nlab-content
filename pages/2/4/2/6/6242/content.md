@@ -199,12 +199,6 @@ Logical [[disjunction]] of such slice objects is given by the [[(-1)-truncation]
 
 The historical debate [above](#History) about justifying BvN logic as a formal logic is ultimately rooted in the fact that [[Vect]] is not a [[cartesian closed category]] (much less a [[locally cartesian closed category]]) so that its [[internal logic]] is exotic.
 
-{#QLogicInsideVectBund} (...)
-
-
-> fixing a mistake...
-
-
 
 
 
@@ -274,11 +268,18 @@ See at _[[Bohr topos]]_ for more.
 
 The original proposal on quantum logic:
 
-* {#BirkhoffvonNeumann36} [[Garrett Birkhoff]], [[John von Neumann]]: *The logic of quantum mechanics*, Annals of Mathematics **37** 823-843 (1936) &lbrack;[doi:10.2307/1968621](https://doi.org/10.2307/1968621), [pdf](http://www.fulviofrisone.com/attachments/article/451/the%20logic%20of%20quantum%20mechanics%201936.pdf)&rbrack;
+* {#BirkhoffvonNeumann36} [[Garrett Birkhoff]], [[John von Neumann]]: *The logic of quantum mechanics*, Annals of Mathematics **37** 823-843 (1936) &lbrack;[doi:10.2307/1968621](https://doi.org/10.2307/1968621)&rbrack;
 
 Historical account of [[John von Neumann]]'s further reasoning on quantum logic, which led him to develop the theory of [[von Neumann algebra factors]]:
 
 * [[Miklos Rédei]], *Why John von Neumann did not Like the Hilbert Space formalism of quantum mechanics (and what he liked instead)*, Studies in History and Philosophy of Modern Physics **27** 4 (1996) 493-510 &lbrack;<a href="https://doi.org/10.1016/S1355-2198(96)00017-2">doi:10.1016/S1355-2198(96)00017-2</a>&rbrack;
+
+Review:
+
+* [[Karl Svozil]]: *Quantum Logic*,  Discrete Mathematics and Theoretical Computer Science, Springer (1998) &lbrack;[ISBN:9789814021074](https://link.springer.com/book/9789814021074)&rbrack;
+
+* [[Karl Svozil]]: *Quantum logic. A brief outline* &lbrack;[arXiv:quant-ph/9902042](https://arxiv.org/abs/quant-ph/9902042)&rbrack;
+
 
 Proposal for an enhancement of the Birkhoff-von Neumann axioms by [[probability measures]]:
 
