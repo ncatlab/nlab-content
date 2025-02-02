@@ -1,5 +1,5 @@
 
-> For other uses of Ore condition, see [[Ore condition]]
+> For disambiguation see at *[[Ore condition]]*.
 
 ---- 
 
