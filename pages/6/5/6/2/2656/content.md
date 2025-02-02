@@ -15,7 +15,7 @@
 
 ## The idea
 
-Young diagrams (also called Ferrers diagrams) are used to describe many objects in algebra and combinatorics, including:
+*Young diagrams* (also called *Ferrers diagrams*) are used to describe various kinds of objects in [[algebra]], [[combinatorics]] and [[representation theory]], including:
 
 * integer [[partitions]].  For example, the integer partition 
 
@@ -50,11 +50,11 @@ Young diagrams (also called Ferrers diagrams) are used to describe many objects 
 </svg>
 =--
 
-* [[conjugacy classes]] in $S_n$.
+* [[conjugacy classes]] in [[symmetric groups]] $S_n$.
 
 * [[irreducible representations]]:
 
-  * [[irreducible representations]] of the [[symmetric groups]] $S_n$ over any field of characteristic zero
+  * [[irreducible representations]] of the [[symmetric groups]] $S_n$ over any [[field]] of [[characteristic zero]] (see [[representation theory of the symmetric group|here]])
 
   * [[irreducible representations|irreducible]] (algebraic) representation of the [[special linear groups]] $SL(N,\mathbb{C})$
 
@@ -170,6 +170,7 @@ A generalization of a Young diagram is a skew Young diagram. Let $\mu,\nu$ be tw
 * A skew diagram is called a **vertical strip** if every row contains at most one box.
 * conjugation, weight, length extend to skew diagrams accordingly.
 
+
 ## Young tableau
 
 ...
@@ -195,24 +196,24 @@ A generalization of a Young diagram is a skew Young diagram. Let $\mu,\nu$ be tw
 
 Quick introduction
 
-* Alexander Yong, What is ... a Young Tableau, _Notices of the American Mathematical Society_ *54* (February 2007), 240&#8211;241.   ([pdf](http://www.ams.org/notices/200702/whatis-yong.pdf))
+* Alexander Yong: *What is... a Young Tableau*, Notices of the American Mathematical Society **54** (2007) 240-241   &lbrack;[pdf](http://www.ams.org/notices/200702/whatis-yong.pdf)&rbrack;
 
 Textbook accounts are in any book on [[representation theory]] in general and on the [[representation theory of the symmetric group]] in particular; such as:
 
-* {#FultonHarris91} [[William Fulton]], [[Joe Harris]], _Representation Theory: a First Course_, Springer, Berlin, 1991 ([pdf](http://isites.harvard.edu/fs/docs/icb.topic1381051.files/fulton-harris-representation-theory.pdf))
+* {#FultonHarris91} [[William Fulton]], [[Joe Harris]], _Representation Theory: a First Course_, Springer (1991) &lbrack;[pdf](http://isites.harvard.edu/fs/docs/icb.topic1381051.files/fulton-harris-representation-theory.pdf)&rbrack;
 
-* {#Sagan2001} [[Bruce E. Sagan]], _The Symmetric Group: Representations, Combinatorial Algorithms, and Symmetric Functions_, Springer, 2001
+* {#Sagan2001} [[Bruce E. Sagan]]: _The Symmetric Group: Representations, Combinatorial Algorithms, and Symmetric Functions_, Springer (2001)
 
 More details:
 
-* Kazuhiko Koike, Itaru Terada, _Young-diagrammatic methods for the representation theory of the classical groups of type $B_n$, $C_n$, $D_n$_,  Journal of Algebra, Volume 107, Issue 2, May 1987, Pages 466-511
+* Kazuhiko Koike, Itaru Terada: _Young-diagrammatic methods for the representation theory of the classical groups of type $B_n$, $C_n$, $D_n$_,  Journal of Algebra, Volume 107, Issue 2, May 1987, Pages 466-511
 
 * [[William Fulton]], _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U. Press, 1997 ([doi:10.1017/CBO9780511626241](https://doi.org/10.1017/CBO9780511626241))
 
 * [[Ron M. Adin]], [[Yuval Roichman]], *Enumeration of Standard Young Tableaux*, Chapter 14 in: Miklós Bóna, *Handbook of Enumerative Combinatorics*, CRC Press 2015  ([arXiv:1408.4497](https://arxiv.org/abs/1408.4497), [ISBN:9781482220858](https://www.routledge.com/Handbook-of-Enumerative-Combinatorics/Bona/p/book/9781482220858))
 
 
-Connection to [[algebraic geometry]]:
+Relation to [[algebraic geometry]]:
 
 * [[Corrado de Concini]], [[D. Eisenbud]], [[Claudio Procesi]], _Young diagrams and determinantal varieties_, Invent. Math. __56__ (1980) 129--165.
 
