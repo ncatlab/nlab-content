@@ -40,10 +40,10 @@ The $R$-module $prim(N)$ of primitive elements of $N$ is [[natural isomorphism|n
      \,.
    $$
 
-1. the [[cotensor product]] of $N$ with $A$
+1. the [[cotensor product]] of $N$ with $R$
 
    $$
-     prim(N) \simeq A \Box_R N
+     prim(N) \simeq R \Box_R N
      \,.
    $$
 
