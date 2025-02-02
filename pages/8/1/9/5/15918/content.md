@@ -31,7 +31,7 @@ Against a fixed background of "[[sets]]" (which we consider [[category theory|ca
 
 * $\forall_{x, y} s(x) = s(y) \Rightarrow x = y$; 
 
-* (Second-order [[induction]]) $\forall_{I \subseteq N} [0 \in I \wedge (\forall_x x \in I \Rightarrow s(x) \in I] \Rightarrow I = N$. 
+* (Second-order [[induction]]) $\forall_{I \subseteq N} [0 \in I \wedge (\forall_x x \in I \Rightarrow s(x) \in I)] \Rightarrow I = N$. 
 
 Regarding $N$ as an [[algebra of an endofunctor]] $F(X) = 1 + X$, the first two axioms say that the structure map $(0, s): 1 + N \to N$ is [[monomorphism|monic]], and the [[induction]] axiom says that the only $F$-subalgebra of $N$ is $N$ itself. (In particular, $(0, s): F N \to N$ is tautologically an $F$-[[algebra of an endofunctor|algebra]] map where $F N$ is given the $F$-algebra structure $F(0, s): F F N \to F N$. Being [[monomorphism|monic]], the subalgebra $(0, s): F N \to N$ is an [[isomorphism]], by induction.) 
 
