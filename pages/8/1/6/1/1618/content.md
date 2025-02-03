@@ -259,7 +259,7 @@ is a discussion of how for every topos with enough points there is a [[topologic
 
 More on this is in
 
-* [[Ieke Moerdijk]], _Classifying toposes for toposes with enough points_ , Milan Journal of Mathematics Volume 66, Number 1, 377-389
+* [[Ieke Moerdijk]], _Classifying spaces for toposes with enough points_ , Milan Journal of Mathematics Volume 66, Number 1, 377-389
  {#Moerdijk}
 
 See also
