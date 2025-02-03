@@ -74,7 +74,7 @@ In low degree we have
     }
   $$
 
-  with $n$-branches.
+  with $n$ branches.
 
 
 
