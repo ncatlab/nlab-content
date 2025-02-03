@@ -2714,6 +2714,44 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+### Dec 2024
+
+* 9 Dec 2024
+
+  Yingyi Huang (Guangdong University of Technology, China):
+
+  *Search for Majorana Zero Modes in Full-Shell Hybrid Nanowires for Topological Quantum Computing*
+
+  > Majorana fermions are fermions that were originally proposed in particle physics by Ettore Majorana and are characterized as being their own anti-particle. In condensed matter systems, Majorana quasiparticles occur as fractionalized excitations with an associated topologically protected degeneracy. In this talk, I will briefly review the basic concepts and recent developments in the study of [[Majorana zero modes]] in semiconductor-superconductor nanowires and Fe-based superconductors, and discuss the possible quantum anomalous vortex and Majorana zero mode in full-shell hybrid nanowires.
+
+
+### Jan 2025
+
+* 27 Jan 2025
+
+  Al-Amin Dhirani (University of Toronto, Canada):
+
+  **Nanostructures: Building Blocks for Materials and Devices Exhibiting Tunable Quantum Behaviour**
+
+  > Many nanostructures can be fabricated with exquisite control over size, shape, and chemical composition. Such advances suggest an interesting opportunity: can we exploit this nanoscale control and fabricate bulk materials and devices with behaviour – potentially even quantum behaviour - that is tuned from the nanoscale up? In other words, can we "nanoengineer" quantum materials/devices?  In this talk, I will describe examples showing that this is indeed possible.  Using gold nanostructures and molecules as linkers, we have demonstrated materials that exhibit: an insulator-to-metal transition with varying linker molecule; the Kondo effect (delocalized – localize electrons hybridization) where the transition temperature that can be raised to above 220K by varying the nanostructure; and clear quantum particle-in-a-box, molecular wire transport where conductance increases with increasing molecule length (conductance of classical wires exhibit the opposite trend: conductance decreases with wire length). To further explore the potential role of hybridization at nanoscales, we developed a combined transistor – electrochemical cell device (“charge exchange transistor”) and found evidence that redox charge transfer in electrochemistry can occur through a 2-step mechanism involving a quantum transition state, proving a view of electrochemistry through a quantum lens.   Our results highlight that nanostructured materials and devices are a promising platform for studying quantum phenomena with unprecedented control.
+
+
+\linebreak
+
+
+### Feb 2025
+
+* {#ItaniFeb2025} 3 Feb 2025
+
+  Wael Itani (Tandon School of Engineering, NYU):
+
+  **Towards a Quantum Algorithm for Lattice Boltzmann (QALB) Simulation with a Nonlinear Collision Term**
+
+  > The lattice Boltzmann method, a discrete velocity model for fluid dynamics, presents intriguing possibilities for quantum computation. This thesis develops three distinct approaches to quantum algorithms for lattice Boltzmann (QALB), each offering unique mathematical insights. First, we analyze the concurrent Carleman linearization of the collision and streaming, revealing how the nonlinear streaming operator maps to an infinite-dimensional linear system with exponentially suppressed truncation errors. Second, we construct the first completely unitary algorithm with a quantum linear embedding using bosonic operators and prove that the BGK collision operator's symmetries enable its decomposition into Hermitian and constant non-Hermitian components. We show that embedding error is convergent for a general differential equation driven by a nonlinear polynomial. We demonstrate that while the quantum linear embedding achieves polylogarithmic scaling in spatial discretization, its gate complexity remains polynomial in Reynolds number. Finally, we explore quantum machine learning approaches to the collision operator, developing physics-informed quantum neural networks with embedded lattice Boltzmann symmetries. The quantum machine learning approach offers potential runtime advantages but requires significant improvements in training loss to handle physically relevant Reynolds numbers.
+
+
+\linebreak
+
 ***
 
 \linebreak
@@ -3588,6 +3626,16 @@ Neumann algebras**
   > The use of [[differential graded Lie algebras]] to model spaces was developed by [[Daniel Quillen|D. Quillen]] [in the 60s of the last century](rational+homotopy+theory#Quillen69. However, despite having algebraic models for each space, in some cases their effective calculation turns out to be very complex.
 
   > In this talk we will give explicit minimal Quillen models for the [[product topological space|Cartesian products]] of certain spaces in terms of derivations of their models. The model presented also allows us to explicitly describe a model for the [[diagonal map]]. These explicit models are very useful to address the study of invariants such as the sectional category of a map which generalizes the the [[Lusternik-Schnirelmann category]] and [[topological complexity|Topological complexity]].
+
+\linebreak
+
+* 13 May 2024
+
+  Iman Marivan (Duke University):
+
+  *Locality, Symmetry, and Coherence Through the Lens of Quantum Information*
+
+  > The primary goal of [[quantum information science]] is to harness the power of quantum systems for computing and information-processing tasks. Interestingly, the quantum information perspective also provides new insights and raises new questions about the fundamental concepts of locality, symmetry, and coherence. In the first part of my talk, I will discuss an ongoing project focused on understanding the implications of symmetries and the locality of interactions within the framework of quantum circuits.
 
 \linebreak
 
