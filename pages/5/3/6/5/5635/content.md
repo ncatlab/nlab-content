@@ -145,13 +145,18 @@ Relation to [[chiral algebras]]:
 * [[Fyodor Malikov]], [[Vadim Schechtman]], *Deformations of chiral algebras and quantum cohomology of toric varieties* &lbrack;[arXiv:math/0001170](https://arxiv.org/abs/math/0001170)&rbrack;
 
 
-Slides of a talk for an audience of mathematical [[string theory|string theorists]] are
+Slides of a talk for an audience of mathematical [[string theory|string theorists]]:
 
-* [[Eric Sharpe]], 
+* [[Eric Sharpe]]: 
 
-  _Quantum sheaf cohomology_ ([pdf](http://www.phys.vt.edu/~ersharpe/brandeis-mar10-2.pdf)) Brandeis university (2010)
+  _Quantum sheaf cohomology_ &lbrack;[pdf](http://www.phys.vt.edu/~ersharpe/brandeis-mar10-2.pdf)&rbrack; Brandeis university (2010)
 
-  _Quantum sheaf cohomology I_ ([pdf](http://www.phys.vt.edu/~ersharpe/banff-mar10.pdf))
+  _Quantum sheaf cohomology I_ &lbrack;[pdf](http://www.phys.vt.edu/~ersharpe/banff-mar10.pdf)&rbrack;
+
+On the [[equivariant cohomology|ewuivariant]] case:
+
+* Hiroshi Iritani: *Fourier analysis of equivariant quantum cohomology* &lbrack;[arXiv:2501.18849](https://arxiv.org/abs/2501.18849)&rbrack;
+
 
 
 
