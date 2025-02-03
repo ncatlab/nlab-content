@@ -1,4 +1,4 @@
-**Krzysztof Gaw&#281;dzki** is a mathematical physicist. Much of his works is related to [[conformal field theory]], especially geometric aspects of [[WZNW models]]. More recently he studies turbulence. He has helped identidy the [[Kalb-Ramond field]]/[[B-field]] with a [[cocycle]] in [[ordinary differential cohomology]]  (in [[Deligne cohomology]]/a [[bundle gerbe]] with connection).
+**Krzysztof Gaw&#281;dzki** is a mathematical physicist. Much of his works is related to [[conformal field theory]], especially geometric aspects of [[WZNW models]]. More recently he studies turbulence. He has helped identify the [[Kalb-Ramond field]]/[[B-field]] with a [[cocycle]] in [[ordinary differential cohomology]]  (in [[Deligne cohomology]]/a [[bundle gerbe]] with connection).
 
 Pronounciation note: the Polish '&#281;' (cf. [wikipedia](http://en.wikipedia.org/wiki/Polish_alphabet)) has a nazalization.
 
