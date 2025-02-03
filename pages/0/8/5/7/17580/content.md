@@ -1,5 +1,5 @@
 
-> For disambiguation see at *[[Ore condition]]*.
+> This page seems to follow [Johnstone 2002](#Johnstone02) in considering the [[Ore condition]] with respect to the full class of all morphisms. More generally see at *[[Ore set]]*.
 
 ----
 
@@ -81,7 +81,7 @@ A category $\mathcal{C}$ satisfies the [[amalgamation property]] precisely if it
 
 ## Reference
 
-* [[Peter Johnstone]], *[[Sketches of an Elephant]]* vols. I,II, Oxford UP 2002. (pp.79f, 1001)
+* {#Johnstone02} [[Peter Johnstone]], pp. 79, 1001 in: *[[Sketches of an Elephant]]* vols. I,II, Oxford (2002) 
 
 [[!redirects right Ore condition in a category]]
 
