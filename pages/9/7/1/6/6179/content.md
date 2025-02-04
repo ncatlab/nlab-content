@@ -314,6 +314,13 @@ See also:
 
 * Surya Raghavendran, Philsang Yoo, _Twisted S-Duality_ ([arxiv:1910.13653](https://arxiv.org/abs/1910.13653))
 
+### In heterotic string theory
+
+In [[heterotic supergravity]] with [[higher curvature corrections]]:
+
+* [[Mohammad R. Garousi]]: *S-duality in higher-derivative corrections of heterotic supergravity* &lbrack;[arXiv:2502.00357](https://arxiv.org/abs/2502.00357)&rbrack;
+
+
 
 ### Relation to geometric Langlands duality
 
@@ -321,7 +328,7 @@ The relation of S-duality to [[geometric Langlands duality]] was understood in
 
 * {#KapustinWitten06} [[Anton Kapustin]], [[Edward Witten]], _Electric-Magnetic Duality And The Geometric Langlands Program_ , Communications in number theory and physics, Volume 1, Number 1, 1&#8211;236 (2007) ([arXiv:hep-th/0604151](http://arxiv.org/abs/hep-th/0604151))
 
-Exposition of this is in 
+Exposition:
 
 * [[Edward Frenkel]],  _What Do Fermat's Last Theorem and Electro-magnetic Duality Have in Common?_ KITP talk 2011 ([web](http://online.kitp.ucsb.edu/online/bblunch/frenkel/))
 
