@@ -85,6 +85,8 @@ This entire subject about past research programs, paradigms in mathematics and p
 
 * [[positivism]]
 
+* [[structuralism]]
+
 * [[universal exceptionalism]]
 
 
