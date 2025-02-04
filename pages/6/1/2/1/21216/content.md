@@ -1,5 +1,10 @@
 
-* [webpage](http://garoosi.profcms.um.ac.ir)
+* [personal page](http://garoosi.profcms.um.ac.ir)
+
+* [inSpire page](https://inspirehep.net/authors/1008838)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=9XVot1gAAAAJ&hl=en)
+
 
 ## Selected writings
 
@@ -23,5 +28,12 @@ On [[higher curvature corrections]] to [[D=11 supergravity]] in [[M-theory]]:
 
 * [[Mohammad Garousi]], _Minimal gauge invariant couplings at order $\ell^6_p$ in M-theory_ ([arXiv:2102.00639](https://arxiv.org/abs/2102.00639))
 
+On [[S-duality]] in [[heterotic supergravity]] with [[higher curvature corrections]]:
+
+* [[Mohammad R. Garousi]]: *S-duality in higher-derivative corrections of heterotic supergravity* &lbrack;[arXiv:2502.00357](https://arxiv.org/abs/2502.00357)&rbrack;
+
 
 category: people
+
+
+[[!redirects Mohammad R. Garousi]]
