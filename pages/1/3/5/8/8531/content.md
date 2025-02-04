@@ -28,7 +28,7 @@ defines a left action of $R$ on $M$. This construction extends to a  [[functor]]
 $$
   f^\ast \colon SMod \longrightarrow RMod
 $$
-This functor has both a [[left adjoint]] and a [[right adjoint]].  The left adjoint $f_!$ is called *[[extension of scalars]]*,  which its right adjoint is called *coextension of scalars* and denoted
+This functor has both a [[left adjoint]] and a [[right adjoint]].  The left adjoint $f_!$ is called *[[extension of scalars]]*. Its right adjoint is called *coextension of scalars* and denoted
 $$
   f_* \colon
   RMod
