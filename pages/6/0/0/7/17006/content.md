@@ -37,6 +37,9 @@ On [[cosmology]] within the [[IKKT matrix model]]:
 
 * Emmanuele Battista, [[Harold C. Steinacker]], *One-loop effective action of the IKKT model for cosmological backgrounds* &lbrack;[arXiv:2310.11126](https://arxiv.org/abs/2310.11126)&rbrack;
 
+* Alessandro Manta, [[Harold C.Steinacker]]:
+*Minimal covariant quantum space-time* &lbrack;[arXiv:2502.02498](https://arxiv.org/abs/2502.02498)&rbrack;
+
 
 ## Related entries
 
