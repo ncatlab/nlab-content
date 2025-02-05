@@ -85,9 +85,7 @@ Dually, a cowedge is given by maps $F(c, c) \to w$ satisfying similar commutativ
 
 #### Ends as right adjoint functors
 
-In complete analogy to how [[limits]] are right adjoint functors
-to the diagonal functor,
-ends are right adjoint functors to the hom functor.
+In complete analogy to how [[limits]] are right adjoint functors to the [[diagonal functor]] for the diagram, ends are right adjoint functors to the hom functor.
 
 In more detail, suppose $C$ and $X$ are categories.
 
