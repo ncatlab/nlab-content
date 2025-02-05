@@ -3776,6 +3776,20 @@ Neumann algebras**
   >  In this talk I will introduce a mathematical perspective on the [[pure spinor]] [[superfield]] formalism. In particular, I will discuss how [[super multiplet|multiplets]] of fields appearing in [[supersymmetry|supersymmetric]] [[theory (physics)|theories]] can be constructed mathematically from geometric data related to certain [[algebraic varieties]] -- the nilpotence variety of the (super)symmetry algebra of the theory. After discussing some relevant examples, if time permits, I will hint at a generalization of the formalism in the direction of [[derived geometry]].
 
 
+\linebreak
+
+### Feb 2025
+
+* 5 Feb 2025
+
+  Carlo Trugenberger:
+
+  **Superinsulation: Magnetic Monopoles and Electric Confinement in Condensed Matter**
+
+  cf.: [arXiv:2008.12541](https://arxiv.org/abs/2008.12541), [arXiv:2207.00791](https://arxiv.org/abs/2207.00791)
+
+  > Superinsulators are dual [[superconductors]]. They form as an emergent [[magnetic monopole]] condensate in which charges are bound by electric [[flux tubes]] ([[strings]]), realizing purely electric [[pions]], and implying infinite electric [[resistance]] up to a finite critical [[temperature]] and critical [[voltage]]. Magnetic monopoles arise naturally in type-III [[superconductors]] with emergent granularity and they cause the Coulomb interaction to become even much stronger than in Mott insulators. I will review both the main aspects of the theory of superinsulation and the abundant experimental evidence supporting it, including an experiment directly measuring the linear Coulomb interaction due to electric strings.  Finally, I will mention some possible technological applications of superinsulation, both as a standalone and in conjunction with superconductors.
+
 \linebreak  
 
 
