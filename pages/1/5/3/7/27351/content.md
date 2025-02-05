@@ -350,6 +350,13 @@ In relation to the [[dilogarithm]]:
 [[!include abelian Chern-Simons for fractional quantum Hall effect -- references]]
 
 
+### Abelian Maxwell-Chern-Simons theory for superconductivity
+
+Coupling the Chern-Simons term to 1+2D [[Maxwell theory]] for an effective description of [[superconductivity]]:
+
+* M. C. Diamantini, P. Sodano, Carlo A. Trugenberger: *Gauge Theories of Josephson Junction Arrays*, Nucl. Phys. B **474** (1996) 641-677 \[<a href="https://doi.org/10.1016/0550-3213(96)00309-4">doi:10.1016/0550-3213(96)00309-4</a>, [arXiv:hep-th/9511168](https://arxiv.org/abs/hep-th/9511168)\]
+
+(...)
 
 
 
