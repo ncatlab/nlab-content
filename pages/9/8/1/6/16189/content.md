@@ -29,7 +29,7 @@ The [[higher prequantization]] of a definition form is a [[definite globalizatio
 
 ## Definition
 
-Given a [[vector space]] $V$ and a [[stable form]] $\phi \in \wedge^p V^\ast$ (hence a form whose [[orbit]] under the [[general linear group]] $GL(V)$ is an [[open subspace]] in $\wedeg^p V$), and given a [[smooth manifold]] modeled on the [[vector space]] $V$, then a [[differential form]] $\omega \in \Omega^p(X)$ is _definite_ on $\phi$ if at each point it is in this open orbit.
+Given a [[vector space]] $V$ and a [[stable form]] $\phi \in \wedge^p V^\ast$ (hence a form whose [[orbit]] under the [[general linear group]] $GL(V)$ is an [[open subspace]] in $\wedge^p V$), and given a [[smooth manifold]] modeled on the [[vector space]] $V$, then a [[differential form]] $\omega \in \Omega^p(X)$ is _definite_ on $\phi$ if at each point it is in this open orbit.
 
 
 ## Examples
