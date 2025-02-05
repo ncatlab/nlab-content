@@ -147,6 +147,9 @@ See also
 
 * Alessandro Manta, [[Harold C. Steinacker]], Tung Tran: *$\mathfrak{hs}$-extended gravity from the IKKT matrix model* &lbrack;[arXiv:2411.02598](https://arxiv.org/abs/2411.02598)&rbrack;
 
+* Alessandro Manta, [[Harold C.Steinacker]]:
+*Minimal covariant quantum space-time* &lbrack;[arXiv:2502.02498](https://arxiv.org/abs/2502.02498)&rbrack;
+
 
 
 In relation to the [[Brandenberger-Vafa mechanism]]:
