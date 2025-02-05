@@ -44,13 +44,11 @@ Up to isomorphism of measurable spaces, these are the only examples. Note in par
 
 ## Categories of standard Borel spaces
 
-* The [[category]] *BorelMeas* (or *Pol*) has as [[objects]] standard Borel measurable spaces, and as [[morphisms]] [[measurable functions]].
-(Sometimes, depending on the author, *Pol* denotes the category of completely metrizable topological spaces and *continuous* maps.)
+* The [[category]] *BorelMeas* has as [[objects]] standard Borel measurable spaces, and as [[morphisms]] [[measurable functions]].
 
 * The category [[Stoch#borelstoch|BorelStoch]] has as objects standard Borel spaces, and as morphisms [[Markov kernels]] between them.
 
 * The [[category of couplings]] has as objects standard Borel *measure* (not just *measurable*) spaces, and either equivalence classes of Markov kernels between them (under [[Markov kernel#almost_sure_equality|almost sure equality]]), or [[coupling (probability)|couplings]] between them.
-
 
 ## Properties
 
@@ -70,11 +68,15 @@ This has a number of consequences, for example:
 
 * Standard Borel spaces admit countably [[infinite tensor products]].
 
-* The [[Giry monad]] preserves standard Borel spaces: if $X$ is a standard Borel space, its functorial image $P X$ is standard Borel too. Therefore the Giry monad restricts to a monad on *Pol*, usually known under the same name.
+* The [[Giry monad]] preserves standard Borel spaces: if $X$ is a standard Borel space, its functorial image $P X$ is standard Borel too. Therefore the Giry monad restricts to a monad on *BorelMeas*, usually known under the same name.
 
+## Characterizations of BorelMeas ##
 
+The Loomis--Sikorski duality theorem says that the category  of standard Borel spaces is the opposite of the category of countably presented countably complete Boolean algebras.
 
+Using this, Chen proved that the category of standard Borel spaces is the (bi)initial object in the 2-category of countably [[complete category|complete]] [[extensive category|countably extensive]] [[Boolean categories]]:
 
+* Ruiyuan Chen, [A universal characterization of standard Borel spaces](https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/universal-characterization-of-standard-borel-spaces/D8C26DC1E7E2B6031FBAC4C7DB3EDFB3), *Journal of Symbolic Logic* **88**(2) (2023), 510--539.
 
 
 ## Related Concepts
