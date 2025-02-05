@@ -20,7 +20,7 @@
 ### For Lie algebras
  {#ForLieAlgebras}
 
-Given a [[Lie algebra object]] $L$ [[internalization|interna]] to some [[symmetric monoidal category|symmetric monoidal]] $k$-[[linear category]] $C = (C,\otimes, \mathbf{1},\tau)$, an __enveloping monoid__ (or __enveloping algebra__) of $L$ in $C$ is any morphism $f \colon L\to Lie(A)$ of Lie algebras in $C$ where $A$ is a monoid (= algebra) in $C$, and $Lie(A)$ is the underlying object of $A$ equipped with the [[Lie bracket]] $[,]_{Lie(A)}=\mu-\mu\circ\tau_{A,A}$. 
+Given a [[Lie algebra object]] $L$ [[internalization|internal]] to some [[symmetric monoidal category|symmetric monoidal]] $k$-[[linear category]] $C = (C,\otimes, \mathbf{1},\tau)$, an __enveloping monoid__ (or __enveloping algebra__) of $L$ in $C$ is any morphism $f \colon L\to Lie(A)$ of Lie algebras in $C$ where $A$ is a monoid (= algebra) in $C$, and $Lie(A)$ is the underlying object of $A$ equipped with the [[Lie bracket]] $[,]_{Lie(A)}=\mu-\mu\circ\tau_{A,A}$. 
 
 A morphism of enveloping algebras 
 $$
