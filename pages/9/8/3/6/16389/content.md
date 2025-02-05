@@ -189,6 +189,8 @@ See also:
 
 * Philip D. Mannheim; *Physics on and off the light cone* &lbrack;[arXiv:2501.18068](https://arxiv.org/abs/2501.18068)&rbrack;
 
+* S.S. Chabysheva, J.R. Hiller: *Zero Modes on the Light Front* &lbrack;[arXiv:2502.01775](https://arxiv.org/abs/2502.01775)&rbrack;
+
 
 
 
