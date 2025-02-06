@@ -19,23 +19,25 @@ A list of all speakers and titles of the first 100 PSSL meetings:
 
 Events after [PSSL 100](http://www.julia-goedecke.de/PSSL100/pssl100.html):
 
-* [PSSL101](https://web.archive.org/web/20180831143433/http://www1.maths.leeds.ac.uk/~pmtng/PSSL/pssl101.html) (2017, Leeds)
+* [PSSL 101](https://web.archive.org/web/20180831143433/http://www1.maths.leeds.ac.uk/~pmtng/PSSL/pssl101.html) (2017, Leeds)
 
-* [PSSL102](https://www.usc.es/regaca/pssl102/) (2018, Santiago de Compostela)
+* [PSSL 102](https://www.usc.es/regaca/pssl102/) (2018, Santiago de Compostela)
 
-* PSSL103 (2018, Brno): [schedule](https://ncatlab.org/nlab/files/SchedulePSSL103.pdf), [abstracts](https://ncatlab.org/nlab/files/abstractPSSL103.pdf)
+* PSSL 103 (2018, Brno): [schedule](https://ncatlab.org/nlab/files/SchedulePSSL103.pdf), [abstracts](https://ncatlab.org/nlab/files/abstractPSSL103.pdf)
 
-* [PSSL104](https://mysite.science.uottawa.ca/phofstra/PSSL18.html) (2018, Amsterdam)
+* [PSSL 104](https://mysite.science.uottawa.ca/phofstra/PSSL18.html) (2018, Amsterdam)
 
-* [PSSL105](https://sites.google.com/view/pssl-105) (2019, Palermo) [abstracts](https://zulip-uploads.s3.amazonaws.com/21317/ytxt3ahyV2ac8n3VMrMp5mDN/pssl_105_programme_with_abstracts.pdf?AWSAccessKeyId=AKIAIEVMBCAT2WD3M5KQ&Signature=vABJ59yZxPmsLgGoCJ12cB5yDAw%3D&Expires=1666136731)
+* [PSSL 105](https://sites.google.com/view/pssl-105) (2019, Palermo) [abstracts](https://zulip-uploads.s3.amazonaws.com/21317/ytxt3ahyV2ac8n3VMrMp5mDN/pssl_105_programme_with_abstracts.pdf?AWSAccessKeyId=AKIAIEVMBCAT2WD3M5KQ&Signature=vABJ59yZxPmsLgGoCJ12cB5yDAw%3D&Expires=1666136731)
 
-* [PSSL106](http://www.math.muni.cz/~bourkej/PSSL106.html) (2022, Brno)
+* [PSSL 106](http://www.math.muni.cz/~bourkej/PSSL106.html) (2022, Brno)
 
-* [PSSL107](https://sites.google.com/view/pssl-107-athens?pli=1/) (2023, Athens) [schedule and abstracts](https://sites.google.com/view/pssl-107-athens/schedule) 
+* [PSSL 107](https://sites.google.com/view/pssl-107-athens?pli=1/) (2023, Athens) [schedule and abstracts](https://sites.google.com/view/pssl-107-athens/schedule) 
 
-* [PSSL108](https://sites.google.com/view/beppemetere/pssl-108) (2023, Terrasini)
+* [PSSL 108](https://sites.google.com/view/beppemetere/pssl-108) (2023, Terrasini)
 
-* [PSSL109](https://dutchcats.github.io/PSSL-2024/index.html) (2024, Leiden)
+* [PSSL 109](https://dutchcats.github.io/PSSL-2024/index.html) (2024, Leiden)
+
+* [PSSL 110](https://www.ioc.ee/~amar/pssl110/) (2025, Tallinn)
 
 
 ## Related pages
