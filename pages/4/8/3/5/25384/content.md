@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[qbit]]-based [[quantum computation]], by the *Pauli gates* one means the [[linear basis]] of [[quantum gates]] on single [[qbits]], hence on the 2-dimensional [[Hilbert spaces]] $QBit \simeq \mathbb{C}^2$, which, in terms of the canonical [[quantum measurement]]-[[linear basis|basis]] $\mathbb{C}^2 \simeq Span\big( \{ \vert 0 \rangle ,\, \vert 1 \rangle\} \big)$, are given by the [[Pauli matrices]].
+In [[qbit]]-based [[quantum computation]], by the *Pauli gates* one means the [[linear basis]] of [[quantum gates]] on single [[qbits]], hence on the 2-dimensional [[Hilbert spaces]] $QBit \simeq \mathbb{C}^2$, which, in terms of the canonical [[quantum measurement]]-[[linear basis|basis]] $\mathbb{C}^2 \simeq Span\big( \{ {\vert 0 \rangle} ,\, {\vert 1 \rangle} \} \big)$, are given by the [[Pauli matrices]].
 
 Explicitly this means that (in the conentional normalization) the:
 
@@ -68,7 +68,7 @@ Explicitly this means that (in the conentional normalization) the:
 
 ### Relation to Hadamard gates and the ZX-calculus
 
-The [[Hadamard gate]] transforms the [[eigenstates]] $\vert 0 \rangle$, $\vert 1 \rangle$ of the Pauli Z-gate into those $\propto \vert 0 \rangle \pm \vert 1 \rangle$ of the Pauli-X gate, a relation that is elaborated on by the correspondingly named *[[ZX-calculus]]*.
+The [[Hadamard gate]] transforms the [[eigenstates]] $\vert 0 \rangle$, $\vert 1 \rangle$ of the Pauli Z-gate into those $\propto {\vert 0 \rangle} \pm {\vert 1 \rangle}$ of the Pauli-X gate, a relation that is elaborated on by the correspondingly named *[[ZX-calculus]]*.
 
 ## Related concepts
 
