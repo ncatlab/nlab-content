@@ -320,7 +320,19 @@ This shows that the derivation $D$ comes, in the chart $\phi_i$, from the vector
 
 ## References
 
+The case of analytic manifolds is discussed in
+
+* [[Claude Chevalley]], Theory of Lie Groups I (Princeton, 1946).
+
+The case of $C^\infty$-manifolds is discussed in Section 4 of
+
+* Harley Flanders.  Development of an extended exterior differential calculus.  Transactions of the American Mathematical Society 75:2 (1953), 311-326. [doi](https://doi.org/10.1090/s0002-9947-1953-0057005-8).
+
+The case of $C^k$-manifolds is discussed in
+
 * [[W. F. Newns]], [[A. G. Walker]],  _Tangent Planes To a Differentiable Manifold_, Journal of the London Mathematical Society s1-31:4 (1956) 400–407 &lbrack;[doi:10.1112/jlms/s1-31.4.400](https://doi.org/10.1112/jlms/s1-31.4.400)&rbrack;
+
+In Section 2, formula (2), Newns–Walker anticipate the notion of a [[C^∞-derivation]].
 
 See also
 
