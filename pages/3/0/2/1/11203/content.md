@@ -39,6 +39,8 @@
 
 * [[colour superconductivity]]
 
+* [[electric-magnetic duality|EM-dual]]: [[superinsulator]]
+
 
 ## References
 
