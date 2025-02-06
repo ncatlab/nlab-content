@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[solid state physics]], by a *super-insulator* one means a meaterial which at low but non-vanishing [[temperature]] has effectively unbounded electrical [[resistance]]. This may be understood as the [[electric-magnetic duality|dual]] to *[[superconductors]]*.
+In [[solid state physics]], by *super-insulators* one refers to meaterials which at very low but non-vanishing [[temperature]] have effectively unbounded electrical [[resistance]]. This phenomenon may be understood as the "[[electric-magnetic duality|EM-dual]]" to that of *[[superconductors]]*.
 
 ## References
 
