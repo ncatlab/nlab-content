@@ -33,3 +33,7 @@ In [[physics]], the [[electromagnetic field]] may be split, over a choice of [[c
 
 
 [[!redirects electric fields]]
+
+[[!redirects Coulomb interaction]]
+[[!redirects Coulomb interactions]]
+
