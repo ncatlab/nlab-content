@@ -1,19 +1,6 @@
 
-Categories of Classical Data Types: 
-Propositions, Quantifiers, Modalities, Effects
 
-Categories of Quantum Data Types:
-Quantization, Classicization, Entanglement
-
-Monads of Quantum Effects:
-Quantum Measurement, State Collapse, Born Rule
-
-Transformations of Quantum Data:
-Quantum Channels, Gates, Control, Paradoxes
-
-Quantum Language and Algorithms:
-Quantum For, If, Then, Do
-
+[[superinsulator]]
 
 
 
