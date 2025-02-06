@@ -227,6 +227,8 @@ On the other hand, there is no particular harm either in having such structure a
 
 * [[subtype]]
 
+* [[poset of subobjects]]
+
 ## References
 
 Standard textbook references include section I.3 of 
