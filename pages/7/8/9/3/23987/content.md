@@ -3780,15 +3780,15 @@ Neumann algebras**
 
 ### Feb 2025
 
-* 5 Feb 2025
+* {#TrugenbergerFeb2025} 5 Feb 2025
 
-  Carlo Trugenberger:
+  [[Carlo A. Trugenberger]]:
 
   **Superinsulation: Magnetic Monopoles and Electric Confinement in Condensed Matter**
 
   cf.: [arXiv:2008.12541](https://arxiv.org/abs/2008.12541), [arXiv:2207.00791](https://arxiv.org/abs/2207.00791)
 
-  > Superinsulators are dual [[superconductors]]. They form as an emergent [[magnetic monopole]] condensate in which charges are bound by electric [[flux tubes]] ([[strings]]), realizing purely electric [[pions]], and implying infinite electric [[resistance]] up to a finite critical [[temperature]] and critical [[voltage]]. Magnetic monopoles arise naturally in type-III [[superconductors]] with emergent granularity and they cause the Coulomb interaction to become even much stronger than in Mott insulators. I will review both the main aspects of the theory of superinsulation and the abundant experimental evidence supporting it, including an experiment directly measuring the linear Coulomb interaction due to electric strings.  Finally, I will mention some possible technological applications of superinsulation, both as a standalone and in conjunction with superconductors.
+  > [[superinsulator|Superinsulators]] are [[electric-magnetic duality|dual]] [[superconductors]]. They form as an emergent [[magnetic monopole]] condensate in which charges are bound by electric [[flux tubes]] ([[strings]]), realizing purely electric [[pions]], and implying infinite electric [[resistance]] up to a finite critical [[temperature]] and critical [[voltage]]. [[magnetic monopole|Magnetic monopoles]] arise naturally in type-III [[superconductors]] with emergent granularity and they cause the [[Coulomb interaction]] to become even much stronger than in [Mott insulators](https://en.wikipedia.org/wiki/Mott_insulator). I will review both the main aspects of the theory of superinsulation and the abundant experimental evidence supporting it, including an experiment directly measuring the linear Coulomb interaction due to electric [[flux tube|strings]].  Finally, I will mention some possible technological applications of superinsulation, both as a standalone and in conjunction with [[superconductors]].
 
 \linebreak  
 
