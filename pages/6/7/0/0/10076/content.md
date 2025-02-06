@@ -32,13 +32,20 @@ A **near-ring** is a set $R$ equipped with
 
 2. A [[monoid]] structure $(R,\cdot,1)$,
 
-3. such that for any $x,y,z\in R$ we have $(x+y)\cdot z = (x\cdot z) + (y\cdot z)$, and for any $x\in R$ we have $0\cdot x = 0$.
+3. such that for any $x,y,z\in R$ we have $(x+y)\cdot z = (x\cdot z) + (y\cdot z)$.
+
+
+It follows from the definition that for every $x \in R$, we have $0 \cdot x=0$ since $0 \cdot x=(0+0) \cdot x=(0 \cdot x)+(0\cdot x)$.
 
 If $(R,+,0)$ is only a monoid or semigroup, we say instead that $R$ is a **near-rig** or a **near-semiring**.  (Of course, now it is possible to have distributivity on both sides without making addition commutative, since addition need not always cancel.)
 
 There is also a weaker notion, of __loop near ring__, where in the 
 axioms above the group structure on $(R,+,0)$ is weakened to a [[loop (algebra)|loop]]
 algebraic structure (i.e. left and right additive inverses no longer coincide and the associativity of addition is dropped).
+
+## Example
+
+Let $(G,+,0)$ be a (non necessarily abelian) group. Then, the set $\mathcal{F}(G)$ of all functions from $G$ to $G$ is a near-ring with $f+g$ defined by $(f+g)(x)=f(x)+g(x)$, $0$ defined by $0(x)=0$, $f \cdot g$ defined by $(f \cdot g)(x)=f(g(x))$ for every $x \in X$ and $1:G \rightarrow G$ the identity function. 
 
 ## Internalization
 
