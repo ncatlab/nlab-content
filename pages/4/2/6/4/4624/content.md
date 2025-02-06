@@ -69,6 +69,8 @@ If one opts for the alternative[^1] definition that subobjects _are_ monomorphis
 
 ## Related concepts
 
+* [[subobject]]
+
 * [[lattice of subgroups]] 
 
 * [[well-powered category]] 
