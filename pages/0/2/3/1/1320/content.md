@@ -114,6 +114,12 @@ For a specific **[[counter-example]]**: the category of [[reflexive graphs]] is 
 This is an instance of a general phenomenon: Let $\mathcal{C}$ be a [[reflective subcategory]] of a [[presheaf category]] $\widehat{A}$ (e.g. any [[locally presentable category]] is of this form). Then the [[adjoint functor|adjunction]] between $\mathcal{C}$ and $\widehat{A}$ is monadic, and the [[adjoint functor|adjunction]] between $\widehat{A}$ and $\mathrm{Set}^{\mathrm{Ob} A}$ is also monadic. But the composite adjunction between $\mathcal{C}$ and $\mathrm{Set}^{\mathrm{Ob} A}$ is often not monadic. For instance, if it is monadic, then $\mathcal{C}$ must be a [[Barr-exact category]].
 \end{remark}
 
+However, it is possible to characterise when the composite of two functors is monadic. The following characterisation is Theorem 6.5 of [Arkor and McDermott 2025](#AM23b).
+
+\begin{theorem}
+  Let $U : A \to B$ and $U' : B \to C$ be functors, and suppose that $U'$ is monadic (and in particular has a left adjoint $F'$). Then $U' U$ is monadic if and only if $U$ is [[relative monad|monadic relative to]] $F'$.
+\end{theorem}
+
 Monadic functors have the following cancellation property:
 \begin{proposition}
 Consider a pair of [[adjoint functors|adjunctions]]:
@@ -185,7 +191,8 @@ A proof is spelled out for instance in [Borceux 1994, vol 2, cor. 4.2.4](reflect
 * {#Bourn} [[Dominique Bourn]]. _Low dimensional geometry of the notion of choice_. Category Theory 1991, CMS Conf. Proc. Vol. 13. 1992.
 
 * {#Vitale94} [[Enrico Vitale]], *On the characterization of monadic categories over $SET$*, Cahiers de topologie et géométrie différentielle catégoriques **35** 4 (1994) 351-358.  &lbrack;[numdam:CTGDC_1994__35_4_351_0](http://www.numdam.org/item/?id=CTGDC_1994__35_4_351_0), [pdf](http://www.numdam.org/article/CTGDC_1994__35_4_351_0.pdf)&rbrack;
-  
+
+* {#AM23b} [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_, Journal of Algebra 663 (2025), [DOI](https://doi.org/10.1016/j.jalgebra.2024.08.040) &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
 
 [[!redirects monadic]]
 [[!redirects monadic category]]
