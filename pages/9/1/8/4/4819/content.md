@@ -60,6 +60,8 @@ For $d= 4$ EM-duality is the special abelian case of [[S-duality]] for [[Yang-Mi
 
 ## Examples
 
+* In [[solid state physics]], EM duality relates [[superconductors]] to [[superinsulators]].
+
 * In [[N=2 D=4 super Yang-Mills theory]] electric-magnetic duality is studied as _[[Seiberg-Witten theory]]_.
 
 * In [[heterotic string theory]] one considers 1-dimensional objects in $d=10$-dimensional spaces electrically charged (under the [[Kalb-Ramond field]]). Their magnetic duals are 5-dimensional objects (fivebranes), studied in [[dual heterotic string theory]].
