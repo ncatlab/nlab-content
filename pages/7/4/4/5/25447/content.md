@@ -21,7 +21,7 @@ On [[formal category theory|formal theory]] of [[relative monads]] via [[virtual
 
 * [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, Journal of Pure and Applied Algebra 107676. (2024) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack.
 
-* {#AM23b} [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_ (2023) &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
+* {#AM23b} [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_, Journal of Algebra 663 (2025), [DOI](https://doi.org/10.1016/j.jalgebra.2024.08.040) &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
 
 * [[Nathanael Arkor]], [[Dylan McDermott]], _The pullback theorem for relative monads_ (2024) &lbrack;[arXiv:2404.01281](https://arxiv.org/abs/2404.01281)&rbrack;
 
