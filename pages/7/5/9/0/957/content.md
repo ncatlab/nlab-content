@@ -69,7 +69,7 @@ More generally, if $\kappa$ is a [[cardinal number]], then a **$\kappa$-directed
 
 ## Remarks
 
-Directions on the [[real line]] are quite interesting; there\'s a textbook (probably _LIMITS: A New Approach to Real Analysis_) that does [[infinitesimal calculus|ordinary calculus]] rigorously from scratch using directions, and there\'s a paper (which I can\'t find now) generalising interval arithmetic to arithmetic on directions.
+Directions on the [[real line]] are quite interesting; there\'s a textbook (probably _[LIMITS: A New Approach to Real Analysis](https://link.springer.com/book/10.1007/978-1-4612-0697-2)_) that does [[infinitesimal calculus|ordinary calculus]] rigorously from scratch using directions, and there\'s a paper (which I can\'t find now - possibly [here](https://link.springer.com/chapter/10.1007/978-3-642-80350-5_43)) generalising interval arithmetic to arithmetic on directions.
 
 As a partially ordered set is a special kind of [[category]], so a (finitely) directed set is such a category in which all (finite) diagrams admit a [[cocone]].  If the category actually has finite coproducts (equivalently, all finite colimits), then it has all [[joins]] and so is a join-[[semilattice]].  (In particular, every join-semilattice is a directed set.)
 
