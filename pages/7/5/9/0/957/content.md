@@ -1,5 +1,5 @@
 
-> This entry is about the concept in [[order theory]]. For the concept in [[analytic geometry]] see at [[direction of a vector]].
+> This entry is about the concept in [[order theory]]. For the concept in [[analytic geometry]] see at *[[direction of a vector]]*.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -69,13 +69,23 @@ More generally, if $\kappa$ is a [[cardinal number]], then a **$\kappa$-directed
 
 ## Remarks
 
-Directions on the [[real line]] are quite interesting; there\'s a textbook (probably _[LIMITS: A New Approach to Real Analysis](https://link.springer.com/book/10.1007/978-1-4612-0697-2)_) that does [[infinitesimal calculus|ordinary calculus]] rigorously from scratch using directions, and there\'s a paper (which I can\'t find now - possibly [here](https://link.springer.com/chapter/10.1007/978-3-642-80350-5_43)) generalising interval arithmetic to arithmetic on directions.
+Directions on the [[real line]] are quite interesting: 
+
+[Beardon 1997](#Beardon97) develops [[infinitesimal calculus|ordinary calculus]] rigorously from scratch using directions, and [Markov 1996](#Markov96) generalizes interval arithmetic to arithmetic on directions.
 
 As a partially ordered set is a special kind of [[category]], so a (finitely) directed set is such a category in which all (finite) diagrams admit a [[cocone]].  If the category actually has finite coproducts (equivalently, all finite colimits), then it has all [[joins]] and so is a join-[[semilattice]].  (In particular, every join-semilattice is a directed set.)
 
 Directed sets are heavily used in point-set [[topology]] and [[analysis]], where they serve as index sets for [[nets]] (aka Moore--Smith sequences).  In this application, it is important that a direction need not be a partial order, since a net need not preserve the preorder in any way but by default still preserves [[equality]].  (But in principle, one could force a directed set to be a poset by allowing a net to be a [[multi-valued function]]; this has practical consequences for the meaning of [[sequence]] in the absence of [[countable choice]].)
 
 [[join|Joins]] over directed index sets are [[directed joins]]; [[colimits]] over directed index sets are [[directed colimits]].  These play an important role in the theory of [[locally presentable category|locally presentable]] and [[accessible category|accessible]] categories; see also [[filtered category]].
+
+## References
+
+* {#Beardon97}  Alan F. Beardon: *Limits -- A New Approach to Real Analysis*, Springer (1997) &lbrack;[doi:10.1007/978-1-4612-0697-2](https://doi.org/10.1007/978-1-4612-0697-2)&rbrack;
+
+* {#Markov96} S. Markov: *On directed interval arithmetic and its applications*, in: *J.UCS The Journal of Universal Computer Science*, Springer (1996) 514-526 &lbrack;[doi:10.1007/978-3-642-80350-5_43](https://doi.org/10.1007/978-3-642-80350-5_43)&rbrack;
+
+
 
 
 [[!redirects direction]]
