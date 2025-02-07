@@ -72,6 +72,8 @@ The [[Hadamard gate]] transforms the [[eigenstates]] $\vert 0 \rangle$, $\vert 1
 
 ## Related concepts
 
+* [[Hadamard gate]], [[T gate]], [[S gate]]
+
 * [[quantum computation]]
 
 * [[quantum gate]], [[quantum circuit]]
