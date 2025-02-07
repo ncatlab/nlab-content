@@ -83,7 +83,7 @@ Directed sets are heavily used in point-set [[topology]] and [[analysis]], where
 
 * {#Beardon97}  Alan F. Beardon: *Limits -- A New Approach to Real Analysis*, Springer (1997) &lbrack;[doi:10.1007/978-1-4612-0697-2](https://doi.org/10.1007/978-1-4612-0697-2)&rbrack;
 
-* {#Markov96} S. Markov: *On directed interval arithmetic and its applications*, in: *J.UCS The Journal of Universal Computer Science*, Springer (1996) 514-526 &lbrack;[doi:10.1007/978-3-642-80350-5_43](https://doi.org/10.1007/978-3-642-80350-5_43)&rbrack;
+* {#Markov96} Svetoslav Markov: *On directed interval arithmetic and its applications*, in: *J.UCS The Journal of Universal Computer Science*, Springer (1996) 514-526 &lbrack;[doi:10.1007/978-3-642-80350-5_43](https://doi.org/10.1007/978-3-642-80350-5_43)&rbrack;
 
 
 
