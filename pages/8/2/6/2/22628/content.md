@@ -45,7 +45,7 @@ Quantum [[complexity classes]]:
 
 Original articles:
 
-* [[Ethan Bernstein]], [[Umesh Vazirani]], *Quantum Complexity Theory*, Siam Journal of Computation **26** 5 (1997) 1411-1473 &lbrack;[doi:10.1137/S0097539796300921](https://doi.org/10.1137/S0097539796300921), [pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.655.1186&rep=rep1&type=pdf)&rbrack;
+* [[Ethan Bernstein]], [[Umesh Vazirani]], *Quantum Complexity Theory*, Siam Journal of Computation **26** 5 (1997) 1411-1473 &lbrack;[doi:10.1137/S0097539796300921](https://doi.org/10.1137/S0097539796300921), [pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=43a47949c4024510ab897632f0a41fc59a26270f)&rbrack;
 
 Introduction and review:
 
