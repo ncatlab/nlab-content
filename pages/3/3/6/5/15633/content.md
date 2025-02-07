@@ -46,7 +46,7 @@ Proof that the triple-bracket algebra of [Green 1953](#Green53) ---  for $m$ par
 
 * Tchavdar D. Palev: *Para‐Bose and para‐Fermi operators as generators of orthosymplectic Lie superalgebras*, J. Math. Phys. **23** (1982) 1100–1102 &lbrack;[doi:10.1063/1.525474](https://doi.org/10.1063/1.525474)&rbrack;
 
-The alternative "[[quantum mechanics|first quantized]]" perspective (at fixed particle number) abs with it the relation to the [[representation theory of the symmetric group]] originates with:
+The alternative "[[quantum mechanics|first quantized]]" perspective (at fixed particle number) and with it the relation to the [[representation theory of the symmetric group]] originates with:
 
 * {#MessiahGreenberg64} [[Albert M. L. Messiah]], O. W. Greenberg: *Symmetrization Postulate and Its Experimental Foundation*, Phys. Rev. **136** (1964) B248 &lbrack;[doi:10.1103/PhysRev.136.B248](https://doi.org/10.1103/PhysRev.136.B248)&rbrack;
   > (where [[irreps]] of the [[symmetric group]] are called "generalized rays")
@@ -112,7 +112,7 @@ Concrete lattice models for a kind of parastatistics in 3d:
 
 * {#FreedmanHastingsNayakQiWalkerWang11} [[Michael Freedman]], [[Matthew B. Hastings]], [[Chetan Nayak]], [[Xiao-Liang Qi]], [[Kevin Walker]], [[Zhenghan Wang]]: *Projective Ribbon Permutation Statistics: a Remnant of non-Abelian Braiding in Higher Dimensions*, Phys. Rev. B **83** 115132 (2011) &lbrack;[doi:10.1103/PhysRevB.83.115132](https://doi.org/10.1103/PhysRevB.83.115132), [arXiv:1005.0583](https://arxiv.org/abs/1005.0583)&rbrack;
 
-Claim of parastatistical [[quasiparticles]] emerging in low dimensiona quantum spin systems:
+Claim of parastatistical [[quasiparticles]] emerging in low dimensional quantum spin systems:
 
 * {#WangHazzard25} Zhiyuan Wang, Kaden R. A. Hazzard: *Particle exchange statistics beyond fermions and bosons*, Nature **637** (2025) 314-318 &lbrack;[arXiv:2308.05203](https://arxiv.org/abs/2308.05203), [doi:10.1038/s41586-024-08262-7](https://doi.org/10.1038/s41586-024-08262-7)&rbrack;
 
