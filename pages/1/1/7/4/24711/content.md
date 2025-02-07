@@ -77,6 +77,12 @@ $$
 
 Simple as it is, the Hadamard gate plays a central role in theory and practice of [[quantum circuits]], notably where in its combination with the [[CNOT gate]] it is used to produce [[Bell states]] (such as in the [[quantum teleportation protocol]]).
 
+## Related gates
+
+* [[Pauli gates]]
+
+* [[T gates]], [[S gate]]
+
 
 ## References
 
