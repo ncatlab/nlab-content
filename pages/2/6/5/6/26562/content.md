@@ -126,7 +126,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[Bayesian inverses]]: expressed categorically, with proofs about their core properties and their existence, in [DDGS'18](#krn), [Cho-Jacobs'19](#cd_categories), [Fritz'20](#fritzmarkov), [Parzygnat'24](#retrodiction), and others.
 
-* [[Bayesian updating]]: categorically [Jacobs'23](#pearl_jeffrey), [Jacobs-Zanasi'18](#essential_bayes), and including using Markov categories, [Di Lavore-Román'23](#partial_markov).
+* [[Bayesian updating]]: categorically [Jacobs'23](#pearl_jeffrey), [Jacobs-Zanasi'18](#essential_bayes), and including using Markov categories, [Di Lavore-Román'23](#partial_markov) and [DLRS'25](#partial_markov_ext).
 
 * Blackwell-Sherman-Stein theorem on statistical experiments: proven and generalized beyond the discrete case using [[Markov categories]] in [FGPR'23](#fritz_representable).
 
@@ -208,7 +208,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Study of joint and marginal distributions for [[probability monads]]: [Fritz-Perrone'18](#bimonoidal_monads).
 
-* Markov categories for [[partial maps]]: [Di Lavore-Román'23](#partial_markov).
+* Markov categories for [[partial maps]]: [Di Lavore-Román'23](#partial_markov) and [DLRS'25](#partial_markov_ext).
 
 * Connections between [[Markov categories]] and [[categories of couplings]]: [Fritz'20](#fritzmarkov) and [Ensarguet-Perrone'23](#ergodic_dagger).
 
@@ -290,6 +290,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#point_processes} Swaraj Dash and Sam Staton, _A monad for probabilistic point processes_, Proceedings of Applied Category Theory, 2020. ([pdf](https://cgi.cse.unsw.edu.au/~eptcs/paper.cgi?ACT2020:61.pdf))
 
 * {#partial_markov} Elena Di Lavore and Mario Román, _Evidential Decision Theory via Partial Markov Categories_, Proceedings of LICS, 2023. ([arXiv](https://arxiv.org/abs/2301.12989))
+
+* {#partial_markov_ext} Elena Di Lavore, Mario Román and Paweł Sobociński, _Partial Markov Categories_, 2025. ([arXiv](https://arxiv.org/abs/2502.03477))
 
 * {#ergodic_dagger} Noé Ensarguet, [[Paolo Perrone]], Categorical probability spaces, ergodic decompositions, and transitions to equilibrium, [arXiv:2310.04267](https://arxiv.org/abs/2310.04267)
 
