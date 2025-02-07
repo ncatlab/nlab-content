@@ -1,6 +1,47 @@
 
 
-[[superinsulator]]
+
+
+
+## Idea
+
+In [[quantum information theory]] and [[quantum computing]], by the *T-gate* and the *S-gate* one refers to the [[quantum gates]] acting on single [[qbits]], which in the defining measurement-[[linear basis|basis]] $\big\{ {\vert 0 \rangle}, {\vert 1 \rangle} \big\}$ are given by the [[matrices]]
+
+$$
+  T 
+  \;=\;
+  \left[
+    \begin{array}{cc}
+      1 & 0
+      \\
+      0 & e^{\pi \mathrm{i}/4}
+    \end{array}
+  \right]
+$$
+
+and
+
+
+$$
+  S 
+  \;=\; 
+  T^2
+  \;=\;
+  \left[
+    \begin{array}{cc}
+      1 & 0
+      \\
+      0 & \mathrm{i}
+    \end{array}
+  \right]
+  \mathrlap{\,,}
+$$
+
+respectively.
+
+
+
+
 
 
 
