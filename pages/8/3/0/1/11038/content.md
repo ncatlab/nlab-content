@@ -144,6 +144,8 @@ The following examples have no classical analog:
 
 ## References
 
+### General
+
 The notion of quantum logic gates and [[quantum circuits]] originates with
 
 * [[Richard Feynman]], *Quantum mechanical computers*, Foundations of Physics **16** (1986) 507–531 &lbrack;[doi:10.1007/BF01886518](https://doi.org/10.1007/BF01886518)&rbrack;
@@ -151,6 +153,11 @@ The notion of quantum logic gates and [[quantum circuits]] originates with
 * [[David E. Deutsch]], *Quantum computational networks*, Proceedings of the Royal Society A, **425** 1868 (1989) 73-90 &lbrack;[doi:10.1098/rspa.1989.0099](https://doi.org/10.1098/rspa.1989.0099), [jstor:2398494](https://www.jstor.org/stable/2398494)&rbrack;
 
 * {#BBCDMSSSW95} [[Adriano Barenco]], [[Charles H. Bennett]], [[Richard Cleve]], [[David P. DiVincenzo]], [[Norman Margolus]], [[Peter Shor]], [[Tycho Sleator]], [[John A. Smolin]], [[Harald Weinfurter]], *Elementary gates for quantum computation*, Phys. Rev. A**52** (1995) 3457 &lbrack;[arXiv:quant-ph/9503016](https://arxiv.org/abs/quant-ph/9503016), [doi:10.1103/PhysRevA.52.3457](https://doi.org/10.1103/PhysRevA.52.3457)&rbrack;
+
+Monograph:
+
+
+* {#NielsenChuang00} [[Michael A. Nielsen]], [[Isaac L. Chuang]], §1.3.1-2 in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
 On experimental realizations:
 
@@ -169,6 +176,36 @@ Implementation of quantum logic gates on [[qbits]] realized via [[nucleon]]-[[sp
 and analogously on [[electron]]-[[spin]]:
 
 * M. Yu. Volkov and K. M. Salikhov, *Pulse Protocols for Quantum Computing with Electron Spins as Qubits*, Appl Magn Reson **41** (2011) 145–154 &lbrack;[doi:10.1007/s00723-011-0297-2](https://doi.org/10.1007/s00723-011-0297-2)&rbrack;
+
+### Universal gate sets
+ {#ReferencesUniversalGateSets}
+
+Review:
+
+* [Nielsen & Chuang 2000, §4.5](#NielsenChuang00)
+
+* *Universal set of quantum gates*, ICTP-SAIFR presentation (2022) &lbrack;[pdf](https://www.ictp-saifr.org/wp-content/uploads/2022/11/ICTP_SAIFR_D1-L2.pdf)&rbrack;
+
+Proof that [[CNOT]] + [[U(n)|U(2)]] is universal:
+
+* [[Adriano Barenco]], [[Charles H. Bennett]], [[Richard Cleve]], [[David P. DiVincenzo]], [[Norman Margolus]], [[Peter Shor]], [[Tycho Sleator]], [[John A. Smolin]], [[Harald Weinfurter]]: *Elementary gates for quantum computation*, Phys. Rev. A **52** (1995) 3457 &lbrack;[doi:10.1103/PhysRevA.52.3457](https://doi.org/10.1103/PhysRevA.52.3457), [arXiv:quant-ph/9503016](https://arxiv.org/abs/quant-ph/9503016)&rbrack;
+
+Proof that [[CNOT]] + [[Hadamard gate|Hadamard]] +  [[T gate]] is universal:
+
+* P. Oscar Boykin, Tal Mor, Matthew Pulver, Vwani Roychowdhury, Farrokh Vatan: *A new universal and fault-tolerant quantum basis*, Information Processing Letters **75** 3 (2000) 101-107 \[<a href="https://doi.org/10.1016/S0020-0190(00)00084-3">doi:10.1016/S0020-0190(00)00084-3</a>, [arXiv:quant-ph/9906054](https://arxiv.org/abs/quant-ph/9906054)\]
+
+
+Proof that [[CNOT]] + $R_y(\pi/4)$ +  [[S gate]] is universal:
+
+* [[Alexei Kitaev]]: *Quantum computations: algorithms and error correction*,  Russ. Math. Surv. **52** (1997) 1191 &lbrack;[doi:10.1070/RM1997v052n06ABEH002155](https://iopscience.iop.org/article/10.1070/RM1997v052n06ABEH002155)&rbrack;
+
+
+Proof that [[Toffoli gate]] + [[Hadamard gate]] is universal (and generally Toffoli + any real single-qbit gate not preserving the measurement basis):
+
+* Yaoyun Shi: *Both Toffoli and Controlled-NOT need little help to do universal quantum computation*, Quantum Information & Computation **3** 1 (2003) 84-92 &lbrack;[doi:10.5555/2011508.2011515](https://dl.acm.org/doi/abs/10.5555/2011508.2011515), [arXiv:quant-ph/0205115](https://arxiv.org/abs/quant-ph/0205115)&rbrack;
+
+
+
 
 [[!redirects quantum logic gates]]
 
