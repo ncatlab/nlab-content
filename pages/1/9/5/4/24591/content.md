@@ -7,9 +7,14 @@
 
 ## Selected writings
 
+
 On [[quantum circuits]] with [[mixed quantum states]]/[[density matrices]]:
 
 * [[Dorit Aharonov]], [[Alexei Kitaev]], [[Noam Nisan]], *Quantum Circuits with Mixed States*, *Proceedings of the Thirtieth Annual ACM Symposium on Theory of Computation (STOC)* (1998) 20-30 &lbrack;[arXiv:quant-ph/9806029](https://arxiv.org/abs/quant-ph/9806029), [doi:10.1145/276698.276708](https://doi.org/10.1145/276698.276708)&rbrack;
+
+Proof that [[Toffoli gate]] + [[Hadamard gate]] is a universal set of [[quantum gates]]:
+
+* [[Dorit Aharonov]]: *A Simple Proof that Toffoli and Hadamard are Quantum Universal* &lbrack;[arXiv:quant-ph/0301040](https://arxiv.org/abs/quant-ph/0301040), [spire:2727250](https://inspirehep.net/literature/2727250)&rbrack;
 
 
 Mathematical argument that [[quantum computation]] with [[quantum error correction]] is practically feasible:
