@@ -87,7 +87,7 @@ The [[Hadamard gate]] transforms the [[eigenstates]] $\vert 0 \rangle$, $\vert 1
 
 ## References
 
-For example:
+Monograph:
 
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], p. xxx in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
@@ -102,6 +102,14 @@ For example:
 [[!redirects Pauli-Y gates]]
 [[!redirects Pauli-Z gate]]
 [[!redirects Pauli-Z gates]]
+
+[[!redirects Pauli X-gate]]
+[[!redirects Pauli X-gates]]
+[[!redirects Pauli Y-gate]]
+[[!redirects Pauli Y-gates]]
+[[!redirects Pauli Z-gate]]
+[[!redirects Pauli Z-gates]]
+
 
 [[!redirects Pauli-X]]
 [[!redirects Pauli-Y]]
