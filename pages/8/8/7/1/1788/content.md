@@ -1,25 +1,492 @@
 
+We discuss the unitarization of the [standard representation](representation+theory+of+the+symmetric+group#StandardRepresentation) of the [[symmetric group]] $Sym_3$.
 
-
+For definiteness of computation, when [[group averaging]] we will be cycling through the elements of $Sym_3$ in this order:
 
 $$
+  Sym_3 
+  \;=\;
+  \left\{
+    \begin{array}{l}
+    (1 2 3)
+    ,\,\\
+    (1 3 2)
+    ,\,\\
+    (2 1 3)
+    ,\,\\
+    (2 3 1)
+    ,\,\\
+    (3 1 2)
+    ,\,\\
+    (3 2 1)
+    \end{array}
+  \right\}
+$$
+
+Let $\big\{e_1, e_2, e_3\big\}$ be the canonical [[linear basis]] of the *defining* representation, with [[group action]] given by
+
+$$
+  \sigma \cdot e_i \;\coloneqq\; e_{\sigma(i)}
+  \,.
+$$
+
+Then a linear basis for the standard representation is 
+
+$\left[\begin{array}{c}1 \\ 0\end{array}\right] \coloneqq e_1 - e_3$
+
+$\left[\begin{array}{c}0 \\ 1\end{array}\right] \coloneqq e_2 - e_3$
+
+The [[group averaging|group-averaged]] inner product of these basis elements is:
+
+$$
+  \left\langle
+    \left[
+      \begin{array}{c}
+        1 \\ 0
+      \end{array}
+    \right]
+    ,\,
+    \left[
+      \begin{array}{c}
+        0 \\ 1
+      \end{array}
+    \right]
+  \right\rangle
+  \;=\;
+  \left(
+  \begin{array}{l}
   \left[
-  \begin{array}{cc}
-    -1 & -1
-    \\
-    0  &  1
-  \end{array}
+    \begin{array}{c}
+      1 
+      \\
+      0
+    \end{array}
   \right]
   \cdot
   \left[
-  \begin{array}{cc}
-    1 & 0
+    \begin{array}{c}
+      0 
+      \\
+      1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      1 
+      \\
+      -1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      0 
+      \\
+      -1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      0
+      \\
+      1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      1 
+      \\
+      0
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      -1
+      \\
+      1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      -1 
+      \\
+      0
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      0
+      \\
+      -1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      1
+      \\
+      -1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      -1
+      \\
+      0
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      -1 
+      \\
+      1
+    \end{array}
+  \right]
+  \end{array}
+  \right)/6
+  \;=\;
+  4/6
+  \;=\;
+  2/3
+$$
+
+
+
+$$
+  \left\langle
+    \left[
+      \begin{array}{c}
+        0 \\ 1
+      \end{array}
+    \right]
+    ,\,
+    \left[
+      \begin{array}{c}
+        0 \\ 1
+      \end{array}
+    \right]
+  \right\rangle
+  \;=\;
+  \left(
+  \begin{array}{l}
+  \left[
+    \begin{array}{c}
+      0 
+      \\
+      1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      0 
+      \\
+      1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      0 
+      \\
+      -1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      0 
+      \\
+      -1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      1
+      \\
+      0
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      1 
+      \\
+      0
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      -1
+      \\
+      0
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      -1 
+      \\
+      0
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      1
+      \\
+      -1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      1
+      \\
+      -1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      -1
+      \\
+      1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      -1 
+      \\
+      1
+    \end{array}
+  \right]
+  \end{array}
+  \right)/6
+  \;=\;
+  8/6
+  \;=\;
+  4/3
+$$
+
+
+$$
+  \left\langle
+    \left[
+      \begin{array}{c}
+        1 \\ 0
+      \end{array}
+    \right]
+    ,\,
+    \left[
+      \begin{array}{c}
+        1 \\ 0
+      \end{array}
+    \right]
+  \right\rangle
+  \;=\;
+  \left(
+  \begin{array}{l}
+  \left[
+    \begin{array}{c}
+      1 
+      \\
+      0
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      1 
+      \\
+      0
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      1 
+      \\
+      -1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      1 
+      \\
+      -1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      0
+      \\
+      1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      0 
+      \\
+      1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      -1
+      \\
+      1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      -1 
+      \\
+      1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      0
+      \\
+      -1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      0
+      \\
+      -1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      -1
+      \\
+      0
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      -1 
+      \\
+      0
+    \end{array}
+  \right]
+  \end{array}
+  \right)/6
+  \;=\;
+  8/6
+  \;=\;
+  4/3
+$$
+
+
+\linebreak
+
+orthonormal basis
+
+$$
+  {\vert 0 \rangle}
+  \;\coloneqq\;
+  \tfrac{1}{4}
+  \left[
+  \begin{array}{c}
+    1
     \\
-    -1  &  -1
+    1
+  \end{array}
+  \right]
+  \,,
+  \;\;
+  {\vert 1 \rangle}
+  \;\coloneqq\;
+  \tfrac{3}{8}
+  \left[
+  \begin{array}{c}
+    1
+    \\
+    -1
+  \end{array}
+  \right]
+$$
+
+
+$$
+  (132) 
+  {\vert 0 \rangle}
+  \;=\;
+  (132)
+  \tfrac{1}{4}
+  \left[
+  \begin{array}{c}
+    1
+    \\
+    1
   \end{array}
   \right]
   \;=\;
+  \tfrac{1}{4}
+  \left[
+  \begin{array}{c}
+    1
+    \\
+    -2
+  \end{array}
+  \right]  
+  \;=\;
+  -\tfrac{1}{2} {\vert 0 \rangle}
+  +
+  {\vert 1 \rangle}
 $$
+
+$$
+  (132) {\vert 1 \rangle}
+  \;=\;
+  (132)
+  \tfrac{3}{8}
+  \left[
+  \begin{array}{c}
+    1
+    \\
+    -1
+  \end{array}
+  \right]
+  \;=\;
+  \tfrac{3}{8}
+  \left[
+  \begin{array}{c}
+    1
+    \\
+    0
+  \end{array}
+  \right]  
+$$
+
+
+\linebreak
+
+\linebreak
 
 
 
