@@ -2,6 +2,26 @@
 
 
 
+$$
+  \left[
+  \begin{array}{cc}
+    -1 & -1
+    \\
+    0  &  1
+  \end{array}
+  \right]
+  \cdot
+  \left[
+  \begin{array}{cc}
+    1 & 0
+    \\
+    -1  &  -1
+  \end{array}
+  \right]
+  \;=\;
+$$
+
+
 
 ## Idea
 
