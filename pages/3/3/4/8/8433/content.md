@@ -1,5 +1,9 @@
 
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Alexei_Kitaev)
+
+* [inSpire page](https://inspirehep.net/authors/1056433)
+
 
 ## Selected writings
 
