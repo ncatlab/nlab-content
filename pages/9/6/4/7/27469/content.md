@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[quantum information theory]] and [[quantum computing]], by the *T-gate* and the *S-gate* one refers to the [[quantum gates]] acting on single [[qbits]] that in the defining measurement-[[linear basis|basis]] $\big\{ {\vert 0 \rangle}, {\vert 1 \rangle} \big\}$ are given by the [[matrices]]
+In [[quantum information theory]] and [[quantum computing]], by the *T-gate* and the *S-gate* one refers to the [[quantum gates]] acting on single [[qbits]] that in the defining measurement-[[linear basis|basis]] $\big\{ {\vert 0 \rangle}, {\vert 1 \rangle} \big\}$ are given by the $2 \times 2$ [[complex numbers|complex]] [[matrices]]
 
 $$
   T 
@@ -29,7 +29,7 @@ $$
   \right]
 $$
 
-and by
+and
 
 $$
   S 
@@ -46,12 +46,23 @@ $$
   \mathrlap{\,,}
 $$
 
-respectively.
+respectively, where "$\mathrm{i}$" denotes the [[imaginary unit]].
+
+In particular, the [[Pauli Z-gate]] is decomposable into these gates as 
+
+$$
+  Z   
+   \;=\; 
+  S^2 
+   \;=\; 
+  T^4
+  \,.
+$$
 
 \begin{remark}
 Beware of these alternative names and their subtleties:
 
-* The T-gate is also known as the "$\pi/8$-gate" (e.g. in [Nielsen & Chuang 2000 p xxx](#NielsenChuang00)), even though the phase rotation is by $\pi/4$: It differs by only a global phase from the $R_Z(\pi/8)$ rotation gate.
+* The T-gate is also known as the "$\pi/8$-gate" (e.g. in [Nielsen & Chuang 2000 p xxx](#NielsenChuang00)), even though the phase rotation is by $\pi/4$ -- but differs by only a global phase from the $R_Z(\pi/8)$ rotation gate.
 
 * The S-gate is also known as the "phase gate", but that term is ambiguous.
 
@@ -62,6 +73,10 @@ Beware of these alternative names and their subtleties:
 * [[Hadamard gate]]
 
 * [[Pauli gates]]
+
+* [[CNOT gate]]
+
+* [[Toffoli gate]]
 
 
 ## References
