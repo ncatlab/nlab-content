@@ -118,7 +118,13 @@ The following examples have no classical analog:
 
 \linebreak
 
-**[[Pauli gate]]**
+**[[Pauli gates]]**
+
+(...)
+
+\linebreak
+
+**[[T gate]]** and **[[S gate]]**
 
 (...)
 
@@ -202,7 +208,9 @@ Proof that [[CNOT]] + $R_y(\pi/4)$ +  [[S gate]] is universal:
 
 Proof that [[Toffoli gate]] + [[Hadamard gate]] is universal (and generally Toffoli + any real single-qbit gate not preserving the measurement basis):
 
-* Yaoyun Shi: *Both Toffoli and Controlled-NOT need little help to do universal quantum computation*, Quantum Information & Computation **3** 1 (2003) 84-92 &lbrack;[doi:10.5555/2011508.2011515](https://dl.acm.org/doi/abs/10.5555/2011508.2011515), [arXiv:quant-ph/0205115](https://arxiv.org/abs/quant-ph/0205115)&rbrack;
+* [[Yaoyun Shi]]: *Both Toffoli and Controlled-NOT need little help to do universal quantum computation*, Quantum Information & Computation **3** 1 (2003) 84-92 &lbrack;[doi:10.5555/2011508.2011515](https://dl.acm.org/doi/abs/10.5555/2011508.2011515), [arXiv:quant-ph/0205115](https://arxiv.org/abs/quant-ph/0205115)&rbrack;
+
+* [[Dorit Aharonov]]: *A Simple Proof that Toffoli and Hadamard are Quantum Universal* &lbrack;[arXiv:quant-ph/0301040](https://arxiv.org/abs/quant-ph/0301040), [spire:2727250](https://inspirehep.net/literature/2727250)&rbrack;
 
 
 
