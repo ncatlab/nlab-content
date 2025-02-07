@@ -108,7 +108,7 @@ Intuitively, this maps all the mass at $x$ to a measure on $Y$ proportional to t
 Note that in the formula above, the measure $B\mapsto k(B|x)$ is invoked only for almost all $x$, and so it is insensitive to changes in $k$ on a $p$-measure-zero set. 
 In a certain sense, this transporting the *mass* of $p$, more than the single points $x$.
 
-In many cases, such as if $(X,\mathcal{A})$ and $(Y,\mathcal{B})$ are [[standard Borel]], every transport plan is in the form $r_k$ for some $k$. See also [[category of couplings#equivalence_of_the_definitions|the discussion at "categories of couplings"]].
+In many cases, such as if $(X,\mathcal{A})$ and $(Y,\mathcal{B})$ are [[standard Borel]], every transport plan is in the form $r_k$ for some $k$. See also [[category of couplings#equivalence_of_the_definitions|the discussion at "category of couplings"]].
 
 ### Bayesian inversion
 
