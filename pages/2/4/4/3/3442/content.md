@@ -205,7 +205,10 @@ General accounts:
 
 * [[Mikhail Gromov]], _Partial differential relations_, Ergebnisse der Mathematik und ihrer Grenzgebiete (3) [Results in Mathematics and Related Areas (3)], 9. Springer-Verlag, Berlin, 1986. x+363 pp.
 
-* [[Peter Olver]], _Applications of Lie groups to differential equations_, Springer; _Equivalence, invariants, and symmetry_, Cambridge Univ. Press 1995.
+* {#Olver86} [[Peter Olver]]: *Applications of Lie groups to differential equations*, Graduate Texts in Mathematics **107**, Springer (1986, 1993) &lbrack;[doi:10.1007/978-1-4612-4350-2](https://doi.org/10.1007/978-1-4612-4350-2)&rbrack;
+  > (relation to [[Lie groups]])
+
+* [[Peter Olver]]: _Equivalence, invariants, and symmetry_, Cambridge Univ. Press (1995)
 
 
 On the partial differential equations appearing in [[mathematical physics|mathematical]] [[physics]]:
