@@ -103,14 +103,19 @@ A survey and problem description in [[mathematics]]/[[mathematical physics]]:
 > [43:09](https://youtu.be/trxjCOmg8GY?t=2589) The big challenge [for] mathematics and the physicists of the 21st century is to really make progress along this program by whatever method they can. Good luck to you.
 
 
-
 Early report on the progress (essentially none):
 
 * {#Douglas04} [[Michael Douglas]], _Report on the Status of the Yang-Mills Millennium Prize Problem_ (2004) &lbrack;[[Douglas-StatusOfYMMillenniumProb.pdf:file]]&rbrack;
 
 Further comments:
 
-* [[Ludvig Faddeev]], _Mass in Quantum Yang-Mills Theory_, Bull Braz Math Soc, New Series 33(2), 201-212 ([arXiv:0911.1013](https://arxiv.org/abs/0911.1013), [pdf](http://emis.impa.br/EMIS/journals/em/docs/boletim/vol332/v33-2-a4-2002.pdf))
+* [[Ludvig Faddeev]]: _Mass in Quantum Yang-Mills Theory (Comment on a Clay Millennium Problem)_, in: *Perspectives in Analysis*, Mathematical Physics Studies **27**, Springer (2005) 63-72 &lbrack;[doi:10.1007/3-540-30434-7_6](https://doi.org/10.1007/3-540-30434-7_6), [arXiv:0911.1013](https://arxiv.org/abs/0911.1013)&rbrack;
+  
+  also: Bull Braz Math Soc, New Series **33** 2 (2005) 201-212 &lbrack;[pdf](http://emis.impa.br/EMIS/journals/em/docs/boletim/vol332/v33-2-a4-2002.pdf)&rbrack;
+
+* [[David Gross]]: *Millennium Prize Problem: Yang Mills Theory*, talk at *Kavli Institute for Theoretical Physics* (Jan 2018) &lbrack;video:[YT](https://youtu.be/vMiY7zlBOFI)&rbrack;
+
+* Lorenzo Sadun: *Yang-Mills existence and mass gap*, talk at *2001 University of Texas Lectures on the Millennium Problems* &lbrack;video:[YT](https://youtu.be/6sDJWSjEE8Y)&rbrack;
 
 Notes reviewing more technical details of the problem:
 
