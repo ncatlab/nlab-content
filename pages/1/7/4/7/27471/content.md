@@ -115,6 +115,11 @@ $$
 \end{example}
 
 
+
+## Variations and generalizations
+
+Provided that one assumes enough Choice to ensure weak-star compactness in the unit ball of B(H), for H a Hilbert space: every bounded strong-operator-continuous representation of a locally compact amenable group on a Hilbert space H is unitarizable. See the Wikipedia page for [Uniformly bounded representation](https://en.wikipedia.org/wiki/Uniformly_bounded_representation) \[version: 2025-12-08\] for some of the historical references.
+
 ## References
 
 The terminology "unitarian trick" goes back to:
