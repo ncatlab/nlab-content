@@ -83,6 +83,12 @@ Simple as it is, the Hadamard gate plays a central role in theory and practice o
 
 * [[T gates]], [[S gate]]
 
+* [[rotation gates]]
+
+* [[CNOT gate]]
+
+* [[Toffoli gate]]
+
 
 ## References
 
