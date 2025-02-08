@@ -1,6 +1,10 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/David_Gross)
 
+* [KAVLI institute page](https://www.kitp.ucsb.edu/gross)
+
+* [GoogleScholar entry](https://scholar.google.com/citations?user=kCLMkbAAAAAJ&hl=en)
+
 ## Selected writings
 
 Introducing [[Kaluza-Klein monopoles]]:
@@ -19,10 +23,15 @@ Introducing [[heterotic string theory]]:
 
 On [[2d QCD]]:
 
-* [[David Gross]], [[Washington Taylor]], _Two Dimensional QCD is a String Theory_, Nucl.Phys.B400:181-210, 1993
+* [[David Gross]], [[Washington Taylor]], _Two Dimensional QCD is a String Theory_, Nucl. Phys. B **400** (1993) 181-210
+
+On the [[Yang-Mills mass gap]] problem:
+
+* [[David Gross]]: *Millennium Prize Problem: Yang Mills Theory*, talk at *Kavli Institute for Theoretical Physics* (Jan 2018) &lbrack;video:[YT](https://youtu.be/vMiY7zlBOFI)&rbrack;
 
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[instanton in QCD]]
 
