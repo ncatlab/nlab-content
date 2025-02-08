@@ -1,17 +1,15 @@
 
-$\rightrightarrows$
 
-$\Vert$
+\begin{example}
+  The [[unitarization]] of the [standard representation](representation+theory+of+the+symmetric+group#StandardRepresentation) of the [[symmetric group]] $Sym_3$ has the two generating [[transpositions]] represented by (what in [[quantum information theory]] is called)
 
+1. the [[Pauli Z-gate]] $Z$ 
 
+1. its composition $- Z \circ R_y(3\pi/2)$ with [[rotation gates]]. 
 
-
-
-
-We discuss the unitarization of the [standard representation](representation+theory+of+the+symmetric+group#StandardRepresentation) of the [[symmetric group]] $Sym_3$.
-
+\end{example}
+\begin{proof}
 For definiteness of computation, when [[group averaging]] we will be cycling through the elements of $Sym_3$ in this order:
-
 $$
   Sym_3 
   \;=\;
@@ -30,23 +28,31 @@ $$
     (3 2 1)
     \end{array}
   \right\}
+  \,.
 $$
 
-Let $\big\{e_1, e_2, e_3\big\}$ be the canonical [[linear basis]] of the *defining* representation, with [[group action]] given by
-
+Let $\big\{e_1, e_2, e_3\big\}$ denote the canonical [[linear basis]] of the *defining* representation, with [[group action]] given by
 $$
   \sigma \cdot e_i \;\coloneqq\; e_{\sigma(i)}
   \,.
 $$
 
-Then a linear basis for the standard representation is 
+Then a linear basis for the *[standard representation](representation+theory+of+the+symmetric+group#StandardRepresentation)* inside the defining representation is: 
 
-$\left[\begin{array}{c}1 \\ 0\end{array}\right] \coloneqq e_1 - e_3$
+$$
+  \begin{array}{ccc}
+  \left[\begin{array}{c}1 \\ 0\end{array}\right] 
+    \;\coloneqq\; 
+  e_1 - e_3
+  \\
+  \left[\begin{array}{c}0 \\ 1\end{array}\right] 
+  \;\coloneqq\; 
+  e_2 - e_3
+  \mathrlap{\,.}
+  \end{array}
+$$
 
-$\left[\begin{array}{c}0 \\ 1\end{array}\right] \coloneqq e_2 - e_3$
-
-The [[group averaging|group-averaged]] inner product of these basis elements is:
-
+The [[group averaging|group-averaged]] inner product of these basis elements is found to be:
 $$
   \left\langle
     \left[
@@ -63,6 +69,7 @@ $$
   \right\rangle
   \;=\;
   \left(
+  \;\;
   \begin{array}{l}
   \left[
     \begin{array}{c}
@@ -166,9 +173,6 @@ $$
   \;=\;
   2/3
 $$
-
-
-
 $$
   \left\langle
     \left[
@@ -185,6 +189,7 @@ $$
   \right\rangle
   \;=\;
   \left(
+  \;\;
   \begin{array}{l}
   \left[
     \begin{array}{c}
@@ -288,8 +293,6 @@ $$
   \;=\;
   4/3
 $$
-
-
 $$
   \left\langle
     \left[
@@ -306,6 +309,7 @@ $$
   \right\rangle
   \;=\;
   \left(
+  \;\;
   \begin{array}{l}
   \left[
     \begin{array}{c}
@@ -410,15 +414,11 @@ $$
   4/3
 $$
 
-
-\linebreak
-
-orthonormal basis
-
+From this an [[orthonormal basis]] for the averaged inner product is
 $$
   {\vert 0 \rangle}
   \;\coloneqq\;
-  \tfrac{1}{4}
+  \tfrac{1}{2}
   \left[
   \begin{array}{c}
     1
@@ -430,7 +430,7 @@ $$
   \;\;
   {\vert 1 \rangle}
   \;\coloneqq\;
-  \tfrac{3}{8}
+  \tfrac{\sqrt{3}}{2}
   \left[
   \begin{array}{c}
     1
@@ -438,15 +438,46 @@ $$
     -1
   \end{array}
   \right]
+  \,.
 $$
 
+On this bases the action of $(213)$ is
 
 $$
-  (132) 
-  {\vert 0 \rangle}
+  \rho(213)\big({\vert 0 \rangle}\big)
   \;=\;
-  (132)
-  \tfrac{1}{4}
+  {\vert 0 \rangle}
+$$
+$$
+  \rho(213)\big({\vert 1 \rangle}\big)
+  \;=\;
+  -{\vert 1 \rangle}
+$$
+
+and hence $(213)$ acts as the [[Pauli Z-gate]]:
+
+$$
+  \rho(213)
+    \;=\;
+  \left(
+  \begin{array}{cc}
+    1 & 0 
+    \\
+    0 & -1
+  \end{array}
+  \right)
+  \;=\;
+  Z
+$$
+
+
+On the other hand, the action of $(132)$ is found to be
+$$
+  \rho(132)\big({\vert 0 \rangle}\big)
+  \;=\;
+  \rho(132)
+  \left(
+  \tfrac{1}{2}
   \left[
   \begin{array}{c}
     1
@@ -454,8 +485,9 @@ $$
     1
   \end{array}
   \right]
+  \right)
   \;=\;
-  \tfrac{1}{4}
+  \tfrac{1}{2}
   \left[
   \begin{array}{c}
     1
@@ -465,15 +497,14 @@ $$
   \right]  
   \;=\;
   -\tfrac{1}{2} {\vert 0 \rangle}
-  +
-  {\vert 1 \rangle}
+  + \tfrac{\sqrt{3}}{2} {\vert 1 \rangle}
 $$
-
 $$
-  (132) {\vert 1 \rangle}
+  \rho(132)\big({\vert 1 \rangle}\big)
   \;=\;
-  (132)
-  \tfrac{3}{8}
+  \rho(132)
+  \left(
+  \tfrac{\sqrt{3}}{2}
   \left[
   \begin{array}{c}
     1
@@ -481,8 +512,9 @@ $$
     -1
   \end{array}
   \right]
+  \right)
   \;=\;
-  \tfrac{3}{8}
+  \tfrac{\sqrt{3}}{2}
   \left[
   \begin{array}{c}
     1
@@ -490,50 +522,185 @@ $$
     0
   \end{array}
   \right]  
+  \;=\;
+  \tfrac{\sqrt{3}}{2} {\vert 0 \rangle}
+  +
+  \tfrac{1}{2} {\vert 1 \rangle}
 $$
+and hence
+$$
+  \rho(132)
+  \;=\;
+  \left(
+  \begin{array}{c}
+    -1/2 & \sqrt{3}/2
+    \\
+    \sqrt{3}/2 & 1/2
+  \end{array}
+  \right)
+  \;=\;
+  \left(
+  \begin{array}{c}
+    -1 & 0
+    \\
+    0 & 1
+  \end{array}
+  \right)
+  \left(
+  \begin{array}{c}
+    1/2 & -\sqrt{3}/2
+    \\
+    \sqrt{3}/2 & 1/2
+  \end{array}
+  \right)
+  \;=\;
+  \left(
+  \begin{array}{c}
+    -1 & 0
+    \\
+    0 & 1
+  \end{array}
+  \right)
+  \left(
+  \begin{array}{c}
+    cos(\pi/3) & -sin(\pi/3)
+    \\
+    sin(\pi/3) & cos(\pi/3)
+  \end{array}
+  \right)
+  \;=\;
+  - 
+  Z \circ R_y(2\pi/3)
+$$
+\end{proof}
 
 
 \linebreak
 
+end
+
+\lnebreak
+
+
+The action of $(231)$
+
+$$
+  (231) {\vert 0 \rangle}
+  \;=\;
+  \tfrac{1}{2}
+  \left[
+  \begin{array}{c}
+    -2 \\ 1
+  \end{array}
+  \right]
+  \;=\;
+  -\tfrac{1}{2} {\vert 0 \rangle}
+  -\tfrac{\sqrt{3}}{2} {\vert 1 \rangle}
+$$
+
+$$
+  (231) {\vert 1 \rangle}
+  \;=\;
+  \tfrac{\sqrt{3}}{2}
+  \left[
+  \begin{array}{c}
+    0 \\ 1
+  \end{array}
+  \right]
+  \;=\;
+  \tfrac{\sqrt{3}}{2} {\vert 0 \rangle}
+  - \tfrac{1}{2} {\vert 1 \rangle}
+$$
+
+Hence 
+
+$$
+  (231) 
+  \;=\;
+  \left[
+  \begin{array}{cc}
+    -1/2 & \sqrt{3}/2
+    \\
+    -\sqrt{3}/2 & - 1/2
+  \end{array}
+  \right]
+$$
+
+
+The action of $(321)$
+
+$$
+  (321) {\vert 0 \rangle}
+  \;=\;
+  (321) 
+  \tfrac{1}{2}
+  \left[
+    \begin{array}{c}
+      1 \\ 1
+    \end{array}
+  \right]
+  \;=\;
+  \tfrac{1}{2}
+  \left[
+    \begin{array}{c}
+      -2 \\ 1
+    \end{array}
+  \right]
+  \;=\;
+  -\tfrac{1}{2} {\vert 0 \rangle}
+  - \tfrac{\sqrt{3}}{2} {\vert 1 \rangle}
+$$
+
+$$
+  (321) {\vert 1 \rangle}
+  \;=\;
+  (321) 
+  \tfrac{\sqrt{3}}{2}
+  \left[
+    \begin{array}{c}
+      1 \\ -1
+    \end{array}
+  \right]
+  \;=\;
+  \tfrac{\sqrt{3}}{2}
+  \left[
+    \begin{array}{c}
+      0 \\ -1
+    \end{array}
+  \right]
+  \;=\;  
+  \tfrac{\sqrt{3}}{2} {\vert 0 \rangle}
+  - \tfrac{1}{2} {\vert 1 \rangle}
+$$
+
+Hence $(321)$ acts as
+
+$$
+  (321) 
+  \;=\;
+  \left[
+  \begin{array}{c}
+    -1/2 & \sqrt{3}/2
+    \\
+    -\sqrt{3}/2 & -1/2
+  \end{array}
+  \right]
+  \;=\;
+  -
+  \left[
+  \begin{array}{c}
+    1/2 & -\sqrt{3}/2
+    \\
+    \sqrt{3}/2 & 1/2
+  \end{array}
+  \right]
+  \;=\;
+  - R_y(2\pi/3)
+$$
+
 \linebreak
 
-
-
-## Idea
-
-In [[quantum information theory]] and [[quantum computing]], by the *T-gate* and the *S-gate* one refers to the [[quantum gates]] acting on single [[qbits]], which in the defining measurement-[[linear basis|basis]] $\big\{ {\vert 0 \rangle}, {\vert 1 \rangle} \big\}$ are given by the [[matrices]]
-
-$$
-  T 
-  \;=\;
-  \left[
-    \begin{array}{cc}
-      1 & 0
-      \\
-      0 & e^{\pi \mathrm{i}/4}
-    \end{array}
-  \right]
-$$
-
-and
-
-
-$$
-  S 
-  \;=\; 
-  T^2
-  \;=\;
-  \left[
-    \begin{array}{cc}
-      1 & 0
-      \\
-      0 & \mathrm{i}
-    \end{array}
-  \right]
-  \mathrlap{\,,}
-$$
-
-respectively.
+\linebreak
 
 
 
