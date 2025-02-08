@@ -39,6 +39,7 @@ On the [[Aharonov-Bohm effect]], generalized to non-abelian [[Yang-Mills theory]
 
 * {#WuYang75} [[Tai Tsun Wu]], [[Chen Ning Yang]], *Concept of nonintegrable phase factors and global formulation of gauge fields*, Phys. Rev. D **12** (1975) 3845 &lbrack;[doi:10.1103/PhysRevD.12.3845](https://doi.org/10.1103/PhysRevD.12.3845)&rbrack;
 
+* [[Chen Ning Yang]]: *Vector Potentials and Connections*, talk at 13th Annual Geometry Festival *Connections in Modern Mathematics and Physics*, Stony Brook University (April 1998) &lbrack;video:[YT](https://youtu.be/uaBVQe7w2Hs)&rbrack;
 
 On [[Dirac monopoles]]:
 
