@@ -226,12 +226,14 @@ The [[exceptional Lie groups]] incude
 
 * Arthur A. Sagle, Ralph E. Walde: *Introduction to Lie Groups and Lie Algebras*, Pure and Applied Mathematics **51**, Elsevier (1973) 215-227
 
-
 * [[Nicolas Bourbaki]], _Lie groups and Lie algebras -- Chapters 1-3_, Springer (1975, 1989) &lbrack;[ISBN:9783540642428](https://link.springer.com/book/9783540642428)&rbrack;
 
 * {#Adams82} [[Frank Adams]], *Lectures on Lie groups*, University of Chicago Press, 1982 ([ISBN:9780226005300](https://press.uchicago.edu/ucp/books/book/chicago/L/bo3614673.html), [gbooks](https://www.google.com/books/edition/Lectures_on_Lie_Groups/TC7d3ZcqjfsC?hl=en))
 
 * [[M. M. Postnikov]], *Lectures on geometry: Semester V, Lie groups and algebras* (1986) &lbrack;[ark:/13960/t4cp9jn4p](https://archive.org/details/postnikov-lectures-in-geometry-semester-v-lie-group-and-lie-algebras)&rbrack;
+
+* {#Olver86} [[Peter Olver]]: *Applications of Lie groups to differential equations*, Graduate Texts in Mathematics **107**, Springer (1986, 1993) &lbrack;[doi:10.1007/978-1-4612-4350-2](https://doi.org/10.1007/978-1-4612-4350-2)&rbrack;
+  > (relation to [[differential equations]])
 
 
 * {#Onishchik93} A. L. Onishchik (ed.) _Lie Groups and Lie Algebras_
