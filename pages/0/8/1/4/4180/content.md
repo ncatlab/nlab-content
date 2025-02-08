@@ -37,6 +37,8 @@ Other examples include:
 
 * If $L$ is a [[meet-semilattice]], then $L$ is an inverse semigroup under the meet operation. 
 
+* Exel's inverse semigroup $S(G)$ of a finite group $G$, as defined by [Exel 95](#Exel95). This relates representations of $S(G)$ to _partial_ representations of $G$.
+
 ## Properties
 
 +-- {: .query}
@@ -264,6 +266,10 @@ Consider the map $S\rightarrow I(S)$ defined by $s\mapsto (s|_{s^\ast(S)}: s^\as
 * Igor Dolinka, Sergey V. Gusev, Mikhail V. Volkov, _Semiring and involution identities of powers of inverse semigroups_, [arXiv:2309.11432](https://arxiv.org/abs/2309.11432)
 
 > The set of all subsets of any inverse semigroup forms an involution semiring under set-theoretical union and element-wise multiplication and inversion. We find structural conditions on a finite inverse semigroup guaranteeing that neither semiring nor involution identities of the involution semiring of its subsets admit a finite identity basis. 
+
+Exel's inverse semigroup
+
+* Ruy Exel. *Partial actions of groups and actions of inverse semigroups* (1995). ([arXiv:funct-an/9511003](https://arxiv.org/abs/funct-an/9511003)).
 
 category: algebra
 
