@@ -23,7 +23,7 @@ The formalism of *Markov categories* and *copy-discard categories* is one of the
 
 Intuitively, a Markov category is a category where morphisms behave like "random functions", for example, [[Markov kernels]] form such a category (hence the name). Canonical examples are [[Kleisli categories]] of [[probability monads]]. The formalism is however far more general. 
 
-Markov categories have a graphical formalism, based on [[string diagrams]], that allows one to easily keep track of the stochastic dependencies, as well as of randomness and determinism. 
+Markov categories have a graphical formalism, based on [[string diagrams]], that allows one to easily keep track of stochastic dependencies, as well as of randomness and determinism. 
 Using this formalism one can interpret, prove and even *generalize* several results of probability and related fields (see [[categorical probability#main_results|Categorical probability -- results]] for more details).
 
 
