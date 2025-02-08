@@ -16,6 +16,9 @@ For groups of gauge transformations which are finite dimensional [[compact Lie g
 
 * [[norm map]]
 
+* [[unitarization]]
+
+
 ## References
 
 Textbook accounts include
