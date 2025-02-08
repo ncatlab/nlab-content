@@ -62,7 +62,7 @@ $$
 \begin{remark}
 Beware of these alternative names and their subtleties:
 
-* The T-gate is also known as the "$\pi/8$-gate" (e.g. in [Nielsen & Chuang 2000 p xxx](#NielsenChuang00)), even though the phase rotation is by $\pi/4$ -- but differs by only a global phase from the $R_Z(\pi/8)$ rotation gate.
+* The T-gate is also known as the "$\pi/8$-gate" (e.g. in [Nielsen & Chuang 2000 p xxx](#NielsenChuang00)), even though the phase rotation is by $\pi/4$ -- but differs by only a global phase from the $R_Z(\pi/8)$ [[rotation gate]].
 
 * The S-gate is also known as the "phase gate", but that term is ambiguous.
 
@@ -73,6 +73,8 @@ Beware of these alternative names and their subtleties:
 * [[Hadamard gate]]
 
 * [[Pauli gates]]
+
+* [[rotation gate]]
 
 * [[CNOT gate]]
 
