@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -21,11 +33,11 @@ For groups of gauge transformations which are finite dimensional [[compact Lie g
 
 ## References
 
-Textbook accounts include
+Textbook accounts for finite groups:
 
-* {#Olver99} [[Peter Olver]], around (4.8) in _Classical invariant theory_, 1999
+* {#Olver99} [[Peter Olver]], p 74 of: *Classical Invariant Theory*, London Mathematical Society Student Texts **44**, Cambridge University Press (1999) &lbrack;[doi:10.1017/CBO9780511623660](https://doi.org/10.1017/CBO9780511623660)&rbrack;
 
-Reviews include
+Review of application in [[physics]]:
 
-* Domenico Giulini, _Group Averaging and Refined Algebraic Quantization_, Nucl.Phys.Proc.Suppl. 88 (2000) 385-388 ([arXiv:gr-qc/0003040](http://arxiv.org/abs/gr-qc/0003040))
+* [[Domenico Giulini]]: _Group Averaging and Refined Algebraic Quantization_, Nucl. Phys. Proc. Suppl. **88* (2000) 385-388 ([arXiv:gr-qc/0003040](http://arxiv.org/abs/gr-qc/0003040))
 
