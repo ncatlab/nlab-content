@@ -17,7 +17,7 @@
 
 In [[logic]] and [[type theory]], a variable is a symbol that stands for an arbitrary instantiation of some given [[type]] (although in single-typed theories the type is trivial).  Thus, every variable of type $T$ is a [[term]] of type $T$ (although typically there are other terms).
 
-Logicians have developed several ways to precisely specify what variables are and how to keep track of them, and the only thing more annoyingly pedantic than learning one of these is translating between different ones.
+Logicians have developed several ways to precisely specify what variables are and how to keep track of them.
 
 
 ## Free and bound variables
