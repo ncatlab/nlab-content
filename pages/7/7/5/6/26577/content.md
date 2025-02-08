@@ -239,15 +239,19 @@ For [[categorical probability]]:
 
 For the quantum case:
 
-* {#coecke_spekkens12} [[Bob Coecke]] and Robert W. Spekkens, _Picturing classical and quantum Bayesian inference_, Synthese, 186(3), 2012. ([arXiv](https://arxiv.org/abs/1102.2368))
+* {#coecke_spekkens12} [[Bob Coecke]], [[Robert W. Spekkens]]: *Picturing classical and quantum Bayesian inference*, Synthese, **186** 3 (2012) &lbrack;[arXiv:1102.2368](https://arxiv.org/abs/1102.2368), [doi:10.1007/s11229-011-9917-5](https://doi.org/10.1007/s11229-011-9917-5)&rbrack;
+
+and using [[Markov categories]]:
 
 * {#quantum_markov} [[Arthur J. Parzygnat]], _Inverses, disintegrations, and Bayesian inversion in quantum Markov categories_, 2020. ([arXiv](https://arxiv.org/abs/2001.08375))
 
-* {#noncommutative_bayes} [[Arthur J. Parzygnat]] and Benjamin P. Russo, _A noncommutative Bayes theorem_, Linear Algebra Applications 644, 2022. ([arXiv](https://arxiv.org/abs/2005.03886))
+* {#noncommutative_bayes} [[Arthur J. Parzygnat]], [[Benjamin P. Russo]]: _A noncommutative Bayes theorem_, Linear Algebra Applications **644** (2022) &lbrack;[doi:10.1016/j.laa.2022.02.030](https://doi.org/10.1016/j.laa.2022.02.030), [arXiv:2005.03886](https://arxiv.org/abs/2005.03886)&rbrack;
 
-* {#conditional_quantum} [[Arthur J. Parzygnat]], _Conditional distributions for quantum systems_, EPTCS 343, 2021. ([arXiv](https://arxiv.org/abs/2102.01529))
+* {#conditional_quantum} [[Arthur J. Parzygnat]]: *Conditional distributions for quantum systems*, EPTCS **343** (2021) 1-13 &lbrack;[arXiv:2102.01529](https://arxiv.org/abs/2102.01529), [doi:10.4204/EPTCS.343.1](https://doi.org/10.4204/EPTCS.343.1)&rbrack;
 
-* {#retrodiction} [[Arthur J. Parzygnat]], Francesco Buscemi, _Axioms for retrodiction: achieving time-reversal symmetry with a prior_, Quantum 7(1013), 2023. [arXiv](https://arxiv.org/abs/2210.13531)
+* {#retrodiction} [[Arthur J. Parzygnat]], Francesco Buscemi, _Axioms for retrodiction: achieving time-reversal symmetry with a prior_, Quantum **7** (2023) 1013 &lbrack;[arXiv:2210.13531](https://arxiv.org/abs/2210.13531), [doi:10.22331/q-2023-05-23-1013](https://doi.org/10.22331/q-2023-05-23-1013)&rbrack;
+
+* {#quantum_states_time} [[James Fullwood]], [[Arthur J. Parzygnat]]: _On quantum states over time_, Proceedings of the Royal Society A **478** (2022) &lbrack;[arXiv:2202.03607](https://arxiv.org/abs/2202.03607), [doi:10.1098/rspa.2022.0104](https://doi.org/10.1098/rspa.2022.0104)&rbrack;
 
 * {#quantum_bayes} [[James Fullwood]], [[Arthur J. Parzygnat]]: *From time-reversal symmetry to quantum Bayes rules*, PRX Quantum **4** 020334 (2023) &lbrack;[arXiv:2212.08088](https://arxiv.org/abs/2212.08088), [doi:10.1103/PRXQuantum.4.020334](https://doi.org/10.1103/PRXQuantum.4.020334)&rbrack;
 
