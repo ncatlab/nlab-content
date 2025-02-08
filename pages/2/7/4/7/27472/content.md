@@ -14,7 +14,7 @@
 
 ## Idea
 
-In [[quantum information theory]] and [[quantum computing]], by a *rotation gate* one means a [[quantum gate]] acting on a single [[qbit]] --- regarded as a [[spinor]] acted on by [[SU(2)]] $\simeq$ [[Spin(3)]] --- by [[rotation]] by any [[angle]] around one of the coordinate 3 axes.
+In [[quantum information theory]] and [[quantum computing]], by a *rotation gate* one means a [[quantum gate]] acting on a single [[qbit]] --- regarded as a [[spinor]] acted on by [[SU(2)]] $\simeq$ [[Spin(3)]] --- by [[rotation]] of any given [[angle]] around one of the coordinate 3 axes.
 
 Concretely, the standard notational convention for these gates in the canonical [[qbit]] measurement basis is the following (where $X$, $Y$, $Z$ denote the [[Pauli gates]] and $\theta \in [0,4\pi)$ is the rotation [[angle]]):
 
@@ -32,9 +32,9 @@ $$
     &=&
     \left[
     \begin{array}{cc}
-      cos(\theta/2) & - \mathrm{i} sin(\theta/2)
+      cos(\theta/2) & - \mathrm{i} \, sin(\theta/2)
       \\
-      - \mathrm{i} sin(\theta/2) & cos(\theta/2)
+      - \mathrm{i} \, sin(\theta/2) & cos(\theta/2)
     \end{array}
     \right]
     \\
