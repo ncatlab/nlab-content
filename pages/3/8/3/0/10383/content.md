@@ -199,8 +199,9 @@ Further discussion and review:
 * [[Aiyalam P. Balachandran]], [[Giuseppe Marmo]], [[Bo-Sture Skagerstam]], A. Stern: *Gauge Symmetries and Fibre Bundles -- Applications to Particle Dynamics*, Lect. Notes in Physics **188** Springer (1983) &lbrack;[arXiv:1702.08910](https://arxiv.org/abs/1702.08910), [doi:10.1007/3-540-12724-0](https://doi.org/10.1007/3-540-12724-0)&rbrack;
 
 * [[Aiyalam P. Balachandran]], [[Giuseppe Marmo]], [[Bo-Sture Skagerstam]]: *Classical Topology and Quantum States*, World Scientific (1991) &lbrack;[doi:10.1142/1180](https://doi.org/10.1142/1180)&rbrack;
-
   > (emphasis on [[solitons]], [[Skyrmions]] etc.)
+
+* [[Chen Ning Yang]]: *Vector Potentials and Connections*, talk at 13th Annual Geometry Festival *Connections in Modern Mathematics and Physics*, Stony Brook University (April 1998) &lbrack;video:[YT](https://youtu.be/uaBVQe7w2Hs)&rbrack;
 
 * L. Mangiarotti, [[Gennadi Sardanashvily]], _Connections in Classical and Quantum Field Theory_, World Scientific (2000) &lbrack;[doi:10.1142/2524](https://doi.org/10.1142/2524)&rbrack;
 
