@@ -124,6 +124,12 @@ The following examples have no classical analog:
 
 \linebreak
 
+**[[rotation gate]]**
+
+(...)
+
+\linebreak
+
 **[[T gate]]** and **[[S gate]]**
 
 (...)
@@ -201,7 +207,7 @@ Proof that [[CNOT]] + [[Hadamard gate|Hadamard]] +  [[T gate]] is universal:
 * P. Oscar Boykin, Tal Mor, Matthew Pulver, Vwani Roychowdhury, Farrokh Vatan: *A new universal and fault-tolerant quantum basis*, Information Processing Letters **75** 3 (2000) 101-107 \[<a href="https://doi.org/10.1016/S0020-0190(00)00084-3">doi:10.1016/S0020-0190(00)00084-3</a>, [arXiv:quant-ph/9906054](https://arxiv.org/abs/quant-ph/9906054)\]
 
 
-Proof that [[CNOT]] + $R_y(\pi/4)$ +  [[S gate]] is universal:
+Proof that [[CNOT]] + [[rotation gate|$R_y(\pi/4)$]] +  [[S gate]] is universal:
 
 * [[Alexei Kitaev]]: *Quantum computations: algorithms and error correction*,  Russ. Math. Surv. **52** (1997) 1191 &lbrack;[doi:10.1070/RM1997v052n06ABEH002155](https://iopscience.iop.org/article/10.1070/RM1997v052n06ABEH002155)&rbrack;
 
