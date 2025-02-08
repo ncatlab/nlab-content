@@ -19,7 +19,7 @@
 
 ## Idea
 
-The formalism of *Markov categories* and *copy-discard categories* is one of the most recent [[categorical approaches to probability theory]]. 
+The formalism of *Markov categories* and *copy-discard categories* is a [[categorical approach to probability theory]]  due to [Cho & Jacobs 2019](#cd_categories) and [Fritz 2020](#fritzmarkov).
 
 Intuitively, a Markov category is a category where morphisms behave like "random functions", for example, [[Markov kernels]] form such a category (hence the name). Canonical examples are [[Kleisli categories]] of [[probability monads]]. The formalism is however far more general. 
 
@@ -2277,15 +2277,16 @@ Finally, the current form of Markov and copy-discard categories, which is also t
 
 ## References
 
+
 ### Main sources
 
 The main definitions and results in this article can be found in
 
-* {#fritzmarkov} [[Tobias Fritz]], _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, Advances of Mathematics 370, 2020. ([arXiv:1908.07021](http://arxiv.org/abs/1908.07021))
+* {#cd_categories} [[Kenta Cho]], [[Bart Jacobs]]: _Disintegration and Bayesian Inversion via String Diagrams_, Mathematical Structures of Computer Science **29** (2019) &lbrack;[arXiv:1709.00322](https://arxiv.org/abs/1709.00322), [doi:10.1017/S0960129518000488](https://doi.org/10.1017/S0960129518000488)&rbrack;
+  > (where Markov categories are called *affine CD categories*)
 
-and in the following reference (where Markov categories are called *affine CD categories*):
+* {#fritzmarkov} [[Tobias Fritz]]: _A synthetic approach to Markov kernels, conditional independence and theorems on sufficient statistics_, Advances of Mathematics **370** (2020) &lbrack;[arXiv:1908.07021](http://arxiv.org/abs/1908.07021), [doi:10.1016/j.aim.2020.107239](https://doi.org/10.1016/j.aim.2020.107239)&rbrack;
 
-* {#cd_categories} Kenta Cho, Bart Jacobs, _Disintegration and Bayesian Inversion via String Diagrams_, Mathematical Structures of Computer Science 29, 2019. ([arXiv:1709.00322](https://arxiv.org/abs/1709.00322))
 
 The graphical model (separation and d-separation) aspects of conditional independence for Markov categories have been studied in
 
@@ -2403,25 +2404,26 @@ Slides from talks:
 
 * [[Tobias Fritz]], Andreas Klingler, Drew McNeely, Areeb Shah-Mohammed and Yuwen Wang, _Hidden Markov models and the Bayes filter in categorical probability_, 2024. ([arXiv](https://arxiv.org/abs/2401.14669))
 
-* {#quantum_markov} Arthur J. Parzygnat, _Inverses, disintegrations, and Bayesian inversion in quantum Markov categories_, 2020. ([arXiv](https://arxiv.org/abs/2001.08375))
+In the context of [[Bayesian inversion]]:
 
-* {#noncommutative_bayes} Arthur J. Parzygnat and Benjamin P. Russo, _A noncommutative Bayes theorem_, Linear Algebra Applications 644, 2022. ([arXiv](https://arxiv.org/abs/2005.03886))
+* {#quantum_markov} [[Arthur J. Parzygnat]]: _Inverses, disintegrations, and Bayesian inversion in quantum Markov categories_ &lbrack;[arXiv:2001.08375](https://arxiv.org/abs/2001.08375)&rbrack;
 
-* {#conditional_quantum} Arthur J. Parzygnat, _Conditional distributions for quantum systems_, EPTCS 343, 2021. ([arXiv](https://arxiv.org/abs/2102.01529))
+* {#noncommutative_bayes} [[Arthur J. Parzygnat]], [[Benjamin P. Russo]]: _A noncommutative Bayes theorem_, Linear Algebra Applications **644** (2022) &lbrack;[doi:10.1016/j.laa.2022.02.030](https://doi.org/10.1016/j.laa.2022.02.030), [arXiv:2005.03886](https://arxiv.org/abs/2005.03886)&rbrack;
 
-* {#quantum_states_time} James Fullwood and Arthur J. Parzygnat, _On quantum states over time_, Proceedings of the Royal Society A 478, 2022. ([arXiv](https://arxiv.org/abs/2202.03607))
+* {#conditional_quantum} [[Arthur J. Parzygnat]]: *Conditional distributions for quantum systems*, EPTCS **343** (2021) 1-13 &lbrack;[arXiv:2102.01529](https://arxiv.org/abs/2102.01529), [doi:10.4204/EPTCS.343.1](https://doi.org/10.4204/EPTCS.343.1)&rbrack;
 
-* {#retrodiction} Arthur J. Parzygnat, Francesco Buscemi, _Axioms for retrodiction: achieving time-reversal symmetry with a prior_, Quantum 7(1013), 2023. [arXiv](https://arxiv.org/abs/2210.13531)
+* {#quantum_states_time} [[James Fullwood]], [[Arthur J. Parzygnat]]: _On quantum states over time_, Proceedings of the Royal Society A **478** (2022) &lbrack;[arXiv:2202.03607](https://arxiv.org/abs/2202.03607), [doi:10.1098/rspa.2022.0104](https://doi.org/10.1098/rspa.2022.0104)&rbrack;
 
-* {#quantum_bayes} James Fullwood and Arthur J. Parzygnat, _From time-reversal symmetry to quantum Bayes rules_, PRX Quantum 4, 2023. ([arXiv](https://arxiv.org/abs/2212.08088))
+* {#retrodiction} [[Arthur J. Parzygnat]], Francesco Buscemi, _Axioms for retrodiction: achieving time-reversal symmetry with a prior_, Quantum **7** (2023) 1013 &lbrack;[arXiv:2210.13531](https://arxiv.org/abs/2210.13531), [doi:10.22331/q-2023-05-23-1013](https://doi.org/10.22331/q-2023-05-23-1013)&rbrack;
+
+* {#quantum_bayes} [[James Fullwood]], [[Arthur J. Parzygnat]]: _From time-reversal symmetry to quantum Bayes rules_, PRX Quantum **4** (2023) &lbrack;[arXiv:2212.08088](https://arxiv.org/abs/2212.08088), [doi:10.1103/PRXQuantum.4.020334](https://doi.org/10.1103/PRXQuantum.4.020334)&rbrack;
 
 
-The research on Markov categories is still largely in progress, so this list will keep growing.
 
 
 ### References about Markov kernels
 
-* {#Kallenberg17} Olaf Kallenberg, Random Measures, Theory and Applications, Springer, 2017.
+* {#Kallenberg17} Olaf Kallenberg: *Random Measures, Theory and Applications* Springer (2017)
 
 * {#BM19} Vladimir Bogachev and Il’ya Malofeev, Kantorovich problems and conditional measures depending on a parameter. ([arXiv](https://arxiv.org/abs/1904.03642))
 
