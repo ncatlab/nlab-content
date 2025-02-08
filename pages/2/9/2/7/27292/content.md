@@ -7,7 +7,10 @@
 
 ## Selected writings
 
-On [[Bayesian inversion]] for [[quantum systems]] (via [[quantum channels]]):
+On [[Bayesian inversion]] for [[quantum systems]] (via [[quantum channels]] and [[Markov categories]]):
+
+* {#quantum_states_time} [[James Fullwood]], [[Arthur J. Parzygnat]]: _On quantum states over time_, Proceedings of the Royal Society A **478** (2022) &lbrack;[arXiv:2202.03607](https://arxiv.org/abs/2202.03607), [doi:10.1098/rspa.2022.0104](https://doi.org/10.1098/rspa.2022.0104)&rbrack;
+
 
 * [[James Fullwood]], [[Arthur J. Parzygnat]]: *From time-reversal symmetry to quantum Bayes rules*, PRX Quantum **4** 020334 (2023) &lbrack;[arXiv:2212.08088](https://arxiv.org/abs/2212.08088), [doi:10.1103/PRXQuantum.4.020334](https://doi.org/10.1103/PRXQuantum.4.020334)&rbrack;
 
