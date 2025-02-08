@@ -52,13 +52,20 @@ $$
 * [[Igor Dolgachev]], _Lectures on invariant theory_, [ps](http://modular.math.washington.edu/people/dolgachev/invbook.ps)
 
 * William Crawley-Boevey, _Lectures on representation theory and invariant theory_ ([pdf](www.amsta.leeds.ac.uk/~pmtwc/repinv.pdf))
+
 * [[David Mumford]], John Fogarty, Frances Clare Kirwan, _Geometric invariant theory_, Ergebnisse der Mathematik und ihrer Grenzgebiete (2) __34__, Springer-Verlag
 
 * Hanspeter Kraft, _Geometrische Methoden in der Invariantentheorie_, Aspects of Mathematics, D1. Friedr. Vieweg & Sohn, Braunschweig, 1984. x+308 pp. 
 
 * &#1069;. &#1041;. &#1042;&#1080;&#1085;&#1073;&#1077;&#1088;&#1075;, &#1042;. &#1051;. &#1055;&#1086;&#1087;&#1086;&#1074;, _&#1058;&#1077;&#1086;&#1088;&#1080;&#1103; &#1080;&#1085;&#1074;&#1072;&#1088;&#1080;&#1072;&#1085;&#1090;&#1086;&#1074;_, &#1048;&#1090;&#1086;&#1075;&#1080; &#1085;&#1072;&#1091;&#1082;&#1080; &#1080; &#1090;&#1077;&#1093;&#1085;. &#1057;&#1077;&#1088;. &#1057;&#1086;&#1074;&#1088;&#1077;&#1084;. &#1087;&#1088;&#1086;&#1073;&#1083;. &#1084;&#1072;&#1090;. &#1060;&#1091;&#1085;&#1076;&#1072;&#1084;. &#1085;&#1072;&#1087;&#1088;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1103;, 1989, &#1090;&#1086;&#1084; 55, &#1089;. 137&#8211;309 [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=intf&paperid=158&what=fullt&option_lang=rus)
+
 * [[B. Kostant]], S. Rallis, _Orbits and representations associated with symmetric spaces_, Amer. J. Math. __93__ (1971), 753&#8211;809 [MR0311837](http://www.ams.org/mathscinet-getitem?mr=0311837) [doi](http://dx.doi.org/10.2307/2373470)
+
 * [[Edward Formanek]], _Noncommutative invariant theory_, in: Group actions on rings (Brunswick, Maine, 1984), 87&#8211;119, Contemp. Math. 43, Amer. Math. Soc. 1985 [doi](http://dx.doi.org/10.1090/conm/043)
-* Peter Olver, _Classical Invariant Theory_, Cambridge University Press, 1999.
+
+* [[Peter Olver]]: *Classical Invariant Theory*, Cambridge University Press (1999) &lbrack;[doi:10.1017/CBO9780511623660](https://doi.org/10.1017/CBO9780511623660)&rbrack;
+
+
 
 [[!redirects classical invariant theory]]
+
