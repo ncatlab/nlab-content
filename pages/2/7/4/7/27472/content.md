@@ -74,8 +74,25 @@ $$
       0 & e^{\mathrm{i}\theta/2}
     \end{array}
     \right]    
+    \mathrlap{\,.}
   \end{array}
 $$
+
+
+\begin{remark}
+To appreciate the $4\pi$-domain of the angle variable $\theta$,
+recall that the action of these [[linear operators]] $R_\bullet$ on $\mathbb{C}^2$ is rotation of *[[spinors]]*, [[double cover|double-covering]] [[SO(3)|rotation of vectors]] $(x,y,z) \in \mathbb{R}^3$ which instead is given by the [[conjugation action]]:
+
+$$
+  x X + y Y + z Z
+  \;\;\mapsto\;\;
+  R_\bullet(\theta) (x X + y Y + z Z) R_\bullet(-\theta)
+  \,.
+$$
+
+In particular, in each case $R_\bullet(2\pi) = -1 \in Z\big(Spin(3)\big)$ becomes the [[identity operation]] (only) under the [[spin group|spin]] [[double cover]] map [[Spin(3)|$Spin(3)$]] $\to$ [[SO(3)|$SO(3)$]].
+\end{remark}
+
 
 ## Related gates
 
