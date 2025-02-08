@@ -14,9 +14,11 @@ On [[mathematical physics]]:
 
 * _Modern Mathematical Physics: what it should be?_ in Fokos, Grigoryan, Kibble, Zegarlinski (eds) _Mathematical Physics 2000_, World Scientific (2000) ([arXiv:math-ph/0002018](https://arxiv.org/abs/math-ph/0002018))
 
-On the [[mass gap problem]]:
+On the [[Yang-Mills mass gap problem]]:
 
-* [[Ludvig Faddeev]], _Mass in quantum Yang-Mills theory_, Bull. Braz. Math. Soc., New Series **33** 2 (2002) 201--212 &lbrack;[arXiv:0911.1013](https://arxiv.org/abs/0911.1013)&rbrack;
+* [[Ludvig Faddeev]]: _Mass in Quantum Yang-Mills Theory (Comment on a Clay Millennium Problem)_, in: *Perspectives in Analysis*, Mathematical Physics Studies **27**, Springer (2005) 63-72 &lbrack;[doi:10.1007/3-540-30434-7_6](https://doi.org/10.1007/3-540-30434-7_6), [arXiv:0911.1013](https://arxiv.org/abs/0911.1013)&rbrack;
+  
+  also: Bull Braz Math Soc, New Series **33** 2 (2005) 201-212 &lbrack;[pdf](http://emis.impa.br/EMIS/journals/em/docs/boletim/vol332/v33-2-a4-2002.pdf)&rbrack;
 
 On [[solitons]]:
 
