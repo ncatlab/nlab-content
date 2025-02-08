@@ -40,3 +40,10 @@ A [[2-category]] $K$ has three different [[opposite category|opposites]] (two in
 
 [[!redirects co]]
 [[!redirects coop]]
+
+[[!redirects 1-cell dual]]
+[[!redirects 1-cell duals]]
+[[!redirects 2-cell dual]]
+[[!redirects 2-cell duals]]
+[[!redirects bidual]]
+[[!redirects biduals]]
