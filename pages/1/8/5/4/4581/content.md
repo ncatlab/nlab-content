@@ -744,7 +744,7 @@ Mathematical Physics 42, 4272-4282 (2001) ([arXiv:math/0006074](http://arxiv.org
  
 Textbook accounts include
 
-* {#Olver86} [[Peter Olver]], section 5.4 of _Applications of Lie groups to differential equations_, Springer Graduate Texts in Mathematics 107 (1986)
+* {#Olver86} [[Peter Olver]], section 5.4 of: *Applications of Lie groups to differential equations*, Graduate Texts in Mathematics **107**, Springer (1986, 1993) &lbrack;[doi:10.1007/978-1-4612-4350-2](https://doi.org/10.1007/978-1-4612-4350-2)&rbrack;
 
 * {#Anderson89} [[Ian Anderson]], _The variational bicomplex_, Utah State University 1989 ([[AndersonVariationalBicomplex.pdf:file]]) 
 
