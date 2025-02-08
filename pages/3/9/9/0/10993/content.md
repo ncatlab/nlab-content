@@ -46,7 +46,7 @@ A **$J$-relative monad $T$** &lbrack;[ACU15, Def. 2.1](#ACU15)&rbrack; comprises
 
 - for each object $X \in |A|$, a morphism $\eta_X \colon J X \to T X$ in $E$, the **unit**;
 
-- for each morphism $f \colon J X \to T Y$ in $A$, a morphism $f^\dagger \colon T X \to T Y$ in $E$, the **extension operator**,
+- for each morphism $f \colon J X \to T Y$ in $E$, a morphism $f^\dagger \colon T X \to T Y$ in $E$, the **extension operator**,
 
 such that, for each $X, Y, Z \in |A|$, the following equations hold:
 
