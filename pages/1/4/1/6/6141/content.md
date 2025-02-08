@@ -22,6 +22,8 @@ A __unitary representation__ of a [[locally compact topological group]] $G$ on a
 
 ## Related concepts
 
+* [[unitarization]]
+
 * [[super-unitary representation]]
 
 ## References
