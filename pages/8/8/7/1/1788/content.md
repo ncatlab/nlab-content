@@ -1,4 +1,13 @@
 
+$\rightrightarrows$
+
+$\Vert$
+
+
+
+
+
+
 We discuss the unitarization of the [standard representation](representation+theory+of+the+symmetric+group#StandardRepresentation) of the [[symmetric group]] $Sym_3$.
 
 For definiteness of computation, when [[group averaging]] we will be cycling through the elements of $Sym_3$ in this order:
