@@ -416,6 +416,7 @@ $$
 
 From this an [[orthonormal basis]] for the averaged inner product is
 $$
+  \begin{array}{l}
   {\vert 0 \rangle}
   \;\coloneqq\;
   \tfrac{1}{2}
@@ -426,8 +427,9 @@ $$
     1
   \end{array}
   \right]
-  \,,
-  \;\;
+  \;=\;
+  \tfrac{1}{2}(e_1 + e_2) - e_3
+  \\
   {\vert 1 \rangle}
   \;\coloneqq\;
   \tfrac{\sqrt{3}}{2}
@@ -438,8 +440,13 @@ $$
     -1
   \end{array}
   \right]
+  \;=\;
+  \tfrac{\sqrt{3}}{2}(e_1 - e_2)
   \,.
+  \end{array}
 $$
+
+
 
 On this bases the action of $(213)$ is
 
