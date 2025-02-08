@@ -27,6 +27,8 @@ A [[section]] of a spinor bundle is called a **spinor** (a [[fermion]] [[field (
 
 * [[Clifford bundle]]
 
+* [[quantum rotation gate]]
+
 * [[stringor bundle]]
 
 * [[fiber bundles in physics]]
@@ -34,7 +36,9 @@ A [[section]] of a spinor bundle is called a **spinor** (a [[fermion]] [[field (
 * [[rotor]]
 
 * [[spinor]], [[spin representation]]
+
 * [[pure spinor]]
+
 * [[Dirac field]]
 
 A [[Dirac operator]] acts on [[sections]] of a spinor bundle.
