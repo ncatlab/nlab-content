@@ -58,7 +58,7 @@ Similarly, by the *CCNOT*-gate (or *Toffoli gate*) one means the operation on tr
 
 * [[controlled quantum gate]]
 
-* [[Hadamard gate]]
+* [[Hadamard gate]], [[Pauli gates]], [[S gate]], [[rotation gate]]
 
 * [[reversible computation]]
 
