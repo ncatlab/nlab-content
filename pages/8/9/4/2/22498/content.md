@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include representation theory - contents]]
 =--
+#### Combinatorics
++-- {: .hide}
+[[!include combinatorics - contents]]
+=--
 =--
 =--
 
@@ -96,6 +100,8 @@ $$
 
 ## Examples
 
+### The standard representation
+
 \begin{example}\label{StandardRepresentation}
 **(standard representation)**
 \linebreak
@@ -104,6 +110,586 @@ $$
 This is an [[irreducible representation]] whose corresponding [[partition]] (according to Prop. \ref{IrrepsLabeledByPartitions}) is $\big((n-1),1\big)$.
 \end{example}
 (cf. [Kao Def. 2.5](#Kao), [[Groupprops]]: *[Standard representation of the symmetric group](https://groupprops.subwiki.org/wiki/Standard_representation_of_the_symmetric_group)*)
+
+
+
+
+\begin{example}
+\label{UnitarizationOfStandardRepOfSym3}
+  The [[unitarization]] of the [standard representation](representation+theory+of+the+symmetric+group#StandardRepresentation) of the [[symmetric group]] $Sym_3$ has the two generating [[transpositions]] represented by (what in [[quantum information theory]] is called)
+
+1. the [[Pauli Z-gate]] $Z$, 
+
+1. its composition $- Z \circ R_y(3\pi/2)$ with [[rotation gates]]. 
+
+\end{example}
+\begin{proof}
+For definiteness of computation, when [[group averaging]] we will be cycling through the elements of $Sym_3$ in this order:
+$$
+  Sym_3 
+  \;=\;
+  \left\{
+    \begin{array}{l}
+    (1 2 3)
+    ,\,\\
+    (1 3 2)
+    ,\,\\
+    (2 1 3)
+    ,\,\\
+    (2 3 1)
+    ,\,\\
+    (3 1 2)
+    ,\,\\
+    (3 2 1)
+    \end{array}
+  \right\}
+  \,.
+$$
+
+Let $\big\{e_1, e_2, e_3\big\}$ denote the canonical [[linear basis]] of the *defining* representation, with [[group action]] given by
+$$
+  \sigma \cdot e_i \;\coloneqq\; e_{\sigma(i)}
+  \,.
+$$
+
+Then a linear basis for the *[standard representation](representation+theory+of+the+symmetric+group#StandardRepresentation)* inside the defining representation is: 
+
+$$
+  \begin{array}{ccc}
+  \left[\begin{array}{c}1 \\ 0\end{array}\right] 
+    \;\coloneqq\; 
+  e_1 - e_3
+  \\
+  \left[\begin{array}{c}0 \\ 1\end{array}\right] 
+  \;\coloneqq\; 
+  e_2 - e_3
+  \mathrlap{\,.}
+  \end{array}
+$$
+
+The [[group averaging|group-averaged]] inner product of these basis elements is found to be:
+$$
+  \left\langle
+    \left[
+      \begin{array}{c}
+        1 \\ 0
+      \end{array}
+    \right]
+    ,\,
+    \left[
+      \begin{array}{c}
+        0 \\ 1
+      \end{array}
+    \right]
+  \right\rangle
+  \;=\;
+  \left(
+  \;\;
+  \begin{array}{l}
+  \left[
+    \begin{array}{c}
+      1 
+      \\
+      0
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      0 
+      \\
+      1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      1 
+      \\
+      -1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      0 
+      \\
+      -1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      0
+      \\
+      1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      1 
+      \\
+      0
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      -1
+      \\
+      1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      -1 
+      \\
+      0
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      0
+      \\
+      -1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      1
+      \\
+      -1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      -1
+      \\
+      0
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      -1 
+      \\
+      1
+    \end{array}
+  \right]
+  \end{array}
+  \right)/6
+  \;=\;
+  4/6
+  \;=\;
+  2/3
+$$
+$$
+  \left\langle
+    \left[
+      \begin{array}{c}
+        0 \\ 1
+      \end{array}
+    \right]
+    ,\,
+    \left[
+      \begin{array}{c}
+        0 \\ 1
+      \end{array}
+    \right]
+  \right\rangle
+  \;=\;
+  \left(
+  \;\;
+  \begin{array}{l}
+  \left[
+    \begin{array}{c}
+      0 
+      \\
+      1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      0 
+      \\
+      1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      0 
+      \\
+      -1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      0 
+      \\
+      -1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      1
+      \\
+      0
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      1 
+      \\
+      0
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      -1
+      \\
+      0
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      -1 
+      \\
+      0
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      1
+      \\
+      -1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      1
+      \\
+      -1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      -1
+      \\
+      1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      -1 
+      \\
+      1
+    \end{array}
+  \right]
+  \end{array}
+  \right)/6
+  \;=\;
+  8/6
+  \;=\;
+  4/3
+$$
+$$
+  \left\langle
+    \left[
+      \begin{array}{c}
+        1 \\ 0
+      \end{array}
+    \right]
+    ,\,
+    \left[
+      \begin{array}{c}
+        1 \\ 0
+      \end{array}
+    \right]
+  \right\rangle
+  \;=\;
+  \left(
+  \;\;
+  \begin{array}{l}
+  \left[
+    \begin{array}{c}
+      1 
+      \\
+      0
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      1 
+      \\
+      0
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      1 
+      \\
+      -1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      1 
+      \\
+      -1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      0
+      \\
+      1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      0 
+      \\
+      1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      -1
+      \\
+      1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      -1 
+      \\
+      1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      0
+      \\
+      -1
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      0
+      \\
+      -1
+    \end{array}
+  \right]
+  +
+  \left[
+    \begin{array}{c}
+      -1
+      \\
+      0
+    \end{array}
+  \right]
+  \cdot
+  \left[
+    \begin{array}{c}
+      -1 
+      \\
+      0
+    \end{array}
+  \right]
+  \end{array}
+  \right)/6
+  \;=\;
+  8/6
+  \;=\;
+  4/3
+$$
+
+From this an [[orthonormal basis]] for the averaged inner product is
+$$
+  {\vert 0 \rangle}
+  \;\coloneqq\;
+  \tfrac{1}{2}
+  \left[
+  \begin{array}{c}
+    1
+    \\
+    1
+  \end{array}
+  \right]
+  \,,
+  \;\;
+  {\vert 1 \rangle}
+  \;\coloneqq\;
+  \tfrac{\sqrt{3}}{2}
+  \left[
+  \begin{array}{c}
+    1
+    \\
+    -1
+  \end{array}
+  \right]
+  \,.
+$$
+
+On this bases the action of $(213)$ is
+
+$$
+  \rho(213)\big({\vert 0 \rangle}\big)
+  \;=\;
+  {\vert 0 \rangle}
+$$
+$$
+  \rho(213)\big({\vert 1 \rangle}\big)
+  \;=\;
+  -{\vert 1 \rangle}
+$$
+
+and hence $(213)$ acts as the [[Pauli Z-gate]]:
+
+$$
+  \rho(213)
+    \;=\;
+  \left(
+  \begin{array}{cc}
+    1 & 0 
+    \\
+    0 & -1
+  \end{array}
+  \right)
+  \;=\;
+  Z
+  \mathrlap{\,.}
+$$
+
+
+On the other hand, the action of $(132)$ is found to be
+$$
+  \rho(132)\big({\vert 0 \rangle}\big)
+  \;=\;
+  \rho(132)
+  \left(
+  \tfrac{1}{2}
+  \left[
+  \begin{array}{c}
+    1
+    \\
+    1
+  \end{array}
+  \right]
+  \right)
+  \;=\;
+  \tfrac{1}{2}
+  \left[
+  \begin{array}{c}
+    1
+    \\
+    -2
+  \end{array}
+  \right]  
+  \;=\;
+  -\tfrac{1}{2} {\vert 0 \rangle}
+  + \tfrac{\sqrt{3}}{2} {\vert 1 \rangle}
+$$
+$$
+  \rho(132)\big({\vert 1 \rangle}\big)
+  \;=\;
+  \rho(132)
+  \left(
+  \tfrac{\sqrt{3}}{2}
+  \left[
+  \begin{array}{c}
+    1
+    \\
+    -1
+  \end{array}
+  \right]
+  \right)
+  \;=\;
+  \tfrac{\sqrt{3}}{2}
+  \left[
+  \begin{array}{c}
+    1
+    \\
+    0
+  \end{array}
+  \right]  
+  \;=\;
+  \tfrac{\sqrt{3}}{2} {\vert 0 \rangle}
+  +
+  \tfrac{1}{2} {\vert 1 \rangle}
+$$
+and hence
+$$
+  \rho(132)
+  \;=\;
+  \left(
+  \begin{array}{c}
+    -1/2 & \sqrt{3}/2
+    \\
+    \sqrt{3}/2 & 1/2
+  \end{array}
+  \right)
+  \;=\;
+  \left(
+  \begin{array}{c}
+    -1 & 0
+    \\
+    0 & 1
+  \end{array}
+  \right)
+  \left(
+  \begin{array}{c}
+    1/2 & -\sqrt{3}/2
+    \\
+    \sqrt{3}/2 & 1/2
+  \end{array}
+  \right)
+  \;=\;
+  \left(
+  \begin{array}{c}
+    -1 & 0
+    \\
+    0 & 1
+  \end{array}
+  \right)
+  \left(
+  \begin{array}{c}
+    cos(\pi/3) & -sin(\pi/3)
+    \\
+    sin(\pi/3) & cos(\pi/3)
+  \end{array}
+  \right)
+  \;=\;
+  - 
+  Z \circ R_y(2\pi/3)
+$$
+\end{proof}
+
 
 
 ## Related concepts
