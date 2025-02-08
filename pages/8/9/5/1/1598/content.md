@@ -212,12 +212,14 @@ The [[exceptional Lie groups]] incude
 [[!include infinitesimal and local - table]]
 
 
+
 ## References
 
 ### General
 
-* {#Serre64} [[Jean-Pierre Serre]]: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500**, Springer (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
+* {#Weyl39} [[Hermann Weyl]]: *The Classical Groups -- Their Invariants and Representations*, Princeton University Press (1939) &lbrack;[jstor:j.ctv3hh48t](https://www.jstor.org/stable/j.ctv3hh48t), [pdf](https://www-fourier.ujf-grenoble.fr/~panchish/ETE%20LAMA%202018-AP/Weyl_The%20Classical%20Groups.pdf), [Wikipedia entry](https://en.wikipedia.org/wiki/The_Classical_Groups)&rbrack;
 
+* {#Serre64} [[Jean-Pierre Serre]]: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500**, Springer (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
 
 * {#Bredon72} [[Glen Bredon]], Section 0.5 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
   > (in the broader context of [[topological groups]])
@@ -246,8 +248,9 @@ The [[exceptional Lie groups]] incude
 
 * [[José de Azcárraga]], [[José M. Izquierdo]], *[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]*, Cambridge Monographs of Mathematical Physics, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9780511599897](https://doi.org/10.1017/CBO9780511599897)&rbrack;
 
-* [[Howard Georgi]], *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
+* [[Anthony W. Knapp]]: *Lie Groups Beyond an Introduction*, Progress in Mathematics **140** (1996, 2002) &lbrack;[ISBN:9780817642594](https://link.springer.com/book/9780817642594)&rbrack;
 
+* [[Howard Georgi]], *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
   > with an eye towards application to (the [[standard model of particle physics|standard model]] of) [[particle physics]]
 
 
