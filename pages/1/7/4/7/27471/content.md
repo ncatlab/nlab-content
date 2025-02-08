@@ -50,6 +50,7 @@ Some authors refer to (eq:GroupAveragedInnerProduct) as Weyl's *unitarian trick*
 \[
   \langle v, w \rangle_{new}
   \;\coloneqq\;
+  \tfrac{1}{{\vert G \vert}}
   \sum_{g \in G}
   \big\langle
     \rho(g)(v)
@@ -70,6 +71,8 @@ $$
     \big\rangle_{new}
     \\
     \;=\;
+    \tfrac{1}{{\vert G \vert}}
+    \,
     \sum_{g \in G}
     \Big\langle
       \rho(h)\big(\rho(g)(v)\big)
@@ -78,6 +81,8 @@ $$
     \Big\rangle_{old}
     \\
     \;=\;
+    \tfrac{1}{{\vert G \vert}}
+    \,
     \sum_{g \in G}
     \big\langle
       \rho(h g)(v)
@@ -86,6 +91,8 @@ $$
     \big\rangle_{old}
     \\
     \;=\;
+    \tfrac{1}{{\vert G \vert}}
+    \,
     \sum_{g' \in G}
     \big\langle
       \rho(g')(v)
@@ -94,6 +101,8 @@ $$
     \big\rangle_{old}
     \\
     \;=\;
+    \tfrac{1}{{\vert G \vert}}
+    \,
     \big\langle
       \rho(h)(v)
       ,\,
