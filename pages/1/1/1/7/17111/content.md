@@ -750,6 +750,8 @@ To record some aspects of the [[linear representation|linear]] [[representation 
 
 * [[su(2)]]
 
+* [[quantum rotation gate]]
+
 * [[complex Hopf fibration]]
 
 * [[Euler angles]]
