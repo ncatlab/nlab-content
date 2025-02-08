@@ -20,14 +20,14 @@
 
 ## Definition
 
-A [[monad]] $(T,\mu,\eta)$ is [[adjoint functor|adjoint]] to a [[comonad]] $(G,\delta,\epsilon)$, if its underlying endofunctor $T$ is _[[left adjoint]]_ to the underlying [[1-morphism]] $G$ of the comonad, and $\delta$ and $\epsilon$ are conjugate/adjoint/[[mate]] 2-cells to $\mu$ and $\eta$ in the sense explained below.
+A [[monad]] $(T,\mu,\eta)$ is left (resp. right) [[adjoint functor|adjoint]] to a [[comonad]] $(G,\delta,\epsilon)$, if its underlying endofunctor $T$ is _[[left adjoint]]_ (resp. _[[right adjoint]]_) to the underlying [[1-morphism]] $G$ of the comonad, and $\delta$ and $\epsilon$ are conjugate/adjoint/[[mate]] 2-cells to $\mu$ and $\eta$ in the sense explained below.
 
 
 ## Construction
 
 In fact given a [[monad]] $\mathbf{T} = (T,\mu^T,\eta^T)$ which has a _[[right adjoint]]_ $G$, automatically $G$ is a part of a comonad $\mathbf{G} = (G,\delta^G,\epsilon^G)$ where $\delta^G$ and $\epsilon^G$ are in some sense dual to $\mu^T$ and $\eta^T$.
 
-Thus there is a bijective correspondence between monads having a right adjoint and comonads having a left adjoint (what [[Alexander Rosenberg]] calls **duality**). This is a little more than a consequence of two general facts: 
+Thus there is a bijective correspondence between monads having a right adjoint and comonads having a left adjoint (and "2-dually" between comonads having a right adjoint and monads having a left adjoint, as explained below). This is little more than a consequence of two general facts: 
 
 1. If $T\dashv G$ then $T^k \dashv G^k$ for every [[natural number]] $k$. 
 
@@ -62,6 +62,12 @@ S'\stackrel{S'\eta}\longrightarrow S' T S\stackrel{S'\psi S}\longrightarrow S'T'
 $$
 
 This correspondence now enables in our special case to dualize $\mu^T$ to $\delta^G$, and similarly unit to the counit. 
+
+## Duality
+
+The construction above easily dualises to a bijection between *comonads* on $\mathcal{C}$ having a *right* adjoint and *monads* having a *left* adjoint. However, 1-categorical duality is not enough to analyse this: in the [[opposite category]] $\mathcal{C}^{op}$, monads and comonads are swapped and so are left and right adjoints (see [[opposite adjunction]]); thus we still get a correspondence between comonads having a left adjoint and monads having a right adjoint.
+
+Instead, as explained in [math.SE:a/3564754](https://math.stackexchange.com/a/3564754), one can generalise the construction above to [[monads]] and [[adjunctions]] in any [[2-category]]; the special case under consideration here being **[[Cat]]**. The dual construction then follows by instantiating the construction in $\mathbf{Cat}^{op}$, the [[1-cell dual]] of $\mathbf{Cat}$: this swaps left and right adjoints but leaves monads and comonads unchanged.
 
 ## Examples
 
