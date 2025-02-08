@@ -122,6 +122,7 @@ category: category
 
 [[!redirects GRep]]
 [[!redirects G-Rep]]
+[[!redirects Rep]]
 
 [[!redirects representation category]]
 [[!redirects representation categories]]
