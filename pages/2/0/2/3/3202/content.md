@@ -165,6 +165,38 @@ by Lemma \ref{convex}. Using $\int {|u|^p} = 1 = \int {|v|^p}$, we are done.
 =-- 
 
 
+## Independence from the measure
+
+In this section, we exhibit a construction of $L^p$-spaces that only makes use of an [[enhanced measurable space]] $(X,M,N)$ (a set $X$ with a [[σ-algebra]] $M$ of measurable sets and a [[σ-ideal]] $N$ of negligible sets), and not the full data of a [[measure space]] $(X,M,\mu)$ (where $\mu$ is a [[measure]] on $(X,M)$ that vanishes on $N$).
+
+This makes it clear that $L^p(X,M,\mu)$ does not really depend on $\mu$, so we can also write $L^p(X,M,N)$ instead.
+
+We set $\mathcal{L}^p = L^{1/p}$, to ensure we get a $\mathbf{C}$-graded algebra.
+In particular,
+
+* $\mathcal{L}^0 = L^\infty$ (bounded measurable functions),
+
+* $\mathcal{L}^{1/2}=L^2$ (the Hilbert space of half-densities),
+
+* $\mathcal{L}^1=L^1$ (the space of finite measures).
+
+
+Given $p\in\mathbf{C}$, we define $\mathcal{L}^p(X,M,N)$ as a quotient.
+The underlying set is $\mathcal{L}^0(X,M,N)\times \mathcal{L}^1(X,M,N)$, the set of (equivalence classes of) bounded measurable complex-valued functions on $(X,M,N)$ times the set of of finite complex-valued measures on $(X,M)$ that vanish on $N$.
+
+The equivalence relation is defined as follows: $(f,g\cdot\mu)\sim(f g^p,\mu)$, for every nonnegative measurable function $g$ on $(X,M,N)$.
+Here $g\cdot\mu$ is a unique [[measure]] supplied by applying the [[Radon–Nikodym theorem]] in reverse:
+$$(g\cdot\mu)(A) = \int_A g d\mu.$$
+
+For $p=1$, the map $(f,\mu)\mapsto f\cdot \mu$
+establishes an isomorphism from $\mathcal{L}^1(X,M,N)$ to the vector space of finite complex-valued measures on $(X,M,N)$.
+
+For $p=0$, the map $(f,\mu)\mapsto f supp(\mu)$ establishes an isomorphism from $\mathcal{L}^0(X,M,N)$ to the vector space of bounded complex-valued functions on $(X,M,N)$.
+
+Given a [[measure space]] $(X,M,\mu)$, the map $f \mapsto f \mu^p$ establishes an isomorphism
+$$\mathcal{L}^p(X,M,\mu)\to\mathcal{L}^p(X,M,N),$$
+where the left side is the usual $L^p$-space from analysis (with the reciprocal index $p$).
+
 ## Related concepts
 
 * [[square integrable function]]
@@ -185,6 +217,7 @@ Named after [[Henri Lebesgue]].
 
 
 category: analysis
+
 
 [[!redirects Lebesgue space]]
 [[!redirects Lebesgue spaces]]
@@ -221,5 +254,3 @@ category: analysis
 [[!redirects L^2-spaces]]
 [[!redirects L_2 space]]
 [[!redirects L_2 spaces]]
-
-
