@@ -19,7 +19,7 @@
 
 ## Idea
 
-The formalism of *Markov categories* and *copy-discard categories* is a [[categorical approach to probability theory]] introduced by [Cho & Jacobs 2019](#cd_categories) and [Fritz 2020](#fritzmarkov) (and by other authors independently, see the [History](#history) section).
+The formalism of *Markov categories* and *copy-discard categories* is a [[categorical approach to probability theory]] introduced by [Cho & Jacobs 2019](#cd_categories) and [Fritz 2020](#fritzmarkov) (and by other authors independently, see the [History](#History) section).
 
 Intuitively, a Markov category is a category where morphisms behave like "random functions", for example, [[Markov kernels]] form such a category (hence the name). Canonical examples are [[Kleisli categories]] of [[probability monads]]. The formalism is however far more general. 
 
