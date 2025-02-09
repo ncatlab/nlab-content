@@ -36,6 +36,8 @@ In generality of its transformation properties, parastatistics is in-between ord
 
 ## References
 
+### General
+
 The notion originates with "triple commutator"-relations motivated in a [[quantum field theory|field theoretic]]/[[second quantization|second quantized]] context:
 
 * {#Green53} H. S. Green: *A generalized method of field quantization*,  Phys. Rev. **90** (1953) 270-273 &lbrack;[doi:10.1103/PhysRev.90.270](https://doi.org/10.1103/PhysRev.90.270)&rbrack;
@@ -89,8 +91,17 @@ Further discussion:
 
 * [[F. Duncan M. Haldane]]: *"Fractional statistics" in arbitrary dimensions: A generalization of the Pauli principle*,     Phys. Rev. Lett. **67** (1991) 937-940 &lbrack;[doi:10.1103/PhysRevLett.67.937](https://doi.org/10.1103/PhysRevLett.67.937), [inSpire:321137](https://inspirehep.net/literature/321137)&rbrack;
 
+* Fred Cooper, Avinash Khare, Uday Sukhatme: _Parasupersymmetry in quantum mechanics_, J. Math. Phys. **34** (1993) 1277–1294 &lbrack;[doi:10.1063/1.530209](https://doi.org/10.1063/1.530209)&rbrack;
+  > (para-[[supersymmetric quantum mechanics]])
+
+
 * [[Alexios P. Polychronakos]]: *Path Integrals and Parastatistics*, Nucl. Phys. B **474** (1996) 529-539 &lbrack;<a href="https://doi.org/10.1016/0550-3213(96)00277-5">doi:10.1016/0550-3213(96)00277-5</a>, 
 [arXiv:hep-th/9603179](https://arxiv.org/abs/hep-th/9603179)&rbrack;
+
+* Lee Brekke, Sterrett J. Collins, Tom D. Imbo, _Nonabelian vortices on surfaces and their statistics_ &lbrack;[hep-th/9701056](arxiv.org/pdf/hep-th/9701056)&rbrack;
+  > If we could "turn off" all interactions in the universe which couple to spin, then different spin states would be in principle indistinguishable (although still not identical), and the particles would obey parastatistics at the fundamental level. We can play the same game with color, isospin and numerous other internal degrees freedom. (Indeed, the parastatistical treatment of quarks [3] predates the introduction of color [4].)
+
+* Weimin Yang, Sicong Jing, _Graded Lie algebra generating of parastatistical algebraic structure &lbrack;[math-ph/0212009](arxiv.org/pdf/math-ph/0212009)&rbrack;
 
 * Boyka Aneva, Todor Popov: *Hopf structure and Green ansatz of deformed parastatistics algebras*, J. Phys. A: Math. Gen. **38** (2005) 6473 &lbrack;[doi:10.1088/0305-4470/38/29/004](https://iopscience.iop.org/article/10.1088/0305-4470/38/29/004)&rbrack;
 
@@ -98,7 +109,14 @@ Further discussion:
 
 * N.I. Stoilova, J. Van der Jeugt: *Partition functions and thermodynamic properties of paraboson and parafermion systems*, Physics Letters A **384** 21 (2020) 126421 &lbrack;[doi:10.1016/j.physleta.2020.126421](https://doi.org/10.1016/j.physleta.2020.126421)&rbrack;
 
-On [[permutation representations]], such as arising in parastatistics, as [[quantum gates]] for [[quantum computing]] akin to [[anyon]]-based [[topological quantum computing]]:
+
+* Zhiyuan Wang: *Parastatistics and a secret communication challenge* &lbrack;[arXiv:2412.13360](https://arxiv.org/abs/2412.13360)&rbrack;
+
+
+### In quantum information theory
+ {#ReferencesInQuantumInformationTheory}
+
+On [[permutation representations]], such as arising in [[parastatistics]], as [[quantum gates]] for [[quantum computing]] akin to [[anyon]]-based [[topological quantum computing]]:
 
 * Stephen P. Jordan, pp 108 in: *Quantum Computation Beyond the Circuit Model*, PhD thesis, MIT (2010) &lbrack;[arXiv:0809.2307](https://arxiv.org/abs/0809.2307), [pdf](http://web.mit.edu/2.111/www/2010/MIT-stephen-jordan-phd-thesis-may08.pdf)&rbrack;
 
@@ -119,20 +137,6 @@ Claim of parastatistical [[quasiparticles]] emerging in low dimensional quantum 
 
 
 
-See also:
-
-
-
-* Fred Cooper, Avinash Khare, Uday Sukhatme: _Parasupersymmetry in quantum mechanics_, J. Math. Phys. **34** (1993) 1277–1294 &lbrack;[doi:10.1063/1.530209](https://doi.org/10.1063/1.530209)&rbrack;
-  > (para-[[supersymmetric quantum mechanics]])
-
-
-* Lee Brekke, Sterrett J. Collins, Tom D. Imbo, _Nonabelian vortices on surfaces and their statistics_ &lbrack;[hep-th/9701056](arxiv.org/pdf/hep-th/9701056)&rbrack;
-> If we could "turn off" all interactions in the universe which couple to spin, then different spin states would be in principle indistinguishable (although still not identical), and the particles would obey parastatistics at the fundamental level. We can play the same game with color, isospin and numerous other internal degrees freedom. (Indeed, the parastatistical treatment of quarks [3] predates the introduction of color [4].)
-
-* Weimin Yang, Sicong Jing, _Graded Lie algebra generating of parastatistical algebraic atructure [math-ph/0212009](arxiv.org/pdf/math-ph/0212009)
-
-* Zhiyuan Wang: *Parastatistics and a secret communication challenge* &lbrack;[arXiv:2412.13360](https://arxiv.org/abs/2412.13360)&rbrack;
 
  
 category: physics
