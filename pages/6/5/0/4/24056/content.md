@@ -1,5 +1,4 @@
 
-
 ### Defect anyons  
  {#ReferencesVortexAnyons}
 
@@ -8,23 +7,37 @@ Often the concept of [[anyons]] is introduced as if a generalization of [[partic
 The general concept of [[braiding]] of [[defects]] in [[solid state physics]]:
 
 * {#Mermin79} [[N. David Mermin]], *The topological theory of defects in ordered media*, Rev. Mod. Phys. **51** (1979) 591 $[$[doi:10.1103/RevModPhys.51.591](https://doi.org/10.1103/RevModPhys.51.591)$]$
-
   > (including a review of [basic homotopy theory](Introduction+to+Topology+--+2))
 
 and more specifically for [[vortices]]:
 
 * {#LoPreskill93} [[Hoi-Kwong Lo]], [[John Preskill]], *Non-Abelian vortices and non-Abelian statistics*, Phys. Rev. D **48** (1993) 4821 $[$[doi:10.1103/PhysRevD.48.4821](https://doi.org/10.1103/PhysRevD.48.4821)$]$
 
-Explicit discussion as defect *[[anyons]]*:
+Explicit discussion as defect [[anyons]]:
 
 * {#Kitaev06} [[Alexei Kitaev]], *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 \[<a href="https://doi.org/10.1016/j.aop.2005.10.005">doi:10.1016/j.aop.2005.10.005</a>\]
   > ${}$ \[p. 4:\] "*Anyonic particles are best viewed as a kind of topological defects that reveal nontrivial properties of the ground state.*"
 
+{#ReferencesGenons} Anyonic defects which act as **genons**, changing the effective [[genus of a surface|genus]] of the ambient 2D [[surface]]:
+
+* [[Maissam Barkeshli]],  [[Xiao-Liang Qi]]: *Topological Nematic States and Non-Abelian Lattice Dislocations*, Phys. Rev. X **2** 031013 (2012) \[<a href="https://doi.org/10.1103/PhysRevX.2.031013">doi:10.1103/PhysRevX.2.031013</a>, [arXiv:1112.3311](https://arxiv.org/abs/1112.3311)\]
+
 * [[Maissam Barkeshli]], [[Chao-Ming Jian]], [[Xiao-Liang Qi]]: *Twist defects and projective non-Abelian braiding statistics*, Phys. Rev. B **87** (2013) 045130 \[<a href="https://doi.org/10.1103/PhysRevB.87.045130">doi:10.1103/PhysRevB.87.045130</a>, [arXiv:1208.4834](https://arxiv.org/abs/1208.4834)\]
 
-Concretely in [[quantum Hall systems]]:
+* [[Xiao-Liang Qi]]: *Defects in topologically ordered states*, talk notes (2014) \[<a href="https://nationalmaglab.org/media/dlpayc5u/qi_1.pdf">pdf</a>, [[Qi-DefectsInTopologicalOrder.pdf:file]]\]
 
 * [[Andrey Gromov]]: *Geometric Defects in Quantum Hall States*,  Phys. Rev. B **94** 085116 (2016) \[<a href="https://doi.org/10.1103/PhysRevB.94.085116">doi:10.1103/PhysRevB.94.085116</a>\]
+
+see also:
+
+* [[Simon Burton]], Elijah Durso-Sabina, Natalie C. Brown: *Genons, Double Covers and Fault-tolerant Clifford Gates* \[<a href="https://arxiv.org/abs/2406.09951">arXiv:2406.09951</a>\]
+
+
+
+and their potential experimental realization:
+
+* Zhao Liu, Gunnar Möller, Emil J. Bergholtz: *Exotic Non-Abelian Topological Defects in Lattice Fractional Quantum Hall States*, Phys. Rev. Lett. **119** (2017) 106801 \[<a href="https://doi.org/10.1103/PhysRevLett.119.106801">doi:10.1103/PhysRevLett.119.106801</a>\]
+
 
 
 Concrete [[vortex]]$\;$[[anyons]] in [[Bose-Einstein condensates]]:
