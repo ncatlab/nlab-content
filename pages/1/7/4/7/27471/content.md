@@ -116,9 +116,9 @@ $$
 
 
 
-## Variations and generalizations
+### Existence for locally compact groups
 
-Provided that one assumes enough Choice to ensure weak-star compactness in the unit ball of B(H), for H a Hilbert space: every bounded strong-operator-continuous representation of a locally compact amenable group on a Hilbert space H is unitarizable. See the Wikipedia page for [Uniformly bounded representation](https://en.wikipedia.org/wiki/Uniformly_bounded_representation) \[version: 2025-12-08\] for some of the historical references.
+Provided that one assumes enough [[axiom of choice|choice]] to ensure weak-star compactness in the [[unit ball]] $B(\mathscr{H})$ (for $\mathscr{H}$ the representing [[Hilbert space]]): every bounded strong-operator-continuous representation of a [[locally compact topological group|locally compact]] amenable group on a Hilbert space H is unitarizable. See the Wikipedia page for *[Uniformly bounded representation](https://en.wikipedia.org/wiki/Uniformly_bounded_representation)* \[version: 2025-12-08\] for some of the historical references.
 
 ## References
 
