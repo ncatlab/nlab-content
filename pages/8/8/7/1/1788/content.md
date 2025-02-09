@@ -1,4 +1,14 @@
 
+
+Genons:
+
+* [[Maissam Barkeshli]],  [[Xiao-Liang Qi]]: *Topological Nematic States and Non-Abelian Lattice Dislocations*, Phys. Rev. X **2** 031013 (2012) \[<a href="https://doi.org/10.1103/PhysRevX.2.031013">doi:10.1103/PhysRevX.2.031013</a>, [arXiv:1112.3311](https://arxiv.org/abs/1112.3311)\]
+
+* [[Maissam Barkeshli]], [[Chao-Ming Jian]], [[Xiao-Liang Qi]]: *Twist defects and projective non-Abelian braiding statistics*, Phys. Rev. B **87** 045130 (2013)
+
+Exotic Non-Abelian Topological Defects in Lattice Fractional Quantum Hall States
+
+
 $$  
   \pi_2 S^2
   \to
