@@ -45,7 +45,7 @@ Review:
 * Y. Kim et al., *Quantum Biology: An Update and Perspective*, Quantum Reports **3** 1 (2021) 80-126 &lbrack;[doi:10.3390/quantum3010006](https://doi.org/10.3390/quantum3010006)&rbrack;
 
 
-Specifically on the existence and relevance -- or not -- of non-negligible coherent quantum entanglement in photosynthesis:
+Specifically on the existence and relevance -- or not -- of non-negligible coherent [[quantum entanglement]] in photosynthesis:
 
 * {#SIFW10} M. Sarovar et al.,  *Quantum entanglement in photosynthetic light-harvesting complexes*, Nature Physics **6** 6  (2010) 462-467 &lbrack;[arXiv:0905.3787](http://arxiv.org/abs/0905.3787), [doi:10.1038/nphys1652](https://doi.org/10.1038/nphys1652)&rbrack;
 
