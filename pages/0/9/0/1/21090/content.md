@@ -30,7 +30,7 @@ Using this formalism one can interpret, prove and even *generalize* several resu
 
 ## Definitions
 
-A concise definition, which we interpret below, can be given as follows: A **Markov category** is a [[semicartesian monoidal category|semicartesian]] [[symmetric monoidal category]] $(C,\otimes,1)$ which [[supply in a monoidal category|supplies]] commutative comonoids, i.e. in which every object $X$ is equipped with the structure of a [[commutative]] [[internal monoid|internal comonoid]] compatible with the tensor product.
+A concise definition, which we interpret below, can be given as follows: A **Markov category** is a [[semicartesian monoidal category|semicartesian]] [[symmetric monoidal category]] $(C,\otimes,1)$ which [[supply in a monoidal category|supplies]] [[cocommutative comonoids]], i.e. in which every [[object]] $X$ is equipped with the [[structure]] of a [[commutative]] [[internal monoid|internal comonoid]] compatible with the tensor product.
 
 The [[comultiplication]] and [[counit]] maps are usually denoted by $copy: X \to X \otimes X$ and $del: X\to 1$. 
 
@@ -2230,6 +2230,7 @@ For example, [[BorelStoch]] has all conditionals, and $ProbStoch(BorelStoch)$ is
 
 
 ## History
+ {#History}
 
 In the history of Markov categories, and of [[categorical probability]] in general, it happened very often that a number of independent researchers developed similar ideas unaware of each other's work.
 
@@ -2332,7 +2333,9 @@ Slides from talks:
 
 
 
-### Historical references (see [History](#history)):
+### Historical references
+
+> (see *[History](#History)*)
 
 * {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
 ([[lawvereprobability1962.pdf:file]])
