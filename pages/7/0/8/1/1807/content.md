@@ -48,7 +48,7 @@ Let $(\mathcal{C}, \otimes, I, \multimap)$ be a [[closed monoidal category]],  $
 \end{proposition}
 
 \begin{proposition}
-Let $(\mathcal{C}, \otimes, I, \multimap)$ be a [[closed monoidal category]], $Mon(\mathcal{C})$ the [[category of monoids]] of $\mathcal{C}$ and $Comon(\mathcal{C})$ the [[category of comonoids]] of $\mathcal{C}$. We then have a functor:
+Let $(\mathcal{C}, \otimes, I, \multimap)$ be a [[closed monoidal category]], $Mon(\mathcal{C})$ the [[category of monoids]] of $\mathcal{C}$ and $Comon(\mathcal{C})$ the category of comonoids of $\mathcal{C}$. We then have a functor:
 $$
 Comon(\mathcal{C})^{op} \times Mon(\mathcal{C}) \rightarrow Mon(\mathcal{C})
 $$
@@ -61,7 +61,12 @@ which associate $A \multimap B$ to $(A,B)$
 Given a [[finite group]] $G$ and a [[ring]] $R$, the space of [[functions]] $C(G,R)$ inherits the _convolution product_ defined by
 
 $$
-  f_1 \star f_2 \colon g \mapsto \sum_{g_1 \cdot g_2 = g} f_1(g_1) \cdot f_2(g_2)
+  f_1 \star f_2 
+    \;\;\colon\;\; 
+  g 
+    \;\mapsto\;
+  \sum_{g_1 \cdot g_2 = g} 
+    f_1(g_1) \cdot f_2(g_2)
   \,.
 $$
 
