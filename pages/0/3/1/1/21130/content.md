@@ -63,11 +63,11 @@ See also
 
 Discussion in terms of [[quantum information theory via dagger-compact categories]]:
 
-* [[Jamie Vicary]], Section 3 of: _The Topology of Quantum Algorithms_, (LICS 2013) Proceedings of 28th Annual ACM/IEEE Symposium on Logic in Computer Science, pages 93-102 ([arXiv:1209.3917](https://arxiv.org/abs/1209.3917))
+* [[Jamie Vicary]], Section 3 of: _The Topology of Quantum Algorithms_, (LICS 2013) Proceedings of 28th Annual ACM/IEEE Symposium on Logic in Computer Science (2013) 93-102 &lbrack;[arXiv:1209.3917](https://arxiv.org/abs/1209.3917)&rbrack;
 
 Review in:
 
-* Ali Nabi Duman, _The Topology of Grover Algorithm_ ([arXiv:1405.4425](https://arxiv.org/abs/1405.4425))
+* Ali Nabi Duman, _The Topology of Grover Algorithm_ &lbrack;[arXiv:1405.4425](https://arxiv.org/abs/1405.4425)&rbrack;
 
 * Kamil Khadiev, §§5-9 in: *Lecture Notes on Quantum Algorithms* &lbrack;[arXiv:2212.14205](https://arxiv.org/abs/2212.14205)&rbrack;
 
