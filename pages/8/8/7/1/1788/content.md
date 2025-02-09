@@ -1,4 +1,24 @@
 
+$$  
+  \pi_2 S^2
+  \to
+  \pi_1
+  \Maps^\ast(S^2, S^2)
+  \to 
+  \pi_1
+  Maps(S^2, S^2)  
+  \to
+  \pi_1 S^2
+  \to
+  \pi_0
+  \Maps^\ast(S^2, S^2)
+  \to 
+  \pi_0
+  Maps(S^2, S^2)
+  \to
+  \pi_0 S^2
+$$
+
 
 \begin{example}
   The [[unitarization]] of the [standard representation](representation+theory+of+the+symmetric+group#StandardRepresentation) of the [[symmetric group]] $Sym_3$ has the two generating [[transpositions]] represented by (what in [[quantum information theory]] is called)
