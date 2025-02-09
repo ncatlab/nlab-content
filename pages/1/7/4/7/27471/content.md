@@ -46,7 +46,7 @@ Some authors refer to (eq:GroupAveragedInnerProduct) as Weyl's *unitarian trick*
 \end{remark}
 
 \begin{example}
-  In the case that $G$ is a [[finite group]], the formula (eq:GroupAveragedInnerProduct) reduces to the [[sum]]
+  In the case that $G$ is a [[finite group]], formula (eq:GroupAveragedInnerProduct) reduces to the [[sum]]
 \[
   \langle v, w \rangle_{new}
   \;\coloneqq\;
