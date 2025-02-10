@@ -49,6 +49,9 @@ For an amenable [[Lie groupoid]] $\mathcal{G}$, the full [[groupoid convolution 
 
 This is due to ([AD-Renault 00](#AD-Renault00)), recalled for instance as ([ANS 05, prop. 1.9](#ANS05))
 
+## Related concepts
+
+* [[unitarization]]
 
 ## References
 
@@ -66,6 +69,8 @@ This is due to ([AD-Renault 00](#AD-Renault00)), recalled for instance as ([ANS 
  
 
 * {#Uuye11} [[Otgonbayar Uuye]], _A note on the K&#252;nneth theorem for nonnuclear C*-algebras_ ([arXiv:1111.7228](http://arxiv.org/abs/1111.7228))
+
+* Wikipedia: *[Amenable group](https://en.m.wikipedia.org/wiki/Amenable_group)*
  
 
 
