@@ -5,9 +5,9 @@
 
 ## Idea
 
-The _Selberg trace formua_ ([Selberg 56](#Selberg56)) is an expression for certain sums of [[eigenvalues]] of the [[Laplace operator]] on a compact [[hyperbolic manifold|hyperbolic]] [[Riemann surface]] (recalled e.g. as [Bump, theorem 19](#Bump)).
+The _Selberg trace formula_ ([Selberg 1956](#Selberg56)) is an expression for certain [[sums]] of [[eigenvalues]] of the [[Laplace operator]] on a [[compact topological space|compact]] [[hyperbolic manifold|hyperbolic]] [[Riemann surface]] (e.g. [Bump, theorem 19](#Bump)).
 
-It was introduced as a nonabelian generalization of the [[Poisson summation formula]] (e.g.[Voros-Balasz 86, p. 169](#VorosBalasz86)), thought of as a relation between the eigenvalues of the Laplacian and the lengths of closed [[geodesics]].
+The formula was introduced as a nonabelian generalization of the [[Poisson summation formula]] (e.g.[Voros-Balasz 86, p. 169](#VorosBalasz86)), thought of as a relation between the eigenvalues of the Laplacian and the [[lengths]] of closed [[geodesics]].
 
 It motivates (e.g. [Bump, p.18](#Bump)) the definition of the Selberg [[zeta function of a Riemann surface]].
 
@@ -45,10 +45,13 @@ For [[Dirac operators]]:
 
 Discussion via [[supersymmetric quantum mechanics]]:
 
-* Changha Choi, Leon A. Takhtajan: *Supersymmetry and trace formulas I. Compact Lie groups* &lbrack;[arXiv:2112.07942](https://arxiv.org/abs/2112.07942)&rbrack;
+* Changha Choi, [[Leon A. Takhtajan]]: *Supersymmetry and trace formulas I. Compact Lie groups*, Part I. Compact Lie groups. J. High Energ. Phys. **2024** 26 (2024) &lbrack;[arXiv:2112.07942](https://arxiv.org/abs/2112.07942), <a href="https://doi.org/10.1007/JHEP06(2024)026">doi:10.1007/JHEP06(2024)026</a>&rbrack;
 
-* Changha Choi, Leon A. Takhtajan: *Supersymmetry and trace formulas II. Selberg trace formula* &lbrack;[arXiv:2306.13636](https://arxiv.org/abs/2306.13636)&rbrack;
+* Changha Choi, [[Leon A. Takhtajan]]: *Supersymmetry and trace formulas II. Selberg trace formula* &lbrack;[arXiv:2306.13636](https://arxiv.org/abs/2306.13636)&rbrack;
+
+review:
+
+* [[Leon A. Takhtajan]]: *Supersymmetry and trace formulas: Selberg trace formula*, talk at *[Integrable Systems and Field Theory](https://isft2023.sciencesconf.org/)*, Paris (2023) &lbrack;[pdf](https://isft2023.sciencesconf.org/data/LTakhtajan.pdf)&rbrack;
 
 
-
-
+[[!redirects Selberg trace formulas]]
