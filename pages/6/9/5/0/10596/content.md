@@ -42,3 +42,13 @@ It motivates (e.g. [Bump, p.18](#Bump)) the definition of the Selberg [[zeta fun
 For [[Dirac operators]]:
 
 * Jens Bolte, Hans-Michael Stiepan, _The Selberg trace formula for Dirac operators_ ([arXiv:math-ph/0607010](http://arxiv.org/abs/math-ph/0607010))
+
+Discussion via [[supersymmetric quantum mechanics]]:
+
+* Changha Choi, Leon A. Takhtajan: *Supersymmetry and trace formulas I. Compact Lie groups* &lbrack;[arXiv:2112.07942](https://arxiv.org/abs/2112.07942)&rbrack;
+
+* Changha Choi, Leon A. Takhtajan: *Supersymmetry and trace formulas II. Selberg trace formula* &lbrack;[arXiv:2306.13636](https://arxiv.org/abs/2306.13636)&rbrack;
+
+
+
+
