@@ -523,15 +523,13 @@ Lecture notes:
 Further references:
 
 * {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], _[[Lectures on the geometry of quantization]]_ AMS (1997) &lbrack;[pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)&rbrack;
-
   > (on [[geometric quantization]])
 
 
 * [[Pierre Cartier]], [[Cécile DeWitt-Morette]], _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics (2006) &lbrack;[ISBN:9780521143578](https://www.cambridge.org/ae/academic/subjects/physics/theoretical-physics-and-mathematical-physics/functional-integration-action-and-symmetries?format=PB#contentsTabAnchor)&rbrack;
-
   > (on rigorous [[path integrals]])
 
-* Leon Takhtajan, _[[Quantum mechanics for mathematicians]]_, Amer. Math. Soc. (2008) &lbrack;[ISBN:978-0-8218-4630-8](https://bookstore.ams.org/gsm-95)&rbrack;
+* [[Leon A. Takhtajan]]: _[[Quantum mechanics for mathematicians]]_, Amer. Math. Soc. (2008) &lbrack;[ISBN:978-0-8218-4630-8](https://bookstore.ams.org/gsm-95)&rbrack;
 
 * Michael Movshev, *Concepts of Quantum Mechanics* (2008) &lbrack;[web](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html)&rbrack; 
 
