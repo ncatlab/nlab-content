@@ -141,7 +141,7 @@ This is yet another [[Banach space]].  Indeed, $c_b = l^\infty$, two different w
 +-- {: .num_defn}
 ###### Definition
 
-Finally, $N^K$ is the space of all sequences.  We equip $N^K$ with the [[product topology]], also called the topology of [[pointwise convergence]].
+Finally, $K^N$ is the space of all sequences.  We equip $K^N$ with the [[product topology]], also called the topology of [[pointwise convergence]].
 =--
 
 This should probably be denoted '$c$', in line with the [generalisation](#Generalisations) below; but that symbol is often used for $c_\infty$, so it would be confusing.
