@@ -2,7 +2,7 @@
 ### Defect anyons  
  {#ReferencesVortexAnyons}
 
-Often the concept of [[anyons]] is introduced as if a generalization of [[particle statistics]] of [[perturbative quantum field theory|perturbative]] [[quanta]] like fundamental [[bosons]] and [[fermions]]. But many (concepts of) types of anyons are really *[[soliton|solitonic]]$\;$[[defects]]* such as [[vortices]].
+Often the concept of [[anyons]] is introduced as if a generalization of [[particle statistics]] of [[perturbative quantum field theory|perturbative]] [[quanta]] like fundamental [[bosons]] and [[fermions]]. But many (concepts of) types of anyons are really *[[soliton|solitonic]]$\;$[[defects]]* such as [[vortices]] whose [[braiding]] phases are [[quantum adiabatic theorem|adiabatic]] [[Berry phases]].
 
 The general concept of [[braiding]] of [[defects]] in [[solid state physics]]:
 
@@ -40,7 +40,7 @@ and their potential experimental realization:
 
 
 
-Concrete [[vortex]]$\;$[[anyons]] in [[Bose-Einstein condensates]]:
+Concrete [[vortex]]$\phantom{-}$[[anyons]] in [[Bose-Einstein condensates]]:
 
 * {#PFCZ01} B. Paredes, P. Fedichev, [[J. Ignacio Cirac]], [[Peter Zoller]]: *1/2-Anyons in small atomic Bose-Einstein condensates*, Phys. Rev. Lett. **87** (2001) 010402 \[<a href="https://doi.org/10.1103/PhysRevLett.87.010402">doi:10.1103/PhysRevLett.87.010402</a>, [arXiv:cond-mat/0103251](https://arxiv.org/abs/cond-mat/0103251)\]
 
