@@ -56,7 +56,7 @@ An __invertible semigroup__ is a set $S$ with a binary operation $(-)\cdot(-):S\
 
 ## Pseudo-torsor
 
-Every invertible semigroup $G$ has a [[pseudo-torsor]], or associative [[Malcev operations|Malcev algebras]], $t:G^3\to G$ defined as $t(x,y,z)=x\cdot y^{-1}\cdot z$. If the invertible semigroup is inhabited, then those pseudo-torsors are actually [[torsors]] or [[heaps]]. 
+Every invertible semigroup $G$ has a canonical structure of a [[pseudo-torsor]], or associative [[Malcev operations|Malcev algebra]], via the ternary operation $t:G^3\to G$ defined as $t(x,y,z)=x\cdot y^{-1}\cdot z$. If the invertible semigroup is inhabited, then its associated pseudo-torsor is actually a [[heap]], or equivalently a [[torsor]]. 
 
 ## Properties
 
