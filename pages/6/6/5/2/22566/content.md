@@ -28,6 +28,9 @@ A hypothesis about the emergence of [[thermodynamics]] in [[quantum many-body ph
 
 * Mohsen Alishahiha, Mohammad Javad Vasli: *Eigenstate Thermalization Hypothesis: A Short Review* &lbrack;[arXiv:2501.07243](https://arxiv.org/abs/2501.07243)&rbrack;
 
+* Stefan Eccles: *Why ETH? On thermalization and locality* &lbrack;[arXiv:2502.04784](https://arxiv.org/abs/2502.04784)&rbrack;
+
+
 
 See also 
 
