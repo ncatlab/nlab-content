@@ -186,11 +186,15 @@ The relation of the [[partition function]] of supersymmetric quantum mechanics t
 
 ### Relation to trace formulas
 
-Relation to the [[Selberg trace formula]]:
+Discussion via [[supersymmetric quantum mechanics]]:
 
-* Changha Choi, Leon A. Takhtajan: *Supersymmetry and trace formulas I. Compact Lie groups* &lbrack;[arXiv:2112.07942](https://arxiv.org/abs/2112.07942)&rbrack;
+* Changha Choi, [[Leon A. Takhtajan]]: *Supersymmetry and trace formulas I. Compact Lie groups*, Part I. Compact Lie groups. J. High Energ. Phys. **2024** 26 (2024) &lbrack;[arXiv:2112.07942](https://arxiv.org/abs/2112.07942), <a href="https://doi.org/10.1007/JHEP06(2024)026">doi:10.1007/JHEP06(2024)026</a>&rbrack;
 
-* Changha Choi, Leon A. Takhtajan: *Supersymmetry and trace formulas II. Selberg trace formula* &lbrack;[arXiv:2306.13636](https://arxiv.org/abs/2306.13636)&rbrack;
+* Changha Choi, [[Leon A. Takhtajan]]: *Supersymmetry and trace formulas II. Selberg trace formula* &lbrack;[arXiv:2306.13636](https://arxiv.org/abs/2306.13636)&rbrack;
+
+review:
+
+* [[Leon A. Takhtajan]]: *Supersymmetry and trace formulas: Selberg trace formula*, talk at *[Integrable Systems and Field Theory](https://isft2023.sciencesconf.org/)*, Paris (2023) &lbrack;[pdf](https://isft2023.sciencesconf.org/data/LTakhtajan.pdf)&rbrack;
 
 
 
