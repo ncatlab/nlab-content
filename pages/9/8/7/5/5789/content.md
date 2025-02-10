@@ -184,5 +184,13 @@ The relation of the [[partition function]] of supersymmetric quantum mechanics t
 
 * [[D. Quillen]], _Superconnection character forms and the [[Cayley transform]]_, Topology 27 (1988), no. 2, 211&#8211;238
 
+### Relation to trace formulas
+
+Relation to the [[Selberg trace formula]]:
+
+* Changha Choi, Leon A. Takhtajan: *Supersymmetry and trace formulas I. Compact Lie groups* &lbrack;[arXiv:2112.07942](https://arxiv.org/abs/2112.07942)&rbrack;
+
+* Changha Choi, Leon A. Takhtajan: *Supersymmetry and trace formulas II. Selberg trace formula* &lbrack;[arXiv:2306.13636](https://arxiv.org/abs/2306.13636)&rbrack;
+
 
 
