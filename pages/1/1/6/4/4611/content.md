@@ -125,7 +125,7 @@ Every [[filtered category]] is sifted.
 +-- {: .proof}
 ###### Proof
 
-Since [[filtered colimits]] commute even with all [[finite limits]], they in particular commute with [[finite products]].
+Since [[filtered colimits]] commute even with all [[finite limits]] in Set, they in particular commute with [[finite products]].
 
 =--
 
