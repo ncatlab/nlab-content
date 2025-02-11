@@ -1240,7 +1240,4 @@ The relation between smooth and continuous Čech cohomology is discussed in
 
 * Christoph M&#252;ller, [[Christoph Wockel]], _Equivalences of smooth and continuous principal bundles with infinite-dimensional structure groups_, Advances in Geometry. Volume 9, Issue 4, Pages 605&#8211;626 (2009)
 
-[[!redirects {?}ech cohomology]]
-[[!redirects ?ech cohomology]]
-[[!redirects ?ech cohomology]]
 [[!redirects Cech cohomology]]
