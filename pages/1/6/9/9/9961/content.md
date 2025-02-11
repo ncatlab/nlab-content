@@ -223,6 +223,8 @@ and via the [[homotopy theory]] of [[bundle gerbes]]:
 
 * Jing-Yuan Chen, *Instanton Density Operator in Lattice QCD from Higher Category Theory* &lbrack;[arXiv:2406.06673](https://arxiv.org/abs/2406.06673)&rbrack;
 
+* Peng Zhang, Jing-Yuan Chen: *An Explicit Categorical Construction of Instanton Density in Lattice Yang-Mills Theory* &lbrack;[arXiv:2411.07195](https://arxiv.org/abs/2411.07195)&rbrack;
+
 
 
 
