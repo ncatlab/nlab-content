@@ -269,7 +269,7 @@ A review is for instance in
 
 The [[H-cohomology]] of the graded symplectic form of a Poisson Lie algebroid, regarded a a [[symplectic Lie n-algebroid]], is considered in
 
-* {#Severa05} [[Pavol ?evera]], p. 1 of _On the origin of the BV operator on odd symplectic supermanifolds_, Lett Math Phys (2006) 78: 55. ([arXiv:0506331](https://arxiv.org/abs/math/0506331))
+* {#Severa05} [[Pavol Ševera]], p. 1 of _On the origin of the BV operator on odd symplectic supermanifolds_, Lett Math Phys (2006) 78: 55. ([arXiv:0506331](https://arxiv.org/abs/math/0506331))
 
 
 [[!redirects Poisson-Lie algebroid]]
