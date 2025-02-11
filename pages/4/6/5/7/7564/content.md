@@ -92,6 +92,9 @@ On [[non-perturbative effects]] and [[resurgence theory|resurgence]] in topologi
 
 * [[Marcos Marino]]: *Les Houches lectures on non-perturbative topological strings* &lbrack;[arXiv:2411.16211](https://arxiv.org/abs/2411.16211)&rbrack;
 
+* Wu-Yen Chuang: *Nonperturbative refined topological string* &lbrack;[arXiv:2502.05518](https://arxiv.org/abs/2502.05518)&rbrack;
+
+
 
 
 
