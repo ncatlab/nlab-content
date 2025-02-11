@@ -210,6 +210,6 @@ Dually, it classifies [[closed subsets]] in that any closed subspace $A$ is $\ch
 * Andrej Bauer, Davorin Lešnik, Metric spaces in synthetic topology ([pdf](https://www.sciencedirect.com/science/article/pii/S0168007211000935))
 
 [[!redirects Sierpinski space]]
-[[!redirects Sierpi?ski space]]
+[[!redirects Sierpiński space]]
 [[!redirects Sierpinski topology]]
-[[!redirects Sierpi?ski topology]]
+[[!redirects Sierpiński topology]]
