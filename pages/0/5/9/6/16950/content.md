@@ -27,7 +27,6 @@ A diagonal matrix with value 1 on the diagonal is an [[identity matrix]].
 
 #### Schur lemma
 
-Diagonal matrices always commute with all other square matrices of the same size (with respect to [[matrix multiplication]]). However, if $R$ is an [[algebraically closed field]], then the converse is also true ([[Schur lemma]]): the subset of all diagonal matrices is precisely the [[center]] of the ring of matrices $Mat_{n \times n}(R)$.
 
 ## Related concepts
 
