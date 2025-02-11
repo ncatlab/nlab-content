@@ -54,10 +54,8 @@ Notice the similarity to ([Hegel 12](#Hegel12)), for more on this see ([Hegel 27
 * {#Hegel12} [[Georg Hegel]], _[[Science of Logic]]_ (1812)
 
 
-[[!redirects ???]]
-[[!redirects ???]]
-[[!redirects Dào Dé J?ng]]
-[[!redirects Dàodéj?ng]]
+[[!redirects Dào Dé Jīng]]
+[[!redirects Dàodéjīng]]
 [[!redirects Dao De Jing]]
 [[!redirects Daodejing]]
 [[!redirects Tao Te Ching]]
