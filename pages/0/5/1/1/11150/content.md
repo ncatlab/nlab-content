@@ -147,7 +147,20 @@ Via [[celestial holography]]:
 
 In the context of [[D=2 quantum gravity]]:
 
+* Scott Collier, [[Lorenz Eberhardt]], Beatrix Mühlmann, Victor A. Rodriguez: *The complex Liouville string* &lbrack;[arXiv:2409.17246](https://arxiv.org/abs/2409.17246)&rbrack;
+
+* Scott Collier, Lorenz Eberhardt, Beatrix Mühlmann, Victor A. Rodriguez: *The complex Liouville string: the worldsheet* &lbrack;[arXiv:2409.18759](https://arxiv.org/abs/2409.18759)&rbrack;
+
+* Scott Collier, [[Lorenz Eberhardt]], Beatrix Mühlmann, Victor A. Rodriguez: *The complex Liouville string: the matrix integral* &lbrack;[arXiv:2410.07345](https://arxiv.org/abs/2410.07345)&rbrack;
+
+* Scott Collier, [[Lorenz Eberhardt]], Beatrix Mühlmann, Victor A. Rodriguez: *The complex Liouville string: worldsheet boundaries and non-perturbative effects* &lbrack;[arXiv:2410.09179](https://arxiv.org/abs/2410.09179)&rbrack;
+
+
+
 * Scott Collier, [[Lorenz Eberhardt]], Beatrix Mühlmann: *The complex Liouville string: the gravitational path integral* &lbrack;[arXiv:2501.10265](https://arxiv.org/abs/2501.10265)&rbrack;
+
+
+
 
 
 
