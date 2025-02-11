@@ -93,7 +93,7 @@ The LSC also has applications in:
 
 * Neil Ghani, Valeria de Paiva and Eike Ritter, *Linear Explicit Substitutions*, Journal of the IGPL, Vol, 8(1), pp.7-31, 2000. [link](https://www.researchgate.net/profile/Valeria-De-Paiva/publication/2503409_Linear_Explicit_Substitutions/links/0fcfd505c631c267d2000000/Linear-Explicit-Substitutions.pdf)
 
-* Neil Ghani, Valeria de Paiva and Eike Ritter, *Explicit substitutions for constructive necessity*, In Larsen, Kim G. and Skyum, Sven and Winskel, Glynn (eds.), Automata, Languages and Programming, 1998. [citeseer]{https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=712ec1a9241700486bb9aba5aba83f51398ec246)
+* Neil Ghani, Valeria de Paiva and Eike Ritter, *Explicit substitutions for constructive necessity*, In Larsen, Kim G. and Skyum, Sven and Winskel, Glynn (eds.), Automata, Languages and Programming, 1998. [citeseer](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=712ec1a9241700486bb9aba5aba83f51398ec246)
 
 The linear substitution calculus is discussed in:
 
