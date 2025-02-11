@@ -1409,6 +1409,9 @@ See also
 
 * Jesús Cruz Rojas, [[Tuna Demircik]], [[Matti Järvinen]], *Modulated instabilities and the $AdS_2$ point in dense holographic matter* &lbrack;[arXiv:2405.02399](https://arxiv.org/abs/2405.02399)&rbrack;
 
+* Akash Singh, K. P. Yogendran: *Condensate phases of nuclear matter from AdS Hardwall models* &lbrack;[arXiv:2502.05666](https://arxiv.org/abs/2502.05666)&rbrack;
+
+
 
 
 
