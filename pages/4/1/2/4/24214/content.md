@@ -1,6 +1,9 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Michio_Jimbo)
 
+* [inSpire page](https://inspirehep.net/authors/1078203)
+
+
 ## Selected writings
 
 On the [[Kadomtsev-Petviashvili equation]]:
@@ -19,6 +22,10 @@ On the [[quantum Yang-Baxter equation|quantum]] [[Yang-Baxter equation]]:
 * [[Michio Jimbo]], *Introduction to the Yang-Baxter Equation*, Int. J. Modern Physics A **4** 15 (1989) 3759-3777 &lbrack;[doi:10.1142/S0217751X89001503](https://doi.org/10.1142/S0217751X89001503)&rbrack; 
 
   reprinted in: *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) &lbrack;[doi:10.1142/0796](https://doi.org/10.1142/0796)&rbrack;
+
+* [[Michio Jimbo]]: *Yang-Baxter Equation in Integrable Systems*, Advanced Series in Mathematical Physics **10**, World Scientific (1990) &lbrack;[doi:10.1142/1021](https://doi.org/10.1142/1021)&rbrack;
+  > (focus on application to [[integrable systems]])
+
 
 On the [hypergeometric construction](Knizhnik-Zamolodchikov+equation#BraidRepresentationsViaTwisteddRCohomologyOfConfigurationSpaces) of solutions to the [[Knizhnik-Zamolodchikov equation]]:
 
