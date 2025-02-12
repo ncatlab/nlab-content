@@ -61,7 +61,7 @@ $$
   \,.
 $$
 
-Conversely, for $G \in \mathbf{H}$ we say an object $\mathbf{B}G$ is a [[delooping]] of $G$ if it has an essentially unique point and if $G \simeq \Omega \mathbf{B}G$. We call $G$ an **[[∞-group]]**. More in detail, its structure as a [[groupoid object in an (∞,1)-category|group object in an (∞,1)-category]] is exhibited by the [[?ech nerve]] 
+Conversely, for $G \in \mathbf{H}$ we say an object $\mathbf{B}G$ is a [[delooping]] of $G$ if it has an essentially unique point and if $G \simeq \Omega \mathbf{B}G$. We call $G$ an **[[∞-group]]**. More in detail, its structure as a [[groupoid object in an (∞,1)-category|group object in an (∞,1)-category]] is exhibited by the [[Čech nerve]] 
 
 $$
  \left(
@@ -673,11 +673,11 @@ In this context there is a notion of [[connection on a principal ∞-bundle]].
 
 ### Ordinary principal bundles
 
-For $G$ an ordinary [[Lie group]], a $G$-principal bundle in the $(\infty,1)$-topos $\mathbf{H} = $ [[?LieGrpd]] is an ordinary $G$-[[principal bundle]].
+For $G$ an ordinary [[Lie group]], a $G$-principal bundle in the $(\infty,1)$-topos $\mathbf{H} = $ [[∞LieGrpd]] is an ordinary $G$-[[principal bundle]].
 
 ### Circle $n$-bundles
 
-For $G = \mathbf{B}^{n-1} U(1) \in $ [[?LieGrpd]], the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie n-group</a>, a $G$-principal $\infty$-bundle is a **circle $n$-bundle**.
+For $G = \mathbf{B}^{n-1} U(1) \in $ [[∞LieGrpd]], the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie n-group</a>, a $G$-principal $\infty$-bundle is a **circle $n$-bundle**.
 
 See [[circle n-bundle with connection]].
 
