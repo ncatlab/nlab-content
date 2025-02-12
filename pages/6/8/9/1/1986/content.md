@@ -132,11 +132,11 @@ The substantive content of this page should **not** be altered.
 
         -  _Toby_: H\'m, I just put the displayed math back the way it was before your edit, and it seems OK now.  What happens if you edit the page again?
 
-* [[Zoran ?koda]] added a section on classical topological version in [[deformation retract]]. Corrected big chunk which [[Jon Awbrey]] has erased from _latest changes_ by an editing error. Added Pareigis classical reference to [[actegory]]. 
+* [[Zoran Škoda]] added a section on classical topological version in [[deformation retract]]. Corrected big chunk which [[Jon Awbrey]] has erased from _latest changes_ by an editing error. Added Pareigis classical reference to [[actegory]]. 
 
 * [[Jon Awbrey]] is adding [[boolean domain]], [[boolean function]], and [[boolean-valued function]] --- according to his custom starting with a middling level of abstraction that comes up a lot in pedagogy and practice and is calculated to avoid scaring too many children and horses.
 
-* [[Zoran ?koda]] created [[locally convex space]] and additions to [[topological vector space]]; the latter wasted an additional one hour or so because the server was not accepting the input but sending internal application error messages for some reason which according to many tries seemed to have originated in some characters in formulas in previous (Toby's text) it seems as only after changing his formulas it worked and removing my own paragraphs did not help, but who knows which combination of mine and earlier text is actually bugging the system. The repeated trials or removing and adding text took more time than necessary because of the old problem with nlab default that nlab rejects the submition if it is 4th subsequent trial without refreshing edit view from within show view (hence back button not allowed more than 3 times in a row). I think the default should be put to 10 or so, as I often hit over 3 submits from the text which I edit and do not want to wait (and also fight and pay slow internet when on wireless) to go back to show view and then again to ask for another edit: my mozilla keeps the old edit and I can go back to the text immeditaly if the submit was unsucessful or if I notice I do not like the outcome. Thus when server is slow I can reedit what I was editing 5 seconds ago instanteneously without repressing the edit and waiting for the server which may fail again. I think 10 resubmits within the frame could be a better deafult than 3. Created entries [[Fourier transform]] and [[Pontrjagin dual]]. Yesterday wrote few lines in [[functional analysis]] but on the submit the loss of connection lost it; I'll try again today. 
+* [[Zoran Škoda]] created [[locally convex space]] and additions to [[topological vector space]]; the latter wasted an additional one hour or so because the server was not accepting the input but sending internal application error messages for some reason which according to many tries seemed to have originated in some characters in formulas in previous (Toby's text) it seems as only after changing his formulas it worked and removing my own paragraphs did not help, but who knows which combination of mine and earlier text is actually bugging the system. The repeated trials or removing and adding text took more time than necessary because of the old problem with nlab default that nlab rejects the submition if it is 4th subsequent trial without refreshing edit view from within show view (hence back button not allowed more than 3 times in a row). I think the default should be put to 10 or so, as I often hit over 3 submits from the text which I edit and do not want to wait (and also fight and pay slow internet when on wireless) to go back to show view and then again to ask for another edit: my mozilla keeps the old edit and I can go back to the text immeditaly if the submit was unsucessful or if I notice I do not like the outcome. Thus when server is slow I can reedit what I was editing 5 seconds ago instanteneously without repressing the edit and waiting for the server which may fail again. I think 10 resubmits within the frame could be a better deafult than 3. Created entries [[Fourier transform]] and [[Pontrjagin dual]]. Yesterday wrote few lines in [[functional analysis]] but on the submit the loss of connection lost it; I'll try again today. 
 
 * [[Jon Awbrey]] added [[multigrade operator]] and [[parametric operator]].  Added the missing Figures to [[minimal negation operator]] but didn't know how to scale them here --- 80% or 500px would probably be good.
 
@@ -151,11 +151,11 @@ The substantive content of this page should **not** be altered.
    *  Formatted [[minimal negation operator]], where [[Jon Awbrey]] has put material; note that there are two missing diagrams.
    *  Cross linked [[subfunctor]] and [[sieve]].
 
-* [[Zoran ?koda]] created entries [[actegory]] (category with an action of a monoidal category), yet another sandbox [[SVGsandbox]], (mathematical) [[analysis]] and [[Weierstrass preparation theorem]] (the latter is in a basis of connections between analytic and algebraic geometry; I want eventually to say about algebraic approaches to [[analytic geometry]] like analytic local algebras and rigid analytic geometry; the theory is rather parallel to some aspects of modern algebraic geometry, e.g. in the way differential forms and regular differential operators are introduced); created [[subfunctor]] (needing your checking). Earlier this week much extended [[noncommutative geometry]] and did not have time to report it here.  I do not see nonstandard analysis in usual sense in Moerdijk-Reyes (also at page 385 bottom they themselves also include that the relation of their axiomatics SIA with nonstanard analysis is not clear). The discussion in chapter 7 is in generalized sense kind of nonstandard analysis, in the general sense that it entails a version of the transfer principle. However the discussion relies on a very general setup of complicated axiomatics based on commutative rings the transfer refers to certain language using coherent formulas. Thus it is not about extending language $L(\mathbb{R})$; or about ultrafilter model of the nonstandard extension of $\mathbb{R}$. Of course, at the topos level, one can express everything in terms of internal language of the topos and there is a general transfer principle in that setup. This is much more abstract sense of [[nonstandard analysis]] than in the rather concrete and conservative article I started. Of course further discussions and contributions in both directions are necessary for us. 
+* [[Zoran Škoda]] created entries [[actegory]] (category with an action of a monoidal category), yet another sandbox [[SVGsandbox]], (mathematical) [[analysis]] and [[Weierstrass preparation theorem]] (the latter is in a basis of connections between analytic and algebraic geometry; I want eventually to say about algebraic approaches to [[analytic geometry]] like analytic local algebras and rigid analytic geometry; the theory is rather parallel to some aspects of modern algebraic geometry, e.g. in the way differential forms and regular differential operators are introduced); created [[subfunctor]] (needing your checking). Earlier this week much extended [[noncommutative geometry]] and did not have time to report it here.  I do not see nonstandard analysis in usual sense in Moerdijk-Reyes (also at page 385 bottom they themselves also include that the relation of their axiomatics SIA with nonstanard analysis is not clear). The discussion in chapter 7 is in generalized sense kind of nonstandard analysis, in the general sense that it entails a version of the transfer principle. However the discussion relies on a very general setup of complicated axiomatics based on commutative rings the transfer refers to certain language using coherent formulas. Thus it is not about extending language $L(\mathbb{R})$; or about ultrafilter model of the nonstandard extension of $\mathbb{R}$. Of course, at the topos level, one can express everything in terms of internal language of the topos and there is a general transfer principle in that setup. This is much more abstract sense of [[nonstandard analysis]] than in the rather concrete and conservative article I started. Of course further discussions and contributions in both directions are necessary for us. 
 
 * [[Urs Schreiber]]: thanks, Zoran. By the way: in the later chapters of [[Models for Smooth Infinitesimal Analysis]] there is some detailed discussion of the relation between synthetic differential geometry and nonstandard analysis
 
-* [[Zoran ?koda]] created [[nonstandard analysis]] containing basically an (incomplete) introduction to basic terms in the [[ultrafilter]] model of the nonstandard extension of real numbers. One of the reasons to create this right now is that Urs is talking about [[infinitesimal object]] in synthetic differential geometry, and it could be a moment to (hopefully usefully) compare with the notions of nonstandard analysis. Created [[Rouqier's cocovering]] (in subject of [[triangulated category]]).  
+* [[Zoran Škoda]] created [[nonstandard analysis]] containing basically an (incomplete) introduction to basic terms in the [[ultrafilter]] model of the nonstandard extension of real numbers. One of the reasons to create this right now is that Urs is talking about [[infinitesimal object]] in synthetic differential geometry, and it could be a moment to (hopefully usefully) compare with the notions of nonstandard analysis. Created [[Rouqier's cocovering]] (in subject of [[triangulated category]]).  
 
 * [[Jon Awbrey]] noticed that [[graph]] was unsaturated, so he whetted it.  There are many definitions of _graph_ and many dialects of graph theory.  I added one of my first and favorite.  Read my &#8230;
 
@@ -220,7 +220,7 @@ The substantive content of this page should **not** be altered.
 
 * [[Urs Schreiber]]: created [[infinitesimal object]], with a bit of material, but haven't found yet the time to round this up and polish
 
-*  [[Zoran ?koda]]: created [[cobordism category]]; created [[Fox derivative]] (cute construction in [[combinatorial group theory]]). I think, it is the same Fox of the famous article Fox-Neuwirth on the topology of configuration spaces. 
+*  [[Zoran Škoda]]: created [[cobordism category]]; created [[Fox derivative]] (cute construction in [[combinatorial group theory]]). I think, it is the same Fox of the famous article Fox-Neuwirth on the topology of configuration spaces. 
 
    * [[David Corfield]]: And the Ralph Hartzler Fox of 'Crowell and Fox' about whom Ronnie Brown [wrote](http://www.bangor.ac.uk/~mas010/pdffiles/groupoidsurvey.pdf)
  
@@ -241,7 +241,7 @@ The substantive content of this page should **not** be altered.
 
   * Claimed that Toby's fix of [[affine space]] contains superfluous data.
 
-* [[Zoran ?koda]]: added links to [[heap]] and [[zoranskoda:affine space]] at [[affine space]]; and the original (B and PS) references to [[BPS-state]].
+* [[Zoran Škoda]]: added links to [[heap]] and [[zoranskoda:affine space]] at [[affine space]]; and the original (B and PS) references to [[BPS-state]].
    * created [[cluster algebra]] with overview but without strict definition yet. 
    * Thank you, Toby, for masterly fixing the connection inconsistency in [[dilogarithm]]. 
 
@@ -250,11 +250,11 @@ The substantive content of this page should **not** be altered.
    *  Fixed [[affine space]].
    *  Sorry about [[fine sheaf]]; I was going to rephrase things, decided not to, and didn\'t change that back.
 
-* [[Zoran ?koda]]: created [[dilogarithm]]. 
+* [[Zoran Škoda]]: created [[dilogarithm]]. 
 
 * [[Urs Schreiber]]: in case anyone is waiting for reactions from me: I am currently on a small vacation with little internet access. Will be back at full speed next Sunday or else next Monday
 
-* [[Zoran ?koda]]: added synonym flasque to [[flabby sheaf]]; query at [[history of cohomology with local coefficients]]. Created [[quantum dilogarithm]], but for now it consists only of references and links.
+* [[Zoran Škoda]]: added synonym flasque to [[flabby sheaf]]; query at [[history of cohomology with local coefficients]]. Created [[quantum dilogarithm]], but for now it consists only of references and links.
 
 * [[Mike Shulman]]:
 
@@ -264,7 +264,7 @@ The substantive content of this page should **not** be altered.
 
   * Discovered, and restarted, the terminological discussion at [[lax natural transformation]] from back in June.
 
-* [[Zoran ?koda]]: $A$ and $B$ in [[fine sheaf]] are already closed, so I removed Toby's correction taking closure. 
+* [[Zoran Škoda]]: $A$ and $B$ in [[fine sheaf]] are already closed, so I removed Toby's correction taking closure. 
 
 * [[David Roberts]]: some dates at [[twisted cohomology]] on the earliest references, and added title, date and small clarification on Reidemeister's 1938 article at [[history of cohomology with local coefficients]].
 
@@ -277,7 +277,7 @@ The substantive content of this page should **not** be altered.
    *  Discussion at [[database of categories]].
    *  Added a link to Andrew\'s request for comments below.
 
-* [[Zoran ?koda]] created [[soft sheaf]], [[fine sheaf]], [[family of supports]], [[analytic geometry]].
+* [[Zoran Škoda]] created [[soft sheaf]], [[fine sheaf]], [[family of supports]], [[analytic geometry]].
 
 * [[David Corfield]]: Mike's right at [[symmetric function]] isn't he? So the definition needs redoing. Would do it myself, but how does one put the bit about grading properly?
 
@@ -349,11 +349,11 @@ The substantive content of this page should **not** be altered.
 
 * [[Urs Schreiber]]: further polished and edited [[∞-quantity]], gave more details on how the characterization of the deRham complex as the normalized Moore complex of functions on simplices follows from Anders Kock's results and provided a reference that provides the statements about the relation between functions on $\mathbf{B}G$ and the Chevalley-Eilenberg algebra in the algebraic context.
 
-* [[Zoran ?koda]]: created [[Schur's lemma]].
+* [[Zoran Škoda]]: created [[Schur's lemma]].
 
 *  [[Toby Bartels]]:  Some breaking up into paragraphs and things at [[hyperplane line bundle]], [[symplectic manifold]], and [[Kähler manifold]].
 
-* [[Zoran ?koda]]: created [[Killing form]] with some words on Casimir operators. Eventually Casimir operators should be treated separately, but it is beneficial to develop the unique entry first to accumulate common facts, conventions and notation, because the two are closely related. 
+* [[Zoran Škoda]]: created [[Killing form]] with some words on Casimir operators. Eventually Casimir operators should be treated separately, but it is beneficial to develop the unique entry first to accumulate common facts, conventions and notation, because the two are closely related. 
 
 * [[Urs Schreiber]]: 
 
@@ -363,7 +363,7 @@ The substantive content of this page should **not** be altered.
 
     But in the course of this I noticed first of all that my use "$(\infty,1)$-quantity" was a misnomer. It should be "$\infty$-quantity". To explain (to myself) why, I created the dual entry [[∞-space]]. Then I moved the material from the former [[(infinity,1)-quantity]] to the new [[∞-quantity]] and started editing a bit and put redirects.
 
-* [[Zoran ?koda]]: created [[symplectic vector space]], [[symplectic manifold]], [[Kähler manifold]], [[hyperplane line bundle]] having not only $\mathcal{O}(1)$ but also the basics for $\mathcal{O}(-1)$, $\mathcal{O}(n)$.
+* [[Zoran Škoda]]: created [[symplectic vector space]], [[symplectic manifold]], [[Kähler manifold]], [[hyperplane line bundle]] having not only $\mathcal{O}(1)$ but also the basics for $\mathcal{O}(-1)$, $\mathcal{O}(n)$.
 
 * [[Urs Schreiber]]: 
 
@@ -395,7 +395,7 @@ The substantive content of this page should **not** be altered.
    *  Moved some stuff about the structure from [[topology]] to [[topological structure]] (which is really [[topological space]] now).
    *  Moved stuff from [[connection]] to [[connection on a bundle]].  It\'s possible that much of the latter could be put on a more specific page, something like [[parallel transport]] (which currently redirects).
    *  A bit more at [[continuous map]].
-   *  A suggestion for [[Zoran ?koda]] at [[differential form]].
+   *  A suggestion for [[Zoran Škoda]] at [[differential form]].
 
       * Zoran: it seems you misunderstood the question, see my answer there. It is not about generalizations. 
    *  Added links and such to [[nonabelian algebraic topology]].  Normally I don\'t log this sort of thing, but as much of this is a personal essay, I want [[Ronnie Brown]] to make sure that I didn\'t warp anything.
@@ -405,21 +405,21 @@ The substantive content of this page should **not** be altered.
 
 *  [[Roger Witte]] has joined us with an edit to [[category theory]].
 
-* [[Zoran ?koda]]: added several (very carefully chosen, though I am not competent enough) references into [[BPS-state]]. 
+* [[Zoran Škoda]]: added several (very carefully chosen, though I am not competent enough) references into [[BPS-state]]. 
 
 * [[Urs Schreiber]]: split off [[monoidal Dold-Kan correspondence]] from [[Dold-Kan correspondence]] -- moved the material in the original section at the latter to the former and linked back and forth -- moreover I added a section _Lax monoidalness of the Moore cochain complex functor_ where I claim to prove the statement asserted by this headline. CHECK.
 
-* [[Zoran ?koda]]: created an outline for the [[BPS-state]], expanded [[group theory]]. I side with Mike with long-surpressed urge to have nice conceptual explanation of the terminology semantics-structure adjunction.
+* [[Zoran Škoda]]: created an outline for the [[BPS-state]], expanded [[group theory]]. I side with Mike with long-surpressed urge to have nice conceptual explanation of the terminology semantics-structure adjunction.
 
 * [[Mike Shulman]]: Corrected a handedness error I made in my initial reply at [[monadic adjunction]], and made a request: can anyone give a nice conceptual explanation of the terminology "semantics-structure adjunction"?
 
-* [[Zoran ?koda]]: expanded slightly [[geometry]], [[diffeomorphism]] and much [[topology]] (with groupings of similar items, few hours of work), created [[Hurewicz connection]], [[continuous map]] and a stub for [[diffeity]] with few references. Additions to [[connection]]. 
+* [[Zoran Škoda]]: expanded slightly [[geometry]], [[diffeomorphism]] and much [[topology]] (with groupings of similar items, few hours of work), created [[Hurewicz connection]], [[continuous map]] and a stub for [[diffeity]] with few references. Additions to [[connection]]. 
 
   * [[David Corfield]]: Are you sure it isn't 'diffiety'? That would match 'variety' better.
   * Zoran: Oh, yes, thanks, [[diffiety]]!!
 * [[Urs Schreiber]]: added the standard singular cohomology version to [[cup product]]
 
-* [[Zoran ?koda]]: created [[projection measure]]. I agree with Toby that, in common convention in published literature, if one uses a German phrase involving word Satz (like in his Theorem example) one will still write it with capital letter. As a physicist, I witness and referree papers on daily basis which are using the word Ansatz in English physics texts, as rule capitalized. Mathematicians do not like the term and logic of using something as a means to solve the problem if it is not justified a priori (one mathematician was telling me words of disgust: "what is physics ? Nothing! Ansatz!").
+* [[Zoran Škoda]]: created [[projection measure]]. I agree with Toby that, in common convention in published literature, if one uses a German phrase involving word Satz (like in his Theorem example) one will still write it with capital letter. As a physicist, I witness and referree papers on daily basis which are using the word Ansatz in English physics texts, as rule capitalized. Mathematicians do not like the term and logic of using something as a means to solve the problem if it is not justified a priori (one mathematician was telling me words of disgust: "what is physics ? Nothing! Ansatz!").
 I posted a query under [[differential form]] on interpretations as inner hom, i.e. functions on $\Pi TM$.  
 
 * [[Ronnie Brown]]: I have rewritten [[nonabelian algebraic topology]] to incorporate historical comments I made made on discussion lists, and so to show my experience of the relation with [[nonabelian cohomology]]. 
@@ -447,17 +447,17 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
 
 *  [[Toby Bartels]]:  Reading Zoran\'s work reminds me that there\'s another way to interpretation notation for an integral, which I\'ve now recorded at [[measure space]].  (I think that capitalising the 'N' in 'Nullstellensatz' in English is like capitalising the 'T' in '[Cantor\'s Theorem](http://en.wikipedia.org/wiki/Cantor's_Theorem)', but I\'m not going to worry about it in a world with redirects.)
 
-* [[Zoran ?koda]]: added standard references to [[commutative algebra]] and links to Murfet's online notes. [[Nullstellensatz]] as a German noun compound starts with a capital letter, and it is usually (though not always) quoted so in English references.  
+* [[Zoran Škoda]]: added standard references to [[commutative algebra]] and links to Murfet's online notes. [[Nullstellensatz]] as a German noun compound starts with a capital letter, and it is usually (though not always) quoted so in English references.  
 
 * [[Toby Bartels]]:  Created [[algebraically closed field]].
 
-* [[Zoran ?koda]]: created [[commutative algebra]] both for the notion of a commutative $k$-algebra and the subject of _the_ commutative algebra, which is one of the foundations of algebraic geometry. I have removed the redirect commutative algebra from [[associative unital algebra]]. Toby: a variety is an affine, quasiaffine, projective or quasiprojective variety. Hence if one talks about the category of all varieties, then all of those are objects simultaneously, and not by convention of choice. True enough quasiprojective includes all others as the affine space is a Zariski open subset of the projective space. I corrected nonlogical usage of the maximal compact to the maximal torus. The thing is that I usually use K for maximal compact in G which is complex, and now I used G for compact and $G^C$ for complexification, so in my normal notation it would be $K/T=G/B$ where $T$ is the maximal torus. Once I lost $K$ in the complexification notation I put it automatically at the place of the torus. Of course $SL(n,C)/B = SU(n)/T$, what is called Gram-Schmidt orthogonalization procedure :) Thanks for  catching the inconsistency in language. I will use $T$ now and remove $K$ everywhere (better I used my notation). 
+* [[Zoran Škoda]]: created [[commutative algebra]] both for the notion of a commutative $k$-algebra and the subject of _the_ commutative algebra, which is one of the foundations of algebraic geometry. I have removed the redirect commutative algebra from [[associative unital algebra]]. Toby: a variety is an affine, quasiaffine, projective or quasiprojective variety. Hence if one talks about the category of all varieties, then all of those are objects simultaneously, and not by convention of choice. True enough quasiprojective includes all others as the affine space is a Zariski open subset of the projective space. I corrected nonlogical usage of the maximal compact to the maximal torus. The thing is that I usually use K for maximal compact in G which is complex, and now I used G for compact and $G^C$ for complexification, so in my normal notation it would be $K/T=G/B$ where $T$ is the maximal torus. Once I lost $K$ in the complexification notation I put it automatically at the place of the torus. Of course $SL(n,C)/B = SU(n)/T$, what is called Gram-Schmidt orthogonalization procedure :) Thanks for  catching the inconsistency in language. I will use $T$ now and remove $K$ everywhere (better I used my notation). 
 
 *  [[Toby Bartels]]:
    *  A question at [[flag variety]], and also a brief question at [[algebraic variety]].
    *  Responded to Mike at [[monotone function]].  What I have there is not quite right, but I\'ll let Mike react before I have another go.
 
-* [[Zoran ?koda]]: created [[algebraic variety]], additions to [[integral scheme]] and lists [[mathematics]],[[geometry]]
+* [[Zoran Škoda]]: created [[algebraic variety]], additions to [[integral scheme]] and lists [[mathematics]],[[geometry]]
 
 * [[Toby Bartels]]:  I\'m going to mess with [[category theory]] again, if somebody doesn\'t stop me.
 
@@ -467,11 +467,11 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
   * Agreed with Toby's edit at [[equipment]] and removed query box.
   * Comment and question at [[homotopy hypothesis]].
 
-* [[Zoran ?koda]]: after lots of work expanded the entry list for [[geometry]] (the first try was eaten up by internet explorer: nlab server did not accept my first submission and IE does not allow going back to the data (while never had this problem with firefox -- just can go back to the form with data still in)).
+* [[Zoran Škoda]]: after lots of work expanded the entry list for [[geometry]] (the first try was eaten up by internet explorer: nlab server did not accept my first submission and IE does not allow going back to the data (while never had this problem with firefox -- just can go back to the form with data still in)).
 
 * [[Urs Schreiber]]: added a bit more on the monoidalness and the shuffle map at [[Dold-Kan correspondence]]
 
-* [[Zoran ?koda]]: created [[flag variety]], [[Borel-Weil theorem]] and expanded [[coherent state]] 
+* [[Zoran Škoda]]: created [[flag variety]], [[Borel-Weil theorem]] and expanded [[coherent state]] 
 
 * [[Urs Schreiber]]: following [[David Roberts]]'s reaction below I took the following action at [[category theory]]
 
@@ -483,11 +483,11 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
 
 * [[David Roberts]]: responded to Urs' suggestion at [[category theory]] with one edited from his. We need to wrap up some of the discussion there, in particular, and, in my opinion, remove some points that would probably not be considered core to an introductory page on category theory - I hesitate to say \'points that are not generally supported by the category theory community\' because I know that there are some new and/or minority points of view that are enlightening. Certainly a couple of the extended discussions might be moved to a discussion section. I blame the lateness of the hour in Adelaide for not doing that particular task myself.
 
-* [[Zoran ?koda]]: created [[coherent state]] (it will be much longer later)
+* [[Zoran Škoda]]: created [[coherent state]] (it will be much longer later)
 
 * [[Urs Schreiber]]: replied at [[category theory]] by suggesting as an alternative an expanded version of the sentence on "mathematical universes" under discussion.
 
-* [[Zoran ?koda]]: additions and changes to [[symplectic geometry]]
+* [[Zoran Škoda]]: additions and changes to [[symplectic geometry]]
 
 * [[Lab Elf|Lab Elf (golf department)]]: added an entry at the [[HowTo| How To]] on how to put parentheses (and other "unsafe" characters) in links.
 
@@ -522,7 +522,7 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
 
   * created [[symplectic geometry]] with just some things to come back to later
 
-* [[Zoran ?koda]]: created [[Leibniz algebra]]
+* [[Zoran Škoda]]: created [[Leibniz algebra]]
 
 * [[Urs Schreiber]]
 
@@ -603,7 +603,7 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
 
   * created a stub entry for our new esteemed contributor, Prof. [[Charles Wells]]
 
-* [[Zoran ?koda]]: created very incomplete entries [[operator algebra]], [[maximal ideal]], [[Gelfand spectrum]]. I have mentioned mostly just the unital case, as the nonunital case will be more tricky when completed. 
+* [[Zoran Škoda]]: created very incomplete entries [[operator algebra]], [[maximal ideal]], [[Gelfand spectrum]]. I have mentioned mostly just the unital case, as the nonunital case will be more tricky when completed. 
 
 * [[David Corfield]]: Started [[ideal completion]] and [[foundations and philosophy]].
 
@@ -616,7 +616,7 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
 
 *  [[Toby Bartels]]:  More talk on [[category theory]].  Also note the existence of the article [[foundations]]; there\'s not a lot of philosophy there, but there could be and probably should be.
 
-* [[Zoran ?koda]]: created [[coquasitriangular bialgebra]], [[cosemisimple coalgebra]]; added the redirect [[corepresentation]] and few words on this terminology to [[comodule]]
+* [[Zoran Škoda]]: created [[coquasitriangular bialgebra]], [[cosemisimple coalgebra]]; added the redirect [[corepresentation]] and few words on this terminology to [[comodule]]
 
 * [[David Roberts]]: More discussion at [[category theory]]. There are some statements that need unraveling, and I don't quite feel up to it. In particular, [[Rafael Borowiecki]] pointed out the need for a philosophical page on foundations, as he referenced a paper on structuralism, sets and categories I didn't feel fitted on [[category theory]] (or at least in the section where it was referenced). So maybe this is a plea to David Corfield, who is more qualified to talk about such things than I.
 
@@ -627,7 +627,7 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
 
 *  [[Toby Bartels]]:  Started [[prime ideal theorem]] and [[maximal ideal theorem]].  Eventually I\'d like to have precise equivalences of these, constructively valid (preferably in any pretopos), to various forms of choice, with proofs.  Now is just a list of very basic results, possibly valid only in a model of ETCS.
 
-* [[Zoran ?koda]] created [[homotopical algebra]] as  a rather terminologically-historical entry (as opposed to more descriptive and concrete [[homotopy theory]] and compared to [[homological algebra]]); created [[quasitriangular bialgebra]] with redirects [[quasitriangular Hopf algebra]] and [[universal R-element]]. Added links to [[mathematics]], [[algebra]] and maybe to some more entry(s).
+* [[Zoran Škoda]] created [[homotopical algebra]] as  a rather terminologically-historical entry (as opposed to more descriptive and concrete [[homotopy theory]] and compared to [[homological algebra]]); created [[quasitriangular bialgebra]] with redirects [[quasitriangular Hopf algebra]] and [[universal R-element]]. Added links to [[mathematics]], [[algebra]] and maybe to some more entry(s).
 
 *  [[John Baez]]: Why does the main front page look so weird?  Did the site get moved to a new host, or is it the result of an alien invasion?
    
@@ -640,11 +640,11 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
 
 ## 2009-08-14
 
-* [[Zoran ?koda]] created [[quantum group]], additions to [[fiber bundle]], [[Hopf-Galois extension]] and [[Timeline of category theory and related mathematics]] including a query discussion and 1970 Timeline entry for [[Benabou-Roubaud theorem]]. Some thoughts on [[ideal]] entry. Toby, I think we should eventually have an entry which would have a general and lattice notions of [[ideal]] separated from the entry for rings/algebras. Otherwise half of the entry is incomprehensible for ring/algebra theorists. For example for noncommutative rings commutative notion of prime ideal splits into nonequivalent notions of prime and completely prime ideals (just to start, compare also primitive etc.), which are now difficult even to list as the rest of the list is lattice-worded. So I would opt to have a general entry and specialized entries for lattices, rings/algebras. Another interesting context are [[$\Omega$-groups]] (additively written not necessarily commutative groups with a family of operations, not necessarily unary ones which distribute over group "addition"; I am going to add a stub now) where ideals correspond to quotient $\Omega$-groups; interesting is to compare those version of ideals to the categorical notions of normal subobject. Thus we have ideals for sheaves of rings (e.g. defining ideal of a subvariety) etc. 
+* [[Zoran Škoda]] created [[quantum group]], additions to [[fiber bundle]], [[Hopf-Galois extension]] and [[Timeline of category theory and related mathematics]] including a query discussion and 1970 Timeline entry for [[Benabou-Roubaud theorem]]. Some thoughts on [[ideal]] entry. Toby, I think we should eventually have an entry which would have a general and lattice notions of [[ideal]] separated from the entry for rings/algebras. Otherwise half of the entry is incomprehensible for ring/algebra theorists. For example for noncommutative rings commutative notion of prime ideal splits into nonequivalent notions of prime and completely prime ideals (just to start, compare also primitive etc.), which are now difficult even to list as the rest of the list is lattice-worded. So I would opt to have a general entry and specialized entries for lattices, rings/algebras. Another interesting context are [[$\Omega$-groups]] (additively written not necessarily commutative groups with a family of operations, not necessarily unary ones which distribute over group "addition"; I am going to add a stub now) where ideals correspond to quotient $\Omega$-groups; interesting is to compare those version of ideals to the categorical notions of normal subobject. Thus we have ideals for sheaves of rings (e.g. defining ideal of a subvariety) etc. 
 
 *  [[Toby Bartels]]:  Added principal ideals to [[ideal]].
 
-* [[Zoran ?koda]] created [[flabby sheaf]]
+* [[Zoran Škoda]] created [[flabby sheaf]]
 
 *  [[Toby Bartels]]:
    *  Wrote [[implication]].
@@ -665,7 +665,7 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
 
 ## 2009-08-13
 
-* [[Zoran ?koda]] created [[Benabou-Roubaud theorem]]
+* [[Zoran Škoda]] created [[Benabou-Roubaud theorem]]
 
 * [[Urs Schreiber]]
 
@@ -759,7 +759,7 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
 
 * [[Urs Schreiber]]: created [[universal fibration of (∞,1)-categories]] and linked to it from [[generalized universal bundle]] and [[limit in a quasi-category]].
 
-* [[Zoran ?koda]]: created [[normal variety]]
+* [[Zoran Škoda]]: created [[normal variety]]
 
 * [[Urs Schreiber]] added [[universal colimits]] as the last remaining entry on the four [[Giraud's axioms]] that was still missing at [[(infinity,1)-topos]]. The entry currently points to the relevant discussion at [[commutativity of limits and colimits]] for the content, but is supposed to serve for providing the particular terminology used here.
 
@@ -787,27 +787,27 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
    *  Noted that the [[free product]] is the coproduct in $Grp$.
    *  Added a note on the constructive validity of the [[Nielsen?Schreier theorem]].
 
-* [[Zoran ?koda]]: created [[combinatorial group theory]], [[free product of groups]], [[Nielsen-Schreier theorem]], [[Hopfian group]]; quoted references for algebraic proofs of Nielsen-Schreier, somebody should add a reference with explanation of the topological proof (I think Massey's book would do but I do not have it at the moment).
+* [[Zoran Škoda]]: created [[combinatorial group theory]], [[free product of groups]], [[Nielsen-Schreier theorem]], [[Hopfian group]]; quoted references for algebraic proofs of Nielsen-Schreier, somebody should add a reference with explanation of the topological proof (I think Massey's book would do but I do not have it at the moment).
 
 
 ## 2009-08-07
 
 * [[Urs Schreiber]]: added to [[category algebra]] the description of (at least groupoid algebras) in terms of the weak colimit over the constand 2-functor to $Vect-Mod$. That's kind of remarkable. I have to admit to my shame that I wasn't aware of this fact before. It's extracted from Free-Hopkins-Lurie-Teleman's latest, where it is the starting point for a huge story.
 
-* [[Zoran ?koda]]: I will most likely be on vacation for next about 10 days, what means mainly offline, though I hope to contribute with an item here and there within that period. To live safely (=with nlab) when offline I downloaded the whole html version of the site which I backed up online at my institute's server (which is pretty well working). Here is the today's file [nlab.tar.gz](http://www.irb.hr/korisnici/zskoda/nlab.tar.gz), only about 10Mb but with 77 Mb after gunzipping back to tar and about the same after untarring. Of course I will not update this file at least till full return back. 
+* [[Zoran Škoda]]: I will most likely be on vacation for next about 10 days, what means mainly offline, though I hope to contribute with an item here and there within that period. To live safely (=with nlab) when offline I downloaded the whole html version of the site which I backed up online at my institute's server (which is pretty well working). Here is the today's file [nlab.tar.gz](http://www.irb.hr/korisnici/zskoda/nlab.tar.gz), only about 10Mb but with 77 Mb after gunzipping back to tar and about the same after untarring. Of course I will not update this file at least till full return back. 
 
 *  [[Toby Bartels]]:
    *  Wrote [[Stone Spaces]] (about Johnstone\'s book); contents to come.
    *  Edited [[simple object]] and [[semisimple object]] to clarify that the zero object is semisimple but not simple.
    *  I was pretty sure, Zoran, but since it wasn\'t my field, I wanted to warn you.
 
-* [[Zoran ?koda]] surely Toby, this is true for any fixed object $M$ (I wrote subobject?? hmm last night I entered a wrong building instead of the one in which my flat is). Just created [[coherent sheaf]]; because of severe time constraints it is rather short for a significant entry which will be large in future.  
+* [[Zoran Škoda]] surely Toby, this is true for any fixed object $M$ (I wrote subobject?? hmm last night I entered a wrong building instead of the one in which my flat is). Just created [[coherent sheaf]]; because of severe time constraints it is rather short for a significant entry which will be large in future.  
 
 *  [[Toby Bartels]]:  Rewrote the definition at [[property sup]] slightly; it seems to me that $\Omega$ should be an ascending chain of subobjects of a fixed object $M$, rather than an ascending chain of a fixed subobject $M$ (which I can\'t even parse).  That also fits in with a noetherian category\'s having the property, but I mention it here in case I\'m wrong.
 
 *  [[Aleks Kissinger]] has joined us, adding examples to [[dagger category]].
 
-* [[Zoran ?koda]] created short entries [[simple object]], [[semisimple object]], [[socle]], [[nilpotent ideal]]; noticed that if I create a redirect ((apples)) for ((apple)) and used it in ((pear)), the entry ((apple)) is NOT listed in the list of "linked from" entries at the bottom of the page. Thus if I link by a redirect name, I will miss the backpointer. This happened with [[simple objects]] listed in [[semisimple object]], but [[simple object]] does not say that it is linked from [[semisimple object]]. Added more to [[artinian ring]]. Toby, I agree that $n Cat$ and $n$-$Cat$ are accepted synonyms, that hyphen looks better than minus, and that there is no <em>a priori</em> rational reason for $R$-$Mod$ as opposed to $R Mod$, however the tradition in math community and in professional typerighting (say in numerous journals of AMS) do not use $R Mod$, at least not noticably often, in favour of other versions, and if nlab has strange (even if abstractly correct) conventions in conventional part of math, it may be less attractive to students and professionals. Additional confusion may arise in confusion the name $R$ or so before $Mod$ with a modifier like $gr$, $dg$, $co$ or alike, which are more often (and with stronger arguments) in tradition written without hyphen.  
+* [[Zoran Škoda]] created short entries [[simple object]], [[semisimple object]], [[socle]], [[nilpotent ideal]]; noticed that if I create a redirect ((apples)) for ((apple)) and used it in ((pear)), the entry ((apple)) is NOT listed in the list of "linked from" entries at the bottom of the page. Thus if I link by a redirect name, I will miss the backpointer. This happened with [[simple objects]] listed in [[semisimple object]], but [[simple object]] does not say that it is linked from [[semisimple object]]. Added more to [[artinian ring]]. Toby, I agree that $n Cat$ and $n$-$Cat$ are accepted synonyms, that hyphen looks better than minus, and that there is no <em>a priori</em> rational reason for $R$-$Mod$ as opposed to $R Mod$, however the tradition in math community and in professional typerighting (say in numerous journals of AMS) do not use $R Mod$, at least not noticably often, in favour of other versions, and if nlab has strange (even if abstractly correct) conventions in conventional part of math, it may be less attractive to students and professionals. Additional confusion may arise in confusion the name $R$ or so before $Mod$ with a modifier like $gr$, $dg$, $co$ or alike, which are more often (and with stronger arguments) in tradition written without hyphen.  
 
   * expanded [[germ]]; created (Gabriel's) [[property sup]] with redirect [[property (sup)]]. 
 
@@ -826,11 +826,11 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
 
 * [[Urs Schreiber]]: added a section "Details" to the end of [[(infinity,1)-quantity]] to go with the blog discussion [here](http://golem.ph.utexas.edu/category/2009/08/question_on_synthetic_differen.html#c025770)
 
-* [[Zoran ?koda]]: started [[Bredon cohomology]] and a stub for [[Mackey functor]] with few references.
+* [[Zoran Škoda]]: started [[Bredon cohomology]] and a stub for [[Mackey functor]] with few references.
 
 * [[Urs Schreiber]]: created [[superconnection]]
 
-* [[Zoran ?koda]]: created [[double of algebra with involution]],[[alternative algebra]],[[nilpotent element]], [[Azumaya algebra]]. We should have things much more detailed and explicit here, e.g. showing the correspondence between sheaves of Azumaya algebras and abelian gerbes...Though Duskin's construction of Azumaya complex deserves a separate entry of course and the Brower group does as well. Toby why do you use nonstandard $R Mod$ instead of $R-Mod$ or ${}_R Mod$ -- the standard algebraic literature places either dash or places $R$ in subscript...and it is even more weird for right modules with $Mod R$. 
+* [[Zoran Škoda]]: created [[double of algebra with involution]],[[alternative algebra]],[[nilpotent element]], [[Azumaya algebra]]. We should have things much more detailed and explicit here, e.g. showing the correspondence between sheaves of Azumaya algebras and abelian gerbes...Though Duskin's construction of Azumaya complex deserves a separate entry of course and the Brower group does as well. Toby why do you use nonstandard $R Mod$ instead of $R-Mod$ or ${}_R Mod$ -- the standard algebraic literature places either dash or places $R$ in subscript...and it is even more weird for right modules with $Mod R$. 
 
 *  [[Toby Bartels]]:
    *  Added a constructive bit to [[integral domain]].
@@ -838,7 +838,7 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
 
 * [[David Roberts]]: added comment to [[fundamental groupoid]] about topology thereon and relation to local connectedness. In other news, I have a (non-academic) job, so as of next week my contributions will slow down a bit.
 
-* [[Zoran ?koda]]: created several shorter entries [[open subscheme]], [[open immersion of schemes]], [[reduced scheme]], [[integral scheme]], [[integral domain]], [[noetherian scheme]] (warning: the listed proposition is not that obvious to prove) and made some changes to [[noetherian ring]]. 
+* [[Zoran Škoda]]: created several shorter entries [[open subscheme]], [[open immersion of schemes]], [[reduced scheme]], [[integral scheme]], [[integral domain]], [[noetherian scheme]] (warning: the listed proposition is not that obvious to prove) and made some changes to [[noetherian ring]]. 
 
 
 ## 2009-08-05
@@ -854,18 +854,18 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
 
 * [[Sridhar Ramesh]]: The article on [[Kleisli category]] erroneously made the remark that the free functor associated with an Eilenberg-Moore category would necessarily be faithful (as a simple counterexample, consider the monad on Set which sends everything to 1); I've reworded the line which stated this, as well as one other
 
-  * [[Zoran ?koda]]: thanks, I wrote this nonsense trying to quickly motivate the existence of two definitions of Kleisli category (I consider the one via morphisms $M\to TN$ more basic than as free algebras in fact) and while writing I said to myself this can't be (faithfulness) but quickly made up some ad hoc false arguments in my head to the opposite and continued writing this :) Somebody should write [[Kleisli object]] as well (following Street 1972 and Lack-Street 2002). 
+  * [[Zoran Škoda]]: thanks, I wrote this nonsense trying to quickly motivate the existence of two definitions of Kleisli category (I consider the one via morphisms $M\to TN$ more basic than as free algebras in fact) and while writing I said to myself this can't be (faithfulness) but quickly made up some ad hoc false arguments in my head to the opposite and continued writing this :) Somebody should write [[Kleisli object]] as well (following Street 1972 and Lack-Street 2002). 
 
 
 ## 2009-08-04
 
-* [[Zoran ?koda]]: created [[coherent module]], [[noetherian category]] (containing also some material on _locally noetherian_ abelian categories), [[Hilbert's basis theorem]], [[noetherian ring]], [[noetherian object]], [[irreducible topological space]], [[noetherian topological space]], [[integrable system]], [[differential topology]], [[general topology]], [[algebraic approaches to differential calculus]], [[skewfield]] (with redirect 'division ring'; I chose 1-word synonym as a main version however). Some users (outside of the contributor community) asked for more browsing access to nlab, namely to be able to descend to entries in specific subfields differently than via the long all pages list, or guessing and google search for notions; thus I gave small contribution to this by expanding [[algebra]], [[topology and geometry]] and [[mathematics]]; I do not think that we should care to ever have something like a complete tree, but having overview entries with lots of links in subfields will create more awareness of non-obvious entries. I also think that the descent from anything like top entries to concrete entries should not be unique in general and link overlap whenever logical and intelligent cross-referencing would not hurt. I have moved much of the material from [[reconstruction theorem]] to [[Lawvere's reconstruction theorem]] and added a link to latter and few more references, mainly for Tannakian and scheme cases. 
+* [[Zoran Škoda]]: created [[coherent module]], [[noetherian category]] (containing also some material on _locally noetherian_ abelian categories), [[Hilbert's basis theorem]], [[noetherian ring]], [[noetherian object]], [[irreducible topological space]], [[noetherian topological space]], [[integrable system]], [[differential topology]], [[general topology]], [[algebraic approaches to differential calculus]], [[skewfield]] (with redirect 'division ring'; I chose 1-word synonym as a main version however). Some users (outside of the contributor community) asked for more browsing access to nlab, namely to be able to descend to entries in specific subfields differently than via the long all pages list, or guessing and google search for notions; thus I gave small contribution to this by expanding [[algebra]], [[topology and geometry]] and [[mathematics]]; I do not think that we should care to ever have something like a complete tree, but having overview entries with lots of links in subfields will create more awareness of non-obvious entries. I also think that the descent from anything like top entries to concrete entries should not be unique in general and link overlap whenever logical and intelligent cross-referencing would not hurt. I have moved much of the material from [[reconstruction theorem]] to [[Lawvere's reconstruction theorem]] and added a link to latter and few more references, mainly for Tannakian and scheme cases. 
 
 *  [[Toby Bartels]]:
    *  Discussion at [[directed graph]].
    *  Added [[characteristic morphism]] to [[characteristic function]].
 
-* [[Zoran ?koda]]: Created [[exact sequence of Hopf algebras]] (well, for now short exact). 
+* [[Zoran Škoda]]: Created [[exact sequence of Hopf algebras]] (well, for now short exact). 
 Oh John, you gave me an opportunity for recalling some sweet memories: I clumsily used word lazy for a lack of interaction (actually a barrier of shyness/fear between experts and non-experts) at a summer school on geometry and strings in 1999 and got excommunicated there for about a week :) 
 
 * [[John Baez]]: What, I'm the first one working on the $n$Lab and it's already past noon (in Paris)?  The rest of you must be getting lazy!  :-)  I added a little bit about cosimplicial objects vs cochain complexes to [[Dold-Kan correspondence]].
@@ -873,19 +873,19 @@ Oh John, you gave me an opportunity for recalling some sweet memories: I clumsil
 
 ## 2009-08-03
 
-* [[Zoran ?koda]]: To assist [[John Baez]]'s links, created [[Eilenberg-Moore category]], [[Kleisli category]] and added details and redirects to [[monadic functor]]. To John's question: I think most basic facts in Tannaka reconstruction including sort of those on coalgebra level are in chapter 3 of [Bodo Pareigis' online notes](http://www.mathematik.uni-muenchen.de/~pareigis/pa_schft.html); his emphasis is on [[end]]s and coends. However I hope you find Kazhdan's notes, they must be great. I created entry [[Tomasz Maszczyk]] with very interesting past seminar abstract at the bottom relating a new reconstruction theorem coming from nc geometry. 
+* [[Zoran Škoda]]: To assist [[John Baez]]'s links, created [[Eilenberg-Moore category]], [[Kleisli category]] and added details and redirects to [[monadic functor]]. To John's question: I think most basic facts in Tannaka reconstruction including sort of those on coalgebra level are in chapter 3 of [Bodo Pareigis' online notes](http://www.mathematik.uni-muenchen.de/~pareigis/pa_schft.html); his emphasis is on [[end]]s and coends. However I hope you find Kazhdan's notes, they must be great. I created entry [[Tomasz Maszczyk]] with very interesting past seminar abstract at the bottom relating a new reconstruction theorem coming from nc geometry. 
 
   * [[John Baez]]: thanks for the reference to Pareigis' online notes!  I'll look at them sometime --- I hadn't known about them.
 
 * [[Urs Schreiber]]: expanded the example list at [[twisted cohomology]] -- in particular added "cohomology with local coefficients" as a special case. Added to the very beginning of [[local system]] a paragraph on how strictly speaking local systems were meant to be such "local systems of coefficients".
 
-* [[Zoran ?koda]]: created [[smooth scheme]], [[flat morphism]], [[smooth morphism of schemes]], [[EGA IV]], [[locally affine space]], [[relativization in algebraic geometry]]. Notice that this is extending a series on regularity/smoothness/differential calculus in algebraic framework which included our earlier entries [[regular differential operator]], [[quasi-free dga]], [[formally smooth morphism]] and so on.
+* [[Zoran Škoda]]: created [[smooth scheme]], [[flat morphism]], [[smooth morphism of schemes]], [[EGA IV]], [[locally affine space]], [[relativization in algebraic geometry]]. Notice that this is extending a series on regularity/smoothness/differential calculus in algebraic framework which included our earlier entries [[regular differential operator]], [[quasi-free dga]], [[formally smooth morphism]] and so on.
   
   * John and Ramesh thank you for the nice detailed material on Lawvere reconstruction theorem, I'd suggest to create a separate lab entry [[Lawvere reconstruction theorem]] on it, moving the most of the material there (regarding the size and number of other reconstruction theorems waiting to be covered in detail the same way) with a link and short comment on the main [[reconstruction]] page.   
 
   * [[John Baez]]: that's fine --- go ahead and do it!  We can talk about all the reconstruction theorems on the [[reconstruction]] page, but put details on separate pages.  I'd been wanting to write a _book_ about reconstruction theorems, but this will either help me write it or help eliminate the need for doing so.
   
-  * [[Zoran ?koda]]: Done, now we have separate [[Lawvere's reconstruction theorem]] and a sentence on its content with the link at [[reconstruction theorem]].
+  * [[Zoran Škoda]]: Done, now we have separate [[Lawvere's reconstruction theorem]] and a sentence on its content with the link at [[reconstruction theorem]].
 
 * [[John Baez]] expanded [[reconstruction theorem]] by adding the example Lawvere theories.
 
@@ -893,7 +893,7 @@ Oh John, you gave me an opportunity for recalling some sweet memories: I clumsil
 
 * [[Urs Schreiber]] created [[Chevalley-Eilenberg cochain complex]]
 
-* [[Zoran ?koda]]: posted _[[jibladzeCoeffLargeCats.djvu:file]]_ and linked it to [[crossed profunctor]].  Urs, how the integration approach to diff. forms fits with existance of classes of smooth, $C^1$-only, $L^1$-integrable etc. differential forms and the currents ("differential form-valued distributions"), and it seems it puts n-forms on n-manifolds in special position, than say k-forms on n-manifolds. There is a subject of geometric integration theory where integrability is related to geometric properties like rectifiability (Federer); how this fits with that. And finally with differential forms on singular varieties. It seems to me that this approach has advantages and applicability in some cases, while the easy approach via dualizing vector fields to get 1-forms and then proceeding algebraically in others. One should maybe also compare to Lurie's usage of cotangent bundle in expressing an alternative approach to higher descent. 
+* [[Zoran Škoda]]: posted _[[jibladzeCoeffLargeCats.djvu:file]]_ and linked it to [[crossed profunctor]].  Urs, how the integration approach to diff. forms fits with existance of classes of smooth, $C^1$-only, $L^1$-integrable etc. differential forms and the currents ("differential form-valued distributions"), and it seems it puts n-forms on n-manifolds in special position, than say k-forms on n-manifolds. There is a subject of geometric integration theory where integrability is related to geometric properties like rectifiability (Federer); how this fits with that. And finally with differential forms on singular varieties. It seems to me that this approach has advantages and applicability in some cases, while the easy approach via dualizing vector fields to get 1-forms and then proceeding algebraically in others. One should maybe also compare to Lurie's usage of cotangent bundle in expressing an alternative approach to higher descent. 
 
   * [[Urs Schreiber]]: there are many aspects to this, but what I wrote lives in the entirely smooth context. The integration map is that from Reyes-Moerdijk section 4 , which integrates "synthetic" forms over "synthetic" simplices. Technique-wise this is really rather conservative, the only new twist to it is that I am saying: its helpful to arrange some objects that people consider in the synthetic context into cosimplicial objects, that reveals some nice underlying structure.
 
@@ -907,13 +907,13 @@ Oh John, you gave me an opportunity for recalling some sweet memories: I clumsil
 
      * I could move this to my private web. Let me know if you feel that would be better.
 
-* [[Zoran ?koda]]: created [[crossed profunctor]] (of crossed modules) and [[butterfly]] (papillon). First after M. Jibladze (1990) and second after B. Noohi (2005). I did not draw the diagram but wrote equations explicitly.
+* [[Zoran Škoda]]: created [[crossed profunctor]] (of crossed modules) and [[butterfly]] (papillon). First after M. Jibladze (1990) and second after B. Noohi (2005). I did not draw the diagram but wrote equations explicitly.
 
 * [[Eric]]:
 
   * Gleefully responded to John's gleeful response on [[directed graph]]. Note: I need to learn about this 'resolution' stuff.
 
-* [[Zoran ?koda]]: created [[reconstruction theorem]]. There should eventually be separate entries for each of the main classes and examples, which are listed in the main entry.
+* [[Zoran Škoda]]: created [[reconstruction theorem]]. There should eventually be separate entries for each of the main classes and examples, which are listed in the main entry.
 
   * [[John Baez]]: I love the idea of an article full of [[reconstruction theorems]]!  I contributed one, perhaps not quite the sort Zoran was thinking --- but I just happened to have it on hand, and I think with some work one can see that it's part of the big family of Tannaka--Krein-like results.  By the way, I took a course with Kazhdan in which he went through tons of Tannaka--Krein--like theorems, but I've been unable to find my notes from that course!  He started with a very primitive (and thus important) result saying something like this: any $k$-linear abelian category with a faithful functor to $FinVect_k$ is equivalent to the category of finite-dimensional representations of some coalgebra.  Does anyone know a reference to this sort of theorem?  It's crucial that we use _co_algebras here.
 
@@ -927,7 +927,7 @@ Oh John, you gave me an opportunity for recalling some sweet memories: I clumsil
 
   * created [[differential forms in synthetic differential geometry]] with two purposes: it reviews the definition found in the literature and then proposes a -- supposedly nicer -- reformulation
 
-* [[Zoran ?koda]]: added a query in [[compact object]]: the stated characterization of categories of $R$-modules is known at least about 3 decades before Ginzburg's lectures. Maybe we should look into classical sources.
+* [[Zoran Škoda]]: added a query in [[compact object]]: the stated characterization of categories of $R$-modules is known at least about 3 decades before Ginzburg's lectures. Maybe we should look into classical sources.
 
 * [[John Baez]]: 
 
@@ -966,3 +966,4 @@ Oh John, you gave me an opportunity for recalling some sweet memories: I clumsil
 ***
 
 category: meta
+
