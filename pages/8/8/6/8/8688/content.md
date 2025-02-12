@@ -158,7 +158,7 @@ Discussion of certain quantum R-matrices as universal [[quantum gates]] for [[to
 
 * [[Louis H. Kauffman]], [[Samuel J. Lomonaco]]: *Braiding Operators are Universal Quantum Gates*, New Journal of Physics **6** (2004) &lbrack;[doi:10.1088/1367-2630/6/1/134](https://iopscience.iop.org/article/10.1088/1367-2630/6/1/134), [arXiv:quant-ph/0401090](https://arxiv.org/abs/quant-ph/0401090)&rbrack;
 
-Classification of all unitary solutions in $dim=4$
+Classification of all unitary solutions in $dim=4$:
 
 * H. A. Dye: *Unitary Solutions to the Yang-Baxter Equation in Dimension Four*, Quantum Information Processing **2** (2003) (117-152) &lbrack;[arXiv:quant-ph/0211050](https://arxiv.org/abs/quant-ph/0211050), [doi:10.1023/A:1025843426102](https://doi.org/10.1023/A:1025843426102)&rbrack;
 
