@@ -515,7 +515,7 @@ $$
 =--
 
 
-**Remark** See the discussion at [[?ech cohomology]] for 
+**Remark** See the discussion at [[Čech cohomology]] for 
 the  role of [[hypercompletion]].
 
 
