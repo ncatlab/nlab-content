@@ -817,9 +817,9 @@ but examples of the concept are older. A discussion from the point of view of [[
 
 A characterization of those $C^\infty$-rings that are algebras of smooth functions on some [[smooth manifold]] is given in 
 
-* [[Peter Michor]], [[Jiri Vanzura]], _Characterizing algebras of $C^\infty$-functions on manifolds_ ([pdf](http://www.emis.de/journals/CMUC/pdf/cmuc9603/michor.pdf))
+* [[Peter Michor]], [[Jiří Vanžura]]: *Characterizing algebras of $C^\infty$-functions on manifolds*, Comment. Math. Univ. Carolin. **37** 3 (1996) 519–521
+&lbrack;[arXiv:math/9404228](https://arxiv.org/abs/math/9404228), [eudml:247941](https://eudml.org/doc/247941), [pdf](http://www.emis.de/journals/CMUC/pdf/cmuc9603/michor.pdf)&rbrack;
 
-Lawvere's ideas were later developed by [[Eduardo Dubuc]], [[Anders Kock]], [[Ieke Moerdijk]], [[Gonzalo Reyes]], and [[Gavin Wraith]]. 
 
 Studies of the properties of $C^\infty$-rings include 
 
