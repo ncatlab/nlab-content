@@ -20,7 +20,7 @@ The substantive content of this page should **not** be altered.
 
 * [[Ronnie Brown]]: Added  in [[connection on cubical sets]] a reference to a recent preprint of Maltsiniotis showing that cubical sets with connections form a _strict test category in the sense of Grothendieck_, thus correcting a well known disadvantage of cubical sets in comparison with simplicial sets.  
 
-* [[Zoran ?koda]]: added a version (in my understanding) of main definitions in [[almost scheme]] and made a longer heuristical quote from Gabber-Romero Introduction chapter. Created stub [[Catégories Tannakiennes]] about the Deligne's seminal paper and [[Des catégories abéliennes]] about Pierre Gabriel's thesis.
+* [[Zoran Škoda]]: added a version (in my understanding) of main definitions in [[almost scheme]] and made a longer heuristical quote from Gabber-Romero Introduction chapter. Created stub [[Catégories Tannakiennes]] about the Deligne's seminal paper and [[Des catégories abéliennes]] about Pierre Gabriel's thesis.
 
 * [[Urs Schreiber]]
 
@@ -55,7 +55,7 @@ The substantive content of this page should **not** be altered.
 
 *  [[Toby Bartels]]:  More discussion at [[Grothendieck group]] and [[(infinity,1)-categorical hom-space]].
 
-* [[Zoran ?koda]]: It looks correctly to me (I do not recall what wording I wrote and it looks like reading my mind). Bt it is late night and I should reread the whle entry rested at the day time. I created a stub version of [[schematic algebras]] (with references) and linked it at [[noncommutative algebraic geometry]]. It would be nice to have for comparison a more thorough entry on Gabber's notion of [[almost schemes]] (just created unfinished entry) in commutative geometry, but the reflective localizations are used to define 'exotic' affines to start with. Gabber-Lorenzo's book is an egregious sample of how a modern algebraic geometer of Grothendieck's school develops the theory of schemes and in a way it is a build ground-up with requiring sofistication level, but not many concrete details from the usual theory of schemes.  
+* [[Zoran Škoda]]: It looks correctly to me (I do not recall what wording I wrote and it looks like reading my mind). Bt it is late night and I should reread the whle entry rested at the day time. I created a stub version of [[schematic algebras]] (with references) and linked it at [[noncommutative algebraic geometry]]. It would be nice to have for comparison a more thorough entry on Gabber's notion of [[almost schemes]] (just created unfinished entry) in commutative geometry, but the reflective localizations are used to define 'exotic' affines to start with. Gabber-Lorenzo's book is an egregious sample of how a modern algebraic geometer of Grothendieck's school develops the theory of schemes and in a way it is a build ground-up with requiring sofistication level, but not many concrete details from the usual theory of schemes.  
 
 *  [[Toby Bartels]]:  Please check that I rephrased the definition correctly at [[noncommutative scheme]].  The original formulation did not make sense to me, but I think that I understood what was meant.
 
@@ -65,7 +65,7 @@ The substantive content of this page should **not** be altered.
 
   * have to think about the question at [[category with weak equivalences]] (which in any case shows that I phrased the sentence too carelessly)
 
-* [[Zoran ?koda]]: created first draft of [[noncommutative scheme]] (after Rosenberg), and plan in few minutes to start [[schematic algebra]] (after van Oystaeyen). Somebody should also add [[noncommutative projective geometry]] (after Artin and Zhang). It is a pity that only few of the most stubborn contributors use summer to add new material...
+* [[Zoran Škoda]]: created first draft of [[noncommutative scheme]] (after Rosenberg), and plan in few minutes to start [[schematic algebra]] (after van Oystaeyen). Somebody should also add [[noncommutative projective geometry]] (after Artin and Zhang). It is a pity that only few of the most stubborn contributors use summer to add new material...
 
 * [[Urs Schreiber]] added some clauses to [[Grothendieck group]] and have some comments in a query box: I am thinking what the entry tries to define should be discussed at [[algebraic K-theory]] while "Grothendieck group" should be the definition of a group structure on $A \times A$ for a monoid $A$
 
@@ -77,12 +77,12 @@ The substantive content of this page should **not** be altered.
    *  Added a bit to [[free object]] (yes, that bit).
    *  It\'s clear that the Grothendieck ring of a braided monoidal abelian category is commutative, so I rewrote the question at [[Grothendieck ring]].
 
-* [[Zoran ?koda]]: Created [[cop]] (it should have been maybe created by the police department). 
+* [[Zoran Škoda]]: Created [[cop]] (it should have been maybe created by the police department). 
 I thank people from Indiana math dept who discussed with me in Fall 2002 when I was searching for the appropriate name and discuraged me from using "mud" for that amorphous structure. BTW, does anybody know what to do on W XP when you loose permanently language bar ?
 
 * [[John Baez]]: created [[representation ring]], [[Grothendieck group]], [[Grothendieck ring]], and [[symmetric function]].  Tidied up [[lambda-ring]] a little, but not enough.
 
-* [[Zoran ?koda]]: Created [[coderivation]] and a new paragraph in [[derivation]].
+* [[Zoran Škoda]]: Created [[coderivation]] and a new paragraph in [[derivation]].
 
 * [[Urs Schreiber]]
 
@@ -130,13 +130,13 @@ I thank people from Indiana math dept who discussed with me in Fall 2002 when I 
 
 *  [[Rafael Borowiecki]] has figured out how categories are spaces at [[category theory]].  (I don\'t think that Rafael reads this page, so copy comments there.)
 
-* [[Zoran ?koda]]: I have made changes to [[noncommutative algebraic geometry]]. Le Bruyn has kindly added a lot of material with ring-theoretic flavour (mainly references) and placed my unfinished text below his comment part. I have integrated his and my part, more chronologically and balancing categorical and ring-theoretic aspects; role of cyclic homology and many other directions (e.g. 30 years old subject of D-schemes of Beilinson) are missing. I would kindly invite Le Bruyn to write an adiditional separate entry on noncommutative projective geometry of Artin/Zhang flavour (I am not competent) as well on geometry at n, he is expert on. Quantum group aspects are planned to appear in entry [[equivariant noncommutative algebraic geometry]] which I just started. 
+* [[Zoran Škoda]]: I have made changes to [[noncommutative algebraic geometry]]. Le Bruyn has kindly added a lot of material with ring-theoretic flavour (mainly references) and placed my unfinished text below his comment part. I have integrated his and my part, more chronologically and balancing categorical and ring-theoretic aspects; role of cyclic homology and many other directions (e.g. 30 years old subject of D-schemes of Beilinson) are missing. I would kindly invite Le Bruyn to write an adiditional separate entry on noncommutative projective geometry of Artin/Zhang flavour (I am not competent) as well on geometry at n, he is expert on. Quantum group aspects are planned to appear in entry [[equivariant noncommutative algebraic geometry]] which I just started. 
 
 * [[Urs Schreiber]]
 
   * created a stub for [[Ehresmann connection]]
 
-* [[Zoran ?koda]]: created [[formally smooth morphism]], [[quasi-free algebra]], [[universal differential envelope]], [[Kähler differential]].
+* [[Zoran Škoda]]: created [[formally smooth morphism]], [[quasi-free algebra]], [[universal differential envelope]], [[Kähler differential]].
 
 *  [[Toby Bartels]]
    *  Rewrote [[k-surjective functor]] a bit to give the non-evil ('essential') version equal time.
@@ -235,7 +235,7 @@ I thank people from Indiana math dept who discussed with me in Fall 2002 when I 
 
   * added the links to both versions of David Spivak's work at [[derived smooth manifold]], [[structured generalized space]] and [[geometry (for structured (infinity,1)-toposes)]]
 
-* [[Zoran ?koda]]: created [[heap]], [[quantum heap]]. 
+* [[Zoran Škoda]]: created [[heap]], [[quantum heap]]. 
 
 * [[Urs Schreiber]]
 
@@ -404,7 +404,7 @@ I thank people from Indiana math dept who discussed with me in Fall 2002 when I 
 
 * [[Ben Webster]] created [[Hecke algebra]]
 
-* [[Zoran ?koda]]: created [[Dunkl operator]], [[double derivation]]; it is a start of a series which should include entries on Cherednik algebras, Knizhnik-Zamolodchikov connection, Calogero-Moser system, Gauss-Manin connection, Calogero-Moser space, deformed preprojective algebras and so on...
+* [[Zoran Škoda]]: created [[Dunkl operator]], [[double derivation]]; it is a start of a series which should include entries on Cherednik algebras, Knizhnik-Zamolodchikov connection, Calogero-Moser system, Gauss-Manin connection, Calogero-Moser space, deformed preprojective algebras and so on...
 
 * [[Urs Schreiber]]: 
 
@@ -548,7 +548,7 @@ I thank people from Indiana math dept who discussed with me in Fall 2002 when I 
 
     * [[Eric]]: I gave my answer at [[An Exercise in Kantization]] so that it will not get lost here.
 
-* [[Zoran ?koda]]: Thank you Toby, your new clarifications in [[essential image]] and [[replete subcategory]] are pretty helpful and clear, and I agree with them. Still I would like to think of more clean scheme of thinking of various kinds of images internally, in connection to various kinds of factorization systems and even multistep factorizations like Postnikov systems. There is probably a framework where, despite the differences all the kinds of images including [[homotopy image]] belong. The crucial is choice of a sort of factorization system: a variety of an image is basically the second morphism in the factorization (or less precisely its domain). In higher categories sometimes multistep factorizations systems are interesting, like Postnikov towers in topology. This way it may satisfy the point of view of Urs, who was IMHO not precise at the beginning but eventually pointed in the right general direction, and the reference of Barwick which he found seems to be really useful.  
+* [[Zoran Škoda]]: Thank you Toby, your new clarifications in [[essential image]] and [[replete subcategory]] are pretty helpful and clear, and I agree with them. Still I would like to think of more clean scheme of thinking of various kinds of images internally, in connection to various kinds of factorization systems and even multistep factorizations like Postnikov systems. There is probably a framework where, despite the differences all the kinds of images including [[homotopy image]] belong. The crucial is choice of a sort of factorization system: a variety of an image is basically the second morphism in the factorization (or less precisely its domain). In higher categories sometimes multistep factorizations systems are interesting, like Postnikov towers in topology. This way it may satisfy the point of view of Urs, who was IMHO not precise at the beginning but eventually pointed in the right general direction, and the reference of Barwick which he found seems to be really useful.  
 
 *  [[Toby Bartels]]:
    *  Tried to explain what sort of evil I meant at [[essential image]].
@@ -588,7 +588,7 @@ I thank people from Indiana math dept who discussed with me in Fall 2002 when I 
 
   * added to [[(infinity,n)-category]] the reference to Lurie's "Goodwillie"-article and a few remarks on some pertinent definitions there
 
-* [[Zoran ?koda]]: I actually do not think that Toby's correction to [[essential image]] is correct. I mean that essential image is removing evil from image. No, [[image]] SUBcategory is just a specific and unique internal (subcategory in narrow sense) CHOICE of the (external) image of the functor within Cat as a category. Essential image subcategory is just a specific and unique choice of the bicategorical image of the functor considered as a 2-functor within Cat as a bicategory. The same with higher version. The homotopy image which Urs looks is just about image in external sense and not about the internal choice of which subset of k-cells for every k is chosen. Making a replete choice of subcategory is like taking a maximal atlas of a manifold to remove nonuniquness in the class of all atlases - so in a sense it is a maximal choice with respect to the target; the usual image of a functor is more calculated with respect to the domain of the functor. In bicategory Cat the two are equivalent; in category Cat they are not isomorphic.  
+* [[Zoran Škoda]]: I actually do not think that Toby's correction to [[essential image]] is correct. I mean that essential image is removing evil from image. No, [[image]] SUBcategory is just a specific and unique internal (subcategory in narrow sense) CHOICE of the (external) image of the functor within Cat as a category. Essential image subcategory is just a specific and unique choice of the bicategorical image of the functor considered as a 2-functor within Cat as a bicategory. The same with higher version. The homotopy image which Urs looks is just about image in external sense and not about the internal choice of which subset of k-cells for every k is chosen. Making a replete choice of subcategory is like taking a maximal atlas of a manifold to remove nonuniquness in the class of all atlases - so in a sense it is a maximal choice with respect to the target; the usual image of a functor is more calculated with respect to the domain of the functor. In bicategory Cat the two are equivalent; in category Cat they are not isomorphic.  
 
   * [[Urs Schreiber]]: I am not sure I know what you mean by external vs internal. But I supppose one point you are making is that an _essential image_ is/should be defined only up to the relevant notion of equivalence. Do you mean by "external" a characterization of essential image by a universal property, whereas by "internal" you mean a concrete representative of that (unique only up to equivalence)? 
 
@@ -685,7 +685,7 @@ I thank people from Indiana math dept who discussed with me in Fall 2002 when I 
 
 * [[Eric]]: Installed Cygwin so that I could convert Dugger's _Sheaves and Homotopy Theory_ from dvi to pdf. I uploaded the pdf to the nLab and added links to all references to the paper.
 
-* [[Zoran ?koda]]: created [[comonad]], added more on [[connection for coring]] and [[semifree dga]]. I think David'd confusion might be genuine: not to call with dash or not, that is easy question of exact synonyms, but rather how to cleanly separate DIFFERENT but similar notions of say biadjunction and pseudoadjunction; setups in which they appear: strict and nonstrict 2-categories and Gray categories; and kinds of (pseudo/2)-monads they induce...to mention a few. The Memoirs booklet by Tom Fiore and some papers by Lack, Marmolejo, Vitale, Kelly...may be useful to compare and decide in this regard. 
+* [[Zoran Škoda]]: created [[comonad]], added more on [[connection for coring]] and [[semifree dga]]. I think David'd confusion might be genuine: not to call with dash or not, that is easy question of exact synonyms, but rather how to cleanly separate DIFFERENT but similar notions of say biadjunction and pseudoadjunction; setups in which they appear: strict and nonstrict 2-categories and Gray categories; and kinds of (pseudo/2)-monads they induce...to mention a few. The Memoirs booklet by Tom Fiore and some papers by Lack, Marmolejo, Vitale, Kelly...may be useful to compare and decide in this regard. 
 
 * [[David Corfield]]: Added a comment at [[free cocompletion]], which got me looking for "pseudoadjunction".
 I would trigger a new page for it, but don't know optimal naming conventions.
@@ -879,7 +879,7 @@ I would trigger a new page for it, but don't know optimal naming conventions.
 
     * in the course of that created [[paracompact space]].
 
-* [[Zoran ?koda]]: created [[Euler number]] (including Euler polynomial(s)) and expanded [[Legendre polynomial]]. Wasted part of the day browsing programming manuals about Ruby...interesting. Maybe something prompts me to be doing something about it :) 
+* [[Zoran Škoda]]: created [[Euler number]] (including Euler polynomial(s)) and expanded [[Legendre polynomial]]. Wasted part of the day browsing programming manuals about Ruby...interesting. Maybe something prompts me to be doing something about it :) 
 
 * [[Urs Schreiber]]: created [[Karoubi K-theory]]
 
@@ -906,7 +906,7 @@ I would trigger a new page for it, but don't know optimal naming conventions.
    *  Fixed links at [[Timeline of category theory and related mathematics]] until I finally got tired (through 1969).
       *  Then had to deal with the agonisngly slow server while I checked this.
       *  And finally took a whole *hour* just to get access to this page so I could report on what I did ---nothing else!
-   *  Having a discussion with [[Zoran ?koda]] about transliteration at [[M M Postnikov]].
+   *  Having a discussion with [[Zoran Škoda]] about transliteration at [[M M Postnikov]].
    *  Removed the redirect from [[Cauchy colimit]] to [[Cauchy complete category]] on the grounds that they are not actually discussed there.
       *  Restored the link from [[direct sum]] accordingly (but maybe it should not link there?).
       *  Changed the example at [[redirect]] accordingly.
@@ -920,7 +920,7 @@ I would trigger a new page for it, but don't know optimal naming conventions.
 
   * created [[gauge theory]] but only in order to create [[electromagnetism]]
 
-* [[Zoran ?koda]]: created [[Otto Schreier]] and made some corrections and additions to [[Timeline of category theory and related mathematics|timeline]]. Many attributions give too late dates, e.g. [[Vladimir Voevodsky]]'s motives dated to 2000, while 1st versions emerged already around 1995-1996. When I saw his 1996 paper Homology of schemes in 1996 I immediately after reading about a page said to myself this is a Fields medal (and it was only in 2002 to my surprise); his preprint on K-theory arXiv on the solution of Milnor conjecture which was in that circle of methods is 1995 or 1996 as well. Note the usage of some concepts of homological algebra by Cayley before Hilbert.
+* [[Zoran Škoda]]: created [[Otto Schreier]] and made some corrections and additions to [[Timeline of category theory and related mathematics|timeline]]. Many attributions give too late dates, e.g. [[Vladimir Voevodsky]]'s motives dated to 2000, while 1st versions emerged already around 1995-1996. When I saw his 1996 paper Homology of schemes in 1996 I immediately after reading about a page said to myself this is a Fields medal (and it was only in 2002 to my surprise); his preprint on K-theory arXiv on the solution of Milnor conjecture which was in that circle of methods is 1995 or 1996 as well. Note the usage of some concepts of homological algebra by Cayley before Hilbert.
 
 * [[Urs Schreiber]]:
 
@@ -928,7 +928,7 @@ I would trigger a new page for it, but don't know optimal naming conventions.
 
   * added some links to new entries to the link list at [[Higher Topos Theory]]
 
-* [[Zoran ?koda]]: created [[scheme]], [[Nikolai Durov]], [[model stack]], [[pseudomodel stack]]. For timeline enthusiasts, I noticed that there is a big overlap (and some disagreements) with knowledgeable 40-page article
+* [[Zoran Škoda]]: created [[scheme]], [[Nikolai Durov]], [[model stack]], [[pseudomodel stack]]. For timeline enthusiasts, I noticed that there is a big overlap (and some disagreements) with knowledgeable 40-page article
    
    * Charles Weibel, [A history of homological algebra](http://www.math.rutgers.edu/~weibel/HA-history.dvi)
 
@@ -984,7 +984,7 @@ Discussion is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.p
 
 *  [[Toby Bartels]]:  Added some illustrations to [[simplicial set]], based on those at [[cubical set]], as requested by an [[InterestedAnonymousCoward]].
 
-* [[Zoran ?koda]] created [[microbundle]]. Note that classical references do not mention morphisms, just isomorphisms or equivalences of microbundles. Did anybody notice my update downstairs on the issue of export_html (answer to Urs/Toby answers) ? I suggested that once a week an export_html be posted as a file to be downloaded which is not up-to-date with a warning, as I think (maybe I should be corrected) that Jacques stopped serving export_html because of long generation/compilation time, while static file and new cimpilation once a week will do less harm. And leave generation of export_markup as it is, up-to-date. 
+* [[Zoran Škoda]] created [[microbundle]]. Note that classical references do not mention morphisms, just isomorphisms or equivalences of microbundles. Did anybody notice my update downstairs on the issue of export_html (answer to Urs/Toby answers) ? I suggested that once a week an export_html be posted as a file to be downloaded which is not up-to-date with a warning, as I think (maybe I should be corrected) that Jacques stopped serving export_html because of long generation/compilation time, while static file and new cimpilation once a week will do less harm. And leave generation of export_markup as it is, up-to-date. 
 
 
 ## 2009-07-11
@@ -1011,9 +1011,9 @@ Discussion is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.p
 
   * created [[combinatorial model category]]
 
-* [[Tim]]: I have started to reorganise some of the entries on Cech methods since David has started on [[homotopy (as an operation)]] and had an idea about [[Cech homotopy]].  I have encorporated a point made by [[Zoran ?koda|Zoran]] about the history of [[Cech methods]].
+* [[Tim]]: I have started to reorganise some of the entries on Cech methods since David has started on [[homotopy (as an operation)]] and had an idea about [[Cech homotopy]].  I have encorporated a point made by [[Zoran Škoda|Zoran]] about the history of [[Cech methods]].
 
-* [[Zoran ?koda]]: created a version (to be expanded) of [[Legendre polynomial]] and [[M M Postnikov]] and added references to [[Postnikov system]]. I think historically tower and system differed by inclusion of universal cohomological class representing the fibration into the notion of system (cf. Whitehead's big book, ch.9). This should be still noted: if one does not specify the cohomological class this is I think like missing the choice of isomorphism when the isomorphism exists. Technical issues: I encountered a problem that sqrt{fraction} puts sqrt only such that the numerator is under the root. I do not know how one should write correctly. Toby thank you for the tip for getting the SOURCE of old versions. I sometimes write some items partly motivated by need to have them for my students, and plan to incorporate something close to my version into student scripta. You are very knowledgable about wiki world. :) I was also trying to take the export of the whole nlab and succeeded to get the markupML version but not html: when asking nlab/export_html i get 403 FORBIDDEN message in my browser. 
+* [[Zoran Škoda]]: created a version (to be expanded) of [[Legendre polynomial]] and [[M M Postnikov]] and added references to [[Postnikov system]]. I think historically tower and system differed by inclusion of universal cohomological class representing the fibration into the notion of system (cf. Whitehead's big book, ch.9). This should be still noted: if one does not specify the cohomological class this is I think like missing the choice of isomorphism when the isomorphism exists. Technical issues: I encountered a problem that sqrt{fraction} puts sqrt only such that the numerator is under the root. I do not know how one should write correctly. Toby thank you for the tip for getting the SOURCE of old versions. I sometimes write some items partly motivated by need to have them for my students, and plan to incorporate something close to my version into student scripta. You are very knowledgable about wiki world. :) I was also trying to take the export of the whole nlab and succeeded to get the markupML version but not html: when asking nlab/export_html i get 403 FORBIDDEN message in my browser. 
 
   * [[Urs Schreiber]]: I also get this error message when trying to export the $n$Lab as html -- I remember the html export was particularly heavy on the server and maybe it was truned off in view of the server being a bit weak -- we are trying to move to a better host eventually
 
@@ -1048,7 +1048,7 @@ Discussion is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.p
 
 ## 2009-07-09
 
-* [[Zoran ?koda|Zoran ?k]]oda: but the plurals are NOT there -- if I write <nowiki>[[apple]]s</nowiki> I did not use the code for plural. Let me clear the issue (I will write round brackets): Eric is doing TWO things 1) he is taking entry ((apple)) and adding the redirection instruction inside to allow for ((apples)). This creates one new version, not too bad, you consider this robust, I can tolerate it. 2) he is changing every occurence of my reference ((apple))s which used to be correct usage from within entries ((banana)), ((pear)), ((ananas)) and ((strawberry)) to new format ((apples)). This amounts to not allowing me to use legitimate ((apple))s from within ((bananas)). This second thing, unlike the first, I can not tolerate, as it has no rational explanation. I do not know if it is [[evil|good :)) ]].  
+* [[Zoran Škoda|Zoran ?k]]oda: but the plurals are NOT there -- if I write <nowiki>[[apple]]s</nowiki> I did not use the code for plural. Let me clear the issue (I will write round brackets): Eric is doing TWO things 1) he is taking entry ((apple)) and adding the redirection instruction inside to allow for ((apples)). This creates one new version, not too bad, you consider this robust, I can tolerate it. 2) he is changing every occurence of my reference ((apple))s which used to be correct usage from within entries ((banana)), ((pear)), ((ananas)) and ((strawberry)) to new format ((apples)). This amounts to not allowing me to use legitimate ((apple))s from within ((bananas)). This second thing, unlike the first, I can not tolerate, as it has no rational explanation. I do not know if it is [[evil|good :)) ]].  
 
   * [[Eric]]: The fact that many items appear as <nowiki>[[apple]]s</nowiki> on the nLab is an artifact of the period prior to having redirects. Prior to having redirects, we'd have to write that as <nowiki>[[apple|apples]]</nowiki> to get it to render correctly which gets old after a while, so people naturally gravitated to the easier <nowiki>[[apple]]s</nowiki>. If we'd had redirects from the beginning, there would be a redirect at <nowiki>[[apple]]</nowiki> for <nowiki>[[apples]]</nowiki> and no one in their right mind would ever write <nowiki>[[apple]]s</nowiki> again (which is distracting to look at) if they could just write <nowiki>[[apples]]</nowiki> instead. I'm at a total loss as to why you oppose this. Currently, I am trying to reverse the damage so that we can make things cleaner from here. Whenever, I see "]]s", I instinctively change this to "s]]" and add a redirect if it doesn't exist. In time, this should work itself out and we should have plural redirects for most links that are commonly used. It would work itself even faster if people stopped writing "]]s" and used the plural link form instead.
 
@@ -1107,7 +1107,7 @@ Discussion is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.p
 
   * pasted a blog comment by [[David Ben-Zvi]] into [[n-categorical physics]]
 
-*  [[Zoran ?koda]]: created [[essential image]], added n-category generalization to [[replete subcategory]], additions to [[image]], [[model structure on chain complexes]], remark due Leinster to [[Gray-category]]; created [[matching family]] following mainly conventions in MacLane-Moerdijk. This last item surely overlaps with [[sheafification]] but the approach and exposition is rather different; created micro-entry [[maximal sieve]].  
+*  [[Zoran Škoda]]: created [[essential image]], added n-category generalization to [[replete subcategory]], additions to [[image]], [[model structure on chain complexes]], remark due Leinster to [[Gray-category]]; created [[matching family]] following mainly conventions in MacLane-Moerdijk. This last item surely overlaps with [[sheafification]] but the approach and exposition is rather different; created micro-entry [[maximal sieve]].  
 
 
 ## 2009-07-07
@@ -1165,7 +1165,7 @@ Discussion is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.p
 
   * provided explicit details at [[Cech cohomology]] for the general (nonabelian) case in low degree
 
-* [[Zoran ?koda]]: created [[small fibration]], added more general discussion on [[endomorphism monoids]]. 
+* [[Zoran Škoda]]: created [[small fibration]], added more general discussion on [[endomorphism monoids]]. 
 
 * [[Urs Schreiber|Urs]] created [[Cech cohomology]]
 
@@ -1251,7 +1251,7 @@ Discussion is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.p
 
     Evidently i shouldn't be discussing this here but in some entry. But it's time for me to go to bed now.
 
-* [[Zoran ?koda]] created [[grouplike element]]. It contains few words on Amitsur complex for a coring with a (semi-)grouplike. The aim is to soon (using the setup) introduce entries for connections for corings; and then correpsondence between falt connections and descent data in the comonadic and coring setups (after Menini et al; all coming back to the example which is the correspondence between 1-order costratifications and flat connections in the crystalline setup due Grothendieck). 
+* [[Zoran Škoda]] created [[grouplike element]]. It contains few words on Amitsur complex for a coring with a (semi-)grouplike. The aim is to soon (using the setup) introduce entries for connections for corings; and then correpsondence between falt connections and descent data in the comonadic and coring setups (after Menini et al; all coming back to the example which is the correspondence between 1-order costratifications and flat connections in the crystalline setup due Grothendieck). 
 
 * [[Urs Schreiber|Urs]]
 
@@ -1259,7 +1259,7 @@ Discussion is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.p
 
     * in that context created [[model structure on presheaves of simplicial groupoids]]
 
-* [[Zoran ?koda]] created [[coseparable coring]],[[Sweedler coring]], [[two dimensional sheaf theory]]; expanded [[stratifold]] (which was empty, but existing!), added a reference to [[fibration in a 2-category]] and somewhere else. I think that in K-theory delooping has a bit different multiple meanings which are related but are more procedures making from something what can not be delooped strictly in the sense of [[delooping]] to the delooping of something what is the best approximation of deloopable; there are procedures due to Quillen, Waldhausen, Karoubi etc. 
+* [[Zoran Škoda]] created [[coseparable coring]],[[Sweedler coring]], [[two dimensional sheaf theory]]; expanded [[stratifold]] (which was empty, but existing!), added a reference to [[fibration in a 2-category]] and somewhere else. I think that in K-theory delooping has a bit different multiple meanings which are related but are more procedures making from something what can not be delooped strictly in the sense of [[delooping]] to the delooping of something what is the best approximation of deloopable; there are procedures due to Quillen, Waldhausen, Karoubi etc. 
 
   * [[Urs Schreiber|Urs]]: the entry on [[two dimensional sheaf theory]] is motivated from some behind-the-scenes discussion Zoran and I are having -- Zoran rightly points out that the present characterization of [[derived stack]] may be wanting, as strictly speaking saying "derived stack" should be related to but not be regarded as equivalent to "higher stack on higher categorical site" -- what we really need eventually is more details on the To&#235;n-Vezzosi [work](http://www.math.uiuc.edu/K-theory/0579/) on higher topos theory in the context of SSet-enriched categories, 
 
@@ -1313,3 +1313,4 @@ Discussion is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.p
 ***
 
 category: meta
+
