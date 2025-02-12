@@ -61,9 +61,8 @@ and in condensates *of* non-defect anyons:
 
 On analog behaviour in liquid crystals:
 
-* Alexander Mietke, Jörn Dunkel: *Anyonic defect braiding and spontaneous chiral symmetry breaking in dihedral liquid crystals* \[<a href="https://arxiv.org/abs/2011.04648">arXiv:2011.04648</a>\]
+* Alexander Mietke, Jörn Dunkel: *Anyonic defect braiding and spontaneous chiral symmetry breaking in dihedral liquid crystals*, Phys. Rev. X **12** (2022) 011027  \[<a href="https://arxiv.org/abs/2011.04648">arXiv:2011.04648</a>, [doi:10.1103/PhysRevX.12.011027](https://doi.org/10.1103/PhysRevX.12.011027)\]
 
- 
 
 
 See also [Ahn, Park & Yang 19](anyon#AhnParkYang19) who refer to the band nodes in the [[Brillouin torus]] of a  [[semi-metal]] as "vortices in momentum space".
