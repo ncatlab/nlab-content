@@ -221,6 +221,15 @@ Review and survey:
 
 * [[Muhammad Ilyas]], *Quantum Field Theories, Topological Materials, and Topological Quantum Computing* &lbrack;[arXiv:2208.09707](https://arxiv.org/abs/2208.09707)&rbrack;
 
+In view of (fabrication of) [[quantum materials]]:
+
+* Kang L. Wang, Yingying Wu, Christopher Eckberg, Gen Yin, Quanjun Pan: *Topological quantum materials*, MRS Bulletin **45** (2020) 373–379 &lbrack;[doi:10.1557/mrs.2020.122](https://doi.org/10.1557/mrs.2020.122)&rbrack;
+
+* Nitesh Kumar, Satya N. Guin, Kaustuv, Manna, Chandra Shekhar, Claudia Felser: *Topological Quantum Materials from the Viewpoint of Chemistry*, Chemical Reviews **121** 5 (2020) &lbrack;[doi:10.1021/acs.chemrev.0c00732](https://pubs.acs.org/doi/full/10.1021/acs.chemrev.0c00732)&rbrack;
+
+
+* Junjie Wu, Ying Zhang, Bin Xiang: *Synthesis, properties, and applications of topological quantum materials*, JUSTC **53** 10 (2023) 1002 &lbrack;[doi:10.52396/JUSTC-2023-0024](https://doi.org/10.52396/JUSTC-2023-0024)&rbrack;
+
 
 Discussion with emphasis of the role of [[quantum anomalies]]:
 
