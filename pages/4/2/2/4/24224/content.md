@@ -27,7 +27,7 @@ See also [Philosophy](#Philosophy), below.
 
 * _Calculating the fundamental group of the circle in homotopy type theory_. [[Dan Licata]] and [[Michael Shulman]], LICS 2013, available [here](http://www.cs.cmu.edu/~drl/pubs.html) and on [arXiv](http://arxiv.org/abs/1301.3443)
 * _$\pi_n(S^n)$ in Homotopy Type Theory_, [[Dan Licata]] and [[Guillaume Brunerie]], Invited Paper, CPP 2013, [PDF](http://dlicata.web.wesleyan.edu/pubs/lb13cpp/lb13cpp.pdf)
-* _Homotopy limits in type theory_. [[Jeremy Avigad]], [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], Math. Structures Comput. Sci. 25 (2015), no. 5, 1040?1070. [arXiv](http://arxiv.org/abs/1304.0680)
+* _Homotopy limits in type theory_. [[Jeremy Avigad]], [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], Math. Structures Comput. Sci. 25 (2015), no. 5, 1040-1070. [arXiv](http://arxiv.org/abs/1304.0680)
 * _[[Eilenberg-MacLane Spaces in Homotopy Type Theory]]_. [[Dan Licata]] and [[Eric Finster]], LICS 2014, [PDF](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf) and [code](https://github.com/dlicata335/hott-agda/blob/master/homotopy/KGn.agda)
 * _[[A Cubical Approach to Synthetic Homotopy Theory]]_.  [[Dan Licata]] and [[Guillaume Brunerie]], LICS 2015, [PDF](http://dlicata.web.wesleyan.edu/pubs/lb15cubicalsynth/lb15cubicalsynth.pdf)
 * _Synthetic Cohomology in Homotopy Type Theory_, [[Evan Cavallo]], [PDF](http://www.cs.cmu.edu/~rwh/theses/cavallo.pdf)
@@ -46,14 +46,14 @@ See also [Philosophy](#Philosophy), below.
 
 ## Higher category theory
 
-* _[[Univalent categories and the Rezk completion]]_. [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], Math. Structures Comput. Sci. 25 (2015), no. 5, 1010?1039. [arXiv:1303.0584](http://arxiv.org/abs/1303.0584) (on _[[nLab:internal categories in HoTT]]_)
+* _[[Univalent categories and the Rezk completion]]_. [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], Math. Structures Comput. Sci. 25 (2015), no. 5, 1010-1039. [arXiv:1303.0584](http://arxiv.org/abs/1303.0584) (on _[[nLab:internal categories in HoTT]]_)
 * _A type theory for synthetic $\infty$-categories_. [[Emily Riehl]], [[Michael Shulman]]. [arxiv](https://arxiv.org/abs/1705.07442), 2017
 * _Univalent Higher Categories via Complete Semi-Segal Types_.  [[Paolo Capriotti]], [[Nicolai Kraus]], [arxiv](https://arxiv.org/abs/1707.03693), 2017
 * _Bicategories in Univalent Foundations_, [[Benedikt Ahrens]], [[Dan Frumin]], [[Marco Maggesi]], [[Niels van der Weide]], [arXiv:1903.01152](https://arxiv.org/abs/1903.01152)
 
 ##Homotopical ideas and truncations in type theory##
 
-* _Generalizations of Hedberg?s Theorem_. [[Nicolai Kraus]], [[Martín Escardó]], [[Thierry Coquand]], and [[Thorsten Altenkirch]]. TLCA 2013, [pdf](http://www.cs.bham.ac.uk/~mhe/papers/hedberg.pdf)
+* _Generalizations of Hedberg's Theorem_. [[Nicolai Kraus]], [[Martín Escardó]], [[Thierry Coquand]], and [[Thorsten Altenkirch]]. TLCA 2013, [pdf](http://www.cs.bham.ac.uk/~mhe/papers/hedberg.pdf)
 * _Notions of anonymous existence in Martin-Lof type theory_.  [[Nicolai Kraus]], [[Martín Escardó]], [[Thierry Coquand]], and [[Thorsten Altenkirch]]. [pdf](http://www.cs.nott.ac.uk/~txa/publ/jhedberg.pdf)
 * _Idempotents in intensional type theory_.  [[Michael Shulman]], [arXiv](http://arxiv.org/abs/1507.03634)
 * _Functions out of Higher Truncations_.  [[Paolo Capriotti]], [[Nicolai Kraus]], and [[Andrea Vezzosi]]. CSL 2015 [arxiv](http://arxiv.org/abs/1507.01150)
@@ -62,13 +62,13 @@ See also [Philosophy](#Philosophy), below.
 
 ##General models##
 
-* [_The groupoid interpretation of type theory._](http://homotopytypetheory.org/references/hofmann-streicher-the-groupoid-interpretation-of-type-theory/) [[Thomas Streicher]] and [[Martin Hofmann]], in Sambin (ed.) et al., Twenty-five years of constructive type theory. Proceedings of a congress, Venice, Italy, October 19?21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998). [PostScript](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz)
+* [_The groupoid interpretation of type theory._](http://homotopytypetheory.org/references/hofmann-streicher-the-groupoid-interpretation-of-type-theory/) [[Thomas Streicher]] and [[Martin Hofmann]], in Sambin (ed.) et al., Twenty-five years of constructive type theory. Proceedings of a congress, Venice, Italy, October 19-21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998). [PostScript](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz)
 * [_Homotopy theoretic models of identity types._](http://homotopytypetheory.org/references/awodey-warren-homotopy-theoretic-models-of-identity-types/) [[Steve Awodey]] and [[Michael Warren]], Mathematical Proceedings of the Cambridge Philosophical Society, 2009. [PDF](http://www.andrew.cmu.edu/user/awodey/preprints/homotopy.pdf)
 * _Homotopy theoretic aspects of constructive type theory._ [[Michael Warren]], Ph.D. thesis: Carnegie Mellon University, 2008. [PDF](http://mawarren.net/papers/phd.pdf)
 * _Two-dimensional models of type theory_, [[Richard Garner]], Mathematical Structures in Computer Science 19 (2009), no. 4, pages 687--736. [RG's website](http://web.science.mq.edu.au/~rgarner/Papers/2-LCCC.pdf)
 * _Topological and simplicial models of identity types._ [[Richard Garner]] and [[Benno van den Berg]], to appear in ACM Transactions on Computational Logic (TOCL). [PDF](http://tocl.acm.org/accepted/467garner.pdf)
 * _The strict ∞-groupoid interpretation of type theory_ [[Michael Warren]], in Models, Logics and Higher-Dimensional Categories: A Tribute to the Work of Mihály Makkai, AMS/CRM, 2011. [PDF](http://mawarren.net/papers/crmp1295.pdf)
-* _Homotopy-Theoretic Models of Type Theory._ [[Peter Arndt]] and [[Chris Kapulkin]]. In Typed Lambda Calculi and Applications, volume 6690 of Lecture Notes in Computer Science, pages 45?60. [arXiv](http://arxiv.org/abs/1208.5683)
+* _Homotopy-Theoretic Models of Type Theory._ [[Peter Arndt]] and [[Chris Kapulkin]]. In Typed Lambda Calculi and Applications, volume 6690 of Lecture Notes in Computer Science, pages 45-60. [arXiv](http://arxiv.org/abs/1208.5683)
 * _Combinatorial realizability models of type theory_, [[Pieter Hofstra]] and [[Michael Warren]], 2013, Annals of Pure and Applied Logic 164(10), pp. 957-988. [arXiv](http://arxiv.org/abs/1205.5527)
 * _Natural models of homotopy type theory_, [[Steve Awodey]], 2015. [arXiv](http://arxiv.org/abs/1406.3219)
 * _Subsystems and regular quotients of C-systems_, [[Vladimir Voevodsky]], 2014. [arXiv](http://arxiv.org/abs/1406.7413)
@@ -126,13 +126,13 @@ See also [Philosophy](#Philosophy), below.
 
 * _An experimental library of formalized Mathematics based on the univalent foundations_, [[Vladimir Voevodsky]], Math. Structures Comput. Sci. 25 (2015), no. 5, pp 1278-1294, 2015. [arXiv](http://arxiv.org/abs/1401.0053) [journal](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=9679046)
 * _A preliminary univalent formalization of the p-adic numbers._ Álvaro Pelayo, [[Vladimir Voevodsky]], [[Michael Warren]], 2012. [arXiv](http://arxiv.org/abs/1302.1207)
-* _[[Univalent categories and the Rezk completion]]_. [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], Math. Structures Comput. Sci. 25 (2015), no. 5, 1010?1039. [arXiv:1303.0584](http://arxiv.org/abs/1303.0584) (on _[[nLab:internal categories in HoTT]]_)
+* _[[Univalent categories and the Rezk completion]]_. [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], Math. Structures Comput. Sci. 25 (2015), no. 5, 1010-1039. [arXiv:1303.0584](http://arxiv.org/abs/1303.0584) (on _[[nLab:internal categories in HoTT]]_)
 * _The HoTT Library: A formalization of homotopy type theory in Coq_, [[Andrej Bauer]], [[Jason Gross]], [[Peter LeFanu Lumsdaine]], [[Mike Shulman]], [[Matthieu Sozeau]], [[Bas Spitters]], 2016 [arxiv](https://arxiv.org/abs/1610.04591)
 
 ##Applications to computing##
 
 * _Homotopical patch theory_.  [[Carlo Angiuli]], [[Ed Morehouse]], [[Dan Licata]], [[Robert Harper]], [PDF](http://dlicata.web.wesleyan.edu/pubs/amlh14patch/amlh14patch.pdf)
-* _Guarded Cubical Type Theory: Path Equality for Guarded Recursion_, [[Lars Birkedal]], [[Ale? Bizjak]], [[Ranald Clouston]], [[Hans Bugge Grathwohl]], [[Bas Spitters]], [[Andrea Vezzosi]], ([arXiv](https://arxiv.org/abs/1606.05223))
+* _Guarded Cubical Type Theory: Path Equality for Guarded Recursion_, [[Lars Birkedal]], [[Aleš Bizjak]], [[Ranald Clouston]], [[Hans Bugge Grathwohl]], [[Bas Spitters]], [[Andrea Vezzosi]], ([arXiv](https://arxiv.org/abs/1606.05223))
 
 ##Cubical models and cubical type theory##
 
@@ -157,11 +157,11 @@ See also [Philosophy](#Philosophy), below.
 
 ##Syntax of type theory##
 
-* [_The identity type weak factorisation system._](http://homotopytypetheory.org/references/gambino-garner-the-identity-type-weak-factorisation-system/) [[Nicola Gambino]] and [[Richard Garner]], Theoretical Computer Science 409 (2008), no. 3, pages 94?109. [RG?s website](http://www.comp.mq.edu.au/~rgarner/Idtype/Idtype.html)
-* _Types are weak ∞-groupoids._ [[Richard Garner]] and [[Benno van den Berg]], to appear. [RG?s website](http://www.comp.mq.edu.au/~rgarner/Typesom/Typesom.html)
+* [_The identity type weak factorisation system._](http://homotopytypetheory.org/references/gambino-garner-the-identity-type-weak-factorisation-system/) [[Nicola Gambino]] and [[Richard Garner]], Theoretical Computer Science 409 (2008), no. 3, pages 94-109. [RG's website](http://www.comp.mq.edu.au/~rgarner/Idtype/Idtype.html)
+* _Types are weak ∞-groupoids._ [[Richard Garner]] and [[Benno van den Berg]], to appear. [RG's website](http://www.comp.mq.edu.au/~rgarner/Typesom/Typesom.html)
 * _Weak ∞-Categories from Intensional Type Theory._ [[Peter LeFanu Lumsdaine]], TLCA 2009, Brasília, Logical Methods in Computer Science, Vol. 6, issue 23, paper 24. [PDF](http://www.mathstat.dal.ca/~p.l.lumsdaine/research/Lumsdaine-Weak-omega-cats-from-ITT-LMCS.pdf)
 * _Higher Categories from Type Theories._ [[Peter LeFanu Lumsdaine]], PhD Thesis: Carnegie Mellon University, 2010. [PDF](http://www.mathstat.dal.ca/~p.l.lumsdaine/research/Lumsdaine-2010-Thesis.pdf)
-* [_A coherence theorem for Martin-Löf?s type theory.]]_](http://homotopytypetheory.org/references/hedberg/) [[Michael Hedberg]], Journal of Functional Programming 8 (4): 413?436, July 1998.
+* [_A coherence theorem for Martin-Löf's type theory.]]_](http://homotopytypetheory.org/references/hedberg/) [[Michael Hedberg]], Journal of Functional Programming 8 (4): 413-436, July 1998.
 * _Model Structures from Higher Inductive Types._  [[Peter LeFanu Lumsdaine]].  Unpublished note, Dec. 2011. [PDF](http://www.mathstat.dal.ca/~p.l.lumsdaine/research/Lumsdaine-Model-strux-from-HITs.pdf)
 * _A category-theoretic version of the identity type weak factorization system_.  [[Jacopo Emmenegger]], [arXiv](http://arxiv.org/abs/1412.0153)
 * _Locally cartesian closed quasicategories from type theory_. [[Chris Kapulkin]], [arXiv](http://arxiv.org/abs/1507.02648).
@@ -177,7 +177,7 @@ See also [Philosophy](#Philosophy), below.
 
 ##Directed type theory##
 
-* _2-Dimensional Directed Dependent Type Theory._ [[Dan Licata]] and [[Robert Harper]]. MFPS 2011. See also Chapters 7 and 8 of [Dan?s thesis](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf). [PDF](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt.pdf)
+* _2-Dimensional Directed Dependent Type Theory._ [[Dan Licata]] and [[Robert Harper]]. MFPS 2011. See also Chapters 7 and 8 of [Dan's thesis](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf). [PDF](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt.pdf)
 * _A type theory for synthetic $\infty$-categories_. [[Emily Riehl]], [[Michael Shulman]]. [arxiv](https://arxiv.org/abs/1705.07442)
 * _Synthetic fibered (∞,1)-category theory_.  Ulrik Buchholtz, Jonathan Weinberger.  [arxiv](https://arxiv.org/abs/2105.01724), 2021.
 * _Limits and colimits of synthetic ∞-categories_.  César Bardomiano Martínez.  [arxiv](https://arxiv.org/abs/2202.12386), 2022.
