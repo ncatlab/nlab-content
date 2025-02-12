@@ -17,15 +17,16 @@
 
 ## Idea
 
-A [[square matrix]] $(A_{x,y})\in Mat_{n \times n}(R)$ whose values for $x\neq y$ are all [[zero]] is called a _diagonal matrix_. 
+A [[square matrix]] $(A_{x,y})\in Mat_{n \times n}(R)$ whose values for $x\neq y$ are all [[zero]], hence whose entries are *concentrated on the diagonal*, is called a _diagonal matrix_. 
+
+The diagonal matrices form a non-[[center|central]] [[commutative algebra|commutative]] subalgebra of the [[matrix algebra]] $Mat_{n \times n}(R)$, [[isomorphism|isomorphic]] to the $n$fold [[direct sum]] of the [[ground ring]] $R$.
+
 
 ## Examples
 
-A diagonal matrix with value 1 on the diagonal is an [[identity matrix]].
+A diagonal matrix with value 1 in all diagonal entries is an [[identity matrix]].
 
-## Properties 
 
-#### Schur lemma
 
 
 ## Related concepts
