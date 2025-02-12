@@ -16,7 +16,7 @@
 
 ## Definition
 
-A _Lie 3-group_ of _3-Lie group_ is a 3-[[truncated]] [[∞-group]] in [[?LieGrpd]].
+A _Lie 3-group_ of _3-Lie group_ is a 3-[[truncated]] [[∞-group]] in [[∞LieGrpd]].
 
 
 ## From Lie 2-crossed module
