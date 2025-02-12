@@ -2,6 +2,12 @@
 
 * [personal page](https://www.csee.umbc.edu/~lomonaco/)
 
+* [research group page](https://userpages.cs.umbc.edu/lomonaco/qis/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Samuel_J._Lomonaco_Jr.)
+
+* [inSpire page](https://inspirehep.net/authors/999876)
+
 
 ## Selected writings
 
