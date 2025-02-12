@@ -504,7 +504,7 @@ The full picture in terms of Grothendieck-[[(∞,1)-topos]]es of [[(∞,1)-sheav
 
   * the characterization of $(\infty,1)$-sheaves in terms of [[descent]] is in section 6.1.3 
 
-  * the relation between the [[model structure on simplicial presheaves|Brown?Joyal?Jardine model]] and the general story is discussed at length in section 6.5.4
+  * the relation between the [[model structure on simplicial presheaves|Brown–Joyal–Jardine model]] and the general story is discussed at length in section 6.5.4
 
 An overview is in
 
