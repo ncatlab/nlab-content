@@ -195,8 +195,8 @@ The 1986 thesis of [[Alain Prouté]] explores the possibility of obtaining analo
 [[!redirects A-infinity algebras]]
 [[!redirects A-∞ algebra]]
 [[!redirects A-∞ algebras]]
-[[!redirects A? algebra]]
-[[!redirects A? algebras]]
+[[!redirects A∞ algebra]]
+[[!redirects A∞ algebras]]
 [[!redirects A-∞-algebra]]
 
 [[!redirects A-∞-algebras]]
