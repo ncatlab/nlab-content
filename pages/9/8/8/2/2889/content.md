@@ -191,7 +191,7 @@ Motivic cohomology is used to construct examples of [[Euler systems]], which in 
 
 * J. F. Jardine, _Motivic symmetric spectra_, Doc. Math. 5 (2000), 445--553
 
-* [[Alexander Beilinson|A. Be?linson]], R. MacPherson, V. Schechtman, _Notes on motivic cohomology_,  Duke Math. J.  54  (1987),  no. 2, 679--710; [doi](http://dx.doi.org/10.1215/S0012-7094-87-05430-5).
+* [[Alexander Beilinson]], [[Robert MacPherson]], [[Vadim Schechtman]], _Notes on motivic cohomology_,  Duke Math. J.  54  (1987),  no. 2, 679--710; [doi](http://dx.doi.org/10.1215/S0012-7094-87-05430-5).
 
 * [[Vladimir Voevodsky]], [[Pierre Deligne]], _Lectures on motivic cohomology 2000/2001_ ([web](http://www.math.uiuc.edu/K-theory/0527/))
 
