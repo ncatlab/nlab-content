@@ -238,7 +238,7 @@ are locally and globally $\infty$-connected and in fact [[∞-cohesive site|∞-
 
 =--
 
-This implies that [[?LieGrpd]] is a [[cohesive (∞,1)-topos]]. See there for details.
+This implies that [[∞LieGrpd]] is a [[cohesive (∞,1)-topos]]. See there for details.
 
 
 
