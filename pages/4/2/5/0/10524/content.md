@@ -106,6 +106,21 @@ On "fictitious" contributions to the [[Berry connection]] on the [[Brillouin tor
 
 
 
+### Distortion and modulation
+
+* Andrea Blason, Michele Fabrizio: *Local Kekulé distortion turns twisted bilayer graphene into topological Mott insulators and superconductors*, Phys. Rev. B **106** (2022) 235112 &lbrack;[doi:10.1103/PhysRevB.106.235112](https://doi.org/10.1103/PhysRevB.106.235112)&rbrack;
+
+* Michael G. Scheer, Biao Lian: *Twistronics of Kekulé Graphene: Honeycomb and Kagome Flat Bands*, Phys. Rev. Lett. **131** (2023) 266501 &lbrack;[doi:10.1103/PhysRevLett.131.266501](https://doi.org/10.1103/PhysRevLett.131.266501)&rbrack;
+
+Kondo effect:
+
+* Maxim Kharitonov, Gabriel Kotliar: *Kondo effect in monolayer and bilayer graphene: physical realizations of the multi-channel Kondo models*, Phys. Rev. B **88** (2013)  201103(R) &lbrack;[arXiv:1305.0075](https://arxiv.org/abs/1305.0075), [doi:10.1103/PhysRevB.88.201103](https://doi.org/10.1103/PhysRevB.88.201103)&rbrack;
+
+* A. S. Shankar, D. O. Oriekhov, Andrew K. Mitchell, L. Fritz: *Kondo effect in twisted bilayer graphene*, Phys. Rev. B **107** (2023) 245102 &lbrack;[doi:10.1103/PhysRevB.107.245102](https://doi.org/10.1103/PhysRevB.107.245102)&rbrack;
+
+
+
+
 
 ### Movement of Dirac points
  {#ReferencesMovementOfDiracPoints}
