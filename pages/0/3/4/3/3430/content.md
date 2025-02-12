@@ -18,6 +18,11 @@ On [[differential geometry]] with focus on [[natural bundles]]:
 * {#KolarSlovakMichor93} [[Ivan Kolář]], [[Peter Michor]], [[Jan Slovák]], _[[Natural operations in differential geometry]]_, Springer (1993) &lbrack;[book webpage](http://www.emis.de/monographs/KSM/), [doi:10.1007/978-3-662-02950-3](https://link.springer.com/book/10.1007/978-3-662-02950-3)
 [pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf)&rbrack;
 
+On [[smooth algebra|$C^\infty$-rings]]:
+
+* [[Peter Michor]], [[Jiří Vanžura]]: *Characterizing algebras of $C^\infty$-functions on manifolds*, Comment. Math. Univ. Carolin. **37** 3 (1996) 519–521
+&lbrack;[arXiv:math/9404228](https://arxiv.org/abs/math/9404228), [eudml:247941](https://eudml.org/doc/247941), [pdf](http://www.emis.de/journals/CMUC/pdf/cmuc9603/michor.pdf)&rbrack;
+
 On [[differential geometry]] in terms of [[Frölicher spaces]] and [[diffeological spaces]], in particular also on [[infinite-dimensional manifolds]]:
 
 * {#KrieglandMichor1997} [[Andreas Kriegl]], [[Peter Michor]]: *[[The Convenient Setting of Global Analysis]]*: Mathematical Surveys and Monographs **53**, American Mathematical Society (1997) &lbrack;ISBN: 978-0-8218-0780-4, [ams:surv-53](https://bookstore.ams.org/surv-53), [pdf](https://www.mat.univie.ac.at/~michor/apbookh-ams.pdf)&rbrack;
