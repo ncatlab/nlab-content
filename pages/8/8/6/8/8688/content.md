@@ -97,6 +97,8 @@ where the subscripts indicate which tensor factors are being utilized.
 
 ## References
 
+### General
+
 The ([[quantum Yang-Baxter equation|quantum]]) *Yang-Baxter equation* was named (cf. [Perk & Au-Yang 2006](#PerkAu-Yang06)) by [[Ludwig Fadeev]] in the late 1970s, in honor of:
 
 * [[Chen Ning Yang]]: *Some Exact Results for the Many-Body Problem in one Dimension with Repulsive Delta-Function Interaction*, Phys. Rev. Lett. **19** (1967) 1312 &lbrack;[doi:10.1103/PhysRevLett.19.1312](https://doi.org/10.1103/PhysRevLett.19.1312)&rbrack;
@@ -104,6 +106,8 @@ The ([[quantum Yang-Baxter equation|quantum]]) *Yang-Baxter equation* was named 
 * [[Chen Ning Yang]]: *S Matrix for the One-Dimensional $N$-Body Problem with Repulsive or Attractive $\delta$-Function Interaction*, Phys. Rev. **168** (1968) 1920 &lbrack;[doi:10.1103/PhysRev.168.1920](https://doi.org/10.1103/PhysRev.168.1920)&rbrack;
 
 and
+
+* {#Baxter72} [[Rodney J. Baxter]]: *Partition function of the Eight-Vertex lattice model*, Annals of Physics **70** 1 (1972) 193-228 \[<a href="https://doi.org/10.1016/0003-4916(72)90335-1">doi:10.1016/0003-4916(72)90335-1</a>\]
 
 * {#Baxter78} [[Rodney J. Baxter]], *Solvable eight-vertex model on an arbitrary planar lattice*, Philos. Trans. Royal Society A **289** 1359 (1978) &lbrack;[doi:10.1098/rsta.1978.0062](https://doi.org/10.1098/rsta.1978.0062)&rbrack;
 
@@ -117,12 +121,17 @@ Introduction and review:
 
 * {#PerkAu-Yang06} Jacques H. H. Perk, Helen Au-Yang: *Yang-Baxter Equations*, Encyclopedia of Mathematical Physics **5** (2006) 465-473 &lbrack;[arXiv:math-ph/0606053](https://arxiv.org/abs/math-ph/0606053)&rbrack;
 
+Review in the context of [[braid group representations]]:
+
+* [[Camilo Arias Abad]], §5.1 *Introduction to representations of braid groups*, Rev. colomb. mat. vol.49 no.1 (2015) &lbrack;[arXiv:1404.0724](https://arxiv.org/abs/1404.0724), [doi:10.15446/recolma.v49n1.54160](https://doi.org/10.15446/recolma.v49n1.54160)&rbrack;
+
 
 See also:
 
 * Wikipedia, *[Yang-Baxter equation](https://en.wikipedia.org/wiki/Yang%E2%80%93Baxter_equation)*
 
 * [[eom]], *[Yang-Baxter equation](https://encyclopediaofmath.org/index.php?title=Yang-Baxter_equation)*
+
 
 Further discussion in the context of [[quantum groups]]:
 
@@ -136,17 +145,35 @@ Further discussion in the context of [[quantum groups]]:
 
 * P. P. Kulish, [[Nicolai Reshetikhin]], E. K. Sklyanin, _Yang-Baxter equation and representation theory: I_, Lett. Math. Phys. __5__:5 (1981), 393-403, [doi](http://dx.doi.org/10.1007/BF02285311)
 
-Discussion in the context of [[braid group representations]]:
 
-* [[Camilo Arias Abad]], §5.1 *Introduction to representations of braid groups*, Rev. colomb. mat. vol.49 no.1 (2015) &lbrack;[arXiv:1404.0724](https://arxiv.org/abs/1404.0724), [doi:10.15446/recolma.v49n1.54160](https://doi.org/10.15446/recolma.v49n1.54160)&rbrack;
+### Solutions
 
+Complete list of solutions for the constant quantum Yang-Baxter equation in $dim=2$ (96, falling in 23 classes):
 
+* [[Jarmo Hietarinta]]: *All solutions to the constant quantum Yang-Baxter equation in two dimensions*, Physics Letters A **165** 3 (1992) 245-251 \[<a href="https://doi.org/10.1016/0375-9601(92)90044-M">doi;10.1016/0375-9601(92)90044-M</a>\]
 
+* [[Jarmo Hietarinta]]: *The complete solution to the constant quantum Yang-Baxter equation in two dimensions*, talk at *[19th International Colloquium on Group-theoretical Methods in Physics](https://cds.cern.ch/record/215877)* (1992) &lbrack;[arXiv:hep-th/9210067](https://arxiv.org/abs/hep-th/9210067)&rbrack;
 
-[[!redirects quantum R-matrix]]
+Discussion of certain quantum R-matrices as universal [[quantum gates]] for [[topological quantum computing]] (where one is interested in [[unitary operators|unitary]] solutions):
 
-[[!redirects quantum Yang-Baxter matrix]]
+* [[Louis H. Kauffman]], [[Samuel J. Lomonaco]]: *Braiding Operators are Universal Quantum Gates*, New Journal of Physics **6** (2004) &lbrack;[doi:10.1088/1367-2630/6/1/134](https://iopscience.iop.org/article/10.1088/1367-2630/6/1/134), [arXiv:quant-ph/0401090](https://arxiv.org/abs/quant-ph/0401090)&rbrack;
+
+Classification of all unitary solutions in $dim=4$
+
+* H. A. Dye: *Unitary Solutions to the Yang-Baxter Equation in Dimension Four*, Quantum Information Processing **2** (2003) (117-152) &lbrack;[arXiv:quant-ph/0211050](https://arxiv.org/abs/quant-ph/0211050), [doi:10.1023/A:1025843426102](https://doi.org/10.1023/A:1025843426102)&rbrack;
+
 
 
 [[!redirects quantum Yang-Baxter equation]]
+[[!redirects quantum Yang-Baxter equations]]
+
+[[!redirects quantum R-matrix]]
+[[!redirects quantum R-matrices]]
+
+[[!redirects quantum Yang-Baxter matrix]]
+[[!redirects quantum Yang-Baxter matrices]]
+
+
+[[!redirects quantum YBE]]
+[[!redirects quantum YBEs]]
 
