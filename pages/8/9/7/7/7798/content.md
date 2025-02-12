@@ -100,11 +100,11 @@ Related arguments revolving around [[characteristic element of a bilinear form|c
 
 * {#PoonenRains11} Bjorn Poonen, Eric Rains, _Self cup products and the theta characteristic torsor_ ([arXiv:1104.2105](http://arxiv.org/abs/1104.2105))
 
-[[!redirects ? characteristic]]
+[[!redirects Θ characteristic]]
 [[!redirects ∞-characteristic]]
 [[!redirects Theta-characteristic]]
 
-[[!redirects ? characteristics]]
+[[!redirects Θ characteristics]]
 [[!redirects ∞-characteristics]]
 [[!redirects Theta characteristics]]
 [[!redirects Theta-characteristics]]
