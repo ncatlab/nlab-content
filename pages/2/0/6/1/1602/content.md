@@ -660,12 +660,12 @@ Discussion relating to [[axions]]:
 
 [[!redirects Green Schwarz mechanism]]
 [[!redirects Green-Schwarz mechanism]]
-[[!redirects Green?Schwarz mechanism]]
+[[!redirects Green–Schwarz mechanism]]
 
 [[!redirects Green--Schwarz mechanism]]
 [[!redirects Green Schwartz mechanism]]
 [[!redirects Green-Schwartz mechanism]]
-[[!redirects Green?Schwartz mechanism]]
+[[!redirects Green–Schwartz mechanism]]
 [[!redirects Green--Schwartz mechanism]]
 
 [[!redirects Green-Schwarz anomaly cancellation]]
