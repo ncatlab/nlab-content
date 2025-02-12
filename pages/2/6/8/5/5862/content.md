@@ -109,7 +109,7 @@ Original articles include
 
 A speculation that [[11-dimensional supergravity]] is naturally to be understood as a contraction limit of a Chern-Simons supergravity theory was put forward in 
 
-* [[Petr Ho?ava]], _M-Theory as a Holographic Field Theory_ ([arXiv:hep-th/9712130](http://arxiv.org/abs/hep-th/9712130))
+* [[Petr Hořava]], _M-Theory as a Holographic Field Theory_ ([arXiv:hep-th/9712130](http://arxiv.org/abs/hep-th/9712130))
 
 with further developments in 
 
