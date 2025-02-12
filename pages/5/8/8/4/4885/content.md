@@ -88,8 +88,13 @@ category: knot theory
 [[!redirects Reidemeister moves]]
 [[!redirects Reidemeister's theorem]]
 [[!redirects first Reidemeister move]]
+[[!redirects 1st Reidemeister move]]
 [[!redirects R1 move]]
 [[!redirects second Reidemeister move]]
+[[!redirects 2nd Reidemeister move]]
 [[!redirects R2 move]]
 [[!redirects third Reidemeister move]]
+[[!redirects 3rd Reidemeister move]]
 [[!redirects R3 move]]
+
+
