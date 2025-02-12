@@ -169,17 +169,19 @@ where $|x|$ and $|y|$ denote the degrees. It's evident that the resulting braide
 
 ## Related concepts
 
+* [[Yang-Baxter equation]]
+
 * [[k-tuply monoidal (n,r)-category]]
 
 * [[monoidal category]], [[monoidal (∞,1)-category]]
 
-* **braided monoidal category**, [[braided monoidal (∞,1)-category]]
+* [[braided monoidal (∞,1)-category]]
 
-  * [[modular tensor category]]
+* [[modular tensor category]]
 
-  * [[braided monoidal dagger category]]
+* [[braided monoidal dagger category]]
  
-  * [[braided monoidal 2-category]]
+* [[braided monoidal 2-category]]
 
 * [[symmetric monoidal category]], [[symmetric monoidal (∞,1)-category]]
 
