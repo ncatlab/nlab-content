@@ -4,6 +4,11 @@ __Pavel Etingof__ is a mathematician at MIT. He has been one of the main develop
 
 ## Selected writings
 
+On the [[classical Yang-Baxter equation]]:
+
+* [[Pavel Etingof]], [[Alexander Varchenko]]: *Geometry and classification of solutions of the Classical Dynamical Yang-Baxter Equation*, Comm Math Phys **192** (1998) 77–120  &lbrack;[arXiv:q-alg/9703040](https://arxiv.org/abs/q-alg/9703040), [doi;10.1007/s002200050292](https://doi.org/10.1007/s002200050292)&rbrack;
+
+
 On [[orbifold cohomology]] of [[symplectic orbifolds]]:
 
 * [[Vasily Dolgushev]], [[Pavel Etingof]], _Hochschild cohomology of quantized symplectic orbifolds and the Chen-Ruan cohomology_, Int. Math. Res. Not. 2005, no. 27, 1657-1688 ([arXiv:math/0410562](https://arxiv.org/abs/math/0410562))
