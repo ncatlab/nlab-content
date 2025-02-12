@@ -84,8 +84,8 @@ where on the right we have the [[∞-groupoid]] underlying the [[abelian ∞-gro
 [[!redirects smooth E-infinity groupoid]]
 [[!redirects smooth E-infinity groupoids]]
 
-[[!redirects smooth E? groupoid]]
-[[!redirects smooth E? groupoids]]
+[[!redirects smooth E∞ groupoid]]
+[[!redirects smooth E∞ groupoids]]
 
 [[!redirects smooth E∞-groupoid]]
 [[!redirects smooth E∞-groupoids]]
