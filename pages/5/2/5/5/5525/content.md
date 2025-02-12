@@ -257,7 +257,7 @@ $$
   }
 $$
 
-in [[?Gpd]], is presented in the standard [[model structure on simplicial sets]] by the ordinary [[pullback]]
+in [[∞Gpd]], is presented in the standard [[model structure on simplicial sets]] by the ordinary [[pullback]]
 
 $$
   \array{
