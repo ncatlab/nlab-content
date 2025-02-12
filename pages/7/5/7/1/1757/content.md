@@ -143,7 +143,7 @@ Recall that an [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaf]]/[[∞-stack
 
 In terms of this model the Eilenberg-Mac Lane objects $K(A,n) \in \mathbf{H}$ (for abelian $A$) are the **Eilenberg-MacLane [[sheaf|sheaves]]** of [[abelian sheaf cohomology]] theory.
 
-Under the [[Dold?Kan correspondence]] 
+Under the [[Dold–Kan correspondence]] 
 
 $$
   N : sAb \stackrel{\leftarrow}{\to} Ch_+ : \Gamma
@@ -189,7 +189,7 @@ For a discussion of Eilenberg-MacLane objects in the context of the [[model stru
 
 Discussion in [[equivariant homotopy theory]] (see also at _[[Bredon cohomology]]_) is in 
 
-* {Lewis92} L. G. Lewis, _Equivariant Eilenberg-MacLane spaces and the equivariant Seifert-van Kampen suspension theorems_, Topology Appl., 48 (1992), no. 1, pp. 25&#8211;61.
+* {#Lewis92} L. G. Lewis, _Equivariant Eilenberg-MacLane spaces and the equivariant Seifert-van Kampen suspension theorems_, Topology Appl., 48 (1992), no. 1, pp. 25&#8211;61.
 
 
 Formalization in [[homotopy type theory]] is in 
@@ -198,14 +198,14 @@ Formalization in [[homotopy type theory]] is in
 
 
 [[!redirects Eilenberg-MacLane object]]
-[[!redirects Eilenberg?MacLane object]]
+[[!redirects Eilenberg–MacLane object]]
 [[!redirects Eilenberg--MacLane object]]
 [[!redirects Eilenberg-Mac Lane object]]
-[[!redirects Eilenberg?Mac Lane object]]
+[[!redirects Eilenberg–Mac Lane object]]
 [[!redirects Eilenberg--Mac Lane object]]
 [[!redirects Eilenberg-MacLane objects]]
-[[!redirects Eilenberg?MacLane objects]]
+[[!redirects Eilenberg–MacLane objects]]
 [[!redirects Eilenberg--MacLane objects]]
 [[!redirects Eilenberg-Mac Lane objects]]
-[[!redirects Eilenberg?Mac Lane objects]]
+[[!redirects Eilenberg–Mac Lane objects]]
 [[!redirects Eilenberg--Mac Lane objects]]
