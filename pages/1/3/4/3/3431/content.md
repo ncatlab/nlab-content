@@ -5,6 +5,6 @@
 
 * [[generalized smooth algebra|C∞-ring]]
 
+
 category: people
 
-[[!redirects Ji?i Vanzura]]
