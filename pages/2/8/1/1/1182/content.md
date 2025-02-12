@@ -377,7 +377,7 @@ $$
 
 In order to formulate this, one needs a good general theory of [[higher algebra]]. Just as ordinary [[algebra]] takes place inside a [[monoidal category]], [[higher algebra]] takes place in a [[monoidal (∞,1)-category]]:
 
-an "$\infty$-monoid" or "$\infty$-algebra" (to distinguish from the traditional [[A? algebra]], which is supposedly a special case) is an [[algebra in an (infinity,1)-category|algebra/monoid object in a monoidal (∞,1)-category]].
+an "$\infty$-monoid" or "$\infty$-algebra" (to distinguish from the traditional [[A∞ algebra]], which is supposedly a special case) is an [[algebra in an (infinity,1)-category|algebra/monoid object in a monoidal (∞,1)-category]].
 
 In order to characterize the $(\infty,1)$-categories $C(X)$ as algebra objects in such a sense we profit from the ease with which [[quasi-category|quasi-categories]] naturally reflect on themselves and allow us with comparative ease to talk about the [[(∞,1)-category of (∞,1)-categories]] $(\infty,1)Cat_1$.
 
@@ -875,10 +875,6 @@ One incarnation of derived stack in differential geometry is as an _$\omega$-gro
 \]
 since the latter plays the role of a 'derived $\mathbb{C}$-module'.
 
-+-- {: .query}
-_Bruce_: I'm shooting in the dark here with this $\omega$-groupoid sentence above. Am I right? What does that boil down to concretely?
-=--
-
 A derived stack $X$ is _perfect_ when $QC(X)$ is 'finitely generated' in an appropriate sense. One first has to decide what means by a 'finite object', and then one must decide what it means for $QC(X)$ to be 'generated' by these objects. There are various routes one could take, but happily in the context of _perfect_ stacks these all turn out to be equivalent. (In fact, it seems more or less true that perfect stacks are precisely those stacks where these various requirements coincide). 
 
 * [[(∞,1)-category of (∞,1)-sheaves]]
@@ -978,7 +974,7 @@ and $\beta$ is the action of $R$ on the left of $N$. (This generalizes the relat
 to have exactly this coequalizing property.)
 
 
-In section of 4.1 BZFN, there are various results, which are consequences of the [[Barr-Beck theorem|(∞,1)-categorical Barr?Beck theorem]]. 
+In section of 4.1 BZFN, there are various results, which are consequences of the [[Barr-Beck theorem|(∞,1)-categorical Barr–Beck theorem]]. 
 
 > [[Chris Brav|Chris]]: They seem interesting and useful, but I don't seem to need them just at the moment, so I'll come back to them some other time.
 
@@ -1050,15 +1046,6 @@ $X$, we may form the mapping stack $X^{\Sigma}$, which is again perfect. Then th
 
 The 'fundamental theorem' described above can be extended
 to the case where $X_1 \rightarrow Y$ is a perfect morphism of geometric stacks ($X_1$ and $Y$ need not be absolutely perfect) and $X_2 \rightarrow Y$ is an arbitrary morphism of stacks.
-
-+-- {: .query}
-
-_Bruce_: What's a [[geometric stack]]? 
-
-_Chris_: A stack is geometric if it is quasi-compact (any open cover has a finite sub-cover) and the diagonal morphism
-is representable and affine, though that probably doesn't help much. I don't know much about stacks yet, but maybe someone else can explain this. I think the point is that one needs some hypotheses to actually prove stuff for stacks. 
-
-=--
 
 ### 5. Applications ###
 
