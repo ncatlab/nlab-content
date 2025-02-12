@@ -220,7 +220,7 @@ With this the rightmost adjoint quadruple gives the [[Aufhebung]] of $\Re \dashv
 [[!redirects super smooth ∞-groupoids]]
 
 [[!redirects SuperFormalSmooth∞Grpd]]
-[[!redirects SuperFormalSmooth?Type]]
+[[!redirects SuperFormalSmooth∞Type]]
 
 [[!redirects super infinity-group]]
 [[!redirects super infinity-groups]]
