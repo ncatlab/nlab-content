@@ -432,7 +432,7 @@ The construction of $\emptyset$ is just as in ordinary SEAR.  The construction o
 Of course, if $(A,{=_A})$ is a set, a **subset** of $A$ is a relation $1\looparrowright (A,{=_A})$.  Axiom 3 can now be translated as-is, or it can be simplified to assert merely the existence of a pre-set $P A$ such that any subset of $A$ is represented by some element of $P A$, with the uniqueness clause turned into a definition of $=_{P A}$.
 The same idea applies to all the other axioms.
 
-If to this equality-free version of SEAR we add a primitive notion of (non-extensional) "operation" and a [[choice operator]], we obtain [[SEAR+?]].
+If to this equality-free version of SEAR we add a primitive notion of (non-extensional) "operation" and a [[choice operator]], we obtain [[SEAR+ε]].
 
 ## Related pages and spinoffs
 
