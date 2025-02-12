@@ -297,6 +297,8 @@ Review specifically for [[supergravity]]:
 
 * {#DuffNilssonPope86} [[Mike Duff]], [[Bengt Nilsson]], [[Christopher Pope]], _Kaluza-Klein supergravity_, Physics Reports Volume 130, Issues 1–2, January 1986, Pages 1-142 ([spire:229417](https://inspirehep.net/record/229417), <a href="https://doi.org/10.1016/0370-1573(86)90163-8">doi:10.1016/0370-1573(86)90163-8</a>)
 
+* [[Michael Duff]], [[Bengt Nilsson]], [[Christopher Pope]]: *Kaluza-Klein Supergravity 2025*, in: *Half a Century of Supergravity* &lbrack;[arXiv:2502.07710](https://arxiv.org/abs/2502.07710)^rbrack;
+
 and here specifically for [[sphere fiber bundles]]:
 
 * [[Federico Bonetti]], [[Ruben Minasian]], Valentí Vall Camell, Peter Weck, *Consistent truncations from the geometry of sphere bundles* &lbrack;[arXiv:2212.08068](https://arxiv.org/abs/2212.08068)&rbrack;
