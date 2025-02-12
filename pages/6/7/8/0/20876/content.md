@@ -142,13 +142,12 @@ $$
 
 * {#Kohno87} [[Toshitake Kohno]], (1.1.4) in: _Monodromy representations of braid groups and Yang-Baxter equations_, Annales de l'Institut Fourier, Volume 37 (1987) no. 4, p. 139-160 ([doi:10.5802/aif.1114](https://doi.org/10.5802/aif.1114))
 
+* {#Kohno88} [[Toshitake Kohno]]: *Linear representations of braid groups and classical  Yang-Baxter equations*, in: [[Joan S. Birman]], [[Anatoly Libgober]] (eds.) *Braids*, Cont. Math. **78** (1988) 339-363 &lbrack;[doi:10.1090/conm/078](http://dx.doi.org/10.1090/conm/078)&rbrack;
+  > (in relation to the [[classical Yang-Baxter equation]])
 
+* {#BarNatan96} [[Dror Bar-Natan]], Fact 3 in: _Vassiliev and Quantum Invariants of Braids_, Geom. Topol. Monogr. **4** (2002) 143-160 &lbrack;[arxiv:q-alg/9607001](https://arxiv.org/abs/q-alg/9607001)&rbrack;
 
-* {#Kohno88} [[Toshitake Kohno]], _Linear representations of braid groups and classical  Yang-Baxter equations_, in: [[Joan S. Birman]], [[Anatoly Libgober]] (eds.) _Braids_ Cont. Math. 78 (1988), 339-363 ([doi:10.1090/conm/078](http://dx.doi.org/10.1090/conm/078))
-
-* {#BarNatan96} [[Dror Bar-Natan]], Fact 3 in: _Vassiliev and Quantum Invariants of Braids_, Geom. Topol. Monogr. 4 (2002) 143-160 ([arxiv:q-alg/9607001](https://arxiv.org/abs/q-alg/9607001))
-
-* {#FadellHusseini01} [[Edward Fadell]], [[Sufian Husseini]], Theorem 2.2 in: _Geometry and topology of configuration spaces_, Springer Monographs in Mathematics (2001), [MR2002k:55038](http://www.ams.org/mathscinet-getitem?mr=2002k:55038), xvi+313 
+* {#FadellHusseini01} [[Edward Fadell]], [[Sufian Husseini]], Theorem 2.2 in: *Geometry and topology of configuration spaces*, Springer Monographs in Mathematics (2001) &lbrack; [MR2002k:55038](http://www.ams.org/mathscinet-getitem?mr=2002k:55038)&rbrack;
 
 * {#CohenGitler01} [[Fred Cohen]], [[Samuel Gitler]], Section 3 in: _Loop spaces of configuration spaces, braid-like groups, and knots_, In: Jaume Aguadé, Carles Broto, [[Carles Casacuberta]]  (eds.) _Cohomological Methods in Homotopy Theory_. Progress in Mathematics, vol 196. Birkhäuser, Basel 2001 ([doi:10.1007/978-3-0348-8312-2_7](https://doi.org/10.1007/978-3-0348-8312-2_7))
 
