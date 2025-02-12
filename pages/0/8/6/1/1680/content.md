@@ -215,7 +215,7 @@ $$
   |-| : \infty Grpds \to Top
 $$
 
-between [[infinity-groupoids]] and [[topological spaces]] (see _[[homotopy hypothesis]]_) this sequence of suspensions of $A$ maps to the sequence of [[Eilenberg?Mac Lane spaces]]
+between [[infinity-groupoids]] and [[topological spaces]] (see _[[homotopy hypothesis]]_) this sequence of suspensions of $A$ maps to the sequence of [[Eilenberg–Mac Lane spaces]]
 
 $$
   |\mathbf{B}^n A|
@@ -282,14 +282,14 @@ as [[orthogonal spectra]]:
 [[!redirects Eilenberg-MacLane spectrum]]
 [[!redirects Eilenberg--MacLane spectrum]]
 [[!redirects Eilenberg--Mac Lane spectrum]]
-[[!redirects Eilenberg?MacLane spectrum]]
-[[!redirects Eilenberg?Mac Lane spectrum]]
+[[!redirects Eilenberg–MacLane spectrum]]
+[[!redirects Eilenberg–Mac Lane spectrum]]
 [[!redirects Eilenberg-MacLane spectra]]
 [[!redirects Eilenberg-Mac Lane spectra]]
 [[!redirects Eilenberg--MacLane spectra]]
 [[!redirects Eilenberg--Mac Lane spectra]]
-[[!redirects Eilenberg?MacLane spectra]]
-[[!redirects Eilenberg?Mac Lane spectra]]
+[[!redirects Eilenberg–MacLane spectra]]
+[[!redirects Eilenberg–Mac Lane spectra]]
 
 [[!redirects HR]]
 
