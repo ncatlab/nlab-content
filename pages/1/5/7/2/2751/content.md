@@ -140,7 +140,7 @@ that is the identity on $\mathfrak{g}^*$.
 #### Sections of bundles as groupoid principal bundles
 
 
-For $X$ [[smooth manifold]], a $G$-[[principal bundle]] $P \to X$ is given by a  [[cocycle]] in [[?LieGrpd]] $g : X \to \mathbf{B}G$. 
+For $X$ [[smooth manifold]], a $G$-[[principal bundle]] $P \to X$ is given by a  [[cocycle]] in [[∞LieGrpd]] $g : X \to \mathbf{B}G$. 
 
 +-- {: .num_prop}
 ###### Proposition
