@@ -98,7 +98,7 @@ A sketch of the definition for all $n$ was given in ([Lurie, page 57](#Lurie)). 
 ### Definition via coalgebras
  {#DefinitionViaCoalgebras}
 
-In ([BenZvi-Nadler 13, remark 1.17](#BenZviNadler13)) it is observed that 
+In ([BenZvi-Nadler 13, remark 2.9](#BenZviNadler13)) it is observed that 
 
 $$
   Corr_n(\mathbf{H}) \simeq E_n Alg_b(\mathbf{H}^{op})
@@ -339,7 +339,7 @@ The application of $Span_n(\infty Grpd/C)$ to the construction of [[FQFT]]s is f
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
 
-Discussion of $Span_n(\mathbf{H}) \simeq Alg_{E_n}(\mathbf{H}^{op})$ is around remark 1.17 of
+Discussion of $Span_n(\mathbf{H}) \simeq Alg_{E_n}(\mathbf{H}^{op})$ is around remark 2.9 of
 
 * {#BenZviNadler13} [[David Ben-Zvi]], [[David Nadler]], _Nonlinear traces_ ([arXiv:1305.7175](http://arxiv.org/abs/1305.7175))
  
