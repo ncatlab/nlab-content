@@ -218,7 +218,7 @@ where $\Gamma_4(A)$ is the group of quadratic functions from $A$ valued in $G$.
 
 ## Generalizations
 
-The notion of [[Eilenberg?Mac Lane object]] makes sense in every $(\infty,1)$-[[(infinity,1)-topos|topos]], not just in $L_{whe}$[[Top]]. See at _[[Eilenberg-MacLane object]]_.
+The notion of [[Eilenberg–Mac Lane object]] makes sense in every $(\infty,1)$-[[(infinity,1)-topos|topos]], not just in $L_{whe}$[[Top]]. See at _[[Eilenberg-MacLane object]]_.
 
 ## Related concepts
 
