@@ -69,6 +69,7 @@ More explicitly, braid groups admit [[finitely presented group|finite presentati
 
 
 #### Presentation of general braids
+ {#PresentationOfGeneralBraids}
 
 We discuss the braid group as  a [[finitely generated group]]
 ([Artin 1925, (5)-(6)](#Artin25); [Artin 1947, (18)-(19)](#Artin47);
@@ -570,7 +571,7 @@ b_i^{-1}
 
 \linebreak
 
-* relations II
+* relations II ([[Yang-Baxter equation]])
 
   \[
     \underset{
