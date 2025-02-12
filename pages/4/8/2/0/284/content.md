@@ -428,7 +428,4 @@ See also
 [[!redirects (infinity, 1)-category]]
 [[!redirects (infinity, 1)-categories]]
 [[!redirects infinity comma one category]]
-[[!redirects (?%2C1)-category]]
-
 [[!redirects infinity1-category]]
-
