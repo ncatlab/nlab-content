@@ -3384,7 +3384,7 @@ the claim follows.
 
 This is essentially the short exact sequence whose form is familiar from the traditional definition of [[ordinary differential cohomology]] only up to the following slight nuances in notation:
 
-1.  The cohomology groups of the short exact sequence above denote the groups obtained in the given [[(∞,1)-topos]] $\mathbf{H}$, not in [[Top]]. Notably for $\mathbf{H} = $ [[?LieGrpd]], $A = U(1) =\mathbb{R}/\mathbb{Z}$
+1.  The cohomology groups of the short exact sequence above denote the groups obtained in the given [[(∞,1)-topos]] $\mathbf{H}$, not in [[Top]]. Notably for $\mathbf{H} = $ [[∞LieGrpd]], $A = U(1) =\mathbb{R}/\mathbb{Z}$
 the [[circle group]] and $|X| \in Top$ the [[geometric realization]] of a paracompact manifold $X$, we have that $H^n(X,\mathbb{R}/\mathbb{Z})$ above is $H^{n+1}_{sing}({|\Pi X|},\mathbb{Z})$. 
 
 1. The fact that on the left  of the short exact sequence for differential cohomology we have the de Rham cohomology set $H_{dR}^n(X,A)$ instead of 
