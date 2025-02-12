@@ -60,10 +60,15 @@ were invented with a view toward quantum integrable systems systematizing analog
 
 Introduction and overview:
 
-* O. Babelon, D. Bernard, M. Talon, _Introduction to classical integrable systems_, Cambridge Univ. Press 2003.
+* O. Babelon, D. Bernard, M. Talon: _Introduction to classical integrable systems_, Cambridge Univ. Press 2003.
 * V.E. Korepin, N. M. Bogoliubov, A. G. Izergin, _Quantum inverse scattering method and correlation functions_, Cambridge Univ. Press 1997.
 
 * Wikipedia, [Integrable system](http://en.wikipedia.org/wiki/Integrable_system) 
+
+With focus on the role of the [[Yang-Baxter equation]]:
+
+* [[Michio Jimbo]]: *Yang-Baxter Equation in Integrable Systems*, Advanced Series in Mathematical Physics **10**, World Scientific (1990) &lbrack;[doi:10.1142/1021](https://doi.org/10.1142/1021)&rbrack;
+
 
 See also:
 
