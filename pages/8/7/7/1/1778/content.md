@@ -60,7 +60,7 @@ Here a [[Čech cover]] is a simplicial presheaf that arises from an ordinary cov
 
 $$
  \begin{aligned}
-  Y := \left( 
+  Y \;\coloneqq\; \left( 
     \cdots
     U \times_X U \times_X U
     \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
@@ -183,7 +183,7 @@ For instance the three possible vertical maps at the
 bottom have components on the cartesian factors given by
 
 $$
-  A(d_1)|_{U_i} := (-)|_{U_{i j}}
+  A(d_1)|_{U_i} \,\coloneqq\, (-)|_{U_{i j}}
   :
   A(U_i)  
   \to 
@@ -193,7 +193,7 @@ $$
 and
 
 $$
-  A(d_0)|_{U_i} := (-)|_{U_{i j}}
+  A(d_0)|_{U_i} \,\coloneqq\, (-)|_{U_{i j}}
   :
   A(U_j)  
   \to 
@@ -239,7 +239,7 @@ If we follow tradition and write
 
 * $U = \sqcup_i U_i$;
 
-* and $U \times_X U = \sqcup_{i j} U_{i j} := \sqcup_{i j} U_i \cap U_j$
+* and $U \times_X U = \sqcup_{i j} U_{i j} \,\coloneqq\, \sqcup_{i j} U_i \cap U_j$
 
 * etc
 
@@ -1037,7 +1037,7 @@ the nerve of the [[chain complex]]
 
 $$
   U(1)[1]
-  := ( \cdots \to 0 \to U(1) \to 0 )
+  \,\coloneqq\, ( \cdots \to 0 \to U(1) \to 0 )
   \,.
 $$
 
@@ -1099,7 +1099,7 @@ A &#268;ech cocycle for
 
 $$
   U(1)[2]
-  := ( \cdots \to 0 \to U(1) \to 0 \to 0 )
+  \,\coloneqq\, ( \cdots \to 0 \to U(1) \to 0 \to 0 )
   \,.
 $$
 
