@@ -95,7 +95,7 @@ Note that we still have a functor $Disc\colon Set \to Cat$ which regards an equi
 
 ### Type and preset theories without equality
 
-If types or presets do not come with a notion of equality, as in some preset theories and [[SEAR+?]], then a category does not in general even *have* an "underlying set of objects", so a category cannot be made into a strict category in any canonical way.  But defining sets as presets with equivalence relations as before, we still have $Disc\colon Set \to Cat$, and we can define strict categories, constructing specific examples as wanted.
+If types or presets do not come with a notion of equality, as in some preset theories and [[SEAR+ε]], then a category does not in general even *have* an "underlying set of objects", so a category cannot be made into a strict category in any canonical way.  But defining sets as presets with equivalence relations as before, we still have $Disc\colon Set \to Cat$, and we can define strict categories, constructing specific examples as wanted.
 
 
 ### Homotopy type theory
