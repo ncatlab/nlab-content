@@ -11,11 +11,11 @@
 
 * [[SEAR plus epsilon]]
 
-[[!redirects ETCS plus ?]]
-[[!redirects ETCS plus ?]]
+[[!redirects ETCS plus ε]]
+[[!redirects ETCS plus ϵ]]
 [[!redirects ETCS+epsilon]]
-[[!redirects ETCS+?]]
-[[!redirects ETCS+?]]
+[[!redirects ETCS+ε]]
+[[!redirects ETCS+ϵ]]
 [[!redirects ETCS epsilon]]
-[[!redirects ETCS ?]]
-[[!redirects ETCS ?]]
+[[!redirects ETCS ε]]
+[[!redirects ETCS ϵ]]
