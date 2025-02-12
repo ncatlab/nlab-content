@@ -14,6 +14,7 @@
 =--
 =--
 
+> For more see at *[[Yang-Baxter equation]]*.
 
 
 #Contents#
@@ -96,17 +97,25 @@ where the subscripts indicate which tensor factors are being utilized.
 
 ## References
 
-Original texts:
+The ([[quantum Yang-Baxter equation|quantum]]) *Yang-Baxter equation* was named (cf. [Perk & Au-Yang 2006](#PerkAu-Yang06)) by [[Ludwig Fadeev]] in the late 1970s, in honor of:
+
+* [[Chen Ning Yang]]: *Some Exact Results for the Many-Body Problem in one Dimension with Repulsive Delta-Function Interaction*, Phys. Rev. Lett. **19** (1967) 1312 &lbrack;[doi:10.1103/PhysRevLett.19.1312](https://doi.org/10.1103/PhysRevLett.19.1312)&rbrack;
+
+* [[Chen Ning Yang]]: *S Matrix for the One-Dimensional $N$-Body Problem with Repulsive or Attractive $\delta$-Function Interaction*, Phys. Rev. **168** (1968) 1920 &lbrack;[doi:10.1103/PhysRev.168.1920](https://doi.org/10.1103/PhysRev.168.1920)&rbrack;
+
+and
 
 * {#Baxter78} [[Rodney J. Baxter]], *Solvable eight-vertex model on an arbitrary planar lattice*, Philos. Trans. Royal Society A **289** 1359 (1978) &lbrack;[doi:10.1098/rsta.1978.0062](https://doi.org/10.1098/rsta.1978.0062)&rbrack;
 
 * {#Baxter82} [[Rodney J. Baxter]], *Exactly Solved Models in Statistical Mechanics*, Academic Press (1982) &lbrack;[webpage](https://physics.anu.edu.au/research/ftp/mpg/baxter_book.php), [pdf](https://physics.anu.edu.au/research/ftp/_files/Exactly.pdf)&rbrack;
 
-Introductions:
+Introduction and review:
 
 * [[Michio Jimbo]], *Introduction to the Yang-Baxter Equation*, Int. J. Modern Physics A **4** 15 (1989) 3759-3777 &lbrack;[doi:10.1142/S0217751X89001503](https://doi.org/10.1142/S0217751X89001503)&rbrack; 
 
   reprinted in: *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) &lbrack;[doi:10.1142/0796](https://doi.org/10.1142/0796)&rbrack;
+
+* {#PerkAu-Yang06} Jacques H. H. Perk, Helen Au-Yang: *Yang-Baxter Equations*, Encyclopedia of Mathematical Physics **5** (2006) 465-473 &lbrack;[arXiv:math-ph/0606053](https://arxiv.org/abs/math-ph/0606053)&rbrack;
 
 
 See also:
