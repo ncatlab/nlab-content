@@ -1,4 +1,7 @@
 
+$$
+  \check R
+$$
 
 Genons:
 
