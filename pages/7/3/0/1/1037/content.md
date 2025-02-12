@@ -487,7 +487,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * [[groupoid object in an (∞,1)-category]]
 
-  * [[?ech nerve]]
+  * [[Čech nerve]]
 
   * [[effective epimorphism]]
 
