@@ -86,6 +86,16 @@ with emphasis on strong-correlation (cf. [[non-perturbative QFT]]):
 
 *  Alvaro Ferraz, [[Kumar S. Gupta]], [[Gordon W. Semenoff]], Pasquale Sodano (eds): *Strongly Coupled Field Theories for Condensed Matter and Quantum Information Theory*, Springer Proceedings in Physics **239**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-35473-2](https://doi.org/10.1007/978-3-030-35473-2), [pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-35473-2.pdf)&rbrack;
 
+with focus on [[topological phases of matter]]:
+
+* Kang L. Wang, Yingying Wu, Christopher Eckberg, Gen Yin, Quanjun Pan: *Topological quantum materials*, MRS Bulletin **45** (2020) 373–379 &lbrack;[doi:10.1557/mrs.2020.122](https://doi.org/10.1557/mrs.2020.122)&rbrack;
+
+* Nitesh Kumar, Satya N. Guin, Kaustuv, Manna, Chandra Shekhar, Claudia Felser: *Topological Quantum Materials from the Viewpoint of Chemistry*, Chemical Reviews **121** 5 (2020) &lbrack;[doi:10.1021/acs.chemrev.0c00732](https://pubs.acs.org/doi/full/10.1021/acs.chemrev.0c00732)&rbrack;
+
+* Junjie Wu, Ying Zhang, Bin Xiang: *Synthesis, properties, and applications of topological quantum materials*, JUSTC **53** 10 (2023) 1002 &lbrack;[doi:10.52396/JUSTC-2023-0024](https://doi.org/10.52396/JUSTC-2023-0024)&rbrack;
+
+
+
 with an eye towards [[topological quantum computation]]:
 
 * [[Tudor D. Stanescu]], *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
