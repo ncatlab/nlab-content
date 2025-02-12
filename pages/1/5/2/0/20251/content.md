@@ -1,10 +1,9 @@
 
-
-
-
 * [webpage](https://www.muni.cz/en/people/28787-jiri-vanzura)
 
 * [webpage](http://www.math.cas.cz/homepage/main_page.php?id_membre=74)
+
+* [MathSciNet profile](https://mathscinet.ams.org/mathscinet/author?authorId=177145)
 
 ## selected writings
 
