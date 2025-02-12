@@ -78,11 +78,9 @@ Examples of epsilontic proofs include
 [[!redirects epsilontic]]
 [[!redirects epsilon-delta analysis]]
 [[!redirects epsilon--delta analysis]]
-[[!redirects epsilon?delta analysis]]
-[[!redirects ∞-∞ analysis]]
+[[!redirects epsilon-delta analysis]]
+[[!redirects ε-δ analysis]]
 [[!redirects epsilon-delta]]
 [[!redirects epsilon--delta]]
-[[!redirects epsilon?delta]]
-[[!redirects ∞-∞]]
-
-
+[[!redirects epsilon-delta]]
+[[!redirects ε-δ]]
