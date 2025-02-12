@@ -23,7 +23,7 @@
 
 ## Idea 
 
-A **universe** in a [[topos]] is a [[topos theory|topos-theoretic]] version of the notion of ?[[Grothendieck universes]]*; see that page for general motivation and applications.
+A **universe** in a [[topos]] is a [[topos theory|topos-theoretic]] version of the notion of [[Grothendieck universes]]; see that page for general motivation and applications.
 
 To free the notion from membership-based [[set theory]], we must replace _sets of sets_ by _families of sets_, just as in passing from [[power sets]] to [[power objects]] we must replace sets of subsets by families of subsets.
 
