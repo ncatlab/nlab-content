@@ -205,8 +205,8 @@ and in section 5 of
 [[!redirects propositions-as-sets]]
 
 [[!redirects Curry-Howard correspondence]]
-[[!redirects Curry?Howard correspondence]]
+[[!redirects Curry–Howard correspondence]]
 [[!redirects Curry--Howard correspondence]]
 [[!redirects Curry-Howard isomorphism]]
-[[!redirects Curry?Howard isomorphism]]
+[[!redirects Curry–Howard isomorphism]]
 [[!redirects Curry--Howard isomorphism]]
