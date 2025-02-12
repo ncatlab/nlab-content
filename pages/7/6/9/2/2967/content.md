@@ -14,7 +14,7 @@ Recall from the discussion at [[Courant algebroid]] that there are the following
 
 * as a [[vector bundle]] equipped with a bracket and a bilinear form on its space of sections, satisfying various identities;
 
-* as a [[L-infinity algebroid|Lie 2-algebroid]] equivalently encoded in its [[Chevalley?Eilenberg algebra]], equivalently the function algebra on a certain type of [[dg-manifolds]].
+* as a [[L-infinity algebroid|Lie 2-algebroid]] equivalently encoded in its [[Chevalley–Eilenberg algebra]], equivalently the function algebra on a certain type of [[dg-manifolds]].
 
 ### As a vector bundle with extra structure 
 
@@ -64,7 +64,7 @@ given by
 
 ### As a Lie 2-algebroid
 
-We may read the above [[dg-algebra]] as the [[Chevalley?Eilenberg algebra]] $CE(\mathfrak{c}(X))$ of the [[Lie ∞-algebroid|Lie 2-algebroid]] $\mathfrak{c}(X)$, the specification of which entirely specifies the Lie 2-algebroid itself. 
+We may read the above [[dg-algebra]] as the [[Chevalley–Eilenberg algebra]] $CE(\mathfrak{c}(X))$ of the [[Lie ∞-algebroid|Lie 2-algebroid]] $\mathfrak{c}(X)$, the specification of which entirely specifies the Lie 2-algebroid itself. 
 
 More on this in the discussion below.
 
@@ -102,12 +102,12 @@ On base manifolds of the form $X = \mathbb{R}^n$ sections of $\mathfrak{c}(X) \t
 
 =--
 
-The proof is straightforward and easy, but spelling it out in detail also serves to establish concepts and notation for the treatment of the Courant algebroid in terms of its [[Chevalley?Eilenberg algebra]].
+The proof is straightforward and easy, but spelling it out in detail also serves to establish concepts and notation for the treatment of the Courant algebroid in terms of its [[Chevalley–Eilenberg algebra]].
 
 +-- {: .proof}
 ###### Proof
 
-The [[Chevalley?Eilenberg algebra]] of the Lie 2-algebroid $\mathfrak{c}(\mathbb{R}^n)$ is the [[semifree dga]] whose underlying algebra is the [[Grassmann algebra]]
+The [[Chevalley–Eilenberg algebra]] of the Lie 2-algebroid $\mathfrak{c}(\mathbb{R}^n)$ is the [[semifree dga]] whose underlying algebra is the [[Grassmann algebra]]
 
 $$
   CE(\mathfrak{c}(X))
@@ -147,7 +147,7 @@ $$
 
 where $\{x^i\}_{i=1}^n$ are the canonical coordinate functions on $\mathbb{R}^n$.
 
-The [[Chevalley?Eilenberg algebra]] of the [[tangent Lie algebroid]] $T X$ is the [[deRham complex]] 
+The [[Chevalley–Eilenberg algebra]] of the [[tangent Lie algebroid]] $T X$ is the [[deRham complex]] 
 
 $$
   CE(T X ) = (\Omega^\bullet(X), d_{dR})
