@@ -113,7 +113,7 @@ See also:
 
 A generalization in the setup of [[coring]]s:
 
-* [[Tomasz Brzezi?ski]], _Descent cohomology and corings_, Comm Algebra 36:1894-1900, 2008, [math.RA/0601491](http://arxiv.org/abs/math/0601491)
+* [[Tomasz Brzeziński]], _Descent cohomology and corings_, Comm Algebra 36:1894-1900, 2008, [math.RA/0601491](http://arxiv.org/abs/math/0601491)
 
 In a [[model theory|model theoretic]] context:
 
