@@ -18,7 +18,7 @@
 
 ## Idea
 
-The _geometric [[homotopy group]]s_ of a [[Lie groupoid]] $X$ are those of its [[nLab:geometric realization]] $|X|$ when regarded as a [[simplicial manifold]]. Equivalently, regarding $X$ as an object in the [[(∞,1)-topos]] [[?LieGrpd]], its homotopy groups are those of the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] $\Pi(X) \in $ [[∞Grpd]].
+The _geometric [[homotopy group]]s_ of a [[Lie groupoid]] $X$ are those of its [[nLab:geometric realization]] $|X|$ when regarded as a [[simplicial manifold]]. Equivalently, regarding $X$ as an object in the [[(∞,1)-topos]] [[∞LieGrpd]], its homotopy groups are those of the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] $\Pi(X) \in $ [[∞Grpd]].
  
 ## Definition
 
@@ -38,7 +38,7 @@ be its [[nerve]] regarded as a [[simplicial manifold]].
 +-- {: .un_remark}
 ###### Remark
 
-When regarding each manifold $X_n$ as a [[diffeological space]], hence a [[sheaf]] on the [[site]] [[CartSp]] then $X_\bullet in PSh(CartSp)^{\Delta^{op}} \simeq [CartSp^{op},sSet]$ is the [[simplicial presheaf]] on [[CartSp]] that presents $X$ as an object in the [[(∞,1)-topos]] [[?LieGrpd]] of [[∞-Lie groupoid]]s.
+When regarding each manifold $X_n$ as a [[diffeological space]], hence a [[sheaf]] on the [[site]] [[CartSp]] then $X_\bullet in PSh(CartSp)^{\Delta^{op}} \simeq [CartSp^{op},sSet]$ is the [[simplicial presheaf]] on [[CartSp]] that presents $X$ as an object in the [[(∞,1)-topos]] [[∞LieGrpd]] of [[∞-Lie groupoid]]s.
 
 =--
 
@@ -62,7 +62,7 @@ In this form the definition originates in ([Segal](#Segal)).
 
 ## Properties
 
-Regard $X$ as an [[∞-Lie groupoid]] under the natural embedding $LieGrpd \hookrightarrow \infty LieGrpd$. By the discussion at [[?LieGrpd]] this is a [[locally ∞-connected (∞,1)-topos]], which means that its terminal [[geometric morphism]] comes with a further [[left adjoint]] $\Pi$
+Regard $X$ as an [[∞-Lie groupoid]] under the natural embedding $LieGrpd \hookrightarrow \infty LieGrpd$. By the discussion at [[∞LieGrpd]] this is a [[locally ∞-connected (∞,1)-topos]], which means that its terminal [[geometric morphism]] comes with a further [[left adjoint]] $\Pi$
 
 $$
   (\Pi \dashv \Delta \dashv \Gamma) : \infty LieGrpd \to \infty Grpd
