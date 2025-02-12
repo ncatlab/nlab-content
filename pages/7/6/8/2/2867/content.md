@@ -420,9 +420,9 @@ Related discussion in the context of [[(infinity,n)-categories]] is also in
 
 
 
-[[!redirects ? category]]
+[[!redirects Θ category]]
 [[!redirects Theta-category]]
-[[!redirects ? categories]]
+[[!redirects Θ categories]]
 [[!redirects Theta-categories]]
 [[!redirects disk category]]
 [[!redirects disk categories]]
