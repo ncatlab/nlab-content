@@ -31,6 +31,13 @@ Introducing [[Yang-Mills theory]] ([[non-abelian group|non-abelian]] [[gauge the
 
 * [[Chen Ning Yang]], [[Robert Mills]], _Conservation of Isotopic Spin and Isotopic Gauge Invariance_. Physical Review **96** 1 191-195 (1954) &lbrack;[web](http://prola.aps.org/abstract/PR/v96/i1/p191_1)&rbrack;
 
+On [[quantum many-body physics]] with early discussion of what came to be called the ([[quantum Yang-Baxter equation|quantum]]) *[[Yang-Baxter equation]]*:
+
+* [[Chen Ning Yang]]: *Some Exact Results for the Many-Body Problem in one Dimension with Repulsive Delta-Function Interaction*, Phys. Rev. Lett. **19** (1967) 1312 &lbrack;[doi:10.1103/PhysRevLett.19.1312](https://doi.org/10.1103/PhysRevLett.19.1312)&rbrack;
+
+* [[Chen Ning Yang]]: *S Matrix for the One-Dimensional $N$-Body Problem with Repulsive or Attractive $\delta$-Function Interaction*, Phys. Rev. **168** (1968) 1920 &lbrack;[doi:10.1103/PhysRev.168.1920](https://doi.org/10.1103/PhysRev.168.1920)&rbrack;
+
+
 On the [[braid group]], [[knot theory]] and [[braid representations]] via the [[quantum Yang-Baxter equation]]:
 
 * [[Chen Ning Yang]], M. L. Ge (eds.), *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) &lbrack;[doi:10.1142/0796](https://doi.org/10.1142/0796)&rbrack;
