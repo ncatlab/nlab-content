@@ -29,12 +29,17 @@ On the [hypergeometric integral construction](Knizhnik-Zamolodchikov+equation#Br
 
 On [[hypergeometric functions]], the [[Knizhnik-Zamolodchikov equation]] and [[quantum groups]]:
 
-* [[Alexander Varchenko]], *Asymptotic solutions to the Knizhnik-Zamolodchikov equation and crystal base*,  Comm. Math. Phys. **171** 1  (1995) 99-137 $[$[arXiv:hep-th/9403102](https://arxiv.org/abs/hep-th/9403102), [doi:10.1007/BF02103772](https://doi.org/10.1007/BF02103772)$]$ 
+* [[Alexander Varchenko]], *Asymptotic solutions to the Knizhnik-Zamolodchikov equation and crystal base*,  Comm. Math. Phys. **171** 1  (1995) 99-137 &lbrack;[arXiv:hep-th/9403102](https://arxiv.org/abs/hep-th/9403102), [doi:10.1007/BF02103772](https://doi.org/10.1007/BF02103772)&rbrack;
 
 
 * [[Alexander Varchenko]], _Multidimensional hypergeometric functions and representation theory of Lie algebras and quantum groups_, Adv. Ser. in Math. Phys. __21__, World Sci. Publ. 1995. x+371 pp. ([doi:10.1142/2467](https://doi.org/10.1142/2467))
 
 * V. Tarasov, [[Alexander Varchenko]], _Geometry of $q$-hypergeometric functions, quantum affine algebras and elliptic quantum groups_, Ast&#233;risque __246__ (1997), vi+135 pp. ([arXiv:q-alg/9703044](https://arxiv.org/abs/q-alg/9703044), [numdam:AST_1997__246__R1_0](http://www.numdam.org/item/AST_1997__246__R1_0))
+
+
+On the [[classical Yang-Baxter equation]]:
+
+* [[Pavel Etingof]], [[Alexander Varchenko]]: *Geometry and classification of solutions of the Classical Dynamical Yang-Baxter Equation*, Comm Math Phys **192** (1998) 77–120  &lbrack;[arXiv:q-alg/9703040](https://arxiv.org/abs/q-alg/9703040), [doi;10.1007/s002200050292](https://doi.org/10.1007/s002200050292)&rbrack;
 
 
 On [[Lie algebra weight systems]] for the [[special linear Lie algebra]] $\mathfrak{sl}(2)$:
@@ -46,6 +51,7 @@ On [[Lie algebra weight systems]] for the [[special linear Lie algebra]] $\mathf
 Further on 1-[[twisted de Rham cohomology]] related to [[sl(2)|$\mathfrak{sl}(2)$]]-[[Verma modules]]:
 
 * {#SlinkinVarchenko19} [[Alexey Slinkin]], [[Alexander Varchenko]], *Twisted de Rham Complex on Line and Singular Vectors in $\widehat{\mathfrak{sl}}_2$ Verma Modules*, SIGMA **15** (2019) 075 &lbrack;[arXiv:1812.09791](https://arxiv.org/abs/1812.09791), [doi:10.3842/SIGMA.2019.075](https://doi.org/10.3842/SIGMA.2019.075)&rbrack;
+
 
 
 ## Related entries
