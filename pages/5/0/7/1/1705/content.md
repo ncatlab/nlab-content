@@ -386,8 +386,8 @@ See also:
 
 [[!redirects Dwyer-Kan localization]]
 [[!redirects Dwyer-Kan localisation]]
-[[!redirects Dwyer?Kan localization]]
-[[!redirects Dwyer?Kan localisation]]
+[[!redirects Dwyer–Kan localization]]
+[[!redirects Dwyer–Kan localisation]]
 [[!redirects Dwyer--Kan localization]]
 [[!redirects Dwyer--Kan localisation]]
 [[!redirects Hammock-Localization]]
