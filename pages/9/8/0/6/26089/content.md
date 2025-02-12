@@ -82,7 +82,7 @@ A foundational book on [[homological algebra]]:
 ### 2. Resolutions of sequences 78
 ### 3. Definition of "derived functors 82
 ### 4. Connecting homomorphisms 84
-### 5. The functors R?T and L^T 89
+### 5. The functors $R^0 T$ and $L_0 T$ 89
 ### 6. Comparison with satellites 90
 ### 7. Computational devices 91
 ### 8. Partial derived functors 94
