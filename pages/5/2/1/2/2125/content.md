@@ -250,7 +250,7 @@ are not [[symmetric monoidal functor]]s, i.e. they do not respect the [[symmetri
 
 =--
 
-This implies that generalized [[Eilenberg?Mac Lane spectra]] on [[differential graded algebra|differential graded commutative algebras]] are [[E-k operad|E-infinity monoids]] in the category of $H \mathbb{Z}$-[[module]] [[spectrum|spectra]].
+This implies that generalized [[Eilenberg–Mac Lane spectra]] on [[differential graded algebra|differential graded commutative algebras]] are [[E-k operad|E-infinity monoids]] in the category of $H \mathbb{Z}$-[[module]] [[spectrum|spectra]].
 
 
 The article ([Richter](#Richter)) shows that the inverse $\Xi$ from chain complexes to simplicial abelian groups sends algebras over arbitrary differential graded [[E-k operad|E-infinity-operad]] to [[E-k-operad|E-infinity-algebra]] in simplicial modules, and is part of a [[Quillen adjunction]] for these.
