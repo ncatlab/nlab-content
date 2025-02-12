@@ -209,7 +209,7 @@ between the corresponding [[delooping|delooped]] [[2-groupoid | 2-groupoids]]. E
   $$
     AUT(H) 
     \coloneqq
-    (G_2 = H, G_1 = Aut(H), \delta = Id, \alpha = Ad)
+    (G_2 = H, G_1 = Aut(H), \delta = Ad, \alpha = Id)
    \,.
   $$ 
 
