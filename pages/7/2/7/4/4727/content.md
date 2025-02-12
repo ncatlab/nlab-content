@@ -343,7 +343,7 @@ Notice that in full [[∞-Chern-Weil theory]] the fundamental object of interest
 
 the object $\exp(\mathfrak{g})_{CW}$ may contain pseudo-connections, those for which at least the associated [[circle n-bundles with connection]] given by the $\infty$-Chern Weil homomorphism are genuine connections.
 
-This distinction is important: over objects $X \in $ [[?LieGrpd]] that are not [[smooth manifold]]s but for instance [[orbifold]]s, the genuine connections for higher Lie algebras do _not_ exhaust all nonabelian differential cocycles. This just means that not every differential class in this case does have a nice representative in the usual sense.
+This distinction is important: over objects $X \in $ [[∞LieGrpd]] that are not [[smooth manifold]]s but for instance [[orbifold]]s, the genuine connections for higher Lie algebras do _not_ exhaust all nonabelian differential cocycles. This just means that not every differential class in this case does have a nice representative in the usual sense.
 
 =--
 
