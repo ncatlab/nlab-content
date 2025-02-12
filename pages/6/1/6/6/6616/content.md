@@ -521,7 +521,7 @@ of [[simplicial presheaves]]. Now the same argument as above applies on $P_* X$.
 
 Some ideas pointing to higher symplectic groupoids were indicated in 
 
-* [[Pavol ?evera]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv:math/0105080](http://arxiv.org/abs/math/0105080)).
+* [[Pavol Ševera]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv:math/0105080](http://arxiv.org/abs/math/0105080)).
  {#Severa}
 
 Aspects of the relation to [[multisymplectic geometry]] are in
