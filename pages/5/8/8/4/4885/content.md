@@ -24,7 +24,7 @@ The moves were introduced in the book [Reidemeister](#Reidemeister).
 
 ## Definition
 
-The convention below is that part of a [[link diagram]] is shown with the 'move' indicated, but that outside that, the diagram of the link is unchanged. As usual in knot theory, everything is up to [[planar isotopy]].
+The convention below is that part of a [[link diagram]] is shown with the 'move' indicated, but that outside that, the diagram of the link is unchanged. As usual in knot theory, everything is up to planar [[isotopy]].
 
 \begin{defn} The _first Reidemeister move_, or _R1 move_, allows either of the following replacements of a fragment of a link diagram to be made.
 
@@ -68,11 +68,18 @@ A slightly deeper observation is that the [[linking number]] is a link invariant
 
 [[colourable knot|3-colourability]] is a [[knot invariant]] as is easy to check. This shows, for instance, that the trefoil knot is not equivalent to the unknot, and hence shows, very simply, that non-trivial knots exist. It also shows that the figure eight knot is not equivalent to the trefoil.
 
-## References
-The original source is the following.
 
-* [[K. Reidemeister]], _Knotentheorie,_ Ergebnisse der Mathematik (1932)
-{#Reidemeister}
+## Related concepts
+
+* [[Yang-Baxter equation]]
+
+
+## References
+
+The original article:
+
+* {#Reidemeister} [[Kurt Reidemeister]], _Knotentheorie,_ Ergebnisse der Mathematik (1932)
+
 
 Simple examples of invariants under the Reidemeister Moves are given in, for instance, the following.
 
