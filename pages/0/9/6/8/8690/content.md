@@ -34,7 +34,7 @@ A *Yang-Baxter equation* (YBE) is, in some form or other, an [[algebra|algebraic
     }
 \end{imagefromfile}
 
-which as such as also known as the [2nd Artin braid relation](braid+group#2ndArtinRelation) or the [[3rd Reidemeister move]] for [[framed links]].
+which is also known as the *[2nd Artin braid relation](braid+group#2ndArtinRelation)* or the *[[3rd Reidemeister move]] for [[framed links]]*.
 
 ### Quantum YBE
 
@@ -61,7 +61,7 @@ Interpreting the isotopy (eq:TheIsotopy) as an [[equality]] of [[string diagrams
 
 as an [[equation]] in [[endomorphisms|$End(V \otimes V \otimes V)$]] (where we are notationally suppressing [[associators]], in full this is diagram B7 in [Joyal & Street 1985](braided+monoidal+category#JoyalStreet85) [p 7](https://ncatlab.org/nlab/files/JoyalStreet-BraidedMonoidal85.pdf#page=7)).
 
-This equation (eq:PlainQuantumYBE) -- on any map $R$ of the form $R \,\colon\, V \otimes V \to V \otimes V$ (not necessarily the ambient [[braiding]] structure map) -- is called the plain *[[quantum Yang-Baxter equation]]*. 
+This equation (eq:PlainQuantumYBE) --- on any map $R$ of the form $R \,\colon\, V \otimes V \to V \otimes V$ (not necessarily the ambient [[braiding]] structure map) --- is called the plain *[[quantum Yang-Baxter equation]]*. 
 
 If $V \otimes V$ is the [[tensor product of vector spaces|tensor product of]] a [[finite-dimensional vector space]] $V$ with itself, then any choice of [[linear basis]] $V \simeq k^d$ identifies the [[linear map]] $R$ with a [[matrix]] $(R_{n_1, n_2}^{m_1, m_2})_{n_i, m_i = 1}^{d}$, thus traditionally called an *[[R-matrix]]*.
 
@@ -205,6 +205,7 @@ This spectral form (eq:MultiplicativeSpectrallyParameterizedQuantumYBEquation) i
 
 
 ## Variants 
+ {#Variants}
 
 Beware that the term _Yang-Baxter equation_ can mean (or be interpreted in the context of) any of several related but different concepts:
 
@@ -213,6 +214,9 @@ Beware that the term _Yang-Baxter equation_ can mean (or be interpreted in the c
 
 
 ## References
+ {#References}
+
+> for more see at *[[quantum Yang-Baxter equation|quantum YBE]]*, *[[classical Yang-Baxter equation|classical YBE]]*, [etc.](#Variants)
 
 The ([[quantum Yang-Baxter equation|quantum]]) *Yang-Baxter equation* was named (cf. [Perk & Au-Yang 2006](#PerkAu-Yang06)) by [[Ludwig Fadeev]] in the late 1970s, in honor of:
 
@@ -222,10 +226,12 @@ The ([[quantum Yang-Baxter equation|quantum]]) *Yang-Baxter equation* was named 
 
 and
 
-* {#Baxter78} [[Rodney J. Baxter]], *Solvable eight-vertex model on an arbitrary planar lattice*, Philos. Trans. Royal Society A **289** 1359 (1978) &lbrack;[doi:10.1098/rsta.1978.0062](https://doi.org/10.1098/rsta.1978.0062)&rbrack;
+* {#Baxter72} [[Rodney J. Baxter]]: *Partition function of the Eight-Vertex lattice model*, Annals of Physics **70** 1 (1972) 193-228 \[<a href="https://doi.org/10.1016/0003-4916(72)90335-1">doi:10.1016/0003-4916(72)90335-1</a>\]
+
+* {#Baxter78} [[Rodney J. Baxter]]: *Solvable eight-vertex model on an arbitrary planar lattice*, Philos. Trans. Royal Society A **289** 1359 (1978) &lbrack;[doi:10.1098/rsta.1978.0062](https://doi.org/10.1098/rsta.1978.0062)&rbrack;
 
 * {#Baxter82} [[Rodney Baxter]]: *Exactly Solved Models in Statistical Mechanics*, Academic Press (1982, 1984, 1989) &lbrack;[webpage](https://physics.anu.edu.au/research/ftp/mpg/baxter_book.php), [pdf](https://physics.anu.edu.au/research/ftp/_files/Exactly.pdf)&rbrack;
-  > (who spoke of the "star-triangle relation").
+  > (who spoke instead of the "star-triangle relation").
 
 
 Reviews:
@@ -235,6 +241,12 @@ Reviews:
   reprinted in: *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) &lbrack;[doi:10.1142/0796](https://doi.org/10.1142/0796)&rbrack;
 
 * {#PerkAu-Yang06} Jacques H. H. Perk, Helen Au-Yang: *Yang-Baxter Equations*, Encyclopedia of Mathematical Physics **5** (2006) 465-473 &lbrack;[arXiv:math-ph/0606053](https://arxiv.org/abs/math-ph/0606053)&rbrack;
+
+Literature collection with focus on application to [[integrable systems]]:
+
+* [[Michio Jimbo]] (ed.): *Yang-Baxter Equation in Integrable Systems*, Advanced Series in Mathematical Physics **10**, World Scientific (1990) &lbrack;[doi:10.1142/1021](https://doi.org/10.1142/1021)&rbrack;
+
+
 
 
 
