@@ -194,7 +194,7 @@ and for $k \in \mathbb{N}$ the [[order of a distribution|order]] of $u$.
 
 [[!redirects Dirac delta]]
 [[!redirects Dirac deltas]]
-[[!redirects Dirac ?]]
+[[!redirects Dirac δ]]
 
 [[!redirects delta-function]]
 [[!redirects delta-functions]]
