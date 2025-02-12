@@ -80,7 +80,7 @@ review in, e.g.:  [Fox & Neuwirth 1962, §7](#FoxNeuwirth62)):
 
 The **Artin braid group**, $Br({n+1})$, on $n+1$ strands is the [[finitely generated group]] given via [[generators and relations]] by (this and the following graphics are taken from [[schreiber:Topological Quantum Gates in Homotopy Type Theory|Myers et al. (2023)]]):
 
-* generators: 
+* {#ArtinGenerators} generators: 
 
   \[
     \label{ArtinGenerators}
@@ -571,7 +571,7 @@ b_i^{-1}
 
 \linebreak
 
-* relations II ([[Yang-Baxter equation]])
+* {#2ndArtinRelation} relations II ([[Yang-Baxter equation]])
 
   \[
     \underset{
