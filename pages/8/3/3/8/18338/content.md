@@ -88,7 +88,7 @@ See [[non-canonical isomorphism]] for examples of *natural* isomorphisms that ar
 
 ## References
 
-* {#AHRT} [[Adamek|Ji?í Adámek]], [[Horst Herrlich]], [[Rosicky|Ji?í Rosický]], and [[Walter Tholen]], *Injective Hulls are not Natural*, algebra universalis
+* {#AHRT} [[Adamek|Jiří Adámek]], [[Horst Herrlich]], [[Rosicky|Jiří Rosický]], and [[Walter Tholen]], *Injective Hulls are not Natural*, algebra universalis
 Volume 48, Issue 4 (December 2002), 379&#8211;388. ([Citeseer link](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.8.194))
 
 * A. Barkhudaryan, V. Koubek, and V. Trnkova, _Structural properties of endofunctors_, Cahiers de topologie et géométrie différentielle catégoriques 47.4 (2006): 242-260.
