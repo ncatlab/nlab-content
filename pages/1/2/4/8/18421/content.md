@@ -57,7 +57,7 @@ These two happen to constitute [[cohesive ∞-toposes]], due to the local contra
 [[!redirects topological ∞-groupoid]]
 [[!redirects topological ∞-groupoids]]
 
-[[!redirects ?TopGrpd]]
+[[!redirects ∞TopGrpd]]
 
 [[!redirects continuous infinity-groupoid]]
 [[!redirects continuous infinity-groupoids]]
