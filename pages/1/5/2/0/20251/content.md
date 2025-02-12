@@ -1,18 +1,24 @@
 
-* [webpage](https://www.muni.cz/en/people/28787-jiri-vanzura)
-
-* [webpage](http://www.math.cas.cz/homepage/main_page.php?id_membre=74)
+* [institute page](https://www.muni.cz/en/people/28787-jiri-vanzura)
 
 * [MathSciNet profile](https://mathscinet.ams.org/mathscinet/author?authorId=177145)
 
-## selected writings
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Jiri-Vanzura-46374344)
 
-* {#CadekVanzura92} [[Martin Čadek]], [[Jiří Vanžura]], _On oriented vector bundles over CW-complexes of dimension 6 and 7_, Comment. Math. Univ. Carolin. 33,4(1992)727–736 ([pdf](http://emis.impa.br/EMIS/journals/CMUC/pdf/cmuc9204/cadek.pdf)) 
+* [Oberwolfach photo](http://owpdb.mfo.de/person_detail?id=8863)
+
+
+## Selected writings
+
+On [[vector bundles]] and certain [[G-structures]] over [[low-dimensional topology|low-dimensional]] [[CW-complexes]]:
+
+* {#CadekVanzura92} [[Martin Čadek]], [[Jiří Vanžura]], _On oriented vector bundles over CW-complexes of dimension 6 and 7_, Comment. Math. Univ. Carolin. 33,4 (1992) 727–736 ([pdf](http://emis.impa.br/EMIS/journals/CMUC/pdf/cmuc9204/cadek.pdf)) 
 
 
 * {#CadekVanzura93} [[Martin Čadek]], [[Jiří Vanžura]], _On the classification of oriented vector bundles over 5-complexes_, Czechoslovak Mathematical Journal, Vol. 43 (1993), No. 4, 753–764 ([dml:128427](https://dml.cz/handle/10338.dmlcz/128427))
 
 * {#CadekVanzura95} [[Martin Čadek]], [[Jiří Vanžura]], _On the existence of 2-fields in 8-dimensional vector bundles over 8-complexes_, Commentationes Mathematicae Universitatis Carolinae, vol. 36 (1995), issue 2, pp. 377-394 ([dml-cz:118764](https://dml.cz/handle/10338.dmlcz/118764))
+
 
 * {#CadekVanzura97} [[Martin Čadek]], [[Jiří Vanžura]], _On $Sp(2)$ and $Sp(2) \cdot Sp(1)$-structures  in 8-dimensional vector bundles_, Publicacions Matemàtiques Vol. 41, No. 2 (1997), pp. 383-401 ([jstor:43737249](https://www.jstor.org/stable/43737249))
 
@@ -26,8 +32,13 @@
 
 * {#CadekCrabbVanzura10} [[Martin Čadek]], Michael Crabb, [[Jiří Vanžura]], _Quaternionic structures_, Topology and its Applications Volume 157, Issue 18, 1 December (2010), Pages 2850-2863 ([doi:10.1016/j.topol.2010.09.005](https://doi.org/10.1016/j.topol.2010.09.005))
 
+On [[smooth algebra|$C^\infty$-rings]]:
 
-## related $n$Lab entries
+* [[Peter Michor]], [[Jiří Vanžura]]: *Characterizing algebras of $C^\infty$-functions on manifolds*, Comment. Math. Univ. Carolin. **37** 3 (1996) 519–521
+&lbrack;[arXiv:math/9404228](https://arxiv.org/abs/math/9404228), [eudml:247941](https://eudml.org/doc/247941), [pdf](http://www.emis.de/journals/CMUC/pdf/cmuc9603/michor.pdf)&rbrack;
+
+
+## Related entries
 
 * [[5-manifold]], [[8-manifold]]
 
