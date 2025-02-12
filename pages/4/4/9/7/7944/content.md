@@ -56,7 +56,7 @@
 
 * [[Borel-Weil-Bott theorem]]
 
-* [[Be?linson-Bernstein localization]]
+* [[Beilinson-Bernstein localization]]
 
 * [[Kazhdan-Lusztig theory]]
 
