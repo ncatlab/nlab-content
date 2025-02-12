@@ -46,7 +46,7 @@ Some comments from [[Ronnie Brown]] himself:
 
 > I hope it is helpful to relate my experiences from the 1960s and later with [[nonabelian cohomology]].
 
-> In writing my book on [[topology]] in the 1960s, I got offended by having to make a detour to get the [[fundamental group]] of the circle, and then was attracted by [[Paul Olum]]'s paper referenced below. I extended Olum's work to a [[Mayer-Vietoris sequence|Mayer?Vietoris type sequence]] in the second paper below, and this enabled one to compute the fundamental group of, for example,  a [[wedge product|wedge]] of circles.
+> In writing my book on [[topology]] in the 1960s, I got offended by having to make a detour to get the [[fundamental group]] of the circle, and then was attracted by [[Paul Olum]]'s paper referenced below. I extended Olum's work to a [[Mayer-Vietoris sequence|Mayer–Vietoris type sequence]] in the second paper below, and this enabled one to compute the fundamental group of, for example,  a [[wedge product|wedge]] of circles.
 
 > (I use an MV sequence in _Topology and Groupoids_ in connection with pullbacks of [[covering space]]s.)
 
