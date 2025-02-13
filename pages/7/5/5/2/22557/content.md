@@ -33,11 +33,11 @@ Introducing the *[[DQC1]]* [[quantum complexity theory|quantum complexity]] [[co
 
 
 
-On [[quantum computation]]:
+On [[quantum computing]]:
 
 * [[Phillip Kaye]], [[Raymond Laflamme]], [[Michele Mosca]], *An Introduction to Quantum Computing*, Oxford University Press (2007) &lbrack;[pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149125645.pdf), [ISBN:9780198570493](https://global.oup.com/academic/product/an-introduction-to-quantum-computing-9780198570493?cc=at&lang=en&)&rbrack;
 
-
+* T. D. Ladd, F. Jelezko, [[Raymond Laflamme]], Y. Nakamura, C. Monroe & J. L. O’Brien: *Quantum computers*, Nature **464** (2010) 45–53 &lbrack;[doi:10.1038/nature08812](https://doi.org/10.1038/nature08812)&rbrack;
 
 
 category: people
