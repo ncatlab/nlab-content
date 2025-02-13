@@ -87,5 +87,5 @@ A textbook account is for instance section 2.1 of
 
 [[!redirects delta functor]]
 [[!redirects delta functors]]
-[[!redirects ? functor]]
-[[!redirects ? functors]]
+[[!redirects δ functor]]
+[[!redirects δ functors]]
