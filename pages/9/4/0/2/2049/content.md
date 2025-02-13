@@ -177,8 +177,8 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         5.  [[completely regular locale]]
         6.  [[normal locale]]
         7.  localic [[Tychonoff embedding theorem]]
-    2.  The Stone--&#268;ech compactification
-        1.  [[Stone–?ech compactification]]
+    2.  The Stone–Čech compactification
+        1.  [[Stone–Čech compactification]]
         2.  [[completely regular ideal]], [[regular ideal]]
         3.  [[completely regular filter]]
         4.  [[Wallman base]], [[Wallman compactification]]
@@ -307,7 +307,7 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         3.  (none)
         4.  (none)
         5.  [[idempotent adjunction]]
-        6.  [[Sierpinski topology|Sierpi?ski topology]], [[Sierpinski space|Sierpi?ski space]]
+        6.  [[Sierpinski topology|Sierpiński topology]], [[Sierpinski space|Sierpiński space]]
         7.  (none)
         8.  (none)
         9.  (none)
