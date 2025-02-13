@@ -141,7 +141,7 @@ Application of quantum computing to [[quantum chemistry]]:
 
 * [[Seth Lloyd]], *Universal Quantum Simulators*, Science New Series **273** 5278 (1996) 1073-1078 &lbrack;[jstor:2899535](https://www.jstor.org/stable/2899535), [doi:10.1126/science.273.5278.1073](https://doi.org/10.1126/science.273.5278.1073)&rbrack;
 
-* *Quantum Chemistry in the Age of Quantum Computing*, Chem. Rev. (2019) **119** 19 (2019) 10856–10915 &lbrack;[doi:10.1021/acs.chemrev.8b00803](https://doi.org/10.1021/acs.chemrev.8b00803)&rbrack;
+* Yudong Cao et al.: *Quantum Chemistry in the Age of Quantum Computing*, Chem. Rev. (2019) **119** 19 (2019) 10856–10915 &lbrack;[doi:10.1021/acs.chemrev.8b00803](https://doi.org/10.1021/acs.chemrev.8b00803)&rbrack;
 
 Argument that quantum supremacy in quantum chemistry is elusive:
 
