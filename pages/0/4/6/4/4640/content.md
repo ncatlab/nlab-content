@@ -290,7 +290,7 @@ Furthermore, these coefficients are uniquely determined.
 +-- {: .proof}
 ###### Proof
 
-Since the internal logic is local, we can assume that $X = Spec(R)$ is affine. The interpretations of the asserted statements using the [[Zariski site#KripkeJoyal|Kripke?Joyal semantics]] are:
+Since the internal logic is local, we can assume that $X = Spec(R)$ is affine. The interpretations of the asserted statements using the [[Zariski site#KripkeJoyal|Kripke–Joyal semantics]] are:
 
 * Let $S$ be an $R$-algebra and $f, g \in S$ be elements such that $f + g = 1$. Then there exists a partition $1 = \sum_i s_i \in S$ such that in the localized rings $S[s_i^{-1}]$, $f$ or $g$ is invertible.
 
