@@ -134,7 +134,7 @@ $$
   \big\}
 $$
 
-form a [[partial order|partially ordered]] [[real vector space]] by declaring an element $A$ to be "larger" than some $B$ if the difference is a [[normal operator]]
+form a [[partial order|partially ordered]] [[real vector space]] by declaring an element $A$ to be "larger" than some $B$ if the difference is a [[positive operator]]
 
 $$
   A \geq B 
@@ -147,7 +147,7 @@ $$
   \,.
 $$
 
-In particular, the positive elements are exactly the [[normal operators]]
+In particular, the positive elements are exactly the [[positive operators]]
 
 $$
   A \geq 0 
