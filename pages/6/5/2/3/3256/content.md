@@ -11,11 +11,11 @@ The *Nisnevich topology* is a certain [[Grothendieck topology]] on the [[categor
 * [[field|Fields]] have [[shape of an (∞,1)-topos|trivial shape]] for the Nisnevich topology (like Zariski)
 * [[algebraic K-theory|Algebraic K-theory]] satisfies [[descent]] over the Nisnevich site -- as is true for the [[Zariski site]] but not in full generality for the [[etale site]], see at _[algebraic K-theory -- Descent](algebraic%20K-theory#Descent)_ for more;
 
-* For $Z\subset X$ a [[closed subscheme|closed immersion]] between affine schemes that are smooth over a base $S$, the Nisnevich sheaf $X/(X-Z)$ is isomorphic to $N_{X,Z}/(N_{X,Z}-Z)$, where $N_{X,Z}$ is the normal bundle of $Z$ in $X$ (like &#233;tale)
-* Pushforward along a [[finite morphism]] is an [[exact functor]] on Nisnevich sheaves of abelian groups (like &#233;tale)
-* Nisnevich cohomology can be computed using [[?ech cohomology]] (like &#233;tale)
+* For $Z\subset X$ a [[closed subscheme|closed immersion]] between affine schemes that are smooth over a base $S$, the Nisnevich sheaf $X/(X-Z)$ is isomorphic to $N_{X,Z}/(N_{X,Z}-Z)$, where $N_{X,Z}$ is the normal bundle of $Z$ in $X$ (like étale)
+* Pushforward along a [[finite morphism]] is an [[exact functor]] on Nisnevich sheaves of abelian groups (like étale)
+* Nisnevich cohomology can be computed using [[Čech cohomology]] (like étale)
 
-The Nisnevich topology plays a central r&#244;le in [[motivic homotopy theory]].
+The Nisnevich topology plays a central role in [[motivic homotopy theory]].
 
 
 ## Definition
