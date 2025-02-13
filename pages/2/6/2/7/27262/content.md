@@ -26,6 +26,8 @@ This scheme of [[quantum computing]] on trapped ions was the context of the firs
 
 ## References
 
+### Ions
+
 The very first proposal for actual construction of a [[quantum gate]] (namely of a [[CNOT gate]]) was for a trapped-ion system:
 
 * {#CiracZoller95} [[J. Ignacio Cirac]], [[Peter Zoller]]: *Quantum Computations with Cold Trapped Ions*, Phys. Rev. Lett. **74** (1995) 4091 &lbrack;[doi:10.1103/PhysRevLett.74.4091](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.74.4091)&rbrack;
@@ -57,6 +59,22 @@ On [[quantum simulation]] of [[topological order]] and [[anyon]] [[braiding]] on
 * [[Mohsin Iqbal]], [[Nathanan Tantivasadakarn]]: *Topological Order from Measurements and Feed-Forward on a Trapped Ion Quantum Computer*, Nature Communications Physics **7** (2024) 205 \[<a href="https://doi.org/10.1038/s42005-024-01698-3">doi:10.1038/s42005-024-01698-3</a>, [arXiv:2302.01917](https://arxiv.org/abs/2302.01917)\]
 
 * [[Mohsin Iqbal]], [[Nathanan Tantivasadakarn]], R. Verresen et al., Figure 5 in : *Non-Abelian topological order and anyons on a trapped-ion processor*, Nature **626** (2024) 505–511 \[<a href="https://doi.org/10.1038/s41586-023-06934-4">doi:10.1038/s41586-023-06934-4</a>\]
+
+### Neutral atoms
+
+The analogue for laser-trapped neutral atoms.
+
+* K. Wintersperger et al.: *Neutral Atom Quantum Computing Hardware: Performance and End-User Perspective*, EPJ Quantum Technology **10** 32 (2023) &lbrack;[arXiv:2304.14360](https://arxiv.org/abs/2304.14360), [doi:10.1140/epjqt/s40507-023-00190-1](https://doi.org/10.1140/epjqt/s40507-023-00190-1)&rbrack;
+
+* Jacob P. Covey, Harald Weinfurter, Hannes Bernien: *Quantum networks with neutral atom processing nodes*, npj Quantum Information **9** 90 (2023) &lbrack;[doi:10.1038/s41534-023-00759-9](https://doi.org/10.1038/s41534-023-00759-9)&rbrack;
+
+and for [[quantum sensing]]:
+
+* Grant Biedermann: *Sensing with neutral atoms*, talk notes (2015) &lbrack;[purl:1257171](https://www.osti.gov/servlets/purl/1257171), [[Biedermann-SensingWthNeutralAtoms.pdf:file]]&rbrack;
+
+See also:
+
+* Wikipedia: *[Neutral atom quantum computer](https://en.wikipedia.org/wiki/Neutral_atom_quantum_computer)*
 
 [[!redirects trapped-ion quantum hardware]]
 
