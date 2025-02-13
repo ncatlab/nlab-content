@@ -63,7 +63,7 @@ Thus, in even more particular, the functor $Psh$ preserves copowers, since each 
 
 Another way of phrasing the above argument is as follows.  For the same reason cited in the proof, the embedding $Psh$ preserves all small colimits.  Therefore, since $\Gamma(\mathbf{H}) \colon Gpd^{op}\to Gpd$ is the composite of this embedding with the representable functor $Topos(-,\mathbf{H})$, it must also preserves all small limits in $Gpd^{op}$ (i.e. small colimits in $Gpd$).
 
-Therefore, we can regard it as an object of the category $Cts(Gpd^{op},Gpd)$ of small-limit-preserving functors, also known as the [[very large (∞,1)-sheaf (∞,1)-topos]] on [[?Gpd|Gpd]] (and also the $\kappa$-[[ind-object in an (∞,1)-category|ind-objects]] of $Gpd$, for $\kappa$ the cardinality of the universe).  However, by the general theory of [[universe enlargement]] (generalized to $(\infty,1)$-categories), this category is equivalent to $GPD$, and the equivalence gives the representability theorem above.
+Therefore, we can regard it as an object of the category $Cts(Gpd^{op},Gpd)$ of small-limit-preserving functors, also known as the [[very large (∞,1)-sheaf (∞,1)-topos]] on [[∞Gpd|Gpd]] (and also the $\kappa$-[[ind-object in an (∞,1)-category|ind-objects]] of $Gpd$, for $\kappa$ the cardinality of the universe).  However, by the general theory of [[universe enlargement]] (generalized to $(\infty,1)$-categories), this category is equivalent to $GPD$, and the equivalence gives the representability theorem above.
 
 
 ### Enlarging the category of toposes
