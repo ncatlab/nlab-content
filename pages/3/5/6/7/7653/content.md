@@ -2655,7 +2655,7 @@ On the right this has the universal local coefficient bundle for $\mathbf{String
  {#TwistedStringStructure}
 
 
-By [[Ho?ava-Witten theory]], the 10-dimensional [[target space|target]] [[spacetime]] of the 
+By [[Hořava-Witten theory]], the 10-dimensional [[target space|target]] [[spacetime]] of the 
 [[heterotic string]] may be understood as being a boundary 
 (or rather $\mathbb{Z}_2$-[[orbifold]] fixed points, see [below](#HWCompactifications)) of the 11-dimensional
 spacetime of [[11-dimensional supergravity|11d SuGra]]. 
@@ -2819,7 +2819,7 @@ consisting of
  {#HWCompactifications}
 
 
-In [[Ho?ava-Witten theory]] there is similarly a twisted $\mathbb{Z}_2$-action on the [[supergravity C-field]], exhibited by a local coefficient bundle
+In [[Hořava-Witten theory]] there is similarly a twisted $\mathbb{Z}_2$-action on the [[supergravity C-field]], exhibited by a local coefficient bundle
 
 $$
   \array{
@@ -3066,7 +3066,7 @@ In October 2013 [[Charles Rezk]] announced a new kind of cohesion, namely:
 
 But of course a central feature desireable for [[cohomology theory]] is [[stabilization]] of cohesion/cohesive [[spectrum objects]].
 
-In ([Bunke-Nikolaus-V&#246;lkl 13 (14?)](tangent+cohesion#BunkeNikolausVoelkl13)) is considered the [[stabilization]] of [[smooth ∞-groupoids|smooth cohesion]], hence the [[stable (∞,1)-category]] $Stab(Sh_\infty(SmthMfd))$ of [[spectrum object]] in [[smooth ∞-groupoids]], which carries an analogous [[adjoint quadruple]] over the [[(∞,1)-category of spectra]] $Stab(\infty Grpd) \simeq Spectra$
+In ([Bunke-Nikolaus-Völkl 2014](tangent+cohesion#BunkeNikolausVoelkl13)) is considered the [[stabilization]] of [[smooth ∞-groupoids|smooth cohesion]], hence the [[stable (∞,1)-category]] $Stab(Sh_\infty(SmthMfd))$ of [[spectrum object]] in [[smooth ∞-groupoids]], which carries an analogous [[adjoint quadruple]] over the [[(∞,1)-category of spectra]] $Stab(\infty Grpd) \simeq Spectra$
 
 $$
   Stab(Sh_\infty(SmthMfd))
