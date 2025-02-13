@@ -88,7 +88,7 @@ for more.
 
 ### $(\infty,1)$-topos theoretic interpretation {#Topos}
 
-We may understand the above definitions of $\infty$-Lie algebra cocycles as a special case of the general notion of the [[cohomology|intrinsic cohomology]] of an [[(∞,1)-topos]] by embedding $\infty$-Lie algebras as [[infinitesimal space|infinitesimal]] [[∞-Lie group]]s into the [[(∞,1)-topos]] $\mathbf{H} = $ [[?LieGrpd]] of [[∞-Lie groupoids]].
+We may understand the above definitions of $\infty$-Lie algebra cocycles as a special case of the general notion of the [[cohomology|intrinsic cohomology]] of an [[(∞,1)-topos]] by embedding $\infty$-Lie algebras as [[infinitesimal space|infinitesimal]] [[∞-Lie group]]s into the [[(∞,1)-topos]] $\mathbf{H} = $ [[∞LieGrpd]] of [[∞-Lie groupoids]].
 
 For a general recognition principle of [[homotopy fibers]] in the [[model structure for L-infinity algebras]] see also ([Fiorenza-Rogers-Schreiber 13, theorem 3.1.13](#FiorenzaRogersSchreiber13)).
 
@@ -102,7 +102,7 @@ $$
 
 of a corresponding [[(∞,1)-topos]] $\mathbf{H}$ of structure $\infty$-groupoids.
 
-As described at [[?LieGrpd]], one realization of this general situation for genuine $\infty$-Lie groupoids is as follows:
+As described at [[∞LieGrpd]], one realization of this general situation for genuine $\infty$-Lie groupoids is as follows:
 
 Let [[ThCartSp]] be the [[site]] of [[infinitesimal object|infinitesimally]] thickened [[Cartesian space]]s. This is the site for the [[Cahiers topos]]. Then the [[(∞,1)-category of (∞,1)-sheaves]] $\mathbf{H} = Sh(ThCartSp)$ we may take to be the $(\infty,1)$-topos of 
 [[synthetic differential ∞-groupoid]]s. We have then a [[simplicial Quillen adjunction]]
@@ -290,7 +290,7 @@ The coresponding Chern-Simons elements exhibiting the transgression of these inv
 
 In any  [[(∞,1)-topos]] with its intrinsic notion of [[cohomology]], a [[cocycle]] $c : X \to \mathbf{B}^{n+1} A$ classifies an _extension_ $\mathbf{B}^n A \to \hat X \to X$. This $\hat X$ is nothing but the [[homotopy fiber]] of $c$, or equivalently the $\mathbf{B}^n A$-[[principal ∞-bundle]] classified by $c$.
 
-After embedding [[∞-Lie algebra]]s into the [[(∞,1)-topos]] of [[∞-Lie groupoid]]s as described [above](#Topos), the same abstract reasoning applies to $\infty$-Lie algebra cocycles and the extensions of $\infty$-Lie algebras that these classify: for $c : \mathfrak{g} \to b^n \mathbb{R} $ a cocycle of $\infty$-Lie algebras, the extension $b^{n-1} \mathbb{R} \to \hat \mathfrak{g} \to \mathfrak{g}$ is the [[homotopy fiber]] of this morphism in [[?LieGrpd]].
+After embedding [[∞-Lie algebra]]s into the [[(∞,1)-topos]] of [[∞-Lie groupoid]]s as described [above](#Topos), the same abstract reasoning applies to $\infty$-Lie algebra cocycles and the extensions of $\infty$-Lie algebras that these classify: for $c : \mathfrak{g} \to b^n \mathbb{R} $ a cocycle of $\infty$-Lie algebras, the extension $b^{n-1} \mathbb{R} \to \hat \mathfrak{g} \to \mathfrak{g}$ is the [[homotopy fiber]] of this morphism in [[∞LieGrpd]].
 
 > a more systematic discussion is now in the section <a href="http://ncatlab.org/nlab/show/synthetic+differential+infinity-groupoid#CohomologyOfLieAlgebroids">Cohomology of ∞-Lie algebroids</a> at [[synthetic differential ∞-groupoid]].
 
