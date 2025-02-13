@@ -676,7 +676,7 @@ Here is a more random list (using material from [Wikipedia](#Wikipedia)). Eventu
 * [[Leray-Serre spectral sequence]] of a [[fibration]]
 
 
-* [[Lyndon-Hochschild?Serre spectral sequence]] in [[group cohomology]]
+* [[Lyndon–Hochschild–Serre spectral sequence]] in [[group cohomology]]
 
 * [[May spectral sequence]] for calculating the [[Tor]] or [[Ext]] groups of an algebra
 
