@@ -2,7 +2,7 @@
 
 His research includes [[nonabelian homological algebra]], the discovery of [[categorical Galois theory]], [[semiabelian categories]], [[internal actions]] and [[internal crossed modules]], [[categorical algebra|categorical]] [[universal algebra]] etc. 
 
-* [website](http://www.mth.uct.ac.za/prof-george-janelidze-0)
+* [website](https://science.uct.ac.za/department-mathematics/contacts/george-janelidze)
 
 * [old website](http://www.rmi.ge/~gjanel)
 
