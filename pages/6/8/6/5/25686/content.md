@@ -46,8 +46,7 @@ The **Category Theory** (or simply **CT**) conference is an international annual
 |1986|Cambridge|*Data missing*| |
 |1985|Isle of Thorns (University of Sussex)|*Data missing*| |
 
-The following is a quote from [Rota 1993](#Rota) on the proceedings of the Category Theory conference in held 1991:
-> It is good to know that category theory is alive and well after all these years. We were turned off to category theory by the excesses of the sixties, when a small but loud crowd pretended to reduce all of mathematics to the language of categories. Now at least they have toned down their claims, and category theory has taken its modest place in the mathematical spectrum side by side with lattice theory, more pretentious perhaps than the latter, but with a good pedigree. We wish there were two versions of each of the papers presented at this conference: one for the specialist, as one finds it in this book, and one for the would-be specialist, who needs some direction and encouragement before he or she swallows this morass of definitions.
+
 
 ## Related pages
 
@@ -72,7 +71,6 @@ The following is a quote from [Rota 1993](#Rota) on the proceedings of the Categ
 
 * {#CT91} [[R.A.G. Seely]] (Ed), _Category Theory 1991: Proceedings of the 1991 Summer Category Theory Meeting, Montreal, Canada_,  Conference Proceedings, Canadian Mathematical Society **13** (1992) American Mathematical Society/Canadian Mathematical Society [AMS bookstore](https://bookstore.ams.org/cmsams-13). (<a class='existingWikiWord' href='/nlab/files/frontmatter.pdf' title='Category Theory 1991 - front matter'>pdf</a>)
 
-* {#Rota} [[Gian-Carlo Rota]], _Book review of "Category Theory 1991"_, Advances in Mathematics, Vol. 102, No. 1, 1993, page 126. &lbrack;[doi:10.1006/aima.1993.1061](https://doi.org/10.1006/aima.1993.1061)&rbrack;
 
 * {#CT99} J. Adamek, P.T. Johnstone and M. Sobral (Eds), _Category Theory 1999: selected papers, conference held in Coimbra in honour of the 90th birthday of Saunders Mac Lane_, Journal of Pure and Applied Algebra **168** Issues 2–3 (2002) [journal](https://www.sciencedirect.com/journal/journal-of-pure-and-applied-algebra/vol/168/issue/2)
 
