@@ -31,7 +31,7 @@
 
 The **fivebrane 6-group** $Fivebrane(n)$ is a smooth version of the [[topological space]] that appears in the second step of the [[Whitehead tower]] of the [[orthogonal group]].
 
-It is a lift of this through the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#GeometricRealization">geometric realization</a> functor $\Pi : $ [[?LieGrpd]] $\to$ [[∞Grpd]].
+It is a lift of this through the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#GeometricRealization">geometric realization</a> functor $\Pi : $ [[∞LieGrpd]] $\to$ [[∞Grpd]].
 
 One step below the fivebrane 6-group in the Whitehead tower is the [[string Lie 2-group]].
 
@@ -47,7 +47,7 @@ for more background.
 
 ## Definition
 
-In the [[(∞,1)-topos]] $\mathbf{H} = $ [[?LieGrpd]] we have a smooth refinement of the second fractional [[Pontryagin class]]
+In the [[(∞,1)-topos]] $\mathbf{H} = $ [[∞LieGrpd]] we have a smooth refinement of the second fractional [[Pontryagin class]]
 
 $$
   \frac{1}{6}
