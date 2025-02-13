@@ -48,8 +48,8 @@ where the map from right to left is given by $\mathbb{E}_k$-[[unitalization]] an
 [[!redirects nonunital E-∞ algebra]]
 [[!redirects nonunital E-∞ algebras]]
 
-[[!redirects nonunital E? algebra]]
-[[!redirects nonunital E? algebras]]
+[[!redirects nonunital E∞ algebra]]
+[[!redirects nonunital E∞ algebras]]
 
 [[!redirects nonunital E-infinity algebra]]
 [[!redirects nonunital E-infinity algebras]]
@@ -57,8 +57,8 @@ where the map from right to left is given by $\mathbb{E}_k$-[[unitalization]] an
 [[!redirects nonunital E-∞ ring]]
 [[!redirects nonunital E-∞ rings]]
 
-[[!redirects nonunital E? ring]]
-[[!redirects nonunital E? rings]]
+[[!redirects nonunital E∞ ring]]
+[[!redirects nonunital E∞ rings]]
 
 [[!redirects nonunital E-infinity ring]]
 [[!redirects nonunital E-infinity rings]]
