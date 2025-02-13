@@ -38,12 +38,12 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Ma
 
      * Not much yet, though it looks very neat.  It looks like they are going the "non-closed monoidal structure" route?
 
-*  [[Toby Bartels]]:  More at [[SEAR+?]].
+*  [[Toby Bartels]]:  More at [[SEAR+ε]].
 
 
 ## 2009-09-28
 
-* [[Mike Shulman]]: Toby is [[SEAR+?|right]].
+* [[Mike Shulman]]: Toby is [[SEAR+ε|right]].
 
 * [[Zoran Škoda]]: entry [[internal crossed module]].
 
@@ -51,7 +51,7 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Ma
 
 * [[Zoran Škoda]] created [[general linear group]].
 
-*  [[Toby Bartels]]:  I\'m pretty sure that [[SEAR+?]] satisfies $COSHEP$.
+*  [[Toby Bartels]]:  I\'m pretty sure that [[SEAR+ε]] satisfies $COSHEP$.
 
 * [[Todd Trimble]]: created [[PRO]], and began (re)adding material to [[cube category]], with a view toward incorporating material from the Grandis-Mauri [paper](http://www.emis.de/journals/TAC/volumes/11/8/11-08.pdf) on cubical sites. Discussion with [[David Corfield]] at [[cubical set]]. 
 
@@ -102,7 +102,7 @@ The announcement of the change to [the Forum](http://www.math.ntnu.no/~stacey/Ma
 
 ## 2009-09-27
 
-* [[Mike Shulman]]: In response to the discussion at [[choice operator]], I started [[SEAR+?]] about whether and why adding a non-extensional choice operator is a conservative thing to do to a theory that lacks [[axiom of choice|AC]].  So far I can prove that it is conservative over [[COSHEP]].
+* [[Mike Shulman]]: In response to the discussion at [[choice operator]], I started [[SEAR+ε]] about whether and why adding a non-extensional choice operator is a conservative thing to do to a theory that lacks [[axiom of choice|AC]].  So far I can prove that it is conservative over [[COSHEP]].
 
 *  [[Jon Awbrey]]:
 
