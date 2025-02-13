@@ -60,7 +60,7 @@ Examples of such constructions exist, but are rarely thought of (or even recogni
 
 * nonabelian homotopy
 
-* [[?ech homotopy]]
+* [[Čech homotopy]]
 
 * differential homotopy
 
