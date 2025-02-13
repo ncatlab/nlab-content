@@ -101,7 +101,7 @@
 
 ### Special notions
 
-* [[?ech cohomology]]
+* [[Čech cohomology]]
 
 * [[hypercohomology]]
 
@@ -185,5 +185,5 @@
 
 
 
-[[!redirects cohomology ? contents]]
+[[!redirects cohomology – contents]]
 [[!redirects cohomology -- contents]]
