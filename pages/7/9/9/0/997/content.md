@@ -64,6 +64,16 @@ The object $\prod \Omega^c$ is injective because already $\Omega$ is injective (
 
 Notice also that the existence of a small (co)generating family is one of the conditions in one version of the [[adjoint functor theorem]]. We may conclude, for example, that [[Grothendieck toposes]] are cototal (q.v.). 
 
+###In topology
+
+The existence of cogenerators is useful to produce adjoint functor theorems for certain categories of topological spaces, as well, as these are usually not locally presentable like most other typical "large" categories of mathematics. 
+
+* In the category of all topological spaces, a single space $X$ is a cogenerator if and only if it is not $T_0,$ since $T_0$ spaces can't distinguish the points of a $T_0$ space and, conversely, any such space has the two-point indiscrete space, which cogenerates for the same reason as a two-point set, as a retract.
+
+* In compact Hausdorff spaces, which are algebraic but not locally presentable, the interval $[0,1]$ is a cogenerator, as follows essentially from Gelfand duality. 
+
+* Many other categories of spaces, but not all, have cogenerators; for more see the answers and references [here](https://ncatlab.org/nlab/edit/cogenerator).
+
 ##Terminology
 
 The concept of _cogenerator_ is dual to that of [[separator]], so it can also be referred to as a _coseparator_.
