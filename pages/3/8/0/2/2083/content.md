@@ -38,7 +38,7 @@ Grace Orzech introduced a notion of extension in a special related setting known
 
 ## Remarks
 
-The general theory of $\Omega$-groups is similar to the basics of group and ring theory, including [[normal subgroups]] / [[ideals]] / [[submodules]], [[quotient algebra|quotient]] $\Omega$-groups, Noether's [[isomorphism theorem]]s, etc. For example, the [[Jordan-Holder theorem|Jordan?Holder theorem]] holds: if there is a [[composition series]], then every two composition series are equivalent up to permutation of factors. An obvious [[horizontal categorification]] of $\Omega$-groups is also interesting.
+The general theory of $\Omega$-groups is similar to the basics of group and ring theory, including [[normal subgroups]] / [[ideals]] / [[submodules]], [[quotient algebra|quotient]] $\Omega$-groups, Noether's [[isomorphism theorem]]s, etc. For example, the [[Jordan-Holder theorem|Jordan–Holder theorem]] holds: if there is a [[composition series]], then every two composition series are equivalent up to permutation of factors. An obvious [[horizontal categorification]] of $\Omega$-groups is also interesting.
 
 Note that $\Omega$ is a capital Greek letter; $\omega$-[[infinity-group|group]] is rather a synonym for (for some people strict) $\infty$-[[infinity-groupoid|groupoid]] with a single object, hence nothing to do with $\Omega$-groups.
 
