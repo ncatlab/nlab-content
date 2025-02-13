@@ -245,7 +245,7 @@ such that
   $$
     C(\pi) : C(V) \to C(W)
   $$
-  is an [[effective epimorphism]] in $T$, i.e. its [[?ech nerve]]
+  is an [[effective epimorphism]] in $T$, i.e. its [[Čech nerve]]
   is a [[simplicial resolution]] of $C(W)$:
   $$
     \mathop{&#268;ech}(C(\pi)) \stackrel{\simeq}{\to} C(W)
