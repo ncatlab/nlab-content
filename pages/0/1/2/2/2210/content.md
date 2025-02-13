@@ -242,7 +242,7 @@ and in [section 2.8](http://home.imf.au.dk/kock/SGM-final.pdf#page=89) of
 
 Discussion of this that does make the simplicial structure explicit and relates it to the [[Dold-Kan correspondence]] is in 
 
-* Herman Stel, _[[schreiber:master thesis Stel|∞-Stacks and their Function Algebras ? with applications to ∞-Lie theory]]_.
+* Herman Stel, _[[schreiber:master thesis Stel|∞-Stacks and their Function Algebras with applications to ∞-Lie theory]]_.
 
 * Herman Stel, _Cosimplicial C-infinity rings and the de Rham complex of Euclidean space_ ([arXiv:1310.7407](http://arxiv.org/abs/1310.7407))
 
