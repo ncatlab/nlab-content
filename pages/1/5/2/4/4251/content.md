@@ -64,7 +64,7 @@ $$
   \infty Grpd
 $$
 
-to [[? Grpd]], with $\Pi$ the left [[adjoint (∞,1)-functor]] to the [[constant ∞-stack]] [[(∞,1)-functor]] $LConst$. For $X \in \mathbf{H}$ any object, the [[∞-groupoid]] $\Pi(X)$ deserves to be called the 
+to [[∞Grpd]], with $\Pi$ the left [[adjoint (∞,1)-functor]] to the [[constant ∞-stack]] [[(∞,1)-functor]] $LConst$. For $X \in \mathbf{H}$ any object, the [[∞-groupoid]] $\Pi(X)$ deserves to be called the 
 **[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]** of $X$
 Its ordinary [[homotopy group]]s are the homotopy groups of $X$.
 
@@ -229,7 +229,7 @@ $$
   \,,
 $$
 
-where $LConst_{Core(\infty Grpd)}$ is the [[constant ∞-stack]] on the [[core]] [[∞-groupoid]] of [[? Grpd]].
+where $LConst_{Core(\infty Grpd)}$ is the [[constant ∞-stack]] on the [[core]] [[∞-groupoid]] of [[∞Grpd]].
 
 If $\mathbf{H}$ is a [[locally contractible (∞,1)-topos]] in that $LConst$ has the left [[adjoint (∞,1)-functor]] $\Pi(-)$, then by definition of adjunction we have the equivalence
 
