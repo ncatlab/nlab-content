@@ -23,7 +23,7 @@
 {:toc}
 
 
-In every [[cohesive (∞,1)-topos]] there is an <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#ChernWeilTheory">intrinsic notion of Chern-Weil theory</a>. We discuss the concrete realization of this in the cohesive $(\infty,1)$-topos [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s. This s the case that subsumes ordinary [[Chern-Weil theory]] of [[SmoothMfd|smooth]] [[principal bundle]]s with [[connection on a bundle|connection]] and generalizes it to [[connections on smooth principal ∞-bundles]].
+In every [[cohesive (∞,1)-topos]] there is an [[cohesive (infinity,1)-topos#ChernWeilTheory|intrinsic notion of Chern-Weil theory]]. We discuss the concrete realization of this in the cohesive $(\infty,1)$-topos [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s. This s the case that subsumes ordinary [[Chern-Weil theory]] of [[SmoothMfd|smooth]] [[principal bundle]]s with [[connection on a bundle|connection]] and generalizes it to [[connections on smooth principal ∞-bundles]].
 
 ## Motivation {#Motivation}
 
@@ -111,7 +111,7 @@ $$
   \frac{1}{6}\mathbf{p}_2 : \mathbf{B}String \to \mathbf{B}^7 U(1)
 $$
 
-internal to $\mathbf{H} = $ [[?LieGrpd]]. Since this now lives in a smooth context, it does now have a differential Chern-Weil refinement
+internal to $\mathbf{H} = $ [[∞LieGrpd]]. Since this now lives in a smooth context, it does now have a differential Chern-Weil refinement
 
 $$
   \frac{1}{6}\hat \mathbf{p}_2 : \mathbf{H}_{conn}(-, \mathbf{B}String)
@@ -198,7 +198,7 @@ $$
   \frac{1}{2} \hat \mathbf{p}_1 : \mathbf{H}_{conn}(X, \mathbf{B}Spin) \to \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
 $$
 
-of [[cocycle]] [[∞-groupoid]]s: here $\mathbf{H}(X,\mathbf{B}G)$ is the [[groupoid]] whose objects are smooth $Spin$-[[principal bundle]]s, and whose morphisms are smooth homomorphisms between these. Similarly $\mathbf{H}(X,\mathbf{B}^3 U(1))$ denotes the [[3-groupoid] whose objects are smooth <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle 2-group</a>-[[principal ∞-bundles|principal 3-bundles]], while $\mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ is accordingly the [[3-groupoid]] whose objects are  [[circle n-bundle with connection|circle 3-bundles with connection]], whose morphisms are homomorphisms between these, whose 2-morphisms are higher homotopies between those. The original morphism of cohomology sets is the [[decategorification]] of this, the restriction to connected components:
+of [[cocycle]] [[∞-groupoid]]s: here $\mathbf{H}(X,\mathbf{B}G)$ is the [[groupoid]] whose objects are smooth $Spin$-[[principal bundle]]s, and whose morphisms are smooth homomorphisms between these. Similarly $\mathbf{H}(X,\mathbf{B}^3 U(1))$ denotes the [[3-groupoid]] whose objects are smooth <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle 2-group</a>-[[principal ∞-bundles|principal 3-bundles]], while $\mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ is accordingly the [[3-groupoid]] whose objects are  [[circle n-bundle with connection|circle 3-bundles with connection]], whose morphisms are homomorphisms between these, whose 2-morphisms are higher homotopies between those. The original morphism of cohomology sets is the [[decategorification]] of this, the restriction to connected components:
 
 $$
   \frac{1}{2}p_1 = \pi_0(\frac{1}{2}\mathbf{p}_1)
@@ -315,7 +315,7 @@ Under _$\infty$-Chern-Weil theory_ we want to understand the generalization of t
 
 So $\infty$-Chern-Weil theory produces [[differential cohomology]]-refinements of [[characteristic class]]es of $G$-[[principal ∞-bundle]]s for $G$ an [[∞-Lie group]], equivalently of the corresponding [[classifying space]]s $\mathcal{B}G$.
 
-Ordinary Chern-Weil theory is formulated in the context of [[differential geometry]]. We need to widen this context somewhat in order that it can accomodate the relevant higher structures and so we place ourselves in the context of the [[(∞,1)-topos]] $\mathbf{H} = $ [[?LieGrpd]] of [[∞-Lie groupoids]].
+Ordinary Chern-Weil theory is formulated in the context of [[differential geometry]]. We need to widen this context somewhat in order that it can accomodate the relevant higher structures and so we place ourselves in the context of the [[(∞,1)-topos]] $\mathbf{H} = $ [[∞LieGrpd]] of [[∞-Lie groupoids]].
 
 In every $(\infty,1)$-topos that admits a notion of differential cohomology,  there is a general abstract notion of refinement of [[characteristic class]]es in [[cohomology]] to [[curvature characteristic forms|curvature characteristic classes]] in [[ordinary differential cohomology]]. 
 
@@ -353,7 +353,7 @@ However, unwinding the abstract higher topos theoretic concepts in terms of 1-ca
 
 For $G,A$ [[nLab:∞-group]]s in an [[∞-connected (∞,1)-topos]] $\mathbf{H}$ with [[nLab:delooping]]s $\mathbf{B}G$ and $\mathbf{B}A$, respectively, every [[nLab:characteristic class]] $c : \mathbf{B}G \to A$ serves to pull back the <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#GroupalCurvature">canonical intrinsic curvature form</a> $curv_A : A \to \mathbf{\flat}_{dR} \mathbf{B}A$ to an <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#deRham">intrinsic differential form</a> $curv_A\circ c  : \mathbf{B}G \to \mathbf{\flat}_{dR} \mathbf{B}A$ on $\mathbf{B}G$. 
 
-For $G$ an ordinary [[nLab:Lie group]] regarded naturally as an object in $\mathbf{H} = $ [[nLab:?LieGrpd]], we show that the ordinary [[nLab:Chern-Weil homomorphism]] for $G$-[[nLab:principal bundle]]s may be understood as a concrete _model_ for this simple abstract situation, which applies to those characteristic classes $c$ that happen to be in the image of the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie intgeration of Lie algebra cocycles</a>.
+For $G$ an ordinary [[nLab:Lie group]] regarded naturally as an object in $\mathbf{H} = $ [[∞LieGrpd]], we show that the ordinary [[Chern-Weil homomorphism]] for $G$-[[principal bundle]]s may be understood as a concrete _model_ for this simple abstract situation, which applies to those characteristic classes $c$ that happen to be in the image of the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#IntegrationOfCocycles">Lie intgeration of Lie algebra cocycles</a>.
 
 More generally, this construction applies for $G$ an [[nLab:∞-Lie group]] with [[nLab:∞-Lie algebra]] $\mathfrak{g}$ and $c$ a characteristic class on $\mathbf{B}G$ that arises from Lie integration of a cocycle in the [[nLab:∞-Lie algebra cohomology]] of $\mathfrak{g}$.
 
@@ -717,7 +717,7 @@ of $A$.
 
 Since our $\mathbf{H}$ is assumed to be even [[nLab:∞-connected (∞,1)-topos|∞-connected]], the Postnikov tower of $\mathbf{\Pi}(A)$ is the image under $LConst : \infty Grpd \to \mathbf{H}$ of the ordinary [[nLab:Postnikov tower]] of $\Pi(A)$ in $\infty Grpd$. Accordingly, we have $\mathbf{B} \mathbf{\pi}_n(A) = LConst B^n \pi_n \Pi(A)$
 
-The point now is that in $\mathbf{H} = $ [[nLab:?LieGrpd]] we may form smooh refinements of these discrete extensions: every discrete $(n+1)$-group $\mathbf{B}^{n+1}\mathbb{Z}$ we want to refine to a smooth $n$-group $\mathbf{B}^n U(1)$. By the discussion at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#GeomReal">geometric realization</a>, both have equivalent underlying $\infty$-groupoids
+The point now is that in $\mathbf{H} = $ [[∞LieGrpd]] we may form smooh refinements of these discrete extensions: every discrete $(n+1)$-group $\mathbf{B}^{n+1}\mathbb{Z}$ we want to refine to a smooth $n$-group $\mathbf{B}^n U(1)$. By the discussion at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#GeomReal">geometric realization</a>, both have equivalent underlying $\infty$-groupoids
 
 $$
   \Pi(\mathbf{B}^{n+1}\mathbb{Z}) \simeq \Pi(\mathbf{B}^n U(1))
@@ -1015,7 +1015,7 @@ that send [∞-connections](#InfinityLieAlgebraConnection) on $G$-[[principal �
 
 Specifically, we consider the first two steps in the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#SmoothWhitehead">smooth refinement of the Whitehead tower</a> of the [[orthogonal group]] $O$ that are controled by [[∞-Lie algebra cohomology]].
 
-The smooth Whitehead tower of $O$ in [[?LieGrpd]] starts as 
+The smooth Whitehead tower of $O$ in [[∞LieGrpd]] starts as 
 
 $$
   \cdots \to \mathbf{B}Spin \to \mathbf{B} SO \to \mathbf{B}O
@@ -1050,7 +1050,7 @@ where
     \;
   $$
 
-Since these two steps are controled by the [[torsion]]-group $\mathbb{Z}_2$ they have no nontrivial refinement to differential cohomology. The next step however is controled by what in the [[(∞,1)-topos]] [[∞Grpd]] $\simeq$ [[Top]] is the first [[fractional Pontryagin class]] $\frac{1}{2}p_1 : \mathcal{B} Spin \to \mathcal{B}^4 \mathbb{Z}$ and which lifts through the [[schreiber:path ∞-groupoid]] functor $\Pi : \infty LieGrpd \to \infty Grpd$ to a characteristic class in $\mathbf{H} = $ [[?LieGrpd]] (as discussed there) $\frac{1}{2} p_1 : \mathbf{B} Spin \to \mathbf{B}^3 U(1)$ with coefficients in the smooth <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle 3-groupoid</a>. This cocycle does arise as the [[Lie integration]] $\exp(\mu)$ of the canonical [[Lie algebra cohomology|Lie algebra 3-cocycle]] $\mu = \langle -,[-,-]\rangle: \mathfrak{so} \to b^2 \mathbb{R}$.
+Since these two steps are controled by the [[torsion]]-group $\mathbb{Z}_2$ they have no nontrivial refinement to differential cohomology. The next step however is controled by what in the [[(∞,1)-topos]] [[∞Grpd]] $\simeq$ [[Top]] is the first [[fractional Pontryagin class]] $\frac{1}{2}p_1 : \mathcal{B} Spin \to \mathcal{B}^4 \mathbb{Z}$ and which lifts through the [[schreiber:path ∞-groupoid]] functor $\Pi : \infty LieGrpd \to \infty Grpd$ to a characteristic class in $\mathbf{H} = $ [[∞LieGrpd]] (as discussed there) $\frac{1}{2} p_1 : \mathbf{B} Spin \to \mathbf{B}^3 U(1)$ with coefficients in the smooth <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle 3-groupoid</a>. This cocycle does arise as the [[Lie integration]] $\exp(\mu)$ of the canonical [[Lie algebra cohomology|Lie algebra 3-cocycle]] $\mu = \langle -,[-,-]\rangle: \mathfrak{so} \to b^2 \mathbb{R}$.
 
 The [[principal ∞-bundle|principal 3-bundle]] that this classifies is the [[delooping]] $\mathbf{B} String$ of the [[string 2-group]] $String$
 
@@ -1086,9 +1086,9 @@ As we refine in this diagram the bottom morphism to differential cohomology, we 
 #### The string-lifting Chern--Simons $3$-bundle with connection {#StringStructure}
 
 We describe the special case of the general [$\infty$-Chern--Weil homomorphism](#InfChernWeil) for [$\infty$-Lie algebra valued connections](#InfinityLieAlgebraConnection) corresponding to the [[characteristic class]] $\frac{1}{2}p_1\colon \mathbf{B}Spin \to \mathbf{B}^3 U(1)$: the first fractional [[Pontryagin class]] of the [[spin group]] $\mathbf{B}Spin$. The $\mathbf{B}^3 U(1)$-differential cocycle that it produces from a given $Spin$-[[principal bundle]]
-is the [[Chern-Simons 2-gerbe|Chern?Simons 2-bundle]] with connection whose class is the obstruction for the existence of a [[string structure]].
+is the [[Chern-Simons 2-gerbe|Chern–Simons 2-bundle]] with connection whose class is the obstruction for the existence of a [[string structure]].
 
-The content of this subsection is at [[Chern-Simons 2-gerbe|Chern?Simons 2-gerbe]] in [the section on $\infty$-Chern--Weil theory](Chern-Simons+2-gerbe#InInfChernWeil).
+The content of this subsection is at [[Chern-Simons 2-gerbe|Chern–Simons 2-gerbe]] in [the section on $\infty$-Chern--Weil theory](Chern-Simons+2-gerbe#InInfChernWeil).
 
 
 #### Differential string structures
@@ -1115,7 +1115,7 @@ be the differential refinement of the second fractional Pontryagin class discuss
 
 **Definition** 
 
-For $X \in \mathbf{H} =$ [[nLab:?LieGrpd]], the $\infty$-groupoid  of **differential fivebrane-structures** $Fivebrane_{diff}(X)$ is the [[nLab:homotopy fiber]] of    $\frac{1}{6}p_2(X) : \mathbf{H}(X,\mathbf{B}String) \to \mathbf{H}_{diff}(X, \mathbf{B}^7 U(1))$.
+For $X \in \mathbf{H} =$ [[∞LieGrpd]], the $\infty$-groupoid  of **differential fivebrane-structures** $Fivebrane_{diff}(X)$ is the [[nLab:homotopy fiber]] of    $\frac{1}{6}p_2(X) : \mathbf{H}(X,\mathbf{B}String) \to \mathbf{H}_{diff}(X, \mathbf{B}^7 U(1))$.
 
 More generally, the $\infty$-groupoid of **twisted differential fivebrane structures** is the [[nLab:(∞,1)-pullback]] $Fivebrane_{diff,tw}(X)$ in
 
