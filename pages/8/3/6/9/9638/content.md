@@ -262,6 +262,9 @@ Early review:
 
 * [[Yuri I. Manin]], *Classical computing, quantum computing, and Shor's factoring algorithm*, Astérisque, **266** Séminaire Bourbaki 862 (2000) 375-404 &lbrack;[arXiv:quant-ph/9903008](https://arxiv.org/abs/quant-ph/9903008), [numdam:SB_1998-1999__41__375_0](http://www.numdam.org/item/?id=SB_1998-1999__41__375_0)&rbrack;
 
+* T. D. Ladd, F. Jelezko, [[Raymond Laflamme]], Y. Nakamura, C. Monroe & J. L. O’Brien: *Quantum computers*, Nature **464** (2010) 45–53 &lbrack;[doi:10.1038/nature08812](https://doi.org/10.1038/nature08812)&rbrack;
+
+
 Monograph on experimental realizations of [[quantum gates]]/[[quantum computers]]:
 
 * {#CCEHRSZ07} G. Chen, D. A. Church, B.-G. Englert, C. Henkel, B. Rohwedder, M. O. Scully, S. Zubairy:  *Quantum Computing Devices -- Principles, Designs, and Analysis*, Routledge (2007) &lbrack;[ISBN:9780367390372](https://www.routledge.com/Quantum-Computing-Devices-Principles-Designs-and-Analysis/Chen-Church-Englert-Henkel-Rohwedder-Scully-Zubairy/p/book/9780367390372?srsltid=AfmBOooGiSmyK4mzxjmR1LBJz4zU9cgCpp_z4cPiCzEhM6SJo4b2GxRp)&rbrack;
