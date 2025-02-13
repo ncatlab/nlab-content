@@ -785,7 +785,7 @@ I posted a query under [[differential form]] on interpretations as inner hom, i.
    *  Invited [[Hopfian group]] to be generalised to other categories.
    *  Started [[free group]].
    *  Noted that the [[free product]] is the coproduct in $Grp$.
-   *  Added a note on the constructive validity of the [[Nielsen?Schreier theorem]].
+   *  Added a note on the constructive validity of the [[Nielsen–Schreier theorem]].
 
 * [[Zoran Škoda]]: created [[combinatorial group theory]], [[free product of groups]], [[Nielsen-Schreier theorem]], [[Hopfian group]]; quoted references for algebraic proofs of Nielsen-Schreier, somebody should add a reference with explanation of the topological proof (I think Massey's book would do but I do not have it at the moment).
 
