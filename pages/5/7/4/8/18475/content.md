@@ -309,12 +309,13 @@ Further discussion of [[superconductivity]] via [[AdS/CFT in condensed matter ph
 * Chuan-Yin Xia, Hua-Bi Zeng, Yu Tian, Chiang-Mei Chen, [[Jan Zaanen]], *Holographic Abrikosov lattice: vortex matter from black hole* ([arXiv:2111.07718](https://arxiv.org/abs/2111.07718))
 
 * Dong Wang, Xiongying Qiao, Qiyuan Pan, Chuyu Lai, Jiliang Jing, *Holographic entanglement entropy and complexity for the excited states of holographic superconductors* &lbrack;[arXiv:2301.00513](https://arxiv.org/abs/2301.00513)&rbrack;
-
   > (relation to [[holographic entanglement entropy]])
 
 * Chi-Hsien Tai, Wen-Yu Wen, *A study of layered holographic superconductor* &lbrack;[arXiv:2405.07535](https://arxiv.org/abs/2405.07535)&rbrack;
 
 * Jhony A. Herrera-Mendoza, Alfredo Herrera-Aguilar, Daniel F. Higuita-Borja, Julio A. Méndez-Zavaleta, Felipe Pérez-Rodríguez, Jia-Xin Yin, *Effects of rotation and anisotropy on the properties of type-II holographic superconductors* &lbrack;[arXiv:2406.05351](https://arxiv.org/abs/2406.05351)&rbrack;
+
+* Souvik Paul, Sunandan Gangopadhyay: *Noncommutative $p$-wave holographic superconductors* &lbrack;[arXiv:2502.08275](https://arxiv.org/abs/2502.08275)&rbrack;
 
 
 
