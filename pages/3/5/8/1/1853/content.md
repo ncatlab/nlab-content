@@ -363,7 +363,7 @@ $$
 
 ### In abelian &#268;ech cohomology ###
 
-The cup product has a simple expression in abelian [[?ech cohomology]].
+The cup product has a simple expression in abelian [[Čech cohomology]].
 
 For $A_1$ and $A_2$ two [[chain complex]]es (of [[sheaves]] of [[abelian group]]s) construct a morphism of &#268;ech complexes
 
