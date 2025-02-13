@@ -69,7 +69,7 @@ It follows that for $N_1, N_2$ two $A$-[[dg-modules]] then homomorphisms $f$ out
 $$
   f 
    \;\colon\;
-  (N_1 \olpus (A \otimes V[n]), d_\phi)
+  (N_1 \oplus (A \otimes V[n]), d_\phi)
    \longrightarrow
   N_2
 $$
