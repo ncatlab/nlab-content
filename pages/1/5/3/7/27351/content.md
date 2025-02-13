@@ -322,6 +322,11 @@ On [[boundary conditions]] and line-[[defect field theory|defects]] in abelian C
 
 * [[Anton Kapustin]]: *Ground-state degeneracy for abelian anyons in the presence of gapped boundaries*, Phys. Rev. B **89** (2014) 125307  &lbrack;[arXiv:1306.4254](https://arxiv.org/abs/1306.4254), [doi:10.1103/PhysRevB.89.125307](https://doi.org/10.1103/PhysRevB.89.125307)&rbrack;
 
+and with [[fermion|fermionic]] [[boundary field theory|boundary]] [[2d CFT]]:
+
+* Kohki Kawabata, Tatsuma Nishioka, Takuya Okuda, Shinichiro Yahagi: *Fermionic CFTs from topological boundaries in abelian Chern-Simons theories* &lbrack;[arXiv:2502.08084](https://arxiv.org/abs/2502.08084)&rbrack;
+
+
 Discussion via [[locally covariant AQFT|locally covariant]] [[algebraic quantum field theory]]:
 
 * [[Claudio Dappiaggi]], [[Simone Murro]], [[Alexander Schenkel]]: *Non-existence of natural states for Abelian Chern-Simons theory*, J. Geom. Phys. **116** (2017) 119-123 &lbrack;[arXiv:1612.04080](https://arxiv.org/abs/1612.04080), [arXiv:10.1016/j.geomphys.2017.01.015](https://doi.org/10.1016/j.geomphys.2017.01.015)&rbrack;
