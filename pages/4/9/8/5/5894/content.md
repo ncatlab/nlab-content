@@ -1,12 +1,20 @@
 
 This entry is about the article
 
-* [[Yvonne Choquet-Bruhat]], 
-  _The Cauchy Problem in Classical Supergravity_
-  Letters in Mathematical Physics 7 (1983) 459-467. 0377
+* [[Yvonne Choquet-Bruhat]]:
+
+  \linebreak
+
+  **The Cauchy Problem in Classical Supergravity**
+
+  \linebreak
+
+  Letters in Mathematical Physics **7** (1983) 459-467
+
+  [doi:10.1007/BF00402245](https://doi.org/10.1007/BF00402245)
 
 
-## Summarry
+## Summary
 
 Here is the quintessence of the article.
 
