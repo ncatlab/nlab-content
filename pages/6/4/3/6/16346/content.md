@@ -906,7 +906,7 @@ Here we just recall some bare minimum of this [[higher differential geometry]], 
 +-- {: .num_prop}
 ###### Proposition
 
-The [[(infinity,1)-category theory]] [[analogy|analog]] of prop. \ref{CoReflectionsOfToposes} still holds, and produces via the direct analog corollary \ref{SystemOfModalities} a system of [[modal operators]] on $\mathbf{H} =$ [[SuperFormalSmooth?Type]].
+The [[(infinity,1)-category theory]] [[analogy|analog]] of prop. \ref{CoReflectionsOfToposes} still holds, and produces via the direct analog corollary \ref{SystemOfModalities} a system of [[modal operators]] on $\mathbf{H} =$ [[SuperFormalSmooth∞Type]].
 
 
 =--
