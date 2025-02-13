@@ -26,7 +26,7 @@ Let $X_\bullet : \Delta^{op} \to Diff$ be a [[simplicial object|simplicial]] [[m
 
 +-- {: .num_defn}
 ###### Definition
-**(simplicial de Rahm complex, first version)**
+**(simplicial de Rham complex, first version)**
 
 Write 
 
@@ -60,7 +60,7 @@ So an element $\omega \in \mathcal{A}(X_\bullet)$ in degree $n$ is a collection 
 
 +-- {: .num_defn}
 ###### Definition
-**(simplicial de Rahm complex, second version)**
+**(simplicial de Rham complex, second version)**
 
 Write $\Delta^n_{Diff}$ for the standard $n$-[[simplex]] in its standard incarnations as a smooth [[manifold]] (with boundary). These arrange in the obvious way into the [[cosimplicial object]] $\Delta_{Diff} : \Delta \to Diff$.
 
