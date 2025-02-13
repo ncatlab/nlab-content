@@ -30,8 +30,8 @@ $$ \{ (x,y) \in A \times B \;|\; y = t[x] \} $$
 [[!redirects lambda abstractions]]
 [[!redirects lambda-abstraction]]
 [[!redirects lambda-abstractions]]
-[[!redirects ? abstraction]]
-[[!redirects ? abstractions]]
+[[!redirects λ abstraction]]
+[[!redirects λ abstractions]]
 [[!redirects ∞-abstraction]]
 [[!redirects ∞-abstractions]]
 
