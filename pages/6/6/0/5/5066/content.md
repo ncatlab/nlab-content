@@ -94,7 +94,7 @@ In a [[cohesive (∞,1)-topos]] (already in a [[locally ∞-connected (∞,1)-to
 
 See the section <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#vanKampenTheorem">cohesive (∞,1)-topos -- van Kampen theorem</a>.
 
-In particular for the cohesive $(\infty,1)$-topos [[?TopGrpd]] of [[topological ∞-groupoid]]s this reproduces the [topological higher van Kampen theorem](#ForTopSpaces) discussed above.
+In particular for the cohesive $(\infty,1)$-topos [[∞TopGrpd]] of [[topological ∞-groupoid]]s this reproduces the [topological higher van Kampen theorem](#ForTopSpaces) discussed above.
 
 
 ## Examples
@@ -120,11 +120,11 @@ The version for filtered topological spaces and the strict homotopy $\infty$-gro
 
 while the general methodology is discussed in 
 
-* [[Ronnie Brown]] "Modelling and computing homotopy types: I" to appear in 2017 in a special issue of Indagationes Math in honour of L.E.J. Brouwer. (https://arxiv.org/abs/1610.07421) (#RBrown)
+* [[Ronnie Brown]], _Modelling and computing homotopy types: I_, Indagationes Mathematicae 29:1 (2018), 459-482.  [arXiv](https://arxiv.org/abs/1610.07421). (#RBrown)
 
 One area of application of work of Brown and Loday is to a nonabelian tensor product of groups, see:
 
-* [[Ronnie Brown]] Bibliography on the nonabelian tensor product. (http://www.groupoids.org.uk/nonabtens.html) (#tens)
+* [[Ronnie Brown]], _Non abelian tensor products of groups and related constructions, and applications (bibliography)_, [HTML](http://www.groupoids.org.uk/nonabtens.html).
 
 
 [[!redirects Higher Homotopy van Kampen Theorem]]
