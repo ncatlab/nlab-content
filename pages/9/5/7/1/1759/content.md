@@ -758,7 +758,7 @@ I would trigger a new page for it, but don't know optimal naming conventions.
 
 *  [[Toby Bartels]]:
    *  Removed the spurious hyphen from [[RR field]], in accordance with my intuition and the cited references.
-   *  Is [[Eckmann?Hilton duality]] the sort of duality being referred to at [[cohomotopy]]?
+   *  Is [[Eckmann–Hilton duality]] the sort of duality being referred to at [[cohomotopy]]?
    *  Used Eric\'s [[Note on Formatting]] method for the first time, at [[Lie infinity-algebroid representation]].
    *  Added terminological variations to [[normal space]].  At some point I need to write [[separation axiom]] like I did [at the English Wikipedia](http://secure.wikimedia.org/wikipedia/en/wiki/Separation_axiom).
 
@@ -977,7 +977,7 @@ I would trigger a new page for it, but don't know optimal naming conventions.
 
 ## 2009-07-12
 
-*  [[Toby Bartels]]:  Wrote [[sphere]] and [[pointed space]] to fill some gaps.  The former has a reference to (yet unwritten) [[Whitehead's theorem]] with the provacative claim that this shows that [[generalised (Eilenberg?Steenrod) homotopy theory]] is unnecessary; I don\'t really intend to defend that, but maybe it will interest the people working on that subject?
+*  [[Toby Bartels]]:  Wrote [[sphere]] and [[pointed space]] to fill some gaps.  The former has a reference to (yet unwritten) [[Whitehead's theorem]] with the provacative claim that this shows that [[generalised (Eilenberg–Steenrod) homotopy theory]] is unnecessary; I don\'t really intend to defend that, but maybe it will interest the people working on that subject?
 
 * [[Andrew Stacey]]: Started a discussion on the n-forum about how to get a snapshot of the n-lab (since this is really an announcement page rather than a discussion page).
 Discussion is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=42).
@@ -1048,7 +1048,7 @@ Discussion is [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.p
 
 ## 2009-07-09
 
-* [[Zoran Škoda|Zoran ?k]]oda: but the plurals are NOT there -- if I write <nowiki>[[apple]]s</nowiki> I did not use the code for plural. Let me clear the issue (I will write round brackets): Eric is doing TWO things 1) he is taking entry ((apple)) and adding the redirection instruction inside to allow for ((apples)). This creates one new version, not too bad, you consider this robust, I can tolerate it. 2) he is changing every occurence of my reference ((apple))s which used to be correct usage from within entries ((banana)), ((pear)), ((ananas)) and ((strawberry)) to new format ((apples)). This amounts to not allowing me to use legitimate ((apple))s from within ((bananas)). This second thing, unlike the first, I can not tolerate, as it has no rational explanation. I do not know if it is [[evil|good :)) ]].  
+* [[Zoran Škoda]]: but the plurals are NOT there -- if I write <nowiki>[[apple]]s</nowiki> I did not use the code for plural. Let me clear the issue (I will write round brackets): Eric is doing TWO things 1) he is taking entry ((apple)) and adding the redirection instruction inside to allow for ((apples)). This creates one new version, not too bad, you consider this robust, I can tolerate it. 2) he is changing every occurence of my reference ((apple))s which used to be correct usage from within entries ((banana)), ((pear)), ((ananas)) and ((strawberry)) to new format ((apples)). This amounts to not allowing me to use legitimate ((apple))s from within ((bananas)). This second thing, unlike the first, I can not tolerate, as it has no rational explanation. I do not know if it is [[evil|good :)) ]].  
 
   * [[Eric]]: The fact that many items appear as <nowiki>[[apple]]s</nowiki> on the nLab is an artifact of the period prior to having redirects. Prior to having redirects, we'd have to write that as <nowiki>[[apple|apples]]</nowiki> to get it to render correctly which gets old after a while, so people naturally gravitated to the easier <nowiki>[[apple]]s</nowiki>. If we'd had redirects from the beginning, there would be a redirect at <nowiki>[[apple]]</nowiki> for <nowiki>[[apples]]</nowiki> and no one in their right mind would ever write <nowiki>[[apple]]s</nowiki> again (which is distracting to look at) if they could just write <nowiki>[[apples]]</nowiki> instead. I'm at a total loss as to why you oppose this. Currently, I am trying to reverse the damage so that we can make things cleaner from here. Whenever, I see "]]s", I instinctively change this to "s]]" and add a redirect if it doesn't exist. In time, this should work itself out and we should have plural redirects for most links that are commonly used. It would work itself even faster if people stopped writing "]]s" and used the plural link form instead.
 
