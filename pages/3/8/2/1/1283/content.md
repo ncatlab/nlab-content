@@ -181,7 +181,7 @@ Recall from the discussion at [[principal infinity-bundle]] that the total $G$ 2
 +-- {: .num_prop}
 ###### Proposition
 
-The Lie groupoid $P_{(Y,L,\mu)}$ defined by a bundle gerbe is in [[?LieGrpd]] the [[(∞,1)-pullback]]
+The Lie groupoid $P_{(Y,L,\mu)}$ defined by a bundle gerbe is in [[∞LieGrpd]] the [[(∞,1)-pullback]]
 
 $$
   \array{
