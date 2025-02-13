@@ -49,6 +49,8 @@ An element $A$ of an (abstract) [[C*-algebra]] is called **positive** if it is [
 
 Here, 'positive' means positive semidefinite; see at [[inner product]] for the family of variations of this notion.  (The relevant inner product here is that associated with the quadratic form above: $v, w \mapsto \langle v, A w\rangle$.)
 
+An element $a \in A$ is positive if and only if it is of the form $a = b^* b$. This statement is not true for more general [[star-algebra|*-algebras]] over the complex numbers.
+
 ### In dagger-categories
 
 Yet more generally, in a [[dagger category]] a [[morphism]] $f$ is positive if it is of the form $f = g^\dagger \circ g$ for some morphism $g$.
