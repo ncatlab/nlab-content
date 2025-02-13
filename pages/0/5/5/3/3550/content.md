@@ -282,7 +282,7 @@ This is [[Higher Topos Theory|HTT, prop. 6.2.2.17]].
 
 ### Model category presentation
 
-See at _[[?ech model structure on simplicial sheaves]]_.
+See at _[[Čech model structure on simplicial sheaves]]_.
 
 ## References
 
