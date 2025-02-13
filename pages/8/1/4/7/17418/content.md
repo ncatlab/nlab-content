@@ -64,8 +64,8 @@ The construction of an abstraction operator in combinatory logic is analogous to
 
 Versions of combinatory logic that correspond to [[linear logic]] and [[affine logic]] have been studied under the names **BCI logic** and **BCK logic**  respectively, with the letters indicating the combinators used, where
 
-* $B = \lambda x.\lambda y.\lambda z. x(yz) : (B\to C) \to (A\to B) \to (A\to C)$
-* $C = \lambda x.\lambda y.\lambda z. (xz)y : (A\to (B\to C)) \to (B \to (A\to C))$
+* $B = \lambda x.\lambda y.\lambda z. x(y z) : (B\to C) \to (A\to B) \to (A\to C)$
+* $C = \lambda x.\lambda y.\lambda z. (x z)y : (A\to (B\to C)) \to (B \to (A\to C))$
 
 The combinator $I$ is also definable as $CKK$, so it is also available in BCK logic (which might therefore be called BCKI logic).  Similarly, traditional combinatory logic could be called "SKI logic", or just "SK logic".
 
