@@ -108,7 +108,7 @@ In a [[cohesive (∞,1)-topos]] higher van Kampen theorems hold in great general
 
 See the section <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#vanKampenTheorem">cohesive (∞,1)-topos -- van Kampen theorem</a>.
 
-In particular for the cohesive $(\infty,1)$-topos [[?TopGrpd]] of [[topological ∞-groupoid]]s this reproduces the [topological higher van Kampen theorem](#ForTopSpaces) discussed above.
+In particular for the cohesive $(\infty,1)$-topos [[∞TopGrpd]] of [[topological ∞-groupoid]]s this reproduces the [topological higher van Kampen theorem](#ForTopSpaces) discussed above.
 
 
 ## Examples
