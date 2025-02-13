@@ -17,7 +17,7 @@
 
 ## Idea
 
-The _fivebrane Lie 6-algebra_ is the second step in the [[∞-Lie algebra]]-[[Whitehead tower]] (read as the [[Whitehead tower in an (∞,1)-topos]] in [[?LieGrpd]]) of the [[special orthogonal group]].
+The _fivebrane Lie 6-algebra_ is the second step in the [[∞-Lie algebra]]-[[Whitehead tower]] (read as the [[Whitehead tower in an (∞,1)-topos]] in [[∞LieGrpd]]) of the [[special orthogonal group]].
 
 
 
