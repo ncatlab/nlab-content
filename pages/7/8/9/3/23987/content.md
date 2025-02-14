@@ -2751,6 +2751,19 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > The lattice Boltzmann method, a discrete velocity model for [[fluid dynamics]], presents intriguing possibilities for [[quantum computation]]. This thesis develops three distinct approaches to [[quantum algorithms]] for lattice Boltzmann (QALB), each offering unique mathematical insights. First, we analyze the concurrent Carleman linearization of the collision and streaming, revealing how the nonlinear streaming operator maps to an infinite-dimensional linear system with exponentially suppressed truncation errors. Second, we construct the first completely unitary algorithm with a quantum linear embedding using bosonic operators and prove that the BGK collision operator's symmetries enable its decomposition into Hermitian and constant non-Hermitian components. We show that embedding error is convergent for a general differential equation driven by a nonlinear polynomial. We demonstrate that while the quantum linear embedding achieves polylogarithmic scaling in spatial discretization, its gate complexity remains polynomial in Reynolds number. Finally, we explore quantum machine learning approaches to the collision operator, developing physics-informed quantum neural networks with embedded lattice Boltzmann symmetries. The quantum machine learning approach offers potential runtime advantages but requires significant improvements in training loss to handle physically relevant Reynolds numbers.
 
+\linebreak
+
+* {#BaylissFeb2025} 10 Feb 2025
+
+  Sam Bayliss (University of Glasgow):
+
+  **Optically Addressable Spin Qubits in Chemically Synthesized Molecules**
+
+  cf.: [arXiv:2004.07998](https://arxiv.org/abs/2004.07998), [arXiv:2402.07572](https://arxiv.org/abs/2402.07572)
+
+  > Optically addressable spins are a promising platform for quantum technologies due to their ability to be readily prepared, coherently controlled, and read out—exemplified by remarkable demonstrations with solid-state defects. Molecular materials are also attractive for hosting analogous optical-spin interfaces, with their chemical tunability and ability to be integrated with other systems offering promising functionality. Such properties could be beneficial for [[quantum sensing]] where, for example, precise spatial control between sensor and target is desired. To realise the potential of molecular spins for applications such as quantum sensing, the key combination of coherent spin manipulation and optical readout is desirable, combining sensitive detection capabilities with versatile control methods. In addition, such capabilities would ideally be accessible at room temperature. In this talk, I will describe examples of such functionality—ground-state molecular spins which can be optically interfaced, and excited-state spins which can realise high-contrast optically detected coherent control at room temperature—and outline how such systems are attractive as chemically synthesised spin qubits for quantum sensing.
+
+
 
 \linebreak
 
@@ -3794,6 +3807,19 @@ Neumann algebras**
 
   > [[superinsulator|Superinsulators]] are [[electric-magnetic duality|dual]] [[superconductors]]. They form as an emergent [[magnetic monopole]] condensate in which charges are bound by electric [[flux tubes]] ([[strings]]), realizing purely electric [[pions]], and implying infinite electric [[resistance]] up to a finite critical [[temperature]] and critical [[voltage]]. [[magnetic monopole|Magnetic monopoles]] arise naturally in type-III [[superconductors]] with emergent granularity and they cause the [[Coulomb interaction]] to become even much stronger than in [Mott insulators](https://en.wikipedia.org/wiki/Mott_insulator). I will review both the main aspects of the theory of superinsulation and the abundant experimental evidence supporting it, including an experiment directly measuring the linear Coulomb interaction due to electric [[flux tube|strings]].  Finally, I will mention some possible technological applications of superinsulation, both as a standalone and in conjunction with [[superconductors]].
 
+\linebreak
+
+* {#JiangFeb2025} 12 Feb 2025
+
+  [[Shuhan Jiang]] (University of Z&uuml;rich):
+
+  **Cohomological Field Theories and Generalized Seiberg-Witten Equations**
+
+  cf. [arXiv:2407.04019](https://arxiv.org/abs/2407.04019)
+
+  > We introduce a formalism for constructing [[cohomological field theories]] (CohFTs) from nonlinear [[partial differential equations]]. Applying this formalism to the generalized [[Seiberg-Witten equations]] offers a unified perspective on the full [[supersymmetry|supersymmetric]] [[action functional|functionals]] of [[Donaldson theory|Donaldson-Witten]], [[Seiberg-Witten theory|Seiberg-Witten]], and [[Kapustin-Witten TQFT|Kapustin-Witten theories]]. We also outline a [[quantization]] program for this CohFT framework and discuss its potential to produce manifold invariants. This is joint work with [[Jürgen Jost]].
+
+
 \linebreak  
 
 
@@ -4086,7 +4112,6 @@ The following is a (very) inclomplete list of selected invited presentations by 
 </a>
 </center>
   
-
 
 \linebreak
 
