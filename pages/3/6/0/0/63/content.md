@@ -97,7 +97,7 @@ considers the Hamiltonian formulation. Chapters 17 and 18 are about the Lagrangi
 
 Review includes:
 
-* {#Jiang95} Shuhan Jiang, *BRST cohomology*, Section 3 in: *Mathematical Structures of Cohomological Field Theories*, PhD thesis (1995) &lbrack;[urn:nbn:de:bsz:15-qucosa2-869402](https://nbn-resolving.org//urn:nbn:de:bsz:15-qucosa2-869402), [spire:2701230](https://inspirehep.net/literature/2701230), [pdf](https://inspirehep.net/files/183359de739dfbf2a8118cd6e5d44700)&rbrack;
+* {#Jiang95} [[Shuhan Jiang]], *BRST cohomology*, Section 3 in: *Mathematical Structures of Cohomological Field Theories*, PhD thesis (1995) &lbrack;[urn:nbn:de:bsz:15-qucosa2-869402](https://nbn-resolving.org//urn:nbn:de:bsz:15-qucosa2-869402), [spire:2701230](https://inspirehep.net/literature/2701230), [pdf](https://inspirehep.net/files/183359de739dfbf2a8118cd6e5d44700)&rbrack;
 
 
 The [[L-infinity algebroid|$L_\infty$-algebroid]]-structure of the [[local BRST complex]] on the [[jet bundle]] is made manifest in
