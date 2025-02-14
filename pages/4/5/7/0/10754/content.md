@@ -46,6 +46,8 @@ This follows directly as a special case of the general formula for [[induced rep
 
 * [[regular representation]]
 
+* [[diagonal action]], [[adjoint action]]
+
 
 
 [[!include homotopy type representation theory -- table]]
