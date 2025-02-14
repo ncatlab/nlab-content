@@ -151,6 +151,8 @@ For proof and more background see at *[[free loop space of classifying space]]*.
 
 ## Related concepts
 
+* [[trivial action]], [[diagonal action]]
+
 * [[coadjoint action]]
 
 * [[adjoint representation]], [[adjoint bundle]]
