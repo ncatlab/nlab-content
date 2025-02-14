@@ -4,6 +4,8 @@ His research includes [[nonabelian homological algebra]], the discovery of [[cat
 
 * [website](https://science.uct.ac.za/department-mathematics/contacts/george-janelidze)
 
+* [archived home page](https://web.archive.org/web/20220119150319/http://www.mth.uct.ac.za/prof-george-janelidze-0)
+
 * [old website](http://www.rmi.ge/~gjanel)
 
 * [MathGenealogy entry](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=80837)
