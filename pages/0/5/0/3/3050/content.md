@@ -464,6 +464,10 @@ Review and further developments:
 * S. Caenepeel, _Galois corings from the descent theory point of view,_ in: Fields Inst. Commun. __43__ (2004) 163–186
 * [[Tomasz Brzeziński]], Adrian Vazquez Marquez, Joost Vercruysse, _The Eilenberg–Moore category and a Beck-type theorem for a Morita context_, J. Appl Categor Struct (2011) 19: 821 [doi](https://doi.org/10.1007/s10485-009-9217-0)
 
+An expository overview is given in Chapter 2 of
+
+* Rui Prezado, _Some aspects of descent theory and applications_, [arXiv:2502.09337](https://arxiv.org/abs/2502.09337).
+
 In triangulated setup there are several results including
 
 * P. Balmer, _Descent in triangulated categories_, Mathematische Annalen (2012) 353:1, 109–125 
