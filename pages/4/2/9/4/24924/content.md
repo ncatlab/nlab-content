@@ -6,7 +6,7 @@
 
 #### Claims
 
-Claim that the proper application of [[holographic entanglement entropy]] to the discussion of [[Bekenstein-Hawking entropy]] resolves the apparent [[black hole information paradox]]:
+Claim that the proper application of [[holographic entanglement entropy]] to the discussion of [[Bekenstein-Hawking entropy]] resolves the apparent [[black hole information paradox]] via the appearance of "entanglement islands":
 
 * [[Geoff Penington]], [[Stephen Shenker]], [[Douglas Stanford]], [[Zhenbin Yang]], _Replica wormholes and the black hole interior_,  J. High Energ. Phys. **2022** 205 (2022) \[<a href="https://doi.org/10.1007/JHEP05(2020)013">doi:10.1007/JHEP05(2020)013</a>, [arXiv:1911.11977](https://arxiv.org/abs/1911.11977)\]
 
@@ -22,11 +22,7 @@ See also:
 
 #### Criticism
 
-* Anna Karlsson, _Concerns about the replica wormhole derivation of the island conjecture_ ([arXiv:2101.05879](https://arxiv.org/abs/2101.05879))
-
-* Harvendra Singh, *Islands and Icebergs contribute nothing to the Page curve (System with a symmetrical bath)* \[<a href="https://arxiv.org/abs/2210.13970">arXiv:2210.13970</a>\]
-
-Argument that the would-be proof of the island conjecture secretly works only for *massive* gravity:
+Argument that the would-be proof of the island conjecture secretly works only for <a href="https://en.m.wikipedia.org/wiki/Massive_gravity">*massive gravity*</a>:
 
 * [[Hao Geng]], [[Andreas Karch]], *Massive Islands*,  J. High Energ. Phys. **2020** 121 (2020) \[<a href="https://doi.org/10.1007/JHEP09(2020)121">doi:10.1007/JHEP09(2020)121</a>, [arXiv:2006.02438](https://arxiv.org/abs/2006.02438)\]
 
@@ -51,10 +47,19 @@ Review in:
 
 * [[Nirmalya Kajuri]], *[Of Islands, Holograms and Saving Quantum Physics From a Black Hole Paradox](https://science.thewire.in/the-sciences/unitarity-entanglement-islands-holography-information/)*, Science -- The Wire (Nov 2022)
 
-  > $[\ldots]$ a few sceptics have argued that while the calculations are correct, they don't help resolve the black hole information-loss paradox. The troubles stem from the reservoir attached to the anti-de Sitter universe. The physicists who authored the island papers assumed that gravity stopped at the boundary of the anti-de Sitter space and didn’t enter the reservoir. This is not an innocuous assumption. $[\ldots]$ The key takeaway is that the island way to recover information and save unitarity works perfectly well – if you slightly modify Einstein’s theory of gravity. These criticisms have been around for some two years now, and physicists are yet to resolve them in print. $[\ldots]$ physicists continue to publish papers by the hundreds about the entanglement islands but few attempt to answer whether the islands are compatible with the Einsteinian gravity of our universe. $[\ldots]$
+  > $[\ldots]$ a few sceptics have argued that while the calculations are correct, they don't help resolve the black hole information-loss paradox. The troubles stem from the reservoir attached to the anti-de Sitter universe. The physicists who authored the island papers assumed that gravity stopped at the boundary of the anti-de Sitter space and didn’t enter the reservoir. This is not an innocuous assumption. \[...\] The key takeaway is that the island way to recover information and save unitarity works perfectly well – if you slightly modify Einstein’s theory of gravity. These criticisms have been around for some two years now, and physicists are yet to resolve them in print. \[...\] physicists continue to publish papers by the hundreds about the entanglement islands but few attempt to answer whether the islands are compatible with the Einsteinian gravity of our universe. \[...\]
+
+
+Claim of reconciliation of [[causal locality]] in the island proposal, under the explicit assumption of massive gravity:
+
+* [[Hao Geng]]: *The Mechanism behind the Information Encoding for Islands* \[<a href="https://arxiv.org/abs/2502.08703">arXiv:2502.08703</a>\]
 
 
 See also:
+
+* Anna Karlsson, _Concerns about the replica wormhole derivation of the island conjecture_ \[<a href="https://arxiv.org/abs/2101.05879">arXiv:2101.05879</a>\]
+
+* Harvendra Singh: *Islands and Icebergs contribute nothing to the Page curve (System with a symmetrical bath)* \[<a href="https://arxiv.org/abs/2210.13970">arXiv:2210.13970</a>\]
 
 * Saskia Demulder, Alessandra Gnecchi, Ioannis Lavdas, [[Dieter Lüst]], *Islands and Light Gravitons in type IIB String Theory* \[<a href="https://arxiv.org/abs/2204.03669">arXiv:2204.03669</a>\]
 
