@@ -61,6 +61,7 @@ On [[quantum simulation]] of [[topological order]] and [[anyon]] [[braiding]] on
 * [[Mohsin Iqbal]], [[Nathanan Tantivasadakarn]], R. Verresen et al., Figure 5 in : *Non-Abelian topological order and anyons on a trapped-ion processor*, Nature **626** (2024) 505–511 \[<a href="https://doi.org/10.1038/s41586-023-06934-4">doi:10.1038/s41586-023-06934-4</a>\]
 
 ### Neutral atoms
+ {#ReferencesTrappedNeutralAtoms}
 
 The analogue for laser-trapped neutral atoms.
 
