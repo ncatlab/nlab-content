@@ -23,7 +23,7 @@ Fully generally one speaks of *Seifert fibrations*.
 
 > (Beware that there is also the *un-related* notion of *[[Seifert surfaces]]*, also considered in higher dimensions: These are [[coboundaries]] of [[knots]].)
 
-Accordingly, a general Seifert fibration is locally an [[orbifold quotient]] [[fibration]] of the form
+{#LocalStructure} Accordingly, a general Seifert fibration is locally an [[orbifold quotient]] [[fibration]] of the form
 
 $$
   \big(
