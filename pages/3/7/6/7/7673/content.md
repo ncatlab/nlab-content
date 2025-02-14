@@ -637,6 +637,8 @@ See also:
 
 Comparisons of various models can be found in
 
+* Javier Blanco, *Relating categorical approaches to type dependency*, master thesis, Catholic University Nijmegen (1991), [[BlancoRelatingTypeDependency.pdf:file]] 
+
 * [[Benedikt Ahrens]], [[Peter LeFanu Lumsdaine]], [[Vladimir Voevodsky]], *Categorical structures for type theory in univalent foundations* &lbrack;[arxiv:1705.04310](https://arxiv.org/abs/1705.04310)&rbrack;
 
 * {#KapulkinLumsdaine16} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *The homotopy theory of type theories*&lbrack;[arXiv:1610.00037](https://arxiv.org/abs/1610.00037)&rbrack;
