@@ -120,6 +120,9 @@ See also:
 
 * Vyacheslav P. Spiridonov, *Variations of supersymmetric quantum mechanics and superconformal indices* &lbrack;[arXiv:2404.10609](https://arxiv.org/abs/2404.10609)&rbrack;
 
+* Ivan G. Avramidi: *On Zero Energy States in SUSY Quantum Mechanics on Manifolds* &lbrack;[arXiv:2502.09040](https://arxiv.org/abs/2502.09040)&rbrack;
+
+
 Relation to [[semiclassical approximation]]:
 
 * Asim Gangopadhaya, Jonathan Bougie, Constantin Rasinariu: *Recent Advances in Semiclassical Methods Inspired by Supersymmetric Quantum Mechanics* &lbrack;[arXiv:2408.15424](https://arxiv.org/abs/2408.15424)&rbrack;
