@@ -16,13 +16,13 @@
 
 ## Definition
 
-A _Seifert 3-manifold_ is a [[3-manifold]] which is the total space of a [[circle]]-[[fiber bundle]] ([[circle bundle]]) over a 2-dimensional [[orbifold]]. Since the circle-fibration [[structure]] may not be unique one also speaks more explicitly of *Seifert-fibered manifolds*.
+A _Seifert 3-manifold_ is a [[3-manifold]] which is the total space of a [[circle]]-[[fiber bundle]] ([[circle bundle]]) over a 2-dimensional [[orbifold]]. Since the circle-fibration [[structure]] may not be unique, one also speaks, more explicitly, of *Seifert-fibered manifolds*.
 
-If already the total space is a 3-orbifold, one correspondingly speaks of a *Seifert orbifold* etc. (e.g. [Mecchia & Seppi 2020 Def. 2.6](#MecchiaSeppi20)).
+If already the total space is a 3-[[orbifold]], one correspondingly speaks of a *Seifert orbifold* etc. (e.g. [Mecchia & Seppi 2020 Def. 2.6](#MecchiaSeppi20)).
 
 Fully generally one speaks of *Seifert fibrations*. 
 
-(Beware that there is also the *un-related* notion of *[[Seifert surfaces]]*, also considered in higher dimensions: These are coboundaries of [[knots]].)
+(Beware that there is also the *un-related* notion of *[[Seifert surfaces]]*, also considered in higher dimensions: These are [[coboundaries]] of [[knots]].)
 
 
 ## Related concepts
