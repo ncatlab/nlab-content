@@ -91,7 +91,7 @@ Discussion as [[cohomological field theory]]:
 
 * [[Shuhan Jiang]], [[Jürgen Jost]]: *Cohomological field theories and generalized Seiberg-Witten equations* &lbrack;[arXiv:2407.04019](https://arxiv.org/abs/2407.04019)&rbrack;
 
-* [[Shuhan Jiang]]: *Cohomological Field Theories and Generalized Seiberg-Witten Equations*, [talk at](CQTS#JiangFeb2025) [[CQTS]] (Feb 2025)
+* [[Shuhan Jiang]]: *Cohomological Field Theories and Generalized Seiberg-Witten Equations*, [talk at](CQTS#JiangFeb2025) [[CQTS]] (Feb 2025) &lbrack;slides:[[JiangAtCQTS-CohFTandSW.pdf:file]]&rbrack;
 
 
 
