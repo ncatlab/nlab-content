@@ -250,6 +250,9 @@ Review:
 
 * [[Klaas Landsman]], *The Born rule and its interpretation*, in: *Compendium of Quantum Physics*, Springer (2009) 64-70 &lbrack;[doi:10.1007/978-3-540-70626-7_20](https://doi.org/10.1007/978-3-540-70626-7_20), [pdf](https://www.math.ru.nl/~landsman/Born.pdf), [[Landsman-BornRule.pdf:file]]&rbrack;
 
+* [[Arnold Neumaier]]: *The Born rule -- 100 years ago and today* &lbrack;[arXiv:2502.08545](https://arxiv.org/abs/2502.08545)&rbrack;
+
+
     
 See also:
 
