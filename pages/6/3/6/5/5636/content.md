@@ -87,9 +87,11 @@ Discussion of lifts of SW-invariants to [[M-theory]]:
 
 * [[Neil Lambert]], [[Peter West]], _Monopole Dynamics from the M-Fivebrane_, Nucl.Phys. B556 (1999) 177-196 &lbrack;[arXiv:hep-th/9811025](http://arxiv.org/abs/hep-th/9811025)&rbrack;
 
-See also:
+Discussion as [[cohomological field theory]]:
 
-* Shuhan Jiang, [[Jürgen Jost]]: *Cohomological field theories and generalized Seiberg-Witten equations* &lbrack;[arXiv:2407.04019](https://arxiv.org/abs/2407.04019)&rbrack;
+* [[Shuhan Jiang]], [[Jürgen Jost]]: *Cohomological field theories and generalized Seiberg-Witten equations* &lbrack;[arXiv:2407.04019](https://arxiv.org/abs/2407.04019)&rbrack;
+
+* [[Shuhan Jiang]]: *Cohomological Field Theories and Generalized Seiberg-Witten Equations*, [talk at](CQTS#JiangFeb2025) [[CQTS]] (Feb 2025)
 
 
 
@@ -149,3 +151,7 @@ On relation between [[Rozansky-Witten invariants]] and [[Seiberg-Witten invarian
 
 [[!redirects quantum Seiberg-Witten curve]]
 [[!redirects quantum Seiberg-Witten curves]]
+
+[[!redirects Seiberg-Witten equation]]
+[[!redirects Seiberg-Witten equations]]
+
