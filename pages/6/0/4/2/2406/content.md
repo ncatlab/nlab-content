@@ -24,5 +24,10 @@ On [[generalized quantum measurement]] via [[POVMs]] (and [[Born's rule]]):
 
 * [[Arnold Neumaier]], *Born's rule and measurement* &lbrack;[arXiv:1912.09906](https://arxiv.org/abs/1912.09906)&rbrack;
 
+More on the [[Born rule]]:
+
+* [[Arnold Neumaier]]: *The Born rule -- 100 years ago and today* &lbrack;[arXiv:2502.08545](https://arxiv.org/abs/2502.08545)&rbrack;
+
+
 
 category: people
