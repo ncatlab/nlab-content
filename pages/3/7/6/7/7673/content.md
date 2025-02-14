@@ -13,8 +13,6 @@
 =--
 
 
-
-# Categorical semantics of dependent types
 * table of contents
 {: toc}
 
