@@ -10,9 +10,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Definition
 
@@ -24,7 +23,7 @@ Fully generally one speaks of *Seifert fibrations*.
 
 > (Beware that there is also the *un-related* notion of *[[Seifert surfaces]]*, also considered in higher dimensions: These are [[coboundaries]] of [[knots]].)
 
-Accordingly, a general Seifert fibration is locally an [[orbifold quotient]] of the form
+Accordingly, a general Seifert fibration is locally an [[orbifold quotient]] [[fibration]] of the form
 
 $$
   \big(
@@ -32,16 +31,37 @@ $$
   \big)
   \sslash
   \mathbb{Z}_n
+  \xrightarrow{
+    pr_{D^2} \sslash \mathbb{Z}_n
+  }
+  D^2
+  \sslash
+  \mathbb{Z}_n
   \,,
 $$
 
-where the [[cyclic group]] $\mathbb{Z}_n \coloneqq \mathbb{Z}/n$ [[group action|acts]] diagonally via [[rotation]] by 
+where the [[cyclic group]] $\mathbb{Z}_n \coloneqq \mathbb{Z}/n$ [[group action|acts]] [[diagonal action|diagonally]] via [[rotations]] by 
 
-1. the [[angle]] $2\pi\tfrac{1}{n}$ on the [[2-disk]] $D^2$,
+1. the [[angle]] $2\pi\tfrac{1}{n}$ on the [[2-disk]] $D^2 = \big\{ z \in \mathbb{C} \,\big\vert\, {\vert z\vert} \lt 1 \big\}$,
 
-1. an [[angle]] $-2\pi\tfrac{r}{n}$ on the [[circle]] $S^1 \simeq 2\pi\mathbb{R}/\mathbb{Z}$,
+1. an [[angle]] $-2\pi\tfrac{r}{n}$ on the [[circle]] $S^1 \simeq \big\{ \xi \in \mathbb{C} \,\big\vert\, {\vert \xi \vert} = 1 \big\}$,
 
-with $r, n \in \mathbb{Z}$, $n \geq 2$ not necessarily [[coprime integer|coprime]], their [[fraction]] $r/n$ also called the *slope modulo 1* of the fibration at this point.
+$$
+  (z, \xi)
+  \,\sim\,
+  \big(
+    z \, q
+    ,\,
+    \xi \, q^r
+  \big)
+  \,,
+  \;\;\;\;
+  q \coloneqq \exp\big(2\pi \mathrm{i} \tfrac{1}{n}\big)
+  \,.
+$$
+
+with $r, n \in \mathbb{Z}$, $n \geq 2$ (not necessarily [[coprime integer|coprime]]), their [[fraction]] $r/n$ also called the *slope modulo 1* of the fibration at this point:
+
 
 This [[orbifold quotient]] is a non-singular (Seifert-fibered) [[smooth manifold]] iff $r$ and $n$ are [[coprime integers]], otherwise it is an [[orbifold]] whose orbi-singular ([[fixed point|fixed]]) locus has [[isotropy group]] $\mathbb{Z}_{gcd}$ determined by the [[greatest common divisor]] $gcd \coloneqq gcd(r,n)$.
 
@@ -67,7 +87,7 @@ The original article:
 
 Lecture notes:
 
-* Mark Jankins, Walter Neumann: *Lectures on Seifert Manifolds*, Brandeis University (1981) &lbrack;[pdf](https://www.math.columbia.edu/department/neumann/preprints/neumann_lectures%20on%20seifert%20manifolds.pdf)&rbrack;
+* Mark Jankins, Walter Neumann: *Lectures on Seifert Manifolds*, Brandeis University (1981) &lbrack;[pdf](https://www.math.columbia.edu/department/neumann/preprints/neumann_lectures%20on%20seifert%20manifolds.pdf), [[JankinsNeumann-SeifertManifolds.pdf:file]]&rbrack;
 
 
 Monographs:
