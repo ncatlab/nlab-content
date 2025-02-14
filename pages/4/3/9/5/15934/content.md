@@ -22,7 +22,31 @@ If already the total space is a 3-[[orbifold]], one correspondingly speaks of a 
 
 Fully generally one speaks of *Seifert fibrations*. 
 
-(Beware that there is also the *un-related* notion of *[[Seifert surfaces]]*, also considered in higher dimensions: These are [[coboundaries]] of [[knots]].)
+> (Beware that there is also the *un-related* notion of *[[Seifert surfaces]]*, also considered in higher dimensions: These are [[coboundaries]] of [[knots]].)
+
+Accordingly, a general Seifert fibration is locally an [[orbifold quotient]] of the form
+
+$$
+  \big(
+    D^2 \times S^1
+  \big)
+  \sslash
+  \mathbb{Z}_n
+  \,,
+$$
+
+where the [[cyclic group]] $\mathbb{Z}_n \coloneqq \mathbb{Z}/n$ [[group action|acts]] diagonally via [[rotation]] by 
+
+1. the [[angle]] $2\pi\tfrac{1}{n}$ on the [[2-disk]] $D^2$,
+
+1. an [[angle]] $-2\pi\tfrac{r}{n}$ on the [[circle]] $S^1 \simeq 2\pi\mathbb{R}/\mathbb{Z}$,
+
+with $r, n \in \mathbb{Z}$, $n \geq 2$ not necessarily [[coprime integer|coprime]], their [[fraction]] $r/n$ also called the *slope modulo 1* of the fibration at this point.
+
+This [[orbifold quotient]] is a non-singular (Seifert-fibered) [[smooth manifold]] iff $r$ and $n$ are [[coprime integers]], otherwise it is an [[orbifold]] whose orbi-singular ([[fixed point|fixed]]) locus has [[isotropy group]] $\mathbb{Z}_{gcd}$ determined by the [[greatest common divisor]] $gcd \coloneqq gcd(r,n)$.
+
+([Bonahon & Siebenmann 2010 p 36 (18 of 67)](#BonahonSiebenmann10))
+
 
 
 ## Related concepts
@@ -71,7 +95,7 @@ See also:
 
 Generalization to the case that already the total space is an [[orbifold]] (not just its $S^1$-quotient):
 
-* [[Francis Bonahon]], [[Laurent C. Siebenmann]]: *The classification of Seifert fibred 3-orbifolds*, in: *Low Dimensional Topology*, Cambridge University Press (2010) 19-85 &lbrack;[doi:10.1017/CBO9780511662744.002]( https://doi.org/10.1017/CBO9780511662744.002)&rbrack;
+* {#BonahonSiebenmann10} [[Francis Bonahon]], [[Laurent C. Siebenmann]]: *The classification of Seifert fibred 3-orbifolds*, in: *Low Dimensional Topology*, Cambridge University Press (2010) 19-85 &lbrack;[doi:10.1017/CBO9780511662744.002]( https://doi.org/10.1017/CBO9780511662744.002)&rbrack;
 
 See also:
 
