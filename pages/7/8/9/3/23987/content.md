@@ -4,10 +4,9 @@
 </a>
 </div>
 
-The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html)* ([nyuad.nyu.edu/L.cqts](https://nyuad.nyu.edu/cqts))  is a Research Center, launched in 2022, within the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
+The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html)* ([nyuad.nyu.edu/L.cqts](https://nyuad.nyu.edu/cqts))  is a Research Center, launched in 2021, within the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
 
-[CQTS](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) hosts cross-disciplinary research on *[[topological physics -- contents|topological]] [[quantum systems]]*,  such as [[topological phases of matter]] understood [[AdS-CFT in condensed matter physics|via holography]] and using tools from [[algebraic topology]], ultimately aimed at addressing open questions in [[topological quantum computation|topological]] [[quantum computation]]. A unifying theme is the use of new methods from ([[persistent cohomotopy|persistent]]) *[[Cohomotopy]]* ([[schreiber:M/F-Theory as Mf-Theory|aka]] *[[framed manifold|framed]] [[cobordism cohomology|Cobordism]]*, [aka](stable+cohomotopy#AsAlgebraicKTheoryOverTheFieldWithOneElement) *[[field with one element|absolute $\mathbb{F}_1$]]-[[algebraic K-theory]]*) and [[generalized cohomology|generalized]] [[twisted cohomology|Twisted]] [[equivariant cohomology|Equivariant]] [[differential cohomology|Differential]] ([[schreiber:Twisted Equivariant Differential non-abelian generalized cohomology|TED]]) [[cohomology]], [[Hypothesis H|developed in]]  [[M-theory]]. 
-
+[CQTS](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/center-for-quantum-and-topological-systems.html) is concerned with fundamental questions about [[quantum systems]] relevant for quantum technologies ---  [[quantum materials]], [[quantum sensing]], [[quantum computing]], [[quantum algorithms]] --- with a core focus on the foundations of the often neglected but long-term plausibly necessary aspect of *[[topological quantum computing|topoological stabilization]] at the hardware level*, i.e. in ([[topological order|topologically ordered]]) [[topological phases of matter|topological phases]] of [[quantum materials]]. To this end the theory heart of the center develops understanding of otherwise elusive [[non-perturbative field theory|strongly cloupled/correlated]] [[topological order|topologically ordered]] [[condensed matter]] (such as [[quantum Hall systems]]) via "[[geometric engineering of quantum field theories|geometric engineering]] on [[M5-branes|branes]]", alongside a compatible development of [[schreiber:QS|topology-aware]] [[quantum programming languages]] based on insights from [[stable homotopy theory|stable]] [[homotopy theory]], which goes along with general activity in [[high energy physics]] and [[algebraic topology]]. At the same time, researchers in the center's Quantum Lab's create and develop spin-based [cold atom](trapped-ion+quantum+computing#ReferencesTrappedNeutralAtoms) platforms for [[quantum sensing]] and related quantum technologies (e.g. [[quantum key distribution]]) that do not require further stabilization and hence are near-term application ready.
 
 \linebreak
 
@@ -3814,6 +3813,8 @@ Neumann algebras**
   [[Shuhan Jiang]] (University of Z&uuml;rich):
 
   **Cohomological Field Theories and Generalized Seiberg-Witten Equations**
+
+  slides: [[JiangAtCQTS-CohFTandSW.pdf:file]]
 
   cf. [arXiv:2407.04019](https://arxiv.org/abs/2407.04019)
 
