@@ -42,9 +42,9 @@ $$
 
 where the [[cyclic group]] $\mathbb{Z}_n \coloneqq \mathbb{Z}/n$ [[group action|acts]] [[diagonal action|diagonally]] via [[rotations]] by 
 
-1. the [[angle]] $2\pi\tfrac{1}{n}$ on the [[2-disk]] $D^2 = \big\{ z \in \mathbb{C} \,\big\vert\, {\vert z\vert} \lt 1 \big\}$,
+1. the [[angle]] $2\pi\tfrac{1}{a}$ on the [[2-disk]] $D^2 = \big\{ z \in \mathbb{C} \,\big\vert\, {\vert z\vert} \lt 1 \big\}$,
 
-1. an [[angle]] $-2\pi\tfrac{r}{n}$ on the [[circle]] $S^1 \simeq \big\{ \xi \in \mathbb{C} \,\big\vert\, {\vert \xi \vert} = 1 \big\}$,
+1. an [[angle]] $-2\pi\tfrac{b}{a}$ on the [[circle]] $S^1 \simeq \big\{ \xi \in \mathbb{C} \,\big\vert\, {\vert \xi \vert} = 1 \big\}$,
 
 $$
   (z, \xi)
@@ -52,18 +52,18 @@ $$
   \big(
     z \, q
     ,\,
-    \xi \, q^r
+    \xi \, q^{-b}
   \big)
   \,,
   \;\;\;\;
-  q \coloneqq \exp\big(2\pi \mathrm{i} \tfrac{1}{n}\big)
+  q \coloneqq \exp\big(2\pi \mathrm{i} \tfrac{1}{a}\big)
   \,.
 $$
 
-with $r, n \in \mathbb{Z}$, $n \geq 2$ (not necessarily [[coprime integer|coprime]]), their [[fraction]] $r/n$ also called the *slope modulo 1* of the fibration at this point:
+with $a,b  \in \mathbb{Z}$, $a \geq 2$ (not necessarily [[coprime integer|coprime]]), their [[fraction]] $b/a$ also called the *slope modulo 1* of the fibration at this point:
 
 
-This [[orbifold quotient]] is a non-singular (Seifert-fibered) [[smooth manifold]] iff $r$ and $n$ are [[coprime integers]], otherwise it is an [[orbifold]] whose orbi-singular ([[fixed point|fixed]]) locus has [[isotropy group]] $\mathbb{Z}_{gcd}$ determined by the [[greatest common divisor]] $gcd \coloneqq gcd(r,n)$.
+This [[orbifold quotient]] is a non-singular (Seifert-fibered) [[smooth manifold]] iff $a$ and $b$ are [[coprime integers]], otherwise it is an [[orbifold]] whose orbi-singular ([[fixed point|fixed]]) locus has [[isotropy group]] $\mathbb{Z}_{gcd}$ determined by the [[greatest common divisor]] $gcd \coloneqq gcd(a,b)$.
 
 ([Bonahon & Siebenmann 2010 p 36 (18 of 67)](#BonahonSiebenmann10))
 
