@@ -94,6 +94,60 @@ In particular, in each case $R_\bullet(2\pi) = -1 \in Z\big(Spin(3)\big)$ become
 \end{remark}
 
 
+
+## Applications
+
+### Quantum Fourier transform
+ {#ApplicationToQuantumFourierTransform}
+
+[[controlled quantum gate|Controlled]] rotation gates play a key role in the [[quantum Fourier transform]] (and thus in many [[quantum algorithms]], notably in [[Shor's algorithm]]).
+
+Concretely, [[quantum circuits]] implementing the [[quantum Fourier transform]] employ many copies &lbrack;[Nielsen & Chuang 2000 (5.11) & Fig. 5.1, pp 218](#NielsenChuang00)&rbrack; of the gates
+
+$$
+  R_k
+  \;\coloneqq\;
+  \left[
+    \begin{array}{c}
+      1 & 0
+      \\
+      0 & e^{2 \pi \mathrm{i}/2^k}
+    \end{array}
+  \right]
+  \;=\;  
+  e^{\pi \mathrm{i}/2^k}
+  \;
+  \left[
+    \begin{array}{c}
+      e^{-\pi \mathrm{i}/2^k} & 0
+      \\
+      0 & e^{\pi \mathrm{i}/2^k}
+    \end{array}
+  \right]
+  \;=\;
+  e^{\pi \mathrm{i}/2^k}
+  \, 
+  R_z(2\pi \mathrm{i}/2^k)
+$$
+
+for $k \in \mathbb{N}$.
+
+
+\begin{imagefromfile}
+    "file_name": "CircuitForQuantumFourierTransform.png",
+    "width": 850,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [Nielsen & Chuang 2000](#NielsenChuang00))"
+\end{imagefromfile}
+
+
+
 ## Related gates
 
 * [[Pauli gates]]
@@ -108,8 +162,15 @@ In particular, in each case $R_\bullet(2\pi) = -1 \in Z\big(Spin(3)\big)$ become
 
 ## References
 
+Textbook account:
 
 * {#NielsenChuang00} [[Michael A. Nielsen]], [[Isaac L. Chuang]], (4.4-6) in: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
+
+In [[Shor's algorithm]]:
+
+* Austin G. Fowler, Lloyd C. L. Hollenberg: *Scalability of Shor's algorithm with a limited set of rotation gates*, Phys. Rev. A **70** (2004) 032329 &lbrack;[arXiv:quant-ph/0306018](https://arxiv.org/abs/quant-ph/0306018), [doi:10.1103/PhysRevA.70.032329](https://doi.org/10.1103/PhysRevA.70.032329)&rbrack;
+
+
 
 [[!redirects rotation gates]]
 
