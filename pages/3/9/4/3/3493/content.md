@@ -62,4 +62,4 @@ See also:
 category: people
 
 [[!redirects M. Bunge]]
-
+[[!redirects Marta C. Bunge]]
