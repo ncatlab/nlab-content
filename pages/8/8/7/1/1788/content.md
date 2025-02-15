@@ -1,4 +1,7 @@
 
+$\eqqcolon$
+
+$\Rrightarrow$
 
 The defining [[permutation representation]] of $Sym_3$ --- with canonical [[linear basis]]  $\{e_1, e_2, e_3\}$ acted on as 
 $
