@@ -1,4 +1,7 @@
 
+[[FloatingTocCodeExample.png:file]]
+
+
 $\eqqcolon$
 
 $\Rrightarrow$
