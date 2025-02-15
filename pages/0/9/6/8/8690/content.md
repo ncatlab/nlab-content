@@ -114,6 +114,9 @@ In terms of this "check-R matrix" $\check R$, the plain [[quantum Yang-Baxter eq
   \,.
 \]
 
+\linebreak
+
+**Braid representations.**
 In either form, any solution to the plain Yang-Baxter equation in [[Vect|$Vect$]] defines [[linear representations]] of the [[braid groups]] $Br_n$ ([[braid representations]]), by representing the $i$th [Artin braid generator](braid+group#ArtinGenerators) $b_i$ by 
 
 $$
@@ -127,7 +130,9 @@ $$
 
 This is manifest from the *[Artin presentation](braid+group#ArtinPresentation)* of the [[braid group]], see there.
 
+If, in addition, the $R$-matrix is *[[involution|involutive]]* in that $R \circ R = id$, then these [[braid representations]] actually are (factor through) [[representations of the symmetric group]] $Sym_n$.
 
+\linebreak
 
 #### Parameterized form
 
