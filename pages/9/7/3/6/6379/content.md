@@ -65,7 +65,7 @@ and we therefore conclude $10$ is a non-square modulo $65537$, or in other words
 
 ## Proofs 
 
-There are today several hundred published proofs of the quadratic reciprocity laws; it is rightly regarded as a capstone result in introductions to number theory. We give two proofs here. 
+There are today several hundred published proofs of the quadratic reciprocity laws; it is rightly regarded as a capstone result in undergraduate introductions to number theory. We give two proofs here. 
 
 
 ### Proof via Gauss sums 
@@ -154,8 +154,10 @@ The (in hindsight obvious!) structural meaning of the Legendre symbol was first 
 
 +-- {: .num_lemma}
 ###### Lemma (Zolotarev) 
-For $p$ an odd prime and $a$ relatively prime to $p$, $\left(\frac{a}{p}\right)$ is the sign or [[signature of a permutation]] on $(\mathbb{Z}/p)^\ast$ given by multiplying by $a$. 
+For $p$ an odd prime and $a$ relatively prime to $p$, $\left(\frac{a}{p}\right)$ is the sign or [[signature of a permutation]] on $\mathbb{Z}/p$ given by multiplying by $a$. 
 =-- 
+
+Since $0$ is the unique fixed point of this permutation, this statement is equivalent to the same statement but with $\mathbb{Z}/p$ replaced by $(\mathbb{Z}/p)^\ast$. 
 
 +-- {: .proof} 
 ###### Proof 
@@ -166,7 +168,7 @@ $$(\mathbb{Z}/p)^\ast \stackrel{Cayley}{\to} Perm((\mathbb{Z}/p)^\ast) \stackrel
 are homomorphisms [whose domain is a cyclic group](http://ncatlab.org/nlab/show/root#roots_of_unity_in_fields_11), so it suffices to show they agree on a generator $g$. But $Cayley(g)$ is a cyclic [[permutation]] on $p-1$ elements, hence has sign $(-1)^{p-2} = -1$, which agrees with $\left(\frac{g}{p}\right)$. 
 =-- 
 
-We turn now to Zolotarev's  proof of the "hard" case of quadratic reciprocity where $p$ and $q$ are distinct odd primes. What is interesting is that from this point forward, we don't use primality of $p$ and $q$ at all, i.e., the remainder of the argument carries over if $p$ and $q$ are replaced by odd, relatively prime integers $m$ and $n$, and we simply define $\left(\frac{a}{n}\right)$ as a sign of a permutation of multiplying by $a$ on $(\mathbb{Z}/n)^\ast$. Indeed, one often defines the **Jacobi symbol** by 
+We turn now to Zolotarev's  proof of the "hard" case of quadratic reciprocity where $p$ and $q$ are distinct odd primes. What is interesting is that from this point forward, we don't use primality of $p$ and $q$ at all, i.e., the remainder of the argument carries over if $p$ and $q$ are replaced by odd, relatively prime integers $m$ and $n$, and we simply define $\left(\frac{a}{n}\right)$ as a sign of a permutation of multiplying by $a$ on $\mathbb{Z}/n$. Indeed, one often defines the **Jacobi symbol** by 
 
 $$\left(\frac{a}{n}\right) \coloneqq \prod_{i} \left(\frac{a}{p_i}\right)$$ 
 
