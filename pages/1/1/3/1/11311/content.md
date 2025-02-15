@@ -171,7 +171,7 @@ Discussion of Jacobi forms as coefficients of the [[elliptic genus]]/[[Witten ge
 
 * {#KL95} [[Kefeng Liu]], _On modular invariance and rigidity theorems_, J. Differential Geom. Volume 41, Number 2 (1995), 247-514 ([EUCLID](http://projecteuclid.org/euclid.jdg/1214456221), [pdf](http://www.math.ucla.edu/~liu/Research/loja.pdf))
 
-* {#AndoFrenchGanter08} [[Matthew Ando]], Christopher French, [[Nora Ganter]], _The Jacobi orientation and the two-variable elliptic genus_, Algebraic and Geometric Topology 8 (2008) p. 493-539 ([pdf](http://www.msp.warwick.ac.uk/agt/2008/08-01/agt-2008-08-016s.pdf))
+* {#AndoFrenchGanter08} [[Matthew Ando]], Christopher French, [[Nora Ganter]], _The Jacobi orientation and the two-variable elliptic genus_, Algebraic and Geometric Topology 8 (2008) p. 493-539 ([pdf](https://msp.org/agt/2008/8-1/agt-v8-n1-p16-s.pdf))
 
 * {#ChenHanZhang10} Qingtao Chen, [[Fei Han]], [[Weiping Zhang]], _Generalized Witten Genus and Vanishing Theorems_, Journal of Differential Geometry 88.1 (2011): 1-39. ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
 
