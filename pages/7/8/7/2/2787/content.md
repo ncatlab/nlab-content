@@ -13,15 +13,17 @@
 * table of contents
 {: toc}
 
-## Definition in arbitrary categories
+## Definition 
 
-Let $C$ be a [[locally small category]] that admits [[filtered colimits]] of monomorphisms. Then an [[object]] $X \in C$ is __finitely generated__ if the [[corepresentable functor]]
+### In arbitrary categories
+
+Let $C$ be a [[locally small category]] that admits [[filtered colimits]] of [[monomorphisms]]. Then an [[object]] $X \in C$ is __finitely generated__ if the [[corepresentable functor]]
 
 $$
-  Hom_C(X,-) : C \to Set
+  Hom_C(X,-) \colon C \to Set
 $$
 
-[[preserved limit|preserves]] these [[filtered colimits]] of monomorphisms.  This means that for every [[filtered category]] $D$ and every functor $F : D \to C$ such that $F(f)$ is a monomorphism for each morphism $f$ of $D$, the canonical morphism
+[[preserved limit|preserves]] these [[filtered colimits]] of monomorphisms.  This means that for every [[filtered category]] $D$ and every functor $F \colon  D \to C$ such that $F(f)$ is a monomorphism for each morphism $f$ of $D$, the canonical morphism
 
 $$
   \underset{\to_d}{\lim} C(X,F(d)) \stackrel{\simeq}{\to} 
@@ -30,7 +32,7 @@ $$
 
 is an [[isomorphism]].
 
-## Definition in concrete categories
+### In concrete categories
 
 An object $A$ of a [[concrete category]] $C$ is __finitely generated__ if it is a [[quotient object]] (in the sense of a [[regular epimorphism]]) of some [[free object]] $F$ in $C$, where $F$ is free on a [[finite set]].
 
@@ -60,12 +62,12 @@ The general definition is Def. 1.67 in:
 
 * [[Jiří Adámek]], [[Jiří Rosický]], *[[Locally Presentable and Accessible Categories]]*, London Mathematical Society Lecture Note Series, number 189, Cambridge University Press 1994 ([doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579))
 
-Further development and connections to locally generated categories in
+Further development and connections to locally generated categories:
 
-* [[Jiří Adámek]], [[Jiří Rosický]], *[[What are locally generated categories,]]*, Proc. Categ. Conf. Como 1990, Lect. Notes in Math. 1488 (1991), 14-19.
+* [[Jiří Adámek]], [[Jiří Rosický]], *What are locally generated categories*, Proc. Categ. Conf. Como 1990, Lect. Notes in Math. **1488** (1991) 14-19 &lbrack;[doi:10.1007/BFb0084207](https://link.springer.com/book/10.1007/BFb0084207)&rbrack;
 
 
-* [[Ivan Di Liberti]], [[Jiří Rosický]], *[[Enriched Locally Generated Categories]]*,  ([arxiv:2009.10980](https://arxiv.org/abs/2009.10980))
+* [[Ivan Di Liberti]], [[Jiří Rosický]], *Enriched Locally Generated Categories*,  &lbrack;[arxiv:2009.10980](https://arxiv.org/abs/2009.10980)&rbrack;
 
 [[!redirects finitely generated object]]
 [[!redirects finitely generated objects]]
