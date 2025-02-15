@@ -1,3 +1,6 @@
+
+> see also *[[Bousfield-Kan map]]*
+
 # Bousfield–Kan formula
 
 \tableofcontents
