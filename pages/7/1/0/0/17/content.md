@@ -823,7 +823,7 @@ To add a floating TOC to a new page, in such a way that it will be automatically
         "top": -20,
         "bottom": 20,
         "right": 0, 
-        "left": -450
+        "left": -30
     }
 \end{imagefromfile}
 
