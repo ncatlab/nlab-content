@@ -15,16 +15,15 @@ of simplicial objects.
 In ordinary category theory, the colimit of a diagram $F:I\to C$
 is computed as a coequalizer of the parallel pair
 $$
-\coprod_{c_{0}\to c_{1}}Fc_{0}\rightrightarrows\coprod_{c}Fc.
+\coprod_{c_{0}\to c_{1}}F c_{0}\rightrightarrows\coprod_{c}F c.
 $$
-When $C$ is an $(\infty,1)$-category, we need to take ``higher
-data'' into account. So we take the geometric realization (i.e.,
+When $C$ is an $(\infty,1)$-category, we need to take "higher
+data" into account. So we take the geometric realization (i.e.,
 $\Delta^{op}$-indexed colimit) of the simplicial object
 $$
-B_{\bullet}(\ast,I,F)=\left(\cdots\coprod_{c_{0}\to c_{1}\to c_{2}}Fc_{0}\Rrightarrow\coprod_{c_{0}\to c_{1}}Fc_{0}\rightrightarrows\coprod_{c\in C}Fc\right).
+B_{\bullet}(\ast,I,F)=\left(\cdots\coprod_{c_{0}\to c_{1}\to c_{2}}F c_{0}\Rrightarrow\coprod_{c_{0}\to c_{1}}F c_{0}\rightrightarrows\coprod_{c\in C}F c\right).
 $$
-This can be formalized as follows: There is an ``initial vertex''
-functor $\mathrm{init}:(\Delta_{/I})^{op}\to I$ from the opposite
+This can be formalized as follows: There is an "initial vertex" functor $\mathrm{init}:(\Delta_{/I})^{op}\to I$ from the opposite
 of the category of simplices of $I$, which is homotopy final. Thus,
 $$
 \mathrm{colim}_{I}F\simeq\mathrm{colim}_{(\Delta_{/I})^{op}}(F\circ\mathrm{init}).
