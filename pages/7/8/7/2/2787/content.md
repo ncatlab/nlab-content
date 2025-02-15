@@ -9,7 +9,7 @@
 =--
 =--
 
-# Finitely generated objects
+#Contents#
 * table of contents
 {: toc}
 
