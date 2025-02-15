@@ -275,6 +275,8 @@ known in [[quantum information theory]] as a *[[rotation gate]]*.
 
 * [[parastatistics]]
 
+* [[quantum Yang-Baxter equation|quantum]] [[Yang-Baxter equation]]
+
 * [[representation theory of the general linear group]]
 
 * [[representation theory of the special unitary group]]
@@ -343,3 +345,4 @@ In relation to [[quantum information theory]]:
 [[!redirects representation of a symmetric group]]
 [[!redirects representations of a symmetric group]]
 
+[[!redirects representations of symmetric groups]]
