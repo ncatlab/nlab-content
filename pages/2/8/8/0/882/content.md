@@ -39,11 +39,11 @@ A (binary) [[relation]] $\sim$ on a [[set]] $A$ is __transitive__ if in every ch
 \]
 \end{definition}
 \begin{remark}
-If (eq:transitivity) holds this way for 3 elements, then the analogue holds for any [[finite number|finite]], [[positive number]] of elements.
+If (eq:transitivity) holds this way for 3 elements, then the analogue holds for any [[finite number|finite]] [[positive number]] of elements.
 \end{remark}
 
 \begin{remark}
-In terms of [[category theory]], a transitive relation relation may be understood as a [[semicategory]] or [[magmoid]] $A$ such that for all objects $a$ and $b$ in $A$, there are no more than one [[morphism]] with [[domain]] $a$ and [[codomain]] $b$. Equivalently, a transitive relation is a semicategory or magmoid [[enriched category|enriched]] in [[truth values]]. 
+In terms of [[category theory]], a transitive relation may be understood as a [[semicategory]] or [[magmoid]] $A$ such that for all [[objects]] $a$ and $b$ in $A$, there is no more than one [[morphism]] with [[domain]] $a$ and [[codomain]] $b$. Equivalently, a transitive relation is a semicategory or magmoid [[enriched category|enriched]] in [[truth values]]. 
 
 Compare at *[[preorder]] -- [as a category](preorder#AsACategory)*.
 
