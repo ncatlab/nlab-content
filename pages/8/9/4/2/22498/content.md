@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -116,228 +115,27 @@ This is an [[irreducible representation]] whose corresponding [[partition]] (acc
 
 \begin{example}
 \label{UnitarizationOfStandardRepOfSym3}
-  The [[unitarization]] of the [standard representation](representation+theory+of+the+symmetric+group#StandardRepresentation) of the [[symmetric group]] $Sym_3$ has the two generating [[transpositions]] represented by (what in [[quantum information theory]] is called)
+  The [[unitarization]] of the [standard representation](representation+theory+of+the+symmetric+group#StandardRepresentation) of the [[symmetric group]] $Sym_3$ has two generating [[permutations]] represented by (what in [[quantum information theory]] is called)
 
 1. the [[Pauli Z-gate]] $Z$, 
 
-1. its composition $- Z \circ R_y(3\pi/2)$ with [[rotation gates]]. 
+1. the [[rotation gate]] $R_y(8\pi/3) = -R_y(2\pi/3)$.
 
 \end{example}
 \begin{proof}
-For definiteness of computation, when [[group averaging]] we will be cycling through the elements of $Sym_3$ in this order:
-$$
-  Sym_3 
-  \;=\;
-  \left\{
-    \begin{array}{l}
-    (1 2 3)
-    ,\,\\
-    (1 3 2)
-    ,\,\\
-    (2 1 3)
-    ,\,\\
-    (2 3 1)
-    ,\,\\
-    (3 1 2)
-    ,\,\\
-    (3 2 1)
-    \end{array}
-  \right\}
-  \,.
-$$
+The defining [[permutation representation]] of $Sym_3$ --- with canonical [[linear basis]]  $\{e_1, e_2, e_3\}$ acted on as 
+$
+  \sigma e_i \,=\, e_{\sigma(i)}
+$ ---
+is [[unitary representation|unitary]] with respect to the canonical [[inner product]] $\langle e_i, e_j\rangle \equiv \delta_{i j}$.
 
-Let $\big\{e_1, e_2, e_3\big\}$ denote the canonical [[linear basis]] of the *defining* representation, with [[group action]] given by
-$$
-  \sigma \cdot e_i \;\coloneqq\; e_{\sigma(i)}
-  \,.
-$$
+Therefore a [[unitary representation|unitary]] form of the standard representation is obtained as the [[orthogonal complement]] of the [[trivial representation|trivial]] [[subrepresentation]] [[linear span|spanned]] by $e_1 + e_2 + e_3$.
 
-Then a linear basis for the *[standard representation](representation+theory+of+the+symmetric+group#StandardRepresentation)* inside the defining representation is: 
+One [[orthonormal basis|orthonormal]] [[linear basis]] for this [[orthogonal complement]] is clearly:
 
 $$
-  \begin{array}{ccc}
-  \left[\begin{array}{c}1 \\ 0\end{array}\right] 
-    \;\coloneqq\; 
-  e_1 - e_3
-  \\
-  \left[\begin{array}{c}0 \\ 1\end{array}\right] 
-  \;\coloneqq\; 
-  e_2 - e_3
-  \mathrlap{\,.}
-  \end{array}
-$$
-
-The [[group averaging|group-averaged]] inner product of these basis elements is found to be:
-$$
-  \left\langle
-    \left[
-      \begin{array}{c}
-        1 \\ 0
-      \end{array}
-    \right]
-    ,\,
-    \left[
-      \begin{array}{c}
-        0 \\ 1
-      \end{array}
-    \right]
-  \right\rangle
-  \;=\;
-  \left(
-  \;\;
-  \begin{array}{l}
-  \left[
-    \begin{array}{c}
-      1 
-      \\
-      0
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      0 
-      \\
-      1
-    \end{array}
-  \right]
-  +
-  \left[
-    \begin{array}{c}
-      1 
-      \\
-      -1
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      0 
-      \\
-      -1
-    \end{array}
-  \right]
-  +
-  \left[
-    \begin{array}{c}
-      0
-      \\
-      1
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      1 
-      \\
-      0
-    \end{array}
-  \right]
-  +
-  \left[
-    \begin{array}{c}
-      -1
-      \\
-      1
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      -1 
-      \\
-      0
-    \end{array}
-  \right]
-  +
-  \left[
-    \begin{array}{c}
-      0
-      \\
-      -1
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      1
-      \\
-      -1
-    \end{array}
-  \right]
-  +
-  \left[
-    \begin{array}{c}
-      -1
-      \\
-      0
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      -1 
-      \\
-      1
-    \end{array}
-  \right]
-  \end{array}
-  \right)/6
-  \;=\;
-  4/6
-  \;=\;
-  2/3
-$$
-$$
-  \left\langle
-    \left[
-      \begin{array}{c}
-        0 \\ 1
-      \end{array}
-    \right]
-    ,\,
-    \left[
-      \begin{array}{c}
-        0 \\ 1
-      \end{array}
-    \right]
-  \right\rangle
-  \;=\;
-  \left(
-  \;\;
-  \begin{array}{l}
-  \left[
-    \begin{array}{c}
-      0 
-      \\
-      1
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      0 
-      \\
-      1
-    \end{array}
-  \right]
-  +
-  \left[
-    \begin{array}{c}
-      0 
-      \\
-      -1
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      0 
-      \\
-      -1
-    \end{array}
-  \right]
-  +
+  \Bigg(
+  \;
   \left[
     \begin{array}{c}
       1
@@ -345,354 +143,128 @@ $$
       0
     \end{array}
   \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      1 
-      \\
-      0
-    \end{array}
-  \right]
-  +
-  \left[
-    \begin{array}{c}
-      -1
-      \\
-      0
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      -1 
-      \\
-      0
-    \end{array}
-  \right]
-  +
-  \left[
-    \begin{array}{c}
-      1
-      \\
-      -1
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      1
-      \\
-      -1
-    \end{array}
-  \right]
-  +
-  \left[
-    \begin{array}{c}
-      -1
-      \\
-      1
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      -1 
-      \\
-      1
-    \end{array}
-  \right]
-  \end{array}
-  \right)/6
-  \;=\;
-  8/6
-  \;=\;
-  4/3
-$$
-$$
-  \left\langle
-    \left[
-      \begin{array}{c}
-        1 \\ 0
-      \end{array}
-    \right]
-    ,\,
-    \left[
-      \begin{array}{c}
-        1 \\ 0
-      \end{array}
-    \right]
-  \right\rangle
-  \;=\;
-  \left(
-  \;\;
-  \begin{array}{l}
-  \left[
-    \begin{array}{c}
-      1 
-      \\
-      0
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      1 
-      \\
-      0
-    \end{array}
-  \right]
-  +
-  \left[
-    \begin{array}{c}
-      1 
-      \\
-      -1
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      1 
-      \\
-      -1
-    \end{array}
-  \right]
-  +
-  \left[
-    \begin{array}{c}
-      0
-      \\
-      1
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      0 
-      \\
-      1
-    \end{array}
-  \right]
-  +
-  \left[
-    \begin{array}{c}
-      -1
-      \\
-      1
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      -1 
-      \\
-      1
-    \end{array}
-  \right]
-  +
-  \left[
-    \begin{array}{c}
-      0
-      \\
-      -1
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      0
-      \\
-      -1
-    \end{array}
-  \right]
-  +
-  \left[
-    \begin{array}{c}
-      -1
-      \\
-      0
-    \end{array}
-  \right]
-  \cdot
-  \left[
-    \begin{array}{c}
-      -1 
-      \\
-      0
-    \end{array}
-  \right]
-  \end{array}
-  \right)/6
-  \;=\;
-  8/6
-  \;=\;
-  4/3
-$$
-
-From this, an [[orthonormal basis]] for the averaged inner product is:
-$$
-  \begin{array}{l}
-  {\vert 0 \rangle}
   \;\coloneqq\;
-  \tfrac{1}{2}
+  \tfrac{1}{\sqrt{6}}
+  (e_1 + e_2 - 2 e_3)
+  \;,\,\;\;\;
   \left[
   \begin{array}{c}
-    1
+    0
     \\
     1
   \end{array}
   \right]
-  \;=\;
-  \tfrac{1}{2}(e_1 + e_2) - e_3
-  \\
-  {\vert 1 \rangle}
   \;\coloneqq\;
-  \tfrac{\sqrt{3}}{2}
+  \tfrac{1}{\sqrt{2}}
+  (e_1 - e_2)
+  \;
+  \Bigg)
+  \,.
+$$
+
+On this basis, the [[transposition]] $(213)$ acts as
+$$
+  (213)
+  \,
+  \tfrac{1}{\sqrt{6}}
+  (e_1 + e_2 - 2 e_3)
+  \;=\;
+  \tfrac{1}{\sqrt{6}}
+  (e_1 + e_2 - 2 e_3)
+  \,,
+$$
+and
+$$
+  (213)
+  \,
+  \tfrac{1}{\sqrt{2}}
+  (e_1 - e_2)
+  \;=\;
+  -
+  \tfrac{1}{\sqrt{2}}
+  (e_1 - e_2)
+  \,,
+$$
+hence is given by the [[matrix]] 
+$$
+  [213] 
+  \;\equiv\;
+  \underset{
+    Z
+  }{
+  \underbrace{
   \left[
   \begin{array}{c}
-    1
-    \\
-    -1
-  \end{array}
-  \right]
-  \;=\;
-  \tfrac{\sqrt{3}}{2}(e_1 - e_2)
-  \,.
-  \end{array}
-$$
-
-On this bases the action of $(213)$ is
-
-$$
-  \rho(213)\big({\vert 0 \rangle}\big)
-  \;=\;
-  {\vert 0 \rangle}
-$$
-$$
-  \rho(213)\big({\vert 1 \rangle}\big)
-  \;=\;
-  -{\vert 1 \rangle}
-$$
-
-and hence $(213)$ acts as the [[Pauli Z-gate]]:
-
-$$
-  \rho(213)
-    \;=\;
-  \left(
-  \begin{array}{cc}
     1 & 0 
-    \\
+    \\  
     0 & -1
   \end{array}
-  \right)
-  \;=\;
-  Z
-  \mathrlap{\,.}
-$$
-
-
-On the other hand, the action of $(132)$ is found to be
-$$
-  \rho(132)\big({\vert 0 \rangle}\big)
-  \;=\;
-  \rho(132)
-  \left(
-  \tfrac{1}{2}
-  \left[
-  \begin{array}{c}
-    1
-    \\
-    1
-  \end{array}
   \right]
-  \right)
-  \;=\;
-  \tfrac{1}{2}
-  \left[
-  \begin{array}{c}
-    1
-    \\
-    -2
-  \end{array}
-  \right]  
-  \;=\;
-  -\tfrac{1}{2} {\vert 0 \rangle}
-  + \tfrac{\sqrt{3}}{2} {\vert 1 \rangle}
+  }
+  }
+  \,,
 $$
+which in [[quantum information theory]] is called the *[[Pauli Z-gate]]*.
+
+On the other hand, the [[cyclic permutation]] $(231)$ acts as
 $$
-  \rho(132)\big({\vert 1 \rangle}\big)
+  (231)
+  \,
+  \tfrac{1}{\sqrt{6}}(e_1 + e_2 - 2 e_3)
   \;=\;
-  \rho(132)
-  \left(
+  \tfrac{1}{\sqrt{6}}(- 2 e_1 + e_2 + e_3)
+  \;=\;
+  -\tfrac{1}{2}
+  \tfrac{1}{\sqrt{6}}
+  (e_1 + e_2 - 2 e_3)
+  -
   \tfrac{\sqrt{3}}{2}
-  \left[
-  \begin{array}{c}
-    1
-    \\
-    -1
-  \end{array}
-  \right]
-  \right)
+  \tfrac{1}{\sqrt{2}}(e_1 - e_2)
+$$
+and
+$$
+  (231)
+  \,
+  \tfrac{1}{\sqrt{2}}(e_1 - e_2)
+  \;=\;
+  \tfrac{1}{\sqrt{2}}(e_2 - e_3)
   \;=\;
   \tfrac{\sqrt{3}}{2}
+  \tfrac{1}{\sqrt{6}}(e_1 + e_2 - 2 e_3)
+  -
+  \tfrac{1}{2}
+  \tfrac{1}{\sqrt{2}}
+  (e_1 - e_2)
+$$
+and is hence given by the [[matrix]]
+$$
+  [231]
+  \;=\; 
+  -
   \left[
-  \begin{array}{c}
-    1
-    \\
-    0
-  \end{array}
-  \right]  
+    \begin{array}{cc}
+      1/2 & - \sqrt{3}/2
+      \\
+      \sqrt{3}/2 & 1/2
+    \end{array}
+  \right]
   \;=\;
-  \tfrac{\sqrt{3}}{2} {\vert 0 \rangle}
-  +
-  \tfrac{1}{2} {\vert 1 \rangle}
+  \underset{
+    R_y(4\pi \tfrac{2}{3})
+  }{
+  \underbrace{
+  \left[
+    \begin{array}{cc}
+      cos(4\pi/3) & - sin(4\pi/3)
+      \\
+      sin(4\pi/3) & cos(4\pi/3)
+    \end{array}
+  \right]
+  }
+  }
+  \,,
 $$
-and hence
-$$
-  \rho(132)
-  \;=\;
-  \left(
-  \begin{array}{c}
-    -1/2 & \sqrt{3}/2
-    \\
-    \sqrt{3}/2 & 1/2
-  \end{array}
-  \right)
-  \;=\;
-  \left(
-  \begin{array}{c}
-    -1 & 0
-    \\
-    0 & 1
-  \end{array}
-  \right)
-  \left(
-  \begin{array}{c}
-    1/2 & -\sqrt{3}/2
-    \\
-    \sqrt{3}/2 & 1/2
-  \end{array}
-  \right)
-  \;=\;
-  \left(
-  \begin{array}{c}
-    -1 & 0
-    \\
-    0 & 1
-  \end{array}
-  \right)
-  \left(
-  \begin{array}{c}
-    cos(\pi/3) & -sin(\pi/3)
-    \\
-    sin(\pi/3) & cos(\pi/3)
-  \end{array}
-  \right)
-  \;=\;
-  - 
-  Z \circ R_y(2\pi/3)
-$$
+known in [[quantum information theory]] as a *[[rotation gate]]*. 
 \end{proof}
 
 
