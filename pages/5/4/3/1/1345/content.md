@@ -1,4 +1,6 @@
 
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -9,6 +11,8 @@
 =--
 =--
 
+
+> See also *[[Bousfield--Kan formula]]*
 
 
 #Contents#
@@ -164,18 +168,18 @@ $$
 
 ## References
 
-The original reference is
+The original article: 
+ 
+* {#BousfieldKan} [[Aldridge K. Bousfield]] and [[Daniel M. Kan]], Chapter IX in: *[[Homotopy Limits, Completions and Localizations]]*, Lecture Notes in Mathematics 304 (1972; 1987), Springer ([doi:10.1007/978-3-540-38117-4](https://link.springer.com/book/10.1007/978-3-540-38117-4))
 
-* [[Aldridge Bousfield]] and [[Dan Kan]], _Homotopy limits, completions and localizations_, Springer-Verlag, Berlin, 1972. Lecture Notes in Mathematics, Vol. 304.
- {#BousfieldKan}
 
-Reviews include 
+Review:
 
-* Hirschhorn, _Simplicial model categories and their localization_.
+* {#Hirschhorn} [[Philip Hirschhorn]], Chapter 9 in: _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
 
 The Bousfield--Kan map(s) are on p. 397, def. 18.7.1 and def. 18.7.3.
 
- _Realization_ and _totalization_ are defs 18.6.2 and 18.6.3 on p. 395.
+_Realization_ and _totalization_ are defs 18.6.2 and 18.6.3 on p. 395.
 
 Notice that this book writes $B$ for the nerve!
 
