@@ -82,8 +82,8 @@ Discussions in simplicial model categories can be found in:
 Further references:
 
 
-* {#Hir03} [[Philip, Hirschhorn]], _Model categories and their localizations_, (2003) &lbrack;[doi:10.1090/surv/099](https://doi.org/10.1090/surv/099)&rbrack;
+* {#Hir03} [[Philip Hirschhorn]], _Model categories and their localizations_, (2003) &lbrack;[doi:10.1090/surv/099](https://doi.org/10.1090/surv/099)&rbrack;
 
-* {#AO23} [[Sergey Arkhipov]], [[Sebastian {\O}rsted]], _Homotopy (co)limits via homotopy (co)ends in general combinatorial model categories_, Appl. Categ. Structures **31** 6 (2023) &lbrack;[doi:10.1007/s10485-023-09747-8](https://doi.org/10.1007/s10485-023-09747-8)&rbrack;
+* {#AO23} [[Sergey Arkhipov]], [[Sebastian Ørsted]]: _Homotopy (co)limits via homotopy (co)ends in general combinatorial model categories_, Appl. Categ. Structures **31** 6 (2023) &lbrack;[doi:10.1007/s10485-023-09747-8](https://doi.org/10.1007/s10485-023-09747-8)&rbrack;
 
 * {#Ara23} [[Kensuke Arakawa]], Section 1 of _Homotopy Limits and Homotopy Colimits of Chain Complexes_, (2023) firstpage-lastpage &lbrack;[arXiv:2310.00201](https://arxiv.org/abs/2310.00201)&rbrack;
