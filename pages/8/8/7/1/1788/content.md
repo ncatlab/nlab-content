@@ -1,26 +1,296 @@
 
 
+The defining [[permutation representation]] of $Sym_3$ --- with canonical [[linear basis]]  $\{e_1, e_2, e_3\}$ acted on as 
+$
+  \sigma e_i \,=\, e_{\sigma(i)}
+$ ---
+is [[unitary representation|unitary]] with respect to the canonical [[inner product]] $\langle e_i, e_j\rangle \equiv \delta_{i j}$.
+
+Therefore a [[unitary representation|unitary]] form of the standard representation is obtained as the [[orthogonal complement]] of the [[trivial representation|trivial]] [[subrepresentation]] [[linear span|spanned]] by $e_1 + e_2 + e_3$.
+
+One [[orthonormal basis|orthonormal]] [[linear basis]] for this [[orthogonal complement]] is clearly:
+
+$$
+  \Bigg(
+  \;
+  \left[
+    \begin{array}{c}
+      1
+      \\
+      0
+    \end{array}
+  \right]
+  \;\coloneqq\;
+  \tfrac{1}{\sqrt{6}}
+  (e_1 + e_2 - 2 e_3)
+  \;,\,\;\;\;
+  \left[
+  \begin{array}{c}
+    0
+    \\
+    1
+  \end{array}
+  \right]
+  \;\coloneqq\;
+  \tfrac{1}{\sqrt{2}}
+  (e_1 - e_2)
+  \;
+  \Bigg)
+  \,.
+$$
+
+On this basis, the [[transposition]] $(213)$ acts as
+$$
+  (213)
+  \,
+  \tfrac{1}{\sqrt{6}}
+  (e_1 + e_2 - 2 e_3)
+  \;=\;
+  \tfrac{1}{\sqrt{6}}
+  (e_1 + e_2 - 2 e_3)
+  \,,
+$$
+and
+$$
+  (213)
+  \,
+  \tfrac{1}{\sqrt{2}}
+  (e_1 - e_2)
+  \;=\;
+  -
+  \tfrac{1}{\sqrt{2}}
+  (e_1 - e_2)
+  \,,
+$$
+hence is given by the [[matrix]] 
+$$
+  [213] 
+  \;\equiv\;
+  \underset{
+    Z
+  }{
+  \underbrace{
+  \left[
+  \begin{array}{c}
+    1 & 0 
+    \\  
+    0 & -1
+  \end{array}
+  \right]
+  }
+  }
+  \,,
+$$
+which in [[quantum information theory]] is called the *[[Pauli Z-gate]]*.
+
+On the other hand, the [[cyclic permutation]] $(231)$ acts as
+$$
+  (231)
+  \,
+  \tfrac{1}{\sqrt{6}}(e_1 + e_2 - 2 e_3)
+  \;=\;
+  \tfrac{1}{\sqrt{6}}(- 2 e_1 + e_2 + e_3)
+  \;=\;
+  -\tfrac{1}{2}
+  \tfrac{1}{\sqrt{6}}
+  (e_1 + e_2 - 2 e_3)
+  -
+  \tfrac{\sqrt{3}}{2}
+  \tfrac{1}{\sqrt{2}}(e_1 - e_2)
+$$
+and
+$$
+  (231)
+  \,
+  \tfrac{1}{\sqrt{2}}(e_1 - e_2)
+  \;=\;
+  \tfrac{1}{\sqrt{2}}(e_2 - e_3)
+  \;=\;
+  \tfrac{\sqrt{3}}{2}
+  \tfrac{1}{\sqrt{6}}(e_1 + e_2 - 2 e_3)
+  -
+  \tfrac{1}{2}
+  \tfrac{1}{\sqrt{2}}
+  (e_1 - e_2)
+$$
+and is hence given by the [[matrix]]
+$$
+  [231]
+  \;=\;
+  -
+  \underset{
+    R_y(2\pi/3)
+  }{
+  \underbrace{
+  \left[
+    \begin{array}{cc}
+      1/2 & - \sqrt{3}/2
+      \\
+      \sqrt{3}/2 & 1/2
+    \end{array}
+  \right]
+  }
+  }
+$$
+known in [[quantum information theory]] as a [[rotation gate]].
+
+
+Accordingly, the [[transposition]] $(132)$ acts as
+$$
+  (132)
+  \,
+  \tfrac{1}{\sqrt{6}}
+  (e_1 + e_2 - 2 e_3)
+  \;=\;
+  \tfrac{1}{\sqrt{6}}
+  (e_1  - 2 e_2 + e_3)
+  \;=\;
+  - 
+  \tfrac{1}{2}
+  \tfrac{1}{\sqrt{6}}
+  (e_1 + e_2 - 2 e_3)
+  +
+  \tfrac{\sqrt{3}}{2}
+  \tfrac{1}{\sqrt{2}}(e_1 - e_2)
+$$
+and
+$$
+  (132)
+  \,
+  \tfrac{1}{\sqrt{2}}
+  (e_1 - e_2)
+  \;=\;
+  \tfrac{1}{\sqrt{2}}
+  (e_1 - e_3)
+  \;=\;
+  +
+  \tfrac{\sqrt{3}}{2}
+  \tfrac{1}{\sqrt{6}}
+  (e_1 + e_2 - 2 e_3)
+  +
+  \tfrac{1}{2}
+  \tfrac{1}{\sqrt{2}}
+  (e_1 - e_2)
+$$
+and is hence given by the matrix
+$$
+  [132]
+  \;=\;
+  \left[
+  \begin{array}{cc}
+   -1/2 & \sqrt{3}/2
+   \\
+   \sqrt{3}/2 & 1/2
+  \end{array}
+  \right]
+  \;=\;
+  -
+  Z
+  \circ
+  \underset{
+    R_y(2\pi/3)
+  }{
+  \underbrace{
+  \left[
+  \begin{array}{cc}
+   1/2 & -\sqrt{3}/2
+   \\
+   \sqrt{3}/2 & 1/2
+  \end{array}
+  \right]
+  }
+  }
+  \,.
+$$
 
 
 
-<div style="float:right;margin:-20px 20px 5px 20px;">
-<a href="https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html">
-<img src="https://ncatlab.org/schreiber/files/CQTS-logo_animated.gif" width="380" alt="animated logo of CQTS">
-</a>
-</div>
 
-The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html)* (CQTS, launched in 2021) is a Research Center within the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
+...
 
-CQTS is concerned with fundamental questions of [[quantum systems]] relevant for [[quantum technologies]] ---  [[quantum materials]], [[quantum information]], [[quantum sensing]], [[quantum computing]], [[quantum algorithms]] --- with a hallmark focus on foundations of the oft neglected but long-term necessary aspect of **[[topological quantum computing|topological stabilization]]** via hardware based on [[topological order|topologically ordered]] [[topological phases of matter|phases]] of [[quantum materials]].
+\linebreak
 
-<div style="float:left;margin:-35px 15px -10px 0px;">
-<img src="/nlab/files/TwoKindsOfQuantumTechnology.png" width="420" alt="the two kinds of quantum technologies">
-</div>
+On the other hand, the permutation $(321)$ acts as
+$$
+  (321)
+  \,
+  \tfrac{1}{\sqrt{6}}
+  (e_1 + e_2 - 2 e_3)
+  \;=\;
+  \tfrac{1}{\sqrt{6}}
+  (-2 e_1 + e_2 + e_3)
+  \;=\;
+  -
+  \tfrac{1}{2}
+  \tfrac{1}{\sqrt{6}}
+  (e_1 + e_2 - 2 e_3)
+  -
+  \tfrac{\sqrt{3}}{2}
+  \tfrac{1}{\sqrt{2}}
+  (e_1 - e_2)
+$$
+and
+$$
+  (321)
+  \,
+  \tfrac{1}{\sqrt{2}}
+  (e_1 - e_2)
+  \;=\;
+  \tfrac{1}{\sqrt{2}}
+  (- e_2 + e_3)
+  \;=\;
+  -
+  \tfrac{\sqrt{3}}{2}
+  \tfrac{1}{\sqrt{6}}
+  (e_1 + e_2 - 2 e_3)
+  +
+  \tfrac{1}{2}
+  \tfrac{1}{\sqrt{2}}
+  (e_1 - e_2)
+$$
+and hence is given by the matrix
+$$
+  [321]
+  \;=\;
+  \left[
+    \begin{array}{cc}
+      -1/2 & - \sqrt{3}/2
+      \\
+      -\sqrt{3}/2 & 1/2
+    \end{array}
+  \right]
+  \;=\;
+  - 
+  \left[
+    \begin{array}{cc}
+      1/2 & - \sqrt{3}/2
+      \\
+      \sqrt{3}/2 & 1/2
+    \end{array}
+  \right]
+  \circ
+  Z
+  \;=\;
+  - 
+  \underset{
+    R_y(2\pi/3)
+  }{
+  \underbrace{
+  \left[
+    \begin{array}{c}
+      cos(\pi/3) & -sin(\pi/3)
+      \\
+      sin(\pi/3) & cos(\pi/3)
+    \end{array}  
+  \right]
+  }
+  }
+  \circ
+  Z
+$$
+known in [[quantum information theory]] as a [[rotation gate]] compose with the above [[Pauli Z-gate]].
 
-To this end, the theory heart of the center develops understanding of otherwise elusive [[non-perturbative field theory|strongly cloupled/correlated]] [[condensed matter]] (such as [[quantum Hall systems]]) via "[[geometric engineering of quantum field theories|geometric engineering]] on [[M5-branes|branes]]" &lbrack;cf. [[schreiber:Engineering of Anyons on M5-Probes|SS25a]]&rbrack;, alongside a compatible development of [[schreiber:Topological Quantum Gates in Homotopy Type Theory|topology-aware]] [[quantum programming languages]] based on insights from [[stable homotopy theory|stable]] [[homotopy theory]] &lbrack;cf. [[schreiber:Quantum Language via Linear Homotopy Types|SS25b]]&rbrack; -- an approach informed by [[high energy physics]] and [[algebraic topology]]. At the same time, the center's *Quantum Lab*s develops [[spin resonance qbit|spin-based]] [cold atom](trapped-ion+quantum+computing#ReferencesTrappedNeutralAtoms) platforms for [[quantum sensing]] and related [[quantum technologies]] (such as [[quantum key distribution]]) that do not require further stabilization and hence are near-term application ready.
-
-
-
+\linebreak
 
 * [[Maissam Barkeshli]],  [[Xiao-Liang Qi]]: *Topological Nematic States and Non-Abelian Lattice Dislocations*, Phys. Rev. X **2** 031013 (2012) \[<a href="https://doi.org/10.1103/PhysRevX.2.031013">doi:10.1103/PhysRevX.2.031013</a>, [arXiv:1112.3311](https://arxiv.org/abs/1112.3311)\]
 
