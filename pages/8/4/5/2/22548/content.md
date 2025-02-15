@@ -20,7 +20,7 @@
 
 ## Idea
 
-A [[prime factorization]] [[algorithm]] for [[quantum computers]] (cf. *[[quantum algorithm]]*).
+Shor's algorithm is [[prime factorization]] [[algorithm]] for [[quantum computers]] (cf. *[[quantum algorithm]]*) making crucial use of the *phase estimation* provided by the [[quantum Fourier transform]].
 
 ## Related concepts
 
