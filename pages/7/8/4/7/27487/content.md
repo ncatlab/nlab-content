@@ -46,7 +46,7 @@ $\Delta^{op}$ is modeled by geometric realization. Therefore, the
 Bousfield--Kan formula for homotopy colimit of a (pointwise cofibrant)
 diagram $F:I\to C$ is computed by
 $$
-{\rm hocolim}_{I}F\simeq|B_{\bullet}(\ast,I,F)|.
+{\mathrm {hocolim}}_{I}F\simeq|B_{\bullet}(\ast,I,F)|.
 $$
 Textbook account includes [Rie14, Chapter 5](#Riehl14).
 
@@ -63,12 +63,12 @@ The right hand side is also called the Bousfield--Kan formula.
 ### In Model Categories with Framings
 
 A cosimplicial framing on a model category is roughly a functorial
-choice of cosimplicial resolutions [Chapter 16]({#Hir03}). With this
+choice of cosimplicial resolutions [Hir03, Chapter 16]({#Hir03}). With this
 data, we can formally mimic the Bousfield--Kan formula, and this
 is adopted as the definition of homotopy colimits in [Hir03, Chapter19]({#Hir03});
 that this approach is equivalent to the ordinary notion of homotopy
 colimits is established in [AO23]({#AO23}) (for combinatorial model
-categories) and [Ara23, Section 1]({#Ara23}) (for general model categories).
+categories) and [Ara23, Theorem 1.16]({#Ara23}) (for general model categories).
 
 ## References
 
