@@ -1,9 +1,23 @@
 
-$$
-  \check R
-$$
 
-Genons:
+<div style="float:right;margin:-20px 20px 5px 20px;">
+<a href="https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html">
+<img src="https://ncatlab.org/schreiber/files/CQTS-logo_animated.gif" width="380" alt="animated logo of CQTS">
+</a>
+</div>
+
+The *[Center for Quantum and Topological Systems](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html)* (CQTS, launched in 2021) is a Research Center within the [Research Institute](https://nyuad.nyu.edu/en/research/research-institute-centers.html) of [New York University in Abu Dhabi](https://nyuad.nyu.edu/en/).
+
+CQTS is concerned with fundamental questions of [[quantum systems]] relevant for quantum technologies ---  [[quantum materials]], [[quantum information]], [[quantum sensing]], [[quantum computing]], [[quantum algorithms]] --- with a hallmark focus on foundations of the oft neglected but long-term necessary aspect of **[[topological quantum computing|topological stabilization]]** via hardware based on [[topological order|topologically ordered]] [[topological phases of matter|phases]] of [[quantum materials]].
+
+<div style="float:left;margin:-35px 15px 10px 0px;">
+<img src="/nlab/files/TwoKindsOfQuantumTechnology.png" width="380" alt="the two kinds of quantum technologies">
+</div>
+
+To this end, the theory heart of the center develops understanding of otherwise elusive [[non-perturbative field theory|strongly cloupled/correlated]] [[condensed matter]] (such as [[quantum Hall systems]]) via "[[geometric engineering of quantum field theories|geometric engineering]] on [[M5-branes|branes]]", alongside a compatible development of [[schreiber:QS|topology-aware]] [[quantum programming languages]] based on insights from [[stable homotopy theory|stable]] [[homotopy theory]] -- an approach informed by [[high energy physics]] and [[algebraic topology]]. At the same time, the center's *Quantum Lab* develops [[spin resonance qbit|spin-based]] [cold atom](trapped-ion+quantum+computing#ReferencesTrappedNeutralAtoms) platforms for [[quantum sensing]] and related quantum technologies (such as [[quantum key distribution]]) that do not require further stabilization and hence are near-term application ready.
+
+
+
 
 * [[Maissam Barkeshli]],  [[Xiao-Liang Qi]]: *Topological Nematic States and Non-Abelian Lattice Dislocations*, Phys. Rev. X **2** 031013 (2012) \[<a href="https://doi.org/10.1103/PhysRevX.2.031013">doi:10.1103/PhysRevX.2.031013</a>, [arXiv:1112.3311](https://arxiv.org/abs/1112.3311)\]
 
