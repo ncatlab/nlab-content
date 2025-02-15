@@ -251,9 +251,17 @@ Typical [[Lagrangian|Lagrangians]] in [[quantum field theory]] are defined on je
 
 ## References
 
-Jets were introduced by [[Charles Ehresmann]] in 1951:
+Jets were introduced by [[Charles Ehresmann]] in 1951 in a series of five short articles in [[Comptes Rendus]]:
 
-* [[Charles Ehresmann]]: *Les prolongements d’une variété différentiable*, I–V, CRAS Paris 233 (1951) 598-600, 777-779, 1081-1083, CRAS Paris 234 (1952) 1028-1030, 1424-1425.
+* [[Charles Ehresmann]]: _Les prolongements d'une variété différentiable. I. Calcul des jets, prolongement principal._, C. R. Acad. Sci. Paris 233 (1951), 598–600.
+
+* [[Charles Ehresmann]]: _Les prolongements d'une variété différentiable. II. L'espace des jets d'ordre $r$ de $V_n$ dans $V_m$_, C. R. Acad. Sci. Paris 233 (1951), 777–779.
+
+* [[Charles Ehresmann]]: _Les prolongements d'une variété différentiable. III. Transitivité des prolongements_, C. R. Acad. Sci. Paris 233 (1951), 1081–1083.
+
+* [[Charles Ehresmann]]: _Les prolongements d'une variété différentiable. IV. Éléments de contact et éléments d'enveloppe_, C. R. Acad. Sci. Paris 234 (1952), 1028–1030.
+
+* [[Charles Ehresmann]]: _Les prolongements d'une variété différentiable. V. Covariants différentiels et prolongements d'une structure infinitésimale_, C. R. Acad. Sci. Paris 234 (1952), 1424–1425.
 
 Exposition of [[variational calculus]] in terms of jet bundles and [[Lepage forms]] and aimed at examples from [[physics]] is in
 
