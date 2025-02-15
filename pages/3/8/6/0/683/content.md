@@ -241,7 +241,7 @@ $$
 $$
 
 
-This formula is sometimes called the **Bousfield-Kan formula** (see at *[[Bousfield-Kan map]]*). The coend is a [[weighted limit]] and this formula for the plain homotopy colimit can be understood the left derived _weighted_ colimit which trivial weight (the underived weight is trivial, but becomes non-trivial after derivation -- this extra complexity helps reduce the complexity for the replacement for the functor $F$ itself).
+This formula is sometimes called the [[Bousfield--Kan formula]]. The coend is a [[weighted limit]] and this formula for the plain homotopy colimit can be understood the left derived _weighted_ colimit which trivial weight (the underived weight is trivial, but becomes non-trivial after derivation -- this extra complexity helps reduce the complexity for the replacement for the functor $F$ itself).
 
 In detail, let $V$ be a [[monoidal model category]] and $C$ a $V$-[[enriched model category]] (for instance $V = sSet_{Quillen}$ as in the above discussion). Let $D$ be a small $V$-[[enriched category]]. Then for a any given [[weighted limit|weight]]
 
@@ -293,7 +293,7 @@ From the fact that this is a Quillen bifunctor and using the observation that fo
  {#BarConstruction}
 
 
-A general way of obtaining resolutions that compute homotopy (co)limits involves [[bar construction]]s. (...)
+A general way of obtaining resolutions that compute homotopy (co)limits involves [[bar construction]]s. See [[Bousfield--Kan formula]].
 
 ## Homotopy limits versus higher categorical limits
 
@@ -936,7 +936,7 @@ $$
 
 =--
 
-This is an application of the [bar-construction method](BarConstruction).
+This is an application of the [[Bousfield--Kan formula]].
 
 See for instance [Dugger, part 1](#Dugger) for an exposition.
 
@@ -1133,7 +1133,7 @@ Other references are
 
 * [[Kensuke Arakawa]], _Homotopy Limits and Homotopy Colimits of Chain Complexes_, [arXiv:2310.00201](https://arxiv.org/abs/2310.00201).  The case of [[chain complexes]].
 
-* Sergey Arkhipov, Sebastian Ørsted, *Homotopy (co)limits via homotopy (co)ends in general combinatorial model categories*, [arxiv](https://arxiv.org/abs/1807.03266).  A version of [Weighted limits in simplicial homotopy theory](#Gambino10) that doesn't require simplicial enrichment.
+* [[Sergey Arkhipov]], [[Sebastian Ørsted]], _Homotopy (co)limits via homotopy (co)ends in general combinatorial model categories_, Appl. Categ. Structures **31** 6 (2023) &lbrack;[doi:10.1007/s10485-023-09747-8](https://doi.org/10.1007/s10485-023-09747-8)&rbrack;  A version of [Weighted limits in simplicial homotopy theory](#Gambino10) that doesn't require simplicial enrichment.
 
 * Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf)), published as: Mathematical Proceedings of the Cambridge Philosophical Society 145 (2008) 43-63.)  Proves that homotopy limits in a 2-category with its natural model structure coincide with 2-categorical [[strict 2-limit|pseudo-limits]], and hence give [[2-limits]].
 
