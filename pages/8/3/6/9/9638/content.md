@@ -139,6 +139,8 @@ This idea of classically controlled quantum programming via [[dependent linear t
 
 ## Related entries
 
+* [[quantum technology]]
+
 * [[quantum algorithm]]
 
 * [[quantum simulation]]
