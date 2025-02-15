@@ -736,6 +736,8 @@ For this to make sense, the [[convolution product]] of the [[smooth functions]] 
 
 * [[Fourier transform of distributions]]
 
+* [[discrete Fourier transforms]], [[quantum Fourier transform]]
+
 * [[pseudodifferential operator]]
 
 * [[Poisson summation formula]]
