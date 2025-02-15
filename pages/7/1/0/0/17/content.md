@@ -673,6 +673,28 @@ To upload a file, proceed as follows:
 
 1. Type 
 
+   `<nowiki>[FileName](/nlab/files/filename.xyz)</nowiki>`
+
+   into the edit page for some entry;
+
+1. hit "submit";
+
+1. in the rendered entry, find a grayish link labeled "FileName";
+
+1. click on the link to open an upload dialogue and follow the instructions there;
+
+   notice that the dialogue field "Description" is asking for the text that will appear hyperlinked to your file. If you put no text here, no link to your file will appear by itself;
+  
+1. complete the dialogue by hitting "upload".
+
+After this, the file is now sitting at this URL:
+
+      https://ncatlab.org/nlab/files/FileName.xyz 
+
+Alternatively,
+
+1. Type 
+
    `<nowiki>[[FileName.xyz:file]]</nowiki>`
 
    into the edit page for some entry, or
