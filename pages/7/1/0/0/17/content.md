@@ -809,24 +809,26 @@ produces again
 
 
 ### How to add a floating table of contents
+ {#ToAddAFloatingTOC}
 
-Many pages include a "floating table of contents" at the top right-hand side with links to other pages on similar topics.  The lists of related pages are separate pages with names such as [[category theory - contents]]; if you want to create a new one, look at the syntax of existing ones.
+Many pages include a "floating table of contents" at the top right-hand side with links to other pages on similar topics.  The lists of related pages are separate pages with names such as *[[category theory - contents]]*; if you want to create a new one, look at the syntax of existing ones.
 
-To add a floating TOC to a new page, in such a way that it will be automatically collapsed until moused over, use code such as the following at the top of the page:
+To add a floating TOC to a new page, in such a way that it will be automatically collapsed until moused over, use code such as the following at the top of the source code:
 
-~~~
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-### Context
-#### Category Theory
-+-- {: .hide}
-[[&excl;include category theory - contents]]
-=--
-=--
-=--
-~~~
+\begin{imagefromfile}
+    "file_name": "FloatingTocCodeExample.png",
+    "width": 310,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": -450
+    }
+\end{imagefromfile}
 
-If you want to include multiple contents pages, you can repeat the four lines from the one starting with `####` through the first `=--` line.
+(Best to copy-and-paste a version from existing sources, such as at [/nlab/source/topos](/nlab/source/topos), and then adjust to the given needs).
+
 
 
 ### How to draw commutative diagrams and pictures {#diagrams}
