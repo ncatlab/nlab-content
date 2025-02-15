@@ -31,6 +31,7 @@ An _even number_ is an [[integer]] $n \in \mathbb{Z}$ that is a multiple of 2, h
 An _odd number_ is an integer that is not an even number.
 
 ## Properties
+ {#Properties}
 
 +-- {: .num_example #EvenAndOddIntegersAdjointModality}
 ###### Example
