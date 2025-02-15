@@ -251,6 +251,10 @@ Typical [[Lagrangian|Lagrangians]] in [[quantum field theory]] are defined on je
 
 ## References
 
+Jets were introduced by [[Charles Ehresmann]] in 1951:
+
+* [[Charles Ehresmann]], _Les prolongements d’une variété différentiable, I–V, CRAS Paris 233 (1951) 598-600, 777-779, 1081-1083, CRAS Paris 234 (1952) 1028-1030, 1424-1425.
+
 Exposition of [[variational calculus]] in terms of jet bundles and [[Lepage forms]] and aimed at examples from [[physics]] is in
 
 * {#MusilovaHronek16} [[Jana Musilová]],  [[Stanislav Hronek]], _The calculus of variations on jet bundles as a universal approach for a variational formulation of fundamental physical theories_, Communications in Mathematics, Volume 24, Issue 2 (Dec 2016) ([doi.org/10.1515/cm-2016-0012]( https://doi.org/10.1515/cm-2016-0012))
