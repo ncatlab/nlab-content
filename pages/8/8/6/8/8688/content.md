@@ -162,6 +162,12 @@ Classification of all unitary solutions in $dim=4$:
 
 * H. A. Dye: *Unitary Solutions to the Yang-Baxter Equation in Dimension Four*, Quantum Information Processing **2** (2003) (117-152) &lbrack;[arXiv:quant-ph/0211050](https://arxiv.org/abs/quant-ph/0211050), [doi:10.1023/A:1025843426102](https://doi.org/10.1023/A:1025843426102)&rbrack;
 
+Discussion of all *involutive* solutions, yielding [[representations of a symmetric group]]:
+
+* [[Gandalf Lechner]], [[Ulrich Pennig]], [[Simon Wood]]: *Yang-Baxter representations of the infinite symmetric group*, Adv. Math., Vol. **355** (2019) 106769 &lbrack;[arXiv:1707.00196](https://arxiv.org/abs/1707.00196), [doi:10.1016/j.aim.2019.106769](https://doi.org/10.1016/j.aim.2019.106769)&rbrack;
+
+* [[Gandalf Lechner]]: *All involutive solutions of the Yang-Baxter equation*, talk at *[Advances in Mathematics and Theoretical Physics](https://www.mat.uniroma2.it/tlc/17SIMP/)* (2017) &lbrack;[pdf](https://www.mat.uniroma2.it/tlc/17SIMP/Slides/Lechner.pdf), [[Lechner-AllInvolutiveYBEsolutions.pdf:file]]&rbrack;
+
 
 
 [[!redirects quantum Yang-Baxter equation]]
