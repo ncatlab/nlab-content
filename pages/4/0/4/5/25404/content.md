@@ -201,7 +201,8 @@ The articles are up to 4 pages in length, which means that proofs are usually om
 
 * [[Esquisses mathématiques]]
 
-[[!redirects CRAS]]
-
 category: reference
 
+[[!redirects CRAS]]
+[[!redirects Comptes Rendus]]
+[[!redirects C. R. Acad. Sci. Paris]]
