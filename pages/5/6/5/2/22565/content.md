@@ -83,21 +83,33 @@
   [[topological entanglement entropy]]
 
 
+\linebreak
 
+**[[quantum technology]]**
+
+* [[quantum sensing]]
+
+* [[quantum communication]]
+
+* [[quantum cryptography]]
+
+* [[quantum machine learning]]
 
 
 \linebreak
 
 
-**[[quantum computation]]**
+**[[quantum computing]]**
+
+* [[qbit]], [[qdit]]
+
+* [[quantum gate]], [[quantum circuit]]
 
 * [[adiabatic quantum computation]]
 
 * [[measurement-based quantum computation]]
 
 * [[topological quantum computation]]
-
-* [[quantum gate]], [[quantum circuit]]
 
 * [[quantum programming language]]
 
@@ -107,24 +119,14 @@
 
   * [[Majorana dimer code]]
 
-
-[[qbit]]
-
 * [[spin resonance qbit]]
 
-quantum algorithms:
+* quantum algorithms:
 
-* [[Grover's algorithm]]
+  * [[Grover's algorithm]]
 
-* [[Shor's algorithm]]
+  * [[Shor's algorithm]]
 
-\linebreak
-
-**[[quantum sensing]]**
-
-\linebreak
-
-**[[quantum communication]]**
 
 
 
