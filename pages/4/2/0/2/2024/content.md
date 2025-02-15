@@ -75,7 +75,7 @@ An overt space may also be called **locally $(-1)$-connected**, since this condi
 
 In [[synthetic topology]], we interpret 'space' to mean simply 'set' (or [[type]], i.e. the basic objects of our foundational system).  If the notion of 'open' is specified by a [[dominance]], then there is an induced nontrivial notion of "overt set", defined essentially as above.  For instance, the [[Rosolini dominance]] is the smallest dominance such that $\mathbb{N}$ is overt, whereas if all sets are overt then the dominance is trivial.
 
-On the other hand, if by 'open' we mean an open subset [in the sense of Penon](/nlab/show/open+subspace#SynTop), then all sets are overt.
+On the other hand, if by 'open' we mean an open subset [[Penon open|in the sense of Penon]], then all sets are overt.
 
 
 ## References
