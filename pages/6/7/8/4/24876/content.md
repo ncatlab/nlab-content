@@ -76,6 +76,11 @@ On the [[quantum Fourier transform]] with qdits:
 
 * Cao Ye et al.: *Quantum Fourier Transform and Phase Estimation in Qudit System*, Commun. Theor. Phys. **55** 790 (2011) &lbrack;[doi:10.1088/0253-6102/55/5/11](https://iopscience.iop.org/article/10.1088/0253-6102/55/5/11)&rbrack;
 
+and its applications to [[arithmetic]] [[quantum algorithms]]:
+
+* Archimedes Pavlidis, Emmanuel Floratos: *Quantum-Fourier-transform-based quantum arithmetic with qudits*, Phys. Rev. A **103** (2021) 032417 &lbrack;[doi:10.1103/PhysRevA.103.032417](https://doi.org/10.1103/PhysRevA.103.032417)&rbrack;
+
+
 
 
 
