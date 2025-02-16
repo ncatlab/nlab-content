@@ -1,4 +1,22 @@
-# Bousfield–Kan formula
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### $(\infty,1)$-Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
 
 \tableofcontents
 
@@ -227,29 +245,36 @@ $$
 
 The Bousfield-Kan formula was introduced in:
 
-
 * {#BK72} [[Aldridge K. Bousfield]] and [[Daniel M. Kan]], Chapter IX in: *[[Homotopy Limits, Completions and Localizations]]*, Lecture Notes in Mathematics 304 (1972; 1987), Springer ([doi:10.1007/978-3-540-38117-4](https://link.springer.com/book/10.1007/978-3-540-38117-4))
 
-Discussions in simplicial model categories can be found in:
+Discussion in [[model categories]]:
+
+* {#Hir03} [[Philip Hirschhorn]], _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs **99** (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/pshmain.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
+
+  > The Bousfield--Kan map(s) are on p. 397, def. 18.7.1 and def. 18.7.3.
+
+  > _Realization_ and _totalization_ are defs 18.6.2 and 18.6.3 on p. 395.
+
+  > Beware that this book writes $B$ for the nerve!
+
+Discussions in [[simplicial model categories]]:
 
 * {#Rie16} [[Emily Riehl]], Chapter 5 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
 
-Further references:
-
-
-* {#Hir03} [[Philip Hirschhorn]], _Model categories and their localizations_, (2003) &lbrack;[doi:10.1090/surv/099](https://doi.org/10.1090/surv/099)&rbrack;
-
-The Bousfield--Kan map(s) are on p. 397, def. 18.7.1 and def. 18.7.3.
-
-_Realization_ and _totalization_ are defs 18.6.2 and 18.6.3 on p. 395.
-
-Notice that this book writes $B$ for the nerve!
+See also:
 
 * {#AO23} [[Sergey Arkhipov]], [[Sebastian Ørsted]]: _Homotopy (co)limits via homotopy (co)ends in general combinatorial model categories_, Appl. Categ. Structures **31** 6 (2023) &lbrack;[doi:10.1007/s10485-023-09747-8](https://doi.org/10.1007/s10485-023-09747-8)&rbrack;
 
 * {#Ara23} [[Kensuke Arakawa]], Section 1 of: _Homotopy Limits and Homotopy Colimits of Chain Complexes_, (2023)  &lbrack;[arXiv:2310.00201](https://arxiv.org/abs/2310.00201)&rbrack;
 
+[[!redirects Bousfield-Kan formulas]]
+
 [[!redirects Bousfield--Kan formula]]
-[[!redirects Bousfield-Kan formula]]
-[[!redirects Bousfield--Kan map]]
+[[!redirects Bousfield--Kan formulas]]
+
+
 [[!redirects Bousfield-Kan map]]
+[[!redirects Bousfield-Kan maps]]
+
+[[!redirects Bousfield--Kan map]]
+[[!redirects Bousfield--Kan maps]]
