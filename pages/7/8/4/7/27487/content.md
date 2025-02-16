@@ -79,8 +79,8 @@ The right hand side is also called the *Bousfield-Kan formula*.
 
 ### In Model Categories with Framings
 
-A cosimplicial [framing](derived+hom-space#Framings) on a [[model category]] is roughly a functorial choice of cosimplicial [[resolutions]] [Hir03, Chapter 16]({#Hir03}). With this data, we can formally mimic the Bousfield-Kan formula, and this is adopted as the definition of homotopy colimits in [Hir03, Chapter19]({#Hir03}); that this approach is equivalent to the ordinary notion of homotopy colimits is established in [AO23]({#AO23}) (for combinatorial model
-categories) and [Ara23, Theorem 1.16]({#Ara23}) (for general model categories).
+A cosimplicial [framing](derived+hom-space#Framings) on a [[model category]] is roughly a functorial choice of cosimplicial [[resolutions]] [Hir03, Chapter 16](#Hir03). With this data, we can formally mimic the Bousfield-Kan formula, and this is adopted as the definition of homotopy colimits in [Hir03, Chapter19](#Hir03); that this approach is equivalent to the ordinary notion of homotopy colimits is established in [AO23](#AO23) (for combinatorial model
+categories) and [Ara23, Theorem 1.16](#Ara23) (for general model categories).
 
 ## References
 
