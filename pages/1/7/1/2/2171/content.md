@@ -3330,8 +3330,9 @@ which is part of a [[long exact sequence of homotopy groups|long exact homotopy 
 
 Since the notion of a [[configuration space of points]] makes sense for points in any [[topological space]], not necessarily the [[plane]] $\mathbb{R}^2$, the [above](#GeometricDefinition) geometric definition has an immediate generalization:
 
-For $\Sigma$ any [[surface]], the [[fundamental group]] of the (ordered) [[configuration space of points]] in $\Sigma$ may be regarded as generalized (pure) braid group.
-These *surface braid groups are of interest in [[3d topological field theory]] and in particular in [[topological quantum computation]] where it models [[non-abelian anyons]].
+For $\Sigma$ any [[surface]], the [[fundamental group]] of the (ordered) [[configuration space of points]] in $\Sigma$ may be regarded as generalized (pure) braid group, called a *surface braid group*. (See the *[[spherical braid group]]* for the case that the surface in question is the [[2-sphere]].)
+
+These surface braid groups are of interest in [[3d topological field theory]] and in particular in [[topological quantum computation]] where it models [[non-abelian anyons]].
 
 
 Yet more generally, one may consider the fundamental group of the configuration space of points of any topological space $X$.
@@ -3722,6 +3723,8 @@ $$
 
 
 ## Related concepts
+
+* [[spherical braid group]]
 
 * [[braid representation]]
 
