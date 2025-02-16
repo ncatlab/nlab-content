@@ -44,6 +44,12 @@ For further cases, such as _[[group extension]]_, _[[Lie algebra extension]]_, _
 Classification of extensions in many categories is obtained using a [[forgetful functor]] $C\to D$ to a simpler category $D$, which preserves short exact sequences. For example, if all extensions in $D$ are isomorphic to $K\coprod Q$, then one looks for an additional structure in $C$ needed to equip the coproduct $K \coprod Q$ with a structure of an object in $C$ such that the $i$ and $p$ are morphisms in
 $C$ making above a short exact sequence in $C$.
 
+### Extension of an object as an enlargement 
+
+In something like the [[dual]] sense of the above, *extension* is also used to indicate a kind of enlargement of an object in the sense that the object being extended can be viewed as a [[subobject]] of the extension. This is the case for [[field extensions]], $k \hookrightarrow K$.
+
+
+
 ### Other notions of extension
 
 * [[extension (semantics)]]
