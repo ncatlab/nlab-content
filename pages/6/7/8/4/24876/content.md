@@ -61,12 +61,23 @@ General:
 
 * IEEE Spectrum *[Qudits: The Real Future of Quantum Computing?](https://spectrum.ieee.org/qudits-the-real-future-of-quantum-computing)* (June 2017)
 
-* Yuchen Wang, Zixuan Hu, Barry C. Sanders, Sabre Kais, *Qudits and High-Dimensional Quantum Computing*, Front. Phys. (2020) &lbrack;[doi:10.3389/fphy.2020.589504](https://doi.org/10.3389/fphy.2020.589504)&rbrack;
+* Yuchen Wang, Zixuan Hu, Barry C. Sanders, Sabre Kais, section 3.2.1 of: *Qudits and high-dimensional quantum computing*, Front. Phys. **8** 479 (2020) &lbrack;[arXiv:2008.00959](https://arxiv.org/abs/2008.00959), [doi:10.3389/fphy.2020.589504](https://doi.org/10.3389/fphy.2020.589504)&rbrack;
 
 
 See also: 
 
 * Wikipedia, *[Qutrit](https://en.wikipedia.org/wiki/Qutrit)*
+
+On the [[quantum Fourier transform]] with qdits:
+
+* Ashok Muthukrishnan, C. R. Stroud Jr: *Quantum fast Fourier transform using multilevel atoms*, Journal of Modern Optics **49** 13 (2002) &lbrack;[arXiv:quant-ph/0112017](https://arxiv.org/abs/quant-ph/0112017), [doi:10.1080/09500340210123947](https://doi.org/10.1080/09500340210123947)&rbrack;
+
+* Zeljko Zilic, Katarzyna Radecka: *Scaling and better approximating quantum Fourier transform by higher radices*, IEEE Transactions on Computers **56** 2 (2007) 202-207 &lbrack;[arXiv:quant-ph/0702195](https://arxiv.org/abs/quant-ph/0702195), [doi:10.1109/TC.2007.35](https://doi.org/10.1109/TC.2007.35)&rbrack;
+
+* Cao Ye et al.: *Quantum Fourier Transform and Phase Estimation in Qudit System*, Commun. Theor. Phys. **55** 790 (2011) &lbrack;[doi:10.1088/0253-6102/55/5/11](https://iopscience.iop.org/article/10.1088/0253-6102/55/5/11)&rbrack;
+
+
+
 
 
 Explicit mentioning of the qdit-nature of the elementary gates in [[topological quantum computation]]:
