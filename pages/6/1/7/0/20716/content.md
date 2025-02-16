@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On plain [[braid groups]] in relation to [[spherical braid groups]]:
+
+* {#FadellVanBuskirk61} [[Edward Fadell]], James Van Buskirk: *On the braid groups of $E^2$ and $S^2$*,  Bull. Amer. Math. Soc. **67** 2 (1961) 211-213 &lbrack;[euclid:bams/1183524083](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-67/issue-2/On-the-braid-groups-of-E2-and-S2/bams/1183524083.full)&rbrack;
+
+
 On [[configuration spaces of points]]:
 
 * {#FadellNeuwirth62} [[Edward Fadell]], [[Lee Neuwirth]], *Configuration spaces*, Math. Scand. __10__ (1962) 111-118 &lbrack;[doi:10.7146/math.scand.a-10517](https://doi.org/10.7146/math.scand.a-10517), [[FadellNeuwirth-ConfigSpaces.pdf:file]], [MR141126](http://www.ams.org/mathscinet-getitem?mr=141126)&rbrack;
