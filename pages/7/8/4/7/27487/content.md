@@ -1,6 +1,3 @@
-
-> see also *[[Bousfield-Kan map]]*
-
 # Bousfield–Kan formula
 
 \tableofcontents
@@ -77,10 +74,154 @@ $$
 $$
 The right hand side is also called the *Bousfield-Kan formula*. 
 
-### In Model Categories with Framings
+### In Model Categories with Framings {#framed}
 
 A cosimplicial [framing](derived+hom-space#Framings) on a [[model category]] is roughly a functorial choice of cosimplicial [[resolutions]] [Hir03, Chapter 16](#Hir03). With this data, we can formally mimic the Bousfield-Kan formula, and this is adopted as the definition of homotopy colimits in [Hir03, Chapter19](#Hir03); that this approach is equivalent to the ordinary notion of homotopy colimits is established in [AO23](#AO23) (for combinatorial model
 categories) and [Ara23, Theorem 1.16](#Ara23) (for general model categories).
+
+## Bousfield--Kan map
+
+In a [[simplicial model category]] (this can be generalized, as discussed [above](#framed)), there are two formulas for [[homotopy colimits]] of [[simplicial objects]]: The Bousfield--Kan formula, and geometric realization. The Bousfield--Kan map(s) compare these formulas.
+
+More precisely, let $C$ be an ([[SimpSet|SSet]],$\otimes = \times$)-[[enriched category]] and write 
+
+$$
+  \Delta : \Delta \to Set^{\Delta^{op}}
+$$
+
+for the canonical cosimplicial [[simplicial set]] (the [[adjunct]] of the [[hom-functor]] $\Delta^{op} \times \Delta \to Set$).
+
+Write furthermore $N(\Delta/-) : \Delta \to Set^{\Delta^{op}}$ for the [[fat simplex]], the  [[cosimplicial object|cosimplicial]] [[simplicial set]] which assigns to $[n]$ the [[nerve]] of the [[overcategory]] $\Delta / [n]$.
+
+The **Bousfield--Kan map of cosimplicial simplicial maps** is a canonical morphism
+
+$$
+  \varphi 
+  \,\colon\, 
+  N\big(\Delta/(-)\big) 
+   \longrightarrow 
+  \Delta
+$$
+
+of cosimplicial simplicial sets.
+
+This can also be regarded as a morphism
+
+$$
+  \varphi 
+    \,\colon\, 
+  N\big(
+    (-)/\Delta^{op}
+  \big)^{op} 
+    \longrightarrow 
+  \Delta
+  \,.
+$$
+
+
+This morphism induces the following morphisms between (co)[[simplicial objects]] in $C$.
+
+
+### Bousfield--Kan for simplicial objects
+
+For $X \,\colon\, \Delta^\op \to C$ any [[simplicial object]] in $C$, the **realization** of $X$ is the [[end|coend]]
+
+$$
+  {|X|} 
+    \;\coloneqq\; 
+  X \otimes_{\Delta^{op}} \Delta 
+    \;\coloneqq\; 
+  \int^{[n] \in \Delta} 
+    X_n \otimes \Delta^n
+  \,,
+$$
+
+where in the integrand we have the *[[copower]]* (or *[[tensoring]]*) of $C$ by [[sSet]].
+
+Here the **Bousfield--Kan** map is the morphism
+
+$$
+  X \otimes_{\Delta^{op}} 
+   N\big((-)/\Delta^{op}\big)^{op}
+  \stackrel
+    {Id_X \otimes_{\Delta^{op}} \phi }
+    {\longrightarrow}
+  X \otimes_{\Delta^{op}} \Delta
+  \,.
+$$
+
+### Bousfield--Kan for cosimplicial objects
+There is also the Bousfield--Kan map for cosimplicial objects:
+
+
+For $X \,\colon\, \Delta \to C$ any cosimplicial object, its **totalization** is the $\Delta$-[[weighted limit]]
+
+$$
+  Tot X 
+    \;\coloneqq\; 
+  lim^\Delta X 
+    \;\simeq\; 
+  \int_{[n \in \Delta]} X_n^{\Delta^n}
+  \,,
+$$
+
+where in the integrand we have the [[power]] or cotensor $X_n^{\Delta^n} = \pitchfork(\Delta, X_n)$ of $C$ by [[SimpSet|SSet]].
+
+
+Here the **Bousfield--Kan** morphism is the morphism
+
+$$
+  Tot X \simeq hom(\Delta,X) 
+    \stackrel
+      {hom(\phi,Id_X)} 
+      {\longrightarrow}  
+  hom\Big(
+    N\big(\Delta/(-)\ig)
+    ,\, 
+    X
+    \Big)
+  \,.
+$$
+
++-- {: .un_theorem}
+###### Theorem
+
+If the [[simplicial object]] $X$ is [[Reedy category|Reedy]]-[[cofibrant objects|cofibrant]] then its Bousfield--Kan map is a natural [[weak equivalence]].
+
+If the co-[[simplicial object]] $X$ is [[Reedy category|Reedy fibrant]] then its Bousfield--Kan map is a natural weak equivalence.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This can be proven for instance using [[homotopy colimits]] in the [[Reedy model structure]]. Details are at *[Reedy model structure -- over the simplex category](Reedy+model+structure#SimplexCategory)*.
+
+=--
+
+
+
+
++-- {: .un_example}
+###### Example
+
+When the co[[simplicial object]]  $X$ is degreewise fibrant,  then 
+
+$$
+  lim^{N(\Delta/(-))} X
+  \simeq holim X
+$$
+
+computes the [[homotopy limit]] of $X$ as a [[weighted limit]] (as explained there). Then the above theorem says that the homotopy limit is already computed by the totalization
+
+$$
+  holim X \simeq lim^\Delta X
+  \,.
+$$
+
+
+=--
 
 ## References
 
@@ -98,8 +239,17 @@ Further references:
 
 * {#Hir03} [[Philip Hirschhorn]], _Model categories and their localizations_, (2003) &lbrack;[doi:10.1090/surv/099](https://doi.org/10.1090/surv/099)&rbrack;
 
+The Bousfield--Kan map(s) are on p. 397, def. 18.7.1 and def. 18.7.3.
+
+_Realization_ and _totalization_ are defs 18.6.2 and 18.6.3 on p. 395.
+
+Notice that this book writes $B$ for the nerve!
+
 * {#AO23} [[Sergey Arkhipov]], [[Sebastian Ørsted]]: _Homotopy (co)limits via homotopy (co)ends in general combinatorial model categories_, Appl. Categ. Structures **31** 6 (2023) &lbrack;[doi:10.1007/s10485-023-09747-8](https://doi.org/10.1007/s10485-023-09747-8)&rbrack;
 
 * {#Ara23} [[Kensuke Arakawa]], Section 1 of: _Homotopy Limits and Homotopy Colimits of Chain Complexes_, (2023)  &lbrack;[arXiv:2310.00201](https://arxiv.org/abs/2310.00201)&rbrack;
 
 [[!redirects Bousfield--Kan formula]]
+[[!redirects Bousfield-Kan formula]]
+[[!redirects Bousfield--Kan map]]
+[[!redirects Bousfield-Kan map]]
