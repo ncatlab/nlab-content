@@ -1,1 +1,1 @@
-See [[Bousfield--Kan formula]].
+See *[[Bousfield--Kan formula]]*.
