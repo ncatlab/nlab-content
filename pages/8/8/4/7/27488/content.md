@@ -15,10 +15,16 @@
 
 ## Idea
 
-The *quantum Fourier transform* (QFT) is an analog of the [[discrete Fourier transform]] acting on [[quantum states]].
+The *quantum Fourier transform* (QFT) is an analog of the [[discrete Fourier transform]], acting on [[quantum states]].
 
 
-The QFT is a crucial ingredient in several [[quantum algorithms]], notably in [[Shor's algorithm]] for integer factoring. In itself it is not more efficient than classical [[discrete Fourier transform]], but what these algorithms make use of is the efficient "*phase estimation*" that is a side-effect of the QFT.
+The QFT is a crucial ingredient in several [[quantum algorithms]], notably in [[Shor's algorithm]]. 
+
+Nominally, the QFT on an [[finite-dimensional Hilbert space|$n$-dimensional Hilbert space]] requires only $\mathcal{O}(n^2)$ [[quantum gates]], as opposed to the $\mathcal{O}(n 2^n)$ [[logic gates]] for the classical [[discrete Fourier transform]] on $n$-dimensional vectors. However, this nominal speedup is not practically extractable for computation of [[Fourier transforms]], since classical en- and de-coding of the data for the QFT is impractical: the Fourier transformed vector is in the *[[complex phases]]* of the [[coefficients]] of the output [[quantum state]], which are not directly [[quantum measurement|measurable]]. &lbrack;[Nielsen & Chuang 2000 p 220](#NielsenChuang00)&rbrack;.
+
+However there are practically accessible [[quantum algorithms]] with [[quantum advantage]] which rely the QFT as a sub-routine, notably "quantum phase estimation" &lbrack;[NC00 §5.2](#NielsenChuang00)&rbrack; (used, in turn, in [[Shor's algorithm]]).
+
+
 
 ## Related concepts
 
@@ -57,4 +63,6 @@ Review of the qdit formulation:
 
 [[!redirects quantum Fourier transforms]]
 
+[[!redirects quantum phase estimation]]
+[[!redirects quantum phase estimations]]
 
