@@ -21,7 +21,7 @@
 ## Idea
 
 
-A *Serre functor* on a [[triangulated category]] $\mathcal{A}$ is an [[exact functor]] such that for any [[pair]] of [[objects]] there is a [[natural isomorphism]] $\Hom(A,B) \simeq \Hom\big(B, S(A)\big)^{*}$ from their [[hom-object]] to the [[linear dual]] of their reverse hom-object, "twisted" by the Serre functor. 
+A *Serre functor* on a [[triangulated category]] $\mathcal{A}$ is an [[exact functor]] such that for any [[pair]] of [[objects]] there is a [[natural isomorphism]] $\Hom(A,B) \simeq \Hom(B,S(A))^{\ast}$ from their [[hom-object]] to the [[linear dual]] of their reverse hom-object, "twisted" by the Serre functor. 
 
 A Serre functor does not always exist, but when it does then it is unique up to graded natural isomorphism.
 
