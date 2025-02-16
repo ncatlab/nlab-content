@@ -100,6 +100,7 @@ $$
 ## Examples
 
 ### The standard representation
+ {#TheStandardRepresentation}
 
 \begin{example}\label{StandardRepresentation}
 **(standard representation)**
