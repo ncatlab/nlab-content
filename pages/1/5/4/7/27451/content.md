@@ -23,9 +23,15 @@
 
 ## Idea
 
-The *2-sphere* $S^2$ is the usual [[sphere]] of [[dimension]] $2$, hence the [[n-sphere|$n$-sphere]] for $n = 2$. 
+The *2-sphere* $S^2$ is the ordinary [[sphere]] of [[dimension]] $2$, hence the [[n-sphere|$n$-sphere]] for $n = 2$. 
 
 Equipped with its canonical [[complex structure]] this is known as the *[[Riemann sphere]]*.
+
+## Related concepts
+
+* [[geometric quantization of the 2-sphere]]
+
+* [[spherical braid group]]
 
 ## References
 
