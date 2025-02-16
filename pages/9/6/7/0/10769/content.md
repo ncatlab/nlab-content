@@ -5,13 +5,15 @@
 
 ## Idea
 
-A kind of [[field extension]]
+A kind of [[field extension]].
 
 ## Related concepts
 
 * [[perfect field]]
 
 * [[transcendental extension]]
+
+* [[central extension]]
 
 ## References
 
