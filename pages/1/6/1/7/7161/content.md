@@ -83,7 +83,7 @@ following the general principle of [[internalization]] formulated in
 
 The concept of [[topological groupoids]] and [[Lie groupoids]] goes back to
 
-* [[Charles Ehresmann]], _Catégories topologiques et categories différentiables_, Colloque de Géométrie différentielle globale, Bruxelles, C.B.R.M., (1959) pp. 137-150 ([[EhresmannCategoriesTopologiques.pdf:file]], [zbMath:0205.28202](https://zbmath.org/?q=an:0205.28202))
+* [[Charles Ehresmann]], _Catégories topologiques et categories différentiables_, Colloque de Géométrie différentielle globale, Bruxelles, C.B.R.M., (1959) pp. 137-150 ([zbMath:0205.28202](https://zbmath.org/?q=an:0205.28202)). Reprinted in: [[Andrée Ehresmann]] (ed.) _Charles Ehresmann: œvres complètes et commentées. Parties I-1 et I-2: topologie algébrique et géométrie différentielle_ (1984) pp. 237–250 ([web](https://mes-ehres.fr/ChEh/oeuvres.htm); [[EhresmannCategoriesTopologiques.pdf:file]])
 
 and their understanding as categories internal to [[TopologicalSpaces]] and to [[SmoothManifolds]] is often attributed to
 
