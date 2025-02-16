@@ -1,308 +1,99 @@
 
-[[FloatingTocCodeExample.png:file]]
 
 
-$\eqqcolon$
+[[BraidOn2Sphere.png:file]]
 
-$\Rrightarrow$
+\begin{imagefromfile}
+    "file_name": "BraidOn2Sphere.png",
+    "float": "right",
+    "width": 200,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(the element )"
+\end{imagefromfile}
 
-The defining [[permutation representation]] of $Sym_3$ --- with canonical [[linear basis]]  $\{e_1, e_2, e_3\}$ acted on as 
-$
-  \sigma e_i \,=\, e_{\sigma(i)}
-$ ---
-is [[unitary representation|unitary]] with respect to the canonical [[inner product]] $\langle e_i, e_j\rangle \equiv \delta_{i j}$.
 
-Therefore a [[unitary representation|unitary]] form of the standard representation is obtained as the [[orthogonal complement]] of the [[trivial representation|trivial]] [[subrepresentation]] [[linear span|spanned]] by $e_1 + e_2 + e_3$.
+## Definition
 
-One [[orthonormal basis|orthonormal]] [[linear basis]] for this [[orthogonal complement]] is clearly:
+By the *spherical braid group* $Br_n(S^2)$, for $n \in \mathbb{N}$, one means the [[surface braid group]] 
 
 $$
-  \Bigg(
-  \;
-  \left[
-    \begin{array}{c}
-      1
-      \\
-      0
-    \end{array}
-  \right]
-  \;\coloneqq\;
-  \tfrac{1}{\sqrt{6}}
-  (e_1 + e_2 - 2 e_3)
-  \;,\,\;\;\;
-  \left[
-  \begin{array}{c}
-    0
-    \\
-    1
-  \end{array}
-  \right]
-  \;\coloneqq\;
-  \tfrac{1}{\sqrt{2}}
-  (e_1 - e_2)
-  \;
-  \Bigg)
-  \,.
-$$
-
-On this basis, the [[transposition]] $(213)$ acts as
-$$
-  (213)
-  \,
-  \tfrac{1}{\sqrt{6}}
-  (e_1 + e_2 - 2 e_3)
-  \;=\;
-  \tfrac{1}{\sqrt{6}}
-  (e_1 + e_2 - 2 e_3)
+  Br_n(S^2)
+  \;\simeq\;
+  \pi_1
+  Conf_n(S^2)
   \,,
 $$
-and
+
+where the [[surface]] in question is the [[2-sphere]] $S^2$. Hence the surface braid group is the [[fundamental group]] $\pi_1(-)$ of the [[configuration spaces of points|configuration space of $n$-points]], $Conf_n(-)$, on the [[2-sphere]].
+
+
+
+## Properties
+
+\begin{imagefromfile}
+    "file_name": "RelationInSphericalBraidGroup.png",
+    "float": "right",
+    "width": 100,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [math.SE:q/136821](https://math.stackexchange.com/q/136821/58526))"
+\end{imagefromfile}
+
+
+
+\begin{proposition}
+The spherical braid group is the [[quotient group]] of the ordinary [[braid group]] by one further relation:
 $$
-  (213)
-  \,
-  \tfrac{1}{\sqrt{2}}
-  (e_1 - e_2)
-  \;=\;
-  -
-  \tfrac{1}{\sqrt{2}}
-  (e_1 - e_2)
+  Br_n(S^2) 
+  \;\simeq\;
+  Br_n/
+  \big( (b_1 b_2 \cdots b_{n-1})(b_{n-1} \cdots b_2 b_1)
   \,,
 $$
-hence is given by the [[matrix]] 
-$$
-  [213] 
-  \;\equiv\;
-  \underset{
-    Z
-  }{
-  \underbrace{
-  \left[
-  \begin{array}{c}
-    1 & 0 
-    \\  
-    0 & -1
-  \end{array}
-  \right]
-  }
-  }
-  \,,
-$$
-which in [[quantum information theory]] is called the *[[Pauli Z-gate]]*.
+where the $b_i$ denote the [Artin braid generators](braid+group#ArtinPresentation). 
 
-On the other hand, the [[cyclic permutation]] $(231)$ acts as
-$$
-  (231)
-  \,
-  \tfrac{1}{\sqrt{6}}(e_1 + e_2 - 2 e_3)
-  \;=\;
-  \tfrac{1}{\sqrt{6}}(- 2 e_1 + e_2 + e_3)
-  \;=\;
-  -\tfrac{1}{2}
-  \tfrac{1}{\sqrt{6}}
-  (e_1 + e_2 - 2 e_3)
-  -
-  \tfrac{\sqrt{3}}{2}
-  \tfrac{1}{\sqrt{2}}(e_1 - e_2)
-$$
-and
-$$
-  (231)
-  \,
-  \tfrac{1}{\sqrt{2}}(e_1 - e_2)
-  \;=\;
-  \tfrac{1}{\sqrt{2}}(e_2 - e_3)
-  \;=\;
-  \tfrac{\sqrt{3}}{2}
-  \tfrac{1}{\sqrt{6}}(e_1 + e_2 - 2 e_3)
-  -
-  \tfrac{1}{2}
-  \tfrac{1}{\sqrt{2}}
-  (e_1 - e_2)
-$$
-and is hence given by the [[matrix]]
-$$
-  [231]
-  \;=\;
-  -
-  \underset{
-    R_y(2\pi/3)
-  }{
-  \underbrace{
-  \left[
-    \begin{array}{cc}
-      1/2 & - \sqrt{3}/2
-      \\
-      \sqrt{3}/2 & 1/2
-    \end{array}
-  \right]
-  }
-  }
-$$
-known in [[quantum information theory]] as a [[rotation gate]].
+Moreover, the canonical map from the plain braid group to the [[symmetric group]] factors through this quotient map to the spherical braid group
+
+\begin{tikzcd}[
+  column sep=10pt
+]
+  \mathrm{Br}_n
+  \ar[
+    rr,
+    ->>
+  ]
+  \ar[dr, ->>]
+  &&
+  \mathrm{Br}_n(S^2)
+  \ar[dl,->>]
+  \\
+  &
+  \mathrm{Sym}_n
+\end{tikzcd}
+
+\end{proposition}
+([Fadell & Van Buskirk 1961 p 245, 255](#FadellVanBuskirk61), cf. [Tan 2024 §3.1](#Tan24))
 
 
-Accordingly, the [[transposition]] $(132)$ acts as
-$$
-  (132)
-  \,
-  \tfrac{1}{\sqrt{6}}
-  (e_1 + e_2 - 2 e_3)
-  \;=\;
-  \tfrac{1}{\sqrt{6}}
-  (e_1  - 2 e_2 + e_3)
-  \;=\;
-  - 
-  \tfrac{1}{2}
-  \tfrac{1}{\sqrt{6}}
-  (e_1 + e_2 - 2 e_3)
-  +
-  \tfrac{\sqrt{3}}{2}
-  \tfrac{1}{\sqrt{2}}(e_1 - e_2)
-$$
-and
-$$
-  (132)
-  \,
-  \tfrac{1}{\sqrt{2}}
-  (e_1 - e_2)
-  \;=\;
-  \tfrac{1}{\sqrt{2}}
-  (e_1 - e_3)
-  \;=\;
-  +
-  \tfrac{\sqrt{3}}{2}
-  \tfrac{1}{\sqrt{6}}
-  (e_1 + e_2 - 2 e_3)
-  +
-  \tfrac{1}{2}
-  \tfrac{1}{\sqrt{2}}
-  (e_1 - e_2)
-$$
-and is hence given by the matrix
-$$
-  [132]
-  \;=\;
-  \left[
-  \begin{array}{cc}
-   -1/2 & \sqrt{3}/2
-   \\
-   \sqrt{3}/2 & 1/2
-  \end{array}
-  \right]
-  \;=\;
-  -
-  Z
-  \circ
-  \underset{
-    R_y(2\pi/3)
-  }{
-  \underbrace{
-  \left[
-  \begin{array}{cc}
-   1/2 & -\sqrt{3}/2
-   \\
-   \sqrt{3}/2 & 1/2
-  \end{array}
-  \right]
-  }
-  }
-  \,.
-$$
+## References
+
+* {#FadellVanBuskirk61} [[Edward Fadell]], James Van Buskirk: *On the braid groups of $E^2$ and $S^2$*,  Bull. Amer. Math. Soc. **67** 2 (1961) 211-213 &lbrack;[euclid:bams/1183524083](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-67/issue-2/On-the-braid-groups-of-E2-and-S2/bams/1183524083.full)&rbrack;
+
+* {#Tan24} Cindy Tan: *Smallest nonabelian quotients of surface braid groups*, Algebr. Geom. Topol. **24** (2024) 3997-4006 &lbrack;[arXiv:2301.01872](https://arxiv.org/abs/2301.01872), [doi:10.2140/agt.2024.24.3997](https://doi.org/10.2140/agt.2024.24.3997)&rbrack;
 
 
 
-
-...
-
-\linebreak
-
-On the other hand, the permutation $(321)$ acts as
-$$
-  (321)
-  \,
-  \tfrac{1}{\sqrt{6}}
-  (e_1 + e_2 - 2 e_3)
-  \;=\;
-  \tfrac{1}{\sqrt{6}}
-  (-2 e_1 + e_2 + e_3)
-  \;=\;
-  -
-  \tfrac{1}{2}
-  \tfrac{1}{\sqrt{6}}
-  (e_1 + e_2 - 2 e_3)
-  -
-  \tfrac{\sqrt{3}}{2}
-  \tfrac{1}{\sqrt{2}}
-  (e_1 - e_2)
-$$
-and
-$$
-  (321)
-  \,
-  \tfrac{1}{\sqrt{2}}
-  (e_1 - e_2)
-  \;=\;
-  \tfrac{1}{\sqrt{2}}
-  (- e_2 + e_3)
-  \;=\;
-  -
-  \tfrac{\sqrt{3}}{2}
-  \tfrac{1}{\sqrt{6}}
-  (e_1 + e_2 - 2 e_3)
-  +
-  \tfrac{1}{2}
-  \tfrac{1}{\sqrt{2}}
-  (e_1 - e_2)
-$$
-and hence is given by the matrix
-$$
-  [321]
-  \;=\;
-  \left[
-    \begin{array}{cc}
-      -1/2 & - \sqrt{3}/2
-      \\
-      -\sqrt{3}/2 & 1/2
-    \end{array}
-  \right]
-  \;=\;
-  - 
-  \left[
-    \begin{array}{cc}
-      1/2 & - \sqrt{3}/2
-      \\
-      \sqrt{3}/2 & 1/2
-    \end{array}
-  \right]
-  \circ
-  Z
-  \;=\;
-  - 
-  \underset{
-    R_y(2\pi/3)
-  }{
-  \underbrace{
-  \left[
-    \begin{array}{c}
-      cos(\pi/3) & -sin(\pi/3)
-      \\
-      sin(\pi/3) & cos(\pi/3)
-    \end{array}  
-  \right]
-  }
-  }
-  \circ
-  Z
-$$
-known in [[quantum information theory]] as a [[rotation gate]] compose with the above [[Pauli Z-gate]].
-
-\linebreak
-
-* [[Maissam Barkeshli]],  [[Xiao-Liang Qi]]: *Topological Nematic States and Non-Abelian Lattice Dislocations*, Phys. Rev. X **2** 031013 (2012) \[<a href="https://doi.org/10.1103/PhysRevX.2.031013">doi:10.1103/PhysRevX.2.031013</a>, [arXiv:1112.3311](https://arxiv.org/abs/1112.3311)\]
-
-* [[Maissam Barkeshli]], [[Chao-Ming Jian]], [[Xiao-Liang Qi]]: *Twist defects and projective non-Abelian braiding statistics*, Phys. Rev. B **87** 045130 (2013)
-
-Exotic Non-Abelian Topological Defects in Lattice Fractional Quantum Hall States
 
 
 $$  
@@ -1076,4 +867,3 @@ On $\Omega S^2 \,\simeq\, B \Omega^2 S^2$ regarded as a [[classifying space]] (f
 
 
 [[test page]]
-[[Holographic World Theory I - Canonically Unified Geometry]]
