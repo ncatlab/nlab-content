@@ -97,7 +97,7 @@ Discussion of [[cartesian closed 2-categories]] of [[internal groupoids]] (mostl
 
 A characterisation of internal groupoids as [[involutive-2-links]] appears in:
 
-* [[Nelson Martins-Ferreira]], _Internal groupoids as involutive-2-links_, 2023. ([arXiv:2305.13537](https://arxiv.org/abs/2305.13537))
+* Nelson Martins-Ferreira: _Internal groupoids as involutive-2-links_ &lbrack;[arXiv:2305.13537](https://arxiv.org/abs/2305.13537)&rbrack;
 
 [[!redirects groupoid objects]]
 
