@@ -15,7 +15,7 @@
 
 ## Idea
 
-Given an [[object]] in [[algebra]] $A$ (such as an [[associative algebra]], a [[group]] or a [[Lie algebra]], etc.) then an [[algebraic extension|extension]] $\widehat A \overset{p}{\longrightarrow} A$ (e.g. a [[group extension]] or [[Lie algebra extension]] etc.) is called a _central extension_ if its [[kernel]] 
+Given an [[object]] in [[algebra]] $A$ (such as an [[associative algebra]], a [[group]] or a [[Lie algebra]], etc.) then an [[extension]] $\widehat A \overset{p}{\longrightarrow} A$ (e.g. a [[group extension]] or [[Lie algebra extension]] etc.) is called a _central extension_ if its [[kernel]] 
 
 \[
   \label{ExtensionShortExactSequence}
