@@ -45,9 +45,9 @@ For [[Dirac operators]]:
 
 Discussion via [[supersymmetric quantum mechanics]]:
 
-* Changha Choi, [[Leon A. Takhtajan]]: *Supersymmetry and trace formulas I. Compact Lie groups*, Part I. Compact Lie groups. J. High Energ. Phys. **2024** 26 (2024) &lbrack;[arXiv:2112.07942](https://arxiv.org/abs/2112.07942), <a href="https://doi.org/10.1007/JHEP06(2024)026">doi:10.1007/JHEP06(2024)026</a>&rbrack;
+* [[Changha Choi]], [[Leon A. Takhtajan]]: *Supersymmetry and trace formulas I. Compact Lie groups*, Part I. Compact Lie groups. J. High Energ. Phys. **2024** 26 (2024) &lbrack;[arXiv:2112.07942](https://arxiv.org/abs/2112.07942), <a href="https://doi.org/10.1007/JHEP06(2024)026">doi:10.1007/JHEP06(2024)026</a>&rbrack;
 
-* Changha Choi, [[Leon A. Takhtajan]]: *Supersymmetry and trace formulas II. Selberg trace formula* &lbrack;[arXiv:2306.13636](https://arxiv.org/abs/2306.13636)&rbrack;
+* [[Changha Choi]], [[Leon A. Takhtajan]]: *Supersymmetry and trace formulas II. Selberg trace formula* &lbrack;[arXiv:2306.13636](https://arxiv.org/abs/2306.13636)&rbrack;
 
 review:
 
