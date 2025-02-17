@@ -3,6 +3,13 @@
 
 * [institute page](https://cs.ucdavis.edu/directory/greg-kuperberg)
 
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Greg_Kuperberg)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=OrKdXCgAAAAJ&hl=en)
+
+* [inSpire page](https://inspirehep.net/authors/2410030)
+
+
 ## Selected writings
 
 On [[involutory Hopf algebras]] and [[3-manifolds]]:
@@ -16,6 +23,10 @@ On [[quantum probability]], [[quantum mechanics]] and [[quantum computing]]:
 On [[von Neumann algebras]], [[noncommutative measure theory]] and [[quantum relations]]:
 
 * {#WeaverKuperberg11} [[Nik Weaver]], [[Greg Kuperberg]], *A von Neumann Algebra Approach to Quantum Metrics/Quantum Relations*, Memoirs of the AMS **215** 1010 (2011) &lbrack;[ams:memo-215-1010](https://bookstore.ams.org/memo-215-1010)&rbrack;
+
+On the [[quantum complexity theory]] of a kind of [permutational quantum computing](parastatistics#Jordan10b):
+
+* [[Scott Aaronson]], Adam Bouland, [[Greg Kuperberg]], Saeed Mehraban: *The computational complexity of ball permutations*, STOC 2017: Proceedings of the 49th Annual ACM SIGACT Symposium on Theory of Computing (2017) 317-327 &lbrack;[doi:10.1145/3055399.3055453](https://doi.org/10.1145/3055399.3055453)&rbrack;
 
 
 ## Related entries
