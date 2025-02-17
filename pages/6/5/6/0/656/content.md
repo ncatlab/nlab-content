@@ -15,7 +15,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -316,6 +315,8 @@ The above has a generalization to _[[(infinity,1)-bimodules]]_. See there for mo
 * [[Noetherian bimodule]]
 
 * [[Artinian bimodule]]
+
+* [[Soergel bimodule]]
 
 * [[two-sided ideal]]
 
