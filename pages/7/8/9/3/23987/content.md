@@ -2777,6 +2777,17 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > Optically addressable spins are a promising platform for [[quantum technologies]] due to their ability to be readily prepared, coherently controlled, and read out—exemplified by remarkable demonstrations with solid-state defects. Molecular materials are also attractive for hosting analogous optical-spin interfaces, with their chemical tunability and ability to be integrated with other systems offering promising functionality. Such properties could be beneficial for [[quantum sensing]] where, for example, precise spatial control between sensor and target is desired. To realise the potential of molecular spins for applications such as quantum sensing, the key combination of coherent spin manipulation and optical readout is desirable, combining sensitive detection capabilities with versatile control methods. In addition, such capabilities would ideally be accessible at room temperature. In this talk, I will describe examples of such functionality—ground-state molecular spins which can be optically interfaced, and excited-state spins which can realise high-contrast optically detected coherent control at room temperature—and outline how such systems are attractive as chemically synthesised spin qubits for quantum sensing.
 
+\linebreak
+
+* {#CiccarelloFeb2025} 17 Feb 2025
+
+  Francesco Ciccarello (Swiss Federal Institute of Technology Lausanne (EPFL)):
+
+  **Atom-photon bound states in modern quantum optics**
+
+  cf. [arXiv:2402.10275](https://arxiv.org/abs/2402.10275), [arXiv:2108.11963](https://arxiv.org/abs/2108.11963)
+
+  > Following recent technological advancements in experimental platforms such as circuit QED and ultracold atoms, the last decade has seen a growing interest in atom-photon bound states, which typically arise when a qubit is coupled to an engineered photonic lattice. Such states are key to a number of interesting effects such as fractional decay and, most of all, decoherence-free dipole-dipole interactions with potential applications for quantum information processing tasks. Here, we will present a (hopefully friendly) introduction to such states and the physics they give rise to. In the final part of the talk, we will show their generalization to the case of so called giant atoms. A giant atom is a new emergent paradigm of quantum optics; it is an artificial emitter that can couple to the field non-locally and as such can no longer be modelled as point-like system like in traditional quantum optics.
 
 
 \linebreak
