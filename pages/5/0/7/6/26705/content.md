@@ -36,7 +36,7 @@ $$
 $$
 subject to the condition that, for all $Z \in \mathcal{O}$, the canonical morphism
 $$
-  F(Z) \rightarrow \lim_{\stackrel{E \mapsto Z}{E \in \mathcal{O}^{\mathrm{el}}}}F(E)
+  F(Z) \rightarrow \lim_{\stackrel{Z \mapsto E}{E \in \mathcal{O}^{\mathrm{el}}}}F(E)
 $$
 is an equivalence.
 \end{definition}
