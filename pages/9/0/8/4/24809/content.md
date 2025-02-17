@@ -149,16 +149,16 @@ If we understand, as usual, that
 $$
   QBit
   \;\;\simeq\;\;
-  \mathbb{C}\cdot \vert 0 \rangle
+  \mathbb{C}\cdot {\vert 0 \rangle}
   \;\oplus\;
-  \mathbb{C}\cdot \vert 1 \rangle
+  \mathbb{C}\cdot {\vert 1 \rangle}
 $$
 
 then this gives a (invertible!) quantum gate on the tensor product space $QBit \otimes \mathscr{K}$, with the property that
 
-1. $\vert 0 \rangle \,\otimes\, \vert \psi \rangle \;\;\mapsto\;\; \vert 0 \rangle \,\otimes\, \phantom{G}\vert \psi \rangle$
+1. ${\vert 0 \rangle} \,\otimes\, {\vert \psi \rangle} \;\;\mapsto\;\; {\vert 0 \rangle} \,\otimes\, \phantom{G} {\vert \psi \rangle}$
 
-1. $\vert 1 \rangle \,\otimes\, \vert \psi \rangle \;\;\mapsto\;\; \vert 0 \rangle \,\otimes\, G\vert \psi \rangle$
+1. ${\vert 1 \rangle} \,\otimes\, {\vert \psi \rangle} \;\;\mapsto\;\; {\vert 0 \rangle} \,\otimes\, G{\vert \psi \rangle}$
 
 In words: "*If the control Qbit is definitely set, then we operate with $G$, if it is definitely not set then we operate trivially, and in general we operate with the respective superposition of these two actions.*"
 
