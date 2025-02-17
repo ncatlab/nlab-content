@@ -95,8 +95,7 @@ Further discussion:
   > (para-[[supersymmetric quantum mechanics]])
 
 
-* [[Alexios P. Polychronakos]]: *Path Integrals and Parastatistics*, Nucl. Phys. B **474** (1996) 529-539 &lbrack;<a href="https://doi.org/10.1016/0550-3213(96)00277-5">doi:10.1016/0550-3213(96)00277-5</a>, 
-[arXiv:hep-th/9603179](https://arxiv.org/abs/hep-th/9603179)&rbrack;
+* [[Alexios P. Polychronakos]]: *Path Integrals and Parastatistics*, Nucl. Phys. B **474** (1996) 529-539 &lbrack;<a href="https://doi.org/10.1016/0550-3213(96)00277-5">doi:10.1016/0550-3213(96)00277-5</a>,[arXiv:hep-th/9603179](https://arxiv.org/abs/hep-th/9603179)&rbrack;
 
 * Lee Brekke, Sterrett J. Collins, Tom D. Imbo, _Nonabelian vortices on surfaces and their statistics_ &lbrack;[hep-th/9701056](arxiv.org/pdf/hep-th/9701056)&rbrack;
   > If we could "turn off" all interactions in the universe which couple to spin, then different spin states would be in principle indistinguishable (although still not identical), and the particles would obey parastatistics at the fundamental level. We can play the same game with color, isospin and numerous other internal degrees freedom. (Indeed, the parastatistical treatment of quarks [3] predates the introduction of color [4].)
