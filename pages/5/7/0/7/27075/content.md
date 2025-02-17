@@ -13,8 +13,7 @@ On [[abelian Chern-Simons theory]]:
 
 On [[parastatistics]] and [[path integrals]]:
 
-* [[Alexios P. Polychronakos]]: *Path Integrals and Parastatistics*, Nucl. Phys. B **474** (1996) 529-539 &lbrack;<a href="https://doi.org/10.1016/0550-3213(96)00277-5">doi:10.1016/0550-3213(96)00277-5</a>, 
-[arXiv:hep-th/9603179](https://arxiv.org/abs/hep-th/9603179)&rbrack;
+* [[Alexios P. Polychronakos]]: *Path Integrals and Parastatistics*, Nucl. Phys. B **474** (1996) 529-539 &lbrack;<a href="https://doi.org/10.1016/0550-3213(96)00277-5">doi:10.1016/0550-3213(96)00277-5</a>, [arXiv:hep-th/9603179](https://arxiv.org/abs/hep-th/9603179)&rbrack;
 
 
 Discussion of the [[fractional quantum Hall effect]] via a [[noncommutative geometry|noncommutative]] ([[matrix model]]-)[[Chern-Simons theory]]:
