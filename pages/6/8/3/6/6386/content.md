@@ -44,11 +44,13 @@ An [[algebraic integer]] is a root of a [[monic polynomial]] with integer coeffi
 
 * [[algebraic number theory]]
 
-  * **algebraic number**, [[algebraic integer]]
+  * [[algebraic integer]]
  
   * [[number field]]
 
 * [[transcendental number]]
+
+* [[algebraic extension]]
 
 ## References
 
