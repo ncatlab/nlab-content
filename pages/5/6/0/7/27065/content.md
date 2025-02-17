@@ -64,7 +64,7 @@ such that every other 2-cell as below left factors as below right:
 \end{tikzcd}
 
 ## Properties
-Admitting all restrictions is sufficient for a double category to be a [[framed bicategory]]. In fact, restrictions are given by cartesian maps for the functor $(L,R):\mahtbb{D}_1 \to \mathbb{D}_0 \times \mathbb{D}_0$, thus admitting all restrictions means to admit all cartesian lifts, making $(L,R)$ into a fibration.
+Admitting all restrictions is sufficient for a double category to be a [[framed bicategory]]. In fact, restrictions are given by cartesian maps for the functor $(L,R):\mathbb{D}_1 \to \mathbb{D}_0 \times \mathbb{D}_0$, thus admitting all restrictions means to admit all cartesian lifts, making $(L,R)$ into a fibration.
 
 As proven in [Shulman '08](#Shulman08), restrictions can be constructed out of [[companions]] and [[conjoints]] alone.
 Indeed, notice first that a companion of $f$ is equivalently given as the restriction $A(f,1)$, where $A$ denotes the unit loose arrow at $A$; and dually a conjoint of $f$ is the restriction $B(1,f)$.
