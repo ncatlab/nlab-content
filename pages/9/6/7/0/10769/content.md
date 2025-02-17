@@ -3,9 +3,9 @@
 * table of contents
 {:toc}
 
-## Idea
+## Definition
 
-A kind of [[field extension]].
+A [[field extension]] $L/K$ is __algebraic__ if every element of $L$ is a root of a nonzero [[polynomial]] with coefficients in $K$.
 
 ## Related concepts
 
@@ -14,6 +14,8 @@ A kind of [[field extension]].
 * [[transcendental extension]]
 
 * [[central extension]]
+
+* [[algebraic closure]]
 
 ## References
 
