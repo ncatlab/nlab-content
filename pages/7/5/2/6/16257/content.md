@@ -107,7 +107,7 @@ The forgetful functor $\mathbf{Ab}(\mathcal{C}_{/ A}) \to \mathcal{C}_{/ A}$ cre
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\mathcal{C}$ be the category of (not necessarily commutative) [[rings]] and let $A$ be a ring. Then $\mathbf{Ab}(\mathcal{C}_{/ A})$ is equivalent to the category of $A$-bimodules.
+Let $\mathcal{C}$ be the category of (not necessarily [[commutative ring|commutative]]) [[rings]] and let $A$ be a ring. Then $\mathbf{Ab}(\mathcal{C}_{/ A})$ is equivalent to the [[category]] [[Bimod]] of $A$-[[bimodules]].
 
 =--
 
