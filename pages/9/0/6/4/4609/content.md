@@ -43,6 +43,8 @@ In the case where $V =$ [[Ab]], this recovers the usual notion of [[bimodules]] 
 
 More generally, [[profunctors]] over any [[monoidal category]] are referred to as [[bimodule objects]]. Composition in this case replaces the [[colimit]] above with a [[coend]].
 
+This data is often extended to a [[double category]], where the [[tight morphisms]] are given by monoid homomorphisms.
+
 ## See also
 
 * [[bimodule]]
