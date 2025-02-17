@@ -227,6 +227,12 @@ Discussion of [[black hole entropy]] of [[D2-D6 brane bound states]] as [[black 
 * [[Juan Maldacena]], [[Andrew Strominger]], _Statistical Entropy of Four-Dimensional Extremal Black Holes_, Phys. Rev. Lett. 77:428-429, 1996 ([arXiv:hep-th/9603060](https://arxiv.org/abs/hep-th/9603060))
 
 
+### Fuzzball paradigm
+
+* [[Samir D. Mathur]], Madhur Mehta: *The Fuzzball Paradigm*, in *The Black Hole Information Paradox* &lbrack;[arXiv:2412.09495](https://arxiv.org/abs/2412.09495)&rbrack;
+
+
+
 
 
 ### Black holes in supergravity
