@@ -77,6 +77,8 @@ To be continued...
 
 * [[Iwahori–Hecke algebra]]
 
+* [[Soergel bimodule]]
+
 
 ## References
 
