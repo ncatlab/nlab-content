@@ -23,7 +23,7 @@
 
 Given two [[vector bundles]] $E_1 \to X_1$ and $E_2 \to X_2$, then their _external tensor product_ $E_1 \boxtimes E_2 \to X_1 \times X_2$ is the [[tensor product of vector bundles]] on the [[product]] [[space]] $X_1 \times X_2$ of the two [[pullback bundles]] to this space, along the canonical [[projection]] maps $pr_i \colon X_1 \times X_2 \to X_i $.
 
-More abstracty, this is the [[external tensor product]] in the [[indexed monoidal category]] of [[vector bundles]] indexed over suitable [[spaces]].
+More abstractly, this is the [[external tensor product]] in the [[indexed monoidal category]] of [[vector bundles]] indexed over suitable [[spaces]].
 
 ## Definition
 
