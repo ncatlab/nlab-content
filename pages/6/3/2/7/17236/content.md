@@ -167,7 +167,7 @@ $$
   \,.
 $$
 
-This follows from Prop. \ref{Pinching} by generalizing Ex. \ref{SphereWithArcAttached} as follows: Instead of a single arc, take $A$ and $B$ there to each be, in themselves, the  linear [[graph]] consisting of $n-1$ arcs ([[edges]]) and observe that that after identifying the [[vertices]] all with each other, this gives the [[wedge sum]] of $(n-1)$ circles.
+This follows from Prop. \ref{Pinching} by generalizing Ex. \ref{SphereWithArcAttached} as follows: Instead of a single arc, take $A$ and $B$ there to each be, in themselves, the  linear [[graph]] consisting of $n-1$ arcs ([[edges]]) and observe that after identifying the [[vertices]] all with each other, this gives the [[wedge sum]] of $(n-1)$ circles.
 
 Then take $X \coloneqq \Sigma^2_g \cup A$ to be the result of attaching this graph to the closed surface by gluing the vertices to the marked points (the would-be punctures) and observe that $(\Sigma^2_{g,n})^\ast = X/A$. With $B$ similarly identified as the corresponding graph but now embedded inside $\Sigma^2_g$, we have $X/B = \Sigma^2_g \,\vee\, \textstyle{\bigvee_{n-1}} S^1$.
 
