@@ -17,8 +17,9 @@
 
 ## Idea
 
-(...)
+In [[physics]], a *superconductor* is a [[conductor (electromagnetism)|conductor]] whose electrical [[resistance]] essentially vanishes below a *critical [[temperature]]*.
 
+At the same time, in their superconducting phase, [[magnetic fields]] are expelled from *Type I* superconductors, while for *Type II* superconductors the magnetic field may penetrate in integer multiples of unif flux concentrated at a [[discrete topological space|discrete set]] of points.
 
 ## Properties
 
