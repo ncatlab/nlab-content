@@ -117,13 +117,25 @@ Further discussion:
 
 On [[permutation representations]], such as arising in [[parastatistics]], as [[quantum gates]] for [[quantum computing]] akin to [[anyon]]-based [[topological quantum computing]]:
 
-* Stephen P. Jordan, pp 108 in: *Quantum Computation Beyond the Circuit Model*, PhD thesis, MIT (2010) &lbrack;[arXiv:0809.2307](https://arxiv.org/abs/0809.2307), [pdf](http://web.mit.edu/2.111/www/2010/MIT-stephen-jordan-phd-thesis-may08.pdf)&rbrack;
+* {#Jordan10a} Stephen P. Jordan, pp 108 in: *Quantum Computation Beyond the Circuit Model*, PhD thesis, MIT (2010) &lbrack;[arXiv:0809.2307](https://arxiv.org/abs/0809.2307), [pdf](http://web.mit.edu/2.111/www/2010/MIT-stephen-jordan-phd-thesis-may08.pdf)&rbrack;
 
-* Stephen P. Jordan: *Permutational Quantum Computing*, Quantum Information and Computation **10** (2010) 470 &lbrack;[arXiv:0906.2508](https://arxiv.org/abs/0906.2508), [doi:10.26421/QIC10.5-6-7](https://doi.org/10.26421/QIC10.5-6-7)&rbrack;
+* {#Jordan10b} Stephen P. Jordan: *Permutational Quantum Computing*, Quantum Information and Computation **10** (2010) 470 &lbrack;[arXiv:0906.2508](https://arxiv.org/abs/0906.2508), [doi:10.26421/QIC10.5-6-7](https://doi.org/10.26421/QIC10.5-6-7)&rbrack;
 
-* Stephen P. Jordan: *Permutational Quantum Computation*, talk at *[Complexity Resources in Physical Computation](https://www.cs.ox.ac.uk/crpc09/)*, Oxford (2009)  &lbrack;[pdf](https://www.cs.ox.ac.uk/crpc09/jordan.pdf)&rbrack;
+* {#Jordan09} Stephen P. Jordan: *Permutational Quantum Computation*, talk at *[Complexity Resources in Physical Computation](https://www.cs.ox.ac.uk/crpc09/)*, Oxford (2009)  &lbrack;[pdf](https://www.cs.ox.ac.uk/crpc09/jordan.pdf)&rbrack;
 
 * Michel Planat, Rukhsan Ul Haq: *The Magic of Universal Quantum Computing with Permutations*, Advances in Mathematical Physics **2017** 287862 (2017) &lbrack;[doi:10.1155/2017/5287862](https://doi.org/10.1155/2017/5287862)&rbrack;
+
+In the context of [[quantum complexity theory]]:
+
+* [[Scott Aaronson]], Adam Bouland, [[Greg Kuperberg]], Saeed Mehraban: *The computational complexity of ball permutations*, STOC 2017: Proceedings of the 49th Annual ACM SIGACT Symposium on Theory of Computing (2017) 317-327 &lbrack;[doi:10.1145/3055399.3055453](https://doi.org/10.1145/3055399.3055453)&rbrack;
+
+
+Application to [[quantum machine learning]]:
+
+* Han Zheng, Zimu Li, Junyu Liu, Sergii Strelchuk, Risi Kondor: *Speeding up Learning Quantum States through Group Equivariant Convolutional Quantum Ansätze*, PRX Quantum **4** 020327 (2023) &lbrack;[arXiv:2112.07611](https://arxiv.org/abs/2112.07611), [doi:10.1103/PRXQuantum.4.020327](https://doi.org/10.1103/PRXQuantum.4.020327)&rbrack;
+
+* Han Zheng, Zimu Li, Junyu Liu, Sergii Strelchuk, Risi Kondor: *On the Super-exponential Quantum Speedup of Equivariant Quantum Machine Learning Algorithms with $SU(d)$ Symmetry*, presentation at TQC 2022 &lbrack;[arXiv:2207.07250](https://arxiv.org/abs/2207.07250)&rbrack;
+
 
 Concrete lattice models for a kind of parastatistics in 3d:
 
