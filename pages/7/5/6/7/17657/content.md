@@ -41,6 +41,12 @@ On the [[standard model of particle physics]]:
 
 * [[Fernando Quevedo]], Andreas Schachner: *Cambridge Lectures on The Standard Model* &lbrack;[arXiv:2409.09211](https://arxiv.org/abs/2409.09211)&rbrack;
 
+On [[Steven Weinberg]]:
+
+* [[Cliff P. Burgess]], [[Fernando Quevedo]]: *Steven Weinberg: A Scientific Life*, Biographical Memoirs of Fellows of the Royal Society (2025) &lbrack;[arXiv:2502.10979](https://arxiv.org/abs/2502.10979)&rbrack;
+
+
+
 ## Related  entries
 
 * [[moduli stabilization]]
