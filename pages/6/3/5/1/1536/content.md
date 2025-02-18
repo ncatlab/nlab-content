@@ -596,7 +596,13 @@ Notice that much of the traditional literature discusses (just) the right adjoin
 The [[left adjoint]] is the functor
 
 $$
-  L : (p : E \to C) \mapsto ( (-)/p : C^{op} \to Cat) 
+  L 
+    \colon 
+  (p : E \to C) 
+   \mapsto 
+  \big( 
+    (-)/p \colon C^{op} \to Cat
+  \big) 
 $$
 
 that assigns to a functor $p$ the presheaf which sends $c \in C$ to the [[comma category]] $c/p$ with objects given by pairs $(e, c \to p(e))$ and morphisms by commutative triangles
