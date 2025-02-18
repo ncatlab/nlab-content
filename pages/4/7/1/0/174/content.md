@@ -240,6 +240,9 @@ For more history see
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6 of: _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press (2012)
 
+* J. X. Lu: *Branes in String/M-Theory* &lbrack;[arXiv:2502.11575](https://arxiv.org/abs/2502.11575)&rbrack;
+
+
 
 ### Boundary conditions / D-branes
 
