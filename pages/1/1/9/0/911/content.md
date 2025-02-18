@@ -83,7 +83,10 @@ Given a functor $F:\mathcal{C}\to\mathbf{Set}$, the **category of elements** $el
 
 When $\mathcal{C}$ is a [[concrete category]] and the functor $F:\mathcal{C}\to \mathbf{Set}$ is simply the [[forgetful functor]], we can define a functor
 
-$$Explode(-) := El_F(-).$$
+$$
+  Explode(-) \coloneqq El_F(-)
+  \,.
+$$
 
 This is intended to illustrate the concept that constructing a category of elements is like "unpacking" or "exploding" a category into its elements.
 
@@ -98,7 +101,13 @@ The functor $el : \mathbf{Set}^{\mathcal{C}} \to \mathbf{Cat}$ is [[cocontinuous
 +-- {: .proof}
 ###### Proof
 As remarked above, $el$ is a strict [[weighted colimit|weighted]] [[2-colimit]], hence we have an isomorphism
-$$ el(F) \cong \int^{c\in \mathcal{C}} J(c) \times disc(F(c)) $$
+$$ 
+  el(F) 
+   \;\cong\; 
+  \int^{c\in \mathcal{C}} 
+    J(c) \times disc\big(F(c)\big) 
+  \,,
+$$
 where the weight $J:\mathcal{C}^{op} \to \mathbf{Cat}$ is the functor $c\mapsto c/\mathcal{C}$, and $disc:\mathbf{Set}\hookrightarrow \mathbf{Cat}$ is the inclusion of the [[discrete categories]].  But since $disc$ (regarded purely as a 1-functor) has a right adjoint (the functor which sends a -small- category $\mathcal{C}$ into its set of elements $\mathcal{C}_0$), it preserves (1-categorical) colimits.  Since colimits also commute with colimits, the composite operation $\el$ also preserves colimits.
 =--
 +-- {: .num_theorem #ColimitPreserving2}
