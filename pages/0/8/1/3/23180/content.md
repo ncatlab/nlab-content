@@ -37,6 +37,11 @@ On the [[phenomenology]] of [[supergravity]] coupled to the (non-supersymmetric)
 
 * [[Cliff P. Burgess]], [[Fernando Quevedo]]: *Who's Afraid of the Supersymmetric Dark? The Standard Model vs Low-Energy Supergravity*, Fortschr. Physik **70** 7-8 (2022) 2200077 &lbrack;[arXiv:2110.13275](https://arxiv.org/abs/2110.13275), [doi:10.1002/prop.202200077](https://doi.org/10.1002/prop.202200077)&rbrack;
 
+On [[Steven Weinberg]]:
+
+* [[Cliff P. Burgess]], [[Fernando Quevedo]]:
+*Steven Weinberg: A Scientific Life*, Biographical Memoirs of Fellows of the Royal Society (2025) &lbrack;[arXiv:2502.10979](https://arxiv.org/abs/2502.10979)&rbrack;
+
 
 category: people
 
