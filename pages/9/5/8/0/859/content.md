@@ -68,7 +68,7 @@ One can also compose this with the left adjoint $\text{cod} : Arr(Grp) \to Grp$ 
 
 ### As a Grothendieck construction
 
-Writing $\mathbb{B} G$ for the [[category]] with a single [[object]] $\ast$ and the [[group]] $G$ as its [[hom set]] (i.e. the [[delooping]] [[groupoid]] of $G$), define a [[functor]] $F \colon \mathbb{B}G \to$ [[Cat]] to send that single object to the delooping groupoid of $\Gamma$, i.e. $* \mapsto \mathbb{B}\Gamma$ and to send the morphisms $G \to Aut(\Gamma)$ according to the given [[action]] of $G$ on $\Gamma$.
+Writing $\mathbb{B} G$ for the [[delooping groupoid]] of the [[group]] $G$ --- with a single [[object]] $\ast$ and the [[group]] $G$ as its [[hom set]] -- define a [[functor]] $F \colon \mathbb{B}G \to$ [[Cat]] to send that single object to the delooping groupoid of $\Gamma$, i.e. $* \mapsto \mathbb{B}\Gamma$, and to send the morphisms $G \to Aut(\Gamma)$ according to the given [[action]] of $G$ on $\Gamma$.
 
 Then the delooping of the semidirect product group $\Gamma \rtimes G$ arises as the [[Grothendieck construction]] of this functor:
 
