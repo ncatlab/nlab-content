@@ -125,12 +125,12 @@ But with just a little bit of formalization the apparent paradox is resolved, be
 Indeed, the technical term "[[quotient stack]]" is precisely defined by the condition that for $U$ of the shape of a [[disk]]/[[coordinate chart]], then two maps
 
 $$
-  i \;\colon\; U \hookrightarrow \Sigma \longrightarrow \Sigma//Diff(\Sigma)
+  i \;\colon\; U \hookrightarrow \Sigma \longrightarrow \Sigma \sslash Diff(\Sigma)
 $$
 
 to it are equivalent if (and only if) there is a diffeomorphism relating them, as above. 
 
-So if in a generally covariant field theory spacetime is not actually the manifold $\Sigma$, but rather the quotient stack $\Sigma//Diff(\Sigma)$, then also a [[field (physics)|field]] in this generally covariant field theory should be a field on that quotient stack, not on $\Sigma$ itself.
+So if in a generally covariant field theory spacetime is not actually the manifold $\Sigma$, but rather the quotient stack $\Sigma \sslash Diff(\Sigma)$, then also a [[field (physics)|field]] in this generally covariant field theory should be a field on that quotient stack, not on $\Sigma$ itself.
 
 For $\mathbf{Fields}$ a [[moduli space]]/[[moduli stack]] of [[field (physics)|fields]], in a non-generally covariant field theory a field configuration is simply a map
 
@@ -143,20 +143,20 @@ and accordingly the [[configuration space|space of all field configurations]] is
 From this it is clear that for a generally covariant field theory we are instead to declare that the space of field configurations is
 
 $$
-  [\Sigma//Diff(\Sigma), \;\mathbf{Fields}]
+  [\Sigma \sslash Diff(\Sigma), \;\mathbf{Fields}]
   \,.
 $$
 
-And it is at this point that the formalism of [[homotopy type theory]]/[[(infinity,1)-topos theory|higher topos theory]] works a little wonder for us. Namely the formalism allows us to prove, and this is what is discussed below, that
+And it is at this point that [[homotopy type theory]]/[[(infinity,1)-topos theory|higher topos theory]] works a little wonder for us -- namely it provides proof -- and this is what is discussed below -- that
 
 $$
-  [\Sigma//Diff(\Sigma),\; \mathbf{Fields}]
+  [\Sigma \sslash Diff(\Sigma),\; \mathbf{Fields}]
   \simeq
-  [\Sigma,\; \mathbf{Fields}]//Diff(\Sigma)
+  [\Sigma,\; \mathbf{Fields}] \sslash Diff(\Sigma)
   \,.
 $$
 
-In words, the right hand side is the time-honored answer: two fields _on_ a spacetime manifold $\Sigma$ which are such that one goes over into the other when pulled back along a diffeomorphism are [[gauge equivalence|gauge equivalent]]. This is the statement of general covariance, derived here, formally, from just the condition that any two shapes _in_ spacetime are to be equivalent if related by a diffeomorphism.
+In words, the right hand side is the time-honored answer: two fields _on_ a spacetime manifold $\Sigma$, which are such that one goes over into the other when pulled back along a diffeomorphism, are [[gauge equivalence|gauge equivalent]]. This is the statement of general covariance, derived here, formally, from just the condition that any two shapes _in_ spacetime are to be equivalent if related by a diffeomorphism.
 
 Here to read the above equivalence as a theorem, we have to read the left hand side, as it should, be "in the context of $Diff(\Sigma)$-actions". Such [[context]]-dependence is precisely what _[[dependent type theory|dependent]]_ [[homotopy type theory]] takes care of, and this is what the following technical statement deals with.
 
@@ -218,7 +218,11 @@ $$
   \,.
 $$
 
-Form then the type of field moduli "$\mathbf{Conf} \coloneqq (\Sigma \to \mathbf{Fields})$" in this context:
+Form then the type of field moduli 
+
+"$\mathbf{Conf} \coloneqq (\Sigma \to \mathbf{Fields})$"
+
+*in this context*:
 
 $$
   \mathbf{Conf} \coloneqq 
@@ -233,10 +237,12 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-The [[categorical semantics]] of $\mathbf{Conf}$ in the model [[Smooth∞Grpd]] of the homotopy type theory and for $\Sigma \in $ [[SmoothMfd]] $\hookrightarrow Smooth \infty Grpd$ is given by the [[diffeological space|diffeological groupoid]] 
+The [[categorical semantics]] of $\mathbf{Conf}$ in the model [[Smooth∞Grpd]] of the homotopy type theory, and for $\Sigma \in$ [[SmoothMfd]] $\hookrightarrow Smooth \infty Grpd$, is given by the [[diffeological space|diffeological groupoid]] 
 
 $$
-  \mathbf{Conf} = [\Sigma, \mathbf{Fields}]\sslash \mathbf{Diff}(\Sigma)
+  \mathbf{Conf} 
+    = 
+  [\Sigma, \mathbf{Fields}]\sslash \mathbf{Diff}(\Sigma)
 $$
 
 whose objects are field configurations on $\Sigma$ and whose morphisms are diffeomorphism gauge transformations between them. In particular the corresponding [[Lie algebroid]] is dual to the [[BRST complex]] of fields with diffeomorphism ghosts in degree 1.
@@ -694,6 +700,8 @@ $$
 $$
 
 forms the internal hom in $\mathbf{H}_{/\mathbf{B}GL(n)}$ between the homotopy fiber of that third column formed in $\mathbf{H}_{/\mathbf{B}GL(n)}$, which is the second column (and therefore now does rememeber the $GL(n)$-action on $T \Sigma$) with $\mathbf{orth}$, rememeberting that the result has an $\mathbf{Aut}(T\Sigma)$-action by precomposition.
+
+
 
 
 
