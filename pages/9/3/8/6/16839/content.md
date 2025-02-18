@@ -60,7 +60,7 @@ and the [[theorem of the heart]]:
 * [[Clark Barwick]], *On exact infinity-categories and the Theorem of the Heart*, Compositio Mathematica **151** (2015) 2160-2186 &lbrack;[arXiv:1212.5232](https://arxiv.org/abs/1212.5232), [doi:10.1112/S0010437X15007447](https://doi.org/10.1112/S0010437X15007447)&rbrack;
 
 
-[[!redirects exact (infinit,1)-categories]]
+[[!redirects exact (infinity,1)-categories]]
 
 
 [[!redirects exact (∞,1)-category]]
