@@ -20,7 +20,7 @@ In [[quantum physics]] and specifically in [[quantum information theory]], the *
 
 * any [[quantum circuit]] involving [[quantum measurement]] of some of the [[qbits]] followed by [[quantum gates]] [[controlled quantum gate|controlled]] by the respective measurement outcomes 
 
-is equivalent ([[equality|equal]] as a [[function]] from given input to output [[data types]]) as
+is equivalent ([[equality|equal]] as a [[function]] from given input to output [[data types]]) to
 
 * a [[quantum circuit]] in which all [[quantum measurement]] happens "at the end", i.e. where no [[quantum gates]] are classically [[controlled quantum gate|controlled]] by previous measurement results, but all [[controlled quantum gate|quantumly controlled]] by coherent control qbits.
 
