@@ -13,14 +13,15 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The _Quillen Q-construction_ ([Quillen 72](#Quillen72)) is a tool for producing the [[algebraic K-theory]] of a [[Quillen exact category]] $\mathcal{C}$.  The Quillen Q-construction is generalized ([Waldhausen 83, section 1.9](#Waldhausen83)) by the [[Waldhausen S-construction]] which applies more generally to [[Waldhausen categories]].
-(However, the [[Quillen Dévissage theorem]] does not generalize to [[Waldhausen categories]].)
+The _Quillen Q-construction_ ([Quillen 72](#Quillen72)) is a tool for producing the [[algebraic K-theory]] of a [[Quillen exact category]] $\mathcal{C}$.  The Quillen Q-construction is generalized ([Waldhausen 85, section 1.9](#Waldhausen85)) by the [[Waldhausen S-construction]] which applies more generally to [[Waldhausen categories]].
+(However, [[Quillen's Dévissage theorem]] does not generalize to [[Waldhausen categories]].)
 
 Both these constructions appear in [[stable homotopy theory]] as special cases of the concept of [[algebraic K-theory of a stable (∞,1)-category]] ([Haugseng 10](#Haugseng10), [Barwick 13](#Barwick13)).
 
@@ -38,7 +39,7 @@ Notes in Math., Vol. 341
 
 The generalization to the [[Waldhausen S-construction]] is due to
 
-* {#Waldhausen83} [[Friedhelm Waldhausen]], _Algebraic K-theory of spaces_, Algebraic and geometric topology (New Brunswick, N.J., 1983), Lecture Notes in Math., vol. 1126, Springer, Berlin, 1985, pp. 318&#8211;419 ([pdf](http://www.math.uni-bielefeld.de/~fw/LNM1126_318-419.pdf))
+* {#Waldhausen85} [[Friedhelm Waldhausen]]: *Algebraic K-theory of spaces*, in: *Algebraic and Geometric Topology* (Proceedings of a conference at Rutgers, New Brunswick, N. J., 1983), Lecture Notes in Math. **1126**, Springer (1985) 318-419 &lbrack;[doi:10.1007/BFb0074449](https://doi.org/10.1007/BFb0074449), [pdf](https://www.maths.ed.ac.uk/~v1ranick/surgery/rutgers/wald.pdf), [pdf](http://www.math.uni-bielefeld.de/~fw/LNM1126_318-419.pdf)&rbrack;
 
 
 
