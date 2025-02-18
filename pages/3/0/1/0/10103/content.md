@@ -105,7 +105,7 @@ The "[[external tensor product|external]]" [[tensor product]] on [[VectBund|$Vec
 $$
   \boxtimes
   \,\colon\,
-  Vect_{Set} \times VectSet 
+  Vect_{Set} \times Vect_{Set} 
     \longrightarrow
   Vect_{Set}
 $$
