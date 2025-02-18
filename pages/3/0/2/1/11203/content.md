@@ -175,6 +175,8 @@ Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
 * Souvik Paul, Sunandan Gangopadhyay: *Noncommutative $p$-wave holographic superconductors* &lbrack;[arXiv:2502.08275](https://arxiv.org/abs/2502.08275)&rbrack;
 
+* Zhenguo Wang, Xian-Hui Ge, Shuta Ishigaki: *Dependence of the critical temperature and disorder in holographic superconductors on superfluid density* &lbrack;[arXiv:2312.16029](https://arxiv.org/abs/2312.16029)^rbrack;
+
 
 
 
