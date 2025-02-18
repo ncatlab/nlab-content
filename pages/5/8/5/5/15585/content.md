@@ -19,9 +19,13 @@ Generalization to relational theories:
 
 * [[Filippo Bonchi]], [[Dusko Pavlovic]], [[Pawel Sobocinski]], _Functorial Semantics for Relational Theories_, ([arXiv:1711.08699](https://arxiv.org/abs/1711.08699))
 
+* [[Chad Nester]], _A Variety Theorem for Relational Universal Algebra_, ([arXiv:2105.04958](https://arxiv.org/abs/2105.04958))
+
+* [[Chad Nester]], _Partial And Relational Algebraic Theories_, ([Link](https://digikogu.taltech.ee/et/Item/696327ea-955a-45ad-bf93-bca34084131f))
+
 Generalization to partial algebraic theories:
 
-* [[Ivan Di Liberti]], [[Fosco Loregian]], [[Pawel Sobocinski]], [[Chad Nester]] _Functorial semantics for partial theories_, ([arXiv:2011.06644](https://arxiv.org/abs/2011.06644))
+* [[Ivan Di Liberti]], [[Fosco Loregian]], [[Pawel Sobocinski]], [[Chad Nester]], _Functorial semantics for partial theories_, ([arXiv:2011.06644](https://arxiv.org/abs/2011.06644))
 
 ## Related concepts
 
