@@ -51,6 +51,11 @@ On [[t-structures]] and [[reflective factorization systems]]:
 
 * [[Fosco Loregian]], [[Simone Vrili]] *Triangulated factorization systems and t-structures*, Journal of Algebra **550** (2020) 219-241 &lbrack;[doi:10.1016/j.jalgebra.2019.12.021](https://doi.org/10.1016/j.jalgebra.2019.12.021)&rbrack;
 
+Generalizing [[Lawvere theories]] to partial algebraic theories:
+
+* [[Ivan Di Liberti]], [[Fosco Loregian]], [[Pawel Sobocinski]], [[Chad Nester]]: *Functorial semantics for partial theories* &lbrack;[arXiv:2011.06644](https://arxiv.org/abs/2011.06644)&rbrack;
+
+
 
 On the [[adjoint functor theorem]] in the context of [[lax-idempotent 2-monads]]:
 
