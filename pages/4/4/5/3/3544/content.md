@@ -1,9 +1,19 @@
 
-* [wikipedia entry](http://en.wikipedia.org/wiki/Daniel_Quillen)
+Daniel Quillen (1940-2011)
 
-* Scanned images of Quillen's research notebooks, Clay Mathematical Institute, [web](http://www.claymath.org/publications/quillen-notebooks).
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Daniel_Quillen)
+
+* [inSpire page](https://inspirehep.net/authors/1019927)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=13325)
+
+* [[Eric Friedlander]], [[Daniel Grayson]] (eds.): *Daniel Quillen*, Notices of the AMS **59** 10 (2012) 1392 &lbrack;[pdf](https://www.ams.org/notices/201210/rtx121001392p.pdf), full issue:[pdf](https://www.ams.org/notices/201210/201210FullIssue.pdf)&rbrack;
+
 
 ## Selected writings
+
+
+* Clay Mathematical Institute: *Scanned images of Quillen's research notebooks* &lbrack;[webpage](http://www.claymath.org/publications/quillen-notebooks)&rbrack;
 
 
 Introducing [[model category]]-theory for [[homotopy theory]]:
