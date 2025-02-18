@@ -61,7 +61,7 @@ On the [[algebraic K-theory]] of ([[connective spectrum|connective]]) [[ring spe
 
 The  algebraic K-theory specifically of [[suspension spectra]] of [[loop spaces]] (Waldhausen's _[[A-theory]]_) is originally due to
 
-* [[Friedhelm Waldhausen]], _Algebraic K-theory of spaces_, In: A. Ranicki N.,  Levitt, F. Quinn (eds.), Algebraic and Geometric Topology, Lecture Notes in Mathematics, vol 1126. Springer, Berlin, Heidelberg (1985) ([doi:10.1007/BFb0074449](https://doi.org/10.1007/BFb0074449))
+* {#Waldhausen85} [[Friedhelm Waldhausen]]: *Algebraic K-theory of spaces*, in: *Algebraic and Geometric Topology* (Proceedings of a conference at Rutgers, New Brunswick, N. J., 1983), Lecture Notes in Math. **1126**, Springer (1985) 318-419 &lbrack;[doi:10.1007/BFb0074449](https://doi.org/10.1007/BFb0074449), [pdf](https://www.maths.ed.ac.uk/~v1ranick/surgery/rutgers/wald.pdf), [pdf](http://www.math.uni-bielefeld.de/~fw/LNM1126_318-419.pdf)&rbrack;
 
 On the iteration of the construction and the [[red-shift conjecture]]:
 
