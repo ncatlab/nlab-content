@@ -46,10 +46,6 @@ See also
 [[!redirects neighborhood bases]]
 [[!redirects neighborhood basis]]
 
-[[!redirects base of neighborhoods]]
-[[!redirects bases of neighborhoods]]
-[[!redirects basis of neighborhoods]]
-
 [[!redirects neighbourhood base]]
 [[!redirects neighbourhood bases]]
 [[!redirects neighbourhood basis]]
