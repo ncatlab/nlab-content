@@ -15,6 +15,11 @@ On [[toposes]] as [[adhesive categories]]:
 
 * {#LackSobocínski06} [[Stephen Lack]], [[Pawel Sobocínski]], Lemma 18 in:  *Toposes are adhesive*, in: *Graph Transformations* ICGT 2006,  Lecture Notes in Computer Science **4178**, Springer (2006) 184-198 &lbrack;[doi:10.1007/11841883_14](https://doi.org/10.1007/11841883_14), [pdf](http://users.ecs.soton.ac.uk/ps/papers/toposesAdhesive.pdf)&rbrack;
 
+Generalizing [[Lawvere theories]] to partial algebraic theories:
+
+* [[Ivan Di Liberti]], [[Fosco Loregian]], [[Pawel Sobocinski]], [[Chad Nester]]: *Functorial semantics for partial theories* &lbrack;[arXiv:2011.06644](https://arxiv.org/abs/2011.06644)&rbrack;
+
+
 
 ## Related pages
 
