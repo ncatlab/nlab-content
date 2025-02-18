@@ -5,6 +5,9 @@
 
 * Rohini M. Godbole, Urjit Yajnik: *Steven Weinberg (1933 - 2021)*, Current Science [**121** 5](https://www.currentscience.ac.in/show.issue.php?volume=121&issue=5) (10 Sep 2021) &lbrack;[arXiv:2302.02704](https://arxiv.org/abs/2302.02704)&rbrack;
 
+* [[Cliff P. Burgess]], [[Fernando Quevedo]]: *Steven Weinberg: A Scientific Life*, Biographical Memoirs of Fellows of the Royal Society (2025) &lbrack;[arXiv:2502.10979](https://arxiv.org/abs/2502.10979)&rbrack;
+
+
 
 ## Selected writings
 
