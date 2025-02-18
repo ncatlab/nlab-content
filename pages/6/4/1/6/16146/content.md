@@ -63,7 +63,7 @@ $$
   \array{
      A \otimes A \otimes N &\stackrel{id_A \otimes \lambda}{\to}& A \otimes N
      \\
-     \downarrow^{\mathrlap{\cdot \otimes id_n}} && \downarrow^{\mathrlap{\lambda}}
+     \downarrow^{\mathrlap{\cdot \otimes id_N}} && \downarrow^{\mathrlap{\lambda}}
      \\
      A \otimes N &\stackrel{\lambda}{\to}& N
   }
@@ -102,7 +102,7 @@ $$
   \array{
      N \otimes A \otimes A &\stackrel{\rho \otimes id_A}{\to}& N \otimes A
      \\
-     \downarrow^{\mathrlap{\cdot \otimes id_n}} && \downarrow^{\mathrlap{\rho}}
+     \downarrow^{\mathrlap{\cdot \otimes id_N}} && \downarrow^{\mathrlap{\rho}}
      \\
      N \otimes A &\stackrel{\rho}{\to}& N
   }
