@@ -2781,7 +2781,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 * {#CiccarelloFeb2025} 17 Feb 2025
 
-  Francesco Ciccarello (Swiss Federal Institute of Technology Lausanne (EPFL)):
+  Francesco Ciccarello (University of Palermo):
 
   **Atom-photon bound states in modern quantum optics**
 
