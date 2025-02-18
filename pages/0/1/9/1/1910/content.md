@@ -5,7 +5,7 @@
 
 ## Idea ##
 
-The Waldhausen $S_\bullet$-construction is a procedure that produces [[algebraic K-theory]] (as an [[infinite loop space]] or [[connective spectrum]]) from a category or [[(infinity,1)-category]] equipped with a [[Waldhausen structure]].
+The Waldhausen $S_\bullet$-construction is a procedure that produces [[algebraic K-theory]] (as an [[infinite loop space]] or [[connective spectrum]]) from a category or [[(infinity,1)-category]] equipped with a *Waldhausen structure*.
 
 The construction can take as input any of the following:
 
@@ -53,7 +53,7 @@ this is the **S-construction** of the  **Waldhausen [[K-theory]] spectrum** of $
 
 ### For Waldhausen categories
 
-* {#Waldhausen85} [[F. Waldhausen]], _Algebraic K-theory of spaces_, Alg. and Geo. Top., Springer Lect. Notes Math. 1126 (1985), 318-419, [pdf](http://www.maths.ed.ac.uk/~aar/surgery/rutgers/wald.pdf).
+* {#Waldhausen85} [[Friedhelm Waldhausen]]: *Algebraic K-theory of spaces*, in: *Algebraic and Geometric Topology* (Proceedings of a conference at Rutgers, New Brunswick, N. J., 1983), Lecture Notes in Math. **1126**, Springer (1985) 318-419 &lbrack;[doi:10.1007/BFb0074449](https://doi.org/10.1007/BFb0074449), [pdf](https://www.maths.ed.ac.uk/~v1ranick/surgery/rutgers/wald.pdf), [pdf](http://www.math.uni-bielefeld.de/~fw/LNM1126_318-419.pdf)&rbrack;
 
 The Waldhausen S-construction is recalled for instance in section 1 of 
 
@@ -65,7 +65,7 @@ or in section 1 of
 
 ### For Waldhausen (infinity,1)-categories and stable (infinity,1)-categories
 
-* [[C. Barwick]], _On the algebraic K-theory of higher categories_, [arXiv:1204.3607](http://arxiv.org/abs/1204.3607).
+* [[Clark Barwick]], _On the algebraic K-theory of higher categories_, [arXiv:1204.3607](http://arxiv.org/abs/1204.3607).
 
 * [[Andrew J. Blumberg]], [[David Gepner]], [[Goncalo Tabuada]], _A universal characterization of higher algebraic K-theory_, [arXiv:1001.2282](http://arxiv.org/abs/1001.2282v4).
 
