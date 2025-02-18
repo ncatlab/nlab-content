@@ -330,12 +330,11 @@ Review of the relation to [[Dennis trace]], [[topological cyclic homology]] and 
 
 ### Classical
 
-Original articles include
+Original articles:
 
-* {#Quillen73} [[Daniel Quillen]], _Higher algebraic K-theory_, in Higher K-theories, pp. 85&#8211;147, Proc. Seattle 1972, Lec. Notes Math. 341, Springer 1973.
-([pdf](http://math.mit.edu/~hrm/kansem/quillen-higher-algebraic-k-theory.pdf))
+* {#Quillen73} [[Daniel Quillen]]: *Higher algebraic K-theory I*, in *Higher K-theories* Proc. Seattle 1972 Lec., Notes Math. **341**, Springer (1973) 85-147 &lbrack;[doi:10.1007/BFb0067053](https://doi.org/10.1007/BFb0067053), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/Quillen-Higher-I.pdf)&rbrack;
 
-  also: [[Daniel Grayson]], _Higher algebraic K-theory II, [after Daniel Quillen]_ ([pdf](http://www.math.illinois.edu/~dan/Papers/HigherAlgKThyII.pdf))
+  also: [[Daniel Grayson]]: _Higher algebraic K-theory II, [after Daniel Quillen]_ &lbrack;[pdf](http://www.math.illinois.edu/~dan/Papers/HigherAlgKThyII.pdf)&rbrack;
 
 * {#BrownGersten73} [[Kenneth Brown]], Stephen M. Gersten, _Algebraic K-theory as generalized sheaf cohomology_, Higher K-Theories, Lecture Notes in Mathematics Volume 341, 1973, pp 266-292.
 
