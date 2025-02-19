@@ -204,6 +204,9 @@ Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 
 * E. Y. Miller, _The homology of the mapping class group_, J. Differential Geom. __24__ (1986), no. 1, 1&#8211;14, [MR88b:32051](http://www.ams.org/mathscinet-getitem?mr=88b:32051), [euclid](http://projecteuclid.org/euclid.jdg/1214440254)
 
+
+### Subgroups
+
 On further [[subgroups]]:
 
 * Luis Paris, Jon A Berrick, Volker Gebhardt: *Finite index subgroups of mapping class groups* &lbrack;[arXiv:1105.2468](https://arxiv.org/abs/1105.2468)&rbrack;
