@@ -74,7 +74,7 @@ $$
   \,.
 $$
 
-Since on the right we only have a single closed degree-$n$ generator, such a morphism is precily a closed degree $n$-element 
+Since on the right we only have a single closed degree-$n$ generator, such a morphism is precisely a closed degree $n$-element 
 
 $$
   \mu \in CE(\mathfrak{g})
@@ -248,9 +248,9 @@ $$
   \,,
 $$
 
-that is: the function that sends a [[tripe]] of Lie algebra elements $x, y, z$ to the number  $\mu(x,y,z) = \big\langle x, [y,z]\big\rangle$.
+that is: the function that sends a triple of Lie algebra elements $x, y, z$ to the number  $\mu(x,y,z) = \big\langle x, [y,z]\big\rangle$.
 
-On the [[super Poincare Lie algebra]] in dimension (10,1) there is a 4-cocycle
+On the [[super Poincaré Lie algebra]] in dimension (10,1) there is a 4-cocycle
 
 $$
   \mu_4 = \bar \psi \wedge \Gamma^{a b} \Psi\wedge e_a \wedge e_b
@@ -283,7 +283,7 @@ obtained by gluing on a rational $n$-sphere. By this kind of translation between
 
 * The [[string Lie 2-algebra]] is the extension of a [[semisimple Lie algebra]] induced by the canonical 3-cocycle coming from the [[Killing form]].
 
-* The [[supergravity Lie 3-algebra]] is the extension of the [[super Poincare Lie algebra]] by a 4-cocycle.
+* The [[supergravity Lie 3-algebra]] is the extension of the [[super Poincaré Lie algebra]] by a 4-cocycle.
 
 ## Related concepts
 
