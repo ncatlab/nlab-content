@@ -7,11 +7,11 @@ For [[parametricity]] in [[cohesive homotopy type theory]]:
 
 * {#Aberle24} [[C.B. Aberlé]], *Parametricity via Cohesion* &lbrack;[arXiv:2404.03825](https://arxiv.org/abs/2404.03825)&rbrack; 
 
-For an approach to combining [[substructural logic]] with [[dependent type theory]]:
+On combining [[substructural logic]] with [[dependent type theory]] (cf. [[dependent linear types]]:
 
 * {#Aberle24b} [[C.B. Aberlé]], *Foundations of Substructural Dependent Type Theory* &lbrack;[arXiv:2401.15258](https://arxiv.org/abs/2401.15258)&rbrack; 
 
-For a presentation of [[dependent type theory]] in terms of [[polynomial functors]]:
+On a presentation of [[dependent type theory]] in terms of [[polynomial functors]]:
 
 * {#AberleSpivak24} [[C.B. Aberlé]], [[David Spivak]], *Polynomial Universes and Dependent Types* &lbrack;[arXiv:2409.19176](https://arxiv.org/abs/2409.19176)&rbrack; 
 
