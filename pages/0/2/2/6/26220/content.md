@@ -16,7 +16,7 @@
 
 
 ## Definition
-Let $\mathcal{H}=\mathcal{H}_o\oplus\mathcal{H}_c$ be a $\mathbb{Z}$-[[graded vector space]], and $\mathfrak{k}$ a collection of $n$-ary maps that make $(\mathcal{H}_c,\mathfrak{l})$ an [[L-infinity-algebra|$L_\infty$-algebra]]. If there is a collection of maps 
+Let $\mathcal{H}=\mathcal{H}_o\oplus\mathcal{H}_c$ be a $\mathbb{Z}$-[[graded vector space]], and $\mathfrak{l}$ a collection of $n$-ary maps that make $(\mathcal{H}_c,\mathfrak{l})$ an [[L-infinity-algebra|$L_\infty$-algebra]]. If there is a collection of maps 
 
 $$
 \mathfrak{n}
@@ -33,7 +33,7 @@ $$
 \sum_{p+r=n} \sum_{\sigma\in S_n} \frac{(-1)^{\epsilon(\sigma)}}{p! r!} n_{1+r,m}(l_p (c_{\sigma (1)} , \cdots , c_{\sigma (p)}),c_{\sigma (p+1)}, \cdots, c_{\sigma (n)}; o_1, \cdots, o_m) 
 \\
 \;+\;
-\sum_{p+r=n} \sum_{i+s+j=m} \sum_{\sigma\in S_n} \frac{(-1)^{\mu_{p,i}(\sigma)}}{p! r!} n_{p,i+1+j} (c_{\sigma (1)}, \cdots , c_{\sigma (p); o_1, \cdots, o_i, n_{r,s}(c_{\sigma (p+1), \cdots, c_{\sigma(n)};o_{i+1}, \cdots, o_{i+s}}}), o_{i+s+1}, \cdots, o_m)
+\sum_{p+r=n} \sum_{i+s+j=m} \sum_{\sigma\in S_n} \frac{(-1)^{\mu_{p,i}(\sigma)}}{p! r!} n_{p,i+1+j} (c_{\sigma (1)}, \cdots , c_{\sigma (p)}; o_1, \cdots, o_i, n_{r,s}(c_{\sigma (p+1)}, \cdots, c_{\sigma(n)};o_{i+1}, \cdots, o_{i+s}), o_{i+s+1}, \cdots, o_m)
 \\
 \;=\;
 0
