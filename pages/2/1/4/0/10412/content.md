@@ -25,11 +25,12 @@ In particular for $k = 0$ and $k = 1$ the resulting amplitude is just 0 and the 
 
 For $k = 2$ again there is the "[[Parke-Taylor formula]]" efficiently expressing the amplitudes [[MHV amplitudes]].
 
-See also at [[motives in physics]]
 
 ## Related concepts
 
 * [[surfaceology]]
+
+* [[motives in physics]]
 
 
 ## References
@@ -42,7 +43,12 @@ Review:
 
 * Livia Ferro, Tomasz Lukowski, _Amplituhedra, and Beyond_, Topical Review invited by Journal of Physics A: Mathematical and Theoretical ([arXiv:2007.04342 ](https://arxiv.org/abs/2007.04342))
 
+More mathematical review:
+
 * Shounak De, Dmitrii Pavlov, Marcus Spradlin, [[Anastasia Volovich]]: *From Feynman diagrams to the amplituhedron: a gentle review* &lbrack;[arXiv:2410.11757](https://arxiv.org/abs/2410.11757)&rbrack;
+
+* Kristian Ranestad, Bernd Sturmfels, Simon Telen: *What is Positive Geometry?* &lbrack;[arXiv:2502.12815](https://arxiv.org/abs/2502.12815)&rbrack;
+
 
 
 For scattering amplitudes via the "amplituhedron" the integrand is discussed in
