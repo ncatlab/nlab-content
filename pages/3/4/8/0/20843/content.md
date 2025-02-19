@@ -1,6 +1,8 @@
 
 * [inspire page](https://inspirehep.net/authors/1190033?ui-citation-summary=true)
 
+* [ResearchGate page](https://www.researchgate.net/profile/Federico-Bonetti-3)
+
 
 
 ## Selected writings
