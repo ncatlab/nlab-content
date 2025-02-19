@@ -96,9 +96,9 @@ This makes manifest how [[diffieties]] are the analog in [[differential geometry
 
 
 
-* [[Alexandre M. Vinogradov]]'s [webpage](http://diffiety.ac.ru/curvita/amv.htm) 
+* [[Alexandre M. Vinogradov]]'s [webpage](https://diffiety.mccme.ru/curvita/amv.htm) 
 
-* [[Joseph Krasil'shchik]]'s [webpage](http://diffiety.ac.ru/curvita/isk.htm) (with links to some papers) and [wiki list of publications](http://gdeq.org/index.php?title=Joseph_Krasil%27shchik)
+* [[Joseph Krasil'shchik]]'s [webpage](https://diffiety.mccme.ru/curvita/isk.htm) (with links to some papers) and [wiki list of publications](http://gdeq.org/index.php?title=Joseph_Krasil%27shchik)
 
 
 ### Review
@@ -131,10 +131,9 @@ Diffieties as [[coalgebra over a comonad|coalgebras]] over the [[jet comonad]] a
 ### Conferences
  {#Conferences}
 
-* [diffiety school](http://school.diffiety.org), [diffiety institute](http://diffiety.ac.ru), [gdeq.org wiki](http://gdeq.org/index.php?title=Welcome_to_GDEq.org!)
+* [diffiety school](http://school.diffiety.org), [diffiety institute](https://diffiety.mccme.ru), [gdeq.org wiki](http://gdeq.org/index.php?title=Welcome_to_GDEq.org!)
 
 * <div style="float:right;margin:0 10px 10px 0;"> <a href="http://www.dipmat2.unisa.it/people/vitagliano/www/DS2018_poster.png"><img src="http://www.dipmat2.unisa.it/people/vitagliano/www/DS2018_poster.png" width="150"></a></div> [XXI Summer Diffiety School School on Geometry of PDEs](https://sites.google.com/site/levicivitainstitute/Activities/DiffietySchools/xxi-summer-diffiety-school), July 19 - 31, 2018
    
 
-
-[[!redirects diffeity]] [[!redirects Diffiety]] [[!redirects diffieties]]
+[[!redirects diffieties]]
