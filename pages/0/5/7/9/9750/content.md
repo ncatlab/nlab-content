@@ -293,6 +293,10 @@ and in full [[homotopy theory]] in
 
 * {#BMSS18} [[Vincent Braunack-Mayer]], [[Hisham Sati]], [[Urs Schreiber]], Section 2.2 of:  _[[schreiber:Gauge enhancement of Super M-Branes|Gauge enhancement of Super M-Branes via rational parameterized stable homotopy theory]]_, Communications in Mathematical Physics 371: 197 (2019) ([arXiv:1806.01115](https://arxiv.org/abs/1806.01115), [doi:10.1007/s00220-019-03441-4](https://doi.org/10.1007/s00220-019-03441-4))
 
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Cyclification of Orbifolds]]*, Comm. Math. Phys. **405** 67 (2024) &lbrack;[doi:10.1007/s00220-023-04929-w](https://doi.org/10.1007/s00220-023-04929-w), [arXiv:2212.13836](https://arxiv.org/abs/2212.13836), [[schreiber:cyclic loop spaces 2022|talk]]&rbrack;
+
+
+
 Exposition is in
 
 * {#Schreiber16} [[Urs Schreiber]], [Section 4](https://ncatlab.org/schreiber/show/Super+Lie+n-algebra+of+Super+p-branes#DoubleDimensionalReduction) of _[[schreiber:Super Lie n-algebra of Super p-branes]]_, talks at [Fields, Strings, and Geometry Seminar](http://www.surrey.ac.uk/maths/news/seminars/fsg/), Surrey, 5th-9th Dec. 2016
