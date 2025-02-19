@@ -2779,11 +2779,14 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+
 * {#CiccarelloFeb2025} 17 Feb 2025
 
   Francesco Ciccarello (University of Palermo):
 
   **Atom-photon bound states in modern quantum optics**
+
+  slides: [[CiccarelloAtCQTS-Feb2025.pdf:file]]
 
   cf. [arXiv:2402.10275](https://arxiv.org/abs/2402.10275), [arXiv:2108.11963](https://arxiv.org/abs/2108.11963)
 
