@@ -1505,7 +1505,9 @@ Generalization to Real $\mathbb{Z}/2$-equivariant cohomology (as appropriate for
 
 The above discussion and proof that transgression is essentially the [[internal hom]] out of the circle into the cocycle-as-a-functor is taken from:
 
-* {#SatiSchreiber22} [[Hisham Sati]], [[Urs Schreiber]], Thm. 3.4 of: *[[schreiber:Cyclification of Orbifolds|Cyclification of Orbifolds]]*, Comm. Math. Phys. (2023)
+* {#SatiSchreiber22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Cyclification of Orbifolds]]*, Comm. Math. Phys. **405** 67 (2024) &lbrack;[doi:10.1007/s00220-023-04929-w](https://doi.org/10.1007/s00220-023-04929-w), [arXiv:2212.13836](https://arxiv.org/abs/2212.13836), [[schreiber:cyclic loop spaces 2022|talk]]&rbrack;
+
+
 
 following earlier observations in:
 
