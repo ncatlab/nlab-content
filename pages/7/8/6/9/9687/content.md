@@ -270,6 +270,7 @@ See also:
 
 * M.S. Lukashov, Yu.A. Simonov, *New ideas in nonperturbative QCD -- I* &lbrack;[arXiv:2406.05584](https://arxiv.org/abs/2406.05584)&rbrack;
 
+* J.L. Alonso, C. Bouthelier-Madre, J. Clemente-Gallardo, D. Martínez-Crespo: *An axion-like mechanism for confinement in QCD* &lbrack;[arXiv:2211.01047](https://arxiv.org/abs/2211.01047)&rbrack;
 
 
 
