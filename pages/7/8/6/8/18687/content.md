@@ -16,7 +16,7 @@ On [[synthetic Tait computability theory]]:
 
 * [[Jonathan Sterling]], _First Steps in Synthetic Tait Computability: The Objective Metatheory of Cubical Type Theory_ (2021) &lbrack;[PhD thesis](https://www.jonmsterling.com/pdfs/sterling:2021:thesis.pdf)&rbrack;
 
-* [[Jonathan Sterling]], _Naïve logical relations in synthetic Tait computability_ (2022) &lbrack;[pdf](https://www.jonmsterling.com/papers/sterling:2022:wg6.pdf)&rbrack;
+* [[Jonathan Sterling]], _Naïve logical relations in synthetic Tait computability_ (2022) &lbrack;[pdf](https://www.jonmsterling.com/hash-bafkrmialyvkzh6w6snnzr3k4h2b62bztsk4le57idughqik24bltinieki.pdf)&rbrack;
 
 On [[XTT]]:
 
