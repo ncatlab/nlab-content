@@ -262,10 +262,24 @@ Here
 
 ## Properties
 
-### Brauer induction theorem
- {#BrauerInductionTheorem}
+### General
 
-The [[Brauer induction theorem]] says that over the [[complex numbers]] the [[virtual representations]] of a [[finite group]] are all virtual combinations of [[induced representations]] of 1-dimensional representations.
+\begin{proposition}
+\label{LeftAndRightInductionCoincideForFiniteIndex}
+Given a [[subgroup]] inclusion $H \subset G$,
+if the [[index of a subgroup|index]] $[G\colon H]$ is [[finite number|finite]] then (left) induction coicides with coinduction (right induction).
+
+In particular, the two coincide as soon as $G$ (and thus also $H$) is a [[finite group]].
+\end{proposition}
+(cf. [Hristova 2019 p 1](Frobenius+reciprocity#Hristova19))
+
+
+
+\begin{proposition} 
+**([[Brauer induction theorem]])**
+\linebreak
+Over the [[complex numbers]], the [[virtual representations]] of a [[finite group]] are all virtual combinations of [[induced representations]] of 1-dimensional representations.
+\end{proposition}
 
 ### Unitarity
 
