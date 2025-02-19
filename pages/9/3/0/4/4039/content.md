@@ -350,7 +350,7 @@ Other references
 
 In the [[covariant phase space]]-perspective:
 
-* L. Vitagliano, _Secondary calculus and the covariant phase space_, [pdf](http://diffiety.ac.ru/preprint/2008/02-08.pdf)
+* L. Vitagliano, _Secondary calculus and the covariant phase space_, [pdf](https://diffiety.mccme.ru/preprint/2008/02-08.pdf)
  {#Vitagliano}
 
 On [[smooth sets]] as a [[convenient category of spaces|convenient category]] for [[variational calculus]] of [[Lagrangian quantum field theory|Lagrangian]] [[classical field theory]]:
