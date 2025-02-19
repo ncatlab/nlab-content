@@ -223,7 +223,7 @@ Furthermore, in the case of a projection map $f \colon Z \times Y \to Y$, there 
 ## References 
 
 * {#Hofstra} Pieter J.W. Hofstra, _Partial Combinatory Algebras and Realizability Toposes_, 
-([web](http://mysite.science.uottawa.ca/phofstra/)) ([pdf](http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CF8QFjAB&url=http%3A%2F%2Fmysite.science.uottawa.ca%2Fphofstra%2FKananaskis.pdf&ei=georUITcEebV0QGctIGwDg&usg=AFQjCNFywYRYAfzrgHFq5AsaBZ5li_qfyQ&sig2=BCT05ts3GBLntD2VZazC4w))
+([web](https://web.archive.org/web/20210517194958fw_/https://mysite.science.uottawa.ca/phofstra/preprints.html)) [[Kananaskis.pdf:file]] 
 
 Lecture notes include
 
