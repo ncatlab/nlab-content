@@ -267,13 +267,13 @@ The second, the [[fundamental group]], is that of flat [[circle bundle]]s.
 Ordinarily, given a $Spin \times E_8$-bundle $P \to Y$ with first fractional [[Pontryagin class]]
 
 $$
-  \lambda := \frac{1}{2}p_1(P)
+  \lambda \coloneqq \frac{1}{2}p_1(P)
 $$
 
 and second [[Chern class]]
 
 $$
-  a := c_2(P)
+  a \coloneqq c_2(P)
 $$
 
 the $C$-field is supposed to have a [[curvature]] class in [[de Rham cohomology]] given by 
@@ -307,7 +307,7 @@ Some remarks on ways to regard the $C$-field from the point of view of [[∞-Che
 We shall consider the sum of two $C$ fields,  whose curvature is the image in de Rham cohomology of the proper integral class $2 a - \lambda $
 
 Recall from the discussion at [[circle n-bundle with connection]]
-that in the [[cohesive (∞,1)-topos]] $\mathbf{H} := $ [[Smooth∞Grpd]] the circle 3-bundles with local 3-form connection over an [[object]] $Y \in \mathbf{H}$ (for instance a [[smooth manifold]], or an [[orbifold]]) are [[object]]s in the [[3-groupoid]] $\mathbf{H}_{diff}(Y, \mathbf{B}^3 U(1))$ that is the [[(∞,1)-pullback]]
+that in the [[cohesive (∞,1)-topos]] $\mathbf{H} \coloneqq $ [[Smooth∞Grpd]] the circle 3-bundles with local 3-form connection over an [[object]] $Y \in \mathbf{H}$ (for instance a [[smooth manifold]], or an [[orbifold]]) are [[object]]s in the [[3-groupoid]] $\mathbf{H}_{diff}(Y, \mathbf{B}^3 U(1))$ that is the [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -425,7 +425,7 @@ $$
     H^4_{diff}(X)
 $$
 
-that maps $C$-field configurations to [[ordinary differential cohomology]] in degree 4, whose [[curvature]] $\omega(\hat \chi)$ is the image $(\mathbf{c}_2)_{dR}- (\frac{1}{2}\mathbf{p}_2)_{dR} :=  curv(2\mathbf{c}_2 - \frac{1}{2}\mathbf{p}_2)$ in de Rham cohomology of the second Chern-class of some $E_8$-bundle.
+that maps $C$-field configurations to [[ordinary differential cohomology]] in degree 4, whose [[curvature]] $\omega(\hat \chi)$ is the image $(\mathbf{c}_2)_{dR}- (\frac{1}{2}\mathbf{p}_2)_{dR} \coloneqq  curv(2\mathbf{c}_2 - \frac{1}{2}\mathbf{p}_2)$ in de Rham cohomology of the second Chern-class of some $E_8$-bundle.
 
 
 The differential cocycle $\hat \chi(C)$ has all the general properties that make its [[higher parallel transport]] over [[membrane]] worldvolumes be well-defined. (Apart from the coefficient of $\lambda$, this is the only requirement from which [DFM](#DiaconescuFreedMoore03) deduce their model.)
@@ -592,13 +592,13 @@ In order to compute the $(\infty,1)$-pullback $C Field(X)$ more explicitly, we f
 Write now
 
 $$
-  \mathfrak{g} := \mathfrak{e}_8 \times \mathfrak{e}_8 \times \mathfrak{so}(10,1)
+  \mathfrak{g} \coloneqq \mathfrak{e}_8 \times \mathfrak{e}_8 \times \mathfrak{so}(10,1)
 $$
 
-for the [[Lie algebra]] of $G := E_8 \times E_8 \times Spin(10,1)$ and write
+for the [[Lie algebra]] of $G \coloneqq E_8 \times E_8 \times Spin(10,1)$ and write
 
 $$
-  \mu := \mu_{\mathfrak{e}_8} + \mu_{\mathfrak{e}_8} - \mu_{\mathfrak{so}(10,1)}
+  \mu \coloneqq \mu_{\mathfrak{e}_8} + \mu_{\mathfrak{e}_8} - \mu_{\mathfrak{so}(10,1)}
 $$
 
 for the sum of the canonical [[Lie algebra cohomology|Lie algebra cocycles]] in [[transgression]] with the respective [[Killing form]] [[invariant polynomial]]s.
@@ -615,7 +615,7 @@ Write
 
 $$
   \array{
-    \mathbf{c} := 
+    \mathbf{c} \coloneqq 
     &
     \mathbf{cosk}_3(
        \exp(\mathfrak{e}_8 \times \mathfrak{so}(10,1))
@@ -660,7 +660,7 @@ $$
     \array{ 
       F_A =& d A + \frac{1}{2}[A \wedge A]
       \\
-      C_3 =& \nabla B := d B + CS(A) - H_3 
+      C_3 =& \nabla B \coloneqq d B + CS(A) - H_3 
       \\
       \mathcal{G}_4  =& d H_3
       \\
@@ -757,7 +757,7 @@ where $\hat A\in \Omega^1(U \times \Delta^1, \mathfrak{e}_8)$ is the shift of th
 
 where 
 
-* $\omega := \int_{\Delta^1} \omega_t$
+* $\omega \coloneqq \int_{\Delta^1} \omega_t$
 
 * $CS(\nabla_1, \nabla_2) = \int_{\Delta^1} \langle F_{\hat \nabla} \wedge F_{\hat \nabla}\rangle $ is the relative [[Chern-Simons form]] corresponding to the shift of $G$-connection.
 
