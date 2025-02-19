@@ -214,7 +214,7 @@ $$
 
 * {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_,  Lectures given in August 1998 at the International Summer School in Levoca, Slovakia ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
 
-* {#Krasilshchik99} [[Joseph Krasil'shchik]] in collaboration with Barbara Prinari, _Lectures on Linear Differential Operators over Commutative Algebras_ ([pdf](http://diffiety.ac.ru/preprint/99/01_99.pdf))
+* {#Krasilshchik99} [[Joseph Krasil'shchik]] in collaboration with Barbara Prinari, _Lectures on Linear Differential Operators over Commutative Algebras_ ([pdf](https://diffiety.mccme.ru/preprint/99/01_99.pdf))
 
 Discussion from a point of view of [[synthetic differential geometry]] is in 
 
