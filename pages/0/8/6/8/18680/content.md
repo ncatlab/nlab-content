@@ -331,10 +331,11 @@ Exposition:
 * {#Riley22} [[Mitchell Riley]], *Dependent Type Theories à la Carte*, [talk at](Center+for+Quantum+and+Topological+Systems#RileySep2022) *[[CQTS]] Initial Researcher's Meeting* (Sep 2022) &lbrack;[[CQTS-InitialResearcherMeeting-Riley-220913.pdf:file]]&rbrack;
 
 * [[Mitchell Riley]], *[[schreiber:Quantum Certification via Linear Homotopy Types|A Linear Dependent Type Theory with Identity Types as a Quantum Verification Language]]* (2023) &lbrack;[pdf](https://mvr.hosting.nyu.edu/pubs/translation.pdf), [[Riley-QuantumCertification.pdf:file]]&rbrack;
-
   > (translation between `LHoTT` and the proto-[[nLab:Quipper|`Quipper`]] of [Fu, Kishida & Selinger 2020](Quipper#FuKishidaSelinger20))
 
+See also:
 
+* {#Aberle24b} [[C.B. Aberlé]], *Foundations of Substructural Dependent Type Theory* &lbrack;[arXiv:2401.15258](https://arxiv.org/abs/2401.15258)&rbrack; 
 
 
 Potential semantics for dependent linear type theory and linear homotopy type theory are discussed in
