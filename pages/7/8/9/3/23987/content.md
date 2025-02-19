@@ -3857,6 +3857,8 @@ Neumann algebras**
 
   **Generalized global symmetries from string theory**
 
+  cf.: [arXiv:2412.07842](https://arxiv.org/abs/2412.07842), [arXiv:2306.16405](https://arxiv.org/abs/2306.16405)
+
   > [[global symmetry|Global symmetries]] are extremely useful in the study of [[quantum field theories]] (QFTs). Remarkably, the notion of global symmetry in QFT has undergone a [[generalized symmetry|dramatic generalization]] in recent years, based on the idea that symmetries correspond to topological operators. In this talk, I will discuss aspects of generalized symmetries of QFTs realized in [[string theory|string]]/[[M-theory]]. The stringy perspective complements the purely field-theoretical point of view and allows us to study non-trivial classes of strongly coupled QFTs. By means of concrete examples, I will illustrate how [[generalized symmetry]] structures can be extracted systematically from the topology and geometry of the [[perturbative string theory vacuum|string background]] that [[geometric engineering of QFT|realizes the QFT]].
 
 
