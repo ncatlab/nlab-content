@@ -1,21 +1,6 @@
 
+* J. Tolar: *On Clifford groups in quantum computing* &lbrack;[arXiv:1810.10259](https://arxiv.org/abs/1810.10259)&rbrack;
 
-
-[[BraidOn2Sphere.png:file]]
-
-\begin{imagefromfile}
-    "file_name": "BraidOn2Sphere.png",
-    "float": "right",
-    "width": 200,
-    "unit": "px",
-    "margin": {
-        "top": -30,
-        "bottom": 20,
-        "right": 0, 
-        "left": 10
-    },
-    "caption": "(the element )"
-\end{imagefromfile}
 
 
 ## Definition
