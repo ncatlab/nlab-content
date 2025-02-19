@@ -205,8 +205,9 @@ Streamlined review is in:
 
 * [[Zhen Huan]], [[Matthew Spong]], Def. 2.1 in: *Twisted Quasi-elliptic cohomology and twisted equivariant elliptic cohomology* ([arXiv:2006.00554](https://arxiv.org/abs/2006.00554))
 
-Characterization in [[cohesive homotopy theory]]:
+Abstract characterization in [[cohesive homotopy theory]]:
 
-* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Cyclification of Orbifolds]]*, Comm. Math. Phys. (2023) &lbrack;[arXiv:2212.13836](https://arxiv.org/abs/2212.13836), [[schreiber:cyclic loop spaces 2022|talk]]&rbrack;
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Cyclification of Orbifolds]]*, Comm. Math. Phys. **405** 67 (2024) &lbrack;[doi:10.1007/s00220-023-04929-w](https://doi.org/10.1007/s00220-023-04929-w), [arXiv:2212.13836](https://arxiv.org/abs/2212.13836), [[schreiber:cyclic loop spaces 2022|talk]]&rbrack;
+
 
 [[!redirects Huan's inertia orbifolds]]
