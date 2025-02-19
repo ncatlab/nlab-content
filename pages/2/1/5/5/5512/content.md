@@ -377,6 +377,13 @@ has [[inverse image]] $f^\ast$ a [[cartesian closed functor]] and hence (see the
 ## References 
  {#References}
 
+
+
+Discussion in [[representation theory]]:
+
+* {#Hristova19} Katerina Hristova: *Frobenius Reciprocity for Topological Groups*, Communications in Algebra **47** 5 (2019) &lbrack;[doi:10.1080/00927872.2018.1529773](https://doi.org/10.1080/00927872.2018.1529773), [arXiv:1801.00871](https://arxiv.org/abs/1801.00871)&rbrack;
+
+
 The term 'Frobenius reciprocity', in the context of [[hyperdoctrines]], was introduced in
 
 * [[Bill Lawvere]], _[[Equality in hyperdoctrines and comprehension schema as an adjoint functor]]_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970) 1-14 &lbrack;[pdf](https://ncatlab.org/nlab/files/LawvereComprehension.pdf)&rbrack;
