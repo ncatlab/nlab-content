@@ -154,7 +154,7 @@ In relation to [[motion groupoids]]:
 
 ### Braid groups
 
-Understanding of [[braid groups]] as mapping class group of punctured [[surfaces]] with [[boundary]]:
+Understanding of [[braid groups]] as subgroups of mapping class groups of punctured [[surfaces]] with [[boundary]]:
 
 * [[Wilhelm Magnus]], *Über Automorphismen von Fundamentalgruppen berandeter Flächen*, Mathematische Annalen **109** (1934) 617–646 &lbrack;[doi:10.1007/BF01449158](https://doi.org/10.1007/BF01449158)&rbrack;
 
@@ -203,5 +203,15 @@ Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 * S. Morita, _Introduction to mapping class groups of surfaces and related groups_, in: Handbook of Teichm&#252;ller theory (A. Papadopoulos, editor), vol. I, EMS Publishing House, Z&#252;rich, 2007, 353&#8211;386.
 
 * E. Y. Miller, _The homology of the mapping class group_, J. Differential Geom. __24__ (1986), no. 1, 1&#8211;14, [MR88b:32051](http://www.ams.org/mathscinet-getitem?mr=88b:32051), [euclid](http://projecteuclid.org/euclid.jdg/1214440254)
+
+On further [[subgroups]]:
+
+* Luis Paris, Jon A Berrick, Volker Gebhardt: *Finite index subgroups of mapping class groups* &lbrack;[arXiv:1105.2468](https://arxiv.org/abs/1105.2468)&rbrack;
+
+* Blazej Szepietowski: *On finite index subgroups of the mapping class group of a nonorientable surface*, Glas. Mat. **49** (2014), 337-350 &lbrack;[arXiv:1401.3557](https://arxiv.org/abs/1401.3557), [doi:10.3336/gm.49.2.08](https://doi.org/10.3336/gm.49.2.08)&rbrack;
+
+
+
+
 
 [[!redirects mapping class groups]]
