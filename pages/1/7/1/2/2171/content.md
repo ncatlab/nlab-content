@@ -3887,6 +3887,11 @@ On braid [[subgroups]]:
 
 * [[Dale Rolfsen]]: *Braid subgroup normalisers, commensurators and induced representations*, Invent Math **130** (1997) 575–587 &lbrack;[doi:10.1007/s002220050194](https://doi.org/10.1007/s002220050194), [pdf](https://personal.math.ubc.ca/~rolfsen/papers/braidnorm/B_nFinal2.pdf)&rbrack;
 
+* D. B. McReynolds: *The congruence subgroup problem for braid groups: Thurston's proof*, New York Jour. Math. **18** (2012) 925-942 &lbrack;[arXiv:0901.4663](https://arxiv.org/abs/0901.4663)&rbrack;
+
+* Charalampos Stylianakis: *Congruence subgroups of braid groups*,  International Journal of Algebra and Computation **28** 02 (2018) 345-364 &lbrack;[doi:10.1142/S0218196718500169](https://doi.org/10.1142/S0218196718500169)&rbrack;
+
+
 
 On orderings of the braid group:
 
