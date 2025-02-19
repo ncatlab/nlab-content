@@ -153,9 +153,14 @@ Slides of a talk for an audience of mathematical [[string theory|string theorist
 
   _Quantum sheaf cohomology I_ &lbrack;[pdf](http://www.phys.vt.edu/~ersharpe/banff-mar10.pdf)&rbrack;
 
-On the [[equivariant cohomology|ewuivariant]] case:
+On the [[equivariant cohomology|equivariant]] case:
 
 * Hiroshi Iritani: *Fourier analysis of equivariant quantum cohomology* &lbrack;[arXiv:2501.18849](https://arxiv.org/abs/2501.18849)&rbrack;
+
+See also:
+
+* Anna Hollands, Elad Kosloff, May Sela, Qianyi Shu, Jake P. Solomon: *Relative quantum cohomology of the Chiang Lagrangian* &lbrack;[arXiv:2305.03016](https://arxiv.org/abs/2305.03016)&rbrack;
+
 
 
 
