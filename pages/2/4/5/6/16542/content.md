@@ -1,6 +1,6 @@
 
 
-* [webpage](http://diffiety.ac.ru/curvita/ver.htm)
+* [webpage](https://diffiety.mccme.ru/curvita/ver.htm)
 
 ## related $n$Lab entries
 
