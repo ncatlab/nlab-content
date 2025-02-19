@@ -1,21 +1,22 @@
 
-Patrick Dehornoy (born 1952) is a French mathematician who is widely known for his work on the ordering of the [[braid group]].[^fine]
+Patrick Dehornoy (1952-2019) was a French mathematician who is widely known for his work on the ordering of the [[braid group]] &lbrack;[Dehornoy 1994](#Dehornoy94)&rbrack;.
 
-[^fine]: Dehornoy is sometimes considered to be the first discoverer of such an ordering in the early 90s, but in view of Langmaack's work in the late 60s this needs some qualification.
-
-## Links
-
-* [Wikipedia entry](http://en.wikipedia.org/wiki/Patrick_Dehornoy)
 
 * [homepage](http://www.math.unicaen.fr/~dehornoy)
 
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Patrick_Dehornoy)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=22593)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=FZDzI_MAAAAJ&hl=en)
+
+
+## Selected writings
+
 * [list of publications](http://www.math.unicaen.fr/~dehornoy/papers.html)
 
-## References
+On [[braid groups]]:
 
-* P. Dehornoy, _Braid groups and left distributive operations_ , Transactions AMS **345** no.1 (1994) pp.115&#8211;150.
-
-* H. Langmaack, _Verbandstheoretische Einbettung von Klassen unwesentlich verschiedener
-Ableitungen in die Zopfgruppe_ , Computing **7** no.3-4 (1971) pp.293-310.
+* {#Dehornoy94} [[Patrick Dehornoy]]: *Braid groups and left distributive operations*, Transactions AMS **345** 1 (1994) 115150 &lbrack;[doi:10.1090/S0002-9947-1994-1214782-4](https://doi.org/10.1090/S0002-9947-1994-1214782-4), [pdf](https://dehornoy.lmno.cnrs.fr/Papers/Dfb.pdf)&rbrack;
 
 category:people
