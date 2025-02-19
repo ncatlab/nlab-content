@@ -1411,6 +1411,7 @@ See also
 
 * Akash Singh, K. P. Yogendran: *Condensate phases of nuclear matter from AdS Hardwall models* &lbrack;[arXiv:2502.05666](https://arxiv.org/abs/2502.05666)&rbrack;
 
+* Bruno Toniato, David Dudal, Subhash Mahapatra, Roldao da Rocha, Siddhi Swarupa Jena: *Holographic QCD model for heavy and exotic mesons at finite density: A self-consistent dynamical approach* &lbrack;[arXiv:2502.12694](https://arxiv.org/abs/2502.12694)&rbrack;
 
 
 
