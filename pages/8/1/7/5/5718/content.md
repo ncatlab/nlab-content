@@ -280,7 +280,7 @@ Lecture notes and textbook accounts:
 
 * [[Jean-François Pommaret]], Chapter II in: *Partial Differential Equations and Group Theory*, Springer (1994) &lbrack;[doi:10.1007/978-94-017-2539-2](https://doi.org/10.1007/978-94-017-2539-2)&rbrack;
 
-* {#Krasilshchik99} [[Joseph Krasil'shchik]] in collaboration with Barbara Prinari, _Lectures on Linear Differential Operators over Commutative Algebras_, 1998 ([pdf](http://diffiety.ac.ru/preprint/99/01_99.pdf))
+* {#Krasilshchik99} [[Joseph Krasil'shchik]] in collaboration with Barbara Prinari, _Lectures on Linear Differential Operators over Commutative Algebras_, 1998 ([pdf](https://diffiety.mccme.ru/preprint/99/01_99.pdf))
 
 * Shihoko Ishii, _Jet schemes, arc spaces and the Nash problem_, [arXiv:math.AG/0704.3327](http://arXiv.org/abs/0704.3327)
 
