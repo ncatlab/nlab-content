@@ -3808,16 +3808,15 @@ Textbook accounts:
 
 * [[Tomotada Ohtsuki]] ch 2 of: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
 
-
-
 * [[Christian Kassel]], [[Vladimir Turaev]], _Braid Groups_, GTM **247** Springer Heidelberg 2008 ([doi:10.1007/978-0-387-68548-9](https://link.springer.com/book/10.1007/978-0-387-68548-9), [webpage](http://irma.math.unistra.fr/~kassel/Braids-bk.html))
 
 Further introduction and review:
 
 * [[Joan S. Birman]], [[Anatoly Libgober]] (eds.) *Braids*, Contemporary Mathematics **78** (1988) &lbrack;[doi:10.1090/conm/078](http://dx.doi.org/10.1090/conm/078)&rbrack;
 
-
 * [[Chen Ning Yang]], M. L. Ge (eds.), *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) &lbrack;[doi:10.1142/0796](https://doi.org/10.1142/0796)&rbrack;
+
+* [[Dale Rolfsen]]: *Tutorial on the braid groups*, lecture notes (2007) &lbrack;[arXiv:1010.4051](https://arxiv.org/abs/1010.4051)&rbrack;
 
 * Joshua Lieber, *Introduction to Braid Groups*, 2011 ([pdf](https://math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Lieber.pdf))
 
@@ -3825,7 +3824,7 @@ Further introduction and review:
 
 * Alexander I. Suciu, He Wang, *The pure braid groups and their relatives*,  Perspectives in Lie theory, 403-426, Springer INdAM series, vol. 19, Springer, Cham, 2017 ([arXiv:1602.05291](https://arxiv.org/abs/1602.05291))
 
-* Dale Rolfsen, *New developments in the theory of Artin’s braid groups* ([pdf](https://personal.math.ubc.ca/~rolfsen/papers/newbraid/newbraid2.pdf))
+* [[Dale Rolfsen]]: *New developments in the theory of Artin’s braid groups*, Topology and its Applications **127** 1–2 (2003) 77-90 &lbrack;<a href="https://doi.org/10.1016/S0166-8641(02)00054-8">doi:10.1016/S0166-8641(02)00054-8</a>, [pdf](https://personal.math.ubc.ca/~rolfsen/papers/newbraid/newbraid2.pdf)&rbrack;
 
 * [[Jennifer C. H. Wilson]], *The geometry and topology of braid groups*, lecture at *[2018 Summer School on Geometry and Topology](https://www.pims.math.ca/scientific-event/180611-ssgt)*, Chicago (2018) &lbrack;[pdf](http://www.math.lsa.umich.edu/~jchw/RTG-Braids.pdf), [[Wilson-BraidGroups.pdf:file]]&rbrack;
 
@@ -3884,11 +3883,18 @@ Relation of [[automorphism groups]] of the [[profinite completion]] of braid gro
 * [[Pierre Lochak]], [[Leila Schneps]], *The Grothendieck-Teichmüller group and automorphisms of braid groups*, in: *The Grothendieck Theory of Dessins d’Enfant*, Cambridge University Press (1994, 2011) &lbrack;[pdf](https://webusers.imj-prg.fr/~leila.schneps/Fls.pdf), [doi:10.1017/CBO9780511569302](https://doi.org/10.1017/CBO9780511569302)&rbrack;
 
 
+On braid [[subgroups]]:
+
+* [[Dale Rolfsen]]: *Braid subgroup normalisers, commensurators and induced representations*, Invent Math **130** (1997) 575–587 &lbrack;[doi:10.1007/s002220050194](https://doi.org/10.1007/s002220050194), [pdf](https://personal.math.ubc.ca/~rolfsen/papers/braidnorm/B_nFinal2.pdf)&rbrack;
+
+
 On orderings of the braid group:
 
-* [[Patrick Dehornoy]], _Braid groups and left distributive operations_ , Transactions AMS **345** no.1 (1994) pp.115&#8211;150.
+* [[Patrick Dehornoy]]: *Braid groups and left distributive operations*, Transactions AMS **345** 1 (1994) 115150 &lbrack;[doi:10.1090/S0002-9947-1994-1214782-4](https://doi.org/10.1090/S0002-9947-1994-1214782-4), [pdf](https://dehornoy.lmno.cnrs.fr/Papers/Dfb.pdf)&rbrack;
 
 * H. Langmaack, _Verbandstheoretische Einbettung von Klassen unwesentlich verschiedener Ableitungen in die Zopfgruppe_ , Computing **7** no.3-4 (1971) pp.293-310.
+
+
 
 On geometric presentations of braid groups:
 
