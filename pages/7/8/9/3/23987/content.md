@@ -3849,6 +3849,18 @@ Neumann algebras**
 
   > We introduce a formalism for constructing [[cohomological field theories]] (CohFTs) from nonlinear [[partial differential equations]]. Applying this formalism to the generalized [[Seiberg-Witten equations]] offers a unified perspective on the full [[supersymmetry|supersymmetric]] [[action functional|functionals]] of [[Donaldson theory|Donaldson-Witten]], [[Seiberg-Witten theory|Seiberg-Witten]], and [[Kapustin-Witten TQFT|Kapustin-Witten theories]]. We also outline a [[quantization]] program for this CohFT framework and discuss its potential to produce manifold invariants. This is joint work with [[Jürgen Jost]].
 
+\linebreak
+
+* {#BonettiFeb25} 19 Feb 2025
+
+  [[Federico Bonetti]] (University of Murcia, Spain):
+
+  **Generalized global symmetries from string theory**
+
+  > [[global symmetry|Global symmetries]] are extremely useful in the study of [[quantum field theories]] (QFTs). Remarkably, the notion of global symmetry in QFT has undergone a [[generalized symmetry|dramatic generalization]] in recent years, based on the idea that symmetries correspond to topological operators. In this talk, I will discuss aspects of generalized symmetries of QFTs realized in [[string theory|string]]/[[M-theory]]. The stringy perspective complements the purely field-theoretical point of view and allows us to study non-trivial classes of strongly coupled QFTs. By means of concrete examples, I will illustrate how [[generalized symmetry]] structures can be extracted systematically from the topology and geometry of the [[perturbative string theory vacuum|string background]] that [[geometric engineering of QFT|realizes the QFT]].
+
+
+
 
 \linebreak  
 
