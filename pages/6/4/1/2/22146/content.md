@@ -31,6 +31,10 @@ Further developments:
 
 * {#ShabaniEtAl23} [[Javad Shabani]] et al., *Quasiparticle dynamics in epitaxial Al-InAs planar Josephson junctions*, PRX Quantum **4** 030339 (2023) \[<a href="https://doi.org/10.1103/PRXQuantum.4.030339">doi:10.1103/PRXQuantum.4.030339</a>, [arXiv:2303.04784](https://arxiv.org/abs/2303.04784)\]
 
+* William F. Schiela, Peng Yu, [[Javad Shabani]]: *Progress in superconductor-semiconductor topological Josephson junctions*, PRX Quantum **5** (2024)  030102 \[<a href=" 	
+https://doi.org/10.1103/PRXQuantum.5.030102">doi:10.1103/PRXQuantum.5.030102</a>, [arXiv:2408.12749](https://arxiv.org/abs/2408.12749)\]
+
+
 
 via [[Majorana zero modes]] restricted to edges of [[topological insulators]]:
 
