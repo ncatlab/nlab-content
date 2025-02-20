@@ -25,7 +25,12 @@ In [[solid state physics]], the term "Majorana zero mode" (often abbreviated "MZ
 
 These Majorana zero modes were theoretically introduced in a [[spin chain]] [[model (in theoretical physics)|model]] by [Kitaev 2001](#Kitaev01) ("Kitaev spin chain"), originally as a theoretical toy example for [[mass gap|gapped]] and degenerate [[ground states]] vaguely as expected for [[topological order]], but then argued to be realizable on interfaces of [[superconductors]] with certain [[topological insulators]] by [Fu & Kane 2008](#FuKane08); and their [[experiment|experimental]] realization in [[superconductor|super-]]/[[semiconductor|semi-conducting]] nano-wires has been proposed in [Lutchyn, Say & Das Sarma 2010](#LutchynSayDasSarma10), [Oreg, Refael, von Oppen 2010](#OregRefaelvonOppen10).
 
-{#Following} Following these proposals and especially after [Microsoft Quantum](https://www.microsoft.com/en-us/research/research-area/quantum-computing) (with [QuTech](https://qutech.nl/) at TU Delft) declared ([Nov 2016](https://blogs.microsoft.com/ai/microsoft-doubles-quantum-computing-bet/)) the concrete aim of realizing [[topological quantum computation]] based on topological qbits given by such "Majorana zero modes" (following the plan laid out in [Das Sarma, Freedman & Nayak 15](#DasSarmaFreedmanNayak15)), the topic attracted [enormous attention](https://scholar.google.com/scholar?cites=12195292414684872731&as_sdt=2005&sciodt=0,5&hl=en) in [[solid state physics]].
+
+
+{#Following} Following these proposals --- and especially after [Microsoft Quantum](https://www.microsoft.com/en-us/research/research-area/quantum-computing) (with [QuTech](https://qutech.nl/) at TU Delft) declared ([Nov 2016](https://blogs.microsoft.com/ai/microsoft-doubles-quantum-computing-bet/)) the concrete aim of realizing [[topological quantum computation]] based on topological qbits given by such "Majorana zero modes" (following the plan laid out in [Das Sarma, Freedman & Nayak 15](#DasSarmaFreedmanNayak15)) --- the topic attracted [enormous attention](https://scholar.google.com/scholar?cites=12195292414684872731&as_sdt=2005&sciodt=0,5&hl=en) in [[solid state physics]].
+
+## Claims and retractions
+ {#ClaimsAndRetractions}
 
 {#But} But prominent claims of experimental detection of (these kinds of) Majorana zero modes had to be retracted: 
 
@@ -37,9 +42,20 @@ These Majorana zero modes were theoretically introduced in a [[spin chain]] [[mo
 
 * [by *Science* in 2022](https://retractionwatch.com/2022/11/17/another-majorana-particle-paper-retracted-this-time-from-science/) &lbrack;[doi:10.1126/science.adf7575](https://www.science.org/doi/10.1126/science.adf7575)&rbrack;, cf. further commentary by [[Sergey M. Frolov|S.M. Frolov]] [here](https://espressospin.org/2022/11/17/the-fallen-angel-particle/); 
 
-* and a range of further claims are under similar criticism, see [Frolov & Mourik 2020](https://doi.org/10.5281/zenodo.6344447), [Das Sarma & Pan 2021](#DasSarmaPan21), [Frolov, Mourik & Zuo 2022](https://doi.org/10.5281/zenodo.6325378), [Mourik 2024](#Mourik24) and the extensive list [here](https://twitter.com/spinespresso/status/1503352928656138241). 
+* and a range of further claims are under similar criticism, see [Frolov & Mourik 2020](https://doi.org/10.5281/zenodo.6344447), [Das Sarma & Pan 2021](#DasSarmaPan21), [Frolov, Mourik & Zuo 2022](https://doi.org/10.5281/zenodo.6325378), [Mourik 2024](#Mourik24) and the extensive list [here](https://twitter.com/spinespresso/status/1503352928656138241) and [here](https://bsky.app/profile/spinespresso.bsky.social/post/3likchwf3p22d). 
 
-While many researchers began to dismiss the whole approach of "Majorana zero modes" (e.g. [BSSA21](#BSSA21), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) a new claim of detection was made by [Nayak 22](#Nayak22) & [MicrosoftQuantum 23](#MicrosoftQuantum23) -- but see cautionary commentary by [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a), [Frolov 22](#Frolov22), [Das Sarma 22, p. 9](#DasSarma22), [Legg 24](#Legg24).
+While many researchers began to dismiss the whole approach of "Majorana zero modes" (e.g. [BSSA21](#BSSA21), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) a new claim of detection was made by [Nayak 22](#Nayak22) & [MicrosoftQuantum 23](#MicrosoftQuantum23) -- but see the [journal's editorial caveat](#MicrosoftQuantum23Caveat) and cautionary commentary by [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a), [Frolov 22](#Frolov22), [Das Sarma 22, p. 9](#DasSarma22), [Legg 24](#Legg24).
+
+On [19 Feb 2025](https://azure.microsoft.com/en-us/blog/quantum/2025/02/19/microsoft-unveils-majorana-1-the-worlds-first-quantum-processor-powered-by-topological-qubits/)
+a Microsoft Azure press release announced a quantum chip ("*Majorana 1*") suggested to host one topologically protected qbit. The accompanying Nature article [Microsoft Azure Quantum 2025](#AzureFeb25) states more carefully that:
+
+> "*These measurements do not, by themselves, determine whether the low-energy states detected by interferometry are topological.*"
+
+and again the journal issued a [caveat](#AzureFeb25Caveat).
+
+The accompanying company "roadmap" ([arXiv:2502.12252](https://arxiv.org/abs/2502.12252)) mentions the idea of Bonderson et al. 2008 (review [here](https://quantumcomputing.stackexchange.com/q/25638/19363)) of simulating braiding of these immovable states by a measurement-only protocol (a kind of [[quantum simulation]] of actual braiding, see [there](quantum+simulation#OfAnyons)).
+
+
 
 ## References
 
@@ -116,13 +132,20 @@ Non-retracted claims of experimental realization of something in the direction o
 
   \linebreak
 
-  with an accompanying caveat editorial:
+  {#MicrosoftQuantum23Caveat} with an accompanying caveat editorial:
 
   Randall D. Kamien, Jessica Thomas, Stephen E. Nagler, Anthony M. Begley, and Sarma Kancharla, *Editorial: Transparency in Physical Review Articles*, Phys. Rev. B **107** 210001 (2023) &lbrack;[doi:10.1103/PhysRevB.107.210001](https://doi.org/10.1103/PhysRevB.107.210001)&rbrack;
 
   saying:
 
   > "In this issue of Physical Review B, Aghaee et al. &lbrack;[1](#MicrosoftQuantum23)&rbrack; report on an advancement towards the goal of topological quantum computing. While Physical Review readers are well aware that the many minutiæ of procedures, computations, and synthesis may be omitted in any particular dispatch, in this publication the intellectual property of the authors’ employer has prevented the release of some parameters of the studied devices that may be needed in order to reproduce them. As a reflection of the traditional values of the scholarly community, this is not in accordance with the usual norms of the Physical Review journals."
+
+* {#AzureFeb25} Microsof Azure Quantum: *Interferometric single-shot parity measurement in InAs–Al hybrid devices*, Nature **638** (2025) 651–655 &lbrack;[doi:10.1038/s41586-024-08445-2](https://doi.org/10.1038/s41586-024-08445-2)&rbrack;
+
+  {#AzureFeb25Caveat} again with an accompanying caveat editorial ("Peer Review File" &lbrack;[pdf](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-024-08445-2/MediaObjects/41586_2024_8445_MOESM2_ESM.pdf)&rbrack;):
+
+  > "The editorial team wishes to point out that the results in this manuscript do not represent evidence for the presence of Majorana zero modes in the reported devices. The work is published for introducing a device architecture that might enable fusion experiments using future Majorana zero modes."
+
 
 but see commentary in:
 
@@ -138,13 +161,11 @@ and earlier:
   > [1:01:52](https://youtu.be/RnYghkDaHH0?t=3712) The signal is fully consistent, from what we see, with *not* having discovered any Majorana or topological superconductivity here. At the same time, the amount of data is extremely narrow.
 
 * {#Frolov22} [[Sergey M. Frolov]], *Superconductors and semiconductors, nanowires and majorana, research and integrity* &lbrack;[video](https://www.youtube.com/watch?v=FR7J4yH67GA), general caution: [55:34](https://youtu.be/FR7J4yH67GA?t=3334), concrete criticism: [1:01:41](https://youtu.be/FR7J4yH67GA?t=3701)&rbrack;
-
   > [1:01:50](https://youtu.be/FR7J4yH67GA?t=3710): The claims of the discovery of Majorana have been overblown and are false. Majorana has not been discovered in nanowires. I don't believe in any other system it has been discovered either.
 
 On how this could happen:
 
 * Elizabeth Gibney, *Inside Microsoft’s quest for a topological quantum computer* (Interview with Alex Bocharov), Nature (2016) &lbrack;[doi:10.1038/nature.2016.20774](https://doi.org/10.1038/nature.2016.20774)&rbrack;
-
   > &lbrack;Bocharov:&rbrack; We’re people-centric, rather than problem-centric.
 
 See also:
