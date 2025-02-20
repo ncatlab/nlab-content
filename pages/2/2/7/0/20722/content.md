@@ -1,5 +1,9 @@
 
-* [Wikipedia entry](https://en.m.wikipedia.org/wiki/William_Browder_(mathematician))
+William Browder (1934-2025)
+
+* [Wikipedia entry](https://en.m.wikipedia.org/wiki/William_Browder_(mathematician)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=8587)
 
 ## Selected writings
 
