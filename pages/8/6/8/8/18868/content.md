@@ -29,7 +29,7 @@ All analytic subvarieties of a complex projective space are in fact [[algebraic 
 Examples include [[complex tori]] $\mathbb{C}^n/L$ where $L$ is a lattice in $\mathbb{C}^n$, [[K3-surfaces]], compact [[Calabi-Yau manifolds]], quadrics, products of projective spaces and so on. 
 
 
-## Related concepta
+## Related concepts
 
 * [[symplectic formulation of quantum mechanics]]
 
