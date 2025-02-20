@@ -22,7 +22,7 @@
 ## Idea
 
 
-There is a unique (up to a scalar) [[hermitian metric]] on  [[complex projective space]], the _[[Fubini-Study metric]]_. 
+There is a unique (up to a scalar) [[hermitian metric]] on  [[complex projective space]], the _Fubini-Study metric_. 
 
 All analytic subvarieties of a complex projective space are in fact [[algebraic variety|algebraic subvarieties]] and they inherit the [[Kähler manifold structure]] from the projective space. 
 
