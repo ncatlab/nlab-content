@@ -44,6 +44,8 @@ The [[stable homotopy category]] $Ho(Spec)$ is a [[symmetric monoidal category]]
 
 * [[Spanier-Whitehead category]]
 
+* [[Costenoble-Waner duality]]
+
 * [[stable Cohomotopy]]
 
 ## References
