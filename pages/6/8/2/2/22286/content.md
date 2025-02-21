@@ -18,6 +18,8 @@
 
 A [[cell complex]] (such as a [[CW-complex]]) is _locally finite_ if every point/vertex is contained only in a [[finite number]] of cells.
 
+A [[CW complex]] is locally finite if and only if it is locally compact (Geoghegan, Proposition 10.1.8).
+
 ## Related concepts
 
 * [[locally finite set of subsets]]
