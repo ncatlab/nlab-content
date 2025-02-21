@@ -31,6 +31,14 @@ On [[sigma-models]]:
 * [[Christopher Hull]], *Lectures on Non-Linear Sigma-Models and Strings*, in *Super field theories*, NATO Science Series **160**, Springer (1987) 77-168 &lbrack;[doi:10.1007/978-1-4613-0913-0_4](https://doi.org/10.1007/978-1-4613-0913-0_4)&rbrack;
 
 
+
+On [[T-duality]] along [[timelike]] directions:
+
+* [[Chris Hull]]: *Timelike T-Duality, de Sitter Space, Large $N$ Gauge Theories and Topological Field Theory*, JHEP 07 (1998) 021 &lbrack;[arXiv:hep-th/9806146](https://arxiv.org/abs/hep-th/9806146), [doi:10.1088/1126-6708/1998/07/021](https://doi.org/10.1088/1126-6708/1998/07/021)&rbrack;
+
+* [[Chris Hull]]: *Duality and the Signature of Space-Time*, JHEP 11 (1998) 017 &lbrack;[arXiv:hep-th/9807127](https://arxiv.org/abs/hep-th/9807127), [doi:10.1088/1126-6708/1998/11/017](https://doi.org/10.1088/1126-6708/1998/11/017)&rbrack;
+
+
 On [[BPS states]]:
 
 * {#GauntlettHull99} [[Jerome Gauntlett]], [[Chris Hull]], _BPS States with Extra Supersymmetry_, JHEP 0001 (2000) 004 ([arXiv:hep-th/9909098](http://arxiv.org/abs/hep-th/9909098))
