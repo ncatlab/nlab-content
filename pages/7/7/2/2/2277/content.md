@@ -54,7 +54,13 @@ EGA was never completed. The listed volumes I-IV are just a part of the original
 
 ### FGA (Fondements de la G&#233;ometrie Alg&#233;brique)
 
- The earliest of the series is _[[FGA]]_ written alone at the end of the 1950s; it is sort of quick outline of the theory and some deep results with proofs at the beginning of the period of the development of [[scheme theory]]. A modern version of the material in [[FGA]] appeared as a book [[FGA explained]] (ICTP, Trieste 2003--2005). The original is available [here](http://www.math.jussieu.fr/~leila/grothendieckcircle/FGA.pdf).
+ The earliest of the series is _[[FGA]]_ written alone at the end of the 1950s; it is sort of quick outline of the theory and some deep results with proofs at the beginning of the period of the development of [[scheme theory]].
+
+A modern version of the material in [[FGA]] appeared as a book [[FGA explained]] (ICTP, Trieste 2003--2005).
+
+The original is available [here](http://www.math.jussieu.fr/~leila/grothendieckcircle/FGA.pdf).
+
+There is a [translation by Tim Hosgood](https://translations.thosgood.com/fga/).
 
 
 ### SGA (S&#233;minaire de G&#233;om&#233;trie Alg&#233;brique du Bois Marie)
@@ -76,25 +82,20 @@ So far the following volumes have been retyped:
 
 * [SGA 3](http://webusers.imj-prg.fr/~patrick.polo/SGA3/) - Edited by P. Gilles and P. Polo, 2011
 
-* SGA 4 - Edited by Y. Laszlo.
+* SGA 4 - Edited by Yves Laszlo.
 
-  [Part 1](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-1/sga41.pdf),
+  [Part 1](https://web.archive.org/web/20241113083449/http://www.cmls.polytechnique.fr/perso/laszlo/sga4/SGA4-1/sga41.pdf),
 
-  [Part 2](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-2/sga42.pdf),
+  [Part 2](https://web.archive.org/web/20241113083453/http://www.cmls.polytechnique.fr/perso/laszlo/sga4/SGA4-2/sga42.pdf),
 
-  [Part 3](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-3/sga43.pdf).
-
-* [SGA $4{1\over2}$](https://github.com/dkmiller/sga4.5) - Edited by Daniel Miller.
-
-
+  [Part 3](https://web.archive.org/web/20241113083459/https://www.cmls.polytechnique.fr/perso/laszlo/sga4/SGA4-3/sga43.pdf).
 
 See also: 
 
-- [SGA 4](http://fabrice.orgogozo.perso.math.cnrs.fr/SGA4/index.html) Edited by F. Orgogozo
+- [SGA 4](http://fabrice.orgogozo.perso.math.cnrs.fr/SGA4/index.html) - Edited by F. Orgogozo
 
 
-
-
+* [SGA $4{1\over2}$](https://github.com/NomiL/sga4.5/) - Edited by Daniel Miller.
 
 ## References
 
