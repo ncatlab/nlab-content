@@ -84,28 +84,6 @@ $$T(\Omega_U) \equiv \sum_{A:U} \mathrm{isProp}(T(A))$$
 
 In particular, every impredicative [[strictly Tarski universe]] is strictly impredicative. 
 
-## Properties
-
-\begin{theorem}
-Any [[universe of propositions]] satisfying [[propositional resizing]] is a [[contractible type]].
-\end{theorem}
-
-\begin{proof}
-Given a [[universe of propositions]] $\Omega$, the type of all propositions in $\Omega$ is $\Omega$ itself. Then [[propositional resizing]] says that $\Omega$ has an element $\Omega':\Omega$ such that its type reflection is $\Omega$ itself. This implies that $\Omega$ itself a [[mere proposition]] by definition of universe of proposiions, which implies that $\Omega$ is a contractible type by the element $\Omega':\Omega$ and the fact that for all other elements $P:\Omega$, $P = \Omega'$. 
-\end{proof}
-
-\begin{theorem}
-Any [[universe of propositions]] $\Omega$ closed under the [[empty type]] does not satisfy [[propositional resizing]]. 
-\end{theorem}
-
-\begin{proof}
-Suppose that $\Omega$ is closed under the empty type $\emptyset$ represented in $\Omega$ by the element $\bot:\Omega$, and satisfies [[propositional resizing]]. Then one has that $\bot = \Omega'$ since $\Omega$ is a [[mere proposition]], and by transport one has $\emptyset \simeq \Omega$, but since $\Omega$ is contractible by propositional resizing, the empty type is also contractible, which is [[false]]. 
-\end{proof}
-
-\begin{theorem}
-The [[universe of all propositions]] $\mathrm{Prop}$ does not satisfy [[propositional resizing]]. 
-\end{theorem}
-
 ## See also
 
 * [[essentially small type]]
