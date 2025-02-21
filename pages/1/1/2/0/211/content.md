@@ -24,11 +24,13 @@ Finally, people who deeply care about their edits being unrelatable to their whe
 
 
 ## In practice
+ {#InPractice}
 
 In short, please choose a unique identifiable pseudonym with which to sign your edits.
 
 
 ## In the past
+ {#InThePast}
 
 
 From its inception up to some years ago, the nLab software would offer the string "AnonymousCoward" as the default for filling in the "Submit as..."-field. Eventually we found this was too condescending   (though in hindsight there may have been some value to it) and then changed the default to "Anonymous".
