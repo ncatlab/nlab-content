@@ -855,3 +855,4 @@ On $\Omega S^2 \,\simeq\, B \Omega^2 S^2$ regarded as a [[classifying space]] (f
 
 
 [[test page]]
+[[Jim Kingdon]] does math
