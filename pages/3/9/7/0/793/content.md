@@ -378,6 +378,13 @@ Discussion of T-duality that takes into account the [[super p-brane]] charges (i
 
   reviewed in: _Superfield T-duality rules in ten dimensions with one isometry_ &lbrack;[arXiv:hep-th/0312299](https://arxiv.org/abs/hep-th/0312299)&rbrack;
 
+On T-duality along [[timelike]] directions:
+
+* [[Chris Hull]]: *Timelike T-Duality, de Sitter Space, Large $N$ Gauge Theories and Topological Field Theory*, JHEP 07 (1998) 021 &lbrack;[arXiv:hep-th/9806146](https://arxiv.org/abs/hep-th/9806146), [doi:10.1088/1126-6708/1998/07/021](https://doi.org/10.1088/1126-6708/1998/07/021)&rbrack;
+
+* [[Chris Hull]]: *Duality and the Signature of Space-Time*, JHEP 11 (1998) 017 &lbrack;[arXiv:hep-th/9807127](https://arxiv.org/abs/hep-th/9807127), [doi:10.1088/1126-6708/1998/11/017](https://doi.org/10.1088/1126-6708/1998/11/017)&rbrack;
+
+
 Lift of T-duality from [[string theory]] to a [[SL(2,Z)]]-[[U-duality]] acting on the [[M2-brane]]-[[Green-Schwarz action functional|sigma-model]]:
 
 * [[Maria P. Garcia del Moral]], I. Martin, [[Alvaro Restuccia]], *Nonperturbative $SL(2,\mathbb{Z})$ $(p,q)$-strings manifestly realized on the quantum M2* &lbrack;[arXiv:0802.0573](https://arxiv.org/abs/0802.0573)&rbrack;
