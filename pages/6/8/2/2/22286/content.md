@@ -16,9 +16,14 @@
 
 ## Idea
 
-A [[cell complex]] (such as a [[CW-complex]]) is _locally finite_ if every point/vertex is contained only in a [[finite number]] of cells.
+A [[cell complex]] (such as a [[CW-complex]]) is _locally finite_ if each cell is [[disjoint subset|disjoint]] from all but [[finite set|finitely many]] cells, hence if every point is contained in only a [[finite number]] of cells.
 
-A [[CW complex]] is locally finite if and only if it is locally compact (Geoghegan, Proposition 10.1.8).
+## Properties
+
+\begin{proposition}
+A [[CW complex]] is locally finite if and only if it is locally compact.
+\end{proposition}
+([Geoghegan 2008](#Geoghegan08) , Prop. 10.1.8)
 
 ## Related concepts
 
@@ -28,7 +33,7 @@ A [[CW complex]] is locally finite if and only if it is locally compact (Geogheg
 
 ## References
 
-* Ross Geoghegan, _Locally finite CW Complexes and Proper Homotopy_, chapter 10 in: _Topological methods in group theory_, Graduate Texts in Mathematics **243**, Springer 2008 ([doi:10.1007/978-0-387-74614-2_10](https://doi.org/10.1007/978-0-387-74614-2_10))
+* {#Geoghegan08} Ross Geoghegan: _Locally finite CW Complexes and Proper Homotopy_, chapter 10 in: _Topological methods in group theory_, Graduate Texts in Mathematics **243**, Springer (2008) &lbrack;[doi:10.1007/978-0-387-74614-2_10](https://doi.org/10.1007/978-0-387-74614-2_10)&rbrack;
 
 [[!redirects locally finite cell complexes]]
 
