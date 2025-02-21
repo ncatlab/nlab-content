@@ -35,7 +35,7 @@ An apartness ring $R$ where the apartness relation is a [[tight apartness relati
 
 ## Examples
 
-* Every [[local ring]] is an apartness ring where the apartness relation $x \# y$ is given by invertibility of $y - x$. 
+* Every [[local ring]] equipped with the apartness relation $x \# y$ given by invertibility of $y - x$ is an apartness ring. 
 
 * Every [[approximate integral domain]] is an apartness ring where the apartness relation $x \# y$ is given by [[cancellative element|cancellativity]] of $y - x$. 
 
