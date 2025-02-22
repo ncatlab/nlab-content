@@ -23,7 +23,7 @@ A group is *residually finite* if it has a good supply of [[subgroups]] of [[fin
 
 1. For each $g \in G$, $g \neq \mathrm{e}$, 
 
-   1. there exists a [[normal subgroup]] $N \subset G$ of [[finite number|finite]] [[index of a subgroup|index]] $[G\colon N] \in \mathbb{N}$ such that $g \nin N$.
+   1. there exists a [[normal subgroup]] $N \subset G$ of [[finite number|finite]] [[index of a subgroup|index]] $[G\colon N] \in \mathbb{N}$ such that $g \notin N$.
 
    1. there exists a [[finite group]] $K$ and a [[group homomorphism]] $\phi \,\colon\, G \to K$ such that $\phi(g) \neq \mathrm{e}$.
 
