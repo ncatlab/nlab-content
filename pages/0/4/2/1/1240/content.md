@@ -76,14 +76,14 @@ With given flavour of [[groups]] and their [[category of representations]] speci
 ###### Example
 **(induction of [[finite-dimensional vector space|finite-dimensional]] [[linear representations]] of [[finite groups]])**
 
-In the case that $G$ (and hence $H$) is a [[finite group]] and $Rep(G)$ is the [[category of representations|category of]] [[finite-dimensional vector space|finite-dimensional]] representations over some [[ground field]] $k$.,
+In the case that $G$ (and hence $H$) is a [[finite group]], with $Rep(G)$ taken to be the [[category of representations|category of]] [[finite-dimensional vector space|finite-dimensional]] representations over some [[ground field]] $k$,
 the general induced representation functor (Def. \ref{InducedRepresentationsAsLeftAdjointToRestriction}) exists and is explicitly given by forming the [[tensor product of representations]] with the $H$-[[permutation representation]] spanned by the underlying [[set]] of $G$:
 
 $$
   ind_H^G
   \;\colon\;
   V 
-    \mapsto 
+    \,\mapsto\,
   k[G] \otimes_{H} V
   \,.
 $$
@@ -100,11 +100,11 @@ $$
   \,.
 $$
 
-See at _[[induced representation of the trivial representation]]_ for more.
+For more see at _[[induced representation of the trivial representation]]_.
 
 =--
 
-See e.g. [tomDieck 09, Chapter 4](#tomDieck09).
+(cf. [tom Dieck 2009, Chapter 4](#tomDieck09))
 
 <br/>
 
