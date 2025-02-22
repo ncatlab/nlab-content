@@ -205,14 +205,20 @@ Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 * E. Y. Miller, _The homology of the mapping class group_, J. Differential Geom. __24__ (1986), no. 1, 1&#8211;14, [MR88b:32051](http://www.ams.org/mathscinet-getitem?mr=88b:32051), [euclid](http://projecteuclid.org/euclid.jdg/1214440254)
 
 
-### Subgroups
+### Fibite-index Subgroups
 
-On further [[subgroups]]:
+On [[finite number|finite]] [>index of a subgroup|index]] [[subgroups]] of mapping class groups:
 
 * {#Grossman74} Edna K. Grossman: *On the residual finiteness of certain mapping class groups*,  J. London Math. Soc. **s2-9** 1 (1974) 160–164 &lbrack;[doi;10.1112/jlms/s2-9.1.160](https://doi.org/10.1112/jlms/s2-9.1.160)&rbrack;
   > ($MCG(\Sigma^2_g)$ is [[residually finite group|residually finite]])
 
-* Luis Paris, Jon A Berrick, Volker Gebhardt: *Finite index subgroups of mapping class groups* &lbrack;[arXiv:1105.2468](https://arxiv.org/abs/1105.2468)&rbrack;
+* D. B. McReynolds: *The congruence subgroup problem for braid groups: Thurston's proof*, New York Jour. Math. **18** (2012) 925-942 &lbrack;[arXiv:0901.4663](https://arxiv.org/abs/0901.4663), [nyjm:2012/18-47](https://nyjm.albany.edu/j/2012/18-47.html)&rbrack;
+
+
+* [[Andrew Putman]]: *The Torelli group and congruence subgroups of the mapping class group*, in: *Moduli Spaces of Riemann Surfaces*, IAS/Park City Mathematics Series **20** (2013) &lbrack;[arXiv:1201.3946](https://arxiv.org/abs/1201.3946), [doi:10.1090/pcms/020](https://doi.org/10.1090/pcms/020)&rbrack;
+
+
+* Luis Paris, Jon A Berrick, Volker Gebhardt: *Finite index subgroups of mapping class groups*, Proceedings of the London Mathematical Society **108** 3 (2013) 575-599 &lbrack;[arXiv:1105.2468](https://arxiv.org/abs/1105.2468), [doi:10.1112/plms/pdt022](https://doi.org/10.1112/plms/pdt022)&rbrack;
 
 * Blazej Szepietowski: *On finite index subgroups of the mapping class group of a nonorientable surface*, Glas. Mat. **49** (2014), 337-350 &lbrack;[arXiv:1401.3557](https://arxiv.org/abs/1401.3557), [doi:10.3336/gm.49.2.08](https://doi.org/10.3336/gm.49.2.08)&rbrack;
 
