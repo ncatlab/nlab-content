@@ -12,7 +12,11 @@
 
 \tableofcontents
 
-## Terminology
+## Idea
+
+Taketa's theorem and related statements say that a necessary condition on a [[finite group]] to have all its complex [[irreps]] be suitably [[induced representations]] is that it is a *[[solvable group]]*.
+
+## Terminology: "M-groups"
 
 A [[finite group]] $G$ is called an *$M$-group* if all its [[complex numbers|complex]] [[irreducible representations]] are [[induced representation|induced]] from [[dimension of a vector space|1-dimensional]] representations, hence if for each [[irrep]] $rho$ of $G$ there exists a [[subgroup]] $H \subset G$ and a 1-dimensional rep $\nu$ of $H$, such that $\rho \,\simeq\, Ind^G_H \rho$, where $Ind_H^G \,\colon\, H Rep \to G Rep$ is the [[induced representation|induction]] [[functor]].
 
@@ -27,10 +31,10 @@ M-groups are [[solvable group|solvable]].
 \end{theorem}
 ([Taketa 1930](#Taketa30), [Isaacs 1976 thm. 5.12](#Isaacs76))
 
-Similarly:
+In fact:
 
 \begin{theorem}
-  If *some multiple* of any [[complex numbers|complex]] [[irrep]] of a [[finite group]] is [[induced representation|induced]] form an [[irrep]] of a proper [[subgroup]], then the group is [[solvable group|solvable]].
+ If a [[finite group]] has the property that for each of its [[complex numbers|complex]] [[irreps]] of [[dimension of a vector space|dimension]] $\geq 2$ *some multiple* of it is [[induced representation|induced]] from an [[irrep]] of a proper [[subgroup]], then the group is [[solvable group|solvable]].
 \end{theorem}
 ([LMT 2013](#LMT13))
 
