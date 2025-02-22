@@ -307,7 +307,10 @@ Over [[finite fields]]:
 
 See at *[[representation theory of the general linear group]]*.
 
+
 ## Related concepts
+
+* [[linear group]]
 
 * [[translation group]], [[affine group]]
 
