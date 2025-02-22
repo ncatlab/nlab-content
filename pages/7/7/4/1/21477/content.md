@@ -31,7 +31,7 @@ Every [[Stonean space]] decomposes as a [[coproduct]] of three [[clopen subsets]
 
 * $E_1$ has an [[everywhere dense]] [[meager subset]].  The only normal measure on $E_1$ is the zero measure.
 
-* $E_2$ is a hyperstonean spaces.
+* $E_2$ is a hyperstonean space.
 
 * Every [[meager subset]] of $E_3$ is [[nowhere dense]] and every [[Radon measure]] has a [[nowhere dense]] support.  The only normal measure on $E_3$ is the zero measure.
 
