@@ -209,6 +209,9 @@ Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 
 On further [[subgroups]]:
 
+* {#Grossman74} Edna K. Grossman: *On the residual finiteness of certain mapping class groups*,  J. London Math. Soc. **s2-9** 1 (1974) 160–164 &lbrack;[doi;10.1112/jlms/s2-9.1.160](https://doi.org/10.1112/jlms/s2-9.1.160)&rbrack;
+  > ($MCG(\Sigma^2_g)$ is [[residually finite group|residually finite]])
+
 * Luis Paris, Jon A Berrick, Volker Gebhardt: *Finite index subgroups of mapping class groups* &lbrack;[arXiv:1105.2468](https://arxiv.org/abs/1105.2468)&rbrack;
 
 * Blazej Szepietowski: *On finite index subgroups of the mapping class group of a nonorientable surface*, Glas. Mat. **49** (2014), 337-350 &lbrack;[arXiv:1401.3557](https://arxiv.org/abs/1401.3557), [doi:10.3336/gm.49.2.08](https://doi.org/10.3336/gm.49.2.08)&rbrack;
