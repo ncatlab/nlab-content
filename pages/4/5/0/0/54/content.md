@@ -39,11 +39,21 @@ in the group of Prof. [[Hisham Sati]] leading the <br/>
 
 ## research 
 
-I am researching mathematical and fundamental physics (e.g. on *[[Hypothesis H]]* and *[[schreiber:Quantum Certification via Linear Homotopy Types|Quantum Systems]]*).
+I am researching [[mathematical physics|mathematical]] and [[fundamental physics|fundamental]] [[quantum physics]], with a focus on using tools of [[algebraic topology]] and [[schreiber:Higher Topos Theory in Physics|geometric homotopy theory]] for understanding elusive [[non-perturbative quantum field theory|strongly-coupled]] [[quantum systems]] with applications to [future](topological+quantum+computation#ReferencesNeedForTopologicalProtection) [[topological quantum computing|topological]] [[quantum technology]]. 
 
-For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
+Projects: 
+
+1. [[schreiber:Introduction to Hypothesis H|Hypothesis H]] on [[geometry of physics -- flux quantization|flux quantization]] in [[M-theory]].
+
+2. [[schreiber:Engineering of Anyons on M5-Probes|Geometric engineering of anyons on M5-branes]]*. 
+
+3. [[schreiber:Quantum Language via Linear Homotopy Types|Quantum language via linear homotopy types]].
+
+
 
 ## selected talks
+
+> For the complete list of invited talks I have given, see [there](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
 
 * **[[schreiber:Super-Exceptional Geometry for 11D Supergravity]]**
 
@@ -111,15 +121,15 @@ For latest talk notes see [here](http://ncatlab.org/schreiber/show/differential+
 
 ## publications:
 
+For comprehensive lists see:
 
-* see [at GoogleScholar](https://scholar.google.com/citations?hl=en&user=bDfHFDcAAAAJ)
+* [at inSpire](https://inspirehep.net/authors/1056029)
 
-* & [on the arXiv](https://arxiv.org/find/math/1/au:+Schreiber_U/0/1/0/all/0/1) preprint server
+* [at GoogleScholar](https://scholar.google.com/citations?hl=en&user=bDfHFDcAAAAJ)
 
-* & those about *[Hypothesis H](https://ncatlab.org/nLab/show/Hypothesis%20H#References)*
+* [at arXiv.org](https://arxiv.org/find/math/1/au:+Schreiber_U/0/1/0/all/0/1)
 
-
-recent monograph:
+Monographs:
 
 <div style="float:right;margin:0px 0px 0px 20px;">
 <a href="https://doi.org/10.1142/13422 "><img src="https://ncatlab.org/schreiber/files/CharacterMap-WSCover.jpg" width="300"></a> 
@@ -141,7 +151,23 @@ recent monograph:
 
 > In laying out this result with plenty of examples, we provide modernized introduction and review of fundamental classical topics: 1. abstract [[homotopy theory]] via [[model categories]], 2. [[generalized cohomology]] in [[homotopy theory|homotopical]] incarnation, 3. [[dg-algebra|dg-algebraic]] [[rational homotopy theory]], whose [[fundamental theorem of dg-algebraic rational homotopy theory|fundamental theorem]] we re-cast as a (twisted) non-abelian [[de Rham theorem]] which naturally induces the (twisted) non-abelian character map.
 
+\linebreak
+
+<div style="float:right;margin:-60px -120px 0px 20px;">
+<a href="https://doi.org/10.1142/13422 "><img src="https://ncatlab.org/schreiber/files/EquivariantInfinityBundlesDiagram.jpg" width="670"></a> 
+</div>
+
+
+* **[[schreiber:Equivariant principal infinity-bundles|Equivariant Principal $\infty$-Bundles]]**
+
+  (with [[Hisham Sati|H. Sati]])
+
+  Cambridge University Press 
+
+  (2025, in print)
   
+
+\linebreak
 
 * further monographs on the [[nLab]]:
 
@@ -156,6 +182,8 @@ recent monograph:
   * _[[schreiber:Higher Prequantum Geometry]]_, in: _[[nLab:New Spaces for Mathematics and Physics]]_, Cambr. Univ. Press (2021) $[$[doi:10.1017/9781108854429](https://doi.org/10.1017/9781108854429)$]$
 
   * *[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]*, Proceedings of Symposia in Pure Mathematics **83** Amer. Math. Soc (2011) $[$[ISBN:978-0-8218-5195-1](http://bookstore.ams.org/PSPUM-83)$]$
+
+\linebreak
 
 
 ## research wiki
