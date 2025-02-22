@@ -452,8 +452,9 @@ This means that while every individual loop in $Conf_N(\mathbb{R}^3)$ is homotop
 Highlighting the need for topological stabilization mechanisms:
 
 
-* [FKLW 2003](#FreedmanKitaevLarsenWang03):
-  > "the chief advantage of anyonic \[topological quantum\] computation would be physical error correction: An error rate scaling like $e^{- \alpha \ell}$, where $\ell$ is a length scale, and $\alpha$ is some positive constant. In contrast, the “presumptive” qubit-model of quantum computation, which repairs errors combinatorically, requires a fantastically low initial error rate (about $10^{-4}$) before computation can be stabilized.
+* [Freedman, Kitaev, Larsen & Wang 2003](#FreedmanKitaevLarsenWang03):
+  > "the chief advantage of anyonic \[topological quantum\] computation would be physical error correction: An error rate scaling like $e^{- \alpha \ell}$, where $\ell$ is a length scale, and $\alpha$ is some positive constant. In contrast, the “presumptive” qubit-model of quantum computation, which repairs errors combinatorically, requires a fantastically low initial error rate (about $10^{-4}$) before computation can be stabilized. \[...\]
+  > To reduce this model to engineering, very significant obstacles must be overcome: \[...\] Although these challenges are daunting, they are, perhaps, less difficult than a head-on assault on the accuracy threshold in the quantum circuit model.
 
 * {#Sau17} [[Jay Sau]], *A Roadmap for a Scalable Topological Quantum Computer*, [Physics **10** 68 (2017)](https://physics.aps.org/articles/v10/68)
   > "small machines are unlikely to uncover truly macroscopic quantum phenomena, which have no classical analogs. This will likely require a scalable approach to quantum computation. &lbrack;...&rbrack; based on &lbrack;...&rbrack; topological quantum computation (TQC) as envisioned by [[Alexei Kitaev]] and [[Michael Freedman]] &lbrack;...&rbrack; The central idea of TQC is to encode [[qubits]] into states of [[topological phases of matter]]. Qubits encoded in such states are expected to be topologically protected, or robust, against the 'prying eyes' of the environment, which are believed to be the bane of conventional quantum computation."
