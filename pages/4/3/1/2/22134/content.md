@@ -8,7 +8,7 @@ The idea of [[topological quantum computation]] via a [[Chern-Simons theory]] wi
 
 * {#Freedman98} [[Michael Freedman]], *P/NP, and the quantum field computer*, Proc. Nat. Acad. Sci. **95** 1 (1998) 98-101 \[<a href="https://doi.org/10.1073/pnas.95.1.9">doi:10.1073/pnas.95.1.9</a>\]
 
-* {#FreedmanKitaevLarsenWang03} [[Michael Freedman]], [[Alexei Kitaev]], [[Michael Larsen]], [[Zhenghan Wang]], *Topological quantum computation*,  Bull. Amer. Math. Soc. __40__ (2003), 31-38 ([arXiv:quant-ph/0101025](https://arxiv.org/abs/quant-ph/0101025), [doi:10.1090/S0273-0979-02-00964-3](https://doi.org/10.1090/S0273-0979-02-00964-3), [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf))
+* {#FreedmanKitaevLarsenWang03} [[Michael Freedman]], [[Alexei Kitaev]], [[Michael Larsen]], [[Zhenghan Wang]], *Topological quantum computation*,  Bull. Amer. Math. Soc. __40__ (2003), 31-38 \[<a href="https://doi.org/10.1090/S0273-0979-02-00964-3">doi:10.1090/S0273-0979-02-00964-3</a>, [arXiv:quant-ph/0101025](https://arxiv.org/abs/quant-ph/0101025),  [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf)\]
 
 * {#FreedmanLarsenWang02} [[Michael Freedman]], [[Michael Larsen]], [[Zhenghan Wang]], _A modular functor which is universal for quantum computation_, Communications in Mathematical Physics. **227** 3 (2002) 605-622  \[<a href="https://doi.org/10.1007/s002200200645">doi:10.1007/s002200200645</a>, [arXiv:quant-ph/0001108](http://arxiv.org/abs/quant-ph/0001108)\]
   > (specifically via [[su(2)-anyons]])
