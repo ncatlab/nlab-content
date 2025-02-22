@@ -1,5 +1,5 @@
-[[!redirects W. Magnus]]
-Wilhelm Magnus was a German mathematician who worked in [[combinatorial group theory]].
+
+Wilhelm Magnus (1907-19090) was a German mathematician who worked in [[combinatorial group theory]].
 
 * [Wikipedia page](http://en.wikipedia.org/wiki/Wilhelm_Magnus)
 
@@ -27,4 +27,7 @@ On [[combinatorial group theory]] ([[presentations of groups]]):
 
 [[!redirects W. Magnus]]
 
+
 category:people
+
+
