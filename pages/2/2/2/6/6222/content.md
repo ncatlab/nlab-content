@@ -87,10 +87,10 @@ A [[nilpotent group]] is a solvable group given by *[[central extensions|central
 \end{example}
 ([Taketa 1930](Taketa's+theorem#Taketa30), [Isaacs 1976, thm. 5.12](Taketa's+theorem#Isaacs76))
 
-Similarly:
+In fact:
 
 \begin{example}
- If *some multiple* of any [[complex numbers|complex]] [[irrep]] of a [[finite group]] is [[induced representation|induced]] form an [[irrep]] of a proper [[subgroup]], then the group is [[solvable group|solvable]].
+ If a [[finite group]] has the property that for each of its [[complex numbers|complex]] [[irreps]] of [[dimension of a vector space|dimension]] $\geq 2$ *some multiple* of it is [[induced representation|induced]] from an [[irrep]] of a proper [[subgroup]], then the group is [[solvable group|solvable]].
 \end{example}
 ([LMT 2013](Taketa's+theorem#LMT13))
 
@@ -98,6 +98,7 @@ Similarly:
 ## Related concepts
 
 * [[commutator subgroup]]
+
 * [[nilpotent group]]
 
 ## References
