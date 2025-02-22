@@ -4157,12 +4157,23 @@ The following is a (very) inclomplete list of selected invited presentations by 
 <img src="https://ncatlab.org/nlab/files/CNN-DecodingQC-min20.jpg" width="640">
 </a>
 </center>
+
+\linebreak
   
+### Feb 2025
+ {#ExternalFeb2025}
+
+* 21 Feb 2025 
+
+  [[Urs Schreiber]]:
+
+  **[[schreiber:Homotopy Theory for Topological Quantum Computing]]**
+
+  talk at: *[4th Int. Conference on Math and Statistics (ICMS 2025)](https://www.aus.edu/conferences/the-fourth-international-conference-on-mathematics-and-statistics)*, [American University of Sharjah](https://www.aus.edu/)
 
 
-\linebreak
+\linebreak  
 
-\linebreak
 
 
 ***
