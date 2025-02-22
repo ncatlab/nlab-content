@@ -13,9 +13,8 @@
 =--
 =--
 
-# Faithful representations
-* table of contents
-{: toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -175,6 +174,11 @@ The same applies when $G$ is equipped with extra geometric structure, such as be
 A [[Lie groupoid]] is called  _[[effective Lie groupoid|effective]]_ when the [[action]] of all its [[automorphism groups]] of objects on their [[germs]] is faithful. See at _[[effective Lie groupoid]]_ for more on this.
 
 =--
+
+## Related concepts
+
+* [[linear group]]
+
 
 ## References
 
