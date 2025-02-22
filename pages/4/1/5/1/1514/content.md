@@ -396,9 +396,7 @@ following [Norris 92, theorem (34)](#Norris92).
 
 Other references on mathematical aspects of path integrals include
 
-
-* [[Pierre Cartier]], [[Cecile DeWitt-Morette]], _Functional integration: action and symmetries_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1122.81004&f
-ormat=complete))
+* [[Pierre Cartier]], [[Cécile DeWitt-Morette]], _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics, 2006.  ISBN: 9780521866965.  [doi](https://doi.org/10.1017/CBO9780511535062).
 
 * {#HenneauxTeitelboim} [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_, Princeton University Press 1992
 
