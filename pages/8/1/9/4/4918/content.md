@@ -1,4 +1,4 @@
-Martin Hyland is Professor in Mathematical Logic in the University of Cambridge, and is a Fellow of King's College, Cambridge. Hyland is  known for work on the effective topos (within topos theory), on the lambda-calculus and on game semantics. 
+John Martin Elliott Hyland is Professor in Mathematical Logic in the University of Cambridge, and is a Fellow of King's College, Cambridge. Hyland is  known for work on the effective topos (within topos theory), on the lambda-calculus and on game semantics. 
 
 His  main research interests are in the following.
 
@@ -8,14 +8,15 @@ His  main research interests are in the following.
 
 *  Theoretical Computer Science: Applications of Category Theory, Domain Theory, Polymorphism, Game Semantics. 
 
-
-His webpages are:
+Links:
 
 * [personal webpage](https://www.dpmms.cam.ac.uk/~jmeh1/)
 
 * [institute webpage](https://www.dpmms.cam.ac.uk/person/jmeh1)
 
 * [research page](https://www.dpmms.cam.ac.uk/~jmeh1/Research/research.html)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Martin_Hyland)
 
 ## Selected writings
 
@@ -37,7 +38,9 @@ On the history of [[categorical algebra|categorical]] [[universal algebra]] via 
 * [[Martin Hyland]], [[John Power]], *The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads*, Electronic Notes in Theor. Comp. Sci. **172** (2007) 437-458 &lbrack;[doi:10.1016/j.entcs.2007.02.019](https://doi.org/10.1016/j.entcs.2007.02.019), [preprint](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Publications/2007/hp07.pdf)&rbrack;
 
 
-
+[[!redirects John Martin Elliott Hyland]]
+[[!redirects J. Martin E. Hyland]]
+[[!redirects J. M. E. Hyland]]
 
 
 category: people
