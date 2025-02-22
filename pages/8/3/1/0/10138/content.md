@@ -47,4 +47,13 @@ Locally compact locales are also exactly the [[exponentiable objects]] in the [[
 
 * [[compact locale]]
 
+## References
+
+* Christopher F. Townsend: *A categorical proof of the equivalence of local compactness and exponentiability in locale theory*, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], **47** 3 (2006) 233-239 &lbrack;[numdam:CTGDC_2006__47_3_233_0](http://www.numdam.org/item/CTGDC_2006__47_3_233_0)&rbrack;
+
+* [[J. Martin E. Hyland]]: *Function spaces in the category of locales* in: *Continuous Lattices*, Lecture Notes in Mathematics **871**, Springer (1981) &lbrack;[doi:10.1007/BFb0089910](https://doi.org/10.1007/BFb0089910)&rbrack;
+
+
+
+
 [[!redirects locally compact locales]]
