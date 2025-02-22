@@ -61,5 +61,4 @@ Notably if $EL(S)$ is a homogeneous [[wave equation]] (as for a [[free field the
 ## Related concepts
 
 [[!include holographic principle -- table]]
-
 [[!redirects source fields]]
