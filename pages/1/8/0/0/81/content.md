@@ -24,7 +24,7 @@ Starting with suggestions by [[Galileo]] around 1600 and then clearly so since [
 
 The relation to mathematics is typically the stronger the more one turns to _fundamental physics_ (e.g. [[fundamental particles]]) and away from [[complex systems]] or else the more one coarse-grains irregular complex behaviour and studies [[statistical physics|statistical]] aspects in [[statistical physics]].
 
-The present most fundamental understanding of the physics of the observable universe is summarized in [[models (in theoretical physics)]] called
+The present most fundamental understanding of the physics of the observable universe is based on [[quantum physics]] and summarized in [[models (in theoretical physics)]] called
 
 1. the [[standard model of particle physics]]
 
@@ -40,6 +40,7 @@ which in turn are both instances of the general framework of [[classical field t
 
 Theoretical physics also studies lots of approximate, hypothetical "toy"- and test-case [[models (in theoretical physics)]], exploring the "space of physical theories", and parts of [[mathematical physics]] overlaps with pure [[mathematics]], the relation to physics only serving as a motivation that may or may not eventually lead back to statements about [[phenomenology]]. 
 
+
 ## Related entries
 
 * [[topological physics -- contents]]
@@ -53,6 +54,8 @@ Theoretical physics also studies lots of approximate, hypothetical "toy"- and te
 * [[physics resources]]
 
 * _[The Feynman Lectures on Physics](http://www.feynmanlectures.caltech.edu)_
+
+* Wikipedia: *[Timeline of fundamental physics discoveries](https://en.m.wikipedia.org/wiki/Timeline_of_fundamental_physics_discoveries)*
 
 
 [[!redirects physics]]
