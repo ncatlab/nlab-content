@@ -64,17 +64,36 @@ The class of **solvable groups** is defined inductively by the following clauses
 
 ## Examples
 
-\begin{example}\label{GaloisGroups}
+\begin{example}
+\label{GaloisGroups}
 **([[Galois groups]])**\linebreak
 The terminology "solvable groups" comes from elementary [[Galois theory]]: every [[polynomial]] [[equation]] $\phi$ over an [[integral domain]] $K$ has a corresponding [[Galois group]] $Gal(\phi/K)$, and $Gal(\phi/K)$ is a solvable group if and only if $\phi$ is a [[solvable polynomial equation|solvable equation]] (meaning that all its solutions in an [[algebraic closure]] of $K$ are expressible using the elements of $K$, the field operations, and extraction of roots).
 \end{example}
 
-Informally, this can be thought of as each step in the derived series of the Galois group requiring an additional level of nesting of radicals. If the derived series does not terminate, then the solutions of the polynomial equation cannot be expressed by radicals, no matter how deeply nested.
+\begin{remark}
+Informally, Ex. \ref{GaloisGroups}
+may be thought of as each step in the derived series of the Galois group requiring an additional level of nesting of radicals. If the derived series does not terminate, then the solutions of the polynomial equation cannot be expressed by radicals, no matter how deeply nested.
+\end{remark}
 
 \begin{example}\label{NilpotentGroups}
 **([[nilpotent groups]])**
 A [[nilpotent group]] is a solvable group given by *[[central extensions|central]]* [[group extensions]].
 \end{example}
+
+\begin{example}
+**([[Taketa's theorem]])**
+\linebreak
+[[M-groups]] are [[solvable group|solvable]].
+\end{example}
+([Taketa 1930](Taketa's+theorem#Taketa30), [Isaacs 1976, thm. 5.12](Taketa's+theorem#Isaacs76))
+
+Similarly:
+
+\begin{example}
+ If *some multiple* of any [[complex numbers|complex]] [[irrep]] of a [[finite group]] is [[induced representation|induced]] form an [[irrep]] of a proper [[subgroup]], then the group is [[solvable group|solvable]].
+\end{example}
+([LMT 2013](Taketa's+theorem#LMT13))
+
 
 ## Related concepts
 
