@@ -169,7 +169,9 @@ Textbook accounts
 
 for [[finite groups]]:
 
-* Charles Curtis, Irving Reiner, _Representation theory of finite groups and associative algebras_, AMS 1962
+* Charles Curtis, Irving Reiner: _Representation theory of finite groups and associative algebras_, AMS (1962)
+
+* [[I. Martin Isaacs]]: *Character theory of finite groups*, Academic Press, New York (1976) &lbrack;[ISBN:978-0-8218-4229-4](https://bookstore.ams.org/view?ProductCode=CHEL/359.H)&rbrack;
 
 * {#LuxPahlings10} Klaus Lux, Herbert Pahlings, _Representations of groups -- A computational approach_, Cambridge University Press 2010 ([author page](http://www.math.rwth-aachen.de/~RepresentationsOfGroups/), [publisher page](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521768078))
 
