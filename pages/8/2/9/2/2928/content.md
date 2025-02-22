@@ -54,20 +54,6 @@ A [[topological space]] equipped with an involutive [[homeomorphism]] is sometim
 In view of Rem. \ref{InvolutionsAreZModTwoActions}, involutions on topological spaces are equivalently known as *[[topological G-spaces]]* for $G = $[[cyclic group of order 2|$\mathbb{Z}/2$]]. The case of [[n-spheres]] with involution is discussed [here](group+actions+on+spheres#Involutions).
 \end{remark}
 
-### In dependent type theory
-
-In [[dependent type theory]], there are two different notions of involution. 
-
-\begin{definition}
-A **non-coherent involution** on a type $A$ is an element of the type 
-$$\sum_{i:A \to A} \prod_{x:A} i(i(x)) =_{A} x$$
-\end{definition}
-
-\begin{definition}
-A **coherent involution** on a type $A$ is an element of the type 
-$$\sum_{i:A \to A} \sum_{p:\prod_{x:A}i(i(x)) =_{A} x} \prod_{x:A} p(i(x)) =_{_{i(i(i(x))) =_{A} i(x)}} \mathrm{ap}_i(i(i(x)), x, p(x))$$
-\end{definition}
-
 ## Properties
 
 
