@@ -125,6 +125,7 @@ The [[ordinary cohomology]] with rational coefficients of the [[delooping]] of t
 
 * [[braid group]]
 
+
 ## References
 
 ### General
@@ -142,6 +143,11 @@ Surveys:
 * Nikolai V. Ivanov: *Mapping class groups*, in: *Handbook of geometric topology*, North-Holland (2002) 523-633 &lbrack;1998 draft: [ps](http://www.mth.msu.edu/~ivanov/m99.ps)&rbrack;
 
 * {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of: _Lectures on tensor categories and modular functor_ &lbrack;[web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [[BakalovKirillovChapter5.pdf:file]]&rbrack;
+
+
+Lecture notes:
+
+* [[Henry Wilton]]: *Mapping class groups*, lecture notes (2021) &lbrack;[pdf](https://www.dpmms.cam.ac.uk/~hjrw2/MCG%20lectures.pdf), examples: 1:[pdf](https://www.dpmms.cam.ac.uk/~hjrw2/MCGs%20Sheet%201.pdf), 2:[pdf](https://www.dpmms.cam.ac.uk/~hjrw2/MCGs%20Sheet%202.pdf), 3:[pdf](https://www.dpmms.cam.ac.uk/~hjrw2/MCGs%20Sheet%203.pdf)&rbrack;
 
 See also:
 
