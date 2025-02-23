@@ -1,4 +1,14 @@
 
+## Annular braid group
+
+* Richard P. Kent, David Pfeifer: *A Geometric and algebraic description a
+Of annular braid groups*, International Journal of Algebra and Computation **12** 01n02 (2002) 85-97 &lbrack;[doi:10.1142/S0218196702000997](https://doi.org/10.1142/S0218196702000997)&rbrack;
+
+
+* Paolo Bellingeri, Arnaud Bodin: *The braid group of a necklace*, Mathematische Zeitschrift **283** 3 (2014) &lbrack;[arXiv:1404.2511](https://arxiv.org/abs/1404.2511), [doi:10.1007/s00209-016-1630-0](https://doi.org/10.1007/s00209-016-1630-0)&rbrack;
+
+
+
 ## Asymptotic diffeomorphisms
 
 
