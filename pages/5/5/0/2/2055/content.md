@@ -103,7 +103,7 @@
 
 * [Le Petit Chercheur Illustr&#233;](http://yetaspblog.wordpress.com) (Signal processing and applied math, compressed sensing and inverse problems, random embeddings)
 
-* [Low Dimensional Topology](http://ldtopology.wordpress.com) group blog by Ryan Budney, Nathan Dunfield, Jesse Johnson, Daniel Moskovich and Henry Wilton
+* [Low Dimensional Topology](http://ldtopology.wordpress.com) group blog by Ryan Budney, Nathan Dunfield, Jesse Johnson, [[Daniel Moskovich]] and [[Henry Wilton]]
 
 * [Martin's Blog](http://www.martinorr.name/blog) Martin Orr: algebraic geometry especially abelian varieties, Galois representations
 
