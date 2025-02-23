@@ -349,6 +349,11 @@ In relation to the [[dilogarithm]]:
 
 * [[Daniel S. Freed]], [[Andrew Neitzke]]: *The dilogarithm and abelian Chern-Simons*, J. Differential Geom. **123**  2  (2023) 241-266 &lbrack;[arXiv:2006.12565](https://arxiv.org/abs/2006.12565), [doi:10.4310/jdg/1680883577](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-123/issue-2/The-dilogarithm-and-abelian-ChernSimons/10.4310/jdg/1680883577.short)&rbrack;
 
+On unoriented manifolds:
+
+* Ippo Orii: *On dimensions of $(2+1)D$ abelian bosonic topological systems on unoriented manifolds* &lbrack;[arXiv:2502.13532](https://arxiv.org/abs/2502.13532)&rbrack;
+
+
 
 
 
