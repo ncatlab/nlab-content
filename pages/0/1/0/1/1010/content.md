@@ -12,32 +12,57 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {:toc}
 
 ## Idea
 
-Problems of set theory arise by the unjustified recursion of the naive notion of a 'collection of things.' If 'Col' is one notion of collections (such as 'Set' or 'Class'), then the notion 'Col of all Cols' is in general problematic, as it is subject to the construction of Russell-style paradoxes (although it is not the only source of such paradoxes).
+Problems of [[set theory]] arise by the unjustified [[recursion]] of the naive notion of a 'collection of things.' If 'Col' is one notion of collections (such as '[[set|Set]]' or '[[class|Class]]'), then the notion 'Col of all Cols' is in general problematic, as it is subject to the construction of [[Russell's paradox|Russell-style]] [[paradoxes]] (although it is not the only source of such paradoxes).
 
 One way out is to consider a hierarchy of notions of collections: Postulate that the collection of all 'Col's is not a 'Col' itself but instead is another notion of collection, 'Col+'. We may thus speak of the 'Col+ of all Cols.' Similarly, the collection of all 'Col+'-type collections may be taken to be 'Col++,' and so on.
 
-One formalization of this idea is that of a _Grothendieck universe_. This is defined to be a set $ U $ that behaves like a 'set+ of all sets' in that all the standard operations of set theory (union, power set, etc.) can be performed on its elements.
+One formalization of this idea is that of a _Grothendieck universe_. This is defined to be a [[set]] $U$ that behaves like a 'set+ of all small sets' in that all the standard operations of set theory (union, power set, etc.) can be performed on its elements.
 
-Although developed for application to [[category theory]], the definition is usually given in a form that only makes sense in a membership-based [[set theory]]. On this page, we consider only that version; for a form that makes sense in structural set theory, please see [[universe in a topos]].
+Although developed for application to [[category theory]], the definition is usually given in a form that only makes sense in a [[material set theory|membership-based set theory]]. On this page, we consider only that version; for a form that makes sense in [[structural set theory]] see instead at *[[universe in a topos]]*.
 
 
 
 ## Definition
 
+\begin{definition}
+\label{GrothendieckUniverse}
 A **Grothendieck universe** is a [[pure set]] $ U $ such that:
 
-1. for all $ u \in U $ and $t\in u$, we have $ t \in U $ (i.e., $ U $ is _transitive_);
-1. for all $ u \in U $, we have $ \mathcal{P}(u) \in U $;
-1. $ \varnothing \in U $;
-1. for all $ I \in U $ and functions $ u: I \to U $, we have $ \displaystyle \bigcup_{i \in I} u_{i} \in U $.
+1. (transitivity) for all $ u \in U $ and $t\in u$, we have $ t \in U $;
 
-Some authors leave out (3), which allows the empty set $ \varnothing $ itself to be a Grothendieck universe.  Other authors use the set $ \mathbb{N} $ of [[natural numbers]] in place of $ \empty $ in (3), which prevents the countable set $ V_{\omega} $ of [[hereditarily finite sets]] from being a Grothendieck universe.
+1. ([[power set]]) for all $ u \in U $, we have $ \mathcal{P}(u) \in U $;
+
+1. ([[empty set]]) $ \varnothing \in U $;
+
+1. ([[unions]]) for all $ I \in U $ and functions $ u: I \to U $, we have $\underset{i \in I}{\bigcup} u_{i} \in U $.
+
+\end{definition}
+
+\begin{remark}
+**(variant definitions)**
+\linebreak
+Some authors leave out (3), which allows the empty set $ \varnothing $ itself to be a Grothendieck universe.  Other authors use the set $ \mathbb{N} $ of [[natural numbers]] in place of $ \empty $ in (3), which prevents the [[countable set]] $ V_{\omega} $ of [[hereditarily finite sets]] from being a Grothendieck universe.
+\end{remark}
+
+
+\begin{remark}
+**(terminology)**
+Given a universe $U$, an element of $U$ is called a **$U$-small set**, while a [[subset]] of $U$ is called **$U$-moderate**. Every $U$-small set is $U$-moderate by requirement (1) of def. \ref{GrothendieckUniverse}. If the universe $U$ is understood, we may simply say **small** and **moderate**.
+
+The term **$ U $-large** is ambiguous; it sometimes means 'not small' but sometimes means the same as 'moderate' (or 'moderate but not small'). The reason is that language that distinguishes 'small' from 'large' in terms of sets and [[proper class|proper classes]] translates fairly directly into terms of $ U $-small and $ U $-moderate sets. To be precise, if we redefine 'set' to mean '$ U $-small set,' then every proper class in this new world of sets will be represented by a $ U $-moderate set (a subset of $ U $). Those sets that are not even $ U $-moderate are 'too large' to be translated into language of proper classes.
+
+(Note, though, that not all $ U $-moderate sets represent proper classes in the language of set theory relative to the world of $ U $-small sets, only those that are _first-order definable_ from $ U $-small sets. In fact, if $ \kappa $ is the [[cardinal number|cardinality]] of the universe $ U $, then there are only $ \kappa $ proper classes relative to $ U $, but there are $ 2^{\kappa} $-many $ U $-moderate sets.)
+
+As defined above in def. \ref{GrothendieckUniverse}, these concepts violate the [[principle of equivalence]], as two sets may be [[isomorphism|isomorphic]] yet have different properties with respect to $ U $. However, a set which is isomorphic to a $ U $-small or $ U $-moderate set is called **essentially** $ U $-small or $ U $-moderate; these respect the [[principle of equivalence]].
+\end{remark}
+
 
 
 ## Consequences
@@ -72,16 +97,6 @@ Then using their usual encodings in set theory:
 * the general disjoint union $ \displaystyle \biguplus_{i \in I} u_{i} $ is a subset of $ \displaystyle I \times \bigcup_{i \in I} u_{i} $;
 * the set of functions $ u \to v $ is a subset of $ \mathcal{P}(u \times v) $.
 
-
-## Terminology: Small/Large
-
-Given a universe $ U $, an element of $ U $ is called a **$ U $-small set**, while a subset of $ U $ is called **$ U $-moderate**. Every $ U $-small set is $ U $-moderate by requirement (1) of the definition. If the universe $ U $ is understood, we may simply say **small** and **moderate**.
-
-The term _$ U $-large_ is ambiguous; it sometimes means 'not small' but sometimes means the same as 'moderate' (or 'moderate but not small'). The reason is that language that distinguishes 'small' from 'large' in terms of sets and [[proper class|proper classes]] translates fairly directly into terms of $ U $-small and $ U $-moderate sets. To be precise, if we redefine 'set' to mean '$ U $-small set,' then every proper class in this new world of sets will be represented by a $ U $-moderate set (a subset of $ U $). Those sets that are not even $ U $-moderate are 'too large' to be translated into language of proper classes.
-
-(Note, though, that not all $ U $-moderate sets represent proper classes in the language of set theory relative to the world of $ U $-small sets, only those that are _first-order definable_ from $ U $-small sets. In fact, if $ \kappa $ is the [[cardinal number|cardinality]] of the universe $ U $, then there are only $ \kappa $ proper classes relative to $ U $, but there are $ 2^{\kappa} $-many $ U $-moderate sets.)
-
-As defined above, these concepts violate the [[principle of equivalence]], as two sets may be [[isomorphism|isomorphic]] yet have different properties with respect to $ U $. However, a set which is isomorphic to a $ U $-small or $ U $-moderate set is called **essentially** $ U $-small or $ U $-moderate; these respect the [[principle of equivalence]].
 
 
 ## Axiom of Universes
