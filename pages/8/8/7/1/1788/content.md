@@ -9,10 +9,17 @@ Of annular braid groups*, International Journal of Algebra and Computation **12*
 
 
 
-## Asymptotic diffeomorphisms
+## Asymptotic gauge groups
 
 
 * [[Steve Carlip]]: *Dynamics of Asymptotic Diffeomorphisms in $(2+1)$-Dimensional Gravity*, Class. Quant. Grav. **22** (2005) 3055-3060 &lbrack;[arXiv:gr-qc/0501033](https://arxiv.org/abs/gr-qc/0501033), [doi:10.1088/0264-9381/22/14/014](https://doi.org/10.1088/0264-9381/22/14/014)&rbrack;
+
+* [[Andrew Strominger]]: *Asymptotic Symmetris*, section 2.10 in: *Lectures on the Infrared Structure of Gravity and Gauge Theory*, Princeton University Press (2018) &lbrack;[ISBN:9780691179506](https://press.princeton.edu/books/hardcover/9780691179506/lectures-on-the-infrared-structure-of-gravity-and-gauge-theory?srsltid=AfmBOoqkVIpm2JaFfW7RzM4IXdIwlfMLkDqPPqfi6QEV9FH87fE5InCT), 
+[arXiv:1703.05448](https://arxiv.org/abs/1703.05448)&rbrack;
+
+
+* Silvester Borsboom, [[Hessel Posthuma]]: *Global Gauge Symmetries and Spatial Asymptotic Boundary Conditions in Yang-Mills theory* &lbrack;[arXiv:2502.16151](https://arxiv.org/abs/2502.16151)&rbrack;
+
 
 
 
