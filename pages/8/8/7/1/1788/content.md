@@ -1,4 +1,27 @@
 
+
+$$
+  0
+  \to
+  \pi_1(Maps)
+  \to
+  \pi_2\big(Maps \sslash Diff\big)
+  \to   
+  B (\mathbb{Z} \times \mathbb{Z})
+  \to 
+  \pi_1(Maps)
+  \to
+  \pi_1\big(Maps \sslash Diff\big)
+  \to
+  B MCG
+  \to
+  \mathbb{Z}
+  \to
+  \mathbb{Z}
+  \to
+  \pi_0(B Diff)
+$$
+
 ## Annular braid group
 
 * Richard P. Kent, David Pfeifer: *A Geometric and algebraic description a
