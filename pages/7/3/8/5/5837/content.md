@@ -92,11 +92,11 @@ For $\Sigma$ a [[closed manifold|closed]] [[orientation|orientable]] [[surface]]
  
    $$
      \begin{aligned} 
-        \Pi(Diff(S^2)) & \simeq \Pi(O(3))
+        \Pi\big(Diff(S^2)\big) & \simeq \Pi\big(O(3)\big)
         \\
-        & \simeq MCG(S^2)\times \Pi(SO(3))
+        & \simeq MCG(S^2) \times \Pi\big(SO(3)\big)
         \\
-        & \simeq \mathbb{Z}_2 \times \Pi(SO(3))
+        & \simeq \mathbb{Z}_2 \times \Pi\big(SO(3)\big)
      \end{aligned}
    $$
 
@@ -104,23 +104,29 @@ For $\Sigma$ a [[closed manifold|closed]] [[orientation|orientable]] [[surface]]
 
    $$
      \begin{aligned}
-       \Pi(Diff(S^1 \times S^1)) 
+       \Pi\big(Diff(S^1 \times S^1)\big) 
        & \simeq 
        MCG(S^1 \times S^1)\times \Pi(S^1 \times S^1 )
        \\
-       & \simeq GL_2(\mathbb{Z}) \times B(\mathbb{Z} \times\mathbb{Z})
+       & \simeq 
+       GL_2(\mathbb{Z}) 
+         \times 
+       B(\mathbb{Z} \times\mathbb{Z})
      \end{aligned}
    $$ 
 
 1. in all other cases all higher [[homotopy groups]] vanish:
 
    $$
-     \Pi(Diff(\Sigma)) \simeq MCG(\Sigma)
+     \Pi\big(Diff(\Sigma)\big) 
+       \,\simeq\, 
+     MCG(\Sigma)
+     \,.
    $$
 
 =--
 
-The first statement is due to ([Smale 58](#Smale58)), see also at _[[sphere eversion]]_. The second and third are due to ([Earle-Eells 67](#EarleEells67), [Gramain 73](#Gramain73)).
+The first statement is due to ([Smale 58](#Smale58)), see also at _[[sphere eversion]]_. The second and third are due to ([Earle & Eells 67](#EarleEells67), [Gramain 73](#Gramain73)).
 
 #### For 3-manifolds
 
@@ -228,15 +234,19 @@ The observation that infinite-dimensional  [[smooth groups]] such as diffeomorph
 
 ### For 2-manifolds (surfaces)
 
-* {#EarleEells67} C.J. Earle,  J. Eells, _The diffeomorphism group of a compact Riemann surface,
-Bulletin of the American Mathematical Society 73(4) 557--559, 1967
+On the [[homotopy type]] of the diffeomorphism group of [[surfaces]]:
 
-* {#ZieschangVogtColdeway} Zieschang, Vogt and Coldeway, _Surfaces and planar discontinuous groups_
+* {#EarleEells67} C. J. Earle,  [[James Eells]]: *The diffeomorphism group of a compact Riemann surface*, Bulletin of the American Mathematical Society **73** 4 (1967) 557-559 &lbrack;[euclid:bams/1183528956](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-73/issue-4/The-diffeomorphism-group-of-a-compact-Riemann-surface/bams/1183528956.full)&rbrack;
+
+For the group of [[connected components]] see at *[[mapping class group]]*, including the case of *orbifold* surfaces.
+
+See also:
+
+* {#ZieschangVogtColdeway} Zieschang, Vogt, Coldeway: _Surfaces and planar discontinuous groups_
 
 
 * J. S. Dowker, *Note on the structure constants for the diffeomorphisms of the two-sphere* &lbrack;[arXiv:2301.09487](https://arxiv.org/abs/2301.09487)&rbrack;
 
-See also references at [[mapping class group]], including the case of *orbifold* surfaces.
 
 
 
