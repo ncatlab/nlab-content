@@ -15,6 +15,10 @@ On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]
 
 * [[Steven Carlip]], _Quantum Gravity in 2+1 Dimensions: The Case of a Closed Universe_, Living Rev. Rel. 8:1, 2005 ([arXiv:gr-qc/0409039](https://arxiv.org/abs/gr-qc/0409039))
 
+* [[Steve Carlip]]: *Dynamics of Asymptotic Diffeomorphisms in $(2+1)$-Dimensional Gravity*, Class. Quant. Grav. **22** (2005) 3055-3060 &lbrack;[arXiv:gr-qc/0501033](https://arxiv.org/abs/gr-qc/0501033), [doi:10.1088/0264-9381/22/14/014](https://doi.org/10.1088/0264-9381/22/14/014)&rbrack;
+  > (on [[asymptotic symmetries]])
+
+
 * [[Steven Carlip]], _[My Research -- (2+1)-Dimensional quantum gravity](http://www.physics.ucdavis.edu/Text/Carlip.html#2+1)_
 
 
@@ -23,6 +27,8 @@ On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]
 On [[quantum gravity]] via [[causal sets]]:
 
 * [[Steven Carlip]], *Causal Sets and an Emerging Continuum* &lbrack;[arXiv:2405.14059](https://arxiv.org/abs/2405.14059)&rbrack;
+
+
 
 
 ## Related entries
