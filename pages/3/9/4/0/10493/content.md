@@ -124,7 +124,7 @@ A [[site]] of definition of $Exc^n(\mathcal{C}, \mathbf{H}) \hookrightarrow PSh(
 +-- {: .num_remark}
 ###### Remark
 
-As $n$ ranges, the tower of $n$-excisive approximations of an  $(\infty,1)$-functor, accordding to prop. \ref{nExcisiveApproximations}, forms a tower [[analogy|analogous]] to the the [[Taylor series]] of a [[smooth function]]. This is called the [[Goodwillie-Taylor tower]]
+As $n$ ranges, the tower of $n$-excisive approximations of an  $(\infty,1)$-functor, according to prop. \ref{nExcisiveApproximations}, forms a tower [[analogy|analogous]] to the the [[Taylor series]] of a [[smooth function]]. This is called the [[Goodwillie-Taylor tower]]
 
 $$
   \cdots \to P_{n+1} F \to P_n F \to \cdots \to P_1 F \to P_0 F
