@@ -18,7 +18,7 @@
 
 A [[symmetry]] is (in most classical situations) invariance under a [[group]] [[action]], or [[infinitesimal space|infinitesimally]], invariance under a [[Lie algebra]] action. Indeed, historically the mathematical term "[[group]]" is a contraction of _group of symmetries_ (e.g. [Klein 1872](#Klein1872)). More recently,the concept of symmetry has been a popular topic of study in the Physics literature under the name of [[generalized symmetry]]. 
 
-In [[physics]], see _[[local symmetry]]_, _[[global symmetry]]_, _[[spontaneous symmetry breaking]]_.
+In [[physics]], see _[[local symmetry]]_, _[[global symmetry]]_, *[[asymptotic symmetry]]* _[[spontaneous symmetry breaking]]_.
 
 ## Examples
 
