@@ -468,6 +468,8 @@ Thus the essentially unique factorization of $F$ through $L$ now follows by Prop
 
 ## Related concepts
 
+* [[coreflective localization]]
+
 * [[reflective subcategory]], [[coreflective subcategory]]
 
 * [[essential localization]]
