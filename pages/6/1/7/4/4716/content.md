@@ -211,7 +211,7 @@ Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 * E. Y. Miller, _The homology of the mapping class group_, J. Differential Geom. __24__ (1986), no. 1, 1&#8211;14, [MR88b:32051](http://www.ams.org/mathscinet-getitem?mr=88b:32051), [euclid](http://projecteuclid.org/euclid.jdg/1214440254)
 
 
-### Fibite-index Subgroups
+### Finite-index Subgroups
 
 On [[finite number|finite]] [>index of a subgroup|index]] [[subgroups]] of mapping class groups:
 
@@ -229,6 +229,17 @@ On [[finite number|finite]] [>index of a subgroup|index]] [[subgroups]] of mappi
 * Blazej Szepietowski: *On finite index subgroups of the mapping class group of a nonorientable surface*, Glas. Mat. **49** (2014), 337-350 &lbrack;[arXiv:1401.3557](https://arxiv.org/abs/1401.3557), [doi:10.3336/gm.49.2.08](https://doi.org/10.3336/gm.49.2.08)&rbrack;
 
 
+
+### For orbifolds
+ {#ReferencesForOrbifolds}
+
+On mapping class groups in the generality of [[orbifold|orbifolded]]-[[surfaces]]:
+
+* Jonas Flechsig: *Braid groups and mapping class groups for 2-orbifolds*, PhD thesis, Bielefeld (2023) &lbrack;[doi:10.4119/unibi/2979933](https://doi.org/10.4119/unibi/2979933), [pdf](https://pub.uni-bielefeld.de/download/2979933/2979943/braid_groups_and_mapping_class_groups_for_2-orbifolds.pdf)&rbrack;
+
+* Jonas Flechsig: *Mapping class groups for 2-orbifolds* &lbrack;[arXiv:2305.04272](https://arxiv.org/abs/2305.04272)&rbrack;
+
+* Jonas Flechsig: *Braid groups and mapping class groups for 2-orbifolds* &lbrack;[arXiv:2305.04273](https://arxiv.org/abs/2305.04273)&rbrack;
 
 
 
