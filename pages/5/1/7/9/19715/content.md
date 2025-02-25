@@ -89,7 +89,6 @@ In particular, every impredicative [[strictly Tarski universe]] is strictly impr
 * [[essentially small type]]
 * [[excluded middle]]
 * [[type of all propositions]]
-* [[local propositional resizing]], [[global propositional resizing]]
 * [[impredicative dependent type theory]]
 * [[impredicative universe]]
 
