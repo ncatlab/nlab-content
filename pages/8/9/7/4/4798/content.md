@@ -99,6 +99,8 @@ The fully general description for [[connections on ∞-bundles]] is at
 
 * [[gauge invariance]]
 
+* [[asymptotic symmetry]]
+
 * [[group averaging]]
 
 * [[Haag–Łopuszański–Sohnius theorem]] on symmetries of an [[S-matrix]]
