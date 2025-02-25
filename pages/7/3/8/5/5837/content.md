@@ -236,6 +236,8 @@ Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 
 * J. S. Dowker, *Note on the structure constants for the diffeomorphisms of the two-sphere* &lbrack;[arXiv:2301.09487](https://arxiv.org/abs/2301.09487)&rbrack;
 
+See also references at [[mapping class group]], including the case of *orbifold* surfaces.
+
 
 
 ### For 3-manifolds
