@@ -3,6 +3,8 @@
 
 * [[boundary]], [[manifold with boundary]]
 
+* [[asymptotic symmetry]]
+
 * [[asymptotic isometry]]
 
 * [[anti de Sitter spacetime]]
