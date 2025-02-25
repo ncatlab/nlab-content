@@ -1,2 +1,0 @@
-[[!redirects local propositional resizing]]
-
