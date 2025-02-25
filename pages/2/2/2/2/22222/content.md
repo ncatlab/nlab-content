@@ -26,11 +26,28 @@ Every multiadjunction induces a [[multimonad]].
 ## Definition
 
 \begin{defn}\label{MultiAdjoints}
-Let $R \colon D\to C$ be a [[functor]].  We say $R$ has a **left multi-adjoint** if for each $x \in C$ there is a [[family]] of [[morphisms]] $\{\eta_{x,i} \colon x \to R L(x,i)\}_{i\in I(x)}$ such that for any morphism $f  \colon x\to R y$ there exists a unique [[pair]] of an index $i\in I(x)$ and a morphism $g \colon L(x, i) \to y$ such that $f = R g \circ \eta_{x,i}$.
+Let $R \colon D\to C$ be a [[functor]].  We say $R$ has a **left multi-adjoint** if for each $x \in C$ there are
+
+1. a [[small]] set $I(x)$
+1. a [[family]] $\{L(x,i)\}_{i \in I(x)}$ of objects of $D$
+1. a [[family]] of [[morphisms]] $\{\eta_{x,i} \colon x \to R L(x,i)\}_{i\in I(x)}$
+
+such that for any morphism $f  \colon x\to R y$ there exists a unique [[pair]] of an index $i_f\in I(x)$ and a morphism $g \colon L(x, i_f) \to y$ such that $f = R g \circ \eta_{x,i_f}$:
+\begin{tikzcd}
+	D &&& C \\
+	y && x & Ry \\
+	{L(x,i_f)} &&& {RL(x,i_f)}
+	\arrow["R", from=1-1, to=1-4]
+	\arrow["f", from=2-3, to=2-4]
+	\arrow["{\eta(x,i_f)}"', from=2-3, to=3-4]
+	\arrow["{\exists! g}", dashed, from=3-1, to=2-1]
+	\arrow["Rg"', from=3-4, to=2-4]
+\end{tikzcd}
 \end{defn}
 
 \begin{remark}
 Of course, if each set $I(x)$ is always a [[singleton]], then Def. \ref{MultiAdjoints} reduces to the notion of an actual [[left adjoint]].  On the other hand, if we remove the uniqueness requirement, this reduces to the [[solution set condition]].  Thus, a multi-adjoint is "halfway between" the solution-set condition and the actual existence of an adjoint.
+This point of view is taken seriously in [(Arkor,  Di Liberti, Loregian '24)](#ADLL24).
 \end{remark}
 
 \begin{remark}
@@ -189,6 +206,10 @@ See also:
 * {#Osmond2020a} [[Axel Osmond]], _On Diers theory of Spectrum I: Stable functors and right multi-adjoints_, ([arXiv:2012.00853](https://arxiv.org/abs/2012.00853))
 
 * {#Osmond2020b} [[Axel Osmond]], _On Diers theory of Spectrum II: Geometries and dualities_, ([arXiv:2012.02167](https://arxiv.org/abs/2012.02167))
+
+On other notions of adjoint functors and their relation to each other:
+
+* {#ADLL24} [[Nathanael Arkor]], [[Ivan Di Liberti]], [[Fosco Loregian]], _Adjoint functor theorems for lax-idempotent pseudomonads_, ([tac](http://www.tac.mta.ca/tac/volumes/41/20/41-20abs.html), [arxiv](https://arxiv.org/abs/2306.10389))
 
 [[!redirects left multi-adjoint]]
 [[!redirects right multi-adjoint]]
