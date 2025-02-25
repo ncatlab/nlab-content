@@ -12,6 +12,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -24,11 +25,17 @@ This is useful to obtain [[conformal symmetry]] algebras in some [[theory (physi
 
 ## Related concepts
 
+* [[asymptotic symmetry]]
+
 * [[asymptotic boundary]]
 
 ## References
 
-* J. Brown, [[Marc Henneaux]], _Central charges in the canonical realization of asymptotic symmetries: an example from three-dimensional gravity_, Comm. Math. Phys. __104__ (1986) 207 (key paper!!) [euclid](http://projecteuclid.org/euclid.cmp/1104114999)
+A key paper:
+
+* J. Brown, [[Marc Henneaux]], _Central charges in the canonical realization of asymptotic symmetries: an example from three-dimensional gravity_, Comm. Math. Phys. __104__ (1986) 207  &lbrack;[euclid:cmp/1104114999](http://projecteuclid.org/euclid.cmp/1104114999)&rbrack;
+
+See also:
 
 * Coussaert, [[Marc Henneaux]], P. van Driel, Class. Quant. Grav. __12__ (1995) 2961
 
@@ -40,6 +47,4 @@ New developments
 
 * [[Marc Henneaux]], Soo-Jong Rey, _Nonlinear W(infinity) algebra as asymptotic symmetry of 3-dimensional higher spin Anti-de Sitter gravity_, [arxiv/1008.4579](http://arxiv.org/abs/1008.4579)
 
-[[!redirects asymptotic symmetry]]
-[[!redirects asymptotic symmetries]]
 [[!redirects asymptotic isometries]]
