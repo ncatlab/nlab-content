@@ -14,6 +14,9 @@ On realization of [[knot invariants]]/[[knot homology]] via [[topological string
 
 * [[Mina Aganagic]], [[Cumrun Vafa]], *Large $N$ duality, mirror symmetry, and a Q-deformed A-polynomial for knots* \[<a href="http://arxiv.org/abs/1204.4709">arXiv:1204.4709</a>\]
 
+* Kai Wang, Shengmao Zhu: *BPS invariants from framed links* \[<a href="https://arxiv.org/abs/2502.16609">arXiv:2502.16609</a>\]
+
+
 Understanding this via [[NS5-branes]]/[[M5-branes]]:
 
 * {#Witten11} [[Edward Witten]], _Fivebranes and Knots_, Quantum Topology, Volume 3, Issue 1, 2012, pp. 1-137 \[<a href="http://arxiv.org/abs/1101.3216">arXiv:1101.3216</a>, [doi:10.4171/QT/26](https://www.ems-ph.org/journals/show_abstract.php?issn=1663-487X&vol=3&iss=1&rank=1)\]
