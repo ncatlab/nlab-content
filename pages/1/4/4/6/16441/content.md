@@ -7,13 +7,17 @@
 
 A [[spacetime]] is _asymptotically flat_ if far enough away from any point it looks like flat [[Minkowski spacetime]].
 
-On asymptotically flat spacetimes a total gravitational [[mass]]/[[energy]] is well defined, the _[[ADM mass]]_. See also at _[[positive energy theorem]]_.
+On asymptotically flat spacetimes a total gravitational [[mass]]/[[energy]] is well defined, the _[[ADM mass]]_ generating the [[asymptotic symmetries]]. See also at _[[positive energy theorem]]_.
 
 Regarding a field configuration of [[Einstein gravity]] as a [[Cartan connection]] for the inclusion of the [[Lorentz group]] into the [[Poincaré group]] (see at _[[first-order formulation of gravity]]_), then asymptotic flatness means that the [[Cartan geometry]] asymptotivally approaches its model [[Klein geometry]]. From this perspective there are various generalizations of asymptotic flatness: 
 
 for instance for [[anti de Sitter gravity]] it means that spacetime asymptootes to [[anti de Sitter spacetime]]. For more on this see at _[[AdS-CFT correspondence]]_.
 
 ## Related concepts
+
+* [[asymptotic boundary]]
+
+* [[asymptotic symmetry]]
 
 * [[conformally flat manifold]]
 
