@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+Characterizing the [[complex numbers]] in the context [[quantum information theory via dagger-compact categories]]:
+
+* [[Jamie Vicary]]: *Categorical Properties of The Complex Numbers*, Electronic Notes in Theoretical Computer Science **270** 2 (2011) 163-189 &lbrack;[doi:10.1016/j.entcs.2011.01.030](https://doi.org/10.1016/j.entcs.2011.01.030)&rbrack;
+
+* [[Jamie Vicary]]: *Completeness of dagger-categories and the complex numbers*, J. Math. Phys. **52** (2011) 082104 &lbrack;[arXiv:0807.2927](https://arxiv.org/abs/0807.2927), [doi:10.1063/1.3549117](https://doi.org/10.1063/1.3549117)&rbrack;
 
 On [[quantum measurement]] formulated in [[quantum information theory via dagger-compact categories ]] in terms of [[Frobenius algebras]]:
 
