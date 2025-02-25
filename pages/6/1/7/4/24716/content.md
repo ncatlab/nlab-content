@@ -21,15 +21,15 @@
 
 ## Idea
 
-While the inherently [[probability|probabilistic]] nature of [[quantum physics]] means, roughly, that as soon as there is more than one possibility, no [[quantum measurement]] outcome can be known with certainty; conversely this also means that all outcomes are possible with some probability. This converse statement had been stated by [Gell-Mann 1956](#GellMann56) for the case of [[quantum hadrodynamics]] (p. 859) in this form:
+While the inherently [[probability|probabilistic]] nature of [[quantum physics]] means, roughly, that as soon as there is more than one possibility, no [[quantum measurement]] outcome can be known with certainty; conversely this also means that all outcomes are possible with some probability. This converse statement had been stated by [Gell-Mann 1956](#GellMann56) for the case of [[quantum hadrodynamics]] (p. 859) in this form \[our emphasis\]:
 
-> "Principle of Compulsory Strong Interactions". Among baryons, antibaryons, and mesons, any process which is not forbidden by a conservation law actually does take place with appreciable probability. 
+> "Principle of Compulsory Strong Interactions". Among baryons, antibaryons, and mesons, **any process which is not forbidden** by a conservation law **actually does take place** with appreciable probability. 
 
-The statement is recalled by [Bunge 1976, p. 31](#Bunge76) in the form:
+The statement is recalled by [Bunge 1976, p. 31](#Bunge76) in the form \[our emphasis\]:
 
 > Anything that is not forbidden is compulsory. 
 
-> A more careful wording of the above principle is this: All possible repetitive chance events (in particular all those consistent with the conservation laws) are likely to occur in the long run.
+> A more careful wording of the above principle is this: **All possible** repetitive chance **events** (in particular all those consistent with the conservation laws) are likely to **occur** in the long run.
 
 and by [Israel 1996](#Israel96) in the form:
 
@@ -41,7 +41,7 @@ For better or worse, [Gell-Mann 1956](#GellMann56) on that same page 859 found i
 
 and some historians of science swallowed this red herring and ever since refer to Gell-Mann's "principle of quantum compulsion"  instead as the "totalitarian principle" (eg. [Jaeger 2017](#Jaeger17), [Wikipedia](https://en.wikipedia.org/wiki/Totalitarian_principle), cf. [Kragh 2019a](#Kragh19a)). See also the "principle of plenitude" (cf. [Kragh 2019b](#Kragh19b)).
 
-Notice that Gell-Mann's principle goes against the grain of the *classical* implication (see [[modal logic]]), which is the implication in the opposite direction:
+Notice that Gell-Mann's principle goes against the grain of the *classical* implication (see *[[modal logic]]*), which is the implication in the opposite direction:
 
 $$
   \array{
