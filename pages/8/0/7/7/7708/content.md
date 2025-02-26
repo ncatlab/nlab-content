@@ -247,7 +247,7 @@ in [[Coq]]:
 
 * Claudio Sacerdoti Coen, Enrico Tassi, *Working with Mathematical Structures in Type Theory*, in: *Types for Proofs and Programs. TYPES 2007*, Lecture Notes in Computer Science **4941** Springer (2008) &lbrack;[doi:10.1007/978-3-540-68103-8_11](https://doi.org/10.1007/978-3-540-68103-8_11), [pdf](https://www.cs.unibo.it/~sacerdot/PAPERS/types07.pdf)&rbrack;
 
-* François Garillot, Georges Gonthier, Assia Mahboubi & Laurence Rideau, *Packaging Mathematical Structures*, in: *Theorem Proving in Higher Order Logics. TPHOLs 2009*, Lecture Notes in Computer Science **5674**, Springer (2009) &lbrack;[doi:10.1007/978-3-642-03359-9_23](https://doi.org/10.1007/978-3-642-03359-9_23)&rbrack;
+* François Garillot, [[Georges Gonthier]], Assia Mahboubi & Laurence Rideau, *Packaging Mathematical Structures*, in: *Theorem Proving in Higher Order Logics. TPHOLs 2009*, Lecture Notes in Computer Science **5674**, Springer (2009) &lbrack;[doi:10.1007/978-3-642-03359-9_23](https://doi.org/10.1007/978-3-642-03359-9_23)&rbrack;
 
 * [[Bas Spitters]], Eelis van der Wegen *Type classes for mathematics in type theory*, Mathematical Structures in Computer Science **21** 4 "Interactive Theorem Proving and the Formalisation of Mathematics" (2011) 795-825 &lbrack;[doi:10.1017/S0960129511000119](https://doi.org/10.1017/S0960129511000119), [arXiv:1102.1323](https://arxiv.org/abs/1102.1323)&rbrack;
 
