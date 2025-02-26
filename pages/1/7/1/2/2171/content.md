@@ -3726,6 +3726,8 @@ $$
 
 * [[spherical braid group]]
 
+* [[annular braid group]]
+
 * [[braid representation]]
 
 * [[braid group statistics]]
