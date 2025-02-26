@@ -9,17 +9,7 @@
 
 I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stacks]] and [[internal category|internal groupoids and categories]], and [[category theory]] more generally with a side interest in [[foundations]]. I have a particular interest in constructing examples in (low-dimensional) [[higher geometry]].
 
-
-From May 2022 I am a Visiting Associate Lecturer at the University of Adelaide, in the School of Computer and Mathematical Sciences, and I teach in the Maths Learning Centre (NB this is an independent part of the university, not attached to the School of Maths!).
-For August–December 2022 I am also a casual lecturer for two pure mathematics subjects at Flinders University.
-
-
-For March 2018–December 2021 I was a Research Associate (that is, a postdoc) at the [Institute for Geometry and its Applications](http://www.iga.adelaide.edu.au/) in the [School of Mathematical Sciences](http://maths.adelaide.edu.au/) at U Adelaide.
-
-Previous to this, for July-2017 to February 2018 I was a 'Level B' Lecturer (=Assistant Professor in the US system) in the School of Mathematical Sciences.
-I was also a Research Associate at U Adelaide from October 2012 to April 2015. 
-
-I have also worked as an applied statistician/survey analyst/data analyst/consultant in the public sector, with 3+ years experience of daily work in the software [SAS](https://en.wikipedia.org/wiki/SAS_%28software%29).
+From May 2022 I am a Visiting Associate Lecturer at the University of Adelaide, in the School of Computer and Mathematical Sciences. 
 
 You may also find me on: [zbMATH](https://zbmath.org/authors/roberts.david-michael),  [MathSciNet](https://www.ams.org/mathscinet/search/author.html?mrauthid=788905), [Google Scholar](https://scholar.google.com.au/citations?user=KGianq8AAAAJ&hl=en), [MathOverflow](https://mathoverflow.net/users/4177/david-roberts), [arXiv](https://arxiv.org/a/roberts_d_1.html), [ORCiD](http://orcid.org/0000-0002-3478-0522), [Publons](https://publons.com/a/430214/), or my blog, [theHigherGeometer](https://thehighergeometer.wordpress.com/).
 
@@ -117,7 +107,7 @@ Appears in: Gazette of the Australian Mathematical Society, Vol. 41 (2014) No. 5
 
 ## Talks 
 
-See [[davidroberts:talks|here]] for a comprehensive list.
+See [[davidroberts:talks|here]] for a list.
 
 ## Supervision and teaching
 
