@@ -118,7 +118,7 @@ In the presence of a [[braided monoidal category | braiding]] (such as in a [[sy
 
 * **Yanking:** $Tr^X(\beta_{X,X}) = id_X$ for all $X\in\mathscr{C}$
 
-where $\beta:X\otimes X\to X\otimes X$ is the briading.
+where $\beta:X\otimes X\to X\otimes X$ is the braiding.
 
 A left traced category is defined similarly, with a family of morphisms
 
