@@ -9,9 +9,6 @@
 =--
 =--
 
-
-# Multi-adjoints
-
 * table of contents
 {: toc}
 
