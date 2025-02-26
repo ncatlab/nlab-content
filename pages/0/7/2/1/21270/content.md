@@ -99,6 +99,7 @@ Examples of classical double copy of gauge fields:
 |--|--|--|
 | electric monopole | [[Schwarzschild spacetime]] | ([MOW 15](#MOW15)) |
 | magnetic monopole | massless [[Taub-NUT spacetime]] | ([LMOW 15](#LMOW15)) |
+| self-dual dyon | self-dual [[Taub-NUT space]] | ([Kim 24](#Kim24)) |
 | planar wave | [[pp-wave]] | ([MOW 15](#MOW15)) |
 |planar shockwave | Aichelburg-Sexl shockwave | ([BSW 20](#BSW20)) |
 
@@ -190,6 +191,8 @@ Fundamental bibliography:
 * {#MOW15} Ricardo Monteiro, Donal O'Connell, Chris D. White, _Black holes and the double copy_ ([arXiv:1410.0239](https://arxiv.org/abs/1410.0239))
 
 * {#LMOW15} Andrés Luna, Ricardo Monteiro, Donal O'Connell, Chris D. White, _The classical double copy for Taub-NUT spacetime_ ([arXiv:1507.01869](https://arxiv.org/abs/1507.01869))
+
+* {#Kim24} Joon-Hwi Kim, _Single Kerr-Schild Metric for Taub-NUT Instanton_ ([arXiv:2405.09518](https://arxiv.org/abs/2405.09518))
 
 * Chris D. White, _The double copy: gravity from gluons_ ([arXiv:1708.07056](https://arxiv.org/abs/1708.07056))
 
