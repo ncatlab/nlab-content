@@ -222,6 +222,8 @@ Discussion of [[equivariant K-theory|equivariant]] and [[twisted K-theory|twiste
 
 * {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134), [spire:1601772](http://inspirehep.net/record/1601772))
 
+* Tim Lüders, Lynn Otto, [[Konrad Waldorf]]. *Real twistings are 2-line bundles* (2025). ([arXiv:2502.18102](https://arxiv.org/abs/2502.18102)).
+
 
 This is with motivation from _[[orientifolds]]_, see the references given there for more. A long list of computations of twisted $KR$-classes on tori with applications to [[T-duality]] on [[orientifolds]]/[[O-planes]] is in
 
