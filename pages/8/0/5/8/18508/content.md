@@ -1,4 +1,6 @@
 
+* [personal page](https://www.math.toronto.edu/rwsharpe/)
+
 * [ResearchGate page](https://www.researchgate.net/profile/Richard-Sharpe-6)
 
 * [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=15876)
