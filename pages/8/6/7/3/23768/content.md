@@ -84,7 +84,7 @@ The notion is used in much of the [[dependent type theory|dependent type theoret
 
 * {#CoenTassi08} Claudio Sacerdoti Coen, Enrico Tassi, p. 2 of: *Working with Mathematical Structures in Type Theory*, in: *Types for Proofs and Programs. TYPES 2007*, Lecture Notes in Computer Science **4941** Springer (2008) &lbrack;[doi:10.1007/978-3-540-68103-8_11](https://doi.org/10.1007/978-3-540-68103-8_11), [pdf](https://www.cs.unibo.it/~sacerdot/PAPERS/types07.pdf)&rbrack;
 
-* {#GarillotGonthierMahboubiRideau09} François Garillot, Georges Gonthier, Assia Mahboubi, Laurence Rideau, §2.3 in: *Packaging Mathematical Structures*, in: *Theorem Proving in Higher Order Logics. TPHOLs 2009*, Lecture Notes in Computer Science **5674**, Springer (2009) &lbrack;[doi:10.1007/978-3-642-03359-9_23](https://doi.org/10.1007/978-3-642-03359-9_23)&rbrack;
+* {#GarillotGonthierMahboubiRideau09} François Garillot, [[Georges Gonthier]], Assia Mahboubi, Laurence Rideau, §2.3 in: *Packaging Mathematical Structures*, in: *Theorem Proving in Higher Order Logics. TPHOLs 2009*, Lecture Notes in Computer Science **5674**, Springer (2009) &lbrack;[doi:10.1007/978-3-642-03359-9_23](https://doi.org/10.1007/978-3-642-03359-9_23)&rbrack;
 
 and more widely, often without attribution, for instance in:
 
