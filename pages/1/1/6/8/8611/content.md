@@ -138,7 +138,7 @@ which is a [[contradiction]].
 
 =-- 
 
-A corollary of this result is an important result in its own right, the **normal basis heorem**. 
+A corollary of this result is an important result in its own right, the **normal basis theorem**. 
 
 (Will write this out later. I am puzzled that all the proofs I've so far looked at involve determinants. What happened to the battle cry, "Down with determinants!"?) 
 
@@ -148,7 +148,28 @@ A corollary of this result is an important result in its own right, the **normal
 
 ## References
 
-e.g.
+A modern version of Hilbert's Theorem 90 is explained as part of a general theory of Galois descent on page 29 here:
+
+* Philippe Gille and Tam&aacute;s Szamuely, *Central Simple Algebras and Galois Cohomology*, Cambridge U. Press, 2017.   ([pdf](http://www.math.ens.fr/~benoist/refs/Gille-Szamuely.pdf))
+
+They show this result:
+
++-- {: .num_theorem #mult90modern} 
+###### Theorem  
+Suppose $K$ be a [[finite set|finite]] [[Galois extension]] of a [[field]] $k$ with Galois group $G$. Regard the [[group]] $GL(n,K)$ as a $G$-[[module]]. Then
+
+$$
+  H^1(G, GL(n,K)) = 0
+  \,.
+$$ 
+
+=-- 
+
+An attempt to understand the Galois descent approach more conceptually can be found here:
+
+* John Baez, Group cohomology and homotopy fixed points, *The n-Category Caf&eacute;*.  ([web](https://golem.ph.utexas.edu/category/2020/04/crossed_homomorphisms_part_2.html)).
+
+Also see:
 
 * [[Günter Tamme]], section II 4.3 of _[[Introduction to Étale Cohomology]]_
 
