@@ -35,7 +35,7 @@ In [[Coq]] pseudocode, the cone is given by
       | base :  A -> Cone A
       | edge : A -> Id Cone A vertex base(a)
 
-It can equivalently be defined as the (homotopy) [[pushout]] of $A$ and the unit type $1$ under $A$. Similarly, it is the [[cofiber]] of the [[identity function]] of $A$. This definition makes it clear that the cone type is always a [[contractible type]]. As a result, cone types could be though of as a way of constructing free contractible types for any type $A$. 
+It can equivalently be defined as the (homotopy) [[pushout]] of $A$ and the unit type $1$ under $A$. Similarly, it is the [[cofiber]] of the [[identity function]] of $A$. This definition makes it clear that the cone type is always a [[contractible type]]. As a result, cone types could be thought of as a way of constructing free contractible types for any type $A$. 
 
 The cone type of $A$ can also be defined as the [[localization of a type|localization of $A$]] at the [[empty type]], $\mathrm{Cone}(A) \coloneqq L_\emptyset(A)$, and thus it is the [[(-2)-truncation]] of $A$. 
 
