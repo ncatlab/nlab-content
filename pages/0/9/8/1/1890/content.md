@@ -200,7 +200,7 @@ In that case, this left-strength is [[commutative monad|commutative]] precisely 
 $$
 (x,p) \;\mapsto\; \delta_x\otimes p
 $$
-for all $x\in X$ and $y\in P Y$. This left-strength is [[commutative monad|commutative]] and it allows to define easily the [[product of measures]]. Most probability monads behave analogously.
+for all $x\in X$ and $y\in P Y$. This left-strength is [[commutative monad|commutative]] and it allows us to easily define the [[product of measures]]. Most probability monads behave analogously.
 (Note that the category [[Meas]] has another [[monoidal structure]], which is closed, different from the [[cartesian product]]. For that monoidal structure, the Giry monad is not left-strong - see [Sato '16](#sato).)
 
 
