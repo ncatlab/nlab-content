@@ -65,7 +65,7 @@ $$
 
 * Paolo Bellingeri, pp 4 of: *Surface braids and mapping class group II Braid groups on surfaces of genus 0: group presentations, definitions and torsion elements* &lbrack;[pdf](https://www.mun.ca/aac/media/production/memorial/academic/faculty-of-science/mathematics-and-statistics/atlantic-algebra-centre/media-library/aacminicourses/paolobell/aac2.pdf)&rbrack;
 
-* {#GadbledThielWagner15} Agnes Gadbled, Anne-Laure Thiel, Emmanuel Wagner: *Categorical action of the extended braid group of affine type A* &lbrack;[arXiv:1504.07596](https://arxiv.org/abs/1504.07596)&rbrack;
+* {#GadbledThielWagner15} Agnes Gadbled, Anne-Laure Thiel, Emmanuel Wagner: *Categorical action of the extended braid group of affine type A*,  Communications in Contemporary Mathematics **19** 03 (2017) 1650024 &lbrack;[arXiv:1504.07596](https://arxiv.org/abs/1504.07596), [doi;10.1142/S0219199716500243](https://doi.org/10.1142/S0219199716500243)&rbrack;
 
 
 
