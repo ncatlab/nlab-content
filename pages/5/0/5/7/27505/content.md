@@ -45,7 +45,7 @@ of the affine braid group (Def. \ref{AffineBraidGroup}) with the group of [[inte
 ([Kent & Pfeifer 2002 Thm 1](#KentPfeifer02), cf. [Gadbled, Thiel & Wagner 2015 Rem. 1.1](#GadbledThielWagner15)).
 
 \begin{remark}
-  The [[mapping class group]] of the $n$-punctured [[annulus]] the further [[semidirect product]] of (eq:\label{AnnularBraidGroupAsSemidirectProductOfAffineWithInt}) with another copy of $\mathbb{Z}$:
+  The [[mapping class group]] of the $n$-punctured [[annulus]] the further [[semidirect product]] of (eq:AnnularBraidGroupAsSemidirectProductOfAffineWithInt) with another copy of $\mathbb{Z}$:
 $$
   MCG(\mathbb{A}, n)
   \,\simeq\,
