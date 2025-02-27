@@ -69,8 +69,7 @@ General considerations:
 
 In relation to [[soft graviton theorems]]:
 
-* {#Strominger18} [[Andrew Strominger]]: *Asymptotic Symmetries*, section 2.10 in: *Lectures on the Infrared Structure of Gravity and Gauge Theory*, Princeton University Press (2018) &lbrack;[ISBN:9780691179506](https://press.princeton.edu/books/hardcover/9780691179506/lectures-on-the-infrared-structure-of-gravity-and-gauge-theory?srsltid=AfmBOoqkVIpm2JaFfW7RzM4IXdIwlfMLkDqPPqfi6QEV9FH87fE5InCT), 
-[arXiv:1703.05448](https://arxiv.org/abs/1703.05448)&rbrack;
+* {#Strominger18} [[Andrew Strominger]]: *Asymptotic Symmetries*, section 2.10 in: *Lectures on the Infrared Structure of Gravity and Gauge Theory*, Princeton University Press (2018) &lbrack;[ISBN:9780691179506](https://press.princeton.edu/books/hardcover/9780691179506/lectures-on-the-infrared-structure-of-gravity-and-gauge-theory?srsltid=AfmBOoqkVIpm2JaFfW7RzM4IXdIwlfMLkDqPPqfi6QEV9FH87fE5InCT), [arXiv:1703.05448](https://arxiv.org/abs/1703.05448)&rbrack;
 
 
 For [[electromagnetism]]:
