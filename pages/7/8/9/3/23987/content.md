@@ -1872,6 +1872,27 @@ Talks:
 </center>
 
 
+\linebreak
+
+### Feb 2025
+
+28 Feb 2025
+
+**Quantum Industry Day Featuring Microsoft** 
+
+[www.q-innovision.com/quantum-industry-day-featuring-microsoft](https://www.q-innovision.com/quantum-industry-day-featuring-microsoft)
+
+
+
+<center>
+<a href="https://www.q-innovision.com/quantum-industry-day-featuring-microsoft">
+<img src="/nlab/files/CQTS-QuantumIndustryDay-Feb2025.png" width="900">
+</a>
+</center>
+
+
+
+
 
 
 \linebreak
