@@ -154,6 +154,7 @@ The corrections of [[loop order|1-loop]] [[perturbative QFT|perturbative]] quant
 
 * [[piecewise flat spacetime]]
 
+* [[Hořava–Lifshitz gravity]]
 
 ## References
 
