@@ -19,7 +19,7 @@ A premonoidal category is a generalisation of a [[monoidal category]], applied b
 
 Recall that a [[bifunctor]] from $C$ and $D$ to $E$ (for $C,D,E$ [[categories]]) is simply a [[functor]] to $E$ from the [[product category]] $C \times D$.  We can think of this as an operation which is 'jointly functorial'.  But just as a [[function]] to $X$ from $Y$ and $Z$ (for $X,Y,Z$ [[topological spaces]]) may be [[continuous map|continuous]] in each variable yet not [[jointly continuous function|jointly continuous]] (continuous from the [[Tychonoff product]] $Y \times Z$), so an operation between categories can be functorial in each variable separately yet not jointly functorial.
 
-Recall that a [[monoidal category]] is a [[category]] $C$ equipped with a bifunctor $C \times C \to C$ (equipped with [[extra structure]] such as the [[associator]]).  Similarly, a premonoidal category is a category equipped with an operation $C \times C \to C$, which is (at least) a [[function]] on [[objects]] as shown, but one which is functorial only in each variable separately.
+Recall that a [[monoidal category]] is a [[category]] $C$ equipped with a bifunctor $C \times C \to C$ (equipped with [[extra structure]] such as the [[associator]]).  Similarly, a premonoidal category is a category equipped with an operation $C \times C \to C$, which is (at least) a [[function]] on [[objects]] as shown, but one which need only be functorial in each variable separately.
 
 
 ## Definition
@@ -56,7 +56,7 @@ such that the following conditions hold.
 *  the pentagon law holds for $\alpha$, as in a [[monoidal category]].
 *  the triangle law holds for $\alpha$, $\lambda$, and $\rho$, as in a monoidal category.
 
-A __strict premonoidal category__ is a premonoidal category in which $(x \otimes y) \otimes z = x \otimes (y \otimes z)$, $x \otimes I = x$, and $I \otimes x = x$, and in which $\alpha_{x,y,z}$, $\lambda_x$, and $\rho_x$ are all [[identity morphisms]].  (We need the underlying category $C$ to be a [[strict category]] for this to make sense.)
+A __strict premonoidal category__ is a premonoidal category in which $(x \otimes y) \otimes z = x \otimes (y \otimes z)$, $x \otimes I = x$, and $I \otimes x = x$, and in which $\alpha_{x,y,z}$, $\lambda_x$, and $\rho_x$ are all [[identity morphisms]].  (We need the underlying category $C$ a [[strict category]] for this to make sense.)
 
 Similarly, a **symmetric premonoidal category** is a premonoidal category equipped with a central natural isomorphism $x\otimes y \cong y\otimes x$ (as for $\alpha$, there are two naturality squares unless we use the slick approach), satisfying the usual axioms of a symmetry.
 
