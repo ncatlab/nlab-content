@@ -1,6 +1,7 @@
 
 
 
+[[CQTS-QuantumIndustryDay-Feb2025.png:file]]
 
 
 
