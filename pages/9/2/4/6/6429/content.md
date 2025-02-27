@@ -1,5 +1,13 @@
 
-* [webpage](http://www.physics.harvard.edu/people/facpages/strominger.html)
+
+* [institute page](https://www.physics.harvard.edu/people/facpages/strominger)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Andrew_Strominger)
+
+* [inSpire page](https://inspirehep.net/authors/987332)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=wLDGsmcAAAAJ&hl=en)
+
 
 ## Selected writings
 
@@ -37,6 +45,11 @@ On the [[M5-brane elliptic genus]]:
 On the [[Navier-Stokes equation]] in view of the [[fluid/gravity correspondence]]:
 
 * {#BKLS12} Irene Bredberg, Cynthia Keeler, Vyacheslav Lysov, [[Andrew Strominger]], _From Navier-Stokes To Einstein_, J. High Energ. Phys. (2012) 2012: 146 ([arXiv:1101.2451](https://arxiv.org/abs/1101.2451))
+
+On [[asymptotic symmetries]] and [[soft graviton theorems|soft theorems]]:
+
+* {#Strominger18} [[Andrew Strominger]]: *Lectures on the Infrared Structure of Gravity and Gauge Theory*, Princeton University Press (2018) &lbrack;[ISBN:9780691179506](https://press.princeton.edu/books/hardcover/9780691179506/lectures-on-the-infrared-structure-of-gravity-and-gauge-theory?srsltid=AfmBOoqkVIpm2JaFfW7RzM4IXdIwlfMLkDqPPqfi6QEV9FH87fE5InCT), [arXiv:1703.05448](https://arxiv.org/abs/1703.05448)&rbrack;
+
 
 On [[celestial amplitudes]]:
 
