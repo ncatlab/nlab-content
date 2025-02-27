@@ -1,5 +1,5 @@
 
-This page compiles pointers to material contained in the (upcoming) book collection:
+This page compiles pointers to material contained in the book collection:
 
 
 \linebreak
@@ -12,7 +12,7 @@ This page compiles pointers to material contained in the (upcoming) book collect
 
   \linebreak
 
-  Springer (2023)
+  Springer (2025)
 
   [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)
 
@@ -186,7 +186,7 @@ On [[causal dynamical triangulation]]:
 
 On [[Hořava–Lifshitz gravity]]:
 
-* Andrei O. Barvinsky, *Horava models as palladium of unitarity and renormalizability in quantum gravity* &lbrack;[arXiv:2301.13580](https://arxiv.org/abs/2301.13580)&rbrack;
+* Andrei O. Barvinsky, *Hořava models as palladium of unitarity and renormalizability in quantum gravity* &lbrack;[arXiv:2301.13580](https://arxiv.org/abs/2301.13580)&rbrack;
 
 \linebreak
 
