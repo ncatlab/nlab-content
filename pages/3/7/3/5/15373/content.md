@@ -5,3 +5,5 @@
 * [[idempotent monad]]
 
 category: people
+
+[[!redirects Rory B. B. Lucyshyn-Wright]]
