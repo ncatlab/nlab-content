@@ -3824,9 +3824,11 @@ Further introduction and review:
 
 * {#González-Meneses11} [[Juan González-Meneses]], *Basic results on braid groups*, Annales Mathématiques Blaise Pascal, **18** 1 (2011) 15-59 &lbrack;[ambp:AMBP_2011__18_1_15_0](https://ambp.centre-mersenne.org/item/?id=AMBP_2011__18_1_15_0), [numdam:AMBP_2011__18_1_15_0](http://www.numdam.org/item/AMBP_2011__18_1_15_0)&rbrack;
 
-* Alexander I. Suciu, He Wang, *The pure braid groups and their relatives*,  Perspectives in Lie theory, 403-426, Springer INdAM series, vol. 19, Springer, Cham, 2017 ([arXiv:1602.05291](https://arxiv.org/abs/1602.05291))
+* Alexander I. Suciu, He Wang, *The pure braid groups and their relatives*,  Perspectives in Lie theory, INdAM series, **19** Springer (2017) 403-426 &lbrack;[arXiv:1602.05291](https://arxiv.org/abs/1602.05291)&rbrack;
 
 * [[Dale Rolfsen]]: *New developments in the theory of Artin’s braid groups*, Topology and its Applications **127** 1–2 (2003) 77-90 &lbrack;<a href="https://doi.org/10.1016/S0166-8641(02)00054-8">doi:10.1016/S0166-8641(02)00054-8</a>, [pdf](https://personal.math.ubc.ca/~rolfsen/papers/newbraid/newbraid2.pdf)&rbrack;
+
+* John Guaschi, Daniel Juan-Pineda: *A survey of surface braid groups and the lower algebraic K-theory of their group rings* &lbrack;[arXiv:1302.6536](https://arxiv.org/abs/1302.6536)&rbrack;
 
 * [[Jennifer C. H. Wilson]], *The geometry and topology of braid groups*, lecture at *[2018 Summer School on Geometry and Topology](https://www.pims.math.ca/scientific-event/180611-ssgt)*, Chicago (2018) &lbrack;[pdf](http://www.math.lsa.umich.edu/~jchw/RTG-Braids.pdf), [[Wilson-BraidGroups.pdf:file]]&rbrack;
 
