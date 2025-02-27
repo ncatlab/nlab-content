@@ -72,6 +72,11 @@ A generalisation of locally graded categories to skew-enrichment may be found in
 
 * [[Alexander Campbell]], _Skew-enriched categories_, Applied Categorical Structures 26.3 (2018): 597-615.
 
+For a treatment of $V$-enriched functor categories and bifunctors that is applicable relative to an arbitrary monoidal category $V$ by means of locally graded categories:
+
+* [[Rory Lucyshyn-Wright]], _V-graded categories and V-W-bigraded categories: Functor categories and bifunctors over non-symmetric bases_ &lbrack;[arXiv:2502.18557](https://arxiv.org/abs/2502.18557)&rbrack;
+
+
 
 [[!redirects locally graded categories]]
 [[!redirects locally indexed category]]
