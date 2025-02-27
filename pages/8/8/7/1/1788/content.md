@@ -1,13 +1,14 @@
 
 
+**Understanding Topological Quantum Gates in FQH Systems**
 
-[[CQTS-QuantumIndustryDay-Feb2025.png:file]]
+While fractional quantum Hall (FQH) systems are regarded as a main contender for future hardware implementing topologically protected quantum logic gates ("topological qbits"), the anyonic braiding "statistics" of FQH quasi-particles that has been experimentally reported is, while necessary and impressive, far from sufficient: What is needed instead are externally tunable "defect anyons" whose controlled brading would implement the desired protected gates via the quantum adiabatic theorem.
+
+Here we use our previously established non-Lagrangian effective field theory of FQH systems, based on traditionally elusive consistent flux quantization, to predict (i) how defect anyons may arise in FQH systems and (ii) which operable quantum gates they may implement. Our results use a curious connection between topological quantum processes and generally covariant quantum field theory to low-dimensional algebraic topology and parameterized stable homotopy theory.
 
 
 
-
-Quantum Geons and Noncommutative Spacetimes
-A. P. Balachandran, A. Ibort, G. Marmo, M. Martone
+* A. P. Balachandran, A. Ibort, G. Marmo, M. Martone: *Quantum Geons and Noncommutative Spacetimes*
 
 $$
   0
