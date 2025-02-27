@@ -22,7 +22,7 @@ The notion of *enriched monads* is that of *[[monads]]* in the context of [[enri
 
 Generally (except in the base case $V = $ [[Set]]) the [[structure]] of a $V$-enriched monad on a $V$-[[enriched category]] $\mathbf{C}$ is *stronger* than that of the [[underlying]] monad on the underlying [[Set]]-category $C$, whence one also speaks of *[[strong monads]]* (*a priori* a different notion, which however coincides with that of enriched monads under mild conditions, such as when $V$ is [[closed monoidal category|closed]], see [there](strong+monad#LeftStrongMonadsAreEnrichedMonads)).
 
-The concept of enriched monads is key for the application of [[monads in computer science]], since a [[monad]] coded verbatim in a [[functional programming language]] --- where [[function types]] $X \to Y$ are to be [[categorical semantics|interpreted]] not as external [[hom-sets]] but as [[internal homs]] in the ambient [[closed monoidal category]] $V$ of [[data types]] --- is really a $V$-enriched monad (hence typicall a [[strong monad]]).
+The concept of enriched monads is key for the application of [[monads in computer science]], since a [[monad]] coded verbatim in a [[functional programming language]] --- where [[function types]] $X \to Y$ are to be [[categorical semantics|interpreted]] not as external [[hom-sets]] but as [[internal homs]] in the ambient [[closed monoidal category]] $V$ of [[data types]] --- is really a $V$-enriched monad (hence typically a [[strong monad]]).
 
 
 ## Definition
