@@ -23,6 +23,12 @@ On [[Dirac charge quantization]]:
 
 * [[Julian Schwinger]], *Magnetic Charge and Quantum Field Theory*, Phys. Rev. **144** (1966) 1087 &lbrack;[doi:10.1103/PhysRev.144.1087](https://doi.org/10.1103/PhysRev.144.1087)&rbrack;
 
+Proposing a new "algebra of (selective) measurement" in [[quantum physics]] (later [argued](category+algebra#ReferencesQuantumObservableAlgebrasAsGroupoidAlgebras) to be [[groupoid convolution algebra]]):
+
+* [[Julian Schwinger]]: *Quantum Kinematics and Dynamics*, CRC Press (1969, 1991) &lbrack;[ISBN:9780738203034](https://www.routledge.com/Quantum-Kinematics-And-Dynamic/Schwinger/p/book/9780738203034?srsltid=AfmBOopc1mHvjXy-9P4osTWSNmgMcshwipyqnBSRWr9wbFOAe380eo8h), [pdf](https://api.pageplace.de/preview/DT0400.9780429966484_A34209721/preview-9780429966484_A34209721.pdf)&rbrack;
+
+* [[Julian Schwinger]] (ed.: Berthold-Georg Englert): *Quantum Mechanics -- Symbolism of Atomic Measurements*, Springer (2001) &lbrack;[doi:10.1007/978-3-662-04589-3](https://doi.org/10.1007/978-3-662-04589-3)&rbrack;
+
 
 On [[classical field theory|classical]] [[electrodynamics]]:
 
