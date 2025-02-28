@@ -15,6 +15,11 @@ On *genon* [[defect]] [[anyons]]:
 
 * [[Maissam Barkeshli]], [[Chao-Ming Jian]], [[Xiao-Liang Qi]]: *Twist defects and projective non-Abelian braiding statistics*, Phys. Rev. B **87** (2013) 045130 \[<a href="https://doi.org/10.1103/PhysRevB.87.045130">doi:10.1103/PhysRevB.87.045130</a>, [arXiv:1208.4834](https://arxiv.org/abs/1208.4834)\]
 
+and specifically in [[quantum Hall systems]]:
+
+* [[Maissam Barkeshli]], [[Xiao-Liang Qi]]: *Synthetic Topological Qubits in Conventional Bilayer Quantum Hall Systems*, Phys. Rev. X **4** (2014) 041035 \[<a href="https://doi.org/10.1103/PhysRevX.4.041035">doi:10.1103/PhysRevX.4.041035</a>, [arXiv:1302.2673](https://arxiv.org/abs/1302.2673)\]
+
+
 
 On [[symmetry protected topological phases]] and their [[topological orders]]:
 
