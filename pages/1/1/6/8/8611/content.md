@@ -161,7 +161,7 @@ where in the second line we used $Tr(\beta) = 0$.
 
 +-- {: .num_theorem #mult90modern} 
 ###### Theorem  
-Suppose $K$ be a [[finite set|finite]] [[Galois extension]] of a [[field]] $k$ with Galois group $G$. Regard the [[general linear group]] $GL(n,K)$ as a $G$-[[module]]. Then
+Suppose $K$ is a [[finite set|finite]] [[Galois extension]] of a [[field]] $k$ with Galois group $G$. Regard the [[general linear group]] $GL(n,K)$ as a $G$-[[module]]. Then
 
 $$
   H^1\big(
