@@ -31,11 +31,15 @@ As potential hardware for [[topological quantum computing]]:
 
 * D. V. Averin, V. J. Goldman: *Quantum computation with quasiparticles of the fractional quantum Hall effect*, Solid State Communications **121** 1 (2001) 25-28 \[<a href="https://doi.org/10.1016/S0038-1098(01)00447-1">doi:10.1016/S0038-1098(01)00447-1</a>, [arXiv:cond-mat/0110193](https://arxiv.org/abs/cond-mat/0110193)\]
 
+
 * [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]]: *Topologically-Protected Qubits from a Possible Non-Abelian Fractional Quantum Hall State*, Phys. Rev. Lett. **94**  166802 (2005) \[<a href="https://doi.org/10.1103/PhysRevLett.94.166802">doi:10.1103/PhysRevLett.94.166802</a>, [arXiv:cond-mat/0412343](https://arxiv.org/abs/cond-mat/0412343)\]
 
 * Sergey Bravyi: *Universal Quantum Computation with the $\nu = 5/2$ Fractional Quantum Hall State*, Phys. Rev. A **73** 042313 (2006) \[<a href="https://doi.org/10.1103/PhysRevA.73.042313
 ">doi:10.1103/PhysRevA.73.042313</a>, [arXiv:quant-ph/0511178](https://arxiv.org/abs/quant-ph/0511178)\]
 
+* [[Maissam Barkeshli]], [[Xiao-Liang Qi]]: *Synthetic Topological Qubits in Conventional Bilayer Quantum Hall Systems*, Phys. Rev. X **4** (2014) 041035 \[<a href="https://doi.org/10.1103/PhysRevX.4.041035">doi:10.1103/PhysRevX.4.041035</a>, [arXiv:1302.2673](https://arxiv.org/abs/1302.2673)\]
+
+* Roger S. K. Mong et al.: *Universal Topological Quantum Computation from a Superconductor-Abelian Quantum Hall Heterostructure*, Phys. Rev. X **4** (2014) 011036 \[<a href=" https://doi.org/10.1103/PhysRevX.4.011036">doi:10.1103/PhysRevX.4.011036</a>, [arXiv:1307.4403](https://arxiv.org/abs/1307.4403)\]
 
 
 
