@@ -424,7 +424,7 @@ As before, this holds immediately even for representations of [[(∞,1)-categori
 ###### Theorem
 **(Tannaka duality for $\infty$-permutation representations)**
 
-Let $c$ be an [[(∞,1)-category]] and $Rep_{\infty Grpd}(C) := Func(C,\infty Grpd)$. For $c \in C$ an [[object]], write $F_c : Rep_{\infty Grpd}(C) \to \infty Grpd$ for the corresponding fiber functor.
+Let $C$ be an [[(∞,1)-category]] and $Rep_{\infty Grpd}(C) := Func(C,\infty Grpd)$. For $c \in C$ an [[object]], write $F_c : Rep_{\infty Grpd}(C) \to \infty Grpd$ for the corresponding fiber functor.
 
 Then there is a natural equivalence
  
