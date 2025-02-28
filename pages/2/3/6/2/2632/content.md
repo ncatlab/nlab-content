@@ -584,6 +584,13 @@ This discusses for instance [[higher category theory and physics]] and the [[Boh
 
 
 
+
+[[!include quantum observables as groupoid convolution -- references]]
+
+
+
+
+
 [[!include quantum information theory via string diagrams -- references]]
 
 
