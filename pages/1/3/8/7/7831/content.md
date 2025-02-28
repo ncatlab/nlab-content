@@ -84,6 +84,8 @@ This crucially enters the definition of [[Artin L-functions]] associated with [[
 
 * [[Galois theory]]
 
+* [[Galois descent]]
+
 * [[motivic Galois group]]
 
 ## References
