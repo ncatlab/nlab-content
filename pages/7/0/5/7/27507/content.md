@@ -30,7 +30,7 @@
 
 Textbook account:
 
-* [[James Milne]]: *Descent theory* &lbrack;[pdf](https://www.jmilne.org/math/CourseNotes/AG16.pdf), &rbrack;, chpater 16 of: *Algebraic Geometry* (1996-) &lbrack;[webpage](https://www.jmilne.org/math/CourseNotes/ag.html), [pdf 2008](https://www.jmilne.org/math/CourseNotes/AG510.pdf)&rbrack;
+* [[James Milne]]: *Descent theory* &lbrack;[pdf](https://www.jmilne.org/math/CourseNotes/AG16.pdf), &rbrack;, chapter 16 of: *Algebraic Geometry* (1996-) &lbrack;[webpage](https://www.jmilne.org/math/CourseNotes/ag.html), [pdf 2008](https://www.jmilne.org/math/CourseNotes/AG510.pdf)&rbrack;
 
 Lecture notes:
 
