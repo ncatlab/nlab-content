@@ -168,7 +168,7 @@ Its [[kernel]] is known as the _Brauer relations_ (e.g. [Bartel-Dokchitser 11](#
 ###### Remark
 **(virtual linear permutation representations)**
 
-The [[image]] of the comparison morphism $\beta = K(k[-])$ (Def. \ref{ComparisonMapBurnsideRingRepresentationRing}) may be called the _virtual_ linear permutation representations. 
+The [[image]] of the comparison morphism $\beta = K(k[-])$ (Def. \ref{ComparisonMapBurnsideRingRepresentationRing}) may be called the _virtual_ linear permutation representations.   Any virtual linear permutation representation is a formal difference, in the representation ring of $G$, of elements coming from permutation representations.
 
 =--
 
@@ -414,8 +414,7 @@ The proof of surjectivity for [[p-primary groups]] is due to [Segal 72](#Segal72
 
 Surjectivity for [[binary dihedral groups]] $2 D_{2n}$ for (at least) $2 n \leq 12$, the [[binary tetrahedral group]], [[binary octahedral group]], [[binary icosahedral group]] and the [[general linear group]] $GL(2,\mathbb{F}_3)$ is checked by [[computer experiment]] in [Burton-Sati-Schreiber 18](#BurtonSatiSchreiber18).
 
-
-The non-surjectivity for $G = \mathbb{Z}/3 \times Q_8$ was remarked in [Serre 77, p. 104](#Serre77).
+The non-surjectivity for $G = \mathbb{Z}/3 \times Q_8$ is an exercise in [Serre 77, p. 104](#Serre77).  As a hint, he suggests to embed $\mathbb{Z}/3$ and $Q_8$ in the multiplicative group of the algebra $\mathbb{H}_{\mathbb{Q}}$ (the quaternions defined over $\mathbb{Q}$).  By letting $\mathbb{Z}/3$ act by left multiplication and $Q_8$ act by right multiplication, one obtains a 4-dimensional irreducible representation of $G$ whose character is not a linear combination of characters of permutation representations.  The proof uses a previous exercise and the fact that every subgroup of $G$ is normal.
 
 To see that injectivity holds at most for [[cyclic groups]], notice that over $k = \mathbb{Q}$ we have that
 
