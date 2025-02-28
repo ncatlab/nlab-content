@@ -394,7 +394,7 @@ from Def. \ref{ComparisonMapBurnsideRingRepresentationRing}, which sends [[Burns
 
    1. the [[general linear group]] $GL(2,\mathbb{F}_3)$
 
-1. is _not_ [[surjective map|surjective]] for $G = \mathbb{Z}/3 \times Q_8$ ([[direct product]] of [[cyclic group]] of [[order of a group|order]] 3 with [[quaternion group]] or order 8);
+1. is _not_ [[surjective map|surjective]] for $G = \mathbb{Z}/3 \times Q_8$ ([[direct product]] of [[cyclic group]] of [[order of a group|order]] 3 with [[quaternion group]] of order 8);
 
 1. is [[injective map|injective]] precisely for [[cyclic groups]], 
 
