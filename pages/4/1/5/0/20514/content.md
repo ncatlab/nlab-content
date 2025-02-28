@@ -79,7 +79,7 @@ Indication that the tension is not in systematic errors:
 
 Indication from new data from the [[James Webb Space Telescope]] that the old data does not have systematic errors and the tension is in the data:
 
-* [[Wenlong Yuan]], [[Adam G. Riess]], [[Stefano Casertano]], [[Lucas M. Macri]], *A First Look at Cepheids in a SN Ia Host with JWST* ([arXiv:2209.09101](https://arxiv.org/abs/2209.09101))
+* Wenlong Yuan], [[Adam G. Riess]], Stefano Casertano, Lucas M. Macri: *A First Look at Cepheids in a SN Ia Host with JWST* &lbrack;[arXiv:2209.09101](https://arxiv.org/abs/2209.09101)&rbrack;
 
 Indication that the tension is not resolved by effects in [[inhomogeneous cosmology]] (such as the [[KBC void]]):
 
