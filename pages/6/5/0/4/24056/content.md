@@ -26,7 +26,12 @@ Explicit discussion as defect [[anyons]]:
 
 * [[Xiao-Liang Qi]]: *Defects in topologically ordered states*, talk notes (2014) \[<a href="https://nationalmaglab.org/media/dlpayc5u/qi_1.pdf">pdf</a>, [[Qi-DefectsInTopologicalOrder.pdf:file]]\]
 
+and specifically in [[quantum Hall systems]]:
+
+* [[Maissam Barkeshli]], [[Xiao-Liang Qi]]: *Synthetic Topological Qubits in Conventional Bilayer Quantum Hall Systems*, Phys. Rev. X **4** (2014) 041035 \[<a href="https://doi.org/10.1103/PhysRevX.4.041035">doi:10.1103/PhysRevX.4.041035</a>, [arXiv:1302.2673](https://arxiv.org/abs/1302.2673)\]
+
 * [[Andrey Gromov]]: *Geometric Defects in Quantum Hall States*,  Phys. Rev. B **94** 085116 (2016) \[<a href="https://doi.org/10.1103/PhysRevB.94.085116">doi:10.1103/PhysRevB.94.085116</a>\]
+
 
 see also:
 
