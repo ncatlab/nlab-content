@@ -171,6 +171,13 @@ Computation of quantum observables by [[index]] maps in [[equivariant K-theory]]
 
 * [[Michèle Vergne]], _Geometric quantization and equivariant cohomology_ ([pdf](http://www.math.jussieu.fr/~vergne/pageperso/articles/CONGEURO.pdf))
 
+
+
+[[!include quantum observables as groupoid convolution -- references]]
+
+
+
+
 [[!redirects quantum observables]]
 
 [[!redirects quantum operator]]
