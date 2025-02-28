@@ -1,6 +1,12 @@
 __James S. Milne__ is an [[algebraic geometry|algebraic geometer]].
 
-See [www.jmilne.org](http://www.jmilne.org)
+* [personal page](http://www.jmilne.org)
+
+* <a href="https://en.wikipedia.org/wiki/James_Milne_(mathematician)">Wikipedia entry</a>
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=7742&fChrono=1)
+
+* [GoogleScholar page](https://scholar.google.co.uk/citations?user=6UDvUHMAAAAJ&hl=en)
 
 ## Selected writings:
  {#SelectedWritings}
@@ -24,6 +30,10 @@ On [[Shimura varieties]]:
 On [[algebraic groups]]:
 
 * {#Milne17} [[James Milne]], *Algebraic Groups -- The theory of group schemes of finite type over a field*, Cambridge University Press 2017  ([doi:10.1017/9781316711736](https://doi.org/10.1017/9781316711736), [webpage](http://www.jmilne.org/math/Books/iag.html), [pdf](https://www.jmilne.org/math/CourseNotes/iAG200.pdf))
+
+On [[algebraic geometry]]:
+
+* [[James Milne]]: *Algebraic Geometry* (1996-) &lbrack;[webpage](https://www.jmilne.org/math/CourseNotes/ag.html), [pdf 2008](https://www.jmilne.org/math/CourseNotes/AG510.pdf)&rbrack;
 
 
 On [[algebraic number theory]]:
