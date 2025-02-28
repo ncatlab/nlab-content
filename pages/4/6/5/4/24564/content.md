@@ -44,7 +44,7 @@ These Majorana zero modes were theoretically introduced in a [[spin chain]] [[mo
 
 * and a range of further claims are under similar criticism, see [Frolov & Mourik 2020](https://doi.org/10.5281/zenodo.6344447), [Das Sarma & Pan 2021](#DasSarmaPan21), [Frolov, Mourik & Zuo 2022](https://doi.org/10.5281/zenodo.6325378), [Mourik 2024](#Mourik24) and the extensive list [here](https://twitter.com/spinespresso/status/1503352928656138241) and [here](https://bsky.app/profile/spinespresso.bsky.social/post/3likchwf3p22d). 
 
-While many researchers began to dismiss the whole approach of "Majorana zero modes" (e.g. [BSSA21](#BSSA21), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) a new claim of detection was made by [Nayak 22](#Nayak22) & [MicrosoftQuantum 23](#MicrosoftQuantum23) -- but see the [journal's editorial caveat](#MicrosoftQuantum23Caveat) and cautionary commentary by [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a), [Frolov 22](#Frolov22), [Das Sarma 22, p. 9](#DasSarma22), [Legg 24](#Legg24).
+While many researchers began to dismiss the whole approach of "Majorana zero modes" (e.g. [BSSA21](#BSSA21), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) a new claim of detection was made by [Nayak 22](#Nayak22) & [MicrosoftQuantum 23](#MicrosoftQuantum23) -- but see the [journal's editorial caveat](#MicrosoftQuantum23Caveat) and cautionary commentary by [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a), [Frolov 22](#Frolov22), [Das Sarma 22, p. 9](#DasSarma22), [Legg 24](#Legg24), [Legg 25](#Legg25).
 
 On [19 Feb 2025](https://azure.microsoft.com/en-us/blog/quantum/2025/02/19/microsoft-unveils-majorana-1-the-worlds-first-quantum-processor-powered-by-topological-qubits/)
 a Microsoft Azure press release announced a quantum chip ("*Majorana 1*") suggested to host one topologically protected qbit. The accompanying Nature article [Microsoft Azure Quantum 2025](#AzureFeb25) states more carefully that:
@@ -54,6 +54,8 @@ a Microsoft Azure press release announced a quantum chip ("*Majorana 1*") sugges
 and again the journal issued a [caveat](#AzureFeb25Caveat).
 
 The accompanying company "roadmap" ([arXiv:2502.12252](https://arxiv.org/abs/2502.12252)) mentions the idea of Bonderson et al. 2008 (review [here](https://quantumcomputing.stackexchange.com/q/25638/19363)) of simulating braiding of these immovable states by a measurement-only protocol (a kind of [[quantum simulation]] of actual braiding, see [there](quantum+simulation#OfAnyons)).
+
+Detailed commentary on these claims in [Legg 2025](#Legg25).
 
 
 
@@ -131,7 +133,6 @@ Non-retracted claims of experimental realization of something in the direction o
 * {#MicrosoftQuantum23} M. Aghaee et al. ([Microsoft Quantum](https://www.microsoft.com/en-us/research/research-area/quantum-computing)), *InAs-Al Hybrid Devices Passing the Topological Gap Protocol*, Phys. Rev. B **107** 245423 (2023) &lbrack;[doi:10.1103/PhysRevB.107.245423](https://doi.org/10.1103/PhysRevB.107.245423), [arXiv:2207.02472](https://arxiv.org/abs/2207.02472), [video presentation](https://www.microsoft.com/en-us/research/video/inas-al-hybrid-devices-passing-the-topological-gap-protocol/)&rbrack;
 
   \linebreak
-
   {#MicrosoftQuantum23Caveat} with an accompanying caveat editorial:
 
   Randall D. Kamien, Jessica Thomas, Stephen E. Nagler, Anthony M. Begley, and Sarma Kancharla, *Editorial: Transparency in Physical Review Articles*, Phys. Rev. B **107** 210001 (2023) &lbrack;[doi:10.1103/PhysRevB.107.210001](https://doi.org/10.1103/PhysRevB.107.210001)&rbrack;
@@ -152,6 +153,8 @@ but see commentary in:
 * [[Sergey Frolov]], *[Twitter:1671558089382957056](https://twitter.com/spinespresso/status/1671558089382957056) * (21 June 2023)
 
 * Karmela Padavic-Callaghan, *Microsoft says its weird new particle could improve quantum computers --- Researchers at Microsoft say they have created elusive quasiparticles called Majorana zero modes -- but scientists outside the company are sceptical*, New Scientist (21 June 2023) &lbrack;[web](https://www.newscientist.com/article/2378782-microsoft-says-its-weird-new-particle-could-improve-quantum-computers)&rbrack;
+
+* {#Legg25} Henry F. Legg: *Comment on "InAs-Al hybrid devices passing the topological gap protocol", Microsoft Quantum, Phys. Rev. B 107, 245423 (2023)* &lbrack;[arXiv:2502.19560](https://arxiv.org/abs/2502.19560)&rbrack;
 
 
 and earlier:
@@ -179,6 +182,10 @@ See also:
 * Charles Gould, *Debunking the data behind the "Chiral Majorana fermion modes" claim*, talk at *[International Conference on Reproducibility in Condensed Matter Physics](https://www.pqi.org/international-conference-reproducibility-condensed-matter-physics)*, Pittburgh Quantum Institute (2024) &lbrack;video:[YT](https://youtu.be/fIIx8LL9r0c?list=PLtTPtV8SRcxgDSzmQZ5X9WcHV2PMehPBj)&rbrack;
 
 * {#Legg24} Henry Legg, *Nonlocal conductance as a measure of topological superconducting phases*, talk at *[International Conference on Reproducibility in Condensed Matter Physics](https://www.pqi.org/international-conference-reproducibility-condensed-matter-physics)*, Pittburgh Quantum Institute (2024) &lbrack;video:[YT](https://youtu.be/OmUaLewy6Fs?list=PLtTPtV8SRcxgDSzmQZ5X9WcHV2PMehPBj)&rbrack;
+
+
+
+
 
 \linebreak
 
