@@ -34,9 +34,9 @@ On the [[equivariant Chern character]]:
 
 On [[noncommutative geometry]]:
 
-* Alain Connes, _Noncommutative geometry_, Academic Press 1994, 661 p. [PDF](http://www.alainconnes.org/docs/book94bigpdf.pdf) 
+* [[Alain Connes]]: *Noncommutative geometry*, Academic Press (1994) \[<a href="https://shop.elsevier.com/books/noncommutative-geometry/connes/978-0-08-057175-1">ISBN:9780121858605</a>, [pdf](http://www.alainconnes.org/docs/book94bigpdf.pdf)\]
 
-* Alain Connes, [[Matilde Marcolli]], _Noncommutative geometry, quantum fields and motives_, draft [pdf](http://www.alainconnes.org/docs/bookwebfinal.pdf)
+* [[Alain Connes]], [[Matilde Marcolli]], _Noncommutative geometry, quantum fields and motives_, draft [pdf](http://www.alainconnes.org/docs/bookwebfinal.pdf)
 
 Introducing the [[Bost-Connes system]]:
 
