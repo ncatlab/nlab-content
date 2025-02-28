@@ -18,7 +18,7 @@
 
 ## Idea
 
-Donaldson's theorem states that the [[intersection form]] of a [[compact]] [[orientable]] [[4-manifold]] is [[diagonalizable matrix|diagonalizable]]. It was proven by [[Simon Donaldson]] in 1983 in [Donaldson 83](#Donaldson93) (with additionaly using [[simply connected|simple-connectedness]]) and improved in 1987 in [Donaldson 87](#Donaldson87) (without using [[simply connected|simple-connectedness]]). It became one of the reasons for him getting the Fields Medal in 1986 due to the new method of using the [[moduli space]] of the anti-self-dual [[Yang-Mills equations]] (ASDYM equations) to study the base manifold, which became the ground of [[Donaldson theory]].
+Donaldson's theorem states that the [[intersection form]] of a [[compact]] [[orientable]] [[4-manifold]] is [[diagonalizable matrix|diagonalizable]] if it is [[definite]]. It was proven by [[Simon Donaldson]] in 1983 in [Donaldson 83](#Donaldson93) (with additionaly using [[simply connected|simple-connectedness]]) and improved in 1987 in [Donaldson 87](#Donaldson87) (without using [[simply connected|simple-connectedness]]). It became one of the reasons for him getting the Fields Medal in 1986 due to the new method of using the [[moduli space]] of the anti-self-dual [[Yang-Mills equations]] (ASDYM equations) to study the base manifold, which became the ground of [[Donaldson theory]].
 
 Central consequences of Donaldson's theorem are the existence of [[exotic smooth structures]] on euclidean space in four dimensions and the failure of the [[h-cobordism theorem]] in four dimensions.
 
