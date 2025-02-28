@@ -701,8 +701,8 @@ More along these lines is in
 
 A review in the context of [[geometric quantization]] is in section 4.3 of 
 
-* [[Rogier Bos]], _Groupoids in geometric quantization_ PhD Thesis (2007) [pdf](http://www.math.ist.utl.pt/~rbos/ProefschriftA4.pdf)
- {#Bos}
+* {#Bos} [[Rogier Bos]], _Groupoids in geometric quantization_ PhD Thesis (2007) [pdf](http://www.math.ist.utl.pt/~rbos/ProefschriftA4.pdf)
+ 
 
 Specifically the convolution $C^\ast$-algebras of [[bundle gerbes]] regarded as [[centrally extended groupoids]] (algebras whose [[modules]] (see [below](#ReferencesModulesOverConvolutionAlgebra)) are [[gerbe modules]]/[[twisted bundle]]) is discussed in section 5 of 
 
@@ -712,14 +712,14 @@ Specifically the convolution $C^\ast$-algebras of [[bundle gerbes]] regarded as 
 
 Functoriality of the construction of $C^\ast$-convolution algebras (its extension to groupoid-[[bibundles]]) is discussed in 
 
-* [[Paul Muhly]], [[Jean Renault]], D. Williams, _Equivalence and isomorphism for groupoid $C^\ast$-algebras_, J. Operator Theory 17 (1987), no. 1, 3&#8211;22.
- {#MuhleReaultWilliams87}
+* {#MuhleReaultWilliams87} [[Paul Muhly]], [[Jean Renault]], D. Williams, _Equivalence and isomorphism for groupoid $C^\ast$-algebras_, J. Operator Theory 17 (1987), no. 1, 3&#8211;22.
+ 
 
 * {#Mrcun99} [[Janez Mrčun]], _Functoriality of the bimodule associated to a Hilsum-Skandalis map_. K-Theory 18 (1999) 235&#8211;253.
  
 
-* [[Klaas Landsman]], _The Muhly-Renault-Williams theorem for Lie groupoids and its classical counterpart_, Lett. Math. Phys. 54 (2000), no. 1, 43&#8211;59. ([arXiv:math-ph/0008005](http://arxiv.org/abs/math-ph/0008005))
- {#Landsman00}
+* {#Landsman00} [[Klaas Landsman]], _The Muhly-Renault-Williams theorem for Lie groupoids and its classical counterpart_, Lett. Math. Phys. 54 (2000), no. 1, 43&#8211;59. ([arXiv:math-ph/0008005](http://arxiv.org/abs/math-ph/0008005))
+ 
 
 * [[Klaas Landsman]], _Operator Algebras and Poisson Manifolds Associated to Groupoids_, Commun. Math. Phys. 222, 97 &#8211; 116 (2001) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.7.2716))
 
@@ -731,8 +731,8 @@ A characterization of the convolution algebras of [[étale groupoids]] with thei
 
 * [[Janez Mrčun]], _On spectral representation of coalgebras and Hopf algebroids_ ([arXiv:math/0208199](http://arxiv.org/abs/math/0208199))  
 
-* [[Jure Kališnik]], [[Janez Mrčun]], _Equivalence between the Morita categories of etale Lie groupoids and of locally grouplike Hopf algebroids_ ([arXiv:math/0703374](http://arxiv.org/abs/math/0703374))
- {#KalisnikMrcun}
+* {#KalisnikMrcun} [[Jure Kališnik]], [[Janez Mrčun]], _Equivalence between the Morita categories of etale Lie groupoids and of locally grouplike Hopf algebroids_ ([arXiv:math/0703374](http://arxiv.org/abs/math/0703374))
+ 
 
 #### Modules over Lie groupoid convolution algebras and K-theory
  {#ReferencesModulesOverConvolutionAlgebra}
@@ -751,13 +751,20 @@ Representation of convolution algebras of [[étale groupoids]] is in
 
 The [[operator K-theory]] of groupoid convolution algebras (the [[topological K-theory]] of the corresponding [[differentiable stacks]]) is discussed in
 
-* [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure (2004) Volume: 37, Issue: 6, page 841-910 ([arXiv:math/0306138](http://arxiv.org/abs/math/0306138))
- {#TXLG}
+* {#TXLG} [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure (2004) Volume: 37, Issue: 6, page 841-910 ([arXiv:math/0306138](http://arxiv.org/abs/math/0306138))
+ 
 
 Construction of cocycles in [[KK-theory]] and [[spectral triples]] from groupoid convolution is in 
 
-* Bram Mesland, _Groupoid cocycles and K-theory_ ([arXiv:1005.3677](http://arxiv.org/abs/1005.3677))
- {#Meland}
+* {#Meland} Bram Mesland, _Groupoid cocycles and K-theory_ ([arXiv:1005.3677](http://arxiv.org/abs/1005.3677))
+ 
+
+
+
+
+[[!include quantum observables as groupoid convolution -- references]]
+
+
 
 
 [[!redirects category algebras]]
