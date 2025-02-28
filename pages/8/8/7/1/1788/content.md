@@ -1,52 +1,14 @@
 
-[[quantum observables as groupoid convolution -- references]]
 
-### Quantum observable algebras as Groupoid algebras
- {#ReferencesQuantumObservableAlgebrasAsGroupoidAlgebras}
+* [[Maissam Barkeshli]], [[Xiao-Liang Qi]]: *Synthetic Topological Qubits in Conventional Bilayer Quantum Hall Systems*, Phys. Rev. X **4** (2014) 041035 \[<a href="https://doi.org/10.1103/PhysRevX.4.041035">doi:10.1103/PhysRevX.4.041035</a>, [arXiv:1302.2673](https://arxiv.org/abs/1302.2673)\]
 
-The original derivation of the [[Heisenberg picture]] of [[quantum mechanics]], introducing $N \times N$ [[matrix algebra]] for transitions between $N$ measurable states of atomic spectra, by 
 
-* [[Werner Heisenberg]], *Über quantentheoretische Umdeutung kinematischer und mechanischer Beziehungen*, Zeitschrift für Physik **33** (1925) 879–893 \[<a href="https://doi.org/10.1007/BF01328377">doi:10.1007/BF01328377</a>, [Engl. pdf](http://users.mat.unimi.it/users/galgani/arch/heis25ajp.pdf)\]
+* Roger S. K. Mong et al.: *Universal Topological Quantum Computation from a Superconductor-Abelian Quantum Hall Heterostructure*, Phys. Rev. X **4** (2014) 011036 \[<a href=" https://doi.org/10.1103/PhysRevX.4.011036">doi:10.1103/PhysRevX.4.011036</a>, [arXiv:1307.4403](https://arxiv.org/abs/1307.4403)\]
 
-was argued by 
-
-* [[Alain Connes]], pp 43-44 of: *Noncommutative geometry*, Academic Press (1994) \[<a href="https://shop.elsevier.com/books/noncommutative-geometry/connes/978-0-08-057175-1">ISBN:9780121858605</a>, [pdf](http://www.alainconnes.org/docs/book94bigpdf.pdf)\]
-
-to be fruitfully understood as the [[groupoid convolution algebra]] of the [[pair groupoid]] of transitions between $N$ elements.
-
-Later but more generally, the "algebra of (selective) measurement" originally envision by
-
-* [[Julian Schwinger]]: *Quantum Kinematics and Dynamics*, CRC Press (1969, 1991) &lbrack;[ISBN:9780738203034](https://www.routledge.com/Quantum-Kinematics-And-Dynamic/Schwinger/p/book/9780738203034?srsltid=AfmBOopc1mHvjXy-9P4osTWSNmgMcshwipyqnBSRWr9wbFOAe380eo8h), [pdf](https://api.pageplace.de/preview/DT0400.9780429966484_A34209721/preview-9780429966484_A34209721.pdf)&rbrack;
-
-* [[Julian Schwinger]] (ed.: Berthold-Georg Englert): *Quantum Mechanics -- Symbolism of Atomic Measurements*, Springer (2001) &lbrack;[doi:10.1007/978-3-662-04589-3](https://doi.org/10.1007/978-3-662-04589-3)&rbrack;
-
-is argued to be, in modern language, the [[groupoid convolution algebras]] of [[groupoids]] encoding transitions between possible [[quantum measurement]]-outcomes -- by:
-
-* [[Florio M. Ciaglia]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *Schwinger's Picture of Quantum Mechanics I: Groupoids*, Int.  J. Geometric Methods in Modern Physics **16** 08 (2019) 1950119 \[<a href="https://doi.org/10.1142/S0219887819501196">doi:10.1142/S0219887819501196</a>, [arXiv:1905.12274](https://arxiv.org/abs/1905.12274)\]
-
-* [[Florio M. Ciaglia]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *Schwinger's Picture of Quantum Mechanics II: Algebras and Observables*, Int. J. Geometric Methods in Modern Physics **16** 09 (2019) 1950136 \[<a href="https://doi.org/10.1142/S0219887819501366">doi:10.1142/S0219887819501366</a>, [arXiv:1907.03883](https://arxiv.org/abs/1907.03883)\]
-
-* [[Florio M. Ciaglia]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *Schwinger's Picture of Quantum Mechanics II: Algebras and Observables*, Int. J. Geometric Methods in Modern Physics **16** 11 (2019) 1950165 \[<a href="https://doi.org/10.1142/S0219887819501652">doi:10.1142/S0219887819501652</a>, [arXiv:1909.07265](https://arxiv.org/abs/1909.07265)\]
-
-* [[Florio M. Ciaglia]], [[Fabio Di Cosmo]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *Schwinger's Picture of Quantum Mechanics IV: Composition and independence*, Int. J. Geometric Methods in Modern Physics **17** 04 (2020) 2050058 \[<a href="https://doi.org/10.1142/S0219887820500589">doi:10.1142/S0219887820500589</a>, [arXiv:2004.02472](https://arxiv.org/abs/2004.02472)\]
-
-* [[Florio M. Ciaglia]], [[Fabio Di Cosmo]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *Schwinger's picture of Quantum Mechanics*, Int. J. Geometric Methods in Modern Physics **17** 04 (2020)  2050054 \[<a href="https://doi.org/10.1142/S0219887820500541">doi:10.1142/S0219887820500541</a>, [arXiv:2002.09326](https://arxiv.org/abs/2002.09326)\]
-
-and as such further developed in:
-
-* [[Florio M. Ciaglia]], [[Fabio Di Cosmo]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *Schrödinger's problem with cats: measurements and states in the Groupoid Picture of Quantum Mechanics*, Entropy **22** 11 (2020) \[<a href="https://doi.org/10.3390/e22111292">doi:10.3390/e22111292</a>, [arXiv:2012.10284](https://arxiv.org/abs/2012.10284)\]
-
-* [[Florio M. Ciaglia]], [[Fabio Di Cosmo]], [[Alberto Ibort]], [[Giuseppe Marmo]], [[Luca Schiavone]]: *Schwinger's picture of quantum mechanics: 2-groupoids and symmetries*, Journal of Geometric Mechanics **13** 3 (2021) \[<a href="https://doi.org/10.3934/jgm.2021008">doi:10.3934/jgm.2021008</a>, [arXiv:2104.13880](https://arxiv.org/abs/2104.13880)\]
-
-* [[Florio M. Ciaglia]], [[Fabio Di Cosmo]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *Quantum Tomography and Schwinger's Picture of Quantum Mechanics*, Journal of Physics A: Mathematics and Theoretical **55** 27 (2022) \[<a href="https://doi.org/10.1088/1751-8121/ac7591">doi:10.1088/1751-8121/ac7591</a>, [arXiv:2205.00170](https://arxiv.org/abs/2205.00170)\]
-
-* [[Florio M. Ciaglia]], [[Fabio Di Cosmo]], [[Paolo Facchi]], [[Alberto Ibort]], [[Arturo Konderak]], [[Giuseppe Marmo]]: *Groupoid and algebra of the infinite quantum spin chain*, Journal of Geometry and Physics **191** (2023) \[<a href="https://doi.org/10.1016/j.geomphys.2023.104901">doi:10.1016/j.geomphys.2023.104901</a>, [arXiv:2302.01050](https://arxiv.org/abs/2302.01050)\],
+* D. V. Averin, V. J. Goldman: *Quantum computation with quasiparticles of the Fractional Quantum Hall Effect*, Solid State Communications **121** 1 (2001) 25-28 \[<a href="https://doi.org/10.1016/S0038-1098(01)00447-1">doi:10.1016/S0038-1098(01)00447-1</a>, [arXiv:cond-mat/0110193](https://arxiv.org/abs/cond-mat/0110193)\]
 
 
 
-Previously, the observation that [[Werner Heisenberg|Heisenberg's]]
-
-* [[Alain Connes]]: *Noncommutative geometry*, Academic Press (1994) \[<a href="https://shop.elsevier.com/books/noncommutative-geometry/connes/978-0-08-057175-1">ISBN:9780121858605</a>, [pdf](http://www.alainconnes.org/docs/book94bigpdf.pdf)\]
 
 
 
