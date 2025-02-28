@@ -15,11 +15,17 @@
 
 This page collects links related to the textbook
 
-* [[Günter Tamme]],
+* [[Günter Tamme]]:
 
-  _Introduction to &#201;tale Cohomology_
+  \linebreak
 
-  1994
+  **Introduction to &#201;tale Cohomology**
+
+  \linebreak
+
+  Speinger (1994)
+
+  [doi:10.1007/978-3-642-78421-7](https://doi.org/10.1007/978-3-642-78421-7)
 
 
 on [[étale cohomology]].
