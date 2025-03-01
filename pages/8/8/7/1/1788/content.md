@@ -1,4 +1,62 @@
 
+**Perì Pantheōrías**
+
+Speaking of a "Theory of Everything", how deep can we go?
+
+Use formal language as metaphysical microscope to dig deeper.
+
+\begin{imagefromfile}
+  "file_name": "Adjointness.jpg",
+  "width": 460,
+  "float": "right",
+  "margin": {
+    "top": -40,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  }
+\end{imagefromfile}
+
+Beyond the all-familiar mathematics of quantity,
+
+there is a mathematics of, in this order,
+
+**structure**, **duality**, **quality** & **effects**
+
+That's of course category theory:
+
+**categories**, **adjunctions**, **modalities** & **monads**
+
+$\Rightarrow$ progression of modalities out of `\nothing`:
+
+<a href="https://ncatlab.org/schreiber/files/EquivariantSuperHomotopyTheory120314a.pdf#page=74">
+<img src="https://ncatlab.org/schreiber/files/TheProcessAnimated.gif" width="700>"
+</a>
+
+<div style="float:right;margin:-60px 10px 10px 0;">
+<a href="https://ncatlab.org/nlab/show/cohesive">
+<img src="https://ncatlab.org/schreiber/files/Progression.jpg" width="280" />
+</a></div>
+
+
+This exhibits the super-point as emerging from `\nothing`.
+
+From the super-point then emerges super-spacetime
+
+from super-spacetime emerbes the super-branes
+
+culminating in the M-branes embodied by the 4-Sphere.
+
+
+
+<center>
+<a href="https://ncatlab.org/schreiber/files/EquivariantSuperHomotopyTheory120314a.pdf#page=74">
+<img src="https://ncatlab.org/schreiber/files/BraneBouquetAnimated.gif" width="700>"
+</a>
+</center>
+
+
 
 * [[Maissam Barkeshli]], [[Xiao-Liang Qi]]: *Synthetic Topological Qubits in Conventional Bilayer Quantum Hall Systems*, Phys. Rev. X **4** (2014) 041035 \[<a href="https://doi.org/10.1103/PhysRevX.4.041035">doi:10.1103/PhysRevX.4.041035</a>, [arXiv:1302.2673](https://arxiv.org/abs/1302.2673)\]
 
