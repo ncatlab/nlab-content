@@ -715,7 +715,15 @@ category: physics
 [[!redirects quantum Hall system]]
 [[!redirects quantum Hall systems]]
 
+[[!redirects FQH system]]
+[[!redirects FQH systems]]
+
 
 [[!redirects fractional quantum Hall system]]
 [[!redirects fractional quantum Hall systems]]
+
+
+
+
+
 
