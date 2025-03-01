@@ -215,7 +215,7 @@ Systematic discussion from the point of view of [[localization]] and [[homotopy 
 
 and, similarly, in section 7 of 
 
-* [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+* [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf), [archive.org](https://archive.org/details/Pierre_Schapira___Categories_and_Homological_Algebra), [newer version(pdf)](https://perso.imj-prg.fr/pierre-schapira/wp-content/uploads/schapira-pub/lectnotes/HomAl.pdf))
  {#Schapira}
 
 For the model-category version of this story for an arbitrary ringed site, including details about the tensor, internal hom, and $(-)_!$ and $(-)^*$, see Appendix C of
