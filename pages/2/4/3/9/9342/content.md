@@ -36,11 +36,11 @@ Since this very coarse (but remarkably successful) perturbative concept of quant
 
 {#BeyondInfinitesimalNeighbourhood} **Beyond the infinitesimal neighbourhood of perturbation theory.** More concretely, if we think of generic ([[Lagrangian field theory|Lagrangian]]) [[quantum field theories]] as parameterized by 
 
-1. [[Planck's constant]]$\;\hbar$, 
+1. [[Planck's constant]]$\phantom{-}\hbar$, 
 
    expressing the "strength of [[quantum physics|quantum effects]]",
 
-1. [[coupling constants]]$\;g$, 
+1. [[coupling constants]]$\phantom{-}g$, 
 
    expressing the strength of [[interactions]] of [[field (physics)|fields]],
 
