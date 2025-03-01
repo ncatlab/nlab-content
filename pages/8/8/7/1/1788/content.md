@@ -3,7 +3,7 @@
 
 Speaking of "Theories of Everything", how deep can we go?
 
-Use suitable formal language as metaphysical microscope.
+Use suitable *formal language as metaphysical microscope*.
 
 \begin{imagefromfile}
   "file_name": "Adjointness.jpg",
