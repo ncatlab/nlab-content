@@ -233,7 +233,9 @@ An attempt to understand the Galois descent approach more conceptually:
 * [[John Baez]]: *Group cohomology and homotopy fixed points*, *The n-Category Caf&eacute;*.  &lbrack;[web](https://golem.ph.utexas.edu/category/2020/04/crossed_homomorphisms_part_2.html)&rbrack;
 
 
+Version in [[symmetric monoidal categories]]: 
 
+* Ahmed Saleh Al-Rawashdeh, Bachuki Mesablishvili, *Hilbert's Theorem 90 in monoidal categories*, Journal of Algebra **602** (2022) &lbrack;[doi:10.1016/j.jalgebra.2022.02.013](https://doi.org/10.1016/j.jalgebra.2022.02.013)&rbrack;
 
 
 [[!redirects Hilbert Theorem 90]]
