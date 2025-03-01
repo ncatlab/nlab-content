@@ -39,3 +39,9 @@ and as such further developed in:
 * [[Florio M. Ciaglia]], [[Fabio Di Cosmo]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *Quantum Tomography and Schwinger's Picture of Quantum Mechanics*, Journal of Physics A: Mathematics and Theoretical **55** 27 (2022) \[<a href="https://doi.org/10.1088/1751-8121/ac7591">doi:10.1088/1751-8121/ac7591</a>, [arXiv:2205.00170](https://arxiv.org/abs/2205.00170)\]
 
 * [[Florio M. Ciaglia]], [[Fabio Di Cosmo]], [[Paolo Facchi]], [[Alberto Ibort]], [[Arturo Konderak]], [[Giuseppe Marmo]]: *Groupoid and algebra of the infinite quantum spin chain*, Journal of Geometry and Physics **191** (2023) \[<a href="https://doi.org/10.1016/j.geomphys.2023.104901">doi:10.1016/j.geomphys.2023.104901</a>, [arXiv:2302.01050](https://arxiv.org/abs/2302.01050)\],
+
+Proof that [[C* algebraic deformation quantization|non-perturbative]] [[quantum observables]] on [[Yang-Mills theory|Yang-Mill]] [[fluxes]] through a [[surface]] form a [[convolution algebra]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]], Thm 1 in: *[[schreiber:Quantum Observables of Quantized Fluxes]]*, Annales Henri Poincaré (2024) \[<a href="https://doi.org/10.1007/s00023-024-01517-z">doi:10.1007/s00023-024-01517-z</a>, [arXiv:2312.13037](https://arxiv.org/abs/2312.13037)\]
+
+
