@@ -80,8 +80,11 @@ For instance
 * Christoph Sachse, section 2.2.1 of _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
 
 
+[[!redirects superpoints]]
+
 [[!redirects super point]]
 [[!redirects super points]]
 
+[[!redirects super-point]]
+[[!redirects super-points]]
 
-[[!redirects superpoints]]
