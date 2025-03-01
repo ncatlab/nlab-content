@@ -785,7 +785,7 @@ $$
 
 be the corresponding [[bisimplicial set]] which in degree $k$ is the the constant simplicial set on the set $X_k$ of $k$-simplices. 
 
-For the standard homotopical structure on $sSet^{\Delta^{op}}$, the homotopy colimit over $\tilde X$ is equivalent to the origianal $X$:
+For the standard homotopical structure on $sSet^{\Delta^{op}}$, the homotopy colimit over $\tilde X$ is equivalent to the original $X$:
 
 $$
   hocolim \tilde X \stackrel{\simeq}{\to} X
