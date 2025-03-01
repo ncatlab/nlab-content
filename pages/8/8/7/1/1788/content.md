@@ -1,9 +1,9 @@
 
 **Perì Pantheōrías**
 
-Speaking of a "Theory of Everything", how deep can we go?
+Speaking of "Theories of Everything", how deep can we go?
 
-Use formal language as metaphysical microscope to dig deeper.
+Use suitable formal language as metaphysical microscope.
 
 \begin{imagefromfile}
   "file_name": "Adjointness.jpg",
@@ -20,15 +20,15 @@ Use formal language as metaphysical microscope to dig deeper.
 
 Beyond the all-familiar mathematics of quantity,
 
-there is a mathematics of, in this order,
+there is a mathematics of, in this order:
 
-**structure**, **duality**, **quality** & **effects**
+**structure**, **duality**, **quality** & **effects**.
 
-That's of course category theory:
+That's [[geometry of physics -- categories and toposes|of course]] [[category theory]]:
 
-**categories**, **adjunctions**, **modalities** & **monads**
+**[[categories]]**, **[[adjunctions]]**, **[[modalities]]** & **[[monads]]**
 
-$\Rightarrow$ progression of modalities out of `\nothing`:
+$\Rightarrow$ [progression of modalities](/schreiber/show/Modern+Physics+formalized+in+Modal+Homotopy+Type+Theory#TheMethod) out of `\nothing`:
 
 <a href="https://ncatlab.org/schreiber/files/EquivariantSuperHomotopyTheory120314a.pdf#page=74">
 <img src="https://ncatlab.org/schreiber/files/TheProcessAnimated.gif" width="700>"
@@ -40,7 +40,15 @@ $\Rightarrow$ progression of modalities out of `\nothing`:
 </a></div>
 
 
-This exhibits the super-point as emerging from `\nothing`.
+This exhibits the [[super-point]] as emerging from `\nothing`,
+
+via a progression through the qualia of
+
+1. [[differential topology]]$\;$ [[shape modality|$\esh$]] $\dashv$ [[flat modality|$\flat$]] $\dashv$ [[sharp modality|$\sharp$]]
+
+1. [[differential geometry]]$\;$[[reduction modality|$Re$]] $\dashv$ [[infinitesimal shape modality|$\Im$]] $\dashv$ [[infinitesimal flat modality|&amp;]]  
+
+1. [[super-geometry]]$\;$ [[fermionic modality|$\rightrightarrows$]] $\dashv$ [[bosonic modality|$\rightsquigarrow$]] $\dashv$ [[rheonomy modality|$Rh$]]
 
 From the super-point then emerges super-spacetime
 
