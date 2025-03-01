@@ -65,6 +65,17 @@ culminating in the M-branes embodied by the 4-Sphere.
 </center>
 
 
+The emergence of the [[4-sphere]] here suggests
+
+that this is the correct classifying space for
+
+flux-quantization of [[D=11 supergravity]].
+
+Indeed:
+
+<img src="/schreiber/files/M5ProbeAtSeifert-animated.gif" width="900">
+
+
 
 * [[Maissam Barkeshli]], [[Xiao-Liang Qi]]: *Synthetic Topological Qubits in Conventional Bilayer Quantum Hall Systems*, Phys. Rev. X **4** (2014) 041035 \[<a href="https://doi.org/10.1103/PhysRevX.4.041035">doi:10.1103/PhysRevX.4.041035</a>, [arXiv:1302.2673](https://arxiv.org/abs/1302.2673)\]
 
