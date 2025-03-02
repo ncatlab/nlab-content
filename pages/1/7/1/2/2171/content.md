@@ -3445,9 +3445,9 @@ Then the [[mapping class groups]] ($MCG(-) \coloneqq \pi_0 Homeo^{+,\partial}(-)
 
 relate to the [[surface braid groups]]
 
-* $Br_n(Sigma)$ (ordinary braid group)
+* $Br_n(\Sigma)$ (ordinary braid group)
 
-* $PBr_n(Sigma)$ (pure braid group)
+* $PBr_n(\Sigma)$ (pure braid group)
 
 * $Sym_n$ (the [[symmetric group]])
 
