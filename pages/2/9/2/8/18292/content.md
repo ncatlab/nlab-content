@@ -45,6 +45,14 @@ This article will provide links to other articles in which these various cases a
 
 ## References
 
+Ancient origins:
+
+* [[Nicomachus of Gerasa]]: *Introduction to Arithmetic* (~90-~120 AD)
+
+  translation by D'Ooge (1926) &lbrack;[web](https://babel.hathitrust.org/cgi/pt?id=mdp.39015005675411&seq=9)&rbrack;
+
+  interlinear translation by Juan and Maria Balboa (2020) &lbrack;[archive](https://archive.org/details/nicomachus-arithmetic-balboa)&rbrack;
+
 See also
 
 * Wikipedia, _[Arithmetic](https://en.wikipedia.org/wiki/Arithmetic)_
