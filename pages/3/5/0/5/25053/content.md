@@ -14,7 +14,8 @@ On the [[first-order formulation of gravity]] via [[L-infinity algebras|$L_\inft
 
 On [[smooth sets]] as a [[convenient category of spaces|convenient category]] for [[variational calculus]] in [[Lagrangian quantum field theory|Lagrangian]] [[classical field theory]]:
 
-* [[Grigorios Giotopoulos]], [[Hisham Sati]], *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]* &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301)&rbrack;
+* {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]], *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]*, Journal of Geometry and Physics
+(2025) 105462 &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301), [doi:10.1016/j.geomphys.2025.105462](https://doi.org/10.1016/j.geomphys.2025.105462)&rbrack;
 
 Expositions:
 
