@@ -107,17 +107,19 @@ With that understood, we see Euclid's crystal clear definition of [[prime number
 > A prime number is that which is measured by a monad alone. ([source](https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0086%3Abook%3D7%3Atype%3Ddef%3Anumber%3D11))
 
 
-The use of the term "monad" as in "unit" appears again in *Introduction to Arithmetics* by Nicomachus of Gerasa (c. 60 – c. 120 AD). For example, in Book 1 Chapter 7 (e.g. [Balboa and Balboa 21](#Balboa21)) he states:
+The use of the term "monad" as in "unit" appears again in *Introduction to Arithmetics* by [[Nicomachus of Gerasa]] (c. 60 – c. 120 AD). For example, in Book 1 Chapter 7 (e.g. [Balboa and Balboa 21](#Balboa21)) he states:
 
-> Number Is Limited/Definite/Bounded Multitude or a Composition of Monads/Units or A Flow of Quantity composed out of Monads/Units ;
+> Number Is Limited/Definite/Bounded Multitude or a Composition of Monads/Units or A Flow of Quantity composed out of Monads/Units;
 
-> Αριθµος εστι ωρισµενον πληθος η συστηµα µοναδων η χυµα ποσσοτητος συγκειµενον εκ µοναδων ;
+> Αριθµος εστι ωρισµενον πληθος η συστηµα µοναδων η χυµα ποσσοτητος συγκειµενον εκ µοναδων;
 
-> On the one hand , The Even is, That which can be Divided into Two Equal Parts without A Monad/Unit Intervening in The Middle ; whereas on the other hand , The Odd is That which cannot be Cut/Divided into Two Equal Parts by the before-mentioned Intervention of The Monad/Unit.
+> On the one hand, The Even is, That which can be Divided into Two Equal Parts without A Monad/Unit Intervening in The Middle; whereas on the other hand, The Odd is That which cannot be Cut/Divided into Two Equal Parts by the before-mentioned Intervention of The Monad/Unit.
 
-> µεν αρτιον εστι , ο οιον διαιρεθηναι τε εις δυο ισα µη µοναδος παρεµπιπτουσης µεσον , δε περιττον το µη δυναµενον µερισ− εις δυο ισα −θηναι δια την προειρηµενην µεσιτειαν την µοναδος .
+> µεν αρτιον εστι, ο οιον διαιρεθηναι τε εις δυο ισα µη µοναδος παρεµπιπτουσης µεσον, δε περιττον το µη δυναµενον µερισ− εις δυο ισα −θηναι δια την προειρηµενην µεσιτειαν την µοναδος.
 
 Part I of the [D'Ooge 1926](#Dooge26) translation of *Introduction to Arithmetics* contains further discussion about the concept of the monad in other mathematical texts (e.g. Theon of Alexandria (p.37), Iamblichus (p.96, 127), and Boethius (p. 134)).
+
+
 
 ### Middle ages: Monads as metaphysical units
  {#metaphysics}
@@ -253,11 +255,13 @@ The ancient mathematical notion of monads as arithmetic units:
 
   [Perseus Digital Library](https://www.perseus.tufts.edu/hopper/text?doc=Euc.+1.&fromdoc=Perseus%3Atext%3A1999.01.0085)
 
-which appears again in Nicomachus of Gerasa, *Introduction to Arithmetic*
+which appears again in 
 
-* {#Balboa21} interlinear translation by Juan and Maria Balboa ([archive](https://archive.org/details/nicomachus-arithmetic-balboa)),
+* [[Nicomachus]] of Gerasa: *Introduction to Arithmetic* (~90-~120 AD)
 
-* {#Dooge26} translation by D'Ooge 1926 ([web](https://babel.hathitrust.org/cgi/pt?id=mdp.39015005675411&seq=9)).
+* {#Balboa21} interlinear translation by Juan and Maria Balboa &lbrack;[archive](https://archive.org/details/nicomachus-arithmetic-balboa)&rbrack;
+
+* {#Dooge26} translation by D'Ooge (1926) &lbrack;[web](https://babel.hathitrust.org/cgi/pt?id=mdp.39015005675411&seq=9)&rbrack;
 
 
 
