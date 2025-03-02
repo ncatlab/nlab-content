@@ -60,13 +60,13 @@ is called *conjugate for* &lbrack;[MacLane (1971), §IV.7 (5)](#MacLane71)&rbrac
 \[
   \label{ConjugacyConditionOnAdjoints}
   \array{
-    \mathcal{C}\big(
+    \mathcal{D}\big(
       L_2(-)
       ,\,
       (-)
     \big)
     &\overset{\sim}{\longrightarrow}&
-    \mathcal{D}\big(
+    \mathcal{C}\big(
       (-)
       ,\,
       R_2(-)
@@ -82,13 +82,13 @@ is called *conjugate for* &lbrack;[MacLane (1971), §IV.7 (5)](#MacLane71)&rbrac
       \mathcal{D}\big(id_{(-)},\,\rho_{(-)}\big)
     }}
     \\
-    \mathcal{C}\big(
+    \mathcal{D}\big(
       L_1(-)
       ,\,
       (-)
     \big)
     &\overset{\sim}{\longrightarrow}&
-    \mathcal{D}\big(
+    \mathcal{C}\big(
       (-)
       ,\,
       R_1(-)
