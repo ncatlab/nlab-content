@@ -98,8 +98,8 @@ Examples of classical double copy of gauge fields:
 | [[gauge theory]] solution | [[gravity]] solution | ref. |
 |--|--|--|
 | electric monopole | [[Schwarzschild spacetime]] | ([MOW 15](#MOW15)) |
-| magnetic monopole | massless [[Taub-NUT spacetime]] | ([LMOW 15](#LMOW15)) |
-| self-dual dyon | self-dual [[Taub-NUT space]] | ([Kim 24](#Kim24)) |
+| magnetic monopole | massless [[Taub-NUT spacetime]] | ([LMOW 15](#LMOW15), [Kim 24b](#Kim24b)) |
+| self-dual dyon | self-dual [[Taub-NUT space]] | ([Kim 24a](#Kim24a)) |
 | planar wave | [[pp-wave]] | ([MOW 15](#MOW15)) |
 |planar shockwave | Aichelburg-Sexl shockwave | ([BSW 20](#BSW20)) |
 
@@ -192,8 +192,6 @@ Fundamental bibliography:
 
 * {#LMOW15} Andrés Luna, Ricardo Monteiro, Donal O'Connell, Chris D. White, _The classical double copy for Taub-NUT spacetime_ ([arXiv:1507.01869](https://arxiv.org/abs/1507.01869))
 
-* {#Kim24} Joon-Hwi Kim, _Single Kerr-Schild Metric for Taub-NUT Instanton_ ([arXiv:2405.09518](https://arxiv.org/abs/2405.09518))
-
 * Chris D. White, _The double copy: gravity from gluons_ ([arXiv:1708.07056](https://arxiv.org/abs/1708.07056))
 
 * [[David Berman]], Erick Chacón, Andrés Luna, Chris D. White, _The self-dual classical double copy, and the Eguchi-Hanson instanton_ ([arXiv:1809.04063](https://arxiv.org/abs/1809.04063))
@@ -201,6 +199,10 @@ Fundamental bibliography:
 * Kwangeon Kim, Kanghoon Lee, Ricardo Monteiro, Isobel Nicholson, David Peinador Veiga, _The Classical Double Copy of a Point Charge_ ([arXiv:1912.02177](https://arxiv.org/abs/1912.02177))
 
 * {#BSW20} Nadia Bahjat-Abbas, Ricardo Stark-Muchão, Chris D. White, _Monopoles, shockwaves and the classical double copy_ ([arXiv:2001.09918](https://arxiv.org/abs/2001.09918))
+
+* {#Kim24a} Joon-Hwi Kim, _Single Kerr-Schild Metric for Taub-NUT Instanton_ ([arXiv:2405.09518](https://arxiv.org/abs/2405.09518))
+
+* {#Kim24b} Joon-Hwi Kim, _Newman-Janis Algorithm from Taub-NUT Instantons_ ([arXiv:2412.19611](https://arxiv.org/abs/2412.19611))
 
 Foundational issues:
 
