@@ -23,3 +23,7 @@ On [[arithmetic]]:
 
 
 [[!redirects Nicomachus of Gerasa]]
+
+
+category: people
+
