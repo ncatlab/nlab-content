@@ -24,7 +24,7 @@ They are a weaker [[structure]] than [[fibered categories]], but still allow one
 
 A [[functor]] $P\colon \mathbf{X} \to \mathbf{B}$ makes its [[domain]] [[category]] $\mathbf{X}$ a *foliated category* (over $\mathbf{B}$) if the following conditions hold:
 
-1. Every [[morphism]] $f$ in $\mathbf{X}$ factors as a $P$-vertical morphism $v$ (i.e. $P(v)$ is an identity morphism in $\mathbf{B}$), followed by a $P$-[[cartesian morphism]] $k$, i.e. $f = k\circ v$, 
+1. Every [[morphism]] $f$ in $\mathbf{X}$ factors as a $P$-vertical morphism $v$ (i.e. $P(v)$ is an identity morphism in $\mathbf{B}$), followed by a [weak](Cartesian+morphism+WeakCartesianMorphisms) $P$-[[cartesian morphism]] $k$, i.e. $f = k\circ v$, 
 
 1. The [[class]] of [weak](Cartesian+morphism+WeakCartesianMorphisms) $P$-[[cartesian morphisms]] is closed under [[composition]]. 
 
@@ -33,6 +33,10 @@ If closure under composition is not required, we obtain the notion of **prefolia
 
 A morphism between foliated categories $\mathbf{X}'\to \mathbf{X}$ (over $\mathbf{B}$) is a functor over $\mathbf{B}$ that sends cartesian morphisms to cartesian morphisms, and such that for every object $X'$ of $\mathbf{X}'$, and morphism $f\colon Y\to F(X')$ in $\mathbf{X}$, there is a factorisation $f = F(k)\circ v$, where $v$ is vertical in $\mathbf{X}$ and $k$ is cartesian in $\mathbf{X}'$. Bénabou calls such functors _cartesian_.
 
+## In indexed form
+While every functor $P: X \to B$ corresponds to a normal lax functor $dP : B^{\mathrm{op}} \to \mathbf{Prof}$, foliated categories can be characterized as those that factor through the inclusion $\mathbf{ParCat} \to \mathbf{Prof}$, where $\mathbf{ParCat}$ is the 2-category of [[partial functor|partial functors]].
+
+Indeed, the only obstruction to full representability of the profunctors $dP(h)$, with $h:b \to b'$ in the base $B$, is the existence of all weak cartesian lifts: the domain of definition of the partial functor corresponding to $dP(h)$ will be spanned by those objects $p \in dP(b')$ that admit a weak cartesian lift (this corresponds to Axiom 1 above). Axiom 2 then assures the laxator is well-defined.
 
 ## References
 
