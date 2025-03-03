@@ -1,5 +1,38 @@
 
-[[error threshold theorem]]
+
+## Mapping class group of $n$-punctured annulus
+
+For $n \in \mathbb{N}$, let $\Sigma^2_{0,2,n}$ denote the $n$-[[punctured surface|punctured]] [[annulus]] ([[genus of a surface|genus]]$=0$, 2 [[boundary of a manifold|boundary]] [[connected components|components]] and $n$ [[punctured surface|punctures]]).
+
+By the discussion [here](/nlab/show/braid+group#SurfaceBraidGroupsAsFibersOfForgettingPuncturesInMCG)
+
+we have a [[long exact sequence]] of groups:
+
+\begin{tikzcd}[sep=20pt]
+  \pi_1 \mathrm{Homeos}^{\mathrm{or}}(\Sigma^2_{0,2})
+  \ar[r]
+  &
+  \mathrm{Br}_n(\Sigma^2_{0,2})
+  \ar[rr]
+  \ar[dr]
+  &&
+  \mathrm{MCG}(\Sigma^2_{0,2,n})
+  \ar[rr]
+  \ar[dl]
+  &&
+  \mathrm{MCG}(\Sigma^2_{0,2})
+  \ar[r]
+  & 
+  1
+  \\
+  & & 
+  \mathrm{Sym}_n
+\end{tikzcd}
+
+
+
+
+
 
 ## Threshold theorem
 
