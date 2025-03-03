@@ -57,45 +57,10 @@ then a [[pair]] of [[natural transformations]] between the adjoints of the same 
   \,,
 \]
 is called *conjugate for* &lbrack;[MacLane (1971), §IV.7 (5)](#MacLane71)&rbrack; or a *pseudo-transformation of* &lbrack;[Harpaz & Prasma (2015), Sec. 2.2](#HarpazPrasma15)&rbrack; the given adjunctions if they make the following [[diagram]] of [[natural transformations]] between [[hom-sets]] [[commuting diagram|commute]]:
-\[
-  \label{ConjugacyConditionOnAdjoints}
-  \array{
-    \mathcal{D}\big(
-      L_2(-)
-      ,\,
-      (-)
-    \big)
-    &\overset{\sim}{\longrightarrow}&
-    \mathcal{C}\big(
-      (-)
-      ,\,
-      R_2(-)
-    \big)
-    \\
-    \mathllap{{}^{
-      \mathcal{C}\big(\lambda_{(-)},\,id_{(-)}\big)
-    }}
-    \Big\downarrow
-    &&
-    \Big\downarrow
-    \mathrlap{{}^{
-      \mathcal{D}\big(id_{(-)},\,\rho_{(-)}\big)
-    }}
-    \\
-    \mathcal{D}\big(
-      L_1(-)
-      ,\,
-      (-)
-    \big)
-    &\overset{\sim}{\longrightarrow}&
-    \mathcal{C}\big(
-      (-)
-      ,\,
-      R_1(-)
-    \big)
-    \mathrlap{\,,}
-  }
-\]
+\begin{tikzcd}
+  \mathcal{D}(L_{2}(-),(-)) \ar[r, "\sim"] \ar[d, "{\mathcal{D}(\lambda_{(-)},(-))}"']  & \mathcal{C}((-),R_{2}(-)) \ar[d, "{\mathcal{C}((-),\rho_{(-)})}"] \\
+  \mathcal{D}(L_{1}(-),(-)) \ar[r, "\sim"] & \mathcal{C}((-),R_{1}(-))
+\end{tikzcd}
 where the horizontal maps are the given hom-isomorphisms (see [there](adjoint+functor#eq:HomIsomorphismForAdjointFunctors)).
 
 Such pairs of conjugate transformation [[composition|compose]] via composition of their component [[natural transformations]] (cf. *[[functor category]]*) to yields a [[category]]
