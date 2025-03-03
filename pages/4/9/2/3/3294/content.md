@@ -13,29 +13,38 @@
 =--
 =--
 
-# Fr&#233;chet spaces
+# Fréchet spaces
 * table of contents
 {: toc}
 
 ## Idea
 
-Fr&#233;chet spaces are particularly well-behaved [[topological vector spaces]] (TVSes).  Every [[Cartesian space]] $\mathbb{R}^n$ is a Fr&#233;chet space, but Fr&#233;chet spaces may have non-[[finite number|finite]] [[dimension]].  There is [[analysis]] on Fr&#233;chet spaces, yet they are more general than [[Banach spaces]]; as such, they are popular as local model spaces for possibly [[infinite-dimensional manifolds]]: _[[Fréchet manifolds]]_.
+Fréchet spaces are particularly well-behaved [[topological vector spaces]] (TVSes).  Every [[Cartesian space]] $\mathbb{R}^n$ is a Fréchet space, but Fréchet spaces may have non-[[finite number|finite]] [[dimension]].  There is [[analysis]] on Fréchet spaces, yet they are more general than [[Banach spaces]]; as such, they are popular as local model spaces for possibly [[infinite-dimensional manifolds]]: _[[Fréchet manifolds]]_.
 
-A basic example of a Fr&#233;chet space is $\mathbb{R}^\infty \coloneqq \underset{\longleftarrow}{\lim} \mathbb{R}^n$, as a [[topological space]] the _[[projective limit]]_ over the finite dimensional [[Cartesian spaces]] $\mathbb{R}^n$ (example \ref{ProjRInfinity} below) . This is not a [[Banach space]] anymore, since it does not carry a compatible [[norm]] anymore (e.g. [Saunders 89](#Saunders89), p. 253). But it evidently does carry the functions $\mathbb{R}^\infty \overset{p^n}{\longrightarrow} \mathbb{R}^n \overset{\Vert -\Vert_n}{\longrightarrow} \mathbb{R}$ for all $n \in \mathbb{N}$, where $p^n$ is the defining [[projection]] and where ${\Vert -\Vert}_n$ is the standard [[norm]] on $\mathbb{R}^n$. While not norms, these composites are [[seminorms]] on $\mathbb{R}^\infty$, they only fail the non-degeneracy condition saying that only the 0-vector has vanishing norm. 
+A basic example of a Fréchet space is $\mathbb{R}^\infty \coloneqq \underset{\longleftarrow}{\lim} \mathbb{R}^n$, as a [[topological space]] the _[[projective limit]]_ over the finite dimensional [[Cartesian spaces]] $\mathbb{R}^n$ (example \ref{ProjRInfinity} below) . This is not a [[Banach space]] anymore, since it does not carry a compatible [[norm]] anymore (e.g. [Saunders 89](#Saunders89), p. 253). But it evidently does carry the functions $\mathbb{R}^\infty \overset{p^n}{\longrightarrow} \mathbb{R}^n \overset{\Vert -\Vert_n}{\longrightarrow} \mathbb{R}$ for all $n \in \mathbb{N}$, where $p^n$ is the defining [[projection]] and where ${\Vert -\Vert}_n$ is the standard [[norm]] on $\mathbb{R}^n$. While not norms, these composites are [[seminorms]] on $\mathbb{R}^\infty$, they only fail the non-degeneracy condition saying that only the 0-vector has vanishing norm. 
 
-Generally, a Fr&#233;chet space is equivalently a [[real vector space]] equipped with a countable familiy of [[seminorms]], with compatibility conditions modeled on this example. See def. \ref{FrechetSpaceAsCompleteTVSWithCompatibleSeminorms} below.
+Generally, a Fréchet space is equivalently a [[real vector space]] equipped with a countable familiy of [[seminorms]], with compatibility conditions modeled on this example. See def. \ref{FrechetSpaceAsCompleteTVSWithCompatibleSeminorms} below.
 
-Beware the clash ofterminology: a 'Fr&#233;chet topology' on a 'Fr&#233;chet topological space' is something different; this just means that a [[topological space]] satisfies the $T_1$ [[separation axiom]].  (Like all [[Hausdorff space|Hausdorff]] [[topological vector spaces]], Fr&#233;chet spaces satisfy this axiom, but they have a good deal of additional [[structure]] and [[properties]].)
+Beware the clash ofterminology: a 'Fréchet topology' on a 'Fréchet topological space' is something different; this just means that a [[topological space]] satisfies the $T_1$ [[separation axiom]].  (Like all [[Hausdorff space|Hausdorff]] [[topological vector spaces]], Fréchet spaces satisfy this axiom, but they have a good deal of additional [[structure]] and [[properties]].)
 
 
 ## Definition
 
-There are various equivalent definitions of Fr&#233;chet spaces:
+There are two inequivalent definitions of Fréchet spaces found in the literature.
+The original definition due to [[Stefan Banach]] defines Fréchet spaces
+as [[metrizable topological space|metrizable]] [[complete space|complete]] [[topological vector spaces]].
+
+Later [[Bourbaki]] (Topological vector spaces, Section II.4.1) added the condition of [[locally convex vector space|local convexity]].
+However, many authors continue to use the original definition due to Banach.
+
+The term “F-space” can refer to either of these definitions, although in the modern literature it is more commonly used to refer to the non-locally convex notion.
+
+There are various equivalent definitions of locally convex Fréchet spaces:
 
 +-- {: .num_defn #FrechetSpaceAsMetisableCompleteTVS}
 ###### Definition
 
-A __Fr&#233;chet space__ is equivalently a [[complete space|complete]] [[Hausdorff space|Hausdorff]] [[locally convex vector space]] that is [[metrisable topological space|metrisable]].  The metric can be chosen to be translation-invariant.
+A __Fréchet space__ is a [[complete space|complete]] [[Hausdorff space|Hausdorff]] [[locally convex vector space]] that is [[metrisable topological space|metrisable]].  The metric can be chosen to be translation-invariant.
 
 =--
 
@@ -43,17 +52,14 @@ A __Fr&#233;chet space__ is equivalently a [[complete space|complete]] [[Hausdor
 ###### Definition
 **(via systems of [[seminorms]])**
 
-A **Fr&#233;chet space** is a [[complete space|complete]] [[Hausdorff space|Hausdorff]] [[topological vector space]] $V$ whose [[topological space|topology]] may be given (as a [[gauge space]]) by a [[countable set|countable]] family of [[seminormed vector space|seminorms]], hence for which there exists a family of [[seminorms]]
-
+A **Fréchet space** is a [[complete space|complete]] [[Hausdorff space|Hausdorff]] [[topological vector space]] $V$ whose [[topological space|topology]] may be given (as a [[gauge space]]) by a [[countable set|countable]] family of [[seminormed vector space|seminorms]], hence for which there exists a family of [[seminorms]]
 $$
   {\Vert - \Vert}_n \;\colon\; V \longrightarrow \mathbb{R}
   \,,
   \;\;\;
    n \in \mathbb{N}
 $$
-
 such that the set of all [[open balls]] of the form
-
 $$
   B_\epsilon^{(n)}(x)
   \coloneqq
@@ -65,7 +71,6 @@ $$
   \;
   x \in V\,, \epsilon \gt 0 \,, n \in \mathbb{N}
 $$
-
 is a [[base of neighborhoods]] of $x$. 
 
 =--
@@ -73,7 +78,7 @@ is a [[base of neighborhoods]] of $x$.
 +-- {: .num_defn }
 ###### Definition
 
-We accept as an [[automorphism]] of Fr&#233;chet spaces any [[linear map|linear]] [[homeomorphism]]; in particular, the particular translation-invariant metric or countable family of [[seminorms]] used to prove that a space is a Fr&#233;chet space is *not* required to be preserved.  More generally, the [[morphisms]] of Fr&#233;chet spaces are the [[continuous map|continuous]] linear maps, so that Fr&#233;chet spaces form a [[full subcategory]] of the category $TVS$ of [[topological vector spaces]].
+We accept as an [[automorphism]] of Fréchet spaces any [[linear map|linear]] [[homeomorphism]]; in particular, the particular translation-invariant metric or countable family of [[seminorms]] used to prove that a space is a Fréchet space is *not* required to be preserved.  More generally, the [[morphisms]] of Fréchet spaces are the [[continuous map|continuous]] linear maps, so that Fréchet spaces form a [[full subcategory]] of the category $TVS$ of [[topological vector spaces]].
 
 =--
 
@@ -82,23 +87,23 @@ We accept as an [[automorphism]] of Fr&#233;chet spaces any [[linear map|linear]
 +-- {: .num_example }
 ###### Example
 
-Every [[Banach space]] is a Fr&#233;chet space.
+Every [[Banach space]] is a Fréchet space.
 
 =--
 
 +-- {: .num_example }
 ###### Example
 
-If $X$ is a [[compact space|compact]] [[smooth manifold]], then the space of [[smooth map|smooth maps]] on $X$ is a Fr&#233;chet space.  This can be extended to some non-compact manifolds, in particular when $X$ is the [[real line]].
+If $X$ is a [[compact space|compact]] [[smooth manifold]], then the space of [[smooth map|smooth maps]] on $X$ is a Fréchet space.  This can be extended to some non-compact manifolds, in particular when $X$ is the [[real line]].
 
 =--
 
 +-- {: .num_example #SchwartSpaceOfFunctionsIsFrechetSpace}
 ###### Example
-**(the [[Schwartz space]] is a Fr&#233;chet space)**
+**(the [[Schwartz space]] is a Fréchet space)**
 
 The [[Schwartz space]] $\mathcal{S}$ of functions with rapidly decreasing derivatives ([this def.](Schwartz+space#SchwartzSpaceOfFunctionsWithRapidlyDecreasingDerivatives))
-is a Fr&#233;chet space. 
+is a Fréchet space. 
 
 =--
 
@@ -109,7 +114,7 @@ See [this prop.](Schwartz+space#SchwartSpaceOfFunctionsIsFrechetSpace)
 +-- {: .num_example }
 ###### Non-Example
 
-The [[Lebesgue space]] $L^p(\mathbb{R})$ for $p \lt 1$ is *not* a Fr&#233;chet space, because it is not locally convex.
+The [[Lebesgue space]] $L^p(\mathbb{R})$ for $p \lt 1$ is *not* a Fréchet space, because it is not locally convex.
 
 =--
 
@@ -145,12 +150,12 @@ $$
 
 for the induced [[projection]] maps onto the first $n$ copies and let $\|\cdot\|_n$ be the canonical [[norm]] on $\mathbb{R}^n$.  
 
-Then a compatible countable family of seminorms on $\mathbb{R}^\infty$, according to def. \ref{FrechetSpaceAsCompleteTVSWithCompatibleSeminorms}, is given by $v \mapsto {\Vert\pi_n(v) \Vert_n}$. Hence equipped with these, $\mathbb{R}^\infty$ becomes a Fr&#233;chet space.
+Then a compatible countable family of seminorms on $\mathbb{R}^\infty$, according to def. \ref{FrechetSpaceAsCompleteTVSWithCompatibleSeminorms}, is given by $v \mapsto {\Vert\pi_n(v) \Vert_n}$. Hence equipped with these, $\mathbb{R}^\infty$ becomes a Fréchet space.
 
 
 =--
 
-On the other hand, the locally convex direct sum of a countable number of copies of $\mathbb{R}$ is not a Fr&#233;chet space.
+On the other hand, the locally convex direct sum of a countable number of copies of $\mathbb{R}$ is not a Fréchet space.
 
 
 
@@ -160,11 +165,11 @@ On the other hand, the locally convex direct sum of a countable number of copies
 
 ### General
 
-Fr&#233;chet spaces are [[barrelled]] and [[bornological]]. 
+Fréchet spaces are [[barrelled]] and [[bornological]]. 
 
 ### Duals
 
-The [[dual space|dual]] [[topological vector space]] of a Fr&#233;chet space $F$ is itself again a Fr&#233;chet space precisely only if $F$ is in fact a [[Banach space]].
+The [[dual space|dual]] [[topological vector space]] of a Fréchet space $F$ is itself again a Fréchet space precisely only if $F$ is in fact a [[Banach space]].
 
 This follows from the statement paragraph 29.1 (7) in ([Koethe](#Koethe)), which is: The strong dual of a locally convex metrizable TVS $F$ is metrizable iff $F$ is normable.
 
@@ -173,17 +178,17 @@ See also ([Saunders 89, p. 255](#Saunders89)).
 ### As projective limits
  {#AsProjectiveLimits}
 
-Every [[complete topological space|complete]] [[locally convex topological vector space]] $X$ is the [[cofiltered category|cofiltered]] [[projective limit]] of [[Banach spaces]] in the [[category]] of [[locally convex spaces]]. (Note that Fr&#233;chet spaces are additionally required to be _metrisable_, so this is more general.)
+Every [[complete topological space|complete]] [[locally convex topological vector space]] $X$ is the [[cofiltered category|cofiltered]] [[projective limit]] of [[Banach spaces]] in the [[category]] of [[locally convex spaces]]. (Note that Fréchet spaces are additionally required to be _metrisable_, so this is more general.)
 
-To see this, choose a base $\{U_{\alpha}\}_{\alpha \in A}$ of the neighborhood filter of $0$, consisting of convex, balanced and absorbing sets and let $p_{\alpha}$ be Minkowski functional associated to $U_{\alpha}$. The Hausdorffification $X_{\alpha}$ of $(X, p_{\alpha})$ is easily seen to be a Banach space and because $A$ is directed by reverse inclusion so is $X_{\alpha}$. It is straightforward to check that $X = \underset{\longleftarrow}{\lim} X_{\alpha}$ in the category of locally convex spaces. For details, see ([Schaefer-Wolff 99, Chapter&#160;II.&#167;5](#SchaeferWolff99),  [page&#160;51ff](http://books.google.com/books?id=9kXY742pABoC&pg=PA51).
+To see this, choose a base $\{U_{\alpha}\}_{\alpha \in A}$ of the neighborhood filter of $0$, consisting of convex, balanced and absorbing sets and let $p_{\alpha}$ be Minkowski functional associated to $U_{\alpha}$. The Hausdorffification $X_{\alpha}$ of $(X, p_{\alpha})$ is easily seen to be a Banach space and because $A$ is directed by reverse inclusion so is $X_{\alpha}$. It is straightforward to check that $X = \underset{\longleftarrow}{\lim} X_{\alpha}$ in the category of locally convex spaces. For details, see ([Schaefer-Wolff 99, Chapter II.5](#SchaeferWolff99),  [page 51ff](http://books.google.com/books?id=9kXY742pABoC&pg=PA51).
 
-Now given that a Fr&#233;chet space admits a *decreasing sequence* of convex balanced and absorbing neighborhoods, it follows immediately that:
+Now given that a Fréchet space admits a *decreasing sequence* of convex balanced and absorbing neighborhoods, it follows immediately that:
 
-Every Fr&#233;chet space is a [[sequential limit|sequential]] [[projective limit]] of [[Banach spaces]]. 
+Every Fréchet space is a [[sequential limit|sequential]] [[projective limit]] of [[Banach spaces]]. 
 
-Conversely, any limit of a countable sequence of Banach spaces is a Fr&#233;chet space.
+Conversely, any limit of a countable sequence of Banach spaces is a Fréchet space.
 
-See ([Schaefer-Wolff 99](#SchaeferWolff99)), Chapter II.&#167;4, page 48f (as well as Theorem I.6.1, page 28). 
+See ([Schaefer-Wolff 99](#SchaeferWolff99)), Chapter II.4, page 48f (as well as Theorem I.6.1, page 28). 
 
 (from [this math.stackexchange comment](http://math.stackexchange.com/a/53020/58526))
 
@@ -196,7 +201,7 @@ See also example \ref{ProjRInfinity} below.
 ###### Definition
 **(path smooth linear function)
 
-Let $V$ be a Fr&#233;chet vector space (def. \ref{FrechetSpaceAsCompleteTVSWithCompatibleSeminorms}). Then a [[linear function]]
+Let $V$ be a Fréchet vector space (def. \ref{FrechetSpaceAsCompleteTVSWithCompatibleSeminorms}). Then a [[linear function]]
 
 $$
   \mu \;\colon\; V \longrightarrow \mathbb{R}
@@ -221,9 +226,9 @@ is a [[smooth function]].
 
 +-- {: .num_defn #PathSmoothLinearFunctionsOnFrechetSpaceAreContinuous}
 ###### Proposition
-**(path-smooth linear functions on a Fr&#233;chet space are continuous)**
+**(path-smooth linear functions on a Fréchet space are continuous)**
 
-Let $V$ be a Fr&#233;chet vector space (def. \ref{FrechetSpaceAsCompleteTVSWithCompatibleSeminorms}). Then every [[linear function]] on $V$ which is path-smooth (def. \ref{PathSmoothFunction}) is [[continuous function|continuous]].
+Let $V$ be a Fréchet vector space (def. \ref{FrechetSpaceAsCompleteTVSWithCompatibleSeminorms}). Then every [[linear function]] on $V$ which is path-smooth (def. \ref{PathSmoothFunction}) is [[continuous function|continuous]].
 
 =--
 
@@ -235,14 +240,14 @@ Prop. \ref{PathSmoothLinearFunctionsOnFrechetSpaceAreContinuous} implies for ins
 ## Differentiable and smooth functions
  {#DifferentiableAndSmoothFunctions}
 
-It is possible to generalize some aspects of [[analysis]] (differential calculus) to Fr&#233;chet spaces (e.g. [Michor 80, chapter 8](#Michor80), [Saunders 89, p. 256](#Saunders89)). 
+It is possible to generalize some aspects of [[analysis]] (differential calculus) to Fréchet spaces (e.g. [Michor 80, chapter 8](#Michor80), [Saunders 89, p. 256](#Saunders89)). 
 
 For example the definition of the [[derivative]] of a curve is simply the same as in finite dimensions:
 
 
 +-- {: .num_defn}
 ###### Definition
-For a continuous path in a Fr&#233;chet space $f(t)$ we define
+For a continuous path in a Fréchet space $f(t)$ we define
 $$
 f'(t) = \lim_{h \to 0} \frac{1}{h} (f(t + h) - f(t))
 $$
@@ -255,7 +260,7 @@ And just as in the finite dimensional case, we can define the partial derivative
 ###### Definition
 **directional derivative**
 
-Let $F$ and $G$ be Fr&#233;chet spaces, $U \subseteq F$ open and $P: U \to G$ a nonlinear continuous map. The derivative of $P$ at the point $f \in U$ in the direction $h \in F$ is the map
+Let $F$ and $G$ be Fréchet spaces, $U \subseteq F$ open and $P: U \to G$ a nonlinear continuous map. The derivative of $P$ at the point $f \in U$ in the direction $h \in F$ is the map
 $$
 D P: U \times F \to G
 $$
@@ -277,7 +282,7 @@ $$
 D P(f) h = f'h + f h'
 $$
 
-It is possible to generalize the Riemann integral to Fr&#233;chet spaces, too: For a continuous path $f(t)$ on an interval $[a, b]$ in a Fr&#233;chet space $F$ we look for an element $\int_a^b f(t) d t \in F$. It turns out that such an element exists and is unique, if we impose some properties of the integral known from the finite dimensional case:
+It is possible to generalize the Riemann integral to Fréchet spaces, too: For a continuous path $f(t)$ on an interval $[a, b]$ in a Fréchet space $F$ we look for an element $\int_a^b f(t) d t \in F$. It turns out that such an element exists and is unique, if we impose some properties of the integral known from the finite dimensional case:
 
 
 +-- {: .num_theorem}
@@ -329,25 +334,25 @@ $$
 
 It is a theorem that the second derivative, if it exists and is jointly continuous, is bilinear in $(h ,k)$.
 
-We can iterate this procedure to define derivatives of arbitrary order, and thus the notion of **smooth functions between Fr&#233;chet spaces**. This allows to define the concept of smooth _[[Fréchet manifolds]]_.
+We can iterate this procedure to define derivatives of arbitrary order, and thus the notion of **smooth functions between Fréchet spaces**. This allows to define the concept of smooth _[[Fréchet manifolds]]_.
 
 
 
 ## References
 
-* {#Vogt00} [[Dietmar Vogt]], _Lectures on Fr&#233;chet spaces_, 2000 ([pdf](http://www2.math.uni-wuppertal.de/~vogt/vorlesungen/fs.pdf))
+* {#Vogt00} [[Dietmar Vogt]], _Lectures on Fréchet spaces_, 2000 ([pdf](http://www2.math.uni-wuppertal.de/~vogt/vorlesungen/fs.pdf))
 
-* PlanetMath, _[Fr&#233;chet space](http://planetmath.org/frechetspace)_
+* PlanetMath, _[Fréchet space](http://planetmath.org/frechetspace)_
 
-* Wikipedia, _[Fr&#233;chet space](https://secure.wikimedia.org/wikipedia/en/wiki/Fr&#233;chet_space)_
+* Wikipedia, _[Fréchet space](https://secure.wikimedia.org/wikipedia/en/wiki/Fréchet_space)_
 
 * {#Koethe} Gottfried Koethe: _Topological Vector Spaces I_
 
 * {#SchaeferWolff99} H. Schaefer, Manfred Wolff *[Topological Vector Spaces](http://books.google.com/books?id=9kXY742pABoC)*, Springer (1999)
 
-* [[Andreas Kriegl]], _Fr&#233;chet Spaces_ lecture notes, 2016 ([pdf](http://www.mat.univie.ac.at/~kriegl/Skripten/2016SS.pdf))
+* [[Andreas Kriegl]], _Fréchet Spaces_ lecture notes, 2016 ([pdf](http://www.mat.univie.ac.at/~kriegl/Skripten/2016SS.pdf))
 
-Discussion of analysis on Fr&#233;chet spaces includes
+Discussion of analysis on Fréchet spaces includes
 
 * {#Michor80} [[Peter Michor]], chapter 8 of _Manifolds of differentiable mappings_, Shiva Publishing (1980) [pdf](http://www.mat.univie.ac.at/~michor/manifolds_of_differentiable_mappings.pdf)
 
@@ -367,7 +372,7 @@ Discussion in the context of [[synthetic differential geometry]] includes
 
 Refinement to [[noncommutative geometry]] by suitable smoothed [[C-star-algebras]] is discussed in 
 
-* Nikolay Ivankov, _Unbounded bivariant K-theory and an Approach to Noncommutative Fr&#233;chet spaces_ [pdf](http://hss.ulb.uni-bonn.de/2011/2624/2624.pdf)
+* Nikolay Ivankov, _Unbounded bivariant K-theory and an Approach to Noncommutative Fréchet spaces_ [pdf](http://hss.ulb.uni-bonn.de/2011/2624/2624.pdf)
 
 [[!redirects Frechet space]]
 [[!redirects Frechet spaces]]
