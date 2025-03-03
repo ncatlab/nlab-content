@@ -19,7 +19,7 @@
 
 ## Idea
 
-Call-by-push-value is a [[type theory]] and [[programming language]] paradigm which has full embeddings of [[call-by-value]] and [[call-by-name]] lambda-calculi, including their [[operational semantics]], [[equational theories]] and [[denotational semantics|denotational]] models.
+Call-by-push-value (CBPV) is a [[type theory]] and [[programming language]] paradigm which has full embeddings of [[call-by-value]] and [[call-by-name]] lambda-calculi, including their [[operational semantics]], [[equational theories]] and [[denotational semantics|denotational]] models.
 
 Its [[semantics]] decomposes the semantics of [[monad (in computer science)|effectful languages]] using a [[strong monad]] into a [[strong adjunction]]. Then the embeddings of call-by-value and call-by-name correspond to the construction of [[Kleisli category|Kleisli and co-Kleisli categories]] from an adjunction.
 
