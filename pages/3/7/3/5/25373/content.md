@@ -70,6 +70,11 @@ Using (motivating) the [[ZX-calculus]] for formalizing measurement-based quantum
 
 * [[Ross Duncan]], *A graphical approach to measurement-based quantum computing* &lbrack;[arXiv:1203.6242](https://arxiv.org/abs/1203.6242) video exposition:[YT](https://youtu.be/E_zH9C0ds8c?t=648)&rbrack;
 
+Concerning measurement-based quantum gates on [[Majorana zero modes]]:
+
+* Torsten Karzig, Yuval Oreg, Gil Refael, [[Michael H. Freedman]]: *Robust Majorana magic gates via measurements*, Phys. Rev. B **99** (2019) 144521 \[<a href="https://doi.org/10.1103/PhysRevB.99.144521">doi:10.1103/PhysRevB.99.144521</a>, [arXiv:1812.10498](https://arxiv.org/abs/1812.10498)\]
+
+
 Proposed relation to [[gauge theory]]:
 
 * [[Gabriel Wong]], [[Robert Raussendorf]], [[Bartlomiej Czech]]: *The Gauge Theory of Measurement-Based Quantum Computation*, Quantum **8** 1397 (2024) &lbrack;[arXiv:2207.10098](https://arxiv.org/abs/2207.10098), [doi:10.22331/q-2024-07-04-1397](https://doi.org/10.22331/q-2024-07-04-1397)&rbrack;
