@@ -149,6 +149,15 @@ Lecture notes:
 
 * [[Henry Wilton]]: *Mapping class groups*, lecture notes (2021) &lbrack;[pdf](https://www.dpmms.cam.ac.uk/~hjrw2/MCG%20lectures.pdf), examples: 1:[pdf](https://www.dpmms.cam.ac.uk/~hjrw2/MCGs%20Sheet%201.pdf), 2:[pdf](https://www.dpmms.cam.ac.uk/~hjrw2/MCGs%20Sheet%202.pdf), 3:[pdf](https://www.dpmms.cam.ac.uk/~hjrw2/MCGs%20Sheet%203.pdf)&rbrack;
 
+Via generators-and-relations:
+
+* Sylvain Gervais: *A finite presentation of the mapping class group of an oriented surface* &lbrack;[arXiv:math/9811162](https://arxiv.org/abs/math/9811162)&rbrack;
+
+* Bronisław Wajnryb: *An elementary approach to the mapping class group of a surface*, Geometry & Topology **3** (1999) 405–466 &lbrack;[doi:10.2140/gt.1999.3.405](http://dx.doi.org/10.2140/gt.1999.3.405)&rbrack;
+
+
+
+
 See also:
 
 * Wikipedia: *[Mapping class group](http://en.wikipedia.org/wiki/Mapping_class_group)*
