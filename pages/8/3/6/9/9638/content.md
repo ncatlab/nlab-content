@@ -258,9 +258,21 @@ Quantum computing became widely thought to be not just a theoretical but a plaus
 
 * {#CalderbankShor96} [[Robert Calderbank]], [[Peter W. Shor]], *Good Quantum Error-Correcting Codes Exist*, Phys. Rev. A, Vol. 54, No. 2, pp. 1098-1106, 1996 ([doi:10.1103/PhysRevA.54.1098](https://doi.org/10.1103/PhysRevA.54.1098))
 
-and the proof of the [[quantum threshold theorem]].
+and the proof of quantum [[error threshold theorems]]:
 
-Early review:
+* [[Peter Shor]]: *Fault-tolerant quantum computation*, Proceedings of 37th Conference on Foundations of Computer Science (1996) 56-65 &lbrack;[doi:10.1109/SFCS.1996.548464](https://doi.org/10.1109/SFCS.1996.548464)&rbrack;
+
+* {#KnillLaflammeZurek98} [[Emanuel Knill]], [[Raymond Laflamme]], [[Wojciech Zurek]]: *Resilient Quantum Computation: Error Models and Thresholds*, Science **279** 5349 (1998) 342-345 &lbrack;[doi;10.1126/science.279.5349.342](https://doi.org/10.1126/science.279.5349.342), [arXiv:quant-ph/9702058](https://arxiv.org/abs/quant-ph/9702058)&rbrack;
+
+* {#AharonovBen-Or08} [[Dorit Aharonov]], [[Michael Ben-Or]]: *Fault-Tolerant Quantum Computation with Constant Error Rate*, SIAM Journal on Computing **38** 4 (2008) &lbrack;[doi:10.1137/S0097539799359385](https://doi.org/10.1137/S0097539799359385), [arXiv:quant-ph/9906129](https://arxiv.org/abs/quant-ph/9906129)&rbrack;
+
+reviewed in:
+
+* [[Daniel Gottesman]]: *An Introduction to Quantum Error Correction and Fault-Tolerant Quantum Computation*, in: *Quantum Information Science and Its Contributions to Mathematics*, Proceedings of Symposia in Applied Mathematics **68** (2010) &lbrack;[arXiv:0904.2557](https://arxiv.org/abs/0904.2557), [doi:10.1090/psapm/068](https://doi.org/10.1090/psapm/068)&rbrack;
+
+
+
+Early review of quantum computing
 
 * [[Adriano Barenco]], *Quantum Physics and Computers*,  Contemp. Phys. **37** (1996) 375-389 &lbrack;[arXiv:quant-ph/9612014](https://arxiv.org/abs/quant-ph/9612014), [doi:10.1080/00107519608217543](https://doi.org/10.1080/00107519608217543)&rbrack;
 
