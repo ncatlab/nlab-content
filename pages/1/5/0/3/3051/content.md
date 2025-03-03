@@ -46,6 +46,8 @@ On [[profunctors]] ("[[distributors]]", including for [[enriched categories|enri
 
 * {#Benabou73} [[Jean Bénabou]], *Les distributeurs*, Université Catholique de Louvain, Institut de Mathématique Pure et Appliquée,  rapport **33** (1973) &lbrack;[pdf](http://www.entretemps.asso.fr/maths/DistributeursLouvain.pdf), [[Benabou-LesDistributeurs.pdf:file]]&rbrack;
 
+* {#Bénabou00} [[Jean Bénabou]] (notes by [[Thomas Streicher]]), *Distributors at Work*, lectures given at TU Darmstadt (2000) &lbrack;[pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf), [[Benabou-DistributorsAtWork.pdf:file]]&rbrack;
+
 
 On [[fibered categories]]:
 
