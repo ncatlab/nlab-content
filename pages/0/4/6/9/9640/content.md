@@ -54,6 +54,10 @@ On [[holographic entanglement entropy]] via [[bit threads]]:
 
 * {#FreedmanHeadrick16} [[Michael Freedman]], [[Matthew Headrick]], *Bit threads and holographic entanglement*, Comm. Math. Phys. 352, 407 (2017) ([arXiv:1604.00354](https://arxiv.org/abs/1604.00354))
 
+Concerning [[measurement-based quantum computation|measurement-based quantum gates]] on [[Majorana zero modes]]:
+
+* Torsten Karzig, Yuval Oreg, Gil Refael, [[Michael H. Freedman]]: *Robust Majorana magic gates via measurements*, Phys. Rev. B **99** (2019) 144521 \[<a href="https://doi.org/10.1103/PhysRevB.99.144521">doi:10.1103/PhysRevB.99.144521</a>, [arXiv:1812.10498](https://arxiv.org/abs/1812.10498)\]
+
 
 
 ## Related entries
