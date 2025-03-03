@@ -40,7 +40,7 @@ $$ C_c(X)^{{*}{+}} \cong \overline{RM(X)}^+ .$$
 ## $C_0^* = RM$
 
 Let $X$ be a [[locally compact Hausdorff space]].  Let $C_0(X)$ be the space of [[continuous functions]] on $X$ (valued in the [[complex numbers]]) on the [[one-point compactification]] of $X$ (so vanishing 'at infinity'); make $C_0(X)$ into a [[Banach space]] with the [[supremum norm]].  Let $RM(X)$ be the space of [[finite measure|finite]] [[Radon measure]]s on $X$; make $RM(X)$ into a [[Banach space]] with the [[total variation]] norm.  [[integral|Integration]] gives a map from $RM(X)$ to the [[dual vector space]] $C_0(X)^*$ of $C_0(X)$:
-$$ \mu \mapsto (f \mapsto \int_X f \mu) .$$
+$$ \mu \mapsto (f \mapsto \int_X f d\mu) .$$
 
 +-- {: .num_theorem #C0}
 ###### Theorem (Riesz--Markov)
