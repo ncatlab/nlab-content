@@ -211,7 +211,7 @@ Texbook account:
 
 Lecture notes:
 
-* {#Benabou00} [[Jean Bénabou]] (notes by [[Thomas Streicher]]), _Distributors at work_, (2000), [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf)
+* {#Bénabou00} [[Jean Bénabou]] (notes by [[Thomas Streicher]]), *Distributors at Work*, lectures given at TU Darmstadt (2000) &lbrack;[pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf), [[Benabou-DistributorsAtWork.pdf:file]]&rbrack;
 
 Exposition:
 
