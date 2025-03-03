@@ -33,7 +33,7 @@ Similarly, if $E,F\in Op(X\times X)$, we write $E\circ F$ for the image of $\pi_
 
 ### Covering uniformities
 
-An [open] **[[open cover|cover]]** of a locale $X$ is a collection $C \subseteq Op(X)$ of open parts of $X$ whose [[join]] is $X$.  For covers $C_i$, we define:
+An (open) **[[open cover|cover]]** of a locale $X$ is a collection $C \subseteq Op(X)$ of open parts of $X$ whose [[join]] is $X$.  For covers $C_i$, we define:
 
 * $C_1$ **refines** $C_2$, written $C_1 \prec C_2$, if every element of $C_1$ is $\le$ in some element of $C_2$.
 
