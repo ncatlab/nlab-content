@@ -28,3 +28,6 @@ An often used  model for the corresponding closed annulus is the subspace $\big\
 
 
 [[!redirects annuli]]
+
+[[!redirects closed annulus]]
+[[!redirects closed annuli]]
