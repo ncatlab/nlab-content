@@ -37,7 +37,7 @@ as [[metrizable topological space|metrizable]] [[complete space|complete]] [[top
 Later [[Bourbaki]] (Topological vector spaces, Section II.4.1) added the condition of [[locally convex vector space|local convexity]].
 However, many authors continue to use the original definition due to Banach.
 
-The term “F-space” can refer to either of these definitions, although in the modern literature it is more commonly used to refer to the non-locally convex notion.
+The term “[[F-space]]” can refer to either of these definitions, although in the modern literature it is more commonly used to refer to the non-locally convex notion.
 
 There are various equivalent definitions of locally convex Fréchet spaces:
 
