@@ -319,6 +319,8 @@ See at *[[Majorana dimer code]]*.
 
 * [[error correcting code]]
 
+* [[error threshold theorem]]
+
 * [[dynamic lifting]]
 
 * [[repeat-until-success computing]]
@@ -360,7 +362,7 @@ Original articles on quantum error correcting codes:
 * [[Emanuel Knill]], [[Raymond Laflamme]], *A Theory of Quantum Error-Correcting Codes*, Phys. Rev. Lett. 84:2525-2528, 2000 ([arXiv:quant-ph/9604034](https://arxiv.org/abs/quant-ph/9604034))
 
 
-Realization that quantum error correcting codes could make quantum computation practically feasible:
+{#FeasabilityReferences} Realization that quantum error correcting codes could make quantum computation practically feasible (quantum [[error threshold theorem]]):
 
 * [[Emanuel Knill]], [[Raymond Laflamme]], [[Wojciech H. Zurek]], *Resilient Quantum Computation: Error Models and Thresholds*, Proceedings of the Royal Society A **454** 1969 (1998) &lbrack;[arXiv:quant-ph/9702058](https://arxiv.org/abs/quant-ph/9702058)&rbrack;
 
@@ -407,6 +409,9 @@ Introduction and survey:
 * Simeon Ball, Aina Centelles, Felix Huber, *Quantum error-correcting codes and their geometries* ([arXiv:2007.05992](https://arxiv.org/abs/2007.05992))
 
 * {#Steane06} [[Andrew M. Steane]], *A Tutorial on Quantum Error Correction*, in: Proceedings of the International School of Physics “Enrico Fermi”, course CLXII, "Quantum Computers, Algorithms and Chaos"  (2006) &lbrack;[pdf](https://www2.physics.ox.ac.uk/sites/default/files/ErrorCorrectionSteane06.pdf), [[SteaneTutorialQuantumErrorCorrection.pdf:file]]&rbrack; 
+
+* [[Daniel Gottesman]]: *An Introduction to Quantum Error Correction and Fault-Tolerant Quantum Computation*, in: *Quantum Information Science and Its Contributions to Mathematics*, Proceedings of Symposia in Applied Mathematics **68** (2010) &lbrack;[arXiv:0904.2557](https://arxiv.org/abs/0904.2557), [doi:10.1090/psapm/068](https://doi.org/10.1090/psapm/068)&rbrack;
+
 
 * [[Isaac L. Chuang]], *Quantum error correction*, Chapter 7 in: *Quantum Machines: Measurement and Control of Engineered Quantum Systems* Lecture Notes of the Les Houches Summer School **96** (2011) 273–320  &lbrack;[doi:10.1093/acprof:oso/9780199681181.003.0007](https://doi.org/10.1093/acprof:oso/9780199681181.003.0007)&rbrack;
 
