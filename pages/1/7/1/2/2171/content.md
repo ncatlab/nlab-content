@@ -3435,7 +3435,11 @@ See also eg. [Margalit & Winarski (2021), §7](#MargalitWinarski21), [Amram, Law
 
 More generally, let $\Sigma$ be a ([[connected topological space|connected]]) [[closed manifold|closed]], [[orientation|oriented]] [[surface]], possibly with [[boundary of a manifold|boundary]] and let $x_1, \cdots, x_n \in \Sigma$ a [[finite set]] of [[interior]] points.
 
-Then the [[mapping class groups]] ($MCG(-) \coloneqq \pi_0 Homeo^{+,\partial}(-)$)
+Then: 
+
+\begin{proposition}
+\label{SurfaceBraidGroupsAsFibersOfForgettingPuncturesInMCG}
+The [[mapping class groups]] ($MCG(-) \coloneqq \pi_0 Homeo^{+,\partial}(-)$)
 
 * $MCG(\Sigma)$ (of $\Sigma$ itself, presering orientation and the boundary pointwise)
 
@@ -3508,6 +3512,7 @@ by forming the following [[commuting diagram]] of [[group homomorphisms]] where 
   & 1 & 1
 \end{tikzcd}
 
+\end{proposition}
 (Going back to [Birman 1969](#Birman69), cf. [Massuyeau 2021 Thm. 3.13](#Massuyeau21)).
 
 In words: *The [[mapping class group]] of a [[punctured]] [[surface]] is a [[group extension]] of the [[mapping class group]] of the plain surface by the surface braid group on the set of punctures.*
