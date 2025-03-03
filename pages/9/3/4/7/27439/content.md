@@ -25,7 +25,7 @@ In [[gallium arsenide]] ($GaAs$) heterostructures:
 
 * [[James Nakamura]] et al.: *Fabry-Pérot Interferometry at the Fractional Quantum Hall State*, Phys. Rev. X **13** (2023) 041012 \[<a href="https://doi.org/10.1103/PhysRevX.13.041012">doi:10.1103/PhysRevX.13.041012</a>\]
 
-* [[James Nakamura]]: *Fabry-Perot interferometry at the $\nu-2/5$ fractional quantum Hall state*, Phys. Rev. X **13** (2023) 041012  \[<a href="https://doi.org/10.1103/PhysRevX.13.041012">doi:10.1103/PhysRevX.13.041012</a>, [arXiv:2304.12415](https://arxiv.org/abs/2304.12415)\]
+* [[James Nakamura]]: *Fabry-Perot interferometry at the $\nu = 2/5$ fractional quantum Hall state*, Phys. Rev. X **13** (2023) 041012  \[<a href="https://doi.org/10.1103/PhysRevX.13.041012">doi:10.1103/PhysRevX.13.041012</a>, [arXiv:2304.12415](https://arxiv.org/abs/2304.12415)\]
 
 * P. Glidic et al.: *Signature of anyonic statistics in the integer quantum Hall regime*, Nature Commun. **15** 6578 (2024) 1 \[<a href="https://doi.org/10.1038/s41467-024-50820-0">doi:10.1038/s41467-024-50820-0</a>, [arXiv:2401.06069](https://arxiv.org/abs/2401.06069)\]
 
