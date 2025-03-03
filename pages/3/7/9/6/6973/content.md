@@ -32,6 +32,10 @@ and introducing what came to be known the [[univalence axiom]] (under the name "
 
   Ethan Lewis, Max Bohnet, *The groupoid model of type theory*, seminar notes (2017) &lbrack;[pdf](https://staff.fnwi.uva.nl/b.vandenberg3/Onderwijs/Homotopy_Type_Theory_2017/HoTT-bohnet-lewis-handout.pdf), [[LewisBohnet.GroupoidModelOfTT.pdf:file]]&rbrack;
 
+On [[profunctors]] ([[distributors]]):
+
+* {#Bénabou00} [[Jean Bénabou]] (notes by [[Thomas Streicher]]), *Distributors at Work*, lectures given at TU Darmstadt (2000) &lbrack;[pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf), [[Benabou-DistributorsAtWork.pdf:file]]&rbrack;
+
 
 On [[category theory]] and [[categorical logic]]:
 
