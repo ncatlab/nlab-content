@@ -1,5 +1,7 @@
 
-I'm a PhD student at University of Strathclyde, under the direction of [[Neil Ghani]]. I apply categorical ideas to systems theory and I'm interested in the intersection of quantitative and structural methods.
+Matteo Capucci applies categorical ideas to systems theory, especially the theory of cybernetic systems. He is also interested in the intersection of quantitative and structural methods.
+
+He's completing his PhD at University of Strathclyde, under the direction of [[Neil Ghani]]. 
 
 * [personal page](https://matteocapucci.wordpress.com/)
 
