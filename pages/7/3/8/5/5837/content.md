@@ -238,6 +238,14 @@ On the [[homotopy type]] of the diffeomorphism group of [[surfaces]]:
 
 * {#EarleEells67} C. J. Earle,  [[James Eells]]: *The diffeomorphism group of a compact Riemann surface*, Bulletin of the American Mathematical Society **73** 4 (1967) 557-559 &lbrack;[euclid:bams/1183528956](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-73/issue-4/The-diffeomorphism-group-of-a-compact-Riemann-surface/bams/1183528956.full)&rbrack;
 
+see also:
+
+* {#Hamstrom66} Mary-Elizabeth Hamstrom: *Homotopy groups of the space of homeomorphisms on a 2-manifold*,  Illinois J. Math. **10** 4 (1966) 563-573 &lbrack;[doi:10.1215/ijm/1256054895](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-10/issue-4/Homotopy-groups-of-the-space-of-homeomorphisms-on-a-2/10.1215/ijm/1256054895.full)&rbrack;
+
+
+* {#FarbMargalit12} [[Benson Farb]], [[Dan Margalit]], §1.4.3 of: *A primer on mapping class groups*, Princeton Mathematical Series, Princeton University Press (2012) &lbrack;[ISBN:9780691147949](https://press.princeton.edu/books/hardcover/9780691147949/a-primer-on-mapping-class-groups), [jstor:j.ctt7rkjw](https://www.jstor.org/stable/j.ctt7rkjw), [pdf](http://euclid.nmu.edu/~joshthom/Teaching/MA589/farbmarg.pdf)&rbrack;
+
+
 For the group of [[connected components]] see at *[[mapping class group]]*, including the case of *orbifold* surfaces.
 
 See also:
