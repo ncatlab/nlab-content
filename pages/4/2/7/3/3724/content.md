@@ -16,7 +16,7 @@
 
 What came to be called *Dedekind cuts* (a notion due to [Dedekind (1872)](#Dedekind1872)) is a way to make precise the idea that a [[real number]] is that which can be approximated (in the [[absolute value]] metric) by [[rational numbers]].
 
-[Dedekind 1872](#Dedekind1872) pointed out that a real number may be uniquely determined its order relationships with rational numbers.  That is, the real number $x$ is determined by its __lower set__ $L_x$ and its __upper set__ $U_x$:
+[Dedekind 1872](#Dedekind1872) pointed out that a real number may be uniquely determined by its order relationships with rational numbers.  That is, the real number $x$ is determined by its __lower set__ $L_x$ and its __upper set__ $U_x$:
 \[ \label{cuts} \begin {split}
    L_x \coloneqq \{ a\colon \mathbb{Q} \;|\; a \lt x \} ,\\
    U_x \coloneqq \{ b\colon \mathbb{Q} \;|\; x \lt b \}
