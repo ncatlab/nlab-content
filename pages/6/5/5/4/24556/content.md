@@ -15,5 +15,7 @@ On (non-)detection of [[Majorana zero modes]] in [[experiment]]:
 
 * [[Vincent Mourik]], *You uncovered unreliable research. What happens next?*, talk at *[International Conference on Reproducibility in Condensed Matter Physics](https://www.pqi.org/international-conference-reproducibility-condensed-matter-physics)*, Pittburgh Quantum Institute (2024) &lbrack;video:[YT](https://youtu.be/j6fQsTpU2-g?list=PLtTPtV8SRcxgDSzmQZ5X9WcHV2PMehPBj)&rbrack;
 
+* [[Sergey M. Frolov]], [[Vincent Mourik]]: *Majorana Fireside Chat: HOW CLOSE ARE WE TO A TOPOLOGICAL QUBIT?* (Feb 2025) &lbrack;[YT](https://youtu.be/9Ag-L3hZiXo)&rbrack;
+
 
 category: people
