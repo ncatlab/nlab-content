@@ -7,9 +7,9 @@ On [[quantum error correction]]:
 
 * [[Emanuel Knill]], [[Raymond Laflamme]], *A Theory of Quantum Error-Correcting Codes*, Phys. Rev. Lett. 84:2525-2528, 2000 ([arXiv:quant-ph/9604034](https://arxiv.org/abs/quant-ph/9604034))
 
-Mathematical argument that [[quantum computation]] with [[quantum error correction]] is practically feasible:
+Mathematical argument that [[quantum computing]] with [[quantum error correction]] is practically feasible (quantum [[error threshold theorem]]):
 
-* [[Emanuel Knill]], [[Raymond Laflamme]], [[Wojciech H. Zurek]], *Resilient Quantum Computation: Error Models and Thresholds*, Proceedings of the Royal Society A **454** 1969 (1998) &lbrack;[arXiv:quant-ph/9702058](https://arxiv.org/abs/quant-ph/9702058)&rbrack;
+* {#KnillLaflammeZurek98} [[Emanuel Knill]], [[Raymond Laflamme]], [[Wojciech Zurek]]: *Resilient Quantum Computation: Error Models and Thresholds*, Science **279** 5349 (1998) 342-345 &lbrack;[doi;10.1126/science.279.5349.342](https://doi.org/10.1126/science.279.5349.342), [arXiv:quant-ph/9702058](https://arxiv.org/abs/quant-ph/9702058)&rbrack;
 
 
 Realization of [[quantum error correction]] in [[experiment]]:
