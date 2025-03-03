@@ -40,6 +40,11 @@ via [[Majorana zero modes]] restricted to edges of [[topological insulators]]:
 
 * Biao Lian, Xiao-Qi Sun, Abolhassan Vaezi, [[Xiao-Liang Qi]], Shou-Cheng Zhang: *Topological quantum computation based on chiral Majorana fermions*, PNA **115** 43 (2018) 10938-10942 \[<a href="https://doi.org/10.1073/pnas.1810003115">doi:10.1073/pnas.1810003115</a>\]
 
+Concerning [[measurement-based quantum computation|measurement-based quantum gates]] on [[Majorana zero modes]]:
+
+* Torsten Karzig, Yuval Oreg, Gil Refael, [[Michael H. Freedman]]: *Robust Majorana magic gates via measurements*, Phys. Rev. B **99** (2019) 144521 \[<a href="https://doi.org/10.1103/PhysRevB.99.144521">doi:10.1103/PhysRevB.99.144521</a>, [arXiv:1812.10498](https://arxiv.org/abs/1812.10498)\]
+
+
 See also:
 
 * Yusuke Masaki, Takeshi Mizushima, [[Muneto Nitta]], *Non-Abelian Anyons and Non-Abelian Vortices in Topological Superconductors* $[$[arXiv:2301.11614](https://arxiv.org/abs/2301.11614)$]$
