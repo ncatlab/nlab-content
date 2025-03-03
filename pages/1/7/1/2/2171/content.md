@@ -3515,6 +3515,101 @@ by forming the following [[commuting diagram]] of [[group homomorphisms]] where 
 \end{proposition}
 (Going back to [Birman 1969](#Birman69), cf. [Massuyeau 2021 Thm. 3.13](#Massuyeau21)).
 
+
+In fact:
+
+\begin{proposition}
+  \label{TrivialityOfHigherHomeomorphismGroups}
+  Let $\Sigma$ be the result of equipping a [[compact topological space|compact]] [[surface]] with a [[finite number]] of [[interior]] [[punctures]], then 
+
+$$
+  \pi_{n \geq 1} Homeo(\Sigma)
+  \;=\;
+  trivial
+$$ 
+
+**unless** $\Sigma$ is [[homeomorphism|homeomorphic]] to any one of 
+
+* the [[2-sphere]] $S^2$,
+
+* the [[plane]] $\mathbb{R}^2$,
+
+* the [[closed disk]] $D^2$,
+
+* the [[torus]] $Y^2$,
+
+* the [[closed annulus]],
+
+* the 1-[[punctured surface|punctured]] [[disk]] $D^2 \setminus \{0\}$,
+
+* the 1-[[punctured surface|punctured]] [[plane]] $\mathbb{R}^2 \setminus \{0\}$.
+
+\end{proposition}
+
+([Farb & Margalit 2012, Thm. 1.14](#FarbMargalit12), due to a series of results by Hamstrom)
+
+\begin{corollary}
+  In the situation of Prop. \ref{TrivialityOfHigherHomeomorphismGroups}
+  the [[long exact sequences]] of Prop. \ref{SurfaceBraidGroupsAsFibersOfForgettingPuncturesInMCG} become [[short exact sequences]]:
+
+\begin{tikzcd}
+  & 
+  1 \ar[d]
+  & 
+  1 \ar[d]
+  \\
+  1
+  \ar[r]
+  \ar[d, equals]
+  &
+  \mathrm{PBr}_n(\Sigma)
+  \ar[r]
+  \ar[d]
+  &
+  \mathrm{MCG}\big(\Sigma, \{x_1\}, \cdots, \{x_n\}\big)
+  \ar[r]
+  \ar[d]
+  &
+  \mathrm{MCG}\big(\Sigma\big)
+  \ar[r]
+  \ar[d, equals]
+  &
+  1
+  \\
+  1
+  \ar[r]
+  &
+  \mathrm{Br}_n(\Sigma)
+  \ar[r]
+  \ar[d]
+  &
+  \mathrm{MCG}\big(
+    \Sigma, \{x_1, \cdots, x_n\}
+  \big)
+  \ar[r]
+  \ar[d]
+  & 
+  \mathrm{MCG}(\Sigma)
+  \ar[r]
+  &
+  1
+  \\
+  & \mathrm{Sym}_n 
+  \ar[d]
+  \ar[r, equals]
+  & \mathrm{Sym}_n
+  \ar[d]
+  \\
+  & 1 & 1
+\end{tikzcd}
+
+\end{corollary}
+
+([Farb & Margalit 2012, Thm. 9.1](#FarbMargalit12))
+
+
+
+
 In words: *The [[mapping class group]] of a [[punctured]] [[surface]] is a [[group extension]] of the [[mapping class group]] of the plain surface by the surface braid group on the set of punctures.*
 
 
@@ -3806,7 +3901,6 @@ The understanding of the braid group as the [[mapping class group]] of the punct
 
 * {#Birman69} [[Joan S. Birman]]: *Mapping class groups and their relationship to braid groups*, Communications on Pure and Applied Mathematics **22** 2 (1969) 213-238 &lbrack;[doi:10.1002/cpa.3160220206](https://doi.org/10.1002/cpa.3160220206)&rbrack;
 
-
 Textbook accounts:
 
 * {#Birman75} [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press (1975) &lbrack;[ISBN:9780691081496](https://press.princeton.edu/books/paperback/9780691081496/braids-links-and-mapping-class-groups-am-82-volume-82), [preview pdf](https://api.pageplace.de/preview/DT0400.9781400881420_A26691398/preview-9781400881420_A26691398.pdf)&rbrack;
@@ -3816,6 +3910,11 @@ Textbook accounts:
 * [[Tomotada Ohtsuki]] ch 2 of: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
 
 * [[Christian Kassel]], [[Vladimir Turaev]], _Braid Groups_, GTM **247** Springer Heidelberg 2008 ([doi:10.1007/978-0-387-68548-9](https://link.springer.com/book/10.1007/978-0-387-68548-9), [webpage](http://irma.math.unistra.fr/~kassel/Braids-bk.html))
+
+In relation to [[mapping class groups]]:
+
+* {#FarbMargalit12} [[Benson Farb]], [[Dan Margalit]]: *Braid groups*, chapter 9 of: *A primer on mapping class groups*, Princeton Mathematical Series, Princeton University Press (2012) &lbrack;[ISBN:9780691147949](https://press.princeton.edu/books/hardcover/9780691147949/a-primer-on-mapping-class-groups), [jstor:j.ctt7rkjw](https://www.jstor.org/stable/j.ctt7rkjw), [pdf](http://euclid.nmu.edu/~joshthom/Teaching/MA589/farbmarg.pdf)&rbrack;
+
 
 Further introduction and review:
 
@@ -3948,6 +4047,8 @@ On [[moduli spaces of monopoles]] related to [[braid groups]]:
 
 
 [[!include braid group cryptography -- references]]
+
+
 
 
 category: knot theory
