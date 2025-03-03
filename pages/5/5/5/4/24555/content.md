@@ -25,4 +25,8 @@ On (non-)detection of [[Majorana zero modes]] in [[experiment]]:
 
 * [[Sergey M. Frolov]], *[The Fallen Angel Particle](https://espressospin.org/2022/11/17/the-fallen-angel-particle/)* (Nov 2022)
 
+* [[Sergey M. Frolov]], [[Vincent Mourik]]: *Majorana Fireside Chat: HOW CLOSE ARE WE TO A TOPOLOGICAL QUBIT?* (Feb 2025) &lbrack;[YT](https://youtu.be/9Ag-L3hZiXo)&rbrack;
+
+
+
 category: people
