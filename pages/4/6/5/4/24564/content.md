@@ -53,9 +53,11 @@ a Microsoft Azure press release announced a quantum chip ("*Majorana 1*") sugges
 
 and again the journal issued a [caveat](#AzureFeb25Caveat).
 
+Detailed commentary on these claims in [Legg 2025](#Legg25), [Frolov & Mourik 2025](#FrolovMourik25).
+
+
 The accompanying company "roadmap" ([arXiv:2502.12252](https://arxiv.org/abs/2502.12252)) mentions the idea of Bonderson et al. 2008 (review [here](https://quantumcomputing.stackexchange.com/q/25638/19363)) of simulating braiding of these immovable states by a measurement-only protocol (a kind of [[quantum simulation]] of actual braiding, see [there](quantum+simulation#OfAnyons)).
 
-Detailed commentary on these claims in [Legg 2025](#Legg25).
 
 
 
@@ -156,6 +158,7 @@ but see commentary in:
 
 * {#Legg25} Henry F. Legg: *Comment on "InAs-Al hybrid devices passing the topological gap protocol", Microsoft Quantum, Phys. Rev. B 107, 245423 (2023)* &lbrack;[arXiv:2502.19560](https://arxiv.org/abs/2502.19560)&rbrack;
 
+* {#FrolovMourik25} [[Sergey M. Frolov]], [[Vincent Mourik]]: *Majorana Fireside Chat: HOW CLOSE ARE WE TO A TOPOLOGICAL QUBIT?* (Feb 2025) &lbrack;[YT](https://youtu.be/9Ag-L3hZiXo)&rbrack;
 
 and earlier:
 
