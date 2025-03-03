@@ -995,11 +995,23 @@ $$
   \rho \,\colon\, R_2 \to R_1
 $$
 is called *conjugate for* &lbrack;[MacLane (1971), §IV.7 (5)](#MacLane71)&rbrack; or a *pseudo-transformation of* &lbrack;[Harpaz & Prasma (2015), Sec. 2.2](#HarpazPrasma15)&rbrack; the given adjunctions if they make the following [[diagram]] of [[natural transformations]] between [[hom-sets]] [[commuting diagram|commute]]:
+
 \begin{tikzcd}
-  \mathcal{D}(L_{2}(-),(-)) \ar[r, "\sim"] \ar[d, "{\mathcal{D}(\lambda_{(-)},(-))}"']  & \mathcal{C}((-),R_{2}(-)) \ar[d, "{\mathcal{C}((-),\rho_{(-)})}"] \\
-  \mathcal{D}(L_{1}(-),(-)) \ar[r, "\sim"] & \mathcal{C}((-),R_{1}(-))
+  \mathcal{D}\big(L_{2}(-),(-)\big) 
+    \ar[r, "\sim"] 
+    \ar[d, "{\mathcal{D}\big(\lambda_{(-)},(-)\big)}"']  
+    & 
+    \mathcal{C}\big((-),R_{2}(-)\big) 
+    \ar[d, "{\mathcal{C}\big((-),\rho_{(-)}\big)}"] 
+    \\
+    \mathcal{D}\big(L_{1}(-),(-)\big) 
+    \ar[r, "\sim"] 
+    & 
+    \mathcal{C}\big((-),R_{1}(-)\big)
+    \mathrlap{\,,}
 \end{tikzcd}
-where the horizontal maps are the given hom-isomorphisms (eq:HomIsomorphismForAdjointFunctors).
+
+where the horizontal arrows denote the given hom-isomorphisms (eq:HomIsomorphismForAdjointFunctors).
 \end{definition}
 This condition is compatible with [[horizontal composition|horizontal]] and [[vertical composition]] of [[natural transformations]] as [[2-morphisms]] in [[Cat]] and hence yields:
 
