@@ -1,11 +1,24 @@
+> This article is about [[metrizable topological space|metrizable]] [[complete space|complete]] [[topological vector spaces]].  For the [[locally convex vector space|locally convex]] special case, see the article [[Fréchet space]].
 
-# F-norms
-* table of contents
-{: toc}
+\tableofcontents
+
+## Terminology
+
+There are two inequivalent definitions of [[Fréchet spaces]] found in the literature.
+The original definition due to [[Stefan Banach]] defines [[Fréchet spaces]] as [[metrizable topological space|metrizable]] [[complete space|complete]] [[topological vector spaces]].
+
+Later [[Bourbaki]] (Topological vector spaces, Section II.4.1) added the condition of [[locally convex vector space|local convexity]].
+However, many authors continue to use the original definition due to Banach.
+
+The term “F-space” can refer to either of these definitions, although in the modern literature it is more commonly used to refer to the non-locally convex notion.
+
+The [[nLab]] uses “F-space” to refer to the non-locally convex notion and “[[Fréchet space]]” to refer to the locally convex notion.
 
 ## Idea
 
-An F-norm is a non-homogeneous variant of a [[norm]]: a translation-invariant [[metric]] on a [[vector space]] that satisfies properties in between being a [[G-norm]] (on the underlying [[abelian group]] of the vector space) and being a norm.  As with norms, there is a semi- variant.
+An __F-space__ is a [[topological vector space]] whose topology is induced by a complete F-norm.
+
+An __F-norm__ is a non-homogeneous variant of a [[norm]]: a translation-invariant [[metric]] on a [[vector space]] that satisfies properties in between being a [[G-norm]] (on the underlying [[abelian group]] of the vector space) and being a norm.  As with norms, there is a semi- variant.
 
 
 ## Definitions
@@ -105,7 +118,15 @@ $$ {\|x\|_p} = \sum_i {|x_i|^p} $$
 
 ## Properties
 
-The uniqueness theorem for [[complete space|complete]] [[norms]] in [[dream mathematics]] applies also to F-norms: assuming [[excluded middle]], [[dependent choice]], and the (classically false) [[Borel property]], two complete F-norms on a given [[vector space]] over the [[real numbers]] must be [[topological equivalence|topologically equivalent]].  See [[norm#dreamUnique]].
+The uniqueness theorem for [[complete space|complete]] [[norms]] in [[dream mathematics]] applies also to F-norms: assuming [[excluded middle]], [[dependent choice]], and the (classically false) [[Borel property]], two complete F-norms on a given [[vector space]] over the [[real numbers]] induce the same topology.  See [[norm#dreamUnique]].
+
+## Related concepts
+
+* [[Fréchet space]]
+
+## References
+
+* Nigel Kalton, _Quasi-Banach spaces_, Handbook of the geometry of Banach spaces, Volume 2, 1099–1130.  North-Holland, Amsterdam, 2003.  ISBN: 0-444-51305-1.
 
 
 category: analysis
@@ -114,19 +135,13 @@ category: analysis
 [[!redirects F-spaces]]
 [[!redirects F space]]
 [[!redirects F spaces]]
-[[!redirects Fspace]]
-[[!redirects Fspaces]]
 
 [[!redirects F-norm]]
 [[!redirects F-norms]]
 [[!redirects F norm]]
 [[!redirects F norms]]
-[[!redirects Fnorm]]
-[[!redirects Fnorms]]
 
 [[!redirects F-seminorm]]
 [[!redirects F-seminorms]]
 [[!redirects F seminorm]]
 [[!redirects F seminorms]]
-[[!redirects Fseminorm]]
-[[!redirects Fseminorms]]
