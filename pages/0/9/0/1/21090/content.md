@@ -1255,7 +1255,7 @@ over arrow/.style={-, black, preaction={draw=white, line width=2mm}},%
                 \node [style=morphism] (27) at (-2.5, 0) {$\;\, p \;\,$};
 \end{tikzpicture}
 
-In other words, $p$ denotes independendence if and only if it is the product of its marginals. 
+In other words, $p$ denotes independence if and only if it is the product of its marginals. 
 In particular:
 
 * In _FinStoch_, the joint distribution $p(x,y)$ denotes independence if it is in the form $p_X(x)\,p_Y(y)$ ;
