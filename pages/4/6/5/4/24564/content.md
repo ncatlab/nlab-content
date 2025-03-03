@@ -44,7 +44,7 @@ These Majorana zero modes were theoretically introduced in a [[spin chain]] [[mo
 
 * and a range of further claims are under similar criticism, see [Frolov & Mourik 2020](https://doi.org/10.5281/zenodo.6344447), [Das Sarma & Pan 2021](#DasSarmaPan21), [Frolov, Mourik & Zuo 2022](https://doi.org/10.5281/zenodo.6325378), [Mourik 2024](#Mourik24) and the extensive list [here](https://twitter.com/spinespresso/status/1503352928656138241) and [here](https://bsky.app/profile/spinespresso.bsky.social/post/3likchwf3p22d). 
 
-While many researchers began to dismiss the whole approach of "Majorana zero modes" (e.g. [BSSA21](#BSSA21), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) a new claim of detection was made by [Nayak 22](#Nayak22) & [MicrosoftQuantum 23](#MicrosoftQuantum23) -- but see the [journal's editorial caveat](#MicrosoftQuantum23Caveat) and cautionary commentary by [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a), [Frolov 22](#Frolov22), [Das Sarma 22, p. 9](#DasSarma22), [Legg 24](#Legg24), [Legg 25](#Legg25).
+While many researchers began to dismiss the whole approach of "Majorana zero modes" (e.g. [BSSA21](#BSSA21), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) a new claim of detection was made by [Nayak 22](#Nayak22) & [MicrosoftQuantum 23](#MicrosoftQuantum23) -- but see the [journal's editorial caveat](#MicrosoftQuantum23Caveat) and cautionary commentary by [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a), [Frolov 22](#Frolov22), [Das Sarma 22, p. 9](#DasSarma22), [Mourik 23](#Mourik23), [Legg 24](#Legg24), [Legg 25](#Legg25).
 
 On [19 Feb 2025](https://azure.microsoft.com/en-us/blog/quantum/2025/02/19/microsoft-unveils-majorana-1-the-worlds-first-quantum-processor-powered-by-topological-qubits/)
 a Microsoft Azure press release announced a quantum chip ("*Majorana 1*") suggested to host one topologically protected qbit. The accompanying Nature article [Microsoft Azure Quantum 2025](#AzureFeb25) states more carefully that:
@@ -116,7 +116,6 @@ See also:
 On the general problem of distinguishing the expected effect from noise:
 
 * {#DasSarmaPan21} [[Sankar Das Sarma]], Haining Pan, *Disorder-induced zero-bias peaks in Majorana nanowires*, Phys. Rev. B **103** 195158 (2021) &lbrack;[arXiv:2103.05628](https://arxiv.org/abs/2103.05628), [doi:10.1103/PhysRevB.103.195158](https://doi.org/10.1103/PhysRevB.103.195158)&rbrack;
-
 > we believe that similar confirmation bias applies to many other topological discovery claims in the literature during 2000–2020 where a precise knowledge of what one is looking for has been the key factor in the discovery claim, with the experimental quantization results themselves not being sufficiently compelling. &lbrack;...&rbrack; Our results certainly apply to most of the Majorana experiments during 2012–2021 in the literature.
 
 * {#BSSA21} Koen Bertels, Tamara Sarac, Aritra Sarkar, Imran Ashraf, *Quantum Computing -- from NISQ to PISQ*, IEEE Micro **41** (2021) 24-32 &lbrack;[arXiv:2106.11840v4](https://arxiv.org/abs/2106.11840v4), [doi:10.1109/MM.2021.3099195](https://doi.ieeecomputersociety.org/10.1109/MM.2021.3099195)&rbrack;
@@ -146,7 +145,6 @@ Non-retracted claims of experimental realization of something in the direction o
 * {#AzureFeb25} Microsof Azure Quantum: *Interferometric single-shot parity measurement in InAs–Al hybrid devices*, Nature **638** (2025) 651–655 &lbrack;[doi:10.1038/s41586-024-08445-2](https://doi.org/10.1038/s41586-024-08445-2)&rbrack;
 
   {#AzureFeb25Caveat} again with an accompanying caveat editorial ("Peer Review File" &lbrack;[pdf](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-024-08445-2/MediaObjects/41586_2024_8445_MOESM2_ESM.pdf)&rbrack;):
-
   > "The editorial team wishes to point out that the results in this manuscript do not represent evidence for the presence of Majorana zero modes in the reported devices. The work is published for introducing a device architecture that might enable fusion experiments using future Majorana zero modes."
 
 
@@ -155,6 +153,8 @@ but see commentary in:
 * [[Sergey Frolov]], *[Twitter:1671558089382957056](https://twitter.com/spinespresso/status/1671558089382957056) * (21 June 2023)
 
 * Karmela Padavic-Callaghan, *Microsoft says its weird new particle could improve quantum computers --- Researchers at Microsoft say they have created elusive quasiparticles called Majorana zero modes -- but scientists outside the company are sceptical*, New Scientist (21 June 2023) &lbrack;[web](https://www.newscientist.com/article/2378782-microsoft-says-its-weird-new-particle-could-improve-quantum-computers)&rbrack;
+
+* {#Mourik23} [[Vincent Mourik]]: correspondence with PRX editorial team on what later was published as [MS23](#MicrosoftQuantum23)  (2023) &lbrack;[pubpeer](https://pubpeer.com/publications/4C7F25D6DFE392856EF4171E379D67)&rbrack;
 
 * {#Legg25} Henry F. Legg: *Comment on "InAs-Al hybrid devices passing the topological gap protocol", Microsoft Quantum, Phys. Rev. B 107, 245423 (2023)* &lbrack;[arXiv:2502.19560](https://arxiv.org/abs/2502.19560)&rbrack;
 
