@@ -250,13 +250,15 @@ The first realistic proposal for actually building a [[quantum gate]] (namely on
 
 * {#CiracZoller95} [[J. Ignacio Cirac]], [[Peter Zoller]]: *Quantum Computations with Cold Trapped Ions*, Phys. Rev. Lett. **74** (1995) 4091 &lbrack;[doi:10.1103/PhysRevLett.74.4091](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.74.4091)&rbrack;
 
-Quantum computation became widely thought to be not just a theoretical but a plausible practical possibility with the theoretical understanding of [[quantum error correction]] (which however remains to be implemented scalably):
+Quantum computing became widely thought to be not just a theoretical but a plausible practical possibility with the theoretical understanding of [[quantum error correction]] (which however remains to be implemented scalably):
 
 * {#Shor95} [[Peter W. Shor]], *Scheme for reducing decoherence in quantum computer memory*, Phys. Rev. A 52, R2493(R) 1995 ([doi:10.1103/PhysRevA.52.R2493](https://doi.org/10.1103/PhysRevA.52.R2493))
 
 * {#Steane96} [[Andrew M. Steane]], *Error Correcting Codes in Quantum Theory*, Phys. Rev. Lett. 77, 793 1996 ([doi:10.1103/PhysRevLett.77.793](https://doi.org/10.1103/PhysRevLett.77.793))
 
 * {#CalderbankShor96} [[Robert Calderbank]], [[Peter W. Shor]], *Good Quantum Error-Correcting Codes Exist*, Phys. Rev. A, Vol. 54, No. 2, pp. 1098-1106, 1996 ([doi:10.1103/PhysRevA.54.1098](https://doi.org/10.1103/PhysRevA.54.1098))
+
+and the proof of the [[quantum threshold theorem]].
 
 Early review:
 
@@ -509,6 +511,10 @@ The origin of the notion:
 * Subhash Kak: *Prospects for Quantum Computing*, talk at CIFAR Nanotechnology program meeting, Halifax (November 2008) &lbrack;[arXiv:0902.4884](https://arxiv.org/abs/0902.4884)&rbrack;
 
 * Mikhail Dyakonov: *Prospects for quantum computing: extremely doubtful*, Int. J. of Modern Physics: Conf. Series **33** (2014) 1460357 &lbrack;[arXiv:1401.3629](https://arxiv.org/abs/1401.3629), [doi:10.1142/S2010194514603573](https://doi.org/10.1142/S2010194514603573)&rbrack;
+
+* [[Gil Kalai]]: *The Argument against Quantum Computers*,  in: *Quantum, Probability, Logic -- The Work and Influence of Itamar Pitowsky*, Springer (2020) 399-422 &lbrack;[arXiv:1908.02499](https://arxiv.org/abs/1908.02499), [doi:10.1007/978-3-030-34316-3_18](https://doi.org/10.1007/978-3-030-34316-3_18)&rbrack;
+  > A common interpretation of the [[threshold theorem]] is that it shows that large-scale quantum computers are possible in principle. A more careful interpretation is that if we can control noisy intermediate-scale quantum systems well enough, then we can build large-scale universal quantum computers. As we will see, there are good reasons for why we cannot control the quality of noisy intermediate-scale quantum
+systems well enough.
 
 * Daniel Koch, Brett Martin, Saahil Patel, Laura Wessing, and Paul M. Alsing, *Demonstrating NISQ era challenges in algorithm design on IBM's 20 qubit quantum computer*, AIP Advances **10** 095101 (2020) &lbrack;[doi:10.1063/5.0015526](https://doi.org/10.1063/5.0015526)&rbrack;
 
