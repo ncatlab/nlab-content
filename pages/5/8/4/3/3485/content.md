@@ -414,7 +414,7 @@ The proof of surjectivity for [[p-primary groups]] is due to [Segal 72](#Segal72
 
 Surjectivity for [[binary dihedral groups]] $2 D_{2n}$ for (at least) $2 n \leq 12$, the [[binary tetrahedral group]], [[binary octahedral group]], [[binary icosahedral group]] and the [[general linear group]] $GL(2,\mathbb{F}_3)$ is checked by [[computer experiment]] in [Burton-Sati-Schreiber 18](#BurtonSatiSchreiber18).
 
-The non-surjectivity for $G = \mathbb{Z}/3 \times Q_8$ is an exercise in [Serre 77, p. 104](#Serre77).  As a hint, he suggests to embed $\mathbb{Z}/3$ and $Q_8$ in the multiplicative group of the algebra $\mathbb{H}_{\mathbb{Q}}$ (the quaternions defined over $\mathbb{Q}$).  By letting $\mathbb{Z}/3$ act by left multiplication and $Q_8$ act by right multiplication, one obtains a 4-dimensional irreducible representation of $G$ whose character is not a linear combination of characters of permutation representations.  The proof uses a previous exercise and the fact that every subgroup of $G$ is normal.
+The non-surjectivity for $G = \mathbb{Z}/3 \times Q_8$ is an exercise in [Serre 77, p. 104](#Serre77).  As a hint, he suggests to embed $\mathbb{Z}/3$ and $Q_8$ in the multiplicative group of the algebra $\mathbb{H}_{\mathbb{Q}}$ (the quaternions defined over $\mathbb{Q}$).  By letting $\mathbb{Z}/3$ act by left multiplication and $Q_8$ act by right multiplication, one obtains a 4-dimensional irreducible representation of $G$ whose character is not a linear combination of characters of permutation representations.  The proof then uses the general result below.
 
 To see that injectivity holds at most for [[cyclic groups]], notice that over $k = \mathbb{Q}$ we have that
 
@@ -429,6 +429,28 @@ This means that for $G$ not a cyclic group we have that the [[free abelian group
 =--
 
 A more general analysis of the [[cokernel]] of $\beta$ is due to [Berz 94](#Berz94), reviewed and expanded on in [Hambleton-Taylor 99](#HambletonTaylor99). See also [Bartel-Dokchitser 14, p. 1](#BartelDokchitser14).
+
+The following result is adapted from an exercise in [Serre 77, p. 104](#Serre77).
+
++-- {: .num_prop #WhenNotAllVirtualLinearRepsAreVirtualPermutationReps}
+###### Proposition
+**(nonsurjectivity of the map from virtual permutation representations to virtual linear representations)**
+
+Suppose $G$ is a finite group with a linear representation $\rho$ such that:
+
+1.  $\rho$ is [[irreducible|irreducible representation]] and [[faithful|faithful representation]]
+2.  every subgroup of $G$ is normal
+3.  $\rho$ appears with multiplicity $n \ge 2$ in the [[regular representation]] of $G$.
+
+Then the map $\beta: A(G) \to R(G)$ is not surjective.
+
+=--
+
++-- {: .proof}
+###### Proof
+We prove that the multiplicity of $\rho$ in any permutation representation of $G$ is a multiple of $n$, so that the class $[\rho] \in R(G)$ cannot be in the image of $R(G)$.  To prove this, we show that...
+=--
+
 
 +-- {: .num_example #VirtualPermutationRepresentationsOfZ2}
 ###### Example
