@@ -128,6 +128,9 @@ The uniqueness theorem for [[complete space|complete]] [[norms]] in [[dream math
 
 * Nigel Kalton, _Quasi-Banach spaces_, Handbook of the geometry of Banach spaces, Volume 2, 1099–1130.  North-Holland, Amsterdam, 2003.  ISBN: 0-444-51305-1.
 
+* N. Kalton, N. T. Peck, James W. Roberts, _An F-space sampler_, Cambridge University Press (1984), London Mathematical Society Lecture Notes 89, Cambridge.  ISBN: 9780511662447, [DOI](https://doi.org/10.1017/CBO9780511662447).
+
+* Norbert Adasch, Bruno Ernst, Dieter Keim, _Topological Vector Spaces: The Theory Without Convexity Conditions_,  Lecture Notes in Mathematics 639 (1978), Springer. ISBN 978-3-540-08662-8.
 
 category: analysis
 
