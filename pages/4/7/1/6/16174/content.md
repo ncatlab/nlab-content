@@ -100,6 +100,28 @@ For [[proof]] see at _[[table of marks]]_, [this Prop.](table+of+marks#BurnsideP
 
 <br/>
 
+### Action on products
+
+Given two finite groups $G$ and $H$ we have a natural linear map
+
+$$ \lambda_{G,H} : A(G) \otimes A(H) \to A(G \times H) $$
+
+If $S$ is a finite $G$-set and $T$ is a finite $H$-set, $S \times T$ is naturally a finite $G \times H$ set, and we may define
+
+$$ \lambda_{G,H}( [S] \otimes [T]) = [S \times T] $$
+
+One can check that $\lambda$ makes the Burnside ring functor $A : FinSet^G \to FinVect^G$ into a [[lax monoidal functor]], where $FinVect$ stands for the category of finite-dimensional vector spaces.   Indeed $A$ is a [[symmetric|symmetric monoidal functor]] lax monoidal functor.   $\lambda_{G,H}$ is typically *not* an isomorphism, but:
+
++-- {: .num_prop #LaxatorIsIsomorphism}
+###### Proposition
+
+If the orders of $G$ and $H$ are relatively prime, then $ \lambda_{G,H} : A(G) \otimes A(H) \to A(G \times H) $ is an isomorphism.
+
+=--
+
+A proof can be found [on Math Stackexchange](https://math.stackexchange.com/questions/2524089/burnside-ring-of-the-direct-product).  The key is that if $G$ and $H$ are finite groups of relatively prime order, every subgroup of $G \times H$ is a product of a subgroup of $G$ and a subgroup of $H$.  This fails in general, e.g. for $G = H = \mathbb{Z}/2$, where $A(G) \otimes A(H)$ is 4-dimensional, but $A(G \times H)$ is 5-dimensional.
+
+
 ### As the equivariant stable cohomotopy of the point
  {#AsTheEquivariantStableCohomotopyOfThePoint}
 
