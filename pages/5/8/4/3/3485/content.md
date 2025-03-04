@@ -448,7 +448,7 @@ Then the map $\beta: A(G) \to R(G)$ is not surjective.
 
 +-- {: .proof}
 ###### Proof
-It suffices to prove that the multiplicity of $\rho$ in any permutation representation of $G$ is a multiple of $n$, so that the class $[\rho] \in R(G)$ cannot be in the image of $R(G)$.
+It suffices to prove that the multiplicity of $\rho$ in any permutation representation of $G$ is a multiple of $n$, so that the class $[\rho] \in R(G)$ cannot be in the image of $\beta$.
 
 Since every finite $G$-set is a coproduct of transitive actions of $G$, which are isomorphic to actions on $G/H$ for subgroups $H$ of $G$, every permutation representation of $G$ is a direct sum of those on spaces of the form $k[G/H]$.  Thus, it suffices to show that the multiplicity of $\rho$ in the representation on $k[G/H]$ is $n$ if $H$ is the trivial group, and $0$ otherwise.  
 
