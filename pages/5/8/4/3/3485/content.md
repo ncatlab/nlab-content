@@ -414,7 +414,7 @@ The proof of surjectivity for [[p-primary groups]] is due to [Segal 72](#Segal72
 
 Surjectivity for [[binary dihedral groups]] $2 D_{2n}$ for (at least) $2 n \leq 12$, the [[binary tetrahedral group]], [[binary octahedral group]], [[binary icosahedral group]] and the [[general linear group]] $GL(2,\mathbb{F}_3)$ is checked by [[computer experiment]] in [Burton-Sati-Schreiber 18](#BurtonSatiSchreiber18).
 
-The non-surjectivity for $G = \mathbb{Z}/3 \times Q_8$ is an exercise in [Serre 77, p. 104](#Serre77).  As a hint, he suggests to embed $\mathbb{Z}/3$ and $Q_8$ in the multiplicative group of the algebra $\mathbb{H}_{\mathbb{Q}}$ (the quaternions defined over $\mathbb{Q}$).  By letting $\mathbb{Z}/3$ act by left multiplication and $Q_8$ act by right multiplication, one obtains a 4-dimensional irreducible representation of $G$ whose character is not a linear combination of characters of permutation representations.  The proof then uses the general result below.
+The non-surjectivity for $G = \mathbb{Z}/3 \times Q_8$ is an exercise in [Serre 77, p. 104](#Serre77).  We discuss this further below.
 
 To see that injectivity holds at most for [[cyclic groups]], notice that over $k = \mathbb{Q}$ we have that
 
@@ -430,7 +430,7 @@ This means that for $G$ not a cyclic group we have that the [[free abelian group
 
 A more general analysis of the [[cokernel]] of $\beta$ is due to [Berz 94](#Berz94), reviewed and expanded on in [Hambleton-Taylor 99](#HambletonTaylor99). See also [Bartel-Dokchitser 14, p. 1](#BartelDokchitser14).
 
-The following result is adapted from an exercise in [Serre 77, p. 104](#Serre77).
+The following result is adapted from an exercise in [Serre 77, p. 104](#Serre77).  It applies at least whenever we work with representations over a field $k$ of characteristic zero.
 
 +-- {: .num_prop #WhenNotAllVirtualLinearRepsAreVirtualPermutationReps}
 ###### Proposition
@@ -438,8 +438,8 @@ The following result is adapted from an exercise in [Serre 77, p. 104](#Serre77)
 
 Suppose $G$ is a finite group with a linear representation $\rho$ such that:
 
-1.  $\rho$ is [[irreducible|irreducible representation]] and [[faithful|faithful representation]]
-2.  every subgroup of $G$ is normal
+1.  $\rho$ is [[irreducible representation|irreducible]] and [[faithful representation|faithful]]
+2.  every subgroup of $G$ is [[normal subgroup|normal]]
 3.  $\rho$ appears with multiplicity $n \ge 2$ in the [[regular representation]] of $G$.
 
 Then the map $\beta: A(G) \to R(G)$ is not surjective.
@@ -448,9 +448,18 @@ Then the map $\beta: A(G) \to R(G)$ is not surjective.
 
 +-- {: .proof}
 ###### Proof
-We prove that the multiplicity of $\rho$ in any permutation representation of $G$ is a multiple of $n$, so that the class $[\rho] \in R(G)$ cannot be in the image of $R(G)$.  To prove this, we show that...
+It suffices to prove that the multiplicity of $\rho$ in any permutation representation of $G$ is a multiple of $n$, so that the class $[\rho] \in R(G)$ cannot be in the image of $R(G)$.
+
+Since every finite $G$-set is a coproduct of transitive actions of $G$, which are isomorphic to actions on $G/H$ for subgroups $H$ of $G$, every permutation representation of $G$ is a direct sum of those on spaces of the form $k[G/H]$.  Thus, it suffices to show that the multiplicity of $\rho$ in the representation on $k[G/H]$ is $n$ if $H$ is the trivial group, and $0$ otherwise.  
+
+The former holds by assumption 3.  For the latter, suppose $H$ is a nontrivial subgroup of $G$.  Because $H$ is normal by assumption 2, every element $h \in H$ acts trivially on $k[G/H]$: we can see this by letting $h$ act on an arbitrary basis element $g H = H g \in G/H$:
+
+$$  h H g = H g .$$
+
+Since $H$ is nontrivial, it contains elements $h \ne 1$ that act trivially on $k[G/H]$.  But no $h \ne 1$ can act trivially on $\rho$ because $\rho$ is faithful, by assumption 1.   Thus $\rho$ cannot be a subrepresentation of $k[G/H]$.  That is, $\rho$ appears with multiplicity $0$ in $k[G/H]$.
 =--
 
+It is an exercise in [Serre 77, p. 104](#Serre77) to show that the group $G = \mathbb{Z}/3 \times Q_8$ obeys the conditions of this proposition, so that $\beta : A(G) \to R(G)$ is nonsurjective.  As a hint, Serre suggests to embed $\mathbb{Z}/3$ and $Q_8$ in the multiplicative group of the algebra $\mathbb{H}_{\mathbb{Q}}$ (the quaternions defined over $\mathbb{Q}$).  By letting $\mathbb{Z}/3$ act by left multiplication and $Q_8$ act by right multiplication, one obtains a 4-dimensional irreducible representation $\rho$ of $G$ which appears with multiplicity $n \ge 2$ in the regular representation.  Furthermore $\rho$ is faithful and irreducible, and every subgroup of $G$ is normal.
 
 +-- {: .num_example #VirtualPermutationRepresentationsOfZ2}
 ###### Example
