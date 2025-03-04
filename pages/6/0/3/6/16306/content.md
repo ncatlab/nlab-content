@@ -43,6 +43,16 @@ applying logic in the narrow sense to the laws of these objective transformation
 Related commentary is in ([Rodin 14](#Rodin14)).
 
 
+## Related entries
+
+* [[metaphysics]]
+
+* [[ontology]]
+
+* [[logos (in philosophy)]]
+
+* [[modal logic]]
+
 
 ## References
 
