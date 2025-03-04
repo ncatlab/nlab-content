@@ -33,11 +33,11 @@ Beware the clash ofterminology: a 'Fréchet topology' on a 'Fréchet topological
 There are two inequivalent definitions of Fréchet spaces found in the literature.
 The original definition due to [[Stefan Banach]] defines Fréchet spaces
 as [[metrizable topological space|metrizable]] [[complete space|complete]] [[topological vector spaces]].
+The books of Waelbroeck (1971) and Wilansky (1978) use the original definition.
 
-Later [[Bourbaki]] (Topological vector spaces, Section II.4.1) added the condition of [[locally convex vector space|local convexity]].
-However, many authors continue to use the original definition due to Banach.
+In 1953 [[Bourbaki]] (Topological vector spaces, Section II.4.1) added the condition of [[locally convex vector space|local convexity]].  This convention is followed by the books of Jarchow (1981), Köthe (1969), Schaefer (1971), Trèves (1967).
 
-The term “[[F-space]]” can refer to either of these definitions, although in the modern literature it is more commonly used to refer to the non-locally convex notion.
+The term “[[F-space]]” can refer to either of these definitions, although in the modern literature it is more commonly used to refer to the non-locally convex notion.  The books of Köthe (1969) and Schaefer (1971) require F-spaces to be locally convex.
 
 There are various equivalent definitions of locally convex Fréchet spaces:
 
