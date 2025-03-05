@@ -99,7 +99,26 @@ $$
 
 For example, _[[cohesion|cohesive]]_ [[geometry|geometric]] [[structure]] on [[generalized spaces]] is captured, this way, as [[modality]] in between the [[discrete object|discrete]] and the [[codiscrete object|codiscrete]] (Example \ref{DiscreteTopologicalSpaces}, and Def. \ref{CohesiveTopos} below).
 
-Historically, [[category theory]] was introduced in order to make precise the concept of _[[natural transformation]]_: The concept of _[[functors]]_ was introduced just so as to support that of natural transformations, and the concept of _[[categories]]_ only served that of functors (see [Freyd 1964, p. 1](category+theory#Freyd64)). 
+\begin{imagefromfile}
+  "file_name": "CategoryNotionsHierarchy.png",
+  "width": 280,
+  "float": "left",
+  "margin": {
+    "top": -30,
+    "right": 40,
+    "bottom": 10,
+    "left": 0,
+    "unit": "px"
+  }
+\end{imagefromfile}
+
+
+{#HierarchyOfNotion} Historically, [[category theory]] was introduced in order to make precise the concept of _[[natural transformation]]_: The concept of _[[functors]]_ was introduced just so as to support that of natural transformations, and the concept of _[[categories]]_ only served that of functors (see [Freyd 1964, ](category+theory#Freyd64), [p 1](http://www.tac.mta.ca/tac/reprints/articles/3/tr3.pdf#page=27)). 
+
+But natural transformations are, in turn, exactly the basis for the concept of _[[adjoint functors]]_ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} below), equivalently _[[adjunctions]] between categories_ (Prop. \ref{AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat} below).
+
+Shown below is the "Yin-Yang identity" (the *triangle identity*, cf. Prop. \ref{#AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat} below) characterizing [[adjunctions]].
+
 
 \begin{imagefromfile}
   "file_name": "Adjointness.jpg",
@@ -115,18 +134,13 @@ Historically, [[category theory]] was introduced in order to make precise the co
 \end{imagefromfile}
 
 
-But natural transformations are, in turn, exactly the basis for the concept of _[[adjoint functors]]_ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} below), equivalently _[[adjunctions]] between categories_ (Prop. \ref{AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat} below), shown on the left. 
 All _[[universal constructions]]_ --- the heart of category theory --- are special cases of [[adjoint functors]], hence of dualities, if we follow [Lambek 82](adjoint+functor#Lambek82): This includes the concepts of _[[limits]]_ and _[[colimits]]_ (Def. \ref{Limits} below), [[ends]] and [[coends]] (Def. \ref{EndAndCoendInTopcgSmash} below) [[Kan extensions]] (Prop. \ref{TopologicalLeftKanExtensionBCoend} below), and the behaviour of these constructions, such as for instance the [[free co-completion]] nature of the [[Yoneda embedding]] (Prop. \ref{FreeCocompletion} below). 
 
-$\,$
+\linebreak
 
-$\,$
-
-$\,$
+\linebreak
 
 Therefore it makes sense to regard category theory as the **theory of adjunctions**, <br/> hence the **theory of duality**:
-
-<br/>
 
 {#HierarchyOfConcepts} $\,$
 
