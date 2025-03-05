@@ -23,6 +23,11 @@ On [[Lie superalgebras]]:
 
 * [[Dimitry A. Leites]], *Lie Superalgebras*, J. Soviet Math. **30** (1985) 2481-2512 &lbrack;[doi:10.1007/BF02249121](http://dx.doi.org/10.1007/BF02249121)&rbrack;
 
+On the [[supergeometry|super]]-[[moduli space]] of [[super Riemann surfaces]]:
+
+* [[Dimitry Leites]], Alexander S. Tikhomirov: *Non-split superstrings of dimension $(1|2)$* \[<a href="https://arxiv.org/abs/2503.02416">arXiv:2503.02416</a>\]
+
+
 
 category: people
 
