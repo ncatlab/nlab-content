@@ -109,6 +109,8 @@ The notion of [[semicartesian operad]] is a type of [[generalized multicategory]
 
 * A [[relevance monoidal category]] is the "dual" of a semicartesian monoidal category, with diagonals but not projections.
 
+* [[category of operators]]
+
 ## Reference
 
 * {#EilenbergKelly66} [[Samuel Eilenberg]], [[G. Max Kelly]], *Closed Categories*, pp. 421-562 in:  [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
