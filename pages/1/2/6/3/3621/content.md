@@ -4,6 +4,12 @@ Pronounciation note: the Polish '&#281;' (cf. [wikipedia](http://en.wikipedia.or
 
 ## Selected writings
 
+On [[supergeometry]] and [[supermanifolds]]:
+
+* {#Gawędzki77} [[Krzysztof Gawędzki]]: *Supersymmetries -- Mathematics of supergeometry*, Annales de l'I.H.P. **27** 4 (1977) 335-366 &lbrack;[numdam:AIHPA_1977__27_4_335_0](http://www.numdam.org/item/?id=AIHPA_1977__27_4_335_0), [dml:75963](https://eudml.org/doc/75963)&rbrack;
+
+
+
 On [[2d conformal field theory]] and introducing [[Deligne cohomology]] in degree 3 ([[bundle gerbes]] [[connection on a bundle gerbe|with connection]]) as global models for the [[background field|background]] [[B-field]], such as in the [[WZW model]]:
 
 * [[Krzysztof Gawędzki]], *Topological Actions in two-dimensional Quantum Field Theories*, in: _Nonperturbative quantum field theory_, Nato Science Series B **185**, Springer (1988) &lbrack;[spire:257658](http://inspirehep.net/record/257658), [doi:10.1007/978-1-4613-0729-7_5](https://doi.org/10.1007/978-1-4613-0729-7_5), [[Gawedzki-TopologicalActions.pdf:file]]&rbrack;
