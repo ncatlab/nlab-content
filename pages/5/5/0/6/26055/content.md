@@ -28,6 +28,8 @@ On the [[moduli space of super Riemann surfaces|moduli space of]] [[super Rieman
 
 * {#DonagiOtt23} [[Ron Donagi]], [[Nadia Ott]], *Supermoduli Space with Ramond punctures is not projected* \[<a href="https://inspirehep.net/literature/2688635">spire:2688635</a>, [arXiv:2308.07957](https://arxiv.org/abs/2308.07957)\]
 
+* [[Dimitry Leites]], Alexander S. Tikhomirov: *Non-split superstrings of dimension $(1|2)$* \[<a href="https://arxiv.org/abs/2503.02416">arXiv:2503.02416</a>\]
+
 
 Further discussion of [[supergeometry|supergeometric]] [[Teichmüller space]]:
 
