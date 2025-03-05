@@ -1,5 +1,5 @@
 
-Related entries include [[random matrix]], [[Fredholm determinant]]
+Related entries include [[random matrix]], [[Fredholm determinant]] [[Hawkes process]]
 
 * wikipedia [determinantal point process](http://en.wikipedia.org/wiki/Determinantal_point_process)
 * A. Soshnikov, Determinantal random point fields. Russian Math. Surveys, 2000, 55 (5), 923&#8211;975 Original: &#1040;. &#1041;. &#1057;&#1086;&#1096;&#1085;&#1080;&#1082;&#1086;&#1074;, _&#1044;&#1077;&#1090;&#1077;&#1088;&#1084;&#1080;&#1085;&#1072;&#1085;&#1090;&#1085;&#1099;&#1077; &#1089;&#1083;&#1091;&#1095;&#1072;&#1081;&#1085;&#1099;&#1077; &#1090;&#1086;&#1095;&#1077;&#1095;&#1085;&#1099;&#1077; &#1087;&#1086;&#1083;&#1103;_, &#1059;&#1052;&#1053;, 55:5(335) (2000), 107&#8211;160 [doi](http://dx.doi.org/10.4213/rm321) [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=321&what=fullt&option_lang=rus)
