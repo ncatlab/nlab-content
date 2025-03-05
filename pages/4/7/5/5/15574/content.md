@@ -75,7 +75,7 @@ This is the original text on _Aufhebung_ from [Hegel 1812, book 1, section 1, ch
 
 > Aufheben und das Aufgehobene (das Ideelle) ist einer der wichtigsten Begriffe der Philosophie, eine Grundbestimmung, die schlechthin allenthalben wiederkehrt, deren Sinn bestimmt aufzufassen und besonders vom Nichts zu unterscheiden ist.&#8212;Was sich aufhebt, wird dadurch nicht zu Nichts. Nichts ist das Unmittelbare; ein Aufgehobenes dagegen ist ein Vermitteltes, es ist das Nichtseyende, aber als Resultat, das von einem Seyn ausgegangen ist; es hat daher die Bestimmtheit aus der es herkommt, noch an sich.
 
-> Aufheben hat in der Sprache den gedoppelten Sinn, da&#223; es so viel als aufbewahren, erhalten bedeutet, und zugleich so viel als aufh&#246;ren lassen, ein Ende machen. Das Aufbewahren selbst schlie&#223;t schon das Negative in sich, da&#223; etwas seiner Unmittelbarkeit und damit einem den &#228;u&#223;erlichen Einwirkungen offenen Daseyn entnommen wird, um es zu erhalten.&#8212;So ist das Aufgehobene ein zugleich Aufbewahrtes, das nur seine Unmittelbarkeit verloren hat, aber darum nicht vernichtet ist. &#8212;Die angegebenen zwei Bestimmungen des Aufhebens k&#246;nnen lexikalisch als zwei Bedeutungen dieses Wortes aufgef&#252;hrt werden. Auffallend m&#252;&#223;te es aber dabei seyn, da&#223; eine Sprache dazu gekommen ist, ein und dasselbe Wort f&#252;r zwei entgegengesetzte Bestimmungen zu gebrauchen. F&#252;r das spekulative Denken ist es erfreulich, in der Sprache W&#246;rter zu finden welche eine spekulative Bedeutung an ihnen selbst haben; die deutsche Sprache hat mehrere dergleichen. Der Doppelsinn des lateinischen: tollere (der durch den ciceronianischen Witz tollendum esse Octavium, ber&#252;hmt geworden) geht nicht so weit, die affirmative Bestimmung geht nur bis zum Emporheben. Etwas ist nur insofern aufgehoben, als es in die Einheit mit seinem Entgegengesetzten getreten ist; in dieser n&#228;hern Bestimmung als ein reflektirtes kann es passend Moment genannt werden. Gewicht und Entfernung von einem Punkt hei&#223;en beim Hebel, dessen mechanische Momente, um der Dieselbigkeit ihrer Wirkung willen bei aller sonstigen Verschiedenheit eines Reellen, wie das ein Gewicht ist, und eines Ideellen, der blo&#223;en r&#228;umlichen Bestimmung, der Linie; s. Encykl. der philos. Wissenschaft 3te Ausg. _ 261. Anm.&#8212;Noch &#246;fter wird die Bemerkung sich aufdringen, da&#223; die philosophische Kunstsprache f&#252;r reflektirte Bestimmungen lateinische Ausdr&#252;cke gebraucht, entweder weil die Muttersprache keine Ausdr&#252;cke daf&#252;r hat, oder wenn sie deren hat, wie hier, weil ihr Ausdruck mehr an das Unmittelbare, die fremde Sprache aber mehr an das Reflektirte erinnert.
+> Aufheben hat in der Sprache den gedoppelten Sinn, da&#223; es so viel als aufbewahren, erhalten bedeutet, und zugleich so viel als aufh&#246;ren lassen, ein Ende machen. Das Aufbewahren selbst schlie&#223;t schon das Negative in sich, da&#223; etwas seiner Unmittelbarkeit und damit einem den &#228;u&#223;erlichen Einwirkungen offenen Daseyn entnommen wird, um es zu erhalten.&#8212;So ist das Aufgehobene ein zugleich Aufbewahrtes, das nur seine Unmittelbarkeit verloren hat, aber darum nicht vernichtet ist. &#8212;Die angegebenen zwei Bestimmungen des Aufhebens k&#246;nnen lexikalisch als zwei Bedeutungen dieses Wortes aufgef&#252;hrt werden. Auffallend m&#252;&#223;te es aber dabei seyn, da&#223; eine Sprache dazu gekommen ist, ein und dasselbe Wort f&#252;r zwei entgegengesetzte Bestimmungen zu gebrauchen. F&#252;r das spekulative Denken ist es erfreulich, in der Sprache W&#246;rter zu finden welche eine spekulative Bedeutung an ihnen selbst haben; die deutsche Sprache hat mehrere dergleichen. Der Doppelsinn des lateinischen: tollere (der durch den ciceronianischen Witz tollendum esse Octavium, ber&#252;hmt geworden) geht nicht so weit, die affirmative Bestimmung geht nur bis zum Emporheben. Etwas ist nur insofern aufgehoben, als es in die Einheit mit seinem Entgegengesetzten getreten ist; in dieser n&#228;hern Bestimmung als ein reflektirtes kann es passend Moment genannt werden. Gewicht und Entfernung von einem Punkt hei&#223;en beim Hebel, dessen mechanische Momente, um der Dieselbigkeit ihrer Wirkung willen bei aller sonstigen Verschiedenheit eines Reellen, wie das ein Gewicht ist, und eines Ideellen, der blo&#223;en r&#228;umlichen Bestimmung, der Linie; s. Encykl. der philos. Wissenschaft 3te Ausg. 261. Anm.&#8212;Noch &#246;fter wird die Bemerkung sich aufdringen, da&#223; die philosophische Kunstsprache f&#252;r reflektirte Bestimmungen lateinische Ausdr&#252;cke gebraucht, entweder weil die Muttersprache keine Ausdr&#252;cke daf&#252;r hat, oder wenn sie deren hat, wie hier, weil ihr Ausdruck mehr an das Unmittelbare, die fremde Sprache aber mehr an das Reflektirte erinnert.
 
 ## Lawvere's path to _Aufhebung_
 
@@ -87,13 +87,13 @@ So now let's get down to business and do some mathematics!
 
 ### The mathematics of Yin and Yang
 
-In ([Lawvere 2000](#Law00)) a particularly simple example of the [[adjoint cylinder]] was suggested that we use here as a warm up. Note that the categories involved are not toposes and even lack a terminal object!
+[Lawvere 2000](#Law00) suggested a particularly simple example of the [[adjoint cylinder]], that we use here as a warm up. Note that the categories involved are not toposes and even lack a terminal object!
 
-Let $N$ be the [[natural numbers]] $\{0, 1,\dots\}$ viewed as a [[category]] via their usual [[poset|ordering]]. Let $L,R:N\to N$ be the two parallel [[functors]] '_even_' and '_odd_' defined by $L(n) \coloneqq 2n$ and $R(n) \coloneqq 2n+1$.
+Let $N$ denote the [[natural numbers]] $\{0, 1,\dots\}$ viewed as a [[category]] via their usual [[poset|ordering]]. Let $L,R \colon N\to N$ be the two parallel [[functors]] '*[[even number|even]]*' and '*[[odd number|odd]]*' defined by $L(n) \coloneqq 2n$ and $R(n) \coloneqq 2n+1$.
 
-Both are [[fully faithful functor|full and faithful]], which means that they correspond to two subcategory inclusions and, accordingly, to two subcategories $N_{even}$ and $N_{odd}$. We are now in situation where we have two subcategories that 'oppose' each other in that $N_{even}\neq N_{odd}$ but are nevertheless 'identical' in that there is a bijection $N_{even}\overset{\simeq}{\to} N_{odd}$. Furthermore, both are 'united' as different parts in the encompassing $N$ whose overall structure they represent in that $N_{even}\simeq N\simeq N_{odd}$ - that is somewhat unusual for what is to follow below where the opposing parts are seldom equivalent to the whole but they will always be a pair consisting of a reflective and a coreflective subcategory.
+Both are [[fully faithful functor|full and faithful]], which means that they correspond to two subcategory inclusions and, accordingly, to two subcategories $N_{even}$ and $N_{odd}$. We are now in situation where we have two subcategories that 'oppose' each other in that $N_{even}\neq N_{odd}$ but are nevertheless 'identical' in that there is a bijection $N_{even}\overset{\simeq}{\to} N_{odd}$. Furthermore, both are 'united' as different parts in the encompassing $N$ whose overall structure they represent in that $N_{even}\simeq N\simeq N_{odd}$ - that is somewhat unusual for what is to follow below where the opposing parts are seldom equivalent to the whole but they will always be a pair consisting of a [[reflective subcategory|reflective]] and a [[coreflective subcategory]].
 
-Now it was Lawvere's observation that a third functor $N\to N$ which with a clin d'oeil to [[Charles Sanders Peirce|C. S. Peirce's]] concept of _thirdness_ we call $T$ , can encapsulate this bunch of relations in one sweep when it forms an [[adjoint triple]] $L\dashv T\dashv R$ with $L$ and $R$: 
+Now it was Lawvere's observation that a third functor $N\to N$ which (with a *clin d'oeil* to [[Charles Sanders Peirce|C. S. Peirce's]] concept of *thirdness*) we call $T$, can encapsulate this bunch of relations in one sweep when it forms an [[adjoint triple]] $L\dashv T\dashv R$ with $L$ and $R$: 
 
 1. The triple expresses the _unity_ by the idempotency of $(R\circ T)^2=R\circ T$ and $(L\circ T)^2=L\circ T$ typical for (co)reflective subcategories, 
 
@@ -126,7 +126,7 @@ A [[localization of a category]] $\mathcal{B}$ with [[finite limits]] is a [[ref
 
 If $l\dashv r\dashv i$ is an essential localization then $l$ is also [[fully faithful functor|full and faithful]]. If $\mathcal{B}$ is a [[topos]], $\mathcal{A}$ is called an _[[essential geometric morphism|essential]] [[subtopos]]_ and we write $i_!\dashv i^*\dashv i_*$ in this case and call $i_!$ the _essentiality_.
 
-It is a result in ([Kelly-Lawvere 89](#KL89)) that the [[essential geometric morphism|essential]] [[subtoposes]] of a topos form a [[complete lattice]]. Therefore we say:
+It is a result of [Kelly & Lawvere 1989](#KL89) that the [[essential geometric morphism|essential]] [[subtoposes]] of a topos form a [[complete lattice]]. Therefore we say:
 
 +-- {: .num_defn #Level}
 ###### Definition 
@@ -174,7 +174,7 @@ $$
 $$
 
 
-(or just $i\ll j$ for short[^wayb]) if $\bigcirc _j\Box_i=\Box _i$. 
+(or just $i\ll j$ for short[^wayb]), if $\bigcirc _j\Box_i=\Box _i$. 
 
 Finally a [[level of a topos|level]] $\bar{i}$ is called the _Aufhebung_ of level $i$ 
 
@@ -621,7 +621,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#Law99} [[F. W. Lawvere]], *Kinship and Mathematical Categories*, pp.411-425 in: R. Jackendoff, P. Bloom, K. Wynn (eds), _Language, Logic, and Concepts - Essays in Memory of John Macnamara_, MIT Press 1999.
 
-* {#Law00} [[F. W. Lawvere]], *Adjoint Cylinders*, message to catlist November 2000. ([link](http://permalink.gmane.org/gmane.science.mathematics.categories/1683))
+* {#Law00} [[F. William Lawvere]], *Adjoint Cylinders*, message to Categories Mailing List (November 2000) &lbrack;[archive](https://web.archive.org/web/20150326193637/http://permalink.gmane.org/gmane.science.mathematics.categories/1683), scan: [part 1](/nlab/files/Lawvere00-AdjointCylinders1.png), [part 2](/nlab/files/Lawvere00-AdjointCylinders1.png)&rbrack;
 
 * {#Law02} [[F. W. Lawvere]], *Linearization of graphic toposes via Coxeter groups*, JPAA **168** (2002) pp.425-436.
 
