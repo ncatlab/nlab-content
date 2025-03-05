@@ -82,7 +82,7 @@ With the obvious morphisms of [[ringed space]] this forms the [[category]] [[SDi
 For $E \to X$ a smooth finite-rank [[vector bundle]] the [[manifold]] $X$ equipped with the [[Grassmann algebra]] over $C^\infty(X)$ of the sections  of the dual bundle
 
 $$
-  O_X(U) := \Gamma (\wedge^\bullet(E^*))
+  O_X(U) \coloneqq \Gamma (\wedge^\bullet(E^*))
 $$
 
 is a supermanifold. This is usually denoted by $\Pi E$.
@@ -95,7 +95,9 @@ is a supermanifold. This is usually denoted by $\Pi E$.
 In particular, let $\mathbb{R}^{p+q} \to \mathbb{R}^p$ be the trivial rank $q$ [[vector bundle]] on $\mathbb{R}^p$ then one writes
 
 $$
-  \mathbb{R}^{p|q} := \Pi (\mathbb{R}^{p+q} \to \mathbb{R}^p)
+  \mathbb{R}^{p|q} 
+    \coloneqq 
+  \Pi (\mathbb{R}^{p+q} \to \mathbb{R}^p)
 $$
 
 for the corresponding supermanifold.
@@ -114,7 +116,7 @@ Every supermanifold is [[isomorphism|isomorphic]] to one of the form $\Pi E$ whe
 
 =--
 
-([Batchelor 1979](#Batchelor79) reviewed in [Batchelor 1984, §1.13](#Batchelor84); [Rogers 2007, §8.2](#Rogers07))
+([Batchelor 1979](#Batchelor79) reviewed in [Batchelor 1984, §1.13](#Batchelor84); [Rogers 2007, §8.2](#Rogers07), see also [Gawędzki 1977 §3 Thm 1 (p 342)](#Gawędzki77), [Manin 1988, §2 Thm 2 & Cor 7 (pp 188)](#Manin88))
 
 
 
@@ -189,7 +191,7 @@ See also [this post](http://theoreticalatlas.wordpress.com/2013/07/26/john-huert
 Let 
 
 $$
-  SuperSet := Sh(SuperPoint)
+  SuperSet \coloneqq Sh(SuperPoint)
 $$
 
 be the [[sheaf topos]] over [[superpoints]]. Let
@@ -283,6 +285,9 @@ Via the [[formal dual|formally dual]] [[superalgebra]] of the super-[[function a
 
 * [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Supermanifolds in General*, Ch. 4 in: *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi:10.1007/978-94-017-1963-6_5](https://doi.org/10.1007/978-94-017-1963-6_5)&rbrack; 
 
+* {#Gawędzki77} [[Krzysztof Gawędzki]]: *Supersymmetries -- Mathematics of supergeometry*, Annales de l'I.H.P. **27** 4 (1977) 335-366 &lbrack;[numdam:AIHPA_1977__27_4_335_0](http://www.numdam.org/item/?id=AIHPA_1977__27_4_335_0), [dml:75963](https://eudml.org/doc/75963)&rbrack;
+
+
 
 ### Via functorial geometry
 
@@ -305,7 +310,7 @@ Discussion from the point of view of [[functorial geometry]]:
 
 * {#Batchelor84} [[Marjorie Batchelor]], *Graded Manifolds and Supermanifolds* in: *Mathematical Aspects of Superspace*, NATO ASI Series **132**, Springer (1984) 91-134 &lbrack;[doi:10.1007/978-94-009-6446-4_4](https://doi.org/10.1007/978-94-009-6446-4_4)&rbrack;
 
-* [[Yuri Manin]], §4.1 in: *[[Gauge Field Theory and Complex Geometry]]*, Grundlehren der Mathematischen Wissenschaften **289**, Springer (1988) &lbrack;[doi:10.1007/978-3-662-07386-5](https://doi.org/10.1007/978-3-662-07386-5)&rbrack;
+* {#Manin88} [[Yuri Manin]], §4.1 in: *[[Gauge Field Theory and Complex Geometry]]*, Grundlehren der Mathematischen Wissenschaften **289**, Springer (1988) &lbrack;[doi:10.1007/978-3-662-07386-5](https://doi.org/10.1007/978-3-662-07386-5)&rbrack;
 
 * I. L. Buchbinder, S. M. Kuzenko, *Ideas and methods of supersymmetry and supergravity; or A walk through superspace* CRC Press (1998) &lbrack;[ISBN:10.1201/9780367802530](https://library.oapen.org/handle/20.500.12657/50874)&rbrack;
 
