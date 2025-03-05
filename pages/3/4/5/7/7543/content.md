@@ -537,7 +537,7 @@ and named after their mentioning in
 
 The interpretation of the Segal condition as a [[sheaf]] condition is reviewed for instance in section 2 of 
 
-* [[Joachim Kock]], _Polynomial functors and trees_ ([pdf](http://mat.uab.es/~kock/cat/poly-trees.pdf))
+* [[Joachim Kock]], _Polynomial functors and trees_ ([pdf](http://mat.uab.es/~kock/cat/poly-trees.pdf), [arxiv:0807.2874](https://arxiv.org/abs/0807.2874))
 
 and discussed for [[strict infinity-categories]] in 
 
