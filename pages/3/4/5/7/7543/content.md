@@ -531,18 +531,17 @@ The "Segal conditions" are originally due to:
 
 and named after their mentioning in
 
-* {#Segal68} [[Graeme Segal]], Section 2 of: _Classifying spaces and spectral sequences_,  Publications Mathématiques de l'IHÉS, Volume 34  (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item/PMIHES_1968__34__105_0/)) 
+* {#Segal68} [[Graeme Segal]], Section 2 of: _Classifying spaces and spectral sequences_,  Publications Mathématiques de l'IHÉS **34**  (1968) 105-112  &lbrack;[numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item/PMIHES_1968__34__105_0/)&rbrack;
  
-
 
 The interpretation of the Segal condition as a [[sheaf]] condition is reviewed for instance in section 2 of 
 
-* [[Joachim Kock]], _Polynomial functors and trees_ ([pdf](http://mat.uab.es/~kock/cat/poly-trees.pdf), [arxiv:0807.2874](https://arxiv.org/abs/0807.2874))
+* [[Joachim Kock]]: *Polynomial functors and trees* &lbrack;[pdf](https://ddd.uab.cat/pub/prepub/2008/hdl_2072_15534/Pr825.pdf), [arxiv:0807.2874](https://arxiv.org/abs/0807.2874)&rbrack;
 
 and discussed for [[strict infinity-categories]] in 
 
-* [[Clemens Berger]], _A cellular nerve for higher categories_, Advances in Mathematics 169, 118-175 (2002) ([pdf](http://math1.unice.fr/~cberger/nerve.pdf))
- {#Berger}
+* {#Berger} [[Clemens Berger]], _A cellular nerve for higher categories_, Advances in Mathematics **169** 1 (2002) 118-175  &lbrack;[doi:10.1006/aima.2001.2056](https://doi.org/10.1006/aima.2001.2056), [pdf](http://math1.unice.fr/~cberger/nerve.pdf)&rbrack;
+ 
 
 Based on that, an iterative and homotopy-theoretic formulation of the cellular Segal conditions is in section 5 of 
 
