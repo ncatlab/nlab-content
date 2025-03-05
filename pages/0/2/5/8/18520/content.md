@@ -30,8 +30,12 @@ An _even number_ is an [[integer]] $n \in \mathbb{Z}$ that is a multiple of 2, h
 
 An _odd number_ is an integer that is not an even number.
 
+
+
 ## Properties
  {#Properties}
+
+The following is due to [Lawvere 2000](#Lawvere00):
 
 +-- {: .num_example #EvenAndOddIntegersAdjointModality}
 ###### Example
@@ -123,6 +127,13 @@ which is readily seen to be the case.
 
 
 =--
+
+## References
+
+The even/odd [[adjoint modality]] of Ex. \ref{EvenAndOddIntegersAdjointModality} was observed  by:
+
+* {#Lawvere00} [[F. William Lawvere]], *Adjoint Cylinders*, message to Categories Mailing List (November 2000) &lbrack;[archive](https://web.archive.org/web/20150326193637/http://permalink.gmane.org/gmane.science.mathematics.categories/1683), scan: [part 1](/nlab/files/Lawvere00-AdjointCylinders1.png), [part 2](/nlab/files/Lawvere00-AdjointCylinders1.png)&rbrack;
+
 
 
 [[!redirects even numbers]]
