@@ -3885,6 +3885,22 @@ Neumann algebras**
   > [[global symmetry|Global symmetries]] are extremely useful in the study of [[quantum field theories]] (QFTs). Remarkably, the notion of global symmetry in QFT has undergone a [[generalized symmetry|dramatic generalization]] in recent years, based on the idea that symmetries correspond to topological operators. In this talk, I will discuss aspects of generalized symmetries of QFTs realized in [[string theory|string]]/[[M-theory]]. The stringy perspective complements the purely field-theoretical point of view and allows us to study non-trivial classes of strongly coupled QFTs. By means of concrete examples, I will illustrate how [[generalized symmetry]] structures can be extracted systematically from the topology and geometry of the [[perturbative string theory vacuum|string background]] that [[geometric engineering of QFT|realizes the QFT]].
 
 
+\linebreak
+
+
+### Mar 2025
+
+* {#SantilliMar2025} 5 Mar 2025
+
+  [[Leonardo Santilli]] (Tsinghua University, China):
+
+  **Defects, SymTFTs, and $(-1)$-form symmetry from M-theory**
+
+  cf.: [arXiv:2411.19683](https://arxiv.org/abs/2411.19683)
+
+  > I will highlight some tensions in the treatment of [[higher form symmetries]], when the theory possesses a $(d-1)$-form symmetry. I will then show how, for invertible symmetries, the tensions are automatically resolved dealing with $(-1)$-form symmetries in the formalism of [[gerbes]]. After this general introduction and motivation, I will review the [[geometric engineering of QFT|geometric engineering]] of [[defects]] in [[M-theory]]. I will then proceed to obtain the SymTFT of M-theory compactifications, using [[differential cohomology]] as the main tool. In this way, I will provide a comprehensive treatment of defects and symmetries via geometric engineering, and derive the $(-1)$-form symmetries and their [[quantum anomaly|anomalies]] from this perspective. I will conclude with explicit examples and dynamical applications.
+
+
 
 
 \linebreak  
@@ -4192,6 +4208,15 @@ The following is a (very) inclomplete list of selected invited presentations by 
 
   talk at: *[4th Int. Conference on Math and Statistics (ICMS 2025)](https://www.aus.edu/conferences/the-fourth-international-conference-on-mathematics-and-statistics)*, [American University of Sharjah](https://www.aus.edu/)
 
+\linebreak
+
+* 24-28 Feb 2025
+
+  [[Urs Schreiber]]:
+
+  **[[schreiber:Quantum Language via Linear Homotopy Types]]** 
+
+  mini-course at *[IX International Workshop on Information Geometry, Quantum Mechanics and Applications 2025](http://www.q-math.es/conferences/IGQMA2025)*, [ICMAT Madrid](https://www.icmat.es/),  
 
 \linebreak  
 
