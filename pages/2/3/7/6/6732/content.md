@@ -111,7 +111,7 @@ Lecture notes and other reviews:
 
 * Francesco Giacosa, *Introductory visual lecture on QCD at large-$N_c$: bound states, chiral models, and phase diagram* &lbrack;[arXiv:2402.14097](https://arxiv.org/abs/2402.14097)&rbrack;
 
-* Leonardo Santilli: *Large $N$ limits of supersymmetric quantum field theories: A pedagogical overview* &lbrack;[arXiv:2501.05794](https://arxiv.org/abs/2501.05794)&rbrack;
+* [[Leonardo Santilli]]: *Large $N$ limits of supersymmetric quantum field theories: A pedagogical overview* &lbrack;[arXiv:2501.05794](https://arxiv.org/abs/2501.05794)&rbrack;
 
 
 
