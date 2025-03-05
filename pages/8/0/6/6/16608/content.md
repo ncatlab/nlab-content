@@ -284,10 +284,13 @@ On variations of Tambara functors,
 
 * [[Ben Spitz]], _Norms of Generalized Mackey and Tambara Functors_, ([arXiv:2409.13131](https://arxiv.org/abs/2409.13131))
 
+* [[Ross Street]], _Objective Mackey and Tambara functors via parametrized categories_ &lbrack;[arXiv:2503.02260](https://arxiv.org/abs/2503.02260)&rbrack;
+
+
 [[!redirects Tambara functors]]
 
 
-Relationship with Witt vectors,
+Relationship with [[Witt vectors]],
 
 * [[Morten Brun]], _Witt vectors and Tambara functors_, ([arXiv:math/0304495](http://arxiv.org/abs/math/0304495)),
 
@@ -317,7 +320,7 @@ In derived algebra,
 
 * [[David Mehrle]], [[J.D. Quigley]], [[Michael Stahlhauer]], _Pathological Computations of Mackey Functor-valued $Tor$ over Cyclic Groups_ &lbrack;[arXiv:2410.11974](https://arxiv.org/abs/2410.11974)&rbrack;
 
-In higher algebra,
+In [[higher algebra]],
 
 * [[Elden Elmanto]], [[Rune Haugseng]], _On distributivity in higher algebra I: The universal property of bispans_, ([arXiv:2010.15722](https://arxiv.org/abs/2010.15722))
 
