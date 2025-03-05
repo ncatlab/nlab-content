@@ -18,8 +18,7 @@
 A **partial functor** is a [[span]] $A \leftarrow X \to B$ of [[functors]] whose left leg is the inclusion of a [[cosieve]].
 
 These [[composition|compose]] by strict [[pullback]] and the identity partial functor is given by $A = A = A$.
-
-Thereby partial functor form a [[bicategory|subbicategory]] of that of [[profunctors]].
+Thereby partial functors form a [[bicategory|subbicategory]] of that of [[profunctors]].
 
 ## Related concepts
 
