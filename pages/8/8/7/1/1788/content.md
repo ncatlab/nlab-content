@@ -1,5 +1,37 @@
 
 
+_[[nLab:duality|Duality]]_ is of course an ancient notion in [[nLab:philosophy]]. At least as a term, it makes a curious re-appearance in the conjectural [[nLab:theory (physics)|theory]] of [[nLab:fundamental physics]] [formerly known](/nlab/show/M-theory#Duff96) as _[[nLab:string theory]]_, in the guise of _[[nLab:duality in string theory]]_. In both cases, the literature left some room in delineating what precisely is meant. But the philosophically inclined mathematician could notice (see [Lambek 82](adjoint+functor#Lambek82)) that an excellent candidate to make precise the idea of _[[nLab:duality]]_ is the mathematical concept of _[[nLab:adjoint functor|adjunction]]_, from [[nLab:category theory]]. This is particularly pronounced for _[[nLab:adjoint triples]]_ (Remark \ref{AdjointTriples} below) and their induced [[nLab:adjoint modalities]] ([[nLab:Some Thoughts on the Future of Category Theory|Lawvere 91]], which exhibit a given "[[nLab:modality|mode of being]]" of any object $X$ as intermediate between two dual opposite extremes:
+
+$$
+  \Box X 
+    \overset{\phantom{AAAA}}{\longrightarrow}
+  X 
+    \overset{\phantom{AAAA}}{\longrightarrow}
+  \bigcirc X
+$$
+
+For example, _[[nLab:cohesion|cohesive]]_ [[nLab:geometry|geometric]] [[nLab:structure]] on [[nLab:generalized spaces]] is captured, this way, as [[nLab:modality]] in between the [[nLab:discrete object|discrete]] and the [[nLab:codiscrete object|codiscrete]].
+
+Historically, [[nLab:category theory]] was introduced in order to make precise the concept of _[[nLab:natural transformation]]_: The concept of _[[nLab:functors]]_ was introduced just so as to support that of natural transformations, and the concept of _[[nLab:categories]]_ only served that of functors (see [Freyd 1964](category+theory#Freyd64) [p 1](http://www.tac.mta.ca/tac/reprints/articles/3/tr3.pdf#page=27)). 
+
+\begin{imagefromfile}
+  "web": "nlab",
+  "file_name": "Adjointness.jpg",
+  "width": 460,
+  "float": "right",
+  "margin": {
+    "top": -40,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  }
+\end{imagefromfile}
+
+But natural transformations are, in turn, exactly the basis for the concept of _[[nLab:adjoint functors]]_ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} below), equivalently _[[nLab:adjunctions]] between categories_ (Prop. \ref{AdjointnessInTermsOfHomIsomorphismEquivalentToAdjunctionInCat} below), shown on the left. 
+All _[[nLab:universal constructions]]_ --- the heart of category theory --- are special cases of [[nLab:adjoint functors]], hence of dualities, if we follow [Lambek 82](adjoint+functor#Lambek82): This includes the concepts of _[[nLab:limits]]_ and _[[nLab:colimits]]_, [[nLab:ends]] and [[nLab:coends]], [[nLab:Kan extensions]] (Prop. \ref{TopologicalLeftKanExtensionBCoend} below), and the behaviour of these constructions, such as for instance the [[nLab:free co-completion]] nature of the [[nLab:Yoneda embedding]]. 
+
+
 
 
 * [[Maissam Barkeshli]], [[Xiao-Liang Qi]]: *Synthetic Topological Qubits in Conventional Bilayer Quantum Hall Systems*, Phys. Rev. X **4** (2014) 041035 \[<a href="https://doi.org/10.1103/PhysRevX.4.041035">doi:10.1103/PhysRevX.4.041035</a>, [arXiv:1302.2673](https://arxiv.org/abs/1302.2673)\]
