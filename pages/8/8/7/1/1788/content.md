@@ -1,6 +1,8 @@
 
 [[CategoryNotionsHierarchy.png:file]]
 
+[[CategoriesFunctorsTransformations.png:file]]
+
 
 _[[nLab:duality|Duality]]_ is of course an ancient notion in [[nLab:philosophy]]. At least as a term, it makes a curious re-appearance in the conjectural [[nLab:theory (physics)|theory]] of [[nLab:fundamental physics]] [formerly known](/nlab/show/M-theory#Duff96) as _[[nLab:string theory]]_, in the guise of _[[nLab:duality in string theory]]_. In both cases, the literature left some room in delineating what precisely is meant. But the philosophically inclined mathematician could notice (see [Lambek 82](adjoint+functor#Lambek82)) that an excellent candidate to make precise the idea of _[[nLab:duality]]_ is the mathematical concept of _[[nLab:adjoint functor|adjunction]]_, from [[nLab:category theory]]. This is particularly pronounced for _[[nLab:adjoint triples]]_ (Remark \ref{AdjointTriples} below) and their induced [[nLab:adjoint modalities]] ([[nLab:Some Thoughts on the Future of Category Theory|Lawvere 91]], which exhibit a given "[[nLab:modality|mode of being]]" of any object $X$ as intermediate between two dual opposite extremes:
 
