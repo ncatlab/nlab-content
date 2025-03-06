@@ -58,9 +58,9 @@ The 10-fold way was also approached from a purely representation theoretic point
 
 * {#GeikoMoore21} Roman Geiko, [[Gregory W. Moore]], _Dyson’s classification and real division superalgebras_, Journal of High Energy Physics **2021** 4 (2021) 299 &lbrack;[doi: 10.1007/jhep04(2021)299](http://dx.doi.org/10.1007/jhep04%282021%29299)&rbrack;
 
-* {#RumyninTaylor2021} Dmitriy Rumynin, James Taylor, _Real Representations of $C_2$-Graded Groups: The Antilinear Theory_, Linear Algebra and its Applications, Volume 610, Feb. 2021, Pages 135-168. [doi: 10.1016/j.laa.2020.09.040](https://doi.org/10.1016/j.laa.2020.09.040).
+* {#RumyninTaylor2021} Dmitriy Rumynin, James Taylor: *Real Representations of $C_2$-Graded Groups: The Antilinear Theory*, Linear Algebra and its Applications **610** (2021) 135-168. &lbrack;[doi:10.1016/j.laa.2020.09.040](https://doi.org/10.1016/j.laa.2020.09.040), [arXiv:2006.09765](https://arxiv.org/abs/2006.09765)&rbrack;
 
-* {#RumyninTaylor2022} Dmitriy Rumynin, James Taylor, _Real Representations of $C_2$-Graded Groups: The Linear and Hermitian Theories_, Higher Structures, Volume 6, Issue 1, July 2022, Pages 359-374. [doi: 10.21136/HS.2022.07](https://dx.doi.org/10.21136/HS.2022.07).
+* {#RumyninTaylor2022} Dmitriy Rumynin, James Taylor: *Real Representations of $C_2$-Graded Groups: The Linear and Hermitian Theories*, Higher Structures **6** 1 (2022) 359-374. &lbrack;[doi:10.21136/HS.2022.07](https://dx.doi.org/10.21136/HS.2022.07), [arXiv:2008.07846](https://arxiv.org/abs/2008.07846)&rbrack;
 
 Review:
 
