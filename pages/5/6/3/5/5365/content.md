@@ -72,7 +72,7 @@ Textbook account:
 
 A discussion in the context of [[algebraic model categories]] is in 
 
-* [[Emily Riehl]], _Cellularity in algebraic model structures_ ([blog post](http://golem.ph.utexas.edu/category/2011/12/cellularity_in_algebraic_model.html#c040417))
+* [[Emily Riehl]], _Cellularity in algebraic model structures_ ([blog post](http://golem.ph.utexas.edu/category/2011/12/cellularity_in_algebraic_model.html))
 
 [[!redirects cell complexes]]
 
