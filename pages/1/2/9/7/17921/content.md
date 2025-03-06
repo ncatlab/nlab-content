@@ -16,24 +16,25 @@
 
 ## Intuition
 
-[[fusion category|Fusion categories]] over a [[field]] $k$ may be regarded as a [[categorification]] of [[semisimple algebras|semisimple $k$-algebras]]. For example, the [[group algebra]] of a [[finite group]] $G$ would categorify to the fusion category of $G$-[[graded vector spaces]]. On the other hand, the notion of [[2-groups]] is an [[internalisation]] of the notion of [[groups]]. A [[strict 2-group]] (which is essentially the same as a [[crossed module]]) in particular has an [[underlying]] group.
+[[fusion category|Fusion categories]] over a [[field]] $k$ may be regarded as a [[categorification]] of [[semisimple algebras|semisimple $k$-algebras]]. For example, the [[group algebra]] of a [[finite group]] $G$ would categorify to the fusion category of $G$-[[graded vector spaces]]. On the other hand, the notion of [[2-groups]] is an [[internalisation]] of the notion of [[groups]]. A [[strict 2-group]] (which is essentially the same as a [[crossed module]]) in particular has an [[underlying]] [[group]].
 
-In this sense, *$G$-crossed braided fusion categories* may be seen as some kind of categorification of [[crossed modules]] $\big(G, H, \delta\colon H \to G, \alpha\colon G \to Aut(H)\big)$, where the group $H$ is lifted to a fusion category, but $G$ is still a (finite) group. The boundary morphism $\delta$ is replaced by a $G$-grading, and the Peiffer rule ($G$-graded commutativity) is categorified to a _crossed braiding_ on $\mathcal{C}$.
+In this sense, *$G$-crossed braided fusion categories* may be seen as some kind of categorification of [[crossed modules]] $\big(G, H, \delta\colon H \to G, \alpha\colon G \to Aut(H)\big)$, where the group $H$ is lifted to a fusion category, but $G$ is still a ([[finite group|finite]]) [[group]]. The boundary morphism $\delta$ is replaced by a $G$-grading, and the [Peiffer rule](crossed+module#eq:PeifferRule) ($G$-graded commutativity) is categorified to a _crossed braiding_ on $\mathcal{C}$.
 
 $G$-crossed braided fusion categories can also be turned into [[monoidal bicategories]].
 
 \begin{remark}
 **(Terminology)**
-There are various names for this particular flavour of fusion category,
+There are various names for this particular flavor of fusion category,
 involving permutations of the words "braided" and "crossed", or possibly trading "braided" for "$G$-braided".
 
 The latter choice has its justification in the fact that in general, it is _not_ a [[braided category]], but the braiding is in a sense twisted by the grading, just as the second group $H$ in a crossed module need not be abelian, but up to a group action.
 \end{remark}
 
+
 ## Definition
 
 \begin{definition}
-A *$G$-crossed braided fusion category( consists of the following:
+A *$G$-crossed braided fusion category consists of the following:
 
 * A [[finite group]] $G$,
 
