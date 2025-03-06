@@ -6,13 +6,14 @@
 * [GoogleScholar page](https://scholar.google.pt/citations?user=B-zaW_YAAAAJ&hl=pt-PT)
 
 
+
 ## Selected writings
 
 On [[generalized global symmetries]] motivated form [[M-theory]]:
 
 * Marwan Najjar, Leonardo Santilli, Yi-Nan Wang: *$(-1)$-form symmetries from M-theory and SymTFTs* &lbrack;[arXiv:2411.19683](https://arxiv.org/abs/2411.19683)&rbrack;
 
-* [[Leonardo Santilli]]: *Defects, SymTFTs, and $(-1)$-form symmetry from M-theory*, [talk at](CQTS#SantilliMar2025) [[CQTS]] (Mar 2025)
+* [[Leonardo Santilli]]: *Defects, SymTFTs, and $(-1)$-form symmetry from M-theory*, [talk at](CQTS#SantilliMar2025) [[CQTS]] (Mar 2025) &lbrack;[[Santilli-CQTSMar2025.pdf:file]]&rbrack;
 
 
 
