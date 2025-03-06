@@ -1,4 +1,6 @@
 
+\tableofcontents
+
 ## Idea
 
 (...)
@@ -18,7 +20,7 @@ appears in [[perturbative quantization of 3d Chern-Simons theory]]
 
 ## References
 
-An introduction and survey is in
+Introduction and survey:
 
 * L. Nicolaescu, _Notes on Reidemeister torsion_ ([pdf](http://www.nd.edu/~lnicolae/Torsion.pdf))
 
@@ -40,18 +42,14 @@ Reidemeister torsion was identified with the [[Alexander polynomial]] in
 * [[John Milnor]], _A duality theorem for the Reidemeister torsion_, Ann. of Math. 76 (1962),
 137&#8211;147.
 
-Then 
+Proof that, on [[compact topological space|compact]] [[Riemannian manifolds]], Reidemeister torsion coincides with [[analytic torsion]]:
 
-* [[Jeff Cheeger]], _Analytic torsion and the heat equation_, Ann. of Math. 109 (1979), 259&#8211;322.
+* {#Cheeger77} [[Jeff Cheeger]]: *Analytic torsion and Reidemeister torsion*, Proc. Natl. Acad. Sci. USA __74__ 7 (1977) 2651-2654 &lbrack;[doi:10.1073/pnas.74.7.2651](https://doi.org/10.1073/pnas.74.7.2651), [pdf](http://www.pnas.org/content/74/7/2651.full.pdf)&rbrack;
 
-and
+* Werner Müller: _Analytic torsion and R-torsion of Riemannian manifolds_, Adv. in Math. **28** 3 (1978) 233-305 \[<a href="https://doi.org/10.1016/0001-8708(78)90116-0">doi;10.1016/0001-8708(78)90116-0</a>\]
 
-* W. M&#252;ller, _Analytic torsion and R-torsion of Riemannian manifolds_, Adv. in Math.
-28 (1978), 233&#8211;305.
 
-proved that on compact [[Riemannian manifolds]] it coincides with [[analytic torsion]].
-
-Relation to the [[volume]] is discussed in
+Relation to the [[volume]] of [[hyperbolic 3-manifold]]:
 
 * Pere Menal-Ferrer, Joan Porti, _Higher dimensional Reidemeister torsion invariants for cusped hyperbolic 3-manifolds_ ([arXiv:1110.3718](http://arxiv.org/abs/1110.3718))
 
