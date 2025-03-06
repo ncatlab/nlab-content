@@ -2,7 +2,9 @@
 \tableofcontents
 
 
-## Young's inequality for products
+## Young's inequality
+
+### For products
 
 \begin{proposition}
 
@@ -39,9 +41,14 @@ One proof is by [[convex function|convexity]] of the [[exponential function]]: c
 
 $$\exp(tx + (1-t)y) \leq t\exp(x) + (1-t)\exp(y).$$ 
 
+### For convolutions
+
+(...)
+
+
 ## Related concepts
 
-* from Young's inequality follows [[Hölder's inequality]]
+* from Young's inequality for products follows [[Hölder's inequality]]
 
 
 ## References
@@ -50,5 +57,14 @@ See also:
 
 * Wikipedia, *[Young's inequality for products](https://en.m.wikipedia.org/wiki/Young%27s_inequality_for_products)*
 
+* Wikipedia: *[Young's convolution inequality](https://en.m.wikipedia.org/wiki/Young%27s_convolution_inequality)*
+
+
+
+[[!redirects Young's inequalities]]
+
 [[!redirects Young's inequality for products]]
+
+[[!redirects Young inequality for convolutions]]
+[[!redirects Young's inequality for convolutions]]
 
