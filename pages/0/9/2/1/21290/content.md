@@ -289,6 +289,10 @@ $$
 $$
 for $1\le p\lt \frac{n+1}{2}$, $\frac{n-1}{q}+1 = \frac{n}{p}$ and $s\gt \frac{n}{p}-1$. Hence, by Theorem \ref{ThmXRayKakeya} the Hausdorff dimension of a Kakeya set $E\subset\mathbb{R}^n$ is at least $\frac{n+1}{2}$.
 
+## Claimed proofs and proof sketches
+
+* [[Victor Porton]] produced [this proof sketch](https://x.com/victorporton/status/1897523445346304107) for all natural $n$.
+
 ## References
 
 * {#bourgain1991} [[Bourgain, J.]], Besicovitch type maximal function operators and applications to Fourier Analysis, Geom. Funct. Anal., 1, 1991
