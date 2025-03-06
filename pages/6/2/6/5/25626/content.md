@@ -28,7 +28,7 @@ $$F(X \otimes Y) \to F(X) \otimes Y$$
 
 When $V$ is [[symmetric monoidal category|symmetric]], the [[braiding]] $b$ allows to obtain a left-costrength from a right-costrength, and in this setting, one usually drops “left-” or “right-” and simply talks about __tensorial costrengths__.
 
-More generally, a __costrength__ (on a monoidal category which is not necessarily symmetric) is a left-costrength and a coright-strength such that the two induced maps $T(X\otimes (Y\otimes Z)) \to (X \otimes T Y) \otimes Z$ agree.
+More generally, a __costrength__ (on a monoidal category which is not necessarily symmetric) is a left-costrength and a right-costrength such that the two induced maps $T(X\otimes (Y\otimes Z)) \to (X \otimes T Y) \otimes Z$ agree.
 
 ## Definition 
 
