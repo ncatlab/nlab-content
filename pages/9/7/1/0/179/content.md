@@ -1308,7 +1308,7 @@ The explicit term _$\infty$-Lie algebroid_ / _$L_\infty$-algebroid_ as such is d
 
 * [[Urs Schreiber]]: *On $\infty$-Lie* (2008) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schreiber/action.pdf), [[Schreiber-InfinityLie.pdf:file]]&rbrack;
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], Section A.1 of: _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Communications in Mathematical Physics, Volume 315, Issue 1 (2012) pp 169-213 ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://link.springer.com/article/10.1007/s00220-012-1510-3))
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]] Section A.1 of: _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Communications in Mathematical Physics **315** 1 (2012) 169-213 &lbrack;[arXiv:0910.4001](http://arxiv.org/abs/0910.4001), [doi:10.1007/s00220-012-1510-3](https://link.springer.com/article/10.1007/s00220-012-1510-3)&rbrack;
 
 The term then appears in
 
