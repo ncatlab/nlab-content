@@ -3896,6 +3896,8 @@ Neumann algebras**
 
   **Defects, SymTFTs, and $(-1)$-form symmetry from M-theory**
 
+  slides: [[Santilli-CQTSMar2025.pdf:file]]
+
   cf.: [arXiv:2411.19683](https://arxiv.org/abs/2411.19683)
 
   > I will highlight some tensions in the treatment of [[higher form symmetries]], when the theory possesses a $(d-1)$-form symmetry. I will then show how, for invertible symmetries, the tensions are automatically resolved dealing with $(-1)$-form symmetries in the formalism of [[gerbes]]. After this general introduction and motivation, I will review the [[geometric engineering of QFT|geometric engineering]] of [[defects]] in [[M-theory]]. I will then proceed to obtain the SymTFT of M-theory compactifications, using [[differential cohomology]] as the main tool. In this way, I will provide a comprehensive treatment of defects and symmetries via geometric engineering, and derive the $(-1)$-form symmetries and their [[quantum anomaly|anomalies]] from this perspective. I will conclude with explicit examples and dynamical applications.
