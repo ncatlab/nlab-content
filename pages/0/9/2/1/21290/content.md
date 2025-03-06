@@ -1,32 +1,65 @@
-A Kakeya Set is a set that contains a unit line segment for every direction. For example, a ball of radius one half is a Kakeya set.
 
-The Kakeya Set Conjecture asserts that every compact Kakeya set $E\subset\mathbb{R}^n$ has [[Hausdorff dimension]] $n$.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
+\tableofcontents
+
+## Idea
+
+A *Kakeya Set* is a [[subset]] of a [[Euclidean space]] that contains a unit line segment for every [[direction]]. For example, a [[ball]] is a Kakeya set.
+
+The *Kakeya Set Conjecture* asserts that every [[compact topological space|compact]] Kakeya set $E\subset\mathbb{R}^n$ has [[Hausdorff dimension]] $n$.
 
 ## X-Ray Transform
 
-The X-ray transform is the operator
-$$\operatorname{X} f(l) := \int_l f\,d\lambda(x),$$
-where $l\subset\mathbb{R}^n$ is a line, and $\lambda$ the Lebesgue measure on the line. The manifold $M_n$ can be represented as
+The *X-ray transform* is the operator
+$$\operatorname{X} f(l) \coloneqq \int_l f\,d\lambda(x),$$
+where $l\subset\mathbb{R}^n$ is a line, and $\lambda$ the [[Lebesgue measure]] on the line. 
+
+Define a [[manifold]] $M_n$ by
 $$
-M_n = \{(\sigma, x)\in \mathbb{P}^{n-1}\times\mathbb{R}^n \mid \langle x,\sigma\rangle = 0\};
+M_n = \big\{(\sigma, x)\in \mathbb{P}^{n-1}\times\mathbb{R}^n \mid \langle x,\sigma\rangle = 0\big\};
 $$
-here $\mathbb{P}^{n-1} := S^{n-1}/\{\pm\}$ is the space of lines in $\mathbb{R}^n$ that pass through the origin, and $(\sigma,x)$ represents a line that passes through $x$ with direction $\sigma$. We endow $M_n$ with a measure $\mu$ invariant under rigid motions. It is an open problem to determine the exponents $1\le p,q,r\le\infty$ for which the following inequality holds:
+where $\mathbb{P}^{n-1} \coloneqq S^{n-1}/\{\pm\}$ is the [[projective space]] of lines in $\mathbb{R}^n$ that pass through the origin, and $(\sigma,x)$ represents a line that passes through $x$ with direction $\sigma$. 
+
+
+We endow $M_n$ with a [[measure]] $\mu$ invariant under rigid motions. 
+
+It is an open problem to determine the exponents $1\le p,q,r\le\infty$ for which the following [[inequality]] holds:
 $$
-\left\Vert \operatorname{X} f\right\Vert_{L^q(\sigma\mapsto L^r_x(\mathbb{R}^{n-1}))} \le C\left\Vert f\right\Vert_{L^p(\mathbb{R}^n)}.
+  \left\Vert \operatorname{X}f\right\Vert
+   _{L^q\big(\sigma\mapsto L^r_x(\mathbb{R}^{n-1})\big)} 
+  \;\le\; 
+  C\left\Vert f\right\Vert_{L^p(\mathbb{R}^n)}.
 $$
-For brevity we will write $L^q_\sigma L^r_x := L^q(\sigma\mapsto L^r_x(\mathbb{R}^{n-1}))$.
+
+For brevity we will write $L^q_\sigma L^r_x \coloneqq L^q\big(\sigma\mapsto L^r_x(\mathbb{R}^{n-1})\big)$.
 
 We can write the X-ray transform of a function $f\in C_c^\infty(\mathbb{R}^n)$ as
 $$
-\operatorname{X} f(l) = \int f\delta_{l}(x)\,dx
+
+  \operatorname{X} f(l) 
+   = 
+  \int f\delta_{l}(x)\,d
+ \,,x
 $$
-where $\delta_{l} := \lim_{\varepsilon\to 0}\varepsilon^{-n+1}1_{\{x\in\mathbb{R}^n\mid \;l\cap B_\varepsilon(x)\neq\emptyset\}}$. If $(\sigma,x)$ is a line $l\in M_n$, and $P_\sigma$ the projection to the plane $\{y\mid \langle y,\sigma\rangle = 0\}$, then $\delta_l$ is the [[pullback of a distribution|pullback]] $P_\sigma^*\delta_x = \delta_x\circ P_\sigma$, where $\delta_x$ is the Dirac delta centered at $x\in\mathbb{R}^{n-1}$.
+where $\delta_{l} \coloneqq \lim_{\varepsilon\to 0}\varepsilon^{-n+1}1_{\{x\in\mathbb{R}^n\mid \;l\cap B_\varepsilon(x)\neq\emptyset\}}$. 
+
+If $(\sigma,x)$ is a line $l\in M_n$, and $P_\sigma$ the projection to the plane $\{y\mid \langle y,\sigma\rangle = 0\}$ then $\delta_l$ is the [[pullback of a distribution|pullback]] $P_\sigma^*\delta_x = \delta_x\circ P_\sigma$, where $\delta_x$ is the [[Dirac delta distribution]] centered at $x\in\mathbb{R}^{n-1}$.
 
 The operator dual to $\operatorname{X}$, _i.e._ $\int \operatorname{X}h\,f\,d\mu = \int h\,\operatorname{X}^*f\,dx$, acts on functions $f$ in $M_n$ as
 $$
 \operatorname{X}^*f(x) = \int f\delta_{\{x\}}(l)\,d\mu(l);
 $$
-here $\delta_{\{x\}} := \lim_{\varepsilon\to 0}\varepsilon^{-n+1}1_{\{l\in M_n\mid \;l\cap B_\varepsilon(x)\neq\emptyset\}}$  ---this is a distribution in $M_n$, do not confuse with the usual Dirac delta $\delta_x$ centered at $x$. The distribution $\delta_{\{x\}}$ is the restriction of the measure $\mu$ in $M_n$ to the set of lines passing through $x\in\mathbb{R}^n$.
+here $\delta_{\{x\}} \coloneqq \lim_{\varepsilon\to 0}\varepsilon^{-n+1}1_{\{l\in M_n\mid \;l\cap B_\varepsilon(x)\neq\emptyset\}}$  --- this is a distribution in $M_n$, not to be confused with the usual [[Dirac delta distribution]] $\delta_x$ centered at $x$: The distribution $\delta_{\{x\}}$ is the restriction of the measure $\mu$ in $M_n$ to the set of lines passing through $x\in\mathbb{R}^n$.
 
 The first bound we can get for the X-ray transform is
 $$
@@ -40,55 +73,55 @@ Besides $L^p$-spaces, we need to consider spaces of regular functions.
 ###### Definition
 **([[Sobolev space]])
 
-Let $\varphi$ be a smooth function with Fourier transform supported in $\vert\xi\vert\sim 1$, and let $\tilde{\varphi}$ be a smooth function with Fourier transform supported in $\vert\xi\vert\lesssim 1$. Suppose that 
+Let $\varphi$ be a [[smooth function]] with [[Fourier transform]] [[support of a function|supported]] in $\vert\xi\vert\sim 1$, and let $\tilde{\varphi}$ be a smooth function with [[Fourier transform]] supported in $\vert\xi\vert\lesssim 1$. Suppose that 
 $$
 1 = \sum_{k\ge 0}\varphi_k,
 $$
-where $\varphi_0 := \tilde{\varphi}$ and $\varphi_k(\xi) := \varphi(\xi/2^k)$, for $k\ge 1$. Let $P_k$ be the projection $(P_k f)^\wedge := \varphi_k \hat{f}$. 
+where $\varphi_0 \coloneqq \tilde{\varphi}$ and $\varphi_k(\xi) \coloneqq \varphi(\xi/2^k)$, for $k\ge 1$. Let $P_k$ be the projection $(P_k f)^\wedge \coloneqq \varphi_k \hat{f}$. 
 
 The Sobolev-Slobodeckij spaces $W^{s,p}(\mathbb{R}^n)$ are, for $1\lt p\lt \infty$ and $-\infty\lt s\lt \infty$, defined as
 $$
-\Vert f\Vert_{W^{s,p}(\mathbb{R}^n)} := \Big[\sum_{k\ge 0}(2^{sk}\Vert P_k f\Vert_{L^p(\mathbb{R}^n)})^p\Big]^\frac{1}{p}\quad if s \neq integer,
+\Vert f\Vert_{W^{s,p}(\mathbb{R}^n)} := \Big[\sum_{k\ge 0}(2^{sk}\Vert P_k f\Vert_{L^p(\mathbb{R}^n)})^p\Big]^\frac{1}{p}\quad \text{if}\phantom{.} s \notin \mathbb{N},
 $$
 and
 $$
-\Vert f\Vert_{W^{s,p}(\mathbb{R}^n)} := \Big[\sum_{\vert\alpha\vert\le s}\Vert \partial^\alpha f\Vert_{L^p(\mathbb{R}^n)}^p\Big]^\frac{1}{p} \quad if s = integer.
+\Vert f\Vert_{W^{s,p}(\mathbb{R}^n)} \coloneqq \Big[\sum_{\vert\alpha\vert\le s}\Vert \partial^\alpha f\Vert_{L^p(\mathbb{R}^n)}^p\Big]^\frac{1}{p} \quad \text{if}\phantom{.} s \in \mathbb{N}.
 $$
 See ([Triebel 1978, Sec. 2.3.1](#triebel1978)).
 
 =--
 
-The relation between that X-ray transform and the Kakeya set conjecture is the content of the following Theorem
+The relation between that X-ray transform and the Kakeya set conjecture is the content of the following Theorem:
 
 +-- {: .num_theorem #ThmXRayKakeya}
 ###### Theorem
 **([Bourgain 1991, Lemma 2.15](#bourgain1991))
 
-Let $n-sp\gt 0$. If for every function $f$ such that $supp\,f\subset K$, for $K$ compact, it holds that
+Let $n - s p\gt 0$. If for every function $f$ such that $supp\,f\subset K$, for $K$ compact, it holds that
 $$
 \label{eqThmXRayKakeya}
 \Vert \operatorname{X} f\Vert_{L^1_\sigma L^\infty_x(M_n)}\le C_K\Vert f\Vert_{W^{s,p}(\mathbb{R}^n)},
 $$
-then the Hausdorff dimension of a Kakeya set is at least $n-sp$.
+then the Hausdorff dimension of a Kakeya set is at least $n- s p$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-To compute the Hausdorff dimension we can use either balls $B_r(x)$ or dyadic cubes $Q_k := [l2^k,(l+1)2^k]^n$, for $k$ integer. In fact, we can cover a cube $Q_k$ with a ball of radius $\sqrt{n}2^{k-1}$, and conversely we can cover a ball of radius $r$ with a few cubes $Q_k$, for $2^{k-1}\lt r\le 2^k$. 
+To compute the Hausdorff dimension we can use either balls $B_r(x)$ or dyadic cubes $Q_k :l\coloneqq [l2^k,(l+1)2^k]^n$, for $k$ integer. In fact, we can cover a cube $Q_k$ with a ball of radius $\sqrt{n}2^{k-1}$, and conversely we can cover a ball of radius $r$ with a few cubes $Q_k$, for $2^{k-1}\lt r\le 2^k$. 
 
-Let $E\subset\mathbb{R}^n$ be a Kakeya set. Give any covering $\mathcal{C} = \{Q_k\}$ of $E$ at scale $0\lt\delta\le 1$, i.e. a covering such that for every cube $Q_k\in\mathcal{C}$ its side-length is $2^k\le\delta$, the goal is to show that if $0\le d\lt n-sp$ then
+Let $E\subset\mathbb{R}^n$ be a Kakeya set. Give any covering $\mathcal{C} = \{Q_k\}$ of $E$ at scale $0\lt\delta\le 1$, i.e. a covering such that for every cube $Q_k\in\mathcal{C}$ its side-length is $2^k\le\delta$, the goal is to show that if $0\le d\lt n - s p$ then
 $$
-\sum_{Q_k\in\mathcal{C}}l(Q_k)^d \to \infty \quad as\;\delta\to 0,
+\sum_{Q_k\in\mathcal{C}}l(Q_k)^d \to \infty \quad \text{as}\phantom{.}\delta\to 0,
 $$
 where $l(Q_k) = 2^k$ is the side-length of the cube.
 
 Let $\mathcal{C}$ be a covering of $E$ at scale $\delta$. We denote by $\mathcal{C}_k$ the collection of all the cubes in $\mathcal{C}$ with side-length $2^k$, and we denote by $A_k$ the union of all the cubes in $\mathcal{C}_k$; therefore,
 $$
-1_E \le \sum_k 1_{A_k} := \sum_k \Big(\sum_{Q_k\in\mathcal{C}_k}1_{Q_k}\Big).
+1_E \le \sum_k 1_{A_k} \coloneqq \sum_k \Big(\sum_{Q_k\in\mathcal{C}_k}1_{Q_k}\Big).
 $$ 
-Since our hypotheses involve the spaces $W^{s,p}$, we should mollify $1_{A_k}$. We take a suitable smooth function $\varphi$ with compact support,  define the dilations $\varphi_k(x) := 2^{-nk}\varphi(x/2^k)$, and replace $1_{A_k}$ by $\varphi_k*1_{A_k}$. 
+Since our hypotheses involve the spaces $W^{s,p}$, we should mollify $1_{A_k}$. We take a suitable smooth function $\varphi$ with compact support,  define the dilations $\varphi_k(x) \colon l\coloneqq 2^{-nk}\varphi(x/2^k)$, and replace $1_{A_k}$ by $\varphi_k*1_{A_k}$. 
 
 Since $E$ contains a unit line segment in every direction $\sigma$, then for every $\sigma\in \mathbb{P}^{n-1}$ it holds that $\Vert \operatorname{X}1_E(\cdot,\sigma)\Vert_{L^\infty} \ge 1$, and then that
 $$
@@ -96,7 +129,8 @@ $$
 $$
 By (eq:eqThmXRayKakeya) we have that
 $$
-1\le C\sum_{2^k\le\delta} \Vert \varphi_k*1_{A_k}\Vert_{W^{s,p}}.
+1
+  \;\le\; C\sum_{2^k\le\delta} \Vert \varphi_k*1_{A_k}\Vert_{W^{s,p}}.
 $$
 In general, the $W^{s,p}$-norm of $\varphi_k*f$ is
 $$
@@ -108,7 +142,7 @@ $$
 $$
 where $\vert \mathcal{C}_k\vert$ denotes the number of cubes in $\mathcal{C}_k$.
 
-By hypothesis $n-sp\gt 0$, then for every $0\le d \lt n-sp$ we can apply Hölder inequality to get
+By hypothesis $n-s p\gt 0$, then for every $0\le d \lt n-sp$ we can apply Hölder inequality to get
 $$
 1 \le \Big(\sum_{2^k\le\delta} 2^{p'k(\frac{n-d}{p}-s)}\Big)^\frac{1}{p'}\Big(\sum_k 2^{kd}\vert\mathcal{C}_k\vert\Big)^\frac{1}{p} \le C\delta^\alpha\Big(\sum_{Q_k\in\mathcal{C}}l(Q_k)^d\Big)^\frac{1}{p},
 $$
@@ -118,7 +152,7 @@ where $\alpha = \frac{n-d}{p}-s\gt 0$. The statement of the Theorem follows.
 +-- {: .num_lemma #LemmSobolevConv}
 ###### Lemma
 
-If $\psi$ is a smooth function and $\psi_l(x) := 2^{nl}\psi(2^l x)$, for $l\ge 0$, then
+If $\psi$ is a smooth function and $\psi_l(x) :l\coloneqq 2^{nl}\psi(2^l x)$, for $l\ge 0$, then
 $$
 \label{LemmSobolevConv}
 \Vert \psi_l*f\Vert_{W^{s,p}(\mathbb{R}^n)}\le C2^{ls}\Vert f\Vert_p,
@@ -129,9 +163,9 @@ where $C$ depends on $\psi$.
 +-- {: .proof}
 ###### Proof
 
-If $s$ is an integer, then (eq:LemmSobolevConv) follows from $\partial^\alpha(\psi_l*f) = (\partial^\alpha \psi_l)*f$ and Young Inequality for convolutions. 
+If $s$ is an [[integer]], then (eq:LemmSobolevConv) follows from $\partial^\alpha(\psi_l*f) = (\partial^\alpha \psi_l)*f$ and from the [[Young inequality for convolutions]]. 
 
-If $s\neq$ integer, then we have to estimate the norm of $P_k f$; recall that $(P_k f)^\wedge := \varphi_k \hat{f}$, where $\varphi_k(\xi) := \varphi(\xi/2^k)$. If $k\le l$ then by Young Inequality for convolutions
+If $s\neq$ integer, then we have to estimate the norm of $P_k f$; recall that $(P_k f)^\wedge \coloneqq \varphi_k \hat{f}$, where $\varphi_k(\xi) \coloneqq \varphi(\xi/2^k)$. If $k\le l$ then by the [[Young inequality for convolutions]]
 $$
 \Vert P_k(\psi_l*f)\Vert_p \le \Vert \check{\varphi}_k\Vert_1\Vert \psi_l\Vert_1\Vert f\Vert_p \le C\Vert f\Vert_p.
 $$
@@ -139,16 +173,16 @@ If $k\gt l$ then fix a number $2N\gt s$. We estimate the norm of $P_k f$ as
 $$
 \Vert P_k(\psi_l*f)\Vert_p \le \Vert (\vert \xi\vert^{-2N}\varphi_k)^\vee\Vert_1 \Vert \Delta^N(\psi_l*f)\Vert_p.
 $$ 
-As before we get $\Vert \Delta^N (\psi_l*f)\Vert_p\le C2^{2Nl}\Vert f\Vert_p$. For the other term, since $(\vert \xi\vert^{-2N}\varphi_k)^\vee(x) = 2^{(n-2N)k}(\vert \xi\vert^{-2N}\varphi)^\vee(2^k x)$ then we get
+As before we get $\Vert \Delta^N (\psi_l*f)\Vert_p\le C 2^{2 N l}\Vert f\Vert_p$. For the other term, since $(\vert \xi\vert^{-2N}\varphi_k)^\vee(x) = 2^{(n-2 N)k}(\vert \xi\vert^{-2N}\varphi)^\vee(2^k x)$ then we get
 $$
 \Vert (\vert \xi\vert^{-2N}\varphi_k)^\vee\Vert_1 = 2^{-k2N}\Vert (\vert \xi\vert^{-2N}\varphi)^\vee\Vert_1;
 $$
 we conclude so that $\Vert P_k(\psi_l*f)\Vert_p \le C2^{2N(l-k)}\Vert f\Vert_p$. Therefore, the $W^{s,p}$-norm of $\psi_l*f$ is 
 $$
 \begin{aligned}
-\Vert \psi_l*f\Vert_{W^{s,p}(\mathbb{R}^n)}^p &\le \sum_{0\le k\le l}2^{pks}\Vert P_k(\psi_l*f)\Vert_p^p + \sum_{k\gt l}2^{pks}\Vert P_k(\psi_l*f)\Vert_p^p \\
-&\le C\Big(\sum_{0\le k \le l}2^{pks} + 2^{p2Nl}\sum_{k\gt l}2^{p(s-2N)k}\Big)\Vert f\Vert_p^p \\
-&= C2^{psl}\Vert f\Vert_p^p,
+\Vert \psi_l*f\Vert_{W^{s,p}(\mathbb{R}^n)}^p &\le \sum_{0\le k\le l}2^{p k s}\Vert P_k(\psi_l*f)\Vert_p^p + \sum_{k\gt l}2^{p k s}\Vert P_k(\psi_l*f)\Vert_p^p \\
+&\le C\Big(\sum_{0\le k \le l}2^{pks} + 2^{p 2 N l}\sum_{k \gt l}2^{p(s-2N)k}\Big)\Vert f\Vert_p^p \\
+&= C2^{p s l}\Vert f\Vert_p^p,
 \end{aligned}
 $$
 which concludes the proof.
@@ -167,18 +201,18 @@ $$
 
 =--
 
-###### Remark
-
-The Japanese bracket $\langle\cdot\rangle$ is defined as $\langle \xi\rangle := (1+\vert \xi\vert^2)^\frac{1}{2}$, and then $\langle D\rangle^2 = I-\Delta$.
+\begin{remark}
+The Japanese bracket $\langle\cdot\rangle$ is defined as $\langle \xi\rangle \coloneqq (1+\vert \xi\vert^2)^\frac{1}{2}$, and then $\langle D\rangle^2 = I-\Delta$.
+\end{remark}
 
 +-- {: .proof}
 ###### Proof
 
-We set $g := \langle D\rangle^\frac{1}{2} f$, and for a fixed direction $\sigma\in \mathbb{P}^{n-1}$ we compute the Fourier transform of the function $x\in\mathbb{R}^{n-1}\mapsto \operatorname{X}g(x,\sigma)$. By rotational symmetry we can assume that $\sigma = e_n$, so
+We set $g \coloneqq \langle D\rangle^\frac{1}{2} f$, and for a fixed direction $\sigma\in \mathbb{P}^{n-1}$ we compute the Fourier transform of the function $x\in\mathbb{R}^{n-1}\mapsto \operatorname{X}g(x,\sigma)$. By rotational symmetry we can assume that $\sigma = e_n$, so
 $$
 \operatorname{X}g(x,e_n) = \int g(x,t)\,dt.
 $$
-The Fourier transform is $(\operatorname{X}g(\cdot,e_n))^\wedge(\eta) = \hat{g}(\eta,0)$. If $\delta_{\perp\sigma} = \lim_{\varepsilon\to 0}\varepsilon^{-1}1_{\{\xi\mid \vert\langle \xi,\sigma\rangle\vert\le\varepsilon\}}$ is the Dirac delta of the plane normal to $\sigma$, then we may write
+The [[Fourier transform]] is $(\operatorname{X}g(\cdot,e_n))^\wedge(\eta) = \hat{g}(\eta,0)$. If $\delta_{\perp\sigma} = \lim_{\varepsilon\to 0}\varepsilon^{-1}1_{\{\xi\mid \vert\langle \xi,\sigma\rangle\vert\le\varepsilon\}}$ is the [[Dirac delta distribution]] of the plane normal to $\sigma$, then we may write
 $$
 \Vert \operatorname{X}g(\cdot,\sigma)\Vert_{L^2(\mathbb{R}^{n-1})}^2 = \int \vert \hat{g}\vert^2\delta_{\perp\sigma}\,d\xi.
 $$
@@ -197,7 +231,7 @@ $$
 The statement of the Theorem follows.
 =--
 
-Sobolev embedding Theorem $\Vert h\Vert_{L^\infty(\mathbb{R}^{n-1})}\le C\Vert h\Vert_{W^{s,2}(\mathbb{R}^{n-1})}$, for $s\gt \frac{n-1}{2}$, and the inequality (eq:eqThmL2Bound) allow us to conclude that for every $f$ such that $supp\,f\subset K$, for $K$ compact, it holds that
+The Sobolev embedding Theorem $\Vert h\Vert_{L^\infty(\mathbb{R}^{n-1})}\le C\Vert h\Vert_{W^{s,2}(\mathbb{R}^{n-1})}$, for $s\gt \frac{n-1}{2}$, and the inequality (eq:eqThmL2Bound) allow us to conclude that for every $f$ such that $supp\,f\subset K$, for $K$ compact, it holds that
 $$
 \Vert \operatorname{X} f\Vert_{L^2_\sigma L^\infty_x}\le C_K \Vert f\Vert_{W^{s,2}(\mathbb{R}^n)},
 $$
@@ -213,7 +247,7 @@ $$
 $$
 and, for $1\le p\lt\infty$ and $q=\infty$, is
 $$
-\left\Vert f\right\Vert_{p,\infty} := \sup_{s\gt 0} (s\nu\{\vert f\vert\ge s\}^\frac{1}{p})
+\left\Vert f\right\Vert_{p,\infty} \coloneqq \sup_{s\gt 0} (s\nu\{\vert f\vert\ge s\}^\frac{1}{p})
 $$
 =--
 
@@ -229,26 +263,27 @@ If $E\subset \mathbb{R}^n$ is a measurable set, and $1_E$ is the characteristic 
 
 =--
 
-###### Remark 
+\begin{remark}
 
 This inequality corresponds to the restricted weak version of the point $(p,q,r) = (\frac{n+1}{2}, n+1, n+1)$.
+\end{remark}
 
 +-- {: .proof}
 ###### Proof
  
-Let $f = 1_E$ and define the set $F := \{l\in M_n\mid \operatorname{X} f(l)\ge\lambda\}$, then 
+Let $f = 1_E$ and define the set $F \coloneqq \{l\in M_n\mid \operatorname{X} f(l)\ge\lambda\}$, then 
 $$
 \label{eqProofDruryLowerBush}
 \lambda\vert F\vert \le \int_F \operatorname{X} f\,d\mu = \int f\operatorname{X}^*1_F \,dx \le \left\Vert \operatorname{X}^*1_F\right\Vert_\infty\left\Vert f\right\Vert_1.
 $$
 This establishes a lower bound for $\left\Vert \operatorname{X}^*1_F\right\Vert_\infty$, and we will get now an upper bound.
 
-Choose a point $x_0$ such that $\operatorname{X}^*1_F(x_0)\ge \frac{1}{2}\left\Vert \operatorname{X}^*1_F\right\Vert_\infty$ ---$x_0$ is the center of the _Bourgain's bush_. By translation symmetry we can assume that $x_0 = 0$. If $\delta_0$ is the Dirac delta centered at the origin, then
+Choose a point $x_0$ such that $\operatorname{X}^*1_F(x_0)\ge \frac{1}{2}\left\Vert \operatorname{X}^*1_F\right\Vert_\infty$ ---$x_0$ is the center of _Bourgain's bush_. By translation symmetry we can assume that $x_0 = 0$. If $\delta_0$ is the Dirac delta centered at the origin, then
 $$
 \label{eqProofDruryLower}
 \int 1_F \operatorname{X} f\,\operatorname{X}\delta_0\,d\mu(l) \ge \lambda\int_F \operatorname{X}\delta_0\,d\mu(l)\ge \frac{\lambda}{2}\left\Vert \operatorname{X}^*1_F\right\Vert_\infty.
 $$
-Here we can think of $\operatorname{X}\delta_0$ as the distribution we defined earlier $\delta_{\{0\}} := \lim_{\varepsilon\to 0}\varepsilon^{-n+1}1_{\{l\in M_n\mid \;l\cap B_\varepsilon(0)\neq\emptyset\}}$ supported over the lines passing through the point $0$. We can also justify the notation $\operatorname{X}\delta_0$ by a limiting process since $\delta_0 := \lim_{\varepsilon\to 0}\varepsilon^{-n}1_{B_\varepsilon(0)}$.
+Here we can think of $\operatorname{X}\delta_0$ as the distribution we defined earlier $\delta_{\{0\}} \coloneqq \lim_{\varepsilon\to 0}\varepsilon^{-n+1}1_{\{l\in M_n\mid \;l\cap B_\varepsilon(0)\neq\emptyset\}}$ supported over the lines passing through the point $0$. We can also justify the notation $\operatorname{X}\delta_0$ by a limiting process since $\delta_0 \coloneqq \lim_{\varepsilon\to 0}\varepsilon^{-n}1_{B_\varepsilon(0)}$.
 
 On the other hand, we can also estimate the left side of (eq:eqProofDruryLower) as
 $$
@@ -258,7 +293,7 @@ The function $\operatorname{X}^*(1_F \operatorname{X}\delta_0)$ can be computed 
 $$
 \operatorname{X}^*(1_F \operatorname{X}\delta_0)(x) = \frac{1}{\vert x\vert^{n-1}}1_F(l(\tilde{x}, 0)),
 $$
-where $\tilde{x} := x/\vert x\vert$ and $l(\tilde{x}, 0)$ is the line that passes through $0$ and $x$. Then, we can estimate the norm of $\operatorname{X}^*(1_F \operatorname{X}\delta_0)$ as
+where $\tilde{x} \coloneqq x/\vert x\vert$ and $l(\tilde{x}, 0)$ is the line that passes through $0$ and $x$. Then, we can estimate the norm of $\operatorname{X}^*(1_F \operatorname{X}\delta_0)$ as
 $$
 \left\Vert \operatorname{X}^*(1_F \operatorname{X}\delta_0)\right\Vert_{L^{\frac{n}{n-1},\infty}} = c_n\vert \operatorname{X}^*1_F(0)\vert^\frac{n-1}{n}\le c_n\left\Vert \operatorname{X}^*1_F\right\Vert_\infty^\frac{n-1}{n}.
 $$
@@ -289,18 +324,22 @@ $$
 $$
 for $1\le p\lt \frac{n+1}{2}$, $\frac{n-1}{q}+1 = \frac{n}{p}$ and $s\gt \frac{n}{p}-1$. Hence, by Theorem \ref{ThmXRayKakeya} the Hausdorff dimension of a Kakeya set $E\subset\mathbb{R}^n$ is at least $\frac{n+1}{2}$.
 
-## Claimed proofs and proof sketches
 
-* [[Victor Porton]] produced [this proof sketch](https://x.com/victorporton/status/1897523445346304107) for all natural $n$.
 
 ## References
 
-* {#bourgain1991} [[Bourgain, J.]], Besicovitch type maximal function operators and applications to Fourier Analysis, Geom. Funct. Anal., 1, 1991
+* {#cordoba1977} A. Córdoba: *The Kakeya Maximal Function and the Spherical Summation Multipliers*, Amer. J. Math. **99** (1977)
 
-* {#cordoba1977} [[Córdoba, A.]], The Kakeya Maximal Function and the Spherical Summation Multipliers, Amer. J. Math., 99, 1977
+* M. Christ: *Estimates for the $k$-plane transform*, Indiana Univ. Math. J. **33** (1984)
 
-* [[Christ, M.]], Estimates for the $k$-plane transform, Indiana Univ. Math. J., 33, 1984
+* {#drury1983} S. W. Drury,l: *$L^p$ estimates for the X-ray transform*, Illinois J. Math. **27** (1983)
 
-* {#drury1983} [[Drury, S. W.]], $L^p$ estimates for the X-ray transform, Illinois J. Math., 27, 1983
+* {#triebel1978} H. Triebel: *Interpolation Theory, Function Spaces, Differential Operators*, North-Holland (1978)
 
-* {#triebel1978} [[Triebel, H]], Interpolation Theory, Function Spaces, Differential Operators, North-Holland publishing company, 1978
+* {#bourgain1991} J. Bourgain: *Besicovitch type maximal function operators and applications to Fourier Analysis*, Geom. Funct. Anal. **1** (1991)
+
+See also:
+
+* Wikipedia: *[Kayeja set](https://en.m.wikipedia.org/wiki/Kakeya_set)
+
+* [[Victor Porton]]: [proof sketch](https://x.com/victorporton/status/1897523445346304107)
