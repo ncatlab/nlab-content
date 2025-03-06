@@ -29,7 +29,7 @@ A [[topological groupoid]] $X_1 \stackrel{\overset{s}{\to}}{\underset{t}{\to}} X
 
 =--
 
-This is far more general than is usually assumed. One can additionally assume that either $X_1$ is locally compact or $X_0$ is locally compact, or that $X_0$ is Hausdorff or $X_1$ is locally Hausdorff, or that $X_1$ is [[sigma-compact|∞-compact]]
+This is far more general than is usually assumed. One can additionally assume that either $X_1$ is locally compact or $X_0$ is locally compact, or that $X_0$ is Hausdorff or $X_1$ is locally Hausdorff, or that $X_1$ is [[sigma-compact]]
 
 One usually wants to place a [[Haar system on a locally compact groupoid|Haar system]] on a locally compact groupoid. The obvious topological requirement of local compactness is further refined in order to make such a system of measures well-behaved.
 
