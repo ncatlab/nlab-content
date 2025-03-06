@@ -28,9 +28,9 @@ The term became rather popular in the wake of the seminal suggestion by [Kitaev 
 
 Kitaev's suggestion was made more precise by [Freed & Moore (2013)](#FreedMoore13) (who, however and ironically, doubted, on [p. 57](https://arxiv.org/pdf/1208.5055.pdf#page=57), its application to topological phases -- but see [pp. 2](https://arxiv.org/pdf/2206.13563.pdf#page=2) of [SS23](K-theory+classification+of+topological+phases+of+matter#SatiSchreiber23) for resolution) and it is these authors who very much amplify (and may have actually coined) the term "10-fold way". Moreover, they point out ([pp. 75](https://arxiv.org/pdf/1208.5055.pdf#page=75)) that a 10-fold classification is already contained in [Dyson (1962)](#Dyson62)(!), which the authors re-interpret as the classification of [[super division algebras]]. 
 
-This 10-fold way of [[super-division algebras]] is further amplified in &lbrack;[Moore (2013), p. 129](#Moore13)&rbrack; and [Geiko & Moore (2021)](#GeikoMoore2021)
+This 10-fold way of [[super-division algebras]] is further amplified in &lbrack;[Moore (2013), p. 129](#Moore13)&rbrack; and [Geiko & Moore (2021)](#GeikoMoore2021).
 
-
+The 10-fold way was also approached from a purely representation theoretic point of view by [Rumynin and Taylor (2021)](#RumyninTaylor2021), who also considered the same theory but with an action of odd elements by bilinear forms instead of anti-linear maps [Rumynin and Taylor (2022)](#RumyninTaylor2022).
 
 
 ## Related concepts
@@ -57,6 +57,10 @@ This 10-fold way of [[super-division algebras]] is further amplified in &lbrack;
 * {#Moore13} [[Gregory Moore]], _Quantum symmetries and compatible Hamiltonians_ (2013) &lbrack;[pdf](http://www.physics.rutgers.edu/~gmoore/695Fall2013/CHAPTER1-QUANTUMSYMMETRY-OCT5.pdf)&rbrack;
 
 * {#GeikoMoore21} Roman Geiko, [[Gregory W. Moore]], _Dyson’s classification and real division superalgebras_, Journal of High Energy Physics **2021** 4 (2021) 299 &lbrack;[doi: 10.1007/jhep04(2021)299](http://dx.doi.org/10.1007/jhep04%282021%29299)&rbrack;
+
+* {#RumyninTaylor2021} Dmitriy Rumynin, James Taylor, _Real Representations of $C_2$-Graded Groups: The Antilinear Theory_, Linear Algebra and its Applications, Volume 610, Feb. 2021, Pages 135-168. [doi: 10.1016/j.laa.2020.09.040](https://doi.org/10.1016/j.laa.2020.09.040).
+
+* {#RumyninTaylor2022} Dmitriy Rumynin, James Taylor, _Real Representations of $C_2$-Graded Groups: The Linear and Hermitian Theories_, Higher Structures, Volume 6, Issue 1, July 2022, Pages 359-374. [doi: 10.21136/HS.2022.07](https://dx.doi.org/10.21136/HS.2022.07).
 
 Review:
 
