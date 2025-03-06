@@ -9,6 +9,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -47,22 +48,38 @@ Analytic torsion appears as one factor in the [[perturbation theory|perturbative
 
 ## References
 
-* {#RaySinger73} D. Ray, [[Isadore Singer]], _Analytic torsion for complex manifolds_, Ann. Math. __98__, 1 (1973), 154--177.
+### General
+ {#ReferencesGeneral}
 
-* {#Cheeger77} [[Jeff Cheeger]], _Analytic torsion and Reidemeister torsion_, Proc. Natl. Acad. Sci. USA __74__, No. 7, pp. 2651-2654 (1977), [pdf](http://www.pnas.org/content/74/7/2651.full.pdf)
+The original articles:
 
-* [[John Lott]], *The Ray-Singer torsion* &lbrack;[arXiv:2309.05688](https://arxiv.org/abs/2309.05688)&rbrack;
+* [[Daniel Burrill Ray]], [[Isadore Singer]]: *$R$-torsion and the Laplacian on Riemannian manifolds*, Adv. Math. **7** 2 (1971) 145-210 \[<a href="https://doi.org/10.1016/0001-8708(71)90045-4">doi:10.1016/0001-8708(71)90045-4</a>\]
+  > (for [[Riemannian manifolds]])
 
+* {#RaySinger73} [[Daniel Burrill Ray]], [[Isadore Singer]]: *Analytic torsion for complex manifolds*, Ann. Math. **98** 1 (1973) 154-177 \[<a href="https://doi.org/10.2307/1970909">doi:10.2307/1970909</a>, [jstor:1970909](https://www.jstor.org/stable/1970909)\]
+  > (for [[complex manifolds]])
+
+Proof of the Ray-Singer conjecture that on [[compact topological space|compact]] [[Riemannian manifolds]] the analytic torsion coincides with the [[Reidemeister torsion]]:
+
+* {#Cheeger77} [[Jeff Cheeger]]: *Analytic torsion and Reidemeister torsion*, Proc. Natl. Acad. Sci. USA __74__ 7 (1977) 2651-2654 &lbrack;[doi:10.1073/pnas.74.7.2651](https://doi.org/10.1073/pnas.74.7.2651), [pdf](http://www.pnas.org/content/74/7/2651.full.pdf)&rbrack;
+
+* Werner Müller: _Analytic torsion and R-torsion of Riemannian manifolds_, Adv. in Math. **28** 3 (1978) 233-305 \[<a href="https://doi.org/10.1016/0001-8708(78)90116-0">doi;10.1016/0001-8708(78)90116-0</a>\]
+
+
+Review:
+
+* [[John Lott]]: *The Ray-Singer torsion*, Bulletin of the AMS **62** 1 (2025) 17-34  &lbrack;[arXiv:2309.05688](https://arxiv.org/abs/2309.05688), [doi:10.1090/bull/1848](https://doi.org/10.1090/bull/1848), [pdf](https://www.ams.org/journals/bull/2025-62-01/S0273-0979-2024-01848-5/S0273-0979-2024-01848-5.pdf)&rbrack;
+
+See also:
 
 * Wikipedia, _[Analytic torsion](http://en.wikipedia.org/wiki/Analytic_torsion)_
 
 
+### In Chern-Simons theory
 
+Review of the role of analytic torsion played in the [[perturbative quantum field theory|perturbative]] [[quantization of Chern-Simons theory]]:
 
-
-Review of the role played in the perturbative [[quantization of Chern-Simons theory]]:
-
-* A.A. Bytsenko, A.E. Goncalves, W. da Cruz, _Analytic Torsion on Hyperbolic Manifolds and the Semiclassical Approximation for Chern-Simons Theory_ ([arXiv:hep-th/9805187](http://arxiv.org/abs/hep-th/9805187))
+* A. A. Bytsenko, A. E. Goncalves, W. da Cruz, _Analytic Torsion on Hyperbolic Manifolds and the Semiclassical Approximation for Chern-Simons Theory_ ([arXiv:hep-th/9805187](http://arxiv.org/abs/hep-th/9805187))
 
 * {#Young} M. B. Young, section 2 of _Chern-Simons theory, knots and moduli spaces of connections_ ([pdf](http://www.math.sunysb.edu/~myoung/CS.pdf))
 
