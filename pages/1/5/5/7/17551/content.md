@@ -120,7 +120,7 @@ $$
 
 \[
   \label{PartialGeometricFixedPointsOfEqui}
-  \Phi^N \big(  \Sigma^\infty_G X \big) 
+  \Phi^H \big(  \Sigma^\infty_G X \big) 
   \;\simeq\;
   \Sigma^\infty_{W_G H} X^H
   \,,
