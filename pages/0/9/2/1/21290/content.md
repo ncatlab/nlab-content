@@ -340,6 +340,6 @@ for $1\le p\lt \frac{n+1}{2}$, $\frac{n-1}{q}+1 = \frac{n}{p}$ and $s\gt \frac{n
 
 See also:
 
-* Wikipedia: *[Kayeja set](https://en.m.wikipedia.org/wiki/Kakeya_set)
+* Wikipedia: *[Kakeya set](https://en.m.wikipedia.org/wiki/Kakeya_set)
 
 * [[Victor Porton]]: [proof sketch](https://x.com/victorporton/status/1897523445346304107)
