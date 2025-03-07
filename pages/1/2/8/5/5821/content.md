@@ -138,25 +138,27 @@ a) We note that the usage of terms differs between Turaev's book (2010) and here
 b) The useful terminology 'twisted sector' in a crossed $G$-algebra refers to a summand, $L_g$, for and index, $g$, which is  not the identity element of $G$, of course, then $L_1$ is called  the 'untwisted sector'
 
 
-##Operations on crossed $G$-algebras
 
-(To be added)
+## Related notions
 
-##Related notions
+* a kind of [[categorification]]: *[[G-crossed braided fusion category]]*
 
-* crossed $C$-algebra for a [[crossed module]] of groups;
+## References
 
-* [[twisted G-algebra]]
-
-##References
-
-* {#Turaev10} [[Vladimir Turaev]]:  _Homotopy Quantum Field Theory_ , EMS Tracts in Math. **10**, European Math. Soc. Publ. House, Zurich 2010. (for the detailed development and the links with low dimensional topology and [[HQFT]]s).
+In relation to [[2D TQFTs]]:
 
 * {#MooreSegal06} [[Greg Moore]], [[Graeme Segal]]: _D-branes and K-theory in 2D topological field theory_ &lbrack;[arXiv hep-th 0609042](http://arxiv.org/abs/hep-th/0609042)&rbrack;
 
+In relation to [[HQFTs]]:
+
+* {#Turaev10} [[Vladimir Turaev]] (with appendices by [[Michael Müger]] and [[Alexis Virelizier]]): *Homotopy Quantum Field Theory*, Tracts in Mathematics **10**, European Mathematical Society (2010) &lbrack;[ems:etm/79](https://ems.press/books/etm/79)&rbrack;
 
 
 
 
 [[!redirects crossed G-algebras]]
+
+[[!redirects G-crossed algebra]]
+[[!redirects G-crossed algebras]]
+
 [[!redirects Turaev algebra]]
