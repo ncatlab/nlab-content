@@ -366,7 +366,7 @@ $$
 
 (where we may leave the constant re-embedding implicit, due to it being [[fully faithful functor|fully faithful]]).
 
-Moreover by assumption, for every object $U\in \mathcal{S}$ there exists a morphism $i \colon \ast \to U$ hence for every $X\in \mathbf{H}$ and every $U$ there exists a morphism $i^\ast \colon X(U)\to \flat X$. This means that if $\flat X \simeq \emptyset$ then $X(U) \simeq \emptyset$ for all $U \in \mathcal{S}$ and hence $X\simeq \emptyset$. From this the claim follows with prop. \ref{AufhebungOfBecomingMeansOnlyInitialObjectHasNoGlobalPoints}.
+Moreover by assumption on [[cohesive sites]], for every object $U\in \mathcal{S}$ there exists a morphism $i \colon \ast \to U$ hence for every $X\in \mathbf{H}$ and every $U$ there exists a morphism $i^\ast \colon X(U)\to \flat X$. This means that if $\flat X \simeq \emptyset$ then $X(U) \simeq \emptyset$ for all $U \in \mathcal{S}$ and hence $X\simeq \emptyset$. From this the claim follows with prop. \ref{AufhebungOfBecomingMeansOnlyInitialObjectHasNoGlobalPoints}.
 
 =--
 
