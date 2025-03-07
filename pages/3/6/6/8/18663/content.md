@@ -84,6 +84,10 @@ See also:
 
 * {#GrothShul17} [[Moritz Groth]], [[Mike Shulman]], _Generalized stability for abstract homotopy theories_, [arXiv:1704.08084](https://arxiv.org/abs/1704.08084).
 
+On adjoint strings between a [[topos]] and [[Set]]:
+
+* Ryuya Hora, _Grothendieck topos with a left adjoint to a left adjoint to a left adjoint to the global sections functor_ &lbrack;[arXiv:2503.04317](https://arxiv.org/abs/2503.04317)&rbrack;
+
 [[!redirects adjoint string]]
 [[!redirects adjoint strings]]
 [[!redirects adjoint chain]]
