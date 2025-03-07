@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -48,11 +47,15 @@ On the [[averaged null energy condition]]:
 * Hidde Stoffels: *Positive thinking: A search for energy conditions* &lbrack;[arXiv:2411.11050](https://arxiv.org/abs/2411.11050)&rbrack;
 
 
-See also:
+On the *[[quantum null energy condition]]*:
 
-* Taha A Malik, Rafael Lopez-Mobilia, _Proof of the quantum null energy condition for free fermionic field theories_ ([arXiv:1910.07594](https://arxiv.org/abs/1910.07594))
+* Taha A Malik, Rafael Lopez-Mobilia, _Proof of the quantum null energy condition for free fermionic field theories_ &lbrack;[arXiv:1910.07594](https://arxiv.org/abs/1910.07594)&rbrack;
 
-* Philipp Stanzer, _Numerical Relativity, Holography and the Quantum Null Energy Condition_ ([arXiv:2009.07040](https://arxiv.org/abs/2009.07040))
+* Philipp Stanzer, _Numerical Relativity, Holography and the Quantum Null Energy Condition_ &lbrack;[arXiv:2009.07040](https://arxiv.org/abs/2009.07040)&rbrack;
+
+* [[Stefan Hollands]], [[Roberto Longo]]:
+*A New Proof of the QNEC* &lbrack;[arXiv:2503.04651](https://arxiv.org/abs/2503.04651)&rbrack;
+
 
 
 
@@ -60,6 +63,11 @@ See also:
 
 [[!redirects null energy condition]]
 [[!redirects null energy conditions]]
+
+[[!redirects quantum null energy condition]]
+[[!redirects quamtum null energy conditions]]
+
+
 
 [[!redirects dominant energy condition]]
 
