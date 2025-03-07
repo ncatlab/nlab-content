@@ -17,7 +17,9 @@
 
 ## Idea
 
-In [[particle physics]], _gauge-Higgs unification_ ([Manton 79](#Manton79), [Hosotani 83](#Hosotani83)) also known as the _Hosotani mechanism_ (see [Hosotani 12](#Hosotani12)) refers to hypothetical [[model (in theoretical physics)|models]] of [[particle physics]] where the [[Higgs field]] on 4d [[spacetimes]] arises as a component of a [[gauge field]] in higher dimensions, either after [[Kaluza-Klein compactification]] or by passage to a 4d [[asymptotic boundary]] in a [[Randall-Sundrum model]] or similar.
+In [[particle physics]], _gauge-Higgs unification_ ([Manton 79](#Manton79), [Hosotani 83](#Hosotani83)) also known as the _Hosotani mechanism_ (see [Hosotani 12](#Hosotani12)) refers to hypothetical [[model (in theoretical physics)|models]] of [[particle physics]] where the [[Higgs field]] on 4d [[spacetimes]] arises as a component of a [[gauge field]] in higher dimensions, either after [[Kaluza-Klein compactification]] or by passage to a 4d [[asymptotic boundary]] in a [[Randall-Sundrum model|Randall-Sundrum scenario]] or similar.
+
+In the context of [[spectral geometry|spectral]] [[noncommutative geometry]] gauge-Higgs unification is also part of the *[[Connes-Lott model]]*.
 
 
 <center>
@@ -66,7 +68,7 @@ Review:
 
 * {#CsakiTanedo13} Csaba Csáki, Philip Tanedo, _Beyond the Standard Model_, lectures at [2013 European School of High-Energy Physics](http://cds.cern.ch/record/1522578), 2013  ([doi:10.5170/CERN-2015-004.169](http://dx.doi.org/10.5170/CERN-2015-004.169))
 
-Deatiled [[phenomenology]]:
+Detailed [[phenomenology]]:
 
 * Naoyuki Haba, Kazunori Takenaga, Toshifumi Yamashita, _Higgs mass in the gauge-Higgs unification_, Phys. Lett. B615 (2005) 247-256 ([arXiv:hep-ph/0411250](https://arxiv.org/abs/hep-ph/0411250))
 
@@ -77,6 +79,12 @@ Deatiled [[phenomenology]]:
 Discussion in view of [[naturalness]]/[[hierarchy problem]]:
 
 * {#Kaul08} Romesh K. Kaul, _Naturalness and Electro-weak Symmetry Breaking_ ([arXiv:0803.0381](https://arxiv.org/abs/0803.0381))
+
+See also:
+
+* Yuzuho Komori, Nobuhito Maru: *$SU(7)$ Grand Gauge-Higgs Unification* &lbrack;[arXiv:2503.04090](https://arxiv.org/abs/2503.04090)&rbrack;
+
+
 
 ### In $Spin(11)$-GUT ("$SO(11)$"):
 
