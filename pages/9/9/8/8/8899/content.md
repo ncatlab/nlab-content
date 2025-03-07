@@ -44,6 +44,10 @@ Here is a very incomplete list of software available for mathematics, especially
 
 * [[GAP]]
 
+###Computational Category Theory
+
+* [[CAP]]
+
 ###Computational Homological Algebra (CHA)
 
 
