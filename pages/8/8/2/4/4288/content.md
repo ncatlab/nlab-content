@@ -23,6 +23,11 @@ On [[von Neumann algebra factors]] [[algebra of observables|of observables]] for
 
 * [[Venkatesa Chandrasekaran]], [[Roberto Longo]], [[Geoff Penington]], [[Edward Witten]], *An Algebra of Observables for de Sitter Space*, Journal of High Energy Physics **2023**  82 (2023) &lbrack;[arXiv:2206.10780](https://arxiv.org/abs/2206.10780), <a href="https://doi.org/10.1007/JHEP02(2023)082">doi:10.1007/JHEP02(2023)082</a>&rbrack;
 
+On the [[quantum null energy condition]]:
+
+* [[Stefan Hollands]], [[Roberto Longo]]:
+*A New Proof of the QNEC* &lbrack;[arXiv:2503.04651](https://arxiv.org/abs/2503.04651)&rbrack;
+
 
 ## Related entries
 
