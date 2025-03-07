@@ -41,7 +41,7 @@ On [[Lorentzian orbifolds]] as [[target spacetimes]] in [[string theory]]:
 
 * Hong Liu, [[Gregory Moore]], [[Nathan Seiberg]], _Strings in a time-dependent orbifold_, JHEP 0206:045, 2002 ([arXiv:hep-th/0204168](https://arxiv.org/abs/hep-th/0204168))
 
-* Hong Liu, [[Gregory Moore]], [[Nathan Seiberg]], _Strings in time-dependent orbifolds_, JHEP 0210:031, 2002 ([arXiv:hep-th/0206182](https://arxiv.org/abs/hep-th/0206182))
+* Hong Liu, [[Gregory Moore]], [[Nathan Seiberg]], _Strings in time-dependent orbifolds_, JHEP 0210:031, (2002) &lbrack;[arXiv:hep-th/0206182](https://arxiv.org/abs/hep-th/0206182)&rbrack;
 
 On [[abelian Chern-Simons theory]] with application to the [[fractional quantum Hall effect]]:
 
@@ -55,7 +55,7 @@ On [[self-dual higher gauge theory]]:
 
 On [[quantization]] of the [[electromagnetic field]] in view of [[Dirac charge quantization]] and [[higher U(1)-gauge theory]]:
 
-* [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], p. 7 of: *The Uncertainty of Fluxes*, Commun. Math. Phys. 271:247-274, 2007 ([arXiv:hep-th/0605198](https://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3))
+* [[Daniel S. Freed]], [[Gregory W. Moore]], [[Graeme Segal]], p. 7 of: *The Uncertainty of Fluxes*, Commun. Math. Phys. **271** 247-274 (2007) &lbrack;[arXiv:hep-th/0605198](https://arxiv.org/abs/hep-th/0605198), [doi:10.1007/s00220-006-0181-3](https://doi.org/10.1007/s00220-006-0181-3)&rbrack;
 
 * [[Daniel Freed]], [[Gregory Moore]], [[Graeme Segal]], _Heisenberg Groups and Noncommutative Fluxes_, Annals Phys. 322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
 
@@ -68,6 +68,13 @@ On [[BPS states]] and [[wall crossing]] in [[D=4 N=4 super Yang-Mills theory]]:
 
 * *PiTP lectures on BPS states and wall-crossing in
 d = 4, $\mathcal{N} = 2$ theories* (2010) &lbrack;[pdf](http://www.physics.rutgers.edu/grad/695/PiTP-LectureNotes.pdf)&rbrack;
+
+On the conjectural [[D=6 N=(2,0) SCFT]] on [[M5-branes]]:
+
+* {#Moore11} [[Greg Moore]], _On the role of six&#8208;dimensional $(2,0)$-theories in recent developments in Physical Mathematics_, talk at [Strings 2011](http://www2.physics.uu.se/external/strings2011/) ([pdf slides](http://www.physics.rutgers.edu/~gmoore/Strings2011FinalPDF.pdf))
+  
+* {#Moore12} [[Greg Moore]], _Applications of the six-dimensional (2,0) theories to Physical Mathematics_, [Felix Klein lectures Bonn (2012)](http://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/applications-of-the-six-dimensional-20-theories-to-physical-mathematics/) ([pdf](http://www.physics.rutgers.edu/~gmoore/FelixKleinLectureNotes.pdf), [[MooreKleinLectures12.pdf:file]])
+
 
 
 On [[D-branes]]:
