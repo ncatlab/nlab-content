@@ -61,6 +61,11 @@ Discussion for [[curved spacetime]]:
 
 * Peter Collas, David Klein: *The Dirac equation in general relativity, a guide for calculations*, Springer Briefs in Physics, Springer (2019) &lbrack;[arXiv:1809.02764](https://arxiv.org/abs/1809.02764), [doi:10.1007/978-3-030-14825-6](https://doi.org/10.1007/978-3-030-14825-6)&rbrack;
 
+* Miguel Alcubierre: *The Dirac equation in General Relativity and the 3+1 formalism* &lbrack;[https://arxiv.org/abs/2503.03918](https://arxiv.org/abs/2503.03918)&rbrack;
+
+Specifically in [[Schwarzschild spacetime]] [[background field|background]]:
+
+* Paul M. Alsing, *Bound states of the Dirac equation in Schwarzschild spacetime: an exploration of intuition for the curious student* &lbrack;[arXiv:2207.00905](https://arxiv.org/abs/2207.00905)&rbrack;
 
 
 
@@ -76,9 +81,7 @@ The [[path integral]] approach to the Dirac equation:
 
 * Wataru Ichinose, _Notes on the Feynman path integral for the Dirac equation_, Journal of Pseudo-Differential Operators and Applications 9, 789–809 (2018), [doi](https://doi.org/10.1007/s11868-017-0227-7).
 
-The Dirac equation in a [[gravity|gravitational]] [[Schwarzschild spacetime]] [[background field|background]]:
 
-* Paul M. Alsing, *Bound states of the Dirac equation in Schwarzschild spacetime: an exploration of intuition for the curious student* &lbrack;[arXiv:2207.00905](https://arxiv.org/abs/2207.00905)&rbrack;
 
 On [[quantum simulation]] of the Dirac equation:
 
