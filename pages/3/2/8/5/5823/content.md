@@ -19,9 +19,9 @@ On [[knot theory]] ([[knot invariants]]) and [[3-manifolds]]:
 * [[Vladimir Turaev]]: *Quantum invariants of knots and 3-manifolds*, de Gruyter Studies in Mathematics **18**, de Gruyter & Co. (1994) &lbrack;[doi:10.1515/9783110435221](https://doi.org/10.1515/9783110435221), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/turaev5.pdf)&rbrack;
 
 
-On  [[HQFT|homotopy quantum field theory]]:
+On [[homotopy quantum field theory]]:
 
-*  _Homotopy Quantum Field Theory_ , EMS Tracts in Math.10, European Math. Soc. Publ. House, Zurich 2010.
+* [[Vladimir Turaev]] (with appendices by [[Michael Müger]] and [[Alexis Virelizier]]): *Homotopy Quantum Field Theory*, Tracts in Mathematics **10**, European Mathematical Society (2010) &lbrack;[ems:etm/79](https://ems.press/books/etm/79)&rbrack;
 
 
 
