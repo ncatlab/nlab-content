@@ -1,5 +1,5 @@
 
-* [personal page](https://homepages.warwick.ac.uk/staff/Martin.Gallauer/)
+* [personal page](https://mgallauer.warwick.ac.uk)
 
 
 ## Selected writings
