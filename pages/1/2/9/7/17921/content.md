@@ -144,6 +144,10 @@ TODO -- [Cui 2019](#Cui19)
 TODO -- [Cui 2019](#Cui19)'s 2-category
 
 
+## Related concepts
+
+* a kind of [[decategorification]]: *[[G-crossed algebras]]*
+
 
 ## References
 
