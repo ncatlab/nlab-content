@@ -22,7 +22,7 @@
 
 ### General idea
 
-What is called a  **homotopy quantum field theory** is a [[TQFT]] defined on [[cobordisms]] that are equipped with the extra [[structure]] of a [[continuous function]] into a fixed [[topological space]] $B$. 
+What are called a  **homotopy quantum field theories** (HQFTs) are [[topological quantum field theories]] (TQFT) defined on [[cobordisms]] that are equipped with the extra [[structure]] of a [[continuous function]] into a given [[topological space]] $B$. 
 
 Hence if $Bord_n(B)$ denotes a [[category of cobordisms]] suitably equipped with maps into $B$, then an HQFT is a [[monoidal functor]]
 $$
@@ -288,7 +288,7 @@ The theory of HQFTs was developed in
 
 * {#Turaev00} [[Vladimir Turaev]], _Homotopy field theory in dimension 3 and crossed group-categories_ ([arXiv:math.GT/0005291](http://arxiv.org/abs/math.GT/0005291)). 
 
-* [[Vladimir Turaev]], _Homotopy Quantum Field Theory_, Tracts in Mathematics 10, (with Appendices by Michael Muger and Alexis Vurelizier), European Mathematical Society, June 2010.
+* [[Vladimir Turaev]] (with appendices by [[Michael Müger]] and [[Alexis Virelizier]]): *Homotopy Quantum Field Theory*, Tracts in Mathematics **10**, European Mathematical Society (2010) &lbrack;[ems:etm/79](https://ems.press/books/etm/79)&rbrack;
 
 * {#BrightwellTurner00} M. Brightwell and P. Turner, _Representations of the homotopy surface category of a simply connected space_, J. Knot Theory and its Ramifications, 9 (2000), 855--864. 
 
