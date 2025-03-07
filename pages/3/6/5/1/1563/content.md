@@ -368,9 +368,9 @@ stated seven problems in [[topos theory]], unsolved at time of writing:
 
 #### First problem
 
-Concerning the existence of a proper class of quotient toposes of a Grothendieck topos (with 'quotient maps' defined to be '[[connected topos#connected_geometric_morphism|connected]] [[geometric morphism#surjections_and_embeddings|surjective geometric morphisms]]').
+Concerning the existence of a [[proper class]] of quotient toposes of a [[Grothendieck topos]] (with 'quotient maps' defined to be '[[connected topos#connected_geometric_morphism|connected]] [[geometric morphism#surjections_and_embeddings|surjective geometric morphisms]]').
 
-Boolean case:
+Solution for the case of [[Boolean toposes]]:
 
 * Ryuya Hora: _Internal Parameterization of Hyperconnected Quotients_ &lbrack;[arXiv:2302.06851](https://arxiv.org/abs/2302.06851)&rbrack;
 
@@ -384,7 +384,7 @@ Full solution:
 
 #### Fourth problem
 
-To calculate the [[Aufhebung]] of the category of presheaves on the category of non-empty finite sets, aka the category of [[symmetric sets]].
+To calculate the [[Aufhebung]] of the [[adjoint triple|opposition]] between [[simplicial skeleton|skeleta]] and [[simplicial coskeleton|coskeleta]] in the category of [[symmetric simplicial sets]] (the [[category of presheaves]] on the category of [[inhabited set|non-empty]] [[finite sets]]).
 
 * Ryuya Hora, Yuki Maehara: _Lawvere's fourth open problem: Levels in the topos of symmetric simplicial sets_ &lbrack;[arXiv:2503.03439](https://arxiv.org/abs/2503.03439)&rbrack;
 
