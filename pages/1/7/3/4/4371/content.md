@@ -153,7 +153,7 @@ As the smallest dense subtopos, $\mathcal{E}_{\not\not}$ becomes important for L
 The smallest  _essential_ subtopos $\mathcal{E}_j$ that is dense (in other words the [[Aufhebung]] of $0 \dashv 1$) has the property that $\mathcal{E}_{\neg\neg}\le \mathcal{E}_j$ and concides with $\mathcal{E}_{\neg\neg}$ in case the latter is an [[essential geometric morphism|essential]] subtopos: $\mathcal{E}_j=\mathcal{E}_{\neg\neg}$ (cf. [Lawvere-Menni 2015](#LawvereMenni15)).[^law]
 =--
 
-For further discussion of this relation see at [[dense subtopos]].
+For further discussion of this relation see at *[[dense subtopos]]*.
 
 [^law]: [Lawvere (1991)](#Lawvere91) says around p.8: "_The base in fact seems in examples to be determined by the given category of Being itself, either as the latter's QD reflection with the extra localness condition supplying the right adjoint pure Becoming inclusion, or else (for example simplicial sets) as the double-negation sheaves with the extra essentialness condition supplying the left adjoint inclusion (in the latter case it is in [[Aufhebung|Hegelian fashion]] always the smallest level for which both 0,1 are sheaves)"_.
 
