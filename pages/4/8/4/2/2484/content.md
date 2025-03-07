@@ -130,6 +130,10 @@ See also
 
 * {#Blechschmidt17}[[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, doctoral thesis (2017) ([web](https://rawgit.com/iblech/internal-methods/master/notes.pdf))
 
+Exposition for [[differential geometry]], [[supergeometry]] and [[higher geometry]], with motivation from [[physics]]:
+
+* [[Urs Schreiber]]: *[[schreiber:Higher Topos Theory in Physics]]*, [[Encyclopedia of Mathematical Physics 2nd ed]] **4** (2025) 62-76 \[<a href="https://doi.org/10.1016/B978-0-323-95703-8.00210-X">doi:10.1016/B978-0-323-95703-8.00210-X</a>, [arXiv:2311.11026](https://arxiv.org/abs/2311.11026)\]
+
 
 [[!redirects functors of points]]
 
