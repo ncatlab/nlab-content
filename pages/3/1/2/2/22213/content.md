@@ -83,7 +83,7 @@ Other references on (co)tabulators include:
 
 * [[Susan Niefield]], _Span, cospan, and other double categories_ Theory and Applications of Categories_, **26**, 2012. ([url](http://www.tac.mta.ca/tac/volumes/26/26/26-26abs.html))
 
-* [[Marco Grandis]] and [[Bob Paré]], _Span and cospan representations of weak double categories_, Categories and General Algebraic Structures with Applications 6.Speical Issue on the Occasion of Banaschewski's 90th Birthday (I) (2017): 85-105.
+* [[Marco Grandis]] and [[Bob Paré]], _Span and cospan representations of weak double categories_, Categories and General Algebraic Structures with Applications 6.Speical Issue on the Occasion of Banaschewski's 90th Birthday (I) (2017): 85-105. ([url](https://www.mscs.dal.ca/~pare/DblRpr.pdf))
 
 * [[Marco Grandis]], _Higher Dimensional Categories. From Double to Multiple Categories_, 2019. ([doi:10.1142/11406](https://doi.org/10.1142/11406))
 
