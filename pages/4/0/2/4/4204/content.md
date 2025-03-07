@@ -401,6 +401,8 @@ This classification is a precursor of the full [[cobordism hypothesis]]-theorem.
 
 [[!redirects 2d TQFT]]
 [[!redirects 2d TQFTs]]
+[[!redirects 2D TQFT]]
+[[!redirects 2D TQFTs]]
 [[!redirects 2d topological field theory]]
 [[!redirects 2d topological field theories]]
 [[!redirects 2d topological quantum field theory]]
