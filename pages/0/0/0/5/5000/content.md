@@ -120,7 +120,7 @@ These are advanced books or long foundational expositions.
 
 ## Algorithmic and computational methods
 
-Things like Groebner bases, combinatorical methods with toric varieties etc. 
+Things like [[Gröbner bases]], combinatorical methods with toric varieties etc. 
 
 * David A. Cox, John B. Little, Don O'Shea, _Ideals, varieties, and algorithms_
 
