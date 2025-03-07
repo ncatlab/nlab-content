@@ -103,6 +103,15 @@ TODO Commutative diagrams
 If $\mathcal{C}$ carries extra structure (e.g. a [[pivotal category|pivotal]] structure), the group action is typically required to preserve it.
 \end{remark}
 
+## Classification
+
+Let $\mathcal{C}$ be a $G$-crossed braided fusion category. It follows from the axioms that the subcategory $\mathcal{C}_1$ with degree $1 \in G$ is a [[braided monoidal category|braided fusion subcategory]]. 
+
+Assume furthermore that the $G$-grading of $\mathcal{C}$ is faithful, that is, that the subcategory $\mathcal{C}_g$ is nonzero for all $g\in G$. Theorem 7.12 in [Etingof et al 09](#Etingof09) states that any such $\mathcal{C}$ is determined by $\mathcal{C}_1$, $G$, and a homotopy class of map
+$$
+BG \to B\underline{Pic}(\mathcal{C}_1)
+$$
+for $B\underline{Pic}(\mathcal{C}_1)$ the classifying space of the higher group of invertible $\mathcal{C}_1$-[[bimodule category|bimodules]]. In particular, as shown in Proposition 7.3 in [Etingof et al 09](#Etingof09), the classifying space satisfies $\pi_1(B\underline{Pic}(\mathcal{C}_1))= Pic(\mathcal{C}_1)$, the group of equivalence classes of $\mathcal{C}_1$-bimodules, $\pi_2(B\underline{Pic}(\mathcal{C}_1))= Inv(\mathcal{C}_1)$, the group of isomorphism classes of invertible objects in $\mathcal{C}_1$, and $\pi_3(B\underline{Pic}(\mathcal{C}_1))= k^{\times}$ the multiplicative group of the ground field.
 
 ## Examples
 
@@ -164,6 +173,11 @@ Description of $G$-crossed braided categories as monoidal bicategories and const
 Equivalence of certain Gray categories with $G$-crossed braided categories and strictification:
 
 * [[Corey Jones]], [[David Penneys]], [[David Reutter]], *A 3-categorical perspective on $G$-crossed braided categories*, J. London Math. Soc. **107** 1 (2023) 333-406 &lbrack;[arXiv:2009.00405](https://arxiv.org/abs/2009.00405), [doi:10.1112/jlms.12687](https://doi.org/10.1112/jlms.12687)&rbrack;
+
+The classification of $G$-crossed braided fusion categories with faithful grading
+
+* {#Etingof09} Pavel Etingof, Dmitri Nikshych, Victor Ostrik, Ehud Meir (appendix). *Fusion categories and homotopy theory* (2009). ([arXiv:0909.3140](https://arxiv.org/abs/0909.3140)).
+
 
 
 [[!redirects $G$-crossed braided fusion categories]]
