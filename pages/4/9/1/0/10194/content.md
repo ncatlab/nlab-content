@@ -21,6 +21,11 @@ Review:
 
 * [[Stefan Hollands]], [[Robert Wald]], *The Operator Product Expansion in Quantum Field Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.01096](https://arxiv.org/abs/2312.01096)&rbrack;
 
+On the [[quantum null energy condition]]:
+
+* [[Stefan Hollands]], [[Roberto Longo]]:
+*A New Proof of the QNEC* &lbrack;[arXiv:2503.04651](https://arxiv.org/abs/2503.04651)&rbrack;
+
 
 ## Related  entries
 
