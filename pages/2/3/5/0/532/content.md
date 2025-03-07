@@ -94,6 +94,7 @@ J. Pure Appl. Algebra 21 (1981) 233--260.
 
 * R. Brown,  and P.J. Higgins, _The equivalence of $\omega $-groupoids and cubical   $T$-complexes_ Cahiers Topologie G\'eom. Diff\'erentielle 22 (1981) 349--370.
 
+* Kimball Strong: *Strictification of ∞-groupoids is comonadic*, Theory and Applications of Categories **44** 9 (2025) 277-304 &lbrack;[tac:44-09](http://www.tac.mta.ca/tac/volumes/44/9/44-09abs.html), [arXiv:2405.04780](https://arxiv.org/abs/2405.04780)&rbrack;
 
 
 [[!redirects simplical T-complex]]
