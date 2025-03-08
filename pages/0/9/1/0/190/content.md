@@ -62,6 +62,7 @@ To be really careful, this version of $Cat$ is an [[anabicategory]].
 ## Properties
 
 ### Cartesian closed structure 
+ {#CartesianClosedStructure}
 
 The category $Cat$, at least in its traditional version comprising small categories only, is [[cartesian closed]]: the [[exponential objects]] are [[functor categories]].  Direct proofs can be found in:
 
