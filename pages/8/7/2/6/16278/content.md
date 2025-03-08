@@ -66,6 +66,11 @@ However, he did not consider his [[intuitionism]] to depend upon his mystical vi
 
 Brouwer even went so far as to remark on the perniciousness of mathematics in its keeping us from the home of consciousness. Thus in the notebooks in which he conceived his 1907 thesis we find: "One could see as the goal of one's life: abolition and delivery from all mathematics".
 
+## Gödel
+
+For the moment, see e.g. [van Atten and Tragesser 2014](#vAT14), and [Gödel's ontological proof](https://en.wikipedia.org/wiki/G%C3%B6del%27s_ontological_proof) involving [[modal logic]].
+
+
 ## Related entries
 
 * [[hermeticism]], [[gnosticism]]
@@ -95,6 +100,8 @@ Brouwer even went so far as to remark on the perniciousness of mathematics in it
 * {#vanAtten04} van Atten, _On Brouwer_, 2004
 
 * {#Melzer14} Arthur Melzer, _Philosophy between the lines -- The lost history of esoteric writing_, University of Chicago Press, 2014
+
+* {#vAT14} Mark van Atten and Robert Tragesser. ``Mysticism and Mathematics: Brouwer, Gödel, and the Common Core Thesis'', In Mark van Atten, Essays on Gödel’s Reception of Leibniz, Husserl, and Brouwer. Cham: Springer Verlag. pp. 173-187 (2014).
 
 
 Decent discussion of the history of mysticism (or not) in [[quantum physics]], such as induced by the concept of "[[wavefunction collapse]]" (see also [[interpretation of quantum mechanics]]) is in
