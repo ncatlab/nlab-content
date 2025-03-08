@@ -112,7 +112,7 @@ As discussed at  [[homotopy hypothesis]] there is a Quillen equivalence of the [
 
 * the [[model structure on topological spaces|standard model structure]] on the [[nice category of spaces|nice category]] of compactly generated weakly Hausdorff [[topological spaces]];
 
-* the [[model structure on simplicial sets|standard model structure]] on the category of [[Kan complex]]es.
+* the [[model structure on simplicial sets|standard model structure]] on the category of [[Kan complex|Kan complexes]].
 
 In fact, this is also equivalent to
 
