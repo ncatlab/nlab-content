@@ -25,7 +25,7 @@ A basic example of a Fréchet space is $\mathbb{R}^\infty \coloneqq \underset{\l
 
 Generally, a Fréchet space is equivalently a [[real vector space]] equipped with a countable familiy of [[seminorms]], with compatibility conditions modeled on this example. See def. \ref{FrechetSpaceAsCompleteTVSWithCompatibleSeminorms} below.
 
-Beware the clash ofterminology: a 'Fréchet topology' on a 'Fréchet topological space' is something different; this just means that a [[topological space]] satisfies the $T_1$ [[separation axiom]].  (Like all [[Hausdorff space|Hausdorff]] [[topological vector spaces]], Fréchet spaces satisfy this axiom, but they have a good deal of additional [[structure]] and [[properties]].)
+Beware the clash of terminology: a 'Fréchet topology' or a 'Fréchet topological space' is something different; this just means that a [[topological space]] satisfies the $T_1$ [[separation axiom]].  (Like all [[Hausdorff space|Hausdorff]] [[topological vector spaces]], Fréchet spaces satisfy this axiom, but they have a good deal of additional [[structure]] and [[properties]].)
 
 
 ## Definition
