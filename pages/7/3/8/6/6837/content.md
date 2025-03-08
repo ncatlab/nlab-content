@@ -19,7 +19,7 @@
 
 ## Idea
 
-The notion of _differential graded manifold_ is a generalization of the notion of [[smooth manifold]] from ordinary [[geometry]] to [[higher geometry]], specifically to [[dg-geometry]].  Typically it is taken to be the [[Isbell duality|formal dual]] to a [[dgc-algebra]] which in degree-0 is the [[algebra of function|algebra of]] [[smooth functions]] on an ordinary [[smooth manifold]]. 
+The notion of _differential graded manifold_ is a generalization of the notion of [[smooth manifold]] from ordinary [[geometry]] to [[higher geometry]], specifically to [[dg-geometry]].  Typically it is taken to be the [[Isbell duality|formal dual]] to a [[dgc-algebra]] which in degree-0 is the [[algebra of functions|algebra of]] [[smooth functions]] on an ordinary [[smooth manifold]]. 
 
 Hence this is a _[[graded manifold]]_ whose [[algebra of functions]] is equipped with a compatible [[differential]].
 
