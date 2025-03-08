@@ -78,7 +78,11 @@ See also:
 * {#TorontoMcCarthy10} Neil Toronto, Jay McCarthy, _From Bayesian Notation to Pure Racket_, 2010 ([pdf](http://jeapostrophe.github.io/home/static/toronto-2010ifl-slides.pdf))
 
 
+
+
 [[!include possible-worlds and many-worlds -- references]]
+
+
 
 
 
