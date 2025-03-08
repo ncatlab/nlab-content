@@ -65,4 +65,5 @@ For [[super Lie algebras]]
 * Erhard Neher, _An introduction to universal central extensions of Lie superalgebras_ ([[NeherUniversalCentralExtension.pdf:file]])
 
 
-[[!redirects universal central extension]]
+[[!redirects universal central extensions]]
+
