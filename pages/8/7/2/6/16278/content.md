@@ -101,7 +101,7 @@ For the moment, see e.g. [van Atten and Tragesser 2014](#vAT14), and [Gödel's o
 
 * {#Melzer14} Arthur Melzer, _Philosophy between the lines -- The lost history of esoteric writing_, University of Chicago Press, 2014
 
-* {#vAT14} Mark van Atten and Robert Tragesser. ``Mysticism and Mathematics: Brouwer, Gödel, and the Common Core Thesis'', In Mark van Atten, Essays on Gödel’s Reception of Leibniz, Husserl, and Brouwer. Cham: Springer Verlag. pp. 173-187 (2014).
+* {#vAT14} Mark van Atten, Robert Tragesser: *Mysticism and Mathematics: Brouwer, Gödel, and the Common Core Thesis*,  In Mark van Atten, *Essays on Gödel’s Reception of Leibniz, Husserl, and Brouwer*, Logic, Epistemology, and the Unity of Science **35**, Springer (2014) 173-187 &lbrack;[doi:10.1007/978-3-319-10031-9_10](https://doi.org/10.1007/978-3-319-10031-9_10)&rbrack;
 
 
 Decent discussion of the history of mysticism (or not) in [[quantum physics]], such as induced by the concept of "[[wavefunction collapse]]" (see also [[interpretation of quantum mechanics]]) is in
