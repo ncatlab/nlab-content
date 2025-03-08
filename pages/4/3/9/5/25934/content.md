@@ -37,6 +37,9 @@ in relation to each other:
 * Raoni W. Arroyo, Jonnas R. B. Arenhart, *Whence deep realism for Everettian quantum mechanics?*, Foundations of Physics **52** 121 (2022)  &lbrack;[arXiv:2210.16713](https://arxiv.org/abs/2210.16713), [doi:10.1007/s10701-022-00643-0](https://doi.org/10.1007/s10701-022-00643-0)&rbrack;
 
 
+* {#SS23Monadology} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:The Quantum Monadology]]* \[<a href="https://arxiv.org/abs/2310.15735">arXiv:2310.15735</a>\]
+
+
 Beware that there is also
 
 * Bas C. van Fraassen, *Modal interpretation of repeated measurement*, Philosophy of Science **64** 4 (1997) 669-676 $[$[doi:10.1086/392577](https://doi.org/10.1086/392577), [SEP review](https://plato.stanford.edu/entries/qm-modal/)$]$
