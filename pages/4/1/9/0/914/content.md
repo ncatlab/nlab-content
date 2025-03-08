@@ -357,6 +357,7 @@ Given a [[set]] $X$ and a [[filter]] of subsets $\mathcal{F} \subset P(X)$ (def.
 
 =--
 
+For a related notion of filternet in a set X, see [this post](https://math.stackexchange.com/questions/1568548/where-has-this-common-generalization-of-nets-and-filters-been-written-down)
 
 
 ## Properties
