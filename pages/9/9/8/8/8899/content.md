@@ -1,4 +1,3 @@
-# Mathematics software
 * table of contents
 {: toc}
 
@@ -86,6 +85,10 @@ Here is a very incomplete list of software available for mathematics, especially
 * [Wolfram Workbench](http://www.wolfram.com/products/workbench) 
 * [Wolphramalpha](http://www.wolframalpha.com) - online computational engine
 * [[Sage]]
+
+## Diagram editors
+
+* [[quiver (editor)]]
 
 ## Related pages
 
