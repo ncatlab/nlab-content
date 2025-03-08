@@ -85,8 +85,8 @@ But it is expected (cf. [AGMOO99](#AharonyGubserMaldacenaOoguriOz99) [p. 60](htt
 Notice that for real-world applications such as to the [[confinement]]/[[mass gap]]-problem of [[quantum chromodynamics]], the value of $N$ typically is indeed small (the number of [[color charge|colors]] in [[quantum chromodynamics]] is $N_c = 3$) so that the [[string theory]]/[[M-theory]]-corrections to the [[AdS/QCD correspondence]] are going to be crucial for the full discussion of these applications:
 
 <center>
-<a href="https://ncatlab.org/schreiber/files/Schreiber-MTheoryMathematics2020-v200126.pdf#page=8">
-<img src="https://ncatlab.org/schreiber/files/ProblemQCDToProblemM230120.jpg" width="670">
+<a href="/schreiber/files/Schreiber-MTheoryMathematics2020-v200126.pdf#page=8">
+<img src="/schreiber/files/ProblemQCDToProblemM230120.jpg" width="670">
 </a>
 </center> 
 
