@@ -36,7 +36,7 @@ Let $X = \prod_{n \to \alpha} X_n$ be an internal set, and let $\mathcal{F}_X$ b
 
 ## In constructive mathematics
 
-In constructive mathematics, there may be non-trivial $\sigma$-[[subobject|subframes]] of the [[frame of truth values]]. As a result, in analogy with the case for [[admissible Archimedean ordered fields|admissible]] [[Archimedean ordered fields]], let us say that given a $\sigma$-[[subobject|subframe]] of the [[frame of truth values]] $\Sigma \subseteq \Omega$, a $\sigma$-topological space $(X, O(x))$ is **$\Sigma$-admissible** if and only if there is a function $(-) \in_\Sigma (-):X \times O(x) \to \Sigma$ such that $(x \in_\Sigma A) = \top$ if and only if $x \in A$. 
+In constructive mathematics, there may be non-trivial $\sigma$-[[subobject|subframes]] of the [[frame of truth values]]. As a result, in analogy with the case for [[admissible Archimedean ordered fields|admissible]] [[Archimedean ordered fields]], let us say that given a $\sigma$-[[subobject|subframe]] of the [[frame of truth values]] $\Sigma \subseteq \Omega$, a $\sigma$-topological space $(X, O(X))$ is **$\Sigma$-admissible** if and only if there is a function $(-) \in_\Sigma (-):X \times O(X) \to \Sigma$ such that $(x \in_\Sigma A) = \top$ if and only if $x \in A$. 
 
 Assuming the [[limited principle of omniscience]], the [[boolean domain]] is the [[initial object|initial]] $\sigma$-frame and simultaneously a $\sigma$-subframe of the frame of truth values. In addition, by definition of boolean-admissible $\sigma$-topological spaces, the open subsets are [[decidable subsets]] of the $\sigma$-topological spaces. As a result, the boolean-admissible $\sigma$-topological spaces are precisely the sigma-topological spaces found in [[classical mathematics]]. 
 
