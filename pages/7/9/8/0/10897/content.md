@@ -12,7 +12,7 @@ On [[harmonic maps]]:
 
 On the [[homotopy type]] of the [[diffeomorphism group]] of [[surfaces]]:
 
-* {#EarleEells67} C. J. Earle,  [[James Eells]]: *The diffeomorphism group of a compact Riemann surface*, Bulletin of the American Mathematical Society **73** 4 (1967) 557-559 &lbrack;[euclid:bams/1183528956](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-73/issue-4/The-diffeomorphism-group-of-a-compact-Riemann-surface/bams/1183528956.full)&rbrack;
+* {#EarleEells67} [[Clifford J. Earle]],  [[James Eells]]: *The diffeomorphism group of a compact Riemann surface*, Bulletin of the American Mathematical Society **73** 4 (1967) 557-559 &lbrack;[euclid:bams/1183528956](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-73/issue-4/The-diffeomorphism-group-of-a-compact-Riemann-surface/bams/1183528956.full)&rbrack;
 
 
 On [[Hurewicz fibrations]] and [[Hurewicz connections]]:
