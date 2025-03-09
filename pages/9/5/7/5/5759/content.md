@@ -78,24 +78,25 @@ Direct proofs of the Deligne conjecture have been given in.
 * [[Dmitry Tamarkin]], *Another proof of M. Kontsevich formality theorem* ([arXiv:math/9803025](http://arxiv.org/abs/math/9803025))
 {#Tamarkin}
 
-* [[Clemens Berger]], [[Benoit Fresse]], *Combinatorial operad actions on cochains* ([arXiv:math/0109158](http://arxiv.org/abs/math/0109158))
+* [[Clemens Berger]], [[Benoit Fresse]], *Combinatorial operad actions on cochains*, Math. Proc. Cambridge Philos. Soc. **137** (2004) 135-174 &lbrack;[arXiv:math/0109158](http://arxiv.org/abs/math/0109158), [doi:10.1017/S0305004103007138](https://doi.org/10.1017/S0305004103007138)&rbrack;
 
 
-* [[Ricardo Campos]], [[Thomas Willwacher]], *Operadic Torsors* ([arXiv:1412.3614](https://arxiv.org/abs/1412.3614))
+* [[Ricardo Campos]], [[Thomas Willwacher]], *Operadic Torsors*, J. Algebra **458** (2016) 71-86 &lbrack;[arXiv:1412.3614](https://arxiv.org/abs/1412.3614), [doi:10.1016/j.jalgebra.2016.03.017](https://doi.org/10.1016/j.jalgebra.2016.03.017)&rbrack;
 
 A review is in 
 
 * [[Kathryn Hess]], _Deligne's Hochschild cohomology conjecture_ ([pdf](http://sma.epfl.ch/~hessbell/Pub_DeligneColloq.pdf))
 {#Hess}
 
-* Cohen
-{#Cohen}
+* [[Fred Cohen]], *The homology of $C_{n+1}$-Spaces, $n\geq0$*, In: The Homology of Iterated Loop Spaces. Lecture Notes in Mathematics, vol. **533**. Springer, Berlin, Heidelberg. (1976) &lbrack;[doi:10.1007/BFb0080467](https://doi.org/10.1007/BFb0080467)&rbrack;
+{#Cohen} 
 
-* Gertstenhaber-Voronov
-{#GerstenhaberVoronov}
+* [[Murray Gerstenhaber]], [[Alexander A. Voronov]], *Higher operations on the Hochschild complex*, Funct. Anal. Its Appl. **29** (1995) 1–5 &lbrack;[doi:10.1007/BF01077036](https://doi.org/10.1007/BF01077036)&rbrack;
+{#GerstenhaberVoronov} 
 
-* Hu, Kriz, Voronov
-{#HuKrizVoronov}
+
+* [[Po Hu]], [[Igor Kriz]], [[Alexander A. Voronov]], *On Kontsevich's Hochschild cohomology conjecture*, Composito Mathematica **142** (2006) 143–168 &lbrack;[arXiv:math/0309369](https://arxiv.org/abs/math/0309369), [doi:10.1112/S0010437X05001521](https://doi.org/10.1112/S0010437X05001521)&rbrack;
+{#HuKrizVoronov} 
 
 A transparent [[higher geometry|higher geometric]] interpretation in a suitably dualizable context is indicated in 
 
