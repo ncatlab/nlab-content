@@ -3939,6 +3939,10 @@ More on the relation of braid groups to [[mapping class groups]]:
 
 * {#MargalitWinarski21} [[Dan Margalit]], [[Rebecca R. Winarski]], *Braid groups and mapping class groups: The Birman–Hilden theory*, Bull. London Math. Soc. **53** 3 (2021) 643-659 &lbrack;[arXiv:1703.03448](https://arxiv.org/abs/1703.03448), [doi:10.1112/blms.12456](https://doi.org/10.1112/blms.12456)&rbrack;
 
+* Paolo Bellingeri, Sylvain Gervais: *Surface framed braids*, Geom Dedicata **159** (2012) 51–69 &lbrack;[doi:10.1007/s10711-011-9645-5](https://doi.org/10.1007/s10711-011-9645-5)&rbrack;
+
+
+
 More on the braid representation on [[automorphism group|automorphisms]] of [[free groups]]:
 
 * {#BacarditDicks09} [[Lluís Bacardit]], [[Warren Dicks]], *Actions of the braid group, and new algebraic proofs of results of Dehornoy and Larue*, Groups Complexity Cryptology **1** (2009) 77-129 &lbrack;[arXiv:0705.0587](https://arxiv.org/abs/0705.0587), [doi;10.1515/GCC.2009.77](https://doi.org/10.1515/GCC.2009.77)&rbrack;
