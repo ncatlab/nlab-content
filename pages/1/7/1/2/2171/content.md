@@ -3577,7 +3577,7 @@ by forming the following [[commuting diagram]] of [[group homomorphisms]] where 
 
 In words: *The [[mapping class group]] of a [[punctured]] [[surface]] is a [[group extension]] of the [[mapping class group]] of the plain surface by the surface braid group on the set of punctures.*
 
-For conditions under which $Homeo^{+,\partial}_0(\Sigma) = 1$ see [here](/diffeomorphism+group#HomotopyTypeForSurfaces) at *[[diffeomorphism group]]*.
+For conditions under which $Homeo^{+,\partial}_0(\Sigma) = 1$ see [here](diffeomorphism+group#HomotopyTypeForSurfaces) at *[[diffeomorphism group]]*.
 
 
 ### As automorphisms of a free group
