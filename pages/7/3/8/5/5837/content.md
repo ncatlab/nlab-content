@@ -255,8 +255,10 @@ On the [[homotopy type]] of the diffeomorphism group of [[surfaces]]:
 * {#EarleEells67} [[Clifford J. Earle]],  [[James Eells]]: *The diffeomorphism group of a compact Riemann surface*, Bulletin of the American Mathematical Society **73** 4 (1967) 557-559 &lbrack;[euclid:bams/1183528956](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-73/issue-4/The-diffeomorphism-group-of-a-compact-Riemann-surface/bams/1183528956.full)&rbrack;
 
 * {#EarleSchatz70} [[Clifford J. Earle]], A. Schatz: *Teichmüller theory for surfaces with boundary*,  J. Differential Geom. **4**  2  (1970) 169-185 &lbrack;[doi:10.4310/jdg/1214429381](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-4/issue-2/Teichm%C3%BCller-theory-for-surfaces-with-boundary/10.4310/jdg/1214429381.full)&rbrack;
- 
 
+* {#Gramain73} André Gramain: *Le type d'homotopie du groupe des difféomorphismes d'une surface compacte*, Annales scientifiques de l'École Normale Supérieure, Serie 4, Volume 6 no. 1 (1973) 53-66 &lbrack;[doi:10.24033/asens.1242](https://doi.org/10.24033/asens.1242)&rbrack;
+
+ 
 see also:
 
 * {#Hamstrom66} Mary-Elizabeth Hamstrom: *Homotopy groups of the space of homeomorphisms on a 2-manifold*,  Illinois J. Math. **10** 4 (1966) 563-573 &lbrack;[doi:10.1215/ijm/1256054895](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-10/issue-4/Homotopy-groups-of-the-space-of-homeomorphisms-on-a-2/10.1215/ijm/1256054895.full)&rbrack;
