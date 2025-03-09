@@ -3523,7 +3523,7 @@ In fact:
   Let $\Sigma$ be the result of equipping a [[compact topological space|compact]] [[surface]] with a [[finite number]] of [[interior]] [[punctures]], then 
 
 $$
-  \pi_{n \geq 1} Homeo(\Sigma)
+  \pi_{n \geq 1} Homeo_0(\Sigma)
   \;=\;
   trivial
 $$ 
