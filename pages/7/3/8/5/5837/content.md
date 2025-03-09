@@ -82,17 +82,16 @@ $$
 #### For 2-manifolds (surfaces)
  {#HomotopyTypeForSurfaces}
 
-+-- {: .num_prop #HomotopyTypeOfDiffClosedOrientableSurface}
-###### Proposition
 
-
-For $\Sigma$ a [[closed manifold|closed]] [[orientation|orientable]] [[surface]], then the [[fundamental ∞-groupoid|bare homotopy type]] of its diffeomorphism group is
+\begin{proposition}
+\label{HomotopyTypeOfDiffClosedOrientableSurface}
+For $\Sigma$ a [[closed manifold|closed]] [[orientation|orientable]] [[surface]], then the [[fundamental ∞-groupoid|bare homotopy type]] $\esh(-)$ of its diffeomorphism group is
 
 1. if $\Sigma$ is the [[sphere]] then
  
    $$
      \begin{aligned} 
-        \Pi\big(Diff(S^2)\big) & \simeq \Pi\big(O(3)\big)
+        \esh \, \big(Diff(S^2)\big) & \simeq \Pi\big(O(3)\big)
         \\
         & \simeq MCG(S^2) \times \Pi\big(SO(3)\big)
         \\
@@ -104,7 +103,7 @@ For $\Sigma$ a [[closed manifold|closed]] [[orientation|orientable]] [[surface]]
 
    $$
      \begin{aligned}
-       \Pi\big(Diff(S^1 \times S^1)\big) 
+       \esh \, \big(Diff(S^1 \times S^1)\big) 
        & \simeq 
        MCG(S^1 \times S^1)\times \Pi(S^1 \times S^1 )
        \\
@@ -118,15 +117,32 @@ For $\Sigma$ a [[closed manifold|closed]] [[orientation|orientable]] [[surface]]
 1. in all other cases all higher [[homotopy groups]] vanish:
 
    $$
-     \Pi\big(Diff(\Sigma)\big) 
+     \esh \, \big(Diff(\Sigma)\big) 
        \,\simeq\, 
      MCG(\Sigma)
      \,.
    $$
 
-=--
+\end{proposition}
 
-The first statement is due to ([Smale 58](#Smale58)), see also at _[[sphere eversion]]_. The second and third are due to ([Earle & Eells 67](#EarleEells67), [Gramain 73](#Gramain73)).
+The first statement is due to [Smale 1958](#Smale58) (cf. at *[[sphere eversion]]*). The second and third are due to ([Earle & Eells 67](#EarleEells67), [Gramain 73](#Gramain73)).
+
+Similarly for surfaces with [[boundary]]:
+
+\begin{proposition}
+  \label{ContractibilityOfDiffeosOfCompactSurfaceWithBoundary}
+    Let $\Sigma$ be a [[compact topological space|compact]] [[smooth manifold|smooth]] [[surface]] with [[manifold with boundary|boundary]], then the [[connected component]] of the topological subgroup $Diff^\partial$, of diffeomorphisms fixing the boundary pointwise, is [[contractible topological space|contractible]]:
+$$
+  \esh \,
+  Diff_0^{\partial}(\Sigma)
+  \;\simeq\;
+  1
+  \,.
+$$
+\end{proposition}
+([Earle & Schatz 1970, Thm 1D p 170](#EarleSchatz70))
+
+
 
 #### For 3-manifolds
 
@@ -238,10 +254,12 @@ On the [[homotopy type]] of the diffeomorphism group of [[surfaces]]:
 
 * {#EarleEells67} C. J. Earle,  [[James Eells]]: *The diffeomorphism group of a compact Riemann surface*, Bulletin of the American Mathematical Society **73** 4 (1967) 557-559 &lbrack;[euclid:bams/1183528956](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-73/issue-4/The-diffeomorphism-group-of-a-compact-Riemann-surface/bams/1183528956.full)&rbrack;
 
+* {#EarleSchatz70} C. J. Earle, A. Schatz: *Teichmüller theory for surfaces with boundary*,  J. Differential Geom. **4**  2  (1970) 169-185 &lbrack;[doi:10.4310/jdg/1214429381](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-4/issue-2/Teichm%C3%BCller-theory-for-surfaces-with-boundary/10.4310/jdg/1214429381.full)&rbrack;
+ 
+
 see also:
 
 * {#Hamstrom66} Mary-Elizabeth Hamstrom: *Homotopy groups of the space of homeomorphisms on a 2-manifold*,  Illinois J. Math. **10** 4 (1966) 563-573 &lbrack;[doi:10.1215/ijm/1256054895](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-10/issue-4/Homotopy-groups-of-the-space-of-homeomorphisms-on-a-2/10.1215/ijm/1256054895.full)&rbrack;
-
 
 * {#FarbMargalit12} [[Benson Farb]], [[Dan Margalit]], §1.4.3 of: *A primer on mapping class groups*, Princeton Mathematical Series, Princeton University Press (2012) &lbrack;[ISBN:9780691147949](https://press.princeton.edu/books/hardcover/9780691147949/a-primer-on-mapping-class-groups), [jstor:j.ctt7rkjw](https://www.jstor.org/stable/j.ctt7rkjw), [pdf](http://euclid.nmu.edu/~joshthom/Teaching/MA589/farbmarg.pdf)&rbrack;
 
