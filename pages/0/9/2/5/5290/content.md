@@ -73,7 +73,7 @@ A Gerstenhaber algebra equipped in addition with a certain morphism $\Delta : A 
 
 ## References
 
-* {#Cohen} Cohen (1976)
+* {#Cohen} [[Fred Cohen]], *The homology of $C_{n+1}$-Spaces, $n\geq0$*, In: The Homology of Iterated Loop Spaces. Lecture Notes in Mathematics, vol. **533**. Springer, Berlin, Heidelberg. (1976) &lbrack;[doi:10.1007/BFb0080467](https://doi.org/10.1007/BFb0080467)&rbrack;
  
 * [[Murray Gerstenhaber]], *The cohomology structure of an associative ring*, Ann. of Math. **78** (1963) 267-288 &lbrack;[doi:10.2307/1970343](https://doi.org/10.2307/1970343), [jstor:1970343](https://www.jstor.org/stable/1970343) [MR28:5102](http://www.ams.org/mathscinet-getitem?mr=28:5102)&rbrack;
 
