@@ -3516,41 +3516,9 @@ by forming the following [[commuting diagram]] of [[group homomorphisms]] where 
 (Going back to [Birman 1969](#Birman69), cf. [Massuyeau 2021 Thm. 3.13](#Massuyeau21)).
 
 
-In fact:
-
-\begin{proposition}
-  \label{TrivialityOfHigherHomeomorphismGroups}
-  Let $\Sigma$ be the result of equipping a [[compact topological space|compact]] [[surface]] with a [[finite number]] of [[interior]] [[punctures]], then 
-
-$$
-  \pi_{n \geq 1} Homeo_0(\Sigma)
-  \;=\;
-  trivial
-$$ 
-
-**unless** $\Sigma$ is [[homeomorphism|homeomorphic]] to any one of 
-
-* the [[2-sphere]] $S^2$,
-
-* the [[plane]] $\mathbb{R}^2$,
-
-* the [[closed disk]] $D^2$,
-
-* the [[torus]] $Y^2$,
-
-* the [[closed annulus]],
-
-* the 1-[[punctured surface|punctured]] [[disk]] $D^2 \setminus \{0\}$,
-
-* the 1-[[punctured surface|punctured]] [[plane]] $\mathbb{R}^2 \setminus \{0\}$.
-
-\end{proposition}
-
-([Farb & Margalit 2012, Thm. 1.14](#FarbMargalit12), due to a series of results by Hamstrom)
-
 \begin{corollary}
-  In the situation of Prop. \ref{TrivialityOfHigherHomeomorphismGroups}
-  the [[long exact sequences]] of Prop. \ref{SurfaceBraidGroupsAsFibersOfForgettingPuncturesInMCG} become [[short exact sequences]]:
+ When $\pi_1 \mathrm{Homeo}^{+,\partial}(\Sigma) = 1$,
+ then the [[long exact sequences]] of Prop. \ref{SurfaceBraidGroupsAsFibersOfForgettingPuncturesInMCG} become [[short exact sequences]]:
 
 \begin{tikzcd}
   & 
@@ -3605,12 +3573,11 @@ $$
 
 \end{corollary}
 
-([Farb & Margalit 2012, Thm. 9.1](#FarbMargalit12))
-
-
-
+(In this form the statement appears in [Farb & Margalit 2012, Thm. 9.1](#FarbMargalit12).)
 
 In words: *The [[mapping class group]] of a [[punctured]] [[surface]] is a [[group extension]] of the [[mapping class group]] of the plain surface by the surface braid group on the set of punctures.*
+
+For conditions under which $Homeo^{+,\partial}_0(\Sigma) = 1$ see [here](/diffeomorphism+group#HomotopyTypeForSurfaces) at *[[diffeomorphism group]]*.
 
 
 ### As automorphisms of a free group
