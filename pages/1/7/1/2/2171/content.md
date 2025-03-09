@@ -3933,13 +3933,24 @@ More [[finitely presented group|finite presentations]] of the *pure* braid group
 
 * {#Lee10} [[Eon-Kyung Lee]], *A positive presentation of the pure braid group*, Journal of the Chungcheong Mathematical Society **23** 3 (2010) 555-561 &lbrack;[JAKO201007648745187](https://koreascience.kr/article/JAKO201007648745187.view?orgId=anpor), [pdf](http://www.ccms.or.kr/data/pdfpaper/jcms23_3/23_3_555.pdf)&rbrack;
 
+The framed braid group:
+
+* Ki Hyoung Ko, Lawrence Smolinsky: *The framed braid group and 3-manifolds*, Proc. Amer. Math. Soc. **115** (1992) 541-551 &lbrack;[doi:10.1090/S0002-9939-1992-1126197-1](https://doi.org/10.1090/S0002-9939-1992-1126197-1), [pdf](https://www.ams.org/journals/proc/1992-115-02/S0002-9939-1992-1126197-1/S0002-9939-1992-1126197-1.pdf)&rbrack;
+
+* Ki Hyoung Ko, Lawrence Smolinsky: *The framed braid group and representations*, in: *Knots 90*, Proceedings in Mathematics, De Gruyter (1992) 289-297 &lbrack;[doi:10.1515/9783110875911](https://doi.org/10.1515/9783110875911), [[KoSmolinsky-FramedBraidsAndReps.pdf:file]]&rbrack;
+
+* [Bellingeri & Gervais 2012](#BellingeriGervais12)
+
+* Akishi Ikeda: *Homological and Monodromy Representations of Framed Braid Groups*, Commun. Math. Phys. **359** (2018) 1091–1121  &lbrack;[doi:10.1007/s00220-017-3036-1](https://doi.org/10.1007/s00220-017-3036-1), [arXiv:1702.03918](https://arxiv.org/abs/1702.03918)&rbrack;
+
+
 More on the relation of braid groups to [[mapping class groups]]:
 
 * {#AmramLawrenceVishne12} M. Amram, R. Lawrence, U. Vishne, *Artin Covers of the Braid Group*,  Journal of Knot Theory and Its Ramifications **21** 07 (2012) 1250061 &lbrack;[doi:10.1142/S0218216512500617](https://doi.org/10.1142/S0218216512500617), [pdf](http://www.ma.huji.ac.il/~ruthel/papers/12artin.pdf)&rbrack; 
 
 * {#MargalitWinarski21} [[Dan Margalit]], [[Rebecca R. Winarski]], *Braid groups and mapping class groups: The Birman–Hilden theory*, Bull. London Math. Soc. **53** 3 (2021) 643-659 &lbrack;[arXiv:1703.03448](https://arxiv.org/abs/1703.03448), [doi:10.1112/blms.12456](https://doi.org/10.1112/blms.12456)&rbrack;
 
-* Paolo Bellingeri, Sylvain Gervais: *Surface framed braids*, Geom Dedicata **159** (2012) 51–69 &lbrack;[doi:10.1007/s10711-011-9645-5](https://doi.org/10.1007/s10711-011-9645-5), [arXiv:1001.4471](https://arxiv.org/abs/1001.4471)&rbrack;
+* {#BellingeriGervais12} Paolo Bellingeri, Sylvain Gervais: *Surface framed braids*, Geom Dedicata **159** (2012) 51–69 &lbrack;[doi:10.1007/s10711-011-9645-5](https://doi.org/10.1007/s10711-011-9645-5), [arXiv:1001.4471](https://arxiv.org/abs/1001.4471)&rbrack;
 
 
 
@@ -4018,7 +4029,6 @@ On [[moduli spaces of monopoles]] related to [[braid groups]]:
 
 
 [[!include braid group cryptography -- references]]
-
 
 
 
