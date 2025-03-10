@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -32,72 +33,46 @@ The two definitions agree when the [[domain]] $X$ is a [[compactly generated top
 
 
 ## Definition
+ {#Definition}
 
-+-- {: .num_note}
-###### Notation
+In the following we consider:
 
-Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. We denote by $Y^{X}$ the set of [[continuous maps]] from $(X,\mathcal{O}_{X})$ to $(Y, \mathcal{O}_{Y})$. 
+* $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ a [[pair]] of  [[topological spaces]],
 
-=--
+* $Y^{X}$ (also written $Maps(X,Y)$ or $C^0(X,Y)$) the set of [[continuous maps]] from $(X,\mathcal{O}_{X})$ to $(Y, \mathcal{O}_{Y})$,
 
-+-- {: .num_remark}
-###### Remark 
+* $\mathcal{O}^{c}_{X}$ the set of [[subsets]] of $X$ which are [[compact subset|compact]] with respect to $\mathcal{O}_{X}$,
 
-Other common notations for $Y^{X}$ are $Map(X,Y)$ or $C(X,Y)$. 
+* $\overline{A}$, for [[subset|$A \subset X$]], the [[topological closure]] of $A$ in $X$ with respect to  $\mathcal{O}_{X}$,
 
-=--
+* $M_{A,U}$, for $A \in \mathcal{O}^{c}_{X}$ and $U \in \mathcal{O}_{Y}$, the set of continuous maps $f \colon X \rightarrow Y$ such that $f(A) \subset U$.
 
-+-- {: .num_note}
-###### Notation
+\begin{definition}\label{CompactOpenTopology}
+The *compact-open topology* on $Y^{X}$ is that with [[base of a topological space|sub-basis]] $\Big\{M_{A,U} \,\Big\vert \, A \in \mathcal{O}^{c}_{X}, U \in \mathcal{O}_{Y}\Big\}$. 
+\end{definition}
 
-Let $(X, \mathcal{O}_{X})$ be a [[topological space]]. We denote by $\mathcal{O}^{c}_{X}$ the set of subsets of $X$ which are [[compact subset|compact]] with respect to $\mathcal{O}_{X}$.
-
-=--
-
-+-- {: .num_note}
-###### Notation
-
-Let $(X, \mathcal{O}_{X})$ be a [[topological space]]. Let $A$ be a subset of $X$. We denote by $\overline{A}$ the [[topological closure]] of $A$ in $X$ with respect to  $\mathcal{O}_{X}$.
-
-=--
-
-+-- {: .num_defn #LocallyCompact}
-###### Definition 
-
-A topological space $(X, \mathcal{O}_{X})$ is _[[locally compact topological space|locally compact]]_ if the set of compact neighbourhoods   of points of $X$ form a [[neighbourhood basis]] of $X$. That is to say: for every $x \in X$ and every [[neighbourhood]] $N$ of $x$, there is a $V \in \mathcal{O}^{c}_{X}$ and a $U \in \mathcal{O}_{X}$ such that $x \in U \subset V \subset N$.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-There are many variations on this definition, which can be found at _[[locally compact space]]_. These are all equivalent if $(X, \mathcal{O}_{X})$ is [[Hausdorff space|Hausdorff]]. We do _not_ however make the assumption that $(X, \mathcal{O}_{X})$ is [[Hausdorff space|Hausdorff]]. 
-
-=--
-
-+-- {: .num_note}
-###### Notation
-
-Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. Given $A \in \mathcal{O}^{c}_{X}$ and $U \in \mathcal{O}_{Y}$, we denote by $M_{A,U}$ the set of continuous maps $f : X \rightarrow Y$ such that $f(A) \subset U$.
-
-=--
-
-+-- {: .num_defn #CompactOpenTopology}
-###### Definition
-
-Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. The _compact-open_ topology on $Y^{X}$ is that with [[base of a topological space|sub-basis]] given by the set of sets $M_{A,U}$ such that $A \in \mathcal{O}^{c}_{X}$ and $U \in \mathcal{O}_{Y}$. 
-
-=--
 
 +-- {: .num_note #CompactOpenTopologyNotation}
 ###### Notation
 
-Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]]. We shall denote the compact-open topology (def. \ref{CompactOpenTopology}) on $Y^{X}$ by $\mathcal{O}_{Y^{X}}$.  
+In the following denote the compact-open topology (def. \ref{CompactOpenTopology}) on $Y^{X}$ by $\mathcal{O}_{Y^{X}}$.
 
 =--
 
+
 ## Exponentiability
  {#Exponentiability}
+
+
+\begin{definition}
+\label{LocallyCompact}
+A topological space $(X, \mathcal{O}_{X})$ is _[[locally compact topological space|locally compact]]_ if the set of compact neighbourhoods   of points of $X$ form a [[neighbourhood basis]] of $X$. That is to say: for every $x \in X$ and every [[neighbourhood]] $N$ of $x$, there is a $V \in \mathcal{O}^{c}_{X}$ and a $U \in \mathcal{O}_{X}$ such that $x \in U \subset V \subset N$.
+\end{definition}
+
+\begin{remark}
+There are many variations on def. \ref{LocallyCompact}, which can be found at _[[locally compact space]]_. These are all equivalent if $(X, \mathcal{O}_{X})$ is [[Hausdorff space|Hausdorff]]. We do _not_ however make the assumption that $(X, \mathcal{O}_{X})$ is [[Hausdorff space|Hausdorff]]. 
+\end{remark}
+
 
 +-- {: .num_prop #evIsContinuous}
 ###### Proposition 
