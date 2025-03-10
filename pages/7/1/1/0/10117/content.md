@@ -28,9 +28,9 @@ Therefore the existence and (projective) flatness of the Hitchin connection exhi
 
 The Hitchin connection is akin to the _[[Knizhnik-Zamolodchikov connection]]_, which is built by thinking [[AdS3-CFT2 and CS-WZW correspondence|holographic dually]] of the vector bundle of [[conformal blocks]] of the corresponding $G$-[[Wess-Zumino-Witten model]] [[2d CFT]] on $\Sigma$. 
 
-A more axiomatic characterization of such projectively flat connections in terms of [[modular functors]] is due to ([Segal 88, prop. 5.4](#Segal88)). See ([Segal 88, around (5.9)](#Segal88)) for discussion of how to turn these projectively flat connections into genuine [[flat connections]].
+A more axiomatic characterization of such projectively flat connections in terms of [[modular functors]] is due to [Segal 88, prop. 5.4](#Segal88). See [Segal 88, around (5.9)](#Segal88) for discussion of how to turn these projectively flat connections into genuine [[flat connections]].
 
-Reviews of the Hitchin connection include ([Lauridsen 10, section 2](#Lauridsen10)).
+Reviews of the Hitchin connection include [Lauridsen 10, section 2](#Lauridsen10).
 
 ## Related concepts
 
@@ -39,6 +39,7 @@ Reviews of the Hitchin connection include ([Lauridsen 10, section 2](#Lauridsen1
 * [[AdS3-CFT2 and CS-WZW correspondence]]
 
 * [[modular functor]]
+
 
 ## References
 
