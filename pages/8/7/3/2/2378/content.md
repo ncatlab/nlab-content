@@ -43,8 +43,6 @@ In the following we consider:
 
 * $\mathcal{O}^{c}_{X}$ the set of [[subsets]] of $X$ which are [[compact subset|compact]] with respect to $\mathcal{O}_{X}$,
 
-* $\overline{A}$, for [[subset|$A \subset X$]], the [[topological closure]] of $A$ in $X$ with respect to  $\mathcal{O}_{X}$,
-
 * $M_{A,U}$, for $A \in \mathcal{O}^{c}_{X}$ and $U \in \mathcal{O}_{Y}$, the set of continuous maps $f \colon X \rightarrow Y$ such that $f(A) \subset U$.
 
 \begin{definition}\label{CompactOpenTopology}
