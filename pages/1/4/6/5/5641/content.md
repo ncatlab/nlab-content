@@ -152,7 +152,7 @@ $$
 
 where the term $\mathbb{Z} \oplus \mathbb{Z}$ is in degree 0: this is the [[free abelian group]] on the set $\{0,1\}$ of 0-simplices in $\Delta[1]$. The other copy of $\mathbb{Z}$ is the free abelian group on the single non-degenerate edge in $\Delta[1]$. All other cells of $\Delta[1]$ are degenerate and hence do not contribute to the [[normalized chain complex]]. The single nontrivial [[differential]] sends $1 \in \mathbb{Z}$ to $(1,-1) \in \mathbb{Z} \oplus \mathbb{Z}$, reflecting the fact that one of the vertices is the 0-[[boundary]] and the other is the 1-boundary of the single nontrivial edge.
 
-It follows that the [[tensor product of chain complexes]] $C_\bullet \otimes I_\bullet$ is
+It follows that the [[tensor product of chain complexes]] $I_\bullet \otimes C_\bullet$ is
 
 $$
   \cdots
