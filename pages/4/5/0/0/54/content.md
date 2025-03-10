@@ -52,8 +52,15 @@ Projects:
 
 
 ## selected talks
+ {#SelectedTalks}
 
 > For the complete list of invited talks I have given, see [there](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
+
+* **[[schreiber:Quantum Language via Linear Homotopy Types]]**
+
+  mini-course at: [IX International Workshop on Information Geometry, Quantum Mechanics and Applications 2025](http://www.q-math.es/conferences/IGQMA2025), [ICMAT Madrid](https://www.icmat.es/) 24-28 Feb 2025 
+
+  videos: [YT](https://www.youtube.com/playlist?list=PLLToCuSLUftnr8rAMkRaFlV85NoxoTlWx)
 
 * **[[schreiber:Super-Exceptional Geometry for 11D Supergravity]]**
 
@@ -69,7 +76,7 @@ Projects:
 
 * **[[schreiber:Towards Certified Topological Quantum Programming via Linear Homotopy Types]]**
 
-  talk at: [Quantum Information and Quantum Matter 2024](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#QuantumConference2024) NYUAD (May 2024)
+  talk at: [Quantum Information and Quantum Matter 2024](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#QuantumConference2024), NYUAD (May 2024)
 
 * **[Topological Quantum Programming with Linear Homotopy Types](/schreiber/show/Topological+Quantum+Gates+in+Homotopy+Type+Theory#HoTTEST2024)**
 
