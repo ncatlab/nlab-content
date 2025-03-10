@@ -125,7 +125,9 @@ For $\Sigma$ a [[closed manifold|closed]] [[orientation|orientable]] [[surface]]
 
 \end{proposition}
 
-The first statement is due to [Smale 1958](#Smale58) (cf. at *[[sphere eversion]]*). The second and third are due to ([Earle & Eells 67](#EarleEells67), [Gramain 73](#Gramain73)).
+(Where for the present purpose we are writing $MCG(\Sigma) \coloneqq \pi_0 Diff(\Sigma)$.)
+
+The first statement is due to [Smale 1959](#Smale59) (cf. also at *[[sphere eversion]]*). The second and third are due to [Earle & Eells 67](#EarleEells67) and [Gramain 73](#Gramain73).
 
 Similarly for surfaces with [[boundary]]:
 
@@ -154,11 +156,15 @@ The case of surfaces with punctures is handled by [Yagasaki 2001](#Yagasaki01).
 ###### Proposition
 
 $$
-  \Pi(Diff(S^1 \times S^2))
-  \simeq
-  \Pi(O(2) \times O(3))
+  \esh\big(
+    Diff(S^1 \times S^2)
+  \big)
+  \;\simeq\;
+  \Pi\big(
+    O(2) \times O(3)
+  \big)
   \times
-  \Omega \Pi(SO(3))
+  \esh \Omega SO(3)
   \,.
 $$
 
@@ -255,6 +261,8 @@ The observation that infinite-dimensional  [[smooth groups]] such as diffeomorph
 ### For 2-manifolds (surfaces)
 
 On the [[homotopy type]] of the diffeomorphism group of [[surfaces]]:
+
+* {#Smale59} [[Stephen Smale]]: *Diffeomorphisms of the 2-sphere*, Proc. Amer. Math. Soc. **10** (1959) 621–626 &lbrack;[doi:10.1090/S0002-9939-1959-0112149-8](https://doi.org/10.1090/S0002-9939-1959-0112149-8), [doi:10.2307/2033664](https://doi.org/10.2307/2033664), [jstor:2033664](https://www.jstor.org/stable/2033664)&rbrack;
 
 * {#EarleEells67} [[Clifford J. Earle]],  [[James Eells]]: *The diffeomorphism group of a compact Riemann surface*, Bulletin of the American Mathematical Society **73** 4 (1967) 557-559 &lbrack;[euclid:bams/1183528956](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-73/issue-4/The-diffeomorphism-group-of-a-compact-Riemann-surface/bams/1183528956.full)&rbrack;
 
