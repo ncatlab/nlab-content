@@ -406,19 +406,19 @@ Apparently also independent is the development by Franke, who takes an enriched 
 
 Georges Maltsiniotis has written an introduction to the topic (in French):
 
-* [[Georges Maltsiniotis]], _Introduction &#224; la th&#233;orie des d&#233;rivateurs, d'apr&#232;s Grothendieck_ , Preprint (2001) [ps](http://www.math.jussieu.fr/~maltsin/ps/m.ps)
+* [[Georges Maltsiniotis]], _Introduction &#224; la th&#233;orie des d&#233;rivateurs, d'apr&#232;s Grothendieck_ , Preprint (2001) [ps](https://webusers.imj-prg.fr/~georges.maltsiniotis/ps/m.ps)
 
 He also gave a [course](http://congreso.us.es/htag09/php/index.php?carga=courses) (in English) in Seville, Sep 2010, and part 3 is on derivators:
 
 * [[Georges Maltsiniotis]]
 
-  * [Lecture I (Localizers)](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_I_Localizers.pdf)
+  * [Lecture I (Localizers)](http:webusers.imj-prg.fr/~georges.maltsiniotis/Seville/Lecture_I_Localizers.pdf)
 
-    [Lecture II (Model Categories)](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_II_Model_Categories.pdf)
+    [Lecture II (Model Categories)](https://webusers.imj-prg.fr/~georges.maltsiniotis/Seville/Lecture_II_Model_Categories.pdf)
 
-    [Lecture III (Derivators)](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf)
+    [Lecture III (Derivators)](https://webusers.imj-prg.fr/~georges.maltsiniotis/Seville/Lecture_III_Derivators.pdf)
 
-    [Summary on Derivators](http://people.math.jussieu.fr/~maltsin/Seville/Summary_on_Derivators.pdf)
+    [Summary on Derivators](https://webusers.imj-prg.fr/~georges.maltsiniotis/Seville/Summary_on_Derivators.pdf)
 
 Part of the above material is adapted from
 
