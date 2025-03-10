@@ -648,16 +648,15 @@ Groupoid algebras of geometrically discrete groupoids twisted by [[principal 2-b
 
 The study of convolution [[C-star algebras]] of [[Lie groupoids]] goes back to
 
-* {#Renault80} [[Jean Renault]], _A groupoid approach to $C^\ast$ algebras_, Springer Lecture Notes in Mathematics **793**, Springer (1980)
+* {#Renault80} [[Jean Renault]]: *A groupoid approach to $C^\ast$ algebras*, Springer Lecture Notes in Mathematics **793**, Springer (1980) &lbrack;[doi:10.1007/BFb0091072](https://doi.org/10.1007/BFb0091072)&rbrack;
  
-
-Where the [[integration]] is performed against a fixed [[Haar measure]].
+where the [[integration]] is performed against a fixed [[Haar measure]].
 
 Surveys:
 
-* [[Nigel Higson]], _Groupoids, $C^\ast$-algebras and Index theory_ ([pdf](http://folk.uio.no/rognes/higson/zurich.pdf))
+* [[Nigel Higson]]: *Groupoids, $C^\ast$-algebras and Index theory*, lecture notes (2014) &lbrack;[[Higson-GroupoidCStarAlgebras.pdf:file]]&rbrack;
 
-* PlanetMath, _[groupoid $C^\ast$-convolution algebras](http://planetmath.org/groupoidcconvolutionalgebras)_.
+* [[Planet Math]]: _[groupoid $C^\ast$-convolution algebras](http://planetmath.org/groupoidcconvolutionalgebras)_
 
 
 The construction via [[sections]] of [[bundles]] of [[half-densities]] (avoiding a choice of Haar measure) is due to
