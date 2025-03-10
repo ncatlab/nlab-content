@@ -91,7 +91,7 @@ Let $u : A \to B$ be a functor between two dg-categories.  If $A$ and $B$ are pr
 
 The use of pretriangulated dg-categories as [[enhanced triangulated categories]] has been especially successful in the study of the various [[triangulated categories of sheaves]] on [[algebraic varieties]].
 
-In the below paper it is shown that the triangulated categories of [[quasicoherent sheaf|quasicoherent sheaves]] on quasiprojective varieties and some of their cousins (like categories of perfect complexes on quasiprojective varieties) have unique dg-enhancements. [[Fernando Muro]] has developed an obstruction theory for the existance and measuring non-uniqueness of dg-enhancements in more general settings (unpublished).
+In the papers below it is shown that the triangulated categories of [[quasicoherent sheaf|quasicoherent sheaves]] on quasiprojective varieties and some of their cousins (like categories of perfect complexes on quasiprojective varieties) have unique dg-enhancements. [[Fernando Muro]] has developed an obstruction theory for the existance and measuring non-uniqueness of dg-enhancements in more general settings (unpublished).
 
 * [[Valery Lunts|V. A. Lunts]], [[Dmitri Orlov|D. O. Orlov]], _Uniqueness of enhancement for triangulated categories_, J. Amer. Math. Soc. __23__ (2010), 853-908, [journal](http://www.ams.org/journals/jams/2010-23-03/S0894-0347-10-00664-8/home.html), [arXiv:0908.4187](http://arxiv.org/abs/0908.4187).
 
