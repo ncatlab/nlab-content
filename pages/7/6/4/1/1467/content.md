@@ -184,7 +184,11 @@ In [[constructive mathematics]], "complete and totally bounded" is sometimes tak
 
 Frequently in [[category theory]], for example when we discuss [[internal logic]] in [[toposes]], we are interested in properties of maps that are stable under [[pullback]], and it turns out that compactness can be reformulated in terms of stability properties. 
 
-A first example concerns the property of a topological space $X$ that the unique map $!: X \to 1$ to the [[point space]] (the [[terminal object]] in [[Top]]) is a [[closed map]]. As a statement in ordinary [[point-set topology]], this is plainly a [[tautology]], trivially true for any space $X$. (Side remark: it is not at all a tautology in the more general setting of [[internal locales]] in [[toposes]]; the word "closed" is reserved for locales $X$ having that property. See also _[[closed morphism]]_.) However, even in ordinary point-set topology, $!: X \to 1$ is usually not *stably closed*. In more detail: the pullback of $!: X \to 1$ along a (or the) map $Y \to 1$ is the [[projection]] map 
+A first example concerns the property of a topological space $X$ that the unique map $!: X \to 1$ to the [[point space]] (the [[terminal object]] in [[Top]]) is a [[closed map]]. As a statement in ordinary [[point-set topology]], this is plainly a [[tautology]], trivially true for any space $X$. 
+
+> (Side remark: it is not at all a tautology in the more general setting of [[internal locales]] in [[toposes]]; the word "closed" is reserved for locales $X$ having that property. See also _[[closed morphism]]_.) 
+
+However, even in ordinary point-set topology, $!: X \to 1$ is usually not *stably closed*. In more detail: the pullback of $!: X \to 1$ along a (or the) map $Y \to 1$ is the [[projection]] map 
 
 $$X \times Y \to Y$$ 
 
