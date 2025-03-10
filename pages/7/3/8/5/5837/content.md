@@ -142,6 +142,10 @@ $$
 \end{proposition}
 ([Earle & Schatz 1970, Thm 1D p 170](#EarleSchatz70))
 
+The case of surfaces with punctures is handled by [Yagasaki 2001](#Yagasaki01).
+
+
+\linebreak
 
 
 #### For 3-manifolds
@@ -256,15 +260,18 @@ On the [[homotopy type]] of the diffeomorphism group of [[surfaces]]:
 
 * {#EarleEells69} [[Clifford J. Earle]], [[James Eells]]: *A fibre bundle description of Teichmüller theory*,  J. Differential Geom. **3**  1-2  (1969) 19-43 &lbrack;[doi:10.4310/jdg/1214428816](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-3/issue-1-2/A-fibre-bundle-description-of-Teichm%c3%bcller-theory/10.4310/jdg/1214428816.full)&rbrack;
 
-
 * {#EarleSchatz70} [[Clifford J. Earle]], A. Schatz: *Teichmüller theory for surfaces with boundary*,  J. Differential Geom. **4**  2  (1970) 169-185 &lbrack;[doi:10.4310/jdg/1214429381](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-4/issue-2/Teichm%C3%BCller-theory-for-surfaces-with-boundary/10.4310/jdg/1214429381.full)&rbrack;
 
 * {#Gramain73} André Gramain: *Le type d'homotopie du groupe des difféomorphismes d'une surface compacte*, Annales scientifiques de l'École Normale Supérieure, Serie 4, Volume 6 no. 1 (1973) 53-66 &lbrack;[doi:10.24033/asens.1242](https://doi.org/10.24033/asens.1242)&rbrack;
 
+* {#Yagasaki01} Tatsuhiko Yagasaki: *Homotopy types of Diffeomorphism groups of noncompact 2-manifolds* &lbrack;[arXiv:math/0109183](https://arxiv.org/abs/math/0109183), [pdf](https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1248-7.pdf)&rbrack;
+  > (cf. [Yagasaki 2000](#Yagasaki00))
  
 see also:
 
 * {#Hamstrom66} Mary-Elizabeth Hamstrom: *Homotopy groups of the space of homeomorphisms on a 2-manifold*,  Illinois J. Math. **10** 4 (1966) 563-573 &lbrack;[doi:10.1215/ijm/1256054895](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-10/issue-4/Homotopy-groups-of-the-space-of-homeomorphisms-on-a-2/10.1215/ijm/1256054895.full)&rbrack;
+
+* {#Yagasaki00} Tatsuhiko Yagasaki: *Homotopy types of homeomorphism groups of noncompact 2-manifolds*, Topology and its Applications **108** 2 (2000) 123-136 &lbrack;[arXiv:math/0010223](https://arxiv.org/abs/math/0010223), <a href="https://doi.org/10.1016/S0166-8641(99)00130-3">doi:10.1016/S0166-8641(99)00130-3</a>&rbrack;
 
 * {#FarbMargalit12} [[Benson Farb]], [[Dan Margalit]], §1.4.3 of: *A primer on mapping class groups*, Princeton Mathematical Series, Princeton University Press (2012) &lbrack;[ISBN:9780691147949](https://press.princeton.edu/books/hardcover/9780691147949/a-primer-on-mapping-class-groups), [jstor:j.ctt7rkjw](https://www.jstor.org/stable/j.ctt7rkjw), [pdf](http://euclid.nmu.edu/~joshthom/Teaching/MA589/farbmarg.pdf)&rbrack;
 
