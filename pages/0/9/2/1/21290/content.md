@@ -342,4 +342,4 @@ See also:
 
 * Wikipedia: *[Kakeya set](https://en.m.wikipedia.org/wiki/Kakeya_set)
 
-* [[Victor Porton]]: [proof](https://www.researchgate.net/publication/389600840_Proof_of_Kakeya's_Conjecture) (a little bit incomplete as of 9 Mar 2025) in arbitrary dimensions
+* [[Victor Porton]]: [proof](https://www.researchgate.net/publication/389600840_Proof_of_Kakeya's_Conjecture) in arbitrary dimensions
