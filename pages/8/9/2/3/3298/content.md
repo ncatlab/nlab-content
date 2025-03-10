@@ -2073,7 +2073,7 @@ General homotopy-theoretic setups and results for contexts in which this makes s
 Jones's theorem is due to
 
 * J. D. S. Jones, _Cyclic homology and equivariant homology_ , Invent. Math. 87
-(1987), no. 2, 403{423.
+(1987), no. 2, 403-423.
 {#Jones}
 
 The BV-algebra structure on Hochschild cohomology of singular cochain algebras is discussed in
