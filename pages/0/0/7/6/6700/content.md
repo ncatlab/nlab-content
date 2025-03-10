@@ -123,14 +123,14 @@ Given a modular functor $E$ as in def. \ref{ModularFunctor} and given a non-[[cl
 +-- {: .num_remark}
 ###### Remark
 
-When thinking of the modular functor $E$ as the functor of [[conformal blocks]] of a [[2d CFT]] then the projectively flat connection of prop. \ref{TheProjFlatConnection} would often be called the _[[Knizhnik-Zamolodchikov connection]]_. Thining of $E$ dually as the functor assigning [[spaces of quantum states]] of [[Chern-Simons theory]] then it would typically be called the [[Hitchin connection]]. (see also [Segal 04, p. 44, p. 84](#Segal04)).
+When thinking of the modular functor $E$ as the functor of [[conformal blocks]] of a [[2d CFT]] then the projectively flat connection of prop. \ref{TheProjFlatConnection} would often be called the _[[Knizhnik-Zamolodchikov connection]]_. Thinking of $E$ dually as the functor assigning [[spaces of quantum states]] of [[Chern-Simons theory]] then it would typically be called the [[Hitchin connection]] (see also [Segal 04, p. 44, p. 84](#Segal04)).
 
 =--
 
 +-- {: .num_pro #FlatConnectionForVanishingCentralCharge}
 ###### Proposition
 
-The connection of prop. \ref{TheProjFlatConnection} is a genuine [[flat connection]] (not projective) precisely if the central charge, \ref{CentralCharge}, vanishes.
+The connection of prop. \ref{TheProjFlatConnection} is a genuine [[flat connection]] (not projective) precisely if the central charge vanishes, $c = 0$ (Def. \ref{CentralCharge}).
 
 =--
 
@@ -255,6 +255,8 @@ $$
 ([Segal 04, p.43](#Segal04))
 
 ## Related concepts
+
+* [[Hitchin connection]]
 
 * [[quantization of Chern-Simons theory]]
 
