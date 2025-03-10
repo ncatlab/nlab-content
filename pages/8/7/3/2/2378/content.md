@@ -48,16 +48,10 @@ In the following we consider:
 * $M_{A,U}$, for $A \in \mathcal{O}^{c}_{X}$ and $U \in \mathcal{O}_{Y}$, the set of continuous maps $f \colon X \rightarrow Y$ such that $f(A) \subset U$.
 
 \begin{definition}\label{CompactOpenTopology}
-The *compact-open topology* on $Y^{X}$ is that with [[base of a topological space|sub-basis]] $\Big\{M_{A,U} \,\Big\vert \, A \in \mathcal{O}^{c}_{X}, U \in \mathcal{O}_{Y}\Big\}$. 
+The *compact-open topology* $\mathcal{O}_{Y^{X}}$ on $Y^{X}$ is that with [[base of a topological space|sub-basis]] $\Big\{M_{A,U} \,\Big\vert \, A \in \mathcal{O}^{c}_{X}, U \in \mathcal{O}_{Y}\Big\}$. 
 \end{definition}
 
 
-+-- {: .num_note #CompactOpenTopologyNotation}
-###### Notation
-
-In the following denote the compact-open topology (def. \ref{CompactOpenTopology}) on $Y^{X}$ by $\mathcal{O}_{Y^{X}}$.
-
-=--
 
 
 ## Exponentiability
@@ -77,7 +71,7 @@ There are many variations on def. \ref{LocallyCompact}, which can be found at _[
 +-- {: .num_prop #evIsContinuous}
 ###### Proposition 
 
-Let $(X, \mathcal{O}_{X})$ be a locally compact topological space, def. \ref{LocallyCompact}, and let $(Y, \mathcal{O}_{Y})$ be a [[topological space]]. The map $ev : X \times Y^{X} \rightarrow Y$ given by $(x,f) \mapsto f(x)$ is continuous, where $X \times Y^{X}$ is equipped with the [[product topology]] $\mathcal{O}_{X \times Y^{X}}$ with respect to $\mathcal{O}_{X}$ and $\mathcal{O}_{Y^{X}}$ (notation \ref{CompactOpenTopologyNotation}). 
+Let $(X, \mathcal{O}_{X})$ be a locally compact topological space, def. \ref{LocallyCompact}, and let $(Y, \mathcal{O}_{Y})$ be a [[topological space]]. The map $ev : X \times Y^{X} \rightarrow Y$ given by $(x,f) \mapsto f(x)$ is continuous, where $X \times Y^{X}$ is equipped with the [[product topology]] $\mathcal{O}_{X \times Y^{X}}$ with respect to $\mathcal{O}_{X}$ and $\mathcal{O}_{Y^{X}}$ (def. \ref{CompactOpenTopology}). 
 
 =--
 
