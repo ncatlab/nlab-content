@@ -1145,7 +1145,7 @@ More recent developments include
 
 * {#HopkinsLawson16} [[Michael Hopkins]], [[Tyler Lawson]], _Strictly commutative complex orientation theory_ ([arXiv:1603.00047](http://arxiv.org/abs/1603.00047))
 
-* Doron Grossman-Naples, _Complex Orientations are Partial Strictifications of the Unit_ &lbrack;[arXiv:2311.01663](https://arxiv.org/abs/2311.01663)&rbrack;
+* [[Doron Grossman-Naples]], _Complex Orientations are Partial Strictifications of the Unit_ &lbrack;[arXiv:2311.01663](https://arxiv.org/abs/2311.01663)&rbrack;
 
 
 Refinement to [[equivariant complex oriented cohomology theory]]:
