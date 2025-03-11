@@ -207,6 +207,10 @@ Categorical [[ultraproducts]] are used to provide asymptotic approximations in
 
 * [[Tobias Barthel]], [[Tomer Schlank]], [[Nathaniel Stapleton]], _Chromatic homotopy theory is asymptotically algebraic_, ([arXiv:1711.00844](https://arxiv.org/abs/1711.00844))
 
+A form of [[Langlands program]] for chromatic homotopy theory is sketched in
+
+* [[Doron Grossman-Naples]], _Towards a chromatic Langlands program_ &lbrack;[pdf](https://doronlgn.github.io/TalkNotes/TowardsChromaticLanglands.pdf)&rbrack;
+
 ### Unstable case
 
 There are also chromatic approximations in ordinary (not [[stabilization|stabilized]]) [[homotopy theory]]:
