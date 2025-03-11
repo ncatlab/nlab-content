@@ -637,7 +637,7 @@ On the other hand, without changing any of the following discussion one may just
 
 ### Homotopy
 
-The fundamental concept of [[homotopy theory]] is clearly that of _[[homotopy]]_. In the context of [[topological spaces]] this is about [[continuous function|contiunous]] deformations of [[continuous functions]] parameterized by the standard [[closed interval]]:
+The fundamental concept of [[homotopy theory]] is clearly that of _[[homotopy]]_. In the context of [[topological spaces]] this is about [[continuous function|continuous]] deformations of [[continuous functions]] parameterized by the standard [[closed interval]]:
 
 +-- {: .num_defn #TopologicalInterval}
 ###### Definition
