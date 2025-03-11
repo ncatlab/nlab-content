@@ -4,7 +4,7 @@
 
 The [[Green-Schwarz sigma-model]]-type formulation of the [[super-membrane]] in 11d (as in the [[brane scan]] and in contrast to the [[black brane]]-solutions of [[11d supergravity]]) first appears in:
 
-* {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], and [[Paul Townsend]], *Supermembranes and eleven-dimensional supergravity*, Phys. Lett. B **189** (1987) 75-78 \[<a href="https://doi.org/10.1016/0370-2693(87)91272-X">doi:10.1016/0370-2693(87)91272-X</a>, [spire:248230](http://inspirehep.net/record/248230/)\]
+* {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]]: *Supermembranes and eleven-dimensional supergravity*, Phys. Lett. B **189** (1987) 75-78 \[<a href="https://doi.org/10.1016/0370-2693(87)91272-X">doi:10.1016/0370-2693(87)91272-X</a>, [spire:248230](http://inspirehep.net/record/248230/)\]
 
 Via the [[superembedding approach]] the [[equations of motion]] were obtained in 
  
