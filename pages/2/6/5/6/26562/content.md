@@ -128,7 +128,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[Bayesian updating]]: categorically [Jacobs'23](#pearl_jeffrey), [Jacobs-Zanasi'18](#essential_bayes), and including using Markov categories, [Di Lavore-Román'23](#partial_markov) and [DLRS'25](#partial_markov_ext).
 
-* Blackwell-Sherman-Stein theorem on statistical experiments: proven and generalized beyond the discrete case using [[Markov categories]] in [FGPR'23](#fritz_representable).
+* Blackwell-Sherman-Stein theorem on statistical experiments: proven and generalized beyond the discrete case using [[Markov categories]] in [FGPR'23](#fritz_representable). Additional results in [BP'25](#bohinen).
 
 * Causal inference: using string diagrams [JKZ'18](#causal_surgery), and using Markov categories [Yin'22](#markov_causal).
 
@@ -212,7 +212,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Connections between [[Markov categories]] and [[categories of couplings]]: [Fritz'20](#fritzmarkov) and [Ensarguet-Perrone'23](#ergodic_dagger).
 
-* Connections between [[Markov categories]] and [[probability monads]]: [Golubtsov'02](#golubtsov02), [FGPR'23](#fritz_representable), [Moss-Perrone'22](#det_submonad), [FGGPS'23](#dilations).
+* Connections between [[Markov categories]] and [[probability monads]]: [Golubtsov'02](#golubtsov02), [FGPR'23](#fritz_representable), [Moss-Perrone'22](#det_submonad), [FGGPS'23](#dilations), [BP'25](#bohinen).
 
 * Connections between [[Markov category#positivity_and_causality|positive Markov categories]] and [[semicartesian monoidal categories]]: [FGGPS'23](#dilations).
 
@@ -261,6 +261,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 * {#entropy_bayes} [[John Baez]] and [[Tobias Fritz]], _A Bayesian characterization of relative entropy_, Theory and Application of Categories, 29(16), 2014. ([arXiv](https://arxiv.org/abs/1402.3067))
 
 * {#entropy_infloss} [[John Baez]], [[Tobias Fritz]] and [[Tom Leinster]], _A characterization of entropy in terms of information loss_, Entropy 13(2), 2011. ([arXiv](https://arxiv.org/abs/1106.1791))
+
+* {#bohinen} Mika Bohinen and [[Paolo Perrone]], _Categorical algebra of conditional probability_, 2025. ([arXiv](https://arxiv.org/abs/2502.14941))
 
 * {#entropy_operads} Tai-Danae Bradley, _Entropy as a topological operad derivation_, Entropy 23(9), 2021. ([arXiv](https://arxiv.org/abs/2107.09581))
 
