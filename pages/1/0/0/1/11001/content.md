@@ -29,6 +29,15 @@ On the history of the development of the [[Haskell]] [[programming language]]:
 
 * [[Paul Hudak]], [[John Hughes]], [[Simon Peyton Jones]], [[Philip Wadler]], *A history of Haskell: being lazy with class*, History of Programming Languages (2007) 12-1 - 12-55 &lbrack;[doi:10.1145/1238844.1238856](https://doi.org/10.1145/1238844.1238856)&rbrack;
 
+On [[concurrency]] (cf. *[[pi-calculus]]*) and [[linear logic]]:
+
+* {#Walder2012} [[Philip Wadler]]: *Propositions as Sessions*, 
+ACM SIGPLAN Notices **47** 9 (2012) 273 - 286
+&lbrack;[doi:10.1145/2398856.2364568](https://dl.acm.org/doi/10.1145/2398856.2364568), [pdf](https://homepages.inf.ed.ac.uk/wadler/papers/propositions-as-sessions/propositions-as-sessions.pdf)&rbrack;
+
+  Journal of Functional Programming **24** 2-3 ICFP 2012 (2014) 384-418 &lbrack;[doi:10.1017/S095679681400001X](https://doi.org/10.1017/S095679681400001X)&rbrack;
+
+
 
 On [[propositions as types]]:
 
