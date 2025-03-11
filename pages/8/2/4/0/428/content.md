@@ -51,13 +51,17 @@ Here we distinguish between the bar construction and the bar resolution, althoug
 
 (Above we are identifying objects in a category, either $A \in C^T$ or $U A \in C$, with simplicial objects in that category that are "discrete".)
 
-### Name
+\begin{remark}
+**(terminology)**
+\linebreak
+The '*bar complex*' got its name from the original notation used by [Eilenberg & MacLane 1953](#EM53), who denoted its elements using a notation involving vertical bars in lieu of $\otimes$ for tensors ([Ginzburg](#Ginzburg)). Thus 'bar' does not need to be capitalized.
+\end{remark}
 
-The 'bar complex' got its name because the first authors introducing it ([[Samuel Eilenberg]] and [[Saunders MacLane]] in [(Eilenberg-MacLane '53)](#EM53)) denoted its elements using a notation involving vertical bars in lieu of $\otimes$ for tensors ([Ginzburg](#Ginzburg)). Thus 'bar' does not need to be capitalized.
+
 
 ## Definition 
 
-Let $\mathbf{E}$ be a [[category]] and let $(T, m: T T \to T, u: 1_{\mathbf{E}} \to T)$ be a [[monad]] on $\mathbf{E}$. We let $\mathbf{E}^T$ denote the [[Eilenberg-Moore category|category of]] $T$-[[algebra over a monad|algebras]], and $U: \mathbf{E}^T \to \mathbf{E}$ the [[forgetful functor]] which is [[monadic functor|monadic]], with [[left adjoint]] $F$. 
+Let $\mathbf{E}$ be a [[category]] and let $(T, m \colon T T \to T, u: 1_{\mathbf{E}} \to T)$ be a [[monad]] on $\mathbf{E}$. We let $\mathbf{E}^T$ denote the [[Eilenberg-Moore category|category of]] $T$-[[algebra over a monad|algebras]], and $U: \mathbf{E}^T \to \mathbf{E}$ the [[forgetful functor]] which is [[monadic functor|monadic]], with [[left adjoint]] $F$. 
 
 Recall that the [[augmented simplicial set|augmented]] [[simplex category]] $\Delta_a$, viz. the category consisting of [[finite set|finite]] [[ordinals]][^fine1] and order-preserving maps, is the "[[walking structure|walking]] [[monoid]]", i.e., is [[initial object|initial]] among strict [[monoidal categories]] equipped with a [[monoid object]]. The monoidal product on $\Delta_a$ is ordinal addition $[m]+[n] = [m+n]$. If $[n]$ is the $n$-element ordinal, then the [[terminal object]] $[1]$ carries a unique monoid structure and represents the "generic monoid"[^fine2]. 
 
@@ -432,7 +436,9 @@ See [[bar and cobar construction]].
 
 See ([Fresse](#Fresse)).
 
-##Related entries
+
+
+## Related entries
 
 * [[simplicial resolution]]; this is essentially the same concept but from a slightly different perspective.
 
@@ -450,14 +456,14 @@ The original reference for bar constructions in the generality of monads is
 
 whereas in the homological context the first appearance is:
 
-* {#EM53} [[Samuel Eilenberg]], [[Saunders MacLane]], *On the groups of $H(\Pi, n)$ I*, Annals of Mathematics, Second Series, 58: 55–106, (1953), ([doi:10.2307/1969820](https://doi.org/10.2307/1969820))
+* {#EM53} [[Samuel Eilenberg]], [[Saunders MacLane]]: *On the groups of $H(\Pi, n)$ I*, Annals of Mathematics, Second Series **58**  (1953) 55–106 &lbrack;[doi:10.2307/1969820](https://doi.org/10.2307/1969820)&rbrack;
 
 
-A general discussion of bar construction for monads is at
+A general discussion of bar construction for monads:
 
 * {#Trimble} [[Todd Trimble]], _On the Bar Construction_ ([blog](http://golem.ph.utexas.edu/category/2007/05/on_the_bar_construction.html))
 
-Textbook accounts can be found at:
+Textbook accounts::
 
 * [[Saunders Mac Lane]], section IV.5 of _Homology_
 
@@ -465,20 +471,19 @@ Textbook accounts can be found at:
 
 The bar complex of a bimodule is reviewed for instance in 
 
-* {#Ginzburg} [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603))
+* {#Ginzburg} [[Victor Ginzburg]], around page 16 of: _Lectures on noncommutative geometry_ &lbrack;[arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603)&rbrack;
 
-
-around page 16.
+.
 
 The bar complex for [[E-infinity algebra]]s is discussed in
 
-* [[Benoit Fresse]], _The bar complex of an E-infinity algebra_, Advances in Mathematics Volume 223, Issue 6, 1 April 2010, Pages 2049-2096 
-{#Fresse}
+* {#Fresse} [[Benoit Fresse]], _The bar complex of an E-infinity algebra_, Advances in Mathematics Volume 223, Issue 6, 1 April 2010, Pages 2049-2096 
+
 
 
 The compositional structure of the bar construction of several monads, as well as its interpretation in terms of [[partial evaluation|partial evaluations]] is studied in
 
-* [[Carmen Constantin]], [[Tobias Fritz]], [[Paolo Perrone]] and [[Brandon Shapiro]], _Partial evaluations and the compositional structure of the bar construction_. ([arXiv](https://arxiv.org/abs/2009.07302))
+* Carmen Constantin, [[Tobias Fritz]], [[Paolo Perrone]], Brandon Shapiro: _Partial evaluations and the compositional structure of the bar construction_ &lbrack;[arXiv:2009.07302](https://arxiv.org/abs/2009.07302)&rbrack;
 
 
 [[!redirects bar constructions]]
