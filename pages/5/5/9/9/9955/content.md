@@ -3,6 +3,16 @@
 
 ## Selected writings
 
+Introducing the [[Green-Schwarz sigma-model]]-type formulation of the [[super-membrane]] in 11D (the [[M2-brane]]):
+
+* {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]]: *Supermembranes and eleven-dimensional supergravity*, Phys. Lett. B **189** (1987) 75-78 \[<a href="https://doi.org/10.1016/0370-2693(87)91272-X">doi:10.1016/0370-2693(87)91272-X</a>, [spire:248230](http://inspirehep.net/record/248230/)\]
+
+and on the early history of the development:
+
+* [[Eric A. Bergshoeff]], [[Ergin Sezgin]], [[Paul K. Townsend]]: *A brief history of supermembranes* \[<a href="https://arxiv.org/abs/2503.06234">arXiv:2503.06234</a>\]
+
+
+
 On the emergence of [[superconformal field theory]] in the perturbations of the [[super-membrane]] [[Green-Schwarz sigma model]] around a classical solution stretched along the [[asymptotic boundary]] of [[anti de Sitter spacetime]]:
 
 * {#BDPS87} [[Eric Bergshoeff]], [[Michael Duff]], [[Christopher Pope]], [[Ergin Sezgin]]: *Supersymmetric Supermembrane Vacua and Singletons*, Phys. Lett. B **199** (1987) 69-74 \[<a href="https://doi.org/10.1016/0370-2693(87)91465-1">doi:10.1016/0370-2693(87)91465-1</a>, [InSpire:250244](https://inspirehep.net/literature/250244)\]
@@ -78,9 +88,6 @@ On [[black branes]]/[[solitonic branes|solitonic]] [[exotic branes]] and their [
 
 * [[Eric A. Bergshoeff]], [[Fabio Riccioni]], *Solitonic branes and wrapping rules*, Phys. Part. Nuclei **43** (2012) 557–561 &lbrack;[doi:10.1134/S106377961205005X](https://doi.org/10.1134/S106377961205005X)&rbrack; 
 
-On the early history of the [[M2-brane]] [[super p-brane|sigma-model]]:
-
-* [[Eric A. Bergshoeff]], [[Ergin Sezgin]], [[Paul K. Townsend]]: *A brief history of supermembranes* \[<a href="https://arxiv.org/abs/2503.06234">arXiv:2503.06234</a>\]
 
 
 
