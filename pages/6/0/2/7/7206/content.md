@@ -152,6 +152,10 @@ Survey of the formulation in [[superspace]]:
 
 * S. M. Kuzenko, E. S. N. Raptakis, G. Tartaglino-Mazzucchelli, *Superspace approaches to $\mathcal{N} = 1$ supergravity*, *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.17088](https://arxiv.org/abs/2210.17088)&rbrack;
 
+Discussion via [[BV formalism]]:
+
+* [[Alberto S. Cattaneo]], [[Filippo Fila-Robattino]]: *BV description of $N=1$, $D=4$ Supergravity in the first order formalism* &lbrack;[arXiv:2503.07373](https://arxiv.org/abs/2503.07373)&rbrack;
+
 
 See also:
 
