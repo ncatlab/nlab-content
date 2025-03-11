@@ -97,6 +97,10 @@ Lecture notes:
 
 * [[Edward Witten]], _Dynamical aspects of QFT_, Lecture 15: _The Landau--Ginzburg description of $N=2$ minimal models; Quantum cohomology and K&#228;hler manifolds_,  in Part IV of _[[Quantum Fields and Strings]]_.
 
+In terms of [[derived geometry]]:
+
+* Yalong Cao, Yukinobu Toda, Gufang Zhao: *$K$-theoretic pullbacks for Lagrangians on derived critical loci* &lbrack;[arXiv:2503.06025](https://arxiv.org/abs/2503.06025)&rbrack;
+
 
 
 #### Branes
