@@ -120,6 +120,12 @@ On [[singleton representations]] in [[supergravity]]:
 
 * [[Henning Samtleben]], [[Ergin Sezgin]]: *Singletons in supersymmetric field theories and in supergravity* &lbrack;[arXiv:2409.03000](https://arxiv.org/abs/2409.03000)&rbrack;
 
+On the early history of the [[M2-brane]] [[super p-brane|sigma-model]]:
+
+* [[Eric A. Bergshoeff]], [[Ergin Sezgin]], [[Paul K. Townsend]]: *A brief history of supermembranes* \[<a href="https://arxiv.org/abs/2503.06234">arXiv:2503.06234</a>\]
+
+
+
 
 
 
