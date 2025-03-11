@@ -16,7 +16,7 @@
 
 A *Kakeya Set* is a [[subset]] of a [[Euclidean space]] that contains a unit line segment for every [[direction]]. For example, a [[ball]] is a Kakeya set.
 
-The *Kakeya Set Conjecture* asserts that every [[compact topological space|compact]] Kakeya set $E\subset\mathbb{R}^n$ has [[Hausdorff dimension]] $n$.
+The *Kakeya Set Conjecture* asserts that every [[compact topological space|compact]] Kakeya set $E\subset\mathbb{R}^n$ has [[Hausdorff dimension]] $n$. 
 
 ## X-Ray Transform
 
@@ -338,8 +338,9 @@ for $1\le p\lt \frac{n+1}{2}$, $\frac{n-1}{q}+1 = \frac{n}{p}$ and $s\gt \frac{n
 
 * {#bourgain1991} J. Bourgain: *Besicovitch type maximal function operators and applications to Fourier Analysis*, Geom. Funct. Anal. **1** (1991)
 
+
+
 See also:
 
 * Wikipedia: *[Kakeya set](https://en.m.wikipedia.org/wiki/Kakeya_set)
 
-* [[Victor Porton]]: [proof](https://www.researchgate.net/publication/389600840_Proof_of_Kakeya's_Conjecture) in arbitrary dimensions
