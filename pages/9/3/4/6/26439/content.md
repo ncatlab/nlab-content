@@ -82,6 +82,10 @@ Later on, [Wadler 2012](#Walder2012) established a correspondence between [[clas
 
 The Calculus of Communicating Systems (CCS) is an important predecessor of the π-calculus. It can be seen as a restriction of π in which only a dummy name $w$ is exchanged in communications, and $w$ cannot be used in subject position ([Hirschkoff 2003](#Hirschkoff03)).
 
+### The applied π-calculus
+
+The *applied π-calculus* is an extension of the π-calculus with [[terms]] (representing messages in security protocols) instead of names. In addition, function symbols represent cryptographic primitives and are related by an equational [[theory]].
+
 ## References
 
 * [[Robin Milner]], Joachim Parrow and David Walker, _A Calculus of Mobile Processes_, Information and Computation, **100** (1992) 1-40.
