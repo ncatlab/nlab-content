@@ -141,7 +141,7 @@ The correspondence between categories over $C$ and [[normal lax functors]] $C\to
 
 A more detailed account of Benabou's work on this topic can be found at:
 
-* Jean B&#233;nabou, *Distributors at work*, Notes by Thomas Streicher from lectures given at TU Darmstadt, 2000, [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf) {#Benabou}
+* {#Benabou} Jean B&#233;nabou, *Distributors at work*, Notes by Thomas Streicher from lectures given at TU Darmstadt, 2000, [pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/DiWo.pdf)
 
 * [[Graham Manuell]], _Monoid extensions and the Grothendieck construction_, Semigroup Forum **105** (2022) 488–507 &lbrack;[doi:10.1007/s00233-022-10294-2](https://doi.org/10.1007/s00233-022-10294-2)&rbrack;
 
