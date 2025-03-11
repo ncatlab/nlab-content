@@ -60,6 +60,8 @@ The analogous statement holds true also for [[ground ring]] the [[quaternions]],
 
 Of course, the expansions (eq:GenericExampleOfBrauerInduction) are not unique. But one may find [[functor|functorial]] choices that satisfy good extra properties, see below _[Snaith's explicit Brauer induction](#SnaithExpansion)_ and _[Symond's explicit Brauer induction](#SymondExplicitBrauerInduction)_.
 
+Brauer's induction theorem may be thought of as a sharpened version of [[Artin's induction theorem]] saying that every character of $G$ is a *rational* linear combination of characters of representations induced from cyclic subgroups of $G$.  
+
 <br/>
 
 ## Properties
