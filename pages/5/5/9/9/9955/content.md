@@ -78,6 +78,11 @@ On [[black branes]]/[[solitonic branes|solitonic]] [[exotic branes]] and their [
 
 * [[Eric A. Bergshoeff]], [[Fabio Riccioni]], *Solitonic branes and wrapping rules*, Phys. Part. Nuclei **43** (2012) 557–561 &lbrack;[doi:10.1134/S106377961205005X](https://doi.org/10.1134/S106377961205005X)&rbrack; 
 
+On the early history of the [[M2-brane]] [[super p-brane|sigma-model]]:
+
+* [[Eric A. Bergshoeff]], [[Ergin Sezgin]], [[Paul K. Townsend]]: *A brief history of supermembranes* \[<a href="https://arxiv.org/abs/2503.06234">arXiv:2503.06234</a>\]
+
+
 
 
 category: people
