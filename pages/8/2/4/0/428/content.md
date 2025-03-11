@@ -51,6 +51,10 @@ Here we distinguish between the bar construction and the bar resolution, althoug
 
 (Above we are identifying objects in a category, either $A \in C^T$ or $U A \in C$, with simplicial objects in that category that are "discrete".)
 
+### Name
+
+The 'bar complex' got its name because the first authors introducing it ([[Samuel Eilenberg]] and [[Saunders MacLane]] in [(Eilenberg-MacLane '53)](#EM53)) denoted its elements using a notation involving vertical bars in lieu of $\otimes$ for tensors ([Ginzburg](#Ginzburg)). Thus 'bar' does not need to be capitalized.
+
 ## Definition 
 
 Let $\mathbf{E}$ be a [[category]] and let $(T, m: T T \to T, u: 1_{\mathbf{E}} \to T)$ be a [[monad]] on $\mathbf{E}$. We let $\mathbf{E}^T$ denote the [[Eilenberg-Moore category|category of]] $T$-[[algebra over a monad|algebras]], and $U: \mathbf{E}^T \to \mathbf{E}$ the [[forgetful functor]] which is [[monadic functor|monadic]], with [[left adjoint]] $F$. 
@@ -398,18 +402,18 @@ $$
 
 The [[monoid]] structure on $A$ makes $T$ into a [[monad]] on $A Mod$: the monad product and unit are given by the product and unit in $A$.
 
-For any right $A$-module $M$, the action $\rho \colon M \otimes A \to N$ makes $M$ into an algebra of the monad $T$.  The bar construction $Bar_T(A)$ is then the simplicial $A$-module
+For any right $A$-module $M$, the action $\rho \colon M \otimes A \to M$ makes $M$ into an algebra of the monad $T$.  The bar construction $Bar_T(A)$ is then the simplicial $A$-module
 
 $$
   \cdots
   \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
-  N \otimes_k A \otimes_k A \stackrel{\overset{Id \otimes \mu}{\longrightarrow}}{\underset{\rho \otimes Id}{\longrightarrow}} N \otimes_k A
+  M \otimes_k A \otimes_k A \stackrel{\overset{Id \otimes \mu}{\longrightarrow}}{\underset{\rho \otimes Id}{\longrightarrow}} M \otimes_k A
   \,.
 $$
 
 Under the [[Moore complex]] functor of the [[Dold-Kan correspondence]], this simplicial $A$-module is identified with a [[chain complex]] of $A$-modules whose [[differential]] is given by the alternating sums of the face maps indicated above. 
 
-This chain complex is what originally was called the **bar complex** in [[homological algebra]]. It got its name because the first authors denoted its elements using a notation involving vertical bars ([Ginzburg](#Ginzburg)).
+This chain complex is what originally was called the **bar complex** in [[homological algebra]].
 
 This chain complex provides a free resolution of $A$, which can be used to compute the [[Tor]] group
 
@@ -443,6 +447,10 @@ See ([Fresse](#Fresse)).
 The original reference for bar constructions in the generality of monads is
 
 * {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
+
+whereas in the homological context the first appearance is:
+
+* {#EM53} [[Samuel Eilenberg]], [[Saunders MacLane]], *On the groups of $H(\Pi, n)$ I*, Annals of Mathematics, Second Series, 58: 55–106, (1953), ([doi:10.2307/1969820](https://doi.org/10.2307/1969820))
 
 
 A general discussion of bar construction for monads is at
