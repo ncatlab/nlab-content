@@ -3,7 +3,7 @@ Paul Townsend is professor for theoretical [[physics]] at Cambridge.
 
 * [institute page](http://www.damtp.cam.ac.uk/people/p.k.townsend)
 
-* [inspire page](https://inspirehep.net/authors/985767)
+* [inSpire page](https://inspirehep.net/authors/985767)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Paul_Townsend)
 
@@ -39,6 +39,14 @@ On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]
 The original "[[brane scan]]" classification of [[Green-Schwarz action functionals]] for [[super p-branes]]:
 
 * {#AETW87} Anna Achúcarro, [[Jonathan Evans]], [[Paul Townsend]], [[David Wiltshire]]: _Super $p$-Branes_, Phys. Lett. B **198** (1987) 441 &lbrack;[spire:22286](http://inspirehep.net/record/22286), <a href="https://doi.org/10.1016/0370-2693(87)90896-3">doi:10.1016/0370-2693(87)90896-3</a>, [pdf](https://ir.canterbury.ac.nz/xmlui/bitstream/handle/10092/9041/12616571_pbrane.pdf?sequence=1&isAllowed=y), [[SuperpBranes.pdf:file]]&rbrack;
+
+Introducing the [[Green-Schwarz sigma-model]]-type formulation of the [[super-membrane]] in 11D (the [[M2-brane]]):
+
+* {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]]: *Supermembranes and eleven-dimensional supergravity*, Phys. Lett. B **189** (1987) 75-78 \[<a href="https://doi.org/10.1016/0370-2693(87)91272-X">doi:10.1016/0370-2693(87)91272-X</a>, [spire:248230](http://inspirehep.net/record/248230/)\]
+
+and on the early history of the development:
+
+* [[Eric A. Bergshoeff]], [[Ergin Sezgin]], [[Paul K. Townsend]]: *A brief history of supermembranes* \[<a href="https://arxiv.org/abs/2503.06234">arXiv:2503.06234</a>\]
 
 
 Understanding [[extended supersymmetry]]-[[super Lie algebras|algebras]] as [[Lie algebra extension|extension]] by [[Noether's theorem|Noether]] [[conserved charge|charges]] of [[probe brane]] [[sigma-models]]:
@@ -112,9 +120,6 @@ On [[supersymmetry and division algebras]], the corresponding [twistor space](tw
 
 * [[Alex Arvanitakis]], Alec E. Barns-Graham, [[Paul Townsend]], _Twistor description of spinning particles in AdS_, JHEP 01 (2018) 059 ([arXiv:1710.09557](https://arxiv.org/abs/1710.09557))
 
-On the early history of the [[M2-brane]] [[super p-brane|sigma-model]]:
-
-* [[Eric A. Bergshoeff]], [[Ergin Sezgin]], [[Paul K. Townsend]]: *A brief history of supermembranes* \[<a href="https://arxiv.org/abs/2503.06234">arXiv:2503.06234</a>\]
 
 
 
