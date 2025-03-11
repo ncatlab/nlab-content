@@ -74,11 +74,15 @@ On the [[relativistic particle]], and related systems, in [[BV-BRST formalism]]:
 
 On [[boundary field theory]] and the [[standard model of particle physics]] coupled to [[gravity]]:
 
-* Giovanni Canepa, [[Alberto S. Cattaneo]], Filippo Fila-Robattino, Manuel Tecchiolli: *Boundary structure of the standard model coupled to gravity*, Ann. Henri Poincaré (2024) &lbrack;[arXiv:2307.14955](https://arxiv.org/abs/2307.14955), [doi:10.1007/s00023-024-01485-4](https://doi.org/10.1007/s00023-024-01485-4)&rbrack;
+* Giovanni Canepa, [[Alberto S. Cattaneo]], [[Filippo Fila-Robattino]], Manuel Tecchiolli: *Boundary structure of the standard model coupled to gravity*, Ann. Henri Poincaré (2024) &lbrack;[arXiv:2307.14955](https://arxiv.org/abs/2307.14955), [doi:10.1007/s00023-024-01485-4](https://doi.org/10.1007/s00023-024-01485-4)&rbrack;
 
-On forumating [[D=3 supergravity]] in [[BV-formalism]] and relation to [[AKSZ theory]]:
+On formulating [[D=3 supergravity]] in [[BV-formalism]] and relation to [[AKSZ theory]]:
 
 * [[Alberto S. Cattaneo]], Nima Moshayedi, Alberto Smailovic Funcasta: *3D Supergravity In the Batalin--Vilkovisky Formalism* &lbrack;[arXiv:2412.14300](https://arxiv.org/abs/2412.14300)&rbrack;
+
+On [[D=4 supergravity]] in [[BV-formalism]]:
+
+* [[Alberto S. Cattaneo]], [[Filippo Fila-Robattino]]: *BV description of $N=1$, $D=4$ Supergravity in the first order formalism* &lbrack;[arXiv:2503.07373](https://arxiv.org/abs/2503.07373)&rbrack;
 
 
 
