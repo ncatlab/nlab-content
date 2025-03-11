@@ -3905,11 +3905,12 @@ Further introduction and review:
 
 * {#Williams20} [[Lucas Williams]], *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal, **21** 1 (2020) Article 8 &lbrack;[arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8)&rbrack;
 
-* {#Massuyeau21} [[Gwénaël Massuyeau]]: *Lectures on Mapping Class Groups, Braid Groups and Formality* (2021) &lbrack;[pdf](https://massuyea.perso.math.cnrs.fr/notes/formality.pdf)&rbrack;
+* {#Massuyeau21} [[Gwénaël Massuyeau]]: *Lectures on Mapping Class Groups, Braid Groups and Formality* (2021) &lbrack;[pdf](https://massuyea.perso.math.cnrs.fr/notes/formality.pdf), [[Massuyeau-MCGFormality.pdf:file]]&rbrack;
 
 * [[Jennifer C. H. Wilson]], *Representation stability and the braid groups*, talk at *[ICERM -- Braids](https://icerm.brown.edu/programs/sp-s22/)* (Feb 2022) &lbrack;[pdf](https://app.icerm.brown.edu/assets/362/3661/3661_3250_021720221430_Slides.pdf)&rbrack;
 
 * {#Abadie22} Marie Abadie, §1 in: *A journey around mapping class groups and their presentations* (2022) &lbrack;[pdf](https://christianurech.github.io/Semester_Project.pdf), [[Abadie-MCG.pdf:file]]&rbrack;
+
 
 See also:
 
