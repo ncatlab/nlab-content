@@ -101,13 +101,20 @@ These toposes are related to the smooth topos called $\mathcal{G}$ there, which 
 
 ## References
 
-*  article in the [English Wikipedia](http://en.wikipedia.org/wiki/Infinitesimal) for etymology
+For more see references at 
 
-* {#Cohen83} [[Hermann Cohen]], _Das Prinzip der Infinitesimal-Methode und seine Geschichte_ , Berlin 1883. ([html](http://www.gleichsatz.de/b-u-t/archiv/Cohen/hc-infinit1.html))
+* *[[infinitesimal neighbourhood]]* 
+
+* *[[synthetic differential geometry]]*.
+
+See also
+
+*  Wikipedia: [Infinitesimals](http://en.wikipedia.org/wiki/Infinitesimal)
+
+* {#Cohen83} [[Hermann Cohen]]: *Das Prinzip der Infinitesimal-Methode und seine Geschichte*, Berlin (1883) &lbrack;[html](http://www.gleichsatz.de/b-u-t/archiv/Cohen/hc-infinit1.html)&rbrack;
 
 * {#KatzSherry13} [[Mikhail Katz]], David Sherry, _Leibniz's Infinitesimals: Their Fictionality, Their Modern Implementations, And Their Foes From Berkeley To Russell And Beyond_, D. Erkenn (2013) 78: 571 ([arXiv:1205.0174](https://arxiv.org/abs/1205.0174), [doi:10.1007/s10670-012-9370-y](https://link.springer.com/article/10.1007/s10670-012-9370-y))
-
-  (on [[Gottfried Leibniz]]'s concept of infinitesimals)
+  > (on [[Gottfried Leibniz]]'s concept of infinitesimals)
 
 
 [[!redirects notions of infinitesimals]]
