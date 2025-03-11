@@ -27,7 +27,12 @@ around the time when [[M-theory]] became accepted due to
 
 * {#Witten95} [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_ ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
 
-See also
+On the early history of these developments:
+
+* [[Eric A. Bergshoeff]], [[Ergin Sezgin]], [[Paul K. Townsend]]: *A brief history of supermembranes* \[<a href="https://arxiv.org/abs/2503.06234">arXiv:2503.06234</a>\]
+
+
+See also:
 
 
 * [[Igor Bandos]], [[Paul Townsend]], _SDiff Gauge Theory and the M2 Condensate_ ([arXiv:0808.1583](http://arxiv.org/abs/0808.1583))
