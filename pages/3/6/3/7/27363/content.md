@@ -14,7 +14,7 @@ On [[mapping class groups]]:
 
 On [[mapping class groups]] and [[braid groups]]:
 
-* {#Massuyeau21} [[Gwénaël Massuyeau]]: *Lectures on Mapping Class Groups, Braid Groups and Formality* (2021) &lbrack;[pdf](https://massuyea.perso.math.cnrs.fr/notes/formality.pdf)&rbrack;
+* {#Massuyeau21} [[Gwénaël Massuyeau]]: *Lectures on Mapping Class Groups, Braid Groups and Formality* (2021) &lbrack;[pdf](https://massuyea.perso.math.cnrs.fr/notes/formality.pdf), [[Massuyeau-MCGFormality.pdf:file]]&rbrack;
 
 category: people
 
