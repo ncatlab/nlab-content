@@ -138,14 +138,14 @@ Monographs:
 
 Surveys:
 
-* [[Gwénaël Massuyeau]]: _A short introduction to mapping class groups_, presentation at *Master Class on Geometry* Strasbourg (2009) &lbrack;[pdf](https://massuyea.perso.math.cnrs.fr/notes/MCG.pdf), [[Massuyeau-MCG.pdf:file]]&rbrack;
+* Nikolai V. Ivanov: *Mapping class groups*, in: *Handbook of Geometric Topology*, North-Holland (2002) 523-633 &lbrack;[doi:10.1016/B978-0-444-82432-5.X5000-8](https://doi.org/10.1016/B978-0-444-82432-5.X5000-8), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/handgt.pdf), 1998 draft: [pdf](https://math.hawaii.edu/~andrew/GDT2013/I98.pdf), [ps](http://www.mth.msu.edu/~ivanov/m99.ps)&rbrack;
 
-* Nikolai V. Ivanov: *Mapping class groups*, in: *Handbook of geometric topology*, North-Holland (2002) 523-633 &lbrack;1998 draft: [ps](http://www.mth.msu.edu/~ivanov/m99.ps)&rbrack;
-
-* {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of: _Lectures on tensor categories and modular functor_ &lbrack;[web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [[BakalovKirillovChapter5.pdf:file]]&rbrack;
+* {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of: *Lectures on tensor categories and modular functor*, University Lecture Series **21**, Amer. Math. Soc. (2001)  &lbrack;[web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21),[[BakalovKirillovChapter5.pdf:file]]&rbrack;
 
 
 Lecture notes:
+
+* [[Gwénaël Massuyeau]]: _A short introduction to mapping class groups_, presentation at *Master Class on Geometry* Strasbourg (2009) &lbrack;[pdf](https://massuyea.perso.math.cnrs.fr/notes/MCG.pdf), [[Massuyeau-MCG.pdf:file]]&rbrack;
 
 * [[Henry Wilton]]: *Mapping class groups*, lecture notes (2021) &lbrack;[pdf](https://www.dpmms.cam.ac.uk/~hjrw2/MCG%20lectures.pdf), examples: 1:[pdf](https://www.dpmms.cam.ac.uk/~hjrw2/MCGs%20Sheet%201.pdf), 2:[pdf](https://www.dpmms.cam.ac.uk/~hjrw2/MCGs%20Sheet%202.pdf), 3:[pdf](https://www.dpmms.cam.ac.uk/~hjrw2/MCGs%20Sheet%203.pdf)&rbrack;
 
