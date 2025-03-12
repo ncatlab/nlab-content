@@ -146,7 +146,7 @@ Surveys:
 
 * {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of: *Lectures on tensor categories and modular functor*, University Lecture Series **21**, Amer. Math. Soc. (2001)  &lbrack;[web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21),[[BakalovKirillovChapter5.pdf:file]]&rbrack;
 
-* [[Shigeyuki Morita]]: _Introduction to mapping class groups of surfaces and related groups_, in: *Handbook of Teichmüller theory, Volume I*, EMS (2007) 353-386 &lbrack;[doi:10.4171/029-1/8](https://doi.org/10.4171/029-1/8)&rbrack;
+* [[Shigeyuki Morita]]: *Introduction to mapping class groups of surfaces and related groups*, in: *Handbook of Teichmüller theory, Volume I*, EMS (2007) 353-386 &lbrack;[doi:10.4171/029-1/8](https://doi.org/10.4171/029-1/8), [[Morita-IntroductionMCG.pdf:file]]&rbrack;
 
 Lecture notes:
 
