@@ -34,6 +34,8 @@ The notion of [[cyclic set]] is intermediate between symmetric sets and simplici
 
 * [[Marco Grandis]], _Higher fundamental functors for simplicial sets_ [arXiv](http://arxiv.org/abs/math/0009004)
 
+* {#HM25} R. Hora, Y. Maehara, *Lawvere's fourth open problem: Levels in the topos of symmetric simplicial sets*, arXiv:2503.03916 (2025). ([abstract](https://arxiv.org/abs/2503.03439))
+
 * [[Jiří Rosický]], [[Walter Tholen]], *Left-determined model categories and universal homotopy theories*, Trans. Amer. Math. Soc. 355 (2003), 3611-3623.
 
 * [[Jiří Rosický]], [[Walter Tholen]], 2008, 'Erratum to "Left-determined model categories and universal homotopy theories"', _Transactions of the American Mathematical Society_, vol. 360, no. 11, pp. 6179-6179: doi:[10.1090/s0002-9947-08-04727-2](http://dx.doi.org/10.1090/s0002-9947-08-04727-2)
