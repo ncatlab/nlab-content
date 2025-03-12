@@ -250,9 +250,15 @@ Every distributive lattice, regarded as a [[category]] (a [[(0,1)-category]]), i
 
 The [[completely distributive lattice|completely distributive]] [[algebraic lattices]] (the [[frames of opens]] of [[Alexandroff locales]]) form a [[reflective subcategory]] of that of all distributive lattices. The reflector is called _[[canonical extension]]_.
 
+## Related concepts
+
+* [[Dedekind cube category]]
+
 ## References
 
 * {#A000372} OEIS sequence [A000372](https://oeis.org/A000372)
+
+* {#WeaverLicata20} [[Matthew Weaver]], [[Daniel Licata]], *A Constructive Model of Directed Univalence in Bicubical Sets*, in: *Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer Science. LICS ’20*, Association for Computing Machinery (2020) 915–928 &lbrack;[doi:10.1145/3373718.3394794](https://doi.org/10.1145/3373718.3394794)&rbrack;
 
 [[!redirects distributive lattices]]
 [[!redirects Birkhoff duality]]
