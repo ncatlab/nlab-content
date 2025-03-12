@@ -51,6 +51,8 @@ is called the *upper central series* of $G$, and Proposition \ref{center} shows 
 
 * [[stem]]
 
+* [[elementary group]]
+
 ## References
 
 * {#Sullivan} John Sullivan, _Classification of finite abelian groups_ ([pdf](http://www.isama.org/jms/m317/handouts/finabel.pdf))
