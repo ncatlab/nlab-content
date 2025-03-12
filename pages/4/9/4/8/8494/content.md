@@ -18,12 +18,15 @@ Early discussion of the [[Baker-Campbell-Hausdorff formula]]:
 
 Discovering so called [[Magnus expansion]], as an application of [[Lie theory]] to [[differential equations]]:
 
-* [[Wilhelm Magnus]], _On the exponential solution of differential equations for a linear operator_, Commun. Pure Appl. Math. __7__:4 (1954) 649-673 &lbrack;[doi](https://doi.org/10.1002/cpa.3160070404)&rbrack;
+* [[Wilhelm Magnus]], _On the exponential solution of differential equations for a linear operator_, Commun. Pure Appl. Math. __7__:4 (1954) 649--673 &lbrack;[doi](https://doi.org/10.1002/cpa.3160070404)&rbrack;
 
 On [[combinatorial group theory]] ([[presentations of groups]]):
 
 * [[Wilhelm Magnus]], A. Karras, D. Solitar, *Combinatorial group theory: Presentation of groups in terms of generators and relations*, Courier Corporation (1966, 2004) &lbrack;[ISBN:0-486-43830-9](https://www.maa.org/press/maa-reviews/combinatorial-group-theory-presentations-of-groups-in-terms-of-generators-and-relations), [GoogleBooks](https://books.google.com/books?hl=en&lr=&id=1LW4s1RDRHQC&oi=fnd&pg=PP1&ots=WszNa-0hEz&sig=Hn_MTbyLcEreBBNZ8jJtQUVKlZk)&rbrack;
 
+An elementary introduction to groups
+
+* Israel Grossman, Wilhelm Magnus, _[[Groups and their graphs]]_, 1964 
 
 [[!redirects W. Magnus]]
 
