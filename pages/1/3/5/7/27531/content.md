@@ -21,9 +21,9 @@
 
 _Artin's induction theorem_ says that working over the ground field of [[complex numbers]], the [[character]] of any finite-dimensional representation of a [[finite group]] $G$ is a rational linear combination of characters of representations induced from [[cyclic group|cyclic]] [[subgroups]] of $G$.  
 
-Historically this is a precursor to the [[Brauer induction theorem]], but neither result follows immediately from the other.  Brauer showed that every character is an _integral_ linear combination of characters of representations of a larger class of subgroups of $G$, the so-called elementary subgroups.  
+Historically this is a precursor to the [[Brauer induction theorem]], but neither result follows immediately from the other.  Brauer showed that every character is an _integral_ linear combination of characters of representations of a larger class of subgroups of $G$, the so-called [[elementary subgroups]].  
 
-One thing elementary groups and cyclic groups have in common is that all their irreducible representations are one-dimensional, so in each case the result shows that every character of $G$ is a linear combination (either rational or integral) of characters of representations induced from one-dimensional representations of subgroups.
+One thing [[elementary groups]] and cyclic groups have in common is that all their irreducible representations are one-dimensional, so in each case the result shows that every character of $G$ is a linear combination (either rational or integral) of characters of representations induced from one-dimensional representations of subgroups.
 
 ## Proof ##
 
