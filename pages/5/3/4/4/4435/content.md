@@ -79,6 +79,10 @@ There is also the full [[automorphism ∞-Lie algebra]] of any [[dg-algebra]], w
 
 Named after [[Élie Cartan]].
 
+Expository account: Chapter 2.4 and Table 2.4–1 of
+
+* [[Ralph Abraham]], [[Jerrold E. Marsden]], _Foundations of Mechanics_, Second Edition, Addison-Wesley, 1978.  ISBN: 978-0-8218-4438-0.  Reprinted: AMS Chelsea Publishing 364.  [DOI](https://doi.org/10.1090/chel/364).
+
 Cartan calculus on [[diffeological spaces]] requires a nontrivial condition, which is explored and developed in
 
 * [[Christian Blohmann]], _Elastic diffeological spaces_, [arXiv:2301.02583](https://arxiv.org/abs/2301.02583).
