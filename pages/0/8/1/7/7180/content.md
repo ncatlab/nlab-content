@@ -47,7 +47,7 @@ $$
 ## References
 
 * Jean Dieudonn&#233;, James B. Carrell, _Invariant theory, old and new_, Advances in Mathematics 4 (1970) 1-80. Also published as a book (1971).
-* Hanspeter Kraft, [[Claudio Procesi]], _Classical invariant theory -- A primer_ ([pdf](http://jones.math.unibas.ch/~kraft/Papers/KP-Primer.pdf))
+* Hanspeter Kraft, [[Claudio Procesi]], _Classical invariant theory -- A primer_ ([pdf](https://www.math.iitb.ac.in/~shripad/Wilberd/KP-Primer.pdf))
 * [[Claudio Procesi]], _Lie groups, an approach through invariants and representations_, Universitext, Springer 2006, [gBooks](http://books.google.co.in/books?id=Sl8OAGYRz_AC&printsec=frontcover&hl=hr&source=gbs_atb)
 * [[Igor Dolgachev]], _Lectures on invariant theory_, [ps](http://modular.math.washington.edu/people/dolgachev/invbook.ps)
 
