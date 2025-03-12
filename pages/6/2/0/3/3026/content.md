@@ -323,7 +323,7 @@ $$
 
 \end{proposition}
 
-(e.g. [James 1984 bottom of p 70](#James84), [Cutler 20, Prop. 1.6](#Cutler20), [MO:a/4278178](https://math.stackexchange.com/a/4278178/58526))
+(e.g. [James 1984 bottom of p 70](#James84), [Cutler 20 Prop. 1.6](#Cutler20), [MO:a/4278178](https://math.stackexchange.com/a/4278178/58526))
 
 +-- {: .num_prop #OnePointCompactificationAndSmashProduct}
 ###### Proposition
