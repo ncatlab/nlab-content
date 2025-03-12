@@ -140,10 +140,13 @@ Monographs:
 
 Surveys:
 
+* [[Shigeyuki Morita]]: *Structure of the mapping class groups of surfaces: a survey and a prospect*, Geom. Topol. Monogr. **2** (1999) 349-406 &lbrack;[arXiv:math/9911258](https://arxiv.org/abs/math/9911258), [pdf](https://msp.org/gtm/1999/02/gtm-1999-02-020p.pdf)&rbrack;
+
 * Nikolai V. Ivanov: *Mapping class groups*, in: *Handbook of Geometric Topology*, North-Holland (2002) 523-633 &lbrack;[doi:10.1016/B978-0-444-82432-5.X5000-8](https://doi.org/10.1016/B978-0-444-82432-5.X5000-8), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/handgt.pdf), 1998 draft: [pdf](https://math.hawaii.edu/~andrew/GDT2013/I98.pdf), [ps](http://www.mth.msu.edu/~ivanov/m99.ps)&rbrack;
 
 * {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of: *Lectures on tensor categories and modular functor*, University Lecture Series **21**, Amer. Math. Soc. (2001)  &lbrack;[web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21),[[BakalovKirillovChapter5.pdf:file]]&rbrack;
 
+* [[Shigeyuki Morita]]: _Introduction to mapping class groups of surfaces and related groups_, in: *Handbook of Teichmüller theory, Volume I*, EMS (2007) 353-386 &lbrack;[doi:10.4171/029-1/8](https://doi.org/10.4171/029-1/8)&rbrack;
 
 Lecture notes:
 
@@ -219,7 +222,6 @@ Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 
 * [[Ulrike Tillmann]], _On the homotopy of the stable mapping class group_,  Invent. Math. __130__ (1997), no. 2, 257--275, [MR99k:57036](http://www.ams.org/mathscinet-getitem?mr=99k:57036), [doi](http://dx.doi.org/10.1007/BF02421324)
 
-* S. Morita, _Introduction to mapping class groups of surfaces and related groups_, in: Handbook of Teichm&#252;ller theory (A. Papadopoulos, editor), vol. I, EMS Publishing House, Z&#252;rich, 2007, 353&#8211;386.
 
 * E. Y. Miller, _The homology of the mapping class group_, J. Differential Geom. __24__ (1986), no. 1, 1&#8211;14, [MR88b:32051](http://www.ams.org/mathscinet-getitem?mr=88b:32051), [euclid](http://projecteuclid.org/euclid.jdg/1214440254)
 
