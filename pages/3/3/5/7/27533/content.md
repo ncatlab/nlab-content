@@ -1,4 +1,43 @@
-* Israel Grossman, [[Wilhelm Magnus]], _Groups and their graphs_, 1964 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+This page compiles some information related to the book:
+
+* Israel Grossman, [[Wilhelm Magnus]]: 
+
+  \linebreak
+
+  **Groups and Their Graphs** 
+
+  \linebreak
+
+  Random House (1964)
+
+  \linebreak
+
+   Anneli Lax New Mathematical Library **14**
+
+   MMA (1992)
+
+   [jstor:10.4169/j.ctt19b9mc7](https://www.jstor.org/stable/10.4169/j.ctt19b9mc7)
+
+on [[group theory]] via [[Cayley graphs]].
+  
+
+## Translations
+
+Croatian: *Grupe i njihovi grafovi*, preveo Dominik Palman, 214 str., Školska knjiga 1975
+
+Russian: *Группы и их графы*, Мир 1971, online browsable [djvu](https://djvu.online/file/E1dy0zciFmlML)
+
 
 ## Contents
 
@@ -42,10 +81,11 @@ Bibliography
 
 Index
 
-### Translations
 
-Croatian: Grupe i njihovi grafovi, preveo Dominik Palman, 214 str., Školska knjiga 1975
 
-Russian: Группы и их графы, Мир 1971, online browsable [djvu](https://djvu.online/file/E1dy0zciFmlML)
+category: reference
+
+
+[[!redirects Groups and their graphs]]
 
 
