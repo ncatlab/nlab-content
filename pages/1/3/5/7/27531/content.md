@@ -21,7 +21,7 @@
 
 _Artin's induction theorem_ says that working over the ground field of [[complex numbers]], the [[character]] of any finite-dimensional representation of a [[finite group]] $G$ is a rational linear combination of characters of representations induced from [[cyclic group|cyclic]] [[subgroups]] of $G$.  
 
-Historically this is a precursor to the [[Brauer induction theorem]], but it does not immediately follow from Brauer's result.  Brauer showed that every character is an _integral_ linear combination of characters of representations of a larger class of subgroups of $G$, the so-called elementary subgroups.  
+Historically this is a precursor to the [[Brauer induction theorem]], but neither result follows immediately from the other.  Brauer showed that every character is an _integral_ linear combination of characters of representations of a larger class of subgroups of $G$, the so-called elementary subgroups.  
 
 One thing elementary groups and cyclic groups have in common is that all their irreducible representations are one-dimensional, so in each case the result shows that every character of $G$ is a linear combination (either rational or integral) of characters of representations induced from one-dimensional representations of subgroups.
 
@@ -49,9 +49,9 @@ This in turn implies Artin's original version, by choosing $X$ to be the set of 
 
 We begin by recalling some preliminary concepts and notation.
 
-Let $G$ be a finite group and $(\chi_i)$ its irreducible characters, i.e. characters of irreducible representations. Recall that the [[representation ring]] $R(G)$ is the free abelian group on the set $\{\chi_i\}$.  Since all of $G$'s characters are linear combinations of the $\chi_i$ with nonnegative integer coefficients, every element of $R(G)$ is the difference of two characters of $G$.  Moreover, because the product of two characters is also a character, $R(G)$ is a ring.  It can be seen as a sub-ring of the $\mathbb{C}$-algebra of [[class function|class functions]] on $G$.  This algebra is isomorphic to $\mathbb{C}\otimes R(G)$, and has the set $\{\chi_i\}$ as a basis.
+The [[representation ring]] $R(G)$ of $G$ is the set of  formal differences of isomorphism classes of (finite-dimensional, complex) representations of $G$, made into a ring using the tensor product of representations.   Using the fact that any representation of $G$ has a [[character]] which is a [[class function]], we can treat $R(G)$ as a  sub-ring of the $\mathbb{C}$-algebra of [[class function|class functions]] on $G$.  Indeed that algebra is isomorphic to $\mathbb{C}\otimes R(G)$.  
 
-The functor of restricting representations of $G$ to a subgroup $H$ and the adjoint functor of inducing representations from $H$ to $G$ give abelian group homomorphisms:
+The functor of restricting representations of $G$ to a subgroup $H \subseteq G$ and the adjoint functor of inducing representations from $H$ to $G$ give abelian group homomorphisms:
 
 $$ res_H^G: R(G) \to R(H) $$
 
