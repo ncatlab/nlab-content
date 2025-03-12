@@ -4,9 +4,14 @@
 
 * [institute page](https://www.hse.ru/en/org/persons/216359816)
 
+* [inSpire page](https://inspirehep.net/authors/2380141)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=PulnqHkAAAAJ&hl=en)
+
+
 ## Selected writings
 
-* [[Imma Gálvez]], Vassily Gorbounov, [[Andrew Tonks]], _Homotopy Gerstenhaber structures and vertex algebras_, [math/0611231.QA](https://arxiv.org/abs/math/0611231)
+* [[Imma Gálvez]], [[Vassily Gorbounov]], [[Andrew Tonks]], _Homotopy Gerstenhaber structures and vertex algebras_, [math/0611231.QA](https://arxiv.org/abs/math/0611231)
 
 On the [[quaternionic cobordism ring]]:
 
@@ -27,6 +32,13 @@ On [[chiral differential operators]]:
 * _On chiral differential operators over homogeneous spaces_, Int. J. Math. Math. Sci. __26__ (2001), no. 2, 83--106, [MR2002g:14020](https://mathscinet.ams.org/mathscinet-getitem?mr=2002g:14020), [math.AG/0008154](https://arxiv.org/abs/math/0008154), [doi](http://doi.org/10.1155/S0161171201020051)
 
 * Vassily Gorbounov, [[Owen Gwilliam]], Brian Williams, _Chiral differential operators via Batalin-Vilkovisky quantization_, [pdf](http://people.mpim-bonn.mpg.de/gwilliam/cdo.pdf)
+
+On [[quantum K-theory]] in relation to the [[quantum Yang-Baxter equation|quantum]] [[Yang-Baxter equation]]:
+
+* [[Vassily Gorbounov]], Christian Korff: *Quantum Integrability and Generalised Quantum Schubert Calculus*, Advances in Mathematics **313** (2017) 282-356 &lbrack;[doi:10.1016/j.aim.2017.03.030](https://doi.org/10.1016/j.aim.2017.03.030), [arXiv:1408.4718](https://arxiv.org/abs/1408.4718)&rbrack;
+
+* [[Vassily Gorbounov]], Christian Korff: [[Leonardo C. Mihalcea]]: *Quantum K--theory of Grassmannians from a Yang-Baxter algebra* &lbrack;[arXiv:2503.08602](https://arxiv.org/abs/2503.08602)&rbrack;
+
 
 
 
