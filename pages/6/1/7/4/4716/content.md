@@ -109,7 +109,9 @@ For $\Sigma$ a [[closed manifold|closed]] [[orientation|orientable]] [[surface]]
 
 The first statement is due to ([Smale 58](#Smale58)), see also at _[[sphere eversion]]_. The second and third are due to ([Earle-Eells 67](#EarleEells67), [Gramain 73](#Gramain73)).
 
-See ([Hatcher 12](#Hatcher12)) for review.
+See [Hatcher 12](#Hatcher12) for review and see at *[diffeomorphism group -- For surfaces](diffeomorphism+group#HomotopyTypeForSurfaces)* for more.
+
+On equivalently using homeomorphisms instead of diffeomorphisms: [Boldsen 2009](#Boldsen09).
 
 
 
@@ -155,12 +157,14 @@ Via generators-and-relations:
 
 * Bronisław Wajnryb: *An elementary approach to the mapping class group of a surface*, Geometry & Topology **3** (1999) 405–466 &lbrack;[doi:10.2140/gt.1999.3.405](http://dx.doi.org/10.2140/gt.1999.3.405)&rbrack;
 
-
-
-
 See also:
 
 * Wikipedia: *[Mapping class group](http://en.wikipedia.org/wiki/Mapping_class_group)*
+
+More on the equivalence of MCGs defined via [[diffeomorphisms]] or [[homeomorphisms]]:
+
+* {#Boldsen09} Søren Kjærgaard Boldsen: *Different versions of mapping class groups of surfaces* &lbrack;[arXiv:0908.2221](https://arxiv.org/abs/0908.2221)&rbrack;
+
 
 In relation to [[motion groupoids]]:
 
