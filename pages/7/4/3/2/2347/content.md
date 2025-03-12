@@ -262,8 +262,7 @@ Classical textbooks:
 
 * [[Vladimir Arnol'd]], _[[Mathematical methods of classical mechanics]]_, Graduate Texts in Mathematics **60**, Springer (1978) &lbrack;[doi:10.1007/978-1-4757-1693-1](https://doi.org/10.1007/978-1-4757-1693-1)&rbrack;
 
-* [[Ralph Abraham]], [[Jerrold Marsden]], _[[Foundations of Mechanics]]_ (1978)
-
+* [[Ralph Abraham]], [[Jerrold E. Marsden]]: _[[Foundations of Mechanics]]_, Second Edition, Addison-Wesley (1978) &lbrack;ISBN:978-0-8218-4438-0, [pdf](http://authors.library.caltech.edu/25029/1/FoM2.pdf)&rbrack;  Reprinted: Chelsea Publishing **364**, AMS (1978)  &lbrack;[doi:10.1090/chel/364](https://doi.org/10.1090/chel/364)&rbrack;
 * [[Lev Landau]], [[Evgeny Lifshitz]], _Classical mechanics_, vol. I of the *[[Course of Theoretical Physics]]*
 
 * [[Michael Spivak]], _Elementary mechanics from a mathematician's viewpoint_ ([pdf](http://alpha.math.uga.edu/~shifrin/Spivak_physics.pdf))
