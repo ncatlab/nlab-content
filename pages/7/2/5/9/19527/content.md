@@ -127,6 +127,8 @@ Looked at geometrically, this will be the [[fundamental group]] of the   Cayley 
 
 Textbooks accounts:
 
+* Israel Grossman, [[Wilhelm Magnus]]: *[[Groups and Their Graphs]]*, Random House (1964), reprinted by: Anneli Lax New Mathematical Library **14** MMA (1992) &lbrack;[jstor:10.4169/j.ctt19b9mc7](https://www.jstor.org/stable/10.4169/j.ctt19b9mc7)&rbrack;
+
 * [[Clara Löh]], Section II.3 of : *Geometric Group Theory*, Springer 2017 ([doi:10.1007/978-3-319-72254-2](https://link.springer.com/book/10.1007/978-3-319-72254-2), [pdf](http://www.mathematik.uni-regensburg.de/loeh/teaching/ggt_ws1011/lecture_notes_old.pdf))
 
 * [[Cornelia Druţu]], [[Michael Kapovich]], Section 7.9 of: *Geometric group theory*, Colloquium Publications **63**, AMS 2018 ([ISBN:978-1-4704-1104-6](https://bookstore.ams.org/coll-63/), [pdf](https://courses.maths.ox.ac.uk/node/view_material/35649))
