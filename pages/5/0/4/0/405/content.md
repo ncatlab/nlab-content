@@ -448,6 +448,7 @@ On Eilenberg--Zilber structures:
 [[!redirects semicartesian cube category]]
 [[!redirects cartesian cube category]]
 [[!redirects de Morgan cube category]]
+[[!redirects Dedekind cube category]]
 [[!redirects category of cubes - exposition]]
 [[!redirects cube category - exposition]]
 [[!redirects cube category]]
