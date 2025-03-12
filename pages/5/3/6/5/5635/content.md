@@ -249,12 +249,20 @@ More references are listed in:
 
 * W. Gu, [[Leonardo C. Mihalcea]], [[Eric Sharpe]], H. Zou, *Quantum K theory of symplectic Grassmannians* &lbrack;[arXiv:2008.04909](https://arxiv.org/abs/2008.04909)
 
+In relation to the [[quantum Yang-Baxter equation|quantum]] [[Yang-Baxter equation]]:
+
+* [[Vassily Gorbounov]], Christian Korff: *Quantum Integrability and Generalised Quantum Schubert Calculus*, Advances in Mathematics **313** (2017) 282-356 &lbrack;[doi:10.1016/j.aim.2017.03.030](https://doi.org/10.1016/j.aim.2017.03.030), [arXiv:1408.4718](https://arxiv.org/abs/1408.4718)&rbrack;
+
+* [[Vassily Gorbounov]], Christian Korff: [[Leonardo C. Mihalcea]]: *Quantum K--theory of Grassmannians from a Yang-Baxter algebra* &lbrack;[arXiv:2503.08602](https://arxiv.org/abs/2503.08602)&rbrack;
+
+
+
 See also:
 
 * Wei Gu, Jirui Guo, Leonardo Mihalcea, Yaoxiong Wen, Xiaohan Yan, *A correspondence between the quantum K theory and quantum cohomology of Grassmannians* &lbrack;[arXiv:2406.13739](https://arxiv.org/abs/2406.13739)&rbrack;
 
 * Peter Koroteev, Andrey Smirnov: *On the Quantum K-theory of Quiver Varieties at Roots of Unity* &lbrack;[arXiv:2412.19383](https://arxiv.org/abs/2412.19383)&rbrack;
-
+ 
 
 
 
