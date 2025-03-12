@@ -26,7 +26,7 @@ Igusa and Mondello have substantiated Kontsevich's claim that the Mumford-Miller
 
 * [[Shigeyuki Morita]]: _Characteristic classes of surface bundles_, Invent. Math. __90__ 3 (1987) 551--577 &lbrack;[doi:10.1007/BF01389178](http://dx.doi.org/10.1007/BF01389178), [MR89e:57022](http://www.ams.org/mathscinet-getitem?mr=89e:57022)&rbrack;
 
-* [[Shigeyuki Morita]]: _Introduction to mapping class groups of surfaces and related groups_, in: *Handbook of Teichmüller theory, Volume I*, EMS (2007) 353-386 &lbrack;[doi:10.4171/029-1/8](https://doi.org/10.4171/029-1/8)&rbrack;
+* [[Shigeyuki Morita]]: *Introduction to mapping class groups of surfaces and related groups*, in: *Handbook of Teichmüller theory, Volume I*, EMS (2007) 353-386 &lbrack;[doi:10.4171/029-1/8](https://doi.org/10.4171/029-1/8), [[Morita-IntroductionMCG.pdf:file]]&rbrack;
 
 * C. Faber, R. Pandharipande, _Logarithmic series and Hodge integrals in the tautological ring_, With an appendix by Don Zagier. Dedicated to William Fulton on the occasion of his 60th birthday.  Michigan Math. J. __48__ (2000), 215--252, [MR2002e:14041](http://www.ams.org/mathscinet-getitem?mr=2002e:14041), [doi](http://dx.doi.org/10.1307/mmj/1030132716)
 
