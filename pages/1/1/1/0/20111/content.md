@@ -46,7 +46,7 @@ The _Brauer induction theorem_ ([Brauer 46](#Brauer46)) states that, for [[groun
   \Big]
   \,,
   \phantom{AAA}
-  a_i \in \mathbb{Z}
+  n_i \in \mathbb{Z}
   \,.
 \]
 
@@ -60,7 +60,7 @@ The analogous statement holds true also for [[ground ring]] the [[quaternions]],
 
 Of course, the expansions (eq:GenericExampleOfBrauerInduction) are not unique. But one may find [[functor|functorial]] choices that satisfy good extra properties, see below _[Snaith's explicit Brauer induction](#SnaithExpansion)_ and _[Symond's explicit Brauer induction](#SymondExplicitBrauerInduction)_.
 
-Brauer's induction theorem may be thought of as a sharpened version of [[Artin's induction theorem]] saying that every character of $G$ is a *rational* linear combination of characters of representations induced from cyclic subgroups of $G$.  
+We may also restrict the collection of subgroups needed.  For example, in the representation ring of a finite group $G$, every element is a difference of elements induced from representations of "elementary" subgroups of $G$, where an elementary subgroup is a group of order $p^n$ times a cyclic group whose order is relatively prime to $p$.  This result is a partner to the [[Artin induction theorem]] saying that every element of the representation ring of $G$ is a _rational_ linear combination of elements induced from _cyclic_ subgroups of $G$.  (For both cyclic and elementary groups, every representation is a direct sum of 1-dimensional representations.)
 
 <br/>
 
