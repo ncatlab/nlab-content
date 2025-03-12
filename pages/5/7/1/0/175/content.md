@@ -58,6 +58,9 @@ in general:
 
 * [[Marshall Hall]], *The Theory of Groups*, Macmillan (1959), AMS Chelsea (1976), Dover (2018) &lbrack;[ISBN:978-0-8218-1967-8](https://bookstore.ams.org/view?ProductCode=CHEL/288), [ISBN:9780486816906](https://store.doverpublications.com/products/9780486816906)&rbrack;
 
+* Israel Grossman, [[Wilhelm Magnus]]: *[[Groups and Their Graphs]]*, Random House (1964), reprinted by: Anneli Lax New Mathematical Library **14** MMA (1992) &lbrack;[jstor:10.4169/j.ctt19b9mc7](https://www.jstor.org/stable/10.4169/j.ctt19b9mc7)&rbrack;
+
+
 * [[Joseph J. Rotman]], *An Introduction to the Theory of Groups*, Springer (1995) &lbrack;[doi:10.1007/978-1-4612-4176-8](https://doi.org/10.1007/978-1-4612-4176-8), [pdf](https://eclass.uoa.gr/modules/document/file.php/MATH676/Rotman%20An%20introduction%20to%20the%20theory%20of%20groups.pdf)&rbrack;
 
 in a more general context of [[algebra]]:
