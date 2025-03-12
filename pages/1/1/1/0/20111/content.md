@@ -50,7 +50,7 @@ The _Brauer induction theorem_ ([Brauer 46](#Brauer46)) states that, for [[groun
   \,.
 \]
 
-In other words, this says that the [[representation ring]] $R_{\mathbb{C}}(G)$ is generated from [[isomorphism classes]] $\left[ind_{H}^big(W\big)\right]$ of  [[induced representations]] $ind_{H}^G \big(W\big)$ of 1-dimensional representations $W$ of [[subgroups]] $H \subset G$.
+In other words, this says that the [[representation ring]] $R_{\mathbb{C}}(G)$ is generated from [[isomorphism classes]] $\left[ind_{H}^G \big(W\big)\right]$ of  [[induced representations]] $ind_{H}^G \big(W\big)$ of 1-dimensional representations $W$ of [[subgroups]] $H \subset G$.
 
 This may be thought of as (implying) a [[splitting principle]] for [[linear representations]] ([Symonds 91](#Symonds91)), for more on this see at _[[characteristic classes of linear representations]]_ the section _[splitting principle](characteristic+class+of+a+linear+representation#SplittingPrinciple)_.
 
@@ -60,7 +60,7 @@ The analogous statement holds true also for [[ground ring]] the [[quaternions]],
 
 Of course, the expansions (eq:GenericExampleOfBrauerInduction) are not unique. But one may find [[functor|functorial]] choices that satisfy good extra properties, see below at _[Snaith's explicit Brauer induction](#SnaithExpansion)_ and _[Symond's explicit Brauer induction](#SymondExplicitBrauerInduction)_.
 
-We may also restrict the collection of subgroups needed.  For example, in the representation ring of a finite group $G$, every element is a difference of elements induced from representations of "elementary" subgroups of $G$, where an elementary subgroup is a group of order $p^n$ times a cyclic group whose order is relatively prime to $p$.  This result is a partner to the [[Artin induction theorem]] saying that every element of the representation ring of $G$ is a _rational_ linear combination of elements induced from _cyclic_ subgroups of $G$.  (For both cyclic and elementary groups, every representation is a direct sum of 1-dimensional representations.)
+We may also restrict the collection of subgroups needed.  For example, in the representation ring of a finite group $G$, every element is a difference of elements induced from representations of [[elementary subgroups]] of $G$, where an elementary subgroup is a group of order $p^n$ times a cyclic group whose order is relatively prime to $p$.  This result is a partner to the [[Artin induction theorem]] saying that every element of the representation ring of $G$ is a _rational_ linear combination of elements induced from _cyclic_ subgroups of $G$.  (For both cyclic and elementary groups, every representation is a direct sum of 1-dimensional representations.)
 
 <br/>
 
