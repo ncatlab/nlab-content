@@ -506,9 +506,9 @@ For further properties of quintessential localizations see at [[quality type]].
 
 ([Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11))
 
-### An open problem: the presheaf topos over non-empty finite sets
+### The presheaf topos over non-empty finite sets
 
-...
+Just like in the [[simplicial set|topos of  simpicial sets]] levels in the topos of [[symmetric set|symmetric sets]] correspond to the natural numbers. The computation of the Aufhebungs relation between the levels was an open problem in topos theory since the 1980s. In [2025 Hora and Maehara](#HM25) show that for $n\geq 3$ it is given by $2n-1$ just like in the topos of simplicial sets.
 
 ## Related pages
 
@@ -590,6 +590,8 @@ Further results on essential localizations can be found in the papers by [Borceu
 * {#Begriff} [[G. W. F. Hegel]], *Begriffslehre f&#252;r die Mittelklasse (1809/10)*, pp.139-162 in Moldenhauer, Michel (eds.), *Werke 4*, Suhrkamp Frankfurt 1986.
 
 * {#WdL} [[G. W. F. Hegel]], *[[Science of Logic|Wissenschaft der Logik]] I*, Suhrkamp Frankfurt 1986[1812/13; revised 1831].
+
+* {#HM25} R. Hora, Y. Maehara, *Lawvere's fourth open problem: Levels in the topos of symmetric simplicial sets*, arXiv:2503.03916 (2025). ([abstract](https://arxiv.org/abs/2503.03439))
 
 * {#JS96}[[Peter Johnstone|P. Johnstone]], *Remarks on Quintessential and Persistent Localizations*, TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
