@@ -50,6 +50,45 @@ As a [[subgroup]] of the [[general linear group]] of [[invertible matrices]], $S
 \end{proposition}
 (cf. [Serre 1973 Thm. VII.2 p 78](#Serre73), [Conrad Thm 1.1](#Conrad))
 
+Moreover, $SL_2(\mathbb{Z})$ is *[[finitely presented group|presented]]* from these generators 
+$$
+  S
+  \;\coloneqq\;
+  \left[
+    \begin{array}{rr}
+    0 & 1
+    \\
+    -1 & 0
+  \end{array}
+  \right]
+  \;\;\;\;\;
+  \text{and}
+  \;\;\;\;\;
+  T
+  \;\coloneqq\;
+  \left[
+  \begin{array}{rr}
+    1 & 0
+    \\
+    1 & 1
+  \end{array}
+  \right]
+  \mathrlap{\,.}
+$$
+subject to the relations $S^4 = \mathrm{e}$ and $(S T)^3 = S^2$:
+$$
+  SL_2(\mathbb{Z})
+  \;\simeq\;
+  \big\langle
+    S\,, T
+    \,\big\vert\,
+    S^4 = \mathrm{e}
+    ,\,
+    (S T)^3 = S^2
+  \big\rangle
+$$
+([Serre 1980 p. 81](#Serre80), cf. [Kassel & Turaev 2008](#KasselTuraev08))
+
 ## Related concepts
 
 * [[modular form]]
@@ -66,18 +105,26 @@ Textbook accounts:
 
 * {#Serre73} [[Jean-Pierre Serre]], §VII.1 of: *A Course in Arithmetic*, Graduate Texts in Mathematics **7**, Springer (1973) &lbrack;[doi:10.1007/978-1-4684-9884-4](https://doi.org/10.1007/978-1-4684-9884-4), [pdf](https://www.math.purdue.edu/~jlipman/MA598/Serre-Course%20in%20Arithmetic.pdf)&rbrack;
 
+* {#Serre80} [[Jean-Pierre Serre]], p. 81 of: *Trees*, Springer (1980) &lbrack;[doi:10.1007/978-3-642-61856-7](https://doi.org/10.1007/978-3-642-61856-7)&rbrack;
 
 * {#Stein07} [[William Stein]], chapter 1 of: *Modular Forms, a Computational Approach*, Graduate Studies in Mathematics **79**, AMS (2007) &lbrack;[doi:10.1090/gsm/079](https://doi.org/10.1090/gsm/079)&rbrack;
+
+* {#KasselTuraev08} [[Christian Kassel]], [[Vladimir Turaev]]: *Presentations of $SL_2(Z)$ and $PSL_2(Z)$*, appendix A in: *Braid Groups*, Graduate Texts in Mathematics **247**, Springer (2008) 311-314 &lbrack;[doi:10.1007/978-0-387-68548-9_8](https://doi.org/10.1007/978-0-387-68548-9_8)&rbrack;
 
 
 Notes:
 
 * {#Conrad} [[Keith Conrad]], *$SL_2(\mathbb{Z})$* &lbrack;<a href="https://kconrad.math.uconn.edu/blurbs/grouptheory/SL(2,Z).pdf">pdf</a>, [[Conrad-SL2Z.pdf:file]]&rbrack;
 
+* W. J. Harvey: *Introductory Lectures on $SL(2,Z)$ and modular forms* (2008) &lbrack;[pdf](https://www.ltcc.ac.uk/media/london-taught-course-centre/documents/Lecture-3-Notes.pdf)&rbrack;
+
+On the [[representation theory]] of $SL_2(\mathbb{Z})$:
+
+* Siu-Hung Ng, Yilong Wang, Samuel Wilson: *On symmetric representations of $SL_2(\mathbb{Z})$*, Proceedings of the AMS, **151** 4 (2023) 1415-1431 &lbrack;[arXiv:2203.15701](https://arxiv.org/abs/2203.15701), [doi:10.1090/proc/16205](https://doi.org/10.1090/proc/16205)&rbrack;
+
 * [[Andrew Putman]]: *The representation theory of $SL_n(\mathbb{Z})$* &lbrack;[pdf](https://www3.nd.edu/%7Eandyp/notes/RepTheorySLnZ.pdf), [[Putman-RepsOfSLnZ.pdf:file]]&rbrack;
 
 See also:
 
-* [[Groupprops]], _[Special linear group:SL(2,Z)](https://groupprops.subwiki.org/wiki/Special_linear_group:SL(2,Z))_
-
+* [[Groupprops]]: *<a href="https://groupprops.subwiki.org/wiki/Special_linear_group:SL(2,Z)">Special linear group:SL(2,Z)</a>*
 
