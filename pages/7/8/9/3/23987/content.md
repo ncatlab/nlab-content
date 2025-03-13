@@ -468,13 +468,13 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   **Heisenberg homologies of surface configurations**
 
-  cf.: [arXiv:2206.11475](https://arxiv.org/abs/2206.11475)
+  cf.: [arXiv:2306.08614](https://arxiv.org/abs/2306.08614), [arXiv:2206.11475](https://arxiv.org/abs/2206.11475)
 
   slides: [[Blanchet-at-QFTAndCobordism2023.pdf:file]]
 
   video: [YT](https://www.youtube.com/watch?v=prcU4v7LFZQ)
 
-  > The [[Heisenberg group]] of a [[surface]] is the [[central extension]] of its one-dimensional [[ordinary homology|homology]] associated with the [[intersection pairing|intersection cocycle]]. We show that a [[group representation|representation]] of the [[Heisenberg group]] defines [[local coefficients]] on the unordered [[configuration space of points]] in the surface. We study the corresponding [[ordinary homology|homologies]], the [[mapping class group|Mapping Class Group]] [[group action|action]] and the connection with quantum constructions. This is based on joint work with [[Awais Shaukat]] and [[Martin Palmer]].
+  > The [[integer Heisenberg group|Heisenberg group]] of a [[surface]] is the [[central extension]] of its one-dimensional [[ordinary homology|homology]] associated with the [[intersection pairing|intersection cocycle]]. We show that a [[group representation|representation]] of the [[Heisenberg group]] defines [[local coefficients]] on the unordered [[configuration space of points]] in the surface. We study the corresponding [[ordinary homology|homologies]], the [[mapping class group|Mapping Class Group]] [[group action|action]] and the connection with quantum constructions. This is based on joint work with [[Awais Shaukat]] and [[Martin Palmer]].
 
 \linebreak
 
@@ -2915,9 +2915,9 @@ Weekly seminar, broadly on topics in [[geometry]], ([[algebraic topology|algebra
   **Mapping class group representations via Heisenberg, Schr&ouml;dinger and
 Stone-von Neumann**
 
-  vido: [Zoom](https://nyu.zoom.us/rec/play/nqQSRLTINmsD32Bp68ysikC1yod5PKKneHckP-yhY4Z-sDbuCCCNn5UGIX7RMN_KPHkMgNPRfy2nGC2L.CufxX4yp7T9DFicw?autoplay=true&startTime=1648645579000)
+  video: [Zoom](https://nyu.zoom.us/rec/play/nqQSRLTINmsD32Bp68ysikC1yod5PKKneHckP-yhY4Z-sDbuCCCNn5UGIX7RMN_KPHkMgNPRfy2nGC2L.CufxX4yp7T9DFicw?autoplay=true&startTime=1648645579000)
 
-  > One of the first interesting [[braid group representation|representations of]] the [[braid groups]] is the [[Burau representation]]. It is the first of the family of Lawrence representations, defined topologically by viewing the braid group as the [[mapping class group]] of a punctured disc. Famously, the Burau representation is almost never faithful, but the $k = 2$ Lawrence representation is always faithful: this is a celebrated theorem of Bigelow and Krammer and implies immediately that braid groups are linear (act faithfully on finite-dimensional vector spaces). Motivated by this, and by the open question of whether mapping class groups are linear, I will describe [recent joint work with Christian Blanchet and Awais Shaukat](https://arxiv.org/abs/2109.00515) in which we construct analogues of the  awrence representations for mapping class groups of compact, orientable surfaces. Tools include twisted Borel-Moore homology of con guration spaces, Schr&ouml;dinger representations of discrete Heisenberg groups and the Stone-von Neumann theorem.
+  > One of the first interesting [[braid group representation|representations of]] the [[braid groups]] is the [[Burau representation]]. It is the first of the family of Lawrence representations, defined [[topology|topologically]] by [viewing](braid+group#BraidGroupsAsMappingClassGroupsOfPuncturedSurfaces) the [[braid group]] as the [[mapping class group]] of a [[puncture|punctured]] [[disc]]. Famously, the [[Burau representation]] is almost never [[faithful representation|faithful]], but the $k = 2$ Lawrence representation is always faithful: this is a celebrated theorem of Bigelow and Krammer and implies immediately that [[braid groups]] are [[linear group|linear]] ([[faithful representation|act faithfully]] on [[finite-dimensional vector spaces]]). Motivated by this, and by the open question of whether mapping class groups are linear, I will describe [recent joint work](https://arxiv.org/abs/2109.00515) with [[Christian Blanchet]] and [[Awais Shaukat]] in which we construct analogues of the Lawrence representations for mapping class groups of compact, orientable surfaces. Tools include [[twisted cohomology|twisted]] [[Borel-Moore homology]] of [[configuration space of points|configuration spaces]], Schr&ouml;dinger representations of [[integer Heisenberg group|discrete Heisenberg groups]] and the [[Stone-von Neumann theorem]].
 
 \linebreak
 
