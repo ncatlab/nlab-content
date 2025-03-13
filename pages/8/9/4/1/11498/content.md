@@ -13,7 +13,7 @@ $$
   p_n \;\colon\; SL_2(\mathbb{Z}) \to SL_2(\mathbb{Z}/n\mathbb{Z})
 $$
 
-for the [[projection]] from the [[special linear group]] induced by the [[quotient]] [[projection]] $\mathbb{Z} \to \mathbb{Z}/n\mathbb{Z}$ to the [[integers modulo n]].
+for the [[projection]] from the [[Moebius group|Moebius]] [[special linear group]] [[SL(2,Z)|$SL(2,\mathbb{Z}$]] induced by the [[quotient]] [[projection]] $\mathbb{Z} \to \mathbb{Z}/n\mathbb{Z}$ to the [[integers modulo n]].
 
 The _mod-$n$ congruence subgroups_ of the [[special linear group]] $SL_2(\mathbb{Z})$ (essentially the [[modular group]]) are the [[preimages]] under $p_n$ of [[subgroups]] of $SL_2(\mathbb{Z}/n\mathbb{Z})$.
 
@@ -51,11 +51,17 @@ See at _[level structure -- relation to spin structure](level%20structure%20on%2
 
 ## Related concepts
 
+* [[Torelli group]]
+
 * [[modular curve]]
 
 * [[modular equivariant elliptic cohomology]]
 
 ## References
+
+* [[Andrew Putman]]: *The Torelli group and congruence subgroups of the mapping class group*, in: *Moduli Spaces of Riemann Surfaces*, IAS/Park City Mathematics Series **20** (2013) &lbrack;[arXiv:1201.3946](https://arxiv.org/abs/1201.3946), [doi:10.1090/pcms/020](https://doi.org/10.1090/pcms/020)&rbrack;
+
+See also:
 
 * Wikipedia, _[Congruence subgroup](https://en.wikipedia.org/wiki/Congruence_subgroup)_
 
