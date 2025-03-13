@@ -67,7 +67,7 @@ $$
   \,.
 $$
 
-([Blanc & Déserti 2012 §2.1](#BlancDéserti12) following [Newman 1972](#Newman72), [Wehler 2021 Rem. 2.17(1)](#Wehler21))
+([Blanc & Déserti 2012 §2.1](#BlancDéserti12) following [Newman 1972](#Newman72), [Wehler 2021 Rem. 2.17(1)](#Wehler21) following [Koecher & Krieg 2007 Remark on p. 126](#KoecherKrieg07))
 
 Alternatively, $SL_2(\mathbb{Z})$ is [[finitely presented group|presented]] via the generators 
 $$
@@ -143,6 +143,9 @@ Notes:
 More on presentations:
 
 * {#RubinsteinGardiner79} J. H. Rubinstein, C. Gardiner, *A note on a 3-dimensional homogeneous space*, Compositio Mathematica **39** 3 (1979) 297-299 &lbrack;[numdam:CM_1979__39_3_297_0](https://www.numdam.org/item/?id=CM_1979__39_3_297_0)&rbrack;
+
+* {#KoecherKrieg07} Max Koecher, Aloys Krieg: *Die Modulgruppe*, §II.2 in: *Elliptische Funktionen und Modulformen*, Springer (2007) &lbrack;[doi:10.1007/978-3-540-49325-9](https://doi.org/10.1007/978-3-540-49325-9)&rbrack;
+
 
 * {#BlancDéserti12} Jérémy Blanc, Julie Déserti, §2.1 in: *Embeddings of $SL(2,\mathbb{Z})$ into the Cremona group*, Transform. Groups **17** 1 (2012) 21-50 &lbrack;[arXiv:1103.0114](https://arxiv.org/abs/1103.0114), [doi:10.1007/s00031-012-9174-9](https://doi.org/10.1007/s00031-012-9174-9)&rbrack;
 
