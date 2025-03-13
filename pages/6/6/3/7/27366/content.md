@@ -420,7 +420,7 @@ $$
   \end{array}
 $$
 
-To see that this is [[irreducible representation|irreducible]] just note that a [[linear basis]] of the [[underlying]] [[vector space]] is obtained by successively acting with $W_b$ on, say ${\big\vert [1] \big\rangle}$.
+To see that this is [[irreducible representation|irreducible]] just note that a [[linear basis]] of the [[underlying]] [[vector space]] is obtained by successively acting with $W_b$ on, say ${\big\vert [0] \big\rangle}$ (this thus being a [[cyclic vector]]).
 \end{proof}
 
 For more see [Floratos & Tsohantjis 2022](#FloratosTsohantjis22).
@@ -551,7 +551,7 @@ There exists a [[linear representation]]
 \]
 of the [[modular group]] on the [[underlying]] [[complex vector space]] of (eq:IrrepOfInyegerHeisenbergGroup),
 which [[intertwiner|intertwines]] the action (eq:IrrepOfInyegerHeisenbergGroup)
-of $\widehat{\mathbb{Z}^2}$ on $\mathscr{H}_1$, with its [[automorphism|automorphic]] [[images]] under the modular gorup action \eqref{SymplecticActonOnSecondIntegerHeisenberg} on the Heisenberg group,
+of $\widehat{\mathbb{Z}^2}$ on $\mathscr{H}_1$, with its [[automorphism|automorphic]] [[images]] under the modular group action \eqref{SymplecticActonOnSecondIntegerHeisenberg} on the Heisenberg group,
 in that: 
 $$
   m(W) \cdot m\Big(
@@ -882,7 +882,7 @@ On (invertibility in) the [[group algebra]]:
 
 On their [[representation theory]] with an eye towards [[quantum information theory]]:
 
-* {#FloratosTsohantjis22} E. Floratos, I. Tsohantjis: *Complete set of unitary irreps of Discrete Heisenberg Group $H W_{2^s}$ &lbrack;[arXiv:2210.04263](https://arxiv.org/abs/2210.04263)&rbrack;
+* {#FloratosTsohantjis22} E. Floratos, I. Tsohantjis: *Complete set of unitary irreps of Discrete Heisenberg Group $H W_{2^s}$* &lbrack;[arXiv:2210.04263](https://arxiv.org/abs/2210.04263)&rbrack;
 
 On the [[automorphism group]]:
 
