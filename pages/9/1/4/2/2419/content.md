@@ -225,6 +225,7 @@ $$
 
 * [[Rankin-Cohen bracket]]
 
+
 ## References
 
 A basic and handy reference is
@@ -235,7 +236,6 @@ Textbook accounts:
 
 * [[Jean-Pierre Serre]], chapter VII of: *A Course in Arithmetic*, Graduate Texts in Mathematics **7**, Springer (1973) &lbrack;[doi:10.1007/978-1-4684-9884-4](https://doi.org/10.1007/978-1-4684-9884-4), [pdf](https://www.math.purdue.edu/~jlipman/MA598/Serre-Course%20in%20Arithmetic.pdf)&rbrack;
 
-
 * N. Koblitz, _Introduction to Elliptic Curves and Modular Forms_, Graduate Texts in Math. **97** Springer (1984, 1993) 
 
 * {#HirzebruchGergerJung92} [[Friedrich Hirzebruch]], Thomas Berger, Rainer Jung, Appendix I of: *Manifolds and Modular Forms*, Aspects of Mathematics **20**, Viehweg (1992), Springer (1994) &lbrack;[doi:10.1007/978-3-663-10726-2](https://doi.org/10.1007/978-3-663-10726-2), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/hirzjung.pdf)&rbrack;
@@ -243,6 +243,8 @@ Textbook accounts:
 * {#DiamondShurman05} [[Fred Diamond]], [[Jerry Shurman]], *A First Course in Modular Forms*, GTM **228**, Springer (2005) &lbrack;[doi:10.1007/978-0-387-27226-9](https://doi.org/10.1007/978-0-387-27226-9), ISBN-13: 978-0387232294&rbrack; 
 
 * [[William Stein]]: *Modular Forms, a Computational Approach*, Graduate Studies in Mathematics **79**, AMS (2007) &lbrack;[doi:10.1090/gsm/079](https://doi.org/10.1090/gsm/079)&rbrack;
+
+*  Max Koecher, Aloys Krieg: *Elliptische Funktionen und Modulformen*, Springer (2007) &lbrack;[doi:10.1007/978-3-540-49325-9](https://doi.org/10.1007/978-3-540-49325-9)&rbrack;
 
 Lecture notes and reviews:
 
