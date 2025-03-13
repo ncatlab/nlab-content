@@ -144,7 +144,7 @@ Surveys:
 
 * Nikolai V. Ivanov: *Mapping class groups*, in: *Handbook of Geometric Topology*, North-Holland (2002) 523-633 &lbrack;[doi:10.1016/B978-0-444-82432-5.X5000-8](https://doi.org/10.1016/B978-0-444-82432-5.X5000-8), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/handgt.pdf), 1998 draft: [pdf](https://math.hawaii.edu/~andrew/GDT2013/I98.pdf), [ps](http://www.mth.msu.edu/~ivanov/m99.ps)&rbrack;
 
-* {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of: *Lectures on tensor categories and modular functor*, University Lecture Series **21**, Amer. Math. Soc. (2001)  &lbrack;[web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21),[[BakalovKirillovChapter5.pdf:file]]&rbrack;
+* {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of: *Lectures on tensor categories and modular functor*, University Lecture Series **21**, Amer. Math. Soc. (2001)  &lbrack;[web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21), [[BakalovKirillovChapter5.pdf:file]]&rbrack;
 
 * [[Shigeyuki Morita]]: *Introduction to mapping class groups of surfaces and related groups*, in: *Handbook of Teichmüller theory, Volume I*, EMS (2007) 353-386 &lbrack;[doi:10.4171/029-1/8](https://doi.org/10.4171/029-1/8), [[Morita-IntroductionMCG.pdf:file]]&rbrack;
 
