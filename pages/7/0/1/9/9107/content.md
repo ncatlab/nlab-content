@@ -1,7 +1,12 @@
 
-* [webpage](http://hamilton.uchicago.edu/~harvey/)
+* [institute page](https://physics.uchicago.edu/people/profile/jeffrey-harvey/)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Jeffrey_A._Harvey)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=YXTF0AwAAAAJ&hl=en)
+
+* [inSpire page](https://inspirehep.net/authors/1006582)
+
 
 ## Selected writings
 
