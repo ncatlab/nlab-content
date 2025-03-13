@@ -46,6 +46,8 @@ $$
 
 ## References
 
+* {#Newman72} Morris Newman: *The Classical Modular Group and Related Groups*, chapter VIII in: *Integral Matrices*, Academic Press (1972)
+
 * {#Serre73} [[Jean-Pierre Serre]], §VII.1: *A Course in Arithmetic*, Graduate Texts in Mathematics **7**, Springer (1973) &lbrack;[doi:10.1007/978-1-4684-9884-4](https://doi.org/10.1007/978-1-4684-9884-4), [pdf](https://www.math.purdue.edu/~jlipman/MA598/Serre-Course%20in%20Arithmetic.pdf)&rbrack;
 
 * {#Stein07} [[William Stein]], chapter 1 of: *Modular Forms, a Computational Approach*, Graduate Studies in Mathematics **79**, AMS (2007) &lbrack;[doi:10.1090/gsm/079](https://doi.org/10.1090/gsm/079)&rbrack;
