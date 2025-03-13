@@ -1,6 +1,12 @@
 
 * [personal page](https://webusers.imj-prg.fr/~christian.blanchet/)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=64226)
+
+* [inSpire page](https://inspirehep.net/authors/2357417)
+
+
+
 ## Selected writings
 
 
@@ -11,6 +17,17 @@ On the [[ordinary homology]] of [[configuration spaces of points]] in a [[surfac
 * [[Awais Shaukat]], [[Christian Blanchet]], *Weakly framed surface configurations, Heisenberg homology and Mapping Class Group action*, Archiv der Mathematik **120** (2023) 99–109 &lbrack;[arXiv:2206.11475](https://arxiv.org/abs/2206.11475), [doi:10.1007/s00013-022-01793-3](https://doi.org/10.1007/s00013-022-01793-3)&rbrack;
 
 * [[Christian Blanchet]], *Heisenberg homologies of surface configurations*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#BlanchetMar2023)&rbrack;
+
+On [[mapping class groups]] of closed [[surfaces]] and the [[integer Heisenberg group]]:
+
+* [[Awais Shaukat]], [[Christian Blanchet]]: *Weakly framed surface configurations, Heisenberg homology and Mapping Class Group action*, Arch. Math. **120** (2023) 99–109 &lbrack;[arXiv:2206.11475](https://arxiv.org/abs/2206.11475), [doi:10.1007/s00013-022-01793-3](https://doi.org/10.1007/s00013-022-01793-3)&rbrack;
+
+* [[Christian Blanchet]], [[Martin Palmer]], [[Awais Shaukat]]: *Action of subgroups of the mapping class group on Heisenberg homologies*, Contemporary Mathematics &lbrack;[arXiv:2306.08614](https://arxiv.org/abs/2306.08614)&rbrack;
+
+* [[Christian Blanchet]]: *Heisenberg homologies of surface configurations*, [talk at](CQTS#BlanchetMar2023) *[Geometric/Topological Quantum Field Theories Workshop](Center+for+Quantum+and+Topological+Systems#ConferencesMar2023)* @ [[CQTS]] NYUAD (2023) &lbrack;slides: [[Blanchet-at-QFTAndCobordism2023.pdf:file]], video:[YT](https://www.youtube.com/watch?v=prcU4v7LFZQ)&rbrack;
+
+
+
 
 
 category: people
