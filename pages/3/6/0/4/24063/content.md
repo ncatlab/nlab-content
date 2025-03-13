@@ -1,5 +1,9 @@
 
+
+
 * [personal page](https://mdp.ac/)
+
+* [GoogleScholar page](https://scholar.google.de/citations?user=IgTzZvwAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -24,3 +28,6 @@ On [[linear representations]] of [[mapping class group]] of [[surfaces]] and the
 category: people
 
 [[!redirects Martin David Palmer]]
+
+[[!redirects Martin Palmer-Anghel]]
+
