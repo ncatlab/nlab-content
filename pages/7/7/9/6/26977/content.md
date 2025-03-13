@@ -63,7 +63,7 @@ Again, those two ways coincide in the sense that $i^*(\partial U) = \partial yU$
 
 ## Diagrammatic sets and higher category theory
 
-The richeness of shapes in the category of atoms, as well as the quite rigid behavior of the category $\odot$ where they live make them a good candidate for modelling [[higher category theory|higher categories]]. In this perspective, in a diagrammatic set $X$, a natural transformation $x \colon U \to X$ whose domain is an $n$-dimensional atom, correspond to an **[[k-morphism|$n$-cell]]** in $X$. If $U$ is more generally an $n$-dimensional molecule, we call it an **$n$-diagram**, while when $U$ is furthermore round, we speak of a **round $n$-diagram**.
+The richness of shapes in the category of atoms, as well as the quite rigid behavior of the category $\odot$ where they live make them a good candidate for modelling [[higher category theory|higher categories]]. In this perspective, in a diagrammatic set $X$, a natural transformation $x \colon U \to X$ whose domain is an $n$-dimensional atom, correspond to an **[[k-morphism|$n$-cell]]** in $X$. If $U$ is more generally an $n$-dimensional molecule, we call it an **$n$-diagram**, while when $U$ is furthermore round, we speak of a **round $n$-diagram**.
 
 Before the more conjectural case of weak higher categories, we can deal with the case of higher groupoids.
 
