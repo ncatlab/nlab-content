@@ -1,5 +1,7 @@
 
-* [webpage](https://math.berkeley.edu/~kirby/)
+* [personal page](https://math.berkeley.edu/~kirby/)
+
+* [institute page](https://math.berkeley.edu/people/faculty/robion-kirby)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Robion_Kirby)
 
@@ -13,9 +15,13 @@ On the [[triangulation conjecture]] for [[topological manifolds]]:
 
 * {#KirbySiebenmann69} [[Robion C. Kirby]], [[Laurent C. Siebenmann]], *On the triangulation of manifolds and the Hauptvermutung*, Bull. Amer. Math. Soc. 75(4): 742-749 (July 1969)  ([euclid:1183530633](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-75/issue-4/On-the-triangulation-of-manifolds-and-the-Hauptvermutung/bams/1183530633.full))
 
+On [[Dennis Lee Johnson]]:
+
+* [[Rob Kirby]]: *Dennis Johnson* (2019) &lbrack;[web](https://celebratio.org/Johnson_DL/article/715/)&rbrack;
 
 
-## related $n$Lab entries
+
+## Related entries
 
 * [[Kirby calculus]]
 
