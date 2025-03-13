@@ -119,6 +119,35 @@ On equivalently using homeomorphisms instead of diffeomorphisms: [Boldsen 2009](
 
 The [[ordinary cohomology]] with rational coefficients of the [[delooping]] of the stable mapping class group of 2-dimensional manifolds (hence essentially the [[orbifold cohomology]] of the [[moduli stack of complex curves]]) is the content of [[Mumford's conjecture]], proven in ([Madsen-Weiss 02](#MadsenWeiss02)).
 
+
+## Examples
+
+\begin{proposition}
+\label{MCGOfClosedOrientedSurfaces}
+  The mapping class group of the [[torus]] $T^2 = \Sigma^2_1$ is the [[modular group]] [[SL(2,Z)|$SL_2(\mathbb{Z})$]]
+$$
+  MCG(T^2) \,\simeq\, Sp_2(\mathbb{Z}) \,\simeq\, SL_2(\mathbb{Z}) 
+  \,,
+$$
+and generally the mapping class group of [[generalized the|the]] [[closed manifold|closed]] [[orientation|oriented]] [[surface]] $\Sigma^2_g$ of [[genus of a surface|genus]] $= g \in \mathbb{N}$ sits in a [[short exact sequence]] of the form
+$$
+  1 
+    \to 
+  I_g 
+  \longrightarrow
+  MCG(\Sigma^2_g)
+  \longrightarrow
+  Sp_{2g}(\mathbb{Z})
+  \to 1
+  \mathrlap{\,,}
+$$
+where $Sp_{2g}(\mathbb{Z}) \coloneqq Sp_{2g}(\mathbb{R}) \cap GL_{2g}(\mathbb{Z})$ is the [[symplectic group]] with [[integer]] [[coefficients]], and where the [[kernel]] is called the *[[Torelli group]]*.
+
+Here the canonical [[group action]] of $MCG(\Sigma^2_g)$ on the [[ordinary homology]] $H_1(\Sigma^2_g;\mathbb{Z}) \simeq \mathbb{Z}^g \times \mathbb{Z}^g$ of the surface is through the defining action of $Sp_2(\mathbb{Z})$.
+\end{proposition}
+(reviewed by [Morita 2007 §6](#Morita07), [Farb & Margalit 2012 §6](#FarbMargalit12))
+
+
 ## Related concepts
 
 * [[diffeomorphism group]]
@@ -136,7 +165,7 @@ Monographs:
 
 * {#Birman75} [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press (1975) &lbrack;[ISBN:9780691081496](https://press.princeton.edu/books/paperback/9780691081496/braids-links-and-mapping-class-groups-am-82-volume-82), [preview pdf](https://api.pageplace.de/preview/DT0400.9781400881420_A26691398/preview-9781400881420_A26691398.pdf)&rbrack;
 
-* [[Benson Farb]], [[Dan Margalit]]: *A primer on mapping class groups*, Princeton Mathematical Series, Princeton University Press (2012) &lbrack;[ISBN:9780691147949](https://press.princeton.edu/books/hardcover/9780691147949/a-primer-on-mapping-class-groups), [jstor:j.ctt7rkjw](https://www.jstor.org/stable/j.ctt7rkjw), [pdf](http://euclid.nmu.edu/~joshthom/Teaching/MA589/farbmarg.pdf)&rbrack;
+* {#FarbMargalit12} [[Benson Farb]], [[Dan Margalit]]: *A primer on mapping class groups*, Princeton Mathematical Series, Princeton University Press (2012) &lbrack;[ISBN:9780691147949](https://press.princeton.edu/books/hardcover/9780691147949/a-primer-on-mapping-class-groups), [jstor:j.ctt7rkjw](https://www.jstor.org/stable/j.ctt7rkjw), [pdf](http://euclid.nmu.edu/~joshthom/Teaching/MA589/farbmarg.pdf)&rbrack;
 
 Surveys:
 
@@ -146,7 +175,7 @@ Surveys:
 
 * {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of: *Lectures on tensor categories and modular functor*, University Lecture Series **21**, Amer. Math. Soc. (2001)  &lbrack;[web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21), [[BakalovKirillovChapter5.pdf:file]]&rbrack;
 
-* [[Shigeyuki Morita]]: *Introduction to mapping class groups of surfaces and related groups*, in: *Handbook of Teichmüller theory, Volume I*, EMS (2007) 353-386 &lbrack;[doi:10.4171/029-1/8](https://doi.org/10.4171/029-1/8), [[Morita-IntroductionMCG.pdf:file]]&rbrack;
+* {#Morita07} [[Shigeyuki Morita]]: *Introduction to mapping class groups of surfaces and related groups*, in: *Handbook of Teichmüller theory, Volume I*, EMS (2007) 353-386 &lbrack;[doi:10.4171/029-1/8](https://doi.org/10.4171/029-1/8), [[Morita-IntroductionMCG.pdf:file]]&rbrack;
 
 Lecture notes:
 
