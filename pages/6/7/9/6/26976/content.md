@@ -13,9 +13,9 @@ Atoms are [[regular directed complex|regular directed complexes]] with a maximal
 An **atom** is a [[regular directed complex]] whose underlying poset has a maximal element.
 \end{definition}
 
-In [[regular directed complex]], we defined a **morphism** $f \colon P \to Q$ between regular directed complex as a function of the underlying posets that respects both input and output faces, that is, $f$ induces a bijection between $\Delta^\a x$ and $\Delta^\alpha f(x)$. 
+In [[regular directed complex]], we defined a **morphism** $f \colon P \to Q$ between regular directed complex as a function of the underlying posets that respects both input and output faces, that is, $f$ induces a bijection between $\Delta^\alpha x$ and $\Delta^\alpha f(x)$. 
 
-This notion is, albeit well-suited for defining regular directed complexes, is quite restrictive. For instance, the point $\mathbf{1}$ is not a terminal object in this category. In fact, if there is a morphism $f \colon P \to Q$, then $\dim P \le \dim Q$, which prevent using morphisms for modelling degeneracies.
+This notion is, albeit well-suited for defining regular directed complexes, quite restrictive. For instance, the point $\mathbf{1}$ is not a terminal object in this category. In fact, if there is a morphism $f \colon P \to Q$, then $\dim P \le \dim Q$, which prevent using morphisms for modelling degeneracies.
 
 Instead, we define a less restrictive notion of map, that strictly generalizes the morphisms.
 
