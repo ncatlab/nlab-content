@@ -14,6 +14,10 @@ On [[computational complexity]] of [[knot]] [[quantum states]] of [[Chern-Simons
 
 * {#CMNP19} Giancarlo Camilo, [[Dmitry Melnikov]], Fábio Novaes, Andrea Prudenziati: *Circuit Complexity of Knot States in Chern-Simons theory*, J. High Energ. Phys. **2019** 163 (2019) &lbrack;[arXiv:1903.10609](https://arxiv.org/abs/1903.10609), <a href="https://doi.org/10.1007/JHEP07(2019)163">doi:10.1007/JHEP07(2019)163</a>&rbrack;
 
+On [[knots]] and ([[TQFT|topological]]) [[quantum physics]]:
+
+* [[Dmitry Melnikov]]: *A Tutorial on Knots and Quantum Mechanics* &lbrack;[arXiv:2503.08846](https://arxiv.org/abs/2503.08846)&rbrack;
+
 ## Related entries
 
 * [[framed link]]
