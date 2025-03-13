@@ -16,5 +16,9 @@ On maximal [[gauged supergravity|gauged]] [[D=2 supergravity]] via [[KK-reductio
 
 * [[Guillaume Bossard]], [[Franz Ciceri]], [[Gianluca Inverso]], [[Axel Kleinschmidt]], *Consistent truncation of eleven-dimensional supergravity on $S^8 \times S^1$* &lbrack;[arXiv:2309.07233](https://arxiv.org/abs/2309.07233)&rbrack;
 
+On [[holography]] and the [[IKKT matrix model]]:
+
+* [[Franz Ciceri]], [[Henning Samtleben]]: *Holography for the IKKT matrix model* &lbrack;[arXiv:2503.08771](https://arxiv.org/abs/2503.08771)&rbrack;
+
 
 category: people
