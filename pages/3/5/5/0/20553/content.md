@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -50,7 +51,25 @@ As a [[subgroup]] of the [[general linear group]] of [[invertible matrices]], $S
 \end{proposition}
 (cf. [Serre 1973 Thm. VII.2 p 78](#Serre73), [Conrad Thm 1.1](#Conrad))
 
-Moreover, $SL_2(\mathbb{Z})$ is *[[finitely presented group|presented]]* from these generators 
+Moreover, $SL_2(\mathbb{Z})$ is *[[finitely presented group|presented]]* via these generators as
+$$
+  SL_2(\mathbb{Z})
+  \;\simeq\;
+  \big\langle
+    S, T
+    \,\big\vert\,
+    S^4 = \mathrm{e}
+    ,\,
+    (T S)^3 = \mathrm{e}
+    ,\,
+    S^2 (T S) = (T S)S^2
+  \big\rangle
+  \,.
+$$
+
+([Blanc & Déserti 2012 §2.1](#BlancDéserti12), following [Newman 1972](#Newman72))
+
+Alternatively, $SL_2(\mathbb{Z})$ is [[finitely presented group|presented]] via the generators 
 $$
   S
   \;\coloneqq\;
@@ -75,7 +94,7 @@ $$
   \right]
   \mathrlap{\,.}
 $$
-subject to the relations $S^4 = \mathrm{e}$ and $(S T)^3 = S^2$:
+as
 $$
   SL_2(\mathbb{Z})
   \;\simeq\;
@@ -87,7 +106,7 @@ $$
     (S T)^3 = S^2
   \big\rangle
 $$
-([Serre 1980 p. 81](#Serre80), cf. [Kassel & Turaev 2008](#KasselTuraev08))
+([Serre 1980 p. 81](#Serre80), [Rubinstein & Gardiner 1979](#RubinsteinGardiner79), [Kassel & Turaev 2008 (A.2)](#KasselTuraev08))
 
 ## Related concepts
 
@@ -99,9 +118,12 @@ $$
 
 * [[S-duality]], [[U-duality]]
 
+
 ## References
 
 Textbook accounts:
+
+* {#Newman72} Morris Newman: *The Classical Modular Group and Related Groups*, chapter VIII in: *Integral Matrices*, Academic Press (1972)
 
 * {#Serre73} [[Jean-Pierre Serre]], §VII.1 of: *A Course in Arithmetic*, Graduate Texts in Mathematics **7**, Springer (1973) &lbrack;[doi:10.1007/978-1-4684-9884-4](https://doi.org/10.1007/978-1-4684-9884-4), [pdf](https://www.math.purdue.edu/~jlipman/MA598/Serre-Course%20in%20Arithmetic.pdf)&rbrack;
 
@@ -117,6 +139,12 @@ Notes:
 * {#Conrad} [[Keith Conrad]], *$SL_2(\mathbb{Z})$* &lbrack;<a href="https://kconrad.math.uconn.edu/blurbs/grouptheory/SL(2,Z).pdf">pdf</a>, [[Conrad-SL2Z.pdf:file]]&rbrack;
 
 * W. J. Harvey: *Introductory Lectures on $SL(2,Z)$ and modular forms* (2008) &lbrack;[pdf](https://www.ltcc.ac.uk/media/london-taught-course-centre/documents/Lecture-3-Notes.pdf)&rbrack;
+
+More on presentations:
+
+* {#RubinsteinGardiner79} J. H. Rubinstein, C. Gardiner, *A note on a 3-dimensional homogeneous space*, Compositio Mathematica **39** 3 (1979) 297-299 &lbrack;[numdam:CM_1979__39_3_297_0](https://www.numdam.org/item/?id=CM_1979__39_3_297_0)&rbrack;
+
+* {#BlancDéserti12} Jérémy Blanc, Julie Déserti, §2.1 in: *Embeddings of $SL(2,\mathbb{Z})$ into the Cremona group*, Transform. Groups **17** 1 (2012) 21-50 &lbrack;[arXiv:1103.0114](https://arxiv.org/abs/1103.0114), [doi:10.1007/s00031-012-9174-9](https://doi.org/10.1007/s00031-012-9174-9)&rbrack;
 
 On the [[representation theory]] of $SL_2(\mathbb{Z})$:
 
