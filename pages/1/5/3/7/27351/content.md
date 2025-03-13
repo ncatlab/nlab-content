@@ -356,6 +356,11 @@ On unoriented manifolds:
 
 * Ippo Orii: *On dimensions of $(2+1)D$ abelian bosonic topological systems on unoriented manifolds* &lbrack;[arXiv:2502.13532](https://arxiv.org/abs/2502.13532)&rbrack;
 
+Coupled to a [[Higgs field]]:
+
+* Yoonbai Kim, O-Kab Kwon, Hanwool Song, Chanju Kim: *Inhomogeneous Abelian Chern-Simons Higgs Model with New Inhomogeneous BPS Vacuum and Solitons* &lbrack;[arXiv:2409.11978](https://arxiv.org/abs/2409.11978)&rbrack;
+
+
 
 
 
