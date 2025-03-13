@@ -53,9 +53,13 @@ Ancient origins:
 
   interlinear translation by Juan and Maria Balboa (2020) &lbrack;[archive](https://archive.org/details/nicomachus-arithmetic-balboa)&rbrack;
 
+Monograph:
+
+* [[Jean-Pierre Serre]]: *A Course in Arithmetic*, Graduate Texts in Mathematics **7**, Springer (1973) &lbrack;[doi:10.1007/978-1-4684-9884-4](https://doi.org/10.1007/978-1-4684-9884-4), [pdf](https://www.math.purdue.edu/~jlipman/MA598/Serre-Course%20in%20Arithmetic.pdf)&rbrack;
+
 See also
 
-* Wikipedia, _[Arithmetic](https://en.wikipedia.org/wiki/Arithmetic)_
+* Wikipedia: _[Arithmetic](https://en.wikipedia.org/wiki/Arithmetic)_
 
 
 [[!redirects arithmetics]]
