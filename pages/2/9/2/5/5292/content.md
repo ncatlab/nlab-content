@@ -29,7 +29,7 @@ from $n$-copies of the 2-[[ball]] to itself, which restrict on each component to
 
 * a translation
 
-* a dilatation
+* a dilation
 
 * a rotation
 
