@@ -892,6 +892,17 @@ In relation to $U(1)$-[[current algebra]] ([[WZW-model]]):
 
 * [[Ludwig D. Fadeev]]: *Discrete Heisenberg-Weyl Group and modular group*, Lett Math Phys **34** (1995) 249–254 &lbrack;[doi:10.1007/BF01872779](https://doi.org/10.1007/BF01872779)&rbrack;
 
+On [[group actions]] of the [[mapping class group]] of closed oriented [[surfaces]] on integer Heisenberg groups:
+
+* [[Awais Shaukat]], [[Christian Blanchet]]: *Weakly framed surface configurations, Heisenberg homology and Mapping Class Group action*, Arch. Math. **120** (2023) 99–109 &lbrack;[arXiv:2206.11475](https://arxiv.org/abs/2206.11475), [doi:10.1007/s00013-022-01793-3](https://doi.org/10.1007/s00013-022-01793-3)&rbrack;
+
+* [[Christian Blanchet]], [[Martin Palmer]], [[Awais Shaukat]]: *Action of subgroups of the mapping class group on Heisenberg homologies*, Contemporary Mathematics &lbrack;[arXiv:2306.08614](https://arxiv.org/abs/2306.08614)&rbrack;
+
+* [[Martin Palmer]]: *Representations of the Torelli group via the Heisenberg group*, talk at *Workshop for Young Researchers in Mathematics – 10th ed.* (2021) &lbrack;[pdf](https://mdp.ac/files/2105-talk-notes-WYRM.pdf), [[Palmer-Anghel-TorelliHeisenberg.pdf:file]]&rbrack;
+
+*  [[Christian Blanchet]]: *Heisenberg homologies of surface configurations*, [talk at](CQTS#BlanchetMar2023) *[Geometric/Topological Quantum Field Theories Workshop](Center+for+Quantum+and+Topological+Systems#ConferencesMar2023)* @ [[CQTS]] NYUAD (2023) &lbrack;slides: [[Blanchet-at-QFTAndCobordism2023.pdf:file]], video:[YT](https://www.youtube.com/watch?v=prcU4v7LFZQ)&rbrack;
+
+
 The above discussion of irreps and modular automorphisms related to abelian Chern-Simons theory follows:
 
 * {#SS25} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes via Flux-Quantization]]*, Lecture Notes (2025)
