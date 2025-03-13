@@ -252,7 +252,6 @@ Lecture notes and reviews:
 
 * {#Litt} [[Daniel Litt]], _Automorphic forms notes, part I_ ([pdf](http://math.stanford.edu/~dlitt/Talks/automorphicformspt1.pdf))
 
-
 * Jan Hendrik Bruinier, Gerard van der Geer, [[Günter Harder]], Don Zagier, _The 1-2-3 of modular forms_, Lectures at a Summer School 2004 in Nordfjordeid, Norway; Universitext, Springer 2008.
 
 * [[Nora Ganter]], _[Topological modular forms literature list](http://www.ms.unimelb.edu.au/~nganter/talbot/index.html)_
@@ -260,6 +259,8 @@ Lecture notes and reviews:
 * {#Martin13} Kimball Martin, _A brief overview of modular and automorphic forms_, 2013 [pdf](http://www2.math.ou.edu/~kmartin/papers/mfs.pdf)
 
 * {#Calegari13} Frank Calegari, _Congruences between modular forms_, 2013 [pdf](https://swc-math.github.io/aws/2013/2013CalegariLectureNotes.pdf)
+
+* [[Joachim Wehler]]: *Modular Forms and Elliptic Curves* (2021) &lbrack;[pdf](https://www.mathematik.uni-muenchen.de/~wehler/ModularFormsScript.pdf)&rbrack;
 
 * Wikipedia, _[Modular form](http://en.wikipedia.org/wiki/Modular_form)_
 
