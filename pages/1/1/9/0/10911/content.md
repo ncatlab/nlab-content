@@ -147,7 +147,7 @@ See also
 
 * Alessandro Manta, [[Harold C. Steinacker]], Tung Tran: *$\mathfrak{hs}$-extended gravity from the IKKT matrix model* &lbrack;[arXiv:2411.02598](https://arxiv.org/abs/2411.02598)&rbrack;
 
-* Alessandro Manta, [[Harold C.Steinacker]]:
+* Alessandro Manta, [[Harold C. Steinacker]]:
 *Minimal covariant quantum space-time* &lbrack;[arXiv:2502.02498](https://arxiv.org/abs/2502.02498)&rbrack;
 
 
@@ -166,6 +166,9 @@ See also:
 * Shota Komatsu, Adrien Martina, João Penedones, Antoine Vuignier, Xiang Zhao: *Einstein gravity from a matrix integral -- Part I* &lbrack;[arXiv:2410.18173](https://arxiv.org/abs/2410.18173)&rbrack;
 
 * Shota Komatsu, Adrien Martina, Joao Penedones, Antoine Vuignier, Xiang Zhao: *Einstein gravity from a matrix integral -- Part II* &lbrack;[arXiv:2411.18678](https://arxiv.org/abs/2411.18678)&rbrack;
+
+* [[Franz Ciceri]], [[Henning Samtleben]]: *Holography for the IKKT matrix model* &lbrack;[arXiv:2503.08771](https://arxiv.org/abs/2503.08771)&rbrack;
+
 
 
 
