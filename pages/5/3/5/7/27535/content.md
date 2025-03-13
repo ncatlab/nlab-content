@@ -23,7 +23,7 @@
 The [[mapping class group]] $MCG(\Sigma^2_g)$
 -- of [[generalized the|the]] [[closed manifold|closed]] [[orientation|oriented]] [[surface]] $\Sigma^2_g$ of [[genus of a surface|genus]] $= g \in \mathbb{N}$ -- canonically [[group action|acts]] on the [[ordinary homology]] $H_1(\Sigma^2_g;\mathbb{Z}) \simeq \mathbb{Z}^g \times \mathbb{Z}^g$ of the surface, through the defining action of the [[symplectic group]] with [[integer]] [[coefficients]], $Sp_{2g}(\mathbb{Z}) \coloneqq Sp_{2g}(\mathbb{R}) \cap GL_{2g}(\mathbb{Z})$.
 
-The [[kernel]] of this action hence the [[subgroup]] [[trivial action|acting trivially]] on the degree=1 homology, is called the *Torelli group* $I_g$, hence making a [[short exact sequence]] of [[groups]]
+The [[kernel]] of this action hence the [[subgroup]] [[trivial action|acting trivially]] on the degree=1 homology, is called the *Torelli group* $I_g$, thus making a [[short exact sequence]] of [[groups]]
 $$
   1 
     \to 
@@ -33,10 +33,15 @@ $$
   \longrightarrow
   Sp_{2g}(\mathbb{Z})
   \to 1
-  \mathrlap{\,,}
+  \mathrlap{\,.}
 $$
 
 (reviewed by [Morita 2007 §6](#Morita07), [Farb & Margalit 2012 §6](#FarbMargalit12))
+
+
+## Related concepts
+
+* [[congruence subgroup]]
 
 ## References
 
@@ -55,3 +60,9 @@ Review:
 
 
 [[!redirects Torelli groups]]
+
+[[!redirects Torelli subgroup]]
+[[!redirects Torelli subgroups]]
+
+
+
