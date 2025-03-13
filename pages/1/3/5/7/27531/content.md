@@ -85,7 +85,7 @@ It is enough to prove this lemma for the character $\phi$ of a representation $\
 
 $$ \rho(g) \circ \rho(r_i)W=\rho(g r_i) W=\rho(r_{i'})W $$
 
-where $g r_i=r_{i'}h$ for some $h\in H$. To show that $ind(\phi)(g)=\text{tr}_V(\rho(g))$ vanishes, we now choose a basis for $V$ that is a union of the bases of the subspaces $\rho(r_i)W$.  In this basis for $V$, the diagonal matrix entry of $\rho(g)$ vanishes for each basis vector in $\rho(r_i)W$ if $r_i\neq r_{i'}$.  But $r_i=r_{i'}$ would imply $r_i^{-1} g r_i \in H$, which is ruled out by our assumption that $x$ is not conjugate to any $g \in H$.  Thus, all the diagonal matrix entries of $\rho(g)$ vanish, and $\text{tr}_V(\rho_x)=0$ as desired. 
+where $g r_i=r_{i'}h$ for some $h\in H$. To show that $ind(\phi)(g)=\text{tr}_V(\rho(g))$ vanishes, we now choose a basis for $V$ that is a union of the bases of the subspaces $\rho(r_i)W$.  In this basis for $V$, the diagonal matrix entry of $\rho(g)$ vanishes for each basis vector in $\rho(r_i)W$ if $r_i\neq r_{i'}$.  But $r_i=r_{i'}$ would imply $r_i^{-1} g r_i = h \in H$, which is ruled out by our assumption that $g$ is not conjugate to any element of $H$.  Thus, all the diagonal matrix entries of $\rho(g)$ vanish, and $\text{tr}_V(\rho_x)=0$ as desired. 
 
 =--
 
