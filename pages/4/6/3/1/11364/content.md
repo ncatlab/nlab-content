@@ -53,7 +53,7 @@ Alternatively, a fractional linear transformation can be considered as synonymou
 
 In [[complex analysis]] (which is the usual context when one speaks of M&#246;bius transformations; otherwise one usually calls them by some combination of "linear" and "fractional"), M&#246;bius transformations are precisely the [[biholomorphisms]] of the [[Riemann sphere]], hence exactly its [[bijection|bijective]] [[conformal transformations]]. 
 
-Often, and particularly when $k$ is the the [[commutative ring]] of [[integers]] $\mathbb{Z}$, one considers a _modular group_ where the coefficients $a, b, c, d$ are assumed to lie in an [[integral domain]] and $a d - b c = 1$. (The [[homotopy quotient]] of the [[upper half-plane]] by the group $PGL_2(\mathbb{Z})$ is the [[moduli stack of elliptic curves]] over the [[complex numbers]].) 
+Often, and particularly when $k$ is the the [[commutative ring]] of [[integers]] $\mathbb{Z}$, one considers a _[[modular group]]_ where the coefficients $a, b, c, d$ are assumed to lie in an [[integral domain]] and $a d - b c = 1$. (The [[homotopy quotient]] of the [[upper half-plane]] by the group $PGL_2(\mathbb{Z})$ is the [[moduli stack of elliptic curves]] over the [[complex numbers]].) 
 
 ## Properties 
 
@@ -87,8 +87,9 @@ $$H^3 = \{v = (\vec{x}, t): Q(v) = 1, t \gt 0\}$$
 which is naturally identified with hyperbolic 3-space. There is a Poincar&#233; disk model for $H^3$; consider the disk $D^3$ that is the intersection of the [[future cone]] $\{v = (\vec{x}, t): Q(v) \geq 0, t \gt 0\}$ with the hyperplane $t = 1$. Its interior is an open 3-disk $int(D^3)$ which can be placed in perspective with $H^3$ by considering lines through the origin in $\mathbb{R}^4$: each line that passes through a unique point in $H^3$ passes through a unique point of $int(D^3)$. In this way, $D^3$ is viewed as a natural compactification of $H^3$, and the action of $PSL_2(\mathbb{C})$ on $H^3$ induces an action of $PSL_2(\mathbb{C})$ on $D^3$. The restriction of this action to the boundary $S^2 = \partial D^3$ ("the heavenly sphere") coincides with the action on the Riemann sphere $S^2 = \mathbb{P}^1(\mathbb{C})$. 
 
 ## Modular group 
+ {#ModularGroup}
 
-The _modular group_ $\Gamma$ is the subgroup $PSL_2(\mathbb{Z}) \hookrightarrow PSL_2(\mathbb{C})$ consisting of M&#246;bius transformations with [[integer]] [[coefficients]], hence maps $z \mapsto \frac{a z + b}{c z + d}$ with $a, b, c, d \in \mathbb{Z}$ and $a d - b c = 1$. 
+The _[[modular group]]_ $\Gamma$ is the subgroup $PSL_2(\mathbb{Z}) \hookrightarrow PSL_2(\mathbb{C})$ consisting of M&#246;bius transformations with [[integer]] [[coefficients]], hence maps $z \mapsto \frac{a z + b}{c z + d}$ with $a, b, c, d \in \mathbb{Z}$ and $a d - b c = 1$. 
 
 The group $PSL_2(\mathbb{R})$ acts on the [[upper half-plane]] $H = \{z \in \mathbb{C}: Im(z) \geq 0\}$ (or rather $H \cup \{\infty\}$ as a [[subspace]] of the [[Riemann sphere]]), by restriction of the action of $PSL_2(\mathbb{C})$ on the Riemann sphere. Indeed, the action of $PSL_2(\mathbb{R})$ takes the real line $\mathbb{R} \cup \{\infty\}$ to itself, and any element $f(z) = \frac{a z + b}{c z + d}$ takes $i$ to $(b + a i)(d - c i)/(c^2 + d^2)$, whose imaginary part $(ad - b c)/(c^2 + d^2) = 1/(c^2 + d^2)$ is positive. By continuity it follows that the action preserves the sign of the imaginary part, hence takes the upper-half plane $H$ to itself. 
 
@@ -146,11 +147,15 @@ where $q$ is the unique homomorphism mapping $\sigma_1\sigma_2$ to $\lambda z. (
 
 Named after _[[August Möbius]]_.
 
+* [[Jean-Pierre Serre]], §VII.1 of: *A Course in Arithmetic*, Graduate Texts in Mathematics **7**, Springer (1973) &lbrack;[doi:10.1007/978-1-4684-9884-4](https://doi.org/10.1007/978-1-4684-9884-4), [pdf](https://www.math.purdue.edu/~jlipman/MA598/Serre-Course%20in%20Arithmetic.pdf)&rbrack;
+
+
 See also:
 
 * Wikipedia, _[Projective linear group](https://en.m.wikipedia.org/wiki/Projective_linear_group)_
 
 [[!redirects PSL(2,C)]]
+[[!redirects PSL(2,Z)]]
 
 [[!redirects Moebius transformations]]
 [[!redirects moebius transformation]]
@@ -166,8 +171,5 @@ See also:
 
 [[!redirects Möbius group]]
 [[!redirects Moebius group]]
-
-[[!redirects modular group]]
-[[!redirects modular groups]]
 
 
