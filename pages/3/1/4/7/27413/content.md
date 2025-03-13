@@ -85,6 +85,8 @@ The [[exponential conjunction]] and [[exponential disjunction]] can be defined e
 
 $$!P \coloneqq P \boxtimes P \quad ?P \coloneqq P \boxplus P$$
 
+The type of mutually exclusive propositions is a [[De Morgan algebra]] where the [[distributive lattice]] structure is given by the [[additive conjunction]] and [[additive disjunction]] of the [[affine logic]] of mutually exclusive propositions, and the [[involution]] is given by the [[linear negation]]. 
+
 ### Excluded middle
 
 Suppose that the [[law of excluded middle]] holds in the [[intuitionistic logic]], so that the logic becomes [[classical logic]]. Then $\mathrm{Prop}$ is equivalent to the [[boolean domain]] $\mathbb{2}$, and $\mathrm{Prop}_\pm$ is equivalent to the three-element set $\{(\top, \bot), (\bot, \bot), (\bot, \top)\}$ representing the propositions in [[Łukasiewicz logic]]. As a result, the affine predicate logic in the antithesis interpretation becomes predicate Łukasiewicz logic. The affirmative and refutative pairs of mutually exclusive propositions are all decidable. 
