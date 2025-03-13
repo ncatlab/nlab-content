@@ -112,7 +112,7 @@ However, if $X\in D$ is such that $B \cong D/X$ (such exists by definition of $q
 
 +--{: .num_prop}
 ###### Proposition
-Any locally connected geometric morphism factors as a connected and locally connected geometric morphism followed by an etale one.
+Any [[locally connected geometric morphism]] factors as a connected and locally connected geometric morphism followed by an etale one.
 =--
 +--{: .proof}
 ###### Proof
