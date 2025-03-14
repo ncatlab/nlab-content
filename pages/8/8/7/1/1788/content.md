@@ -1,20 +1,40 @@
 
-$$
-  S^2 T S = T S^3 = T S^{-1}
-$$
-$$
-  S T S = S^{-1} T S^{-1}
-$$
+On the $k$-dimensional complex vector space $Span_{\mathbb{C}}\Big( {\vert 0 \rangle}, \, {\vert 1 \rangle}, \cdots, {\vert k-1 \rangle} \Big)$ consider the linear operators
 
 $$
-  T S T S T S \,=\, \mathrm{e}
+  \begin{array}{ccl}
+  S
+    {\big\vert n \big\rangle}
+  &=&
+  \frac{1}{\sqrt{\vert k \vert}}
+  \sum_{ \widehat n }
+  \,
+  e^{
+    2 \pi \mathrm{i}
+     \tfrac{
+       \widehat{n} \, n
+     }{
+       k
+     }
+  }
+  {\big\vert \widehat{n} \big\rangle}
+  \\
+  T
+  {\big\vert n \big\rangle}
+  &=&
+  e^{ 
+    \pi \mathrm{i}
+    \tfrac{ n^2 }{ k }
+  }
+  {\big\vert
+    n 
+  \big\rangle}
+  \end{array}
 $$
 
-$$
-  S T S 
-    \,=\, 
-  T^{-1} S^{-1} T^{-1}
-$$
+The claim is that this gives a (projective) representation of $SL_2(\mathbb{Z})$.
+
+It is immediate that $S^2 {\vert n \rangle} = {\vert -n \rangle}$ and hence that $S^4 = id$ and that $S^2$ commutes with $T S$. But how about the remaining relation $(T S)^3 = id$:
 
 $$
   \begin{array}{l}
@@ -26,6 +46,7 @@ $$
     {\vert n \rangle}
     \\
     \;=\;
+    T^{-1}
     \tfrac{1}{\sqrt{k}}
     \sum_{\widehat{n}}
     e^{ 
@@ -57,17 +78,17 @@ $$
     }
     {\vert \widehat{n} \rangle}
   \end{array}
-$$
-
-$$
+  \;\;\;\;\;\;\;\;\;\;\;
+  \text{and}
+  \;\;\;\;\;\;\;\;\;\;\;
   \begin{array}{l}
   S T S
-    {\big\vert [n] \big\rangle}
+    {\big\vert n \big\rangle}
   \;=\;
   S T 
   \frac{1}{\sqrt{\vert k \vert}}
   \sum_{
-      [\widehat n] 
+      \widehat n
   }
   \,
   e^{
@@ -78,13 +99,13 @@ $$
        k
      }
   }
-  {\big\vert[\widehat{n}]\big\rangle}
+  {\big\vert \widehat{n} \big\rangle}
   \\
   \;=\;
   S
   \tfrac{1}{\sqrt{k}}
   \sum_{
-      [\widehat n] 
+      \widehat n
   }
   \,
   e^{
@@ -95,14 +116,14 @@ $$
       \widehat{n}^2
     )
   }
-  {\big\vert[\widehat{n}]\big\rangle}
+  {\big\vert \widehat{n} \big\rangle}
   \\
   \;=\;
   \frac{1}{k}
   \sum_{
-    [\widehat n]
+    \widehat n
     ,\,
-    [\widehat{\widehat{n}}]
+    \widehat{\widehat{n}}
   }
   \,
   e^{
@@ -115,62 +136,51 @@ $$
       2 \widehat{\widehat{n}} \widehat{n}
     )
   }
-  {\big\vert[\widehat{\widehat{n}}]\big\rangle}
+  {\big\vert \widehat{\widehat{n}} \big\rangle}
   \\
   \;=\;
-  \frac{1}{k}
-  \sum_{
-    [\widehat n]
-    ,\,
-    [\widehat{\widehat{n}}]
-  }
+  \frac{1}{\sqrt{k}}
+  \sum_{ \widehat{\widehat{n}} }
+  \underset{?}{
+  \underbrace{
+  \tfrac{1}{\sqrt{k}}
+  \sum_{ \widehat n }
   \,
   e^{
     \tfrac{\pi \mathrm{i}}{k}
-    \big(
       (\widehat{n} + (n + \widehat{\widehat{n}}))^2
-      -
-      (n + \widehat{\widehat{n}})^2
-    \big)
   }
-  {\big\vert[\widehat{\widehat{n}}]\big\rangle}
+  }
+  }
+  e^{
+    -
+    \tfrac{\pi \mathrm{i}}{k}
+      (n + \widehat{\widehat{n}})^2
+  }
+  {\big\vert \widehat{\widehat{n}} \big\rangle}
 \end{array}
 $$
 
+
+
 $$
-  \begin{array}{ccr}
-  S\Big(
-    {\big\vert [n] \big\rangle}
-  \Big)
-  &=&
-  \frac{1}{\sqrt{\vert k \vert}}
-  \sum_{
-      [\widehat n] 
-  }
-  \,
-  e^{
-    2 \pi \mathrm{i}
-     \tfrac{
-       \widehat{n} \, n
-     }{
-       k
-     }
-  }
-  {\big\vert[\widehat{n}]\big\rangle}
-  \\
-  T\Big(
-    {\big\vert [n] \big\rangle}
-  \Big)
-  &=&
-  e^{ 
-    \pi \mathrm{i}
-    \tfrac{ n^2 }{ k }
-  }
-  {\big\vert
-   [ n ]
-  \big\rangle}
-  \end{array}
+  S^2 T S = T S^3 = T S^{-1}
 $$
+$$
+  S T S = S^{-1} T S^{-1}
+$$
+
+$$
+  T S T S T S \,=\, \mathrm{e}
+$$
+
+$$
+  S T S 
+    \,=\, 
+  T^{-1} S^{-1} T^{-1}
+$$
+
+
 
 $$
   T
