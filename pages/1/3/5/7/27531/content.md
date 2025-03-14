@@ -1,4 +1,4 @@
-[[!redirects Artin&#39;s induction theorem]]
+[[!redirects Artin's induction theorem]]
 [[!redirects Artin&#39;s induction theorem]]
 
 +-- {: .rightHandSide}
@@ -19,43 +19,40 @@
 
 ## Idea
 
-_Artin's induction theorem_ says that working over the ground field of [[complex numbers]], the [[character]] of any finite-dimensional representation of a [[finite group]] $G$ is a rational linear combination of characters of representations induced from [[cyclic group|cyclic]] [[subgroups]] of $G$.  
+_Artin's induction theorem_ says that, working over the [[ground field]] of [[complex numbers]], the [[character]] of any [[finite-dimensional vector space|finite-dimensional]] [[representation]] of a [[finite group]] $G$ is a [[rational numbers|rational]] [[linear combination]] of characters of representations [[induced representation|induced]] from [[cyclic group|cyclic]] [[subgroups]] of $G$.  
 
 Historically this is a precursor to the [[Brauer induction theorem]], but neither result follows immediately from the other.  Brauer showed that every character is an _integral_ linear combination of characters of representations of a larger class of subgroups of $G$, the so-called [[elementary subgroups]].  
 
-One thing [[elementary groups]] and cyclic groups have in common is that all their irreducible representations are one-dimensional, so in each case the result shows that every character of $G$ is a linear combination (either rational or integral) of characters of representations induced from one-dimensional representations of subgroups.
+One thing [[elementary groups]] and cyclic groups have in common is that all their [[irreducible representations]] are one-dimensional, so in each case the result shows that every character of $G$ is a linear combination (either rational or integral) of characters of representations induced from one-dimensional representations of subgroups.
 
-## Proof ##
+## Statement and Proof ##
 
-In _Linear Representations of Finite Groups_, [[Serre]] states Artin's induction theorem in the following more general way:
+[Serre 1977, Thm. 17](#Serre77) ([p. 70](https://www.math.tau.ac.il/~borovoi/courses/ReprFG/Hatzagot.pdf#page=78)) states Artin's induction theorem in the following more general way:
 
-
-+-- {: .num_thm}
-###### Theorem
+\begin{theorem}
 **(Artin induction theorem (Serre's version))**
-
-Let $G$ be a finite group and $X$ any family of subgroups.
+\linebreak
+Let $G$ be a finite group and $X$ any [[indexed set|family]] of [[subgroups]].
 
 Then the following are equivalent:
 
-1. $G$ is the union of conjugates of the subgroups in $X$
+1. $G$ is the [[union]] of [[conjugate subgroup|conjugates]] of the subgroups in $X$
 
 2. for every character $\chi$ of $G$ there exist characters $\chi_H$ of $H$ for each $H \in X$ and $n \in \N$ such that $n \chi = \sum_{H\in X} ind_H^G(\chi_H)$.
 
-=--
-
+\end{theorem}
 
 This in turn implies Artin's original version, by choosing $X$ to be the set of all cyclic subgroups of $G$.
 
 We begin by recalling some preliminary concepts and notation.
 
-The [[representation ring]] $R(G)$ of $G$ is the set of  formal differences of isomorphism classes of (finite-dimensional, complex) representations of $G$, made into a ring using the tensor product of representations.   Using the fact that any representation of $G$ has a [[character]] which is a [[class function]], we can treat $R(G)$ as a  sub-ring of the $\mathbb{C}$-algebra of [[class function|class functions]] on $G$.  Indeed that algebra is isomorphic to $\mathbb{C}\otimes R(G)$.  
+The [[representation ring]] $R(G)$ of $G$ is the set of  formal differences of [[isomorphism classes]] of ([[finite-dimensional vector space|finite-dimensional]], [[complex numbers|complex]]) [[representations]] of $G$, made into a [[ring]] using the [[tensor product of representations]]. Using the fact that any representation of $G$ has a [[character]] which is a [[class function]], we can treat $R(G)$ as a  sub-ring of the $\mathbb{C}$-algebra of [[class functions]] on $G$.  Indeed that algebra is [[isomorphism|isomorphic]] to $\mathbb{C}\otimes R(G)$.  
 
-The functor of restricting representations of $G$ to a subgroup $H \subseteq G$ and the adjoint functor of inducing representations from $H$ to $G$ give abelian group homomorphisms:
+The functor of [[restricted representation|restricting representations]] of $G$ to a subgroup $H \subseteq G$ and the [[adjoint functor]] of [[induced representation|inducing representations]] from $H$ to $G$ give abelian group homomorphisms:
 
-$$ res_H^G: R(G) \to R(H) $$
+$$ res_H^G \colon R(G) \to R(H)\,, $$
 
-$$ ind_H^G: R(H) \to R(G) $$
+$$ ind_H^G \colon R(H) \to R(G)\,. $$
 
 With these notations, Serre's theorem can be equivalently rewritten as follows:
 
@@ -64,7 +61,7 @@ With these notations, Serre's theorem can be equivalently rewritten as follows:
 
 If $X$ is a family of subgroups of $G$, the following properties are equivalent:
 
-1) $G$ is the union of the conjugates of the subgroups in $X$
+1) $G$ is the union of the [[conjugate subgroup|conjugates]] of the subgroups in $X$
 
 2) The cokernel of $ind \colon \bigoplus_{H\in X} R(H) \to R(G)$ is finite.
 
@@ -115,7 +112,7 @@ We use Lemma 2 to replace assumption 2) with the equivalent 2').
 
 First we prove 2') $\implies$ 1).   Lemma 1 implies that all elements in the image of $ind \colon \bigoplus_{H\in X}R(H) \to  R(G)$ vanish on every $g \in G$ in the set
 
-$$ S := G - \bigcup_{g\in G, H \in X} g^{-1}H g .$$
+$$ S \coloneqq G - \bigcup_{g\in G, H \in X} g^{-1}H g\,.$$
 
 The same therefore holds for all elements in the image of the $\mathbb{C}$-linear map 
 
@@ -127,5 +124,16 @@ Next we prove 1) $\implies$ 2').  By [[Frobenius reciprocity]], proving the surj
 
 $$ \mathbb{C}\otimes res \colon \mathbb{C}\otimes R(G) \to \mathbb{C}\otimes\bigoplus_{H\in X}R(H).$$
 
-But this is clearly true, because it says that if a character vanishes on every conjugacy class of $G$ it vanishes, which holds because characters are constant on each conjugacy class.
+But this is clearly true, because it says that if a character vanishes on every [[conjugacy class]] of $G$ it vanishes, which holds because characters are constant on each conjugacy class.
+
 =--
+
+## Related entries
+
+* [[Brauer induction theorem]]
+
+## References
+
+* {#Serre77} [[Jean-Pierre Serre]]: *Artin's theorem*, chapter 9 in: *Linear Representations of Finite Groups*, Graduate Texts in Mathematics **42**, Springer (1977) &lbrack;[doi:10.1007/978-1-4684-9458-7](https://doi.org/10.1007/978-1-4684-9458-7), [pdf](https://www.math.tau.ac.il/~borovoi/courses/ReprFG/Hatzagot.pdf)&rbrack;
+
+
