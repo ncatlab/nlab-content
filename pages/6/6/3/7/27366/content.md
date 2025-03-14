@@ -690,7 +690,7 @@ $$
     \delta_{-n}(\widehat{\widehat{n}})
   }{
   \underbrace{
-  \frac{1}{k}
+  \tfrac{1}{k}
   \sum_{
       [\widehat n] 
   }
@@ -714,14 +714,14 @@ $$
   \,,
   \end{array}
 $$
-which immediately implies the relation $S^4 = \mathrm{id}$ and, with 
+which immediately implies the relation $S^4 = \mathrm{id}$ and that, with 
 $$
   T \circ S
   \Big(
     {\big\vert [n] \big\rangle}
   \Big)
   \;=\;
-  \frac{1}{\sqrt{\vert k \vert} c_k}
+  \tfrac{1}{\sqrt{\vert k \vert} c_k}
   \displaystyle{
     \sum_{
         [\widehat n] 
@@ -1138,7 +1138,7 @@ $$
     \Big)
     &\equiv&
     W_b \, W_a \, 
-    e^{2\pi \mathrm{i} \tfrac{1}{k}}
+    e^{\pi \mathrm{i} \tfrac{1}{k}}
     \,
     e^{\pi \mathrm{i} \tfrac{n^2}{k}}
     {\big\vert
