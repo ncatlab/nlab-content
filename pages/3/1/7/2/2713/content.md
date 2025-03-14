@@ -161,6 +161,8 @@ See also
 
 * [[Alain Connes]], [[Matilde Marcolli]], chapter I, section 10 of _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
+* [[Masoud Khalkhali]] _Basic Noncommutative Geometry_, Europ. Math. Soc. (2009) &lbrack;[ems:elm/225](https://ems.press/books/elm/225), [pdf](https://www.math.nagoya-u.ac.jp/~richard/teaching/s2015/Khalkhali_13.pdf)&rbrack;
+
 
 The terminology  of spectral triples was introduced in
 
