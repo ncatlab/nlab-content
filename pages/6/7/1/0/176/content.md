@@ -453,10 +453,15 @@ Introduction and surveys:
 
 * Yu Nakayama, _A lecture note on scale invariance vs conformal invariance_, [arXiv:1302.0884](http://arxiv.org/abs/1302.0884)
 
-* [[Katrin Wendland]], _Snapshots of Conformal Field Theory_, in:
-Mathematical Aspects of Quantum Field Theories. Mathematical Physics Studies. Springer 2015  ([arXiv:1404.3108](http://de.arxiv.org/abs/1404.3108), [doi:10.1007/978-3-319-09949-1_4](https://doi.org/10.1007/978-3-319-09949-1_4))
+* [[Christoph Schweigert]]: *Introduction to conformal field theory*, lecture notes (2013/14) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schweigert/skripten/cftskript.pdf)&rbrack;
 
-* [[Jörg Teschner]], _A guide to two-dimensional conformal field theory_ ([arXiv:1708.00680](http://arxiv.org/abs/1708.00680))
+* [[Katrin Wendland]], _Snapshots of Conformal Field Theory_, in: *Mathematical Aspects of Quantum Field Theories*, Mathematical Physics Studies, Springer (2015)  &lbrack;[arXiv:1404.3108](http://de.arxiv.org/abs/1404.3108), [doi:10.1007/978-3-319-09949-1_4](https://doi.org/10.1007/978-3-319-09949-1_4)&rbrack;
+
+* [[Hans Jockers]] (notes by Walker Stern): *Conformal Field Theory*, lecture notes (2016) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/stern/Notes/CFT/Notes_CFT.pdf)&rbrack;
+
+* [[Bert Schellekens]]: *Conformal Field Theory*, lecture notes (2017) &lbrack;[pdf](https://www.nikhef.nl/~t58/CFT.pdf)&rbrack;
+
+* [[Jörg Teschner]], _A guide to two-dimensional conformal field theory_ &lbrack;[arXiv:1708.00680](http://arxiv.org/abs/1708.00680)&rbrack;
 
 * Joaquin Liniado, *Two Dimensional Conformal Field Theory and a Primer to Chiral Algebras* ([arXiv:2110.15164](https://arxiv.org/abs/2110.15164))
 
@@ -501,8 +506,7 @@ Discussion in relation to the [[AdS-CFT correspondence]]:
 
 For chiral 2d CFT:
 
-* [[Edward Frenkel]], [[David Ben-Zvi]], _Vertex algebras and algebraic curves_, Math. Surveys and Monographs __88__, AMS 2001,
-xii+348 pp. (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S0273-0979-02-00955-2/S0273-0979-02-00955-2.pdf), [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1106.17035&format=complete))
+* [[Edward Frenkel]], [[David Ben-Zvi]]: _Vertex algebras and algebraic curves_, Math. Surveys and Monographs __88__, AMS (2001) (Bull. AMS. [review](http://www.ams.org/journals/bull/2002-39-04/S0273-0979-02-00955-2/S0273-0979-02-00955-2.pdf), [ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1106.17035&format=complete))
 
 * [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_, Colloqium Publications __51__,  Amer. Math. Soc. 2004, [gbooks](http://books.google.hr/books?id=yHZh3p-kFqQC&lpg=PP1&vq=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&dq=isbn%3A0817638296&pg=PP1#v=onepage&q=%22Two-dimensional%20conformal%20geometry%20and%20vertex%20operator%20algebras%22&f=false)
 
