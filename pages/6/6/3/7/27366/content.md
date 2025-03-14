@@ -824,6 +824,9 @@ $$
   {\big\vert[\widehat{\widehat{n}}]\big\rangle}
   \end{array}
 $$
+
+> this is wrong... to be fixed...
+
 and then
 $$
   \begin{array}{l}
