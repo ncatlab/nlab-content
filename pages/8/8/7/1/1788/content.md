@@ -1,4 +1,10 @@
 
+$$
+  S^2 T S = T S^3 = T S^{-1}
+$$
+$$
+  S T S = S^{-1} T S^{-1}
+$$
 
 $$
   T S T S T S \,=\, \mathrm{e}
