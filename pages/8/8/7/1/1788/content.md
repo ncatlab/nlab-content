@@ -61,8 +61,7 @@ $$
 
 $$
   \begin{array}{l}
-  S T 
-  S
+  S T S
     {\big\vert [n] \big\rangle}
   \;=\;
   S T 
@@ -115,6 +114,24 @@ $$
       +
       2 \widehat{\widehat{n}} \widehat{n}
     )
+  }
+  {\big\vert[\widehat{\widehat{n}}]\big\rangle}
+  \\
+  \;=\;
+  \frac{1}{k}
+  \sum_{
+    [\widehat n]
+    ,\,
+    [\widehat{\widehat{n}}]
+  }
+  \,
+  e^{
+    \tfrac{\pi \mathrm{i}}{k}
+    \big(
+      (\widehat{n} + (n + \widehat{\widehat{n}}))^2
+      -
+      (n + \widehat{\widehat{n}})^2
+    \big)
   }
   {\big\vert[\widehat{\widehat{n}}]\big\rangle}
 \end{array}
