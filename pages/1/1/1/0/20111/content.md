@@ -18,7 +18,7 @@
 
 ## Idea
 
-The _Brauer induction theorem_ ([Brauer 46](#Brauer46)) states that, for [[ground field]] the [[complex numbers]], [[finite dimensional vector space|finite-dimensional]] [[linear representations]] $V$ of a [[finite group]] $G$ all arise as [[virtual representation|virtual combinations]] of [[induced representations]] $ind_{H}^G \big(W\big)$ of just 1-dimensional representations $W$, $dim_{\mathbb{C}}(W) =1$:
+The _Brauer induction theorem_ ([Brauer 1946](#Brauer46)) states that, for [[ground field]] the [[complex numbers]], [[finite dimensional vector space|finite-dimensional]] [[linear representations]] $V$ of a [[finite group]] $G$ all arise as [[virtual representation|virtual combinations]] of [[induced representations]] $ind_{H}^G \big(W\big)$ of just 1-dimensional representations $W$, $dim_{\mathbb{C}}(W) =1$:
 
 
 \[
@@ -249,6 +249,11 @@ such that
 
 
 (...)
+
+## Related entries
+
+* [[Artin induction theorem]]
+
 
 ## References
 
