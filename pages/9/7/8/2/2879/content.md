@@ -156,5 +156,10 @@ On [[Hopf-Galois extension|Hopf-Galois extensions]] of Hopf algebroids
 
 * Xiao Han, Peter Schauenburg. *Hopf Galois extensions of Hopf algebroids* (2024). ([arXiv:2406.11058](https://arxiv.org/abs/2406.11058)).
 
+On a [[star-algebra|*-structure]] on Hopf algebroids
+
+* Edwin Beggs, Xiao Han, [[Shahn Majid]]. $*$*-Hopf algebroids* (2024). ([arXiv:2412.21089](https://arxiv.org/abs/2412.21089)).
+
+
 category: algebra
 [[!redirects Hopf algebroids]]
