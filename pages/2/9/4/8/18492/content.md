@@ -1,7 +1,15 @@
 
-* [institute page](http://www.th.physik.uni-bonn.de/Groups/Klemm/members.php)
+
+* [research group page](https://www.thep.physik.uni-mainz.de/group-of-hans-jockers/)
+
+* [inSpire page](https://inspirehep.net/authors/1039642)
 
 ## Selected writings
+
+On [[conformal field theory]]:
+
+* [[Hans Jockers]] (notes by Walker Stern): *Conformal Field Theory*, lecture notes (2016) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/stern/Notes/CFT/Notes_CFT.pdf)&rbrack;
+
 
 On [[quantum K-theory rings]]:
 
