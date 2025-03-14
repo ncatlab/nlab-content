@@ -31,7 +31,7 @@ This formula is usually given only in the case when $\phi$ is injective, when it
 
 ## References
 
-* [[J-P. Serre]], *Linear Representations of Finite Groups*
+* {#Serre77} [[Jean-Pierre Serre]]: *Linear Representations of Finite Groups*, Graduate Texts in Mathematics **42**, Springer (1977) &lbrack;[doi:10.1007/978-1-4684-9458-7](https://doi.org/10.1007/978-1-4684-9458-7), [pdf](https://www.math.tau.ac.il/~borovoi/courses/ReprFG/Hatzagot.pdf)&rbrack;
 
 * [MO question](http://mathoverflow.net/questions/89928/induced-character-for-non-injective-homomorphisms) about the non-injective case.
 
