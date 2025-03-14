@@ -442,10 +442,11 @@ For more see [Floratos & Tsohantjis 2022](#FloratosTsohantjis22).
 **(relation to [[quantum states]] and [[quantum observables]] of [[abelian Chern-Simons theory]])**
 \linebreak
 The [[complex numbers|complex]] [[dimension of a vector space|dimension]] of the [[irrep]] $\mathscr{H}_1$ (eq:IrrepOfInyegerHeisenbergGroup) is that expected for the [[space of quantum states]] of [[abelian Chern-Simons theory]] on a [[2-torus]] (cf. [Manoliu 1998a p 40](abelian+Chern-Simons+theory#Manoliu98a))
-$$
+\[
+  \label{CSLevel}
   dim(\mathscr{H}_1) \;=\; k
   \,,
-$$
+\]
 and the [[group commutator]]-relation (eq:RepresentationOfBasicGroupCommutator)
 $$
   W_a \cdot W_b 
@@ -563,7 +564,8 @@ and *[[finitely presented group|presented]]* via these generators subject to the
 
 \begin{proposition}
 \label{ModularEquivariantHeisenbergRepresentation}
-There exists a [[linear representation]]
+For [[even number|even]] $k$ (eq:CSLevel)
+there exists a [[linear representation]]
 \[
   \label{ModularActionOnH1}
   \begin{array}{ccc}
@@ -613,7 +615,7 @@ $$
   \,.
 $$
 
-This representation (eq:ModularActionOnH1) is just the [[modular functor|modular action]] known from [[abelian Chern-Simons theory]] at [[level (Chern-Simons theory)|level]] $k$ (cf. [Manoliu 1998a p 67](abelian+Chern-Simons+theory#Manoliu98a)):
+This representation (eq:ModularActionOnH1) is just the [[modular functor|modular action]] known from [[abelian Chern-Simons theory]] at [[even number|even]] [[level (Chern-Simons theory)|level]] $k$ (cf. [Manoliu 1998a p 67](abelian+Chern-Simons+theory#Manoliu98a)):
 \[
   \label{RepresentationOfModularGenerators}
   \begin{array}{ccr}
@@ -824,9 +826,6 @@ $$
   {\big\vert[\widehat{\widehat{n}}]\big\rangle}
   \end{array}
 $$
-
-> this is wrong... to be fixed...
-
 and then
 $$
   \begin{array}{l}
