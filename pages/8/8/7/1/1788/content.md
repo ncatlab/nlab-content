@@ -35,6 +35,130 @@ $$
   \end{array}
 $$
 
+$$
+  T
+  S
+    {\big\vert [n] \big\rangle}
+  \;=\;
+  \frac{1}{\sqrt{\vert k \vert}}
+  \sum_{
+      [\widehat n] 
+  }
+  \,
+  e^{
+     \tfrac{
+       \pi \mathrm{i}
+     }{k}
+     (
+       \widehat{n}^2
+       +
+       2\widehat{n} \, n
+     )
+  }
+  {\big\vert[\widehat{n}]\big\rangle}
+$$
+
+$$
+  \begin{array}{l}
+  (T S)^2
+    {\big\vert [n] \big\rangle}
+  \;=\;
+  \frac{1}{k}
+  \sum_{
+      [\widehat{\widehat n}] 
+  }
+  \sum_{
+      [\widehat n] 
+  }
+  \,
+  e^{
+     \tfrac{
+       \pi \mathrm{i}
+     }{k}
+     (
+       \widehat{n}^2
+       +
+       2\widehat{n} \, n
+       +
+       \widehat{\widehat{n}}^2
+       +
+       2\widehat{\widehat{n}} \, \widehat{n}
+     )
+  }
+  {\big\vert[\widehat{\widehat{n}}]\big\rangle}
+  \\
+  \;=\;
+  \frac{1}{k}
+  \sum_{
+      [\widehat{\widehat n}] 
+  }
+  \sum_{
+      [\widehat n] 
+  }
+  \,
+  e^{
+     \tfrac{
+       \pi \mathrm{i}
+     }{k}
+     (
+       (\widehat{n} + n + \widehat{\widehat{n}})^2
+       -
+       (n + \widehat{\widehat{n}})^2
+       +
+       \widehat{\widehat{n}}^2
+     )
+  }
+  {\big\vert[\widehat{\widehat{n}}]\big\rangle}
+  \\
+  \;=\;
+  const
+  \sum_{
+      [\widehat{\widehat n}] 
+  }
+  \,
+  e^{
+     \tfrac{
+       \pi \mathrm{i}
+     }{k}
+     (
+       -n^2 - 2 \widehat{\widehat{n}}n
+     )
+  }
+  {\big\vert[\widehat{\widehat{n}}]\big\rangle}
+  \end{array}
+$$
+
+
+$$
+  \begin{array}{l}
+    (T S)^3
+      {\big\vert [n] \big\rangle}
+    \\
+    \;=\;
+  const
+  \sum_{
+      [\widehat{\widehat{\widehat n}}] 
+  }
+  \sum_{
+      [\widehat{\widehat n}] 
+  }
+  \,
+  e^{
+     \tfrac{
+       \pi \mathrm{i}
+     }{k}
+     (
+       -n^2 - 2 \widehat{\widehat{n}}n
+       + 
+       \widehat{\widehat{\widehat{n}}}^2
+       +
+       2 \widehat{\widehat{\widehat{n}}}\widehat{\widehat{n}}
+     )
+  }
+  {\big\vert[\widehat{\widehat{\widehat{n}}}]\big\rangle}
+  \end{array}
+$$
+
 
 $$
   \begin{array}{rcl}
