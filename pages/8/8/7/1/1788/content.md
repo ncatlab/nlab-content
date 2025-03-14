@@ -1,6 +1,120 @@
 
 
 $$
+  T S T S T S \,=\, \mathrm{e}
+$$
+
+$$
+  S T S 
+    \,=\, 
+  T^{-1} S^{-1} T^{-1}
+$$
+
+$$
+  \begin{array}{l}
+    T^{-1} S^{-1} T^{-1}
+    {\vert n \rangle}
+    \;=\;
+    T^{-1} S^{-1}
+    e^{ - \tfrac{\pi \mathrm{i}}{k} n^2 }
+    {\vert n \rangle}
+    \\
+    \;=\;
+    \tfrac{1}{\sqrt{k}}
+    \sum_{\widehat{n}}
+    e^{ 
+      \tfrac{\pi \mathrm{i}}{k} 
+      (
+        - n^2 - 2 \widehat{n} n 
+      )   
+    }
+    {\vert \widehat{n} \rangle}
+    \\
+    \;=\;
+    \tfrac{1}{\sqrt{k}}
+    \sum_{\widehat{n}}
+    e^{ 
+      \tfrac{\pi \mathrm{i}}{k} 
+      (
+        - n^2 - 2 \widehat{n} n - \widehat{n}^2
+      )   
+    }
+    {\vert \widehat{n} \rangle}
+    \\
+    \;=\;
+    \tfrac{1}{\sqrt{k}}
+    \sum_{\widehat{n}}
+    e^{
+      - 
+      \tfrac{\pi \mathrm{i}}{k} 
+      (\widehat{n} + n)^2
+    }
+    {\vert \widehat{n} \rangle}
+  \end{array}
+$$
+
+$$
+  \begin{array}{l}
+  S T 
+  S
+    {\big\vert [n] \big\rangle}
+  \;=\;
+  S T 
+  \frac{1}{\sqrt{\vert k \vert}}
+  \sum_{
+      [\widehat n] 
+  }
+  \,
+  e^{
+    2 \pi \mathrm{i}
+     \tfrac{
+       \widehat{n} \, n
+     }{
+       k
+     }
+  }
+  {\big\vert[\widehat{n}]\big\rangle}
+  \\
+  \;=\;
+  S
+  \tfrac{1}{\sqrt{k}}
+  \sum_{
+      [\widehat n] 
+  }
+  \,
+  e^{
+    \tfrac{\pi \mathrm{i}}{k}
+    (
+      2 \widehat{n} \, n
+      +
+      \widehat{n}^2
+    )
+  }
+  {\big\vert[\widehat{n}]\big\rangle}
+  \\
+  \;=\;
+  \frac{1}{k}
+  \sum_{
+    [\widehat n]
+    ,\,
+    [\widehat{\widehat{n}}]
+  }
+  \,
+  e^{
+    \tfrac{\pi \mathrm{i}}{k}
+    (
+      2 \widehat{n} \, n
+      +
+      \widehat{n}^2
+      +
+      2 \widehat{\widehat{n}} \widehat{n}
+    )
+  }
+  {\big\vert[\widehat{\widehat{n}}]\big\rangle}
+\end{array}
+$$
+
+$$
   \begin{array}{ccr}
   S\Big(
     {\big\vert [n] \big\rangle}
