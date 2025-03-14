@@ -157,13 +157,18 @@ See also:
 
 ### Representation theory
 
+#### General
 
 On the [[representation theory]] of $SL_2(\mathbb{Z})$:
+
+* Nils R. Scheithauer: *The Weil Representation of formula and Some Applications*, International Mathematics Research Notices, **2009** 8 (2009) 1488–1545 &lbrack;[doi:10.1093/imrn/rnn166](https://doi.org/10.1093/imrn/rnn166), [pdf](https://www.mathematik.tu-darmstadt.de/media/algebra/homepages/scheithauer/publications/Weil_representation.pdf)&rbrack;
 
 * Siu-Hung Ng, Yilong Wang, Samuel Wilson: *On symmetric representations of $SL_2(\mathbb{Z})$*, Proceedings of the AMS, **151** 4 (2023) 1415-1431 &lbrack;[arXiv:2203.15701](https://arxiv.org/abs/2203.15701), [doi:10.1090/proc/16205](https://doi.org/10.1090/proc/16205)&rbrack;
 
 * [[Andrew Putman]]: *The representation theory of $SL_n(\mathbb{Z})$* &lbrack;[pdf](https://www3.nd.edu/%7Eandyp/notes/RepTheorySLnZ.pdf), [[Putman-RepsOfSLnZ.pdf:file]]&rbrack;
 
+
+#### Modular data of CFTs
 
 The $SL(2,\mathbb{Z})$-action on the [[Kac-Weyl character|characters]] in [[2d CFT]] and [[abelian Chern-Simons theory]]:
 
@@ -174,10 +179,18 @@ The $SL(2,\mathbb{Z})$-action on the [[Kac-Weyl character|characters]] in [[2d C
 
 * Toru Gocho: *The topological invariant of three-manifolds based on the $U(1)$ Gauge theory*, Proc. Japan Acad. Ser. A Math. Sci. **66** 8 (1990) 237-239 &lbrack;[doi:10.3792/pjaa.66.237](https://projecteuclid.org/journals/proceedings-of-the-japan-academy-series-a-mathematical-sciences/volume-66/issue-8/The-topological-invariant-of-three-manifolds-based-on-the-mathrmUleft/10.3792/pjaa.66.237.full)&rbrack;
 
+* [[Terry Gannon]]: *Modular Data: The Algebraic Combinatorics of Conformal Field Theory*, J Algebr Comb **22** (2005) 211–250 &lbrack;[doi:10.1007/s10801-005-2514-2](https://doi.org/10.1007/s10801-005-2514-2), [arXiv:math/0103044](https://arxiv.org/abs/math/0103044)&rbrack;
 
+* [[Peter Bantay]], [[Terry Gannon]]: *Conformal characters and the modular representation*, Journal of High Energy Physics, **2006** JHEP02 (2006) &lbrack;[arXiv:hep-th/0512011](https://arxiv.org/abs/hep-th/0512011), [doi:10.1088/1126-6708/2006/02/005](https://doi.org/10.1088/1126-6708/2006/02/005)&rbrack;
 
 * [[Christoph Schweigert]], around (26) in: *Introduction to conformal field theory*, lecture notes (2013/14) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schweigert/skripten/cftskript.pdf)&rbrack;
 
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], p 7 in: *Algebraic structures in two-dimensional conformal field theory*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
+
+
+Via [[modular tensor categories]]:
+
+* Samuel Nathan Wilson: *$SL(2,\mathbb{Z})$ Representations and 2-Semiregular Modular Categories*, PhD thesis, Louisiana State U. (2023) &lbrack;[10.31390gradschool_dissertations.6094](https://repository.lsu.edu/gradschool_dissertations/6094/)&rbrack;
 
 
 
