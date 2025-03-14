@@ -1,4 +1,4 @@
-**Gon&#231;alo Tabuada** is a mathematician with main results in the [[homotopy theory]] of [[dg-categories]], [[noncommutative motives]], and [[K-theory]]. His Ph.D. advisor was [[Bernhard Keller]].
+**Gon&#231;alo Tabuada** is a mathematician whose main results are in the [[homotopy theory]] of [[dg-categories]], [[noncommutative motives]], and [[K-theory]]. His Ph.D. advisor was [[Bernhard Keller]].
 
 * [web](http://math.mit.edu/~tabuada/)
 
