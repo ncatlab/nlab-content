@@ -6,6 +6,10 @@ On [[arithmetic]]:
 
 * [[Jean-Pierre Serre]]: *A Course in Arithmetic*, Graduate Texts in Mathematics **7**, Springer (1973) &lbrack;[doi:10.1007/978-1-4684-9884-4](https://doi.org/10.1007/978-1-4684-9884-4), [pdf](https://www.math.purdue.edu/~jlipman/MA598/Serre-Course%20in%20Arithmetic.pdf)&rbrack;
 
+On the [[representation theory]] of [[finite groups]]:
+
+* {#Serre77} [[Jean-Pierre Serre]]: *Linear Representations of Finite Groups*, Graduate Texts in Mathematics **42**, Springer (1977) &lbrack;[doi:10.1007/978-1-4684-9458-7](https://doi.org/10.1007/978-1-4684-9458-7), [pdf](https://www.math.tau.ac.il/~borovoi/courses/ReprFG/Hatzagot.pdf)&rbrack;
+
 
 On [[Lie group]], [[Lie algebras]] and their relation via [[Lie's three theorems]]:
 
