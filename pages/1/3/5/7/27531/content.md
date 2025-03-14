@@ -101,8 +101,7 @@ The following are equivalent:
 +-- {: .proof}
 ###### Proof
 
-The underlying abelian group of the representation ring of a finite group is free on the set of isomorphism classes of irreducible representations.  Thus the lemma follows from this fact: a group homomorphism $f: \mathbb{Z}^m \to \mathbb{Z}^n$ has finite cokernel iff $\mathbb{C} \otimes f : \mathbb{C}^m \to \mathbb{C}^n$ is surjective.   
-
+The underlying abelian group of the representation ring of a finite group is free on the set of isomorphism classes of irreducible representations.  Thus the lemma follows from this fact: a group homomorphism $f: \mathbb{Z}^m \to \mathbb{Z}^n$ has finite cokernel iff $\mathbb{C} \otimes f : \mathbb{C}^m \to \mathbb{C}^n$ is surjective.  
 =--
 
 +-- {: .proof}
