@@ -602,7 +602,7 @@ American Journal of Mathematics Vol. 93, No. 4 (Oct., 1971), pp. 857-866 ([jstor
 
 * {#Segal72} [[Graeme Segal]], _Permutation representations of finite $p$-groups, Quart. J. Math. Oxford (2) 23 (1972), 375–381 ([doi:10.1093/qmath/23.4.375](https://doi.org/10.1093/qmath/23.4.375))
 
-* {#Serre77} [[Jean-Pierre Serre]], _Linear Representations of Finite Groups_, Graduate Texts in Math., vol. 42, Springer–Verlag, New York, 1977
+* {#Serre77} [[Jean-Pierre Serre]]: *Linear Representations of Finite Groups*, Graduate Texts in Mathematics **42**, Springer (1977) &lbrack;[doi:10.1007/978-1-4684-9458-7](https://doi.org/10.1007/978-1-4684-9458-7), [pdf](https://www.math.tau.ac.il/~borovoi/courses/ReprFG/Hatzagot.pdf)&rbrack;
 
 * {#Dress86} [[Andreas Dress]], _Congruence relations characterizing the representation ring of the symmetric group_, Journal of Algebra 101, 350-364 (1986) ([pdf](https://core.ac.uk/download/pdf/82196473.pdf), [[Dress86.pdf:file]])
 
