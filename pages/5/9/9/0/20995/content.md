@@ -17,7 +17,7 @@
 
 ## Idea 
 
-A _$T \bar T$-deformation_ of a [[conformal field theory]] is a deformation induced by the term $T \bar T$ quadratic in the [[energy-momentum tensor]]
+A _$T \overline{T}$-deformation_ of a [[conformal field theory]] is a deformation induced by the term $T \bar T$ quadratic in the [[energy-momentum tensor]]
 
 ## References
 
@@ -38,6 +38,8 @@ Review:
 * Yunfeng Jiang, _Lectures on solvable irrelevant deformations of 2d quantum field theory_ ([arXiv:1904.13376](https://arxiv.org/abs/1904.13376))
 
 * [[Monica Guica]], _$T\bar T$ deformations and holography: review and open questions_, talk at *[[Strings 2022]]* &lbrack;[indico:4940816](https://indico.cern.ch/event/1085701/contributions/4940816/), [slides](https://indico.cern.ch/event/1085701/contributions/4940816/attachments/2481655/4260285/slides.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=bfe514d2-b4c8-4f03-a2d1-33ee630b74f6)&rbrack;
+
+* Song He, Yi Li, Hao Ouyang, Yuan Sun: *$T \overline{T}$ Deformation: Introduction and Some Recent Advances* &lbrack;[arXiv:2503.09997](https://arxiv.org/abs/2503.09997)&rbrack;
 
 
 See also
