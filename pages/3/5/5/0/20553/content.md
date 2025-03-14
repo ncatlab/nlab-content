@@ -10,7 +10,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -48,11 +47,8 @@ As a [[subgroup]] of the [[general linear group]] of [[invertible matrices]], $S
   \right]
   \mathrlap{\,.}
 \]
-\end{proposition}
-(cf. [Serre 1973 Thm. VII.2 p 78](#Serre73), [Conrad Thm 1.1](#Conrad))
-
-Moreover, $SL_2(\mathbb{Z})$ is *[[finitely presented group|presented]]* via these generators as
-$$
+Moreover, $SL_2(\mathbb{Z})$ is *[[finitely presented group|presented]]* via these generators subject to the following relations:
+\[
   SL_2(\mathbb{Z})
   \;\simeq\;
   \big\langle
@@ -65,9 +61,10 @@ $$
     S^2 (T S) = (T S)S^2
   \big\rangle
   \,.
-$$
-
-([Blanc & Déserti 2012 §2.1](#BlancDéserti12) following [Newman 1972](#Newman72), [Wehler 2021 Rem. 2.17(1)](#Wehler21) following [Koecher & Krieg 2007 Remark on p. 126](#KoecherKrieg07))
+\]
+\end{proposition}
+For the first statement, an early reference (without proof) is [Serre 1973 Thm. VII.2 p 78](#Serre73), detailed proofs are spelled out in [Conrad Thm 1.1](#Conrad).
+The second statement is made by [Blanc & Déserti 2012 §2.1](#BlancDéserti12) with reference to [Newman 1972](#Newman72) (proof?) and by [Wehler 2021 Rem. 2.17(1)](#Wehler21) following [Koecher & Krieg 2007 Remark on p. 126](#KoecherKrieg07).
 
 Alternatively, $SL_2(\mathbb{Z})$ is [[finitely presented group|presented]] via the generators 
 $$
@@ -162,4 +159,6 @@ On the [[representation theory]] of $SL_2(\mathbb{Z})$:
 See also:
 
 * [[Groupprops]]: *<a href="https://groupprops.subwiki.org/wiki/Special_linear_group:SL(2,Z)">Special linear group:SL(2,Z)</a>*
+
+[[!redirects SL2Z]]
 
