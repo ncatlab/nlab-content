@@ -172,12 +172,20 @@ On the [[representation theory]] of $SL_2(\mathbb{Z})$:
 
 The $SL(2,\mathbb{Z})$-action on the [[Kac-Weyl character|characters]] in [[2d CFT]] and [[abelian Chern-Simons theory]]:
 
-* [[Erik Verlinde]], p. 365,369 in: *Fusion rules and modular transformations in 2D conformal field theory*, Nuclear Physics B **300** (1988) 360-376 \[<a href="https://doi.org/10.1016/0550-3213(88)90603-7">doi:10.1016/0550-3213(88)90603-7</a>\]
+* [[Erik Verlinde]], p. 365, 369 in: *Fusion rules and modular transformations in 2D conformal field theory*, Nuclear Physics B **300** (1988) 360-376 \[<a href="https://doi.org/10.1016/0550-3213(88)90603-7">doi:10.1016/0550-3213(88)90603-7</a>\]
+
+* Toru Gocho: *The topological invariant of three-manifolds based on the $U(1)$ Gauge theory*, Proc. Japan Acad. Ser. A Math. Sci. **66** 8 (1990) 237-239 &lbrack;[doi:10.3792/pjaa.66.237](https://projecteuclid.org/journals/proceedings-of-the-japan-academy-series-a-mathematical-sciences/volume-66/issue-8/The-topological-invariant-of-three-manifolds-based-on-the-mathrmUleft/10.3792/pjaa.66.237.full), [dml:1195512360](http://dml.mathdoc.fr/item/1195512360)&rbrack;
+
+* Louis Funar, p. 7-8 of: *Theta functions, root systems and 3-manifold invariants*, Journal of Geometry and Physics
+**17** 3 (1995) 261-282 \[<a href="https://doi.org/10.1016/0393-0440(94)00050-E">doi:10.1016/0393-0440(94)00050-E</a>, [pdf](https://www-fourier.univ-grenoble-alpes.fr/~funar/1995jgeomphys.pdf)\]
+
+* Louis Funar, thm. 1.1: *Some abelian invariants of 3-manifolds*, Revue Roumaine de Mathematiques Pures et Appliquees **45** 5 (2000) 825-862 &lbrack;[pdf](https://www-fourier.ujf-grenoble.fr/~funar/theta.pdf), [[Funar-AbelianInvariants.pdf:file]]&rbrack;
+
+
+* Mihaela Manoliu: *Quantization of symplectic tori in a real polarization*, J. Math. Phys. **38** (1997) 2219–2254 &lbrack;[arXiv:dg-ga/9609012](https://arxiv.org/abs/dg-ga/9609012), [doi:10.1063/1.531970](https://doi.org/10.1063/1.531970)&rbrack;
 
 
 * {#Manoliu98a} Mihaela Manoliu, [p. 67](https://arxiv.org/pdf/dg-ga/9610001#page=67) of: *Abelian Chern-Simons theory*, J. Math. Phys. **39** (1998) 170-206 &lbrack;[arXiv:dg-ga/9610001](https://arxiv.org/abs/dg-ga/9610001), [doi:10.1063/1.532333](https://doi.org/10.1063/1.532333)&rbrack;
-
-* Toru Gocho: *The topological invariant of three-manifolds based on the $U(1)$ Gauge theory*, Proc. Japan Acad. Ser. A Math. Sci. **66** 8 (1990) 237-239 &lbrack;[doi:10.3792/pjaa.66.237](https://projecteuclid.org/journals/proceedings-of-the-japan-academy-series-a-mathematical-sciences/volume-66/issue-8/The-topological-invariant-of-three-manifolds-based-on-the-mathrmUleft/10.3792/pjaa.66.237.full)&rbrack;
 
 * [[Terry Gannon]]: *Modular Data: The Algebraic Combinatorics of Conformal Field Theory*, J Algebr Comb **22** (2005) 211–250 &lbrack;[doi:10.1007/s10801-005-2514-2](https://doi.org/10.1007/s10801-005-2514-2), [arXiv:math/0103044](https://arxiv.org/abs/math/0103044)&rbrack;
 
