@@ -98,19 +98,21 @@ This result appears in [Johnstone (1979)](#Johnstone79). (See also [Johnstone (2
 
 ## Examples
 
-With [[excluded middle]] in the meta-logic, every [[well-pointed topos]] is a Boolean topos. This includes [[Set]] and models of [[ETCS]]. 
+- With [[excluded middle]] in the meta-logic, every [[well-pointed topos]] is a Boolean topos. This includes [[Set]] and models of [[ETCS]]. 
 
-The topos of [[G-sets]] for a group $G$ is always a Boolean topos, because the set-theoretic complement of a sub-$G$-set is itself a sub-$G$-set. 
+- The topos of [[G-sets]] for a group $G$ is always a Boolean topos, because the set-theoretic complement of a sub-$G$-set is itself a sub-$G$-set.
 
-The topos of sheaves on a [[Boolean algebra]] $B$ for the [[coherent category|coherent topology]] is Boolean if and only if the Boolean algebra is finite. Indeed, in $Sh(B)$ the sections of $\Omega$ over $b \in B$ are the ideals of $\downarrow b \leqslant B$, while those of $1+1$ are the principal ideals, and these coincide just when $B$ is finite.
+- More generally, a [[presheaf topos]] on a category $C$ is Boolean if and only if $C$ is a [[groupoid]].
 
-The topos of [[canonical topology|canonical]] sheaves on a complete [[Boolean algebra]] is Boolean (note this includes the finite case above). 
+- The topos of sheaves on a [[Boolean algebra]] $B$ for the [[coherent category|coherent topology]] is Boolean if and only if the Boolean algebra is finite. Indeed, in $Sh(B)$ the sections of $\Omega$ over $b \in B$ are the ideals of $\downarrow b \leqslant B$, while those of $1+1$ are the principal ideals, and these coincide just when $B$ is finite.
 
-If $\mathcal{E}$ is any topos, the category of [[sheaf|sheaves]] for the [[double negation|double-negation topology]] is a Boolean [[subtopos]] of $\mathcal{E}$. 
+- The topos of [[canonical topology|canonical]] sheaves on a complete [[Boolean algebra]] is Boolean (note this includes the finite case above). 
 
-Any topos satisfying the [[axiom of choice]] is Boolean. This result is due to R. Diaconescu ([1975](#Diaconescu75)); see [[excluded middle]] for a brief discussion. 
+- If $\mathcal{E}$ is any topos, the category of [[sheaf|sheaves]] for the [[double negation|double-negation topology]] is a Boolean [[subtopos]] of $\mathcal{E}$. 
 
-[[Barr's theorem]] implies that any topos $\mathcal{E}$ can be covered by a Boolean topos $\mathcal{F}$, in the sense of there being a [[surjective geometric morphism]] $f \colon \mathcal{F} \to \mathcal{E}$. 
+- Any topos satisfying the [[axiom of choice]] is Boolean. This result is due to R. Diaconescu ([1975](#Diaconescu75)); see [[excluded middle]] for a brief discussion. 
+
+- [[Barr's theorem]] implies that any topos $\mathcal{E}$ can be covered by a Boolean topos $\mathcal{F}$, in the sense of there being a [[surjective geometric morphism]] $f \colon \mathcal{F} \to \mathcal{E}$. 
 
 ## Relation to measure theory
 
