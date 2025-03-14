@@ -118,6 +118,8 @@ $$
 
 ## References
 
+### General
+
 Textbook accounts:
 
 * {#Newman72} Morris Newman: *The Classical Modular Group and Related Groups*, chapter VIII in: *Integral Matrices*, Academic Press (1972)
@@ -149,18 +151,37 @@ More on presentations:
 * {#Wehler21} [[Joachim Wehler]], Rem. 2.17 in: *Modular Forms and Elliptic Curves* (2021) &lbrack;[pdf](https://www.mathematik.uni-muenchen.de/~wehler/ModularFormsScript.pdf)&rbrack;
 
 
+See also:
+
+* [[Groupprops]]: *<a href="https://groupprops.subwiki.org/wiki/Special_linear_group:SL(2,Z)">Special linear group:SL(2,Z)</a>*
+
+### Representation theory
+
 
 On the [[representation theory]] of $SL_2(\mathbb{Z})$:
-
-* Toru Gocho: *The topological invariant of three-manifolds based on the $U(1)$ Gauge theory*, Proc. Japan Acad. Ser. A Math. Sci. **66** 8 (1990) 237-239 &lbrack;[doi:10.3792/pjaa.66.237](https://projecteuclid.org/journals/proceedings-of-the-japan-academy-series-a-mathematical-sciences/volume-66/issue-8/The-topological-invariant-of-three-manifolds-based-on-the-mathrmUleft/10.3792/pjaa.66.237.full)&rbrack;
 
 * Siu-Hung Ng, Yilong Wang, Samuel Wilson: *On symmetric representations of $SL_2(\mathbb{Z})$*, Proceedings of the AMS, **151** 4 (2023) 1415-1431 &lbrack;[arXiv:2203.15701](https://arxiv.org/abs/2203.15701), [doi:10.1090/proc/16205](https://doi.org/10.1090/proc/16205)&rbrack;
 
 * [[Andrew Putman]]: *The representation theory of $SL_n(\mathbb{Z})$* &lbrack;[pdf](https://www3.nd.edu/%7Eandyp/notes/RepTheorySLnZ.pdf), [[Putman-RepsOfSLnZ.pdf:file]]&rbrack;
 
-See also:
 
-* [[Groupprops]]: *<a href="https://groupprops.subwiki.org/wiki/Special_linear_group:SL(2,Z)">Special linear group:SL(2,Z)</a>*
+The $SL(2,\mathbb{Z})$-action on the [[Kac-Weyl character|characters]] in [[2d CFT]] and [[abelian Chern-Simons theory]]:
+
+* [[Erik Verlinde]], p. 365,369 in: *Fusion rules and modular transformations in 2D conformal field theory*, Nuclear Physics B **300** (1988) 360-376 \[<a href="https://doi.org/10.1016/0550-3213(88)90603-7">doi:10.1016/0550-3213(88)90603-7</a>\]
+
+
+* {#Manoliu98a} Mihaela Manoliu, [p. 67](https://arxiv.org/pdf/dg-ga/9610001#page=67) of: *Abelian Chern-Simons theory*, J. Math. Phys. **39** (1998) 170-206 &lbrack;[arXiv:dg-ga/9610001](https://arxiv.org/abs/dg-ga/9610001), [doi:10.1063/1.532333](https://doi.org/10.1063/1.532333)&rbrack;
+
+* Toru Gocho: *The topological invariant of three-manifolds based on the $U(1)$ Gauge theory*, Proc. Japan Acad. Ser. A Math. Sci. **66** 8 (1990) 237-239 &lbrack;[doi:10.3792/pjaa.66.237](https://projecteuclid.org/journals/proceedings-of-the-japan-academy-series-a-mathematical-sciences/volume-66/issue-8/The-topological-invariant-of-three-manifolds-based-on-the-mathrmUleft/10.3792/pjaa.66.237.full)&rbrack;
+
+
+
+* [[Christoph Schweigert]], around (26) in: *Introduction to conformal field theory*, lecture notes (2013/14) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schweigert/skripten/cftskript.pdf)&rbrack;
+
+
+
+
+
 
 [[!redirects SL2Z]]
 
