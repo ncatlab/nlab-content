@@ -64,15 +64,16 @@ With these notations, Serre's theorem can be equivalently rewritten as follows:
 
 If $X$ is a family of subgroups of $G$, the following properties are equivalent:
 
-1. $G$ is the union of the conjugates of the subgroups in $X$
-2. The cokernel of $ind \colon \bigoplus_{H\in X}R(H) \to R(G)$ is finite.
+1) $G$ is the union of the conjugates of the subgroups in $X$
+
+2) The cokernel of $ind \colon \bigoplus_{H\in X} R(H) \to R(G)$ is finite.
 
 =--
 
-To prove this we use the following lemma:
+To prove this we use the following lemmas:
 
 +-- {: .num_lem}
-###### Lemma
+###### Lemma 1
 
 Let $H$ be a subgroup of the finite group $G$ and let $f\in R(H)$.  If $g \in G$ is not conjugate to any element of $H$, then the character $ind_H^G(f)$ vanishes on $g$.
 
@@ -89,10 +90,30 @@ where $g r_i=r_{i'}h$ for some $h\in H$. To show that $ind(\phi)(g)=\text{tr}_V(
 
 =--
 
++-- {: .num_lem}
+###### Lemma 2
+
+The following are equivalent:
+
+2) The cokernel of $ind \colon \bigoplus_{H\in X} R(H) \to R(G)$ is finite.
+
+2')  The linear map $\mathbb{C} \otimes ind \colon \mathbb{C} \otimes \bigoplus_{H\in X} R(H) \to \mathbb{C} \otimes R(G)$ is surjective.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The underlying abelian group of the representation ring of a finite group is free on the set of isomorphism classes of irreducible representations.  Thus the lemma follows from this easy fact: a group homomorphism $f: \mathbb{Z}^m \to \mathbb{Z}^n$ has finite cokernel iff $\mathbb{C} \otimes f : \mathbb{C}^m \to \mathbb{C}^n$ is surjective.   
+
+=--
+
 +-- {: .proof}
 ###### Proof of Theorem
 
-First we prove 2 $\implies$ 1.   The lemma implies that all elements in the image of $ind \colon \bigoplus_{H\in X}R(H) \to  R(G)$ vanish on every $g \in G$ in the set
+We use Lemma 2 to replace assumption 2) with the equivalent 2')
+
+First we prove 2') $\implies$ 1).   Lemma 1 implies that all elements in the image of $ind \colon \bigoplus_{H\in X}R(H) \to  R(G)$ vanish on every $g \in G$ in the set
 
 $$ S := G - \bigcup_{g\in G, H \in X} g^{-1}H g .$$
 
@@ -100,15 +121,9 @@ The same therefore holds for all elements in the image of the $\mathbb{C}$-linea
 
 $$ \mathbb{C}\otimes ind \colon \mathbb{C}\otimes\bigoplus_{H\in X} R(H) \to \mathbb{C}\otimes R(G) $$
 
-On the other hand, this map is surjective, because otherwise $ind$ would have an infinite cokernel, contradicting assumption 2.  Thus, every element of $\mathbb{C}\otimes R(G)$ vanishes on  $S$, insuring $S= \emptyset$, so that every element of $G$ is conjugate to an element of some subgroup $H \in X$, as was to be shown.
+By 2') this map is surjective.  Thus every element of $\mathbb{C}\otimes R(G)$ vanishes on  $S$, insuring $S= \emptyset$, so that every element of $G$ is conjugate to an element of some subgroup $H \in X$, as was to be shown.
 
-Next we prove 1 $\implies$ 2.  First, note that it is enough to show 1 implies the linear map
-
-$$\mathbb{C}\otimes ind\colon \mathbb{C}\otimes\bigoplus_{H\in  X}R(H) \to \mathbb{C}\otimes R(G)$$
-
-is surjective.  Indeed, this surjectivity implies that $\mathbb{C}\otimes R(G)$ has a basis $(e_i)$ composed of elements of the image $A$ of $ind$.  Since this basis must have the same cardinality $n$ as $(\chi_i)$, the quotient $R(G)/A$ is isomorphic to some quotient $\mathbb{Z}^n/\prod_i^n H_i\cong \prod_i^n\mathbb{Z}/H_i$ where the $H_i$ are non-trivial ideals of $\mathbb{Z}$, and this quotient is clearly finite, giving 2.
-
-By [[Frobenius reciprocity]], proving the surjectivity of $\mathbb{C}\otimes ind$ is equivalent to proving the injectivity of
+Next we prove 1) $\implies$ 2').  By [[Frobenius reciprocity]], proving the surjectivity of $\mathbb{C}\otimes ind$ is equivalent to proving the injectivity of
 
 $$ \mathbb{C}\otimes res \colon \mathbb{C}\otimes R(G) \to \mathbb{C}\otimes\bigoplus_{H\in X}R(H).$$
 
