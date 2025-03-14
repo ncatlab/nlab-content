@@ -152,6 +152,8 @@ More on presentations:
 
 On the [[representation theory]] of $SL_2(\mathbb{Z})$:
 
+* Toru Gocho: *The topological invariant of three-manifolds based on the $U(1)$ Gauge theory*, Proc. Japan Acad. Ser. A Math. Sci. **66** 8 (1990) 237-239 &lbrack;[doi:10.3792/pjaa.66.237](https://projecteuclid.org/journals/proceedings-of-the-japan-academy-series-a-mathematical-sciences/volume-66/issue-8/The-topological-invariant-of-three-manifolds-based-on-the-mathrmUleft/10.3792/pjaa.66.237.full)&rbrack;
+
 * Siu-Hung Ng, Yilong Wang, Samuel Wilson: *On symmetric representations of $SL_2(\mathbb{Z})$*, Proceedings of the AMS, **151** 4 (2023) 1415-1431 &lbrack;[arXiv:2203.15701](https://arxiv.org/abs/2203.15701), [doi:10.1090/proc/16205](https://doi.org/10.1090/proc/16205)&rbrack;
 
 * [[Andrew Putman]]: *The representation theory of $SL_n(\mathbb{Z})$* &lbrack;[pdf](https://www3.nd.edu/%7Eandyp/notes/RepTheorySLnZ.pdf), [[Putman-RepsOfSLnZ.pdf:file]]&rbrack;
