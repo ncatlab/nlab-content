@@ -1,4 +1,5 @@
 
+
 On the $k$-dimensional complex vector space $Span_{\mathbb{C}}\Big( {\vert 0 \rangle}, \, {\vert 1 \rangle}, \cdots, {\vert k-1 \rangle} \Big)$ consider the linear operators
 
 $$
@@ -32,9 +33,9 @@ $$
   \end{array}
 $$
 
-The claim is that this gives a (projective) representation of $SL_2(\mathbb{Z})$.
+The claim ([Gocho 90](https://ncatlab.org/nlab/show/SL2Z#Gocho90), [Funar 00](https://ncatlab.org/nlab/show/SL2Z#Funar00), [Manoliu 98](https://ncatlab.org/nlab/show/SL2Z#Manoliu98)) is that this gives a (projective) representation of $SL_2(\mathbb{Z})$.
 
-It is immediate that $S^2 {\vert n \rangle} = {\vert -n \rangle}$ and hence that $S^4 = id$ and that $S^2$ commutes with $T S$. But how about the remaining relation $(T S)^3 = id$:
+It is immediate that $S^2 {\vert n \rangle} = {\vert -n \rangle}$ and hence that $S^4 = id$ and that $S^2$ commutes with $T S$. But how about the remaining relation $(T S)^3 = id$. I get
 
 $$
   \begin{array}{l}
@@ -78,9 +79,9 @@ $$
     }
     {\vert \widehat{n} \rangle}
   \end{array}
-  \;\;\;\;\;\;\;\;\;\;\;
-  \text{and}
-  \;\;\;\;\;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;\;\;\;\;\;\;
+  \text{but}
+  \;\;\;\;\;\;\;\;\;\;\;\;\;
   \begin{array}{l}
   S T S
     {\big\vert n \big\rangle}
@@ -141,7 +142,7 @@ $$
   \;=\;
   \frac{1}{\sqrt{k}}
   \sum_{ \widehat{\widehat{n}} }
-  \underset{?}{
+  \underset{??}{
   \underbrace{
   \tfrac{1}{\sqrt{k}}
   \sum_{ \widehat n }
@@ -161,6 +162,7 @@ $$
 \end{array}
 $$
 
+If the term over the brace had another factor of 2 in the exponent, then it would at least be independent of $n$ and $\widehat{\widehat{n}}$ and could be normalized away. But it doesn't. --- But it works for *even $k$*.
 
 
 $$
