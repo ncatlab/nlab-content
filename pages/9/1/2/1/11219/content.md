@@ -508,7 +508,7 @@ The [[real numbers]]:
       (n \colon \mathbb{Z}_{+})
       \to
       \Big(
-        (x_n - y_b)^2
+        (x_n - y_n)^2
         \,\leq\,
         \big(\frac{2}{n}\big)^2
       \Big)
