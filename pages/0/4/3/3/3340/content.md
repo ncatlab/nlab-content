@@ -191,7 +191,7 @@ Lecture notes:
 
 * [[D. Kaledin]], _Tokyo lectures "Homological methods in non-commutative geometry"_, ([pdf](http://imperium.lenin.ru/~kaledin/tokyo/final.pdf), [TeX](http://imperium.lenin.ru/~kaledin/tokyo/final.tex)); and related but different [Seoul lectures](http://imperium.lenin.ru/~kaledin/seoul)
 
-* [[Masoud Khalkhali]], _A short survey of cyclic cohomology_, [arxiv/1008.1212](http://arxiv.org/abs/1008.1212)
+* [[Masoud Khalkhali]]: _A short survey of cyclic cohomology_, in *Quanta of Maths*, Clay Mathematics Proceedings, CMI/AMS (2010) 283-311 &lbrack;[arxiv/1008.1212](http://arxiv.org/abs/1008.1212), [pdf](https://www.claymath.org/library/proceedings/cmip011c.pdf)&rbrack;
 
 Some modern treatments:
 
