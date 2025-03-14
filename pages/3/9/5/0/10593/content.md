@@ -74,16 +74,18 @@ via [[scattering amplitudes]] in [[perturbative quantum field theory]]:
 
 ### Via noncommutative geometry
 
-via [[noncommutative geometry]]:
+via [[spectral triple|spectral]] [[noncommutative geometry]]:
 
-* [[Matthew Watkins]], _[the nontrivial Riemann zeta zeros interpreted as a spectrum of energy levels](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/physics1.htm)_
+* [[Matthew Watkins]]: _[the nontrivial Riemann zeta zeros interpreted as a spectrum of energy levels](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/physics1.htm)_
 
+* [[Alain Connes]]: _Noncommutative geometry and the Riemann zeta-function_ &lbrack;[pdf](https://www.asc.ohio-state.edu/math/events/connes/zeta2.pdf)&rbrack;
 
-* [[Alain Connes]], _Noncommutative geometry and the Riemann zeta-function_ ([pdf](http://www.alainconnes.org/docs/imufinal.pdf))
+* [[Masoud Khalkhali]]: _What is new with Connes' approach to the Riemann hypothesis?_ &lbrack;[pdf](https://www.math.uwo.ca/faculty/khalkhali/files/TehProg.pdf)&rbrack;
 
-* [[Masoud Khalkhali]], _What is new with Connes' approach to the Riemann hypothesis?_ [pdf](http://www.math.uwo.ca/~masoud/files/TehProg.pdf)
+* Fabrizio Tamburini: *A Majorana Relativistic Quantum Spectral Approach to the Riemann Hypothesis in $(1+1)$-Dimensional Rindler Spacetimes* &lbrack;[arXiv:2503.09644](https://arxiv.org/abs/2503.09644)&rbrack;
 
 
 via [[random matrix theory]]:
 
-* Nina Snaith, _Random matrix theory and zeta functions_, 2000 ([pdf](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/snaith-thesis.pdf))
+* Nina Snaith, _Random matrix theory and zeta functions_ (2000) &lbrack;[pdf](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/snaith-thesis.pdf)&rbrack;
+
