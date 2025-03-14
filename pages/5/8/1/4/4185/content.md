@@ -1,5 +1,13 @@
 
-* [website](http://www.math.uni-hamburg.de/home/schweigert/)
+* [personal page](http://www.math.uni-hamburg.de/home/schweigert/)
+
+* [Wikipedia entry](https://de.wikipedia.org/wiki/Christoph_Schweigert) (de)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=93174&fChrono=1)
+
+* [inSpire page](https://inspirehep.net/authors/989571)
+
+* [GoogleScholar page](https://scholar.google.de/citations?user=dPt4iDgAAAAJ&hl=en)
 
 
 ## Selected writings
@@ -11,13 +19,17 @@ On [[D-branes]] at an [[ADE-singularity]] and their [[open string]] [[worldsheet
 
 The [[FRS-theorem on rational 2d CFT]]:
 
-* [[Ingo Runkel]], [[Jens Fjelstad]], [[Jürgen Fuchs]], [[Christoph Schweigert]], *Topological and conformal field theory as Frobenius algebras*, in: *Categories in Algebra, Geometry and Mathematical Physics*, Contemp. Math. **431** (2007) 225-248 $[$[doi:10.1090/conm/431](http://dx.doi.org/10.1090/conm/431), [arXiv:math/0512076](https://arxiv.org/abs/math/0512076)$]$
+* [[Ingo Runkel]], [[Jens Fjelstad]], [[Jürgen Fuchs]], [[Christoph Schweigert]], *Topological and conformal field theory as Frobenius algebras*, in: *Categories in Algebra, Geometry and Mathematical Physics*, Contemp. Math. **431** (2007) 225-248 &lbrack;[doi:10.1090/conm/431](http://dx.doi.org/10.1090/conm/431), [arXiv:math/0512076](https://arxiv.org/abs/math/0512076)&rbrack;
 
 On [[QFT with defects|defects]] and [[duality in physics|duality]] ("[[generalized global symmetry]]") in [[2d CFT]] (via the [[FRS theorem on 2d rational CFT]]):
 
 * [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], *Kramers-Wannier duality from conformal defects*, Phys. Rev. Lett. **93** (2004) 070601 &lbrack;[doi:10.1103/PhysRevLett.93.070601](https://doi.org/10.1103/PhysRevLett.93.070601), [arXiv:cond-mat/0404051](http://arxiv.org/abs/cond-mat/0404051)&rbrack;
 
 * [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], *Duality and defects in rational conformal field theory*, Nucl. Phys. B **763** (2007) 354-430 &lbrack;[arXiv:hep-th/0607247](http://arxiv.org/abs/hep-th/0607247), [doi:10.1016/j.nuclphysb.2006.11.017](https://doi.org/10.1016/j.nuclphysb.2006.11.017)&rbrack;
+
+On [[conformal field theory]]:
+
+* [[Christoph Schweigert]]: *Introduction to conformal field theory*, lecture notes (2013/14) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schweigert/skripten/cftskript.pdf)&rbrack;
 
 
 On [[QFTs with defects]] via [[higher algebra|higher]] [[categorical algebra]]:
