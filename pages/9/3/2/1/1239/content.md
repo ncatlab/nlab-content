@@ -173,6 +173,8 @@ for [[finite groups]]:
 
 * [[I. Martin Isaacs]]: *Character theory of finite groups*, Academic Press, New York (1976) &lbrack;[ISBN:978-0-8218-4229-4](https://bookstore.ams.org/view?ProductCode=CHEL/359.H)&rbrack;
 
+* {#Serre77} [[Jean-Pierre Serre]]: *Linear Representations of Finite Groups*, Graduate Texts in Mathematics **42**, Springer (1977) &lbrack;[doi:10.1007/978-1-4684-9458-7](https://doi.org/10.1007/978-1-4684-9458-7), [pdf](https://www.math.tau.ac.il/~borovoi/courses/ReprFG/Hatzagot.pdf)&rbrack;
+
 * {#LuxPahlings10} Klaus Lux, Herbert Pahlings, _Representations of groups -- A computational approach_, Cambridge University Press 2010 ([author page](http://www.math.rwth-aachen.de/~RepresentationsOfGroups/), [publisher page](http://www.cambridge.org/catalogue/catalogue.asp?isbn=9780521768078))
 
 * Caroline Gruson, Vera Serganova, *From Finite Groups to Quivers via Algebras -- A Journey Through Representation Theory*, Springer (2018) &lbrack;[doi:10.1007/978-3-319-98271-7](https://doi.org/10.1007/978-3-319-98271-7)&rbrack;
