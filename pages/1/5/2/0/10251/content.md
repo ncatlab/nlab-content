@@ -1,9 +1,13 @@
 
 
 
-* [webpage](http://www.nikhef.nl/~t58/Site/Home.html)
+* [personal page](http://www.nikhef.nl/~t58/Site/Home.html)
 
-* [articles on arXiv](https://arxiv.org/search/?searchtype=author&query=Schellekens%2C+A)
+* [inSpire page](https://inspirehep.net/authors/1022935)
+
+* [GoogleScholar page](https://inspirehep.net/authors/1022935)
+
+* [arXiv page](https://arxiv.org/search/?searchtype=author&query=Schellekens%2C+A)
 
 
 Bert Schellekens has been working on [[2d CFT]] and specifically [[SCFT]] in relation to [[model building]] in [[string phenomenology]]. In particular he studied [[rational conformal field theory|RCFT]]-[[Gepner model]]-[[orbifold]]-[[KK-compactification|compactifications]] of the [[heterotic string]] and of [[intersecting D-brane models]] (via [[boundary states]]) in the [[type II superstring]].
@@ -69,6 +73,12 @@ On the [[landscape of string theory vacua]]:
 
 * {#Schellekens16} [[Bert Schellekens]], _Big Numbers in String Theory_ ([arXiv:1601.02462](http://arxiv.org/abs/1601.02462))
 
+On [[conformal field theory]]:
+
+* [[Bert Schellekens]]: *Conformal Field Theory*, lecture notes (2017) &lbrack;[pdf](https://www.nikhef.nl/~t58/CFT.pdf)&rbrack;
+
+
+
 On [[string phenomenology]] with [[orbifold]]/[[orientifold]] [[intersecting D-brane models]] and [[Gepner models]]:
 
 * [[Fernando Marchesano]], [[Bert Schellekens]], [[Timo Weigand]], *D-brane and F-theory Model Building*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2212.07443](https://arxiv.org/abs/2212.07443)&rbrack;
@@ -76,7 +86,7 @@ On [[string phenomenology]] with [[orbifold]]/[[orientifold]] [[intersecting D-b
 
 
 
-## related $n$Lab entries
+## Related entries
 
 * [[Gepner model]]
 
