@@ -464,6 +464,10 @@ _[[Zuckerman induction]]_. See there for more details.
 
 * The [[character]] of an induced representation is an [[induced character]].
 
+* [[Artin induction theorem]]
+
+* [[Brauer induction theorem]]
+
 * [[Artin-Lam induction exponent]]
 
 [[!include homotopy type representation theory -- table]]
