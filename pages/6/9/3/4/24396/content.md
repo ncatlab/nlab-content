@@ -21,7 +21,7 @@ On the one hand, [[infinity-groupoids|$\infty$-groupoids]] form an [[(infinity,1
 
 This observation is originally due to [Biedermann (2007)](#Biedermann07), noted down in [Joyal (2008) §35](#Joyal08).
 
-In search for a term to capture this curious phenomenon more generally, [Joyal 2015](#Joyal15) proposed to call a ([[pointed (infinity,1)-category|pointed]]) [[presentable (infinity,1)-category|presentable $(\infty,1)$-category]] an "$\infty$-locus" if the collection of its $Grpd_\infty$-parameterized objects (namely [[(infinity,1)-functors|$(\infty,1)$-functors]] $Grpd_\infty \to \mathcal{C}$) forms an [[(infinity,1)-topos|$(\infty,1)$-topos]]. 
+In search for a term to capture this curious phenomenon more generally, [Joyal 2015](#Joyal15) proposed to call a ([[pointed (infinity,1)-category|pointed]]) [[presentable (infinity,1)-category|presentable $(\infty,1)$-category]] $\mathcal{C}$ an "$\infty$-locus" if the collection of its $Grpd_\infty$-parameterized objects (namely [[(infinity,1)-functors|$(\infty,1)$-functors]] $Grpd_\infty \to \mathcal{C}$) forms an [[(infinity,1)-topos|$(\infty,1)$-topos]]. 
 
 Notice that the terminology "locus" here is unrelated to the common use of *[[locus]]* in mathematics. Compare the earlier proposal in [Joyal 2008](#Joyal08) to say "[[logos]]" for *[[(infinity,1)-category|$(\infty,1)$-category]]*, which is similarly ideosyncratic.
 
