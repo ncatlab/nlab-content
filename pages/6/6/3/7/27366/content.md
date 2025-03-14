@@ -334,7 +334,15 @@ and given by:
 $$
   \mathscr{H}_1
   \;\coloneqq\;
-  \mathbb{C}\big[\mathbb{Z}_{2{\vert k \vert}}\big]
+  Span_{\mathbb{C}}\Big(
+    {\vert 0 \rangle}
+    ,\, 
+    {\vert 1 \rangle}
+    ,\,
+    \cdots
+    ,\,
+    {\vert k-1 \rangle},
+  \Big)
 $$
 $$
   \begin{array}{ccccccl}
@@ -342,27 +350,27 @@ $$
   & \coloneqq &
   W(1,0,0)
   &\colon&
-  {\big\vert [n] \big\rangle}
+  {\big\vert n \big\rangle}
   &\mapsto&
   e^{2 \pi \mathrm{i} n \nu}
-  {\big\vert [n] \big\rangle}
+  {\big\vert n \big\rangle}
   \\
   W_b  
   &\coloneqq&
   W(0,1,0)
   &\colon&
-  {\big\vert [n] \big\rangle}
+  {\big\vert n \big\rangle}
   &\mapsto&
-  {\big\vert [n + 1] \big\rangle}
+  {\big\vert (n + 1) \,mod\, k \big\rangle}
   \\
   \zeta 
   &\coloneqq&
   W(0,0,1)
   &\colon&
-  {\big\vert [n] \big\rangle}
+  {\big\vert n \big\rangle}
   &\mapsto&
   e^{\pi \mathrm{i} \nu}
-  {\big\vert [n] \big\rangle}
+  {\big\vert n \big\rangle}
   \mathrlap{\,.}
   \end{array}
 $$
@@ -378,6 +386,7 @@ For instance:
   \,.
 \]
 \end{example}
+**Notation:** In the following we write "$[n]$" for "$n \,mod\, k$" and "$\sum_{[n]}$" for "$\sum_{n =0}^{k-1}$".
 \begin{proof}
   To see that this is a [[linear representation]],
   by (eq:HeisenbergAsQuotientOfFreeGroup) is it sufficient to check that the basic [[group commutator]] is represented, in that
