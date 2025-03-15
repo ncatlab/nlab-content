@@ -1,6 +1,8 @@
 Postdoc at the University of Regensburg.
 
-* [personal web page](https://sites.google.com/view/bastiaan-cnossen)
+* [personal page](https://sites.google.com/view/bastiaan-cnossen)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=303411)
 
 ## Selected writings
 
