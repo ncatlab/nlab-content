@@ -320,5 +320,9 @@ Formalization of abelian categories as [[univalent categories]] in [[univalent f
 
 * [[unimath]], *Abelian Categories* &lbrack;[UniMath.CategoryTheory.Abelian](https://unimath.github.io/doc/UniMath/4dd5c17/UniMath.CategoryTheory.Abelian.html)&rbrack;
 
+Generalization of abelian categories to [[(n,1)-categories]] is in:
+
+* Nao Mochizuki, _Higher-dimensional generalization of abelian categories via DG Categories_ &lbrack;[arXiv:2501.06955](https://arxiv.org/abs/2501.06955)&rbrack;
+
 [[!redirects abelian categories]]
 [[!redirects Abelian category]]
