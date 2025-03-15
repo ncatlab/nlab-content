@@ -868,7 +868,39 @@ $$
   \,,
 \end{array}
 $$
-where the term over the brace is in fact independent of $n$ and of $\widehat{\widehat{n}}$ by the assumption that $k$ is even.
+where the term over the brace is in fact independent of $n$ and of $\widehat{\widehat{n}}$ by the assumption that $k$ is even because this implies that the summands are $k$-periodic:
+$$
+  e^{
+    \tfrac{\pi \mathrm{i}}{k}
+    (n + k)^2
+  }
+  \;=\;
+  e^{
+    \tfrac{\pi \mathrm{i}}{k}
+    (n^2 + 2 n k + k^2)
+  }
+  \;=\;
+  e^{
+    \tfrac{\pi \mathrm{i}}{k}
+    n^2
+  }
+  \underset{
+    1\;if\;k\;even
+  }{
+  \underbrace{
+    e^{
+      \pi \mathrm{i}(2n + k)
+    }
+  }
+  }
+  \;=\;
+  e^{
+    \tfrac{\pi \mathrm{i}}{k}
+    n^2
+  }
+  \,.
+$$
+
 
 This means that the last relation holds if the normalization factor in (eq:RepresentationOfModularGenerators) is fixed to
 \[
