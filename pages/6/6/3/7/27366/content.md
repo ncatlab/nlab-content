@@ -743,202 +743,134 @@ $$
   {\big\vert[\widehat{n}]\big\rangle}
   \,,
 $$
-also the relation $S^2 (T S) = (T S) S^2$. It just remains to show that $(T S)^3 = \mathrm{e}$: Direct computation gives
+also the relation $S^2 (T S) = (T S) S^2$. It just remains to show that $(T S)^3 = \mathrm{e}$ or equivalently that $S T S \,=\, T^{-1} S^{-1} T^{-1}$. Direct computation yields:
+
 $$
   \begin{array}{l}
-  (T S)^2
-    {\big\vert [n] \big\rangle}
-  \;=\;
-  \frac{1}{k c_k^2}
-  \sum_{
-      [\widehat{\widehat n}] 
-  }
-  \sum_{
-      [\widehat n] 
-  }
-  \,
-  e^{
-     \tfrac{
-       \pi \mathrm{i}
-     }{k}
-     (
-       \widehat{n}^2
-       +
-       2\widehat{n} \, n
-       +
-       \widehat{\widehat{n}}^2
-       +
-       2\widehat{\widehat{n}} \, \widehat{n}
-     )
-  }
-  {\big\vert[\widehat{\widehat{n}}]\big\rangle}
-  \\
-  \;=\;
-  \frac{1}{k c_k^2}
-  \sum_{
-      [\widehat{\widehat n}] 
-  }
-  \sum_{
-      [\widehat n] 
-  }
-  \,
-  e^{
-     \tfrac{
-       \pi \mathrm{i}
-     }{k}
-     (
-       (\widehat{n} + n + \widehat{\widehat{n}})^2
-       -
-       (n + \widehat{\widehat{n}})^2
-       +
-       \widehat{\widehat{n}}^2
-     )
-  }
-  {\big\vert[\widehat{\widehat{n}}]\big\rangle}
-  \\
-  \;=\;
-  \Big(
-    \tfrac{1}{k c_k^2}
-    \sum_{
-        [\widehat n] 
-    }
-    \,
-    e^{
-       \tfrac{
-         \pi \mathrm{i}
-       }{k}
-       \widehat{n}^2
-    }
-  \Big)
-  \sum_{
-      [\widehat{\widehat n}] 
-  }
-  \,
-  e^{
-     -
-     \tfrac{
-       \pi \mathrm{i}
-     }{k}
-     (
-       n^2 + 2 \widehat{\widehat{n}}n
-     )
-  }
-  {\big\vert[\widehat{\widehat{n}}]\big\rangle}
-  \end{array}
-$$
-and then
-$$
-  \begin{array}{l}
-    (T S)^3
-      {\big\vert [n] \big\rangle}
+    T^{-1} S^{-1} T^{-1}
+    {\vert n \rangle}
+    \;=\;
+    T^{-1} S^{-1}
+    e^{ - \tfrac{\pi \mathrm{i}}{k} n^2 }
+    {\vert n \rangle}
     \\
     \;=\;
-  \Big(
-    \tfrac{1}{k^{3/2} c_k^3}
-    \sum_{
-        [\widehat n] 
+    T^{-1}
+    \tfrac{1}{\sqrt{k}}
+    \sum_{\widehat{n}}
+    e^{ 
+      \tfrac{\pi \mathrm{i}}{k} 
+      (
+        - n^2 - 2 \widehat{n} n 
+      )   
     }
-    \,
+    {\vert \widehat{n} \rangle}
+    \\
+    \;=\;
+    \tfrac{1}{\sqrt{k}}
+    \sum_{\widehat{n}}
+    e^{ 
+      \tfrac{\pi \mathrm{i}}{k} 
+      (
+        - n^2 - 2 \widehat{n} n - \widehat{n}^2
+      )   
+    }
+    {\vert \widehat{n} \rangle}
+    \\
+    \;=\;
+    \tfrac{1}{\sqrt{k}}
+    \sum_{\widehat{n}}
     e^{
-       \tfrac{
-         \pi \mathrm{i}
-       }{k}
-       \widehat{n}^2
+      - 
+      \tfrac{\pi \mathrm{i}}{k} 
+      (\widehat{n} + n)^2
     }
-  \Big)
+    {\vert \widehat{n} \rangle}
+  \end{array}
+  \;\;\;\;\;\;\;\;\;\;\;\;\;
+  \text{but}
+  \;\;\;\;\;\;\;\;\;\;\;\;\;
+  \begin{array}{l}
+  S T S
+    {\big\vert n \big\rangle}
+  \;=\;
+  S T 
+  \frac{1}{\sqrt{\vert k \vert}}
   \sum_{
-      [\widehat{\widehat{\widehat n}}] 
-  }
-  \sum_{
-      [\widehat{\widehat n}] 
+      \widehat n
   }
   \,
   e^{
+    2 \pi \mathrm{i}
      \tfrac{
-       \pi \mathrm{i}
-     }{k}
-     (
-        - n^2 + 2 \widehat{\widehat{n}}n
-        + 
-        \widehat{\widehat{\widehat{n}}}^2
-        + 2 \widehat{\widehat{\widehat{n}}}
-            \widehat{\widehat{n}}
-     )
+       \widehat{n} \, n
+     }{
+       k
+     }
   }
-  {\big\vert[\widehat{\widehat{\widehat{n}}}]\big\rangle}
+  {\big\vert \widehat{n} \big\rangle}
   \\
   \;=\;
-  \Big(
-    \tfrac{1}{k^{1/2} c_k^3}
-    \sum_{
-        [\widehat n] 
-    }
-    \,
-    e^{
-       \tfrac{
-         \pi \mathrm{i}
-       }{k}
-       \widehat{n}^2
-    }
-  \Big)
+  S
+  \tfrac{1}{\sqrt{k}}
   \sum_{
-      [\widehat{\widehat{\widehat n}}] 
+      \widehat n
   }
-  \;
-  \underset{
-    \delta_n(\widehat{\widehat{\widehat{n}}})
-  }{
-  \underbrace{
-    \tfrac{1}{k}
-    \sum_{
-        [\widehat{\widehat n}] 
-    }
-    \,
-    e^{
-       \tfrac{
-         2\pi \mathrm{i}
-       }{k}
-       \widehat{\widehat{n}}
-       (
-         \widehat{\widehat{\widehat{n}}}
-         - 
-         n
-       )
-    }
-  }
-  }
-  \;
+  \,
   e^{
-     \tfrac{
-       \pi \mathrm{i}
-     }{k}
-     (
-       -n^2 
-       + 
-       \widehat{\widehat{\widehat{n}}}^2
-     )
+    \tfrac{\pi \mathrm{i}}{k}
+    (
+      2 \widehat{n} \, n
+      +
+      \widehat{n}^2
+    )
   }
-  {\big\vert[\widehat{\widehat{\widehat{n}}}]\big\rangle}
+  {\big\vert \widehat{n} \big\rangle}
   \\
   \;=\;
-  \Big(
-    \tfrac{1}{k^{1/2} c_k^3}
-    \sum_{
-        [\widehat n] 
-    }
-    \,
-    e^{
-       \tfrac{
-         \pi \mathrm{i}
-       }{k}
-       \widehat{n}^2
-    }
-  \Big)
-  {\vert n \rangle}
+  \frac{1}{k}
+  \sum_{
+    \widehat n
+    ,\,
+    \widehat{\widehat{n}}
+  }
+  \,
+  e^{
+    \tfrac{\pi \mathrm{i}}{k}
+    (
+      2 \widehat{n} \, n
+      +
+      \widehat{n}^2
+      +
+      2 \widehat{\widehat{n}} \widehat{n}
+    )
+  }
+  {\big\vert \widehat{\widehat{n}} \big\rangle}
+  \\
+  \;=\;
+  \frac{1}{\sqrt{k}}
+  \sum_{ \widehat{\widehat{n}} }
+  \underbrace{
+  \tfrac{1}{\sqrt{k}}
+  \sum_{ \widehat n }
+  \,
+  e^{
+    \tfrac{\pi \mathrm{i}}{k}
+      (\widehat{n} + (n + \widehat{\widehat{n}}))^2
+  }
+  }
+  e^{
+    -
+    \tfrac{\pi \mathrm{i}}{k}
+      (n + \widehat{\widehat{n}})^2
+  }
+  {\big\vert \widehat{\widehat{n}} \big\rangle}
   \,,
-  \end{array}
+\end{array}
 $$
-so that also the last relation holds if the normalization factor in (eq:RepresentationOfModularGenerators) is fixed to
+where the term over the brace is in fact independent of $n$ and of $\widehat{\widehat{n}}$ by the assumption that $k$ is even.
+
+This means that the last relation holds if the normalization factor in (eq:RepresentationOfModularGenerators) is fixed to
 \[
   \label{NormalizationFactorForTOperator}
   c_k
@@ -947,7 +879,7 @@ so that also the last relation holds if the normalization factor in (eq:Represen
   \Big(
     \textstyle{
       \sum_{
-          [\widehat n] 
+        \widehat n
       }
     }
     \,
@@ -965,7 +897,9 @@ so that also the last relation holds if the normalization factor in (eq:Represen
 
 
 
-Now by unwinding the definitions and direct computation we find that the statement (eq:SemidirectProductRelations) holds for $m = S,T$ any one of the modular generators (eq:ModularGenerators):
+Finally to see that also the semidirect product of these two groups is represented in that (eq:SemidirectProductRelations) holds: 
+
+We may explicitly check this for $m \in \{S,T\}$ any one of the modular generators (eq:ModularGenerators) by unwinding the above definitions:
 $$
   \begin{array}{ccl}
     S(W_a)
