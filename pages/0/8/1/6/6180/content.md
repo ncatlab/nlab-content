@@ -1,5 +1,9 @@
 
-* [website](http://math.berkeley.edu/~pavlov/)
+* [personal page](http://math.berkeley.edu/~pavlov/)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=iAueITAAAAAJ&hl=en)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=219802)
 
 ## Selected wrints
 
