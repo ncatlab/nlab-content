@@ -25,7 +25,7 @@ The [[force]] [[gauge fields]] are modeled by [[connection on a bundle|principal
 
 The [[matter]] fields are [[sections]] $\psi$ of a [[spinor bundle]] [[associated bundle|associated]] to this [[principal bundle]]. Therefore there is an induced [[connection on a vector bundle]] $\nabla$ on this spinor bundle. 
 
-Let $D_\nabla$ be the [[Dirac operator]] of the given [[Riemannian metric]] and this conneciton $\nabla$. The **minimal coupling** term in the [[action functional]] on the space of these sections is
+Let $D_\nabla$ be the [[Dirac operator]] of the given [[Riemannian metric]] and this connection $\nabla$. The **minimal coupling** term in the [[action functional]] on the space of these sections is
 
 $$
   S_{gc}(\nabla, \psi) = \int_\Sigma \langle \psi, D_\nabla \psi\rangle
@@ -34,7 +34,7 @@ $$
 
 ## Examples
 
-All the couplings appearin in the [[standard model of particle physics]] are "minimal" in this sense.
+All the couplings appearing in the [[standard model of particle physics]] are "minimal" in this sense.
 
 ## Related concepts
 
