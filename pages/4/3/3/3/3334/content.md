@@ -1,25 +1,14 @@
 
 * [website](http://www.math.uni-bonn.de/~schwede/)
 
-## Related $n$Lab entries
+* [GoogleScholar page](https://scholar.google.de/citations?user=0OZ4kGYAAAAJ&hl=de)
 
-* [[symmetric spectrum]], [[model structure on symmetric spectra]]
-
-
-* [[orthogonal spectra]]
-
-* [[stable model category]]
-
-* [[monoidal Dold-Kan correspondence]]
-
-* [[Bousfield-Friedlander model structure]], [[model structure on symmetric spectra]]
-
-* [[equivariant stable homotopy theory]]
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=28549)
 
 
 ## Selected writings
 
-### Lectures and textbooks
+**Lectures and textbooks**
 
 * _[[Symmetric spectra]]_
 
@@ -27,7 +16,6 @@
 
 * _[[Global homotopy theory]]_
 
-### Articles
 
 On [[model structures on spectra]]:
 
@@ -54,6 +42,23 @@ On [[algebraic K-theory]] in [[global equivariant stable homotopy theory]]:
 On [[enhanced triangulated categories]] ([[stable (infinity,1)-categories|stable $(\infty,1)$-categories]]):
 
 * [[Stefan Schwede]], [[Markus Hausmann]], _Enhancements of triangulated categories_, Graduate Seminar Topology, Bonn 2019-2020 ([[Schwede_EnhancedSeminar.pdf:file]])
+
+
+## Related entries
+
+* [[symmetric spectrum]], [[model structure on symmetric spectra]]
+
+* [[orthogonal spectra]]
+
+* [[stable model category]]
+
+* [[monoidal Dold-Kan correspondence]]
+
+* [[Bousfield-Friedlander model structure]], [[model structure on symmetric spectra]]
+
+* [[equivariant stable homotopy theory]]
+
+
 
 
 
