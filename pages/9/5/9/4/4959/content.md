@@ -1,5 +1,11 @@
 
-* [website](http://math.gmu.edu/~dcarched/)
+* [personal page](http://math.gmu.edu/~dcarched/)
+
+* [institute page](https://science.gmu.edu/directory/david-carchedi)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=194302)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=QGmm42EAAAAJ&hl=en)
 
 ## Selected writings
 
