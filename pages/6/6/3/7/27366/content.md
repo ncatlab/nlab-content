@@ -1001,7 +1001,7 @@ $$
       [\widehat n] 
   }
   \,
-  e^{2 \pi \mathrm{i} \tfrac{n}{k}}
+  e^{2 \pi \mathrm{i} \tfrac{\widehat{n}}{k}}
   e^{
     2 \pi \mathrm{i}
      \tfrac{
@@ -1016,7 +1016,7 @@ $$
   \\
   &=&
   S\Big(
-    W_a 
+    W_b 
     {\big|
       [n]
     \big\rangle}
