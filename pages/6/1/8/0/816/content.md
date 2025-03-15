@@ -153,7 +153,7 @@ $$
 
 Let us spell out what a weighted limit looks like in ordinary category theory, to give intuition for the difference between weighted limits and ordinary limits.
 
-Given a weight $W : K \to Set$ and a diagram $F : K \to C$, a weighted limit comprises an object $L$ together with a projection $\pi_{k, w} : L \to F(k)$ for each $k \in K$ and $w \in W(k)$ such that the following diagram commutes for $k, k \in K$, $w \in W(k)$ and $\kappa : k \to k'$:
+Given a weight $W : K \to Set$ and a diagram $F : K \to C$, a weighted limit comprises an object $L$ together with a projection $\pi_{k, w} : L \to F(k)$ for each $k \in K$ and $w \in W(k)$ such that the following diagram commutes for $k, k' \in K$, $w \in W(k)$ and $\kappa : k \to k'$:
 \begin{tikzcd}
 	L & {F(k)} \\
 	& {F(k')}
