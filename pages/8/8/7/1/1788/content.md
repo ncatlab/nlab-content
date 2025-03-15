@@ -1,4 +1,35 @@
 
+$$
+  e^{
+    \tfrac{\pi \mathrm{i}}{k}
+    (n + k)^2
+  }
+  \;=\;
+  e^{
+    \tfrac{\pi \mathrm{i}}{k}
+    (n^2 + 2 n k + k^2)
+  }
+  \;=\;
+  e^{
+    \tfrac{\pi \mathrm{i}}{k}
+    n^2
+  }
+  \underset{
+    1\;if\;k\;even
+  }{
+  \underbrace{
+    e^{
+      \pi \mathrm{i}(2n + k)
+    }
+  }
+  }
+  \;=\;
+  e^{
+    \tfrac{\pi \mathrm{i}}{k}
+    n^2
+  }
+$$
+
 
 On the $k$-dimensional complex vector space $Span_{\mathbb{C}}\Big( {\vert 0 \rangle}, \, {\vert 1 \rangle}, \cdots, {\vert k-1 \rangle} \Big)$ consider the linear operators
 
