@@ -11,6 +11,7 @@
 
 
 ## Selected writings
+ {#SelectedWritings}
 
 Arguments that the proposal of [Schwinger 1969](groupoid+algebra#Schwinger1969), [Schwinger & Berthold-Englert 2001](groupoid+algebra#SchwingerBerthold-Englert01) for an "algebra of (selective) measurement" in [[quantum physics]] is to be understood as [[groupoid convolution algebra]] of [[groupoids]] whose  [[morphisms]] reflect transitions between possible [[quantum measurement]]-outcomes:
 
