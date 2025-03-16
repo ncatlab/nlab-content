@@ -47,8 +47,6 @@
 
 * [Tanya Khovanova's math blog](http://blog.tanyakhovanova.com/) Light musings, puzzles and anecdotes concerning mathematics
 
-* [The accidental mathematician](http://ilaba.wordpress.com) (Izabella Laba: personal blog of a math professor, various topics, rarely even math)
-
 * [theHigherGeometer](https://thehighergeometer.wordpress.com/) ([[David Roberts]])
 
 * [The n-Category Caf&#233;](http://golem.ph.utexas.edu/category) A group blog on math, physics and philosophy written by (currently) seven people and affiliated with this wiki
@@ -161,6 +159,8 @@
 * [Secret Blogging Seminar](http://sbseminar.wordpress.com) run by 8 recent Berkeley Ph.D. graduates. "Sort of like a seminar, but with (even) more rude commentary from the audience."
 
 * [Sketches of Topology](http://sketchesoftopology.wordpress.com) (colorful pictures, "visualizations of low dimensional topology")
+
+* [The accidental mathematician](http://ilaba.wordpress.com) (Izabella Laba: personal blog of a math professor, various topics, rarely even math)
 
 * [The Everything Seminar](http://cornellmath.wordpress.com) ("Geometry, topology, categories, groups, physics"; recently lots about experimental particle physics: LHC and CMS)
 
