@@ -53,7 +53,7 @@ In Def. \ref{PathSpaceObject} one interprets
 
 1. a ([[generalised element|generalised]]) [[global element|element]] of $X^I$ as a [[path]] in $X$;
 
-1. $d_0, d_1$ as the maps that send a path to its start- or endpoint, respectivelyl
+1. $d_0, d_1$ as the maps that send a path to its start- or endpoint, respectively
 
 1. $s$ as the map that sends a point to the path [[constant function|constant]] on that point.
 
