@@ -282,6 +282,8 @@ This largely concludes the traditional justification for the effective abelian C
 
 ### General
 
+* Michiel Bos, [[V. Parameswaran Nair]]: *$U(1)$ Chern-Simons theory and $c=1$ conformal blocks*, Physics Letters B **223** 1 (1989) 61-66 \[<a href="https://doi.org/10.1016/0370-2693(89)90920-9">doi:10.1016/0370-2693(89)90920-9</a>\]
+
 * [[Alexios P. Polychronakos]]: *Abelian Chern-Simons theories in $2+1$ dimensions*, Annals of Physics **203** 2 (1990) 231-254 \[<a href="https://doi.org/10.1016/0003-4916(90)90171-J">doi:10.1016/0003-4916(90)90171-J</a>\] 
 
 * [[Sergio Albeverio]], J. Schäfer: *Rigorous Approach to Abelian Chern-Simons Theory*, in *Groups and Related Topics*, Mathematical Physics Studies **13**,  Springer (1992) 143-152 &lbrack;[doi:10.1007/978-94-011-2801-8_12](https://doi.org/10.1007/978-94-011-2801-8_12)&rbrack;
