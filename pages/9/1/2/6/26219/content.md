@@ -2,7 +2,7 @@ We here discuss homological dimensions of rings and abelian categories: projecti
 
 ## Definitions 
 
-If $C$ is an [[abelian category]] (usually assumed with enough projectives), and $M$ an object in $C$, then its __projective dimension__ $pd(M)$ is the minimal integer $n$ (if it exists) such that there is a resolution of $M$ by projective modules of length $n$, that is the exact sequence of the form
+If $C$ is an [[abelian category]] (usually assumed with enough projectives), and $M$ an object in $C$, then its __projective dimension__ $pd(M)$ is the minimal integer $n$ (if it exists) such that there is a resolution of $M$ by [[projective object]]s of length $n$, that is the exact sequence of the form
 $$
 0\to P_n\to P_{n-1}\to\cdots\to P_1\to P_0\to M\to 0
 $$
