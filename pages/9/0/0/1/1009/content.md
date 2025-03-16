@@ -256,8 +256,8 @@ is mostly used for in the literature.
 
 The original reference is 
 
-* {#AKSZ} M. Alexandrov, [[Maxim Kontsevich]], [[Albert Schwarz]], [[Oleg Zaboronsky]], _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997 ([arXiv:hep-th/9502010](http://arxiv.org/abs/hep-th/9502010))
- 
+* {#AKSZ} M. Alexandrov, [[Maxim Kontsevich]], [[Albert Schwarz]], [[Oleg Zaboronsky]], _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A **12** 7 (1997) 1405--1429 &lbrack;[arXiv:hep-th/9502010](http://arxiv.org/abs/hep-th/9502010), [doi:10.1142/S0217751X97001031](https://doi.org/10.1142/S0217751X97001031)&rbrack;
+
 
 Dmitry Roytenberg wrote a useful exposition of the central idea of the original work and studied the case of the [[Courant sigma-model]] in
 
@@ -281,7 +281,7 @@ That the AKSZ action on bounding manifolds $\partial \hat \Sigma$ is the integra
 
 The discussion of the AKSZ action functional as the [[nLab:∞-Chern-Simons theory]]-functional induced from a [[symplectic Lie n-algebroid]] in [[∞-Chern-Weil theory]] is due discussed in
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_, Int. J. Geom. Methods Mod. Phys. 10 (2013) 1250078 ([arXiv:1108.4378](http://arxiv.org/abs/1108.4378))
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_, Int. J. Geom. Methods Mod. Phys. **10** (2013) 1250078 &lbrack;[doi:10.1142/S0219887812500788](https://doi.org/10.1142/S0219887812500788), [arXiv:1108.4378](http://arxiv.org/abs/1108.4378)&rbrack;
 
 In the broader context of smooth [[higher geometry]] this is discussed in section 4.3 of
 
