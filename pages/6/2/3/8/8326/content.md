@@ -433,7 +433,7 @@ What is not present in such bare homotopy type theory is determination of furthe
 
 A general abstract way to express a kind of quality carried by types is to posit a _projection_ operation $\bigcirc$ that projects out the _moment of pure such quality_.
 
-For instance for formalizing realistic physics one needs to determine _[[nLab:boson|bosonic]]_ and _[[nLab:boson|fermionic]]_  moments (we come to this [below](#Externalization)), and one way of doing so is by considering a [[nLab:projection]] operation that projects every space of fields to its purely bosonic [[nLab:body]] (lemma \ref{SequenceOfSites} below).
+For instance for formalizing realistic physics one needs to determine _[[nLab:boson|bosonic]]_ and _[[nLab:fermion|fermionic]]_  moments (we come to this [below](#Externalization)), and one way of doing so is by considering a [[nLab:projection]] operation that projects every space of fields to its purely bosonic [[nLab:body]] (lemma \ref{SequenceOfSites} below).
 
 Generally, for $X$ a type, then $\bigcirc X$ is to be the result of projecting out some pure quality of $X$. This being a projection means that $\bigcirc X  \simeq \bigcirc \bigcirc X$. For this to be [[nLab:constructive]], we need to specify a specific comparison map that gives this equivalence. Hence we say a _moment projection_ is an operation $\bigcirc$ on the type system together with [[nLab:natural transformation|natural functions]] $X \to \bigcirc X$ such that $\bigcirc(X \to \bigcirc X)$ is an [[nLab:equivalence]] $\bigcirc X \stackrel{\simeq}{\longrightarrow} \bigcirc \bigcirc X$.
 
