@@ -195,7 +195,6 @@ Relating the Dwyer-Kan loop groupoid-construction to the [[rigidification of qua
 [[!redirects Dwyer-Kan fundamental simplicial groupoids]]
 
 [[!redirects Dwyer-Kan loop groupoid]]
-[[!redirects Dwyer-Kan loop groupoid]]
 [[!redirects Dwyer–Kan loop groupoid]]
 [[!redirects Dwyer--Kan loop groupoid]]
 [[!redirects Dwyer-Kan loop groupoids]]
@@ -217,5 +216,3 @@ Relating the Dwyer-Kan loop groupoid-construction to the [[rigidification of qua
 [[!redirects Dwyer-Kan simplicial path groupoids]]
 [[!redirects Dwyer--Kan simplicial path groupoid]]
 [[!redirects Dwyer--Kan simplicial path groupoids]]
-
-
