@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -37,6 +38,8 @@ Similar to Mizar is [[NuPRL]], [[HOL light]] and [[Isabelle]], which all have de
 
 ## References
 
+### General
+
 Gentle exposition:
 
 * [[Théo Winterhalter]], §1 of: *Formalisation and Meta-Theory of Type Theory*, Nantes (2020) &lbrack;[pdf](https://github.com/TheoWinterhalter/phd-thesis/releases/download/v1.2.1/TheoWinterhalter-PhD-v1.2.1.pdf), [github](https://github.com/TheoWinterhalter/phd-thesis)&rbrack;
@@ -44,11 +47,6 @@ Gentle exposition:
 Further exposition:
 
 * {#Avigad12} [[Jeremy Avigad]], _Interactive Theorem Proving, Automated Reasoning, and Mathematical Computation_, (2012) [pdf slides](http://www.andrew.cmu.edu/user/avigad/Talks/icerm.pdf)
-
-Exposition in relation to developments in [[machine learning]]:
-
-* [[Terence Tao]]: *Machine-Assisted Proof*, Notices of the AMS **72** 1 (2024) &lbrack;[pdf](https://www.ams.org/journals/notices/202501/rnoti-p6.pdf), [doi:10.1090/noti3041](https://doi.org/10.1090/noti3041), full issue:[pdf](https://www.ams.org/notices/202501/202501FullIssue.pdf)&rbrack;
-
 
 On computer assisted proofs in [[analysis]]:
 
@@ -62,9 +60,6 @@ See also:
 List of web resources:
 
 * [[Freek Wiedijk]], _Digital math by alphabet_ ([web](http://www.cs.ru.nl/~freek/digimath/index.html))
-
-
-
 
 
 See also
@@ -90,6 +85,19 @@ See also
 * [[Kevin Buzzard]], _[Xena project](https://xenaproject.wordpress.com/2018/10/07/what-is-the-xena-project/)_
 
   on [[formal proof]] and proof assistants in undergraduate mathematics.
+
+
+
+
+
+
+[[!include coupling proof assistants with machine learning -- references]]
+
+
+
+
+
+
 
 [[!redirects proof assistant]]
 [[!redirects proof assistants]]
