@@ -1,9 +1,19 @@
 
+Ralph Louis Cohen
+
 > not to be confused with *[[Fred Cohen]].*
 
 ***
 
-* [website](http://math.stanford.edu/~ralph/)
+* [personal page](http://math.stanford.edu/~ralph/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Ralph_Louis_Cohen)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=12025)
+
+* [GoogleScholar entry](https://scholar.google.com/citations?user=ULWPHfsAAAAJ&hl=en)
+
+
 
 ## Selected writings
 
@@ -40,7 +50,6 @@ On [[string topology]]:
 
 On the [[homotopy type of spaces of rational maps]] and [[moduli spaces of monopoles]] related to [[braid groups]]:
 
-
 * [[Fred Cohen]], [[Ralph Cohen]], [[Benjamin M. Mann]], [[R. James Milgram]], _The topology of rational functions and divisors of surfaces_, Acta Math (1991) 166: 163 ([doi:10.1007/BF02398886](https://doi.org/10.1007/BF02398886))
 
 * {#CohenShimamoto91} [[Ralph L. Cohen]], [[Don H. Shimamoto]], *Rational Functions, Labelled Configurations, and Hilbert Schemes*, Journal of the London Mathematical Socienty **43** 2 (1991) 509-528 ([doi:10.1112/jlms/s2-43.3.509](https://doi.org/10.1112/jlms/s2-43.3.509))
@@ -58,7 +67,13 @@ On [[string topology]] (and [[Pontrjagin rings]] of [[based loop spaces]]) of [[
 
 * [[Ralph L. Cohen]], [[John D. S. Jones]], Jun Yan, *The loop homology algebra of spheres and projective spaces*, in *Categorical Decomposition Techniques in Algebraic Topology*, Progress in Mathematics **215**, Birkhäuser (2003) &lbrack;[arXiv:math/0210353](https://arxiv.org/abs/math/0210353), [doi:10.1007/978-3-0348-7863-0_5](https://doi.org/10.1007/978-3-0348-7863-0_5)&rbrack;
 
+On [[topological field theory]]:
+
+* [[Ralph Cohen]] (notes by Eric Malm), p 20 of: *MATH 283: Topological Field Theories* (2008) &lbrack;[pdf](https://ericmalm.net/ac/projects/math283-w08/math283-w08-n.pdf), [[RCohen-TQFT.pdf:file]]&rbrack;
+
+
 
 category: people
 
 [[!redirects Ralph L. Cohen]]
+[[!redirects Ralph Louis Cohen]]
