@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -151,6 +152,10 @@ Application to [[solid state physics]]:
 
 * Nobuyuki Yoshioka, Tsuyoshi Okubo, Yasunari Suzuki, Yuki Koizumi, Wataru Mizukami, *Hunting for quantum-classical crossover in condensed matter problems* &lbrack;[arXiv:2210.14109](https://arxiv.org/abs/2210.14109)&rbrack;
 
+In [[quantum simulation]] of the [[Schrödinger equation]]:
+
+* Andrew D. King et al.: *Beyond-classical computation in quantum simulation*, Science
+(Mar 2025) &lbrack;[doi:10.1126/science.ad6285](https://doi.org/10.1126/science.ado6285)&rbrack;
 
 
 
@@ -163,6 +168,6 @@ Discussion of [[complexity theory|complexity-theoretic]] aspects:
 
 * [[Scott Aaronson]], [[Lijie Chen]], *Complexity-Theoretic Foundations of Quantum Supremacy Experiments*, CCC '17: Proceedings of the 32nd Computational Complexity Conference (2017) **22** 1–67 &lbrack;[arXiv:1612.05903](https://arxiv.org/abs/1612.05903), [doi;10.5555/3135595.3135617](https://dl.acm.org/doi/10.5555/3135595.3135617)&rbrack;
 
+[[!redirects quantum supremacy]]
 
-[[!redirects quantum advantage]]
 
