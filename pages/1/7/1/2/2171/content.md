@@ -3944,6 +3944,13 @@ The framed braid group:
 
 * Akishi Ikeda: *Homological and Monodromy Representations of Framed Braid Groups*, Commun. Math. Phys. **359** (2018) 1091–1121  &lbrack;[doi:10.1007/s00220-017-3036-1](https://doi.org/10.1007/s00220-017-3036-1), [arXiv:1702.03918](https://arxiv.org/abs/1702.03918)&rbrack;
 
+* [[Ying Hong Tham]]: §3.2.1 in: *On the Category of Boundary Values in the Extended Crane-Yetter TQFT*, PhD thesis, Stony Brook (2021) &lbrack;[arXiv:2108.13467](https://arxiv.org/abs/2108.13467)&rbrack;
+  > (in the context of the [[Crane-Yetter model]])
+
+* [[Lukas Woike]]: *The Cyclic and Modular Microcosm Principle in Quantum Topology* &lbrack;[arXiv:2408.02644](https://arxiv.org/abs/2408.02644)&rbrack;
+  > (in relation to the framed [[little disk operad]])
+
+
 
 More on the relation of braid groups to [[mapping class groups]]:
 
