@@ -139,7 +139,6 @@ Monographs:
 
 * G. Burde, H. Zieschang, _Knots_, De Gruyter (1989).
 
-
 * [[Michael Atiyah]], _The Geometry and Physics of Knots_,  Cambridge University Press (1990) &lbrack;[doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868)&rbrack;
 
 * [[Vladimir Turaev]]: *Quantum invariants of knots and 3-manifolds*, de Gruyter Studies in Mathematics **18**, de Gruyter & Co. (1994) &lbrack;[doi:10.1515/9783110435221](https://doi.org/10.1515/9783110435221), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/turaev5.pdf)&rbrack;
@@ -151,6 +150,9 @@ Monographs:
 * [[Nick Gilbert]], [[Tim Porter]], *Knots and surfaces*, Oxford University Press (1994) &lbrack;[ISBN:9780198514909](https://global.oup.com/academic/product/knots-and-surfaces-9780198514909?cc=de&lang=en&)&rbrack;
 
 * [[Tomotada Ohtsuki]]: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
+
+* [[Seiichi Kamada]]: *Classical Braids and Links*, Part 1 of: *Braid and Knot Theory in Dimension Four*, Mathematical Surveys and Monographs **95**, AMS (2002) &lbrack;[ISBN:978-0-8218-2969-1](https://bookstore.ams.org/view?ProductCode=SURV/95)&rbrack;
+
 
 * [[Dale Rolfsen]], _Knots and links_, AMS Chelsea __346__ (2003) &lbrack;[ams:chel-346-h](https://bookstore.ams.org/chel-346-h), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/rolfsen.pdf)&rbrack;
 
