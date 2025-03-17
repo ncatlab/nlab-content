@@ -16,6 +16,10 @@ On [[modular functors]] in terms of [[factorization homology]] of [[surfaces]]:
 
 * [[Adrien Brochier]], [[Lukas Woike]]: *A Classification of Modular Functors via Factorization Homology* &lbrack;[arXiv:2212.11259](https://arxiv.org/abs/2212.11259)&rbrack;
 
+On [[modular functors]] and [[mapping class group]] [[representations]]:
+
+* [[Lukas Woike]]: *An Introduction to Quantum Representations of Mapping Class Groups* (2024) &lbrack;[tqf.math.technico.ulisboa.pt:7134](https://tqft.math.tecnico.ulisboa.pt/seminars?id=7134)&rbrack;
+
 
 ## Related entries
 
