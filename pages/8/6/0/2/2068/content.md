@@ -126,7 +126,7 @@ The original concept of anodyne extensions as morphisms in the saturation class 
 
 Review includes
 
-* {#Jardine} [[John Frederick Jardine]], _Homotopy theory, lecture 5_ ([pdf](http://www.math.uwo.ca/~jardine/papers/HomTh/lecture005.pdf))
+* {#Jardine} [[John Frederick Jardine]], _Homotopy theory, lecture 5_ ([pdf](https://math.sci.uwo.ca/~jardine/HomTh/lecture005a.pdf))
  
 * {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]], _An introduction to simplicial homotopy theory_, 2005  ([chapter I](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), more notes [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf))
 
