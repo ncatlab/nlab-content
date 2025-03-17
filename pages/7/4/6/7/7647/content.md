@@ -117,6 +117,10 @@ $$
 \end{example}
 (cf. [MO:a/867292](https://math.stackexchange.com/a/867292/58526))
 
+\begin{example}
+  A [[framed braid group]] is the wreath product with the [[integers]] $\mathbb{Z}$ of a plain [[braid group]].
+\end{example}
+
 
 ## References 
 
@@ -151,7 +155,7 @@ On [[wreath product of groups|wreath products]] of a [[cyclic groups|cyclic]] wi
 
 * [[Michael Freedman]], [[Matthew B. Hastings]], [[Chetan Nayak]], [[Xiao-Liang Qi]], [[Kevin Walker]], [[Zhenghan Wang]]: *Projective Ribbon Permutation Statistics: a Remnant of non-Abelian Braiding in Higher Dimensions*, Phys. Rev. B **83** 115132 (2011) &lbrack;[doi:10.1103/PhysRevB.83.115132](https://doi.org/10.1103/PhysRevB.83.115132), [arXiv:1005.0583](https://arxiv.org/abs/1005.0583)&rbrack;
 
-On wreath products with [[braid groups]]:
+On wreath products with [[braid groups]] (cf. also *[[framed braid group]]*):
 
 * *Semidirect products with braid groups and type $F_\infty$* &lbrack;[MO:q/179104](https://mathoverflow.net/q/179104/381)&rbrack;
 
