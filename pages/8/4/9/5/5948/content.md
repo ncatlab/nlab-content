@@ -19,7 +19,7 @@ i & \stackrel{v}\longleftarrow & k\\
 j &\stackrel{u}\longrightarrow & l
 }$$
 In other words, it is a pair $(u,v)$ which factorizes $y = u\circ x \circ v$. The composition is defined in the obvious way: $(u',v')\circ (u,v) := (u'\circ u, v\circ v')$. For a morphism $f$ in $I$, one usually denotes $D(f)$ by $D_f$ and uses the abbreviation $D_i = D_{id_i}$ for every object $i$ in $I$. Other conventions include
-$u_* = D(u,Id) : D_x\to D_{ux}$ and $v^* = D(Id, v) : D_x\to D_{xv}$. 
+$u_* = D(u,Id) : D_x\to D_{u x}$ and $v^* = D(Id, v) : D_x\to D_{x v}$. 
 
 
 ## Natural systems
