@@ -181,6 +181,10 @@ Discussion from the point of view of the [[cobordism hypothesis]] (see also the 
 
 * [[Bruce Bartlett]], [[Christopher Douglas]], [[Chris Schommer-Pries]], [[Jamie Vicary]], _Modular categories as representations of the 3-dimensional bordism 2-category_ ([arXiv:1509.06811](http://arxiv.org/abs/1509.06811))
 
+On the [[Drinfeld center]]:
+
+* {#GuuTham21} [[Jin-Cheng Guu]], [[Ying Hong Tham]]: *Explicit Factorization of a Categorical Center* &lbrack;[arXiv:2111.06919](https://arxiv.org/abs/2111.06919)&rbrack;
+
 
 
 [[!include anyonic topological order via braided fusion categories -- references]]
