@@ -92,6 +92,8 @@ Relation to the [[Crane-Yetter model]]:
 [[!redirects Reshetikin-Turaev theory]]
 [[!redirects Reshetikhin-Turaev theory]]
 
+[[!redirects Reshetikhin-Turaev TQFT]]
+[[!redirects Reshetikhin-Turaev TQFTs]]
 [[!redirects Turaev-Reshetikhin TQFT]]
 [[!redirects Turaev-Reshetikhin TQFTs]]
 
