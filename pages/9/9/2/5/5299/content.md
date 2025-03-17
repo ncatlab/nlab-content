@@ -33,8 +33,14 @@ This appears as ([CohenVoronov, theorem 5.3.3](#CohenVoronov)).
 
 ## References
 
-Section 5.3 of 
+* {#SalvatoreWahl} [[Paolo Salvatore]], [[Nathalie Wahl]]:  _Framed discs operads and Batalin-Vilkovisky algebras_, The Quarterly Journal of Mathematics **54** 2 (2003) 213–231 &lbrack;[pdf](http://www.math.ku.dk/~wahl/SalvatoreWahl.pdf), [doi:10.1093/qmath/hag012](https://doi.org/10.1093/qmath/hag012)&rbrack;
 
-* [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_ ([arXiv:math/0503625](http://arxiv.org/abs/math/0503625))
-{#CohenVoronov}
+
+* {#CohenVoronov} [[Ralph Cohen]], [[Alexander Voronov]], section 5.3 of: _Notes on string topology_ ([arXiv:math/0503625](http://arxiv.org/abs/math/0503625))
+
+
+
+
+
+[[!redirects framed little n-disk operads]]
 
