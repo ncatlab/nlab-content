@@ -25,9 +25,9 @@ In short:
 
 At sufficiently low temperature, [[quantum physics|quantum effects]] change the nature of the classical [[Hall effect]], in two ways:
 
-1. in the *integral* quantum Hall effect, quantization of the [[energy]] into *Landau levels* of electrons that are circulating in a transverse [[magnetic field]] while confined to a plane, causes the [[Hall effect|Hall resistance]], which classically increases linearly with increasing external [[magnetic field]], to instead intermittently form constant "plateaus" as these get "filled" by electron states,
+1. in the *integral* quantum Hall effect, quantization of the [[energy]] into *Landau levels* of electrons (that are circulating in a transverse [[magnetic field]] while confined to a plane) causes the [[Hall effect|Hall resistance]] --- which classically increases linearly with increasing external [[magnetic field]] --- to instead intermittently form constant "plateaus" as the Landau levels get "filled" by electron states,
 
-1. in the *fractional quantum Hall effect*, strong external magnetic field causes these Landau levels to be filled only partially and the strongly Coulomb-coupled electrons to form [[bound states]] "with" magnetic [[flux quantization|flux quanta]] that may exhibit effective *fractional* charge and, apparently, "fractional statistics" ([[anyon|anyonic]] [[braiding]] behaviour).
+1. in the *fractional quantum Hall effect*, strong external magnetic field causes these Landau levels to be filled only partially and the strongly Coulomb-coupled electrons to form [[bound states]] "with" magnetic [[flux quantization|flux quanta]] that may exhibit [[effective field theory|effective]] *fractional* charge and, apparently, "fractional statistics" ([[anyon|anyonic]] [[braiding]] behaviour).
 
 \linebreak
 
