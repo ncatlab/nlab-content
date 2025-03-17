@@ -23,6 +23,8 @@ On [[proof assistants]] in relation to [[machine learning]]:
 
 * [[Terence Tao]]: *Machine-Assisted Proof*, Notices of the AMS **72** 1 (2024) &lbrack;[pdf](https://www.ams.org/journals/notices/202501/rnoti-p6.pdf), [doi:10.1090/noti3041](https://doi.org/10.1090/noti3041), full issue:[pdf](https://www.ams.org/notices/202501/202501FullIssue.pdf)&rbrack;
 
+* [[Terence Tao]]: *Machine-Assisted Proof*, AMS Colloquium Lectures at the 2024 Joint Mathematics Meetings &lbrack;[video](https://youtu.be/AayZuuDDKP0)&rbrack;
+
 
 category: people
 
