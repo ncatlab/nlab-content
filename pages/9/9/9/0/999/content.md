@@ -220,7 +220,7 @@ The first part of this theorem can also be found as Prop. 2.1.7. of Victor Ginzb
 =--
 
 +--{.query}
-Zoran: While Ginzburg's reference is surely a worthy to look at, it would be better not to give false impression that this [[reconstruction theorem]] is due Ginzburg or at all new. It is rather a classical and well know fact probably from early 1960s, essentially small strengthening of a variant of a circle of abelian reconstruction theorems including the [Gabriel-Popescu theorem](http://myyn.org/m/article/gabriel-popescu-theorem-for-ab5-categories)(probably our variant could be read off from classical algera book by Faith for example, or Popescu's book on abelian categories, in any case it is well known in [[noncommutative algebraic geometry]]). In fact for this fact, if I think better, the reconstruction belongs usually to expositions which treat classical Morita theory for rings. 
+Zoran: While Ginzburg's reference is surely a worthy to look at, it would be better not to give false impression that this [[reconstruction theorem]] is due Ginzburg or at all new. It is rather a classical and well know fact probably from early 1960s, essentially small strengthening of a variant of a circle of abelian reconstruction theorems including the Gabriel-Popescu theorem(probably our variant could be read off from classical algera book by Faith for example, or Popescu's book on abelian categories, in any case it is well known in [[noncommutative algebraic geometry]]). In fact for this fact, if I think better, the reconstruction belongs usually to expositions which treat classical Morita theory for rings. 
 =--
 
 A triangulated category is __compactly generated__ if it is generated (see [[generator]]) by a _set_ of compact objects.
