@@ -73,6 +73,8 @@ Suggestion to identify the [[Bruhat-Tits tree]] $T_p$ with [[anti de Sitter spac
 
 * [[Steven Gubser]], Sarthak Parikh, _Geodesic bulk diagrams on the Bruhat-Tits tree_ ([arXiv:1704.01149](https://arxiv.org/abs/1704.01149))
 
+* [[Yuri Manin]], [[Matilde Marcolli]] _Holography principle and arithmetic of algebraic curves_, Adv. Theor. Math. Phys. 5 (2001), no. 3, 617–650 ([arXiv:hep-th/0201036] (https://arxiv.org/abs/hep-th/0201036))
+
 Relation to [[tensor networks]]:
 
 * {#HMSS16} [[Matthew Heydeman]], [[Matilde Marcolli]], [[Ingmar Saberi]], [[Bogdan Stoica]], _Tensor networks, $p$-adic fields, and algebraic curves: arithmetic and the $AdS_3/CFT_2$ correspondence_ ([arXiv:1605.07639](https://arxiv.org/abs/1605.07639))
