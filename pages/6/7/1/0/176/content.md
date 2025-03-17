@@ -281,6 +281,7 @@ The [[Liouville cocycle]] appears when one moves from genuine [[representation]]
 
 In [[AQFT]] conformal field theory is modeled in terms of [[local net]]s that are [[conformal net]]s.
 
+
 ## Full versus chiral CFT 
  {#FullAndChiral}
 
@@ -331,25 +332,27 @@ If $S$ is a [[spherical category]] then $\mathcal{Z}(S)$ is a [[modular tensor c
 
 =--
 
-+-- {: .num_theorem}
-###### Theorem
+\begin{theorem}
 **([[Michael Müger]])**
 
+If $C$ is a [[modular tensor category]] then there is an [[equivalence of categories|equivalence]] of [[ribbon categories]]
 
-If $C$ is a [[modular tensor category]] then there is an equivalence of 
-[[ribbon categories]]
-
-$$
+\[
+  \label{IdentifyingTheDrinfeldCenter}
   \mathcal{Z}
   \stackrel{\simeq}{\leftarrow}
   C \boxtimes \bar C
-$$
+\]
 
-An inverse functor is explicitly constructed by **([[Jin-Cheng Guu]])** and **([[Ying
-Hong Tham]])** in ([Guu, Tham 21](#GuuTham21)) using graphical calculus. The functor exists for the
-non-modular case, but it is then just an ambidextrous adjoint.
+\end{theorem}
 
-=--
+\begin{remark}\label{IdentifyingTheDrinfeldCenter}
+
+1. An explicit [[inverse functor]] for (eq:IdentifyingTheDrinfeldCenter) is given by [Guu & Tham 2021](modular+tensor+category#GuuTham21) using [[string diagram|graphical calculus]]. 
+
+1. The functor (eq:IdentifyingTheDrinfeldCenter) exists also for the non-modular case, but it is then just an [[ambidextrous adjunctions|ambidextrous adjoint]].
+
+\end{remark}
 
 
 ## Examples
