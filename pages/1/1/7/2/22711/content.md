@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -40,6 +39,8 @@ Accordingly, the role that the [[braid group]] plays in [[3d TQFTs]] such as [[C
 
 
 ## Related concepts
+
+* [[surface knot]]
 
 * [[braid group]]
 
@@ -67,6 +68,11 @@ Specifically on the loop braid group:
 * Celeste Damiani, *A journey through loop braid groups*, Expositiones Mathematicae **35** 3 (2017) 252-285 &lbrack;[doi:10.1016/j.exmath.2016.12.003](https://doi.org/10.1016/j.exmath.2016.12.003)&rbrack;
 
 * {#TorzewskaMartinsMartin23} [[Fiona Torzewska]], [[João Faria Martins]], [[Paul Purdon Martin]], *Motion groupoids and mapping class groupoids*, Comm. Math. Phys. **402** (2023) 1621-1705 &lbrack;[arXiv:2103.10377](https://arxiv.org/abs/2103.10377), [doi:10.1007/s00220-023-04755-0](https://doi.org/10.1007/s00220-023-04755-0)&rbrack;
+
+Monograph:
+
+* [[Seiichi Kamada]]: *Braid and Knot Theory in Dimension Four*, Mathematical Surveys and Monographs **95**, AMS (2002) &lbrack;[ISBN:978-0-8218-2969-1](https://bookstore.ams.org/view?ProductCode=SURV/95)&rbrack;
+
 
 See also:
 
