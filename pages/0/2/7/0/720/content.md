@@ -15,7 +15,7 @@
 
 ## Idea
 
-"Thin elements" occur in various contexts.  The basic idea is that  many [[higher category theory|higher categorical structures]] have cells (of [[geometric shapes for higher structures|various shapes]]).  However, in some contexts, some of these cells should be regarded as "more canonical," "more [[equivalence]]-like," or "more identity-like" than others, and they are ''really'' there because of lower dimensional features. The cells with this property are frequently called **thin**, and the extra information of which cells are thin is called a **thin structure** or a **stratification**.
+"Thin elements" occur in various contexts.  The basic idea is that  many [[higher category theory|higher categorical structures]] have cells (of [[geometric shapes for higher structures|various shapes]]).  However, in some contexts, some of these cells should be regarded as "more canonical," "more [[equivalence]]-like," or "more identity-like" than others, and they are "really" there because of lower dimensional features. The cells with this property are frequently called **thin**, and the extra information of which cells are thin is called a **thin structure** or a **stratification**.
 
 
 ## Thin cells in higher groupoids 
