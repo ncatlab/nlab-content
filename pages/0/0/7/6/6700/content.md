@@ -290,6 +290,7 @@ Lectures and reviews:
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], p. 11 of: *Algebraic structures in two-dimensional conformal field theory*, Encyclopedia of Mathematical Physics &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
 
+* [[Lukas Woike]]: *An Introduction to Quantum Representations of Mapping Class Groups* (2024) &lbrack;[tqf.math.technico.ulisboa.pt:7134](https://tqft.math.tecnico.ulisboa.pt/seminars?id=7134)&rbrack;
 
 Proof that the values of a modular functor at [[genus of a surface|genus]]=0 (ie. the [[conformal blocks]] on the punctured [[Riemann sphere]]) determine the full modular functor:
 
