@@ -133,19 +133,20 @@ On a framed manifold, there is a canonical [[quadratic refinement]] of the [[int
 
 The [[homotopy type]] of the [[moduli space of framed manifolds|moduli space of framings]] on a fixed manifold is a disjoint union of subgroups of the oriented [[mapping class group]] which fix a given isotopy type of framings.
 
+
 ## Related concepts
 
 * [[normal framing]], [[normal twisted framing]]
 
-* [[framed link]]
-
-* [[2-framing]]
+* [[framed link]], [[framed braid]]
 
 * [[framed elliptic curve]]
 
 * [[moduli space of framed manifolds]]
 
 * [[teleparallel gravity]]
+
+* [[2-framing]]
 
 Formalization in [[differential cohesion]] is discussed [there](http://ncatlab.org/nlab/show/differential+cohesive+%28infinity%2C1%29-topos#GLnTangentBundles).
 
