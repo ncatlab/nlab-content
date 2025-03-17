@@ -110,6 +110,8 @@ Here (only) the first is different from the 1st [[Reidemeister move]] for ordina
 
 ## Related entries
 
+* [[framed braid]]
+
 * [[surgery]], [[Dehn surgery]], [[Kirby calculus]]
 
 * [[normal framing]]
