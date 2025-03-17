@@ -1,11 +1,27 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-An _$H_\infty$-spectrum_ ([Bruner-May-McLure.Steinberger 86](#BrunerMayMcLureSteinberger86)) is a [[ring spectrum]] (i.e. a [[monoid object]] in the [[stable homotopy category]]) equipped with extra structure modelling [[extended power]] operations.
+An _$H_\infty$-spectrum_ ([Bruner, May, McLure & Steinberger 86](#BrunerMayMcLureSteinberger86)) is a [[ring spectrum]] (i.e. a [[monoid object]] in the [[stable homotopy category]]) equipped with extra structure modelling [[extended power]] operations.
 
 
 ## References
