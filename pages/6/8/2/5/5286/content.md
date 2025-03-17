@@ -72,7 +72,7 @@ The [[homology]] of an [[algebra over an operad]] over the [[framed little n-dis
 
 =--
 
-This appears as ([CohenVoronov, theorem 5.3.3](#CohenVoronov)). The full [[homology]] of the [[framed little n-disk operad]] is described by ([SalvatoreWahl, theorem 5.4](#SalvatoreWahl)).
+This appears as ([CohenVoronov, theorem 5.3.3](#CohenVoronov)). The full [[homology]] of the [[framed little n-disk operad]] is described by ([Salvatore & Wahl, theorem 5.4](#SalvatoreWahl)).
 
 ## Examples
 
@@ -106,7 +106,7 @@ The generalization to higher dimensional framed little disks is discussed in
 * {#CohenVoronov} [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_ ([arXiv:math/0503625](http://arxiv.org/abs/math/0503625))
 
 
-* {#SalvatoreWahl} [[Paolo Salvatore]], [[Nathalie Wahl]], _Framed discs operads and Batalin-Vilkovisky algebras_ ([pdf](http://www.math.ku.dk/~wahl/SalvatoreWahl.pdf))
+* {#SalvatoreWahl} [[Paolo Salvatore]], [[Nathalie Wahl]]:  _Framed discs operads and Batalin-Vilkovisky algebras_, The Quarterly Journal of Mathematics **54** 2 (2003) 213–231 &lbrack;[pdf](http://www.math.ku.dk/~wahl/SalvatoreWahl.pdf), [doi:10.1093/qmath/hag012](https://doi.org/10.1093/qmath/hag012)&rbrack;
 
 
 There are examples coming from Lagrangian intersection theory:
