@@ -3878,6 +3878,9 @@ Textbook accounts:
 
 * [[Tomotada Ohtsuki]] ch 2 of: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
 
+* [[Seiichi Kamada]]: *Classical Braids and Links*, Part 1 of: *Braid and Knot Theory in Dimension Four*, Mathematical Surveys and Monographs **95**, AMS (2002) &lbrack;[ISBN:978-0-8218-2969-1](https://bookstore.ams.org/view?ProductCode=SURV/95)&rbrack;
+
+
 * [[Christian Kassel]], [[Vladimir Turaev]], _Braid Groups_, GTM **247** Springer Heidelberg 2008 ([doi:10.1007/978-0-387-68548-9](https://link.springer.com/book/10.1007/978-0-387-68548-9), [webpage](http://irma.math.unistra.fr/~kassel/Braids-bk.html))
 
 In relation to [[mapping class groups]]:
