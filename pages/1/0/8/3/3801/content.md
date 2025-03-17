@@ -242,7 +242,7 @@ The generalization to multiple [[D-branes]] is discussed in
 
 Exposition of the perspective of regarding [[string topology]]-operations as the [[TQFT]] of a [[topological string]] [[sigma model]]:
 
-* [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_, in: [[Ralph Cohen]], [[Kathryn Hess]], [[Alexander Voronov]], _String topology and cyclic homology_, Advanced courses in mathematics CRM Barcelona, Birkhäuser 2006 ([math.GT/05036259](http://arxiv.org/abs/math/0503625), [doi:10.1007/3-7643-7388-1](https://doi.org/10.1007/3-7643-7388-1), [pdf](http://gen.lib.rus.ec/get?md5=adde9464705ede0fea6b435edb58fbe7))
+* [[Ralph Cohen]], [[Alexander Voronov]]: _Notes on string topology_, in: [[Ralph Cohen]], [[Kathryn Hess]], [[Alexander Voronov]] (eds.): _String topology and cyclic homology_, Advanced courses in mathematics CRM Barcelona, Birkhäuser (2006) &lbrack;[math.GT/05036259](http://arxiv.org/abs/math/0503625), [doi:10.1007/3-7643-7388-1](https://doi.org/10.1007/3-7643-7388-1), [pdf](http://gen.lib.rus.ec/get?md5=adde9464705ede0fea6b435edb58fbe7)&rbrack;
 
 * [[Dennis Sullivan]], _Sigma models and string topology_, in: Mikhail Lyubich, Leon Takhtajan (eds.), _Graphs and Patterns in Mathematics and Theoretical Physics_, Proc. Symp. Pure Math. 73 (2005) ([doi:10.1090/pspum/073](https://doi.org/10.1090/pspum/073), [spire:1697823](http://inspirehep.net/record/1697823))
  
