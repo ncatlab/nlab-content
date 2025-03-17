@@ -8,11 +8,17 @@
 
 * [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=191314)
 
+
 ## Selected writings
 
 On the [[stable homotopy category]] ([[stable homotopy theory]]):
 
 * {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_ (2014) &lbrack;[pdf](https://people.math.binghamton.edu/malkiewich/stable.pdf), [[MalkiewichStableHomotopyCategory.pdf:file]]&rbrack;
+
+On the [[Steenrod algebra]]:
+
+* [[Cary Malkiewich]], _The Steenrod Algebra_ &lbrack;[pdf](https://people.math.binghamton.edu/malkiewich/steenrod.pdf), [[Malkiewich-SteenrodAlgebra.pdf:file]]&rbrack;
+
 
 On [[cyclic sets]] and [[cyclotomic spectra]]:
 
