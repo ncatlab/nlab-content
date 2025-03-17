@@ -3,6 +3,10 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Will_Sawin)
 
+* [GoogleScholar page](https://scholar.google.com/citations?user=RnVPcI0AAAAJ&hl=en)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=209569)
+
 ## Selected writings
 
 On [[commutativity of limits with colimits]]:
