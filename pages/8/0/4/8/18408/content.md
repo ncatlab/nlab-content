@@ -99,6 +99,11 @@ Proof of the weak gravity conjecture in [[bosonic string theory]] is claimed in:
 
 * [[Ben Heidenreich]], Matteo Lotito, *Proving the Weak Gravity Conjecture in Perturbative String Theory, Part I: The Bosonic String* &lbrack;[arXiv:2401.14449](https://arxiv.org/abs/2401.14449)&rbrack;
 
+See also:
+
+* Yong Xiao, Qiang Wang, Aonan Zhang: *A Proof of the Weak Gravity Conjecture via Leading-Order Quantum Gravity Effects* &lbrack;[arXiv:2503.08459](https://arxiv.org/abs/2503.08459)&rbrack;
+
+
 
 
 
