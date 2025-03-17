@@ -413,8 +413,6 @@ Also:
 
 Lecture notes:
 
-* [[Dylan Wilson]], _Lectures on higher categories_ ([pdf](https://sites.google.com/a/uw.edu/dwilson/notes))
-
 * [[Emily Riehl]], _[[Categorical Homotopy Theory]]_
 
 See also
