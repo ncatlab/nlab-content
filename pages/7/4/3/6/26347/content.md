@@ -84,7 +84,10 @@ specifically of  [[scattering amplitudes]] of [[bound states]]:
 
   Nature research briefing: *Topological matter created on a quantum chip produces quasiparticles with computing power* \[<a href="https://doi.org/10.1038/d41586-023-04126-8">doi:10.1038/d41586-023-04126-8</a>\]
   
+On [[quantum advantage]] for quantum simulation of the [[Schrödinger equation]]:
 
+* Andrew D. King et al.: *Beyond-classical computation in quantum simulation*, Science
+(Mar 2025) &lbrack;[doi:10.1126/science.ad6285](https://doi.org/10.1126/science.ado6285)&rbrack;
 
 
 ### Quantum simulation by classical systems
