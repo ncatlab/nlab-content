@@ -44,6 +44,10 @@ On [[skyrmion]] models for [[neutron stars]]:
 
 * Xiang-Hai Liu, Yong-Liang Ma, [[Mannque Rho]], _Topology change and nuclear symmetry energy in compact-star matter_, Phys. Rev. C 99, 055808 (2019) ([arXiv:1811.10012](https://arxiv.org/abs/1811.10012))
 
+On [[baryons]] in [[flavor (particle physics)|$N_f=1$]] [[QCD]] as [[quantum Hall effect|quantum Hall droplets]] [[effective quantum field theory|effectively described]] by [[abelian Chern-Simons theory]]:
+
+* Yong-Liang Ma, [[Maciej A. Nowak]], [[Mannque Rho]], [[Ismail Zahed]], *Baryon as a Quantum Hall Droplet and the Quark-Hadron Duality*, Phys. Rev. Lett. **123** (2019) 172301 &lbrack;[doi:10.1103/PhysRevLett.123.172301](https://doi.org/10.1103/PhysRevLett.123.172301)&rbrack;
+
 On [[nuclear physics]] and [[quark-hadron duality]] at high density such as in [[neutron stars]]:
 
 * [[Mannque Rho]], _Fractionalized Quasiparticles and the Hadron-Quark Duality in Dense Baryonic Matter_ ([arxiv:2004.09082](https://arxiv.org/abs/2004.09082))
