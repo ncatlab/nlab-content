@@ -374,9 +374,22 @@ Coupled to a [[Higgs field]]:
 
 Coupling the Chern-Simons term to 1+2D [[Maxwell theory]] for an effective description of [[superconductivity]]:
 
-* M. C. Diamantini, P. Sodano, Carlo A. Trugenberger: *Gauge Theories of Josephson Junction Arrays*, Nucl. Phys. B **474** (1996) 641-677 \[<a href="https://doi.org/10.1016/0550-3213(96)00309-4">doi:10.1016/0550-3213(96)00309-4</a>, [arXiv:hep-th/9511168](https://arxiv.org/abs/hep-th/9511168)\]
+* [[M. Cristina Diamantini]], P. Sodano, [[Carlo A. Trugenberger]]: *Gauge Theories of Josephson Junction Arrays*, Nucl. Phys. B **474** (1996) 641-677 \[<a href="https://doi.org/10.1016/0550-3213(96)00309-4">doi:10.1016/0550-3213(96)00309-4</a>, [arXiv:hep-th/9511168](https://arxiv.org/abs/hep-th/9511168)\]
 
 (...)
+
+### For baryons in $N_f=1$ QCD
+
+On [[baryons]] in [[flavor (particle physics)|$N_f = 1$]] [[QCD]] as [[quantum Hall effect|quantum Hall droplets]] [[effective quantum field theory|effectively described]] by abelian Chern-Simons theory:
+
+* [[Zohar Komargodski]]: *Baryons as Quantum Hall Droplets* &lbrack;[arXiv:1812.09253](https://arxiv.org/abs/1812.09253)&rbrack;
+
+* Yong-Liang Ma, [[Maciej A. Nowak]], [[Mannque Rho]], [[Ismail Zahed]], *Baryon as a Quantum Hall Droplet and the Quark-Hadron Duality*, Phys. Rev. Lett. **123** (2019) 172301 &lbrack;[doi:10.1103/PhysRevLett.123.172301](https://doi.org/10.1103/PhysRevLett.123.172301)&rbrack;
+
+* Kentaro Nishimura, Naoki Yamamoto, Ryo Yokokura: *Quantum Hall liquids in high-density QCD* &lbrack;[arXiv:2410.07665](https://arxiv.org/abs/2410.07665)&rbrack;
+
+
+
 
 
 
