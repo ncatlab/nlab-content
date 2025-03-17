@@ -82,7 +82,7 @@ $$
 =--
 
 This is due to [Severa 09](#Severa09),
-[Giansiracusa-Salvatore 09)](#GiansiracusaSalvatore09). See also ([Valette, slide 35](#Valette)).
+[Giansiracusa-Salvatore 09)](#GiansiracusaSalvatore09). See also ([Vallette, slide 35](#Vallette)).
 
 Accordingly one makes the following definition:
 
@@ -146,7 +146,7 @@ and
 
 Discussion of [[homotopy BV-algebra]]s is in 
 
-* [[Imma Galvez-Carrillo]], [[Andy Tonks]], [[Bruno Valette]], _Homotopy Batalin-Vilkovisky algebras_ ([arXiv:0907.2246](http://arxiv.org/abs/0907.2246))
+* [[Imma Galvez-Carrillo]], [[Andy Tonks]], [[Bruno Vallette]], _Homotopy Batalin-Vilkovisky algebras_ ([arXiv:0907.2246](http://arxiv.org/abs/0907.2246))
 
 see also 
 
@@ -154,7 +154,7 @@ see also
 
 Slides of a talk summarizing this are at
 
-* {#Valette} [[Bruno Valette]], _Homotopy Batalin-Vilkovisky algebras_ ([pdf](http://math.unice.fr/~brunov/download/Homotopy%20BV.pdf))
+* {#Vallette} [[Bruno Vallette]], _Homotopy Batalin-Vilkovisky algebras_ ([pdf](http://math.unice.fr/~brunov/download/Homotopy%20BV.pdf))
 
 [[!redirects E2-operad]] 
 [[!redirects E2-operads]] 
