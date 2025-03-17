@@ -3791,6 +3791,8 @@ $$
 
 ## Related concepts
 
+* [[framed braid group]]
+
 * [[spherical braid group]]
 
 * [[annular braid group]]
@@ -3934,21 +3936,34 @@ More [[finitely presented group|finite presentations]] of the *pure* braid group
 
 * {#Lee10} [[Eon-Kyung Lee]], *A positive presentation of the pure braid group*, Journal of the Chungcheong Mathematical Society **23** 3 (2010) 555-561 &lbrack;[JAKO201007648745187](https://koreascience.kr/article/JAKO201007648745187.view?orgId=anpor), [pdf](http://www.ccms.or.kr/data/pdfpaper/jcms23_3/23_3_555.pdf)&rbrack;
 
-The framed braid group:
+On the [[framed braid group]]:
 
 * Ki Hyoung Ko, Lawrence Smolinsky: *The framed braid group and 3-manifolds*, Proc. Amer. Math. Soc. **115** (1992) 541-551 &lbrack;[doi:10.1090/S0002-9939-1992-1126197-1](https://doi.org/10.1090/S0002-9939-1992-1126197-1), [pdf](https://www.ams.org/journals/proc/1992-115-02/S0002-9939-1992-1126197-1/S0002-9939-1992-1126197-1.pdf)&rbrack;
 
 * Ki Hyoung Ko, Lawrence Smolinsky: *The framed braid group and representations*, in: *Knots 90*, Proceedings in Mathematics, De Gruyter (1992) 289-297 &lbrack;[doi:10.1515/9783110875911](https://doi.org/10.1515/9783110875911), [[KoSmolinsky-FramedBraidsAndReps.pdf:file]]&rbrack;
 
+* R. Krasauskas: *Crossed simplicial groups of framed braids and mapping class groups of surfaces*, Lith Math J **36**  (1996) 263–281 &lbrack;[doi:10.1007/BF02986853](https://doi.org/10.1007/BF02986853)&rbrack;
+
 * [Bellingeri & Gervais 2012](#BellingeriGervais12)
 
 * Akishi Ikeda: *Homological and Monodromy Representations of Framed Braid Groups*, Commun. Math. Phys. **359** (2018) 1091–1121  &lbrack;[doi:10.1007/s00220-017-3036-1](https://doi.org/10.1007/s00220-017-3036-1), [arXiv:1702.03918](https://arxiv.org/abs/1702.03918)&rbrack;
 
+* Marco De Renzi, Azat M. Gainutdinov, Nathan Geer, Bertrand Patureau-Mirand, [[Ingo Runkel]], §3.1 in: *Mapping Class Group Representations From Non-Semisimple TQFTs*, Commun. Contemp. Math. (2021) 2150091 &lbrack;[arXiv:2010.14852](https://arxiv.org/abs/2010.14852), [doi:10.1142/S0219199721500917](https://doi.org/10.1142/S0219199721500917)&rbrack;
+  > (in the context of [[Reshetikhin-Turaev TQFT]])
+
 * [[Ying Hong Tham]]: §3.2.1 in: *On the Category of Boundary Values in the Extended Crane-Yetter TQFT*, PhD thesis, Stony Brook (2021) &lbrack;[arXiv:2108.13467](https://arxiv.org/abs/2108.13467)&rbrack;
   > (in the context of the [[Crane-Yetter model]])
 
+* Iordanis Romaidis, pp 37 in: *Mapping class group actions and their applications to 3D gravity*, PhD thesis, Hamburg (2022) &lbrack;[ediss:9945](https://ediss.sub.uni-hamburg.de/handle/ediss/9945)&rbrack;
+  > (in the context of [[Reshetikhin-Turaev TQFT]])
+
+* Iordanis Romaidis, [[Ingo Runkel]], p. 8 of: *CFT correlators and mapping class group averages* &lbrack;[arXiv:2309.14000](https://arxiv.org/abs/2309.14000)&rbrack;
+  > (in the context of [[Reshetikhin-Turaev TQFT]])
+
 * [[Lukas Woike]]: *The Cyclic and Modular Microcosm Principle in Quantum Topology* &lbrack;[arXiv:2408.02644](https://arxiv.org/abs/2408.02644)&rbrack;
   > (in relation to the framed [[little disk operad]])
+
+* Anastasios Kokkinakis: *Framed Braid Equivalences* &lbrack;[arXiv:2503.05342](https://arxiv.org/abs/2503.05342)&rbrack;
 
 
 
