@@ -393,7 +393,7 @@ The axiomatic definition appears in
 * {#SteenrodEpstein} [[Norman Steenrod]], [[David Epstein]], _Cohomology operations_, Annals of Mathematics Studies, Princeton University Press (1962) ([jstor:j.ctt1b7x52h](https://www.jstor.org/stable/j.ctt1b7x52h))
  
 
-Lecture notes on Steenrod squares and the [[Steenrod algebra]] include
+Lecture notes on Steenrod squares and the [[Steenrod algebra]]:
 
 * {#Lurie07} [[Jacob Lurie]], 18.917 _[Topics in Algebraic Topology: The Sullivan Conjecture, Fall 2007](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007)_. (MIT OpenCourseWare: Massachusetts Institute of Technology), _[Lecture notes](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/)_
 
@@ -405,12 +405,13 @@ Lecture notes on Steenrod squares and the [[Steenrod algebra]] include
 
   Lecture 5 _The Adem relations (cont.)_ ([pdf](http://ocw.mit.edu/courses/mathematics/18-917-topics-in-algebraic-topology-the-sullivan-conjecture-fall-2007/lecture-notes/lecture5.pdf))
   
-
-See also
+See also:
 
 * [[Wen-Tsun Wu]], _Sur les puissances de Steenrod_, Colloque de Topologie de Strasbourg, IX, La Biblioth&#232;que Nationale et Universitaire de Strasbourg, (1952)
 
 * {#GonzalezDiazReal99} [[Rocio Gonzalez-Diaz]], [[Pedro Real]], *A Combinatorial Method for Computing Steenrod Squares*, Journal of Pure and Applied Algebra 139 (1999) 89-108 ([arXiv:math/0110308](https://arxiv.org/abs/math/0110308))
+
+* Wikipedia: *[Steenrod algebra](https://en.wikipedia.org/wiki/Steenrod_algebra)*
 
 Discussion in [[homotopy type theory]]:
 
