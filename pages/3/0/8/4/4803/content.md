@@ -229,12 +229,18 @@ See also
 
 
 ### As a dark matter candidate
+ {#AsDarkMatterCandidate}
+
+#### General
 
 Discussion of the gravitino as a [[dark matter]] candidate:
 
 * {#EllisOlive10} [[John Ellis]], [[Keith Olive]], _Supersymmetric Dark Matter Candidates_ ([arXiv:1001.3651](http://arxiv.org/abs/1001.3651))
 
-{#NicolaiMeissner} A proposal for super-heavy [[gravitinos]] as [[dark matter]], by embedding [[D=4 N=8 supergravity]] into [[E10]]-[[U-duality]]-invariant [[M-theory]]:
+#### Via $E_{10}$
+ {#ViaE10AsDarkMatterCandidate}
+
+{#NicolaiMeissner} A proposal for super-heavy [[gravitinos]] as [[dark matter]], by embedding [[D=4 N=8 supergravity]] into [[E10]]-[[U-duality]]-invariant [[M-theory]] (see [there](E10#StandardModelPhenomenology) for the corresponding [[standard model of particle physics|standard model]] [[phenomenology]]):
 
 * {#MeissnerNicolai18a} [[Krzysztof A. Meissner]], [[Hermann Nicolai]]: *Standard Model Fermions and Infinite-Dimensional R-Symmetries*, Phys. Rev. Lett. **121** 091601 (2018) &lbrack;[arXiv:1804.09606](https://arxiv.org/abs/1804.09606), [doi:10.1103/PhysRevLett.121.091601](https://doi.org/10.1103/PhysRevLett.121.091601)&rbrack;
 
@@ -242,9 +248,9 @@ Discussion of the gravitino as a [[dark matter]] candidate:
 
 following the proposal towards the end of
 
-* {#GellMann83} [[Murray Gell-Mann]], introductory talk at _[Shelter Island II](https://en.wikipedia.org/wiki/Shelter_Island_Conference)_, 1983 ([[Gell-Mann_ShelterIslandII_1983.pdf:file]]) 
+* {#GellMann83} [[Murray Gell-Mann]], introductory talk at _[Shelter Island II](https://en.wikipedia.org/wiki/Shelter_Island_Conference)_ (1983) ([[Gell-Mann_ShelterIslandII_1983.pdf:file]]) 
 
-  in: _Shelter Island II: Proceedings of the 1983 Shelter Island Conference on Quantum Field Theory and the Fundamental Problems of Physics_. MIT Press. pp. 301&#8211;343. ISBN 0-262-10031-2.
+  in: _Shelter Island II: Proceedings of the 1983 Shelter Island Conference on Quantum Field Theory and the Fundamental Problems of Physics_. MIT Press (1985) 301-343 \[ISBN:0-262-10031-2\]
 
 Further discussion:
 
