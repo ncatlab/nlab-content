@@ -311,6 +311,7 @@ $$
 
 
 ### Linear representations
+ {#LinearRepresentations}
 
 \begin{example}
 For $k \in \mathbb{Z}$, the non-[[trivial representation|trivial]] [[irreducible representations]] of twice the $\mathbb{Z}_{2 {\left\vert k \right\vert}}$-Heisenberg extension of $\mathbb{Z}^2$ (eq:TwiceOfBasicIntegerHeisInSymplecticForm)
@@ -689,7 +690,9 @@ $$
   }
   \,
   \underset{
-    \delta_{-n}(\widehat{\widehat{n}})
+    \delta_0\big(
+       [ n + \widehat{\widehat{n}} ]
+   \big)
   }{
   \underbrace{
   \tfrac{1}{k}
@@ -869,7 +872,8 @@ $$
 \end{array}
 $$
 where the term over the brace is in fact constant in $n$ and $\widehat{\widehat{n}}$ by the assumption that $k$ is even because this implies that the summands are $k$-periodic:
-$$
+\[
+  \label{PeriodicityOfSummands}
   e^{
     \tfrac{\pi \mathrm{i}}{k}
     (n + k)^2
@@ -899,7 +903,7 @@ $$
     n^2
   }
   \,.
-$$
+\]
 
 
 This means that the last relation holds if the normalization factor in (eq:RepresentationOfModularGenerators) is fixed to
