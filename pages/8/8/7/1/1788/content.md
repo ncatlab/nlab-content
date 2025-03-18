@@ -1,4 +1,12 @@
 
+**Clifford theory**
+
+* Richard Roth: *On restricting irreducible characters to normal subgroups*, Pacific J. Math. **59** 1 (1975)
+
+* Wikipedia: *[Clifford theory](https://en.wikipedia.org/wiki/Clifford_theory)*
+
+***
+
 Suppose
 $$f,g\colon(X,M,N)\to(X',M',N')$$
 are [[measurable maps]] that are equal almost everywhere.
