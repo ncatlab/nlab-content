@@ -49,7 +49,7 @@ Vol. 10, No. 263/274 (1970), 234-240 ([jstor:43698746](https://www.jstor.org/sta
 
 Textbook account:
 
-* Charles Curtis, Irving Reiner, *Methods of representation theory -- With applications to finite groups and orders -- Vol. I*, Wiley 1981 ([pdf](https://webusers.imj-prg.fr/~olivier.dudas/src/parisa1.pdf))
+* [[Charles Curtis]], [[Irving Reiner]]: *Methods of representation theory -- With applications to finite groups and orders -- Vol. I*, Wiley (1981) (&lbrack;[ark:/13960/t8gf4wd3x](https://archive.org/details/methodsofreprese00curt/page/n1/mode/2up)&rbrack;
 
 Application to discussion of [[free group actions on n-spheres]]:
 
