@@ -18,7 +18,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -156,10 +155,14 @@ and for [[fermion|fermionic]] degrees of freedom
 
 * [[Axel Kleinschmidt]]: *Unifying R-symmetry in M-theory*, in *New Trends in Mathematical Physics*, Springer (2009) 389-401 &lbrack;[arXiv:hep-th/0703262](https://arxiv.org/abs/hep-th/0703262), [doi:10.1007/978-90-481-2810-5_26](https://doi.org/10.1007/978-90-481-2810-5_26)&rbrack;
 
-
 and application to [[supersymmetric quantum mechanics|supersymmetric]] [[quantum cosmology]]: 
 
 * {#Damour14} [[Thibault Damour]], _Quantum supersymmetric Bianchi IX  Cosmology and its hidden Kac-Moody Structure_, talk at [Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z) &lbrack;[[DamourSQC14.pdf:file]]&rbrack;
+
+See also:
+
+* Jeffrey Brown, Surya Ganguli, [[Ori J. Ganor]], Craig Helfgott: *$E_{10}$ Orbifolds*, Journal of High Energy Physics **2005** JHEP06 (2005) &lbrack;[arXiv:hep-th/0409037](https://arxiv.org/abs/hep-th/0409037), [doi:10.1088/1126-6708/2005/06/057](https://doi.org/10.1088/1126-6708/2005/06/057)&rbrack;
+
 
 Review:
 
@@ -171,22 +174,8 @@ Review:
 
 * {#Nicolai14} [[Hermann Nicolai]], _On Exceptional Geometry and Supergravity_, talk at *[Gravitation, Solitons and Symmetries](http://www.lestudium-ias.com/#!registration-conference-21-may-gibbons/ci2z)* &lbrack;[[NicolaiTalk14.pdf:file]]&rbrack;
 
-* [[Hermann Nicolai]]: *$\mathcal{N}=8$ Supergravity, and beyond* &lbrack;[arXiv:2409.18656](https://arxiv.org/abs/2409.18656)&rbrack;
+* {#Nicolai24} [[Hermann Nicolai]]: *$\mathcal{N}=8$ Supergravity, and beyond* &lbrack;[arXiv:2409.18656](https://arxiv.org/abs/2409.18656)&rbrack;
 
-
-
-Discussion of [[phenomenology]]:
-
-* [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *Standard model fermions and $K(E_{10})$*, Physics Letters B
-**747** (2015) 251-254 &lbrack;[arXiv:1504.01586](https://arxiv.org/abs/1504.01586), [doi:10.1016/j.physletb.2015.06.005](https://doi.org/10.1016/j.physletb.2015.06.005)&rbrack;
-
-* {#MeissnerNicolai18a} [[Krzysztof A. Meissner]], [[Hermann Nicolai]], _Standard Model Fermions and Infinite-Dimensional R-Symmetries_, Phys. Rev. Lett. **121** 091601 (2018) &lbrack;[arXiv:1804.09606](https://arxiv.org/abs/1804.09606), [doi:10.1103/PhysRevLett.121.091601](https://doi.org/10.1103/PhysRevLett.121.091601)&rbrack;
-
-* {#MeissnerNicolai18b} [[Krzysztof A. Meissner]], [[Hermann Nicolai]]: _Planck Mass Charged Gravitino Dark Matter_, Phys. Rev. D **100** 035001 (2019) &lbrack;[arXiv:1809.01441](https://arxiv.org/abs/1809.01441)&rbrack;
-
-See also:
-
-* Jeffrey Brown, Surya Ganguli, [[Ori J. Ganor]], Craig Helfgott: *$E_{10}$ Orbifolds*, Journal of High Energy Physics **2005** JHEP06 (2005) &lbrack;[arXiv:hep-th/0409037](https://arxiv.org/abs/hep-th/0409037), [doi:10.1088/1126-6708/2005/06/057](https://doi.org/10.1088/1126-6708/2005/06/057)&rbrack;
 
 
 ### Maximal compact subalgebra
@@ -206,6 +195,27 @@ More on the [[maximal compact subalgebras]] of [[E9]] and [[E10]], respectively,
 
 * [[Axel Kleinschmidt]], [[Hermann Nicolai]]: *On higher spin realizations of $K(E_{10})$*, J. High Energ. Phys. **2013** 41 (2013) &lbrack;[arXiv:1307.0413](https://arxiv.org/abs/1307.0413), <a href="https://doi.org/10.1007/JHEP08(2013)041">doi:10.1007/JHEP08(2013)041</a>&rbrack;
 
+
+
+### Standard model pheonomenology
+ {#StandardModelPhenomenology}
+
+
+On the [[U-duality]] [[E10|$E_{10}$]] (or rather [$K(E_{10}) \subset E_{10}$](E10#MaximalCompactSubalgebra)) as a non-standard [[GUT]]-[[gauge group|group]], following the proposal at the end of
+
+* {#GellMann83} [[Murray Gell-Mann]], introductory talk at _[Shelter Island II](https://en.wikipedia.org/wiki/Shelter_Island_Conference)_ (1983) ([[Gell-Mann_ShelterIslandII_1983.pdf:file]]) 
+
+  in: _Shelter Island II: Proceedings of the 1983 Shelter Island Conference on Quantum Field Theory and the Fundamental Problems of Physics_. MIT Press (1985) 301-343 \[ISBN:0-262-10031-2\]
+
+to identify the 48 spin 1/2 fermions of [[D=4 N=8 supergravity]], that remain after complete [[supersymmetry breaking|breaking]] of [[number of supersymmetries|$N=8$]] [[supersymmetry]], with the $3 \times 16$ [[quarks]] and [[leptons]] of the [[standard model of particle physics]]:
+
+* [[Krzysztof A. Meissner]], [[Hermann Nicolai]]: *Standard Model Fermions and $N=8$ supergravity*, Phys. Rev. D **91** (2015) 065029 \[<a href="https://doi.org/10.1103/PhysRevD.91.065029">doi:10.1103/PhysRevD.91.065029</a>, [arXiv:1412.1715](https://arxiv.org/abs/1412.1715)\]
+
+* [[Krzysztof A. Meissner]], [[Hermann Nicolai]]: *Standard Model Fermions and Infinite-Dimensional $R$-Symmetries*, Phys. Rev. Lett. **121** (2018) 091601 \[<a href="https://doi.org/10.1103/PhysRevLett.121.091601">doi:10.1103/PhysRevLett.121.091601</a>, [arXiv:1804.09606](https://arxiv.org/abs/1804.09606)\]
+
+* [[Krzysztof A. Meissner]], [[Hermann Nicolai]]: *Standard Model Symmetries and $K(E_{10})$* \[<a href="https://arxiv.org/abs/2503.13155">arXiv:2503.13155</a>\]
+
+For perspective see also [Nicolai 2024](#Nicolai24) and for the [[gravitino]] as a [[dark matter]] candidate in this context, see [there](gravitino#ViaE10AsDarkMatterCandidate).
 
 
 
