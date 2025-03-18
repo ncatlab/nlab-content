@@ -72,6 +72,7 @@ Any [[measure space]] $(X,M,\mu)$ yields an enhanced measurable space $(X,M,N_\m
 A map of [[measure spaces]] is measurable if and only if it is measurable as a map of enhanced measurable spaces and two maps of [[measure spaces]] are equal almost everywhere if and only if they are equal almost everywhere as maps of enhanced measurable spaces.
 
 An enhanced measurable space $(X,M,N)$ is __complete__ if subnegligible sets are negligible, i.e., the [[σ-ideal]] $N$ is closed under passage to arbitrary subsets.  This definition generalizes the usual notion of completeness of [[measure spaces]].
+Every enhanced measurable space $(X,M,N)$ has a __completion__ $(X,\hat M,\hat N)$, where $\hat N$ is the σ-ideal of subnegligible sets and $\hat M$ is the σ-algebra whose elements are symmetric differences of subnegligible and measurable sets.
 
 \begin{remark}
 Everything in this article could be done with conventional [[measure spaces]] $(X,M,\mu)$ instead of enhanced measurable spaces.
@@ -90,27 +91,29 @@ This property follows automatically from the strict localizability property intr
 
 An enhanced measurable space $(X,M,N)$ is __σ-finite__ if it admits a faithful finite measure $\mu\colon M\to[0,1]$.
 An element $m\in M$ is __σ-finite__ if the induced enhanced measurable space $(m,M\cap 2^m,N\cap 2^m)$ is σ-finite.
-An enhanced measurable space $(X,M,N)$ is __locally determined__ if for every $a\subset X$ the following two properties hold.
 
-* If for every σ-finite $m\in M$ we have $a\cap m\in M$, then also $a\in M$.
-
-* If for every σ-finite $m\in M$ we have $a\cap m\in N$, then also $a\in N$.
+A subset $A\subset X$ is __σ-measurable__ if for every σ-finite $m\in M$ we have $A\cap m\in M$.
+A subset $A\subset X$ is __σ-negligible__ (respectively __σ-subnegligible__) if for every σ-finite $m\in M$ we have $A\cap m\in N$ (respectively $A\cap m$ is subnegligible).
+An enhanced measurable space $(X,M,N)$ is __locally determined__ if every σ-measurable subset is measurable and every σ-negligible subset is negligible.
+Every σ-finite enhanced measurable space is locally determined.
 
 By [Fremlin](#Fremlin) (§213D),
-for every enhanced measurable space $(X,M,N)$ we can construct
-a complete locally determined enhanced measurable space $(X,M',N')$
-such that $M\subset M'$, $N\subset N'$,
-so the identity map on $X$ is measurable,
-inducing a morphism $(X,M',N')\to(X,M,N)$.
+for every enhanced measurable space $(X,M,N)$ we can construct a complete locally determined enhanced measurable space $(X,\tilde M,\tilde N)$,
+where $\tilde M$ and $\tilde N$ are the sets of σ-measurable and σ-negligible subsets, respectively, for the completion $(X,\hat M,\hat N)$.
 
-One reasonable definition of a measurable map of enhanced measurable spaces $(X_1,M_1,N_1)\to(X_2,M_2,N_2)$
+In particular, $M\subset \tilde M$, $N\subset \tilde N$,
+so the identity map on $X$ is measurable,
+inducing a morphism $(X,\tilde M,\tilde N)\to(X,M,N)$.
+For all practical situations in measure theory, this morphism behaves like an isomorphism.
+However, it is not an isomorphism under our current definition of a measurable map, since the inclusion $M\subset \tilde M$ can be proper.
+One reasonable redefinition of a measurable map of enhanced measurable spaces $(X_1,M_1,N_1)\to(X_2,M_2,N_2)$
 that need not be complete or locally determined
-is a map of sets $f\colon X_1\to X_2$ that reflects symmetric differences of subnegligible and σ-finite measurable sets.
+is a map of sets $f\colon X_1\to X_2$ that reflects symmetric differences of σ-subnegligible and σ-measurable sets.
 Under such a definition, the above map $(X,M',N')\to(X,M,N)$ is an isomorphism,
 with its inverse again given by the identity map of sets $X\to X$.
 That is to say, the inclusion of the full subcategory of complete enhanced measurable spaces into the category of enhanced measurable spaces is an equivalence of categories.
 
-It is for this reason that it is safe to assume enhanced measurable spaces to be complete from the start.
+It is for this reason that it is safe to assume enhanced measurable spaces to be complete and/or locally determined from the start.
 Every strictly localizable enhanced measurable space is automatically locally determined, so there is no need for us to separately impose local determinedness.
 
 ### Precomposition does not respect equality almost everywhere
@@ -120,12 +123,12 @@ we immediately run into a serious problem: precomposition does not respect equal
 
 To see this, suppose
 $$f,g\colon(X,M,N)\to(X',M',N')$$
-are [[measurable maps]] that are equal (respectively weakly equal, as defined below) almost everywhere.
+are [[measurable maps]] that are equal almost everywhere.
 
 Suppose that
 $$h\colon(X'',M'',N'')\to(X',M',N')$$
 is a measurable map.
-If composition is to be compatible with equality almost everywhere, then $f\circ h$ would have to be equal (respectively weakly equal) to $g\circ h$ almost everywhere.
+If composition is to be compatible with equality almost everywhere, then $f\circ h$ would have to be equal to $g\circ h$ almost everywhere.
 However,
 $$[f\circ h\ne g\circ h]=h^{-1}[f\ne g].$$
 Although $[f\ne g]$ is subnegligible,
@@ -161,55 +164,66 @@ Therefore, it is reasonable to expect that there are no morphisms $(X_1,M_1,N_1)
 If $f\colon(X',M',N')\to(X'',M'',N'')$ is a measurable map and $n''\in N''$, consider the restriction of $f$ to a map $f^{-1}n''\to n''$.  The restricted map is measurable in the induced structures.  Since the codomain $n''$ is negligible, we expect $f^{-1}n''$ to be negligible.  This leads us once again to the negligibility reflection condition.
 
 
-### Postcomposition and weak equality almost everywhere
+## Postcomposition respects equality almost everywhere.
 
-Postcomposition respects equality almost everywhere.
-
-To see this, suppose
+Suppose
 $$f,g\colon(X,M,N)\to(X',M',N')$$
 are [[measurable maps]] that are equal almost everywhere.
+Suppose that
+$$h\colon(X',M',N')\to(X'',M'',N'')$$
+is a measurable map.
+We have
+$$[h\circ f\ne h\circ g]\subset [f\ne g].$$
+Since the right side is subnegligible, so is the left side.
+Therefore, $h\circ f$ is equal to $h\circ g$ almost everywhere.
 
+Thus, we get a category of enhanced measurable spaces with morphisms being equivalence classes of measurable maps that reflect subnegligible sets modulo equality almost everywhere.
+This is not quite the category we need, as explained in the next section.
+
+### Weak equality almost everywhere
+
+Suppose
+$$f,g\colon(X,M,N)\to(X',M',N')$$
+are [[measurable maps]] that are equal almost everywhere.
 Suppose that
 $$h\colon(X',M',N')\to(\{0,1\},2^{\{0,1\}},\{\emptyset\})$$
 is a measurable map.
 Such measurable maps are in bijection with elements of $M'$: the bijection sends $h$ to $h^{-1}\{1\}$, and the inverse bijection sends a subset $m'\in M'$ to its [[characteristic function]] $\chi_{m'}$.
 
-If composition is to be compatible with equality almost everywhere, then $h\circ f$ would have to be equal to $h\circ g$ almost everywhere.
 We have
 $$[h\circ f\ne h\circ g]=f^{-1}m'\oplus g^{-1}m',$$
 where $m'=h^{-1}\{1\}$ is as above.
 Since
 $$f^{-1}m'\oplus g^{-1}m' \subset [f\ne g],$$
 the set $f^{-1}m'\oplus g^{-1}m'$ is subnegligible.
-Thus, $f=g$ almost everywhere.
 
 The condition stating that the set $f^{-1}m'\oplus g^{-1}m'$ is subnegligible for all $m'\in M'$,
 is very much compatible with the ideology of [[measure theory]]: it says that the preimages of an arbitrary measurable subset under the maps $f$ and $g$ are the same almost everywhere.
 
 It is quite natural to ask whether the converse holds.
-For example, two continuous maps $f,g\colon X\to X'$ of $T_0$-[[topological spaces]] are equal if and only if for every open subset $U'\subset X'$ we have $f^{-1}U'=g^{-1}U'$.
+For example, two continuous maps $f,g\colon X\to X'$ of [[T_0|T_0-topological spaces]] are equal if and only if for every open subset $U'\subset X'$ we have $f^{-1}U'=g^{-1}U'$.
 In measure theory, equality of sets should be replaced with equality almost everywhere,
-which amounts to requiring for every $m'\in M'$ the symmetric difference $f^{-1}m'\oplus g^{-1}m'$ to be negligible.
+meaning for every $m'\in M'$ the symmetric difference $f^{-1}m'\oplus g^{-1}m'$ is subnegligible.
 
-However, [Fremlin](#Fremlin) (Example 343I) constructs an example of a measurable negligibility-reflecting map $f:(X,M,\mu)\to(X,M,\mu)$, where $(X,M,\mu)=\{0,1\}^{\mathfrak{c}}$ is a product of continuum many discrete measurable spaces $\{0,1\}$ such that for every $x\in X$ we have $f(x)\ne x$, but for every $m\in M$, the set $f^{-1}m\oplus m$ is negligible.
+However, [Fremlin](#Fremlin) (Example 343I) constructs an example of a measurable negligibility-reflecting map $f:(X,M,\mu)\to(X,M,\mu)$ (where $(X,M,\mu)=\{0,1\}^{\mathfrak{c}}$ is a product of continuum many discrete measurable spaces $\{0,1\}$) such that for every $x\in X$ we have $f(x)\ne x$, but for every $m\in M$, the set $f^{-1}m\oplus m$ is negligible.
 Thus, the identity map $id_X$ is not equal to $f$ almost everywhere and yet, $id_X$ and $f$ have the same preimage maps, up to subnegligible sets.
 
-Such a situation is pathological, and is it turns out, it is the condition of having the same preimages up to subnegligible sets
-that produces nonpathological theory when the two conditions differ (they do coincide for many spaces, as we will see below).
+Such a situation is pathological, and is it turns out, it is the condition of having the same preimages up to subnegligible sets that produces nonpathological theory when the two conditions differ (they do coincide for many spaces, as we will see below).
 
 These considerations naturally lead us to a coarser equivalence relation.
 
 \begin{definition}
 Two measurable maps
 $$f,g\colon(X,M,N)\to(X',M',N')$$
-are __weakly equal almost everywhere__ if for every $m'\in M'$ we have
-$$f^{-1}m'\oplus g^{-1}m'\in N.$$
+are __weakly equal almost everywhere__ if for every $m'\in M'$ the set
+$$f^{-1}m'\oplus g^{-1}m'$$
+is a subnegligible set.
 \end{definition}
 
 Equality almost everywhere implies weak equality almost everywhere.
 The converse is true if $(X',M',N')$ is __countably separated__ (Fremlin, Proposition 343F), i.e., there is a countable subset $M''\subset M'$ that covers $X'$ and for any two points of $X'$ there is an element of $M''$ that contains exactly one of them.
 
-An enhanced measurable space is countably separated if and only if it admits an injective measurable function into real numbers.  Most measurable spaces (other than some counterexamples) in an introductory real analysis book are countably separated, which explains why the finer equivalence relation of equality almost everywhere is sufficient for many practical purposes.
+An enhanced measurable space is countably separated if and only if it admits an injective measurable map into real numbers.  Most measurable spaces (other than some counterexamples) in an introductory real analysis book are countably separated, which explains why the finer equivalence relation of equality almost everywhere is sufficient for many practical purposes.
 
 ### The category of enhanced measurable spaces
 
@@ -225,11 +239,13 @@ We collect what we have learned so far.
 
 * The equivalence relation of equality almost everywhere must be coarsened to weak equality almost everywhere to ensure morphisms are fully determined by their preimages up to subnegligible sets.
 
-Assembling these properties together, we arrive at the following definition.
+* Optionally, if we want to incorporate enhanced measurable spaces that are not complete or locally determined, instead of requiring maps to reflect measurable and negligible sets, we must require them to reflect σ-subnegligible sets and symmetric differences of σ-subnegligible sets and σ-measurable sets.  The resulting category is equivalent to the category of complete locally determined enhanced measurable spaces.
+
+Assembling these properties together, we arrive at the following definition, formulated in the complete version for simplicity.  We remind the reader that later we restrict to strictly localizable spaces, which are automatically locally determined.
 
 \begin{definition}
 The __category of enhanced measurable spaces__ is constructed as a [[quotient category]].
-Objects are enhanced measurable spaces $(X,M,N)$, where $X$ is a set, $M$ is a [[σ-algebra]], $N$ is a [[σ-ideal]].  Morphisms are maps of sets that reflect measurable sets and negligible sets.  Two morphisms are equivalent if they are weakly equal almost everywhere.
+Objects are complete enhanced measurable spaces $(X,M,N)$, where $X$ is a set, $M$ is a [[σ-algebra]], $N$ is a [[σ-ideal]] of $M$.  Morphisms are maps of sets that reflect measurable sets and negligible sets.  Two morphisms are equivalent if they are weakly equal almost everywhere.
 \end{definition}
 
 ## Localizability
