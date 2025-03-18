@@ -59,7 +59,7 @@ Passing from a [[dg-category]] to its category of twisted complexes is a step to
 
 * [[Landau-Ginzburg model]], [[pretriangulated dg-category]]
 * {#BondalKapranov90} [[Alexei Bondal]], [[Mikhail Kapranov]], _Enhanced triangulated categories_, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1057;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082;, &#1058;&#1086;&#1084; 181 (1990), No.5, 669&#8211;683 (Russian); transl. in USSR Math. USSR Sbornik, vol. 70 (1991), No. 1, pp. 93&#8211;107, (MR91g:18010) ([[bondalKaprEnhTRiangCat.pdf:file]])
-* [[Bernhard Keller]], _A brief introduction to $A_\infty$-algebras_ ([pdf](http://people.math.jussieu.fr/~keller/publ/IntroAinfEdinb.pdf))
+* [[Bernhard Keller]], _A brief introduction to $A_\infty$-algebras_ ([pdf](https://webusers.imj-prg.fr/~bernhard.keller/publ/IntroAinfEdinb.pdf))
 * [[Mikhail Kapranov]], Svyatoslav Pimenov, _Derived varieties of complexes and Kostant's theorem for gl(m|n)_,
 [arxiv/1504.00339](http://arxiv.org/abs/1504.00339)
 
