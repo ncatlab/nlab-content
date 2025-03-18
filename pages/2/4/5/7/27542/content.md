@@ -13,7 +13,7 @@ A [[Borel subset]] $S\subset G$ is __shy__ if there is a compactly supported non
 
 The triple $(G,B_G,S_G)$, where $B_G$ is the [[σ-algebra]] of [[Borel subsets]] and $S_G$ is the [[σ-ideal]] of shy sets is an [[enhanced measurable space]].
 
-We may also want to [[complete|complete enhanced measurable space]] $(G,B_G,S_G)$, extending the notion of shy and prevalent sets to non-Borel sets.
+We may also want to [[complete enhanced measurable space|complete]] the [[enhanced measurable space]] $(G,B_G,S_G)$, extending the notion of shy and prevalent sets to non-Borel sets.
 
 ## References
 
