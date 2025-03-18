@@ -788,7 +788,7 @@ $$
     {\vert \widehat{n} \rangle}
   \end{array}
   \;\;\;\;\;\;\;\;\;\;\;\;\;
-  \text{but}
+  \text{and}
   \;\;\;\;\;\;\;\;\;\;\;\;\;
   \begin{array}{l}
   S T S
@@ -868,7 +868,7 @@ $$
   \,,
 \end{array}
 $$
-where the term over the brace is in fact independent of $n$ and of $\widehat{\widehat{n}}$ by the assumption that $k$ is even because this implies that the summands are $k$-periodic:
+where the term over the brace is in fact constant in $n$ and $\widehat{\widehat{n}}$ by the assumption that $k$ is even because this implies that the summands are $k$-periodic:
 $$
   e^{
     \tfrac{\pi \mathrm{i}}{k}
@@ -1146,7 +1146,7 @@ $$
   \end{array}
 $$
 
-But since $S , T \in SL_2(\mathbb{Z})$ generate the whole group (Rem. \ref{GenerationOfModularGroup}), this completes the proof.
+This completes the proof.
 \end{proof}
 
 
