@@ -73,11 +73,38 @@ A key point of this description is that for any small (∞,1)-category $C$, the 
 
 =--
 
-The hom-spaces of the universal cocartesian fibration can be described as
+The universal cocartesian fibration can also be viewed as a full $(\infty,2)$-subcategory of $(\infty,1)Cat^{[1]}$, whose hom-categories can be given explicitly:
+
++-- {: .num_prop }
+###### Proposition
+The hom-categories of the universal cocaretsian fibration are given by the [[comma category]]
 $$
-  Z'([C_{/x} \to C], [D_{/y} \to D]) \simeq Core(eval_x \downarrow y)
+  Fun_{Z'}([C_{/x} \to C], [D_{/y} \to D]) \simeq (eval_x \downarrow y)
 $$
-where $eval_x : D^C \to D$. This should be compared with the lax [[slice 2-category]] construction. In fact, $Z'$ can be constructed by taking the underlying (∞,1) category of the lax coslice (or colax, depending on convention) over the point of the (∞,2)-category of (∞,1)-categories.
+where $eval_x : D^C \to D$ is the evaluation
+=--
++-- {: .proof }
+###### Proof
+
+Consider the diagram
+
+\begin{centre}
+\begin{tikzcd}
+{} & Fun(C_{/x}, D_{/y}) \arrow[r] \arrow[d]
+& Fun(1, D_{/y}) \arrow[d]
+\\ Fun(C, D) \arrow[r] & Fun(C_{/x}, D) \arrow[r] & Fun(1, D)
+\end{tikzcd}
+\end{centre}
+
+The square on the right is a pullback, because the inclusion of the terminal object $1\to C_{/x}$ is a [[right anodyne]] and $D_{/y} \to D$ is a [[right fibration]], e.g. by Higher Topos Theory prop 2.1.2.9. So by the pasting law for pullbacks, the induced map of fibers
+
+$$ (\eval_x \downarrow y) \to Fun_{Z'}(C_{/x} \to C, D_{/y} \to D) $$
+
+is an equivalence of $\infty$-categories.
+
+=--
+
+This should be compared with the lax [[slice 2-category]] construction. In fact, $Z'$ can be constructed by taking the underlying (∞,1) category of the lax coslice (or colax, depending on convention) over the point of the (∞,2)-category of (∞,1)-categories.
 
 
 ### For $\infty$-Groupoids 
