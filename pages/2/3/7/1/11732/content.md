@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher algebra
+#### Algebra
 +--{: .hide}
-[[!include higher algebra - contents]]
+[[!include algebra - contents]]
 =--
 #### Arithmetic
 +--{: .hide}
@@ -12,6 +12,7 @@
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -25,7 +26,45 @@ An $n$th _root of unity_ in a [[ring]] $R$ is an element $x$ such that $x^n = 1$
 
 ### Over a field
 
-In a [[field]] $k$, a [[torsion subgroup|torsion]] element of the multiplicative group $k^\ast$ is a [[root of unity]] by definition. Moreover we have the following useful result. 
+\begin{proposition}\label{SumOfRootsOfUnity}
+**(sum of roots of unity)**
+\linebreak
+For $k \in \mathbb{N}_{\gt 0}$, let $\zeta$ be a $k$th root of unity in a [[field]], $\zeta^k = 1$. Then
+
+$$
+  \tfrac{1}{k}
+  \sum_{n=0}^{k-1}
+  \zeta^n
+  \;=\;
+  \left\{
+  \begin{array}{lcl}
+    1 &\vert& \zeta = 1
+    \\
+    0 &\vert& otherwise
+  \end{array}
+  \right.
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+  The case $\zeta = 1$ is immediate.
+  For the case $\zeta \neq 1$ observe that
+  $$
+    (1 - \zeta)
+    \sum_{n=0}^{k-1}
+    \zeta^n
+    \;=\;
+    1 - \zeta^{k}
+    \;=\;
+    0
+    \,.
+  $$
+\end{proof}
+
+
+
+
+In a [[field]] $k$, a [[torsion subgroup|torsion]] element of the multiplicative group $k^\ast$ is a [[root of unity]] by definition. Moreover we have the following useful result:
 
 +-- {: .num_theorem} 
 ###### Theorem 
