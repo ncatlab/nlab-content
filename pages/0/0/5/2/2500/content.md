@@ -411,6 +411,10 @@ Survey:
 * [[Ergin Sezgin]], *Survey of supergravities*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2312.06754](https://arxiv.org/abs/2312.06754), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
 
+* [[Antoine Van Proeyen]]: *Matter Couplings in Supergravity. The first 10 years* &lbrack;[arXiv:2503.12510](https://arxiv.org/abs/2503.12510)&rbrack;
+
+
+
 Lecture notes:
 
 * P. Binetruy, G. Girardi, R. Grimm, _Supergravity couplings: a geometric formulation_, Phys.Rept.343:255-462,2001 ([arXiv:hep-th/0005225](http://arxiv.org/abs/hep-th/0005225))
