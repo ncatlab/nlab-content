@@ -105,13 +105,13 @@ inducing a morphism $(X,M',N')\to(X,M,N)$.
 
 One reasonable definition of a measurable map of enhanced measurable spaces $(X_1,M_1,N_1)\to(X_2,M_2,N_2)$
 that need not be complete or locally determined
-is a map of sets $f\colon X_1\to X_2$ that reflects subnegligible sets as well as symmetric differences of subnegligible and σ-finite sets.
+is a map of sets $f\colon X_1\to X_2$ that reflects symmetric differences of subnegligible and σ-finite measurable sets.
 Under such a definition, the above map $(X,M',N')\to(X,M,N)$ is an isomorphism,
 with its inverse again given by the identity map of sets $X\to X$.
+That is to say, the inclusion of the full subcategory of complete enhanced measurable spaces into the category of enhanced measurable spaces is an equivalence of categories.
 
 It is for this reason that it is safe to assume enhanced measurable spaces to be complete from the start.
-Every strictly localizable enhanced measurable space is automatically locally determined, so there is no need for us
-to separately impose the property of local determinedness.
+Every strictly localizable enhanced measurable space is automatically locally determined, so there is no need for us to separately impose local determinedness.
 
 ### Precomposition does not respect equality almost everywhere
 
