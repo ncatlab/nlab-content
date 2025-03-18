@@ -716,10 +716,10 @@ $$
   \\
   &=&
   {\big\vert[-n]\big\rangle}
-  \,,
   \end{array}
 $$
-which immediately implies the relation $S^4 = \mathrm{id}$ and that, with 
+(where under the brace we evaluated the [sum of roots of unity](root+of+unity#SumOfRootsOfUnity)),
+which immediately implies the relation $S^4 = \mathrm{id}$ and thereby, with 
 $$
   T \circ S
   \Big(
@@ -871,7 +871,7 @@ $$
   \,,
 \end{array}
 $$
-where the term over the brace is in fact constant in $n$ and $\widehat{\widehat{n}}$ by the assumption that $k$ is even because this implies that the summands are $k$-periodic:
+where the term over the brace is in fact constant in $n$ and $\widehat{\widehat{n}}$ by the assumption that $k$ is even, because this implies that the summands are $k$-periodic:
 \[
   \label{PeriodicityOfSummands}
   e^{
