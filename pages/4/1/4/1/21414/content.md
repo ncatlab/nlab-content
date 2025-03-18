@@ -118,7 +118,14 @@ There is a weak model structure on [[semi-simplicial sets]] which is [[Quillen e
 
 * {#Henry18} [[Simon Henry]], _Weak model categories in classical and constructive mathematics_, Theory and Applications of Categories, Vol. 35, 2020, No. 24, pp 875-958.  ([arXiv:1807.02650](https://arxiv.org/abs/1807.02650), [tac:35-24](http://www.tac.mta.ca/tac/volumes/35/24/35-24abs.html))
 
-* {#Henry20} [[Simon Henry]], _Combinatorial and accessible weak model categories_ ([arXiv:2005.02360](https://arxiv.org/abs/2005.02360))
+* {#Henry20} [[Simon Henry]], _Combinatorial and accessible weak model categories_, Journal of Pure and Applied Algebra, Vol. 227, 2023, No. 2, Paper No. 107191, 46. ([arXiv:2005.02360](https://arxiv.org/abs/2005.02360), [article link](https://www.sciencedirect.com/science/article/abs/pii/S0022404922001876?via%3Dihub))
+
+Basic properties of underlying [[(infinity,1)-categories|$(\infty,1)$-categories]] discussed in:
+
+* Appendix A of :{#LoMonaco21} [[Giulio Lo Monaco
+]], _Vopěnka's principle in 
+$\infty$
+-categories_ ([arxiv:2105.04251](https://arxiv.org/abs/2105.04251))
 
 [[!redirects weak model categories]]
 [[!redirects weak model structure]]
