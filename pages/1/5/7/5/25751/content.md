@@ -76,7 +76,9 @@ For a treatment of $V$-enriched functor categories and bifunctors that is applic
 
 * [[Rory Lucyshyn-Wright]], _V-graded categories and V-W-bigraded categories: Functor categories and bifunctors over non-symmetric bases_ &lbrack;[arXiv:2502.18557](https://arxiv.org/abs/2502.18557)&rbrack;
 
+For [[weighted colimits]] and [[weighted limits]] in the context of categories enriched in a presheaf category:
 
+* [[F. Borceux]] and [[Jiří Rosický]]. "On filtered weighted colimits of presheaves." Cahiers de topologie et géométrie différentielle catégoriques 49.4 (2008): 243-266.
 
 [[!redirects locally graded categories]]
 [[!redirects locally indexed category]]
