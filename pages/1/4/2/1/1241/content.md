@@ -487,6 +487,9 @@ See also:
 * Alfredo Aranda, Francisco J. de Anda, António P. Morais, Roman Pasechnik, *Sculpting the Standard Model from low-scale Gauge-Higgs-Matter $E_8$ Grand Unification in ten dimensions* ([arXiv:2107.05495](https://arxiv.org/abs/2107.05495))
 
 
+#### $K(E_{10})$-GUT
+
+See at *[[E10|$E_{10}$]] -- [Standard model phenomenology](E10#StandardModelPhenomenology)*
 
 
 [[!include heterotic string phenomenology -- references]]
