@@ -31,6 +31,23 @@ $$
   }
 $$
 
+As $n$ ranges, there are natural inclusions
+
+$$
+  \ast = \mathbb{H}P^0
+    \hookrightarrow
+  \mathbb{H}P^1
+    \hookrightarrow
+  \mathbb{H}P^2
+    \hookrightarrow
+  \mathbb{H}P^3
+    \hookrightarrow
+  \cdots
+  \,.
+$$
+
+The [[sequential colimit]] over this sequence is the infinite quaternionic projective space $\mathbb{H}P^\infty$. This is a model for the [[classifying space]] $B Sp(1) \cong B SU(2) \cong B Spin(3)$.
+
 ## Properties
  {#Properties}
 
