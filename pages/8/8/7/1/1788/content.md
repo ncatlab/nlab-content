@@ -1,4 +1,41 @@
 
+\begin{proposition}
+**(sum of roots of unity)**
+\linebreak
+For $k \in \mathbb{N}_{\gt 0}$, let $\zeta$ be a $k$th root of unity, $\zeta^k = 1$. Then
+
+$$
+  \tfrac{1}{k}
+  \sum_{n=0}^{k-1}
+  \zeta^n
+  \;=\;
+  \left\{
+  \begin{array}{lcl}
+    1 &\vert& \zeta = 1
+    \\
+    0 &\vert& otherwise
+  \end{array}
+  \right.
+  \,.
+$$
+\end{proposition}
+\begin{proof}
+  The case $\zeta = 1$ is immediate.
+  For the case $\zeta \neq 1$ observe that
+  $$
+    (1 - \zeta)
+    \sum_{n=0}^{k-1}
+    \zeta^n
+    \;=\;
+    1 - \zeta^{k}
+    \;=\;
+    0
+    \,.
+  $$
+\end{proof}
+
+
+
 **Clifford theory**
 
 * Richard Roth: *On restricting irreducible characters to normal subgroups*, Pacific J. Math. **59** 1 (1975)
