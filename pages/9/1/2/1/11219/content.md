@@ -282,10 +282,9 @@ The [[positive number|positive]] [[integer numbers]]:
 \]
 
 
-### The [[rational numbers]]
+### The rational numbers
  
 The [[ring]] of [[rational numbers]]:
-
 \[
   \label{DataStructureOfRationalNumbers}
   \begin{array}{l}
