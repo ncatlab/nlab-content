@@ -432,7 +432,7 @@ $$
   i \colon H \hookrightarrow G
 $$ 
 
-be a group homomorphism (often assumed to be a [[subgroup]] inclusion, and sometimes with $G$ assumed to be a [[finite group]]). For $E \in H Rep$ some $H$-representation (often taken to be the trivial $H$-representation), let $Ind_i E \in G Rep$ be the induced $G$-representation. Then the [[endomorphism ring]] $End_G(Ind_i E)$ of $Ind_i E$ in $G Rep$ is called the _centralizer algebra_ or also the _[[Hecke algebra]]_ or _[[Iwahori-Hecke algebra]]_ $Hecke(E,i)$ of the induced representation. (Basics are in ([Woit, def. 2](#Woit)), details are in ([Curtis-Reiner, section 67](#CR)), a quick survey of related theory is in ([Srinivasan](http://homepages.math.uic.edu/~srinivas/bfggpaper.pdf))).
+be a group homomorphism (often assumed to be a [[subgroup]] inclusion, and sometimes with $G$ assumed to be a [[finite group]]). For $E \in H Rep$ some $H$-representation (often taken to be the trivial $H$-representation), let $Ind_i E \in G Rep$ be the induced $G$-representation. Then the [[endomorphism ring]] $End_G(Ind_i E)$ of $Ind_i E$ in $G Rep$ is called the _centralizer algebra_ or also the _[[Hecke algebra]]_ or _[[Iwahori-Hecke algebra]]_ $Hecke(E,i)$ of the induced representation. (Basics are in ([Woit, def. 2](#Woit)), details are in ([Curtis & Reiner 1981, section 67](#CurtisReiner81)), a quick survey of related theory is in ([Srinivasan](http://homepages.math.uic.edu/~srinivas/bfggpaper.pdf))).
 
 In terms of the notation in _[General abstract formulation](#GeneralAbtractDefinition)_ above and for $i \colon H \to G$ any homomorphism of $\infty$-groups, we have the [[∞-monoid]]
 
@@ -492,7 +492,11 @@ Original articles:
 
 Textbook accounts include
 
-* {#CR} C. Curtis and I. Reiner, _Methods of Representation Theory with applications to finite groups and orders_, Wiley (1987)
+* {#CurtisReiner62} [[Charles Curtis]], [[Irving Reiner]]: *Induced Representations*, chapter VII in: _Representation theory of finite groups and associative algebras_, AMS (1962) &lbrack;[ISBN:978-0-8218-4066-5](https://bookstore.ams.org/chel-356.h)&rbrack;
+
+
+* {#CurtisReiner81} [[Charles Curtis]], [[Irving Reiner]]: *Methods of representation theory -- With applications to finite groups and orders -- Vol. I*, Wiley (1981) &lbrack;[ark:/13960/t8gf4wd3x](https://archive.org/details/methodsofreprese00curt/page/n1/mode/2up)&rbrack;
+
  
 
 
