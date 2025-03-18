@@ -13,23 +13,22 @@ $f: P\otimes Q\to A$, $g: Q\otimes P\to B$ satisfying mixed [[associativity]] co
 
 Theorem. (Bass II.3.4) If $f$ is surjective, then:
 
-(i) $f$ is an isomorphism
+(i) $f$ is an isomorphism.
 
-(ii) $P$ and $Q$ are generators in the categories of $A$-modules
+(ii) $P$ and $Q$ are generators in the categories of $A$-modules.
 
-(iii) $P$ and $Q$ are finitely generated and projective
+(iii) $P$ and $Q$ are finitely generated and projective as $B$-modules.
 
-(iv) $g$ induces isomorphisms of bimodules $P\cong Hom_B(Q,B)$ and
-$Q\cong Hom_B(P,B)$
+(iv) $g$ induces isomorphisms of bimodules $P\cong Hom_B(Q,B)$ and $Q\cong Hom_B(P,B)$.
 
-(v) homomorphisms of $A$-algebras $End_B(P)\leftarrow A\rightarrow End_B(Q)$ are isomorphisms
+(v) The homomorphisms of $A$-algebras $End_B(P)\leftarrow A\rightarrow End_B(Q)$ are isomorphisms.
 
 
 (Bass II.4.1) A Morita context can be constructed from an $A$-algebra $B$ and a right $B$-module $P$. Then set $A = End_B(P)$ and $Q=Hom_B(P,B)$. Then $f = f_P$ and $g = g_P$ are defined by $(b q) p = b (q p)$ and $(q a) p = q(a p)$. 
 
-(Bass II.4.4) (i) $f_P$ s surjective iff $P$ is finitely generated projective $B$-module. Then $f_P$ s iso.
+(Bass II.4.4) (i) $f_P$ s surjective iff $P$ is finitely generated projective $B$-module, in which case $f_P$ is an isomorphism.
 
-(ii) $g_P$ is surjective iff $P$ s a generator of $mod_B$, then $g_P$ is iso
+(ii) $g_P$ is surjective iff $P$ is a generator of $Mod_B$, in which case $g_P$ is an isomorphism.
 
 (iii) The Morita context $(A,B,P,Q,f,g)$ is a Morita equivalence iff $P$ is both projective and a generator. Then $\otimes_P : mod_A\to mod_B$ and its right adjoint $Hom_B(P,-)$ form the equivalence.
 
