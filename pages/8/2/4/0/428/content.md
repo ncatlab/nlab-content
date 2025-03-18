@@ -419,7 +419,7 @@ Under the [[Moore complex]] functor of the [[Dold-Kan correspondence]], this sim
 
 This chain complex is what originally was called the **bar complex** in [[homological algebra]].
 
-This chain complex provides a free resolution of $A$, which can be used to compute the [[Tor]] group
+This chain complex provides a free resolution of $M$, which can be used to compute the [[Tor]] group
 
 $$
   Tor(M, A \times A)
