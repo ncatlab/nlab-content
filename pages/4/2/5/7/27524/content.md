@@ -12,7 +12,7 @@ $$
   \,,
 $$
 
-where $\mu \geq 0$, and $\varphi \colon R_+ \to \R_+$.
+where $\mu \geq 0$, and $\varphi \colon \mathbb{R}_+ \to \mathbb{R}_+$.
 
 
 ## References
