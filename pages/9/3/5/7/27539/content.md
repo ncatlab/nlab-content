@@ -88,12 +88,10 @@ As the [[mapping class group]] of [[surfaces]] with framed [[punctures]], and in
 
 * Iordanis Romaidis, pp 37 in: *Mapping class group actions and their applications to 3D gravity*, PhD thesis, Hamburg (2022) &lbrack;[ediss:9945](https://ediss.sub.uni-hamburg.de/handle/ediss/9945)&rbrack;
  
-* Iordanis Romaidis, [[Ingo Runkel]], p. 8 of: *CFT correlators and mapping class group averages* &lbrack;[arXiv:2309.14000](https://arxiv.org/abs/2309.14000)&rbrack;
+* Iordanis Romaidis, [[Ingo Runkel]], p. 8 of: *CFT correlators and mapping class group averages*, Commun. Math. Phys. **405** 247 (2024) &lbrack;[arXiv:2309.14000](https://arxiv.org/abs/2309.14000), [doi:10.1007/s00220-024-05111-6](https://doi.org/10.1007/s00220-024-05111-6)&rbrack;
  
 
-
 In the context of the [[Crane-Yetter model]]:
-
 
 * [[Ying Hong Tham]]: §3.2.1 in: *On the Category of Boundary Values in the Extended Crane-Yetter TQFT*, PhD thesis, Stony Brook (2021) &lbrack;[arXiv:2108.13467](https://arxiv.org/abs/2108.13467)&rbrack;
 
