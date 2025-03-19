@@ -180,6 +180,10 @@ Relation to [[cellular automata]]:
 * [[S. James Gates Jr.]], Youngik (Tom) Lee: *A Précis: Minimal Four Color Holoraumy and Wolfram's "New Kind of Science" Paradigm* &lbrack;[arXiv:2408.09342](https://arxiv.org/abs/2408.09342)&rbrack;
 
 
+See also:
+
+* Jeth Arunseangroj, Jude Bedessem, [[S. James Gates Jr.]], Gabriel Yerger: *Adinkras & Genomics in Sixteen Color Systems (I)* &lbrack;[arXiv:2503.13797](https://arxiv.org/abs/2503.13797)&rbrack;
+
 
 
 
