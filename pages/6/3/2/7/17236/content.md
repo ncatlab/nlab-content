@@ -95,7 +95,7 @@ $$
   \,.
 $$
 \end{proposition}
-(e.g. [Hatcher](#Hatcher) [p 11](https://pi.math.cornell.edu/~hatcher/AT/AT.pdf#page=20)).
+(e.g. [Hatcher 02](#Hatcher02) [p 11](https://pi.math.cornell.edu/~hatcher/AT/AT.pdf#page=20)).
 
 \begin{example}\label{SphereWithArcAttached}
   Let  $X$ be the [[pushout]] (in [[Top]]) which attaches an arc --- identified as $A \subset X$ --- to the [[2-sphere]], connecting a pair of distinct points:
@@ -111,7 +111,7 @@ $$
         "right": 0, 
         "left": 10
     },
-    "caption": "(from [Hatcher 2002](#Hatcher))"
+    "caption": "(from [Hatcher 2002](#Hatcher02))"
 \end{imagefromfile}
 
 
