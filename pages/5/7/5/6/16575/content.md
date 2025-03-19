@@ -123,15 +123,15 @@ By actual computation in [[open string field theory]] "convincing evidence" for 
 
 Similar numerical derivation, as well as exact derivation at zero momentum, is in
 
-* [[Nathan Berkovits]], [[Martin Schnabl]], _Yang-Mills Action from Open Superstring Field Theory_, JHEP 0309 (2003) 022 ([arXiv:hep-th/0307019](https://arxiv.org/abs/hep-th/0307019))
+* {#BerkovitsSchnabl03} [[Nathan Berkovits]], [[Martin Schnabl]]: _Yang-Mills Action from Open Superstring Field Theory_, JHEP 0309 (2003) 022 &lbrack;[arXiv:hep-th/0307019](https://arxiv.org/abs/hep-th/0307019), [doi:10.1088/1126-6708/2003/09/022](https://doi.org/10.1088/1126-6708/2003/09/022)&rbrack;
 
-The first full derivation seems to be due to
+The first full derivation seems to be claimed by:
 
-* {#Lee16} [[Taejin Lee]], _Covariant open bosonic string field theory on multiple D-branes in the proper-time gauge_, Journal of the Korean Physical Society December 2017, Volume 71, Issue 12, pp 886–903 ([arXiv:1609.01473](https://arxiv.org/abs/1609.01473))
+* {#Lee16} [[Taejin Lee]]: _Covariant open bosonic string field theory on multiple D-branes in the proper-time gauge_, Journal of the Korean Physical Society **71** 12 (2017) 886–903 &lbrack;[arXiv:1609.01473](https://arxiv.org/abs/1609.01473), [doi:10.3938/jkps.71.886](https://doi.org/10.3938/jkps.71.886)&rbrack;
 
-which is surveyed in
+surveyed in
 
-* {#Lee17} [[Taejin Lee]], _Deformation of the Cubic Open String Field Theory_, Phys. Lett. B 768 (2017) 248 ([arXiv:1701.06154](https://arxiv.org/abs/1701.06154))
+* {#Lee17} [[Taejin Lee]], _Deformation of the Cubic Open String Field Theory_, Phys. Lett. B **768** (2017) 248 &lbrack;[arXiv:1701.06154](https://arxiv.org/abs/1701.06154), [doi:10.1016/j.physletb.2017.02.065](https://doi.org/10.1016/j.physletb.2017.02.065)&rbrack;
 
 That on [[D0-branes]] this reproduces the [[BFSS matrix model]] and on [[D(-1)-branes]] the [[IKKT matrix model]] is shown in
 
