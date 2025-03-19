@@ -439,10 +439,6 @@ Cubes with symmetries and a connection:
 
 * {#Isaacson2011} [[Samuel Isaacson]], _Symmetric cubical sets_, Journal of Pure and Applied Algebra **215**(6) (2011) 1146--1173 &lbrack;[doi:10.1016/j.jpaa.2010.08.001](https://dx.doi.org/10.1016/j.jpaa.2010.08.001)&rbrack;
 
-Cubes with monotone interval-preserving maps:
-
-* {#KrishnanRudman2025} [[Sanjeevi Krishnan]] and Emily Rudman, _A convenient category of cubes_ (2025) &lbrack;[arXiv:2503.13663](https://arxiv.org/abs/2503.13663)&rbrack;
-
 Cubes with diagonals:
 
 * {#ABCFHL} [[Carlo Angiuli]], [[Guillaume Brunerie]], [[Thierry Coquand]], [[Kuen-Bang Hou (Favonia)]], [[Robert Harper]], and [[Daniel R. Licata]], _Syntax and models of Cartesian cubical type theory_, Mathematical Structures in Computer Science **31**(4) (2021). ([doi:10.1017/S0960129521000347](https://dx.doi.org/10.1017/S0960129521000347))
@@ -458,6 +454,11 @@ Cubes with diagonals:
 On Eilenberg--Zilber structures:
 
 * {#Campion2023} [[Tim Campion]], _Cubical sites as Eilenberg-Zilber categories_, 2023, [arXiv:2303.06206](https://arxiv.org/abs/2303.06206)
+
+Cubes with monotone interval-preserving maps:
+
+* {#KrishnanRudman2025} [[Sanjeevi Krishnan]], Emily Rudman: _A convenient category of cubes_ (2025) &lbrack;[arXiv:2503.13663](https://arxiv.org/abs/2503.13663)&rbrack;
+
 
 [[!redirects symmetric cube category]]
 [[!redirects semicartesian cube category]]
