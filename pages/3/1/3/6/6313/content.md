@@ -1,5 +1,9 @@
 
+Huzihiro Araki (1932-2022)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Huzihiro_Araki)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=35147)
 
 ## Selected writings
 
