@@ -352,7 +352,11 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
 ### Historical origins
 
-The seed of quantum mechanics is sown in 
+Historical review:
+
+* Eren Volkan Küçük: *The Birth of Quantum Mechanics: A Historical Study Through the Canonical Papers* &lbrack;[arXiv:2503.13630](https://arxiv.org/abs/2503.13630)&rbrack;
+
+The seed of quantum mechanics was sown in 
 
 * [[Max Planck]] (transl. M. Martius) *The Theory of Heat Radiation* (1914) &lbrack;[pdf](https://www.gutenberg.org/files/40030/40030-pdf.pdf)&rbrack;
 
@@ -416,7 +420,7 @@ Early discussion of [[composite quantum systems]] and their [[quantum entangleme
 
 * [[Erwin Schrödinger]], *Discussion of Probability Relations between Separated Systems*, Mathematical Proceedings of the Cambridge Philosophical Society, **31** 4 (1935) 555-563 &lbrack;[doi:10.1017/S0305004100013554](https://doi.org/10.1017/S0305004100013554)&rbrack;
 
-On the historical orogin of the [[canonical commutation relations]]:
+On the historical origin of the [[canonical commutation relations]]:
 
 * [[Severino C. Coutinho]], *The Many Avatars of a Simple Algebra*, The American Mathematical Monthly **104** 7 (1997) 593-604 &lbrack;[doi:10.2307/2975052](https://doi.org/10.2307/2975052), [jstor:2975052](https://www.jstor.org/stable/2975052)&rbrack;
 
