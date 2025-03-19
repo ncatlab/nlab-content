@@ -261,7 +261,7 @@ The original reference is
 
 Dmitry Roytenberg wrote a useful exposition of the central idea of the original work and studied the case of the [[Courant sigma-model]] in
 
-* {#Roytenberg} [[Dmitry Roytenberg]], _AKSZ-BV Formalism and Courant Algebroid-induced Topological Field Theories_ Lett.Math.Phys.79:143-159,2007 ([arXiv:hep-th/0608150](http://arxiv.org/abs/hep-th/0608150)).
+* {#Roytenberg} [[Dmitry Roytenberg]], _AKSZ-BV Formalism and Courant Algebroid-induced Topological Field Theories_ Lett. Math. Phys. **79** (2007) 143-159 &lbrack;[doi:10.1007/s11005-006-0134-y](https://doi.org/10.1007/s11005-006-0134-y), [arXiv:hep-th/0608150](http://arxiv.org/abs/hep-th/0608150)&rbrack;
  
 
 Other reviews include
@@ -273,11 +273,11 @@ Other reviews include
 
 A cohomological reduction of the formalism is described in 
 
-* F. Bonechi, P. Mn&#235;v, [[Maxim Zabzine]], _Finite dimensional AKSZ-BV-theories_ ([arXiv](http://arxiv.org/abs/0903.0995))
+* F. Bonechi, P. Mn&#235;v, [[Maxim Zabzine]], _Finite dimensional AKSZ-BV-theories_ Lett. Math. Phys. **94** (2010) 197-228 &lbrack;[doi:10.1007/s11005-010-0423-3](https://doi.org/10.1007/s11005-010-0423-3), [arXiv:0903.0995](http://arxiv.org/abs/0903.0995)&rbrack;
 
 That the AKSZ action on bounding manifolds $\partial \hat \Sigma$ is the integral of the graded symplectic form over $\hat \Sigma$ is theorem 4.4 in 
 
-* A. Kotov, T. Strobl, _Characteristic classes associated to Q-bundles_ ([arXiv:0711.4106v1](http://arxiv.org/abs/0711.4106v1))
+* A. Kotov, T. Strobl, _Characteristic classes associated to Q-bundles_ Int. J. Geom. Meth. Mod. Phys. **12** 01 (2015) 1550006 &lbrack;[doi:10.1142/S0219887815500061](https://doi.org/10.1142/S0219887815500061), [arXiv:0711.4106v1](http://arxiv.org/abs/0711.4106v1))
 
 The discussion of the AKSZ action functional as the [[nLab:∞-Chern-Simons theory]]-functional induced from a [[symplectic Lie n-algebroid]] in [[∞-Chern-Weil theory]] is due discussed in
 
@@ -289,7 +289,7 @@ In the broader context of smooth [[higher geometry]] this is discussed in sectio
 
 Discussion of [[boundary conditions]] for the AKSZ sigma model includes
 
-* [[Peter Bouwknegt]], [[Branislav Jurco]], _AKSZ construction of topological open $p$-brane action and Nambu brackets_, [arxiv/1110.0134](http://arxiv.org/abs/1110.0134)
+* [[Peter Bouwknegt]], [[Branislav Jurco]], _AKSZ construction of topological open $p$-brane action and Nambu brackets_ Rev. Math. Phys. **25** 03 (2013) 1330004 &lbrack;[doi:10.1142/S0129055X13300045](https://doi.org/10.1142/S0129055X13300045), [arxiv/1110.0134](http://arxiv.org/abs/1110.0134)&rbrack;
 
 * {#IkedaXu13} [[Noriaki Ikeda]], Xiaomeng Xu, _Canonical functions and differential graded symplectic pairs in supergeometry and AKSZ sigma models with boundary_ ([arXiv:1301.4805](http://arxiv.org/abs/1301.4805))
 
@@ -299,7 +299,7 @@ The AKSZ model is extended to coisotropic boundary conditions in
 
 An example in [[higher spin gauge theory]] is discussed in
 
-* {#AlkalevGrigorievSkvortsov14} K.B. Alkalaev, Maxim Grigoriev, E.D. Skvortsov, _Uniformizing higher-spin equations_ ([arXiv:1409.6507](http://arxiv.org/abs/1409.6507))
+* {#AlkalevGrigorievSkvortsov14} K.B. Alkalaev, Maxim Grigoriev, E.D. Skvortsov, _Uniformizing higher-spin equations_ J. Phys. A: Math. Theor. **48** (2015) 015401 &lbrack;[doi:10.1088/1751-8113/48/1/015401](https://doi.org/10.1088/1751-8113/48/1/015401), [arXiv:1409.6507](http://arxiv.org/abs/1409.6507)&rbrack;
 
 
 See also
