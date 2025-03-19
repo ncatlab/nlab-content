@@ -1,7 +1,11 @@
 
 * [personal page](https://www.emanuelmalek.com/)
 
+* [institute page](https://qft.physik.hu-berlin.de/next-seminars/emanuel-malek-hu-berlin/)
+
 * [InSpire page](https://inspirehep.net/authors/1253271)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=CE262tQAAAAJ&hl=en)
 
 ## Selected writings
 
