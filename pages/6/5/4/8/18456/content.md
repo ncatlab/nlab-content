@@ -37,6 +37,10 @@ On [[heterotic string theory|heterotic]] [[string phenomenology]] including [[Yu
 
 * Per Berglund, Giorgi Butbaia, [[Tristan Hübsch]], Vishnu Jejjala, Damián Mayorga Peña, Challenger Mishra, Justin Tan: *Precision String Phenomenology* \[<a href="https://arxiv.org/abs/2407.13836">arXiv:2407.13836</a>\]
 
+On string compactifications ([[Kaluza-Klein compactifications]] in [[string theory]]):
+
+* [[Tristan Hübsch]]: *Beyond Algebraic Superstring Compactification* &lbrack;[arXiv:2502.08002](https://arxiv.org/abs/2502.08002)&rbrack;
+ 
 
 ## Related entries
 
