@@ -307,6 +307,9 @@ Review for [[string theory]]:
 
 * [[Michael R. Douglas]], [[Liam McAllister]], *Compactification of Superstring Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2310.20118](https://arxiv.org/abs/2310.20118)&rbrack;
 
+* [[Tristan Hübsch]]: *Beyond Algebraic Superstring Compactification* &lbrack;[arXiv:2502.08002](https://arxiv.org/abs/2502.08002)&rbrack;
+
+
 
 A survey of the history of the role of the KK-mechanism in theoretical physics:
 
