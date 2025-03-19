@@ -1,3 +1,4 @@
+This page can be edited by anybody.
 
 \begin{proposition}
 **(sum of roots of unity)**
