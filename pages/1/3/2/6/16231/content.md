@@ -76,8 +76,10 @@ On [[supersymmetry]] via [[adinkras]]:
 
 * [[S. James Gates Jr.]], Isaiah B. Hilsenrath, Saul Hilsenrath: *Modern Tensor-Spinor Symbolic Algebra Algorithms and Computing Non-Closure Geometry & Holoraumy in $11D$, $\mathcal{N} = 1$ Supergravity* &lbrack;[arXiv:2212.00614](https://arxiv.org/abs/2212.00614)&rbrack;
 
-Relating [[adinkras]] to [[cellular automata]]:
+* Jeth Arunseangroj, Jude Bedessem, [[S. James Gates Jr.]], Gabriel Yerger: *Adinkras & Genomics in Sixteen Color Systems (I)* &lbrack;[arXiv:2503.13797](https://arxiv.org/abs/2503.13797)&rbrack;
 
+
+Relating [[adinkras]] to [[cellular automata]]:
 
 * [[S. James Gates Jr.]], Youngik (Tom) Lee: *A Précis: Minimal Four Color Holoraumy and Wolfram's "New Kind of Science" Paradigm* &lbrack;[arXiv:2408.09342](https://arxiv.org/abs/2408.09342)&rbrack;
 
