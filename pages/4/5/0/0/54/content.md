@@ -56,7 +56,11 @@ Projects:
 
 > For the complete list of invited talks I have given, see [there](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
 
-* *[The Emergence of the SuperPoint from Nothing](https://youtu.be/1KUhLHlgG2Q)*, guest appearance on *[Theories of Everything with Curt Jaimungal](https://www.youtube.com/channel/UCdWIQh9DGG6uhJk8eyIFl1w)*, 8 March 2025
+* **[[schreiber:Perì Pantheōrías]]** 
+
+  guest appearance on *[Theories of Everything with Curt Jaimungal](https://www.youtube.com/channel/UCdWIQh9DGG6uhJk8eyIFl1w)*, 8 March 2025
+
+  video: *[YT](https://youtu.be/1KUhLHlgG2Q)*
 
 
 * **[[schreiber:Quantum Language via Linear Homotopy Types]]**
