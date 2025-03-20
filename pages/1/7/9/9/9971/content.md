@@ -148,6 +148,12 @@ The issue of "[[dynamic lifting]]" (of "[[bits]]" resulting from [[quantum measu
 
 * [[Frank (Peng) Fu]], *Proto-Quipper with Dynamic Lifting*, [talk at](CQTS#PengFuOct2023) [[CQTS]] (23 Oct 2023) &lbrack;video:[YT](https://youtu.be/bBL7rlqbDWM)&rbrack;
 
+### Reversing and control
+
+Formalization as Proto-Quipper-C of a semantics for the reversing, control, and with-computed operations is in: 
+
+* [[Peng Fu]], [[Kohei Kishida]], [[Neil J. Ross]], [[Peter Selinger]], *Proto-Quipper with Reversing and Control* &lbrack;[arXiv:2410.22261](https://arxiv.org/abs/2410.22261)&rbrack;
+
 
 [[!redirects QPL]]
 
