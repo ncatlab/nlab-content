@@ -334,11 +334,11 @@ $$
 The composition of two species is
 
 $$ \array{
-  (f \tilde{\circ} g) &:& \bigg(\sum_{x:X}(Fin(card(f(x)) \to Y)\bigg) \to FinSet \\
-  (f \tilde{\circ} g) &:& (x, P, p) \mapsto \bigoplus_{i=1}^{card(f(x))}g(P(i))
+  (f \tilde{\circ} g) &:& \bigg(\sum_{x:X}(f(x) \to Y)\bigg) \to FinSet \\
+  (f \tilde{\circ} g) &:& (x, p) \mapsto \sum_{u:f(x)}g(p(u)).
 }$$
 
-where $\bigoplus_{i=1}^{n}g(P(i))$ is the $n$-ary direct sum of the finite sets $g(P(i))$.  For stuff types, this amounts to
+For stuff types, this amounts to
 
 $$
   \sum_{(A, C : FinSet)}\sum_{(B : Fin(card(C)) \to FinSet)} \bigg(
