@@ -19,10 +19,14 @@ Introducing a notion of [[quantum CPOs]] for [[quantum computation]] (via [[quan
 * [[Andre Kornell]], [[Bert Lindenhovius]], [[Michael Mislove]], *Quantum CPOs*, EPTCS **340** (2021) 174-187 &lbrack;[arXiv:2109.02196](https://arxiv.org/abs/2109.02196), [doi:10.4204/EPTCS.340.9](https://doi.org/10.4204/EPTCS.340.9)&rbrack;
 
 
-
 On an [[axiom|axiomatic]] characterization of the [[compact closed dagger category]] [[Hilb]] of [[Hilbert spaces]]:
 
 * [[Chris Heunen]], [[Andre Kornell]], *Axioms for the category of Hilbert spaces* ([arXiv:2109.07418](https://arxiv.org/abs/2109.07418))
+
+An [[axiomatization]] of the category [[Rel]] of [[sets]] with [[relations]] between them:
+
+* [[Andre Kornell]]: *Axioms for the category of sets and relations*, Theory and Applications of Categories **44** 10 (2025) 305-325  &lbrack;[arXiv:2302.14153](https://arxiv.org/abs/2302.14153), [tac:44-10](http://www.tac.mta.ca/tac/volumes/44/10/44-10abs.html)&rbrack;
+
 
 
 
