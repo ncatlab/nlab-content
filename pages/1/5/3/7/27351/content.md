@@ -299,11 +299,17 @@ This largely concludes the traditional justification for the effective abelian C
 
 * Spencer D. Stirling: *Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories*, PhD thesis, Austin (2008) &lbrack;[arXiv:0807.2857](http://arxiv.org/abs/0807.2857), [pdf](http://www.spencerstirling.com/papers/thesis_official.pdf), [ProQuest](https://www.proquest.com/docview/304474017?pq-origsite=gscholar&fromopenview=true&sourcetype=Dissertations%20&%20Theses)&rbrack;
 
-* Enore Guadagnini, Francesco Mancarella: *Abelian link invariants and homology*, J. Math. Phys. **51** (2010) 062301 &lbrack;[arXiv:1004.5211](https://arxiv.org/abs/1004.5211)&rbrack;
-  > (via a [[Reshetikhin-Turaev construction]])
-
-
 * Diego Delmastro, [[Jaume Gomis]]: *Symmetries of Abelian Chern-Simons Theories and Arithmetic*, J. High Energ. Phys. **2021** 6 (2021) &lbrack;<a href="https://doi.org/10.1007/JHEP03(2021)006">doi:10.1007/JHEP03(2021)006</a>, [arXiv:1904.12884](https://arxiv.org/abs/1904.12884)&rbrack;
+
+* Han-Miru Kim, Philippe Mathieu, Michail Tagaris, Frank Thuillier: *$U(1)^n$ Chern-Simons theory: partition function, reciprocity formula and CS-duality* &lbrack;[arXiv:2409.10734](https://arxiv.org/abs/2409.10734)&rbrack;
+
+
+Via the [[Reshetikhin-Turaev construction]]:
+
+* Enore Guadagnini, Francesco Mancarella: *Abelian link invariants and homology*, J. Math. Phys. **51** (2010) 062301 &lbrack;[arXiv:1004.5211](https://arxiv.org/abs/1004.5211)&rbrack;
+
+* Philippe Mathieu, Frank Thuillier: *Abelian Turaev-Virelizier theorem and $U(1)$ BF surgery formulas* &lbrack;[arXiv:1706.01845](https://arxiv.org/abs/1706.01845)&rbrack;
+
 
 Many general reviews of [[Chern-Simons theory]] have a section focused on the abelian case, for instance:
 
