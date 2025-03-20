@@ -43,6 +43,11 @@ $$
 hence equivalently the [[semidirect product group]] of the [[direct product group]] $\mathbb{Z}^n$ via the [[group action]] of $Br_n(\Sigma) \to Sym_n$ given by [[permutation|permuting]] the $\mathbb{Z}$-factors.
 
 
+## Related concepts
+
+* [[framed little disk operad]]
+
+
 ## References
 
 ### General
@@ -55,7 +60,7 @@ Original articles:
 
 * Ki Hyoung Ko, Lawrence Smolinsky: *The framed braid group and representations*, in: *Knots 90*, Proceedings in Mathematics, De Gruyter (1992) 289-297 &lbrack;[doi:10.1515/9783110875911](https://doi.org/10.1515/9783110875911), [[KoSmolinsky-FramedBraidsAndReps.pdf:file]]&rbrack;
 
-Further discussion:
+Further discussion (some in the context of the [[framed little disk operad]]):
 
 * Hans Wenzel, p. 4 of: *Braids and invariants of 3-manifolds*, Invent Math **114** (1993) 235–275 &lbrack;[doi:10.1007/BF01232670](https://doi.org/10.1007/BF01232670), [eudml:144148](https://eudml.org/doc/144148)&rbrack;
 
@@ -71,14 +76,13 @@ Further discussion:
 
 * {#BellingeriGervais12} Paolo Bellingeri, Sylvain Gervais: *Surface framed braids*, Geom Dedicata **159** (2012) 51–69 &lbrack;[doi:10.1007/s10711-011-9645-5](https://doi.org/10.1007/s10711-011-9645-5), [arXiv:1001.4471](https://arxiv.org/abs/1001.4471)&rbrack;
 
-
 * Akishi Ikeda: *Homological and Monodromy Representations of Framed Braid Groups*, Commun. Math. Phys. **359** (2018) 1091–1121  &lbrack;[doi:10.1007/s00220-017-3036-1](https://doi.org/10.1007/s00220-017-3036-1), [arXiv:1702.03918](https://arxiv.org/abs/1702.03918)&rbrack;
+
+* [[Christoph Schweigert]], [[Lukas Woike]]: *The differential graded Verlinde Formula and the Deligne Conjecture*, Proc. Lond. Math. Society **126** 6 (2023) 1811-1841 &lbrack;[arXiv:2105.01596](https://arxiv.org/abs/2105.01596)&rbrack;
 
 * Francesca Aicardi, Jesús Juyumaya, Paolo Papi: *Framization and Deframization* &lbrack[arXiv:2405.10809](https://arxiv.org/abs/2405.10809)&rbrack;
 
 * [[Lukas Woike]]: *The Cyclic and Modular Microcosm Principle in Quantum Topology* &lbrack;[arXiv:2408.02644](https://arxiv.org/abs/2408.02644)&rbrack;
-  > (in relation to the framed [[little disk operad]])
-
 
 * Anastasios Kokkinakis: *Framed Braid Equivalences* &lbrack;[arXiv:2503.05342](https://arxiv.org/abs/2503.05342)&rbrack;
 
