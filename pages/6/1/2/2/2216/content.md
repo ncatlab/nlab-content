@@ -17,7 +17,36 @@ Peirce devised a graphical notation, known as **existential graphs**, to represe
 
 [[Geraldine Brady]] and [[Todd Trimble]] have given a category theoretic interpretation of the alpha and beta systems. The latter, a form of [[string diagram|string diagrammatic]] notation, was developed ([PontoShul](#PontoShul)) into a [[string diagram]] notation for [[indexed monoidal categories]]. A development also appears in [MellZeil](#MellZeil), see also [BSS18](#BSS18).
 
+## Deduction, induction, abduction
 
+In a series of [lectures](#Peirce98) by Peirce on reasoning, he gives one of those triads he loves so much concerning different modes of inference: deductive, inductive, and [abductive](https://ncatlab.org/nlab/show/abductive+reasoning) (or retroductive), as filling in different parts of a syllogism. Given logical relations between three concepts, $M$, $P$ and $S$,
+
+* Deduction strings together, say, $M$ is $P$ and $P$ is $S$ to give $M$ is $S$.
+
+* Induction looks to generalise from $M$ is $S$, taking $M$ as a sample of $P$, to conclude that $P$ is $S$.
+
+* Abduction looks to explain why $M$ is $S$, having noted that $P$ is $S$, by hypothesising that $M$ is $P$.
+
+Peirce gives related examples:
+
+* **Deduction**
+  * All beans in that bag are white.
+  * These beans are from that bag.
+  * Therefore, these beans are white.
+
+
+* **Induction**
+  * These beans are from that bag.
+  * These beans are white.
+  * Therefore, all beans in that bag are white.
+
+
+* **Abduction**
+  * These beans are white.
+  * All beans in that bag are white.
+  * Therefore, these beans are from that bag.
+
+Seen from the point of view of category theory, these would seem to resemble: [[composition]], [[extension]], and [[lifting]]. This thesis is elaborated in [Corf 25]{#Corf25}.
 
 ##References
 
@@ -32,6 +61,8 @@ Stanford Encyclopedia of Philosophy entries:
 Charles S. Peirce studies
 
 * [website](http://www.peirce.org/)
+
+* {#Peirce98} [Reasoning and the Logic of Things: The Cambridge Conferences Lectures of 1898](http://www.hup.harvard.edu/catalog.php?isbn=9780674749672)
 
 Other references
 
@@ -70,6 +101,8 @@ Other references
 order logic_ To appear at LICS, 2024, &lbrack;[arXiv:2401.07055](https://arxiv.org/abs/2401.07055)&rbrack;
 
 * Filippo Bonchi, Alessandro Di Giorgio, Davide Trotta, _When Lawvere meets Peirce: an equational presentation of boolean hyperdoctrines_ &lbrack;[arXiv:2404.18795](https://arxiv.org/abs/2404.18795)&rbrack;
+
+* {#Corf25} [[David Corfield]], *Charles Peirce, Inference, and Category Theory*, [webpage](https://ncatlab.org/davidcorfield/show/Charles+Peirce%2C+Inference%2C+and+Category+Theory)
 
 
 
