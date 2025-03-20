@@ -1,5 +1,13 @@
 
-* [website](http://www.math.uni-hamburg.de/home/runkel/)
+* [institute page](http://www.math.uni-hamburg.de/home/runkel/)
+
+* [institute page](https://www.qu.uni-hamburg.de/cluster/team/runkel.html)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=175851)
+
+* [inSpire page](https://inspirehep.net/authors/990933)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=wuvvHsgAAAAJ&hl=en)
 
 ## Selected writings
 
