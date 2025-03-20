@@ -71,7 +71,7 @@ A __Brunnian link__ is a link which is not an unlink but which has the property 
 
 * [[hyperbolic link]]
 
-* [[braid]]
+* [[braid]], [[plat closure]]
 
 * [[knot]]
 
