@@ -19,7 +19,7 @@ Peirce devised a graphical notation, known as **existential graphs**, to represe
 
 ## Deduction, induction, abduction
 
-In a series of [lectures](#Peirce98) by Peirce on reasoning, he gives one of those triads he loves so much concerning different modes of inference: deductive, inductive, and [abductive](https://ncatlab.org/nlab/show/abductive+reasoning) (or retroductive), as filling in different parts of a syllogism. Given logical relations between three concepts, $M$, $P$ and $S$,
+In a series of [lectures](#Peirce98) by Peirce on reasoning, he gives one of those triads he loves so much concerning different modes of inference: [[deductive logic|deduction]], [[inductive logic|induction]], and [[abductive reasoning|abduction]] (or retroduction), as filling in different parts of a syllogism. Given logical relations between three concepts, $M$, $P$ and $S$,
 
 * Deduction strings together, say, $M$ is $P$ and $P$ is $S$ to give $M$ is $S$.
 
@@ -46,7 +46,7 @@ Peirce gives related examples:
   * All beans in that bag are white.
   * Therefore, these beans are from that bag.
 
-Seen from the point of view of category theory, these would seem to resemble: [[composition]], [[extension]], and [[lifting]]. This thesis is elaborated in [Corf 25]{#Corf25}.
+Seen from the point of view of category theory, these would seem to resemble: [[composition]], [[extension]], and [[lifting]]. This thesis is elaborated in ([Corf 25](#Corf25)).
 
 ##References
 
