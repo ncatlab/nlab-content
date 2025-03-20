@@ -3797,6 +3797,8 @@ $$
 
 * [[annular braid group]]
 
+* [[plat closure]]
+
 * [[braid representation]]
 
 * [[braid group statistics]]
