@@ -49,6 +49,9 @@ See also:
 
 * {#Alvey21} [[James Alvey]], *What can you measure with BBN in 2021?*, Cosmology Talks 2021 ([[Alvey_BBN2021.pdf:file]])
 
+* [[Ulf-G. Meißner]], Bernard Ch. Metsch, Helen Meyer: *Fine-tunings in nucleosynthesis and the emergence of life: Status and perspectives* &lbrack;[arXiv:2503.15162](https://arxiv.org/abs/2503.15162)&rbrack;
+
+
 See also: 
 
 * Wikipedia, *[Big Bang nucleosynthesis](https://en.wikipedia.org/wiki/Big_Bang_nucleosynthesis)*
