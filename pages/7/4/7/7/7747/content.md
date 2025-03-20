@@ -175,9 +175,11 @@ The [[moduli space of framed surfaces]] is discussed in
 
 ### For 3-manifolds
 
-* [[Rob Kirby]], [[Paul Melvin]], _Canonical framings for 3-manifolds_, Turkish Journal of Mathematics, volume 23, number 1,1999 ([[KirbyMelvon3Framings.pdf:file]])
+For [[3-manifolds]]:
+
+* [[Rob Kirby]], [[Paul Melvin]]: _Canonical framings for 3-manifolds_, Turkish Journal of Mathematics **23** 1 (1999) &lbrack;[[KirbyMelvon3Framings.pdf:file]]&rbrack;
  
-The relation to "[[2-framings]]" is discussed in
+The relation to "[[2-framings]]":
 
 * {#Atiyah} [[Michael Atiyah]], _On framings of 3-manifolds_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahfr.pdf))
 
