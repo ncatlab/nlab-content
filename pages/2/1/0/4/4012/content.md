@@ -44,7 +44,7 @@ A & \underset{f}{\to} & B
 
 ### Equivalent conditions
 
-A 2-monad $(T, \mu, \eta)$ is lax idempotent if and only if, for every object $A$, there is an adjunction $T \eta_A \dashv \mu_A$ with invertible counit or an adjunction $\mu_A \dashv \eta_{T A}$ with invertible counit (with either adjunction implying the other).
+A 2-monad $(T, \mu, \eta)$ is lax idempotent if and only if, for every object $A$, there is an adjunction $T \eta_A \dashv \mu_A$ with invertible unit or an adjunction $\mu_A \dashv \eta_{T A}$ with invertible counit (with either adjunction implying the other). Notice that it is already enough to have either adjoint since the unit resp. counit will be invertible through the axioms of the 2-monad.
 
 An extensive list of equivalent conditions is given on the page of [[lax-idempotent 2-adjunction]]s.
 
