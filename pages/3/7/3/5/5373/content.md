@@ -25,8 +25,6 @@ By a _bireflective subcategory_ one might mean:
 
 1. A [[subcategory]] $\iota \,\colon\, \mathcal{C} \hookrightarrow \mathcal{B}$ which is both [[reflective subcategory|reflective]] and [[coreflective subcategory|coreflective]] --- i.e. a [[fully faithful functor]] possessing both [[left adjoint|left]] and [[right adjoints]]: $L \dashv \iota \dashv R$ (*[[reflective localization]]* and *coreflective localization*).
 
-   Such subcategories are called **essential localizations** by [Kelly & Lawvere (1989)](#KellyLawvere89), following the terminology of *[[essential geometric morphisms]]* from [[topos theory]], see also at *[[level of a topos]]*.
-
    The [[adjoint pair]] $\iota \circ L \dashv \iota \circ R$ is then an [[adjoint modality]]; see there for more.
 
 1. More specifically, one may in addition ask that $L \simeq R$, hence that the subcategory inclusion $\iota$ has an [[ambidextrous adjoint]] $\beta \dashv \iota \dashv \beta$. 
@@ -585,9 +583,9 @@ An analogous statement is in [Braunack-Mayer (2019), Cor. 2.45](model+structure+
 
 ## References
 
-On subcategory inclusion which have both a left and a right adjoint ([[essential localizations]]):
+Subcategories whose inclusion functor admits both a left and right adjoint are called **bireflective** in:
 
-* {#KellyLawvere89} [[G. M. Kelly]], [[F. W. Lawvere]], *On the complete lattice of essential localizations*, Bull. Soc. Math. Belg. S&eacute;r. A **41** (1989) 289–319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
+* W. John Wilbur, "Reflective and coreflective hulls in the category of locally convex spaces." General topology and its applications 4.3 (1974): 235-254.
 
 On subcategory inclusions with ambidextrous adjoints ([[quintessential localizations]]):
 
@@ -604,10 +602,5 @@ Discussion of a [[modal type theory]] for bireflective [[modalities]], in a cont
 * {#Riley22} [[Mitchell Riley]], *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139), [ir:3269](https://digitalcollections.wesleyan.edu/object/ir%3A3269), [pdf](https://mvr.hosting.nyu.edu/pubs/thesis.pdf)&rbrack;
 
 
-
 [[!redirects bireflective subcategories]]
-
-
-[[!redirects essential localization]]
-[[!redirects essential localizations]]
 
