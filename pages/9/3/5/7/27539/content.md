@@ -47,6 +47,7 @@ hence equivalently the [[semidirect product group]] of the [[direct product grou
 
 * [[framed little disk operad]]
 
+* [[framed link]], [[plat closure]]
 
 ## References
 
