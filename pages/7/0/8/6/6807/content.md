@@ -157,6 +157,9 @@ See also
 
 * Henry W. Lin, Zechuan Zheng: *Bootstrapping Ground State Correlators in Matrix Theory, Part I* &lbrack;[arXiv:2410.14647](https://arxiv.org/abs/2410.14647)&rbrack;
 
+* Anna Biggs, Aidan Herderschee: *Higher-point correlators in the BFSS matrix model* &lbrack;[arXiv:2503.14685](https://arxiv.org/abs/2503.14685)&rbrack;
+
+
 
 Discussion as a solution to the open problem of defining [[M-theory]] is in 
 
