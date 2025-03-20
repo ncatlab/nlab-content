@@ -168,15 +168,15 @@ For generalizations of $Rel$ see
 Annals of Pure and Applied Logic 137, 104-125 (2006) 
 * _Credits for the section on limits go to the contributors of the following threads on the categories list:_ [categories: Limits and colimits in Rel?](http://thread.gmane.org/gmane.science.mathematics.categories/8027), [categories: Limits in REL](http://thread.gmane.org/gmane.science.mathematics.categories/8186)
 
-* [[Aurelio Carboni]], [[Stefano Kasangian]] and [[Ross Street]], _Bicategories of spans and relations_, Journal of Pure and Applied Algebra, Vol. 33, No. 3, 1984, pp. 259-267. &lbrack;<a href="https://doi.org/10.1016/0022-4049(84)90061-6">doi:10.1016/0022-4049(84)90061-6</a>&rbrack;
+* [[Aurelio Carboni]], Stefano Kasangian, [[Ross Street]]: _Bicategories of spans and relations_, Journal of Pure and Applied Algebra **33** 3 (1984) 259-267 &lbrack;<a href="https://doi.org/10.1016/0022-4049(84)90061-6">doi:10.1016/0022-4049(84)90061-6</a>&rbrack;
 
-Relations may be considered in any category with a stable [[proper factorisation system]], but this is no more general than considering relations in a [[regular category]], as proven in
+Relations may be considered in any category with a stable [[proper factorisation system]], but this is no more general than considering relations in a [[regular category]], as proven in:
 
 * [[Gregory Maxwell Kelly]]. *A note on relations relative to a factorization system*. Category Theory. Springer, Berlin, Heidelberg, 1991.
 
-An axiomatization of the category of sets and relations is found in:
+An [[axiomatization]] of the category of sets and relations:
 
-* [[Andre Kornell]], *Axioms for the category of sets and relations* ([arXiv:2302.14153](https://arxiv.org/abs/2302.14153))
+* [[Andre Kornell]]: *Axioms for the category of sets and relations*, Theory and Applications of Categories **44** 10 (2025) 305-325  &lbrack;[arXiv:2302.14153](https://arxiv.org/abs/2302.14153), [tac:44-10](http://www.tac.mta.ca/tac/volumes/44/10/44-10abs.html)&rbrack;
 
 category: category
 
