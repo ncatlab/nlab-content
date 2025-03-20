@@ -96,11 +96,16 @@ For more see at _[[hadron Kaluza-Klein theory]]_.
 
 * [[D-term]]
 
+
+
 ## References
 
 ### General
 
-* Claude Amsler, _The Quark Structure of Hadrons: An Introduction to the Phenomenology and Spectroscopy_, Lecture Notes in Physics 949 ([doi:10.1007/978-3-319-98527-5](https://link.springer.com/book/10.1007/978-3-319-98527-5))
+* Claude Amsler: _The Quark Structure of Hadrons: An Introduction to the Phenomenology and Spectroscopy_, Lecture Notes in Physics **949** &lbrack;[doi:10.1007/978-3-319-98527-5](https://link.springer.com/book/10.1007/978-3-319-98527-5)&rbrack;
+
+* Claude Amsler: *Key Historical Experiments in Hadron Physics*, Encyclopedia of Particle Physics &lbrack;[arXiv:2503.14689](https://arxiv.org/abs/2503.14689)&rbrack;
+
 
 See also:
 
