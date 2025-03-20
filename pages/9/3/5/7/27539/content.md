@@ -47,9 +47,15 @@ hence equivalently the [[semidirect product group]] of the [[direct product grou
 
 ### General
 
+Original articles:
+
+* [[Paul Melvin]], N. B. Tufillaro: *Templates and framed braids*, Phys. Rev. A **44** (1991) R3419(R) \[<a href="https://doi.org/10.1103/PhysRevA.44.R3419">doi:10.1103/PhysRevA.44.R3419</a>, [pdf](https://repository.brynmawr.edu/cgi/viewcontent.cgi?article=1007&context=math_pubs)\]
+
 * Ki Hyoung Ko, Lawrence Smolinsky: *The framed braid group and 3-manifolds*, Proc. Amer. Math. Soc. **115** (1992) 541-551 &lbrack;[doi:10.1090/S0002-9939-1992-1126197-1](https://doi.org/10.1090/S0002-9939-1992-1126197-1), [pdf](https://www.ams.org/journals/proc/1992-115-02/S0002-9939-1992-1126197-1/S0002-9939-1992-1126197-1.pdf)&rbrack;
 
 * Ki Hyoung Ko, Lawrence Smolinsky: *The framed braid group and representations*, in: *Knots 90*, Proceedings in Mathematics, De Gruyter (1992) 289-297 &lbrack;[doi:10.1515/9783110875911](https://doi.org/10.1515/9783110875911), [[KoSmolinsky-FramedBraidsAndReps.pdf:file]]&rbrack;
+
+Further discussion:
 
 * Hans Wenzel, p. 4 of: *Braids and invariants of 3-manifolds*, Invent Math **114** (1993) 235–275 &lbrack;[doi:10.1007/BF01232670](https://doi.org/10.1007/BF01232670), [eudml:144148](https://eudml.org/doc/144148)&rbrack;
 
@@ -68,8 +74,11 @@ hence equivalently the [[semidirect product group]] of the [[direct product grou
 
 * Akishi Ikeda: *Homological and Monodromy Representations of Framed Braid Groups*, Commun. Math. Phys. **359** (2018) 1091–1121  &lbrack;[doi:10.1007/s00220-017-3036-1](https://doi.org/10.1007/s00220-017-3036-1), [arXiv:1702.03918](https://arxiv.org/abs/1702.03918)&rbrack;
 
+* Francesca Aicardi, Jesús Juyumaya, Paolo Papi: *Framization and Deframization* &lbrack[arXiv:2405.10809](https://arxiv.org/abs/2405.10809)&rbrack;
+
 * [[Lukas Woike]]: *The Cyclic and Modular Microcosm Principle in Quantum Topology* &lbrack;[arXiv:2408.02644](https://arxiv.org/abs/2408.02644)&rbrack;
   > (in relation to the framed [[little disk operad]])
+
 
 * Anastasios Kokkinakis: *Framed Braid Equivalences* &lbrack;[arXiv:2503.05342](https://arxiv.org/abs/2503.05342)&rbrack;
 
