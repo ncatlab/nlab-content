@@ -21,6 +21,10 @@ On [[slice knots]]:
 
 * [[Peter Teichner]], [[Justin Roberts]]: *Slice Knots: Knot Theory in the 4th Dimension* (2011) &lbrack;[pdf](https://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/Lecture-notes-sliceknots.pdf), [[TeichnerRoberts-SliceKnots.pdf:file]]&rbrack;
 
+On [[cohomotopy]] of [[4-manifolds]]:
+
+* {#KirbyMelvinTeichner12} [[Robion Kirby]], [[Paul Melvin]], [[Peter Teichner]]: *Cohomotopy sets of 4-manifolds*, Geometry & Topology Monographs **18** (2012) 161-190 &lbrack;[arXiv:1203.1608](https://arxiv.org/abs/1203.1608), [doi:10.2140/gtm.2012.18.161](http://dx.doi.org/10.2140/gtm.2012.18.161)&rbrack;
+
 
 
 ## Related entries
