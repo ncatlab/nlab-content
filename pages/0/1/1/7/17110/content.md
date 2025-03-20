@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Manifolds and cobordisms
++-- {: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
 #### Geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
@@ -16,7 +20,7 @@
 
 ## Idea
 
-a [[manifold]] of [[dimension]] 4.
+A *4-manifold* is a [[manifold]] of [[dimension of a manifold|dimension]] 4.
 
 ## Examples
 
@@ -26,10 +30,11 @@ a [[manifold]] of [[dimension]] 4.
 
 * [[spacetime]]
 
+* [[E8-manifold|$E_8$ manifold]]
+
 ## Properties
 
 #### Cohomotopy
-
 
 Let $X$ be a [[4-manifold]] which is [[connected topological space|connected]] and [[orientation|oriented]].
 
@@ -91,7 +96,7 @@ On [[cohomotopy]] of 4-manifolds:
 
 * [[Daniel Freed]], [[Karen Uhlenbeck]], Appendix B of: _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer 1991 ([doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8))
 
-* {#KirbyMelvinTeichner12} [[Robion Kirby]], [[Paul Melvin]], [[Peter Teichner]], _Cohomotopy sets of 4-manifolds_, GTM 18 (2012) 161-190 ([arXiv:1203.1608](https://arxiv.org/abs/1203.1608))
+* {#KirbyMelvinTeichner12} [[Robion Kirby]], [[Paul Melvin]], [[Peter Teichner]]: *Cohomotopy sets of 4-manifolds*, Geometry & Topology Monographs **18** (2012) 161-190 &lbrack;[arXiv:1203.1608](https://arxiv.org/abs/1203.1608), [doi:10.2140/gtm.2012.18.161](http://dx.doi.org/10.2140/gtm.2012.18.161)&rbrack;
 
 
 ### Relation to 2d CFTs via 6d CFT
