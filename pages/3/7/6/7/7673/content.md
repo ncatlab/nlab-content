@@ -664,6 +664,9 @@ An equivalence between contextual categories and [B-systems](#Voevodsky14) is in
 
 * [[Benedikt Ahrens]], Jacopo Emmenegger, [[Paige Randall North]], [[Egbert Rijke]], _Algebraic Presentations of Dependent Type Theories_ ([arXiv:2111.09948](https://arxiv.org/abs/2111.09948))
 
+An [[internal language]] for [[comprehension categories]] is developed in:
+
+* [[Niyousha Najmaei]], [[Niels van der Weide]], [[Benedikt Ahrens]], [[Paige Randall North]], *A Type Theory for Comprehension Categories with Applications to Subtyping* ([arXiv:2503.10868](https://arxiv.org/abs/2503.10868))
 
 [[!redirects category-theoretic semantics of dependent types]]
 
