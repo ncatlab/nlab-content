@@ -3,9 +3,13 @@
 
 ## Selected writings
 
-On the [[relation between type theory and category theory|categorical semantics]] of [[homotopy type theory]] in [[simplicial sets]]/[[infinity-groupoids|$\ionfty$-groupoids]]:
+On the [[relation between type theory and category theory|categorical semantics]] of [[homotopy type theory]] in [[simplicial sets]]/[[infinity-groupoids|$\infty$-groupoids]]:
 
 * {#KapulkinLumsdaine12} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *The Simplicial Model of Univalent Foundations (after Voevodsky)*, Journal of the European Mathematical Society **23** (2021) 2071–2126  $[$[arXiv:1211.2851](https://arxiv.org/abs/1211.2851), [doi:10.4171/jems/1050](https://doi.org/10.4171/jems/1050)$]$
+
+On [[excluded middle]] in [[simplicial sets]] and the compatibility of excluded middle with the [[univalence axiom]]:
+
+* [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *The law of excluded middle in the simplicial model of type theory* ([arXiv:2006.13694](https://arxiv.org/abs/2006.13694))
 
 On the [[model structure for quasi-categories|Joyal-type]] [[model structure for cubical quasi-categories]] on [[cubical sets]] [[connection on a cubical set|with connections]]:
 
@@ -36,8 +40,6 @@ Classifying the [[closed symmetric monoidal category|closed symmetric monoidal]]
 On the [[model structure on compactly generated topological spaces]] and [[model structure on Delta-generated topological spaces|on Delta-generated topological spaces]], and on a [[model category]] of [[locales]] which makes the [[reflective subcategory|reflection]] of [[sober topological spaces]] a [[Quillen adjunction]] to the sober-restriction of the [[classical model structure on topological spaces]]:
 
 * {#SterlingKapulkin23} [[Sterling Ebel]], [[Chris Kapulkin]], *Synthetic approach to the Quillen model structure on topological spaces* &lbrack;[arXiv:2310.14235](https://arxiv.org/abs/2310.14235)&rbrack;
-
-
 
 
 ## Related entries
