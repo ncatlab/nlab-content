@@ -68,19 +68,20 @@ Physics Letters B **750** (2015) 416-419
 &lbrack;[arXiv:1502.00683](https://arxiv.org/abs/1502.00683), [doi:10.1016/j.physletb.2015.09.045](https://doi.org/10.1016/j.physletb.2015.09.045)
 &rbrack;
 
-
 * P. Koroteev, [[Mikhail Shifman]], [[A. Yung]], *Studying Critical String Emerging from Non-Abelian Vortex in Four Dimensions*, Phys.Lett. B **759** (2016) 154-158
 &lbrack;[arXiv:1605.01472](https://arxiv.org/abs/1605.01472), [doi:10.1016/j.physletb.2016.05.075](https://doi.org/10.1016/j.physletb.2016.05.075)
 &rbrack;
+
+On the status of [[high energy physics]] as per 2020:
+
+* [[Mikhail Shifman]], *Musings on the Current Status of HEP* &lbrack;[arXiv:2001.00101](https://arxiv.org/abs/2001.00101)&rbrack;
+
+
 
 
 On [[non-perturbative effects]] in [[QCD]] ([[hadrodynamics]]) via [[operator product expansion]]:
 
 * [[Mikhail Shifman]], *OPE-based Methods in Nonperturbative QCD*, Eur. Phys. J. C (2022) &lbrack;[arXiv:2208.10600](https://arxiv.org/abs/2208.10600)&rbrack;
-
-On the current status of [[high energy physics]]:
-
-* [[Mikhail Shifman]], *Musings on the Current Status of HEP* &lbrack;[arXiv:2001.00101](https://arxiv.org/abs/2001.00101)&rbrack;
 
 category: people
 
