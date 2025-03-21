@@ -63,6 +63,25 @@ $$
 The original proof is due to [Gauss 1811](#Gauss1811), an early alternative proof is due to [Dirichlet 1835](#Dirichlet35), reviewed in [Dirichlet 1871](#Dirichlet1871). Modern review includes [Doyle 2016  (1.1)](#Doyle16), [Murty & Pathak 2017 Thm. 1.1](#MurtyPathak17), [Taylor 2022 Thm. 1.16](#Taylor22).
 
 
+From this we get for even $k = w/2$
+
+$$
+  \begin{array}{l}
+    \sum_{s = 0}^{k-1}
+    e^{
+      \tfrac{\pi \mathrm{i}}{k}
+      s^2
+    }
+    &=&
+    \sum_{s = 0}^{w/2-1}
+    e^{
+      \tfrac{2\pi \mathrm{i}}{w}
+      s^2
+    }
+    \\
+  \end{array}
+$$
+
 ## References
 
 The original proof is due to 
