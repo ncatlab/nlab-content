@@ -8,33 +8,25 @@
 A _simplicial sheaf_ $A$ is equivalently
 
 * a [[simplicial object]] 
-
   $$
     A \in SSh(C) := [\Delta^{op}, Sh(C)]
   $$ 
-
   in a [[category of sheaves]] $Sh(C)$ for some [[site]] $C$;
 
 * a [[simplicial presheaf]] 
-
   $$
     A \in SPSh(C) := [\Delta^{op}, PSh(C)] \simeq [\Delta^{op}, [C^{op}, Set]]
   $$
-
   that satisfies degreewise the [[sheaf]] condition;
 
 * an [[SSet]]-valued [[presheaf]] 
-
   $$
     A \in PSh(C,SSet) := [C^{op}, SSet] \simeq [C^{op}, [\Delta^{op}, Set]]
   $$
- 
   which, when regarded under the equivalence
-
   $$
     PSh(C,SSet) \simeq SPSh(C)
   $$
-
   is degreewise a [[sheaf]].
 
 ## Joyal model structure ##
@@ -45,12 +37,14 @@ Historically, [[Joyal]] constructed his model structure on simplicial sheaves fi
 
 ## Local projective model structure
 
-Blandner proved that the category of simplicial sheaves
+Blander proved that the category of simplicial sheaves
 admits a model structure whose weak equivalences are the same as in the Joyal model structure and acyclic fibrations are the projective (i.e., degreewise) acyclic fibrations.
 
 ## Related concepts
 
 * [[simplicial presheaf]]
+
+* [[model structures on simplicial presheaves]]
 
 ## References
 
