@@ -1,4 +1,6 @@
 
+\tableofcontents
+
 ## Idea
 
 A certain identity for certain [[Fourier transforms]], equating a sum or integral of a function over a domain (e.g., a lattice) with a corresponding sum or integral of its Fourier dual over a dual domain (e.g., the dual lattice).
@@ -71,4 +73,8 @@ A textbook account is
 and brief review in 
 
 * {#Garrett11} [[Paul Garrett]], _Iwasawa-Tate on &#950;-functions and L-functions_, 2011 ([pdf](http://www-users.math.umn.edu/~garrett/m/mfms/notes_c/Iwasawa-Tate.pdf)
+
 [[!redirects Poisson formula]]
+
+[[!redirects Poisson summation]]
+
