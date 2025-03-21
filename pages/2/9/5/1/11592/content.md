@@ -26,7 +26,7 @@ On the [[fundamental theorem of algebra]]:
 
   _Another new proof of the theorem that every integral rational algebraic function of one variable can be resolved into real factors of the first or second degree_ translated by [[Paul Taylor]] and B. Leak (1983) ([web](http://www.paultaylor.eu/misc/gauss-web))
 
-## Related $n$Lab entries
+## Related entries
 
 * [[differential geometry of curves and surfaces]]
 
@@ -42,6 +42,7 @@ On the [[fundamental theorem of algebra]]:
 
 category: people
 
+
 [[!redirects Gauss]]
 [[!redirects Gauß]]
 [[!redirects Carl Gauss]]
@@ -53,6 +54,7 @@ category: people
 [[!redirects Karl Friedrich Gauss]]
 [[!redirects Karl Friedrich Gauß]]
 
+[[!redirects Carl F. Gauss]]
 [[!redirects Carl F. Gauß]]
 
 [[!redirects Johann Carl Friedrich Gauss]]
