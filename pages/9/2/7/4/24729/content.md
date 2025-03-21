@@ -24,6 +24,10 @@ On [[univalent bicategory|univalent]] [[bicategories]] in [[homotopy type theory
 
 * [[Benedikt Ahrens]], [[Dan Frumin]], [[Marco Maggesi]], [[Niels van der Weide]], _Bicategories in Univalent Foundations_, Mathematical Structures in Computer Science **31** 10 (2022) 1232-1269 &lbrack;[arXiv:1903.01152](https://arxiv.org/abs/1903.01152), [doi:10.1017/S0960129522000032](https://doi.org/10.1017/S0960129522000032)&rbrack
 
+An [[internal language]] for [[comprehension categories]] is developed in:
+
+* [[Niyousha Najmaei]], [[Niels van der Weide]], [[Benedikt Ahrens]], [[Paige Randall North]], *A Type Theory for Comprehension Categories with Applications to Subtyping* ([arXiv:2503.10868](https://arxiv.org/abs/2503.10868))
+
 ## Related entries
 
 * [[univalent foundations of mathematics]]
