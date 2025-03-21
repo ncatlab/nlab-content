@@ -60,7 +60,7 @@ is in ([Beilinson-Bernstein-Deligne 82](#BeilinsonBernsteinDeligne82)) where in 
 
 (a) $i_* = i_!$ admits a triangulated left adjoint $i^*$ and triangulated right adjoint $i^!$
 
-(b) $j^* = j^!$ admits a triangulated left adjoint $j_*$ and triangulated right adjoint $j_!$
+(b) $j^* = j^!$ admits a triangulated left adjoint $j_!$ and triangulated right adjoint $j_*$
 
 (c) $j^* i_* = 0$ (hence by adjointness, also $i^*j_! = 0$ and $i^! j_*=0$)
 
