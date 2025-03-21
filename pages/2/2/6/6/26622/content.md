@@ -4,11 +4,20 @@
 
 ## Selected writings
 
-In which the notion of a [[field]] was first introduced, but only for subfields of the [[complex numbers]]:
+On [[number theory]] and introducing the notion of [[fields]] (but only for subfields of the [[complex numbers]]):
 
-* [[Gustav Lejeune Dirichlet]] (1871), [[Richard Dedekind]] (ed.), Vorlesungen über Zahlentheorie (Lectures on Number Theory) (in German), vol. 1 (2nd ed.), Braunschweig, Germany: Friedrich Vieweg und Sohn ([Google Books](https://books.google.com/books?id=SRJTAAAAcAAJ&pg=PA424))
+* [[Gustav Lejeune Dirichlet]]: *Vorlesungen über Zahlentheorie*, Vieweg und Sohn (1871) &lbrack;[eudml:204463](https://eudml.org/doc/204463)&rbrack;
+
+* [[Gustav Lejeune Dirichlet]], edited by [[Richard Dedekind]]: *Vorlesungen über Zahlentheorie*, Cambridge University Press (1879, 2013) &lbrack;[doi;10.1017/CBO9781139237321](https://doi.org/10.1017/CBO9781139237321), [Google Books](https://books.google.com/books?id=SRJTAAAAcAAJ&pg=PA424)&rbrack;
+
+
+## Related entries
+
+(...)
 
 category: people
+
+[[!redirects P. G. L. Dirichlet]]
 
 [[!redirects Peter Dirichlet]]
 [[!redirects Peter Lejeune Dirichlet]]
