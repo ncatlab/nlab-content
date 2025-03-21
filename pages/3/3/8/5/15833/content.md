@@ -74,14 +74,13 @@ Physics Letters B **750** (2015) 416-419
 &rbrack;
 
 
-
-
-
-
 On [[non-perturbative effects]] in [[QCD]] ([[hadrodynamics]]) via [[operator product expansion]]:
 
 * [[Mikhail Shifman]], *OPE-based Methods in Nonperturbative QCD*, Eur. Phys. J. C (2022) &lbrack;[arXiv:2208.10600](https://arxiv.org/abs/2208.10600)&rbrack;
 
+On the current status of [[high energy physics]]:
+
+* [[Mikhail Shifman]], *Musings on the Current Status of HEP* &lbrack;[arXiv:2001.00101](https://arxiv.org/abs/2001.00101)&rbrack;
 
 category: people
 
