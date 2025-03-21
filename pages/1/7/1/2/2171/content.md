@@ -3927,6 +3927,9 @@ As an example of motion general "motion groups" (such as [[loop braid groups]]):
 
 * {#Goldsmith81} [[Deborah L. Goldsmith]], *The theory of motion groups*, Michigan Math. J. **28** 1 (1981) 3-17 &lbrack;[doi:10.1307/mmj/1029002454](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-28/issue-1/The-theory-of-motion-groups/10.1307/mmj/1029002454.full)&rbrack;
 
+On [[finitely presented group|presentations]] of surface braid groups:
+
+* [[Paolo Bellingeri]]: *On presentation of Surface Braid Groups* &lbrack;[arXiv:math/0110129](https://arxiv.org/abs/math/0110129)&rbrack;
 
 
 Algebraic presentation of braid groups:
@@ -3978,7 +3981,7 @@ More on the relation of braid groups to [[mapping class groups]]:
 
 * {#MargalitWinarski21} [[Dan Margalit]], [[Rebecca R. Winarski]], *Braid groups and mapping class groups: The Birman–Hilden theory*, Bull. London Math. Soc. **53** 3 (2021) 643-659 &lbrack;[arXiv:1703.03448](https://arxiv.org/abs/1703.03448), [doi:10.1112/blms.12456](https://doi.org/10.1112/blms.12456)&rbrack;
 
-* {#BellingeriGervais12} Paolo Bellingeri, Sylvain Gervais: *Surface framed braids*, Geom Dedicata **159** (2012) 51–69 &lbrack;[doi:10.1007/s10711-011-9645-5](https://doi.org/10.1007/s10711-011-9645-5), [arXiv:1001.4471](https://arxiv.org/abs/1001.4471)&rbrack;
+* {#BellingeriGervais12} [[Paolo Bellingeri]], [[Sylvain Gervais]]: *Surface framed braids*, Geom Dedicata **159** (2012) 51–69 &lbrack;[doi:10.1007/s10711-011-9645-5](https://doi.org/10.1007/s10711-011-9645-5), [arXiv:1001.4471](https://arxiv.org/abs/1001.4471)&rbrack;
 
 
 
