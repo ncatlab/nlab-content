@@ -57,13 +57,7 @@ In every [[tabular allegory]], a relation $R$ could be factored into jointly mon
 
 ## References 
 
-* [[Peter Freyd]], [[Andre Scedrov]]:
-
-  **Categories, Allegories** 
-
-  Mathematical Library Vol 39, North-Holland (1990). 
-
-  [ISBN 978-0-444-70368-2](https://www.elsevier.com/books/categories-allegories/freyd/978-0-444-70368-2)
+* [[Peter Freyd]], [[Andre Scedrov]], *Categories, Allegories*, Mathematical Library Vol 39, North-Holland (1990). [ISBN 978-0-444-70368-2](https://www.elsevier.com/books/categories-allegories/freyd/978-0-444-70368-2)
 
 [[!redirects jointly monic]]
 [[!redirects jointly injective]]
