@@ -526,6 +526,9 @@ Discussion of fundamental constructions of [[algebraic geometry]] from the persp
 
 * [[Ingo Blechschmidt]], _Internal methods_ [github repository](https://github.com/iblech/internal-methods)
 
+An [[internal language]] for [[comprehension categories]] is developed in:
+
+* [[Niyousha Najmaei]], [[Niels van der Weide]], [[Benedikt Ahrens]], [[Paige Randall North]], *A Type Theory for Comprehension Categories with Applications to Subtyping* ([arXiv:2503.10868](https://arxiv.org/abs/2503.10868))
 
 [[!redirects internal logic]]
 [[!redirects internal logics]]
