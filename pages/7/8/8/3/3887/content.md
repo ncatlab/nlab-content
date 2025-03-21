@@ -114,7 +114,9 @@ In particular, argument that the higher conformal blocks of the [[D=6 N=(2,0) SC
 
 * {#Witten09} [[Edward Witten]], [p. 22](https://arxiv.org/pdf/0905.2720.pdf#page=22) of: *Geometric Langlands From Six Dimensions*, in Peter Kotiuga (ed.) _A Celebration of the Mathematical Legacy of Raoul Bott_, CRM Proceedings & Lecture Notes **50** AMS (2010) &lbrack;[arXiv:0905.2720](http://arxiv.org/abs/0905.2720), [ISBN:978-0-8218-4777-0](https://bookstore.ams.org/crmp-50)&rbrack;
 
-Conformal blocks for [[Liouville theory]]:
+On irregular conformal blocks for [[Liouville theory]]
+
+* [[Davide Gaiotto]], Joel Lamy-Poirier: *Irregular Singularities in the $H_3^+$ WZW Model* &lbrack;[arXiv:1301.5342](https://arxiv.org/abs/1301.5342)&rbrack;
 
 * [[Babak Haghighat]], [[Yihua Liu]], [[Nicolai Reshetikhin]], *Flat Connections from Irregular Conformal Blocks* &lbrack;[arXiv:2311.07960](https://arxiv.org/abs/2311.07960)&rbrack;
 
@@ -125,6 +127,8 @@ Conformal blocks for [[Liouville theory]]:
 See also:
 
 * Qianyu Hao, [[Andrew Neitzke]]: *A new construction of $c=1$ Virasoro blocks* &lbrack;[arXiv:2407.04483](https://arxiv.org/abs/2407.04483)&rbrack;
+
+
 
 
 
