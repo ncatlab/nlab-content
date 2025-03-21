@@ -29,7 +29,7 @@ A *quadratic Gauss sum* is a sum of square-powers of primitive [[roots of unity]
   \mathbb{C}
   \,,
   \;\;\;\;\;\;
-  \text{for} \; n \in \mathbb{N}_{\geq 1}
+  \text{for} \; k \in \mathbb{N}_{> 0}
   \,.
 \]
 
