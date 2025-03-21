@@ -75,7 +75,7 @@ Further discussion (some in the context of the [[framed little disk operad]]):
 
 * [[Ralph Cohen]] (notes by Eric Malm), p 20 of: *MATH 283: Topological Field Theories* (2008) &lbrack;[pdf](https://ericmalm.net/ac/projects/math283-w08/math283-w08-n.pdf), [[RCohen-TQFT.pdf:file]]&rbrack;
 
-* {#BellingeriGervais12} Paolo Bellingeri, Sylvain Gervais: *Surface framed braids*, Geom Dedicata **159** (2012) 51–69 &lbrack;[doi:10.1007/s10711-011-9645-5](https://doi.org/10.1007/s10711-011-9645-5), [arXiv:1001.4471](https://arxiv.org/abs/1001.4471)&rbrack;
+* {#BellingeriGervais12} [[Paolo Bellingeri]], [[Sylvain Gervais]]: *Surface framed braids*, Geom Dedicata **159** (2012) 51–69 &lbrack;[doi:10.1007/s10711-011-9645-5](https://doi.org/10.1007/s10711-011-9645-5), [arXiv:1001.4471](https://arxiv.org/abs/1001.4471)&rbrack;
 
 * Akishi Ikeda: *Homological and Monodromy Representations of Framed Braid Groups*, Commun. Math. Phys. **359** (2018) 1091–1121  &lbrack;[doi:10.1007/s00220-017-3036-1](https://doi.org/10.1007/s00220-017-3036-1), [arXiv:1702.03918](https://arxiv.org/abs/1702.03918)&rbrack;
 
