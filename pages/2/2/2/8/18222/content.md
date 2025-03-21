@@ -38,6 +38,9 @@ On [[monoidal category|monoidal]] [[univalent categories]]:
 
 * [[Kobe Wullaert]], [[Ralph Matthes]], [[Benedikt Ahrens]], *Univalent Monoidal Categories* &lbrack;[arXiv:2212.03146](https://arxiv.org/abs/2212.03146)&rbrack;
 
+An [[internal language]] for [[comprehension categories]] is developed in:
+
+* [[Niyousha Najmaei]], [[Niels van der Weide]], [[Benedikt Ahrens]], [[Paige Randall North]], *A Type Theory for Comprehension Categories with Applications to Subtyping* ([arXiv:2503.10868](https://arxiv.org/abs/2503.10868))
 
 ## Related entries
 
