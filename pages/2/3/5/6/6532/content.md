@@ -87,6 +87,10 @@ On [[holography]] and the [[IKKT matrix model]]:
 
 * [[Franz Ciceri]], [[Henning Samtleben]]: *Holography for the IKKT matrix model* &lbrack;[arXiv:2503.08771](https://arxiv.org/abs/2503.08771)&rbrack;
 
+On [[holography]] and the [[BFSS matrix model]]:
+
+* Alfred Bovon, [[Henning Samtleben]], [[Dimitrios Tsimpis]]: *Holographic deformations of matrix models* &lbrack;[arXiv:2503.15954](https://arxiv.org/abs/2503.15954)&rbrack;
+
 
 ## Related entries
 
