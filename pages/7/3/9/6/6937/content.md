@@ -5,9 +5,13 @@
 
 ## Selected writings
 
-On the [[relation between type theory and category theory|categorical semantics]] of [[homotopy type theory]] in [[simplicial sets]]/[[infinity-groupoids|$\ionfty$-groupoids]]:
+On the [[relation between type theory and category theory|categorical semantics]] of [[homotopy type theory]] in [[simplicial sets]]/[[infinity-groupoids|$\infty$-groupoids]]:
 
 * {#KapulkinLumsdaine12} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *The Simplicial Model of Univalent Foundations (after Voevodsky)*, Journal of the European Mathematical Society **23** (2021) 2071–2126  $[$[arXiv:1211.2851](https://arxiv.org/abs/1211.2851), [doi:10.4171/jems/1050](https://doi.org/10.4171/jems/1050)$]$
+
+On [[excluded middle]] in [[simplicial sets]] and the compatibility of excluded middle with the [[univalence axiom]]:
+
+* [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *The law of excluded middle in the simplicial model of type theory* ([arXiv:2006.13694](https://arxiv.org/abs/2006.13694))
 
 On [[higher inductive types]] in [[homotopy type theory]]:
 
@@ -51,7 +55,6 @@ Formalization of (the proof of) the [[Blakers-Massey theorem]] in [[homotopy typ
 On [[dependent type theory]]:
 
 * {#BauerHaselwarterLumsdaine20} [[Andrej Bauer]], [[Philipp G. Haselwarter]], [[Peter LeFanu Lumsdaine]], *A general definition of dependent type theories* &lbrack;[arXiv:2009.05539](https://arxiv.org/abs/2009.05539)&rbrack;
-
 
 ## Related entries
 
