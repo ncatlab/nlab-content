@@ -926,9 +926,10 @@ This means that the last relation holds if the normalization factor in (eq:Repre
        \widehat{n}^2
     }
   \Big)^{1/3}
+  \;\overset{?}{=}\;
+  k^{1/3} (-1)^{1/12}
   \,.
 \]
-
 
 
 
