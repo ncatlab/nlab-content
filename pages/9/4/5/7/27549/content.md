@@ -69,8 +69,8 @@ The basic quadratic Gauss sum (eq:BasicQuadraticGaussSum) evaluates to:
 The original proof is due to [Gauss 1811](#Gauss1811), an early alternative proof is due to [Dirichlet 1835](#Dirichlet35), reviewed in [Dirichlet 1871](#Dirichlet1871). Modern review includes [Doyle 2016  (1.1)](#Doyle16), [Ram Murty & Pathak 2017 Thm. 1.1](#MurtyPathak17), [Taylor 2022 Thm. 1.16](#Taylor22).
 
 \begin{proposition}
-\label{EvaluationOfQuadraticGaussSumWithHalfedExponents}
-**(evaluation of quadratic Gauss sum with halfed exponents)**
+\label{EvaluationOfQuadraticGaussSumWithHalvedExponents}
+**(evaluation of quadratic Gauss sum with halved exponents)**
 \linebreak
 For the variant of (eq:EvaluationFormulaOfQuadraticGaussSum) with half the usual exponents we have
 $$
