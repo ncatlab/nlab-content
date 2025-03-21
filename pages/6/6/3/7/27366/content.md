@@ -618,7 +618,7 @@ $$
   \,.
 $$
 
-This representation (eq:ModularActionOnH1) is just the [[modular functor|modular action]] known from [[abelian Chern-Simons theory]] at [[even number|even]] [[level (Chern-Simons theory)|level]] $k$ (cf. [Manoliu 1998a p 67](abelian+Chern-Simons+theory#Manoliu98a)):
+This representation (eq:ModularActionOnH1) is just the [[modular functor|modular action]] known from [[abelian Chern-Simons theory]] at [[even number|even]] [[level (Chern-Simons theory)|level]] $k$ (cf. [Manoliu 1998a p 67](abelian+Chern-Simons+theory#Manoliu98a), [Gannon 2005 (3.1b)](SL2Z#Gannon05)):
 \[
   \label{RepresentationOfModularGenerators}
   \begin{array}{ccr}
@@ -647,10 +647,20 @@ This representation (eq:ModularActionOnH1) is just the [[modular functor|modular
     {\big\vert [n] \big\rangle}
   \Big)
   &=&
-  \tfrac{1}{c_k}
+  \underset{
+    \eqqcolon 1/c_k 
+  }{
+  \underbrace{
+    e^{
+      -
+      \pi \mathrm{i}/12
+    }
+  }
+  }
+  \,
   e^{ 
-    \pi \mathrm{i}
-    \tfrac{ n^2 }{ k }
+    \tfrac{\pi \mathrm{i}}{k}
+    n^2
   }
   {\big\vert
    [ n ]
@@ -658,7 +668,6 @@ This representation (eq:ModularActionOnH1) is just the [[modular functor|modular
   \end{array}
 \]
 \end{proposition}
-(The normalization factor $c_k$ is fixed below in (eq:NormalizationFactorForTOperator).)
 \begin{proof}
 To see that (eq:RepresentationOfModularGenerators) is indeed a representation of the modular group, we need to check that the relations (eq:PresentationOfSL2Z) are satisfied:
 
@@ -908,13 +917,13 @@ where the term over the brace is in fact constant in $n$ and $\widehat{\widehat{
 \]
 
 
-This means that the last relation holds if the normalization factor in (eq:RepresentationOfModularGenerators) is fixed to
+This means that the last relation holds if the normalization factor $c_k$ is indeed fixed, as shown in (eq:RepresentationOfModularGenerators), to this [[Gauss sum|Gauss-like sum]], which may (at least numerically) be evaluated to
 \[
   \label{NormalizationFactorForTOperator}
   c_k
   \;=\;
-    \tfrac{1}{k^{1/6}}
   \Big(
+    \tfrac{1}{\sqrt{k}}
     \textstyle{
       \sum_{
         \widehat n
@@ -928,12 +937,12 @@ This means that the last relation holds if the normalization factor in (eq:Repre
        \widehat{n}^2
     }
   \Big)^{1/3}
-  \;\overset{?}{=}\;
-  k^{1/3} (-1)^{1/12}
+  \;=\;
+  \big(\sqrt{\mathrm{i}}\big)^{1/3}
+  \;=\;
+  e^{ \pi \mathrm{i}/12 }
   \,.
 \]
-
-
 
 
 Finally to see that also the semidirect product of these two groups is represented in that (eq:SemidirectProductRelations) holds: 
