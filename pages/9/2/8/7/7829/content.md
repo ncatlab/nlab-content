@@ -298,9 +298,9 @@ with more in
 
 * {#Lott90} [[John Lott]], _Eta and torsion_, 1990 ([pdf](http://math.berkeley.edu/~lott/lhouches.pdf))
 
-* [[Lisa Jeffrey]], _Symplectic quantum mechanics and Chern-Simons gauge theory I_,  ([arxiv/1210.6635](http://arxiv.org/abs/1210.6635))
+* [[Lisa Jeffrey]]: _Symplectic quantum mechanics and Chern-Simons gauge theory I_, J. Math. Phys. **54** (2013) 052304 &lbrack;[arxiv/1210.6635](http://arxiv.org/abs/1210.6635), [doi:10.1063/1.4804152](https://doi.org/10.1063/1.4804152)&rbrack;
 
-* [[Lisa Jeffrey]], Brendan McLellan, _Eta-Invariants and Anomalies in U(1) Chern-Simons Theory_ ([pdf](http://www.math.toronto.edu/mclellan/eta%20invariants%20and%20anomalies.pdf))
+* [[Lisa Jeffrey]], Brendan McLellan: *Eta-Invariants and Anomalies in $U(1)$ Chern-Simons Theory* &lbrack;[arXiv:1004.2913](https://arxiv.org/abs/1004.2913), [pdf](http://www.math.toronto.edu/mclellan/eta%20invariants%20and%20anomalies.pdf)&rbrack;
 
 * {#Young} M. B. Young, section 2 of _Chern-Simons theory, knots and moduli spaces of connections_ ([pdf](http://www.math.sunysb.edu/~myoung/CS.pdf))
 
