@@ -31,7 +31,8 @@ An $n$th _root of unity_ in a [[ring]] $R$ is an element $x$ such that $x^n = 1$
 \linebreak
 For $k \in \mathbb{N}_{\gt 0}$, let $\zeta$ be a $k$th root of unity in a [[field]], $\zeta^k = 1$. Then
 
-$$
+\[
+  \label{SumOfPowersOfRootOfUnity}
   \tfrac{1}{k}
   \sum_{n=0}^{k-1}
   \zeta^n
@@ -44,7 +45,7 @@ $$
   \end{array}
   \right.
   \,.
-$$
+\]
 \end{proposition}
 \begin{proof}
   The case $\zeta = 1$ is immediate.
@@ -60,6 +61,7 @@ $$
     \,.
   $$
 \end{proof}
+For variants of the expression (eq:SumOfPowersOfRootOfUnity) see at *[[Gauss sum]]*.
 
 
 
@@ -130,6 +132,8 @@ $$
 $$
 
 ## Related concepts
+
+* [[Gauss sum]]
 
 * [[Q/Z]]
 
