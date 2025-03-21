@@ -309,6 +309,9 @@ On [[AdS/CFT]] in the form of [[AdS2/CFT1]] with the [[BFSS matrix model]] on th
 
 * [[Juan Maldacena]], Alexey Milekhin, _To gauge or not to gauge?_, JHEP 04 (2018) 084 ([arxiv:1802.00428](https://arxiv.org/abs/1802.00428))
 
+* Alfred Bovon, [[Henning Samtleben]], [[Dimitrios Tsimpis]]: *Holographic deformations of matrix models* &lbrack;[arXiv:2503.15954](https://arxiv.org/abs/2503.15954)&rbrack;
+
+
 and concerning the analog of its [[holographic entanglement entropy]]:
 
 * Tarek Anous, Joanna L. Karczmarek, Eric Mintun, [[Mark Van Raamsdonk]], Benson Way, _Areas and entropies in BFSS/gravity duality_ ([arXiv:1911.11145](https://arxiv.org/abs/1911.11145))
