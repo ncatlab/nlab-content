@@ -1,5 +1,5 @@
 
-### Abelian Chern-Simons for frational quantum Hall effect
+### Abelian Chern-Simons for fractional quantum Hall effect
  {#ReferencesAbCSForFQHE}
 
 The idea of [[abelian Chern-Simons theory]] as an [[effective field theory]] exhibiting the [[fractional quantum Hall effect]] (abelian [[topological order]]) goes back to
