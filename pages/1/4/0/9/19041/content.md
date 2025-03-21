@@ -1,5 +1,3 @@
-# Triple categories
-
 * table of contents
 {: toc}
 
