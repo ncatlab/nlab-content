@@ -53,9 +53,19 @@ Historical origins:
 
 * [[Carl Gauss]], _[[Disquisitiones Arithmeticae]]_, 1801
 
-Textbook accounts:
+Early lecture notes:
+
+* [[Gustav Lejeune Dirichlet]]: *Vorlesungen über Zahlentheorie*, Vieweg und Sohn (1871) &lbrack;[eudml:204463](https://eudml.org/doc/204463)&rbrack;
+
+* [[Gustav Lejeune Dirichlet]], edited by [[Richard Dedekind]]: *Vorlesungen über Zahlentheorie*, Cambridge University Press (1879, 2013) &lbrack;[doi;10.1017/CBO9781139237321](https://doi.org/10.1017/CBO9781139237321), [Google Books](https://books.google.com/books?id=SRJTAAAAcAAJ&pg=PA424)&rbrack;
+
+
+Monographs:
 
 * {#FroehlichCassels67} [[Albrecht Fröhlich]], [[J. W. S. Cassels]] (eds.), _Algebraic number theory_, Acad. Press 1967, with many reprints; Fröhlich, Cassels, Birch, Atiyah, Wall, Gruenberg, Serre, Tate, Heilbronn, Rouqette, Kneser, Hasse, Swinerton-Dyer, Hoechsmann, systematic lecture notes from the instructional conference at Univ. of Sussex, Brighton, Sep. 1-17, 1965 (ISBN:9780950273426, [pdf](https://www.math.arizona.edu/~cais/scans/Cassels-Frohlich-Algebraic_Number_Theory.pdf), [errata pdf](https://www.ma.imperial.ac.uk/~buzzard/errata.pdf) by [[Kevin Buzzard]])
+
+* Kenneth Ireland, Michael Rosen: *A Classical Introduction to Modern Number Theory*, Graduate Texts in Mathematics **84**, Springer (1990) &lbrack;[doi:10.1007/978-1-4757-2103-4](https://doi.org/10.1007/978-1-4757-2103-4)&rbrack;
+
 
 * [[Albrecht Fröhlich]], Martin J. Taylor, _Algebraic number theory_, Cambridge Studies in Advanced Mathematics **27**, 1993
 
