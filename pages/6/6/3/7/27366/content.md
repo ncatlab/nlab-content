@@ -316,7 +316,7 @@ $$
 \begin{example}
 For $k \in \mathbb{Z}$, the non-[[trivial representation|trivial]] [[irreducible representations]] of twice the $\mathbb{Z}_{2 {\left\vert k \right\vert}}$-Heisenberg extension of $\mathbb{Z}^2$ (eq:TwiceOfBasicIntegerHeisInSymplecticForm)
 \[
-  \label{IrrepOfInyegerHeisenbergGroup}
+  \label{IrrepOfIntegerHeisenbergGroup}
   \begin{array}{ccc}
     \widehat{\mathbb{Z}^2}
     &
@@ -435,14 +435,10 @@ To see that this is [[irreducible representation|irreducible]] just note that a 
 
 For more see [Floratos & Tsohantjis 2022](#FloratosTsohantjis22).
 
-
-### Modular automorphisms
- {#ModularAutomorphisms}
-
-\begin{remark}
+\begin{remark}\label{RelationToChernSimonsStates}
 **(relation to [[quantum states]] and [[quantum observables]] of [[abelian Chern-Simons theory]])**
 \linebreak
-The [[complex numbers|complex]] [[dimension of a vector space|dimension]] of the [[irrep]] $\mathscr{H}_1$ (eq:IrrepOfInyegerHeisenbergGroup) is that expected for the [[space of quantum states]] of [[abelian Chern-Simons theory]] on a [[2-torus]] (cf. [Manoliu 1998a p 40](abelian+Chern-Simons+theory#Manoliu98a))
+The [[complex numbers|complex]] [[dimension of a vector space|dimension]] of the [[irrep]] $\mathscr{H}_1$ (eq:IrrepOfIntegerHeisenbergGroup) is that expected for the [[space of quantum states]] of [[abelian Chern-Simons theory]] on a [[2-torus]] (cf. [Manoliu 1998a p 40](abelian+Chern-Simons+theory#Manoliu98a))
 \[
   \label{CSLevel}
   dim(\mathscr{H}_1) \;=\; k
@@ -456,10 +452,16 @@ $$
   \,
   W_b \cdot W_a
 $$
-of [[linear operators]] acting on this irrep (eq:IrrepOfInyegerHeisenbergGroup) reflects the characteristic [[commutator]]-relation of [[Wilson loop]]-[[quantum observables]] in [[abelian Chern-Simons theory]] on a [[2-torus]] (cf. [Tong 2016 (5.28)](quantum+Hall+effect#Tong16), [p 166](https://ncatlab.org/nlab/files/Tong-QuantumHallEffect.pdf#page=168)).
+of [[linear operators]] acting on this irrep (eq:IrrepOfIntegerHeisenbergGroup) reflects the characteristic [[commutator]]-relation of [[Wilson loop]]-[[quantum observables]] in [[abelian Chern-Simons theory]] on a [[2-torus]] (cf. [Tong 2016 (5.28)](quantum+Hall+effect#Tong16), [p 166](https://ncatlab.org/nlab/files/Tong-QuantumHallEffect.pdf#page=168)).
 \end{remark}
 
-Moreover, the integer Heisenberg group knows about the [[modular group]] acting on this [[space of quantum states]], hence about the "[[modular functor]]" of [[abelian Chern-Simons theory]]:
+
+
+### Modular automorphisms
+ {#ModularAutomorphisms}
+
+
+Moreover, the integer Heisenberg group knows about the [[modular group]] acting on its irrep (eq:IrrepOfIntegerHeisenbergGroup), hence on the  [[space of quantum states]] $\mathscr{H}_{T^2}$ from Rem. \ref{RelationToChernSimonsStates}, hence about the "[[modular functor]]" of [[abelian Chern-Simons theory]]:
 
 
 \begin{definition}
@@ -578,8 +580,8 @@ there exists a [[linear representation]]
     \mathrlap{\,,}
   \end{array}
 \]
-of the [[modular group]] on the [[underlying]] [[complex vector space]] of (eq:IrrepOfInyegerHeisenbergGroup),
-which [[intertwiner|intertwines]] the action (eq:IrrepOfInyegerHeisenbergGroup)
+of the [[modular group]] on the [[underlying]] [[complex vector space]] of (eq:IrrepOfIntegerHeisenbergGroup),
+which [[intertwiner|intertwines]] the action (eq:IrrepOfIntegerHeisenbergGroup)
 of $\widehat{\mathbb{Z}^2}$ on $\mathscr{H}_1$, with its [[automorphism|automorphic]] [[images]] under the modular group action \eqref{SymplecticActonOnSecondIntegerHeisenberg} on the Heisenberg group, in that: 
 \[
   \label{SemidirectProductRelations}
