@@ -236,7 +236,11 @@ As mentioned earlier, quadratic reciprocity law is due to Gauss and is the first
 
 ## Related concepts
 
+* [[Gauss sum]]
+
 * [Jacobi theta function -- Functional equation and Reciprocity](Jacobi+theta+function#FunctionalEquation)
+
+
 
 ## References 
 
