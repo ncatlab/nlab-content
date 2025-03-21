@@ -265,7 +265,9 @@ Relation to *[[ex falso quodlibet]]* and the *[[law of double negation]]*:
 
 * Pedro Francisco, Valencia Vizcaíno, *Relations between ex falso, tertium non datur, and double negation elimination* &lbrack;[arXiv:1304.0272](https://arxiv.org/abs/1304.0272)&rbrack;
 
+On excluded middle in [[simplicial sets]] and the compatibility of excluded middle with the [[univalence axiom]]:
 
+* [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], *The law of excluded middle in the simplicial model of type theory* ([arXiv:2006.13694](https://arxiv.org/abs/2006.13694))
 
 ### In homotopy type theory
  {#ReferencesInHomotopyTypeTheory}
