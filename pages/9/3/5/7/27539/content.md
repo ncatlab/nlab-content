@@ -61,17 +61,19 @@ Original articles:
 
 * Ki Hyoung Ko, Lawrence Smolinsky: *The framed braid group and representations*, in: *Knots 90*, Proceedings in Mathematics, De Gruyter (1992) 289-297 &lbrack;[doi:10.1515/9783110875911](https://doi.org/10.1515/9783110875911), [[KoSmolinsky-FramedBraidsAndReps.pdf:file]]&rbrack;
 
+
 Further discussion (some in the context of the [[framed little disk operad]]):
 
 * Hans Wenzel, p. 4 of: *Braids and invariants of 3-manifolds*, Invent Math **114** (1993) 235–275 &lbrack;[doi:10.1007/BF01232670](https://doi.org/10.1007/BF01232670), [eudml:144148](https://eudml.org/doc/144148)&rbrack;
 
 * R. Krasauskas: *Crossed simplicial groups of framed braids and mapping class groups of surfaces*, Lith Math J **36**  (1996) 263–281 &lbrack;[doi:10.1007/BF02986853](https://doi.org/10.1007/BF02986853)&rbrack;
 
+* [[Pierre Lochak]], [[Leila Schneps]], §2 in: *The universal Ptolemy-Teichmüller groupoid*, in: *Geometric Galois Actions*, Cambridge University Press (1997) 325-348 &lbrack;[doi:10.1017/CBO9780511666124.014](https://doi.org/10.1017/CBO9780511666124.014), [pdf](https://webusers.imj-prg.fr/~leila.schneps/LochakSch.pdf)&rbrack;
+
 * [[Nathalie Wahl]], p. 25 of: *Ribbon braids and related operads*, PhD thesis, University of Oxford (2001) &lbrack;[pdf](https://ora.ox.ac.uk/objects/uuid:4ae9f906-be3e-4cba-bf3c-a626337d1cf9/files/m1ffea5bebdaee4287e6cca831c6568b5)&rbrack;
 
 * [[Ralph Cohen]], [[Alexander Voronov]]: _Notes on string topology_, in: _String topology and cyclic homology_, Advanced courses in mathematics CRM Barcelona, Birkhäuser (2006) &lbrack;[math.GT/05036259](http://arxiv.org/abs/math/0503625), [doi:10.1007/3-7643-7388-1](https://doi.org/10.1007/3-7643-7388-1), [pdf](http://gen.lib.rus.ec/get?md5=adde9464705ede0fea6b435edb58fbe7)&rbrack;
   > (in the context of [[string topology]])
-
 
 * [[Ralph Cohen]] (notes by Eric Malm), p 20 of: *MATH 283: Topological Field Theories* (2008) &lbrack;[pdf](https://ericmalm.net/ac/projects/math283-w08/math283-w08-n.pdf), [[RCohen-TQFT.pdf:file]]&rbrack;
 
