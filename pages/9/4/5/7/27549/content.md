@@ -33,7 +33,7 @@ A *quadratic Gauss sum* is a sum of square-powers of primitive [[roots of unity]
   \,.
 \]
 
-A *generalized Gauss sum* is a variant of this expression, admitting other powers of $s$ in the exponent.
+A *generalized Gauss sum* is a variant of this expression, admitting other prefectors or powers of $s$ in the exponent.
 
 
 ## Properties
@@ -42,7 +42,8 @@ A *generalized Gauss sum* is a variant of this expression, admitting other power
 **(evaluation of the quadratic Gauss sum)**
 \linebreak
 The basic quadratic Gauss sum (eq:BasicQuadraticGaussSum) evaluates to:
-$$
+\[
+  \label{EvaluationFormulaOfQuadraticGaussSum}
   \sum_{s = 0}^{k-1}
   e^{
     \tfrac{2 \pi \mathrm{i}}{k}
@@ -63,10 +64,36 @@ $$
     \mathrlap{\,.}
   \end{array}
   \right.
-$$
+\]
 \end{proposition}
 The original proof is due to [Gauss 1811](#Gauss1811), an early alternative proof is due to [Dirichlet 1835](#Dirichlet35), reviewed in [Dirichlet 1871](#Dirichlet1871). Modern review includes [Doyle 2016  (1.1)](#Doyle16), [Ram Murty & Pathak 2017 Thm. 1.1](#MurtyPathak17), [Taylor 2022 Thm. 1.16](#Taylor22).
 
+\begin{proposition}
+\label{EvaluationOfQuadraticGaussSumWithHalfedExponents}
+**(evaluation of quadratic Gauss sum with halfed exponents)**
+\linebreak
+For the variant of (eq:EvaluationFormulaOfQuadraticGaussSum) with half the usual exponents we have
+$$
+  \sum_{s = 0}^{k-1}
+  e^{
+    \tfrac{\pi \mathrm{i}}{k}
+    s^2
+  }
+  \;\;
+  =
+  \;\;
+  \left\{
+  \begin{array}{ccl}
+    \sqrt{k} \, e^{\pi \mathrm{i}/4}
+    &\vert&
+    k \in 2 \mathbb{N}_{\gt 0}
+    \\
+    ? &\vert& k \in 2 \mathbb{N} + 1
+  \end{array}
+  \right.
+$$
+\end{proposition}
+Proofs are given at [MO:a/4232289](https://math.stackexchange.com/a/4232289/58526) and [MO:a/489863](https://mathoverflow.net/a/489863/381).
 
 
 ## Related concepts
@@ -76,11 +103,11 @@ The original proof is due to [Gauss 1811](#Gauss1811), an early alternative proo
 
 ## References
 
-The original proof is due to 
+The original proof of Prop. \ref{EvaluationOfQuadraticGaussSum} is due to 
 
 * {#Gauss1811} [[Carl F. Gauss]]: *Summatio Quarumdam Serierum Singularium* Societas Regia Scientiarum Gottingensis (1811)
 
-An early alternative proof, using a variant of [[Poisson summation]], is due to 
+and an early alternative proof, using a variant of [[Poisson summation]], is due to 
 
 * {#Dirichlet35} [[P. G. L. Dirichlet]]: &Uuml;ber eine neue Anwendung bestimmter Integrale auf die Summation endlicher oder unendlicher Reihen. Abhandlungen der K&ouml;niglich Preussischen Akademie der Wissenschaften (1835)
 
@@ -121,6 +148,11 @@ See also:
 
 * Wikipedia: *[Gauss sum](https://en.wikipedia.org/wiki/Gauss_sum)*
 
+On quadratic Gauss sums with half the usual exponent:
+
+* Gergely Harcos: *The reciprocity of Gauss sums via the residue theorem* &lbrack;[pdf](https://users.renyi.hu/%7Egharcos/gauss_sums.pdf), [[Harcos-ReciprocityOfGaussSums.pdf:file]]&rbrack;
+
+* [MO:q/489862](https://mathoverflow.net/q/489862/381)
 
 [[!redirects Gauss sums]]
 
