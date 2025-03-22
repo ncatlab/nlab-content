@@ -459,6 +459,9 @@ Cubes with monotone interval-preserving maps:
 
 * {#KrishnanRudman2025} [[Sanjeevi Krishnan]], Emily Rudman: _A convenient category of cubes_ (2025) &lbrack;[arXiv:2503.13663](https://arxiv.org/abs/2503.13663)&rbrack;
 
+A [[constructive mathematics|constructive]] model of [[homotopy type theory]] in a [[Quillen model category]] of equivariant [[cartesian cube category|cartesian]] [[cubical sets]] that [[classical mathematics|classically]] presents the usual [[homotopy theory]] of [[spaces]]:
+
+* [[Steve Awodey]], [[Evan Cavallo]], [[Thierry Coquand]], [[Emily Riehl]], [[Christian Sattler]], *The equivariant model structure on cartesian cubical sets* ([arXiv:2406.18497](https://arxiv.org/abs/2406.18497))
 
 [[!redirects symmetric cube category]]
 [[!redirects semicartesian cube category]]
