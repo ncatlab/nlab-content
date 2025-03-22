@@ -244,16 +244,20 @@ As mentioned earlier, quadratic reciprocity law is due to Gauss and is the first
 
 ## References 
 
-* wikipedia: [reciprocity laws (mathematics)](http://en.wikipedia.org/wiki/Reciprocity_law_%28mathematics%29)
+* {#Lang} [[Serge Lang]], _Algebraic number theory_, Graduate Texts in Mathematics **110**, Springer (1970, 1986, 1994, 2000) &lbrack;[doi:10.1007/978-1-4612-0853-2](https://doi.org/10.1007/978-1-4612-0853-2)&rbrack;
 
-* Serge Lang, _Algebraic number theory_, Addison-Wesley (1970). 
-{#Lang}
+See also:
+
+* Wikipedia: *[Reciprocity laws (mathematics)](http://en.wikipedia.org/wiki/Reciprocity_law_%28mathematics%29)*
+
 
 * {#Gauss} [[Carl Friedrich Gauss]], _Disquisitiones arithmeticae_ (1801), Article IV. 
  
 
-* E.I. Zolotareff, _Nouvelle d&#233;monstration de la loi de de r&#233;ciprocit&#233; de Legendre_, Nouvelles Annales de Math&#233;matiques. 2e s&#233;rie 11 (1872) 354&#8211;362. 
-{#Zolotarev} 
+* {#Zolotarev} E.I. Zolotareff, _Nouvelle d&#233;monstration de la loi de de r&#233;ciprocit&#233; de Legendre_, Nouvelles Annales de Math&#233;matiques. 2e s&#233;rie 11 (1872) 354&#8211;362. 
+ 
+
+* {#Casselman11} [[Bill Casselman]]: *Dirichlet's calculation of Gauss sums*, L’ Enseignement Math&eacute;matique **2** 57 (2011) 281–301 &lbrack;[pdf](https://content.ems.press/assets/public/full-texts/serials/lem/57/3/12115/online/10.4171-lem-57-3-2.pdf), [[Casselman-DirichletGaussSum.pdf:file]]&rbrack;
 
 
 [[!redirects quadratic reciprocity]]
