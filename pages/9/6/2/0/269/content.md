@@ -561,6 +561,10 @@ Essential subtoposes of $Set^{\Box^{op}}$ are discussed in the context of Lawver
 
 * {#KRRZ10} C. Kennett, [[Emily Riehl|E. Riehl]], M. Roy, M. Zaks, _Levels in the toposes of simplicial sets and cubical sets_ , JPAA **215** no.5 (2011) pp.949-961. ([preprint](http://arxiv.org/abs/1003.5944))
 
+A [[constructive mathematics|constructive]] model of [[homotopy type theory]] in a [[Quillen model category]] of [[cubical sets]] that [[classical mathematics|classically]] presents the usual [[homotopy theory]] of [[spaces]]:
+
+* [[Steve Awodey]], [[Evan Cavallo]], [[Thierry Coquand]], [[Emily Riehl]], [[Christian Sattler]], *The equivariant model structure on cartesian cubical sets* ([arXiv:2406.18497](https://arxiv.org/abs/2406.18497))
+
 [[!redirects Cubical set]]
 [[!redirects Cubical Set]]
 [[!redirects Cubical set]]
