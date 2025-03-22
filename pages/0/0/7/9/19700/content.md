@@ -16,7 +16,7 @@
 
 
 
-#Contents#
+#Contents
 * table of contents
 {:toc}
 
@@ -60,7 +60,7 @@ Lecture notes include
 
 * Sam Evans, _Smith normal form over the integers_ ([pdf](https://www3.nd.edu/~sevens/smithform.pdf))
 
-* Bill Casselman, _Hermite and Smith forms_, 2011 ([pdf](http://www.math.ubc.ca/~cass/siegel/Smith.pdf))
+* [[Bill Casselman]]: *Hermite and Smith forms* (2011) &lbrack;[pdf](http://www.math.ubc.ca/~cass/siegel/Smith.pdf), [[Casselman-HermiteSmithForms.pdf:file]]&rbrack;
 
 * George Havas, Leon Sterling, _Integer matrices and abelian groups_ ([pdf](https://pdfs.semanticscholar.org/1f4c/9ae8000e1e9fb6f3131b7812be84d6a9a0ad.pdf), [doi:10.1007/3-540-09519-5_94](https://link.springer.com/chapter/10.1007/3-540-09519-5_94))
 
