@@ -68,7 +68,7 @@ Properties of the category of comodules over a [[coalgebra]] are studied in
 
 * {#Wischnewsky} Manfred Wischnewsky, _On linear representations of affine groups, I_, Pacific Journal of Mathematics __61__, No. 2, 1975, [Project Euclid](http://projecteuclid.org/euclid.pjm/1102868049).
 
-On [[locally presentable category|local presentability]] of [[CocommCoalg|categoris of coalgebras]] and their comodules:
+On [[locally presentable category|local presentability]] of [[CocommCoalg|categories of coalgebras]] and their comodules:
 
 * [[Hans-Eberhard Porst]], *On corings and comodules*, Archivum Mathematicum **42** 4 (2006) 419-425 &lbrack;[dmlcz:108017](https://dml.cz/handle/10338.dmlcz/108017), [pdf](http://dml.cz/bitstream/handle/10338.dmlcz/108017/ArchMathRetro_042-2006-4_7.pdf)&rbrack; 
 
