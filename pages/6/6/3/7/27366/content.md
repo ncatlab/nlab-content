@@ -917,7 +917,7 @@ where the term over the brace is in fact constant in $n$ and $\widehat{\widehat{
 \]
 
 
-This means that the last relation holds if the normalization factor $c_k$ is indeed fixed, as shown in (eq:RepresentationOfModularGenerators), to this [[quadratic Gauss sum]], which evaluated to (see [there](Gauss+sum#EvaluationOfQuadraticGaussSumWithHalfedExponents))
+This means that the last relation holds if the normalization factor $c_k$ is indeed fixed, as shown in (eq:RepresentationOfModularGenerators), to this [[quadratic Gauss sum]], which evaluated to (see [there](Gauss+sum#EvaluationOfQuadraticGaussSumWithHalvedExponents))
 \[
   \label{NormalizationFactorForTOperator}
   c_k
