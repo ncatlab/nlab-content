@@ -19,9 +19,8 @@ On [[experiment|experimental]] detection of [[anyons]] in [[gallium arsenide]] [
 
 * [[James Nakamura]] et al.: *Impact of bulk-edge coupling on observation of anyonic braiding statistics in quantum Hall interferometers*, Nature Communications **13** 344 (2022) &lbrack;[doi:10.1038/s41467-022-27958-w](https://doi.org/10.1038/s41467-022-27958-w), [arXiv:2107.02136](https://arxiv.org/abs/2107.02136)&rbrack;
 
-* [[James Nakamura]] et al.: *Fabry-Pérot Interferometry at the Fractional Quantum Hall State*, Phys. Rev. X **13** (2023) 041012 &lbrack;[doi:10.1103/PhysRevX.13.041012](https://doi.org/10.1103/PhysRevX.13.041012)&rbrack;
 
-* [[James Nakamura]]: *Fabry-Perot interferometry at the $\nu-2/5$ fractional quantum Hall state*, Phys. Rev. X **13** (2023) 041012  &lbrack;[arXiv:2304.12415](https://arxiv.org/abs/2304.12415), [doi:10.1103/PhysRevX.13.041012](https://doi.org/10.1103/PhysRevX.13.041012)&rbrack;
+* [[James Nakamura]] et al.: *Fabry-Perot interferometry at the $\nu = 2/5$ fractional quantum Hall state*, Phys. Rev. X **13** (2023) 041012  &lbrack;[arXiv:2304.12415](https://arxiv.org/abs/2304.12415), [doi:10.1103/PhysRevX.13.041012](https://doi.org/10.1103/PhysRevX.13.041012)&rbrack;
 
 category: people
 
