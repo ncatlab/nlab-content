@@ -43,7 +43,8 @@ In the [[p-adic AdS/CFT correspondence|2-adic AdS/CFT correspondence]] this tree
 
 ### General
 
-* {#Casselman14} Bill Casselman, _The Bruhat-Tits tree of $\mathrm{SL}(2)$_, 2014 ([pdf](https://pdfs.semanticscholar.org/3cc6/b53850a03003204f1225c780cf29ab625a6c.pdf), [[CasselmanOnBruhatTitsTree2014.pdf:file]])
+* {#Casselman14} [[Bill Casselman]], _The Bruhat-Tits tree of $\mathrm{SL}(2)$_ (2014) &lbrack;[pdf](https://pdfs.semanticscholar.org/3cc6/b53850a03003204f1225c780cf29ab625a6c.pdf), [[CasselmanOnBruhatTitsTree2014.pdf:file]]&rbrack;
+
 
 ### In $p$-adic string theory
 
