@@ -105,7 +105,7 @@ If the Coxeter group W is finite, the building is called **spherical**. The reas
 
 ### Introductory
 
-* {#Casselman19} Bill Casselman, _Geometry of the tree_, 2019 ([pdf](https://www.math.ubc.ca/~cass/research/pdf/Tree.pdf))
+* {#Casselman14} [[Bill Casselman]], _The Bruhat-Tits tree of $\mathrm{SL}(2)$_ (2014) &lbrack;[pdf](https://pdfs.semanticscholar.org/3cc6/b53850a03003204f1225c780cf29ab625a6c.pdf), [[CasselmanOnBruhatTitsTree2014.pdf:file]]&rbrack;
 
 * [[John Baez]], This Week's Finds in Mathematical Physics, [week 263] (http://math.ucr.edu/home/baez/week263.html) second half.
 
