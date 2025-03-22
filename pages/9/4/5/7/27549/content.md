@@ -68,14 +68,14 @@ The basic quadratic Gauss sum (eq:BasicQuadraticGaussSum) evaluates to:
   \right.
 \]
 \end{proposition}
-The original proof is due to [Gauss 1811](#Gauss1811), an early alternative proof is due to [Dirichlet 1835](#Dirichlet35), reviewed in [Dirichlet 1871](#Dirichlet1871). Several other proofs have been given. Modern review includes [Doyle 2016  (1.1)](#Doyle16), [Ram Murty & Pathak 2017 Thm. 1.1](#MurtyPathak17), [Taylor 2022 Thm. 1.16](#Taylor22).
+The original proof is due to [Gauss 1811](#Gauss1811), an early alternative proof is due to [Dirichlet 1835](#Dirichlet35), reviewed in [Dirichlet 1871](#Dirichlet1871). Several other proofs have been given. Modern review includes [Lang 1970 p 87](#Lang70), [Doyle 2016  (1.1)](#Doyle16), [Ram Murty & Pathak 2017 Thm. 1.1](#MurtyPathak17), [Taylor 2022 Thm. 1.16](#Taylor22).
 
-More generally:
+For odd $k$ we have more generally:
 
 \begin{proposition}\label{EvaluationOfQuadraticGaussSumWithFactor}
 **(evaluation of the quadratic Gauss sum with multiple exponents)**
 \linebreak
-For $k \in \mathbb{N}_{\gt 0}$ and $q \in \mathbb{Z}$ we have
+For $k \in 2\mathbb{N} + 1$ and $q \in \mathbb{Z}$ we have
 \[
   \label{EvaluationFormulaOfQuadraticGaussSum}
   \sum_{s = 0}^{k-1}
@@ -84,14 +84,21 @@ For $k \in \mathbb{N}_{\gt 0}$ and $q \in \mathbb{Z}$ we have
     q
     s^2
   }
+  \;\;=\;\;
+  (q \vert k)
+  \sum_{s = 0}^{k-1}
+  e^{
+    \tfrac{2 \pi \mathrm{i}}{k}
+    s^2
+  }
   \;\;
   =
   \;\;
   \left\{
   \begin{array}{lcl}
-    (k \vert q)
+    
     \,
-    (1 + \mathrm{i}^q) \sqrt{k} &\vert& k = 0 \;mod\; 4
+    (1 + \mathrm{i}) \sqrt{k} &\vert& k = 0 \;mod\; 4
     \\
     (q \vert k)
     \,
@@ -110,7 +117,7 @@ For $k \in \mathbb{N}_{\gt 0}$ and $q \in \mathbb{Z}$ we have
 \]
 where "$(a \vert b)$" is the [[Jacobi symbol]].
 \end{proposition}
-(cf. [Doyle 2016  (1.1)](#Doyle16))
+([Lang 1970 "QS 4" (p 86)](#Lang70), cf. [Doyle 2016  (1.1)](#Doyle16)?)
 
 
 ### Qudratic Gauss sum with halved exponents
@@ -338,7 +345,12 @@ reviewed in:
 
 * {#Dirichlet1871} [[P. G. L. Dirichlet]]: *Vorlesungen über Zahlentheorie*, Vieweg und Sohn (1871) &lbrack;[eudml:204463](https://eudml.org/doc/204463)&rbrack;
 
+* {#Casselman11} [[Bill Casselman]]: *Dirichlet's calculation of Gauss sums*, L’ Enseignement Math&eacute;matique **2** 57 (2011) 281–301 &lbrack;[pdf](https://content.ems.press/assets/public/full-texts/serials/lem/57/3/12115/online/10.4171-lem-57-3-2.pdf), [[Casselman-DirichletGaussSum.pdf:file]]&rbrack;
+
 Further discussion:
+
+* {#Lang70} [[Serge Lang]], §IV.3 in: _Algebraic number theory_, Graduate Texts in Mathematics **110**, Springer (1970, 1986, 1994, 2000) &lbrack;[doi:10.1007/978-1-4612-0853-2](https://doi.org/10.1007/978-1-4612-0853-2)&rbrack;
+
 
 * Kenneth Ireland, Michael Rosen: *Quadratic Gauss Sums*, chapter 6 in: *A Classical Introduction to Modern Number Theory*, Graduate Texts in Mathematics **84**, Springer (1990) &lbrack;[doi:10.1007/978-1-4757-1779-2_6](https://doi.org/10.1007/978-1-4757-1779-2_6)&rbrack;
 
@@ -355,6 +367,8 @@ Further discussion:
 * {#Doyle16} Greg Doyle: *Quadratic Form Gauss Sums*, PhD thesis, Ottawa (2016) &lbrack;[doi:10.22215/etd/2016-11457](https://doi.org/10.22215/etd/2016-11457), [[Doyle-QuadraticGaussSum.pdf:file]]&rbrack;
 
 * {#MurtyPathak17} M. Ram Murty, Siddhi Pathak: *Evaluation of the quadratic Gauss sum*, The Mathematics Student **86** 1-2 (2017) 139-150 &lbrack;[pdf](https://mast.queensu.ca/~murty/quadratic2.pdf), [pdf](https://www.cmi.ac.in/~siddhi/Quadratic_Gauss_Sum.pdf), [[RamMurtyPathak-GaussSum.pdf:file]]&rbrack;
+
+* Ramin Takloo-Bighash: *Gauss Sums, Quadratic Reciprocity, and the Jacobi Symbol*, in: *A Pythagorean Introduction to Number Theory*, Undergraduate Texts in Mathematics, Springer (2018) &lbrack;[doi:10.1007/978-3-030-02604-2_7](https://doi.org/10.1007/978-3-030-02604-2_7)&rbrack;
 
 * {#Taylor22} Laurence R. Taylor: *Gauss Sums in Algebra and Topology* &lbrack;[arXiv:2208.06319](https://arxiv.org/abs/2208.06319)&rbrack;
 
