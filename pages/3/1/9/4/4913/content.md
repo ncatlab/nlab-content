@@ -67,6 +67,9 @@ On [[categorical logic]]:
 
 * [[Steve Awodey]], [[Andrej Bauer]]: *Introduction to categorical logic*, lecture notes for a course at Carnegie Mellon University (January-April 2024) &lbrack;[webpage](https://awodey.github.io/catlog/notes/), 0:[pdf](https://awodey.github.io/catlog/notes/catlog0.pdf), 1:[pdf](https://awodey.github.io/catlog/notes/catlog1.pdf), 2:[pdf](https://awodey.github.io/catlog/notes/catlog2.pdf), 3:[pdf](https://awodey.github.io/catlog/notes/catlog3.pdf), 4:[pdf](https://awodey.github.io/catlog/notes/catlog4.pdf)&rbrack;
 
+A [[constructive mathematics|constructive]] model of [[homotopy type theory]] in a [[Quillen model category]] of equivariant [[cartesian cube category|cartesian]] [[cubical sets]] that [[classical mathematics|classically]] presents the usual [[homotopy theory]] of [[spaces]]:
+
+* [[Steve Awodey]], [[Evan Cavallo]], [[Thierry Coquand]], [[Emily Riehl]], [[Christian Sattler]], *The equivariant model structure on cartesian cubical sets* ([arXiv:2406.18497](https://arxiv.org/abs/2406.18497))
 
 ## Related entries
 
