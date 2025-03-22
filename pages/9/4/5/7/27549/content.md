@@ -70,6 +70,49 @@ The basic quadratic Gauss sum (eq:BasicQuadraticGaussSum) evaluates to:
 \end{proposition}
 The original proof is due to [Gauss 1811](#Gauss1811), an early alternative proof is due to [Dirichlet 1835](#Dirichlet35), reviewed in [Dirichlet 1871](#Dirichlet1871). Several other proofs have been given. Modern review includes [Doyle 2016  (1.1)](#Doyle16), [Ram Murty & Pathak 2017 Thm. 1.1](#MurtyPathak17), [Taylor 2022 Thm. 1.16](#Taylor22).
 
+More generally:
+
+\begin{proposition}\label{EvaluationOfQuadraticGaussSumWithFactor}
+**(evaluation of the quadratic Gauss sum with multiple exponents)**
+\linebreak
+For $k \in \mathbb{N}_{\gt 0}$ and $q \in \mathbb{Z}$ we have
+\[
+  \label{EvaluationFormulaOfQuadraticGaussSum}
+  \sum_{s = 0}^{k-1}
+  e^{
+    \tfrac{2 \pi \mathrm{i}}{k}
+    q
+    s^2
+  }
+  \;\;
+  =
+  \;\;
+  \left\{
+  \begin{array}{lcl}
+    (k \vert q)
+    \,
+    (1 + \mathrm{i}^q) \sqrt{k} &\vert& k = 0 \;mod\; 4
+    \\
+    (q \vert k)
+    \,
+    \sqrt{k} &\vert& k = 1 \;mod\; 4
+    \\
+    \phantom{(q \vert k)}
+    \;
+    0 &\vert& k = 2 \;mod\; 4
+    \\
+    (q \vert k)
+    \,
+    \mathrm{i} \sqrt{k} &\vert& k = 3 \;mod\; 4
+    \mathrlap{\,,}
+  \end{array}
+  \right.
+\]
+where "$(a \vert b)$" is the [[Jacobi symbol]].
+\end{proposition}
+(cf. [Doyle 2016  (1.1)](#Doyle16))
+
+
 ### Qudratic Gauss sum with halved exponents
  {#PropertiesOfQuadraticGaussSumWithHalvedExponents}
 
@@ -144,7 +187,7 @@ $$
     &\vert&
     k \in 2 \mathbb{N}_{\gt 0}
     \\
-    ? &\vert& k \in 2 \mathbb{N} + 1
+    \cdots &\vert& k \in 2 \mathbb{N} + 1
   \end{array}
   \right.
 $$
