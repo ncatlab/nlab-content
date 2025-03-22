@@ -10,6 +10,7 @@
 =--
 
 
+
 \tableofcontents
 
 ## Idea
@@ -35,8 +36,9 @@ A *quadratic Gauss sum* is a sum of square-powers of primitive [[roots of unity]
 
 A *generalized Gauss sum* is a variant of this expression, admitting other prefectors or powers of $s$ in the exponent.
 
-
 ## Properties
+
+### Ordinary quadratic Gauss sum
 
 \begin{proposition}\label{EvaluationOfQuadraticGaussSum}
 **(evaluation of the quadratic Gauss sum)**
@@ -54,26 +56,80 @@ The basic quadratic Gauss sum (eq:BasicQuadraticGaussSum) evaluates to:
   \;\;
   \left\{
   \begin{array}{ccl}
-    (1 + \mathrm{i}) \sqrt{k} &\vert& m = 0 \;mod\; 4
+    (1 + \mathrm{i}) \sqrt{k} &\vert& k = 0 \;mod\; 4
     \\
-    \sqrt{k} &\vert& m = 1 \;mod\; 4
+    \sqrt{k} &\vert& k = 1 \;mod\; 4
     \\
-    0 &\vert& m = 2 \;mod\; 4
+    0 &\vert& k = 2 \;mod\; 4
     \\
-    \mathrm{i} \sqrt{k} &\vert& m = 3 \;mod\; 4
+    \mathrm{i} \sqrt{k} &\vert& k = 3 \;mod\; 4
     \mathrlap{\,.}
   \end{array}
   \right.
 \]
 \end{proposition}
-The original proof is due to [Gauss 1811](#Gauss1811), an early alternative proof is due to [Dirichlet 1835](#Dirichlet35), reviewed in [Dirichlet 1871](#Dirichlet1871). Modern review includes [Doyle 2016  (1.1)](#Doyle16), [Ram Murty & Pathak 2017 Thm. 1.1](#MurtyPathak17), [Taylor 2022 Thm. 1.16](#Taylor22).
+The original proof is due to [Gauss 1811](#Gauss1811), an early alternative proof is due to [Dirichlet 1835](#Dirichlet35), reviewed in [Dirichlet 1871](#Dirichlet1871). Several other proofs have been given. Modern review includes [Doyle 2016  (1.1)](#Doyle16), [Ram Murty & Pathak 2017 Thm. 1.1](#MurtyPathak17), [Taylor 2022 Thm. 1.16](#Taylor22).
+
+### Qudratic Gauss sum with halved exponents
+ {#PropertiesOfQuadraticGaussSumWithHalvedExponents}
+
+The (normalized) quadratic Gauss sum with halved exponents is &lbrack;cf. [Harcos](#Harcos)&rbrack;
+
+\[
+  \label{QuadraticGaussSumWithHalvedExponents}
+  G(a,b,c)
+  \;\coloneqq\;
+  \tfrac{1}{\sqrt{c}}
+  \sum_{n=0}^{c-1}
+  \, 
+  e^{  
+    \tfrac{\pi \mathrm{i}}{c}
+    \big(
+      a n^2
+      +
+      2 b n 
+    \big)
+  }
+  \,,
+  \;\;\;\text{for}\;\;
+  a, c \in \mathbb{N}_{\gt 0}
+  ,\,
+  b \in \mathbb{Z}
+  ,\,
+  a c \in 2 \mathbb{N}
+  \,.
+\]
+
+
+\begin{proposition}
+\label{ReciprocityForQuadraticGaussSumWithHalvedExponents}
+**(reciprocity for quadratic Gauss sum with halved exponents)**
+\linebreak
+The quadratic Gauss sums $G(a,b,c)$ from (eq:QuadraticGaussSumWithHalvedExponents) satisfy
+$$
+  G(a,b,c)
+  \;=\;
+  e^{
+    \big(
+    \tfrac{\pi \mathrm{i}}{4}
+    -
+    \tfrac{b^2}{a c}
+    \big)
+  }
+  \;
+  \overline{G(c,b,a)}
+$$
+(where $\overline{(-)}$ denotes [[complex conjugation]]).
+\end{proposition}
+This is proven by [Harcos](#Harcos).
 
 \begin{proposition}
 \label{EvaluationOfQuadraticGaussSumWithHalvedExponents}
 **(evaluation of quadratic Gauss sum with halved exponents)**
 \linebreak
-For the variant of (eq:EvaluationFormulaOfQuadraticGaussSum) with half the usual exponents we have
+The quadratic Gauss sum with halved exponents (eq:QuadraticGaussSumWithHalvedExponents) evaluates to:
 $$
+  \tfrac{1}{\sqrt{k}}
   \sum_{s = 0}^{k-1}
   e^{
     \tfrac{\pi \mathrm{i}}{k}
@@ -84,7 +140,7 @@ $$
   \;\;
   \left\{
   \begin{array}{ccl}
-    \sqrt{k} \, e^{\pi \mathrm{i}/4}
+    e^{\pi \mathrm{i}/4}
     &\vert&
     k \in 2 \mathbb{N}_{\gt 0}
     \\
@@ -93,7 +149,131 @@ $$
   \right.
 $$
 \end{proposition}
-Proofs are given at [MO:a/4232289](https://math.stackexchange.com/a/4232289/58526) and [MO:a/489863](https://mathoverflow.net/a/489863/381).
+Proofs for the case $k \in 2\mathbb{N}$ are given in [MO:a/4232289](https://math.stackexchange.com/a/4232289/58526) using Prop. \ref{EvaluationOfQuadraticGaussSum} and in [MO:a/489863](https://mathoverflow.net/a/489863/381) using Prop. \ref{ReciprocityForQuadraticGaussSumWithHalvedExponents}.
+\begin{proof}
+  From Prop. \ref{ReciprocityForQuadraticGaussSumWithHalvedExponents} we immediately get
+$$
+  \begin{array}{ccl}
+  \tfrac{1}{\sqrt{k}}
+  \sum_{s = 0}^{k-1}
+  e^{
+    \tfrac{\pi \mathrm{i}}{k}
+    s^2
+  }
+  &\equiv&
+  G(k,0,1)
+  \\
+  &=&
+  e^{ \pi \mathrm{i}/4 } 
+  \,
+  \overline{G(1,0,k)}
+  \\
+  &\equiv&
+  e^{ \pi \mathrm{i}/4 } 
+  \mathrlap{\,.}
+  \end{array}
+$$
+
+Alternatively, using Prop. \ref{EvaluationOfQuadraticGaussSum}, we set 
+$
+  r \coloneqq 2/k
+$
+and compute as follows:
+$$
+  \begin{array}{ccl}
+    \sum_{s=0}^{k-1}
+    \,
+    e^{
+      \tfrac
+        { \pi \mathrm{i}}
+        { k }
+      s^2
+    }
+    &\equiv&
+    \sum_{s=0}^{2r-1}
+    \,
+    e^{
+      \tfrac
+        {2 \pi \mathrm{i}}
+        { 4r }
+      s^2
+    }
+    \\
+    &=&
+    \tfrac{1}{2}
+    \Big(
+      \sum_{s=0}^{2r-1}
+      \,+\,
+      \sum_{s=2r}^{4r-1}
+    \Big)
+    \,
+    e^{
+      \tfrac
+        {2 \pi \mathrm{i}}
+        { 4r }
+      s^2
+    }
+    \\
+    &=&
+    \tfrac{1}{2}
+    \sum_{s=0}^{4r-1}
+    \,
+    e^{
+      \tfrac
+        {2 \pi \mathrm{i}}
+        { 4r }
+      s^2
+    }
+    \\
+    &=&
+    \tfrac{1}{2}
+    (1 + \mathrm{i}) \, \sqrt{4r}
+    \\
+    &=&
+    e^{\pi \mathrm{i}/4} \, \sqrt{2r}
+    \\
+    &=& 
+    e^{\pi \mathrm{i}/4} \, \sqrt{k}
+    \,.
+  \end{array}
+$$
+Here the steps are, in order of appearance:
+
+1. definition of $r$,
+
+1. observing that the summands are $2r$-periodic, because 
+
+   $$
+     e^{
+       \tfrac{\pi \mathrm{i}}{2r}
+       (n + 2r)^2
+     }
+     \;=\;
+     e^{
+       \tfrac{\pi \mathrm{i}}{2r}
+       n^2
+     }
+     e^{
+       2\pi \mathrm{i}
+       ( n + r )
+     }    
+     \;=\;
+     e^{
+       \tfrac{\pi \mathrm{i}}{2r}
+       n^2
+     }
+     \,,
+   $$
+
+1. collecting summands,
+
+1. the classical evaluation formula (eq:EvaluationFormulaOfQuadraticGaussSum),
+
+1. rearranging factors,
+
+1. definition of $r$.
+
+\end{proof}
 
 
 ## Related concepts
@@ -131,7 +311,7 @@ Further discussion:
 
 * {#Doyle16} Greg Doyle: *Quadratic Form Gauss Sums*, PhD thesis, Ottawa (2016) &lbrack;[doi:10.22215/etd/2016-11457](https://doi.org/10.22215/etd/2016-11457), [[Doyle-QuadraticGaussSum.pdf:file]]&rbrack;
 
-* {#MurtyPathak17} M. Ram Murty, Siddhi Pathak: *Evaluation of the quadratic Gauss sum*, The Mathematics Student **86** 1-2 (2017) 139-150 &lbrack;[pdf](https://mast.queensu.ca/~murty/quadratic2.pdf), [pdf](https://www.cmi.ac.in/~siddhi/Quadratic_Gauss_Sum.pdf)&rbrack;
+* {#MurtyPathak17} M. Ram Murty, Siddhi Pathak: *Evaluation of the quadratic Gauss sum*, The Mathematics Student **86** 1-2 (2017) 139-150 &lbrack;[pdf](https://mast.queensu.ca/~murty/quadratic2.pdf), [pdf](https://www.cmi.ac.in/~siddhi/Quadratic_Gauss_Sum.pdf), [[RamMurtyPathak-GaussSum.pdf:file]]&rbrack;
 
 * {#Taylor22} Laurence R. Taylor: *Gauss Sums in Algebra and Topology* &lbrack;[arXiv:2208.06319](https://arxiv.org/abs/2208.06319)&rbrack;
 
@@ -150,9 +330,10 @@ See also:
 
 On quadratic Gauss sums with half the usual exponent:
 
-* Gergely Harcos: *The reciprocity of Gauss sums via the residue theorem* &lbrack;[pdf](https://users.renyi.hu/%7Egharcos/gauss_sums.pdf), [[Harcos-ReciprocityOfGaussSums.pdf:file]]&rbrack;
+* {#Harcos} Gergely Harcos: *The reciprocity of Gauss sums via the residue theorem* &lbrack;[pdf](https://users.renyi.hu/%7Egharcos/gauss_sums.pdf), [[Harcos-ReciprocityOfGaussSums.pdf:file]]&rbrack;
 
-* [MO:q/489862](https://mathoverflow.net/q/489862/381)
+\linebreak
+
 
 [[!redirects Gauss sums]]
 
