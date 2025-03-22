@@ -50,6 +50,10 @@ On [[synthetic Stone duality]]:
 
 * {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
 
+A [[constructive mathematics|constructive]] model of [[homotopy type theory]] in a [[Quillen model category]] of [[cubical sets]] that [[classical mathematics|classically]] presents the usual [[homotopy theory]] of [[spaces]]:
+
+* [[Steve Awodey]], [[Evan Cavallo]], [[Thierry Coquand]], [[Emily Riehl]], [[Christian Sattler]], *The equivariant model structure on cartesian cubical sets* ([arXiv:2406.18497](https://arxiv.org/abs/2406.18497))
+
 ## Related entries
 
 * [[calculus of constructions]]
