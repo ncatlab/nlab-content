@@ -10,13 +10,13 @@ On the [[Jones polynomial]] via [[Chern-Simons theory]]:
 
 On [[anyons]] and [[braid group statistics]] via [[algebraic quantum field theory]]:
 
-* {#FroehlichMarchetti88} [[Jürg Fröhlich]], [[Pieralberto Marchetti]], *Quantum field theory of anyons*, Lett. Math. Phys. **16** (1988) 347–358 (reprinted in [Wilczek 1990, p. 202-213](#Wilczek90)) $[$[doi:10.1007/BF00402043](https://doi.org/10.1007/BF00402043)$]$
+* {#FroehlichMarchetti88} [[Jürg Fröhlich]], [[Pieralberto Marchetti]], *Quantum field theory of anyons*, Lett. Math. Phys. **16** (1988) 347–358 (reprinted in [Wilczek 1990, p. 202-213](#Wilczek90)) &lbrack;[doi:10.1007/BF00402043](https://doi.org/10.1007/BF00402043)&rbrack;
 
 * [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], *Braid statistics in local quantum theory*, Reviews in Mathematical Physics, **2** 03 (1990) 251-353 $[$[doi:10.1142/S0129055X90000107](https://doi.org/10.1142/S0129055X90000107)$]$
 
 and making explicit the role of the [[configuration space of points]]:
 
-* {#FroehlichGabbianiMarchetti90} [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], [[Pieralberto Marchetti]], *Braid statistics in three-dimensional local quantum field theory*, in: H.C. Lee (ed.) *Physics, Geometry and Topology* NATO ASI Series, **238** Springer (1990)  $[$[doi:10.1007/978-1-4615-3802-8_2](https://doi.org/10.1007/978-1-4615-3802-8_2), [[FroehlichGabbianiMarchetti-BraidStatistics.pdf:file]]$]$
+* {#FroehlichGabbianiMarchetti90} [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], [[Pieralberto Marchetti]], *Braid statistics in three-dimensional local quantum field theory*, in: H.C. Lee (ed.) *Physics, Geometry and Topology* NATO ASI Series, **238** Springer (1990)  &lbrack;[doi:10.1007/978-1-4615-3802-8_2](https://doi.org/10.1007/978-1-4615-3802-8_2), [[FroehlichGabbianiMarchetti-BraidStatistics.pdf:file]]&rbrack;
 
 On [[abelian Chern-Simons theory]] as an [[effective field theory]] for the [[fractional quantum Hall effect]]:
 
@@ -28,6 +28,11 @@ On [[abelian Chern-Simons theory]] as an [[effective field theory]] for the [[fr
 On [[non-perturbative quantum field theory]]:
 
 * {#Froehlich92} [[Jürg Fröhlich]], _Non-perturbative quantum field theory -- Mathematical Aspects and Applications_, Advanced Series in Mathematical Physics, World Scientific 1992 ([doi:10.1142/1245](https://doi.org/10.1142/1245))
+
+
+Early discussion of [[conformal nets]]:
+
+* [[Fabrizio Gabbiani]], [[Jürg Fröhlich]]: _Operator algebras and conformal field theory_, Comm. Math. Phys., **155** 3 (1993) 569–640 &lbrack;[doi:10.1007/BF02096729](https://doi.org/10.1007/BF02096729)&rbrack;
 
 On [[supersymmetric quantum mechanics]] from the point of view of [[spectral geometry]] ("[[noncommutative geometry]]"):
 
