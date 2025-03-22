@@ -9,6 +9,12 @@ On [[anyons]] and [[braid group statistics]] via [[algebraic quantum field theor
 
 and making explicit the role of the [[configuration space of points]]:
 
-* {#FroehlichGabbianiMarchetti90} [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], [[Pieralberto Marchetti]], *Braid statistics in three-dimensional local quantum field theory*, in: H.C. Lee (ed.) *Physics, Geometry and Topology* NATO ASI Series, **238** Springer (1990)  $[$[doi:10.1007/978-1-4615-3802-8_2](https://doi.org/10.1007/978-1-4615-3802-8_2), [[FroehlichGabbianiMarchetti-BraidStatistics.pdf:file]]$]$
+* {#FroehlichGabbianiMarchetti90} [[Jürg Fröhlich]], [[Fabrizio Gabbiani]], [[Pieralberto Marchetti]], *Braid statistics in three-dimensional local quantum field theory*, in: H.C. Lee (ed.) *Physics, Geometry and Topology* NATO ASI Series, **238** Springer (1990)  &lbrack;[doi:10.1007/978-1-4615-3802-8_2](https://doi.org/10.1007/978-1-4615-3802-8_2), [[FroehlichGabbianiMarchetti-BraidStatistics.pdf:file]]&rbrack;
+
+
+Early discussion of [[conformal nets]]:
+
+* [[Fabrizio Gabbiani]], [[Jürg Fröhlich]]: _Operator algebras and conformal field theory_, Comm. Math. Phys., **155** 3 (1993) 569–640 &lbrack;[doi:10.1007/BF02096729](https://doi.org/10.1007/BF02096729)&rbrack;
+
 
 category: people
