@@ -101,7 +101,9 @@ On formalization of [[infinity-cosmos|$\infty$-cosmoi]] in the [[proof assistant
 
 * [[Emily Riehl]]: *The $\infty$-cosmos project: formalizing 1-, 2-, $V$-, and $\infty$-category theory*, talk at *[Lean Together 2025](https://leanprover-community.github.io/lt2025/)* &lbrack;video:[YT](https://youtu.be/pV6BIImkToU)&rbrack;
 
+A [[constructive mathematics|constructive]] model of [[homotopy type theory]] in a [[Quillen model category]] of [[cubical sets]] that [[classical mathematics|classically]] presents the usual [[homotopy theory]] of [[spaces]]:
 
+* [[Steve Awodey]], [[Evan Cavallo]], [[Thierry Coquand]], [[Emily Riehl]], [[Christian Sattler]], *The equivariant model structure on cartesian cubical sets* ([arXiv:2406.18497](https://arxiv.org/abs/2406.18497))
 
 category: people
 
