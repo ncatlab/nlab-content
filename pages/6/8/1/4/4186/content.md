@@ -66,13 +66,15 @@ $$
 
 ## References
 
-Early references include
+### General
 
-* R. Brunetti, D. Guido, R. Longo, _Modular Structure and Duality in Conformal Quantum Field Theory_, Commun. Math. Phys. 156 (1993) 201–219, [arXiv](http://arxiv.org/abs/funct-an/9302008).
+Early references:
 
-* Fabrizio Gabbiani, [[Jürg Fröhlich]], _Operator algebras and conformal field theory_, Comm. Math. Phys., 155(3):569–640, 1993.
+* [[Romeo Brunetti]], [[Daniele Guido]], [[Roberto Longo]]: _Modular Structure and Duality in Conformal Quantum Field Theory_, Commun. Math. Phys. **156** (1993) 201–219 &lbrack;[arXiv:funct-an/9302008](http://arxiv.org/abs/funct-an/9302008), [doi:10.1007/BF02096738](https://doi.org/10.1007/BF02096738)&rbrack;
 
-### Fundamentals
+* [[Fabrizio Gabbiani]], [[Jürg Fröhlich]]: _Operator algebras and conformal field theory_, Comm. Math. Phys., **155** 3 (1993) 569–640 &lbrack;[doi:10.1007/BF02096729](https://doi.org/10.1007/BF02096729)&rbrack;
+
+Further discussion:
 
 * [[Roberto Longo]]: _Conformal Subnets and Intermediate Subfactors_, Commun. Math. Phys. **237** (2003) 7-30 &lbrack;[arXiv:0102196](http://arxiv.org/abs/math/0102196), [doi:10.1007/s00220-003-0814-8](https://doi.org/10.1007/s00220-003-0814-8)&rbrack;
 
