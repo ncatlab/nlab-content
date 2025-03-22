@@ -28,7 +28,7 @@ Binding four quarks: [[tetraquark]].
 
 ### Computation via lattice QCD
 
-Comparison of light hadron [[masses]] as seen in accelertator [[experiment]] and in [[lattice QCD]]-computer simulation (from [Fodor-Hoelbling 12](#FodorHoelbling12))
+Comparison of light hadron [[masses]] as seen in accelerator [[experiment]] and in [[lattice QCD]]-computer simulation (from [Fodor-Hoelbling 12](#FodorHoelbling12))
 
 <center>
 <img src="https://ncatlab.org/nlab/files/HadronMasses.jpg" width="490">
