@@ -1,9 +1,13 @@
 
 
-> This page is for developing preminary notes or making typographical experiments. It may be edited by anybody, anytime. At the same time, you don't need to delete other people's ongoing notes here in order to add your own. In any case, overwritten edits may always be recovered from the [page history](https://ncatlab.org/nlab/history/Sandbox).
+> This page is for developing preliminary notes or making typographical experiments, etc. It may be edited by anybody, anytime. But you don't necessarily need to delete other people's ongoing notes here in order to add your own. In any case, overwritten edits may always be recovered from the [page history](https://ncatlab.org/nlab/history/Sandbox).
 
 
 ***
+
+**Extension of irreps of normal subgroups**
+
+* [[I. Martin Isaacs]]: Thm. 11.7 in: *Character theory of finite groups*, Academic Press, New York (1976) &lbrack;[ISBN:978-0-8218-4229-4](https://bookstore.ams.org/view?ProductCode=CHEL/359.H)&rbrack;
 
 * Peter Schmid: *Extending irreducible representations of normal subgroups*, Journal of Algebra **94** 1 (1985) 30-51 \[<a href="https://doi.org/10.1016/0021-8693(85)90203-0">doi:10.1016/0021-8693(85)90203-0</a>\]
 
