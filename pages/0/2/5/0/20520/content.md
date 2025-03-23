@@ -17,7 +17,7 @@
 ## Idea
  {#Idea}
 
-By analogy with [[graded algebra]], an **$\mathcal{M}$-graded monad** in a category $\mathcal{C}$ for a [[monoidal category]], $(\mathcal{M}, \otimes, I)$, is a [[lax monoidal functor]] from $\mathcal{M}$ to the [[endofunctor|endo]]-[[functor category]] of $\mathcal{C}$ (that whose [[monoid objects]] are [[monads]] on $\mathcal{C}$): 
+By analogy with the concept of a [[graded algebra]], an **$\mathcal{M}$-graded monad** in a category $\mathcal{C}$ for a [[monoidal category]] $(\mathcal{M}, \otimes, I)$ is a [[lax monoidal functor]] from $\mathcal{M}$ to the [[endofunctor|endo]][[functor category]] of $\mathcal{C}$ (whose [[monoid objects]] are [[monads]] on $\mathcal{C}$): 
 
 $$
   (\mathcal{M}, \otimes, I) 
