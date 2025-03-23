@@ -61,9 +61,9 @@ For $k \in \mathbb{N}_{\gt 0}$, let $\zeta$ be a $k$th root of unity in a [[fiel
     \,.
   $$
 \end{proof}
-For variants of the expression (eq:SumOfPowersOfRootOfUnity) see at *[[Gauss sum]]*.
+This may be understood as expressing the [[discrete Fourier transform]] of the [[Kronecker delta]]. For more subtle variants of the expression (eq:SumOfPowersOfRootOfUnity) see at *[[Gauss sum]]*.
 
-
+\linebreak
 
 
 In a [[field]] $k$, a [[torsion subgroup|torsion]] element of the multiplicative group $k^\ast$ is a [[root of unity]] by definition. Moreover we have the following useful result:
