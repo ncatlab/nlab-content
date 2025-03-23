@@ -145,3 +145,7 @@ The induced model structures and their properties on [[algebras over operads]] a
 
 [[!redirects E-∞-algebra]]
 [[!redirects E-∞-algebras]]
+
+[[!redirects E-infinity monoid]]
+[[!redirects E-infinity monoids]]
+
