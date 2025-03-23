@@ -15,8 +15,6 @@
 
 ## References
 
-* Huijun Fan, Tyler Jarvis, Yongbin Ruan, _A Mathematical Theory of the Gauged Linear Sigma Model_ ([arXiv:1506.02109](https://arxiv.org/abs/1506.02109))
-
 * Huijun Fan, Tyler Jarvis, [[Yongbin Ruan]], _A Mathematical Theory of the Gauged Linear Sigma Model_ ([arXiv:1506.02109](https://arxiv.org/abs/1506.02109))
 
 
