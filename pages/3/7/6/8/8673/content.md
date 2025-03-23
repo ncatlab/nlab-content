@@ -67,17 +67,17 @@ Every finite abelian group is the [[direct sum of abelian groups|direct sum]] of
 
 =--
 
-See for instance ([Sullivan](#Sullivan)).
+See for instance [Navarro 2003](#Navarro03), [Sullivan 2003](#Sullivan).
 
 ## References
 
 A new proof of the [[fundamental theorem of finite abelian groups]] was given in 
 
-* {#Navarro03} Gabriel Navarro, _On the fundamental theorem of finite abelian groups_, Amer. Math. Monthly, February 2003
+* {#Navarro03} [[Gabriel Navarro]]: _On the fundamental theorem of finite abelian groups_, Amer. Math. Monthly **110** 2 (2003) &lbrack;[doi:10.1080/00029890.2003.11919951](https://doi.org/10.1080/00029890.2003.11919951)&rbrack;
 
 reviewed in
 
-* {#Sullivan} John Sullivan, _Classification of finite abelian groups_ ([pdf](http://www.isama.org/jms/m317/handouts/finabel.pdf))
+* {#Sullivan03} John Sullivan: _Classification of finite abelian groups_ lecture notes (2003) &lbrack;[[Sullivan-FiniteAbGroups.pdf:file]]&rbrack;
  
 
 [[!redirects finite abelian groups]]
