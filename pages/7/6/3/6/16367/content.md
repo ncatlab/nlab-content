@@ -126,7 +126,7 @@ the Quillen adjunction between $A$-monoids and $B$-monoids induced by the morphi
 
 * {#LurieHA} [[Jacob Lurie]], _[[Higher Algebra]]_.
 
-* {#PS14} [[Dmitri Pavlov]] and [[Jakob Scholbach]], _Admissibility and rectification of colored symmetric operads_, [arXiv:1410.5675](http://arxiv.org/abs/1410.5675).
+* {#PS14} [[Dmitri Pavlov]], [[Jakob Scholbach]]: _Admissibility and rectification of colored symmetric operads_, Journal of Topology **11** 3 (2018) 559-601 &lbrack;[arXiv:1410.5675](http://arxiv.org/abs/1410.5675), [doi:10.1112/topo.12008](https://doi.org/10.1112/topo.12008)&rbrack;
 
 [[!redirects commutative monoids in a symmetric monoidal model category]]
 
