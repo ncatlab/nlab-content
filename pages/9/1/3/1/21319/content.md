@@ -22,10 +22,10 @@
 
 ## Idea
 
-A **hypersheaf** is a [[presheaf]] satisfying [[descent]] with respect to all [[hypercovers]].
+A **hypersheaf** is a [[presheaf]] satisfying [[descent]] with respect to all [[hypercover|hypercovers]].
 
-Hypersheaves are precisely the local objects in the injective or projective local model structure on [[simplicial presheaves]] or [[simplicial sheaves]],
-as originally defined by Joyal and Jardine.
+Hypersheaves are precisely the local objects in the injective or projective local model structure on [[simplicial presheaf|simplicial presheaves]] or [[simplicial sheaf|simplicial sheaves]],
+as originally defined by Joyal and Jardine, i.e. the objects of the [[hypercompletion]] of the [[(infinity,1)-category of (infinity,1)-sheaves|(∞.1)-topos of (∞,1)-sheaves]].
 
 Being a hypersheaf is a stronger property than being an [[(∞,1)-sheaf]].  The latter property is also known as __Čech descent__ and the difference between the two was established in [Dugger–Hollander–Isaksen](#DHI).
 
