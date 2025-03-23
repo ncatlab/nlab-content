@@ -182,6 +182,8 @@ for [[finite groups]]:
 
 * Caroline Gruson, Vera Serganova, *From Finite Groups to Quivers via Algebras -- A Journey Through Representation Theory*, Springer (2018) &lbrack;[doi:10.1007/978-3-319-98271-7](https://doi.org/10.1007/978-3-319-98271-7)&rbrack;
 
+* [[Gabriel Navarro]]: *Character Theory and the McKay Conjecture*, Cambridge University Press (2018) &lbrack;[doi:10.1017/9781108552790](https://doi.org/10.1017/9781108552790)&rbrack;
+
 and more generally for [[compact Lie groups]]:
 
 * [[Tammo tom Dieck]], [[Theodor Bröcker]], *Representations of compact Lie groups*, Springer (1985) &lbrack;[doi:10.1007/978-3-662-12918-0](https://link.springer.com/book/10.1007/978-3-662-12918-0)&rbrack;
