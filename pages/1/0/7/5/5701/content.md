@@ -1,5 +1,9 @@
 
-* [website](http://www.physics.ucsb.edu/~gukov)
+* [personal page](http://theory.caltech.edu/~gukov/)
+
+* [Wikipedia entry](https://en.m.wikipedia.org/wiki/Sergei_Gukov)
+
+* [inSpire page](https://inspirehep.net/authors/1007266)
 
 ## Selected writings
 
