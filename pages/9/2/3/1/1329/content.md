@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _hypercompletion_ ([Lurie](#Lurie)) or _$t$-completion_ ([Rezk](#Rezk), [To&#235;nVezzosi](#ToenVezzosi)) of an [[(∞,1)-topos]] of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-sheaves]] is a further localization/[[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-sheafification]] which corresponds to retaining only those [[(∞,1)-sheaves]] which satisfy [[descent]] with respect to all [[hypercover]]s.
+The _hypercompletion_ ([Lurie](#Lurie)) or _$t$-completion_ ([Rezk](#Rezk), [To&#235;nVezzosi](#ToenVezzosi)) of an [[(∞,1)-topos]] of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-sheaves]] is a further localization/[[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-sheafification]] which corresponds to retaining only those [[(∞,1)-sheaves]] which satisfy [[descent]] with respect to all [[hypercover|hypercovers]] (the [[hypersheaf|hypersheaves]]).
 
 ## Definition
 
