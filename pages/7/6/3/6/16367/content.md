@@ -95,20 +95,16 @@ Since the [[model category of algebras over an operad]] over the [[E-infinity op
 The following cases are particularly interesting.
 
 * Rectification holds in the [[model category]] of [[symmetric spectra]].
+
 * It does not hold in the [[model category]] of [[simplicial sets]] or in the [[model category]] of [[simplicial abelian groups]].
 
-See ([Lurie](#LurieHA), Theorem 4.5.4.7) for sufficient conditions for rectification to hold.
-See also ([White 14](#White14), Paragraph 4.2) for more discussion.
+See [Lurie](#LurieHA) Theorem 4.5.4.7 for sufficient conditions for rectification to hold.
+See also [White 14](#White14) Paragraph 4.2 for more discussion.
 
-A general rectification criterion for [[symmetric monoidal model categories]] is formulated in [PS 14](#PS14), Proposition&#160;10.1.2 and Theorem&#160;9.3.6.
-It says that given a [[tractable]] symmetric monoidal model category&#160;that satisfies a certain
-compact generatedness assumption
-with a morphism of [[admissible operads]] $A\to B$
-(e.g., $A=E_\infty$, $B=Comm$),
-the Quillen adjunction between $A$-monoids and $B$-monoids induced by the morphism
-of operads $A\to B$ is a Quillen equivalence
-if and only if for any cofibration&#160;$s$ and any $n\ge0$
-the morphism $(A_n\to B_n)\wedge_{\Sigma_n}s^{\wedge n}$ is a weak equivalence, where $\wedge$ denotes the [[pushout product]] with respect to the monoidal structure.
+A general rectification criterion for [[symmetric monoidal model categories]] is formulated in [PS 14](#PS14), Proposition 10.1.2 and Theorem 9.3.6.
+It says that given a [[tractable model category|tractable]] symmetric [[monoidal model category]] that satisfies a certain
+compact generatedness assumption with a morphism of [[admissible operads]] $A\to B$ (e.g., $A=E_\infty$, $B=Comm$),
+the Quillen adjunction between $A$-monoids and $B$-monoids induced by the morphism of operads $A\to B$ is a Quillen equivalence if and only if for any cofibration&#160;$s$ and any $n\ge0$ the morphism $(A_n\to B_n)\wedge_{\Sigma_n}s^{\wedge n}$ is a weak equivalence, where $\wedge$ denotes the [[pushout product]] with respect to the monoidal structure.
 
 ## Related concepts
 
