@@ -87,7 +87,7 @@ If $C$ is further [[simplicial model category|simplicial]] (resp. [[combinatoria
 
 See ([White 14](#White14), Theorem 3.2).
 
-## Rectification
+## Rectification {#Rectification}
 
 Rectification of $E_\infty$-monoids is the question of whether the [[weak equivalence]] between the [[operads]] [[Comm]] and the [[E-infinity operad]] induces a [[Quillen equivalence]] on the [[model category of algebras over an operad|model categories of algebras]].
 Since the [[model category of algebras over an operad]] over the [[E-infinity operad]] is a presentation of the [[(infinity,1)-category]] of [[commutative monoids in a symmetric monoidal (infinity,1)-category]], rectification for $C$ is equivalent to saying that the [[(infinity,1)-category]] presented by the model structure on [[commutative monoids]] is equivalent to the [[(infinity,1)-category]] of [[commutative monoids in a symmetric monoidal (infinity,1)-category]] in the [[symmetric monoidal (infinity,1)-category]] presented by $C$.
