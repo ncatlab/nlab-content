@@ -1,9 +1,19 @@
 
 
-> This page may be edited by anybody, anytime. (To recover edits, see the [page history](https://ncatlab.org/nlab/history/Sandbox).)
+> This page is for developing preminary notes or making typographical experiments. It may be edited by anybody, anytime. At the same time, you don't need to delete other people's ongoing notes here in order to add your own. In any case, overwritten edits may always be recovered from the [page history](https://ncatlab.org/nlab/history/Sandbox).
 
 
 ***
+
+* Peter Schmid: *Extending irreducible representations of normal subgroups*, Journal of Algebra **94** 1 (1985) 30-51 \[<a href="https://doi.org/10.1016/0021-8693(85)90203-0">doi:10.1016/0021-8693(85)90203-0</a>\]
+
+* *Extending characters from normal subgroups*, in *Topics in Algebra*, Lecture Notes in Mathematics **697** (2006) 1–7 &lbrack;[doi:10.1007/BFb0103119](https://doi.org/10.1007/BFb0103119)&rbrack;
+
+* G. Karpilovsky: *On extension of characters from normal subgroups*, Proceedings of the Edinburgh Mathematical Society **27** (1984) 7-9 &lbrack;[doi:10.1017/S0013091500022057](https://doi.org/10.1017/S0013091500022057), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B051526AE20F219C468AFBF1D9546E43/S0013091500022057a.pdf/on_extension_of_characters_from_normal_subgroups.pdf)&rbrack;
+
+* Qiang Huang: *Extension of irreducible characters from normal subgroups*, Linear and Multilinear Algebra **27** 2 (1990) &lbrack;[doi;10.1080/03081089008818001](https://doi.org/10.1080/03081089008818001)&rbrack;
+
+
 
 \begin{tikzcd}[sep=5pt]
   _k \backslash ^q 
