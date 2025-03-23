@@ -57,7 +57,7 @@ Specifically, for each natural number $d$ dividing $n$ it contains $\mathbb{Z}/d
 
 =--
 
-(e.g. [Roman 12, theorem 13.4](#Roman12), [Navarro 03](#Navarro03)) for cyclic groups e.g. ([Aluffi 09, pages 83-84](#Aluffi09))
+(e.g. [Roman 12, theorem 13.4](#Roman12), [Navarro 03](#Navarro03)) 
 
 This is a special case of the _[[ structure theorem for finitely generated modules over a principal ideal domain]]_.
 
@@ -409,6 +409,10 @@ $$
 
 =--
 
+## Related concepts
+
+* [[finite abelian group]]
+
 
 ## References
 
@@ -420,17 +424,17 @@ Textbook accounts:
 
 A new proof of the [[fundamental theorem of finite abelian groups]] was given in 
 
-* {#Navarro03} Gabriel Navarro, _On the fundamental theorem of finite abelian groups_, Amer. Math. Monthly, February 2003
+* {#Navarro03} [[Gabriel Navarro]]: _On the fundamental theorem of finite abelian groups_, Amer. Math. Monthly **110** 2 (2003) &lbrack;[doi:10.1080/00029890.2003.11919951](https://doi.org/10.1080/00029890.2003.11919951)&rbrack;
 
 reviewed in
 
-* {#Sullivan} John Sullivan, _Classification of finite abelian groups_ ([pdf](http://www.isama.org/jms/m317/handouts/finabel.pdf))
+* {#Sullivan} John Sullivan: _Classification of finite abelian groups_ lecture notes (2003) &lbrack;[[Sullivan-FiniteAbGroups.pdf:file]]&rbrack;
+
 
 See also
 
 * Wikipedia, _[Finitely generated abelian group -- Primary decomposition](https://en.wikipedia.org/wiki/Finitely_generated_abelian_group#Primary_decomposition)_
 
-* {#Aluffi09} Paolo Aluffi, _Algebra Chapter 0_, 2009 ([pdf](https://zr9558.files.wordpress.com/2013/11/algebra-chapter-0-aluffi.pdf))
 
 
 [[!redirects fundamental theorem of finite abelian groups]]
