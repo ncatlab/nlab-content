@@ -28,7 +28,7 @@ In [[perturbative string theory]] [[scattering amplitudes]] are defined as in [[
 
 <img src="https://ncatlab.org/nlab/files/StringFeynmanDiagrams.png" width="300">
 
-> graphics grabbed from [Jurke 10](https://benjaminjurke.com/content/articles/2010/string-theory/)
+> graphics grabbed from [Penrose 04](https://en.m.wikipedia.org/wiki/The_Road_to_Reality) [Jurke 10](https://benjaminjurke.com/content/articles/2010/string-theory/) 
 
 
 ## Properties
