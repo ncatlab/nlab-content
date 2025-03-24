@@ -95,6 +95,11 @@ which lists (on [p. 112](https://arxiv.org/pdf/1912.00521.pdf#page=113)) among o
 
 > Are there topological invariants of the open string star algebra representing D-brane charges?
 
+See also:
+
+* E. Aldo Arroyo: *A New Real Tachyon Vacuum Solution in Cubic Superstring Field Theory* &lbrack;[arXiv:2503.16656](https://arxiv.org/abs/2503.16656)&rbrack;
+
+
 
 
 ### For bosonic strings
