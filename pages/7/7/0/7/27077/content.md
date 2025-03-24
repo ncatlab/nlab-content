@@ -21,6 +21,10 @@ and in [[graphene]]:
 
 Review of the [[fractional quantum Hall effect]]:
 
+
+* [[Horst L. Störmer]]: *Pictures of the Fractional Quantized Hall Effect*, in: *Heterojunctions and Semiconductor Superlattices*, Springer (1986) 50-63 &lbrack;[doi:10.1007/978-3-642-71010-0_4](https://doi.org/10.1007/978-3-642-71010-0_4)&rbrack;
+
+
 * [[Horst L. Stormer]]: *Nobel Lecture: The fractional quantum Hall effect*, Rev. Mod. Phys. **71** (1999) 875 \[<a href="https://doi.org/10.1103/RevModPhys.71.875">doi:10.1103/RevModPhys.71.875</a>\]
 
 
