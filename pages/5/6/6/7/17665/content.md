@@ -30,6 +30,13 @@ With an eye towards [[quantum noise]];
 
 * [[Stéphane Attal]], *Stochastic Processes*, Lecture 4 in:  *Lectures on Quantum Noises* &lbrack;[pdf](http://math.univ-lyon1.fr/~attal/Stochastic_Processes.pdf), [webpage](http://math.univ-lyon1.fr/~attal/chapters.html)&rbrack;
 
+On some kind of [[supersymmetry]] in stochastic PDEs:
+
+* Igor V. Ovchinnikov: *Ubiquitous order known as chaos* &lbrack;[arXiv:2503.17157](https://arxiv.org/abs/2503.17157)&rbrack;
+
+
+
+
 
 [[!redirects stochastic processes]]
 
