@@ -66,6 +66,8 @@ On [[M2-M5-brane bound states]]:
 
 * [[Iosif Bena]], Soumangsu Chakraborty, [[Dimitrios Toulikas]], [[Nicholas P. Warner]], *The M2-M5 Mohawk* &lbrack;[arXiv:2407.01665](https://arxiv.org/abs/2407.01665)&rbrack;
 
+On [[black holes in string theory]] via [[supergravity]] solutions (fuzzballs):
 
+* [[Iosif Bena]], [[Nicholas P. Warner]]: *Microstate Geometries* &lbrack;[arXiv:2503.17310](https://arxiv.org/abs/2503.17310)&rbrack;
 
 category: people
