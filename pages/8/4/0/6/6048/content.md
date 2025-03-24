@@ -310,13 +310,14 @@ Further solutions:
 
 * A. M. Ghezelbash, *M-Branes on Minimal Surfaces* &lbrack;[arXiv:2407.07855](https://arxiv.org/abs/2407.07855)&rbrack;
 
+See also:
+
+* Fridrik Freyr Gautason, Jesse van Muiden: *Localisation of the M2-brane* &lbrack;[arXiv:2503.16597](https://arxiv.org/abs/2503.16597)&rbrack;
 
 
-Discussion of $G_7$-[[C-field flux quantization]] in the $G_4$-fluxed case:
 
- {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Prop. 4.31 of: _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_ ([arXiv:1904.10207](https://arxiv.org/abs/1904.10207))
 
-* {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of: _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|Twisted Cohomotopy implies level quantization of the full 6d Wess-Zumino-term of the M5-brane]]_ ([arXiv:1906.07417](https://arxiv.org/abs/1906.07417))
+
 
 
 ### In $AdS_4/CFT_3$
