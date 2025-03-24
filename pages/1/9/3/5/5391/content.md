@@ -9,7 +9,8 @@
 =--
 =--
 
-> This entry is about two senses of _extension_: extension of morphisms, [[formal dual|dual]] to [[lift]], and extension of objects ([[algebra extension]]).  In [[foundations]] and [[formal logic]]  there is also [[extension (semantics)]] and [[context extension]].
+> This entry is about two senses of _extension_: extension of *[[morphisms]]*, [[formal dual|dual]] to [[lift]], and extension of [[objects]] ([[algebra extension]]).  In [[foundations]] and [[formal logic]]  there is also *[[extension (semantics)|semantical extension]]* and *[[context extension]]*.
+
 
 #Contents#
 * table of contents
@@ -18,10 +19,43 @@
 ## Idea
 
 ### Extension of morphisms
+ {#ExtensionOfMorphisms}
 
-An **extension** of a morphism $f: A\to Y$ along a [[monomorphism]] $i: A\hookrightarrow X$ is a morphism $\tilde{f}:X\to Y$ such that $\tilde{f}\circ i = f$. One sometimes, extends along more general morphisms than monomorphisms. 
+An **extension** 
 
-The dual problem is the problem of [[lifting]] a morphism $f: Y\to B$ through an epimorphism (or more general map) $p:X\to B$, giving a morphism $\tilde{f}: Y\to X$ such that $f = p\circ\tilde{f}$.
+* of a [[morphism]] $f: A\to Y$ 
+
+* along a morphism $i \colon A\hookrightarrow X$ 
+
+  (often assumed to be a [[monomorphism]]) 
+
+is 
+
+* a morphism $\tilde{f} \colon X\to Y$ 
+
+* such that $\tilde{f}\circ i = f$, 
+
+hence a completion of the [[span]] to a [[commuting diagram]] like this:
+
+\begin{tikzcd}
+  A
+  \ar[r, "{ f }"]
+  \ar[d, "{ i }"]
+  &
+  Y
+  \\
+  B
+  \ar[
+    ur, 
+    dashed,
+    "{ \widetilde f }"{swap}
+  ]
+\end{tikzcd}
+
+
+The [[formal duality|dual]] problem is that of [[lifting]] a morphism $f \colon Y\to B$ through an ([[epimorphism|epi]])morphism $p \colon X\to B$, giving a morphism $\tilde{f}: Y\to X$ such that $f = p\circ\tilde{f}$.
+
+
 
 ### Extension of an object by another object 
 
@@ -64,10 +98,13 @@ In something like the [[dual]] sense of the above, *extension* is also used to i
 
 ### Extension of functions
 
-
 The [[Tietze extension theorem]] is about *extensions of continuous maps* from a subspace to a normal toplogical space. 
 
 [[!include extension theorems -- table]]
+
+### Extension of representations
+
+See at *[[extended representation]]*,
 
 ### Group extensions
 
