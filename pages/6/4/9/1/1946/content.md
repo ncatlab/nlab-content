@@ -594,7 +594,7 @@ By the discussion at [[homotopy colimit]], the fat simplex is cofibrant in the p
 
 =--
 
-#### With values in an addive model category
+#### With values in an additive model category
  {#WithValuesInAnAbelianCategory}
 
 In this section, let $\mathcal{A}$ be an [[additive category|additive]] [[model category]] in which all [[retractions]] exhibit [[direct sums]] (such as in an [[abelian category]], such as in a [[model structure on chain complexes]]).
