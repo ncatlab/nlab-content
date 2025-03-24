@@ -90,6 +90,9 @@ Review:
 
 * {#BermanBlair06} [[David Berman]], [[Chris D. A. Blair]], _The Geometry, Branes and Applications of Exceptional Field Theory_,  International Journal of Modern Physics A **35** 30 (2020) 2030014  &lbrack;[arXiv:2006.09777](http://arxiv.org/abs/2006.09777), [doi:10.1142/S0217751X20300148](https://doi.org/10.1142/S0217751X20300148)&rbrack;
 
+* [[Henning Samtleben]]: *Exceptional field theories*, in *Half a century of Supergravity*, Cambridge University Press &lbrack;[arXiv:2503.16947](https://arxiv.org/abs/2503.16947)&rbrack;
+
+
 
 Review for [[KK-compactification]] to [[5d supergravity]], hence for [[E6]]-[[U-duality]], includes
 
