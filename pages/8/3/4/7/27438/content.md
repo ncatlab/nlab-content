@@ -18,7 +18,7 @@ Gallium arsenide ($GaAs$) is a [[semiconductor|semiconducting]] [[crystal|crysta
 
 ## Properties
 
-[[fractional quantum Hall effect|Fractional quantum Hall systems]] based on gallium arsenide have been shown to exhibit [[anyon|anyonic]] [[quasi-particles]] (see references [there](braid+group+statistics#ExperimentalRealization)).
+[[fractional quantum Hall effect|Fractional quantum Hall systems]] based on gallium arsenide [heterostructures](semiconductor#ReferencesHeterostructures) have been shown to exhibit [[anyon|anyonic]] [[quasi-particles]] (see references [there](quantum+Hall+effect#ObservationOfAnyonsInFQH)).
 
 
 ## References
@@ -29,5 +29,7 @@ See also:
 
 
 [[!redirects GaAs]]
+
+[[!redirects gallium-arsenide]]
 
 
