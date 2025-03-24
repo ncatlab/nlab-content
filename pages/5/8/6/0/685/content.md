@@ -43,6 +43,10 @@ where $[D,Cat]$ denotes the 2-category of [[2-functors]] $D\to Cat$, [[pseudonat
 
 A 2-limit in the [[opposite 2-category]] $K^{op}$ is called a **2-colimit** in $K$.  Everything below applies dually to 2-colimits, the higher analogues of [[colimits]].  (But somebody might want to make a separate page that gives appropriate examples of these.)
 
+It is also possible to require the weight $J$ to go from $D^{op}$ to $Cat$ and the $2$-functor $F$ to go from $D$ to $K$ when defining $2$-colimits, in this case a $J$-weighted $2$-colimit of $F$ is an object $C$ equipped with a pseudo-natural equivalence:
+
+$$ K(C,X) \simeq [D^{op},Cat](J,K(F-,X)). $$
+
 
 ### Strictness and terminology 
  {#Terminology}
