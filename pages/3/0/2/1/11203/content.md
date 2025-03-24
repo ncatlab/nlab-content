@@ -85,6 +85,13 @@ Argument that superconductors are actually [[topological order|topologically ord
 
 * [[Thors Hans Hansson]], Vadim Oganesyan, S. L. Sondhi, *Superconductors are topologically ordered*, Annals Of Physics **313** 497 (2004) &lbrack;[arXiv:cond-mat/0404327](https://arxiv.org/abs/cond-mat/0404327), [doi:10.1016/j.aop.2004.05.006](https://doi.org/10.1016/j.aop.2004.05.006)&rbrack;
 
+On doping [[semiconductors]] into superconductors:
+
+* E. Bustarret: *Superconductivity in doped semiconductors*, Physica C: Superconductivity and its Applications **514** (2015) 36-45 &lbrack;[doi:10.1016/j.physc.2015.02.021](https://doi.org/10.1016/j.physc.2015.02.021)&rbrack;
+
+
+
+
 ### Vortices and flux quantization
 
 Original articles:
