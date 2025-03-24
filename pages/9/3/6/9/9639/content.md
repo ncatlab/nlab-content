@@ -23,7 +23,7 @@
 
 In short:
 
-At sufficiently low temperature, [[quantum physics|quantum effects]] change the nature of the classical [[Hall effect]], in two ways:
+At sufficiently low [[temperature]], in effectively 2-dimensional [[electron]] systems (such as at [[semiconductor]] [heterojunctions](semiconductor#ReferencesHeterostructures)) [[quantum physics|quantum effects]] change the nature of the classical [[Hall effect]], in two ways:
 
 1. in the *integral* quantum Hall effect, quantization of the [[energy]] into *Landau levels* of electrons (that are circulating in a transverse [[magnetic field]] while confined to a plane) causes the [[Hall effect|Hall resistance]] --- which classically increases linearly with increasing external [[magnetic field]] --- to instead intermittently form constant "plateaus" as the Landau levels get "filled" by electron states,
 
@@ -474,6 +474,8 @@ The bulk/edge behaviour in a quantum Hall effect is is that of a [[topological i
 
 * [[spin Hall effect]], [[quantum spin Hall effect]]
 
+* [[quantum technology]]
+
 * [[braid group statistics]], [[anyon]]
 
 * [[topological insulator]]
@@ -560,6 +562,8 @@ Review of this theory behind the quantum Hall effect:
 
 Review and survey of the FQHE:
 
+* [[Horst L. Störmer]]: *Pictures of the Fractional Quantized Hall Effect*, in: *Heterojunctions and Semiconductor Superlattices*, Springer (1986) 50-63 &lbrack;[doi:10.1007/978-3-642-71010-0_4](https://doi.org/10.1007/978-3-642-71010-0_4)&rbrack;
+
 * {#Störmer99} [[Horst L. Störmer]]: *Nobel Lecture: The fractional quantum Hall effect*, Rev. Mod. Phys. **71** (1999) 875 \[<a href="https://doi.org/10.1103/RevModPhys.71.875">doi:10.1103/RevModPhys.71.875</a>\]
 
 * {#Laughlin99} [[Robert B. Laughlin]]: *Nobel Lecture: Fractional quantization*, Rev. Mod. Phys. **71** 4 (1999) 863 &lbrack;[doi:10.1103/RevModPhys.71.863](https://doi.org/10.1103/RevModPhys.71.863), [pdf](https://www.nobelprize.org/uploads/2018/06/laughlin-lecture.pdf)&rbrack;
@@ -574,7 +578,7 @@ Review and survey of the FQHE:
 
 * [[Tudor D. Stanescu]], *Effective theory of Abelian fractional quantum Hall liquids*, Section 6.2.1 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press (2020) &lbrack;[ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9781032126524)&rbrack;
 
-* Zlatko Papić, [[Ajit C. Balram]]: *Fractional quantum Hall effect in semiconductor systems*, Encyclopedia of Condensed Matter Physics 2nd ed {\bf 1} (2024) 285-307 \[<a href="https://doi.org/10.1016/B978-0-323-90800-9.00007-X">doi:10.1016/B978-0-323-90800-9.00007-X</a>, <a href="https://arxiv.org/abs/2205.03421">arXiv:2205.03421</a>\]
+* Zlatko Papić, [[Ajit C. Balram]]: *Fractional quantum Hall effect in semiconductor systems*, Encyclopedia of Condensed Matter Physics 2nd ed **1** (2024) 285-307 \[<a href="https://doi.org/10.1016/B978-0-323-90800-9.00007-X">doi:10.1016/B978-0-323-90800-9.00007-X</a>, <a href="https://arxiv.org/abs/2205.03421">arXiv:2205.03421</a>\]
 
 
 See also:
