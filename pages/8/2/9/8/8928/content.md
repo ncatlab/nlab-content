@@ -231,6 +231,9 @@ Discussion of [[black hole entropy]] of [[D2-D6 brane bound states]] as [[black 
 
 * [[Samir D. Mathur]], Madhur Mehta: *The Fuzzball Paradigm*, in *The Black Hole Information Paradox* &lbrack;[arXiv:2412.09495](https://arxiv.org/abs/2412.09495)&rbrack;
 
+See also:
+
+* [[Iosif Bena]], [[Nicholas P. Warner]]: *Microstate Geometries* &lbrack;[arXiv:2503.17310](https://arxiv.org/abs/2503.17310)&rbrack;
 
 
 
