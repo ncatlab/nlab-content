@@ -96,9 +96,11 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Stochastic versions of [[Gelfand duality]]: [Furber-Jacobs'15](#gelfand_furber) and [Parzygnat'17](#stoch_gelfand_parzygnat).
 
-* Probabilistic graphical models: a categorical study of Bayesian networks [Fong'12](#fong12), a d-separation criterion for Markov categories [Fritz-Klingler'22](#d-sep).
+* Probabilistic graphical models: a categorical study of Bayesian networks [Fong'12](#fong12), a d-separation criterion for Markov categories [Fritz-Klingler'22](#d-sep), a theory of Bayesian networks and Markov random fields [Lorenzin-Zanasi'25](#probabilistic_triangulation).
 
 * [[idempotent completion|Idempotent completion]] of [[BorelStoch]]: a new measure-theoretic result, with several structural consequences, proven in [FGLPS'23](#markov_supports).
+
+* [[imprecise probability|Imprecise probability]] in terms of graded monads and string diagrams: [LC-Staton'25](#imprecise_graded) and [Sarkis-Zanasi'25](#string_graded).
 
 * [[Kantorovich duality]] in terms of [[probability monads]]: [Perrone'18](#Perrone_thesis), [Fritz-Perrone'19](#FPKant), [Fritz-Perrone'20](#orderedkantorovich).
 
@@ -420,6 +422,10 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#entropy_diversity} Tom Leinster, _Entropy and Diversity_, Cambridge University Press, 2021. 
 
+* {#imprecise_graded} Jack Liell-Cock and [[Sam Staton]], _Compositional imprecise probability_, POPL 2025. ([arXiv](https://arxiv.org/abs/2405.09391))
+
+* {#probabilistic_triangulation} Antonio Lorenzin and [[Fabio Zanasi]], _An Algebraic Approach to Moralisation and Triangulation of Probabilistic Graphical Models_, 2025. ([arXiv](https://arxiv.org/abs/2503.11820))
+
 * {#wasserstein_algebras} Radu Mardare, [[Prakash Panangaden]], [[Gordon Plotkin]], _Free complete Wasserstein algebras_, LMCS 14, 2018. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/fcwa.pdf))
 
 * {#quantitative_reasoning} Radu Mardare, [[Prakash Panangaden]], [[Gordon Plotkin]], _Quantitative algebraic reasoning_, Proceedings of LICS, 2016. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/lics2016.pdf))
@@ -469,6 +475,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#independence} [[Alex Simpson]], _Category-theoretic structure for independence and conditional independence_, ENTCS, 2018. ([link](https://www.sciencedirect.com/science/article/pii/S1571066118300318))
 
 * {#atomic_sheaf} [[Alex Simpson]], _Equivalence and Conditional Independence in Atomic Sheaf Logid_, Proceedings of LICS, 2024. ([arXiv](https://arxiv.org/abs/2405.11073))
+
+* {#string_graded} Ralph Sarkis and [[Fabio Zanasi]], _String Diagram for Graded Monoidal Theories with an Application to Imprecise Probability_, 2025. ([arXiv](https://arxiv.org/abs/2501.18404))
 
 * {#definetti_ned} Sam Staton and Ned Summers, _Quantum de Finetti Theorems as Categorical Limits, and Limits of State Spaces of C*-algebras_, Proceedings of Quantum Physics and Logic, 2022. ([arXiv](https://arxiv.org/abs/2207.05832))
 
