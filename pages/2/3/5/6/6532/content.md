@@ -91,6 +91,12 @@ On [[holography]] and the [[BFSS matrix model]]:
 
 * Alfred Bovon, [[Henning Samtleben]], [[Dimitrios Tsimpis]]: *Holographic deformations of matrix models* &lbrack;[arXiv:2503.15954](https://arxiv.org/abs/2503.15954)&rbrack;
 
+On [[exceptional field theory]]:
+
+* [[Henning Samtleben]]: *Exceptional field theories*, in *Half a century of Supergravity*, Cambridge University Press &lbrack;[arXiv:2503.16947](https://arxiv.org/abs/2503.16947)&rbrack;
+
+
+
 
 ## Related entries
 
