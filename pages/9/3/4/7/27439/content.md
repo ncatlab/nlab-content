@@ -3,15 +3,14 @@
 ### Observation of anyons in fractional quantum Hall systems
  {#ObservationOfAnyonsInFQH}
 
-While the occurrence of [[anyon]]-excitations in the [[fractional quantum Hall effect]] is a robust theoretical prediction (see the references [above](#AnyonsInTheQuantumHallEffectReferences)), and while the fractional quantum Hall effect itself has long been established in [[experiment]], the actual observation of anyons in these systems is subtle:
+While the occurrence of [[anyon]]-excitations in the [[fractional quantum Hall effect]] is a robust theoretical prediction (see the references [above](#AnyonsInTheQuantumHallEffectReferences)), and while the fractional quantum Hall effect itself has long been established in [[experiment]], the actual observation of anyons in these systems is subtle.
 
 An early claim of the observation of non-abelian anyons seems to remain unconfirmed:
 
 * Sanghun An, P. Jiang, H. Choi, W. Kang, S. H. Simon, L. N. Pfeiffer, K. W. West, K. W. Baldwin, _Braiding of Abelian and Non-Abelian Anyons in the Fractional Quantum Hall Effect_ \[<a href="https://arxiv.org/abs/1112.3400">arXiv:1112.3400</a>\]
 
-The claimed observation of abelian anyons is more securely established:
 
-In [[gallium arsenide]] ($GaAs$) heterostructures:
+Observation in [[gallium arsenide]] ($GaAs$) [[semiconductor]] [heterostructures](semiconductor#ReferencesHeterostructures):
 
 * H. Bartolomei, et al.: *Fractional statistics in anyon collisions*, Science **368** 6487 (2020) 173-177  \[<a href="https://doi.org/10.1126/science.aaz5601">doi:10.1126/science.aaz5601</a>, [arXiv:2006.13157](https://arxiv.org/abs/2006.13157)\]
 
@@ -25,9 +24,14 @@ In [[gallium arsenide]] ($GaAs$) heterostructures:
 
 * [[James Nakamura]] et al.: *Fabry-Perot interferometry at the $\nu = 2/5$ fractional quantum Hall state*, Phys. Rev. X **13** (2023) 041012  \[<a href="https://doi.org/10.1103/PhysRevX.13.041012">doi:10.1103/PhysRevX.13.041012</a>, [arXiv:2304.12415](https://arxiv.org/abs/2304.12415)\]
 
-* P. Glidic et al.: *Signature of anyonic statistics in the integer quantum Hall regime*, Nature Commun. **15** 6578 (2024) 1 \[<a href="https://doi.org/10.1038/s41467-024-50820-0">doi:10.1038/s41467-024-50820-0</a>, [arXiv:2401.06069](https://arxiv.org/abs/2401.06069)\]
 
-and in [[graphene]] heterostructures:
+* M. Ruelle et al.: *Comparing fractional quantum Hall Laughlin and Jain topological orders with the anyon collider*, Physical Review X **13** (2023) 011031 \[<a href="https://doi.org/10.1103/PhysRevX.13.011031">doi:10.1103/PhysRevX.13.011031</a>, [arXiv:2210.01066](https://arxiv.org/abs/2210.01066)\]
+
+* [[Pierre Glidic]] et al: *Cross-Correlation Investigation of Anyon Statistics in the $\nu = 1/3$ and $2/5$ Fractional Quantum Hall States*, Phys. Rev. X **13** 011030 (2023) \[<a href="https://doi.org/10.1103/PhysRevX.13.011030">doi:10.1103/PhysRevX.13.011030</a>, [arXiv:2210.01054](https://arxiv.org/abs/2210.01054)\]
+
+* [[Pierre Glidic]] et al.: *Signature of anyonic statistics in the integer quantum Hall regime*, Nature Commun. **15** 6578 (2024) 1 \[<a href="https://doi.org/10.1038/s41467-024-50820-0">doi:10.1038/s41467-024-50820-0</a>, [arXiv:2401.06069](https://arxiv.org/abs/2401.06069)\]
+
+and in [[graphene]] [heterostructures](semiconductor#ReferencesHeterostructures):
 
 * Noah Samuelson et al.: *Anyonic statistics and slow quasiparticle dynamics in a graphene fractional quantum Hall interferometer* \[<a href="https://arxiv.org/abs/2403.19628">arXiv:2403.19628</a>\]
 
