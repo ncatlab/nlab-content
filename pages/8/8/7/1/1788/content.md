@@ -5,19 +5,6 @@
 
 ***
 
-**Extension of irreps of normal subgroups**
-
-* [[I. Martin Isaacs]]: Thm. 11.7 in: *Character theory of finite groups*, Academic Press, New York (1976) &lbrack;[ISBN:978-0-8218-4229-4](https://bookstore.ams.org/view?ProductCode=CHEL/359.H)&rbrack;
-
-* [[Gabriel Navarro]], sections 5 & 6 of: *Character Theory and the McKay Conjecture*, Cambridge University Press (2018) &lbrack;[doi:10.1017/9781108552790](https://doi.org/10.1017/9781108552790)&rbrack;
-
-* Peter Schmid: *Extending irreducible representations of normal subgroups*, Journal of Algebra **94** 1 (1985) 30-51 \[<a href="https://doi.org/10.1016/0021-8693(85)90203-0">doi:10.1016/0021-8693(85)90203-0</a>\]
-
-* *Extending characters from normal subgroups*, in *Topics in Algebra*, Lecture Notes in Mathematics **697** (2006) 1–7 &lbrack;[doi:10.1007/BFb0103119](https://doi.org/10.1007/BFb0103119)&rbrack;
-
-* G. Karpilovsky: *On extension of characters from normal subgroups*, Proceedings of the Edinburgh Mathematical Society **27** (1984) 7-9 &lbrack;[doi:10.1017/S0013091500022057](https://doi.org/10.1017/S0013091500022057), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/B051526AE20F219C468AFBF1D9546E43/S0013091500022057a.pdf/on_extension_of_characters_from_normal_subgroups.pdf)&rbrack;
-
-* Qiang Huang: *Extension of irreducible characters from normal subgroups*, Linear and Multilinear Algebra **27** 2 (1990) &lbrack;[doi;10.1080/03081089008818001](https://doi.org/10.1080/03081089008818001)&rbrack;
 
 
 
