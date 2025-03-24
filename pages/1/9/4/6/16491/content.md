@@ -27,6 +27,12 @@ The [[left adjoint]] to this construction is the operation of forming _[[induced
 
 * [[supermultiplet]]
 
+## Related concepts
+
+* [[induced representation]]
+
+* [[extended representation]]
+
 ## References
 
 * Wikipedia, _[Restricted representation](https://en.wikipedia.org/wiki/Restricted_representation)_
