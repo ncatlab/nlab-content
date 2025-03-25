@@ -250,7 +250,7 @@ For [[symmetric spectra]], see ([Schwede 12, prop. 4.39](#Schwede12)).
 
 * {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
 
-* [[Cary Malkiewich]], _Some facts about $Q X$_ ([pdf](http://www.math.uiuc.edu/~cmalkiew/Q.pdf))
+* [[Cary Malkiewich]], _Some facts about $Q X$_ ([pdf](https://people.math.binghamton.edu/malkiewich/Q.pdf))
 
 [[!redirects spectrifications]]
 
