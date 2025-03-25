@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -176,7 +175,7 @@ On the [[representation theory]] of $SL_2(\mathbb{Z})$:
 
 The $SL(2,\mathbb{Z})$-action on the [[Kac-Weyl character|characters]] in [[2d CFT]] and [[abelian Chern-Simons theory]]:
 
-* {#Verlinde88} [[Erik Verlinde]], p. 365, 369 in: *Fusion rules and modular transformations in 2D conformal field theory*, Nuclear Physics B **300** (1988) 360-376 \[<a href="https://doi.org/10.1016/0550-3213(88)90603-7">doi:10.1016/0550-3213(88)90603-7</a>\]
+* {#Verlinde88} [[Erik Verlinde]], p. 365, 369 in: *Fusion rules and modular transformations in 2D conformal field theory*, Nuclear Physics B **300** (1988) 360-376 \[<a href="https://doi.org/10.1016/0550-3213(88)90603-7">doi:10.1016/0550-3213(88)90603-7</a>, p. 368: [[Verlinde-FusionRules-p368.pdf:file]]\]
 
 * {#Gocho90} Toru Gocho: *The topological invariant of three-manifolds based on the $U(1)$ Gauge theory*, Proc. Japan Acad. Ser. A Math. Sci. **66** 8 (1990) 237-239 &lbrack;[doi:10.3792/pjaa.66.237](https://projecteuclid.org/journals/proceedings-of-the-japan-academy-series-a-mathematical-sciences/volume-66/issue-8/The-topological-invariant-of-three-manifolds-based-on-the-mathrmUleft/10.3792/pjaa.66.237.full), [dml:1195512360](http://dml.mathdoc.fr/item/1195512360)&rbrack;
 
