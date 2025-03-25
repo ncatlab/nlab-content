@@ -6,6 +6,11 @@
 
 ## Selected writings
 
+On [[noncritical string|non-critical]] [[string theory]] via non-trivial [[dilaton]] profiles:
+
+* [[Robert C. Myers]]: *New Dimensions For Old Strings*, Phys. Lett. B **199** 3 (1987) 371-376 \[<a href="https://doi.org/10.1016/0370-2693(87)90936-1">doi:10.1016/0370-2693(87)90936-1</a>\]
+
+
 On [[black holes]] in [[D=5 supergravity]]:
 
 * {#GauntlettMyersTownsend98} [[Jerome Gauntlett]], [[Robert C. Myers]], [[Paul Townsend]], *Black Holes of $D=5$ Supergravity*, Class.Quant.Grav. **16** (1999) 1-21 &lbrack;[arXiv:hep-th/9810204](http://arxiv.org/abs/hep-th/9810204), [doi:10.1088/0264-9381/16/1/001](https://doi.org/10.1088/0264-9381/16/1/001)&rbrack;
