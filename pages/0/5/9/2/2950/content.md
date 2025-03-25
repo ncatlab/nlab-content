@@ -43,7 +43,7 @@ On [[Lorentzian orbifolds]] as [[target spacetimes]] in [[string theory]]:
 
 * Hong Liu, [[Gregory Moore]], [[Nathan Seiberg]], _Strings in time-dependent orbifolds_, JHEP 0210:031, (2002) &lbrack;[arXiv:hep-th/0206182](https://arxiv.org/abs/hep-th/0206182)&rbrack;
 
-On [[abelian Chern-Simons theory]] with application to the [[fractional quantum Hall effect]]:
+On [[abelian Chern-Simons theory]] and its refinement to [[Spin Chern-Simons theory]], with application to [[effective field theory|effective]] description of [[fractional quantum Hall systems]]:
 
 * Dmitriy Belov, [[Gregory W. Moore]]: *Classification of abelian spin Chern-Simons theories* &lbrack;[arXiv:hep-th/0505235](https://arxiv.org/abs/hep-th/0505235)&rbrack;
 
