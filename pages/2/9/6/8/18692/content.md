@@ -266,6 +266,12 @@ Weil Prolongation is discussed in the following papers:
 
 * Wolfgang Bertram and Arnaud Souvay. _A general construction of Weil functors._ arXiv preprint arXiv:1111.2463 (2011).([arXiv:1111.2463](https://arxiv.org/pdf/1111.2463.pdf))
 
+On an abstract approach to tangent bundle categories in the style of [[formal category theory]]:
+
+* Marcello Lanfranchi, *The Grothendieck construction in the context of tangent categories* &lbrack;[arXiv:2311.14643](https://arxiv.org/abs/2311.14643)&rbrack;
+
+* Marcello Lanfranchi, *The formal theory of tangentads I* &lbrack;[arXiv:2503.18354](https://arxiv.org/abs/2503.18354)&rbrack;
+
 On [[connections]] in [[algebraic geometry]]:
 
 * G.S.H. Cruttwell, Jean-Simon Pacaud Lemay, Elias Vandenberg, _A Tangent Category Perspective on Connections in Algebraic Geometry_ &lbrack;[arXiv:2406.15137](https://arxiv.org/abs/2406.15137)&rbrack;
