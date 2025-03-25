@@ -1,4 +1,6 @@
 
+Ali Hani Chamseddine
+
 * [personal page](http://sites.google.com/site/achamseddine2/home)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Ali_Chamseddine)
@@ -6,7 +8,12 @@
 * [GoogleScholar page](https://scholar.google.com/citations?user=BOfmCbgAAAAJ&hl=en)
 
 
+
 ## Selected writings
+
+On [[noncritical string|noncritical]] [[string theory]]:
+
+* [[Ali H. Chamseddine]]: *A Study of noncritical strings in arbitrary dimensions*, Nucl. Phys. B **368** 98 (1992) \[<a href="https://doi.org/10.1016/0550-3213(92)90199-L">doi:10.1016/0550-3213(92)90199-L</a>\]
 
 
 On [[string theory]] thought of via [[2-spectral triples]]:
@@ -29,3 +36,5 @@ On the [[Connes-Lott-Chamseddine-Barrett model]]:
 
 
 category: people
+
+[[!redirects Ali H. Chamseddine]]
