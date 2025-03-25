@@ -45,6 +45,10 @@ further discussed in:
 
 See also:
 
+* Christopher Ting, C. H. Lai: *Spinning Braid Group Representation and the Fractional Quantum Hall Effect*, Nucl. Phys. B **396** (1993) 429-464 \[<a href="https://doi.org/10.1016/0550-3213(93)90659-D">doi:10.1016/0550-3213(93)90659-D</a>,
+[arXiv:hep-th/9202024](https://arxiv.org/abs/hep-th/9202024)\]
+
+
 * Brian P Dolan: *$\mathcal{N}=2$ Supersymmetric Yang-Mills and the Quantum Hall Effect*,  International Journal of Modern Physics A **21** 23/24 (2006) 4807-4822 \[<a href="https://arxiv.org/abs/hep-th/0505138">arXiv:hep-th/0505138</a>, <a href="https://doi.org/10.1142/S0217751X06033891">doi:10.1142/S0217751X06033891</a>, <a href="https://mural.maynoothuniversity.ie/id/eprint/2836/1/BD_Supersymmetric.pdf">pdf</a>\]
 
 
