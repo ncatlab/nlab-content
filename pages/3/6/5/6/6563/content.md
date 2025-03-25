@@ -41,7 +41,7 @@ L&#233;vy          | 2D Tricritical Ising    | [[symplectic group|Symplectic]] |
 
 The general concept of [[renormalization]] is really important here.  The universality classes we understand best correspond to fixed points of renormalization-group transforms.
 
-The first column, "stable distributions", basically comes from the [[central limit theorem]] and the ways in which the conditions necessary for it to apply can fail to obtain.  The middle column with all the funny symbols comes from [[Élie Cartan]]'s classification of [[symmetric space|symmetric spaces]].  The 2D part of the [[equilibrium]] statistical systems can be given a taxonomy based on the [[ADE classification]] of [[Dynkin diagram|Dynkin diagrams]] and [[conformal field theories]].  As [Cardy (2010)](#Cardy2010) writes,
+The first column, "stable distributions", basically comes from the [[central limit theorem]] and the ways in which the conditions necessary for it to apply can fail to obtain.  The middle column with all the funny symbols comes from [[Élie Cartan]]'s classification of [[symmetric space|symmetric spaces]].  The 2D part of the [[equilibrium]] statistical systems can be given a taxonomy based on the [[ADE classification]] of [[Dynkin diagram|Dynkin diagrams]] and [[conformal field theories]].  [Cardy 2010](#Cardy2010) writes:
 
 +-- {: .standout}
 [T]he study of the [[representation theory]] of the [[Virasoro algebra]] gives a way of classifying all possible [[CFT]]s and thereby universality classes in 2d. The breakthrough in this direction came following the seminal 1984 paper of Belavin, Polyakov and Zamolodchikov (BPZ) in which they showed that, for certain special rational values of $c \lt 1$, the [[CFT]] closes with only a finite number of [[representation]]s of the Virasoro algebra, and, for, these cases, all the [[critical exponent]]s and multi-point [[correlation function]]s are calculable. Shortly thereafter Friedan, Qiu and Shenker showed that unitary CFTs (corresponding to local, positive definite Boltzmann weights) are a subset of this list, with $c = 1 - 6/m(m + 1)$ and $m$ an integer $\geq 3$. This gives rise to what might be termed the 'conformal periodic table'. The first few examples may be identified with well-known universality classes. The 'hydrogen atom' of CFT is the scaling limit of the critical Ising model, 'helium' is the tricritical Ising model, and so on. Note, however, that at the next value of $c = 4/5$ two possible 'isotopes' arise. In the second, corresponding to the critical 3-state Potts model, not all the scaling dimensions allowed by BPZ in fact occur, but some of those that do actually appear twice. In fact the constraint of unitarity is not sufficient to determine exactly which representations actually occur in a given CFT. The answer to this is provided by demanding consistency of the theory on a [[torus]], by interchanging the interpretations of space and imaginary time [...]. For the torus, this is a [[modular form|modular]] transformation, and the requirement of modular invariance has become another powerful tool in classifying CFTs, completely solved in the case $c \lt 1$ by Cappelli, Itzykson and Zuber.
@@ -99,45 +99,67 @@ The following is a capsule history tabulating some important events in the histo
 
 General sources: 
 
-* [[Terence Tao|T. Tao]] (2010), "A second draft of a non-technical article on universality" ([web](http://terrytao.wordpress.com/2010/09/14/a-second-draft-of-a-non-technical-article-on-universality/))
+* [[Terence Tao]] (2010), "A second draft of a non-technical article on universality" ([web](http://terrytao.wordpress.com/2010/09/14/a-second-draft-of-a-non-technical-article-on-universality/))
+
+
+Review of 2D critcal phenomena universally described by [[2D conformal field theory]]:
+
+* [[Philippe Di Francesco]], Pierre Mathieu, David Sénéchal, secton 3.2 of: *Conformal field theory*, Springer (1997) &lbrack;[doi:10.1007/978-1-4612-2256-9](https://doi.org/10.1007/978-1-4612-2256-9)&rbrack;
+
 
 Statistical distributions:
 
-* Wikipedia, [stable distribution](http://en.wikipedia.org/wiki/Stable_distribution)
-* Wikipedia, [Fisher&#8211;Tippett&#8211;Gnedenko theorem](http://en.wikipedia.org/wiki/Fisher%E2%80%93Tippett%E2%80%93Gnedenko_theorem)
+* Wikipedia: *[Stable distribution](http://en.wikipedia.org/wiki/Stable_distribution)*
+
+* Wikipedia: *[Fisher&#8211;Tippett&#8211;Gnedenko theorem](http://en.wikipedia.org/wiki/Fisher%E2%80%93Tippett%E2%80%93Gnedenko_theorem)*
 
 Equilibrium critical phenomena:
 
 * B. Berche _et al._ (2009), "Critical phenomena: 150 years since Cagniard de la Tour" _J. Phys. Studies_ **13**: 3201, [arXiv:0905.1886](http://arxiv.org/abs/0905.1886).
-* J. P. Sethna (2006), _Statistical Physics: Entropy, Order Parameters, and Complexity_. Oxford University Press. [Available on the author's website](http://pages.physics.cornell.edu/sethna/StatMech/).  See in particular chapter 12.
-  {#Sethna2006}
-* Kardar's _Statistical Physics of Particles_ and _Statistical Physics of Fields_
-* Henkel's _Conformal Invariance and Critical Phenomena_ (1999)
-* P. A. Pearce (1994), "Recent progress in solving _A--D--E_ lattice models" _Physica A_ **205**: 15--30. ([pdf](http://mac0916.ms.unimelb.edu.au/~pap/Publications_pdf/1994PearceRecentProgressADE.pdf)) This one brings in [[Temperley-Lieb algebra]]s, two-colour braid monoid algebras and [[Reidemeister moves]].
-* J. Cardy (2010), _The Ubiquitous 'c': From the Stefan--Boltzmann Law to Quantum Information_, J.Stat.Mech. **2010**: P10004, ([arXiv:1008.2331](http://arxiv.org/abs/1008.2331))
-  {#Cardy2010}
-* A. Cappelli and J.-B. Zuber (2010), _A-D-E Classification of Conformal Field Theories_ Scholarpedia, 5(4): 10314 ([web](http://www.scholarpedia.org/article/A-D-E_Classification_of_Conformal_Field_Theories)).  Also available as [arXiv:0911.3242](http://arxiv.org/abs/0911.3242).
-* Michael E. Fisher (1968), _Renormalization of Critical Exponents by Hidden Variables_ Physical Review **176**: 257--72. ([web](http://link.aps.org/doi/10.1103/PhysRev.176.257))
-  {#Fisher1968}
-* L. P. Kadanoff (1971), _Critical Behavior. Universality and Scaling_ in Proceedings of the International School of Physics Enrico Fermi, Course LI (27 July -- 8 August 1970). Edited by M. S. Green.
-  {#Kadanoff1971}
-* J. M. H. Levelt Sengers (1976), _Critical Exponents at the Turn of the Century_ Physica A **82**: 319--51. ([web](http://www.sciencedirect.com/science/article/pii/0378437176900121))
-  {#LeveltSengers1976}
 
-Random matrix theory:
+* {#Sethna2006} J. P. Sethna (2006), _Statistical Physics: Entropy, Order Parameters, and Complexity_. Oxford University Press. [Available on the author's website](http://pages.physics.cornell.edu/sethna/StatMech/).  See in particular chapter 12.
+  
+
+* Kardar's _Statistical Physics of Particles_ and _Statistical Physics of Fields_
+
+* Henkel's _Conformal Invariance and Critical Phenomena_ (1999)
+
+* P. A. Pearce (1994), "Recent progress in solving _A--D--E_ lattice models" _Physica A_ **205**: 15--30. ([pdf](http://mac0916.ms.unimelb.edu.au/~pap/Publications_pdf/1994PearceRecentProgressADE.pdf)) This one brings in [[Temperley-Lieb algebra]]s, two-colour braid monoid algebras and [[Reidemeister moves]].
+
+* {#Cardy2010} [[John Cardy]]: *The Ubiquitous '$c$': From the Stefan--Boltzmann Law to Quantum Information*, J. Stat. Mech. **1010** (2010) P10004 &lbrack;[arXiv:1008.2331](http://arxiv.org/abs/1008.2331), [doi:10.1088/1742-5468/2010/10/P10004](https://doi.org/10.1088/1742-5468/2010/10/P10004)&rbrack;
+  
+
+* A. Cappelli and J.-B. Zuber (2010), _A-D-E Classification of Conformal Field Theories_ Scholarpedia, 5(4): 10314 ([web](http://www.scholarpedia.org/article/A-D-E_Classification_of_Conformal_Field_Theories)).  Also available as [arXiv:0911.3242](http://arxiv.org/abs/0911.3242).
+
+* {#Fisher1968} Michael E. Fisher (1968), _Renormalization of Critical Exponents by Hidden Variables_ Physical Review **176**: 257--72. ([web](http://link.aps.org/doi/10.1103/PhysRev.176.257))
+ 
+
+* {#Kadanoff1971} L. P. Kadanoff (1971), _Critical Behavior. Universality and Scaling_ in Proceedings of the International School of Physics Enrico Fermi, Course LI (27 July -- 8 August 1970). Edited by M. S. Green.
+  
+
+* {#LeveltSengers1976} J. M. H. Levelt Sengers (1976), _Critical Exponents at the Turn of the Century_ Physica A **82**: 319--51. ([web](http://www.sciencedirect.com/science/article/pii/0378437176900121))
+  
+
+In the context of [[random matrix theory]]:
 
 * Yan Fyodorov (2011) Random matrix theory. Scholarpedia, 6(3):9886 ([web](http://www.scholarpedia.org/article/Random_matrix_theory))
-* this conversation at the n-Category Caf&#233; on [the Tenfold Way](http://golem.ph.utexas.edu/category/2010/12/the_threefold_way_part_2.html#c035973).
+
+* conversation at the n-Category Caf&#233; on [the Tenfold Way](http://golem.ph.utexas.edu/category/2010/12/the_threefold_way_part_2.html#c035973).
 
 Nonequilibrium critical phenomena:
 
 * P. C. Hohenberg and B. I. Halperin (1977). "Theory of dynamic critical phenomena" _Rev. Mod. Phys._ **49**: 435. ([web](http://www.physics.mcgill.ca/~omid/Hohenberg_Halperin.pdf))
+
 * _Nonequilibrium Phase Transitions_ (2008) by Henkel _et al._
+
 * Vollmayr-Lee's talks on the "field theory approach to diffusion-limited reactions", [Boulder School for Condensed Matter and Materials Physics](http://boulderschool.yale.edu/2009/boulder-school-2009-lecture-notes) (2009), in particular lecture 4
+
 * G. Odor (2004), "Universality classes in nonequilibrium lattice systems" _Rev. Mod. Phys._ **76**: 663. [arXiv:cond-mat/0205644v7](http://arxiv.org/abs/cond-mat/0205644)
+
 * I. Corwin (2011), "The Kardar-Parisi-Zhang equation and universality class" [arXiv:1106.1596](http://arxiv.org/abs/1106.1596).
-* Takeuchi _et al._ _Growing interfaces uncover universal fluctuations behind scale invariance_  Sci Rep. (Nature) **1** 34, ([arXiv:1108.2118](http://arxiv.org/abs/1108.2118))
-  {#Takeuchi}
+
+* {#Takeuchi} Takeuchi _et al._ _Growing interfaces uncover universal fluctuations behind scale invariance_  Sci Rep. (Nature) **1** 34, ([arXiv:1108.2118](http://arxiv.org/abs/1108.2118))
+  
 
 Dynamical maps and chaos theory:
 
