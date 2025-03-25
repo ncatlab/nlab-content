@@ -117,7 +117,7 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
 1. For both the bosonic string and the superstring the corresponding [[Polyakov action]] has a [gauge anomaly]() for the [[conformal field theory|conformal symmetry]], depending on the [[dimension]] $d$ of [[target space]], and on the strength of the [[dilaton]] background field. For vanishing dilaton field this anomaly vanishes exactly for $d = 26$ for the bosonic model, and in $d = 10$ for the [[superstring]]. 
 
-   For target spaces of these dimensions one speaks of **critical string theory**. In as far as string theory is expected to have relevance for physics at all, it is usually expected to be in this critical dimension. But also noncritical string models can and have been considered.
+   For target spaces of these dimensions one speaks of **critical string theory**. In as far as string theory is expected to have relevance for physics at all, it is usually expected to be in this critical dimension. But also [[non-critical string]] models can and have been considered.
 
 1. Apart from the gauge anomaly, the [[action functional]] of the [[string]]-[[sigma-model]] also in general has an _[anomalous action functional](http://ncatlab.org/nlab/show/quantum+anomaly#AnomalousActionFunctional)_ , for two reasons:
 
