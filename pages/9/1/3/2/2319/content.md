@@ -569,13 +569,21 @@ Standard texbooks include
 
 * {#Friedrich97} [[Thomas Friedrich]], _Dirac operators in Riemannian geometry_, Graduate studies in mathematics 25, AMS (1997)
  
+Concerning the action of [[diffeomorphisms]] on spin structures:
+
+* L. Dąbrowski, [[Roberto Percacci]]: *Spinors and diffeomorphisms*,  Comm. Math. Phys. **106** 4 (1986) 691-704  &lbrack;[euclid:cmp/1104115859](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-106/issue-4/Spinors-and-diffeomorphisms/cmp/1104115859.full)&rbrack;
+
+and specifically concerning the action of the [[modular group]] [[SL(2,Z)|$SL_2(\mathbb{Z})$]] on spin structures over [[closed manifold|closed]] [[surfaces]]:
+
+* [[Oscar Randal-Williams]]$\;$&lbrack;[MO:a/72770](https://mathoverflow.net/a/72770/381)&rbrack;
+
+
 
 A discussion of the full [[groupoid]] of spin structures is in 
 
-* [[Johannes Ebert]], _Characteristic classes of spin surface bundles:
-Applications of the Madsen-Weiss theory_ Phd thesis (2006) ([pdf](http://wwwmath.uni-muenster.de/wwwmath.uni-muenster.de/u/jeber_02/papers/thesis.pdf))
+* [[Johannes Ebert]], _Characteristic classes of spin surface bundles: Applications of the Madsen-Weiss theory_, Phd thesis (2006) ([pdf](http://wwwmath.uni-muenster.de/wwwmath.uni-muenster.de/u/jeber_02/papers/thesis.pdf))
 
-Discussion of lifting bundle gerbes for spin structures is in
+Discussion of [[lifting bundle gerbes]] for spin structures:
 
 * {#MurraySinger03} [[Michael Murray]], Michael Singer, _Gerbes, Clifford modules and the index theorem_ ([arXiv:math/0302096](http://arxiv.org/abs/math/0302096))
   
