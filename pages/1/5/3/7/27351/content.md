@@ -33,7 +33,7 @@ One major application of abelian Chern-Simons theory is as an [[effective field 
 ### Space of quantum states
  {#SpaceOfQuantumStates}
 
-For abelian Chern-Simons theory with $N$ [[gauge fields]] $(A_i)_{i = 1}^N$ and [[Lagrangian density]] of the form $K^{i j} A_i \wedge \mathrm{d} A_j$ (for $K$ an $N \times N$ [[symmetric matrix]] and using [[Einstein summation convention]]), the [[dimension of a vector space|dimension]] of the [[Hilbert space|Hilbert]] [[space of quantum states]] $\mathscr{H}_g$ (obtained by [[geometric quantization]], cf. *[[quantization of D=3 Chern-Simons theory]]*) over an [[orientation|orientable]] [[surface]] of [[genus of a surface|genus]] $g$ is the [[absolute value]] of the [[determinant]] of $K$ raised to the $g$th [[exponent|power]]:
+For abelian Chern-Simons theory with $N$ [[gauge fields]] $(A_i)_{i = 1}^N$ and [[Lagrangian density]] of the form (using [[Einstein summation convention]]) $K^{i j} A_i \wedge \mathrm{d} A_j$, for $K$ an $N \times N$ *even* [[symmetric matrix]] (the diagonal entries are [[even numbers]]), the [[dimension of a vector space|dimension]] of the [[Hilbert space|Hilbert]] [[space of quantum states]] $\mathscr{H}_g$ (obtained by [[geometric quantization]], cf. *[[quantization of D=3 Chern-Simons theory]]*) over an [[orientation|orientable]] [[surface]] of [[genus of a surface|genus]] $g$ is the [[absolute value]] of the [[determinant]] of $K$ raised to the $g$th [[exponent|power]]:
 
 $$ 
   dim(\mathscr{H}_g)
