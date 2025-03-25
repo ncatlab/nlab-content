@@ -38,7 +38,7 @@
 
 ## Idea
 
-For both the bosonic string and the superstring, the corresponding [[Polyakov action]] has a [gauge anomaly]() for the [[conformal field theory|conformal symmetry]], depending on the [[dimension]] $d$ of [[target space]], and on the strength of the [[dilaton]] background field. For vanishing dilaton field this anomaly vanishes exactly for $d = 26$ for the bosonic model, and in $d = 10$ for the [[superstring]]. String theories at these dimensions are known as **critical** string theories. By contrast, string theories in dimensions *different* from these are known as **non-critical** string theories.
+For both the [[bosonic string]] and the [[superstring]], the corresponding [[Polyakov action]] has a [[quantum anomaly|gauge anomaly]] for the [[conformal field theory|conformal symmetry]], depending on the [[dimension]] $D$ of [[target space|target]] [[spacetime]], and on the strength of the [[dilaton]] [[background field]]. For vanishing dilaton field this anomaly vanishes exactly for $D = 26$ for the bosonic model, and in $D = 10$ for the [[superstring]]. String theories at these dimensions are known as **critical** string theories. By contrast, string theories in dimensions *different* from these are known as **non-critical** string theories.
 
 Often, the term "non-critical" string is used to refer to a string theory formulated on dimensions *less than* the critical dimensions. However, it is also possible to consider theories in dimensions *greater than* the critical dimensions, provided an appropriate [[dilaton]] profile is used. In this way, one may more precisely speak of *sub*critical and *super*critical strings.
 
@@ -54,11 +54,12 @@ Often, the term "non-critical" string is used to refer to a string theory formul
 
 ### General non-critical strings
 
-* A. H. Chamseddine, “A Study of noncritical strings in arbitrary dimensions,” Nucl.Phys. B 368, 98 (1992).
+* [[Ali H. Chamseddine]]: *A Study of noncritical strings in arbitrary dimensions*, Nucl. Phys. B **368** 98 (1992) \[<a href="https://doi.org/10.1016/0550-3213(92)90199-L">doi:10.1016/0550-3213(92)90199-L</a>\]
 
-* R. C. Myers, “New Dimensions For Old Strings,” Phys. Lett. B 199, 371 (1987).
+* [[Robert C. Myers]]: *New Dimensions For Old Strings*, Phys. Lett. B **199** 3 (1987) 371-376 \[<a href="https://doi.org/10.1016/0370-2693(87)90936-1">doi:10.1016/0370-2693(87)90936-1</a>\]
 
 * Héctor Parra De Freitas. *T-duality for non-critical heterotic strings* (2024). ([arXiv:2407.12923](https://arxiv.org/abs/2407.12923)).
+
 
 ### Subcritical strings
 
@@ -79,6 +80,17 @@ Often, the term "non-critical" string is used to refer to a string theory formul
 * [[Simeon Hellerman]], [[Matthew Kleban]]. *Dynamical Cobordisms in General Relativity and String Theory* (2010). ([arXiv:1009.3277](https://arxiv.org/abs/1009.3277)).
 
 
+
+[[!redirects non-critical strings]]
+
+[[!redirects noncritical string]]
+[[!redirects noncritical strings]]
+
+[[!redirects non-critical string theory]]
+[[!redirects non-critical string theories]]
+
+[[!redirects noncritical string theory]]
+[[!redirects noncritical string theories]]
 
 
 
