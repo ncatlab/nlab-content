@@ -31,7 +31,7 @@ Actually, there are several different notions of order that are each useful in t
 * [[total order]]
 * [[well-order]]
 
-The closely related notion of a [[cyclic order]] is not actually a binary relation but a ternary relation.
+The closely related notions of a [[cyclic order]] and [[betweeness]] are not actually binary but ternary relations.
 
 The study of orders is [[order theory]].
 
