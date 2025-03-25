@@ -60,6 +60,8 @@ One can add additional terms arriving at what is called _massive 3d gravity mode
 
 ## References
 
+### General
+
 * Nathan Benjamin, Scott Collier, Alexander Maloney, *Pure Gravity and Conical Defects*, Journal of High Energy Physics **2020** 34 (2020) &lbrack;[arXiv:2004.14428](https://arxiv.org/abs/2004.14428), <a href="https://doi.org/10.1007/JHEP09(2020)034">doi:10.1007/JHEP09(2020)034</a>&rbrack;
 
 * Mauricio Leston, et al., *3d Quantum Gravity Partition Function at 3 Loops: a brute force computation* &lbrack;[arXiv:2307.03830](https://arxiv.org/abs/2307.03830)&rbrack;
@@ -67,6 +69,12 @@ One can add additional terms arriving at what is called _massive 3d gravity mode
 Survey:
 
 * [[Steve Carlip]], *Quantum Gravity in 2+1 Dimensions*, in:  *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.12596](https://arxiv.org/abs/2312.12596)&rbrack;
+
+Towards relating [[ADM mass|ADM parameterization]] and rhe [[Wheeler-DeWitt equation]] of 3d gravity with [[negative number|negative]] [[cosmological constant]] to [[AdS/CFT duality]]:
+
+* Nele Callebaut, Blanca Hergueta: *Radial canonical $\Lambda \lt 0$ gravity* &lbrack;[arXiv:2503.18522](https://arxiv.org/abs/2503.18522)&rbrack;
+
+
 
 
 [[!include 3d gravity and Chern-Simons theory -- references]]
