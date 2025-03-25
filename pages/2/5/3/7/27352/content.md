@@ -34,6 +34,10 @@ and was made more explicit in:
 
 * [[Xiao-Gang Wen]]: *Theory of Edge States in Fractional Quantum Hall Effects*, International Journal of Modern Physics B **06** 10 (1992) 1711-1762 \[<a href="https://doi.org/10.1142/S0217979292000840">doi:10.1142/S0217979292000840</a>\]
 
+* {#Wen95} [[Xiao-Gang Wen]], *Topological orders and Edge excitations in FQH states*, Advances in Physics **44** (1995) 405 \[<a href="https://doi.org/10.1080/00018739500101566">doi:10.1080/00018739500101566</a>, [arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066)\]
+  > (in the context of *[[topological order]]*)
+
+
 * [[A. P. Balachandran]], L. Chandar, B. Sathiapalan: *Chern-Simons Duality and the Quantum Hall Effect*, Int. J. Mod. Phys.  **A11** (1996) 3587-3608 \[<a href="https://doi.org/10.1142/S0217751X96001693">doi:10.1142/S0217751X96001693</a>, [arXiv:hep-th/9509019](https://arxiv.org/abs/hep-th/9509019)\]
 
 
