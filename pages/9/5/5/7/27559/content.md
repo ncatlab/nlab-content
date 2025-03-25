@@ -111,7 +111,15 @@ Now assume in addition that
 * $\rho$ is $G$-invariant (eq:InvariantRepresentation)
 
 \begin{proposition}\label{ExtensionOfInvariantNormalIrrepByProjectiveReps}
-There always exists a [[projective representation|projective]] extension $\widetilde{\rho} \in PRep(G)$ and any [[pair]] $\widehat{\rho}, \widehat{\rho}'$ of such differ only by a function on $G$ with values in the [[group of units]] $k^{\times}$ and depending only on [[cosets]],
+There always exists a *projective* extension of $\rho$ in the sense of a [[projective representation]] $\widetilde{\rho} \in PRep(G)$ satisfying, for $n \in N$ and $g \in G$,
+
+1. $\widehat{\rho}(n) \,=\, \rho(n)$,
+
+1. $\widehat{\rho}(g n) = \widehat{\rho}(g) \circ \widehat{\rho}(n)$,
+
+1. $\widehat{\rho}(n g) = \widehat{\rho}(n) \circ \widehat{\rho}(g)$,
+
+and any [[pair]] $\widehat{\rho}, \widehat{\rho}'$ of such differ only by a function on $G$ with values in the [[group of units]] $k^{\times}$ and depending only on [[cosets]],
 
    \[
      \label{DifferenceOfProjectiveExtensions}
