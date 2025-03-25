@@ -29,7 +29,7 @@ Hence for $G$ a [[finite group]], its order $\vert G\vert \in \mathbb{N}$ is a [
 ### Order of an element of a group
  {#OrderOfAnElementOfAGroup}
 
-For $G$ a [[group]] and $g \in G$ an [[element]], the **order** of $g$ is the smallest positive [[natural number]] $n$ such that the $n$-fold group product of $g$ with itself is the [[neutral element]]:
+For $G$ a [[group]] and $g \in G$ an [[element]], the **order** of $g$ is the smallest [[positive number|positive]] [[natural number]] $n$ such that the $n$-fold group product of $g$ with itself is the [[neutral element]]:
 
 $$
   order(g) \coloneqq min \{ n \in \mathbb{N}^+ | g^n = e\}
