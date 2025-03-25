@@ -427,7 +427,7 @@ des Lettres et des Beaux-Arts de Belgique **24** (1850) &lbrack;[biodiversitylib
 * {#ArmitageRogers2000} Vernon Armitage, [[Alice Rogers]]: *Gauss Sums and Quantum Mechanics*, J. Phys. A: Math. Gen. **33** (2000) 5993 \[<a href="https://iopscience.iop.org/article/10.1088/0305-4470/33/34/305">doi:10.1088/0305-4470/33/34/305</a>, [arXiv:quant-ph/0003107](https://arxiv.org/abs/quant-ph/0003107)\]
   > (via tools from [[quantum mechanics]])
 
-* {#Ustinov22} [[Alexey Ustinov]]: *A Short Proof of the Landsberg–Schaar Identity*, Math Notes **112** (2022) 488–490 &lbrack;[doi:10.1134/S0001434622090188](https://doi.org/10.1134/S0001434622090188)&rbrack;
+* {#Ustinov22} [[Alexey Ustinov]]: *A Short Proof of the Landsberg–Schaar Identity*, Mathematical Notes **112** (2022) 488–490 &lbrack;[doi:10.1134/S0001434622090188](https://doi.org/10.1134/S0001434622090188)&rbrack;.  Russian original: А. В. Устинов, _Короткое доказательство тождества Ландсберга–Шаара_, Математические заметки, 2022, том 112, выпуск 3, страницы 478–480, [doi](https://doi.org/10.4213/mzm13535).
 
 * Wikipedia: *[Landsberg-Schaar relation](https://en.wikipedia.org/wiki/Landsberg%E2%80%93Schaar_relation)*
 
