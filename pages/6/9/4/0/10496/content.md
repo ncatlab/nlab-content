@@ -216,6 +216,7 @@ The proposal that ground state degeneracy is a signature of "topological order":
 * {#Wen93} [[Xiao-Gang Wen]], *Topological order and edge structure of $\nu = 1/2$ quantum Hall state*, Phys. Rev. Lett. **70** (1993) 355 \[<a href="https://doi.org/10.1103/PhysRevLett.70.355">doi:10.1103/PhysRevLett.70.355</a>\]
 
 * {#Wen95} [[Xiao-Gang Wen]], *Topological orders and Edge excitations in FQH states*, Advances in Physics **44** (1995) 405 \[<a href="https://doi.org/10.1080/00018739500101566">doi:10.1080/00018739500101566</a>, [arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066)\]
+  > (relating to [[effective field theory|effective]] [[abelian Chern-Simons theory]] for [[FQH systems]])
 
 The additional requirement that the Berry connection be non-abelian (and/or the presence of anyons):
 
