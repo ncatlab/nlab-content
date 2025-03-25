@@ -27,6 +27,9 @@ On the [[Gromoll-Meyer sphere|Gromoll-Meyer]] [[exotic 7-sphere]]:
 
 * [[David S. Berman]], [[Martin Cederwall]], Tancredi Schettini Gherardini: *Curvature of an exotic 7-sphere* &lbrack;[arXiv:2410.01909](https://arxiv.org/abs/2410.01909)&rbrack;
 
+On hyperbolic [[Kac-Moody algebras]] in view of their role in [[U-duality]]-covariant [[supergravity]]:
+
+* [[Martin Cederwall]], [[Jakob Palmkvist]]: *Gradient structures from extensions of over-extended Kac-Moody algebras* &lbrack;[arXiv:2503.17779](https://arxiv.org/abs/2503.17779)&rbrack;
 
 
 
