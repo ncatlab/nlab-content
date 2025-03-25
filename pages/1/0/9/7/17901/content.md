@@ -34,7 +34,7 @@ The [[worldsheet]]-theory of [[strings]] in [[string theory]] is [[D=2 gravity]]
 
 For the [[type II string theory|type II]] [[superstring]] the Wheeler superspace is essentially the [[smooth loop space]] of the [[exterior bundle]] of [[target spacetime]], regarded as a [[supermanifold]]. 
 
-(Beware the clash of "super"-terminology here: the Wheeler superspace of the superstring is now a [[superspace]]-[[Wheeler superspace]], a "super-superspace", where the first "super" is in the sense of [[supersymmetry]]/[[graded manifolds|graded geometry]], while the second "super" in the sense of "[[configuration space (physics)|configuration space]]".
+(Beware the clash of "super"-terminology here: the Wheeler superspace of the superstring is now a [[superspace]]-[[Wheeler superspace]], a "super-superspace", where the first "super" is in the sense of [[supersymmetry]]/[[graded manifolds|graded geometry]], while the second "super" in the sense of "[[configuration space (physics)|configuration space]]".)
 
 The Wheeler-DeWitt [[quantum mechanics]] of the [[type II superstring theory|type II]] [[superstring]] on its Wheeler superspace, in this sense, is ([Witten 85, from p. 92 (32 of 39) on](supersymmetric+quantum+mechanics#Witten85)) a [[supersymmetric quantum mechanics]] of the form which for finite-dimensional leads to the relation between supersymmetry and Morse theory ([Witten 82](supersymmetric+quantum+mechanics#Witten82)): the Morse-deformed super-charge is the [[Dirac-Ramond operator]] on [[smooth loop space]] (more on this in [Schreiber 04](supersymmetric+quantum+mechanics#Schreiber04)).
 
