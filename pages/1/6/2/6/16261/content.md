@@ -56,6 +56,8 @@ On the *[[quantum null energy condition]]*:
 * [[Stefan Hollands]], [[Roberto Longo]]:
 *A New Proof of the QNEC* &lbrack;[arXiv:2503.04651](https://arxiv.org/abs/2503.04651)&rbrack;
 
+* Tanay Kibe, Pratik Roy: *Quantum null energy condition in quenched 2d CFTs* &lbrack;[arXiv:2503.17448](https://arxiv.org/abs/2503.1744)&rbrack;
+
 
 
 
