@@ -24,7 +24,7 @@
 
 ## Idea
 
-What is called _Spin Chern-Simons theory_ is a [[prequantum field theory]]/[[quantum field theory]] like [[Chern-Simons field theory]] but defined on/restricted to 3-manifolds equipped with [[spin structure]] and making use of that structure to divide the [[action functional]] (in the exponent) by 2.
+What is called _Spin Chern-Simons theory_ is a ([[prequantum field theory|pre-]])[[quantum field theory]] like [[Chern-Simons field theory]] but defined on/restricted to [[3-manifolds]] equipped with [[spin structure]] and making use of that structure to divide the [[action functional]] (in the exponent) by 2.
 
 (Beware that there is also ordinary $G$-Chern-Simons theory for [[gauge group]] $G = Spin(n)$ a [[spin group]], which in traditional parlance one might also pronounce as "Spin Chern-Simons theory", but which is different, in general, from Spin Chern-Simons theory in the sense discussed here.) 
 
@@ -36,7 +36,8 @@ The division by 2 makes the [[AdS3-CFT2 and CS-WZW correspondence|holographicall
 
 ### Relation to framed Chern-Simons theory
 
-Notice that if a 3-manifold admits a [[spin structure]] then it also admits a [[framing]]. (...)
+Notice that if a [[3-manifold]] admits a [[spin structure]] then it even admits a [[framing]]. (...)
+
 
 ## Related concepts
 
@@ -50,17 +51,17 @@ Notice that if a 3-manifold admits a [[spin structure]] then it also admits a [[
 
 ## References
 
-For general ([[compact Lie group|compact]]) [[Lie groups]] as [[gauge groups]] spin Chern-Simons theory is discussed in 
+For general ([[compact Lie group|compact]]) [[Lie groups]] as [[gauge groups]], spin Chern-Simons theory is discussed in 
 
 * [[Jerome Jenquin]], _Classical Chern-Simons on manifolds with spin structure_ ([arXiv:0504524](http://arxiv.org/abs/math/0504524))
 
 * [[Jerome Jenquin]], _Spin Chern-Simons and Spin TQFTs_ ([arXiv:0605239](http://arxiv.org/abs/math/0605239))
 
-For [[abelian group|abelian]] [[gauge groups]] Spin Chern-Simons theory is discussed in
+For [[abelian group|abelian]] [[gauge groups]] ([[abelian Chern-Simons theory]]) Spin Chern-Simons theory is discussed in
 
 * Dmitriy Belov, [[Gregory Moore]], _Classification of abelian spin Chern-Simons theories_ ([arXiv:hep-th/0505235](http://arxiv.org/abs/hep-th/0505235))
 
-and with emphasis on the holographically dual [[self-dual higher gauge theory]] in
+and with emphasis on the [[holography|holographically dual]] [[self-dual higher gauge theory]] in
 
 * {#BelovMoore06} Dmitriy Belov, [[Gregory Moore]], _Holographic Action for the Self-Dual Field_ ([arXiv:hep-th/0605038](http://arxiv.org/abs/hep-th/0605038))
 
