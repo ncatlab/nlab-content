@@ -256,6 +256,11 @@ The following references discuss aspects of the Kac-Moody [[exceptional geometry
 
 * Daniel Persson, Nassiba Tabti, _Lectures on Kac-Moody algebras with applications in (Super-)Gravity_ ([pdf](http://www.ulb.ac.be/sciences/ptm/pmif/Rencontres/KMModaveLectures2007.pdf))
 
+* [[Martin Cederwall]], [[Jakob Palmkvist]]: *Gradient structures from extensions of over-extended Kac-Moody algebras* &lbrack;[arXiv:2503.17779](https://arxiv.org/abs/2503.17779)&rbrack;
+
+
+
+
 ### Maximal compact subalgebras
  {#ReferencesMaximalCompactSubalgebra}
 
