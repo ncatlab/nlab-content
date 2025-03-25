@@ -51,6 +51,10 @@ Relating [[supermultiplets]] to [[L-infinity algebras|$L_\infty$-algebras]] via 
 
 * [[Martin Cederwall]], Simon Jonsson, [[Jakob Palmkvist]], [[Ingmar Saberi]], *Canonical supermultiplets and their Koszul duals* &lbrack;[arXiv:2304.01258](https://arxiv.org/abs/2304.01258)&rbrack;
 
+On hyperbolic [[Kac-Moody algebras]] in view of their role in [[U-duality]]-covariant [[supergravity]]:
+
+* [[Martin Cederwall]], [[Jakob Palmkvist]]: *Gradient structures from extensions of over-extended Kac-Moody algebras* &lbrack;[arXiv:2503.17779](https://arxiv.org/abs/2503.17779)&rbrack;
+
 
 
 
