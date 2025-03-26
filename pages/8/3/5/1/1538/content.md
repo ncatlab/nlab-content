@@ -286,9 +286,11 @@ Dijkgraaf-Witten theory is to be thought of as the finite group version of [[Che
 
 ## References
 
-The idea originates, of course, in 
+### General
 
-* {#DijkgraafWitten90} [[Robbert Dijkgraaf]], [[Edward Witten]], _[[DW.pdf:file]]_, Commun. Math. Phys. __129__ (1990), 393 ([euclid:cmp/1104180750](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-129/issue-2/Topological-gauge-theories-and-group-cohomology/cmp/1104180750.full))
+The original article:
+
+* {#DijkgraafWitten90} [[Robbert Dijkgraaf]], [[Edward Witten]]: *Topological Gauge Theories and Group Cohomology*, Commun. Math. Phys. **129** (1990) 393 &lbrack;[doi:10.1007/BF02096988](https://doi.org/10.1007/BF02096988), [euclid:cmp/1104180750](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-129/issue-2/Topological-gauge-theories-and-group-cohomology/cmp/1104180750.full), [pdf](/nlab/files/DW.pdf)&rbrack;
  
 
 The discussion of the [[quasi-Hopf algebra]] associated with a [[group cohomology]] 3-[[cocycle]] $c \colon \mathbf{B}G \to \mathbf{B}^3 U(1)$ originates in
@@ -338,7 +340,7 @@ See also
 
 For more on this see the discussion on the [n-Forum](http://nforum.mathforge.org/discussion/1046/path-category-vs-cobordisms-for-bundles/?Focus=8337#Comment_8337).
 
-## Dijkgraaf–Witten theory via Kan extensions
+### Via Kan extensions
 
 * [[Jeffrey C. Morton]], _Cohomological Twisting of 2-Linearization and Extended TQFT_, [arXiv:1003.5603](https://arxiv.org/abs/1003.5603).
 
