@@ -377,15 +377,16 @@ The following articles discuss (aspects of) the path integral for the [[charged 
 
 * [[Christian Bär]], [[Frank Pfäffle]], _Path integrals on manifolds by finite dimensional approximation_,  J. reine angew. Math., (2008), 625: 29-57. ([arXiv:math.AP/0703272](http://arxiv.org/abs/math.AP/0703272))
 
-* Dana Fine, Stephen Sawin, _A Rigorous Path Integral for Supersymmetric Quantum Mechanics and the Heat Kernel_ ([arXiv:0705.0638](http://arxiv.org/abs/0705.0638))
+* Dana Fine, [[Stephen F. Sawin]]: _A Rigorous Path Integral for Supersymmetric Quantum Mechanics and the Heat Kernel_, Commun. Math. Phys. **284** (2008) 79–91 &lbrack;[arXiv:0705.0638](http://arxiv.org/abs/0705.0638), [doi:10.1007/s00220-008-0606-2](https://doi.org/10.1007/s00220-008-0606-2)&rbrack;
+ > (for [[supersymmetric quantum mechanics]])
 
-* Florian Hanisch, Matthias Ludewig, _A Rigorous Construction of the Supersymmetric Path Integral Associated to a Compact Spin Manifold_, ([arXiv:1709.10027](https://arxiv.org/abs/1709.10027))
+* Florian Hanisch, [[Matthias Ludewig]]: _A Rigorous Construction of the Supersymmetric Path Integral Associated to a Compact Spin Manifold_, ([arXiv:1709.10027](https://arxiv.org/abs/1709.10027))
 
 
 A discussion for [[phase spaces]] equipped with a [[Kähler polarization]] and a [[prequantum line bundle]] is in 
 
-* Laurent Charles, _Feynman path integral and Toeplitz Quantization_, Helv. Phys. Acta **72** (1999) 341., ([pdf](http://ipht.cea.fr/DocsphtV2/articles/t98/093/public/publi.pdf))
- {#Charles99}
+* {#Charles99} Laurent Charles, _Feynman path integral and Toeplitz Quantization_, Helv. Phys. Acta **72** (1999) 341., ([pdf](http://ipht.cea.fr/DocsphtV2/articles/t98/093/public/publi.pdf))
+ 
 
 following [Norris 92, theorem (34)](#Norris92).
 
