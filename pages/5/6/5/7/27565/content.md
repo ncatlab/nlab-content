@@ -88,6 +88,10 @@ A connection to [[graded monads]] is given in
 
 * [[Dominic Orchard]], [[Philip Wadler]] and [[Harley Eades III]]. Unifying graded and parameterised monads. MSFP 2020. arxiv:[2001.10274](https://arxiv.org/pdf/2001.10274). 
 
+A treatment of both [[graded monads]] and parameterized monads is given in
+
+* Soichiro Fujii, _A 2-Categorical Study of Graded and Indexed Monads_, ([arXiv:1904.08083](https://arxiv.org/abs/1904.08083))
+
 The connection to enriched categories is discussed in Section 9 of
 
 * [[Rasmus Møgelberg]] and [[Sam Staton]], Linear Usage of State, Logical Methods in Computer Science 2014. arxiv:[1403.1477](https://arxiv.org/abs/1403.1477). 
