@@ -30,7 +30,7 @@
 
 ## Idea
 
-In the context of [[higher category theory]], the concept of a **double ∞-category** plays the same role as that of a [[double category]] in ordinary category theory.
+In the context of [[(infinity,1)-category theory]], the concept of a **double ∞-category** plays the same role as that of a [[double category]] in ordinary category theory.
 
 A double ∞-category is a 2-dimensional construct that has (a space of) objects and two types of (spaces of) arrows (1-cells) between objects: vertical arrows and horizontal arrows. A double ∞-category also contains (a space of) 2-cells.
 
