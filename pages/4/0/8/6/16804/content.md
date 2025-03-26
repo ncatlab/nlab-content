@@ -316,8 +316,9 @@ See also:
 
 * Ali Assem Mahmoud, Karen Yeats, _Connected Chord Diagrams and the Combinatorics of Asymptotic Expansions_ ([arXiv:2010.06550](https://arxiv.org/abs/2010.06550))
 
+On chord diagrams and equilevel algebras:
 
-
+* [[V. A. Vassiliev]], _Equilevel algebras_, [arXiv](https://arxiv.org/abs/2503.19343).
 
 [[!include weight systems on chord diagrams in physics]]
 
