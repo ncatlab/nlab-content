@@ -36,7 +36,7 @@ The division by 2 makes the [[AdS3-CFT2 and CS-WZW correspondence|holographicall
 
 ### Relation to framed Chern-Simons theory
 
-Notice that if a [[3-manifold]] admits a [[spin structure]] then it even admits a [[framing]]. (...)
+In general, [[Chern-Simons theory]] requires [[3-manifolds]] equipped with [[2-framings]]. But the combination of a 2-framing with a [[spin structure]] is essentially an actual [[framing]], cf. [Sawin 2002 p 2](#Sawin02).
 
 
 ## Related concepts
@@ -51,21 +51,30 @@ Notice that if a [[3-manifold]] admits a [[spin structure]] then it even admits 
 
 ## References
 
-For general ([[compact Lie group|compact]]) [[Lie groups]] as [[gauge groups]], spin Chern-Simons theory is discussed in 
+The idea of spin Chern-Simons theory originates with 
 
-* [[Jerome Jenquin]], _Classical Chern-Simons on manifolds with spin structure_ ([arXiv:0504524](http://arxiv.org/abs/math/0504524))
+* {#DijkgraafWitten90} [[Robbert Dijkgraaf]], [[Edward Witten]]: *Topological Spin Theories*, section 5 in: *Topological Gauge Theories and Group Cohomology*, Commun. Math. Phys. **129** (1990) 393 &lbrack;[doi:10.1007/BF02096988](https://doi.org/10.1007/BF02096988), [euclid:cmp/1104180750](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-129/issue-2/Topological-gauge-theories-and-group-cohomology/cmp/1104180750.full), [pdf](/nlab/files/DW.pdf)&rbrack;
 
-* [[Jerome Jenquin]], _Spin Chern-Simons and Spin TQFTs_ ([arXiv:0605239](http://arxiv.org/abs/math/0605239))
+Further discussion
 
-For [[abelian group|abelian]] [[gauge groups]] ([[abelian Chern-Simons theory]]) Spin Chern-Simons theory is discussed in
+for general ([[compact Lie group|compact]]) [[gauge groups|gauge]] [[Lie groups]]:
 
-* Dmitriy Belov, [[Gregory Moore]], _Classification of abelian spin Chern-Simons theories_ ([arXiv:hep-th/0505235](http://arxiv.org/abs/hep-th/0505235))
+* {#Sawin02} [[Stephen F. Sawin]]: _Invariants of Spin Three-Manifolds From Chern-Simons Theory and Finite-Dimensional Hopf Algebras_, Advances in Mathematics **165** 1 (2002) 35-70 &lbrack;[arXiv:math/9910106](http://arxiv.org/abs/math/9910106), [doi:10.1006/aima.2000.1935](https://doi.org/10.1006/aima.2000.1935)&rbrack;
 
-and with emphasis on the [[holography|holographically dual]] [[self-dual higher gauge theory]] in
+* [[Jerome Jenquin]], _Classical Chern-Simons on manifolds with spin structure_ &lbrack;[arXiv:0504524](http://arxiv.org/abs/math/0504524)&rbrack;
 
-* {#BelovMoore06} Dmitriy Belov, [[Gregory Moore]], _Holographic Action for the Self-Dual Field_ ([arXiv:hep-th/0605038](http://arxiv.org/abs/hep-th/0605038))
+* [[Jerome Jenquin]], _Spin Chern-Simons and Spin TQFTs_ &lbrack;[arXiv:0605239](http://arxiv.org/abs/math/0605239)&rbrack;
 
-This is based on work by Witten and Hopkins-Singer, see the references at _[[self-dual higher gauge theory]]_.
+
+Specifically for [[abelian group|abelian]] [[gauge groups]] ([[abelian Chern-Simons theory]]):
+
+* Dmitriy Belov, [[Gregory Moore]]: _Classification of abelian spin Chern-Simons theories_ &lbrack;[arXiv:hep-th/0505235](http://arxiv.org/abs/hep-th/0505235)&rbrack;
+
+and with emphasis on the [[holography|holographically dual]] [[self-dual higher gauge theory]]:
+
+* {#BelovMoore06} Dmitriy Belov, [[Gregory Moore]], _Holographic Action for the Self-Dual Field_ &lbrack;[arXiv:hep-th/0605038](http://arxiv.org/abs/hep-th/0605038)&rbrack;
+
+  (based on work by Witten and Hopkins-Singer, see the references at _[[self-dual higher gauge theory]]_).
 
 
 [[!redirects spin Chern-Simons theory]]
