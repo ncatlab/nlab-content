@@ -51,10 +51,15 @@ See also the references at _[[cosmic inflation]]_.
 
 See also
 
-* Wikipedia, _[Cosmic microwave backround radiation](http://en.wikipedia.org/wiki/Cosmic_microwave_background_radiation)_
+* Wikipedia: _[Cosmic microwave backround radiation](http://en.wikipedia.org/wiki/Cosmic_microwave_background_radiation)_
+
+* [[Cliff P. Burgess]], S. P. de Alwis, [[Fernando Quevedo]]: *Cosmological Trans-Planckian Conjectures are not Effective*, Journal of Cosmology and Astroparticle Physics **2021** (2021) &lbrack;[arXiv:2011.03069](https://arxiv.org/abs/2011.03069), [doi:10.1088/1475-7516/2021/05/037](https://doi.org/10.1088/1475-7516/2021/05/037)&rbrack;
 
 
-### On the hydron line
+
+### On the hydrogen line
+
+On the [[hydrogen line]]
 
 * {#HiganRees79} C. J. Hogan, [[Martin Rees]], _Spectral appearance of non-uniform gas at high $z$_, Monthly Notices of the Royal Astronomical Society, Volume 188, Issue 4, 1 October 1979, Pages 791–798 ([doi:10.1093/mnras/188.4.791]( https://doi.org/10.1093/mnras/188.4.791))
 
