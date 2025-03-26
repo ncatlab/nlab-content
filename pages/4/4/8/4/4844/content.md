@@ -1,7 +1,10 @@
 
-* [website](http://staff.science.uva.nl/~rhd/)
+* [personal page](http://www.robbertdijkgraaf.com/html/EN-H.html)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Robbert_Dijkgraaf)
+
+* [inSpire page](https://inspirehep.net/authors/1011785)
+
 
 ## Selected writings
 
@@ -11,9 +14,9 @@ Review of [[perturbative quantization of 3d Chern-Simons theory]]:
 
 On [[Dijkgraaf-Witten theory]]:
 
-* {#DijkgraafWitten90} [[Robbert Dijkgraaf]], [[Edward Witten]], _[[DW.pdf:file]]_, Commun. Math. Phys. __129__ (1990), 393
+* {#DijkgraafWitten90} [[Robbert Dijkgraaf]], [[Edward Witten]]: *Topological Gauge Theories and Group Cohomology*, Commun. Math. Phys. **129** (1990) 393 &lbrack;[doi:10.1007/BF02096988](https://doi.org/10.1007/BF02096988), [euclid:cmp/1104180750](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-129/issue-2/Topological-gauge-theories-and-group-cohomology/cmp/1104180750.full), [pdf](/nlab/files/DW.pdf)&rbrack;
 
-* [[Robbert Dijkgraaf]], V. Pasquier, P. Roche, _QuasiHopf algebras, group cohomology and orbifold models_, Nucl. Phys. B Proc. Suppl. __18B__ (1990), 60-72; _Quasi-quantum groups related to orbifold models_, Modern quantum field theory (Bombay, 1990), 375&#8211;383, World Sci. 1991
+* [[Robbert Dijkgraaf]], V. Pasquier, P. Roche, _Quasi-Hopf algebras, group cohomology and orbifold models_, Nucl. Phys. B Proc. Suppl. __18B__ (1990), 60-72; _Quasi-quantum groups related to orbifold models_, Modern quantum field theory (Bombay, 1990), 375&#8211;383, World Sci. 1991
 
 On [[Drinfeld doubles]] of [[quasi-Hopf algebras]], motivated from [[rational conformal field theory|rational]] [[orbifold]] [[conformal field theories]]:
 
@@ -55,5 +58,7 @@ On [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]:
 ## Related entries
 
 * [[Dijkgraaf-Witten theory]]
+
+* [[spin Chern-Simons theory]]
 
 category: people
