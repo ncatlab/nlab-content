@@ -40,6 +40,21 @@ The [[orientation|oriented]]
 
 (cf. [Kinsey 1991 Thm. 4.14](#Kinsey91), [Gallier & Xu 2013 Thm 6.3](#GallierXu13), [Thm. 4.14](#BBR21))
 
+\begin{imagefromfile}
+    "file_name": "Hatcher-ClosedSurfaceDecomposition.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    },
+    "caption": "From [Hatcher 2002 p 5](#Hatcher02)"
+\end{imagefromfile}
+
+
 {#FundamentalPolygons} Here the closed oriented surface $\Sigma^2_g$ of genus $g$ may be obtained from the [[regular polygon|regular $4g$-gon]] by identifying 
 
 * all the [[boundary]] [[vertices]] with a single point, 
@@ -53,6 +68,9 @@ and, going clockwise for $k \in \{0, \cdots, g-1\}$,
 <center>
 <img src="/nlab/files/FundamPolygonsForOrntdClosedSurfaces.jpg" width="420">
 </center>
+
+
+
 
 
 
@@ -209,9 +227,42 @@ $$
 (cf. [Gallier & Xu 2013 p 100](#GallierXu13), [Actipes 2013 Thm. 6.3](#Actipes13)).
 
 
+### CoHomology
+ {#CoHomology}
+
+\begin{proposition}
+  The [[ordinary homology]] with [[integer]] [[coefficients]] of a [[closed manifold|closed]] [[orientation|oriented]] surface $\Sigma_g$ of [[genus of a surface|genus]] $G$ is the [[free abelian group]] on $2g$ generators:
+$$
+  H_1\big(
+    \Sigma_g
+    ;\,
+    \mathbb{Z}
+  \big)
+  \;\simeq\;
+  \mathbb{Z}^{2g}
+  \,.
+$$
+\end{proposition}
+(e.g. [Giblin 1977 Thm 6.13](#Giblin77))
+
+By the [[universal coefficient theorem]] the analogous result holds for the [[integral cohomology]]
+$$
+  H^1\big(
+    \Sigma_g
+    ;\,
+    \mathbb{Z}
+  \big)
+  \;\simeq\;
+  \mathbb{Z}^{2g}
+  \,.
+$$
+
+
 ## Examples
 
 * [[plane]]
+
+* [[disk]], [[annulus]]
 
 * [[sphere]]
 
@@ -245,6 +296,7 @@ $$
 [[!include low dimensional manifolds -- table]]
 
 
+
 ## References
 
 Monographs:
@@ -256,6 +308,12 @@ Monographs:
 * {#GallierXu13} [[Jean Gallier]], [[Dianna Xu]]: *A Guide to the Classification Theorem for Compact Surfaces*, Springer (2013) &lbrack;[doi:10.1007/978-3-642-34364-3](https://doi.org/10.1007/978-3-642-34364-3), [Wikipedia entry](https://en.wikipedia.org/wiki/A_Guide_to_the_Classification_Theorem_for_Compact_Surfaces)&rbrack;
 
 * {#BBR21} Clark Bray, Adrian Butcher, Simon Rubinstein-Salzedo, chapters 2 & 4 of: *Algebraic Topology*, Springer (2021) \[<a href="https://doi.org/10.1007/978-3-030-70608-1">doi:10.1007/978-3-030-70608-1</a>, [pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-70608-1.pdf)\]
+
+In the broader context of [[algebraic topology]]:
+
+* {#Giblin77} P. J. Giblin: *Graphs, Surfaces and Homology -- An Introduction to Algebraic Topology*, Chapman and Hall (1977) &lbrack;[doi:10.1007/978-94-009-5953-8](https://doi.org/10.1007/978-94-009-5953-8)&rbrack;
+
+* {#Hatcher02} [[Allen Hatcher]]: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
 
 See also:
@@ -270,6 +328,8 @@ See also:
 
 
 Review and exposition of the classification of surfaces by fundamental [[polygons]]:
+
+* [Giblin 1977](#Giblin77), chapter 2
 
 * E. C. Zeeman: *An Introduction to Topology -- The Classification theorem for Surfaces* &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/surgery/zeeman.pdf), [pdf](https://www.maths.ed.ac.uk/~v1ranick/surgery/ecztop.pdf), [[Zeeman-ClassificationOfSurfaces.pdf:file]]&rbrack;
 
