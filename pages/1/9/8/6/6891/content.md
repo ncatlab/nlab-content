@@ -20,14 +20,14 @@
 
 ## Definition
 
-In the general terminology of _$n$-[[framing]]_ then a _2-framing_ of a [[manifold]] $\Sigma$ of [[dimension]] $d \leq 2$ is a trivialization of $T \Sigma \oplus \mathbb{R}^{2-d}$.
+In the general terminology of _$n$-[[framing]]_, a _2-framing_ of a [[manifold]] $\Sigma$ of [[dimension]] $d \leq 2$ is a trivialization of $T \Sigma \oplus \mathbb{R}^{2-d}$.
 
-In ([Atiyah 90](#Atiyah1990)) the term "2-framing" is instead used for a trivialization of the double of the tangent bundle of a 3-manifold. So this is a different concept, but it turns out to be closely related to the _3-framing_ (in the previous sense) of surfaces.
+In [Atiyah 90](#Atiyah1990) the term "2-framing" is instead used for a trivialization of the double of the tangent bundle of a 3-manifold. So this is a different concept, but it turns out to be closely related to the _3-framing_ (in the previous sense) of surfaces.
 
 For $X$ a [[compact space|compact]], [[connected]], [[orientation|oriented]] 3-[[dimension|dimensional]] [[manifold]], write 
 
 $$
-  2 T X := T X \oplus T X
+  2 T X \coloneqq T X \oplus T X
 $$
 
 for the [[direct sum of vector bundles|fiberwise direct sum]] of the [[tangent bundle]] with itself. Via the [[diagonal]] embedding
@@ -111,7 +111,7 @@ $$
 
 In ([Atiyah](#Atiyah1990)) it is shown how a framing on a compact connected oriented 3-manifold $X$ is induced by a 4-manifold $Z$ with [[boundary]] $\partial Z \simeq X$. In fact, a framing is equivalently a choice of [[cobordism]] class of bounding 4-manifolds ([Kerler](#Kerler)).
 
-Discussion of 2-framing entirely in terms of bounding 4-manifolds is for instance in ([Sawin](#Sawin)).
+Discussion of 2-framing entirely in terms of bounding 4-manifolds is for instance in [Sawin 2004](#Sawin04).
 
 ### Relation to String-structures
  {#RelationToStringStructures}
@@ -134,6 +134,7 @@ This perspective on Atiyah 2-framings is made explicit in ([Bunke-Naumann, secti
 
 * [[p1-structure]], [[string structure]].
 
+* [[spin Chern-Simons theory]]
 
 ## References
 
@@ -171,25 +172,22 @@ The relation to $p_1$-structure is made explicit in
 
 
 
-More discussion in terms of bounding 4-manifolds is in 
+More discussion in terms of bounding 4-manifolds:
 
 * {#Kerler}Thomas Kerler, _Bridged links and tangle presentations of cobordism categories_. Adv. Math., 141(2):207&#8211;281, (1999) ([arXiv:math/9806114](http://arxiv.org/abs/math/9806114))
  
-
-* {#Sawin} Stephen F. Sawin, _Three-dimensional 2-framed TQFTS and surgery_ (2004) ([pdf](http://digitalcommons.fairfield.edu/cgi/viewcontent.cgi?article=1020&context=mathandcomputerscience-facultypubs))
+* {#Sawin04} [[Stephen F. Sawin]]: *Three-dimensional 2-framed TQFTS and surgery*,  Journal of Knot Theory and its Ramifications **13** 7 (2004) 947-996 &lbrack;[pdf](http://digitalcommons.fairfield.edu/cgi/viewcontent.cgi?article=1020&context=mathandcomputerscience-facultypubs), [doi:10.1142/S0218216504003536](https://doi.org/10.1142/S0218216504003536)&rbrack;
  
+* [[Stephen F. Sawin]], page 9 of: _Invariants of Spin Three-Manifolds From Chern-Simons Theory and Finite-Dimensional Hopf Algebras_, Advances in Mathematics **165** 1 (2002) 35-70 &lbrack;[arXiv:math/9910106](http://arxiv.org/abs/math/9910106), [doi:10.1006/aima.2000.1935](https://doi.org/10.1006/aima.2000.1935)&rbrack;
+  > (cf. also at *[[spin Chern-Simons theory]]*)
 
-and page 9 of 
-
-* Stephen Sawin, _Invariants of Spin Three-Manifolds From Chern-Simons Theory and Finite-Dimensional Hopf Algebras_ ([arXiv:math/9910106](http://arxiv.org/abs/math/9910106)).
-
-and more discussion for 3-manifolds with boundary includes
+and more discussion for 3-manifolds with boundary:
 
 * {#KerlerLyubashenko01} Thomas Kerler, [[Volodymyr Lyubashenko]], section 1.6.1 of _Non-semisimple topological quantum field theories for 3-manifolds with corners_, Lecture notes in mathematics 2001
 
 See also 
 
-* [[Greg Kuperberg]], _[MO comment](http://mathoverflow.net/a/4389/381)_ 
+* [[Greg Kuperberg]]$\;$&lbrack;[MO:a/4389](http://mathoverflow.net/a/4389/381)&rbrack;
 
 [[!redirects 2-framing]]
 [[!redirects 2-framings]]
