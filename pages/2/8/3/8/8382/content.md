@@ -45,7 +45,7 @@ In Peirce's [Harvard lectures, p. 135](#Harvard), he describes the triad -- _ded
 
 * Abduction looks to explain why $M$ is $S$, having noted that $P$ is $S$, by hypothesising that $M$ is $P$.
 
-Seen from the point of view of category theory, this would seem rather like: composition, [[extension]], and [[lifting]]. Induction as a kind of extension seems quite reasonable. Abduction may account for an instance of some concept, $E$, by lifting to a concept, $C$, through a law connecting cause, $C$, to effect, $E$.
+Seen from the point of view of category theory, this would seem rather like: [[composition]], [[extension]], and [[lifting]]. Induction as a kind of extension seems quite reasonable. Abduction may account for an instance of some concept, $E$, by lifting to a concept, $C$, through a law connecting cause, $C$, to effect, $E$. See ([Corf 25](#Corf25)) for more on this perspective.
 
 
 ## References
@@ -59,6 +59,8 @@ Seen from the point of view of category theory, this would seem rather like: com
 * {#Harvard} [[Charles Peirce]], 1992, _Reasoning and the logic of things_, Harvard University Press (lectures from 1898, [book](http://www.hup.harvard.edu/catalog.php?isbn=9780674749672))
 
 * Peter Krause, _Presupposition and abduction in type theory_, In Working Notes of. CLNLP-95: Computational Logic and Natural Language Processing. 
+
+* {#Corf25} [[David Corfield]], _Charles Peirce, Inference, and Category Theory_ &lbrack;[slides](https://ncatlab.org/davidcorfield/show/Charles+Peirce%2C+Inference%2C+and+Category+Theory)&rbrack;
 
 [[!redirects abduction]]
 [[!redirects abductive reasoning]]
