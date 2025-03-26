@@ -76,4 +76,11 @@ For [[electromagnetism]]:
 
 * {#BorsboomPosthuma15} Silvester Borsboom, [[Hessel Posthuma]]: *Global Gauge Symmetries and Spatial Asymptotic Boundary Conditions in Yang-Mills theory* &lbrack;[arXiv:2502.16151](https://arxiv.org/abs/2502.16151)&rbrack;
 
+See also:
+
+* Antoine Rignon-Bret, [[Simone Speziale]]: *General covariance and boundary symmetry algebras* &lbrack;[arXiv:2403.00730](https://arxiv.org/abs/2403.00730)&rbrack;
+
+
+
+
 [[!redirects asymptotic symmetries]]
