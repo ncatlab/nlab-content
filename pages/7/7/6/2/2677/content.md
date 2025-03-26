@@ -134,9 +134,11 @@ After the very first observations by Tits, pioneers were [[Christophe Soulé]] a
 
 * {#Lorscheid14} [[Oliver Lorscheid]], _Lectures on $\mathbb{F}_1$_, 2014 ([pdf](http://www.impa.br/~lorschei/Lectures_on_F1.pdf))
 
-* [[Oliver Lorscheid]], _$\mathbb{F}_1$ for everyone_, 2018 ([arXiv:1801.05337](https://arxiv.org/abs/1801.05337))
+* [[Tim Hosgood]]: _Under $\mathop{Spec}\mathbb{Z}$: a reader's companion_, Master Thesis, Oxford (2016) &lbrack;[pdf](https://thosgood.com/assets/files/under-spec-z.pdf), [[Hosgood-UnderSpecZ.pdf:file]]&rbrack;
 
-* [[Tim Hosgood]], _Under $\mathop{Spec}\mathbb{Z}$: a reader's companion_, master thesis, 2016 ([pdf](https://thosgood.com/assets/files/under-spec-z.pdf)).
+
+
+* [[Oliver Lorscheid]], _$\mathbb{F}_1$ for everyone_, 2018 ([arXiv:1801.05337](https://arxiv.org/abs/1801.05337))
 
 
 
