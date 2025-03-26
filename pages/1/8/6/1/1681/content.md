@@ -254,7 +254,7 @@ That Eilenberg-MacLane spaces represent [[ordinary cohomology]] is due to:
 
 Early review is in
 
-* [[Norman Steenrod]], Section 19 of: _Cohomology operations, and obstructions to extending continuous functions_,  Advances in Math. 8, 371&#8211;416. (1972)  (<a href="https://doi.org/10.1016/0001-8708(72)90004-7">doi:10.1016/0001-8708(72)90004-7</a>, [pdf](http://www.maths.ed.ac.uk/%7Eaar/papers/steen6.pdf))
+* [[Norman Steenrod]], Section 19 of: _Cohomology operations, and obstructions to extending continuous functions_,  Advances in Math. **8** (1972) 371-416  \[<a href="https://doi.org/10.1016/0001-8708(72)90004-7">doi:10.1016/0001-8708(72)90004-7</a>, [pdf](http://www.maths.ed.ac.uk/%7Eaar/papers/steen6.pdf)\]
 
 
 Textbook accounts:
