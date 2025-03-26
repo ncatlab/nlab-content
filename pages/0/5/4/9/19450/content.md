@@ -31,6 +31,16 @@ Specifically, the objects of this category are pairs $(X, R)$ where $X$ is a sor
 
 In the case where the original hyperdoctrine was in fact a [[tripos]], the resulting category of PERs will be a [[topos]] (while the converse isn't quite true, the condition of being a tripos is just slightly stronger than necessary for this to happen).
 
+## Relationship with exact completions
+
+The construction of partial equivalence relations is part of the [[tripos]] to [[topos]] construction. The following universal property is noted by Maietti and Rosolini (2012). 
+
+Let $\mathbf{Ex}$ be the (bi-)category of [[exact categories]] and [[regular functors]] between them. There is also a $\mathbf{EED}$ of elementary existential doctrines (aka [[regular hyperdoctrines]]). There is a forgetful functor  $\mathbf{Ex} \to \mathbf{EED}$, mapping an exact category to its doctrine of [[subobjects]]. The construction of PERs forms a left adjoint to this functor. 
+
+## References
+
+* [[Maria Maietti]] and [[Giuseppe Rosolini]], Unifying exact completions. Applied Categorical Structures, 2012. arxiv:[1212.0966 ](https://arxiv.org/abs/1212.0966)
+
 [[!redirects categories of PERs]]
 [[!redirects category of partial equivalence relations]]
 [[!redirects categories of partial equivalence relations]]
