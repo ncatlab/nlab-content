@@ -1,4 +1,5 @@
-[website](https://sites.google.com/view/jacoruit/home)
+
+* [personal page](https://sites.google.com/view/jacoruit/home)
 
 ## Selected writings
 
@@ -16,3 +17,6 @@ On [[formal category theory]] in the setting of higher categories:
 ## See also
 
 * [[straightening functor]]
+
+
+category: people
