@@ -1,4 +1,12 @@
-[website](https://folk.ntnu.no/gereonq/)
+
+* [personal page](https://gereonq.folk.ntnu.no/)
+
+* [institute page](https://www.ntnu.edu/employees/gereon.quick)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=KpTGv8wAAAAJ&hl=en)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=91400)
+
 
 ## Selected writings
 
