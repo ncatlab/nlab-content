@@ -25,5 +25,10 @@ On the [[Coulomb branch]] of [[D=3 N=4 SYM]] from [[heterotic string theory]] on
 * [[Michele Del Zotto]], [[Marco Fazzi]], Suvendu Giri, *A new vista on the Heterotic Moduli Space from Six and Three Dimensions* &lbrack;[arXiv:2307.10356](https://arxiv.org/abs/2307.10356)&rbrack;
 
 
+On [[geometric engineering of QFTs]] cast in "[[generalized symmetry]]" language:
+
+* [[Michele Del Zotto]], Shani Nadir Meynet, Robert Moscrop: *Remarks on Geometric Engineering, Symmetry TFTs and Anomalies* &lbrack;[arXiv:2503.19022](https://arxiv.org/abs/2503.19022)&rbrack;
+
+
 
 category: people
