@@ -3902,6 +3902,19 @@ Neumann algebras**
 
   > I will highlight some tensions in the treatment of [[higher form symmetries]], when the theory possesses a $(d-1)$-form symmetry. I will then show how, for invertible symmetries, the tensions are automatically resolved dealing with $(-1)$-form symmetries in the formalism of [[gerbes]]. After this general introduction and motivation, I will review the [[geometric engineering of QFT|geometric engineering]] of [[defects]] in [[M-theory]]. I will then proceed to obtain the SymTFT of M-theory compactifications, using [[differential cohomology]] as the main tool. In this way, I will provide a comprehensive treatment of defects and symmetries via geometric engineering, and derive the $(-1)$-form symmetries and their [[quantum anomaly|anomalies]] from this perspective. I will conclude with explicit examples and dynamical applications.
 
+\linebreak
+
+* {#HosgoodMar2025} 26 Mar 2025
+
+  [[Tim Hosgood]] (Topos Institute, Oxford, UK):
+
+  **Čech data for holomorphic Chern classes**
+
+  cf.: [arXiv:2003.10023](https://arxiv.org/abs/2003.10023)
+
+  > Given a [[complex manifold]] and a [[coherent sheaf|coherent]] analytic [[sheaf]], it is of interest to construct the corresponding [[Chern classes]] in some [[cohomology theory]]. In (truncated) [[de Rham cohomology]], things can be done explicitly: one can write down [[Cech cohomology|Čech]] representatives in terms of the [[transition functions]] of the ([[simplicial bundle|simplicial]]) [[vector bundles]] in a [[resolution]] of the [[coherent sheaf]]. In [[Deligne cohomology]] there is an abstract proof of existence, but (as far as the speaker is aware) no equally explicit construction is known. In this talk, I will explain the construction of the [[Cech cohomology|Čech data]] in [[de Rham cohomology]], and why it doesn't transfer over to [[Deligne cohomology]].
+
+  
 
 
 
@@ -4225,6 +4238,7 @@ The following is a (very) inclomplete list of selected invited presentations by 
 
 
 ***
+
 
 \linebreak
 
