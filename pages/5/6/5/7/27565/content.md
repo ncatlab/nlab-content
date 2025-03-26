@@ -48,7 +48,7 @@ writing $[a,b]$ for the internal hom.
 ## Connection with enriched categories
 
 Let $C$ be a category with products. Let $D$ be [[enriched]] in $C$ with [[copowers]]. 
-The definition of copower is that for any $d \in D$, the enriched functor $D(d,-):D\to C$ has a left adjoint, $(-\bullet d):C\to D$. This is an enriched adjunction with a parameter. 
+The definition of copower is that for any $d \in D$, the enriched hom-functor $D(d,-):D\to C$ has a left adjoint, $(-\bullet d):C\to D$. This is an enriched adjunction with a parameter. 
 
 Let $S$ be a subcategory of $D$. We can use this adjunction with parameter to define an $S$-parameterized strong monad on $C$:
 
