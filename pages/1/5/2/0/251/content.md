@@ -294,6 +294,8 @@ and $u$ is an equivalence in the vertical [[2-category]] of $A$.
 
 * [[double fibration]]
 
+* [[double infinity-category]]
+
 
 
 ## References ##
