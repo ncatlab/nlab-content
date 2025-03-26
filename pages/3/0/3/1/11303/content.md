@@ -114,6 +114,9 @@ Specifically in [[M-theory]]:
 
 * Andrea Sangiovanni, Roberto Valandro: *M-theory geometric engineering for rank-0 3d $\mathcal{N}=2$ theories* &lbrack;[arXiv:2410.13943](https://arxiv.org/abs/2410.13943)&rbrack;
 
+Cast in "[[generalized symmetry]]" language:
+
+* [[Michele Del Zotto]], Shani Nadir Meynet, Robert Moscrop: *Remarks on Geometric Engineering, Symmetry TFTs and Anomalies* &lbrack;[arXiv:2503.19022](https://arxiv.org/abs/2503.19022)&rbrack;
 
 
     
