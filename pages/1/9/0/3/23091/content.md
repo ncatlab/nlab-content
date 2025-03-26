@@ -69,7 +69,6 @@ Monographs:
 
 * {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) $[$[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]$]$
 
-
 * {#Spanier66} [[Edwin Spanier]], _Algebraic topology_, McGraw Hill (1966), Springer (1982) ([doi:10.1007/978-1-4684-9322-1](https://link.springer.com/book/10.1007/978-1-4684-9322-1))
 
 * [[William S. Massey]], *Algebraic Topology: An Introduction*, Harcourt Brace & World 1967, reprinted in: Graduate Texts in Mathematics, Springer 1977 ([ISBN:978-0-387-90271-5](https://link.springer.com/book/9780387902715)) 
@@ -78,8 +77,11 @@ Monographs:
 
 * {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975 ([doi:10.1007/978-3-642-61923-6](https://link.springer.com/book/10.1007/978-3-642-61923-6))
 
-* [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer (1982) $[$[doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0)\]
+* {#Giblin77} P. J. Giblin: *Graphs, Surfaces and Homology -- An Introduction to Algebraic Topology*, Chapman and Hall (1977) \[<a href="https://doi.org/10.1007/978-94-009-5953-8">doi:10.1007/978-94-009-5953-8</a>\]
+  > (focus on [[graphs]] and [[surfaces]])
 
+
+* [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics **82**, Springer (1982) \[<a href="https://link.springer.com/book/10.1007/978-1-4757-3951-0">doi:10.1007/978-1-4757-3951-0</a>\]
   > (with focus on [[differential forms]], [[differential topology]])
 
 * [[James Munkres]], *Elements of Algebraic Topology*, Addison-Wesley (1984) $[$[pdf](https://people.dm.unipi.it/benedett/MUNKRES-ETA.pdf)\]
@@ -211,7 +213,6 @@ See also:
 * [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_, 2015
 
 * {#MunsonVolic15} [[Brian Munson]], [[Ismar Volic]], _Cubical homotopy theory_, Cambridge University Press, 2015  ([pdf](http://palmer.wellesley.edu/~ivolic/pdf/Papers/CubicalHomotopyTheory.pdf), [doi:10.1017/CBO9781139343329](https://doi.org/10.1017/CBO9781139343329))
-
   > (with emphasis on [[cubical objects]] such as in [[n-excisive functors]] and [[Goodwillie calculus]])
 
 
