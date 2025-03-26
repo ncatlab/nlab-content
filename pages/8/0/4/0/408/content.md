@@ -87,6 +87,8 @@ This 2-multicategory can also be promoted to a 2-[[polycategory]]; see [Shulman]
 
 * [[Quillen bifunctor]]
 
+* [[parameterized monad]]
+
 ## References
 
 Under the name "*adjunction with a parameter*" the concept appears in p. 102 of:
