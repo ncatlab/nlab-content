@@ -28,6 +28,11 @@ On [[supergravity]] [[phenomenology]] in relation to [[dark energy]]/[[cosmologi
 * Y. Aghababaie, [[Cliff P. Burgess]], S.L. Parameswaran, [[Fernando Quevedo]]: *Towards a Naturally Small Cosmological Constant from Branes in 6D Supergravity*,   Nucl. Phys.  B **680** (2004) 389-414 &lbrack;[arXiv:hep-th/0304256](https://arxiv.org/abs/hep-th/0304256), [doi:10.1016/j.nuclphysb.2003.12.015](https://doi.org/10.1016/j.nuclphysb.2003.12.015)&rbrack;
 
 
+On trans-Planckian phenomena in the [[cosmic microwave background radiation]]:
+
+* [[Cliff P. Burgess]], S. P. de Alwis, [[Fernando Quevedo]]: *Cosmological Trans-Planckian Conjectures are not Effective*, Journal of Cosmology and Astroparticle Physics **2021** (2021) &lbrack;[arXiv:2011.03069](https://arxiv.org/abs/2011.03069), [doi:10.1088/1475-7516/2021/05/037](https://doi.org/10.1088/1475-7516/2021/05/037)&rbrack;
+
+
 On the [[phenomenology]] of [[supergravity]] coupled to the (non-supersymmetric) [[standard model of particle physics]]:
 
 * [[Cliff P. Burgess]], [[Fernando Quevedo]]: *Who's Afraid of the Supersymmetric Dark? The Standard Model vs Low-Energy Supergravity*, Fortschr. Physik **70** 7-8 (2022) 2200077 &lbrack;[arXiv:2110.13275](https://arxiv.org/abs/2110.13275), [doi:10.1002/prop.202200077](https://doi.org/10.1002/prop.202200077)&rbrack;
@@ -36,6 +41,7 @@ On the [[phenomenology]] of [[supergravity]] coupled to the (non-supersymmetric)
 On [[moduli stabilization]] in [[string theory]]:
 
 * [[Liam McAllister]], [[Fernando Quevedo]], *Moduli Stabilization in String Theory*, in: *[[Handbook of Quantum Gravity]]* &lbrack;[arXiv:2310.20559](https://arxiv.org/abs/2310.20559)&rbrack;
+
 
 On the [[standard model of particle physics]]:
 
