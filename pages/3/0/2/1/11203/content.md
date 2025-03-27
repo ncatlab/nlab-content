@@ -62,6 +62,13 @@ Theoretical introduction and review:
 
 * {#Timm20} [[Carsten Timm]], *Theory of Superconductivity*, lecture notes (2020-2023) &lbrack;[pdf](https://tu-dresden.de/mn/physik/itp/cmt/ressourcen/dateien/skripte/Skript_Supra.pdf?lang=en), [[Timm-Superconductivity.pdf:file]]&rbrack;
 
+Via [[effective field theory]]:
+
+Via [[effective field theory]]:
+
+* [[Eduardo C. Marino]]: *Quantum Field Theory Approach to Superconductivity*, chapter 23 in: *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
+
+
 
 See also:
 
