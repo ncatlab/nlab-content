@@ -6,7 +6,7 @@ This entry collects material related to the book
 
   Vol. 55, AMS Bookstore, 2008 
 
-  [pdf](http://www.alainconnes.org/docs/bookwebfinal.pdf)
+  [pdf](https://www.its.caltech.edu/~matilde/coll-55.pdf)
 
 on [[noncommutative geometry]], [[quantum field theory]] and [[motives in physics]].
 
