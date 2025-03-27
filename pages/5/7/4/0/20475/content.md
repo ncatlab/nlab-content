@@ -49,6 +49,11 @@ See also
 
 * Wikipedia, _[Chaos theory](https://en.wikipedia.org/wiki/Chaos_theory)_
 
+On quantum chaos in terms of [[free probability|free]] [[quantum probability]]
+
+* Hugo A. Camargo, Yichao Fu, Viktor Jahnke, Kuntal Pal, Keun-Young Kim: *Quantum Signatures of Chaos from Free Probability* &lbrack;[arXiv:2503.20338](https://arxiv.org/abs/2503.20338)&rbrack;
+
+
 ### Concerning mathematical structure
  {#ConcerningMathematicalStructures}
 
