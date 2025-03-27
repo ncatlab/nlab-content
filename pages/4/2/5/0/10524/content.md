@@ -35,9 +35,16 @@ Graphene is one of the [[solid]] [[phase of matter|phases]] of [[carbon]], appea
 
 * [[quantum material]]
 
+
+
 ## References
 
 ### General
+
+Textbook account:
+
+* [[Eduardo C. Marino]]: *Graphene*, chapter 27 in: *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
+
 
 The [[electronic band structure]] of graphene (reviewed in [WZLLJHD 12](#WZLLJHD12)) was predicted (long before the term was coined) already in 
 
@@ -51,7 +58,7 @@ The synthesis/detection of graphene is due to
 
 Further discussion of the [[electron band structure]] of graphene:
 
-* A. H. Castro Neto, F. Guinea, N. M. R. Peres, [[Konstantin S. Novoselov]], and [[Andre K. Geim]], *The electronic properties of graphene*, Rev. Mod. Phys. **81** (2009) 109 $[$[doi:10.1103/RevModPhys.81.109](https://doi.org/10.1103/RevModPhys.81.109)$]$
+* A. H. Castro Neto, F. Guinea, N. M. R. Peres, [[Konstantin S. Novoselov]], and [[Andre K. Geim]], *The electronic properties of graphene*, Rev. Mod. Phys. **81** (2009) 109 &lbrack;[doi:10.1103/RevModPhys.81.109](https://doi.org/10.1103/RevModPhys.81.109)&rbrack;
 
 
 
