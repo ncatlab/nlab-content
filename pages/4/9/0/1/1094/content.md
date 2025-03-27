@@ -83,7 +83,7 @@ Now we invoke the following results:
 
 Notice that an object is a [[local object]] with respect to the above set of  morphisms $W$ precisely if it is local with respect to the set of all [[small set|small]] [[colimit|colimits]] (in the [[arrow category]] $Arr(PSh(C))$ ) of such morphims (since the [[hom-functor]] $PSh_C(-,A)$ sends colimits in the first argument to [[limit|limits]], and a limit of [[isomorphism|isomorphisms]] is an isomorphism).
 
-Let hence $\bar W$ be the completion of $A$ under forming small colimits in $Arr(PSh(C))$.
+Let hence $\bar W$ be the completion of $W$ under forming small colimits in $Arr(PSh(C))$.
 
 We claim that the morphisms in $\bar W$ form a [[calculus of fractions]]. The first condition to check is that for all morphisms of presheaves $X \to j(U)$ and every covering family $\{U_i \to U\}$ there is a morphism $Y \to X$ in $\bar W$ and a [[commuting diagram]]
 
