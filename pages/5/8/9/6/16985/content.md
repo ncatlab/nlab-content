@@ -61,4 +61,9 @@ The realization in [[M-theory]] at the level of super [[rational homotopy theory
 
 * {#FiorenzaSatiSchreiber18b} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Higher T-duality in M-theory via local supersymmetry]]_, Physics Letters B Volume 781, 10 June 2018, Pages 694-698 ([arXiv:1805.00233](https://arxiv.org/abs/1805.00233), [doi:10.1016/j.physletb.2018.04.058](https://doi.org/10.1016/j.physletb.2018.04.058))
 
+See also:
+
+* [[Gil R. Cavalcanti]]: *T-duality for transgressive fibrations* &lbrack;[arXiv:2503.20143](https://arxiv.org/abs/2503.20143)&rbrack;
+
+
 [[!redirects spherical T-dualities]]
