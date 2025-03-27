@@ -42,11 +42,11 @@ If we want to use the monolateral sequent calculus (or proof nets), formulas mus
 * We have $1^\perp = \bot$.
 * We have $\bot^\perp = 1$.
 
-Notice that some equalities are implied by other ones and thus we could give a shorter list. We have preferred writting directly all the equalities of pratical use.
+Notice that some equalities are implied by other ones and thus we could give a shorter list. We have preferred writing directly all the equalities of practical use.
 
 ### Inference rules - Bilateral syntax
 
-Inference rules will allow us to build proofs. Notice that compared to MELL, we need the ability to sum proofs. We give an explicit rule for this summation of proofs. We give also a rule for null proofs. Finally, the new inference rules are: coderiliction, cocontraction, coweakening, sum of proofs, null proof.
+Inference rules will allow us to build proofs. Notice that compared to MELL, we need the ability to sum proofs. We give an explicit rule for this summation of proofs. We give also a rule for null proofs. Finally, the new inference rules are: codereliction, cocontraction, coweakening, sum of proofs, null proof.
 
 * Axiom: $\frac{}{A \vdash A}^{ax}$
 * Left exchange: $\frac{\Gamma_{1},A,B,\Gamma_{2} \vdash \Delta}{\Gamma_{1},B,A,\Gamma_{2} \vdash \Delta}$
@@ -86,7 +86,7 @@ $
 
 ## Cut elimination
 
-There is a [[rewriting system]] which, given an instance of the cut rule in a proof, reduces the proof by making the cut go higher in the proof. There is the key cases which induce important commuting diagrams in the categorical semantics and the commuting cases which are less important. The idea is that when a cut arrives at the beginning of the proof, ie. at the level of the leafs which are axioms, we can finally eliminate it by a last rewriting step. This is when the cut is made against an axiom rule, that we can eliminate it. We know that this rewriting system is [[strongly normalizing]] and that the [[normal forms]] are the cut-free proofs. It means that by using rewriting rules in the order you want, at the end you obtain a proof without cut, thus the name [[cut-elimination]]. It is important to know actually this rewriting system and not only that we can eleminate the cuts in a proof because this cut-elimination prodecure creates the commuting diagrams of the categorical semantics when we quotient the proofs by these cut-elimination steps.
+There is a [[rewriting system]] which, given an instance of the cut rule in a proof, reduces the proof by making the cut go higher in the proof. There are key (principal) cases which induce important commuting diagrams in the categorical semantics and there are commuting cases which are less important. The idea is that when a cut arrives at the beginning of the proof, i.e. at the level of the leaves which are axioms, we can finally eliminate it by a last rewriting step. This is, when the cut is made against an axiom rule, that we can eliminate it. We know that this rewriting system is [[strongly normalizing]] and that the [[normal forms]] are the cut-free proofs. It means that by using rewriting rules in the order you want, at the end you obtain a proof without cut, thus the name [[cut-elimination]]. It is important to know actually this rewriting system and not only that we can eliminate the cuts in a proof because this cut-elimination procedure creates the commuting diagrams of the categorical semantics, when we quotient the proofs by these cut-elimination steps.
 
 ### Cut elimination steps
 
@@ -96,12 +96,12 @@ There is a [[rewriting system]] which, given an instance of the cut rule in a pr
 
 ### Categorical semantics
 
-We need a [[*-autonomous category]] in order to interpret the connectors and rules related to these connectors: $\otimes, \parr, 1, \bot, {}^{\perp}$.
+We need a [[*-autonomous category]] in order to interpret the connectives and rules related to these connectives: $\otimes, \parr, 1, \bot, {}^{\perp}$.
 
-This category must be enriched over commutative monoids in order to be able to interpret sum of proofs and null proofs.
+This category must be enriched over commutative monoids in order to be able to interpret the sum of proofs and null proofs.
 
 \begin{definition}
-We say that a [[*-autonomous category]] $\mathcal{C}$ is enriched over commutative monoids if it is enriched over commutative monoids as a [[symmetric monoidal category]] ie. every hom-set $\mathcal{C}[A,B]$ is a commutative monoid and $-\otimes-$ as well as $-;-$ are bilinear over morphisms ie. preserve addition and zero in every variable.
+We say that a [[*-autonomous category]] $\mathcal{C}$ is enriched over commutative monoids if it is enriched over commutative monoids as a [[symmetric monoidal category]] i.e. every hom-set $\mathcal{C}[A,B]$ is a commutative monoid and $-\otimes-$ as well as $-;-$ are bilinear over morphisms i.e. preserve addition and zero in every variable.
 \end{definition}
 
 The tricky part is to interpret the exponentials $!,?$. We just need to add enough to interpret $!$, the interpretation of $?$ will follow by the $*$-autonomous structure. We need:
