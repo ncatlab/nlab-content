@@ -671,7 +671,7 @@ Introducing **[[abelian Chern-Simons theory]]** to the picture:
 
 
 
-[[!include abelian Chern-Simons for fractional quantum Hall effect -- references ]]
+[[!include abelian Chern-Simons for fractional quantum Hall effect -- references]]
 
 
 
