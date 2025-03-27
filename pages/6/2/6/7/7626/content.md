@@ -36,7 +36,7 @@ But the actual mathematical nature of anyons must be different from that of elem
 
 1. {#AnyonicDefects} **anyonic defects** like [[vortices]] or other [[solitons]], whose position is a [[parameterized quantum system|classical parameter]] to the [[quantum system]], the *[[quantum adiabatic theorem|adiabatic movement]]* of which acts by [[Berry phases]] on the quantum [[ground state]].
 
-    > (e.g. [Avros, Schrieffer & Wilczek 1984](#AvrosSchriefferWilczek84), see [further below](#AsBraidingOfDefects))
+    > (e.g. [Arovas, Schrieffer & Wilczek 1984](#ArovasSchriefferWilczek84), see [further below](#AsBraidingOfDefects))
 
 
 
@@ -132,7 +132,7 @@ But [[defects]] are a kind of [[boundary conditions]], hence *external parameter
 
 Concretely, a widely appreciated proposal ([Moore & Read 1991](#MooreRead91), [Read & Rezayi 1999](#ReadRezayi99)) identifies anyonic ground state [[wavefunctions]] with [[conformal blocks]] of a [[2d CFT]] -- [[AdS3-CFT2 and CS-WZW correspondence|hence]] with [[Chern-Simons theory]] [[quantum states|states]] -- with prescribed poles at the location of the anyons.
 
-Now the [[quantum adiabatic theorem]] says that the sufficiently slow motion of such external parameters transforms the quantum [[ground state]] by [[unitary operators]] ("[[Berry phases]]", see also at *[[adiabatic quantum computation]]*). This suggests ([Avros, Schrieffer & Wilczek 1984, p. 1](#AvrosSchriefferWilczek84),  [Freedman, Kitaev, Larsen & Wang 2003, pp. 6](#FreedmanKitaevLarsenWang03), [Nayak, Simon, Stern & Freedman 2008, §II.A.2 (p. 6)](#NayakSimonSternFreedman08), [Cheng, Galitski & Das Sarma 2011, p. 1](adiabatic+quantum+computation#ChengGalitskiDasSarma11)) that:
+Now the [[quantum adiabatic theorem]] says that the sufficiently slow motion of such external parameters transforms the quantum [[ground state]] by [[unitary operators]] ("[[Berry phases]]", see also at *[[adiabatic quantum computation]]*). This suggests ([Arovas, Schrieffer & Wilczek 1984, p. 1](#ArovasSchriefferWilczek84),  [Freedman, Kitaev, Larsen & Wang 2003, pp. 6](#FreedmanKitaevLarsenWang03), [Nayak, Simon, Stern & Freedman 2008, §II.A.2 (p. 6)](#NayakSimonSternFreedman08), [Cheng, Galitski & Das Sarma 2011, p. 1](adiabatic+quantum+computation#ChengGalitskiDasSarma11)) that:
 
 \begin{definition}\label{DefectBraiding}
 **(adiabatic defect braiding)**
@@ -303,7 +303,7 @@ The term *anyon* was introduced in:
 
 Identification of anyon phases (specifically in the [[quantum Hall effect]]) as [[Berry phases]] of an [[quantum adiabatic theorem|adiabatic transport]] of anyon positions:
 
-* {#AvrosSchriefferWilczek84} [[Daniel P. Arovas]], [[John Robert Schrieffer]], [[Frank Wilczek]], _Fractional Statistics and the Quantum Hall Effect_, Phys. Rev. Lett. 53, 722 (1984) &lbrack;[doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722)&rbrack;
+* {#ArovasSchriefferWilczek84} [[Daniel P. Arovas]], [[John Robert Schrieffer]], [[Frank Wilczek]], _Fractional Statistics and the Quantum Hall Effect_, Phys. Rev. Lett. **53** 7 (1984) 722-723 &lbrack;[doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722)&rbrack;
 
 
 
