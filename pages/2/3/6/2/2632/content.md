@@ -97,7 +97,7 @@ One can formalize the idea that a quantum mechanical system is like a deformed [
 
 To every ${}^\ast$-algebra $A$ is associated its [[poset of commutative subalgebras]] $Com(A)$. Then the corresponding quantum mechanical system is a [[classical mechanical system]] [[internalization|internal]] to the [[sheaf topos]] $Sh(Com(A))$:
 
-* The $\ast$-algebra canonically induces a commuative algebra $\underline A \in Sh(Com(A))$;
+* The $\ast$-algebra canonically induces a commutative algebra $\underline A \in Sh(Com(A))$;
 
 * the (classical) [[state]]s of $\underline{A}$ in $Sh(Com(A))$ are in natural bijection with the quantum states externally on $A$;
 
