@@ -33,7 +33,7 @@ One major application of abelian Chern-Simons theory is as an [[effective field 
 ### Space of quantum states
  {#SpaceOfQuantumStates}
 
-For abelian Chern-Simons theory with $N$ [[gauge fields]] $(A_i)_{i = 1}^N$ and [[Lagrangian density]] of the form (using [[Einstein summation convention]]) $K^{i j} A_i \wedge \mathrm{d} A_j$, for $K$ an $N \times N$ *even* [[symmetric matrix]] (the diagonal entries are [[even numbers]]), the [[dimension of a vector space|dimension]] of the [[Hilbert space|Hilbert]] [[space of quantum states]] $\mathscr{H}_g$ (obtained by [[geometric quantization]], cf. *[[quantization of D=3 Chern-Simons theory]]*) over an [[orientation|orientable]] [[surface]] of [[genus of a surface|genus]] $g$ is the [[absolute value]] of the [[determinant]] of $K$ raised to the $g$th [[exponent|power]]:
+For abelian Chern-Simons theory with $N$ [[gauge fields]] $(A_i)_{i = 1}^N$ and [[Lagrangian density]] of the form (using [[Einstein summation convention]]) $K^{i j} A_i \wedge \mathrm{d} A_j$, for $K$ an $N \times N$ *even* [[integer]] [[symmetric matrix]] (the diagonal entries are [[even numbers]]), the [[dimension of a vector space|dimension]] of the [[Hilbert space|Hilbert]] [[space of quantum states]] $\mathscr{H}_g$ (obtained by [[geometric quantization]], cf. *[[quantization of D=3 Chern-Simons theory]]*) over an [[orientation|orientable]] [[surface]] of [[genus of a surface|genus]] $g$ is the [[absolute value]] of the [[determinant]] of $K$ raised to the $g$th [[exponent|power]]:
 
 $$ 
   dim(\mathscr{H}_g)
@@ -42,7 +42,7 @@ $$
   \,.
 $$
 
-(for $N=1$ see [Manoliu 1998a p 40](#Manoliu98a), for general $N$ cf. [Belov & Moore 2005 p 26](#BelovMoore05))
+(for $g = 1$ this is [Wesolowski, Hosotani & Ho 1994 (3.25)](#WesolowskiHosotaniHo94), for  $N=1$ see [Manoliu 1998a p 40](#Manoliu98a), for general $N$ this goes back to [Wen & Zee 1992 (1.2)](#WenZee92Classification), recalled in [Fradkin 2013 (14.23)](#Fradkin13), [Belov & Moore 2005 p 26](#BelovMoore05)).
 
 For the [[modular group]]-[[group action|action]] on these state spaces see at *[[integer Heisenberg group]]* the section *[Modular automorphisms](integer+Heisenberg+group#ModularAutomorphisms)* (there for $g=1$).
 
@@ -288,8 +288,10 @@ This largely concludes the traditional justification for the effective abelian C
 
 * [[Sergio Albeverio]], J. Schäfer: *Rigorous Approach to Abelian Chern-Simons Theory*, in *Groups and Related Topics*, Mathematical Physics Studies **13**,  Springer (1992) 143-152 &lbrack;[doi:10.1007/978-94-011-2801-8_12](https://doi.org/10.1007/978-94-011-2801-8_12)&rbrack;
 
-* G. Giavarini, C. P. Martin, F. Ruiz Ruiz: *Abelian Chern-Simons theory as the strong large-mass limit of topologically massive abelian gauge theory: the Wilson loop*, Nucl.Phys. B **412** (1994) 731-750 &lbrack;[arXiv:hep-th/9309049](https://arxiv.org/abs/hep-th/9309049), <a href="https://doi.org/10.1016/0550-3213(94)90397-2">doi:10.1016/0550-3213(94)90397-2</a>, [pdf](https://inis.iaea.org/collection/NCLCollectionStore/_Public/25/053/25053343.pdf)&rbrack;
+* {#WesolowskiHosotaniHo94} D. Wesolowski, Y. Hosotani, C.-L. Ho: *Multiple Chern-Simons Fields on a Torus*,  	Int. J. Mod. Phys. A **9** (1994) 969-989 &lbrack;[arXiv:hep-th/9302121](https://arxiv.org/abs/hep-th/9302121), [doi:10.1142/S0217751X94000443](https://doi.org/10.1142/S0217751X94000443)&rbrack;
 
+
+* G. Giavarini, C. P. Martin, F. Ruiz Ruiz: *Abelian Chern-Simons theory as the strong large-mass limit of topologically massive abelian gauge theory: the Wilson loop*, Nucl.Phys. B **412** (1994) 731-750 &lbrack;[arXiv:hep-th/9309049](https://arxiv.org/abs/hep-th/9309049), <a href="https://doi.org/10.1016/0550-3213(94)90397-2">doi:10.1016/0550-3213(94)90397-2</a>, [pdf](https://inis.iaea.org/collection/NCLCollectionStore/_Public/25/053/25053343.pdf)&rbrack;
 
 * {#Manoliu98a} Mihaela Manoliu: *Abelian Chern-Simons theory*, J. Math. Phys. **39** (1998) 170-206 &lbrack;[arXiv:dg-ga/9610001](https://arxiv.org/abs/dg-ga/9610001), [doi:10.1063/1.532333](https://doi.org/10.1063/1.532333)&rbrack;
 
