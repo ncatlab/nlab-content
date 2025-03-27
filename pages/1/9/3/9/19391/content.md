@@ -27,6 +27,8 @@ The semantics of linear-non-linear logic is more direct than that of intuitionis
 
 * If the linear context is restricted to having at most one variable, the judgmental structure of linear-non-linear logic coincides with [[call-by-push-value|call-by-push-value with stacks]].
 
+* [[linear-non-linear adjunction]]
+
 ## References
 
 * [[Nick Benton]], [_A mixed linear and non-linear logic: Proofs, terms and models_, CSL 1994](https://link.springer.com/chapter/10.1007/BFb0022251)
