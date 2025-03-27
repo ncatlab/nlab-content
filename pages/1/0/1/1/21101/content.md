@@ -26,6 +26,12 @@ On [[AdS/CFT in condensed matter physics]]:
 
 * Mike Blake, Yingfei Gu, [[Sean A. Hartnoll]], Hong Liu, [[Andrew Lucas]], Krishna Rajagopal, [[Brian Swingle]], [[Beni Yoshida]], *Snowmass White Paper: New ideas for many-body quantum systems from string theory and black holes* &lbrack;[arXiv:2203.04718](https://arxiv.org/abs/2203.04718)&rbrack;
 
+
+On [[effective field theory]] in [[solid state physics]]/[[condensed matter theory]]:
+
+* [[Tomáš Brauner]], [[Sean A. Hartnoll]] et al: *Snowmass White Paper: Effective Field Theories for Condensed Matter Systems*, [Snowmass 2021](https://inspirehep.net/conferences/1803127) &lbrack;[arXiv:2203.10110](https://arxiv.org/abs/2203.10110), [inSpire:2055714](https://inspirehep.net/literature/2055714)&rbrack;
+
+
 On the [[IKKT matrix model]]:
 
 * [[Sean A. Hartnoll]], Jun Liu: *The Polarised IKKT Matrix Model* &lbrack;[arXiv:2409.18706](https://arxiv.org/abs/2409.18706)&rbrack;
