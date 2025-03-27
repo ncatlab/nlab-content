@@ -94,7 +94,7 @@ Textbook accounts:
 * {#Roessler04} [[Ulrich Rößler]], _Solid State Theory: An Introduction_, Springer (2004, 2009) $[$[doi:10.1007/978-3-540-92762-4](https://link.springer.com/book/10.1007/978-3-540-92762-4)$]$
 
 
-In terms of [[quantum field theory]]:
+In terms of ([[effective quantum field theory|effective]]) [[quantum field theory]]:
 
 * [[Eduardo Fradkin]]: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) \[<a href="https://doi.org/10.1017/CBO9781139015509">doi:10.1017/CBO9781139015509</a>, ISBN:9781139015509\]
 
