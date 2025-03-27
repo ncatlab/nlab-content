@@ -200,7 +200,7 @@ Textbook accounts:
 * [[Alexander Polyakov]], Chapter V of: *Gauge Fields and Strings*, Routledge, Taylor and Francis (1987, 2021) &lbrack;[doi:10.1201/9780203755082](https://doi.org/10.1201/9780203755082), [oapen:20.500.12657/50871](https://library.oapen.org/handle/20.500.12657/50871)&rbrack;
 
 
-* David Griffiths, chapter 8 of _Introduction to Elementary Particles_ 2nd ed., 2008. ([pdf] (https://www.physics.utah.edu/~belz/phys5110/Griffiths.pdf))
+* [[David Griffiths]], chapter 8 of: _Introduction to Elementary Particles_ 2nd ed., Wiley-VCH  (2008) &lbrack;[pdf] (https://www.physics.utah.edu/~belz/phys5110/Griffiths.pdf), [pdf](https://mikefragugliacom.wordpress.com/wp-content/uploads/2016/12/introduction-to-elementary-particles-gnv64.pdf), <a href="https://en.wikipedia.org/wiki/Introduction_to_Elementary_Particles_(book)">Wikipedia entry</a>&rbrack;
 
 * {#Greensite11} Jeff Greensite, _An Introduction to the Confinement Problem_, Lecture Notes in Physics, Volume 821, 2011 ([doi:10.1007/978-3-642-14382-3](https://link.springer.com/book/10.1007%2F978-3-642-14382-3))
 
