@@ -1,6 +1,6 @@
 The *Categories mailing list* is a [mailing list](https://en.wikipedia.org/wiki/Mailing_list) on the topic of *[[category theory]]*. 
 
-The list commenced in 1990 and is still (somewhat) active. From 1990 to 2023, the mailing list was hosted by Mount Allison University (categories@mta.ca) and moderated by [[Bob Rosebrugh]]. In 2023, the mailing list was transitioned to Macquarie University (categories@mq.edu.au) and is currently moderated by [[Jean-Simon Lemay]].
+The list commenced in 1990 and is still  active. From 1990 to 2023, the mailing list was hosted by Mount Allison University (categories@mta.ca) and moderated by [[Bob Rosebrugh]]. In 2023, the mailing list was transitioned to Macquarie University (categories@mq.edu.au) and is currently moderated by [[Jean-Simon Lemay]].
 
 The journal *[[Theory and Applications of Categories]]* was [launched on the mailing list in January 1995](https://www.mta.ca/~cat-dist/catlist/1999/elec-journal).
 
