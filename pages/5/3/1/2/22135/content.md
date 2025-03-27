@@ -5,13 +5,21 @@
 
 References on [[anyon]]-excitations (satisfying [[braid group statistics]]) in the [[quantum Hall effect]] (for more on the application to [[topological quantum computation]] see the references [there](topological+quantum}computation#TopologicalQuantumComputationWithAnyons)):
 
-The prediction of [[abelian group|abelian]] [[anyon]]-excitations in the [[quantum Hall effect]] (i.e. satisfying [[braid group statistics]] in 1-dimensional [[linear representations]] of the [[braid group]]):
+The prediction of [[abelian group|abelian]] [[anyon]]-excitations in the [[quantum Hall effect]] (i.e. satisfying [[braid group statistics]] in 1-dimensional [[linear representations]] of the [[braid group]]) by computation of [[Berry phases]] of [[Laughlin wavefunctions]] via the [[quantum adiabatic theorem]]:
 
 * [[Bertrand I. Halperin]]: _Statistics of Quasiparticles and the Hierarchy of Fractional Quantized Hall States_, Phys. Rev. Lett. **52** (1984) 1583 \[<a href="https://doi.org/10.1103/PhysRevLett.52.1583">doi:10.1103/PhysRevLett.52.1583</a>\]
 
   Erratum, Phys. Rev. Lett. **52** (1984) 2390 \[<a href="https://doi.org/10.1103/PhysRevLett.52.2390.4">doi:10.1103/PhysRevLett.52.2390.4</a>\]
 
 * {#ArovasSchriefferWilczek84} [[Daniel P. Arovas]], [[John Robert Schrieffer]], [[Frank Wilczek]], *Fractional Statistics and the Quantum Hall Effect*, Phys. Rev. Lett. **53** (1984) 722 \[<a href="https://doi.org/10.1103/PhysRevLett.53.722">doi:10.1103/PhysRevLett.53.722</a>\]
+  > (for filling fraction $\nu = 1/q$)
+
+* {#Su86} W. P. Su: *Statistics of the fractionally charged excitations in the quantum Hall effect*, Phys. Rev. B **34** (1986) 1031 \[<a href="https://doi.org/10.1103/PhysRevB.34.1031">doi:10.1103/PhysRevB.34.1031</a>\]
+  > (for general filling fraction $\nu = p/q$)
+
+
+
+
 
 The original discussion of [[non-abelian group|non-abelian]] [[anyon]]-excitations in the [[quantum Hall effect]] (i.e. satisfying [[braid group statistics]] in higher dimensional [[linear representations]] of the [[braid group]], related to [[modular tensor categories]]):
 
