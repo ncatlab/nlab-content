@@ -80,15 +80,15 @@ The proof from top to bottom constructs $D$ as the "parameterized [[Kleisli cate
 
 The definitions were first spelt out in 
 
-* [[Robert Atkey]], Parameterised Notions of Computation. Journal of functional programming, 2009. [preprint at Strathclyde](https://strathprints.strath.ac.uk/34572/). 
+* [[Robert Atkey]], _Parameterised Notions of Computation._ Journal of functional programming, 2009. [preprint at Strathclyde](https://strathprints.strath.ac.uk/34572/). 
 
 The idea goes back further, for example,
 
-* [[Philip Wadler]]. Monads and composable continuations. Lisp and Symbolic Computation, 7(1):39–55, 1994.
+* [[Philip Wadler]]. _Monads and composable continuations._ Lisp and Symbolic Computation, 7(1):39–55, 1994.
 
 A connection to [[graded monads]] is given in 
 
-* [[Dominic Orchard]], [[Philip Wadler]] and [[Harley Eades III]]. Unifying graded and parameterised monads. MSFP 2020. arxiv:[2001.10274](https://arxiv.org/abs/2001.10274). 
+* [[Dominic Orchard]], [[Philip Wadler]] and [[Harley Eades III]]. _Unifying graded and parameterised monads._ MSFP 2020. arxiv:[2001.10274](https://arxiv.org/abs/2001.10274). 
 
 A treatment of both [[graded monads]] and parameterized monads is given in
 
@@ -96,4 +96,4 @@ A treatment of both [[graded monads]] and parameterized monads is given in
 
 The connection to enriched categories is discussed in Section 9 of
 
-* [[Rasmus Møgelberg]] and [[Sam Staton]], Linear Usage of State, Logical Methods in Computer Science 2014. arxiv:[1403.1477](https://arxiv.org/abs/1403.1477). 
+* [[Rasmus Møgelberg]] and [[Sam Staton]], _Linear Usage of State_, Logical Methods in Computer Science 2014. arxiv:[1403.1477](https://arxiv.org/abs/1403.1477). 
