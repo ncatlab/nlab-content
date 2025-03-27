@@ -34,7 +34,7 @@ Finally for modelling programming languages, one might require $C$ to be a [[car
 Let $S=C=\mathbf{Set}$, the [[category of sets]].
 Then the parameterized [[state monad]] is given by 
 
-$$ T(s_1,s_2,a)=(s_2\times a)^s_1$$
+$$ T(s_1,s_2,a)=(s_2\times a)^{s_1}$$
 
 ### Parameterized continuations:
 
@@ -70,7 +70,9 @@ Let $C$ be a category with products, and let $S$ be a category. The following da
 
 The proof from top to bottom constructs $D$ as the "parameterized [[Kleisli category]]" of $T$. 
 
+## Related concepts
 
+* [[graded monad]]
 
 
 
@@ -86,7 +88,7 @@ The idea goes back further, for example,
 
 A connection to [[graded monads]] is given in 
 
-* [[Dominic Orchard]], [[Philip Wadler]] and [[Harley Eades III]]. Unifying graded and parameterised monads. MSFP 2020. arxiv:[2001.10274](https://arxiv.org/pdf/2001.10274). 
+* [[Dominic Orchard]], [[Philip Wadler]] and [[Harley Eades III]]. Unifying graded and parameterised monads. MSFP 2020. arxiv:[2001.10274](https://arxiv.org/abs/2001.10274). 
 
 A treatment of both [[graded monads]] and parameterized monads is given in
 
