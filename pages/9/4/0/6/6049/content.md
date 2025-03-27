@@ -430,6 +430,10 @@ Discussion of the effect of [[T-duality]] on NS5-branes includes
 
 * [[David Tong]], _NS5-Branes, T-Duality and Worldsheet Instantons_, JHEP 0207:013,2002 ([arXiv:hep-th/0204186](https://arxiv.org/abs/hep-th/0204186))
 
+On its relation to the [[heterotic string theory|heterotic]] [[non-critical string]] and [[KO-theory]]
+
+* Iñaki Garcia-Etxebarria, [[Miguel Montero]], and [[Ángel Uranga]]. *Heterotic NS5-branes from closed string tachyon condensation.* Physical Review D 90.12 (2014): 126002. ([arXiv:1405.0009](https://arxiv.org/abs/1405.0009)).
+
 ### Relation to the M5-brane
 
 Most of the following references are more on the [[M5-brane]].
