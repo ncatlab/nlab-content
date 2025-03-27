@@ -104,7 +104,7 @@ The theorem relating these is Proposition 5.2.14 of [Barkan-Haugseng-Steinebrunn
 They define a pattern $\mathrm{Span}(\mathbb{F}_G)$ whose inert maps are backwards, active maps are forwards, and elementary objects are transitive [[orbit category|G-sets]].
 
 \begin{theorem}
-  The forgetful functor $\mathbb{F}_{G,*} \rightarrow \mathrm{Span}(\mathbb{F}_G)$ lifts to a Segal morphism of patterns, which induces an equivalence on the categories of Segal obejcts and fibrous patterns.
+  The forgetful functor $\mathbb{F}_{G,*} \rightarrow \mathrm{Span}(\mathbb{F}_G)$ lifts to a Segal morphism of patterns, which induces an equivalence on the categories of Segal objects and fibrous patterns.
 \end{theorem}
 
 * The category $\Delta^{\op}$ has two pattern structures $\Delta^{\op,\natural}, \Delta^{\op, \flat}$, which parameterize [[Segal spaces]] (i.e. [[∞-categories]]) and [[E-n algebra|E1 algebras]], respectively.
