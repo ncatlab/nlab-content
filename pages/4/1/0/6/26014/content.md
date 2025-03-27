@@ -151,6 +151,12 @@ On the extension of this notion to [[supergroup|fermionic symmetries]] see e.g.
 
 * Federico Ambrosino, Ran Luo, Yi-Nan Wang, Yi Zhang. *Understanding Fermionic Generalized Symmetries* (2024). ([arXiv:2404.12301](https://arxiv.org/abs/2404.12301)).
 
+* P. A. Grassi, S. Penati. *Super-Higher-Form Symmetries* (2025). ([arXiv:2503.16182](https://arxiv.org/abs/2503.16182)).
+
+On conserved currents (o putative global higher symmetries) coming from [[Chern-Weil theory]]
+
+* Ben Heidenreich, Jacob McNamara, Miguel Montero, Matthew Reece, Tom Rudelius, Irene Valenzuela. *Chern-Weil Global Symmetries and How Quantum Gravity Avoids Them* (2020). ([arXiv:2012.00009](https://arxiv.org/abs/2012.00009)).
+
 Further activity:
 
 * {#CategoricalSymmetries23} *Categorical Symmetries in Quantum Field Theory* (28 Aug -1 Sept 2023) &lbrack;[indico:1131193](https://indico.cern.ch/event/1131193)&rbrack;
