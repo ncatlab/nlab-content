@@ -460,6 +460,13 @@ is advantageous to represent the vortices simply by their
 
 ## Properties
 
+### Numerical relations
+
+In the FQH, the angle $\theta$ of the braiding phase equals, in units of $\pi$, the filling fraction $\nu \,mod\, 1$.
+
+For $\nu = 1/n$ this is due to [Arovas, Schrieffer & Wilczek 1984 (12)](#ArovasSchriefferWilczek84), for general $\nu$ this is noted by [Su 1986 (3)](#Su86)
+
+
 ### As a topological insulator
 
 The bulk/edge behaviour in a quantum Hall effect is is that of a [[topological insulator]]. (While topological insulator materials typically show this behaviour without the need of a strong magnetic field.)
