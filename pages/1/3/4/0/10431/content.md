@@ -65,11 +65,11 @@ The term "topological insulator" originates with:
 
 Reviews:
 
-* [[Liang Fu]], [[Charles Kane]], [[Eugene Mele]], *Topological Insulators in Three Dimensions*, Phys. Rev. Lett. **98** (2007) 106803 $[$[doi:10.1103/PhysRevLett.98.106803](https://doi.org/10.1103/PhysRevLett.98.106803)$]$
+* [[Liang Fu]], [[Charles Kane]], [[Eugene Mele]], *Topological Insulators in Three Dimensions*, Phys. Rev. Lett. **98** (2007) 106803 &lbrack;[doi:10.1103/PhysRevLett.98.106803](https://doi.org/10.1103/PhysRevLett.98.106803)&rbrack;
 
-* Rahul Roy, *Topological phases and the quantum spin Hall effect in three dimensions*, Phys. Rev. B **79** (2009) 195322 $[$[doi:10.1103/PhysRevB.79.195322](https://doi.org/10.1103/PhysRevB.79.195322)$]$
+* Rahul Roy, *Topological phases and the quantum spin Hall effect in three dimensions*, Phys. Rev. B **79** (2009) 195322 &lbrack;[doi:10.1103/PhysRevB.79.195322](https://doi.org/10.1103/PhysRevB.79.195322)&rbrack;
 
-* [[M. Zahid Hasan]], [[Charles Kane]], *Colloquium: Topological insulators*, Rev. Mod. Phys. **82** (2010) 3045 $[$[doi:10.1103/RevModPhys.82.3045](https://doi.org/10.1103/RevModPhys.82.3045)$]$
+* [[M. Zahid Hasan]], [[Charles Kane]], *Colloquium: Topological insulators*, Rev. Mod. Phys. **82** (2010) 3045 &lbrack;[doi:10.1103/RevModPhys.82.3045](https://doi.org/10.1103/RevModPhys.82.3045)&rbrack;
 
 
 * [[Joel E. Moore]], *The birth of topological insulators*, Nature volume 464, pages 194–198 (2010) ([doi:10.1038/nature08916](https://doi.org/10.1038/nature08916))
@@ -78,16 +78,20 @@ Reviews:
 
 * [[M. Zahid Hasan]], [[Joel E. Moore]], *Three-Dimensional Topological Insulators*, Ann. Review.Condensed Matter Physics **2** (2011) 55-78 $[$[arXiv:1011.5462](https://arxiv.org/abs/1011.5462), [doi:10.1146/annurev-conmatphys-062910-140432](https://doi.org/10.1146/annurev-conmatphys-062910-140432)$]$
 
-
-*  [[Marcel Franz]], [[Laurens Molenkamp]] (eds.), *Topological Insulators*, Contemporary Concepts of Condensed Matter Science **6** (2013) $[$[ISBN:978-0-444-63314-9](https://www.sciencedirect.com/bookseries/contemporary-concepts-of-condensed-matter-science/vol/6/suppl/C)$]$
+*  [[Marcel Franz]], [[Laurens Molenkamp]] (eds.), *Topological Insulators*, Contemporary Concepts of Condensed Matter Science **6** (2013) &lbrack;[ISBN:978-0-444-63314-9](https://www.sciencedirect.com/bookseries/contemporary-concepts-of-condensed-matter-science/vol/6/suppl/C)&rbrack;
 
 * Michel Fruchart, David Carpentier, *An introduction to topological insulators*, Comptes Rendus Physique **14** 9–10, (2013) 779-815 ([doi:10.1016/j.crhy.2013.09.013](https://doi.org/10.1016/j.crhy.2013.09.013))
 
 * [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
 
-  Sec. 5 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
+  Sec. 5 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) &lbrack;[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)&rbrack;
 
 * Ben Webster et al. *2024 roadmap on 2D topological insulators*,  Journal of Physics: Materials **7** 2 (2024) 022501 &lbrack;[doi:10.1088/2515-7639/ad2083](https://iopscience.iop.org/article/10.1088/2515-7639/ad2083)&rbrack;
+
+Via [[effective field theory]]:
+
+* [[Eduardo C. Marino]]: *Topological Insulators*, chapter 29 in: *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
+
 
 With focus on the case [[symmetry protected topological phase|protected by]] [[crystallographic group]]-[[symmetry]]:
 
@@ -95,8 +99,8 @@ With focus on the case [[symmetry protected topological phase|protected by]] [[c
 
 * [[Tanmoy Das]], *A pedagogic review on designing model topological insulators*, Journal of the Indian Institute of Science **96** 77-106 (2016) $[$[arXiv:1604.07546](https://arxiv.org/abs/1604.07546), [ISSN:0970-4140](http://journal.library.iisc.ernet.in/index.php/iisc/article/view/4606)&rbrack;
 
-Via [[coarse topology]]:
 
+Via [[coarse topology]]:
 
 * [[Matthias Ludewig]], *Coarse geometry and its applications in solid state physics*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.06384](https://arxiv.org/abs/2308.06384)&rbrack;
 
