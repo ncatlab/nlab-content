@@ -73,6 +73,7 @@ A *useful feature* of such constructions is that the multiplication of the grade
 * [[graded modality]]
 * [[monad]]
 * [[actegory]]
+* [[parameterized monad]]
 
 ## References
 
