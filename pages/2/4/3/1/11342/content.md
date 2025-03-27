@@ -1,4 +1,4 @@
 
-* [webpage](https://www.ma.utexas.edu/users/lcohn/)
+* [webpage](https://lncohn.com/math/math.html)
 
 category: people
