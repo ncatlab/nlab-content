@@ -44,6 +44,9 @@ For the moment see at *[enriched monad -- Relation to strong and monoidal monads
  A *[[Bénabou cosmos]]* (a good [[base for enrichment]] in [[enriched category theory]]) is defined to be a [[bicomplete category|bicomplete]] symmetric monoidal closed category.
 \end{example}
 
+\begin{example}
+  A [[cocomplete]] [[poset|posetal]] symmetric monoidal closed category is precisely a [[commutative quantale]].
+\end{example}
 
 ## Related concepts
 
