@@ -1333,6 +1333,7 @@ See also at _[string theory FAQ -- What is string theory?](string+theory+FAQ#Wha
 
 * [string theory FAQ -- What is the relationship between quantum field theory and string theory?](string+theory+FAQ#RelationshipBetweenQuantumFieldTheoryAndStringTheory)
 
+
 ## References
 
 ### General
@@ -1355,6 +1356,10 @@ Early history:
 
 * [[Steven Weinberg]], _On the Development of Effective Field Theory_ ([arXiv:2101.04241](https://arxiv.org/abs/2101.04241))
 
+The point that perturbatively [[renormalization|non-renormalizable]] theories may be regarded as effective field theories at each energy scale was highligted in
+
+* {#GomisWeinberg95} J. Gomis, [[Steven Weinberg]]: _Are nonrenormalizable gauge theories renormalizable?_, Nucl. Phys. B **469** (1996) 473 &lbrack;[arXiv:hep-th/9510087](https://arxiv.org/abs/hep-th/9510087)&rbrack;
+
 
 Review:
 
@@ -1374,8 +1379,7 @@ Review:
 
 * [[Cliff P. Burgess]]: *Introduction to effective field theory*, Cambridge University Press (2020) &lbrack;[ISBN:9781139048040](https://www.cambridge.org/core/books/introduction-to-effective-field-theory/A9CDB35F4AA7921E3A9CFD573EBA8B64), ch. 1-6: [pdf](https://physics.mcmaster.ca/~cburgess/Book/Ch1-6SnippetEFT.pdf)&rbrack;
 
-
-A classical textbook adopting the EFT perspective is
+A classical textbook adopting the EFT perspective:
 
 * {#Weinberg95} [[Steven Weinberg]]: *The Quantum Theory of Fields Vol 1: Foundations*, Cambridge University Press (1995) &lbrack;[doi:10.1017/CBO9781139644167](https://doi.org/10.1017/CBO9781139644167)&rbrack;
 
@@ -1385,27 +1389,68 @@ whose author describes his goal as:
 
 > "This is intended to be a book on quantum field theory for the era of effective field theory."  
 
-Another book which takes the effective-field-theory approach to QFT is
+Another QFT textbook book which takes the effective-field-theory approach:
 
 * [[Anthony Zee]], _Quantum Field Theory in a Nutshell_ (Princeton University Press, second edition, 2010).
+
+On effective field theory for [[spontaneously broken symmetries]]:
+
+* [[Tomáš Brauner]]: *Effective Field Theory for Spontaneously Broken Symmetry*, Lecture Notes in Physics **1023**, Springer (2024) &lbrack;[arXiv:2404.14518](https://arxiv.org/abs/2404.14518), [doi:10.1007/978-3-031-48378-3](https://doi.org/10.1007/978-3-031-48378-3)&rbrack;
+
+
+#### Via causal perturbation theory
+ {#ReferencesInCausalPerturbationTheory}
+
+Discussion of [[perturbative QFT|perturbative]] effective QFT in the rigorous context of [[causal perturbation theory]]/[[perturbative AQFT]] and its relation to the [[Stückelberg-Petermann renormalization group]] is due to
+
+* {#BrunettiDuetschFredenhagen09} [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], section 5.2 of _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_, Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](https://arxiv.org/abs/0901.2038))
+
+* {#Duetsch10} [[Michael Dütsch]], _Connection between the renormalization groups of Stückelberg-Petermann and Wilson_, Confluentes Mathematici, Vol. 4, No. 1 (2012) 12400014 ([arXiv:1012.5604](https://arxiv.org/abs/1012.5604))
+
+* {#DuetschFredenhagenKellerRejzner14} [[Michael Dütsch]], [[Klaus Fredenhagen]], [[Kai Keller]], [[Katarzyna Rejzner]], appendix A of _Dimensional Regularization in Position Space, and a Forest Formula for Epstein-Glaser Renormalization_, J. Math. Phy. 55(12), 122303 (2014) ([arXiv:1311.5424](https://arxiv.org/abs/1311.5424))
+
+reviewed in
+
+* {#Duetsch18} [[Michael Dütsch]], section 3.8 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
+
+
+See also:
+
+* {#KellerKopperSchophaus97} Georg Keller, Christoph Kopper, Clemens Schophaus, _Perturbative Renormalization with Flow Equations in Minkowski Space_, Helv. Phys. Acta **70** (1997) 247-274 ([arXiv.hep-th/9605137](https://arxiv.org/abs/hep-th/9605137))
+
+
+
+### For nuclear physics
 
 Discussion for [[nuclear physics]]:
 
 * [[Mannque Rho]], _Lectures on Effective Field Theories for Nuclei, Nuclear Matter and Dense Matter_, 2002 ([arXiv:nucl-th/0202078](https://arxiv.org/abs/nucl-th/0202078), [cds:539674](https://cds.cern.ch/record/539674))
 
 
-Discussion with an eye towards [[condensed matter physics]] is in
+### For condensed matter physics
 
-* {#Shankar99} [[Ramamurti Shankar]], _Effective Field Theory in Condensed Matter Physics_ in _Conceptual Foundations of Quantum Field Theory_, 1999 ([arXiv:cond-mat/9703210](http://arxiv.org/abs/cond-mat/9703210))
+Discussion of effective field theories in [[condensed matter theory]], for [[solid state physics]] :
 
-and with an eye towards [[particle physics]] and the [[standard model of particle physics]]:
+* {#Shankar99} [[Ramamurti Shankar]], _Effective Field Theory in Condensed Matter Physics_, in: _Conceptual Foundations of Quantum Field Theory_, Cambirdge University Press (1999) 47-55 &lbrack;[arXiv:cond-mat/9703210](http://arxiv.org/abs/cond-mat/9703210), [doi:10.1017/CBO9780511470813.007](https://doi.org/10.1017/CBO9780511470813.007)&rbrack;
+
+* [[Eduardo Fradkin]]: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) \[<a href="https://doi.org/10.1017/CBO9781139015509">doi:10.1017/CBO9781139015509</a>, ISBN:9781139015509\]
+
+* Eduardo C. Marino, *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
+
+
+* [[Tomáš Brauner]], [[Sean A. Hartnoll]] et al: *Snowmass White Paper: Effective Field Theories for Condensed Matter Systems*, [Snowmass 2021](https://inspirehep.net/conferences/1803127) &lbrack;[arXiv:2203.10110](https://arxiv.org/abs/2203.10110), [inSpire:2055714](https://inspirehep.net/literature/2055714)&rbrack;
+
+
+
+### For particle physics
+
+Discussion for (the [[standard model of particle physics|standard model]] of) [[particle physics]]:
 
 * {#PetrovBlechman16} [[Alexey Petrov]], Andrew E Blechman, _Effective Field Theories_, World Scientific 2016 ([doi:10.1142/8619](https://doi.org/10.1142/8619))
 
-The point that perturbatively [[renormalization|non-renormalizable]] theories may be regarded as effective field theories at each energy scale was highligted in
 
-* {#GomisWeinberg95} J. Gomis and [[Steven Weinberg]], _Are nonrenormalizable gauge theories renormalizable?_, Nucl. Phys. B 469 (1996) 473 ([arXiv:hep-th/9510087](https://arxiv.org/abs/hep-th/9510087))
 
+### For gravity
 
 Notably the theory of [[gravity]] based on the standard [[Einstein-Hilbert action]] may be regarded as just an effective QFT, which makes some of its notorious problems be non-problems:
 
@@ -1436,25 +1481,6 @@ See also
 * [[Alastair Hamilton]], _On two constructions of an effective field theory_ ([arXiv:1502.05790](http://arxiv.org/abs/1502.05790))
 
 
-### In causal perturbation theory
- {#ReferencesInCausalPerturbationTheory}
-
-Discussion of [[perturbative QFT|perturbative]] effective QFT in the rigorous context of [[causal perturbation theory]]/[[perturbative AQFT]] and its relation to the [[Stückelberg-Petermann renormalization group]] is due to
-
-* {#BrunettiDuetschFredenhagen09} [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], section 5.2 of _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_, Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](https://arxiv.org/abs/0901.2038))
-
-* {#Duetsch10} [[Michael Dütsch]], _Connection between the renormalization groups of Stückelberg-Petermann and Wilson_, Confluentes Mathematici, Vol. 4, No. 1 (2012) 12400014 ([arXiv:1012.5604](https://arxiv.org/abs/1012.5604))
-
-* {#DuetschFredenhagenKellerRejzner14} [[Michael Dütsch]], [[Klaus Fredenhagen]], [[Kai Keller]], [[Katarzyna Rejzner]], appendix A of _Dimensional Regularization in Position Space, and a Forest Formula for Epstein-Glaser Renormalization_, J. Math. Phy. 55(12), 122303 (2014) ([arXiv:1311.5424](https://arxiv.org/abs/1311.5424))
-
-reviewed in
-
-* {#Duetsch18} [[Michael Dütsch]], section 3.8 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
-
-
-See also
-
-* {#KellerKopperSchophaus97} Georg Keller, Christoph Kopper, Clemens Schophaus, _Perturbative Renormalization with Flow Equations in Minkowski Space_, Helv.Phys.Acta 70 (1997) 247-274 ([arXiv.hep-th/9605137](https://arxiv.org/abs/hep-th/9605137))
 
 
 ### For string theory
