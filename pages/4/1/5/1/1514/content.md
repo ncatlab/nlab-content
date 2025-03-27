@@ -291,7 +291,13 @@ and then the original monograph:
 
 * [[Daniel F. Styer]], *The Errors of Feynman and Hibbs* &lbrack;[pdf](https://www2.oberlin.edu/physics/dstyer/FeynmanHibbs/ErrorsOfFeynmanHibbsX.pdf)&rbrack;
 
-* [[Daniel F. Styer]], [[Richard P. Feynman]], [[Albert R. Hibbs]], *Quantum Mechanics and Path Integrals: Emended Edition*, Dover (2010) &lbrack;[ISBN:0486477223](https://store.doverpublications.com/0486477223.html), [pdf](http://www-f1.ijs.si/~ramsak/km1/FeynmanHibbs.pdf)&rbrack; 
+* [[Daniel F. Styer]], [[Richard P. Feynman]], [[Albert R. Hibbs]], *Quantum Mechanics and Path Integrals: Emended Edition*, Dover (2010) &lbrack;[ISBN:0486477223](https://store.doverpublications.com/0486477223.html), [pdf](http://www-f1.ijs.si/~ramsak/km1/FeynmanHibbs.pdf)&rbrack;
+
+See also:
+
+* [[Ted Jacobson]]: *Feynman 1947 letter on path integral for the Dirac equation* &lbrack;[arXiv:2408.15070](https://arxiv.org/abs/2408.15070)&rbrack;
+  > (on early attempts at a path integral for [[spinning particles]])
+
 
 Textbook accounts:
 
