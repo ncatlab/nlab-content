@@ -306,6 +306,9 @@ Other review:
 
 * [[Edward Witten]], from [34:05](https://youtu.be/TvIz-6YOdKs?t=2045) on in: *Some Milestones in the Study of Confinement*, talk at *[[Prospects in Theoretical Physics 2023 -- Understanding Confinement]]*, IAS (2023) &lbrack;[web](https://www.ias.edu/video/some-milestones-study-confinement), [YT](https://youtu.be/TvIz-6YOdKs)&rbrack;
 
+* [[Herbert Weigel]]: *Chiral Solitons* &lbrack;[arXiv:2503.20534](https://arxiv.org/abs/2503.20534)&rbrack;
+
+
 
 See also
 
