@@ -198,8 +198,7 @@ Survey:
 
 * Jose Bernabeu, _Symmetries and their breaking in the fundamental laws of physics_ ([arXiv:2006.13996](https://arxiv.org/abs/2006.13996))
 
-* Tomas Brauner, *Effective Field Theory for Spontaneously Broken Symmetry* &lbrack;[arXiv:2404.14518](https://arxiv.org/abs/2404.14518)&rbrack;
-
+* [[Tomáš Brauner]]: *Effective Field Theory for Spontaneously Broken Symmetry*, Lecture Notes in Physics **1023**, Springer (2024) &lbrack;[arXiv:2404.14518](https://arxiv.org/abs/2404.14518), [doi:10.1007/978-3-031-48378-3](https://doi.org/10.1007/978-3-031-48378-3)&rbrack;
   > (perspective of [[effective field theory]])
 
 
