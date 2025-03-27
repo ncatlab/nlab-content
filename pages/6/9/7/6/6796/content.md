@@ -113,6 +113,13 @@ Online exposition:
 
 * {#Hyperphysics} Hyperphysics, *Magnetic Flux* &lbrack;[hyperphysics.phy-astr.gsu.edu/hbase/magnetic/fluxmg.html](http://hyperphysics.phy-astr.gsu.edu/hbase/magnetic/fluxmg.html)&rbrack;
 
+* [geometry of physics -- Flux Densities and Brane Sources](geometry+of+physics+--+flux+quantization#FluxDensitiesAndBraneSources)
+
+Textbook account: 
+
+* [[David Griffiths]], §2.2.1 in: *Introduction to Electrodynamics*, Prentice Hall (1981, 1989, 1999), Pearson (2013), Cambridge University Press (2023, 2025) &lbrack;<a href="https://hansandcassady.org/David%20J.%20Griffiths-Introduction%20to%20Electrodynamics-Addison-Wesley%20(2012).pdf">pdf</a>, <a href="https://en.wikipedia.org/wiki/Introduction_to_Electrodynamics">Wikipedia entry</a>&rbrack;
+
+
 [[!redirects fluxes]]
 
 [[!redirects flux density]]
