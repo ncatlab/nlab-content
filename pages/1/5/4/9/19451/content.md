@@ -144,6 +144,8 @@ Lax monoidal categories are called **multitensors** in:
 
 * [[Michael Batanin]], [[Mark Weber]]: _Algebras of higher operads as enriched categories_, Applied Categorical Structures **19** (2011) 93-135 &lbrack;[arXiv:0803.3594](https://arxiv.org/abs/0803.3594)&rbrack;
 
+See also:
+
 * {#LS14} [[Stephen Lack]], [[Ross Street]]: _On monads and warpings_, [[Cahiers]] de topologie et géométrie différentielle **55** 4 (2014) 244-266. &lbrack;[pdf](http://cahierstgdc.com/wp-content/uploads/2017/05/LackStreet_55-4.pdf)&rbrack;
 
 The **biased d-lax 2-category** in the following provide yet another kind of skew-monoidal category (in which the associator is the same as in a right-skew monoidal category, but the unitors as are in a left-skew monoidal category):
