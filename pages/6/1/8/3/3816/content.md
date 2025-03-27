@@ -71,6 +71,10 @@ proteins.
 
 * [[Roberto Percacci]], Section 2 of: *Non-Perturbative Quantum Field Theory -- An Introduction to Topological and Semiclassical Methods*, SISSA & ICTP (2024) &lbrack;[doi:10.22323/9788898587056](https://doi.org/10.22323/9788898587056), [pdf](https://library.oapen.org/bitstream/handle/20.500.12657/96025/9788898587056.pdf)&rbrack;
 
+In the context of [[hadrodynamics]] ([[Skyrmions]]):
+
+* [[Herbert Weigel]]: *Chiral Solitons* &lbrack;[arXiv:2503.20534](https://arxiv.org/abs/2503.20534)&rbrack;
+
 
 
 [[!redirects solitons]]
