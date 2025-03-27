@@ -1,4 +1,11 @@
-Free probability is a noncommutative analogue of the probability theory introduced by [[Dan-Virgil Voiculescu]] around 1990 and having some precursors in earlier works on random matrices by [[Freeman Dyson]] and others. 
+
+\tableofcontents
+
+## Idea
+
+*Free probability* is a [[noncommutative geometry|noncommutative]] analogue of the [[probability theory]] introduced by [[Dan-Virgil Voiculescu]] around 1990 and having some precursors in earlier works on random matrices by [[Freeman Dyson]] and others. 
+
+## Literature
 
 * [[Dan-Virgil Voiculescu]], _Free probability theory: random matrices and von Neumann algebras_, Proc. ICM 1994 [pdf]()
 * D.V. Voiculescu, K.J. Dykema, A. Nica. _Free random variables_,
