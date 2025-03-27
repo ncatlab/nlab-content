@@ -25,6 +25,10 @@ On the [[lattice gauge theory|lattice]]-formulation of [[abelian Chern-Simons th
 
 * [[Theodore Jacobson]], [[Tin Sulejmanpasic]]: *Canonical quantization of lattice Chern-Simons theory*, High Energ. Phys. **2024** (2024) 87 &lbrack;[arXiv:2401.09597](https://arxiv.org/abs/2401.09597), <a href="https://doi.org/10.1007/JHEP11(2024)087">doi:10.1007/JHEP11(2024)087</a>&rbrack;
 
+On early attempts by [[Richard Feynman]] to develop a [[path integral]] for [[spinning particles]]:
+
+* [[Ted Jacobson]]: *Feynman 1947 letter on path integral for the Dirac equation* &lbrack;[arXiv:2408.15070](https://arxiv.org/abs/2408.15070)&rbrack;
+
 
 ## Related entries
 
