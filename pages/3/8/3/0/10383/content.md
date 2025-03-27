@@ -196,7 +196,7 @@ Further discussion and review:
 
 * {#EguchiGilkeyHanson80} [[Tohru Eguchi]], [[Peter Gilkey]], [[Andrew Hanson]], _Gravitation, gauge theories and differential geometry_, Physics Reports **66** 6 (1980) 213-393 &lbrack;<a href="https://doi.org/10.1016/0370-1573(80)90130-1">doi:10.1016/0370-1573(80)90130-1</a>&rbrack;
 
-* [[Aiyalam P. Balachandran]], [[Giuseppe Marmo]], [[Bo-Sture Skagerstam]], A. Stern: *Gauge Symmetries and Fibre Bundles -- Applications to Particle Dynamics*, Lect. Notes in Physics **188** Springer (1983) &lbrack;[arXiv:1702.08910](https://arxiv.org/abs/1702.08910), [doi:10.1007/3-540-12724-0](https://doi.org/10.1007/3-540-12724-0)&rbrack;
+* [[Aiyalam P. Balachandran]], [[Giuseppe Marmo]], [[Bo-Sture Skagerstam]], [[Allen B. Stern]]: *Gauge Symmetries and Fibre Bundles -- Applications to Particle Dynamics*, Lect. Notes in Physics **188** Springer (1983) &lbrack;[arXiv:1702.08910](https://arxiv.org/abs/1702.08910), [doi:10.1007/3-540-12724-0](https://doi.org/10.1007/3-540-12724-0)&rbrack;
 
 * [[Aiyalam P. Balachandran]], [[Giuseppe Marmo]], [[Bo-Sture Skagerstam]]: *Classical Topology and Quantum States*, World Scientific (1991) &lbrack;[doi:10.1142/1180](https://doi.org/10.1142/1180)&rbrack;
   > (emphasis on [[solitons]], [[Skyrmions]] etc.)
