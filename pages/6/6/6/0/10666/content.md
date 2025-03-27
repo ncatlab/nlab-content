@@ -1,10 +1,20 @@
 This entry collects material related to the book
 
-* [[Alain Connes]], [[Matilde Marcolli]], 
+* [[Alain Connes]], [[Matilde Marcolli]]:
 
-  _Noncommutative Geometry, Quantum Fields and Motives_,
+  \linebreak
 
-  Vol. 55, AMS Bookstore, 2008 
+  **Noncommutative Geometry, Quantum Fields and Motives**
+
+  \linebreak
+
+  Colloquium Publications **55** 
+
+  American Mathematical Society (2008)
+
+   ISBN:978-1-4704-5045-8
+
+  [ams:coll-55](https://bookstore.ams.org/coll-55)
 
   [pdf](https://www.its.caltech.edu/~matilde/coll-55.pdf)
 
