@@ -68,7 +68,7 @@ Let $(f, \bar f)$ and $(u, \bar u)$ be [[colax morphisms]] of $T$-algebras.
 Suppose $f \dashv u$ as functors.
 
 1. There is a bijection between lax structures on $f$ and colax structures on $u$.
-2. The adjunction $f \vdash u$ lifts to an adjunction $(f, \bar f) \vdash (u, \bar u)$ if and only if the lax structure $\tilde u$ on $u$ induced by $(f,\bar f)$ is inverse to $\bar u$ (meaning, in particulat, that $(u,\bar u)$ is strong).
+2. The adjunction $f \dashv u$ lifts to an adjunction $(f, \bar f) \dashv (u, \bar u)$ if and only if the lax structure $\tilde u$ on $u$ induced by $(f,\bar f)$ is inverse to $\bar u$ (meaning, in particulat, that $(u,\bar u)$ is strong).
 
 =--
 
