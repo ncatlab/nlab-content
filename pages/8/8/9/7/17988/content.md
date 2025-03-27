@@ -177,6 +177,5 @@ Relation to String Theory:
 
 * Benjamin Knorr, Alessia Platania _Unearthing the intersections: positivity bounds, weak gravity conjecture, and asymptotic safety landscapes from photon-graviton flows_ ([2405.08860](https://arxiv.org/abs/2405.08860))
 
-
-
+* Ivano Basile, Benjamin Knorr, Alessia Platania, Marc Schiffer _Asymptotic safety, quantum gravity, and the swampland: a conceptual assessment_ ([2502.12290](https://arxiv.org/abs/2502.12290))
 
