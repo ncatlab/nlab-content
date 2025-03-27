@@ -95,7 +95,10 @@ The following is a capsule history tabulating some important events in the histo
 * [[thermodynamic limit]]
 
 
-## References ##
+## References
+ {#References}
+
+### General and 2d critical phenomena
 
 General sources: 
 
@@ -164,6 +167,27 @@ Nonequilibrium critical phenomena:
 Dynamical maps and chaos theory:
 
 * P. Cvitanovic, ed. _Universality in Chaos_ (1983).
+
+
+### Quantum Hall effect
+ {#ReferencesQuantumHallEffect}
+
+On universality of [[quantum Hall effects]]:
+
+* Beat Jeckelmann, Blaise Jeanneret: *The Quantum Hall Effect as an Electrical Resistance Standard*, in: *The Quantum Hall Effect -- Poincaré Seminar 2004*, Progress in Mathematical Physics **45**, Birkhäuser (2005) 55-131 &lbrack;[doi:10.1007/3-7643-7393-8_3](https://doi.org/10.1007/3-7643-7393-8_3)&rbrack;
+
+Theoretical explanation:
+
+* Alessandro Giuliani, Vieri Mastropietro, Marcello Porta, _Universality of the Hall conductivity in interacting electron systems_, Commun. Math. Phys. **349** (2017) 1107–1161 &lbrack;[arXiv:1511.04047](https://arxiv.org/abs/1511.04047), [doi:10.1007/s00220-016-2714-8](https://doi.org/10.1007/s00220-016-2714-8)&rbrack;
+
+The corresponding [[effective field theory]] (some version of [[abelian Chern-Simons theory]]):
+
+* [[Jürg Fröhlich]], T. Kerler: *Universality in quantum Hall systems*, Nuclear Physics B **354** 2–3 (1991) 369-417 \[<a href="https://doi.org/10.1016/0550-3213(91)90360-A">doi:10.1016/0550-3213(91)90360-A</a>\]
+
+
+
+
+
 
 
 [[!redirects universality classes]]
