@@ -6,6 +6,8 @@
 ***
 
 
+$\neq \gt 1$ may be understood as $\nu = 1$ for majority spin polarization with $\nu - 1$ for the minority polarization (Haldane 1983 [doi:10.1103/PhysRevLett.51.605](https://sci-hub.se/10.1103/PhysRevLett.51.605))
+
 
 
 \begin{tikzcd}[sep=5pt]
