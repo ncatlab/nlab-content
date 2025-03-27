@@ -335,6 +335,8 @@ More comprehensive accounts of anyons:
 
 * [[Eduardo Fradkin]], *Anyon superconductivity*, Chapter 11 in: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) 414-431 &lbrack;ISBN: 9781139015509, [doi:10.1017/CBO9781139015509.013](https://doi.org/10.1017/CBO9781139015509.013)&rbrack;
 
+* [[Eduardo C. Marino]]: *Non-Abelian Statistics and Quantum Computation*, chapter 30 in: *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
+
 
 See also:
 
