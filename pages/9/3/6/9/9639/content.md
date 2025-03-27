@@ -494,7 +494,6 @@ Review:
 * Richard E. Prange, [[Steven M. Girvin]] (eds.): *The Quantum Hall Effect*, Graduate Texts in Contemporary Physics, Springer (1986, 1990) &lbrack;[doi:10.1007/978-1-4612-3350-3](https://doi.org/10.1007/978-1-4612-3350-3)&rbrack;
 
 
-
 * Tapash Chakraborty, Pekka Pietiläinen: *The Quantum Hall Effects -- Integral and Fractional*, Springer Series in Solid State Sciences (1995) \[<a href="https://doi.org/10.1007/978-3-642-79319-6">doi:10.1007/978-3-642-79319-6</a>\]
 
 * Daijiro Yoshioka: *The Quantum Hall Effect*, Springer (2002) \[<a href="https://doi.org/10.1007/978-3-662-05016-3">doi:10.1007/978-3-662-05016-3</a>\]
@@ -504,6 +503,13 @@ Review:
 * {#Tong16} [[David Tong]]: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
 
 * _The quantum Hall effect_ &lbrack;[pdf](http://www.tezu.ernet.in/rctp2015/SR%20On%20quantum%20Hall%20effect.pdf)&rbrack;
+
+* [[Eduardo Fradkin]], chapters 12, 13 in: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) \[<a href="https://doi.org/10.1017/CBO9781139015509">doi:10.1017/CBO9781139015509</a>, ISBN:9781139015509\]
+
+
+* [[Eduardo C. Marino]]: *Quantum Hall Effect*, chapter 26 in: *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
+
+
 
 Discussion via Newton-Cartan theory:
 
