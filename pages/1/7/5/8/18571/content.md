@@ -29,7 +29,12 @@
 
 ## References
 
-* C. Lanczos, R. C. Clark, G. H. Derrick (eds.), Ch. 3 in: *Mathematical Methods in Solid State and Superfluid Theory*, Springer (1986) $[$[doi:10.1007/978-1-4899-6435-9](https://doi.org/10.1007/978-1-4899-6435-9)$]$
+* C. Lanczos, R. C. Clark, G. H. Derrick (eds.), Ch. 3 in: *Mathematical Methods in Solid State and Superfluid Theory*, Springer (1986) &lbrack;[doi:10.1007/978-1-4899-6435-9](https://doi.org/10.1007/978-1-4899-6435-9)&rbrack;
+
+Via [[effective field theory]]:
+
+* [[Eduardo C. Marino]]: *Quantum Field Theory Approach to Superfluidity*, chapter 22 in: *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
+
 
 See also:
 
