@@ -9,3 +9,4 @@ A precursor result to the [[hypergeometric construction of KZ solutions]], speci
 
 category: people
 
+[[!redirects Vladimir Dotsenko]]
