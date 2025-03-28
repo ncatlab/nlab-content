@@ -10,8 +10,19 @@
 \linebreak
 
 
+Spin mapping class group:
 
-Particle-hole symmetry. Original article:
+* [[Parsa Bonderson]], [[Eric C. Rowell]], Qing Zhang, [[Zhenghan Wang]], p. 3 of: *Congruence Subgroups and Super-Modular Categories*, Pacific J. Math. **296** (2018) 257-270 &lbrack;[arXiv:1704.02041](https://arxiv.org/abs/1704.02041), [doi:10.2140/pjm.2018.296.257](https://doi.org/10.2140/pjm.2018.296.257)&rbrack;
+
+
+* *Fermionic rational conformal field theories and
+modular linear differential equations*, Progress of Theoretical and Experimental Physics **2021** 8 (2021) 08B104 &lbrack;[doi:10.1093/ptep/ptab033](https://doi.org/10.1093/ptep/ptab033), [arXiv:2010.12392](https://arxiv.org/abs/2010.12392)&rbrack; 
+
+* Paul Bruillard, Cesar Galindo, Tobias Hagge, Siu-Hung Ng, Julia Yael Plavnik, [[Eric C. Rowell]], [[Zhenghan Wang]], theorem 2.7 in: *Fermionic Modular Categories and the 16-fold Way* \[<a href="https://arxiv.org/abs/1704.02041">arXiv:1704.02041</a>\]
+
+
+
+Particle-hole symmetry.
 
 Original
 
