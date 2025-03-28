@@ -16,7 +16,7 @@
 
 ## Idea
 
-A _curved $A_\infty$_ is defined just like an [[A-infinity algebra]], but allowing in the definition also a 0-ary operation. $m_0$. Including this means the unary operation no longer squares to 0 but to be proportinal to the binary product with this constant
+A _curved $A_\infty$_ is defined just like an [[A-infinity algebra]], but allowing in the definition also a 0-ary operation. $m_0$. Including this means the unary operation no longer squares to 0 but to be proportional to the binary product with this constant
 
 $$
   m_1 \circ m_1 \propto m_2(m_0,-)
