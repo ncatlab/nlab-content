@@ -458,13 +458,48 @@ is advantageous to represent the vortices simply by their
 
 \linebreak
 
+
 ## Properties
 
-### Numerical relations
+### Braiding phase
+ {#BraidingPhase}
 
-In the FQH, the angle $\theta$ of the braiding phase equals, in units of $\pi$, the filling fraction $\nu \,mod\, 1$.
+In an FQH system, when one quasi-hole (unpaired flux quantum) is [[quantum adiabatic theorem|adibatically]] moved past another, hence one quasi-hole moved along *[[hemisphere|half]]* a [[circle]] centered at the other, then their joint [[quantum state]] picks up a [[Berry phase]] $e^{ \mathrm{i}  \theta} \in $ [[U(1)|$U(1)$]] $\subset \mathbb{C}$, exhibiting the quasi-holes as [[abelian anyons]].
 
-For $\nu = 1/n$ this is due to [Arovas, Schrieffer & Wilczek 1984 (12)](#ArovasSchriefferWilczek84), for general $\nu$ this is noted by [Su 1986 (3)](#Su86)
+The [[angle]] of that *braiding phase* is [[pi|$\pi$]] times the filling fraction $\nu \equiv p/q$:
+
+\[
+  \label{BraidingAngleAsFunctionOfFillingFraction}
+  \theta 
+    \;=\;
+  \pm
+  \pi \nu
+  \,.
+\]
+
+(Where the sign reflects the orientation of the braiding.)
+
+\begin{imagefromfile}
+    "file_name": "FQH-BraidingPhase.jpg",
+    "width": 520,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 30,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
+So the braiding phase is a [[root of unity]] of order the [[denominator]] $q$ and as such determined by the [[numerator]] $p$ of the filling fraction $\nu = \tfrac{p}{q}$.
+
+The theoretical prediction of (eq:BraidingAngleAsFunctionOfFillingFraction) --- via the [[quantum adiabatic theorem]] applied to [[Laughlin wavefunctions]] --- is, for the special case $\nu = 1/n$,  due to [Arovas, Schrieffer & Wilczek 1984 (12)](#ArovasSchriefferWilczek84) (also claimed in [Halperin 1984 p 1584](#Halperin84)) and for general $\nu$ it is noted by [Su 1986 (3)](#Su86).
+
+Starting around 2020, this braiding phase is reported to be observed in [[experiments]] for some cases such as $\nu = 1/3$ and $\nu = 2/5$, see the references [below](#ObservationOfAnyonsInFQH).
+
+
+\linebreak
 
 
 ### As a topological insulator
@@ -649,7 +684,7 @@ The Haldane-Halperin model:
 
 * [[F. Duncan M. Haldane]]: *Fractional Quantization of the Hall Effect: A Hierarchy of Incompressible Quantum Fluid States*, Phys. Rev. Lett. **51** (1983) 605 \[<a href="https://doi.org/10.1103/PhysRevLett.51.605">doi:10.1103/PhysRevLett.51.605</a>\]
 
-* [[Bertrand Halperin]]: *Statistics of Quasiparticles and the Hierarchy of Fractional Quantized Hall States*, Phys. Rev. Lett. **52** (1984) 1583 \[<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.52.1583">doi:10.1103/PhysRevLett.52.1583</a>\]
+* {#Halperin84} [[Bertrand Halperin]]: *Statistics of Quasiparticles and the Hierarchy of Fractional Quantized Hall States*, Phys. Rev. Lett. **52** (1984) 1583 \[<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.52.1583">doi:10.1103/PhysRevLett.52.1583</a>\]
 
 The composite-fermion model (CF) which explains the FQHE as the [[integer quantum Hall effect]] not of the bare electrons but of [[quasi-particles]] which they form (for reasons not explained by the model):
 
