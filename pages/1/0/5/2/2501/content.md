@@ -44,7 +44,7 @@ Textbook accounts:
 
 * [[Clifford Truesdell]], [[Richard A. Toupin]], *The Classical Field Theories*, in: *Principles of Classical Mechanics and Field Theory*, Encyclopedia of Physics, volume III/1, Springer (1960) 226-858 &lbrack;[doi:10.1007/978-3-642-45943-6_2](https://doi.org/10.1007/978-3-642-45943-6_2)&rbrack;
 
-* S. Fl&#252;gge (ed.), _Encyclopedia of Physics_ Volume III/I, _Principles of Classical Mechanics and Field Theory_, Springer 1960    
+* S. Fl&#252;gge (ed.), _Encyclopedia of Physics_ Volume III/I, _Principles of Classical Mechanics and Field Theory_, Springer 1960 &lbrack;[doi:10.1007/978-3-642-45943-6](https://doi.org/10.1007/978-3-642-45943-6)&rbrack;
 
 * {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], _Classical field theory_ (1999) ([pdf](https://publications.ias.edu/sites/default/files/79_ClassicalFieldTheory.pdf))
 
