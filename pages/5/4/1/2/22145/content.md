@@ -1,5 +1,9 @@
 
+* [institute page](https://physics.yale.edu/people/nicholas-read)
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Nicholas_Read)
+
+* [inSpire page](https://inspirehep.net/authors/992149)
 
 
 ## Selected writings
@@ -14,12 +18,12 @@ On [[anyons]] satisfying [[non-abelian group|non-abelian]] [[braid group statist
 
 and generalization to [[su(2)-anyons]] via [[parafermions]]:
 
-* [[Nicholas Read]], [[Edward Rezayi]], *Beyond paired quantum Hall states: Parafermions and incompressible states in the first excited Landau level*, Phys. Rev. B **59** (1999) 8084 $[$[doi:10.1103/PhysRevB.59.8084](https://doi.org/10.1103/PhysRevB.59.8084)$]$
+* [[Nicholas Read]], [[Edward Rezayi]], *Beyond paired quantum Hall states: Parafermions and incompressible states in the first excited Landau level*, Phys. Rev. B **59** (1999) 8084 &lbrack;[doi:10.1103/PhysRevB.59.8084](https://doi.org/10.1103/PhysRevB.59.8084)&rbrack;
 
 
 On [[anyon|anyonic]] [[Majorana zero modes]] in [[topological superconductors]]:
 
-* [[Nicholas Read]], Dmitry Green, _Paired states of fermions in two dimensions with breaking of parity and time-reversal symmetries, and the fractional quantum Hall effect_,  Phys. Rev. B **61** 10267 (2000) $[$[arXiv:cond-mat/9906453](https://arxiv.org/abs/cond-mat/9906453)$]$
+* [[Nicholas Read]], Dmitry Green, _Paired states of fermions in two dimensions with breaking of parity and time-reversal symmetries, and the fractional quantum Hall effect_,  Phys. Rev. B **61** 10267 (2000) &lbrack;[arXiv:cond-mat/9906453](https://arxiv.org/abs/cond-mat/9906453)&rbrack;
 
 
 category: people
