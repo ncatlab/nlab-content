@@ -356,10 +356,9 @@ A monograph that aims to be more expository, focusing on [[presheaf toposes]]:
 
 Specifically on [[classifying toposes]]:
 
-* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_, Lecture Notes in Mathematics 1616, Springer 1995 (ISBN: 978-3-540-60319-1, [doi:10.1007/BFb0094441](https://doi.org/10.1007/BFb0094441))
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_, Lecture Notes in Mathematics **1616**, Springer (1995) &lbrack;ISBN: 978-3-540-60319-1, [doi:10.1007/BFb0094441](https://doi.org/10.1007/BFb0094441)&rbrack;
 
-* [[Olivia Caramello]], _Theories, Sites, Toposes_, Oxford University Press, 2017.
-[doi](https://doi.org/10.1007/BFb0094441)
+* [[Olivia Caramello]], _Theories, Sites, Toposes_, Oxford University Press (2017) &lbrack;[ISBN:9780198758914](https://global.oup.com/academic/product/theories-sites-toposes-9780198758914?cc=ae&lang=en&)&rbrack;
 
 
 ### Categorical logic and elementary toposes
