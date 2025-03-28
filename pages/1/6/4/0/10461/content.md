@@ -1,8 +1,15 @@
 
 
-* [webpage](http://stationq.cnsi.ucsb.edu/~wang/)
+* [personal page](https://web.math.ucsb.edu/~zhenghwa/)
 
-* [wikipedia entry](https://en.wikipedia.org/wiki/Zhenghan_Wang)
+* [Microsoft page](https://www.microsoft.com/en-us/research/people/zhenghwa/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Zhenghan_Wang)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=ZOi4KjkAAAAJ&hl=en)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=15118)
+
 
 ## Selected writings
 
