@@ -28,3 +28,4 @@ On basics of [[algebraic geometry]], following [[Grothendieck]]'s [[FGA]]:
 
 
 category: people
+[[!redirects B. Fantechi]]
