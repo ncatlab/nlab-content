@@ -253,7 +253,7 @@ Grundlehren der Math. Wiss. __334__, Springer 2006. xii+339 pp. [MR2008e:14011](
 
 * [[Martin C. Olsson]], _Deformation theory of representable morphisms of algebraic stacks_, Mathematische Zeitschrift__253__, n. 1, 25--62 (2006) [doi](http://dx.doi.org/10.1007/s00209-005-0875-9); _Tangent spaces and obstructon theories_, lectures, [MSRISummer07.pdf](http://math.berkeley.edu/~molsson/MSRISummer07.pdf)
 
-* B. Fantechi, M. Manetti, _Obstruction calculus for functors of Artin rings I_, J. Algebra __202__ (1998), no. 2, 541--576, [MR99f:14004](http://www.ams.org/mathscinet-getitem?mr=99f:14004).
+* [[B. Fantechi]], M. Manetti, _Obstruction calculus for functors of Artin rings I_, J. Algebra __202__ (1998), no. 2, 541--576, [MR99f:14004](http://www.ams.org/mathscinet-getitem?mr=99f:14004).
 
 * Domenico Fiorenza, Marco Manetti, Elena Martinengo, _Semicosimplicial DGLAs in deformation theory_, [arxiv/0803.0399](http://arxiv.org/abs/0803.0399)
 
@@ -261,11 +261,11 @@ Grundlehren der Math. Wiss. __334__, Springer 2006. xii+339 pp. [MR2008e:14011](
 
 * [[Vladimir Hinich]], _Deformations of homotopy algebras_,  Communication in Algebra, 32 (2004), 473-494, [MR2005m:18009](http://www.ams.org/mathscinet-getitem?mr=2101417), [doi](http://dx.doi.org/10.1081/AGB-120027907), [pdf](http://math.haifa.ac.il/hinich/WEB/mypapers/dha.pdf); _Deformations of sheaves of algebras_, Adv. Math. __195__ (2005), no. 1, 102&#8211;164, [MR2007d:13021](http://www.ams.org/mathscinet-getitem?mr=2145794), [doi](http://dx.doi.org/10.1016/j.aim.2004.07.007), [pdf](http://math.haifa.ac.il/hinich/WEB/mypapers/dsa.pdf); _DG coalgebras as formal stacks_, J. Pure Appl. Algebra __162__ (2001), no. 2-3, 209--250 (<a href="http://dx.doi.org/10.1016/S0022-4049(00)00121-3">doi</a>), [math.AG/9812034](http://arxiv.org/abs/math.AG/9812034); _Formal deformations of sheaves of algebras_, video of a talk at MSRI 2002, [link](http://www.msri.org/publications/ln/msri/2002/hodgetheory/hinich/1/index.html)
 
-* [[Vladimir Hinich]], [[Vadim Schechtman]], _Deformation theory and Lie algebra homology_ I. Algebra Colloq. 4 (1997), no. 2, 213&#8211;240, [MR2000c:14006a](http://www.ams.org/mathscinet-getitem?mr=1682729); part II., Algebra Colloq. 4 (1997), no. 3, 291&#8211;316, [MR2000c:14006b](http://www.ams.org/mathscinet-getitem?mr=1681547); preprint version [alg-geom/9405013](http://arxiv.org/abs/alg-geom/9405013);_Homotopy Lie algebras_, I.M. Gelfand Seminar, Adv. in Sov. Math., 16 (1993), Part 2, 1-28.
+* [[Vladimir Hinich]], [[Vadim Schechtman]], _Deformation theory and Lie algebra homology_ I. Algebra Colloq. 4 (1997), no. 2, 213&#8211;240, [MR2000c:14006a](http://www.ams.org/mathscinet-getitem?mr=1682729); part II., Algebra Colloq. 4 (1997), no. 3, 291&#8211;316, [MR2000c:14006b](http://www.ams.org/mathscinet-getitem?mr=1681547); preprint version [alg-geom/9405013](http://arxiv.org/abs/alg-geom/9405013); _Homotopy Lie algebras_, I.M. Gelfand Seminar, Adv. in Sov. Math., 16 (1993), Part 2, 1-28.
 
-* W. Lowen, M. Van den Bergh, _Deformation theory of abelian categories_, Trans. Amer. Math. Soc. __358__  (2006),  no. 12, 5441--5483; [arXiv:math.CT/0405226](http://arxiv.org/abs/math/0405226).
+* [[W. Lowen]], [[M. Van den Bergh]], _Deformation theory of abelian categories_, Trans. Amer. Math. Soc. __358__  (2006),  no. 12, 5441--5483; [arXiv:math.CT/0405226](http://arxiv.org/abs/math/0405226).
 
-* M. Van den Bergh, _Notes on formal deformations of abelian categories_, [arXiv:1002.0259](http://arxiv.org/abs/1002.0259)
+* [[M. Van den Bergh]], _Notes on formal deformations of abelian categories_, [arXiv:1002.0259](http://arxiv.org/abs/1002.0259)
 
 * M. Talpo, [[Angelo Vistoli|A. Vistoli]], _Deformation theory from the point of view of fibered categories_, [arxiv/1006.0497](http://arxiv.org/abs/1006.0497)
 
@@ -291,7 +291,7 @@ Grundlehren der Math. Wiss. __334__, Springer 2006. xii+339 pp. [MR2008e:14011](
 
 * [[Dennis Gaitsgory]], _Lie theory from the point of view of derived algebraic geometry_, Lecture notes from a mini-course, Nantes, 2014, [web](http://www.math.harvard.edu/~gaitsgde/Nantes14/).
 
-* Vladimir Dotsenko, Sergey Shadrin, [[Bruno Vallette]], _Pre-Lie deformation theory_, [arxiv/1502.03280](http://arxiv.org/abs/1502.03280)
+* [[Vladimir Dotsenko]], Sergey Shadrin, [[Bruno Vallette]], _Pre-Lie deformation theory_, [arxiv/1502.03280](http://arxiv.org/abs/1502.03280)
 
 * M. Gerstenhaber, S. D. Schack, _Algebras, bialgebras, quantum groups, and algebraic deformations_, in: Deformation theory and quantum groups with applications to mathematical physics (Amherst, MA, 1990), 51-92, Contemp. Math. __134__, Amer. Math. Soc. 1992.
 
