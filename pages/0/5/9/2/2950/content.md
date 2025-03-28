@@ -13,6 +13,11 @@
 ## Selected writings
 
 
+On the [[group action|action]] of the [[modular group]] on [[spin structures]] over [[closed manifold|closed]] [[surfaces]] in relation to [[theta functions]] and [[string scattering amplitude|string amplitudes]]:
+
+* [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]]: *Theta functions, modular invariance, and strings*, Commun. Math. Phys. **106** (1986) 1–40 &lbrack;[doi:10.1007/BF01210925](https://doi.org/10.1007/BF01210925), [eculid:cmp/1104115581](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-106/issue-1/Theta-functions-modular-invariance-and-strings/cmp/1104115581.full)&rbrack;
+
+
 Early argument that the [[RR-field]] [[flux]] [[differential form|density]]-expressions for [[D-brane charge]] are of the form of [[Chern characters]] on [[topological K-theory]], leading to the [[K-theory classification of D-brane charge]]:
 
 * {#GreenHarveyMoore97} [[Michael Green]], [[Jeffrey A. Harvey]], [[Gregory Moore]], *I-brane inflow and anomalous couplings on D-branes*, Class. Quant. Grav. **14** (1997) 47-52 &lbrack;[arXiv:hep-th/9605033](https://arxiv.org/abs/hep-th/9605033), [doi:10.1088/0264-9381/14/1/008](https://doi.org/10.1088/0264-9381/14/1/008)&rbrack;
