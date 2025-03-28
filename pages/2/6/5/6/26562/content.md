@@ -106,6 +106,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[Kolmogorov extension theorem]]: described in terms of [[Markov categories]] in [Fritz-Rischel'20](#fritzrischel), and in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales). 
 
+* The [[strong law of large numbers]] in terms of [[Markov categories]] in [FGLPSM'25](#lln).
+
 * [[martingales|Martingales]]: Described in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales) and using [[partial evaluations]] in [Perrone'18](#Perrone_thesis). A version of their convergence theorem using the [[category of couplings]] is given in [Perrone-Van Belle'24](#dagger_martingales).
 
 * Multinomial and hypergeometric distributions: described in terms of [[Markov categories]] in [Jacobs'21](#multinomial).
@@ -327,6 +329,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#fritz_representable} [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], Eigil Fjeldgren Rischel, _Representable Markov categories and comparison of statistical experiments in categorical probability_, Theoretical Computer Science 961, 2023. ([arXiv:2010.07416](https://arxiv.org/abs/2010.07416))
 
+* {#lln} Tobias Fritz, Tomáš Gonda, Antonio Lorenzin, Paolo Perrone and Areeb Shah Mohammed, _Empirical Measures and Strong Laws of Large Numbers in Categorical Probability_, 2025 ([arXiv:2503.21576](https://arxiv.org/abs/2503.21576))
+
 * {#d-sep} [[Tobias Fritz]] and Andreas Klingler, _The d-separation criterion in Categorical Probability_, Journal of Machine Learning Research 24(46), 2023. ([arXiv](https://arxiv.org/abs/2207.05740))
 
 * {#hidden_markov} [[Tobias Fritz]], Andreas Klingler, Drew McNeely, Areeb Shah-Mohammed and Yuwen Wang, _Hidden Markov models and the Bayes filter in categorical probability_, 2024. ([arXiv](https://arxiv.org/abs/2401.14669))
@@ -466,11 +470,11 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#lifting} [[Paolo Perrone]], _Lifting couplings in Wasserstein spaces_, 2021. ([arXiv](https://arxiv.org/abs/2110.06591))
 
-* {#Perrone_thesis} [[Paolo Perrone]], _Categorical Probability and Stochastic Dominance in Metric Spaces_, ([thesis](http://www.paoloperrone.org/phdthesis.pdf))
+* {#Perrone_thesis} [[Paolo Perrone]], _Categorical Probability and Stochastic Dominance in Metric Spaces_, 2018 ([thesis](http://www.paoloperrone.org/phdthesis.pdf))
 
 * {#name_gen} Marcin Sabok, Sam Staton, Dario Stein, Michael Wolman, _Probabilistic Programming Semantics for Name Generation_, Proceedings of POPL, 2021. ([arXiv](https://arxiv.org/abs/2007.08638))
 
-* {#probability_sheaves} [[Alex Simpson]], _Probability Sheaves and the Giry Monad_, ([pdf](https://coalg.org/mfps-calco2017/calco-papers/calco2017-1.pdf))
+* {#probability_sheaves} [[Alex Simpson]], _Probability Sheaves and the Giry Monad_, 2017 ([pdf](https://coalg.org/mfps-calco2017/calco-papers/calco2017-1.pdf))
 
 * {#independence} [[Alex Simpson]], _Category-theoretic structure for independence and conditional independence_, ENTCS, 2018. ([link](https://www.sciencedirect.com/science/article/pii/S1571066118300318))
 
