@@ -301,7 +301,16 @@ For more see _[7-sphere -- Coset space realization](7-sphere#CosetSpaceRealizati
 
 If one drops the assumption of [[compact Lie group|compactness]], then there are further coset space realizations of $n$-spheres, notably as [[quotient group|quotients]] of [[Lorentz groups]] by [[parabolic subgroups]]: *[[celestial spheres]]*, e.g.: [Toller (2003, p. 18)](#Toller03), [Varlamov (2006, p. 6)](#Varlamov06), [Math.SE:a/4092474](https://math.stackexchange.com/a/4092474/58526).
 
+### Homotopy-associative multiplication
 
++-- {: .num_prop #SphereMultiplication}
+###### Proposition
+
+There exists no homotopy-associative multiplication on $S^k$ unless $k=1,3$.
+
+=--
+
+This is proven in ([James 1957](#James57)). There, it is also shown that there is only one homotopy class of multiplication on $S^1$ (complex multiplication), *twelve* classes for $S^3$ (one of which given by the quaternions), and none for $S^7$ (thus excluding the multiplication provided by the [[octonion|octonions]], which only described a [[Moufang loop]]).
 
 ### Spin structure
 
@@ -510,7 +519,9 @@ Discussion of actions of [[Lorentz groups]] on [[celestial spheres]]:
 * {#Varlamov06} V. V. Varlamov, *Relativistic Spherical Functions on the Lorentz Group*, J. Phys. A: Math. Gen. **39** (2006) 805-822 &lbrack;[doi:10.1088/0305-4470/39/4/006](https://doi.org/10.1088/0305-4470/39/4/006)&rbrack;
 
 
+### Multiplications on spheres
 
+* {#James57} I.M. James. *Multiplication on spheres (II).* Transactions of the American Mathematical Society 84.2 (1957): 545-558. ([doi](https://doi.org/10.2307/1992830)).
 
 ### Geometric structures on spheres
 
