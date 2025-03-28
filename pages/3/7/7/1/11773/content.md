@@ -51,6 +51,21 @@ Similarly, some classes of [[2d CFTs]] may be constructed by purely algebraic me
 
 ## References
 
+Almost all traditional texts on [[field theory]] are actually tacitly focused on Lagrangian field theory, such as:
+
+* [[Marc Henneaux]], [[Claudio Teitelboim]]: *[[Quantization of Gauge Systems]]*, Princeton University Press (1992) &lbrack;[ISBN:9780691037691](https://press.princeton.edu/books/paperback/9780691037691/quantization-of-gauge-systems), [doi:10.2307/j.ctv10crg0r](https://doi.org/10.2307/j.ctv10crg0r), [jstor:j.ctv10crg0r](https://www.jstor.org/stable/j.ctv10crg0r)&rbrack;
+
+* {#GiachettaMangiarottiSardanashvily09} Giovanni Giachetta, Luigi Mangiarotti, [[Gennadi Sardanashvily]], *Advanced classical field theory*, World Scientific (2009) \[<a href="https://doi.org/10.1142/7189">doi:10.1142/7189</a>\]
+
+Some are more explicit about it:
+
+* C. W. Kilmister: *Lagrangian Dynamics: An Introduction for Students*, Logos Press (1967?)
+
+* [[Jean-Louis Basdevant]]: *Lagrangian Field Theory*, chapter 5 in *Variational Principles in Physics*, Springer (2007) 97-106 &lbrack;[doi:10.1007/978-0-387-37748-3_5](https://doi.org/10.1007/978-0-387-37748-3_5)&rbrack;
+
+
+
+
 On [[smooth sets]] as a [[convenient category of spaces|convenient category]] for [[variational calculus]] of [[Lagrangian quantum field theory|Lagrangian]] [[classical field theory]]:
 
 * [[Grigorios Giotopoulos]], [[Hisham Sati]], *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]*, Journal of Geometry and Physics (2025) 105462 &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301), [doi:10.1016/j.geomphys.2025.105462](https://doi.org/10.1016/j.geomphys.2025.105462)&rbrack;
