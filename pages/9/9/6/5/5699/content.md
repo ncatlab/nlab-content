@@ -14,6 +14,13 @@ Cumrun Vafa is a [[string theory|string theorist]] at Harvard.
 ## Selected writings
  {#SelectedWritings}
 
+
+On the [[group action|action]] of the [[modular group]] on [[spin structures]] over [[closed manifold|closed]] [[surfaces]] in relation to [[theta functions]] and [[string scattering amplitude|string amplitudes]]:
+
+* [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]]: *Theta functions, modular invariance, and strings*, Commun. Math. Phys. **106** (1986) 1–40 &lbrack;[doi:10.1007/BF01210925](https://doi.org/10.1007/BF01210925), [eculid:cmp/1104115581](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-106/issue-1/Theta-functions-modular-invariance-and-strings/cmp/1104115581.full)&rbrack;
+
+
+
 Introducing what came to be called the [[Brandenberger-Vafa mechanism]] in [[string theory|string theoretic]] [[cosmology]]:
 
 * [[Robert Brandenberger]], [[Cumrun Vafa]]: _Superstrings in the Early Universe_, Nucl. Phys. B **316** (1989) 391 &lbrack;[spire263348](http://inspirehep.net/record/263348), <a href="https://doi.org/10.1016/0550-3213(89)90037-0">doi:10.1016/0550-3213(89)90037-0</a>&rbrack;
