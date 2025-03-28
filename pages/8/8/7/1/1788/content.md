@@ -11,20 +11,14 @@
 
 
 
-$$
-  e^{
-    \pi \mathrm{i} 
-    (-)
-    \tfrac{p}{K}
-  }
-  \;=\;
-  e^{
-    \pi \mathrm{i} 
-    \tfrac{
-      2K - p
-    }{K}
-  }
-$$
+Particle-hole symmetry. Original article:
+
+Original
+
+* S. M. Girvin: *Particle-hole symmetry in the anomalous quantum Hall effect*, Phys. Rev. B **29** (1984) 6012(R) &lbrack;[doi:10.1103/PhysRevB.29.6012](https://doi.org/10.1103/PhysRevB.29.6012)&rbrack;
+
+
+
 
 
 $\neq \gt 1$ may be understood as $\nu = 1$ for majority spin polarization with $\nu - 1$ for the minority polarization (Haldane 1983 [doi:10.1103/PhysRevLett.51.605](https://sci-hub.se/10.1103/PhysRevLett.51.605))
