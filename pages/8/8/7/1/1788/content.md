@@ -3,7 +3,28 @@
 > This page is for developing preliminary notes or making typographical experiments, etc. It may be edited by anybody, anytime. But you don't necessarily need to delete other people's ongoing notes here in order to add your own. In any case, overwritten edits may always be recovered from the [page history](https://ncatlab.org/nlab/history/Sandbox).
 
 
+\linebreak
+
 ***
+
+\linebreak
+
+
+
+$$
+  e^{
+    \pi \mathrm{i} 
+    (-)
+    \tfrac{p}{K}
+  }
+  \;=\;
+  e^{
+    \pi \mathrm{i} 
+    \tfrac{
+      2K - p
+    }{K}
+  }
+$$
 
 
 $\neq \gt 1$ may be understood as $\nu = 1$ for majority spin polarization with $\nu - 1$ for the minority polarization (Haldane 1983 [doi:10.1103/PhysRevLett.51.605](https://sci-hub.se/10.1103/PhysRevLett.51.605))
