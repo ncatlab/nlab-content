@@ -91,7 +91,7 @@ Now suppose that $k$ is equipped with a [[partial order]].  (Note that the [[com
 *  The inner product is __positive semidefinite__, or simply __positive__, if ${\|x\|^2} \geq 0$ always.
 *  The inner product is __positive definite__ if it is both positive and definite, in other words if ${\|x\|^2} \gt 0$ whenever $x \ne 0$.
 *  The inner product is __negative semidefinite__, or simply __negative__, if ${\|x\|^2} \leq 0$ always.
-*  The inner product is __negative definite__ if it is both positive and definite, in other words if ${\|x\|^2} \lt 0$ whenever $x \ne 0$.
+*  The inner product is __negative definite__ if it is both negative and definite, in other words if ${\|x\|^2} \lt 0$ whenever $x \ne 0$.
 
 In this case, we have these theorems:
 
