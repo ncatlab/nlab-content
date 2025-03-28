@@ -501,6 +501,9 @@ More recent textbook accounts:
 
 * [[Peter Woit]], *Quantum Theory, Groups and Representations: An Introduction*, Springer (2017) &lbrack;[doi:10.1007/978-3-319-64612-1](https://doi.org/10.1007/978-3-319-64612-1), ISBN:978-3-319-64610-7&rbrack;
 
+* [[Jean-Louis Basdevant]]: *Lectures on Quantum Mechanics -- With Problems, Exercises and Solutions*, Graduate Texts in Physics, Springer (2023) &lbrack;[doi:10.1007/978-3-031-17635-7](https://doi.org/10.1007/978-3-031-17635-7)&rbrack;
+
+
 On the [[interpretation of quantum mechanics]]:
 
 * [[Roland Omnès]], *[[The Interpretation of Quantum Mechanics]]*, Princeton University Press (1994) &lbrack;[ISBN:9780691036694](http://press.princeton.edu/titles/5525.html)&rbrack;
@@ -584,6 +587,7 @@ Aspects of quantum mechanics in [[category theory]] and [[topos theory]] are dis
 * [[Hans Halvorson]] (ed.) _Deep Beauty -- Understanding the quantum world through mathematical innovation_ Cambridge (2011) ([pdf](http://www.tacron.com/uploads/Deep_Beauty_-_Understg_the_Quantum_World_Through_Mathem._Innov._-_H._Halvorson__Cambridge__2011__WW.pdf))
 
 This discusses for instance [[higher category theory and physics]] and the [[Bohr topos]] of a quantum system.
+
 
 
 
