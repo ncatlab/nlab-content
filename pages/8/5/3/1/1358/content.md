@@ -125,9 +125,9 @@ For a summary of the various [[model structures on dg-categories]], see Section 
 
 * {#CisinskiTabuada11} [[Denis-Charles Cisinski]], [[Goncalo Tabuada]], _Non-connective K-theory via universal invariants_, Compositio Math. 147 (2011), 1281-1320, [arXiv:0903.3717](http://arxiv.org/abs/0903.3717), [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/Non-connective-K-theory.pdf).
 
-The relation to [[stable (infinity,1)-categories]] is discussed in
+On the relation to [[stable (infinity,1)-categories]]:
 
-* {#Cohn13} [[Lee Cohn]], _Differential Graded Categories are k-linear Stable Infinity Categories_ ([arXiv:1308.2587](http://arxiv.org/abs/1308.2587))
+* {#Cohn13} [[Lee Cohn]]: _Differential Graded Categories are k-linear Stable Infinity Categories_ &lbrack;[arXiv:1308.2587](http://arxiv.org/abs/1308.2587)&rbrack;
 
 [[!redirects pretriangulated dg-categories]]
 [[!redirects strongly pretriangulated dg-category]]
