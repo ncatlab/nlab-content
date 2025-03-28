@@ -16,6 +16,11 @@ and was made more explicit in:
 
 * B. Blok, [[Xiao-Gang Wen]]: *Effective theories of the fractional quantum Hall effect at generic filling fractions*, Phys. Rev. B **42** (1990) 8133 \[<a href="https://doi.org/10.1103/PhysRevB.42.8133">doi:10.1103/PhysRevB.42.8133</a>\]
 
+* {#Wen90Rigid} [[Xiao-Gang Wen]]: *Topological Orders in Rigid States*, Int. J. Mod. Phys. B **4** 239 (1990) \[<a href="https://doi.org/10.1142/S0217979290000139">doi:10.1142/S0217979290000139</a>, [pdf](https://xgwen.mit.edu/sites/default/files/documents/topo.pdf)\]
+
+* {#WenNiu90} [[Xiao-Gang Wen]], Qian Niu: *Ground state degeneracy of the FQH states in presence of random potential and on high genus Riemann surfaces*, Phys. Rev. B **41** 9377 (1990) \[<a href="https://doi.org/10.1103/PhysRevB.41.9377">doi:10.1103/PhysRevB.41.9377</a>\]
+
+
 * [[Jürg Fröhlich]], T. Kerler: *Universality in quantum Hall systems*, Nuclear Physics B **354** 2–3 (1991) 369-417 \[<a href="https://doi.org/10.1016/0550-3213(91)90360-A">doi:10.1016/0550-3213(91)90360-A</a>\]
 
 * [[Jürg Fröhlich]], [[Anthony Zee]]: *Large scale physics of the quantum hall fluid*, Nuclear Physics B **364** 3 (1991) 517-540 \[<a href="https://doi.org/10.1016/0550-3213(91)90275-3">doi:10.1016/0550-3213(91)90275-3</a>\]
