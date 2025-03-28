@@ -98,5 +98,8 @@ Relation to [[Yukawa couplings]] in [[intersecting D-brane models]]:
 
 * {#Marchesano03} [[Fernando Marchesano]], section 7.5 of _Intersecting D-brane Models_ &lbrack;[arXiv:hep-th/0307252](https://arxiv.org/abs/hep-th/0307252)&rbrack;
 
+Towards a [[higher category theory|higher]] generalization:
+
+* James Pascaleff, Nicolò Sibilla. *Speculations on higher Fukaya categories* (2025). ([arXiv:2503.20906](https://arxiv.org/abs/2503.20906)).
 
 [[!redirects Fukaya categories]]
