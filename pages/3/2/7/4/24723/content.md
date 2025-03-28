@@ -22,3 +22,4 @@ On [[templicial objects]] and their applications:
 
 
 category: people
+[[!redirects W. Lowen]]
