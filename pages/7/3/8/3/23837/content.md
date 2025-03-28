@@ -1,6 +1,10 @@
 
 * [institute page](https://www.itp.ac.ru/en/persons/dotsenko-vladimir-stepanovich/)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=30277)
+
+* [inSpire page](https://inspirehep.net/authors/1011486)
+
 ## Selected writings
 
 A precursor result to the [[hypergeometric construction of KZ solutions]], specifically of [[conformal blocks]] for [[affine Lie algebra]]/[[WZW-model]]-[[2d CFTs]]:
