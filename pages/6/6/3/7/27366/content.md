@@ -618,7 +618,7 @@ $$
   \,.
 $$
 
-This representation (eq:ModularActionOnH1) is just the [[modular functor|modular action]] known from [[abelian Chern-Simons theory]] at [[even number|even]] [[level (Chern-Simons theory)|level]] $k$ (cf. [Manoliu 1998a p 67](abelian+Chern-Simons+theory#Manoliu98a), [Gannon 2005 (3.1b)](SL2Z#Gannon05)):
+This representation (eq:ModularActionOnH1) is just the [[modular functor|modular action]] known from [[abelian Chern-Simons theory]] at [[even number|even]] [[level (Chern-Simons theory)|level]] $k$ (cf. [Wen 1990 (5.3)](abelian+Chern-Simons+theory#Wen90Rigid), [Manoliu 1998a p 67](abelian+Chern-Simons+theory#Manoliu98a), [Gannon 2005 (3.1b)](SL2Z#Gannon05)):
 \[
   \label{RepresentationOfModularGenerators}
   \begin{array}{ccr}
