@@ -50,6 +50,13 @@ Here
 * "$\circ$" means that $\tfrac{q}{k} \gt 2$
 
 
+\begin{tikzpicture}
+
+\draw[thick] (0,0)--(3,0);
+
+\end{tikzpicture}
+
+
 So: 
 
 1. in the column of $q = 1$ all odd $k$ are excluded and all even $k$ are admissible,
