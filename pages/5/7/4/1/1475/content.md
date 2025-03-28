@@ -138,7 +138,7 @@ The Bourbaki-Witt theorem is an example of a fixed-point theorem. We should poin
 
 ## Well-ordered formulation
 
-[[Terry Tao]] [points out](https://terrytao.wordpress.com/2009/01/28/245b-notes-7-well-ordered-sets-ordinals-and-zorns-lemma-optional/) (Remark 14) that the proof of Zorn's Lemma uses only the well-ordered chains, allowing a weakened hypothesis.  This is most naturally stated in the context of [[quosets]] rather than [[posets]]:
+[[Terry Tao]]  [points out](https://terrytao.wordpress.com/2009/01/28/245b-notes-7-well-ordered-sets-ordinals-and-zorns-lemma-optional/) (Remark 14) that the proof of Zorn's Lemma uses only the well-ordered chains, allowing a weakened hypothesis.  This is most naturally stated in the context of [[quosets]] rather than [[posets]]:
 
 +-- {: .num_defn #WellChainAndStrictUpperBound}
 ###### Definition
