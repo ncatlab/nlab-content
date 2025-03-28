@@ -46,6 +46,10 @@ Historical and expository accounts of the "principle of extremal action" or "act
 
 * [[Douglas Cline]], *Variational Principles in Classical Mechanics*, University of Rochester (2021) &lbrack;[pdf](http://classicalmechanics.lib.rochester.edu/pdf/Variational_Principles_in_Classical_Mechanics_3e_final_fbcover.pdf), <a href="https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Variational_Principles_in_Classical_Mechanics_(Cline)">online version</a>&rbrack;
 
+Historical discussion embedded into a full-blown monograph on [[Lagrangian field theory]]:
+
+* [[Jean-Louis Basdevant]]: *Variational Principles in Physics*, Springer (2007) \[<a href="https://doi.org/10.1007/978-3-031-21692-3">doi:10.1007/978-3-031-21692-3</a>\]
+
 
 
 See also:
