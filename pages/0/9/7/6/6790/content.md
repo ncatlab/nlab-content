@@ -13,6 +13,11 @@ and specifically on the [[Green-Schwarz mechanism]]:
 
 * [[Luis Alvarez-Gaumé]], [[Miguel A. Vázquez-Mozo]], *Anomalies and the Green-Schwarz Mechanism*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.06467](https://arxiv.org/abs/2211.06467)&rbrack;
 
+On the [[group action|action]] of the [[modular group]] on [[spin structures]] over [[closed manifold|closed]] [[surfaces]] in relation to [[theta functions]] and [[string scattering amplitude|string amplitudes]]:
+
+* [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]]: *Theta functions, modular invariance, and strings*, Commun. Math. Phys. **106** (1986) 1–40 &lbrack;[doi:10.1007/BF01210925](https://doi.org/10.1007/BF01210925), [eculid:cmp/1104115581](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-106/issue-1/Theta-functions-modular-invariance-and-strings/cmp/1104115581.full)&rbrack;
+
+
 On the [Chern-Simons level renormalization](Chern-Simons+level#LevelRenormalization) (shift by the [[dual Coxeter number]]):
 
 * [[Luis Alvarez-Gaumé]], J. M. F. Labastida, A. V. Ramallo, *A note on perturbative Chern-Simons theory*, Nuclear Physics B **334** 1 (1990) 103-124 (<a href="https://doi.org/10.1016/0550-3213(90)90658-Z">doi:10.1016/0550-3213(90)90658-Z</a>)
