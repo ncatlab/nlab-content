@@ -575,6 +575,8 @@ Concerning the action of [[diffeomorphisms]] on spin structures:
 
 and specifically concerning the action of the [[modular group]] [[SL(2,Z)|$SL_2(\mathbb{Z})$]] on spin structures over [[closed manifold|closed]] [[surfaces]]:
 
+* [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]], p. 3 of: *Theta functions, modular invariance, and strings*, Commun. Math. Phys. **106** (1986) 1–40 &lbrack;[doi:10.1007/BF01210925](https://doi.org/10.1007/BF01210925), [eculid:cmp/1104115581](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-106/issue-1/Theta-functions-modular-invariance-and-strings/cmp/1104115581.full)&rbrack;
+
 * [[Oscar Randal-Williams]]$\;$&lbrack;[MO:a/72770](https://mathoverflow.net/a/72770/381)&rbrack;
 
 
