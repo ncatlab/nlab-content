@@ -29,7 +29,7 @@ and was made more explicit in:
 
 * [[A. P. Balachandran]], A. M. Srivastava: *Chern-Simons Dynamics and the Quantum Hall Effect* \[<a href="https://arxiv.org/abs/hep-th/9111006">arXiv:hep-th/9111006</a>, [spire:319826](https://inspirehep.net/literature/319826)\]
 
-* Ana Lopez, [[Eduardo Fradkin]]: *Fractional quantum Hall effect and Chern-Simons gauge theories*, Phys. Rev. B **44** (1991) 5246 \[<a href="https://doi.org/10.1103/PhysRevB.44.5246">doi:10.1103/PhysRevB.44.5246</a>\]
+* Ana Lopez, [[Eduardo Fradkin]]: *Fractional quantum Hall effect and Chern-Simons gauge theories*, Phys. Rev. B **44** (1991) 5246 \[<a href="https://doi.org/10.1103/PhysRevB.44.5246">doi:10.1103/PhysRevB.44.5246</a>, [pdf](http://home.ustc.edu.cn/~gengb/200923/Fradkin,%20Field%20Theories%20of%20Condensed%20Matter%20Physics.pdf)\]
 
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Topological structures, universality classes, and statistics screening in the anyon superfluid*, Phys. Rev. B **44** (1991) 274 \[<a href="https://doi.org/10.1103/PhysRevB.44.274">doi:10.1103/PhysRevB.44.274</a>\]
 
