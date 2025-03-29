@@ -20,6 +20,8 @@ modular linear differential equations*, Progress of Theoretical and Experimental
 
 * Paul Bruillard, Cesar Galindo, Tobias Hagge, Siu-Hung Ng, Julia Yael Plavnik, [[Eric C. Rowell]], [[Zhenghan Wang]], theorem 2.7 in: *Fermionic Modular Categories and the 16-fold Way* \[<a href="https://arxiv.org/abs/1704.02041">arXiv:1704.02041</a>\]
 
+* Qing Zhang: *Super-Modular Categories*
+
 
 
 Particle-hole symmetry.
