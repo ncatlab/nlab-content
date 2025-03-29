@@ -11,6 +11,7 @@
 * [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=15118)
 
 
+
 ## Selected writings
 
 On [[modular tensor categories]]:
@@ -34,8 +35,13 @@ and with focus on [[abelian anyons]] in terms of [[modular tensor categories]]:
 
 * Wade Bloomquist, [[Zhenghan Wang]], *On Topological Quantum Computing With Mapping Class Group Representations*, J. Phys. A: Math. Theor. **52** (2019) 015301 ([arXiv:1805.04622](https://arxiv.org/abs/1805.04622), [doi:10.1088/1751-8121/aaeea1](https://iopscience.iop.org/article/10.1088/1751-8121/aaeea1))
 
-
 * Liang Wang, [[Zhenghan Wang]], *In and around Abelian anyon models*, J. Phys. A: Math. Theor. **53** 505203 (2020) ([doi:10.1088/1751-8121/abc6c0](https://iopscience.iop.org/article/10.1088/1751-8121/abc6c0))
+
+Indication that the [[effective field theory|effective]] [[abelian Chern-Simons theory]] [describing](abelian+Chern-Simons+theory#ReferencesAbCSForFQHE) the [[fractional quantum Hall effect]] has to be understood, in general, as a [[spin Chern-Simons theory]]:
+
+* [[Zhenghan Wang]] on joint work with [[Nicholas Read|N. Read]]: *Spin MTC and Fermionic QH States*, talk at *[Workshop on Topological Phases in Condensed Matter 2008](https://research.physics.illinois.edu/ICMT/Workshops/Topological2008/)*, University of Illinois (2008) &lbrack;[pdf](https://research.physics.illinois.edu/ICMT/Workshops/Topological2008/Talks/wang.pdf), [[Wang-SpinMTCandFermQH.pdf:file]]&rbrack;
+
+
 
 More on [[anyons]]:
 
