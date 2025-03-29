@@ -9,7 +9,8 @@
 =--
 =--
 
-This entry is to record the reference
+
+This entry is to record the reference:
 
 * [[Shiing-shen Chern]], [[James Simons]]: 
 
