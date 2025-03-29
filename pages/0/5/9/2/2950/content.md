@@ -22,9 +22,15 @@ Early argument that the [[RR-field]] [[flux]] [[differential form|density]]-expr
 
 * {#GreenHarveyMoore97} [[Michael Green]], [[Jeffrey A. Harvey]], [[Gregory Moore]], *I-brane inflow and anomalous couplings on D-branes*, Class. Quant. Grav. **14** (1997) 47-52 &lbrack;[arXiv:hep-th/9605033](https://arxiv.org/abs/hep-th/9605033), [doi:10.1088/0264-9381/14/1/008](https://doi.org/10.1088/0264-9381/14/1/008)&rbrack;
 
-On [[anyons]] satisfying [[non-abelian group|non-abelian]] [[braid group statistics]] in the [[fractional quantum Hall effect]]:
 
-* [[Gregory Moore]], [[Nicholas Read]], _Nonabelions in the fractional quantum Hall effect_, Nucl. Phys. 360B (1991)362 ([pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf), <a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>)
+On [[anyons]] in the [[fractional quantum Hall effect]] satisfying [[non-abelian group|non-abelian]] [[braid group statistics]] and introducing the *[Moore-Read states](Laughlin+wavefunction#MooreReadWavefunctionOnPlane)*:
+
+* {#MooreRead91} [[Gregory Moore]], [[Nicholas Read]]: *Nonabelions in the fractional quantum Hall effect*, Nucl. Phys. B **360** (1991) 362 &lbrack;<a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>, [pdf](http://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)&rbrack;
+
+Indication that the [[effective field theory|effective]] [[abelian Chern-Simons theory]] [describing](abelian+Chern-Simons+theory#ReferencesAbCSForFQHE) the [[fractional quantum Hall effect]] has to be understood, in general, as a [[spin Chern-Simons theory]]:
+
+* [Moore & Read 1991](#MooreRead91) p. 381 ([20 of 35](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf#page=20)) 
+
 
 On [[boundary conditions]] ([[BCFT]]/[[D-branes]]) for the [[gauged WZW model]] via [[parafermions]]:
 
