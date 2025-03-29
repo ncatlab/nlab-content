@@ -521,7 +521,7 @@ Discussion of actions of [[Lorentz groups]] on [[celestial spheres]]:
 
 ### Multiplications on spheres
 
-* {#James57} I.M. James. *Multiplication on spheres (II).* Transactions of the American Mathematical Society 84.2 (1957): 545-558. ([doi](https://doi.org/10.2307/1992830)).
+* {#James57} I.M. James. *Multiplication on spheres (II).* Transactions of the American Mathematical Society 84.2 (1957): 545-558. ([doi:10.1090/S0002-9947-1957-0090812-8](https://doi.org/10.1090/S0002-9947-1957-0090812-8)).
 
 ### Geometric structures on spheres
 
