@@ -38,6 +38,7 @@ On [[quantum anomalies]] via [[index theory]]:
 
 * [[Jean-Michel Bismut]], [[Daniel Freed]], _The analysis of elliptic families. II. Dirac operators, eta invariants, and the holonomy theorem_ , Comm. Math. Phys. 107 (1986), no. 1, 103&#8211;163 ([doi:10.1007/BF01206955](https://doi.org/10.1007/BF01206955), [euclid:1104115934](https://projecteuclid.org/euclid.cmp/1104115934))
 
+
 On [[instantons]] and [[4-manifolds]]:
 
 * [[Daniel Freed]], [[Karen Uhlenbeck]], _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer 1991 ([doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8))
@@ -46,6 +47,12 @@ On [[instantons]] and [[4-manifolds]]:
 On [[topological quantum field theory]]:
 
 * [[Daniel Freed]], *Lectures on topological quantum field theory*, in: *Integrable Systems, Quantum Groups, and Quantum Field Theories*, NATO ASI Series **409** (1992) &lbrack;[doi:10.1007/978-94-011-1980-1_5](https://doi.org/10.1007/978-94-011-1980-1_5), [pdf](http://www.ma.utexas.edu/users/dafr/OldTQFTLectures.pdf), [[Freed-TQFTLectures.pdf:file]]&rbrack;
+
+On [[classical field theory|classical]] [[Chern-Simons theory]]:
+
+* [[Daniel Freed]]: *Classical Chern-Simons theory, Part I*, Adv. Math. **113** (1995) 237-303 &lbrack;[doi:10.1006/aima.1995.1039](https://doi.org/10.1006/aima.1995.1039), [arXiv:hep-th/9206021](http://arxiv.org/abs/hep-th/9206021)&rbrack;
+
+
 
 On mathematical foundations of [[superalgebra]], [[supergeometry]] and [[supersymmetry]]:
 
@@ -111,6 +118,8 @@ On formalizing [[short-range entanglement]] in [[topological phases of matter]] 
 On classification of [[invertible TQFTs]] via [[reflection positivity]]:
 
 * {#FreedHopkins21} [[Daniel Freed]], [[Michael Hopkins]], *Reflection positivity and invertible topological phases*, Geometry & Topology **25** (2021) 1165–1330  &lbrack;[arXiv:1604.06527](https://arxiv.org/abs/1604.06527), [doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)&rbrack;
+
+
 
 
 On [[spectral networks]] and [[Chern-Simons theory with complex gauge group]]:
