@@ -1,10 +1,14 @@
 
-This page collects material related to the textbook
+This page is to record the reference
 
 
-* [[Mikio Nakahara]], 
+* [[Mikio Nakahara]]:
+  
+  \linebreak
 
-  _**Geometry, Topology and Physics**_, 
+  **Geometry, Topology and Physics**
+
+  \linebreak
 
   First Edition: Institute of Physics Publishing, 1990.  ISBN 0-85274-094-8 (hardcover), 0-85274-095-6 (paperback)
 
