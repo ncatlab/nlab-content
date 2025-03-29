@@ -19,11 +19,14 @@
 
 A [[set]] of [[integers]] is called _coprime_ or _relatively prime_ if their only common [[prime factor]] is 1, equivalently if their [[greatest common divisor]] is 1.
 
+
 ## Related concepts
 
 * [[multiplicative group of integers modulo n]]
 
 * [[greatest common divisor]]
+
+* [[reduced fraction]]
 
 ## References
 
