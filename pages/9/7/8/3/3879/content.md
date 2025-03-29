@@ -126,9 +126,8 @@ The version of this belief in the necessity of deep mathematics for physics to b
 
 * {#Fadeev00} [[Ludwig Faddeev]], _Modern Mathematical Physics: what it should be?_, in Fokos, Grigoryan, Kibble, Zegarlinski (eds) _Mathematical Physics 2000_, World Scientific (2000) ([arXiv:math-ph/0002018](https://arxiv.org/abs/math-ph/0002018))
 
-* [[Mikio Nakahara]], _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
-
-  (with emphasis on [[differential geometry]] and [[topology]]/[[homotopy theory]] such as in [[fiber bundles in physics]])
+* [[Mikio Nakahara]]: _[[Geometry, Topology and Physics]]_, IOP (2003) &lbrack;[doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>&rbrack;
+  > (with emphasis on [[differential geometry]] and [[topology]]/[[homotopy theory]] such as in [[fiber bundles in physics]])
 
 * [[Gerd Rudolph]], [[Matthias Schmidt]], *Differential Geometry and Mathematical Physics Part I. Manifolds, Lie Groups and Hamiltonian Systems*, Springer 2013 ([doi:10.1007/978-94-007-5345-7](https://link.springer.com/book/10.1007/978-94-007-5345-7))
 
