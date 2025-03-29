@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -67,41 +68,49 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 
 * [[Christian Kassel]]: *Quantum groups*, Graduate Texts in Mathematics __155__, Springer (1995) &lbrack;[doi:10.1007/978-1-4612-0783-2](https://link.springer.com/book/10.1007/978-1-4612-0783-2), [webpage](http://www-irma.u-strasbg.fr/~kassel/QGbk.html), [errata pdf](http://www-irma.u-strasbg.fr/~kassel/QGerrata030399.pdf)&rbrack;
 
-
-* [[Shahn Majid]], _Foundations of quantum group theory_, Cambridge University Press 1995, 2000.
-
-* [[Yuri Manin|Yu. I. Manin]], _Quantum groups and non-commutative geometry_, CRM, Montreal 1988.
-
-* [[Brian Parshall]], J.Wang, _Quantum linear groups_, Mem. Amer. Math. Soc. 89(1991), No. 439, vi+157 pp.
+* [[Yuri Manin|Yu. I. Manin]], _Quantum groups and non-commutative geometry_, CRM Press (1988)
 
 * [[Nikolai Reshetikhin|N. Yu. Reshetikhin]], [[Leon  Takhtajan|L. A. Takhtajan]], [[Ludwig Fadeev|L. D. Faddeev]], _Quantization of Lie groups and Lie algebras_, Algebra i analiz __1__, 178 (1989) (Russian), English translation in Leningrad Math. J. 1.
 
-* [[Arun Ram]], _A survey of quantum groups: background, motivation, and results_, in: Geometric analysis and Lie theory in mathematics and physics, A. Carey and M. Murray eds., Australian Math. Soc. Lecture Notes Series __11__, Cambridge Univ. Press 1997, pp. 20-104. [pdf](http://www.ms.unimelb.edu.au/~ram/Publications/1997AustMSLectNotesv11p20.pdf)
+* [[Brian Parshall]], J.Wang, _Quantum linear groups_, Mem. Amer. Math. Soc. **89** 439 (1991)
 
-* [[Pavel Etingof]], O. Schiffmann, _Lectures on Quantum Groups_, Lectures in Math. Phys., International Press (1998).
-
-* [[Pavel Etingof]], [[Igor Frenkel]], _Lectures on representation theory and Knizhnik-Zamolodchikov equations_
-
-* A. U. Klymik, K. Schmuedgen, _Quantum groups and their representations_, Springer 1997.
-
-* A. Joseph, _Quantum groups and their primitive ideals_, Springer 1995.
-
-* [[Ross Street]], _Quantum groups : a path to current algebra_, Cambridge Univ. Press 2007
-
-* L. I. Korogodski, Ya. S. Soibelman, _Algebras of functions on quantum groups I_, Math. Surveys and Monographs 56, AMS 1998.
-
-* A. Varchenko, _Hypergeometric functions and representation theory of Lie algebras and quantum groups_, Advanced Series in Mathematical Physics, Vol. 21, World Scientific (1995) 
-
-* [[George Lusztig]], _Introduction to quantum groups_
-
-* V. Chari, A. Pressley, _A guide to quantum groups_, Camb. Univ. Press 1994 
+* V. Chari, [[Andrew Pressley]], _A guide to quantum groups_, Camb. Univ. Press (1994)
 
 
-* Bangming Deng, Jie Du, [[Brian Parshall]], Jianpan Wang, _Finite dimensional algebras and quantum groups_, Mathematical Surveys and Monographs __150__, Amer. Math. Soc. 2008. xxvi+759 pp. [MR2009i:17023)](http://www.ams.org/mathscinet-getitem?mr=2457938)
+* A. Joseph, _Quantum groups and their primitive ideals_, Springer (1995)
+
+* [[Shahn Majid]], _Foundations of quantum group theory_, Cambridge University Press (1995, 2000)
+
+* [[Alexander Varchenko]]: _Hypergeometric functions and representation theory of Lie algebras and quantum groups_, Advanced Series in Mathematical Physics **21**, World Scientific (1995) 
+
+
+* [[Larry A. Lambe]], [[David E. Radford]]: *Introduction to the quantum Yang-Baxter equation and quantum groups: an algebraic approach*, Mathematics and Its Applications __423__, Springer, Kluwer (1997) &lbrack;[doi:10.1007/978-1-4615-4109-7](https://doi.org/10.1007/978-1-4615-4109-7)&rbrack;
+
+
+* [[Arun Ram]], _A survey of quantum groups: background, motivation, and results_, in: Geometric analysis and Lie theory in mathematics and physics, A. Carey and M. Murray eds., Australian Math. Soc. Lecture Notes Series __11__, Cambridge Univ. Press (1997) 20-104 &lbrack;[pdf](http://www.ms.unimelb.edu.au/~ram/Publications/1997AustMSLectNotesv11p20.pdf)&rbrack;
+
+* A. U. Klymik, K. Schmuedgen, _Quantum groups and their representations_, Springer (1997)
+
+* L. I. Korogodski, [[Yan S. Soibelman]]: _Algebras of functions on quantum groups I_, Math. Surveys and Monographs 56, AMS (1998)
+
+* [[Pavel Etingof]], O. Schiffmann, _Lectures on Quantum Groups_, Lectures in Math. Phys., International Press (1998)
+
+
+* {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov]], *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) &lbrack;[ISBN:978-1-4704-1285-2](https://bookstore.ams.org/surv-58), [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf)&rbrack;
+
+
+* [[Ross Street]], _Quantum groups : a path to current algebra_, Cambridge Univ. Press (2007)
+
+* Bangming Deng, Jie Du, [[Brian Parshall]], Jianpan Wang, _Finite dimensional algebras and quantum groups_, Mathematical Surveys and Monographs __150__, Amer. Math. Soc. (2008) [MR2009i:17023)](http://www.ams.org/mathscinet-getitem?mr=2457938)
+
+
+* [[George Lusztig]], _Introduction to quantum groups_ (2010) &lbrack;[doi:10.1007/978-0-8176-4717-9](https://doi.org/10.1007/978-0-8176-4717-9)&rbrack;
+
 
 * [[Tom Bridgeland]], _Quantum groups via Hall algebras of complexes_, Annals of Mathematics __177__:2 (2013) 739--759 (21 pages) 
 
-* [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]], *Berkeley Lectures on Lie Groups and Quantum Groups*, 2020 ([pdf](http://categorified.net/LieQuantumGroups.pdf))
+* [[Richard Borcherds]], [[Mark Haiman]], [[Theo Johnson-Freyd]], [[Nicolai Reshetikhin]], [[Vera Serganova]], *Berkeley Lectures on Lie Groups and Quantum Groups* (2020) &lbrack;[pdf](http://categorified.net/LieQuantumGroups.pdf)&rbrack;
+
 
 Lecture notes on [[Hopf algebras]] and quantum groups in view of [[topological field theory]]:
 
