@@ -65,7 +65,7 @@ $
 [[Landau's Fermi liquid theory|Fermi theory]] of idealized *free* electrons hence predicts the system to be a [[conductor (electromagnetism)|conductor]] away from the [[energy gaps]] between a completely filled and the next empty Landau level, hence away from the number of electrons being integer multiples 
 $n_{\mathrm{el}} = \nu B/\Phi_0$,
 $\nu \in \mathbb{N}$
-of the number of flux quanta, where longitudinal conductivity should vanish.
+of the number of [[flux]] [[flux quantization|quanta]], where longitudinal conductivity should vanish.
 
 This is indeed observed and is called the *integer quantum Hall effect* --- in fact the vanishing conductivity is observed in sizeable neighbourhoods of the critical filling fractions ("Hall plateaux", attributed to disorder effects).
 
@@ -402,7 +402,95 @@ What people have come up with, instead, are:
 
 For more on [[Laughlin wavefunctions]] and on effective [[abelian Chern-Simons theory]] in the FQH context, see there.
 
-A neat account of the commonly accepted composite fermion picture is given by [Störmer 1999](#Störmer99):
+
+
+### Composite particle picture
+ {#CompositeParticlePicture}
+
+The simple basic assumption of the "composite particle" (CP) heuristic for explaining the FQH effect is that:
+
+One electron "[[bound state|bound to]]" (maybe better: "grouped with") $n$ [[flux]] [[flux quantization|quanta]] behaves like
+
+* a composite [[fermion]] when $n$ is [[even number|even]],
+
+* a composite [[boson]] when $n$ is [[odd number|odd]].
+
+The idea behind this is, heuristically, that as such pairs of electron+flux compounds are moved around each other, the intrinsic [[particle statistics]] of the pairs of electrons (according to which the [[wavefunction]] picks up a factor of $(-1)$) combines with the [[Aharonov-Bohm effect|Aharonov Bohm phases]] of the electrons circling around the $m$ fluxes (according to which the wavefunction picks up another factor of $(-1)^n$), to make for a total exchange phase of 
+
+
+$$
+  (-1)^{1 + n}
+  \,,
+$$
+
+hence for 
+
+* a total phase $-1$ if $n$ is odd, as for fermions,
+
+* a total phase $+1$ if $n$ is even, as for bosons.
+
+> (Not so clear how to really justify this combination of [[particle statistics]] with [[Aharonov-Bohm effect|Aharonov-Bohm phases]], as these are not on the same footing, but it just seems to work as a heuristic model.)
+
+\linebreak
+
+If one accepts this heuristics of electron+flux *composite particles*, then it provides the following heuristic explanation of the fractional quantum Hall effect, in fact it provides two alternative explanations.
+
+First, at simple Landau filling fraction $\nu = 1/q$ with $q$ odd, there are $q$ flux quanta per electron. Thinking of these as being coupled in the form of "composite bosons" (since $q$ is assumed to be odd, which are indeed the primary filling fractions seen in experiment, though far from the only ones) then the effective system is now bosonic and hence may [[Bose-Einstein condensate|condense]] to give the fractional quantum Hall phase. ([Girvin & MacDonald 1987 p 1254](https://doi.org/10.1103/PhysRevLett.58.1252))
+
+Further exposition of this perspective by [Störmer 1999](#Störmer99) is quoted [below](#Störmer99Quote).
+
+\linebreak
+
+But [Jain 1989](#Jain89), [1992](#Jain92), [2007](#Jain07) has argued that the following alternative perspective of composite fermions is more compelling and in any case more general and more expressive, as it neatly captures also the correct hierarchy of filling fractions $\nu = p/q$ with $p \gt 1$:
+
+First assume that the electrons each bind to $2m$ flux quanta ($m \in \mathbb{N}$) to make composite fermions, and *then* assume that these composite fermions *themselves* show an integer quantum Hall effect at filling number $p$, hence that there are $p$ such composite fermions for each *remaining* (unbound) flux quantum.
+
+In total then the ratio of flux quanta over electrons is 
+$$
+  \tfrac{flux}{electrons}
+    \;=\; 
+  2m \pm \tfrac{1}{p}
+$$
+(the sign choice reflecting choice of relative orientation of the magnetic field)
+and so the corresponding filling fractions are ([Jain 1989 p 1-2](#Jain89))
+$$
+  \nu 
+    \;\equiv\;
+  \tfrac{electrons}{flux} 
+    \;=\;
+  \frac
+    { 1 }
+    { 2 n + 1/p }
+  \;=\;
+  \tfrac{
+    p
+  }{
+    2 p m \pm 1
+  }
+  \,.
+$$
+Remarkably, this resulting formula captures a significant part of the zoo of observed filling fractions with odd denominators:
+
+\begin{imagefromfile}
+    "file_name": "Jain1989-Fig1.jpg",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(from [Jain 1989](#Jain89))"
+\end{imagefromfile}
+
+
+
+\linebreak
+
+
+
+{#Störmer99Quote} A vivid account of the composite boson picture at odd filling denominator is given by [Störmer 1999](#Störmer99):
 
 > "In the [[fractional quantum Hall effect|FQHE]], the electrons assume an even more favorable state \[than in the IQHE\], unforeseen by theory, by conducting an elaborate, mutual, quantum-mechanical dance. Many-particle effects are extraordinarily challenging to address theoretically. \[...\] on occasion many-particle interactions become the essence of a physical effect. [[superconductivity|Superconductivity]] and [[superfluidity]] are of such intricate origin. To account for their occurrence one had to devise novel, sophisticated theoretical means. The emergence of the FQHE requires such a new kind of thinking. \[...\] 
 
@@ -688,11 +776,11 @@ The Haldane-Halperin model:
 
 The composite-fermion model (CF) which explains the FQHE as the [[integer quantum Hall effect]] not of the bare electrons but of [[quasi-particles]] which they form (for reasons not explained by the model):
 
-* [[Jainendra K. Jain]]: *Composite-fermion approach for the fractional quantum Hall effect*, Phys. Rev. Lett. **63** (1989) 199 \[<a href="https://doi.org/10.1103/PhysRevLett.63.199">doi:10.1103/PhysRevLett.63.199</a>\]
+* {#Jain89} [[Jainendra K. Jain]]: *Composite-fermion approach for the fractional quantum Hall effect*, Phys. Rev. Lett. **63** (1989) 199 \[<a href="https://doi.org/10.1103/PhysRevLett.63.199">doi:10.1103/PhysRevLett.63.199</a>\]
 
-* [[Jainendra K. Jain]]: *Microscopic theory of the fractional quantum Hall effect*, Adv. Phys. **41** (1992) 105-146 \[<a href="https://doi.org/10.1080/00018739200101483">doi:10.1080/00018739200101483</a>\]
+* {#Jain92} [[Jainendra K. Jain]]: *Microscopic theory of the fractional quantum Hall effect*, Adv. Phys. **41** (1992) 105-146 \[<a href="https://doi.org/10.1080/00018739200101483">doi:10.1080/00018739200101483</a>\]
 
-* [[Jainendra K. Jain]]: *Composite Fermions*, Cambridge University Press (2007) \[<a href="https://doi.org/10.1017/CBO9780511607561">doi:10.1017/CBO9780511607561</a>\]
+* {#Jain07} [[Jainendra K. Jain]]: *Composite Fermions*, Cambridge University Press (2007) \[<a href="https://doi.org/10.1017/CBO9780511607561">doi:10.1017/CBO9780511607561</a>\]
 
 
 Further discussion:
