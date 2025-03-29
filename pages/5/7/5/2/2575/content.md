@@ -831,8 +831,8 @@ Introduction and review:
 
 * [[Daniel Freed]]:
 
-  * {#FreedI} _Classical Chern-Simons theory Part I_ , 
-    Adv. Math. **113** (1995), 237-303 &lbrack;[arXiv:hep-th/9206021](http://arxiv.org/abs/hep-th/9206021)&rbrack;
+  * {#FreedI} *Classical Chern-Simons theory, Part I*, 
+    Adv. Math. **113** (1995) 237-303 &lbrack;[doi:10.1006/aima.1995.1039](https://doi.org/10.1006/aima.1995.1039), [arXiv:hep-th/9206021](http://arxiv.org/abs/hep-th/9206021)&rbrack;
    
   * _Classical Chern-Simons theory, part II_ 
     Houston J. Math. **28** (2002) 293-310 &lbrack;[pdf](http://www.ma.utexas.edu/users/dafr/cs2.pdf)&rbrack;
