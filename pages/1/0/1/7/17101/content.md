@@ -1,8 +1,18 @@
 
+Ioan Mackenzie James (1928-2025)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Ioan_James)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=22474)
+
+* [MacTutoBiography page](https://mathshistory.st-andrews.ac.uk/Biographies/James/)
+
 ## Selected writings
+
+On multiplication operations on [[spheres]]:
+
+* {#James57} [[Ioan M. James]]: *Multiplication on spheres (II)*, Transactions of the American Mathematical Society **84** 2 (1957) 545-558 &lbrack;[doi:10.1090/S0002-9947-1957-0090812-8](https://doi.org/10.1090/S0002-9947-1957-0090812-8), [doi:10.2307/1992830](https://doi.org/10.2307/1992830), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/jamesm2.pdf)&rbrack;
+
 
 On [[general topology]] and [[homotopy theory]]:
 
