@@ -182,7 +182,7 @@ the parameterized quantum Yang-Baxter equation (eq:ParameterizedQuantumYBEquatio
 
 and one speaks of the parameterized quantum Yang-Baxter equation with "*multiplicative spectral parameter*".
 
-Yet again redefining by passage to [[logarithms]] of the parameters, $u \mapsto ln u$ (or rather, understanding the previous parameters a [[exponential map|exponentials]]), 
+Yet again redefining by passage to [[logarithms]] of the parameters, $u \mapsto ln u$ (or rather, understanding the previous parameters as [[exponential map|exponentials]]), 
 the equation (eq:MultiplicativeSpectrallyParameterizedQuantumYBEquation) assumes the form with "*additive spectral parameter*":
 
 \[
@@ -244,6 +244,9 @@ Reviews:
 * {#Jimbo89} [[Michio Jimbo]]: *Introduction to the Yang-Baxter Equation*,  International Journal of Modern Physics A **4** 15 (1989) 3717-3757 &lbrack;[doi:10.1142/S0217751X89001497](https://doi.org/10.1142/S0217751X89001497)&rbrack;
 
   reprinted in: *Braid Group, Knot Theory and Statistical Mechanics*, Advanced Series in Mathematical Physics **9**, World Scientific (1991) &lbrack;[doi:10.1142/0796](https://doi.org/10.1142/0796)&rbrack;
+
+* [[Larry A. Lambe]], [[David E. Radford]]: *Introduction to the quantum Yang-Baxter equation and quantum groups: an algebraic approach*,  Mathematics and Its Applications __423__, Springer, Kluwer (1997) &lbrack;[doi:10.1007/978-1-4615-4109-7](https://doi.org/10.1007/978-1-4615-4109-7)&rbrack;
+
 
 * {#PerkAu-Yang06} Jacques H. H. Perk, Helen Au-Yang: *Yang-Baxter Equations*, Encyclopedia of Mathematical Physics **5** (2006) 465-473 &lbrack;[arXiv:math-ph/0606053](https://arxiv.org/abs/math-ph/0606053)&rbrack;
 
