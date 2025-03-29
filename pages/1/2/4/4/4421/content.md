@@ -713,20 +713,29 @@ $$
 
 ## References
 
-The article introducing  the concept is 
+Original eponymous article:
 
-* [[Shiing-Shen Chern]], [[James Simons]], _[[Characteristic forms and geometric invariants]]_  The Annals of Mathematics, Second Series, Vol. 99, No. 1 (Jan., 1974), pp. 48-69  ([jstor:1971013](http://www.jstor.org/pss/1971013)) ([pdf](http://www.dpmms.cam.ac.uk/~hk244/chern-simons.cp.pdf))
+* {#ChernSimons74} [[Shiing-Shen Chern]], [[James Simons]]: _[[Characteristic forms and geometric invariants]]_  The Annals of Mathematics, Second Series, **99** 1 (1974) 48-69 &lbrack;[jstor:1971013](http://www.jstor.org/pss/1971013), [pdf](http://www.dpmms.cam.ac.uk/~hk244/chern-simons.cp.pdf)&rbrack
 
-As it says in the introduction of this article, it was motivated by an attempt to find a combinatorial formula for the [[Pontrjagin class]] of a [[Riemannian manifold]] (i.e. that associated to the [[orthogonal group|O(n)]]-[[principal bundle]] to which the [[tangent bundle]] is associated) and the Chern-Simons form appeared as a boundary term that obstructed to original attempt to derive the Pontrjagin class by integrating curvature classes simplex-by-simplex. But 
-A combinatorial formula of the kind these authors were looking for was however (nevertheless) given later in
+Reviews:
 
-* [[Jean-Luc Brylinski]], [[Dennis McLaughlin]] _&#268;ech cocycles for characteristic classes_ , Comm. Math. Phys.  178  (1996) (<a href="http://www.springerlink.com/content/762g1m76jp6425x5/">pdf</a>)
+* [[Mikio Nakahara]]: *Chern-Simons forms*, chapter 11.5 in: _[[Geometry, Topology and Physics]]_, IOP (2003) &lbrack;[doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>&rbrack;
 
-The statements about "pure shift" paths are reviewed on the first few pages of
+
+* Kai S. Lam: *Chern-Simons forms*, chapter 42 in : *Topics in Contemporary Mathematical Physics*, Second Edition, World Scientific (2015) 533-551 &lbrack;[doi;10.1142/9789814667814_0042](https://doi.org/10.1142/9789814667814_0042), [[Lam-CSForms.pdf:file]]&rbrack;
+
+
+The statements about "pure shift" paths are reviewed on the first few pages of:
 
 * [[James Simons]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_ ([arXiv](http://arxiv.org/abs/0810.4935?context=math.DG))
 
 which discusses the relevance of Chern-Simons forms in [[differential K-theory]].
+
+While [Chern & Simons 1974](#ChernSimons74) was motivated (as stated in the introduction there) by an attempt to find a combinatorial formula for the [[Pontrjagin class]] of a [[Riemannian manifold]] (i.e. that associated to the [[orthogonal group|O(n)]]-[[principal bundle]] to which the [[tangent bundle]] is associated), the Chern-Simons form appeared as a boundary term that obstructed to original attempt to derive the Pontrjagin class by integrating curvature classes simplex-by-simplex. 
+
+But a combinatorial formula of the kind these authors were looking for was however (nevertheless) given later in
+
+* [[Jean-Luc Brylinski]], Dennis McLaughlin: _&#268;ech cocycles for characteristic classes_ , Comm. Math. Phys. **178** (1996) 225-236 &lbrack;[doi:10.1007/BF02104916](https://doi.org/10.1007/BF02104916)&rbrack;
 
 The [[L-∞-algebra]]-formulation is discussed in [SSS08](http://arxiv.org/abs/0801.3480).
 
