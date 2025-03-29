@@ -586,6 +586,7 @@ The theoretical prediction of (eq:BraidingAngleAsFunctionOfFillingFraction) --- 
 
 Starting around 2020, this braiding phase is reported to be observed in [[experiments]] for some cases such as $\nu = 1/3$ and $\nu = 2/5$, see the references [below](#ObservationOfAnyonsInFQH).
 
+> The K-matrix formalism allows more general relations between filling factor and braiding phase, cf. [Wen 1995 (2.30-1)](#Wen95).
 
 \linebreak
 
