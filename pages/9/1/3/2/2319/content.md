@@ -585,9 +585,11 @@ where each "hook" is a [[fiber sequence]].
 
 ### General
 
-Monographs:
+Original reference:
 
 * {#Milnor1963} [[John Milnor]]: *Spin Structures on Manifolds*, L'Enseignement Mathématique **9** (1963) 198-203 &lbrack;[doi:10.5169/seals-38784](http://doi.org/10.5169/seals-38784), [[Milnor-SpinStructures.pdf:file]]&rbrack;
+
+Monographs:
 
 * {#LawsonMichelson1989} [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]]: *[[Spin geometry]]*, Princeton University Press (1989) &lbrack;[ISBN 9780691085425](https://press.princeton.edu/books/hardcover/9780691085425/spin-geometry-pms-38-volume-38), [jstor:j.ctt1bpmb28](https://www.jstor.org/stable/j.ctt1bpmb28)&rbrack;
 
