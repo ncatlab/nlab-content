@@ -112,7 +112,7 @@ On the [[10-fold way]]:
 
 
 
-## Relatedentries
+## Related entries
 
 * [[Kalb-Ramond field]]
 
