@@ -6,7 +6,7 @@
 +--{: .hide}
 [[!include monoidal categories - contents]]
 =--
-#### Algebraic Quantum Field Theory
+#### AQFT
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -68,6 +68,7 @@ A **modular tensor category** is a [[category]] with the following long list of 
   $$
   (on the right we use string diagram notation)
 
+
 ## Examples
 
 ### Rep categories of VOAs
@@ -97,6 +98,7 @@ A database of examples is given by ([Gannon & Höhn](#GannonHoehn)).
 
 * [[tensor category]]
 
+* [[super-modular tensor category]]
 
 ## References
 
