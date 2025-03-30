@@ -44,7 +44,7 @@ Review includes
 A review with an eye towards the interpretation of the Riemann theta functions as [[partition functions]] of [[2d CFT]]/[[string]] models is in 
 
 
-* {#AlvaresGaumeMooreVafa86} [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]], _Theta functions, modular invariance, and strings_, Communications in Mathematical Physics Volume 106, Number 1 (1986), 1-4 ([Euclid](http://projecteuclid.org/euclid.cmp/1104115581))
+* {#AlvaresGauméMooreVafa86} [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]]: *Theta functions, modular invariance, and strings*, Communications in Mathematical Physics **106** 1 (1986) 1-4 &lbrack;[doi:10.1007/BF01210925](https://doi.org/10.1007/BF01210925), [euclid:cmp/1104115581](http://projecteuclid.org/euclid.cmp/1104115581)&rbrack;
 
 Discussion as covariantly constant sections of the [[Hitchin connection]] is in 
 
