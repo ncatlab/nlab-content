@@ -158,11 +158,12 @@ See also:
 
 * [[Groupprops]]: *<a href="https://groupprops.subwiki.org/wiki/Special_linear_group:SL(2,Z)">Special linear group:SL(2,Z)</a>*
 
+
 ### Representation theory
 
-#### General
+On the [[representation theory]] of $SL_2(\mathbb{Z})$.
 
-On the [[representation theory]] of $SL_2(\mathbb{Z})$:
+#### General
 
 * Nils R. Scheithauer: *The Weil Representation of formula and Some Applications*, International Mathematics Research Notices, **2009** 8 (2009) 1488–1545 &lbrack;[doi:10.1093/imrn/rnn166](https://doi.org/10.1093/imrn/rnn166), [pdf](https://www.mathematik.tu-darmstadt.de/media/algebra/homepages/scheithauer/publications/Weil_representation.pdf)&rbrack;
 
@@ -197,10 +198,29 @@ The $SL(2,\mathbb{Z})$-action on the [[Kac-Weyl character|characters]] in [[2d C
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], [[Simon Wood]], [[Yang Yang]], p 7 in: *Algebraic structures in two-dimensional conformal field theory*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2305.02773](https://arxiv.org/abs/2305.02773)&rbrack;
 
-
 Via [[modular tensor categories]]:
 
 * Samuel Nathan Wilson: *$SL(2,\mathbb{Z})$ Representations and 2-Semiregular Modular Categories*, PhD thesis, Louisiana State U. (2023) &lbrack;[10.31390gradschool_dissertations.6094](https://repository.lsu.edu/gradschool_dissertations/6094/)&rbrack;
+
+
+### Congruence and spin subgroups
+
+On subgroups of $SL_2(\mathbb{Z}) \,\simeq\, MCG(T^2)$ preserving a [[spin structure]] on the [[torus]]:
+
+On the context of [[2d CFT]]:
+
+* {#AlvaresGauméMooreVafa86} [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]], §2 of: *Theta functions, modular invariance, and strings*, Communications in Mathematical Physics **106** 1 (1986) 1-4 &lbrack;[doi:10.1007/BF01210925](https://doi.org/10.1007/BF01210925), [euclid:cmp/1104115581](http://projecteuclid.org/euclid.cmp/1104115581)&rbrack;
+
+
+In the context of [[super-modular categories]]:
+
+* Paul Bruillard, Cesar Galindo, Tobias Hagge, Siu-Hung Ng, Julia Yael Plavnik, [[Eric C. Rowell]], [[Zhenghan Wang]], theorem 2.7 in: *Fermionic Modular Categories and the 16-fold Way*, J. Math. Phys. **58** (2017) 041704  \[<a href="https://doi.org/10.1063/1.4982048">doi:10.1063/1.4982048</a>, <a href="https://arxiv.org/abs/1603.09294">arXiv:1603.09294</a>\]
+
+* [[Parsa Bonderson]], [[Eric C. Rowell]], Qing Zhang, [[Zhenghan Wang]], p. 3 of: *Congruence Subgroups and Super-Modular Categories*, Pacific J. Math. **296** (2018) 257-270 &lbrack;[arXiv:1704.02041](https://arxiv.org/abs/1704.02041), [doi:10.2140/pjm.2018.296.257](https://doi.org/10.2140/pjm.2018.296.257)&rbrack;
+
+* [[Qing Zhang]], §4.1.1 in: *Super-Modular Categories*, PhD thesis, Texas A&M University (2019) &lbrack;[pdf](https://oaktrust.library.tamu.edu/server/api/core/bitstreams/2a87bc88-4eeb-468e-838f-2ff5f4244cf2/content), [[Zhang-SuperModularCategories.pdf:file]]&rbrack;
+
+* Jin-Beom Bae et al., §3 in: *Fermionic rational conformal field theories and modular linear differential equations*, Progress of Theoretical and Experimental Physics **2021** 8 (2021) 08B104 &lbrack;[doi:10.1093/ptep/ptab033](https://doi.org/10.1093/ptep/ptab033), [arXiv:2010.12392](https://arxiv.org/abs/2010.12392)&rbrack; 
 
 
 
