@@ -41,6 +41,8 @@ In general, [[Chern-Simons theory]] requires [[3-manifolds]] equipped with [[2-f
 
 ## Related concepts
 
+* [[super-modular tensor category]]
+
 * [[analytically continued Chern-Simons theory]]
 
 * [[holomorphic Chern-Simons theory]]
@@ -48,6 +50,8 @@ In general, [[Chern-Simons theory]] requires [[3-manifolds]] equipped with [[2-f
 * [[eta invariant]]
 
 [[!include square roots of line bundles - table]]
+
+
 
 ## References
 
