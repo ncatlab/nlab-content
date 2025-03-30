@@ -87,4 +87,4 @@ In this way, any concept expressible in [[homotopy type theory]], and compatible
 
 * {#ULL} [[Steve Awodey]], _Univalence as a logical law_, talk at [conference](https://hottatbristol.wordpress.com/), Bristol 15 Sept 2016.
 
-* {#UPL} [[Steve Awodey]], _Univalence as a Principle of Logic_, ([preprint](https://www.andrew.cmu.edu/user/awodey/preprints/uapl.pdf))
+* {#UPL} [[Steve Awodey]], _Univalence as a Principle of Logic_, Indagationes Mathematical 29(6), pp. 1497-1510. ([pdf] (https://www.sciencedirect.com/science/article/pii/S0019357718303227#:~:text=The%20Univalence%20Axiom%20has%20recently%20been%20proposed,new%20principle%20for%20the%20foundations%20of%20mathematics.)) ([preprint](https://www.andrew.cmu.edu/user/awodey/preprints/uapl.pdf))
