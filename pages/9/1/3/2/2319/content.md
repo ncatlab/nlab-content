@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _spin structure_ on a [[manifold]] $X$ with an [[orientation]] is a lift $\hat g$ of the classifying map $g : X \to B S O(n)$ of the [[tangent bundle]] through the second step $B Spin(n) \to B S O(n)$ in the [[Whitehead tower]] of $O(n)$.
+A _spin structure_ on a [[manifold]] $X$ with an [[orientation]] is a [[lift]] $\hat g$ of the [[classifying map]] $g \colon X \to B SO(n)$ of its [[tangent bundle]] through the second step $B Spin(n) \to B S O(n)$ in the [[Whitehead tower]] of $O(n)$ to the [[classifying space]] of the [[spin group]]:
 
 $$
   \array{
@@ -248,6 +248,16 @@ Spin structures naturally form a [[category]], with [[morphisms]] being ([[isome
 
 ## Properties
 
+### General
+
+\begin{proposition}\label{ClassificationOfSpinStructures}
+If a [[manifold]] $X$ admits any spin structure, then its [[set]] of distinct spin structures is in [[bijection]] with its first [[ordinary homology]] $H_1(X;\, C_2)$ with [[coefficients]] in [[cyclic group of order 2|$C_2$]].
+\end{proposition}
+([Milnor 1963 p 199](#Milnor1963))
+
+
+
+
 ### Over a Riemann surface
  {#OverARiemannSurface}
 
@@ -298,8 +308,10 @@ It is the generalization of this anomaly computation from the worldlines of supe
 
 ## Examples
 
-### On the 2-sphere
- {#OnThe2Sphere}
+
+### On $n$-spheres
+
+\begin{example}\label{OnThe2Sphere}
 
 The 2-[[sphere]] $S^2$ is famously a [[complex manifold]]: the [[Riemann sphere]]. One standard way to exhibit the complex structure is to cover $S^2$ with two copies of the [[complex plane]] with [[coordinate]] transition functions on the overlap $\mathbb{C} - \{0\}$ given by
 
@@ -379,26 +391,35 @@ $$
 $$
 
 This gives a $(k+1)$-dimensional space of holomorphic sections.
+\end{example}
 
 For more along these lines see also at _[[geometric quantization of the 2-sphere]]_.
 
-### On the $n$-sphere
- {#SpinStructureOnTheNSphere}
-
 Generally:
 
-\begin{example}
+\begin{example}\label{SpinStructureOnTheNSphere}
 The [[n-sphere]], for each $n \in \mathbb{N}$, carries a canonical [[spin structure]], induced from its [[coset space]]-realization $S^n \simeq Spin(n+1)/Spin(n)$ 
 ([here](sphere#LabelCosetSpaceStructure)), as a special case of the canonical $H$-structure on $G/H$ ([this example](G-structure#CanonicalHStructureOnFModH)).
 \end{example}
 
 Other ways to see this:
 
-
 * {#Nowaczyk15} Nikolai Nowaczyk, Theorem A.6.6 in: _Dirac Eigenvalues of higher Multiplicity_ ([arXiv:1501.04045](https://arxiv.org/abs/1501.04045))
 
 * {#SpinorsInGeometryAndPhysics} S. Gutt, _Killing spinors on spheres and projective spaces_, p. 238-248 in: A. Trautman, G. Furlan (eds.) _Spinors in Geometry and Physics -- Trieste 11-13 September 1986_, World Scientific 1988
 ([doi:10.1142/9789814541510](https://doi.org/10.1142/9789814541510),  [GBooks, p. 243](https://books.google.ae/books?id=d14GCwAAQBAJ&lpg=PA243&ots=_tH_He8UFg&dq=%22spin%20structure%20on%20spheres%22&pg=PA243#v=onepage&q=%22spin%20structure%20on%20spheres%22&f=false))
+
+
+### On surfaces
+ {#OnSurfaces}
+
+\begin{example}\label{SpinStructuresOnClosedSurfaces}
+  On the [[closed manifold|closed]] [[orientation|oriented]] [[surface]] of [[genus of a surface|genus]] $g \in \mathbb{N}$ there exist precisely $2^{2g}$ distinct spin structures.
+\end{example}
+([Lawson & Michelson 1989 Ex. 2.6](#LawsonMichelson1989))
+\begin{proof}
+  By the general classification of spin structures of Prop. \ref{ClassificationOfSpinStructures}, the ordinary homology of surfaces discussed [there](surface#OrdinaryHomologyOfClosedOriented) and using the [[universal coefficient theorem]].
+\end{proof}
 
 
 ## Higher spin structures
@@ -559,15 +580,19 @@ where each "hook" is a [[fiber sequence]].
 [[!include higher spin structure - table]]
 
 
+
 ## References
 
 ### General
 
-Standard texbooks include 
+Monographs:
 
-* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], chapter II of _[[Spin geometry]]_, Princeton University Press (1989)
+* {#Milnor1963} [[John Milnor]]: *Spin Structures on Manifolds*, L'Enseignement Mathématique **9** (1963) 198-203 &lbrack;[doi:10.5169/seals-38784](http://doi.org/10.5169/seals-38784), [[Milnor-SpinStructures.pdf:file]]&rbrack;
 
-* {#Friedrich97} [[Thomas Friedrich]], _Dirac operators in Riemannian geometry_, Graduate studies in mathematics 25, AMS (1997)
+* {#LawsonMichelson1989} [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]]: *[[Spin geometry]]*, Princeton University Press (1989) &lbrack;[ISBN 9780691085425](https://press.princeton.edu/books/hardcover/9780691085425/spin-geometry-pms-38-volume-38), [jstor:j.ctt1bpmb28](https://www.jstor.org/stable/j.ctt1bpmb28)&rbrack;
+
+* {#Friedrich97} [[Thomas Friedrich]]: _Dirac operators in Riemannian geometry_, Graduate Studies in Mathematics **25** AMS (1997)
+
  
 Concerning the action of [[diffeomorphisms]] on spin structures:
 
