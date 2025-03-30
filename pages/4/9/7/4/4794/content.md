@@ -25,19 +25,25 @@ The relevance of spin geometry in [[physics]] rests on the fact that in [[quantu
 
 Spin geometry also plays a central role in supersymmetric quantum field theory such as [[supergravity]].
 
+
 ## Related concepts
 
-* [[spin group]]. [[spin representation]], [[spinor]], [[spin]]
+* [[spin group]]
+
+* [[spin representation]], [[spinor]], [[spin]]
+
+* [[spin structure]]
 
 * [[Fierz identity]]
 
 * [[geometric algebra]]
 
+
 ## References
 
 A classical monograph:
 
-* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989) &lbrack;[ISBN 9780691085425](https://press.princeton.edu/books/hardcover/9780691085425/spin-geometry-pms-38-volume-38)&rbrack;
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]]: _[[Spin geometry]]_, Princeton University Press (1989) &lbrack;[ISBN 9780691085425](https://press.princeton.edu/books/hardcover/9780691085425/spin-geometry-pms-38-volume-38), [jstor:j.ctt1bpmb28](https://www.jstor.org/stable/j.ctt1bpmb28)&rbrack;
 
 Discussion with an eye towards [[mathematical physics]]:
 
