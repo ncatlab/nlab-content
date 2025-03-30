@@ -80,11 +80,18 @@ On [[braid group representations]] (specifically the [[Burau representation]] an
 
 * [[Colleen Delaney]], [[Eric C. Rowell]], [[Zhenghan Wang]], *Local unitary representations of the braid group and their applications to quantum computing*, Revista Colombiana de Matemáticas(2017), 50 (2):211 ([arXiv:1604.06429](https://arxiv.org/abs/1604.06429), [doi:10.15446/recolma.v50n2.62211](http://dx.doi.org/10.15446/recolma.v50n2.62211))
 
+
 A proposal for classifying [[symmetry protected topological phases|symmetry-protected]] [[anyon|anyonic]] [[topological order]] in terms of [[2-group|2-groupoidal]]-actions on [[modular tensor categories]]:
 
 * [[Zhenghan Wang]], §2.2 of: *Beyond Anyons*,  Modern Physics Letters A **33** 28 (2018) 1830011  &lbrack;[arXiv:1710.00464](https://arxiv.org/abs/1710.00464), [doi:10.1142/S0217732318300112](https://doi.org/10.1142/S0217732318300112)&rbrack;
 
 * {#BBCW19} [[Maissam Barkeshli]], [[Parsa Bonderson]], [[Meng Cheng]], [[Zhenghan Wang]], *Symmetry Fractionalization, Defects, and Gauging of Topological Phases*, Phys. Rev. B **100** 115147 (2019) $[$[arXiv:1410.4540](https://arxiv.org/abs/1410.4540), [doi:10.1103/PhysRevB.100.115147](https://doi.org/10.1103/PhysRevB.100.115147), [talk pdf](http://helper.ipam.ucla.edu/publications/stq2015/stq2015_12401.pdf)$]$
+
+
+On [[super-modular tensor categories]]:
+
+* [[Parsa Bonderson]], [[Eric C. Rowell]], [[Qing Zhang]], [[Zhenghan Wang]]: *Congruence Subgroups and Super-Modular Categories*, Pacific J. Math. **296** (2018) 257-270 &lbrack;[arXiv:1704.02041](https://arxiv.org/abs/1704.02041), [doi:10.2140/pjm.2018.296.257](https://doi.org/10.2140/pjm.2018.296.257)&rbrack;
+
 
 Argument realizing [[anyon|anyonic]] [[topological order]] in the [[worldvolume]]-[[quantum field theory|field theory]] on [[M5-branes]] via [[KK-compactification]] on [[closed manifold|closed]] [[3-manifolds]] ([[Seifert manifolds]]) analogous to the [[3d-3d correspondence]] (which instead uses [[hyperbolic 3-manifolds]]):
 
