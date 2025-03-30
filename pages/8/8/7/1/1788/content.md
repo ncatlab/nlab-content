@@ -11,6 +11,63 @@
 \linebreak
 
 
+$$
+  \begin{array}{l}
+    S T^2 {\vert n \rangle}
+    \\
+    \;=\;
+    S 
+    e^{ - 2 \pi \mathrm{i}/12 }
+    e^{
+      \tfrac{2 \pi \mathrm{i}}{k}
+      n^2
+    }
+    {\vert n \rangle}
+    \\
+    \;=\;
+    \tfrac{1}{\sqrt{k}}
+    e^{ - 2 \pi \mathrm{i}/12 }
+    \;
+    \sum_{\widehat{n}}
+    e^{ \tfrac{2 \pi \mathrm{i}}{k} n \widehat{n} }
+    e^{
+      \tfrac{2 \pi \mathrm{i}}{k}
+      n^2
+    }
+    {\big\vert \widehat{n} \big\rangle}
+  \end{array}
+$$
+
+$$
+  \begin{array}{l}
+    T^2 S  {\vert n \rangle}
+    \\
+    \tfrac{1}{\sqrt{k}}
+    T^2
+    \sum_{\widehat{n}}
+    e^{
+      \tfrac{2 \pi \mathrm{i}}{k}
+      n \widehat{n}
+    }
+    {\big\vert \widehat{n} \big\rangle}
+    \\
+    \;=\;
+    \tfrac{1}{\sqrt{k}}
+    e^{ -2\pi \mathrm{i}/12}
+    \;
+    \sum_{\widehat{n}}
+    e^{
+      \tfrac{2 \pi \mathrm{i}}{k} \widehat{n}^2
+    }
+    e^{
+      \tfrac{2 \pi \mathrm{i}}{k}
+      n \widehat{n}
+    }
+    {\big\vert \widehat{n} \big\rangle}
+  \end{array}
+$$
+
+
 Spin mapping class group:
 
 * [[Parsa Bonderson]], [[Eric C. Rowell]], [[Qing Zhang]], [[Zhenghan Wang]], p. 3 of: *Congruence Subgroups and Super-Modular Categories*, Pacific J. Math. **296** (2018) 257-270 &lbrack;[arXiv:1704.02041](https://arxiv.org/abs/1704.02041), [doi:10.2140/pjm.2018.296.257](https://doi.org/10.2140/pjm.2018.296.257)&rbrack;
