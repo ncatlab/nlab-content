@@ -11,6 +11,7 @@ Introducing [[link groups]]:
 
 * {#Milnor64} [[John Milnor]]: *Link groups*, Ann. of Math. **2** 59 (1954) 177-195 &lbrack;[doi:10.2307/1969685](https://doi.org/10.2307/1969685), [jstor:1969685](https://www.jstor.org/stable/1969685), [MR](http://www.ams.org/mathscinet-getitem?mr=71020)&rbrack;
 
+
 On [[universal principal bundles]] via the *[[Milnor construction]]*:
 
 * [[John Milnor]], *Construction of Universal Bundles I*, Ann. of Math. __63__ 2 (1956) 272-284 &lbrack;[jstor:1969609](http://www.jstor.org/stable/1969609)&rbrack;
@@ -22,6 +23,13 @@ On [[universal principal bundles]] via the *[[Milnor construction]]*:
 On [[exotic 7-spheres]]:
 
 * {#Milnor1956} [[John Milnor]], _On manifolds homeomorphic to the 7-sphere_, Annals of Mathematics 64 (2): 399-405 (1956) ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/exotic.pdf), [doi:10.1142/9789812836878_0001](https://doi.org/10.1142/9789812836878_0001))
+
+
+On [[spin structures]] over [[manifolds]]:
+
+* {#Milnor1963} [[John Milnor]]: *Spin Structures on Manifolds*, L'Enseignement Mathématique **9** (1963) 198-203 &lbrack;[doi:10.5169/seals-38784](http://doi.org/10.5169/seals-38784), [[Milnor-SpinStructures.pdf:file]]&rbrack;
+
+
 
 On [[Hopf algebras]]:
 
