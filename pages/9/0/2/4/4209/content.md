@@ -1,5 +1,11 @@
 
-* [website](http://www.math.ru.nl/~mueger/)
+* [personal page](http://www.math.ru.nl/~mueger/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=108668)
+
+* [inSpire page](https://inspirehep.net/authors/996566)
+
+* [GoogleScholar page](https://scholar.google.de/citations?user=P2ZaKQkAAAAJ&hl=de)
 
 ## Selected writings
 
@@ -20,7 +26,7 @@ On [[general topology|general]] [[topology]]
 
 * {#Mueger18} [[Michael Müger]], _Topology for the working mathematician_, Nijmegen (2018) &lbrack;[pdf](https://www.math.ru.nl/~mueger/topology.pdf)&rbrack;
 
-## Related $n$Lab entries
+## Related entries
 
 * [[spherical category]]
 
