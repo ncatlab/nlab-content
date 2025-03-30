@@ -10,15 +10,21 @@
 =--
 
 
-This page collects links related to the book
+This page is to to record the reference
 
-* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]]
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]]:
 
-  _Spin geometry_
+  \linebreak
+
+  **Spin geometry**
+
+  \linebreak
 
   Princeton University Press (1989)
 
   [ISBN 9780691085425](https://press.princeton.edu/books/hardcover/9780691085425/spin-geometry-pms-38-volume-38)
+  
+  [jstor:j.ctt1bpmb28](https://www.jstor.org/stable/j.ctt1bpmb28)
 
 
 on [[spin geometry]].
