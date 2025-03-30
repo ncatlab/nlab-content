@@ -77,15 +77,15 @@ For general ([[compact Lie group|compact]]) [[gauge groups|gauge]] [[Lie groups]
 * [[Jerome Jenquin]], _Spin Chern-Simons and Spin TQFTs_ &lbrack;[arXiv:0605239](http://arxiv.org/abs/math/0605239)&rbrack;
 
 
-Specifically for [[abelian group|abelian]] [[gauge groups]] ([[abelian Chern-Simons theory]]):
+Specifically for [[abelian group|abelian]] [[gauge groups]] $\mathrm{U}(1)^n$ ([[abelian Chern-Simons theory]]):
 
 * Dmitriy Belov, [[Gregory Moore]]: _Classification of abelian spin Chern-Simons theories_ &lbrack;[arXiv:hep-th/0505235](http://arxiv.org/abs/hep-th/0505235)&rbrack;
 
-and with emphasis on the [[holography|holographically dual]] [[self-dual higher gauge theory]]:
-
 * {#BelovMoore06} Dmitriy Belov, [[Gregory Moore]], _Holographic Action for the Self-Dual Field_ &lbrack;[arXiv:hep-th/0605038](http://arxiv.org/abs/hep-th/0605038)&rbrack;
+  > (in view of[[self-dual higher gauge theory]])
 
-  > (based on work by Witten and Hopkins-Singer, see the references at _[[self-dual higher gauge theory]]_).
+* Takuya Okuda, Koichi Saito, Shuichi Yokoyama: *$U(1)$ spin Chern-Simons theory and Arf invariants in two dimensions*, Nuclear Physics B **962** (2021) 115272 \[<a href="https://doi.org/10.1016/j.nuclphysb.2020.115272">doi:10.1016/j.nuclphysb.2020.115272</a>, [arXiv:2005.03203](https://arxiv.org/abs/2005.03203)\]
+
 
 
 [[!redirects spin Chern-Simons theory]]
