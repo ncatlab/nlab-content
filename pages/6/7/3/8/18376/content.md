@@ -12,10 +12,8 @@
 =--
 =--
 
-# Isotropy group of a topos
+\tableofcontents
 
-* table of contents
-{: toc}
 
 ## Definition
 
@@ -35,8 +33,14 @@ The isotropy quotient is contained in the **etale isotropy quotient**, namely th
 
 The etale isotropy group of a 1-topos (then called just the "isotropy group") was defined in
 
-* Jonathon Funk, Pieter Hofstra, and Benjamin Steinberg, _Isotropy and crossed toposes_, [TAC](http://www.tac.mta.ca/tac/volumes/26/24/26-24abs.html)
+* [[Jonathon Funk]], [[Pieter Hofstra]], [[Benjamin Steinberg]]: *Isotropy and crossed toposes*, Theory and Applications of Categories **26** 24 (2012) 660-709 &lbrack;[tac:26-24](http://www.tac.mta.ca/tac/volumes/26/24/26-24abs.html)&rbrack;
+
 
 It was shown to be the group of points of the localic isotropy group in
 
 * [[Simon Henry]], _The localic isotropy group of a topos_, [arxiv](https://arxiv.org/abs/1706.04835)
+
+
+[[!redirects isotropy groups of toposes]]
+
+
