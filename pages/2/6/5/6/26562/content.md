@@ -208,13 +208,13 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Constructions of free Markov and CD categories: [Fritz-Liang'23](#free_gs).
 
-* Notions of [[conditional independence]] as [[universal properties]]: [Simpson'18](#independence), [Simpson'24](#atomic_sheaf).
+* Notions of [[conditional independence]] as [[universal properties]]: [Simpson'18](#independence), [Simpson'24](#atomic_sheaf), [Stein'25](#stein_RV).
 
 * Study of joint and marginal distributions for [[probability monads]]: [Fritz-Perrone'18](#bimonoidal_monads).
 
 * Markov categories for [[partial maps]]: [Di Lavore-Román'23](#partial_markov) and [DLRS'25](#partial_markov_ext).
 
-* Connections between [[Markov categories]] and [[categories of couplings]]: [Fritz'20](#fritzmarkov) and [Ensarguet-Perrone'23](#ergodic_dagger).
+* Connections between [[Markov categories]] and [[categories of couplings]]: [Fritz'20](#fritzmarkov), [Ensarguet-Perrone'23](#ergodic_dagger), [Stein'25](#stein_RV).
 
 * Connections between [[Markov categories]] and [[probability monads]]: [Golubtsov'02](#golubtsov02), [FGPR'23](#fritz_representable), [Moss-Perrone'22](#det_submonad), [FGGPS'23](#dilations), [BP'25](#bohinen).
 
@@ -230,7 +230,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * A monad encoding [[probabilistic point processes]] combining probability and nondeterminism: [Dash-Staton'20](#point_processes).
 
-* [[random variables|Random variables]] in terms of [[sheaves]]: [Simpson'17](#probability_sheaves), [Simpson'24](#atomic_sheaf).
+* [[random variables|Random variables]] in terms of [[sheaves]]: [Simpson'17](#probability_sheaves), [Simpson'24](#atomic_sheaf), [Stein'25](#stein_RV).
 
 (...)
 
@@ -483,6 +483,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#string_graded} Ralph Sarkis and [[Fabio Zanasi]], _String Diagram for Graded Monoidal Theories with an Application to Imprecise Probability_, 2025. ([arXiv](https://arxiv.org/abs/2501.18404))
 
 * {#definetti_ned} Sam Staton and Ned Summers, _Quantum de Finetti Theorems as Categorical Limits, and Limits of State Spaces of C*-algebras_, Proceedings of Quantum Physics and Logic, 2022. ([arXiv](https://arxiv.org/abs/2207.05832))
+
+* {#stein_RV} Dario Stein, _Random Variables, Conditional Independence and Categories of Abstract Sample Spaces_, 2025. ([arXiv](https://arxiv.org/abs/2503.02477))
 
 * {#gauss_nondet} Dario Stein and Richard Samuelson, _A Category for unifying Gaussian Probability and Nondeterminism_, Proceedings of CALCO, LIPIcs 10, 2023. ([arXiv](https://arxiv.org/abs/2204.14024))
 
