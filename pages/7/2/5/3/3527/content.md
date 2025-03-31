@@ -1,8 +1,16 @@
-[[Masaki Kashiwara]] is a Japanese mathematician. He made substantial contributions to the theory of [[pseudodifferential operator]]s, [[hyperfunction]]s and [[microlocal analysis]], study of [[D-module]]s, holonomic systems, Riemann-Hilbert problem, categories of [[constructible sheaf|constructible sheaves]] and [[representation theory]]. He invented [[crystal base|crystal bases]] and crystals in Lie and [[quantum group]] theory.
+[[Masaki Kashiwara]] is a Japanese mathematician. He made substantial contributions to the theory of [[pseudodifferential operator]]s, [[hyperfunction]]s and [[microlocal analysis]], study of [[D-module]]s, holonomic systems, Riemann-Hilbert problem, categories of [[constructible sheaf|constructible sheaves]] and [[representation theory]]. He invented [[crystal bases]] and crystals in Lie and [[quantum group]] theory.
 
-* [homepage](http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara), [list of publicatons](http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/list.html)
+* [personal page](http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Masaki_Kashiwara)
+
+* [GoogleScholar page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=19904)
+
 
 ## Selected writings
+
+* [list of publicatons](http://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/list.html)
+
 
 On the [[Kadomtsev-Petviashvili equation]]:
 
