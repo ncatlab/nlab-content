@@ -329,7 +329,7 @@ $$
   \,,
 $$
 
-where on the right we display the [[crossed complex]] corresponding to this 3-group (the morphisms are all constant on the unit element, the action of $\mathbb{Z}_2$ on either of the $U(1)$s is the canonical one given by $\mathb{Z}_2 \simeq Aut(U(1))$ ). This is seen as follows: every invertible [[2-functor]] $F : \mathbf{B}^2 U(1) \to \mathbf{B}^2 U(1)$ comes from a group auotmorphism of $U(1)$, of which there are $\mathbb{Z}_2$. A [[pseudonatural transformation]] necessarily goes from any such $F$ to itself, and there are $U(1)$ of them Similarly, any [[modification]] of these necessarily is an endo, and there are also $U(1)$ of them.
+where on the right we display the [[crossed complex]] corresponding to this 3-group (the morphisms are all constant on the unit element, the action of $\mathbb{Z}_2$ on either of the $U(1)$s is the canonical one given by $\mathb{Z}_2 \simeq Aut(U(1))$ ). This is seen as follows: every invertible [[2-functor]] $F : \mathbf{B}^2 U(1) \to \mathbf{B}^2 U(1)$ comes from a group automorphism of $U(1)$, of which there are $\mathbb{Z}_2$. A [[pseudonatural transformation]] necessarily goes from any such $F$ to itself, and there are $U(1)$ of them. Similarly, any [[modification]] of these necessarily is an endo, and there are also $U(1)$ of them.
 
 
 Therefore $\mathbf{B}U(1)$-2-gerbes are classified by the [[nonabelian cohomology]]
