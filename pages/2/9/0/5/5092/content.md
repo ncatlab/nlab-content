@@ -1,9 +1,13 @@
 
 Ji&#345;&#237; Rosick&#253; is a pure [[category theory|category theorist]]. One of his major contributions, jointly with [[Jiří Adámek]], is the development of the theory of [[Locally Presentable and Accessible Categories]]. 
 
-* [website](http://www.math.muni.cz/~rosicky/)
+* [personal page](http://www.math.muni.cz/~rosicky/)
 
-* [[Wikipedia]]: <https://en.wikipedia.org/wiki/Jiří_Rosický_(mathematician)>
+* <a href="https://en.wikipedia.org/wiki/Jiří_Rosický_(mathematician)">Wikipedia entry</a>
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=250091)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Jiri-Rosicky)
 
 
 ## Selected writings
