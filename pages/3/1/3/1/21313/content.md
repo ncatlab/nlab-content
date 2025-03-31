@@ -47,6 +47,9 @@ Review:
 
 * [[Stanley Brodsky]], [[Guy de Teramond]], [[Hans Günter Dosch]], _Light-Front Holography and Supersymmetric Conformal Algebra: A Novel Approach to Hadron Spectroscopy, Structure, and Dynamics_ ([arXiv:2004.07756](https://arxiv.org/abs/2004.07756))
 
+* [[Stanley J. Brodsky]]: *Advances for QCD and the Standard Model: Color-Confining Light-Front Holography and the Principle of Maximum Conformality* &lbrack;[arXiv:2503.21993](https://arxiv.org/abs/2503.21993)&rbrack;
+
+
 
 On [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[supersymmetric quantum mechanics]] in [[holographic light front QCD]];
 
