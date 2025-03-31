@@ -1,9 +1,14 @@
 Pierre Schapira is a French mathematician who developed [[algebraic analysis]] as a member of [[Mikio Sato]]'s school.
 
+His main collaborator is [[Masaki Kashiwara]]. Together, they developed microlocalization of sheaves and ind-sheaves, expanding Sato's groundbreaking ideas to a complete categorical toolbox to do analysis in a purely (ind)-sheaf theoretical setting.
+
 * [personal page](http://webusers.imj-prg.fr/~pierre.schapira/)
 
+* <a href="https://en.wikipedia.org/wiki/Pierre_Schapira_(mathematician)">Wikipedia entry</a>
 
-His main collaborator is [[Masaki Kashiwara]]. Together, they developed microlocalization of sheaves and ind-sheaves, expanding Sato's groundbreaking ideas to a complete categorical toolbox to do analysis in a purely (ind)-sheaf theoretical setting.
+* [GoogleScholar page](https://scholar.google.co.uk/citations?user=cf7tAa0AAAAJ&hl=en)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=71545&fChrono=1)
 
 ## Selected writings
 
@@ -15,8 +20,7 @@ The theory of [[microlocalization]] of (ind)-sheaves was developed in the follow
 * [[Masaki Kashiwara]], [[Pierre Schapira]], [[Florian Ivorra]], [[Ingo Waschkies]] _Microlocalization of ind-sheaves_, gives the main results
 and proofs.
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]] _Ind-sheaves_, SMF, gives a
-complete account of the theory.
+* [[Masaki Kashiwara]], [[Pierre Schapira]] _Ind-sheaves_, SMF, gives a complete account of the theory.
 
 
 On [[microlocalization]] of [[abelian sheaves]] and [[Grothendieck's yoga of six operations]]:
