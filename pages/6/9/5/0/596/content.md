@@ -29,7 +29,7 @@ $\wedge := a_1 \to \top \leftarrow a_2$.
 
 * the double cospans of the form $\wedge^{\times 2}$ with $\wedge$ as above, described in 
 
-  * Jeffrey Morton, _Double Bicategories and Double Cospans_ ([arXiv](http://xxx.lanl.gov/abs/math.CT/0611930)),
+  * Jeffrey Morton, _Double Bicategories and Double Cospans_ ([arXiv](https://arxiv.org/pdf/math/0611930)),
 
  * Grandis' higher cubical cospans, which generalize the previous example: these are obtained by restricting the domain posets to be the cartesian powers
 $\wedge^{\times n}$ (with $\wedge$ as above).
