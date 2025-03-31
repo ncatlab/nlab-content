@@ -20,7 +20,8 @@ The theory of [[microlocalization]] of (ind)-sheaves was developed in the follow
 * [[Masaki Kashiwara]], [[Pierre Schapira]], [[Florian Ivorra]], [[Ingo Waschkies]] _Microlocalization of ind-sheaves_, gives the main results
 and proofs.
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]] _Ind-sheaves_, SMF, gives a complete account of the theory.
+* [[Masaki Kashiwara]], [[Pierre Schapira]] _Ind-sheaves_, SMF, gives a
+complete account of the theory.
 
 
 On [[microlocalization]] of [[abelian sheaves]] and [[Grothendieck's yoga of six operations]]:
