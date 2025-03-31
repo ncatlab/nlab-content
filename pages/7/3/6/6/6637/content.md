@@ -5,7 +5,7 @@
 
 ## Definition
 
-For $G$ a [[group]], the **outer automorphism group** $Out(G)$ is the [[quotient]] of the [[automorphism group]] by the [[normal subgroup]] of [[inner autormorphism]]s:
+For $G$ a [[group]], the **outer automorphism group** $Out(G)$ is the [[quotient]] of the [[automorphism group]] by the [[normal subgroup]] of [[inner automorphism]]s:
 
 $$
   Out(G) := Aut(G)/Inn(G)
