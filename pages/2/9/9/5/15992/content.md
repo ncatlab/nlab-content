@@ -45,7 +45,7 @@ The _[[Schur orthogonality relation]]_ is the statement that the [[complex numbe
 \]
 
 
-(e.g. [Fulton & Harris 91, Thm. 2.12](#FultonHarris91), [tom Dieck 09, Prop. 2.2.1 & (2.3.3)](#tomDieck09))
+(e.g. [Fulton & Harris 1991 Thm. 2.12](#FultonHarris91), [tom Dieck 2009 Prop. 2.2.1 & (2.3.3)](#tomDieck09), [Steinberg 2012 Thm. 4.3.9](#Steinberg12))
 
 In fact, this holds also at the level of complex [[irreducible representations]] $\rho^{(a)}$ ("grand Schur orthogonality"), regarded for each $g \in G$ as [[unitary matrices]] $\rho^{(a)}(g) \in U(\chi^{(a)}(e))$ with matrix entries $\big(\rho^{(a)}(g)_{i j}\big)_{i j}$:
 
@@ -90,7 +90,7 @@ Conversely, the sum over all ([[isomorphism classes]]) of [[irreducible characte
   \right.
 \]
 
-(e.g. [Fulton & Harris 91, Ex. 2.21](#FultonHarris91), [tom Dieck 09, Prop. 2.2.1 & (2.3.3)](#tomDieck09))
+(e.g. [Fulton & Harris 1991 Ex. 2.21](#FultonHarris91), [tom Dieck 2009 Prop. 2.2.1 & (2.3.3)](#tomDieck09))
 
 
 ## Related concepts
@@ -105,16 +105,19 @@ Textbook accounts:
 
 * {#FultonHarris91} [[William Fulton]], [[Joe Harris]], _Representation Theory: a First Course_, Springer, Berlin, 1991 ([doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9))
 
+* {#Steinberg12} [[Benjamin Steinberg]]: *Character Theory and the Orthogonality Relations*, chapter 4 in: *Representation Theory of Finite Groups -- An Introductory Approach*, Springer (2012) &lbrack;[doi:10.1007/978-1-4614-0776-8_4](https://doi.org/10.1007/978-1-4614-0776-8_4)&rbrack;
+
+
 Lecture notes:
 
 * {#tomDieck09} [[Tammo tom Dieck]], _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf), [[tomDieckRepresentationTheory.pdf:file]])
-
 
 * Andrei Yafaev, _Characters of finite groups_ ([pdf](http://www.ucl.ac.uk/~ucahaya/Characters.pdf))
 
 See also:
 
 * Wikipedia, _[Schur orthogonality relation](http://en.wikipedia.org/wiki/Schur_orthogonality_relations)_ 
+
 
 [[!redirects Schur orthogonality relations]]
 [[!redirects Schur orthogonality]]
