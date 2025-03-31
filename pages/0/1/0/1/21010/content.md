@@ -79,6 +79,9 @@ Review:
 
 * [[Guy de Téramond]], *Emergent phenomena in QCD: The holographic perspective* &lbrack;[arXiv:2212.14028](https://arxiv.org/abs/2212.14028)&rbrack;
 
+* [[Stanley J. Brodsky]]: *Advances for QCD and the Standard Model: Color-Confining Light-Front Holography and the Principle of Maximum Conformality* &lbrack;[arXiv:2503.21993](https://arxiv.org/abs/2503.21993)&rbrack;
+
+
 
 Further concerning [[confinement]] and [[chiral symmetry breaking]]:
 
