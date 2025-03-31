@@ -13,6 +13,7 @@ On [[profunctors]] with application to [[shape theory]]:
 On [[regular categories]] and [[protomodular categories]]:
 
 * [[Dominique Bourn]], [[Marino Gran]], _Regular, Protomodular, and Abelian Categories_, Chapter IV, pp.165-211 in: Maria Pedicchio, [[Walter Tholen]] (eds.), _Categorical Foundations_ , Cambridge University Press 2004 ([doi:10.1017/CBO9781107340985.007](https://doi.org/10.1017/CBO9781107340985.007))
+* Dominique Bourn, [_From Groups to Categorial Algebra : Introduction to Protomodular and Mal’tsev Categories_](https://doi.org/10.1007/978-3-319-57219-2), Compact Textbooks in Mathematics, Birkhäuser 2017
 
 
 
@@ -25,7 +26,6 @@ On [[nonabelian homological algebra]], such as its [[diagram chasing lemmas]], i
 On [[2-categories]]
 
 * D. Bourn, J. Penon, _2-Cat&#233;gories r&#233;ductibles_, [tac reprints](http://www.tac.mta.ca/tac/reprints/articles/19/tr19abs.html)
-* Dominique Bourn, [_From Groups to Categorial Algebra : Introduction to Protomodular and Mal’tsev Categories_](https://doi.org/10.1007/978-3-319-57219-2), Compact Textbooks in Mathematics, Birkhäuser 2017
 
 category: people
 [[!redirects D. Bourn]]
