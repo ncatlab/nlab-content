@@ -70,6 +70,12 @@ Cohomological properties:
 
 * Y. Choi, S. Yoon, _Homology of the triple loop space of the exceptional Lie group $F_4$_, J. Korean Math. Soc. 35 (1998), No. 1, pp. 149&#8211;164 ([pdf](http://www.mathnet.or.kr/mathnet/kms_tex/32004.pdf))
 
+See also:
+
+* V.K. Dobrev: *Invariant Differential Operators for the Real Exceptional Lie Algebra $F'_4$* &lbrack;[arXiv:2503.22407](https://arxiv.org/abs/2503.22407)&rbrack;
+
+
+
 ### In string theory
 
 That the group $F_4$ controls the massless degrees of freedom of [[11-dimensional supergravity]] was observed and explored in 
