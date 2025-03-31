@@ -1413,7 +1413,7 @@ for some $u:A\to B$ where all the morphisms in the triangle are appropriatedly i
 
 In the context of [[chain complexes]] the construction is discussed for instance in
 
-* {#Schapira} [[Pierre Schapira]], section 3.2 and section 7 of _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+* {#Schapira} [[Pierre Schapira]], section 3.2 and section 7 of _Categories and homological algebra_ (2011) ([pdf](http://webusers.imj-prg.fr/~pierre.schapira/LectNotes/HA.pdf))
  
 
 * {#Weibel} [[Charles Weibel]], section 1.5 of  _[[An Introduction to Homological Algebra]]_ .
