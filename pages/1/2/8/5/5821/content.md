@@ -85,7 +85,7 @@ and
 
 (iii)  $\rho(ab,c) = \rho(a,bc)$ for any $a,b,c \in L$.
 
-\
+
 
 We note that (ii) implies that $L_{g^{-1}} \cong  L_g^*$, the dual of $L_g$.
 
