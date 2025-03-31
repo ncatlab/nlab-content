@@ -99,11 +99,12 @@ Conversely, the sum over all ([[isomorphism classes]]) of [[irreducible characte
 
 * [[1d Dijkgraaf-Witten theory]]
 
+
 ## References
 
 Textbook accounts:
 
-* {#FultonHarris91} [[William Fulton]], [[Joe Harris]], _Representation Theory: a First Course_, Springer, Berlin, 1991 ([doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9))
+* {#FultonHarris91} [[William Fulton]], [[Joe Harris]], _Representation Theory: A First Course_, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9)&rbrack;
 
 * {#Steinberg12} [[Benjamin Steinberg]]: *Character Theory and the Orthogonality Relations*, chapter 4 in: *Representation Theory of Finite Groups -- An Introductory Approach*, Springer (2012) &lbrack;[doi:10.1007/978-1-4614-0776-8_4](https://doi.org/10.1007/978-1-4614-0776-8_4)&rbrack;
 
