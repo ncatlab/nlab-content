@@ -55,12 +55,15 @@ The **regular representation** of $M$ is the action of $M$ on ${|M|}$ induced by
 ## Properties
  {#Properties}
 
-* The regular representation of $G$ as a linear representation is the [[induced representation]] $Ind_{1}^G 1$ of the trivial representation along the inclusion of the trivial [[subgroup]].
+\begin{proposition}
+The regular representation of $G$ as a linear representation is the [[induced representation]] $Ind_{1}^G 1$ of the [[trivial representation]] along the inclusion of the [[trivial group|trivial]] [[subgroup]].
+\end{proposition}
 
 \begin{prop}\label{RegularRepDecomposedIntoIrreps}
 Over the [[complex numbers]], the regular representation of a [[finite group]] is a [[direct sum]] that contains each [[irreducible representation]] $\rho_i$ with multiplicity its dimension 
 
-$$
+\[
+  \label{DecompositionOfRegularRepIntoIrreps}
   \mathbb{C}[G]
   \;\simeq\;
   \underset{i}{\sum}
@@ -68,9 +71,32 @@ $$
     \cdot
   \rho_i
   \,.
-$$
+\]
 \end{prop}
 (e.g. [tom Dieck 09, Thm. (1.10.2)](#tomDieck09) and using [[Schur's lemma]] for the complex case)
+
+Taking [[dimension of a vector space|dimensions]] on both sides of (eq:DecompositionOfRegularRepIntoIrreps) yields the:
+
+\begin{prop}\label{SumOfSquaresFormula}
+**(sum of squares formula)**
+\linebreak
+The [[sum]] of the squares of the [[dimension of a vector space|dimensions]] of the [[isomorphism classes]] of [[complex numbers|complex]] [[irreducible representations]] of a [[finite group]] $G$ equals the [[order of a group|order]] ${\vert G \vert}$ of the group:
+
+$$
+  \sum_{
+    [\rho] \in Irrep(G)_{/\sim}
+  }
+  \big( dim \rho \big)^2
+  \;\;
+  =
+  \;\;
+  {\vert G \vert}
+  \,.
+$$
+
+\end{prop}
+
+(cf. [Etingof et al. 2011 Thm. 3.1(ii)](#EtingofEtAl11))
 
 ## Related concepts
 
@@ -80,9 +106,16 @@ $$
 
 ## References
 
-Lecture notes include
+Most texts of [[representation theory]] discuss the regular representation, see [there](representation+theory#References).
 
-* {#tomDieck09} [[Tammo tom Dieck]], section 1.10 of _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+Monographs:
+
+* {#EtingofEtAl11} [[Pavel Etingof]], [[Dmitry Vaintrob]] et al.: *Introduction to representation theory*, Student Mathematical Library **59**, AMS (2011) &lbrack;[arXiv:0901.0827](https://arxiv.org/abs/0901.0827), [ams:stml-59](https://bookstore.ams.org/stml-59)&rbrack;
+Lecture notes:
+
+Lecture notes:
+
+* {#tomDieck09} [[Tammo tom Dieck]], section 1.10 of _Representation theory_ (2009) &lbrack;[pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf)&rbrack;
 
 
 [[!redirects regular representation]]
