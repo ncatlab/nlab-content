@@ -1,6 +1,11 @@
 
+Shiing-Shen Chern (1911-2004)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Shiing-Shen_Chern)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=6424)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=YR_aEP0AAAAJ&hl=en)
 
 ## Selected writings
 
@@ -14,7 +19,7 @@ On [[principal bundles]], their [[characteristic classes]] and introducing the [
 
 Introducing [[Chern-Simons forms]]:
 
-* [[Shiing-Shen Chern]], [[James Simons]], Section 2 of: _Characteristic Forms and Geometric Invariants_, Annals of Mathematics Second Series, Vol. 99, No. 1 (Jan., 1974), pp. 48-69 ([jstor:1971013](https://www.jstor.org/stable/1971013))
+* {#ChernSimons74} [[Shiing-Shen Chern]], [[James Simons]]: _[[Characteristic forms and geometric invariants]]_  The Annals of Mathematics, Second Series, **99** 1 (1974) 48-69 &lbrack;[jstor:1971013](http://www.jstor.org/pss/1971013), [pdf](http://www.dpmms.cam.ac.uk/~hk244/chern-simons.cp.pdf)&rbrack;
 
 
 ## Quotes
