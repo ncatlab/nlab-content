@@ -7,78 +7,25 @@
 
 ***
 
-
-\linebreak
-
-
 $$
   \begin{array}{l}
-    S T^2 {\vert n \rangle}
+    \big(\widehat{\rho}'(g^{-1})\widehat{\rho}(g)\big)
+    \rho(h)
+    \big(\widehat{\rho}'(g^{-1})\widehat{\rho}(g)\big)^{-1}
     \\
     \;=\;
-    S 
-    e^{ - 2 \pi \mathrm{i}/12 }
-    e^{
-      \tfrac{2 \pi \mathrm{i}}{k}
-      n^2
-    }
-    {\vert n \rangle}
+    \widehat{\rho}'(g^{-1})\widehat{\rho}(g)
+    \rho(h)
+    \widehat{\rho}(g^{-1})\widehat{\rho}'(g)
     \\
     \;=\;
-    \tfrac{1}{\sqrt{k}}
-    e^{ - 2 \pi \mathrm{i}/12 }
-    \;
-    \sum_{\widehat{n}}
-    e^{ \tfrac{2 \pi \mathrm{i}}{k} n \widehat{n} }
-    e^{
-      \tfrac{2 \pi \mathrm{i}}{k}
-      n^2
-    }
-    {\big\vert \widehat{n} \big\rangle}
+    \widehat{\rho}'(g^{-1})
+    \rho(g h g^{-1})
+    \widehat{\rho}'(g)
+    \\
+    \;=\;
   \end{array}
 $$
-
-$$
-  \begin{array}{l}
-    T^2 S  {\vert n \rangle}
-    \\
-    \tfrac{1}{\sqrt{k}}
-    T^2
-    \sum_{\widehat{n}}
-    e^{
-      \tfrac{2 \pi \mathrm{i}}{k}
-      n \widehat{n}
-    }
-    {\big\vert \widehat{n} \big\rangle}
-    \\
-    \;=\;
-    \tfrac{1}{\sqrt{k}}
-    e^{ -2\pi \mathrm{i}/12}
-    \;
-    \sum_{\widehat{n}}
-    e^{
-      \tfrac{2 \pi \mathrm{i}}{k} \widehat{n}^2
-    }
-    e^{
-      \tfrac{2 \pi \mathrm{i}}{k}
-      n \widehat{n}
-    }
-    {\big\vert \widehat{n} \big\rangle}
-  \end{array}
-$$
-
-
-Spin mapping class group:
-
-* [[Parsa Bonderson]], [[Eric C. Rowell]], [[Qing Zhang]], [[Zhenghan Wang]], p. 3 of: *Congruence Subgroups and Super-Modular Categories*, Pacific J. Math. **296** (2018) 257-270 &lbrack;[arXiv:1704.02041](https://arxiv.org/abs/1704.02041), [doi:10.2140/pjm.2018.296.257](https://doi.org/10.2140/pjm.2018.296.257)&rbrack;
-
-
-* Jin-Beom Bae et al.: *Fermionic rational conformal field theories and modular linear differential equations*, Progress of Theoretical and Experimental Physics **2021** 8 (2021) 08B104 &lbrack;[doi:10.1093/ptep/ptab033](https://doi.org/10.1093/ptep/ptab033), [arXiv:2010.12392](https://arxiv.org/abs/2010.12392)&rbrack; 
-
-* Paul Bruillard, Cesar Galindo, Tobias Hagge, Siu-Hung Ng, Julia Yael Plavnik, [[Eric C. Rowell]], [[Zhenghan Wang]], theorem 2.7 in: *Fermionic Modular Categories and the 16-fold Way*, J. Math. Phys. **58** (2017) 041704  \[<a href="https://doi.org/10.1063/1.4982048">doi:10.1063/1.4982048</a>, <a href="https://arxiv.org/abs/1603.09294">arXiv:1603.09294</a>\]
-
-* [[Qing Zhang]], §4.1.1 in: *Super-Modular Categories*, PhD thesis, Texas A&M University (2019) &lbrack;[pdf](https://oaktrust.library.tamu.edu/server/api/core/bitstreams/2a87bc88-4eeb-468e-838f-2ff5f4244cf2/content), [[Zhang-SuperModularCategories.pdf:file]]&rbrack;
-
 
 
 
