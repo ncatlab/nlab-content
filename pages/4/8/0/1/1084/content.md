@@ -1411,18 +1411,17 @@ for some $u:A\to B$ where all the morphisms in the triangle are appropriatedly i
 
 ## References
 
-In the context of [[chain complexes]] the construction is discussed for instance in
+In the context of [[chain complexes]]:
 
-* {#Schapira} [[Masaki Kashiwara]], [[Pierre Schapira]], section 4.2 and section 7 of _An Introduction to Categories and homological algebra_ (2011) ([pdf](http://webusers.imj-prg.fr/~pierre.schapira/LectNotes/HA.pdf))
+* {#Schapira} [[Masaki Kashiwara]], [[Pierre Schapira]], sections 4.2 & 7 of: _An Introduction to Categories and homological algebra_ (2024) &lbrack;[pdf](http://webusers.imj-prg.fr/~pierre.schapira/LectNotes/HA.pdf)&rbrack;
  
-
 * {#Weibel} [[Charles Weibel]], section 1.5 of  _[[An Introduction to Homological Algebra]]_ .
 
-In the context of [[spectra]] discussion includes
+In the context of [[spectra]]:
 
 * {#Switzer75} [[Robert Switzer]], around 8. 17 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
-Graphics taken from
+The above graphics is taken from
 
 * {#Muro10} [[Fernando Muro]], _Representability of Cohomology Theories_, Joint Mathematical Conference CSASC 2010, 22–27 January 2010, Prague, Czech Republic ([slides](https://personal.us.es/fmuro/files/slides/praha.pdf))
 
