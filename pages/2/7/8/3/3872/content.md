@@ -2,9 +2,13 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Atiyah)
 
+* [inSpire page](https://inspirehep.net/authors/1021105)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=30949)
+
 * _Memories of Sir Michael Atiyah_, Notices of the AMS &lbrack;[pdf](https://www.ams.org/journals/notices/201911/rnoti-p1834.pdf), [[MemoriesOfAtiyah.pdf:file]]&rbrack;
 
-  * [[Bernd Schroers]], _Michael Atiyah and Physics: the Later Years_ &lbrack;[arXiv:1910.10630](https://arxiv.org/abs/1910.10630)&rbrack;
+* [[Bernd Schroers]], _Michael Atiyah and Physics: the Later Years_ &lbrack;[arXiv:1910.10630](https://arxiv.org/abs/1910.10630)&rbrack;
 
 * [[Alain Connes]], Joseph Kouneiher: _Sir Michael Atiyah, a Knight Mathematician A tribute to Michael Atiyah, an inspiration and a friend_ ([arxiv:1910.07851](https://arxiv.org/abs/1910.07851))
 
@@ -39,7 +43,6 @@ Introducing the [[Atiyah-Bott fixed point theorem]]:
 * [[Michael F. Atiyah]], [[Raoul Bott]]: *A Lefschetz Fixed Point Formula for Elliptic Complexes: I*, Annals of Mathematics **86** 2 (1967) 374-407 &lbrack;[doi:10.2307/1970694](https://doi.org/10.2307/1970694), [jstor:1970694](https://www.jstor.org/stable/1970694)&rbrack;
 
 
-
 Introducing what came to be known as [[Karoubi K-theory]]:
 
 * [[Michael Atiyah]], [[Isadore Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS, Tome **37** (1969) 5-26 &lbrack;[numdam:PMIHES_1969__37__5_0](http://www.numdam.org/item/PMIHES_1969__37__5_0)&rbrack;
@@ -52,6 +55,11 @@ On [[Bott periodicity]]:
 On [[commutative algebra]]:
 
 * [[Michael Atiyah]], [[Ian G. Macdonald]], _Introduction to commutative algebra_, (1969, 1994) $[$[pdf](http://math.univ-lyon1.fr/~mathieu/CoursM2-2020/AMD-ComAlg.pdf), [ISBN:9780201407518](https://www.routledge.com/Introduction-To-Commutative-Algebra/Atiyah/p/book/9780201407518)$]$
+
+Concerning [[spin structures]] on [[Riemann surface|Riemann]] [[surfaces]]:
+
+* {#Atiyah71} [[Michael Atiyah]]: *Riemann surfaces and spin structures*, Annales scientifiques de l'École Normale Supérieure, Serie 4, Volume 4 (1971) no. 1, pp. 47-62 &lbrack;[numdam:ASENS_1971_4_4_1_47_0](https://www.numdam.org/item/?id=ASENS_1971_4_4_1_47_0)&rbrack;
+
 
 On the [[KO-theory]] of [[complex projective 3-space]]:
 
