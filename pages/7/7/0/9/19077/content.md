@@ -22,6 +22,22 @@ $$
 \lambda, \frac{1}\lambda, 1-\lambda, \frac{1}{1-\lambda}, \frac{\lambda - 1}\lambda, \frac\lambda{\lambda-1}
 $$ 
 
+## Parametrized lines and cross ratio
+
+Suppose the projective line is embedded in $P^n(K)$.
+This line is given in homogeneous coordinates of $n$-dimensional space $P^n(K)$ by parametric equations
+$$
+\rho x_r = t a_r + u b_r, \,\,\,\,r = 0,\ldots,n
+$$
+where $a = (a_r)_r$ and $b = (b_r)_r$ are coordinates of
+two points, $\rho$ is arbitrarily (by homogeneity) chosen constant and $\lambda = t/u$ is a variable parameter determining a point. For $t = 0$ and $u = 0$ we get $b$ and $a$ respectively. If $\lambda_1,\lambda_2,\lambda_3,\lambda_4$ are the parameters of 4 points than the parameter cross ratio
+$$
+\frac{\lambda_1 - \lambda_3}{\lambda_2 - \lambda_3}\frac{\lambda_1 - \lambda_4}{\lambda_2 - \lambda_4}
+$$
+equals to the cross ratio of those 4 points.
+
+
+
 ## Literature
 
 Modern treatment is in Chapter 6 of 
