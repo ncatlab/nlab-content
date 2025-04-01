@@ -150,6 +150,9 @@ See also
 * Alessandro Manta, [[Harold C. Steinacker]]:
 *Minimal covariant quantum space-time* &lbrack;[arXiv:2502.02498](https://arxiv.org/abs/2502.02498)&rbrack;
 
+* Jumpei Gohara, Akifumi Sako: *Quantization of Lie-Poisson algebra and Lie algebra solutions of mass-deformed type IIB matrix model* &lbrack;[arXiv:2503.24060](https://arxiv.org/abs/2503.24060)&rbrack;
+
+
 
 
 In relation to the [[Brandenberger-Vafa mechanism]]:
