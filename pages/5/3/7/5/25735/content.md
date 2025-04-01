@@ -1,6 +1,8 @@
 
 * [personal page](https://jacopoemmenegger.wordpress.com/)
 
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=244969)
+
 ## Selected writings
 
 On [[fibered category|fibrations]] of [[enriched groupoids]] as [[categorical semantics]] for [[identity types]] in [[homotopy type theory]]:
@@ -11,7 +13,7 @@ A [[2-comonad]] characterizing [[Grothendieck fibrations]]:
 
 * [[Jacopo Emmenegger]], [[Luca Mesiti]], [[Giuseppe Rosolini]], [[Thomas Streicher]], *A comonad for Grothendieck fibrations* &lbrack;[arXiv:2305.01474](https://arxiv.org/abs/2305.01474)&rbrack;
 
-A candidate for a 2-topos version of the [[effective topos]] is in 
+On a candidate for a [[2-topos]] version of the [[effective topos]]: 
 
 * [[Steve Awodey]], [[Jacopo Emmenegger]], _Toward the effective 2-topos_ &lbrack;[arXiv:2503.24279](https://arxiv.org/abs/2503.24279)&rbrack;
 
