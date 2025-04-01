@@ -261,11 +261,12 @@ It follows for instance that:
 \begin{proposition}\label{SpinStructuresOnClosedSurfaces}
 On a [[closed manifold|closed]] [[orientation|oriented]] [[surface]] of [[genus of a surface|genus]] $g \in \mathbb{N}$ there exist precisely $2^{2g}$ distinct spin structures.
 \end{proposition}
-(cf. [Lawson & Michelson 1989 Ex. 2.6](spin+structure#LawsonMichelson1989))
 \begin{proof}
 Since spin structures are classified by $H_1(-;C_2)$ (see [there](spin+structure#ClassificationOfSpinStructures))
 this follows by Prop. \ref{OrdinaryHomologyOfClosedOriented} and the [[universal coefficient theorem]].
 \end{proof}
+
+Cf. [Atiyah 1971](#Atiyah71), [Lawson & Michelson 1989 Ex. 2.6](spin+structure#LawsonMichelson1989).
 
 
 ## Examples
@@ -282,6 +283,8 @@ this follows by Prop. \ref{OrdinaryHomologyOfClosedOriented} and the [[universal
 
 
 ## Related concepts
+
+* [[Riemann surface]]
 
 * [[punctured]] surface
 
@@ -362,6 +365,10 @@ Review of the computation of the [[fundamental group]] of surfaces:
 Discussion of [[de Rham cohomology]] of surfaces:
 
 * [[William Fulton]], §18 of: *Algebraic Topology -- A First Course*, Graduate Texts in Mathematics **153**, Springer (1995) \[<a href="https://doi.org/10.1007/978-1-4612-4180-5">doi:10.1007/978-1-4612-4180-5</a>\] 
+
+Concerning [[spin structures]] on compact surfaces:
+
+* {#Atiyah71} [[Michael Atiyah]]: *Riemann surfaces and spin structures*, Annales scientifiques de l'École Normale Supérieure, Serie 4, Volume 4 (1971) no. 1, pp. 47-62 &lbrack;[numdam:ASENS_1971_4_4_1_47_0](https://www.numdam.org/item/?id=ASENS_1971_4_4_1_47_0)&rbrack;
 
 
 
