@@ -133,6 +133,10 @@ Note that the canonical projection $\operatorname{El}(F) \to \mathbf{C}$ is not 
 
 More generally, the [[universal covering groupoid]] of a groupoid is just the category of elements of its action on itself by composition. Since this action is faithful and transitive,  hom-sets in the category of elements are always $0$ or $1$, while objects in the groupoid might have nontrivial automorphism groups.
 
+\begin{proposition}
+The category of elements of $F$ has a [[terminal object]] if and only if $F$ is a [[representable functor]].
+\end{proposition}
+
 ##Examples
 
 ### Representable Presheaves
