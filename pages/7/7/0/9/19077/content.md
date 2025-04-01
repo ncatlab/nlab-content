@@ -1,4 +1,10 @@
-Any triple of distinct points in a [[projective line]] over a [[field]] $K$ may be transformed by a [[projective transformation]] (an element of [[projective general linear group|PGL(2,K)]], in the case of $K = \mathbf{C}$ (the [[complex numbers]]) known as a [[Möbius transformation]]) to another given triple of distinct points (i.e., the group $PGL(2,K)$ is 3-transitive on the projective line). Therefore no projective invariant can be attached to a triple of points and if three points are the starting parameters for some problem in projective geometry we may and typically do give them fixed values of $0,1,\infty$. The unique element in $PGL_2(K)$ that takes $(A, B, C)$ to $(\infty, 0, 1)$ may be described as the [[fractional linear transformation]] 
+## Idea
+
+Any triple of distinct points in a [[projective line]] over a [[field]] $K$ may be transformed by a [[projective transformation]] (an element of [[projective general linear group|PGL(2,K)]], in the case of $K = \mathbf{C}$ (the [[complex numbers]]) known as a [[Möbius transformation]]) to another given triple of distinct points (i.e., the group $PGL(2,K)$ is 3-transitive on the projective line). Therefore no projective invariant can be attached to a triple of points and if three points are the starting parameters for some problem in projective geometry we may and typically do give them fixed values of $0,1,\infty$. However for any projective line there is a unique isomorphism with $P(K)$ which sends three given points $A,B,C$ in the projective line to $\infty, 0,1$ in $P(K)$ respectively. The cross ratio $(A,B;C,D)$ is then the image of $D$ under this isomorphism. 
+
+## When the projective line is identified with $P(K)$
+
+The unique element in $PGL_2(K)$ that takes $(A, B, C)$ to $(\infty, 0, 1)$ may be described as the [[fractional linear transformation]] 
 
 $$p_{A, B, C}: z \mapsto \frac{z - B}{z - A} \cdot \frac{C - A}{C - B}$$  
 
@@ -15,6 +21,12 @@ If the cross ratio for $(A,B,C,D)$ is $\lambda$ and the order of the four points
 $$
 \lambda, \frac{1}\lambda, 1-\lambda, \frac{1}{1-\lambda}, \frac{\lambda - 1}\lambda, \frac\lambda{\lambda-1}
 $$ 
+
+## Literature
+
+Modern treatment is in Chapter 6 of 
+
+* [[Marcel Berger]], _Géométrie_, Cassini (Engl. transl. Geometry I, Springer)
 
 An elementary introduction can be found in
 
