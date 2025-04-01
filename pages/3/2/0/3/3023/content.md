@@ -26,14 +26,14 @@
 
 ## Idea
 
-A Riemann surface is a $1$-dimensional [[algebraic geometry|algebro-geometric]] object with good properties.  The name 'surface' comes from the classical case, which is $1$-dimensional over the [[complex numbers]] and therefore $2$-dimensional over the [[real numbers]].
+A *Riemann surface* is a [[surface]] equipped with [[complex structure]]. 
 
-There are several distinct meaning of what is a Riemann surface, and it can be considered in several generalities. But the main definition by far is the classical one.
+More generally, in [[algebraic geometry]] a compact Riemann surface is an [[algebraic curve]].
 
 
 ## Definition
 
-Classically, a **Riemann surface** is a [[connected space|connected]] complex-$1$-dimensional [[complex manifold]], in the strictest sense of 'manifold'.  In other words, it's a [[Hausdorff space|Hausdorff]] [[second countable space]] $M$ which is locally [[homeomorphism|homeomorphic]] to the [[complex plane]] $\mathbb{C}$ via charts (i.e., [[homeomorphisms]]) $\phi_i:U_i \to V_i$ for $U_i \subset M, V_i \subset \mathbb{C}$ open and such that $\phi_j \circ \phi_i^{-1}: V_i \cap V_j \to V_i \cap V_j$ is [[holomorphic function|holomorphic]].
+Classically, a **Riemann surface** is a [[connected space|connected]] [[complex numbers|complex]]-$1$-dimensional [[complex manifold]], in the strictest sense of '[[manifold]]'.  In other words, it's a [[Hausdorff space|Hausdorff]] [[second countable space]] $M$ which is locally [[homeomorphism|homeomorphic]] to the [[complex plane]] $\mathbb{C}$ via charts (i.e., [[homeomorphisms]]) $\phi_i:U_i \to V_i$ for $U_i \subset M, V_i \subset \mathbb{C}$ open and such that $\phi_j \circ \phi_i^{-1}: V_i \cap V_j \to V_i \cap V_j$ is [[holomorphic function|holomorphic]].
 
 It is not necessary to make any assumption about whether there exists a countable base for the topology (second countable) or whether it has a countable dense subset (separable). This is because Tibor Rado (1923) proved that all Riemann surfaces, without such prior assumptions, must necessarily have a countable base. Thus for elegance this condition is customarily *not* assumed by specialists in Riemann surfaces.
 
@@ -173,6 +173,12 @@ Lecture notes:
 *  [[Eberhard Freitag]], _Riemann surfaces -- Sheaf theory, Riemann Surfaces, Automorphic forms_, 2013 ([pdf](http://www.rzuser.uni-heidelberg.de/~t91/skripten/riemfl.pdf))
 
 * {#Wehler20} [[Joachim Wehler]], *Riemann surfaces* 2020 ([pdf](https://www.mathematik.uni-muenchen.de/~wehler/20190530_RiemannSurfacesScript.pdf))
+
+Concerning [[spin structures]] on Riemann surfaces:
+
+* {#Atiyah71} [[Michael Atiyah]]: *Riemann surfaces and spin structures*, Annales scientifiques de l'École Normale Supérieure, Serie 4, Volume 4 (1971) no. 1, pp. 47-62 &lbrack;[numdam:ASENS_1971_4_4_1_47_0](https://www.numdam.org/item/?id=ASENS_1971_4_4_1_47_0)&rbrack;
+
+
 
 
 [[!redirects Riemann surfaces]]
