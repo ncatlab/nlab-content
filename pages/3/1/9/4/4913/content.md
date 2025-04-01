@@ -1,8 +1,20 @@
 
-Steve Awodey is a professor at Carnegie Mellon University interested in category theory, logic, 
+Steven M. Awodey is a professor at Carnegie Mellon University interested in category theory, logic, 
 philosophy of mathematics, history of logic and analytic philosophy. For the 'n-community', one should point out his recent work on homotopical ideas in type theory.
 
-* [website](http://www.andrew.cmu.edu/user/awodey)
+* [personal page](http://www.andrew.cmu.edu/user/awodey)
+
+* [institute page](https://www.cmu.edu/math/people/faculty/awodey.html)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Steve_Awodey)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=52211)
+
+* [PhilPeople page](https://philpeople.org/profiles/steve-awodey)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=FPDdQUEAAAAJ&hl=en)
+
+
 
 ## Selected writings
 
@@ -71,7 +83,7 @@ A [[constructive mathematics|constructive]] model of [[homotopy type theory]] in
 
 * [[Steve Awodey]], [[Evan Cavallo]], [[Thierry Coquand]], [[Emily Riehl]], [[Christian Sattler]], *The equivariant model structure on cartesian cubical sets* ([arXiv:2406.18497](https://arxiv.org/abs/2406.18497))
 
-A candidate for a 2-topos version of the [[effective topos]] is in 
+On candidate for a [[2-topos]] version of the [[effective topos]]:
 
 * [[Steve Awodey]], [[Jacopo Emmenegger]], _Toward the effective 2-topos_ &lbrack;[arXiv:2503.24279](https://arxiv.org/abs/2503.24279)&rbrack;
 
