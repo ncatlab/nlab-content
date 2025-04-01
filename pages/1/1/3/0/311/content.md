@@ -219,6 +219,9 @@ A **[[classifying space]]** $\mathcal{B}G$ is precisely a representing object fo
 
 These general considerations are quite commonplace in algebraic topology, where they crop up for example in the connection between generalized cohomology theories and spectra; cf. Brown's representability theorem. 
 
+## Properties
+
+- A functor is representable if and only if its [[category of elements]] has a [[terminal object]].
 
 ## Related concepts
 
