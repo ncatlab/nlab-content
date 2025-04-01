@@ -71,7 +71,7 @@ Definitions in the literature include:
 
 * Every [[presentable (∞,1)-category|locally presentable]] [[locally Cartesian closed (∞,1)-category]] (by the discussion <a href="locally+cartesian+closed+(∞,1)-category#PresentationTheorem">there</a>) has a presentation by a [[right proper model category|right proper]] [[Cisinski model category]] (a combinatorial model structure on a Grothendieck topos whose cofibrations are the monomorphisms), indeed one whose underlying category is a presheaf topos.  Thus very strong conditions may be assumed without significantly restricting the class of (∞,1)-categories that can be presented.
 
-* Another (counter-)example to keep in mind, however, is the [[canonical model structure on groupoids]], which is combinatorial and simplicial, all objects are fibrant and cofibrant, pullback along fibrations has a right adjoint, cofcibrations are closed under limits, and all monomorphisms are cofibrations; but the category $Gpd$ is not locally cartesian closed (hence not a Grothendieck topos), and not every cofibration is a monomorphism.
+* Another (counter-)example to keep in mind, however, is the [[canonical model structure on groupoids]], which is combinatorial and simplicial, all objects are fibrant and cofibrant, pullback along fibrations has a right adjoint, cofibrations are closed under limits, and all monomorphisms are cofibrations; but the category $Gpd$ is not locally cartesian closed (hence not a Grothendieck topos), and not every cofibration is a monomorphism.
 
 * The [[type-theoretic model structure]] on the presheaves on a small category with an [[atomic object|atomic]] [[interval object]]. This gives examples on various type of cartesian [[cubical sets]].
 
