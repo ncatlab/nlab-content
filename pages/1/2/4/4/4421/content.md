@@ -715,14 +715,14 @@ $$
 
 Original eponymous article:
 
-* {#ChernSimons74} [[Shiing-Shen Chern]], [[James Simons]]: _[[Characteristic forms and geometric invariants]]_  The Annals of Mathematics, Second Series, **99** 1 (1974) 48-69 &lbrack;[jstor:1971013](http://www.jstor.org/pss/1971013), [pdf](http://www.dpmms.cam.ac.uk/~hk244/chern-simons.cp.pdf)&rbrack
+* {#ChernSimons74} [[Shiing-Shen Chern]], [[James Simons]]: _[[Characteristic forms and geometric invariants]]_  The Annals of Mathematics, Second Series, **99** 1 (1974) 48-69 &lbrack;[jstor:1971013](http://www.jstor.org/pss/1971013), [pdf](http://www.dpmms.cam.ac.uk/~hk244/chern-simons.cp.pdf)&rbrack;
 
 Reviews:
 
-* [[Mikio Nakahara]]: *Chern-Simons forms*, chapter 11.5 in: _[[Geometry, Topology and Physics]]_, IOP (2003) &lbrack;[doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>&rbrack;
+* {#Nakahara03} [[Mikio Nakahara]]: *Chern-Simons forms*, chapter 11.5 in: _[[Geometry, Topology and Physics]]_, IOP (2003) &lbrack;[doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>&rbrack;
 
 
-* Kai S. Lam: *Chern-Simons forms*, chapter 42 in : *Topics in Contemporary Mathematical Physics*, Second Edition, World Scientific (2015) 533-551 &lbrack;[doi;10.1142/9789814667814_0042](https://doi.org/10.1142/9789814667814_0042), [[Lam-CSForms.pdf:file]]&rbrack;
+* {#Lam15} Kai S. Lam: *Chern-Simons forms*, chapter 42 in : *Topics in Contemporary Mathematical Physics*, Second Edition, World Scientific (2015) 533-551 &lbrack;[doi;10.1142/9789814667814_0042](https://doi.org/10.1142/9789814667814_0042), [[Lam-CSForms.pdf:file]]&rbrack;
 
 
 The statements about "pure shift" paths are reviewed on the first few pages of:
