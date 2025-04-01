@@ -71,6 +71,10 @@ A [[constructive mathematics|constructive]] model of [[homotopy type theory]] in
 
 * [[Steve Awodey]], [[Evan Cavallo]], [[Thierry Coquand]], [[Emily Riehl]], [[Christian Sattler]], *The equivariant model structure on cartesian cubical sets* ([arXiv:2406.18497](https://arxiv.org/abs/2406.18497))
 
+A candidate for a 2-topos version of the [[effective topos]] is in 
+
+* [[Steve Awodey]], [[Jacopo Emmenegger]], _Toward the effective 2-topos_ &lbrack;[arXiv:2503.24279](https://arxiv.org/abs/2503.24279)&rbrack;
+
 ## Related entries
 
 * [[algebraic set theory]]
