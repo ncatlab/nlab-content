@@ -21,13 +21,14 @@
 
 ## Idea
 
-In [[representation theory]], one defines the _character of a [[linear representation]] $\rho\colon G\to End(V)$ to be the [[group character]] on $G$ given by $g \mapsto Tr \rho(g)$, whenever the [[trace]] in $V$ makes sense (e.g. when $V$ is [[finite-dimensional vector space|finite-dimensional]]).  Since such a function is invariant under conjugation, we may equivalently consider it a function on the set of [[conjugacy classes]] of elements in $G$.
+In [[representation theory]], one defines the _character of a [[linear representation]] $\rho\colon G\to End(V)$ to be the [[group character]] on $G$ given by $g \mapsto Tr \rho(g)$, whenever the [[trace]] $Tr(-)$ in $V$ makes sense (e.g. when $V$ is [[finite-dimensional vector space|finite-dimensional]]).  Since such a function is [[invariant]] under [[conjugation action|conjugation]], it may equivalently be regarded as a function on the set of [[conjugacy classes]] of elements in $G$.
 
-Sometimes we also extend a character linearly to the free vector space on the set of conjugacy classes.  This version of the character can be identified with the [[bicategorical trace]] of the identity map of the representation, considered as a $k[G]$-$k$-module.
+Sometimes one extends characters linearly to the [[linear space]] of the set of conjugacy classes.  This version of the character can be identified with the [[bicategorical trace]] of the [[identity map]] on the representation, considered as a $k[G]$-$k$-[[module]].
 
-There is a different notion of an _infinitesimal character_ in [[Harish–Chandra theory]] and also a notion of the _formal character_.
+Beware that there is a different notion of an _infinitesimal character_ in [[Harish–Chandra theory]] and also a notion of the _formal character_.
 
-There are important formulas concerning characters in representation theory, like [[Weyl character formula]], Kirillov character formula, Demazure character formula and so on.  There is also a formula for the [[induced character]] of an [[induced representation]].
+Important formulas concerning characters in representation theory, include the *[[Weyl character formula]]*, the *Kirillov character formula*, the *Demazure character formula*.  There is also a formula for the [[induced character]] of an [[induced representation]].
+
 
 ## Properties
 
@@ -60,7 +61,7 @@ is [[injective function|injective]].
 
 =--
 
-(e.g. [tom Dieck 09, Theorem (2.1.3)](#tomDieck09))
+(e.g. [tom Dieck 2009 Thm (2.1.3)](#tomDieck09), [Etingof et al. 2001 Thm 2.17](#EtingofEtAl11))
 
 ### Schur inner product
  {#SchurInnerProduct}
@@ -202,11 +203,18 @@ If the [[ground field]] $k$ in Prop. \ref{CharactersAreCyclotomicIntegers} has [
 
 ## References
 
-* {#tomDieck09} [[Tammo tom Dieck]], chapter 2 of _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
+Most texts of [[representation theory]] discuss characters of representations of [[finite groups]], see [there](representation+theory#References) for more.
 
-For more see the references at _[[representation theory]]_.
+Monographs:
 
-Character rings of [[compact Lie groups]] are discussed in 
+* {#EtingofEtAl11} [[Pavel Etingof]], [[Dmitry Vaintrob]] et al., section 2.6 of: *Introduction to representation theory*, Student Mathematical Library **59**, AMS (2011) &lbrack;[arXiv:0901.0827](https://arxiv.org/abs/0901.0827), [ams:stml-59](https://bookstore.ams.org/stml-59)&rbrack;
+
+Lecture notes:
+
+* {#tomDieck09} [[Tammo tom Dieck]], chapter 2 of: _Representation theory_ (2009) &lbrack;[pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf), [[tomDieckRepresentationTheory.pdf:file]]&rbrack;
+
+
+On character rings of [[compact Lie groups]]:
 
 * [[Graeme Segal]], _The representation ring of a compact Lie group_, Publications Math&#233;matiques de l'Institut des Hautes &#201;tudes Scientifiques
 January 1968, Volume 34, Issue 1, pp 113-128 ([NUMDAM](http://archive.numdam.org/numdam-bin/fitem?id=PMIHES_1968__34__113_0))
@@ -215,7 +223,7 @@ January 1968, Volume 34, Issue 1, pp 113-128 ([NUMDAM](http://archive.numdam.org
 
 * Troels Roussauc Johansen, _Character Theory for Finite Groups and Compact Lie Groups_ [pdf](http://www.math.upb.de/~johansen/character-theory.pdf)
 
-Discussion in the more general context of [[equivariant cohomology|equivariant]] [[complex oriented cohomology theory]] ([[transchromatic character]]) is in 
+Discussion in the more general context of [[equivariant cohomology|equivariant]] [[complex oriented cohomology theory]] ([[transchromatic character]]):
 
 * [[Michael Hopkins]], [[Nicholas Kuhn]], [[Douglas Ravenel]], _Generalized group characters and complex oriented cohomology theories_, J. Amer. Math. Soc. 13 (2000), 553-594 ([publisher](http://www.ams.org/journals/jams/2000-13-03/S0894-0347-00-00332-5/), [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/hkr.pdf))
 
