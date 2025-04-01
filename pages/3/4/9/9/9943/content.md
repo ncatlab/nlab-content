@@ -131,7 +131,7 @@ A more abstract formulation of this is sketched in
 
 with technical details in a sequence of articles, including
 
-* [[Jacob Lurie]], _[[Formal Moduli Problems and DG-Lie Algebras|Moduli problems for ring spectra]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/moduli.pdf))
+* [[Jacob Lurie]], _[[Formal Moduli Problems and DG-Lie Algebras|Moduli problems for ring spectra]]_ ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/goerss-hopkins.pdf))
 
 * [[Jacob Lurie]], _[[Representability Theorems]]_
 
