@@ -416,11 +416,11 @@ Other ways to see this:
 \begin{example}\label{SpinStructuresOnClosedSurfaces}
   On the [[closed manifold|closed]] [[orientation|oriented]] [[surface]] of [[genus of a surface|genus]] $g \in \mathbb{N}$ there exist precisely $2^{2g}$ distinct spin structures.
 \end{example}
-([Lawson & Michelson 1989 Ex. 2.6](#LawsonMichelson1989))
 \begin{proof}
   By the general classification of spin structures of Prop. \ref{ClassificationOfSpinStructures}, the ordinary homology of surfaces discussed [there](surface#OrdinaryHomologyOfClosedOriented) and using the [[universal coefficient theorem]].
 \end{proof}
 
+Cf. [Atiyah 1971](#Atiyah71), [Lawson & Michelson 1989 Ex. 2.6](#LawsonMichelson1989).
 
 ## Higher spin structures
  {#Higher}
@@ -585,9 +585,12 @@ where each "hook" is a [[fiber sequence]].
 
 ### General
 
-Original reference:
+Original references:
 
 * {#Milnor1963} [[John Milnor]]: *Spin Structures on Manifolds*, L'Enseignement Mathématique **9** (1963) 198-203 &lbrack;[doi:10.5169/seals-38784](http://doi.org/10.5169/seals-38784), [[Milnor-SpinStructures.pdf:file]]&rbrack;
+
+* {#Atiyah71} [[Michael Atiyah]]: *Riemann surfaces and spin structures*, Annales scientifiques de l'École Normale Supérieure, Serie 4, Volume 4 (1971) no. 1, pp. 47-62 &lbrack;[numdam:ASENS_1971_4_4_1_47_0](https://www.numdam.org/item/?id=ASENS_1971_4_4_1_47_0)&rbrack;
+  > (spin structures on [[Riemann surface|Riemann]] [[surfaces]])
 
 Monographs:
 
