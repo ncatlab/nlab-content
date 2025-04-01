@@ -11,5 +11,9 @@ A [[2-comonad]] characterizing [[Grothendieck fibrations]]:
 
 * [[Jacopo Emmenegger]], [[Luca Mesiti]], [[Giuseppe Rosolini]], [[Thomas Streicher]], *A comonad for Grothendieck fibrations* &lbrack;[arXiv:2305.01474](https://arxiv.org/abs/2305.01474)&rbrack;
 
+A candidate for a 2-topos version of the [[effective topos]] is in 
+
+* [[Steve Awodey]], [[Jacopo Emmenegger]], _Toward the effective 2-topos_ &lbrack;[arXiv:2503.24279](https://arxiv.org/abs/2503.24279)&rbrack;
+
 
 category: people
