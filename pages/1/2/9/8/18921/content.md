@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[scattering theory]] the _Møller operator_ intertwines the [[observables]] of the [[free field theory|free]] [[theory (physics)|theory]] with those of the [[interaction|interacting]] theory.
+In [[scattering theory]] the _Møller operator_ [[intertwiner|intertwines]] the [[observables]] of the [[free field theory|free]] [[theory (physics)|theory]] with those of the [[interaction|interacting]] theory.
 
 ## Details
 
