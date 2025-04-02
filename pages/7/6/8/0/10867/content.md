@@ -52,5 +52,5 @@ On using the [[Lean]] [[proof assistant]] for problems in high energy physics:
 * {#Tooby-Smith24} [[Joseph Tooby-Smith]], *HepLean: Digitalising high energy physics* &lbrack;[arXiv:2405.08863](https://arxiv.org/abs/2405.08863)&rbrack;
 
 
-
+[[!redirects high-energy physics]]
 
