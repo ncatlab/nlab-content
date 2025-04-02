@@ -1,7 +1,10 @@
-[[!redirects Alex Arvanitakis]]
-[[!redirects Alex Arvanitakis]]
 
-* [webpage](https://thphys.irb.hr/?show=people&id=arvanitakisa)
+* [personal page](https://thphys.irb.hr/?show=people&id=arvanitakisa)
+
+* [inSpire page](https://inspirehep.net/authors/1334454)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=ugPQvM0AAAAJ&hl=en)
+
 
 ## Selected writings
 
@@ -12,9 +15,9 @@ On [[supersymmetry and division algebras]], the corresponding [twistor space](tw
 
 On [[branes]] in [[exceptional generalized geometry]]:
 
-* [[Alex Arvanitakis]], Chris D. A. Blair, _Type II strings are Exceptional_ ([arXiv:1712.07115](https://arxiv.org/abs/1712.07115))
+* [[Alex Arvanitakis]], [[Chris D. A. Blair]], _Type II strings are Exceptional_ ([arXiv:1712.07115](https://arxiv.org/abs/1712.07115))
 
-* [[Alex Arvanitakis]], Chris Blair, _The Exceptional Sigma Model_ ([arXiv:1802.00442](https://arxiv.org/abs/1802.00442))
+* [[Alex Arvanitakis]], [[Chris Blair]], _The Exceptional Sigma Model_ ([arXiv:1802.00442](https://arxiv.org/abs/1802.00442))
 
 
 
@@ -32,7 +35,7 @@ On [[Lagrangian correspondence]]s
 
 * Alex S. Arvanitakis, _Topological defects as lagrangian correspondences_, Phys. Rev. D 107, 066016, 2023 [arXiv:2301.04143](https://arxiv.org/abs/2301.04143) [doi](https://doi.org/10.1103/PhysRevD.107.06601)
 
-## Related $n$Lab entries
+## Related entries
 
 * [[exceptional generalised geometry]]
 
@@ -40,6 +43,9 @@ On [[Lagrangian correspondence]]s
 
 * [[L-infinity algebra]], [[perturbative quantum field theory]]
 
+[[!redirects Alex Arvanitakis]]
+[[!redirects Alex Arvanitakis]]
 
 
-categories: people
+category: people
+
