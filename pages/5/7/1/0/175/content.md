@@ -78,7 +78,12 @@ and in relation to applications in ([[quantum physics|quantum]]) [[physics]] (cf
 * [[Eugene P. Wigner]]: *Group theory: And its application to the quantum mechanics of atomic spectra*, 5, Academic
 Press (1959) &lbrack;[doi:978-0-12-750550-3](https://www.elsevier.com/books/group-theory/wigner/978-0-12-750550-3)&rbrack;
 
-* {#Sternberg94} [[Shlomo Sternberg]], *Group Theory and Physics*, Cambridge University Press 1994 ([ISBN:9780521558853](https://www.cambridge.org/gb/academic/subjects/mathematics/algebra/group-theory-and-physics?format=PB&isbn=9780521558853))
+* {#Sternberg94} [[Shlomo Sternberg]]: *Group Theory and Physics*, Cambridge University Press (1994) &lbrack;[ISBN:9780521558853](https://www.cambridge.org/gb/academic/subjects/mathematics/algebra/group-theory-and-physics?format=PB&isbn=9780521558853)&rbrack;
+
+* J. F. Cornwell: *Group Theory in Physics -- An Introduction*, Academic Press (1997) \[<a href="https://www.sciencedirect.com/book/9780121898007/group-theory-in-physics">ISBN:9780121898007</a>, [doi:10.1016/B978-0-12-189800-7.X5000-6](https://doi.org/10.1016/B978-0-12-189800-7.X5000-6)\]
+
+* Wu Ki-Tung: *Group Theory in Physics*, World Scientific (1985) \[<a href="https://doi.org/10.1142/0097">doi:10.1142/0097</a>\]
+
 
 See also:
 
