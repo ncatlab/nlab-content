@@ -255,7 +255,7 @@ $$
 
 that respect daggering all morphisms, in the evident way.
 
-Keeping $d_1$ and $d_2$ fixed, respectively this makes $F(-,d_1), F(-,d_2) : C \to E$ &#8224;-functors. We see from the diagrams that $F(-,(d_1 \stackrel{g}{\to}) d_2)$ is a natural transformation between these &#8224;-functors, and the fact that $F$ intertwines the dagger operation of $D$ with that of $E$ means $F$ regarded as a functor $D \to [C,E]$ intertwines the &#8224;-structures of $D$ and $[D,E]_{dag}$, by the above definition.
+Keeping $d_1$ and $d_2$ fixed, respectively this makes $F(-,d_1), F(-,d_2) : C \to E$ &#8224;-functors. We see from the diagrams that $F(-,(d_1 \stackrel{g}{\to}) d_2)$ is a natural transformation between these &#8224;-functors, and the fact that $F$ [[intertwiner|intertwines]] the dagger operation of $D$ with that of $E$ means $F$ regarded as a functor $D \to [C,E]$ intertwines the &#8224;-structures of $D$ and $[D,E]_{dag}$, by the above definition.
 
 =--
 
