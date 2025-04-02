@@ -436,11 +436,14 @@ Concerning [[2d CFT]] on the fuzzy sphere:
 
 * Giulia Fardelli, A. Liam Fitzpatrick, [[Emanuel Katz]]: *Constructing the Infrared Conformal Generators on the Fuzzy Sphere* &lbrack;[arXiv:2409.02998](https://arxiv.org/abs/2409.02998)&rbrack;
 
+* Zheng Zhou: *FuzzifiED : Julia package for numerics on the fuzzy sphere* &lbrack;[arXiv:2503.00100](https://arxiv.org/abs/2503.00100)&rbrack;
 
 
 See also:
 
 * Wikipedia, _[Fuzzy sphere](https://en.wikipedia.org/wiki/Fuzzy_sphere)_
+
+
 
 #### Observables via weight systems on chord diagrams
 
