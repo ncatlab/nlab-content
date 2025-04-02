@@ -1,5 +1,7 @@
+[[!redirects Alex Arvanitakis]]
+[[!redirects Alex Arvanitakis]]
 
-* [webpage](http://www.damtp.cam.ac.uk/user/asa49/)
+* [webpage](https://thphys.irb.hr/?show=people&id=arvanitakisa)
 
 ## Selected writings
 
