@@ -41,7 +41,7 @@ See also at _[Lawvere theory -- Characterization of examples](Lawvere+theory#Cha
 +-- {: .num_remark #HomomorphicImages}
 ###### Remark
 
-Here "closed under homomorphic images" means that if $A$ and $B$ are structures in the class, and $\phi \colon A \to B$ is a [[homomorphism]] between them, then also its [[image]] $im(\phi) \hookrightarrow B$ is an element of the class. 
+Here "closed under homomorphic images" means that if $A$ is a structure in the class and $B$ is a structure for $L$, and $\phi \colon A \to B$ is a [[homomorphism]] between them, then also its [[image]] $im(\phi) \hookrightarrow B$ is an element of the class. 
 
 =--
 
