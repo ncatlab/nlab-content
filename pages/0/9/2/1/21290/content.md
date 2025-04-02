@@ -343,5 +343,3 @@ for $1\le p\lt \frac{n+1}{2}$, $\frac{n-1}{q}+1 = \frac{n}{p}$ and $s\gt \frac{n
 See also:
 
 * Wikipedia: *[Kakeya set](https://en.m.wikipedia.org/wiki/Kakeya_set)
-* [Something that looks similar to a 2D Kakeya counterexample](https://math.stackexchange.com/questions/5052316/an-apparent-counter-example-to-kakeya-in-2d) - should we check our proofs again? If not, it is at least useful 
-for teaching.
