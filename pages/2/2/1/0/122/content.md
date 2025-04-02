@@ -26,6 +26,7 @@ Natural transformations are the [[2-morphism]]s in the [[2-category]] [[Cat]].
 ## Definition ##
 
 ### Explicit definition
+ {#ExplicitDefinition}
 
 \begin{definition}
 **(natural transformations)**
@@ -272,6 +273,8 @@ For functors with more complicated shapes than $C \rightrightarrows D$, see [[ex
 
 
 ## Related entries
+
+* [[intertwiner]]
 
 * [[homotopy]]
 
