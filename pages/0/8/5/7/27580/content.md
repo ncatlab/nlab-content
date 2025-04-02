@@ -9,7 +9,6 @@
 =--
 =--
 
-
 \tableofcontents
 
 ## Idea
@@ -44,10 +43,53 @@ such that for all $g \in G$ we have
 \]
 
 Given a pair of twisted intertwiners of the form
-$\rho_1 \overset{(\alpha,\eta)}{\Rightarrow} \rho_2 \overset{(\alpha',\eta')}{\Rightarrow} \rho_3$ their [[composition]] is given by composing their components separately.
+$\rho_1 \overset{(\alpha,\eta)}{\Rightarrow} \rho_2 \overset{(\alpha',\eta')}{\Rightarrow} \rho_3$ their [[composition]] is given by the [[direct product]] form
+
+\[
+  \label{CompositionOfTwistedIntertwiners}
+  (\alpha', \eta')
+  \circ
+  (\alpha, \eta)
+  \;=\;
+  \big(
+    \alpha' \circ \alpha
+    ,\,
+    \eta'
+    \circ \eta
+  \big)
+  \,.
+\]
+
 \end{definition}
 
 This reduces to the ordinary notion of [[intertwiners]] in the case that the [[automorphism]] is the [[identity map]], $\alpha = id_G$.
+
+But in fact there naturally are higher order morphisms between twisted intertwiners:
+
+\begin{definition}
+Given a [[parallel pair]] of twisted intertwiners $(\alpha, \eta), (\alpha', \eta')\,\colon\, \rho_1 \rightrightarrows \rho_2$, then morphism *between* these 
+
+$$
+  (\alpha, \eta) \Rightarrow (\alpha', \eta')
+$$
+
+is $a \in G$ such that
+
+\[
+  \label{ShiftingAlpha}
+  \alpha' \;=\; Ad_a \circ \alpha
+\]
+
+and
+
+\[
+  \label{ShiftingEta}
+  \eta' \;=\; \rho_2(a) \circ \eta 
+  \,.
+\]
+
+\end{definition}
+
 
 ## Properties
 
@@ -94,14 +136,14 @@ In contrast, the category of $G$-representations with twisted intertwiners betwe
   ]
   \ar[
     dr,
-    "{ \rho_1 }"{swap, pos=.4}, 
+    "{ \rho_1 }"{swap, pos=.5}, 
     "{\ }"{name=s}
   ]
   &[-40pt]&[-40]
   \mathbf{B}G
   \ar[
     dl,
-    "{ \rho_2 }"{pos=.4}, 
+    "{ \rho_2 }"{pos=.5}, 
     "{\ }"{name=t, swap}
   ]
   \ar[
@@ -112,27 +154,175 @@ In contrast, the category of $G$-representations with twisted intertwiners betwe
   \mathrm{Vec}
 \end{tikzcd}
 
-and whose [[2-morphisms]] are the evident paper-cup pasting diagrams
+hence [[natural transformations]]
 
+\begin{tikzcd}
+  \mathbf{B}G
+  \ar[
+    rr, 
+    bend left=30,
+    "{ \rho_1 }"{description},
+    "{\ }"{swap, name=s}
+  ]
+  \ar[
+    rr, 
+    bend right=30,
+    "{ \rho_2\big( \alpha(-) \big) }"{description},    
+    "{\ }"{name=t}
+  ]
+  \ar[
+    from=s, to=t,
+    Rightarrow,
+    "{ \eta }"
+  ]
+  &&
+  \mathrlap{ \mathrm{Vec} }
+  \\
+  \ast
+  \ar[
+    d, "{ g }"
+  ]
+  \ar[rr, phantom, "{ \mapsto }"]
+  &&
+  V_1 
+  \ar[r, "{ \eta }"]
+  \ar[
+    d,
+    "{ \rho_1(g) }"
+  ]
+    & 
+  V_2
+  \ar[
+    d,
+    "{ \rho_2\big( \alpha(g) \big) }"
+  ]
+  \\
+  \ast
+  \ar[rr, phantom, "{ \mapsto }"]
+  &&
+  V_1
+  \ar[r, "{ \eta }"]
+  &
+  V_2
+\end{tikzcd}
+
+whose [[commuting square|commuting]] [[naturality square]] is equivalent to the component equation (eq:ComponentDefinition),
+
+and whose composition by [[whiskering]]
+
+\begin{tikzcd}
+  \mathbf{B}G
+  \ar[r, "{ \alpha }"]
+  \ar[
+    dr,
+    "{ \rho_1 }"{description},
+    "{\ }"{name=s}
+  ]
+  &
+  \mathbf{B}G
+  \ar[r, "{ \alpha' }"]
+  \ar[
+    d,
+    "{ \rho_2 }"{description, name=middle}
+  ]
+  &
+  \mathbf{B}G
+  \ar[
+    dl,
+    "{ \rho_3 }"{description},
+    "{\ }"{swap, name=t}
+  ]
+  \ar[from=s, to=middle, Rightarrow, "{ \eta }"]
+  \ar[from=middle, to=t, Rightarrow, "{ \eta' }"]
+  \\
+  &
+  \mathrm{Vect}
+\end{tikzcd}
+
+is the [[natural transformation]]
+
+\begin{tikzcd}
+  \mathbf{B}G
+  \ar[
+    rr, 
+    bend left=30,
+    "{ \rho_1 }"{description},
+    "{\ }"{swap, name=s}
+  ]
+  \ar[
+    rr, 
+    bend right=30,
+    "{ \rho_3\big( \alpha'\circ \alpha(-) \big) }"{description},    
+    "{\ }"{name=t}
+  ]
+  \ar[
+    from=s, to=t,
+    Rightarrow,
+    "{ \eta }"
+  ]
+  &&
+  \mathrlap{ \mathrm{Vec} }
+  \\
+  \ast
+  \ar[
+    d, "{ g }"
+  ]
+  \ar[rr, phantom, "{ \mapsto }"]
+  &&
+  V_1 
+  \ar[r, "{ \eta }"]
+  \ar[
+    d,
+    "{ \rho_1(g) }"
+  ]
+    & 
+  V_2
+  \ar[
+    d,
+    "{ \rho_2\big( \alpha(g) \big) }"
+  ]
+  \ar[r, "{ \eta' }"]
+  &
+  V_3
+  \ar[
+    d,
+    "{ \rho_3\big( \alpha'(\alpha(g)) \big) }"
+  ]
+  \\
+  \ast
+  \ar[rr, phantom, "{ \mapsto }"]
+  &&
+  V_1
+  \ar[r, "{ \eta }"]
+  &
+  V_2
+  \ar[r, "{ \eta' }"]
+  &
+  V_r
+\end{tikzcd}
+
+which reflects the composition law (eq:CompositionOfTwistedIntertwiners),
+
+while the [[2-morphisms]] are the evident paper-cup pasting diagrams
 
 \begin{tikzcd}
   \mathbf{B}G
   \ar[
     rr,
     bend left=20,
-    "{ \mathbf{B}\alpha }"{description},
-    "{\ }"{name=s2, swap}
+    "{ \mathbf{B}\alpha' }"{description},
+    "{\ }"{name=t2, swap}
   ]
   \ar[
     rr,
     bend right=20,
-    "{ \mathbf{B}\alpha' }"{description},
-    "{\ }"{name=t2}
+    "{ \mathbf{B}\alpha }"{description},
+    "{\ }"{name=s2}
   ]
   \ar[
     from=s2, to=t2,
     Rightarrow, 
-    "{ \sim }"{sloped}
+    "{ a }"{swap}
   ]
   \ar[
     dr,
@@ -150,13 +340,129 @@ and whose [[2-morphisms]] are the evident paper-cup pasting diagrams
     from=s, to=t, 
     Rightarrow, 
     bend right=10,
-    shift right=5pt,
+    shift right=2pt,
     "{ \eta }"{swap}
   ]
   \\
   &
   \mathrm{Vec}
 \end{tikzcd}
+
+where
+
+\begin{tikzcd}
+  \mathbf{B}G
+  \ar[
+    rr, 
+    bend left=30,
+    "{ \alpha }"{description},
+    "{\ }"{swap, name=s}
+  ]
+  \ar[
+    rr, 
+    bend right=30,
+    "{ \alpha' }"{description},    
+    "{\ }"{name=t}
+  ]
+  \ar[
+    from=s, to=t,
+    Rightarrow,
+    "{ a }"
+  ]
+  &&
+  \mathbf{B}G
+  \\
+  \ast   
+  \ar[d, "{ g }"]
+  \ar[rr, phantom, "{ \mapsto }"]
+  &&
+  \ast
+  \ar[r, "{ a }"]
+  \ar[d, "{ \alpha(g) }"]
+  &
+  \ast
+  \ar[d, "{ \alpha'(g) }"]
+  \\
+  \ast
+  \ar[rr, phantom, "{ \mapsto }"]
+  &&
+  \ast
+  \ar[r, "{ a }"]
+  &
+  \ast
+\end{tikzcd}
+
+gives the relation (eq:ShiftingAlpha),
+
+from $(\alpha, \eta)$ to the [[whiskering|whiskered]] (now on the other side) composite transformation
+
+\begin{tikzcd}
+  \mathbf{B}G
+  \ar[
+    rr, 
+    bend left=30,
+    "{ \rho_1 }"{description},
+    "{\ }"{swap, name=s}
+  ]
+  \ar[
+    rr, 
+    bend right=30,
+    "{ \rho_2\big( \alpha'(-) \big) }"{description},    
+    "{\ }"{name=t}
+  ]
+  \ar[
+    from=s, to=t,
+    Rightarrow,
+    "{ \rho_2 \cdot a }"
+  ]
+  &&
+  \mathrlap{ \mathrm{Vec} }
+  \\
+  \ast
+  \ar[
+    d, "{ g }"
+  ]
+  \ar[rr, phantom, "{ \mapsto }"]
+  &&
+  V_1 
+  \ar[r, "{ \eta }"]
+  \ar[
+    d,
+    "{ \rho_1(g) }"
+  ]
+    & 
+  V_2
+  \ar[
+    d,
+    "{ \rho_2\big( \alpha(g) \big) }"
+  ]
+  \ar[
+    r, 
+    "{ \rho_2(a) }"
+  ]
+  &
+  V_2
+  \ar[
+    d,
+    "{ \rho_2\big(\alpha'(g)\big) }"
+  ]
+  \\
+  \ast
+  \ar[rr, phantom, "{ \mapsto }"]
+  &&
+  V_1
+  \ar[r, "{ \eta }"]
+  &
+  V_2
+  \ar[
+    r, 
+    "{ \rho_2(a) }"
+  ]
+  &
+  V_2
+\end{tikzcd}
+
+exhibiting the relation (eq:ShiftingEta).
 
 
 ## References
