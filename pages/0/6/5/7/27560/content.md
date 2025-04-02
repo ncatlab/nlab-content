@@ -44,6 +44,8 @@ Further discussion:
 
 category: geometry
 
+[[!redirects betweeness]]
 [[!redirects ordered incidence geometry]]
+
 
 
