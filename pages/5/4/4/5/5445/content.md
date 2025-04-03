@@ -45,8 +45,13 @@ On [[algebraic theories]]:
 * [[Jiří Adámek]], [[Jiří Rosický]], [[Enrico Vitale]], *Algebraic theories*, Cambridge University Press (2011) &lbrack;[doi:10.1017/CBO9780511760754](https://doi.org/10.1017/CBO9780511760754), [pdf](https://perso.uclouvain.be/enrico.vitale/gab_CUP2.pdf)&rbrack;
 
 
+## Related entries
+
+* [[Enrico Vitale]]
+
 
 category: people
 
 [[!redirects Enrico M. Vitale]]
 [[!redirects E. M. Vitale]]
+
