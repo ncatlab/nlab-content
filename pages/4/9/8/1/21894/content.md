@@ -5,7 +5,7 @@
 
 ## Idea
 
-In most projective geometries, including all classical projective spaces, two distinct triangles are in a perspective with respect to a point iff they are in a perspective with respect to a line.
+In most [[projective geometries]], including all classical [[projective spaces]], two distinct [[triangles]] are in a perspective with respect to a point iff they are in a perspective with respect to a line.
 
 
 ## Statement
@@ -44,3 +44,4 @@ See also
 * Wikipedia, _[Desargues's theorem](https://en.wikipedia.org/wiki/Desargues%27s_theorem)_
 
 [[!redirects Desargues's theorem]]
+
