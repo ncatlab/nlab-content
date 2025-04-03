@@ -87,7 +87,7 @@ The analogous statement for [[Dedekind real numbers]] might be called the **[[an
 
 For a recent comparison see:
 
-* Matt Hendtlass and Robert Lubarsky, _Separating fragments of WLEM, LPO, and MP_, [PDF](http://math.fau.edu/lubarsky/Separating%20LLPO.pdf).
+* Matt Hendtlass and Robert Lubarsky, _Separating fragments of WLEM, LPO, and MP_, [PDF](https://www.math.fau.edu/people/faculty/lubarsky/separating-llpo.pdf).
   {#HendtlassLubarsky}
 
 * Douglas Bridges and Fred Richman, _Varieties of Constructive Mathematics_.
