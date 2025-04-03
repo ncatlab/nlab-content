@@ -25,7 +25,7 @@ satisfying the following axioms:
 
 Some further axioms which may be added are:
 
-* the diagonal points of a [[complete quandrangle]] are not collinear ("Fano's axiom")
+* the diagonal points of a [[complete quadrangle]] are not collinear ("Fano's axiom")
 
 * if the lines joining corresponding vertices of two triangles are concurrent, then the intersections of corresponding sides are collinear ([[Desargues' theorem]])
 
