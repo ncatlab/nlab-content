@@ -15,7 +15,8 @@
 
 In [[representation theory]], the notion of *twisted intertwiners* is a generalization of that of *[[intertwiners]]*. 
 
-References using the exact terminology "twisted intertwiner" include [Fuchs & Schweigert 2000a (7.2)](#FuchsSchweigert00), [2000b (2.2)](#FuchsSchweigert00b), [Felder, Fröhlich, Fuchs & Schweigert 2000 (4.7)](#FelderFröhlichFuchsSchweigert00), but the notion itself is older and may be known under other names.
+References using the terminology "twisted intertwiner" include [Fuchs & Schweigert 2000a (7.2)](#FuchsSchweigert00a), [2000b (2.2)](#FuchsSchweigert00b), [Felder, Fröhlich, Fuchs & Schweigert 2000 (4.7)](#FelderFröhlichFuchsSchweigert00), but the notion itself is probably older and may (or may not) be known under other names.
+
 
 ## Definition
  {#Definition}
@@ -635,10 +636,11 @@ exhibiting the relation (eq:ShiftingEta).
 
 ## References
 
-The component-definition (eq:ComponentDefinition) is considered  (in the broad context of [[2d CFT]]) in:
+The component-definition (eq:ComponentDefinition) is considered  (broadly in a context of [[2d CFT]]) in:
+
+* {#FuchsSchweigert00a} [[Jürgen Fuchs]], [[Christoph Schweigert]]: *Symmetry breaking boundaries II. More structures; examples*, Nucl. Phys. B **568** (2000) 543-593 &lbrack;[arXiv:hep-th/9908025](https://arxiv.org/abs/hep-th/9908025), <a href="https://doi.org/10.1016/S0550-3213(99)00669-0">doi:10.1016/S0550-3213(99)00669-0</a>&rbrack;
 
 * {#FelderFröhlichFuchsSchweigert00} [[Giovanni Felder]], [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Christoph Schweigert]]: *The geometry of WZW branes*, J. Geom. Phys. **34** (2000) 162-190 \[<a href="https://doi.org/10.1016/S0393-0440(99)00061-3">doi:10.1016/S0393-0440(99)00061-3</a>, [arXiv:hep-th/9909030](https://arxiv.org/abs/hep-th/9909030)\]
 
-* {#FuchsSchweigert00a} [[Jürgen Fuchs]], [[Christoph Schweigert]]: *Symmetry breaking boundaries II. More structures; examples*, Nucl. Phys. B **568** (2000) 543-593 &lbrack;[arXiv:hep-th/9908025](https://arxiv.org/abs/hep-th/9908025), <a href="https://doi.org/10.1016/S0550-3213(99)00669-0">doi:10.1016/S0550-3213(99)00669-0</a>&rbrack;
 
 * {#FuchsSchweigert00b} [[Jürgen Fuchs]], [[Christoph Schweigert]]: *Lie algebra automorphisms in conformal field theory*, in *[Conference on Infinite Dimensional Lie Theory and Conformal Field Theory](https://inspirehep.net/conferences/972922)* (May 2000) &lbrack;[arXiv:math/0011160](https://arxiv.org/abs/math/0011160)&rbrack;
