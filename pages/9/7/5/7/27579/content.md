@@ -6,7 +6,7 @@ A quadruple of points $(A,B,C,D)$ is called [[harmonic ratio|harmonic]] if the [
 
 Harmonic conjugates can be characterized in geometric terms, as usually done in axiomatic approaches. 
 
-To formulate this recall that a complete quadrangle consists has 4 coplanar points called vertices no 3 of which are colinear and all 6 lines called sides which are incident with pairs of vertices. Two sides are opposite if they do not contain a common vertex. The three intersections of opposite sides are called diagonal points and the lines of the triangle incident with pairs of diagonal points are called the diagonal sides.
+To formulate this, recall that a [[complete quadrangle]] consists has 4 coplanar points called vertices no 3 of which are colinear and all 6 lines called sides which are incident with pairs of vertices. Two sides are opposite if they do not contain a common vertex. The three intersections of opposite sides are called diagonal points and the lines of the triangle incident with pairs of diagonal points are called the diagonal sides.
 
 The following characterizations of harmonic quadruple of points are often cited ([Palman 1984](#Palman1984)).
 
@@ -14,7 +14,9 @@ The following characterizations of harmonic quadruple of points are often cited 
 
 2. $A$ and $B$ are are the diagonal points of a complete rectangle, and $C$ and $D$ are the intersections of the line $A B$ with those mutually opposite sides of the complete rectangle which pass through the third diagonal point. 
 
-[[!include harmonic1]]
+$A B U V$ is a complete rectangle, $C,W,O$ are its diagonal points and hence $(A, B, C, D)$ is a harmonic quadruple, the [[cross ratio]] is $(A,B;C,D)=-1$.
+
+[[!include harmonic svg1]]
 
 For the second criterium, consider the complete quadrangle $O V W U$, then $A, B$ are two out of 3 diagonal points, the third pair of the mutually opposite sides in the criterium are $O W$ and $V U$ (their intersection is the third diagonal point).
 
