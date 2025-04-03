@@ -269,12 +269,14 @@ Monographs:
 
 * [[Shlomo Sternberg]]: *Lie Algebras* (2004) &lbrack;[pdf](https://people.math.harvard.edu/~shlomo/docs/lie_algebras.pdf), [[Sternberg-LieAlgebras.pdf:file]]&rbrack;
 
+* [[Alexandre Kirillov]]: *An Introduction to Lie Groups and Lie Algebras*, Cambridge University Press (2008) \[<a href="https://doi.org/10.1017/CBO9780511755156">doi:10.1017/CBO9780511755156</a>\]
+
+
 * [[Eckhard Meinrenken]], _Lie groups and Lie algebas_, Lecture notes (2010) &lbrack;[pdf](http://www.math.toronto.edu/mein/teaching/lie.pdf)&rbrack;
 
 * {#Hall15} [[Brian C. Hall]], *Lie Groups, Lie Algebras, and Representations*, Springer 2015 ([doi:10.1007/978-3-319-13467-3](https://doi.org/10.1007/978-3-319-13467-3))
 
 * [[Peter Woit]], Ch. 5 of *Quantum Theory, Groups and Representations: An Introduction*, Springer 2017 &lbrack;[doi:10.1007/978-3-319-64612-1](https://doi.org/10.1007/978-3-319-64612-1), ISBN:978-3-319-64610-7&rbrack;
-
 
 * [[Pavel Etingof]], *Lie groups and Lie algebras* &lbrack;[arXiv:2201.09397](https://arxiv.org/abs/2201.09397)&rbrack;
 
