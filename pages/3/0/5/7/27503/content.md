@@ -65,7 +65,7 @@ In [[D=3 gravity]]:
 
 General considerations:
 
-* {#Teh16} Nicholas Teh: *Galileo's Gauge: Understanding the Empirical Significance of Gauge Symmetry*,  Philosophy of Science **83** (2016) 93-118. 
+* {#Teh16} Nicholas Teh: *Galileo's Gauge: Understanding the Empirical Significance of Gauge Symmetry*,  Philosophy of Science **83** (2016) 93-118 &lbrack;[doi:10.1086/684196](https://doi.org/10.1086/684196)&rbrack;
 
 In relation to [[soft graviton theorems]]:
 
