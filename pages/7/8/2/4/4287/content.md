@@ -1,11 +1,16 @@
 
-* [website](http://www.ph.utexas.edu/~weintech/weinberg.html)
+Steven Weinberg (1933-2021)
+
+* [personal page](http://www.ph.utexas.edu/~weintech/weinberg.html)
 
 * [Wikipedia entry](http://de.wikipedia.org/wiki/Steven_Weinberg)
 
 * Rohini M. Godbole, Urjit Yajnik: *Steven Weinberg (1933 - 2021)*, Current Science [**121** 5](https://www.currentscience.ac.in/show.issue.php?volume=121&issue=5) (10 Sep 2021) &lbrack;[arXiv:2302.02704](https://arxiv.org/abs/2302.02704)&rbrack;
 
 * [[Cliff P. Burgess]], [[Fernando Quevedo]]: *Steven Weinberg: A Scientific Life*, Biographical Memoirs of Fellows of the Royal Society (2025) &lbrack;[arXiv:2502.10979](https://arxiv.org/abs/2502.10979)&rbrack;
+
+* [[Cliff P. Burgess]]: *Reminiscences about Steven Weinberg (This Time it's Personal)* &lbrack;[arXiv:2504.01118](https://arxiv.org/abs/2504.01118)&rbrack;
+
 
 
 
