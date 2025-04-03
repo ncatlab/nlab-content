@@ -18,32 +18,39 @@ In [[representation theory]], the notion of *twisted intertwiners* is a generali
 References using the exact terminology "twisted intertwiner" include [Fuchs & Schweigert 2000a (7.2)](#FuchsSchweigert00), [2000b (2.2)](#FuchsSchweigert00b), [Felder, Fröhlich, Fuchs & Schweigert 2000 (4.7)](#FelderFröhlichFuchsSchweigert00), but the notion itself is older and may be known under other names.
 
 ## Definition
+ {#Definition}
 
 \begin{definition}
-For $G$ a [[group]] and $\rho_1, \rho_2 \;\in\; Rep(G)$ a [[pair]] of [[linear representation]] on [[vector spaces]] $V_1$, $V_2$, respectively (all this generalizes straightforwardly to [[algebras]] and their [[modules]]), a *twisted intertwiner*
+For $G$ a [[group]] consider its [[linear representations]] $(\rho, V)$, on [[vector spaces]] $V$, with $g \in G \;\vdash\; V \xrightarrow{\rho(g)} V$.
+
+For $(\rho_1,V_1), (\rho_2, V_2) \;\in\; Rep(G)$ a [[pair]] of [[linear representation]] respectively (all this generalizes straightforwardly to [[algebras]] and their [[modules]]), a *twisted intertwiner*
 
 $$
-  \rho_1 \Rightarrow \rho_2
+  (\rho_1, V_1) \xrightarrow{(\eta, \alpha)} (\rho_2, V_2)
 $$
 
 is 
 
+1. a [[linear map]] $\eta \colon V_1 \longrightarrow V_2$,
+
 1. an [[automorphism]] $\alpha \in Aut(G)$ of the group
 
-1. a [[linear map]] $\eta \colon V_1 \longrightarrow V_2$
-
-such that for all $g \in G$ we have
+such that 
 
 \[
   \label{ComponentDefinition}
+  \underset{g \in G}{\forall}
+  \;\;\;
+  \vdash
+  \;\;\;
   \eta \circ \rho_1(g)
     \;=\;
   \rho_2\big(\alpha(g)\big) \circ \eta
   \,.
 \]
 
-Given a pair of twisted intertwiners of the form
-$\rho_1 \overset{(\alpha,\eta)}{\Rightarrow} \rho_2 \overset{(\alpha',\eta')}{\Rightarrow} \rho_3$ their [[composition]] is given by the [[direct product]] form
+Moreover, given a pair of consecutive twisted intertwiners
+$(\rho_1, V_1) \xrightarrow{(\alpha,\eta)} (\rho_2, V_2) \xrightarrow{(\alpha',\eta')} (\rho_3, V_3)$, their [[composition]] is given by the [[direct product]] form
 
 \[
   \label{CompositionOfTwistedIntertwiners}
@@ -64,13 +71,19 @@ $\rho_1 \overset{(\alpha,\eta)}{\Rightarrow} \rho_2 \overset{(\alpha',\eta')}{\R
 
 This reduces to the ordinary notion of [[intertwiners]] in the case that the [[automorphism]] is the [[identity map]], $\alpha = id_G$.
 
-But in fact there naturally are higher order morphisms between twisted intertwiners:
+## Properties
+
+### Deformations
+ {#Deformations}
+
+There naturally are [[2-morphisms|higher order morphisms]] between twisted intertwiners (these seem not to have been considered in the literature and do not carry an established name --- we here refer to them as "deformations", just to have a word):
 
 \begin{definition}
-Given a [[parallel pair]] of twisted intertwiners $(\alpha, \eta), (\alpha', \eta')\,\colon\, \rho_1 \rightrightarrows \rho_2$, then morphism *between* these 
+\label{DeformationOfTwistedIntertwiners}
+Given a [[parallel pair]] of twisted intertwiners $(\alpha, \eta), (\alpha', \eta')\,\colon\, (\rho_1, V_1) \rightrightarrows (\rho_2, V_2)$, then a deformation *between* these 
 
 $$
-  (\alpha, \eta) \Rightarrow (\alpha', \eta')
+  a \;\colon\; (\alpha, \eta) \Rightarrow (\alpha', \eta')
 $$
 
 is $a \in G$ such that
@@ -78,7 +91,10 @@ is $a \in G$ such that
 \[
   \label{ShiftingAlpha}
   \alpha' \;=\; Ad_a \circ \alpha
+  \,,
 \]
+
+(where "$Ad$" denotes the [[adjoint action]] of a group on itself by [[inner automorphisms]], $Ad_a(g) \coloneqq a g a^{-1}$)
 
 and
 
@@ -90,10 +106,162 @@ and
 
 \end{definition}
 
+\begin{remark}
+  Conversely, if $(\eta, \alpha) \colon (\rho_1, V_1) \xrightarrow{\;} (\rho_2, V_2)$ is a twisted intertwiner, and $a \in G$, then also
+$$
+  \big(   
+    \rho_2(a)
+    \circ 
+    \eta
+    ,\, 
+    Ad_A \circ\alpha\big)
+  \;\colon\; 
+  (\rho_1, V_1) \xrightarrow{\;} (\rho_2, V_2)
+$$
+is a twisted intertwiner:
+$$
+  \begin{array}{rcl}
+    \eta' \circ \rho_1(g)
+    &\equiv&
+    \big(\rho_2(a) \circ \eta\big) \circ \rho_1(g)
+    \\
+    &=&
+    \rho_2(a) \circ \eta \circ \rho_1(g)    
+    \\
+    &=& 
+    \rho_2(a) \circ \rho_2\big(\alpha(g)\big) \circ \eta
+    \\
+    &=& 
+    \rho_2(a) 
+    \circ \rho_2\big(\alpha(g)\big) 
+    \circ \rho_2(a)^{-1} \circ \rho_2(a)
+    \circ \eta
+    \\
+    &=&
+    \rho_2\big(a \cdot \alpha(g) \cdot a^{-1} \big) 
+     \circ 
+    \eta'
+    \\
+    &\equiv&
+    \rho_2\big( \alpha'(g) \big) 
+     \circ 
+    \eta'
+    \,.
+  \end{array}
+$$
 
-## Properties
+In other words, the group $G$ [[group action|acts]] on the [[hom-sets]] of twisted intertwiners by deformations.
+\end{remark}
 
-### Category-theoretically
+\begin{lemma}
+  For linear representations $(\rho_1, V_1)$, $(\rho_2, V_2)$, deformation (Def. \ref{DeformationOfTwistedIntertwiners}) of twisted intertwiners $(\rho_1, V_1) \xrightarrow{\;} (\rho_2, V_2)$ is an [[equivalence relation]], and [[composition]] of twisted intertwiners (eq:CompositionOfTwistedIntertwiners) passes to its [[equivalence classes]].
+\end{lemma}
+\begin{proof}
+  That we have an equvalence relation is clear. To see that it is respected by composition, consider
+$$
+  (\eta, \alpha), (\eta', \alpha') \,\colon\, (\rho_1, V_1) \rightrightarrows (\rho_2, V_2)
+$$
+with
+$$
+  a \,\colon\, (\eta, \alpha) \Rightarrow (\eta', \alpha')
+$$
+
+and
+
+1. another $(\widetilde{\eta}, \widetilde{\alpha}) \,\colon\, (\rho_2, V_2) \xrightarrow{\;} (\rho_3, V_3)$, then
+
+   $$
+     \widetilde{\alpha}(a)
+     \;\colon\;
+       (\widetilde{\eta}, \widetilde{\alpha}) 
+         \circ 
+       (\eta, \alpha)
+     \Rightarrow
+       (\widetilde{\eta}, \widetilde{\alpha}) 
+         \circ 
+       (\eta', \alpha')
+   $$
+
+   because:
+
+   $$
+     \begin{array}{rcl}
+       \widetilde{\eta} \circ \eta'
+       &=&
+       \widetilde{\eta} \circ \rho_2(a) \circ \eta
+       \\
+       &=&
+       \rho_3\big( \widetilde{\alpha}(a) \big)
+       \circ \widetilde{ \eta } \circ \eta
+     \end{array}
+   $$
+   and
+   $$
+     \begin{array}{rcl}
+       \widetilde{\alpha} \circ \alpha'
+       &=&
+       \widetilde{\alpha} \circ Ad_a \circ \alpha
+       \\
+       &=&
+       Ad_{\widetilde{\alpha}(a)} 
+        \circ \widetilde \alpha \circ \alpha
+       \,,
+     \end{array}
+   $$
+
+   
+
+1. another $(\widetilde{\eta}, \widetilde{\alpha}) \,\colon\, (\rho_0, V_0) \xrightarrow{\;} (\rho_1, V_1)$, then we have
+
+   $$
+     a \;\colon\;
+       (\eta, \alpha)
+         \circ 
+       (\widetilde{\eta}, \widetilde{\alpha}) 
+     \Rightarrow
+       (\eta', \alpha')
+         \circ 
+       (\widetilde{\eta}, \widetilde{\alpha}) 
+   $$
+
+   immediately:
+
+   $$
+     \begin{array}{rcl}
+       \eta' \circ \widetilde{\eta}
+       &=&
+       \rho_2(a) \circ \eta \circ \widetilde{\eta}
+     \end{array}
+   $$
+   and
+   $$
+     \begin{array}{rcl}
+       \alpha' \circ \widetilde{\alpha}
+       &=&
+       Ad_a \circ \alpha \circ \widetilde{\alpha}
+       \,.
+     \end{array}
+   $$
+ 
+\end{proof}
+
+
+\begin{remark}
+This means that 
+
+* there is a [[2-category]] of representations, twisted intertwiners and deformations
+
+* with a [[homotopy category]] of representations and deformation classes of twisted intertwiners.
+
+This becomes manifest by recasting the original component definition (eq:ComponentDefinition) of twisted intertwiners as characterizing certain [[slice 2-category|slice morphisms]] in [[Cat]], to be discussed [below](#CategoryTheoreticDescription).
+\end{remark}
+
+
+
+### Category theoretic description
+  {#CategoryTheoreticDescription}
+
+We discuss how the properties of twisted intertwiners [above](#Definition) becomes manifest when understanding them as a natural construction in [[category theory]], via [[slice 2-category|slices]] of the [[2-category]] [[Cat]] of [[categories]], [[functors]] and [[natural transformations]]:
 
 Writing $\mathbf{B}G$ for the [[delooping groupoid]] of $G$ and $Vec$ for the [[category of vector spaces]] (over a given [[ground field]]), the ordinary [[category]] [[Rep]] of $G$-[[representations]] and ordinary [[intertwiners]] $\eta \colon \rho_1 \Rightarrow \rho_2$ between these is [[equivalence of categories|equivalently]] the [[functor category]]
 
