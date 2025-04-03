@@ -26,9 +26,7 @@ $$
   PSh(C) := [C^{op}, Set]
 $$
 
-from the [[opposite category]] of $C$ to [[Set]]. 
-
-An object in this category is a [[presheaf]]. See there for more details.
+from the [[opposite category]] of $C$ to [[Set]].  An object in this category is a [[presheaf]]. See there for more details. Since any category equivalent to one of the form $PSh(C)$ is a [[topos]], such a category is often called a **presheaf topos**.
 
 ## Properties
 
