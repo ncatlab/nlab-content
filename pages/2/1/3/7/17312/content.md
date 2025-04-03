@@ -8,13 +8,19 @@
 =--
 =--
 
-* [[Saunders Mac Lane]],
+This page is to record the reference
 
-  _Lectures on category theory_
+* [[Saunders Mac Lane]]:
 
-  Bowdoin Summer School 1969
+  \linebreak
 
-  Notes taken by [[Ellis Cooper]] ([[MacLaneBowdoinLectures69.pdf:file]])
+  **Lectures on category theory**
+
+  \linebreak
+
+  Bowdoin Summer School (1969)
+
+  Notes taken by [[Ellis Cooper]] &lbrack;[[MacLaneBowdoinLectures69.pdf:file]]&rbrack;
 
 on [[category theory]]. 
 
