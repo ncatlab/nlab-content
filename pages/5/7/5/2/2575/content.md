@@ -871,7 +871,7 @@ The [[covariant phase space]] of Chern-Simons theory with its [[presymplectic st
 
 (there in the context of [[string field theory]], but the manipulations of formulas is the same) and in section 3, example 2 of
 
-* {#Zuckerman} [[Gregg Zuckerman|G. J. Zuckerman]], _Action Principles and Global Geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259&#8364;284. ([[ZuckermanVariation.pdf:file]])
+* {#Zuckerman} [[Gregg Zuckerman|G. J. Zuckerman]], _Action principles and global geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259–284. ([[ZuckermanVariation.pdf:file]])
  
 
 A detailed discussion of the symplectic structure on the moduli space of flat connections is in 
