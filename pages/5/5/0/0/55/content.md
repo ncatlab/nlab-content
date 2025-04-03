@@ -150,7 +150,7 @@ The extent to which Lie algebroids are to [[Lie groupoid|Lie groupoids]] as Lie 
 
 ### Poisson geometry
 
-The fiberwiese linear dual of a Lie algebroid (regarded as a vector bundle) is naturally a [[Poisson manifold]]: the _[[Lie-Poisson structure]]_.
+The fiberwise linear dual of a Lie algebroid (regarded as a vector bundle) is naturally a [[Poisson manifold]]: the _[[Lie-Poisson structure]]_.
 
 ## Related concepts
 
