@@ -1,5 +1,7 @@
 
-* [website](http://perso.uclouvain.be/enrico.vitale/)
+* [personal page](http://perso.uclouvain.be/enrico.vitale/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=111972)
 
 ## Selected writings
 
@@ -32,6 +34,10 @@ On [[Beck's theorem]] for [[pseudomonads]] ([[higher monadic descent]]):
 On [[Gabriel-Ulmer duality]] for general [[doctrines]]:
 
 * C. Centazzo, [[Enrico M. Vitale]], *A duality relative to a limit doctrine*, Theory and Appl. of Categories __10__ 20 (2002) 486-497 lbrack;[tac:10-20](http://www.tac.mta.ca/tac/volumes/10/20/10-20abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/10/20/10-20.pdf)&rbrack;
+
+On [[locally presentable categories]]:
+
+* Claudia Centazzo, [[Jiří Rosický]], [[Enrico M. Vitale]]: *A characterization of locally $D$-presentable categories*, [[Cahiers]] de topologie et géométrie différentielle catégoriques **45** 2 (2004) 141-146 &lbrack;[numdam:CTGDC_2004__45_2_141_0](https://www.numdam.org/item/CTGDC_2004__45_2_141_0), [pdf](https://perso.uclouvain.be/enrico.vitale/ClaudiaJiri.pdf)&rbrack;
 
 
 On [[algebraic theories]]:
