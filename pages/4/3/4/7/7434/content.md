@@ -16,7 +16,7 @@
 
 ## Definition
 
-An object $c$ in an ordinary $Set$-enriched [[category]] $C$ is called **[[tiny object|atomic]]** if $hom(c,-)$ preserves small colimits.  The category $C$ itself is called **atomic** if it has a [[small set|small]] [[dense subcategory|dense]] [[full subcategory]] of atomic objects, $Atom(C)$, so that every object $c$ of $C$ is a small colimit of the functor 
+Recall that an object $c$ in an ordinary $Set$-enriched [[category]] $C$ is [[tiny object|atomic]] if $hom(c,-)$ preserves small colimits.  The category $C$ itself is called **atomic** if it has a [[small set|small]] [[dense subcategory|dense]] [[full subcategory]] of atomic objects, $Atom(C)$, so that every object $c$ of $C$ is a small colimit of the functor 
 
 $$Atom(C) \downarrow c \stackrel{proj}{\to} Atom(C) \stackrel{i}{\hookrightarrow} C.$$
 
