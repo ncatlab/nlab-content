@@ -16,6 +16,10 @@ On [[locally presentable categories|locally presentable]] and [[accessible categ
 
 * {#AdamekRosicky} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, London Mathematical Society Lecture Note Series **189**, Cambridge University Press 1994 ([doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579))
 
+
+* Claudia Centazzo, [[Jiří Rosický]], [[Enrico M. Vitale]]: *A characterization of locally $D$-presentable categories*, [[Cahiers]] de topologie et géométrie différentielle catégoriques **45** 2 (2004) 141-146 &lbrack;[numdam:CTGDC_2004__45_2_141_0](https://www.numdam.org/item/CTGDC_2004__45_2_141_0), [pdf](https://perso.uclouvain.be/enrico.vitale/ClaudiaJiri.pdf)&rbrack;
+
+
 On [[sketches]] (and [[accessible categories]]) the generality of [[enriched category theory]]:
 
 * [[Francis Borceux]], [[Carmen Quinteriro]], [[Jiří Rosický]], *A theory of enriched sketches*, Theory and Applications of Categories, **4** 3 (1998) 47-72 &lbrack;[tac:4-03](http://www.tac.mta.ca/tac/volumes/1998/n3/4-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/1998/n3/n3.pdf)&rbrack;
