@@ -23,7 +23,7 @@
 For $C$ a [[small category]], its **category of presheaves** is the [[functor category]] 
 
 $$
-  PSh(C) := [C^{op}, Set]
+  PSh(C) \;\coloneqq\; [C^{op}, Set]
 $$
 
 from the [[opposite category]] of $C$ to [[Set]].  An object in this category is a [[presheaf]]. See there for more details. Since any category of the form $PSh(C)$ is a [[topos]], such a category is often called a **presheaf topos**.
@@ -102,7 +102,7 @@ Now assume that $\mathcal{C}$ is a [[small category]].
 * The construction of forming (co)-presheaves extends to a [[2-functor]]
 
   $$
-    [-,Set] : Cat \to Topos
+    [-,Set] \;\colon\; Cat \to Topos
   $$
 
   from the [[2-category]] [[Cat]] to the [[2-category]] [[Topos]]. (See at [[geometric morphism]] the section [Between presheaf toposes](geometric+morphism#BetweenPresheafToposes) for details.)
@@ -121,7 +121,7 @@ See [[functoriality of categories of presheaves]].
 
 ### Characterization
 
-The following [[Giraud theorem|Giraud like]] theorem stems from [[Marta Bunge|Marta Bunge's]] dissertation (1966)
+The following [[Giraud theorem|Giraud like]] theorem stems from [Bunge 1966](#Bunge66):
 
 +-- {: .num_theorem #bunge_theorem}
 ###### Theorem 
@@ -130,9 +130,9 @@ A category is equivalent to a presheaf topos if and only if it is [[cocomplete]]
 
 =--
 
-This characterisation was proven for [[enriched categories|enriched]] presheaf categories in Theorem 4.16 of [Bunge 1969](#Bunge69) (Corollary 4.19 for the unenriched statement).  
+This characterisation was proven for [[enriched functor category|enriched presheaf categories]] in Theorem 4.16 of [Bunge 1969](#Bunge69) (Corollary 4.19 for the unenriched statement).  
 
-In the unenriched case, a much sharper result was later proved in [Centazzo-Rosický-Vitale 2004](#Centazzo-Rosický-Vitale04):
+In the unenriched case, a much sharper result was later proved in [Centazzo, Rosický & Vitale 2004](#Centazzo-Rosický-Vitale04):
 
 
 +-- {: .num_theorem #CentazzoRosickýVitale_theorem}
@@ -142,7 +142,7 @@ A category is equivalent to a presheaf topos if and only if it is cocomplete and
 
 =--
 
-Another characterization, using [[exact completion|exact completions]], can be found in Carboni-Vitale ([1998](#CarboniVitale98)) or Centazzo-Vitale ([2004](#Centazzo-Vitale04)):
+Another characterization, using [[exact completion|exact completions]], can be found in [Carboni & Vitale 1998](#CarboniVitale98) and in [Centazzo & Vitale 2004](#Centazzo-Vitale04):
 
 +-- {: .num_theorem #carboni_vitale_theorem}
 ###### Theorem 
@@ -152,7 +152,7 @@ A category is equivalent to a presheaf topos if and only if it is [[locally smal
 =--
 
 
-([1998](#CarboniVitale98)) has also an interesting comparison to a classical characterization of categories [[monadic category|monadic]] over Set.
+[Carboni & Vitale 1998](#CarboniVitale98) also have an interesting comparison to a classical characterization of categories [[monadic category|monadic]] over [[Set]].
 
 
 ### Presheaves on over-categories and over-categories of presheaves {#RelWithOvercategories}
@@ -249,7 +249,7 @@ Hence, the above proposition \ref{representable_case} can be rephrased as $PSh(\
 Let $P:C^{op}\to Set$ be a presheaf. Then there is an [[equivalence of categories]]
 
 $$
-  PSh(\int_C P) \simeq PSh(C)/P
+  PSh\big(\textstyle{\int_C} P\big) \simeq PSh(C)/P
   \,.
 $$
 
@@ -322,7 +322,7 @@ For [[(∞,1)-category]] theory see [[(∞,1)-category of (∞,1)-presheaves]].
 
 Original discussion:
 
-* [[Marta Bunge]], *Categories of Set-Valued Functors*, PhD thesis, University of Pennsylvania (1966) &lbrack;[[Bunge-SetValuedFunctors.pdf:file]]&rbrack;
+* {#Bunge66} [[Marta Bunge]]: *Categories of Set-Valued Functors*, PhD thesis, University of Pennsylvania (1966) &lbrack;[[Bunge-SetValuedFunctors.pdf:file]]&rbrack;
 
   Reprints in Theory and Applications of Categories, **30** (2024) 1-84 &lbrack;[tac:tr30](http://www.tac.mta.ca/tac/reprints/articles/30/tr30abs.html)&rbrack;
 
@@ -358,7 +358,7 @@ The characterizations of categories of presheaves are discussed in
 
 * {#CentazzoVitale04} C. Centazzo, [[Enrico Vitale|E. M. Vitale]], *Sheaf theory*, pp. 311-358 in Pedicchio, Tholen (eds.), *Categorical Foundations*, Cambridge UP 2004. ([draft](https://perso.uclouvain.be/enrico.vitale/chapter7.pdf)) 
 
-* {#Centazzo-Rosický-Vitale} Claudia Centazzo, [[Jiří Rosický]], [[Enrico M. Vitale]]: *A characterization of locally $D$-presentable categories*, [[Cahiers]] de topologie et géométrie différentielle catégoriques **45** 2 (2004) 141-146 &lbrack;[numdam:CTGDC_2004__45_2_141_0](https://www.numdam.org/item/CTGDC_2004__45_2_141_0), [pdf](https://perso.uclouvain.be/enrico.vitale/ClaudiaJiri.pdf)&rbrack;
+* {#Centazzo-Rosický-Vitale04} Claudia Centazzo, [[Jiří Rosický]], [[Enrico M. Vitale]]: *A characterization of locally $D$-presentable categories*, [[Cahiers]] de topologie et géométrie différentielle catégoriques **45** 2 (2004) 141-146 &lbrack;[numdam:CTGDC_2004__45_2_141_0](https://www.numdam.org/item/CTGDC_2004__45_2_141_0), [pdf](https://perso.uclouvain.be/enrico.vitale/ClaudiaJiri.pdf)&rbrack;
 
 The result about Artin gluings of presheaf toposes is due to Carboni and Johnstone, 
 
@@ -367,6 +367,7 @@ The result about Artin gluings of presheaf toposes is due to Carboni and Johnsto
 and is explained in section C.3 of Tom Leinster's book, 
 
 * {#Lein} [[Tom Leinster]], *Higher Categories, Higher Operads* &lbrack;[arXiv:math/0305049](https://arxiv.org/abs/math/0305049)&rbrack;
+
 
 [[!redirects categories of presheaves]]
 [[!redirects presheaf category]]
