@@ -76,6 +76,9 @@ Introducing [[cellular categories]]:
 
 * [[quantale]]
 
+* [[atomic category]]
+
+
 [[!redirects Jiri Rosicky]]
 [[!redirects Rosicky]] 
 [[!redirects J. Rosicky]]
