@@ -146,6 +146,8 @@ A category $E$ is equivalent to a presheaf topos if and only if it is [[locally 
 
 ([1998](#CarboniVitale98)) has also an interesting comparison to a classical characterization of categories [[monadic category|monadic]] over Set.
 
+For an even more general characterization, see [[atomic category]].
+
 
 ### Presheaves on over-categories and over-categories of presheaves {#RelWithOvercategories}
 
