@@ -94,7 +94,7 @@ $$
 
 In imprecise words: for all commuting triangles in $Y$ (involving $p(f)$ as above) and all lifts through $p$ of its 2-[[horn]] to $X$ (involving $f$ as above), there is a unique refinement to a lift of the entire commuting triangle.
 
-We can make this definition slightly more explicit by working with the fibres of $p$: let $X_x$ denote $p^{-1}(y)$, the set of objects living over $y$; and, for $f : y \to y'$, $x : X_y$ and $x' : X_{y'}$, let $X_f(x,x')$ denote $p^{-1}(f) \cap X(x,x')$, the set of morphisms from $x$ to $x'$ that $p$ maps to $f$.
+We can make this definition slightly more explicit by working with the fibres of $p$: let $X_y$ denote $p^{-1}(y)$, the set of objects living over $y$; and, for $f : y \to y'$, $x : X_y$ and $x' : X_{y'}$, let $X_f(x,x')$ denote $p^{-1}(f) \cap X(x,x')$, the set of morphisms from $x$ to $x'$ that $p$ maps to $f$.
 
 Then for $x : X_y$, $x' : X_{y'}$ and $f : y' \to y$, a morphism $\bar f : X_f(x',x)$ is *cartesian* iff for any $u : y'' \to y'$, $x'' : X_{y''}$ and $h : X_{f \circ u}(x'', x)$, there is a unique $\bar u : X_u(x'',x')$ with $h = \bar f \circ \bar u$. This can be expressed in the following diagram, where the upper objects and morphisms live in $X$ over their corresponding data in $Y$:
 
