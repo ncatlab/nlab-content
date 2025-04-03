@@ -33,9 +33,7 @@ $$\int^{a \in Atom(C)} C(i a, c) \cdot i a.$$
 
 A category $E$ is equivalent to a [[presheaf topos]] (functors with values in the 1-category [[Set]] of [[0-groupoids]]) if and only if it is cocomplete and atomic. 
 
-=-- 
-
-This is due to [[Marta Bunge]], who showed it is enough to have a regular cocomplete category with a [[generating set]] of atomic objects.
+=--
 
 ## Related concepts
 
@@ -43,6 +41,10 @@ This is due to [[Marta Bunge]], who showed it is enough to have a regular cocomp
 
 * [[compact object]]
 
-* [[Cauchy completion]] 
+* [[Cauchy completion]]
+
+## References
+
+* Claudia Centazzo, Jirí Rosický, and E. M. Vitale. "A characterization of locally $ D $-presentable categories." Cahiers de topologie et géométrie différentielle catégoriques 45.2 (2004): 141-146.
 
 [[!redirects atomic categories]]
