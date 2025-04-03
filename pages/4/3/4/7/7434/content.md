@@ -43,8 +43,10 @@ A category $E$ is equivalent to a [[presheaf topos]] (functors with values in th
 
 * [[Cauchy completion]]
 
+
 ## References
 
-* Claudia Centazzo, Jirí Rosický, and E. M. Vitale. "A characterization of locally $ D $-presentable categories." Cahiers de topologie et géométrie différentielle catégoriques 45.2 (2004): 141-146.
+* Claudia Centazzo, [[Jiří Rosický]], [[Enrico M. Vitale]]: *A characterization of locally $D$-presentable categories*, [[Cahiers]] de topologie et géométrie différentielle catégoriques **45** 2 (2004) 141-146 &lbrack;[numdam:CTGDC_2004__45_2_141_0](https://www.numdam.org/item/CTGDC_2004__45_2_141_0), [pdf](https://perso.uclouvain.be/enrico.vitale/ClaudiaJiri.pdf)&rbrack;
+
 
 [[!redirects atomic categories]]
