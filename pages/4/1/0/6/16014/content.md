@@ -21,7 +21,7 @@ The idea is to consider for any [[proposition]] $p$
 
 * a proposition labeled $\Box p$ expressing the idea that "$p$ is necessarily true";
 
-* a proposition labeled $\lozenge p$ expressing the idea that "$p$ is possibly true".
+* a proposition labeled $\diamondsuit p$ expressing the idea that "$p$ is possibly true".
 
 ## Via S4 modal logic
  {#ViaS4ModalLogic}
@@ -41,24 +41,24 @@ $$
   \;=\;
   \neg 
   \big(
-    \lozenge (\neg A)
+    \diamondsuit (\neg A)
   \big)
   \,.
 $$  
 
-In an intuitionistic modal logic, one would also demand that $\lozenge$ preserves implication in a suitable sense, such as 
+In an intuitionistic modal logic, one would also demand that $\diamondsuit$ preserves implication in a suitable sense, such as 
 
-$$\Box(p\to q) \to (\lozenge p \to \lozenge q).$$
+$$\Box(p\to q) \to (\diamondsuit p \to \diamondsuit q).$$
 
-One may also ask for a further compatibility such as $(\lozenge p \to \Box q) \to \Box(p\to q)$, as [Simpson](#Simpson) does.
+One may also ask for a further compatibility such as $(\diamondsuit p \to \Box q) \to \Box(p\to q)$, as [Simpson](#Simpson) does.
 
-Similarly, the axiom $\Box(p \to q) \to (\Box p \to \Box q)$ implies that $\Box$ preserves [[logical conjunction]], i.e. $\Box(p\wedge q) \leftrightarrow (\Box p \wedge \Box q)$.  The nullary version $\Box(\top)\leftrightarrow \top$ follows from the "necessitation rule" which says that if $p$ is provable in the empty context, then so is $\Box p$.  (This is an additional rule assumed in modal logics.)  From duality (eq:deMorganDualityBetweenNecessiryAndPossibility) it follows that $\lozenge$ preserves [[logical disjunction]] (both binary and nullary), while intuitionistically one may want to ask for this separately ([Simpson](#Simpson) does, but [Biermann & de Paiva 2000](#BiermanDePaiva00) don't).
+Similarly, the axiom $\Box(p \to q) \to (\Box p \to \Box q)$ implies that $\Box$ preserves [[logical conjunction]], i.e. $\Box(p\wedge q) \leftrightarrow (\Box p \wedge \Box q)$.  The nullary version $\Box(\top)\leftrightarrow \top$ follows from the "necessitation rule" which says that if $p$ is provable in the empty context, then so is $\Box p$.  (This is an additional rule assumed in modal logics.)  From duality (eq:deMorganDualityBetweenNecessiryAndPossibility) it follows that $\diamondsuit$ preserves [[logical disjunction]] (both binary and nullary), while intuitionistically one may want to ask for this separately ([Simpson](#Simpson) does, but [Biermann & de Paiva 2000](#BiermanDePaiva00) don't).
 
-A minimum further requirement on a formalization of $\Box$ and $\lozenge$ to have the interpretation of "necessity" and "possibility" is arguably that there are [[implications]]
+A minimum further requirement on a formalization of $\Box$ and $\diamondsuit$ to have the interpretation of "necessity" and "possibility" is arguably that there are [[implications]]
 
 * $\Box p \rightarrow p$;
 
-* $p \rightarrow \lozenge p$,
+* $p \rightarrow \diamondsuit p$,
 
 expressing that if something is necessarily true, then that should mean that it is true in all instances, and that if something is true in one instance, then it is evidently possible for it to be true.  With these additions to the above [[K modal logic]], one speaks of *[[T modal logic]]*.
 
@@ -66,7 +66,7 @@ By similar plausibility arguments one often demands that
 
 * $\Box p \to \Box \Box p$
 
-* $\lozenge \lozenge p \to \lozenge p$
+* $\diamondsuit \diamondsuit p \to \diamondsuit p$
 
 which may be read as expressing that iterating the previous reasoning does not yield any new insight.  This additional enhancement to [[T modal logic]] yields *[[S4 modal logic]]*. 
 
@@ -76,7 +76,7 @@ In terms of [[categorical logic]] interpreting propositional logic into a [[Heyt
 
 * $\Box$ is a (necessarily [[idempotent comonad|idempotent]]) [[comonad]] which is [[monoidal functor|monoidal]], hence product-preserving; and
 
-* $\lozenge$ is a (necessarily [[idempotent monad|idempotent]]) [[monad]] which is a "$\Box$-[[strong functor|strong]] functor", and (perhaps) preserves coproducts.
+* $\diamondsuit$ is a (necessarily [[idempotent monad|idempotent]]) [[monad]] which is a "$\Box$-[[strong functor|strong]] functor", and (perhaps) preserves coproducts.
 
 As usual, we can also replace the Heyting algebra by a [[cartesian closed category]], thereby obtaining a "proof-relevant" system; in this case monoidality of $\Box$ does not imply directly that it preserves products, although one might reasonably ask that it does (see [[strong monads]] [[monad in computer science|in computer science]]).
 Note that if one moves from Heyting algebras to cartesian closed categories the (co)monads are not necessarily idempotent (and there are good proof-theoretical reasons why they should not be so).
@@ -141,7 +141,7 @@ This is just what is accomplished by passing from the above [[adjoint triple]] t
 
 \[
   \label{PossibilityNecessityAdjunctionViaBaseChange}
-  (\underset{W}{\lozenge} \dashv \underset{W}{\Box})
+  (\underset{W}{\diamondsuit} \dashv \underset{W}{\Box})
   \coloneqq
   \left(
      \left(
@@ -161,14 +161,14 @@ This is just what is accomplished by passing from the above [[adjoint triple]] t
 
 With this, if $p\in \mathbf{H}_{/W}$ is a [[proposition]] about terms $w$ of $W$ (a $W$-[[dependent type]]) then 
 
-* $\underset{W}{\lozenge}(p)$ is [[true]]/[[inhabited type|inhabited]] precisely if $\underset{w \colon W}{\exists} p(w)$ is [[true]]/[[inhabited type|inhabited]], hence (that is the standard interpretation of the [[quantifier]]) if it is possible for $p(w)$ to be true for some $w$;
+* $\underset{W}{\diamondsuit}(p)$ is [[true]]/[[inhabited type|inhabited]] precisely if $\underset{w \colon W}{\exists} p(w)$ is [[true]]/[[inhabited type|inhabited]], hence (that is the standard interpretation of the [[quantifier]]) if it is possible for $p(w)$ to be true for some $w$;
 
 * $\underset{W}{\Box}(p)$ is [[true]]/[[inhabited type|inhabited]] precisely if $\underset{w \colon W}{\forall} p(w)$ is [[true]]/[[inhabited type|inhabited]], hence (that is again the standard interpretation of the quantifier) if $p(w)$ necessarily holds for all $w$.
 
 
 Thus, this gives one [[syntax|syntactic]] formalization of the informal meaning of "necessity" and "possibility".  The natural [[semantics]] for these [[base change]] operations is a generalization of the simple traditional _[[possible worlds semantics]]_ of propositional necessity and possibility modalities.  (There are, however, more complicated possible worlds semantics.)
 
-Moreover, with this formalization, the modal operator $\underset{W}{\lozenge}$ is [[left adjoint]] to $\underset{W}{\Box}$ and hence both form an [[adjoint modality]]. As discussed there, this is a formalization of [[unity of opposites|opposite]] concepts, which reflects well the opposition of necessity and possibility in their informal meaning.
+Moreover, with this formalization, the modal operator $\underset{W}{\diamondsuit}$ is [[left adjoint]] to $\underset{W}{\Box}$ and hence both form an [[adjoint modality]]. As discussed there, this is a formalization of [[unity of opposites|opposite]] concepts, which reflects well the opposition of necessity and possibility in their informal meaning.
 
 Observe how the corresponding [[unit of a monad|unit]] and [[counit of a comonad|counit]] maps properly reflect the intended logic of necessity, actuality and possibility:
 
@@ -190,9 +190,9 @@ Observe how the corresponding [[unit of a monad|unit]] and [[counit of a comonad
 
 Some technical remarks:
 
-1. In general, $\underset{W}{\lozenge}$ and $\underset{W}{\Box}$ as defined above are, while being a [[monad]] and [[comonad]], respectively, not an [[idempotent monad]] and [[idempotent comonad]] if generalized from [[first-order hyperdoctrines]] to more general [[dependent type theories]]. But this just reflects the usual issues with [[propositions as types]], see there for more discussion.
+1. In general, $\underset{W}{\diamondsuit}$ and $\underset{W}{\Box}$ as defined above are, while being a [[monad]] and [[comonad]], respectively, not an [[idempotent monad]] and [[idempotent comonad]] if generalized from [[first-order hyperdoctrines]] to more general [[dependent type theories]]. But this just reflects the usual issues with [[propositions as types]], see there for more discussion.
 
-1. While [[base change]]-[[adjunctions]] are essentially unique and not free to choose, there is a genuine choice in the above given by the choice of [[context]] $W$. This is reflected in the subscripts of $\underset{W}{\lozenge}$ and $\underset{W}{\Box}$ above. It is the choice of this $W$ that gives different kinds of possibility and necessity. More generally there is in fact not just a choice of a context, but of a morphism of contexts, reflecting what is often called "accessibility of possible worlds". This we come to [below](#ViaBaseChangeRelatively).
+1. While [[base change]]-[[adjunctions]] are essentially unique and not free to choose, there is a genuine choice in the above given by the choice of [[context]] $W$. This is reflected in the subscripts of $\underset{W}{\diamondsuit}$ and $\underset{W}{\Box}$ above. It is the choice of this $W$ that gives different kinds of possibility and necessity. More generally there is in fact not just a choice of a context, but of a morphism of contexts, reflecting what is often called "accessibility of possible worlds". This we come to [below](#ViaBaseChangeRelatively).
 
 
 ### Relation to Potentiality
@@ -233,7 +233,7 @@ that the types $P \,\in\, Type$ are equivalently
 
 1. those actual types $P_\bullet$ which carry a possibility-[[algebra over a monad|monad action]] 
    $
-     \lozenge_B P_\bullet
+     \diamondsuit_B P_\bullet
        \longrightarrow 
      P_\bullet
    $
@@ -268,7 +268,7 @@ $$
   \big(
     \varnothing
     ,\,
-    \lozenge_W \varnothing \xrightarrow{\exists !} \varnothing
+    \diamondsuit_W \varnothing \xrightarrow{\exists !} \varnothing
   \big) 
   }
   \underset{
@@ -284,7 +284,7 @@ $$
     \color{blue}
     \text{potential thing}
   }{
-    Type^{\lozenge_W}_W
+    Type^{\diamondsuit_W}_W
   }
 $$
 
@@ -304,7 +304,7 @@ $$
   }{
   (D_\bullet, \rho_\bullet)
   \,\colon\, 
-  Type_W^{\lozenge_W}
+  Type_W^{\diamondsuit_W}
   }
   \;\;\;\;\;\;
     \vdash
@@ -312,7 +312,7 @@ $$
   \underset{
    \color{blue} \text{which is possible}
   }{
-    \lozenge_W D_\bullet 
+    \diamondsuit_W D_\bullet 
   }
   \underset{
    \color{blue}\text{then}
@@ -358,7 +358,7 @@ $$
 and sets
 
 $$
-  (\underset{\omega}{\lozenge} \dashv \underset{\omega}{\Box})
+  (\underset{\omega}{\diamondsuit} \dashv \underset{\omega}{\Box})
   \coloneqq
   \left(
      \left(
@@ -378,7 +378,7 @@ $$
 
 If here $\omega$ is an [[effective epimorphism]] (a [[1-epimorphism]]) then it exibits an [[equivalence relation]] on $W$, where $w_1\sim w_2$ is given by $\omega(w_1) = \omega(w_2)$. In traditional [[possible worlds semantics]] such equivalence relation in a [[Kripke frame]] is called an "accessibility relation between possible worlds" for the case of [[S5 modal logic]]. Now 
 
-*  $\underset{\omega}{\lozenge} p$ is true/inhabited at $w\in W$ iff it is true/inhabited at at least one $\tilde w$ in the same equivalence class of $w$;
+*  $\underset{\omega}{\diamondsuit} p$ is true/inhabited at $w\in W$ iff it is true/inhabited at at least one $\tilde w$ in the same equivalence class of $w$;
 
 *  $\underset{\omega}{\Box} p$ is true/inhabited at $w\in W$ iff it is true/inhabited at all $\tilde w$ in the same equivalence classes of $w$.
 
@@ -440,9 +440,9 @@ By the assumption that $NumberOfPlanetsInTheSolarSystem(w)$ is not constant in $
 
 * $[\Box_W (9 = NumberOfPlanetsInTheSolarSystem)]$ is [[false]].
 
-However, if we assume that there is one $w$ for which indeed $NumberOfPlanetsInTheSolarSystem(w)$ takes the value 9, then the [[dependent sum]] over the dependent identity type contains that coincidence as a term, and so $\lozenge_W$ of our dependent identity type is [[inhabited type|inhabited]]. Hence
+However, if we assume that there is one $w$ for which indeed $NumberOfPlanetsInTheSolarSystem(w)$ takes the value 9, then the [[dependent sum]] over the dependent identity type contains that coincidence as a term, and so $\diamondsuit_W$ of our dependent identity type is [[inhabited type|inhabited]]. Hence
 
-* $[\lozenge_W (9 = NumberOfPlanetsInTheSolarSystem)]$ is [[true]].
+* $[\diamondsuit_W (9 = NumberOfPlanetsInTheSolarSystem)]$ is [[true]].
 
 In English words, these formal consequences are to be pronounced as:
 
@@ -541,7 +541,7 @@ $$
     &
     \text{actualized}
     \\
-    \lozenge \mathcal{H}_\bullet
+    \diamondsuit \mathcal{H}_\bullet
     &
     \simeq
     &
