@@ -189,6 +189,9 @@ and more generally for [[compact Lie groups]]:
 
 * [[Tammo tom Dieck]], [[Theodor Bröcker]], *Representations of compact Lie groups*, Springer (1985) &lbrack;[doi:10.1007/978-3-662-12918-0](https://link.springer.com/book/10.1007/978-3-662-12918-0)&rbrack;
 
+* Asim O. Barut, Ryszard Rączka: *Theory of group representations and applications*, World Scientific (1986) &lbrack;[doi:10.1142/0352](https://doi.org/10.1142/0352), [ark:/13960/s2131r9mqpj](https://archive.org/details/theoryofgrouprep0000baru/page/n9/mode/2up), [pdf](https://github.com/carlosal1015/Books/blob/master/Physics/A.%20O%20Barut%20Theory%20of%20group%20representations%20and%20applications%20part%201.pdf)&rbrack;
+  > (advertized as being for [[physics|physicists]])  
+
 * {#FultonHarris91} [[William Fulton]], [[Joe Harris]]: _Representation Theory: a First Course_, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9)&rbrack;
 
 In the context of [[physics]] and specifically [[quantum mechanics]] (cf. *[[Gruppenpest]]*):
