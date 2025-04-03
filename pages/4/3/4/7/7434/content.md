@@ -29,14 +29,11 @@ $$\int^{a \in Atom(C)} C(i a, c) \cdot i a.$$
 ### Relation to presheaf toposes
 
 
-+-- {: .num_thm}
-###### Theorem 
+\begin{theorem}
+A category is [[equivalence of categories|equivalent]] to a [[category of presheaves]], hence of the form $[C^{op}, Set]$, if and only if it is [[cocomplete category|cocomplete]] and atomic. 
+\end{theorem}
 
-A category $E$ is equivalent to a [[presheaf topos]] (a category of the form $[C^{op},Set]$) if and only if it is cocomplete and atomic. 
-
-=--
-
-See [Centazzo-Rosický-Vitale](#Centazzo-Rosický-Vitale) for a proof.  
+See [Centazzo, Rosický & Vitale 2004](#Centazzo-Rosický-Vitale04) for a proof.  
 
 
 ## Related concepts
@@ -50,7 +47,7 @@ See [Centazzo-Rosický-Vitale](#Centazzo-Rosický-Vitale) for a proof.
 
 ## References
 
-* {#Centazzo-Rosický-Vitale} Claudia Centazzo, [[Jiří Rosický]], [[Enrico M. Vitale]]: *A characterization of locally $D$-presentable categories*, [[Cahiers]] de topologie et géométrie différentielle catégoriques **45** 2 (2004) 141-146 &lbrack;[numdam:CTGDC_2004__45_2_141_0](https://www.numdam.org/item/CTGDC_2004__45_2_141_0), [pdf](https://perso.uclouvain.be/enrico.vitale/ClaudiaJiri.pdf)&rbrack;
+* {#Centazzo-Rosický-Vitale04} Claudia Centazzo, [[Jiří Rosický]], [[Enrico M. Vitale]]: *A characterization of locally $D$-presentable categories*, [[Cahiers]] de topologie et géométrie différentielle catégoriques **45** 2 (2004) 141-146 &lbrack;[numdam:CTGDC_2004__45_2_141_0](https://www.numdam.org/item/CTGDC_2004__45_2_141_0), [pdf](https://perso.uclouvain.be/enrico.vitale/ClaudiaJiri.pdf)&rbrack;
 
 
 [[!redirects atomic categories]]
