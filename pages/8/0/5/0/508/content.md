@@ -13,11 +13,15 @@
 =--
 =--
 
-This page compiles pointers related to:
+This page is to record the reference:
 
 * [[Saunders MacLane]],
 
+  \linebreak
+
   **Categories for the Working Mathematician**
+
+  \linebreak
 
   Graduate Texts in Mathematics **5**
 
