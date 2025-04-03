@@ -260,16 +260,21 @@ The [[exceptional Lie groups]] incude
 
 * [[Sigurdur Helgason]], *Differential geometry, Lie groups and symmetric spaces*, Graduate Studies in Mathematics **34** (2001) &lbrack;[ams:gsm-34](https://bookstore.ams.org/gsm-34)&rbrack;
 
+
+* [[Alexandre Kirillov]]: *An Introduction to Lie Groups and Lie Algebras*, Cambridge University Press (2008) \[<a href="https://doi.org/10.1017/CBO9780511755156">doi:10.1017/CBO9780511755156</a>\]
+
 * [[Mark Haiman]] (notes by [[Theo Johnson-Freyd]]), _Lie groups_, lecture notes, Berkeley (2008) &lbrack;[[Haiman-LieGroups09.pdf:file]]&rbrack;
 
 
-* [[Eckhard Meinrenken]], _Lie groups and Lie algebras_, Lecture notes 2010 ([pdf](http://www.math.toronto.edu/mein/teaching/LectureNotes/lie.pdf))
 
-* {#HilgertNeeb12} [[Joachim Hilgert]], [[Karl-Hermann Neeb]], _Structure and Geometry of Lie Groups_, Springer Monographs in Mathematics, Springer-Verlag New York, 2012 ([doi:10.1007/978-0-387-84794-8](https://link.springer.com/book/10.1007/978-0-387-84794-8))
+* [[Eckhard Meinrenken]], _Lie groups and Lie algebras_, Lecture notes (2010) &lbrack;[pdf](http://www.math.toronto.edu/mein/teaching/LectureNotes/lie.pdf)&rbrack;
+
+
+* {#HilgertNeeb12} [[Joachim Hilgert]], [[Karl-Hermann Neeb]], _Structure and Geometry of Lie Groups_, Springer Monographs in Mathematics, Springer (2012) &lbrack;[doi:10.1007/978-0-387-84794-8](https://link.springer.com/book/10.1007/978-0-387-84794-8)&rbrack;
 
 * [[Daniel Bump]], *Lie groups*, Graduate Texts in Mathematics **225**, Springer (2013) &lbrack;[doi:10.1007/978-1-4614-8024-2](https://doi.org/10.1007/978-1-4614-8024-2), [pdf](https://www-fourier.ujf-grenoble.fr/~panchish/ETE%20LAMA%202018-AP/lecturesZETAS2018/BumpD-Lie%20groups.pdf)&rbrack;
 
-* {#Hall15} [[Brian C. Hall]], *Lie Groups, Lie Algebras, and Representations*, Springer 2015 ([doi:10.1007/978-3-319-13467-3](https://doi.org/10.1007/978-3-319-13467-3))
+* {#Hall15} [[Brian C. Hall]]: *Lie Groups, Lie Algebras, and Representations*, Springer (2015) &lbrack;[doi:10.1007/978-3-319-13467-3](https://doi.org/10.1007/978-3-319-13467-3)&rbrack;
 
 * {#GallierQuaintance20a} [[Jean Gallier]], [[Jocelyn Quaintance]],  *Differential Geometry and Lie Groups -- A computational perspective*, Geometry and Computing **12**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-46040-2](https://doi.org/10.1007/978-3-030-46040-2), [webpage](https://www.cis.upenn.edu/~jean/gbooks/manif.html)&rbrack;
 
