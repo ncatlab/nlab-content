@@ -3,11 +3,22 @@
 * table of contents
 {:toc}
 
-
 ## Idea
 
-(...)
+In most projective geometries, including all classical projective spaces, two distinct triangles are in a perspective with respect to a point iff they are in a perspective with respect to a line.
 
+
+## Statement
+
+By a triangle we mean three noncolinear points. 
+
+In a projective space of any dimension bigger than 2, in any projective plane over a [[field]] or [[skewfield]], and in every projective plane where the Pappus theorem holds, the following is true. For any two triangles $A B C$ and $A'B'C'$ without common points the three lines $A A'$, $B B'$ and $C C'$ meet in a single point iff the intersections of pairs of sides $A B\cap A'B'$, $A C\cap A' C'$ and $B C\cap B'C'$ lie on a single line. 
+
+## Nondesarguesian planes
+
+In dimension 2, there exist nondesarguesian planes, both finite and infinite (in the sense of a number of points).
+All known finite nondesarguesian planes have the order which is a prime number to an integer power bigger than 1.
+The [[octonionic projective plane]] is an infinite example.  
 
 ## Related entries
 
@@ -16,6 +27,8 @@
 * [[projective plane]]
 
 * [[octonionic projective plane]]
+
+* [[harmonic ratio]]
 
 ## References
 
