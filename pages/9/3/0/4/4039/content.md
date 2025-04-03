@@ -328,7 +328,7 @@ _Differential geometry and the calculus of variations_, Acad. Press 1968
 
 * J. Jost, X. Li-Jost, _Calculus of variations_, CUP 1998
 
-* {#Zuckerman} [[Gregg Zuckerman|G. J. Zuckerman]], _Action Principles and Global Geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259&#8364;284. ([[ZuckermanVariation.pdf:file]])
+* {#Zuckerman} [[Gregg Zuckerman|G. J. Zuckerman]], _Action principles and global geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259–284. ([[ZuckermanVariation.pdf:file]])
  
 
 Zuckerman's ideas are used in
