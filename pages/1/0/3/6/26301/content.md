@@ -41,4 +41,12 @@ The orientifold projection leading to this string was first described in:
 
 * {#Sug99} [[Shigeki Sugimoto]]. *Anomaly cancellations in type I D-9 - anti-D-9 system and the USp(32) string theory*. Prog. Theor. Phys. **102** (1999) 685-699 \[[hep-th/9905159](https://arxiv.org/abs/hep-th/9905159), [doi:10.1143/PTP.102.685](https://doi.org/10.1143/PTP.102.685)\]
 
+See also:
+
+* Vittorio Larotonda, Ling Lin: *Anomaly Inflow and Gauge Group Topology in the 10d Sugimoto String Theory* &lbrack;[arXiv:2412.17894](https://arxiv.org/abs/2412.17894)&rbrack;
+
+
+
+
+
 
