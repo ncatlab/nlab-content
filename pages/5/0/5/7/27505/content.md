@@ -70,6 +70,25 @@ $$
 \end{remark}
 ([Gadbled, Thiel & Wagner 2015 Rem. 1.2](#GadbledThielWagner15))
 
+In fact, it should even be a *direct* product
+$$
+  MCG(\mathbb{A}, n)
+  \,\simeq\,
+  CBr_n \times 
+  \underset
+  { \mathbb{Z} }
+  {
+    \underbrace{
+      \langle d\rangle
+    }
+  }
+$$
+because (by arguments as in [Bellingeri & Gervais 2012](#braid+group#BellingeriGervais12), cf. [MO:q/488784](https://mathoverflow.net/q/488784/381)) the extra generator $d$ (the annulus *Dehn twist*) may be taken to leave all the punctures fixed:
+
+<img src="https://ncatlab.org/nlab/files/DehnTwistOnPuncturedAnnulus.jpg" width="850">
+
+
+
 ## References
 
 * {#KentPfeifer02} Richard P. Kent, David Pfeifer: *A Geometric and algebraic description of annular braid groups*, International Journal of Algebra and Computation **12** 01n02 (2002) 85-97 &lbrack;[doi:10.1142/S0218196702000997](https://doi.org/10.1142/S0218196702000997)&rbrack;
