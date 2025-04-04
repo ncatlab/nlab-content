@@ -38,11 +38,11 @@ Coreader comonads in $\mathcal{C}^op$ are [[exception monads]] in $\mathcal{C}$,
 
 ## Properties
 
-### As an Indexed Comonad
+### As an indexed comonad
 
 If all binary cartesian products in $C$ exist, then the coreader comonad extends to a $C$-indexed comonad on $C$, i.e. a functor $C \to Comonad$. If $C$ has a [[terminal object]] $1$, then the environment comonad $1 \times -$ is isomorphic to the identity comonad.
 
-### Generalization to Tensor Products
+### Generalization to tensor products
 
 If $C$ is a [[monoidal category]] rather than having all binary products, then tensoring with an object $\Gamma \otimes -$ can be given an analogous comonad structure when $\Gamma$ has a [[comonoid]] structure. In a [[cartesian monoidal category]] every object has a unique comonoid structure, which is what induces the coreader comonad. Even without assuming objects carry comonoid structures, the action sending $\Gamma$ to the functor $\Gamma \otimes -$ defines a strong [[monoidal functor]] from $C$ to the monoidal category of endofunctors $[C,C]$, a degenerate kind of [[graded monad|graded comonad]].
 
