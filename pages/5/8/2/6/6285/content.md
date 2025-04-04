@@ -202,7 +202,8 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
 
 * [[particle statistics]]
 
-* [[K-theory classification of topological insulators]]
+* [[K-theory classification of topological phases of matter]]
+
 
 
 ## References
@@ -245,7 +246,6 @@ In the context of the [[K-theory classification of topological phases of matter]
 
 
 [[!redirects Wigner theorem]]
-[[!redirects Wigner's theorem]]
 [[!redirects Wigner's theorem]]
 
 [[!redirects quantum symmetry]]
