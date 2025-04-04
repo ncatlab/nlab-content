@@ -159,6 +159,10 @@ In the context of [[D=2 quantum gravity]]:
 
 * Scott Collier, [[Lorenz Eberhardt]], Beatrix Mühlmann: *The complex Liouville string: the gravitational path integral* &lbrack;[arXiv:2501.10265](https://arxiv.org/abs/2501.10265)&rbrack;
 
+On *timelike* Liouville theory:
+
+* [[Sourav Chatterjee]]. *Rigorous results for timelike Liouville field theory* (2025). ([arXiv:2504.02348](https://arxiv.org/abs/2504.02348)).
+
 
 
 
