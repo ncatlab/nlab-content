@@ -10,7 +10,9 @@
 
 The subgroup of boundary Dehn twists is central &lbrack;[Farb & Margalit 2012 p 77](mapping+class+group#FarbMargalit12)&rbrack;
 
-* *Fractionalizing Majorana Fermions: Non-Abelian Statistics on the Edges of Abelian Quantum Hall States* &lbrack;[doi:10.1103/PhysRevX.2.041002](https://doi.org/10.1103/PhysRevX.2.041002)&rbrack;
+* Netanel H. Lindner, Erez Berg, Gil Refael, [[Ady Stern]]: *Fractionalizing Majorana Fermions: Non-Abelian Statistics on the Edges of Abelian Quantum Hall States*, Phys. Rev. X **2** (2012) 041002 &lbrack;[doi:10.1103/PhysRevX.2.041002](https://doi.org/10.1103/PhysRevX.2.041002), [doi:10.1103/PhysRevX.2.041002](https://doi.org/10.1103/PhysRevX.2.041002), [arXiv:1204.5733](https://arxiv.org/abs/1204.5733)&rbrack;
+
+* [[Juven C. Wang]], [[Xiao-Gang Wen]]: *Boundary Degeneracy of Topological Order*, Phys. Rev. B **91** (2015) 125124 &lbrack;[doi:10.1103/PhysRevB.91.125124](https://doi.org/10.1103/PhysRevB.91.125124), [arXiv:1212.4863](https://arxiv.org/abs/1212.4863)&rbrack;
 
 
 
