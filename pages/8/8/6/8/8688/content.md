@@ -26,23 +26,23 @@
 Given a [[monoidal category]] $C$ with [[tensor product]] $\otimes$, and an [[object]] $V$ in $C$, a *quantum Yang-Baxter operator* is a [[morphism]] of the form 
 
 $$
-  R \,\colon\, V\otimes V\to V\otimes V
+  R \,\colon\, V \otimes V \longrightarrow V\otimes V
 $$ 
 
 which satisfies the following *quantum Yang-Baxter equation* in $V\otimes V\otimes V$
 
 $$
-  R_{12}  
+  \check R_{12}  
   \,
-  R_{13}  
+  \check R_{13}  
   \,
-  R_{23} 
+  \check R_{23} 
   \;=\; 
-  R_{23} 
+  \check R_{23} 
   \,
-  R_{13} 
+  \check R_{13} 
   \,
-  R_{12}
+  \check R_{12}
   \,,
 $$
 
@@ -73,17 +73,17 @@ Later it has been generalized and axiomatized to a number of contexts: it is mos
 With multiplicative spectral parameter, the equation reads
 
 $$
-  R_{12} (u) 
+  \check R_{12} (u) 
   \,
-  R_{13} (u v) 
+  \check R_{13} (u v) 
   \,
-  R_{23} (v) 
+  \check R_{23} (v) 
   \;=\; 
-  R_{23}(v) 
+  \check R_{23}(v) 
   \,
-  R_{13}(u v) 
+  \check R_{13}(u v) 
   \,
-  R_{12}(u)
+  \check R_{12}(u)
 $$
 
 where the subscripts indicate which tensor factors are being utilized.
@@ -138,15 +138,15 @@ See also:
 
 Further discussion in the context of [[quantum groups]]:
 
-* A. U. Klymik, K. Schmuedgen, _Quantum groups and their representations_, Springer 1997.
+* A. U. Klymik, K. Schmuedgen: _Quantum groups and their representations_, Springer (1997)
 
-* V. Chari, A. Pressley, _A guide to quantum groups_, Cambridge Univ. Press 1994
+* V. Chari, A. Pressley, _A guide to quantum groups_, Cambridge Univ. Press (1994)
 
-* [[V. G. Drinfel'd]], _Quantum groups_, Proceedings of the International Congress of Mathematicians 1986, Vol. 1, 798&#8211;820, AMS 1987, [djvu:1.3M](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.djvu), [pdf:2.5M](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1986.1/ICM1986.1.ocr.pdf)
+* [[V. G. Drinfel'd]], _Quantum groups_, Proceedings of the International Congress of Mathematicians 1986, Vol. 1, 798-820, AMS (1987) &lbrack;[djvu](http://www.mathunion.org/ICM/ICM1986.1/Main/icm1986.1.0798.0820.ocr.djvu), [pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1986.1/ICM1986.1.ocr.pdf)&rbrack;
 
-* D. Gurevich, [[V. Rubtsov]], _Yang-Baxter equation and deformation of associative and Lie algebras_, in: Quantum Groups, Springer Lecture Notes in Math. __1510__ (1992) 47-55,[doi](https://doi.org/10.1007/BFb0101177)
+* D. Gurevich, [[V. Rubtsov]]: _Yang-Baxter equation and deformation of associative and Lie algebras_, in: *Quantum Groups*, Lecture Notes in Math. __1510__, Springer (1992) 47-55 &lbrack;[doi:10.1007/BFb0101177](https://doi.org/10.1007/BFb0101177)&rbrack;
 
-* P. P. Kulish, [[Nicolai Reshetikhin]], E. K. Sklyanin, _Yang-Baxter equation and representation theory: I_, Lett. Math. Phys. __5__:5 (1981), 393-403, [doi](http://dx.doi.org/10.1007/BF02285311)
+* P. P. Kulish, [[Nicolai Reshetikhin]], E. K. Sklyanin: _Yang-Baxter equation and representation theory: I_, Lett. Math. Phys. __5__ 5 (1981) 393-403 &lbrack;[doi:10.1007/BF02285311](http://dx.doi.org/10.1007/BF02285311)&rbrack;
 
 
 ### Solutions
@@ -168,7 +168,7 @@ Classification of all unitary solutions in $dim=4$:
 Discussion of all *involutive* solutions, yielding [[representations of a symmetric group]]:
 
 * [[Gandalf Lechner]], [[Ulrich Pennig]], [[Simon Wood]]: *Yang-Baxter representations of the infinite symmetric group*, Adv. Math., Vol. **355** (2019) 106769 &lbrack;[arXiv:1707.00196](https://arxiv.org/abs/1707.00196), [doi:10.1016/j.aim.2019.106769](https://doi.org/10.1016/j.aim.2019.106769)&rbrack;
-   > "Yang-Baxter representations are reducible, but decomposing them gives representations which are no longer of Yang-Baxter form. Conversely, taking direct sums of Yang-Baxter representations is not compatible with the Yang-Baxter equation either."
+  > "Yang-Baxter representations are reducible, but decomposing them gives representations which are no longer of Yang-Baxter form. Conversely, taking direct sums of Yang-Baxter representations is not compatible with the Yang-Baxter equation either."
 
 * [[Gandalf Lechner]]: *All involutive solutions of the Yang-Baxter equation*, talk at *[Advances in Mathematics and Theoretical Physics](https://www.mat.uniroma2.it/tlc/17SIMP/)* (2017) &lbrack;[pdf](https://www.mat.uniroma2.it/tlc/17SIMP/Slides/Lechner.pdf), [[Lechner-AllInvolutiveYBEsolutions.pdf:file]]&rbrack;
 
