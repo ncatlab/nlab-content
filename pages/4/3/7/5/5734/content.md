@@ -1,5 +1,4 @@
-[[!redirects Alexander Vinogradov]]
-Alexander M. Vinogradov was a Russian mathematician working in the geometric theory of [[differential equations]], the theory of [[diffieties]] with applications to [[variational calculus]].
+Alexander Vinogradov (Александр Михайлович Виноградов) was a Russian mathematician working in the geometric theory of [[differential equations]], the theory of [[diffieties]] with applications to [[variational calculus]].
 
 * [webpage](https://diffiety.mccme.ru/curvita/amv.htm)
 
@@ -25,8 +24,8 @@ Alexander M. Vinogradov was a Russian mathematician working in the geometric the
 
 * [[Euler-Lagrange complex]]
 
-
 category:people
+
 [[!redirects A. Vinogradov]]
 [[!redirects Alexander Vinogradov]]
 [[!redirects A. M. Vinogradov]]
@@ -34,3 +33,4 @@ category:people
 [[!redirects Alexandre M. Vinogradov]]
 [[!redirects Aleksander M. Vinogradov]]
 [[!redirects Alexander M. Vinogradov]]
+[[!redirects Alexander Vinogradov]]
