@@ -331,7 +331,7 @@ On the [[light-cone quantization]] of abelian Chern-Simons theory:
 
 * L. R. U. Manssur: *Canonical Quantization of Chern-Simons on the Light-Front*, Phys. Lett. B **480** (2000) 229-236 &lbrack;[arXiv:hep-th/9910127v1](https://arxiv.org/abs/hep-th/9910127), <a href="https://doi.org/10.1016/S0370-2693(00)00380-4">doi:10.1016/S0370-2693(00)00380-4</a>&rbrack;
 
-On [[boundary conditions]] and line-[[defect field theory|defects]] in abelian Chern-Simons theory:
+On [[boundary conditions]] and line-[[defect field theory|defects]] in abelian Chern-Simons theory and on the corresponding ground state degeneracy ([[topological order]]) on [[surfaces]] with ("gapped") [[boundary of a manifold|boundaries]]:
 
 * [[Anton Kapustin]], [[Natalia Saulina]]: *Topological boundary conditions in abelian Chern-Simons theory*, Nucl. Phys. B **845** (2011) 393-435 &lbrack;[arXiv:1008.0654](https://arxiv.org/abs/1008.0654), [doi:10.1016/j.nuclphysb.2010.12.017](https://doi.org/10.1016/j.nuclphysb.2010.12.017)&rbrack;
 
@@ -341,12 +341,17 @@ On [[boundary conditions]] and line-[[defect field theory|defects]] in abelian C
 
 * [[Anton Kapustin]]: *Ground-state degeneracy for abelian anyons in the presence of gapped boundaries*, Phys. Rev. B **89** (2014) 125307  &lbrack;[arXiv:1306.4254](https://arxiv.org/abs/1306.4254), [doi:10.1103/PhysRevB.89.125307](https://doi.org/10.1103/PhysRevB.89.125307)&rbrack;
 
+* [[Juven C. Wang]], [[Xiao-Gang Wen]]: *Boundary Degeneracy of Topological Order*, Phys. Rev. B **91** (2015) 125124 &lbrack;[doi:10.1103/PhysRevB.91.125124](https://doi.org/10.1103/PhysRevB.91.125124), [arXiv:1212.4863](https://arxiv.org/abs/1212.4863)&rbrack;
+
 * Jackson R. Fliss, Xueda Wen, Onkar Parrikar, Chang-Tse Hsieh, Bo Han, Taylor L. Hughes, Robert G. Leigh: *Interface Contributions to Topological Entanglement in Abelian Chern-Simons Theory*, JHEP 09 (2017) 056 &lbrack;[arXiv:1705.09611](https://arxiv.org/abs/1705.09611), <a href="https://doi.org/10.1007/JHEP09(2017)056">doi:10.1007/JHEP09(2017)056</a>&rbrack;
 
 
 and with [[fermion|fermionic]] [[boundary field theory|boundary]] [[2d CFT]]:
 
 * Kohki Kawabata, Tatsuma Nishioka, Takuya Okuda, Shinichiro Yahagi: *Fermionic CFTs from topological boundaries in abelian Chern-Simons theories* &lbrack;[arXiv:2502.08084](https://arxiv.org/abs/2502.08084)&rbrack;
+
+
+
 
 
 Discussion via [[locally covariant AQFT|locally covariant]] [[algebraic quantum field theory]]:
