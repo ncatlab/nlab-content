@@ -29,6 +29,9 @@ A [[class]] $\Phi$ of [[diagram]] shapes for [[limits]] --- or more generally a 
 
 * [n-Cafe discussion about the above paper](https://golem.ph.utexas.edu/category/2014/05/classifying_by_generalizing_th.html)
 
+
+* C. Centazzo, [[J. Rosický]], [[E. M. Vitale]], _A characterization of locally D-presentable categories_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 45 (2004), no. 2, pp. 141-146.  [numdam](https://www.numdam.org/item/CTGDC_2004__45_2_141_0/).
+
 * [[Stephen Lack]], [[Jiri Rosicky]], *Notions of Lawvere theory*, [arxiv](https://arxiv.org/abs/0810.2578)
 
 * Mat&#283;j Dost&#225;l, Ji&#345;&#237; Velebil, *An elementary characterisation of sifted weights*, [arxiv](https://arxiv.org/abs/1405.3090)
