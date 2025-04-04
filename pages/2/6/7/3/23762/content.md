@@ -33,6 +33,12 @@ On [[photonic crystals]] and [[topological photonics]]:
 * [[Duncan Haldane]], S. Raghu, *Possible Realization of Directional Optical Waveguides in Photonic Crystals with Broken Time-Reversal Symmetry*, Phys. Rev. Lett. **100** (2008) 013904 &lbrack;[doi:10.1103/PhysRevLett.100.013904](https://doi.org/10.1103/PhysRevLett.100.013904)&rbrack;
 
 
+On the [[fractional quantum Hall effect]]:
+
+* [[Duncan Haldane]]: *Geometry of flux attachment in the fractional quantum hall effect states*, lecture at *CESC Cargèse Corsica July 2017*, abstract published in: *Topological Phase Transitions And New Developments*, World Scientific (2018) 2 &lbrack;[pdf](https://indico.in2p3.fr/event/14018/images/1095-cargese1-haldane.pdf), [[Haldane-FLuxAttachment.pdf:file]], [doi:10.1142/9789813271340_0002](https://doi.org/10.1142/9789813271340_0002)&rbrack;
+
+
+
 category: people
 
 [[!redirects Frederick Duncan Michael Haldane]]
