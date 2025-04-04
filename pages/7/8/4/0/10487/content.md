@@ -36,9 +36,16 @@ Early review:
 
 * {#Wen91Review} [[Xiao-Gang Wen]], *Topological orders and Chern-Simons theory in strongly correlated quantum liquid*,  International Journal of Modern Physics B **05** 10 (1991)  1641-1648 &lbrack;[doi:10.1142/S0217979291001541](https://doi.org/10.1142/S0217979291001541)&rbrack;
 
+
+The additional requirement that the Berry connection be non-abelian (and/or the presence of anyons):
+
+* {#GuWen09} [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], p. 2 of:  *Tensor-Entanglement-Filtering Renormalization Approach and Symmetry Protected Topological Order*, Phys. Rev. B **80** 155131 (2009) &lbrack;[arXiv:0903.1069](https://arxiv.org/abs/0903.1069), [doi:10.1103/PhysRevB.80.155131](https://doi.org/10.1103/PhysRevB.80.155131)&rbrack;
+
+
 Further review:
 
 * [[Xiao-Gang Wen]], *Zoo of quantum-topological phases of matter*, Rev. Mod. Phys. **89** 41004 (2017) &lbrack;[arXiv:1610.03911](https://arxiv.org/abs/1610.03911), [doi:10.1103/RevModPhys.89.041004](https://doi.org/10.1103/RevModPhys.89.041004)&rbrack;
+
 
 
 On [[quantum spin liquids]] as exhibiting [[topological order]]:
@@ -61,11 +68,9 @@ On [[abelian Chern-Simons theory]] as an [[effective field theory]] for the [[fr
 
 * [[Xiao-Gang Wen]]: *Theory of Edge States in Fractional Quantum Hall Effects*, International Journal of Modern Physics B **06** 10 (1992) 1711-1762 \[<a href="https://doi.org/10.1142/S0217979292000840">doi:10.1142/S0217979292000840</a>\]
 
+On ground state degeneracy ([[topological order]]) of [[topological phases of matter]] on [[surfaces]] with ("gapped") [[boundary of a manifold|boundaries]] via [[effective field theory|effective]] [[abelian Chern-Simons theory]]:
 
-
-The additional requirement that the Berry connection be non-abelian (and/or the presence of anyons):
-
-* {#GuWen09} [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], p. 2 of:  *Tensor-Entanglement-Filtering Renormalization Approach and Symmetry Protected Topological Order*, Phys. Rev. B **80** 155131 (2009) $[$[arXiv:0903.1069](https://arxiv.org/abs/0903.1069), [doi:10.1103/PhysRevB.80.155131](https://doi.org/10.1103/PhysRevB.80.155131)$]$
+* [[Juven C. Wang]], [[Xiao-Gang Wen]]: *Boundary Degeneracy of Topological Order*, Phys. Rev. B **91** (2015) 125124 &lbrack;[doi:10.1103/PhysRevB.91.125124](https://doi.org/10.1103/PhysRevB.91.125124), [arXiv:1212.4863](https://arxiv.org/abs/1212.4863)&rbrack;
 
 On understanding generalized [[Laughlin wavefunctions]] as [[conformal blocks]]:
 
