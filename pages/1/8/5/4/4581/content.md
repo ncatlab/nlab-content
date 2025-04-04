@@ -721,7 +721,7 @@ which is the right hand side of the equivalence to be proven.
 
 The variational bicomplex was introduced independently in
 
-* [[Alexandre Vinogradov]], _A spectral sequence associated with a non-linear differential equation, and the algebro-geometric foundations of Lagrangian field theory with constraints_, Soviet Mathematics Doklady 19:1 (1978) 144–148.  [DjVu](https://diffiety.mccme.ru/djvu/constraints.djvu).  Russian original: А. М. Виноградов, _Одна спектральная последовательность, связанная с нелинейным дифференциальным уравнением и алгебро-геометрические основания лагранжевой теории поля со связями_, Доклады АН СССР, 238:5 (1978), 1028–1031.  [PDF](https://www.mathnet.ru/rus/dan/v238/i5/p1028).
+* [[Alexandre Vinogradov]], _A spectral sequence associated with a non-linear differential equation, and the algebro-geometric foundations of Lagrangian field theory with constraints_, Soviet Mathematics Doklady 19:1 (1978) 144–148.  [PDF](https://dmitripavlov.org/scans/vinogradov-a-spectral-sequence-associated-with-a-nonlinear-differential-equation-and-algebro-geometric-foundations-of-lagrangian-field-theory-with-constraints.pdf).  Russian original: А. М. Виноградов, _Одна спектральная последовательность, связанная с нелинейным дифференциальным уравнением и алгебро-геометрические основания лагранжевой теории поля со связями_, Доклады АН СССР, 238:5 (1978), 1028–1031.  [PDF](https://www.mathnet.ru/rus/dan/v238/i5/p1028).
 
 * W. M. Tulczyjew, _The Euler-Lagrange resolution_, Lecture Notes in Mathematics 836 (1980), 22–48.  [DOI](https://doi.org/10.1007/bfb0089725).
 
@@ -730,9 +730,11 @@ The variational bicomplex was introduced independently in
 
 See also
 
-* {#Takens79} [[Floris Takens]], _A global version of the inverse problem of the calculus of variations_ J. Diff. Geom. 14 (1979) 543-562
+* {#Takens79} [[Floris Takens]], _A global version of the inverse problem of the calculus of variations_, J. Diff. Geom. 14:4 (1979) 543–562.  [DOI](https://doi.org/10.4310/jdg/1214435235).
 
-* {#Deligne99} [[Pierre Deligne]] et al. _[[Quantum Fields and Strings]]_
+Chapter 2 (Lagrangian Theory of Classical Fields) in
+
+* {#Deligne99} [[Pierre Deligne]], [[Daniel S. Freed]], _Classical Field Theory_, In: _[[Quantum Fields and Strings]]: A Course for Mathematicians_, Volume I, ISBN: 0-8218-1198-3.
 
 An introduction is in 
 
