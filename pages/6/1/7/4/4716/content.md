@@ -177,6 +177,8 @@ Surveys:
 
 * {#Morita07} [[Shigeyuki Morita]]: *Introduction to mapping class groups of surfaces and related groups*, in: *Handbook of Teichmüller theory, Volume I*, EMS (2007) 353-386 &lbrack;[doi:10.4171/029-1/8](https://doi.org/10.4171/029-1/8), [[Morita-IntroductionMCG.pdf:file]]&rbrack;
 
+* {#KwokLuoYang25} Thomas Kwok-Keung, Feng Luo, Tian Yang: *Lectures on the Mapping Class Group of a Surface* (2025?) &lbrack;[pdf](https://people.tamu.edu/~yangtian//lecture.pdf)&rbrack;
+
 Lecture notes:
 
 * [[Gwénaël Massuyeau]]: _A short introduction to mapping class groups_, presentation at *Master Class on Geometry* Strasbourg (2009) &lbrack;[pdf](https://massuyea.perso.math.cnrs.fr/notes/MCG.pdf), [[Massuyeau-MCG.pdf:file]]&rbrack;
