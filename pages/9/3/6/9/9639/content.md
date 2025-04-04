@@ -727,6 +727,11 @@ A quick review of the description via [[abelian Chern-Simons theory]] with furth
 
 * Spencer D. Stirling, _Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories_, &lbrack;[arXiv:0807.2857](http://arxiv.org/abs/0807.2857)&rbrack;
 
+On gapped boundary effects:
+
+
+* Netanel H. Lindner, Erez Berg, Gil Refael, [[Ady Stern]]: *Fractionalizing Majorana Fermions: Non-Abelian Statistics on the Edges of Abelian Quantum Hall States*, Phys. Rev. X **2** (2012) 041002 &lbrack;[doi:10.1103/PhysRevX.2.041002](https://doi.org/10.1103/PhysRevX.2.041002), [doi:10.1103/PhysRevX.2.041002](https://doi.org/10.1103/PhysRevX.2.041002), [arXiv:1204.5733](https://arxiv.org/abs/1204.5733)&rbrack;
+
 
 Realization via [[AdS/CFT in condensed matter physics]]:
 
