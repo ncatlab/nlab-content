@@ -19,23 +19,25 @@
 
 ## Idea
 
-For $X$ a ([[spacetime]]) [[manifold]] and $E \to X$ a [[bundle]] (in [[physics]] called the _[[field bundle]]_) with [[jet bundle]] $Jet(E) \to X$, the **variational bicomplex** is essentially the [[de Rham complex]] $(\Omega^\bullet(Jet( E)),\mathbf{d})$ of $Jet(E)$ with [[differential forms]] $\Omega^n(Jet(E)) = \bigoplus_{h+v=n} \Omega^{h,v}(E)$ bigraded by [[horizontal differential form|horizontal]] degree $h$ (with respect to $X$) and vertical degree $v$ (along the [[fiber]]s of $j_\infty E$)). Accordingly the [[differential]] decomposes as
+For $X$ a ([[spacetime]]) [[manifold]] and $E \to X$ a [[bundle]] (in [[physics]] called the _[[field bundle]]_) with [[jet bundle]] $Jet(E) \to X$, the **variational bicomplex** is essentially the [[de Rham complex]] $\Big(\Omega^\bullet\big(Jet(E)\big),\mathbf{d}\Big)$ of $Jet(E)$ with [[differential forms]] $\Omega^n\big(Jet(E)\big) = \bigoplus_{h+v=n} \Omega^{h,v}(E)$ bigraded by [[horizontal differential form|horizontal]] degree $h$ (with respect to $X$) and vertical degree $v$ (along the [[fiber]]s of $j_\infty E$)). Accordingly, the [[differential]] decomposes as
 
 $$
-  \mathbf{d} = d + \delta
+  \mathbf{d} 
+    = 
+   d + \delta
   \,,
 $$
 
-where $\mathbf{d}$ is the [[de Rham differential]] on $Jet(E)$, $d$ is called the **horizontal differential** and $\delta$ is called the **vertical differential**.
+where $\mathbf{d}$ is the [[de Rham differential]] on $Jet(E)$ and where $d$ is called the **horizontal differential** and $\delta$ is called the **vertical differential**.
 
 With $E \to X$ thought of as a [[field bundle]] over [[spacetime]]/[[worldvolume]], then $d$ is a measure for how quantities change over spacetime, while $\delta$ is the [[variational calculus|variational]] differential that measures how quantities change as the field configurations are varied.
 
 
-Accordingly, much of [[classical mechanics]] and [[classical field theory]] on $X$ is formalized in terms of the variational bicomplex. For instance 
+Accordingly, much of the [[variational calculus]] involved in [[classical mechanics]] and [[Lagrangian field theory|Lagrangian]] [[classical field theory]] on $X$ (the "[[principle of extremal action]]") is formalized in terms of the variational bicomplex. For instance 
 
 * a field configuration is a [[section]] of $E$;
 
-* a [[Lagrangian]] is an element $L \in \Omega^{n,0}(E)$;
+* a [[Lagrangian density]] is an element $L \in \Omega^{n,0}(E)$;
 
 * a [[local action functional]] is a map
 
@@ -53,15 +55,15 @@ Accordingly, much of [[classical mechanics]] and [[classical field theory]] on $
 * the [[Euler-Lagrange equation]] is 
 
   $$
-    E(L) := \delta L \mod im d = 0
+    E(L) \coloneqq \delta L \mod im d = 0
   $$
 
 * the [[covariant phase space]] is the locus 
 
   $$
-    \{
+    \big\{
      \phi \in \Gamma(E) | E(L)(j^\infty \phi) = 0
-   \}
+   \big\}
   $$
 
 * a [[conserved current]] is an element $\eta\in \Omega^{n-1,0}(E)$ that is  horizontally closed on the covariant phase space
@@ -70,7 +72,7 @@ Accordingly, much of [[classical mechanics]] and [[classical field theory]] on $
     d \eta = 0 \mod E(L)
   $$
 
-* a [[symmetry]] is an evolutionary vector field $v$ such that
+* a [[symmetry]] is an [[evolutionary vector field]] $v$ such that
   
   $$
     v(L) = 0 \mod im d
@@ -161,7 +163,7 @@ and speak of the bicomplex of **local forms** on sections on $E$.
 
 =--
 
-The bicomplex structure on $\Omega^{\bullet, \bullet}_{loc}$ is attributed in ([Olver 86](#Olver86)) to ([Takens 79](#Takens79)). The above formulation as a sub-bicomplex of the evident bicomplex of forms on $X \times \Gamma(E)$ is due to &lbrack;[Zuckerman 87, p. 5](#Zuckerman87)&rbrack;.
+The bicomplex structure on $\Omega^{\bullet, \bullet}_{loc}$ is attributed by [Olver 1986](#Olver86) to [Takens 1979](#Takens79). The above formulation as a sub-bicomplex of the evident bicomplex of forms on $X \times \Gamma(E)$ is due to &lbrack;[Zuckerman 87, p. 5](#Zuckerman87)&rbrack;.
 
 <img src="https://ncatlab.org/nlab/files/VariationalBicomplex.jpg" width="550">
 
@@ -437,7 +439,7 @@ prop. \ref{SecondOrderVariationVanishesOnShell}.
 For $\Sigma \subset X$ a [[compact space|compact]] [[closed manifold|closed]] submanifold of [[dimension]] $n-1$, one says that 
 
 $$
-  \omega := \int_\Sigma \Omega \in \Omega^{0,2}_{loc}
+  \omega \coloneqq \int_\Sigma \Omega \in \Omega^{0,2}_{loc}
 $$
 
 is the [[presymplectic structure]] on [[covariant phase space]] relative to $\Sigma$.
@@ -457,7 +459,7 @@ $$
 and in fact exact: 
 
 $$
-  \theta := \int_\Sigma \Theta
+  \theta \coloneqq \int_\Sigma \Theta
 $$
 
 is its _presymplectic potential_ .
