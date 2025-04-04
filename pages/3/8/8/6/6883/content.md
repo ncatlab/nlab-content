@@ -96,8 +96,7 @@ This case is discussed in ...
 
 A discussion of 1d CS theory in the context of large $N$-gauge theory is in 
 
-* V.P. Nair, _The Matrix Chern-Simons One-form as a Universal Chern-Simons Theory_ 	Nucl.Phys.B750:289-320,2006 ([arXiv:hep-th/0605007](http://arxiv.org/abs/hep-th/0605007))
-  {#Nair}
+* {#Nair} V.P. Nair, _The Matrix Chern-Simons One-form as a Universal Chern-Simons Theory_, Nucl. Phys. **B750** (2006) 289-320 &lbrack;[arXiv:hep-th/0605007](https://arxiv.org/abs/hep-th/0605007), [doi:10.1016/j.nuclphysb.2006.06.002](https://doi.org/10.1016/j.nuclphysb.2006.06.002)&rbrack;
 
 An exposition of this theory formulated via an [[extended Lagrangian]] in [[higher geometric quantization]] is in section 1 of
 
@@ -111,8 +110,12 @@ Further discussion is in section 5.7 of
 
 A 1d Chern-Simons theory with target a [[cotangent bundle]] is discussed in 
 
-* [[Ryan Grady]], [[Owen Gwilliam]], _One-dimensional Chern-Simons theory and the $\hat{A}$ genus_ ([arXiv:1110.3533](http://arxiv.org/abs/1110.3533))
-  {#GradyGwilliam}
+* {#GradyGwilliam} Ryan E. Grady, [[Owen Gwilliam]], _One-dimensional Chern-Simons theory and the $\hat{A}$ genus_, Algebr. Geom. Topol. **14** (2014) 2299-2377 &lbrack;[arXiv:1110.3533](https://arxiv.org/abs/1110.3533), [doi:10.2140/agt.2014.14.2299](https://doi.org/10.2140/agt.2014.14.2299)&rbrack;
+
+and the generalization to an arbitrary symplectic manifold is discussed in 
+
+* Ryan E. Grady, Qin Li, [[Si Li]], _Batalin-Vilkovisky quantization and the algebraic index_, Adv. Math. **317** (2017) 575-639 &lbrack;[arXiv:1507.01812](https://arxiv.org/abs/1507.01812), [doi:10.1016/j.aim.2017.07.007](https://doi.org/10.1016/j.aim.2017.07.007)&rbrack;
+
 
 [[!redirects D=1 Chern-Simons theories]]
 [[!redirects 1d Chern-Simons theory]]
