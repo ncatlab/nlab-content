@@ -99,7 +99,7 @@ The 2nd edition was published in 1997 with two additional chapters:
 
 * **XII. Structures in categories**
 
-  on [[internal categories]], [[simplicial nerves]], [[2-categories]]/[[bicategories]], [[crossed modules]] and [[2-groups]]
+  on [[internal categories]], [[simplicial nerves]], [[2-categories]]/[[bicategories]], the 2-[[category of categories]], [[crossed modules]] and [[2-groups]]
 
 
 category: reference
