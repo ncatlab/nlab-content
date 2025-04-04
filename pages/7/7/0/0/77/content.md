@@ -272,7 +272,7 @@ Monographs:
 * [[Alexandre Kirillov]]: *An Introduction to Lie Groups and Lie Algebras*, Cambridge University Press (2008) \[<a href="https://doi.org/10.1017/CBO9780511755156">doi:10.1017/CBO9780511755156</a>\]
 
 
-* [[Eckhard Meinrenken]], _Lie groups and Lie algebas_, Lecture notes (2010) &lbrack;[pdf](http://www.math.toronto.edu/mein/teaching/lie.pdf)&rbrack;
+* [[Eckhard Meinrenken]], _Lie groups and Lie algebas_, Lecture notes (2010) &lbrack;[pdf](https://www.math.toronto.edu/mein/teaching/MAT1120_LieGroups/l1.pdf)&rbrack;
 
 * {#Hall15} [[Brian C. Hall]], *Lie Groups, Lie Algebras, and Representations*, Springer 2015 ([doi:10.1007/978-3-319-13467-3](https://doi.org/10.1007/978-3-319-13467-3))
 
@@ -286,7 +286,7 @@ Discussion with a view towards [[Chern-Weil theory]]:
 
 Discussion in [[synthetic differential geometry]] is in 
 
-* {#Kock09} [[Anders Kock]], section 6 of _Synthetic Geometry of Manifolds_, 2009 ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+* {#Kock09} [[Anders Kock]], section 6 of _Synthetic Geometry of Manifolds_, 2009 ([pdf](https://tildeweb.au.dk/au76680/SGM-final.pdf))
 
 
 [[!redirects Lie algebras]]
