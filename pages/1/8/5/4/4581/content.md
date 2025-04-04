@@ -719,11 +719,11 @@ which is the right hand side of the equivalence to be proven.
 
 The variational bicomplex was introduced independently in
 
-* [[Alexandre Vinogradov]], _A spectral sequence associated with a non-linear differential equation, and the algebro-geometric foundations of Lagrangian field theory with constraints_ , Sov. Math. Dokl. 19 (1978) 144&#8211;148.
+* [[Alexandre Vinogradov]], _A spectral sequence associated with a non-linear differential equation, and the algebro-geometric foundations of Lagrangian field theory with constraints_, Soviet Mathematics Doklady 19:1 (1978) 144–148.  [DjVu](https://diffiety.mccme.ru/djvu/constraints.djvu).  Russian original: А. М. Виноградов, _Одна спектральная последовательность, связанная с нелинейным дифференциальным уравнением и алгебро-геометрические основания лагранжевой теории поля со связями_, Доклады АН СССР, 238:5 (1978), 1028–1031.  [PDF](https://www.mathnet.ru/rus/dan/v238/i5/p1028).
 
-* W. M. Tulczyjew, _The Euler-Lagrange resolution_ , in Lecture Notes in Mathematics 836 22&#8211;48 (Springer-Verlag, New York 1980).
+* W. M. Tulczyjew, _The Euler-Lagrange resolution_, Lecture Notes in Mathematics 836 (1980), 22–48.  [DOI](https://doi.org/10.1007/bfb0089725).
 
-* T. Tsujishita, _On variation bicomplexes associated to differential equations_, Osaka J. Math. 19 (1982), 311&#8211;363.
+* Toru Tsujishita, _On variation bicomplexes associated to differential equations_, Osaka J. Math. 19:2 (1982), 311–363.  [Project Euclid](http://projecteuclid.org/euclid.ojm/1200775039).
 
 
 See also
@@ -734,7 +734,7 @@ See also
 
 An introduction is in 
 
-* [[Ian Anderson]], _Introduction to the variational bicomplex_, in _Mathematical aspects of classical field theory_, Contemp. Math. 132 (1992) 51&#8211;73, [gBooks](http://books.google.com/books?id=NuiJ0c72_gQC&lpg=PA51&ots=-zAVQLViUn&dq=Zuckerman%20variational%20problems)
+* [[Ian Anderson]], _Introduction to the variational bicomplex_, in _Mathematical aspects of classical field theory_, Contemp. Math. 132 (1992) 51–73, [PDF](https://digitalcommons.usu.edu/mathsci_facpub/32/).
 
 A careful discussion that compares the two versions (one over smooth functions globally of finite jet order, one over smooth functions locally of finite jet order) is in
 
