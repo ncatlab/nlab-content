@@ -1,6 +1,8 @@
 
 * [personal page](http://www.sns.ias.edu/~juven/)
 
+* [institute page](https://www.sns.ias.edu/~juven/)
+
 * [GoogleScholar page](https://scholar.google.ca/citations?user=eVd7eJsAAAAJ&hl=en)
 
 * [InSpire page](https://inspirehep.net/authors/1268730)
@@ -11,6 +13,10 @@
 On [[symmetry protected topological phases]]:
 
 * [[Juven Wang]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], _Field theory representation of gauge-gravity symmetry-protected topological invariants, group cohomology and beyond_, Phys. Rev. Lett. **114** (2015) 031601 &lbrack;[arxiv:1405.7689](https://arxiv.org/abs/1405.7689), [doi:10.1103/PhysRevLett.114.031601](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.114.031601)&rbrack;
+
+On ground state degeneracy ([[topological order]]) of [[topological phases of matter]] on [[surfaces]] with ("gapped") [[boundary of a manifold|boundaries]] via [[effective field theory|effective]] [[abelian Chern-Simons theory]]:
+
+* [[Juven C. Wang]], [[Xiao-Gang Wen]]: *Boundary Degeneracy of Topological Order*, Phys. Rev. B **91** (2015) 125124 &lbrack;[doi:10.1103/PhysRevB.91.125124](https://doi.org/10.1103/PhysRevB.91.125124), [arXiv:1212.4863](https://arxiv.org/abs/1212.4863)&rbrack;
 
 
 On [[CPT symmetry]]:
@@ -37,4 +43,7 @@ On [[generalized global symmetries]] hypothesized to play a role in the [[standa
 * {#PutrovWang23} [[Pavel Putrov]], [[Juven Wang]], *Categorical Symmetry of the Standard Model from Gravitational Anomaly* &lbrack;[arXiv:2302.14862](https://arxiv.org/abs/2302.14862)&rbrack;
 
 category: people
+
+[[!redirects Juven C. Wang]]
+
 
