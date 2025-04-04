@@ -76,13 +76,16 @@ Illustrated on the right is the element $b_2 b_1 \in Br_3(S^2)$ (where $b_i$ den
 
 \begin{proposition}\label{AsQuotientOfPlainBraidGroup}
 The spherical braid group is the [[quotient group]] of the ordinary [[braid group]] by one further relation:
-$$
+\[
+  \label{ArtinPresentation}
   Br_n(S^2) 
   \;\simeq\;
   Br_n/
-  \big( (b_1 b_2 \cdots b_{n-1})(b_{n-1} \cdots b_2 b_1)
+  \big( 
+    (b_1 b_2 \cdots b_{n-1})(b_{n-1} \cdots b_2 b_1)
+  \big)
   \,,
-$$
+\]
 where the $b_i$ denote the [Artin braid generators](braid+group#ArtinPresentation). 
 
 Moreover, the canonical map from the plain braid group to the [[symmetric group]] $Sym_n$ factors through the corresponding quotient [[coprojection]]:
@@ -106,6 +109,41 @@ Moreover, the canonical map from the plain braid group to the [[symmetric group]
 
 \end{proposition}
 ([Fadell & Van Buskirk 1961 p 245, 255](#FadellVanBuskirk61), cf. [Tan 2024 §3.1](#Tan24))
+
+\begin{proposition}\label{GroupOrder}
+  The [[order of a group|order]] $\vert Br_n(S^2) \vert$ of the spherical braid group is:
+
+1. $2$ for $n = 2$ (cf. Ex. \ref{SphericalBraidsOnTwoStrands}),
+
+1. $12$ for $n =3$,
+
+1. $\infty$ for $n \geq 4$.
+
+\end{proposition}
+([Fadell & VanBuskirk 1961 p 255](#FadellVanBuskirk61))
+
+## Examples
+
+\begin{example}\label{SphericalBraidsOnTwoStrands}
+  For $n = 2$ strands the ordinary [[braid group]] is [[free group|free]] on the single Artin generator $b_1$, 
+$$
+  Br_2 \;\simeq\; \langle b_1 \rangle \,\simeq\, \mathbb{Z}
+  \,,
+$$  
+but the spherical braid group on $n = 2$ strands is [[cyclic group of order two|cyclic of order 2]], due to the relation (eq:ArtinPresentation):
+$$
+  Br_2(S^2) 
+    \;\simeq\; 
+  \langle b_1\rangle/\big(b_1^2\big) \,\simeq\, 
+  \mathbb{Z}/2 \,\eqqcolon\, C_2
+  \,.
+$$
+
+Geometrically, the element $n \in \mathbb{Z}$ of the ordinary braid group $Br_2$ is the braid on two strands which makes $n$ *half* rotations in itself. But on the sphere, one full rotation (two half rotations) of one point around another may be contracted to a loop constant on the [[antipode|antipodal point]].
+\end{example}
+(cf. [Fadell & VanBuskirk 1961 p 254](#FadellVanBuskirk61) and Prop. \ref{GroupOrder})
+
+
 
 
 ## References
