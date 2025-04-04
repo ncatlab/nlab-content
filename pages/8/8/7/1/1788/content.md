@@ -7,6 +7,79 @@
 
 ***
 
+$$
+  B_1 \, A_1 \, B_1^{-1}
+    \;=\;
+  \widehat{\zeta}^{-2}
+  \,
+  A_1^{-1} 
+$$
+
+$$
+  B_1 \, \widehat{\zeta}\, A_1 \, B_1^{-1}
+    \;=\;
+  \widehat{\zeta}^{-1}
+  \,
+  A_1^{-1} 
+$$
+
+$$
+  B_1 \, \widehat{\zeta}^{-1}\, A_1^{-1} \, B_1^{-1}
+    \;=\;
+  \widehat{\zeta}^{+1}
+  \,
+  A_1^{+1} 
+$$
+
+$$
+  B_1 \, 
+  \big(
+    \widehat{\zeta}^{-1}\, A_1^{-1} 
+    +
+    \widehat{\zeta}^{+1}\, A_1^{+1} 
+  \big)
+    \;=\;
+  \big(
+    \widehat{\zeta}^{-1}\, A_1^{-1} 
+    +
+    \widehat{\zeta}^{+1}\, A_1^{+1} 
+  \big)
+  B_1
+$$
+
+$$
+  B_1 \, 
+  \big(
+    \widehat{\zeta}^{-1}\, A_1^{-1} 
+    -
+    \widehat{\zeta}^{+1}\, A_1^{+1} 
+  \big)
+    \;=\;
+  -
+  \big(
+    \widehat{\zeta}^{-1}\, A_1^{-1} 
+    -
+    \widehat{\zeta}^{+1}\, A_1^{+1} 
+  \big)
+  B_1
+$$
+
+$$
+  B_1^2 = \mathrm{id}
+$$
+
+$$
+  B_1 B_2 B_1
+  \;=\;
+  B_2 B_1 B_2
+$$
+
+$$
+  B_2 B_1 B_1 B_2 = \mathrm{id}
+$$
+
+
+
 
 The subgroup of boundary Dehn twists is central &lbrack;[Farb & Margalit 2012 p 77](mapping+class+group#FarbMargalit12)&rbrack;
 
