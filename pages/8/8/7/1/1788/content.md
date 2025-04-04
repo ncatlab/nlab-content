@@ -14,6 +14,7 @@ The subgroup of boundary Dehn twists is central &lbrack;[Farb & Margalit 2012 p 
 
 * [[Juven C. Wang]], [[Xiao-Gang Wen]]: *Boundary Degeneracy of Topological Order*, Phys. Rev. B **91** (2015) 125124 &lbrack;[doi:10.1103/PhysRevB.91.125124](https://doi.org/10.1103/PhysRevB.91.125124), [arXiv:1212.4863](https://arxiv.org/abs/1212.4863)&rbrack;
 
+* *Symmetry breaking vs topological order: weak symmetry breaking* &lbrack;[pdf](https://mcgreevy.physics.ucsd.edu/s14/final-papers/2014S-239a-Kuczala-Alexander.pdf)&rbrack;
 
 
 
