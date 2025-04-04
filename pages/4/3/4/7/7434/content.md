@@ -33,7 +33,7 @@ $$\int^{a \in Atom(C)} C(i a, c) \cdot i a.$$
 A category is [[equivalence of categories|equivalent]] to a [[category of presheaves]], hence of the form $[C^{op}, Set]$, if and only if it is [[cocomplete category|cocomplete]] and atomic. 
 \end{theorem}
 
-See [Centazzo, Rosický & Vitale 2004](#Centazzo-Rosický-Vitale04) for a proof.  
+Indeed, it suffices that the atomic objects form a [[strong generator]], rather than a dense one. See [Centazzo, Rosický & Vitale 2004](#Centazzo-Rosický-Vitale04) for a proof.  
 
 
 ## Related concepts
