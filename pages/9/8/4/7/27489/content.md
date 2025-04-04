@@ -152,6 +152,11 @@ Geometrically, the element $n \in \mathbb{Z}$ of the ordinary braid group $Br_2$
 
 * {#Tan24} Cindy Tan: *Smallest nonabelian quotients of surface braid groups*, Algebr. Geom. Topol. **24** (2024) 3997-4006 &lbrack;[arXiv:2301.01872](https://arxiv.org/abs/2301.01872), [doi:10.2140/agt.2024.24.3997](https://doi.org/10.2140/agt.2024.24.3997)&rbrack;
 
+On the [[representation theory]] of the spherical braid group:
+
+* V. G. Bardakov: *Linear Representations of the Braid Groups of Some Manifolds*, Acta Appl Math **85** (2005) 41–48 &lbrack;[doi:10.1007/s10440-004-5584-6](https://doi.org/10.1007/s10440-004-5584-6)&rbrack;
+
+
 [[!redirects spherical braid groups]]
 
 [[!redirects sphere braid group]]
