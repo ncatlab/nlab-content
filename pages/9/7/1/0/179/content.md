@@ -1322,7 +1322,7 @@ The dual monoidal Dold-Kan correspondence is discussed in
 
 The smooth spaces of infinitesimal simplices $\tilde D(k,n)$ are considered in section 1.2 of
 
-* [[Anders Kock]],  _Synthetic differential geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+* [[Anders Kock]],  _Synthetic differential geometry of manifolds_ ([pdf](https://tildeweb.au.dk/au76680/SGM-final.pdf))
 {#Kock}
 
 
