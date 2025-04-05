@@ -432,7 +432,7 @@ $$
     (y(c_1) \otimes_{Day} y(c_2))(c)
     &
     \simeq
-    \underset{d_1, d_2}{\int} 
+    \int^{d_1,d_2} 
       \mathcal{C}( c ,d_1 \otimes_{\mathcal{C}} d_2)
     \otimes_V
       \mathcal{C}(d_1,c_1)
@@ -536,6 +536,7 @@ For $(\mathcal{C},\otimes, I)$ a [[small category|small]] [[monoidal category|mo
 $$
   R Free_{\mathcal{C}}Mod \hookrightarrow R Mod
 $$
+
 
 for the [[full subcategory]] of the [[category of modules]] over $R$ on those that are [[free modules]] and moreover free on objects in $\mathcal{C}$ (under the [[Yoneda embedding]]). Hence the [[objects]] of $R Free_{\mathcal{C}}Mod$ are those of $\mathcal{C}$ and the [[hom-objects]] are
 
