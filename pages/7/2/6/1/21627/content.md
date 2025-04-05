@@ -15,6 +15,10 @@ Review and exposition:
 * [[Saul Ramos-Sanchez]], [[Michael Ratz]], *Heterotic Orbifold Models*, in *[[Handbook of Quantum Gravity]]*, Springer (2024) \[<a href="https://doi.org/10.1007/978-981-19-3079-9">doi:10.1007/978-981-19-3079-9</a>, 
 [arXiv:2401.03125](https://arxiv.org/abs/2401.03125)\]
 
+Database of heterotic [[perturbative string theory vacuum|string vacua]] via [[stable vector bundles]] on [[supersymmetry and Calabi-Yau manifolds|Calabi-Yau 3-folds]]:
+
+* [[Maxime Gabella]], [[Yang-Hui He]], [[Andre Lukas]]: *An Abundance of Heterotic Vacua*, Journal of High Energy Physics, **2008** JHEP12 (2008) \[<a href="https://doi.org/10.1088/1126-6708/2008/12/027">doi:10.1088/1126-6708/2008/12/027</a>, [arXiv:0808.2142](https://arxiv.org/abs/0808.2142)\]
+
 
 #### The $E_8 \times E_8$-heterotic string 
  {#HeteroticStringPhenomenologyReferencesForE8}
