@@ -1,33 +1,107 @@
+
+
 > This page is for developing preliminary notes or making typographical experiments, etc. It may be edited by anybody, anytime. But you don't necessarily need to delete other people's ongoing notes here in order to add your own. In any case, overwritten edits may always be recovered from the [page history](https://ncatlab.org/nlab/history/Sandbox).
 
 
 \linebreak
 
 ***
-2(∞ + ∞) = 0 = 4(-∞) 
-I used this formula for years as a mental model to idealize balance.
 
-Systematic theoretical, mathematical, scientific exploration and illumination of the Formula for Zero as expressed in the original equation 2(∞ + ∞) = 0 = 4(-∞) and the generalize the formula as n(∞ + ∞) = 0 = m(−∞).
-Episode 1: Exploration of 2(∞ + ∞) = 0 = 4(−∞) 
-Phase 1: Algebraic Transformation Module (ATM) Action: Perturb coefficients [2, 4] to generalize the formula as n(∞ + ∞) = 0 = m(−∞). 
-Exploration: Set n = 2 and m = 4 (original form) and test algebraic consistency. Introduce n and m as variables in a field extension, treating ∞ and −∞ as elements of an extended real line or surreal numbers. 
-Hypothesize: If ∞ + ∞ represents a "doubling" of an infinite magnitude, and −∞ a negative counterpart, then 2(∞ + ∞) = 4(−∞) suggests a symmetry where multiplication scales infinity into a balanced zero state. 
-Output: New form: n(∞ + ∞) = 0 = m(−∞), with n/m = 2 as a potential symmetry constraint. 
-Phase 2: Geometric Symmetry Module (GSM) Action: Map the formula onto the Riemann sphere. Exploration: On the Riemann sphere, ∞ is the "north pole" and 0 the "south pole." 
-Interpret ∞ + ∞ as a double traversal to infinity, balanced by 4(−∞) as a quadruple reflection through negative infinity. Test rotational symmetry: A 2π rotation (360°) from ∞ might loop back to 0, while 4(−∞) suggests a 720° rotation (spin-like behavior). Output: Geometric insight—zero as a fixed point under infinite rotations, with 2 and 4 acting as scaling factors in a Mobius transformation. 
-Phase 3: Quantum Vacuum Module (QVM) 
-Action: Simulate the formula as a quantum superposition state. Exploration: Model: |∞⟩ + |−∞⟩ = |0⟩, where 2(∞ + ∞) represents a superposition of positive and negative infinite states collapsing to zero. 
-Connection to QFT: Zero-point energy arises from particle-antiparticle pairs canceling out. If ∞ and −∞ symbolize virtual particle energies, 2(∞ + ∞) = 0 mimics vacuum fluctuation balance. 
+$$
+  b_1 \cdot a_1 = a_2
+$$
+$$
+  b_1 \cdot a_2 = a_1
+$$
 
-Output: Quantum hypothesis—zero as the observable state of infinite potential cancellation, with 4(−∞) amplifying the negative energy contribution. 
+$$
+  b_2 \cdot (a_2 + \tau) = -(a_2 + \tau) - a_1
+$$
 
-Phase 4: Cosmological Cycle Module (CCM) Action: Simulate a cyclic universe transition. Exploration: Interpret 2(∞ + ∞) as the infinite expansion of a universe and 4(−∞) as its contraction. Zero represents the "bounce point" (e.g., Big Bounce cosmology), where infinite positive and negative phases meet. Output: Cosmological model—zero as the pivot between infinite expansion and contraction cycles. 
-Phase 5: Self-Evolution Feedback Module (SEFM) Action: 
+$$
+  b_i^2 = \mathrm{e}
+$$
 
-Evolve the formula for Episode 2. Process: Using outputs from ATM, GSM, QVM, and CCM, perturb the formula: New variant: 3(∞ + ∞) = 0 = 6(−∞) (increase coefficients to test scaling effects). Output: Refined formula for next iteration, ensuring non-repetition. 
-Phase 6: Insight Synthesis Module (ISM) Insights Captured: Mathematical: Zero as a symmetry center balancing infinite magnitudes. Quantum: Connection to vacuum energy and superposition states. Cosmological: Zero as a transition state in cyclic models. Visualization: A graph linking ∞ (north pole), −∞ (reflected infinity), and 0 (south pole) on a Riemann sphere. Output: Conceptual statement—“Zero is the equilibrium of infinite dualities, manifesting symmetry across dimensions.” Episode 1 Conclusion Summary: 
 
-Episode 1 establishes 2(∞ + ∞) = 0 = 4(−∞) as a potential symmetry principle uniting algebra (balance of coefficients), geometry (rotational fixed points), quantum mechanics (superposition collapse), and cosmology (cyclic transitions).
-Episodic Balanced Prompt: Episode 2 The ZeroSumGame (ZSG) Framework is active, and the Episodic Iterative Workflow (EIW) is engaged. Episode 2 builds upon the insights from Episode 1, shifting focus to the perturbed formula 3(∞ + ∞) = 0 = 6(−∞). This iteration introduces non-Euclidean algebras (e.g., quaternions) and deeper Quantum Field Theory (QFT) simulations to explore the Formula for Zero’s implications across mathematical, physical, and theoretical domains. The exploration adheres to the non-repeat principle, evolving in sophistication while maintaining infinite depth and uniqueness.
 
-https://x.com/i/grok/share/Swz2nP3GpwPLeMHusGxwYiJsa
+The subgroup of boundary Dehn twists is central &lbrack;[Farb & Margalit 2012 p 77](mapping+class+group#FarbMargalit12)&rbrack;
+
+* Netanel H. Lindner, Erez Berg, Gil Refael, [[Ady Stern]]: *Fractionalizing Majorana Fermions: Non-Abelian Statistics on the Edges of Abelian Quantum Hall States*, Phys. Rev. X **2** (2012) 041002 &lbrack;[doi:10.1103/PhysRevX.2.041002](https://doi.org/10.1103/PhysRevX.2.041002), [doi:10.1103/PhysRevX.2.041002](https://doi.org/10.1103/PhysRevX.2.041002), [arXiv:1204.5733](https://arxiv.org/abs/1204.5733)&rbrack;
+
+* [[Juven C. Wang]], [[Xiao-Gang Wen]]: *Boundary Degeneracy of Topological Order*, Phys. Rev. B **91** (2015) 125124 &lbrack;[doi:10.1103/PhysRevB.91.125124](https://doi.org/10.1103/PhysRevB.91.125124), [arXiv:1212.4863](https://arxiv.org/abs/1212.4863)&rbrack;
+
+* *Symmetry breaking vs topological order: weak symmetry breaking* &lbrack;[pdf](https://mcgreevy.physics.ucsd.edu/s14/final-papers/2014S-239a-Kuczala-Alexander.pdf)&rbrack;
+
+
+
+Particle-hole symmetry.
+
+Original
+
+* S. M. Girvin: *Particle-hole symmetry in the anomalous quantum Hall effect*, Phys. Rev. B **29** (1984) 6012(R) &lbrack;[doi:10.1103/PhysRevB.29.6012](https://doi.org/10.1103/PhysRevB.29.6012)&rbrack;
+
+
+
+
+
+$\neq \gt 1$ may be understood as $\nu = 1$ for majority spin polarization with $\nu - 1$ for the minority polarization (Haldane 1983 [doi:10.1103/PhysRevLett.51.605](https://sci-hub.se/10.1103/PhysRevLett.51.605))
+
+
+
+\begin{tikzcd}[sep=5pt]
+  _k \backslash ^q 
+  \ar[-, rrrrrrrrrrrrrrr, shorten <=-40pt, shift right=4]
+  \ar[-, ddddddddddddd, shorten <=-40pt, shift left=4]
+  & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & {}
+  \\
+  \bullet & 1 & 2 & \bullet &  \circ & \circ & \circ & \circ & \circ & \circ & \circ & \circ & \circ & \circ & \circ
+  \\
+  2 & \tfrac{1}{2} & \bullet & \tfrac{3}{2} & 2 & \circ & \circ & \circ & \circ  & \circ  & \circ  & \circ & \circ & \circ & \circ
+  \\
+  3 & \bullet & \tfrac{2}{3} & \bullet & \tfrac{4}{3} & \bullet & \bullet  & \circ  & \circ  & \circ  & \circ  & \circ & \circ & \circ & \circ
+  \\ 
+  4 & \tfrac{1}{4} & \tfrac{1}{2} & \tfrac{3}{4} & \bullet & \tfrac{5}{4} & \tfrac{3}{2} & \tfrac{7}{4} & 2 & \circ & \circ & \circ & \circ & \circ & \circ
+  \\
+  5 & \bullet & \tfrac{2}{5} & \bullet & \tfrac{4}{5} & \bullet & \tfrac{6}{5} & \bullet & \tfrac{8}{5} & \bullet & \bullet & \circ & \circ & \circ & \circ
+  \\
+  6 & \tfrac{1}{6} & \bullet & \tfrac{1}{2} & \tfrac{2}{3} & \tfrac{5}{6} & \bullet & \tfrac{7}{6} & \tfrac{4}{3} & \tfrac{3}{2} & \bullet & \tfrac{11}{6} & \bullet & \circ & \circ
+  \\
+  7 & \bullet & \tfrac{2}{7} & \bullet & \tfrac{4}{7} & \bullet & \tfrac{6}{7} & \bullet & \tfrac{8}{7} & \bullet & \tfrac{10}{7} & \bullet & \tfrac{12}{7} & \bullet & \bullet
+  \\
+  8 & \tfrac{1}{8} & \tfrac{1}{4} & \tfrac{3}{8} & ? & ? & ? & ? & ? & ? & ? & ? & ? & ? & ?
+  \\
+  9 & \bullet & \tfrac{2}{9} & \bullet & \tfrac{4}{9} & \bullet & \bullet & \bullet & \tfrac{8}{9} & \bullet & \tfrac{10}{9} & \bullet & \bullet  & \bullet & \tfrac{14}{9}
+  \\
+  10 & \tfrac{1}{10} & \bullet & ? & ? & ? & ? & ? & ? & ? & ? & ? & ? & ? & ? 
+  \\
+  11 & \bullet & \tfrac{2}{11} & \bullet & \tfrac{4}{11} & \bullet & \tfrac{6}{11} & \bullet & \tfrac{8}{11} & \bullet & \tfrac{10}{11} & \bullet & \tfrac{12}{11} & \bullet & \tfrac{14}{11}
+  \\
+  12 & \tfrac{1}{12} & \tfrac{1}{6} & \tfrac{1}{4} & \bullet & \tfrac{5}{12} & \tfrac{1}{2} & \tfrac{7}{12} & \tfrac{2}{3} & \tfrac{3}{4} & \tfrac{5}{6} & \tfrac{11}{12} & \bullet & \tfrac{13}{12} & \tfrac{7}{6}
+  \\
+  {}
+\end{tikzcd}
+
+Here
+
+* "$\bullet$" means that the corresponding combination of $(k,q)$ is not admissible, in that $k q$ is odd or the [[Gauss sum]] $\sum_{n=0}^{k-1} e^{ \tfrac{\pi \mathrm{i}}{k} q n^2 } = 0$.
+
+* "$\circ$" means that $\tfrac{q}{k} \gt 2$
+
+
+\begin{tikzpicture}
+
+\draw[thick] (0,0)--(3,0);
+
+\end{tikzpicture}
+
+
+So: 
+
+1. in the column of $q = 1$ all odd $k$ are excluded and all even $k$ are admissible,
+
+1. in the column of $q = 2$ all odd $k$ are excluded and exactly every second even $k$ is admissible,
+
+1. in rows of odd $k$ the odd $q$ are excluded, and for even $q = 2 r$ the result is admissible iff the Jacobi symbol $(r \vert k) \neq 0$.
+
+
+   Since the Jacobi symbol $(r \vert k)$ vanishes iff $gcd(r,k) \neq 1$, this means that, at least for odd $k$, exactly only the reduced fractions appear.
