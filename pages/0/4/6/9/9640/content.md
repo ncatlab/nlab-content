@@ -50,6 +50,11 @@ On [[topological quantum computation]] with [[anyons]] in [[topological supercon
 
 * [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]], _Majorana Zero Modes and Topological Quantum Computation_, npj Quantum Information 1, 15001 (2015) ([nature:npjqi20151](https://www.nature.com/articles/npjqi20151))
 
+On simulating [[modular transformations]] on planar [[solid state physics|materials]]:
+
+* [[Maissam Barkeshli]], [[Michael Freedman]]: *Modular transformations through sequences of topological charge projections*, Phys. Rev. B **94** (2016) 165108 \[<a href="https://doi.org/10.1103/PhysRevB.94.165108">doi:10.1103/PhysRevB.94.165108</a>, [arXiv:1602.01093](https://arxiv.org/abs/1602.01093)\]
+
+
 On [[holographic entanglement entropy]] via [[bit threads]]:
 
 * {#FreedmanHeadrick16} [[Michael Freedman]], [[Matthew Headrick]], *Bit threads and holographic entanglement*, Comm. Math. Phys. 352, 407 (2017) ([arXiv:1604.00354](https://arxiv.org/abs/1604.00354))
