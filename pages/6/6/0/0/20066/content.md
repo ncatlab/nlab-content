@@ -42,4 +42,4 @@ The analogue of the [[Strøm model structure]] but for [[chain complexes]] inste
 
 A textbook account is in chapter 18 of
 
-* [[Peter May]], [[Kate Ponto]]: [[More concise algebraic topology|More concise algebraic topology: Localization, Completion, and Model Categories]]. University of Chicago Press (2012) &lbrack;[isbn:9780226511788](https://worldcat.org/isbn/9780226511788), [Zbl:1249.55001](https://zbmath.org/1249.55001), [MR:2884233](http://www.ams.org/mathscinet-getitem?mr=2884233), [pdf](https://web.archive.org/web/20240412084400/https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf)&rbrack;
+* [[Peter May]], [[Kate Ponto]]: [[More concise algebraic topology|More concise algebraic topology: Localization, Completion, and Model Categories]]. University of Chicago Press (2012) &lbrack;[isbn:9780226511788](https://worldcat.org/isbn/9780226511788), [Zbl:1249.55001](https://zbmath.org/1249.55001), [MR:2884233](http://www.ams.org/mathscinet-getitem?mr=2884233), [PDF](https://www.math.uchicago.edu/~may/BOOKS/KateBookFinal.pdf), [Wayback Machine PDF](https://web.archive.org/web/20240412084400/https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf)&rbrack;
