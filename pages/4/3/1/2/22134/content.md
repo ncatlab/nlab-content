@@ -90,7 +90,7 @@ see also:
 
 * Menelaos Zikidis: *Abelian Anyons and Fractional Quantum Hall Effect*, Seminar notes (2017) \[<a href="https://www.mathi.uni-heidelberg.de/~walcher/teaching/sose17/atqft/writeups/Menelaos.pdf">pdf</a>, [[Zikidis-AbelianAnyons.pdf:file]]\]
 
-* Wade Bloomquist, [[Zhenghan Wang]], *On Topological Quantum Computing With Mapping Class Group Representations*, J. Phys. A: Math. Theor. **52** (2019) 015301 \[<a href="https://iopscience.iop.org/article/10.1088/1751-8121/aaeea1">doi:10.1088/1751-8121/aaeea1</a>, [arXiv:1805.04622](https://arxiv.org/abs/1805.04622)\]
+* [[Wade Bloomquist]], [[Zhenghan Wang]]: *On Topological Quantum Computing With Mapping Class Group Representations*, J. Phys. A: Math. Theor. **52** (2019) 015301 \[<a href="https://iopscience.iop.org/article/10.1088/1751-8121/aaeea1">doi:10.1088/1751-8121/aaeea1</a>, [arXiv:1805.04622](https://arxiv.org/abs/1805.04622)\]
 
 * Yichen Hu, Biao Lian: *Chiral Sachdev-Ye model: Integrability and chaos of anyons in $1+1d$*, Phys. Rev. B **105** (2022) 125109 \[<a href="https://doi.org/10.1103/PhysRevB.105.125109">doi:10.1103/PhysRevB.105.125109</a>\]
 
