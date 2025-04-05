@@ -18,6 +18,7 @@
 =--
 
 
+
 \tableofcontents
 
 
@@ -48,9 +49,10 @@ $$
 
 is the [[fundamental group]] $\pi_1(-)$ of the [[configuration spaces of points|configuration space of $n$-points]], $Conf_n(-)$, on the [[2-sphere]].
 
-
 Illustrated on the right is the element $b_2 b_1 \in Br_3(S^2)$ (where $b_i$ denote the [Artin braid generators](braid+group#ArtinPresentation), cf. Prop. \ref{AsQuotientOfPlainBraidGroup}.)
 
+
+{#NotAnMCG} **Beware** that the spherical $n$-braid groups for $n \geq 3$ are *not* [[isomorphic|isomorphic]] to the [[mapping class groups]] of the $n$-[[punctured]] [[2-sphere]], see the examples [there](mapping+class+group#MappingClassGroupsOfNPuncturedSpheres). The generalized Birman sequence ([here](braid+group#GenBirmanSequenceForTrivialPi)), which would superficially imply such isomorphism, does not apply to punctured spheres, since the assumption that $\pi_1 Diff^{+}(S^2)$ be trivial is violated.
 
 
 
