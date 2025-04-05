@@ -52,7 +52,27 @@ is the [[fundamental group]] $\pi_1(-)$ of the [[configuration spaces of points|
 Illustrated on the right is the element $b_2 b_1 \in Br_3(S^2)$ (where $b_i$ denote the [Artin braid generators](braid+group#ArtinPresentation), cf. Prop. \ref{AsQuotientOfPlainBraidGroup}.)
 
 
-{#NotAnMCG} **Beware** that the spherical $n$-braid groups for $n \geq 3$ are *not* [[isomorphic|isomorphic]] to the [[mapping class groups]] of the $n$-[[punctured]] [[2-sphere]], see the examples [there](mapping+class+group#MappingClassGroupsOfNPuncturedSpheres). The generalized Birman sequence ([here](braid+group#GenBirmanSequenceForTrivialPi)), which would superficially imply such isomorphism, does not apply to punctured spheres, since the assumption that $\pi_1 Diff^{+}(S^2)$ be trivial is violated.
+\linebreak
+
+{#NotAnMCG} **Beware** that the spherical $n$-braid groups for $n \geq 3$ are *not* [[isomorphic|isomorphic]] to the [[mapping class groups]] of the $n$-[[punctured]] [[2-sphere]], see the examples [there](mapping+class+group#MappingClassGroupsOfNPuncturedSpheres). 
+
+\begin{imagefromfile}
+    "file_name": "KernelofSphericalBraidGroupToMCG.jpg",
+    "float": "right",
+    "width": 150,
+    "unit": "px",
+    "margin": {
+        "top": -55,
+        "bottom": 20,
+        "right": 0, 
+        "left": 25
+    },
+    "caption": "([Farb-Margalit '12 Fig. 9.6](#FarbMargalit12))"
+\end{imagefromfile}
+
+The generalized Birman sequence ([here](braid+group#GenBirmanSequenceForTrivialPi)), which would superficially imply such isomorphism, does not apply to punctured spheres, since its assumption is violated:
+The map $C_2 \simeq \pi_1 Diff^{+}(S^2) \longrightarrow Br_n(S^2)$ is not trivial, whence the actual mapping class group is the [[quotient group]] of this [[normal subgroup]]-inclusion (cf. [Farb & Margalit 2012 (9.1)](#FarbMargalit12)), whose generator is the cyclic braid illustrated on the right.
+
 
 
 
@@ -152,7 +172,11 @@ Geometrically, the element $n \in \mathbb{Z}$ of the ordinary braid group $Br_2$
 
 * {#FadellVanBuskirk61} [[Edward Fadell]], James Van Buskirk: *On the braid groups of $E^2$ and $S^2$*,  Bull. Amer. Math. Soc. **67** 2 (1961) 211-213 &lbrack;[euclid:bams/1183524083](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-67/issue-2/On-the-braid-groups-of-E2-and-S2/bams/1183524083.full)&rbrack;
 
+* {#FarbMargalit12} [[Benson Farb]], [[Dan Margalit]], around (9.1 in): *A primer on mapping class groups*, Princeton Mathematical Series, Princeton University Press (2012) &lbrack;[ISBN:9780691147949](https://press.princeton.edu/books/hardcover/9780691147949/a-primer-on-mapping-class-groups), [jstor:j.ctt7rkjw](https://www.jstor.org/stable/j.ctt7rkjw), [pdf](http://euclid.nmu.edu/~joshthom/Teaching/MA589/farbmarg.pdf)&rbrack;
+
+
 * {#Tan24} Cindy Tan: *Smallest nonabelian quotients of surface braid groups*, Algebr. Geom. Topol. **24** (2024) 3997-4006 &lbrack;[arXiv:2301.01872](https://arxiv.org/abs/2301.01872), [doi:10.2140/agt.2024.24.3997](https://doi.org/10.2140/agt.2024.24.3997)&rbrack;
+
 
 On the [[representation theory]] of the spherical braid group:
 
