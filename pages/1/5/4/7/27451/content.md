@@ -54,3 +54,5 @@ and [[looping and delooping|regarded]] as a [[classifying space]], $\Omega S^2 \
 * [[Jack Morava]]: *A homotopy-theoretic context for CKM/Birkhoff renormalization* &lbrack;[arXiv:2307.10148](https://arxiv.org/abs/2307.10148), [spire:2678618](https://inspirehep.net/literature/2678618)&rbrack;
 
 * [[Jack Morava]]: *Some very low-dimensional algebraic topology* &lbrack;[arXiv:2411.15885](https://arxiv.org/abs/2411.15885)&rbrack;
+
+[[!redirects 2-spheres]]
