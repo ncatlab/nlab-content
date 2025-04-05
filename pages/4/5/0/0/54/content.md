@@ -29,6 +29,10 @@ in the group of Prof. [[Hisham Sati]] leading the <br/>
 
 * [page at NYU AD](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/urs-schreiber.html)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=261285)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Urs_Schreiber)
+
 
 ## contact
 
