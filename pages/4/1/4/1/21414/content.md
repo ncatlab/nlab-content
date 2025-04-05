@@ -51,11 +51,10 @@ A __weak Quillen cylinder__ on a [[premodel category]] $C$
 is a pair of [[left adjoint functors]] $I,D\colon C\to C$
 together with the following commutative square of
 [[natural transformations]] of [[functors]] $C\to C$:
-$$\begin{matrix}
-id_C\sqcup \id_C&\mathop{\longrightarrow}\limits^i&I\cr
-\downarrow\nabla&&\downarrow e\cr
-id_C&\mathop{\longrightarrow}\limits_j&D,\cr
-\end{matrix}$$
+\begin{xymatrix}
+id_C\sqcup id_C \ar[r]^i \ar[d]_\nabla &I \ar[d]_e\cr
+id_C \ar[r]_j&D,\cr
+\end{xymatrix}
 where $\nabla$ is the [[codiagonal]],
 $i$ is a [[cofibration]],
 $j$ is a [[trivial cofibration]],
@@ -71,7 +70,7 @@ if for any cofibration $X\to Y$ the above map is a trivial cofibration.
 
 Reference: [Henry 20, Section 6](#Henry20).
 
-This is essentially a reformulation of [[Cisinski-Olschok theory]].
+This is essentially a reformulation of [[Cisinski model structure|Cisinski–Olschok theory]].
 
 
 
@@ -122,8 +121,7 @@ There is a weak model structure on [[semi-simplicial sets]] which is [[Quillen e
 
 Basic properties of underlying [[(infinity,1)-categories|$(\infty,1)$-categories]] discussed in:
 
-* Appendix A of :{#LoMonaco21} [[Giulio Lo Monaco
-]], _Vopěnka's principle in 
+* Appendix A of :{#LoMonaco21} Giulio Lo Monaco, _Vopěnka's principle in 
 $\infty$
 -categories_ ([arxiv:2105.04251](https://arxiv.org/abs/2105.04251))
 
