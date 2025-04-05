@@ -3516,7 +3516,7 @@ by forming the following [[commuting diagram]] of [[group homomorphisms]] where 
 (Going back to [Birman 1969](#Birman69), cf. [Massuyeau 2021 Thm. 3.13](#Massuyeau21)).
 
 
-\begin{corollary}
+\begin{corollary}\label{GenBirmanSequenceForTrivialPi}
  When $\pi_1 \mathrm{Homeo}^{+,\partial}(\Sigma) = 1$,
  then the [[long exact sequences]] of Prop. \ref{SurfaceBraidGroupsAsFibersOfForgettingPuncturesInMCG} become [[short exact sequences]]:
 
@@ -3578,6 +3578,12 @@ by forming the following [[commuting diagram]] of [[group homomorphisms]] where 
 In words: *The [[mapping class group]] of a [[punctured]] [[surface]] is a [[group extension]] of the [[mapping class group]] of the plain surface by the surface braid group on the set of punctures.*
 
 For conditions under which $Homeo^{+,\partial}_0(\Sigma) = 1$ see [here](diffeomorphism+group#HomotopyTypeForSurfaces) at *[[diffeomorphism group]]*.
+
+\begin{remark}\label{TrivialPi1NecessaryForGeneralizedBirman}
+  The assumption $\pi_1 \mathrm{Homeo}^{+,\partial}(\Sigma) = 1$ in Cor. \ref{GenBirmanSequenceForTrivialPi} is necessary:
+Notably the statement fails for all $n$-punctured spheres with $n \gt 2$ (where Cor. \ref{GenBirmanSequenceForTrivialPi} would predict their mapping class groups to be isomorphic to the [[spherical braid groups]] while they are not, see [there](mapping+class+group#MappingClassGroupsOfNPuncturedSpheres).
+\end{remark}
+
 
 
 ### As automorphisms of a free group
