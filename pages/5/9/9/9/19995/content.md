@@ -1,5 +1,11 @@
 
-* [webpage](https://www.city.ac.uk/people/academics/yang-hui-he)
+* [institute page](https://www.city.ac.uk/people/academics/yang-hui-he)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Yang-Hui_He)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=68908)
+
+* [GoogleScholar page](https://scholar.google.co.uk/citations?user=I5SWIuoAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -41,6 +47,10 @@ On [[exceptional structures]] ([[exceptional Lie algebras]] and [[sporadic finit
 On [[heterotic string theory]] [[string phenomenology]] and the [[landscape of string theory vacua]]:
 
 * [[Lara Anderson]], [[Yang-Hui He]], [[Andre Lukas]], _Heterotic Compactification, An Algorithmic Approach_, JHEP 0707:049, 2007 ([arXiv:hep-th/0702210](https://arxiv.org/abs/hep-th/0702210))
+
+* [[Maxime Gabella]], [[Yang-Hui He]], [[Andre Lukas]]: *An Abundance of Heterotic Vacua*, Journal of High Energy Physics, **2008** JHEP12 (2008) \[<a href="https://doi.org/10.1088/1126-6708/2008/12/027">doi:10.1088/1126-6708/2008/12/027</a>, [arXiv:0808.2142](https://arxiv.org/abs/0808.2142)\]
+  > (via [[stable vector bundles]] on [[supersymmetry and Calabi-Yau manifolds|Calabi-Yau 3-folds]])
+
 
 * {#CHE18} [[Andrei Constantin]], [[Yang-Hui He]], [[Andre Lukas]], _Counting String Theory Standard Models_, Physics Letters B Volume 792, 10 May 2019, Pages 258-262 ([arXiv:1810.00444](https://arxiv.org/abs/1810.00444))
 
