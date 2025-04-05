@@ -19,6 +19,10 @@ and specifically in [[quantum Hall systems]]:
 
 * [[Maissam Barkeshli]], [[Xiao-Liang Qi]]: *Synthetic Topological Qubits in Conventional Bilayer Quantum Hall Systems*, Phys. Rev. X **4** (2014) 041035 \[<a href="https://doi.org/10.1103/PhysRevX.4.041035">doi:10.1103/PhysRevX.4.041035</a>, [arXiv:1302.2673](https://arxiv.org/abs/1302.2673)\]
 
+and related to [[modular transformations]]:
+
+* [[Maissam Barkeshli]], [[Michael Freedman]]: *Modular transformations through sequences of topological charge projections*, Phys. Rev. B **94** (2016) 165108 \[<a href="https://doi.org/10.1103/PhysRevB.94.165108">doi:10.1103/PhysRevB.94.165108</a>, [arXiv:1602.01093](https://arxiv.org/abs/1602.01093)\]
+
 
 
 On [[symmetry protected topological phases]] and their [[topological orders]]:
