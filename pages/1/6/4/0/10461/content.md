@@ -33,9 +33,12 @@ On [[topological quantum computation]] with [[anyons]] in [[Chern-Simons theory]
 
 and with focus on [[abelian anyons]] in terms of [[modular tensor categories]]:
 
-* Wade Bloomquist, [[Zhenghan Wang]], *On Topological Quantum Computing With Mapping Class Group Representations*, J. Phys. A: Math. Theor. **52** (2019) 015301 ([arXiv:1805.04622](https://arxiv.org/abs/1805.04622), [doi:10.1088/1751-8121/aaeea1](https://iopscience.iop.org/article/10.1088/1751-8121/aaeea1))
-
 * Liang Wang, [[Zhenghan Wang]], *In and around Abelian anyon models*, J. Phys. A: Math. Theor. **53** 505203 (2020) ([doi:10.1088/1751-8121/abc6c0](https://iopscience.iop.org/article/10.1088/1751-8121/abc6c0))
+
+and via [[linear representations]] of [[mapping class groups]]:
+
+* [[Wade Bloomquist]], [[Zhenghan Wang]]: *On Topological Quantum Computing With Mapping Class Group Representations*, J. Phys. A: Math. Theor. **52** (2019) 015301 \[<a href="https://iopscience.iop.org/article/10.1088/1751-8121/aaeea1">doi:10.1088/1751-8121/aaeea1</a>, [arXiv:1805.04622](https://arxiv.org/abs/1805.04622)\]
+
 
 Indication that the [[effective field theory|effective]] [[abelian Chern-Simons theory]] [describing](abelian+Chern-Simons+theory#ReferencesAbCSForFQHE) the [[fractional quantum Hall effect]] has to be understood, in general, as a [[spin Chern-Simons theory]]:
 
