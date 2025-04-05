@@ -719,16 +719,23 @@ which is the right hand side of the equivalence to be proven.
 
 ## References
 
-The variational bicomplex was introduced independently in
+The earliest occurrence of the variational bicomplex in the literature is in Section 2.2 of
+
+* [[D. B. Fuchs]], A. M. Gabrielov, [[I. M. Gel'fand]], _The Gauss-Bonnet theorem and the Atiyah-Patodi-Singer functionals for the characteristic classes of foliations_, Topology 15:2 (1976), 165-188.  [DOI][FGG]
+[FGG]: https://doi.org/10.1016/0040-9383(76)90007-0
+
+which attributes it to [[Israel Gelfand]] and [[Mark Losik]].
+
+Further work appeared independently in
 
 * [[Alexandre Vinogradov]], _A spectral sequence associated with a non-linear differential equation, and the algebro-geometric foundations of Lagrangian field theory with constraints_, Soviet Mathematics Doklady 19:1 (1978) 144–148.  [PDF](https://dmitripavlov.org/scans/vinogradov-a-spectral-sequence-associated-with-a-nonlinear-differential-equation-and-algebro-geometric-foundations-of-lagrangian-field-theory-with-constraints.pdf).  Russian original: А. М. Виноградов, _Одна спектральная последовательность, связанная с нелинейным дифференциальным уравнением и алгебро-геометрические основания лагранжевой теории поля со связями_, Доклады АН СССР, 238:5 (1978), 1028–1031.  [PDF](https://www.mathnet.ru/rus/dan/v238/i5/p1028).
 
 * W. M. Tulczyjew, _The Euler-Lagrange resolution_, Lecture Notes in Mathematics 836 (1980), 22–48.  [DOI](https://doi.org/10.1007/bfb0089725).
 
-* Toru Tsujishita, _On variation bicomplexes associated to differential equations_, Osaka J. Math. 19:2 (1982), 311–363.  [Project Euclid](http://projecteuclid.org/euclid.ojm/1200775039).
-
 
 See also
+
+* Toru Tsujishita, _On variation bicomplexes associated to differential equations_, Osaka J. Math. 19:2 (1982), 311–363.  [Project Euclid](http://projecteuclid.org/euclid.ojm/1200775039).
 
 * {#Takens79} [[Floris Takens]], _A global version of the inverse problem of the calculus of variations_, J. Diff. Geom. 14:4 (1979) 543–562.  [DOI](https://doi.org/10.4310/jdg/1214435235).
 
