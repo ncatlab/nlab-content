@@ -15,6 +15,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -148,6 +149,29 @@ Here the canonical [[group action]] of $MCG(\Sigma^2_g)$ on the [[ordinary homol
 (reviewed by [Morita 2007 §6](#Morita07), [Farb & Margalit 2012 §6](#FarbMargalit12))
 
 
+\begin{example}
+\label{MappingClassGroupsOfNPuncturedSpheres}
+The mapping class groups of the $n$-[[punctured]] [[2-spheres]] $\Sigma_{0,0,n}$ are, for low $n$:
+
+* $MCG(\Sigma_{0,0,0}) \simeq 1$
+
+* $MCG(\Sigma_{0,0,1}) \simeq 1$ ([[trivial group]])
+
+  (cf. [Bloomquist '24 Thm. 5](#Bloomquist24))
+
+* $MCG(\Sigma_{0,0,2}) \simeq C_2$ ([[cyclic group of order 2]])
+ 
+* $MCG(\Sigma_{0,0,3}) \simeq Sym_3$ ([[symmetric group]] on 3 elements)
+
+  (cf. [Farb & Margalit '12, Prop. 2.3](#FarbMargalit12), [Bloomquist '24 Thm. 7](#Bloomquist24))
+
+* $MCG(\Sigma_{0,0,4}) \simeq PSL_2(\mathbb{Z}) \ltimes (C_2 \times C_2)$ ([[semidirect product]] of [[modular group]])
+
+  ([Bloomquist '24 Thm. 7](#Bloomquist24))
+
+\end{example}
+
+
 ## Related concepts
 
 * [[diffeomorphism group]]
@@ -155,6 +179,7 @@ Here the canonical [[group action]] of $MCG(\Sigma^2_g)$ on the [[ordinary homol
 * [[Alexander's trick]]
 
 * [[braid group]]
+
 
 
 ## References
@@ -176,6 +201,8 @@ Surveys:
 * {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of: *Lectures on tensor categories and modular functor*, University Lecture Series **21**, Amer. Math. Soc. (2001)  &lbrack;[web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21), [[BakalovKirillovChapter5.pdf:file]]&rbrack;
 
 * {#Morita07} [[Shigeyuki Morita]]: *Introduction to mapping class groups of surfaces and related groups*, in: *Handbook of Teichmüller theory, Volume I*, EMS (2007) 353-386 &lbrack;[doi:10.4171/029-1/8](https://doi.org/10.4171/029-1/8), [[Morita-IntroductionMCG.pdf:file]]&rbrack;
+
+* {#Bloomquist24} [[Wade Bloomquist]]: *Mapping Class Group Notes* (2024?) &lbrack;[pdf](https://web.math.ucsb.edu/%7Eshokrian/Mapping_Class_Group_Notes.pdf), [[Bloomquist-MCG.pdf:file]]&rbrack;
 
 * {#KwokLuoYang25} Thomas Kwok-Keung, Feng Luo, Tian Yang: *Lectures on the Mapping Class Group of a Surface* (2025?) &lbrack;[pdf](https://people.tamu.edu/~yangtian//lecture.pdf)&rbrack;
 
