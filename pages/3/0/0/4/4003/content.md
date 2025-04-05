@@ -25,7 +25,7 @@ Polynomial endo-functors are used to encode a class of [[inductive types]] calle
 
 Let $C$ be a [[locally cartesian closed category]].  A **polynomial** is a diagram
 $$ W \overset{f}{\leftarrow} X \overset{g}{\to} Y \overset{h}{\to} Z $$
-in $C$.  The corresponding **polynomial functor** is the composite
+in $C$.  These are also called *bispans* (cf. [Elmanto & Haugseng](#ElmHaug)). The corresponding **polynomial functor** is the composite
 
 $$ 
   C/W 
@@ -364,6 +364,8 @@ See also
 * [[Ross Street]], *Polynomials as spans*, Cahiers de topologie et géométrie différentielle catégoriques, Vol. LXI-2 (2020), pp 113-153 ([pdf](http://cahierstgdc.com/wp-content/uploads/2020/04/STREET-LXI-2.pdf))
 
 * {#Garner2019} [[Richard Garner]], _Polynomial comonads and comodules_, HoTTEST Seminar (2019) &lbrack;[slides](https://www.math.uwo.ca/faculty/kapulkin/seminars/hottestfiles/Garner-2019-12-11-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=tW6HYnqn6eI)&rbrack;
+
+* {#ElmHaug} Elden Elmanto, [[Rune Haugseng]], _On distributivity in higher algebra I: The universal property of bispans_ &lbrack;[arXiv:2010.15722](https://arxiv.org/abs/2010.15722)&rbrack;
 
 Using [[wreath products of groups]]
 
