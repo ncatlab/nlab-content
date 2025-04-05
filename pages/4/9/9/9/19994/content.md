@@ -1,6 +1,8 @@
 
 
-* [webpage](https://www2.physics.ox.ac.uk/contacts/people/lukas)
+* [institute page](https://www2.physics.ox.ac.uk/contacts/people/lukas)
+
+* [inSpire page](https://inspirehep.net/authors/999598)
 
 ## Selected writings:
 
@@ -13,6 +15,11 @@ On [[gaugino condensation]] in [[heterotic string theory]] and [[Horava-Witten t
 * [[André Lukas]], [[Burt Ovrut]], [[Daniel Waldram]], _Gaugino condensation in M theory on $S^1/Z_2$_, Phys. Rev. D 57, 7529 (1998) ([arXiv:hep-th/9711197](https://arxiv.org/abs/hep-th/9711197), [doi:10.1103/PhysRevD.57.7529](https://doi.org/10.1103/PhysRevD.57.7529))
 
 * [[André Lukas]], [[Burt Ovrut]], [[Daniel Waldram]], _Five-Branes and Supersymmetry Breaking in M-Theory_, JHEP 9904:009, 1999 ([arXiv:hep-th/9901017](https://arxiv.org/abs/hep-th/9901017))
+
+Database of [[heterotic string theory|heterotic]] [[perturbative string theory vacuum|string vacua]] via [[stable vector bundles]] on [[supersymmetry and Calabi-Yau manifolds|Calabi-Yau 3-folds]]:
+
+* [[Maxime Gabella]], [[Yang-Hui He]], [[Andre Lukas]]: *An Abundance of Heterotic Vacua*, Journal of High Energy Physics, **2008** JHEP12 (2008) \[<a href="https://doi.org/10.1088/1126-6708/2008/12/027">doi:10.1088/1126-6708/2008/12/027</a>, [arXiv:0808.2142](https://arxiv.org/abs/0808.2142)\]
+
 
 On [[M-theory on Calabi-Yau 5-folds]] and [[supersymmetric quantum mechanics]]:
 
