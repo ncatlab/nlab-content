@@ -27,7 +27,7 @@ It is easy to give $T S$ a unit, as the composite $Id \xrightarrow{\eta^S} S \xr
 
 Such a transformation $\lambda\colon S T \to T S$, satisfying suitable axioms to make $T S$ into a monad, is called a *distributive law*, because of the motivating example relating addition to multiplication in a ring.  In that case, $S T X$ is a formal product of formal sums such as $(x_1 + x_2 + x_3)\cdot (x_4 + x_5)$, and the distributive law $\lambda$ is given by multiplying out such an expression formally, resulting in a formal sum of formal products such as $x_1\cdot x_4 + x_1 \cdot x_5 + x_2 \cdot x_4 + x_2 \cdot x_5 + x_3\cdot x_4 + x_3 \cdot x_5$.
 
-Given two monads $S, T$ on a category $C$, a distributive law $ T \circ S \longrightarrow S \circ T $ gives a way of lifting the monad $S$ on $C$ to a monad on the category of $T$-algebras, namely the [[Eilenberg-Moore category]] $C^T$.  In the example above, the distributive law gives a way to lift the monad for monoids (which is a monad on $C = Set$) to the monad for rings (which is a monad on $C^T = AbGp$).  This is a way of making rigorous the intuition that "rings are to abelian groups as monoids are to sets".
+Given two monads $S, T$ on a category $C$, a distributive law $S \circ T \longrightarrow T \circ S $ gives a way of lifting the monad $T$ on $C$ to a monad on the category of $S$-algebras, namely the [[Eilenberg-Moore category]] $C^S$.  In the example above, the distributive law gives a way to lift the monad $T$ for abelian groups (which is a monad on $C = Set$) to the monad for rings over $C^S = Mon$.  This is a way of making rigorous the intuition that "rings are to monoids as abelian groups are to sets".
 
 \begin{remark}
 \label{TerminologyWhatDistributesOverWhat}
