@@ -43,7 +43,12 @@ See also:
 
 As [[quantum gates]] for [[topological quantum computation]] with [[anyons]]:
 
-* [[Louis H. Kauffman]], [[Samuel J. Lomonaco]], *Braiding Operators are Universal Quantum Gates*,  New Journal of Physics, Volume 6, January 2004 ([arXiv:quant-ph/0401090](https://arxiv.org/abs/quant-ph/0401090), [doi:10.1088/1367-2630/6/1/134](https://iopscience.iop.org/article/10.1088/1367-2630/6/1/134))
+* [[Louis H. Kauffman]], [[Samuel J. Lomonaco]], *Braiding Operators are Universal Quantum Gates*, New Journal of Physics **6** (2004) \[<a href="https://iopscience.iop.org/article/10.1088/1367-2630/6/1/134">doi:10.1088/1367-2630/6/1/134</a>, [arXiv:quant-ph/0401090](https://arxiv.org/abs/quant-ph/0401090)\]
+  > (via [[R-matrix]] solutions to the [[quantum Yang-Baxter equation]])
+
+* Yong Zhang, [[Louis H. Kauffman]], Mo-Lin Ge: *Yang–Baxterizations, Universal Quantum Gates and Hamiltonians*, Quantum Inf Process **4** (2005) 159–197 \[<a href="https://doi.org/10.1007/s11128-005-7655-7">doi:10.1007/s11128-005-7655-7</a>\] 
+  > (via [[R-matrix]] solutions to the [[quantum Yang-Baxter equation]])
+
 
 * [[Samuel J. Lomonaco]], [[Louis Kauffman]], _Topological Quantum Computing and the Jones Polynomial_, Proc. SPIE 6244, Quantum Information and Computation IV, 62440Z (2006) ([arXiv:quant-ph/0605004](https://arxiv.org/abs/quant-ph/0605004))
 
