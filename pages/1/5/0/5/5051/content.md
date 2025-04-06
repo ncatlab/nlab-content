@@ -38,6 +38,9 @@ and relating to [[particle statistics]] ([[parastatistics]]) in view of [[causal
 
 * [[Sergio Doplicher]], [[Rudolf Haag]], [[John E. Roberts]]: *Local observables and particle statistics I*, Commun.Math. Phys. **35** (1974) 49–85 &lbrack;[doi:10.1007/BF01646454](https://doi.org/10.1007/BF01646454)&rbrack;
 
+More on [[superselection sectors]]:
+
+* [[John E. Roberts]], p. 110 (5 of 14) in: *Local cohomology and superselection structure*,  Comm. Math. Phys. **51** 2 (1976) 107-119 &lbrack;[euclid:cmp/1103900345](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-51/issue-2/Local-cohomology-and-superselection-structure/cmp/1103900345.full)&rbrack;
 
 
 On [[C-star category|$C^\ast$-categories]] and introducing the special case of [[W-star category|$W^\ast$-categories]]:
