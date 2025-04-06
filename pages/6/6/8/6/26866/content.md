@@ -15,13 +15,19 @@ On the [[spin-statistics theorem]] for [[non-relativistic particles]] via the [[
 
 * [[Andrés F. Reyes-Lega]], N. A. Papadopoulos, *On the Geometry of the Berry-Robbins Approach to Spin-Statistics*, Found Phys **40** (2010)  829-851 \[<a href="https://doi.org/10.1007/s10701-009-9365-y">doi:10.1007/s10701-009-9365-y</a>, <a href="https://arxiv.org/abs/0910.1659">arXiv:0910.1659</a>\]
 
-
 * [[Andrés F. Reyes-Lega]]: *On the geometry of quantum indistinguishability*, J. Phys. A: Math. Theor. **44** 33 (2011) 325308 \[<a href="https://iopscience.iop.org/article/10.1088/1751-8113/44/32/325308">doi:10.1088/1751-8113/44/32/325308</a>, [arXiv:1112.6300](https://arxiv.org/abs/1112.6300)\]
+
+On [[superselection sectors]] and [[asymptotic symmetries]] of [[gauge theories]]:
+
+* [[A. P. Balachandran]],  [[V. P. Nair]], A. Pinzul, [[A. F. Reyes-Lega]], S. Vaidya: *Superselection, boundary algebras, and duality in gauge theories*, Phys. Rev. D **106** (2022) 025001 &lbrack;[doi:10.1103/PhysRevD.106.025001](https://doi.org/10.1103/PhysRevD.106.025001), [arXiv:2112.08631](https://arxiv.org/abs/2112.08631)&rbrack;
+
+
 
 
 category: people
 
 
+[[!redirects A. F. Reyes-Lega]]
 [[!redirects Andres F. Reyes-Lega]]
 [[!redirects Andrés Reyes-Lega]]
 [[!redirects Andres Reyes-Lega]]
