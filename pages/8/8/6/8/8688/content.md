@@ -148,6 +148,16 @@ Further discussion in the context of [[quantum groups]]:
 
 * P. P. Kulish, [[Nicolai Reshetikhin]], E. K. Sklyanin: _Yang-Baxter equation and representation theory: I_, Lett. Math. Phys. __5__ 5 (1981) 393-403 &lbrack;[doi:10.1007/BF02285311](http://dx.doi.org/10.1007/BF02285311)&rbrack;
 
+In the context of [[topological quantum computing]]:
+
+* [[Louis H. Kauffman]], [[Samuel J. Lomonaco]], *Braiding Operators are Universal Quantum Gates*, New Journal of Physics **6** (2004) \[<a href="https://iopscience.iop.org/article/10.1088/1367-2630/6/1/134">doi:10.1088/1367-2630/6/1/134</a>, [arXiv:quant-ph/0401090](https://arxiv.org/abs/quant-ph/0401090)\]
+
+* Yong Zhang, [[Louis H. Kauffman]], Mo-Lin Ge: *Yang–Baxterizations, Universal Quantum Gates and Hamiltonians*, Quantum Inf Process **4** (2005) 159–197 \[<a href="https://doi.org/10.1007/s11128-005-7655-7">doi:10.1007/s11128-005-7655-7</a>, [arXiv:quant-ph/0502015](https://arxiv.org/abs/quant-ph/0502015)\] 
+
+* [[Dmitry Melnikov]], [[Andrei Mironov]], [[Sergey Mironov]], [[Alexei Morozov]], [[Andrey Morozov]]: _Towards topological quantum computer_, Nucl. Phys. B926 (2018) 491-508 \[<a href="https://doi.org/10.1016/j.nuclphysb.2017.11.016">doi:10.1016/j.nuclphysb.2017.11.016</a>, [arXiv:1703.00431](https://arxiv.org/abs/1703.00431)\]
+
+* [[Nikita Kolganov]], [[Andrey Morozov]]: *Quantum $\mathcal{R}$-matrices as universal qubit gates*, Pis'ma v ZhETF, 111, N9 (2020) \[<a href="https://doi.org/10.1134/S0021364020090027">doi:10.1134/S0021364020090027</a>, [arXiv:2004.07764](https://arxiv.org/abs/2004.07764)\]
+
 
 ### Solutions
 
