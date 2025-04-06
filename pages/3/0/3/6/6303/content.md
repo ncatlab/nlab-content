@@ -1,5 +1,14 @@
 
-* [webpage](http://unith.desy.de/people/allmembers/fredenha/)
+* [research group page](https://www.physik.uni-hamburg.de/en/th2/ag-fredenhagen.html)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Klaus_Fredenhagen)
+
+* [inSpire page](https://inspirehep.net/authors/1009511)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=pYBdBjkAAAAJ&hl=en)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=66111)
+
 
 ## Selected writings
 
@@ -9,7 +18,12 @@ On [[anyons]]:
 
 * [[Klaus Fredenhagen]], Karl-Henning Rehren, [[Bert Schroer]], _Superselection sectors with braid group statistics and exchange algebras -- II: Geometric aspects and conformal covariance_,  Reviews in Mathematical PhysicsVol. 04, No. spec01, pp. 113-157 (1992)  ([doi:10.1142/S0129055X92000170](https://doi.org/10.1142/S0129055X92000170) [pdf](ftp://ftp.theorie.physik.uni-goettingen.de/pub/papers/rehren/92/superselection_sectors_II_RMP.pdf))
 
-*  [[Klaus Fredenhagen]], [[Matthias Gaberdiel]] and Stefan M. Rüger, *Scattering states of plektons (particles with braid group statistics) in 2+1 dimensional quantum field theory*, Communications in Mathematical Physics **175** (1996) 319–335 $[$[doi:10.1007/BF02102411](https://doi.org/10.1007/BF02102411)$]$
+*  [[Klaus Fredenhagen]], [[Matthias Gaberdiel]] and Stefan M. Rüger, *Scattering states of plektons (particles with braid group statistics) in 2+1 dimensional quantum field theory*, Communications in Mathematical Physics **175** (1996) 319–335 &lbrack;[doi:10.1007/BF02102411](https://doi.org/10.1007/BF02102411)&rbrack;
+
+On [[superselection sectors]]:
+
+* [[Klaus Fredenhagen]]: *Superselection Sectors*, lecture notes, Hamburg (1994/5) &lbrack;[pdf](https://www.physik.uni-hamburg.de/th2/ag-fredenhagen/dokumente/superselect.pdf), [[Fredenhagen-Superselection.pdf:file]]&rbrack;
+
 
 Examples of [[non-perturbative quantum field theory|non-perturbative]] [[interacting quantum field theory|interacting]] [[scalar field theory]] in _any_ [[spacetime]] [[dimension]] (in particular in $d \geq 4$):
 
