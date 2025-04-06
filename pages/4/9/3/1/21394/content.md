@@ -118,7 +118,7 @@ This notion is distinct from [[Richard Williamson|Richard Williamson's]] [[cylin
 
 =--
 
-In a cylindrical premodel structure, the first condition of Proposition \ref{CriteriaCases} implies the second ([Cavallo & Sattler 2021, Lemma 3.22](#csElegance)), yielding a simplified recognition theorem:
+In a cylindrical premodel structure, the first condition of Proposition \ref{CriteriaCases} implies the second ([Cavallo & Sattler 2022, Lemma 3.22](#csElegance)), yielding a simplified recognition theorem:
 
 +-- {: .num_prop #CriteriaCasesCylindrical}
 ###### Proposition
