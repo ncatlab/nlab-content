@@ -167,8 +167,8 @@ Classification of all unitary solutions in $dim=4$:
 
 Discussion of all *involutive* solutions, yielding [[representations of a symmetric group]]:
 
-* [[Gandalf Lechner]], [[Ulrich Pennig]], [[Simon Wood]]: *Yang-Baxter representations of the infinite symmetric group*, Adv. Math., Vol. **355** (2019) 106769 &lbrack;[arXiv:1707.00196](https://arxiv.org/abs/1707.00196), [doi:10.1016/j.aim.2019.106769](https://doi.org/10.1016/j.aim.2019.106769)&rbrack;
-  > "Yang-Baxter representations are reducible, but decomposing them gives representations which are no longer of Yang-Baxter form. Conversely, taking direct sums of Yang-Baxter representations is not compatible with the Yang-Baxter equation either."
+* [[Gandalf Lechner]], [[Ulrich Pennig]], [[Simon Wood]]: *Yang-Baxter representations of the infinite symmetric group*, Adv. Math. **355** (2019) 106769 &lbrack;[arXiv:1707.00196](https://arxiv.org/abs/1707.00196), [doi:10.1016/j.aim.2019.106769](https://doi.org/10.1016/j.aim.2019.106769)&rbrack;
+  > [p 15](https://arxiv.org/pdf/1707.00196#page=15): "Yang-Baxter representations are reducible, but decomposing them gives representations which are no longer of Yang-Baxter form. Conversely, taking direct sums of Yang-Baxter representations is not compatible with the Yang-Baxter equation either."
 
 * [[Gandalf Lechner]]: *All involutive solutions of the Yang-Baxter equation*, talk at *[Advances in Mathematics and Theoretical Physics](https://www.mat.uniroma2.it/tlc/17SIMP/)* (2017) &lbrack;[pdf](https://www.mat.uniroma2.it/tlc/17SIMP/Slides/Lechner.pdf), [[Lechner-AllInvolutiveYBEsolutions.pdf:file]]&rbrack;
 
