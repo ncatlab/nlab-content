@@ -119,6 +119,11 @@ Early discussion with emphasis of the role of [[connection on a bundle|connectio
 
 * [[Tai Tsun Wu]], [[Chen Ning Yang]], *Concept of nonintegrable phase factors and global formulation of gauge fields*, Phys. Rev. D **12** (1975) 3845 &lbrack;[doi:10.1103/PhysRevD.12.3845](https://doi.org/10.1103/PhysRevD.12.3845)&rbrack;
 
+In relation to [[superselection sectors]]:
+
+* [[Claudio Dappiaggi]], [[Giuseppe Ruzzi]], Ezio Vasselli: *Aharonov-Bohm superselection sectors*, Lett Math Phys **110**  (2020) 3243–3278 &lbrack;[doi;10.1007/s11005-020-01335-4](https://doi.org/10.1007/s11005-020-01335-4), [arXiv:, 1912.05297](https://arxiv.org/abs/1912.05297)&rbrack;
+
+
 
 See also:
 
