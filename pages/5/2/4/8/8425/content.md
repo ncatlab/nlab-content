@@ -24,11 +24,12 @@ On the [[Crane-Yetter model]] [[4d TQFT]]:
 On [[topological quantum computation]] with [[anyons]]/[[braid group statistics]] ([[braid group representations]]):
 
 * [[Louis Kauffman]], *Quantum Topology and Quantum Computing*, in: [[Samuel J. Lomonaco]] (ed.), *Quantum Computation: A Grand Mathematical Challenge for the Twenty-First Century and the Millennium*, Proceedings of Symposia in Applied Mathematics **58**, AMS (2002) &lbrack;[pdf](https://redirect.cs.umbc.edu/~lomonaco/ams/lecturenotes/Kauffman.pdf), [doi:10.1090/psapm/058](https://doi.org/10.1090/psapm/058)&rbrack;
-
   > (in relation to [[quantum topology]])
 
 
 * [[Louis H. Kauffman]], [[Samuel J. Lomonaco]], *Braiding Operators are Universal Quantum Gates*,  New Journal of Physics, Volume 6, January 2004 ([arXiv:quant-ph/0401090](https://arxiv.org/abs/quant-ph/0401090), [doi:10.1088/1367-2630/6/1/134](https://iopscience.iop.org/article/10.1088/1367-2630/6/1/134))
+
+* Yong Zhang, [[Louis H. Kauffman]], Mo-Lin Ge: *Yang–Baxterizations, Universal Quantum Gates and Hamiltonians*, Quantum Inf Process **4** (2005) 159–197 \[<a href="https://doi.org/10.1007/s11128-005-7655-7">doi:10.1007/s11128-005-7655-7</a>\] 
 
 * [[Samuel J. Lomonaco]], [[Louis Kauffman]], _Topological Quantum Computing and the Jones Polynomial_, Proc. SPIE 6244, Quantum Information and Computation IV, 62440Z (12 May 2006) ([arXiv:quant-ph/0605004](https://arxiv.org/abs/quant-ph/0605004))
 
@@ -42,6 +43,10 @@ On [[quantum computation]] and more generally on [[quantum systems]]:
 
 * [[Goong Chen]], [[Louis Kauffman]], [[Samuel J. Lomonaco]] (eds.), *Mathematics of Quantum Computation and Quantum Technology*, Chapman and Hall/CRC (2007) (ISBN:9780367388614, [doi:10.1201/9781584889007](https://doi.org/10.1201/9781584889007))
 
+
+## Related entries
+
+* [[quantum Yang-Baxter equation]]
 
 
 category: people
