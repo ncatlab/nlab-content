@@ -45,9 +45,9 @@ that satisfy a [[coherence law]] among themselves.
 
 ### In monoidal categories
 
-By the [[periodic table of higher categories]] a [[monoidal category]] is a pointed [[bicategory]] with a single object, its [[object]]s are the 1-morphisms of the bicategory. 
+By the [[periodic table of higher categories]] a [[monoidal category]] is a pointed [[bicategory]] with a single object, and where its [[object]]s are the 1-morphisms of the bicategory. 
 
-Accordingly, a [[monoidal category]] with [[tensor product]] $\otimes$ and [[tensor unit]] "$1$" is equipped with a [[natural isomorphism]] of the form
+Accordingly, a [[monoidal category]] with [[tensor product]] $\otimes$ and [[tensor unit]] $1$ is equipped with a [[natural isomorphism]] of the form
 
 $$ \ell_x : 1 \otimes x \to x \,, $$
 
