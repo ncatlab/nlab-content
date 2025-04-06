@@ -201,7 +201,7 @@ The **Burnside Tambara functor** has coefficient system $\mathcal{A}(-)$, transf
 
 ### An explicit example 
 Let $G = C_2 = \{ e, \sigma \}$.
-Then, a *C_2*-Mackey functor consists of the data
+Then, a $C_2$-Mackey functor consists of the data
 
 * an Abelian group $X$ with $C_2$-action,
 * an Abelian group $Y$,
