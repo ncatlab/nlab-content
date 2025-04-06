@@ -1,5 +1,5 @@
 
-> This entry is about the concept in topology. For _[[quotient vector spaces]]_ in linear algebras see there.
+> This entry is about the concept in [[topology]]. For _[[quotient vector spaces]]_ in [[linear algebras]] see there.
 
 ***
 
