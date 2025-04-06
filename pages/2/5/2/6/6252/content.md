@@ -79,8 +79,13 @@ See also:
 * Konrad Schmuedgen, _Unbounded self-adjoint operators on Hilbert space_, Springer GTM 265
 
 [[!redirects self-adjoint]]
+[[!redirects selfadjoint]]
+
 [[!redirects self-adjoint element]]
 [[!redirects self-adjoint elements]]
+[[!redirects selfadjoint element]]
+[[!redirects selfadjoint elements]]
+
 
 [[!redirects self-adjoint operator]]
 [[!redirects self-adjoint operators]]
