@@ -15,7 +15,8 @@ The idea of [[topological quantum computation]] via a [[Chern-Simons theory]] wi
 
 * [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. **80** 1083 (2008) \[<a href="https://doi.org/10.1103/RevModPhys.80.1083">doi:10.1103/RevModPhys.80.1083</a>, [arXiv:0707.1888](http://arxiv.org/abs/0707.1889)\]
 
-* [[Dmitry Melnikov]], [[Andrei Mironov]], [[Sergey Mironov]], [[Alexei Morozov]], [[Andrey Morozov]], _Towards topological quantum computer_, Nucl. Phys. B926 (2018) 491-508 ([arXiv:1703.00431](https://arxiv.org/abs/1703.00431), [doi:10.1016/j.nuclphysb.2017.11.016](https://doi.org/10.1016/j.nuclphysb.2017.11.016))
+* [[Dmitry Melnikov]], [[Andrei Mironov]], [[Sergey Mironov]], [[Alexei Morozov]], [[Andrey Morozov]]: _Towards topological quantum computer_, Nucl. Phys. B926 (2018) 491-508 \[<a href="https://doi.org/10.1016/j.nuclphysb.2017.11.016">doi:10.1016/j.nuclphysb.2017.11.016</a>, [arXiv:1703.00431](https://arxiv.org/abs/1703.00431)\]
+  > (via [[R-matrix]]-solutions to the [[quantum Yang-Baxter equation]])
 
 and via a [[Dijkgraaf-Witten theory]] (like [[Chern-Simons theory]] but with [[discrete group|discrete]] [[gauge group]]):
 
