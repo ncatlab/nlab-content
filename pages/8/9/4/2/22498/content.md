@@ -105,12 +105,11 @@ $$
 \begin{example}\label{StandardRepresentation}
 **(standard representation)**
 \linebreak
-  What is sometimes called the *standard representation* of the [[symmetric group]] $Sym_n$ is the [[restricted representation|restriction]] of the $n$-dimensional [[permutation representation]] on $k^n$ (by [[permutation]] of the canonical [[linear basis|basis vectors]]) to the $(n-1)$-dimensional [[linear subspace|subspace]] where the [[sum]] of [[coefficients]] of these basis vectors is [[zero]].
+  What is sometimes called the *standard representation* of the [[symmetric group]] $Sym_n$ is the [[quotient vector space|quotient]] of the defining $n$-dimensional [[permutation representation]] of $Sym_n$ on $k^n$ (by [[permutation]] of the canonical [[linear basis|basis vectors]]) by the 1d [[trivial representation]], hence the $(n-1)$-dimensional [[linear subspace|subspace]] where the [[sum]] of [[coefficients]] of the canonical basis vectors is [[zero]].
 
 This is an [[irreducible representation]] whose corresponding [[partition]] (according to Prop. \ref{IrrepsLabeledByPartitions}) is $\big((n-1),1\big)$.
 \end{example}
-(cf. [Kao Def. 2.5](#Kao), [[Groupprops]]: *[Standard representation of the symmetric group](https://groupprops.subwiki.org/wiki/Standard_representation_of_the_symmetric_group)*)
-
+(cf. [Fulton & Harris 1991 p 9 & Ex. 4.6](#FultonHarris91), [Kao 2010 Def. 2.5](#Kao), [[Groupprops]]: *[Standard representation of the symmetric group](https://groupprops.subwiki.org/wiki/Standard_representation_of_the_symmetric_group)*)
 
 
 
@@ -289,6 +288,7 @@ known in [[quantum information theory]] as a *[[rotation gate]]*.
 * [[FI-representation]]
 
 
+
 ## References
 
 Monographs:
@@ -299,11 +299,12 @@ Monographs:
 
 * {#Diaconis88} [[Persi Diaconis]], Chapter 7 of: *Group Representations  in Probability  and  Statistics*, IMS Lecture Notes Monogr. Ser., 11: 198pp. (1988) ([jstor:i397389](https://www.jstor.org/stable/i397389), [ISBN: 0940600145](https://projecteuclid.org/ebooks/institute-of-mathematical-statistics-lecture-notes-monograph-series/Group-representations-in-probability-and-statistics/toc/10.1214/lnms/1215467407), [pdf](https://jdc.math.uwo.ca/M9140a-2012-summer/Diaconis.pdf))
 
+* {#FultonHarris91} [[William Fulton]], [[Joe Harris]], chapter 4 of: _Representation Theory: a First Course_, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9)&rbrack;
+
 * {#Fulton97} [[William Fulton]], Section 7 of: _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U. Press, 1997 ([doi:10.1017/CBO9780511626241](https://doi.org/10.1017/CBO9780511626241))
 
 
-* {#Sagan01} [[Bruce Sagan]], _The symmetric group_, Springer 2001 ([doi:10.1007/978-1-4757-6804-6](https://link.springer.com/book/10.1007/978-1-4757-6804-6), [pdf](http://math.sfsu.edu/federico/Clase/RepTh/sagan.pdf))
-
+* {#Sagan01} [[Bruce Sagan]]: _The symmetric group_, Springer (2001) &lbrack;[doi:10.1007/978-1-4757-6804-6](https://link.springer.com/book/10.1007/978-1-4757-6804-6)&rbrack;
 See also:
 
 * Wikipedia, *[Representation theory of the symmetric group](https://en.wikipedia.org/wiki/Representation_theory_of_the_symmetric_group)*
@@ -312,7 +313,7 @@ Notes:
 
 * [[Yufei Zhao]], _Young Tableaux and the Representations of the Symmetric Group_ ([pdf](https://yufeizhao.com/research/youngtab-hcmr.pdf), [[ZhaoYoungTableaux.pdf:file]])
 
-* {#Kao} Daphne Kao: *Representations of the Symmetric Group*, VIGRE 2010 &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Kao.pdf)&rbrack;
+* {#Kao} Daphne Kao: *Representations of the Symmetric Group*, VIGRE 2010 &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Kao.pdf), [[Kao-SymRep.pdf:file]]&rbrack;
 
 Discussion of [[character of a linear representation|characters]] for the [[symmetric group]] that depend only on [[Cayley distance]] from the [[neutral element]] ("block character"):
 
