@@ -74,6 +74,8 @@ Review:
 
 * [[Eric C. Rowell]], *Braids, Motions and Topological Quantum Computing* \[<a href="https://arxiv.org/abs/2208.11762">arXiv:2208.11762</a>, [spire:2141848](https://inspirehep.net/literature/2141848)\]
 
+* Fabian Hassler: *Topological quantum computing* \[<a href="https://arxiv.org/abs/2410.13547">arXiv:2410.13547</a>\]
+
 * [[Hisham Sati]], [[Sachin Valera]]: *Topological Quantum Computing*, [[Encyclopedia of Mathematical Physics 2nd ed]] **4** (2025) 325-345 \[<a href="https://doi.org/10.1016/B978-0-323-95703-8.00262-7">doi:10.1016/B978-0-323-95703-8.00262-7</a>\]
 
 {#FocusOnAbelianAnyons} Focus on *[[abelian anyons]]*:
