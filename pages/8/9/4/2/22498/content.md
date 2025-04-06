@@ -105,7 +105,7 @@ $$
 \begin{example}\label{StandardRepresentation}
 **(standard representation)**
 \linebreak
-  What is sometimes called the *standard representation* of the [[symmetric group]] $Sym_n$ is the [[quotient vector space|quotient]] of the defining $n$-dimensional [[permutation representation]] of $Sym_n$ on $k^n$ (by [[permutation]] of the canonical [[linear basis|basis vectors]]) by the 1d [[trivial representation]], hence the $(n-1)$-dimensional [[linear subspace|subspace]] where the [[sum]] of [[coefficients]] of the canonical basis vectors is [[zero]].
+  What is sometimes called the *standard representation* of the [[symmetric group]] $Sym_n$ is the [[quotient vector space|quotient]] of the defining $n$-dimensional [[permutation representation]] of $Sym_n$ on $k^n$ (via [[permutation]] of the canonical [[linear basis|basis vectors]]) by the 1d [[trivial representation]] inside that, hence the $(n-1)$-dimensional [[linear subspace|subspace]] where the [[sum]] of [[coefficients]] of the canonical basis vectors is [[zero]].
 
 This is an [[irreducible representation]] whose corresponding [[partition]] (according to Prop. \ref{IrrepsLabeledByPartitions}) is $\big((n-1),1\big)$.
 \end{example}
