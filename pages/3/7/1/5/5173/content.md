@@ -18,6 +18,10 @@ Co-introducing [[Jordan algebras]] as [[algebras of quantum observables]]:
 
 * {#JordanvNeumannWigner34} [[Pascual Jordan]], [[John von Neumann]], [[Eugene Wigner]], *On an algebraic generalization of the quantum mechanical formalism*, Ann. Math. **35** (1934) 29-64 &lbrack;[jstor:1968117](https://www.jstor.org/stable/1968117), [doi:10.1007/978-3-662-02781-3_21](https://doi.org/10.1007/978-3-662-02781-3_21)&rbrack;
 
+Introducing the notion of [[superselection sectors]] in [[quantum field theory]] (in a context similar to the [[Wigner classification]] of [[fundamental particles]]):
+
+* {#WickWignerWightman52} [[Gian-Carlo Wick]], [[Eugene Wigner]], [[Arthur Wightman]]: *The intrinsic parity of elementary particles*, Phys. Rev. **88** (1952) 101-105 &lbrack;[doi;10.1103/PhysRev.88.101](https://doi.org/10.1103/PhysRev.88.101), [pdf](http://dieumsnh.qfb.umich.mx/archivoshistoricosmq/ModernaHist/Wick.pdf)&rbrack;
+
 
 ## Related entries
 
