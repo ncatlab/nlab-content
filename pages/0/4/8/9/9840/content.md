@@ -33,6 +33,10 @@ and with emphasis on [[solitons]] and [[Skyrmions]]:
 
 * [[Aiyalam P. Balachandran]], [[Giuseppe Marmo]], [[Bo-Sture Skagerstam]]: *Classical Topology and Quantum States*, World Scientific (1991) &lbrack;[doi:10.1142/1180](https://doi.org/10.1142/1180)&rbrack;
 
+On [[superselection sectors]] and [[asymptotic symmetries]] of [[gauge theories]]:
+
+* [[A. P. Balachandran]],  [[V. P. Nair]], A. Pinzul, [[A. F. Reyes-Lega]], S. Vaidya: *Superselection, boundary algebras, and duality in gauge theories*, Phys. Rev. D **106** (2022) 025001 &lbrack;[doi:10.1103/PhysRevD.106.025001](https://doi.org/10.1103/PhysRevD.106.025001), [arXiv:2112.08631](https://arxiv.org/abs/2112.08631)&rbrack;
+
 
 ## Related entries
 
