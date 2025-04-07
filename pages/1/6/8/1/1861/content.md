@@ -801,6 +801,135 @@ Now
 ([Kirby, Melvin & Teichner 2012](#KirbyMelvinTeichner12))
 
 
+
+### 2-Cohomotopy moduli of the 2-sphere
+ {#2CohomotopyModuliOf2Sphere}
+
+The [[connected components]] of the [[mapping space]] $\mathrm{Map}(S^2, S^2)$ (from the [[2-sphere]] to itself) are labeled by the [[Hopf degree]] of the maps, being an [[integer]]
+
+$$
+  \pi_0 Map(S^2, S^2)
+  \;\simeq\;
+  \mathbb{Z}
+  \,.
+$$
+
+Given $k \in \mathbb{Z}$ we denote the connected component of Hopf degree $k$ maps by
+
+$$
+  Map_k(S^2, S^2)
+  \subset 
+  Map(S^2, S^2)
+  \,,
+$$
+
+and hence the [[fundamental group]] of $Map(S^2, S^2)$ with basepoint in that components as:
+
+$$
+  \pi_1 \, Map_k(S^2, S^2)
+  \;\;
+  \coloneqq
+  \;\;
+  \pi_1 \big( Map_k(S^2, S^2), k \cdot id \big) 
+  \,.
+$$
+
+To beware that this is the free mapping space in contrast to the [[pointed mapping space]] $Map^\ast(-,-)$: Since the latter is a [[based loop space]] (by the [[internal hom]]-[[adjoint functor|adjunction]] with the [[smash product]] of [[pointed topological spaces]]),
+
+$$
+  Map^\ast(S^2, S^2)
+  \;\simeq\;
+  Map^\ast(S^1 \wedge S^1, S^2)
+  \;\simeq\;
+  Map^\ast\big(
+    S^1
+    ,\,
+    Map^\ast(S^1, S^2)
+  \big)
+  \;\equiv\;
+  \Omega \Omega S^2
+  \mathrlap{\,,}
+$$
+
+and hence an [[infinity-group]], all its connected components have the same [[homotopy type]] and hence in particular the same [[fundamental group]], namely  [[free group|generated]] by the [[Hopf fibration]] $h \colon S^3 \to S^2$:
+
+$$
+  \begin{array}{rcl}
+    \pi_1 \, Map^\ast_k(S^2, S^2)
+    &\simeq&
+    \pi_1 \, Map^\ast_0(S^2, S^2)
+    \\
+    &\simeq&
+    \pi_0 \, Map\big(S^1, Map^\ast_0(S^2, S^2) \big)
+    \\
+    &\simeq&
+    \pi_0 \, Map^\ast_0(S^1 \wedge S^2, S^2) \big)
+    \\
+    &\simeq&
+    \pi_0 \, Map^\ast_0(S^3, S^2) \big)
+    \\
+    &\simeq&
+    \pi_3(S^2)
+    \\
+    &\simeq&
+    \mathbb{Z}
+    \mathrlap{\,.}
+   \end{array}
+$$
+
+In contrast, the fundamental group of the free mapping space deviates from this in the connected components of non-trivial [[Hopf degree]]:
+
+\begin{proposition}
+\label{FundamentalGroupsOfEndomappingSpaceOf2Sphere}
+([Hu 1946, Thm 5.3(1)](#STHu46), [Koh 1960 Lem 3.1](#Koh60))
+\linebreak
+  $$
+    \pi_1 \, Map_k\big(
+      S^2 ,\, S^2
+    \big)
+    \;\simeq\;
+    \mathbb{Z}_{{2\vert k \vert}}
+    \,.
+  $$
+\end{proposition}
+(Here $\mathbb{Z}_n \coloneqq \mathbb{Z}/n$ denotes the [[cyclic group]] of [[order of a group|order]] $n$ if $n \neq 0$ and denotes the [[integers]] when $n = 0$, $\mathbb{Z}_0 \simeq \mathbb{Z}$.)
+
+\begin{remark}
+  The [[long exact sequence of homotopy groups]] induced by the
+  [[homotopy fiber sequence]] of the  basepoint [[evaluation]] map
+$$
+  Map^\ast(S^2, S^2)
+  \longrightarrow
+  Map(S^2, S^2)
+  \xrightarrow{ev}
+  S^2
+$$
+only gives a [[long exact sequence]] of the form
+$$
+  \cdots
+  \longrightarrow
+  \underset{ 
+    \mathbb{Z} 
+  }{
+    \underbrace{
+      \pi_2(S^2)
+    }
+  }
+  \longrightarrow
+  \pi_1 \, Map^\ast(S^2, S^2)
+  \longrightarrow
+  \pi_1 \  Map_0(S^2, S^2)
+  \longrightarrow
+  \underset{ 1 }{
+    \underbrace{
+      \pi_2 S^2
+    }
+  }  
+$$
+from which alone the statement of Prop. \ref{FundamentalGroupsOfEndomappingSpaceOf2Sphere} does not follow, even for $k = 0$.
+\end{remark}
+
+
 ### 2-Cohomotopy moduli of surfaces
  {#CohomotopyModuliOfSurfaces}
 
@@ -1117,6 +1246,7 @@ $$
 
 * [[Cohomotopy charge map]]
 
+
 ## References
 
 ### General
@@ -1136,9 +1266,9 @@ Original articles:
 
 See also 
 
-* Wikipedia, _[Cohomotopy group](http://en.wikipedia.org/wiki/Cohomotopy_group)_
+* Wikipedia: _[Cohomotopy group](http://en.wikipedia.org/wiki/Cohomotopy_group)_
 
-* [[eom]], _[Cohomotopy group](https://www.encyclopediaofmath.org/index.php/Cohomotopy_group)_
+* [[eom]]: _[Cohomotopy group](https://www.encyclopediaofmath.org/index.php/Cohomotopy_group)_
 
 
 Further discussion:
@@ -1198,7 +1328,12 @@ On [[quasi-elliptic cohomology]] of [[representation spheres]] as an approximati
 
 On 2-[[Cohomotopy]] [[cocycle spaces]] of (hence of [[mapping spaces]] into the [[2-sphere]] from) [[surfaces]]:
 
+* {#STHu46} [[Sze-Tsen Hu]]: *Concerning the homotopy groups of the components of the mapping space $Y^{S^p}$*, Indagationes Math. **8** (1946) 623—629 &lbrack;[pdf](https://dwc.knaw.nl/DL/publications/PU00018263.pdf), [[STHu-MappingSpace.pdf:file]]&rbrack;
+
 * {#Federer56} [[Herbert Federer]] p 357-8 in: *A Study of Function Spaces by Spectral Sequences*, Transactions of the AMS **82** 2 (1956) 340-361 \[<a href="https://doi.org/10.2307/1993052">doi:10.2307/1993052</a>, [jstor:1993052](https://www.jstor.org/stable/1993052)\]
+
+* {#Koh60} S. S. Koh: *Note on the properties of the components of the mapping spaces $X^{S^p}$*, Proc. of the AMS **11** (1960) 896-904 &lbrack;[[Koh-MappingSpace.pdf:file]]&rbrack;
+
 
 * {#Dyer67} [[Michael N. Dyer]], p 1228 in: *Two Term Conditions in π Exact Couples*, Canadian Journal of Mathematics **19**  (1967) 1263-1288 \[<a href="https://doi.org/10.4153/CJM-1967-116-6">doi:10.4153/CJM-1967-116-6</a>\]
 
@@ -1284,6 +1419,7 @@ Discussion of [[smooth functions]] into the [[4-sphere]] in the context of [[Con
 * {#ChamseddineConnesMukhanov14} [[Ali Chamseddine]], [[Alain Connes]], Viatcheslav Mukhanov, _Geometry and the Quantum: Basics_, JHEP 12 (2014) 098 ([arXiv:1411.0977](https://arxiv.org/abs/1411.0977))
 
 * {#Connes17} [[Alain Connes]], section 4 of _Geometry and the Quantum_, in _Foundations of Mathematics and Physics One Century After Hilbert_, Springer 2018. 159-196 ([arXiv:1703.02470](https://arxiv.org/abs/1703.02470), [doi:10.1007/978-3-319-64813-2](https://www.springer.com/gp/book/9783319648125))
+
 
 
 
