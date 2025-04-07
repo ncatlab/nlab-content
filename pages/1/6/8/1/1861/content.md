@@ -888,7 +888,7 @@ In contrast, the fundamental group of the free mapping space deviates from this 
       S^2 ,\, S^2
     \big)
     \;\simeq\;
-    \mathbb{Z}_{{2\vert k \vert}}
+    \mathbb{Z}_{2{\vert k \vert}}
     \,.
   $$
 \end{proposition}
