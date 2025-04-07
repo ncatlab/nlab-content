@@ -502,6 +502,9 @@ Discussion in relation to the [[AdS-CFT correspondence]]:
 
 * Yuya Kusuki: *Modern Approach to 2D Conformal Field Theory* &lbrack;[arXiv:2412.18307](https://arxiv.org/abs/2412.18307)&rbrack;
 
+See also:
+
+* Sylvain Ribault: *Exactly solvable conformal field theories* &lbrack;[arXiv:2411.17262](https://arxiv.org/abs/2411.17262)&rbrack;
 
 
 
