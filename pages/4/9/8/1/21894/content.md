@@ -44,4 +44,6 @@ See also
 * Wikipedia, _[Desargues's theorem](https://en.wikipedia.org/wiki/Desargues%27s_theorem)_
 
 [[!redirects Desargues's theorem]]
+[[!redirects Desarguesian plane]]
+[[!redirects Desarguesian]]
 
