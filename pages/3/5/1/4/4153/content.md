@@ -35,6 +35,8 @@ Typical applications of dependent choice include [[Kőnig's lemma]] and the [[Ba
 
 ## Acceptability
 
+The axiom of dependent choice holds in the [[topos]] of [[condensed sets]] and the [[topos]] of [[light condensed sets]], assuming the [[axiom of choice]] in the [[category of sets]]. 
+
 For a number of schools of [[constructive mathematics]], dependent choice is considered an acceptable alternative to full AC, and the principle holds (assuming that it holds in [[Set]]) in quite a few [[toposes]] of interest in which full AC doesn't hold, including all [[presheaf toposes]] and the [[effective topos]].  In fact, it follows from the stronger [[presentation axiom]], which holds in many of these toposes and also has a constructive justification.
 
 Like countable choice, it fails for sheaves over the space of real numbers.
@@ -76,6 +78,8 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{DC}_\mathbb{N}:\prod_{R:\m
 * Wikipedia, [Axiom of dependent choice](https://en.wikipedia.org/wiki/Axiom_of_dependent_choice)
 
 * {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203), [summary](https://felix-cherubini.de/condensed-summary.pdf))
+
+* {#AB24} [[Mathieu Anel]], [[Reid Barton]], *Choice axioms and Postnikov completeness* ([arXiv:2403.19772](https://arxiv.org/abs/2403.19772))
 
 category: foundational axiom
 
