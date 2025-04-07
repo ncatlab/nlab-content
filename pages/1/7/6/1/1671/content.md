@@ -113,6 +113,8 @@ There are also "internal" versions of these axioms.
 
 * {#King2024} Christopher King et al (2024). *Does weak countable choice imply that the Cauchy reals are Dedekind complete?* [MathOverflow](https://mathoverflow.net/questions/461200/does-weak-countable-choice-imply-that-the-cauchy-reals-are-dedekind-complete). 
 
+* {#AB24} [[Mathieu Anel]], [[Reid Barton]], *Choice axioms and Postnikov completeness* ([arXiv:2403.19772](https://arxiv.org/abs/2403.19772))
+
 See also 
 
 * Wikipedia, _[Axiom of countable choice](https://en.wikipedia.org/wiki/Axiom_of_countable_choice)_
