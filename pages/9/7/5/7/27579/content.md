@@ -20,7 +20,7 @@ $A B U V$ is a complete rectangle, $C,W,O$ are its diagonal points and hence $(A
 
 For the second criterium, consider the complete quadrangle $O V W U$, then $A, B$ are two out of 3 diagonal points, the third pair of the mutually opposite sides in the criterium are $O W$ and $V U$ (their intersection is the third diagonal point).
 
-Now, one has to prove that if one takes $A,B,C$ distinct points that there is a unique $D$ with above properties. In the synthetic approach this means that the choice of points $U,V$ with $U,V,C$ colinear (or equivalently, the  choice of points $U, O$) does not affect the position of $D$ in the construction. This however uses the fact that the plane is Desarguesian. For the projective planes over a commutative field this is hence automatic. 
+Now, one has to prove that if one takes $A,B,C$ distinct points that there is a unique $D$ with above properties, that is the construction does not depend on the choice of the points $V$ and $O$ (or equivalently, $U$ and $V$). In the synthetic approach this means that the choice of points $U,V$ with $U,V,C$ colinear (or equivalently, the  choice of points $U, O$) does not affect the position of $D$ in the construction. This however uses the fact that the plane is [[Desarguesian]]. For the projective planes over a commutative field this is hence automatic. 
 
 ## Literature
 
