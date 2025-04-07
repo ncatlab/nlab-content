@@ -36,6 +36,8 @@ The effective topos is the category obtained from the category of sets by first 
 
 * [[topos of recursive sets|recursive topos]]
 
+* [[effective 2-topos]]
+
 ## References
 
 Reviews include 
