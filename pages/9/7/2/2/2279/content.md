@@ -72,3 +72,5 @@ Just as the archetypical example of an ordinary [[topos]] (i.e. a [[(1,1)-topos]
 [[!redirects higher topos]]
 [[!redirects higher toposes]]
 [[!redirects higher topoi]]
+
+[[!redirects higher topos theoretic]]
