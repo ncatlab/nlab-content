@@ -2813,6 +2813,21 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > Following recent technological advancements in experimental platforms such as circuit QED and ultracold atoms, the last decade has seen a growing interest in atom-photon bound states, which typically arise when a qubit is coupled to an engineered photonic lattice. Such states are key to a number of interesting effects such as fractional decay and, most of all, decoherence-free dipole-dipole interactions with potential applications for quantum information processing tasks. Here, we will present a (hopefully friendly) introduction to such states and the physics they give rise to. In the final part of the talk, we will show their generalization to the case of so called giant atoms. A giant atom is a new emergent paradigm of quantum optics; it is an artificial emitter that can couple to the field non-locally and as such can no longer be modelled as point-like system like in traditional quantum optics.
 
+\linebreak
+
+### Apr 2025
+
+* 7 Apr 2025
+
+  [[Simon Devitt]] (University of Technology Sydney)
+
+  > [[quantum communication|Quantum communications]] networks are an important component in the [[quantum technology]] ecosystem. Currently in their infancy, quantum communication systems currently consist of point to point connections that are primary used for [[quantum key distribution]] protocols. Despite this infancy, there has been significant technological investment and progress, with several countries, most notably the Chinese, launching successful satellite systems demonstrating both Quantum Key Distribution and [[quantum entanglement|entanglement]] distribution over distances up to $1,200 km$. Despite these achievements, the theoretical design and experimental construction of a quantum network that would mimic the distance and speed performance of the classical internet has been elusive. Specifically, the network performance of quantum repeater or quantum satellite systems, even under optimistic engineering assumptions, would be orders of magnitude worse than the classical internet, precluding the development of a quantum internet that would augment, or perhaps in the future, replace the current classical internet.
+
+  > Our solution is a quantum variant of the sneakernet principle of network design. A downside of classical sneakernets is the issue of information latency. If the shipping route, for example, takes days, in not weeks, to transfer information from source to receiver then there is a significant latency between when the information is loaded onto a memory unit and when it is read out at the receiving end. In contrast, a quantum sneakernet does not suffer from significant latency on information transfer. Unlike a classical sneakernet, a quantum sneakernet does not transfer actual information. Instead, a quantum sneakernet distributes a quantum resource that can later be used for [[quantum teleportation|information teleportation]] protocols. Hence, this resource state is distributed slowly, offline, before any information is transmitted. We essentially prepare a virtual quantum “information pipeline” using sneakernet principles which can then be consumed at a later time to transmit quantum information.
+
+  > In this work we describe large-scale quantum network architectures that are based on quantum sneakernet principles. We outline the basic information transfer protocols, what are the requirements of the quantum technology to realise this type of network and how a quantum sneakernet can be used to form a high-bandwidth, low error rate truck system to a quantum internet.
+
+
 
 \linebreak
 
@@ -3909,6 +3924,8 @@ Neumann algebras**
   [[Tim Hosgood]] (Topos Institute, Oxford, UK):
 
   **Čech data for holomorphic Chern classes**
+
+  slides: [pdf](https://thosgood.com/assets/files/cech-data-holomorphic-chern.pdf), [[Hosgood-CQTSMar2025.pdf:file]]
 
   cf.: [arXiv:2003.10023](https://arxiv.org/abs/2003.10023)
 
