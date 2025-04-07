@@ -359,6 +359,10 @@ Suppose that $\Omega$ is closed under the empty type $\emptyset$ represented in 
 The [[universe of all propositions]] $\mathrm{Prop}$ does not satisfy [[propositional resizing]]. 
 \end{theorem}
 
+## Directed univalence
+
+Suppose that the [[dependent type theory]] has [[hom-types]] $\mathrm{hom}_A(a, b)$. Then [[directed univalence]] for a type of propositions $(\Omega, \mathrm{El})$ with $P:\Omega \vdash \mathrm{El}(P)$ a [[covariant type family]] states that for all propositions $P$ and $Q$, there is an [[equivalence of types]] between $\mathrm{hom}_\Omega(P, Q)$ and $\mathrm{El}(P) \to \mathrm{El}(Q)$. Directed univalence for the type of propositions implies [[propositional extensionality]]. 
+
 ## Categorical semantics
 
 The [[categorical semantics]] of the type of all propositions is the [[subobject classifier]]. 
