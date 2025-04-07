@@ -35,6 +35,7 @@ These taboos are unprovable in [[neutral constructive mathematics]].
 * [[choice operator]]
 * [[presentation axiom]]
 * [[dependent choice]]
+* [[countable choice]]
 * [[Brouwer's continuity principle]]
 
 ### Weakly predicative-constructive taboos
