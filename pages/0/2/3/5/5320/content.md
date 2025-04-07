@@ -22,4 +22,8 @@ Duality of dg-algebras vs. dg-coalgebras is studied in
 
 * [[Mathieu Anel]], [[André Joyal]], _Sweedler Theory for (co)algebras and the bar-cobar constructions_, 260 pp. [arxiv/1309.6952](https://arxiv.org/abs/1309.6952); cf. also Boston 2012 [slides](http://thales.math.uqam.ca/~anelm/mat/doc/boston.pdf)
 
+On choice axioms and Postnikov completeness:
+
+* {#AB24} [[Mathieu Anel]], [[Reid Barton]], *Choice axioms and Postnikov completeness* ([arXiv:2403.19772](https://arxiv.org/abs/2403.19772))
+
 category: people
