@@ -83,7 +83,7 @@ Further discussion (some in the context of the [[framed little disk operad]]):
 
 * [[Christoph Schweigert]], [[Lukas Woike]]: *The differential graded Verlinde Formula and the Deligne Conjecture*, Proc. Lond. Math. Society **126** 6 (2023) 1811-1841 &lbrack;[arXiv:2105.01596](https://arxiv.org/abs/2105.01596)&rbrack;
 
-* Francesca Aicardi, Jesús Juyumaya, Paolo Papi: *Framization and Deframization* &lbrack[arXiv:2405.10809](https://arxiv.org/abs/2405.10809)&rbrack;
+* Francesca Aicardi, Jesús Juyumaya, Paolo Papi: *Framization and Deframization* &lbrack;[arXiv:2405.10809](https://arxiv.org/abs/2405.10809)&rbrack;
 
 * [[Lukas Woike]]: *The Cyclic and Modular Microcosm Principle in Quantum Topology* &lbrack;[arXiv:2408.02644](https://arxiv.org/abs/2408.02644)&rbrack;
 
