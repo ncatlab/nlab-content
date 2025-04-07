@@ -659,4 +659,6 @@ Generalization to [[equivariant cohomotopy]] and [[equivariant cohomology]]
 
 [[!redirects Hopf theorem]]
 
+[[!redirects Hopf degree]]
+[[!redirects Hopf degrees]]
 
