@@ -160,6 +160,9 @@ A model structure on $Cat$ but localized such as to make the fibrant objects be 
 
 * {#Sharma23} [[Amit Sharma]], *Picard groupoids and $\Gamma$-categories*, [[Cahiers]] **LXIV** 3 (2023) &lbrack;[arXiv:2002.05811](https://arxiv.org/abs/2002.05811), [pdf](http://cahierstgdc.com/wp-content/uploads/2023/07/SHARMA_LXIV-3.pdf)&rbrack;
 
+(insert description of article here):
+
+* {#Hughes25} [[Calum Hughes]], *The algebraic internal groupoid model of Martin-Löf type theory* ([arXiv:2503.17319](https://arxiv.org/abs/2503.17319))
 
 [[!redirects natural model structure on groupoids]]
 
