@@ -132,6 +132,11 @@ Discussion for [[curved spacetimes]]:
 
 * [[M. D. Pollock]], *On the Dirac equation in curved space-time*, Acta Physica Polonica B **41** (2010) &lbrack;[InSpire:874211](https://inspirehep.net/literature/874211), [pdf](https://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=41&page=1827)&rbrack;
 
+Discussion in for [[chiral fermions]] ([[Weyl spinors]]):
+
+* I. P-Castro, J. L. Díaz-Cruz, A. Pérez-Lorenzana: *Discrete Symmetries in the Chiral Fermion Formalism* &lbrack;[arXiv:2504.02849](https://arxiv.org/abs/2504.02849)&rbrack;
+
+
 
 See also:
 
