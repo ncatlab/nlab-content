@@ -225,7 +225,7 @@ Virtual double categories can be viewed as "the natural place in which to enrich
 
 * [[double category]]
 * [[virtual equipment]]
-* [[hypervirtual double category]]
+* [[augmented virtual double category]]
 
 ## References
 
