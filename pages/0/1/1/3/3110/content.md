@@ -451,6 +451,10 @@ Discussion for [[internal categories]] more generally in [[finitely complete cat
 
 * [[Tomas Everaert]], [[Rudger W. Kieboom]], [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories **15** 3 (CT2004) 66-94 &lbrack;[tac:15-03](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html)&rbrack;
 
+(insert description of article here):
+
+* {#Hughes25} [[Calum Hughes]], *The algebraic internal groupoid model of Martin-Löf type theory* ([arXiv:2503.17319](https://arxiv.org/abs/2503.17319))
+
 [[!redirects canonical model structure on Cat]]
 [[!redirects canonical model structure on categories]]
 [[!redirects natural model structure on Cat]]
