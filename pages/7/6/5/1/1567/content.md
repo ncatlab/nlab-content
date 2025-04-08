@@ -233,7 +233,7 @@ The functorial nature of the correspondence means that morphisms of finite poset
 
 It follows from Birkhoff's representation theorem that every finite distributive lattice can be seen as a lattice of sets (i.e. sets with join and meet given by union and intersection) -- in particular, sets whose elements are the join-irreducible elements of the lattice. Furthermore, a good intuition for why this duality holds is that either an element is generated as the join of existing elements, or it is join-irreducible. Hence given any existing poset, we can simply add all missing joins, and also a bottom (i.e. the nullary join). By general results (the adjoint functor theorem for posets) this suffices to ensure that all meets exist as well. This is analogous to the free colimit completion of a category, and indeed Birkhoff representation can be seen as a very special case of the Yoneda lemma as applied to (0,1)-category theory (i.e., order theory), since (0,1)-presheaves are functors into Bool rather than Set and hence correspond to [[lower set]]s.
 
-Birkhoff duality does not hold for infinite distributive lattices. However, in the general case of not-necessarily-finite distributive lattices there is a correspondence not to posets, but instead to a class of spaces known as [[Priestley spaces]]. This is an instance of a general phenomena known as Stone-type duality.
+Birkhoff duality does not hold for infinite distributive lattices. However, in the general case of not-necessarily-finite distributive lattices there is a correspondence not to posets, but instead to a class of spaces known as [[Priestley spaces]] or [[coherent spaces]]. In [[constructive mathematics]], one needs to use [[coherent locales]] for the correspondence to distributive lattices. This is an instance of a general phenomena known as Stone-type duality.
 
 ### The free distributive lattice
 
@@ -260,7 +260,9 @@ The [[completely distributive lattice|completely distributive]] [[algebraic latt
 
 * [[Priestley space]]
 
-* [[coherent locale]]
+* [[coherent space]], [[coherent locale]]
+
+* [[coherent category]]
 
 ## References
 
