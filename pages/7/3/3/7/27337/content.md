@@ -93,7 +93,7 @@ $$\frac{\Gamma, X \; \mathrm{type} \vdash P(X) \; \mathrm{type} \quad \Gamma \vd
 
 ### Identity types between types
 
-Type variables allow for the formation of [[identity #IdentityTypesBetweenTypes|identity types between types]]. 
+Type variables allow for the formation of [[identity type#IdentityTypesBetweenTypes|identity types between types]]. 
 
 * Formation rule for identity types between types:
 
@@ -250,7 +250,7 @@ $$\mathrm{rec}_\mathbb{N}^{T_0, T_s}(0) \equiv T_0 \; \mathrm{type}$$
 
 and 
 
-$$n:\mathbb{N} \vdash \mathrm{rec}_\mathbb{N}^{T_0, T_s}(s(n)) \equiv T_s(n, \mathrm{rec}_\mathbb{N}^{T_0, T_s}(n) \; \mathrm{type}$$
+$$n:\mathbb{N} \vdash \mathrm{rec}_\mathbb{N}^{T_0, T_s}(s(n)) \equiv T_s(n, \mathrm{rec}_\mathbb{N}^{T_0, T_s}(n)) \; \mathrm{type}$$
 
 It is clear that type variables are needed, since otherwise the second requirement in the large recursion principle that we have a family of types $n:\mathbb{N}, X \; \mathrm{type} \vdash T_s(n, X) \; \mathrm{type}$ will not be possible. 
 
@@ -306,3 +306,6 @@ Some discussion about extending dependent type theory with type variables occurs
 
 [[!redirects dependent type theory with type variables]]
 [[!redirects dependent type theories with type variables]]
+
+[[!redirects type variable]]
+[[!redirects type variables]]
