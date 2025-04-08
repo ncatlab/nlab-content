@@ -84,15 +84,15 @@ $$
 
 ### Construction in terms of spectrum objects
 
-Concretely, for any $C$ with finite limits, $Stab(C)$ may be constructed as the category of [[spectrum object]]s of $C_*$:
+Let $\mathscr{S}^{fin} \subseteq \mathscr{S}$ be the full subcategory of spaces generated under finite colimits by the point (i.e. the finite CW-complexes, for concreteness) and let $\mathscr{S}^{fin}_*$ be the category of pointed objects in $\mathscr{S}^{fin}$. For any category $C$ with finite limits, $Stab(C)$ may be constructed as the category of [[spectrum object]]s of $C$, that is [[n-reduced (∞,1)-functor|reduced]] [[excisive (∞,1)-functor|excisive]] functors from $\mathscr{S}^{fin}_*$ to $C$:
 
 $$
-  Stab(C) = Sp(C_*)
+  Stab(C) = \mathrm{Exc}_*(\mathscr{S}^{\mathrm{fin}}_*, C)
   \,.
 $$ 
 
 
-This is definition 8.1, 8.2 in [StabCat](http://arxiv.org/abs/math/0608228)
+This is [Higher Algebra, Definition 1.4.2.8](#HA). One sees, in particular, that $Stab(C) \cong Stab(C^{*/})$: stabilizing $C$ is the same as stabilizing the category of pointed objects in $C$.
 
 
 ### Construction in terms of stable model categories
@@ -109,7 +109,7 @@ For classical discussion see also *[[spectrification]]* and the *[[Bousfield-Fri
 
 Prop 15.4 (2) of [StabCat](http://arxiv.org/abs/math/0608228).
 
-* stabilization is _not_ in general functorial on all of $(\infty, 1)Cat$. It's failure of being functorial, and approximations to it, are studied in [[Goodwillie calculus]].
+* stabilization extends to a functor $Cat^{lex}_{\infty} \to Cat^{ex}_{\infty}$., i.e. from the (large) category of $\infty$-categories with finite limits and left exact functors between them to the (large) category of stable $\infty$-categories and exact functors. The stabilization of a left exact functor $F\colon C\to D$ is the functor $\mathrm{Exc}_*(\mathscr{S}^{\mathrm{fin}}_*, C) \to \mathrm{Exc}_*(\mathscr{S}^{\mathrm{fin}}_*, D)$ given by post-composition with $F$. This requires crucially $F$ to be left exact in order to be well-defined! However, it turns out that stabilization can _also_ be made functorial in another situation: that of reduced functors $F\colon C \to D$ between [[Goodwillie-differentiable (infinity,1)-category|differentiable]] $\infty$-categories that preserve sequential colimits. The image of $F$ under the stabilization functor is called in this case the _linearization_ ([(infinity,2)-Categories and the Goodwillie Calculus, Definition 5.1.5](#GC)) or the _derivative_ ([Higher Algebra, Definition 6.2.1.1](#HA)) of $F$. (While these objects may be defined for a more general functor $F$, these hypotheses are needed in order to have functoriality, i.e. in order for the chain rule ([Higher Algebra, Corollary 6.2.1.24](#HA)) to hold). The derivative of $F$ is strictly linked with the first approximation of $F$, as defined in [[Goodwillie calculus]].
 
 \begin{proposition}
 In the case of ordinary homotopy types (at least), the stabilization adjunction 
@@ -146,9 +146,13 @@ An object in $Stab(Set)$ is a sequence of [[pointed sets]] $(E_0, E_1, \ldots)$ 
 
 A general discussion in the context of [[(∞,1)-category theory]] is in  
 
-* [[Jacob Lurie]], section 1.4 of: _[[Higher Algebra]]_
+* {#HA} [[Jacob Lurie]], section 1.4 of: _[[Higher Algebra]]_
 
 * [[Jacob Lurie]], section 1 of: _[[Spectral Schemes]]_
+
+An exposition of Goodwillie calculus and its role in making stabilization functorial can be found in [Higher Algebra](#HA), Section 6, and in
+
+* {#GC} [[Jacob Lurie]], section 5 of: _[[(infinity,2)-Categories and the Goodwillie Calculus]]_
 
 Discussion of stabilization as inversion of smashing with a suspension objects, and the relation between stabilization of [[(∞,1)-categories]] (to [[stable (∞,1)-categories]]) and of [[model categories]] (to [[stable model categories]]) in
 
