@@ -225,6 +225,10 @@ Applications to localizations of presentable (∞,1)-categories are discussed in
 
 * [[Carles Casacuberta]], [[Javier J. Gutiérrez]], _Homotopy reflectivity is equivalent to the weak Vopěnka principle_, [arXiv](https://arxiv.org/abs/2410.21244).
 
+Some discussion on Vopěnka's principle in the context of a [[polynomial function]] whose [[Lebesgue measure|Lesbegue measurability]] is independent of [[ZFC]] occurs in:
+
+* [[James E. Hanson]], *Any function I can actually write down is measurable, right?* ([arXiv:2501.02693](https://arxiv.org/abs/2501.02693))
+
 category: foundational axiom
 
 [[!redirects Vopěnka's principle]]
