@@ -9,13 +9,17 @@
 =--
 =--
 
-This entry is about the book
+This entry is to record the reference
 
 * [[Pierre Gabriel]], [[Michel Zisman]]:
 
+  \linebreak
+
   **Calculus of fractions and homotopy theory** 
 
-  Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, 
+  \linebreak
+
+  Ergebnisse der Mathematik und ihrer Grenzgebiete **35** 
 
   Springer (1967) 
  
