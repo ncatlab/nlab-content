@@ -46,15 +46,14 @@ recovers the classical Stone duality.
 
 ## Coherent locales
 
-A [[locale]] is coherent if its compact elements
-are closed under finite meets
-and any element is a join of compact elements.
+A [[locale]] is coherent if its [[compact elements]]
+are closed under finite meets and any element is a join of compact elements.
 
 A morphism of coherent locales is a morphism $f$ of [[locales]]
 such that $f^*$ preserves compact elements.
 
 Assuming the [[axiom of choice]], coherent locales are
-automatically spatial.
+automatically spatial, and are equivalent to the category of [[Priestley spaces]]. 
 
 The category of coherent locales is contravariantly equivalent
 to the category of [[distributive lattices]].
@@ -64,6 +63,8 @@ unlike the point-set version above.
 ## Related notions
 
 * [[coherent topos]]
+
+* [[Priestley space]]
 
 ## References
 
@@ -91,3 +92,6 @@ See also:
 [[!redirects coherent spaces]]
 [[!redirects coherent locale]]
 [[!redirects coherent locales]]
+
+[[!redirects coherent map]]
+[[!redirects coherent maps]]
