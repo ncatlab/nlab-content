@@ -295,6 +295,8 @@ $$
 
   * [[simplicial set]]
 
+  * [[simplicial infinity-groupoid]]
+
 * [[semi-simplicial object]]
 
   * [[semisimplicial set]]
