@@ -36,10 +36,13 @@ following
 
 * [[Andrew M. Steane]], *Multiple Particle Interference and Quantum Error Correction*,  	Proc. Roy. Soc. Lond. A452 (1996) 2551 ([arXiv:quant-ph/9601029](https://arxiv.org/abs/quant-ph/9601029))
 
+Textbook account:
+
+* [[Michael A. Nielsen]], [[Isaac L. Chuang]], chapter 10.5 of: *Quantum computation and quantum information*, Cambridge University Press (2000) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
 
 
-Review:
+Further review:
 
 * {#BallCentellesHuber20} Simeon Ball, Aina Centelles, Felix Huber, Section 2 of: *Quantum error-correcting codes and their geometries* ([arXiv:2007.05992](https://arxiv.org/abs/2007.05992))
 
