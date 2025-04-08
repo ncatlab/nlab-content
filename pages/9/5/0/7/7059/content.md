@@ -348,6 +348,8 @@ We give the [[Coq]]-formalization of [Differential cohomology](http://ncatlab.or
 
 * [[differential homotopy type theory]]
 
+* [[simplicial type theory]]
+
 ## References
  {#References}
 
