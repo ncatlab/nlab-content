@@ -205,6 +205,11 @@ As mentioned above, the Cantor-Schroeder-Bernstein theorem fails in the arrow ca
 
 Nor can one have internal existence of an isomorphism between $X$ and $Y$ in this last example, since internal existence implies external existence as soon as the terminal object is (externally) projective.
 
++-- {: .num_example #effectivetopos} 
+###### Example 
+There is an [[effective topos]] with an injection from the [[Baire space of sequences]] $\mathbb{N}^\mathbb{N}$ to the [[natural numbers]] $\mathbb{N}$. The constant functions on the natural numbers give an injection from $\mathbb{N}$ to $\mathbb{N}^\mathbb{N}$. However, due to [[Lawvere's fixed point theorem]], there is no bijection between $\mathbb{N}$ and $\mathbb{N}^\mathbb{N}$. 
+=--
+
 In fact, the CSB theorem is equivalent in [[constructive mathematics]] (with the [[axiom of infinity]]) to the [[law of excluded middle]].  This was shown in [Pradic and Brown, 2019](#PB19) using the [[principle of omniscience]] for the [[extended natural numbers]].
 
 
