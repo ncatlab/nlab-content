@@ -3,6 +3,8 @@
 
 ## Selected writings
 
+* [[Stavros Garoufalidis]], [[Peter Scholze]], [[Campbell Wheeler]], [[Don Zagier]], *The Habiro ring of a number field* ([arXiv:2412.04241](https://arxiv.org/abs/2412.04241))
+
 On [[p-adic Hodge theory]]:
 
 * {#Scholze13} [[Peter Scholze]], _p-adic Hodge theory for rigid-analytic varieties_, Forum of Mathematics, Pi, 1, e1 2013. [arXiv:1205.3463](https://arxiv.org/abs/1205.3463)
@@ -24,6 +26,8 @@ On the [[local Langlands conjecture]]:
 
 * [[Laurent Fargues]], [[Peter Scholze]], _Geometrization of the local Langlands correspondence_ ([pdf](http://www.math.uni-bonn.de/people/scholze/Geometrization.pdf))
 
+* {#Scholze25} [[Peter Scholze]], *Geometrization of the local Langlands correspondence, motivically* ([arXiv:2501.07944](https://arxiv.org/abs/2501.07944))
+
 On [[condensed mathematics]] and [[analytic geometry]]:
 
 * {#ScholzeLCM} [[Peter Scholze]], _Lectures on condensed mathematics_, [pdf](https://www.math.uni-bonn.de/people/scholze/Condensed.pdf)
@@ -31,6 +35,10 @@ On [[condensed mathematics]] and [[analytic geometry]]:
 * {#ScholzeLAG} [[Peter Scholze]], _Lectures on analytic geometry_, [pdf](https://www.math.uni-bonn.de/people/scholze/Analytic.pdf)
 
 * [[Dustin Clausen]], [[Peter Scholze]], _Condensed Mathematics and Complex Geometry_, [pdf](https://people.mpim-bonn.mpg.de/scholze/Complex.pdf)
+
+On [[Berkovich motives]]:
+
+* [[Peter Scholze]], *Berkovich Motives* ([arXiv:2412.03382](https://arxiv.org/abs/2412.03382))
 
 ## Related entries
 
@@ -47,6 +55,8 @@ On [[condensed mathematics]] and [[analytic geometry]]:
 * [[shtuka]]
 
 * [[prismatic cohomology]]
+
+* [[Berkovich motive]]
 
 category: people
 
