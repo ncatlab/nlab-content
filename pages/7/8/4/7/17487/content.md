@@ -1,5 +1,5 @@
 
-* [webpage](http://wwwmath.uni-paderborn.de/~hubery/)
+* [webpage](https://www.math.uni-bielefeld.de/~hubery/)
 
 ## related $n$Lab entries
 
