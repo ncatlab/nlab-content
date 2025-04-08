@@ -546,15 +546,21 @@ The argument may be found spelled out in: [MO:a/1645794/](https://math.stackexch
 
 * [[classical model structure on pointed topological spaces]]
 
+
+
 ## References
 
 Textbook accounts:
 
-* {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], Chapters IV.4 and V.7 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967)  ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
+* {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], Chapters IV.4 and V.7 of: _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967) &lbrack;[doi:10.1007/978-3-642-85844-4](https://link.springer.com/book/10.1007/978-3-642-85844-4), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf)&rbrack;
 
 * {#Bredon93} [[Glen Bredon]]: *Topology and Geometry*, Graduate Texts in Mathematics **139**, Springer (1993) &lbrack;[doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0), [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf)&rbrack;
 
 * [[Ioan Mackenzie James]], Chapter 3 of: *General Topology and Homotopy Theory*, Springer (1984) &lbrack;[doi:10.1007/978-1-4613-8283-6](https://doi.org/10.1007/978-1-4613-8283-6)&rbrack;
+
+
+* [[Jeffrey Strom]], section 3.6 in: *Modern classical homotopy theory*, Graduate Studies in Mathematics **127**, American Mathematical Society (2011) \[<a href="http://www.ams.org/books/gsm/127">ams:gsm/127</a>\]
+
 
 
 Review:
