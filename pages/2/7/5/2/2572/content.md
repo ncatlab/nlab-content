@@ -82,7 +82,7 @@ A $C^*$-subalgebra $A \subseteq C(X, \mathbb{C})$ is dense if and only if it sep
 
 =--
 
-There is also a [[locally compact space|locally compact]] version. Let $X$ be a locally compact Hausdorff space and let $C_0(X)$ be the space of (say real-valued) functions $f$ which "vanish at infinity": for every $\varepsilon \gt 0$ there exists a compact set $K \subseteq X$ such that $|f(x)| \lt \varepsilon$ for all $x$ outside $K$. ($C_0(X)$ is no longer a Banach space, but it is [[locally convex topological vector space|locally convex]] and complete in its [[uniform space|uniformity]], and a Fr&#233;chet space if $X$ is second countable.) Under pointwise multiplication, $C_0(X)$ is a commutative algebra _without_ unit. As before, we have a notion of subalgebra $A \subseteq C_0(X)$. 
+There is also a [[locally compact space|locally compact]] version. Let $X$ be a locally compact Hausdorff space and let $C_0(X)$ be the space of (say real-valued) functions $f$ which "vanish at infinity": for every $\varepsilon \gt 0$ there exists a compact set $K \subseteq X$ such that $|f(x)| \lt \varepsilon$ for all $x$ outside $K$. Under pointwise multiplication, $C_0(X)$ is a commutative algebra _without_ unit. As before, we have a notion of subalgebra $A \subseteq C_0(X)$. 
 
 +-- {: .un_thm}
 ###### Theorem
