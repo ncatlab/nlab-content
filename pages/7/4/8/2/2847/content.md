@@ -56,6 +56,10 @@ A general axiomatic framework for large cardinal axioms is proposed in
 
 * Arthur Apter, Carlos Diprisco, James Henle, William Swicker, _Filter spaces. II. Limit ultraproducts and iterated embeddings_, Acta Cient. Venezolana 40 (1989), no. 5-6, 311&#8211;318.
 
+Some discussion on large cardinal axioms in the context of a [[polynomial function]] whose [[Lebesgue measure|Lesbegue measurability]] is independent of [[ZFC]] occurs in:
+
+* [[James E. Hanson]], *Any function I can actually write down is measurable, right?* ([arXiv:2501.02693](https://arxiv.org/abs/2501.02693))
+
 [[!redirects large cardinal]]
 [[!redirects large cardinals]]
 
