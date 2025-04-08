@@ -43,12 +43,15 @@ The (non-full) [[sub-(∞,1)-category]] of [[(∞,1)Cat]] on [[(∞,1)-toposes]]
 
 * [[cohesive (infinity,1)-topos|cohesive $\infty$-topos]]
 
+* [[point of an (infinity,1)-topos]]
 
 ## Related concepts
 
 * [[geometric morphism]]
 
 * [[terminal geometric morphism]]
+
+* [[point of an (infinity,1)-topos]]
 
 ## References
 
