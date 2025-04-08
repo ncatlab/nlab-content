@@ -77,6 +77,8 @@ These are presented by [[simplicial group]]s. Notably, abelian simplicial groups
 
 * [[∞Grpd]]
 
+* [[simplicial infinity-groupoid]]
+
 * [[homotopy hypothesis]], [[test category]], [[modelizer]]
 
 
