@@ -97,7 +97,7 @@ If one views an element of $O(X)$ as a [[subspace]] of $X$, one usually means to
 
 As a locale, the __abstract [[point]]__ is the locale $1$ whose frame of opens is the frame of [[truth values]] (classically $\{\bot \lt \top\}$).  This is the [[terminal object]] in $Locale$, since we must have (for $f\colon X \to 1$) $f^*(\top) = \top_X$ and $f^*(\bot) = \bot_X$ (and most generally $f^*(p) = \bigvee \{\top_X \;|\; p\}$, since $p = \bigvee \{\top \;|\; p\}$).
 
-Given a locale $X$, a __concrete [[point]]__ of $X$ may be defined in any of the following equivalent ways:
+Given a locale $X$, a __concrete [[point of a locale|point]]__ of $X$ may be defined in any of the following equivalent ways:
 
 1.  A point of $X$ is a [[continuous map]] $f\colon 1 \to X$;
 2.  Unravelling this in terms of $f^*\colon O(X) \to O(1)$ and viewing this as a [[characteristic function]], a point of $X$ is a [[completely prime filter]] in $O(X)$;
