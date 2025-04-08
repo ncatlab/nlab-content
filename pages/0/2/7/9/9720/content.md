@@ -28,5 +28,8 @@ A related term is _[[secondary characteristic class]]_.
 
 * [[invariant polynomial]], [[Chern-Simons form]]
 
+## References
+
+* [[Stavros Garoufalidis]], [[Peter Scholze]], [[Campbell Wheeler]], [[Don Zagier]], *The Habiro ring of a number field* ([arXiv:2412.04241](https://arxiv.org/abs/2412.04241))
 
 [[!redirects Chern-Simons invariants]]
