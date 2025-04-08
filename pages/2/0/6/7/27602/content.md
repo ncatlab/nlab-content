@@ -31,3 +31,6 @@ In [[Pos]] the category of [[posets]] and [[monotonic functions]], Phoa's princi
 * {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
 
 * {#CGM} [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *Directed Univalence in Synthetic Stone Duality*, unfinished draft; LaTeX documents can be found [here](https://github.com/felixwellen/synthetic-zariski/tree/main/condensed-univalence). 
+
+[[!redirects Phoa's principle]]
+[[!redirects Phoa principle]]
