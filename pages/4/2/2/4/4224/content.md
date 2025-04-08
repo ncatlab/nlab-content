@@ -46,6 +46,10 @@ Stone duality is often described for [[topological spaces]] rather than for [[lo
 Any [[distributive lattice]] generates a [[free object|free]] frame.  The locales which arise in this way can be characterized as the [[coherent locale]]s, and this gives a duality between distributive lattices and coherent locales.  Note that one must additionally restrict to "coherent maps" between coherent locales.  Also, at least assuming the [[axiom of choice]], every coherent locale is [[topological locale|topological]], so we may say "coherent space" instead.
 
 
+### Priestley spaces and distributive lattices
+
+Assuming the [[axiom of choice]], [[Priestley spaces]] are the [[opposite category]] of [[distributive lattices]]. 
+
 ### Stone spaces and Boolean algebras
  {#StoneSpacesAndBooleanAlgebras}
 
