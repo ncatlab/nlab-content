@@ -312,11 +312,11 @@ Textbook accounts on quantum computation:
 
 * [[Alexei Y. Kitaev]], A. H. Shen, M. N. Vyalyi, *Classical and Quantum Computation*, Graduate Studies in Mathematics **47** (2002) &lbrack;[doi:10.1090/gsm/047](http://dx.doi.org/10.1090/gsm/047)&rbrack;
 
-* [[Ranee K. Brylinski]], [[Goong Chen]] (eds.), *Mathematics of Quantum Computation*, Chapman and Hall/CRC 2002 ([doi:10.1201/9781420035377](https://doi.org/10.1201/9781420035377))
+* [[Ranee K. Brylinski]], [[Goong Chen]] (eds.), *Mathematics of Quantum Computation*, Chapman and Hall/CRC (2002) &lbrack;[doi:10.1201/9781420035377](https://doi.org/10.1201/9781420035377)&rrback;
 
 * [[Giuliano Benenti]], [[Giulio Casati]], [[Davide Rossini]], *Principles of Quantum Computation and Information*, World Scientific (2004, 2018)  ([doi:10.1142/10909](https://doi.org/10.1142/10909), [2004 pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149307696.pdf))
 
-* [[Goong Chen]], [[Louis Kauffman]], [[Samuel J. Lomonaco]] (eds.), *Mathematics of Quantum Computation and Quantum Technology*, Chapman and Hall/CRC (2007) (ISBN:9780367388614, [doi:10.1201/9781584889007](https://doi.org/10.1201/9781584889007))
+* [[Goong Chen]], [[Louis Kauffman]], [[Samuel J. Lomonaco]] (eds.), *Mathematics of Quantum Computation and Quantum Technology*, Chapman and Hall/CRC (2007) &lbrack;ISBN:9780367388614, [doi:10.1201/9781584889007](https://doi.org/10.1201/9781584889007)&rbrack;
 
 * [[Eleanor Rieffel]], [[Wolfgang Polak]], *Quantum Computing -- A gentle introduction*, MIT Press (2011) &lbrack;[ISBN:9780262526678](https://mitpress.mit.edu/9780262526678/quantum-computing/), [pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608150244118.pdf)&rbrack;
 
