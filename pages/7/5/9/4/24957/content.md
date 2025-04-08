@@ -25,4 +25,6 @@ The Emerton-Gee stack is a Noetherian formal [[algebraic stack]]. Its underlying
 
 * {#EmertonGee19} [[Matthew Emerton]], [[Toby Gee]], *Moduli stacks of étale $(\phi, \Gamma)$ modules and the existence of crystalline lifts* ([arXiv:1908.07185](https://arxiv.org/abs/1908.07185))
 
+* [[Rebecca Bellovin]], [[Neelima Borade]], [[Anton Hilado]], [[Kalyani Kansal]], [[Heejong Lee]], [[Brandon Levin]], [[David Savitt]], [[Hanneke Wiersema]], *Irregular loci in the Emerton-Gee stack for $\mathrm{GL}_2$* ([arXiv:2309.13665](https://arxiv.org/abs/2309.13665))
+
 [[!redirects Emerton-Gee stacks]]
