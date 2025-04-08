@@ -140,6 +140,7 @@ See also at _[[category object in an (infinity,1)-category]]_ for more along the
 [[!redirects weak infinity-groupoids]]
 
 [[!redirects anima]]
+[[!redirects animas]]
 
 category:∞-groupoid
 
