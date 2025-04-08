@@ -4,44 +4,18 @@
 
 \linebreak
 
+
 ***
 
-$$
-  (n_i, \sigma)( e_j )
-  \;=\;
-  e^{ \delta_{i \sigma(j)} \alpha_i }
-    \cdot 
-  e_{\sigma(j)}
-$$
+## Clifford gate
 
-$$
-  (n_{i'}, \sigma')
-  \circ
-  (n_i, \sigma)
-    ( e_j )
-  \;=\;
-  (n_{i'}, \sigma')\big(
-    e^{ \delta_{i \sigma(j)} \alpha_i }
-      \cdot 
-    e_{\sigma(j)}
-  \big)
-  \;=\;
-    e^{ \delta_{i',\sigma'(\sigma(j))} \alpha_{i'} }
-    e^{ \delta_{i, \sigma(j)} \alpha_i }
-    e_{\sigma'(\sigma(j))}
-$$
+## References
 
-$$
-  (n_{i'} + n_{\sigma'(i)}, \sigma' \circ \sigma)(e_j)
-  \;=\;
-  e^{ \delta_{i', \sigma'(\sigma(j))} \alpha_{i'} }
-  e^{ \delta_{\sigma'(i), \sigma'(\sigma(j))} \alpha_{\sigma'(i)} }
-  e_{\sigma'(\sigma(j))}
-  \;=\;
-  e^{ \delta_{i', \sigma'(\sigma(j))} \alpha_{i'} }
-  e^{ \delta_{i), \sigma(j)} \alpha_{\sigma'(\sigma(j))} }
-  e_{\sigma'(\sigma(j))}
-$$
+The [[normalizer subgroup]] of the [[Pauli group]] inside the [[general unitary group]] receives attention first on p 5 of:
+
+* [[Daniel Gottesman]]: *A Theory of Fault-Tolerant Quantum Computation*, Phys. Rev. A **57** (1998) 127 &lbrack;[arXiv:quant-ph/9702029](https://arxiv.org/abs/quant-ph/9702029), [doi:10.1103/PhysRevA.57.127](https://doi.org/10.1103/PhysRevA.57.127)&rbrack;
+
+
 
 
 
