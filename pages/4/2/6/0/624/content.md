@@ -48,11 +48,11 @@ Beware that there are other notions of "dual object", distinct from this one. Se
 +-- {: .num_defn #DualizableObject}
 ###### Definition
 
-An object $A$ in a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$ is **dualizable** if it has an [[adjunction|adjoint]] when regarded as a [[morphism]] in the one-object [[delooping]] [[bicategory]] $\mathbf{B}\mathcal{C}$ corresponding to $\mathcal{C}$.  Its adjoint in $\mathbf{B}\mathcal{C}$ is called its **dual** in $C$ and often written as $A^*$.
+An object $A$ in a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$ is **dualizable** if it has an [[adjunction|adjoint]] when regarded as a [[morphism]] in the one-object [[delooping]] [[bicategory]] $\mathbf{B}\mathcal{C}$ corresponding to $\mathcal{C}$.  Its adjoint in $\mathbf{B}\mathcal{C}$ is called its **dual** in $\mathcal{C}$ and often written as $A^*$.
 
 (This notion, though not the terminology, is due to [Lindner 1978](#Lindner78).)
 
-If $C$ is [[braided monoidal category|braided]] then left and right adjoints in $\mathbf{B}C$ are equivalent; otherwise one speaks of $A$ being **left dualizable** or **right dualizable**.  
+If $\mathcal{C}$ is [[braided monoidal category|braided]] then left and right adjoints in $\mathbf{B}\mathcal{C}$ are equivalent; otherwise one speaks of $A$ being **left dualizable** or **right dualizable**.  
 
 Explicitly this means the following:
 
