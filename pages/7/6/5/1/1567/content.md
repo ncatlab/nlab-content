@@ -254,6 +254,10 @@ The [[completely distributive lattice|completely distributive]] [[algebraic latt
 
 * [[Dedekind cube category]]
 
+* [[Phoa's principle]]
+
+* [[flat distributive lattice]]
+
 ## References
 
 * {#A000372} OEIS sequence [A000372](https://oeis.org/A000372)
