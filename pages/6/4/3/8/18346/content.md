@@ -6,6 +6,8 @@
 
 ## Selected writings
 
+* [[Nicolai Kraus]], [[Christian Sattler]], *Space-Valued Diagrams, Type-Theoretically (Extended Abstract)* ([arXiv:1704.04543](https://arxiv.org/abs/1704.04543))
+
 On the [[categorical semantics]] of [[W-types]] by [[initial algebras over an endofunctor]] in [[homotopy type theory]]:
 
 * [[Christian Sattler]], _On relating indexed W-types with ordinary ones_, in *[Types for Proofs and Programs -- TYPES 2015](https://cs.ioc.ee/types15/abstracts-book/)* (2015) 71-72 &lbrack;[pdf](http://cs.ioc.ee/types15/abstracts-book/contrib31.pdf), [[Sattler-WTypes.pdf:file]]&rbrack;
