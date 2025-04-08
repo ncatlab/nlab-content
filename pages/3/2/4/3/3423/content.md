@@ -58,7 +58,7 @@ exhibits $Locale$ as a [[full sub-2-category]] of [[Topos]]. See _[[localic refl
 
 ## Related concepts
 
-* [[category of Priestley spaces]]
+* [[category of coherent locales]]
 
 ## References
 
