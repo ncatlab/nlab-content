@@ -206,6 +206,8 @@ See at _[[KK-theory]]_ in the section _[As an analog of motives in noncommutativ
 
 * [[Fourier-Mukai transform]]
 
+* [[Berkovich motive]]
+
 * See also at _[KK-theory -- Relation to motives](KK-theory#AsAnAnalogOfMotives)_.
 
 * [[motives in physics]]
