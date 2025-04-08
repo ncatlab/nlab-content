@@ -504,6 +504,8 @@ There is also a notion of [[internal locale]], see also [[internal site]].
 
 * [[geometric hyperdoctrine]]
 
+* [[Priestley space]]
+
 ## References 
 
 An early paper, containing much of the basic theory, and in which the term "locale" is introduced: 
