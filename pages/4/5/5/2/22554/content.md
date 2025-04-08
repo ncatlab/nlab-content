@@ -15,7 +15,7 @@
 
 ## Definition
 
-The *Pauli group* $\mathcal{P}_1$ is the [[finite group]] of [[order of a group|order]] 16 which is [[isomorphism|isomorphic]] to the [[subgroup]] of the [[complex numbers|complex]] [[general linear group]] $GL(2,\mathbb{C})$ that consists of the multiples by $\pm 1$ and $\pm i$  of the four [[Pauli matrices]] $\sigma_{0,1,2,3}$:
+The *Pauli group* $\mathcal{P}_1$ is the [[finite group]] of [[order of a group|order]] 16 which is [[isomorphism|isomorphic]] to the [[subgroup]] of the [[complex numbers|complex]] [[general linear group]] $GL(2,\mathbb{C})$ that consists of the multiples by $\pm 1$ and $\pm \mathrm{i}$ (where "$\mathrm{i}$" denotes the [[imaginary unit]])  of the four [[Pauli matrices]] $\sigma_{0,1,2,3}$:
 
 \[
   \label{PauliGroupAsMatrixSubgroup}
@@ -80,15 +80,16 @@ $$
   \;\coloneqq\;
   \left[
   \array{
-    0 & -i 
+    0 & -\mathrm{i} 
     \\
-    i & 0
+    \mathrm{i} & 0
   }
   \right]
   \,.
 $$
 
-In [[quantum information theory]] one often considers the higher Pauli group $\mathcal{P}_n$ whose elements are (multiples by $\pm 1$, $\pm i$) of $n$-fold [[tensor products of vector spaces|tensor products]] of the Pauli matrices.
+In [[quantum information theory]] one often considers the *higher Pauli groups* $\mathcal{P}_n$ whose elements are (multiples by $\pm 1$, $\pm \mathrm{i}$) of $n$-fold [[tensor products of vector spaces|tensor products]] of the Pauli matrices.
+
 
 ## Properties
 
@@ -104,11 +105,11 @@ The [[quaternion group]] $Q$ is the ([[normal subgroup|normal]]) [[subgroup]] of
   \big\{
     \pm \sigma_0,
     \,
-    \pm i\sigma_1,
+    \pm \mathrm{i}\sigma_1,
     \,
-    \pm i\sigma_2,
+    \pm \mathrm{i}\sigma_2,
     \,
-    \pm i\sigma_3,
+    \pm \mathrm{i}\sigma_3,
   \big\}
   \;\subset\;
   GL(2,\mathbb{C})
@@ -124,11 +125,17 @@ $$
   \,.
 $$
 
+
 ## Related concepts
 
 * [[stabilizer code]]
 
 ## References
+
+In the comtext of [[quantum computing]]:
+
+* [[Michael A. Nielsen]], [[Isaac L. Chuang]], around (10.81) of: *Quantum computation and quantum information*, Cambridge University Press (2000, 2010) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
+
 
 See also:
 
