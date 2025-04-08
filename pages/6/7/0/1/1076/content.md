@@ -204,7 +204,7 @@ If TR5 is not required, one speaks of a **pretriangulated category**.
 
 This classical definition is redundant; TR4 and one direction of TR3 follow from the remaining axioms.  See ([May](#May)).
 
-The octahedral axiom has many equivalent formulations, a concise account is in ([Hubery](#Hubery)). Notice that one of the equivalent axioms, called axiom B, there, is essentially just an axiomatization of the existence of [[homotopy pushouts]].
+The octahedral axiom has many equivalent formulations, a concise account is given by [Hubery](#Hubery). Notice that one of the equivalent axioms, called axiom B, there, is essentially just an axiomatization of the existence of [[homotopy pushouts]].
 
 =--
 
@@ -576,8 +576,7 @@ Other surveys:
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], Section 10 of: *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
 
-
-* {#Hubery} [[Andrew Hubery]], _Notes on the octahedral axiom_, ([pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=2246900fb2f9694d965b6b6482f76d4d3c6b1206))
+* {#Hubery} [[Andrew Hubery]]: *Notes on the octahedral axiom* &lbrack;[pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=2246900fb2f9694d965b6b6482f76d4d3c6b1206), [[Hubery-OctahedralAxiom.pdf:file]]&rbrack;
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], section 10 _[[Categories and Sheaves]]_, 
 
