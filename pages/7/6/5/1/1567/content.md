@@ -260,6 +260,8 @@ The [[completely distributive lattice|completely distributive]] [[algebraic latt
 
 * [[Priestley space]]
 
+* [[coherent locale]]
+
 ## References
 
 * {#A000372} OEIS sequence [A000372](https://oeis.org/A000372)
