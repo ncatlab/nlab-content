@@ -16,6 +16,8 @@ In particular, if $L$ is a [[frame]], then a completely prime filter of $L$ is g
 
 * [[countably prime filter]]
 
+* [[point of a locale]]
+
 ## References
 
 * [[Ming Ng]], *Adelic Geometry via Topos Theory*, PhD thesis ([pdf](https://puzzledoyster.github.io/publications/FINALSUBMISSION.pdf))
