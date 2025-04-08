@@ -404,7 +404,7 @@ defined similarly. The question is whether $Ex^\infty X$ with $X$ a cubical set 
 ### Model category structure and homotopy theory
  {#ModelCategoryStructureAndHomotopyTheory}
 
-There is a [Cisinski model structure]] on cubical sets with the same [[homotopy theory]] as the standard [[model structure on simplicial sets]] ([Jardine 02](#Jardine02)), which models [[homotopy types]]/[[infinity-groupoids]]. See the article [[model structure on cubical sets]] for more information.
+There is a [[Cisinski model structure]] on cubical sets with the same [[homotopy theory]] as the standard [[model structure on simplicial sets]] ([Jardine 02](#Jardine02)), which models [[homotopy types]]/[[infinity-groupoids]]. See the article [[model structure on cubical sets]] for more information.
 
 In fact ([Jardine 02, theorem 29, theorem 30](#Jardine02)) gives an [[adjunction]] between the [[model categories]] which, while not quite a [[Quillen adjunction]], does have [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]] being [[weak equivalences]]. Hence by the discussion at _[[adjoint (∞,1)-functor]]_  it should indeed follow that the [[derived functors]] of the adjunction exhibit the [[simplicial localizations]] of cubical sets equivalent to that of simplicial sets, hence make their [[(∞,1)-categories]] [[equivalence of (∞,1)-categories|equivalent]] (hence equivalent to [[∞Grpd]]). 
 
