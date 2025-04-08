@@ -21,6 +21,11 @@ Quantum stabilizer codes are closely related to classical [[error correcting cod
 
 (e.g. [Ball, Centelles & Huber 20, Sec. 2.3](#BallCentellesHuber20))
 
+## Related concepts
+
+* [[Clifford group]]
+
+
 ## References
 
 Stabilizer codes were introduced, independeny, in
