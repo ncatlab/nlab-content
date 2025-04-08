@@ -71,6 +71,9 @@ For a very intuitive and readable derivation, see:
 
 * R. Strichartz, _The Way of Analysis_, Jones & Bartlett, 2000.
 
+For a [[polynomial function]] whose Lesbegue measurability is independent of [[ZFC]], see:
+
+* [[James E. Hanson]], *Any function I can actually write down is measurable, right?* ([arXiv:2501.02693](https://arxiv.org/abs/2501.02693))
 
 [[!redirects Lebesgue measure]]
 [[!redirects Lebesgue measures]]
