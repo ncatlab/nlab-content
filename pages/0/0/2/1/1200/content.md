@@ -89,6 +89,14 @@ On the equivalence of set-theoretic and type-theoretic ordinals, see:
 
 * [[Tom de Jong]], [[Nicolai Kraus]], [[Fredrik Nordvall Forsberg]], and [[Chuangjie Xu]], *Ordinals.CumulativeHierarchy.html* ([web](https://www.cs.bham.ac.uk/~mhe/TypeTopology/Ordinals.CumulativeHierarchy.html))
 
+On [[ordinals]] in [[dependent type theory]] and [[marked extensional well-founded orders]]:
+
+* {#deJongEtAl23} [[Tom de Jong]], [[Nicolai Kraus]], [[Fredrik Nordvall Forsberg]], [[Chuangjie Xu]], *Set-Theoretic and Type-Theoretic Ordinals Coincide* &lbrack;[arXiv:2301.10696](https://arxiv.org/abs/2301.10696)&rbrack;
+
+On ordinal exponentiation in [[dependent type theory]], see:
+
+* {#deJongEtAl25} [[Tom de Jong]], [[Nicolai Kraus]], [[Fredrik Nordvall Forsberg]], [[Chuangjie Xu]], *Ordinal Exponentiation in Homotopy Type Theory* ([arXiv:2501.14542](https://arxiv.org/abs/2501.14542))
+
 Basic set-theory including ordinals is developped in the appendix of:
 
 * [[John Kelley]], _General topology_, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) &lbrack;[ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251)&rbrack;
