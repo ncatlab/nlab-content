@@ -56,6 +56,9 @@ $$
 
 exhibits $Locale$ as a [[full sub-2-category]] of [[Topos]]. See _[[localic reflection]]_ for more on this.
 
+## Related concepts
+
+* [[category of Priestley spaces]]
 
 ## References
 
