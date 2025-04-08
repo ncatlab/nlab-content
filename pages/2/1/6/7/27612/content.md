@@ -14,7 +14,7 @@
 ## Definition
 
 \begin{definition}
-A **simplicial $\infty$-groupoid** is an [[(∞,1)-functor]]
+A **simplicial $\infty$-groupoid** or **simplicial [[anima]]** is an [[(∞,1)-functor]]
 
 $$
   X \colon \Delta^{op} \to \infty\mathrm{Grpd}
@@ -94,6 +94,12 @@ Simplicial $\infty$-groupoids can be modeled by [[bisimplicial sets]].
 
 ## Related concepts
 
+* [[infinity-groupoid]]
+
+* [[(infinity,1)-functor]]
+
+* [[simplex category]]
+
 * [[simplicial object in an (infinity,1)-category]]
 
 * [[simplicial set]]
@@ -110,7 +116,12 @@ Simplicial $\infty$-groupoids can be modeled by [[bisimplicial sets]].
 [[!redirects simplicial ∞-groupoid]]
 [[!redirects simplicial ∞-groupoids]]
 
+[[!redirects simplicial anima]]
+[[!redirects simplicial animas]]
+
 [[!redirects ∞GrpdΔop]]
+
+[[!redirects AniΔop]]
 
 [[!redirects (∞,1)-category of simplicial infinity-groupoids]]
 [[!redirects (∞,1)-categories of simplicial infinity-groupoids]]
@@ -118,11 +129,23 @@ Simplicial $\infty$-groupoids can be modeled by [[bisimplicial sets]].
 [[!redirects (∞,1)-category of simplicial ∞-groupoids]]
 [[!redirects (∞,1)-categories of simplicial ∞-groupoids]]
 
+[[!redirects (∞,1)-category of simplicial anima]]
+[[!redirects (∞,1)-categories of simplicial anima]]
+
+[[!redirects (∞,1)-category of simplicial animas]]
+[[!redirects (∞,1)-categories of simplicial animas]]
+
 [[!redirects (infinity,1)-category of simplicial infinity-groupoids]]
 [[!redirects (infinity,1)-categories of simplicial infinity-groupoids]]
 
 [[!redirects (infinity,1)-category of simplicial ∞-groupoids]]
 [[!redirects (infinity,1)-categories of simplicial ∞-groupoids]]
+
+[[!redirects (infinity,1)-category of simplicial anima]]
+[[!redirects (infinity,1)-categories of simplicial anima]]
+
+[[!redirects (infinity,1)-category of simplicial animas]]
+[[!redirects (infinity,1)-categories of simplicial animas]]
 
 [[!redirects (∞,1)-topos of simplicial infinity-groupoids]]
 [[!redirects (∞,1)-toposes of simplicial infinity-groupoids]]
@@ -132,6 +155,14 @@ Simplicial $\infty$-groupoids can be modeled by [[bisimplicial sets]].
 [[!redirects (∞,1)-toposes of simplicial ∞-groupoids]]
 [[!redirects (∞,1)-topoi of simplicial ∞-groupoids]]
 
+[[!redirects (∞,1)-topos of simplicial anima]]
+[[!redirects (∞,1)-toposes of simplicial anima]]
+[[!redirects (∞,1)-topoi of simplicial anima]]
+
+[[!redirects (∞,1)-topos of simplicial animas]]
+[[!redirects (∞,1)-toposes of simplicial animas]]
+[[!redirects (∞,1)-topoi of simplicial animas]]
+
 [[!redirects (infinity,1)-topos of simplicial infinity-groupoids]]
 [[!redirects (infinity,1)-toposes of simplicial infinity-groupoids]]
 [[!redirects (infinity,1)-topoi of simplicial infinity-groupoids]]
@@ -139,3 +170,11 @@ Simplicial $\infty$-groupoids can be modeled by [[bisimplicial sets]].
 [[!redirects (infinity,1)-topos of simplicial ∞-groupoids]]
 [[!redirects (infinity,1)-toposes of simplicial ∞-groupoids]]
 [[!redirects (infinity,1)-topoi of simplicial ∞-groupoids]]
+
+[[!redirects (infinity,1)-topos of simplicial anima]]
+[[!redirects (infinity,1)-toposes of simplicial anima]]
+[[!redirects (infinity,1)-topoi of simplicial anima]]
+
+[[!redirects (infinity,1)-topos of simplicial animas]]
+[[!redirects (infinity,1)-toposes of simplicial animas]]
+[[!redirects (infinity,1)-topoi of simplicial animas]]
