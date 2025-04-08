@@ -65,6 +65,8 @@ A $\sigma$-locale with $X \cong X_{\Sigma L}$ is called **[[spatial sigma-locale
 
 * [[locale]]
 
+* [[Priestley space]]
+
 ## References
 
 * Francesco Ciraulo, *$\sigma$-locales in Formal Topology*, Logical Methods in Computer Science, Volume 18, Issue 1 (January 12, 2022) ([doi:10.46298/lmcs-18%281%3A7%292022](https://doi.org/10.46298/lmcs-18%281%3A7%292022), [arXiv:1801.09644](https://arxiv.org/abs/1801.09644))
@@ -78,3 +80,7 @@ A $\sigma$-locale with $X \cong X_{\Sigma L}$ is called **[[spatial sigma-locale
 
 [[!redirects σ-locale]]
 [[!redirects σ-locales]]
+
+[[!redirects σLoc]]
+[[!redirects category of σ-locales]]
+[[!redirects category of sigma-locales]]
