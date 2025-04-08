@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On the [[fat Delta category]]:
+
+* [[Tom de Jong]], [[Nicolai Kraus]], [[Simona Paoli]], [[Stiéphen Pradal]], *A study of Kock's fat Delta* ([arXiv:2503.10963](https://arxiv.org/abs/2503.10963))
+
 On the [[universal property]] of [[propositional truncation]]:
 
 * [[Nicolai Kraus]], *The General Universal Property of the Propositional Truncation*, in *TYPES 2014* Leibniz International Proceedings in Informatics (LIPIcs) **39** (2015) &lbrack;[arXiv:1411.2682](https://arxiv.org/abs/1411.2682), [doi:10.4230/LIPIcs.TYPES.2014.111](https://doi.org/10.4230/LIPIcs.TYPES.2014.111)&rbrack;
@@ -38,10 +42,13 @@ On [[quotient types]] and [[higher inductive types]]:
 
 * [[Thorsten Altenkirch]], [[Paolo Capriotti]], [[Gabe Dijkstra]], [[Nicolai Kraus]], [[Fredrik Forsberg]], *Quotient inductive-inductive types*, Foundations of Software Science and Computation Structures (FoSSaCS 2018), Lecture Notes in Computer Science **10803** (2018) &lbrack;[doi:10.1007/978-3-319-89366-2_16](https://doi.org/10.1007/978-3-319-89366-2_16), [arXiv:1612.02346](https://arxiv.org/abs/1612.02346)&rbrack;
 
-On [[ordinals]] in [[type theory]] and [[marked extensional well-founded orders]]:
+On [[ordinals]] in [[dependent type theory]] and [[marked extensional well-founded orders]]:
 
 * {#deJongEtAl23} [[Tom de Jong]], [[Nicolai Kraus]], [[Fredrik Nordvall Forsberg]], [[Chuangjie Xu]], *Set-Theoretic and Type-Theoretic Ordinals Coincide* &lbrack;[arXiv:2301.10696](https://arxiv.org/abs/2301.10696)&rbrack;
 
+On ordinal exponentiation in [[dependent type theory]], see:
+
+* {#deJongEtAl25} [[Tom de Jong]], [[Nicolai Kraus]], [[Fredrik Nordvall Forsberg]], [[Chuangjie Xu]], *Ordinal Exponentiation in Homotopy Type Theory* ([arXiv:2501.14542](https://arxiv.org/abs/2501.14542))
 
 
 ## Related entries
