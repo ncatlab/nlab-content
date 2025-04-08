@@ -17,95 +17,113 @@
 
 ## Idea
 
-*Simplicial type theory* is a [[cohesive type theory|cohesive]] [[modal type theory|modal]] [[homotopy type theory]] which introduces a [[directed homotopy theory|directed]] [[linear interval]] [[type]] and various [[modalities]] on top of [[Martin-Löf type theory]] to model [[simplicial infinity-groupoids|simplicial $\infty$-groupoids]] and other [[geometric shape for higher structures|geometric shapes]], such as [[Segal space]]-types, [[Rezk completion|Rezk complete]]-types, and covariant fibrations. 
+*Simplicial type theory* is a [[cohesive homotopy type theory]] which is used to represent the internal logic of [[cohesive (infinity,1)-topos|cohesive]] [[locally cartesian closed (infinity,1)-category|locally cartesian closed $(\infty,1)$-categories]] of [[simplicial objects in an (infinity,1)-category|simplicial objects]] in a locally cartesian closed $(\infty,1)$-category. One can think of simplicial type theory as a [[synthetic mathematics|synthetic]] theory of [[simplicial anima]], since the [[cohesive (infinity,1)-topos]] $\mathrm{Ani}^{\Delta^\op}$ of [[simplicial anima]] is the characteristic example of a cohesive locally cartesian closed $(\infty,1)$-category of simplicial objects in a locally cartesian closed $(\infty,1)$-category. 
 
-The interval type can be defined either via axioms ([Gratzer, Weinberger & Buchholtz 2024](#GWB24), [Gratzer, Weinberger & Buchholtz 2025](#GWB24)), or via 
-additional non-fibrant layers ([Riehl & Shulman 2017, §3](#RiehlShulman17)). 
+Simplicial type theory is used to construct various [[geometric shape for higher structures|geometric shapes]] [[internal logic|internally]], such as [[precategory object in an (infinity,1)-category|$(\infty,1)$-precategories]] ([[Segal space]]-types), [[category object in an (infinity,1)-category|$(\infty,1)$-categories]] ([[Rezk completion|Rezk complete]]-types), and covariant fibrations. 
 
-## Formal presentations
+## Definition
 
-There are many different ways to formalize the directed interval primitive in simplicial type theory: 
+Simplicial type theory is a [[cohesive homotopy type theory]]: that is, a [[dependent type theory]] with a [[sharp modality]], [[flat modality]], and [[shape modality]] [[adjoint triple]]
 
-* one could simply postulate in vanilla [[dependent type theory]] via inference rules and axioms a directed interval primitive as a [[bounded total order]], as in [Gratzer, Weinberger, & Buchholtz 2024](#GWB24) and [Gratzer, Weinberger, & Buchholtz 2025](#GWB25). 
+$$\esh \dashv \flat \dashv \sharp$$
 
-* one could use [[two-level type theory]] consisting of a non-fibrant layer, and then axiomatise a directed interval primitive as a [[bounded total order]] in the non-fibrant layer 
+The [[flat modality]] $\flat A$ represents the [[global sections]] [[(infinity,1)-functor]] which takes a [[simplicial anima]] and returns its [[core]] discrete [[anima]]. 
 
-* one could use [[type theory with shapes]] consisting of a non-fibrant layer of cubes which is a [[simple type theory]] and a non-fibrant layer of topes which is a [[propositional logic]] over the cube layer, and then define the directed interval primitive as a [[bounded total order]] using the cube and tope layers, as in [Riehl & Shulman 2017](#RiehlShulman17)
+In addition, simplicial type theory comes with a designated [[bounded total order]] $\mathbb{I}$ called a *directed [[interval]]*, such that 
 
-### With axioms
+* the shape modality is equivalent to [[localization of a type|localization]] at $\mathbb{I}$, $\esh A \simeq L_\mathbb{I}(A)$,
 
-The directed interval primitive $\mathbb{2}$ in simplicial type theory is a non-trivial [[bounded total order]]. Bounded total orders have many definitions in mathematics, such as a bounded [[partial order]] satisfying totality, or a [[lattice]] satisfying totality. As such, there are multiple possible sets of inference rules one could use to present the directed interval in the formalization. 
+* the [[booleans]] are the global points of $\mathbb{I}$: i.e. the unique endpoints-preserving [[monotonic function]] from the [[boolean domain]] $\mathbb{2}$ to $\mathbb{I}$ is an [[embedding of types]] and the unique endpoints-preserving monotonic function from $\mathbb{2}$ to $\flat \mathbb{I}$ is an [[equivalence of types]],
 
-The axiomx for the directed interval primitive $(\mathbb{2}, \leq)$ as a [[partial order]] in the formalization are as follows:
+* the **axiom of simplicial [[axiom of cohesion|cohesion]]**: for all discrete types $A$, the canonically defined function $\flat(-):A \to \flat A$ is an [[equivalence of types]] if and only if the function $\mathrm{const}_{A, \mathbb{I}}$ which takes elements of $A$ to constant functions $\mathbb{I} \to A$ is an [[equivalence of types]]. 
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{2} \; \mathrm{type}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{2}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{2}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2}, y:\mathbb{2} \vdash x \leq y \; \mathrm{type}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2}, y:\mathbb{2} \vdash \tau_\leq(x, y):\mathrm{isProp}(x \leq y)}$$
+### Formalising the bounded total order
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2} \vdash \mathrm{refl}_\leq(x):x \leq x} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2}, y:\mathbb{2}, z:\mathbb{2}, p:x \leq y, q:y \leq z \vdash \mathrm{trans}_\leq(x, y, z, p, q):(x \leq z)}$$
+There are many different ways to formalize the bounded total order in simplicial type theory: 
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2}, y:\mathbb{2} \vdash \mathrm{antisym}_\leq(x, y):\mathrm{isEquiv}(idtoleqgeq(x, y))} \quad \mathrm{where} \quad 
-\begin{array}{l}
-idtoleqgeq(x, y):(x =_\mathbb{2} y) \to (x \leq y) \times (y \leq x) \\
-idtoleqgeq(x, x)(\mathrm{id}_\mathbb{2}(x)) \coloneqq (\mathrm{refl}_\leq(x), \mathrm{refl}_\leq(x))
-\end{array}
-$$
+* one could simply postulate in vanilla [[dependent type theory]] via inference rules and axioms a [[bounded total order]], as in [Gratzer, Weinberger, & Buchholtz 2024](#GWB24) and [Gratzer, Weinberger, & Buchholtz 2025](#GWB25). 
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2}, y:\mathbb{2} \vdash \mathrm{totl}_\leq(x, y):[(x \leq y) + (y \leq x)]} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2} \vdash \mathrm{bot}_\leq(x):0 \leq x} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2} \vdash \mathrm{top}_\leq(x):x \leq 1}$$
+* one could use [[two-level type theory]] consisting of a non-fibrant layer, and then axiomatise a [[bounded total order]] in the non-fibrant layer 
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{nontriv}_\leq:(0 =_\mathbb{2} 1) \to \mathbb{0}}$$
+* one could use [[type theory with shapes]] consisting of a non-fibrant layer of cubes which is a [[simple type theory]] and a non-fibrant layer of topes which is a [[propositional logic]] over the cube layer, and then define the [[bounded total order]] using the cube and tope layers, as in [Riehl & Shulman 2017](#RiehlShulman17). 
 
-The axioms for the directed interval primitive $\mathbb{2}$ as a [[lattice]] in the formalization are as follows:
+The first approach is simpler to define, while the latter two are easier to work with, since the equalities in the interval type are [[judgmental equalities]] rather than [[identifications]], so one doesn't have to deal with [[transport]] hell. 
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{2} \; \mathrm{type}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \tau_0:\mathrm{isSet}(\mathbb{2})} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{2}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{2}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2}, y:\mathbb{2} \vdash x \wedge y:\mathbb{2}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2}, y:\mathbb{2} \vdash x \vee y:\mathbb{2}}$$
+In the latter two approaches, the [[function type]] $\mathbb{I} \to A$ used in the axiom of cohesion is usually defined as an [[extension type]], while the [[dependent function type]] $\prod_{i:\mathbb{I}} A(i)$ is usually defined as a [[dependent extension type]]. 
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2} \vdash \mathrm{idem}_\wedge(x):x \wedge x =_{\mathbb{2}} x} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2}, y:\mathbb{2} \vdash \mathrm{comm}_\wedge(x, y):x \wedge y =_{\mathbb{2}} y \wedge x}$$ 
+### Additional modalities
 
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2}, y:\mathbb{2}, z:\mathbb{2} \vdash \mathrm{assoc}_\wedge(x, y, z):(x \wedge y) \wedge z =_{\mathbb{2}} x \wedge (y \wedge z)}$$
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2} \vdash \mathrm{lunit}_\wedge(x):1 \wedge x =_{\mathbb{2}} x} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2} \vdash \mathrm{runit}_\wedge(x):x \wedge 1 =_{\mathbb{2}} x}$$ 
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2} \vdash \mathrm{idem}_\vee(x):x \vee x =_{\mathbb{2}} x} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2}, y:\mathbb{2} \vdash \mathrm{comm}_\vee(x, y):x \vee y =_{\mathbb{2}} y \vee x}$$ 
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2}, y:\mathbb{2}, z:\mathbb{2} \vdash \mathrm{assoc}_\vee(x, y, z):(x \vee y) \vee z =_{\mathbb{2}} x \vee (y \vee z)}$$
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2} \vdash \mathrm{lunit}_\vee(x):0 \vee x =_{\mathbb{2}} x} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2} \vdash \mathrm{runit}_\vee(x):x \vee 0 =_{\mathbb{2}} x}$$ 
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2}, y:\mathbb{2} \vdash \mathrm{asorp}_\wedge(x, y):x \wedge (x \vee y) =_{\mathbb{2}} x} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2}, y:\mathbb{2} \vdash \mathrm{asorp}_\vee(x, y):x \vee (x \wedge y) =_{\mathbb{2}} x}$$ 
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, x:\mathbb{2}, y:\mathbb{2} \vdash \mathrm{totl}(x, y):[(x \wedge y =_{\mathbb{2}} x) + (x \wedge y =_{\mathbb{2}} y)]} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{nontriv}_\leq:(0 =_\mathbb{2} 1) \to \mathbb{0}}$$ 
-
-We inductively define the $n$-simplices as the following family of types:
-
-* The $0$-simplex is the unit type 
-$$\Delta^0 \coloneqq \mathbf{1}$$
-
-* Let $\mathrm{Fin}(n) \coloneqq \sum_{i:\mathbb{N}} i \lt n$ be the canonical [[finite type]] with $n$ elements. The $n+1$-simplex is defined as the type
-$$n:\mathbb{N} \vdash \Delta^{n + 1} \coloneqq \sum_{t:\mathrm{Fin}(n + 1) \to \mathbb{2}} \prod_{i:\mathrm{Fin}(n)} t(\pi_1(i + 1)) \leq t(\pi_1(i))$$
-
-The first few simplicies can be explicitly written as 
-
-$$\Delta^1 \coloneqq \mathbb{2}$$
-$$\Delta^2 \coloneqq \sum_{t:\mathrm{Fin}(2) \to \mathbb{2}} t(1) \leq t(0)$$
-$$\Delta^3 \coloneqq \sum_{t:\mathrm{Fin}(3) \to \mathbb{2}} (t(2) \leq t(1)) \times (t(1) \leq t(0))$$
-
-Subshapes of the simplicies could also be defined. 
-
-* The boundary of the $1$-simplex is defined as
-$$\partial \Delta^1 \coloneqq \sum_{t:\Delta^1} [(t =_{\Delta^1} 0) + (t =_{\mathbb{2}} 1)]$$
-
-* The boundary of the $2$-simplex is defined as
-$$\partial \Delta^2 \coloneqq \sum_{t:\mathrm{Fin}(2) \to \mathbb{2}} [(t(0) =_{\mathbb{2}} 0) \times (t(0) \leq t(1)) + (t(0) =_{\mathbb{2}} t(1)) + (t(0) \leq t(1)) \times (t(1) =_{\mathbb{2}} 1)]$$
-
-### Modalities
-
-Simplicial type theory has recently been augmented with various [[modalities]] in the sense of [[modal type theory]] ([Gratzer, Weinberger, & Buchholtz 2024](#GWB24), [Gratzer, Weinberger, & Buchholtz 2025](#GWB25)). These modalities include 
+Simplicial type theory has recently been augmented with various other [[modalities]] in the sense of [[modal type theory]] ([Gratzer, Weinberger, & Buchholtz 2024](#GWB24), [Gratzer, Weinberger, & Buchholtz 2025](#GWB25)). These modalities include 
 
 * The [[op modality]] $A^\op$
 
-* The [[global sections]]/[[core]] [[flat modality]] $\flat A$
-
-* The [[sharp modality]] $\sharp A$
-
 * The [[twisted arrow modality]] $A^\mathrm{tw}$
+
+## $(\infty,1)$-category theory in simplicial type theory
+
+Since [[simplicial type theory]] is a [[synthetic mathematics|synthetic]] theory of [[simplicial anima]], simplicial type theory is typically used in [[(infinity,1)-category theory]] to define [[(infinity,1)-categories]] in the same way that [[(infinity,1)-categories]] are defined in [[simplicial anima]] as [[category objects in an (infinity,1)-category|category objects]] in [[anima]].
+
+### Shapes in simplicial type theory
+
+Let $\mathrm{Fin}(n) \coloneqq \sum_{i:\mathbb{N}} i \lt n$ be the canonical [[finite type]] with $n$ elements. Given the directed interval $\mathbb{I}$, the $n$-cubes are defined by the function type $\Box^n \coloneqq \mathrm{Fin}(n) \to \mathbb{I}$. 
+
+Subshapes of the cubes could also be defined. 
+
+* The $2$-simplex is defined as
+$$\Delta^2 \coloneqq \sum_{t:\mathrm{Fin}(2) \to \mathbb{I}} t(0) \leq t(1)$$
+
+* The horn $\Lambda^2_1$ is defined as
+$$\Lambda^2_1 \coloneqq \sum_{t:\mathrm{Fin}(2) \to \mathbb{I}} (t(0) =_{\mathbb{I}} 0) \vee (t(1) =_{\mathbb{I}} 1)$$
+
+Since $t(0) \leq t(1)$ implies $t(0) =_{\mathbb{I}} 0) \vee (t(1) =_{\mathbb{I}} 1)$ for all $t:\mathrm{Fin}(2) \to \mathbb{I}$, we have a canonical function 
+
+$$(\mathrm{id}, P):\Delta^2 \to \Lambda^2_1$$
+
+which is a pair consisting of the [[identity function]] on $\mathrm{Fin}(2) \to \mathbb{I}$ and a [[dependent function]] $P$ that takes the witness that $t(0) \leq t(1)$ to a witness that $(t(0) =_{\mathbb{I}} 0) \vee (t(1) =_{\mathbb{I}} 1)$. By precomposition, this leads to a function 
+
+$$\lambda t.t \circ (\mathrm{id}, P):(\Delta^2 \to A) \to (\Lambda^2_1 \to A)$$
+
+for all types $A$. 
+
+### Morphisms and $(\infty,1)$-precategories
+
+The [[morphisms]] between elements $x:A$ and $y:A$ in a type $A$ are defined in simplicial type theory as a [[tuple]] consisting of a function $f:\mathbb{I} \to A$ and two identifications $p_0:f(0) = x$ and $p_1:f(1) = y$. The type of morphisms is called a *[[hom-type]]* and is defined as the [[dependent sum type]]
+
+$$\mathrm{hom}_A(x, y) \coloneqq \sum_{f:\mathbb{I} \to A} (f(0) = x) \times (f(1) = y)$$
+
+A *composite of morphisms* in a type $A$ is a function $f:\Delta^2 \to A$ from the [[2-simplex]] to $A$. A *pair of composable morphisms* in a type $A$ is a function $g:\Lambda^2_1 \to A$ from the [[horn]] $\Lambda^2_1$ to $A$. 
+
+\begin{definition}
+An *$(\infty,1)$-precategory* is a type $A$ which satisfies the [[Segal condition]]: for every pair of composable morphisms, there exists a unique composite. That is, the canonical function which takes a composite of morphisms to its pair of composible morphisms is an [[equivalence of types]]
+
+$$\mathrm{isEquiv}(\lambda t.t \circ (\mathrm{id}, P))$$ 
+\end{definition}
+
+As a result, in an $(\infty,1)$-precategory $A$, for all elements $x:A$, $y:A$, and $z:A$, one can construct a [[composition]] operation on [[hom-types]] 
+
+$$\lambda (g, f).g \circ f:\mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, y) \to \mathrm{hom}_A(x, z)$$
+
+which by the uniqueness condition is automatically [[associative]] and [[unital]]. 
+
+### Isomorphisms and $(\infty,1)$-categories
+
+A [[morphism]] $f:\mathrm{hom}_A(x, y)$ between elements $x:A$ and $y:A$ in a type $A$ is an *[[isomorphism]]* if one can construct a morphism $g:\mathrm{hom}_A(y, x)$ such that $g \circ f = \mathrm{id}_A(x)$ and a morphism $h:\mathrm{hom}_A(y, x)$ such that $f \circ h = \mathrm{id}_A(y)$. 
+
+The type of isomorphisms is given by the [[dependent sum type]]
+
+$$\mathrm{iso}_A(x, y) \coloneqq \sum_{f:\mathrm{hom}_A(x, y)} \left(\sum_{g:\mathrm{hom}_A(y, x)} g \circ f = \mathrm{id}_A(x)\right) \times \left(\sum_{h:\mathrm{hom}_A(y, x)} f \circ h = \mathrm{id}_A(y)\right)$$
+
+\begin{definition}
+An *$(\infty,1)$-category* is an $(\infty,1)$-precategory $A$ which satisfies the [[univalence axiom]]: the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to an isomorphism $J(\mathrm{id}_A(t), x, y, p):\mathrm{iso}_A(x, y)$ is an [[equivalence of types]] for all $x:A$ and $y:A$. 
+
+$$\prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\lambda p.J(\lambda t.\mathrm{id}_A(t), x, y, p))$$ 
+\end{definition}
+
+Examples of $(\infty,1)$-categories include the interval $\mathbb{I}$, the $n$-cubes $\mathrm{Fin}(n) \to \mathbb{I}$, and the $n$-simplices inductively defined by 
+ 
+$$\Delta^0 \coloneqq \mathrm{Fin}(0) \to \mathbb{I}$$
+
+$$n:\mathbb{N} \vdash \Delta^{n + 1} \coloneqq \sum_{t:\mathrm{Fin}(n + 1) \to \mathbb{I}} \prod_{i:\mathrm{Fin}(n)} t(\pi_1(i)) \leq t(\pi_1(i + 1))$$
 
 ## See also
 
@@ -127,6 +145,8 @@ Simplicial type theory has recently been augmented with various [[modalities]] i
 
   * [[modal type theory]]
 
+  * [[cohesive homotopy type theory]]
+
   * [[type theory with shapes]]
 
   * [[two-level type theory]]
@@ -134,7 +154,6 @@ Simplicial type theory has recently been augmented with various [[modalities]] i
 ## References
 
 * {#RiehlShulman17} [[Emily Riehl]], [[Mike Shulman]], *A type theory for synthetic ∞-categories*, Higher Structures **1** 1 (2017) &lbrack;[arxiv:1705.07442](https://arxiv.org/abs/1705.07442), [published article](https://higher-structures.math.cas.cz/api/files/issues/Vol1Iss1/RiehlShulman)&rbrack;
-
 
 * [[Jonathan Weinberger]], *A Synthetic Perspective on $(\infty,1)$-Category Theory: Fibrational and Semantic Aspects* $[$[arXiv:2202.13132](https://arxiv.org/abs/2202.13132)$]$
 
@@ -160,6 +179,8 @@ Formalization of the [[(infinity,1)-Yoneda lemma|$(\infty,1)$-Yoneda lemma]] via
 
 
 [[!redirects simplicial homotopy type theory]]
+
+[[!redirects axiom of simplicial cohesion]]
 
 [[!redirects triangulated type theory]]
 [[!redirects triangulated homotopy type theory]]
