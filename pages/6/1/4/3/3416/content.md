@@ -46,3 +46,5 @@ category: category
 [[!redirects Frm]]
 
 [[!redirects free frame]]
+
+[[!redirects category of frames]]
