@@ -30,7 +30,7 @@ The connected component $SO(d-1,2)$ of the anti de Sitter group is [[isomorphism
 
 ### Exceptional isomorphisms
 
-* $SO(6,2) \simeq SO(4,\mathbb{H})$ (where $\mathbb{H}$ is the [[quaternions]])
+* $SemiSpin(6,2) \simeq SO^*(4,\mathbb{H})$ (where $\mathbb{H}$ is the [[quaternions]])
 
 ## Related concepts
 
