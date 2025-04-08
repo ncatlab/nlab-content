@@ -34,6 +34,8 @@ $Dist Lat$ is given by a finitary [[variety of algebras]], or equivalently by a 
 
 * [[Pos]], [[Frm]], [[σFrm]]
 
+* [[category of Priestley spaces]]
+
 category: category
 
 [[!redirects DistLat]]
