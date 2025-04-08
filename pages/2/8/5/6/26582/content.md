@@ -65,7 +65,7 @@ A $\sigma$-locale with $X \cong X_{\Sigma L}$ is called **[[spatial sigma-locale
 
 * [[locale]]
 
-* [[Priestley space]]
+* [[coherent locale]]
 
 ## References
 
