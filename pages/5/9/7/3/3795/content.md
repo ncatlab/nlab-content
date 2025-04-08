@@ -48,6 +48,8 @@ A more general setup of [[motive|motivic]] Donaldson-Thomas invariants is given 
 
 * Young-Hoon Kiem, Jun Li, _Categorification of Donaldson-Thomas invariants via Perverse Sheaves_, [arxiv/1212.6444](http://arxiv.org/abs/1212.6444)
 
+* [[Stavros Garoufalidis]], [[Peter Scholze]], [[Campbell Wheeler]], [[Don Zagier]], *The Habiro ring of a number field* ([arXiv:2412.04241](https://arxiv.org/abs/2412.04241))
+
 ### Motivic Donaldson-Thomas invariants
 
 The original articles are
