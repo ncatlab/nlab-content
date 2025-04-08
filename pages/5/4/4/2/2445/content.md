@@ -1,4 +1,6 @@
 
+> (For the "[[Clifford group]]" in [[quantum information theory]] see instead there.)
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
