@@ -2,11 +2,9 @@
 
 * [webpage](https://www.tdejong.com/)
 
+
 ## Selected writings and talks
 
-On the [[fat Delta category]]:
-
-* [[Tom de Jong]], [[Nicolai Kraus]], [[Simona Paoli]], [[Stiéphen Pradal]], *A study of Kock's fat Delta* ([arXiv:2503.10963](https://arxiv.org/abs/2503.10963))
 
 On [[domain theory]] in [[constructive mathematics|constructive]] [[set theory]]:
 
@@ -20,14 +18,19 @@ On [[ordinals]] in [[dependent type theory]] and [[marked extensional well-found
 
 * {#deJongEtAl23} [[Tom de Jong]], [[Nicolai Kraus]], [[Fredrik Nordvall Forsberg]], [[Chuangjie Xu]], *Set-Theoretic and Type-Theoretic Ordinals Coincide* &lbrack;[arXiv:2301.10696](https://arxiv.org/abs/2301.10696)&rbrack;
 
-On ordinal exponentiation in [[dependent type theory]], see:
-
-* {#deJongEtAl25} [[Tom de Jong]], [[Nicolai Kraus]], [[Fredrik Nordvall Forsberg]], [[Chuangjie Xu]], *Ordinal Exponentiation in Homotopy Type Theory* ([arXiv:2501.14542](https://arxiv.org/abs/2501.14542))
-
 On [[epimorphisms]] in [[homotopy type theory]]:
 
 * [[Tom de Jong]], *Acyclic types and epimorphisms in HoTT*, [[Homotopy Type Theory Electronic Seminar Talks]], 17 November 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Jong-2022-11-17-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=vohAYPAAWxs))
 
 * [[Ulrik Buchholtz]], [[Tom de Jong]], [[Egbert Rijke]], *Epimorphisms and Acyclic Types in Univalent Mathematics*, ([arXiv:2401.14106](https://arxiv.org/abs/2401.14106))
+
+On ordinal exponentiation in [[dependent type theory]], see:
+
+* {#deJongEtAl25} [[Tom de Jong]], [[Nicolai Kraus]], [[Fredrik Nordvall Forsberg]], [[Chuangjie Xu]], *Ordinal Exponentiation in Homotopy Type Theory* ([arXiv:2501.14542](https://arxiv.org/abs/2501.14542))
+
+On the [[fat Delta category]]:
+
+* [[Tom de Jong]], [[Nicolai Kraus]], [[Simona Paoli]], [[Stiéphen Pradal]], *A study of Kock's fat Delta* ([arXiv:2503.10963](https://arxiv.org/abs/2503.10963))
+
 
 category: people
