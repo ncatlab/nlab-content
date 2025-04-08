@@ -238,6 +238,10 @@ In contrast with point-set topology where non empty spaces tautologically have p
 
 * [[Barr's theorem]]
 
+* [[point of a locale]]
+
+* [[point of an (infinity,1)-topos]]
+
 ## References ##
 
 Textbook references are section 7.5 of 
