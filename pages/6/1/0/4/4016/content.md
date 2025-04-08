@@ -59,5 +59,9 @@ This is theorem A.5 of [[Locally Presentable and Accessible Categories]].
 
 * [[David P. Blecher]], [[Nik Weaver]], *Quantum measurable cardinals* ([arXiv:1607.08505](https://arxiv.org/abs/1607.08505))
 
+Some discussion on measurable cardinals in the context of a [[polynomial function]] whose [[Lebesgue measure|Lesbegue measurability]] is independent of [[ZFC]] occurs in:
+
+* [[James E. Hanson]], *Any function I can actually write down is measurable, right?* ([arXiv:2501.02693](https://arxiv.org/abs/2501.02693))
+
 [[!redirects measurable cardinal]]
 [[!redirects measurable cardinals]]
