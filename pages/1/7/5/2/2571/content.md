@@ -152,6 +152,9 @@ A classification of axioms of variants of $ZFC$, with an eye towards correspondi
 * [[Michael Shulman]] (2018). Comparing material and structural set theories. [arXiv:1808.05204](https://arxiv.org/abs/1808.05204).
 {#Shulman2018}
 
+For a [[polynomial function]] whose [[Lebesgue measure|Lesbegue measurability]] is independent of [[ZFC]], see:
+
+* [[James E. Hanson]], *Any function I can actually write down is measurable, right?* ([arXiv:2501.02693](https://arxiv.org/abs/2501.02693))
 
 [[!redirects ZF]]
 [[!redirects ZFC]]
