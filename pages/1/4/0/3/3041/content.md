@@ -9,6 +9,10 @@ Simona Paoli is a Senior Lecturer in Mathematics Institute, University of Aberde
 
 ## Selected writings
 
+On the [[fat Delta category]]:
+
+* [[Tom de Jong]], [[Nicolai Kraus]], [[Simona Paoli]], [[Stiéphen Pradal]], *A study of Kock's fat Delta* ([arXiv:2503.10963](https://arxiv.org/abs/2503.10963))
+
 On [[higher category theory]] in terms of [[n-fold categories]] and comparison with the Tamsamani Simpson model:
 
 * [[T. M.  Fiore]], S. Paoli, [[D. A.  Pronk]],  _Model structures on the category of small double categories_, Algebraic and Geometric Topology, 8 (2008) 1855-1959.
