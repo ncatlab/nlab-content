@@ -154,5 +154,7 @@ Formalization of the [[(infinity,1)-Yoneda lemma|$(\infty,1)$-Yoneda lemma]] via
 
 [[!redirects simplicial homotopy type theory]]
 
+[[!redirects triangulated type theory]]
+[[!redirects triangulated homotopy type theory]]
 
 
