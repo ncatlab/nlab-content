@@ -112,6 +112,8 @@ However, here is a property which one might expect coherent theories to have, bu
 
 * [[geometric category]], [[geometric functor]], [[geometric logic]], [[geometric theory]]
 
+* [[coherent locale]]
+
 * [[coherent mathematics]]
 
 ## References
